@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link href="abcjs-audio.css" media="all" rel="stylesheet" type="text/css" />
+	
+</head>
+<body>
+<style>
+  @media print {
+    h1, p, textarea, #selection, #audio, #warnings, hr {
+      display: none;
+    }
+  }</style>
+<div id="errors" style="margin-bottom: 2em" ></div>
+<div id="controls" >
+  <input id="generatebutton" style="float: left ;margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
+  <input id="stopbutton" style="display: none; float: left ;margin-right: 2em" type='button' onClick="setStopNow(true)" value="Stop" />
+  <input id="stopbuttonvalue"  type='hidden' value="true" />
+  <button style="float: right;  margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
+  <textarea  rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
+</div>
+<h1>Tune Index</h1>
+<div id="index"   ></div>
+<hr style="width: 100%; margin-top: 2em; clear: both;" />
+<p style='page-break-before: always'></p>
+<div style="float: left; width: 100%; clear: both; padding-bottom: 2em; border-bottom: 2px solid black;" id="indexbykey"   ><br/><h3>Index By Key Signature</h3></div>
+<p style='page-break-before: always'></p>
+<div style="float: left; width: 100%; clear: both; padding-bottom: 2em; border-bottom: 2px solid black;" id="indexbytype"   ><br/><h3>Index By Tune Type</h3></div>
+
+<div id="shortabc"   ></div>
+<div id="longabc"   ></div>
+<p style='page-break-before: always'></p>
+<div style="float: left; width: 100%; clear: both; padding-bottom: 2em;"  id="music"   ></div>
+
+<script src="abc2svg.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="abc2book.js"></script>
+
+<script >
+
+
+$(document).ready(function() {
+  loadSongList()
+  generateMusic()  
+})
+
+
+
+
+/*
+function lookupTunes(tuneName, callback, remainingTunes) {
+  console.log(['LL',tuneName,remainingTunes,callback])
+  if (tuneName.trim().length > 0) {
+    var a = $.get('https://thesession.org/tunes/search?format=json&q='+tuneName).then(function(res) {
+      console.log(['RR',res.tunes.length])
+      if (res && res.tunes && res.tunes.length > 0 && res.tunes[0].id) {
+        $.get('https://thesession.org/tunes/' + res.tunes[0].id+'?format=json').then(function(res2) {
+          
+          if (res2 && res2.settings && res2.settings.length > 0 && res2.settings[0].abc) {
+      console.log(['R3',res2.settings.length])
+      console.log(['OK'])
+            callback(tuneName, res2.settings[0].abc, remainingTunes.slice(1))
+          } else {
+            callback(null,remainingTunes.slice(1))
+          }
+        })
+      } else {
+        callback(null,remainingTunes.slice(1))
+      }
+    })
+  } else {
+     callback(null,remainingTunes.slice(1))
+  }
+}
+
+      lookupTunes(
+        tunesList[0], 
+        function(name,abc,tunesListNew) {
+console.log(['CB',name,abc,tunesListNew])
+          if (name !== null) {
+            $('#songlist').append("<div id='"+name+"'></div>")
+            window.ABCJS.renderAbc(name, abc  + " \n" + "T: " + name + " \n");
+            if (tunesListNew.length > 0) {
+              lookupTunes(tunesListNes[0],c
+            }
+        }
+      }, 
+      tunesList)
+  
+    
+function initEditor() {
+		new ABCJS.Editor("abc", { paper_id: "paper0",
+			synth: {
+				el: "#audio",
+				options: { displayLoop: true, displayRestart: true, displayPlay: true, displayProgress: true, displayWarp: true }
+			},
+			generate_warnings: true,
+			warnings_id:"warnings",
+			abcjsParams: {
+				generateDownload: true,
+				clickListener: selectionCallback
+			}
+		});
+	}
+
+	window.addEventListener("load", initEditor, false);
+
+
+
+
+
+*/
+
+</script>
+</body>
+</html>
