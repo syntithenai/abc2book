@@ -1,5 +1,46 @@
 /* Some basic CSS to make the Audio controls in abcjs presentable. */
 
+.row {
+    position: relative;
+    height: 90px;
+    clear: both;
+  }
+
+  .row div {
+    float: left;
+  }
+   .abcjs-composer tspan {
+       font-size: 0.6em;
+    }
+
+
+  #cheetsheet_music .abcjs-inline-audio {
+			max-width: 300px;
+      float: left;
+		}
+
+		@media print {
+      textarea, #selection, #audio, #warnings, #errors, hr, #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
+				display: none;
+			}
+		}
+		p {
+			max-width: 600px;
+		}
+    #indexbykey, #indexbytype {
+      position: relative;
+    }
+    
+    h1, h2, h3 {
+      clear: both;
+      padding-top: 2em
+    }
+    .sub-list {
+      float: left;
+      margin-left: 2em;
+    }
+
+
 .abcjs-inline-audio {
 	height: 26px;
 	padding: 0 5px;

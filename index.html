@@ -10,32 +10,69 @@
 	
 </head>
 <body>
-<style>
-  @media print {
-    h1, p, textarea, #selection, #audio, #warnings, hr {
-      display: none;
-    }
-  }</style>
-<div id="errors" style="margin-bottom: 2em" ></div>
-<div id="controls" >
-  <input id="generatebutton" style="float: left ;margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
+
+<div id="errors" style="display: none; padding-bottom: 2em" ></div>
+<div id="controls"  style=" background-color: lightblue; position: relative;" >
+  <div style="font-weight: bold;  margin-right: 2em">Type a list of tunes from thesession.org (one per line)</div>
+  
+  <label  id="tempo"  style="float: left ;margin-right: 2em" >Tempo <select id="tempovalue">
+    <option value=""></option>
+    <option value="30">Grave</option>
+    <option value="42">Lento</option>
+    <option value="47">Largo</option>
+    <option value="60">Adagio</option>
+    <option value="67">Adagietto</option>
+    <option value="75">Andante</option>
+    <option value="91">Moderato</option>
+    <option value="104">Allegretto</option>
+    <option value="120">Allegro</option>
+    <option value="136">Vivace</option>
+    <option value="170">Presto</option>
+    <option value="180">Prestissimo</option>
+  </select><label>
+  
+  <input id="generatebutton" style="float: left ; clear: both;  margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
   <input id="stopbutton" style="display: none; float: left ;margin-right: 2em" type='button' onClick="setStopNow(true)" value="Stop" />
   <input id="stopbuttonvalue"  type='hidden' value="true" />
-  <button style="float: right;  margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
-  <textarea  rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
+  <input id="downloadlongabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadLongAbc()" value="Download Tunebook" />
+  <input id="downloadshortabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadShortAbc()" value="Download Cheatsheet" />
+  
+  <button id="printbutton" style="display: none; float: right;  margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
+   
+  <textarea  style="clear: both; float: left; margin-top: 1em" rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
 </div>
-<h1>Tune Index</h1>
-<div id="index"   ></div>
-<hr style="width: 100%; margin-top: 2em; clear: both;" />
-<p style='page-break-before: always'></p>
-<div style="float: left; width: 100%; clear: both; padding-bottom: 2em; border-bottom: 2px solid black;" id="indexbykey"   ><br/><h3>Index By Key Signature</h3></div>
-<p style='page-break-before: always'></p>
-<div style="float: left; width: 100%; clear: both; padding-bottom: 2em; border-bottom: 2px solid black;" id="indexbytype"   ><br/><h3>Index By Tune Type</h3></div>
 
-<div id="shortabc"   ></div>
-<div id="longabc"   ></div>
-<p style='page-break-before: always'></p>
-<div style="float: left; width: 100%; clear: both; padding-bottom: 2em;"  id="music"   ></div>
+<div id="indexes" style="display: none;">
+  <h1>Tune Index</h1>
+  <div id="index"   ></div>
+  <p style='page-break-before: always'><br/></p>
+
+  <h3>Index By Key Signature</h3>
+  <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbykey"   ></div>
+  <p style='page-break-before: always'><br/></p>
+
+  <h3>Index By Tune Type</h3>
+  <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbytype"   ></div>
+</div>
+
+
+<span style="display: none;">
+  <h1>Short</h1>
+  <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
+  <textarea rows='30' cols='60' id="shortabc"   ></textarea>
+</span>
+<span style="display: none;" >
+  <h1>Long</h1>
+   <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick=" renderMusicFromLongAbc()" value="Render" />
+  <textarea rows='30' cols='60'  id="longabc"   ></textarea>
+</span>
+<p style='page-break-before: always'><br/></p>
+<h3>Cheat Sheet</h3>
+<div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
+
+
+<p style='page-break-before: always'><br/></p>
+<div style="width: 100%; clear: both; padding-bottom: 2em;" class="container music"  id="music"   ></div>
 
 <script src="abc2svg.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
@@ -46,75 +83,15 @@
 
 $(document).ready(function() {
   loadSongList()
-  generateMusic()  
-})
-
-
-
-
-/*
-function lookupTunes(tuneName, callback, remainingTunes) {
-  console.log(['LL',tuneName,remainingTunes,callback])
-  if (tuneName.trim().length > 0) {
-    var a = $.get('https://thesession.org/tunes/search?format=json&q='+tuneName).then(function(res) {
-      console.log(['RR',res.tunes.length])
-      if (res && res.tunes && res.tunes.length > 0 && res.tunes[0].id) {
-        $.get('https://thesession.org/tunes/' + res.tunes[0].id+'?format=json').then(function(res2) {
-          
-          if (res2 && res2.settings && res2.settings.length > 0 && res2.settings[0].abc) {
-      console.log(['R3',res2.settings.length])
-      console.log(['OK'])
-            callback(tuneName, res2.settings[0].abc, remainingTunes.slice(1))
-          } else {
-            callback(null,remainingTunes.slice(1))
-          }
-        })
-      } else {
-        callback(null,remainingTunes.slice(1))
-      }
-    })
-  } else {
-     callback(null,remainingTunes.slice(1))
+  loadShortAbc()
+  loadLongAbc()
+  if ($('#shortabc').val().length > 0) {
+    renderCheetsheetFromShortAbc()
+    renderMusicFromLongAbc()
   }
-}
-
-      lookupTunes(
-        tunesList[0], 
-        function(name,abc,tunesListNew) {
-console.log(['CB',name,abc,tunesListNew])
-          if (name !== null) {
-            $('#songlist').append("<div id='"+name+"'></div>")
-            window.ABCJS.renderAbc(name, abc  + " \n" + "T: " + name + " \n");
-            if (tunesListNew.length > 0) {
-              lookupTunes(tunesListNes[0],c
-            }
-        }
-      }, 
-      tunesList)
-  
-    
-function initEditor() {
-		new ABCJS.Editor("abc", { paper_id: "paper0",
-			synth: {
-				el: "#audio",
-				options: { displayLoop: true, displayRestart: true, displayPlay: true, displayProgress: true, displayWarp: true }
-			},
-			generate_warnings: true,
-			warnings_id:"warnings",
-			abcjsParams: {
-				generateDownload: true,
-				clickListener: selectionCallback
-			}
-		});
-	}
-
-	window.addEventListener("load", initEditor, false);
-
-
-
-
-
-*/
+  loadIndexes()
+  //generateMusic()  
+})
 
 </script>
 </body>
