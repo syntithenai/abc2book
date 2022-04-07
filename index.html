@@ -5,42 +5,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>ABC2Book</title>
   <link href="abcjs-audio.css" media="all" rel="stylesheet" type="text/css" />
 	
 </head>
 <body>
 
-<div id="errors" style="display: none; padding-bottom: 2em" ></div>
-<div id="controls"  style=" background-color: lightblue; position: relative;" >
-  <div style="font-weight: bold;  margin-right: 2em">Type a list of tunes from thesession.org (one per line)</div>
+
+<div id="controls"  style="width: 100%; z-index: 3; background-color: lightblue; position: fixed; height: 1.6em; padding: 0.2em" >
   
-  <label  id="tempo"  style="float: left ;margin-right: 2em" >Tempo <select id="tempovalue">
-    <option value=""></option>
-    <option value="30">Grave</option>
-    <option value="42">Lento</option>
-    <option value="47">Largo</option>
-    <option value="60">Adagio</option>
-    <option value="67">Adagietto</option>
-    <option value="75">Andante</option>
-    <option value="91">Moderato</option>
-    <option value="104">Allegretto</option>
-    <option value="120">Allegro</option>
-    <option value="136">Vivace</option>
-    <option value="170">Presto</option>
-    <option value="180">Prestissimo</option>
-  </select><label>
-  
-  <input id="generatebutton" style="float: left ; clear: both;  margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
-  <input id="stopbutton" style="display: none; float: left ;margin-right: 2em" type='button' onClick="setStopNow(true)" value="Stop" />
-  <input id="stopbuttonvalue"  type='hidden' value="true" />
-  <input id="downloadlongabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadLongAbc()" value="Download Tunebook" />
-  <input id="downloadshortabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadShortAbc()" value="Download Cheatsheet" />
-  
-  <button id="printbutton" style="display: none; float: right;  margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
-   
-  <textarea  style="clear: both; float: left; margin-top: 1em" rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
+  <div style="position: relative; width: 100%; " >
+    <label  id="tempo"  style="float: left ;margin-right: 2em" >Tempo <select id="tempovalue">
+      <option value=""></option>
+      <option value="30">Grave</option>
+      <option value="42">Lento</option>
+      <option value="47">Largo</option>
+      <option value="60">Adagio</option>
+      <option value="67">Adagietto</option>
+      <option value="75">Andante</option>
+      <option value="91">Moderato</option>
+      <option value="104">Allegretto</option>
+      <option value="120">Allegro</option>
+      <option value="136">Vivace</option>
+      <option value="170">Presto</option>
+      <option value="180">Prestissimo</option>
+    </select><label>
+    
+    <input id="generatebutton" style="float: left ; clear: both;  margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
+    <input id="stopbutton" style="display: none; float: left ;margin-right: 2em" type='button' onClick="setStopNow(true)" value="Stop" />
+    <input id="stopbuttonvalue"  type='hidden' value="true" />
+    <button id="printbutton" style="display: none; float: left;;margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
+    <input id="downloadlongabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadLongAbc()" value="Download Tunebook" />
+    <input id="downloadshortabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadShortAbc()" value="Download Cheatsheet" />
+    
+    
+  </div> 
+ 
 </div>
+<br/><br/><br/>
+<div style="font-weight: bold;  margin-right: 2em">Type a list of tunes from thesession.org (one per line)</div>
+<div id="errors" style="display: none" ></div>
+<textarea  style="clear: both; float: left" rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
+
 
 <div id="indexes" style="display: none;">
   <h1>Tune Index</h1>
@@ -55,7 +61,6 @@
   <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbytype"   ></div>
 </div>
 
-
 <span style="display: none;">
   <h1>Short</h1>
   <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
@@ -66,6 +71,10 @@
    <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick=" renderMusicFromLongAbc()" value="Render" />
   <textarea rows='30' cols='60'  id="longabc"   ></textarea>
 </span>
+
+<div style="display: none;"  id="testrendererwrap"   ><div style="display: none;"  id="testrenderer"   ></div></div>
+
+
 <p style='page-break-before: always'><br/></p>
 <h3>Cheat Sheet</h3>
 <div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
@@ -77,19 +86,29 @@
 <script src="abc2svg.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 <script src="abc2book.js"></script>
+<script src="abc2book.persist.js"></script>
+<script src="abc2book.utils.js"></script>
+<script src="abc2book.audio.js"></script>
+
+<script src="abc2book.indexes.js"></script>
+
 
 <script >
 
 
 $(document).ready(function() {
+   console.log('ready')
   loadSongList()
-  loadShortAbc()
-  loadLongAbc()
-  if ($('#shortabc').val().length > 0) {
-    renderCheetsheetFromShortAbc()
-    renderMusicFromLongAbc()
-  }
-  loadIndexes()
+  generateAndRender()
+
+  //generateAbcFromTunes()
+  ////loadShortAbc()
+  ////loadLongAbc()
+  //if ($('#shortabc').val().length > 0) {
+    //renderCheetsheetFromShortAbc()
+    //renderMusicFromLongAbc()
+  //}
+  //loadIndexes()
   //generateMusic()  
 })
 

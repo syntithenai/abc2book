@@ -1,5 +1,10 @@
 /* Some basic CSS to make the Audio controls in abcjs presentable. */
 
+
+ .actionbutton {
+  font-size: 1.3em;
+ }
+
 .row {
     position: relative;
     height: 90px;
@@ -20,7 +25,7 @@
 		}
 
 		@media print {
-      textarea, #selection, #audio, #warnings, #errors, hr, #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
+      textarea, #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
 				display: none;
 			}
 		}
