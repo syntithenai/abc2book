@@ -2,77 +2,101 @@
 var midiBuffer = null
 
 
-function addAudioControls(element, visualObj, songNumber) {
-  var startButton = $('<button style="class="actionbutton activate-audio" >Play</button>')
-  startButton.click(function() { $(".activate-audio").show(); $(this).hide(); $(".stop-audio").hide(); $(".stop-audio",$(this).parent()).show(); startPlaying(visualObj)})
-  var stopButton = $('<button style="display: none;" class="actionbutton stop-audio"  >Stop</button>')
-  stopButton.click(function() { $(this).hide(); $(".activate-audio",$(this).parent()).show(); stopPlaying()})
-  
+function addAudioControls(element, visualObj, songNumber, searchString) {
+  // PLAYBACK CONTROLS
+  var startButton = $('<button style="class="actionbutton activate-audio playbutton" >Play</button>')
+  startButton.click(function() { 
+    $(".activate-audio").show(); 
+    $(this).hide(); 
+    $(".stop-audio").hide(); 
+    $(".stop-audio",$(this).parent()).show(); 
+    $("#playallbutton").hide()
+    $("#stopplayingallbutton").show()
+    
+    
+    startPlaying(visualObj)
+  })
+  var stopButton = $('<button style="" class="stopplayingbutton actionbutton stop-audio"  >Stop</button>')
+  stopButton.click(function() { 
+    $(".playbutton").show(); 
+    $("#playallbutton").show()
+    $("#stopplayingallbutton").hide()
+    $(this).hide(); 
+    stopPlaying()
+  })
+
+  // SEARCH CONTROLS
   var sc = getSearchCache(songNumber)
   sc = sc ? sc : []
   var ss = getSettings(songNumber)
   ss = ss ? ss : []
-  //var tunes = loadLocalObject('abc2book_tunes')
   var tune = getTuneFromCache(songNumber)
+  var useSetting = tune && tune.useSetting > 0 ? parseInt(tune.useSetting).mod(ss.length) : 0
   
-  var useSetting = tune && tune.useSetting ? (tune.useSetting % ss.length) : 0
-  //console.log("UUU",useSetting, tune.useSetting,tune,"SC",sc,"SS",ss)
-  var wrongTuneButtonUp = $('<button style="font-size:0.8em; margin-left: 1em" class="actionbutton wrong-tune-up"  >⇧</button>')
-  var wrongTuneButtonDown = $('<button style="font-size:0.8em; margin-left: 1em"  class="actionbutton wrong-tune-down"  >⇩</button>')
-  wrongTuneButtonUp.click(function() {
-    console.log('UPT'+songNumber) 
-    //updateTuneId(songNumber, (useSetting + 1) % ss.length)
-  })
-  wrongTuneButtonDown.click(function() { 
-    console.log('DDT'+songNumber) 
-    //updateTuneId(songNumber, (useSetting + 1) % ss.length)
-  })
-  var wrongTuneButton = $('<span style="margin-left: 2em; ">Wrong Tune ? ('+(sc.length + 1)+')</span>')
-  wrongTuneButton.append(wrongTuneButtonUp)
-  wrongTuneButton.append(wrongTuneButtonDown)
+  var wrongTuneControls = $('<span  style="position: relative; margin-left: 2em; "></span>')
+  var wrongTuneButton = $('<button>Wrong Tune ? ('+(sc.length + 1)+')</button>')
+  var wrongTuneSelector = $(`<div  id="wrong_tune_selector_`+songNumber+`" class="overlay" style="position: absolute; top: 10; left: 0;" >
+    <div><label>Search </label><form onSubmit="delayedUpdateSearchResults(`+songNumber+`); return false" ><input id="wrong_tune_input_`+songNumber+`" value="`+getTextFromSongline(searchString)+`" type="text"   ><input type='submit' value="Search" /></form></div>
+  </div>`)
   
+  sc.map(function(v) {
+    if (v) {
+      wrongTuneSelector.append('<div class="tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></div>')
+    }
+    return false
+  })
+  wrongTuneControls.click(function(e) {
+    e.stopPropagation()
+  })
+  wrongTuneSelector.hide()
+  wrongTuneControls.append(wrongTuneButton)
+  wrongTuneControls.append(wrongTuneSelector)
+  wrongTuneButton.click(function() {
+    wrongTuneSelector.show()
+    return false;
+  })
   var wrongSettingButtonUp = $('<button style="z-index: 50 ; font-size:0.8em; margin-left: 1em" class="actionbutton wrong-setting-up"  >⇧</button>')
   var wrongSettingButtonDown = $('<button style="z-index: 50 ; font-size:0.8em; margin-left: 1em" class="actionbutton wrong-setting-down"  >⇩</button>')
   wrongSettingButtonUp.click(function() {
-    console.log("UUU S") //,useSetting + 1)
-    updateTuneSetting(songNumber, (useSetting + 1) % ss.length)
+    updateTuneSetting(songNumber, (parseInt(useSetting) + 1).mod(ss.length))
+    scrollTo('controls_'+songNumber)
   })
   wrongSettingButtonDown.click(function() {
-    console.log("DDDS") //,(useSetting - 1 % ss.length))
-    updateTuneSetting(songNumber, ((useSetting - 1) % ss.length))
+    updateTuneSetting(songNumber, (parseInt(useSetting) - 1).mod(ss.length))
+    scrollTo('controls_'+songNumber)
   })
-  var wrongSettingButton = $('<span style="margin-left: 2em; ">Setting ('+ (useSetting + 1) +'/' + (ss.length + 1) +')</span>')
+  var wrongSettingButton = $('<span style="margin-left: 2em; ">Setting ('+ (useSetting + 1) +'/' + (ss.length) +')</span>')
   wrongSettingButton.append(wrongSettingButtonUp)
   wrongSettingButton.append(wrongSettingButtonDown)
   
+  var newSettingButton = $('<button style="margin-left:2em" >New Setting</button>')
+  newSettingButton.click(function() {
+    const cb = navigator.clipboard;
+    cb.writeText(tune.settings[tune.useSetting].abc).then(function() {
+       if (confirm('Copied! Next a window will open where you can paste the ABC text, edit the music and submit a new setting for this tune.')) {
+         var a = window.open('https://thesession.org/tunes/'+tune.id+"/add",'submitwindow')
+         a.focus()
+       }
+    }).catch(function(e) {
+        console.log(e)
+    });
+  })
+  
   $("#controls_"+songNumber).remove()
-  var controls = $('<div id="controls_'+songNumber+'" style="clear: both; " ></div>')
+  var controls = $('<div class="controls" id="controls_'+songNumber+'" style="clear: both; " ></div>')
   controls.append(startButton)
   controls.append(stopButton)
+  controls.append(wrongTuneControls)
+  controls.append(newSettingButton)
   controls.append(wrongSettingButton)
-  controls.append(wrongTuneButton)
   $(element).before(controls)
+  $(".stop-audio").hide()
 }
 
 function addErrorControls(element, error) {
-  //var startButton = $('<button style="class="actionbutton activate-audio" >Play</button>')
-  //startButton.click(function() { $(".activate-audio").show(); $(this).hide(); $(".stop-audio").hide(); $(".stop-audio",$(this).parent()).show(); startPlaying(visualObj)})
-  //var stopButton = $('<button style="display: none;" class="actionbutton stop-audio"  >Stop</button>')
-  //stopButton.click(function() { $(this).hide(); $(".activate-audio",$(this).parent()).show(); stopPlaying()})
-  //var wrongTuneButton = $('<button style="margin-left: 2em; " class="actionbutton wrong-tune"  >Wrong Tune ?</button>')
-  //wrongTuneButton.click(function() { })
-  //var wrongSettingButton = $('<button style="margin-left: 2em;" class="actionbutton wrong-setting"  >Wrong Setting ?</button>')
-  //wrongSettingButton.click(function() {})
-  
   var controls = $('<div style="clear: both; color: red;" >ERROR: '+error+'</div>')
-  //controls.append(startButton)
-  //controls.append(stopButton)
-  //controls.append(wrongTuneButton)
-  //controls.append(wrongSettingButton)
   $(element).before(controls)
 }
-
-
 
 function startPlaying(visualObj) {
   if (ABCJS.synth.supportsAudio()) {
@@ -90,7 +114,11 @@ function startPlaying(visualObj) {
       var initOptions = {
         visualObj: visualObj,
         audioContext: audioContext,
-        millisecondsPerMeasure: visualObj.millisecondsPerMeasure()
+        millisecondsPerMeasure: visualObj.millisecondsPerMeasure(),
+        onEnded: function() {
+          // TODO USE THIS HOOK TO START NEXT TRACK IF PLAY ALL trackId IS ACTIVE
+          console.log('finished playing')
+        }
       }
       var tempoSetting = $("#tempovalue").val()
       if (tempoSetting) { 
@@ -115,3 +143,9 @@ function startPlaying(visualObj) {
 function stopPlaying(element) {
   if (midiBuffer) midiBuffer.stop();
 }  
+
+function playAll() {
+  
+}
+
+

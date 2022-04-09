@@ -4,8 +4,18 @@ $.fn.sortChildren = function(sortCb){
 };
 
 function emptyABC(number, name) {
-  return "\nX:"+number+"\n" + 'T:' + number +". "+name +  '' + "\n"
+  return "\nX:"+number+"\n" + 'T:' + (number + 1) +". "+name +  '' + "\n"
 }
+
+function songNumberForDisplay(songNumber) {
+  if (parseInt(songNumber) > 0) {
+    return  parseInt(songNumber) + 1
+  }
+  return 1
+}
+
+
+
 
 
 /**
@@ -21,7 +31,7 @@ function tweakABC(abc, songNumber, name, key, type, aliases) {
   if (Array.isArray(aliases) && aliases.length > 0) {
     aliasText = 'C: AKA ' +aliases.slice(0,6).join(", ")+"\n"
   }
-  return  "\nX: "+songNumber + "\n" + "K:"+key+ "\n"+ "M:"+timeSignatureFromTuneType(type)+ "\n" + aliasText + removeAbcInnerStrings(abc)  + " \n" + "T: " + songNumber + ". "  + name + " \nR: "+ key.slice(0,1) + ' ' + key.slice(1) +' - ' + type + "\n"
+  return  "\nX: "+songNumber + "\n" + "K:"+key+ "\n"+ "M:"+timeSignatureFromTuneType(type)+ "\n" + aliasText + abc  + " \n" + "T: " + songNumberForDisplay(songNumber) + ". "  + name + " \nR: "+ key.slice(0,1) + ' ' + key.slice(1) +' - ' + type + "\n"
 }
 
 
@@ -61,7 +71,7 @@ function tweakShortABC(abc, songTitle, keySig, tuneType, songNumber) {
           } 
           shortAbc = shortAbc + "[K:"+keySig+ "] "
           // tune title 
-          shortAbc = shortAbc  + '"'+songTitle+ '"' +  shortAbcParts.slice(1).join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+songTitle+ '"' +  shortAbcParts.slice(1).join("|") 
         // lead in note
         } else {
           var ts = timeSignatureFromTuneType(tuneType)
@@ -69,7 +79,7 @@ function tweakShortABC(abc, songTitle, keySig, tuneType, songNumber) {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
           shortAbc = shortAbc + "[K:"+keySig+ "] "
-          shortAbc = shortAbc  + '"'+songTitle+ '"' +  shortAbcParts.join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +songTitle+ '"' +  shortAbcParts.join("|") 
         }
       }
       shortAbc = "\nX: "+songNumber + "\n" + shortAbc + "\n"
@@ -106,7 +116,7 @@ function getCheatSheetRendererSettings() {
   return {
       staffwidth: 300,
       wrap: { minSpacing: 1.0, maxSpacing: 1.4, preferredMeasuresPerLine: 4 },
-      scale: 0.5,
+      scale: 0.45,
       paddingLeft: 1,
       paddingRight: 1,
       //showDebug: ['grid','box']
@@ -118,14 +128,15 @@ function getCheatSheetRendererSettings() {
  * Refresh display from list. Reload all songs.
  */
 function generateMusic() {
+  $('#waiting').show()
   resetIndexes()
   $("#stopbuttonvalue").val("")
-  $('#downloadlongabc').css('display','none')
-  $('#downloadshortabc').css('display','none')
   $("#shortabc").val("")
   $("#longabc").val("")
+  
+  hideTuneControls()
   $("#stopbutton").show()
-  $("#generatebutton").hide()
+  
   $('#cheatsheet_music').html('')
   $('#music').html('')
   $('#errors').html('')
@@ -140,20 +151,30 @@ function generateMusic() {
   let tunesListUnique = tunesList.filter((item, i, ar) => ar.indexOf(item) === i);
   // save clean list of song names 
   $('#songlist').val(tunesListUnique.join("\n"))
-  iterateTunes(tunesListUnique, 1)
+  iterateTunes(tunesListUnique,0)
   
   
 }
 
 
 function generateAndRender() {
+  $("#stopbutton").show()
+  
+  var start = new Date().getTime()
   generateAbcFromTunes()
+  console.log('TIMER gen abc', (new Date().getTime() - start))
   generateShortAbcFromTunes()
+  console.log('TIMER gen short abc', (new Date().getTime() - start))
   renderCheetsheetFromShortAbc()
+  console.log('TIMER gen cheetsheet', (new Date().getTime() - start))
   renderMusicFromLongAbc()
+  console.log('TIMER gen music', (new Date().getTime() - start))
   generateIndexesFromTunes()
+  console.log('TIMER gen index', (new Date().getTime() - start))
   renderIndexes()
+  console.log('TIMER render abc', (new Date().getTime() - start))
 }
+
 
 /**
  * Once all songs are rendered
@@ -161,21 +182,52 @@ function generateAndRender() {
  * - sort the song index
  */
 function finishLoadTunes() {
-    $("#stopbutton").hide()
-    $("#generatebutton").show()
-    $('#downloadlongabc').css('display','block')
-    $('#downloadshortabc').css('display','block')
-    $('#printbutton').css('display','block')
+    showTuneControls()
     generateAndRender()
+    $('#waiting').hide()
 }
 
 
+function generateAndRenderSingle(songNumber, tune) {
+  // update abc short
+  var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
+  var shortabc = tweakShortABC(tune.settings[tune.useSetting].abc, tune.name, tune.settings[tune.useSetting].key, tune.type, songNumber)
+  // cut off X:
+  shortParts[songNumber] =  shortabc.slice(3) + "\n"
+  $('#shortabc').val("X:" + shortParts.join(("X:")))
+  //// update abc long
+  var longParts = $('#longabc').val().trim().split("X:").slice(1)
+  var longabc = tweakABC(tune.settings[tune.useSetting].abc, songNumber, tune.name, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
+  // cut off X:
+  longParts[songNumber] = longabc.slice(3) + "\n"
+  $('#longabc').val("X:" + longParts.join(("X:")))
+  
+  // render cheetsheet
+  var shortkey = 'cheatsheet_music_'+songNumber
+  $('#'+shortkey).html('')
+  var renderResult = window.ABCJS.renderAbc([shortkey], $('#shortabc').val() , getCheatSheetRendererSettings());
+  // render song
+  var longkey = 'music_'+songNumber
+  $('#'+longkey).html('')
+  var searchStrings = $('#songlist').val().split("\n")
+  var renderResult = window.ABCJS.renderAbc([longkey], $('#longabc').val() , getMainRendererSettings());
+  renderResult.map(function(rr,rk) {
+    var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+    if (errors.hasOwnProperty(rk)) {
+      addErrorControls('#music_'+rk, errors[rk])
+    } else { 
+      addAudioControls('#music_'+rk, rr, rk, searchString)
+    }
+  })
+  // indexes TODO
+  
+}
 
 /** 
  * Render cheatsheet from complete abcshort
  */
 function renderCheetsheetFromShortAbc() {
-  
+  $('#cheatsheet_music').html('')
   var tuneBook = new window.ABCJS.TuneBook($('#shortabc').val())
   var targetArray = []
   
@@ -204,7 +256,6 @@ function renderCheetsheetFromShortAbc() {
  */
 function renderMusicFromLongAbc() {
   var errors = loadErrors()  
-  //console.log(errors)
   var tuneBook = new window.ABCJS.TuneBook($('#longabc').val())
   var targetArray = []
   var row = null;  
@@ -212,14 +263,15 @@ function renderMusicFromLongAbc() {
     $('#music').append('<div id="music_'+k+'" ></div>')
     targetArray.push('music_'+k)
   })
-  
+  //var p = new Promise()
   var renderResult = window.ABCJS.renderAbc(targetArray, $('#longabc').val() , getMainRendererSettings());
+  var searchStrings = $('#songlist').val().split("\n")
   renderResult.map(function(rr,rk) {
-    //console.log(rr)
+    var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
     if (errors.hasOwnProperty(rk)) {
       addErrorControls('#music_'+rk, errors[rk])
     } else { 
-      addAudioControls('#music_'+rk, rr, rk)
+      addAudioControls('#music_'+rk, rr, rk, searchString)
     }
   })
   
@@ -248,6 +300,25 @@ function generateAbcFromTunes() {
   $('#longabc').val( abc)
 }
 
+function updateSingleTune(songNumber, ) {
+  var tunes = loadLocalObject('abc2book_tunes')
+  var abc = ''
+  Object.keys(tunes).map(function(tuneKey) {
+    var tune = tunes[tuneKey]
+    if (tune) {
+      var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
+      if (setting) {
+        abc +=  tweakABC(setting.abc, tuneKey, tune.name, setting.key, tune.type, tune.aliases) + "\n"
+      } else {
+        abc +=   emptyABC(tuneKey,tune.name)
+      }
+    } else {
+      abc +=   emptyABC(tuneKey,'')
+    }
+  })
+  $('#longabc').val( abc)
+}
+
 function generateShortAbcFromTunes() {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
@@ -257,8 +328,6 @@ function generateShortAbcFromTunes() {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
         abc +=  tweakShortABC(setting.abc, tune.name, setting.key, tune.type, tuneKey)
-        
-        //tweakABC(setting.abc, tuneKey, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
         abc +=   emptyABC(tuneKey,tune.name)
       }
@@ -284,11 +353,10 @@ function saveTuneAndSetting(tune,useSetting,songNumber,searchText, callback) {
     var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
     //addTuneToIndexes(songNumber, tune, setting, searchText)
   }
-  console.log('saved tune and set',tune,useSetting,songNumber,searchText)
   callback()
 }  
 
-function handleTunesListItem(tunesListItem, songNumber, tunesList) {
+function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallback) {
     var searchResults = {}
     // current tune has non empty name ?
     if (tunesListItem.length > 0) {
@@ -314,41 +382,40 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList) {
       
       if (forceTuneId !== null) {
         $.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
-          handleFoundTune(tune, tunesList, searchText, null, songNumber)
+          handleFoundTune(tune, tunesList, searchText, null, songNumber, settingCallback)
         })
       } else {
-        $.get('https://thesession.org/tunes/search?format=json&q='+searchText).then(function(searchRes) {
+        $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+searchText).then(function(searchRes) {
           // cache search results
-          //console.log(searchRes)
-          //searchResults[searchText] = searchRes.tunes
           var searchCache = loadLocalObject('abc2book_search')
           searchCache[safeString(searchText)] = searchRes.tunes
           saveLocalObject('abc2book_search',searchCache)
           if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
             $.get('https://thesession.org/tunes/' + searchRes.tunes[0].id+'?format=json&perpage=50').then(function(tune) {
-              handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber)
+              handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
             })
           } else {
-            handleFoundTune(null, tunesList, searchText, null, songNumber)
+            handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
           }
         })
       } 
     // empty tune title, try next tune (should not happen as input is filtered)
     } else {
       saveError(songNumber, 'Empty tune title')
-      handleFoundTune(null, tunesList, searchText, null, songNumber)
+      handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
     }
 }
 
 
-function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber) {
+function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback) {
   // tune search has results
-  if (tune && tune.id && Array.isArray(tune.settings)) {
+   if (tune && tune.id && Array.isArray(tune.settings)) {
       // if using hack to force setting, ensure that the setting is available or fall back to other strategy
       if (forceSetting !== null && tune.settings.length > forceSetting) {
          useSetting = forceSetting
+         if (settingCallback) settingCallback(useSetting)
          saveTuneAndSetting(tune,useSetting,songNumber,searchText, function() {
-          iterateTunes(tunesList.slice(1), songNumber + 1)
+          iterateTunes(tunesList.slice(1), songNumber + 1, settingCallback)
          })
       // try to use a setting with chords, or fallback....
       } else {
@@ -356,26 +423,40 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber) 
         var useSetting = 0
         var usableSettings = []
         for (var setting in tune.settings) {
+            // seek chords as text in abc string
             if (tune.settings[setting] && tune.settings[setting].abc && tune.settings[setting].abc.indexOf('"') !== -1) {
-              usableSettings.push(setting)
+              var chords = getInnerStrings(tune.settings[setting].abc)
+              var haveChords = false;
+              // any match success
+              chords.map(function(chord,k) {
+                 if (isChord(chord)) {
+                    haveChords = true;
+                 }
+              })
+              if (haveChords) {
+                usableSettings.push(setting) 
+                break
+              }
             }
         }
         if (usableSettings.length > 0) {
            useSetting = (usableSettings[0] >= 0) ? usableSettings[0] : 0 
         } 
-        //console.log('found setting',usableSettings, useSetting)
         // if we can use a setting with chords
+        if (settingCallback) settingCallback(useSetting)
         saveTuneAndSetting(tune,useSetting,songNumber,searchText, function() {
-          iterateTunes(tunesList.slice(1), songNumber + 1)
+          iterateTunes(tunesList.slice(1), songNumber + 1, settingCallback)
         })
       }
   // no tune matches, try next tune
   } else {
+    if (settingCallback) settingCallback(0)
     saveError(songNumber, 'No matches for '+searchText)
     saveTuneAndSetting(null,null,songNumber,searchText, function() {
-      iterateTunes(tunesList.slice(1), songNumber + 1)
+      iterateTunes(tunesList.slice(1), songNumber + 1, settingCallback)
     })
   }
+  
 }
 
 /**
@@ -383,18 +464,31 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber) 
  * Errors loading or rendering are cached to localStorage as an object
  * @param songNumber used internally to recursively pass the tune number
  */
-function iterateTunes(tunesList, songNumber) {
-  
+function iterateTunes(tunesList, songNumber, finishCallback, settingCallback) {
+  if (!finishCallback) finishCallback = finishLoadTunes
+  songNumber = songNumber > 0 ? songNumber : 0
   // allow for stop button
-  if (tunesList.length > 0 && $('#stopbuttonvalue').val() !== "true") {
-      handleTunesListItem(tunesList[0].trim(), songNumber, tunesList)
+  if (tunesList.length > 0 && tunesList[0] && $('#stopbuttonvalue').val() !== "true") {
+      handleTunesListItem(tunesList[0].trim(), songNumber, tunesList, settingCallback)
   // no more in list
   } else {
-    finishLoadTunes()
+    finishCallback()
   }
-  
-  
-  
-  
-  
 }
+
+
+
+function renderSonglistPicker() {
+   var pickerItems = $('<div  ></div>')
+   Object.keys(getSongLists()).map(function(listName) {
+       pickerItems.append('<div><a href="#" onClick="selectSongList(\''+listName+'\'); " >'+listName+'</a></div>')
+   })
+   $('#songlistpicker').html(pickerItems.html())
+   $('#songlistpickerbutton').click(function(e) {
+      e.stopPropagation()
+    })
+   
+   
+}
+
+

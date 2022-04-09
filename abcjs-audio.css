@@ -1,8 +1,19 @@
 /* Some basic CSS to make the Audio controls in abcjs presentable. */
 
-
+.overlay, .overlay-clean {
+  z-index: 999;
+  background-color: lightgrey;
+  border: 2px solid blue;
+  border-radius: 15px;
+  min-height: 10em;
+  min-width: 20em;
+  padding: 0.5em;
+}
  .actionbutton {
   font-size: 1.3em;
+ }
+ #downloadselector {
+   display: none;
  }
 
 .row {
@@ -25,7 +36,7 @@
 		}
 
 		@media print {
-      textarea, #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
+      .controls, textarea, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
 				display: none;
 			}
 		}

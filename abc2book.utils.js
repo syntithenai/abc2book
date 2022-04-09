@@ -1,3 +1,7 @@
+Number.prototype.mod = function (n) {
+  return ((this % n) + n) % n;
+};
+    
 function removeAbcInnerStrings(abc) {
   if (abc) {
         // remove strings from abc
@@ -6,6 +10,7 @@ function removeAbcInnerStrings(abc) {
       while (next !== -1) {
         nextClose = abc.indexOf('"', next+1)
         if ((nextClose !== -1) && (nextClose > next)) {
+          // strip string
           abc = abc.slice(0,next) + abc.slice(nextClose+1)
         } else {
           abc = abc.slice(0,next) + abc.slice(next + 1)
@@ -15,6 +20,29 @@ function removeAbcInnerStrings(abc) {
   }
   return abc
 }
+
+function getInnerStrings(abc) {
+    var s = []
+  if (abc) {
+        // remove strings from abc
+      abc = abc.trim()
+      var next = abc.indexOf('"')
+      while (next !== -1) {
+        nextClose = abc.indexOf('"', next+1)
+        if ((nextClose !== -1) && (nextClose > next)) {
+          // strip string
+          s.push(abc.slice(next+1,nextClose))
+          abc = abc.slice(0,next) + abc.slice(nextClose+1)
+        } else {
+          abc = abc.slice(0,next) + abc.slice(next + 1)
+        }
+        next = abc.indexOf('"')
+      }
+  }
+  return s
+}
+
+
 
 function safeString(text) {
     if (text) {
@@ -34,8 +62,6 @@ function test() {
     
     //generateAbcFromTunes();
     var tb = new window.ABCJS.TuneBook($('#longabc').val())
-    console.log("R",splitKeyAndRhythm(getMetaValueFromTune('R',tb.tunes[0].abc)))
-    console.log("K",getMetaValueFromTune('K',tb.tunes[0].abc))
 }
 
 
@@ -66,6 +92,25 @@ function getMetaValueFromSongline(key,songline) {
         }
     } catch (e) {
         return ''
+    }
+}
+function scrollTo(id) {
+    var element = document.getElementById(id);
+    var headerOffset = 60;
+    var elementPosition = element.offsetTop;
+    var offsetPosition = elementPosition - headerOffset;
+    document.documentElement.scrollTop = offsetPosition;
+    document.body.scrollTop = offsetPosition; // For Safari
+}
+
+
+function getTextFromSongline(songline) {
+    if (!songline) return
+    var last = songline.lastIndexOf(']')
+    if (last !== -1) {
+        return songline.slice(last + 1)
+    } else {
+        return songline
     }
 }
 
@@ -119,7 +164,54 @@ function download(filename, text) {
 }
 
 function printPage() {
+  $('#indexes').show()
+  $('#music').show()
+  $('#cheatsheet_music_container').show()
+  $('#songlistmanager').show()
   window.print()
+}
+function showTuneControls() {
+    $("#stopbutton").hide()
+    $("#generatebutton").show()
+    $('#downloadbutton').show()
+    $('#printbutton').show()
+    $('#cheatsheetbutton').show()
+    $('#indexbutton').show()
+    $('#playallbutton').show()
+    $('#tempo').show()
+}
+function hideTuneControls() {
+    $("#generatebutton").hide()
+    $('#downloadbutton').hide()
+    $('#printbutton').hide()
+    $('#cheatsheetbutton').hide()
+    $('#indexbutton').hide()
+    $('#playallbutton').hide()
+    $('#tempo').hide()
+}
+
+function showContentSection(contentId) {
+    var contentTypes = ['cheatsheet_music_container','indexes','music','help']
+    if (contentId == 'home') {
+         $('#songlistmanager').show()
+         $("#music").show()
+         $("#cheatsheet_music_container").hide()
+         $("#indexes").hide()
+         $("#help").hide()
+         scrollTo('topofpage')
+    } else {
+            
+        contentTypes.map(function(type) {
+          if (contentId !== type) {
+              $("#"+type).hide()
+          } else {
+              $("#"+type).show()
+          }  
+        })
+        $('#songlistmanager').hide()
+        scrollTo('topofpage')
+    }
+    
 }
 
 /**
@@ -140,3 +232,37 @@ function downloadShortAbc() {
   download('tunebook_cheatsheet.abc', $("#shortabc").val())
 }
 
+function isChord(chord) {
+  var chordMatches = [
+      'A','B','C','D','E','F','G',  
+      'Am','Bm','Cm','Dm','Em','Fm','Gm',
+      'Amin','Bmin','Cmin','Dmin','Emin','Fmin','Gmin',
+      'Amaj','Bmaj','Cmaj','Dmaj','Emaj','Fmaj','Gmaj',
+      'Adim','Bdim','Cdim','Ddim','Edim','Fdim','Gdim',
+      'Aaug','Baug','Caug','Daug','Eaug','Faug','Gaug',
+      'Asus','Bsus','Csus','Dsus','Esus','Fsus','Gsus',
+      'A7','B7','C7','D7','E7','F7','G7',
+      'A9','B9','C9','D9','E9','F9','G9',
+      
+      'Ab','Bb','Cb','Db','Eb','Fb','Gb',  
+      'Abm','Bbm','Cbm','Dbm','Ebm','Fbm','Gbm',
+      'Abmin','Bbmin','Cbmin','Dbmin','Ebmin','Fbmin','Gbmin',
+      'Abmaj','Bbmaj','Cbmaj','Dbmaj','Ebmaj','Fbmaj','Gbmaj',
+      'Abdim','Bbdim','Cbdim','Dbdim','Ebdim','Fbdim','Gbdim',
+      'Abaug','Bbaug','Cbaug','Dbaug','Ebaug','Fbaug','Gbaug',
+      'Absus','Bbsus','Cbsus','Dbsus','Ebsus','Fbsus','Gbsus',
+      'Ab7','Bb7','Cb7','Db7','Eb7','Fb7','Gb7',
+      'Ab9','Bb9','Cb9','Db9','Eb9','Fb9','Gb9',
+      
+      'A#','B#','C#','D#','E#','F#','G#',  
+      'A#m','B#m','C#m','D#m','E#m','F#m','G#m',
+      'A#min','B#min','C#min','D#min','E#min','F#min','G#min',
+      'A#maj','B#maj','C#maj','D#maj','E#maj','F#maj','G#maj',
+      'A#dim','B#dim','C#dim','D#dim','E#dim','F#dim','G#dim',
+      'A#aug','B#aug','C#aug','D#aug','E#aug','F#aug','G#aug',
+      'A#sus','B#sus','C#sus','D#sus','E#sus','F#sus','G#sus',
+      'A#7','B#7','C#7','D#7','E#7','F#7','G#7',
+      'A#9','B#9','C#9','D#9','E#9','F#9','G#9'
+  ]
+  return chordMatches.indexOf(chord.trim()) !== -1
+}

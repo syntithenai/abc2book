@@ -1,40 +1,49 @@
 function generateIndexesFromTunes() {
   resetIndexes()
   var tunes = loadLocalObject('abc2book_tunes')
-  //console.log('generateIndexesFromTunes',tunes)
+  var index = loadLocalObject('abc2book_index')
+  var keyIndex = loadLocalObject('abc2book_indexbykey')
+  var typeIndex = loadLocalObject('abc2book_indexbytype')
+    
   if (tunes) {
     Object.keys(tunes).map(function(k) {
       var tune = tunes[k]
-      //console.log('generateIndexesFromTunes',k,tune)
       if (tune) {
         var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
-        addTuneToIndexes(k, tune, setting, tune.forceTitle)
+        addTuneToIndexes(k, tune, setting, tune.forceTitle, index, keyIndex, typeIndex)
       }
     })
+    saveLocalObject('abc2book_index', index)
+    saveLocalObject('abc2book_indexbykey', keyIndex)
+    saveLocalObject('abc2book_indexbytype', typeIndex) 
   }
+  console.log('gen indexes', tunes, index, keyIndex, typeIndex)
+  
 }
 
 /** 
  * Add newly loaded tune to indexed data structures in localStorage 
  * 
  */
-function addTuneToIndexes(songNumber, tune, setting, tuneName) {
-  //console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
-  var index = loadLocalObject('abc2book_index')
-  var keyIndex = loadLocalObject('abc2book_indexbykey')
-  var typeIndex = loadLocalObject('abc2book_indexbytype')
-  index[songNumber] = tuneName
-  if (!keyIndex.hasOwnProperty(setting.key)) {
-   keyIndex[setting.key] = []
+function addTuneToIndexes(songNumber, tune, setting, tuneName, index, keyIndex, typeIndex) {
+  if (setting && setting.key) {
+    console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
+    //var index = loadLocalObject('abc2book_index')
+    //var keyIndex = loadLocalObject('abc2book_indexbykey')
+    //var typeIndex = loadLocalObject('abc2book_indexbytype')
+    index[songNumber] = tuneName
+    if (!keyIndex.hasOwnProperty(setting.key)) {
+     keyIndex[setting.key] = []
+    }
+    keyIndex[setting.key].push(tuneName)
+    if (!typeIndex.hasOwnProperty(tune.type)) {
+     typeIndex[tune.type] = []
+    }
+    typeIndex[tune.type].push(tuneName)
+    saveLocalObject('abc2book_index', index)
+    saveLocalObject('abc2book_indexbykey', keyIndex)
+    saveLocalObject('abc2book_indexbytype', typeIndex) 
   }
-  keyIndex[setting.key].push(tuneName)
-  if (!typeIndex.hasOwnProperty(tune.type)) {
-   typeIndex[tune.type] = []
-  }
-  typeIndex[tune.type].push(tuneName)
-  saveLocalObject('abc2book_index', index)
-  saveLocalObject('abc2book_indexbykey', keyIndex)
-  saveLocalObject('abc2book_indexbytype', typeIndex) 
 }
 
 /**
@@ -70,7 +79,8 @@ function renderIndexFromTunes() {
   if (index) {
     Object.keys(index).map(function(tuneNumber) {
       var tuneTitle = index[tuneNumber]
-      $('#index').append("<div>" + tuneNumber + '. ' +tuneTitle + "</div>")
+      
+      $('#index').append("<div>" + (parseInt(tuneNumber) + 1) + '. ' +tuneTitle + "</div>")
     })
   }
 }
@@ -123,7 +133,6 @@ function addToCollation(collationId, key,keyText, value) {
     var container = $("#"+collationId)
     var useKey = key.replace(' ','_')
     var keyContainer = $("#"+useKey, container)
-    //console.log('add to collation',collationId, useKey,keyText, value, 'KC', keyContainer.length)
     if (keyContainer.length == 0) {
       container.append('<div style="float: left; width: 25%" id="'+useKey+'"><h4>'+keyText+'</h4><div>'+value+'</div></div>')
     } else {
@@ -174,7 +183,6 @@ function collateMainIndex() {
     listItem = 'div',
     listClass = 'sub-list';
     container.each(function() {
-    //  console.log(this)
         var items_per_col = new Array(),
         items = $(this).find(listItem),
         min_items_per_col = Math.max(forceMinItemsPerColumn,Math.floor(items.length / num_cols)),

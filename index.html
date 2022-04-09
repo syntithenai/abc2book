@@ -10,12 +10,29 @@
 	
 </head>
 <body>
-
-
+<a id="topofpage" ></a>
 <div id="controls"  style="width: 100%; z-index: 3; background-color: lightblue; position: fixed; height: 1.6em; padding: 0.2em" >
   
+  <a onClick="showContentSection('home')" href="#" style="float: left; margin-right: 1em" >
+    <button id="homebutton"  ><img style="height: 1.5em; opacity: 0.9"  src="home.png"   ></button>
+  </a>
+  <button id="cheatsheetbutton" style="float: left; margin-right: 1em" onClick="showContentSection('cheatsheet_music_container')"   >Cheat Sheet</button>
+  <button id="indexbutton" style="float: left; margin-right: 1em" onClick="showContentSection('indexes')"   >Index</button>
+  <button id="helpbutton" style="float: left; margin-right: 1em" onClick="showContentSection('help')"   >Help</button>
+  
+  <span id="waiting" ><img src="waiting.gif" style="float: left; margin-right: 1em;height: 1.5em; opacity: 0.9"  ></span>
   <div style="position: relative; width: 100%; " >
-    <label  id="tempo"  style="float: left ;margin-right: 2em" >Tempo <select id="tempovalue">
+    
+    <button id="printbutton" style="display: none; float: left;;margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
+    
+    <input id="downloadbutton" style="float: left ;margin-right: 2em" type='button'  value="Download" />
+    <div id="downloadselector"  class="overlay" style="width: 300px" >
+      <br/>
+      <input id="downloadlongabc" style="" type='button' onClick="downloadLongAbc()" value="Download Tunebook" />
+      <br/>
+      <input id="downloadshortabc" style="" type='button' onClick="downloadShortAbc()" value="Download Cheatsheet" />
+    </div>
+    <label  id="tempo"  style="float: right ;margin-right: 2em" >Tempo <select id="tempovalue">
       <option value=""></option>
       <option value="30">Grave</option>
       <option value="42">Lento</option>
@@ -30,58 +47,85 @@
       <option value="170">Presto</option>
       <option value="180">Prestissimo</option>
     </select><label>
+      <button   id="playallbutton" style="float: right ;margin-right: 2em"  onClick="playAll()" >Play All</button>
+      <button  style="float: right ;margin-right: 2em"  id="stopplayingallbutton" class="stopplayingbutton"  onClick="stopPlaying()" >Stop Playing</button>
+  </div> 
+  
+</div>
+
+
+
+<div id="mastercontainer" >
+
+  <br/><br/>
+  <div id="help" style="display: none;" >
+    <div>This tool assists in making a printable book of sheet music from a list of the names of songs.<br/></div>
+    <h3>FAQ</h3>
+    <ul>
+        <li><b>Why do the songs in my list get bracketed information added eg "[ID:1308][S:6]after the battle of oram"</b></li>
+        <li><b>I've gone through and refined my list to choose settings, how do I keep this information.</b></li>
+        <li><b>Why </b></li>
+    </ul>
+    <br/><br/><br/>
     
+    <div>Songs are sourced from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a></div>
+    <div>Music is rendered from ABC format using <a target='sessionwin'  href="https://www.abcjs.net/" >abcjs</a></div>
+    
+    <div>The software is released to use and modify freely on <a target='gitwin'  href="https://github.com/syntithenai/abc2book" >Github</a></div>
+    <br/>
+    <div>Copyleft Steve Ryan (<a target='mailwin'  href="mailto:syntithenai@gmail.com" >syntithenai@gmail.com</a>)</div>
+  </div>  
+  <div id="songlistmanager" >
+    <div id="helptext" style="font-weight: bold;  margin-right: 2em">Type a list of tunes from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a> (one per line) and click <b>Generate</b></div>
+    <div id="errors" style="display: none" ></div>
     <input id="generatebutton" style="float: left ; clear: both;  margin-right: 2em" type='button' onClick="generateMusic()" value="Generate" />
     <input id="stopbutton" style="display: none; float: left ;margin-right: 2em" type='button' onClick="setStopNow(true)" value="Stop" />
     <input id="stopbuttonvalue"  type='hidden' value="true" />
-    <button id="printbutton" style="display: none; float: left;;margin-right: 2em"  onClick="printPage(); return false"  >Print</button>
-    <input id="downloadlongabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadLongAbc()" value="Download Tunebook" />
-    <input id="downloadshortabc" style="display: none; float: left ;margin-right: 2em" type='button' onClick="downloadShortAbc()" value="Download Cheatsheet" />
-    
-    
-  </div> 
- 
-</div>
-<br/><br/><br/>
-<div style="font-weight: bold;  margin-right: 2em">Type a list of tunes from thesession.org (one per line)</div>
-<div id="errors" style="display: none" ></div>
-<textarea  style="clear: both; float: left" rows=10 cols=70 id="songlist" onKeyUp="saveSongList()" ></textarea>
+      
+    <button style="float: left"  id="songlistpickerbutton" onClick="$('#songlistpicker').show(); console.log('cl', $('#songlistpicker').html()) ;return false;" >Load Songbook</button>
+    <div id="songlistpicker" class="overlay" style="display: none; position: absolute; top:30; left: 20;"  ></div>
+        
+    <textarea  style="clear: both; float: left" rows=10 cols=38 id="songlist" onKeyUp="saveSongList()" ></textarea>
+  </div>
+
+  <div id="indexes" style="display: none;">
+    <h1>Tune Index</h1>
+    <div id="index"   ></div>
+    <p style='page-break-before: always'><br/></p>
+
+    <h3>Index By Key Signature</h3>
+    <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbykey"   ></div>
+    <p style='page-break-before: always'><br/></p>
+
+    <h3>Index By Tune Type</h3>
+    <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbytype"   ></div>
+  </div>
+
+  <span style="display: none;">
+    <h1>Short</h1>
+    <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
+    <textarea rows='30' cols='60' id="shortabc"   ></textarea>
+  </span>
+  <span style="display: none;" >
+    <h1>Long</h1>
+     <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick=" renderMusicFromLongAbc()" value="Render" />
+    <textarea rows='30' cols='60'  id="longabc"   ></textarea>
+  </span>
+
+  <div style="display: none;"  id="testrendererwrap"   ><div style="display: none;"  id="testrenderer"   ></div></div>
 
 
-<div id="indexes" style="display: none;">
-  <h1>Tune Index</h1>
-  <div id="index"   ></div>
   <p style='page-break-before: always'><br/></p>
+  <div id="cheatsheet_music_container" style="display: none" >
+    <h3>Cheat Sheet</h3>
+    <div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
+  </div>
 
-  <h3>Index By Key Signature</h3>
-  <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbykey"   ></div>
   <p style='page-break-before: always'><br/></p>
+  <div style="width: 100%; clear: both; padding-bottom: 2em;" class="container music"  id="music"   ></div>
 
-  <h3>Index By Tune Type</h3>
-  <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbytype"   ></div>
+
 </div>
-
-<span style="display: none;">
-  <h1>Short</h1>
-  <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
-  <textarea rows='30' cols='60' id="shortabc"   ></textarea>
-</span>
-<span style="display: none;" >
-  <h1>Long</h1>
-   <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick=" renderMusicFromLongAbc()" value="Render" />
-  <textarea rows='30' cols='60'  id="longabc"   ></textarea>
-</span>
-
-<div style="display: none;"  id="testrendererwrap"   ><div style="display: none;"  id="testrenderer"   ></div></div>
-
-
-<p style='page-break-before: always'><br/></p>
-<h3>Cheat Sheet</h3>
-<div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
-
-
-<p style='page-break-before: always'><br/></p>
-<div style="width: 100%; clear: both; padding-bottom: 2em;" class="container music"  id="music"   ></div>
 
 <script src="abc2svg.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
@@ -89,6 +133,7 @@
 <script src="abc2book.persist.js"></script>
 <script src="abc2book.utils.js"></script>
 <script src="abc2book.audio.js"></script>
+<script src="abc2book.tunelists.js"></script>
 
 <script src="abc2book.indexes.js"></script>
 
@@ -97,10 +142,23 @@
 
 
 $(document).ready(function() {
-   console.log('ready')
   loadSongList()
+  $("#stopbutton").show()
   generateAndRender()
-
+  // hide overlays on bg click
+  $('body').click(function() {
+    $('.overlay').hide()
+  })
+  $('#waiting').hide()
+  renderSonglistPicker()
+  $('.stopplayingbutton').hide()
+  $('#downloadbutton').click(function(e) {
+    e.stopPropagation()
+    $('#downloadselector').show()
+  })
+  
+  //$('#songlist').before()
+  //$('#songlistpicker').hide()
   //generateAbcFromTunes()
   ////loadShortAbc()
   ////loadLongAbc()
