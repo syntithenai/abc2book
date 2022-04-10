@@ -228,6 +228,7 @@ function showContentSection(contentId) {
          $("#indexes").hide()
          $("#help").hide()
          $("#review").hide()
+         
          scrollTo('topofpage')
     } else {
         
