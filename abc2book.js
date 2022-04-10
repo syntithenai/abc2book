@@ -174,6 +174,7 @@ function generateAndRender() {
   console.log('TIMER gen index', (new Date().getTime() - start))
   renderIndexes()
   console.log('TIMER render abc', (new Date().getTime() - start))
+  $('#cheatsheet_music_container').hide()
 }
 
 
