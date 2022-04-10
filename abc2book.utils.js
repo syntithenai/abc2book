@@ -1,6 +1,33 @@
 Number.prototype.mod = function (n) {
   return ((this % n) + n) % n;
 };
+ 
+function getTuneTitles() {
+    var tunes = loadLocalObject('abc2book_tunes')
+    var titles = tunes ? Object.values(tunes).map(function(tune) {return tune.name}) : []
+    return titles.join("\n")    
+} 
+
+function getSearchTexts() {
+    var tunes = $("#songlist").val().split("\n")
+    var titles = tunes ? Object.values(tunes).map(function(tune) {return getTextFromSongline(tune)}) : []
+    console.log(tunes,titles)
+    return titles.join("\n")    
+} 
+
+function bindCopy(element,val) {
+  console.log('bindcopy',element,val)
+  element.click(function() {
+    console.log('bindcopy click')
+    const cb = navigator.clipboard;
+    cb.writeText(val()).then(function() {
+       alert('Copied!')
+       
+    }).catch(function(e) {
+        console.log(e)
+    });
+  })
+}
     
 function removeAbcInnerStrings(abc) {
   if (abc) {
@@ -83,10 +110,10 @@ function splitKeyAndRhythm(text) {
 
 function getMetaValueFromSongline(key,songline) {
     try {
-        var parts = abc.split("["+key+":")
-        var isFirst = abc.indexOf(key + "]") === 0
+        var parts = songline.split("["+key+":")
+        var isFirst = songline.indexOf(key + "]") === 0
         if (isFirst || parts.length > 1) {
-            return parts[1].split("\n")[0]
+            return parts[1].split("]")[0]
         } else {
             return ''
         }
@@ -191,16 +218,20 @@ function hideTuneControls() {
 }
 
 function showContentSection(contentId) {
-    var contentTypes = ['cheatsheet_music_container','indexes','music','help']
+    var contentTypes = ['cheatsheet_music_container','indexes','music','help','review']
     if (contentId == 'home') {
-         $('#songlistmanager').show()
+         $('#helptext').show()
+         $('#songlistbutton').show()
+         $('#errors').show()
          $("#music").show()
          $("#cheatsheet_music_container").hide()
          $("#indexes").hide()
          $("#help").hide()
+         $("#review").hide()
          scrollTo('topofpage')
     } else {
-            
+        
+             
         contentTypes.map(function(type) {
           if (contentId !== type) {
               $("#"+type).hide()
@@ -208,7 +239,10 @@ function showContentSection(contentId) {
               $("#"+type).show()
           }  
         })
-        $('#songlistmanager').hide()
+        $('#helptext').hide()
+        $('#songlistbutton').hide()
+        $('#errors').hide()
+       // $('#songlistmanager').hide()
         scrollTo('topofpage')
     }
     
@@ -265,4 +299,44 @@ function isChord(chord) {
       'A#9','B#9','C#9','D#9','E#9','F#9','G#9'
   ]
   return chordMatches.indexOf(chord.trim()) !== -1
+}
+
+function progressUp(songNumber) {
+    var boost = parseInt($('#tune_boost_'+songNumber).text()) 
+    boost = boost > 0 ? boost : 0
+    var newBoost = boost + 1
+    var tunes = $("#songlist").val().split("\n")
+    var line = tunes[songNumber]
+    var tuneId = getMetaValueFromSongline('ID',line)
+    var setting = getMetaValueFromSongline('S',line)
+    var text = getTextFromSongline(line)
+    var newLine = ''
+    if (tuneId)  newLine += '[ID:'+tuneId+']'
+    if (setting)  newLine += '[S:'+setting+']'
+    newLine += '[B:'+newBoost+']' + text
+    tunes[songNumber] = newLine
+    $("#songlist").val(tunes.join("\n"))
+    //console.log('songlist written',line)
+    $('#tune_boost_'+songNumber).text(newBoost)
+    saveSongList()
+}
+
+function progressDown(songNumber) {
+    var boost = parseInt($('#tune_boost_'+songNumber).text()) 
+    boost = boost > 0 ? boost : 0
+    var newBoost = boost - 1
+    var tunes = $("#songlist").val().split("\n")
+    var line = tunes[songNumber]
+    var tuneId = getMetaValueFromSongline('ID',line)
+    var setting = getMetaValueFromSongline('S',line)
+    var text = getTextFromSongline(line)
+    var newLine = ''
+    if (tuneId)  newLine += '[ID:'+tuneId+']'
+    if (setting)  newLine += '[S:'+setting+']'
+    newLine += '[B:'+newBoost+']' + text
+    tunes[songNumber] = newLine
+    $("#songlist").val(tunes.join("\n"))
+    //console.log('songlist written',line)
+    $('#tune_boost_'+songNumber).text(newBoost)
+    saveSongList()
 }

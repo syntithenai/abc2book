@@ -32,16 +32,19 @@ function updateTuneSetting(songNumber, setting) {
   if (songlistParts.length > songNumber) {
     var line = songlistParts[songNumber]
     var songId = getMetaValueFromSongline("ID",line)
+    var boost = getMetaValueFromSongline("B",line)
+    boost = boost > 0 ? boost : 0
     var songSearchString = getTextFromSongline(line)
     var tuneCache = loadLocalObject('abc2book_tunes')
     var tune = tuneCache[songNumber]
     if (tune) {
-      songlistParts[songNumber] = "[ID:" + tune.id + "][S:"+setting + "]"+songSearchString;
+      songlistParts[songNumber] = "[ID:" + tune.id + "][S:"+setting + "][B:"+boost+"]"+songSearchString;
       $('#songlist').val(songlistParts.join("\n"))
       saveSongList()
       tune.useSetting = setting
       tuneCache[songNumber] = tune
       saveLocalObject('abc2book_tunes',tuneCache)
+      console.log('saved',setting,tuneCache[songNumber])
       generateAndRenderSingle(songNumber, tune)
     }
   }
@@ -56,15 +59,22 @@ function updateTuneId(songNumber, tuneId) {
     var songSetting = getMetaValueFromSongline("S",line)
     songSetting > 0 ? songSetting : 0
     var songSearchString = getTextFromSongline(line)
+    var boost = getMetaValueFromSongline("B",line)
+    boost = boost > 0 ? boost : 0
     $('#waiting').show()
     $.get('https://thesession.org/tunes/'+tuneId+'?format=json&perpage=50').then(function(tune) {
         // find default setting (with chords), save to tunes db , 
         handleFoundTune(tune, [tune], songSearchString, null, songNumber, function(setting) {
           if (setting !== undefined) {
             tune.useSetting = setting > 0 ? setting : 0
-            songlistParts[songNumber] = "[ID:" + tuneId + "][S:"+0 + "]"+songSearchString;
+            tune.forceTitle = songSearchString
+            songlistParts[songNumber] = "[ID:" + tuneId + "][S:"+0 + "][B:0]"+songSearchString;
             $('#songlist').val(songlistParts.join("\n"))
             saveSongList()
+            // update tune cache
+            var tunes = loadLocalObject('abc2book_tunes')
+            tunes[songNumber] = tune
+            saveLocalObject('abc2book_tunes',tunes)
             generateAndRenderSingle(songNumber, tune)
             $('#waiting').hide()
             $('#wrong_tune_selector_'+songNumber).hide()
@@ -90,11 +100,11 @@ function updateTuneSearchText(songNumber, newSearchText) {
       var searchCache = loadLocalObject('abc2book_search')
       searchCache[safeString(newSearchText)] = searchRes.tunes
       saveLocalObject('abc2book_search',searchCache)
-      $('#wrong_tune_selector_'+songNumber+' .tune_selector_option').remove()
+      $('#wrong_tune_selector_'+songNumber+' .tune_selector_option').hide()
       
       if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
         searchRes.tunes.map(function(tune) {
-          $('#wrong_tune_selector_'+songNumber).append('<div><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></div>')
+          $('#wrong_tune_selector_'+songNumber).append('<div class="tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></div>')
         })
       }
     })
@@ -116,16 +126,26 @@ function delayedUpdateSearchResults(songNumber) {
 
 
 
-function removeTune(tuneNumber) {
+function removeTune(songNumber) {
+   // from songlist
+   var songlist = $('#songlist').val().split("\n")
+   songlist.splice(songNumber,1)
+   $('#songlist').val(songlist.join("\n"))
+   saveSongList()
+   // from html
+   $('#music_'+songNumber).remove()
+   $('#cheatsheet_music_'+songNumber).remove()
+   $('#controls_'+songNumber).remove()
+   // from controls_
    // tunes data
    var tunes = loadLocalObject('abc2book_tunes')
-   tunes.splice(tuneNumber,1)
-   saveLocalObject('abc2book_tunes', tunes)
+   var clean = {}
+   Object.keys(tunes).map(function(key, tuneIndex) {
+     if (tuneIndex !== songNumber) clean[key] = tunes[key] 
+   })
+   saveLocalObject('abc2book_tunes', clean)
    // indexes
-   var tunes = loadLocalObject('abc2book_tunes')
-   tunes.splice(tuneNumber,1)
-   saveLocalObject('abc2book_tunes', tunes)
-   generateAndRender()
+   //generateAndRender()
 }
 
 
