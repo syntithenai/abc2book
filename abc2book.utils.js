@@ -1,6 +1,34 @@
 Number.prototype.mod = function (n) {
   return ((this % n) + n) % n;
 };
+
+function shuffleArray(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
+function getReviewListFromDOM() {
+  var reviewList = []
+  try {
+    reviewList = JSON.parse($('#reviewlist').val())
+  } catch {}
+  //console.log('get rewwv',$('#reviewlist').val(), reviewList)
+  if (!reviewList) reviewList = {}
+  return reviewList
+}
  
 function getTuneTitles() {
     var tunes = loadLocalObject('abc2book_tunes')
@@ -11,14 +39,14 @@ function getTuneTitles() {
 function getSearchTexts() {
     var tunes = $("#songlist").val().split("\n")
     var titles = tunes ? Object.values(tunes).map(function(tune) {return getTextFromSongline(tune)}) : []
-    console.log(tunes,titles)
+    //console.log(tunes,titles)
     return titles.join("\n")    
 } 
 
 function bindCopy(element,val) {
-  console.log('bindcopy',element,val)
+  //console.log('bindcopy',element,val)
   element.click(function() {
-    console.log('bindcopy click')
+    //console.log('bindcopy click')
     const cb = navigator.clipboard;
     cb.writeText(val()).then(function() {
        alert('Copied!')
@@ -111,18 +139,20 @@ function splitKeyAndRhythm(text) {
 function getMetaValueFromSongline(key,songline) {
     try {
         var parts = songline.split("["+key+":")
-        var isFirst = songline.indexOf(key + "]") === 0
-        if (isFirst || parts.length > 1) {
+        //var isFirst = songline.indexOf(key + "]") === 0
+        //isFirst || 
+        if (parts.length > 1) {
             return parts[1].split("]")[0]
         } else {
-            return ''
+            return null
         }
     } catch (e) {
-        return ''
+        return null
     }
 }
 function scrollTo(id) {
     var element = document.getElementById(id);
+  //console.log('scroll to '+id,element)
     var headerOffset = 60;
     var elementPosition = element.offsetTop;
     var offsetPosition = elementPosition - headerOffset;
@@ -218,17 +248,29 @@ function hideTuneControls() {
 }
 
 function showContentSection(contentId) {
-    var contentTypes = ['cheatsheet_music_container','indexes','music','help','review']
+    var contentTypes = ['cheatsheet_music_container','indexes','music','help','review','edit','songlistmanager','welcometext']
+    if (contentId === 'music') {
+      $('#addtunebutton').show()
+    } else {
+      $('#addtunebutton').hide()
+    }
+    if (contentId === 'review') {
+      $('#reviewbuttons').show()
+    } else {
+      $('#reviewbuttons').hide()
+    }
+    $("#reviewbuttons").hide()
+    $('#buttonblock').show()
+    $('.playblock').show()
     if (contentId == 'home') {
-         $('#helptext').show()
-         $('#songlistbutton').show()
+         contentTypes.map(function(type) {
+            $("#"+type).hide()
+         })
+         //$('#helptext').show()
+        // $('#songlistbutton').show()
          $('#errors').show()
          $("#music").show()
-         $("#cheatsheet_music_container").hide()
-         $("#indexes").hide()
-         $("#help").hide()
-         $("#review").hide()
-         
+         //$("#welcometext").show()
          scrollTo('topofpage')
     } else {
         
@@ -240,8 +282,8 @@ function showContentSection(contentId) {
               $("#"+type).show()
           }  
         })
-        $('#helptext').hide()
-        $('#songlistbutton').hide()
+        //$('#helptext').hide()
+        //$('#songlistbutton').hide()
         $('#errors').hide()
        // $('#songlistmanager').hide()
         scrollTo('topofpage')
@@ -317,7 +359,7 @@ function progressUp(songNumber) {
     newLine += '[B:'+newBoost+']' + text
     tunes[songNumber] = newLine
     $("#songlist").val(tunes.join("\n"))
-    //console.log('songlist written',line)
+    console.log('up songlist written',line)
     $('#tune_boost_'+songNumber).text(newBoost)
     saveSongList()
 }
@@ -341,3 +383,46 @@ function progressDown(songNumber) {
     $('#tune_boost_'+songNumber).text(newBoost)
     saveSongList()
 }
+
+function parseAbc() {
+  var abc = $('#longabc').val()
+  var tuneBook = new ABCJS.TuneBook(abc)
+  var measureArray = ABCJS.extractMeasures(abc);
+  var tunes = []
+  tuneBook.tunes.map(function(tune,k) {
+    tune.measures = measureArray[k].measures
+    tune.hasPickup = measureArray[k].hasPickup
+    tune.meta = extractAbcMeta(tune.abc)
+    tunes.push(tune)
+    return true
+  })
+  //console.log('parsed',tunes)
+  return tunes
+}
+
+function extractAbcMeta(abc) {
+  var parts = abc.split("\n")
+  var meta = {}
+  var tune = []
+  parts.map(function(part) {
+    if (part[1] === ":" && part[0] !== "|" ) {
+       meta[part[0]] = part.slice(2)
+    } else {
+      tune.push(part)
+    }
+  })
+  meta.cleanAbc = tune.join("\n")
+  return meta
+  
+}
+/*
+function parseMeasures() {
+  
+}
+
+
+function isMusicalNote() {
+  case
+}
+
+*/

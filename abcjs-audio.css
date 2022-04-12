@@ -1,5 +1,33 @@
 /* Some basic CSS to make the Audio controls in abcjs presentable. */
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.abcjs-extra-text {
+   font-size: 0.7em;
+   min-height: 3em;
+}
+
+button {
+   border: 1px solid black;
+   border-radius: 4px;
+   margin-top: 0.1em;
+   margin-bottom: 0.1em;
+}
+
 @media only screen and (max-width: 600px) {
   #tempovalue {
     width: 30px;
@@ -47,7 +75,7 @@
 		}
 
 		@media print {
-      .controls, textarea, #help, #generatebutton, #songlistpickerbutton, #stopbutton, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
+     #addtunebutton, #songlistmanager, #songlistpicker,  .controls, textarea, #help, #generatebutton, #songlistpickerbutton, #stopbutton, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
 				display: none;
 			}
 		}

@@ -1,3 +1,7 @@
+function getSongList(key) {
+    return getSongLists()[key]
+}
+
 function getSongLists() {
     return {
         'campbell set': `
@@ -8,89 +12,89 @@ atholl highlanders
 banish misfortune
 Billy and the low ground
 black bird
-
+         black thorne stick
+    blarney pilgrim
+    boys of blue hill
+    Caledonian reel
+    claire jig
+    click go the shears
+    cock of the north
+    dennis murphy's polka
+    dingle regatta
+    donkey reel
+    drowzee maggie
+    ducks on the mill pond
+    fairheaded boy
+    famous ballymote
+    flowers of edinburgh
+    forty pound float
+    foxhunters jig
+    freyers
+    frieze britches
+    funky reel
+    gallagher's frolicks
+    gallopede
+    give me your hand
+    gravel walk
+    halting march
+    harvest home
+    haste to the wedding
+    high reel
+    ivy leaf
+    joe derranes jig
+    john stenson's reel
+    junior crehans
+    kid on the mountain
+    king of the fairies
+    lanaghan's ball
+    lark in the morning
+    last house in con aught
+    lord mayo
+    maggie brown's favorite
+    march of the king of laoise
+    merrily kiss the quakers wife
+    merry blacksmith
+    michele ferreis
+    morning star
+    morris lennon's jig
+    munster cloak
+    music for a found harmonium
+    nancy
+    night in this land
+    off she goes
+    off to california
+    over the oceans
+    parting glass
+    rakes of kildare
+    rakes of mallow
+    rites of man
+    rocky road to dublin
+    saddle the pony
+    salamanca reel
+    sally gardens
+    sally goodin
+    sean ryan's reel
+    shebag seymour
+    siege of innes
+    silver spear
+    soldiers joy
+    song of the chanter
+    south wind
+    sweeney's
+    sweets of may
+    tell me ma
+    temperance reel
+    ten penny bit
+    the butterfly
+    tobins favorite
+    tripping up the stairs
+    turkey in the straw
+    will you go lassie
+       
         
         `,
         
-            //black thorne stick
-    //blarney pilgrim
-    //boys of blue hill
-    //Caledonian reel
-    //claire jig
-    //click go the shears
-    //cock of the north
-    //dennis murphy's polka
-    //dingle regatta
-    //donkey reel
-    //drowzee maggie
-    //ducks on the mill pond
-    //fairheaded boy
-    //famous ballymote
-    //flowers of edinburgh
-    //forty pound float
-    //foxhunters jig
-    //freyers
-    //frieze britches
-    //funky reel
-    //gallagher's frolicks
-    //gallopede
-    //give me your hand
-    //gravel walk
-    //halting march
-    //harvest home
-    //haste to the wedding
-    //high reel
-    //ivy leaf
-    //joe derranes jig
-    //john stenson's reel
-    //junior crehans
-    //kid on the mountain
-    //king of the fairies
-    //lanaghan's ball
-    //lark in the morning
-    //last house in con aught
-    //lord mayo
-    //maggie brown's favorite
-    //march of the king of laoise
-    //merrily kiss the quakers wife
-    //merry blacksmith
-    //michele ferreis
-    //morning star
-    //morris lennon's jig
-    //munster cloak
-    //music for a found harmonium
-    //nancy
-    //night in this land
-    //off she goes
-    //off to california
-    //over the oceans
-    //parting glass
-    //rakes of kildare
-    //rakes of mallow
-    //rites of man
-    //rocky road to dublin
-    //saddle the pony
-    //salamanca reel
-    //sally gardens
-    //sally goodin
-    //sean ryan's reel
-    //shebag seymour
-    //siege of innes
-    //silver spear
-    //soldiers joy
-    //song of the chanter
-    //south wind
-    //sweeney's
-    //sweets of may
-    //tell me ma
-    //temperance reel
-    //ten penny bit
-    //the butterfly
-    //tobins favorite
-    //tripping up the stairs
-    //turkey in the straw
-    //will you go lassie
-        
+    
         
         'good tunes': `
         Dusty Windowsills Jig
@@ -258,7 +262,9 @@ Far Away Waltz
 //Polka de pe Faulon
 //Westphalia Waltz
         'begged borrowed and stolen': `
-        
+        after the battle of oram
+angeline the baker
+ash plants
         `,
         'fiddlers fakebook': `
         

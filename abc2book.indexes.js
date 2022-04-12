@@ -80,7 +80,7 @@ function renderIndexFromTunes() {
     Object.keys(index).map(function(tuneNumber) {
       var tuneTitle = index[tuneNumber]
       
-      $('#index').append("<div>" + (parseInt(tuneNumber) + 1) + '. ' +tuneTitle + "</div>")
+      $('#index').append(`<div >` + (parseInt(tuneNumber) + 1) + '. ' +tuneTitle + "</div>")
     })
   }
 }
@@ -160,7 +160,25 @@ function sortAndCollateMainIndex() {
     sortedKeys.map(function(a) {
       sorted.push(lookups[a])
     })  
-    $('#index').html(sorted.map(function(a) {return $("<div>"+a+"</div>")}) )
+    
+    $('#index').html(sorted.map(function(a) {
+      var parts = a.split('.')
+      var link = $(`<a href='#'>`+a+"</a>")
+      link.click(function(e) {
+        e.stopPropagation()
+        $('#music').show()
+        $('.controls').show()
+        //console.log('click',parts, parseInt(parts[0]))
+        showContentSection('music')
+        setTimeout(function() {
+          scrollTo("controls_"+(parseInt(parts[0]) -1))
+        }, 300)
+        
+      })
+      var d = $(`<div></div>`)
+      d.append(link)
+      return d
+    }) )
     collateMainIndex()
 }
 

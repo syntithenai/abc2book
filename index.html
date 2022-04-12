@@ -10,19 +10,45 @@
 	
 </head>
 <body>
-  
-<div id="review" style="display: none" >
-  <br/>
-  <br/>
-review
+ <a id="topofpage" ></a>
+ 
+ <div id="songlistpicker" class="overlay" style="z-index: 9999; display: none; position: fixed ; top:120px; left: 20px;"  ></div>
+ <div id="chathistory"  class="overlay" style="z-index: 9999; display: none; position: fixed ; top:120px; left: 20px;"  ></div>
+ 
+<div id="review" style="margin-top: 3em; display: none" >
+  <input type="hidden" id="reviewplaycounter" value="0" />
+  <input type="hidden" id="reviewindex" value="0" />
+  <div id="reviewlistwrapper" class="overlay" >
+    <input type="text" id="reviewsearchinput" />
+    <div id="reviewlist"  ></div>
+  </div>
+  <div id="reviewmusic"  ></div>
 </div>  
+ 
+<div id="edit" style="display: none" >
+  <div style="position: fixed; top: 2em; left: 0; height: 1em"  id="editoraudio"></div>
   
   
-<a id="topofpage" ></a>
+  <div style="position: fixed; top: 2em; right: 0; height: 1em"  id="editorbuttons">
+    
+    <button onClick="submitSaveSetting()" style="margin-right: 0.2em" id="savesettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Save Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
+    
+    <button  onClick="submitNewSetting()" style="margin-right: 0.2em" id="newsettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h20v2H2v-2zm0-7h20v2H2V4zm16 14v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"/></svg></button>
+    
+    <button  onClick="submitNewTune()" style="margin-right: 0.2em" id="newtunebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>New Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15 4H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992zM11 11V8h2v3h3v2h-3v3h-2v-3H8v-2h3z"/></svg></button>
+  </div>
+  <textarea spellcheck="false" style="position: fixed; top: 4em; left: 0; width: 100%; height: 7em; " id="editor" ></textarea>
+  <div id="editormusic" style="margin-top: 10em;  width: 100%"  ></div>
+  <div style="font-size: 0.6em; color: red;" id="editorwarnings" ></div>
+  <input type='hidden' id="editorsongnumber" />
+  
+</div>    
+  
 <div id="audio"></div>
 <input type="hidden" id="forcestop" value="" />
+<input type="hidden" id="reviewforcestop" value="" />
+
 <input type="hidden" id="reviewlist" value="" />
-<input type="hidden" id="reviewindex" value="0" />
 <div id="controls"  style="width: 100%; z-index: 3;  background-image: linear-gradient(to right , #d8d5f9, #6254f5);
   position: fixed; top: 0; left: 0; height: 2em; padding: 0em" >
   <span id="waiting" ><img src="waiting.gif" style="position: fixed; top: 0; left: 0; height: 1.8em; opacity: 1"  ></span>
@@ -31,18 +57,33 @@ review
     <button id="homebutton" style="z-index: 10"  ><img style="height: 1.5em; opacity: 0.9"  src="home.png"   ></button>
     
   </a>
-  
+<!--
+  <button onClick="parseAbc()"  >TEST</button>
+-->
+
+
+  <div id="reviewbuttons" style="display: none; width: 100%" >
+    <button onClick="showReviewList()" style="float: left" id="reviewlistbutton" ><svg role="img"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Review List</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
+    <button  onClick="previousReviewItem()" style="margin-left: 2em; float: none" id="reviewlistpreviousbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Previous</title><path fill="none" d="M0 0h24v24H0z"/><path d="M8 12l6-6v12z"/></svg></button>
+    <button  onClick="nextReviewItem()"style="margin-left: 0.5em; float: none" id="reviewlistnextbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Next</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z"/></svg></button>
+    
+    <button  onClick="startReview()" style="margin-right: 0.2em; float: right" id="reviewplayallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Start Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
+    
+    <button onClick="reviewStopPlaying()"   style="margin-right: 0.2em; display: none; float: right" id="reviewstopallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
+    
+    
+  </div>
   
   <div style="position: relative; width: 100%; " >
     <div id="buttonblock" style="float: left;" >
-      <button id="cheatsheetbutton" class="headerbutton" onClick="showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
       <button id="indexbutton" class="headerbutton" onClick="showContentSection('indexes')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Show Index</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"/></svg></button>
      
+     <button id="cheatsheetbutton" class="headerbutton" onClick="showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
       
       
-      <button id="printbutton" style="display: none" class="headerbutton"  onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
-       <button id="helpbutton" class="headerbutton" onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
-      <button   id="reviewbutton" onClick="review()" class="headerbutton" style="float: left; margin-right: 0.2em;"  >
+       
+   
+<button   id="reviewbutton"  class="headerbutton" style="float: left; margin-right: 0.2em;"  >
   <svg role="img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 463 463" height="24px" width="24px" style="enable-background:new 0 0 463 463;" xml:space="preserve">
    <title>Review</title>
@@ -97,6 +138,31 @@ review
 		c4.142,0,7.5-3.357,7.5-7.5S339.642,328,335.5,328z"/>
 </g>
 </svg></button>
+
+<button   id="moremenubutton" >
+<svg style="position: relative; top: 10px" role="image" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32.055 32.055" width="24" height="24" style="enable-background:new 0 0 32.055 32.055;" xml:space="preserve"><title>Show More</title>
+<g>
+	<path d="M3.968,12.061C1.775,12.061,0,13.835,0,16.027c0,2.192,1.773,3.967,3.968,3.967c2.189,0,3.966-1.772,3.966-3.967
+		C7.934,13.835,6.157,12.061,3.968,12.061z M16.233,12.061c-2.188,0-3.968,1.773-3.968,3.965c0,2.192,1.778,3.967,3.968,3.967
+		s3.97-1.772,3.97-3.967C20.201,13.835,18.423,12.061,16.233,12.061z M28.09,12.061c-2.192,0-3.969,1.774-3.969,3.967
+		c0,2.19,1.774,3.965,3.969,3.965c2.188,0,3.965-1.772,3.965-3.965S30.278,12.061,28.09,12.061z"/>
+</g>
+</svg></button> 
+    <div style="display: none" id="moremenu" class="overlay" >
+      
+      <button style="margin-right: 0.2em; float: left" id="editsonglistbutton" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Edit Songlist</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z"/></svg></button>
+    
+      <button style="margin-right: 0.2em; float: left" id="downloadbutton"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Save/Download</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
+    
+    <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Load Songbook</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>
+      
+      <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
+       
+       <button id="helpbutton" style="float: left"  onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
+      
+    </div>
+
     </div>
     <div class="playblock"  style="float: right">
         <svg version="1.1" style="float: left; margin-top: 0.3em"  height="15px" width="15px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -162,19 +228,45 @@ review
 </div>
 
 
+<div id="downloadselector"  class="overlay" style="float: left; width: 90%; position: fixed ; top:120px; left: 20px;" >
+  <input id="downloadsonglist" style="float: left; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;" type='button' onClick="download('songlist.meta.txt', $('#songlist').val())" value="Save" />
+  <div style="float: left; margin-left: 1em;" >
+    <h5 style="margin-top: 0px">Download</h5>
+    <input id="downloadlongabc" style="" type='button' onClick="downloadLongAbc()" value="Tunebook ABC" />
+    <input id="downloadshortabc" style="" type='button' onClick="downloadShortAbc()" value="Cheatsheet ABC" />
+    <input   type='button' onClick="download('songtitles.txt', getTuneTitles())" value="Song Titles" />
+    <input   type='button' onClick="download('searchtitles.txt', getSearchTexts())" value="Search Titles" />
+  </div>
+  <div style="float: left; margin-left: 1em;" >
+    <h5 style="margin-top: 0px" >Copy</h5>
+    <input id="copylongabc" style="" type='button'  value="Tunebook ABC" />
+    <input id="copyshortabc" style="" type='button'  value="Cheatsheet ABC" />
+    <input id="copysongtitles" style="" type='button'  value="Song Titles" />
+    <input id="copysongtexts" style="" type='button'  value="Search Titles" />
+  </div>
+</div>
 
 <div id="mastercontainer" >
 
-  <br/><br/>
-  <div id="help" style="display: none;" >
-    <div>This tool assists in making a printable book of sheet music from a list of the names of songs.<br/></div>
-    <div>It also provides tools to help memorise lists of tunes. Boosting songs means that they show up in your review, most boosted last with playback tempos reflecting boost so songs get faster as you indicate you know them better.<br/></div>
-    <h3>FAQ</h3>
+  <div id="help" style="display: none;margin-top: 3em" >
+    <div>This tool helps you to find, collect, print and memorise tunes. It includes features to
     <ul>
-        <li><b>Why do the songs in my list get bracketed information added eg "[ID:1308][S:6]after the battle of oram"</b></li>
-        <li><b>I've gone through and refined my list to choose settings, how do I keep this information.</b></li>
-        <li><b>Why </b></li>
-    </ul>
+      <li>Search and import tunes from thesession.org.</li>
+      <li>Edit tunes with immediate visual feedback and audio support.</li>
+      <li>Generate a clickable index of all the tunes in a book</li>
+      <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
+      <li>Print a paginated book including the index, cheatsheet and music.</li>
+      <li>Listen to the tunes and set the tempo.</li>
+      <li>Add tunes to a review list with a confidence score</li>
+      <li>Review tunes, starting with the least confident, by playing them three times each and then increasing the confidence score.</li>
+      <li>Once a tune has been played three times, it is excluded from review for 24 hours.</li>
+      <li>In review, the tempo of playback is faster for tunes with high confidence.</li>
+      
+      <h3>FAQ</h3>
+    <ul>
+        <li><b>Something doesn't work right? [Submit bugs at github](https://github.com/syntithenai/abc2book/issues).</b></li>
+        
+        </ul>
     <br/><br/><br/>
     
     <div>Songs are sourced from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a></div>
@@ -184,38 +276,13 @@ review
     <br/>
     <div>Copyleft Steve Ryan (<a target='mailwin'  href="mailto:syntithenai@gmail.com" >syntithenai@gmail.com</a>)</div>
   </div>  
-  <div id="songlistmanager" >
+  <div id="songlistmanager" style="display: none; margin-top: 3em"  >
     <div id="helptext" style="font-weight: bold;  margin-right: 2em">Type a list of tunes from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a> and click <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></div>
     <div id="errors" style="display: none" ></div>
     <div id="songlistbutton" style="float: left; position: relative; clear both;" >
       <button id="generatebutton" style="float: left ; clear: both;  margin-right: 1em" type='button' onClick="generateMusic()"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Load and generate music from list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></button>
       <button id="stopbutton" style="display: none; float: left ;margin-right: 0.2em" type='button' onClick="setStopNow(true)"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Loading</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-9.414l2.828-2.829 1.415 1.415L13.414 12l2.829 2.828-1.415 1.415L12 13.414l-2.828 2.829-1.415-1.415L10.586 12 7.757 9.172l1.415-1.415L12 10.586z"/></svg></button>
       <input id="stopbuttonvalue"  type='hidden' value="true" />
-        
-      
-      
-      <div id="downloadselector"  class="overlay" style="float: left; width: 90%; position: fixed ; top:120px; left: 20px;" >
-        <input id="downloadsonglist" style="float: left; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;" type='button' onClick="download('songlist.meta.txt', $('#songlist').val())" value="Save" />
-        <div style="float: left; margin-left: 1em;" >
-          <h5 style="margin-top: 0px">Download</h5>
-          <input id="downloadlongabc" style="" type='button' onClick="downloadLongAbc()" value="Tunebook ABC" />
-          <input id="downloadshortabc" style="" type='button' onClick="downloadShortAbc()" value="Cheatsheet ABC" />
-          <input   type='button' onClick="download('songtitles.txt', getTuneTitles())" value="Song Titles" />
-          <input   type='button' onClick="download('searchtitles.txt', getSearchTexts())" value="Search Titles" />
-        </div>
-        <div style="float: left; margin-left: 1em;" >
-          <h5 style="margin-top: 0px" >Copy</h5>
-          <input id="copylongabc" style="" type='button'  value="Tunebook ABC" />
-          <input id="copyshortabc" style="" type='button'  value="Cheatsheet ABC" />
-          <input id="copysongtitles" style="" type='button'  value="Song Titles" />
-          <input id="copysongtexts" style="" type='button'  value="Search Titles" />
-        </div>
-    </div>
-    
-    <button style="float: left; margin-right: 1em" id="downloadbutton" class="headerbutton" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Save/Download</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
-    
-    <button style="float: left; margin-right: 0.2em"  id="songlistpickerbutton" onClick="$('#songlistpicker').show() ;return false;" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Load Songbook</title><path fill="none" d="M0 0h24v24H0z"/><path d="M22 13h-2V7h-8.414l-2-2H4v14h9v2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H21a1 1 0 0 1 1 1v7zm-2 4h3v2h-3v3.5L15 18l5-4.5V17z"/></svg></button>
-      
       
       <input type="file"  id="uploadbutton" class="headerbutton" value="Load File" />
       
@@ -223,7 +290,7 @@ review
   const fileSelector = document.getElementById('uploadbutton');
   fileSelector.addEventListener('change', (event) => {
     const fileList = event.target.files;
-    console.log('FILES',fileList);
+    //console.log('FILES',fileList);
     function readFile(){
         var file = document.getElementById("uploadbutton").files[0];
         var reader = new FileReader();
@@ -234,7 +301,7 @@ review
               saveSongList()
               generateMusic()
           }
-          console.log("reader end",reader.result)
+          //console.log("reader end",reader.result)
             //document.getElementById('profile-upload').style.backgroundImage = "url(" + reader.result + ")";        
         }
         if(file){
@@ -246,12 +313,13 @@ review
   });
 </script>
       
-
-    <div id="songlistpicker" class="overlay" style="display: none; position: fixed ; top:120px; left: 20px;"  ></div>
+    </div>
+    <div id="processingstatus" ></div>
     <textarea  style="clear: both; float: left; width: 100%" rows=10  id="songlist" onKeyUp="saveSongList()" ></textarea>
+    
   </div>
-
-  <div id="indexes" style="display: none; margin-left: 1em">
+  
+  <div id="indexes" style="display: none; margin-left: 1em; margin-top: 3em">
     <h1>Tune Index</h1>
     <div id="index"   ></div>
     <p style='page-break-before: always'><br/></p>
@@ -279,14 +347,24 @@ review
 
 
   <p style='page-break-before: always'><br/></p>
-  <div id="cheatsheet_music_container"  >
+  <div id="cheatsheet_music_container"  style="display: none" >
     <h3 style="margin-top: 1em">Cheat Sheet</h3>
     <div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
   </div>
 
   <p style='page-break-before: always'></p>
+  <div id="welcometext" style="margin-bottom: 1em; font-size: 0.9em"  >
+  <h3 style="display: inline" >Learn session tunes here !</h3> 
+  <span>Try one of our curated tunebooks <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </span>
+  <div style="margin-top:0.5em" >Or create your own book from a list of tunes <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or just <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button></div>
+  </div>
+  
+  <button style="float: right;" id="addtunebutton" >
+  <svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Add a Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>
+  
   <div style="width: 100%; clear: both; padding-bottom: 2em;" class="container music"  id="music"   ></div>
-
+  <br/>
+  <br/>
 
 </div>
 
@@ -297,9 +375,14 @@ review
 <script src="abc2book.utils.js"></script>
 <script src="abc2book.audio.js"></script>
 <script src="abc2book.tunelists.js"></script>
+<script src="abc2book.review.js"></script>
 
 <script src="abc2book.indexes.js"></script>
 <script src="speakClient.js"></script>
+<script src="NoSleep.min.js"></script>
+<!--
+<script src="qrcode.min.js"></script>
+-->
 
 <script >
 
@@ -307,6 +390,9 @@ review
 $(document).ready(function() {
   loadSongList()
   $("#stopbutton").show()
+  //$('#songlistmanager').hide()
+  //$("#helpbutton").hide()
+  //$("#reviewbuttons").hide()
   generateAndRender()
   // hide overlays on bg click
   $('body').click(function() {
@@ -320,6 +406,52 @@ $(document).ready(function() {
     e.stopPropagation()
     $('#downloadselector').show()
   })
+  $('#reviewbutton').click(function(e) {
+    review()
+  })
+  $('#reviewlistbutton').click(function(e) {
+    e.stopPropagation()
+    showReviewList()
+  })
+  $('#reviewsearchinput').click(function(e) {
+    e.stopPropagation()
+    //showReviewList()
+  })
+  $('#moremenubutton').click(function(e) {
+    e.stopPropagation()
+    $("#moremenu").show()
+  })  
+  $('#editsonglistbutton').click(function(e) {
+    showContentSection('songlistmanager')
+    $('#songlistmanager').show()
+  })  
+  $('#welcomecreatenewbutton').click(function(e) {
+    showContentSection('songlistmanager')
+    $('#songlistmanager').show()
+  }) 
+  $('#songlistpickerbutton').click(function(e) {
+    //console.log('show picker')
+    e.stopPropagation()
+    $('#songlistpicker').show()
+  }) 
+   $('#welcomeaddtunebutton').click(function() {
+     var searchText = prompt('What is the name of the tune?')
+     addNewTuneToStartOfList(searchText)
+   })
+   $('#addtunebutton').click(function() {
+     var searchText = prompt('What is the name of the tune?')
+     addNewTuneToStartOfList(searchText)
+   })
+ 
+   
+  var reviewSearchClickTimeout = null
+  $('#reviewsearchinput').keyup(function(e) {
+    if (reviewSearchClickTimeout) clearTimeout(reviewSearchClickTimeout)
+    reviewSearchClickTimeout = setTimeout(function() {
+      renderReviewList()
+    },300)
+    //showReviewList()
+  })
   bindCopy($('#copyshortabc'),function() {
       return $('#shortabc').val()
   })
@@ -332,6 +464,13 @@ $(document).ready(function() {
   bindCopy($('#copysongtexts'),function() {
       return getSearchTexts()
   })
+  // no sleep
+  document.addEventListener('click', function enableNoSleep() {
+  document.removeEventListener('click', enableNoSleep, false);
+    var ns = new window.NoSleep()
+    ns.enable();
+  }, false);  
+ 
   //$('#songlist').before()
   //$('#songlistpicker').hide()
   //generateAbcFromTunes()

@@ -24,23 +24,41 @@ function songNumberForDisplay(songNumber) {
  * for rendering complete tunes
  * @return multiline abc string starting with \nX:<tuneid>\n suitable for tune book 
  */
-function tweakABC(abc, songNumber, name, key, type, aliases) {
+function tweakABC(abc, songNumber, name, forceTitle, key, type, aliases) {
   if (!abc) {
-    return emptyABC(songNumber,name)
+    return emptyABC(songNumber,name, forceTitle)
   }
+  var titleText = getTextFromSongline(forceTitle)
+  const capitalize = (str, lower = false) =>
+  (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+;
+
+  var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(name,true)
   var aliasText = ''
-  if (Array.isArray(aliases) && aliases.length > 0) {
-    aliasText = 'C: AKA ' +aliases.slice(0,6).join(", ")+"\n"
+  if (forceTitle.trim().length > 0) {
+    aliasText += 'N: Primary name on thesession.org : ' + name +"\n"
   }
-  return  "\nX: "+songNumber + "\n" + "K:"+key+ "\n"+ "M:"+timeSignatureFromTuneType(type)+ "\n" + aliasText + abc  + " \n" + "T: " + songNumberForDisplay(songNumber) + ". "  + name + " \nR: "+ key.slice(0,1) + ' ' + key.slice(1) +' - ' + type + "\n"
+  if (Array.isArray(aliases) && aliases.length > 0) {
+     aliasText = 'N: Key ' +key.slice(0,1) + " " + key.slice(1) + "\n"
+     aliasText += 'N: AKA: '  +aliases.join(", ")+"\n"
+  }
+  
+  return  "\nX: "+songNumber + "\n" + "K:"+key+ "\n"+ "M:"+timeSignatureFromTuneType(type)+ "\n" + aliasText + abc  + " \n" + "T: " + songNumberForDisplay(songNumber) + ". "  + useName + " \nR: "+  type + "\n"
 }
 
 
-function tweakShortABC(abc, songTitle, keySig, tuneType, songNumber) {
+function tweakShortABC(abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
   if (!abc) {
-    return emptyABC(songNumber,songTitle)
+    return emptyABC(songNumber,songTitle,forceTitle)
   }
   if (abc) { 
+    var titleText = getTextFromSongline(forceTitle)
+    const capitalize = (str, lower = false) =>
+      (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+    ;
+
+    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(name,true)
+ 
       abc = abc.trim()
       // remove strings from abc
       var next = abc.indexOf('"')
@@ -72,7 +90,7 @@ function tweakShortABC(abc, songTitle, keySig, tuneType, songNumber) {
           } 
           shortAbc = shortAbc + "[K:"+keySig+ "] "
           // tune title 
-          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+songTitle+ '"' +  shortAbcParts.slice(1).join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+useName+ '"' +  shortAbcParts.slice(1).join("|") 
         // lead in note
         } else {
           var ts = timeSignatureFromTuneType(tuneType)
@@ -80,7 +98,7 @@ function tweakShortABC(abc, songTitle, keySig, tuneType, songNumber) {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
           shortAbc = shortAbc + "[K:"+keySig+ "] "
-          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +songTitle+ '"' +  shortAbcParts.join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +useName+ '"' +  shortAbcParts.join("|") 
         }
       }
       shortAbc = "\nX: "+songNumber + "\n" + shortAbc + "\n"
@@ -188,48 +206,53 @@ function finishLoadTunes() {
     generateAndRender()
     $('#waiting').hide()
     $('#stopbutton').hide()
+    showContentSection('music')
 }
 
 
 function generateAndRenderSingle(songNumber, tune) {
-  console.log('generateAndRenderSingle', songNumber, tune)
+  //console.log('generateAndRenderSingle', songNumber, tune)
   // update abc short
-  var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
-  var shortabc = tweakShortABC(tune.settings[tune.useSetting].abc, tune.name, tune.settings[tune.useSetting].key, tune.type, songNumber)
-  // cut off X:
-  shortParts[songNumber] =  shortabc.slice(3) + "\n"
-  $('#shortabc').val("X:" + shortParts.join(("X:")))
-  //// update abc long
-  var longParts = $('#longabc').val().trim().split("X:").slice(1)
-  var longabc = tweakABC(tune.settings[tune.useSetting].abc, songNumber, tune.name, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
-  console.log('gen abc ',longabc)
-  // cut off X:
-  longParts[songNumber] = longabc.slice(3) + "\n"
-  $('#longabc').val("X:" + longParts.join(("X:")))
-  
-  // render cheetsheet
-  var shortkey = 'cheatsheet_music_'+songNumber
-  $('#'+shortkey).html('')
-  var renderResultCheat = window.ABCJS.renderAbc([shortkey], shortabc , getCheatSheetRendererSettings());
-  // render song
-  var longkey = 'music_'+songNumber
-  console.log('render into  ',longkey)
-  $('#'+longkey).html('')
-  var searchStrings = $('#songlist').val().split("\n")
-  var renderResultSingle = window.ABCJS.renderAbc([longkey], longabc , getMainRendererSettings());
-  renderResultSingle.map(function(rr,rk) {
-    // update cache 
-    renderResult[songNumber] = rr
-    var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
-    if (errors.hasOwnProperty(rk)) {
-      addErrorControls('#music_'+rk, errors[rk])
-    } else { 
-      addAudioControls('#music_'+rk, rr, rk, searchString)
-    }
-    $('.abcjs-rhythm tspan').attr('y','20')
-  })
-  
+  if (tune && tune.settings.length > tune.useSetting) {
+    
+    var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
+    var shortabc = tweakShortABC(tune.settings[tune.useSetting].abc, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, songNumber)
+    // cut off X:
+    shortParts[songNumber] =  shortabc.slice(3) + "\n"
+    $('#shortabc').val("X:" + shortParts.join(("X:")))
+    //// update abc long
+    var longParts = $('#longabc').val().trim().split("X:").slice(1)
+    var longabc = tweakABC(tune.settings[tune.useSetting].abc, songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
+    //console.log('gen abc ',longabc)
+    // cut off X:
+    longParts[songNumber] = longabc.slice(3) + "\n"
+    $('#longabc').val("X:" + longParts.join(("X:")))
+    
+    // render cheetsheet
+    var shortkey = 'cheatsheet_music_'+songNumber
+    $('#'+shortkey).html('')
+    var renderResultCheat = window.ABCJS.renderAbc([shortkey], shortabc , getCheatSheetRendererSettings());
+    // render song
+    var longkey = 'music_'+songNumber
+    //console.log('render into  ',longkey)
+    $('#'+longkey).html('')
+    var searchStrings = $('#songlist').val().split("\n")
+    var renderResultSingle = window.ABCJS.renderAbc([longkey], longabc , getMainRendererSettings());
+    renderResultSingle.map(function(rr,rk) {
+      // update cache 
+      renderResult[songNumber] = rr
+      var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+      //if (errors.hasOwnProperty(rk)) {
+        //addErrorControls('#music_'+rk, errors[rk])
+      //} else { 
+        addAudioControls('#music_'+rk, rr, rk, searchString)
+      //}
+      $('.abcjs-rhythm tspan').attr('y','20')
+    })
+  }
   // indexes TODO
+  generateIndexesFromTunes()
+  renderIndexes()
   
 }
 
@@ -265,8 +288,10 @@ function renderCheetsheetFromShortAbc() {
  * Render all tunes from complete abclong
  */
 function renderMusicFromLongAbc() {
+  if ($('#longabc').val().trim().length === 0) return
   var errors = loadErrors()  
   var tuneBook = new window.ABCJS.TuneBook($('#longabc').val())
+  
   var targetArray = []
   var row = null;  
   tuneBook.tunes.map(function(v,k) {
@@ -277,12 +302,14 @@ function renderMusicFromLongAbc() {
   renderResult = window.ABCJS.renderAbc(targetArray, $('#longabc').val() , getMainRendererSettings());
   var searchStrings = $('#songlist').val().split("\n")
   renderResult.map(function(rr,rk) {
+    //console.log('RR',rr,rk)
     var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
-    if (errors.hasOwnProperty(rk)) {
-      addErrorControls('#music_'+rk, errors[rk])
-    } else { 
+    //if (errors.hasOwnProperty(rk)) {
+      //addErrorControls('#music_'+rk, errors[rk])
+    //} else { 
       addAudioControls('#music_'+rk, rr, rk, searchString)
-    }
+      
+      //}
   })
   
   $('.abcjs-rhythm tspan').attr('y','20')
@@ -294,17 +321,19 @@ function renderMusicFromLongAbc() {
 function generateAbcFromTunes() {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
+  
   Object.keys(tunes).map(function(tuneKey) {
+    //console.log('UPDATE ALL tune ',tuneKey,tunes[tuneKey])
     var tune = tunes[tuneKey]
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakABC(setting.abc, tuneKey, tune.name, setting.key, tune.type, tune.aliases) + "\n"
+        abc +=  tweakABC(setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
-        abc +=   emptyABC(tuneKey,tune.name)
+        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }
     } else {
-      abc +=   emptyABC(tuneKey,'')
+      abc +=   emptyABC(tuneKey,'', tune.forceTitle)
     }
   })
   $('#longabc').val( abc)
@@ -314,16 +343,17 @@ function updateSingleTune(songNumber, ) {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
   Object.keys(tunes).map(function(tuneKey) {
+    //console.log('UPDATE SINGLE ',tuneKey,tune)
     var tune = tunes[tuneKey]
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakABC(setting.abc, tuneKey, tune.name, setting.key, tune.type, tune.aliases) + "\n"
+        abc +=  tweakABC(setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
-        abc +=   emptyABC(tuneKey,tune.name)
+        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }
     } else {
-      abc +=   emptyABC(tuneKey,'')
+      abc +=   emptyABC(tuneKey,'', tune.forceTitle)
     }
   })
   $('#longabc').val( abc)
@@ -337,12 +367,12 @@ function generateShortAbcFromTunes() {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakShortABC(setting.abc, tune.name, setting.key, tune.type, tuneKey)
+        abc +=  tweakShortABC(setting.abc, tune.name, tune.forceTitle, setting.key, tune.type, tuneKey)
       } else {
-        abc +=   emptyABC(tuneKey,tune.name)
+        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }
     } else {
-      abc +=   emptyABC(tuneKey,'')
+      abc +=   emptyABC(tuneKey,'', tune.forceTitle)
     }
   })
   $('#shortabc').val( abc)
@@ -360,7 +390,7 @@ function saveTuneAndSetting(tune,useSetting,songNumber,searchText, callback) {
     tune.useSetting = useSetting
     tunes[songNumber] = tune
     saveLocalObject('abc2book_tunes', tunes)
-    var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
+    //var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
     //addTuneToIndexes(songNumber, tune, setting, searchText)
   }
   callback()
@@ -373,26 +403,29 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallba
       // hack to force search result/setting using [] with ID for session.org tuneid and S for setting number
       // if present, ID must be first
       // eg [ID:33][S:2]cooley's
-      var forceTuneId = null
-      var forceSetting = null
-      var searchText = tunesListItem
       var trimlist = tunesListItem.trim();
-      if (trimlist.indexOf('[ID:') !== -1) {
-        var start = trimlist.indexOf('[ID:')
-        var end = trimlist.indexOf(']', start)
-        searchText = trimlist.slice(end + 1)
-        forceTuneId = trimlist.slice(start + 4,end)
-      }
-      if (trimlist.indexOf('[S:') !== -1) {
-        var start = trimlist.indexOf('[S:')
-        var end = trimlist.indexOf(']', start)
-        searchText = trimlist.slice(end + 1)
-        forceSetting = trimlist.slice(start + 3,end)
-      }
+      var forceTuneId = getMetaValueFromSongline("ID", trimlist)
+      var forceSetting = getMetaValueFromSongline("S", trimlist)
+      var searchText = getTextFromSongline(trimlist)
+      //if (trimlist.indexOf('[ID:') !== -1) {
+        //var start = trimlist.indexOf('[ID:')
+        //var end = trimlist.indexOf(']', start)
+        //searchText = trimlist.slice(end + 1)
+        //forceTuneId = trimlist.slice(start + 4,end)
+      //}
+      //if (trimlist.indexOf('[S:') !== -1) {
+        //var start = trimlist.indexOf('[S:')
+        //var end = trimlist.indexOf(']', start)
+        //searchText = trimlist.slice(end + 1)
+        //forceSetting = trimlist.slice(start + 3,end)
+      //}
+      
+      
+      //console.log('FORCE', forceTuneId, forceSetting)
       
       if (forceTuneId !== null) {
         $.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
-          handleFoundTune(tune, tunesList, searchText, null, songNumber, settingCallback)
+          handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
         })
       } else {
         $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+searchText).then(function(searchRes) {
@@ -462,7 +495,7 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, 
   } else {
     if (settingCallback) settingCallback(0)
     saveError(songNumber, 'No matches for '+searchText)
-    saveTuneAndSetting(null,null,songNumber,searchText, function() {
+    saveTuneAndSetting({},null,songNumber,searchText, function() {
       iterateTunes(tunesList.slice(1), songNumber + 1, settingCallback)
     })
   }
@@ -476,12 +509,18 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, 
  */
 function iterateTunes(tunesList, songNumber, finishCallback, settingCallback) {
   if (!finishCallback) finishCallback = finishLoadTunes
+  $('#processingstatus').html('<b>Processing..... '+tunesList.length+' remaining </b>')
   songNumber = songNumber > 0 ? songNumber : 0
   // allow for stop button
   if (tunesList.length > 0 && tunesList[0] && $('#stopbuttonvalue').val() !== "true") {
-      handleTunesListItem(tunesList[0].trim(), songNumber, tunesList, settingCallback)
+      if (tunesList.length === 1 && tunesList[0].trim() === '') {
+        // skip single empty line
+      } else {
+        handleTunesListItem(tunesList[0].trim(), songNumber, tunesList, settingCallback)
+      }
   // no more in list
   } else {
+    $('#processingstatus').html('')
     finishCallback()
   }
 }
@@ -501,29 +540,3 @@ function renderSonglistPicker() {
    
 }
 
-/** 
- * Update review list and current music rendering
- * Change display mode to review
- */
- //$('#reviewlist').val()
- //$('#reviewindex').val()
-function review() {
-  renderReviewList()
-  showContentSection('review')
-}
-
-function generateReviewList() {
-  
-}
-
-function renderReviewList() {
-  
-}
-
-function renderReviewMusic() {
-  
-}
-
-function nextReviewItem() {
-  
-}
