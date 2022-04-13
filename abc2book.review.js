@@ -40,9 +40,7 @@ function generateReviewList() {
      shuffleArray(reviewable[boost])
      return
    })
-   if (Object.keys(reviewable).length === 0) {
-     alert('You have seen all your boosted tunes in the last 24 hours.')
-   }
+   
    //console.log('AB;E',reviewable)
    $('#reviewlist').val(JSON.stringify(reviewable))
    $('#reviewindex').val(0)
@@ -52,57 +50,66 @@ function generateReviewList() {
 
 function renderReviewList() {
   var reviewList = getReviewListFromDOM()
-  //console.log('render',reviewList)
-  var tuneList = $('<div ></div>')
-  var counter = 0
-  var searchFor = $('#reviewsearchinput').val().trim().toLowerCase()
-  Object.keys(reviewList).map(function(boost) {
-    var tunes = reviewList[boost]
-    if (Array.isArray(tunes)) {
-      tunes.map(function(tune) {
-        //console.log('renderT',tune)
-        if ((searchFor.length === 0) || (tune.name && tune.name.toLowerCase().indexOf(searchFor) !== -1)) {
-          tuneList.append($('<div style="padding: 0.2em; border-bottom: 1px solid black" onClick="setReviewItem('+counter+')"  >'+tune.name+'</div>'))
-        }
-        counter++
-      })
-    }
-    return
-  })
-  $('#reviewlist').html('')
-  $('#reviewlist').append(tuneList)
+  if (Object.keys(reviewList).length === 0) {
+   //alert('You have seen all your boosted tunes in the last 24 hours.')
+   $('#reviewlist').html('')
+   $('#reviewmusic').html('<b  >You have seen all your boosted tunes in the last 24 hours.</b>')
+  } else {
+    //console.log('render',reviewList)
+    var tuneList = $('<div ></div>')
+    var counter = 0
+    var searchFor = $('#reviewsearchinput').val().trim().toLowerCase()
+    Object.keys(reviewList).map(function(boost) {
+      var tunes = reviewList[boost]
+      if (Array.isArray(tunes)) {
+        tunes.map(function(tune) {
+          //console.log('renderT',tune)
+          if ((searchFor.length === 0) || (tune.name && tune.name.toLowerCase().indexOf(searchFor) !== -1)) {
+            tuneList.append($('<div style="padding: 0.2em; border-bottom: 1px solid black" onClick="setReviewItem('+counter+')"  >'+tune.name+'</div>'))
+          }
+          counter++
+        })
+      }
+      return
+    })
+    $('#reviewlist').html('')
+    $('#reviewlist').append(tuneList)
+  }
 }
 
 var reviewRenderResult=null
+
 function renderReviewMusic() {
   var tune = getCurrentReviewTune()
-  //console.log('REND MUSIC',tune)
-  var songlist = $('#songlist').val().split("\n")
-  var abc = tweakABC(tune.settings[tune.useSetting].abc, tune.songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
-  var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
-  renderResultSingle.map(function(rr,rk) {
-    reviewRenderResult=rr
-    //// update cache 
-    //renderResult[songNumber] = rr
-    //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
-    ////if (errors.hasOwnProperty(rk)) {
-      ////addErrorControls('#music_'+rk, errors[rk])
-    ////} else { 
-      //addAudioControls('#music_'+rk, rr, rk, searchString)
-    //}
-    $('#reviewboostbuttons').remove()
-    var boost = getMetaValueFromSongline('B',songlist[tune.songNumber])
-    boost = boost > 0 ? boost : 0
-    $('#reviewmusic').before(renderBoostButtons(tune.songNumber,boost))
-    $('#review_tune_boost_up').click(function() {
-       progressUp(tune.songNumber )
+  if (tune) {
+    //console.log('REND MUSIC',tune)
+    var songlist = $('#songlist').val().split("\n")
+    var abc = tweakABC(tune.songNumber, tune) 
+    //tune.settings[tune.useSetting].abc, tune.songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
+    var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
+    renderResultSingle.map(function(rr,rk) {
+      reviewRenderResult=rr
+      //// update cache 
+      //renderResult[songNumber] = rr
+      //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+      ////if (errors.hasOwnProperty(rk)) {
+        ////addErrorControls('#music_'+rk, errors[rk])
+      ////} else { 
+        //addAudioControls('#music_'+rk, rr, rk, searchString)
+      //}
+      $('#reviewboostbuttons').remove()
+      var boost = getMetaValueFromSongline('B',songlist[tune.songNumber])
+      boost = boost > 0 ? boost : 0
+      $('#reviewmusic').before(renderBoostButtons(tune.songNumber,boost))
+      $('#review_tune_boost_up').click(function() {
+         progressUp(tune.songNumber )
+      })
+      $('#review_tune_boost_down').click(function() {
+        progressDown(tune.songNumber )
+      })
     })
-    $('#review_tune_boost_down').click(function() {
-      progressDown(tune.songNumber )
-    })
-  })
-  $('.abcjs-rhythm tspan').attr('y','20')
-  
+    $('.abcjs-rhythm tspan').attr('y','20')
+  }
   //$('#reviewmusic').html('playig '+tune.name)
 }
 
@@ -145,6 +152,9 @@ function getCurrentReviewTune() {
 
 function getTuneFromReviewList(tuneIndex) {
   var reviewList = getReviewListFromDOM()
+  if (Object.keys(reviewList).length === 0) {
+    return null
+  }
   //console.log('GET tune for revilist',reviewList, tuneIndex)
   //console.log(reviewList)
   var reviewIndex = 0

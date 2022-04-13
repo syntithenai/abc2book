@@ -196,7 +196,7 @@ function sortOtherIndexes() {
 
 function collateMainIndex() {
     var num_cols = 3,
-    forceMinItemsPerColumn = 60,
+    forceMinItemsPerColumn = 50,
     container = $('#index'),
     listItem = 'div',
     listClass = 'sub-list';

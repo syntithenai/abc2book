@@ -147,18 +147,21 @@ function addNewTuneToStartOfList(searchText) {
    //$('#controls_'+songNumber).remove()
    //// from controls_
    // tunes data
-   //var tunes = loadLocalObject('abc2book_tunes')
-   //var clean = {}
-   //Object.keys(tunes).map(function(key, tuneIndex) {
-     //if (tuneIndex !== songNumber) clean[key] = tunes[key] 
-   //})
-   //saveLocalObject('abc2book_tunes', clean)
+   var tunes = loadLocalObject('abc2book_tunes')
+   var clean = {}
+   Object.keys(tunes).map(function(key, tuneIndex) {
+     var tune = tunes[key] 
+     tune.fo
+     clean[parseInt(key)+1] = tune
+   })
+   clean[0] = {forceTitle: getTextFromSongline(searchText)} 
+   saveLocalObject('abc2book_tunes', clean)
    //// indexes
    //generateIndexesFromTunes()
    //console.log('TIMER gen index', (new Date().getTime() - start))
    //renderIndexes()
     
-   generateMusic()
+   generateAndRender()
 }
 
 function removeTune(songNumber) {
@@ -352,4 +355,32 @@ function hasPlayedInLast24Hours(tuneId) {
     return false
   }
   
+}
+
+function filterMusicList(searchString) {
+  $('#waiting').show()
+  var tunes = loadLocalObject('abc2book_tunes')
+  var showAll = searchString && searchString.trim().length > 0 ? false : true
+  if (!searchString) searchString=''
+  Object.keys(tunes).forEach(function(songNumber) {
+    var tune = tunes[songNumber]
+    console.log(showAll ? "SHOWALL" : "FILTER")
+    if (showAll) {
+      $('#controls_'+songNumber).show()
+      $('#music_'+songNumber).show()
+    } else {
+      var l = searchString.trim().toLowerCase()
+      var aliases = tune.aliases ? tune.aliases.join(",") : ''
+      if ((tune.name && tune.name.toLowerCase().indexOf(l) !== -1) || (tune.forceTitle && tune.forceTitle.toLowerCase().indexOf(l) !== -1)|| (aliases.toLowerCase().indexOf(l) !== -1)) {
+        console.log('show',songNumber)
+        $('#controls_'+songNumber).show()
+        $('#music_'+songNumber).show()
+      } else {
+        //console.log('hide',songNumber)
+        $('#controls_'+songNumber).hide()
+        $('#music_'+songNumber).hide()
+      }
+    }
+  })
+  $('#waiting').hide()
 }

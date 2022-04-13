@@ -16,49 +16,88 @@ function songNumberForDisplay(songNumber) {
 }
 
 
-
-
+function sliceIntoChunks(arr, chunkSize) {
+    const res = [];
+    for (let i = 0; i < arr.length; i += chunkSize) {
+        const chunk = arr.slice(i, i + chunkSize);
+        res.push(chunk);
+    }
+    return res;
+}
 
 /**
  * Append metadata for song title,.. to abc string
  * for rendering complete tunes
  * @return multiline abc string starting with \nX:<tuneid>\n suitable for tune book 
  */
-function tweakABC(abc, songNumber, name, forceTitle, key, type, aliases) {
-  if (!abc) {
-    return emptyABC(songNumber,name, forceTitle)
-  }
-  var titleText = getTextFromSongline(forceTitle)
-  const capitalize = (str, lower = false) =>
-  (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
-;
-
-  var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(name,true)
-  var aliasText = ''
-  if (forceTitle.trim().length > 0) {
-    aliasText += 'N: Primary name on thesession.org : ' + name +"\n"
-  }
-  if (Array.isArray(aliases) && aliases.length > 0) {
-     aliasText = 'N: Key ' +key.slice(0,1) + " " + key.slice(1) + "\n"
-     aliasText += 'N: AKA: '  +aliases.join(", ")+"\n"
-  }
+function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, type, aliases) {
   
-  return  "\nX: "+songNumber + "\n" + "K:"+key+ "\n"+ "M:"+timeSignatureFromTuneType(type)+ "\n" + aliasText + abc  + " \n" + "T: " + songNumberForDisplay(songNumber) + ". "  + useName + " \nR: "+  type + "\n"
+  if (tune) {
+    var abc = null
+    var setting = {}
+    if (tune.settings && tune.settings.length > tune.useSetting) {
+      abc = tune.settings[tune.useSetting].abc
+      setting = tune.settings[tune.useSetting]
+    }
+    if (!abc) {
+      return emptyABC(songNumber,tune.name, tune.forceTitle)
+    }
+    var titleText = getTextFromSongline(tune.forceTitle)
+    const capitalize = (str, lower = false) =>
+    (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+  ;
+
+    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
+    var aliasText = ''
+    if (tune.forceTitle.trim().length > 0) {
+      aliasText += 'N: Primary name on thesession.org : ' + tune.name +"\n"
+    }
+    if (setting.key) aliasText = 'N: Key ' +setting.key.slice(0,1) + " " + setting.key.slice(1) + "\n"
+       
+    if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
+       var aliasChunks = sliceIntoChunks(tune.aliases,5)
+       aliasChunks.forEach(function(chunk) {
+        aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
+      })
+    }
+    
+    var tweaked = "\nX: "+songNumber + "\n" 
+                + "K:"+setting.key+ "\n"+ 
+                "M:"+timeSignatureFromTuneType(tune.type)+ "\n" + aliasText + abc  + " \n" + 
+                "T: " + songNumberForDisplay(songNumber) + ". "  + useName + 
+                " \nR: "+  tune.type + "\n" 
+                //+
+                //"[U:sessionorg_id=" + tune.id + "]\n" + 
+                //"[U:sessionorg_setting=" + tune.useSetting + "]\n" + 
+                //"[U:force_title=" + tune.forceTitle + "]\n" 
+    
+    
+    
+    return tweaked
+  } else {
+    return ''
+  }
 }
 
 
-function tweakShortABC(abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
-  if (!abc) {
-    return emptyABC(songNumber,songTitle,forceTitle)
-  }
-  if (abc) { 
-    var titleText = getTextFromSongline(forceTitle)
+function tweakShortABC(songNumber, tune) { //abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
+  if (tune) {
+    var abc = null
+    var setting = {}
+    if (tune.settings && tune.settings.length > tune.useSetting) {
+      abc = tune.settings[tune.useSetting].abc
+      setting = tune.settings[tune.useSetting]
+    }
+    if (!abc) {
+      return emptyABC(songNumber,tune.name, tune.forceTitle)
+    }
+    var titleText = getTextFromSongline(tune.forceTitle)
     const capitalize = (str, lower = false) =>
-      (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
-    ;
+    (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+  ;
 
-    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(name,true)
- 
+    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
+    
       abc = abc.trim()
       // remove strings from abc
       var next = abc.indexOf('"')
@@ -75,36 +114,37 @@ function tweakShortABC(abc, songTitle, forceTitle, keySig, tuneType, songNumber)
       abc = abc.replace("|:","|")
       // first three bars
       var shortAbcParts = []
-      // tweak key signature
-      keySig = keySig.replace("major","").replace("minor","min");
-       
       shortAbcParts = abc.split("|").slice(0,4)
       var shortAbc = ''
       // handle placement of text(song title)
       if (shortAbcParts.length > 3) {
         // tune starts at first bar
         if (shortAbcParts[0].trim() === '') {
-          var ts = timeSignatureFromTuneType(tuneType)
+          var ts = timeSignatureFromTuneType(tune.type)
           if (ts !== '') {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
-          shortAbc = shortAbc + "[K:"+keySig+ "] "
+          shortAbc = shortAbc + "[K:"+setting.key+ "] "
           // tune title 
           shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+useName+ '"' +  shortAbcParts.slice(1).join("|") 
         // lead in note
         } else {
-          var ts = timeSignatureFromTuneType(tuneType)
+          var ts = timeSignatureFromTuneType(tune.type)
           if (ts !== '') {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
-          shortAbc = shortAbc + "[K:"+keySig+ "] "
+          shortAbc = shortAbc + "[K:"+setting.key+ "] "
           shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +useName+ '"' +  shortAbcParts.join("|") 
         }
       }
       shortAbc = "\nX: "+songNumber + "\n" + shortAbc + "\n"
-      return shortAbc
-      
-    } 
+    
+    
+    return shortAbc
+  } else {
+    return ''
+  }
+   
 }
 
 
@@ -216,7 +256,8 @@ function generateAndRenderSingle(songNumber, tune) {
   if (tune && tune.settings.length > tune.useSetting) {
     
     var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
-    var shortabc = tweakShortABC(tune.settings[tune.useSetting].abc, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, songNumber)
+    var shortabc = tweakShortABC(songNumber, tune)
+    //tune.settings[tune.useSetting].abc, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, songNumber)
     // cut off X:
     shortParts[songNumber] =  shortabc.slice(3) + "\n"
     $('#shortabc').val("X:" + shortParts.join(("X:")))
@@ -328,7 +369,8 @@ function generateAbcFromTunes() {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakABC(setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
+        abc +=  tweakABC(tuneKey, tune)
+        //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }
@@ -348,7 +390,8 @@ function updateSingleTune(songNumber, ) {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakABC(setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
+        abc +=  tweakABC(songNumber, tune)
+        //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }
@@ -367,7 +410,8 @@ function generateShortAbcFromTunes() {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakShortABC(setting.abc, tune.name, tune.forceTitle, setting.key, tune.type, tuneKey)
+        abc +=  tweakShortABC(tuneKey, tune) 
+        //setting.abc, tune.name, tune.forceTitle, setting.key, tune.type, tuneKey)
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
       }

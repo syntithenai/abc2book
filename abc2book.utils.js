@@ -221,6 +221,8 @@ function download(filename, text) {
 }
 
 function printPage() {
+  filterMusicList('')
+  $('#musicsearchfilter').val()
   $('#indexes').show()
   $('#music').show()
   $('#cheatsheet_music_container').show()
@@ -249,11 +251,6 @@ function hideTuneControls() {
 
 function showContentSection(contentId) {
     var contentTypes = ['cheatsheet_music_container','indexes','music','help','review','edit','songlistmanager','welcometext']
-    if (contentId === 'music') {
-      $('#addtunebutton').show()
-    } else {
-      $('#addtunebutton').hide()
-    }
     if (contentId === 'review') {
       $('#reviewbuttons').show()
     } else {
@@ -262,10 +259,17 @@ function showContentSection(contentId) {
     $("#reviewbuttons").hide()
     $('#buttonblock').show()
     $('.playblock').show()
+    if (contentId === 'music') {
+      $('#musiclistbuttons').show()
+    } else {
+      $('#musiclistbuttons').hide()
+    }
+    
     if (contentId == 'home') {
          contentTypes.map(function(type) {
             $("#"+type).hide()
          })
+         $('#musiclistbuttons').show()
          //$('#helptext').show()
         // $('#songlistbutton').show()
          $('#errors').show()
@@ -366,7 +370,7 @@ function progressUp(songNumber) {
 
 function progressDown(songNumber) {
     var boost = parseInt($('#tune_boost_'+songNumber).text()) 
-    boost = boost > 0 ? boost : 0
+    boost = boost > 0 ? boost : 1
     var newBoost = boost - 1
     var tunes = $("#songlist").val().split("\n")
     var line = tunes[songNumber]

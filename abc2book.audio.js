@@ -40,7 +40,7 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
   
   var wrongTuneControls = $('<span  style="position: relative"></span>')
   var wrongTuneButton = $('<button style="" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Wrong tune ?</title><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>')
-  var wrongTuneSelector = $(`<div  id="wrong_tune_selector_`+songNumber+`" class="overlay" style="position: absolute; top: 10; left: 0;" >
+  var wrongTuneSelector = $(`<div  id="wrong_tune_selector_`+songNumber+`" class="overlay" style="position: absolute; min-width: 400px; top: 10; left: 0;" >
     <div><label>Search </label><form onSubmit="delayedUpdateSearchResults(`+songNumber+`); return false" ><input id="wrong_tune_input_`+songNumber+`" value="`+getTextFromSongline(searchString)+`" type="text"   ><input type='submit' value="Search" /></form></div>
   </div>`)
   
@@ -60,8 +60,8 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
     wrongTuneSelector.show()
     return false;
   })
-  var wrongSettingButtonUp = $('<button style="z-index: 50 ; font-size:0.8em; margin-left: 0.4em" class="actionbutton wrong-setting-up"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>')
-  var wrongSettingButtonDown = $('<button style="z-index: 50 ; font-size:0.8em; margin-left: 0.4em" class="actionbutton wrong-setting-down"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>')
+  var wrongSettingButtonUp = $('<button style="z-index: 50 ; margin-left: 0.4em" class="actionbutton wrong-setting-up"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>')
+  var wrongSettingButtonDown = $('<button style="z-index: 50 ; margin-left: 0.4em" class="actionbutton wrong-setting-down"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>')
   wrongSettingButtonUp.click(function() {
     var tune = getTuneFromCache(songNumber)
     var useSetting = tune && tune.useSetting > 0 ? parseInt(tune.useSetting).mod(ss.length) : 0
@@ -288,7 +288,9 @@ function playSongNumber(songNumber)  {
       speak(tunes[songNumber].name, {speed: 140, amplitude: 120} )
       setTimeout(function() {
         if ($('#forcestop').val() !== "true") {
+          
           startPlaying(renderResult[songNumber], songNumber)
+          scrollTo('music_'+songNumber)
         }
       }, 1200)
     }

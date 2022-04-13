@@ -28,11 +28,44 @@ button {
    margin-bottom: 0.1em;
 }
 
+#songlistmanager,#welcometext, #reviewmusic,#review , #help, #indexes, #cheatsheet_music_container{
+   margin-top: 4em;
+}
+#editormusic {
+	margin-top: 10em;
+}
+button {
+     font-size: 2em;
+     min-width: 1.4em;
+     min-height: 1.4	em;
+  }
+  #controls {
+    height: 4em
+  }
 @media only screen and (max-width: 600px) {
   #tempovalue {
     width: 30px;
   }
+  button {
+     font-size: 1.2em
+  }
+  #controls {
+    height: 2em
+  }
 }
+@media only screen and (max-width: 1024px) {
+  #tempovalue {
+    width: 30px;
+  }
+  button {
+     font-size: 1em
+  }
+  #controls {
+    height: 2em
+  }
+}
+
+
 
 .headerbutton {
   float: left;
@@ -75,7 +108,7 @@ button {
 		}
 
 		@media print {
-     #addtunebutton, #songlistmanager, #songlistpicker,  .controls, textarea, #help, #generatebutton, #songlistpickerbutton, #stopbutton, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
+     #musiclistbuttons, #welcometext, #addtunebutton, #songlistmanager, #songlistpicker,  .controls, textarea, #help, #generatebutton, #songlistpickerbutton, #stopbutton, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
 				display: none;
 			}
 		}
