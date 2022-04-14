@@ -1,0 +1,23 @@
+{
+  "short_name": "Tune Book",
+  "name": "ABC Tune Book?",
+  "icons": [
+    {
+            "src": "home-small.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    
+  ],
+  "description": "Collate abc format music into a tunebook",
+  "screenshots": [
+    
+  ]
+}

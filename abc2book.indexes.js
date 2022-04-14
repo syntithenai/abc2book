@@ -130,13 +130,16 @@ function renderIndexByTypeFromTunes() {
  * @param value  - value to add
  * */
 function addToCollation(collationId, key,keyText, value) {
-    var container = $("#"+collationId)
-    var useKey = key.replace(' ','_')
-    var keyContainer = $("#"+useKey, container)
-    if (keyContainer.length == 0) {
-      container.append('<div style="float: left; width: 32%" id="'+useKey+'"><h4>'+keyText+'</h4><div>'+value+'</div></div>')
-    } else {
-      keyContainer.append('<div>'+value+'</div>')
+    if (key && key.trim().length > 0) {
+      var container = $("#"+collationId)
+      var useKey = key.replace(' ','_')
+      //console.log('ADD TO COLL',key)
+      var keyContainer = $("#"+useKey, container)
+      if (keyContainer.length == 0) {
+        container.append('<div style="float: left; width: 32%" id="'+useKey+'"><h4>'+keyText+'</h4><div>'+value+'</div></div>')
+      } else {
+        keyContainer.append('<div>'+value+'</div>')
+      }
     }
 }
 

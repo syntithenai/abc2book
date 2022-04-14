@@ -2,7 +2,6 @@ CACHE MANIFEST
 #This is a comment
 
 CACHE
-
 abc2book2.js
 abc2book.audio.js
 abc2book.indexes.js
@@ -24,3 +23,4 @@ speakGenerator.js
 speakWorker.js
 three-dots-svgrepo-com.svg
 waiting.gif
+textsearch_index.json

@@ -1,0 +1,4 @@
+{
+    "tokens": {"cat":[1001,1004,1003],"dog":[1002], "who": [1003]},
+    "lookups": {"1001": "joe cat", "1004": "cat my arse", "1003": "who cat", "1002": "dog gone"}
+}

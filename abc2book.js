@@ -48,6 +48,9 @@ function abc2Tune(abc) {
     var forceTitle = getCommentFromAbc('force_title',abc)
     var boost = getCommentFromAbc('boost',abc)
     var title = getMetaValueFromTune("T",abc)
+    var meter = getMetaValueFromTune("M",abc)
+    var noteLength = getMetaValueFromTune("L",abc)
+    var source = getMetaValueFromTune("S",abc)
     var tParts = title.split(".")
     var name = tParts.length > 1 ? tParts[1].trim() : title
     var key = getMetaValueFromTune("K",abc) !== null ? getMetaValueFromTune("K",abc).trim() : ''
@@ -83,7 +86,9 @@ function abc2Tune(abc) {
           tune.settings[0].url = "https://thesession.org/tunes/"+id+"#setting"+settingId
         }
       }
-          
+      tune.meter =meter
+      tune.noteLength = noteLength
+      tune.source = source
       tune.id = id
       tune.useSetting = 0
       tune.forceTitle = forceTitle
@@ -153,7 +158,7 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
     }
     //console.log('tweakabc',abc, tune, songNumber)
     if (!abc) {
-      return emptyABC(songNumber,tune.name, tune.forceTitle)
+      return emptyABC(songNumber,tune.name)
     }
     //var titleText = getTextFromSongline(tune.forceTitle)
     const capitalize = (str, lower = false) =>
@@ -174,12 +179,15 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
         aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
       })
     }
+    var meter = (tune.meter && tune.meter.trim().length > 0) ? tune.meter : timeSignatureFromTuneType(tune.type)
     // TODO
     var boost = tune.boost > 0 ? tune.boost : 0
     var tweaked = "\nX: "+songNumber + "\n" 
                 + "K:"+setting.key+ "\n"+ 
-                "M:"+timeSignatureFromTuneType(tune.type)+ "\n" + aliasText + abc  + " \n" + 
+                "M:"+meter+ "\n" + aliasText + abc  + " \n" + 
                 "T: " + songNumberForDisplay(songNumber) + ". "  + useName + 
+                "\nL:" + ((tune.noteLength && tune.noteLength.trim().length > 0) ? tune.noteLength : "1/8") + "\n" + 
+                "S:" + (tune.source ? tune.source : '')  +
                 " \nR: "+  tune.type + "\n" 
                 +
                 "% abc-sessionorg_id " + tune.id + "\n" + 
@@ -189,7 +197,7 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
                 "% abc-boost " +  boost + "\n" 
     
     
-    //console.log('tweakabc D',abc, tune, songNumber, tweaked)
+    console.log('tweakabc D',abc, tune, songNumber, tweaked)
     return tweaked
   } else {
     return ''

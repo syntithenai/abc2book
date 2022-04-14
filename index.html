@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 
 <meta name="robots" content="noindex">
-<html  manifest="offline.manifest" >
+<html  >
+  
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>ABC2Book</title>
   <link href="bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
   <link href="abcjs-audio.css" media="all" rel="stylesheet" type="text/css" />
-	
+	<link rel="manifest" href="./manifest.json">
 </head>
 <body>
   <div id="pagewrapper"  style="position:relative">
@@ -391,6 +392,7 @@
   <h3 style="" >Learn session tunes here !</h3> 
   <div style="display: inline"  >Try one of our curated tunebooks <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
   <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Import an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or just <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button></div>
+  <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along in order of confidence</div>
   </div>
   <div style="width: 100%" id="musiclistbuttons"  >
     <input type="text" style="width: 60%" id="musicsearchfilter"  />
@@ -410,7 +412,7 @@
 </div>
 
 <script src="abc2svg.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
 <script src="abc2book.js"></script>
 <script src="abc2book.persist.js"></script>
 <script src="abc2book.utils.js"></script>
@@ -514,6 +516,9 @@ $(document).ready(function() {
     return false
   })
    $('.wrong_tune_input').click(function(e) {
+    e.stopPropagation()
+  })
+   $('.wrong_abc_input').click(function(e) {
     e.stopPropagation()
   })
   $('.overlay').click(function(e) {

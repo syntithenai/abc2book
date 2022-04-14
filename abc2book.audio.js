@@ -48,14 +48,14 @@ function addAudioControls(element, visualObj, songNumber, tune) {
     
     </div>
   </div>`)
-  var findAbctListWrap = $("<div class='wrong_abc_selector_items' ></div>")
+  var findAbctListWrap = $("<div class='wrong_abc_selector_items_wrap' ></div>")
   var findAbctList = $('<ul class="wrong_abc_selector_items" style="min-width: 600px" class="list-group"   ></ul>')
-  sc.map(function(v) {
-    if (v) {
-      findAbctList.append('<li class="list-group-item abc_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></li>')
-    }
-    return false
-  })
+  //sc.map(function(v) {
+    //if (v) {
+      //findAbctList.append('<li class="list-group-item abc_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></li>')
+    //}
+    //return false
+  //})
   findAbctListWrap.append(findAbctList)
   findAbcSelector.append(findAbctListWrap)
   findAbcButton.click(function(e) {
