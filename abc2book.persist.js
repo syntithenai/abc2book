@@ -28,52 +28,56 @@ function saveLocalObject(localStorageKey, data) {
  * Update which setting a tune uses and rerender
  */
 function updateTuneSetting(songNumber, setting) {
-  var songlistParts = $('#songlist').val().split("\n")
-  if (songlistParts.length > songNumber) {
-    var line = songlistParts[songNumber]
-    var songId = getMetaValueFromSongline("ID",line)
-    var boost = getMetaValueFromSongline("B",line)
-    boost = boost > 0 ? boost : 0
-    var songSearchString = getTextFromSongline(line)
+  //var songlistParts = $('#songlist').val().split("\n")
+  //if (songlistParts.length > songNumber) {
+    //var line = songlistParts[songNumber]
     var tuneCache = loadLocalObject('abc2book_tunes')
     var tune = tuneCache[songNumber]
+    
     if (tune) {
-      songlistParts[songNumber] = "[ID:" + tune.id + "][S:"+setting + "][B:"+boost+"]"+songSearchString;
-      $('#songlist').val(songlistParts.join("\n"))
-      saveSongList()
+      
+      //var songId = tune.id
+      //var boost = tune.boost
+      //boost = boost > 0 ? boost : 0
+      //var songSearchString = tune.forceTitle
+      //songlistParts[songNumber] = "[ID:" + tune.id + "][S:"+setting + "][B:"+boost+"]"+songSearchString;
+      //$('#songlist').val(songlistParts.join("\n"))
+      //saveSongList()
       tune.useSetting = setting
       tuneCache[songNumber] = tune
       saveLocalObject('abc2book_tunes',tuneCache)
-      //console.log('saved',setting,tuneCache[songNumber])
+      console.log('saved satting',setting,tuneCache[songNumber])
       generateAndRenderSingle(songNumber, tune)
       generateIndexesFromTunes()
       renderIndexes()
-
     }
-  }
+  //}
 }
 /**
  * Update the search text for a tune, renew web lookups and rerender
  */
 function updateTuneId(songNumber, tuneId) {
-  var songlistParts = $('#songlist').val().split("\n")
-  if (songlistParts.length > songNumber) {
-    var line = songlistParts[songNumber]
-    var songSetting = getMetaValueFromSongline("S",line)
-    songSetting > 0 ? songSetting : 0
-    var songSearchString = getTextFromSongline(line)
-    var boost = getMetaValueFromSongline("B",line)
-    boost = boost > 0 ? boost : 0
+  //var songlistParts = $('#songlist').val().split("\n")
+  //if (songlistParts.length > songNumber) {
+    //var line = songlistParts[songNumber]
+    //var songSetting = getMetaValueFromSongline("S",line)
+    //songSetting > 0 ? songSetting : 0
+    //var songSearchString = getTextFromSongline(line)
+    //var boost = getMetaValueFromSongline("B",line)
+    //boost = boost > 0 ? boost : 0
+  var oldTune = getTuneFromCache(songNumber)
+  if (oldTune) {
     $('#waiting').show()
     $.get('https://thesession.org/tunes/'+tuneId+'?format=json&perpage=50').then(function(tune) {
         // find default setting (with chords), save to tunes db , 
-        handleFoundTune(tune, [tune], songSearchString, null, songNumber, function(setting) {
+        handleFoundTune(tune, [tune], oldTune.forceTitle, null, songNumber, function(setting) {
           if (setting !== undefined) {
             tune.useSetting = setting > 0 ? setting : 0
-            tune.forceTitle = songSearchString
-            songlistParts[songNumber] = "[ID:" + tuneId + "][S:"+0 + "][B:0]"+songSearchString;
-            $('#songlist').val(songlistParts.join("\n"))
-            saveSongList()
+            tune.forceTitle = oldTune.forceTitle
+            tune.boost = oldTune.boost
+            //songlistParts[songNumber] = "[ID:" + tuneId + "][S:"+0 + "][B:0]"+songSearchString;
+            //$('#songlist').val(songlistParts.join("\n"))
+            //saveSongList()
             // update tune cache
             var tunes = loadLocalObject('abc2book_tunes')
             tunes[songNumber] = tune
@@ -95,52 +99,112 @@ function updateTuneId(songNumber, tuneId) {
  */
 function updateTuneSearchText(songNumber, newSearchText) {
   $('#wrong_tune_input_'+songNumber+' .tune_selector_option').val(newSearchText)
-      
-  var songlistParts = $('#songlist').val().split("\n")
-  if (songlistParts.length > songNumber) {
-    songlistParts[songNumber] = newSearchText
-    $('#songlist').val(songlistParts.join("\n"))
-    saveSongList()
-    //var songSetting = getMetaValueFromSongline("S",line)
-    //songSetting > 0 ? songSetting : 0
-    $('#waiting').show()
-    $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
-      // cache search results
-      var searchCache = loadLocalObject('abc2book_search')
-      searchCache[safeString(newSearchText)] = searchRes.tunes
-      saveLocalObject('abc2book_search',searchCache)
-      $('#wrong_tune_selector_'+songNumber+' .tune_selector_option').hide()
-      
-      if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
-        searchRes.tunes.map(function(tune) {
-          $('#wrong_tune_selector_'+songNumber).append('<div class="tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></div>')
-        })
-      }
-    })
+  if ($('#wrong_tune_input_'+songNumber).val().trim()==='') {
+    $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').html('')
+  } else {   
+    //var songlistParts = $('#songlist').val().split("\n")
+    //if (songlistParts.length > songNumber) {
+      //songlistParts[songNumber] = newSearchText
+      //$('#songlist').val(songlistParts.join("\n"))
+      //saveSongList()
+    var tune = getTuneFromCache(songNumber)
+    if (tune) {
+      var songSetting = tune.useSetting > 0 ? tune.useSetting : 0
+      //songSetting > 0 ? songSetting : 0
+      $('#waiting').show()
+      $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
+        // cache search results
+        console.log(searchRes)
+        var searchCache = loadLocalObject('abc2book_search')
+        searchCache[safeString(newSearchText)] = searchRes.tunes
+        saveLocalObject('abc2book_search',searchCache)
+
+        $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').html('')
+        
+        if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
+          searchRes.tunes.map(function(tune) {
+            $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></li>')
+          })
+        }
+      })
+    }
   }
 }
+/**
+ * Update the search text for ABC
+ */
+function updateTuneSearchAbcText(songNumber, newSearchText) {
+  $('#wrong_abc_input_'+songNumber+' .abc_selector_option').val(newSearchText)
+  if ($('#wrong_tune_input_'+songNumber).val().trim()==='') {
+    $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
+  } else {   
+    //var songlistParts = $('#songlist').val().split("\n")
+    //if (songlistParts.length > songNumber) {
+      //songlistParts[songNumber] = newSearchText
+      //$('#songlist').val(songlistParts.join("\n"))
+      //saveSongList()
+    var tune = getTuneFromCache(songNumber)
+    if (tune) {
+      var songSetting = tune.useSetting > 0 ? tune.useSetting : 0
+      //songSetting > 0 ? songSetting : 0
+      $('#waiting').show()
+      $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
+        // cache search results
+        console.log(searchRes)
+        var searchCache = loadLocalObject('abc2book_search')
+        searchCache[safeString(newSearchText)] = searchRes.tunes
+        saveLocalObject('abc2book_search',searchCache)
 
+        $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
+        
+        if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
+          searchRes.tunes.map(function(tune) {
+            $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').append('<li class="list-group-item abc_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></li>')
+          })
+        }
+      })
+    }
+  }
+}
 
 // use setTimeout to pause execution for 2 secs after last change to text
 // search thesession.org with new text
 var updateSearchResultsTimout = null
-function delayedUpdateSearchResults(songNumber) {
+
+function delayedUpdateSearchResults(songNumber,delay=500) {
+  console.log('delkay serc',songNumber)
   $('#waiting').show()
    clearTimeout(updateSearchResultsTimout)
    updateSearchResultsTimout = setTimeout(function() {
+     
      updateTuneSearchText(songNumber, $('#wrong_tune_input_'+songNumber).val())
      $('#waiting').hide()
-   },2)
+   },delay)
+   return false
 }
 
+// use setTimeout to pause execution for 2 secs after last change to text
+// search thesession.org with new text
+var updateSearchResultsAbcTimout = null
 
+function delayedUpdateSearchAbcResults(songNumber,delay=500) {
+  console.log('delkaya bc serc',songNumber)
+  $('#waiting').show()
+   clearTimeout(updateSearchResultsAbcTimout)
+   updateSearchResultsAbcTimout = setTimeout(function() {
+     
+     //updateTuneSearchText(songNumber, $('#wrong_abc_input_'+songNumber).val())
+     $('#waiting').hide()
+   },delay)
+   return false
+}
 
 function addNewTuneToStartOfList(searchText) {
    // from songlist
-   var songlist = $('#songlist').val().split("\n")
-   songlist.unshift(searchText)
-   $('#songlist').val(songlist.join("\n"))
-   saveSongList()
+   //var songlist = $('#songlist').val().split("\n")
+   //songlist.unshift(searchText)
+   //$('#songlist').val(songlist.join("\n"))
+   //saveSongList()
    // from html
    //$('#music_'+songNumber).remove()
    //$('#cheatsheet_music_'+songNumber).remove()
@@ -154,7 +218,8 @@ function addNewTuneToStartOfList(searchText) {
      tune.fo
      clean[parseInt(key)+1] = tune
    })
-   clean[0] = {forceTitle: getTextFromSongline(searchText)} 
+   var name = getTextFromSongline(searchText)
+   clean[0] = {forceTitle: name, name: name, settings: []} 
    saveLocalObject('abc2book_tunes', clean)
    //// indexes
    //generateIndexesFromTunes()
@@ -166,10 +231,10 @@ function addNewTuneToStartOfList(searchText) {
 
 function removeTune(songNumber) {
    // from songlist
-   var songlist = $('#songlist').val().split("\n")
-   songlist.splice(songNumber,1)
-   $('#songlist').val(songlist.join("\n"))
-   saveSongList()
+   //var songlist = $('#songlist').val().split("\n")
+   //songlist.splice(songNumber,1)
+   //$('#songlist').val(songlist.join("\n"))
+   //saveSongList()
    // from html
    $('#music_'+songNumber).remove()
    $('#cheatsheet_music_'+songNumber).remove()
@@ -312,19 +377,19 @@ function submitNewSetting() {
          a.focus()
          alert('When you have submitted your setting to thesession.org, click OK to reload your tune.')
          a.focus()
-         var songlist = $('#songlist').val().split("\n")
-         var id = getMetaValueFromSongline("ID",songlist[songNumber])
-         var boost = getMetaValueFromSongline("B",songlist[songNumber])
-         var text = getTextFromSongline(songlist[songNumber])
-         boost = boost > 0 ? boost : 0
-         var setting = tune.settings.length
-         console.log('tune',tune, tune.settings.length)
-         newLine = ''
-         if (id) newLine += '[ID:'+id+']'
-         newLine += '[S:'+setting+']'
-         newLine += '[B:'+boost+']' + text
-         songlist[songNumber] = newLine
-         $('#songlist').val(songlist.join("\n"))
+         //var songlist = $('#songlist').val().split("\n")
+         //var id = tune.id
+         //var boost = tune.boost > 0 ? tune.boost : 0
+         //var text = tune.forceTitle ? tune.forceTitle : ''
+         tune.setting = tune.settings.length
+         saveTuneAndSetting(tune,setting,songNumber,tune.forceTitle)
+         //console.log('tune',tune, tune.settings.length)
+         //newLine = ''
+         //if (id) newLine += '[ID:'+id+']'
+         //newLine += '[S:'+setting+']'
+         //newLine += '[B:'+boost+']' + text
+         //songlist[songNumber] = newLine
+         //$('#songlist').val(songlist.join("\n"))
          updateTuneId (songNumber,tune.id)
          showContentSection('music')
          scrollTo('controls_'+songNumber)
@@ -384,3 +449,5 @@ function filterMusicList(searchString) {
   })
   $('#waiting').hide()
 }
+
+

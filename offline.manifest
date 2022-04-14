@@ -1,0 +1,26 @@
+CACHE MANIFEST
+#This is a comment
+
+CACHE
+
+abc2book2.js
+abc2book.audio.js
+abc2book.indexes.js
+abc2book.js
+abc2book.persist.js
+abc2book.review.js
+abc2book.tunelists.js
+abc2book.utils.js
+abc2svg.js
+abcjs-audio.css
+bootstrap.min.css
+home.png
+index.html
+NoSleep.min.js
+qrcode.min.js
+qrcode.png
+speakClient.js
+speakGenerator.js
+speakWorker.js
+three-dots-svgrepo-com.svg
+waiting.gif

@@ -2,13 +2,14 @@
 var midiBuffer = null
 
 
-function addAudioControls(element, visualObj, songNumber, searchString) {
+function addAudioControls(element, visualObj, songNumber, tune) {
   // PLAYBACK CONTROLS
   //console.log('add audio', searchString)
-  var boost = getMetaValueFromSongline('B',searchString)
-  boost = boost > 0 ? boost : 0
+  var boost = tune.boost > 0 ? tune.boost : 0
+  //getMetaValueFromSongline('B',searchString)
+  //boost = boost > 0 ? boost : 0
   $("#controls_"+songNumber).remove()
-  var startButton = $('<button style="float: right" class="actionbutton activate-audio playbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Start Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>')
+  var startButton = $('<button style="float: right" class="actionbutton activate-audio playbutton" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Start Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>')
   startButton.click(function() { 
     $(".activate-audio").show(); 
     $(this).hide(); 
@@ -20,7 +21,7 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
     
     //startPlaying(visualObj)
   })
-  var stopButton = $('<button  style="float: right" class="stopplayingbutton actionbutton stop-audio"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>')
+  var stopButton = $('<button  style="float: right" class="button stopplayingbutton actionbutton stop-audio"  ><svg class="button" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>')
   stopButton.click(function() { 
     $(".playbutton").show(); 
     $("#playallbutton").show()
@@ -38,20 +39,64 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
   var useSetting = tune && tune.useSetting > 0 ? parseInt(tune.useSetting).mod(ss.length) : 0
     
   
-  var wrongTuneControls = $('<span  style="position: relative"></span>')
-  var wrongTuneButton = $('<button style="" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Wrong tune ?</title><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>')
-  var wrongTuneSelector = $(`<div  id="wrong_tune_selector_`+songNumber+`" class="overlay" style="position: absolute; min-width: 400px; top: 10; left: 0;" >
-    <div><label>Search </label><form onSubmit="delayedUpdateSearchResults(`+songNumber+`); return false" ><input id="wrong_tune_input_`+songNumber+`" value="`+getTextFromSongline(searchString)+`" type="text"   ><input type='submit' value="Search" /></form></div>
-  </div>`)
   
+  
+  var findAbcControls = $('<div style="display: inline; margin-right: 0.1em;" ></div>')
+  var findAbcButton = $('<button style="display: inline; margin-right: 0.1em;"  id="findabcbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Search for an arrangement</title><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>')
+  var findAbcSelector = $(`<div  id="wrong_abc_selector_`+songNumber+`" class="overlay" style="position: relative; top: -40px; min-width: 600px; margin-left: 1em;" >
+    <div><label>Search </label><form onSubmit ="return false" ><input class="wrong_abc_input" id="wrong_abc_input_`+songNumber+`" value="`+tune.forceTitle+`" type="text" onKeyup="delayedUpdateSearchAbcResults(`+songNumber+`);"   ><svg class='button' style="display: inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></form>
+    
+    </div>
+  </div>`)
+  var findAbctListWrap = $("<div class='wrong_abc_selector_items' ></div>")
+  var findAbctList = $('<ul class="wrong_abc_selector_items" style="min-width: 600px" class="list-group"   ></ul>')
   sc.map(function(v) {
     if (v) {
-      wrongTuneSelector.append('<div class="tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></div>')
+      findAbctList.append('<li class="list-group-item abc_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></li>')
     }
     return false
   })
-  wrongTuneControls.click(function(e) {
+  findAbctListWrap.append(findAbctList)
+  findAbcSelector.append(findAbctListWrap)
+  findAbcButton.click(function(e) {
     e.stopPropagation()
+    delayedUpdateSearchAbcResults(songNumber,0);
+  })
+  findAbcSelector.hide()
+  findAbcControls.append(findAbcButton)
+  findAbcControls.append(findAbcSelector)
+  findAbcButton.click(function() {
+    findAbcSelector.show()
+    return false;
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+  var wrongTuneControls = $('<div style="display: inline; margin-right: 0.1em;" ></div>')
+  var wrongTuneButton = $('<button id="wrongtunebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><title>Link to thesession.org</title><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z"/></svg></button>')
+  var wrongTuneSelector = $(`<div  id="wrong_tune_selector_`+songNumber+`" class="overlay" style="position: relative; top: -40px; min-width: 600px; margin-left: 1em;" >
+    <div><label>Search </label><form onSubmit ="return false" ><input class="wrong_tune_input" id="wrong_tune_input_`+songNumber+`" value="`+tune.forceTitle+`" type="text" onKeyup="delayedUpdateSearchResults(`+songNumber+`);"   ><svg class='button' style="display: inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></form>
+    
+    </div>
+  </div>`)
+  var tListWrap = $("<div class='wrong_tune_selector_items' ></div>")
+  var tList = $('<ul class="wrong_tune_selector_items" style="min-width: 600px" class="list-group"   ></ul>')
+  sc.map(function(v) {
+    if (v) {
+      tList.append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></li>')
+    }
+    return false
+  })
+  tListWrap.append(tList)
+  wrongTuneSelector.append(tListWrap)
+  wrongTuneButton.click(function(e) {
+    e.stopPropagation()
+    delayedUpdateSearchResults(songNumber,0);
   })
   wrongTuneSelector.hide()
   wrongTuneControls.append(wrongTuneButton)
@@ -60,8 +105,8 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
     wrongTuneSelector.show()
     return false;
   })
-  var wrongSettingButtonUp = $('<button style="z-index: 50 ; margin-left: 0.4em" class="actionbutton wrong-setting-up"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>')
-  var wrongSettingButtonDown = $('<button style="z-index: 50 ; margin-left: 0.4em" class="actionbutton wrong-setting-down"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>')
+  var wrongSettingButtonUp = $('<button style="z-index: 50 ; margin-left: 0.4em" class="actionbutton wrong-setting-up"  ><svg class="button"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>')
+  var wrongSettingButtonDown = $('<button style="z-index: 50 ; margin-left: 0.2em" class="actionbutton wrong-setting-down"  ><svg class="button"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>')
   wrongSettingButtonUp.click(function() {
     var tune = getTuneFromCache(songNumber)
     var useSetting = tune && tune.useSetting > 0 ? parseInt(tune.useSetting).mod(ss.length) : 0
@@ -76,11 +121,11 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
     $('#use_setting_'+songNumber).text((useSetting - 1).mod(ss.length) + 1)
     scrollTo('controls_'+songNumber)
   })
-  var wrongSettingButton = $('<span style="background-color: #e3f0f4; padding: 0.4em; margin-left: 0.2em; ">Setting (<span id="use_setting_'+songNumber+'" >'+ (useSetting + 1) +'</span>/' + (ss.length) +')</span>')
+  var wrongSettingButton = $('<span style="background-color: #e3f0f4; padding: 15px; margin-left: 0.2em; "><svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Settings/Arrangements</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 3v14a4 4 0 1 1-2-3.465V6H9v11a4 4 0 1 1-2-3.465V3h13z"/></svg><span class="badge bg-secondary" ><span id="use_setting_'+songNumber+'" >'+ (useSetting + 1) +'</span></span></span>')
   wrongSettingButton.append(wrongSettingButtonUp)
   wrongSettingButton.append(wrongSettingButtonDown)
   
-  var newSettingButton = $('<button style="margin-left:0.2em" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>')
+  var newSettingButton = $('<button style="margin-left:0.2em" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>')
   newSettingButton.click(function() {
     const cb = navigator.clipboard;
     cb.writeText(tune.settings[tune.useSetting].abc).then(function() {
@@ -94,7 +139,7 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
   })
   
   $("#controls_"+songNumber).remove()
-  var boostButtons = $(`<div id="boostbuttons" style="padding: 0.3em; background-color: #e1ffe1; float: right; margin-right: 0.5em" ><svg role="img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  var boostButtons = $(`<div id="boostbuttons" style="padding: 0.3em; background-color: #e1ffe1; float: right; margin-right: 0.2em" ><svg role="img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 463 463" height="24px" width="24px" style="enable-background:new 0 0 463 463;" xml:space="preserve">
    <title>Review</title>
 <g>
@@ -147,33 +192,35 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
 		C288.462,342.063,272,364.889,272,391.5c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5c0-26.743,21.757-48.5,48.5-48.5
 		c4.142,0,7.5-3.357,7.5-7.5S339.642,328,335.5,328z"/>
 </g>
-</svg> (<span id="tune_boost_`+songNumber+`" >`+boost+`</span>)    
-  <button id="tune_boost_up_`+songNumber+`" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>
-  <button  id="tune_boost_down_`+songNumber+`" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>  
+</svg> <span class="badge bg-secondary" id="tune_boost_`+songNumber+`" >`+boost+`</span> 
+  <button id="tune_boost_up_`+songNumber+`" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>
+  <button  id="tune_boost_down_`+songNumber+`" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>  
   </div>`)
   
-  var removeButton = $('<button style="margin-right: 0.5em" id="removebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Remove from tune book</title><path fill="none" d="M0 0h24v24H0z"/><path d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"/></svg></button>')
+  var removeButton = $('<button style="margin-right: 0.5em" id="removebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Remove from tune book</title><path fill="none" d="M0 0h24v24H0z"/><path d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"/></svg></button>')
   removeButton.click(function() {
-    if (confirm('Really remove this tune from your playlist ?')) {
+    if (confirm('Really remove this tune from your book ?')) {
       removeTune(songNumber)
     }
   })
   var chatStuff = $('<div style="float: right" ></div>')
-  var chatButton = $(`<button class="chathistorybutton" style="float: right; margin-right: 1em" ><svg  width="24" height="24"  role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  var chatButton = $(`<button class="chathistorybutton" style="float: right; margin-right: 0.2em" ><svg class="button" role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
     <title>Comments</title>
     <path fill="none" d="M0 0h24v24H0z"/><path d="M7.291 20.824L2 22l1.176-5.291A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.956 9.956 0 0 1-4.709-1.176zm.29-2.113l.653.35A7.955 7.955 0 0 0 12 20a8 8 0 1 0-8-8c0 1.334.325 2.618.94 3.766l.349.653-.655 2.947 2.947-.655z"/></svg></button>`)
   chatButton.click(function(e) {
     e.stopPropagation()
     $('#chathistory_'+songNumber).show()
   }) 
-  var chatHistory = $('<div class="overlay" style="display: none;  width: 100%"  id="chathistory_'+songNumber+'" >')
+  var chatHistory = $('<div class="overlay chathistory" style="position: absolute; margin-left:0.5em; display: none;  width: 95%"  id="chathistory_'+songNumber+'" >')
+  var chatList = $('<ul class="list-group" ></ul>')
   Array.isArray(tune.comments) && tune.comments.map(function(comment) {
-    chatHistory.append('<div style="border-bottom: 1px solid black; margin-top: 0.5em; margin-bottom: 0.2em; background-color: white" >'+comment.content+'</div>')
+    chatList.append('<li class="list-group-item"   >'+comment.content+'</div>')
   })
-  chatStuff.append(chatButton)
-  chatStuff.append(chatHistory)
+  chatHistory.append(chatList)
+  //chatStuff.append(chatButton)
+  //chatStuff.append(chatHistory)
   
-  var editButton = $('<button style="margin-right: 0.5em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z"/></svg></button>') 
+  var editButton = $('<button style="margin-right: 0.2em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z"/></svg></button>') 
   editButton.click(function() {
      //console.log('edit '+songNumber)
      var allAbc = $('#longabc').val().split('X:').slice(1)
@@ -189,15 +236,17 @@ function addAudioControls(element, visualObj, songNumber, searchString) {
      }, 50)
   })
   var controls = $('<div class="controls" id="controls_'+songNumber+'" style="clear: both; border-top: 1px solid black; " ></div>')
-  controls.append(wrongTuneControls)
+  if (tune.comments && tune.comments.length > 0) controls.append(chatHistory)
   controls.append(editButton)
+  controls.append(wrongTuneControls)
+  controls.append(findAbcControls)
   //controls.append(newSettingButton)
-  controls.append(removeButton)
-  controls.append(wrongSettingButton)
+  if (tune.settings && tune.settings.length > 1) controls.append(wrongSettingButton)
   controls.append(startButton)
   controls.append(stopButton)
   controls.append(boostButtons)
-  controls.append(chatStuff)
+  controls.append(removeButton)
+  if (tune.comments && tune.comments.length > 0) controls.append(chatButton)
   //console.log('app contreols',controls)
   $(element).before(controls)
   $('#tune_boost_up_'+songNumber).click(function() {
@@ -298,21 +347,32 @@ function playSongNumber(songNumber)  {
 }
 
 function finishPlaying(songNumber) {
-  //console.log('FINISH')
-      if ($('#forcestop').val() !== "true") {
-        // start next track after delay to avoid double callback
-        //console.log('MPW PLAY '+(songNumber + 1))
-        var sp = $('#songlist').val().split("\n")
-        if (songNumber < sp.length) {
-          playSongNumber(parseInt(songNumber) + 1)
-          scrollTo('controls_'+songNumber)
-        } else {
-          stopPlaying()
-        }
-      } else {
-        $('#forcestop').val('')
-        stopPlaying()
+  console.log('FINISH ',songNumber)
+  if ($('#forcestop').val() !== "true") {
+    // start next track after delay to avoid double callback
+    //console.log('MPW PLAY '+(songNumber + 1))
+    var songlist = loadLocalObject('abc2book_tunes')
+    var found = null
+    var count = songNumber + 1
+    while (found === null && count < songlist.length) {
+      console.log('FINISH check',count)
+      if (!$('#music_'+count).is(':hidden')) {
+        found = count
       }
+      count++ 
+    }
+    console.log('FINISH found',found)
+    
+    if (found < songlist.length) {
+      playSongNumber(parseInt(found) )
+      scrollTo('controls_'+found)
+    } else {
+      stopPlaying()
+    }
+  } else {
+    //$('#forcestop').val('')
+    stopPlaying()
+  }
 }
 
       
@@ -351,7 +411,7 @@ function startPlaying(visualObj, songNumber) {
           onEnded: onEnded
         }
       }
-      var tempoSetting = $("#tempovalue").val()
+      var tempoSetting = $("#tempovalue").val() * 3
       if (tempoSetting) { 
         // rough first cut assume 4 beats per bar   
         // millisecondsPerBeat = 60000/bpm
@@ -373,10 +433,13 @@ function startPlaying(visualObj, songNumber) {
 }
   
 function stopPlaying() {
+  reviewStopPlaying()
   if (midiBuffer) midiBuffer.stop();
   $('.playbutton').show()
   $('#playallbutton').show()
   $('#stopplayingallbutton').hide()
+  $('#stopplayingbutton').hide()
+  $('.stopplayingbutton').hide()
   $('#playallvalue').val('')
   $('#forcestop').val('true')
   midiBuffer = null
@@ -387,7 +450,18 @@ function playAll() {
   $('#stopplayingallbutton').show()
  
   $('#playallvalue').val('true')
-  playSongNumber(0)
+  // find first available tune
+  var songlist = loadLocalObject('abc2book_tunes')
+  var found = null
+  var count = 0
+  while (found === null && count < songlist.length) {
+    if (!$('#music_'+count).is(':hidden')) {
+      found = count
+    }
+    count++ 
+  }
+  console.log('play',count)
+  playSongNumber(count-1)
   $('#forcestop').val('')
 
 }

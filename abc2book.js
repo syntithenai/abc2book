@@ -25,6 +25,118 @@ function sliceIntoChunks(arr, chunkSize) {
     return res;
 }
 
+function abc2Tunebook(abc) {
+  var parts = abc.split('X:')
+  //console.log('2book',parts)
+  var final = []
+  var tuneBook = parts.forEach(function(v,k) {
+    if (v && v.trim().length > 0) {
+      final.push(abc2Tune('X:'+v))
+    } 
+  })
+  //console.log('tuneBook',parts)
+  return final
+}
+
+
+
+function abc2Tune(abc) {
+  if (abc && abc.trim().length > 0) {
+    var id = getCommentFromAbc('sessionorg_id',abc)
+    var setting = getCommentFromAbc('sessionorg_setting',abc)
+    var settingId = getCommentFromAbc('sessionorg_setting_id',abc)
+    var forceTitle = getCommentFromAbc('force_title',abc)
+    var boost = getCommentFromAbc('boost',abc)
+    var title = getMetaValueFromTune("T",abc)
+    var tParts = title.split(".")
+    var name = tParts.length > 1 ? tParts[1].trim() : title
+    var key = getMetaValueFromTune("K",abc) !== null ? getMetaValueFromTune("K",abc).trim() : ''
+    var type = getMetaValueFromTune("R",abc) !== null ? getMetaValueFromTune("R",abc).trim() : ''
+    var aliases = getAliasesFromAbc("abc")
+    var tuneBook = new window.ABCJS.TuneBook(abc.trim())
+    
+    // TODO what do i need to do to tunebook object to make like below
+    if (tuneBook.tunes && tuneBook.tunes.length > 0 && tuneBook.tunes[0]) { 
+      var tunebookTune = tuneBook.tunes[0]
+      var tune = {
+          "format": "json",
+          "perpage": "50",
+          "name": name,
+          "type": type,
+          "aliases": aliases,
+          "comments": [],
+          "settings": [
+              {
+                  "key": key,
+                  "abc": extractAbcMeta(tunebookTune.abc).cleanAbc,
+                  "member": {
+                  },
+                  
+              }
+            ]
+          }
+      if (id) {
+        tune.id = id
+        tune.url = "https://thesession.org/tunes/"+id
+        if (settingId) {
+          tune.settings[0].id = settingId
+          tune.settings[0].url = "https://thesession.org/tunes/"+id+"#setting"+settingId
+        }
+      }
+          
+      tune.id = id
+      tune.useSetting = 0
+      tune.forceTitle = forceTitle
+      tune.boost = boost
+      console.log('ABC2TUNE',tunebookTune,abc, tune)
+      return tune
+    }
+  }
+  return {}
+}
+
+function updateTunesFromLongAbc() {
+  if ($('#longabc').val().trim() === '') {
+    showContentSection('music')
+    return
+  } else {
+    var tunes = abc2Tunebook($('#longabc').val())
+    saveLocalObject('abc2book_tunes',tunes)
+    // also songlist
+    //var songList = tunes.map(function(tune) {
+      //var text = tune.forceTitle ? tune.forceTitle : tune.name
+      //var newLine = ''
+      //if (tune.id)  newLine += '[ID:'+tune.id+']'
+      //if (tune.useSetting > 0)  newLine += '[S:'+tune.useSetting+']'
+      //else newLine += '[S:0]'
+      //var boost = tune.boost > 0 ? tune.boost : 0
+      //newLine += '[B:'+boost+']' + text
+      //return newLine
+    //})
+    //$('#songlist').val(songList.join("\n"))
+    var start = new Date().getTime()
+    console.log('TIMER gen abc', (new Date().getTime() - start))
+    generateShortAbcFromTunes()
+    console.log('TIMER gen short abc', (new Date().getTime() - start))
+    renderCheetsheetFromShortAbc()
+    console.log('TIMER gen cheetsheet', (new Date().getTime() - start))
+    renderMusicFromLongAbc()
+    console.log('TIMER gen music', (new Date().getTime() - start))
+    generateIndexesFromTunes()
+    console.log('TIMER gen index', (new Date().getTime() - start))
+    renderIndexes()
+    console.log('TIMER render abc', (new Date().getTime() - start))
+    showContentSection('music')
+  }
+}
+    //var row = null;
+    //// collate into rows
+    //tuneBook.tunes.map(function(v,k) {
+    
+  
+ 
+
+
 /**
  * Append metadata for song title,.. to abc string
  * for rendering complete tunes
@@ -39,17 +151,19 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
       abc = tune.settings[tune.useSetting].abc
       setting = tune.settings[tune.useSetting]
     }
+    //console.log('tweakabc',abc, tune, songNumber)
     if (!abc) {
       return emptyABC(songNumber,tune.name, tune.forceTitle)
     }
-    var titleText = getTextFromSongline(tune.forceTitle)
+    //var titleText = getTextFromSongline(tune.forceTitle)
     const capitalize = (str, lower = false) =>
     (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
   ;
-
-    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
+    var useName = capitalize(tune.name,true)
+    var titleText = useName
+    //titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
     var aliasText = ''
-    if (tune.forceTitle.trim().length > 0) {
+    if (tune.forceTitle && tune.forceTitle.trim().length > 0) {
       aliasText += 'N: Primary name on thesession.org : ' + tune.name +"\n"
     }
     if (setting.key) aliasText = 'N: Key ' +setting.key.slice(0,1) + " " + setting.key.slice(1) + "\n"
@@ -60,19 +174,22 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
         aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
       })
     }
-    
+    // TODO
+    var boost = tune.boost > 0 ? tune.boost : 0
     var tweaked = "\nX: "+songNumber + "\n" 
                 + "K:"+setting.key+ "\n"+ 
                 "M:"+timeSignatureFromTuneType(tune.type)+ "\n" + aliasText + abc  + " \n" + 
                 "T: " + songNumberForDisplay(songNumber) + ". "  + useName + 
                 " \nR: "+  tune.type + "\n" 
-                //+
-                //"[U:sessionorg_id=" + tune.id + "]\n" + 
-                //"[U:sessionorg_setting=" + tune.useSetting + "]\n" + 
-                //"[U:force_title=" + tune.forceTitle + "]\n" 
+                +
+                "% abc-sessionorg_id " + tune.id + "\n" + 
+                "% abc-sessionorg_setting " + tune.useSetting + "\n" + 
+                "% abc-sessionorg_setting_id " + setting.id + "\n" + 
+                "% abc-force_title " + tune.forceTitle + "\n" +
+                "% abc-boost " +  boost + "\n" 
     
     
-    
+    //console.log('tweakabc D',abc, tune, songNumber, tweaked)
     return tweaked
   } else {
     return ''
@@ -88,15 +205,17 @@ function tweakShortABC(songNumber, tune) { //abc, songTitle, forceTitle, keySig,
       abc = tune.settings[tune.useSetting].abc
       setting = tune.settings[tune.useSetting]
     }
-    if (!abc) {
+    if (!abc || !abc.trim) {
       return emptyABC(songNumber,tune.name, tune.forceTitle)
     }
-    var titleText = getTextFromSongline(tune.forceTitle)
+    //var titleText = getTextFromSongline(tune.forceTitle)
     const capitalize = (str, lower = false) =>
     (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
   ;
 
-    var useName = titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
+    var useName = capitalize(tune.name,true)
+    var titleText = useName
+    //titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
     
       abc = abc.trim()
       // remove strings from abc
@@ -263,7 +382,8 @@ function generateAndRenderSingle(songNumber, tune) {
     $('#shortabc').val("X:" + shortParts.join(("X:")))
     //// update abc long
     var longParts = $('#longabc').val().trim().split("X:").slice(1)
-    var longabc = tweakABC(tune.settings[tune.useSetting].abc, songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
+    var longabc = tweakABC(songNumber, tune) 
+    //.settings[tune.useSetting].abc, songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
     //console.log('gen abc ',longabc)
     // cut off X:
     longParts[songNumber] = longabc.slice(3) + "\n"
@@ -277,16 +397,17 @@ function generateAndRenderSingle(songNumber, tune) {
     var longkey = 'music_'+songNumber
     //console.log('render into  ',longkey)
     $('#'+longkey).html('')
-    var searchStrings = $('#songlist').val().split("\n")
+    //var searchStrings = $('#songlist').val().split("\n")
     var renderResultSingle = window.ABCJS.renderAbc([longkey], longabc , getMainRendererSettings());
     renderResultSingle.map(function(rr,rk) {
       // update cache 
       renderResult[songNumber] = rr
-      var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+      var searchString = ''
+      //searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
       //if (errors.hasOwnProperty(rk)) {
         //addErrorControls('#music_'+rk, errors[rk])
       //} else { 
-        addAudioControls('#music_'+rk, rr, rk, searchString)
+        addAudioControls('#music_'+rk, rr, rk, tune)
       //}
       $('.abcjs-rhythm tspan').attr('y','20')
     })
@@ -341,14 +462,15 @@ function renderMusicFromLongAbc() {
   })
   //var p = new Promise()
   renderResult = window.ABCJS.renderAbc(targetArray, $('#longabc').val() , getMainRendererSettings());
-  var searchStrings = $('#songlist').val().split("\n")
+  //var searchStrings = $('#songlist').val().split("\n")
   renderResult.map(function(rr,rk) {
     //console.log('RR',rr,rk)
-    var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+    //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
     //if (errors.hasOwnProperty(rk)) {
       //addErrorControls('#music_'+rk, errors[rk])
     //} else { 
-      addAudioControls('#music_'+rk, rr, rk, searchString)
+    var tune = getTuneFromCache(rk)
+    addAudioControls('#music_'+rk, rr, rk, tune)
       
       //}
   })
@@ -362,22 +484,28 @@ function renderMusicFromLongAbc() {
 function generateAbcFromTunes() {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
-  
+  console.log('UPDATE ALL tune ',tunes)
   Object.keys(tunes).map(function(tuneKey) {
-    //console.log('UPDATE ALL tune ',tuneKey,tunes[tuneKey])
+    
     var tune = tunes[tuneKey]
+    console.log('UPDATE tune ',tuneKey, tune)
     if (tune) {
-      var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
+      var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : null
       if (setting) {
         abc +=  tweakABC(tuneKey, tune)
+        console.log('UPDATE tune OK')
         //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
+        console.log('UPDATE tune EMPTY no setting')
       }
     } else {
       abc +=   emptyABC(tuneKey,'', tune.forceTitle)
+      console.log('UPDATE tune EMPTY no tune')
     }
+    
   })
+  console.log([abc])
   $('#longabc').val( abc)
 }
 
@@ -437,7 +565,7 @@ function saveTuneAndSetting(tune,useSetting,songNumber,searchText, callback) {
     //var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
     //addTuneToIndexes(songNumber, tune, setting, searchText)
   }
-  callback()
+  if (callback) callback()
 }  
 
 function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallback) {
@@ -572,9 +700,9 @@ function iterateTunes(tunesList, songNumber, finishCallback, settingCallback) {
 
 
 function renderSonglistPicker() {
-   var pickerItems = $('<div  ></div>')
+   var pickerItems = $('<ul class="list-group"  ></ul>')
    Object.keys(getSongLists()).map(function(listName) {
-       pickerItems.append('<div><a href="#" onClick="selectSongList(\''+listName+'\'); " >'+listName+'</a></div>')
+       pickerItems.append('<li class="list-group-item" ><a href="#" onClick="selectSongList(\''+listName+'\'); " >'+listName+'</a></li>')
    })
    $('#songlistpicker').html(pickerItems.html())
    $('#songlistpickerbutton').click(function(e) {

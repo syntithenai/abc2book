@@ -16,32 +16,111 @@ a:active {
   text-decoration: underline;
 }
 
+#welcometext {
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+}
+#welcometext div {
+ font-size: 1.2em
+ 
+}
+
 .abcjs-extra-text {
    font-size: 0.7em;
    min-height: 3em;
 }
+.list-group-item {
+  font-size: 1.5em
+}
+#buttonblock , #homebutton{
+	margin-top: 0.2em;
+	margin-left: 0.2em;
+}
+#edit {
+	margin-top: 12em;
+	margin-bottom: 7em;
+	background-color: white;
+}
+#editor {
+	top: 6.2em;
+}
+
+
+#editoraudio {
+	top: 3.2em;
+}
+#editorbuttons {
+	top:3.2em;
+}
+
 
 button {
+   font-size: 1em;
    border: 1px solid black;
    border-radius: 4px;
    margin-top: 0.1em;
    margin-bottom: 0.1em;
 }
-
-#songlistmanager,#welcometext, #reviewmusic,#review , #help, #indexes, #cheatsheet_music_container{
+/*
+variable size for mobile and small screen
+*/
+#controls {
+	height: 3em
+}
+#mastercontainer, #songlistmanager, #reviewmusic,#review , #longabcwrapper {
    margin-top: 4em;
+   margin-bottom: 7em;
 }
-#editormusic {
-	margin-top: 10em;
+
+svg.button, img.button {
+	height: 30px;
+	width: 30px;
 }
+#homebutton svg.button, #homebutton  img.button, .buttonblock svg.button, .buttonblock  img.button, .homeblock svg.button, .homeblock  img.button {
+	height: 60px;
+	width: 60px;
+}
+
+
+/*
+large buttons for mobile
+*/
+.is_mobile svg.button , .is_mobile img.button {
+	height: 45px;
+	width: 45px;
+}
+.is_mobile 	#homebutton svg.button,.is_mobile  #homebutton  img.button,.is_mobile  #buttonblock svg.button,.is_mobile  #buttonblock  img.button,.is_mobile  .homeblock svg.button, .is_mobile .homeblock  img.button {
+	height: 60px;
+	width: 60px;
+}
+.is_mobile #controls {
+    height: 4.4em
+}
+/*
+smaller buttons and longer header for small mobile
+*/
+@media only screen and (max-width: 600px) {
+  .is_mobile svg.button, .is_mobile  img.button {
+	height: 30px;
+	width: 30px;
+  }
+  .is_mobile 	#homebutton svg.button,.is_mobile  #homebutton  img.button,.is_mobile  #buttonblock svg.button,.is_mobile  #buttonblock  img.button,.is_mobile  .homeblock svg.button, .is_mobile .homeblock  img.button {
+	height: 30px;
+	width: 30px;
+}
+  #tempovalue {
+    width: 30px;
+  }
+}
+/*
 button {
-     font-size: 2em;
-     min-width: 1.4em;
-     min-height: 1.4	em;
-  }
-  #controls {
-    height: 4em
-  }
+     
+     
+}
+*/
+
+  
+/*
 @media only screen and (max-width: 600px) {
   #tempovalue {
     width: 30px;
@@ -64,6 +143,7 @@ button {
     height: 2em
   }
 }
+*/
 
 
 
@@ -102,10 +182,17 @@ button {
     }
 
 
-  #cheetsheet_music .abcjs-inline-audio {
+/*
+  #cheetsheet_music 
+*/
+  
+/*
+  .abcjs-inline-audio {
 			max-width: 300px;
       float: left;
-		}
+      height: 40px;
+	}
+*/
 
 		@media print {
      #musiclistbuttons, #welcometext, #addtunebutton, #songlistmanager, #songlistpicker,  .controls, textarea, #help, #generatebutton, #songlistpickerbutton, #stopbutton, #helptext,  #selection, #audio, #warnings, #errors, hr,#songlist,  #controls , .activate-audio, .stop-audio, .wrong-tune, .wrong-setting {
@@ -129,7 +216,7 @@ button {
 
 
 .abcjs-inline-audio {
-	height: 26px;
+	height: 40px;
 	padding: 0 5px;
 	border-radius: 3px;
 	background-color: #424242;

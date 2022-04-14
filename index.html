@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 
 <meta name="robots" content="noindex">
-<html>
+<html  manifest="offline.manifest" >
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>ABC2Book</title>
-<!--
   <link href="bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
--->
   <link href="abcjs-audio.css" media="all" rel="stylesheet" type="text/css" />
 	
 </head>
 <body>
+  <div id="pagewrapper"  style="position:relative">
  <a id="topofpage" ></a>
- 
- <div id="songlistpicker" class="overlay" style="z-index: 9999; display: none; position: fixed ; top:120px; left: 20px;"  ></div>
- <div id="chathistory"  class="overlay" style="z-index: 9999; display: none; position: fixed ; top:120px; left: 20px;"  ></div>
+  
+  <div id="longabcwrapper" style="margin-left: 0.5em; display: none;" >
+    <h3 style="display: inline; margin-top: 4em; " >Import a Tune Book</h3>
+    <input style="margin-left: 3em" id="importabctext" onClick="if (confirm('Do you really want to replace your current tune book with the version    shown in the text area')) {updateTunesFromLongAbc()}" id="selecttunebookfilebutton" style="background-color: lightgreen;  margin-right: 2em" type='button'  value="Import" />
+    
+    <div style="font-weight: bold" >Paste Tune Book ABC below and click Import or <input id="selecttunebookfilebutton" style="margin-right: 2em" type='file'   /></div>
+    <textarea rows='30' cols='60'  id="longabc"   ></textarea>
+  </div>
+  
+ <div id="songlistpicker" class="overlay" style="z-index: 9999; display: none; position: absolute ; width: 90%;"  ></div>
+ <div id="chathistory"  class="overlay" style="z-index: 9999; display: none;  position: absolute ; top: 0, left: 0; width: 90%;"  ></div>
  
 <div id="review" style="display: none" >
   <input type="hidden" id="reviewplaycounter" value="0" />
   <input type="hidden" id="reviewindex" value="0" />
-  <div id="reviewlistwrapper" class="overlay" >
+  <div id="reviewlistwrapper" style="position: fixed; top: 3em; left: 10px" class="overlay" >
     <input type="text" id="reviewsearchinput" />
     <div id="reviewlist"  ></div>
   </div>
@@ -29,18 +36,23 @@
 </div>  
  
 <div id="edit" style="display: none" >
-  <div style="position: fixed; top: 2em; left: 0; height: 1em"  id="editoraudio"></div>
+  <div style="width: 100%; background-color: white" >
+    
+    <div style="position: fixed;  left: 0; height: 1em"  id="editoraudio"></div>
   
-  
-  <div style="position: fixed; top: 2em; right: 0; height: 1em"  id="editorbuttons">
     
-    <button onClick="submitSaveSetting()" style="margin-right: 0.2em" id="savesettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Save Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
+    <div style="position: fixed;  right: 0; height: 1em"  id="editorbuttons">
+      
+      <button onClick="submitSaveSetting()" style="margin-right: 0.2em" id="savesettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Save Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
+      
+      <button  onClick="submitNewSetting()" style="margin-right: 0.2em" id="newsettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h20v2H2v-2zm0-7h20v2H2V4zm16 14v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"/></svg></button>
+      
+      <button  onClick="submitNewTune()" style="margin-right: 0.2em" id="newtunebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>New Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15 4H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992zM11 11V8h2v3h3v2h-3v3h-2v-3H8v-2h3z"/></svg></button>
+    </div>
     
-    <button  onClick="submitNewSetting()" style="margin-right: 0.2em" id="newsettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h20v2H2v-2zm0-7h20v2H2V4zm16 14v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"/></svg></button>
+  </div>    
     
-    <button  onClick="submitNewTune()" style="margin-right: 0.2em" id="newtunebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>New Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15 4H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992zM11 11V8h2v3h3v2h-3v3h-2v-3H8v-2h3z"/></svg></button>
-  </div>
-  <textarea spellcheck="false" style="position: fixed; top: 4em; left: 0; width: 100%; height: 7em; " id="editor" ></textarea>
+  <textarea spellcheck="false" style="position: fixed; left: 0; width: 100%; height: 7em; " id="editor" ></textarea>
   <div id="editormusic" style="width: 100%"  ></div>
   <div style="font-size: 0.6em; color: red;" id="editorwarnings" ></div>
   <input type='hidden' id="editorsongnumber" />
@@ -52,43 +64,51 @@
 <input type="hidden" id="reviewforcestop" value="" />
 
 <input type="hidden" id="reviewlist" value="" />
+
 <div id="controls"  style="width: 100%; z-index: 3;  background-image: linear-gradient(to right , #d8d5f9, #6254f5);
   position: fixed; top: 0; left: 0;  padding: 0em" >
-  <span id="waiting" ><img src="waiting.gif" style="position: fixed; top: 0; left: 0; height: 1.8em; opacity: 1"  ></span>
+  <span id="waiting" ><img src="waiting.gif" style="position: fixed; top: 0.3em; left: 0.3em; height: 3em; opacity: 1"  ></span>
   
   <a onClick="showContentSection('home')" href="#" style="float: left;  margin-right: 0.2em" >
-    <button id="homebutton" style="z-index: 10"  ><img style="height: 1.5em; opacity: 0.9"  src="home.png"   ></button>
-    
+    <button id="homebutton" style="z-index: 10"  ><img class="button" style="opacity: 0.9"  src="home.png"   ></button>
   </a>
+  
 <!--
-  <button onClick="parseAbc()"  >TEST</button>
+  
 -->
 
 
   <div id="reviewbuttons" style="display: none; width: 100%" >
-    <button  onClick="previousReviewItem()" style="margin-left: 1.2em; float: left" id="reviewlistpreviousbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Previous</title><path fill="none" d="M0 0h24v24H0z"/><path d="M8 12l6-6v12z"/></svg></button>
-    <button onClick="showReviewList()" style="float: left;margin-left: 0.5em;" id="reviewlistbutton" ><svg role="img"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Review List</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
-    <button  onClick="nextReviewItem()"style="margin-left: 0.5em; float: left" id="reviewlistnextbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Next</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z"/></svg></button>
+    <button  onClick="previousReviewItem()" style="margin-left: 1.2em; float: left" id="reviewlistpreviousbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Previous</title><path fill="none" d="M0 0h24v24H0z"/><path d="M8 12l6-6v12z"/></svg></button>
+    <button onClick="showReviewList()" style="float: left;margin-left: 0.5em;" id="reviewlistbutton" ><svg role="img"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Review List</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
+    <button  onClick="nextReviewItem()"style="margin-left: 0.5em; float: left" id="reviewlistnextbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Next</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z"/></svg></button>
     
-    <button  onClick="startReview()" style="margin-right: 0.2em; float: right" id="reviewplayallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Start Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
+    <button  onClick="startReview()" style="margin-right: 0.2em; float: right" id="reviewplayallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Start Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
     
-    <button onClick="reviewStopPlaying()"   style="margin-right: 0.2em; display: none; float: right" id="reviewstopallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
+    <button onClick="reviewStopPlaying()"   style="margin-right: 0.2em; display: none; float: right" id="reviewstopallbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Review</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
     
     
   </div>
   
   <div style="position: relative; width: 100%; " >
     <div id="buttonblock" style="float: left;" >
-      <button id="indexbutton" class="headerbutton" onClick="showContentSection('indexes')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Show Index</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"/></svg></button>
      
-     <button id="cheatsheetbutton" class="headerbutton" onClick="showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
       
-      
+      <button style="float:left; margin-right: 0.2em;"  id="moremenubutton" ><svg xmlns="http://www.w3.org/2000/svg" role="image" viewBox="0 0 24 24" class="button" ><title>File</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13.414 5H20a1 1 0 0 1 1 1v1H3V4a1 1 0 0 1 1-1h7.414l2 2zM3.087 9h17.826a1 1 0 0 1 .997 1.083l-.834 10a1 1 0 0 1-.996.917H3.92a1 1 0 0 1-.996-.917l-.834-10A1 1 0 0 1 3.087 9z"/></svg></button> 
+
+
+      <button id="showviewoptionsbutton" style="float: left; margin-right: 0.2em;  " ><svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>View</title><path fill="none" d="M0 0h24v24H0z"/><path d="M22 12.999V20a1 1 0 0 1-1 1h-8v-8.001h9zm-11 0V21H3a1 1 0 0 1-1-1v-7.001h9zM11 3v7.999H2V4a1 1 0 0 1 1-1h8zm10 0a1 1 0 0 1 1 1v6.999h-9V3h8z"/></svg></button>
+      <div id="viewoptions" class="overlay" style="display: none; position: fixed; top: 2.5em; left: 1em; min-width: 10em; min-height: 5em" >
+        <button id="indexbutton" class="headerbutton" onClick="showContentSection('indexes')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Show Index</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"/></svg></button>
+         
+         <button id="cheatsheetbutton" class="headerbutton" onClick="showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
+      </div>
+    
        
    
 <button   id="reviewbutton"  class="headerbutton" style="float: left; margin-right: 0.2em;"  >
-  <svg role="img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 463 463" height="24px" width="24px" style="enable-background:new 0 0 463 463;" xml:space="preserve">
+  <svg role="img" class="button" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 463 463"  style="enable-background:new 0 0 463 463;" xml:space="preserve">
    <title>Review</title>
 <g>
 	<path d="M151.245,222.446C148.054,237.039,135.036,248,119.5,248c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5
@@ -142,89 +162,91 @@
 </g>
 </svg></button>
 
-<button   id="moremenubutton" >
-<svg style="position: relative; top: 10px" role="image" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 32.055 32.055" width="24" height="24" style="enable-background:new 0 0 32.055 32.055;" xml:space="preserve"><title>Show More</title>
-<g>
-	<path d="M3.968,12.061C1.775,12.061,0,13.835,0,16.027c0,2.192,1.773,3.967,3.968,3.967c2.189,0,3.966-1.772,3.966-3.967
-		C7.934,13.835,6.157,12.061,3.968,12.061z M16.233,12.061c-2.188,0-3.968,1.773-3.968,3.965c0,2.192,1.778,3.967,3.968,3.967
-		s3.97-1.772,3.97-3.967C20.201,13.835,18.423,12.061,16.233,12.061z M28.09,12.061c-2.192,0-3.969,1.774-3.969,3.967
-		c0,2.19,1.774,3.965,3.969,3.965c2.188,0,3.965-1.772,3.965-3.965S30.278,12.061,28.09,12.061z"/>
-</g>
-</svg></button> 
-    <div style="display: none" id="moremenu" class="overlay" >
+<button id="helpbutton" style="float: left"  onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
+
+
+    <div  id="moremenu" class="overlay" style="display: none; position: fixed; top: 2.5em; left: 1em; min-width: 10em; min-height: 5em" >
       
-      <button style="margin-right: 0.2em; float: left" id="editsonglistbutton" ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Edit Songlist</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z"/></svg></button>
+      <button style="margin-right: 0.2em; float: left" id="downloadbutton"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Save/Download</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
     
-      <button style="margin-right: 0.2em; float: left" id="downloadbutton"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Save/Download</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg></button>
-    
-    <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Load Songbook</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>
       
-      <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
+    <button style="margin-right: 0.2em; float: left"  id="openabcbutton" >
+    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Open a Tune Book ABC file</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>
+
+      <button style="margin-right: 0.2em; float: left" id="editsonglistbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Import a list of tunes</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2zM4 5v14h16V7h-8.414l-2-2H4zm8 7V9l4 4-4 4v-3H8v-2h4z"/></svg></button>
+
+      <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Select a curated list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
+      
+      <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
        
-       <button id="helpbutton" style="float: left"  onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
+       
       
     </div>
 
     </div>
     <div class="playblock"  style="float: right">
-        <svg version="1.1" style="float: left; margin-top: 0.3em"  height="15px" width="15px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-        <g>
+         <button   id="playallbutton" class="headerbutton" style="float: right; margin-right: 0.2em;"  onClick="playAll()" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Play All</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
+      <button  class="headerbutton"  id="stopplayingallbutton" style="float: right; margin-right: 0.2em; display: none" class="stopplayingbutton"  onClick="stopPlaying()" ><svg role="img"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
+      <input type='hidden' id="playallvalue" value="" />
+      
+      <div id="tempoblock" style="float: right"  >
+        <label  id="tempo"  style="float: left; margin-right: 0.2em" >
+          <svg onClick="$('tempovalue').click()" class="button" version="1.1" style="float: left; margin-top: 0.3em"   id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
           <g>
             <g>
-              <path d="M247.468,332.8v-25.6h34.133v25.6c0,4.71,3.814,8.533,8.533,8.533c4.719,0,8.533-3.823,8.533-8.533V51.2h25.6
-                c4.719,0,8.533-3.823,8.533-8.533c0-4.71-3.814-8.533-8.533-8.533H204.801c-4.71,0-8.533,3.823-8.533,8.533
-                c0,4.71,3.823,8.533,8.533,8.533h25.6v281.6c0,4.71,3.823,8.533,8.533,8.533C243.645,341.333,247.468,337.51,247.468,332.8z
-                 M247.468,51.2h34.133v34.133h-34.133V51.2z M247.468,102.4h34.133v34.133h-34.133V102.4z M247.468,153.6h34.133v34.133h-34.133
-                V153.6z M247.468,204.8h34.133v34.133h-34.133V204.8z M247.468,256h34.133v34.133h-34.133V256z"/>
-              <path d="M366.849,41.455C363.359,17.05,345.848,0,324.268,0H204.801c-20.719,0-36.992,15.65-42.564,41.378L131.32,243.191
-                l-24.602-32.913c2.645-4.036,4.215-8.841,4.215-14.012c0-14.114-11.486-25.6-25.6-25.6c-2.645,0-5.137,0.521-7.535,1.263
-                l-19.797-26.146c-2.842-3.755-8.192-4.506-11.955-1.655c-3.755,2.85-4.497,8.201-1.647,11.955l19.661,25.975
-                c-2.731,4.07-4.326,8.951-4.326,14.208c0,14.114,11.486,25.6,25.6,25.6c2.714,0,5.291-0.538,7.748-1.331L196.122,358.4h-66.295
-                l7.919-47.744c0.768-4.651-2.372-9.045-7.023-9.813c-4.685-0.777-9.045,2.372-9.813,7.023L94.388,467.908
-                c-1.894,11.204,0.973,21.99,8.064,30.379c7.364,8.721,18.475,13.713,30.481,13.713h263.868c11.648,0,22.519-5.052,29.815-13.867
-                c7.066-8.525,9.941-19.601,7.945-30.14L366.849,41.455z M85.334,204.8c-4.702,0-8.533-3.831-8.533-8.533
-                c0-4.702,3.831-8.533,8.533-8.533c4.702,0,8.533,3.831,8.533,8.533C93.867,200.969,90.036,204.8,85.334,204.8z M413.475,487.253
-                c-4.053,4.881-10.12,7.68-16.674,7.68H132.933c-6.972,0-13.329-2.79-17.442-7.663c-3.797-4.489-5.316-10.351-4.275-16.538
-                l15.787-95.266h81.886l39.851,53.325c-0.802,1.98-1.271,4.139-1.271,6.409c0,9.412,7.654,17.067,17.067,17.067
-                s17.067-7.654,17.067-17.067s-7.654-17.067-17.067-17.067c-0.785,0-1.527,0.128-2.287,0.23L145.639,262.357l33.365-217.882
-                c1.792-8.235,7.893-27.409,25.796-27.409h119.467c15.104,0,23.782,13.466,25.711,26.94L399.881,358.4H252.135
-                c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533h150.468l15.147,95.454
-                C418.842,476.698,417.281,482.645,413.475,487.253z"/>
-              <path d="M460.801,341.333c-4.719,0-8.533,3.823-8.533,8.533v8.533h-12.442c-4.719,0-8.533,3.823-8.533,8.533
-                s3.814,8.533,8.533,8.533h12.442V384c0,4.71,3.814,8.533,8.533,8.533s8.533-3.823,8.533-8.533v-34.133
-                C469.334,345.156,465.52,341.333,460.801,341.333z"/>
+              <g>
+                <path d="M247.468,332.8v-25.6h34.133v25.6c0,4.71,3.814,8.533,8.533,8.533c4.719,0,8.533-3.823,8.533-8.533V51.2h25.6
+                  c4.719,0,8.533-3.823,8.533-8.533c0-4.71-3.814-8.533-8.533-8.533H204.801c-4.71,0-8.533,3.823-8.533,8.533
+                  c0,4.71,3.823,8.533,8.533,8.533h25.6v281.6c0,4.71,3.823,8.533,8.533,8.533C243.645,341.333,247.468,337.51,247.468,332.8z
+                   M247.468,51.2h34.133v34.133h-34.133V51.2z M247.468,102.4h34.133v34.133h-34.133V102.4z M247.468,153.6h34.133v34.133h-34.133
+                  V153.6z M247.468,204.8h34.133v34.133h-34.133V204.8z M247.468,256h34.133v34.133h-34.133V256z"/>
+                <path d="M366.849,41.455C363.359,17.05,345.848,0,324.268,0H204.801c-20.719,0-36.992,15.65-42.564,41.378L131.32,243.191
+                  l-24.602-32.913c2.645-4.036,4.215-8.841,4.215-14.012c0-14.114-11.486-25.6-25.6-25.6c-2.645,0-5.137,0.521-7.535,1.263
+                  l-19.797-26.146c-2.842-3.755-8.192-4.506-11.955-1.655c-3.755,2.85-4.497,8.201-1.647,11.955l19.661,25.975
+                  c-2.731,4.07-4.326,8.951-4.326,14.208c0,14.114,11.486,25.6,25.6,25.6c2.714,0,5.291-0.538,7.748-1.331L196.122,358.4h-66.295
+                  l7.919-47.744c0.768-4.651-2.372-9.045-7.023-9.813c-4.685-0.777-9.045,2.372-9.813,7.023L94.388,467.908
+                  c-1.894,11.204,0.973,21.99,8.064,30.379c7.364,8.721,18.475,13.713,30.481,13.713h263.868c11.648,0,22.519-5.052,29.815-13.867
+                  c7.066-8.525,9.941-19.601,7.945-30.14L366.849,41.455z M85.334,204.8c-4.702,0-8.533-3.831-8.533-8.533
+                  c0-4.702,3.831-8.533,8.533-8.533c4.702,0,8.533,3.831,8.533,8.533C93.867,200.969,90.036,204.8,85.334,204.8z M413.475,487.253
+                  c-4.053,4.881-10.12,7.68-16.674,7.68H132.933c-6.972,0-13.329-2.79-17.442-7.663c-3.797-4.489-5.316-10.351-4.275-16.538
+                  l15.787-95.266h81.886l39.851,53.325c-0.802,1.98-1.271,4.139-1.271,6.409c0,9.412,7.654,17.067,17.067,17.067
+                  s17.067-7.654,17.067-17.067s-7.654-17.067-17.067-17.067c-0.785,0-1.527,0.128-2.287,0.23L145.639,262.357l33.365-217.882
+                  c1.792-8.235,7.893-27.409,25.796-27.409h119.467c15.104,0,23.782,13.466,25.711,26.94L399.881,358.4H252.135
+                  c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533h150.468l15.147,95.454
+                  C418.842,476.698,417.281,482.645,413.475,487.253z"/>
+                <path d="M460.801,341.333c-4.719,0-8.533,3.823-8.533,8.533v8.533h-12.442c-4.719,0-8.533,3.823-8.533,8.533
+                  s3.814,8.533,8.533,8.533h12.442V384c0,4.71,3.814,8.533,8.533,8.533s8.533-3.823,8.533-8.533v-34.133
+                  C469.334,345.156,465.52,341.333,460.801,341.333z"/>
+              </g>
             </g>
           </g>
-        </g>
-        </svg>
-        
-        
+          </svg>
+          
+          
 
 
 
-        
-        
-        <label  id="tempo"  style="float: left; margin-right: 0.2em" ><select id="tempovalue"  >
-        <option value=""></option>
-        <option value="30">Grave</option>
-        <option value="42">Lento</option>
-        <option value="47">Largo</option>
-        <option value="60">Adagio</option>
-        <option value="67">Adagietto</option>
-        <option value="75">Andante</option>
-        <option value="91">Moderato</option>
-        <option value="104">Allegretto</option>
-        <option value="120">Allegro</option>
-        <option value="136">Vivace</option>
-        <option value="170">Presto</option>
-        <option value="180">Prestissimo</option>
-      </select></label>
-        
-      <button   id="playallbutton" class="headerbutton" style="margin-right: 0.2em;"  onClick="playAll()" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Play All</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
-      <button  class="headerbutton"  id="stopplayingallbutton" style="margin-right: 0.2em; display: none" class="stopplayingbutton"  onClick="stopPlaying()" ><svg role="img"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
-      <input type='hidden' id="playallvalue" value="" />
+          
+          
+            <select id="tempovalue"  >
+            <option value=""></option>
+            <option value="30">Grave</option>
+            <option value="42">Lento</option>
+            <option value="47">Largo</option>
+            <option value="60">Adagio</option>
+            <option value="67">Adagietto</option>
+            <option value="75">Andante</option>
+            <option value="91">Moderato</option>
+            <option value="104">Allegretto</option>
+            <option value="120">Allegro</option>
+            <option value="136">Vivace</option>
+            <option value="170">Presto</option>
+            <option value="180">Prestissimo</option>
+          </select>
+        </label>
+      </div>
+     
     </div>  
   </div> 
   
@@ -232,28 +254,26 @@
 
 
 <div id="downloadselector"  class="overlay" style="float: left; width: 90%; position: fixed ; top:120px; left: 20px;" >
-  <input id="downloadsonglist" style="float: left; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;" type='button' onClick="download('songlist.meta.txt', $('#songlist').val())" value="Save" />
+  <input id="downloadsonglist" style="background-color: lightgreen; float: left; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;" type='button' onClick="downloadLongAbc()" value="Save Tune Book" />
   <div style="float: left; margin-left: 1em;" >
     <h5 style="margin-top: 0px">Download</h5>
-    <input id="downloadlongabc" style="" type='button' onClick="downloadLongAbc()" value="Tunebook ABC" />
-    <input id="downloadshortabc" style="" type='button' onClick="downloadShortAbc()" value="Cheatsheet ABC" />
+    <input id="downloadshortabc" style="" type='button' onClick="downloadShortAbc()" value="Cheat Sheet ABC" />
     <input   type='button' onClick="download('songtitles.txt', getTuneTitles())" value="Song Titles" />
-    <input   type='button' onClick="download('searchtitles.txt', getSearchTexts())" value="Search Titles" />
   </div>
   <div style="float: left; margin-left: 1em;" >
     <h5 style="margin-top: 0px" >Copy</h5>
     <input id="copylongabc" style="" type='button'  value="Tunebook ABC" />
     <input id="copyshortabc" style="" type='button'  value="Cheatsheet ABC" />
     <input id="copysongtitles" style="" type='button'  value="Song Titles" />
-    <input id="copysongtexts" style="" type='button'  value="Search Titles" />
   </div>
 </div>
 
 <div id="mastercontainer" >
 
   <div id="help" style="display: none" >
-    <a style="float: right" target="_new" href="https://github.com/syntithenai/abc2book/issues"><button>Submit a Bug</button></a>
-    <div>This tool helps you to find, collect, print and memorise tunes. It includes features to
+    <a style="float: right; margin-top: 1.5em; margin-right: 1.5em" target="_new" href="https://github.com/syntithenai/abc2book/issues"><button>Submit a Bug</button></a>
+    <br/>
+    <div style="clear: both" >This tool helps you to find, collect, print and memorise tunes. It includes features to
     <ul>
       <li>Search and import tunes from thesession.org.</li>
       <li>Simplify submission of updates and new tunes to thesession.org.</li>
@@ -275,9 +295,9 @@
     <ul>
         <li><b>My review list items disappeared. Help.</b></li>
         <li>
-          <i>Be sure to save/download your playlist information as a file</i> that can be imported again later.<br/>
-          When you load a new playlist, the old playlist and all the review confidence information is lost.
-          This website does not offer any online storage, instead tools to import/export a playlist as a file for moving user data between devices.
+          <i>Be sure to save/download your tunebook information as a file</i> that can be imported again later.<br/>
+          When you load a new playlist, the old tunebook and all the review confidence information is lost.
+          This website does not offer any online storage, instead tools to import/export a tunebook as a file for moving user data between devices.
           If you make changes to tunes, this website offers tool to simplify saving the changes on thesession.org.
         </li>
         <li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
@@ -295,11 +315,11 @@
     <div>Copyleft Steve Ryan (<a target='mailwin'  href="mailto:syntithenai@gmail.com" >syntithenai@gmail.com</a>)</div>
   </div>  
   <div id="songlistmanager" style="display: none"  >
-    <div id="helptext" style="font-weight: bold;  margin-right: 2em">Type a list of tunes from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a> and click <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></div>
+    <div id="helptext" style="font-weight: bold;  margin-right: 2em">Type a list of tunes from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a> and click <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></div>
     <div id="errors" style="display: none" ></div>
     <div id="songlistbutton" style="float: left; position: relative; clear both;" >
-      <button id="generatebutton" style="float: left ; clear: both;  margin-right: 1em" type='button' onClick="generateMusic()"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Load and generate music from list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></button>
-      <button id="stopbutton" style="display: none; float: left ;margin-right: 0.2em" type='button' onClick="setStopNow(true)"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Stop Loading</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-9.414l2.828-2.829 1.415 1.415L13.414 12l2.829 2.828-1.415 1.415L12 13.414l-2.828 2.829-1.415-1.415L10.586 12 7.757 9.172l1.415-1.415L12 10.586z"/></svg></button>
+      <button id="generatebutton" style="float: left ; clear: both;  margin-right: 1em" type='button' onClick="generateMusic()"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Load and generate music from list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></button>
+      <button id="stopbutton" style="display: none; float: left ;margin-right: 0.2em" type='button' onClick="setStopNow(true)"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Loading</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-9.414l2.828-2.829 1.415 1.415L13.414 12l2.829 2.828-1.415 1.415L12 13.414l-2.828 2.829-1.415-1.415L10.586 12 7.757 9.172l1.415-1.415L12 10.586z"/></svg></button>
       <input id="stopbuttonvalue"  type='hidden' value="true" />
       
       <input type="file"  id="uploadbutton" class="headerbutton" value="Load File" />
@@ -355,11 +375,7 @@
     <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
     <textarea rows='30' cols='60' id="shortabc"   ></textarea>
   </span>
-  <span style="display: none;" >
-    <h1>Long</h1>
-     <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick=" renderMusicFromLongAbc()" value="Render" />
-    <textarea rows='30' cols='60'  id="longabc"   ></textarea>
-  </span>
+  
 
   <div style="display: none;"  id="testrendererwrap"   ><div style="display: none;"  id="testrenderer"   ></div></div>
 
@@ -367,23 +383,27 @@
   <p style='page-break-before: always'><br/></p>
   <div id="cheatsheet_music_container"  style="display: none" >
     <h3 style="margin-top: 1em">Cheat Sheet</h3>
-    <div style="width: 100%; clear: both; padding-bottom: 2em; position: relative;" class="container music"  id="cheatsheet_music"   ></div>
+    <div style="width: 100%; clear: both; padding-bottom: 2em; position: relative; margin-left: 0.5em" class="music"  id="cheatsheet_music"   ></div>
   </div>
 
   <p style='page-break-before: always'></p>
   <div id="welcometext" style="margin-bottom: 1em; font-size: 0.9em"  >
-  <h3 style="display: inline" >Learn session tunes here !</h3> 
-  <span>Try one of our curated tunebooks <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </span>
-  <div style="margin-top:0.5em" >Or create your own book from a list of tunes <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or just <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button></div>
+  <h3 style="" >Learn session tunes here !</h3> 
+  <div style="display: inline"  >Try one of our curated tunebooks <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
+  <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Import an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or just <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button></div>
   </div>
   <div style="width: 100%" id="musiclistbuttons"  >
-    <input type="text" id="musicsearchfilter"  />
-    <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>
+    <input type="text" style="width: 60%" id="musicsearchfilter"  />
+    <button id="searchfilterbutton" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>
+    <button id="searchfilterresetbutton" style="display: none" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg></button>
+    
+    
+    
     <button style="float: right;" id="addtunebutton" >
-    <svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Add a Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>
+    <svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Add a Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>
     
   </div>
-  <div style="width: 100%; clear: both; padding-bottom: 2em;margin-bottom: 5em" class="container music"  id="music"   ></div>
+  <div style="width: 100%; clear: both; padding-bottom: 2em;margin-bottom: 5em; margin-left: 0px; margin-right: 0px" class="music"  id="music"   ></div>
   <br/>
   <br/>
 
@@ -409,7 +429,12 @@
 
 
 $(document).ready(function() {
-  loadSongList()
+  
+  if (window.mobileAndTabletCheck()) {
+    $("#pagewrapper").addClass('is_mobile')
+  } 
+  
+  //loadSongList()
   $("#stopbutton").show()
   //$('#songlistmanager').hide()
   //$("#helpbutton").hide()
@@ -440,10 +465,12 @@ $(document).ready(function() {
   })
   $('#moremenubutton').click(function(e) {
     e.stopPropagation()
+    $("#viewoptions").hide()
     $("#moremenu").show()
   })  
   $('#editsonglistbutton').click(function(e) {
     showContentSection('songlistmanager')
+    $("#moremenu").hide()
     $('#songlistmanager').show()
   })  
   $('#welcomecreatenewbutton').click(function(e) {
@@ -451,22 +478,76 @@ $(document).ready(function() {
     $('#songlistmanager').show()
   }) 
   $('#songlistpickerbutton').click(function(e) {
-    //console.log('show picker')
     e.stopPropagation()
     $('#songlistpicker').show()
   }) 
+  $('#showviewoptionsbutton').click(function(e) {
+    e.stopPropagation()
+    $('#moremenu').hide()
+    $('#viewoptions').show()
+  })   
+   $('#welcomeimportbutton').click(function() {
+     showContentSection('longabcwrapper')
+   })
+  
+  
    $('#welcomeaddtunebutton').click(function() {
      var searchText = prompt('What is the name of the tune?')
-     addNewTuneToStartOfList(searchText)
+     if (searchText) addNewTuneToStartOfList(searchText)
    })
    $('#addtunebutton').click(function() {
      var searchText = prompt('What is the name of the tune?')
-     addNewTuneToStartOfList(searchText)
+     if (searchText) addNewTuneToStartOfList(searchText)
    })
- 
+   $('#searchfilterresetbutton').click(function() {
+     $('#musicsearchfilter').val(''); 
+     filterMusicList('')
+     $('#searchfilterresetbutton').hide()
+      $('#searchfilterbutton').show()
+   })
+   $('#searchfilterbutton').click(function() {
+     $('#musicsearchfilter').focus()
+   })
+       
+  $('#sessionsearchbutton').click(function(e) {
+    e.stopPropagation()
+    return false
+  })
+   $('.wrong_tune_input').click(function(e) {
+    e.stopPropagation()
+  })
+  $('.overlay').click(function(e) {
+    e.stopPropagation()
+  })
+  $('#openabcbutton').click(function(e) {
+   $('#moremenu').hide()
+    //e.stopPropagation()
+    $("#longabcwrapper").show()
+  })
+  const fileSelector = document.getElementById('selecttunebookfilebutton');
+  fileSelector.addEventListener('change', (event) => {
+    const fileList = event.target.files;
+    function readFile() {
+        var file = document.getElementById("selecttunebookfilebutton").files[0];
+        var reader = new FileReader();
+        reader.onloadend = function(){
+           $('#longabc').val(reader.result)
+           if (confirm('Do you really want to replace your current tune book with the version shown in the text area')) {updateTunesFromLongAbc()} 
+        }
+        if(file){
+            reader.readAsText(file);
+        }else{
+        }
+    }
+    readFile()
+  });
+    
+
    
   var reviewSearchClickTimeout = null
   $('#reviewsearchinput').keyup(function(e) {
+    
+    
     if (reviewSearchClickTimeout) clearTimeout(reviewSearchClickTimeout)
     reviewSearchClickTimeout = setTimeout(function() {
       renderReviewList()
@@ -476,6 +557,14 @@ $(document).ready(function() {
   
   var musicSearchTimeout = null
   $('#musicsearchfilter').keyup(function(e) {
+    console.log(e.target.value.trim())
+    if (e.target.value.trim().length > 0) { 
+      $('#searchfilterresetbutton').show()
+      $('#searchfilterbutton').hide()
+    } else {
+      $('#searchfilterresetbutton').hide()
+      $('#searchfilterbutton').show()
+    }
     if (musicSearchTimeout) clearTimeout(musicSearchTimeout)
     musicSearchTimeout = setTimeout(function() {
       console.log('SRC',e.target.value,$('#musicsearchfilter').val())
@@ -493,9 +582,9 @@ $(document).ready(function() {
   bindCopy($('#copysongtitles'),function() {
       return getSongTitles()
   })
-  bindCopy($('#copysongtexts'),function() {
-      return getSearchTexts()
-  })
+  //bindCopy($('#copysongtexts'),function() {
+      //return getSearchTexts()
+  //})
   // no sleep
   document.addEventListener('click', function enableNoSleep() {
   document.removeEventListener('click', enableNoSleep, false);
@@ -517,5 +606,8 @@ $(document).ready(function() {
 })
 
 </script>
+
+</div>
+
 </body>
 </html>

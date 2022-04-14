@@ -18,14 +18,15 @@ function review() {
 }
 
 function generateReviewList() {
-   var songlist = $('#songlist').val().split("\n")
+   //var songlist = $('#songlist').val().split("\n")
    var tunes = loadLocalObject('abc2book_tunes')
    //console.log('AB;E TUNES',tunes)
    var reviewable = {}
    var counter = 0
    Object.keys(tunes).map(function(tuneKey) {
      var tune = tunes[tuneKey]
-     var boost = getMetaValueFromSongline('B', songlist[tuneKey])
+     
+     //getMetaValueFromSongline('B', songlist[tuneKey])
      
      if (boost > 0 && !hasPlayedInLast24Hours(tune.id)) {
        if (!Array.isArray(reviewable[boost]))  reviewable[boost] = []
@@ -56,7 +57,7 @@ function renderReviewList() {
    $('#reviewmusic').html('<b  >You have seen all your boosted tunes in the last 24 hours.</b>')
   } else {
     //console.log('render',reviewList)
-    var tuneList = $('<div ></div>')
+    var tuneList = $('<ul class="list-group" ></ul>')
     var counter = 0
     var searchFor = $('#reviewsearchinput').val().trim().toLowerCase()
     Object.keys(reviewList).map(function(boost) {
@@ -65,7 +66,7 @@ function renderReviewList() {
         tunes.map(function(tune) {
           //console.log('renderT',tune)
           if ((searchFor.length === 0) || (tune.name && tune.name.toLowerCase().indexOf(searchFor) !== -1)) {
-            tuneList.append($('<div style="padding: 0.2em; border-bottom: 1px solid black" onClick="setReviewItem('+counter+')"  >'+tune.name+'</div>'))
+            tuneList.append($('<li class="list-group-item" onClick="setReviewItem('+counter+')"  >'+tune.name+'</li>'))
           }
           counter++
         })
@@ -83,7 +84,7 @@ function renderReviewMusic() {
   var tune = getCurrentReviewTune()
   if (tune) {
     //console.log('REND MUSIC',tune)
-    var songlist = $('#songlist').val().split("\n")
+    //var songlist = $('#songlist').val().split("\n")
     var abc = tweakABC(tune.songNumber, tune) 
     //tune.settings[tune.useSetting].abc, tune.songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
     var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
@@ -98,8 +99,9 @@ function renderReviewMusic() {
         //addAudioControls('#music_'+rk, rr, rk, searchString)
       //}
       $('#reviewboostbuttons').remove()
-      var boost = getMetaValueFromSongline('B',songlist[tune.songNumber])
-      boost = boost > 0 ? boost : 0
+      //var boost = getMetaValueFromSongline('B',songlist[tune.songNumber])
+      //boost = boost > 0 ? boost : 0
+      var boost = tune.boost > 0 ? tune.boost : 0
       $('#reviewmusic').before(renderBoostButtons(tune.songNumber,boost))
       $('#review_tune_boost_up').click(function() {
          progressUp(tune.songNumber )
@@ -238,8 +240,8 @@ function renderBoostButtons(songNumber, boost) {
 		c4.142,0,7.5-3.357,7.5-7.5S339.642,328,335.5,328z"/>
 </g>
 </svg> (<span id="tune_boost_`+songNumber+`" >`+boost+`</span>)    
-  <button id="review_tune_boost_up" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>
-  <button  id="review_tune_boost_down" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>  
+  <button id="review_tune_boost_up" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="button"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"/></svg></button>
+  <button  id="review_tune_boost_down" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="button"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z"/></svg></button>  
   </div>`)
   
 }
@@ -326,8 +328,9 @@ function reviewFinishPlaying() {
 
   
 function reviewStartPlaying(visualObj, tune) {
-  var songlist = $('#songlist').val().split("\n")
-  var boost = getMetaValueFromSongline("B",songlist[tune.songNumber])
+  var boost = tune.boost > 0 ? tune.boost : 0
+  //var songlist = $('#songlist').val().split("\n")
+  //var boost = getMetaValueFromSongline("B",songlist[tune.songNumber])
   if (!reviewMidiBuffer) reviewMidiBuffer = new ABCJS.synth.CreateSynth();
   if (ABCJS.synth.supportsAudio()) {
     window.AudioContext = window.AudioContext ||
@@ -386,6 +389,7 @@ function reviewStartPlaying(visualObj, tune) {
 }
   
 function reviewStopPlaying() {
+  stopPlaying
   if (reviewMidiBuffer) reviewMidiBuffer.stop();
   $('#reviewplayallbutton').show()
   $('#reviewstopallbutton').hide()
