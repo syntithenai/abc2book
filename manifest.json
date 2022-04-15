@@ -14,10 +14,10 @@
         "purpose": "any"
     }  
   ],
-  "start_url": "/",
+  "start_url": "/abc2book/index.html",
   "background_color": "#3367D6",
   "display": "fullscreen",
-  "scope": "/",
+  "scope": "/abc2book",
   "theme_color": "#3367D6",
   "shortcuts": [
     
