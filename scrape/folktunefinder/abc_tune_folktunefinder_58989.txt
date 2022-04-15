@@ -1,0 +1,34 @@
+X:102
+T:Baille de Panderu (CT 471)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Luia, ayuntamiento de Ibias.
+A:Asturies
+O:Luia (Ibias)
+Z:Cancioneru de Torner 471
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|Gcc|BAB|c2B|ddc|B2A|G2z|
+GBB|BAB|G2F-|F2z|
+FBB|BAB|(c2 B/4c/4B/4A/4|G3-)|G2z||
+W:Seores, pa cantar
+W:llicencia-yos pedir,
+W:porque nun digan maana
+W:qu'ensin llicencia cant.
+W:
+S:https://www.folktunefinder.com/tunes/58989
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

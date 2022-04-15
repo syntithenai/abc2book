@@ -1,0 +1,27 @@
+X:5750
+T:Slngpolska (Lngdans ) fr Skne
+A:Skne
+M:3/4
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008b6.html
+%%ID:000008b6
+K:G
+g2 gd ef|g2 ga gf|ef gd ef|1g2 dc B2:|2g4 G2 ::\
+G2ABc2|cB AB G2|
+DG AB c2 | cB AB G2| \
+cB AG FE | DE FG A2 | \
+cB AG FE | DE FG A2| \
+Bd BG AF | G2 G4 :|
+S:https://www.folktunefinder.com/tunes/37229
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

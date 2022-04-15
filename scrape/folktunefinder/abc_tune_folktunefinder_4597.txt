@@ -1,0 +1,27 @@
+X: 5
+P: Uralskaya ryabinushka (Uralin pihlaja) (Ural Rowan Tree)
+C: E.Rodygin
+M: 6/8
+L: 1/8
+K: Am
+|: "Am"A2A c2A | "Dm"d3 A2B \
+| "Am"c2B "E7"e2d | "Am"A3- A3 \
+| "Am"A2e e2c | "Dm"d3 A2B \
+| "C"cBc "G7"e2d | "C"c3- c3 |
+| "C"g2g "A7"gfe | "Dm"d3 A2A \
+| "G7"B2c dcd | "C"e3- "E7"e3 \
+| "Am"c2c cde | "Dm"g3 f2e \
+| "E7"d2B e2d | "Am"A3- A3 ||
+|: "A7"A2[af] [af]>[ge][af] | "Dm"[g3e3] [f3d3] \
+| "G7"[f2d2][ge] [af]>[ge][fd] | "C"[e3c3]- "E7"[e3B3] \
+| "Am"[c2A2][cA] [cA][dB][ec] | "Dm"[g3e3] [f2d2][ec] \
+| "E7"[d2B2][B^G] [e2c2][dB] | "Am"A3 z3 :|
+S:https://www.folktunefinder.com/tunes/4597
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song17.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

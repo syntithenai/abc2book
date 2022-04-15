@@ -1,0 +1,29 @@
+X:202
+T: ICH BIN DER WOHLBEKANNTE SAENGER
+N: B0686
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 3/4
+L: 1/16
+K: A
+E2 | E3AA2A2A2A2 | G2B2E4z2
+E2 | E3BB2B2B2B2 | A2c2E4z2
+E2 | A3Bc2B2A2G2 | F8z2
+F2 | F3EE2E2F2G2 | A4z6
+A2 | G2E2B2E2d2G2 | B2A2A4z2
+A2 | G2B2d2B2G2E2 | B3AA4z2
+E2 | A3Bc2B2A2G2 | F8z2
+F2 | F3EE2E2F2G2 | A8
+c2A2 | E3EE2E2F2G2 | A8
+c2A2 | d3EE2E2F2G2 | A8z2
+S:https://www.folktunefinder.com/tunes/62225
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

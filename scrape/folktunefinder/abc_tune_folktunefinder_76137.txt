@@ -1,0 +1,31 @@
+X:157
+T: Wildbretgang (2-59) S. 184
+N: P0932
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Jgerlied]
+M: 2/4
+L: 1/8
+K: D
+ | A2DE | F2E2 | D
+FGB | A2d2 | A2
+AG | F2E2 | FEFG | A2
+AG | F2E2 | F2z2
+AFDE | F2E2 | D2z2
+A2DE | F2E2 | D2
+FA | B2B2 | A2d2 | A2
+AG | F2E2 | FEFG | A2
+AG | F2E2 | F2z2
+S:https://www.folktunefinder.com/tunes/76137
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Jgerlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

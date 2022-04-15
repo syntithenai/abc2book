@@ -1,0 +1,49 @@
+X:405
+T:Solid Joy (GHB scale version, 30th Dec '97)
+T:the Disorderly
+A:Leeds
+C:Richard Robinson
+M:7/8
+N:Anagram's of Soldiers' Joy with a few notes|letters missing from the tune|title.
+N:Better titles gratefully received.
+O:England
+Z:Richard Robinson 
+%%Copyright:Richard Robinson
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000750.html
+%%ID:00000750
+K:D
+ecAc eAc | eaa eada | cAAc eAc | dBB GBBd |
+ecAc eAc | eaa daea | \
+M:8/8
+fafd egec  |1\
+M:6/8
+AcA eAf \
+:|2 \
+M:6/8
+Add GBB ||
+|:\
+M:7/8
+A2 f2 faf | eAA efge | \
+A2 f2 faf | edcB GBB |
+A2 f2 faf | eAA efge | \
+M:8/8
+fafd egec \
+M:6/8
+|1 Add GBB :|2 \
+d3 efg ||
+|:\
+M:7/8
+a2fd Bec| Aaag fdf  \
+| e2ge Bce |1 \
+d4 efg :|2 \
+d4 "DC"eAf|]
+S:https://www.folktunefinder.com/tunes/43946
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 7/8
+% Time_signature 8/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

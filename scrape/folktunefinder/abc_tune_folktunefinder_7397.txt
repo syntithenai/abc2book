@@ -1,0 +1,45 @@
+X: 2
+T: Unzer Toyrele [B]
+T: Our dear Torah
+O:trad klezmer
+M:2/4
+L:1/8
+K:B=c^f^d
+V:1
+"A"\
+|: "B"B/c/d d3/B/ | "Em"d/f/e e3/e/ \
+| "B"d3/e/ "(Em)"f/g/e/g/ | "B"f2 b2 \
+| B/c/d d3/B/ | "Em"d/f/e e3/e/ \
+| "Am"d/A/B/c/ d3/c/ |
+| "B"B{c}B-B2 :|\
+"B"\
+|: "B"a/g/f f2 |f/e/d df \
+| f/e/e/d/ "Am"d/c/c/B/ | "B"Bd fb \
+| a/g/f f2 |f/e/d df |
+| f/e/e/d/ "Am"d3/c/ | "B"B4 :|\
+"C"\
+|: "Em"d/f/e ee | "Am"e/d/c/B/ A2 \
+| A/B/c/d/ e/f/g/^g/ | a/g/f/e/ d/c/B/A/ \
+| d/f/e ee |
+| "Am"a/g/f/e/ "B"df \
+| f/e/e/d/ "Am"d/c/A/c/ | "B"B4 :|\
+"D"[|]\
+  "Em"{d}e4 | {d}e4 \
+| {d}e2 {d}e2 | {d}e2 {d}e2 |
+"E"\
+|:"Em"g/f/e eb |b/a/g g2 \
+| "Am"~ag ~ag | "(B)"ab "Em"g/f/e \
+| g/f/e eb |b/a/g g2 \
+| "G"g/d/d/g/ "F"g/=f/=f/e/ | "Em"e4 :|
+"F"\
+|:"B"d3/[f/B/] "Am"f/e/d/c/| "B"dB FB \
+| d/e/f "Am"e/d/c | "B"dB FB \
+| d3/[f/B/] "Am"f/e/d/c/| "B"dB FB \
+| d/e/f "Am"e/d/c | "B"B4 :|
+S:https://www.folktunefinder.com/tunes/7397
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/UnzerToyrele.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:68
+T:Inveraray Castle
+T:Caisteal Inbher-aora
+R:Strathspey
+S:Simon Fraser Collection
+N:No.32
+O:Scottish
+M:C
+L:1/8
+Q:1/4=140
+K:F# Minor
+C<F ~F2 C>F A<F|C<FF<G AF A<F|E>C A,E E>^D|
+C>F ~F2 C>F A<F|C<FF<G AF A<F|E>CA,>B, C<E E||
+c/B/|A>B c<a f>cc>B|A>Bc>f c>f f2|A>Bc>f A<fc<f|e>B G<E G<B B2|
+A>B c/f/c A/f/A c/f/c|A>Bc>f a/g/f/^e/ f>g|a>cB>A G>FE>D|
+C>A,E>A, C>E E2||
+S:https://www.folktunefinder.com/tunes/79892
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:396
+T:Floru (CT 330)
+R:Floru
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Meloda de gaita, transcrita en Xixn.
+N:Se emplea como introduccin para acompaar a un cantor.
+A:Asturies
+O:Xixn
+Z:Cancioneru de Torner 330
+M:3/8
+L:1/8
+Q:3/8=60
+K:G
+|G-G/A/B/c/|d3/2(3c/4B/4A/4B|c/B/A/G/F/A/|
+G-G/A/B/c/|d3/2(3c/4B/4A/4B|c/B/A/G/F/A/|
+G2 d|geg|f/>e/df|e/>d/ce|d/>c/Bd|
+{cd}c/B/A/B/c/A/|{Bc}B/A/G/A/B/G/|{AB}A/G/F/G/A/F/|
+{A}G-G/A/B/c/|d3/2(3c/4B/4A/4B|c/B/A/G/F/A/|
+G-G/A/B/c/|d3/2(3c/4B/4A/4B|c/B/A/G/F/A/|
+G2 (3A/B/A/|G2 (3A/G/F/|G2 (3A/G/F/|G3-|G2 z||
+S:https://www.folktunefinder.com/tunes/59283
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Floru
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

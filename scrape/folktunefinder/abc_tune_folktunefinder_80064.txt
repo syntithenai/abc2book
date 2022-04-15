@@ -1,0 +1,28 @@
+X:5
+T: Thijsken van den Schilde
+N: A0368
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 112. Nach 1400.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/2
+K: D
+D | =FFGG | A2A2z
+=c | _BAAG | A2=F2z
+G | AG=FE | D2D2z
+A | A2G=F2E | D2=C2 | z
+DEE | A2A2G2 | =FE2D2C | DE=F
+DEE | A2A2G2 | =FE2D2C | D3
+S:https://www.folktunefinder.com/tunes/80064
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

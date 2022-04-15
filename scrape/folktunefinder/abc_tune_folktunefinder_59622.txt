@@ -1,0 +1,35 @@
+X:735
+T:Vaqueirina, vaqueirina
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:3/8
+L:1/8
+Q:3/8=78
+K:Cm
+|ccc|=B2 G|A G2-|G3|
+|ccc|c=Bc|d2 c|d3-|d3|
+|ccc|=B2 G|A G2-|G F/G/A/B/|
+|c=Bc|dc=B|c B/A/G-|G F/G/A/B/|
+|cBc|BAG|A G2|G3-|G3-|G3-|G3|
+|GGG|G=BB|c2 c-|c3|
+|GGG|G=BB|c2 =B-|=B3|
+|=BBB|ccc|=B B2|ccc|
+|=B3-|=BGG|=B B2|G3-|G3-|G3-|G3|
+[K:C]
+|GGG|ccc|G2 F-|F3|
+|BBc|ddd|c3-|c2 A|G3-|G3|GGG|
+S:https://www.folktunefinder.com/tunes/59622
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

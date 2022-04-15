@@ -1,0 +1,22 @@
+X:24
+T:Bourr\'ee droite d'Issoudun
+C:Traditional
+R:Bourr\'ee
+O:B\'erichou, Auvergne, France
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+K:C
+z2 DE|F2 D2 B,2|C4 ED||
+|:!segno!C4 D2|E2 C2 EF|G2 G2 F2|D4 ED|C4 D2|E2 C2 EF|G2 F2 E2|[1D4 ED:|[2D4 EF||
+|:G2 G2 F2|E2 C2 DE|F2 F2 E2|D4 EF|G2 G2 F2|E2 C2 DE|F2 D2 B,2|[1C4 EF:|[2!segno!C6|]
+S:https://www.folktunefinder.com/tunes/75720
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Bourre?e
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

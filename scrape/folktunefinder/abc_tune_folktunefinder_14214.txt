@@ -1,0 +1,27 @@
+X: 1
+T: The Gannet
+C: Bert Murray
+R: jig
+B: Bon Accord 4
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"AEA cAc | ece a2e | "D"fga "A"ecA | "Bm"edc "E7"B2c \
+| "A"AEA cAc | ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 :|
+e \
+| "D"fdf faf | "A"ece eae | "D"def "A"ecA | "Bm"edc "E7"B2e \
+| "D"fdf faf | "A"ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 |]
+e \
+| "D"fdf faf | "A"ecA Ace | "D"fga "A"ecA | "Bm"edc "E7"B2c \
+| "A"AEA cAc | ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14214
+S:http://trillian.mit.edu/~jc/music/abc/jig/Gannet_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Gannet_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

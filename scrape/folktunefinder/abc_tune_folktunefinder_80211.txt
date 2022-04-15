@@ -1,0 +1,23 @@
+X:152
+T: Ein Kinderlied auf die Weihnachten
+N: A0518
+O: Europa, Mitteleuropa, Deutschland
+N: Schumanns Gsgb 1539 fol. 3 (Luther)
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: F
+f | e2d2e2c2 | d2e2f2z
+f | f2c2c2A2 | c2B2A2z
+A | d2d2c2e2 | f2d2c2z
+f | e2d2c2d2 | BAG2F3
+S:https://www.folktunefinder.com/tunes/80211
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

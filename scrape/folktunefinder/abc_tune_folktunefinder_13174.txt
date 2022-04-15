@@ -1,0 +1,30 @@
+X: 1
+T: Easter Snow
+C: Trad
+O: Ireland
+S: Eamonn Cotter (Traditional Irish Music From County Clare)
+M: 9/8
+L: 1/8
+N: Slow air
+Q: 3/8=40
+Z: Contributed 20030724034505 by Glauber Ribeiro mailfrom.jc.20.glauber@spamgourmet.com
+K: G
+|: g2f/d/ e3 d2e/f/ | g2e/B/ d2e G3 | G2A/B/ c2B/A/ B2c | d2B/G/ A2B HG3 :|
+d2e/f/ g2a b2a | g3 g2a b2a | g2e g3  g2a | b2a g2e g3 | g2e/B/ d2e HG3 |
+g2f/d/ e3 d2e/f/ | g2e/B/ d2e G3 | G2A/B/ c2B/A/ B2c | d2B/G/ A2B HG3 ||
+S:https://www.folktunefinder.com/tunes/13174
+S:http://trillian.mit.edu/~jc/music/abc/air/EasterSnow.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/mailfrom.jc.20.glauber:spamgourmet.com/EasterSnow.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/EasterSnow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/mailfrom.jc.20.glauber%3Aspamgourmet.com/EasterSnow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/EasterSnow.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

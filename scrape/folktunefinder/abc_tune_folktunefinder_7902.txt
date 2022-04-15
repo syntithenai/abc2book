@@ -1,0 +1,26 @@
+X: 2
+P: Hoppvals fra Feragen
+O: Norway
+R: polka, Busserull
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:  D
+|: F \
+|  "D"A>A AG | FA dc | "G"B>B BA | "Em"GB ed \
+| "A7"c>c cc | cA Bc |1,3 " D"d>d dB | "A7"A3 :|2,4 " D"d2 {e}dc | d3 :|
+|: f \
+|  "D"a>a ^ga | ba gf | "A7"g>g gf | e4 \
+|1,3 g>g gf | kez A2 | "D"f>f fe | d3 \
+:|2,4 g>"A7"g ge | cA Bc | "D"d2 dc | d3 :|
+S:https://www.folktunefinder.com/tunes/7902
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Polka.txt
+% Rhythm Polka, busserull
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

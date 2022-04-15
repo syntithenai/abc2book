@@ -1,0 +1,37 @@
+X: 175
+T: Wintergr\"un
+T: W4P2W2P2
+R: zwiefacher
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 23/4
+L: 1/8
+K: F
+P: F
+|: [C2A,2] \
+| "F"[C2A,2] [F2D2] [A2F2] | [d2B2] z[cA] [c2A2] \
+| [C2A,2] [F2D2] [A2F2] | "C7"[c2A2] z[BG] [B2G2] |
+| "C7"[d2B2] z2 | "F"[c2A2] z2 \
+| "Bb"[AC][BD] [B2D2] [E2B,2] | "F"[FA,][EG,] [FA,][GC] [A2F2] \
+| "Bb"[AF][BG] [B2G2] [E2B,2] | "F"[F2A,2] z2 :|
+P: Bb
+K: Bb
+|: [F2D2] \
+| "Bb"[F2D2] [B2G2] [d2B2] | [g2e2] z[fd] [f2d2] \
+| [F2D2] [B2G2] [d2B2] | "F7"[f2d2] z[ec] [e2c2] |
+| "F7"[g2e2] z2 | "Bb"[f2d2] z2 \
+| "Eb"[dF][eG] [e2G2] [A2E2] | "Bb"[BD][AC] [BD][cF] [d2B2] \
+| "Eb"[dB][ec] [e2c2] [A2E2] | "Bb"[B2D2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5222
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

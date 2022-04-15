@@ -1,0 +1,28 @@
+X: 1
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+K: Bb
+F || "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+   | "Bb"F>d B>g d>b "Eb"g>e | "Bb"f<d "F7"c>f "Bb"B2- BF |
+   | "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+   | "Bb"(3FBF "Cm"E>B "Bb"D>B "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B ||
+a || "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G3 a \
+   | "Bb"b>f "Eb"g>e "Bb"f>d "Eb"b>g | "Bb"f<d "F7"c>f "Bb"B2- Ba |
+   | "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G2- GB \
+   | "Bb"(3FBF "Cm"EBE "Bb"DBD "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B ||
+S:https://www.folktunefinder.com/tunes/19615
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/OorAuldGuidmanIsNooAwa_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/OorAuldGuidmanIsNooAwa_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/OorAuldGuidmanIsNooAwa_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

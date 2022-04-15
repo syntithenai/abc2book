@@ -1,0 +1,30 @@
+X:10
+T:A los rayos del sol
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Musicologa Asturiana - La Cancin Tradicional, Modesto Gonzlez Cobas
+Z:La Cancin Tradicional, M.G.C.
+M:3/8
+L:1/8
+Q:3/8=80
+K:Am
+|: A2 A|ccc|B2 G|ABA|A G2-|G3 :|
+|A2 A|ccc|B2 G|ccc|B2 G|AAA|cBB|AAA|G3-|G2 z|
+W:ay, de mi, que me lleva la toca el rido!
+W:bajateme por ella galn querido
+W:a los rayos del sol se peina mi amor
+W:se viste y se calza del mismo color
+W:
+S:https://www.folktunefinder.com/tunes/58897
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

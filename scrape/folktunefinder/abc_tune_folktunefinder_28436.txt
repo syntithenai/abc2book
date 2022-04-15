@@ -1,0 +1,28 @@
+X:7984
+T:Waverley Steps
+O:england
+C:R Black
+S:Radio Scotland, Dec 1991
+N:As played by the Iain MacPhail Band
+M:4/4
+L:1/8
+K:D
+(3ABc|d2 de dcBA|B3 c BAGF|A3 B AGFA|G2 E2 E2 (3ABc|
+d2 de dcBA|B3 c BAGF|A2 Bc d2 AG|F2 D2 D2:|]
+FE|D2 d2 d2 cB|c2 e2 e2 de|f2 d2 d2 f2|edcB AGFE|
+D2 d2 d2 cB|c2 e2 e2 dc|BABc dBAG|F2 D2 DGFE|
+D2 d2 d2 cB|c2 e2 e2 de|f2 d2 d2 f2|edcB AGFE|
+DEFG A2 de|fedB A2 GF|EFGA Bcde|f2 d2 d2|]
+S:https://www.folktunefinder.com/tunes/28436
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

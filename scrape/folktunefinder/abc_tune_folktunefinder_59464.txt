@@ -1,0 +1,36 @@
+X:577
+T:Oriella, oriella (CT 304)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 304
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|B2 Bc|d3 B|f2 fe|d2 dc|B4|
+B2 Bc|d3 B|f2 fe|d2 dc|B2 z2|
+d2 dd|c3 A|G2 GF|G4|
+B2 Bd|c3 A|G2 GF|G2 z2||
+W:Orilla, orilla,
+W:que esta noche no duerme,
+W:orilla, orilla,
+W:que esta noche no duerme
+W:sola la nia, marinero;
+W:orilla el barco,
+W:que me muero
+W:
+S:https://www.folktunefinder.com/tunes/59464
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

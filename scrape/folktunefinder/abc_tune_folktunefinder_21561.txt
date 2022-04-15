@@ -1,0 +1,25 @@
+X:1112
+T: Chorus Jig
+R: reel
+N: This tune is a mixture of D major, D mixolydian and G major.
+O:England
+M: C|
+L: 1/8
+K: DMix
+|: AG | "D"F2DF ABAG | FADF A2d2 | D2DF ABAG | "A7"GFEF G2 :|
+|: Bc | "G"dBcA BGFG | "D7"Ad^cd A2B=c | "G"dBcA BGFG | "D7"AcBA "G"G2 :|
+|: ag | "D"fd~d2 fd~d2 | fdfg "A7"abag |  "D"fd~d2 fd~d2 | "C"ecef g2 :|
+|: Bc | "G"dBcA BGFG | "D7"Ad^cd A2B=c | "G"dBcA BGFG | "D7"AcBA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/21561
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

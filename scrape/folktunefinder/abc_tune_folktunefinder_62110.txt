@@ -1,0 +1,29 @@
+X:87
+T: DER SAENGER HAELT IM FELD DIE FAHNENWACHT
+N: B0574
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied
+M: 4/4
+L: 1/16
+K: C
+G,2 | C6G,2E,6A,2 | G,3E,C,3D,E,4z2
+E,2 | F,3^C,D,3E,F,3D,B,3A, | G,6F,2E,4z2
+G,2 | C6G,2E,6A,2 | G,3E,C,3D,E,4z2
+E,2 | D,3^C,D,3E,^F,3G,A,3B, | B,6A,2G,4z2
+G,2 | G,2G,2A,2G,2D6F,2 | E,2A,2G,4z2
+A,2G,2C2 | B,6B,2D3CG,3E, | D,3E,D,4z4
+G,4 | C4G,2_A,2_B,6_E,2 | _A,2A,2E,2F,2G,4z2
+G,2 | G,3G,A,3G,E3CG,3E, | G,6F,2E,4z2
+E,2 | D,3^C,D,3E,F,2G,2A,2D2 | B,8C4z2
+S:https://www.folktunefinder.com/tunes/62110
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

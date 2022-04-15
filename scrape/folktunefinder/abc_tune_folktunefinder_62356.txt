@@ -1,0 +1,29 @@
+X:25
+T:N\"ockla-H\"arpa
+R:sl-polska
+H:efter Lasse i Svarven, som hade den efter A.G. Johansson i Sund, Ydre.
+H:St\"amning A,DAd
+A:\"Osterg\"otland
+Z:id:hn-sp-25
+M:3/4
+L:1/16
+K:Dm
+[d3A3D3A,3](f a2)(af) ([d2A2][dA][eA]) |
+([fA3]e).d[.^cz] [d2d2][A2A2] [GA4]^FED |
+[d3A3D3A,3](f a2)(af) ([dA][eA])([dA][eA]) |
+([fA3]e).d[.^cz] (c2[d2d2]) [d4d4] :|
+K:D
+|: ([A2D6]d2) (ABAF) ([DA,4]FDF) | ([A2D4]d2) ([BD4]cBA) ([G2A,2][B2D2]) |
+([A2D6]d2) (ABAF) ([DA,4]FDF) | ([A2D4]d2) ([BD4]cBA) ([G2A,2][B2D2]) |
+([A2D4]d2) ([AD4]BAF) ([FA,4]GFE) | ([FA,3]EDC) (C2[D2D2]) [D4D4] :|
+S:https://www.folktunefinder.com/tunes/62356
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

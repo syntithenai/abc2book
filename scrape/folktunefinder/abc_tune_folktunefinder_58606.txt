@@ -1,0 +1,29 @@
+X: 01139
+T: WHY NOT
+C: Bob McQuillen  Jjuly '74
+B: Bob's Note Book 1-2 #139
+N: For Roger and Phyllis Whynot.
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(3D/E/F/ \
+| G2D2 G3A | BAGB AcBA | G2D2 G2AB | cBAG Ad3 |
+| G2D2 G3A | BAGB ABcA | BABc dedc | BGAF G3 :|
+|: d \
+| e2g2 g2fg | agfg e2dc | BABc dedc | BAGB A2(3DEF |
+| G2B2 B2AG | AGAB cABc | dgfe dedc | B2G2 G3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/58606
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book01.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 1
+T: Dublin Bay [Cm]
+T: We'll Wed and We'll Bed
+O: 1713
+R: jig
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Cm
+g \
+| "Cm"cdc cdc | c3 z2c \
+| "G(Bb)"ded ded | d3 z2d \
+| "Cm"efe "Bb"fgf | "Eb"g3 z2a \
+| "Cm"gfg G2g |
+| "Fm(G)"fef F2f \
+| "Cm"ede E2e | "G"dcd D2d \
+| "Cm"c=Bc "Bb"dcd | "Eb"ede "Fm"fef \
+| "Cm"gcd "G7"=B2c | "Cm"c3 c2 ||
+d \
+| "Gm"B=AG D2d | B=AG D2d \
+| B=AG "D7"A2G | "G(m)"G3 z2g \
+| "Cm"edc G2g | edc G2^f |
+| "Cm"gb=a "D7"^f2g | "Gm"g3 z2^f \
+|["1-N" "Eb"gb=a "D7"f2g | "G(m)"g3 !d.C!z2 :|\
+|["last" "Cm"gcd "G7"=B2c | "Cm"c3 c2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3730
+S:http://trillian.mit.edu/~jc/music/abc/England/DublinBay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/DublinBay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/DublinBay.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

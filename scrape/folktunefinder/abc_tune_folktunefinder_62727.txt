@@ -1,0 +1,24 @@
+X: 5
+T:-Broken Pledge, The
+M:4/4
+L:1/8
+Q:180
+R:March
+K:G
+dcAG AD D2|cAGF EC {D}(3CB,C|DEFG Add>c|(3ABA GB Adfe|
+dcAG AD D2|c{d}c{B}cG EC {D}(3CB,C|DEFG Addc|(3ABA GE {G}ED D2::
+dcAG ABde|f{a}f{e}fd ecAB|cAGE G2 cd|(3efg df ecAc|dcAG ABde|
+fd {e}(3d^cd ecAG|F{G}F{E}FG Addc|(ABA GE {G}ED D2:|
+S:https://www.folktunefinder.com/tunes/62727
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 5
+T: Od lo ahavti dai
+C: Naomi Shemer
+M: C
+L: 1/8
+%%indent 100
+K: Dm
+F  | "Dm"FF FF FF zF \
+   | "Am"EE EE "Bb"D2 z(D/E/) \
+   | "Dm"FF FF FF zF \
+   | "C"GC CC "F"A2 zA |
+   | "D7"AA AA "Gm"B2 AA \
+   | "C7"GG cc "F"A2 "(Am)"z(A/G/) \
+   | "Bb"FF FF "Gm"G2 FF \
+   | "Am"EE AA "Dm"D2 "C7"z2 ||
+  || "F"(A6 G/F/) "C"G2 zC \
+   | "Dm"FF F(E/D/) "Am"E2 zA, \
+   | "Bb"DD DD "F"C2 F2 \
+   | "C7"G2 (FG) "F"A2 z2 |
+   | "F"(A6 G/F/) "C"G2 zC \
+   | "Dm"FF F(E/D/) "Am"E2 zA, \
+   | "Bb"DD DD "F"C2 F2 \
+   | "Gm"ED "A7"E2 "Dm"D4 |]
+S:https://www.folktunefinder.com/tunes/6624
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/20031220I.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: The Minor Spaniard
+C: Jenny Beer
+R: jig
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+|:"Em"E3     B,3 | "Em"G3     E3  | "Em"G2G  "D"FGA | "Em"G3  E3 \
+| "Em"B2G "D"A2F | "Em"G2E "D"F2D | "Em"E2E "Bm"DEF | "Em"E3- E3 :|
+|:"Em"g2g e2g | "D"fed "Em"e2B | "Em"B2g B2g | "D"fed  "Em"e3 \
+| "Em"g2g e2g | "D"fed "Em"e2B | "Em"B2B G2B | "Bm"AGF "Em"E3 :|
+S:https://www.folktunefinder.com/tunes/14650
+S:http://trillian.mit.edu/~jc/music/abc/jig/MinorSpaniard_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MinorSpaniard_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

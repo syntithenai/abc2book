@@ -1,0 +1,32 @@
+X: 85
+T:Untitled. HA.084
+M:3/4
+L:1/4
+Q:70
+C:in Hand C
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Erratic barlines could mean 6/4 or 3/4.CGP.
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:C
+e2d|cGc|cc/d/e/c/|dd/e/f/d/|!
+e2d|cGc|dd2|c3:|!
+|:e2f|gcd|e2f|g3|!
+e/d/c/d/e/f/|e/d/c/d/e/f/|e/d/c/d/e/f/|ga/g/f|!
+e2d|cGc|c/B/c/d/e/c/|dd/e/f/d/|!
+e2d|cGc|dd2|c3:|]
+S:https://www.folktunefinder.com/tunes/72334
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

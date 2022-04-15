@@ -1,0 +1,30 @@
+X: 1
+T: Fireman's Reel
+O: trad
+Z: :n
+R: reel
+M: C|
+L: 1/8
+Z: Contributed 20040727011643 by John Chambers jc:trillian.mit.edu
+K: A
+|:"A"AcBc AFEF | Acea "D"f2fg | "A"agfe fecA | "B(m)"BcBA "E7"F2E2 |
+| "A"AcBc AFEF | Acea "D"f2"E7"(3efg | "A"agfe fecA | "E7"B2A2 "A"A4 :|
+|:"A"eaga fece | eaga "D"f2fg | "A"agfe "F#m"fecA | "B(m)"BcBA "E7"F2E2 |
+| "A"AcBc AFEF | Acea "D"f2"E7"(3efg | "A"agfe "F#m"fecA | "E7"B2A2 "A"A4 :|
+S:https://www.folktunefinder.com/tunes/17153
+S:http://trillian.mit.edu/~jc/music/abc/reel/FiremansReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FiremansReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc:trillian.mit.edu/FiremansReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/FiremansReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/FiremansReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/jc%3Atrillian.mit.edu/FiremansReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/FiremansReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:175
+T: In der finstern Metten
+N: A0539A
+O: Europa, Mitteleuropa, Deutschland
+N: Spoerls Liederhs. 1392 - 1400.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: C
+G | GGGG | A2G
+G | FFED | C2z
+G | GGGG | A2Fz
+FFAA | _BAG2
+GGGG | c2G
+G | AAGG | F2z2
+GGGA | G2E
+E | FFDD | C3
+S:https://www.folktunefinder.com/tunes/80234
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

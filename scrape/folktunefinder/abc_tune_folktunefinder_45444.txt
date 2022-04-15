@@ -1,0 +1,30 @@
+X:10
+T:Steyrer Tanz in F, nr. 7
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in F
+N:um1800
+M:3/4
+L:1/8
+K:F
+V:1
+AcfA c2 | GceG c2 | GceG ce | AcfA c2 |\
+AcfA c2 | GceG c2 | GceG ce | F4 :|
+V:2
+FAcF TA2 | EGcE TG2 | EGcEGc | FAcF A2 |\
+FAcF TA2 | EGcE TG2 | EGcEGc | A4 :|
+S:https://www.folktunefinder.com/tunes/45444
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

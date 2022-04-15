@@ -1,0 +1,29 @@
+X:15523
+T:Sitting in the stern of a boat
+R:Other
+O:Scotland
+N:the ornament marks (slurs) are mordants (turns)
+M:4/4
+C:Rev. William McLeod
+K:G
+D/E/F |\
+G>A GF E2 DG | B>c {Bc}dB {B}A2 GE|\
+D>E G>A B2 g/e/d/c/ | B2 {c}~A2 G2 :|*
+g |\
+e>d ef g3b | ~a>g ab {g}e2 dB |\
+de/f/ g>a g>a g/a/g/f/ | e>^d ef {f}e3 {f}g |\
+e>d Bd g2 Bb | {f}g>e dB  {B}A2 GE |\
+D>E G>A B2 g/e/d/c/ | B>c A2 ~G2 ||**
+S:https://www.folktunefinder.com/tunes/46798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

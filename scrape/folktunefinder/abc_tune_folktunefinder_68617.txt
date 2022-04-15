@@ -1,0 +1,26 @@
+X:71
+T: Die plappernden Junggesellen
+N: A0075
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie in Francks Fasc. quodl. 1611 No. 4. Rhythmus von Boehme
+N: ueberarbeitet.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G4B4 | d6c2 | B4A4 | G4z2
+D2 | G4B4 | d6c2 | B4A4 | G4z2
+B2 | B2B2B2B2 | B4A2G2 | B2d2c2B2 | A4z2
+D2 | G2A2B2c2 | d3ed2c2 | B2B2A2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/68617
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

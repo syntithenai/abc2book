@@ -1,0 +1,24 @@
+X: 131
+T:Miss Dillon's Waltz
+M:3/4
+L:1/8
+Q:150
+K:G
+d>B G2 G2 | d>B G2 G2 | d>B G2 | g2 f2 e2 |
+e/2d/2c/2B/2 A2 A2 | e/2d/2c/2B/2 A2 A2 | e2 dedc | BA G4 :||
+K:D
+F>G AF D2 | d2 B2 G2 | F>G AF D2 | d2 B4 | 
+F>G AF D2 | d2 B2 G2 | d2 c2 A2 | c2 d4 :||
+K:G
+d2 cd Bd | Ad Bd Gd | Bd cd Bd | Ad G4 |
+d2 cd Bd | Ad Bd Gd | Bd cd Bd | BA G4 :||
+S:https://www.folktunefinder.com/tunes/52202
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

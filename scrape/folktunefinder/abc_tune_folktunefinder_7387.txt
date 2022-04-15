@@ -1,0 +1,24 @@
+X: 1
+T: Tzena, Tzena
+C: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+W: Play as round after first time through.
+M: 2/4
+L: 1/8
+K: Bb
+|: "Bb"B,B, DF | ED CB, | "Eb"E>E EE | ED CB, \
+| "F"F4- | FD EC |1 "Bb"D4- | DF,G,A, :|2 "Bb"B,4- | B,FGA ||
+|: "Bb"B3 A | G3 ^F | "Eb"G>G GG | G G3 \
+| "F7"A2 A2 | AF GA |1 "Bb"B2 "F"A2 | "Eb"G2 "F"F2 :|2 "Bb"B4- | BF GA ||
+|: "Bb"B2 B2 | "Baug"B2 B2 | "Eb" z c2 B | A>B AG \
+| "F7"F2 E2 | D2 C2 |1 "Bb"B,C DE | "F7"FG AF :|2 "F7"FG AF | "Bb"BB z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7387
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/TzenaTzena.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

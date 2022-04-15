@@ -1,0 +1,25 @@
+X:5087
+T:Peter O'Byrne's Fancy
+O:england
+R:jig
+D:Moving Hearts: The Storm
+D:Arty McGlynn: McGlynn's Fancy
+M:6/8
+L:1/8
+K:Dmix
+AFD c2A|BAG ~A3|AFD c2A|BGE EGD|
+AFD cAA|BAG ~A3|cde dcA|1 GEA ~D3:|2 GEA D2c||
+|:cde dcA|AGE c2A|cde dcA|AGE EGD|
+cde dcA|AGE c2d|fed cAG|AGE EGD:|
+S:https://www.folktunefinder.com/tunes/25539
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

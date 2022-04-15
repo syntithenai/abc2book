@@ -1,0 +1,22 @@
+X:85
+T:Captain Horne
+R:pipe strathspey
+S:Toby A. Rider, Los Angeles Scottish Fiddler's Association
+M:4/4
+L:1/8
+K:D
+d>e|: "D" f>A A/2A/2A "G"B<G d>e|"D"f>A A/2A/2A "A"Be|"D"f>A A/2A/2A
+"G"B<G g|"D"f<ae>d "G"Be:|!
+"D"f2 f<d f2 f<a| "D"f2 f<d "A"e>f a2|"D"f>gf>d "G"e>fg>e |1  "A"a>fe>d
+"G"Be |2 "A" a>fe>d "G"B<d d2||
+S:https://www.folktunefinder.com/tunes/58773
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/strath.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/strath.abc
+% Rhythm Pipe strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

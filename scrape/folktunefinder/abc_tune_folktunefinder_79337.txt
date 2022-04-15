@@ -1,0 +1,25 @@
+X:233
+T: SOLLT ICH EINEM BAUERN DIENEN
+N: E1373
+O: Europa, Mitteleuropa, Deutschland, Franken, Wuerzburg
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: G
+ | G3GG2GB | B3AAGG2
+B3BB2Bd | d3ccBB2
+A3AA2A2 | d2d2B4
+G3Bd2d2 | e3ddcc2
+A3Bc2e2 | d3ccBB2
+G3DG2A2 | B3AG4
+d3cB2B2 | A2A2G4
+S:https://www.folktunefinder.com/tunes/79337
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

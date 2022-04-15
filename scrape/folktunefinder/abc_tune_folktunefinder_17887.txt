@@ -1,0 +1,30 @@
+X:1
+T:Port Appin Pier
+M:2/4
+L:1/16
+C:Neil Grant
+Z:Gary Blair <GaryBlair@compuserve.com> (scots-l 2000/01/20)
+N:Serious format problems fixed by John Chambers <jc:trillian.mit.edu>
+R:Reel
+K:A
+A2 \
+|| c2e2 a2ga | fecB c2ec | A2f2 e2ce | fecA B2cd \
+|  e2A2 a2ga | fecB c2ae | fecB c2eA |1 B2A2A2 A2 :|2 B2A2A2 cd ||
+|: ecBA a2fe | f2e2 c2ec | ABcf e2cA | f2B2 B2AB \
+|  c2A2 a2ec | gfec B2AB | c2e2 aece |1 B2A2A2 cd :|2 B2A2A2 |]
+S:https://www.folktunefinder.com/tunes/17887
+S:http://trillian.mit.edu/~jc/music/abc/reel/PortAppinPier.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Grant/PortAppinPier.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PortAppinPier.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/PortAppinPier.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/PortAppinPier_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

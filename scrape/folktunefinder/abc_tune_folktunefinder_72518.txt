@@ -1,0 +1,26 @@
+X:61
+T: Der Wolf ( Der Abendgang )
+N: D0064
+O: Europa, Mitteleuropa, Lothringen, Woelflingen
+R: Ballade, Tod eines Geliebten
+M: 4/4
+L: 1/16
+K: G
+D4 | G6A2B4B2d2 | A6BAG4
+D4 | G6A2B4B2d2 | A12
+B2A2 | G6A2B4c2e2 | d6e2d4
+d3c | B4B4A4A2F2 | G12
+D4 | G6A2B4c2e2 | d6e2d4
+d3c | B4B4A4A2F2 | G12
+S:https://www.folktunefinder.com/tunes/72518
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, tod eines geliebten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

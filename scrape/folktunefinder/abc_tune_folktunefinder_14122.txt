@@ -1,0 +1,35 @@
+X:1
+T:Drunken Gauger
+Z:Erickson, Jeffrey <jeerickson:DAVIDSON.EDU> irtrad-l 2001-12-13
+M:6/8
+L:1/8
+R:Jig
+K:G
+D | GAB c2A | BAG AGE | GBd g2e | dBe dBG |
+c3 BdB | AGA BGE | DEG AGA | BGG G2
+D | GAB c2A | BAG AGE | GBd g2e | dBe dBG |
+c3 BdB | AGA BGE | DEG AGA | BGG G2 |]
+%
+D | GBd g2e | dBe dBG | Ace a2a | agb age |
+dBd g2e | dBe dBG | c3 B3 | AGA BGE |
+D/E/F/G/A/B/ c3 | BAG AGE | GBd g2e | dBe dBG |
+c3 BdB | AGA BGE | DEG AGA | BGG G2 |]
+D | GBd g2e | dBe dBG | Ace a2a | agb age |
+dBd g2e | dBe dBG | c3 BdB | AGA BGE |
+D/E/F/G/A/B/ c3 | BAG AGE | GBd g2e | dBe dBG |
+c3 BdB | AGA BGE | DEG AGA | BGG G2 |]
+S:https://www.folktunefinder.com/tunes/14122
+S:http://trillian.mit.edu/~jc/music/abc/jig/DrunkenGauger_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DrunkenGauger_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DrunkenGauger_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/DrunkenGauger_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/DrunkenGauger_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

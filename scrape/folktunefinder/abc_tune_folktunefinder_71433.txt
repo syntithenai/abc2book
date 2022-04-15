@@ -1,0 +1,26 @@
+X:404
+%%topmargin 3cm
+T:The Cameronian's Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F
+f | c>F F/F/F c<FA<F | c<F F/F/F c2 A<c | B>G G/G/G B<GA<G | B>G G/G/G c2 A :| G | Fffg fd{/d}cA | Fffg fd{/d}cA |
+Ggga gfed | {/a}gfga gfed | cffg fdcA | FAcf {/f}e2 cf | (e/f/g) df (e/f/g) de | faga fcd ||
+g | c<Fd<F c<FA<f | c<F F/F/F ~c2 A<c | _B<Gd<G B<GA<G | B<G G/G/G c2 A :| G | Ffef fcAF | Ffeg fcAF |
+Fg^fa gd_BG | Gg^fa gd_BG | Ffeg fcAF | FAcf {/f}e2 cf | (e/f/g) df (e/f/g) de | faga fcdf |]
+S:https://www.folktunefinder.com/tunes/71433
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Cameronians_Rant.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0404.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

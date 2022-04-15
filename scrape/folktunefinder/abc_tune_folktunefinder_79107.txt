@@ -1,0 +1,23 @@
+X:3
+T: EI WAS BIN ICH FUER A LUSTIGER BUB
+N: E1002
+O: Europa, Mitteleuropa, Deutschland, Hessen, Schwalmthal
+R: Tanz - Lied, Zaehl - Geschichte
+M: 6/8
+L: 1/16
+K: C
+ | C4C2G,2G,2G,G, | A,2A,2A,2G,4
+G,2 | A,2A,2A,2B,3B,B,2 | C4D2C4z2
+G,4G,2G,2G,2A,G, | G,4F,2F,4z2
+F,4F,2F,2F,2G,F, | F,4E,2E,4
+G,2 | G,2A,2B,2C4z2
+S:https://www.folktunefinder.com/tunes/79107
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, zaehl - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

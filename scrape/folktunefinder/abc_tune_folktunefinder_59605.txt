@@ -1,0 +1,28 @@
+X:718
+T:Vaqueirada (Arrg.)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+M:6/8
+L:1/8
+Q:3/8=80
+K:D
+|:"Bm"Bdd "D"dee| "D"f3/2e/2d- "D"dee| "D"f3/2e/2d- "D"dee|
+[1 "Bm"d3/2c/2B- "Bm"B3:|[2 "Bm"d3/2c/2B "Bm"dcB|
+|"D"A3- "D"A z2| "D"Add "A"efe| "Bm"d3/2c/2B "Bm"dcB|
+"D"A3- "D"A z2| "D"Add "A"efe| "Bm"d3/2c/2 B- "Bm"B3||
+S:https://www.folktunefinder.com/tunes/59605
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

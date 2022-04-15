@@ -1,0 +1,29 @@
+X: 1
+T: Glengarry
+C: Capt.S.Fraser of Knockie
+R: strathspey
+B: RSCDS 17-10(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: A \
+| "A"E<C C>B, A,>C E>C | E<C C>c "D"B>A F>A \
+| "A"E<C C>B, "F#m"A,>C E>C | "D"c>B A>F "A"E<C "E7"B, :|
+|| A \
+| "A"C>E A>E "D"F>E "A"A>E | "A"C>E A>E "D"F>E "E7"C>E \
+| "A"C>E A>E "D"F>E "A"A>E | "F#m"c>B A>F "A"E<C "E7"B,>E |
+| "A"C>E A>E "D"F>E "A"A>E | "A"C>E Ac e<c "E7"d>B \
+| "A"c<a e>c "E7"d>B "A"c>A | "E7"B>G "F#m"A>F "A"E>C "E7"B, |]
+S:https://www.folktunefinder.com/tunes/19369
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Glengarry.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Glengarry.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Glengarry.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:491
+T: In Hamburg steht ein sch\^ines Haus (5-87), S. 138
+N: P0761
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+R: Abschied, Krieg, Tod]
+M: 3/4
+L: 1/8
+K: D
+D2 | D4F2 | F4A2 | A4G2 | E4
+E2 | E2G2G2 | G4B2 | B4A2 | F4
+Ad | d4d2 | c4B2 | B2A4 | BA4
+A | A4B2 | B4A2 | A4G2 | G2F2
+S:https://www.folktunefinder.com/tunes/76471
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Abschied, krieg, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

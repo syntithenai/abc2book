@@ -1,0 +1,33 @@
+X:1
+T:My ideal
+M:4/4
+L:1/8
+C:Robin, Whiting & Chase
+Q:1/4=80
+%%staves (chords melody)
+K:Bb
+%%text (medium)
+%%vskip 20
+V:chords
+"Bb6"x4 "G7"x4 | "Cm7"x4 "(G7)"x4 | "Ab7"x4 "G7"x4 | "C7"x4 x4 |
+"F7"x4 "Cm7b5/Gb"x4 | "F7"x4 x2 "F#dim7"x2 | "Gm7"x4 "C7"x4 | "Dbm7"x2 "Gb7"x2 "Cm7"x2 "F7"x2 ||
+"Bb6"x4 "G7"x4 | "Cm7"x4 "(G7)"x4 | "Ab7"x4 "G7"x4 | "C7"x4 x4 |
+"Cm7"x2"-/Bb"x2 "Ab7"x2"-/Gb"x2 | "Bb/F"x2"Eb7"x2 "Bb/D"x2"-/G"x2 |\
+ "Gb7"x4 "F7"x4 | "Bb6"x4 "T.A."x4 |]
+V:melody clef=treble
+GFDB, A3G | FEFE-E3G, | EDED-D2G,2 |D8 |
+DCA,F, E3D | FDFD-D4 | B,CDF GG3 | _G_DEF-F4 ||
+GFDB, A3G | FEFE-E3G, | EDED-D2G,2 |D8 |
+DCB,G, F3E | DFAG FBB,G, | C4 D4 | B,8 |]
+S:https://www.folktunefinder.com/tunes/18875
+S:http://trillian.mit.edu/~jc/music/abc/song/My_ideal.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/my_ideal.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/My_ideal.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/my_ideal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

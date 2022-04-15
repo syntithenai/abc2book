@@ -1,0 +1,32 @@
+X:46
+T:Heiluizer
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+%%staffsep 35
+M:2/4
+L:1/8
+N:Voorspel AA BB C DD E FF GG / Voorspel AA C DD E FF GG / Voorspel A BBB Voorspel
+K:C
+P:Voorspel
+GG AB|cc Bc|d2 B2|c3 z|
+P:A
+GG AB|cc BA|GG FE|F/E/F D2|GG AB|cc Bc de/d/ cB |[1 c2 A2 :|[2 ( c2 c ) G ||
+P:B
+M:6/8
+|:c2c B2B|A2A G2G|AAA G2G|F2F EEF|G2G GFG |\
+A2A AGA|B2B A2B |[1 [M:2/4][L:1/8] cc c G :|[2 ( c2 c ) B/c/ ||
+P:C
+"_Vlugger"dcBA|GG zc|AA z d/c/|BABc|"_Rall."cc c G ||
+S:https://www.folktunefinder.com/tunes/75742
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

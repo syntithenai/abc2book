@@ -1,0 +1,28 @@
+X:1
+T:Lantern in the Ditch
+M:4/4
+L:1/8
+Q:180
+S:John Hartford's "The Fun of Open Discussion"
+Z:by Llarry Brandon
+K:D
+P:A
+DE |: F2 A2 A2 FE | F2 A2 FEDB, | A,B,DE D2 fe | dBAF D2 DE |
+| F2 A2 A2 FE | F2 A2 FEDB, | A,B,DE D2 fe |1 dBAF D2 DE :|2 dBAF D2 fg ||
+P: B
+|: a2 ab a2 fg | abaf efde | faab a2 ba | faec d2 fg |
+| a2 ab a2 fg | abaf efde | faab a2 ba |1 faec d2 fg :|2 faec d2 AB ||
+P: C
+|: defd e2 fe | dBAF EF D2 | Adfd efaf | gfec d2 AB | !
+| defd e2 fe | dBAF EF D2 | Adfd efaf |1 gfec d2 AB :|2  gfec d2 z2 |]
+S:https://www.folktunefinder.com/tunes/17538
+S:http://trillian.mit.edu/~jc/music/abc/reel/LanternInTheDitchR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

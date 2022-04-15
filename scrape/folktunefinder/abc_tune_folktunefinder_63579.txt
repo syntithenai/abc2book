@@ -1,0 +1,26 @@
+X:32
+T:Atholl Highlander's
+M:6/8
+L:1/8
+R:jig
+D:Highland Sun: Celtic Crossover
+K:A
+|:e3 ecA|ecA Bcd|e3 ecA|Bcd cBA|
+e3 ecA|ecA Bcd|~e3 fed|cdB A3:|
+|:Ace Ace|Adf Adf|Ace Ace|Bcd cBA|
+Ace Ace|Adf Adf|~e3 fed|cdB A3:|
+|:a2e edc|a2e edc|a2e edc|Bcd cBA|
+a2e a2e|~f3 e3|~e3 fed|cdB A3:|
+|:c2B cBc|d2c dcd|c2B cBc|B2A BAB|
+c2B cBc|d2c dcd|~e3 fed|cdB A3:|
+S:https://www.folktunefinder.com/tunes/63579
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

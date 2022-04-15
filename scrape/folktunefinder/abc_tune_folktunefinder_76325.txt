@@ -1,0 +1,28 @@
+X:345
+T: Et kent e Kniebchen (4-44), S. 60
+N: P0605
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Berufslied]
+M: 2/4
+L: 1/16
+K: F
+c2 | c2A2B2AG | A2B2c2
+d2 | c2A2B2AG | A2B2c2
+C2 | F2G2AGF2 | B2A2G2z2
+c4AFG2 | F2F2F2
+C2 | F2G2AGF2 | B2A2G2z2
+c4AFG2 | F4z2
+S:https://www.folktunefinder.com/tunes/76325
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Berufslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 7779
+T:Schottische (from The Neck-Breakers)
+R:Schottische
+O:Sweden
+M:4/4
+K:D
+D2 | \
+A2BA G2FE | D2FA fafd |\
+e2ge cABc |1 d2cB AGFE :|2 d2d2d2 :|
+|: c2 |\
+BGBd gdBG | AFAd fafd | \
+e2ge cABc |1 d2cB A2 :|2 d2d2d2 :|
+S:https://www.folktunefinder.com/tunes/34996
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

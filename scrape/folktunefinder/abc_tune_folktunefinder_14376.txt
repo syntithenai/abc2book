@@ -1,0 +1,23 @@
+X: 1
+T: the Irish Washerwoman
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: d/c/ \
+| "G"BGG DGG | BGB dcB | "Am"cAA EAA | cAc "D7"edc \
+| "G"BGG DGG | BGB dcB | "D7"cBc Adc | "G"BGG G2 :|
+|: g/a/ \
+| "G"bgg dgg | bgb bag | "Am"aff "D7"dff | afa agf \
+| "C"egg "G"dgg | "C"cgg "G"B3 | "Am"cBc "D7"Adc | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/14376
+S:http://trillian.mit.edu/~jc/music/abc/jig/IrishWasherwoman.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IrishWasherwoman.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

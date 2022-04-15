@@ -1,0 +1,40 @@
+X: 1
+T: Coro della notte
+T: (The Night Chorus)
+C: Pietro Alessandro Yon (1866 - 1943)
+S: Guido Gonzato <ggonza@tin.it> abcusers 2002-12-23
+M: 4/4
+L: 1/4
+Q: "Largo" 1/4 = 50
+%%staves [1 2 3 4]
+V: 1 clef=treble   name="Soprano"
+V: 2 clef=treble   name="Alto"
+V: 3 clef=treble-8 name="Tenor"
+V: 4 clef=bass     name="Bass"
+%%MIDI program 1 54
+%%MIDI program 2 54
+%%MIDI program 3 54
+%%MIDI program 4 54
+K: D
+%
+[V: 1] |: FF z/F/ G/F/|[M:3/4]EF2|AA A/A/|[M:2/4](c/B) _B/|
+[V: 2] |: DD z/D/ D/D/|[M:3/4]CD2|FF F/F/|[M:2/4]^E>E     |
+    w: Dor-mi, ch\'e su te ve-glia gi\'a tut-to il Pa-ra-
+[V: 3] |: AA z/A/ B/A/|[M:3/4]AA2|dd d/d/|[M:2/4](d c/)c/ |
+[V: 4] |: dd z/d/ d/d/|[M:3/4]Ad2|dd d/d/|[M:2/4]G>G      |
+%
+[V: 1] [M:3/4]AA2|[M:4/4]GG z/F/ G/A/ |[M:3/4]GFA |
+[V: 2] [M:3/4]FF2|[M:4/4]EE z/^D/ E/E/|[M:3/4]=DDA|
+S:https://www.folktunefinder.com/tunes/20363
+S:http://trillian.mit.edu/~jc/music/abc/xmas/CoroDellaNotte_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/xmas/CoroDellaNotte_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/CoroDellaNotte_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

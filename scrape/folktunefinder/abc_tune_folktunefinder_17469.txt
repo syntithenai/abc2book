@@ -1,0 +1,29 @@
+X: 1
+T: Jubilee Roundabout (first tune)
+C: Freda Burford, 1961
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin, p.9
+M: C|
+L: 1/8
+K: G
+Bc \
+| "G"d2B2 G2B2 | "G"d4 g4 | "G"d3B "C"cBAG | "A7"E4 "D7"D2EF \
+| "G"G2A2 B2d2 | "C"e2d2 "G"B2G2 | "C"E2G2 "D"FGAF | "G"G4 z2 :|
+|: d2 \
+| "G"gaba g2e2 | "G"d2e2 g2a2 | "Em"b3a g2e2 | "G"d2B2 "D"A2B2 \
+| "G"G3A B2d2 | "C"edcB "D"A2BA | "Em"G2E2 "C"G2A2 | "G"G4 z2 :|
+S:https://www.folktunefinder.com/tunes/17469
+S:http://trillian.mit.edu/~jc/music/abc/reel/JubileeRoundabout1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/JubileeRoundabout1_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

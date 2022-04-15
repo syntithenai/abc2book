@@ -1,0 +1,43 @@
+X:287
+T:Danza de La Madalena (CT 158)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Llanes.
+N:Se la llama Danza de la Madalena por ser en el da de esta festividad cuando preferentemente se ejecuta.
+N:Intervienen hombres y mujeres.
+N:Para cantarla se dividen los danzadores en dos coros, entonando uno de ellos dos versos -siempre aconsonantados y en medida octosilbica,- y contestando el otro con otros dos versos.
+N:Este tronco de rbol est desnudo de su corteza, y en la cima, conservada con ramaje, penden cintas o pauelos, envolviendo monedas, o un gallo: premio que garra aquel que consiga escalar el rbol, previamente embadurnado con una substancia grasa (V. CT 2)
+A:Asturies
+O:Llanes
+Z:Cancioneru de Torner 158
+M:6/8
+L:1/8
+Q:3/8=80
+K:Bb
+d|:d2c Bdc|(B2A) G3/2^F/2G|(B3/2c/2)B (c3/2d/2)c|
+[1 (d3/2B/2A) B2d:|[2 (d3/2B/2A) B2z||
+W:Mal moro, no me le robes
+W:este castillo de flores,
+W:para su dama plantado
+W:por galn enamorado.
+W:
+W:Tiene flores olorosas,
+W:cintas y frutas sabrosas
+W:cogidas en enramadas
+W:y para mi amor guardadas
+W:
+S:https://www.folktunefinder.com/tunes/59174
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

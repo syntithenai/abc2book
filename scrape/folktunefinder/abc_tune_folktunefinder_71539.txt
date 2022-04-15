@@ -1,0 +1,26 @@
+X:510
+%%topmargin 3cm
+T:Miss Forbes's Farewell to Banff
+C:Isaac Cooper
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:C
+L:1/8
+K:G
+"Slow." G>A | TB2 d2 (cB).A.G | TB2 d2 (ef)(ge) | d3 e (dA) | TB2 d2 (cB).A.G | TB2 d2 (ef)(ge) | d3 e (d<B).A.G | B2 G2 G2 :| d | g3 a (gf)(ed) | (ed)(ef) g3 b |
+d3 e (dA | TB2 d2 (cB).A.G | TB2 d2 (ef)(ge) | d3 e (d<e)(ga) | b2 g2 g3 |]
+S:https://www.folktunefinder.com/tunes/71539
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Forbess_Farewell_to_Banff.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0510.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

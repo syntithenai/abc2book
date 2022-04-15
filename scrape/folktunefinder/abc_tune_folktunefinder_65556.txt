@@ -1,0 +1,19 @@
+X:3
+T:Anderson's
+Z: id:dc-reel-3
+M:C
+L:1/8
+K:D Major
+B|ABdf efdB|AFF2 EDEF|ABdf efdf|afef d3:|!
+f|a2fa bafa|a2fd edBd|a2fa bafb|afef defg|!
+a2fa bafa|a2fd edBd|AFF2 ABdf|afef d3:|!
+S:https://www.folktunefinder.com/tunes/65556
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

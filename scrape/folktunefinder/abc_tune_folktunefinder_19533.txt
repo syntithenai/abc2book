@@ -1,0 +1,32 @@
+X: 1
+T: the Milton Strathspey
+C: James Stevenson (1996)
+R: strathspey
+B: The Tin Woodsman
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e2 \
+| "A"c<e  e>a "Bm"f<d B>d | "Cm"c<G G>E "D"F2 "E7"e>d \
+| "A"c<e  e>a  "D"f<d b>a | "E7"g>e d<e "A"c2     e2  |
+| "A"c<e  e>a "Bm"f<d B>d | "Cm"c<G G>E "D"F2 "E7"E>D \
+| "A"C>E A<c  "Bm"d>B F>A | "E7"(3GEe (3dcB "A"A2    ||
+A>G \
+| "D"F<A  A>F  "A"E2  C2  | "Bm"D>C  "E7"D>E "A"C2     A>G \
+| "D"F<A  A>F  "A"E2  A2  | "B7"B>A      B<c "E"e2     a>g |
+|"Fm"f<a  a>f "Cm"e2  c2  | "Bm"B>c      B>A "D"F2 "E7"E>D \
+| "A"C>E A<c  "Bm"d>B F>A | "E7"(3GEe (3dcB "A"A2 |]
+S:https://www.folktunefinder.com/tunes/19533
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MiltonStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MiltonStrathspey_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MiltonStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MiltonStrathspey_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

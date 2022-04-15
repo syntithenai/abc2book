@@ -1,0 +1,27 @@
+X:137
+T:Last Tango In Harris
+S:Niall Vallely - Beyond Words
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+R:jig
+K:Bmin
+B2A Bcd | c2A cde | d3 def | e2d efg |
+fdf ece | dBd cAc | Bdf fdf |1 edc B2A :|2 edc Bfe |:
+f2f fed | e2e edc | ded dcB | cde ede |
+faf fed | e2e edc | B2f fdf |1 edc Bfe :|2 edc B2A |:
+B2A- ABB | c2A Bcc | d2c def | efe edc |
+B2A- ABB | c2A Bcc | d2f fdf | edc B2A ::
+Bad aBa | cae aca | daf ada | ead aca |
+Bad aBa | cae aca | def fef | edc BBA :|
+S:https://www.folktunefinder.com/tunes/53794
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+S:http://music.gordfisch.net/tradmusic/pub/cache/Last_Tango_In_Harris_a564a1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

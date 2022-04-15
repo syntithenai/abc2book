@@ -1,0 +1,25 @@
+X: 2
+T: Fandango [D]
+T: 6 times
+O: 1774
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+B: Thompson, Twenty Four Country Dances, 1774
+B: Playford Ball
+B: Barnes 1986
+M: 6/8
+L: 1/8
+K: D
+|: "D"d2d dcd | "G"B2G "A7"FGA | "D"d2d "G"d2e | "A7"fda "D"f2A \
+|  "D"d2d dcd | "G"B2G "A7"FGA | "D"d2d "G"d2g | "A7"e2a "D"f2d :|
+|: "D"aba f2d | A2d A2d | aba f2d | "G"B2d B2d \
+|  "D"aba f2d | "G"B2G "D"F2A | "G"B2d "A7"e2c | "D"d3- dz2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/3748
+S:http://trillian.mit.edu/~jc/music/abc/England/Fandango.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

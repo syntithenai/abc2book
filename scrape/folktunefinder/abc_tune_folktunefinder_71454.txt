@@ -1,0 +1,25 @@
+X:425
+%%topmargin 3cm
+T:Athole House
+C:From the Inverness Collection by permission
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F
+f | c<F(A>F) cF (d/c/B/A/) | (cF)AF EG-Gf | cFAF cFfc | (d/c/B/A/) cC (DFF) :|
+f | ~f2 (a/g/f/e/) f>cAc | (Fc) (d/c/B/A/) (BG)G>A | f2 (a/g/f) cfAc | (d/e/f) (e/f/g) cf-fe |
+fdaf ecbg | afcf eg-(gb) | afcf dBGB | A<Fc>C (DFF) |]
+S:https://www.folktunefinder.com/tunes/71454
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Athole_House.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0425.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

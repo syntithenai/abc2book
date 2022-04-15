@@ -1,0 +1,22 @@
+X:1
+T:Ryan's Schottische
+T:Rustic Dance
+Z:"Ritter, Thomas J." 
+L:1/16
+M:12/16
+K:G
+B,C^C |: "G"D2B G2E "G"D2^C D2^D | "C"E2c A2c "C"E2E A_AG |
+"D"F2c E2c "D"D2D DEF |1 "G"GBA GFE "G"D2D B,C^C :|2 "G"G2z D2z "G"G3 ||
+d^cd |: "G"e2d B2G "G"D2G F2G | "C"A2G F2G "C"E2E A2G |
+"D"F2c E2c "D"D2D DEF |1 "G"GBA GFE "G"D2z d^cd :|2 "G"G2z D2z "G"G3 |]
+S:https://www.folktunefinder.com/tunes/2510
+S:http://trillian.mit.edu/~jc/music/abc/test/RyansSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/RyansSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/RyansSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/RyansSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/RyansSchottische.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/16
+% Has_accompaniment_chords Has chords

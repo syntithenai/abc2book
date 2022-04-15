@@ -1,0 +1,28 @@
+X:1998
+T:Boys of Kilsarne, The
+M:4/4
+L:1/8
+S:Ceol Rince na hEireann Vol.1
+R:Reel
+Z:Paul Kinder
+K:G
+D|G3 B A3 F|GBAG FD D2|DGGF GABc|d^cde fd=cA|!
+G3 B A3 F|GBAG FD D2|DGGF GABc|(3dcB (3cBA BGGA||!
+(3BcB GB DBGB|AGFG ABcA|(3BcB GB DBGB|cAFG AG G2|!
+(3BcB GB GBdB|AGFG ABcA|B3 c d^cde|fdcA BGBd||!
+g2 gf gdBd|cBAB cdef|g2 gf gdBd|cedc BGGd|!
+g2 gf gdBd|cBAB cdef|gb (3agf gedB|cedc BGAF||!
+% Output from ABC2Win  Version 2.1 f on 3/29/98
+S:https://www.folktunefinder.com/tunes/56937
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

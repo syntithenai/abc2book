@@ -1,0 +1,26 @@
+X:32
+T:Carolan's Concerto
+M:C
+L:1/8
+K:D
+(3ABc|\
+d2dd d2cB|ABGA F2A2|E2A2 D2A2|Bcde dcBA|
+d2a2 fgaf|efge fgaf|g2bg fdfa|gfed dcBA|\
+BdBd gdgd|AdAd f2fd|
+e2ed efed|cdBc A2AG|\
+FGAF EFGE|FGAF GABG|A2d2 fedc|d6::
+(3ABc|\
+d2b2 agfe|d2a2 c2a2|B2gB ABcd|ecBA d2df|\
+edcB ca a/a/a|Bg g/g/g Af f/f/f|
+edcB ca a/a/a|Bg g/g/g bgbg|\
+afaf edcB|cABG AFGE|DAFA DAFA|GEBE GEBE|\
+FAdc BAGF|GABc defg|A2d2 fedc|d6:|
+S:https://www.folktunefinder.com/tunes/52258
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

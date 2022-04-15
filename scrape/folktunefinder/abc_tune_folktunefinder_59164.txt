@@ -1,0 +1,35 @@
+X:277
+T:Danza (CT 495)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, dictada por Pilar Garca Martnez, de veintiocho aos, de Teberga.
+N:Intevienen solamente mujeres.
+A:Asturies
+O:Teberga
+Z:Cancioneru de Torner 495
+M:6/8
+L:1/8
+Q:3/8=96
+K:C
+GGA|: B3 G2 A|A A2-A3-|A z2 GGA|
+B2 G-GAA|A2 G A2 A|(G(3F/E/F/E) E3-|[1 E2 z GGA :|[2 E2 z||
+W:Si quieres que corra el agua,
+W:que corra el agua,
+W:quita el tapn a la presa;
+W:morenita, resalada,
+W:ai! morenita,
+W:olvidarte no me pesa.
+W:
+S:https://www.folktunefinder.com/tunes/59164
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:52
+T: ES RITT EIN RAEUBER WOHL UEBER DEN RHEIN
+N: E0041B
+O: Europa, Mitteleuropa, Deutschland, Limburg, Nauheim
+R: erzaehlendes Volks - Lied, Raeuber - Sage
+M: 6/8
+L: 1/16
+K: G
+d2 | c4B2A2A2e2 | d2d2c2B4
+d2 | c2c2B2A2A2e2 | d4c2B4
+G2 | G2G2G2G2A2G2 | c4e2g2f2
+e2 | d2g2B2d2d2AB | c4d2B4
+S:https://www.folktunefinder.com/tunes/78493
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, raeuber - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

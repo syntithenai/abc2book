@@ -1,0 +1,27 @@
+X:4710
+T:Polska (Dawn lt)
+A:Dalarna
+C:e. Pers Erik  Pers Hans
+M:3/4
+N:the turns should be mordants.
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a82.html
+%%ID:00000a82
+K:D
+A>c ~d>e f>a | (3:2:4a3/f/g2e2 f2 | (3:2:5d2cdcA B>G | G<B A4 | \
+A>c ~d>e f>a | (3:2:4a3/f/g2e2 f2 | a>a g/a/g/e/ f>d | e<c d4 ::
+A2 ~fd   A>G | (3:2:6G2Bc/B/AG (A2| (3:2A2)E2F2  G>A | !trill!BA/G/ A4| \
+A2 ~fd   A>G | (3:2:6G2Bc/B/AG (A2| A)>c d>e     f>d | e<c d4 :|
+S:https://www.folktunefinder.com/tunes/37021
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X: 1
+T: Tam Lin
+T: The Howling Wind
+T: The Glasgow Reel
+C: Davey Arthur
+R: strathspey
+N: Originally a reel
+S: Elke Baker's version
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+(G, \
+| "Dm"~A,2) D>A,   F>A, D>A, \
+| "Bb"~B,2  D>B,   F>B, D>B, \
+|  "C"~C2   E>C    G>C  E<G  \
+|1 "Dm"F>E  D>C "C"D>C  A,   \
+:|2 "C"F>E  D<C "Dm"D3 |]
+(^c \
+| "Dm"d)>c  A<G  F2  D>(^c \
+| "Dm"d)>c  A<G  F2  D>(=B \
+|  "C"~c2)  G>c  E<c G>=B  \
+|     ~c2   G>c  E<c G    |]
+^c \
+| "Dm"d>c   A<G  F2  D>^c \
+|     d>c   A<G  F2  D>C  \
+| "Bb"B,>A, B,>C D>C D>E  \
+|  "C"F>E   D<C "Dm"D3   |]
+S:https://www.folktunefinder.com/tunes/19681
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/TamLinStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/TamLinStr_Dm3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/TamLinStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/TamLinStr_Dm3.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

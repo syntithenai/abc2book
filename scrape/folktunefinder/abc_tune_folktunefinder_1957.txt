@@ -1,0 +1,28 @@
+X: 20
+T:Haughs of Cromsell,The. JMP.020
+T:Haughs of Cromdale,The,aka. JMP.020
+M:2/4
+L:1/8
+Q:300
+C:"21",Haughs of Cromdale,
+S:John Miller MS. Perth, 1799.(for the fife)
+R:reel
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+B | e>fed | eAAB | d>edB | GABd | e>fed | efge | dBgB | A2 A :|!
+|:g | edef | gage | d>edB | d>edB | edef |  gage | dBgB | A2 A :|]
+S:https://www.folktunefinder.com/tunes/1957
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

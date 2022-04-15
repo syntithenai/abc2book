@@ -1,0 +1,26 @@
+X: 1
+T: Lady Erskine's Reel
+C: D.McLaren
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+E | "Am"A2AB c2BA | "G"Bdgd BGGB | "Am"A2AB cdea | "Em"gegB "Am"A2-A :|
+e | "Am"abag ega2 | "G"gage deg2 | "Am"abag efge |  "G"dBgB "Am"A2-A ||
+e | "Am"abag ega2 | "G"gage deg2 | "Am"aabg afge |  "G"dBgB "Am"A2-A |]
+S:https://www.folktunefinder.com/tunes/17515
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyErskine_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyErskineR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyErskine_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadyErskine_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LadyErskine_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Money Musk
+O: Scotland
+R: reel
+N: Originally in strathspey time
+M: C|
+B: NEFR
+K: A
+   f | "A"eAcA eA"D"df | "A"eAcA "E7"Bcdf | "A"eAcA cdea | "D"fd"E7"Be "A"cAA :|
+|: e | "A"aefa eaca | ae"E"db "A"ca"E"Bg | "A"aefa eaca | "D"fd"E7"Be "A"cAA :|
+|: E | "A"ABcA "D"d2d2 | "A"ABcA "E7"B2cB | "A"ABcd ecea | "E7"gefg "A"a2AB |
+     | "A"cBcA "D"d2ed | "A"cBcA "E7"B2cB | "A"ABcd ecea | "E7"gefg "A"a3 :|
+S:https://www.folktunefinder.com/tunes/17694
+S:http://trillian.mit.edu/~jc/music/abc/reel/MoneyMuskR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MoneyMuskR_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

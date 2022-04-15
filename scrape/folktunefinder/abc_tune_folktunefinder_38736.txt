@@ -1,0 +1,19 @@
+X:17365
+T:The Wonder
+% slurs are very faint on this and the next few tunes
+M:2/4
+L:1/16
+K:G
+G2G2 G2(GA)| B2B2   B2(Bc)| d2(Bd)   c2(Ac) | B2(GB) AFD2 |\
+G2G2 G2(GA)| B2B2   B2(Bc)|(dgfe)   (dcBA)  | G2G2   G4  ::
+d3e  dBG2  |(AGAB) (AFD2) | d3e     (dB)G2  |(D2AB) (cBAB)|\
+G2G2 G2(GA)| B2B2   B2(Bc)|(dB)(dB) (ec)ec  |(dcBA)  G4  :|
+S:https://www.folktunefinder.com/tunes/38736
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

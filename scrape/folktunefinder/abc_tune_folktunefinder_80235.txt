@@ -1,0 +1,28 @@
+X:176
+T: Fastengesang
+N: A0539B
+O: Europa, Mitteleuropa, Deutschland
+N: Leisentrits Gsgb. 1567.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: C
+G | GGGG | A2G
+G | FEFD | C2z2
+GGGG | A2F
+F | AA_BA | G2z
+G | GGGG | c2G
+G | AAGG | F2z
+G | GGGA | G2E
+E | FED2 | C2z2
+FGA2 | _B2G2 | ^F2G
+S:https://www.folktunefinder.com/tunes/80235
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

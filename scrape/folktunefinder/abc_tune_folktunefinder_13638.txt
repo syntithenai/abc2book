@@ -1,0 +1,38 @@
+X: 1
+T: Mountain Ranger Hornpipe
+R: hornpipe
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|:d>c \
+| "G"B>d g>a b>d g>b | "C"c'>b a>g e2 "(D7)"d>c \
+| "G"B>d g>a b>g f>g | "C"e'>d' b>g "D7"a2 d>c |
+y8\
+| "G"B>d g>a b>d g>b | "C"c'>b a>g e2 "I"[|] "(D)"d>c \
+| "G"B>d g>b "D7"a>d f>a | "G"g2 "D7"d2 "G"g2 :|
+"B"|: d2 \
+| "G"(3bag f>g "C"e>g "D"d>c | "G"B>d g>a b>g f>g \
+| "C"e'>g d'>g c'>b a>g | "A(m)"e>a a>g "D7"f>g a>c' |
+y4\
+| "G"(3bag f>g "C"e>g "D"d>c | "G"B>d g>a b>g f>g \
+| "C"e'>g d'>g "Am"c'>b a>g | "D7"f>d e>f "G"g2 :|
+"C"|: (3Bc^c \
+| "G"d>G B>d "C"e>G c>e | "G"d>B d>g b>g f>g \
+| "D"a>d b>d c'>d b>d | "A7"a>g f>e "D7"d2 (3Bc^c |
+y8\
+| "G"d>G B>d "C"e>G c>e | "G"d>B d>g b>g f>g \
+| "Am"a>c' a>g "D7"f>d e>f | "G"g2 "D7"b2 "G"g2 :|
+S:https://www.folktunefinder.com/tunes/13638
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MountainRangerHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/MountainRangerHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe/MountainRangerHp_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

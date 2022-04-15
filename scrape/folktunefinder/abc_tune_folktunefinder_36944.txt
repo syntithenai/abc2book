@@ -1,0 +1,26 @@
+X:4325
+T:Polka
+M:2/4
+N:Bob Cann's Grandfather's polka 
+O:England
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c8e.html
+%%ID:00000c8e
+K:D
+F2A2 B2c2 | dcde f2a2 | g2f2 e2d2 | cdcB A2G2 | \
+F2A2 B2c2 | dcde f2a2 | g2f2 eABc | d2f2 d4 ::
+e2AA e2AA | g2f2 e4   | g2f2 e2d2 | cdcB A2G2 | \
+F2A2 B2c2 | dcde f2a2 | g2f2 eABc | d2f2 d4 :|
+S:https://www.folktunefinder.com/tunes/36944
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

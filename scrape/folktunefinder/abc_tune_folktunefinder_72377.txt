@@ -1,0 +1,30 @@
+X: 128
+T:Purcell's Trumpet Voluntary,aka. HA.127
+T:Temple,The,aka. HA.127
+M:C
+L:1/8
+Q:180
+C:..or J.Clarke's! Untitled in MS
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+N:I've removed two redundant barlines. cf "The Temple" in Walsh CD 2,
+N:1731..CGP.
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:C
+c4d4|e3f e2d2|c2d2e2dc|d2G2G2G2|!
+c4d4|e3fe2d2|cdcd d3c|c4||!
+e4 (f3e/f/)|g3a g2f2|e2c2c2G2|c2G2E2C2|!
+e4 (f3e/f/)|g3a g2f2|e2c2 cdec|d4|]
+S:https://www.folktunefinder.com/tunes/72377
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

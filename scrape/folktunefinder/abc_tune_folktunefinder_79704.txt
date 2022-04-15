@@ -1,0 +1,29 @@
+X:600
+T: ES FLOG EIN TAEUBLEIN WEISSE
+N: E1924
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Fest - Lied, Weihnachten, Advent
+M: 4/4
+L: 1/16
+K: C
+C4 | C4D4C4B,4 | A,8G,4
+G,4 | C8D4F4 | E8z4
+C4 | E4E4F4F4 | G8E4
+G4 | F4E4D4D4 | C8z4
+E4 | G8E8 | D8C8
+A,4C4A,4G,4 | F,8z4
+F,4 | C4F4E4G4 | F8E4
+D4 | C4A,4B,4C4 | D3EF4E4
+D4 | C4A,4B,4C4 | C8z4
+S:https://www.folktunefinder.com/tunes/79704
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, fest - lied, weihnachten, advent
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

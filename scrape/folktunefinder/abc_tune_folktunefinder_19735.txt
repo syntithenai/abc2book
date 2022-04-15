@@ -1,0 +1,20 @@
+X: 1
+T: Tango Poquito (in G)
+R: tango
+M: None
+L: 1/8
+K: G
+"D7"D2 \
+|: "G"B,2DG BG zD | "D7"C2DF AF zD | C2DF AF zD |1 "G"B,2DG BG zD :|2 "G"B,2DG AG "G7"zG ||
+|: "C"E2Gc ee zE | "G"D2GB dd zD | "D7"C2DF AA zF |1 "G"AG zD GFED :|2 "G"AG z"D7"D "G"Gz |]
+S:https://www.folktunefinder.com/tunes/19735
+S:http://trillian.mit.edu/~jc/music/abc/tango/TangoPoquito_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Argentina/tango/TangoPoquito_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tango/TangoPoquito_G.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

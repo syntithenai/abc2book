@@ -1,0 +1,25 @@
+X:393
+%%topmargin 3cm
+T:Clydesdale Lasses
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+c S|: (AF)cF dFcF | (AF)cF ABcB | (AF)cF dFcA | (BA){/^F}GA xxx"2nd"e & xxxx BcdB :| T(fg)ag Tf2 (cf) | {/a}gfga baga |
+T(fg)ag TfcAc | T(BA){/^F}GA Bcde | T(fg)ag Tf2 (cf) | Tgfga baga | fgag gefc | T(BA){/^F}GA BcdB S|]
+W:
+W:This tune can be played as a Reel or Strathspey.
+S:https://www.folktunefinder.com/tunes/71422
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

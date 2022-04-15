@@ -1,0 +1,26 @@
+X:104
+T: GROSSE THATEN EDLER SEELEN
+N: B0133
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 2/4
+L: 1/16
+K: C
+G,3G, | C2C2G,2G,2 | E,2C,2z2
+B,C | D2E2D2E2 | D3ED2
+CC | B,3CD2^F,2 | G,4z2
+G,G, | F3DE3C | DB,G,2z2
+G,G, | F3DE3C | DB,G,2z2
+G,F, | E,2G,2C2E2 | G3EC2
+CC | D2FEC2B,2 | C4
+S:https://www.folktunefinder.com/tunes/78125
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

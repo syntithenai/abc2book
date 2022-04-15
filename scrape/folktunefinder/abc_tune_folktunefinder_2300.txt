@@ -1,0 +1,29 @@
+X: 2
+T: Bo' Dodi
+O: Israel
+R:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+P:
+K: Am
+|: "Am"A2AG A2AG | A2B2 c2"G7"d2 |  "C"e2ed "Am"e2ed | "Dm"f2fe "G7"d4 |
+| "C"efed "Am"e2cd | "Dm"efd2 "E7"d2e2 | "Am"A2AG A2AG | "E7"c2cB "Am"A4 :|
+%%sep 5 5 200
+P:
+K: Dm
+|: "Dm"d2dc d2dc | d2e2 f2"C7"g2 |  "F"a2ag "Dm"a2ag | "Gm"b2ba "C7"g4 |
+| "F"abag "Dm"a2fg | "Gm"abg2 "A7"g2a2 | "Dm"d2dc d2dc | "A7"f2fe "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/2300
+S:http://trillian.mit.edu/~jc/music/abc/test/2tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/2tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/2tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/2tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

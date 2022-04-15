@@ -1,0 +1,32 @@
+X: 294
+T: Nancy My Pride
+B: O'Neill's 294
+N: "Slow"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: This tune has 3-bar phrases.
+M: 3/4
+L: 1/8
+K: G
+d>c \
+| B2 (AG) (ED) | c2 (cd) e2 | d3 z(BA) \
+| G2 A2 GE | D>E G2 B2 | A3 zdc |
+| B2 (AG) (ED) | (cB) (cd) e2 | d3 zBA \
+| G2 A2 (GE) | (D>E) (.G2 .G2) | G3 z ||
+|| (Bc) \
+| d2 (cB) (AG) | e2 ef ge | d3 zgf \
+| e2 (dB) (AB) | G2 G2 (cB) | A3 z(DE) |
+| G2 (AG) (ED) | c2 (cd) e2 | d3 z(BA) \
+| G2 A2 (GE) | (D>E) (.G2 .G2) | G3 z ||
+S:https://www.folktunefinder.com/tunes/20109
+S:http://trillian.mit.edu/~jc/music/abc/waltz/NancyMyPride.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/NancyMyPride.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

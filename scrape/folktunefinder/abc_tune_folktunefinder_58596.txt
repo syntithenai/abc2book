@@ -1,0 +1,25 @@
+X:2
+T:9v. Sicut rosa
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:G mixolydian bass
+T:Bassus
+%%MIDI transpose -24
+%1
+z2 g4 g2 c d e f g3 f e4 c4 G3 A B c d B e4 d2 B4 e3 d c2 B2 G3 A B2
+S:https://www.folktunefinder.com/tunes/58596
+S:http://www.laymusic.org/music/bicinia/sicutrosa/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 4
+T:Ap Shenkin
+% Nottingham Music Database
+P:AABABA
+S:FTB 1 p 46, via EF
+M:4/4
+K:G
+M:6/8
+|d/2c/2\
+P:A
+!segno! "G"B2B Bgf|"C"e2e efg|"G"ded "Em"dcB|"Am"cAA "D7"Adc|
+"G"BcB Bgf|"C"efe efg|"G"ded "D7"cBA|"G"G2B G3|
+P:B
+|g/2a/2|"G"b2g "D"a2f|"G"gfg "G"dcB|"C"cde "G"dgB|"Am"BAA "D7"A2g/2a/2|
+"G"b2g "D"a2f|"Em"gfe "D7"agf|"G"bag "A7"fge|"D7"dgf ed\
+P:D.S.
+c|
+S:https://www.folktunefinder.com/tunes/65437
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

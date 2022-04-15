@@ -1,0 +1,25 @@
+X: 268
+T:Sailor's Wife
+% Nottingham Music Database
+S:EF
+M:6/8
+K:Dm
+P:A
+F/2E/2|"Dm"DEF E2D|"Dm"d2e f2g|"F"agf "C/e"edc|"F"AcA "C/e"GEC|
+"Dm"DEF "A7"E2D|"Dm"d2e "Dm/f"f2g|"Gm"agf "A7"ed^c|"Dm"d3 d2:|
+P:B
+d/2e/2|"F"fga fga|"F"fga agf|"C"ecg ecg|"C"ecg gfe|
+"Dm"fga agf|"C"efg gfe|"Dm"def "A7"ed^c|"Dm"d3 d2:|
+S:https://www.folktunefinder.com/tunes/65356
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

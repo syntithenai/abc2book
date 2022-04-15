@@ -1,0 +1,23 @@
+X: 1
+T: The Duke of Gordon
+R: march, air
+M: 2/4
+L: 1/8
+F: http://sniff.numachi.com/~rickheit/dtrad/abc/DUKEGORD.abc 2008-05-06 22:37:13 UT
+K: G
+D | G2 GA | G2 DD | G2 GA | G2 G2 | A2 BA | d2 cB | AG D2 | D3 |]
+d | BA Bc | d2 DD | DD EF | G2 DD | G2 GG | AG FE | D2 G2 | G3 |]
+S:https://www.folktunefinder.com/tunes/13172
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DUKEGORD.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/DukeOfGordon1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/DukeOfGordon1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/DukeOfGordon1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DukeOfGordon1_G.abc
+% Rhythm March, air
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

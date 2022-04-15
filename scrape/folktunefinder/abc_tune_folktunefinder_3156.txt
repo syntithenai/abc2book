@@ -1,0 +1,27 @@
+X: 1
+T: Earth Returns to Spring
+O: Chinese
+M: 4/4
+L: 1/8
+Q: 1/2=88
+K: C
+|: "C"C3 D E2 G2 | "C"AG- G3 cBc | "C"d2 c2 B2 c2 | "F"A4 z ABc | "F"d2 c2 B2 c2 |
+| "C"G2 G3 GFG | "C"A2 G2 E2 G2 | "G7"D4 zDEF \
+|1 "G7"A2 G2 B,2 D2 | "C"C4 z4 \
+:|2 "G7"A2 G2 B2 d2 | "C"c4 "fine"z4 ||
+|: "C"ce dc- c4 | "Am"Ac BA- A4 | "C"EF G>E "F"FG A2 |1 "G7"Bc AG- G4 :|2 "G7"GA Bc d2 "d.C."G2 |]
+S:https://www.folktunefinder.com/tunes/3156
+S:http://trillian.mit.edu/~jc/music/abc/China/EarthReturnsToSpring_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/China/EarthReturnsToSpring_C.txt
+S:http://trillian.mit.edu/~jc/music/abc/China/EarthReturnsToSpring_C.utf8.txt
+S:http://trillian.mit.edu/~jc/music/abc/i18n/EarthReturnsToSpring_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/i18n/EarthReturnsToSpring_C.txt
+S:http://trillian.mit.edu/~jc/music/abc/i18n/EarthReturnsToSpring_C.utf8.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

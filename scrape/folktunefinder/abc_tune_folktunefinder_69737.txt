@@ -1,0 +1,26 @@
+X:177
+T: IN DEM WALD STEHT EIN HAUS
+N: F0312
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Kinder -, Scherz -, Tanz - Lied
+M: 3/8
+L: 1/16
+K: G
+dd | d2BABc | d4
+ed | cBAGFd | B4
+BB | A2FAde | f2d2
+AB | A2FAde | f2d2
+D2 | d4D2 | d4
+Ad | f4d2 | d4
+d2 | gdB2Ad | G4
+S:https://www.folktunefinder.com/tunes/69737
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, kinder -, scherz -, tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 24
+T:Louisiana Saturday Night
+O:U.S.A
+M:4/4
+L:1/4
+Q: 1/4=300
+K:Bb
+%%MIDI drum dzdz 35 35 90 50 
+%%MIDI drumon
+%%MIDI program 24
+z6ce\
+|e e2 d|e2 G2|B B2 A|B3 E|\
+c c2 B|c2 G2|B2 B2|E4|
+G B2 B|B2 G2|c2 c2|B4|\
+cccc|BBBB|BE3-|E2z2|
+GBBG|B2 B2|BBBB|BB3|\
+c2c2|c2BG|B2B2|BE3|
+G B2 B|B2 B2|B2 B2|B4|\
+cccc|BBBB|BE3-|E2z2|
+S:https://www.folktunefinder.com/tunes/81295
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

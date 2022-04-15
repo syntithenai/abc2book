@@ -1,0 +1,22 @@
+X:3210
+T:Lord MacDonald's
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000861.html
+%%ID:00000861
+K:D
+A3B AFdF | AFdF eEEG | A^GAB AFdF | \
+E/F/GFE FDDF :: Adfd edfd | Adfd edBd | \
+Adfd edfd | ABAG FDDF | Adfd edfd | \
+Adfd edBd | fedc dcBA | B/c/dce fdd2 :|
+S:https://www.folktunefinder.com/tunes/36721
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:4004
+T:Marina,La. CJF.061
+T:La Marina. CJF.061
+O:england
+M:6/8
+L:1/8
+Q:120
+C:C Nicholson
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:G
+d|(d>^c).d(e2f)|(g2ab3)|(ba).^g .a(ea)|(g3f2)e|\
+{e}(d>^cd)(e2f)|g2ab3|1(ba).f (ag).^c|e3d2:|2(df).e
+(de).f|a3g2||d|f2ga2d|c'2ba2d|f2g eba|(g3f2)e|\
+{e}d^cde2f|g2ab3|.c'(ea) (ga).f|a3g2d|
+b3f3-|fgag3|^d3(e^f).g|(d^c=c)B3|e3^g3|\
+a2bc'3|"~"(d^cd) "~"f3|g3-g2h||
+S:https://www.folktunefinder.com/tunes/24456
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

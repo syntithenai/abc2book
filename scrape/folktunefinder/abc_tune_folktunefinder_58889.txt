@@ -1,0 +1,50 @@
+X:2
+T:A coyer el trbole (CT 385)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Esta xiraldilla es, ya de antiguo, mui corriente en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 385
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+B|: dd dd|d d2 d|e2 fe|d3 B|d2 ed|c3 A|d2 dc|[1 B2 zB :|[2 B2 z2|
+|: B>c de|e>d Bd|d>c Ac|ee d2|B>c de|e>d Bd|d>c Ac|[1 B4 :|[2 B2 z2|
+|: e2 ee|d3 d|cc cc|[1 B4 :|[2 B2 z2||
+W:Si quieres que te quiera,
+W:dame chochinos, (Tres)
+W:de la confitera
+W:coloradinos. (Tres)
+W:
+W:A coger el trbole
+W:y el trbole y el trbole,
+W:a coger el trbole
+W:los mis amores van;
+W:
+W:A coger el trbole
+W:y el trbole y el trbole,
+W:A coger el trbole
+W:la noche de San Juan.
+W:
+W:Ai! morena,
+W:los mis amores van,
+W:ai! salada,
+W:la noche de San Juan.
+W:
+S:https://www.folktunefinder.com/tunes/58889
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

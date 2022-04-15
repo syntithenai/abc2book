@@ -1,0 +1,19 @@
+X:78
+T:One hundred Pipers
+T:Ringelrei
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=120
+K:C
+c/d/|"C"e2e ede|"F"f2f f2a|"G"g2e dcd|"C"c3-c2||
+!segno!c/d/|"C"e2G GEG|"F"A2c c2a|"C"g2e edc|"G7"e2d d2c/d/|"C"e2G GEG|"F"A2c c2a|"G"g2e "G7"dcd|"C"c3-c2||
+e/f/|"C"g2g geg|"F"a2c' c'2a|"C"g2e edc|"G7"e2d def|"C"g2g geg|"F"a2c' c'2a|"G"g2e "G7"dcd|"C"c3-c2 !D.S.!|| 
+%%scale .7
+S:https://www.folktunefinder.com/tunes/75774
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

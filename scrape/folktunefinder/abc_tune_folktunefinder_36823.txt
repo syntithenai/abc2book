@@ -1,0 +1,25 @@
+X:3720
+T:Mr. John Stewart's Reel - of Bombay
+C:William Marshall
+M:C|
+O:Scotland
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d7e.html
+%%ID:00000d7e
+K:D
+[V:1] (DFA).d fedc | dABd (GF)(ED) | (EGB).e ^gebe | ^geBe (dc)(Bd) |
+[V:1] (DFA).d fedc | dABd (GF)(ED) | GBEG     FADF | Eege (dc)(Bd) ||
+[V:1] AFDF d(FD).F | AFDF A3d | B^GEG eGEG | B^GEG B3d |
+[V:1] AFDF d(FD).F | AFDF A3^g| afge f^de2 | (^GE)EG B2(Bd) |]
+[V:2] d2 d2 d2 d2 | d2 g2 d2 f2 | e2 e2 e2 e2 | e2 e2 a2 =g2 |\
+[V:2] d2 d2 d2 d2 | d2 g2 d2 f2 | e2 c2 d2 f2 | g2 e2 a2 g2 ||\
+[V:2] d2 d2 d2 d2 |/| e2 e2 e2 e2  |/| \
+[V:2] d2 d2 d2 d2 |/| d2 e2 f2 =g2 | e2 e2 e2 e2 |]
+S:https://www.folktunefinder.com/tunes/36823
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

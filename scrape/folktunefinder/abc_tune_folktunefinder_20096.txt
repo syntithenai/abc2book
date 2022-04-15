@@ -1,0 +1,28 @@
+X: 1
+T: Moreton Bay
+F: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2000.pdf
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: D
+D \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF D2 EF | "G"ED B,2 zB,/C/ \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF F>E "A"DE | "D"DD D2 zA |
+| "D"AF  A2 Bc | "Bm"dc B2 dB | "D"AF D2 EF | "G"ED B,2 zD \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF F>E "A"DE | "D"DD D3 |]
+S:https://www.folktunefinder.com/tunes/20096
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MoretonBay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Australia/waltz/MoretonBay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MoretonBay_D.abc
+% Rhythm Waltz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

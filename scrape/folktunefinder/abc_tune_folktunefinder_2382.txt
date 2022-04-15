@@ -1,0 +1,21 @@
+X: 1
+T: Cliffs of Moher
+M: 6/8
+L: 1/8
+R: Jig
+K: ADor
+d | eaa bag | eaf ged | c2A BAG | EFG ABd | eaa bag | eaf ged | c2A BAG | EFG A2 :|
+d | e2e dBA | e2e dBA | GAB dBA | GAB dBd | e2e dBA | e2e dBA | GAB dBG | EFG A2 ||
+d | e2e dBA | e2e dBA | GAB dBA | GAB dBd | e2e dee | cee Bee | EFG BAG | edB A2 |]
+S:https://www.folktunefinder.com/tunes/2382
+S:http://trillian.mit.edu/~jc/music/abc/test/CliffsOfMoher.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/CliffsOfMoher.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

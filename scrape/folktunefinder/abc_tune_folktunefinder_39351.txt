@@ -1,0 +1,23 @@
+X: 25
+T: Goose and the Gridiron
+M:6/8
+Q:3/8=104
+R:jig
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:A
+%%text 3 times
+"A"A3 "E"e3| "A"cea ecA|"D"fed "A"cBA|"E"GBA GFE|
+"A"A2a A2a|A2a agf|"E"gfe "B"Bc^d|"E"e3 E3:|
+|:"E"E2e e^de|"D"E2d dcd|"A"ced cBA|"E"GBA GFE|
+"A"A2a A2a|A2a agf|"D"edc "E"BAG|"A"A3 A3:|
+S:https://www.folktunefinder.com/tunes/39351
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

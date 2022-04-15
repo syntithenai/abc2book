@@ -1,0 +1,28 @@
+X:436
+T:Three Piece Suite
+M:3/4
+L:1/8
+Q:1/8=150
+K:G
+ba gf | g2 Bc dB | G2 ba gf | e2 cd cB | A2 c'b ag |
+fd da ag | fd da ag | fd fg af | bd' ba gf | g2 Bc dB |
+G2 ba gf | e2 cd cB | A2 c'b ag | fd da ag | fd da ag | fd' d'c' ef | g2
+ ||
+K:C
+GA BG | c2 cG dG | e2 eG eG | f2 fg fe | d4 dc |
+Bg fg fg | dg Bg Gg | cG ed cA | G2 GA BG | c2 cG dG|
+e2 eG eG | f2 fg fe | d2 de dc | Bg fg fg | dg Bg Gg | cG ec ge | c'2 ed
+ cB ||
+K:D
+A2 B2 c2 | d2 e2 f2 | g2 gf eg | f2 fe dB | Aa ge Bc | dA fA aA |
+ag fg Bc |[1 d2 fe dB |[2 d2 ||
+S:https://www.folktunefinder.com/tunes/52567
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

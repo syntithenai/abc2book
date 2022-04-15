@@ -1,0 +1,28 @@
+X: 2
+T: Hora Nirkoda
+O: Israel
+N: From handwritten MS (Barry Shapiro)
+M: C
+L: 1/8
+K: Ephr
+%%indent 400
+| "D"[d4A4^F4] [d4A4F4] | [d2A2^F2] [d2A2F2] [d2A2F2] [d2A2F2] ||
+"B"
+|:"D"Ad Ad- dd "Am"c/B/A | "D"Ad Ad- dd "Am"c2 \
+| "D"Ad Ad- dd "Am"c/B/A |1 AB cd "G"BA B/A/G :|2  "D"AG "G"cB "Am"A2 A2 ||
+"C"
+||"G"[B2G2D2] z[BGD] z[BGD] "F"[A2F2C2] \
+| "G"[B2G2D2] z[BGD] z[BGD] "F"[c2A2F2] \
+| "G"[B2G2D2] z[BGD] z[BGD] "F"[A2F2C2] \
+|1"G"[B2E2] "F"[c2F2] "G"[d2G2] "Am"[e2A2] \
+:|2"Em"FE "Dm"GF "Em"E2 E2 |]
+S:https://www.folktunefinder.com/tunes/5686
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraNirkoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/HoraNirkoda.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:406
+T: ELBERFELD DU SCHOENES STAEDTCHEN
+N: E1600A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Camberg, Dombach
+R: Staende -, Handwerker -, Gesellen - Lied; Abschied, Wanderschaft
+M: 3/4
+L: 1/8
+K: F
+FA | c3dcB | BAA2
+GA | B3dcB | A4
+GA | B2G2AB | cff2
+ed | c2dcBc | A4
+GA | B2G2AB | cff2
+ed | c2dcBc | A4
+S:https://www.folktunefinder.com/tunes/79510
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, handwerker -, gesellen - lied; abschied, wanderschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

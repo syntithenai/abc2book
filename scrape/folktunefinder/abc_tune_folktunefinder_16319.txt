@@ -1,0 +1,41 @@
+X: 1
+T: Fllingers sista komposition
+R: tabaks-polska
+C: Gran Olsson-Fllinger
+C: Arr Mats Andersson
+Z: John Chambers <jc@trillian.mit.edu>
+N: Original in 3/4; converted to 12/16 by John Chambers
+M: 9/16
+L: 1/16
+K: G
+V: 1 stv=2
+|: G,2(B, D2)(G B2)d | c(Ac) B(AG) A(GF) \
+|  G2(B d2)(f g2)b | a(fa) g(fe) f(ed-) |
+|  d2(F G2)(A B2)(d | c)(Ac) B(AG) A(GF) \
+| F2(G B2)(d g2)b | a(fa) g6 "fine"[|]:|
+|: {G,DB}g2f g2a b2g | {fg}f(ef) g(fe) d3- \
+| d2(B c2)(d e2)c | {Bc}B(AB) c(BA) G3- |
+| G,2(f g2)(a b2)g | {fg}f(ef) g(fe) d3- \
+| d2(^c d2)(e f2)a | {ga}g(e^c) d6 :|
+V: 2
+|: "G"B,2(G, B,2)(D G2)B | "D"A(FA) "G"G(FE) "D"D2C \
+|  "G"B,3 D2(G B2)d | "D"c(Ac) "G"B(AG) "D"F2D |
+|  "G"B,2(G, B,2)(D G2)B | "D"A(FA) "G"G(FE) "D"D2C \
+|  "G"B,3 D2(G B2)d | "D"c(Ac) "G"B6 "fine"[|]:|
+|: "G"B3 (B2d) g2d | "C"c2c e(dc) "G"B3 \
+| "C"E3 G2c e2c | "G"B2G "D"F(DC) "G"B,3 |
+| "G"B3 (B2d) g2d | "C"c2c e(dc) "G"B3 \
+| "D"F3 A3 (d2f) | "A7"c(AG) "D"F6 :|
+S:https://www.folktunefinder.com/tunes/16319
+S:http://trillian.mit.edu/~jc/music/abc/pols/FollingersSistaKomposition_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/FollingersSistaKomposition_2V.abc
+% Rhythm Tabaks-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

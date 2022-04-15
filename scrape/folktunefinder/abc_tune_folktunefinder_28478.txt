@@ -1,0 +1,25 @@
+X:8026
+T:Westmoreland
+O:england
+M:6/8
+A:North-West
+R:Slow air
+K:G
+d/c/|\
+B>AG F>ED| E>FG F2G| A>Bc B>cd| e>fg f>ef|\
+g2g gdB| c2B A>Bc/d/| BGB AFD| G3 G2||\
+g/a/|\
+b>ag a>gf| g>fe d>ef| g>fe deB| A3 d3|\
+B>AB GgB| c2B A>Bc/d/| BGB AFD| G3 G2|]
+S:https://www.folktunefinder.com/tunes/28478
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

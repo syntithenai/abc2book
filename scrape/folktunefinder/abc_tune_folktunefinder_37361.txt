@@ -1,0 +1,23 @@
+X:6410
+T:Tripping Upstairs
+T:Sackows
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000096b.html
+%%ID:0000096b
+K:D
+FAA GBB|Add fed|cBc ABc|dfe dBA|\
+FAA GBB|Add fed|cdc ABc|dfe d2::
+c|\
+dBB fBB|fgf fed|cAA eAA|efe edc|\
+dBB fBB|fgf fed|cdc ABc|dfe d2:|
+S:https://www.folktunefinder.com/tunes/37361
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:160
+T:Shutters Hornpipe
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000614.html
+%%ID:00000614
+K:A
+(A2A2) ABcd | edcB AcBA | B2B>B B2(fe) |dcBA GBGE |
+(A2A2) ABcd | edcB A2a2 | gbge fafd | e2e>e e4::
+B2B>B B2(cd) | ecBA GBGE | e2e>e e2(fg) |agfe dfdB|
+f2d2 fgaf | e2c2 defd | cBcd edcB | A2A>A A4:|
+S:https://www.folktunefinder.com/tunes/43595
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

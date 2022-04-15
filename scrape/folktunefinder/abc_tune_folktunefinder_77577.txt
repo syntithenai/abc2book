@@ -1,0 +1,30 @@
+X:39
+T:Oedypus Sphynge superata et trucidato Lajo patre matrem ducit in uxorem
+T:Oedipus, having overcome the Sphynx and murdered his father Laius, takes his mother to wife
+T:Fuga XXXIX
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 75               % Hippomenes
+V:2 program 1 74               % Golden Apple
+V:3 program 1 75 transpose -12 % Atalanta
+M:none
+L:1/4
+Q:1/2=120
+K:C mixolydian
+[V:1] z4    z2 B2 A2 F2 A2 AA F4 z4    f6       e2 d6       cB A2|
+[V:2] d4    d2 d2 c4    d4    c4 B2 B2 c4    d4    B4    c2 c2 d2|
+[V:3] z2 G2 F2 D2 F2 FF D4    z4 d6       c2 B6       AG F2 G2 F2|
+%
+[V:1] B2 A2 z2 z2 cd e3 d c4    z2 ag fe f2 f2 f2 zd>cd c4    c8|]
+[V:2] d2 A4    G2 G2 A4   c2 c2 B4    A4    B2 B2 A4    G2 G2 G8|]
+[V:3] z4    AB c3  B A4   z2 fe dc d2 d2 d2 zB>AB cd AB c4    c8|]
+S:https://www.folktunefinder.com/tunes/77577
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

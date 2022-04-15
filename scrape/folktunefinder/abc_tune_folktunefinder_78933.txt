@@ -1,0 +1,28 @@
+X:492
+T: MIR IST EIN SCHOENSBRAUN MEIDELEIN
+N: E0450
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: F
+F2 | F2F2G2A2 | B3AG2
+B2 | A2F2G2G2 | F4z2
+F2 | F2F2G2A2 | B3AG2
+B2 | A2F2G2G2 | F4z2
+F2 | G2A2B2G2 | A2B2c2
+c2 | d2c2c2B2 | c4z2
+c2 | c2c2A2c2 | B3AG2
+B2 | A2F2G2G2 | F6
+S:https://www.folktunefinder.com/tunes/78933
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

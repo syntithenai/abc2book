@@ -1,0 +1,23 @@
+X: 37
+T: the Rambling Sailor
+D:Jackie Daly, "Many's a Wild Night"
+M:2/4
+L:1/8
+R:polka
+K:A
+c>B cA | ce fe | c>B ce | c/B/A B2 |
+c>B cA | ce fe | f/g/a/f/ ec | BA A2 :|
+|: A>B ce | ae fe | A>B ce | fc e2 |
+A>B ce | ae fe | f/g/a/f/ ec | BA A2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6342
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

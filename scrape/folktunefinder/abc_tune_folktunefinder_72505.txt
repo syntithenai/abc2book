@@ -1,0 +1,25 @@
+X:48
+T: Die heilige Katharina
+N: D0051
+O: Europa, Mitteleuropa, Lothringen, Gebenhausen
+N: Verzierung; Inzipit = Variante zum Lied
+R: Legenden - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | A3B=c2A2 | B2=g2z2
+=c2 | A2EEDE=FD | E2
+=c2d3e | =c2AAdcB2- | B2
+=cBA2A2 | G2B2A2
+S:https://www.folktunefinder.com/tunes/72505
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

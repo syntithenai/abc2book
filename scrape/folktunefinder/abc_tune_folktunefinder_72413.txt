@@ -1,0 +1,29 @@
+X: 164
+T:Jigg,A. HA.163
+M:6/8
+L:1/8
+Q:1/4=100
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:u/v denote bowing; = denotes slashed note.
+N:. NBr.
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+"u"A|(FD)B A2 d|"="c3 "u"cde|d>cB A(G/2F/2)(E/2D/2)|E3A,2"u"A|!
+(FD)B A2d|"="c3 "u"ABc|(dA)d c/2d/2ec|"v"d3D2:|!
+|:"u"E|(CA,)E A2G|(FD)B A2c|d>cB cBA|"cr"B3B2 B/2c/2|"v"d>cB AGF|!
+(EFD) C2A|(FD)dA2d|"="c3 ABc|(dA)d c/2d/2ec|"v"d3D2:|]
+S:https://www.folktunefinder.com/tunes/72413
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

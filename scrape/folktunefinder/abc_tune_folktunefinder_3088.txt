@@ -1,0 +1,24 @@
+X: 3
+T: Jambolsko Pajdu\vsko (Am)
+O: Bulgaria
+R: pajdu\vsko
+M: 5/8
+L: 1/8
+K: Am
+|: "Am"AE cBA | "G"BG "Am"~A2E | Bc cBA | "G"BG "Am"~A2E \
+| "Am"AE cBA | AB cde | "Dm"~d2 cBA | "G"BG "Am"A2z :|
+[| "Am(C)"CC CD2 | E2 E3 | E2 E3 | D2 C3 \
+| CC B,C2 | "Dm"D2 A,3 | A,2 A,3 | "Am"A,2 A,3 |]
+|: "G"G,G, G,G,2 | A,2 A,3 | "Am"A,2 A,2B, | C2 C3 \
+| "Dm"DD ED2 | CB, A,3 | "Am"[E2A,] A,3 | A,2 A,3 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/3088
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JambolskoPaj_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/JambolskoPaj_Dm.abc
+% Rhythm Pajdus?ko
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

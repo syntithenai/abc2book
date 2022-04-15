@@ -1,0 +1,28 @@
+X:125
+%%topmargin 3cm
+T:Cameron's Got His Wife Again
+T:Broigas Fada air Maighistir Ord
+T:"Mr. Ord Wears Long Breeches"
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+f | {/c}d>BA>F A/2A/2A A>B | {/c}d>B A>F E/2E/2E E>c | {/c}d>B A>F A>gTf>e |
+{/c}d>BA>F D/2D/2D D :: g | f>d(f>a) e>gf>e | f>df<a B/2B/2B TB>g |
+[1 f>d(f>a) (e<g)Tf>e | {/c}d>BA>F D/2D/2D D :| [2 f>g {/g}a>f e>gf>e | {/c}d>BA>F D/2D/2D D |]
+S:https://www.folktunefinder.com/tunes/71155
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Broigas_Fada_air_Maighistir_Ord.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Camerons_Got_His_Wife_Again.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_Ord_Wears_Long_Breeches_.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0125.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:506
+%%topmargin 3cm
+T:The Irish Girl
+C:Very old
+C:Skye set
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:6/8
+L:1/8
+K:E aeolian
+"Slow." D | D>B,D D>B,D | D>B,D D2 G | E>GE TE>DE | G>AB TB2 A | A>Bd e>ge | dBA G>AB | B>ed B>AB | GED E2 ::
+d | d>ed dBd | d>ed d2 g | ege edB | BAB G2 G | ABg edB | cec B2 A | ABd ege | GED E2 :|
+S:https://www.folktunefinder.com/tunes/71535
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Irish_Girl.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0506.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

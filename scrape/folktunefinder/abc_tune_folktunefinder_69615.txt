@@ -1,0 +1,28 @@
+X:55
+T: ICH UND MEIN FLAESCHCHEN
+N: F0147
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 4/4
+L: 1/16
+K: A
+ | A4A3Ac4A3c | e4e3ec4A4
+B4B3BB4A3F | E2G2F2^D2E8
+A4A3Ac4A3c | e4e3ec4A4
+B4B3BB4A3F | E2G2F2^D2E8
+E2z2G2z2B8 | G2A2B2c2d8
+c4B2A2B4E4 | c4B2A2B4E4
+A4A2A2F2d2c2B2 | A2c2B2G2A4z4
+E2z2G2z2B8 | G2A2B2c2d8
+c4B2A2B4E4 | c4B2A2B4E4
+A4A2A2F2d2c2B2 | A2c2B2G2A4z4
+S:https://www.folktunefinder.com/tunes/69615
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

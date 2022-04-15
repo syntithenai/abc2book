@@ -1,0 +1,23 @@
+X:65
+T:Lass gin ye loe me tell me now
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000d5.html
+%%ID:000000d5
+K:A mixolydian
+F2A A2d| B>dA B3| A>Bd d2e| f2g Ha3|\
+F2A A2d| B>dA B>dg| f<ag {g}f2e| d<BA A2::
+f>ef g2g| a>ga "tr"b3| B2e e>fg| fed Hd2c|\
+FGA A2d| B>dA B>dg| f<ba g<fe| dBA A2:|
+S:https://www.folktunefinder.com/tunes/30322
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

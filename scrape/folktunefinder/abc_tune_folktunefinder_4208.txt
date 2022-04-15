@@ -1,0 +1,29 @@
+X: 1
+T: Well Hall
+O: 1701
+M: 3/2
+L: 1/4
+K: F
+|: "F"Ac dc fA | "C7"G2 E2 B2 | "F"Ac dc fg | "Dm"a4 "C"g2 \
+| "F(Dm)"ag fc df | "Bb"d2 F2 "F"A2 | "Gm"GA Bc A2 | "C7"B3 c B2 :|
+|: "Bb"BF GF GB | D3 B D2 |"C7"EG AG Ac | E3 c B2 \
+| "F"Ac dc fc | "Bb"d3 e/f/ gd | "C"ec Aa fa | "F"f3 g f2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4208
+S:http://trillian.mit.edu/~jc/music/abc/England/WellHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/WellHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/WellHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/WellHall.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/WellHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/WellHall.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/WellHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/WellHall.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/WellHall
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

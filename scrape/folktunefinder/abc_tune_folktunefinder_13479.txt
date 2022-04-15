@@ -1,0 +1,29 @@
+X: 5
+T: The Bird
+D: "There Were Roses", the Mick Moloney/Jimmy Keane/Robbie O'Connell CD
+R: Reel, hornpipe
+N: Played like a slow reel - (or hornpipe)
+Z: Adrian Scahill
+M: 4/4
+L: 1/8
+K: C
+ed | cAAG AcBA | GEDE G2ed | cAAG A2(3Bcd | egg2 aged |
+(3cBA (3BAG AcBA | GEDE GDEG | A2Ac BAGB |1 (3ABA GB A2ed :|2 (3ABA GB A2ce ||
+g2ag gecG | cega gcc'b | a3a ageg | ageg a3e |
+g3e d2ed | cdeg a2ag | e2ed cAGE | A2GB A2ce :|
+S:https://www.folktunefinder.com/tunes/13479
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Bird_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bird_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Bird_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Bird_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Bird_1.abc
+% Rhythm Reel, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

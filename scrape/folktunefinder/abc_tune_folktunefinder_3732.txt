@@ -1,0 +1,27 @@
+X: 1
+T: The Duke of Kent's Waltz (F)
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+|:"F"fe fg f2 | "C7"e2 cd ec | "F"f2 F2 F2 | F4 c2 \
+| "Bb"d2 d2 "(C)"e2 | "F"f2 c2 A2 | "Gm"B2 B2 A2 | "C7"A2 G4 :|
+| "C"C2 BA B2 | "F"Ac BA GF | "C"C2 BA B2 | "F"Ac BA GF \
+| "Bb"dc Bc de | "F"fe dc BA | "Gm"dc BA GF | "C7"EG FE DC |
+| "F"FE FG AB | "C"c=B cd ec | "Dm"f2 F2 F2 | F4 "I"[|]d2 \
+| "Bb"^c2 d2 d2 | "F"=B2 c2 c2 | "C7"B2 G2 E2 | "F"F6 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3732
+S:http://trillian.mit.edu/~jc/music/abc/England/DukeOfKentsWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/DukeOfKentsWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/DukeOfKentsWaltz.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

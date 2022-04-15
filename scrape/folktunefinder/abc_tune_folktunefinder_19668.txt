@@ -1,0 +1,26 @@
+X: 1
+T: Sporting Jamie
+R: strathspey
+S: handwritten MS by Barbara McOwen labelled "Edcath"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+a \
+| "D"f4  e3d     fa3 a4  | "G"g3e          (3f2e2d2 "A7"ce3 ea3 \
+| "D"f4  e3d "Bm"fa3 a3A | "G"(3B2c2d2 "A7"(3c2d2e2  "D"fd3 d3 :|
+A \
+| "D"d3e f3d     fa3 f3d | "Em"g3e     "E7"(3f2e2d2 "A7"ce3 ea3 \
+| "D"d3e f3d "Bm"fa3 f3d | "G"(3B2c2d2 "A7"(3c2d2e2  "D"fd3 d3 :|
+S:https://www.folktunefinder.com/tunes/19668
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SportingJamie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SportingJamie_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

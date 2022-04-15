@@ -1,0 +1,24 @@
+X:412
+T: AUF MATROSEN DIE ANKER GELICHTET
+N: F0755
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Matrosen - Lied
+M: 4/4
+L: 1/8
+K: C
+G,3G, | C2CCC2B,C | D2G,2
+G,2G,G, | G,2G,2D2CD | E2C2z4
+C4B,2B,2 | A,4z4
+A,4B,2B,2 | C4
+C2B,C | D2D2EDCD | E4
+DFED | C2CCCB,A,B, | C4z4 | z4
+S:https://www.folktunefinder.com/tunes/69972
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Staende -, matrosen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

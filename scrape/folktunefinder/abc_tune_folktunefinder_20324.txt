@@ -1,0 +1,27 @@
+X: 1
+T:Wenlock Edge
+M:3/4
+L:1/4
+C:trad
+R:waltz
+Z: Tim Willets <tlw@redowa.co.uk> tradtunes 2003-10-22
+K:D
+f/g/ \
+| "D"a>fd | d2f | "G"B2d | "D(A7)"A2f/g/ | "D"a2a | "G"b"D"a"G"g | "D"f"A"e"D"d | "A"e2 A |
+| "G"BB/c/d | "A"cde | "D"dd/e/f | "A"efg | "D"a>fd | "Em"eBc | "D"df"A"e | "D"d2 :|
+|: d \
+| "A"c>de | "A"efg | "D"a"A"g"D"f | "A"e3e | "A"c>de | "A"efg | "D"a"A"g"D"f | "A"e2 a |
+| "D"f/g/aa | "A"eaa | "D"d/e/ff | "A"efg | "D"a>fd | "Em"eB"A"c | "D"df"A"e | "D"d2 :|
+S:https://www.folktunefinder.com/tunes/20324
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WenlockEdge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/WenlockEdge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/WenlockEdge_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

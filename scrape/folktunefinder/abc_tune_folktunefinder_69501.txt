@@ -1,0 +1,26 @@
+X:642
+T: "Der Donaustrudel"
+N: Z1323
+O: Europa, Mitteleuropa, Oesterreich
+R: Zech -, Schalks - Lied
+M: 4/4
+L: 1/8
+K: D
+ | D2D2F2F2 | A2AdF2z2
+E2EGD2FA | A2fed2z2
+A2G2FAdF | A2G2F3D
+A2G2FAdF | A2G2F2z
+D | D2D2D2EF | G2BdA2z2
+E2GBD2FA | A2fed2z2
+D2DDD2EF | G2BdA2z2
+E2GBD2FA | A2fed2z2
+S:https://www.folktunefinder.com/tunes/69501
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

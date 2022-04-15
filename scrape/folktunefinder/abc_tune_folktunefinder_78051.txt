@@ -1,0 +1,34 @@
+X:30
+T: DORT WO DIE SCHNEEBERG STOLZ
+N: B0035
+O: Europa, Mitteleuropa, Oesterreich
+R: politisch, national, Vaterlands - Lied
+M: 3/4
+L: 1/16
+K: C
+C2D2C2 | C2E,2G,2C2D2C2 | B,2D2F,3
+G,E3D | C2B,2F,3CB,2A,2 | G,2C2E,2
+C2D2C2 | C2E,2G,2C2D2C2 | B,2D2F,3
+G,E3D | C2B,2F,3CB,2A,2 | G,2C2E,2z
+^F,G,3A, | B,3A,G,2C2B,3A, | B,3A,G,2
+D,2G,2B,2 | D3CB,2E2D2^C2 | D3CB,2
+D,2G,2B,2 | D3CB,2G,2B,2D2 | F3ED8
+E4D4C4 | B,2D,2F,8
+C4B,4A,4 | G,2C,2E,8
+E,4G,4C4 | E2G,2F6
+E2 | E8D4 | C8z4
+E4D4C4 | B,2D,2F,8
+C4B,4A,4 | G,2C,2E,8
+E,4G,4C4 | E2G,2F6
+E2 | E8D4 | C6
+S:https://www.folktunefinder.com/tunes/78051
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

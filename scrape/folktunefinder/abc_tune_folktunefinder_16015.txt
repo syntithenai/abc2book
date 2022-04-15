@@ -1,0 +1,36 @@
+X: 1
+T: Maggie And Jock
+C: Felix Burns (1864-1920)
+M: 4/4
+L: 1/8
+F: http://www.thesession.org/tunes/display/7231 2009-2-5
+R: reel, barndance
+K: G Major
+   Bc \
+| dBdB g2g2 | f2e^d e3A | c2c2 f2f2 | e2d^c d3B \
+| d2d2 g2g2 | f2e^d e3c | f2fe dcBA | G2G2  G2 :|
+|: Bc \
+| dBGB dBGE | FdFd F4 | ed^cd fd=cA | G2G2 G2Bc \
+| dBGB dBGE | FdFd F4 | edc>d fd=cA | G2G2 G2 :|
+|: Bc \
+| d2d2 g2g2 | f2e^d e3A | c2c2 f2f2 | e2d>^c d3B \
+| d2d2 g2g2 | f2e^d e3c | f2fe dcBA | G2G2   G3 :|
+K: D Major
+|: A \
+| Adfd Bdgd | Adfd A4 | Aege c4   | dfaf d4 \
+| Adfd Bdgd | Adfd A4 | Aeae cABc | d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/16015
+S:http://www.thesession.org/tunes/display/7231
+S:http://trillian.mit.edu/~jc/music/abc/new/MaggieAndJock1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaggieAndJock1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/MaggieAndJock1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MaggieAndJock1_G.abc
+% Rhythm Reel, barndance
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

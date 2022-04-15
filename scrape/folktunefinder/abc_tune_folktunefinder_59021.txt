@@ -1,0 +1,35 @@
+X:134
+T:Cantar de Boda (CT 374)
+R:Boda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Boda, transcrita en L.leitariegos.
+A:Asturies
+O:L.leitariegos
+Z:Cancioneru de Torner 374
+M:3/4
+L:1/8
+Q:1/4=96
+K:Gm
+^FG BB cd|(B3/2(3c/4B/4A/4 G4)|^FG BB cd|
+(B3/2(3c/4B/4A/4) (GA/2_B/2 c2)|GB GB AG|^FD- D2 z2|
+^FG BB cd|(B3/2(3A/4B/4A/4 G2) z2||
+W:Buenos das, los padrinos,
+W:los novios y el seor cura,
+W:que al a verdad representan
+W:virtud, amor y hermosura.
+W:
+S:https://www.folktunefinder.com/tunes/59021
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Boda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

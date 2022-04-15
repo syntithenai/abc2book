@@ -1,0 +1,26 @@
+X:1015
+T:Catherine Hahirs
+L:1/8
+M:6/8
+O:Ireland
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e92.html
+%%ID:00000e92
+K:D
+A|dcde2d|c2E EFG|B2B BAG|F2D DFA|
+dcde2d|c2E EFG|ABA GFE|D3 D2::
+A|F2A d2d|c2B G3|ABA GFE|B2A F2A|
+DFA d2d|c2B G2F|EFG ABc|d3 d2::
+A|Add d2e|f2dA3|fgf fed|c2d ecA|
+Add d2e|f2dA2F|EFG ABc|d3 d2::
+f|a2f f2d|Adf agf|g2e e2c|Ace gfe|
+a2f f2d|Adfagf|gec ABc|d3 d2:|
+S:https://www.folktunefinder.com/tunes/36282
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

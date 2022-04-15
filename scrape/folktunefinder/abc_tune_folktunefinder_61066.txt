@@ -1,0 +1,31 @@
+X:9033
+T:La prison du roi Franois
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n11
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:C
+G G A | B3 A B A | G3 D z2 | [M:3/8] G2 A2 B2 | [M:6/8] A2 z G G B |
+ d2 B G2 B | [M:3/8] A4 z4 | [M:6/8] c3 A2 ^F | G2 z G G B | 
+ d2 B G2 B | A2 z G G B | d2 B G2 B | A2 z ||
+W:Quand le roi dpartit de France, 
+W:Vive le roi !
+W: la male heure il dpartit.
+W:Vive le roi !
+W: la male heure il dpartit.(2x)
+W:
+W:Il dpartit jour de dimanche, et jour de lundi il fut pris. /.../
+S:https://www.folktunefinder.com/tunes/61066
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

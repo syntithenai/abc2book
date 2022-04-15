@@ -1,0 +1,26 @@
+X: 1
+T: the Landlady of Inver Inn
+C: Neil Gow
+B: Gow Collection
+M: 2/4
+L: 1/16
+K: F
+|: "C7"cB \
+| "F"A2F2 F2F2 | E2G2 G2cB | "F"A2F2 F2F2 | "F"A2c2- "C7"c2fc \
+| "F"A2F2 F2F2 | E2G2 G2cB | "Gm"BAGF "C7"FEDC | "Bb"D2F2- "F"F2 :|
+|: "C7"c2 \
+| "F"f3g a2gf | "C7"e2g2 c2e2 | "F"f3g a2gf | "C7"e2g2- g3a \
+| "Dm"f3g a2gf | "C7"e2g2 "F"c2fc | "Gm"BAGF "C7"FEDC | "Bb"D2F2- "F"F2 :|
+S:https://www.folktunefinder.com/tunes/15529
+S:http://trillian.mit.edu/~jc/music/abc/march/LandladyOfInverInn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Gow/LandladyOfInverInn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LandladyOfInverInn.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/LandladyOfInverInn.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilGow/LandladyOfInverInn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

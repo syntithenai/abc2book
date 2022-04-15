@@ -1,0 +1,23 @@
+X:2190
+T: Briuletul
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: E
+%%MIDI gchord fzfz
+|:"E"EA2c|EAc2|"B"f/e/d f/e/d|"E"e2 c2|EA2c|EAc2|
+"B"f/e/d f/e/d|"E"e2 a2|: c/d/e =g/f/e|=g/f/e c2|c/d/e =g/f/e|
+e2 c2| c/d/e =g/f/e|=g/f/e c2| c/d/e =g/f/e|e2 a2:|:
+ "B"B2fe|def2| "E"=g/f/e d=c|"B"B2 B2|B2fe|def2|"E"=g/f/e d=c|
+"B"B2 B2:|: "A"A2B2|A2B2|A2A2|A4|A2B2|A2B2|A2A2|A4:|
+S:https://www.folktunefinder.com/tunes/57129
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

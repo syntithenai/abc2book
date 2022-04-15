@@ -1,0 +1,35 @@
+X: 1
+T: 93 Not Out
+C: Will Atkinson
+R: jig, march
+S: thesession.org 2006-3-1 (chords from a printed version of unknown origin)
+N: Wouldn't have anything to do with cricket would it
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: A \
+| "D"d2d "A7"cBA | "G"BdB "D"AFD | "Em"GFG  "D"AFD | "A7"EFG ABc \
+| "D"d2d "A7"cBA | "G"BdB "D"AFD | "Em"GFG "A7"EFG | "A7"ABc "D"d2 :|
+   c \
+| "D"d2d fed | "A7"cBc ecA |  "G"B2B    dcB |  "D"AdA FED \
+|"Em"G2G BAG |  "D"F2A d3  | "E7"BAB    e2d | "A7"cBA gfe |]
+| "D"d2d fed | "A7"cBc ecA |  "G"B2B    dcB |  "D"AdA FED \
+|"Em"G2G BAG |  "D"FAd fag | "D"fed "A7"edc |  "D"d3- d2  |]
+S:https://www.folktunefinder.com/tunes/13753
+S:http://trillian.mit.edu/~jc/music/abc/jig/93_Not_Out_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/93_Not_Out_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/93_Not_Out_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/93_Not_Out_D.abc
+% Rhythm Jig
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

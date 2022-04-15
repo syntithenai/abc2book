@@ -1,0 +1,23 @@
+X:5020
+T:RM pols 1
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ee7.html
+%%ID:00000ee7
+K:D
+(3A2d2f2 d>f | (3f2e2g2 f>a | (3a2 ^g2b2 e>g | (3fdf d2 A2 | \
+(3A2d2f2 d>f | (3f2e2 g2 f>a | (3a2 ^g2b2 e>g | f2d4 ::
+(3a2^g2b2 e>g | (3fdf d2 A2 | (3a2f2g2 e>g | (3fdf d2 A2 |\
+(3A2d2f2 d>f | (3f2e2g2 f>a | (3a2 ^g2b2 e>g | f2d4:|
+S:https://www.folktunefinder.com/tunes/37083
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

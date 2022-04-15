@@ -1,0 +1,26 @@
+X: 1
+T: Long John's Wedding
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"c2e efg | agf e2d | c2A ABc | "Bm"d2c "E7"Bcd \
+| "A"c2e efg | agf e2d | c2e "E7"dcB | "A"A3 A2 :|
+|: "E7"e \
+| "A"A2B c2d | efe e3 | "Bm"d2B "E7"Bcd | "A"e2d "A7"cBA \
+| "D"f2g agf | "A"e2d c2a |  c2e "E7"dcB | "A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/14556
+S:http://trillian.mit.edu/~jc/music/abc/jig/LongJohnsWedding_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LongJohnsWedding_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/LongJohnsWedding_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Willie Fraser's Strathspey
+C: D.A.Beaton
+R: strathspey
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+   g | f2  d>B A>B d<f | g>e f>d ~e2 e<g | f2  d>B A>B d>e | f<a e>f ~d2 d |]
+[| g | f2  d>B A>B d<f | g>e f>d ~e2 e<g | f<d e>f d>B A>F | GF ~D2 D |]
+|: B | A<D F>E D>F A>f | g>e f>d ~e2 e>f | A<D F>E D>F A>F | GF ~D2 D :|
+S:https://www.folktunefinder.com/tunes/19708
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WillieFrasersStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WillieFrasersStr_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

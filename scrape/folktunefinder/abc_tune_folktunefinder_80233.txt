@@ -1,0 +1,23 @@
+X:174
+T: Sternlied von den heiligen drei Koenigen
+N: A0536
+O: Europa, Mitteleuropa, Deutschland
+N: Paderborner Gsgb. 1617.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: F
+F | FFF | EEA | GFE | D2
+C | D2E | F2F | FED | C2
+S:https://www.folktunefinder.com/tunes/80233
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

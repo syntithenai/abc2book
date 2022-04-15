@@ -1,0 +1,27 @@
+X: 1
+T: Miss Dickson's Reel
+C: Robert Mackintosh
+R: jig
+S: arr. Terry Traub 2002-02-20
+N: A few chord changes by John Chambers
+M: 6/8
+L: 1/8
+K: D
+ "A7"ABc \
+| "D"d2A AFA | "D"B2A AFA | "D"d2A AFA | "G"def "A7"edc \
+| "D"d2A AFA | "D"B2A AFA | "G"GAB "D"AGF | "Em"EFE :|
+|: "A7"GFE \
+| "D"D2A, "A7"E2A, | "D"F2A, "A7"G2A, | "D"F2D "A7"G2E | "A7"ABc "D"dAF \
+| "D"D2A, "A7"E2A, | "D"F2A, "A7"G2A, | "D"FAd AGF | "Em"EFE !d.C.!:|["last" "D"HD3 |]
+S:https://www.folktunefinder.com/tunes/14658
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissDicksonsR_D2.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MissDicksonsR_D2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

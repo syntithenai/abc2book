@@ -1,0 +1,32 @@
+X: 1
+T: Kitty Tyrrell
+M: 3/4
+L: 1/8
+R: Air
+S: Gow's 2nd Repository  (1802)
+Z: AK/Fiddler's Companion
+K: Eb
+E>C \
+| (B,2  C2)  E2  | ~E4 EF | (G2 e2) d2  | {d}c4 (de) \
+| (cB) (AG) (FE) | E4 EF | ~G2  (AG)(FE) | C4 E>C |
+| B,2  C2  E2  | E4 EF | (G2 e2) d2  | {d}c4 (de) \
+| (cB) (AG) (FE) | (E2 C2)  (E/F/)G | {G}F2 E2 E2  | E4 :|
+|: (B/c/d) \
+| (e2 d2) e2  | c2 d2 e2  | f2  (ed) c>B | B4 (B/c/d) \
+| (e2 d2) e2  | B2  (cB) (AG) | G2  (3EFG (3GFE | C4 E>C |
+| (B,2 C2) E2  | E4 EF | (G2 e2) d2  | {d}c4 (de) \
+| (cB) (AG) ~(F>E) | E2 C2  (E/F/G) | {G}F2 E2 E2  | E4 :|
+S:https://www.folktunefinder.com/tunes/13224
+S:http://trillian.mit.edu/~jc/music/abc/air/KittyTyrrell_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/KittyTyrrell_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/KittyTyrrell_Eb.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

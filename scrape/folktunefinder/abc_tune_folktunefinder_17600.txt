@@ -1,0 +1,36 @@
+X:1
+T:Maggie Cameron
+B:Scots Guards Standard Settings of Pipe Tunes
+Z:Jack Campin 1999 (scots-l 2000-08-28)
+M:C
+L:1/8
+K: Hp
+f||\
+{gef}e2 {gcd}c<{e}A   {g}c<e {gcd}c<{e}A|  {gef}e>c    {g}A>{d}c {gef}e2       {gfg}f2  |\
+{gef}e2 {gcd}c<{e}A   {g}c<e {gcd}c<{e}A|  {Gdc}d>{g}B {d}G>B    {Gdc}d2       {gfg}f2  |
+{gef}e2 {gcd}c<{e}A   {g}c<e {gcd}c<{e}A|  {gef}e>c    {g}A>{d}c {gef}e>A         (3agf |\
+{gef}e2 {gcd}c<{e}A {d}(3ceA {gcd}c<{e}A|  {Gdc}d>{g}B {d}G>B    {Gdc}d2       {gfg}f2 |]
+  {g}e<a {cd}c>a         e<a  {cd}c<a   |     (3gfe   {ag}a>c    {gef}e2       {gfg}f2  |\
+  {g}e<a {cd}c<a         e>f  {gf}g>e   |  {g}(3dcB   {gf}g>B    {Gdc}d2       {gfg}f2  |
+  {g}e<a {cd}c>a         e<a  {cd}c<a   |     (3gfe   {ag}a>c    {gef}e2        {gf}g2  |\
+   (3agf {gf}g>e    {g}(3faA {gef}e>c   |  {g}(3dcB   {gf}g>B    {Gdc}d2       {g}(3fga|]
+ {ef}e2 {gcd}c<e  {gAGAG}A>e {gcd}c<e   |{gAGAG}A>e  {gcd}c<e  {gAGAG}A>e       {ag}a2  |\
+ {fg}f<e     c<e  {gAGAG}A>e {gcd}c<e   |  {g}(3dcB   {gf}g>B    {Gdc}d2       {gfg}f2  |
+{gef}e2 {gcd}c<e  {gAGAG}A>e {gcd}c<e   |{gAGAG}A>e  {gcd}c<e  {gAGAG}A>e       {ag}a2  |\
+     e<a {cd}c>a         e<a  {cd}c>a   |     (3dcB   {gf}g>B    {Gdc}d2       {gfg}f2 |]
+  {g}e<a  {g}a>g     {fg}f>e  {ag}a>e   |  {gcd}c>e   {ag}a>e      {g}c<{GdG}e {gfg}f2  |\
+  {g}e<a  {g}a>g    {g}(3faA {gef}e>c   |     (3dcB   {gf}g>B    {Gdc}d2       {gfg}f2  |
+  {g}e<a  {g}a>g     {fg}f>e  {ag}a>e   |   {ag}a>A  {gef}e>d      {g}c<{GdG}e {g}(3efg |\
+   (3agf {gf}g>e    {g}(3faA {gef}e>c   |  {g}(3dcB   {gf}g>B    {Gdc}d2       {g}(3fga|]
+S:https://www.folktunefinder.com/tunes/17600
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaggieCameron.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/pipe/MaggieCameron.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MaggieCameron.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MaggieCameron.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MaggieCameron_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

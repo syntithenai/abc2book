@@ -1,0 +1,26 @@
+X: 2
+T: Randolph Farewell [G]
+C: Tom Siess
+N: \251 Tom Siess 1991 "With Love to Jack and Genny"
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+[| "G"B>AG | d2d | "Em"B2G | E3 | "D7"A>Bc | B2A | "G"B2G | "D"D3 |
+|  "G"B>AG | d2d | "Am"e2c | "D7"A>GF | "Am"E2c | "D7"DAF | "G"G2A | Bcd ||
+|| "Em"e2e | g3 | "Bm"f2d | B>cd | "C"e2e | g>fg | "D"a3 | aga |
+|  "Em"b2g | e3 | "Am"a>bc' | "D"d3 | d2d | a>gf | "G"g2g | g3 |]
+S:https://www.folktunefinder.com/tunes/4034
+S:http://trillian.mit.edu/~jc/music/abc/England/RandolphFarewell.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/RandolphFarewell.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/RandolphFarewell.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:392
+%%topmargin 3cm
+T:Miss Erskine of Torry
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+c | AF F/F/F C>FA,>F | G>_EB,E GEEc | AF F/F/F C>F A,>F | BG E/F/G/E/ AFF :: f | cf f/f/f c>fAf | cf f/f/f g>_eeg |
+cf f/f/f cfAf | B>G E/F/G/E/ AFF :: (AF)(cF) (dF)cF | G>_EB,E GEEc | (AF)(cF) (dF)cF | B>G E/F/G/E/ AFF :| c | T(f>ga)f cfaf |
+T(f>ga)f g_eeg | T(f>ga)f cfaf | b>g e/f/g/e/ affc | T(f>ga)f cfaf | T(f>ga)f g_eeg | b>ga>f gef>c | B>G E/F/G/E/ AFF |]
+S:https://www.folktunefinder.com/tunes/71421
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Erskine_of_Torry.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0392.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

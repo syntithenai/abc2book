@@ -1,0 +1,26 @@
+X:469
+T: ICHSTAND AUF HOHEM BERGE
+N: F0883
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade
+M: 2/4
+L: 1/16
+K: F
+AB | c3fcABG | A4G2
+G2 | A2fdc2=B2 | c4z2
+c2 | f2f2edc2 | d4c2
+c2 | B4A2
+c2 | d2cBA2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/70029
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

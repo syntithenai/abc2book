@@ -1,0 +1,31 @@
+X: 67
+T:Illegible Title. HA.066
+M:C
+L:1/8
+Q:150
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:3 sharps in MS, but I think they include top and bottom F.
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:D
+d3A (dA)(GE)|F2(ED) D2FG|A3B (AB)(AF)|E2f2 e2(dc)|!
+"cr"d3e (fd)(ef)|(eE) (EF/G/) F2(ED)|\
+"cr"B3A (dc)(de)|e3d d4||!
+df/g/|"cr"a3f (ec)(BA)|(ec)(BA) "cr"e3f|\
+(gf)(ed) (BF)Bc|"cr"c3B "cr"B3d|!
+(AB)(AF) (EF)(ED)|(AB)(cA) d3f|\
+(df)(ce) (Bd)(AF)|D2d2d2|]
+S:https://www.folktunefinder.com/tunes/72316
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

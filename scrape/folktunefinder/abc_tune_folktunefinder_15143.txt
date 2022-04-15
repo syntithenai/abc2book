@@ -1,0 +1,24 @@
+X: 2
+T: Tavistock Goosey Fair
+S: From the singing of Gerry Bates at the Grapes Folk Club, c. 1978
+S: "pete"  tradtunes 2008-7-15
+M: 6/8
+L: 1/8
+K: G
+D \
+| G2d B2G | E2A ^F2D | E2G G2^F | G3-  G2D | G2d B2G | E2A ^F2D | E2G G2^F | G3- G2d |
+| d2B c2A | BG2- G2d | d2B c2A  | B3-  B2d | d2B c2A | B2G  A2B | AAA B2A  | d3- d2d |
+| e2c A2e | dB2- B2B | c2B A2G  | E^FE D2D | G2d B2G | E2A ^F2D | E2G G2^F | G3- G2 |]
+S:https://www.folktunefinder.com/tunes/15143
+S:http://trillian.mit.edu/~jc/music/abc/jig/Tavistock_Goosey_Fair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Tavistock_Goosey_Fair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Tavistock_Goosey_Fair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Tavistock_Goosey_Fair_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

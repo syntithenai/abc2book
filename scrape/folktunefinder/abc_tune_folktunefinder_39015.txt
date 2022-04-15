@@ -1,0 +1,36 @@
+X:17644
+T:Tonada (CT 350)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:Suele cantarse con acompaamiento de gaita.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 350
+M:3/4
+L:1/8
+Q:1/4=72
+W:Tuve amores en La Oscura
+W:y tambin los tuve en Lada
+W:pero los de San Andrs
+W:son los que me lleven l'alma.
+K:G
+DG
+|GG-G2 FG|AA-A/4_B/4A/4G/4A-A2|(3A_Bc d2 dd|dd-(d2-d/4c/4B/4A/4 G/>A/|B2) zc dd|
+(d>cB)z dd|(e/{de}dc/ B) c/A/ (G>A|B)B-(3B{d}cB (A3/2B/8A/8G/8F/8|G)G-G2||
+S:https://www.folktunefinder.com/tunes/39015
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

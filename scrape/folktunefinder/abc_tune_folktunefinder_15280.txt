@@ -1,0 +1,27 @@
+X: 1
+T: The Ythan Bar
+C: Ian Powrie
+B: SRSNH transcription by Barbara McOwen
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+z \
+| "A"EFG ABc | "D"def "E7"e2d | "A"cBA "F#m"edc | "B7"cBA "E7"B2E \
+| "A"EFG ABc | "D"def "E7"e2d | "A"cBA "F#m"edc | "E7"B3 "A"A2 :|
+B \
+| "F#m"c2F FAB | cAF FGA | "E"B2E "B7"EGA | "E"Bec "E7"BGE \
+| "A"EFG ABc | "D"def "E7"e2d | "A"cBA "F#m"edc | "E7"B3 "A"A2 :|
+S:https://www.folktunefinder.com/tunes/15280
+S:http://trillian.mit.edu/~jc/music/abc/jig/YthanBar_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/YthanBar_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

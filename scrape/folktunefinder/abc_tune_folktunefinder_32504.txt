@@ -1,0 +1,32 @@
+X: 2019
+T:Madam del Caros Hornpipe. WM082
+M:C
+L:1/8
+Q:160
+C:*
+S:Wm.Mittell,1799
+R:Hornpipe
+O:England
+A:Kent
+P:*
+N:In other MSs this usually appears dotted and in 2/4, as it does earlier
+N:in this MS.
+Z:C.G.P
+W:*
+K:G
+GBdg fede|dcBA BcdB|GBdg fede|dcBAG3z:|!
+|:GBdg e/f/g e/f/g|DFAc B/c/d B/c/d|GBdg e/f/g e/f/g|dcBAG3z:|]
+S:https://www.folktunefinder.com/tunes/32504
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

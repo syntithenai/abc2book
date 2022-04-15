@@ -1,0 +1,35 @@
+X:450
+T: UND ALS DIE SCHNEIDER JAHRESTAG HATTN
+N: F0842
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade, Spott
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2G2 | G2G2G2
+B2 | B2A2A2F2 | G4z2
+D2 | B2B2B2B2 | B2B2B2
+d2 | d2c2c2A2 | B4z2
+G2 | d2d2d2d2 | d4B2
+G2 | e2e2e2e2 | g4f2
+e2 | d2d2c2A2 | G4z2
+G2 | d2d2d2d2 | d4B2
+G2 | e2e2e2e2 | g4f2
+e2 | d2d2c2A2 | G4z4
+GGBBd2G2 | F2A2d2z2
+D2F2A2F2 | A4G4
+GGBBd2G2 | F2A2d2z2
+D2F2A2F2 | A4G2
+g2 | G3GG2g2 | G3GG4
+g8 | G2z6
+G3Bd3G | A4G2
+S:https://www.folktunefinder.com/tunes/70010
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

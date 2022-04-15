@@ -1,0 +1,25 @@
+X:33
+T: WELE GROSS WUNDER SCHAUEN WILL
+N: E0018
+O: Europa, Mitteleuropa, Schweiz, Entlibuch, Escholdsmatt
+R: Maerchen -, Zauber - Lied, Tannhaeuser - Sage
+M: 3/4
+L: 1/8
+K: C
+G, | CB,C2D2 | B,^F,G,3
+C | FGFEC2 | C2D2z
+C | EFG3C | DEF3
+D | ECD2C2 | B,2C2z
+S:https://www.folktunefinder.com/tunes/78474
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Maerchen%20-,%20zauber%20-%20lied,%20tannhaeuser%20-%20sage
+% Titles One%20title
+% Transcriptions Only%201%20transcription
+% Movement Has%20lots%20of%20stepwise%20movement
+% Movement Has%20some%20stepwise%20movement
+% Mode major
+% Key C
+% Time%20signature 3/4
+% Text Has%20notes%20text
+% Has%20accompaniment%20chords No%20chords

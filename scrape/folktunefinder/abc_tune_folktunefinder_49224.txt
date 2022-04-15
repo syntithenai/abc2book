@@ -1,0 +1,25 @@
+X: 18
+T:A Lankesheire Hornpipe
+M:6/4
+L:1/8
+S:Wright 1713
+N:Strain 4, bar 2, note 1 as clearly printed; should perhaps be E
+Z:p
+K:D
+G2B2F2A2E4|E2A4G2GFED|G2B2F2A2E4|D2d4A2 GFED||
+d2cB cBAG F4|E2e4d2 dcBA|d2cB cBAG F4|D2d4A2 GFED||
+fgag efed c4|B2e4d2 dcBA|a2gf gfed c4|A2d4A2 GFED||
+dcBA BAGF GFED|D2e4d2c2BA|d2cB A2 GF EFGE|D2Bcd2A2 GFED||
+S:https://www.folktunefinder.com/tunes/49224
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

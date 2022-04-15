@@ -1,0 +1,23 @@
+X: 1
+T: Miss Milligan's Reel
+R: reel
+N: originally strathspey
+B: RSCDS 23-6
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D | "G"GBdg     dGB2    | "Am"EAAG "D7"FAFD | "G"GBdg     dGB2     | "Am"EA"D7"Fd "G"BGG :|
+B | "G"dBgd  "C"eg"G"dB | "Am"cAag "D7"fafd | "G"dBgd  "C"eg"G"dB  | "Am"EA"D7"Fd "G"BGG ||
+B | "G"dBgf "Em"edcB    | "Am"EAAG "D7"FAdc | "G"BgdB "Am"Ec"D7"AF | "Am"EA"D7"Fd "G"BGG |]
+S:https://www.folktunefinder.com/tunes/17683
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissMilliganR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissMilliganR_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

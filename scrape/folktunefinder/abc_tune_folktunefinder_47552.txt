@@ -1,0 +1,41 @@
+X: 15
+T:Lord Stranger's Hornpipe. JaW.015
+T:Lord Strange,aka. JaW.015
+M:3/2
+Q:1/8=350
+C:Lord Strange,aka
+S:James Winder Ms, Lancashire, 1835-41
+R:Triple Hp
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+"1"AG|F2FG A2Ac d2d2|F2FG A2AB cBAG|\
+F2FG A2AB c2c2|E2EF G2AB cBAG:|!
+|:"2"F2DF AFdF AFdA|F2DF A2GF EFGE|\
+F2DF AFdF AFdF|E2EF G2AB cBAG:|!
+|:"3"d2f2 d2f2 dcBA|d2f2 d2f2 dcBA|\
+B2g2 B2g2BcdB|A2a2 A2a2 dcBA:|!
+|:"4"agfe defg a2ab|agfe defd g2ga|\
+gfed BcdB fgaf|edcB Aaed c2BA:|!
+|:"5"d2 fd fdfd c2(BA)|d2fd fdfd dcBA|\
+B2gB gBgB BcdB|A2aA aAaA dcBA:|!
+|:"6"dAFA dAFA d2(fe)|dAFA dAFA d2(dc)|\
+BAGF EFGE ABcA|edcB Aaed c2(BA):|!
+|:"7"DEFG ABAG A2F2|DEFG A2(GF) EFGE|\
+DEFG ABAG A2A,2|C2E2 C2F2 EFGE:|!
+|:"8"DEFE DEFE D2A,2|DEFE DEFG A2(GF)|\
+DEFE DEFE D2A,2|C2E2 C2F2 EFGE:|]
+S:https://www.folktunefinder.com/tunes/47552
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Triple hp
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

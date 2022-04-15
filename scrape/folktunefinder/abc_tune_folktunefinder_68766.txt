@@ -1,0 +1,26 @@
+X:220
+T: Abschied beim Wegzuge
+N: A0267
+O: Europa, Mitteleuropa, Deutschland
+N: M Franck Fasc. quodl. 1611 No. 6.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: D
+D2 | D3E=F2E2 | D4=C2
+A,2 | D2E2=F2ED | E4z2
+D2 | E2=F2G2E2 | =F4E2
+D2 | C2D2D2C2 | D4z2
+S:https://www.folktunefinder.com/tunes/68766
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

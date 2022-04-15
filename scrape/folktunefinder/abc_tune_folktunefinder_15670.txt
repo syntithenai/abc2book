@@ -1,0 +1,24 @@
+X: 1
+T: the Rose Tree
+O: Trad
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+|: f/e/ | "D"dB AF | A>B AA | dd ed/e/ | "A7"fe e/g/f/e/ | "D"dB AF |
+| A>B AA | dd "A7"ed/e/ | "D"fd d :: e | "D"fe fg | a2 gf |
+| "Em"eb b>a | be "A7"e/g/f/e/ | "D"dB A F | A>B AA | dd "A7"ed/e/ | "D"fd d :|
+S:https://www.folktunefinder.com/tunes/15670
+S:http://trillian.mit.edu/~jc/music/abc/march/RoseTree_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoseTree_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/RoseTree_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/RoseTree_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/reel/RoseTree_D3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

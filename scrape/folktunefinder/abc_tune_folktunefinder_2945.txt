@@ -1,0 +1,58 @@
+X: 1
+T: Trava Trava
+C: Greece
+R: Hasapikos
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+[| "G"^cd dd B2 G2 \
+| ^cd dd B2 G2 \
+| ^cd d=c "D7"Bc BA \
+| "G"G2 GA Bc d2 \
+| "G"^cd dd B2 G2 |
+| ^cd dd B2 G2 \
+| de dc "D7"Bc BA \
+| "G".G2 "D7".D2 "G".G2 z2 || \
+| "G"d^c de fe d^c \
+| d^c de fe d^c |
+| d^c de fe d^c \
+| ^c4 d4 \
+|  "G"d^c de fe d^c \
+| d^c de fe "*Coda"df  \
+| "D7"fe dB cB AB |
+| "G".G2 "D7".D2 "G".G2 z2 || \
+| "G"^A2 B2 A2 B2 \
+| ^c2 d6 \
+| e2 f2 e2 d2 \
+| c2 B6 \
+| e2 f2 e2 d2 \
+| ^c2 d6 \
+| g2 f2 e2 d2 \
+| c2 B6 ||
+| e2 f2 e2 d2 \
+| ^ce d3 def \
+| g2 f2 e2 d2 \
+| c2 B3 cde \
+| "G7"(f8 \
+| f6) gf \
+| "C"(e8 \
+| e8) \
+| "G"(d8 \
+| d8) |]
+P: Coda
+| "D7"d2 dd e2 f2 \
+| "G".g2 "D7".d2 "G".g4 |]
+S:https://www.folktunefinder.com/tunes/2945
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/TravaTrava1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/TravaTrava1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TravaTrava1.abc
+% Rhythm Hasapikos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

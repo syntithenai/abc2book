@@ -1,0 +1,34 @@
+X:249
+T:Steirische Jodler und Taenze Nr. 1 - 48 (47.)
+C:traditionell
+A:Salzkammergut
+S:MIDI erhalten von Christian Amon. Nach einer kopie im besitz von Johann Stoeckl eines manuscriptes. Stoeckl(zitiert von Amon): "diese sammlung wurde 1935 im hause der familie Hohenlohe-Schillingfuerst gefunden. Sie wurde von einem der beiden brueder Steinegger 1866 verfasst. Die originale sind im Ausseer Kammerhofmuseum".
+M:2 /4
+L:1/8
+K:G
+V:1
+Bd gb | b2 ad | (3gab B2 | (3gab (3fga |\
+d2 (3fga | (3gab B2 | Bd gb | b2 ad |\
+(3gab B2 | (3gab (3fga | d2 (3fga | g4 |*
+V:2
+ga bd' | d'2 c'a | (3bc'd' g2 | (3bc'd' (3abc' |\
+f2 (3abc' | (3bc'd' g2 | ga bd' | d'2 c'a |\
+(3bc'd' g2 | (3bc'd' (3abc' | f2 (3abc' | b4 |*
+W:meiner meinung nach eigentlich:
+V:1
+Bd|\
+gb b2 ad | (3gab B2 (3gab | (3fga d2 (3fga | (3gab B2 Bd |\
+gb b2 ad | (3gab B2 (3gab | (3fga d2 (3fga | g4 |*
+V:2
+ga |\
+bd' d'2 c'a | (3bc'd' g2 (3bc'd' | (3abc' f2 (3abc' | (3bc'd' g2 ga |\
+bd' d'2 c'a | (3bc'd' g2 (3bc'd' | (3abc' f2 (3abc' | b4 |*
+S:https://www.folktunefinder.com/tunes/45683
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

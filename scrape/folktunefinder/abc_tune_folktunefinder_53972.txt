@@ -1,0 +1,36 @@
+X: 104
+T:Teddybears' Picnic, The
+M:6/8
+L:1/8
+Q:600
+R:Jig/2 Step
+K:G
+"Verse"B,3 |E2G FGF |E2G F2B, |EFG F2G |E3- E2 D |
+       G2B ABA |G2B A2D |GAB A2B |G3- G2d |  !
+       e2d e2d |ABd B2A |A2G A2G |DEG E2D |
+       E2G D2D |EFG D2B |A6 |G3 ||   !
+"Interlude"dBd |e2d e3- |edB dBd |A2F A3- |ADE FAG |
+        F3- F2E |D3- D2B |AGA Bdf |edB dBd |   !
+        e2d e3- |edB dBd |A2F A3- |ADE FAG |
+        _B3- BGA |_B3- BGA |_BAG g2^c |d6 ||  !
+"Chorus"D3 B3 |^A3 B3 |e2B d3- |d2B ^A2B |
+        e2B d2B |edB ^A2B |d2B c3- |c2B AFE | !
+        D3 c3 |^G3 A3    |f2c  e3- |e2e  ^d2e |
+        f3     e3  |d3    c3 |B2d d3-  |d2^A BGE |  !
+        D3 B3 |^A3 B3 |e2B d3- |d2B ^A2B |
+        e2B d2B |edB A2G |g6- |g6 |    !
+        g2f g2f |gfg age |d2^c d2e |d2G A2B |
+        c3 d2e |B3 A3 |Gz E DB,A, | G,3  ||
+% <A name="D1X105">
+S:https://www.folktunefinder.com/tunes/53972
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig/2 step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

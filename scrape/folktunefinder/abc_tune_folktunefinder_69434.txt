@@ -1,0 +1,29 @@
+X:575
+T: "Staendchen"
+N: Z1255
+O: Europa, Mitteleuropa, Deutschland, Mittelrhein
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+dc | B2dcB2d2 | edcBc2
+cB | A3Ad3c | B2z4
+dc | B2dcB2d2 | edcBc2
+cB | A2Aed2F2 | G4z2
+GB | d3BG2g2 | e3dc2
+cB | A3GF2e2 | d3cB2
+dc | B2dcB2d2 | edcBc2
+cB | A2Aed3c | B4z2
+S:https://www.folktunefinder.com/tunes/69434
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

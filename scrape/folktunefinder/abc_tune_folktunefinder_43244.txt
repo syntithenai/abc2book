@@ -1,0 +1,45 @@
+X: 12
+T:Cumh Easpuic Earra-ghaeidheal
+T:Lament for the Bishop of Argyll
+Z:Jack Campin, January 2000
+S:McFarlan MS III #34 p20
+M:6/4
+L:1/8
+K:DMix
+G2G3 D TE4D2|G2G3 A TB4 A2 |\
+G2G3 D TE4D2|E2G3 d TB4(AG)|\
+c2c3 d Te4d2|B2B3 d TB4 G2 |
+A2A3 B  c4E2|c2c3 d  e4 d2 |\
+B2B3 a  B4a2|A2A2AB  G4 A2 |\
+B2B2Bd TA4B2|G2G2AG TE4 D2:|
+M:9/8
+(G2D)  G2D   TE2D | (G2D)  (G2A) (TB2A)|\
+(G2D) (G2B) (TE2D)| (B2D)  (G2d) (TB2G)|
+(c2B) (c2d)  (e2d)|(TB2A)  (B2d)  (B2G)|\
+(A2G) (A2B)  (c2E)| (c2B)  (c2d)  (e2d)|
+(B2A) (B2a)  (B2a)| (A2G)  (A2B)  (G2A)|\
+(B2A) (B2d)  (A2B)| (G2d) (TB2G)  TE2D:|
+M:C|
+GGGD EEED|GGGA BGGA |\
+GGGB EEED|GGGd BBBG |\
+cccd eeed|BBBd BBBG |
+AAAB cccE|cccd eeed |\
+BBBa BBBa|AAAB GGGA |\
+BBBd AAAB|GGGA EEED:|
+L:1/16
+GGGG G2D2 EEEE E2D2|GGGG G2A2 BBBB B2A2      |\
+GGGG B2D2 EEEE E2D2|GGGG G2d2 BBBB B2G2      |
+cccc c2d2 eeee e2d2|BBBB B2d2 BBBB B2G2      |\
+AAAA A2B2 cccc c2E2|cccc c2d2 eeee e2d2      |
+BBBB B2a2 BBBB B2a2|AAAA A2B2 GGGG G2A2      |\
+BBBB B2d2 AAAA A2B2|GGGG G2A2 EEEE E2D2 "4.":|
+S:https://www.folktunefinder.com/tunes/43244
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Time_signature 2/2
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:3221
+T:Kays Hornpipe. GHW.073
+T:Hp
+O:england
+M:2/4
+L:1/8
+Q:300
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+A:Norfolk
+K:D
+(FE)|D2D2 D>FE>G|F2F2 F>AG>B|A>dc>B A>GF>E|D>FA>F B>GE>C|
+D2D2 D>FE>G|E2E2 E>GF>A|A>dc>B A>GF>E|D2D2D2:|
+|:A2|F>Ad>A F>Ad>A|G>Bd>B G>Bd>B|A>ce>c A>ce>c|d>fe>d c>BA>G|
+F>Ad>A F>Ad>A|G>Bd>B G>Bd>B|A>ce>c A>ce>c|1 e>dc>B A>GF>E:|2d2[d2F2][d2F
+2]||
+S:https://www.folktunefinder.com/tunes/23672
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

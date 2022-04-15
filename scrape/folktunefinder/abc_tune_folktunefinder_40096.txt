@@ -1,0 +1,59 @@
+X:359
+T:Sonata \`a3
+T:Trio-sonata
+T:1. Allegro
+C:Giuseppe Sammartini, arr. (Continuo-realisation) Frank Nordberg
+O:Italy
+F:http://abc.musicaviva.com/tunes/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+%WARNING!
+%These are sketches I made as a part of the work transcribing
+%Sammartini's trio sonata for Musica Viva. I take no responsibility
+%for any errors. The finished transcription is available in gif format
+%at http://www.musicaviva.com/common_room/sammartini-sonata-01.html
+%   Frank Nordberg
+M:C
+L:1/8
+K:C
+T:1. Allegro
+"^Vln 1"cB/c/ dB cGEG|cB/c/ dB cG z2|ed/e/ fd ec Gc|ed/e/ fd ecz2|
+e(e/f/) e(e/f/) d(d/e/) d(d/e/)|c(c/d/) c(c/d/) Bddd|e z d z e z d z|d z c z ag/^f/ ge|
+g2^f2g2zd|cB2d cB2g|(g^f)(fe) (ed)(dc)|(cB)(BA) A(G/^F/) GE|G2^F2G4:|]
+g^f/g/ af gdBd|g^f/g/ af gd z d|(ed)(dc) (cB)(BA)|(AG)(G^F) F z G z|
+A z B zA2z2|d^c/d/ ec dA^FA|d^c/d/ ec dAz2|e^d/e/ ^fd eBGB|e^d/e/ ^fd eBz2|
+g(g/a/) g(g/a/) ^f(f/g/) f(f/g/)|e(e/^f/) e(e/f/)^d2z2|(^de)(e^f)f2z2|(^fe)(e^d)d2z2|
+z4a2e2|^f4-fg/a/ gf|e4-e^f/g/ fe|^d2^f2-fe/d/ ef|
+e2^d2e=d/c/ BA|G2^F2E2zg|=fe2g fe2e|dc2e dc2G|cB/c/ dB cGEG|
+ed/e/ fd ecGc|e(e/f/) e(e/f/) d(d/e/) d(d/e/)|c(c/d/) c(c/d/) B/A/G/A/ B/c/d/e/|fzezd>c B/c/d/e/|
+f z e z d2z2|cccc _BBBB|A2z/A/B/c/ dddd|ccccB2z2|
+(fe)(ed) (dc)(cB)|(BA)(AG) Gg2f|ed/c/ dB c z A z|B z f z e z d z|c8|]
+T:2. Adagio
+M:3/4
+L:1/8
+^c2c2c2|def2z2|^d2d2d2|e^fg2z2|=f2e2d2|^ce- e/d/e/f/ ed|^ce- e/d/e/f/ ed|
+^c2G2G2|G2z2z2|de=f2e2|d2f2e2|^d^f- f/e/f/g/ fe|^d^f- f/e/f/g/ fe|^d2A2A2|
+A2z2z2|g>^ff3e|e^fg2g2-|g2^f2e2|de=f2f2-|f2e2d2|cde2e2-|
+e2d2c2|B2_B2B2|_B2A2A2-|A2^G2e2-|e2d2f2|^d4z2|=d2z2z2|
+d2z2z2|cBB3A|Ae- e/d/e/f/ ed|ce- e/d/e/f/ ed|c/A/B/A/ c/e/f/e/a2|c2d2B2|A6|]
+T:3. Allegro
+M:3/8
+L:1/8
+|:ccc|ccc|ccc|c3|cBA|GFE|FGF|FEz|gfe|agf|edc|
+B3|d/B/d/B/d/B/|ed2|d/B/d/B/d/B/|ed2|g^fe|dcB|cAd|G3|ggg|
+ggg|ggg|g3|g/^f/e/d/c/B/|e/d/c/B/A/G/|cBA|G3:|g/a/gf|e/f/ed|c/d/c_B|
+_BA2|a/b/ag|^f/g/fe|d/e/dc|cB2|Gc2|Gd2|Ge2|edz|fff|fff|
+fff|fez|eee|eee|edc|B3|c3|d3|e3|f>ge|
+fd2|c3|g/e/g/e/g/e/|agz|g/e/g/e/g/e/|agz|cBA|GFE|FDG|C3|
+gf/e/d/c/|a/g/f/e/d/c/|fed|ccc|ccc|cB/A/G/F/|EFG|C3|]
+S:https://www.folktunefinder.com/tunes/40096
+S:http://abc.musicaviva.com/tunes/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

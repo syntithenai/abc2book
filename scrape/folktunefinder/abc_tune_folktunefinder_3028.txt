@@ -1,0 +1,24 @@
+X: 6
+T: Andro
+S:Ar Re Youank
+Z:<Rene.Quiniou@irisa.fr> abcusers 2000-05-24
+N:Jou\'e normalement en Sib (Sol mineur)
+M:4/4
+L:1/8
+K:Gm
+|: "Gm"GFGA B3A   | G2B2 "F"A3A | AGFA "Gm"G3G  | G2dc B3G \
+|  "Gm"GFGA B2BB- | BGcB "F"A3A | AGFA "Gm"G2GA | "Dm"BGAB "Gm"G4 :|
+|: "Gm"GAGF "B"d3d | B2AB "F"c3A | "F7"GFFe "B"d3d  | "Eb"B2GB "F"A3A \
+|  "F7"GFec "B"d3d | BcdB "F"c3d | "F"cBAB "Gm"G2GA | "Dm"BGAB "Gm"G4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3028
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/andro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

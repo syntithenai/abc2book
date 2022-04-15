@@ -1,0 +1,23 @@
+X: 4
+P: Villiruusu (Wild Rose) (Inarin J\"arvi (Lake Inari))
+C: Sv. Trad
+R: waltz
+N: Several sets of words exist for this tune, each with a different title.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+|: A | "Dm"d2d | "A7"e2f | "Dm"d3 | A2d | "Gm"e2f | g2f | "A7"e3- | e2a \
+| "Dm"a2f | ddf | "Gm"f3 | "Gm"G2B | "A7"A2A | e2^c | "Dm"d3- | d2 a ||
+|| "A7"a2g | "Dm"f2f | "Gm"g2f | "A7"e2e | "Dm"f2e | "Dm"d2d | "A7"e2^c | A2A \
+| "Dm"d2d | f2d | "Gm"d3 | G2B | "A7"A2A | Ae^c | "Dm"d3- | d2 :|
+S:https://www.folktunefinder.com/tunes/4520
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song03.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Spin & Glow
+C: Frank Ferrel
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+GFE \
+|: "G"DGB d2B |    d3  d2z  |  "G"DGB  dcB |  "Am"  c3   c2z  |"D7"DFA d^cd |    d^cd de=f |
+|1"D7"e2c A2^A| "G"B3  BGE :|2"D7"TeAc BFA |  "G"   G3   Bdg  |:"G"b2g d2g  |     dBG DGB  |"(Am)"dcc c2B |
+| "Am"c3  cde |"D7"fgf f2e  |     ded  d2e |1"(Dm)"=fed cA^A | "G"B3  Bdg :|2"D7"fed cAF  | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/15103
+S:http://trillian.mit.edu/~jc/music/abc/jig/SpinAndGlow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SpinAndGlow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/FrankFerrel/SpinAndGlow_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

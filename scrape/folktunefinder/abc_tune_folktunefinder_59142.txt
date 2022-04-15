@@ -1,0 +1,34 @@
+X:255
+T:Danza (CT 082)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Pea Alba, estribacin del Puerto del ramo, en el ayuntamiento de Quirs, durante la romera que el da de la Asuncin de Nuestra Seora se celebra alrededor de una ermita, situada enlo alto de la Pea.
+N:Intervienen en esta danza personas de amobs sexos, y el conductor hace improvisaciones, en versos pareados octosilbicos, dirigidos a las personas que presencian la diversin , de manera anloga a la sealada con el nmero CT 078.
+N:El resto de los danzadores contesta invariablemente con el estribillo que aparece transcrito.
+A:Asturies
+O:Pea Alba (Quirs)
+Z:Cancioneru de Torner 082
+M:2/4
+L:1/8
+Q:1/4=112
+K:C
+"solo"G|cc BA|B2 GG|cc BA|[M:3/4]B2 G2
+"coro" GG|[M:2/4]G2 GG|G2 AB|c2 z2 :||
+W:El de la monteneca,
+W:qu diremos que busca
+W:Un galn, un galn, un galn.
+W:
+S:https://www.folktunefinder.com/tunes/59142
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

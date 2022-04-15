@@ -1,0 +1,31 @@
+X: 1
+T: Tomtain Brae
+C: Ian Crichton
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"DCD dcd | "D"FG^G AFD \
+| "Em"EFE e^de | "G"dBA "(A7)"B2d \
+| "D"DCD dcd | "D"FG^G AFD |
+| "G"BAB "D/F#"AGF | "Em"EFE "A7"B2 :: A \
+| "D"FEF DED | "D"FEF AFD \
+| "Em"EFE e^de | "G"dBA "(A7)"B2d |
+| "D"FEF DED | "D"FEF AFD \
+||1 "G"BAB "D/F#"AGF | "Em"EFE "A7"B2 \
+:|2 "G"BAB "A7"AGE | "D"FDD D2 |]
+S:https://www.folktunefinder.com/tunes/15180
+S:http://trillian.mit.edu/~jc/music/abc/jig/Tomtain_Brae_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Tomtain_Brae_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

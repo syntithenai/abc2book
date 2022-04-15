@@ -1,0 +1,62 @@
+X:687
+T:Tonada (CT 220)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+N:Se canta generalmente con acompaameinto de gaita.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 220
+M:2/4
+L:1/8
+Q:1/4=108
+K:Gm
+dd|:cA/B/ dd|c(A/B/) cc|A^F/G/ AA|G2 dd|
+cA/B/ dd|cA/B/ cc|A^F/G/ AA|[1 G2 dd:|[2 G2 cc|
+|A(^F/G/) AA|G2 cc|A^F/G/ AA|G2 cc|
+A^F/G/ AA|G>G cc|A/A/^F/G/ AB/A/|G2 z2||
+W:Csete conmigo, Pacha,
+W:si quies regal'l focicu:
+W:mazcars bon pan de escanda
+W:y bonos quesos d'afuega'l pitu.
+W:
+W:Tengo de mercat'un dengue,
+W:un refaxu y arrecaes,
+W:pa que les moces del pueblu,
+W:al vete, queden toes plasmaes.
+W:
+W:Tendrs fabes abondes
+W:con llacn, tucu y morciella;
+W:he llevate a Covadonga
+W:pa que la Virxen conmigo te vea.
+W:
+W:
+W:Yes mui feu, Casomiro,
+W:y yes bragu de les piernes;
+W:antes que les tos arrecaes,
+W:colingo filos de les oreyes.
+W:
+W:Antes que comer contigo
+W:bones fabes con morciella,
+W:quiero ms comer arbasu
+W:con Lin de Xuaca en La Ribera.
+W:
+W:Yo no voi a Covadonga,
+W:que ta mui lloe la tierra,
+W:que quiero dir a'nsiame
+W:con Lin de Xuaca a La Madalena.
+W:
+S:https://www.folktunefinder.com/tunes/59574
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Tobago Bound
+R: reel
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+Z: 2008 John Chambers <jc@trillian.mit.edu> (2nd part)
+M: C|
+L: 1/8
+N: 2nd part from the book "Reynardine" by Michael Raven.
+N: 1st part from handwritten MS of unknown origin, but the same as in "Reynardine".
+K: Ddor
+V:1
+|: "Dm"AddA "C"c2AG | "Dm"AddA "C"cAGE | "Dm"AddA "C"c3A | "C"GEcE "Dm"EDD2 :|
+[| "Dm"DEFG A2GF | "C"GFGA "Dm"FDD2 | "Dm"DEFG A2GF | "C"GFGA cAGE |
+|  "Dm"DEFG A2GF | "C"GFGA "Dm"FDDE | "F"FEFG ABcd | "A7"efge "Dm"fdd2 |]
+V:2
+|: "Dm"DEFD "C"E3E | "Dm"DEFD "C"EGG2 | "Dm"DEFD "C"E3D | "C"CDEC "Dm"EDD2 :|
+[| "Dm"Adde fdd2 | "C"cdec "Dm"Add2 | "Dm"Adde fdde | "C"gfed ecc2 |
+|  "Dm"Adde fddA | "C"cAGE "Dm"FDDE | "F"FEFG ABcd | "A7"efge "Dm"fdd2 |]
+S:https://www.folktunefinder.com/tunes/18221
+S:http://trillian.mit.edu/~jc/music/abc/reel/TobagoBoud_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TobagoBoud_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TobagoBoud_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TobagoBoud_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/TobagoBoud_Dm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:6452
+T:Tempo Waltz,The. CJF.217
+O:england
+M:3/8
+L:1/16
+Q:45
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:At the "1" mark, the beamed pair appear on the MS to have been
+N:semiquvers, but with an attempt to scratch out one of the beam bars.
+N:They are therefore shown as quavers. - PJH.
+K:G
+"p"(fg)|G2 (dB) c2-|cA (dc) (F2|G2) (fg) bg|"1".f2.a2 (fg)|\
+"p"G2 (dB) c2-|c.A (dc)(AB)|G2 (dB)(cA)|
+G4:||:"f"d2|(dc) a2 (.Ac)|(Bd) G4-|G3cAF|G2g2 d2|dc a2.c2|\
+cB g2 A2|A3ecA|G4:||:B2|
+(BG) (fg) G2|(AF) .D2.c2|.B2GB(dB)|(Ac)(ec)(Ac)|\
+(BG) (fg) G2|(cA) (^ga) A2|(dB)(ec)(fd)|g4:||
+S:https://www.folktunefinder.com/tunes/26904
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

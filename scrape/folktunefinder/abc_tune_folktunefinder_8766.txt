@@ -1,0 +1,22 @@
+X: 3
+P: Gubben och gumman
+C: efter David Bastviken
+Z: John Chambers <jc@trillian.mit.edu>
+O: N\"arke
+R: Hamburska
+M: 3/4
+L: 1/8
+K: G
+|: "G"{D}G2 (.B.B) d>G | "D7"F2  (.A.A) c>A | "G"G2 (Bd) c>A | "D7"F2 D4 :|
+|: "C"e2 (cB) c>e | "G"e2 (dc) B2 | "D7"c2 (A>G) FA | "G"G2 (Bd) g2 |
+| "C"e2 (cB) c>e | "G"d2 (BG) B>d | "D7"e2 (cA) F>A | "G"G2 G4 :|
+S:https://www.folktunefinder.com/tunes/8766
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hamburska2.abc
+% Rhythm Hamburska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

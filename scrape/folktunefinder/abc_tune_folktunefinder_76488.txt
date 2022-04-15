@@ -1,0 +1,23 @@
+X:3
+T: WER LIEBEN WILL MUSS LEIDEN
+N: E0617
+O: Europa, Mitteleuropa, Deutschland, Taunus
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | C4E,2A,4G,2 | G,2F,2z6
+B,C | D4F,2A,4G,2 | E,4z6
+G,2 | E4D2C4B,2 | B,2A,2z6
+A,2 | G,4C2B,2A,2B,2 | C4z6
+S:https://www.folktunefinder.com/tunes/76488
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

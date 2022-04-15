@@ -1,0 +1,39 @@
+X: 1
+T: On The Wings of a Dove
+C: Robert B. Ferguson
+M: 6/8
+L: 1/8
+K: G
+B Bcd \
+| "G"G3 G3 | z2B Bcd | "C"c3- c3 | z2c cBc \
+| "D7"A3- A3 | z2d edc | "G"B3- B3 | z2B Bcd |
+| "G"G3 G3 | z2B Bcd | "C"c3- c3 | z2e gf>e \
+| "G"{e}d3- d3 | "D7"z2D/D/ cF>A | "G"{A}G3- "C"G3 | "G"z2 B/B/ BAG |
+| "G"B3 B3 | "G7"B3 Bcd | "C"c3 c3 | c2e gf>e \
+| "G"{e}d3- d3 | "D7"z2D/D/ cF>A | "G"{A}G3- "C"G3- | "G"Gz |]
+W:
+W: When troubles surround us, when evils come
+W: The body grows weak, The spirit grows numb
+W: When these things beset us, God doesn't forget us
+W: He sends us His love On the wings of a dove
+W: 
+W: Chorus:
+W:    On the wings of a snow-white dove 
+W:    He sends His pure sweet love
+W:    A sign from above On the wings of a dove
+W: 
+W: When Jesus went down through the river that day
+W: Well, he was baptised in the usual way
+W: And when it was done God blessed His son
+W: He sent him His love On the wings of a dove 
+W:
+W: Chorus
+S:https://www.folktunefinder.com/tunes/13737
+S:http://trillian.mit.edu/~jc/music/abc/hymn/OnTheWingsOfADove_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/OnTheWingsOfADove_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

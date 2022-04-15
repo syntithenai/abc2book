@@ -1,0 +1,22 @@
+X: 31
+T: Eichelober (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: Ab
+|: E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] [cA] E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] z :|
+|: [AC] \
+| "Db"[d-F] [d-D] [dA] | "Ab"[c-E] [c-C] [cA] || "Db"[d-F] [d-D] [dA] | "Ab"[c-E] [c-C] E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5078
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Mr Warwick's Mask
+C: Anon.
+N: Recommended for True Kit
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: MS of unknown origin
+M: C
+L: 1/8
+%Q: 1/4=100
+K: Am
+|:"Am"e3 e c3 c | "Dm"Bc AB "E"^GA BE \
+|  "C"e2 de "Am"cd e2 | "Dm"e2 d2 "E"e4 :| \
+[| "C"e2 e2 "G"g3 f | "C"ee dc "G"d3 d |
+|  "C"ed cB/c/ "G"dA Bc | "Dm"de "Am"cd "E"B3 B \
+|  "E"^GA B2 E^F G2 | "Am"AB cd "Em"B3 B \
+|  "F"AB c2 "Dm"de f2 | "Am"cd "E"B>A "Am"A4 |]
+S:https://www.folktunefinder.com/tunes/17721
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrWarwicksMask_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MrWarwicksMask_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:526
+T: "Leichter Trost"
+N: Z1206
+O: Europa, Mitteleuropa, Tirol
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+G2 | G2B2d2g2 | d4B2
+B2 | d2c2c2F2 | G2B2
+d4 | D2a2f4 | d2b2
+g4 | c2a2A2f2 | g4z2
+G2 | G2B2d2g2 | d2B2B2
+B2 | d2c2c2F2 | G2B2
+d4 | c2a2f4 | d2b2
+g4 | c2a2A2f2 | g6
+G2 | G2E2E2E2 | c4c2
+c2 | F3FF2G2A2 | B6
+B2 | G2B2d2g2 | d3BB2
+B2 | d2c2c2F2 | G2B2
+d4 | c2a2f4 | d2b2
+g4 | c2a2A2f2 | g4z2
+G2 | G2E2E2E2 | c4c2
+c2 | F3FF2G2A2 | B6
+B2 | G2B2d2g2 | d3BB2
+B2 | d2c2c2F2 | G2B2
+d4 | c2a2f4 | d2b2
+g4 | c2a2A2f2 | g4z2
+S:https://www.folktunefinder.com/tunes/69385
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

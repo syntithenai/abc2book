@@ -1,0 +1,31 @@
+X:53
+T: Ave Maria, S. 17f
+N: L0014
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+N: besteht aus zwei Teilen, 1. T. im 4/4, 2. T. im 3/8;
+N: Taktart FREI notiert, da sonst Fehlermeldung in Mammut
+R: geistliches, religi\^ises Lied]
+M: 3/8
+L: 1/16
+K: F
+c4 | F6F2A2G2F2G2 | A4G2A2B2A4z4
+c8B6A2 | G2F2G2A2F4
+C4 | F6F2A2G2F2G2 | A4G2A2B2A4z4
+c8B6A2 | G2F2G2A2F4z2
+GA | B6 | c4B2 | A3GAB | G4G2 | A4
+A2 | B2A2G2 | c4d2 | c6
+B6 | A3GAB | A6 | G4E2 | F4z8
+S:https://www.folktunefinder.com/tunes/70183
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches, religi%C3%AEses lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

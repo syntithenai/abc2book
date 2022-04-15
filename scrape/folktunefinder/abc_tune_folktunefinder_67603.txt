@@ -1,0 +1,33 @@
+X:105
+T:Princess Royal
+% Nottingham Music Database
+P:AABCBCB
+S:Bampton
+M:4/4
+L:1/4
+K:Gm
+P:A
+d/2c/2|"Gm"B"D"A "Gm"Gd/2c/2|"Gm"B"D"A "Gm"GB/2d/2|"Cm"ec c/2d/2e/2c/2|\
+"Gm"dd/2c/2 B/2A/2B/2d/2|
+"a"c"g"B "f"A"e"G|"Bb/d"F/2G/2F/2D/2 Bd/2c/2|"Cm"BA/2G/2 "D7"Fd|"Gm"G2 G:|
+P:B
+"Gm"bb ba/2b/2|"Cm"c'c c2|"Gm"b/2a/2g/2f/2 "Cm"e/2d/2c/2B/2|"F"A/2c/2F F"D7"^F\
+|"Gm"GG/2A/2 "D7"B/2B/2B/2c/2|
+"Gm"dd g2|"Dm"fd "Cm"e2|"Dm"dB "Cm"c2|"Gm"d/2c/2B/2A/2 "D7"G/2A/2B/2c/2|\
+"Gm"dG Gd/2c/2|"Cm"BA/2G/2 "D7"Fd|"Gm"G2 G:|
+P:C
+"Gm/bb"dc "Cm"B2|"D7"A2 "Gm"G2|"Gm/bb"dc "Cm"B2|"D7"A2 "Gm"G2|"Gm/bb"Bd "Cm"e2\
+|"Cm"c2 cd|"Cm"ec "Gm"d2|
+"Gm"B2 B/2A/2B/2d/2|"a"c"g"B "f"A"e"G|"Bb/d"F/2G/2F/2D/2 Bd/2c/2|\
+"Cm"BA/2G/2 "D7"Fd|"Gm"G2 G:|
+S:https://www.folktunefinder.com/tunes/67603
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/morris.abc
+S:http://www2.redhawk.org:8080/irish/nmd/morris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

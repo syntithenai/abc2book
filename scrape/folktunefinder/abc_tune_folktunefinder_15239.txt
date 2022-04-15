@@ -1,0 +1,27 @@
+X: 1
+T: Was there e'er such a lassie as I
+R: jig
+B: RSCDS 17-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Old Song"
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G/A/BB BAG | Bdd d2B | "Am"ceA "G"BdG | "D7"cEF "G"G2 :| B/c/ | "G"dBB "/F"dBB | "Em"GEE E2F/G/ |
+| "D"AFF "(A7)"dAA | "D"FDD D2B/c/ | "G"ded "/F"dgd | "Em"BGG G2c/d/ | "Am"efe "A7"eag | "D"fdd d2B/c/ | "G"dBB "/F"dBB |
+| "Em"GEE E2F/G/ | "D"AFF "(A7)"dAA | "D"FDD D2B | "Am"cec "G"BdB | "A7"ABG "D7"FED | "Am"c/d/eA "G"B/c/dG | "D7"cEF "G"G2 |]
+S:https://www.folktunefinder.com/tunes/15239
+S:http://trillian.mit.edu/~jc/music/abc/jig/WasThereEeeSuchALassieAsI.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/WasThereEeeSuchALassieAsI.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WasThereEeeSuchALassieAsI.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WasThereEeeSuchALassieAsI.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/WasThereEeeSuchALassieAsI.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

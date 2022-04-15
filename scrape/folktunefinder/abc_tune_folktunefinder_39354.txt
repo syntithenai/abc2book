@@ -1,0 +1,31 @@
+X: 28
+T: Upon a Summer's Day
+B: Barnes (Fm)
+M: 6/8
+L: 1/8
+R: Jig
+K:Emin
+P:A1
+B|"Em"B2B G2E|B3-B2 c/d/|e2d "(D)"e2f|"(G)"g3-g2 G|
+"G"G2G F2E|"D"d3 "Em"e3|"Bm"f2G F2E|"Em"E3-E2B|
+P:A2
+"Em"B2B G2E|B3-B2 c/d/|e2d "(D)"e2f|"(G)"g3-g2 G|
+"G"G2G F2E|"D"d3 "Em"e3|"Bm"f2G F2E|"Em"E3-E2f||
+P:B1
+"Bm"f2f d2B|f3- f2d|"Em"e2d "D"e2f|"G"g3-g2 G|
+"Em"G2G F2E|"D"d3 e3|"Bm"f2G F2E|"Em"E3-E2f|
+P:B2
+"Bm"f2f d2B|f3- f2d|"Em"e2d "D"e2f|"G"g3-g2 G|
+"Em"G2G F2E|"D"d3 e3|"Bm"f2G F2E|"Em"E3-E2f|
+P:B3
+"Bm"f2f d2B|f3- f2d|"Em"e2d "D"e2f|"G"g3-g2 G|
+"Em"G2G F2E|"D"d3 e3|"Bm"f2G F2E|"Em"E3-E2|]
+S:https://www.folktunefinder.com/tunes/39354
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: the London Hornpipe
+T: Navvy on the Line
+O: Trad
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: G
+Bc | "G"dgfe dcBA | "G"GBDG B2AG | "D"FADF A2GF | "G"GDEF GABc | "G"dgfe dcBA |
+| "G"GBDG B2AG | "Am"FGAB "D7"cdef | "G"g2g2 g2 :: AG | "D"FADF | A2GF | "G"GBdG B2AG |
+| "D"FADF A2GF | "G"GDEF GABc | "G"dgfe dcBA | "G"GBDG B2AG | "Am"FGAB "D7"cdef | "G"g2g2 g2 :|
+S:https://www.folktunefinder.com/tunes/13618
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/LondonHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LondonHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/LondonHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LondonHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/LondonHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/LondonHp_G.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

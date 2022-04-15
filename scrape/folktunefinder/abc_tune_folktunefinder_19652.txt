@@ -1,0 +1,22 @@
+X: 1
+T: the Scotsman in America
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D2 | "G"G2  G>A B<d b>a | "C"g<e e>g "G"dd | "Am"e>c A<c "G"d>B GG F>E "D7"D>C B,>A, |
+y2 | "G"G,2 G>A B<d b>a | "C"g<e e>g "G"dd | "Am"e>c A<c "G"d>B GD E>F "G"G2 |]
+c2 | "G"B<d d>e d>B A>G | "C"c<e e>d e>f g>d | "G"B<d d>e "Em"d>B G>B | "A7"A>G F>E "D7"D>C B,>A, |
+y  | "G"G,2 d>e d>B A>G | "C"c<e e>d e>f g>d | "G"B<d d>e "Em"d>B G>B | "D7"A>D E>F "G"G2 |]
+S:https://www.folktunefinder.com/tunes/19652
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ScotsmanInAmerica_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ScotsmanInAmerica_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

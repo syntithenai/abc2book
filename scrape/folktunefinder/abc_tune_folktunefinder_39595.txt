@@ -1,0 +1,21 @@
+X:2
+T:A Tip Of The Hat, Schottische
+R:schottis
+C:Bruce Osborne (Apr.2006)
+Z:abc by bosborne@kos.net
+M:4/4
+L:1/8
+K:Fmaj
+AB|c2 cf A2 Ac|F2 FA C2 CB,|A,B,CF ABcf|gfef g2 AB|\
+c2 cf A2 Ac|F2 FA C2 CB,|A,CFA GFEG|FEFG F2:|
+|:AB|c2 cf A2 AB|c=Bcf a2 gf|ec=Bc Gc=Bc|fefg a2 AB|\
+c2 cf A2 AB|c=Bcf a2 gf|ec=Bc Gc=Bc|BGEG F2:|
+S:https://www.folktunefinder.com/tunes/39595
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

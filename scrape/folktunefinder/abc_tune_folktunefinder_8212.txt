@@ -1,0 +1,28 @@
+X: 7
+P: "615" polska efter Gunnar Orre (\"Alvdalspolska)
+R: \"Alvdalspolska
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS labelled "H-99"
+M: 9/8
+L: 1/8
+K: Am
+|:e2 ^g2 b2 a3  | a2  gage f2g \
+| f2e   d2e f2g | a2  fdfd e3  \
+| e2 ^g2 b2 a3  | a2  gage f2g \
+| f2   ed2f a2f | (2fe  e6    :|
+|:B2   cBcd e2c | B2 A2 B2 c3  \
+| B2   cBcd e2c | B2 A2 G2 E3  \
+| B2   cBcd e2c | B2 A2 B2 c3  \
+| B2   cBcd e2c | BGB   A6    :|
+S:https://www.folktunefinder.com/tunes/8212
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm A?lvdalspolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

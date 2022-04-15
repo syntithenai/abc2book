@@ -1,0 +1,35 @@
+X:2
+T:Fjellrilen
+R:reel
+D:Anon Egeland, 'Anon'
+Z:Manuel Waldesco
+S:Manuel Waldesco <mwal:wanadoo.es> tradtunes 2004-10-31
+O:Norway
+A:Agder
+M:4/4
+L:1/8
+K:A
+ef \
+|: a2A2 A2ce | a2A2 A2Bc | d2dd dfed | c2ee ecee | fdff fagf |
+| e^dee fe=dc | BAGA eBAG |1 A2A2 A2ef :|2 A2A2 A4 ||
+|: E2cc cBcd | efde fde2 | E2cc cBcd | efde fdee | e^dee f=dBG | A2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/17163
+S:http://trillian.mit.edu/~jc/music/abc/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Fjellrilen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Norway/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/Fjellrilen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tradtunes/Fjellrilen_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

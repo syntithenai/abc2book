@@ -1,0 +1,28 @@
+X: 2
+T: Ozhidanie
+T: Expectation Waltz
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+R: Waltz
+M: 3/4
+L: 1/4
+K: Em
+|: z B, || "Em"C2 B, | E2 F | G3- | G E F | G E F | G E G | "B7"F3- | F z B, | C2 B, | F2 G |
+| A3- | A F G | A F G | A B c | "Em"B3- | B Z B, | "Em"C2 B, | E2 F | G3- | G z E/F/ |
+| G z F/G/ | "D7"A z G/A/ | "G"B3- | B c B | "B7"A3- | A B A | "Em"G3- | G A G | "B7"F2 c | B2 ^D | "Em"E3- | HE :|
+|: B G || "Em"B3- | B B G | B3- | B c A | "Am"c3- | c c A | c3- | c F G | "B7"A3- | A G A |
+| "Em"B3- | B A G | "B7"F> Bc/B/ | ^D> Bc/B/ | "Em"E3- | E :| \
+|: e d || "D7"d3- | d c A |"G"B> B B | z =f e |
+|"E7"e3- | e d B | "Am"c> c c | z A B "D7"c3- | c A e | "G"d3- | d B G | "D7"D> FA/c/ | e2 d | "G"G3- | "d.C."G :|
+S:https://www.folktunefinder.com/tunes/7257
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Ozhidanie_lo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Waltz_Ozhidanie.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Waltz_Ozhidanie.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

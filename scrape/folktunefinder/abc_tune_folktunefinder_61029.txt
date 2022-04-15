@@ -1,0 +1,24 @@
+X:8996
+T:La Morvandelle
+R:marche
+C:trad.
+A:Morvan
+O:France
+M:2/4
+L:1/8
+Q:1/4=90
+K:C
+cBAG|c2c2|d>e dB|A2G2:|
+cdef|e2e2|d>c Bc|d4|defd|c2d2|G>G AB|c4||
+S:https://www.folktunefinder.com/tunes/61029
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

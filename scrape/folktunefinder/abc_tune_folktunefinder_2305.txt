@@ -1,0 +1,21 @@
+X: 1
+T: Guitar Chords
+M: 6/8
+K: G
+"Am"ABc "Dm"def | "Am7"ACE "Bb"DFF "G"GBB | "Em"g2b2"D7\nBb"c2d2 || "Eb"^e4|
+| "Gb"ede edc | def fed |1 "A"efg "D"gfe | e6 :|2 "G"gag "F"f"Em"e"D7"d | "C"c6 |]
+S:https://www.folktunefinder.com/tunes/2305
+S:http://trillian.mit.edu/~jc/music/abc/test/AChords.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/AChords.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Ach_test.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/AChords.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Ach_test.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/AChords.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Ach_test.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

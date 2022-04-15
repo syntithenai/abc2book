@@ -1,0 +1,36 @@
+X:7925
+T:Waltz. CJF.101
+O:england
+M:3/8
+L:1/16
+Q:40
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"From J.Johnson." is in title line. The 3rd note of 2nd bar was d2, not
+N:d1. No triplets are marked in the MS. Note marked  was d4. Last notes
+N:of 2nd & 3rd sections were G6 and e6 in MS. "C J Fox 1829" is written
+N:on the stave at the end. - PJH.
+K:G
+d>c|B>dg>fa>g|b>gd1zB2|((3cde) ((3fga) b>d'|c'>ba>gf>e|\
+d>gf>ga>g|b>gdzB2|(3cec (3AcA D>F|G4:|:G2|
+FAGABc|B>d d3g|gfedcB|BA A3G|FAGABc|B>d d3g|\
+gfagfe|d^cc2=c2|B>dg>fa>g|b>g ""d1zB2|
+((3cde) ((3fga) b>d'|c'>ba>gf>e|d>gf>ga>g|b>gdzd2|\
+(3cec B>AG>F|G4:|:ga|b3agf|fe e2g2|fa^dfBd|
+e^defga|b3agf|fe e2g2|(3faf (3^dfd B>d|e4:|:Bc|\
+{e}d6|f2g2e2|^c2d2d2|d4c|.c.d.e.f.g.a|edc2B2|B6{cB}|
+A4Bc|{e}d6|egfagfe|d2^c2=c2|B2A2c2|Bdgfed|cBAedF|F4EF|G4||
+S:https://www.folktunefinder.com/tunes/28377
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

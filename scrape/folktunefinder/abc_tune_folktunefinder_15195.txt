@@ -1,0 +1,38 @@
+X: 1
+T: den trekantede sl\ojfe
+O: Himmerland, Denmark
+S: efter Evald Thomsen og Thorkild Knudsen
+F: http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksl
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|: "D"dcA "G"GBd | "D"DFA "G"GBd | "D"dcA "G"GBd |1 "D"faf "G"gdd :|2 "D"faf "G"gz2 ||
+|| "G"gzg "D"aza | "G"bzg B2B/d/ | "D"cBc aag | "D"fef "G"gdd \
+|  "G"g2f/g/ "D"a2g/a/ | "G"b2g d2B/d/ | "D"cBc a2a/g/ | "D"fef "G"gz2 ||
+|| "G"BzB dzd | "D"cBA "G"BGG | "G"BBB ddd | "D"cBA "G"GDD \
+|  "G"BGB dBd | "D"cBA "G"BAG | "G"BGB dBd | "D"cBA "G"Gz2 ||
+|: "G"dcB dcB | "C"efg "G"ddd | "C"efg "G"dBd |1 "D"cBA "G"BAG :|2 "D"cBA "G"Gz2 ||
+|| "G"GzB "D"Azc | "G"Bzd/B/ GzB | "G"B2A "D"A>Bc/d/ | "C"ezd "G"d>cB/A/ \
+|  "G"GzB "D"Azc | "G"Bzd/B/ GzB | "G"B2A "D"AGF | "D"AGG "G"Gz2 ||
+|| "G"dcB "D"ABc | "C"edc "G"BAB | "G"dcB "D"ABc | "C"edd "G"dzB \
+|  "G"dcB "D"ABc | "C"edc "G"Bdg | "D"fed cBA | "G"Ggg gz2 ||
+|: "G"GBd gfe | "G"dBG DGB | "D"cAF DFA |1"G"GBd gfe :|2 "G"G2G G2 |]
+S:https://www.folktunefinder.com/tunes/15195
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksl
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksl
+S:http://trillian.mit.edu/~jc/music/abc/jig/TrekantedeSlojfe_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/TrekantedeSlojfe_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/TrekantedeSlojfe_G.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

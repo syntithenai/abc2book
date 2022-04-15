@@ -1,0 +1,46 @@
+X:3453
+T:Corri-Corri (sic) (CT 144)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille, transcrita en Arenas, ayuntamiento de Cabrales. (sic)
+N:Se conoce este baile con el nombre de Corri-corri, y se practica especialemnte en el pueblo de Arenas, el da de la festividad de San Juan, o bien en obsequio de algn ilustre huesped que por cualquier circunstancia especial visita dicho pueblo.
+N:Es el mayor agasajo y la mejor prueba de simpata que los naturales de Arenas creen poder ofrecer al distinguido visitante.
+N:Toman parte en este baile un solo hombre, denominado El Bailn, y varias mujeres.
+N:Inicia aqul el baile, haciendo genuflexiones y saludos a las mujeres, las cuales se muestran esquivas con el galn, rehuyndole.
+N:El las persigue con insistencia, cesando en su empeo ante la persistente esquivez de las mujeres.
+N:Ellas entonces se tornan mimosas e insinuantes;
+N:mas apenas en la cara del galn se dibuja una sonrisa que indica un credo triunfo, vuelven ellas a sus desdenes y hudas.
+N:Se acompaa la meloda de este baile con tambor y panderetas, y tanto la persona que canta como las que acompaan (casi siempre mujeres), estn situadas a corta distancia de los bailadores.
+O:Arenas (Cabrales) (sic)
+A:Asturies
+Z:Cancioneru de Torner 144
+M:2/4
+L:1/8
+Q:1/4=132
+W:Fuime a la mar y pesqu
+W:un pescadito en la rede,
+W:un pescadito en la rede;
+W:Ai! quien te pescara a t,
+W:nia de la saya verde.
+K:Gm
+^FG
+|BA ^FG|B2-Bc/4B/4A/4B/4|A4-|A z G^F|
+GB AA|G G-G2|z2 G^F|GB AA|GG ^FG|
+BA ^FG|B2-Bc/4B/4A/4B/4|A4-|A z G^F|
+GB AA|G G-G2 :||
+S:https://www.folktunefinder.com/tunes/29733
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

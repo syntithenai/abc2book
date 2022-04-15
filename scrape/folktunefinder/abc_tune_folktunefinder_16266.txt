@@ -1,0 +1,30 @@
+X: 1
+T: Algot och Beda
+C: Pelle Schenell
+M: 3/4
+L: 1/8
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+K: G
+|  "G" d2 d2 d2 | d/c/B/c/ d3 d | d>g B>d G>B | "Am"B>A ~A>^G A>B \
+| "D7"c2 c2 c2 | c/B/A/B/ c3 c | c>a f>d e>c | "G"c>B ~B>A B2 |
+|| "G" d2 d2 d2 | d/c/B/c/ d3 d | d>g B>d G>B | "Am"B>A ~A>^G A>B \
+| "D7"c2 c2 c2 | c/B/A/B/ c3 c | c>a f>d e>f | "G"g2 g2 z2 :|
+|: "G" B>A GB D2 | "Am"c>B Ac E2 | "D7"A>G FA D>F | "G"G>A B/A/B/c/ d2 \
+| "G" B>A GB D2 | "Am"c>B Ac E2 | "D7"F>A d>f a>f | "G"g2 g4 :| [K: C]
+|: "C"[e2c] [e2B] [e2A] | G>[ec] [e2c] z2 | "C"[e2c] [e2B] [e2A] | "G7"G>[fB] [f2B] z2 \
+| [f2d] [f2c] [f2B] | f>a a2 z2 | a>g f>e f2 | "C"a>g e>d e2 ||
+|| "C"[e2c] [e2B] [e2A] | G>[ec] [e2c] z2 | "C"[e2c] [e2B] [e2A] | "G7"G>[fB] [f2B] z2 \
+| [f2d] [f2c] [f2B] | f>a a2 z2 | a>g g>d B>d | "C"c2 c2 z2 :|
+S:https://www.folktunefinder.com/tunes/16266
+S:http://trillian.mit.edu/~jc/music/abc/pols/AlgotOchBeda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/AlgotOchBeda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/AlgotOchBeda.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

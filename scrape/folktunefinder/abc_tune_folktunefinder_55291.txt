@@ -1,0 +1,23 @@
+X:1
+T:63. Galliard: The Fairie-round
+T:Cantus
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:3/2
+K:C
+|:g2 e c2 A d2 B G2 c A3 d > c B c > B A G2 e d2 c B2 c
+f2 e d2 c B G c3 B c2 c c2 c :|
+|:G A B c > B A G2 A G2 f e2 d c2 B
+c > B A G2 e d2 e2 f e d4 c2 c e d2 c2 B2 B B2 B :|
+|:g2 G B2 c 
+d2 G d2 e f3 e d c B6  E F/ G/ A F G/ A/ B/ A/ G A/ B/ c A B/ c/ d/ c/ B G c3 B c2 c c2 c :|
+S:https://www.folktunefinder.com/tunes/55291
+S:http://www.laymusic.org/music/holborne/fairie/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

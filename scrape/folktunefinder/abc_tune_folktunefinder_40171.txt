@@ -1,0 +1,34 @@
+X:8
+T:Menuets
+T:1er Menuet
+M:3
+L:1/8
+K:Cm
+%%continueall 0
+%%staves [1 2]
+V:1
+ga !!(f3e/f/) | g2c2d2 | de f2!!d2 | efed c2 | e4!!d2 | f4!!ed | ef!!f3g | g6 :| 
+deuf3g | efug3a | fgua3g | !!f2B2b2 | ug2f2b2 | g2efga | bc'!!f3e | e3g!!fe | 
+uf2{e}d2g2 | !!ecagfe | fgagfe | !!d4G2 | (c4!!=B2) | (e4!!d2) | (gf/e/) !!d3c | c6 |]
+V:2
+e2!!(d3c/d/) | e4=B2 | Bcd2!!=B2 | c4G2 | c4!!=B2 | G2=A2=B2 | cd!!d3c | !!B6 :|=Bcd2!!=B2 | cde2c2 | deuf3e | !!d4d2 | e2d2B2 |
+e3def | ge!!d3e | e3edc | d2!!=B2G2 | c2fedc | defedc | !!=B3Bcd | (ue4!!d2) | (c4!!=B2) | (ed/c/)!!=B3c | c6 |]
+T:2me Menuet
+K:C
+V:1
+(ef/g/) !!d3e | {d}c2f2!!e2 | dedefg | !!e3d/e/c2 | (ef/g/)!!d3e | !!cBcdef | g2a2!!^f2 | ug6 :|
+(de/f/)!!e3d | ue2c2f2 | e2!!d2c2 | !!d2cdef | ug3ag2 | a3bab | c'e!!d3c | c6 |]
+V:2
+(cd/e/) !!B3c | A2B2c2 | BcBGAB | uc4G2 | (cd/e/)!!B3c | AGABcd | B2c2A2 | !!B6 :|
+(Bc/d/)!!c3B | c2A2B2 | c2B2A2 | !!B2cBcd | e3fed | c2f2d2 | (ed/c/)!!B3c | c6 |]
+S:https://www.folktunefinder.com/tunes/40171
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

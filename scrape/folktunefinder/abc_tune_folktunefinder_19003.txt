@@ -1,0 +1,54 @@
+X:1
+T:Sweet Lorraine
+M:4/4
+L:1/4
+C:C. Burwell
+Q:1/4=120
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x || "Gmaj7"x"F7"x "E7"x2 | "Am7"x2 "D7"x"D#dim7"x | "Em7"x2 "G7"x2 | "C7"x2 "B7"x2 |
+"Bb7"x2 "A7"x2 | "Am7"x2 "D7"x2 | "Gmaj7"x"F7"x "E7"x2 | "A7"x2 "D7"x2 ||
+V:melody
+^A || BBB2- | BA/B/ c/d/B/A/ | GGG2- | GF/G/ A/B/G/F/ |
+EEE2- | ED/E/ F/G/A/B/ | d4 | z3^A ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj7"x"F7"x "E7"x2 | "Am7"x2 "D7"x"D#dim7"x | "Em7"x2 "G7"x2 | "C7"x2 "B7"x2 |
+"Bb7"x2 "A7"x2 | "Am7"x2 "D7"x2 | "G6"x2 "C7"x"C#dim7"x | "G6/D"x2 "G7"x2 ||
+V:melody
+BBB2- | BA/B/ c/d/B/A/ | GGG2- | GF/G/ A/B/G/F/ |
+EEE2- | ED/E/ F/G/A/B/ | G4 | eded ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Cmaj"x2 "Bm7b5"x"E7"x | "Am7"x2 "C7"x2 | "F6"x2 "Bb7"x2 | "Am7"x2 "C7"x2 |
+"F7"x2 "E7"x2 | "Eb7"x2 "D7"x2 | "F7"x2 "E7"x2 | "Eb7"x2 "D7"x2 ||
+V:melody
+c/d/e/=f/ ed | ccc2 | c/d/e/=f/ e/dc/- | c4 |
+A/B/c/d/ cB | AAA2 | A/B/c/d/ cB/A/- | A3^A ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj7"x"F7"x "E7"x2 | "Am7"x2 "D7"x"D#dim7"x | "Em7"x2 "G7"x2 | "C7"x2 "B7"x2 |
+"Bb7"x2 "A7"x2 | "Am7"x2 "D7"x2 | "G6"x"F7"x "E7"x2 | "A7"x2 "D7"x2 |]
+V:melody
+BBB2- | BA/B/ c/d/B/A/ | GGG2- | GF/G/ A/B/G/F/ |
+EEE2- | ED/E/ F/G/A/B/ | G4- | G2z2 |]
+S:https://www.folktunefinder.com/tunes/19003
+S:http://trillian.mit.edu/~jc/music/abc/song/Sweet_Lorraine.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/sweet_lorraine.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Sweet_Lorraine.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/sweet_lorraine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

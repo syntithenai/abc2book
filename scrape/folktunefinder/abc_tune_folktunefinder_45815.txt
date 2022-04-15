@@ -1,0 +1,46 @@
+X:21
+T:Ons Stuurman                           %title
+C:                           %composer
+O:                           %origin
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+K:F
+V:1
+P:intro  refrein
+"F"F>F F>G A4| "C" G>G G>A "G" B2 d2| "F" c3 A "G" B3 B| "F" A4||
+V:2
+F>F F>F F4| E>E E>E D2F2| A3F G3 E| F4||
+V:3
+F>F F>F F4| C>C C>C B,2 B,2| C3 C C3 C |F4 ||
+T:couplet
+c2|"F"c2c2d2A>A|"G" c2 B>BB2 d>d|"F" c2 c>B A2 F>G | A2 c>c "C" (G2c2)||
+W:
+W:Ons stuurman heeft er een vrouwtje getrouwd
+W:en je moest er eens weten hoe of het hem rouwt
+W:falderalderi, falderadera, hoera, hoera, hoera
+W:
+W:Want kousen stoppen dat kan ze niet
+W:En eten koken een groot verdriet
+W:falderalderi, falderadera, hoera, hoera, hoera
+W:
+W:O stuurman, kom eens met de fles
+W: En geef ons de man een borrel of zes
+W:falderalderi, falderadera, hoera, hoera, hoera
+W:
+W:Een borrel of zes is wel wat veel,
+W:maar geef ons dan maar twee voor ons deel
+W:falderalderi, falderadera, hoera, hoera, hoera
+W:
+W:O stuurman kom dan maar op met de kruik
+W: en geef ons dan maar een voor ons gebruik
+W:falderalderi, falderadera, hoera, hoera, hoera
+S:https://www.folktunefinder.com/tunes/45815
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:124
+T:Morning Dove Clog
+R:Clog
+C:Bruce Osborne  --  Apr.4 1995
+Z:abc by bosborne@kos.net
+M:2/4
+L:1/8
+K:A
+C/D/|E>A c>B|(3ABA E>C|D>F A>c|d2 (3FEF|\
+E>G B>c|d>B G>B|(3cBc (3ABA|E2 C>D|\
+E>A c>B|(3ABA E>C|D>F A>c|d2 (3FEF|\
+E>G B>c|d>B G>B|(3Ace (3aec|A3||\
+K:E
+G/A/|(3BcB (3GBG|(3EGE (3B,EB,|(3A,CE (3Ace|a2 (3cBc|\
+(3Bdf (3gfd|(3Bdf (3gfd|(3egf (3ebg|e2 G>A|\
+(3BcB (3GBG|(3EGE (3B,EB,|(3A,CE (3Ace|a2 (3cBc|\
+(3Bdf (3gfd|(3Bdf (3gfd|(3BcB (3AGF|E3||
+S:https://www.folktunefinder.com/tunes/39717
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

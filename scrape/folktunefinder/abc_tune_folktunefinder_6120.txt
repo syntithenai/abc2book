@@ -1,0 +1,22 @@
+X: 0
+T: Tango Poquito
+O: Mexico
+R: tango
+M: C
+L: 1/8
+P: Play twice in each key
+K: G
+"Intro"[|]^D \
+| "C"E2Gc ee zE | "G"D2GB dd zD | "D7"C2DF AA zF | "G"AG zkD kG ||
+S:https://www.folktunefinder.com/tunes/6120
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Tango_Poquito.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/Tango_Poquito.abc
+S:http://trillian.mit.edu/~jc/music/abc/Argentina/tango/Tango_Poquito.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hdr/Tango_Poquito.hdr
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

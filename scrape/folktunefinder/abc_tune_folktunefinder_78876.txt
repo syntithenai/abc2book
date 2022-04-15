@@ -1,0 +1,26 @@
+X:435
+T: IHR FRANZOSEN GEHT NACH HAUS
+N: E0356B
+O: Europa, Mitteleuropa, Deutschland, Hessen, Wetterau
+R: historisches Lied, Krieg gegen die Franzosen (1813 und 1871)
+M: 2/4
+L: 1/16
+K: D
+ | A,4A,4 | D2A,2F,2A,2 | A,6G,2 | G,4F,4
+A,4A,4 | D2A,2F,2A,2 | A,6G,2 | G,4F,4
+D,2F,2F,2A,2 | A,2E,2E,2E,2
+E,2G,2G,2B,2 | B,2A,2A,2A,2
+A,3A,A,2D2 | B,2B,2B,4
+C3CC2E2 | E2D2D4
+A,3A,A,2D2 | B,2B,2B,4
+C3CC2E2 | E2D2D4
+S:https://www.folktunefinder.com/tunes/78876
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen die franzosen (1813 und 1871)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

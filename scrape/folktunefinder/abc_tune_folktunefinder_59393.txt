@@ -1,0 +1,31 @@
+X:506
+T:Marcha Nupcial Asturiana (MG 24) (Arrg.)
+R:Marcha
+C:Versin de Pedro Pangua
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 24
+M:6/8
+L:1/8
+Q:1/4=120
+E:Nivel 2
+K:F
+~A|:"F"F2C "F"F2G|"Dm"A3 -"Dm"AcA|"C"G2G "C"{A/2}GEG|"F"c2A "F"F2~A|
+"F"F2C "F"F2G|"Dm"A3 -"Dm"AcA|"Bb"G2G "C"{A/2}GEG|[1 "F"F3 -"F"F2A:|[2 "F"F3 "F"{G/8C/8B,/8}C2C||
+"F"~A2A "F"~AGA|"Gm"cB~A "C"GFE|"Dm"DED "Dm"~DCD|"Bb"FE~D "C"C2F|
+"F"~A2A "F"~AGA|"Gm"cB~A "C"GFE|"Dm"DEF "C"~GEG|"F"F3 "C"C2{G/8C/8B,/8}C|
+"F"~A2A "F"~AGA|"Gm"cB~A "C"GFE|"Dm"DED "Dm"~DCD|"Bb"FE~D "C"C2C|
+"F"FCF "Gm"AFA|"Bb"cB~A "C"GFE|"Dm"~DEF "C"~GEG|"F"F3 -F2z|
+S:https://www.folktunefinder.com/tunes/59393
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

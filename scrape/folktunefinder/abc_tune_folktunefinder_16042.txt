@@ -1,0 +1,40 @@
+X: 1
+T: Bakmes fr\aan Kall
+O: Sweden
+C: arr. Alm Nils Ersson
+N: III Polka -- Bakmes
+Z: 2nd voice 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+N: ur Svenska L\aatar
+R: polka
+M: 2/4
+L: 1/16
+K: A
+N: l\aangsamt
+V: 1
+ce \
+| a2c2 c2ea | g2B2 B2(e2 | g2)g2  g2b2  | a2ec A2ce \
+| a2c2 c2ea | g2B2 B2(e2 | g2)g2 (gf)dB | A6 :|
+|: z2 \
+| E3A  c3{d}c   | B2c2 d4 | B2d2 f2g2 | a2(gf e)^de2 \
+| E3(A c2){d}c2 | B2c2 d4 | B2d2 f2g2 | g2a2 a2 :|
+V: 2
+E2 \
+| "A"A,2AG A2c2 | "E"B2G2 E2e2 | e2dc d2E2 | "A"E2cB c2A2 \
+| "A"A,2AG A2c2 | "E"B2G2 E2e2 | e2dc BAFG |  "A"A2E2 A,2 :|
+|: z2 \
+| "A"C2AG A2E2 | "Bm"D2F2 BAGF  | "E7"G2E2 d2B2 | "A"c2ed cBAG \
+| "A"A2CD E2A2 | "Bm"AGF2 B,2DF | "E7"G2E2 d2B2 | "A"d2cB c2 :|
+S:https://www.folktunefinder.com/tunes/16042
+S:http://trillian.mit.edu/~jc/music/abc/polka/BakmesFranKall_A_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/BakmesFranKall_A_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polka/BakmesFranKall_A_2V.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

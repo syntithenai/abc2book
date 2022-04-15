@@ -1,0 +1,29 @@
+X:5098
+T:Phillibelula
+O:england
+P:AAB
+S:Trad
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+fe|"D"dcdB A2GF|"G"EEFG "A7"A2Bc|"D"dBAA "A7"ddec|"D"d2f2 d2:|
+P:B
+de|"D"f2f2 "Bm"f2gf|"Em"gfe2 "A"e4|"Bm/f"d2d2 "E7/g"d2ed|\
+"A7"cB"g"A2 "f#"A2"e"Bc|
+"D"dd(3cBA "G"BcdA|(3"D"ded(3cBA "G"Bc"D/f"df|"Em"e2(3efg "A7"a2(3ABc|\
+"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/25550
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

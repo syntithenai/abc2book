@@ -1,0 +1,24 @@
+X: 1
+T: Bawa's Delight
+C: Ed Pearlman (1982)
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+a>g | "D"f>a g>f "A"f>g f>e | "Bm"d>e f>d  "G"B2  d>B | "D"A>G F>G "Bm"A>B d>e | "Em"f<a     g>f "A7"e2 ||
+a>g | "D"f<a g>f "A"f>g f>e |  "D"d>f e>d  "G"B2  d>B | "D"A>G F>G "Bm"A>B d>e | "A7"f>A     e>A  "D"d2 |]
+A>G | "D"F>D F>A "Bm"d2 e>f |  "G"g>e f>d "A7"B2  d>e | "D"f>A ~A2 "A7"g>A ~A2 |  "D"f>A     ~A2 "A7"e2 ||
+A>G | "D"F>D F>A "Bm"d2 e>f |  "G"g>e f>d "A7"B>c d>e | "D"f>A ~A2 "A7"g>A ~A2 |  "D"f>A "A7"e>A  "D"d2 |]
+S:https://www.folktunefinder.com/tunes/19191
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BawasDelightS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BawasDelightS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

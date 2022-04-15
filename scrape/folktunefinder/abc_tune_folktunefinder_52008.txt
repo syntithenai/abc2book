@@ -1,0 +1,28 @@
+X:6
+T:Waltz
+Z:Dave Holland <dave@biff.org.uk>
+S:St Chartier festival 2002
+M:3/4
+L:1/4
+Q:1/4=225
+K:C
+P:A
+"C"ege|"G"dfd|"C"cec|"G"dBG|"C"ege|"G"dfd|"Am"cec|"Em"B3|
+"F"AcA|"C"GcG|"G"B/d/ BA|"C"G3|"F"AcA|"C"GcG|"G"B/d/ BG|"C"c3||
+P:B
+"C"e c/e/ c/e/|"G"dBG|"C"ece|"F"f2f|"C"ece|"G"dBd|"C"ece|"G"d2e|
+"F"faf|"C"ege|"G".d.c.d|"C"e3|"F"faf|"C"ege|"G"dBc|"G"d3||
+P:C
+|:"Am"Ace|"Am"e>ce|"E"dcB|"Am"A3|"Am"Acd|"Am"e>ce|"G"dg^f|"C"e3|
+"F"=fab|"C"c'>e'c'|"G"g2d|"C"e3|"F"faf|"C"e3|"E"d/e/ d/B/ c/B/|"Am"A3:|
+S:https://www.folktunefinder.com/tunes/52008
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:10
+T:Voice overlap
+T:invisible and dashed bars
+M:2/4
+L:1/8
+%%staves (1 2)
+K:C
+V:1
+GGGG:GGGG|G2 G2[|]c4 GABc|
+V:2
+cBAG:FEDC|GD G>D[|]cBAG G4|
+V:1
+G3 GFE|A3 AGF|A3 AGF|B3 BAG|GAB G3|ABc A3|
+V:2
+GAB G3|ABc A3|GAB G3|ABc A3|A3 AGF|B3 BAG|
+V:1
+G6    |GFE D3|A6    |AGF E3|A6    |AGF E3|
+V:2
+GAB c3|G6    |ABc d3|A6    |GAB c3|G6    |
+V:1
+B6    |BAG G3|GAB c3|G6    |ABc c3|A6    ||
+V:2
+ABc c3|A6    |A6    |AGF E3|B6    |BAG G3||
+V:1
+A3 A3|A3 G3|G3 G3||^G3 ^GFE|_A3 _AGF|A3   AGF|
+V:2
+G3 A3|B3 F3|G3 A3||^GAB ^G3|_ABc _A3|^GAB ^G3|
+V:1
+FEDC F3/E/D|^C^D_E^F ^G^A_B^c|^C^D_E^F ^G^A_B^c|
+V:2
+GABc G3/A/B|^C^C^C^C ^C^C^C^C|^c^c^c^c ^c^c^c^c|
+S:https://www.folktunefinder.com/tunes/45424
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

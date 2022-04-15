@@ -1,0 +1,26 @@
+X:239
+%%topmargin 3cm
+T:Morag nighean Domhnuill duinn
+T:Marion, Brown Donald's Daughter
+T:Lord MacDonald's
+C:Sir Alexander Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G
+!mf!B | d3 e dB g2 | dB g2 aA AB | d^cde dB{/f}gB | (A/B/c) BA BGG :|
+B | !f!(DG).B.G (AG).B.G | (DG).B.G (AG).E.A | (DG).B.G (AG).B.G | DEDC B,G,G,G | (DG).BG (AG).BG |
+(DG).B.G AGEB | (cB)AG GFED | EFGA BGG |: B | !ff!d3 e dB g2 | dG g2 aA AB |
+d^cde dB g2 | (A/B/c) BA BGG :| g | !p!(dg).b.g (ag).b.g | (dg).b.g (ag).e.g | (dg).b.g (ag).b.g |
+dedc BGGg | !mf!(dg).b.g (ag).b.g | (dg).b.g (ag).e.a | !f!bagf gfed | efga bggb |]
+S:https://www.folktunefinder.com/tunes/70986
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:332
+%%topmargin 3cm
+T:Delvin House
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:C
+e | ~c2 Ge ~c2 GE | D>d-d>c B>GA>B | c>ed>e c>eA>c | G>AG>E Gc-c :|
+e/f/ | gece c(e/f/) ge | afdf d(f/g/) af | gece gecA | A>(fe>d) ecce/f/ |
+gece c(e/f/) ge | afdf c(f/g/) af | e>gd>e c>dA>c G>AG>E Gc-c |]
+S:https://www.folktunefinder.com/tunes/71361
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Delvin_House.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0332.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

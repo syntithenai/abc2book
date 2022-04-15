@@ -1,0 +1,34 @@
+X: 13
+T:We Won't Go Home, CJS
+M:6/8
+L:1/8
+Q:6/8=200
+A:Bidford
+P:A(AB3)2A2DC6
+K:G
+P:A
+G/A/|B2B BAB|c2c BcB|A2A AGA|B2A GDG|
+B2B BAB|c2d efg|d2c B2A|G3  G2 ||
+P:B
+G/A/|d2B e2B|d3-d GB|d2B e2B|d3-d GA|
+B2B BAB|c2c BcB|A2A AGA|B2A GDG|
+B2B BAB|c2d efg|d2c B2A|G3  G2 ||
+P:C
+M:4/4
+L:1/8
+GB|d2d2 d2ed|c2c2 c2AB|c2c2 c2dc|B2G2 G2AB|
+cBAG F2A2|dcBA G2d2|edcB AGFD|G2G2 GABc||
+"@alt C 7-8 (JG)"edcB AGFA|G2G2 G2||
+S:https://www.folktunefinder.com/tunes/75825
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

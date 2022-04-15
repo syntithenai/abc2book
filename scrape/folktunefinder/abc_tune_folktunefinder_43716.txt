@@ -1,0 +1,22 @@
+X:50
+T:Trip to the Ve Skerries
+C:Debbie Scott
+M:4/4
+K:E minor
+|: edBA B2 (3eee | edBA BGEF | G3 F GABd | g2 fg edBd | \
+edBA B2 (3eee | edBA BGEF | G3 F GABd | g2 fg e2 z2 ::
+K:A minor
+A,2 A,B, CDEG | FADE FGAF | G2 GF GABd | dcAG AGEC | \
+A,2 A,B, CDEG | FADE FGAF | G2 GF GABd | dcAG A2 z2 :|
+S:https://www.folktunefinder.com/tunes/43716
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/TripToTheVeSkerries_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

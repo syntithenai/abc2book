@@ -1,0 +1,25 @@
+X:234
+T: SPRICHST DU ZUM VOGEL KOMM IN MEIN HAUS
+N: B0282
+O: Europa, Mitteleuropa, Deutschland, Sachsen; Schleswig Holstein
+R: Stimmungs - Lied
+M: 4/4
+L: 1/8
+K: A
+EEE | c2A2zAGA | F2z3
+FFF | d2B2zEFG | A2z
+AA2GA | B2AGG2FG | F2z
+FF2GG | A2Ecc2Bc | A2z3
+AGA | FBABE2z2
+c3BB2A2 | A3GG2FF | E2FGA2z2
+c3BdcBA | G2FFE2FG | A2z3
+S:https://www.folktunefinder.com/tunes/78255
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

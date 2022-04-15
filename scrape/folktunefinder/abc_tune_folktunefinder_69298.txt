@@ -1,0 +1,30 @@
+X:439
+T: "Glaubens - Einheit"
+N: Z1119
+O: Europa, Mitteleuropa, Deutschland
+R: religioeses Lied
+M: 4/4
+L: 1/8
+K: D
+D2 | A2G2A2E2 | =F2E2D4
+A2A2d2=c2 | B2AB=c2B2 | A6
+B2 | =c2A2A2G2 | A2=F2E4
+D2E2F2G2 | A2G2=F2E2 | D4
+d2d2 | e2d2=cBA2 | d2c2d4
+e2B2=c2A2 | A2E2=F4 | E4
+A2G2 | A2B2=c2B2 | A2^G2A4
+B2d2A2=G2 | A2E2=F4 | E6
+G2 | =F2E2D2E2 | =F2G2A2
+E2 | =F2G2A2G2 | =F2E2D2
+S:https://www.folktunefinder.com/tunes/69298
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

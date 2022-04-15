@@ -1,0 +1,31 @@
+X: 1
+T: Denis Murphy's Polka
+O: Ireland
+R: polka
+C: Denis Murphy
+D: Planxty
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"f/g/f/e/ d/[e/c/]d/B/ | AD FA | "Em"GE e>d | "A7"cB BA |
+|  "D"f/g/f/e/ d/[e/c/]d/B/ | AD FA | "Em"GE "A7"e>f |1 "D"ed de :|2 "D"ed d>B ||
+|: "D"Af f/e/f | "G"Bg g/f/g | Af f/e/f/d/ | "Em"e/f/e/d/ "A7"cB |
+|  "D"Af f/e/f | "G"Bg g/f/g/a/ | "A7"ba gc |1 ed "D"d>B :|2 ed "D"d2 |]
+S:https://www.folktunefinder.com/tunes/15401
+S:http://trillian.mit.edu/~jc/music/abc/march/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/polka/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/DenisMurphysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/polka/DenisMurphysP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

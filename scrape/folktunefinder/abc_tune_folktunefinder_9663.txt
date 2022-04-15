@@ -1,0 +1,31 @@
+X: 2
+P: Bob McQuillen's Reel
+C: Aly Bain
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"B2Bc dcBA | GABG D2AB | "Am"cBcd edcB | "A7"AFG{F}E "D"D2GA |
+| "G"B2Bc dcBA | GABG DB,G,B, | "C"CDEC "D7"DGFA | "G"G2B2 G2 :|
+|: Bc \
+| "G"d2B2 gagf | "C"e2c2 c2AB | "Am"c2A2 "(A7)"abag | "D7"f2d2 d2Bc |
+| "G"d2B2 gagf | "C"ec~c2 "Am"ecec | "G"dBGB "D7"cAFA | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/9663
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGR13.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/CatchAsCatchCan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RabbiesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CatchAsCatchCan.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/CatchAsCatchCan.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/CatchAsCatchCan.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/CatchAsCatchCan
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

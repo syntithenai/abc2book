@@ -1,0 +1,31 @@
+X:149
+T:Guard Mount - Regulation Fife Calls 1776-1856, #3 *
+B:American Veteran Fifer, Regulation Fife Calls 1776-1856, #3
+M:C
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/4
+%%MIDI ratio 2 1
+Td8 -d4 z4|Te8-e4 z4|Tg8 Te8|THd8 z8||\
+K:D \
+M:3/8 \
+A|d2dcde|f2d2d2|e2B2c2|(d2f2)A2|(B2d2)G2|(A2d2)F2|E2A2c2|d4:||A2|
+gfedcd|e2efe2|fd ad fd|e4z2|gfedcd|e2d2c2|B2A2G2|A4:||FG|A2AGA2|B2d2B2|BAGABA|F2D2 FG|A2AGA2|B2g2e2|A2B2c2|d4||
+% Originaal had too many notes in 4th bar of second staff.  Teh z4 rest was shortened to z2. 
+% Original was as follows:
+%gfedcd|e2efe2|fd ad fd|e4z4|gfedcd|e2d2c2|B2A2G2|A4||FG|A2AGA2|B2d2B2|BAGABA|F2D2 FG|A2AGA2|B2g2e2|A2B2c2|d4||
+S:https://www.folktunefinder.com/tunes/39545
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

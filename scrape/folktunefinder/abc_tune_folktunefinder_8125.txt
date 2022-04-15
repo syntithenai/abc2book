@@ -1,0 +1,23 @@
+X: 15
+P: Lapp-Nisses polska (Sl\"angpolska fr\aan En\aanger/Bjur\aaker)
+O: efter Bengt Jonsson
+S: Bengt Jonsson
+R: polska, mazurka
+%Q: 1/4=126
+M: 3/4
+L: 1/8
+K: A
+|: "A"E>A A>A A>e | f>e c4 | E>A A>A A>e | "Bm"f>e d4 \
+| "E7"E>G G>B B>e | g2 g4 | "D"a>f d>f d>f | "A"fe c4 :|
+|: "A"e2 f>e c>B | A>c c>c c>c | "E7"B>B B>B B>B |1,3 "A"c>c c>c c>c :|2,4 "A"A2 A4 :|
+|: "D"~a>g a2 f2 | "(Bm)"~d>c d2 B2 | "E7"E>G B>[eE] G>B |1,3 "A"A>B c<d e2 :|2,4 "A"A2 A4 :|
+S:https://www.folktunefinder.com/tunes/8125
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+% Rhythm Polska, mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: Morsiusmarssi
+T: Wedding march
+C: Konsta Jylh\"a
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"F3E DFFA | fgfe d2c2 | "G"dedc B2A2 | "Em"G3F E4 \
+| "A7"A2Ac e2f2 | g3f e4 | {efg}a2c2 cBA2 | "D"f2d2 dcd2 |
+| "D"F3E DFFA | fgfe d2c2 | "G"dedc B2AB | "Em"B3A G4 \
+| "A7"efgf e2e2 | "D"abag fedf | "A7"efed c2A2 | "D"d4-"fine"d4 :|
+K: Dm
+|: "Dm"d6 f2 | "A7"^c6 e2 | "Dm"d2A2 F2A2 | "A7"E2A2 "Dm"D2F2 \
+| "A7"A,6 ^C2 | E2G2 F2E2 | "Dm"FED2 "Gm"GFE2 | "A7"A8 |
+| "Dm"A6 (3ded | "A7"^c2d2 e2f2 | "Gm"g6 (3fgf | "A7"e2d2 ^c2_B2 \
+| A2^c2 e2g2 | a2g2 f2e2 | "Dm"d2f2 "A7"A2^c2 | "Dm"d4-"da Capo"d4 :|
+S:https://www.folktunefinder.com/tunes/4356
+S:http://trillian.mit.edu/~jc/music/abc/Finland/March1.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/Morsiusmarssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/march/Morsiusmarssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/ganglat/Morsiusmarssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/march/Morsiusmarssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Morsiusmarssi.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

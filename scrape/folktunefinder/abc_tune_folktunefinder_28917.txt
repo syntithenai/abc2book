@@ -1,0 +1,21 @@
+X:2637
+T:Captian George Hunter
+R:strathspey
+M:4/4
+L:1/8
+K:Bm
+"A"|:"Bm"Fc d>c B>A | Fc d>c B2 | Fc "D"d>e f>d | "A"c<Ae>c "F#7"f/e/d/c/ "Bm"B2 :|
+"B"|:"D"d/e/f/g/ a>f "A7" (3efd (3 cBA | "D"d/e/f/g/ a>f d>f a2 | "G"(3gbg "D"(3faf "E7"(3efd "A7"(3cBA | "Bm"Fc d>c B2 :|
+S:https://www.folktunefinder.com/tunes/28917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

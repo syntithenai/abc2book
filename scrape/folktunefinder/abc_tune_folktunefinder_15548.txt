@@ -1,0 +1,51 @@
+X: 1
+T: Lord Mayo's march
+S: Lesl Harker <lmh@RCONS.COM> irtrad-l 2000-09-12
+D: John Doherty (Celebrated Recordings)
+D: Seamus Glackin on the Fiddlesticks Collection.
+D: Neilly Boyle on Folktracks.
+D: Mickey Doherty may have recorded it as well.
+D: Paul Bradley Atlantic Roar album.
+D: New Celeste Live
+D: Grainne Yeats double CD "The Belfast Harp Festival"
+D: Chieftains 4
+N: James Early and John McFadden from ca 1901-4, was reissued mistakenly as  a
+N: Patsy Touhey recording on a Skylark cassette.  D:Joanie Madden's "The Songs
+N: of the Irish Whistle" H:Bunting prints it as  a  song,  attributed  to  one
+N: David  Murphy,  in  the  service  of  Lord  Mayo  "long before the times of
+N: Carolan." The song is entitled "Inspiring  Fount  of  Cheering  Wine!"  The
+N: lyrics  (a  literal  translation  from the Irish, says Bunting) seem rather
+N: affected-- even to a wine loving Frenchman.
+W: Inspiring fount of cheering wine!
+W: Once more I see thee flow:
+W: Help me to raise the lay divine,
+W: Propitiate thy Mayo.
+W: Mayo! whose valour sweeps the field,
+W: And swells the trump of fame,
+W: May Heav'n's high power the champion shield!
+W: And deathless be his name!
+Z: RR,id:hn-march-8 for Ador version
+M: 2/4
+K: DDor
+A2 | \
+D2C2 D2E2 | A4 AGEG | A4 D2ED | CDCB, A,3A, | \
+D2C2 D2E2 | A4 c3B | A4 AGED |1 D6 A,2 :|2 D8 ||
+d2d2 cAcd | e4 edc2 | A2G2 GAc2 | C3D E2D2 | \
+d2d2 cAcd | e4 e2dc | A2G2 GAc2 | d6 c2 |
+d2d2 cAcd | e4 edc2 | A2G2 GAc2 | C3D C2A,2 | \
+DCDE G2E2 | D2C2 c3A | G4 EGED | D6 |]
+S:https://www.folktunefinder.com/tunes/15548
+S:http://trillian.mit.edu/~jc/music/abc/march/LordMayosMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/LordMayosMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/LordMayosMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LordMayosMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

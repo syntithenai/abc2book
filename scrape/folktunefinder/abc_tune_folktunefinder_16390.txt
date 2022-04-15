@@ -1,0 +1,36 @@
+X: 1
+T: Lejdel\aaten fr\aan Norrb\"arke efter Johan Gustafsson
+O: Sweden
+R: polska
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+N: "G\"obergs Johan", Smedjebacken.  Uppt. av Ingvar Norman.
+M: 3/4
+L: 1/8
+K: Am
+|: {f}e2 (ec) A>c | B>c {Bc}B>^G E2 \
+| E2 E^G BG | A(^G A)B cd \
+|  {d}e2 (ec) A>c | B>c {Bc}B>^G E2 |
+| E2 E^G BG | {^G}A2 A4 \
+:: E2 E^G AB | c2 (c>{dc}B) c2 \
+| {c}d2 d(c d)f | e>(f e)c A2 |
+|  E2 E^G AB | c>(d c)B (3cde \
+| f2 {g}fd Bd | {d}c2 c4 \
+:: {e}g>{ag}e {ga}g2 ge | g>e c'2 c'>e |
+| g>a g2 {a}gf/g/ | a>g f{gf}e d>(e \
+|  f)>{gf}e f>{gf}e fg | g>f b2 b2 \
+| a>g g2 g2 | e>(g f)>(d B)>d | {d}c2 c4 :|
+S:https://www.folktunefinder.com/tunes/16390
+S:http://trillian.mit.edu/~jc/music/abc/pols/LejdelatenFrNorrbarke_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/LejdelatenFrNorrbarke_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/LejdelatenFrNorrbarke_Am.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Lady Madelina Sinclair
+C: Niel Gow
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+(3fgf \
+| "A"e3A c3A cde2 "D"f4 | "A"e3A fedc "E7"B4- B3f \
+|  "A"e3A c3A cde2 "D"a4 | "A"eA3 "E7"c3B "A"A4 z2 :|
+fg \
+| "A"a3e f3e "D"fga2 "E7"gab2 | "A"agfe a3c "E7"B4- B2fg \
+| "A"a3e f3e "D"fga2 "E7"gab2 | "A"(3a2g2f2 "E7"(3e2f2g2 "A"a4 (3e2f2g2 |]
+y2 \
+| "A"a3f "E"g3e "D"f3d "A"e3c | "Bm"db3 "A"ca3 "E7"B4- B3d \
+|  "A"cde2 "D"f4 "A"cde2 "(D)"a4 | "A"~A4 "E7"c3B "A"A4 z2 |]
+S:https://www.folktunefinder.com/tunes/19499
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MadelinaSinclair.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MadelinaSinclair.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MadelinaSinclair.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/MadelinaSinclair.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/MadelinaSinclair.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/MadelinaSinclair.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

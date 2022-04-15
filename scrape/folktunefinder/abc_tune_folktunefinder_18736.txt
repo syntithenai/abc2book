@@ -1,0 +1,36 @@
+X:1
+T:Hallucinations
+M:4/4
+L:1/8
+C:Bud Powell
+Q:1/4=224
+S:Bud Powell - "The Genious of Bud Powell"
+K:F
+%%text (up)
+%%vskip 20
+P:A
+"C7"C-C2 DE|:"F6"FGEF "Bb7"D2 z"A7"^C-|C2 "D7"=C2 z"G7"=B,z2|"Gm7"zDF^G "C7"AE_DB,|
+"F6"FCz2 z2"B7b5"F2|"Bb7"_A2AA "Bdim7"GFz"Cm6"_E|z"D7"D3 z2A,"G7"C|
+[1z=B,zA, "C7"(3B,_DE A"F6"F-|F2"C7"C- C2DE:|[2z=B,zA, "C7"(3B,_DE A"F6"F-|F4 "Eb7b5"z3E||
+P:B
+"Dm7"F^CDE "G7"(3FGF ED|"Cm7"_E=B,CD "F7"(3EFE DE|"Bbm7"_DA,B,C "Eb7"(3_D_ED CB,|"D7"A,Dz2 z3A,|
+"Gm6"G,B,DB, "F#dim7"A,C_EC|"Gm7"B,DGF "C7"EGcB|"Am7"AG^FA "D7"dcBA|"Gm7"BGzc- "C7"c2(3CDE||
+P:A
+"F6"FGEF "Bb7"D2 z"A7"^C-|C2 "D7"=C2 z"G7"=B,z2|"Gm7"zDF^G "C7"AE_DB,|"F6"FCz2 z2"B7b5"F2|
+"Bb7"_A2AA "Bdim7"GFz"Cm6"_E|z"D7"D3 z2A,"G7"C|z=B,zA, "C7"(3B,_DE A"F6"F-|"    (C7)"F8||
+%%text interlude
+"Bm7b5"f2f2 "E7"B=Bz"Am7b5"_e-|e2z"D7"d zcz"Gm7b5"B-|B2zC "C7"DFGA-|"F6"A8|z8|"Gm7 C7"z8"A7"|]
+S:https://www.folktunefinder.com/tunes/18736
+S:http://trillian.mit.edu/~jc/music/abc/song/Hallucinations.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/hallucinations.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Hallucinations.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/hallucinations.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

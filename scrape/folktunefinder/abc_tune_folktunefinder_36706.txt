@@ -1,0 +1,23 @@
+X:3135
+T:den Lille Vendelbo
+M:4/4
+O:Denmark
+R:Hopsa
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008fb.html
+%%ID:000008fb
+K:G
+B | \
+dddd dBGB | dcBc A3f | aaaa afdf \
+|1agfg d3 :|2 a2g2 G4 ::\
+G2A2 BdG2 | ABAF GBD2 | G2A2 BdG2 | ABAF G2z2|\
+gggg fce2 | eeee dGB2 | dddd cBA2 | ffef g3 :|
+S:https://www.folktunefinder.com/tunes/36706
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:9
+T: Doen Hanselijn over der heiden reet
+N: L0063
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 No. 69
+R: Lied
+M: 3/4
+L: 1/8
+K: E
+E2 | =G3GG2 | =G3GG2 | A4=G2 | A4
+A2 | =c4c2 | B2A4 | =G3=FE=D | E4
+E2 | A4A2 | A4A2 | =G4E2 | =C4
+C2 | =G4G2 | E2=F2=G2 | A6 | =G4=c2 | B3A=G=F | E4
+S:https://www.folktunefinder.com/tunes/80008
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:744
+T:Xiraldilla (CT 008)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Estribillo, transcrito en Cenera, ayuntamiento de Mieres.
+N:Sirve como baile en las xiraldillas, y se aplica indistintamente a cualquier meloda propia para la rueda.
+A:Asturies
+O:Cenera (Mieres)
+Z:Cancioneru de Torner 008
+M:2/4
+L:1/8
+Q:1/4=152
+K:C
+GG GG|B2 BB|A2 AA|G2 G2|GG GA|B2 BB|
+A2 AA|G2 G2|BB Bc|d2 dd|c2 BA|G2 G2|
+W:Con los tus manteles
+W:y la mi anguarina
+W:vamos a la sombra
+W:de la verde oliva,
+W:y por cabecera
+W:la tu mantillina.
+W:
+S:https://www.folktunefinder.com/tunes/59631
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

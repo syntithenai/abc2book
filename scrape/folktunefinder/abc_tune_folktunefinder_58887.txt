@@ -1,0 +1,52 @@
+X:76
+T: Mairi's Wedding
+C: Johnny Bannerman, 1935
+H: Written for Mary McNiven, born in 1908, and still alive in 1998.
+H: Her wedding to Captain John Campbell was actually six years later, in 1941.
+R: march
+Z: John Chambers <jc@trillian.mit.edu> (melody)
+M: C|
+L: 1/4
+K: D
+f "A"\
+|: "D"A>A AB | de f2 | "G"ed Bd | "A7"fe fa \
+|  "D"A>A AB | de f2 | "G"ed BG | "A7"A2 A2 |]
+"B1"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"a>a ab | ag f2 | "G"ed BG |1 "A7"A2 A2 :|2 "A"AB/c/ d/e/f/g/ |]
+"B2"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"A>A AB | de fg | "G"a>f "A7"fe | "D"d2 z2 |]
+W: Sist
+W:   'S i mo ghaol-sa Miri Bhn
+W:   Miri bhidheach sgeul mo dhin
+W:   Gaol mo chridh'-sa Miri Bhn
+W:   'S tha mi 'dol 'ga psadh
+W:
+W: 1. Thuit mi ann an gaol an raoir
+W:    Bha mo chridhe shuas air beinn
+W:    Miri Bhn ri m' thaobh a' seinn
+W:    Tha mi 'dol 'ga psadh
+W:
+W: 2. 'S ann aig cilidh aig a' Mhd
+W:    Thachair mise ris an igh'
+W:    'S ise choisinn am Bonn ir
+W:    'S tha mi dol 'ga psadh
+W:
+W: 3. Bi mo ghaol do Mhiri Bhn
+W:    Dleas, drachail gu brath
+W:    Seinnidh sinn d' a chil' ar grdh
+W:    'S tha mi dol 'ga psadh
+S:https://www.folktunefinder.com/tunes/58887
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

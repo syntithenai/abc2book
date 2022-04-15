@@ -1,0 +1,22 @@
+X: 1
+T: Moragh of Dunvegan
+R: waltz
+M: 3/4
+L: 1/4
+K: D
+"A7"Bc \
+|| "D"d3 | "G"d>cB | "D"A2D |    D3   |  "D"F3  |  "Bm"FEF | "Em"B2A | "A7"A>Bc |
+|  "D"d3 | "G"d>cB | "D"A2D |    D3   | "Bm"F2F | "F#m"A2F | "A7"E3  |  "D"D3  ||
+|| "D"F3 |     FED |    FA2 | "A"A>Bc |  "G"d3  |   "D"dcd | "Em"B2A | "A7"A3   |
+|  "D"F3 | "D7"FEF | "G"B2A | "D"A3   |  "G"B3  |   "D"BAF | "A7"E2D |  "D"D   |]
+S:https://www.folktunefinder.com/tunes/20095
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MoraghOfDunvegan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MoraghOfDunvegan.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:481
+T: JETZT FAHRN WIR UEBERN SEE
+N: E1737
+O: Europa, Mitteleuropa, Deutschland; Boehmen
+R: Scherz -, Spiel - Lied, Pfaenderspiel, Vexierspiel
+M: 2/4
+L: 1/16
+K: F
+C4 | A2A2A2B2 | c2dcc2
+A2 | B2B2c2B2 | z4
+C4 | A2A2A2B2 | c2dcc2
+A2 | B2B2c2B2 | A4z2
+c2 | d2c2B2A2 | B4G4
+B2G2B2B2 | c2f2A2
+c2 | d2c2B2A2 | B4G2
+c2 | c2c2c2c2 | z6
+c2 | d2c2B2A2 | B4G4
+B2G2B2B2 | c2f2A2
+c2 | d2c2B2A2 | B4G2
+c2 | c2c2c2c2 | F4
+S:https://www.folktunefinder.com/tunes/79585
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz -, spiel - lied, pfaenderspiel, vexierspiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Bellman's Jig
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"AEA cAc | "(E7)"e2d c2B | "A"AEA B2c | "Bm"d2c "E7"B2E \
+| "A"AEA cAc | e2d cdc | "Bm"Bcd "E7"EFG | "A"A2A A2 :|
+|: e \
+| "E7"dBB B2g | "A"aee e2e | "E7"dBB B2g | "A"aee e2c \
+| "D"ded "A"cdc | "Bm"BcB "Fm"ABA | "E7"GAB EFG | "A"A2A A2 :|
+S:https://www.folktunefinder.com/tunes/13855
+S:http://trillian.mit.edu/~jc/music/abc/jig/BellmansJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/BellmansJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BellmansJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BellmansJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BellmansJ_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

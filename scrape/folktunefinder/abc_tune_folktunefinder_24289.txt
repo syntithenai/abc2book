@@ -1,0 +1,35 @@
+X:3837
+T:Love's Delightful Hour. CJF.180
+O:england
+M:2/4
+L:1/16
+Q:90
+C:"Harts 12th Set"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the title line is "Harts 12th Set". "C J Fox 1830" is in the stave,
+N:after the tune. - PJH.
+K:G
+":$: p"B3cd2g2|e2g2d4|e2(fg) a3g|(fg)(ef) d2c2|\
+B3cd2g2|e2g2d4|e2(ba) (gfed)|(d4g2)h||
+"f"A2|{^c}d2{c}d2{^d}e2{d}e2|f2(af) (d2^d2)|e2(fe) (d^c)(BA)|\
+e2(fe) d2A2|{e}d>^cd>f {f}e>^de>g|f>ga>f (d2^d2)|
+e>fg>b {b}a>g{g}f>e|{e}d>^cd>e (d=c)(BA)|"p"B2c2g4|\
+d3B {d}c>Bc>A|B2g2 (agfe)|d3B {d}c>Bc>A|
+B2g2 (agfe)|d>gb>g {b}a>g" D Capo :$:"a>b|g6d2||
+S:https://www.folktunefinder.com/tunes/24289
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

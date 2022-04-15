@@ -1,0 +1,28 @@
+X:2
+T:40r. Dissi a l'amata mia lucida stella
+T:Alto.
+C:Cornelio Verdonchi
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+N:Original clef, C on third line
+K:F -8va
+%%MIDI transpose -12
+c4 d2 z f2 e f d c2 d > c =B c2 A f > e d g > f f3/2 e// d// e "A"f2 z f f e d c =B c2 =B
+S:https://www.folktunefinder.com/tunes/50552
+S:http://www.laymusic.org/music/bicinia/stella/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

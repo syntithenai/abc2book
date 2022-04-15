@@ -1,0 +1,25 @@
+X:5349
+T: Queen's Birthday, The
+O:england
+M:4/4
+L:1/8
+Q:160
+S:Playford
+A:English
+K:C
+c2 G2 E2 G2 |c4 G4|cd c2 de d2|ef e2 d4|c2 G2 E2 G2|c4 G2 c2|cdcd d3 c|c
+6 z2::\
+ef|g2 e2 c2 g2|a4 g4|fg f2 ef e2|dedc B2 ef|g2 e2 c2 g2|a4 g4|fgfe d2 g2
+|e3 d c4:|
+S:https://www.folktunefinder.com/tunes/25801
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

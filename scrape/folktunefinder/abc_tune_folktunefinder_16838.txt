@@ -1,0 +1,26 @@
+X: 1
+T: The Boys of the Loch
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+dB \
+| "D"AF~F2 A2AB | "D"defd "(A7)"efdB | "D"AFF2 "(Bm)"ABAF | "Em"EDEF "A7"E2DF |
+| "D"AF~F2 A2AB | "D"defd "(A7)"efdB | "D"AFF2 "(Bm)"ABAF | "A7"EDEF  "D"D2z :|
+|: de \
+| "D"faag fgfe | "G"dBBA GBdB | "D"AFF2 "(Bm)"ABde | "(Em)"fdgf "A7"e2fg |
+| "D"a2ag fgfe | "G"dBBA GBdB | "D"AFF2 "(Bm)"ABAF |   "A7"EDEF  "D"D2z :|
+S:https://www.folktunefinder.com/tunes/16838
+S:http://trillian.mit.edu/~jc/music/abc/reel/BoysOfTheLoch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BoysOfTheLoch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BoysOfTheLoch_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

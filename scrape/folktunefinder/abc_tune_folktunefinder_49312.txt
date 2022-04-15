@@ -1,0 +1,31 @@
+X:33
+T:Well Hall
+C:Playford, 1679
+M:3/2
+L:1/4
+K:Dm
+%P:
+%Q:
+P:A
+|: "F" A c d c f A | "C" G2 E2 "B" B2 | "F" A c d c f g | "Dm" a4 "C" g2 | "Dm" a g f c d f |  "Bb" d2 F2 "F" A2 | "Gm" G A B c A2 | "C" B3 c B2 :|
+|: "Bb" B F G F B | "Am" D3 B D2 | "Bm" E G A G A c | E3 c B2 | "F" A c d c f c | "Bb" d3 e/f/ g d | "C" e c A a f a | "F" f3 gf2 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

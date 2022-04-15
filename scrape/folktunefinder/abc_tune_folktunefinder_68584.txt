@@ -1,0 +1,26 @@
+X:38
+T: Vom jungen Grafen
+N: A0037
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie zuerst in Fr. Reichardts Musikal. Kunstmagazin 1782 S. 154.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: D
+A | D2E=F2G | A2AG2
+A | _B2AG=FG | A3-Az
+A | A_B=ccBA | A2GG2
+G | =FGAAGF | =F2EE2
+A | AG=FEDC | D3-Dz
+S:https://www.folktunefinder.com/tunes/68584
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

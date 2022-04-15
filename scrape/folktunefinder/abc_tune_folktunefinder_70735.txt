@@ -1,0 +1,29 @@
+X:605
+T: Hubertuslied (302), S. 624f
+N: T0492
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: mitgeteilt: hhh Heinrich Godefroid (Lehrer),
+N: von dessen Mutter erlernt
+R: geistliches Lied, Jgerlied]
+M: 6/8
+L: 1/16
+K: G
+D2 | G4B2A2G2A2 | B4A2G4
+A2 | B2d2B2A2B2A2 | G8z2
+Bc | d2d2d2B2A2B2 | c4B2A4z2 | B2d2B2A2c2B2 | G6B6 | A8z2
+Bc | d2d2d2B2A2B2 | c4B2A4
+A2 | B2d2B2A2B2A2 | G8z2
+S:https://www.folktunefinder.com/tunes/70735
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches lied, jgerlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

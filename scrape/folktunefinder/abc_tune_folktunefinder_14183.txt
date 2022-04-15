@@ -1,0 +1,21 @@
+X: 1
+T: The Fine Companion
+M:6/8
+L:1/8
+%Q:110
+R:Jig
+K:Dm
+d2f dda|c>de f>ed|a2g aag|ae4 d|eee e2d|c>de A2e|f2d c>de|1 d3 f3:|2 d3 f2d||
+cAA e2d|cAB A2e|fde fde|f3 g3|aaa c>de|ffe fda|ccd eca|d3 f3||
+S:https://www.folktunefinder.com/tunes/14183
+S:http://trillian.mit.edu/~jc/music/abc/jig/FineCompanion.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/FineCompanion.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/FineCompanion.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

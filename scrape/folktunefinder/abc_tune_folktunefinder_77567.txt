@@ -1,0 +1,31 @@
+X:29
+T:Ut Salamandra vivit igne sic lapis
+T:Like the Salamander the stone lives in the fire
+T:Fuga XXIX
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 26               % Atalanta
+V:2 program 1 71 transpose -12 % Golden Apple
+V:3 program 1 26 bass          % Hippomenes
+M:none
+L:1/4
+Q:1/2=108
+K:G dorian
+[V:1] z2 A2 FD B2  G2   c4      BB _e2 c2   z2 G2  E2 A4      GA  Bc d2   c2   A2|
+[V:2] d4    d2 d2  c4       d4      c4      B2 B2  c4     d2  d2  B4      c2   c2|
+[V:3] z4    z2 G,2 E,C, A,2 F,2 B,4    A,A, D2 B,2 z2 F,2 D,2 G,4    F,G, A,B, C2|
+%
+[V:1] G2  DE  FDEF     G A B2   z2  FG  AB c A  D2  G2   AG FE  D2   B2   c2 F2   G4    G8 |]
+[V:2] d2  d2  A4       G4       A4      c2 c2   B4       A4     B2   B2   A4      G2 G2 G8 |]
+[V:3] B,2 G,2 F,2 C,D, E,C,D,E, F,G,A,2 z2 E,F, G,A,B,G, C,2F,2 G,F,_E,D, C,2A,2 =B,4  =B,8|]
+S:https://www.folktunefinder.com/tunes/77567
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

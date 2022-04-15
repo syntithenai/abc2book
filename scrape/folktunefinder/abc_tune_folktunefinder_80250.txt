@@ -1,0 +1,26 @@
+X:191
+T: Kurze Passion Christi
+N: A0548
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 II No. 13. Variante von A0516.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: D
+A | _B2G2B2=c2 | d4d3
+d | =c2A2_B2G2 | A4z3
+G | A2d2=c2c2 | G2G2=F2
+_B2 | A2G=FG2FE | D4
+G4 | =FED2=C2c2 | A3=FG2FE | D4-D3
+S:https://www.folktunefinder.com/tunes/80250
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

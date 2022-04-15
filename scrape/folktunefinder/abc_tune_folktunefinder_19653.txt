@@ -1,0 +1,23 @@
+X:1
+T:Scott Skinner' Rockin' Step
+C:James Scott Skinner
+B:Harp & Claymore, 1903 (via The Scottish Violinist)
+Z:Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2001-02-22
+M:4/4
+L:1/8
+K:D
+e \
+| c>e A/A/e c>eA>e | c>e A/A/e A/A/e a>e | c>e A/A/e c/e/e A/e/e | G,/B/B g/B/B d2 d :|
+f \
+| e>a c>a A/A/A a2 | A/A/A a2 f2 e<a | e>a c>a A/A/A g2 | G,/B/B g/B/B d2 df |
+e>a c>a A/A/A a2 | A/A/A a2 f2 e/f/g | a/f/a g/e/g f/d/f e/c/e | G,/B/B g/B/B d2 d |]
+S:https://www.folktunefinder.com/tunes/19653
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ScottSkinnersRockinStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/ScottSkinnersRockinStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ScottSkinnersRockinStep.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

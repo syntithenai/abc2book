@@ -1,0 +1,34 @@
+X:9
+T:Steyrer Tanz in F, nr. 4
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in F
+N:um1800
+M:3/4
+L:1/8
+K:F
+V:1
+Ac |\
+Tc2 BGBd | TB2 AFAc | dc BGEC | FCA,CFA |\
+Tc2 BGBd | TB2 AFAc | dc BGEC | F4 :|
+V:2
+FA |\
+A2 GB,GB | G2 FA,CF | A2 GECB, | A,F,C,F,A,C |\
+A2 GB,GB | G2 FA,CF | A2 GECB, | A,4 :|
+S:https://www.folktunefinder.com/tunes/45443
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

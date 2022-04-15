@@ -1,0 +1,24 @@
+X:160
+T: ICH HABE DEN FRUEHLING GESEHEN
+N: E0739D
+O: Europa, Mitteleuropa, Deutschland, Pommern, Alt - Storken
+R: Liebes - Lied, Leid, Klage, Tod
+M: 4/4
+L: 1/8
+K: F
+FG | A2FFF2BA | A3GF2
+EF | G2ccd2cB | A4z2
+FA | c2ccd2de | f3ed2
+c2 | d2BGc2BG | F4z2
+S:https://www.folktunefinder.com/tunes/76645
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 238
+T:Der Freishutz Waltz. JaW.237
+M:3/4
+Q:90
+C:"Waltz Figure"
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+N:"Ber Freishutz Waltz" in MS..
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+.G.c.e|(ag).e.G.c.e|(ag).e.G.B.d|(gf).d.G.B.d|(fe).c.G.c.e|!
+(ag).e.G.c.e|(ag).e.G.c.e|(gf).d.G.B.d|(gf).d.G.B.d|c2z||!
+DGB|(ed)BDGB|(ed)BDGB|(dc)AD^FA|(cB)AD^FA|!
+(ed)BDGB|(ed)BDGB|(dc)AD^FA|G2z|]
+S:https://www.folktunefinder.com/tunes/47775
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

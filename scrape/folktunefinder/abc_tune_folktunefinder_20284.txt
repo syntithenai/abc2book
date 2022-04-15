@@ -1,0 +1,31 @@
+X: 1
+T: Vals "P\aa F\"abodvallen"
+C: Selim Bengtslars
+O: Malung
+M: 3/4
+L: 1/8
+K: D
+A2 \
+| "D"f3 gfe | d2 A2 F2 |   "G"G4   B2 |    d3 dcB \
+| "A7"A2 c2 e2 | g4 b2 | "(D)"a3  baf | "D"d4  A2 |
+| "D"f3 gfe | d2 A2 F2 |   "G"G4   B2 |    d3 dcB \
+| "A7"A2 c2 g2 | f4 e2 |   "D"d3 d d2 |    d4 :|
+|: "D7"d2 \
+|  "G"G2 BG BG | d2 c2 B2 | "D"A2 dA dA | f2     e2 d2 \
+| "A7"c2 ec ec | a2 a3  g | "D"f6       | d4 "D7"d2    |
+|  "G"G2 BG BG | d2 c2 B2 | "D"A2 dA dA | f2     e2 d2 \
+| "A7"c2 ec ec | a2 a3  c | "D"d3  d d2 | d4 :|
+|: A2 \
+|  "D"a2  a3  b | a3   gfe |    d2 d3 e |    d4 B2 \
+| "A7"A2  A3  c | e4    g2 |    g2 f3 e | "D"f4 A2 |
+|  "D"a2  a3  b | a3   gfe |    d2 d3 e |    d4 B2 \
+| "A7"A^G AB cd | e2 f2 e2 | "D"d3 d d2 |    d4 :|
+S:https://www.folktunefinder.com/tunes/20284
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValsPaaFabodvallen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/ValsPaaFabodvallen_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

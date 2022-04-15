@@ -1,0 +1,26 @@
+X:143
+T:Quick Dutch - Camp Duties #4 * 
+B:American Veteran Fifer - Camp Duties #4
+M:3/8
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/8
+%%MIDI ratio 2 1
+A4 FA|dcded2|e2d2e2|fefga2|A4 FA|dcded2|e2d2e2|d4:||:de|fgfedc|
+B4 cd|efedcB|A4 A2|dAFAdf|ecAceg|f2fgfe|d4:||\
+"^Drum Roll." c8|c8|c4z4|
+% time changes at the drum roll without proper notice, last bar of first repeat is too short. No repairs made.
+S:https://www.folktunefinder.com/tunes/39539
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

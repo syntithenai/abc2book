@@ -1,0 +1,38 @@
+X:488
+T:Lloraba una Cabraliega (CT 068)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Cangas d'Ons.
+N:Expresa la poesa la despedida del mozu quintado que deja sus amores en Cabrales.
+A:Asturies
+O:Cangas d'Ons
+Z:Cancioneru de Torner 068
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+B|:d2 B|d d d|e3/2 (3d/4e/4d/4 c-|c z B|d2 B|d d d|e3/2 (3d/4e/4d/4 c-|
+|c B A|G3|B B d|c2 A3/4B/8A/8|G3-|G z B:|
+W:Cuando sal de Cabrales (bis)
+W:lloraba una cabraliega.
+W:Ella lloraba por m (bis)
+W:y yo lloraba por ella.
+W:
+W:Nun llores nea, nun llores, (bis)
+W:nun llores nin tengas pena,
+W:qu'en cumpliendo los tres aos (bis)
+W:caso contigo, nea.
+W:
+S:https://www.folktunefinder.com/tunes/59375
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

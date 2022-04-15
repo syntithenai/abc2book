@@ -1,0 +1,24 @@
+X:555
+T:Cold, Haily, Windy Night
+C:Steeleye Span
+R:reel
+H:
+Z:
+M:4/4
+K:Am
+ED|"Am"CA,A,G, A,2 A,B,|"C"C2 CD EDDC|"Dno3"DEDC D2 DE|"Am"A2 AG EFED|
+"Am"CA,A,G, A,2 A,B,|"C"C2 CD EDDC|"Dno3"D2 cA GEDC|D2 "Am"E4 "Dno3"(3DED:|
+|:"Am"CA,A,G, A,3 E|A3 B A E3|"G"G3 E GE D2|"C"E2 EA "G"GEDE|
+"Am"CA,A,G, A,2 A,E|A3 B "(C159)"c2 BA|"C"G2 E2 "Dno3"DEDC|D2 "A159"E4 ED:|
+S:https://www.folktunefinder.com/tunes/67413
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

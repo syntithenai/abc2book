@@ -1,0 +1,30 @@
+X: 33
+T:Firs. JMP.033
+M:2/4
+L:1/8
+Q:200
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - no bar line her
+N:1 - No bar line her
+H:1799
+Z:vmp.C.  Graebe
+K:G major
+F>GAA | BAGF | FE/E/  EE "1" | E3 E |!
+ E>FGG | AGFE | FD/D/ DD | D3 :|!
+|:D | F3 A | F3 A | GE/E/ EE | E3 G |!
+E3G| EBAG |  FD/D/ DD | D3 :|]
+S:https://www.folktunefinder.com/tunes/1970
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

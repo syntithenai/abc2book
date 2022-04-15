@@ -1,0 +1,22 @@
+X:280
+%%topmargin 3cm
+T:The Perrie Werrie
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C lydian
+c | BGGA GAGc | BGGB {/f}gdec | BGGA GAGB | A=FFA {AB}c3 :| A | (B{/^c}d)(de) {/c}ded=c | (B{/^c}d)(de) {/f}gde=c |
+B{/c}d(de) {/c}dedB | A=FFA {AB}c3 A | (B{/^c}d)(de) {/c}de{/c}d=c | (Bd)de {/f}g3 d | gbeg dgBg | A=FFA {cd}c3 |]
+S:https://www.folktunefinder.com/tunes/71027
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

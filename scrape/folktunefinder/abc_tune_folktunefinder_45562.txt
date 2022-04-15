@@ -1,0 +1,34 @@
+X:128
+T:Steirer in D, Handschrift Franz Kahr, Steirisches Volkslied-Archiv 215/10
+R:Steirer
+C:traditionell
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Steirisches Volksliedwerk, Graz, undatet
+S:manuscript Franz Kahr, Graz, vor 1907, Steirisches Volkslied Archiv 215/10
+N:in der quelle in D, im buch in F, quelle und buch zweistimmig
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:C
+V:1
+|: Gc |\
+BG f3 B | cG e3 c | BG f3 B | ceagec |\
+BG f3 B | cG e3 c | BG f3 B | c4 :|
+V:2
+|: Ge |\
+dB a3 d | ec g3 e | dB a3 d | ecfece |\
+db a3 d | ec g3 e | dB a3 d | e4 :|
+S:https://www.folktunefinder.com/tunes/45562
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

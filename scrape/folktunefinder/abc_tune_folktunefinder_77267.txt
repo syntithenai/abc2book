@@ -1,0 +1,28 @@
+X: 74
+T:Red Wing
+M:4/4
+L:1/8
+Q:90
+C:American
+R:reel
+K:G
+D2E2F2|:[G,2G2] GGG2 B2|{B}[D6d6] [D2B2]|"C"c-d e2 ((3gag e2)|"G"[D6d6]B
+2|"C"cdcB A2c2|!
+"G" BcBA G2B2|[1"A"A2E2F2G2|"D"ABAG (3FGF D-F:|[2 "A"A2E2 "D"FED2 |"G"[G
+2B2] g2 (3fgf e2||!
+"C"[e4g4] [e3g3] [eg]|[e2g2] g2 ((3fgf e2)|"G"[d4g4] [B4g4]|z2 [d2g2] [e
+2g2] [d2g2]|"D"[d4f4] [A4f4]-|!
+z2 [d2f2][e2g2][d2f2]|"G"[d4g4] [B4g4]|z2f2-g2f|"C"[e4g4] [e3g3][eg]|[e2
+g2] g2 ((3fgf e2)|!
+"G"[d4g4] [B4g4]| z2[d2g2][e2g2][d2g2]|"D"[d4f4][A4f4]|z2 c2 ((3BcB A2)|
+"G"[G4B4] [G2B2] [G2B2] |[G2B2]g2 ((3fgf e2):|]
+S:https://www.folktunefinder.com/tunes/77267
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

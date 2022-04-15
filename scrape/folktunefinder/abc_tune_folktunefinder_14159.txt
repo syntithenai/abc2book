@@ -1,0 +1,30 @@
+X: 1
+T: Fairy Toddler Jig
+C: Graham Townsend
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+D/E/ \
+| "D"F2F FEF | DFA dcd | "G"Bcd "D"AFD | "Em"EFD "A7"CB,A, \
+| "D"F2F FEF | DFA dcd | "G"Bcd "D"AFD | "A7"EDC  "D"D2 :|
+|: f/g/ \
+| "D"afd A2f | "A7"gec A2g | "D"fed "Bm"Bcd | "Em"efd "A7"cBA \
+| "D"afd A2f | "A7"gec A2f | "G"gbg  "D"faf | "A7"gec  "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14159
+S:http://trillian.mit.edu/~jc/music/abc/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/FairyToddlerJig_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/FairyToddlerJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

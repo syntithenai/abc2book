@@ -1,0 +1,24 @@
+X:504
+T: AUF ES DUNKELT SILBERN FUNKELT
+N: F0959
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied; Rund - Tanz
+M: 3/8
+L: 1/16
+K: E
+ | B,4A,2 | G,2E,2E,2 | B,3CB,A, | G,2E,2G,B,
+E4D2 | E3FDF | E3B,G,B, | F,6
+B,3CDE | F4DF | E3FCE | D4B,2
+G4F2 | E3B,CD | EFG2F2 | E6
+S:https://www.folktunefinder.com/tunes/70064
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied; rund - tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

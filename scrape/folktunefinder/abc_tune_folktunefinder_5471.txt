@@ -1,0 +1,26 @@
+X: 1
+T: De-a-Lungul
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: A
+"A"\
+| "A"{E}A2B c2B A2E | "D"F3 "A"E3- E3 \
+| (4AGAB ce2 "F#m"dcA | "Bm"B3- B3- "E7"B3 |
+| "A"A2B c2B A2E | "D"F3 "A"E3 "F#m"e3- \
+| "Bm"(4efed "E7"cd2 B2c | "A"A3- A3- "fine"A3 |]
+"B"\
+|: "A"c2d e3 e3 | (4efcd e3- e3 \
+| "F#m"(4AGAB ce2 "Bm"dcA | "E7"B3- B3- B3 :|
+S:https://www.folktunefinder.com/tunes/5471
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DeALungul.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/DeALungul.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

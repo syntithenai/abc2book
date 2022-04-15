@@ -1,0 +1,23 @@
+X: 3
+P: Ice Blue Reel
+C: Theo MacGregor
+N: Somewhat modified by John Chambers
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: DE | "D"~F2dc "Bm"BAGF | "Em"~E2FD "A7"B,2FE | "D"DEFA "Bm"dcBA | "Em"~E2FD "A7"A2FG |
+      | "D"~A2dc "Bm"BAGF | "Em"~E2FD "A7"B,2DE | "D"FDFA "Em"GEGB | "A7"~D2FE "D"D2 :|
+|: DE | "Bm"~F2FE FABA | "G"GFED "A7"B,2DE | "Bm"~F2FE FAdc | "G"B4- "A7"B2de |
+      | "Bm"fedc BAGF | "G"BAGF "A7"E2DE | "D"FDFA "Em"GEGB | "A7"~D2FE "D"D2 :|
+S:https://www.folktunefinder.com/tunes/3457
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR57.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

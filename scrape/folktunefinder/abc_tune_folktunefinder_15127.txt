@@ -1,0 +1,34 @@
+X: 1
+T: Strayaway Child, The
+M: 6/8
+L: 1/8
+C: Michael Gorman
+S: Bothy Band
+R: jig
+K: G
+GA | BEE GEE | ~E3 G2 A | BEE A2G | FDF Adc |
+| BEE GEE | ~E3 G2 A | ~B3 B2A | GEE E2 :|
+A | Bee BdB | dBG AGA | Bee BdB | dBG A3 |
+| Bee BdB | dBG AGA | ~B3 B2A | GEE E2z |
+| Bee BdB | dBG AGA | Bee BdB | dBG A3 |
+| gfe dcB | AGA BGE | AGE DB,D | ~E3 E2z ||
+| EAG EDE | ~G3 BAG | AGE DB,D | ~E3 E2z |
+| EAG EDE | ~G3 BAG | AGE DB,D | ~E3 E2z :|
+| efe ded | cBA BGE | GAB dBB | AGED2c |
+| BAG EDE | GAB cBA | BAG EGF | ~E3 E2z :|
+| edB edB | AGA BGE | edB edB | AGA ~B3 |
+| edB gfe | dcB AGA | BAG EGF | ~E3 E2z :|
+S:https://www.folktunefinder.com/tunes/15127
+S:http://trillian.mit.edu/~jc/music/abc/jig/StrayawayChild.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/StrayawayChild_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/StrayawayChild_3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

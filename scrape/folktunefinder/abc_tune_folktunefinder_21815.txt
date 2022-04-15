@@ -1,0 +1,40 @@
+X:1366
+T:Cuckoo Solo. JMT122
+O:england
+M:4/4
+L:1/16
+S:J.Moore,Tyneside,1841.(86)
+R:Air
+A:Northumbria
+K:A
+c2-B2|A4E2G2 A2A,z2A2|B2c2d2e2 c2B2A2e2|E2e2E2e2 E2e2z2e2|E2e2E2e2 E2z2z
+2E2|
+EFGA B2c2 d2c2z2e2|ABcd e2a2 a2g2z2b2|b2ec d2b2 d2cB c2b2|c2BA BedB e2d2
+z
+2B2|
+ceee Beee ceee Beee|dfff Bfff dfff Bfff|
+Aaaa Baaa caaa Baaa|Aaaa Baaa caaa Baaa|
+AaAa BaBa caca BaBa|AaAa BaBa caca BaBa|
+AaBa caBa AaBa caBa| Aaca daca BaBa caBa|
+eagf edcB ABcd efge agaf|f4e4:||:g4|
+a2gf edcBA4z2A2|BAGF EDCA,A,4z2e2|eaga eaga eaga eaga|
+ebab ebab ebab ebab|ebbb ebbb ebbb ebbb|
+ec'bc' ec'bc' ec'bc' ec'bc'|ec'c'c' c'c'c'c' c'c'c'c' c'c'c'c'|
+ec'c'c' fc'c'c' gc'c'c' fc'c'c'|ec'c'cc' fc'c'c' gc'c'c' fc'c'c'|
+ec'ec' fc'fc' gc'gc' fc'fc'|ec'ec' fc'fc' gc'gc' fc'fc'|
+ec'fc' gc'fc' ec'fc' gc'fc'|gc'fc' gc'fc' gc'fc' gc'fc'|c'2c'b bagfe4z2e
+2|
+c2e2B2e2 c2e2B2e2| c2e2B2e2 c2e2B2e2 |dece BeAe dece BeAe |
+d2c2B2c2 dcBA GFED|EFGA B2c2 d2c2z2B2|Bcde e2a2 a2g2 E2Adc4B4A8|
+EFGA B2c2 d2c2z2B2|Bcde e2a2 a2g2 E2Ad|c4B4A2GF F2D2|D4B,4G,4|]
+S:https://www.folktunefinder.com/tunes/21815
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

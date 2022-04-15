@@ -1,0 +1,42 @@
+X:1
+T:Valse norvgienne
+E:12
+Z:Roger Ngaret (Novembre 98)
+R:valse
+C:Trad.
+S:
+A:
+K:C
+T:Thme
+M:3/4
+L:1/16
+K:C
+"Am"A8 A4 | c4 B4 A4 | e8 f4 | e12 | "D"f8 g4 |
+a4 g4 f4 | "C"e12 | "Em"e12 | "D"d8 d4 | f4 e4 d4 | "F"c8 c4 |
+"Am"A12 | "Em"B8 B4 | E4 F4 G4 | "Am"A12 | "G"G12 |]
+T:1er contrechant
+M:3/4
+L:1/16
+K:C
+"Am"A8 A4 | c4 B4 A4 | A8 C4 | C8 E4 | "D"F8 G4 |
+F4 E4 D4 | "C"C4 G4 C4 | "Em"E12 | "D"F8 G4 | A4 G4 F4 | "F"F12 |
+"Am"E12 | "Em"G8 G4 | B4 c4 B4 | "Am"E12 | "G"G12 |]
+T:2me contrechant
+M:3/4
+L:1/16
+K:C
+"Am"c4 d4 c4 | A4 E4 c4 | c4 d4 c4 | A4 B4 A4 |
+"D"A2B2 c2B2 c2e2 | f12 | "C"E2E2 G2E2 D2C2 |
+"Em"B,12 | "D"A2G2 F2F2 G2A2 | A12 | "F"F2E2 A2A2 G2F2 |
+"Am"E12 | "Em"E2^F2 G2E2 B2c2 | e12 |
+"Am"A2B2 c2A2 c2d2 | "G"d12 |]
+S:https://www.folktunefinder.com/tunes/40163
+S:http://termen.free.fr/danses/valses/Valsenorvegienne.abc
+% Rhythm Valse
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

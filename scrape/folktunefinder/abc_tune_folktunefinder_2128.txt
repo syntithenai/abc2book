@@ -1,0 +1,50 @@
+X:30
+T:Cristina Pato's total
+R:jig
+M:6/8
+L:1/8
+K:Dmaj
+|D D D D D D|D3 D3|D D D D D D|D3 D3|
+|:"D"DAA "D"DAA|"Em"GFG "Em"E2F|"Em"GFG "Em"EFG|"D"F/2G/2AF "D"DAA|
+"D"DAA "D"DAA|"Em"GFG "Em"E2F|"G"GFA "Em"GFE|1 "D"D4 AA:|2"Bm"D3 "Bm"DED||
+|:"Em"B4  FG  |"D"A4   EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"Em"B4   FG |"D"A4   EF|"Em"G2 G "Em"GFE|"Bm"D3 "Bm"DED|
+|:"G"B2 F "Em"G2 {d}(A|"D"A4)EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"G"B2 F "Em"G2 {d}(A|"D"A4)EF |"Em"G2 G "Em"GFE|"Bm"D3 "Bm"BdB||
+|:"D"DAA "D"DAA|"Em"GFG "Em"E2F|"Em"GFG "Em"EFG|"D"F/2G/2AF "D"DAA|
+"D"DAA "D"DAA|"Em"GFG "Em"E2F|"G"GFA "Em"GFE|1 "D"D4 AA:|2"Bm"D3 "Bm"DED||
+|:"Em"B4  FG  |"D"A4   EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"Em"B4   FG |"D"A4   EF|"Em"G2 G "Em"GFE|"Bm"D3 "Bm"DED|
+|:"G"B2 F "Em"G2 {d}(A|"D"A4)EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"G"B2 F "Em"G2 {d}(A|"D"A4)EF |"Em"G2 G "Em"GFE|"Bm"D3 "Bm"BdB||
+K:Gmaj
+|:GAB dBd |c2A cAF|DFA cAc|B2 B DBG|
+DGB dBd |c2A cAF|DFA cAF|1 ~G3 BdB:|2 ~G3 G2 A||
+|:BAB GAB |cBc EFG|(GA){B}A {G}AGA |BdB G2A|
+BAB GAB |cBc EFG|(GA){B}A DEF |1 ~G3 G2 A:|2 ~G3 BdB||
+|:GAB dzd |c2A cAF|DFA czc|B2 B DBG|
+DGB dzd |c2A cAF|DFA czF|1 ~G3 BdB:|2 ~G3 G2 A||
+BAB GAB |cBc EFG|(GA) (A2) (GA) |BdB G2A|
+|:BAB GAB |czc EFG|(GA){B}A DEF |1 ~G3 G2 A:|2 ~G3 BdB||
+GAB d2z |z2d cAF|DFA czz|zzz DBG|
+|:DGB dzd |c2A cAF|DFA cAF|1 ~G3 BdB:|2 ~G3 G2 A||
+BzB BAB |cBc EFG|A4 (GA) |BdB G2A|
+|:BzB BAB |cBc EFG|A3 DEF |1 ~G3 G2 A:|2 ~G3 G2z||
+K:Dmaj
+|:"D"DAA "D"DAA|"Em"GFG "Em"E2F|"Em"GFG "Em"EFG|"D"F/2G/2AF "D"DAA|
+"D"DAA "D"DAA|"Em"GFG "Em"E2F|"G"GFA "Em"GFE|1 "D"D4 AA:|2"Bm"D3 "Bm"DED||
+|:"Em"B4  FG  |"D"A4   EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"Em"B4   FG |"D"A4   EF|"Em"G2 G "Em"GFE|"Bm"D3 "Bm"DED|
+|:"G"B2 F "Em"G2 {d}(A|"D"A4)EF|"Em"G2 G "Em"GFG|"D"A3 "Bm"DED|
+"G"B2 F "Em"G2 {d}(A|"D"A4)EF |"Em"G2 G "Em"GFE|"Bm"D3 "Bm"BdB||
+S:https://www.folktunefinder.com/tunes/2128
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

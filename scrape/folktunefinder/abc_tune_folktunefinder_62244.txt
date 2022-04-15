@@ -1,0 +1,26 @@
+X:221
+T: HOERT IHR DEN SCHWAEBISCHEN WIRBELTANZ
+N: B0709
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied, Tanz
+M: 3/8
+L: 1/16
+K: C
+ | G,3CC2 | C2DCB,A, | A,3G,G,2
+C3CC2 | D2C2D2 | E4z2
+F2D2D2 | CB,A,G,A,B, | C2E2G2
+F2D2D2 | CB,A,G,A,B, | C4z2
+F2D2D2 | CB,A,G,A,B, | C2E2G2
+F2D2D2 | CB,A,G,A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/62244
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

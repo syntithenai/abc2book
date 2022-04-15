@@ -1,0 +1,27 @@
+X:795
+T:the Bride's march
+M:12/8
+O:Shetland
+R:Wedding march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009a9.html
+%%ID:000009a9
+K:G
+e |\
+gde gde gab {ab}age | gdB A2g fga e3 | \
+gde gde gab {cb}age |
+gdB (4ABcA BAG G2 :: c |\
+BGA Bgd (4BABd BAG | \
+{EF}ED2 D2g fga A2c |
+{c}BGA Bgd (4{c}BABd {c}BAG | EGA BdA {c}BAG G2:|
+S:https://www.folktunefinder.com/tunes/36238
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Wedding march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

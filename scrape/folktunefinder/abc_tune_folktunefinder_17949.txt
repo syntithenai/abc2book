@@ -1,0 +1,22 @@
+X: 1
+P: Larry O'Gaff
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+| "G"{def}g2G BAG | ded dBG | "C"cec "G"BdB | "D7"ABc def \
+| "G"g2G BAG | ded dBG | "C"cec "G"BdB | "D7"AGA "G"G2 :|
+|: d \
+| "G"dgg gfg | gfg "D"afd | daa aga | aga "G"b2a \
+| "G"gba "C"ged | "G"dge dBG | "C"cec "G"BdB | "D7"AGA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/17949
+S:http://trillian.mit.edu/~jc/music/abc/reel/Rapper4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

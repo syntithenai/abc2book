@@ -1,0 +1,28 @@
+X:4915
+T:Polska fr Vstergtland
+M:3/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b6d.html
+%%ID:00000b6d
+K:A min
+(ve|\
+"A"a2) (ef) de | c2 (AB) cd | (ea) (ef) de | c2 A2 z::
+uc|\
+"G"(cB) G2 Bd | "A"(dc) A2Ac | "G"(cB) G2 Bd | "A"c2A2 z:|
+(vc|\
+e2) (cd) Bc | A2 (E^G) AB | (ce) (cd) Bc | A2 E2 z::\
+uA|\
+(AG) D2 GB | (BA) E2 EA | (AG) D2 GB | A2 E2z:|
+S:https://www.folktunefinder.com/tunes/37062
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

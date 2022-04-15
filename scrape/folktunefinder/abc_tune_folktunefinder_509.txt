@@ -1,0 +1,28 @@
+X:50
+T:Lei ciucle
+O:France
+A:Provence
+C:Trad.
+R:Danse de caractre
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-03
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+F | B2c2 | d2zd | cBcd | ee ze | dfed | c2zF | B2c2 | d2zd | cBcd | ee zg | fe dc |B2z2::
+f2f2  | f2zf | ed ef | gg zg | fe dc | d/c/d/e/ d2 | f2f2 | f2zf | ed ef | gg zg | fe dc |B2z2 :]
+%%footer $D   Galouvielle-MBe 2008 \nDanse de caractre (France)
+S:https://www.folktunefinder.com/tunes/509
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

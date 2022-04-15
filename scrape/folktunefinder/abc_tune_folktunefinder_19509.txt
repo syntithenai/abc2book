@@ -1,0 +1,31 @@
+X: 1
+T: March of the Diehards
+B: Skye
+B: Cabbage
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+R: march, strathspey
+L: 1/8
+K: F
+|: c2 \
+| "F"f/g/f/e/ f>g a2 g>f | "Bb"d<f d<f "F"c>A F>A \
+| "Bb"B<d B<d "F"c>A F>A | "Gm"G>F G>A "C7"G2 c2 |
+| "F"f/g/f/e/ f>g a2 g>f | "Bb"d<f d<f "F"c>A F>A \
+| "Bb"B<d B<d "C7"c>f a>g | "Bb"f2- "Gm"f2- "F"f2 :|
+|: F>G \
+| "F"A<F c>A "Bb"f2 e>d | "F"c<A c>A "C7"G2 FG \
+| "F"A<c A<c "Dm"dc AF | "Gm"G>F G>A "C7"G2 F>G |
+| "F"A<F A>F "(Dm)"F>f e>d | "F"c<A c>A "C7"G2 F>G \
+| "Am"A<c A<c "C7"G>B A>G | "Bb"F2- "Gm"F2- "F"F2 :|
+S:https://www.folktunefinder.com/tunes/19509
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarchOfTheDieHards_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarchOfTheDieHards_F.abc
+% Rhythm March, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

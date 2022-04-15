@@ -1,0 +1,29 @@
+X: 1
+T: Willie Coleman's Jig
+T: Mice in the Cupboard
+R: jig
+M: 6/8
+L: 1/8
+K: G
+   A | "G"B2G "C"AGE | "D7"GED  "G"GBd | "(C)"edB  "G"dgb |  "Am"age "D7"dBA \
+     | "G"B2G "C"AGE | "D7"GED  "G"GBd | "(C)"edB "D7"dBA | "(G)"BGF  "G"G2 :|
+|: d | "G"gfg "C"edB |  "G"dgb "D7"age |   "G"gfg  "C"edB |   "G"GBd "D7"e2f \
+     | "G"gfg "C"edB |  "G"dgb "D7"age |   "G"dBd  "C"gdB |  "D7"AGF  "G"G2 :|
+S:https://www.folktunefinder.com/tunes/15263
+S:http://trillian.mit.edu/~jc/music/abc/jig/WillieColemansJ1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/WillieColemansJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WillieColemansJ1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WillieColemansJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/WillieColemansJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WillieColemansJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WillieColemansJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/WillieColemansJ_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

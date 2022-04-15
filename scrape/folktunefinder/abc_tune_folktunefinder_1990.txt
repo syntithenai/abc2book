@@ -1,0 +1,33 @@
+X: 53
+T:Gardiners Frolick. JMP.055
+T:Lilling Hall,aka. JMP.055
+T:Linnen Hall,aka. JMP.055
+M:6/8
+L:1/8
+Q:120
+C:"58"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Jig
+O:Scotland
+A:Perth
+N:Neither section has end bar lines.   The sign $ is written after the
+N:first section and  Da Capo after the secon
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+D | GAG A2 A | B2 c dBG | EFE c2 A | ABG FED |!
+ GAG A2 A | B2c dBG | EcB AGF | G3G3 :|!
+|:d2d e2e | d2g dBG | d2d e2e | dBG A3 |!
+d2d e2e | d2g fed | egf edc | ded "Da Capo"cBA :|]
+S:https://www.folktunefinder.com/tunes/1990
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

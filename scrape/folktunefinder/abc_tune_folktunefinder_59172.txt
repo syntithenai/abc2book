@@ -1,0 +1,45 @@
+X:285
+T:Danza d'El Carmen y San Pedro
+R:Danza
+C:Tradicional. Recoyo de Clemente Daz
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:"El Carmen" (La Villa) y "San Pedro" (Un)
+A:Asturies
+G:Arrg.
+Z:Revista Asturies
+M:2/4
+L:1/8
+Q:1/4=110
+E:2 Voces
+K:Dm
+V:1
+|D2 FA|A2 G^F|GG A2|BA G2|FEDD|
+z4|z4|z4|z4|z4|
+|D2 FA|A2 G^F|GG z2|z4|z4|
+|D2 FA|A2 G^F|GG z2|z4|z4|
+|D2 FA|A2 G^F|GG A2|BA G2|FEDD|
+z4|z4|z4|z4|z4|
+|D2 FA|A2 G^F|GG z2|z4|z4|
+|D2 FA|A2 G^F|GG z2|z4|z4|
+V:2
+z4|z4|z4|z4|z4|
+|D2 FA|A2 G^F|GG A2|BA G2|FEDD|
+z4|z4|z2 A2|BA G2|FEDD|
+z4|z4|z2 A2|BA G2|FEDD|
+z4|z4|z4|z4|z4|
+|D2 FA|A2 G^F|GG A2|BA G2|FEDD|
+z4|z4|z2 A2|BA G2|FEDD|
+z4|z4|z2 A2|BA G2|FEDD|
+S:https://www.folktunefinder.com/tunes/59172
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

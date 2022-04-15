@@ -1,0 +1,20 @@
+X: 1
+T: TEST Voice change Flute to Piccolo
+M: C
+L: 1/8
+K: C
+V:1 name="Flute" clef=treble
+| CDEF GABc | cdef gabc' | z8 |
+[V:1 name="Piccolo" clef=treble8]
+|  CDEF GABc | cdef gabc' |
+S:https://www.folktunefinder.com/tunes/2561
+S:http://trillian.mit.edu/~jc/music/abc/test/V_FlPic_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

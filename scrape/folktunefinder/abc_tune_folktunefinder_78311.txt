@@ -1,0 +1,28 @@
+X:290
+T: ALS NOAH AUS DEM KASTEN WAR
+N: B0342
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 3/4
+L: 1/16
+K: B
+F2 | B,3C=D2E2F2B2 | F8z2
+F2 | F3=GF2E2=D2C2 | B,8z2
+B2 | =A3BA2=G2F2E2 | =D8z2
+B2 | =A3BA2=G2F2E2 | =D8z2
+d2 | c3=dc2B2A2G2 | F4z2
+B2B2B2 | =G2E2F6F2 | B,8z2
+=d2 | c3=dc2B2A2G2 | F4z2
+B2B2B2 | =G2E2F6F2 | B,8z2
+S:https://www.folktunefinder.com/tunes/78311
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

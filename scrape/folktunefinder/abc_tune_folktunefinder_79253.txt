@@ -1,0 +1,24 @@
+X:149
+T: HIER KOMMEN WIR HER VOR DIESES HAUS
+N: E1253
+O: Europa, Mitteleuropa, Deutschland, Ober- Bergisches Land, Gunnersbach
+N: Schluss modulierend
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Pfingsten
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | BGG2
+B2BB | dcB
+B | dcBA | BAG2
+A2AA | GAB2
+cBAG | FEE
+S:https://www.folktunefinder.com/tunes/79253
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, pfingsten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

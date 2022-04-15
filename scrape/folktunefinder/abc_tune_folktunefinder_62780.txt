@@ -1,0 +1,30 @@
+X: 58
+T:Smith o' Couster's Fancy
+M:4/4
+L:1/8
+Q:120
+C:Tom Anderson, 1962
+K:D
+A|"D"d2 f-d "A"fece|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"Em"GBed "A"cAAc|
+"D"d2 f-d "A"fece|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"Em"Bg"A"ec "D"fd d:|
+g|"D"fdad "A"ecac|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"Em"GBed "A"cAAg|
+"D"fdad "A"ecac|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"Em"Bg"A"ec "D"fddg|
+"D"fdad "A"ecac|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"Em"GBed "A"cAAc|
+"D"d2 f-d "A"fece|"D"dfed "A"cAA=c|
+"G"BGGB "D"AFFA|"G"Bg"A"ec "D"fd d2||
+S:https://www.folktunefinder.com/tunes/62780
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 812
+T:Dollie's the Girl for me
+M:9/8
+R:Slip jig
+H:A::B||
+K:D
+G|\
+(F/G/A).F d2A d2A| (B/c/d).B AFD E2.G|\
+(F/G/A).F d2A d2g| (f/g/a).f edc d2::
+g|\
+f2d (f/g/a).g fed| c2A (c/d/e).e e2g|\
+f2d f/g/ag fed| "tr"c2A (B/c/d).d d2g|
+f2d (f/g/a).g fed| "tr"c2A (c/d/e).e e2g|\
+fdf afa bag| fed ABc d2|]
+S:https://www.folktunefinder.com/tunes/31319
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has history text
+% Has_accompaniment_chords No chords

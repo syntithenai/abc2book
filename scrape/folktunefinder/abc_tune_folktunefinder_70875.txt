@@ -1,0 +1,27 @@
+X:128
+%%topmargin 3cm
+T:I Winna Gae to Bed
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+g | (f/2g/2a) (AB) ABdF | EDEF TB3 g | (f/2g/2a) (AB) AB{/c}dF | EDEF A2 z :|
+e | Tf2 fd {/f}g2 (ge) | Tf2 (fd) TB2 (de) | Tf2 (fd) {/f}g2 (ge) | (f/2g/2a) (ef) {/c}d3 e |
+Tf2 (fd) {/f}g2 (ge) | Tf2 (fd) TB2 {/c}(de) | fafd gbge | (f/2g/2a) (ef) {/c}d2 z |]
+S:https://www.folktunefinder.com/tunes/70875
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/I_Winna_Gae_to_Bed.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

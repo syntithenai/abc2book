@@ -1,0 +1,28 @@
+X:412
+%%topmargin 3cm
+T:Jeanie's Doll is dressed again
+C:James Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+R:Schottische
+M:C
+L:1/8
+K:F
+B A<cc>B A<F F2 | Bc B<G G2 | A<cc>B A<FF>A | G<E C>E {/E}F2 F :|
+b | a/b/c' .d'/.c'/.=b (c'>f)(tf>.f) | (e/f/g) .a/.g/.^f (tg>.c)(tc>.b) | a/b/c' .d'/.c'/.=b c'>fa>f | g<e Lc>e {/e}f2 f>b |
+La/.b/.c' d'/c'/=b c'>ff>f | Le/.f/.g b/g/^f g>cc>b | a/b/c' b/a/g n(3d'c'b (3agpf | n(3edc (3BApG F2- [A,CF] |]
+S:https://www.folktunefinder.com/tunes/71441
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Jeanies_Doll_is_dressed_again.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0412.abc
+% Rhythm Strathspey
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

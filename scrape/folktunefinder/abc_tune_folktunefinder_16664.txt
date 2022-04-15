@@ -1,0 +1,34 @@
+X: 2
+P: The Man on the Flying Trapeze
+S: http://sniff.numachi.com/~rickheit/dtrad/abc/FLYTRAPZ.abc
+M: 3/4
+L: 1/4
+K: G
+[| "G"D  G A  | B B>B |  "C" c E E | "Am"A3       \
+| "D7"D  F G  | A B A |  "G" A G E | "D7"D3       |
+|  "G"D  G A  | B B>B |  "C" c E E | "Am"A2 d     \
+| "D7"d2 F/G/ | A B A |  "G" G3-   |     G2 E/F/  |]
+[|"Em"G  F E  | G F E | "B7"^D B2- |     B2 E/F/  \
+| "Em"G  F E  | G F E | "B7" B,3-  |    B,2 E/F/  |
+| "Em"G  F E  | G F E | "B7"^D B B |     B2 B/B/  \
+| "Em"B  B B  | B B B | "Am" B3    | "D7"[d2D2] D |]
+[| "G"D  G A  | B B>B |  "C" c E E | "Am"A2 D     \
+| "D7"D  F G  | A B A |  "G" A G>E | "D7"D2 z/D/  |
+|  "G"D  G A  | B B>B |  "C" c E E | "Am"A2 d/d/  \
+| "D7"d2 F/G/ | A B A |  "G" G3-   |     G z2     |]
+S:https://www.folktunefinder.com/tunes/16664
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_1890s
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

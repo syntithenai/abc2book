@@ -1,0 +1,28 @@
+X: 39
+T:Tineke's Reel
+M:2/4
+L:1/8
+K:Dm
+%%MIDI program 27
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+%%MIDI gchord fc
+|:(3AB^c         |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2G/2A/2|"Bb"BdcB|"Dm"Adde|fagf      |
+  "A"e2 (3AB^c   |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2E/2G/2|"Bb"dcBA|"Gm"GFGA|"Dm"FzEz  |D2 :|
+|:"Gm"z2d2       |"C"g2e2 |"Gm"g2e2|"Dm"f2d2  |\
+  f2d2           |"C"g2e2 |g2e2    |"Dm"f2z2  |
+  "Gm"z2d2       |"C"g2e2 |g2e2    |"Dm"f2d2  |\
+  f2d2           |"Gm"g2f2|"A"e2^c2|"Dm"d2z2  :|
+S:https://www.folktunefinder.com/tunes/81310
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

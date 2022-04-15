@@ -1,0 +1,28 @@
+X: 17
+T:Butterd Pease. WCl.17
+M:C|
+L:1/4
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:reel
+O:Lincoln
+A:England
+N:Both F#s marked on stave in MS. Last 2 bars of A are as in MS...
+Z:vmp.Barry Callaghan
+K:G
+Bdd  c/2B/2|cee d/2c/2|Bddc/2B/2|cAA2|!
+Bdd c/2B/2|cee d/2c/2|c/2d/2 e B/2c/2 d|BAA2:|!
+|:Bdd e/2f/2|g/2f/2e/2d/2 g2|Bdd c/2B/2|cAA2|!
+Bdd e/2f/2|g/2f/2e/2d/2 g2|B/2c/2 d A/2B/2 c|BGG2:|]
+S:https://www.folktunefinder.com/tunes/40773
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

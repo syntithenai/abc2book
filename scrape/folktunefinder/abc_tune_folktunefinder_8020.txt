@@ -1,0 +1,26 @@
+X: 2
+P: Hyttstenspolketten
+R: snoa, g\aangl\aat
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FG \
+| "D"A2 A2 "G"B2 AG | "D"(FG) A2 A3 z | {A}F2 f2 f2 ed | "A7"(cd) e2 e3 z \
+| "A7"E3 F E2 (FG) | A3 B A2 (Bc) | "D"d2 cd "A7"e2 c2 | "D"d6 :|
+|: de \
+| "D"f2 fe f2 de | (fg) fe f2 gf | "A7"e2 (cd) e2 f2 | "G"g2 b2 "A7"a2 g2 \
+| "D"f2 fe f2 de | (fg) fe f2 gf | "A7"e2 fg a2 c2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/8020
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Snoa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Snoa.abc
+% Rhythm Snoa, g%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 4
+P: Wirt vo Stoa (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: G
+|: "D7"[D2D2] [E2=C2] [F2=C2] | "G"[G2B,2] z [DB,] | [D2B,2] z2 \
+| "C"[E2C2] [F2D2] [G2E2] | "D7"[A2F2] z[GE] | [F2D2] z2 \
+| [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|
+|: "G"[GB,][BD] [BD][AC] [GB,][BD] \
+| [d2G2] [B2G2] | [e2c2] [d2B2] \
+| "D7"[c2A2] [cA][AF] [EC][cF] \
+| "G"[B2G2] [BD][AC] | [G2B,2] \
+| [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|
+S:https://www.folktunefinder.com/tunes/4850
+S:http://trillian.mit.edu/~jc/music/abc/Germany/WirtVoStoa.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

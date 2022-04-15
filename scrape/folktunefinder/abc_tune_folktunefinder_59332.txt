@@ -1,0 +1,31 @@
+X:445
+T:La Gallegada
+R:Gallegada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Musicologa Asturiana - La Cancin Tradicional, Modesto Gonzlez Cobas
+Z:La Cancin Tradicional, M.G.C.
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+|BB BB|_A_G AF|BB BB|_A_G A>G|F4|
+|: _A2 F2|_G_A GF|_E2 E2|_A2 F2|_GB _AG|F4-|F4 :|
+W:t dices que la mi puerta que no me la rondas ms
+W:y aunque t no me la rondes y otr me la rondar
+W:y aunque t no me la rondes y otr me la rondar
+W:
+S:https://www.folktunefinder.com/tunes/59332
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Gallegada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

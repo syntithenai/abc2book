@@ -1,0 +1,39 @@
+X:1
+T:M\aalargubbens brudpolska
+R:polska
+S:recording of Hjort Anders Olsson from 1949
+H:Hjort Anders Olsson was one of the greatest fiddlers of all
+H:times in Sweden. He came from Bingsj in Dalarna.
+Z:Transcribed by Sven Ahlbck. Abc by Henrik Norbeck.
+Z:Quartertones are not included, since abc does not support them
+S:"Henrik Norbeck" <henrik.norbeck@mailbox.swipnet.se> abcusers 2002-8-7
+M:3/4
+L:1/16
+Q:1/4=112
+%:U=!tenuto!
+%:U=!tenuto!
+K:Dm
+% First part 1st time around:
+D2- |\
+(5:4:3MD3zD D4 {efe}[f3A3]a |\
+[g2A2](a/g/a/g/) [e2A2](a^f e3)[^ce] |\
+([d/^f2-]^c/d{^c}[d2^f2]) ([=f/A4]e/f/e/f2) (5:4:3[f2A2]af2 |
+([d2(^f2][^c/e2)]B/c) [A4A4] (5:4:4([FA]E2)D^C |\
+[D4D4] {efe}[f4A4] {gfe}[f3A3]a |\
+(ga)ge (fa)fd (e/=f/e)[^c2e2] |
+{d^c}[d3^f3]e (ga)ge (fe)(f[df]) | (^cd)ec [d8D7]z ||
+S:https://www.folktunefinder.com/tunes/16393
+S:http://trillian.mit.edu/~jc/music/abc/pols/MLargubbensBrudPolska_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/MaalargubbensBrudPolska_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/MLargubbensBrudPolska_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/MLargubbensBrudPolska_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/MLargubbensBrudPolska_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

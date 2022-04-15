@@ -1,0 +1,27 @@
+X:41
+T:Dol-Li-A
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+Q:1/4=80
+K:G Minor
+ G G A B  c A G2|                     \
+                 (B`c)  d2  (B`c) d2 |\
+ G2  A B  c A G2|                     \
+                 (B`c)  d2   G4     ||
+ e2  d c  d B G2|                     \
+                  B2    d z  B2   d z|\
+ e2  d c  d B G2|                     \
+                 (B`c) (d^F) G4     |]
+S:https://www.folktunefinder.com/tunes/75604
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

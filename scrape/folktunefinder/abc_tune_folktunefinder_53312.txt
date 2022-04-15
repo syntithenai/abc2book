@@ -1,0 +1,26 @@
+X: 13
+T:Rondeau de Mirepoix
+O:France
+C:Trad.
+A:Gascogne
+R:Rondeau
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+DEF GAG|FEF G2G|DEF GAG|FEF G2z|DEF GAG|FEF G2G|DEF GAG|FEF G2z||
+B2B A3|c2c B3|d2d dcB|AFA B2G|B2B A3|c2c B3|d2d dcB|AFA G3|]
+%%footer $D   Galouvielle-MBe 2005 \nValse   5 temps --
+S:https://www.folktunefinder.com/tunes/53312
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

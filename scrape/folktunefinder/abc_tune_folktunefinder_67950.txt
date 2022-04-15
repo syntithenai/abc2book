@@ -1,0 +1,22 @@
+X: 64
+T: Cimpoi
+C: Romania
+S: Mihai and Alexandru David, Gypsy Camp Vol. 1
+M: 6/8
+L: 1/8
+K: C
+%%MIDI drum dddd2z 43 43 43 45 50 40 40 60
+%%MIDI drumon
+|:  A,A,D ^C2_B,| A,A,D ^C2_B,| A,A,D ^C2_B,|A,A,A, A,2z  :|
+    e6-         |e6           |A6-          |A6          \
+|: ^c/d/cd dcz  | ^c/d/cd dcz | ^c/d/cd dcz |_BAA AA2     :|
+S:https://www.folktunefinder.com/tunes/67950
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

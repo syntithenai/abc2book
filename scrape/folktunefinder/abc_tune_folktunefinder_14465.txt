@@ -1,0 +1,30 @@
+X: 1
+T: the Mellinish Jig
+T: the Kentigern Jig
+N: from thesession.org, chords by John Chambers
+N: Mellinish seems the original name; Kentigern is a band that recorded it.
+N: Mellinish probably refers to the area near Perth belonging to the Laird of Mellin.
+N: One old story is that King Arthur's Guinevere was the daughter of the then Laird of Mellin.
+M: 6/8
+L: 1/8
+R: jig
+K: Amix
+|: "A"ABA ABA | "G"d2c BGB | "A"ABA ABA | "G"g2f "A"e2a | "A"ABA    ABA | "G"d2c BGB | "A"ABA e2e | "G"dBG "A"A3 :|
+|: "A"e2d cAc | "G"d2c BGB | "A"e2d cAc | "A"eae    cAc | "A"e2d    cAc | "G"d2c BGB | "A"ABA e2e | "G"dBG "A"A3 :|
+|: "A"A2e ece | "G"dcd BGB | "A"A2e ece | "D"fdf "A"ece | "D"fdf "A"ece | "G"dcd BGB | "A"ABA e2e | "G"dBG "A"A3 :|
+|: "A"e2a aga | "G"g2g edB | "A"A2a aga | "G"g2a "A"aga | "G"g2a "A"aga | "G"g2g edB | "A"ABA e2e | "G"dBG "A"A3 :|
+S:https://www.folktunefinder.com/tunes/14465
+S:http://trillian.mit.edu/~jc/music/abc/jig/KentigernsJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MellinishJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KentigernsJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MellinishJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MellinishJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/KentigernsJ_A.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

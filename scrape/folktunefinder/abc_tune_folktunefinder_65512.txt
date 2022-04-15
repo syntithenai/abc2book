@@ -1,0 +1,23 @@
+X: 207
+T:Mucking of Geordie's Byre
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:D
+P:A
+A|"D"ABA AFA|"D"d2e f2a|"G"g2e "D"f2d|"G"e2d Bcd|
+"D"ABA AFA|"D"d2e f2g|"G"afd "A"efe|"Em""D"d3 "A7"d2:|
+P:B
+e/2f/2|"G"g2 g gab|"D"f2 f fga|"Em""C"e2e "A7"ede|"D"fed "G"Bcd|
+"D"ABA AFA|"D"d2e f2g|"G"afd "A"efe|"Em""D"d3 "A7"d2:|
+S:https://www.folktunefinder.com/tunes/65512
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+P: the Black Joke(r) (Black Jack)
+R: jig
+O: trad England
+B: One Thousand English Country Dance Tunes, M. Raven, p.116
+B: English Dance Airs (Book 3), Nan Fleming-Williams and Pat Shaw, p. 7
+Z: John Chambers <jc:trillian.mit.edu>
+N: Morris Ring (two versions)
+N: Fleming-Williams & Shaw, English Dance Airs (Book 3), 1968
+N: Raven, p.116 (1984)
+M: 6/8
+L: 1/8
+K: F
+"A"\
+|: C | "F"C>FF FEF | "Gm"GBA "C7"GFE | "F"FGA "(Dm)"cBA | "Gm"GBA "C7"GFE | "F"[FF]>GA "Bb"[DD]>EF | "C7"CDE "F"F2 :|
+"B"\
+[| B | "F"A>cc c>Ac | "Bb"d>Bd "C7"c2B | "F"A>FA cAc | "G7"d>[fc]d "C7"c2B | "F"A2A AGF |
+| "Gm"GBA "C7"GFE | "F"FGA "(Dm)"cBA | "Gm"GBA "C7"GFE | "F"[FF]>GA "Bb"[DD]>EF | "C7"CDE "F"F2 |]
+S:https://www.folktunefinder.com/tunes/3657
+S:http://trillian.mit.edu/~jc/music/abc/England/BlackJoke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BlackJoke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HeighHo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

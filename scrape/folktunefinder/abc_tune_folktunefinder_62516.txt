@@ -1,0 +1,27 @@
+X:9
+T:Jag \"ar Fattig (Hambo)
+T:"I am poor"
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach 5/30/03 from Andrea Hoag for NFF 2003
+M:3/4
+L:1/8
+%Q:1/4=160
+K:D bass
+P:A
+F,>E, D,2B,2|(A,>D,)F,4|F,>D,A,,2G,2|(3F,G,F, E,2-E,(>F,|G,>F,) (E,>^D,) E,>F,|
+(G,>F,) (E,>^D,) E,>F,|(G,>F,) (E,>D,) C,>C,|(3(B,,C,B,,)A,,4|F,>E, D,2B,2|(A,>D,)F,4|
+F,>D,A,,2G,2|(3F,G,F, E,4|D,>G,B,2B,2|D,>F,A,2A,2|A,,>A,, B,,>A,, C,>A,,|D,2D,4:|
+P:B
+F,>E, D,2C,2|B,,2F,,3F,,|B,,>A,, B,,>C, D,>E,|E,F,F,4|uF,>E, D,2C,2|
+(3B,,C,B,, F,,3F,,|B,,>A,, B,,>C, D,>E,|E,F,F,4|D,>G,B,2B,2|D,>F,A,2A,2|
+A,,>A,, B,,>A,, C,>A,,|D,>D, (3F,D,F,A,2|D,>G,B,2B,2|D,>F,A,2A,2|A,,>A,, B,,>A,, C,>A,,|D,2D,4:|
+S:https://www.folktunefinder.com/tunes/62516
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003bass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Hambo
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

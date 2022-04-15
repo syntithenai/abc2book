@@ -1,0 +1,27 @@
+X:91
+T: Es gung ein Jger wohl jagen (1-15), S. 40
+N: K0091
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Verfhrung, Beischlaf]
+M: 4/4
+L: 1/8
+K: G
+DD | B3AGGFG | A2D2z2
+DD | c2c2A2A2 | B4z2
+GA | BBBBB2B2 | B2d2d2
+dd | ccc2A2A2 | B4z2
+GA | BBBBB2B2 | B2d2d2
+dd | ccc2A2A2 | B4z2
+S:https://www.folktunefinder.com/tunes/70221
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Verfhrung, beischlaf]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

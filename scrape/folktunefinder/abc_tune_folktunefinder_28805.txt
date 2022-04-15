@@ -1,0 +1,35 @@
+X:2525
+T:Cantar de Navid (CT 157)
+R:Navid
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Navidad, transcrita en Luia, ayuntamiento de Ibias.
+O:Luia (Ibias)
+A:Asturies
+Z:Cancioneru de Torner 157
+M:2/4
+L:1/8
+Q:1/4=84
+W:Seora Mara,
+W:como ama de casa,
+W:suba al sou foumeiru
+W:y baxe ensin tasa.
+K:G
+F/
+|G2 B(c/A/)|(B/c/B/A/) G>F|G2 A>B|(3B/c/B/ A-Az/G/|
+B2-Bc/A/|(B/c/B/A/) G>F|G2 A>F|GG-Gz||
+S:https://www.folktunefinder.com/tunes/28805
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Navid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

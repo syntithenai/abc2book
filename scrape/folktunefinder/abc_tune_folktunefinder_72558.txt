@@ -1,0 +1,23 @@
+X:101
+T: Die verwundete Dame
+N: D0147
+O: Europa, Mitteleuropa, Deutschland, Wolga - Kolonie
+R: Ballade
+M: 3/4
+L: 1/8
+K: G
+GBc | d2d2cd | A2z
+GFG | ABcAGA | Bcdc | B2AB | G2z
+S:https://www.folktunefinder.com/tunes/72558
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

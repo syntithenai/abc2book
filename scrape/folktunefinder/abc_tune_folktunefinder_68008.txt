@@ -1,0 +1,30 @@
+X: 122
+T: Hajd Na Levo
+O: Croatia
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: D
+%%MIDI program 43
+%%MIDI chordprog 32
+%%MIDI bassprog 35
+%%MIDI chordvol 80
+%%MIDI bassvol 80
+  "D" [A,2F2A2] [AG][AF]      |"A" [A3E3][AD]          |\
+  "D" [A,FA][A,FA] [A,G][A,F] |"A" [A,3E3][A,D]\
+|:"D"[A,A][A,A][A,A][A,A]     |"A7"[A,A][A,G][A,G][A,G]|
+  "D"[A,F][A,F] [A,G][A,F]    |"A" [A2E2] [A2E2]       :|\
+|:"A7"[A,2F2A2] [A,2E2G2]     |[A,EG][A,DF][A,2C2E2]   |\
+  "D"[A,2F2A2] [A,2D2F2]      |[A,DF][A,C^E] [A,2D2F2] :|
+|:"A7"[A,EG][A,EG][A,EG][A,FA]|"D" [ADF][ADF][ADF][ADF]|\
+  "A7"[A,E][A,E][A,E][A,E]    |"D"[A,2D2F2][A,2D2F2]   :|[2 [A,2D2][A,2D2]|
+S:https://www.folktunefinder.com/tunes/68008
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

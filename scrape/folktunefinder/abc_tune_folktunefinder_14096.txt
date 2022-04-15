@@ -1,0 +1,24 @@
+X:1
+T:Donald Iain Rankine
+C:Andrew Rankine
+M:6/8
+K:F
+"C7"c2B \
+| "F"Acc FAA |    CFF A,CC | "F"A,CC FAA | "C"FEE E3\
+| "C"CEE EGG | "C"GBB Bcc  |    cee  ecc | "F"BAA A3 |
+| "F"Acc FAA |    CFF A,CC | "F"A,CC FAA | "C"FEE E3\
+| "C"CEE EGG | "C"GBB Bcc  |    cee  ede | "F"gff f3 |]
+[|"F"aff cff |    aff dcc  | "F"aff  cff | "C"fee e3\
+|    gee cee | "C"gee edc  |    gee  cee | "F"dcc "C"c3 ||
+||"F"aff cff |    aff dcc  | "F"aff  cff |"Bb"fdd d3\
+|    dBB FBB | "F"CFF Acc  | "C"cee  ede | "F"gff f3 |]
+S:https://www.folktunefinder.com/tunes/14096
+S:http://trillian.mit.edu/~jc/music/abc/jig/DonaldIainRankine_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/DonaldIainRankine_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DonaldIainRankine_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

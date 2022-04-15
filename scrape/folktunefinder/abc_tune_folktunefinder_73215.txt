@@ -1,0 +1,23 @@
+X:56
+T: Sailing Back Of Whiddy
+B: O'Neill's 56
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "With expression"
+N: "Collected by J.O'Neill"
+K:C
+  C>DE>F G>E C2 | E>FG>c d>c B<G | e>dc>B A>G c2 | C>DE>F G>F E<D |
+| C>DE>F G>E C2 | E>FG>c d>c B<G | e>dc>B A>G c2 | C>DE>F G>E D<C ||
+|| C>D E<G D>F E<C | E<F G<c d>c B<G | e>d c>B AG Hc>c | C>D E>G D>F E<C ||
+S:https://www.folktunefinder.com/tunes/73215
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

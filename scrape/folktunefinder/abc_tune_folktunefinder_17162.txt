@@ -1,0 +1,29 @@
+X: 1
+T: da Fitful Head
+C: Tom Anderson
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB \
+| cedB cedB | c2A2 A2fg | agag f2ba | g2e2 e2fg |
+y4 \
+| aefa e2ce | dBed c2BA | Bdfa ecdB | c2A2 A2 :|
+|: GA \
+| BGEd c2Ac | dBGf e2ce | fefg afba | g2e2 e2fg |
+y4 \
+| aefa e2ce | dBed c2BA | Bdfa ecdB | c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/17162
+S:http://trillian.mit.edu/~jc/music/abc/reel/FitfulHead_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FitfulHead_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/FitfulHead_A4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

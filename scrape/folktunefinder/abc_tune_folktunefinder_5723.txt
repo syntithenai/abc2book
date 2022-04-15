@@ -1,0 +1,38 @@
+X: 1
+T: Jovano, Jovanke
+R: lesnoto
+N: *1 Optional held measures.
+N: The instrumental phrases are from two different recordings.
+M: 7/16
+L: 1/16
+K: Dphr^F
+"Vocal"\
+|: "D"F3 "(Cm)"GFE2 | "D"D7- | "*1"D7 \
+| "D"[A2F2][cA] "(Cm)"[BG][AF][GE][F/D/][G/E/] | "D"[A7-F7-] | "*1"[A7F7] :|
+|: "Gm"[d2B2][dB] [d2B2][d2B2] | [dB][cA][dB] "Cm"[e2c2][ec][dB] \
+| "F"[c2A2][cA] [c2A2][c2A2] | [cA][BG][cA] "Bb"[d4B4] |
+| "Gm"[B2G2][BG] [B2G2][cA][dB] | "Cm"[ec][d2B2] [c2A2][B2G2] \
+| "D"[A2F2][AF] [BG][AF][BG][cA] | [A2F2][cA] [BG][AF][G2E2] | [F7-D7-] | "*1"[F7D7] :|
+"Instr.1"\
+|: "D"ABG A2GF | FGE F2ED |1 DEC DEFG | ABG A2z2 :|2 "Cm"DEC DEFC | "D"D7- | "*1"D7 :|
+"Instr.2"\
+|: "D"c2d cBA2 | "Gm"B2c BAG2 | "D"F2G ABAG |1 F2G A4 :|2 "(Cm)"F2E "D"D4 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/5723
+S:http://trillian.mit.edu/~jc/music/abc/Intl/JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Les_JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/Les_JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/Les_JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/JovanoJovanke.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/JovanoJovanke.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/JovanoJovanke
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 7/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

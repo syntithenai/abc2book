@@ -1,0 +1,30 @@
+X:1
+T:Spinning Wheel
+C:Russian Folk Song
+Q:1/4=250
+Z:Northman
+N:Props to Northwoods for the strumming idea
+N:and special props to Mikail Visotsky
+N:for his wonderful recorded performance
+K:G
+L:1/16
+E,B,GB12e10B,A^d12B9E,B,Ge9
+A,FB10G,EB10F,^DB10E,B,GB12g10
+B,Af11F^d10E,Ge11E7e5Dd6c6B6
+A6G12G,6G5F,A11^DA10G,EB12e6
+^d5^G,d11A,c9^A,G^cg12f6e3
+B,A^db12a6f2E,B,GBe10^d3e3g3f
+E,B,GBe25
+S:https://www.folktunefinder.com/tunes/22
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-195885.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://community.codemasters.com/forum/showthread.php?t=193662
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

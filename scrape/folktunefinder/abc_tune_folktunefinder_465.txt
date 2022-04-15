@@ -1,0 +1,54 @@
+X:6
+T:Les Folies d'Espagne
+C:Chateauminois
+O:France
+%%continueall 0
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-11
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3
+L:1/8
+K:Cm
+T:Thme de N. Chdeville
+c2c3c | !!=B2B2B2 | c2!!c3c | {c}ud2d2d2 | e2!!e3f | {e}!!d4 de | {e}!!c=B {B}uc3d | !!=B4B2 | c2c3d |
+!!=B2B2B2 | c2!!c3c | {c}ud2d2d2 | e2!!e3f | !!d4de | {d}c2!!c3=B | {=B}uc6 ||
+T:Variations de Chteauminois
+Q:"Andante"
+c2c3d | (c=B)G=ABG | c2c3c | d2_BcdB | e2e3f | d2dfed | (c=B)cedc | (c=B)G=ABG | 
+c2c3d |  (c=B)G=ABG | c2c3c | d2_BcdB | e2e3f | d2dfed | cdecd=B | uc2c2z2 ||
+T:Variation I
+e2cece | d2=BdBd | e2cece | f2dfdf | g2egeg | f2dfdf | e2cece | d2=BdBd | 
+e2cece | d2=BdBd | e2cece | f2dfdf | g2egeg | f3g ag | fe!!d3c |c6 ||
+T:Variation II
+edcdec | dc=BcdB | edcdec | fedefd | gfefge | fedefd | edcdec | dc=BcdB !breath!| 
+edcdec | dc=BcdB | edcdec | fedefd | gfefge | fgagfe | dfecd=B | uc2c2z2 ||
+T:Variation III
+cegece | =BdfdBd | cegece | dfafdf | egbgeg | dfafdf | cegece | =BdfdBd !breath! | 
+cegece | =BdfdBd | cegece | dfafdf | egbgeg | f3g ag | fe dc (e/d/c/=B/) | uc2c2z2 ||
+T:Variation IV
+ccGcGc | =BBGBGB | ccGcGc | ddBdBd | eeBeBe | dd=BdBd | ccGcGc | =BBGBGB | 
+ccGcGc | =BBGBGB | ccGcGc | ddBdBd | eeBeBe | ddBdBd | cdecd=B | cegec2 ||
+T:Variation V
+(c/e/)c/e/ .c.G.e.c |  (=B/d/)B/d/ .B.G.d.B | (c/e/)c/e/ .c.G.e.c |  (d/f/)d/f/ .d.B.f.d | (e/g/)e/g/ .e.c.g.e |
+(d/f/)d/f/ .d.=B.f.d | (c/e/)c/e/ .c.G.e.c |  (=B/d/)B/d/ .B.G.d.B | (c/e/)c/e/ .c.G.e.c |  (=B/d/)B/d/ .B.G.d.B | (c/e/)c/e/ .c.G.e.c |
+(d/f/)d/f/ .d.B.f.d | (e/g/)e/g/ .e.B.g.e | (d/f/)d/f/ .d.=B.f.d | cc/d/ ee/d/ c/d/e/f/ | gagfed | cc/d/ ed/c/ =B/c/d/B/ | cc/e/ cc/e/ cz ||
+T:Variation VI
+(3cGG (3cGG (3cGG | (3=BGG (3BGG (3BGG | (3cGG (3cGG (3cGG | (3dFF (3BFF (3dFF |
+(3eGG (3eGG (3eGG | (3dFF (3BFF (3dFF | (3cGG (3cGG (3cGG | (3=BGG (3BGG (3BGG !breath! | 
+(3cGG (3cGG (3cGG | (3=BGG (3BGG (3BGG | (3cGG (3cGG (3cGG | (3dFF (3BFF (3dFF |
+(3eGG (3eGG (3eGG |  defgag | fedcd=B | c2c2z2 ||
+T:Variation VII
+L:1/16
+c=Bcd edef gedc | =B=ABc dcde fdcB | c=Bcd edef gedc |
+dcde fefg afed | edef gfga bgfe | dcde fefg afed | c=Bcd edef gedc |
+=B=ABc dcde fdcB !breath! | c=Bcd edef gedc | =B=ABc dcde fdc=B | c=Bcd edef gedc |
+dcde fefg afed | edef gfga bgfe | dcde fefg afed | c2d2e2g2 (fede) | c12 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (France                           %origin)
+S:https://www.folktunefinder.com/tunes/465
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

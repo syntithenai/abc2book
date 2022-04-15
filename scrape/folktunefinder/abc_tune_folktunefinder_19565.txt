@@ -1,0 +1,27 @@
+X: 1
+T: Miss Douglas
+R: strathspey
+B: Athole Coll.
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+Bc \
+| "G"d4 B3c dG3 BG3 | "C"Ec3 A3G "D7"FD3  D2Bc \
+| "G"d4 B3g dG3 BG3 | "Am"EA3 "D7"D3F "G"G4 G2 :|
+B2 \
+| "G"dg3 g3f "Am"ea3 a3g | "D7"f3d e3f "G"g3a gG3 \
+| "G"dg2 g3f "Am"ea3 a3g | "D7"f3d e3f "G"g4  g2 |]
+a2 \
+| "G"bg3 "D"af3 "Em"ge3 "D"fd3 | "C"ec3 "G"dB3 "Am"A3B "D7"ce3 \
+| "G"d4 B3g dG3 BG3 | "C"Ec3 "D7"BAGF "G"G4 G2 |]
+S:https://www.folktunefinder.com/tunes/19565
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Miss_Douglas_Str_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Miss_Douglas_Str_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

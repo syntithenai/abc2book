@@ -1,0 +1,26 @@
+X: 1
+T: Verret reel
+T: La bastringue des m\'en\'etriers
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+M: 1/4
+L: 1/16
+K: D
+A2 \
+| d2D2 DFAd | c2B2 Bdef | g3A Acea | f2d2 dABc |
+| d2D2 DFAd | c2B2 Bdef | ggfg bgec | d2f2 d2 :|
+|: A2 \
+| d2dc defg | a4- a3f | gbge fbfd | Bgec (3BcB (3ABc |
+| d2dc defg | a4- a3f | gbge fbfd | Bgec d2 :|
+S:https://www.folktunefinder.com/tunes/18271
+S:http://trillian.mit.edu/~jc/music/abc/reel/VerretReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/VerretReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/VerretReel_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 1/4
+% Text Has source text
+% Has_accompaniment_chords No chords

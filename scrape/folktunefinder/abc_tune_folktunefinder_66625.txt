@@ -1,0 +1,28 @@
+X:3
+T:The Banshee
+R:reel
+C:James McMahon
+O:Ireland
+M:4/4
+L:1/8
+K:G
+"G" G2 GD  EDEG | "C" AGAB "D" d2 Bd | "C" eged    "G" BAGA | "C" BAGE  "D" EDDE |
+"G" G2 GD  EDEG | "C" AGAB "D" d2 Bd | "C" eged    "G" BAGA | "C" BAGE "D" ED D2 :|
+"Am" eaag  efge | "Em" dBBA    B2 Bd | "Em" eB ~B2 "G" gBfB | "Em"  eBBA  B2  Bd |
+"Am" eaag  efge | "Em" dBBA    B2 Bd | "C" eged    "G" BAGA | "C" BAGE "D" ED D2 :|
+\end{abc}
+% -----
+\section{Jigs}
+\addcontentsline{toc}{subsection}{Banish Misfortune}
+\begin{abc}[name=banish]
+S:https://www.folktunefinder.com/tunes/66625
+S:http://abcplus.sourceforge.net/tunebook-sample.tex
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

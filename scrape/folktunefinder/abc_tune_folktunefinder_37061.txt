@@ -1,0 +1,28 @@
+X:4910
+T:Polska fr Stora Skedvi
+A:Dalarna
+C:e. Ingels Jan
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008b9.html
+%%ID:000008b9
+K:D dorian
+A,>>a a2 c'>a|^g>b a3 f|f>f fg eg|\
+g^f df/d/ ^ce|1 ed B<^c A2 :|2 e^f d4 :|
+A2 de fd|^cd ef/e/ dc|A2 de fd|^cd ef/e/ d2|\
+A,>>a a2 c'>a|^g>b a3 f|f>f fg eg|
+g^f df/d/ ^ce|e^f d4||\
+A2 de fd|^cd efe dc|AA cc ee|dd Bc/B/ A2|
+A,>>a a2 c'>a|^g>b a3 f|f>f fg eg|\
+g^f df/d/ ^ce|e^f d4|]
+S:https://www.folktunefinder.com/tunes/37061
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

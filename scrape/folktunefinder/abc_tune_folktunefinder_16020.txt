@@ -1,0 +1,28 @@
+X: 1
+T: Miss Mackenzie's Reel
+C: R.Mackintosh
+R: reel
+B: RSCDS 23-3
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+B | "F"A{B}cAF "Bb"Bdfd     | "F"A{B}cAF  "C7"EGEC \
+  | "F"A{B}cAF "Bb"BdfB     | "F"Ac"C7"GB  "F"AFF :|
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"afef    "Bb"df"F"cf  |"Gm"Bd"C7"cB  "F"AFF |]
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"af"C"ge "Bb"fd"C7"ec | "Dm"fd"C7"cB "F"AFF |]
+S:https://www.folktunefinder.com/tunes/16020
+S:http://trillian.mit.edu/~jc/music/abc/new/MissMackenziesReel_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissMackenziesReel_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissMackenziesReel_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/MissMackenziesReel_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissMackenziesReel_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

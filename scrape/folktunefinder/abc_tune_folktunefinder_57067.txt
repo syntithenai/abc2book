@@ -1,0 +1,22 @@
+X:2128
+T:Breugestanz
+M:2/4
+L:1/8
+Q:1/4=90
+C:Trad Yiddish
+S:Caravanserai
+K:Dm
+^GA AA|A2 GF|GA F2|F3 F|EF^GA|^GF ED|EF D2|D4|!
+dA AA|A2 GF|GA F2|F3 F|EF ^GA|^GF ED|EF D2|D4|
+||:A2 dA|dA d2|d2 fd|fd f2|ef ^ga|^gf ed|ef d2|d4:|!
+S:https://www.folktunefinder.com/tunes/57067
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

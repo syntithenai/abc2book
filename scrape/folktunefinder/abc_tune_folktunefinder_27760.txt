@@ -1,0 +1,23 @@
+X:7308
+T:the Sailors Hornpipe
+O:england
+R:Hornpipe
+M:4/4
+K:G
+gf | \
+g2G2 G2dc | Bdgf gbag | a2A2 A2AG | FAd2 d2ef|\
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2G2 ::\
+dc |\
+Bdgd Bdgd | e2c2 c2ed | ^ceae ceae | f2d2 d2ef|\
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2G2:|
+S:https://www.folktunefinder.com/tunes/27760
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:20
+T:Sju och sjutti k\"arringar
+R:sl-polska
+S:efter Karl August Lindblom, Rejmyre, Skedevi, \"Osterg\"otland
+N:St\"amning: AEAC#
+A:\"Osterg\"otland
+B:SVL \"Ogl 319
+Z:id:hn-sp-20
+M:3/4
+L:1/16
+K:A
+[c4A12] e3c (5d/e/d/c/d/e2 | [f2A12]e2 e2d2 d2c2 |
+[c4A12] e3c (5d/e/d/c/d/e2 | [f2A12]e2 e8 :|
+|: A,2""[c2A2E2A,2] "arco"[c2A2]""[c2A2E2A,2] "arco"[c2A2]""[c2A2E2A,2] |
+A,CEC A,DFD A,CEC |
+A,2""[c2A2E2A,2] "arco"[c2A2]""[c2A2E2A,2] "arco"[c2A2]""[c2A2E2A,2] |
+A,CEC A,DFD A,CEC | A,2Bc d2dB c2cA | cBAG G2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/62351
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

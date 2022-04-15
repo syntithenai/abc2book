@@ -1,0 +1,29 @@
+X:5495
+T:Schottische from Lima
+C:e. Kalle Almlf
+M:4/4
+O:Sweden
+R:Schottis
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007af.html
+%%ID:000007af
+K:D dorian
+A>B ^cd e2 ef|d2 de ^c2 c/B/c|\
+A>B ^cd e2 ef|ga/g/ fg a4 | \
+A>B ^cd e2 ef|d2 de ^c2 c/B/c|
+d>e fg a>g e^c|d2 d^c d4::\
+a>gef g4|a>fde f4|
+e>^cAc e>cAc |d>efg a4|\
+a>gef g4|a>fde f4|\
+e>^cAc e>cAc | d2d^c d4:|
+S:https://www.folktunefinder.com/tunes/37178
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

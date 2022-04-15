@@ -1,0 +1,23 @@
+X: 4
+P: the Parting Glass
+R:march
+S:Na Fili
+Z:Juergen.Gier@post.rwth-aachen.de irtrad-l 2001-01-19
+M:2/4
+L:1/8
+K:EMin
+BA \
+| G2GF | E2EF | G2GB | A2GA | B2B2 | BA GA | B2D2 | D2BA || G2GF | E2EF | G2GB |
+| A2GA | B2e2 | dB AB | G2E2 | E2Bc || d2de | d2Bd | ed Bc | d2ed | c2B2 |
+| A2GA | B2D2 | D2BA || G2GF | E2EF | G2GB | A2GA | B2e2 | dB AB | G2E2 | E2 |]
+S:https://www.folktunefinder.com/tunes/3597
+S:http://trillian.mit.edu/~jc/music/abc/England/AGR04.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

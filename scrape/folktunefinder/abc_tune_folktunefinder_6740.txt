@@ -1,0 +1,56 @@
+X: 2
+T: Belf's Carnival
+S: printed MS labelled "Belf/London"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+"A"\
+|: "Em"E3e e2e2 e2e2 e4 |\
+  "D7"d3c ded=c "G"B4- "B7"B4 |\
+  "Em"E3e e2e2 e2e2 e4 |\
+  "D7"d3c ded=c "G"B4- "B7"B4 |\
+  "Em"e3d e=ffe eddc d4 |
+  "Am"A3G A_BBA AGGF G4 |\
+  "Em"FGFG A3G _BAGF G4 |\
+  "Em"GFAF "(Dm)"GE=FD "Em"E8 |\
+  "Em"FGFG A3G _BAGF G4 |\
+  "Em"GFAF "(Dm)"GE=FD "Em"E8 :|
+  "E(maj)"E8 E8 |\
+    E4 E4 E4 E4 \
+"B"|\
+|: "E"e2dc dcB2 dcBA ^G4 |\
+  dccB BAA^G B8 |\
+  "E"e2dc dcB2 dcBA ^G4 |
+  dccB BAA^G G8 :| \
+"C"|\
+|: "E"^A2B2 B2B2 c2d2 c3B |\
+  ^ABcB B=AA^G B8 |\
+  "E"^A2B2 B2B2 c2d2 c3B |
+  ^ABcB B=AA^G G8 :| \
+"D"|\
+|: "D"d2d2- dced "A"c6 B2 |\
+  "E"^ABcB B=AA^G B8 |\
+  "D"d2d2- dced "A"c6 B2 |\
+  "E"^ABcB B=AA^G G8 :|
+"E"\
+|: "E"dcBc dcBc dcBA ^G4 |\
+  "E"dccB BAA^G B8 |\
+  "E"dcBc dcBc dcBA ^G4 |\
+  "E"dccB BAA^G G8 :|
+"F"\
+|: "Em"B,2EF GFE2 B^AAG GFFE |\
+  "Em"B,2EF GFE2 F2G2 ^A2B2 |\
+  "Em"B,2EF GFE2 B^AAG GFFE |\
+  "Em"FG^AB "B7"B,2^D2 "Em"E8 :|
+S:https://www.folktunefinder.com/tunes/6740
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BelfsCarnival.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

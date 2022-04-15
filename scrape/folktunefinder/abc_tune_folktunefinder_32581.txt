@@ -1,0 +1,36 @@
+X: 2120
+T:Bulgarian () 4
+O:Bulgaria 
+M:7/16
+N:the turn symbols represent trills
+K:Am
+"G"(GABc) (dD)d|(dD)(cd) (~B2A)|   \
+(GABc) (dD)d|(ed)(cd) (~B2A)::  \
+"Am"(GA)(AE) (AcB)|(BG)~A2 (G^FE2)| \
+(^FGAD) (AcB)|(BG)~A2 (AeA)|    \
+(GA)(AE) (AcB)|(BG)~A2 (G^FE2)| \
+(^FGAE) (edc)|(BA)(BG) A3 ::
+"A"(^cd)(dA) (~c2A)|(B^c)(cB) (~B2A)|   \
+(ed)(dA) (~^c2A)|(B^c)(cA) (~B2A) ::
+"A"~e2(de) (^cde)|~e2(de) ~^c2A|       \
+~e2(de) (^cde)|~e2(de) c3     ::
+{ag}"Am"a2(bg) (~a2g)|(gfed) (~e2e)| \
+"Em"(eB){gf}(g2 g)(fd) \
+|1 "Am"~e2ee {ga}(a2a) :|2 e4 e3 ||
+"G"(~dA2G) (~G2D)|{AG}"Dm"A2(Ac) "G"(~B2D)|  \
+(~dA2)G (~G2D)|{AG}"Dm"A2(A=F) "G"G3:|       \
+"G"(~d'3d) (d'=c'd')|~b2(c'd') (gab)|   \
+(c'd')(d'd) (d'c'd')|~b2(c'd') (~a2g)| \
+{gf}(g3d) (d'c'd)|(bd)(c'd') (gab)|    \
+(c'd')(d'd) (d'c'd')|~b2(c'd') g3 ||
+S:https://www.folktunefinder.com/tunes/32581
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 7/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

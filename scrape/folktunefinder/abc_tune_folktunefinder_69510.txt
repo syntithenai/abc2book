@@ -1,0 +1,27 @@
+X:651
+T: "Das Schlaraffenland"
+N: Z1332
+O: Europa, Mitteleuropa, Schweiz; Elsass
+R: Zech -, Schalks - Lied
+M: 2/4
+L: 1/16
+K: A
+cB | A2A2A2E2 | A4B4 | c4z2
+cB | A2A2A2E2 | A4B4 | c4z2
+AB | c2cde2dc | B4E2z2 | z2
+cde2c2 | B4B2
+cd | e4c4 | d2edc2B2 | c4z2
+cB | A2B2c2^dd | e2E2z2
+Ac | e3fed | c3BA2 | B4c2 | A4
+S:https://www.folktunefinder.com/tunes/69510
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

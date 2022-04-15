@@ -1,0 +1,27 @@
+X:16795
+T:The Guillemot's Revenge
+% Nottingham Music Database
+S:By Hugh Barwell, via PR
+M:4/4
+L:1/4
+K:Gm
+"Gm"d^c/2d/2 BA/2B/2|GG G^G|"D7"AD ^FA|D^F d/2c/2B/2A/2|
+"Gm"d^c/2d/2 BA/2B/2|G/2A/2B/2c/2 "G/dim""c#"^c2|"D7"dD D/2=E/2^F|"Gm"GB G2::
+"F7"Fe Ac|"Bb"B/2A/2B/2c/2 dB|"Eb"GB "F7"AG|"Bb"FB Fz|\
+"Eb"G/2^F/2G "F7""c"A/2G/2A|
+"Bb""d"B/2A/2B/2c/2 d_d|"C7"cc d/2c/2B/2d/2|"F"c3^c|"D7"dd Ac|\
+"Gm"B/2c/2d/2B/2 G2|"F7"ff ce|
+"Bb"d/2e/2f/2d/2 B2|"Cm6""c"c/2d/2e " ""a"e/2d/2c|\
+"Gm""g"B/2c/2d " ""bb"d/2c/2B|"D7"A/2B/2c c/2B/2A|"Gm"GB G2:|
+S:https://www.folktunefinder.com/tunes/38166
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

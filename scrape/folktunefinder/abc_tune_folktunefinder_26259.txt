@@ -1,0 +1,25 @@
+X:5807
+T:Scarce O' Tatties
+O:england
+R:jig
+C:Norman McLean, arr. Chris Layer
+S:Hamish Moore's School of Piping
+M:6/8
+L:1/8
+K:D
+{g}A{d}A{e}A {g}ef{a}g|{g}edB {g}dBA|{g}A{d}A{e}A {g}ef{a}g|{g}edB {G}A3
+|
+a{g}a{g}a g3|fg{gfg}f {g}edB|{g}A{d}A{e}A {g}ef{a}g|{g}edB {G}A3:|
+|:aeg a2e|g2f eA{AGA}A|ae{a}g a2e|{a}g2f {g}e3|
+e{g}e{d}e {g}A{d}A{e}A|{g}def {g}fed|{g}AA/A/A {g}efg|{g}edB {G}A3:|
+S:https://www.folktunefinder.com/tunes/26259
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:14
+T:O'Keefe's Plow
+T:Tom Billy's Reel
+R:Reel
+N:IrTrad, 5/99
+Z:Roger Landes
+M:C|
+L:1/8
+K:D
+|: dcdA BAFB | AF F/F/F EFDE | F/F/F AF G/G/G BG | ABde fdec |
+| d/d/d dA BAFB | AF F/F/F/ EFDE | F/F/F AF G/G/G BG |1 ABde fe e/e/e :|2 ABde fdde ||
+|: fa a/a/a afdf | g/g/g fg edBd | fa a/a/a bafd | ABde fe e/e/e |
+| fa a/a/a afdf | g/g/g fg | {f}edBA | F/F/F AF G/G/G BG |1 ABde fe e/e/e :|2 ABde fdec |]
+S:https://www.folktunefinder.com/tunes/17786
+S:http://trillian.mit.edu/~jc/music/abc/reel/OKeefesPlow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomBillysReelv2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OKeefesPlow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TomBillysReelv2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/OKeefesPlow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TomBillysReelv2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OKeefesPlow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TomBillysReelv2_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

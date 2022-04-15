@@ -1,0 +1,26 @@
+X:6600
+T:Valse
+M:3/4
+O:France
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006af.html
+%%ID:000006af
+K:G
+D2E2 F2|G4 G2|A2E2 F2|G6|\
+G2B2 A2|G4 AG|E2F2 G2|A2AG AB\
+|1 ABAG FE:|2 A6||
+|:A3B c2|d4 ed|c2d2 e2|d6|\
+c2B2 A2|G3F G2\
+|1 A3Bc2|B2A4-|A6:|2 A2E2F2|G6-|G6||
+S:https://www.folktunefinder.com/tunes/37399
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

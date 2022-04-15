@@ -1,0 +1,21 @@
+X:14028
+T:Red Box
+Z: id:dc-reel-25
+M:C
+L:1/8
+K:D Mixolydian
+g|afge fdd2|cABG AFDE|FEFG A3B|cBAB cdeg|!
+afge fdd2|cABG AFDE|FEFG A3B|cAGE FDD:|!
+A|cBce gecA|d^cdf afdf|g2bg f2af|edef edBA|!
+cBce gecA|d^cdf afdf|gfeg fedB|cAGE FDD:|!
+S:https://www.folktunefinder.com/tunes/64038
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

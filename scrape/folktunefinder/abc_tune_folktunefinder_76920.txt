@@ -1,0 +1,30 @@
+X: 745
+T: Galway Tom
+M:6/8
+L:1/8
+B:O'Neill's 745
+R:Jig
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+Z:Ornament (~) is a turn
+N:"2nd Setting" "Collected by McFadden"
+K:Bn
+   def fef | fef fef  | def fef    | edB BAB   |
+   def fef | fef fef  | baf fed    | fdB B2 d :|
+|: AFA AFA | AFA A2 d | BGB BGB    | BGB Bcd   |
+   AFA BGB | dBd efa  | baf {g}fed |1 fdB B2 d :|2 fdB {c}BAB ||
+|: def (ab/a/f) | (ab/a/f) (ab/a/f) |    def   (ab/a/f) | gfe fdB  |
+   def  a/a/af  |  a/a/af   a2  f   | (g/a/bg)   faf    | gfe fdB :|
+|: AFD DFA | AFA A2 d | BGE EFA    | BGB B2 d  |
+   AFA BGB | dBd efa  | baf fed    |1 fdB B2 d :|2 fdB {c}BAB ||
+|: d3  fdd | edd fdd  | d/d/dd fdd | edB BAB |
+   ~d3 fdd | edd efa  | baf fed    | fed {c}BAB :|
+S:https://www.folktunefinder.com/tunes/76920
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0732-0758_bs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

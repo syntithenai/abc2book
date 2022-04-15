@@ -1,0 +1,24 @@
+X:1
+T: DREI TAG GEH MER NET HAN
+N: E1001
+O: Europa, Mitteleuropa, Deutschland, Schwaben, Ulm
+R: Tanz - Lied
+M: 3/8
+L: 1/16
+K: F
+ | c3BA2 | c3BA2 | G2F2G2 | F4
+A2 | G2G2G2 | G2A2B2 | A4B2 | c4
+A2 | G2G2G2 | G2A2B2 | A4B2 | c6
+c3BA2 | c3BA2 | G2F2G2 | F6
+S:https://www.folktunefinder.com/tunes/79105
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

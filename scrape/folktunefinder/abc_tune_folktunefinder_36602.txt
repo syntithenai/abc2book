@@ -1,0 +1,23 @@
+X:2615
+T:Italian Rant
+M:4/4
+N:Playford
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d70.html
+%%ID:00000d70
+K:A min
+ABcd e2e2 | f2ed e2ef | d2de c2cc |1 BABc A2fe :|2  BABc A4 :: \
+a2a2 g2gg  | ^fefg e4 |
+e=fge f2e2 | d3e c2c2 | cdec d2B2 | BcdB c2A2 | \
+ABcd e2e2  | f2ed e2ef| d2de c2cc | {Bc}BABc A4 :|
+S:https://www.folktunefinder.com/tunes/36602
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

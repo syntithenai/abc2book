@@ -1,0 +1,42 @@
+X: 40
+T:Mr Thomas Tollate's Grounds,p.1/3. HA.041
+T:Irish Ground,The,aka. HA.041
+M:9/4
+L:1/4
+Q:120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:This will not fit on the page in ABC2WIN, and you will get various
+N:error messages if you try it. I have split it up into three
+N:separate tunes and done it as pages 1,2,3. cf PLFD DM ed.11 (1701).
+N:CGP
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"1"B|A>Bc d<cf e2c|A>Bc d>cf g2c|!
+A>Bc d<cf d2a|bag g2ff2:|!
+|:"2"e|dcB AGF GAB|AGE DEF G2B|!
+ABc cde def|edc fge g2:|!
+|:"3"c|f>ga/g/ f>ga/g/ g/f/e/d/c|f>ga/g/ f>ga/g/ g2c|!
+f>ga/g/ f>ga/g/ bdb|g/f/e/d/c g/f/e/d/c g2:|!
+|:"4"c/B/|AFc/B/AFB/A/GF c/B/|AF c/B/AF G/A/BGc/B/|!
+AF c/B/ AF G/A/ BDG/F/|DC G/F/ DC D/E/ FA,:|!
+|:"5"f|cfc fcf ece|cfc fcf g>fe/d/|!
+cfc fcf bdb|gcg cge f2::!
+"6"c|(f/c/) (f/c/) (f/c/) (f/c/) (f/c/) (f/c/) (ece)|\
+(f/c/) (f/c/) (f/c/) (f/c/) (f/c/) (f/c/) g2g|!
+(f/c/) (f/c/) (f/c/) (f/c/) (f/c/) (f/c/) bdb|\
+(g/c/) (g/c/) (g/c/) (g/c/) (g/c/) (g/c/) g2:|!
+|:M:6/4
+"7"c|A2A G/F/Ec|A2A "cr's"G/F/Gc|A2A G/F/Bc/d/|"Cont'd...."cd/e/fef:|]
+S:https://www.folktunefinder.com/tunes/72289
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 9/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

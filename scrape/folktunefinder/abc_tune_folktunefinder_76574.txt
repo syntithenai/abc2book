@@ -1,0 +1,28 @@
+X:89
+T: WO GEHST DU HIN DU STOLZE
+N: E0696
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt, Alsfeld
+R: Liebes - Lied, Leid, Klage
+M: 6/8
+L: 1/8
+K: D
+D | D2FA2B | A2dF2
+A | A2GE2C | D3z2
+D | D2FA2B | A2dF2
+A | A2GE2C | D3z2
+A | ^G2EEFG | A2cc2
+c | d2BedB | A3-A2
+G | F2AA2B | A2dF2
+A | B2AG2E | D3z2
+S:https://www.folktunefinder.com/tunes/76574
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

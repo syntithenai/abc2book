@@ -1,0 +1,28 @@
+X:31
+T: Ach Gott in deinem hoechsten Thron
+N: A0390A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie hs. aus dem 16. Jh.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: C
+c4 | c4c4 | B4c4 | d4c4 | B4z2
+G2 | c2d2e4d4 | c4A8 | G8z2
+d2 | c4c2B4G2 | A4G2E4
+A2 | A4A2G4E2 | G4E2C4
+C2 | G2A2B2c2 | d2c2B2c4
+B2 | c3BAGc4BA | G3FE2D2 | C4
+S:https://www.folktunefinder.com/tunes/80090
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

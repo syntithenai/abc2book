@@ -1,0 +1,33 @@
+X: 91
+T:For the lake() of Gold she has left me.  JMP.091
+M:C
+L:1/8
+Q:200
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Scots Measure
+O:Scotland
+A:Perth
+N:It's probably 'For the Sake . . . " but it looks like  'lake . . .' and
+N:it's lovely idea...or "lack".
+N:1 - no key signature give
+H:1799
+Z:vmp.C .Graebe
+K:D major
+F>E |"no Key sig given" D3 F ABdA | B2e4 dB | d2a2 fdbd | f2 a4 d2 |!
+gabg fgaf | (gf)(ed) {f}e2  de/f/ |  D3 F ABdA | B2 d>e d2 :|!
+|:de | fdec dABF | E2 e4 fa | bafb adbd |f2a4d2 |!
+gabg fgaf | gfed {f}e2 de/f/ |  D3 F ABdA | B2e4:|]
+S:https://www.folktunefinder.com/tunes/2028
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Scots measure
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

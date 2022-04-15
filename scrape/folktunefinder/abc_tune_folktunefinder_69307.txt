@@ -1,0 +1,29 @@
+X:448
+T: "Unserm Koenige"
+N: Z1128
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterland und Wehr
+M: 4/4
+L: 1/8
+K: F
+F3G | A2G2B2A2 | GEF2
+d2c2 | B2A2G2AF | c4
+F3G | A2G2B2A2 | GEF2
+d2c2 | B2A2G2AF | c4
+G2A2 | GEC2B2A2 | GEC2
+c2B2 | A3A=B2B2 | c4
+f3e | d2c2d3c | B2A2
+G3B | cdBGF2AG | F4
+S:https://www.folktunefinder.com/tunes/69307
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

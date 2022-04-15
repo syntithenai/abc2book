@@ -1,0 +1,23 @@
+X:3612
+T:Cuckoo's Nest
+% Nottingham Music Database
+S:Song
+M:4/4
+L:1/8
+R:Hornpipe
+K:Dm
+"Dm"D2DE DCA,C|"Dm"DCDE F2"C7"FA|"F"c2cd A2GF|"C"ECCC C2"A7"FE|
+"Dm"D2DE DCA,C|"Dm"DCDE F2"C7"FG|"F"ABcA "A7"GFEF|"Dm"E2"Gm"D2 "Dm"D2||
+S:https://www.folktunefinder.com/tunes/29892
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

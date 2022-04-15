@@ -1,0 +1,25 @@
+X:1235
+T:the Cumberland Waltz
+A:North-West
+M:3/4
+O:England
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000520.html
+%%ID:00000520
+K:D
+AA|\
+D2F2 AA| D2F2 AA| D2F2 A2| "tr"f4g2| f2e2d2| A4B2| A2F2D2| E4AA|\
+D2F2 AA| D2F2 AA| D2F2 A2| "tr"f4g2| f2e2 d2| A4 AA| A2c2 e2| d4||\
+A2|\
+f4 d2| e4 d2| ccc2B2| G4 A2| BBB2A2| BBB2A2| BcB2 A2| (F2A2) A2|\
+f4 d2| e4 d2| ccc2B2| G4 A2| BBB2A2| BBB2A2| A2c2e2| d4|]
+S:https://www.folktunefinder.com/tunes/36326
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

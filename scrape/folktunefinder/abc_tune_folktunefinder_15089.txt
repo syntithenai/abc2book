@@ -1,0 +1,25 @@
+X: 1
+T: Soldier's Joy (jig)
+R: jig
+B: Joshua Campbell's Collection 1778
+N: 2006 Jiggified by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG \
+| "D"AFD AFD | A2d "(A7)"dcB | "D"AFD     AFD | "A7"G2E EFG \
+| "D"AFD AFD | A2d "(A7)"d2e | "D"fad "A7"egc |  "D"d2[fd] d  :|
+|: de \
+| "D"fAd faf | "A7"eAc ege | "D"fAd     faf | "A7"e2c Ade \
+| "D"fAd faf | "A7"eAc ege | "D"fad "A7"egc |  "D"d2[fd] d  :|
+S:https://www.folktunefinder.com/tunes/15089
+S:http://trillian.mit.edu/~jc/music/abc/jig/SoldiersJoyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SoldiersJoyJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

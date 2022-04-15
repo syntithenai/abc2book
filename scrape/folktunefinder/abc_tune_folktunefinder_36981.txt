@@ -1,0 +1,23 @@
+X:4510
+T:Pols
+A:Rros
+M:3/4
+O:Norway
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef0.html
+%%ID:00000ef0
+K:D
+(3A/B/c/ |\
+d2 dA Bc | d2 df ed | c2 cA Bd | c2 A3 (3:2A/B/c/ |\
+d2 dA Bc | d2 df ed | c2 cA Bd |1 c2 d3 :|2 c2 d4 ::
+zf- f2 fa | ^ge fa gf | ed f2 fa | ^ge fa gf | \
+ed =f2 fa | ge =fa gf | ed cA cd | ec d4 ::
+S:https://www.folktunefinder.com/tunes/36981
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 28
+T: The Rose of Tralee
+C: Music by Charles W. Glover
+C: Words by C. Mordaunt Spencer
+N: Published in London in 1845
+R: waltz
+M: 3/4
+L: 1/4
+%%staffsep 30
+K: A
+E \
+| "A"EFE | c>BA | "D"ADF | "A"FE>E \
+| "E7"EFE | "A"EA>A | "B7"A>GA | "E7"B2E |
+| "A"EFE | c>BA | "D"ADF | "A"FE>E \
+| "E7"Edd | "A"c>AF | "E7"EFA | "A"A2A/B/ |
+| "C#7"cc>B | "F#m"A2A/G/ | "D"FF/^E/F/G/ | "C#7"^ECc \
+| "F#m"cF"E7"d | "A"cc>B | "F#m"A>B"C#"G | "F#m"F2"E7"E |
+| "A"EF>E | c>BA | "D"ADF | "A"FE>E \
+| "E7"Edd | "A"cA>F | "E7"Ec>B | "A"A2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13039
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

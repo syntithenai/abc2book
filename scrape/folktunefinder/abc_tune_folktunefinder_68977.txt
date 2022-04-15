@@ -1,0 +1,26 @@
+X:118
+T: NUN WILL ICH EUCH WAS NEUES ERZAEHLEN
+N: Z0118
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze, Unsinns - Verse
+M: 2/4
+L: 1/8
+K: F
+F | F2F2 | F2EF | G2FG | AGF
+G | A2AA | A2GA | B2AB | cBA
+c | dcde | fedc | B2A2 | G2
+GA | B2cB | A2GA | B2cB | A2
+c2 | f2cA | c2AF | c4 | F2z
+S:https://www.folktunefinder.com/tunes/68977
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze, unsinns - verse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

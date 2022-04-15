@@ -1,0 +1,30 @@
+X: 34
+T:Bobing Joan. JWDM.33
+T:Bobbing Joan. JWDM.33
+M:4/4
+L:1/8
+Q:200
+S:J.Winder MS,Wyresdale,Lancs.,1789
+R:Double HP
+O:England
+A:Lancashire
+B:JWDM.
+N:As written,but 3/4 in Vickers..Try in key of D
+Z:vmp.Taz Tarry
+K:G
+"*"fd Ac d2 fd|Ac eg fd Ac|d2 ec Ac eg:||!:fa ag f2 ea|ag fa ba gf|e2 ec
+ Ac
+eg:|]
+%As written,but 3/4 in Vickers..Try in key of D.
+S:https://www.folktunefinder.com/tunes/43650
+S:http://www.andyhornby.net/Music/John%20Winder%20MS.abc
+S:http://www.village-music-project.org.uk/abc/johnwinder.abc
+% Rhythm Double hp
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:3885
+T:the New-Rigged Ship (jig)
+T:Miss Finlay's Delight
+M:6/8
+O:Shetland
+O:Scotland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000893.html
+%%ID:00000893
+K:D
+A|\
+d2d def|d2d def|ecA ABA|ecA ABc|\
+d2d def|d2d def|ecA ABc|d3 d2::
+f|\
+a2f a2f|d2d dfa|b2g b2g|e2e efg|\
+a2f a2f|d2d ecA|Bcd ecA|d3 d2:|
+S:https://www.folktunefinder.com/tunes/36856
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

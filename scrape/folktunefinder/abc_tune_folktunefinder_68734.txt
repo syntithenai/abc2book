@@ -1,0 +1,24 @@
+X:188
+T: Abfertigung
+N: A0221
+O: Europa, Mitteleuropa, Deutschland
+N: None, Anzeiger VI, 1837, Beil. II. No. 7. Original: Cod. von
+N: St. Blasien, 15. Jh.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: A
+AAA | B2BB | eed=c | B2z2
+=ccdd | e2dd | eed=c | B2z2
+BB=cc | BAB2 | BBEE | =GGAA | B2z
+B | dAB=c | ed=cc | BAA2
+S:https://www.folktunefinder.com/tunes/68734
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:18
+T:La petite Jeanneton
+M:3
+L:1/4
+K:Cm
+%%staves [1 2]
+V:1
+c=B2 | c2d | ue{d}c2 | !!d2d | c=B2 | c2d | ue{d}c2 |1 !!d3 :|2 !!d3 | 
+dd2 | g2f | e!!d2 | !!c2c | cc2 | f2e | !!dc2 | !!=B3 | 
+edc | !!d3 | G>A=B | uc2c | edc | !!d3 | G>A=B | uc3 |]
+V:2
+CG,2 | C2=B, | C_A,2 | G,>_A,G,/F,/ | E,D,2 | C,2=B,, | C,_A,,2 |1 G,,>G,A,/B,/ :|2 G,>(D,E,/F,/) | G,F,2 | E,2D, | C,=B,,G,, | C,2C, | 
+F,E,2 | D,2C, | =B,,C,2 | G,/_A,/G,/F,/E,/D,/ | C,=B,C, | G,,>D,E,/F,/ | G,2F, | E,/D,/E,/F,/E,/D,/ | C,=B,C, | G,,G,/_A,/G,/F,/ | E,/F,/G,G,, | C,3 |]
+S:https://www.folktunefinder.com/tunes/40181
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

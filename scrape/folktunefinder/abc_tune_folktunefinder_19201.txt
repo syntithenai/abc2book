@@ -1,0 +1,26 @@
+X: 1
+T: Ben Lomond
+R: strathspey
+M: C
+L: 1/8
+K: D
+"A7"B \
+| "D"A>F AF A<d | "G"B>A B<d "A7"e2 e2 \
+| "D"d<f f>d "Em"e>B "D"d>A |1 "G"B<d "D"A>F "A7"E2-E :|2 "G"B<d "A7"A>F "D"D2-D :|
+f/g/ \
+| "D"a>f d>f a>f d>f | "Em"e>d e<f "A"~e2 ef/g/ \
+| "D"a>f d>f "Bm"a>b a<f | "Em"e>d "A7"e<f "D"~d2-d ||
+f/g/ \
+| "D"a>f d>f a>f d>f | "Em"e>d e<f "A"~e2 e2 \
+| "D"d<f f>d "Em"e>B "D"d>A | "G"B<d "A7"A>F "D"D2-D |]
+S:https://www.folktunefinder.com/tunes/19201
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BenLomond_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BenLomond_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

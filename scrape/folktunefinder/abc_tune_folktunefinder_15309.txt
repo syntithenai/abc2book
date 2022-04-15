@@ -1,0 +1,31 @@
+X:295
+T:Atholl Braes #2
+D:Silly Wizard, Silly Wizard (1976)
+O:Scotland
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:A
+z|A2 AB d2 df|edef efBd|A2 AB d2 df|edef d2:|
+ef|g2 bg f2 af|edef edBd|g2 bg f2 af|edef d2 ef|
+g2 bg f2 af|edef edBd|A2 AB d2 df|edef d2|]
+S:https://www.folktunefinder.com/tunes/15309
+S:http://trillian.mit.edu/~jc/music/abc/march/AthollBraes2_1.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+S:http://nigelgatherer.com/tunes/abc/tb06.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb06.abc
+S:http://nigelgatherer.com/tunes/abc/abc4/athl2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/AthollBraes2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/AthollBraes2_1.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abc4/athl2.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc4/athl2.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abc4/athl2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

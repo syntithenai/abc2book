@@ -1,0 +1,24 @@
+X:3
+T:Laangt naer i Smaaland
+R:schottis
+C:av Roger Tallroth
+Z:Brian Wilson
+M:2/4
+L:1/16
+K:Gmix
+|: "D"D>AA>A "D"B2A2 | "G"{G}G>BB>B "G"c2(B2 | "G"{d}d3/)(e/ d3/)(c/ "Am"A3/)B/c2 | "G"B>AG2 "F"F4 |
+   "D"D>AA>A "D"B2A2 | "G"{G}G>BB>B "G"c2B2- | Bz "G"G2 "F"F3/(G/F3/)D/ | ("F"C2D2) "G"D4 :|
+|: "D"{A}A>^FA2 "G"B2 d2 | "C"e>dc2 "D"d4 | "D"{A}A2A2 "G"G>AB2 | "C"c>B G2 "A"A4 |
+   "D"{A}A>^FA2 "G"B2 d2 | "C"c>B G2 "F"F4- | Fz F2 "G"E3/F/ E3/D/ | ("F"C2 D2) "G"D4 :|
+S:https://www.folktunefinder.com/tunes/18395
+S:http://trillian.mit.edu/~jc/music/abc/shottish/LaangtnaeriSmaaland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/LaangtnaeriSmaaland.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

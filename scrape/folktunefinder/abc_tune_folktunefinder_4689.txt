@@ -1,0 +1,42 @@
+X:1
+T:BAL \`A MOUS, DUR DUR!
+R:Bourr\'ee \`a trois temps
+N:Bourr\'ee \`a trois temps
+C:Dominique Manchon
+A:Dominique Manchon
+P:Pour 4 cornemuses 16 pouces et 1 cornemuse 20 pouces
+M:3/4
+K:G 0&5
+SG6             &G4 XX d2       &d4 XX G2       &B2 GB d2       &d2 Bd g2|\
+TG6             &G4 X d2        &d4 X G2        &c2 B2 G2       &f2 g2 d2|\
+SD6             &G4 XX c2       &c4 XX G2       &A4 XX c2       &=fe c2 ed|\
+TD6             &G4 XX c2       &c4 XX G2       &d4 XX f2       &B2 dc A2|\
+SG6             &G4 XX B2       &B4 XX G2       &g4 XX d2       &d2 Bd g2|\
+TG6             &G4 X B2        &B4 X G2        &c2 B2 G2       &f2 g2 d2|\
+S=F6            &G4 XX A2       &A4 XX G2       &A4 XX c2       &=fe c2 e2|\
+T=F6            &G4 X A2        &A4 X G2        &_e2 d2 c2      &A2 B2 c2:|
+%2e partie
+|:SD6           &G4 XX B2       &B4 XX G2       &B2 GA B2       &d2 B2 X d2|\
+TD4 XX E2       &G4 XX B2       &B4 XX G2       &d4 XX B2       &GA B2 d2|\
+=F6             &G4 XXX c2      &c4 XXX G2      &AG =FG A2      &c2 X AB c2|\
+c6              &G4 XXX c2      &c4 XXX G2      &dc BA GA       &=fe dc Bc|\
+A6              &G4 XX B2       &B4 XX G2       &B2 GA B2       &d2 B2 X d2|\
+D6              &G4 XX B2       &B4 XX G2       &d4 XX B2       &GA B2 d2|\
+S=F6            &G4 X A2        &A4 X G2        &A2 G4          &c2 B2 c2|\
+T=F6            &G4 X A2        &A4 X G2        &=F2 G2 A2      &A2 B2 c2:|
+S:https://www.folktunefinder.com/tunes/4689
+S:http://trillian.mit.edu/~jc/music/abc/France/BalAMousDurDur.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/BalAMousDurDur.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/xmas/BalAMousDurDur.abc
+% Rhythm Bourre?e a? trois temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

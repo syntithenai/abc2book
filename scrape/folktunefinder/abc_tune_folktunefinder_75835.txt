@@ -1,0 +1,35 @@
+X: 23
+T:Princess Royal, Shakespeare MM
+M:4/4
+L:1/8
+Q:1/4=120
+S:Shakespeare Morris Men
+A:Bidford
+P:A.(A2BC3)4.AA
+Z:vrh 05/03/0
+K:G
+P:A
+dc|BcAB G2dc|BcAB G2d2|e2ed cde2|d2dc B2d2|
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2 ||
+P:B
+d2|e2d2 e2f2|g2GG G2AB|c2B2 A2G2|F2E2 D4 |
+DEFG A2A2|B2d2 g3g |f2d2 e3e |d2B2 c3c|
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2||
+P:C
+dc|B3c  A3B |G4   d2c2|B3c  A3B |G4   d4 |
+e4{g}e2d2|c4   e4  |d4{g}d2c2|B4   d4 |
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2||
+S:https://www.folktunefinder.com/tunes/75835
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

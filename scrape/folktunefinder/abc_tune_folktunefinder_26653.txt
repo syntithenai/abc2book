@@ -1,0 +1,25 @@
+X:6201
+T:Speed the Plough
+O:england
+C:Traditional
+N:From the Fiddler's Tune Book
+Q:1/4=140
+M:4/4
+L:1/8
+K:A
+(3(EFG)|ABcd efec|eaec efec|dfdB cecA|
+Bcdc BGEG|ABcd efec|eaec efec|dece BeAe|
+EGBG A2|
+S:https://www.folktunefinder.com/tunes/26653
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

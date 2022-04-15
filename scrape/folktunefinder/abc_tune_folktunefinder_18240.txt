@@ -1,0 +1,26 @@
+X: 1
+T: The Train Journey North
+C: Tom Anderson
+R: reel (originally hornpipe)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2fA dfAd | fAdf A2df | "A7"g2ec AceA |  ceAc    eAfe |
+| "D"d2fA dfAd | fAdf A2df | "A7"g2ec AceA |1 c2eg "D"fdd :|2 "A7"c2eg "D"fAd |]
+|: f \
+| "D"a2fd A2fA | dfaf gfef | "A7"g2ec A2eA |  ceAg "D"fAdf |
+| "D"a2fd A2fA | dfaf gfef | "A7"g2ec AceA |1 c2eg "D"fAd :|2 "A7"c2eg "D"fdd |]
+S:https://www.folktunefinder.com/tunes/18240
+S:http://trillian.mit.edu/~jc/music/abc/reel/TrainJourneyNorth_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TrainJourneyNorth_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TrainJourneyNorth_D4.abc
+% Rhythm Reel (originally hornpipe)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:360
+T:Corn Rigs
+% Nottingham Music Database
+S:Eric Foxley
+M:4/4
+L:1/4
+K:D
+P:A
+A|"D"d/2c/2d/2e/2 fe/2d/2|"A7"c/2B/2c/2d/2 e/2c/2A|\
+"D"d/2c/2d/2e/2 "A7"f/2g/2e/2f/2|"D"da/2b/2 "A7"aA|
+"D"d/2c/2d/2e/2 fe/2d/2|"A7"c/2B/2c/2d/2 e/2c/2A|\
+"G"B/2c/2d/2B/2 "A7"e/2d/2c/2B/2|"D"Ad d:|
+P:B
+A|"D"da f/2g/2a|"A7"c/2B/2c/2d/2 e/2c/2A|"D"da "A7"f/2g/2e/2f/2|\
+"D"da/2b/2 "A7"aA|
+"D"da "G"b/2a/2g/2f/2|"Em"g/2f/2e/2d/2 "A"c/2d/2e/2A/2|\
+"G"B/2c/2d/2B/2 "A7"e/2d/2c/2B/2|"D"Ad d:|
+S:https://www.folktunefinder.com/tunes/43446
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsA-C.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsA-C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

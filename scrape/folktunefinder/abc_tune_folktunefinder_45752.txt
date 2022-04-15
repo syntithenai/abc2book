@@ -1,0 +1,26 @@
+X:1
+T:Le pas des patineurs
+T: (1)
+O:France
+C:Trad.
+M:2/4
+L:1/8
+Q:1/4=92
+K:C
+ee e/d/e/f/|ge e/d/e/f/|gd d/c/d/f/|ec c2:|
+ge e>g|g/f/e/f/ d2|g>a g/f/e/d/|[1 ec c2:||2 c/e/g/e/ c2|]
+T:(2)
+O:Morvan
+K:C
+z/G/c/e/||"F"a"G"g "C"e/G/c/e/|"F"a"G"g "C"e2|"C"e>g e>g|"G7"f/e/d/e/ f/G/B/d/|"F"gf "G"d2|b>a g/f/e/d/|"C"e2 c/G/c/e/|
+"F"a"G"g "C"e/G/c/e/|"F"a"G"g "C"e2|"C"e>g e>g|"G7"f/e/f/g/ a/f/e/d/|"F"aa "G"a/f/e/d/|"C"gg g2|b>a g/f/e/d/|"C"ce c/c/B/c/|
+"G"dc "F"Af|"C"c2- c/c/B/c/|"G"dc "F"Af|"C"e2- e/e/d/e/|"G"g"F"f "C"e"G"d|d2- d/c/B/c/|"G"ed "F"c_B|A2 z/"C"c/B/c/|
+"G"dc "F"Af|"C"c2- c/c/B/c/|"G"dc "F"Af|"C"e2- e/e/d/e/|"G"g"F"f "C"e"G"d|d2- d/c/B/c/|"G"dc "F"ag |fa !breath!f/ "C"G/c/e/||
+S:https://www.folktunefinder.com/tunes/45752
+S:http://michel.bellon.free.fr/Musique/abc/PasDesPatineurs_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

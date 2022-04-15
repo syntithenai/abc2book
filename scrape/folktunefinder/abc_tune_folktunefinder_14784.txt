@@ -1,0 +1,28 @@
+X: 240
+T: O For One and Twenty!
+B: O'Neill's 240
+N: "Gaily"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+f \
+| cAF GAc | d2G G2f | cAF GA^c | d2D D2f |
+| cAF GAc | dcB AGF | BAG A=B^c | d2D D2 ||
+|| e \
+| f>gf fed | g>ag gfe | f>ed g>fe | a2d d2e |
+| f>gf fed | gag gfe | f>ed A=B^c | d2D D2 ||
+S:https://www.folktunefinder.com/tunes/14784
+S:http://trillian.mit.edu/~jc/music/abc/jig/OForOneAndTwenty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/OForOneAndTwenty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OForOneAndTwenty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OForOneAndTwenty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

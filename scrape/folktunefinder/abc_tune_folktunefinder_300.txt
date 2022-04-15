@@ -1,0 +1,32 @@
+X: 1
+T: Gallop kontra
+O: trad Danmark
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 \
+| "D"A2d2 d2d2 | d2cB A2cd | "A"e2a2 a2a2 | a^ga2 e2a2 | a^ga2 e2a2 | a^ga2 "D"f2d2 | "A7"c2e2 e2A2 | "D fine"d6 :|
+|: a2 \
+| "D"ba^ga baga | f2d2 d2f2 | "A"edcd e2a2 | "D"f2d2 d2a2 | ba^ga baga | f2d2 d2ed | "A7"c2e2 e2A2 | "D"d6 :|
+|: f2 \
+| "D"f2e2 d2c2 | B2A2 A2F2 | "G"G2A2 B2A2 | "A7"G4 "D"F2f2 | f2e2 d2c2 | B2A2 A2F2 | "A7"G2A2 B2c2 | "D"d6 :| [K:A]
+|: e2 \
+| "A"edcd e2e2 | f2e2 e2e2 | edcd e2c2 | B2A2 A2e2 | edcd e2e2 | f2e2 e3f | "E7"e2e2 G2G2 | "A"A6 :|
+S:https://www.folktunefinder.com/tunes/300
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/GallopKontra.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/GallopKontra.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka/GallopKontra.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/GallopKontra.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/GallopKontra.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Denmark/polka/GallopKontra.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/polka/GallopKontra.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/polka/GallopKontra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

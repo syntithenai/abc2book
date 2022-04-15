@@ -1,0 +1,29 @@
+X:1
+%% Copyright 1939 Burke and Van Heusen, Inc.
+T:I thought about you
+M:4/4
+L:1/8
+C:Johnny Mercer & James Van Heusen
+Q:1/4=110
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x4 "E7"x4 | "Eb7"x4 "D7"x4 | "G7"x4 x4 | x4 x4 |
+"Gm7"x4 "-/F"x4 | "Em7b5"x4 "A7"x4 | "Dm7"x4 "(Db7)"x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+zFAc e_edA- | A4B2A2 | AFFF- F4- | F6z2 |
+S:https://www.folktunefinder.com/tunes/18769
+S:http://trillian.mit.edu/~jc/music/abc/song/I_thought_about_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/I_thought_about_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/i_thought_about_you.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/i_thought_about_you.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:330
+T: NUN REUEN MICH DIE GUTEN SCHUCH
+N: E0945
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Reigen
+M: 4/4
+L: 1/4
+K: F
+F | A2A2 | B2B2 | c2c2 | c2z
+c | _e2d2 | c2B2 | c2c2 | F3
+F | A2A2 | B2B2 | c2c2 | c2z
+c | _e2d2 | c2B2 | c2c2 | F3
+S:https://www.folktunefinder.com/tunes/76815
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

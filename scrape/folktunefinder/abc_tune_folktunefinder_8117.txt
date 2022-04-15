@@ -1,0 +1,20 @@
+X: 7
+P: Masurka etter Sigbj\"orn Osa
+R: mazurka
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "A7"a>f g<e f>e | "D"d>e f2 f2 |1,3 "A7"A>c e2 e2 | "D"d>f a2 a2 :|2,4 "A7"A>c e<g f>e | "D"d2 d4 :|
+|: "G"g2 ge fg | "D"(3f/g/a/ f<d f2 | "A7"(3e/f/g e<c (3A/B/c/ |1,3 "D"d>e fg a2 :|2,4 "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8117
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

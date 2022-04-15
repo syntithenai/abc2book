@@ -1,0 +1,52 @@
+X:1
+T: Pointe au Pic
+S: Nottingham Music Database
+Z: transcribed to Nottingham format by Mike Richardson,
+Z: converted to ABC by Philip Rowe 
+M: C|
+L: 1/4
+K: C
+g/e/g/ \
+| "C"dcBA/B/ \
+| G/G/G3/g/e/g/ \
+| "C"dcBA/c/ \
+| "G"B/B/B3/g/e/g/ \
+| dcBA/c/ \
+| "G"B/B/B3/g/e/g/ \
+| a/g/e/g/ a/g/e/c/ \
+| "C"G2-G/g/e/g/ |
+| "C"dcBA/B/ \
+| G/G/G3/g/e/g/ \
+| "C"a/g/e/g/ a/g/e/c/ \
+| "F"a3A/B/ \
+| "F"cB/c/ "D"dc/d/ \
+| "C"e"Am"a2e \
+| "G"gf2B \
+| "C"c3B |
+| "Am"A3/B/cd \
+| e/a/a/b/ a/g/e/g/ \
+| "Am"aa/b/ a/g/e/g/ \
+| a/a/a2A \
+| "G"G3/A/Bd \
+| "G"g/g/g3/e/d/e/ \
+| "G"gg/a/ g/e/d/e/ \
+| g/g/g2B |
+| "Am"A3/B/cd \
+| e/a/a/b/ a/g/e/g/ \
+| "Am"aa/b/ a/g/e/g/ \
+| a/a/a2a \
+| "F"c'c'2a \
+| "C"gg/a/ "Am"g/e/c/d/ \
+| "D"e/g/e/c/ "G"d/c/B/d/ \
+| "C"c2-c/ |]
+S:https://www.folktunefinder.com/tunes/17882
+S:http://trillian.mit.edu/~jc/music/abc/reel/PointeAuPic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

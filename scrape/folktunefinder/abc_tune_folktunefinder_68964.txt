@@ -1,0 +1,23 @@
+X:105
+T: ES WAR EIN MAEDCHEN VON ACHTZEHN JAHREN
+N: Z0105
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | D2G2G2G2A2_B2 | A2G2F2G2D2
+G2 | G2G2G2D2_E2=FE | D4z6
+d2 | d2^c2d2_B2A2d2 | _B6A4
+d2 | G2A2_B2A2G2F2 | G4z6
+S:https://www.folktunefinder.com/tunes/68964
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

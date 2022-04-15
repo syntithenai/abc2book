@@ -1,0 +1,31 @@
+X:2005
+T:Glalten
+A:Dalarna
+C:e. Pekkos Helmer
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007a1.html
+%%ID:000007a1
+K:A
+e|\
+a2 e/f/e/d/ c>e|a>(a a)g/a/ b>g|\
+a2 e/f/e/d/ c>A|B2 B3e|\
+a2 e/f/e/d/ c>e|a>(a a)g/a/ b>g|\
+a2 e/f/e/d/ c>A|B<G A3::\
+c|\
+d>f e>d c>A|BA/G/ A2 B>c|d>f e>d c>A|B2 B3c|\
+d>f e>d c>A|BA/G/ A2 B>c|d>f e>d c>e|\
+a>(a a)g/a/ b>g|a2 e/f/e/d/ c>A|B<G A3:|
+S:https://www.folktunefinder.com/tunes/36480
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

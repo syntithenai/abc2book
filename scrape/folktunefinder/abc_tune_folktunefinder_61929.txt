@@ -1,0 +1,35 @@
+X:9896
+T:Lord Stranger's Hornpipe
+R:Hornpipe
+O:England
+M:3/2
+A:Lancashire
+B:Winder
+K:D
+  F2FG A2AB d2d2 | F2FG A2AB cBAG | \
+  F2FG A2AB c2c2 | E2EF G2GA cBAG :|*
+|:F2DF AFdF BF dA | F2DF A2GF EFGE | \
+  F2DF AFdF AFdF | E2EF G2AB cBAG :|*
+|:d2f2 d2f2 dcBA | d2f2 d2f2 dcBA |\
+  B2g2 B2g2 BcdB | A2a2 A2a2 dcBA :|*
+|:agfe defg a2ab | agfe defd g2ga | \
+  gfed cdec fgaf | edcB Aaed c2BA :|*
+|:d2fd fdfd c2BA | d2fd fdfd dcBA | \
+  B2gB gBgB BcdB | A2gA gAgA dcBA :|*
+|:dAFA dAFA d2fe | dAFA dAFA d2dc |\
+  BAGF EFGE ABcA | edcB Aaed c2BA :|*
+|:DEFG ABAG A2F2 | DEFG A2GF EFGE |\
+  DEFG ABAG A2D2 | C2E2 C2F2 EFGE :|*
+|:DEFE DEFE D2A,2 | DEFE DEFG A2GF |\
+  DEFE DEFE D2A,2 | C2E2 C2F2 EFGE :|**
+S:https://www.folktunefinder.com/tunes/61929
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

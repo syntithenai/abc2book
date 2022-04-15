@@ -1,0 +1,27 @@
+X: 3594
+T:Moling
+R:Jig
+C:Maire Breathnach
+S:Maire Breathnach
+D:Angels' Candles
+M:6/8
+L:1/8
+K:A
+G|AEC DB,G,|A,EA cag|fdB ceA|BFA GFE|!
+AEC DB,G,|A,EA cag|fdB ceA|BFG A2:|!
+|:B|caf ecA|FBc d2c|BGE gf^d|fec edB|!
+caf ecA|FBc d2c|BGE gfe|dBG A2:|!
+S:https://www.folktunefinder.com/tunes/33362
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

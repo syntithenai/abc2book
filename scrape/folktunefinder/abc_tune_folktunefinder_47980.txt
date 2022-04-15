@@ -1,0 +1,25 @@
+X:435
+T:Ace and Deuce of Pipering, The
+M:4/4
+L:1/8
+R:set dance
+Z:Devin McCabe
+K:G
+|:(3d^c=c|B2 cA Bd cA|Bd cA B2 AG|d2 ec d2 ec|df ec dc BA|
+!e2 fd ed cB|Ad d^c d=c BA|BG cA B2 AG|FG AB cB cA|
+!G2 ge fd cA|FG AB cA FG|AG GF G2 FG|1AG GF G2 (3d^c=c:|2AG GF G2 GF|
+!|:G2=f2e2f2|G2 =fg fd cA|G2 g2 ^f2 g2|d2 ga gf dc|
+!|A2 =f2 e2 f2|d^c de ^fe fg|ag (3fga gf dc|BG cA B2 AF|
+!G2 ge fd cA|FG AB cA FG|AG GF G2 FG|1AG GF G2 GF:|2AG GF G4|
+S:https://www.folktunefinder.com/tunes/47980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:443
+%%topmargin 3cm
+T:Johnny Galbraith
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+G, | C<C~E>G c>GA<c | G<E c<e f/e/d/c/ d<e | C<C~E>G c>GA<c | f/e/d/c/ A/c/G/E/ Gcc :|
+e |: g>ec<G A<A a2 | g>c'e>g c<e G2 | g>ec<G A<A a2 | (a/g/)f/e/ (f/e/)d/c/ G<cc>e ::
+C>GE>c G<ge<c | D>AF>A D>fdGE>c G<ge<c | (f/e/)d/c/ (A/c/)G/E/ Gcc<e :|
+C>ge>c (3Gce (3gec | D>fd>B (3GBd (3fdB | C>ge>c (3Gce (3gec | (f/e/)d/c/ (A/c/)G/E/ G<cc<e |
+C>ge>c (3Gce (3gec | D>fd>B (3GBd (3fdB | C>ge>c (3Gce (3gec | (3gec (3fdB (3ecA (3dBG |]
+S:https://www.folktunefinder.com/tunes/71472
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Johnny_Galbraith.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0443.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

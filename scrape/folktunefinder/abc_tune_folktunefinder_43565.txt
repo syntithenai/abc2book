@@ -1,0 +1,25 @@
+X:10
+T:Dusty Miller
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:12/8
+O:England
+Z:Richard Robinson 
+%%RRN:There was a corner missing from the paper, the bracketed notes are where I've filled the gap.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000db6.html
+%%ID:00000db6
+K:G
+B>cdB AG | FAAc BA | B>cdB AG | DGGBAG ::
+Bcdefg | aAAcBA | "<("">)"B"<("">)"c"<("">)"d"<("">)"efg | BGGBAG :|
+% page 2
+S:https://www.folktunefinder.com/tunes/43565
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

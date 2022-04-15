@@ -1,0 +1,26 @@
+X:249
+T: ES WOLLT EIN MAEDCHEN DIE LAEMMELEIN HUETEN
+N: E0126B
+O: Europa, Mitteleuropa, Deutschland, Unter - Lahnkreis, Kreis Limburg
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe
+M: 6/8
+L: 1/8
+K: A
+A | e2ee2f | e2ec2
+e | d3e2d | c3z2
+A | e2ee2f | e2ec2
+e | d3e2d | c3z2
+A | fffagf | feee2
+e | dddfed | dccc2
+e | eeedde | c4z
+S:https://www.folktunefinder.com/tunes/78690
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

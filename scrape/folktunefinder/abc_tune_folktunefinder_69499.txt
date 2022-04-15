@@ -1,0 +1,26 @@
+X:640
+T: "Das Schlaraffenland"
+N: Z1321
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Zech -, Schalks - Lied
+M: 4/4
+L: 1/8
+K: Bb
+f4 | b2f2d2f2 | b4
+d4 | c2b2a2g2 | f4
+g4 | f2e2d2e2 | f3gf2
+g2 | f2e2d2e2 | f3gf2
+f2 | b2b2c2c2 | d3ef2
+e2 | d2d2c2c2 | b4
+S:https://www.folktunefinder.com/tunes/69499
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

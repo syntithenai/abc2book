@@ -1,0 +1,27 @@
+X:3
+T: O STRASBURG O STRASBURG DU WUNDERSCHOENE STADT
+N: Z0003
+O: Europa, Mitteleuropa, Deutschland, Norddeutschland
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/16
+K: G
+D2 | G4D2G2 | A4D2
+A2 | B2A2G2B2 | A6
+D2 | G4D2G2 | A4D2
+A2 | B2A2G2B2 | A6
+G2 | d2e2d2c2 | B4B2
+AB | c2c2B2B2 | A6
+DB | d3ed2c2 | B4B2
+AB | c2e2d2c2 | B6
+S:https://www.folktunefinder.com/tunes/68862
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

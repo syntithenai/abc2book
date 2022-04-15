@@ -1,0 +1,24 @@
+X: 1
+T: Cluny Castle
+B: Lowe's Collection
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E | "A"A2c{B}A "D"GAFA | "A"EAdc "E7"cBBc | "A"A2c{B}A "D"GAFA | "E7"EdcB "A"cAA :|
+e | "A"aece Aece | "E"dB"A"cA "E7"GBBg | "A"aece Aece | "D"df"E7"ed "A"cAA ||
+g | "A"aece Aece | "D"df"A"ce "B"fB"E7"Bd | "A"cAGA "D"FAdf | "E7"ecdB "A"cAA |]
+S:https://www.folktunefinder.com/tunes/16940
+S:http://trillian.mit.edu/~jc/music/abc/reel/ClunyCastle_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/ClunyCastle_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ClunyCastle_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r16/ClunyCastle_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/ClunyCastle_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

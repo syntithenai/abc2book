@@ -1,0 +1,26 @@
+X:52
+T: Der Ackermann, S. 16
+N: L0013
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: geistliches, religi\^ises Lied]
+M: 3/4
+L: 1/4
+K: G
+G | ddd | _edc | d2c | _B2
+B | c2d | _edc | _BGA | G2z
+c3 | _BAG | =F3- | F2z
+c_Bc | d2c | _BGA | G2z
+S:https://www.folktunefinder.com/tunes/70182
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches, religi%C3%AEses lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

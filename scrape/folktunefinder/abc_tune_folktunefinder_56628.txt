@@ -1,0 +1,25 @@
+X:1689
+T:Bobby Casey's2
+R:Reel
+S:Bobby Casey
+M:4/4
+L:1/8
+K:D
+DFAB ~B2  AB | d2 fd edBA | DFAB ~B2 AB |  df ~f2 edBA |
+DFAB ~B2 AB | d3 f ee{f}eg | fgaf g2 fe | defd edBA :|
+d3 g eA ~A2 | defg afge | d3 g eA ~A2 | gB ~B2 dBAB |
+d2 fd efge | d2 fd edBd | ABdf ef{g}fg | afeg fd{e}dB :|
+%  ABC2Win Version 2.1 3/18/97
+S:https://www.folktunefinder.com/tunes/56628
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

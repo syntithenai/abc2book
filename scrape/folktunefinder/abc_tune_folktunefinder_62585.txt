@@ -1,0 +1,25 @@
+X:8
+T:Burtr\"ask Hambo
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach 5/30/03 from Andrea Hoag for NFF 2003
+M:3/4
+L:1/8
+%Q:1/4=160
+K:E %Transposed from D
+P:A
+(b^a/b/)c'2b>g|(a>f)d4|(b^a/b/)c'2b>g|(3(gbg)e4|
+g>ba2g2|f>ec2A2|(G>B) (B>d) (3f(gf)|e2e4:|
+P:B
+(e>B) (G>B) B>d|(e>c) (A>c) c>d|(e>c) (A>c) c>d|(e>B)G4|
+(g>f)e2f>g|a2c4|(B>d) (d>f) (3f(gf)|e2e4:|
+S:https://www.folktunefinder.com/tunes/62585
+S:http://www.nordicfiddlesandfeet.org/music/NFFBb.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

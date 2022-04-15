@@ -1,0 +1,24 @@
+X:189
+T: DUNKEL UMHUELLET DIE FLUR
+N: F0331
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Tageszeiten, Abend, religioes
+M: 6/8
+L: 1/16
+K: G
+ | d3ed2c2B2A2 | G6z6
+A2A2A2B2B2^c2 | d6A4z2
+B2B2B2c2c2c2 | d6e4z2
+d3cB2A2B2A2 | G4z8
+S:https://www.folktunefinder.com/tunes/69749
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, tageszeiten, abend, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

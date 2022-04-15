@@ -1,0 +1,28 @@
+X:382
+T: "Mariahilf"
+N: Z1062
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: G
+D2 | G4FGA4GA | B4A2G4
+Ac | B4A2G4GF | E4F2G4
+DF | G4FGA4GA | B4A2G4
+c2 | B4A2G4F2 | E4F2G4
+GA | B4A2B4c2 | d4e2d4
+d2 | e4d2B4c2 | d4e2d4
+d2 | c4B2A4dc | B6A6 | G6z4
+S:https://www.folktunefinder.com/tunes/69241
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

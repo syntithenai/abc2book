@@ -1,0 +1,35 @@
+X: 1
+T: Burns Night
+C: Barbara McOwen (1991)
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+%%staffsep 45
+M: 6/8
+L: 1/8
+K: G
+B, \
+| "G"G,2B BAB | d2B BAB | [G2G,2]B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"[G2G,2]B BAB | d2B "G7"B2d | "C"cBA GFE | "D7"DED CB,A, ||
+y \
+| "G"G,2B BAB | d2B BAB | [G2G,2]B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"[G2G,2]B BAB | "G7"d2B "C"c2e | "D7"dcB AGF | "G"G3 G2 |]
+c \
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "A7"gfe | "D"de^c "D7"d2=c \
+| "G"B2g gfg | "C"e2d "Am"c2e | "D7"dcB AGF | "G"G3 G2 ||
+c \
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "A7"gfe | "D"ded "D7"cBA \
+| "G"[G2G,2]B BAB | "G7"d2B "C"c2e | "D7"dcB AGF | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/13958
+S:http://trillian.mit.edu/~jc/music/abc/jig/BurnsNightJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Barbara_McOwen/BurnsNightJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BurnsNightJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BurnsNightJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

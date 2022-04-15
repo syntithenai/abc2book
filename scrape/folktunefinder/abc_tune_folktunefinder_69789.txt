@@ -1,0 +1,30 @@
+X:229
+T: ES KLINGT EIN HOHER KLANG
+N: F0397
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch
+M: 4/4
+L: 1/8
+K: F
+F,2 | F,3A,C2C2 | C6
+G,2 | A,3CF2F2 | E6
+C2 | D3DG3G | C3
+CF2C2 | F,3G,A,2=B,2 | C6
+G,2 | G,4G,4 | C3EE3G
+G3FE2D2 | C2G,2E2
+G,2 | G,4G,4 | C3EE3G
+G3FE2D2 | C2G,2E2
+C2 | F3ED2D2 | C3B,A,2
+G,2 | A,2C2D2G2 | F4E4 | F4z2
+C2 | F3ED2D2 | C3B,A,2
+G,2 | A,2C2D2G2 | F4E4 | F4z2
+S:https://www.folktunefinder.com/tunes/69789
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:0
+T:Queen Among the Heather
+S:MacColl & Seeger, Till Doomsday in the Afternoon
+N:"H" means a fermata - not all ABC programs support it
+M:4/4
+L:1/8
+Q:1/4=90
+K:D Dorian
+cB|A2 A2 D2 (AG)|  E D3  HC2
+cB|A2 A2 D2  D2 |(3c2c2A2 c2Hd2|z4 z2
+cB|A2 A2 D2 (AG)|  E2 D2 HC2
+c2|Hd3 c A G2 c |  C2 D2 E HD3 |z4 z2|]
+S:https://www.folktunefinder.com/tunes/30076
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

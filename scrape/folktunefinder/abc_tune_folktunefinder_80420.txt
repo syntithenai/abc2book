@@ -1,0 +1,30 @@
+X:210
+T: My Fairhaired Darling
+B: O'Neill's 242
+N: "With feeling"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G2F \
+| D2G G2F | G3 AGF | G2A c2d | =f3 de^f \
+| g2f d2c | A3 G3 | F3- F2G | A3 G2F |
+| D2G G2F | G3 AGF | G2A c2d | =f3 de^f \
+| g2f d2c | A2G F2A | G3- G3 | G3 z2 ||
+|| c \
+| d2c d2e | =f2 de^f | g2f d2e | =f3 de^f \
+| g2f d2c | A3 G3 | F3- F2G | A3 G2F |
+| D2G G2F | G3 AGF | G2A c2d | =f3 de^f \
+| g2f d2c | A2G F2A | G3- G3 | G3 z2 ||
+S:https://www.folktunefinder.com/tunes/80420
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

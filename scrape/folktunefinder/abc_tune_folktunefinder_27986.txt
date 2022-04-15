@@ -1,0 +1,70 @@
+X:7534
+T:Three Jolly Black Sheepskins
+O:england
+M:4/4
+L:1/8
+C:
+S:Bordering on the Absurd
+N:12 bars A  12 bars B for chorus.  Figs 8  8
+A:Border
+R:Reel
+%P:
+K:G
+V:1                     nm=       stv=4
+%%MIDI channel 1
+%%MIDI program 40       % General MIDI Violin
+%%MIDI transpose 0
+V:2                     nm=
+%%MIDI channel 2
+%%MIDI program 73       % General MIDI Flute
+%%MIDI transpose 0
+%%MIDI beat 60 50 35 1  % p
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI Bassoon
+%%MIDI transpose 0
+%%MIDI beat 45 35 20 1  % pp
+V:4     clef=bass       nm=
+%%MIDI channel 4
+%%MIDI program 42       % General MIDI Cello
+%%MIDI transpose -24
+P:A
+V:1
+GA Bc d>e dB|cB cA Bc d2|GA Bc dB dg|ec  AF    G4|
+GA Bc d>e dB|cB cA Bc d2|GA Bc de fg|ec  AF    G4||
+V:2
+G2 GG G2  GG|A2 AA G2 GG|G2 GG G2 GG|A2  AA    G4|
+G2 GG G2  GG|A2 AA G2 GG|G2 GG G2 GG|A2  AA    G4||
+V:3
+D8-|D8|D8-|D4        D4|
+D8-|D8|D8-|D4        D4||
+V:4
+g2 z2 D2  z2|d2 z2 G2 z2|g2 z2 d2 z2|d2  z2    G2   z2|
+g2 z2 d2  z2|d2 z2 G2 z2|gfed  cBAG|d2  ef    G4||
+P:B
+V:1
+A2 D2 A2  DB|c2 cA BcdB|A2 D2 A2 D2|A>B (3cBA G4|
+A2 D2 A2  DB|c2 dA Bc d2|A2 D2 A2 D2|D>c BA    G4||
+V:2
+A2 AA A2  AA|A2 AA G2 GG|A2 AA A2 AA|A2  AA    G4|
+A2 AA A2  AA|A2 AA G2 GG|A2 AA A2 AA|A2  AA    G4||
+V:3
+D8-|D8|D8-|D4        D2   DD|
+D8-|D8|D8-|D4        D2   DD||
+V:4
+d2 z2 d2  z2|G2 AB c2 d2|d2 z2 d2 z2|d'2 d'2   d'd' d2|
+d2 z2 d2  z2|G2 AB c2 d2|d2 z2 d2 z2|d'2 d'2   d'd' d2||
+S:https://www.folktunefinder.com/tunes/27986
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

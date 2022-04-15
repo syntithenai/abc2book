@@ -1,0 +1,31 @@
+X:19
+T:Ellie
+S:Andy Hornby
+R:Waltz
+O:England
+N:15.7.95
+M:3/4
+C:Andy Hornby
+A:Lancaster
+K:ADor
+E>A A>B c>d|e4 a2|e>d c>e d>c|B>d c>B A>G|\
+E>A A>B c>d|e4 a2|
+e>a d>c B>c|1 A6 :|2 A4 || \
+|: e>f|\
+g2 g>e a>f|g2 e2 e>d|
+c2 c>B c>d| e>c A2 e>f|\
+g2 g>e a>f|g2 e2 e>d|c>B A>G E>G|1 A4 :| A6 ||
+W:Copyright Andy Hornby
+S:https://www.folktunefinder.com/tunes/43810
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

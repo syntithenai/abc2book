@@ -1,0 +1,24 @@
+X: 1
+P:The Academy
+R:Jig
+C:J. Rule
+S:Kerr's Merry Melodies, volume 1
+M:6/8
+L:1/8
+K:G
+E \
+| "G"D2G GAB | "Am"c2A "D7"d2c | "Bm/F#"B2g dcB | "Am/C"A2E "D"GFE | "G"D2G GAB |
+| "D7/A"c2A "D7"d2c | "G"Bgf "C6"edc | "D7"BcA "G"G2 |]| B | "G"d2B gfe | d2g B2d |
+| "D7"c2a "G"B2g | "D7"A2d cBc | "G"d2B "C"gfe | "G/B"d2g B2d | "C6"c2A "D7"fef | "G"g3 g2z |]
+% air/Waltzing_Matilda_G_16.abc
+S:https://www.folktunefinder.com/tunes/9829
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Academy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

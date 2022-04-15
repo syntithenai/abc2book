@@ -1,0 +1,22 @@
+X: 5
+P: Rantakoivun alla
+C: Onni Laihanen (1916-1956)
+M: 3/4
+L: 1/4
+K: Cm
+%%staffsep 45
+G, \
+| "Cm"C2=B, | C2D | E2D | E2F | GB=A | "Fm"_A2B | "Cm"G3- | "C7"GGA |
+| "Fm"FDE | "G7"F2G | "Cm"E3- | ECD | ECD | "Ab"E2F | "G7"D3- | DzG, |
+| G,=A,=B, | "Cm"C2D | E2F | G2"Adim"c | "Fm"d2c | "Bb7"ABc | "Eb"G3- | "C7"GGA |
+| "Fm"FDE | "G7"F2G | "Cm"E2C | "Fm"B2A | "Cm"GFE | "G7"D2G | "Cm"C3- | C2 |]
+S:https://www.folktunefinder.com/tunes/4571
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song12.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

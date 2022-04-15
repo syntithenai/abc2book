@@ -1,0 +1,27 @@
+X:56
+T: SCHON HAT SICH DUNKLE NACHT GESENKT
+N: F0149
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Abend; Trauer
+M: 6/4
+L: 1/4
+K: E
+B | E2EB2B | A2=GG2
+G | FDB,=CB,D | E2z3
+=G | =dB=GdBG | =c2AF2
+=D | =G2BA2=d | =G2z3
+B | B2F=GFE | D3F2
+B | B2F=G2^A | B2z3
+B | =c2cc2c | B3E2
+A | =GAFEFD | E4z
+S:https://www.folktunefinder.com/tunes/69616
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Tageszeiten - lied, abend; trauer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

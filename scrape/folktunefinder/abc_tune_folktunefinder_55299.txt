@@ -1,0 +1,21 @@
+X:4
+T:64. Galliard: As it fell on a holie Eve
+T:Tenor
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:3/2
+N:Original clef, C on third line
+K:G dor -8va
+|:d3 d d2 d B c d2 d c2 d2 d2 d2 e d g2 f2 d2 d2
+d2 d2 d2 B G A d G2 A6 :: f2 g2 d _e f2 _e2 f2  g2 f2 f2
+f2 _e f2 f f2 f2 _e2 f2 g c f2 f2 d2 d2 d6 :|
+S:https://www.folktunefinder.com/tunes/55299
+S:http://www.laymusic.org/music/holborne/eve/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 78
+T:17th Regt.Slow March. JMP.078
+T:Gordons. JMP.078
+M:C
+L:1/8
+Q:110
+C:"Stranorlar Barracks"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:See No. 8 - almost identical  "Jordans or 17th Regt. March" written in
+N:pencil   in a different hand.  "Stranorlar Barrcks" written at  bottom
+N:of page..The Royal Leicestershire Regt...
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+G2 D>G  B2 GB | d2 Bd g4 | e2 ge d2 ge | dcBA B2 G2 |!
+ e2 ge d2 ge | dcBA B2 G2 | Bc dd {e}d2 cB | A2 de  d4 |!
+B>c d>d {e}d2 cB | c2 A>A A2 g2 | gfed fedc | d2 d2 d2 d2 :|!
+|:A>Bcc c2 BA | B>cdd d2 cB | A>Bcc c2 BA | B2 A>A A4 |!
+((3ded) ((3BdB) G2 G2 | dfed e4 | ((3efe) ((3cec) A2A2 |\
+egfe f4 |!
+  g2 d>d d2 g2 | d2 B>B B2 ((3efg) | ggfe dcBA |\
+ G2 G>G"cr"G4 :|]
+S:https://www.folktunefinder.com/tunes/2015
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

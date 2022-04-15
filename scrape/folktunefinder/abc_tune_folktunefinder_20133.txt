@@ -1,0 +1,20 @@
+X: 1
+T: \"Ostg\"otavalsen
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"D3 EFG | A3 FAd | "A7"f2 e2 c2 | "D"d6 | "G"B2 GB dB | "D"A2 FA df | "A7"e2 cA ce |1,3 "D"d2 fd AF :|2,4 "D"d6 :|
+(3D/E/F/ \
+|: "G"G2 BB B2 | B2 GB dB | "D"A2 FA de | f2 df a2 | "Em"ba gf gf | "A7"ef ed cB | AB AG FE | "D"F2 D2 (3D/E/F/ |
+|  "G"G2 BB B2 | B2 GB dB | "D"A2 FA de | f2 df a2 | "Em"ba gf gf | "A7"ef ed cB | "A7"~A2 ^GA Bc | "D"d4z2 :|
+S:https://www.folktunefinder.com/tunes/20133
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OstgotaV.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/OstgotaV.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

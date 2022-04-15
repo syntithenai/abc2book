@@ -1,0 +1,29 @@
+X: 1
+T: March of the Castlehoppers
+C: Barbara McOwen (Oct 1992)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+g2f \
+| "Am"e2A Agf | "Am"eAA     gfe |  "G"d2G BAG |  "G"d3 dgf \
+| "Am"e2A Agf | "Am"eAA     a2g |  "D"fed gfd | "Em"e3 e3d |
+|  "D"def fef |  "G"gfg "Am"a2g | "Am"edB dBA |  "G"B3 B2e \
+| "Am"ABd Bde |  "D"def     efg | "Em"aBB gee | "Am"A3 A2 |]
+g \
+| "Am"a2A gfd | "Am"e2B     dBA |  "G"G2A BAG |  "G"d3 deg \
+| "Am"a2A gfd | "Am"e2B     deg |  "D"fed gfd | "Em"e3 e3d |
+|  "D"def fef |  "G"gfg "Am"a2g | "Am"edB dBA |  "G"B3 B2e \
+| "Am"ABd Bde |  "D"def     efg | "Em"aBB gee | "Am"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14608
+S:http://trillian.mit.edu/~jc/music/abc/jig/MarchOfTheCastleHoppers_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MarchOfTheCastleHoppers_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

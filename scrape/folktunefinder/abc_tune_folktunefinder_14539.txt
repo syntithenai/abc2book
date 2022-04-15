@@ -1,0 +1,21 @@
+X:1
+T:Lilliburlero
+B:Irish Street Ballads, Colm O'Lochlainn
+N:transposed from key of E
+M:6/8
+L:1/8
+K:G
+|: "G"GAG B2B | "D"ABA c3 | "G"BdG "C"c2B | "D"AGF "G"G3 :: "G"{f}g2f g2d | "(F)"de=f "C"e2d |
+| "G"def "(C)"gfe | "G"dcB "D"A2d | "C"edc "G"Bcd | "C"edc "G"Bcd | "G"edB "C"c2B | "D"AGF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14539
+S:http://trillian.mit.edu/~jc/music/abc/jig/LilliBurlero_G2.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LilliBurlero_G2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

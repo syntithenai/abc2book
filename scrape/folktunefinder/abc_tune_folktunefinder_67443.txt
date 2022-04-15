@@ -1,0 +1,25 @@
+X:705
+T:Morgan Magan
+R:carolan
+Z:
+M:4/4
+K:G
+GE|:"G"D2 G2 G2 B2|"C"cBAG Bc d2|"Am"e2 A2 A2 G2|"D"GFEF D2 D2|
+"G"G2 G2 "D"A2 F2|"G"G2 FE D2 G2|"Ano3"FG A2 A2 EG|"D"F2 D2 D2 EF|
+"G"G2 G2 "D"AGAF|"G"G4 G2 B2|"C"c3 B A2 Bc|"D"d4 "C"e4|
+"G"d2 B2 "C"cBAG|"C/Am/D"AGFE "D"DEFD|"G"G2 G2 "D"AGAF|1"G"G4 G2 GE:|2"G"G4 G2 dc||
+|:"Gno3"Bc d2 d2 ef|g2 G2 Bc d2|g2 G2 Bc d2|"Am"edcB A2 d2|
+BABc d2 B2|"C"e2 c2 "G"d2 B2|"Am"c2 A2 "G"d2 G2|"D"F2 D2 D2 GF|
+"Cno3"E2 C2 C3 D|E2 C2 C3 E|"Dno3"F2 D2 D2 DE|F2 D2 D2 Bc|
+"G"d2 B2 "C"edcB|"C/Am/D"cBAG "D"FGAF|"G"D2 G2 "D"AGAF|1"G"G4 G2 dc:|2"G"G4 G2 GE||
+S:https://www.folktunefinder.com/tunes/67443
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Carolan
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

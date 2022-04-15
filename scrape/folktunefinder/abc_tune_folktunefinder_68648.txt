@@ -1,0 +1,27 @@
+X:102
+T: Die Sonne ist verblichen
+N: A0116C
+O: Europa, Mitteleuropa, Deutschland
+N: Praetorius Mus. Sion. VI. No. 195 "Fuer frewden wil ich singen"
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+ |  |  | z2G2G2G2 | d2=f4e2 | d2A4
+G2 | d4c2c2d2_B2 | A8
+z2G2G2G2 | d2=f4e2 | d2A4
+G2 | d4c2c2d2_B2 | A6
+_B2 | c2=f2f2d2 | c2_B4
+_e2 | d2c2_B2A2 | G4z2
+G2 | c2c2c2d2 | _e4c4
+z2d2d2d2 | d2c2_B2AG | F4G3A | _B2d4d2A4 | G8
+S:https://www.folktunefinder.com/tunes/68648
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

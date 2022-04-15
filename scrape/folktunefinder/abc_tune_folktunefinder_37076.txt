@@ -1,0 +1,28 @@
+X:4985
+T:Prince william 
+M:6/8
+O:Scotland
+O:Ireland
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000072a.html
+%%ID:0000072a
+K:D
+A|\
+dcB AFA|B2A ABc|dcd ede|f2d def|\
+g2B g2d|e2d cBA|dcB AFA|B2A A2 ::
+a|\
+aba fdf|aba fdf|gfg efg|b3 a3|\
+afa geg|fdf ecA|dcB AFA|B2A A2:|
+S:https://www.folktunefinder.com/tunes/37076
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

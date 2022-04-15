@@ -1,0 +1,25 @@
+X: 1
+P: Kettledrum
+O: Playford
+D: "Country Capers: Music from John Playford's The English Dancing Master" The New Renaissance Band, Arabesque 6520
+N: Recommended for the dance Laisteridge Lane
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ddor
+|: "C"efgf e2d2 | "Dm"A2f2 A2f2 | "C"efgf e2d2 | "Dm"A2f2 d4 :|
+|: "C"efga g3a | g3a g2e2 | "F"fga2 "E7"a2^g2 | "A(m)"a6 fg |
+|  "Dm"agfe defd | "Am"e4 A4 | "Dm"F2A2 "(Am)"A2f2 | "Dm"d8 :|
+S:https://www.folktunefinder.com/tunes/3861
+S:http://trillian.mit.edu/~jc/music/abc/England/LaisteridgeLane.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

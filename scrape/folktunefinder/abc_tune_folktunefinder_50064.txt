@@ -1,0 +1,24 @@
+X:18616
+T:Westlands
+% Nottingham Music Database
+S:Pauline Wilson, via PR
+M:4/4
+L:1/4
+K:D
+"D"A2 A2|"A7"BA FA|"Bm"dd2e|"D"fa3|"G"g2 b2|"D"af/2de/2f|"E"e4|"A7"ag fe|
+"D"A2 A2|"A7"BA FA|"Bm"d"/@>.5A"d2e|"D"fa3|"G"g2 b2|"D"af de|"E"ff "A7"ee|\
+"D"d4||
+"G"Bd2d|"Gm"ed/2=fe/2d|"D"BA2F|A4|"Bm"Bf fB|"E7"fe/2de/2f|"A7"e4|AB =c^c|
+"D"d2 A2|"A7"BA FA|"D7"dd2f|"Gm"ed3|"D"af dA|"G"Bd g2|"D"fd/2"/@>.5A7"ed/2c|\
+"D"d4||
+S:https://www.folktunefinder.com/tunes/50064
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

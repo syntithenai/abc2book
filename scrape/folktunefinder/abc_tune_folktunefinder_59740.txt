@@ -1,0 +1,41 @@
+X:853
+T:Xiraldilla (CT 339)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Quirs
+Z:Cancioneru de Torner 339
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+D|GG GB|d2 Bd|dd cA|B2 zG|
+cc cA|B2 GG|GG GG|G2 zD|
+GG GB|d3 B|cc cA|B2 GG|GG GG|G2 zd|
+(c2 A)c|(B2 G)G|cc cB|A2 G2|GG GG|G3 G|
+cc cB|A2 GB|AG GG|G2 z||
+W:Sentadito en el muelle y arrimadito al mar
+W:donde los marineros suelen embarcar.
+W:
+W:All me enamor,
+W:donde los marineros con vida dan a caf.
+W:
+W:Que si, que no,
+W:del vuelo de tu saya me enamor yo;
+W:de la que la llevaba,
+W:que de la saya no.
+W:
+S:https://www.folktunefinder.com/tunes/59740
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

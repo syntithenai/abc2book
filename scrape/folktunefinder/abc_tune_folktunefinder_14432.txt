@@ -1,0 +1,30 @@
+X: 1
+T: John Brady's Jig
+M: 6/8
+L: 1/8
+C: John Brady
+D: Paddy O'Brien, "Stranger at the Gate"
+R: Jig
+A: Co. Offaly
+N: Brady's a flute player
+Z: Jeff Myers <jmyers:post.goucher.EDU>
+K: EDor
+|  E2 G Bed | (3Bcd B AFD | EFG Bed | BAG Eag | e2 d ege | f2 e dBA | G2 A Bed | BAG Bcd :|
+|: E2 F ~G3 | AGA BAB | (3efe f gfe | fed Bcd | eBe gfe | fed BAF | DEF ~G3 | ~F3Bcd :|
+S:https://www.folktunefinder.com/tunes/14432
+S:http://trillian.mit.edu/~jc/music/abc/jig/JohnBradysJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JohnBradysJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JohnBradysJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JohnBradysJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JohnBradysJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

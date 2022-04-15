@@ -1,0 +1,26 @@
+X: 1
+T: Scotty Fitzgerald's Jig
+C: Sandy MacIntyre 1962
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GAG "D7"B2c | "G"dgf "C"edc | "G"BAG DGB | "Am"A3- "D7"A2B \
+| "G"GAG "D7"B2c | "G"dgf "C"edc | "G"BAG "D7"DBA | "G"G3- G2 :|
+d \
+| "G"b2z g2z | gfg "D7"d2c | "G"BAG DGB | "Am"A3- "D7"A2d \
+| "G"b2z g2z | gfg dBG | "C"cBc | "D7"afd | "G"g3- g2 ||
+d \
+| "G"b2z g2z | gfg "D7"d2c | "G"BAG gdB | "Am"A3- "D7"A2c \
+| "G"Bcd GBd | "C"cde "Am"Aag | "D7"fed cBA | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/15043
+S:http://trillian.mit.edu/~jc/music/abc/jig/ScottyFitzgeraldsJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ScottyFitzgeraldsJ_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Earl of Morton's Jig
+C: William Gow
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+F \
+| "C"E{F}GG cdc | "G7"BAB "C"cGE | "Dm"FdF "C"EcE | "G7"dDD D2F \
+| "C"E{F}GG cdc | "G7"~B3 "C"cGE | "Dm"~F3 "G7"DGF | "C"ECC C2 :|
+f \
+| "C"ecc gcc | "F"acc "C"gcc | "C"ecc gcc | "G7"fdd d2f \
+| "C"ecc gcc | "F"acc "C"gcc | "G7"fef dgf | "C"ecc c2 |]
+f \
+| "C"ecc gcc | "F"acc "C"gcc | "C"ecc gcc | "G7"fdd d2F \
+| "C"E{F}GG cdc | "G7"~B3 "C"cGE | "Dm"FEF "G7"DGF | "C"ECC C2 :|
+S:https://www.folktunefinder.com/tunes/14140
+S:http://trillian.mit.edu/~jc/music/abc/jig/Earl_of_Mortons_Jig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Gow/Earl_of_Mortons_Jig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Earl_of_Mortons_Jig_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Earl_of_Mortons_Jig_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

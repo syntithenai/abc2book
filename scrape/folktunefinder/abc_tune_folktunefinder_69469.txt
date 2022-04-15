@@ -1,0 +1,25 @@
+X:610
+T: "Kueherlied"
+N: Z1290
+O: Europa, Mitteleuropa, Deutschland, Harz
+R: Handwerker -, Bauern - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | FGA
+A | FFAA | D2
+d2 | BBdd | G2z
+d | Bddd | edd2 | edd
+d | BBdd | B2
+d2 | BBdd | G2z
+S:https://www.folktunefinder.com/tunes/69469
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

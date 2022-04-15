@@ -1,0 +1,27 @@
+X:180
+T: Circus [The]
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: C|
+R: hornpipe
+K: G
+D2 GF GABc|d2 fd gdBG|E2 cB AGFA|GFGE (3DCB, A,2|
+G,2 GF GABc|d2 fd gdBG|EG (3GFG AGFE|DGGF G4 |
+D2 GF GABc|d2 fd gdBG|E2 cB AGFA|GFGE (3DED (3CB,A,
+G,2 GF GABc|d2 fd gdBG|EG (3GFG AGFE|DGGF G3 ||
+A|Bdgd cBcd|ec (3cBc A^GAB|ce (3agf gdBd|cAFA DAFA|
+Bdgd cBcd|eg (3fga gecG|EG (3GFG AGFE|DGGF G4 :|
+S:https://www.folktunefinder.com/tunes/81490
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/mulv.abc
+S:http://www2.redhawk.org:8080/irish/zouki/mulv.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

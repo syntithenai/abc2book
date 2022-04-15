@@ -1,0 +1,29 @@
+X: 1
+T: Stewart & Kathleen Walker
+C: Jim Johnstone
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+~A2 \
+| "D"f2   d>c "Bm"B>c d2  | "Em" g2      e>d "A7"c>d e>c \
+| "D"a2   f>e "Bm"d>e f>d |1"E7" e>d     c>d "A7"e2     :|2 "E7"e>d "A7"B>c "D"d4 ||
+| "E7"e>f e>d "A7"c>B A2  | "F#7"f>g     f>e "Bm"d>c B2  \
+| "E7"e>f e>d     c>d c>B | "A7" A>B     A>G     F>G F>E |
+| "D"D2   f>e "Bm"d>c B2  | "Em" g2      e>d "A7"c>d e>c \
+| "D"a2   f>e "Bm"d>e f>d | "E7" e>d "A7"B>c  "D"d2     |]
+S:https://www.folktunefinder.com/tunes/19670
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/StewartAndKathleenWalker_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/StewartAndKathleenWalker_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

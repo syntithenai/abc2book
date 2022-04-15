@@ -1,0 +1,28 @@
+X: 3
+P: Lilli Burlero
+C: Henry Purcell 1690
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways
+N: Playford Ball
+M: 6/8
+L: 1/8
+K: A
+|: "A(F#m)"A>BA c2c | "Bm"B>cB "E7"d3 | "A"ceA "Bm"d2c | "E7"BAG "A"A3 :: "A"a2g a2e | "G"=g2g "D"f2e |
+| "A"ef^g a2e | "D"f>ec "E"B2e | "D"f>ed "A"cde |"D"fed "A"cde | "D"f>ec "Bm"d2c | "E7"BAG "A"A3 :|
+S:https://www.folktunefinder.com/tunes/3894
+S:http://trillian.mit.edu/~jc/music/abc/England/LilliBurlero.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LilliBurlero.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LilliBurlero.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/LilliBurlero.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/LilliBurlero.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LilliBurlero
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

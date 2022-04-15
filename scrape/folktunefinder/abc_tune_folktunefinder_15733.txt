@@ -1,0 +1,34 @@
+X: 1
+T: H\aalln\"aspolskan
+O: efter Norrt\"alje Elitkapell
+D: Norrt\"alje Elitkapell "Med pukor och trumpeter" 1981
+R: hambo-polska-mazurka
+S: handwritten MS by D.R.Clark 1984, labelled "DRC 7-3-84"
+Z: ABC by John Chambers 2007
+M: 3/4
+L: 1/8
+K: F
+C \
+|: "F"F>A c2 A>F | "C7"E>G c2 c2 \
+|1,3 "C7"E>G c2 G>A | B2 A>G "F"F2 \
+:|2,4 "C7"E>G cB A>G | "F"F2 F4 :|
+|: "Bb"f>d Bf e>d | "F"d>f A<d c2 \
+|1,3 "C7"C2 (3ECE (3GEG | "F"F2 (3AFA c2 \
+:|2,4 "C7"C2 EC/E/ GE/G/ | "F"F2 F4 :|
+S:https://www.folktunefinder.com/tunes/15733
+S:http://trillian.mit.edu/~jc/music/abc/mazurka/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mazurka/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/mazurka/Hallnaspolskan_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/Hallnaspolskan_F.abc
+% Rhythm Hambo-polska-mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

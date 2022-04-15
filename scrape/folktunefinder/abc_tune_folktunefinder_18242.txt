@@ -1,0 +1,41 @@
+X:1
+T: Tricky Reel, The
+R: reel
+C: Jeff Lindqvist <jeff_lindqvist@spray.se> irtrad-l 2000-03-22
+N: Learn my tunes, play them, record them et.c. but give me credit where credit is due:)
+H: Dec 27, -99
+M: C|
+L: 1/8
+K: Gm
+| GD~D2 B2AB | GFDF ~E2FE \
+| DGBD GBdg | fdec dBcA |
+| ~B2dB ~A2cA | GBAF GFDF \
+| ~E2GE DGBd | cAFA GABA :|
+|:~G2g^f g=fd^c | cBGF GABd \
+| cA~A2 FGAc | f=efd cAFA |
+| GABG ^FAdF | FGAF =EGcE \
+| EFGE DGBd | cAFA GABA :|
+"My chords:"\
+| "Gm"GD~D2 "Gm"B2AB | "Gm"GFDF "Eb"~E2FE \
+| "Gm"DGBD "Gm"GBdg | "Dm"fdec "Dm"dBcA |
+| "Gm"~B2dB "F"~A2cA | "Gm"GBAF "Gm"GFDF \
+| "Eb"~E2GE "Gm"DGBd | "F"cAFA "Gm"GABA :|
+|:"Gm"~G2g^f "Gm"g=fd^c | "Gm"cBGF "Gm"GABd \
+| "F"cA~A2 "F"FGAc | "Dm"f=efd "Dm"cAFA |
+| "Gm"GABG "D/F#"^FAdF | "F"FGAF "C/E"=EGcE \
+| "Cm/Eb"EFGE "Gm/D"DGBd | "F"cAFA "Gm"GABA :|
+S:https://www.folktunefinder.com/tunes/18242
+S:http://trillian.mit.edu/~jc/music/abc/reel/TrickyReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TrickyReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TrickyReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

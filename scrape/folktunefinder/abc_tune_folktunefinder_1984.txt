@@ -1,0 +1,37 @@
+X: 47
+T:Madam you know my trade is war. JMP.047
+M:C
+L:1/8
+Q:174
+C:"52"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - A is not dotted and a slurred  dotted quaver high F, semi-quaver
+N:high G are written in pencil over the C - see bar marked '2'
+N:3 - not shown dotte
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+((3DEF) | G2 G>G G>BdB | c2 A>A A3 c | (Bd)(eg) gdBG |\
+d2 (d>e) (dc)BA |!
+ G2 G>G G>BdB | c2 A>A A3"1" c |\
+((3Bdc) ((3BAG) ((3AcB) ((3AGF) | G2 G>G G2 :|!
+|:((3def) | g3a g>fd>B | "2"c2 A>A A2 fg | a3g (fe)(dc) |\
+(dg)(fe) dc(BA) | !
+G2 G>G (G>B)dB | c2 A>A "3"A3 c |\
+((6BdcBAG)((6AcBAGF) | G2 G>G G2 |]
+S:https://www.folktunefinder.com/tunes/1984
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

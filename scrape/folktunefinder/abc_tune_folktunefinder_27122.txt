@@ -1,0 +1,21 @@
+X:6670
+T: the Crooked Stovepipe
+O:england
+R:reel
+M:2/4
+L:1/16
+K:A
+E2 |  "A"A2c2 cdec | A2c2 cdec | A2c2 f3c  | "Bm"e2d2 dcBA |
+| "E7"G2B2 BcdB | G2B2 Bcde | f2e2 f2g2 |1 "A"a2gf edcB :|2 "A"a6 ||
+b2 |: "A"[c'6e] [b2d] | [a6c] [g2B] | "D"[f2A][f2A] [g2B][a2c] | "Bm"[b6d] [c'2e] \
+| "E7"[d'6g] [b2f] | [g6e] [f2d] | [e2c]e2 [f2_e][g2d] |1 "A"[a2c][^a2c] [b2d][^b2^d] :|2 "A"[a6c] |]
+S:https://www.folktunefinder.com/tunes/27122
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

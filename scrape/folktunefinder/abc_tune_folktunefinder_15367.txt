@@ -1,0 +1,37 @@
+X: 1
+T: F\orste Brujstyk'
+O: trad S\onderho
+R: S\onderhoning
+N: Bridal tune
+N: Play G in first bar of 2nd part; Gm on repeat.
+M: 2/4
+L: 1/16
+K: G
+|: "G"d2dc B2c2 \
+| "(D7)"dcBA "G"G2G2 \
+| "C"e2ed "D7"B2c2 \
+| "G"d4 "(D7)"d4 :| \
+[K:Gdor] \
+|: "G(m)"d2d2 g2g2 |
+| "F"f4 fede \
+| f2fe d2c2 \
+| "Gm"B4 B2Bc \
+| d4 G3A \
+| B2BG "F"A2F2 \
+| "Gm"A2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/15367
+S:http://trillian.mit.edu/~jc/music/abc/march/Brujstyk1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Brujstyk1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/Brujstyk1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/ganglat/Brujstyk1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/sonderho/Brujstyk1.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

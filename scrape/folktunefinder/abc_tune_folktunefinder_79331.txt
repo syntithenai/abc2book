@@ -1,0 +1,25 @@
+X:227
+T: HEUT SCHEIDEN WIR AUS EUREM KREISE
+N: E1366
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied, Reservisten
+M: 6/8
+L: 1/8
+K: C
+G, | G,E,G,CG,E, | F,A,G,F,E,
+G, | G,CEA,DC | B,A,B,Cz
+G, | E2DC2B, | DCA,A,G,
+G, | G,CEA,DC | B,A,B,C2
+G, | E2DC2B, | DCA,A,G,
+G, | G,CEA,DC | B,A,B,C2
+S:https://www.folktunefinder.com/tunes/79331
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied, reservisten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

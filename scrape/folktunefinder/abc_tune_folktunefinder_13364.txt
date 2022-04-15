@@ -1,0 +1,27 @@
+X: 1
+T: Hail to the Chief
+C: James Sanderson (1760-1841
+R: march
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+[| "D"A2 "G"(B>c) "D"d2 "A7"(c>B) | "D"(A>B) (AF) "A7"E2 "D"D2 \
+|  "D"A2 (d>e) f2 "A7"(e>d) | "A7"(e>d) ef e4 |
+|  "D"A2 "G"(B>c) "D"d2 "A7"(c>B) | "D"(A>B) (AF) "A7"E2 "D"D2 \
+|  "D"A2 (d>c) "G"(Bd) "D"AF | "D"A2 (d>e) d4 ||
+|| "D"f2 (f>f) f2 "G"(g>f) | "A7"(e>d) (ef) (ec) A2 \
+|  "D"f2 (f>f) "G"(gf) "D"ed | "A7"(eA) A2 A4 |
+|  "D"d2 (d>c) "G"B2 dB | "D"(Ad) de f2 d2 \
+|  "G"B2 dB "D"(A>B) AF | "D"A2 (d>e) d4 |]
+S:https://www.folktunefinder.com/tunes/13364
+S:http://trillian.mit.edu/~jc/music/abc/anthem/HailToTheChief_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

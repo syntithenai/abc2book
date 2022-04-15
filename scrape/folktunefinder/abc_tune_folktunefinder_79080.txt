@@ -1,0 +1,24 @@
+X:639
+T: MEIN SCHAETZCHEN WILL WANDERN
+N: E0589
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Liebes - Lied, Trennung
+M: 3/8
+L: 1/16
+K: F
+C2 | F3FF2 | A3GF2 | c4c2 | c4
+f2 | c4AA | B3AG2 | A3AA2 | A4
+FA | c4cc | c3cf2 | d3dd2 | d4
+d2 | c3dc2 | c2B2A2 | A3GG2 | G4
+FA | c2c2A2 | B2B2G2 | c2c2A2 | B2B2G2 | A3AA2 | A4
+S:https://www.folktunefinder.com/tunes/79080
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, trennung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

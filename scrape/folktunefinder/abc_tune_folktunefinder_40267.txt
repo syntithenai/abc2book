@@ -1,0 +1,40 @@
+X:68
+T:La java
+R:Java
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-17
+M:3/4
+L:1/8
+Q:1/4=120
+K:Db transpose=24
+V:1
+%%MIDI program 74
+(B2 cd cB | d)z (cd cB | dz cd cB | c)z (=A4 | =A2 Bc BA | c)z (Bc B=A | c)z (Bc B=A | B)z (F4 | B2 cd cB | d)z (cd cB | d)z (cd cB |
+c)z (=A4 | Bc ed cB | A6 | G6 | F6) |  Bc ed cB | A6 | B6 | c4z2 |: [K:Bb] d2c2B2 | d2c2B2 |
+e2ed ed | c6 | e2d2c2 | e2d2c2 | f2 f=e f_e | d6 | F2G2B2 | A2AG FG | A2 AG FG | A6 | G2A2c2 |
+B2 BA GA | B2 BA GA | B6 | d2c2B2 | d2c2B2 | e2 ed ed | c6 | e2d2c2 | e2d2c2 |  f2 f=e f_e | d6 |
+(F2G2B2 | A2) AG FG | A2 AG FG | A6 | c2d2e2 | d2 dc Bd | c2 cB Ac | B2 z2z2 S :|
+V:2 clef=perc stafflines=0 staffscale=0.7
+%%MIDI program 116
+K:C transpose=-24
+.B2B2B2 | .B2B2B2 | .B2B2B2 | .B2B2B2 | .B2B2B2 | .B2B2B2 |
+%%footer $D   Galouvielle-MBe 2005 \nJava France
+S:https://www.folktunefinder.com/tunes/40267
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Java
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C-sharp
+% Key C
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

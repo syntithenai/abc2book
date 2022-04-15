@@ -1,0 +1,34 @@
+X:125
+T: The contradiction reel
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 724
+R: Reel
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0724.abc
+M: C|
+L: 1/8
+K: A
+e "^segno" |c2({d}(3(c)BA) (BE)(ED)|CEAc dfed|c2({d}(3(c)BA) GABc|defg af
+ed|c2({d}(3(c)BA) (BE)(ED)|CEAc dfed|c2({d}(3(c)BA) GABg|
+afec A/A/AA||g|aA A/A/A aAcA|GBEB GBEg|(aA) A/A/A aAcA|GBEB cAAg|(aA)A/A/
+A (aA) cA|GBEB EBEg|agfe fedc|
+BEFG A2||e2|ae(c'e) ae(c'e)|be(d'e) be(d'e)|c'e(e'e) c'e(e'e)|dcAB (EA)A2
+|aAc'A aAc'A|bAd'A bAd'A|c'Ae'A c'Ae'A|dcBA (EA)A2||
+cefe cefe|dcBA (BE)E2|cefe cefe|fagb afed|cefe cefe|(3(fga) ec (BE)E2|ece
+a fdfa|(gb)eg (ae)fe "^segno" |]
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/77015
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0724.abc
+S:http://www2.redhawk.org:8080/irish/oneill/1001/F/07.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

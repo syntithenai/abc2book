@@ -1,0 +1,42 @@
+X: 2
+P: M\"alar\"opojken - Hambo fr\aan Arbr\aa
+R: hambo
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"A"\
+|: "G"d/^c/d/ ed/ BG/ | DB,/ G,B, DG/ | B/A/B/ cB AG/ | "Am"E2 E4 \
+|  "D7"c/B/c/ dc/ AF/ | DF/ Ad fg/ | ag/ fe/ dc/ | "G"ed/ BG D2 |
+|| "G"d/^c/d/ ed/ BG/ | DB,/ G,B, DG/ | B/A/B/ cB/ AG/ | "C"E2 E4 \
+|  "D7"c/B/c/ dc/ AF/ | DF/ Ad fg/ | ag/ fg/ af/ | "G"g2 "fine"g4 :|
+K: C
+"B"\
+|: "C"GE/ C2 EG/ | cB/ cd/ cB | "Dm"A/F D2 FG/ | AG/ A/_B A2 \
+|  "G7"D/B, D2 B,D/ | GA/ Bc BA/ | GF/ DB, DF/ | "C"AG/ G/E C2 |
+|| "C"GE/ C2 EG/ | cB/ cd/ cB | "Dm"A/F D2 FG/ | AG/ A/_B A2 \
+|  "G7"D/B, D2 B,D/ | GA/ Bc de/ | dc/ Bc dB/ | "C"c2 c4 :|
+K: G
+"A"\
+|| "G"d/^c/d/ ed/ BG/ | DB,/ G,B, DG/ | B/A/B/ cB/ AG/ | "Am"E2 E4 \
+|  "D7"c/B/c/ dc/ AF/ | DF/ Ad fg/ | ag/ fe/ dc/ | "G"ed/ BG D2 |
+|| "G"d/^c/d/ ed/ BG/ | DB,/ G,B, DG/ | B/A/B/ cB/ AG/ | "C"E2 E4 \
+|  "D7"c/B/c/ dc/ AF/ | DF/ Ad fg/ | ag/ fg/ af/ | "G"g2 g4 ||
+K: C
+"C"\
+|: "C"GE/ C2 EG/ | c2 c4 | EG/ c2 ce/ | "C7"g6 \
+|  "Dm"fg/ fe/ dc/ |  "G7"BA/ G4 | G2 G/A GF/ | "C"FE/ ED/ C2 |
+|| "C"GE/ C2 EG/ | c2 c4 | EG/ c2 ce/ | "C7"g6 \
+|  "F"ag/ fe/ fa/ | "C"gf/ ed/ ce/ | "G7"dB/ GA/ Bc/ | d/B/d/ "C"c4 :|
+S:https://www.folktunefinder.com/tunes/8735
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo04.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo1.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

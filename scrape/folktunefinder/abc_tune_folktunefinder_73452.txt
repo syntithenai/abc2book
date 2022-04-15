@@ -1,0 +1,26 @@
+X:293
+T: The Jug and It Full
+B: O'Neill's 293
+N: "Slow"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: This tune has 6-bar phrases.
+M: 3/4
+L: 1/8
+K:D
+F>G \
+| (A2 f2) (ef) | d2 (cA) (Bc) | d3 (efd) | (dc) A2 (AG) | {DF}E2 D2 D2 | D4 (F>G) |
+| (A2 f2) (ef) | d2 (cA) (AB/c/) | d3 (efd) | (dc) A>B AG | {DF}E2 D2 D2 | D4 ||
+|| (DE) \
+| F2 G2 (AB) | =c2 (dc) (AG) | F2 D2 DE | (.F.G.A.B) (cA) | dc A2 A2 | A3 (.G.F.G) |
+| (A2 f2) (ef) | d2 (cA) (Bc) | d3 (efd) | dc A2 AG | {DF}E2 D2 D2 | D4 ||
+S:https://www.folktunefinder.com/tunes/73452
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

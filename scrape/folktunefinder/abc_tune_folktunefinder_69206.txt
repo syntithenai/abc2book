@@ -1,0 +1,24 @@
+X:347
+T: "Der gespenstische Reiter"
+N: Z1027
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Tod, Lenora - Sage
+M: 6/8
+L: 1/16
+K: F
+C2 | F3G_A2A2G2F2 | G4E2C4
+_A2 | G2_E2C2F4D2 | C6
+F6 | F2G2_A2c2B2c2 | G6
+_A6 | F2G2_A2G2F2E2 | F4z6
+S:https://www.folktunefinder.com/tunes/69206
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, lenora - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:44
+T: Danso de la souco (St Marc)
+O:France
+A:Provence
+C:Trad.
+R:Danse trad.
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-03
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+d/ | d>c d>e | f2z>f | f>g d>c | B2 z>B | c>B c>d | e2 z>B | A>A d>d | G2 z>d | d>c d>e | f2 z>f |
+f>g d>c | B2z>B | c>B c>d | e>d c>B | A>A d>d G2 !fine! || z>G | G>^F G>A | B2 z>B | c>B A>G | d>c d>e |
+f>e d>c | d2z>G | G>^F G>A | B2 z>B | c>B A>G  | d>c d>e | f>e d>c | d2 z>d !D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nDanse trad. France
+S:https://www.folktunefinder.com/tunes/40243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Danse trad.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

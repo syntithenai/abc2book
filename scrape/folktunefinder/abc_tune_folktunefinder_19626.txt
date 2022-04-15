@@ -1,0 +1,31 @@
+X: 1
+T: Perthshire Volunteers
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: handwritten MS by Barbara McOwen (1992)
+O: Athole
+B: Athole
+M: C
+L: 1/16
+K: A
+F \
+| "A"E3A cde2      c4 A3c | "Bm"d3B    dcBA "E7"GB3 B3d \
+| "A"cA3 cde2 "F#m"c4 A3c | "Bm"d3f "E7"e3d  "A"cA3 A3 :|
+g \
+| "A"a3e agfe      a4 ec3 | "Bm"d3B     dcBA "E7"GB3 B3g \
+| "A"a3e agfe "F#m"a4 e3c | "Bm"d3B "E7"dcBA  "A"EA3 A3 |]
+d \
+| "A"c3e "E"G3e "D"F3d "A"E3c | "Bm"d3B      dcBA "E7"GB3 B3d \
+| "A"c3e "D"d3f "A"ea3 "E"gb3 | "F#m"agfe "E7"a3e  "A"cA3 A3 |]
+S:https://www.folktunefinder.com/tunes/19626
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PerthshireVolunteers2_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PerthshireVolunteers2_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:915
+T:Xiraldilla (CT 453)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de "Corro de nias", trasncrita en Maliayo.
+N:La letra va indicando los movimientos que se ejecutan al mismo tiempo que se baila.
+A:Asturies
+O:Maliayo
+Z:Cancioneru de Torner 453
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|GG GG|c2 Bc|dd cB|c2 _B2|GG GF|_B2 BA|GA GF|G2 G2|
+G2 GG|c2 Bc|dd cB|c2 _B2|GG GF|_B2 BA|GA GF|G2 G2||
+W:Salga ust a bailar,
+W:palidito caballero,
+W:salga ust a bailar
+W:con mucha sal y salero.
+W:
+W:Con el zapato
+W:mate ust bien la araa,
+W:y con el tacn,
+W:da la vuelta, resalada.
+W:
+S:https://www.folktunefinder.com/tunes/59802
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

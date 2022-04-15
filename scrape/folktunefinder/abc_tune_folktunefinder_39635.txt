@@ -1,0 +1,26 @@
+X:42
+T:Butter Nut Jig
+R:jig
+C:Bruce Osborne  --  Apr. 1991
+Z:abc by bosborne@kos.net
+M:6/8
+L:1/8
+K:Bb
+F/E/|DB,D FDF|BAB FDF|EGB cBG|E3 E2 G|\
+FDF AFA|cAc ecA|BAB FGF|D3 -DFE|\
+DB,D FDF|BAB FDF|EGB cBG|E3 E2 G|\
+FDF AFA|cAc ecA|BAB dcA|B4 -B||\
+D/E/|F2 B dcB|FGF DEF|EGB cBG|E3 E2 G|\
+FDF AFA|cAc ecA|f=ef agf|d3 -dDE|\
+F2 B dcB|FGF DEF|EGB cBG|E3 E2 G|\
+FDF AFA|cAc ecA|f=ef ABc|B4 -B||
+S:https://www.folktunefinder.com/tunes/39635
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

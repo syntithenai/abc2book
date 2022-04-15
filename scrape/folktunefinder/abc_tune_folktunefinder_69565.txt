@@ -1,0 +1,27 @@
+X:5
+T: WENN DIE HOFFNUNG NICHT WAER
+N: F0021
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied, Hoffnung
+M: 3/4
+L: 1/16
+K: F
+C4 | F4C4A,4 | F,8
+A,4 | B,4G,4C4 | A,6z2
+G,2G,2 | A,4A,4=B,4 | C8
+D4 | E4D4=B,3C | C6z2
+G,3G, | G,4A,4B,4 | A,8
+A,3A, | A,4=B,4C4 | =B,12- | B,4z4
+C3C | F4C4_E4 | D8
+D2D2 | C4G,4B,4 | A,12 | z8
+S:https://www.folktunefinder.com/tunes/69565
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Moral - lied, hoffnung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

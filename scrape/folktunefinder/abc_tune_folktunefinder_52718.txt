@@ -1,0 +1,28 @@
+X: 15
+T:Auld Lang Syne. HS.15
+M:2/4
+L:1/8
+Q:140
+S:Henry Stables MS,Cumbria,late19thC
+R:air
+O:Walthwaite,nr.Ambleside.
+A:England
+N:This is marked with ups/downs very clearly as an excersize in violin
+N:bowing technique..CGP
+Z:vmp.Chris Partington
+K:D
+"u"A|"d"d>d "u"df|"d"e>d "u"ef|"d"d>d "u"fa|"d"b3"u"b|\
+"d"a>f "u"fd|"d"e>d "u"ef|"d"d>B "u"BA|"d"d3||!
+"u"b|"d"a>f "u"fd|"d"e>d "u"ef|"d"a>f "u"fa|"d"b3"u"b|\
+"d"a>f "u"fd|"d"e>d "u"ef|"d"d>B "u"BA|"d"d3||
+S:https://www.folktunefinder.com/tunes/52718
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:880
+T:Xiraldilla (CT 387)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Las sealadas con los nmeros CT 387, CT 388 y CT 389, son variantes de una misma meloda.
+N:Estas xiraldillas son, ya de antiguo, muy corrientes en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 387
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|ggg|ggg|a2 f|dff|g2 e|cee|f2 d-|d2 z|
+eee|eee|f2 d|Bdd|e2 c|Acc|d2 B-|B2 z||
+W:A m me gusta una gaita,
+W:vaya una gaita,
+W:vaya un gaitero!
+W:
+W:A m me gusta una gaita,
+W:que tenga el fuelle
+W:de terciopelo.
+W:
+S:https://www.folktunefinder.com/tunes/59767
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

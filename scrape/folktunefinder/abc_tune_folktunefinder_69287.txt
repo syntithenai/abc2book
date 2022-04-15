@@ -1,0 +1,28 @@
+X:428
+T: "Die Rache"
+N: Z1108
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: D
+D2 | D4A2A2B2=c2 | B4A2G4
+A2 | A4A2B4c2 | d4d2A4
+E2 | A4A2B4c2 | d6e4
+d2 | c4A2^G2A2B2 | A6z4
+A2 | d4d2A2B2c2 | d6A4
+A2 | _B4A2G4=FG | A6E4
+=FE | D4D2E2=F2G2 | A6_B4
+A2 | G2G2E2=F4E2 | D4z6
+S:https://www.folktunefinder.com/tunes/69287
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

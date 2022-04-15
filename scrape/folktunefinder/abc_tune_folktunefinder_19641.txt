@@ -1,0 +1,29 @@
+X: 1
+T: the Royal Geographical Society
+C: Muriel A.Johnstone
+R: strathspey
+B: Scotia #3
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+K: Gm
+%%staffsep 40
+d2 \
+| "Gm"g3d BG3 D3G Bd3 | "D"D3^F Ad3 "Gm"BG3 G2ga \
+| "Gm"b3g "D"a3^f "Gm"g3d BG3 | "Cm"eG3 c3B "D7"A3B c3d |
+| "Gm"g3d BG3 D3G Bd3 | "D"D3^F Ad3 "Gm"BG3 G2ga \
+| "Gm"b3g "D"a3^f "Gm"g3d "Cm"e3c | "D7"Dd3 c3d "Gm"BG3 G4 |]
+[|"Gm"B,4 "F"C3B,/C/ "Bb"D3B, DF3 | "Eb"G3F "Bb"BD3 "F"C3B, CD3 \
+| "Gm"B,4 "F"C3B,/C/ "Bb"D3F Bd3 | "Cm"e3d cB3 "D7"d3D ^FA3 |
+| "Gm"B4 "F"c3B/c/ "Bb"d3B df3 | "Eb"gf3 "Bb"b3d "F"c3B c2a2 \
+| "Gm"b3g "D"a3^f "Gm"g3d "Cm"e3c | "D7"Dd3 c3d "Gm"BG3 G2 |]
+S:https://www.folktunefinder.com/tunes/19641
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RoyalGeographicalSociety_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RoyalGeographicalSociety_Gm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "abcjs": "^6.0.2",
     "puppeteer": "^13.5.2"
   }
 }

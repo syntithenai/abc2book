@@ -1,0 +1,27 @@
+X:1305
+T:De'il Among the Tailors
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000084a.html
+%%ID:0000084a
+K:A
+eg|\
+a2eg a2eg|a2ea fedc|dfBf dfBf|dfba gfeg|\
+a2eg a2eg|a2ea fedc|
+defd ecBA|E2G2 A2::\
+ed|\
+ceAe ceAe|ceag fedc|
+dfBf dfBf|dfba gfed|\
+ceAe ceAe|ceag fedc|defd ecBA|E2G2 A2:|
+S:https://www.folktunefinder.com/tunes/36340
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

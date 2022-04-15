@@ -1,0 +1,28 @@
+X:4785
+T:Polska fr Bjrkede
+A:Jmtland
+C:e. Kristian Oscarsson
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007a5.html
+%%ID:000007a5
+K:D
+e>f d2 f2|e>d c2 d2|\
+a2 (3^gab a>f | (3efe (3ded c>d |1
+(3edc d2 e2 :|2 (3edc d4 :: \
+e>c A>c e>e | e<g g/a/g/f/ f>d| f>e e>c e>f |1
+(3gag (3fed e>c |c<A A4 \
+:|2 (3gag (3fed (3cBc | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/37036
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Nurse's Song
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+B: Logan's Book II
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dfd "G"B2d | "D"ABA A2B | "D"A>BA "Bm"ABd |"Em"f2a "A7"gfe \
+| "D"dfd "G"B2d | "D"ABA A2B | "Bm"Aag "A7"fge | "D"d3      d2 :|
+A \
+| "D"d>ef/g/ a2f | "G"g2e "D"afd |"Bm"def "Em"g2e | "D"f2d "A7"ecA \
+| "D"d>ef/g/ a2f | "G"g2e "D"afd | "D"fef     ABA |"Bm"fga "A7"gfe ||
+||"D"d>ef/g/ a2f | "G"g2e "D"afd |"Bm"def "Em"g2e | "D"f2d "A7"ecA \
+| "D"d>ef/g/ a2f | "G"g2e "D"afd | "D"Aag "A7"fge | "D"d3      d2 |]
+S:https://www.folktunefinder.com/tunes/14782
+S:http://trillian.mit.edu/~jc/music/abc/jig/NursesSong_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NursesSong_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

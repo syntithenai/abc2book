@@ -1,0 +1,27 @@
+X:103
+T: ELF BRAEUTE SIND VON MIR GELIEBT
+N: F0215
+O: Europa, Mitteleuropa, Deutschland
+R: national, patriotisch; Liebes - Lied
+M: 3/4
+L: 1/16
+K: G
+D2 | d3cB2A2G2B2 | A4z6
+D2 | c6B2A2d2 | B4z6
+B2 | B3AA2A2B2^c2 | d4z2
+d2^c2B2 | A2f6e4 | d4z6
+d2 | d2c2A6Bc | d2e2d4z2
+d2 | d3cA2A2B2c2 | d4z2
+d2B2G2 | e8e4 | d8c2A2 | G4z6
+S:https://www.folktunefinder.com/tunes/69663
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm National, patriotisch; liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

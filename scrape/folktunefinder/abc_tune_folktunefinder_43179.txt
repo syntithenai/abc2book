@@ -1,0 +1,20 @@
+X:3231
+T:West Wind
+O:ireland
+Z: id:dc-reel-347
+M:C
+L:1/8
+K:G Major
+GF|DGG2 BGG2|cAA2 dcAF|DGG2 BGBd|cAFG AGGF|!
+DGG2 B3d|c3A dcA2|g3a gfde|fdcA AG:|!
+Bd|g3a gfde|f2ge fdcA|dgg2 gfde|fdcA AGBd|!
+g3a gfde|f2ge fdcA|dgg2 bgag|fdcA AG:|!
+S:https://www.folktunefinder.com/tunes/43179
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

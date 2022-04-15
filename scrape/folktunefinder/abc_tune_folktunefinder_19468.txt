@@ -1,0 +1,27 @@
+X: 1
+T: the Lees of Luncarty
+O: Atholl
+R: strathspey
+B: Atholl
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Gmix
+z \
+| "G"DG3 B3G "D7"c3A "G"BG3 | "F"AAA2 B3G c3A FA3 \
+| "G"D3G BG3 "D7"c3A "G"BG3 |1 "D7"A4 d3c "G"BG3 GB3 :|2 "D7"A4 d3c "G"BG3 G3 ||
+f \
+| "G"gd3 d3e "F"f3g a3g | "F"fd3 "C7"c3_B "F"AF3 F3^f \
+| "G"gd3 d3e "Em"g3a b3a | "G"gd3 "D7"d3e "G"gfga gb3 |
+| "G"gd3 d3e "F"f3g a3g | "F"fd3 "C7"c3_B "F"AF3 F3e/f/ \
+| "G"ge3 "G7"f3d "C"ec3 "G"d3B | "Am"Ag3 "D7"^fa3 "G"gG3 G3 |]
+S:https://www.folktunefinder.com/tunes/19468
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LeesOfLuncarty_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LeesOfLuncarty_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

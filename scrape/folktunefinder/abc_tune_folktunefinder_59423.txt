@@ -1,0 +1,33 @@
+X:536
+T:Mueira de Bual (MQ 089)
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Mueira que se toca por la zona occidental de Asturias.
+N:Es de posible origen gallego.
+A:Asturies
+O:Bual
+Z:Manolo Quirs 089
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+CDE
+|: CDE CDE|F2F DEF|DEF DEF|G2G CDE|
+CDE CDE|F2F DEF|GAG FED|[1 C3 CDE:|[2 C3 GAB|
+|: c2 B ABA|G2 E GAG|FED EFG|A2 G GAB|
+c2 B ABA|G2 E GAG|FED FED|[1 C3 GAB :|[2 C6||
+S:https://www.folktunefinder.com/tunes/59423
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: Baym Rebin's Sude
+T: At the Rabbi's Table
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E^G
+"(A)"ED \
+|: "E"^CDE2 E2E2 | E8 | "E"GAB2 "Dm"AGF2 | "E"E8 \
+| G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 |
+| "E"^CDE2 E2E2 | E8 | EFG2 "Dm"FED2 | D8 \
+| d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E4 z4 :|
+|: "Am"E2A2 G2A2 | "E7"B2c2 B2E2 | "Am"A6 Bc | A8 \
+| "Dm"d4 "E7"e4 | "Dm"d4 "Am"c4 | "E"B6 A2 | B2A2 G4 |
+| "E"G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 \
+| "Dm"G2A2 A2A2 | GBAG FEDF | "E"E4- | EGBG | E8 :|
+|: "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| G2A2 A2A2 | GBA2 G2A2 | "E"B4- BAGF | E8 |
+| "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| "Dm"d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E8 :|
+S:https://www.folktunefinder.com/tunes/6735
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BaymRebinsSude.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/BaymRebinsSude_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/BaymRebinsSude_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BaymRebinsSude_Am.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

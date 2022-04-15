@@ -1,0 +1,20 @@
+X:12
+T:Gracenotes
+L:1/8
+M:C
+K:D
+| {E}FA{c}AF DF{^dc}A f{A}df f{AGA}df \
+| {B}D2 {A}D2 {G}D2 {F}D2 {E}D2 \
+| {E}c2 {F}c2 {G}c2 {A}c2 {B}c2 |
+| {A}^c2 {gcd}c2 {gAGAG}A2{g}c<{GdG}e {Gdc}d>c {gBd}B<{e}G \
+| {G}[G4e4] {FGAB}[^c4A4] {ef}[e4c4] {d'c'bagfedcB_AcBFGC}D4 |]
+S:https://www.folktunefinder.com/tunes/2281
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtut_GraceNotes.html
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtutorial-old.html
+S:http://trillian.mit.edu/~jc/doc/abc/ABCtut_GraceNotes.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

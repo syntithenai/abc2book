@@ -1,0 +1,25 @@
+X: 1
+T: Lime Street
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| "G"G2G2 GBdB | "D7"A2A2 Acec | "G"Bdgf "Em"edcB | "C"AGFE "D7"DcBA | "G"G2G2 GBdB |
+| "D7"A2A2 Acec | "G"BdBG "D7"AcAF | "G"G2G2 G2 |]| Bd | "G"g2gf "A7"gbag | "D"f2d2 "D7"d3e |
+| "G7"=fefg fagf | "C"e2c2 "D7"c2dc | "G"BGBd g2fg | "C"afdB "C7"c2dc | "Em"BdBG "D7"AcAF | "G"G2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/14545
+S:http://trillian.mit.edu/~jc/music/abc/jig/LimeStreet_G16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LimeStreet_G16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LimeStreet_G16.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

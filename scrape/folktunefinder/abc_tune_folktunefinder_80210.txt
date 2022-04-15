@@ -1,0 +1,24 @@
+X:151
+T: Weihnachtslied des 14. Jahrhunderts
+N: A0517
+O: Europa, Mitteleuropa, Deutschland
+N: Andernacher Gsgb. 1608 No. 27
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | G4G2 | A4A2 | _B2c2d2 | d4
+d2 | c4c2 | G4A2 | _B2z2
+B2 | d2=f2g2g2 | =f_edc_B2
+c2 | d2c2_B2A2 | G4
+S:https://www.folktunefinder.com/tunes/80210
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

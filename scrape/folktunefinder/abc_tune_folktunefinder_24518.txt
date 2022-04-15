@@ -1,0 +1,30 @@
+X:4066
+T:Matilda (La). CJF.087
+T:La Matilda. CJF.087
+O:england
+M:6/8
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The note asterisked is ^c2 in MS. - PJH.
+K:F
+"$"c|f2af2c|A2cB2c|A2c cBA|GGGG2c|\
+f2af2c|c2db2g|(f2e)(c'2e)|(g3f2)h||a|
+(b2g) efg|a2f fga|(g2c) (cde)|(f2c) (a2f)|\
+b2g efg|a2f fga|gc'e gfd|c2 {d/c/=B/}cdE"$"||A|
+{G/}FEDD2D|D2FA2F|d2Af2d|^c2ea2A|\
+{G/}FEDd2A|f2da2f|b2ge2""^c|d3"  $"z2||
+S:https://www.folktunefinder.com/tunes/24518
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

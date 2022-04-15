@@ -1,0 +1,29 @@
+X:5735
+T:Slngpolska
+A:Skne
+L:1/16
+M:3/4
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000aa4.html
+%%ID:00000aa4
+K:B min
+D2DF E2EG F2D2 | DEFG ABcA d4 |\
+f2fa g2f2 e2d2 |
+|1 cdef edcB AGFE :|2 cdec d8 :: \
+f2fa g2gb a2c2| d2f2 efge f2d2| \
+f2fa g2gb a2c2 |
+d2f2 efge d4 |\
+D2DF E2EG F2D2 | DEFG ABcA d4 |\
+f2fa g2f2 e2d2 |cdec d8 :|
+S:https://www.folktunefinder.com/tunes/37226
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

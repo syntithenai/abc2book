@@ -1,0 +1,23 @@
+X:256
+T: MAEDCHEN WILLST DU FREIEN
+N: E0841
+O: Europa, Mitteleuropa, Deutschland, Thueringen; Sachsen
+R: Hochzeits -, Ehestands - Lied
+M: 2/4
+L: 1/8
+K: F
+ | cccd | c2A
+c | cBGE | F3
+c | cccd | c2A
+A | BGFE | G2Fz
+S:https://www.folktunefinder.com/tunes/76741
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

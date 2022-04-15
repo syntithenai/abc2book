@@ -1,0 +1,37 @@
+X:503
+T:Marcha d'Antn El Neu (MQ 061)
+T:Marcha d'Antn (MQ 061)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:La recog de Julio "el Hospicianu", gaiteru ya fallecido de la zona de Teberga, me dijo que era una "cancin de Misa", se referira seguramente a que sola tocarse como intermedio o como marcha de procesin.
+N:Es una de las piezas ms bonitas con que cuenta el repertorio de la gaita asturiana.
+A:Asturies
+O:Teberga
+Z:Manolo Quirs 061
+M:4/4
+L:1/8
+Q:1/4=82
+K:C
+|: E4 G2 (3FGF|E6 C/D/E/F/|E4 F3 G/F/|E2 F2 D2 E/D/C/B,/|C4-C4|
+E4 G2 (3FGF|E6 C/D/E/F/|E3 C/E/ D3 B,/D/|C4-C4 :|
+|F3 G/F/ E3 F/E/|D4 E2 F2|G4 A2 F2|
+[M:2/4]G(3A/B/A/ (3G/A/G/(3F/G/F/|[M:4/4]E4-E4|A7/2G/ F2 A2|G4-G4|c3 B c2 B2|G6 F2|
+[M:2/4]G(3A/B/A/ (3G/A/G/(3F/G/F/|[M:4/4]E4-E4|c3 B c2 B2|G6 F2|
+[M:2/4]G(3A/B/A/ (3G/A/G/(3F/G/F/|[M:4/4]E4-E4|F-F/G/ F/E/ F3 E F/E/|D6 D2|
+[M:2/4]G(3A/B/A/ (3G/A/G/(3F/G/F/|[M:4/4]E4-E4|
+S:https://www.folktunefinder.com/tunes/59390
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

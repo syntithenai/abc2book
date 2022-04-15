@@ -1,0 +1,34 @@
+X:16
+T:Avant-deux Mardi-Gras
+R:Avant-deux
+N:tagafolk.abc
+O:France
+A:Poitou
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+V:1
+%%MIDI program 20
+A/B/c/d/ ee dg dB | GB A/B/c/d/ ee e2 | A/B/c/d/ ee dg dB | GB A/B/c/B/A2 A2 :||:
+A/E/C/E/ AA cB G2 | G/E/C/E/ GG E G A2 | A/E/C/E/ AA cB G2 |  G/E/C/E/ GG E G A2 |
+e/c/A/c/ ee ce g2 | g/e/c/e/ gg eg e2 | e/c/A/c/ ee ce g2 | g/e/c/e/ gg eg e2 ||
+V:2
+%%MIDI program 20
+A,2 A,2 G,2 G,2 | G,2 G,2 A,2 E,2 | A,2 A,2 G,2 G,2 |G,2 G,2 A,2 A,2 :||: 
+A,2 A,2 A,2 .C,2 | C,2 C,2 C,2 A,2 | A,2 A,2 A,2 C,2 | C,2 C,2 C,2 A,2 |
+A,2 A,2 A,2 .C,2 | C,2 C,2 C,2 A,2 | A,2 A,2 A,2 .C,2 | C,2 C,2 C,2 A,2 ||
+%%vskip 0.5cm
+%%sep
+%%text Alpes :
+S:https://www.folktunefinder.com/tunes/39885
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Avant-deux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 11
+T: Koiviston polska
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"ABAG FGFE D2F2 \
+| "A7"EFED ^CDC=B, A,2B,C \
+| "Dm"D2^CD E2DE F2EF \
+| "Gm"G2FG "A7"A4 [A4^C4] \
+:| "F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "F"A2F2 |
+| "F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "A7"A2G2 \
+| "Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D2E2 \
+| "Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8046
+S:http://trillian.mit.edu/~jc/music/abc/Scand/BingsjoPolska.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

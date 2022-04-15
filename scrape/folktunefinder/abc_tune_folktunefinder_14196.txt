@@ -1,0 +1,25 @@
+X: 1
+T: Forres Country Dance
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-4(II)
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"GDG BGB | dBd gdB | "C"cac "G"BgB | "Am"aAA "D7"A2B \
+| "G"GDG BGB | dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+|: d \
+| "G"gbg "D7"faf | "Em"ege "Bm"d2B | "C"cac "G"BgB | "Am"cAA "D7"A2B \
+| "G"GDG BGB | dge d2B | "Am"c2A "D7"F2d | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/14196
+S:http://trillian.mit.edu/~jc/music/abc/jig/ForresCountryDanceJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ForresCountryDanceJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ForresCountryDanceJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

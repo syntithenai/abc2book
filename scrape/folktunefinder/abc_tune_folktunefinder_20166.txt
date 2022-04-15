@@ -1,0 +1,25 @@
+X: 1
+T: Rolling Home to Bonnie Scotland
+B: Paramount Song Book
+N: Compare the Irish ballad "Kevin Barry"
+P: Verse
+M: 3/4
+L: 1/8
+K: D
+D>F | "D"A3A ^GA | BA3 F>A | f3c (3(ed)B | "A7"A4 || \
+c>d | e3d c>G | "D"BA3 ^G>A | "A7"c3B G>A | "D"F4 ||
+D>F | "D"A3A ^GA | BA3 F>A | f3c (3(ed)B | "A7"A4 || \
+c>d | e3d c>G | "D"BA3 ^GA | "A7"c3A G>E | "D"D4 |]
+P: Chorus
+D>F | "D"A4 F>A | d4A>d | f3c (3(ed)B | "A7"A4 || \
+c>d | e3d c>G | "D"BA3 ^G>A | "A7"c3A G>E | "D"D4 |]
+S:https://www.folktunefinder.com/tunes/20166
+S:http://trillian.mit.edu/~jc/music/abc/waltz/RollingHome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

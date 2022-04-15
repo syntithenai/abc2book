@@ -1,0 +1,46 @@
+X: 13
+P: Russian Sher (Abe Schwartz)
+O: Abe Schwartz
+N: Handwritten MS. from Barry Shapiro; another handwritten MS from 
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|: "Dm"D2FF F2F2 | "Gm"GFGA "Dm"F4 | FEDE "A7"FGFE | "Dm"D2D2 F2D2 | "Dm"D2FF F2F2 | "Gm"GFGA "Dm"F4 | FEDE "A7"FGFE | "Dm"D8 :|
+"B"\
+[| "F"A4 G2A2 | "C7"B2B2 "F"A4 | "C7"G4 D2E2 | "F"F6 B2 | ABc2- c2c2 | "Bb"d3c "F"cBBA | A3G "C7"ABcB | "F"A6 A2 |
+| "Dm"AGGF FEED | D2E2 F2G2 | AGGF FEED | D2d2 A3A | AGGF FEED | D2E2 F2G2 | AGGF FEED | D6 F2 |
+| "C"EFG4 G2 | G_AGA G3G | "F"FEDE "(C7)"FGFE | "F"F4 F4 | "C7"E2FG _A=Bcd | _edc=B _AGF=E | "F"FCCF "Eb"F_EED | "Dm"D8 |
+| "F"A6 GF | GAF2 C2F2 | cBBA AGGF | GAF2 C2F2 | cBBA AGGF | cBBA AGGF | cBBA AGGF | GAF4 F2 |
+| "C"EFG4 G2 | G_AGA G3G | "F"FEDE "(C7)"FGFE | "F"F4 F4 | "C7"E2FG _A=Bcd | _edc=B _AGF=E | "F"FCCF "Eb"F_EED | "Dm"D8 |]
+"C"\
+|: "Dm"d2d2 d4 | f2f2 f4 | "A"e2d2 ^c2d2 | e6 A2 | e2e2 e4 | g2g2 g4 | "Dm"f2e2d2f2 | a8 |
+| "Gm"z2ba g2a2 | b2a2 g4 | "Dm"z2d2 e2f2 | agf2 fed2 | f2 f4 f2 | "A7"fed2 ^cdec | "Dm"d8- | d4z4 :|
+"D"\
+|: "F"~c2=Bc dcBc | f2c2 A2F2 | "C7"G3A BAG2 | "F"A2c6 | "F"~c2=Bc dcBc | f2c2 A2F2 | "C7"G3A BAG2 |1 "F"F4 :|2 "F".F2 |]
+"E"\
+|: "(A7)"A,2D2E2 | "Dm"F3E D4- | D2 G2F2G2 | F3E D4- | D2 A2B2A2 | "A7"G3FE4- | E2 E2F2G2 | "Dm"FED2 A4 | AGF2 FED2 |
+| "Gm"B3AG4- | G2 E2F2G2 | "Dm"A3GF4- | F2 A,2D2E2 | F2F4F2 | "A7"FED2 ^CDEC | "Dm"D8- |1 D2 :|2 D8 |]
+K:Dphr^F
+"F"\
+|: "D".D4 F4 | FEDE F4 | .D4 A4 | AGFG A4 | "Cm"z2 C2D2E2 | D2C4 AG | FGAG GFFE | "D"E2D6 :|
+"G"
+[| "Gm"B6 AG | "D"A6 GF | "Gm"GFGA BAGF | GccB BAAG | B6 AG | "D"A6 GF | "Gm"GFGA BAGF | G2 G6 |]
+"H"\
+|: "D"c3B ABc2- | cBAB cBAG | A3G FGA2- | AGFG AGFE | F3E DEF2- | FEDE FEDC |
+| "Cm"=B,CDE FGFE | "D"E2 D4 z2 :| % y8 y8 y8 y8 y8 y8 y8 y8
+%%sep 1 1 100
+S:https://www.folktunefinder.com/tunes/6661
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/20051025.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

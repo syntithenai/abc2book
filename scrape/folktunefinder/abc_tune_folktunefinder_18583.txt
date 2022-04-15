@@ -1,0 +1,30 @@
+X: 1
+T: Always
+C: Words, music: Irving Berlin [1925]
+M: 3/4
+L: 1/8
+K: G
+[| "G"de d2 D2 | B6 | "Am"cd c2 D2 | "D7"A4- AD |\
+   "Am7"A6 | "D7"d6 | "G"B6- | B6 |\
+   "G"de d2 D2 | B6 | "Am"cd c2 D2 | "D7"A4- AD |\
+   "Am7"A6 | "D7"d6 | "G"G6- | G6 |
+   "Bm"F2  B2 B2 | "G7"B2 ^A2 B2 | "F#7"^c6- | c6 |\
+       F2 ^c2 c2 | ^c2 B2 c2 | "Bm"d4- d2- | "D7"d6 |\
+|: "G"D3 EGA | B6 | d2 B4- | B6 |\
+   "D7"D3 EFG | A6 | "G"B2 G4- | G6 |
+   "G"D3 EGA | B6 | "B/F"F3 ^GB^c | ^d6 |\
+   "F#7"F3 ^G^A^c | e6 | "B"^d2 B4 | "D7"B2 A4 ||\
+   "G"D3 EGA | B6 | "G"d2 B4- | "G /Gb /F"B6 |
+   "E7"E3 F^GB | e6 | "Am"=f2 e4- | e6 |\
+   "C6"c3 BAB | "Am7b5"c6 | "G"B3 AGA | "E(m)"B6 |\
+   "A7"A3 GFG | "D7"A4 D2 | "G"B2 G4- | G4 z2 :|
+S:https://www.folktunefinder.com/tunes/18583
+S:http://trillian.mit.edu/~jc/music/abc/song/Always_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/Always_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

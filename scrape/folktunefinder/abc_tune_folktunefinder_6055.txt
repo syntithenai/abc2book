@@ -1,0 +1,28 @@
+X: 1
+T: \vSumadisko kolo
+T: U \vsest
+O: Serbia
+M: 4/4
+L: 1/16
+K: A
+|: "E7"EGBe d2de | "A"c2cA ^defg | "D"a2ag f2fe \
+|1 "E7"d2de "A"c2cA :|2 "E7"d2de "A"c4 :|
+|: "D"a2ag f2fe | "E7"d2de "A"cABc | "Bm"d2de "B7"c2cA \
+|1 "E"B2BA ^defg :|2 "E"B2z2 z4 :|
+K:EDor=g^d^A
+|: "Em"B2BE ABcB | "F#7"A2AE FGAB, | "Em"E2EB, "F#7"FGAG \
+|1 "B"F2FE FGAc :|2 "B"F2z2 z4 :|
+|: "Em"E2EB, "F#7"FGAG | "B"F2FE FGAB | "Em"cBAG "F#7"AGFE \
+|1 "B"FGFE DB,CD :|2 "B"F2z2 z4 :|
+S:https://www.folktunefinder.com/tunes/6055
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ShumadiskoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/ShumadiskoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/ShumadiskoKolo_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ShumadiskoKolo_A.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Hava Nagila
+O: Klezmer
+Z: John Chambers <jc:trillian.mit.edu>
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+K: Am
+|: "E"E2 E3 ^G FE | ^G2 G3 B AG | "A"A2 A3 c BA |
+S:https://www.folktunefinder.com/tunes/13394
+S:http://trillian.mit.edu/~jc/music/abc/folk/HavaNagila_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/HavaNagila_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/HavaNagila_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/HavaNagila_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/HavaNagila_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/HavaNagila_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

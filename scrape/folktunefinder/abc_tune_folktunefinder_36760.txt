@@ -1,0 +1,39 @@
+X:3405
+T:Mazurka
+C:e. Anders Reed / Samuel Bugset
+M:3/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Norway
+R:Mazurka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b64.html
+%%ID:00000b64
+K:G
+[G,6D6e6]|]\
+vG>B d2d2| B>d g2g2{ag} |\
+~f>e c2 (3cBc| e>d B2B2|\
+G>B d2d2| B>d g2g2{ag} |
+~f>(e dc) ~B>A| G2 G3z::\
+{c}vB>(A G)>(A B)>(d | c)>(B c)>(e A)>(g |\
+f)>(e d)>(e f)>a | v~g>(uf gb) vg2|
+{c}uB>(A G)>(A B)>(d | c)>(B c)(e A)>(g |\
+f)>(e d)ue vfua | vg2 ug3z:|
+z6||\
+vB,>D G2G2| D>G B2B2| \
+d.c A2 (3A^GA| c>B G2G2|\
+B,D G2G2| D>G B2B2|
+d>(c BA) G>D| B,2 B,3z::\
+vG>(D B,)>(D G)>(B | A)>(G A)>(c E)>(e |\
+d)>(c B)>(c d)>c | vB>(uA Bd) B2|
+uG>(D B,)(>D G)>(B | A)>(G A)>(c E)>(e | \
+d)>(c B)uc vduc | vB2 [uB3D3]z:|
+S:https://www.folktunefinder.com/tunes/36760
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

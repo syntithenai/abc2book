@@ -1,0 +1,26 @@
+X:77
+T: Die niederlaendischen Grasmaedchen
+N: A0086
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 11.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/8
+K: F
+f2 | f4f4e2f2 | g3fe2d4
+e2 | f4f4e2c2 | d3cA2d2c2
+A2 | F4F4c2c2 | d4e2f4
+e2 | d2c2B2A2G4 | F6z4
+S:https://www.folktunefinder.com/tunes/68623
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

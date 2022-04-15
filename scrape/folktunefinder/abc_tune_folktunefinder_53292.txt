@@ -1,0 +1,25 @@
+X:310
+T:Turkish tune
+M:6/8
+N:I took this from a record, and can't remember what it's called. It sounded disturbingly like a strathspey.
+O:Turkey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000667.html
+%%ID:00000667
+K:F# min
+F2^E F2A|G2B Ac2|BAG AGF \
+|1 ^EFG E=DC:|2 ^EFG F3||
+|:c^Bc d3|GA^A B3\
+|1 GA^A B^Bc|dBd c3 :|2 cdc BAG| F^EG F3 ||
+S:https://www.folktunefinder.com/tunes/53292
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

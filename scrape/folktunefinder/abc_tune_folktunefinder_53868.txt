@@ -1,0 +1,24 @@
+X:601
+T:60. NIC'S RUSSIAN TUNE
+M:4/4
+L:1/4
+R:Reel
+K:Em
+V:1
+"Em"E>FG>E|GF/E/"B7"FB,|F>GA>F|AG/F/"Em"Ez|
+"Em"B"C"e"G"d"E7"e/d/|"Am"cB/A/"Em"BE|"Am"c>A"Em"B>G|"B7"AG/F/"Em"E2||
+V:2
+G>AB>G|BA/G/FA|A>Bc>B|cB/A/Gz|
+egBB/d/|ed/c/eB|e>cE>B|^de/f/e2||
+S:https://www.folktunefinder.com/tunes/53868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set60.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

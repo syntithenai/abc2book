@@ -1,0 +1,27 @@
+X:82
+T: O IHR BERG UND HUEGEL
+N: E0688
+O: Europa, Mitteleuropa, Deutschland, Hessen, Nassau, Hennethal
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: G
+ | d2g2e2dc | d2B2A2
+GB | d2d2c2c2 | B4z2
+BA | G2G2G2A2 | B4A2
+AB | c2e2d2dc | B4z2
+dB | A2A2A2AB | c2ced2
+dB | A2A2A2AB | c2ced2z2
+d2g2e2dc | d2B2A4
+d2g2e2dc | B4z4
+S:https://www.folktunefinder.com/tunes/76567
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 1
+T: Karamfil
+T: Carnation
+%T: ABC DBC ABC D
+%%vocalfont Helvetica-Narrow-Bold 20
+%%vocalspace  15.0pt
+%%sysstaffsep 20.0pt
+O: Bulgaria
+R: lesnoto
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/16
+L: 1/16
+P: ABCD BC ABCD
+K: Dm
+V: 1
+"A"\
+| "D7"d3- d2 AB | cBA "Gm"~B2- BA | "C7"G3 cB- BA | "F"AFG ~AG FE \
+| "D7"~D3 ~A2- AB | "Gm"AGF ~G2 GD | "A7"~F3 GE ED | "Dm"D7 ||
+V: 1
+"B"\
+| "Dm"A,3 D2E2 |  F3   F4 | "A7"E3 E2F2 | "Dm"(E2D) D4 | "C7"C3  F2G2 |
+w: 1.~Ka-\vzi mi, ka-\vzi, mla-di le mom-*ko, ka-\vzi mi,
+w: 2.~Az, ver-en sin s\uam, sin na Bal-ka-*na i roz-a-
+w: 3.~Go-re le go-ro, go-fo haj-du\vs-*ka, i ti, gra-
+V: 1
+| "F"A3 A4 | "C7"(G2A/G/) F2G2 | "F"A7 || "D7"D3 D2B2 | "Gm"(A2G) G4 |
+w: al-en ka-**ram-*fil, Gd\`e ras-na mom-*ko,
+S:https://www.folktunefinder.com/tunes/3095
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Karamfil.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Les_Karamfil.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Karamfil.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_Karamfil.abc
+% Rhythm Lesnoto
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 7/16
+% Has_accompaniment_chords Has chords

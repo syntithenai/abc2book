@@ -1,0 +1,29 @@
+X: 1
+T: the Gates of Edinburgh
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: D2 | "D"A,B,DE F2dB | AFED "A7"E2DB, | "D"D2d2 A2FE | "G"D2B,2- "A7"B,2E2 | "D"F2FA F2FA |
+| dAFD "A7"E2DB, | "D"D2d2 A2FE | "G"D2B,2- "A7"B,2 :: A2 | "D"dcde dfed | "A7"edef egfe |
+| "D"dcde "Bm"defd | "Em"edcB "A7"A2de | "D"fedf "A7"edce | "Bm"dcBA d2de | "G"fedc "A7"BAFE | "Bm"D2B,2- "A7"B,2 :|
+S:https://www.folktunefinder.com/tunes/17239
+S:http://trillian.mit.edu/~jc/music/abc/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r32/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/GatesOfEdinburghR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

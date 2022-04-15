@@ -1,0 +1,25 @@
+X:682
+T: SANKT MICHEL DER HAT SICH GEBAUET
+N: E2087
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: geistlich, Heiligen - Lied, Legende
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2_B2A2B2 | G6F4
+D2 | G4A2_B2A2G2 | A6z4
+GA | _B2A2B2c2B2c2 | d6c4
+_B2 | A2_B2G2F2G2A2 | G6z4
+S:https://www.folktunefinder.com/tunes/79786
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, heiligen - lied, legende
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

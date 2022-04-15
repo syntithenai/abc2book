@@ -1,0 +1,40 @@
+X: 2163
+T:Seidener Zwirn - The Silken Twine
+O:Germany
+N:VVMM
+M:3/4
+Q:1/8=420
+A:Bavaria
+R:Zwiefache
+K:C
+M:3/4
+G3F EF|G4c2|\
+M:2/4
+B4d4|c4e4|\
+M:3/4
+G3F EF|G4c2|\
+M:2/4
+B4d4|c8:|
+|:\
+M:3/4
+A2 fe f2|G2 ed e2|\
+M:2/4
+B4d4|c4 e4|\
+M:3/4
+A2fef2|G2ede2|\
+M:2/4
+B4d4|c8:|
+S:https://www.folktunefinder.com/tunes/32624
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Zwiefache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

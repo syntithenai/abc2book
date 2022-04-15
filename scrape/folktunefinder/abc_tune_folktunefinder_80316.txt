@@ -1,0 +1,29 @@
+X:257
+T: St. Christoph
+N: A0614
+O: Europa, Mitteleuropa, Deutschland
+N: Notenbuchers Bergkreien 1551 No. 26 und Praetorius, Mus. Sion.
+N: VII. 1609 No. 182 von Boehme unterlegt.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/4
+K: D
+D2 | D4D2 | A4B2 | =c4B2 | A4
+B2 | =c4B2 | A4G2 | =F2EDE2 | D4
+G2 | E4=F2 | G4A2 | =F2E4 | D4
+D2 | A4B2 | =c4d2 | =c2BAB2 | A4
+d2 | B4=c2 | A4G2 | A2=F2G2 | =F4
+A2 | =c4B2 | A4G2 | =F2EDE2 | D4
+S:https://www.folktunefinder.com/tunes/80316
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,72 @@
+X:1
+T:Tarantas
+L:1/8
+M:None
+S:Laurie Griffiths <laurie.griffiths@ukonline.co.uk> abcusers 2002-7-24
+K:F#phr
+[K: transpose=-12]F\
+%rubato, in fact very rubato
+F A4 |\
+dc G |\
+A,/A/G/B/ A,/A/G/B/ A,/A/G/B/ [A,4 A4] :|\
+G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4 B4 |\
+G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4
+G/4A/4B/4A/4 G/4 F4 |\
+G/4A/4B/4 B4 |\
+G/4A/4B/4A/4 G/4 F4 |\
+G/4A/4B/4 B4 |\
+G/4A/4B/4A/4 G/4F/4E/4D/4 E/4F/4G/4A/4 B/4A/4G/4F/4 E/4D/4E/4F/4
+E/4D/4C/4B,/4 A,/4B,/4C/4D/4 E/4F/4G/4A/4 B/4 B4 |\
+B/ A/ G/ F G =F G ^F G G G ^F G =F G F,2 C2 D2 =F2 G/4B/4 e/4B/4G/4^F/4 C/4
+F,4 |: F,/ C/ D/ =F/ ^F/ G/ ^A/ B/ c/ B/ ^A/ G/ ^F/ G/ ^A/ G/ ^F/ G/ ^F/ G/
+^F/ G/ ^F/ G/ =F4 |\
+G,/A,/B,/C/ D/C/D/C/ D/C/B,/A,/ C/B,/A,/G,/ F,/C/D/=F/ C/^F/ {e B G ^F C F,
+e B G ^F C F, e B G ^F C }F,6 :|\
+B,/C/ B,/ A,4 |\
+E/F/E/ D2 [A,3/2 D3/2 A3/2 d3/2 f3/2] A,/ G,2 [G,2 B,2 D2 G2 B2 g2] |\
+D/ E/ D/ C E [A,2 E2 A2 c2 e2] B,/ C/B,/ A,2 G,2 |\
+[G,2 B,2 D2 G2 B2 g2] G,G, F,=F, {=F, =C =F G B e B G =F =C }=F,4 |\
+E,/=F,/G,/^F,/ {^F, C F G B [e e] B G F C [e e] B G F C [e e] B G F C }^F,4
+|\
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 {e B }F,/4{G }G,/4{F C }F,/4E,/4 F,/4{e
+B }G,/4{G F }F,/4{C }E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4{e
+B }G,/4{G F }F,/4{e C B G }E,/4 {F C }F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4
+F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 F,/4G,/4F,/4E,/4 [F,2 C2 F2 G2 B2 e2] |\
+B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4
+B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4
+B,/4C/4B,/4A,/4 B,/4{e B }C/4{G e D B }B,/4{G D }A,/4 B,/4C/4B,/4A,/4
+B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4 B,/4C/4B,/4A,/4
+B,/4C/4B,/4A,/4 [G,4 B,4 D4 G4 d4] |\
+[F,2 A,2 D2 A2 =c2] |\
+B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4
+B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4 B/4=c/4d/4=c/4
+B=c =F,/ |\
+=c[D/A/][A/ =c/ e/] [D/A/=c/]d/[D/A/][A/ d/ e/] [=ce][D/A/][A/ =c/ e/]
+[D/A/=c/e/]g/[D/A/][A/ =c/ g/] [D/A/=c/g/]e/[D/A/][A/ =c/ e/]
+[D/A/=c/f/]e/[D/A/][A/ =c/ e/] |: [D/A/=c/g/]e/[D/A/][A/ =c/ e/]
+[D/A/=c/f/]e/[D/A/][A/ =c/ e/] [D/A/=c/g/]e/[D/A/][A/ =c/ e/]
+[D/A/=c/f/]e/[D/A/][A/ =c/ e/] [D/A/d/]=c/[D/A/][A/ =c/ e/]
+[D/A/d/]=c/[D/A/][A/ =c/ e/] :|\
+ee B B4 |\
+G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/4A/4B/4A/4 G/ F4 |:
+G/4A/4 B/4 B4 |\
+G/4A/4B/4A/4 G/4 F4 :|\
+G/4A/4B/4 B4 |\
+G/4A/4B/4A/4 G/4F/4E/4D/4 E/4F/4G/4A/4 B/4A/4G/4F/4 E/4D/4E/4F/4
+E/4D/4C/4B,/4 A,/4B,/4C/4D/4 E/4F/4G/4A/4 B/4 B4 |\
+B/ A/ G/ F G =F G ^F G G G ^F G =F G F, C D =F [F,4 C4 ^F4 G4 B4 e4] |
+S:https://www.folktunefinder.com/tunes/12774
+S:http://trillian.mit.edu/~jc/music/abc/Spain/Tarantas_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Tarantas_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

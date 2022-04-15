@@ -1,0 +1,27 @@
+X: 7872
+T:the Standing Stones
+R:March
+O:Scotland
+M:4/4
+A:Orkney
+K:A
+E2 | \
+A3G A2B2 | c4 B2A | d3c d2e2 | f2a2 g2f2 |\
+e2 A3c |1 e2c2a2e2 | c4 B4 | B4 E4 :|2\
+e2d2 B2G2 | A4 A4 | A4 :: \
+c3d |\
+e4 c3d | e4 a3g | f2d2 A2d2 | f4 e3d | \
+c4 A3c | e2c2 a2e2 | c4 B4 | B4 E4 |\
+A3G A2B2 | c4 B2A2 | d3c d2e2 | f2a2 g2f2 |\
+e4 A3c | e2d2 B2G2 | A4 A4 | A4 :|
+S:https://www.folktunefinder.com/tunes/35089
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

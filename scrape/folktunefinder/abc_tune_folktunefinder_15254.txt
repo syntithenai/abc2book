@@ -1,0 +1,24 @@
+X: 1
+T: the Whistling Public Servant
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"g2e cBA | "G7"B2A G2^G | "C"A2E ^D2E | "G7"G3- GED \
+| "C"C2D EGB | c2A G2A | "G"BdB "D7"A2B | "G"d3- "G7"d2G |
+| "C"g2e cBA | "G7"B2A G2^G | "A7"A2e f2e | "Dm"A3- AAB \
+| "F"cAB "D7/F#"cAB | "Am"cAB cde | "G7"g2e d2e | "C"c3- c2 |]
+S:https://www.folktunefinder.com/tunes/15254
+S:http://trillian.mit.edu/~jc/music/abc/jig/WhistlingPublicServant_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WhistlingPublicServant_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 162
+T:Wellington's,A Grand Waltz. JaW.162
+M:3/8
+L:1/16
+Q:60
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+H:1/16
+Z:vmp.Chris Partington, Aug 2004
+K:C
+(G2c2e2)|(G2c2e2)|(G2e2f2)|{a}g4e2|\
+.f2(f2d2)|.e2(e2d2)|(de)f(edc)|(BcdcBA)|!
+.G2(Gc)e2|.G2(Gc)e2|(G2e2f2)|{a}g4e2|\
+f2{g}(fefd)|e2{f}(edec)|(dfedcB)|d4z2:|!
+|:(d2B2G2)|{A}(G2^F2G2)|(e2c2G2)|(e2c2G2)|\
+.d2(dedc)|(BAGABc)|(d2B2G2)|({A}(G2^F2G2)|!
+(e2B2G2)|{A}(G2^F2G2)|(f2d2G2)|(e2c2G2)|\
+(dedcBA)|G^FGFGF|]
+S:https://www.folktunefinder.com/tunes/47699
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

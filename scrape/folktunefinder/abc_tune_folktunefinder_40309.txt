@@ -1,0 +1,36 @@
+X:111
+T:Vens, enfant dou Segnour
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:France
+A:Provence
+M:3/4
+L:1/8
+Q:1/4=96
+K:Bb
+(B2 | d2 de dc | B2 Bc de |
+f2 ed cB | d2 c2) (B2 | d2 de dc |
+B2 Bc de | f2 ed ce | d4) (f2 |
+d2 de dc | B2 F2 B2 | c2 cd Bc | d2 !breath!c2) (f2 |
+d2 de dc | B2 Bc de | f2 ee dc | HB4) |]
+T:Galoubet en la (sib)
+K:D
+(d2 | f2 fg fe | d2 de fg |
+a2 gf ed | f2 e2) (d2 | f2 fg fe |
+d2 de fg | a2 gf eg | f4) (a2 |
+f2 fg fe | d2 A2 d2 | e2 ef de | f2 !breath!e2) (a2 |
+f2 fg fe | d2 de fg | a2 gg fe | Hd4) |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/40309
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Nol
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

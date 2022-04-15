@@ -1,0 +1,26 @@
+X: 1
+T: Jackson's Morning Brush
+M: 6/8
+L: 1/8
+S: learned from David Kidd
+R: Jig
+Z: Lorna LaVerne <Muse1950:aol.com>
+K: D
+|: DFE EFE | DFA AFA | BAB def | ~g3 ecA \
+|  DFE EFE | DFA AFA | BAB d2e | fdc d2 :|
+|: g \
+|  fed faf | ede fdB | AFA def | ~g3 e2g \
+|  fed faf | ede fdB | AFA d2e | fdc d2 :|
+S:https://www.folktunefinder.com/tunes/14388
+S:http://trillian.mit.edu/~jc/music/abc/jig/JacksonsMorningBrush.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JacksonsMorningBrush.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Far From Home
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"AFEF A2AB | c2cB cde2 | "A"AFEF "F#m"A2Ac | "Bm"B2Bc "E7"BAFE |
+|  "A"AFEF A2AB | c2cB cde2 | "D"fefg "(A)"afed | "E7"cABG "A"A4 :|
+|: "F#m"a2af "E"g2ge | "D"fefg "A"fec2 | afec "F#m"A2Ac | "Bm"B2Bc "E7"BAFE |
+|  "A"AFEF A2AB | c2cB cde2 | "D"fefg "(A)"afed | "E7"cABG "A"A4 :|
+S:https://www.folktunefinder.com/tunes/17121
+S:http://trillian.mit.edu/~jc/music/abc/reel/FarFromHome_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/FarFromHome_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FarFromHome_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

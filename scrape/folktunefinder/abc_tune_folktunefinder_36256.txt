@@ -1,0 +1,27 @@
+X:885
+T:Burn of Finnigirt
+B:Tom Anderson's "da Mirrie Dancers"
+C:Peter Fraser
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bdc.html
+%%ID:00000bdc
+K:D
+Bc|\
+dcBd AGFA| dAdf e2de| fdfa gfed| ceAc egfe|
+dcBd AGFA| dAdf e2de| fdfa gece| d2dc d2::
+fg|\
+adfd AGFA| dAde f2ef| gece Aece| eAcA efge|
+adfd AGFA| dAde f2ef| gece eace| d2dc d2:|
+S:https://www.folktunefinder.com/tunes/36256
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

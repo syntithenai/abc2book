@@ -1,0 +1,97 @@
+X:14823
+T:Saltn (CT 335)
+R:Saltn
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita, transcrito en Uviu.
+N:Se conoce esta clase de baile con el nombre de "El Saltn", debido a que se efecta exagerando los movimientos del cuerpo.
+N:Se baila generalmente a continuacin del fandango.
+N:El nombre viene tambin de los saltos en las mudanzas que componen la pieza.
+O:Uviu
+A:Asturies
+D:Felpeyu: Tierra
+G:Arrg.
+Z:Cancioneru de Torner 335
+E:2 Voces
+M:2/4
+L:1/8
+Q:1/4=168
+K:G
+V:1
+|d4|
+Bd BG|c2 cB|AG AF|A2 A2|
+Bd BG|c2 cB|AG AF|G4|
+FG AB|c2 cB|AG AF|A2 A2|
+FG AB|c2 cB|AG AF|G4|
+FG AB|c2 {d}cB|{B}AG AF|A2 A2|
+FG AB|c2 {d}cB|{B}AG AF|G3d|
+ga gf|e2 ef|ga ge|B2 Bd|
+ga gf|e2 ef|ga ge|c2 c2||
+ga gf|e2 ee|fg fd|B2 Be|
+ef ed|c2 cB|AG AB|c2 ce||
+ef ed|c2 cB|AG AF|G2 Be|
+ef ed|c2 cB|AG AB|c2 ce||
+ef ed|c2 cB|AG AF|G4|
+Bd BG|c2 cB|AG AF|A2 A2||
+Bd BG|c2 cB|AG AF|G4|
+B2 BA|c2 cB|BA BG|A2 A2||
+B2 BA|c2 cB|AG AF|G4|
+Bd BG|c2 cB|AG FG|A2 A2||
+Bd BG|c2 cB|AG FA|G4||
+V:2
+|"Tambor" "Redoble"G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|G/2G/2G GG|
+V:3
+|"Castauelas" G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+G z3|G z3|G z3|G z3|
+S:https://www.folktunefinder.com/tunes/46098
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

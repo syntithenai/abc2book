@@ -1,0 +1,25 @@
+X:280
+T: Der sch\^ine Kohlenbrenbub (3-82), S. 226
+N: P1055
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: ]
+M: 3/4
+L: 1/8
+K: F
+ | CCAAAA | CCAAA2
+G2c2AG | A2F2F2
+CAA2CC | AAA4
+G2c2AG | F6
+G2C2CC | AAF2F2
+G2C2C2 | F3AA2 | c6
+S:https://www.folktunefinder.com/tunes/76260
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

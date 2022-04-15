@@ -1,0 +1,61 @@
+X:16318
+T:Tarantella di Montemarano
+C:Mario Salvi
+S:Organetto diatonico
+M:12/8
+L:1/8
+K:C
+e f2e|:d2e f2e ded c2B|A2c e2d cdc B2A|\
+B2c d2e ded c2B|1 AcezAce \
+efe ezAce f2e:|2 AzAce A3c3e3 z2c cdc||
+|:Bz2 BcB B2d ded|cz2 ABA A2c cdc|\
+c2B B2c Bcd c2B|1 A2A ABA A2c cdc:|2 A6-c6-e6-A2c2e2e f2e||
+|:dzd d2c Bcd c2B|czc c2d efe d2c|\
+BzB B2c ded c2B|1 AzA A2B cBA cBA:|2 A6-c6-e6-A2c2e2A B2c||
+|:d2z BcB B2B c2d|c2z ABA A2A B2c|\
+ded B2c ded c2B|1 AzA ABA AzA B2c:|2 A3c3e3 efe cAc efe||
+|:cAc efe ded cdc|B2z ded BEB ded|\
+BEB ded cdc BcB|Az2 efe cAc efe|
+cAc efe ded cde|f3-fde fed fed|\
+edc edc dcB dcB|1 Az2 efe cAc efe:|2 A3 eze fzf efe\
+|:dzd dcd eze ded|czc cBc dzd cdc|\
+c2B BzB cBc dcd|1 e3 ede fzf efe:|2 c2B B2c ded c2B|\
+A3 A3c3e3 cBA A3|G2 GBd G3B3d3 e2z d2z||
+K:G
+|:dzA z2d d2e d2c|d2B BcB e2d e2d|\
+d2c cBc d2e d2c|1 Bcd Bcd ezd e2d:|2 B3 Bcd eee ded||
+|:cdc cBc ded cdc|BcB Bcd eee ded:|cdc cBc d2e d2c|B3 Bcd ez2 dz2|
+A2z ABc dz2 cz2|Bz2 Bcd ez2 dz2|Az2  ABc dz2 cz2|Bz2 Bcd ez2 dz2|
+Azd Azd d2e d2c|dcB Bcd eze ded|\
+czc cBc d2e d2c|G3-B3-d3-GBdz2 BcB B2d|
+d2A ABA c2A ABA |c2B BcB BcB B2d|d2A ABA c2A ABA |c2B Bcd e2d e2d|
+fzf f2d f2d f2d|gzg g2d g2d g2d|fzf f2d f2e d2c|G6B6d6 z2B c2d||
+|:eze ede f2e d2c|B2d dcd e2d c2B|1 A2c cdc BcB ABc|
+d2B BcB BzB c2d:|2 A2c cdc BcB ABA|\
+G2 GBd G6B6d6 d3|c2 ceg c3-e3-g3-c2e2g2=f fef||
+K:C
+|:e2d cde d3d3|c2e c3 (2fe fef|\
+e2d cde d3d3|1 c3 c3e3g3 z2 f fef:|2 c6-e6-g6- c2e2g2c d2 e||
+|:a2 aba aza b2a|g2g c'g ege geg|\
+f2e d2c B3d3|1 c2e c2e czc d2e:|2 c2e c3e3g3 f2e f2e||
+|:d3d3 e2d e2d|c3c3 f2e f2e|\
+ded dcd e2d e2d|1 c3c3 f2e f2e:|2 c3 c3 f3 ^F3A3d3||
+K:G
+G2 GBd G3B3d3 ez2 dz2|:dzA z2d d2e d2c|dzB BcB e2d e2d|\
+d2A ABA d2e d2c|1 Bcd Bcd e2d e2d:|2 G3B3d3 BcB A2c Bzc|\
+ded BcB Aze d2c|BcB dcB A2c B2c|ded BcB Aze d2c|B2d ded d2c B2c|\
+ded ded d2c B2c|ded ded d2c B2c|d6 c3e3 d3f3|d6g6 d3f3 c3e3|\
+b3d3 ded d2c B2c|ded ded d2c B2A|G2z z2 G6B6d6||
+S:https://www.folktunefinder.com/tunes/37689
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

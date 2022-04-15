@@ -1,0 +1,26 @@
+X:94
+T: Der Morgenstern
+N: A0109
+O: Europa, Mitteleuropa, Deutschland
+N: Frankf. Gsgb. von Gesius "O Christe Morgensterne" und bei M.
+N: Praetorius, Mus. Sion. VII. 1609 No. 69.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+F | F2FF2D | C2GG2
+G | A2B2GG | F2
+A | B2BB2A | G3G2
+G | A2ccBA | G2
+G | A2B2GG | F2
+S:https://www.folktunefinder.com/tunes/68640
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

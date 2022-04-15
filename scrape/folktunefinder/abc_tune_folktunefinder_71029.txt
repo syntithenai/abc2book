@@ -1,0 +1,25 @@
+X:282
+%%topmargin 3cm
+T:Lothian Lasses
+C:From Ross' Collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:E aeolian
+D | B,E-EF GABG | FDAF dFAF | [1GFEF GABe | dBAF E/E/E E :|
+[2 GFEF GABg | fe^df e/e/e e || f | gfef gabg | {/g}fedg fgaf | gfef gabg |
+fdaf e/e/e (ef) | gfef gabg | {/g}fedg fgaf | gef^d egfe | dBAF E/E/E E |]
+S:https://www.folktunefinder.com/tunes/71029
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

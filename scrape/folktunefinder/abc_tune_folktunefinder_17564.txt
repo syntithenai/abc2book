@@ -1,0 +1,23 @@
+X: 1
+T:Linen Cap, The
+M:4/4
+L:1/8
+S:O'Neill's Music of Ireland
+R:Reel
+K:A
+g | a2 ed cdec | Bcde fBBg | a2 ed cdec | dfed cAAg |
+a2 ed cdec | Bcde fefg | agae faec | dfed cA A2 ||
+B | cAEA cdec | Bcde fBBB | cAEA cdec | dfed cAAB |
+cAEA cdec |Bcde fefg | agae faec | dfed cA A2 ||
+S:https://www.folktunefinder.com/tunes/17564
+S:http://trillian.mit.edu/~jc/music/abc/reel/LinenCap.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LinenCap.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

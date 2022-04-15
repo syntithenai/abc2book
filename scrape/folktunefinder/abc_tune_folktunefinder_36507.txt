@@ -1,0 +1,28 @@
+X:2140
+T:the Gypsies Hornpipe
+M:4/4
+O:Scotland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000acd.html
+%%ID:00000acd
+K:E min
+(3def|\
+gfed edBd|ed (3efg B2BA|GFGA BABd|e2A2 A2ef|\
+gfed edBd|ed (3efg B2BA|
+GFGA BcBA|G2E2 E2::\
+gf|\
+e2B2 B2gf|(3efe B2 B2gf|
+edef gfga|b2e2 e2ga|\
+bgaf g2gf|ed (3efg B2BA|GFGA BcBA|G2E2 E2:|
+S:https://www.folktunefinder.com/tunes/36507
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

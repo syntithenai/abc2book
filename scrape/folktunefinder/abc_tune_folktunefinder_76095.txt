@@ -1,0 +1,27 @@
+X:115
+T: Reyersweilerlied (2-17) S. 57
+N: P0890
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: geistliche, religise Lieder]
+M: 4/4
+L: 1/8
+K: D
+DF | A2A2ABAG | F2FFF2
+D2 | E3FGBAG | G2F2z2
+A2 | BBAAB2ce | dcdBA2
+E2 | A2EEA2EG | F2E2D2
+A2 | BBAAB2ce | dcdBA2
+E2 | A2EEA2EG | F2E2D2
+S:https://www.folktunefinder.com/tunes/76095
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliche, religise lieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

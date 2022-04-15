@@ -1,0 +1,34 @@
+X: 36
+T:Blacks Hornpipe. JMP.036
+T:Lady Flashdash,aka. JMP.036
+T:Back of the Haggard,aka. JMP.036
+M:2/4
+L:1/16
+Q:90
+C:"40"..Lady Flashdash,Back of the Haggard
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+N:'Blacks Hornpipe -.Derry' - Londonderry, presumably.  And there is
+N:another title written over 'Blacks' in a different writing - could be
+N:Houldens Hornpipe..CGr...aka Duke's Hp., aka Kershaw's Hp.
+H:1799
+Z:vmp.C. Graebe
+K:D Major
+"Key in MS is Gmajor"A2 | dfdf ecAc | dBGB AFDF |\
+GBAc Bged | dcBc A2dc |!
+ dAA2 ecc2 | gefd aAB^c |BdGB AGFE | D2D2 D2 :|!
+|:  A2 | dAdA FAFD |BGEG BGdB | gefd ecdB | ce2d cBAG |!
+Fd"tr"d2 Ge"tr"e2 | Af"tr"f2 | Bg"tr"g2 | afdf Bgec | d2d2d2 :|]
+S:https://www.folktunefinder.com/tunes/1973
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

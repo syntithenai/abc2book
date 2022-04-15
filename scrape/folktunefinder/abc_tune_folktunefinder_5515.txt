@@ -1,0 +1,15 @@
+X: 5
+M: 4/4
+L: 1/8
+P: El Ha-Rahat (Gm)
+K: Gm
+|: "Cm"c2c2 | "F"AG GF | AG GF | "Gm"G3 z :: "Cm"cc cB/c/ | dc c2 | "F"AG AF | "Gm"G3 z :|
+S:https://www.folktunefinder.com/tunes/5515
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ElHarahat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ElHaRahat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

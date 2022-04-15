@@ -1,0 +1,24 @@
+X:2470
+T:Hornpfeifen
+L:1/8
+M:2/4
+O:Denmark
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000090f.html
+%%ID:0000090f
+K:G
+Bd dc/d/ | ec ce | dB cA | BG G2 | \
+Bd dc/d/ | ec ce | dB cA | A2 G2 :|
+|:\
+fa ag/a/ | bg gb | af ge | e2d2 |\
+Bd df | ec ce | dB cA | A2G2 :|
+S:https://www.folktunefinder.com/tunes/36573
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

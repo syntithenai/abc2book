@@ -1,0 +1,26 @@
+X: 1
+T: Ringlender etter Odin Oks\aas
+O: Norway
+S: printed MS labelled "Feletoneart: G-D-G" and "N.M.O. 8789"
+M: 2/4
+L: 1/16
+K: F
+|: "F"F>Acf a2f2 | "F"(3fef g>f "Bb"e2d2 ||1,3 "Gm"g2g2 "C7"g>fed | "F"d2c2- "C7"c>BAG \
+                                         :|2,4 "Gm"g2gf "C7"ecde | "F"f2f2 f4 :|
+K: C=B
+|: "C"g2g2 ecGG | FGEG DGCe | "G7"f2f2 dBG2 ||1,3 "C"agec GECe :|2 "C"c2c2 c3e :|3 "C"c2c2 "C7"c>dc_B ||
+K: F
+|: "F"A2C2 F2C2 | A2C2 F3A | "C7"~A2GA B>ABc | "F"d2c2- "C7"c>dcB \
+|  "F"A2C2 F2C2 | A2C2 F3A | "C7"~A2GA Bcde ||1 "F"f2f2 f>d"C7"cB :|2 "F"f2f2 f4 |]
+S:https://www.folktunefinder.com/tunes/18445
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Ringl_OdinOdsas_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/shottish/Ringl_OdinOdsas_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Ringl_OdinOdsas_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

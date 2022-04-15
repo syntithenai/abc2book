@@ -1,0 +1,51 @@
+X:9
+T:La Blanche Biche
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n8
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=95
+K:F
+G | G3 A B c | d3-d2 d | g3 g d e  | (f2 e2) d (d/e/) |
+w:Cel-|les qui vont au | bois_ c'est | la mre et la | fil_ le 
+Cel_|
+    f3 g d c | B3-B2 B | c3 _e d c | (B/A/) G2-G z2 ||
+w:les qui vont au | bois_ c'est | la mre et la | fil_ le_ ||
+%%vskip 0.5cm
+W:Celles qui vont au bois, c'est la mre et la fille (2x)
+W:
+W:La mre va chantant et la fille soupire :
+W:Qu'av'vous  soupirer, ma fille Marguerite 
+W:- J'ai bien grand ire en moi, et n'ose vous le dire :
+W:Je suis fille le jour et la nuit blanche biche.
+W:La chasse est aprs moi, les barons et les princes,
+W:Et mon frre Renaud qui est encore bien pire.
+W:Allez, ma mre, aller bien promptement lui dire
+W:Qu'il arrte ses chiens jusqu' demain ressie.
+W:- O sont tes chiens, Renaud, et ta chasse gentille 
+W:- Ils sont dedans le bois  courre blanche biche.
+W:Arrte-les, Renaud, arrte, je t'en prie !"
+W:Trois fois les a corns O son cornet de cuivre ;
+W:A la troisime fois, la blanche biche est prise : 
+W:"Mandons le dpouilleur, qu'il dpouille la biche."
+W:Celui qui la dpouille dit : "Je ne sais qui dire :
+W:Elle a les cheveux blonds et le sein d'une fille."
+W:A tir son couteau, en quartier l'a mise.
+W:En ont fait un dner au baron et aux princes :
+W:"Nous voici tous illec, faut ma soeur Marguerite.
+W:- Vous n'avez qu' manger, suis la premire assise :
+W:Ma tte est dans le plat et mon coeur aux chevilles,
+W:Mon sang est rpandu par toute la cuisine,
+W:Et sur vos noirs charbons, mes pauvres os grillent."
+S:https://www.folktunefinder.com/tunes/51825
+S:http://www.kennaquhair.com/tunes/tradtunes3.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 55
+T:Top of the Cork Road
+% Nottingham Music Database
+S:EF
+M:6/8
+K:D
+P:A
+A|"D"dAF DFA|"D"ded "A7"cBA|"D"dcd "A/c"efg|"Bm"fdf "A7"ecA|
+"D"dAF DFA|"D"ded "A/c"cBA|"Bm"dcd "A7"efg|"D"fed d2:|
+P:B
+e|"D"fdf fga|"A"ecA ABc|"Bm"dcd "E7"Bed|"A7"cBA "D7"A2=c|"G"BGB B
+P:.
+cd|"D"AFD DFA|"D"dcd "A7"efg|"D"fed d2:|
+S:https://www.folktunefinder.com/tunes/65143
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

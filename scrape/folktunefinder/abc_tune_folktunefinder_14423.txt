@@ -1,0 +1,21 @@
+X: 1
+T: Jimmy's Favorite
+C: Jim Magill
+D: London 16040
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|: "G"gbg gdB | "Em"G2G GAB | "Am"cdc cBA | "C"E6| "D7"f2f fed | faf f2e |
+|1 "D7"ded ded | "G"B6 :|2 "D7"ded def | "G"g6 :: "G"G2G GDB, | GDB, GDB,  |
+| "G7"G2G GAB | "Am"c6 | "D7"F2F FED | FED FED | FGA cBA |1 "G"B6 :|2 "G"G6 |]
+S:https://www.folktunefinder.com/tunes/14423
+S:http://trillian.mit.edu/~jc/music/abc/jig/JimmysFavoriteJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JimmysFavoriteJ_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

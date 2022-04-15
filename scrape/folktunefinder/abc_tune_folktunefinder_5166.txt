@@ -1,0 +1,23 @@
+X: 119
+T: Der Schlesische oder Zwiefacher
+C:Nach alte Tanzmelodie
+R:Zwiefacher
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=144
+K:D
+|:         A A/G/ F/G/ | A2 d | [M:2/4]c/d/ e | d/e/ f | [M:3/4]A A/G/ F/G/ | A2 d | [M:2/4]c/d/ e/c/ | dz :|
+|: [M:3/4] A g/A/ g | A f/A/ f | [M:2/4] c/d/ e | d/e/ f | [M:3/4] A g/A/ g | A f/A/ f | [M:2/4] c/d/ e/c/ |1 dz :|2 d d/d'/ |
+|: [M:2/4] b g/b/ | a f/a/ | g e/g/ | f d//a//f//d// | e A/g/ | f d//a/4^g//a// | g/e/ c/A/ |1 d d/d'/ :|2 dz |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5166
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

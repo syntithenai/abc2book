@@ -1,0 +1,41 @@
+X: 59
+T: Cicino Kolo
+O: Serbia
+M: 2/4
+L: 1/8
+K: Dm
+Q:1/4=120
+P:A
+%%MIDI program 23
+%%MIDI chordprog 36
+%%MIDI bassprog 43
+  [dB]4-     |[dB]4       |"Gm"[^cG]zBz    |G2d2       |\
+  e/d/e/d/^c2|B2d2        |e/d/e/d/^c2     |B2G2       |\
+  e/d/e/d/^c2|B2d2        |
+  [dB]4      |"Gm"[^cG]zBz|G2d2            |e/d/e/d/^c2|\
+  B2d2       |e/d/e/d/^c2 |B2d2            |e/d/e/d/^c2|B2G2|
+P:B
+Q:1/4=132
+|:"Gm"G4     |B4          |"Gm"cBAG        |A3G        |\
+  "Gm"^FGAB  |cBAG        |"Dm"A3G         |A4         :|
+P:C
+Q:1/4=144
+|:"Gm"GBBB   |BAc/B/c/B/  |GBBB            |BAc/B/c/B/ |\
+  GBBB       |BAc/B/c/B/  |G/A/B/G/c/B/A/G/|"Dm"A4     :|
+P:D
+Q:1/4=150
+|:"Gm"cBAG   |cBAG        |cBAG            |A3B        |\
+  cBAG       |cBAG        |"Dm"A4          |A4         :|
+|:"Gm"cBAG   |cBAG        |cBAG            |A3B        |\
+  cBAG       |cBAG        |"Dm"A4          |A4         :|
+S:https://www.folktunefinder.com/tunes/67945
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Colonel H.F.Campbell's Strathspey
+R: strathspey
+B: RSCDS 16-2(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: B>A \
+| "G"G2 d2 d>B d<g | "C"e>g "G"d>g "D7"A>F D>F \
+| "G"G2 d2 d>B d<g | "C"e>g "D7"f>a "G"g2 :|
+|| d2 \
+| "G"g>a b>a g>d d<g | "C"e>g "G"d<g "D7"A>F D>F \
+| "G"g>a b>a g>d d<g | "C"e>g "D7"f>a "G"g2 g>d |
+| "G"g>a b>a g>d d<g | "C"e>g "G"d>g "D7"A>F D>F \
+| "G"G2  d2  d>B d<g | "C"e>g "D7"f>a "G"g2 |]
+S:https://www.folktunefinder.com/tunes/19272
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ColHFCampbellsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ColHFCampbellsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ColHFCampbellsS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

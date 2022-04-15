@@ -1,0 +1,25 @@
+X:1220
+T:Cumberland Rant
+A:North-West
+M:C|
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000513.html
+%%ID:00000513
+K:Bb
+dc|\
+B2B,2 B,DB,D| DFEG F3B| GBeg fdcB| A2c2 c2dc|\
+B2B,2 B,DB,D| DFEG F3B| GBeg fdcB| F2B2 B2::\
+de|\
+fdcB dBfe| dBfB bBfB| defg fdcB| A2c2 c2de|\
+fdcB dBfe| dBfB bBfB| gefd ecdB| F2B2 B2:|
+S:https://www.folktunefinder.com/tunes/36323
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

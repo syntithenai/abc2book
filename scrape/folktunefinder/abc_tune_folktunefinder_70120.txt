@@ -1,0 +1,26 @@
+X:560
+T: ES IST EIN SCHNEE GEFALLEN
+N: F1105
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Jahreszeiten - Lied, Fruehling
+M: 2/4
+L: 1/16
+K: E
+B2 | B2=G2A2=c2 | =c4B2
+e2 | =d2B2^A2c2 | B6
+=g2 | f2=d2=c2e2 | e4=d2
+e2 | =d2B2A2=c2 | =c4B2
+A2 | =G3EB2FG | E4e2
+=d2 | =d=cBAB2F=G | E4z2
+S:https://www.folktunefinder.com/tunes/70120
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur -, jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

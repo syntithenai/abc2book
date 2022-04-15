@@ -1,0 +1,31 @@
+X:29
+T:29.  Life's Full Measure
+C:c 2003 Harry Bolick  
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:250
+K:Em
+ A2|:  "Em" B3 c BA |  B3 c BA | "Am" A3 B cB | A2 G2 A2 |
+ "Em" B3 c BA |  B3 c BA | "Am" AB cd ef |  g2 f2 e2 |
+"Em" B3 c BA | B3 c BA | "D" A3 B cB |  A2 G2 A2 |
+"G" g3 f ed | "Am" cB  AF "Bm" BF | "Em" E6 :|
+K:A
+|: "A" A3 A A2 |  c3 c c2 | "D" dc de f2 | "A" e3 e fg |
+"A" a2 e2 c2 |[1  a2 e2 c2 | "D" d2 dc A2 | "E" B6 :|
+[2  "G" =g3 f ed | "D-no 3rd" =cB  AF  BF | "A-no 3rd" E6 |]
+S:https://www.folktunefinder.com/tunes/1724
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

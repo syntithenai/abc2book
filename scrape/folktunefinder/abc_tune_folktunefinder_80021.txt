@@ -1,0 +1,26 @@
+X:22
+T: Elslein, liebes Elslein
+N: L0083C
+O: Europa, Mitteleuropa, Deutschland
+N: 15. Jh.
+R: Lied
+M: 3/4
+L: 1/8
+K: D
+D4=F2 | E4D2 | E3=FG2 | A4
+A2 | D4E2 | G3=FED | =C6 | z4
+=C2 | E3=FG2 | =F4E2 | D3E=F2 | E4
+D2 | =C4A,2 | B,2C3B, | D6
+S:https://www.folktunefinder.com/tunes/80021
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:5525
+T:Scottish  Malochet
+M:C
+N:variation of 59 (A & B reversed)
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006cf.html
+%%ID:000006cf
+K:G
+B2G2A2GA|B2G2D4|DEFG ABcd|1ed^cdB2G2:|2ed^cdG4::
+B2B2B2AB|dcBcA4|DEFG ABcd|1ed^cdB2G2:|2ed^cdG4|]
+S:https://www.folktunefinder.com/tunes/37184
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Br\"ollopsvals fr\aan Boda
+O: efter Rojas Erik
+R: waltz
+M: 3/4
+L: 1/8
+Z: Contributed 20040728165703 by John Chambers jc@trillian.mit.edu
+K: Dm
+A2 \
+| "Dm"A3 ^c df | "A7"e3 d ^c2 | "Dm"f2 ef ag | "A7"e4 e2 \
+| "Dm"A3 ^c df | "A7"e3 d ^c2 | "Dm"f2 ef ag | "A7"e4 :|
+|: e2 \
+| "A7"f2 a2 g2 | "Dm"f3 e d2 | "A7"^cd ef ec | A4 e2 \
+| "A7"f2 a2 g2 | "Dm"f3 e d2 | "A7"^cd ef ec | "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/19828
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BrollopsvalsFrBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BrollopsvalsfraanBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/BrollopsvalsFrBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/BrollopsvalsfraanBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/BrollopsvalsfraanBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc:trillian.mit.edu/BrollopsvalsfraanBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BrollopsvalsfraanBoda.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

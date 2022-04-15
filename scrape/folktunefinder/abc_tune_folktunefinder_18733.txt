@@ -1,0 +1,45 @@
+X:1
+T:Good bait
+M:4/4
+L:1/8
+C:Tadd Dameron
+Q:1/4=150
+K:Bb clef=treble
+%%text (medium)
+%%vskip 20
+%%text intro
+F, || "Bb6"B,2B,A, "Gm7"B,A,B,2 | "Cm7"zB,z2 "F7"z3F, |\
+"Bb6"B,2B,A, "Gm7"B,A,B,[B,_D] | "Cm7"z4 "F7"z3F, |
+"Bb7"B,2B,A, "-/D"B,2z2 | "Eb6"B,2B,A, "Edim7"B,2z2 | "F7(b5)"z=BB2 BB2B | =B2BB-B4 ||
+P:A
+F, || "Bb6"B,2B,A, "Gm7"B,2z2 | "Cm7"zA,B,C "F7"_DE_G_A | "Dm7"F2FD "Gm7"F2z2 | "Cm7"zDCB, "F7"A,CFE |
+"Bb6"D2D^C "-7/D"DG F/G/F/D/ | "Ebmaj7"B,2B,A, "Ab7"B,DFE | "Dm7"D_A,"Db7"G,_D "Cm7"C_G,"Cb7"F,_C| "Bb6"B,2z[_c-A,-] "F7"[c2A,2]z F, ||
+P:A
+"Bb6"B,2B,A, "Gm7"B,2z2 | "Cm7"zA,B,C "F7"_DE_G_A | "Dm7"F2FD "Gm7"F2z2 | "Cm7"zDCB, "F7"A,CFE |
+"Bb6"D2D^C "-7/D"DG F/G/F/D/ | "Ebmaj7"B,2B,A, "Ab7"B,DFE | "Dm7"D_A,"Db7"G,_D "Cm7"C_G,"Cb7"F,_C| "Bb6"B,2z[G_A,] "Bb7(b9)"z[G2_A,2] B, ||
+P:B
+"Eb6"E2ED "Cm7"E2z2 | "Fm7"zDEF "Bb7"_G_A_c_d | "Gm7"B2BG "Cm7"B2z2 | "Fm7"zGFE "Bb7"DFB_B |
+"Eb6"G2G^F "-7/G"GcB/c/B/G/| "Abmaj7"E2ED "Db7"EGB_A | "Gm7"G_D"Gb7"C_G "Fm7"F_C"Fb7"B,_F | "Eb6"E2ED-"F7(b9)"D2zF, ||
+P:A
+"Bb6"B,2B,A, "Gm7"B,2z2 | "Cm7"zA,B,C "F7"_DE_G_A | "Dm7"F2FD "Gm7"F2z2 | "Cm7"zDCB, "F7"A,CFE |
+"Bb6"D2D^C "-7/D"DG F/G/F/D/ | "Ebmaj7"B,2B,A, "Ab7"B,DFE | "Dm7"D_A,"Db7"G,_D "Cm7"C_G,"Cb7"F,_C| "Bb6"B,2z2 "(F7)"z4|]
+%%newpage
+%%text shoutchorus
+P:A
+"Bb6"z2 (3BAF "Gm7"DB,_AG- | "Cm7"G2EC "F7"_G_Cz2 | "Bb6"z2(3A,B,D "Gm7"FA (3c/d/cA | "Cm7"B2GE "F7"A/_A/_G/F//F// E^C |
+"Bb6"DcB2 "-7/D"z3_A | "Ebmaj7"Gfe2 "Ab7"z3^c | "Dm7"df"Db7"_d_A "Cm7"Ge"F7"d_G | "Bb6"F2Bd "F7"fd//A//_G//D// _CA, ||
+P:A
+"Bb6"B,2G/_A/G/=E/ "Gm7"FD zE- |"Cm7"E2d=B "F7"c_Gz2 | "Bb6"z^cdB "Gm7"GFcB- | "Cm7"B2GE "F7"_D_Az2 |
+"Bb6"zFGA "-7/D"Bdgf | "Ebmaj7"eBc_d "Ab7"z3^c | "Dm7"zd "Db7"(3^cdc "Cm7"dB"Cb7"_GE | "Bb6"_cBz2 "Bb7(b9)"z[G_A,-][BA,][FG,] ||
+S:https://www.folktunefinder.com/tunes/18733
+S:http://trillian.mit.edu/~jc/music/abc/song/Good_bait.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/good_bait.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Good_bait.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/good_bait.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

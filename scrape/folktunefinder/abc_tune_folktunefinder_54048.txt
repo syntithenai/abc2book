@@ -1,0 +1,55 @@
+X: 180
+T:Ale is Dear, the
+M: 4/4
+L: 1/8
+R:Reel
+Q:1/4=211
+% Last note suggests Locrian mode tune
+K:D % 2 sharps
+% (c) SSF January 2006
+V:1
+f2 ef B2 fe| \
+fa ef cA ec| \
+f2 ef B2 fe| \
+fa ec B2 Bc|
+f2 ef B2 fe| \
+fa ef cA ec| \
+f2 ef B2 fe| \
+fa ec B2 Bc|
+B3/2B<Bc/2 d2 cB| \
+A3/2A<AB<AB/2 c<A| \
+B3/2B<Bc/2 d2 cB| \
+f<a e3/2c/2 B2 B2|
+B3/2B<Bc/2 d2 cB| \
+A3/2A<AB<AB/2 c<A| \
+d2 f3/2d/2 c2 e3/2c/2| \
+d<f e3/2c<BB<Bc/2|
+V:2
+% Chords
+B,,z [FDB,]z B,,z [FDB,]z| \
+B,,z [FDB,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+B,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+B,,z [FDB,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+B,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+B,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z A,,z [ECA,]z| \
+B,,z [ECA,]z B,,z [FDB,]
+%  <A name="D1X181">
+S:https://www.folktunefinder.com/tunes/54048
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

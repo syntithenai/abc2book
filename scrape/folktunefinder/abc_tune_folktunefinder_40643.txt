@@ -1,0 +1,22 @@
+X: 1
+T: Devil's Dream, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Amaj
+e2 |&quot;A&quot;\eaga eaga |\eaga fedc |&quot;Bm&quot;\dfBf dfBf |\dfBf (gfed )|&quot;A&quot;
+\eaga eaga |\eaga fedc |&quot;D&quot;\dfed &quot;A&quot;cA&quot;E&quot;BG |&quot;E&quot;\E2 &quot;A&quot;A2 A2 :|
+|: e2 |&quot;A&quot;\ceAe ceAe |\ceAe fedc |&quot;Bm&quot;\dfBf dfBf |\dfBf afed |&quot;A&quot;
+\ceAe ceAe |\ceAe fedc |&quot;D&quot;\dfed &quot;A&quot;cA&quot;E&quot;BG |&quot;E&quot;\E2 &quot;A&quot;A2 A2 :|
+|: e2 |&quot;A&quot;\cAEA cAeA |\cAeA fedc |&quot;bm&quot;\dBGB dBfe |&quot;D&quot;\defg &quot;E&quot;agfe |&quot;A&quot;
+\cAEA cAeA |\cAce fedc |&quot;D&quot;\dfed &quot;A&quot;cA&quot;E&quot;BG |&quot;E&quot;\E2 &quot;A&quot;A2 A2 :|
+S:https://www.folktunefinder.com/tunes/40643
+S:http://www.thesession.org/tunes/display/259
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

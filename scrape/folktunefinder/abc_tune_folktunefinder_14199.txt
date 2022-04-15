@@ -1,0 +1,23 @@
+X: 1
+T: Fourpence, Halfpenny, Farthing
+T: The Jockey
+M: 6/8
+L: 1/8
+B: The Round Band Book of Playford
+F: http://www.cam.ac.uk/societies/round/dances/rbbop/part1.abc 2006-02-07 18:33:46 UT
+K: Gm
+|: "Gm"  B2d     dBd |  "F"   A2c     cAc | "Gm"B2d    "Bb"dBd    |  "F"f3 "Gm"b3 \
+|  "Bb"  B2d     dBd |  "F"   A2c     cAF | "Gm"G{A}BG  "F"A{B}cA | "Eb"G3 "Bb"B3 :|
+|: "F"{c}f2g "Bb"fdB | "Gm"{d}b2g "Bb"fdB |  "C"e2g    "Bb"fdB    |  "F"A3     c3 \
+|  "Bb"  D2F     FDF | "Gm"   B2d  "F"cAF | "Eb"G{A}BG  "C"A{B}cA | "Gm"G3     B3 :|
+S:https://www.folktunefinder.com/tunes/14199
+S:http://www.cam.ac.uk/societies/round/dances/rbbop/part1.abc
+S:http://www.cam.ac.uk/societies/round/dances/rbbop/part1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/FourpenceHalfpenyFarthing_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/FourpenceHalfpenyFarthing_Gm.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

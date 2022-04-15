@@ -1,0 +1,25 @@
+X: 1
+T: Donald Blue
+N: Ali Bain's version
+S: Alistair C
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+R: Reel
+O: Shetland
+M: 4/4
+K: D
+|: "D"dB AF DF AB | dB AF "A7"E2 "D"D2 | dB AF DF Ad | "G"BB2A B2 "(D)"d2 :|
+|: "D"AB de fa fd | fa fd "G"ed Bd | "D"AB de fa fd | "G"BB2A B2"(D)"d2 :|
+S:https://www.folktunefinder.com/tunes/17031
+S:http://trillian.mit.edu/~jc/music/abc/reel/DonaldBlue.abc
+S:http://trillian.mit.edu/~jc/music/book/500/DonaldBlue.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

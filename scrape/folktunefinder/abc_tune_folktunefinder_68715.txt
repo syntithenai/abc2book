@@ -1,0 +1,25 @@
+X:169
+T: Dunkles Woelklein
+N: A0207
+O: Europa, Mitteleuropa, Deutschland
+N: P. Werlin 1646 S. 1504
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: G
+G | d2d | c2A | _B2c | A2
+d | d2d | c2A | _B2c | A2
+G | =F2E | D2d | =f3 | d3
+c_Bc | A2A | G2
+S:https://www.folktunefinder.com/tunes/68715
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

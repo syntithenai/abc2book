@@ -1,0 +1,27 @@
+X: 1
+T: Lonely January
+C: Jerry Holland (Jan 99)
+S: Handwritten page from the Boston Scottish Fiddle Club
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"ABA AEC | A,B,A, A,CE | "E7"BcB Bcd | "A"cAc "E7"BGB \
+|  "A"ABA AEC | A,B,A, A,CE | "Bm"dcB "A"cBA | "E7"EFG "A"A2B :|
+|| "A"cdc cBc | efe ecA | "Bm"dcB "A"cBA | "Bm"FBB "E7"Bcd \
+|  "A"cdc cBc | efe ece | "D"fed "E7"cdB | "A"cAA A2B ||
+|| "A"cdc cBc | efe ecA | "Bm"dcB "A"cBA | "Bm"FBB "E7"BcB \
+|  "A"ABc "Bm"Bcd | "A"cde "D"fed | "A"cec "E7"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/14555
+S:http://trillian.mit.edu/~jc/music/abc/jig/LonelyJanuaryJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/LonelyJanuaryJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LonelyJanuaryJ_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:1
+T:King Pippin Polka
+T:My Auntie Jean
+O:England
+M:2/4
+L:1/8
+S:Kerr "Merry Melodies", V.4 #408 (late 1880s)
+Z:AK/Fiddler's Companion
+K:G
+|: D2DG B4   | c2cE B4   | B2A2 ABA2 | A2G2 GAG2 \
+|  D2DG B4   | c2cE B4   | B2A2 ABA2 | G2B2 G2z2 :|
+|: ddd2 DDD2 | E2D2 DED2 | B2A2 ABA2 | A2G2 GAG2 \
+|  ddd2 DDD2 | E2D2 DED2 | B2A2 ABA2 | G2B2 G2z2 :|
+S:https://www.folktunefinder.com/tunes/16135
+S:http://trillian.mit.edu/~jc/music/abc/polka/KingPippinPolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/polka/KingPippinPolka_G.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

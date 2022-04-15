@@ -1,0 +1,27 @@
+X:2379
+T:Greencastle Hornpipe
+O:england
+S:John Jones
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+dc|"G"BGDG BGDG|"G"(3gagfg "C"e2dc|"G"BGDG BGDG|"Am"dcB/2c3/2 "D7"A2dc|
+"G"BGDG BGDG|"G"(3gagfg "C"e2dc|"G"Bdfe "D7"dcAF|"G"G2B2 G2:|
+P:B
+ga|"Em"bagf efga|"Em"bagf e2fg|"D"agfe defg|"D"agfe "D7"d2(3def|
+"G"gfgd "C"e2"G"d2|"Am"cBAB "D7"cdef|"G"gfgd "D7"ecAF|"G"G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/22830
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

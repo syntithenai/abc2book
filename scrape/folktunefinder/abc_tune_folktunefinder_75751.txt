@@ -1,0 +1,23 @@
+X:55
+T:Jig: The Atholl Highlanders
+R:Double jig
+O:Schotland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=120
+K:G
+Bc !segno!|:"G"d2d dBG|dBG "F"ABc|"G"d2d dBG|"F"ABc B2A|"G"d2d dBG|
+dBG "F"ABc|"G"dgd "C"edc|[1"D"BcB "G"GBc:|[2"D"BcB "G"G3||
+|:"G"GBd GBd|"C"Gce Gce|"G"GBd GBd|"F"A2A A3|"G"GBd GBd|"C"Gce Gce|"G"dgd "C"edc|"D"BcB "G"G3:|
+|:g2d dcB|g2d dcB|g2d dcB|"F"ABc B2A|"G"g2d dcB|g2d dcB|dgd "C"edc|"D"BcB "G"G3:|
+|:"G"B2B BAB|"F"c2c cBc|"G"B2B BAB|"F"A2A AGA|"G"B2B BAB|"F"c2c cBc|"G"dgd "C"edc|[1"D"BcB "G"G3:|[2"D"BcB "G"GB!segno!c||
+%%scale 0.6
+S:https://www.folktunefinder.com/tunes/75751
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

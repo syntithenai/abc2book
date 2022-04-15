@@ -1,0 +1,24 @@
+X: 1
+T: Linus p\aa Linjen
+R: Bondpolska
+S: Peter "Puma" Hedlund at ANA Stmma 1999
+N: From a transcription by Matt Fichtenbaum
+M: 3/4
+L: 1/8
+K: G
+|: "G"((3DGB) (B>d) B>G | ((3DGB) (B>d) B>G | "D7"((3DFA) (A>c) A>F \
+|1,3 ((3DFA) (A>c) A>F :|2,4 "G"G2 G4 :|
+|: "G"dd B<d "C"c>e | "G"(e<d) (B<d) "C"g>e | "G"d2 BA/B/ "D7"c>A \
+|1,3 "G"(A<G) (B<G) D>d :|2,4 "D7"(A<G) "G"G4 :|
+S:https://www.folktunefinder.com/tunes/16392
+S:http://trillian.mit.edu/~jc/music/abc/pols/LinusPaaLinjen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/LinusPaaLinjen_G.abc
+% Rhythm Bondpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

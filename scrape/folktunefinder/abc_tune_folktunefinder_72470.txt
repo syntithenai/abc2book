@@ -1,0 +1,26 @@
+X:13
+T: Abgewiesene Freier ( Drei Gesellen )
+N: D0014
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Takt - und Zeilenwiederholung;Inzipit = entfernte Variante zum Lied
+R: Ballade, Werbung
+M: 2/4
+L: 1/8
+K: G
+D | G2DD | G2BA | G2D
+D | G2D2 | G2BA | G2D
+B | BBBB | B3B | ABcB | A3
+G | FAAA | Addc | BAAA | G3
+B | BBBB | B3B | ABcB | A3
+G | FAAA | Addc | BAAA | G3
+S:https://www.folktunefinder.com/tunes/72470
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, werbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

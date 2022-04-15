@@ -1,0 +1,42 @@
+X:826
+T:Xiraldilla (CT 248) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Estanilao Lana Lana, de veintin aos, de Somiedu.
+A:Asturies
+G:Arrg.
+O:Somiedu
+Z:Cancioneru de Torner 248
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|"G"d2 B|"Bm"dcB|"Am"A G2|"D"AFG|"G"A G2-|"G"G2 z|
+"G"d2 B|"Bm"dcB|"Am"A G2|"D"AFG|"G"A G2|
+|"G"GBB|"Am"(cB/A/)G|"G"GBB|"G"c B2-|"G"B2 z|
+"G"d2 B|"Bm"dcB|"Am"A G2|"D"AFG|"G"A G2-|"G"G2 z||
+W:Eres pjaro diestro,
+W:pero no sabes
+W:la distreza que tienen
+W:las otras aves.
+W:
+W:Ai! amor mo,
+W:cmo no vienes
+W:a cumplir la palabra
+W:que dada tienes
+W:
+S:https://www.folktunefinder.com/tunes/59713
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

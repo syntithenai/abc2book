@@ -1,0 +1,25 @@
+X:200
+T:Charming Phillis -- a Minuet
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000061e.html
+%%ID:0000061e
+K:D
+d4 e2    | fg a4 | g2 f2 e2 | fg a4 | \
+g2 f2 e2 | fede fg | a2 g2 f2 | e6 ::
+a4 b2 | gf e4 | g4 a2 | fe d4 |\
+A2 d2 f2 | A2 e2 g2 | fe e3d | d6 :|
+S:https://www.folktunefinder.com/tunes/43603
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

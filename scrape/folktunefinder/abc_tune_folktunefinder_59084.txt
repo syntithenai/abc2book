@@ -1,0 +1,41 @@
+X:197
+T:Cantar de Trabayu (CT 213)
+R:Trabayu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Emplean esta cancin los campesinos de Riosa en la faena de recoleccin del trigo.
+A:Asturies
+O:Riosa
+Z:Cancioneru de Torner 213
+M:Llibre
+L:1/8
+Q:1/4=63
+K:G
+(3GGG d d2 c/(3B/4c/4B/4 A2 (3ABc d d2 c/ (3B/4c/4B/4A A2 z2
+(3BB>A (d>c B/(5A/8B/8A/8G/8F/8 G2) z4
+(3GGG d2 c (3B/4c/4B/4 A2 (3ABc d d2 c/ (3B/4c/4B/4 A A2 z2
+BB>A (d>c B/(5A/8B/8A/8G/8F/8 G2) z4 ||
+W:Aleonado,
+W:corazn aleonado,
+W:dime quin te aleon,
+W:te aleon.
+W:
+W:-Una nia
+W:de quince aos
+W:que de mi
+W:se enamor.
+W:
+S:https://www.folktunefinder.com/tunes/59084
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Trabayu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

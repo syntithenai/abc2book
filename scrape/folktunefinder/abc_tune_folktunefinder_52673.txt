@@ -1,0 +1,23 @@
+X:17
+T:4 bare legg's in a bed
+T:Scotch Portion
+Z:Jack Campin <http://www.campin.me.uk/>
+S:NLS MS.21716
+M:9/4
+L:1/4
+Q:3/4=100
+K:G Dorian
+A2B cBA BAG|^FAA A2G  FED |  BAB  cBc   d3 |DGG G2A BAG:|
+f2f fgf e2d| cAB A2G ^F>ED|[1 g2g g>ag ^f2d|
+                                            dgg g2a bag:|\
+                           [2 BAB cBc   d3 |DGG G2A BAG|]
+S:https://www.folktunefinder.com/tunes/52673
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/4
+% Text Has source text
+% Has_accompaniment_chords No chords

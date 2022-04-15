@@ -1,0 +1,35 @@
+X: 1
+T:Quick Step. JMP.001
+M:6/8
+L:1/8
+Q:110
+C:"4"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Rhythm in bars 1, 2 and 3 is shown as
+N:dotted crochet, quaver not crochet, quaver
+N:1 - these two notes shown, apparently in pencil,
+N:as both C C and E F - c/f brs 1, 2
+N:End bar lines missing - page damaged
+H:1799
+Z:vmp.C. Graebe
+K:D major
+"Key G in MS,see note"A | d2d c2c | d2d e2f | g2f e2d | (dcd) (ecA) |!
+ d2d "1"c2c| d2d e2f | (gab) agf | edc  d2 :|!
+|: a | aga A2a | A2 a agf | gfg G2g |G2g gfe |!
+ d2d c2c | d2d e2f | gab agf | edc d2 :|]
+S:https://www.folktunefinder.com/tunes/1938
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

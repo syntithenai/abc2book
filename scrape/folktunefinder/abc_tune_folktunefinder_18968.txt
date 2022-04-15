@@ -1,0 +1,24 @@
+X: 1
+T: Shine On Harvest Moon
+C: Nora Bayes and Jack Norworth [1907]
+N: Introduced at the Ziegfeld Follies in 1908
+M: C|
+L: 1/8
+K: D
+f2"Chorus"\
+[| "B7"g4 f4 | g2f2 ^d2B2 | "E7"^G4- G>^F^G>=f | e6 z2 |
+| "A7"f4 e4 | f2ea- afe2 | "D"d>BA>B "Em7"d>BA>B | "Bdim"d>BAd- "D"d2z2 |
+| "B7"g4 f4 | g2f2 ^d2B2 | "E7"^G4- G>^F^G>=f | e6 e2 |
+| "A7"f4 e4 | f2ea- a2f2 | "D"d3A "G7"BABd- | "D"d6  |]
+S:https://www.folktunefinder.com/tunes/18968
+S:http://trillian.mit.edu/~jc/music/abc/song/ShineOnHarvestMoon_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/ShineOnHarvestMoon_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:305
+T:Danza de Trascastro (Arrg.)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+O:Trascastro (Llen)
+Z:E. Zamora
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+|:"C"C3/2D/2 "C"EF|"C"G4|"Am"A2 "F"F2|"C"G4:|
+"C"C3/2D/2 "C"EF|"C"G4|"Am"A2 "F"F2|"C"GA "C"EE|
+"F"F2 "Dm"D2|"C"C2 "Dm"D2|"Em"B,3G|"C"GF "C"ED|"C"C3G|
+"C"GF "C"ED|"C"C3G|"C"GF "C"ED|"C"CB, "C"CD|
+"Dm"DF "C"ED|"C"C2 "Dm"D2|"C"G2 "F"AF|"C"G4|"C"C4|
+"G"DG "Em"B,G|"F"F2 "C"ED|"C"C2 "C"C2|
+|:z2 "C"CD|"C"E3G|"F"FE "C"DC|"Am"A4|"C"C4|"C"G2 "Am"AG|
+"F"F2 "C"EF|"C"G2 "C"EG|"F"F2 "C"ED|"C"C2 "C"C2:|
+z2 "C"CD|"C"E3G|"F"FE "C"DC|"C"c4|"F"f4|"C"E4|"C"c4|
+"C"E2 "C"c2|"Dm"D2 "F"F2|"C"E2 "C"G2 -|"C"G4
+S:https://www.folktunefinder.com/tunes/59192
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

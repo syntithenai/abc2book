@@ -1,0 +1,26 @@
+X: 1
+T: the Wind That Shakes the Barley
+O: Trad
+R: reel
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "Em"gfed "A7"B2d2 \
+                                             :|2 "Em"gfed "A7"Bcde |]
+[| "D"f2fd "Em"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "Em"g2ge | "D"afed "A7"Bcde \
+                                      :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+S:https://www.folktunefinder.com/tunes/18316
+S:http://trillian.mit.edu/~jc/music/abc/reel/WindThatShakesTheBarley_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/WindThatShakesTheBarley_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/WindThatShakesTheBarley_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:3855
+T:Navvy on the Line
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f7.html
+%%ID:000004f7
+K:A
+cd|\
+eagf edcB| AcEA c2BA| \
+GBEG B2AG| AEFG ABcd| \
+eagf edcB| ceEA c2BA|
+GABc defg| a2A2 A2 ::\
+BA|\
+GBEG B2AG| AcEA c2BA|
+GBEG B2AG| AEFG ABcd| \
+eagf edcB| AcEA c2BA| \
+GABc defg| a2A2 A2:|
+S:https://www.folktunefinder.com/tunes/36850
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

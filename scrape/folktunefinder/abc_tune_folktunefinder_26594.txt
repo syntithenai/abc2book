@@ -1,0 +1,33 @@
+X:6142
+T:Soldier O.
+O:england
+M:6/8
+C:
+S:Roll Out the Bear'Ale
+N:dance by Ed Stern
+A:Headington
+R:Jig
+%P:(AB)$^{\infty}$
+P:(AB)
+%:
+%:
+K:G
+I:speed 300
+P:A
+D | G2 G GAB  | A2 G E2 D | G2 G Bcd  | d2 c A2 \
+d | e2 d B2G  | A2 G E2 E | D2 D DEF  | G3   G2 ||\
+P:B
+|: D | GGG  E2 D | GGG  E2 D | G2 G B2 d | d2 c A2 \
+d | e2 d B2 G | A2 G E2 E | D2 D DEF  | G3   G2 :|
+S:https://www.folktunefinder.com/tunes/26594
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

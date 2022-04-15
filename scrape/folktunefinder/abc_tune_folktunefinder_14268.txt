@@ -1,0 +1,28 @@
+X: 1
+T: Greensleeves (and Yellow Lace)
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: GDor
+G \
+|: "Gm"B2B B>cd | "F"cAF F>GA | "Gm"B2G G>AB | "D7"A2^F D2A \
+|  "Gm"B2B B>cd | "F"cAF F>GA | "Gm/E"B>AG "D7"A^F2 | "Gm"G6 :|
+e \
+|: "Bb"f2f f>ed | "F"c>AF F2f | "Gm"g2a bag | "Dm"f>dd d2e \
+|  "Bb"f2f f>ed | "F"c>AF FGA | "Gm/E"B>AG "D7"A^F2 | "Gm"G6 :|
+S:https://www.folktunefinder.com/tunes/14268
+S:http://trillian.mit.edu/~jc/music/abc/jig/GreensleevesAndYellowLace_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/GreensleevesAndYellowLace_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GreensleevesAndYellowLace_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GreensleevesAndYellowLace_Gm.abc
+S:http://trillian.mit.edu/~jc/music/book/500/GreensleevesAndYellowLace_g.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

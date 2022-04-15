@@ -1,0 +1,33 @@
+X: 16
+T:Princes(s) Royal, (or Cross Caper), CJS
+M:4/4
+L:1/8
+Q:1/4=120
+S:CJS
+A:Bidford
+P:A.(A2BC3)4
+K:G
+P:A
+d>c|B<cAc|B<cA<B G2cd|e2ed   c2e2|d2dc B2d2|
+c2(3BcB A2G2 |F>GA>F D2dc|B<dB<G A2D2|G4   G2 ||
+P:B
+d2|e2d2     e2f2|g2GG   G2AB|c2B2   A2G2|F2E2 D4  |
+DEFG     A2A2|B2d2   g3g |f2d2   e3e |d2G2 c3c |
+B2A2     G2B2|AGFE   D2dc|BdBG   A2D2|G4   G2 ||
+P:C
+z|d3c      Bc3 |AB3    G4  |d3c    Bc3 |AB3  G4  |
+c2d2     e4  |e2d2   c4  |e4     d4  |d2c2 B3d |
+c2(3BcB  A2G2|F>GA>F D2dc|B<dB<G A2D2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/75828
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

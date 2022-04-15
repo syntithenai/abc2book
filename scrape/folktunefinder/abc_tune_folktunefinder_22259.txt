@@ -1,0 +1,29 @@
+X:1809
+T:English Dance
+O:england
+S:Swedish, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+F/2G/2|"D"D/2E/2F/2G/2 A/2G/2F/2G/2|"D"AB/2c/2 dd|"D"D/2E/2F/2G/2 A/2G/2F/2G/2\
+|"A"EA EA|
+"D"D/2E/2F/2G/2 A/2G/2F/2G/2|"D"AB/2"G"c/2 dg|\
+"D/a"f/2a/2f/2d/2 "A7"e/2g/2e/2c/2|"D"ed d:|
+P:B
+d/2e/2|"D"ff/2d/2 f/2a/2g/2f/2|"A7"ee/2c/2 e/2g/2f/2e/2|\
+"D"ff/2d/2 f/2a/2g/2f/2|"E7"e/2d/2c/2B/2 "A"Ad/2g/2|
+"D""Bm"ff/2d/2 f/2a/2g/2f/2|"Em"ee/2c/2 "A7"e/2g/2f/2e/2|\
+"D"f/2a/2f/2d/2 "A7"e/2g/2e/2c/2|"D"ed d:|
+S:https://www.folktunefinder.com/tunes/22259
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

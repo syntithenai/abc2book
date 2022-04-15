@@ -1,0 +1,26 @@
+X:560
+T:Birmingham
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+f2|~g2gf gdBd|gdBd eaaf|~g2fa gdBd|ecAc BGBd|\
+~g2 gf gdBd|gdBd eaaf|~g2 fa gdBd|ecAc BG G2||\
+F2|GdBd ~G2GD|GdBd eA~A2|GdBd gfge|fdcA AGFD|\
+BdBd ~G2 GD|GdBd eA~A2|~G2 Bd gfge|fdcA AGFD||\
+~G2 dG BGdG|~G2dG FDFA|~G2dG Bdeg|fdcA AGFD|\
+~G2 dG BGdG|~G2dG FDFA|~G2 dG Bdeg|fdcA BG G2||
+S:https://www.folktunefinder.com/tunes/21009
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:26
+T: DER MAI IST GEKOMMEN
+N: B0512
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 3/4
+L: 1/16
+K: F
+F2G2 | A4A6B2 | d4c6
+A2 | c3BB4c4 | A8
+F2G2 | A4A6B2 | d4c6
+A2 | c3BB4c4 | A8
+A3A | G4c6c2 | =B4d6
+d2 | g3fe3dc3=B | c8
+c2B2 | A3AA6B2 | d4c6
+A2 | c3BB4c4 | A8
+S:https://www.folktunefinder.com/tunes/62049
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

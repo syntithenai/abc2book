@@ -1,0 +1,29 @@
+X: 2
+T: Tsav\'e [Dm]
+M: C
+L: 1/8
+S: Printed MS of unknown origin
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+P: ABCB
+K: Dm
+"A"\
+|: "Dm"kA2 kA2 (AG) F2 | "Dm"kA2 kA2 (AG) F2 \
+|1 "Gm"F G2 F (AG) (GF) | "Dm"F3 F F4 \
+:|2 "Dm"(DE) FE "A7"(GF) (EF) | "Dm"D3 D D4 |]
+"B"[| "Gm"kG kG2z "C"kG kG2z | "Gm"kG kG2z "C"G2 "Dm"F2 \
+| "Gm"F G2 F "A7"(GF) (GF) | "Dm"F3 F F4 \
+| "Gm"kG kG2z "C"kG kG2z | "C"(cB) (AG) "Dm"(FE) D2 |
+| (DE) FE "Gm"(GF) "A7"(EF) | "Dm"D3 D HD4 \
+"C"\
+|: "Dm"kd kd2z "Bb"kd kd2z | "Gm"kd kd2z "Dm"kd kd2z | (A=B) cB (dc) (Bc) | "A7"A3 A "->B"A4 :|
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7370
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Tsave.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

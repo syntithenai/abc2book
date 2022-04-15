@@ -1,0 +1,27 @@
+X: 3
+T:Quadrille,A. JMT.003
+M:6/8
+L:1/8
+S:John Moore,Tyneside,1841. (02a)
+R:Quadrille
+O:England
+A:Northumbria
+H:1841
+Z:vmp.John Adams
+K:D
+A | def dcB | A2 G F2G | A2 d A2 d | cee e2A | dfe dcB |!
+ A2G F2A | f2dedc | ddd d2  :||: g | f2g agf | agf agf |!
+ e2f gfe | gfegfe | f2a agf | e2f gfe | fed edc | ddd d2 :|]
+S:https://www.folktunefinder.com/tunes/52765
+S:http://www.village-music-project.org.uk/abc/jmooret.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1932
+T:Fenwick O Bywell
+O:england
+C:Trad
+S:Northumbrian Minstrelsy
+M:6/8
+K:G
+g| edc BAB |GBG B2 g| edc BAG | AfA c2 g| edc BAB|GBG B2 G|\
+M:6/8l
+c3def g2d2B2| \
+M:6/8
+AgA c2::e| GGd BBg|GGd ~B2 g| GGd BBg|AgA c2 e|GGd BBg| GGd B2 G|\
+M:6/8l
+c3def g2d2B2| \
+M:6/8
+AgA c2:|
+S:https://www.folktunefinder.com/tunes/22382
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

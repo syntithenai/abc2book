@@ -1,0 +1,29 @@
+X:15
+T:Barge Inn
+R:reel
+C:Paddy O'Brien
+B:The Compositions of Paddy O'Brien
+D:i. Christy Barry, Connor McCarthy-Late in the Night,ii. John Carty
+S:Clare FM
+Z:psc -  http://www.cranfordpub.com
+L:1/8
+Q:333
+M:C|
+K:Dmix
+z|dcAc d2 =fe|dcAG EDEB|cG ~G2 cded|cdeg afge|
+dcAc d2 =fe|dcAG EDEB|cG ~G2 cdeg|agec Add:|
+|:c|d2 ed adce|defg ageB|c2 ed cAGB|cG ~G2 cGec|
+d2 ed adce|defg ageB|cG ~G2 cdeg|agec Add:|
+S:https://www.folktunefinder.com/tunes/66659
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

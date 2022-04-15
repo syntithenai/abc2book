@@ -1,0 +1,26 @@
+X: 3
+P: Pols etter Per Tevik
+R: R\orospols
+O: Nordm\ore
+B:
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 9/16
+L: 1/16
+K: D
+|: "D"F3 DF2 D2F | "A7"F2E CE2 C2E | ABc def e2c |1 "D"d2A GF2 E2D :|2,4 "D"d3 d6 :|
+|: "D"{g}a3 fa2 f2a | "A7"g2f efg efg |1,3 "D"f2e dc2 d2f | "A7"ece dcB A3 :|2,4 "D"f2e dc2 "A7"d2f | ece "D"d6 :|
+S:https://www.folktunefinder.com/tunes/7970
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NOMAD_Rorospols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NOMAD/2007NOMAD_Rorospols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NOMAD/2007NOMAD_Rorospols.txt
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

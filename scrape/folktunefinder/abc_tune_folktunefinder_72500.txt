@@ -1,0 +1,27 @@
+X:43
+T: Der Essigkrug
+N: D0045
+O: Europa, Mitteleuropa, Lothringen, Halsdorf ( Kr. Diedenhofen )
+N: Inzipit = Transposition zum Lied
+R: Scherzlied auf einen Hausstand
+M: 2/4
+L: 1/16
+K: Bb
+F2 | B2B2F2F2 | G2G2F2z2
+B4G2A2 | B4z2
+F2 | D2E2F2e2 | d4B2
+d2 | c2c2B2A2 | B4z2
+FF | B4F2FF | G4F2
+F2 | B4G2A2 | B4z2
+F2 | B2B2c2e2 | d4B2
+d2 | c2c2B2A2 | B4z2
+S:https://www.folktunefinder.com/tunes/72500
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Scherzlied auf einen hausstand
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

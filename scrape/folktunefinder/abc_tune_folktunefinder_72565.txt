@@ -1,0 +1,25 @@
+X:108
+T: Der gepruegelte Ehemann
+N: D0163
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Inzipit = Variante zum Lied
+R: Ehestands - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G2A2B2c2 | d2d2d4
+e4g2e2 | d4z2
+d2 | d2c2c2c2 | c2B2B4
+A3Bc2A2 | B2c2d2
+d2 | d2c2c2c2 | c2B2B4
+A3Bc2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/72565
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

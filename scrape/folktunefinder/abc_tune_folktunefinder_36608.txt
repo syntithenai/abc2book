@@ -1,0 +1,31 @@
+X:2645
+T:James Louders March
+A:North-West
+M:C|
+N:P22 1/2
+O:England
+R:March
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000058d.html
+%%ID:0000058d
+K:G
+GB |\
+d3e (3dec (3BcA  | G2G>G G>B A>c |\
+B>GB>d e>dc>B    | d>ed>c A2G>B  |
+d3e (3dec (3BcA  | G2 G>G G>BA>c |\
+(3Bcd (3edc B2A2 | G2G>GG2       ::
+d>B |\
+A3B    d>cB>A | B2d2 e>dc>B |\
+B>dc>e e>dc>B | e2c2 A2D>D  |
+G4     AGcB   | B4   c>Be>d |\
+(3def (3gfe (3dec (3BcA | G2G>GG2 :|
+S:https://www.folktunefinder.com/tunes/36608
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

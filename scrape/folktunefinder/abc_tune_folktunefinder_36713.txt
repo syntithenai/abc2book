@@ -1,0 +1,31 @@
+X:3170
+T:the Liverpool Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f2.html
+%%ID:000004f2
+K:D
+AG|\
+FDFA dfaf| gfec dcBA| \
+G2BG F2AF| EDEF GBAG| \
+FDFA dfaf| gfec dcBA|
+dfaf bgec| d2f2 d2:: \
+(3ABc|\
+d2fd c2ec| BABc dAFD|
+G2BG F2AF| EDEF GBAG| \
+FDFA dfaf| gfec dcBA| \
+dfaf bgec| d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/36713
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

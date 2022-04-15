@@ -1,0 +1,26 @@
+X:4
+T:Ouvre-moi
+R:Branle
+O:France
+A:Lorraine
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Dm
+V:1
+"^Ouvre moi"A2|:A2d2 d2c2|d4d2e2|f4e4|d6d2|c4e4|
+d4A2=B2|c4=B4|A6a2|a2g2 a2ag|f6g2|a2b2 a2gf|
+e6e2|d2c2 d2e2|f2g2 a2g2|f4e4|d6A2:|
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/45772
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

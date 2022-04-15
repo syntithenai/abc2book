@@ -1,0 +1,41 @@
+X:769
+T:Xiraldilla (CT 092)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcirta y comunicada por D. Fernando del Fresno, de Uviu, quien dice la ha recogido en Morcn.
+A:Asturies
+O:Morcn
+Z:Cancioneru de Torner 092
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|d2 dd|d2 ee|dd ed|cB AB|c4|B2 z2|
+d2 dd|d2 ee|dd ed|cB AB|(c2 dB)|G2 z2|
+B2 AB|c4|B2 z2|
+d2 dd|e2 ee|d2 ed|(cB) AB|c4|B2 z2|
+G3 B|dc AB|G2 z2||
+W:Vengo de la Madalena
+W:de rezarles oraciones
+W:con el rosario en la mano;
+W:fltenme les devociones.
+W:
+W:Galn del alma, adios,
+W:del alma galn, adios,
+W:Carlos Tercero, Rey de Espaa,
+W:luna y sol.
+W:
+S:https://www.folktunefinder.com/tunes/59656
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

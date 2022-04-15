@@ -1,0 +1,24 @@
+X: 1
+T: the Black Bear
+B: Scots Guards v.1 p.8 #12
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+AB \
+| "D"d2d2 fdaf | "Bm"d2d2 fdaf | "Em"e2B2 "E7"B2ed | "A7"cdBc ABcA |
+| "D"d2d2 fdaf | "Bm"d2d2 fdaf | "Em"e2e2 "A7"egfe | "D"d2f2 "fine"d2 :|
+e2 \
+| "A7"A2AB "D"d2de | "A7"g2fe "D"fafd | "A7"A2AB "D"d2de | "A7"g2fe "D"fafd |
+| "A"aAAA cAAA | "E7"dBBB "A"eccc | "D"dfdf "Em"egfg | "A7"a2a2 agfe "d.C."[|]|]
+S:https://www.folktunefinder.com/tunes/15336
+S:http://trillian.mit.edu/~jc/music/abc/march/BlackBear_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BlackBear_D4.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

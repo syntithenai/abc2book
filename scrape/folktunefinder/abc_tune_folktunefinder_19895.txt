@@ -1,0 +1,26 @@
+X:24
+T:Emma
+R:vals
+S:Luis Cadena, fiddler from Zaragoza, Aragon, Spain
+Z:Manuel Waldesco <mwal@wanadoo.es> tradtunes 2002-6-18
+M:3/4
+K:Am
+Ac |: e3 fe2 | c2A2 Ac | e3 fe2 | c2A2 Ac | B4 B2 | d2c2B2 |1 A2 AB cd | e4 Ac :|2 A2 AB cB | A4 Ac |
+ |: e3 fe2 | c2A2 ag | e3 fe2 | c2A2 Ac | B4 B2 | d2c2B2 |1 A2 AB cd | e4 Ac :|2 A2 AB cB | A4 A2 |
+ |: a4a2 | a2g2f2 | e4e2 | e2d2c2 | B4B2 | d2c2B2 |1 A2 AB cd | e4A2 :|2 A2 AB cB | A4A2 |
+ |: a4a2 | a2g2f2 | e4e2 | e2d2c2 | B4B2 | d2c2B2 |1 A2 AB cd | e4A2 :|2 A2 AB cB | A6 |
+S:https://www.folktunefinder.com/tunes/19895
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Emma_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Emma_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Emma_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Emma_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/test/Emma_1.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

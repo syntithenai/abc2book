@@ -1,0 +1,30 @@
+X: 1
+T: Mok goes Ahoy me harty!
+N: Instrument Channel 4 ... [Clavinet]
+N: Instrument Channel 3 ... [Steel Drums]
+N: Instrument Channel 1 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 2 ... [Acoustic Bass]
+M: 4/4
+L: 1/8
+Q:1/4=120
+N: Last note suggests Phrygian mode tune
+K:G
+V:1
+%%MIDI program 4 7
+CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,A,2G, A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2|CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2 CE C2|
+B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G F/2F/2D E/2F/2G F/2F/2G/2A/2|B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G/2A/2 B/2A/2G/2F/2 GB zB,CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,A,2G, A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2|CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2 CE C2|
+B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G F/2F/2D E/2F/2G F/2F/2G/2A/2|B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G/2A/2 B/2A/2G/2F/2 GB G2|CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,A,2G, A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2|CC2B, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2 CE C2|
+B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G F/2F/2D E/2F/2G F/2F/2G/2A/2|B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G/2A/2 B/2A/2G/2F/2 GB zG G3CC zB, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,A, zG, A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2|CC zB, C/2B,/2C/2D/2 E/2D/2C/2B,/2|A,/2G,/2A,/2B,/2 C/2B,/2A,/2G,/2 CE Cz|
+B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G F/2F/2D E/2F/2G F/2F/2G/2A/2|B/2c/2d d/2c/2B/2A/2 G/2A/2B c/2B/2A/2G/2|E/2F/2G/2A/2 B/2A/2G/2F/2 GB G3/2
+S:https://www.folktunefinder.com/tunes/48
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

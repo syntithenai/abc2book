@@ -1,0 +1,22 @@
+X: 2133
+T:Dreischrittdreher
+O:Germany
+N:fast
+M:2/2
+Q:1/8=400
+A:Bavaria
+R:Zwiefache
+K:GMix
+B2B2d4|dccc edd2|B2B2d4|dccc B4:|
+|: eeee edd2|dccc edd2|B2B2d4 | dccc B4:|
+S:https://www.folktunefinder.com/tunes/32594
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Zwiefache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

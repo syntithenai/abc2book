@@ -1,0 +1,25 @@
+X: 1
+T: Hills of Glen Orchy
+C: Trad.
+M: 6/8
+Z: John Chambers 2003-11-25
+K: EDor
+L: 1/8
+d/c/ \
+| "Em"B2E EFE | BAB d2B | "D"A2D    DED |     AFD FAd \
+| "Em"B2E EFE | BAB d2e | "G"dBd "D"AFD | "Em"EFE E2 :|
+|: B \
+| "Em"efe edB | efg "A7"gfe | "D"ded    dAF | "(Bm)"dfe dBd \
+| "Em"efe edB | efg     gfe | "G"dBd "D"AFD |   "Em"EFE E2 :|
+S:https://www.folktunefinder.com/tunes/14313
+S:http://trillian.mit.edu/~jc/music/abc/jig/HillsOfGlenOrchy_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HillsOfGlenorchy_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HillsOfGlenorchy_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HillsOfGlenOrchy_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

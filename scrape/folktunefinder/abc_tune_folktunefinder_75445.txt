@@ -1,0 +1,17 @@
+X: 1
+T:The Amphitrite
+M:6/8
+L:1/16
+K:D
+A2|F3ED2A2A2F2|G3AB2A4AA|d3cd2B2e2d2|c3Bc2d4dd|e3cA2e3cA2|e3cA2A4FF|G3Bd
+2d2A2F2|GE3F2G4||(F3G)A2 FD3z2|G3AB2GEz2|F3GA2B3ed2|c3Bc2d4||
+% Output from ABC2Win  Version 2.1 i on 3/4/2000
+S:https://www.folktunefinder.com/tunes/75445
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

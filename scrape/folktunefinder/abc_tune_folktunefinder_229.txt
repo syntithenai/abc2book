@@ -1,0 +1,25 @@
+X: 4
+T: Indian Point
+C: Rick Mohr
+M: 6/8
+K: Em
+|: "Em"B,EF G2A | BAG FED \
+| "C"CEF G2A | BAG BAG \
+| "D"FED A,2D | FEF AGF |
+|1 "Em"EFG BAG | "B7"F3 FED \
+:|2 "Em"GFE "D"FED | "Em"E3 -E2A \
+|: "Em"Bef gfe | "C"cef gfe |
+| "D"dfg agf | gfe fed \
+| "Em"Bef gfe | "C"ceg "Am"a2a \
+| "Em"bag "B7"fgf | "Em"e3 -e3 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/229
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

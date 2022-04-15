@@ -1,0 +1,23 @@
+X: 2
+T: La Marionnette
+C: Daniel Boucher (2003)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+N: Learned from Donna H\'ebert 2009-2-25
+M: none
+L: 1/8
+K: G
+|: "G"B>B GB dB | "D7"c>A FA DF Ac | "G"B>B GB dB | "D7"c>A FA DF AF | "G"G2 G2 :|
+[| "D7"D>F A2 d>A- AA | BA FA d>F Ad | D>F A2 d>A- AA | BA FA "G"G2 G2 ||
+|| "D7"D>F A2 c>c- cc | BA FA d>F Ad | D>F A2 c>c- cc | BA FA "G"G2 G2 |]
+|: "D7"d>d d2 c>c- cc | BA FA EA  DA | d>d d2 c>c- cc | BA FA "G"G2 G2 :|
+S:https://www.folktunefinder.com/tunes/7732
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/new.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

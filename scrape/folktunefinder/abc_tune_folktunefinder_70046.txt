@@ -1,0 +1,23 @@
+X:486
+T: DER HOLDSELIGEN SONDER DANK
+N: F0926
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: A
+ | A4c2 | e3fe2 | B4d2 | c4z2
+A4c2 | e3fe2 | B4c2 | A4z2
+A4A2 | a3gf2 | f2e2^d2 | e3fe2
+d4d2 | c3dc2 | B4c2 | A4z2
+S:https://www.folktunefinder.com/tunes/70046
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

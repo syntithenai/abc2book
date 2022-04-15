@@ -1,0 +1,25 @@
+X:24
+T: ES STAND EIN BAEUMLEIN IM TIEFEN THAL
+N: E0007
+O: Europa, Mitteleuropa, Deutschland
+R: Sage, Maerchen -, Zauber - Lied
+M: 2/4
+L: 1/16
+K: A
+E2 | E2A2A2c2 | c2B2B4
+ABcde2c2 | B4z2
+A2 | A2c2c2e2 | e2d2d2
+c2 | c2c2e2c2 | B2A2B4
+A3GA2c2 | B3AB2
+e2 | cBABc2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/78465
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

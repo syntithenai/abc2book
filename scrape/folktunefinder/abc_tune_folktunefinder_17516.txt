@@ -1,0 +1,25 @@
+X: 1
+T: Lady Harriet Hope's Reel
+C: Robert Kackintosh
+R: reel
+Z: John Chambers <jc:trillian.mit.edu> from a handwritten ms. by B.McOwen
+M: C|
+L: 1/8
+K: Bb
+f \
+|: "Bb"b2fd "Eb"gedc | "Bb"f2dB "F"AcAF \
+| "Bb"b2fd "Eb"gedc | "F"dfAc "Bb"dBB2 :|
+|: "Bb"DFBF "Cm"EGcB | "F"Acfe "Bb"dbfd \
+|1 "Bb"DFBF "Cm"EGcB | "F"AcFe dBB2 \
+:|2 "Eb"gedc "Bb"fdcB | "F"AcFe "Bb"dBB2 |]
+S:https://www.folktunefinder.com/tunes/17516
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyHarrietHopesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyHarrietHopesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadyHarrietHopesR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

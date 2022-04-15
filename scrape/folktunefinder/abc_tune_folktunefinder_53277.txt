@@ -1,0 +1,23 @@
+X:235
+T:Pajduska
+L:1/16
+M:5/16
+O:Macedonia
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000069c.html
+%%ID:0000069c
+K:Bb min
+c2 e3|c2 d3| dc B2A| c2 c3|\
+c2 e3|c2 d3|dc B2A|B2 B3 ::
+dc B3|=GA B3|dc B2A|c2 c3|\
+dc B3|=GA B3|dc B2A|B2 B3:|
+S:https://www.folktunefinder.com/tunes/53277
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A-sharp
+% Time_signature 5/16
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Mons hopsa
+O: Denmark
+R: hopsa
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"D>D D>D | B2 G2 | "D7"A>G F>E | D>C B,>C | "G"D>D D>D | B2 G2 | "D7"A>G F>A | "G"G3 z :|
+|: "G"d>d d>d | e>d B2 | "D7"d>c A2 | "G"e>d B2 | d>d d>d | e>d B2 | "D7"d>c A>F | "G"G3 z :|
+S:https://www.folktunefinder.com/tunes/312
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/MonsHopsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/hopsa/MonsHopsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hopsa/MonsHopsa.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

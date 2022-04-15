@@ -1,0 +1,36 @@
+X: 1
+T: Pinosavka
+O: Srbija
+M: 4/4
+L: 1/16
+N:
+N: The rhythm is really somewhere between 12/16 and 4/4.
+N: Most of the longer notes should have a short trill.
+N: The G natural against an E chord near the end is not a typo.
+K: G
+Bc^c \
+| "G"~d4 d3B "D"d3c c3G | "G"~B4 B3G "D"B3A A3F \
+| "G"A3G G3D "D"G3F F3D | "A"F3E E3D E2FG ABc^c |
+| "G"e3d d3B "D"d3c c3G | "G"c3B B3G "D"B3A A3F \
+| "E"A3G G3D G3F F3A |1 "A"F3E E3^C A,4 :|2 "A"E12 ||
+|: fg^g \
+| "D"a3d a3g g3d g3f | "A"f3d f3e e3A a3g \
+| "D"g3d g3f f3d f3e | "A"e3d b3a a3g g3d |
+| "D"a3d a3g g3d g3f | "A"f3d f3e e3A a3g \
+| "E"g3d g3f f3d f3e | "A"e3A e3A e4 :|
+|: def \
+| "G"g3d g3d g3f e3d | "D"f3d f3d g3f e3d \
+| "G"g3d g3d g3f e3d | "D"f3d f3d f3 (3efd |
+| "G"{a}g8- g3f e3d | "D"{g}f8- g3f e3d \
+| "E"e3f {a}g3f e3A (3efd |1 "A"f3e e3A e3 :|2 "A"e4 z8 |]\
+"E7"{d}H[e8B8G8] "A"H[e8^c8A8] |]
+S:https://www.folktunefinder.com/tunes/5905
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Pinosavka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Pinosavka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

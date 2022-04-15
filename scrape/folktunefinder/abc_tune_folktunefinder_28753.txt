@@ -1,0 +1,30 @@
+X:2473
+T:Cancioneiro de Casto Sampedro: N\'umero 306
+T:Muieira de Oilaven
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=95
+K:C % 0 sharps
+z2 z/2g/2g/2d/2 e/2fe/2 gd-|d/2g/2g/2d/2 e/2f/2e d2- d/2f/2f/2d/2|e/2fe/2 d/2c/2B/2c/2 ed/2ec/2d|c2- c/2g/2g/2d/2 e/2fe/2 gd-|
+d/2g/2g/2d/2 e/2f/2e d2- d/2f/2f/2d/2|e/2fe/2 d/2c/2B/2c/2 ed/2ec/2d|c3/2dc/2f e/2d/2c/2B<cf/2|eg f/2e/2d/2e<fec/2f|
+d/2d/2c/2B/2 c/2d/2e/2c/2 ec/2dB/2d|c3/2dc/2f e/2d/2c/2B<cf/2|eg f/2e/2d/2e<fec/2f|d/2d/2c/2B/2 c/2d/2e/2c/2 ec/2dB/2d|
+c2- c/2g/2g/2d/2 e/2fe/2 gd-|d/2g/2g/2d/2 e/2f/2e d2- d/2f/2f/2d/2|e/2fe/2 d/2c/2B/2c/2 ed/2ec/2d|c2- c/2g/2g/2d/2 e/2fe/2 gd-|
+d/2g/2g/2d/2 e/2f/2e d2- d/2f/2f/2d/2|e/2fe/2 d/2c/2B/2c/2 ed/2ec/2d|c3/2dc/2f e/2d/2c/2B<cf/2|eg f/2e/2d/2e<fec/2f|
+d/2d/2c/2B/2 c/2d/2e/2c/2 ec/2dB/2d|c3/2dc/2f e/2d/2c/2B<cf/2|eg f/2e/2d/2e<fec/2f|d/2d/2c/2B/2 c/2d/2e/2c/2 ec/2dB/2d|
+c3/2
+S:https://www.folktunefinder.com/tunes/28753
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

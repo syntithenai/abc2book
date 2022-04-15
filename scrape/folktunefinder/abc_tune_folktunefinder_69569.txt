@@ -1,0 +1,27 @@
+X:9
+T: EIN HELLER UND EIN BATZEN
+N: F0042
+O: Europa, Mitteleuropa, Deutschland
+R: Trink -, Wander - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2A2 | B4G2
+G2 | B3AB2c2 | d4z2
+B2 | c2e2d2c2 | B2d2c2
+B2 | A2B2c2A2 | B2c2d2
+cB | A2B2c2Bc | d2z4
+c2 | B2B2A2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/69569
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Trink -, wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

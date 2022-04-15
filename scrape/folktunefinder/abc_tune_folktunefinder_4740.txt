@@ -1,0 +1,26 @@
+X: 4
+M: C|
+L: 1/8
+P: Heilsberger Dreieck (Bm D C)
+K: Bdor
+|: "Bm"B4 d4 | "E"e4 "Bm"fedc | B2f2 f3g | "Fm"a2f2 f2ga \
+| "Bm"b2 b4 c'2- | c'2d'3 c'd'e' | f'2d'2 c'2b2 |1 "Fm"a2 f4 e2 :|2 "Fm"c'2a2 "A7"f2=g ||
+K:D
+|: "D"a2f2 "A7"g2e2 | "D"f2d2 d3d | d2d2 f2a2 | "G"d'4 "D"a4 \
+| "Em"efg2 "Bm"f2b2- | b2a2 "Em"gab2 | "D"a2 d'4 c'2 |1 "G"b2b2 "A7"a3b :|2 "G"b2b2 "G7"a^gab ||
+K:C
+|: "C"c'4 g4 | e2fg "F"a4- | a2g2 f2e2 | "G7"d2ef g4- \
+| g2f2 e2d2 | "C"c4 "F"a3g | f2e2 "G7"d2c2 |1 Bcd2 z2g2 :|1 Bcd2 "C"c2z2 |]
+S:https://www.folktunefinder.com/tunes/4740
+S:http://trillian.mit.edu/~jc/music/abc/Germany/HeilsbergerDreieck.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HeilsbergerDreieck.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

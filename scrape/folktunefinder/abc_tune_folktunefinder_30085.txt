@@ -1,0 +1,25 @@
+X:0
+T:Invercauld
+G:reel
+S:Logan's Collection
+M:2/4
+L:1/16
+Q:1/4=108
+K:D
+% lydian/major hexatonic
+e2|A2d2   f2e>d|f2a2   f2e>d|A2d2  f2e>d|B2e2 e2d>B|
+   A2d2   f2e>d|f2a2   f2e>d|B2e2  c2B<A|d4   d2  :|
+% major
+fg|a2d2   f2e>d|e>dc>B A2f<g|a2d2  f2e>d|B2e2 e2f>g|
+[1 a2d2   f2e>d|e>dc>B A2c2 |B2e2  c2B<A|d4   d2  :|
+[2 B<GB>c d2c>B|A2d2   f2e>d|B2e2  c2B<A|d4   d2  |]
+S:https://www.folktunefinder.com/tunes/30085
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

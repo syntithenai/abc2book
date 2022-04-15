@@ -1,0 +1,24 @@
+X:503
+T: WENN MAN MIR EIN MAEDCHEN NENNT
+N: F0958
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: G
+ | G4G2c4B2 | e4c2d6
+G3AG2e4d2 | d2c2B2B4A2
+G4G2c4B2 | e4c2d6
+d3ed2g4d2 | d2c2B2B4A2
+c4c2c3eg2 | B4g2A6
+A4e2d3gG2 | A2G2F2G6
+S:https://www.folktunefinder.com/tunes/70063
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

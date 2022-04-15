@@ -1,0 +1,29 @@
+X: 1
+T: Rowena's Waltz
+C: Gary Roodman
+S: MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=122
+K: C
+"G7"G2 \
+| "C"e2 eg e2 | "Dm"f2 dc "G"BG | "Am"Ae c2 "(C)"e2 | "Dm"fe dc "E7"B^G \
+| "Am"A2 AB "(F)"c2 | "Dm"d2 de f2 | "Am"ea ed "E7"B^G | "Am"A4 :|
+"E7"^f^g \
+| "Am"a2 ed ce | "C"g3 e "(Am)"ce | "Dm"f2 fg fd | "E"BA ^G4 \
+| "Am"A2 AB A2 | "F"A2 Ae A2 | "D"de ^f2 d2 | "G7"g3 f ed |
+| "C"e3 g eg | "Am"a2 e2 c2 | "F"f2 fe fc | "G7"d3 d "(Em)"ef \
+| "C"g2 gf "(Am)"ec | "F"A2 F2- "Dm"F2 | "Em"e2 BG "G7"[B2F2] | "C"c4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4059
+S:http://trillian.mit.edu/~jc/music/abc/England/RowenasWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Waltz_Rowenas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

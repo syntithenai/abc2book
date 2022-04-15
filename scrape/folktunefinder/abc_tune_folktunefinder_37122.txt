@@ -1,0 +1,25 @@
+X:5215
+T:Roxborough Castle
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000087a.html
+%%ID:0000087a
+K:A
+E2|\
+A2Ac ecAc | d2df ecAc |   d2fd c2ec | d2B2 B2E2 | \
+A2Ac ecAc | d2df ecAc | ! dagf edcB | c2A2A2 :: \
+e2|\
+aece fece | aece fece | d2fd c2ec | d2B2 B2 e2
+|1 aece fece | aece fece | fagf edcB | c2A2 A2 :|2\
+A2Ac ecAc | d2df ecAc | dagf edcB | c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/37122
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

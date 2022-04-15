@@ -1,0 +1,24 @@
+X: 2
+T: Livet i Finnskogarna
+T: Life in the Finnish Woods
+C: Karl Jularbo (1893-1966)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+|: B,DB, | "G"G,3B,DG | B3GDB, | "C"C3EGc | "Am"e6 | "D7"d3cAF | D3FAc | "G"B3GDB, | G,3B,DB, |
+| "G"G,3B,DG | B3GDB, | "C"C3EGc | "Am"e6 | "D7"d3cAF | D3cAF | G2{AG}FG BA | "G fine"G3 :|
+|: B,DG | "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 | "G"D4d2 | "D7"d3cAF | D3FAc | "G"B3GDB, | G,3B,DG |
+| "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 | "G"D4d2 | "D7"d3cAF | D3cAF | G2{AG}FG BA | "G"G3 :| [K:C]
+|: "G7"G^F=F | "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"c2B2A2 | "G7"[GG]AGFED |
+| "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"C3CC2 | C3 :|
+S:https://www.folktunefinder.com/tunes/8808
+S:http://trillian.mit.edu/~jc/music/abc/Scand/LivetIFinnskogarna.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

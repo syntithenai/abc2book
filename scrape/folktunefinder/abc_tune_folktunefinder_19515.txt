@@ -1,0 +1,30 @@
+X: 1
+T: Marjorie Easton McLaughlin
+C: Muriel Johnstone
+R: strathspey
+N:
+N: Muriel Johnstone and Bill Zobel   Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+|: (3ded \
+| "Bb"f>d B<F "Eb"G>F E<G | "Bb"F>B df "Bb"dc | "Gm"c<B (3Bcd "Eb"e2 "F7"(3ded |
+| "Bb"f>d B<F "Ab"E>F G<E | "Bb"F>B df "Bb"dc | "Gm"cc |]
+[| "Bb"Bc "Bb"dB | "Cm"Gf "Bb"d<B "F"c3 F | "Cm"G<B "F7"G<E "Bb"F2 (3DEF |
+| "Eb"Gd "F7"c<e |1 "Bb"(3def "Eb"g>f "Bb"d<B "F7"d<c | "Gm"c<B (3Bcd "Cm"e2 \
+                                                               :|2 "Bb"(3def "Eb"g>f "Bb"f<d dc "Bb"B2 |]
+S:https://www.folktunefinder.com/tunes/19515
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarjorieEastonMcLaughlinS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MarjorieEastonMcLaughlinS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarjorieEastonMcLaughlinS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

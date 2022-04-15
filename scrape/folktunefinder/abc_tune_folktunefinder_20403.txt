@@ -1,0 +1,42 @@
+X: 1
+T: Julestemning [G]
+T: Sikken voldsom tr\aengsel og alarm
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+| "G"GA Bd "D7"cA \
+| "G"d2 B2 g2 \
+| GA Bd "D7"cA \
+| "G"B2 "D"A2 "G"G2 \
+| "G"GA Bd "D7"cA \
+| "G"d2 B2 "Em"g2 \
+| "D"fe dA "A7"=cA \
+| "D"d2 A2 D2 ||
+|| "D7"cB Ae dc \
+| "G"B2 g2 d2 \
+| "D7"cB Ae dc \
+| "G"B2 g2 d2 \
+| "G7"Bd cB AG \
+| "C"c2 d2 e2 \
+| "G"dg Bd GB \
+| "D7"d2 A>B "G"G2 ||
+|| "G".G2 .B2 .d2 \
+| "Em".g2 "Bm".f2 "C"e2 \
+| "G"dd "C"ee "Am"cc \
+| "D7"B2 c2 A2 \
+| "G".G2 .B2 .d2 \
+| "Em".g2 "Bm".f2 "C"e2 \
+| "G"dd "C"ee "Am"cc \
+| "D7"B2 c2 A2 \
+| "G"G2 B2 d2 \
+| g6 |]
+S:https://www.folktunefinder.com/tunes/20403
+S:http://trillian.mit.edu/~jc/music/abc/xmas/Julestemning_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/Julestemning_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

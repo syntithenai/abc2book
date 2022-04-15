@@ -1,0 +1,22 @@
+X:165
+T:Buggy Ride Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+P:INTRO
+g|f/2a3/2d f/2a3/2d|fg2 "D7"d^c=c|:"G"B2B BAG|B2B BAG|"G"B/2d3/2G B/2d3/2G|
+"Am"Bcc cBc|"D"eff fed|"D"f2f fed|"D7"f/2a3/2d f/2a3/2d|"G"fg2 "D7"gfg::
+"G"D2G B2d|"G"b3 -b2f|"G"a2g "E7"f2e|"Am"c3 cBA|"D"c2c cBA|
+"D"f2f fed|"Am"f/2a3/2d "D7"f/2a3/2d| [1"G"fg2 gfg:|
+[2"G"g2zz3|"G"g6||
+S:https://www.folktunefinder.com/tunes/64781
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:3
+T:18. Captaine Digorie Piper his Galiard
+T:Quintus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+L:1/4
+M:3/2
+N:Original clef C on fourth line
+K:Gdor -8va
+%%MIDI transpose -12
+B2 G2 c2 B > c d B c C G2 D2 z G A > G F > E D d c3 B A2 z G2 F/ _E/ F B > A G d2 D2 D6 ||
+"(1)"d > c B2 G c F2 B2 G3 G A2 F2 F6 F2 A3 A G3 d B2 f F G B A G d2 D4 ||
+N:(1) no dot in original
+z4 "(2)"z2 z B f d e c d B e4 d6 B F > G A G > A B > c d D > E F G A B G d D HD6 |]
+N:(2) rest is editorial
+S:https://www.folktunefinder.com/tunes/40003
+S:http://www.laymusic.org/music/dowland/piper/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

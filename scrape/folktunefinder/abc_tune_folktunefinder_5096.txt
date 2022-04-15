@@ -1,0 +1,23 @@
+X: 49
+T: Herz Siebner [C]
+M: 34/44
+L: 1/8
+K: C
+[Ge][Fd] \
+| "C"[E4c4] [G2e2] | "G7"[D4B4] [G2B2] \
+| "C"[E4G4] [D2F2] | [C6E6] \
+| "G7"[D3F3][EG][F2A2] | [E4G4][D2F2] \
+| "C"[C6-E6-] | [C4E4] [Ec][Fd] |
+| "C"[G2e2][E2c2] [G2e2][E2c2] | "G7"[G2e2][F2d2] [D4B4] \
+| [Gf][Gf] [G2f2] [B2g2] | "C"[Ge][Ge][G2e2] [c2e2] \
+| "C"[G2e2][E2c2] [G2e2][E2c2] | "G7"[G2e2][F2d2] [D4B4] \
+| [Gf][Gf] [G2f2] [B2g2] | "C"[c2e2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5096
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:5664
+T: Ross' Reel Number 4
+O:england
+M: C|
+L: 1/8
+K: F
+|: a2 || "C7"g3f e2d2 | "F"cdcB A2GF | "C7"ECEG c2cB | "F"AFAc f2a2 |
+| "C7"g3f e2d2 | "F"cdcB A2GF | "C7"EFGA Bcde | "F"f2a2 f2  :|
+|: cB || "F"Ac~c2 dc~c2 | Acfc acfc | Ac~c2 dc~c2 | Acfc acfc |
+| "C7"Bc~c2 dc~c2 | =Bcec gc_bc | =Bcec gc_bc | acgc "F"f2 :|
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/26116
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

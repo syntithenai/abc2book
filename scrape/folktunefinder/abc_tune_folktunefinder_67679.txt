@@ -1,0 +1,28 @@
+X: 11002
+T: A to Z Waltz
+C: Bob McQuillen 19 June '94
+B: Bob's Note Book 11 #2
+N: With much love always to two very favorite people in my life -
+N: For Bettie Anderson and Steve Zakon on this, their Happy Wedding Day.
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|:"G"G2 B2 BA |"Em"GB d2 Bd |"Am"e2 cB AG |"D7"FG A4    | "G"G2 Bc BA |"Em"GB d2 Bd |"Am"ed c2 e2 |"D7"d4    ef |
+|"Em"g2 eg ag |"Bm"fd B2 cd | "C"ed c2 e2 | "G"d4    Bd | "C"ed c2 de |"Bm"dc B2 cd |"Am"e2 f2 g2 |"D7"f2 g2 a2:|
+|:"G"g2 d3  B | "C"c6       | "G"g2 d3  B | "C"cB cd ef | "G"g2 d3  B |"Em"c2 B2 cd |"Am"e2 f2 g2 |"D7"a6       |
+| "C"e3  f g2 |"Bm"d2 B2 cd | "C"e2 f2 g2 |"D7"f2 g2 a2 | "G"b2 g2 dd | "C"c2 B2 cc | "D"d2 g2 f2 | "G"g6      :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/67679
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book11.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: the Perthshire Highlanders
+R: strathspey
+B: RSCDS 17-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+D \
+| "D"A>B A>F D>F A>d | "Bm"D/E/F/G/ A>F "Em"B>E "A7"G>B \
+| "D"A>B A<F "G"B>d "A"c>e | "D"f>d "A7"e/f/g/e/ "D"f<d d> |
+B \
+| "D"A>B A>F D/E/F/G/ A/B/c/d/ | | "D"A>B A>F "G"B/A/G/F/ "A7"E>B \
+| "D"A>B A>F "G"G>B "D"A<d | "G"B>d "A7"c<e "D"f<d d> ||
+|| f \
+| "D"a>f d>f "Bm"d/e/f/g/ a>f | "A7"g>e "D"f<d "Em"e>d "A7"B>g \
+| "D"a>f d>f "Bm"d>e f<d | "G"B>d "A7"c>e "D"d<D D> |
+| f \
+| "D"a>f d>f "Bm"d>e f<d | "G"B>d "D"A<F "Em"B>E "A7"G<B \
+| "D"F>D F<A "G"B>G B<d | "A7"d/c/B/A/ B/d/c/e/ "D"f<d d |]
+S:https://www.folktunefinder.com/tunes/19624
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PerthshireHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/PerthshireHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PerthshireHighlandersS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

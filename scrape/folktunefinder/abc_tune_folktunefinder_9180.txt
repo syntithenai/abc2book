@@ -1,0 +1,23 @@
+X: 8
+T: Kahdeksan miehen engelisk\"a
+T: \AAttaman engelska
+M: 2/4
+L: 1/16
+K: D
+P: Polka (3x)
+|: "G"b3a g2f2 | "A7"A2ce cAce | a3g f2e2 |1,3 "D"d2fa fdfa :|2,4 "D"d2d2 d4 :|
+|: "D"D2FA FDFA | "G"G2Bd BGBd | "A7"A2ce cAce |1,3 "D"fedc dcBA :|2,4 "D"d2d2 d4 :|
+P: Polska (2x)
+M: 3/4
+L: 1/16
+|: "A7"A4 | "D"DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | "A7"fedc "D"d4 :|
+|: "A7"A4 | "D"d2fd "A"Acec Acec | "D"Adfd "A"Acec Acec | ABcd efge "D"fafd | "A"egec "D"d4 :|
+%%sep 8 8 8cm
+S:https://www.folktunefinder.com/tunes/9180
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Rev19980825.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

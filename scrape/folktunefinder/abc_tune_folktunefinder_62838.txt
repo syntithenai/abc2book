@@ -1,0 +1,27 @@
+X: 5
+T:George Green's College Hornpipe
+M:4/4
+L:1/8
+Q:1/4=114
+C:Trad
+R:hornpipe
+K:G
+(3DEF|: G>BA>G F2 (3DEF|G>BA>G F2d2|c>BA>G F>DE>F|A>GF>E D2 (3DEF|
+G>BA>G F2 (3DEF|G>BA>G F2d2|c>BA>G F>DE>F|1 G2 B2 G2 (3DEF \
+:|2 G2B2 G2 G>A|
+|: B2d2 B2d2|e>dc>B c4|c>BA>G F>DE>F|A>GF>E D2 (3DEF|
+G>BA>G F2 (3DEF |G>BA>G F2d2|c>BA>G F>DE>F|1 G2B2 G2 GA :|2 G2 B2 G4||
+S:https://www.folktunefinder.com/tunes/62838
+S:http://abc.sourceforge.net/abcMIDI/original/coll.txt
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/abcMIDI/coll.txt
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

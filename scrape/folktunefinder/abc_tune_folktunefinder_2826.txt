@@ -1,0 +1,23 @@
+X:2
+T: Hasapikos Horos
+C: A. Sakellariou, A. Eptamenitis
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 6/8
+K: Gm
+L: 1/8
+|: "D"(a3 a3) | (^f3 f2)d | "Cm"^fga gfe | "D"g^fe d3 | ^f3 g3 | a3 bag | "Cm"^f2e gfe | "D"(d3 d)z2 :|
+|: "D"d3 bag | ^f2e fga | "Cm"g^fe g^fe | "D"d3 a3 | "D"d3 bag | ^f2e fga | "Cm"g^fe g^fe | "D"(d3 d)z2 :|
+|: "D"c=Bc d3 | "Cm"ede ^f3 | ^fga gfe | "D"dcd a3 | "D"c=Bc d3 | "Cm"ede ^f3 | ^fga gfe | "D"(d3 d)z2 :|
+|: "D7"d2=B c2=B | d2=B c2=B | d2c A2=B | "G"c3 =B3 | G2=B c2=B | G2=B c2=B | G2=B c2=B | "Am"(A3 A)z2 :|
+|: "D"^fga (2aa | (2aa ^fed | ^fga (2aa | (2aa d'3 | "D"^fga (2aa | (2aa ^fed | "Cm"(4de^fg (4agfe | "D"(2da dz2 :|
+S:https://www.folktunefinder.com/tunes/2826
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Hasapikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/Hasapikos1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

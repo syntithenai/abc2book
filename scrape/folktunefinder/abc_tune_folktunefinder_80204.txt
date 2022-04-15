@@ -1,0 +1,27 @@
+X:145
+T: Ein gut gesang von eim wachter
+N: A0512A
+O: Europa, Mitteleuropa, Deutschland
+N: Spoerls Liederhs. Ende 14. Jh. fol. 222b
+R: Romanze, Ballade, Lied, religioeses Lied
+M: none
+L: 1/4
+K: D
+D2D2D2D2A2B2=c2A2A2G2A | D2=F2G2F2E2D2C2D2
+=c2A2G2F2E2D2^C2D2F2E2D2D2
+D2D2D2D2A2B2=c2A2A2G2A | D2=F2G2F2E2D2C2D2
+=c2A2G2F2E2D2^C2D2F2E2D2D2
+D2E2F2G2A2G2F2G2 | GD2E2=F2G2A2G2F2G2D2 | =F2GF2E2C2D2
+A2G2F2E2E2D2C2D2F2E2D2D2
+S:https://www.folktunefinder.com/tunes/80204
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

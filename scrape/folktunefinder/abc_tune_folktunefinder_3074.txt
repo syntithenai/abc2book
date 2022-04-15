@@ -1,0 +1,35 @@
+X: 1
+T: Dospatsko Oro
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+N: Transcriptions by Richard Geisler, Seymour Shlien and Tom Pixton were consulted.
+Q: "Andante"
+L: 1/8
+M: 7/8
+%%slurgraces 1
+P: ABC ABC D ABC
+K: Em
+"A"\
+|: "Em"E3 E2 {E}B2 | B3 B2 BG \
+| "Am"{G}A3 A2 AG | "Em"AB2 G2 GF :|
+"B"\
+|: "A"A2G G2 GF | "D"GA2 F2 FD \
+| "Em"E3 E2 {E}B2 |1,3 "Em"B3 B2 BG :|2,4 "Em"E3 E2 z2 :|
+"C"\
+|: "D"DEF GA AG | ~c2 B "G".B2 z2 \
+|1,3 "D"c2B cd cB | ~A2G "G".G2 z2 \
+:|2,4 "Am"A2G "Bm"GA FD | "Em"E3 HE2 z2 :|
+"D"\
+|: "D"d3 dc cB | ~A2G "G"G4 \
+|1,3 dGe dc BA | "Am"~B2A "D"A4 \
+:|2,4 "Am"AEB "Bm"AG FE | "Em"E3 E2 z2 :|
+S:https://www.folktunefinder.com/tunes/3074
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Dospatsko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Dospatsko.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:27
+T:Connaughtman's Rambles, The
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of Bm)
+K:Bmin
+"D"FAA dAA | "G"BAB dAG | "D"FAA dfe | "G"dBA BAG |
+"D"FAA dAA | "G"BAB def | gfe ~f2e |1 "A"dBA BAG :|2 "A"dBA ~B3 |:
+"Bm"fbb faa | "A"fef deg | "Bm"fbb faa | "A"fed ~e3 |
+"Bm"fbb faa |fef def | "G"gfe ~f2e |1 dBA ~B3 :|2 "A"dBA BAG|]
+S:https://www.folktunefinder.com/tunes/62894
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Jig (key of bm)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

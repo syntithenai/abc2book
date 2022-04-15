@@ -1,0 +1,35 @@
+X: 1
+T: Dave Possi's Reel
+T: Davey's Tune
+C: Bob McQuillen (1981/3/26)
+N: Bob wrote:
+N: Doris & Bill Possi from Boston have a real nice kid named David,
+N: and so this is your tune, Davey, with love from Bob McQuillen.
+R: march
+M: C
+L: 1/8
+K: Am
+|: "Em"E2G2 \
+| "Am"A2E2 A3B | c2A4 e2 | "G"d2c2 B2G2 | "Am"A6 E2 \
+| "Am"A2E2 A3B | c2A2 A2a2 | "C"g2e2 c2e2 | "G"d4 e2g2 |
+| "Am"a2g2 e2a2 | "Em"g2e2 e2d2 | "Am"cded c2A2 | "Em"G6 EG \
+| "F"A3B c2a2 | "C"g2e2 "G"d2ed | "Am"c2A2 "Em"B2G2 | "Am"A4 :|
+|: "(C)"e2g2 \
+| "F"a4 c'3a | "C"g2e4 g2 | "F"a2c'2 c'2a2 | "C"g6 eg \
+| "F"a2c'2 c'3a | "C"g2e2 "G"d2cd | "Am"e2d2 c2A2 | "Em"A2G2 E2G2 |
+| "Am"A2c2 c2A2 | "Em"G2E2 E2G2 | "Am"A3B c2d2 | "Em"e6 g2 \
+| "F"a2g2 c'3a | "C"g2e2 "G"d2cd | "Am"e2c2 "Em"A2G2 | "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/15399
+S:http://trillian.mit.edu/~jc/music/abc/march/DaveysTune_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/DaveysTune_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/DaveysTune_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/march/DaveysTune_Am.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

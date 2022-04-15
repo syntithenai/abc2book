@@ -1,0 +1,23 @@
+X: 37
+T:The Cordal Jig
+T:Morgan Rattler
+M:6/8
+L:1/8
+R:jig
+Z:Barney
+K:D
+BAF ~E3|FAF EFA|BAF EFA|B2A Bcd|BAF ~E3|FAF EFA|
+def edc|B2A Bcd:||d2 e fed|cBc ecA|d2e fed|~f3 fga|
+d2 e fed|cBc ecA|ded cBA|B2 A Bcd:||
+S:https://www.folktunefinder.com/tunes/58644
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

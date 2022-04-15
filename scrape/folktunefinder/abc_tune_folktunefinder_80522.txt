@@ -1,0 +1,28 @@
+X: 244
+T: the Man With the Red Cloak
+B: O'Neill's 244
+N: "With spirit"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:C
+   G2G G2G | GFA G3   | c2c cBc    | (^c3 d2)A \
+|  G2G G2G | GFA G2z  | d2d ded    | c2c GAB ||
+|| c2c cdc | c2B Bc^c | d2d ded    | e2z GAB \
+|  c2c cdc | c2B Bc^c | d2d (de).d | c2z z2 ||
+|| G \
+| f3 def | e3 c2c | BBB BAB | c3 z2G \
+| f3 def | e3 c2c | BBB BAB | c3 z2z ||
+|| G2G G2G | GFA G3   | c2c cBc    | (^c3 d2)z \
+|  G2G G2G | GFA G2G  | d2d ded    | c3 z2z ||
+S:https://www.folktunefinder.com/tunes/80522
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0244_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

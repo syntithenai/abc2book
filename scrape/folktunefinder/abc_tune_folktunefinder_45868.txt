@@ -1,0 +1,30 @@
+X:2
+T:Ultima Online Axe Marks the Spot
+N:http://www.nstorm.com/games/game_detail.aspgame_id=29
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+V:1
+%%MIDI program 6 %harpsi
+%%MIDI channel 1
+%%MIDI control 7 110 %volume
+d a g f/e/ f e/d/ c2 | d e/f/ g f/e/ d2 d2 | 
+f c'_b a/g/ a g/f/ e2 | d e/f/ g f/e/ d2 d2 ||
+V:2
+%%MIDI program 6 %harpsi
+%%MIDI channel 2
+%%MIDI control 7 60 %volume
+D,2 D,2 D,2 C,2 | D,2 G,2 D,2 D,2 |
+F,2 _B,2 F,2 E,2 | D,2 G,2 D,2 D,2 ||
+S:https://www.folktunefinder.com/tunes/45868
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

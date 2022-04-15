@@ -1,0 +1,29 @@
+X: 1
+T: Miss Wedderburn
+O: Atholl
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Atholl Collection
+S: handwritten MS by Barbara McOwen dated July 1994
+M: C|
+L: 1/8
+K: A
+F \
+| "A"E2EF EFAc | "Bm"BABc "E7"BAFA | "A"E2EF "F#m"EFAc | "E7"BABc "A"A2A :|
+c \
+| "D"d2fd "A"c2ec | "Bm"BABc "E7"BAFA | "D"d2fd "A"c2ec | "E7"BABc "A"A2A |]
+c \
+| "D"d2fd "A"c2ac | "Bm"BABc "E7"BAFf | "A"efge "D"a2gf | "E7"ecBc "A"A2A |]
+S:https://www.folktunefinder.com/tunes/17686
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissWedderburn_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissWedderburn_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

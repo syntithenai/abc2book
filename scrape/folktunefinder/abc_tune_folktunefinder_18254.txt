@@ -1,0 +1,22 @@
+X: 1
+T:Trip to Windsor
+M:4/4
+L:1/8
+C:Dan R. MacDonald
+O:Cape Breton, N.S.
+K:A
+|: A/2A/2A (AB) Ace=g |  f/2f/2f (fg) fef^g |  agfe fgaf |1 ecBc AFEF :|2 ecBd cA A2 :|
+|: c |  efec efae |  ((3fga) (ec) BAcB |  AFEC EFAE |  ((3FGA) (EC) B,A,CB, |
+|  A,2 (CE) FECE | AEcB Aceg |  agfe fgaf |1 ecBd (cA) A :|2 ecBc ~A4 ||
+S:https://www.folktunefinder.com/tunes/18254
+S:http://trillian.mit.edu/~jc/music/abc/reel/TripToWindsor.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TripToWindsor.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TripToWindsor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

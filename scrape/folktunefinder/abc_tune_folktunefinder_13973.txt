@@ -1,0 +1,27 @@
+X: 1
+T: the Canadian Club
+C: Frank Ferrel
+M: 6/8
+L: 1/8
+K: A
+%%indent 100
+AB \
+|: "A"c3 cBA | E3 zAB | c3 cBA | e3- e2c | "D"dfd dcB |
+|1 "A"cec cBA | "B7"B3 g2f | "E7"efd cdB :|2 "A"caf ecA | "E7"BcB EFG | "A"A3 z |: ag | "D"faf dfa |
+| "A"ecA AGA | "E7"BcB EFG | "A"AEA cBA | "D"fdf agf | "A"eaf ecA | "E7"BcB EFG | "A"A3 z :|
+S:https://www.folktunefinder.com/tunes/13973
+S:http://trillian.mit.edu/~jc/music/abc/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/FrankFerrel/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/jig/CanadianClubJ_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CanadianClubJ_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

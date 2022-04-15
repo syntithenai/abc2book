@@ -1,0 +1,21 @@
+X: 2
+P: \"Appelbo g\aangl\aat
+O: Trad
+R: g\aangl\aat
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: D2 | "G"G3D G2B2 | d6 Bc | d2Bc d2de | "Am"c2cB A2AB | "D7"c2cd e2dc | "G"BcBA G2FG | "D7"ABAF D2EF | "G"G4- G2 :|
+|: Bd | "G"g6 fe | "D7"f6 gf | "C"e2e2 egfe | "G"e2d^c d2ed | "D7"c2cB A2GA | "G"BcBA G2FG | "D7"ABAF D2EF | "G"G4- G2 :|
+S:https://www.folktunefinder.com/tunes/8486
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Snoa.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 9706
+T:Old Joe's Jig
+M:6/8
+R:Jig
+Z:As played by the CHB
+K:D
+f2A AFA|BAF A2A|BdB AFA|Bcd efg|\
+fAA AFA|{d}BAF A2A|B/2c/2dB AFA|Bdc d2e:|\
+fgf efe|dBA d2e|faa afe|faa b2a|\
+~f3 efe|dBA d2e|fAA {d}AFA|Bdc d2e|\
+faf efe|dBA d2e|faa bfe|fga b2a|\
+fAA eAA|dBA d2e|fAA AFA|Bdc d2e||
+S:https://www.folktunefinder.com/tunes/35606
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

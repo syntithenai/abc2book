@@ -1,0 +1,37 @@
+X:1
+T: the Drunken Sailor
+Z:David Marcus <DavidMarcus:mindspring.COM>
+M:4/4
+D:Tommy Potts "The Liffey Banks"
+T:Tommy Peoples (Ovation recording)
+L:1/8
+K:ADor
+|: AG \
+| A2AG ABcd | edcB AGEF | G2GF GABc | dBGB edcB |
+| A2AG ABcd | edcB AGEF | G2gf edcB | cAAG A2 :|
+|: AB \
+| c2cB cdef | gdBc dBGA | (3BAG dG eGdG | (3BAG dG edcB |
+| c2cB cdef | gdBc dBGB | A2ag edcB | cAAG A2 :|
+|: cd \
+| e2ag a2ga | bagf e3g | (3fed ad bdad | (3fed ad bagf |
+| e2ag a2ga | bagf e3d | (3efg (3fga gedB | cAAG A2 :|
+|: A2 \
+| EAce EAce | DGBd DGBd | EAce EAce | e=fed c2B2 |
+| EAce EAce | d2BG DGBd | (3efg (3fga gedB | cAAG A2 :|
+|: A2 \
+| ae (3abc' ae (3abc' | gd (3gab gd (3gab | ae (3abc' ae (3abc' | gedB ecdB |
+| cdcA B3B | cdcA d3d | (3efg (3fga gedB | cAAG A2 :|
+S:https://www.folktunefinder.com/tunes/17061
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/DrunkenSailorR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/DrunkenSailorR.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

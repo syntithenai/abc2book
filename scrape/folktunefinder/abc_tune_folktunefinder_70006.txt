@@ -1,0 +1,29 @@
+X:446
+T: ACH MUSSTE DER TOD IHN UNS NEHMEN
+N: F0835
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze
+M: 3/8
+L: 1/8
+K: A
+c | dcB | AGA | B3 | cz
+c | dcB | A2A | AFG | Az
+c | dcB | AGA | B3 | cz
+c | dcB | A2A | AFG | Az
+A | BBd | cce | d3 | c2z
+BBd | c2e | ddd | c2z
+c2B | AGF | B2A | G2
+c | dcB | AGA | e3 | cz
+c | dcB | AGA | Az
+S:https://www.folktunefinder.com/tunes/70006
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

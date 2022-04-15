@@ -1,0 +1,37 @@
+X:822
+T:Brudpolska fr\aa{}n Indal
+O:england
+S:"Den f\"orsta polskan p\aa{} br\"ollopet"
+R:Polska
+Q:130
+S:efter Gunbritt Hermansson, Aln\"on
+M:3/4
+L:1/8
+C:e. Gunbritt Hermansson
+A:Indal, Medelpad
+K:A
+ef/g/ a2 a>b | a>g (ae) (ce) | \
+e>d (B>d) c>c | Bc/B/ AA GG | \
+ef/g/ a2 a>b | a>g (ae) (ce) |
+e>d (B>=c) (A>G) |1 (G<A) A3 z :|2(G<A) A3 z  | \
+K:Dm
+|:"H rck nog te torsdan"\
+[A,2D2] f2 e>d | (d^c) A3 z |
+D>E F2 (ED) | ^CD (EF) (DC) | \
+A,2 f2 e>d | (d^c) A3 z | \
+D>E F2 (ED) | (^CE) D3 z :|
+S:https://www.folktunefinder.com/tunes/21271
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

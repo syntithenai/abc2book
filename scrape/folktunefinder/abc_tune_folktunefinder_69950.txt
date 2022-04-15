@@ -1,0 +1,29 @@
+X:390
+T: NOCHMALS LASS NATUR DICH GRUESSEN
+N: F0699
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Jahreszeiten - Lied, Herbst
+M: 4/4
+L: 1/8
+K: Bb
+d2c2 | e3df2e2 | g2f2
+e2d2 | c2c2e3d | d4
+d2=e2 | d2^c2=c3c | d2c2
+f2B2 | f2A2c3B | A4
+c2d2 | e3ef3e | e2d2
+d2e2 | f3Bg2f2 | e4
+e2_d2 | c2c2e3_d | _d2c2
+c2c2 | c2d2e2c2 | f4
+e2d2 | g2c2f3A | B4
+S:https://www.folktunefinder.com/tunes/69950
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, jahreszeiten - lied, herbst
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

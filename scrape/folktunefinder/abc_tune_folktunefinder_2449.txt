@@ -1,0 +1,17 @@
+X:1
+P:P:Tune 1
+M:6/8
+L:1/8
+K:E
+zB | "E"eBB gBB | "B7"fBB "E"gBB | "F#m"cff f2e | "B"fge cec |
+S:https://www.folktunefinder.com/tunes/2449
+S:http://trillian.mit.edu/~jc/music/abc/test/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_medley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

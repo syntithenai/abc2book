@@ -1,0 +1,21 @@
+X: 3
+T:The American Dwarf
+% Nottingham Music Database
+S:FTB, via EF
+M:6/8
+K:D
+P:A
+A|"D" def fed|"G" BdB AFD| "D"DFA "G"B2 A|"Em" cee "A7" e2 A|
+"D" def fed|"G" BdB "D"AFD|"D" DFA "G"B2 A|"A7" Add "D" d2:|
+"B"e|"D"fga agf|"G" gab "A7"bag|"D"fga "D"agf|"Em" gfg "A7"e2 g|
+"D"fga agf|"G"gab "A7"bag|"D" fga "A7"efg|"D" fdd d2 :|
+S:https://www.folktunefinder.com/tunes/65436
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

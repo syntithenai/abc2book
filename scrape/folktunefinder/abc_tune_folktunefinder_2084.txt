@@ -1,0 +1,18 @@
+X:1
+T:cornelius
+M:6/8
+L:1/8
+Q:3/8=100
+K:Bmin
+|:B2 f fed | cde BAB | A2e edc | cAA cde |
+B2 f fef | fef afe | fBB eBB | cde Adc:|
+|:Bff fga  | eAe edc | Aee edc | cAc edc |
+Bff fga  | agf gfe | cAc cde | cde Adc:|
+S:https://www.folktunefinder.com/tunes/2084
+S:http://www.slainte.ch/abc/own.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

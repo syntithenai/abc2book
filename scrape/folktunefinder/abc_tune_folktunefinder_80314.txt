@@ -1,0 +1,26 @@
+X:255
+T: St. Georg
+N: A0612
+O: Europa, Mitteleuropa, Deutschland
+N: WK II No. 1235 (nach Altkoelnischer Volksgesang Gsgb 1625)
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/8
+K: G
+_B2A2 | G4d4c3d_e4 | d8z4
+_B2A2 | G4d4c3d_e4 | d8d4
+e2=f2 | g4d2d2c3_Bc2d2 | _B8z4
+=f2f2 | g4d3c_B2B2c2c2 | d8z4
+_B2A2 | G2A2_B4c2A2G4 | d2d2c4GA_BcA2A2 | G8z4
+S:https://www.folktunefinder.com/tunes/80314
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

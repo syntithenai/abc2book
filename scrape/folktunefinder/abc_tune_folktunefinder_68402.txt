@@ -1,0 +1,34 @@
+X:81
+T:Shallow Brown (Sharp)
+M:3/4
+L:1/8
+K:A
+A<(A-(3AGF)E2|
+M:2/4
+L:1/8
+A<A E2|
+M:3/4
+L:1/8
+=G<(G-(3GFE)D2|=G<G D3||
+D|
+M:2/4
+L:1/8
+A>B AE|A>B A<A|
+M:3/4
+L:1/8
+A<(A-(3AGF)E2|A<A E3E|
+M:2/4
+L:1/8
+=G>A GD|=G>A G<G|
+M:3/4
+L:1/8
+=G<(G-(3GFE)D2|=G<G D3||
+S:https://www.folktunefinder.com/tunes/68402
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

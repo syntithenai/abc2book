@@ -1,0 +1,25 @@
+X: 2
+T: Le tourment
+T: The Torment
+C: Jean-Paul Loyer
+O: Qubec
+M: 6/8
+L: 1/8
+K: C
+B, \
+| "F"A,2A, A,B,C | "C"G,CB, CDE | "Dm"G2G GFE | FED "C"EDC \
+| "F"A,2A, A,B,C | "C"G,CB, CDE | "Dm"GFE FED | "G7"G,CB, "C"C2 :|
+ G, \
+|: "C"CB,C "Dm"DCD | "C"EGF EDC | "F"A,2F FEF | "G7"G2G GAB \
+| "Am"cBc "(G)"G2G | "F"AGA "C"E2E | "Dm"FED EDC |1 "G7"DCB, G,A,B, :|2 "G7"DCB, "C"C2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/192
+S:http://trillian.mit.edu/~jc/music/abc/Contra/Tourment.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/Tourment.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

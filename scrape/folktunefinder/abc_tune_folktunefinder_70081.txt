@@ -1,0 +1,28 @@
+X:521
+T: SONNE MIT EILENDEM FLUEGEL
+N: F0995
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Tageszeiten - Lied, Abend
+M: 6/8
+L: 1/16
+K: Eb
+ | B,3CB,2B,2G,2A,2 | B,4E2B,4z2
+B,2G,2A,2B,2A,2G,2 | F,6-F,4z2
+B,3CB,2B,2G,2A,2 | B,4E2B,4z2
+B,2G,2A,2B,2A,2G,2 | F,6-F,4z2
+B,3=A,B,2C2B,2C2 | D6E6
+D3ED2C2D2C2 | B,12
+B,2G,2A,2B,2G,2A,2 | B,4E2G4E2
+B,3CB,2B,2C2D2 | E6-E4z2
+S:https://www.folktunefinder.com/tunes/70081
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Natur -, tageszeiten - lied, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

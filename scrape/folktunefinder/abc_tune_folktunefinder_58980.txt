@@ -1,0 +1,38 @@
+X:93
+T:Baille de Panderu (CT 154)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Panderu, transcrita en Muriellos, ayuntamiento de Riosa.
+A:Asturies
+O:Muriellos (Riosa)
+Z:Cancioneru de Torner 154
+M:6/8
+L:1/8
+Q:3/8=88
+K:G
+|GBB ABc|B2 A-A3|FBB AcB|A2 G-G3|
+GBB ABc|B2 A-A3|FBB AcB|A2 G-G2 z|
+GBB ABc|B2 A-A3|FBB AcB|A2 G-G3-|G3||
+W:Non quiero casa cada,
+W:nin panera derribada,
+W:nin casamiento a disgusto:
+W:donde no hay gusto no hay nada.
+W:
+W:Non quiero casa cada,
+W:nin panera derribada.
+W:
+S:https://www.folktunefinder.com/tunes/58980
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

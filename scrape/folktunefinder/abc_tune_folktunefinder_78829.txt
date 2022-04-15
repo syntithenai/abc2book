@@ -1,0 +1,23 @@
+X:388
+T: ICH SING EIN LIED UND WEISS NIT WIE
+N: E0305
+O: Europa, Mitteleuropa, Deutschland
+R: historisches Lied, Spott - Lied
+M: 3/4
+L: 1/4
+K: F
+ | FFF | c2A | B2G | A3
+FFF | c2A | B2G | A2
+F | FFFF | F2G
+A | B2G | F2A | B2G | F2
+F | AABB | c2BA | G2Fz
+S:https://www.folktunefinder.com/tunes/78829
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X: 15
+T:Princes(s) Royal, (or Cross Caper), JG
+M:4/4
+L:1/8
+Q:1/4=120
+S:JG
+R:Hornpipe
+A:Bidford
+P:A.(A2BC3)4.AA
+K:G
+P:A
+d>c|B>cA>B G2d>c|B>cA>B G2c>d|e2e>d c2e2|d2d>c B2d2|
+c2B2 A2G2|F>GA>F D2d>c|B>dB>G A2D2|G4 G2||
+P:B
+zd|e2d2 e2f2|g2G>G G2A>B|c2B2 A2G2|F2E2 D4|
+D>EF>G A2A2|B2d2 g4|f2d2 e4|d2G2 c4|
+B2A2 G2B2|A>GF>E D2d>c|B>dB>G A2D2|G4 G2||
+P:C
+d>c|B>cA>B G2d>c|\
+M:5/4
+L:1/8
+B>cA>B G2d3d|\
+M:4/4
+e4 e3d|c4 e4|d4  d3c|B4 d4|
+c4 B4 |A4 G4|F3G A3F|\
+M:3/4
+L:1/8
+D4d>c|\
+M:4/4
+B>dB>G A2D2|G4 G2||
+S:https://www.folktunefinder.com/tunes/75827
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

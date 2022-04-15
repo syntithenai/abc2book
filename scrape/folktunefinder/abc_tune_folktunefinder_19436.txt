@@ -1,0 +1,30 @@
+X: 1
+T: Kincorth Brig
+C: Adam Allardyce
+R: strathspey
+B: MMM2 #__
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+d \
+| "A"c>B A>G "D"F>A "A"A,>C | "Bm"D>F B>A "E7"G<E E>d \
+| "A"c>B A>G "D"F>A "A"A,>c | "Bm"(3def "E7"Bcd "A"c<A A>d |
+| "A"c>B A>G "D"F>A "A"A,>C | "Bm"D>F B>A "E7"G<E E>c \
+| "D"(3def "E7"(3Bcd "A"(3cde (3ABc | "E7"(3efe (3dcB "A"c<A A |]
+f \
+| "A"e>A c>A e>A c>d | "A"e>A B>c "Bm"Bf \
+| "A"e>A c>A "D"d>f "A"e>c | "Bm"(3def "E7"Bcd "A"c<A A>f |
+| "A"e>A c>A e>A c>d | "A"e>A B>c "Bm"Bc \
+| "Bm"(3def "E7"(3Bcd "A"(3cde "F#m"(3ABc | "E7"(3efe (3dcB "A"c<A A |]
+S:https://www.folktunefinder.com/tunes/19436
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Kincorth_Brig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Kincorth_Brig_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

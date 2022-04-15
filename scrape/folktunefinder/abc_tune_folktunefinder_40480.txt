@@ -1,0 +1,34 @@
+X:82
+T:Rosie's Reel
+R:reel
+C:Kevin Crawford
+N:Played on Low F whistle on the recording
+D:L\'unasa Otherworld
+Z:Spencer Nitchie
+Z:Aaron Clegg
+M:C|
+L:1/8
+Q:1/2=95
+K:BMin
+"Bm"FBBA "Bm"B2dA|"F#m"FAAA "F#m"ABFE|"Bm"FBBA "Em"B2AB|"D"def/2e/2d "Em"eeeg|
+"Bm"fBBA "Bm"B2 dA|"F#m"FAAF "F#m"ABFE|"Bm"FBBB "Bm"dBfd|"A"cAec "Bm"dBBA|
+"Bm"F4 "Bm"BcdA|"F#m"FFFA "F#m"AFED|"Bm"FBBA "Em"B2AB|"D"def/2e/2d "Em"eaba|
+"Bm"fBBA "Bm"B2 dA|"F#m"FAAF "F#m"ABFE|"Bm"FB B2 "Bm"dBfd|"A"cAec "Bm"dBBA|
+"Bm"fBBA "Em7"g4   |"Em7"gffe "Em7"edcA|"A"A2AA "A" EAce |"F#m"aefa "F#m"fece|
+"Bm"fBB2 "Em7"gfeg |"F#m"fBB2 "D"  dcBc|"A"ABcA "Bm"EAce |"F#m"aece "Bm"fB B2|
+"Bm"fBBA "A"geag   |"D"fB B2 "G"dBEc   |"A"A2AA "A" EAce    |"F#m"aefa "F#m"fece|
+"G"fBB2  "G"bafe   |"Bm"fBB2  "G" dcBc   |"A"a4 "F#m"afec|"F#m"d2 c/2B/2A "Bm"BA FE|
+"Bm"fBBB "G"g4-|"Bm"gffe "Em"edcB|"A"A2 AA "A"EAce|"F#m"aefa "F#m"fece|
+"Bm"fB B2 "Em"gfeg|"Bm"fB B2 "Bm"dcBc|"A"ABcA "A"EAce|"A"aece "Bm"fBBB|
+"Bm"fBBB "Em"geag|"Bm"fB B2 "Bm"dBec|"A"A2 AA "A"EAce|"F#m"aefa "F#m"fece|
+"Bm"fBBB "Bm"bafe|"Bm"fB B2 "Bm"dcBc|"A"a4 "F#m"afec|"Bm"d2 C/2B/2A "Bm"BAFE||
+S:https://www.folktunefinder.com/tunes/40480
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

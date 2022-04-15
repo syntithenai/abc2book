@@ -1,0 +1,53 @@
+X: 2
+T: Drohobitsher Khusid
+D: S.Young's Yiddisher Orchestra, Feb.1921
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: EPhr^G
+|: "E"EEEE EcBA \
+| ABG2 G2G2 \
+| GGGG "(Dm)"GAGF \
+| "E"FGE2 E2E2 \
+| EAG2 "Am"GBA2 \
+| "E"AcB2 "Am"Bdc2 |
+| ceed dccB \
+| "E"B6 EE \
+|| "E"EEEE EcBA \
+| ABG2 G2G2 \
+| GGGG GAGF \
+| FGE2 E2E2 \
+| "Dm"FED2 BAG2 |
+| dcB2 BAG2 \
+| "E"BAAG "(Dm)"GFFE \
+| "E"E8 \
+:: "E"e8 \
+| e8 \
+| "Dm"dAdf "E"e2e2 \
+| "Dm"dAdf "E"e2e2 \
+| dcBA GABc \
+| TB8 |
+| "Dm"Bcdc dcBA \
+| GABA BAGF \
+| "E"BAAG "(Dm)"GFFE \
+| "E"E8 :| \
+[K:=G][K:Em] \
+:: "Em"BeeB B4 \
+| BeeB B4 |
+| "Em"Beed "(E7)"dccB \
+| "E7"BAA^G "Am"A4 \
+| "D"AddA A4 \
+| AddA A4 \
+| "Em"GABG "B7"A2GF \
+| "Em"E8 :|
+S:https://www.folktunefinder.com/tunes/6897
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/DrohobitsherKhusid.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Khos_Drohobitsher.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

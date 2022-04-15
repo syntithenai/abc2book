@@ -1,0 +1,23 @@
+X:8
+T: Der Brautmoerder
+N: A0014
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: E
+B,B,B, | E3F=G2F2 | E4z
+BBB | A3AB2A2 | =G4z
+=ddd | =G3G=c2B2 | A4z
+=DDD | =GABAG2F2 | E4z
+S:https://www.folktunefinder.com/tunes/68554
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

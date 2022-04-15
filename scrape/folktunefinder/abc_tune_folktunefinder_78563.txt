@@ -1,0 +1,25 @@
+X:122
+T: IK SACH MINEN HER VAN VALKENSTEN
+N: E0062
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Bielefeld
+R: erzaehlendes Volks - Lied, Ritter - Sage
+M: 4/4
+L: 1/8
+K: G
+d2 | d2c_BA2d2 | d2c_BA3
+c | _B2A2G2G2 | F4G2
+GG | A2_BBc2A2 | _B2c2d3
+c | _B2A2G2G2 | F4G2
+S:https://www.folktunefinder.com/tunes/78563
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:155
+T: IM SCHWOBENLAND A BAUER WOHNT
+N: Z0154
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/8
+K: A
+E | AABB | =cc=G
+G | =ccdd | e2e2 | e2ee | e3
+=c | eeee | d2d
+e | =cABG | A2AA | A2z
+S:https://www.folktunefinder.com/tunes/69014
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

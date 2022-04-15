@@ -1,0 +1,23 @@
+X: 2308
+T:Old Lancashire Hornpipe, 1st setting
+M:3/2
+L:1/8
+K:D
+B2 A2 G2 | F3 E  D2 f2 e2 d2 | e2 E4 B2 A2 G2 |\
+           F3 E  D2 f2 e2 dc | d2 D4 |
+B2 A2 G2|| F2 A2 G2 B2 A2 d2 | e2 E4 B2 A2 G2 |\
+           F2 A2 G2 B2 A2 c2 | d2 D4 f2 g2 a2 ||
+           f3 e  d2 f2 e2 d2 | c2 e4 f2 g2 a2 |\
+           f3 e  d2 f2 e2 dc | d6  |]
+S:https://www.folktunefinder.com/tunes/32704
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

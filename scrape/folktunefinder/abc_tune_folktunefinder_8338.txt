@@ -1,0 +1,28 @@
+X: 133
+P: Vall\aatspolskan
+O: efter G\"ossa Anders
+N: From arrangement by Alm Nils Ersson
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+A2- \
+|: A3(^c d3)(e f2)a2 |    a3g    ga3   (fg)fe \
+| ^c4   (d2e2) f2e2  |1,3 g2f2   dedc   A4- :|2,4 g2f2 d8 :|
+K: Gm
+|: A3(B  A2)Bc d4-   |    d2(^F2 G2)A2  B3c \
+|  d3e   d2c2  B2A2  |    c2B2   G2^F2  D4- |
+|  D3(B  A2)Bc d3c   |    B2A2  (G^F)GA B3c \
+|  d3e   d2c2  B2A2  |    c2B2   G8 :|
+S:https://www.folktunefinder.com/tunes/8338
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

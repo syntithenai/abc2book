@@ -1,0 +1,24 @@
+X: 50
+T: Tommy Reck's Polka
+R:polka
+Z:J Walsh <walsh@math.ubc.ca> abcusers 2002-4-22
+N:with chords by Henrik's Cyberbacker, 2 chords/bar and strangeness = 100%.
+S:T. Reck
+M:2/4
+K:D
+"A#"A2d2 "D#"fgfe|"D#m"d2F2 "A#"A3d|"A#m"c2E2 "G#m"G3B|"A#"A2D2 "F"F2A2|\
+"A#"A2d2 "D#"fgfe|"D#m"d2F2 "A#"A3d|"F"c2A2 "D#"G2E2|"A#"F2D2 "A#"D4:|
+"A#"f2d2 "A#"d4|"G#m"c2B2 "G#m"B4|"G#m"e2B2 "G#m"c2B2|"F"B2A2 "F"F2A2|\
+"A#"f2d2 "A#"d4|"G#m"c2B2 "G#m"B4|"G#m"B2e2 "A#m"B2c2|"F"d6 z2:|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6355
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

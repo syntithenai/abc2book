@@ -1,0 +1,29 @@
+X:186
+T: Liebeslied
+N: A0220B
+O: Europa, Mitteleuropa, Deutschland
+N: Dieselbe Melodie nach ihrem Rhythmus geordnet.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: F
+A2 | d2cB2A | G2A2
+e2 | f2fe2e | d4
+A2 | d2cB2A | G2A2
+e2 | f2fe2e | d2z
+f | ecde | f3
+c | dcdB | A2f2
+e2gf2e | d2e2
+A2 | B2AG2G | A4
+S:https://www.folktunefinder.com/tunes/68732
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,84 @@
+X: 26
+T: Devonshire Lancers
+M: 6/8
+L: 1/8
+Q:1/4=150
+K:D % 2 sharps
+% Devonshire Lancers
+% (c) SSF February 2006
+V:1
+z6| [DD]FA BAB| \
+cBc2<d2| \
+ABA GAG|
+FGF2<E2| \
+DFA2<B2| \
+cBc d2f| \
+edB BAF|
+AFE2<D2| \
+[DD]FA BAB| \
+cBc2<d2| \
+ABA GAG|
+FGF2<E2| \
+DFA2<B2| \
+cBc d2f| \
+edB BAF|
+AFE2<D2| \
+ABA2<f2| \
+efe2<d2| \
+ABA f2f|
+g2f2<e2| \
+ABA2<f2| \
+efe d2f| \
+edB BAF|
+AFE2<D2| \
+ABA2<f2| \
+efe2<d2| \
+ABA f2f|
+g2f2<e2| \
+ABA2<f2| \
+efe d2f| \
+edB BAF|
+AFE2<D2|
+V:2
+z6| D,z[AFD] G,z[dBG]| \
+A,,z[ECA,] D,z[AFD]| \
+D,z[AFD] G,z[dBG]|
+D,z[AFD] A,,z[ECA,]| \
+D,z[AFD] G,z[dBG]| \
+A,,z[ECA,] B,,z[FDB,]| \
+E,z[B^GE] D,z[AFD]|
+A,,z[ECA,] D,z[AFD]| \
+D,z[AFD] =G,z[dBG]| \
+A,,z[ECA,] D,z[AFD]| \
+D,z[AFD] G,z[dBG]|
+D,z[AFD] A,,z[ECA,]| \
+D,z[AFD] G,z[dBG]| \
+A,,z[ECA,] B,,z[FDB,]| \
+E,z[B^GE] D,z[AFD]|
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+D,z[AFD] A,,z[ECA,]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+E,z[B^GE] D,z[AFD]|
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+D,z[AFD] A,,z[ECA,]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]| \
+E,z[B^GE] D,z[AFD]|
+A,,z[ECA,] D,z[AFD]|
+S:https://www.folktunefinder.com/tunes/81665
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

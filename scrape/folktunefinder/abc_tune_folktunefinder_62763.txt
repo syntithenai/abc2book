@@ -1,0 +1,35 @@
+X: 41
+T:Lay Dee At Dee (Double-Stopped)
+M:4/4
+L:1/8
+Q:180
+K:D
+"D"[Dd][Ae][Af][Ae][D2d2][D2d2]|
+[DA][DB][DA]G[D2F2][D2A2]|
+[D2d2] [Ae][Af] "G"[Ag][Af] [A2e2]|
+"Em"[Ae][Af][Ae][Dd] "A"[Dc][DB] [D2A2]|!
+"D"[Dd][Ae][Af][Ae][D2d2][D2d2]|
+[DA][DB][DA]G[D2F2][D2A2]|
+[D2d2] [Ae][Af] "G"[Ag][Af] [Ae]c|
+[A2e2] "D"[D2d2] "D"[G,3D3d3] e::!
+"D"[A2f2] d[Af] [Aa][Af]d[Af]|
+[A2f2] d[Af] "G"[A3g3] [Af]|
+"A"[A2e2] c[Ae] [Ae][Ae]c[Ae]|
+[Ae][Dd][Dc][DB] "A7"[D3A3]e|!
+"D"[A2f2] d[Af] [Aa][Af]d[Af]|
+[Aa][Af]d[Af] "G"[A3g3] [Af]|
+"Em"[Ae][Af][Ag][Af] "A"[Ae][Dd][Dc][DB]|
+"D"[D2A2] [D2d2] [D3d3]z:||
+%  ABC2Win Version 2.1 12/31/98
+S:https://www.folktunefinder.com/tunes/62763
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

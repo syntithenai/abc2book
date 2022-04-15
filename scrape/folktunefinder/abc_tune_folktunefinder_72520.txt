@@ -1,0 +1,21 @@
+X:63
+T: Als Sankt Justil blind geboren war,CNR[und ihr Vater ein Pfalzgraf war
+N: D0066
+O: Europa, Mitteleuropa, Lothringen, Hambach
+R: Legenden - Lied
+M: 3/8
+L: 1/16
+K: G
+d4A2 | A4d2 | =f4g2 | =f4e2 | d6
+d4d2 | c3cd2 | _B4A2 | G6- | G4
+G2 | _B4B2 | d2c2c2 | d6 | d2c2_B2 | A6 | G6
+S:https://www.folktunefinder.com/tunes/72520
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Boston Hospitality
+C: Ed Pearlman 1986
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"D>dd d2A | "(G)"B>dB "D"A>FD | "Em"E>ee e2d | "A7"e>fe d>BA \
+| "D"BdB "D"A>FD | "Em"E>eg e>dB | "A7"B<AB "D"d2 :|
+|: f/g/ \
+| "D"a>fd d2A | "(G)"B>dB "D"A>FD | "Em"b>ee e>gf | "A7"e>dB B2A \
+| "D"a2d f>ed |   "G"B>dB "D"A>FD | "Em"E>eg e>dB | "A7"B<AB "D"d2 :
+S:https://www.folktunefinder.com/tunes/13928
+S:http://trillian.mit.edu/~jc/music/abc/jig/BostonHospitality_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BostonHospitality_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

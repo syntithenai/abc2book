@@ -1,0 +1,22 @@
+X: 2
+M: 3/4
+L: 1/8
+P: \"Annchen von Tharau
+K: C
+|: "C"[G3E3] [AF] [G2E2] | [G2E2] [c2E2] [c2E2] \
+| "G7"[d3F3] [eG] [d2F2] | "C"[c4E4] z2 |
+| "G7"[B2D2] [B2D2] [B2D2] | [d3F3] [cE] [B2D2] \
+| "D7"[A3D4] [BD] [A2C2] | "G"[G4B,4] z2 :|
+[| "G"[G2B,2] [G2D2] "D7"[A2^F2D2] | "G"[B2G2D2] [G2D2] "D7"[A2^F2] \
+|  "G"[B2G2] [B2G2] [c2G2E2] | "G7"[d6G6F6] |
+| "C"[c2E2] [d2F2] [e2G2] | "F"[f3A3] [fG] [d2F2] \
+| "C"[c2E2] "Dm"[d2F2] "G7"[B2G2] | "C"[c2E2] z2 |]
+S:https://www.folktunefinder.com/tunes/4808
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Waltz_AnnchenVonTharau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 8005
+T:Var det du eller var det jag (L\aa{}ngdans)
+R:Longdans
+R:Polska
+O:Sweden
+M:3/4
+A:Dalarna
+K:ADor
+AB|\
+c2cdBc|A2ABcd|e2g2f2 |e4::\
+e2|\
+e2c2ec|c2eceg|
+f2d2fd|d2fdfg|\
+ef ed cB|A2c2cc|B2G2G2|A4:|
+S:https://www.folktunefinder.com/tunes/35222
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Longdans
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

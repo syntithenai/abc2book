@@ -1,0 +1,36 @@
+X: 1
+T: Miss Gordon of Liverpool
+C: William Marshall
+R: jig
+B: RSCDS Leaflet
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Originally in 9/8
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F3 "Bb"F2d | "F"cAF F3 | "C7"E/F/GG GAF | EDE CDE \
+| "F"F3 "Dm"F2d | "C7"cde "F"f2c | "Bb"d/e/fd "C7"e/f/ge | "F"f3- f2 :|
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e3 c3 \
+| "F"afc "C7"bge | "F"afc "Dm"AFD | "F"C2F "C7"E/F/GE | "F"F3- F2 |]
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e2d c3 \
+| "Bb"dBf "F"cAf | "Bb"dcB "F"cAF | "F"C2F "C7"E/F/GE | "F"F3- F2 |]
+S:https://www.folktunefinder.com/tunes/14662
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissGordonOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissGordonOfLiverpool.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

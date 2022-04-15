@@ -1,0 +1,25 @@
+X:385
+T:Quick Step 23rd Regt.
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000115.html
+%%ID:00000115
+K:G
+d|\
+gag fef| g3 d3| e2c B2c| BAB G2d|\
+gag fef| g3 a3| fed ed^c| d3 d2||
+d|\
+dBd dBd| e2c e2c| e^ce ece| f2d f2d|\
+gag fef| g3 d2c| BAG AGF| G3 G2::
+S:https://www.folktunefinder.com/tunes/30386
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:769
+T:Arthur Darley's
+T:The Swedish Jig
+M:6/8
+A:Ireland
+R:Jig
+K:D
+d2e|:"D"dcB ABA|AGF "A"EDC|"D"D2A d2e|fgf "A"edc|
+"D"d2A d2e|fgf "A"edc|"D"d2A "G"BAG|"D"FED "A"EDC|
+"D"DA,B, "A"CDE|"D"DCD "A"EDE|"D"FEF "G"GFG|
+"D"FED "A"EDC|[1"D"D3 d2e:|[2"D"D3 D2A,||
+K:F
+"Dm"A,2F FEF|A,2F FEF|A,FF "Gm"GFG|"Dm"AGA "Gm"BAB|
+"Dm"A,2F FEF|A,2F F2G|FED "A"ED^C|[1"Dm"D3 D2A,:|[2"Dm"D2A d2e||
+K:D
+"D"fgf "A"edc|"D"d2A "G"BAG|"D"FED "A"EDC|"D"DA,B, "A"CDE|
+"D"DCD "A"EDE|"D"FEF "G"GFG|"D"FED "A"EDC|[1"D"D2A d2e:|[2"D"D6||
+S:https://www.folktunefinder.com/tunes/1403
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

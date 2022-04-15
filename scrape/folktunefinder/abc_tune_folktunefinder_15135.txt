@@ -1,0 +1,24 @@
+X: 1
+T: Take a Dance [Bb]
+O: 1765
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+|: "Bm"B2c     d2e |     fed "A(F#m)"c3 | "Bm"B2c d2e | "(G)"f2g "(A)"fdB \
+|  "Bm"B2c     d2e |     fed   "F#m" c3 |  "A"A2B c2d |  "A" e2a      ecA :|
+|:  "D"a2f "A7"g2e | "Bm"f2d   "F#m" c3 | "Bm"B2c d2e | "(G)"f2g "(A)"fdB \
+|   "D"aaf "A7"gge | "Bm"ffd   "F#m" c3 |  "A"A2B c2d |  "A" e2a      ecA :|
+S:https://www.folktunefinder.com/tunes/15135
+S:http://trillian.mit.edu/~jc/music/abc/jig/TakeADance_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TakeADance_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

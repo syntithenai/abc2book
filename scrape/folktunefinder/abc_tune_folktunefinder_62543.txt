@@ -1,0 +1,32 @@
+X:12
+T:Babba-Lisas hyfs'n (Snoa, Polka)
+C:S\"oren Johansson
+%O:Sweden
+R:snoa, polkett, polka
+Z:John Chambers <jc@trillian.mit.edu>
+N:Modified slightly by Bob Wyttenbach
+%Q:1/4=120
+M:2/4
+L:1/16
+K:G
+P:A
+ D2 \
+|"G"GGGG G2A2 | BBBB B2c2 | dddd d2e2 | "D7"z2f4 g2 \
+|   aaaa a2g2 | ffff f2e2 | dddd d2c2 | B6 d2 |
+ "G"GGGG G2A2 | BBBB B2c2 | dddd d2e2 | "D7"z2f4 g2 \
+|   aaaa a2g2 | ffff f2e2 | ~d2^cd e2f2 | "G"g6d2 :|
+P:B
+   "G"d2gg g2d2 | B2dd d2B2 | G2[gB][gd] g2B2 | "Am"c6 B2 \
+| "D7"A2aa a2gg | g2ff f2ee | e2dd d2c2 | B6 c2 |
+   "G"d2gg g2d2 | B2dd d2B2 | G2[gB][gd] g2B2 | "Am"c6 B2 \
+| "D7"A2aa a2gg | g2ff f2e2 | ~d2^cd e2f2 |[1"G"g6d2:|[2"G"g4[g4B4]|]
+S:https://www.folktunefinder.com/tunes/62543
+S:http://www.nordicfiddlesandfeet.org/music/NFF.abc
+% Rhythm Snoa, polkett, polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

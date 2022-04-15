@@ -1,0 +1,24 @@
+X: 1
+T: the Moudiwort
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|: g \
+| "G"dBG ABd | "Am"e2A A2g | "G"dBG "D"ABd | "Em"e2E E2g \
+| "G"dBG "D"ABd | "C"edc "G"BAG  | "Am"cBA "Bm"dcB | "Em"e2E E2 :|
+|: f \
+| "G"gag gfe | "D"aba agf | "G"gfg "D"aga | "Em"b2e e2f \
+| "G"gag gfe | "D"aba agf | "Em"bag "B7"agf | "Em"e2E E2 :|
+S:https://www.folktunefinder.com/tunes/14703
+S:http://trillian.mit.edu/~jc/music/abc/jig/MoudiwortJ2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MoudiwortJ2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

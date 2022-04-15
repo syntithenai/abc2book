@@ -1,0 +1,25 @@
+X:665
+T:Bourre in 3/8
+L:1/8
+M:3/8
+O:France
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006fb.html
+%%ID:000006fb
+K:C
+e3 |efe |d2c |d3 |e3 |efe |d2c |dc/B/A/G/:|\
+ede | cA/B/c/d/| ede | cBc |
+ede | cA/B/c/d/| ede | cBc | \
+d3 | dcd | e2d | cBc | d3 | dcd | e2d | c3 ||
+S:https://www.folktunefinder.com/tunes/36212
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

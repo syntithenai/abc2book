@@ -1,0 +1,39 @@
+X:1
+T:the Teddy Bears' Picnic
+C:John W. Bratton (c.1907)
+N:Words by Jimmy Kennedy
+N:Copyright assigned 1907 to M.Witmark & Sons,  New York.  For the
+N:United Kingdom & British Dominions, (excepting Canada and Australia)
+N:and Continental Europe, B. Feldman & Co., ltd.
+M:6/8
+L:1/8
+K:Am
+"E7"E3 \
+| "Am"A2c "E7"BcB | "Am"A2c "E7"B2c | "Am"ABc "E7"B2c | "Am"A3- "G7"A2G \
+| "C"c2e "G7"ded | "C"c2e "G7"d2e | "C"cde "G7"d2e | "C"c3- c2g |
+| "G7"a2g a2g | deg e2d | "C"d2c d2c | GAc A2G | "F"A2c "C"G2G | "F"ABc "C"G2e | "G7"d6 | "C"c3 :|
+K:F
+[| "C7"z3 | "F"C3 A3 | ^G3 A3 | d2A c3- | c2A ^G2A | d2A c2A | dcA ^G2A | "C7"c2c B3- | B6 |
+| "C7"C3 B3 | ^F3 G3 | e2e d3- | d2B A2B | e2d c2B | edB A2B | "F"d2d c3- | c3- "C7"c3 |
+| "F"C3 A3 | ^G3 A3 | d2A c3- | c2A ^G2A | d2A c2A | dcA "F7"G2F | "Bb"f6- | f3- fde |
+| "Bb"f2e f2e | "G7"fef gfd | "F"c2=B c2d | "Dm"c2F G2A | "Gm"B3 c2d | "C7"A3 G3 | "F"F6- | Fz2 |]
+S:https://www.folktunefinder.com/tunes/15145
+S:http://trillian.mit.edu/~jc/music/abc/jig/TeddyBearsPicnic.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/TeddyBearsPicnic_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TeddyBearsPicnic.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TeddyBearsPicnic_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TeddyBearsPicnic.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TeddyBearsPicnic_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TeddyBearsPicnic.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TeddyBearsPicnic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

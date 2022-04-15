@@ -1,0 +1,51 @@
+X:50
+T:La partance
+R:Chanson
+C:
+N:tagafolk.abc
+Z:<anamnese@laposte.net>
+M:3/4
+L:1/4
+Q:1/2=90
+K:G
+EEF | G2B | GF2-|F3 | E>FG | F2D |
+E3-|E3 | zBB | B2A | BG2-|G3 |
+GAB | (BA)G | F3-|F3 | EBB | B2 G |
+FE2-|E3 | G/ G/-G G | F2D | E3-|E3 ||
+W:1. La journe que j'pouse, je recois commandement: 
+W:Un commandement de guerre, pour servir le roi Louis; 
+W:en sortant de l'glise, m'a bien fallu partir.
+W:
+W:2. La partance a t longue, l'a bien dur sept ans. 
+W:Au bout de la septime, mon cong ils m'ont donn; 
+W:dans les bras de ma chre j'irai m'y reposer.
+W:
+W:3. La journe que j'arrive, ma femme elle se remarie. 
+W:J'arrive devant sa porte, trois petits coups j'frappa. 
+W:J'ai pos ma valise, mon or et mon arbent.
+W:
+W:4. Et les gens de la noce m'ont convi  souper, 
+W:et moi qui tais bien aise, je n'ai pas refus; 
+W:j'ai dplac ma chaise auprs de la marie.
+W:
+W:5. Mais les gens de la noce se sont trouvs insults: 
+W:"Retirez-vous, gendarme! Retirez-vous d'ici! 
+W:La marie de ce soir, elle vous appartient pas.
+W:
+W:6. T'en souviens-tu, la belle, les rires et les serments 
+W:T'en souviens-tu, la belle, voil ce soir sept ans 
+W:T'en souviens-tu, la belle que ton mari est absent"
+W:
+W:7. La belle elle me devine, elle s'crie en larmes: 
+W:"Par la mort de Jsus-Christ! 
+W:A c'matin j'tais veuve et c'soir j'ai deux maris!"
+S:https://www.folktunefinder.com/tunes/39910
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

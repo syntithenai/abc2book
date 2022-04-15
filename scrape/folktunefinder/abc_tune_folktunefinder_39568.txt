@@ -1,0 +1,29 @@
+X:13
+T:Branle
+T:6me sonate
+C:Chdeville
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-13
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+Q:"Lger  vif"
+K:G
+V:1 name=V
+ddee dcBA | Bcdd cBA2 | ddee dcBA | Bcdd cBA2 |:
+dded efgd | gfef gaf2 | ddec ecdB | edcB AdG2 :|
+[K:Gm] dggd daad | bagf efd2 | dggd daad | bagf efd2 |:
+defd ecdB | cded cBA2 | dgdg dga2 | c'bag abg2 :|
+V:2 name=G
+GGBc BAGA | GABB AGA2 | GGBc BAGA | GABB AGA2 |
+BGcB cdBA | BGcG ^cGd=c | BGce ceBG | cBAG A2G2 |
+[K:Gm] G2G2 dd^fd | g^f=ed d^c d2 | G2G2 dd^fd |  g^f=ed d^c d2 | 
+BcdB cABG | ABcB AG A2- | AG B3G d2- | dg^fg gf g2 |
+%%footer $D   Galouvielle-MBe 2005 \nContredanse --
+S:https://www.folktunefinder.com/tunes/39568
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

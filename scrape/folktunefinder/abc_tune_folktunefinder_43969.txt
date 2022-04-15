@@ -1,0 +1,38 @@
+X:520
+T:the Woodville Waltz
+A:Lancaster
+C:Andy Hornby
+M:3/4
+O:England
+R:Waltz
+Z:Richard Robinson 
+%%Copyright:Andy Hornby 13.10.97
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000788.html
+%%ID:00000788
+K:G
+DG|\
+B2B2 dc| A2G2 dc| B2Bc dc| B2G2 cB|\
+A2 A2 G2| F3G FE| DE FG AB| cd ed ^cd|
+B2B2 dc| BA GB dc| B2 Bc dc | B2G2 cB|\
+A2A2G2| F3G FE| DE FG AF| G4||
+(3def|\
+g2g2 bg| f2fg af| e2ef (3gfe| d^c de dB|\
+c2 cd ec| B2Bc dB| AB cB AG| d4 ef|
+g2g2 (3bag| f2 fg af| e2ef (3gfe| d^c de dB|\
+c2cd ec| B2Bc dB| cB Aa fa| g4||
+d2|\
+g2 (b2 b)g| f2d2B2| cB ce dc| d2 B2 G2|\
+E2 (c2 c)E| D2 (B2 B)G| E2A2 G2| FG AB cd|
+g2 (b2 b)g| f2d2B2| cB ce dc| d2B2G2|\
+e2 (c2 c)E| D2 B2G2| FG A2F2| G4 |]
+S:https://www.folktunefinder.com/tunes/43969
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:392
+T: DIE TROMMEL RUFT
+N: E0322
+O: Europa, Mitteleuropa, Deutschland
+R: historisches Lied, Krieg (1706)
+M: 2/4
+L: 1/16
+K: Bb
+F2 | B3FD3F | B3FD3
+F | B3AB3c | d4B4
+d3cd3e | f4e2
+d2 | c4c4 | c4z4
+c3dc3B | A3GF2
+A2 | c3Bc3d | e4c4
+d3cd3e | f3fB3
+c | d4c3c | B4z2
+S:https://www.folktunefinder.com/tunes/78833
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg (1706)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

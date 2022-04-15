@@ -1,0 +1,28 @@
+X:654
+T: "Der Einsiedler"
+N: Z1335
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/16
+K: G
+D2 | G2G2A2A2B2AB | c8
+B4 | A3GF2G2A2B2 | G8z2
+D2 | G2G2A2A2B2AB | c8
+B4 | A3GF2G2A2B2 | G8z2
+G2 | F2G2A6F2 | G2A2B6
+G2 | E4c2B2d2c2 | B2c2d2A4z2
+D2 | G2G2A2A2B2AB | c8
+B4 | A3GF2G2A2B2 | G8z2
+S:https://www.folktunefinder.com/tunes/69513
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

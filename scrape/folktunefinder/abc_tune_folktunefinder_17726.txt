@@ -1,0 +1,32 @@
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+S:https://www.folktunefinder.com/tunes/17726
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MrsAndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MrsAndersonsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: For Me and My Gal
+C: G.Meyer [1917]
+M: C|
+L: 1/8
+K: D
+A2 B2c2 \
+| "Em"[a4e4] "Bm"[a4-d4] | "A7"[a2c2]a2 (3g2f2e2 | "D"d8- | d2A2 B2c2 | "Em"[g4e4] [g4-d4] | "A7"[g2c2]g2 (3g2f2=e2 | 
+| "D"f8- | f2f=e f=ed2 | "F#7"c4 "(Bm)"[f4-d4] | "F#7"[f2c2]f=e f=ec2 |"Bm"d4 "F#7"f4- |
+| "Bm"f2f=e f=ed2 | "E"^G4 e4- | "E7"e2Bc def2 | "A7"[a4-e4] "Cdim"[a4-_e4=c4] | "A7"[a2e2c2] A2 B2 c2 |
+| "Em"[a4e4] "Bm"[a4-d4] | "A7"[a2c2]a2 (3g2f2e2 | "D"d8- | d2A2 B2c2 | "Em"[g4e4] [g4-d4] |
+| "A7"[g2c2]g2 (3g2f2=e2 | "D"f8- | f2f2 "A7"g2"Ddim"^g2 | "D7"zaaa affe | "Am"ed2d- "D"d2f2 |
+| "G"ed2d- d2e2 | "Ddim"=f6 "Adim"=f2 | "E7"[a4e4] "Bm"[a4-d4] | "A7"[a2c2][a2c2] (3[g2B2][f2A2][e2G2] | "D"[d8-F8-] | [d2F2] |]
+S:https://www.folktunefinder.com/tunes/18719
+S:http://trillian.mit.edu/~jc/music/abc/song/ForMeAndMyGal_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/ForMeAndMyGal_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

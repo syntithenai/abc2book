@@ -1,0 +1,28 @@
+X:7
+T:hakke toone                           %title
+C:                           %composer
+O:                           %origin
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=100                           %tempo  Q:1/4=80
+K:C                           %key C  Cm
+V:1
+|:"C" ec ed/e/ "G7"fe d2|dG ce/d/ "C"cde2 |ec ed/e/ "G7"fe d2| ag fB "C"dc c2:|
+K:G
+V:2
+|:"C" CE GF/G/ "G7"AG F2|FD FG/F/ "C"EF G2| CE GF/G/ "G7"AG F2|fe dG"C"FE F2:|
+K:G
+V:1
+|:"G" BG BG/B/ "D7" cBA2| AD AB/A/ "G"GA B2| BG BA/B/ "D7"cB A2| ed c^F "G" AG G2:|
+V:2
+|:"G" GD GF/G/ "D7"AG F2|FD FD "G" EF G2| GD GF/G/ "D7" AG F2|cB AD "G"DA B,2:|
+S:https://www.folktunefinder.com/tunes/50494
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

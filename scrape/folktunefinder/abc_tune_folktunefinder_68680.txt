@@ -1,0 +1,28 @@
+X:134
+T: Verschneiter Weg
+N: A0164
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder. Nuernberg bei Berg und Newber (c. 1542) No. 48.
+N: Grassliedlein 1535 No. 6.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: F
+F4 | F4G4A4B4 | c8c4
+c4 | G4A4B4c4 | A6G2F4
+G4 | G6G2G4A4 | B6B2B4
+A4 | G4F4F4E4 | F6EDC4
+G4 | G6G2G4A4 | B6B2B4
+A4 | G4F4F4E4 | F8z4
+S:https://www.folktunefinder.com/tunes/68680
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

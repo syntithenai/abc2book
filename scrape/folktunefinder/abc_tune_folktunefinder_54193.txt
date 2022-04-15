@@ -1,0 +1,24 @@
+X: 210
+T: Levato Oro
+O: Macedonia
+M: 8/8
+L: 1/8
+Q: 1/4=150
+K: Em
+%%MIDI program 23
+%%MIDI drum ddd2 35 35 35
+%%MIDI drumon
+|:E4B3A   |BAGFE4 |FGABAGFD|E3GFED2|
+  E4B3A   |BAGFE4 |FGABAGFD|E4E4   :|
+|:FGABAGFD|E3GFED2|FGABAGFD|E4E4   :|
+S:https://www.folktunefinder.com/tunes/54193
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 8/8
+% Has_accompaniment_chords Has chords

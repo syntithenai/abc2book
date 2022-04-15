@@ -1,0 +1,22 @@
+X:7525
+T:Three Around Three
+O:england
+C:Trad
+M:4/4
+L:1/8
+K:G
+|:d2BA G2G2|A2BA G2D2|EDEF G2AB|c2B2B2A2|
+d2BA G2G2|A2BA G2D2|EDEF G2Ac|B2G2G4:|
+|:d2ef gfed|e2e2efge|d2B2B2AG|FGAB A4|
+d2ef gfed|e2e2e2d2|ef g2fg a2|g4g4:|
+S:https://www.folktunefinder.com/tunes/27977
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

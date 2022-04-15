@@ -1,0 +1,31 @@
+X:193
+T: Der Mutter Warnung
+N: A0228
+O: Europa, Mitteleuropa, Deutschland
+N: Werlins Hs. 1646 S. 2167.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | _B4G2 | _B4c2 | d3e=f2 | _e4
+d2 | c4_B2 | A4G2 | F4
+G2 | _B4G2 | _B4c2 | d3e=f2 | _e4
+d2 | c4_B2 | A4G2 | F4
+A2 | _B3AB2 | c3_Bc2 | d3cd2 | _e4
+d2 | c4_B2 | _B4A2 | _B4
+d2 | d3e=f2 | d3e=f2 | d3c_B2 | A3_B
+c2 | _B3AG2 | F3GA2 | G4
+S:https://www.folktunefinder.com/tunes/68739
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

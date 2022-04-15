@@ -1,0 +1,34 @@
+X: 1
+T: the Meeting of the Waters
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"A"[|]\
+AB \
+| "D"d2 df A2 d>c | "G"Bd    BG  "D"A2 d>e | "D"fa Aa     gf ed | "E7"f4 "A7"e2 AB \
+| "D"d2 df A2 d>c | "G"Bd    BG  "D"A2 d>e | "D"fa gf "A7"gA ce | "D"d2- "G"d2- "D"d2 |]
+"B"\
+[| a>g \
+| "D"f2 a>f d2 fd | "G"Bd    BG  "D"A2 d>e | "D"fa Aa     gf ed | "E7"f4 "A7"e2 a>g \
+| "D"f2 a>f d2 fd | "G"Bd    BG  "D"A2 d>e | "D"fa gf "A7"gA ce | "D"d2- "G"d2- "D"d2 |]
+"C"\
+[| AB \
+| "D"d2 d>e f2 fg | "D"aA "G"Bd "D"A2 "(A)"a>g | "D"f2 fg     af ed | "E7"f4 "A7"e2 AB \
+| "D"d2 d>e f2 fg |    af    ed "G"B2      d>e | "D"fa gf "A7"gA ce | "D"d2- "G"d2- "D"d2 |]
+"D"\
+[| a>g \
+| "D"f2 a>g fa fd | "G"Bd    gB  "D"A2 d>c | "G"BG Bd "Em"gf ed | "E7"f4 "A7"e2 a>g \
+| "D"f2 a>g fa fd | "G"Bd    gB  "D"A2 d>e | "D"fa gf "A7"gA ce | "D"d2- "G"d2- "D"d2 |]
+S:https://www.folktunefinder.com/tunes/15579
+S:http://trillian.mit.edu/~jc/music/abc/march/MeetingOfTheWaters_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MeetingOfTheWaters_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

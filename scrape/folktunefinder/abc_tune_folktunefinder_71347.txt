@@ -1,0 +1,26 @@
+X:318
+%%topmargin 3cm
+T:The Tweeddale Club
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+c | G<E{/B}cG A>GE<c | G<E{/B}c>E dc | [1 GE{/B}cG (A>B)c>A | A<cE<e {FE}D2 {/B,}C :|
+[2 G<E{/B}c>G A>Bc<a | g>cf>e {/e}d2 {/B}c |: (e/f/) | g<eTg>e c>ge<g | a<d{/b}a>f {/^c}d>ef<a |
+[1 g<cTg>e c>ge>g | (3faf (3ege {/e}d2 {/B}c :| [2 g<[ce]a>f e<cB>G | A<cG>c {FE}D2 {/B,}C |]
+S:https://www.folktunefinder.com/tunes/71347
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Tweeddale_Club.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0318.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

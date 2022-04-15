@@ -1,0 +1,20 @@
+X: 224
+T: Saut du Lapin 
+T:(Rabbit's Leap)
+O: Quebec
+R: reel
+M: C
+L: 1/8
+K: G
+B| "G"BcBA GFGB | "G"d2 BG "Am"A3A | "D7"ABcB ABcd  |"C"e2f2 "D7"(3efed2 |
+ "G"BcBA GFGB | "G"d2 BG "Am"A3A | "D7"ABcB ABcd  |"D7"eAfA "G"[g3B3] :|
+|: g|"G"gdBG d2ef | gdBG d3D | "Am"FdDd FdDd| "D7"FdDd Bdef|
+"G"gdBG d2ef | gdBG d3D | "Am"FdDd FdDd|"D7"FdDd "G"[g3B3] :|
+S:https://www.folktunefinder.com/tunes/55827
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

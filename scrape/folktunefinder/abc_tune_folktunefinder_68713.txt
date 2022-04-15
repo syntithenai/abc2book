@@ -1,0 +1,26 @@
+X:167
+T: Stuebelein
+N: A0204B
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Liederbuch S. 45 (Druckausgabe S. 157).
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: F
+F4A2 | c4d2 | c2BAG2 | F6
+c6 | d4f2 | e4d2 | c2dcB2 | A6
+F2A2c2 | d4c2 | F2A2c2 | d4c2 | B2A2G2 | F6
+f6 | e4f2 | g2fed2 | c6
+d4f2 | c2BAG2 | F6 | c2fed2 | c6
+c4A2 | c4A2 | F4B2 | A4G2 | F6
+S:https://www.folktunefinder.com/tunes/68713
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

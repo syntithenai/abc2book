@@ -1,0 +1,29 @@
+X:6123
+T:Smiffy
+C:Pete Fletcher
+O:England
+M:4/4
+L:1/8
+%%ID:00000c53
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c53.abc
+K:D
+AG|:\
+F2D2EFGE | G2E2DEFA | F2D2DEFA | GAGFE4 |\
+F2D2EFGA | GAGFE2AG |
+F2D2EFGE | D2C2D2AG:: \
+FABcB2AG | FADFE2AG |
+FABc BAGE| F2E2E2AG |\
+FABcB2AG | FADFE2AG | F2D2EFGE | D2C2D2AG:||
+S:https://www.folktunefinder.com/tunes/26575
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c53.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

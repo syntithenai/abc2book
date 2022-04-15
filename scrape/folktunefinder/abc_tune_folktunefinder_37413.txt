@@ -1,0 +1,29 @@
+X:6670
+T:Waltz
+A:Jmtland
+M:3/4
+O:Sweden
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007bc.html
+%%ID:000007bc
+K:D
+A2|\
+d4 d2|e4 e2|f3e f2|g3f ed\
+|1 cd cB AG|G2 F2 :|2\
+ce ag fe|dc df ec|d3 ::
+A de|\
+fd f2 df|fd f2 df|a2g2f2|e3d ef|\
+ge g2 eg|ge g2 eg|b2a2g2|f3e fe|
+fd f2 df|fd f2 df|a2g2f2|e3d ef|\
+gf ed cB|A2 B2 c2| d3 d d2 |1 d3 :|2 d4 |]
+S:https://www.folktunefinder.com/tunes/37413
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

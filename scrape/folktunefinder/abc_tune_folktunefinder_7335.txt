@@ -1,0 +1,43 @@
+X: 2
+T: Shver un shviger
+O:klezmer
+M:2/4
+L:1/8
+%Q:1/4=85-90
+K:Em
+V:1
+"A"\
+|: "Em"E2 B2 | "Am"A/B/A "Em"G2 \
+| z"Am"A/G/ AB | "B7"A G2 F :| \
+"B"\
+|: "Em"Ec ~BA | "G"GA ~GF \
+| "D7" ED EF |
+| "G"G2 "B7"GF  \
+| "Em"Ec ~BA | "Am"GA ~GF \
+| "D"~ED "B7"GF | "Em"HE4 !fine!y :|\
+| "G"B4 | B4 \
+| B2 B2 | B2 B2 ||
+"C"\
+|: "G"Bc/B/ Bc/B/ | Bc/B/ ~BA \
+| "Am"(AE) (EA) | A4 \
+| "D"AB/A/ AB/A/ | AB/A/ ~AG \
+| "G"(GD) (DG) | G4 |
+| "Em"GA GA | "Em"GA "B"~GF \
+| "Em" E2   GE | "D"D4 \
+| "G"G2 "D"A2 | "G"B2 "D"A/G/A \
+|1 "G"G3 B | ~d4 \
+:|2 "Em"G2 "Dm"=F/E/D/=F/ | "Em"E4 |]
+"D"\
+|: "Em"EE c/B/A/G/ | "Am"A4 \
+| "Am"EA A"B7"G/F/ | "Em"G4 \
+| "Am"EA ~AG/A/ | "Em"~GF/G/ "B"FE \
+| "Em"E/F/G "B"F/G/A |1 "Em"G3 E :|2 D4 |]
+S:https://www.folktunefinder.com/tunes/7335
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShverUnShviger.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

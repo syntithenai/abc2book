@@ -1,0 +1,29 @@
+X: 3
+P: Krici krici ticek (C/F)
+R: drmes
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: "C"[cE][BD] [cE][BF] \
+| [c2G2] [G2E2] \
+| "F"[AF][AF] [FC][AF] \
+|1 "C"[G2E2] [E2C2] \
+:|2 "C"[G2E2] "C7"[G2C2] || [K:F]
+|: "F"[FC][FC] [F/C/][G/E/][AF] \
+| "C7"[BG][BG] [B/G/][A/F/][GE] \
+|1 "F"[FC][AF] [B/G/][A/F/][G/E/][F/D/] \
+| "C"[G2C2] [C2] \
+:|2 "F"[FC][AF] "G7"[B/G/][A/F/][G/E/][F/D] \
+| "C"[G2C2] [G2C2] |]
+S:https://www.folktunefinder.com/tunes/268
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/KriciKriciTicek.abc
+% Rhythm Drmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Hen Wlad fy Nhadau
+T: Land of My Fathers
+T: National Anthem of Wales
+C: James James (1856)
+R: waltz
+M: 3/4
+L: 1/4
+K: C
+C \
+| "C"EDC | GF"C7"E | "F"ccA/B/ | c3 \
+| "C"GEC | CB,C | "D7"EDD | "G7"D2G |
+| "C"GGE/F/ | GG"C7"c | "F"ccA/B/ | c2A \
+| "C"GEC | "G7"DED | "C"C3- | C3 ||
+|| "C"G3 | c3 | GEC | CB,C | "G7"D2G \
+| "C"G2E/F/ | G2"C7"c | "F"c2A/B/ | c2A \
+| "C"GEC | "G7"DED | "C"C3- | C3 ||
+S:https://www.folktunefinder.com/tunes/13094
+S:http://trillian.mit.edu/~jc/music/abc/Wales/HenWladFyNhadau_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/anthem/HenWladFyNhadau.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/HenWladFyNhadau_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/anthem/HenWladFyNhadau.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/waltz/HenWladFyNhadau_C.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

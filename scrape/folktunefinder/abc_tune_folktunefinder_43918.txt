@@ -1,0 +1,39 @@
+X:265
+T:Mazurka du Lally
+A:Lancaster
+C:Andy Hornby
+M:3/4
+N:March 1993
+O:England
+R:Mazurka
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000075b.html
+%%ID:0000075b
+K:D
+A Bc |d2 dB cd | e2ec BA | \
+f2fd ef | gf ed ef | \
+d2dB cd | e2 eA de |
+|1 fd gf ed | e3 :|2 fa gf ec | d3 \
+|: a ^ga | =g2ec eg | f2 dA df |
+ec AB cA | de fa ^ga | g2ec eg | \
+f2 df af | ef ge ce |1 d3 :|2 d2 A2 F2 ||
+|:DF Ad cd | BA GA Bd |cB Ac eg | \
+fd fa fd | D2 FA dA | GA Bd BG |\
+AB cd ec |1 d2 A2 F2 :|2 d3 |: \
+e fd | g2bg2e | fg af ed |e2ge2c | d2f2a2| \
+ga bg bg | f2 af df | ef gA Bc | de fg af | \
+g2bg2e| fg af df | ef ge ce | d2 a2 f2 | \
+gb2g bg | fa2f af | ef ge ce |1 d3 :|2 ef ga bc' | d'3 |]
+S:https://www.folktunefinder.com/tunes/43918
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

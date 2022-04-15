@@ -1,0 +1,27 @@
+X:123
+T: Ach schoenster Schatz, mein Augentrost,
+N: D0179A
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Inzipit = Variante zum Lied; Variante zu DVA0179
+R: Liebes - Lied, Liebeslust
+M: 3/4
+L: 1/8
+K: G
+DGA | B2B2AA | G2z
+ABc | dedBcd | B2dz
+Bc | d2edcB | c2z
+dBA | BdcBAG | A2z
+DGB | dedBcd | B2z
+S:https://www.folktunefinder.com/tunes/72580
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied, liebeslust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

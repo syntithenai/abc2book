@@ -1,0 +1,18 @@
+X:1
+T: time sig
+M: 2/4
+L: 1/8
+K: G
+"C" G2 G2| G2 G2|
+[M:3/4] G2 G2 G2|G2 G2 G2|
+S:https://www.folktunefinder.com/tunes/40348
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Spends a lot of time on the same note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 5
+T:48 Bar Polka
+M:2/2
+L:1/8
+Q:150
+K:D
+"A" FG | A2 d2 c2 B2 | ABAG F2 EF | A2 E2 E2 DE | FGFE DFG^G | A2 d2 c2
+B2 | ABAG F2 EF | A2 E2 c2 Bc |[1 e2 d2 d2 |[2 e2 d2 d4 || "B"A2 A2 FAFA
+ | d2 c2 B2 A2 | G2 G2 EGEG | B2 B2 A4 | A2 A2 FAFA | d2 cd e2 ef | edcB
+ AGFE | D2 FA d4 :||
+"C" | K:G
+ G2 DG B4 | B2 GB d4 | dedB c2 A2 | AcBA B2 G2 |  G2 DG B4 | B2 GB d4 |
+dedB c2 BA | G2 B2 G4 :||
+S:https://www.folktunefinder.com/tunes/51940
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

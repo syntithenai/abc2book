@@ -1,0 +1,38 @@
+X: 1
+T:Mrs MacPherson of Inveran
+R:Reel
+O:Scotland
+M:4/4
+C:P.M. G.S. McLennan
+%%ID:00000990
+Z:Richard Robinson 
+K:D
+|: g | "D"f2af dfAd | f2af "A7"f2ef   \
+     |    e2ge ceAc | e2fg  "D"f2dy  :|\
+   A | "D"d2Ad dfAd | d2Ad "A7"d2cd   |
+     |    c2Ac ceAc | c2Ac  "D"e2dA   \
+    || "D"d2Ad dfAd | d2Ad "A7"d2cd   \
+     |    c2AB cdef | gfea  "D"f2d "fine"y|]
+|: g | "D"f2gf a2fg | a2fg "A7"f2ef   \
+     |    e2fe g2ef | g2ef  "D"e2dy  :|\
+   A | "D"d2Ad faef | dfed "A7"d2cd   |
+     |    c2Ac egdf | ceBc  "D"e2dA   \
+    || "D"d2Ad faef | dfed "A7"d2cd   \
+     |    c2AB Aceg | face  "D"e2dy  |]
+|: g | "D"f2ed a2fg | a2gf "A7"f2ef   \
+     |    e2dc g2ef | g2fe  "D"e2d  :|\
+   A | "D"d2Ad f2df | gfed "A7"d2cd  |
+     |    c2Ac e2ce | gedc  "D"e2dA  \
+    || "D"d2Ad f2df | "A7"gf ed "D"d2 cd \
+     | "A"cA "G"dB "A"ec "D"fd | "A7"ge dc "D"e2d "d.C."|]
+S:https://www.folktunefinder.com/tunes/17735
+S:http://trillian.mit.edu/~jc/music/abc/reel/Mrs_MacPherson_of_Inveran_D_6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Mrs_MacPherson_of_Inveran_D_6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

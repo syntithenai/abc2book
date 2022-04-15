@@ -1,0 +1,24 @@
+X: 21
+T:Scale of G Major. HS.21
+M:C
+L:1/8
+S:Henry Stables MS,Cumbria,late19thC
+R:misc
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:G
+G,A,B,C|DEFG|ABcd|efggfe|dcBA|GFED|CB,A,G,||
+S:https://www.folktunefinder.com/tunes/52724
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Misc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

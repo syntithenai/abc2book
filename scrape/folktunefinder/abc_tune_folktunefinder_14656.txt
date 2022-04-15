@@ -1,0 +1,26 @@
+X: 1
+T: Miss Campbell's Jig
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B \
+| "D"AFB A2F | D3 D2B | "D"AFA "(A)"d2e | "Bm"f3 f2a \
+| "Em"gfg B2d | "A7"c3 c2B |1 "A7"Ace a2e | "D"f3 f2 :|2 "A7"Ace aec | "D"d3 d2 ||
+|: g \
+| "D"fed "(A7)"cBA | "D"f3 f2g | "D"fed "A"cBA | "Bm"F3 FGF \
+| "Em"EFE EFG | "A7"e2e e2d | cBA ABc | "D"d3 d2 :|
+S:https://www.folktunefinder.com/tunes/14656
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissCampbellsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissCampbellsJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissCampbellsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissCampbellsJ_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

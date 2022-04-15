@@ -1,0 +1,26 @@
+X:95
+T: ALS DIE PREUSSEN MARSCHIRTEN
+N: Z0095
+O: Europa, Mitteleuropa, Deutschland, Preussen
+R: Sagen - Lied, Romanze, Soldaten - Lied
+M: 4/4
+L: 1/8
+K: G
+DD | G2GGGDB,G, | D4z2
+B2 | A3BAGFE | D4z2
+B2 | ABAGFEDC | B,DGBdz
+B2 | ABAGFEDC | B,DGBdz
+B2 | A3BA3B | AAdBA2z
+A | e2z2edBG | D2F2G2
+S:https://www.folktunefinder.com/tunes/68954
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

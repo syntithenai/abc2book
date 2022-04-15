@@ -1,0 +1,36 @@
+X:290
+T:the New Dresser
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:1988
+N:Slowish
+O:England
+R:Slow Air
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000755.html
+%%ID:00000755
+K:D
+A de |\
+f3 f/2g/2 fedA | B4-B2AG   | \
+F2A2defg       | e2-e3A de |
+f3 f/2g/2 fedA | GFGA B3 A/2G/2 | \
+FAdfe2dc | d2-d3::
+A Bc |\
+e3 e/2f/2 ecBA | Affg f3 e/2d/2 | \
+ceac Be^gb     | a4-a3 a/2=g/2 |
+f3 f/2g/2 fedA | GFGA B3 A/2G/2 | \
+FAdf e2 dc     | d2-d3:|
+S:https://www.folktunefinder.com/tunes/43923
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

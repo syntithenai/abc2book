@@ -1,0 +1,29 @@
+X: 1
+T: Road to the Isles
+O: Scotland
+C: Kenneth MacLeod
+M: 4/4
+L: 1/8
+K: G
+|: D>G \
+|| "G"B4 d>B A>B | "C"G>A G>F E2 G>F \
+| E<C E>F "G"G>A B<d | "Am"A4- "D7"A2D>G |
+| "G"B4 d>B A>B | "C"G>A G>F E2 c2 \
+|"G"B<d B>G "D7"D>F A>F | "G-C-G"G6 :|
+|: B>c \
+|| "G"d>D ~D2 B>D ~D2 | "C"G>A G>F E2 G>F \
+| E<C E>F "G"G>A B<d | "Am"A4- "D7"A2B>c |
+| "G"d>D ~D2 B>D ~D2 | "C"G>A G>F E2 c2 \
+|"G"B<d B>G "D7"D>F A>F | "G-C-G"G6 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/5960
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RoadToIsles.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/misc/RoadToIsles.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

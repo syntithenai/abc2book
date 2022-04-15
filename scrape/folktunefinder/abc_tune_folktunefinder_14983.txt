@@ -1,0 +1,26 @@
+X: 1
+T: Rory McLeod
+R: Jig
+S: Ted Hastings <hastings:NDIRECT.CO.UK>
+M: 6/8
+L: 1/8
+K: A
+|: c2-A cee | fee faa  | c2-A cee | fcc cBB  \
+|  c2-A cee | fee faa  | aee  fcB | cAA A3  :|
+|: faa  aff | fee ecc  | cBB  cee | fee ece  \
+|  faa  aff | fee ece  | fcc  ecB | cAA A3  :|
+|: Acc  cdd | dcc c2-B | Acc  cdd | dcc c2-B \
+|  Acc  cdd | dcc cde  | fcc  ecB | cAA A3  :|
+|: Aee  fee | aee fee  | cee  fee | aee eff  \
+|  Aee  fee | aee fee  | fcc  ecB | cAA A3  :|
+S:https://www.folktunefinder.com/tunes/14983
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoryMacLeod_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoryMacLeod_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

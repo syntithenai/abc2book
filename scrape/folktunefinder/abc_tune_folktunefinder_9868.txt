@@ -1,0 +1,23 @@
+X: 2
+P: Miss Drummond of Megginch
+O: Wighton Collection
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: C
+   e | "C"c-<G A-<G c-<G A>G | E-<G c>E "G7"D-<d d>e | "C"c-<G A-<G c-<G ca | g-<c "G7"g>f "C"e-<c c :|
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"g-<c f/e/d/c/ "G7"B-<d de/f/ \
+     | "C"g-<c e-<c g-<c "(F)"a-<c | "C"G>c "G7"f/e/d/c/ "C"G-<c c |]
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"gc f/e/d/c/ "G7"B-<d d>e \
+     | "C"c-<G B/A/G/F/ E-<G c>a | g-<c "G7"g>f "C"e-<c c |]
+S:https://www.folktunefinder.com/tunes/9868
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Alltshellach.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090112/Alltshellach.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

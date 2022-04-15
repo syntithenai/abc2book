@@ -1,0 +1,26 @@
+X:1
+T:Web city
+M:4/4
+L:1/8
+C:Bud Powell
+Q:1/4=180
+K:Bb
+%%text (up)
+%%vskip 20
+P:A
+F (3=EFB || "Bbdim7"^c3d "Bdim7"z3d | "Cm7"zeBG "C#dim7"e=e^cA | "Dm7"f3^f "Db7"z3g | "Cm7"ze "B7(b5)"zc agfe |
+"Bb"db2_a "-7/D"zc2g- | "Eb6"g_gf_f "Edim7"e_dcB | "Bb/F"(3^cdf-f2 z3c | [1"F7"dG3 zf (3=EFB :| [2"Bb6"dB3z4 ||
+P:B
+"Eb7"z(3B=Bc _ddc_B | _ddcB _a_g2f | "Dm7"zd2_d c2z2 | "G7(b5)"ggfg f_d3 |
+"Gb7(b5)"a^faa fdB^F | d2B^F z4 | "F7(b5)"_a2aa f_dAF | "D.C. al 2nd" " "_dAz2 zF (3=EFB ||
+S:https://www.folktunefinder.com/tunes/19062
+S:http://trillian.mit.edu/~jc/music/abc/song/Web_city.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/web_city.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Web_city.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/web_city.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: The Fit's Come On Me Now (G)
+O: 1686
+R: slipjig
+B: Barnes
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+|: "G"G2d BGd "C"e2d |  "G"G2d BGd "D"g2d |  "G"G2d BGd "C"e2f | "G"gde dBG "D7"A2G :|
+|: "G"g2d gdg "D"a2b | "G"g2d gba "D"a2d | "G"g2d gdg "D"a2b | "G"gde dBG "D7"A2G :|
+S:https://www.folktunefinder.com/tunes/14185
+S:http://trillian.mit.edu/~jc/music/abc/jig/Fits_Come_On_Me_Now_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Fits_Come_On_Me_Now_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/Fits_Come_On_Me_Now_G.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

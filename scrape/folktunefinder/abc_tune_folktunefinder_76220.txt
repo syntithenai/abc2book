@@ -1,0 +1,25 @@
+X:240
+T: Seidenweberlied (3-43), S. 129
+N: P1015
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Berufslied]
+M: 4/4
+L: 1/8
+K: G
+DD | G2G2G2G2 | B4A2
+DF | A2A2A2GA | B4z2
+G2 | GGG2GBAG | E2FGA2
+dc | BAGAB2AA | G4z2
+S:https://www.folktunefinder.com/tunes/76220
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Berufslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

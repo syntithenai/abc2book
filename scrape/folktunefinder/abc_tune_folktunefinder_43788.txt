@@ -1,0 +1,24 @@
+X:4
+T:The Wyresdale Hornpipe
+C:Andy Hornby 1997
+Q:1/4=180
+I:abc2nwc
+M:3/2
+L:1/8
+K:D
+d2A4d2BAGF|A2D2DEFG ABcA|d2A2d2e2f2ef|g2ga gfed cdec||
+d2A4d2BAGF|A2D2DEFG ABcA|d2A2d2e2f2ef|gfec d4d3A:|
+|:fefg a2f2g2f2|efed c2cB A4|cBcd e2A2gfed|[1cdec d4d3A:|[2cdec d4d3B
+|:ABAG FGFE DEFG|A2d2d2ef gfed|f2d2e2c2dcBA|B2G2A2F2GFED||
+ABAG FGFE DEFG|A2d2d2ef gfed|f2d2e2c2dcBA|gfec d6:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43788
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

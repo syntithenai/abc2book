@@ -1,0 +1,33 @@
+X: 252
+T:Algiers Waltz. JaW.251
+M:3/8
+L:1/16
+Q:40
+C:"Waltz Figure"
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+N:Waltz Figure presumably refers to a figure in a set of quadrilles
+H:1/16
+Z:vmp.Chris Partington, Aug 2004
+K:F
+AB|cfedcB|AGFGAB|(cd) .c2.f2|(cd) .c2.f2|!
+|cfedcB|AGFGAB|cd c2e2|f4||!
+c2|(cA).f2.f2|(ec) .g2.g2|(cA).f2.f2|(ec) .g2.g2|!
+(fc) (a2g2)|(fc) (a2g2)|f2F2F2|F2F2F2|!
+F2 ((3AGF) c2|F2 ((3AGF) c2|d2d2e2|(f2a2) AG|!
+F2 ((3AGF) c2|F2 ((3AGF) c2|d2d2e2|f4|]
+S:https://www.folktunefinder.com/tunes/47789
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

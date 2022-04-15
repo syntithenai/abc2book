@@ -1,0 +1,25 @@
+X:43
+T:My Bonnie Highland Lassie-O
+M:4/4
+L:1/8
+K:G
+D2D2 DDD2|G2A2 B2z2|DD3 D2E2|F2D2 (GF)(DC)|
+D2D2 DDD2|G2A2 B2c2|dd3 c2A2|
+M:6/4
+L:1/8
+A2G2 G2z2 ABc2|
+M:4/4
+L:1/8
+ded2 (dc)A2|d4 c2A2|G2A2 (GF)(DC)|D6 C2|
+D2G2 G2A2|(B2A2) B2c2|d2d2 c2A2|A2G2 G2z2||
+S:https://www.folktunefinder.com/tunes/68130
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

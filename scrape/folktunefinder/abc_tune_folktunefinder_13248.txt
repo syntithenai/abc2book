@@ -1,0 +1,31 @@
+X:1
+T: the Lyke Wake Dirge
+C:Traditional English
+R:funeral march
+O:Assumed North Yorkshire
+B:Enyclopaedia Blowzabellica
+D:Blowzabella, 'Wall of Sound'
+Z:Gordon Turnbull
+M:3/4
+L:1/4
+K:AAeo
+e | A2 B | c2 e | {a}e2 d/c/ | d2 c/d/ |
+e2 f/e/ | d2 c/B/ | ~e d2 -| d2 e |
+e2 f/e/ | d2 c/B/ | d2 c/B/ | A2 {ad}e |
+{ad}e2 f/e/ | d2 c/B/ | c A2- | A2 :||
+ef | g2 f/e/ | f2 e/d/ | e2 d/c/ | d2 c/d/ |
+e2 f/e/ | d2 c/B/ | ~e d2 -| d2 e |
+e2 f/e/ | d2 c/B/ | d2 c/B/ | A2 {ad}e |
+{ad}e2 f/e/ | d2 c/B/ | c A2- | A2 :||
+S:https://www.folktunefinder.com/tunes/13248
+S:http://trillian.mit.edu/~jc/music/abc/air/LykeWakeDirge.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/air/LykeWakeDirge.abc
+% Rhythm Funeral march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

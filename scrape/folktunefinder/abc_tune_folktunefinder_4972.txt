@@ -1,0 +1,28 @@
+X: 2
+P: Schellen-Neuner [Bb]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Bb
+   [BD][cF] \
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+| "F7"[e2c2] [Ac][ge] [fd][ec] | "Bb"[dB][ec] [dB][cA] [BG][cA] \
+"I"\
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+| "F7"[ec][dB] [cA][BG] [AF][cA] | "Bb"[B2B2] z2 :|
+|: [BF][dB] \
+| "Bb"[f2d2][d2B2] [f4d4] | "F7"[e2c2][c2A2] [e4c4] \
+| "Bb"[d2B2][B2F2] [d4B4] | "F7"[c2A2][A2F2] [c4A4] \
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+|1"F7"[ec][dB] [cA][BG] [AF][cE] | "Bb"[B2D2] z2 \
+:|2 "F7"[ge][fd] [=e^c][fd] [_e=c][cA] | "Bb"[B2B2] z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4972
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_SchellenNeuner_FBb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

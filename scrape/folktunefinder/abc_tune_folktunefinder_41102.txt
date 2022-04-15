@@ -1,0 +1,24 @@
+X:25
+T:The Flowers of Edinburgh
+R:reel
+N:Probably the best-known Scottish reel.
+Z:John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+K:G
+GE | D2DE G2GA | BGBd cBAG | FGFE DEFG | AFdF E2GE |
+D2DE G2GA | BGBd efge | dcBA GFGA | B2G2 G2 ::
+d2 | g2gd gbag | f2fd fagf | e2ef gfed | B2e2 e2ge |
+dBGB d2d2 | edef g2fe | dcBA GFGA | B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/41102
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

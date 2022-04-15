@@ -1,0 +1,28 @@
+X: 2
+T: Djurdjevica
+O: Serbia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The first few bars are played slowly, then accel and play the rest fast.
+N: End with the usual 2-chord Serbian ending.
+M: 2/4
+L: 1/16
+K: D
+A,2- \
+|: "D"MD2z2 MF2z D- | "A7"ME2z2 GBAG | "D"F2D2 F2GG | "A7"GFED EA,B,C |
+| "D"D2DA, F2FA, | "A7"E2EA, EBAG | "D"F2D2 F2GG | "E7"GFED "A"E4 :|
+|: "D"f2d2 f2gg | "A"gfed ebag | "D"f2d2 f2gg | "A"gfed e2a2 |
+| "D"f2d2 f2gg | "A"gfed ebag | "D"f2d2 f2gg | "E7"gfed "A"e4 :|
+|: "G"b4 g2ab | "D"afgb a2af | "A7"a2g2 geag | "D"f2fe fga^a |
+| "G"b4 g2ab | "D"afgb a2af | "A7"a2g2 geag | "D"f2fe f4 :|
+|: "D"f2af afaf | "A7"efg2 gbag | "D"f2"ginf"d2 f2gg | "A"gfed e2a2 |
+| "D"f2af afaf | "A7"efg2 gbag | "D"Hf2d2 f2gg | "E7"gfed "A"e4 :|
+S:https://www.folktunefinder.com/tunes/2808
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Djurdjevica.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

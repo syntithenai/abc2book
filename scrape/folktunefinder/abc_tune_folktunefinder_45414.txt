@@ -1,0 +1,29 @@
+X:1
+T:Mlodie : Tombes de la nuit 92
+E:12
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+M:6/8
+L:1/8
+K:Eb
+Q:1/4=60
+a2 g/f/ e2 f | g6 | a2 g/f/ e2 f | gef f3 ::
+f2 f c'3 | b2 a c'3 | b2 a (b3 | b2) a g2 f | gba g3- |
+g3 aba | f3 cfg | a3 gab | c'2 f f2 e | f6 :|
+T:2 octaves infrieures
+A,2 G,/F,/ E,2 F, | G,6 | A,2 G,/F,/ E,2 F, G,E,F, F,3 ::
+F,2 F, C3 | B,2 A, C3 | B,2 A, (B,3 | B,2) A, G,2 F, | G,B,A, G,3- |
+G,3 A,B,A, | F,3 C,F,G, | A,3 G,A,B, | C2 F, F,2 E, | F,6 :|
+S:https://www.folktunefinder.com/tunes/45414
+S:http://termen.free.fr/danses/termen/MelodieTombeesdelanuit92.abc
+% Rhythm Melodie
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

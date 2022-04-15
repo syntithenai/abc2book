@@ -1,0 +1,24 @@
+X: 1
+T: the Wild Colonial Boy
+R: waltz
+O: trad Ireland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G2B | d2d | "C"e2c | "Am"A2G | "D7"FD2 | B2A | "G"G3- | G2 ||
+|: B/c/ \
+| "G"d2g | g2f | "C"f2e | "Am"A2B | "D7"c2d | f2e | "G"d3- | d2 :|
+d \
+| "G"G2B | d2d | "C"e2c | "Am"A2G | "D7"F2D | B2A | "G"G3- | G2 |]
+S:https://www.folktunefinder.com/tunes/20333
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WildColonialBoy.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/WildColonialBoy.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:1
+T:Rigodon la dbraille de Laye
+R:Rigodon
+S:Emile Escalle
+N:bien faire sonner le bourdon (plus que sur cette adaptation)
+N:sur le disque ("Violon Traditionnel en France"), le violon sonne 1/2 sous la normale
+G:Violon
+O:France
+A:Hautes Alpes (Molines en Champsaur)
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+P:ABCC.2(BBCC)
+M:4/4
+L:1/8
+Q:1/4=135
+%%MIDI program 110 %fiddle 
+K:G
+  z2 [DA]dd dd2 | {cB} cB AB cd [A2e2] |\
+ [Ae]f gf ga gf | [Ae]f ef ec [D2d2] |
+Q:1/4=135
+ | [D2A2]dd dd2 | {cB} cB AB cd [A2e2] |\
+ [Ae]f gf ga gf | [Ae]f ef ec [D2d2]
+Q:1/4=150
+  |: [D2A2] de ef [A2g2] | fg aa ab a2 |\
+    ae gg ga gf | ef ef/e/ [D2d2] :|
+S:https://www.folktunefinder.com/tunes/39886
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:322
+T: "Gottesgericht"
+N: Z1002
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Frankfurter Sage
+M: 6/8
+L: 1/16
+K: G
+D2 | G2F2G2A2G2A2 | _B2G2z2A6 | _B4c2d4
+dc | _B2A2G2A2G2F2 | G4z6
+D2 | G2F2G2A2G2A2 | _B2G2z2A6 | _B4c2d4
+dc | _B2A2G2F2G2A2 | G6z4
+S:https://www.folktunefinder.com/tunes/69181
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, frankfurter sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

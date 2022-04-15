@@ -1,0 +1,35 @@
+X:1
+T:Marmaduke
+M:4/4
+L:1/8
+C:Charlie Parker
+Q:1/4=180
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+z=Bcd edAc || "Gm7"_BABA G3A   | BDFA G2zA           | Bc/B/ AG BcGB       | AGFD "C7"_D3A       |
+              "Fmaj7"EDE2 zF2G  |"Gm7"AFGA "C7"Bc_dB  | "F6"c2z2 "(Bb7)"z3B | "Am7b5"cd_ed- "D7"d2zA ||
+P:A
+              "Gm7"BABA G3A    | BDFA G2zA           | Bc/B/ AG BcGB       | AGFD "C7"_D3A       |
+              "Fmaj7"EDE2 zF2G  | "Gm7"AFGA "C7"Bc_dB | "F6"c2z6            | z8                  ||
+P:B
+              "Cm7"x4x4        | "F7"x4x4            | "Bbmaj7"x4x4         | x8                  |
+              "Dm7"x4x4        | "G7"x4x4            | "Gm7"x4x4           | "C7"x4"(D7)"x3A     ||
+P:A
+              "Gm7"BABA G3A    | BDFA G2zA           | Bc/B/ AG BcGB       | AGFD "C7"_D3A       |
+              "Fmaj7"EDE2 zF2G  | "Gm7"AFGA "C7"Bc_dB | "F6"c2z6            | "T.A."z8            ||
+S:https://www.folktunefinder.com/tunes/18858
+S:http://trillian.mit.edu/~jc/music/abc/song/Marmaduke.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/marmaduke.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Marmaduke.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/marmaduke.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

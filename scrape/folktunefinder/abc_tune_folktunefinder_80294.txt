@@ -1,0 +1,33 @@
+X:235
+T: Marien - Psalter
+N: A0594
+O: Europa, Mitteleuropa, Deutschland
+N: Werlins Hs. 1646 S. 3682
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/4
+K: E
+E | A=GAB | =cBA2
+ccc2 | B=c=dc | B2z
+A | =GABB | EEz
+E | A=GAB | =cBA2 | z
+=ccc | B=c=dc | B2z
+A | =GABB | EEz2 | z
+=C=DE | =FF=GA | A2z
+=G | =G=FEE | =CCz2 | z
+=GGG | =GEAB | A2z
+A | BA=GG | EEz2 | z
+EE=F | =GAGE | =C2
+C2 | =GABA | =cA=G2 | z
+EAB | =GE=C=D | E4
+S:https://www.folktunefinder.com/tunes/80294
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:211
+T: ACH AUS DIESES THALES GRUENDEN
+N: B0248
+O: Europa, Mitteleuropa, Deutschland
+R: Stimmungs - Lied, Sehnsucht
+M: 4/4
+L: 1/8
+K: F
+cB | A3GFd2c | c2B2z2
+GF | E3Gc3G | B2A2z2
+=BB | c3cd2G2 | e3e
+efAd | c2=Bce3d | c2z4
+cc | e3efedc | f2c2z2
+cc | B3BB2cB | A4z2
+AA | B2d2f3_e | ^c2d2z
+def | f3Ac3E | F4z2
+S:https://www.folktunefinder.com/tunes/78232
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, sehnsucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

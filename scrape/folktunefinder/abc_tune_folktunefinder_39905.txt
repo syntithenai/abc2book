@@ -1,0 +1,47 @@
+X:38
+T:Rond de Loudeac 
+R:Rond de Loudeac
+C:Trad.
+D:voir Groupe sans gain
+O:France
+A:Bretagne
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=135
+K:C
+P:Chant
+A,DD>FED C2 EG GGFED2
+A,DD>FED C2 EG GGFED2
+A2 GAFE D D/D/D FF AA G/F/E2 
+A2 GAFE D D/D/D FE GFED2
+P:Violon
+A,DD>FED C2 EG GGFED2
+A,DD>FED C2 EG GGFED2
+A2 GAFE D D/D/D FF AA GE2 
+A2 GAFE D D/D/D FE GF2D2
+W:Ce sont les filles de Langua qui sont belles et gentilles
+W:S'en vont  la saint Jean doum doum dalali tralalom dalira 
+W:dans leurs plus belles hardes
+W:Le fils du roi qu'est l mon gars celui-l les regarde 
+W:Demande  son valet doum doum....
+W:Laquelle qu'est la plus belle
+W:
+W:C'est la petite France Zamonga qu' la ceinture dore
+W:Va la chercher danser
+W:De la part de son matre
+W:Non non je n'irai point danser
+W:Je suis suis fille  biser
+W:Fille  biser n'est pas
+W:Vous serez marie
+W:
+W:
+S:https://www.folktunefinder.com/tunes/39905
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rond de loudeac
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

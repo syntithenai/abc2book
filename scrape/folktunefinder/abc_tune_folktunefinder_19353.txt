@@ -1,0 +1,31 @@
+X: 1
+T: Furth, Fortune and Fill the Fetters
+C: Barbara McOwen (1993)
+R: strathspey
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G, \
+| "C"C2-~C>D E<G G2 | E2- ~E>F "C7"G<c c>d \
+| "F"e>c A<c "Em"d>c B>G | "Dm"c>A F>A "G7"B>A G/F/E/D/ |
+| "C"C2-~C>D E<G G2 | E2- ~E>F "C7"G<c c>B \
+| "F"A>G F>E "Dm"F>E D>C | "G7"B,/C/D G,>B, "C"C2 Cz |]
+[| "G"B2 B>c d>c B>A | G>D B<D c>D B<D \
+| "D"A2 A>B c>B A>G | "D7"^F>D A<D B>D A<D |
+| "G"G2-~G>A "G7"B<d d>=f | "C"e>d c>B "Am"c2 c>B \
+| "F"A>G F>E "Dm"F>E D>C | "G7"B,/C/D G,>B, "C"C2 C |]
+S:https://www.folktunefinder.com/tunes/19353
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FurthFortuneAndFillTheFetters_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Barbara_McOwen/FurthFortuneAndFillTheFetters_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/FurthFortuneAndFillTheFetters_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FurthFortuneAndFillTheFetters_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Brenda at SW Margaree
+C: Rannie MacLellan
+B: Brenda Stubbert's Collection
+S: arrangement by Terry Traub
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F/G/ \
+| "D"A2F A2d | f2g fed | "G"BGB BGB | "D"AFA "A7"AFG \
+| "D"A2F A2d | f2g fed | "G"BGB Bgf | "A7"fec "D"d2 :|
+|: f/g/ \
+| "D"a2f a2b | a2b afd | "A7"g2e "D"f2d | "G"BGB BGB \
+| "D"A2F A2d | f2g fed | "G"BGB Bgf | "A7"fec "D"d2 :|
+S:https://www.folktunefinder.com/tunes/13936
+S:http://trillian.mit.edu/~jc/music/abc/jig/BrendaAtSWMargaree_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BrendaAtSWMargaree_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BrendaAtSWMargaree_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

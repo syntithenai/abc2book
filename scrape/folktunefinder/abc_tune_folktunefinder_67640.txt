@@ -1,0 +1,18 @@
+X: 27
+T:Winster Processional
+% Nottingham Music Database
+S:Eric Foxley
+M:4/4
+L:1/4
+K:G
+d|"G"gd "D7"de/2f/2|"G"gd "D7"de/2f/2|"G"gd "D7"dc|[1"G"B2 G:|"G" B2 G2
+|:"C"ce ed/2c/2|"G"Bd dc/2B/2|"D7"A3/2B/2 cd|"G"B2 "G7"G2:|
+S:https://www.folktunefinder.com/tunes/67640
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

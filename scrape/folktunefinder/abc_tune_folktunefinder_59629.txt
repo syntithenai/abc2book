@@ -1,0 +1,32 @@
+X:742
+T:Viva Asturies (CT 096)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Muriellos, ayuntamiento de Quirs.
+N:La cantan, generalmente, las mujeres, acompaando los quehaceres domsticos o las faenas del campo.
+A:Asturies
+O:Muriellos (Quirs)
+Z:Cancioneru de Torner 096
+M:3/4
+L:1/8
+Q:1/4=92
+K:C
+|dd BG cd|e(e-e/d/4e/4d/c/4d/4) c2|cc cc Bc|dd-d2 z2|
+dd BG cd|e(e-e/d/4e/4d/c/4d/4) cc|BA-A2 BB|(B3/2(A/4G/4A/4 G2) z2||
+W:Viva Asturias, viva Asturias
+W:y tambin viva CAstilla;
+W:tengo el amor castellano,
+W:por eso quiero que viva.
+W:
+S:https://www.folktunefinder.com/tunes/59629
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

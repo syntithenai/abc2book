@@ -1,0 +1,34 @@
+X: 107
+T:Tempest
+M:C|
+L:1/8
+D:Corner House
+H:See also #722
+H:Some friends of mine came up with the second name. A carpenter was
+H:working outside their window while they were having a session.
+H:After about 37 reels he stuck his head in the window and
+H:shouted: "Could you stop playing the same tune all the time!".
+Z:id:hn-reel-282
+K:Ddor
+|: d2 cA GEE^F| GEcE dEcE| d2  cA GEE^F | GECD ED D2|
+d2 cA GEE^F| GE cE dEcE| DEFG AGcA| GECD ED D2 :|
+|: ~d3 e cAGc| AdcA GE ~E2| ~d3 e cdef| edcA d2 ea|
+gedB cded| cAGE FG A2| DEFG AGcA| GECD ED D2 :|
+K: Ador
+|: A2 GE DB,B,^C | DB,GB, AB,GB, | A2 GE DB,B,^C| DB,G,A, B,A, A,2 |
+  A2 GE  DB,B,^C | DB,GB, AB,GB, | A,B,CD EDGE| DB,G,A, B,A, A,2 :| 
+|: ~A3 B GEDG| EAGE DB,~B,2 | ~A3 B GABc | BAGE A2 Be|
+ dBAF GABA| GEDB, CD E2 | A,B,CD EDGE| DB,G,A, B,A, A,2 :|
+S:https://www.folktunefinder.com/tunes/66532
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

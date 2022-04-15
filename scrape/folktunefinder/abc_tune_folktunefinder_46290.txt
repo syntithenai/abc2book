@@ -1,0 +1,31 @@
+X:15015
+T:Scotch Air. TLY.038
+M:4/4
+L:1/8
+Q:120
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+H:1860.
+Z:Taz Tarry.
+K:D
+(f>g)|a3 b (a>f)e-d|(e>d)e-fB3 d|(A>B)A-F A2 d-A|F2 (A>B)A2 (d/e/f/g/)|!
+a3 b (a>f)e-d|g-fe-d {c}B2 (f>e)|(de)|{de}f2 (~e>d)d2||!
+|AG|F3 A (~B>A)(B>d)|~e>def B3 b|a>ba-f g-fe-d|g>b (b/a/g/f/) e2 (a>g)|!
+g-ab-c' d'2 (c'>b)|a-fe-d B2 (f>e)|(de)|(d/e/f) (~e>d) d2
+|]
+S:https://www.folktunefinder.com/tunes/46290
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

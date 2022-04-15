@@ -1,0 +1,30 @@
+X: 1
+T: Vals efter Ekor Anders
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: handwritten MS
+M: 3/4
+L: 1/8
+K: D
+zDF \
+| A3 A A2 | BA ^GA Bc | d2 d3 e | f3 g f2 \
+| e3 fed | c2 B2 A2 | a2  A2 g2 | f4 DF |
+| A3 A A2 | BA ^GA Bc | d2 d3 e | f4 g2 \
+| a4 g2 | f4 e2 | d4 dd | d3 :|
+|: edc \
+| B2 g2 g2 | g3 dcB | A2 f2 f2 | f3 fed \
+| ce a2 a2 | (3a^ga b2 a2 | (3a^ga b2 a2 | f3 edc |
+| B2 g2 g2 | g3 dcB | A2 f2 f2 | f3 fed \
+| ce a2 a2 | a3 gec | d3 d d2 | d3 :|
+S:https://www.folktunefinder.com/tunes/20275
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_EkorAnders_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_EkorAnders_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

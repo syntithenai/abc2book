@@ -1,0 +1,30 @@
+X: 2
+T: Itzikel
+O: Kammen 1-10
+R: freylach, bulgur
+S: Marianne Cygnel
+B: Kammen 1-10
+D:
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2/4
+L: 1/16
+K: Em
+|: B,2- \
+| "Em"B,EGE EGBG | "Am"A2AG "Em"ABG2 | "G"GBdB GBdB | "D7"A2AG "G"ABG2 |
+| "B7"GAAG GFF=F | "Em"E4 EAG2 |  "B7"GAAG GFF=F | "Em"E6 :|
+|: B2 \
+| "Em"e6 "Am"dc | "Em"B4- "(B)"B2B2 | "Em"eBeB "Am"e2{fe}dc | "Em"B4- "(B)"B2B2 |
+| "Em"e6 d2 | "D"f6 e2 | "Em"eBeB "Am"e2{fe}dc | "Em"B4- "(B)"B2B2 |
+| "G"GABc BcBc | BcBc "Am"B2A2 | "Am"AEEA AEEA | "(D7)"AEEA "G"A2{BA}G2 |
+| "B7"GAAG GFF=F | "Em"E4 EAG2 | "B7"GAAG GFF=F |1 "Em"E2E2 G2 :|2 "Em"E2z2 e2 |]
+S:https://www.folktunefinder.com/tunes/6982
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_Itzikel.abc
+% Rhythm Freylach, bulgur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

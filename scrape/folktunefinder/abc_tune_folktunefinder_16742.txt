@@ -1,0 +1,25 @@
+X: 1
+T: the Baldovan Reel
+C: Betty Lowe
+B: Baldovan Set Dances
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+Bd \
+| "G"g2G2 GBAG | e2d2 d2Bd |     g2G2     GBAG | "D7"B2A2 A2Bd \
+| "G"g2G2 GBAG | e2d2 d2GA |     BdcB "D7"AcBA |  "G"G2B2 G2  :|
+|: BA \
+| "G"B2g2 d2g2 | BcdB G2dB | "Am"c2a2     A2a2 | "D7"fgaf d2dc \
+| "G"B2g2 d2g2 | BcdB G2cd |  "C"edcB "D7"AGFE |  "G"G2B2 G2  :|
+S:https://www.folktunefinder.com/tunes/16742
+S:http://trillian.mit.edu/~jc/music/abc/reel/BaldovanR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BaldovanR_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

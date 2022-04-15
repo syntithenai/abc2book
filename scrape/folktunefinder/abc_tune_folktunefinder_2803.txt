@@ -1,0 +1,49 @@
+X: 1
+T: Devetorka
+O: Bulgaria
+Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers
+N: From 1997 Balkan Camp, via Patrick Yacono
+K: Gm
+"A"\
+|: "Bb"[dB]z [dB][ec] [fd]z [f2d2][ge] \
+| "F7"[af][ge] [ge][fd] [fd][ec] "Bb"[d2B2][BF] \
+| z2 [dB][ec] [fd]z [fd][ec][dB] \
+| "F7"[dB][ec] [ec][dB] "Bb"[d2-B2-] [d3B3] :|
+"B"\
+|: "Cm"z2 [dB][ec] [e2c2] [e3c3] \
+| [ec][dB] [ec][fd] "Gm"[dB][cA] [B2G2][AF] \
+| z2 [BG][cA] [dB][cA]  "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[B2-G2-] [B3G3] :|
+"C"\
+|: "Gm"z2 [BG][cA] [dB][cA] "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[BG]z "(Fm)"[c_A][BG][_AF] \
+| "Gm"z2 [BG][c=A] [dB][cA] "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[B2-G2-] [B3G3]  :|
+"D"\
+|: "Bb"[ec][f-d-] [f2-d2-] [fd]z [fd][ec][dB] \
+| "Cm"[dB][e-c-] [e2-c2-] [ec]z [ec][dB][cA] \
+| "Gm"z2 [BG][cA] [dB][cA] "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[B2-G2-] [B3G3] :|
+"C"\
+|: "Gm"z2 [BG][cA] [dB][cA] "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[BG]z "(Fm)"[c_A][BG][_AF] \
+| "Gm"z2 [BG][c=A] [dB][cA] "Cm"[dB][e2-c2-] \
+| "Fm"[ec][c_A] [cA][BG] "Gm"[B2-G2-] [B3G3]  :|
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/2803
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Devetorka3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Devetorka3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Devetorka3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Devetorka3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Devetorka3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

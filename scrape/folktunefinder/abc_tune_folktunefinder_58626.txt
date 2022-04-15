@@ -1,0 +1,24 @@
+X: 19
+T:Monaghan Jig
+M:6/8
+L:1/8
+Q:160
+R:Jig
+O:trad.
+K:EMinor
+BGE FGE| BGE FGA| BGE FGE| AFD FGA| BGE ~E3| BGE FGA| 
+dcB ABG| FDF AGF:||:EGB efg| {fg}fed edB | EGB dBG| FDF AGF|
+EGB e2 g| {fg} fed edc|dcB ABG| FDF AGF :||: g2 e efe| gfg bge|
+~g2 f efe| fdf agf|gbg efe | ~g3 bge| dcB ABG| FDF AGF :|
+|: EGB eBG| BGE FAF| EGB eBG | ~F3 AGF| EGB GBe| Beg efg| d3 ABG|FEF AGF :|
+S:https://www.folktunefinder.com/tunes/58626
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

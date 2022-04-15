@@ -1,0 +1,27 @@
+X: 1
+T: Miss Stewart's Jig of Bombay
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"[d3A3F3] D3 | AFD D2F | "G"G2E "Em"EFG | "E7"FED "A7"CB,A, \
+| "D"[d3A3F3] D3 | AFD D2F | "Em"Egf edc | "D"d3 D2 :|
+A \
+| "D"d2d faf | dfd faf | "Em"B3e efe | "A7"c3 A2c \
+|  "D"d2d faf | "G"gbg "D"faf | "Em"ege "A7"cAc | "D"d3 "d.C."D2 |]
+A \
+| "D"d2d faf | dfd faf | "Em"B3e efe | "A7"c3 A2c \
+|  "D"def "A"efg | "Bm"fed "F#m"cBA | "G"B/c/dB "A7"c/d/ec | "D"d3 D2 |]
+S:https://www.folktunefinder.com/tunes/14672
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissStewartsJigOfBombay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissStewartsJigOfBombay_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

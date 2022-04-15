@@ -1,0 +1,30 @@
+X:292
+T: FROEHLICH TOENT DER BECHERKLANG
+N: F0511
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 4/4
+L: 1/8
+K: C
+ | G,2E,G,C2EC | G,2G,2G,2z2
+C3B,A,G,F,E, | E,4D,2z2
+G,2E,G,C2EC | G,2G,2G,2z2
+C3B,A,G,F,E, | E,4D,2z2
+B,2D2D2D2 | D3CB,2z2
+G,2D2D2D2 | D3CB,2z2
+F3FE2GF | E4D2z2
+C2G,2E,2G,2 | C2D2E2z2
+D3EGFED | C2B,2C2z2
+C2G,2E,2G,2 | C2D2E2z2
+D3EGFED | C2B,2C2z2
+S:https://www.folktunefinder.com/tunes/69852
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

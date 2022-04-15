@@ -1,0 +1,31 @@
+X: 1
+T: Miss Irene Fiddler's Strathspey
+C: Chris Blair
+R: strathspey
+B:
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: Printed MS of unknown origin
+M: C
+L: 1/16
+K: G
+D2 \
+| "G"G4 "D"F3A "G"G4 D4 | "C"Ec3 "Am"A3G "D7"F6 A2 \
+| "G"B4 G3B "Am"c4 A3G | "D7"FD3 d3c "G"B4 B3c |
+| "Bm"d4 B3d "C"e4 c3B | "D"AF3 d3c "Bm"B4 D4 \
+| "Em"GG3 "Cm/Eb"AA3 "G/D"BB3 "Am/C"c3e | "D7"dB3 A3B "G"G4 |]
+[|"Am"A4 A3c "Em"B4 G4 | "Am"c3B A3G "D"F8 \
+| "C"E3G c3e "G/B"d4 G3A | "Em"B4 "Bm"d3B "Am"A4 "D"B3c |
+| "G7"d4 B3d "Am/C"e4 c3B | "D"AF3 d3c "Bm"B4 D4 \
+| "G"(3G2D2G2 "D7"(3A2D2A2 "G7"(3B2D2B2 "C"c3e | "G"dB3 "D7"A3B "G"G6 |]
+S:https://www.folktunefinder.com/tunes/19412
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/IreneFiddlersStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/IreneFiddlersStr_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

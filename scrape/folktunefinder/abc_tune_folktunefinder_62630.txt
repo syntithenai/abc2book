@@ -1,0 +1,25 @@
+X:7
+T:Hambo fra Gottenberg Festival
+T:"Sam's Hambo"
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach  8/12/02, from Fiddles & Feet 2001 tunebook
+M:3/4
+L:1/8
+%Q:1/4=140
+K:A  bass %clef=bass middle=D
+P:A
+"A"vA2E>(C A,>)E|F2E2C2|"E7"(3(EFE)D2B,2|"A"(3(DED)C2A,>E|
+"A"A2E>(C A,>)E|F2E2C2|"E7"(3(EFE) D>B, G,>B,|"A"A,2-A,3A,:|
+P:B
+"E7"(vE,2G,2)B,2|D2D4|"A"A,>(G, A,>)(B, C>)D|E2E4|
+"D"D>EF2F2|"A"C>DE2E2|"E7"B,>(C D>)(E F>)G|"A"A2A4:|
+S:https://www.folktunefinder.com/tunes/62630
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Hambo
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

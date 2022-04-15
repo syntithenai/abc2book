@@ -1,0 +1,27 @@
+X:414
+T: DIE FRANZOSEN BRECHEN EIN
+N: E0342
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: historisches Lied, Krieg gegen Franzosen (1799)
+M: 3/4
+L: 1/8
+K: G
+D2 | G2GBAF | G4
+A2 | B2BdcA | B4
+GA | B2B2Bc | d3c
+B2 | BAAGAB | c3B
+A2 | B2dcBA | G4
+A2 | B2dcBA | G4
+S:https://www.folktunefinder.com/tunes/78855
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen franzosen (1799)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

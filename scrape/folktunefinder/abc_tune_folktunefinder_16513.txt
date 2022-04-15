@@ -1,0 +1,35 @@
+X: 1
+T: Polska fr\aan R\"attvik
+O: efter Tommy Runesson
+N: 2nd beat early
+N: handwritten MS labelled "Buffalo Gap 1991"
+M: 3/4
+L: 1/16
+K: C
+%%slurgraces 1
+(CB, \
+|  C3)(C E2)CE {E}G4 | {G}c4 e2ce {e}g4 \
+| ({g}a3g) (Tf3e) d3c | (Bd3) c3{dc}A G3E \
+| C3(C E2)CE {E}G4 | ~c4 e2ce {e}g4 |
+| ({g}a3g) (Tf3e) (d3c | B2)AG c6 :| \
+|: e2- \
+| e4 (T[e3c3][eB]) [e3c3]e | e4 (d3^c) d3e \
+| (Tf2e2) (d2e2) ~f3g | {g}~a4 (g3^f) g3e- |
+| e4 ([e3c3][eB]) [e3c3]e | e4 (d3^c) d3e \
+| (Tf2e2) (d2e2) f3g | {g}~a4 (g3^f) g3e- \
+| (a3g) (Tf2e2) (d3c | B2)AG c6 :|
+P: Alternate A efter Anders Hjelte
+N: Alternate A efter R\"attviks Spelmanslag 1987 tape A8
+|: C3(C EG3) c3A | F4 (AF3) A3A \
+|1,3 G4 Bd3 g4 | ({^fg}a2g2) (ec3) G3E \
+:|2,4 G4 (B2d2) g3B | c4 c8 :|
+S:https://www.folktunefinder.com/tunes/16513
+S:http://trillian.mit.edu/~jc/music/abc/pols/RattviksP5_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/RattviksP5_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

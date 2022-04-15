@@ -1,0 +1,33 @@
+X: 1
+T:Leitrim Dragoons
+R:march
+Z:Paul de Grae  irtrad-l 2001-01-18
+M:4/4
+L:1/8
+Q:130
+K:G
+BA|:G2 G2 GABc|dBGA GBcd|ec a2 fd b2|gf/g/ ag fedc|
+B/c/d BG A/B/c AF|GABd efga|bgfg fed^c|1d2 d>^c d2 d/=c/B/A/:|
+2d2 d>^c defg|:
+a2 ag ac'ba|g2 gf gbag|fedg fedc|B2 A2 A2 d/c/B/A/|
+G2 AF GBcd|ec a2 fd b2|Bdce AeFA|1G2 AF G2 fg:|
+2G2 AF G2 dc|:
+B2 B2 A2 A2|G2 G2 FGAB|dc c2 cB B2|BA A2 ABce|
+d2 d2 c2 c2|B2 B2 ABcd|eccA AGGF|1A4 G2 dc:|
+2A4 G3 g|:
+f2 a>g fdef|g2 b>a g2 d/c/B/A/|GBcd efga|bgfg fedc|
+B2 B2 A2 A2|d2 d2 c2 c2|B2 d/c/B/A/ G2 F2|1A4 G3 g:|
+2A4 G4||
+S:https://www.folktunefinder.com/tunes/15538
+S:http://trillian.mit.edu/~jc/music/abc/march/LeitrimDragoons.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/LeitrimDragoons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LeitrimDragoons.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

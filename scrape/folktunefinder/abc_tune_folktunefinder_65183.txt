@@ -1,0 +1,23 @@
+X: 95
+T:First Western Change
+% Nottingham Music Database
+S:From Don Merser's 'Way Down East Fiddlin' Tunes', via Phil Rowe
+M:6/8
+K:G
+"G"gba "C"gfe|"G"d2B GBc|"D7"d^cd F2d|"G"d^cd BGd|
+"G"gba "C"gfe|"G"d2B GBc|"D"d^cd DEF|"G"G3 G2B::
+"D"AFA B2A|FGA f2f|"Em"g2f agf|"A7"ece a^ga|
+"D"AFA B2A|"D"FGA f2e|"Em"gfg "A7"AB^c|"D"d3 d3:|
+S:https://www.folktunefinder.com/tunes/65183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

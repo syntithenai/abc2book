@@ -1,0 +1,19 @@
+X:12
+T:Far From Home
+M:4/4
+L:1/8
+K:G
+(BA)    | "G" GEDE         G2 (GA) | B2    (~BA)(Bc)    d2 | GEDE G2      (GB) | "Am" AGAB     "D" AGEF |
+          "G" ~(GE)(DE)    G2 (GA) | "Bm" B2 (~BA) (Bc) d2 | "C" edef     gedc | "G"  BG"D"AF    "G" G2 :|
+(3(def) | "G" g2 (~ge) "D" f2 (fd) | "C"  edef        edBd | "G" (~ge)dB G2 B2 | "Am" (~AG)AB "D" AG E2 |
+          "G" (~GE)DE        G2 GA | "Bm" B2 (~BA) (Bc) d2 | "C" edef     gedc | "G" BG"D"AF     "G" G2 :|
+S:https://www.folktunefinder.com/tunes/66696
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

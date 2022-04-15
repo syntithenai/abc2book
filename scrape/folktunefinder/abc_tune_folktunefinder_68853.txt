@@ -1,0 +1,28 @@
+X:307
+T: Die Narrenkappe
+N: A0356
+O: Europa, Mitteleuropa, Deutschland
+N: Rhaw, Bicinia II 1545 No. 78.
+R: Romanze, Ballade, Lied
+M: 4/1
+L: 1/2
+K: C
+c2c2c2 | B2G2A2B2 | c4G4
+d3cB2A2 | G2F2G2E2 | D4C4 | z2
+c2c2c2 | B2G2A2B2 | c4G4
+d3cB2A2 | G2F2G2E2 | D4C4 | z2
+C2E2F2 | G2A2B2G2 | c3Bc3A | G8 | z2
+G2A2B2 | c4G4 | A2G2F4 | E8 | z2
+E2A2G2 | c2B2A2G2 | F2G2E4 | D8 | z2
+D2E2F2 | G3FE2D2 | E2F2D4 | C8 | z2
+S:https://www.folktunefinder.com/tunes/68853
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Text Has notes text
+% Has_accompaniment_chords No chords

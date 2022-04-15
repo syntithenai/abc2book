@@ -1,0 +1,24 @@
+X:667
+T: "Die Ursache"
+N: Z1348
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Zech -, Schalks - Lied
+M: 6/8
+L: 1/16
+K: G
+B2 | B2B2B2B2B2B2 | B2cde2d2c2
+B2 | A2A2A2A2A2A2 | A2Bcd2c2B2
+A2 | B2B2B2B4B2 | B2cde2d2c2
+B2 | A2A2A2A2B2^c2 | d2d2^c2d4
+d=c | B2B2B2B2B4 | B2cde2d2c4
+A2A2A2A2c4 | B2B2A2G4
+S:https://www.folktunefinder.com/tunes/69526
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

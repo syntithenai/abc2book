@@ -1,0 +1,25 @@
+X:215
+T: ES TAGET VOR DEM WALDE
+N: Z0214
+O: Europa, Mitteleuropa, Deutschland
+R: Jaeger - Lied
+M: 3/8
+L: 1/8
+K: G
+d | d2d | d2d | =f3 | _B3
+d2d | =f2e | d3 | z2
+d | d2d | =f2f | _B3 | d3
+c2c | ccA
+_B2G | =F2F | d2d
+=f3 | e3 | d2_B | cA2 | G3
+d2_B | cA2 | G2
+S:https://www.folktunefinder.com/tunes/69074
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:159
+T: HIE FUER EINES FROMMEN BRAEUTGAM THUER
+N: E1276
+O: Europa, Mitteleuropa, Deutschland
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Hochzeit
+M: 4/4
+L: 1/4
+K: F
+ | F2A2 | c2c
+c | cABc | AAA2 | z
+FBB | AGFF | G
+GAA | GFA2 | B
+BAF | GGF2 | F2z
+F | FGAF | ccc
+c | cABc | A2A2 | z
+FBB | AGFF | G
+GAA | GFA2 | B
+BAF | GGF2 | F4
+S:https://www.folktunefinder.com/tunes/79263
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, hochzeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

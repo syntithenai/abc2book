@@ -1,0 +1,25 @@
+X: 1
+T: S\onderhoning 1
+O: trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+[| "A"ee e>d | cc c>B | AB/c/ dc | "E7"c2 B2 \
+|  "A"ee e>d | cc c>B | AB/c/ dc | "E7"c2 B2 ||
+|| "A"ec ec | "D"af d2 | "Bm"d>d ff | "E7"bg e2 \
+|  "A"cc/B/ ce | "F#m"AA/G/ Ac | "Bm"dB "E7"GB | "A"A4 |]
+S:https://www.folktunefinder.com/tunes/6072
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sonderhoning.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/Sonderho1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/ganglat/Sonderho1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho/Sonderho1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Sonderho1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Sonderho1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/Sonderho1_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

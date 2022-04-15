@@ -1,0 +1,22 @@
+X:49
+T: Schwabentoechterlein
+N: A0052
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei Joh. Ott 1544 No. 45.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+ |  |  | G4G2G2 | A4G4 | c4B4 | c4z2
+c2 | c4c4 | B3AG4 | A4A4 | d4z2
+d2 | c3BA2G2 | A4G4 | d2d2d3c | B4A2A2 | G8
+S:https://www.folktunefinder.com/tunes/68595
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

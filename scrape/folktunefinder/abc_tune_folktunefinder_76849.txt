@@ -1,0 +1,25 @@
+X:364
+T: EI WIE KAN DE ZEVENSPRUNG
+N: E0992B
+O: Europa, Mitteleuropa, Niederlande
+R: Tanz - Lied, Reigen, Siebensprung
+M: 4/4
+L: 1/8
+K: D
+ | DEFGA2F2 | G2E2F2D2
+DEFGA2F2 | G2E2F4
+E2E2E2F2 | GFEDC2A,2
+E2E2E2F2 | G2F2E2
+A2 | F6A2 | F4z4
+S:https://www.folktunefinder.com/tunes/76849
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, siebensprung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

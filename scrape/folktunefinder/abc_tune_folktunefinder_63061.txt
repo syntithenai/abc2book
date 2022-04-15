@@ -1,0 +1,22 @@
+X:400
+T:Sligo Maid, The
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of Ador)
+K:Ador
+"D"A2BA (3B^cd ef | gedB AGEF | "G"G2BG dGBG | DEGA BGdB |
+"D"A2BA (3B^cd ef | gedB AGEG | "G"~B3G ABGE | "D"DEGA BA~A2 :|:
+"Am"eaag a2ga | bgaf gfed | "G"eggf ~g3e | dega bgag |
+"Am"eaag a2ga | bgaf gfed | "G"eg~g2 edB^c | dBgB "Am"BA~A2 :|]
+S:https://www.folktunefinder.com/tunes/63061
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of ador)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

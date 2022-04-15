@@ -1,0 +1,53 @@
+X: 1
+T: Einigkeit und Recht und Freiheit
+T: Deutschland \"uber alles
+T: das Deutschlandlied
+C: Joseph Haydn
+N: Based on a Croatian folk song, "Vjutro rano se ja vstanem"
+W: Only the third verse is sung now.
+W:
+W: Deutschland, Deutschland \"uber alles,
+W: \"Uber alles in der Welt,
+W: Wenn es stets zum Schutz und Trutze
+W: Br\"uderlich zusammenh\"alt;
+W: Von der Maas bis an die Memel,
+W: Von der Etsch bis an den Belt:
+W: Deutschland, Deutschland \"uber alles,
+W: \"Uber alles in der Welt!
+W:
+W: Deutsche Frauen, deutsche Treue,
+W: Deutscher Wein und deutscher Sang
+W: Sollen in der Welt behalten
+W: Ihren alten, sch\"onen Klang,
+W: Uns zu edler Tat begeistern
+W: Unser ganzes Leben lang:
+W: Deutsche Frauen, deutsche Treue,
+W: Deutscher Wein und deutscher Sang!
+W:
+W: Einigkeit und Recht und Freiheit
+W: F\"ur das deutsche Vaterland.
+W: Danach la\sst uns alle streben,
+W: Br\"uderlich mit Herz und Hand.
+W: Einigkeit und Recht und Freiheit
+W: Sind des Gl\"uckes Unterpfand.
+W: Bl\"uh' im Glanze dieses Gl\"uckes,
+W: Bl\"uhe deutsches Vaterland.
+M: 4/4
+L: 1/8
+K: F
+|: F3  G A2 G2 | B2 A2 GE F2 | d2 c2   B2 A2 |  G2 AF c4 :|
+|  G2 A2 GE C2 | B2 A2 GE C2 | c2 B2   A3  A | =B3  B c4 |
+|: f3  e ed c2 | d3  c cB A2 | G3 A/B/ cd BG |  F2 AG F4 :|
+S:https://www.folktunefinder.com/tunes/13361
+S:http://trillian.mit.edu/~jc/music/abc/anthem/DeutschlandLied_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/anthem/EinigkeitUndRechtUndFreiheit_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/Deutschlandlied_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/EinigkeitUndRechtUndFreiheit_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

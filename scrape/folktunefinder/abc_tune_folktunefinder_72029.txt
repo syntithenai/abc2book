@@ -1,0 +1,54 @@
+X:1
+T:Mrs. Farquharson of Monaltrie's Delight
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/20/04
+N:Petrie's First Collection, page 1
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+K:Eb
+[V:1] "^Slow"E|~C>ECG, C(cGE)|B,(D/E/) FD .B.F.D.B,|~C>ECG, C(ecG)|F(G/A/) (G/F/)(E/D/) .ECC:|
+[V:2] z|C/c/=B/c/ C/c/=B/c/ C/c/=B/c/ C/c/=B/c/|B/f/d/f/ B/f/d/f/ B/f/d/f/ B/f/d/f/|\
+[V:2] C/c/=B/c/ C/c/=B/c/ C/c/=B/c/ C/c/=B/c/|fabG cGC:|
+[V:1] c/d/|(e/d/)c (Gc) (Ec)(Gc)|B/c/d/e/ (fd) (bf) {e}(d{c}B)|(e/d/)c (Gc) (Ec) (Gc)|=B<aTg>f ecTc>d|
+[V:2] z|c/g/e/g/ c/g/e/g/ c/g/e/g/ c/g/e/g/|B/f/d/f/ B/f/d/f/ B/f/d/f/ B/f/d/f/|\
+[V:2] c/g/e/g/ c/g/e/g/ c/g/e/g/ c/g/e/g/|a/g/f/d/ g/f/g/G/ c/c'/g/e/ cz|
+[V:1] (e/d/)c (G>c) (E>c) (G>c)|(B/c/d/e/) (fd) (bf){e}(d{c}B)|(Tg>e)(Tf>d) (Te>c)(Td>=B)|cA (G/F/)(E/D/) ECC||
+[V:2] c/g/e/g/ c/g/e/g/ c/g/e/g/ c/g/e/g/|b/f'/d'/f'/ b/f'/d'/f'/ b/f'/d'/f'/ b/f'/d'/f'/|\
+[V:2] c'/d'/e'/c'/ d'/c'/=b/g/ c'/b/c'/a/ g/a/g/f/|efgG cGC|
+[V:1] |:"^Var:"E|~C>E (=B,/<C/)G, C=B/<c/ (^F/<G/)(D/<E/)|\
+[V:1] (=A,/<B,/)(D/<E/)  (G/<F/)(E/<D/) (=A/<B/)(=E/<F/) (^C/<D/)(=A,/<B,/)|
+[V:2] |:z|C2c2e2c2|d2B2d2B2|
+[V:1] ~C>E (=B,/<C/)G, C(d/<e/) (B/<c/)(#F/<G/)|(=E/<F/)(G/<A/) (TG/>F/)(T_E/>D/) ECC:|
+[V:2] c2e2c2e2|dfgG cGC:|
+[V:1] c/d/|{f}e(d/<c/) G/c/ (Tc/=B/4c/4) E/c/ (Tc/=B/4c/4) G/c/ (Tc/=B/4c/4)|\
+[V:2] (B/c/d/e/) (g/<f/)(e/<d/) (=a/<b/)(=e/<f/) (^c/<d/)(=A/<B/)|
+[V:2] z|c'2e2c2e2|d2b2d'2b2|
+[V:1] (f/<e/)(d/<c/) G/c/ Tc/(=B/4c/4) E/c/ (Tc/=B/4c/4) G/c/ (Tc/=B/4c/4)|(.=B/.d/.f/.a/ .g/.f/.e/.d/) ecTc>d|
+[V:2] c'2e2c2ef|gfgG c2 z2|
+[V:1] (f/<e/)(d/<c/) G/c/ (Tc/=B/4c/4) E/c/ (Tc/=B/4c/4) G/c/ (Tc/=B/4c/4)|\
+[V:1] (.B/.c/.d/.e/ .g/.f/.e/.d/ .b/.=a/.g/.f/ .e/.d/.c/.B/)|
+[V:2] c2e2c'2e2|d2b2d'2b2|
+[V:1] (.a/.g/.f/.e/ .g/.f/.e/.d/ .f/.e/.d/.c/ .e/.d/.c/=B/)|Tc/=B/c/A/ TG/F/TE/D/ ECC|]!
+[V:2] c'2=b2c'2g2|efgG cGC|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72029
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MrsFarquharsonOfMonaltriesDelight.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Mrs_Farquharson_of_Monaltries_Delight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

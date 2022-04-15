@@ -1,0 +1,22 @@
+X:0
+T:Hollin, green Hollin
+S:C.K. Sharpe/Lady John Scott, NLS MS.843
+M:3/4
+L:1/8
+Q:1/4=100
+G:ballad
+K:EMin
+% mixolydian/dorian/minor pentatonic
+D2|B,E E2 FE|DE F4|E2 E2 (EF)|A2 B2 dB|
+   AB  d2 e2|dB e4|d2 B2 (BA)|F2 E2  |]
+S:https://www.folktunefinder.com/tunes/30097
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

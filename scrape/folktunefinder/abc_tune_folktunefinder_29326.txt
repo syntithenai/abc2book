@@ -1,0 +1,28 @@
+X:3046
+T:Ciganski Orient
+O:Serbia
+S:from recording Ciga Ivon Despotovic -16 Yugoslavian Dances
+M:2/4
+L:1/8
+Q:1/4=300
+K:G
+%%MIDI gchord z2c2
+|:"B"B3c|B2 B2|B2 B2|B2 B2|B2 "Am"c2|B2 c2| "B"B2 B2| B4:|
+K:BDor
+|:"B"B3c|^d2e2|f2f2|f2f2|e2e2|^d2e2|^dcde|f4|
+B3c|^d2e2|fefe|f2f2|fa=gf|e=gfe|BcBc|B4:|
+|:"B"B4|A2G2|A4|G2F2|F4|F2F2|F4|F2z2|
+"B"B2c2|A2B2|G2A2|G2F2|F2F2|F4|F2z2:|
+"B"B4|=c4|B4|=c4|B2b2|B2B2|B4|
+S:https://www.folktunefinder.com/tunes/29326
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

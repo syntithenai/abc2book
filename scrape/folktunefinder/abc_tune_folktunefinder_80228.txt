@@ -1,0 +1,26 @@
+X:169
+T: Heilige drei Koenige
+N: A0532A
+O: Europa, Mitteleuropa, Deutschland
+N: Paderborner Gsgb. 1617.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2G2d2 | d2d2c2_B2 | A4z2
+c2 | c2c2c2c2 | _BdcBA3
+d | =f2d2c2_Bc | A4G4z2
+G2 | _B2B2c2cc | _B2AGA3
+d | =f2ddc2_B2 | A4G4 | z2
+S:https://www.folktunefinder.com/tunes/80228
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

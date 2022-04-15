@@ -1,0 +1,31 @@
+X:2693
+T:Humours of Ballyloughlin
+O:england
+R:Jig
+S:Chris Moran
+N:The low D twiddles should be played as piper crans.
+M:6/8
+L:1/8
+K:ADor
+~A3 {B}AGE|{A}GED ~D3|cBc ded|cAG {FG}FED|
+~A3 {B}AGE|~G3 cGE|~D3 {G}DFA|~D3 {G}D2z:|
+cBc {d}cBc|{d}cAG ABc|{dg}ded {g}ded|{g}dAF DFA|
+c{d}c{G}c dzB|cAG {FG}FGE|~D3 {G}DFA|~D3 {G}D2z:|
+{a}fdd {a}gdd|{a}fdd {a}gdd|c2e {a}ged|B/c/de {a}ged|
+{a}fdd {a}gdd|~f2a ged|cde gag|ed^c dze:|
+~A2D ~A2G|~F3 GED|~E3 {A}EFD|~E3 {A}EFG|
+~A3 dAG|~F3 GEA|~D3 {G}DFA|~D3 {G}D2z||
+S:https://www.folktunefinder.com/tunes/23144
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

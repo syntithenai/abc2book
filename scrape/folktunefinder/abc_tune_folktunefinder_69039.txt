@@ -1,0 +1,25 @@
+X:180
+T: EIN JAEGER AUS KURPFALZ
+N: Z0179
+O: Europa, Mitteleuropa, Deutschland, Schwaben; Rheinland; Oberpfalz
+R: Soldaten -, Jaeger - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | D2B2B2B2 | B6
+d2 | d2c2c2B2 | B2A2A2
+G2 | F2A2A2A2 | A6
+dc | B2B2A2A2 | G4z4
+d6c2 | B6
+d2 | g2d2c2B2 | B2A2A2
+A2 | B2BcA2AB | G4z2
+S:https://www.folktunefinder.com/tunes/69039
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

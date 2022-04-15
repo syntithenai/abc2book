@@ -1,0 +1,30 @@
+X: 1
+T: Renton's Rant
+C: Bert Murray
+R: strathspey
+B: The Bon Accord Collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A,>D F>D A>D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A>F "Em"G<E E>D |
+| "Em"B,>E ~E2 G>E B>G | "D"FG/A/ d>B A>F D>F \
+| "Em"EF/G/ "D"FG/A/ "G"B>A G>B | "D"A>F D>F "Em"G<E E ||
+B \
+| "Em"e>f g>e b>e g>e | "D"d>f A>d F>A D>d \
+| "Em"B>e g>e b>e g>e | "D"f>e d>f "Em"g<e e>B |
+| "Em"e>f g>e b>e g>e | "D"d>f A>d f>d a>f \
+| "Em"ef/g/ "D"fg/a/ "G"b>a g>b | "D"a>f d>f | "Em"g<e e |]
+S:https://www.folktunefinder.com/tunes/19636
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RentonsRant_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RentonsRant_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

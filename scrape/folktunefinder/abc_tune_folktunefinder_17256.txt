@@ -1,0 +1,25 @@
+X:1
+T: the Glen Road to Carrick
+S:Paul O'Shaughnessy
+Z:Juergen.Gier@post.rwth-aachen.de
+M:C|
+L:1/8
+K:DMix
+FD (3DDD FDGD | FD (3DDD EFGE | FD (3DDD FDEF | G2BG EFGE :| \
+A3d (3BdB AF | DFAF EFGE | A3d (3BdB AF | GABG EFGE | \
+A3d (3BdB AF | DFAF EFGB | Ad^cd AdAF | ED^CD EFDg |]
+|:fd (3ddd fdgd | fd (3ddd ^cdeg | fd (3ddd fdef |1 gfgb efga :|2 g2bg egfe :| \
+d2ad bdad | dfaf egfe | d2ad bdad | gabg egfe | \
+d2ad bdad | dfaf egfe | dfa^g bgaf | gabg egfe |] \
+d2AG FD (3DDD | FDAD FA (3AAA | A3d (3BdB AF |1 ED^CD EFGA :|2 ED^CD EFDG |]
+S:https://www.folktunefinder.com/tunes/17256
+S:http://trillian.mit.edu/~jc/music/abc/reel/GlenRoadToCarrick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GlenRoadToCarrick.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GlenRoadToCarrick.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T:01. C Major
+N:0 sharps/flats
+M:4/4
+L:1/4
+K:C
+C D E F | G A B c | c d e f | g a b c' || C E G c | c e g c' |]
+S:https://www.folktunefinder.com/tunes/2067
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/Scales-Major.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/Scales-Major.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/Scales-Major.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

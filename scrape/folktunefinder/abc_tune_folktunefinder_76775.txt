@@ -1,0 +1,30 @@
+X:290
+T: BESENBINDERS TOCHTER
+N: E0884
+O: Europa, Mitteleuropa, Deutschland
+R: Hochzeits -, Ehestands - Lied, Scherz - Lied, Bettelhochzeit
+M: 2/4
+L: 1/8
+K: F
+ | c=BcA | F2F
+A | G^FGE | C2z
+A | c=BcA | F2F
+A | G^FGE | F2z
+C | CCCC | B2B
+A | GGAB | c2f
+A | c=BcA | FFF
+A | GFGA | F2z
+C | CCCC | B2B
+A | GGAB | c2f
+A | c=BcA | FFF
+A | GFGA | F2z2
+S:https://www.folktunefinder.com/tunes/76775
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied, scherz - lied, bettelhochzeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

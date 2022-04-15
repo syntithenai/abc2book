@@ -1,0 +1,28 @@
+X: 1
+T: Maamme
+T: V\aart land
+T: Our Land
+T: National Anthem of Finland
+C: Fredrik Pacius
+N: National anthem of Finland
+M: 3/4
+L: 1/8
+K: A
+E CD \
+| "A"E3 A "E7"B>E | "A"c4 A2 | "D"F>B "A"A2 "E7"G2 | "A"A3 ||
+|: zE2 \
+| "E7"B>A GF ED | "A"C"D"F "A"E2 E2 | "E7"B>A GF ED | "A"C"D"F "A"E2 zE |
+| "A"A>E CE AB | "A"c4 A2 | "D"F>B "A"A2 "E7"G2 | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/13367
+S:http://trillian.mit.edu/~jc/music/abc/anthem/Maamme_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/Maamme_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/Maamme_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/Maamme_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/Maamme_A.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

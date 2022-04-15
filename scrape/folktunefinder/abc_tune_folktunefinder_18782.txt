@@ -1,0 +1,26 @@
+X:1
+%% Copyright 1942 by Mayfair Music Corp., 1619 Broadway, New York, N.Y.
+T:I'm glad there is you
+C:Paul Madeira & Jimmy Dorsey
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+"Fmaj7"EE2E-E4- | E2E2 AAEE | "Fm7"_EE-E6- | E2_E2_AAEE |
+S:https://www.folktunefinder.com/tunes/18782
+S:http://trillian.mit.edu/~jc/music/abc/song/Im_glad_there_is_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Im_glad_there_is_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/im_glad_there_is_you.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/im_glad_there_is_you.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

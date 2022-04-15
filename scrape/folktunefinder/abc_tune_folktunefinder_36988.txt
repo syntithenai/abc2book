@@ -1,0 +1,32 @@
+X:4545
+T:Pols fr Rros (minor version)
+A:Rros
+M:3/4
+O:Norway
+Q:1/8=320
+R:Pols
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b1e.html
+%%ID:00000b1e
+K:D min
+d2 d<^c A2|f2 fd e>f|\
+(3geg (3fdf e>^c|d2 {e}d<^c A2|\
+d2 d<^c A2|f2 fd e>f|
+(3geg (3fdf e>^c| d2 d4:|\
+|:\
+K:D
+a2 f>a f>a|g2 e>g e>g|
+f2 (3dfd e>c|d2 f2 a2|\
+a2 f>a f>a|g2 e>g e>g|f2 (3dfd e>c|d2 d4:|
+S:https://www.folktunefinder.com/tunes/36988
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

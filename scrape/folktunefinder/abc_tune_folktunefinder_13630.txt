@@ -1,0 +1,23 @@
+X: 1
+T:hornpipe gan ainm
+R:hornpipe
+Z:what Lesl thinks Mike Rafferty played. (irtrad-l 2001-4-26)
+M:4/4
+L:1/8
+K:G
+(3GFE \
+|: DGBG  cABG | DG (3Bcd  gzga | bg~g2 dedB | cBAG (3FED BG |
+   DGBG  cABG | Dz (3Bcd g~g2a | bg~g2 dedB |1 cAFA Gz (3GFE :|2 cAFA G4 ||
+|: bg~g2 agef | g~g2d ed (3Bcd | eB~B2 egfd | edcB AGEz |
+   DGBG  cABG | DG (3Bcd  gzga | bg~g2 dedB |1 cAFA Gzga :|2 cAFA G4 |]
+S:https://www.folktunefinder.com/tunes/13630
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/McMahonsHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/McMahonsHp_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

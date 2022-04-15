@@ -1,0 +1,25 @@
+X:228
+T: Buchsbaum und Felbinger
+N: A0273B
+O: Europa, Mitteleuropa, Deutschland
+N: Schmeltzel Quodl.XI 1544
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/4
+K: G
+G2G2G2 | A4B4 | c4c2c4
+c2 | c4c4 | B3AB2A4G2 | A8 | z2
+A2=F2F2 | E4E2D2 | DCDE=F2F2 | G8 | z4
+B4 | c3BA2G2 | A4G4 | z2
+S:https://www.folktunefinder.com/tunes/68774
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

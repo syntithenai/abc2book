@@ -1,0 +1,24 @@
+X:15436
+T:Silver Spear
+R:Reel
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+|:FA~A2 BAFA|dfed BcdA|FA~A2 BAFA|dfed B2A2|
+FA~A2 BAFA|dfed Bcdf|~g3e ~f3e|dfed B2A2:|
+|:f2af bfaf|gfed Bcde|f2af bfaf|gfed B2A2|
+faaf bfaf|gfed Bcde|~g3e ~f3e|dfed B2A2:|
+S:https://www.folktunefinder.com/tunes/46711
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

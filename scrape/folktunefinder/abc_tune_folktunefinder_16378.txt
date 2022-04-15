@@ -1,0 +1,43 @@
+X: 1
+T: Kari-Leken
+O: Malung, Sweden
+R: Malungs-polska
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin labelled "980207"
+N: "efter Troskari [Mats] trad Anders Ros\'en"
+M: 3/4
+L: 1/8
+K: A
+V: 1
+|: "A"e>e c2 d2 | ec e2 a2 | "E7"gf ed Bc | (de) "A"c4 \
+|| "A"ee c2 d2 | ec e2 a2 | "E7"ga be fg | "A"a2 a4 :|
+|: "A"{ef}e>d (c<A) (c<e) | {ef}e>d (c<A) (c<e) \
+| "E7"d>c BG Bd | "A"(cB) A4 \
+|| "A"{ef}e>d (c<A) (c<e) | {ef}e>d (c<A) (c<e) |
+| "E7"d>c BG Bd | "A"(cB) A4 \
+|| "A"{ef}e>d (c<A) a2 | "D"gf d2 b2 \
+| "A"a>e c2 "E7"(d>c) | ((3BcB) "A"A4 :|
+V: 2
+|: "A"c>c A2 B2 | cA c2 f2 | "E7"ed cB GA | (Bc) "A"A4 \
+|| "A"cc A2 B2 | cA c2 f2 | "E7"ef gc de | "A"c2 c4 :|
+|: "A"{cd}c>B (A>E) (A>c) | {cd}c>B (A>E) (A>c) \
+| "E7"B>A G>E G>B | "A"(EG) A4 \
+|| "A"{cd}c>B (A>E) (A>c) | {cd}c>B (A>E) (A>c) |
+| "E7"B>A G>E G>B | "A"(EG) A4 \
+|| "A"{cd}c>B A2 c2 | "D"ed B2 g2 \
+| "A"f>c A2 "E7"(BA) | (EG) "A"A4 :|
+S:https://www.folktunefinder.com/tunes/16378
+S:http://trillian.mit.edu/~jc/music/abc/pols/KariLeken_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/KariLeken_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/KariLeken_2V.abc
+% Rhythm Malungs-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

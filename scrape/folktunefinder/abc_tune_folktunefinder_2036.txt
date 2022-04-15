@@ -1,0 +1,40 @@
+X: 99
+T:Hymn Olney. JMP.099
+T:Olney. JMP.099
+M:4/4
+L:1/8
+Q:160
+S:John Miller his book of music for fife
+R:Hymn
+O:Scotland
+A:Perth
+N:There are words!  And theoretically somewhere to put them
+N:"O come and dwell in me Spirit of power within   
+N:And bring the glorious libirty   
+N:From sorrow fear and sin   
+N:The seed of sin decease
+N:Spirit of Health remove   
+N:Spirit of finished holiness   
+N:Spirit of perfect love"
+H:1799
+Z:vmp.C.  Graebe   
+K:A minor
+E4 |"see Notes for words" A2B2c2d2 |(B>A G2) z2 E2 |\
+ A2A2B2B2 | E4 z2 E2 | A2B2c2 d2 |\
+(B>A) (G>A) G4 | z2 G2 A2 A2 | B2B2 E4 | z2e2d2 (Bc) |\
+(dc) B2 "pause"c4 |(cd) e2e2 | e2 (de/f/) (e>dc2) | \
+z2B2c2B2 | (AB)c2 (BA)(^G^F) |\
+E4 E2 (AB) (cd/e/) (dc)B2 | A4 |]
+S:https://www.folktunefinder.com/tunes/2036
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hymn
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

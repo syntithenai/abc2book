@@ -1,0 +1,37 @@
+X: 1
+T: Hora Fetelor
+O: Romania
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: Made by combining versions from Aubrey Jaffer, Tom Pixton and Seymour Shlien
+N: Aubrey plays Adim7 chords on his cimbalom, but I prefer Cm chords on my accordion.
+M: 6/8
+L: 1/8
+Q: 3/8=100
+P: AABBABB
+K: G
+V: 1 name=panpipes snm=""
+D |: D2G4 | A2B4 | (c3-(4cBA^G) | A3-A2 G | B2c c2c |
+ d_ef edc |  d6 | z3z2D | D2G4 | A2B4 | (c3-(4cBA^G) |
+ A3-A2 G |  Bcd cB_A | cB_A AGF | G6 |1 z3 z2D :|2 z2B c2d |
+|: _e3-e2d | d3-d2c | Bcd c2B | cBA A3 | B2c c2c | d_ef edc |
+ d6 | z2d _e2f | g3- g2f | (4_e2d2c2B2 | gf_e dcB | cBA-A3 |
+ Bcd cB_A | cB_A AGF |1 G6 | z2B c2d :|2 MG3 MD3 | G3z2 |]
+V: 2 name=cymbalom snm=""
+z |: "G"G,2B,D2B, | "F"F,2A,C2A, | "E"E,2^GB,2G | "Am"A,2CE2C | "Cm"A,2C_E2C | G2C_E2C |
+ "G"G,2B,D2B, | G2B,D2B, | "G"G,2B,D2B, | "F"F,2A,C2A, | "E"E,2^GB,2G | "Am"A,2CE2C |
+ "Cm"A,2C_E2C | G2C_E2C | "G"G,2B,D2B, |1 G2B,D2B, :|2 G2B,D2B, |
+|: "Cm"C2_EG2E | "G"G,2B,D2B, | "E"E,2^GB,2G | "Am"A,2CE2C | "Cm"A,2C_E2C | G2C_E2C |
+ "G"G,2B,D2B, | G2B,D2B, | "Cm"C2_EG2E | "G"G,2B,D2B, | "E"E,2^GB,2G | "Am"A,2CE2C |
+ "Cm"A,2C_E2C | G2C_E2C |1 "G"G,2B,D2B, | G2B,D2B, :|2 "G"G,2B,D2B, | "G"G3 z2 |]
+S:https://www.folktunefinder.com/tunes/5680
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraFetelor_JC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraFetelor_JC.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:835
+T:Whistler from Rosslea
+M:C|
+L:1/8
+C:Ed Reavy
+R:reel
+N:Originally written in the key of D by Ed Reavy
+D:Martin Hayes: Martin Hayes
+Z:Devin McCabe
+K:CMin
+CDEF G2FD | G3FD E~C3 | B,CDE F2EF | GAFG E2DE | CDEC DEFD |
+!G=ABG cBGF | EFFE FADF |1 ECDB, C3G, :|2 ECDB, C3B |:
+!c2Gc EcGc | c2dc cBG=A | B2FB DBFB | B=AGF ECB,D |
+!G~c3 cBGF | EFG=A B3c | cBGF EFFD | ECDB, C3B :|
+S:https://www.folktunefinder.com/tunes/48243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Colonel Baird
+C: Mrs Oswald
+B: The Gow Collection of Scottish Dance Music #326 (George Carlin ed) 1986
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+%P: Slowish
+%%slurgraces 1
+M: 6/8
+L: 1/8
+K: F
+c \
+| "F"cfc cfd | "F"c2c "C7"~c2d | "F"cAF "C7"BGE | "F"F2F ~F2c \
+| "F"cfc cfd | "F"c2c "C7"~c2d | "F"cAF "C7"BGE | "F"F3   F2 :|
+|: B \
+| "F"{AB}c2c AFA | "C7"B2B GEG | "F"FGA "Dm"FGA | "Gm"B2A "C7"G2B \
+| "F"{AB}c2c AFA | "Gm"B2B "C7"GEG | "F"~FGA  "C7"BGE | "F"F3  F2 :|
+S:https://www.folktunefinder.com/tunes/14033
+S:http://trillian.mit.edu/~jc/music/abc/jig/Colonel_Baird_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Colonel_Baird_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Colonel_Baird_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

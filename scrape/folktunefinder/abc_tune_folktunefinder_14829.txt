@@ -1,0 +1,28 @@
+X: 1
+T: Paddy's Leather Breeches
+O: Scotland
+R: Pipe jig
+B: Scots Guards #484 p.272
+B: Susie Petrov Her Book of Musick
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+|:"Bm"BBB f2e | fBB f2e | BBB "E"f2e | "A"cAA fec \
+| "Bm"BBB f2e | fBB f2e | "D"fga "A"efa | cAA "F#m"fec :|
+|:"Bm"a3 f2e | fBB f2e | "D"a3 "E"f2e | "A"cAA fec \
+| "Bm"a3 f2e | fBB f2e | "D"fga "A"efa | cAA "F#m"fec :|
+|:"Bm"BBB "A"ccc | "Bm"BBB "E"f2e | "Bm"BBB "E"Bcd | "A"cAA fec \
+| "Bm"BBB "A"ccc | "Bm"Bce f2e | "D"fga "A"efa | cAA "F#m"fec :|
+|:"Bm"aga f2e | fBB f2e | aga "E"f2e | "A"cAA fec \
+| "Bm"aga f2e | fBB f2e | "D"fga "A"efa | cAA "F#m"fec :|
+S:https://www.folktunefinder.com/tunes/14829
+S:http://trillian.mit.edu/~jc/music/abc/jig/PaddysLeatherBreeches_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PaddysLeatherBreeches_Bm.abc
+% Rhythm Pipe jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

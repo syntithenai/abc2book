@@ -1,0 +1,24 @@
+X:192
+T: Haenschen klein geht allein
+N: D1023
+O: Europa, Mitteleuropa, Deutschland, Trier, Issel
+N: DVA-Signatur A 78 807
+R: Kinder - Lied
+M: 4/4
+L: 1/4
+K: F
+cAA2 | BGG2
+FGAB | ccc2
+cAA2 | BGG2
+FAcc | A2z2
+S:https://www.folktunefinder.com/tunes/72649
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

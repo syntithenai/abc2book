@@ -1,0 +1,28 @@
+X:387
+T:Seumus Ruadh
+T:Jamie Roy
+T:Jamie Rae
+B:The Gesto Collection, 1895
+Z:Nigel Gatherer <gatherer:argonet.co.uk> 2002-5-12
+M:6/8
+L:1/8
+K:A mix
+B | AAA a3  | geg a3  | GGG g2e | dBd G2B |
+    AAA a3  | geg a3  | ege dBd | e3  A2 :|
+a | AAA e2A | dBA A2e | GGG g2e | dBd G2B
+  | AAA e2A | dBA g2a | ege dBd | e3  A2 :|
+S:https://www.folktunefinder.com/tunes/14397
+S:http://trillian.mit.edu/~jc/music/abc/jig/JamieRae_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/JamieRoy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SeumusRuadh_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JamieRae_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JamieRoy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SeumusRuadh_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JamieRae_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JamieRoy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/SeumusRuadh_1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

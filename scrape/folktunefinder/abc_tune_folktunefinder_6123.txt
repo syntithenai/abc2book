@@ -1,0 +1,25 @@
+X: 1
+T: Tarantella di Peppina
+O: Trad Italy
+R: tarantella
+% %scale 0.65
+%%vocalfont Helvetica-Narrow-Bold 16
+M: 6/8
+L: 1/8
+K: D
+"Intro"\
+| "D"[A3F3] "G"[B3G3] | "D"[A6F6] | "A7"[cA3]cc [cG3]cc |1 "D"d6F6 :|2 "D"[d3F3] \
+"Chorus"[|] "A7"AAA | "D"d3 A3 | F3 AAA |
+w: | | | | | * Co-me son bel-la-la co-me se
+| "A7"c3 A3 | G3 AAA | c3 A3 | G3 AAA | "D"B3 A3 | F2d d2d | "G"d6 | B3 ddd |
+S:https://www.folktunefinder.com/tunes/6123
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TarantellaDiPeppina.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/TarantellaDiPeppina_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/tarantella/TarantellaDiPeppina_D.abc
+% Rhythm Tarantella
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

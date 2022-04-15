@@ -1,0 +1,28 @@
+X: 1
+T: the Cavan Buck
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Kerr's Coll.
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bdor
+B/c/ \
+| "Bm"d2B "F#m"c2A | "Bm"B2c d2e | "D"f2f "E7"e2d | "A"c2A "F#m"ABc \
+| "Bm"dcB "F#m"cBA | "Bm"B2c "G"d2e | "F#m"fga "E"gfe | "Bm"f2B B2 :|
+|: f \
+| "D"a2f d2e | "Bm"f2b b2f | "D"a2f "E7"e2d | "A"c2A "F#m"ABc \
+| "Bm"dcB "A"cBA | "G"B2c "Em"d2e | "D"fga "F#7"gfe | "Bm"f2B B2 :|
+S:https://www.folktunefinder.com/tunes/13987
+S:http://trillian.mit.edu/~jc/music/abc/jig/CavanBuck_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CavanBuck_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CavanBuck_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

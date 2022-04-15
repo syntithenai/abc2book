@@ -1,0 +1,37 @@
+X: 21
+T:Queen of Roses Polka,The. TLY.020
+M:2/4
+L:1/16
+Q:110
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Polka
+O:England.
+A:Lancashire.
+N:There is a 'signo' at the first bar. A pause symbol above the quaver
+N:rest in the last bar of the a part. Fine at the frst double bar. Strong
+N:accent marks on last beat of bars 2,3 and 4 of B music. "Signo" at end
+N:of B music. DC at end of B music. C music is marked as Trio and again
+N:ends with a "signo" and  DC. TT.
+N:Key Sig of Trio may be wrong.CGP.
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+"S"B2d2 d2cB|c2e2 e4|ABcd efga|b2fg fedc|!
+B2d2 d2cB|c2e2 e4|ABcd efga|g2b2g2"Fine" z2:|!
+|:A2g2 gfe2|fga2 d4|^cde2 A4|B^cde f4|!
+A2g2 gfe2|fga2 B^cd2|efg2 AB^c2|d2d2d2"DC" z2:|!
+|:"Trio"e2f2 g4|b2a2a4|Bcde f2f2|cdef g2g2|!
+e2f2 g4|b2a2 a4|Bcde f2B2|c2ed c2 z2:|]
+S:https://www.folktunefinder.com/tunes/37554
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

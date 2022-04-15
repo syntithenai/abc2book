@@ -1,0 +1,27 @@
+X: 41
+T:Foggy Mountain Breakdown
+M:4/4
+L:1/8
+Q:120
+C:Flatt & Scruggs
+R:Breakdown
+K:G
+"G"{[^cf]}-[d2g2] [dg][d2g2][dg][dg][dg]|{[^cf]}-[d2g2][ dg] [d2g2][dg][
+dg][dg]|{[^cf]}[d2g2] [dg][dg]e2 _B-=B| [G2B2][GB][GB][G2B2][GB][GB]|!
+"Em"{[DA]}[E2B2][EB][EB] [GB][EB][EB][EB]|[GB][EB][G2B2][E2B2][EB][EB]|"
+G"G
+FGA BAGF|G2GGG2GG|!
+"Em"{[DA]}[E2B2][EB][EB] [GB][EB][EB][EB]|[GB][EB][G2B2][E2B2][EB][EB]|"
+G"G
+FGA Bdef|[g2B2][gB][gB][g2B2]gg|!
+"D"fafe dABd|efed BAGA|"G"Bdeg edBA|G2 B,D [G4B,4]|
+S:https://www.folktunefinder.com/tunes/77234
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

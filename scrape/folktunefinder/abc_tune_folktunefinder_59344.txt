@@ -1,0 +1,33 @@
+X:457
+T:La Molinera (Arrg.)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+D:Llan de Cubel - IV
+G:Arrg.
+O:Grau
+Z:Tello
+M:2/4
+L:1/8
+Q:1/4=120
+K:Bm
+|:"Bm"f2 f2|"A"efed|"F#m"c2 c2| 
+"D"f2 f2|"A"cedc|"Bm"B2 B2| 
+"A"e2 e2|"F#m"cdcB|"A"cBAB| 
+"F#m"c2 cB|"A"ABAG|"Bm"F2 F2 :| 
+|:"Em"B2 e2|"A"edcB|"F#m"cBA2| 
+"D"defg|"Bm"fedc|"D"d4| 
+"Bm"a2 fe|"D"d2 ef|"A"e2 c2| 
+"Bm"d2 cB|"F#m"c2 BA|"Bm"B2 B2 :||
+S:https://www.folktunefinder.com/tunes/59344
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

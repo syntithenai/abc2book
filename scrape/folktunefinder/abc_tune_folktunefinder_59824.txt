@@ -1,0 +1,30 @@
+X:937
+T:Xiringelu
+R:Saltn
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:2/4
+L:1/8
+Q:1/4=114
+K:C
+|G2 GF|E2 FG|A2 A2|F2 FE|D2 EF|G2 G2|
+|: EF DE|C2 DC|B,4|EF DE|C2 DB,|C4 :|
+|: E>F GA|A>G EG|GF DA|A2 G2|E>F GA|A>G EG|[1 GF DF|E4 :|[2 GF ED|C4|
+|A3 A|G4|F3 F|E4|AA AA|GG GG|AG AB|c3 D|
+|: ED EF|G G2 A|c2 BA|G2 B2|A2 AG|F2 A2|G2 GF|[1 E3 D :|[2 E4|
+|: E>F GA|A>G EG|GF DA|A2 G2|E>F GA|A>G EG|[1 GF DF|E4 :|[2 GF ED|C4|
+|A3 A|G4|F3 F|E4|AA AA|GG GG|AG AB|c3 D|
+S:https://www.folktunefinder.com/tunes/59824
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

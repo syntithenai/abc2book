@@ -1,0 +1,23 @@
+X: 1
+T: the Saint Lawrence Jig
+O: Qu\'ebec
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |: "C"G>AG EGc | e2c G2c | "G7"B2A F2A | "C"A2G "(G7)"E2F \
+| "C"G>AG EGc | e2c G2c | "G7"B>dB GAB | "C"c3- cz2 :|
+e/f/ \
+|: "F"g2f A2f | "C"f2e G2c | "G7"B>cd GAB | "C"c>BA G2e/f/ \
+| "F"g2f A2f | "C"f2e G2c | "G7"c2B BAB | "C"c3- cz2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/181
+S:http://trillian.mit.edu/~jc/music/abc/Contra/SaintLawrenceJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

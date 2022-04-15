@@ -1,0 +1,34 @@
+X:266
+T:Danza (CT 214)
+T:Aada (CT 214)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Meres, ayuntamiento de Siero.
+N:Intervienen personas de ambos sexos.
+N:Se usa tambin esta meloda como cancin de cuna.
+A:Asturies
+O:Meres (Siero)
+Z:Cancioneru de Torner 214
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+|d2 d c2 c|(B/>A/ G2) G2 G|G6|d2 d c2 c|(B/>A/ G2) B2 B|B6|
+d2 d c2 c|(B/>A/ G2) G2 G|F6|d2 d c2 B|(A/>G/ G2) G2 G|G6||
+W:Viva la Virgen del Carmen
+W:y la gloriosa Santana,
+W:que no hay cara ms hermosa
+W:que la que tiene mi dama.
+W:
+S:https://www.folktunefinder.com/tunes/59153
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

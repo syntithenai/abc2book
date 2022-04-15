@@ -1,0 +1,37 @@
+X: 314
+T: Slavonsko
+O: Croatia
+Z: Deborah Jones, VIFD I
+M: 2/4
+L: 1/16
+Q: 1/4=144
+K: Edor
+%%MIDI program 24
+P:A
+|:"D" ^GAAA AAAA| "A7" ^GAAA AAAA:|
+P:B
+L: 1/8
+|:A>B =cB|"A7" AB GA| "D" F G/F/  ED|[1E=c BA:|[2"A7" E2 E2|
+P:C
+%%MIDI gchordoff
+A2 AA|A A3| GFGF|E2 E2|: [D2A2][D2A2]|[D2A2][D2A2]|
+[GD][FD][GD][FD]|[1 E3 E:|[2 [A3E3][AE]|
+P:D
+%%MIDI gchordon
+|:"G" [GB][FA] [GB][A=c]|[GB][FA] [E2G2]|\
+"G" [GB][FA] [GB][A=c]|[GB][FA] [E2G2]|\
+"G" [GB][FA] [GB][A=c]|[GB][FA] [E2G2]|
+"D" [D/F/][E/G/][FA] [DF]D|"A7"[C2E2][C2E2]:|
+P:E
+|:"D" AB =cB|"A7" A=c BA/B/|"D" =cB Ac|"A7" BA BA :|
+P:F
+|:"D" dd A=c| "A7" BA Gc/G/|"D" FG/F/ ED|[1"A7" E=c BA:|[2 "A7" E2 E2|
+S:https://www.folktunefinder.com/tunes/54297
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

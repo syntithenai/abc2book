@@ -1,0 +1,25 @@
+X:200
+T:Archie Menzies
+C:John Lowe
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a21.html
+%%ID:00000a21
+K:D min
+C|\
+F2CF AFEF | Acde fcAF | G2DG BGDG | Bdef gecA|\
+F2CF AFEF | Acde fcAF | BdGB AcFA | GBCE F2F::\
+e|\
+f2cf afef | cfag fedc | g2dg bg^fg | dgba gfef|\
+cfef afef | cfag fedc | BdGB AcFA | GBCE F2F :|
+S:https://www.folktunefinder.com/tunes/36119
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

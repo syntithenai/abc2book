@@ -1,0 +1,27 @@
+X:215
+T: DAS WAREN MIR SELIGE TAGE
+N: B0253
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Stimmungs - Lied, Sehnsucht
+M: 4/4
+L: 1/8
+K: C
+G,2 | G,EDCCB,A,G, | G,3CC3
+G, | E2DCCB,A,G, | G,3CC2
+E2 | ECCCC2DE | D4z2
+D2 | DB,G,E,D,2E,^F, | G,4z2
+D2 | DB,B,B,B,G,G,G, | G,EC4
+C2 | DB,B,B,B,G,G,G, | G,EC4
+G,2 | C2CCC2DE | D4E2
+DC | CB,A,G,G,2A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/78236
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, sehnsucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

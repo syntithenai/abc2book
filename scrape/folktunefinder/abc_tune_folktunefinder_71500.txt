@@ -1,0 +1,28 @@
+X:471
+%%topmargin 3cm
+T:Blanchard's Hornpipe
+T:Fisher's Hornpipe
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Hornpipe
+M:C
+L:1/8
+K:D
+A(B/c/) | d>AF>A G>BA>G | F>AF>A G>BA>G | F>DF>D G>EG>E | F>DF>D E2 AB/d/ | d>AF>A G>BA>G |
+F>DF>D G>BA>G | F>Ad>f g>ec>e d2 [F2d2] [F2d2] :: (cd) | e>cA>c e>cg>e | f>dA>d f>da>f |
+e>cA>c e>cg>f | e>dc>B A2 FG/A/ | B>GE>G A>Fd>B | A>FD>F A>Fd>A | B>dc>B A>GF>E | D2 [F2d2] [F2d2] :|
+S:https://www.folktunefinder.com/tunes/71500
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Blanchards_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Fishers_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0471.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

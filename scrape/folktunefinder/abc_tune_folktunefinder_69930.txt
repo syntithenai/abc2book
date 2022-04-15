@@ -1,0 +1,27 @@
+X:370
+T: IM WALD UND AUF DER HAIDE
+N: F0658
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Jaeger - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | G,4G,2G,4G,2 | G,4E2C2z2
+C2 | A,4A,2A,4A,2 | A,4F2D2z2
+C2 | B,4B,2B,2C2D2 | E6F2E2
+D2 | C4C2B,2A,2B,2 | C4z6
+CD | E4EEE4EE | G8F2
+E2 | D4D2D2C2D2 | E4z6
+CD | E4EEE4EE | G8F2
+E2 | D4D2D2C2D2 | C4z6
+S:https://www.folktunefinder.com/tunes/69930
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Staende -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:42
+T: AFM WASSA BIN I GFOAHRN
+N: E0656
+O: Europa, Mitteleuropa, Deutschland, Oesterreich
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+G2 | F2Acfa | bgd3
+e | dcc2cF | G2BD
+G2 | F2Acfa | bgd3
+e | dcc2cF | G4
+S:https://www.folktunefinder.com/tunes/76527
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

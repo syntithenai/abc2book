@@ -1,0 +1,25 @@
+X: 1
+P: Koster Choad #1 (in G)
+M: 4/4
+L: 1/16
+Z: John Chambers <jc@trillian.mit.edu>
+Z: from Steve Gruverman's revision of Tom Pixton's transcription
+K: G
+|: "^G/D drone"BB \
+| B3A G3B A3G A3B | c3B A3G d6 BB \
+| B3A G3B A3G A3B | c3B A3B G6 :|
+|: gg \
+| g4 e3f e3d A4 | B3c d3e d3c B3G \
+| A3B cdcB A3G B4 | A3G B3A G6 :|
+S:https://www.folktunefinder.com/tunes/3010
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/KosterChoad.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KosterChoad.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/KosterChoad.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

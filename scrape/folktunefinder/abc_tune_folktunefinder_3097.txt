@@ -1,0 +1,36 @@
+X: 1
+T: Lesnoto: Eleno kerko
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+%%vocalfont Helvetica-Narrow-Bold 18
+P: Instr:
+|: "Am"[ec][ec][ec] [ec][dB] [cA][ec] | "E7"[d3-B3-] [d3B3] [cA] \
+| [B2^G2][cA] [dB][ec] [dB][cA] | "Am"[c3-A3-] [c4A4] :|
+|: "F"[A2F2][AF] [AF][BG] [cA][AF] | "C"[G3-E3-] [G2E2] [GE][AF] \
+| "G7"[B2G2][AF] [GE][FD] [FD][EC] |1 "C"[E3C3] [F2D2] [G2E2] :|2 "C"[E3C3] z4 | z7 |]
+P: Vocal:
+[| "C"[E3C3] "F"([A3F3] [GE]) | "C"[G3E3] [G2E2] ([GE][FD]) \
+| "C"[E3C3] "F"([A3F3] [GE]) | "C"[G3-E3-] [G4E4] |
+S:https://www.folktunefinder.com/tunes/3097
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Les_ElenoKerko.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Les_ElenoKerko.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Les_ElenoKerko.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Les_ElenoKerko
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 37
+T: When Irish Eyes Are Smiling
+C:Music by Ernest R. Ball
+%C:Lyrics by Chauncey Olcott and George Graff Jr.
+%%staffsep 30
+M:3/4
+L:1/4
+K:D
+F/G/ \
+| "D"Ad B |   A2 F/G/|    Ad B |    AF E    \
+|    DE F |    FE D  |"A7"A3-  |    A2 E/F/ |
+|"A7"GF E |    GF E  | "D"DE F |"B7"A^G F   \
+|"E7"EF^G |    Bc E  | "A"A3-  |"A7"A2 F/G/ |
+| "D"Ad B |    AF G  |    Ad B |    AF E    \
+|    DE F |"D7"FE D  | "G"B3-  |    B2 B/c/ |
+|"E7"dB c |    dc B  | "A"cA B |    cB A    \
+|"E7"EF^G |    B2 c  | "A"A3-  |"A7"A2     |]
+[| A \
+| "D"F2 F |"(A7)"E2 D | "D"F A2-|     AF D    \
+| "G"G2 B |      d2 B | "D"A3-  |     A2 B/c/ |
+| "G"d2 c |      d2 c | "D"B A2 |     G2 F    \
+|"E7"B2 E |      E2 F | "A"E3-  | "A7"E2 A    |
+| "D"F2 F |"(A7)"E2 D | "D"F A2-|     AF D    \
+| "G"G2 B |      d2 B | "D"A3-  |     AB c    |
+| "G"d2 c |  "E7"e2 d | "D"f3   | "B7"A^G A   \
+|"E7"Bc d |  "A7"e2 d | "D"d3-  |     d2     |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13048
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

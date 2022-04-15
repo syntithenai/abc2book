@@ -1,0 +1,28 @@
+X: 1
+T: Jean's reel
+C:Bobby McLoud
+S: Dominique Renaudin <domren@free.fr> scots-l 2003-1-23
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+D2|G2 GA BGBd|gB (3BBB eBdB|AGAB AGE2|AcBA GFED|
+G2 GA BGBd|gabg ageg|d2 Bd gedB|AGFA G2|| Bd|
+gBdg BdgB|dgBd gBdg|fdda fdad|gfga bdga|
+bgaf gfed|efgf edBd|e2 dB gedB|AGFA G2||
+GA|BDDB DDBD|GBDG BDGB|FDDA FDAD|dD^cd =cAFA|
+BDDB DDBD|GBDG BDGB|FDFA dD^cd|cAFA G2||
+Bd|gBdg BdgB|dgBd gBdg|fdda fdad|
+gfga bdga|bgaf gfed|efgf edBd|e2 dB gedB|AGFA G2||
+S:https://www.folktunefinder.com/tunes/17425
+S:http://trillian.mit.edu/~jc/music/abc/reel/JeansReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JeansReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JeansReel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

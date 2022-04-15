@@ -1,0 +1,24 @@
+X:87
+T:rosi2
+R:reel
+M:4/4
+L:1/8
+Q:1/2=90
+K:Bmin
+"Bm"FBBA "G"B2dA|"F#m"FAAA "Bm"ABFE|"Bm"FBBA "G"B2AB|"D"def/2e/2d "Em"eeeg|
+"Bm"fBBA "G"B2 dA|"F#m"FAAF "Bm"ABFE|"Bm"FBBB "Bm"dBfd|"A"cAec "G"dBBA|
+"F#m"F4 "G"BcdA|"Bm"FFFA "D"AFED|"Bm"FBBA "G"B2AB|"D"def/2e/2d "Em"eaba|
+"Bm"fBBA "G"B2 dA|"F#m"FAAF "Bm"ABFE|"Bm"FB B2 "Bm"dBfd|"A"cAec "G"dBBA|
+"Bm"fBBA "G"g4   |"F#m"gffe "A"edcA|"A"A2AA  "A"EAce |"A"aefa "F#m"fece|
+"Bm"fBB2 "Em"gfeg |"Bm"fBB2   "G"dcBc|"A"ABcA "A"EAce |"A"aece "Bm"fB B2|
+"Bm"fBBA "Em"geag   |"Bm"fB B2 "G"dBEc   |"A"A2AA  "A"EAce    |"A"aefa "F#m"fece|
+"Bm"fBB2  "Bm"bafe   |"Bm"fBB2   "G"dcBc   |"A"a4 "F#m"afec|"Bm"d2 c/2B/2A "Bm"BA FE|
+S:https://www.folktunefinder.com/tunes/40481
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

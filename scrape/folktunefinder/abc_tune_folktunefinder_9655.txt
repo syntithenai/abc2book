@@ -1,0 +1,25 @@
+X: 3
+P: Sleep Soond in da Moarnin'
+O: trad Shetland
+N: Williamson  p.55, BSFC IV-27
+D: Tom  Anderson  on "The Fiddler's Companion" tape, Ed Pearlman on BH 5B
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|:"Am"Aa2g a2ef |  "G"gedB GABG | "Am"Aa2g a2ef |1 "G"gedB "Am"A2"G"BG :|2 "G"gedB "Am"A2 AB |
+| "Am"cAeA cAeA |  "G"BcdB G2AB | "Am"cAeA cAeA |  "G"BAGB "Am"A2AB ||
+| "Am"cAeA cAeA |  "G"BcdB G3B  | "Am(F)"ABcd efga | "G"gedB "Am"A4 |]
+S:https://www.folktunefinder.com/tunes/9655
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGR11.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Gathering.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MontgomeriesRant5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

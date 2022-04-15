@@ -1,0 +1,23 @@
+X:15624
+T:Smash the Windows
+R:jig
+C:Trad
+M:6/8
+L:1/8
+K:D
+|:DED F2A|d2f ecA|G2B F2A|E2F GFE|
+DED F2A|d2f ecA|Bgf edc|1 d3 d3:|2 d3 d2|
+|:f|a2f d2e|f2g agf|g2e cde|
+e2f gfe||1 a2f d2e|f2g agf|g2e cde|d3 d2:||2 fed gfe|agf bag|fed cde|d3 d3||
+S:https://www.folktunefinder.com/tunes/46899
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

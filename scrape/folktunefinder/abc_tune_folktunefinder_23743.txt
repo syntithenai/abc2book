@@ -1,0 +1,25 @@
+X:3292
+T:King of the Clans
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+c|:~d2GA Bdge|dedB AGEG|DGBG dGBG|cege dcBc|\
+dGBd gdBd|gabg agef|gf (3gfe dBge|dBAc BG G2:|\
+f|:~g2bg (3efg de|gdBG AGEG|DGBG dGBd|cege dcBd|\
+~g2bg edge|dBGB AGEG|DGBd gece|dBAc BG G2:|
+S:https://www.folktunefinder.com/tunes/23743
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

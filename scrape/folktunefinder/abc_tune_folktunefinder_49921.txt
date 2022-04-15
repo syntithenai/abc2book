@@ -1,0 +1,32 @@
+X:18473
+T:Waltz. CJF.126
+M:3/8
+L:1/16
+Q:60
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Last bar of each section is g6 in MS. - PJH.
+Z:P J Headford 200
+K:G
+dc|Bcdefg|d2d2 bg|d2d2 bg|d4dc|Bcdefg|a2a2a2|\
+gfedef|g4:||:!d2|defgab|
+c'4b2|a2agfe|d4bg|g2f2g2|^g2a2a2|gfedef|g4:||:!\
+d2|d2b2g2|e2c'2a2|gfedef|
+gabc'd'2|d2b2g2|e2c'2a2|gfedef|g4:||
+S:https://www.folktunefinder.com/tunes/49921
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

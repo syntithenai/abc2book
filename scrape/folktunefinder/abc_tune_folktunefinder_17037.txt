@@ -1,0 +1,27 @@
+X: 1
+T:Dorset 4 hand reel (2)
+R:Reel
+O:England
+M:4/4
+K:A
+|: E \
+| "A"A2ce aecA | "D"d2f2 d2f2 | "A"A2ce aecA | "E7"G2B2 G2B2 \
+| "A"A2ce aecA | "D"d2f2 d2f2 | "E7"efgf edcB | "A"A2a2 a2 :|
+|: cd \
+| "A"e2c2 e2c2 | "D"f2d2 f2d2 | "A"e2c2 e2c2 | "E7"B2e2 e2cd \
+| "A"e2c2 e2c2 | "D"f2d2 f2d2 | "E7"efgf edcB | "A"A2a2 a2 :|
+S:https://www.folktunefinder.com/tunes/17037
+S:http://trillian.mit.edu/~jc/music/abc/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/DorsetFourHandReel_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/DorsetFourHandReel_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

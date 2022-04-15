@@ -1,0 +1,39 @@
+X:14
+%%newpage
+T:Suite de hanterdro-andro
+O:France
+A:Bretagne
+R:Hanterdro
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 0
+M:3/4
+L:1/8
+P:AABBCCDD
+K:Cm
+P:A
+CC/D/ EG DD | CC/D/ EG D2 :| GG/F/ GA G2 | EG/F/ ED GG/E/ |
+CC/D/ ED/C/ D2 | GG/F/ ED GG/E/ | CC/D/ ED/C/ D2 | GG/F/ ED C2 ||
+[M:3/4]
+K:C
+P:B
+|: GG/F/ EG CC | GG/F/ EF Gc | GG/F/ EG CC | GG/F/ EF G2 ::
+GF/G/ AG D>E | FG/F/ ED/C/ D2 | GF/G/ AG DE/F/ | GF ED C2 :|
+[K:C][M:4/4][P:C]|: C/D/E/D/ CG AF GG | C/D/E/D/ CG AF/A/ G2 :: CD/E/ DG F/E/D/F/ ED | CD/E/ DG F/E/D/E/ C2 :|
+K:Cm
+P:D
+GF/E/ D>C DF E/D/C | GF/E/ D>C DE C2 | GF/E/ D>C DF E/D/C | GF/E/ D>C DE C2 |
+C/D/E/F/ GE/G/ cc G2 | G/A/G/F/ ED G/F/E/D/ ED | C/D/E/F/ GE/G/ cc G2 | G/A/G/F/ ED G/F/E/D/ C2 ||
+%%footer $D   Galouvielle-MBe 2006 \nKas a-Barh (--)
+S:https://www.folktunefinder.com/tunes/64727
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Hanterdro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

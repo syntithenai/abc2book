@@ -1,0 +1,25 @@
+X:610
+T:Because he was a bonny Lad
+B:Aird's Airs and Melodies vol 2
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000142.html
+%%ID:00000142
+K:G
+d|\
+B>AGg (e/f/g/).e/ {e}d{c}B| ce (e/d/)(c/B/) cA Ad|\
+B>AGg (e/f/g/)e/ {e}d(c/B/)| c>e (d/e/d/c/) BG G::
+d|\
+("tr"B>AG)B cdec| BG e/d/c/B/ cAAd|\
+B>AGB cdef| g/f/e/d/ gB G/G/G Gd|
+BGdG eGdG| BG e/d/c/B/ cAAf|\
+gefd ecdB| ce (d/e/d/)c/ BG G|]
+S:https://www.folktunefinder.com/tunes/30431
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

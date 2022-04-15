@@ -1,0 +1,27 @@
+X:25
+T: LAUE LUEFTE FUEHL ICH WEHEN
+N: B0511
+O: Europa, Mitteleuropa, Deutschland, Rheinland; Hochwald; Schweiz
+R: Wander - Lied
+M: 3/4
+L: 1/16
+K: F
+ | A3AA2A2G2A2 | c3BB4z4
+G3AB2c2d2c2 | A8z4
+A3AA2A2G2A2 | c3BB4z4
+G3AB2c2d2c2 | A8
+c3c | e6e2d2c2 | f3cc4
+c3c | e6e2d2c2 | f3cc4
+A2B2 | c6f2e2d2 | c8
+d2d2 | c6A2G2A2 | F8z4
+S:https://www.folktunefinder.com/tunes/62048
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 3
+T: S\onderhoning 3
+O: trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+[| d \
+| "G"B>A Bd | "Em"G>G BG | "Am"A>B cd | "D7"ed gd \
+| "G"B>A Bd | "Em"G>G BG | "Am"Ac "D7"FA | "G"G3 d ||
+|| "G"dB "(Em)"gg | "D"fA Af | "A7"g>f ge | "D"d>D E/F/G/A/ \
+| "G"B>A Bd | "Em"G>G BG | "Am"Ac "D7"FA | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/6074
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sonderhoning.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

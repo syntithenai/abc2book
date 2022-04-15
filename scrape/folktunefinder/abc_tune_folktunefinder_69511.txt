@@ -1,0 +1,25 @@
+X:652
+T: "Der Wunsch"
+N: Z1333
+O: Europa, Mitteleuropa, Schweiz; Elsass
+R: Zech -, Schalks - Lied; Wunsch -, Kilt - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | A2F2B2G2 | c2cdc3
+B | A2AFB2BG | c4c2
+B2 | A2c2cBAG | F2FFF2
+F2 | G2G2GFED | C2CCC2
+C2 | A3ccBAG | F4F2
+A2 | G2A2BGFE | F4F2
+S:https://www.folktunefinder.com/tunes/69511
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied; wunsch -, kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

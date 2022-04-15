@@ -1,0 +1,29 @@
+X: 94
+T:Coolen. JMP.094
+M:3/4
+L:1/8
+Q:80
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+de/f/ | g2 g>b ag/f/ | g2 B2 (3(GBd) | g>f ga/b/ ag | g2f2 g>f |!
+e2 ef/g/ gf/e/ |d2Bdgd |ed/c/ BG "tr"A2 {(GA)} | G4 :|!
+|:d>c | B>A G>A B>c | d^c de (de/f/) | g>f (ga/b/) ag | g2f2 g>f |!
+ e2 ef/g/ gf/e/ | d2 B>d g>d | ed/c/ B>G (B2{GA}) | G4 :|]
+S:https://www.folktunefinder.com/tunes/2031
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

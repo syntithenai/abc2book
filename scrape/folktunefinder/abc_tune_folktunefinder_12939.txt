@@ -1,0 +1,22 @@
+X: 17
+T: O'Donnel Abu
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+[| "D"D2 FG | A2 FA | f2 "(G)"dB | "D"A2 GF | "Em"E2 EF | "A7"G2 FE | "D"D2 FG | "A7"A4 ||
+|| "D"D2 FG | A2 FA | f2 "(G)"dB | "D"A2 GF | "Em"E2 e>d | "A7"cA Bc | "D"d2 "G"d>e | "D"d4 |]
+[| "D"f2 fe | dB A2 | d2 "(G)"dB | "D"AF D2 | "G"G2 GG | "D"FA- AF | "Em"E2 EF | "A7"E4 ||
+|| "D"D2 FG | AB A2 | f2 "(G)"dB | "D"AA GF | "Em"E2 e>d | "A7"cA Bc | "D"d2 "G"d>e | "D"d4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12939
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

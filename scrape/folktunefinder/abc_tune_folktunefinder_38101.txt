@@ -1,0 +1,22 @@
+X:16730
+T:The Frog in the Well
+R:Jig
+A:Ireland
+M:6/8
+L:1/8
+K:G
+"Em"~E3 GFE | BGE GFD | "D"D3 {G}FED | FAD {G}FED | 
+"Em"~E3 GFE | BGE {G}FED | "G"BGB "A"AFA |1 "G"GBG "Em"EB,D :|2 "G"GBG "Em"EGB || 
+"Em"ege ~B3 | eBe (5fgage | "D"fdd Add| faa {b}agf| 
+"Em"efe ~B3 | eBe "G"{f}gag | "Bm"fdB "A"AGF | "Em"GEE E3 :|
+S:https://www.folktunefinder.com/tunes/38101
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

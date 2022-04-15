@@ -1,0 +1,19 @@
+X: 1
+P: Angus MacKinnon's Hornpipe
+C: Angus MacKinnon
+R: hornpipe, reel
+M: C
+L: 1/8
+K: D
+   AG | "D"F2FA dAFD | "G"G2GB "(Em)"dBGB |1 "A7"A2Ac ecAc | "D"dcde dB :|2 "A7"A2Ac eAce |"D"d2f2 d2 |]
+|: dc | "G"BGDG BdcB | "D"ADFA       d2d2 |1 "A7"e2Ac ecAc | "D"dcde d2 :|2 "A7"e2Ac eAce |"D"d2f2 d2 |]
+S:https://www.folktunefinder.com/tunes/9888
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AngusMacKinnonsHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090105/AngusMacKinnonsHornpipe.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

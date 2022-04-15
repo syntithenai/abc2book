@@ -1,0 +1,22 @@
+X:1531
+T:Black Tulip Hornpipe
+% Nottingham Music Database
+S:Mick Peat
+M:2/2
+K:G
+d2|"G"B3/2g/2d3/2B/2 G3/2B/2d3/2B/2|"D"c3/2e/2a3/2g/2 f3/2d/2e3/2f/2|\
+"G"B3/2g/2d3/2B/2 g3/2d/2B3/2d/2|"D"c3/2A/2d3/2A/2 e3/2A/2f3/2A/2|
+"G"g3/2d/2B3/2d/2 g3/2b/2a3/2g/2|"D"f3/2d/2A3/2d/2 f3/2a/2g3/2f/2|\
+"C"e3/2d/2c3/2B/2 "D"c3/2e/2d3/2c/2|"G"B2G2 G2d2:|
+"D"ADBD cDdc|"G"BGcG ^cGdG|"D"ADBD cDd2|"G"edd^c d4|
+"D"ADBD cDdc|"G"BGcG ^cGd2|"C"ecgc "D"fcac|"G"g2b2 g4:|
+S:https://www.folktunefinder.com/tunes/56470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

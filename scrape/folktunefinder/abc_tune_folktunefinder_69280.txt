@@ -1,0 +1,25 @@
+X:421
+T: "Jagdglueck"
+N: Z1101
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Romanze, Ballade, Jaeger - Lied
+M: 6/8
+L: 1/8
+K: D
+A, | A,2F,A,2F, | D2B,A,2A, | D2A,D2E | F3Ez
+A, | A,2F,A,2F, | DCB,A,2A, | D2A,D2E | F3Ez
+E | E2DC2E | EFDC2E | E2EF2E | DEFE2
+D | D3A,2F | F3D2F | A2FAGF | E3ED
+E | F3E3 | D3-D2
+S:https://www.folktunefinder.com/tunes/69280
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

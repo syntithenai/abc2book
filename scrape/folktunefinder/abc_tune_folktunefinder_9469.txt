@@ -1,0 +1,18 @@
+X: 9
+T: R\"aven raskar \"over isen
+M: 3/4
+L: 1/8
+K: A
+[| "A"e>d     cB cd | "D"f2   "A"e2 z2 | "A"e>d cB     cd | "D"f2 "A"e2 z2 |
+ | "A"ee "F#m"a3  e | "A"ee "F#m"a3  e | "A"ed  c2 "E7"dB |    B2 "A"A2 ze |]
+[| "A"ed      c2 cc |"E7"Bc      d3  d |    dc  B2     BB | "A"AB    c2 z2 |
+ | "A"ee "F#m"a3  e | "A"ee "F#m"a3  e | "A"ed  c2 "E7"dB |    B2 "A"A2 ze |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/9469
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

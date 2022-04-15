@@ -1,0 +1,30 @@
+X:255
+T: Nachbildung eines alten Mai- und Tanzspielliedes aus der Schweiz
+N: A0300
+O: Europa, Mitteleuropa, Deutschland
+N: Baseler Tenor (1550) fol 44d
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+G2 | G2G2A2B2 | c4G2
+d2 | B2c2A4 | G4z2
+G2 | G2G2A2B2 | c4G2
+d2 | B2c2A4 | G4z2
+c2 | d2e2d2c2 | e4d4 | c4z4 | z2
+G2A2G2 | E2G4FE | D2C2D4 | C4z2
+C2 | E3FG2A2 | B2c2A4 | G4z2
+G2 | A2B2c2G2 | c4d4 | c8
+S:https://www.folktunefinder.com/tunes/68801
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

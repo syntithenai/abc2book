@@ -1,0 +1,29 @@
+X: 1
+T:The Errant Apprentice
+M:6/8
+L:1/8
+Q:90
+C:Words: Bill Watkins, Music: Andy M. Stewart/Gerry O'Beirne
+K:G
+(DE)F \
+| "G"G2G G2G | "G/C"E2G z2E | "G"D2B, A,2B, | "G-C"A,2G, E,2D, \
+| "G"G,2A, B,2C | "Bm" D2B, zDE | "Em" G2E "D" D2E | "C"G3 z(BA) |
+| "G"G2G G2D | "G/C"E2 G2 GE | "G"D2B, A,2B, | "G/C"A,2G, zG,G, \
+| "G"G,2G G2G | "G/C"E2G zGE | "D"D2B, A,2G, | "G"(G,3G,) GG |
+| G2B AG2 | "D"F/2G/2A2 zFD | "A"E2E E2D | "C"E/2F/2G2 zGA \
+| "G"B2A "Em"G2E | "Bm"DB,(G, "C"G,2)A, | "G"B,2D D2E | "D"(A,3 A,3 |
+| A,3 A,2)B, | "G"F,2F, F,2F, | "Em"(F,/2G,/2) (B,2 B,2)D | "C"E2E E2D \
+| "Am7"(E/2F/2)(G2 G2)A | "G"B2A G2d | "Em"(B/2A/2A)(G G2)D | "C"E2"D"G G2{F}G |
+| "G"(G3 G3 | G3) |]
+S:https://www.folktunefinder.com/tunes/13175
+S:http://trillian.mit.edu/~jc/music/abc/air/ErrantApprentice_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/ErrantApprentice_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/ErrantApprentice_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ErrantApprentice_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

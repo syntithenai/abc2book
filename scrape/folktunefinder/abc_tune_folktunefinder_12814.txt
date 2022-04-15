@@ -1,0 +1,25 @@
+X: 5
+T: The Cradle Song
+C: J.S.Skinner
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: A
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2c2 \
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 "A7"c2A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |
+| "D"fd Ad f2 a2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2z2 \
+| "A"Ac BA ef ga | "A"e4 "A7"c2 A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12814
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/air.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

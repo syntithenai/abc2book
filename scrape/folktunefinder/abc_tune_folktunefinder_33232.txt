@@ -1,0 +1,28 @@
+X: 3319
+T:Gan Ainm
+R:Jig
+S:Bernie Stocks, Belfast (fiddle).
+H:From Terry Bingham.
+N:As played
+Z:Bernie Stocks
+M:6/8
+L:1/8
+K:G
+|:G2A BGG|dGG ABc|Add {e}d2B|AGA BGE|!
+DEG BGG|dGG ABc|Add {e}d2B|1 AGF G2D:|2 AGF G2A !
+|:~B3 d2B|dge dBG|{d}cBA BAG|EAA AGA|!
+{d}BAB d2B|dge dBG|{d}cBA  (3Bcd B|1 AGF G2A:|2 AGF G2D||!
+S:https://www.folktunefinder.com/tunes/33232
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

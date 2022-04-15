@@ -1,0 +1,32 @@
+X: 1
+T: Down the Rabbit Hole
+C: Helen Powell (2005-3-22)
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Personal communication
+M: 6/8
+L: 1/8
+K: D
+%%indent 500
+"Intro"[| "Dm"c2A "G"B2A | "Dm"c2A "G"B2A ||
+[|"D"DED DED | "G"Bz2 B2z | "D"DED DED | "G"B,6 \
+| "D"DED DED | "B7"B3 "C"=c3 | "D"dcd "D/C"dcd | "D/B"dcd "D/A"dcd ||
+||"G"gdB G2B | "C"=c3 c3 | "G"dBG D2B | "D"A6 \
+| "G"gdB G2B | "C"=c3 "Am"e3 | "D"ded "C"=cBA | "G"G6 |]
+[|"D"afd "A"GFE | "D"afd "A"EGE | "D"afd "A"EGC | "D"D6 \
+| "D"afd "A"CDE | "D"afd "A"ECE | "D"afd "A"EGC | "D"D6 ||
+||"Am"e2A "G"d2G | "Am"e2A "G"d2G | "D"afd "A"ecA | "G"BdG "D"FED \
+| "G"EGF "A"EDC | "D"D6 | "Em"B,ED "A"CB,C | "D"D6 |]
+S:https://www.folktunefinder.com/tunes/14113
+S:http://trillian.mit.edu/~jc/music/abc/jig/DownTheRabbitHole_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DownTheRabbitHole_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DownTheRabbitHole_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DownTheRabbitHole_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

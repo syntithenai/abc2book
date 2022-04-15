@@ -1,0 +1,20 @@
+X:0
+T:How lang and dreary is the night
+G:song
+M:3/4
+L:1/8
+Q:1/4=80
+K:E
+% lydian/major hexatonic
+E|  E>e e2  e2 |   e(d/c/) B3B|   c>d e3f|g2 c2 e>c|
+ {c}B>G G2 (FE)|{E}F>G     B3c|{c}BG  c3B|B2 E2 e>c|
+ {c}B>G G2 (FE)|{E}F>G     B3c|{c}BG  c3B|B2 E2   |]
+S:https://www.folktunefinder.com/tunes/30082
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

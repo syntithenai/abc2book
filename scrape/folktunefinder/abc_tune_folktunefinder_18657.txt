@@ -1,0 +1,22 @@
+X: 1
+T: Det var en l\/ordag aften
+O: Dansk folkvisa
+R: also waltz
+M: 2/4
+L: 1/8
+K: F
+|: C | "F"FF CC | A2 FA | "C7"GE CE | "F"F2 z :|
+w: Det var en l\or-dag af-ten jeg sad og vent-ed dig;
+A | "F"AA cA | "C7"GG cG | "F"FF "G7"dd | "C"c2 z ||
+S:https://www.folktunefinder.com/tunes/18657
+S:http://trillian.mit.edu/~jc/music/abc/song/DetVarEnLordagAften_FwW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/song/DetVarEnLordagAften_FwW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Denmark/DetVarEnLordagAften_FwW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/DetVarEnLordagAften_FwW.abc
+% Rhythm Also waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

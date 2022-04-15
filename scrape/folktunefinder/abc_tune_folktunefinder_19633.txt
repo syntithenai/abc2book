@@ -1,0 +1,24 @@
+X: 1
+T: Rakes of Glasgow
+O:
+B: Paddledoo
+D:
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: G | "C"c>d c<-G E>C E<-G | "F"A>c "C"G<-E "G7"g>e d>e | "C"c>d e<-c "F"A<-c "C"G<-c | "G7"B>d G<-d "C"e<-c c :|
+|: G | "F"A2 "G7"G>F "C"E<-C E2 | "C"g>e "Dm"f>d "G7"B/c/d/B/ G2 | "F"A2 "G7"G>F "C"E<-C E>c | "G7"B/c/d/B/ G>d "C"e<-c c :|
+|: G | "C"e2 c>g "Am"e<-c g>c | "G7"d2 "C"e2 "G7"g/f/e/f/ d2 | "C"e2 c>g "Am"e<-c g>c | "G7"B/c/d/B/ G>g "C"e<-c c :|
+|: G | "F"A2 "G7"G>F "C"E<-C E2 | "C"g>e "Dm"f>d "G7"B/c/d/B/ G2 | "F"A2 "G7"G>F "C"E<-C E>c | "G7"B/c/d/B/ G>d "C"e<-c c :|
+S:https://www.folktunefinder.com/tunes/19633
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RakesOfGlasgowS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RakesOfGlasgowS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

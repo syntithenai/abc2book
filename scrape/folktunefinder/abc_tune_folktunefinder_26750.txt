@@ -1,0 +1,35 @@
+X:6298
+T:Stokkendans
+O:England
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+BB BB BB BB |Bz z2 |BB BB BB BB |Bz d3/2 B/ |:
+"D" AA/ B/A/B/d/ e/|ff fe/d/ |ff fe/d/ |"Em" ee "A" f/e/d/B/ |
+"D" AA/B/ A/B/d/e/ |ff fe/d/ |"A" aA AB/c/ |"D" d2 d3/2 B/:| |:
+"D" AF F3/2 A/|"Em" GE "A" E3/2 G/|"D" FD FA |"D" d/c/d/f/ "G" e/d/c/B/ |
+"D" AF F3/2 A/|"Em" GE "A" E3/2 G/|"D" FD FA |1 d2 d3/2 B/:|2
+d2 zc/B/ || |:"Em" GE GB/A/ |GE EA/G/ |"D" FD DB/A/ |
+AD DB/A/ |"Em" GE GB/A/ |GE EG/A/ |"G" BG "D" AF |
+|1 "Em" E2 EB/A/ :|2 "Em" E2 EG || |:
+K:G
+"G" G3/2 A/BG |dG2 G|"D" D3/2 E/FG |AD2 D|
+"G" G3/2 A/BG |dD2 D|"D" D3/2 E/FD |1 "Em" E2 EF :|2
+"Em" E2 zB/A/ || |:"G" G/A/B/c/ dB |gB dB |gB dB |
+"D" aA A/c/B/A/ |G/A/B/c/ dB |gB dB |"C" cA "D" d3/2 c/|
+|1 "G" BG GB/A/ :|2 "G" BG Gd || |:"G" g3/2 a/ge |"D" a3/2 b/af |
+"G" g3/2 a/ge |"Em" be ef |"G" g3/2 a/ge |"D" a3/2 b/af |
+"G" gd "D7" ed/c/ |1 "G" BG Gd :|2 B2 G2 |[g2d2 B2 G2]z2 |]
+S:https://www.folktunefinder.com/tunes/26750
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

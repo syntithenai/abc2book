@@ -1,0 +1,25 @@
+X:242
+T:Steirische Jodler und Taenze Nr. 1 - 48 (40.)
+C:traditionell
+A:Salzkammergut
+S:MIDI erhalten von Christian Amon. Nach einer kopie im besitz von Johann Stoeckl eines manuscriptes. Stoeckl(zitiert von Amon): "diese sammlung wurde 1935 im hause der familie Hohenlohe-Schillingfuerst gefunden. Sie wurde von einem der beiden brueder Steinegger 1866 verfasst. Die originale sind im Ausseer Kammerhofmuseum".
+M:3/4
+L:1/8
+K:G
+V:1
+d>d |\
+f4 d>d | g4 d>d | f3 e dc | B4 d>d |\
+f4 d>d | g4 d>d | f3 e dc | B4 |*
+V:2
+A>A |\
+d4 A>A | d4 B>B | d3 c Af | G4 A>A |\
+d4 A>A | d4 B>B | d3 c Af | G4 |*
+S:https://www.folktunefinder.com/tunes/45676
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

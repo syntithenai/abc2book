@@ -1,0 +1,30 @@
+X: 328
+T:Copenhagen Waltz. JaW.327
+M:3/8
+L:1/16
+Q:40
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+H:1/16
+Z:vmp.Chris Partington, Aug 2004
+K:D
+f<a|g<b f<a e<g|f<a d2 d<"sic"e|e<g A2 c<e|d<f A2 f<a|!
+g<b f<a e<g|f<a d2 d<f|e<gA2 c<e|d4:|!
+|:d<f|"sic"d<g A2 c<e|d<f A2 d<f|e<g A2 c<e|d<f A2 f<a|!
+g<"c' in ms"b f<a e<g|f<g d2 d<f|e<g A2c<e|d4:|!
+|:a2|b2a2f2|d4a2|b2a2f2|e4a2|!
+b2a2f2|dcdfaf|edegfe|d4:|]
+S:https://www.folktunefinder.com/tunes/47865
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

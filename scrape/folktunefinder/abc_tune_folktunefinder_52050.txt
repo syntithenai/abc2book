@@ -1,0 +1,21 @@
+X:9
+T:Tarantella
+Z:Dave Holland <dave@biff.org.uk>
+S:St Chartier festival 2002
+M:6/8
+L:1/8
+Q:3/8=146
+K:Am
+a2a|e2e a2a|e3 ede|f2f fgf|e3 efe|d2d ded|c2c ABc|B3 dcB|1c2A:|2 A3||
+A2B|c2c dcB|c2A ABc|B2B dcB|c2A A2B|c2c dcB|c2c ABc|B2B dcB|A3:|
+S:https://www.folktunefinder.com/tunes/52050
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

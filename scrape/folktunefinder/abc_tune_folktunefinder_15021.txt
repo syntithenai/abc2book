@@ -1,0 +1,21 @@
+X: 1
+T: the Saraband
+M:6/8
+L:1/8
+%Q:110
+R:Jig
+K:G
+afa geg|fdf e2A|cde fga|gaf g2f|afa geg|fdf e2A|cde fga|gaf g2f||
+ccc c>BA|agf e2A|cde fga|gaf e2d|ccc c>BA|agf e2A|cde fga|gaf e2d||
+S:https://www.folktunefinder.com/tunes/15021
+S:http://trillian.mit.edu/~jc/music/abc/jig/Saraband.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Saraband.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

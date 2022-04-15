@@ -1,0 +1,40 @@
+X:32
+T:Seanamhac Tube Station, The
+C:John Carty
+M:6/8
+L:1/8
+R:jig
+D:Avakatoo by Dirty Linen
+D:Bridgetown by Johnny B. Connolly
+D:Handed down by Cathal Hayden
+D:Dreaming Up The Tunes by Johnny Og Connolly And Brian McGrath
+D:Yeh, That's All It Is by John Carty
+K:GMIN %Transposed from AMIN
+"Gmin"GFD DFD|GAc ~d3|"F"dcA cAF|GFD CDF|
+"Gmin"GFD DFD|GAc ~d3|"F"dcA cAF|GFD CDF|1"Eb"G2A "F"B2A:|2"Gmin"~G3 G 
+(3ABc||
+"Gmin" ~d3 dcA|"F" ~c3 gfd|"Dmin"dcA cAF|GFD F (3ABc|
+"Gmin" ~d3 dcA|"F" ~c3 gfd|"Dmin"dcA cAF|"Gmin" ~G3 G (3ABc|1"Eb"~d3 
+gdg|
+"F"~c3 gfd|"Dmin"dcA cAF|GFD CDF|2"Gmin"GFD GFD|GFD dcA|
+"Dmin"dcA dcA|"Eb"G2A "F"B3A||
+K:Amin
+"Amin"AGE EDE|ABd ~e3|"G"edB dBG|AGE DEG|
+"Amin"AGE EDE|ABd ~e3|"G"edB dBG|AGE DEG|1"F"A2B "G"c2B:|2"Amin"~A3 A 
+(3Bcd||
+"Amin" ~e3 edB|"G" ~d3 age|"Emin"edB dBG|AGE D (3Bcd|
+"Amin" ~e3 edB|"G" ~d3 age|"Emin"edB dBG|"Amin" ~A3 A (3Bcd|1"F"~e3 aea|
+"G"~d3 age|"Emin"edB dBG|AGE DEG|2"Amin"AGE AGE|AGE edB|
+"Emin"edB edB|"F"A2B "G"c3B||
+S:https://www.folktunefinder.com/tunes/67550
+S:http://domren.free.fr/VCB.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

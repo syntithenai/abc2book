@@ -1,0 +1,26 @@
+X: 1
+T: the Kail Pot
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+A \
+| "Dm"D>E F>G A<A d>e | "Dm"f>e d>f "A7"e<A A>^c \
+| "Gm"d>c B>A "(Bb)"B>A G>F | "A(m)"(3EFG (3AGA "Dm"F<D D :|
+|: A \
+| "Dm"d>^c d>e f>e d>e | "F"f>e f>a "C7"g<c c>e \
+| "Bb"f>e f>a "C"g>f e>g | "Dm"(3fed "A7"(3^cde "Dm"d<D D :|
+S:https://www.folktunefinder.com/tunes/19434
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Kail_Pot_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Kail_Pot_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

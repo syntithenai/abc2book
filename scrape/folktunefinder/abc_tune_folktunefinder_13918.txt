@@ -1,0 +1,29 @@
+X: 1
+T: Bolt the Door
+T: Jack's Health
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: O'Neill's 1850 #957
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+g2 \
+|: f \
+| "Am"ecA A2B | "G"G2E "Em"E2B | "Am"c2A "G"B2G | "Am"A2B c2d \
+| "Am"ecA A2B | "G"G2E "Em"E2B | "Am"c2A "G"B2G | "Am"ABA A2 :|
+B \
+| "Am"cBA "G"G2B | "C"e3 "G"d2B | "Am"c2A "G"B2G | "Am"A2B c2d \
+| "Am"ecA A2d | "C"e3 "G"d2B | "Am"c2A "D"B2A | "G"G3 g2f |
+| "G"dBG G2d | "C"e3 "G"d2B | "Am"c2A "G"B2G | "F"A2B "Em"c2d \
+| "Am"ecA A2d | "Am"e2a "D"a2f | "Em"g2e "G"d2B | "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/13918
+S:http://trillian.mit.edu/~jc/music/abc/jig/BoltTheDoor_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BoltTheDoor_Am.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

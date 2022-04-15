@@ -1,0 +1,27 @@
+X:2
+T:Beiaard
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:(AABB) x3 A
+L:1/8
+M:2/4
+K:G
+P:Voorspel
+"G"BB G2 | "D"A/G/F/E/ D2 |"D7"d>c BA | "G"GG G z |]
+P:A
+"G"BB G2 | "D"A/G/F/E/ D2 | "D7"D>D EF | "G" GB d2 | "G"BB G2 | "D"A/G/F/E/ D2 | "D7"D>D EF | "G" GB G2 :|]
+P:B
+K:D
+"D"Ad cB | AF A2 | "A7"E>F GB | "D"A/B/A/G/ F2 | "D"Ad cB | AF A2 | "A7"E>G FE | "D"DD D z :|]
+S:https://www.folktunefinder.com/tunes/40587
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

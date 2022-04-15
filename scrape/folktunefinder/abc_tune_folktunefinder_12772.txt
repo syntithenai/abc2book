@@ -1,0 +1,148 @@
+X:1
+T:Diferencias sobre el canto llano del Caballero
+C:Antonio de Cabez\'on
+O:Spain
+%BarFly users: Remove the % characters from the next four lines!
+%V:1 program 1 46 up
+%V:2 program 1 46 down merge
+%V:3 program 1 46 up bass
+%V:4 program 1 46 down merge bass
+N:Note values have been halved since most abc applications seem to be
+N:uncomfortable with note values longer than whole notes. :-(
+N:BTW, Laura, there actually *are* barlines in the original this time ;-)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com abcusers 2002-6-15
+M:C|
+L:1/8
+K:F
+V:1
+z4 F2G2|A4 A4|B4 B4|A4 F4|G4 A4-|A4 G4|
+V:2
+z4 D2E2|F4 F4-|F2D2 E4|C4 D4-|D2B,2 C4-|C2A,2 =B,4|
+V:3
+A,6B,2|C4 D4|B,6G,2|A,8|D,4 E,4|F,4 D,4-|
+V:4
+D,6G,2|F,6F,2|G,8|F,2E,2 D,2C,2|B,,4 A,,4|F,,4 G,,4|
+%
+V:1
+F6E2||D8|z4 D2E2|F4 F4|G4 G4|A8|A4 B4-|
+V:2
+C2B,2 A,2G,2||F,4 G,2A,2|B,2C2 D2B,2|C4 D4|B,2C2 D2E2|F4 D4|C2D2 B,2C2|
+V:3
+D,4 ^C,4||D,8|D,2E,2 F,2G,2|A,2F,2 B,4|G,8|D,2E,2 F,2G,2|A,2F,2 G,4-|
+V:4
+A,,8||B,,4 G,,4|z8|z8|z8|z8|z4 G,,2A,,2|
+%
+V:1
+B4 A4|G8|F8|z4 F2G2|AGAB AFGA|B6B2|
+V:2
+D2E2 F4-|F2D2 E4|C8|z8|F8|F6F2|
+V:3
+G,4 F,4|D,4 G,4|A,8|F,2G,2 A,2B,2|CB,CD CA,B,C|D6D2|
+V:4
+B,,2C,2 D,4|B,,4 C,4|F,,2G,,A,, B,,C,D,E,|F,8|F,8|B,,A,,B,,C, D,2B,,/C,/D,/E,/|
+%
+V:1
+A4 F4|G4 A4-|A4 G4|F4 E4|D8|z2 D3C DE|
+V:2
+F3C DEF2-|FEF/E/D/E/ F3E|DC D3C D/C/B,/C/|D2B,3A, B,/A,/G,/A,/|B,3F,
+G,A,B,G,|A,4 B,4|
+V:3
+C2A,4F,2|C4 C2A,2-|A,2F,2 G,4|A,2F,2 G,2E,2|F,2D,3 C, D,E,|^F,G,A,F, G,4|
+V:4
+F,4 D,4|C,4 F,4-|F,2D,2 _E,4|D,4 C,4|B,,4 G,,4|D,4 G,,4|
+%
+V:1
+F6F2|G8|A8|A4 B4-|B4 A4|G8|
+V:2
+A,2D4C2|B,4 G,4|C2B,C DEFG|ACDE F2GF|D2F3E CD|EFGF EDE2|
+V:3
+A,G,F,E, D,C,F,2-|F,2E,D, F,E,F,/E,/D,/E,/|F,8-|F,A,B,C D4-|D4
+CG,A,B,|C2B,A, G,F,G,2|
+V:4
+D,3C, B,,2A,,2|G,,4 C,4|F,,2G,,A,, B,,C,D,E,|F,4 B,,2G,,A,,|B,,C,D,E, F,4|C,8|
+%
+V:1
+F4 cBc/B/A/G/|FGF/E/D/C/ D2B,D|C2c3B A2-|A2GF AGA/G/F/G/|A2c3=B
+c/B/A/B/|c2G2 cBAG|
+V:2
+C8|z8|C3D E2F2|D4 E4|C4 F4|E4 C4|
+V:3
+A,8|z4 F,2G,2|A,6A,2|B,4 B,4|A,4 F,4|G,4 A,4-|
+V:4
+F,,6G,,2|A,,4 B,,4|A,,3B,, C,2D,2|G,,4 G,4|F,3E, D,4|C,2CB, A,G,F,E,|
+%
+V:1
+FEDF EDCB,|A,2A3 =Bc2|F2B2 A4-|A4 G4|G2F2 F4|F2ED FEF/E/D/E/|
+V:2
+z8|z2 D4 C2|D3E FEDC|B,2A,2 B,4|A,4 F,G,A,B,|C8|
+V:3
+A,4 G,4|F,4 E,4|D,8|z4 D,C,D,E,|F,E,F,G, F,4|G,4 G,4|
+V:4
+D,2F,2 C,2C,2|D,4 A,,4|B,,3C, D,4|G,,8|D,4 D,4|C,8|
+%
+V:1
+F3G A3B|c3c d3c|BGAc BcAB|c2BA GFG2|A3c B2A2|c2A2 d4|
+V:2
+C3B, C2D2|C4 F2D2-|D2C2 DEFD|EFGF EDE2|F4 z4|z4 F3G|
+V:3
+A,6F,2|G,2A,2 B,4-|B,2A,2 G,2F,2|G,8|F,2C,2 D,E,F,G,|A,B,CA, B,CDE|
+V:4
+F,,2F,4D,2|E,2F,2 B,,3C,|D,E,F,2 B,,2D,2|C,8|F,,4 z4|z8|
+%
+V:1
+c2f3ec2|d2GA B/A/B/c/d2|c2dc def2-|fef/e/d/e/ f3e|dcBA cBAG|BABc def2-|
+V:2
+A4 A4|B6B2|A4 F4|G4 A4-|A4 G4|F8|
+V:3
+F3E C2F2|B,2_E3DB,2|F2D3CA,2|B,4 F,2F2|FEDF _EDCE|DCDC B,2A,2|
+V:4
+z8|z8|z8|z8|z8|z8|
+%
+V:1
+fedc B2AG|B3A d3^c|d3c A2d2-|dBc3 A=B2|c2f3 ed2-|dcd/c/B/c/ d2g2-|
+V:2
+D8|z4 D2E2|F4 F4|G6G2|F6F2|G2A2 B4-|
+V:3
+B,3A, G,2F,E,|D,2DC B,2A,2|D,2 D3C A,B,|G,3_E D4|F3E ^C2D2|E4 G3F|
+V:4
+z8|z8|D,3E, F,3D,|_E,2C,2 G,3G,|F,3G, A,2B,2-|B,2A,2 G,4|
+%
+V:1
+gfde fga/g/f/e/|defg ecde|fcAF c2B2|Ad =Bc2A_B2|c3c AFc2|FdBG dfed|
+V:2
+B2A2 G2F2|G8|F4- FFDB,|FDGE F2D2|CFEC F2E2|D3E F2G2|
+V:3
+D6C2|D4 E4|C4 z4|z4 F,2G,2|A,6 A,2|B,4 B,4|
+V:4
+B,6A,2|B,4 C4|F,4 z4|z8|z8|z8|
+%
+V:1
+c3B AGBA|GFED CcBA|cFGA BcBG|ABAF GBAG|F2B2 AGFE|D3E F3G|
+V:2
+AFGE FEDC|B,4 C4-|CDEF GFDE|FECD EA,=B,^C|D3D CB,A,G,|F,2B,3 A,D2-|
+V:3
+A,4 F,4|G,4 A,4-|A,4 G,4|F,4 E,4|D,8|z4 D,4|
+V:4
+z8|z8|z8|z8|z8|z8|
+%
+V:1
+A3B c3d|=B2c4B2|c3B AGA2|DGEF GABc|decd BcAB|GABA GFG2|HA8|]
+V:2
+DC F3 GA2|DGFE F/E/D/C/D2|C2F3 E DC|B,2C2 DCDE|FGAF GEFD|EFGF EDE2|HF8|]
+V:3
+F,4 F,4|G,6 G,2|A,6 F,2|G,2A,2 B,4-|B,2A,2 G,2F,2|C8|HC8|]
+V:4
+z8|z8|z8|z8|z8|C,8|HF,8|]
+S:https://www.folktunefinder.com/tunes/12772
+S:http://trillian.mit.edu/~jc/music/abc/Spain/DiferenciasSobreElCantoLlanoDelCaballero_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/DiferenciasSobreElCantoLlanoDelCaballero_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/DiferenciasSobreElCantoLlanoDelCaballero_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

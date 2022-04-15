@@ -1,0 +1,28 @@
+X: 1
+T: the Misses Little's Fancy
+C: Jenkins
+R: jig
+B: RSCDS __-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+A//B//c//d// \
+| "A"e3 "D"f2e | "A"eaf ecA | "E7"ecB "A"cBA | "Bm"FBB "E7"B2c \
+| "A"AcA "E7"BdB | "A"cec "D"faf | "A"ecA E2[EC] | "D"[FD3]AA "A"[A2E2C2] :|
+|: E \
+| "A"CEE "Bm"DFF | "C#m"EGG "D"FAA | "E7"GBB "F#m"Acc | "E7"dBB B3 \
+| "A"AcA "E7"BdB | "A"cec "D"faf | "A"ecA "D"F2E | FA[AD] "A"[A2C2] :|
+S:https://www.folktunefinder.com/tunes/14678
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissesLittlesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MissesLittlesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MissesLittlesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissesLittlesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissesLittlesFancy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

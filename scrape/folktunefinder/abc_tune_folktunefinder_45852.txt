@@ -1,0 +1,37 @@
+X:1
+T:compo perso 
+M:4/4
+L:1/4
+Q:1/4=120
+K:Bb % 2 flats
+% Last note suggests Phrygian mode tune
+%nameless
+% Time signature=4/4  MIDI-clocks/click=24  32nd-notes/4-MIDI-clocks=8
+V:1
+%A 27 Engl Horn
+% MIDI Key signature, sharp/flats=0  minor=0
+D/F/G D/F/G D/F/E/D/ EC | D/F/G D/F/G D/F/E/D/ E C | B,D/C/ E D/z/ D/C/B,>CB,/A,/|
+G,D/C/ ED/z/ D/C<B,C/B,/A,/|[D/G,/]z/(3FGDF/GD/F/E/ D/ED/|z/D/F/GD/F/GD/F/E/<D/EC/-|[C/B,/]z/D/C/ ED/z/ D/C<B,C/B,/A,/|
+G,D/C/ ED/z/ D/C<B,C/B,/A,/|[D/G,/]
+V:2
+%A 82 soft horn
+% MIDI Key signature, sharp/flats=0  minor=0
+G/A/B GB3/A/G F/G/E|G/A/B GB3/A/G<FG-|G/z/G/F/ G/z/G B>c dA|
+B/A/G3/z/G/F/ G2 z/D/F/F/|G/A/B GB3/A/G F/G/E|G/A/B GB3/A/G<FG-|G/z/G/F/ G/z/G B>c dA|
+B/A/G3/z/G/F/ G2 z/D/F/>F/|
+V:3
+%A30 Mur Sulix
+% MIDI Key signature, sharp/flats=0  minor=0
+D,/B,,/G,, D,E,3/D,/C,2A,,|D,/B,,/G,, D,C,3/A,,/B,,/C,/ B,,/C,/D,|G,,/z/B,,/G,,/ C,3/B,,/ A,,/G,,/A,,/B,,/ A,,3/z/|
+B,,/A,,/G,,3/z/G,,/A,,/ G,,3/C,/ B,,3/z/|G,,/-[B,,/G,,/]G,, D,E,3/D,/C,2A,,|D,/B,,/G,, D,C,3/A,,/B,,/C,/A,,/G,,/>A,,/B,,/ A,,3/z/|
+B,,/A,,/G,,3/z/G,,/A,,/ G,,3/C,/ B,,3/z/|G,,
+S:https://www.folktunefinder.com/tunes/45852
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:23
+T: Blue Jig
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|: "Am"A3 cBA | cBA a3 | "Dm"age _edc | "E"d_e=e _edc \
+|  "Am"A3 cBA | cBA a3 | "Dm"age cBA | "E"EDC "Am"A,3 :|
+|: "D7"^FAB cBA | ^FAB cBA | "A7"^ce^f gfe | ^ce^f gfe \
+|: "D7"^FAB cBA | ^FAB cBA | "E"age cBA | "Am"EDC A,3 :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58834
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

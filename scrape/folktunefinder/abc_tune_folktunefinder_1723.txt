@@ -1,0 +1,24 @@
+X:28
+T:28.  Kanoon Junction
+C:c 1984 Harry Bolick 
+R:Stomp
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:200
+K:Gm
+ |: E(d "Gm"d)c BA GA|B2c/2B/2c "D7"d4| "Gm"E(d d)c BA GD|"Cm" FG "D7"BA "Gm" G4 :|
+|: "Cm" E (c c/2)B/2c "Gm" d>d d2| "Cm"cd Bc "Gm"AB/2A/2 GD|GA Bc "D7"dB c"Gm"A | "D7"F/2G/2A BA "Gm" G4 :|
+|:B(g g)gf2 g2|agf=e d4|"Cm"E(c c)c B2c2| "D7" dc BA "Gm" G4:|
+S:https://www.folktunefinder.com/tunes/1723
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Stomp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+P: Svensk Annas Vals (Svenskarnasvalsen)
+O: Trad
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: [F/D][G/E] | "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [F/D][G/E] \
+| "D"[AF] [fA]> e | [dB] [cA] [dA] | "E"[e^G]>fe/d/ | "A7"[c2=G] [F/D][G/E] |
+| "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [AF] \
+| "G"[BG] [gB] [fA] | "A7"[eG] [dF] [cE] | "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+|: [F/D][G/E] | "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [A/F][B/G] \
+| "A7"[cA] [EC]> [FD] | [GE]> [FD][G/E][A/F] \
+| [BG] [AF] [GE] | "D"[A2FD] [F/D][G/E] |
+| "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [B/G][d/B] \
+| "A7"[cA]> [dB][c/A][B/G] | [AF] [fA] [eG] \
+| "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+S:https://www.folktunefinder.com/tunes/5882
+S:http://trillian.mit.edu/~jc/music/abc/Intl/OsloWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OsloWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Waltz_OsloWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

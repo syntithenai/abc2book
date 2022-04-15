@@ -1,0 +1,32 @@
+X: 70
+T:Aldriges Hornpipe. JMP.070
+T:Shutter's Hp,aka. JMP.070
+M:C|
+L:1/8
+Q:180
+C:by Morgan  "75",Shutter's Hp,aka
+S:John Miller his bookof music for the fife
+R:Hornpipe
+O:Scotland
+A:Perth
+N:1 - not shown as # in MS, but surely a mini-modulation
+H:1799
+Z:vmp.C. Graebe
+K:G major
+(D/E/F/) | G2G2 GABc | dBcA GBAG | A2A2 ABcd | ecAG FAFD |!
+G2G2 GABc | dBcA G2 g2 | fafd ege"1"^c | d2d2 d4 :|!
+|:(D/E/F/G/) | A2A2 ABcd | ecAG FAFD | d2d2d2 ef |gedc BdBG |!
+ e2 c2 cgfe | d2 B2 B2 cd | ecdB cAFA | G2G2G2 :|]
+S:https://www.folktunefinder.com/tunes/2007
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

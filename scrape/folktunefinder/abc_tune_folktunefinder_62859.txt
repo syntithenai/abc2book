@@ -1,0 +1,24 @@
+X:26
+T:Year of Jubilo
+S:Traditional American Tune as played by Tom Keays for Thornden Morris
+O:Bampton
+M:2/4
+L:1/8
+K:D
+F/2E/2 |: DF FA | Af f/2e/2d/2B/2 | AF/2A/2 dF | E3 F/2E/2 |\
+DF FA | Af f/2e/2d/2B/2 | Ad e>c |1 d3 F/2E/2 :|2 d4 |
+|: BB Bc | d2 dc/2B/2 | AF/2A/2 dF | E3 F/2E/2 |\
+DF FA | Af f/2e/2d/2B/2 | Ad e>c |1 d4 :|2 d3 z |
+S:https://www.folktunefinder.com/tunes/62859
+S:http://abc.sourceforge.net/abcMIDI/original/coll.txt
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/abcMIDI/coll.txt
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

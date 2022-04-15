@@ -1,0 +1,26 @@
+X:179
+T: "Wehrmannslied"
+N: Z0178
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Soldaten -, Jaeger - Lied
+M: 2/4
+L: 1/16
+K: G
+DD | G3GG2G2 | G2F2F4 | z4
+A2B2 | c2D2D2F2 | G4z2
+DD | G3GG2G2 | G2F2F4 | z4
+A2B2 | c2D2D2F2 | G4z2
+G2 | G2B2d2B2 | B2G2GEE2
+c2B2A2G2 | FFE2D4 | z4
+D2C2 | B,2D2G2B2 | d4c2
+A2 | B2B2B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/69038
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

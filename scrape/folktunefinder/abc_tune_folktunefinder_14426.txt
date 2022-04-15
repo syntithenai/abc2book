@@ -1,0 +1,34 @@
+X: 1
+T: Jockey to the Fair
+O: Trad
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Used as Irish step-dancing tune, and as a Morris-dance tune.
+M: 6/8
+%Q: Rather slow
+L: 1/8
+K: G
+|: D \
+| "G"G2A B2c | d2g d2c \
+| B>AB GAB | "D"c2B A2d \
+| d>^cd "A7"efg | "D"a2f d2g \
+| fed "A7"AB^c | "D"d3- d2 :|
+f/g/ \
+| "D"a>fd afd | "D7"c>Bc "G"B3d \
+| d>gd dgd | "D7"c>Bc "G"B2d \
+| "C"e2f g>fe | "D7"d2c "G"B2d |
+| "C"e>dc "D7"B2A | "G"B2G "C"E2F \
+| "G"G>AG GBd | "C"e2"D"f "G"g2e \
+| d>BG A2B | "C"E2"D"F "G"G2A \
+| B<gB "D7"B2A | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/14426
+S:http://trillian.mit.edu/~jc/music/abc/jig/JockeyToTheFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/JockeyToTheFair.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

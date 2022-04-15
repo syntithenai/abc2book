@@ -1,0 +1,37 @@
+X:47
+T:Invereys Strathspey
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 6/4/04
+N:Petrie's First Collection, page 21
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Strathspey
+K:A
+[V:1] A|A,AAc/d/ e<Ac>A|B,(BB>c) d/c/B/A/ F2|A,AAc/d/ e<Ac>a|f2 e/d/c/B/ cAA:|
+[V:2] z|A2 A2    c2 A2 |d2  de   f2       d2|c2 A2    c2 a2 |d2 e2       A2a:|
+[V:1] c/d/|eaca eacA |dfce fBBc/d/|eaca dacA |dB e/f/e/d/ cAAc/d/|
+[V:2] z   |c'2a2c'2a2|b2a2 d'2b2  |c'2a2c'2a2|b2 e2       a2z2   |
+[V:1] eaca dacA|de/f/{f}e>c fBBc/B/|A<Ec<A d>fe>g|a<fTe>d cAA|]
+[V:2] c2A2 c2A2|G2      A2  d2e2   |c2 A2  B2 d2 |cd  eE  A2A|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/InvereysStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Invereys_Strathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

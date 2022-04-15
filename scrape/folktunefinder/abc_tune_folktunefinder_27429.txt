@@ -1,0 +1,26 @@
+X:6977
+T:The King of the Faeries
+O:england
+C:Trad
+R:Reel
+M:C
+K:Em
+L:1/8
+B, | E2 EF GFGA | B2 BA GFGA | B2 E2 EFGE | FGFE D3 B, |
+EDEF GFGA | BAFA d3 c | B2 E2 GFED | E4 E3 :|
+B | e2 e2 Bdef | gagf edef | e2 B2 BAB^c | ded^c  B^cdB |
+e2 e2 Bdef | gagf efed | Bdeg fedf | e4 e3 f |
+g2 ge f2 fd | edB^c d3 e | dBAF GAB^c | dBAF GFED |
+B,2 E2 EFGA | B2 e2 edef | e2 B2 BAGF | E4 E4 ||
+S:https://www.folktunefinder.com/tunes/27429
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

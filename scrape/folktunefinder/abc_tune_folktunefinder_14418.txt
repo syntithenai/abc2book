@@ -1,0 +1,27 @@
+X: 1
+T: A Jig for Joyce
+C: Bobby Frew
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG \
+|: "D"A2B    AFD | "G"d2B "D"AFD | "D"F2G    AFD | "E7"^CDE "A7"EFG \
+|  "D"A2B    AFD | "G"d2e    dcB | "D"A2d    AGF | "A7"E3    "D"D2z :|
+[| "A"c2d    edc | "D"d2f    AGF | "G"G2A    Bcd |  "D"AGF   "A"E2A \
+|  "A"c2d    edc | "D"d2f    AGF | "G"GAB "D"AGF | "A7"E3    "D"D2z |]
+[| "A"c2d    edc | "D"d2f    AGF | "G"G2A "D"F2A | "E7"AGF  "A7"EDE \
+|  "D"F2A "G"G2B | "A"ABc "G"d2B | "D"A2d    AGF | "A7"E3    "D"D2z |]
+S:https://www.folktunefinder.com/tunes/14418
+S:http://trillian.mit.edu/~jc/music/abc/jig/Jig_for_Joyce_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Jig_for_Joyce_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

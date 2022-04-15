@@ -1,0 +1,25 @@
+X:4970
+T:Preston Guild
+A:North-West
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004d4.html
+%%ID:000004d4
+K:G
+dBG (A2G)| dBG (A2G)| cBA Ged| cBA G3|\
+dBG (A2G)| dBG (A2G)| gfg efg| Ad^c| d3::\
+de=f ({d}c2B)| de=f ({d}c2B)| cBc EFG| ABc {G}F2A|\
+dBG (A2G)| dBG (A2G)| gfe dcB| AGF G3:|
+S:https://www.folktunefinder.com/tunes/37073
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

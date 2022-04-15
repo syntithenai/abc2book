@@ -1,0 +1,26 @@
+X: 1
+T: Nelly Bly #2
+I: Nelly BlyS-NAsquare
+C: CS-N1
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: A
+|:\
+"A"C2D2 E2E2 | C2D2 E4 | C2D2 E2F2 | "E7"B,6 B,2 | \
+"A"C2D2 E2E2 | "D"F2G2 A4 | "E7"G2A2 B2G2 | "A"A8 :|
+ |:\
+"A"c4 A2A2 | "D"A4 F2F2 | "A"E2E2 C2A,2 | "E7"B,6 B,2 | \
+"A"C2D2 E2E2 | "D"F2G2 A4 | "E7"G2A2 B2G2 |1 "A"A4 A2B2 :|2 "A"A6 z2 |]
+S:https://www.folktunefinder.com/tunes/19146
+S:http://trillian.mit.edu/~jc/music/abc/square/NellyBly2_A32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/NellyBly2_A32.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

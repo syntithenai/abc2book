@@ -1,0 +1,26 @@
+X:204
+T: MORGEN WILL MEIN SCHATZ ABREISEN
+N: E0782D
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+R: Abschieds - Lied, Liebe, Soldaten - Lied
+M: 4/4
+L: 1/16
+K: D
+ | A,6F,2D,3F,B,3F, | A,4G,4z8
+A,6A,2C3B,A,3G, | F,12z4
+D6C2E3DC3D | B,4B,4
+E3DC3D | A,2A,2^G,2A,2C3B,A,3G, | F,8z4
+A,3G, | F,4F,3F,F,4B,3A, | A,4G,3F,G,4
+A,3B, | C4C3CC4B,3A, | A,2D2D2D2D4
+A,3G, | F,4F,3F,F,4D3C | B,4B,3B,B,4
+E3E | D6D2C6C2 | D8z8
+S:https://www.folktunefinder.com/tunes/76689
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied, liebe, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

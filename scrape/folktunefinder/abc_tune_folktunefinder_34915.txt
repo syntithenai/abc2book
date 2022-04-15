@@ -1,0 +1,29 @@
+X: 7698
+T:the Queen's Highway
+R:March
+O:Scotland
+M:2/4
+L:1/8
+K:D
+FG|\
+A2 A>B|AFED| f2 f>f| edBd \
+|1 A2A>B | AFED| E2 E>F | E2 \
+:|2 A2 d>e| fedc| d2 d>c | d2||
+Ad|\
+f>f fa| Adfa| g2 fg/f/| e2fg| \
+afed| BAFA| GFED| E2 FG|
+ADFA| dFAd| fagf| edcB| \
+Aa^ga| gecA| d2 d>c| d2 |]
+Z:Richard Robinson <richard@beulah.demon.co.uk>
+S:https://www.folktunefinder.com/tunes/34915
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

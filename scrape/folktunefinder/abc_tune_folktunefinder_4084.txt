@@ -1,0 +1,42 @@
+X: 1
+T: Terpsicourante [C]
+C: Praetorius
+R: jig
+P: 4x
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G "A"\
+| "C"c2G c2d | e>fg ecg \
+| "Dm"f2e "D7"d2c | "G7"B>cd BGg \
+| "F"f2e "D7"d2c | "G7"B>cd BGg \
+| "Dm"d2e f2e | "G7"d2c B2G |
+| "F"ABc "G7"Bcd | "C"c3- c2 :| \
+c "B"\
+| "G"BGd BGd | BGd BGd \
+| "C"efg "D7"^fga | "G"g3- g2g \
+| "C"ecg ecg | "F"f3 f2e |
+| "Dm"d2c "G7"c2B | "C"c3 "G7"G3 \
+"C"\
+|[|"C"E>FG AGG | AGG AGG \
+| "D"^F>GA BAA | BAA B^FA \
+| "Em"G>AB cBB |
+| cBB cBG \
+| "F"A>Bc dcA | "(Dm)"dcA dcA \
+| "G"B>cd eBd | eBd eBd \
+| "C"e>dc "G7"BcB | "C"c3- c2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4084
+S:http://trillian.mit.edu/~jc/music/abc/England/Terpsicourante.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/Terpsicourante.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/Terpsicourante.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

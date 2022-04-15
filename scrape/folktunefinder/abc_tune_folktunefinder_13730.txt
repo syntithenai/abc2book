@@ -1,0 +1,32 @@
+X: 1
+T: Antiochus
+M: 2/2
+L: 1/8
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin, labelled "11." and "Chanukah"
+K: Gm
+V: 1 name="S"
+|: z4 z2 zD | G2A2 B2G2 | ccBA BBAG | B2c2 d2B2 |
+| eedc ddcB | (gd)dd ced2 | B2dc BAG2 |
+|1 (gd)dd ced2 | B2dc B2A2 :|2 (gd)dd ced2 |
+|[M:3/2] B2dc B4 A3","yD |[M:2/2] G2A2 B2G2 | ccBA BBAG | z2 g6 |]
+V: 2 name="A"
+|: dd2d dd2d | dd2^f gg2=f | eedc ddcB | dd2f bb2a |
+| ggfe ffed | z2bb g2b2 | b2d'c' bag2 |
+|1 z2ba gab2 | g2g2 g=e2^f :|2 z2 gg (g^f)g2 |
+|[M:3/2] g2a2 a2g2 (g2^f)","yd |[M:2/2] g2a2 b2g2 | c'c'ba bbag | z2 b6 |]
+V: 3 name="T"
+|: GG2G GG2G | GG2G GG2G | GG2G GG^FG | =FF2F FF2F |
+| FF2F- FFAB | z2gg e2g2 | B2dc BAG2 |
+|1 z2gf efBc | d2e2 d2D2 :|2 z2BB A2Bc |
+|[M:3/2] d2e2 d4 d3","yD |[M:2/2] G2A2 B2G2 | ccBA BBAG | z2 g6 |]
+S:https://www.folktunefinder.com/tunes/13730
+S:http://trillian.mit.edu/~jc/music/abc/hymn/Antiochus_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

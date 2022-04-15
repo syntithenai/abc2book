@@ -1,0 +1,30 @@
+X:0
+T:Adew Dundee
+G:song arrangement
+S:Skene MS via Dauney
+N:I play the fast runs dotted; the MS doesn't say you can't
+M:6/4
+L:1/8
+Q:3/4=70
+K:DDor
+[A2A,2] d2  d2  [d4D4]    d2  |[c4C4]     d2    e2 g4    |\
+[a4A4]      c'2 [a4A4]    c'2 | a2    g2  e2   [d4D4] D2:|
+ a2     c'2 c'2 [c'4c4]   c'2 |[c4C4]     d2    e2 g4    |\
+[a4A4]      c'2 [a4A4]    c'2 |[a2A2] g2  e2    d6      :|
+ dcAc       d2   dcAc     d2  | edcd      e2    edcd  e2 |\
+ ageg       a2  [aA]geg   a2  | gac'age         d6      :|
+ c'bc'd'    c'2  c'bc'd'  c'2 | cBcdef         [g4G4] g2 |\
+ d'^c'd'e'  d'2  d'^c'd'e'd'2 | d'2   e'd'c'b  [a6A6]    |
+ c'bc'd'    c'2  c'bc'd'  c'2 | cBcdef         [g4G4] g2 |\
+ ageg       a2   ageg     a2  | gac'age        [d6D6]   |]
+S:https://www.folktunefinder.com/tunes/30163
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

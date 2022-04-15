@@ -1,0 +1,31 @@
+X:125
+T:Steirer, Privatarchiv Hofer, Sammelgut Cordignano Hugo 10/3
+C:traditionell
+R:Steirer
+B:"Hundert Steirer aus dem Ausseerland", F .Hofer, Steirisches Volksliedwerk, Graz, undated,
+N:im buch in F, nr. 4
+S:Privatarchiv Hofer, Sammelgut Cordignano Hugo 10/3, 1882-1959
+M:3/4
+L:1/8
+K:C
+V:1
+%violino 1mo
+c2 |\
+Bd fe d2 | Gc cG e2 | GB BG d2 | Gc cG e2 |\
+Bd fe d2 | Gc cG e2 | GB BG d2 | c2 z2 :|
+V:2
+%violino 2do
+e2 |\
+df ag f2 | ce ec g2 | Bd dB f2 | ce ec g2 |\
+df ag f2 | ce ec g2 | Bd dBfd | e2 z2 :|
+S:https://www.folktunefinder.com/tunes/45559
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

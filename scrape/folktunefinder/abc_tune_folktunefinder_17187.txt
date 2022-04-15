@@ -1,0 +1,23 @@
+X:1
+T:The Fool's Jig
+S:trad arr Pete Stewart
+Z:"pls1082001"  tradtunes 2002-5-25
+M:4/4
+L:1/8
+K:G
+   GFGEDEDB | AGFED2c2 | BcdBcGFG | AGFEDcBA | GFGEDFGB | AGFED2c2 | BcdBcAGF | G2B2G4 :|
+|: BcdBGBdB | cBABc2AB | cBAGFGAB | AGFEDcBA | GFGEDEDB | AGFED2c2 | BcdBEcAF | G2B2G4 :|
+S:https://www.folktunefinder.com/tunes/17187
+S:http://trillian.mit.edu/~jc/music/abc/reel/FoolsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/FoolsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/FoolsJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

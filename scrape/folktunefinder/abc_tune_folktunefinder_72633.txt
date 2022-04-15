@@ -1,0 +1,25 @@
+X:176
+T: Muede kehrt ein Wandersmann zurueck
+N: D1007
+O: Europa, Mitteleuropa, Deutschland, Wuerttemberg, Tiefenbach
+N: DVA-Signatur A 37 192
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+BA | G3GGGGc | c2z4
+DF | G3AGAed | B2z4
+GA | B3dcBAG | E2z3
+CB,A, | DEFAe2d2 | B2z4
+S:https://www.folktunefinder.com/tunes/72633
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

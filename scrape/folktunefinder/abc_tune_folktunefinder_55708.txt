@@ -1,0 +1,22 @@
+X:105
+T:Hommage \`a Edmond Parizeau
+C:Marcel Messervier
+R:Reel
+M:C
+K:A
+"E7" ABcd | "A"e2 e e2 e ce | A2 ce efed | c2 c c2 c Bc | A2 c2 dedc |
+"E7"B4 BABc | B2 Ac efed | "A"c2 B2 ABcA | "E"E2 z2 "E7"ABcd ||
+"A"e2 e e2 e ce | A2 ce efed | c2 c c2 c Bc | A2 c2 dedc |
+"E7"B4 BABc | e2 d2 c2 B2  | "A"Afed c2 B2 | "A7"A2 c2 B2 A2 ||
+|:"D"a4 f4 | "D7"d3 A d2 f2 | "A"e4 ef ec | A2 c2 B2 A2 |
+"E7"B4 BABc | e2 d2 c2 B2  |1 "A"cBAc  ecef | "A7"e2 c2 B2 A2 :|2"A"Afed  cABc | A2 z2  |]
+S:https://www.folktunefinder.com/tunes/55708
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

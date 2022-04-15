@@ -1,0 +1,32 @@
+X:4151
+T:Dill Pickle Rag
+R:Rag
+C:Charles L. Johnson
+S:Nottingham Music Database repaired by Alf Warnock
+B:Fiddler's Fakebook
+M:4/4
+L:1/8
+K:G
+B2c2 ^c2|:"G"degd egde|gdeg -ged2|"Em"GABG ABGA|BGAB -BAG2|"D"DEFD EFDE|
+FDEF -FED2|1 "G"GFGE -"E"EFG^G|"A"A^GAd -"D"dBc^c:|2 "A"A^GAd -"D"dBA2|"G"G4 -GGFE|]
+|:"D"D2_E2 =E2F2|"G"G2ed -ded2|"D"F2ed -ded2|"G"G2ed -ded2|
+"D"DAEA =FA^FA|"G"G2ed -ded2|1 "A"AB^cA Bc3|"D"d4 -dGFE:|2 defd ef3|"G"g8|]
+K:C
+:"C"cAGc AGEF|GEGA -AGE2|"G"D^CDG -GED2|"C"C4 A2B2|
+cAGc AGEF|GEGA -AGE2|"D"A^GAd -dBA2|"G"G4 A2B2|
+"C"cAGc AGEF|GEGA -AGE2|"G"D^CDG -GED2|C4 c2B2|
+"Am"A2AB cBcd|e^dea -age2|"D"d^cdg -"G"ged2|1 "C"c6AB:|2 c6z2|]
+S:https://www.folktunefinder.com/tunes/60340
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

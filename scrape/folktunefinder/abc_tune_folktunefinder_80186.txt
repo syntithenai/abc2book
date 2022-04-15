@@ -1,0 +1,24 @@
+X:127
+T: Tannebaum
+N: A0491
+O: Europa, Mitteleuropa, Deutschland
+N: M. Franck, Fasc. Quodl. 1611  No. 3.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+G2 | G3FG2A2 | _B3BG2
+A2 | _B2=F2G2A2 | _B4z2
+B2 | _B3BB2B2 | A4A2
+d2 | G2G2F2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/80186
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

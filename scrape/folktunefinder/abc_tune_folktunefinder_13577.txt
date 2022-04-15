@@ -1,0 +1,24 @@
+X: 1
+T: Henrietta Hornpipe
+R: hornpipe
+M: 2/4
+L: 1/16
+K: F
+|: d \
+| "F"c2c2 Acfa | "Gm"g2g2 g3e | "C"fedc "C7"=Bcde | "F"fefg a4 \
+| "F"c2c2 Acfa | "Gm"g2g2 g3e | "C"fedc "C7"=Bcde | "F"f2a2f3 :|
+|: c \
+| "F"fc=Bc AcBc | "Bb"dBAB GBAB | "F"Acfe "Bb"dfba | "G7"gfed "C"c2de \
+| "F"fc=Bc AcBc | "Bb"dBAB GBAB | "F"Acfa "C7"gbeg | "F"f2a2f3 :|
+S:https://www.folktunefinder.com/tunes/13577
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HenriettaHornpipe_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/HenriettaHornpipe_F.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

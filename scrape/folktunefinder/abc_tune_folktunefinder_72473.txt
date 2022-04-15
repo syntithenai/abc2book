@@ -1,0 +1,26 @@
+X:16
+T: Der Ring
+N: D0016
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Verzierungen; Inzipit = Transposition zum Lied
+R: Liebes - Lied
+M: 2/4
+L: 1/8
+K: E
+E | E=GFE | =D2D2 | =GBBA | B2z
+E | E=GFE | =D2D2 | =GBBA | B2
+=GA | BBB=c | B2A=G | A2
+A=c | B2EF | E2=D=C | =D2
+FA | =G2FF | E2z
+S:https://www.folktunefinder.com/tunes/72473
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

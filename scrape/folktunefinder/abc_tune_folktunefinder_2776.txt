@@ -1,0 +1,35 @@
+X: 1
+P: Alunelul
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: F
+(3[AF][BG][=B^G] \
+|: "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "F"M[F2C] "C"M[G2E] | "F"[A2F] (3[A/F][B/G][=B/^G] \
+| "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+(3CDE \
+|: "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "F"[F2C] [A2F] | [c4A] \
+| "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+S:https://www.folktunefinder.com/tunes/2776
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Alunelul.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/tune/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Alunelul.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Alunelul.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Alunelul
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 1/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:512
+T: "Argwohn"
+N: Z1192
+O: Europa, Mitteleuropa, Deutschland, Bayern; Tirol
+N: Die letzten 8 Takte werden auf die Silbe 'la' gesungen
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: C
+E2F2 | G6F2E4 | E4D4
+D4 | F6E2D4 | F4E4
+E2F2 | G6F2E4 | E4D4
+D4 | A4G4B4 | C8z2
+G2 | G2f2d6G2 | G2e2c6
+G2 | G2B2d2G2B2d2 | c2G2c2e2g3
+G | G2f2d6G2 | G2e2c6
+G2 | G2A2B2c2e2d2 | c8
+S:https://www.folktunefinder.com/tunes/69371
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

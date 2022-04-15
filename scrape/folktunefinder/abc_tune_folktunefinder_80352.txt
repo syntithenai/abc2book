@@ -1,0 +1,24 @@
+X:293
+T: Von Gott will ich nicht lassen
+N: A0642C
+O: Europa, Mitteleuropa, Deutschland
+N: Besardi 1603
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2A2_B2B2 | A4A2D2 | E=FG2G2^F2 | G4z2
+D2 | G2A2_B2B2 | A4A2D2 | E=FG2G2^F2 | G4z4
+d3ed2c2 | _B6A2 | _B2c2d2d2 | c4A2
+A2 | _B2B2G2G2 | A4=F2D2 | E2G2G2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/80352
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

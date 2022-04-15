@@ -1,0 +1,33 @@
+X: 14
+T:Romance et Pastourelle
+R:Air
+O:France
+A:Provence
+C:Maurice Marchal (1970)
+O:Provence
+M:6/8
+L:1/8
+K:C
+"mlancolique, souple"(Md2e Mg2e|ded A3)|(Md2e Mc2A|cec A3)|(Mc2G A2c|Md2A c2)z|(c2G A2F|MG3 G2)z|
+(A>FA c2A|c>Ac d3)!breath!|(e2c d2A|(e/2f/2)eA e3)|(f2d _B2f|e2c A2)z|(c>(de) Adf|a3-a2)z|
+(Mg2e M^f2d|Me2c Md2)(A|M^f2d Me2c|Md2A Mc2)z|(d2A c2A|d2A c3) |(d2A c2A|d2G HA3)||
+M:3/8
+"aai".e|MA(A/2B/2c/2d/2)|(ec).e|MaMgMf|Me2z|d(f/2e/2d/2c/2)|BGd|c>BA|
+.G.A.B|!breath!A2.e|MA(A/2B/2c/2d/2)|(ec).e|a(g/2a/2g/2f/2)|e2z|d(f/2e/2d/2c/2)|BGd|
+c>BA|GAB|!breath!c2Mc|Md2 ((3c/2B/2A/2)|Geg|e2d|!breath!c2e|f2 ((3e/2d/2c/2)|
+d2B|e2((3d/2c/2B/2)|!breath!c2c|d2((3c/2B/2A/2)|Geg|e2d|!breath!c3|d>cB|
+A2G|(A/2B/2)cd|e3-|!breath!e2.e|MA(A/2B/2c/2d/2)|(ec).e|MaMgMf|Me2z|
+d(f/2e/2d/2c/2)|BGd|c>BA|.G.A.B|!breath!A2 .e|MA(A/2B/2c/2d/2)|(ec).e|a(g/2a/2g/2f/2)|
+e2z|d(f/2e/2d/2c/2)|BGd|c>BA|GAB|c3!D.C.!||
+%%footer $D   Galouvielle-MBe 2005 \nBolero France
+S:https://www.folktunefinder.com/tunes/40213
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

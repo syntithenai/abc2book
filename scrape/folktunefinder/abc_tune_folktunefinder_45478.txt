@@ -1,0 +1,46 @@
+X:44
+T:Einleitung und Ausgang zu den Steyrer Taenzen in G (->text)
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in G
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:G
+P:Einleitung
+%= intruduction (at the start of a set, originally at the beginning of each single melody)
+V:1
+%violino 1mo
+[g4B2D2G2] (fg) | g4 fg | g3 |
+V:2
+[B4D4] AB | [B4 D4] AB | [B3D3] |
+V:1
+P:Ausgang %= Coda (at the end of a set, replacing the last bar. Originally at the end of each single melody)
+%violino 1mo
+G2 g2 g2 | bgfgaf | g2 b2 a2 | g4 fg | g4 FG | G4 ||
+V:2
+%violino 2do
+P:g.Ap:
+[b2G2] b2 b2 | d'babc'a | b2 d'2 c'2 | b4 ab | b4 AB | [B4D4] |
+V:1
+P:oder/or
+BDGBAc | [B2D2] dgfa | agfedc | B2 dDAc | B4 |
+V:2
+G2 Bdce | d2 gbac' | c'bagfa | g2 bdca | g4 |
+S:https://www.folktunefinder.com/tunes/45478
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

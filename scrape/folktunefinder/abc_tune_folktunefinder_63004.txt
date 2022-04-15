@@ -1,0 +1,22 @@
+X:115
+T:Brid Harper's
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of Dm)
+K:Dmin
+"Dm"FDE F2G | A2d cAc | dcA ~G3 | "C"AFD GEC |
+"Dm"FDE F2G | A2d cAc | dcA "C"GFG |1 "Dm"AFD D2E :|2 "Dm"AFD Dag |:
+"F"~f3 edc | "Bb"ded cAG | "F"~F3 GFG | "Bb"AFD DFD |
+"F"CA,C DFB | Aca fdc | "C"dcA GFG |1 "Dm"AFD Dag :|2 "Dm"AFD D2E|]
+S:https://www.folktunefinder.com/tunes/63004
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Jig (key of dm)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

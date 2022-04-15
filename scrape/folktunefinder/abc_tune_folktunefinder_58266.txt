@@ -1,0 +1,52 @@
+X:36
+T:7. Allemaingne
+C:Tielman Susato, arr. Frank Nordberg
+O:Holland
+B:Tielman Susato: Danserye (1551) no. 36
+R:Allemande, almain
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-36/susato-1551-36-4m.abc
+V:1 Program 1 110 %Fiddle
+V:2 Program 1 40 %Violin
+V:3 Program 1 41 alto %Viola
+V:4 Program 1 42 bass %Cello
+M:C|
+L:1/2
+Q:1/1=112
+K:Ddor
+V:1
+d2ddc>BAcBAA^GA2A2:|
+V:2
+A,2A,A,C3CGEE2E2E2:|
+V:3
+D2DDE>DCA,DCB,2A,2A,2:|
+V:4
+D,2D,D,A,2A,F,G,A,E,2A,2A,2:|
+%
+V:1
+|:ABcAGFEDABcAGFEFEDD^CD2z2:|
+V:2
+|:F2EFECCA,F2EFECCA,CA,A,2A,2z2:|
+V:3
+|:D2CDB,A,G,F,D2CDB,A,G,F,G,F,E,2D,2z2:|
+V:4
+|:D,2A,D,E,F,C,D,D,2A,D,E,F,C,D,E,/C,/D,A,,2D,2z2:|W:
+W:
+W:Note: last note before the first repeat originally only in part 1.
+W:The others have rests there.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/58266
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-36/susato-1551-36-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-36/susato-1551-36-4m.abc
+% Rhythm Allemande, almain
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

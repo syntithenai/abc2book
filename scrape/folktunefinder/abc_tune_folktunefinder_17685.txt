@@ -1,0 +1,32 @@
+X: 1
+T: Miss Shepherd
+C: J.S.Skinner
+N: SV 27
+N: H&C (in G) p.67
+N: Hunter 192
+N: BSFC IV-18
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: {^G}A | "Am"A,B,CD E2DC | "G"B,GFG DB,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA :|
+[| ^g- | "Am"a2ed cBAF- | "G"G2DC B,A,G,^g- | "Am"a2ed cBAc | "E7"BA^GB "Am"cAA^g |
+| "Am"~a2ed cBAF | "G"~G2DC B,A,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA |]
+S:https://www.folktunefinder.com/tunes/17685
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissShepherd.abc
+S:http://trillian.mit.edu/~jc/music/book/500/MissShepherd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

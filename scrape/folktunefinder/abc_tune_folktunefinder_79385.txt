@@ -1,0 +1,28 @@
+X:281
+T: MORGEN MARSCHIEREN WIR
+N: E1424
+O: Europa, Mitteleuropa, Deutschland, Hessen, Lahn - Kreis
+R: Staende -, Soldaten - Lied, Liebe
+M: 3/4
+L: 1/8
+K: D
+ | D,2F,2A,2 | A,2DA,A,2
+B,B,B,B,DB, | A,2A,G,F,2
+A,A,A,A,A,A, | B,B,B,B,B,B,
+CCCCCC | DDFDA,A,
+B,B,A,2G,2 | F,2A,2D2
+FFG2C2 | D4z2
+A,A,A,A,A,A, | B,B,B,B,B,B,
+CCCCCC | DDFDA,A,
+B,B,A,2G,2 | F,2A,2D2
+FFG2C2 | D4z2
+S:https://www.folktunefinder.com/tunes/79385
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

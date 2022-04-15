@@ -1,0 +1,37 @@
+X: 1
+T: Bonaparte Crossing the Rhine
+T: Caledonian March
+O: 1837
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: Sheet music published 1837 by Geo Willig, Philadelphia, as "Caledonian March"
+N: Attributed to "A Professor" by Geo Willig
+M: C
+L: 1/8
+K: D
+DF \
+| "D"A>FAF A2[dF][eA] | [fd]>[ec][fd][ge] [f2d2][ec][dB] \
+| "G"[BG]>[cA][dB][BG] "D"[AD]FED | "A"[E2C2][EC]>[EC] [E2C2]DF |
+| "D"AFAF A2de | [fd]efa [ge][fd][ec][dB] \
+| "G"[BG]>[cA][dB][BG] "D"[AD]F"A"EF | "D"D2 D>D D2 :|
+|: [fd][ge] \
+| [af]>[ge][fd][ge] [a2f2](3ABc | "D"[dA]>c[eA][ec] [f3d3]F \
+| "A"[GE]>[FD][GE][AF] "D"[BG][AF][GE][FD] | "A"[E2C2] [ecA]>f [e2c2A2]DF |
+| "D"AFAF A2de | [fd]>efa [ge][fd][ec][dB] \
+| "G"[BG]>[cA][dB][BG] "D"[AD]<F"A"EF | "D"D2 D>D D2 :|
+S:https://www.folktunefinder.com/tunes/15344
+S:http://trillian.mit.edu/~jc/music/abc/march/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/march/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BonapartCrossingTheRhine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/BonapartCrossingTheRhine_D.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

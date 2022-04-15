@@ -1,0 +1,33 @@
+X: 2
+P: Craigendoran
+O: Kerr's #4
+R: strathspey
+B: Kerr's #4 p.15
+N: Sometimes mislabelled "But and Ben", (Kerr's #4 p.8)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+   d \
+| "G"d<d B>d e>d B>d | g>a b>a g3 d | "C"e<e c>e "G"d<d B>d \
+|1 "Am"c>B "A7"A>G "D7"F>E D :|2 "Am"c<A "D7"d>F "G"G3 |]
+|: d \
+| "G"g<g b>a g>d B>d | G>D B,>D G,3 d | "Am"e<e a>b c'>b a>g \
+|1 "A7"(3fga (3gfe "D7"d3 :|2 "D7"(3fed (3cBA "G"G3 |]
+S:https://www.folktunefinder.com/tunes/9989
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Bedrule.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/FinlayStewartSkinner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/GreigsPipes1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LammermuirHills2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MacDonaldOfTheIsles1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SilverCity1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SilverCity1.txt
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

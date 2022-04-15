@@ -1,0 +1,30 @@
+X:81
+T:Carolan's concerto
+R:Other
+O:Ireland
+M:4/4
+C:Turlough O'Carolan
+K:D
+(3ABc|\
+d2dd d2cB|ABGA F2A2|E2A2 D2A2|Bcde dcBA|
+d2a2 fgaf|efge fgaf|g2bg fdfa|gfed dcBA|\
+BdBd gdgd|AdAd f2fd|
+e2ed efed|cdBc A2AG|\
+FGAF EFGE|FGAF GABG|A2d2 fedc|d6::
+(3ABc|\
+d2b2 agfe|d2a2 c2a2|B2gB ABcd|ecBA d2df|\
+edcB ca a/a/a|Bg g/g/g Af f/f/f|
+edcB ca a/a/a|Bg g/g/g bgbg|\
+afaf edcB|cABG AFGE|DAFA DAFA|GEBE GEBE|\
+FAdc BAGF|GABc defg|A2d2 fedc|d6:|
+S:https://www.folktunefinder.com/tunes/49474
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

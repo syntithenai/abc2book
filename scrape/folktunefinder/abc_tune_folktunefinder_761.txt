@@ -1,0 +1,29 @@
+X:127
+T:A Cotillion
+R:Reel:Polka
+O:England
+M:2/4
+A:Lancashire
+B:Winder
+K:G
+D2| \
+GABc d2B2 | e4 d2B2 | c2B2 A2G2 | AGFE F2D2 |\
+GABc d2B2 | e4 d2g2 | f2d2 e2f2 | g4g2 :|*
+|:d2| \
+dcBc d2B2 | cBAB c2A2 | BAGA B2G2 | AGFE F2D2 |\
+GABc d2g2 | e4 d2c2   | BAGB A2F2 | G6 :|*
+|:D2 | \
+B2AB c2c2 | c2Bc d2d2 | efge d2B2 | cBAG F2D2 |\
+BABc d2B2 | g2B2 d2c2 | BAGB A2F2 | G6 :|**
+S:https://www.folktunefinder.com/tunes/761
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

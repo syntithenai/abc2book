@@ -1,0 +1,29 @@
+X: 1
+T: Auld Toon o' Ayr
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F \
+| "D"D<D F>A d3 c | "G"B/A/B/c/ d>B "D"A<F F>{c}d \
+| "D"D<D F>A "Bm"d3 f | "Em"(3efg (3gfe "G"d{c}d ||
+y2 \
+| "D"D<D F>A d3 c | "G"B/A/B/c/ d>B "D"A<F F>A \
+| "G"B/A/B/c/ d>B "D"A<F F>{c}d | "Bm"A<F F>D "A7"E3 |]
+F \
+| "D"D>d F>d A<F F>A | "G"B/A/B/c/ d>B "D"A<F F>{c}d \
+| "D"D>d F>d A<F F>A | "G"{c}d>B "D"A<F "A7"E3 ||
+F \
+| "D"D>d F>d A<F F>A | "G"B>A B>c "Bm"d3 f \
+| "Em"(3efg (3gfe "G"d{c}d | "D"A<F F>D "A7"E3 |]
+S:https://www.folktunefinder.com/tunes/19182
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AuldToonOAyr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AuldToonOAyr.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

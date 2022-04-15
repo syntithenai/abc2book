@@ -1,0 +1,22 @@
+X:8
+T:Pretty Little Dog
+C:trad, American
+R:reel
+K:A dorian
+eg | a2 e2 g2 ag | edcB A2 G2 | A2 AA c2 d2 | e4 e2 eg |
+a2 e2 g2 ag | edcB A2 G2 | A2 Ac BAG2 |1 A4 A2 eg :|2 A4 A2 AB |
+c2 AB cBcd | edcB A2 G2 | A2 AA c2 d2 | e4 e2 eg |
+a2 e2 g2 ag | edcB A2 G2 | A2 Ac BAG2 | A4 A4 :|
+S:https://www.folktunefinder.com/tunes/17898
+S:http://trillian.mit.edu/~jc/music/abc/reel/PrettyLittleDog_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/PrettyLittleDog_BB.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

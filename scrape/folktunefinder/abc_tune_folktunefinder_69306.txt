@@ -1,0 +1,28 @@
+X:447
+T: "Mariens Lob"
+N: Z1127
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: religioeses Lied, Maria
+M: 4/4
+L: 1/8
+K: G
+D2 | G4A4 | _B2d4cB | A4_B2A2 | G4
+d2_e2 | =f4d2c2 | d4c4 | _B4
+d2_e2 | =f2f2d_e | dcc2
+d2 | _e2d2c_B | _BAB2
+Bc | d2d2c_B | AGA2
+A_B | c2d2_BA | GFGA
+_Bc | d4c_B | A4G2 | G4
+S:https://www.folktunefinder.com/tunes/69306
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied, maria
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

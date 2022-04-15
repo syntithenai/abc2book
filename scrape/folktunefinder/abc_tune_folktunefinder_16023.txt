@@ -1,0 +1,34 @@
+X:1
+T:Miss Rae's Strathspey
+M:4/4
+L:1/8
+R:Strathspey
+N:"Slow"
+C:Andrew Gow
+B:Gow - 3rd Collection of Niel Gow's Reels, 3rd ed. p.8 (orig. 1792)
+Z:AK/Fiddler's Companion
+K:Dm
+E \
+| "Dm"F>E D>E F>G B/A/G/F/ | "C"E>C G>C A>C G>C \
+| "Dm"F>E D>E F>G B/A/G/F/ | "Gm"E^C "Dm"{C}D2 D :|
+A \
+| "Dm"d>e f>g a>b b/a/g/f/ | "Gm"g/a/b/a/ g/f/e/d/ "A7"^c/d/e/c/ A2 \
+| "Dm"d>e f>g a>b a>g | "Dm"a(3f/e/d/ "A7"g(3e/d/^c/ "Dm"d2 {c/d/}D |]
+A \
+| "Dm"d>e f>g a>b b/a/g/f/ | "Gm"g/a/b/a/ g/f/e/d/ "A7"^c/d/e/c/ A2 \
+| "Dm"F>f a>f d<A F2 | "Gm"E^C "Dm"{C}D2 D |]
+S:https://www.folktunefinder.com/tunes/16023
+S:http://trillian.mit.edu/~jc/music/abc/new/MissRaesStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissRaesStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissRaesStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/MissRaesStr_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

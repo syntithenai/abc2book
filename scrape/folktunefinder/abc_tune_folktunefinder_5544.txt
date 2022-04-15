@@ -1,0 +1,48 @@
+X: 1
+T: Fj\"askern
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: G
+K: G
+|: "G"DG B2 | "D7"AB c2 | "G"BB "D7"AA | "G"GB d2 \
+|  "G"DG B2 | "D7"AB c2 | "G"BB "D7"AA | "G"G3 z :|
+M: 6/8
+L: 1/8
+|: "G"d2c B2c | d2g B2d | "D7"d2c A2c | "C"ez2 "G"d2 \
+|  "G"d2c B2c | d2g B2d | "D7"d2c A2F | Az2 "G"G3 :|
+P: C
+K: C
+M: 2/4
+L: 1/8
+|: "C"Gc e2 | "G7"de f2 | "C"ee "G7"dd | "C"ce g2 \
+|  "C"Gc e2 | "G7"de f2 | "C"ee "G7"dd | "C"c3 z :|
+M: 6/8
+L: 1/8
+|: "C"g2f e2f | g2c' e2g | "G7"g2f d2f | "F"az2 "C"g2 \
+|  "C"g2f e2f | g2c' e2g | "G7"g2f d2B | dz2 "C"c3 :|
+P: F
+K: F
+M: 2/4
+L: 1/8
+|: "F"CF A2 | "C7"GA B2 | "F"AA "C7"GG | "F"FA c2 \
+|  "F"CF A2 | "C7"GA B2 | "F"AA "C7"GG | "F"F3 z :|
+M: 6/8
+L: 1/8
+|: "F"c2B A2B | c2f A2c | "C7"c2B G2B | "B"dz2 "F"c2 \
+|  "F"c2B A2B | c2f A2c | "C7"c2B G2E | Gz2 "F"F3 :|
+S:https://www.folktunefinder.com/tunes/5544
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Fjaskern.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Fjaskern.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Fjaskern.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Fjaskern
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Fjaskern.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

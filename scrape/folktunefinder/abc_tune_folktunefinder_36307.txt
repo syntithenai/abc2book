@@ -1,0 +1,27 @@
+X:1140
+T:the Concertina Reel
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008aa.html
+%%ID:000008aa
+K:D
+A2 FA BAFB|A2FA BAFA|\
+B2{Bd}BA B2{Bd}BA|B2{Bd}BA BAFB|\
+A2FA BAFB|A2FA BAFE|
+FABc d3B|AFEF D4::\
+Ad (3ddd Ad (3ddd|AddA BAFA|
+B2{c}BA B2{c}BA|B2{c}BA BAFA|\
+Ad (3ddd Ad (3ddd|Ad (3ddd BAFE|\
+FABc d3B|AFEF D4:|
+S:https://www.folktunefinder.com/tunes/36307
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

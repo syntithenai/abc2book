@@ -1,0 +1,27 @@
+X:1
+T:Glentown Harbour
+C:Jimmy McHugh
+Z:Ted Hastings <ted:HASTINGS.NU> irtrad-l 2000-11-26
+M:6/8
+L:1/8
+R:Jig
+K:D
+E | F2d BAF | FEF EDB, | DFA dcd  | BAF  EDE |
+    F2d BAF | FEF EDE  | F2E FDB, | DED  D2 :|
+E | F2E FAd | fed BAF  | DFA dcd  | Be^d efg |
+    f3  edB | AdB AFE  | F2E FDB, | DED  D2 :|
+S:https://www.folktunefinder.com/tunes/14247
+S:http://trillian.mit.edu/~jc/music/abc/jig/GlentownHarbourJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GlentownHarbourJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GlentownHarbourJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GlentownHarbourJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GlentownHarbourJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:6691
+T: the Davy Hornpipe
+O:england
+R: hornpipe
+B: RSCDS 24-4
+N: From Kerr (which)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gaag "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/27143
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

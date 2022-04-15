@@ -1,0 +1,26 @@
+X: 1
+T: la Fran\,counette
+O: Trad
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: C
+   z2 \
+| "C"e4g2 | e4g2 | "Dm"f2d2a2 | "G7"g4ef \
+| "C"g2gagf | e2c2e2 |1 "Dm"def2e2 | "G7"d6 :|2 "G7"defdBd | "C"c4 |]
+|: Bc \
+| "G7"d2d2cd | "C"e2e2de | "G7"f2e2d2 | "C"g3ag2 \
+| "(Dm)"f2defd | "C"e2c2e2 |1 "Dm"def2e2 | "G7"d6 :|2 "G7"defdBd | "C"c4 |]
+S:https://www.folktunefinder.com/tunes/20021
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LaFrancounette_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/LaFrancounette_C.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

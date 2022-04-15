@@ -1,0 +1,30 @@
+X:544
+T: Zimmerleute (244), S. 523
+N: T0432
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Junglinster, Rammeldingen, u.a., mehrere Snger,
+N: Zimmerleute und Maurer (hhh)
+R: Berufslied]
+M: 2/4
+L: 1/16
+K: F
+c4 | A2A2c2A2 | F4
+G4 | A2c2B2d2 | c4z2
+c2 | c2c2c2f2 | d4d2
+c2 | B3AB2d2 | c3dc2
+B2 | A3GA2B2 | c4
+d4 | c3BB2c2 | A4
+S:https://www.folktunefinder.com/tunes/70674
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Berufslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

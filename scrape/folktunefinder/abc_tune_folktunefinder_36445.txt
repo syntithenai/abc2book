@@ -1,0 +1,25 @@
+X:1830
+T:Foxhunter's Jig
+M:9/8
+O:Ireland
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000896.html
+%%ID:00000896
+K:D
+F3 FED G2E|F3 FED E2D|F3 FED GAB|AFD DEF E2D::
+B3 BAG FGA|B2E E2F G2B|ABc dcB ABc|d2D DEF E2D::
+f3 fed g2e|f3 fed e2d|f3 fed gab|afd def e2d::
+gfe d=cB AGA|B2E E2F G2B|\
+ABc dcB ABc|d2D DEF E2D::
+S:https://www.folktunefinder.com/tunes/36445
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

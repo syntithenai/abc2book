@@ -1,0 +1,25 @@
+X:1
+T:Schottische: Sorbet Shuffle
+C:Andrew Swaine
+M:2/2
+L:1/8
+N:originally in G
+K:C
+cd|"C"e3d cedc|"G"dedc B2"/e"G2|"F"A3B "C/e"c2ee|"Dm7"fedc "G7"d2cd|
+"C"e3d cedc|"G"dedc B2"/e"G2|"F"A3B "Dm7"c2ee|"G7"dcBd "C"c2:|
+K:Cm
+cd|"Cm"e3d cedc|"Gm/b\b"dcde f2"/d"^f2|"E\b"g3f egfe|"Dm7"fffe "G7"dfed|
+"Cm"e3d cedc|"Gm/b\b"dcde f2"/d"^f2|"E\b"g3f egfe|"G7"f=ed=B "C"c2:|
+S:https://www.folktunefinder.com/tunes/51974
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

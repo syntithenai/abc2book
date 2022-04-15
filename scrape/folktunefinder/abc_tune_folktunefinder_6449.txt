@@ -1,0 +1,33 @@
+X: 1
+T: 'El ginat 'egoz
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+[| "F"F3 G A2 A{BA}G \
+| "Gm"G6 FE \
+| "Dm"D2 DC D4- \
+| "Gm"D6 GF \
+| "C"G4 "F"A2 c2 \
+| "Dm"d2 A2 AG FG |
+| "Gm"G6 A2 \
+| "Dm"D4 D2 DC \
+| "Am"A,2 C2 D2 ED \
+| "Dm"D6 F2 \
+| "Gm"G>A GF G4- \
+| "C"G2 G2 E2 ED \
+| "Dm"D8 |]
+S:https://www.folktunefinder.com/tunes/6449
+S:http://trillian.mit.edu/~jc/music/abc/Israel/ElGinatEgoz_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ElGinatEgoz_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/ElGinatEgoz_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/ElGinatEgoz_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Israel/tune/ElGinatEgoz_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

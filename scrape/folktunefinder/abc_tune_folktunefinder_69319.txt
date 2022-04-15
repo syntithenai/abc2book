@@ -1,0 +1,26 @@
+X:460
+T: "Schlachtlied"
+N: Z1140
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Vaterland und Wehr
+M: 3/4
+L: 1/8
+K: F
+FG | A3ABA | AGG2
+GA | B3BcB | BAA2
+cc | c3AdB | G2z2
+FA | c3cdc | BABd
+cB | AGAcBA | Gcc2
+GG | G3ABc | A4
+S:https://www.folktunefinder.com/tunes/69319
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

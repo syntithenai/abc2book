@@ -1,0 +1,23 @@
+X:620
+T:The Rolling Wave
+R:jig
+N:
+Z:
+M:6/8
+K:D
+"Bm"F2E EDE|"D"F2D D2D|"Bm"F2 E EFA|"G"d2e fdB|
+"Bm"F2E EDE|"D"F2 D DEF|"A"AFE EFA|"G"B3 d2B:|
+|:"D"ABd e2f|"G"d2c B2A|"D"ABd e2f|"Em"dBA B2B|
+"D"ABd ede|"Bm"fdB BAF|"A"AFE EFA|"G"B3 d2B:|
+S:https://www.folktunefinder.com/tunes/67426
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

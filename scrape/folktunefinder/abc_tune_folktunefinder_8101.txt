@@ -1,0 +1,29 @@
+X: 2
+P: Bunka Lina Polska
+O: efter David Bastviken
+B: Svenska L\aalar (N\"arke) p.8 #13.
+N: Polskan hette "Bunka Lina" efter en gammal gumma som sj\"ong melodien
+N: f\"or Spel Petter i hans barndom. Johan Andersson hade den fr\aan Spel Petter.
+N: Dette bearbetning \"ar fr\aan David Bastviken, April 1997 i Boston.
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"A>^c- d>e- f/e/f/g/ | "A7"a>b (3agb a>g \
+| e>f (3gag (3fef | d>^c e<c A>G \
+| "A7"A>^c d>e (3fag | (3e-^ce "Dm"{c}d2 z2 :|
+|: A>B G<A F>G | (3A(cB) (3G(AB) A>F \
+|  A>B G<A F>G | (3(AcB) (3(GAB) A>G \
+| "A7"A>^c d>e (3fag | (3e-^ce "Dm"{c}d2 z2 :|
+S:https://www.folktunefinder.com/tunes/8101
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hamburska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hamburska1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

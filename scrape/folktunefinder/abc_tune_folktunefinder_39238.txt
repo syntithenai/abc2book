@@ -1,0 +1,29 @@
+X:17867
+T:Trumpet Minuet,A,(Melody). BC.49a
+M:3/4
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+Z:John Bagnal
+K:D
+D2 DDDD | F2 FFFF | A2 AAAA | d4 e2 | fe d2 e2 | fe d2 e2 | f2 gfed | ed
+cB A2 |! D2 DDDD | F2 FFFF | 
+A2 AAAA | d4 e2 | fe d2 e2 | fe d2e2 | f2 gfef | d6 |!|
+({fg} a2) aaaa | a2 bagf | "tr"g2 gggg| g2 agfe | f2 ffff| "tr" f2 fg a2
+ | e
+2 eeee| e6 |! D2 DDDD | F2 FFFF|
+A2 AAAA | d4 e2 | fe d2 e2 | fe d2 e2 | fagfef | d6 |]
+S:https://www.folktunefinder.com/tunes/39238
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

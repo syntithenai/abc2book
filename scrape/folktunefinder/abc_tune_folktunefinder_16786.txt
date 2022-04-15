@@ -1,0 +1,43 @@
+X:1
+T:La Belle poque
+M:4/4
+Q:360
+R:reel
+C:Marcel Messervier, Sr.
+N:transcribed from the anthology "Accordons diatoniques"
+S:panda_baerchen <adh16:columbia.edu> QueTrad 2003-2-25
+K:D
+|: f3fe2(3dfd | A2 A/2d/2A/2d/2 AB AG \
+| F2A2d2f2 | g4 e3e \
+| g2f2e2 (3dfd | cc cA cz (3BcB |
+| (3AdA FG (3BcB (3AdA | FG AB (3AdA (3FAd \
+| f3fe2(3dfd | A2 A/2d/2A/2d/2 AB AG \
+| F2A2d2f2 | g4 e3e |
+| g2f2e2 (3dfd | cc cA cz (3BcB \
+|1 AB (3cBA ge cd | df ec (3dfd (3FAd \
+:|2 AB (3cBA ge (3cdc | df ec d2 d'd' ||
+|: bg dg bc' d'b | af (3dfd Ad fa \
+| ga ge cA Bc | (3dfd cd ba fd \
+| bg dg bc' d'b | af (3dfd Ad fa |
+| ga ge cA Bc |1 df ec d2 d'd' \
+:|2 df ec (3dfd (3FAd |] y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4
+S:https://www.folktunefinder.com/tunes/16786
+S:http://trillian.mit.edu/~jc/music/abc/reel/BelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LaBelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LaBelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/BelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/LaBelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/BelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/LaBelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BelleEpoque_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LaBelleEpoque_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Gottlands polska
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: AABABA
+K: Gm
+g2 "A"\
+| "Gm"g2^fg d4 b3a | "D7"a2g2 g^faf d4 | "Bb"=f3e d2d2 "Eb"e2g2 | "F7"d2f2 fecd "Bb"B4 |
+| "Bb"fgfe dfbf edcB | "F"cdcB Aedc "D7"BAG^F | "Gm"G^FGA BABc d3c | "D7"BAG^F A4 "fine"G2 :|
+B2 "B"\
+| "Bb"BcBA Bdfb bfdB | "(Gm)"BAGA BAdc BAGA | "Bb"BcBA Bdfb bfdB | "Gm"BAGA BAdc BAG^F |
+| "Gm"GBAB GBAB GBAB | B2AG "D7"G^FAF D3^f | "Gm"g2g^f g2gf g2ga | b2bg "D7"a2a^f "Gm"g3g "d.C."y|]
+S:https://www.folktunefinder.com/tunes/16335
+S:http://trillian.mit.edu/~jc/music/abc/pols/GottlandsPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/GottlandsPolska_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

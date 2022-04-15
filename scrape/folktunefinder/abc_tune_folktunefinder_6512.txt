@@ -1,0 +1,24 @@
+X: 4
+T: Nitzanim [Bm]
+T: Nitzanim Niru Baaretz
+N: Title translates as "Flower buds appear in the land"
+O: Israel
+M: 2/4
+L: 1/8
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+K: Bm
+|: "Bm"Bf fa | "Em"gf/e/ "Bm"fd | "Em"e2 e2 \
+| "G"Be "A"ef | "Bm"d/c/d- de- |[M:3/4] "A"ec "Bm"B2- B2 :|
+M: 2/4
+|: "Bm"fb b2 | fb b2 | "D"a^g/a/ "E"bg | "F#m"f2 f2 \
+| "Bm"Bf fa | "Em"gf/e/ "Bm"f2 | "Bm"d/c/d- "(G)"dd | "A"ed/c/ "Bm"B2 :|
+%%sep 1 1 400
+S:https://www.folktunefinder.com/tunes/6512
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Nitzanim.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

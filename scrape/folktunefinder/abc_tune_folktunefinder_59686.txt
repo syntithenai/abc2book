@@ -1,0 +1,39 @@
+X:799
+T:Xiraldilla (CT 191)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en La Vega, ayuntamiento de Riosa.
+A:Asturies
+O:La Vega (Riosa)
+Z:Cancioneru de Torner 191
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+G|c2 c|cdc|BBG|
+c2 c|cdc|B2 A|
+B2 B|BcB|AAG|
+A2 A|AGF|G2 :||
+W:La nia se est peinando
+W:a la entrada de Madrid;
+W:los peines eran de oro,
+W:las peinetas de marfil.
+W:
+W:Los peines eran de oro,
+W:las peinetas de marfil.
+W:Ai! morena de mi vida,
+W:vivir no puedo sin t.
+W:
+S:https://www.folktunefinder.com/tunes/59686
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

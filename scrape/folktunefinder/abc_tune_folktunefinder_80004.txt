@@ -1,0 +1,24 @@
+X:5
+T: Es fuhr sich ein Pfalzgraf
+N: L0039
+O: Europa, Mitteleuropa, Deutschland
+N: Aus Zuccalmaglios Nachlass
+R: Lied
+M: 2/4
+L: 1/8
+K: D
+E | A2AB | =c2BA | B=cBA | G3
+A | A2E=F | G2G=F | E2=FE | D2z
+S:https://www.folktunefinder.com/tunes/80004
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

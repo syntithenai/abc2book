@@ -1,0 +1,22 @@
+X:8
+T:Cold Frosty Morning #2
+Z:Tom Novelli - the way I play it (more or less)
+M:4/4
+L:1/8
+K:Ador
+"Am" A,CEG A2 AB | cBcd "C" e4 | "G" ~B2 BA G2 D2 | GABc "Em" d4 | 
+"Am" A,CEG A2 AB | cBcd "C" e2 AB | "Am" cBAc "G" BAG2 | "Am" A3B A4 :| 
+"A" ea2e a4 | abag e2 ed | e2 f2 "C" g2 gf | "G" edcd "E" e4 |
+"Am" A2AA "C" c2cc | "D" dcd2 "E" e2 AB | "Am" cBAc "G" BAG2 | "Am" A3B A4 :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58819
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

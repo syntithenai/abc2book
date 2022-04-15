@@ -1,0 +1,29 @@
+X:1
+T:Circassian Circle
+M:4/4
+L:1/8
+R:reel
+B:Howe (1000 Jigs and Reels), c. 1867 p.71. 
+B:Jarman, 1944 p.32 (appears as "The Circassion Circle"). 
+B:Kennedy (Fiddlers Tune Book), 1951, V.1 #1, p.1. 
+B:Kerr (Merry Melodies), V.1 #1, p.26. 
+B:Martin (Traditional Scottish Music), 2002 p.37. 
+B:Raven (English Country Dance Tunes), 1984 p.165. 
+B:Sweet (Fifers Delight), 1964 p.57
+Z:John Chambers <jc@trillian.mit.edu>
+K:G
+BA \
+| "G"GDBA G2B2 | GDBA G2B2 | "D7"ADcB A2c2 | ADcB A2c2 | "G"GDBA G2B2 |
+| GDBA G2B2 | "D7"ABcA FDEF | "G"G2B2 G2 :: dc | "G"BGdc B2d2 | BGBd gdBG |
+| "D7"ADcB A2c2 | ABAG FAd2 | "G"BGdc B2d2 | BGBd gdBG | "D7"FGAG FDEF | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/16934
+S:http://trillian.mit.edu/~jc/music/abc/reel/CircassianCircle_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/CircassianCircle_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

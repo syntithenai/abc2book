@@ -1,0 +1,24 @@
+X: 2
+T: Tarantella di Peppina
+O: Trad Italy
+R: tarantella
+%%scale 0.65
+%%vocalfont Helvetica-14 bold
+M: 6/8
+L: 1/8
+K: E
+"Intro"\
+| "E"[B3G3] "A"[c3A3] | "E"[B6G6] \
+| "B7"[dB3]dd [dA3]dd |1 "E"e6G6 \
+:|2 "E"[e3G3] \
+"Chorus"\
+[|] "B7"BBB \
+S:https://www.folktunefinder.com/tunes/6599
+S:http://trillian.mit.edu/~jc/music/abc/Italy/TarantellaDiPeppina.abc
+% Rhythm Tarantella
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

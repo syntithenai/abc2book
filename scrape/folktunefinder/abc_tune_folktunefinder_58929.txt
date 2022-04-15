@@ -1,0 +1,42 @@
+X:42
+T:Alborada del Paxarn (MG 44)
+R:Alborada
+C:Versin gaiteru Veria
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 44
+L:1/8
+Q:1/4=200
+E:Nivel 4
+K:C
+G4 E4 C4 {GCB,}D4 {B,}C4 D4{GEE}C E4{GEF}C F4{AFAF}E/F/ ~A4 G/F/
+~G4 F/E/ F4 E/D/ E4 D/B,/ D4 E/D/ C4 G/4C/4B,/4C/4D/4E/4G/4c/4
+e4 f4 e4 ~d4 c4 BABcB~AGc G2 ABcB~AG F2 ABcB~AG E2 ABcB~AG D2
+EFAE{G}E C4 DEFEDC B,4 DE D4 {B,}C4|           
+[M:2/4]!
+|B,CB,C|D2 {G}DE|DEDE|~D2 DE|DEDE|D2 D2|
+|B,DB,D|E2 EF|E2 EF|EFEF|E2 EF|EFEF|~E4|
+|B,CB,C|D2 DE|DEDE|D2 DE|DEDE|~D4|
+|B,DB,D|~E3 C|ECDE|F2 {G}FD|FDEF|G2 {A}GF|GFGA|B3 G|~AGAB|c3 B|~AGAB|c3 e|c3 e|
+|: cece|c3 d|BdBd|[1 c3 e :|:[2 c3 d||~e3 d|c3 d|~ed~ed:|
+|c3 B|~AGAB|c3 B|~AGAB|cB~AG|~AGAB|cB~AG|~AGAB|cB~AG|cB~AG|
+|F3 A|F3 A|.FA.FA|F3 A|.FA.FA|F3 _B|
+|F_BFB|.F.F.FG|FGFG|.F.F.F_B|F_BFB|.F.F.F_B|F_BFB|.F.F.F_B|F_BFB|.F.F.FG|
+|FGFG|.E.E.EG|EGEG|.D.D.DA|DADA|.F.F.FA|FAFA|.E.E.EG|EGEG|.D.D.DG|DGDG|
+|D2 CD|EDED|~D2 CD|.EC ~D2|
+|D2 CD|EDED|~D2 B,C|B,CD~E|C4|
+G/4C/4B,/4C/4D/4E/4G/4 c2 e4 f4 e/d/ c4 e4 d/c/ B4 c4 B/A/ G4 B4 
+~A/G/ F4 A4 G/F/ E4 F4 E/D/ C4 E4 ~D/C/ B,4 D2 E2 {B,}C4 G4 c/4
+S:https://www.folktunefinder.com/tunes/58929
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

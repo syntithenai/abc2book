@@ -1,0 +1,29 @@
+X:168
+T:The Swedish Jig
+T:Arthur Darley's
+M:6/8
+L:1/8
+R:jig
+C:Arthur Darley
+O:Ireland
+K:D
+|:dcB|~A3 AGF|[M:9/8] EDC D3 d2e|[M:6/8]fgf edc|d3 d2e|
+fgf edc|dAA BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d2d:|
+K:Dm
+|:dcB|A2f fef|A2f fef|Aff Agg|Aaa Abb|
+A2f fef|A2f f2g|fed ed^c|d3:|
+K:D
+|:a2g|fgf edc|dAA BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d2d:|
+S:https://www.folktunefinder.com/tunes/63715
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

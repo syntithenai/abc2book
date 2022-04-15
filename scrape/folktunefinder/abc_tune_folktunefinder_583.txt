@@ -1,0 +1,60 @@
+X:125
+T:Fatorgo
+T:(Mazurka de concert)
+O:France
+A:Provence
+C:J. Ginas (1927)
+C:A moun ami Bernat (mestre d'obre)
+C:
+R:Mazurka
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 1
+M:3/4
+L:1/8
+K:Bb
+V:1
+%%MIDI program 74
+P:Introducioun poco lento
+d | (edcBAG) | d3z (fe | dcBABc) | (A3A ce | e3) (G AB | d4) z(e | dcBA G2) | G4 z(G | BdgfBc | d3)z z(B |
+AedGBA) | c4 z(c | cdeBcd) | d4 (GA | B2) A3G | G4 Hz2 |: [P:Mazurka] g>(d e>)(B c)>d | G4 z>G | (A>B) (c>d (e>)d) | d6 |
+(d>c) (c>B) (B>A) | A4z>e | (d>c) (B>A) (d>^F) | G4z>G | g2(f>ed2) | d4z>G | g2(f>ed2) | d4z>G | (B>A) (G>A) (B>G) | d6 | d2(d>e)d2 |
+c6 | c2(c>d)c2 | B6 | B2(B>c)B2 | A6 |1 A2(B>A)G2 | G6 :|2 A2d>^fg2 | g6 |: [K:F] (defedc | BA)c2c2 | 
+(GABcde | de)c4 | (agfedc | ed) A2A2 | (ABcdef | ag) f2f2 :| [K:Bb] g>d e>B c>d | G4 z>G | A>B c>d e>c |
+d6 | d>c c>B B>A | A4 z>e | d>c B>A d>^F | G4 z>G | g2f>ed2 | d4 z>G | g2f>ed2 | d4z>G | B>A G>A B>G | d6 |
+d2d>ed2 | c6 | c2c>dc2 | B6 | B2B>cB2 | A6 | A2B>AG2 | G6 |: (de)(dg)(de) | (cd)e2d2 | (gf)(ed)(cd) | (ec)d4 |
+(dc) (BA) (GB) | (ec)d2d2 | (d=e) (^fg) (ab) | (ad)g2g2 :| g>d e>B c>d | G2-G2z>G | A>B c>d e>c | d6 | d>c c>B B>A |
+A4z>e | d>c B>A d>^F | G6 |: [P:bn canta] [K:F] f2e2d2 | c6 | A2d2A2 | B2B4 | B2c2d2 | e6 | d2e2d2 | c2d4 | c2a2g2 | f6 |
+e2d2^c2 | d2d4 | G2A2B2 | e6 |1 c2d2e2 | f6 :|2 b2a2g2 | f6 || [K:Bb] g>d e>B c>d | G4 z>G | A>B c>d e>c | d6 |
+d>c c>B B>A | A4 z>e | d>c B>A d>^F | G4 z>G | g2f>ed2 | d4 z>G | g2f>e d2 | d4 z>G | B>A G>A B>G | d6 |
+d2d>ed2 | c6 | c2c>dc2 | B6 | B2B>c B2 | A6 | A2d>^f g2 | g6 || [P:Coda] (GBecd2) | g6 | (GBecd2) | a6 | 
+(gfedc2) | e6 | (dcBAG2) | G6 | (ABcde^f) | g6 | "presto" d2c2e2 | d4d2 | [G6g6] |]
+V:2 clef=perc stafflines=0 staffscale=0.6
+%%MIDI program 116
+B | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | 
+B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2B2B2 |: B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 :| B2B2B2 |  B2B2B2 |: B6 | B2B2B2 |  
+B6 | B2B2B2 | B6 | B2B2B2 | B6 | B2B2B2 :| B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 |: 
+B2BBBB | B2BBBB | B2BBBB | B2BBBB | B2BBBB | B2BBBB | B2BBBB | B2BBBB :| 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 |
+B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB | B2z2zB ||
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 ||
+BBBBBB | B2B2B2 | BBBBBB | B2B2B2 | BBBBBB | B2B2B2 | BBBBBB | B2B2B2 | BBBBBB | B2B2B2 |  
+B2B2B2 | B4B2 | B6 |]
+%%footer $D   Galouvielle-MBe 2008 \nMazurka (France)
+S:https://www.folktunefinder.com/tunes/583
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Mazurka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

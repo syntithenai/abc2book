@@ -1,0 +1,25 @@
+X: 31
+T:King's Polka. HS.31
+M:2/4
+L:1/8
+Q:160
+S:Henry Stables MS,Cumbria,late19thC
+R:Polka
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+A(d/e/)f2|ggf2|fe (e/d/)e|ed (d/c/)d|!
+A(d/e/)f2|ggf2|fe e/d/e|edd2::!
+aA (A/^G/)A|BA (A/^G/)A|fe (e/^d/)e|ed d/c/d|!
+aA (A/^G/)A|BA A/^G/A|fe e/^d/e|edd2:||
+S:https://www.folktunefinder.com/tunes/52734
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

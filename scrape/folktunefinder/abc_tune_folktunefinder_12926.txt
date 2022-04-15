@@ -1,0 +1,23 @@
+X: 4
+T: the Birken Tree
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: EDor
+B \
+| "Em"Be ed | "D"f>e dc | "G"Bc "D"de | "A"cA2 B \
+| "Em"Be ed | "D"f>e dc | "G"dB "D"AF | "G"d2 "A"c :|
+|: d/c/ \
+| "Em"BE EF | "(G)"B>c dB | "D"AG FG | A2 dc/d/ \
+| "Em"BE EF | "(G)"B>c de | "D"dB AF | "Em"E2- E :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12926
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

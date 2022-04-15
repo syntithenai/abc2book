@@ -1,0 +1,24 @@
+X: 1
+T: My Mother's Coming In
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: f \
+| "D"d2 AB/c/ dAFD | "Em"GEed "A"cAA=c | "G"B2GB "D"AdFA | "Em"GE"A7"AG "D"FDD :|
+g \
+| "D"f2df "A"eace | "Bm"dBed "A"cAA=c | "G"B2GB "D"AdFA | "Em"GB"A7"AG "D"FDD ||
+g \
+| "D"fefd "A"eace | "Bm"dBed "A"cAA=c | "G"BABG "D"FGA=c | "G"BG"A7"ge "D"fdd |]
+S:https://www.folktunefinder.com/tunes/17754
+S:http://trillian.mit.edu/~jc/music/abc/reel/MyMothersComingIn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MyMothersComingIn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MyMothersComingIn.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

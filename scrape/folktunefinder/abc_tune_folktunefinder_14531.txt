@@ -1,0 +1,22 @@
+X: 1
+T: Let the Hackles Rise
+C: Andrew Rankine
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"CEE EAA | "A"Acc c3 | "E7"Bdd GBB | "A"Acc EAA \
+|  "A"CEE EAA | "A"Acc "F#m"c3 | "Bm"Bdd "E7"GBB | "A"BAA A3 :|
+|: "A" cee Acc | "E7"edd d3 | "E7"Bdd dff | "A"fee e3 \
+|  "A" cee Acc | "E7"edd d3 | "E7"Bdd GBB | "A"BAA A3 :|
+S:https://www.folktunefinder.com/tunes/14531
+S:http://trillian.mit.edu/~jc/music/abc/jig/LetTheHacklesRise_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LetTheHacklesRise_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:4
+T:Steyrer Tanz in Dis (eigentlich Es), nr.6
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820, s.41 nr.6
+N:im der quelle in Es (bezeichnet "Dis"), erster ton 1. stimme: b erster ton 2. stimme: g'
+N:um1800
+M:3/4
+L:1/8
+K:Eb
+V:1
+"h:Ap:"\
+(B,B) |\
+"'"A"'"B,"'"F"'"B,"'"A"'"B, | GB,EB,GB, | FB,DB,FB, | EB,GB,BB, |\
+"'"A"'"B,"'"F"'"B,"'"A"'"B, | GB,EB,GB, | FB,DB,FB, | E4 :| "in B"y |]
+V:2
+GB |\
+"'"d"'"F"'"B"'"d"'"F"'"d | "'"e"'"B"'"G"'"B"'"E"'"G | AB,FAB,A | GBeBGB |\
+"'"d"'"F"'"B"'"d"'"F"'"d | "'"e"'"B"'"G"'"B"'"E"'"G | AB,FAB,A | G4 :| "in B"y |]
+S:https://www.folktunefinder.com/tunes/45438
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

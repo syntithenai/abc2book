@@ -1,0 +1,19 @@
+X: 1
+T: Shmelke's Nigun
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+O: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"AA/A/ AA | "Dm"dd "Am"A2 | "Dm"dd "Am"AB | "E7"cB "Am"A2 \
+| AA/A/ AA | "Dm"dd "Am"A2 |1 "Dm"dc BA | "Am"c2 z2 :|2 "Dm"dc "E7"Bc | "Am"AA Bc ||
+|: "Dm"Md2 Md2 | zf ed | fe df- | fe d2 \
+| "C"Mc2 Mc2 | ze dc |1 ed ce- | ed c2 :|2 ed cd- | "Dm"d4 |]
+S:https://www.folktunefinder.com/tunes/7330
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShmelkesNigun_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

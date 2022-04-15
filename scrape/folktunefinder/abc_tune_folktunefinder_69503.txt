@@ -1,0 +1,30 @@
+X:644
+T: "Hochzeitslied"
+N: Z1325
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Zech -, Schalks -, Hochzeits - Lied; Staende -, Bauern - Lied, Jodler
+M: 3/4
+L: 1/8
+K: G
+BG | FAADFA | cBBD
+GB | dccDFA | G2z2
+BG | FAADFA | cBBD
+GB | dccDFA | G2z2
+FA | eddDFA | cBBD
+GB | dccDFA | B2z2
+FA | eddDFA | cBBD
+GB | dccDFA | G2z2
+BAG | FAA3c | edB3
+G | dcA3F | cBG2
+BAG | FAA3c | edB3
+G | dcAcFA | G2z2
+S:https://www.folktunefinder.com/tunes/69503
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks -, hochzeits - lied; staende -, bauern - lied, jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

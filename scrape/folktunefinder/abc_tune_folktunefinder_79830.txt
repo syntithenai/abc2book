@@ -1,0 +1,28 @@
+X:6
+T:Battle of Kinloch Lochy
+T:Blar Leine
+R:Slow Air
+S:Simon Fraser Collection
+N:No.8
+O:Scottish
+M:3/4
+L:1/8
+Q:1/4=100
+K:C Minor
+G>^F|G2 B2 c>=B|c2 d2 e>c|d2 g2 fg|c2 BG e>c|d2 g2 b>d|c2 BG e>g|
+d2 c2 d/c/=B/c/|G4:|
+|:E/F/G/B/|e4 f/e/d/c/|d2 c2 (3cdf|g4 g/f/e/d/|e2 G2 f/e/d/c/|d2 g2 b>d|
+c2 BG e>g|d2 c2 d/c/=B/c/|G4:|
+S:https://www.folktunefinder.com/tunes/79830
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

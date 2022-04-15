@@ -1,0 +1,25 @@
+X:204
+T: Osterlied
+N: A0556
+O: Europa, Mitteleuropa, Deutschland
+N: N Herman Die Sontags - Evangelia uber das gantze Jahr... 1560
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: F
+f | f2f | e2e | f2d | c2
+c | def | e2d | c2B | A2
+A | A2A | c2c | BAG | F2
+c | c2c | c2c | BAG | F2
+S:https://www.folktunefinder.com/tunes/80263
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

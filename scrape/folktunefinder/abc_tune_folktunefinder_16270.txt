@@ -1,0 +1,32 @@
+X: 1
+T: Bondpolska fr\aan \"Overh\"arde
+O: Bengt Jonsson
+R: bond-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+|: "C"G>E C>E G>c \
+| "G7"cB B3 B \
+| "F"B>A FA c>A \
+| "C"AG G4 \
+| "C"G>E CE G>c \
+| "Dm"c/B/c/e/ d3 e \
+| "G7"f>d Bg d>B \
+| "C"c2 c4 :|
+|: "C"g>e c>g e>c \
+| g>e ca g>e \
+|1-3 "G7"f>d B>g d>c \
+| B>d f>a (3gfd \
+:|2-4 "G7"f>d Bg d>B \
+| "C"c2 c4 :|
+S:https://www.folktunefinder.com/tunes/16270
+S:http://trillian.mit.edu/~jc/music/abc/pols/BP_Overharde1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BP_Overharde1.abc
+% Rhythm Bond-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

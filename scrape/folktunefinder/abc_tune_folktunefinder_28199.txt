@@ -1,0 +1,25 @@
+X:7747
+T:Uncle Bernard's
+O:england
+M:2/4
+L:1/8
+K:G
+P:AABB
+P:A
+"G"GA "D7"Bc|"G"d>e d/c/B|"D7"c>d c/B/A|"G"B>c BA|
+"G"GA "D7"Bc|"G"d>e dg|"D7"f/e/d/c/ BA|"G"G2>:|
+P:B
+|:f2|"C"gg fe|"G"d>e d/c/B|"D7"c>d c/B/A|"G"B>c Bd|
+"C"gg fe|"G"d>e dg|"D7"f/e/d/c/ BA|"G"G3:|
+S:https://www.folktunefinder.com/tunes/28199
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

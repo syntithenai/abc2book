@@ -1,0 +1,35 @@
+X:375
+T:Lexie McAskill
+% Nottingham Music Database
+S:John McAskill, via EF
+M:4/4
+L:1/4
+K:Am
+P:A
+a|:"Am"ee d/2e/2e/2d/2|"Am"ed/2B/2 "G"G/2B/2B/2d/2|"Am"ee d/2e/2e/2d/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2a/2|
+"Am"ee d/2e/2e/2d/2|"Am"ed/2B/2 "G"G/2B/2B/2d/2|"Am"ee d/2e/2e/2d/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2f/2:|
+"Am"gf ed/2B/2|"Am"AB/2A/2 "G"G/2B/2B/2e/2|"Am"gf ed/2B/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2f/2|
+"Am"gf ed/2B/2|"Am"AB/2A/2 "G"G/2B/2B/2e/2|"Am"gf ed/2B/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2a/2:|
+"Am"ee ed/2B/2|"Am"A/2A/2A/2B/2 "G"G/2A/2B/2d/2|"Am"ee ed/2B/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2a/2|
+"Am"ee ed/2B/2|"Am"A/2A/2A/2B/2 "G"G/2A/2B/2d/2|"Am"ee ed/2B/2|\
+"Em"e/2g/2f/2d/2 "Am"ee/2a/2:|
+"Am"a/2e/2e/2a/2 e/2e/2d/2B/2|"Am"AB/2A/2 "G"G/2B/2B/2e/2|\
+"Am"a/2e/2e/2a/2 ed/2B/2|"Em"e/2g/2f/2d/2 "Am"eg|
+"Am"a/2e/2e/2a/2 e/2e/2d/2B/2|"Am"AB/2A/2 "G"G/2B/2B/2e/2|\
+"Am"a/2e/2e/2a/2 ed/2B/2|"Em"e/2g/2f/2d/2 "Am"ee:|
+S:https://www.folktunefinder.com/tunes/44162
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsH-L.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsH-L.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

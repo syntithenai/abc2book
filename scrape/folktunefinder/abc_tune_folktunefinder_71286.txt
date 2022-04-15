@@ -1,0 +1,26 @@
+X:257
+%%topmargin 3cm
+T:Cutty Sark
+C:John Cumming
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D mixolydian
+D | G2 {/c}BA G2 DB | G2 BG (dG)Bg | G2 {/c}BA G2 AB | cABG ADFA | G2 {/c}BA G2 DF |
+GABc dGBg | bagf g2 Bd | (cA)BG ADFA || d<B Tg2 d<B Tg2 | g2 Bc (dB)dTg | GABc dB g2 |
+(ed)cB ADFA | d<B Tg2 d<B Tg2 | g2 Bc (dB)dg | bagf egdb | cadg ADFA |]
+S:https://www.folktunefinder.com/tunes/71286
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Cutty_Sark.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0257.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

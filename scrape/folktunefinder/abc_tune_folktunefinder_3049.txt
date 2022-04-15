@@ -1,0 +1,23 @@
+X: 10
+T: Branle du Rat
+O:France
+M:2/4
+L:1/8
+R:Branle
+K:G
+[| BB BA/B/ | cB A2 | AA AG/A/ | BA BG \
+| BB BA/B/ | cB A2 | d>e dc | BA G2 |]
+M:6/8
+[| B2G B2G | DEF E2D | B2G B2G | DEF G3 \
+| B2G B2G | DEF E2D | B2G B2G | DEF G3 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3049
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/branle.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:215
+T:the Atholl Highlanders
+M:6/8
+O:Scotland
+R:Pipe march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000839.html
+%%ID:00000839
+K:A mixolydian
+|: e3 ecA | ecA Bcd | e3 ecA | Bcd cBA |\
+e3 ecA | ecA Bcd | eae fed | cdB A2A :|
+|: Ace Ace | Adf Adf | Ace Ace | Bcd cBA |\
+Ace Ace | Adf Adf | eae fed | cdB A2A :|
+|:a2e edc | a2e edc | a2e edc | Bcd cBA |\
+a2e edc | a2e edc | eae fed | cdB A2A :|
+cAc cAc | dBd dBd | cAc cAc | BGB BGB |\
+cAc cAc | dBd dBd | eae fed | cdB A3 :|
+S:https://www.folktunefinder.com/tunes/36122
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

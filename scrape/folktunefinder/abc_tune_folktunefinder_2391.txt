@@ -1,0 +1,23 @@
+X: 1
+T: TEST: Three different endings.
+K: C
+|: CD EF |1 GA B2 :|2 G2AB :|3 GA Bc |]
+S:https://www.folktunefinder.com/tunes/2391
+S:http://trillian.mit.edu/~jc/music/abc/test/End_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/Endings3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/End_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Endings3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/End_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Endings3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/End_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Endings3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

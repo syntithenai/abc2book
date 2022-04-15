@@ -1,0 +1,20 @@
+X:33
+T:Ferlandus
+T:La Ferlande
+B:De Gruytter nr. 146
+Z:Bert Van Vreckem, 2004-04-03 <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+K:C
+g|:"C"c2c cde|"G"d2G G2g|"C"c2c cde|"G"d2G G2G|"F"ABc "G7"cdB|"C"c2c c2G|"F"ABc "G7"cdB|"C"c2c finec2g:|
+e2a g2f|ede c2g|e2a g2f|ede ccB|"F"A2"C"G GcB|"F"A2"C"G GcB|"F"A2G "G7"A2B|"C"c2G G2g|
+g3-g2g|"G7"g3-g2g|"C"gfg "F"agf|"G7"g2g g2G|"C"GAB "F"cBA|"G7"d2d d2G|"C"GAB "F"cBA|"G7"d2d d2g|
+"G7"gfe dcB|"C"c2c c2g|"G7"gfe dcB|"C"c2c c2G|cBc "G7"dcd|"C"e2c c2G|cBc "G7"dcd|"C"e2c cgf|
+"C"e2d "G7"dgf|"C"e2d "G7"dgf|"C"e2d "F"e2f|"G7"g2d d2d|"G"d3-d2d|"D7"d3-d2d|"G"dcd "C"edc|"D7"d2d dD.C.|]
+S:https://www.folktunefinder.com/tunes/75729
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

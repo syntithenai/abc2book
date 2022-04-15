@@ -1,0 +1,35 @@
+X: 4
+P: Polska efter P\aal-Karl
+O: \"Alvdalen
+R: \"Alvdalspolska
+Z: 2000 Brian Wilson 
+M: 3/4
+L: 1/8
+K: Am
+|: A^c d>e ^fg \
+| ab ag e>^f \
+| (3:2:4g2 ~g2 eg ^f(e/d/) \
+| (^f{gf}e)  (e<^c) A2- \
+| A^c d>e ^fg |
+| ab ag e>^f \
+| (3:2:4g2 ~g2 eg ^fe/d/ \
+| (^fe) (e^c) A>B \
+| (3:2:4=c2 c2 Ac BA \
+| (GB) A4 :|
+|: (3Acd e2 e>B \
+| (3:2:4cd e2 d2 e>B \
+| cd e2 e>B \
+| (3:2:4cd e2 d2 e>B \
+| (3:2:2c2 c2 Ac B>A \
+| (GB) A4 :|
+S:https://www.folktunefinder.com/tunes/8961
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Alvdalen2.abc
+% Rhythm A?lvdalspolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

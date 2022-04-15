@@ -1,0 +1,24 @@
+X:326
+T: "Der Ritt zum Kloster"
+N: Z1006
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Tod, Sage (Nonnen - Werber)
+M: 2/4
+L: 1/16
+K: E
+EG | B3cB2A2 | G4F4
+F2G2^A2A2 | B6
+B2 | e2e2d2c2 | B4A4
+G4F4 | c4B2
+BA | G2G2F2F2 | E4z2
+S:https://www.folktunefinder.com/tunes/69185
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, sage (nonnen - werber)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:10
+T:East Tennesee Blues
+S:Jim Coon to CoMandoList TOW 1999
+C:Old Time
+M:4/4
+L:1/8
+Q:2/4=110
+K:C
+ef|:"C"gage gage|gage afed|"F"cdcA cdcA|cdcA dcA^F|!
+"C"G^FGA cBcd|e^deg a2g2|1 d"D7"^cdb bga2|\
+"G"g3a g2ef:|2 d"G"^cdg edAB|"C"[c6E6]ef|!
+|:"C"[g2c2]cg zagf|[e2c2]ce zfed|"F"[c2F2]Fc zdcB|[A2F2]FA zBcA|!
+"C"G^FGA cBcd|1 e"C"^deg gag2|"D7"d^cde bdad|\
+"G"[g6B6]ef:|2 e"G"^deg aega|(3gag ed cAGF|"C"[c8E8]||!
+S:https://www.folktunefinder.com/tunes/51673
+S:http://www.mandozine.com/music/TOW.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

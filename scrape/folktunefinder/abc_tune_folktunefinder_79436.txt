@@ -1,0 +1,34 @@
+X:332
+T: AUF DER ALMA DORT FINDEN DIE KUEH
+N: E1484
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+R: Staende -, Hirten -, Alpen - Lied
+M: 3/4
+L: 1/16
+K: C
+G,3F, | E,2G,2E6D2 | C2E,2G,6
+C2 | B,2D,2F,2G,2B,2D2 | C2E,2G,6
+F,2 | E,2G,2E6D2 | C2E,2G,6
+C2 | B,2D,2F,2G,2B,2D2 | C4z6
+E2 | D2C2A,6^F,2 | G,2B,2D6
+D2 | E2D2C2D,2^F,2A,2 | G,2B,2G6
+E2 | D2C2A,6^F,2 | G,2B,2D6
+D2 | E2D2C2D,2^F,2A,2 | G,4z4
+G,2F,2 | E,2G,2E6D2 | C2E,2G,6
+C2 | B,2D,2F,2G,2B,2D2 | C2E,2G,6
+F,2 | E,2G,2E6D2 | C2E,2G,6
+G2 | A2G2F2B,2B,2D2 | C4z4
+G4 | G2F2F2G,2D4 | F2E2C2E,2G,4
+G,4D2G,2D4 | G,4E2G,2C4
+A2G2F2G,2D4 | G,2E2C2E,2G,4
+G,4F2B,2D2G,2 | C8
+S:https://www.folktunefinder.com/tunes/79436
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, hirten -, alpen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

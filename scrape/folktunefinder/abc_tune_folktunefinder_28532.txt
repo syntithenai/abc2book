@@ -1,0 +1,24 @@
+X:8080
+T:White Rose Waltz
+O:england
+M:3/4
+K:D
+FE|"D"D2F3D|"A7"E2G3E|"D"F2A3F|"G"G2B3B|
+"D"A2d3d|d2e2f2|"A7"e4-ef|e4FE|
+"D"D2F3D|"A7"E2G3E|"D"F2A3F|"G"G2B3B|
+"D"A2d3d|"A7"c2f2e2|"D"d4-de|d6||
+"Bb"d6|"F"=c3d=c2|"Bb"_B3=c_BG|=F6|
+"Bb"d6|"F"=c3d=c2|"Bb"_B3=c_B2|"A7"A4FE|
+"D"D2F3D|"A7"E2G3E|"D"F2A3F|"G"G2B3B|
+"D"A2d3d|"A7"c2f2e2|"D"d4-de|d4||
+S:https://www.folktunefinder.com/tunes/28532
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

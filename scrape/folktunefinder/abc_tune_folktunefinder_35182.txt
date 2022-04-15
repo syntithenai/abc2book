@@ -1,0 +1,21 @@
+X: 7965
+T:Tune fr Guadeloupe \#I
+R:Reel
+O:Guadeloupe
+M:4/4
+K:G
+DB,DG BAGF| E2Cc- cBAG| FGAB cABc| e2Bd- d4|\
+DB,DG BAGF| E2Cc- cBAG| FGAB cAFA|1 G4-G4 :|2 G4- GE|:\
+eB-BB- BEGB| eB-BB- B2B2| BcBA GAGF| EG-GB- BEGB|\
+eB-BB- B2B2| eB-BB-B2B2| BcBA GAGF|1 E4-EEGB :|2 E2-ED-D4|]
+S:https://www.folktunefinder.com/tunes/35182
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

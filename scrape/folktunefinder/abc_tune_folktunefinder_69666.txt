@@ -1,0 +1,24 @@
+X:106
+T: ALS WIR JUENGST IN REGENSBURG WAREN
+N: F0221B
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Scherz - Lied, Liebe; Schiffer - Lied
+M: 2/4
+L: 1/8
+K: D
+ | A,3G, | F,A,DF, | A,2G,E, | F,2D,z
+A,3G, | F,A,DF, | A,2G,E, | F,2D,z
+D,2F,A, | D,2F,A, | C4 | A,2z2
+C2C2 | D2F,2 | A,4 | F,2z2
+D,2F,A, | D,2F,A, | B,G,DB, | A,2z2
+C2C2 | D2F,2 | A,2FE | D2z2
+S:https://www.folktunefinder.com/tunes/69666
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Scherz - lied, liebe; schiffer - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:292
+T: IM GRABE IST RUH
+N: B0770
+O: Europa, Mitteleuropa, Deutschland
+R: Trost - Lied, religioes
+M: 2/4
+L: 1/8
+K: G
+D | B2AA | G2z
+D | G2GG | B2Bd | d2c2 | B2z
+G | e2ee | dcB
+d | dcBA | B2z
+G | e2ee | dcB
+d | dcBA | G2z
+S:https://www.folktunefinder.com/tunes/62315
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Trost - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Fidget
+R: reel
+B: RSCDS 16-1(I) 1951
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A \
+| "D".d2.d2 (dcBA) | .d2.d2 (dcBA) | d2d2 a2f2 | "A7"edef e2A2 |
+| "D".d2.d2 (dcBA) | "G".g2.g2 (gfed) | "Em".B2.B2 "A7"(dcBc) | "D"(dcde d2) :|
+|: d \
+| "G"g2bg "D"f2af | "A7"edef "D"d3c | "Em".B2.B2 "(E7)"(e3d) | "A7"(cBcd e3)f |
+| "G"g2bg "D"f2af | "A7"edef "D"d3c | "Em".B2.e2 "A7"(dcBc) | "D"(dcde d2) :|
+S:https://www.folktunefinder.com/tunes/17150
+S:http://trillian.mit.edu/~jc/music/abc/reel/Fidget_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Fidget_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Fidget_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

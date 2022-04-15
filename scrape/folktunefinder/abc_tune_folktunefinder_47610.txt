@@ -1,0 +1,31 @@
+X: 73
+T:Dainel Cooper. JaW.073
+T:Daniel Cooper. JaW.073
+M:C|
+L:1/8
+Q:1/4=224
+C:"...For A Country Dance"
+S:James Winder Ms, Lancashire, 1835-41
+R:Country Dance
+O:England
+A:Wyresdale,Lancashire
+N:Spelt "Dainel" in MS, presumed error.
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+A2d2 d2B2|B2e2 e2B2|A2d2 d2B2|f4 "cr"d4:|!
+|:f3g a2(gf)|g3f e2(dc)|f3g a2(gf)|g4 e4|!
+f3g a2(gf)|g3f e2(dc)|A3e d2(cB)|f4 "cr"{e}d4:|]
+S:https://www.folktunefinder.com/tunes/47610
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Country dance
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

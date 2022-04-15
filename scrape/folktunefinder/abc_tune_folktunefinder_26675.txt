@@ -1,0 +1,31 @@
+X:6223
+T:Spot the Wallop
+O:england
+R:jig
+M:6/8
+L:1/8
+K:D
+~F3 DFA|BAF dAG|~F3 DFA|BAF EDE|
+~F3 DFA|BAF d2e|fed edB|BAF AFE:|
+|:Bcd eAA|fed eAA|Bcd eAA|BAF AFE|
+Bcd eAA|fed efg|age edB|BAF AFE:|
+|:DFA ~d3|edc ~d3|DFA d2A|BAF AFE|
+DFA ~d3|edc d2e|fed edB|BAF AFE:|
+|:~F3 DFA|BAF d2A|~F3 DFA|B2F AFE|
+~F3 DFA|BAF d2e|fdd edB|BAF AFE:|
+|:Bcd eAA|fAA eAA|Bcd eAA|BAF AFE|
+Bcd eAA|fed efg|age edB|BAF AFE:|
+|:DFA dcd|edc dAF|DFA ded|BAF AFE|
+DFA dcd|edc d2e|fed edB|BAF AFE:|
+S:https://www.folktunefinder.com/tunes/26675
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

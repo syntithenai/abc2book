@@ -1,0 +1,28 @@
+X: 1
+T: the Perth Hunt
+C: Magdalina Stirling of Ardoch
+R: reel
+B: RSCDS 2-5
+N: Composed and published by Miss Magdalina Stirling of Ardoch about 1788.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"{B}A2FA DAFA | DAFA "Em"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 :|
+|| "D"{g}fdad "G"bd"D"ad | fdad "Em"ge"A7"eg | "D"fdad "G"bd"D"ad | "A7"ABde "D"fdd2 ||
+|| "D"(3{g}fed ad "G"bd"D"ad | (3fed ad "Em"be"A7"eg | "D"fadf "Em"gbeg | "A7"ABde "D"fdd2 |]
+S:https://www.folktunefinder.com/tunes/17856
+S:http://trillian.mit.edu/~jc/music/abc/reel/PerthHunt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/PerthHunt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PerthHunt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Magdalina_Stirling/PerthHunt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PerthHunt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/PerthHunt.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

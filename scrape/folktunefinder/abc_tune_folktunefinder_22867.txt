@@ -1,0 +1,32 @@
+X:2416
+T:Gnglt efter Svedin (Njurunda)
+O:england
+S:SvL Medelpad 216
+M:4/4
+L:1/8
+K:Dm
+(A|d3) (d e2) fg|{g}a4 "tr"f2 ed|e2 a2 (^ga)=bg|a2 z(a/e/) (d^c)=BA|\
+d3 d e2 fg|{g}a4 "tr"f2 ed|e2 a2 (^ga)=bg|{a^g}a6 z::\
+e|[A4f4] {g}f2 ed|{f}e4 e2 d^c|d2 e2 f2{ef}g2|a3 a (ab)ag|\
+[A4f4] {g}f2 ed|{d}e4 (gf)ef|d2 d2 (^cd)ec|d6 z:|\
+T:Andrastmma
+(D|F3)(F A^c) de|{e}f4 d2 ^c=B|A2^c2=B2dB|[^c4e4](DE)GE|\
+F3(F A^c) de|{e}f4 d2 ^c=B|A2^c2=B2dB|[^c6e6]z::\
+A|d4{e}d2^c=B|{=B}^c4{d}c2AE|F2A2d2e2|f3f (fg)fe|\
+d4{e}d2^c=B|{=B}^c2Ac (ed)cd|A2A2(EF)GE|[F6A6]z:|\
+T:Oktavstmma
+(A,|D3) (D E2) FG|{G}A4 "tr"F2 ED|E2 A2 (^GA)=BG|A2 z(A/E/) (D^C)=B,A,|\
+D3 D E2 FG|{G}A4 "tr"F2 ED|E2 A2 (^GA)=BG|A6 z::\
+E|[F4A4] {G}F2 ED|{F}E4 E2 D^C|D2 E2 F2{EF}G2|A3 A (AB)AG|\
+[F4A4] {G}F2 ED|{D}E4 (GF)EF|D2 D2 (^CD)EC|D6 z:|\
+S:https://www.folktunefinder.com/tunes/22867
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

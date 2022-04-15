@@ -1,0 +1,27 @@
+X:19
+T: Tanhaeuser
+N: A0021
+O: Europa, Mitteleuropa, Deutschland
+N: Die Melodie des alten, echten Volksliedes vom Tanhaeuser habe
+N: ich gluecklicherweise gefunden im 8. Quodlibet bei W. Schmeltzel
+N: 1544. Die vierte, fehlende Zeile habe ich musikalisch zu ergaen-
+N: zen versucht.
+R: Romanze, Ballade, Lied
+M: 4/1
+L: 1/2
+K: F
+F2F2F2 | G2A2B2B2 | A2G2z2
+G2 | c2c2B2F2 | G2A2B2z2
+G2B2A3G | c2B2A4 | z2
+G2A2B2 | c2F2G4 | F8 | z2
+S:https://www.folktunefinder.com/tunes/68565
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

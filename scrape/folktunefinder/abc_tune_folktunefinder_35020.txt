@@ -1,0 +1,20 @@
+X: 7803
+T:Sextur 3
+R:Sextur
+O:Denmark
+M:6/8
+K:G
+D | G2G GAB | cBc E2A | F2A DEF | G2B dcA :: \
+    d2d B2d | e2e c2B | A2A B2c | d2d B2A |\
+    G2G GAB | cBc E2G | F2A DEF | G3 G3 :|
+S:https://www.folktunefinder.com/tunes/35020
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Sextur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

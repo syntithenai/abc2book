@@ -1,0 +1,25 @@
+X: 1
+T: The Rothiemurcus Rant
+R: strathspey
+S: BSFC
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+   G2 | "C"E3D E3C     EG3 G4  |  "C"c3G A3G    c3G  Ac3  | "C"E3D  E3C     EG3 G3c | "F"Ac3 "C"G3c "G7"ED3 D2 :|
+|: f2 | "C"e4  d3c "G7"d3e d3B |  "C"c3d e3d    edcB c3G  | "F"AAA2 a3g  "C"e4  d3c | "F"Ac3 "C"Gc3 "G7"ED3 D2 :|
+|: f2 | "C"eg3 g3a     g3a g3d | "Am"ea3 a3b "F"a3b  a3g  | "C"eg3  d3e "Am"c3d e3c | "F"Aa3 "C"g3e "G7"ed3 d2 :|
+y  g2 | "Am"e4 d3c     de3 a4  | "Em"ge3 e3d "F"cA3  A3c  | "C"G2A2 c2d2    e4  dc3 | "F"Ac3 "C"Gc3 "G7"ED3 D2 ||
+y  f2 | "Am"e4 d3c     de3 a4  | "Em"ge3 e3d "F"cA3  A2eg | "F"a3e  g3d  "C"e4  dc3 | "F"Ac3 "C"Gc3 "G7"ED3 D2 |]
+S:https://www.folktunefinder.com/tunes/19640
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RothiemurcusRant_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RothiemurcusRant_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

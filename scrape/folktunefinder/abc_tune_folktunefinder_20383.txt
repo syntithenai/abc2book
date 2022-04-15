@@ -1,0 +1,37 @@
+X: 1
+T: Here We Come a Wassailing
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+| "D"D2E F2E \
+| D2E F2E \
+| D2A "A7"A2A \
+| "D"A3- A3 \
+| "G"B2B "D"A2F \
+| "A7"A3 G2F \
+|[M:C|] "Em"E2D2 E2F2 \
+| "A7"G4 F2G2 \
+| "D"A4 "G"d2B2 |
+| "D"A4 "A7"F2G2 \
+| "D"A2A2 "G"d2B2 \
+| "D"A4 "A7"F2G2 \
+| "D"A4 "B7"B2F2 \
+| "Em"G2E2 "A7"D2C2 \
+| "D"D3E F2D2 \
+| "Em"G4 "A7"F2G2 \
+| "D"A4 "B7"B2F2 \
+| "Em"G2E2 "A7"D2C2 \
+| "D"D4 z4 |]
+S:https://www.folktunefinder.com/tunes/20383
+S:http://trillian.mit.edu/~jc/music/abc/xmas/HereWeComeAWassailing_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/xmas/HereWeComeAWassailing_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

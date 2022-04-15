@@ -1,0 +1,31 @@
+X:7
+T:Tom Billy's No.2
+C:Traditional
+N:Play 3 times
+N:The Corofin Plain Set, Figure 4, Tune 2 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+L:1/8
+M:6/8
+K:Amix
+~a3 ece | edB BAA | eaa ABe | dcB Ace |
+~a3 ece | edB BAB | GBd gfe | fdB Ace :||
+~g3 ~a3 | bag fed | faf g2 e | fdB def |
+gfg aga | bge egb | [1 age dBe | ABA Ace :|| [2 age dBe | ABA A2 B ||
+cBc dcd | ~e3 dBA | ABA dBA | ABA aed |
+cBc dcd | ~e3 gab | age dBe | ABA A3 :||
+S:https://www.folktunefinder.com/tunes/66635
+S:http://theflow.org.uk/text/flow_corofin.txt
+S:http://www.theflow.org.uk/text/flow_corofin.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

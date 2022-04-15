@@ -1,0 +1,24 @@
+X: 16
+P: \"Algjakten (The Elk Hunt)
+C: Olle Wallman
+R: g\aangl\aat
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"F4 FEFG | A2AF "D7"E2D2 | "G"G4 GFGA | "Em"B6 d2 | "A7"c4 cBcd | e2ec B2A2 | "D"d4 dcde | fgfd "(A7)"A2G2 ||
+|| "D"F4 FEFG | A2AF "D7"E2D2 | "G"G4 GFGA | "Em"B6 d2 | "A7"c4 cBcd | e2ec B2A2 | "D"d3e "A7"dcde | "D"d6 z2 :|
+fg \
+|: "D"a4- a2ba | f2gf e2d2 | "G"b4 g2f2 | "Em"e4 B4 | "A7"c4 cdcB | "A7"A2^GA B2c2 | "D"d3e f2g2 | a6 fg ||
+|| "D"a4- a2ba | f2gf e2d2 | "G"b4 g2f2 | "Em"e4 B4 | "A7"c4 cdcB | "A7"A2^GA B2c2 | "D"d3e "A7"dcde | "D"d6 z2 :|
+S:https://www.folktunefinder.com/tunes/8499
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Snoa.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Flickorna de sm\aa uti dansen de g\aa
+O: Sweden
+M: C
+L: 1/8
+K: C
+[| "C"GG  GG  "F"A2 AA | "C"G2 EG C3 E \
+| "G7"E>D DF B,3 A | "C"A>G GE C2 zE | "C"G2 GE  "F"AA AE |
+|  "C"G2  EG C3 E | "Dm"E2 DD "G7"B2 AB \
+|  "C"c>c cc c2 zE |][| "C"GG/G/ GG "F"AA/A/ AA | "C"GE/E/ EG C3 E |
+| "G7"ED/D/ DF B,3 A | "C"AG/G/ GE C3 E \
+|  "C"G2  GE  "F"AA AE | "C"G2 EG C3 E \
+| "Dm"E2  DD "G7"B2 AB | "C"c>c cc c2 z2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/9446
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

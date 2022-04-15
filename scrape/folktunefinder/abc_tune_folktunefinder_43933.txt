@@ -1,0 +1,31 @@
+X:340
+T:the Rabbit Men
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:1991
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000075a.html
+%%ID:0000075a
+K:G
+(3def | g2d2 d>ed>c | B>cd>B G2B>G | \
+A>Bc>A F>GA>F | G>AB>G D2 (3def | \
+g2d2 d>ed>c | B>cd>B G2B>G | A>Bc>A  F>GA>F | G2B2G2 :: \
+AG | F>GA>B c>AF>A | G>AB>c d2d>B | c>de>f g>fg>e | \
+f>ga>f d2e>f | g2d2 d>ed>c | B>cd>B G2B>G | \
+A>Bc>A F>GA>F | G2B2G2 :|
+S:https://www.folktunefinder.com/tunes/43933
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

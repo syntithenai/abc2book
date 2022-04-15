@@ -1,0 +1,25 @@
+X:0274
+T:"Achil Air"     (air)      0274
+C:Unattributed
+C:slow
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+"_VB"(.A.d.d)|"^>"d3(ded)|"^>"c3.c(cB)|"^>"A3.G(AB)|"^>"c3(.A.d.d)|
+"^>"d3(ded)|"^>"c3.c(cB)|A3G (TRE3/2D/2)|D2-D||
+(.A.A.A)|"^>"A3(ABA)|"^>"d3(.A.A.A)|"^>"B3(.A.B.c)|"^>"d3(.d.d.d)|
+=f3"^dim".f(fe)|(ed) (dcBG)|"^p"A3G (TRE3/2D/2)|D3|]
+S:https://www.folktunefinder.com/tunes/80578
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0274-AchilAire.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0274-AchilAire.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

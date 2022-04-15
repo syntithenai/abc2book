@@ -1,0 +1,22 @@
+X:123
+T:The Concertina Reel
+M:C|
+L:1/8
+K:D
+"D"A2 FA BAFA|A2 FA BAFA|"A"B2 cA B2 cA|B2 cA BAFG|
+"D"A2 FA BAFA|A2 FA BAFE|FABc "G"dedB|"A"AFEG "D"FDFG:|
+|:"D"Addd Addd|Addd BAFA|"A"B2 cA B2 cA|B2 cA BAFG|"D"Addd Addd|
+Addd BAFA|"G"GABc dedB|1 "A"AFEG "D"FDFG:|2 "A"AFEG "D"FD D2|]
+S:https://www.folktunefinder.com/tunes/51473
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t123.abc
+S:http://www.arcelts.com/bbot1/t123.txt
+S:http://www.arcelts.com/bbot1/t123.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Santa Lucia
+O: Italy, trad Napoli
+Z: John Chambers <jc@trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: A
+[| "A"e2 e3 a | "E7"ag g4 | "D"d2 d3 f | "A"fe e4 \
+| "F#7"c2 f2 e2 | "Bm"e_ed4 | "E7"d2 c2 B2 | "A"f2 e4 |]
+|: "A"c'2 b2 a2 | "Bm"gf b4 | "D"b2 a2 f2 | "A"^de a4 \
+| "A"c'a ae ec | "Bm"db b4 |1 "E7"b2 f3 g | "A"b2 a4 :|2 "E7"b2 c'3 b | "A"b2 a4 :|
+S:https://www.folktunefinder.com/tunes/20176
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SantaLucia_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/waltz/SantaLucia_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

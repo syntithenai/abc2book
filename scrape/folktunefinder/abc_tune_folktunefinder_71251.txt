@@ -1,0 +1,25 @@
+X:222
+%%topmargin 3cm
+T:Struan Robertson's Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E aeolian
+e | E/E/E {/A}G>A T(B>A)B<d | D/D/D T(F>E) (D/E/)(F/G/) A<F | E/E/E {/F}G>A T(B>A)B<e | {/^c}d>BA>F E/E/E TE ::
+g | e>f{/f}g>e b>e{/g}g>e | ff a/g/f/e/ {/^c}d>f | e>f{/f}g>e b>e{/f}g>e | {/^c}d>BA>F E/E/E E ::
+B | {/F}G>BE>B {/F}G>BE>B | F>AD>A F>AD>A | {/F}G>BE>B {/F}G>BE>g | Tf>da>f e/e/e Te :|
+f | g>be>b g>be>b | f>ad>a f>ad>a | g>be>b g>be>g | f>dTa>f e/e/e e>f |
+g>be>b g>be>b | f>ad>a f>ad>f | g>bf>a e>f{/^c}d>f | {/^c}d/^c/B/A/ {/c}d<F [A,/E/]E/E ~E |]
+S:https://www.folktunefinder.com/tunes/71251
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

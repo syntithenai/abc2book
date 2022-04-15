@@ -1,0 +1,22 @@
+X: 1
+T: For Me and My Gal
+C: G.Meyer [1917]
+M: C|
+L: 1/8
+K: G
+D2 E2F2 \
+| "Am"[d4A4] "Em"[d4-G4] | "D7"[d2F2]d2 (3c2B2A2 | "G"G8- | G2D2 E2F2 | "Am"[c4A4] [c4-G4] | "D7"[c2F2]c2 (3c2B2^A2 |
+S:https://www.folktunefinder.com/tunes/16619
+S:http://trillian.mit.edu/~jc/music/abc/program/ForMeAndMyGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/ForMeAndMyGal_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/song/ForMeAndMyGal_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/ForMeAndMyGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/ForMeAndMyGal.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ForMeAndMyGal
+S:http://trillian.mit.edu/%7Ejc/music/abc/program/song/ForMeAndMyGal_Gw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

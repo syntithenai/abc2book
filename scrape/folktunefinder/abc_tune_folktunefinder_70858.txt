@@ -1,0 +1,25 @@
+X:111
+%%topmargin 3cm
+T:Jenny Bowser
+C:James Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+G | FG .A.c Ld2 AF | E/2E/2E BA .BE-E.G | (FG) (Ac) Ld2 (AF) | D/2D/2D (AF) ADD :|
+g | nfdepc dAGF | E/2E/2E !p!(BA) BEEg | nfcepc dBAF | D/2D/2D (AF) AD-D.g |
+fdec dAGF | E/2E/2E (BA) BE-E.g | Lfa Lgb Laf Lge | nfdec dBpA !D.C.! |]
+S:https://www.folktunefinder.com/tunes/70858
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Jenny_Bowser.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

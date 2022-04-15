@@ -1,0 +1,30 @@
+X: 19
+T:Devil Among Ye Tailors, Bidford
+M:4/4
+L:1/8
+Q:1/4=150
+A:Bidford
+P:A.(AB)3C
+K:G
+P:A
+Bd^cd Bdcd|Bd^cd ed=cB|ce^de cede |ce^de fe=dc|
+Bd^cd Bdcd|Bd^cd ed=cB|edcB  AGFE |D2F2  G4||
+P:B
+dgfg  dgfg|dgfg  edcB|ea^ga  ea^ga|ea^ga =gfed|
+dgfg  dgfg|dgfg  edcB|edcB   AGFE |D2F2  G4||
+P:C
+Q:1/4=170
+dgfg  dgfg|dgfg  edcB|ea^ga  ea^ga|ea^ga =gfed|
+dgfg  dgfg|dgfg  edcB|edcB   AGFE |.D2.F2 .G4||
+S:https://www.folktunefinder.com/tunes/75831
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

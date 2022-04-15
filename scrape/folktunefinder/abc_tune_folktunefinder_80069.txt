@@ -1,0 +1,24 @@
+X:10
+T: Das Dollerlied
+N: A0374B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlins Hs. 1646 S. 2946.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/4
+L: 1/4
+K: D
+B | BAG=F | E2E=F | GABG | =F2z
+B | BAG=F | E2E=F | GABG | =F2z
+F | =FEFG | A2A=F | =FFEE | D2z
+A | AAAB | A2=FF | AABG | =F2AF | =FDE=C | B,2z
+S:https://www.folktunefinder.com/tunes/80069
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

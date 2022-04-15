@@ -1,0 +1,30 @@
+X:1
+%% Copyright 1937 by Gershwin Publishing Corporation
+T:Nice work if you can get it
+M:4/4
+L:1/4
+C:Ira & George Gershwin
+Q:1/4=160
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"A7"x2 "D7"x2 | "G7"x2 "C7"x2 | "F7"x2 "Bb7"x2 | "G7"x2 "G#dim7"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "F#dim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "(Bb7)"x2 ||
+V:melody
+AB BA | GA3 | FG GF | E4 |
+S:https://www.folktunefinder.com/tunes/18883
+S:http://trillian.mit.edu/~jc/music/abc/song/Nice_work_if_you_can_get_it.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/nice_work_if_you_can_get_it.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Nice_work_if_you_can_get_it.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/nice_work_if_you_can_get_it.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

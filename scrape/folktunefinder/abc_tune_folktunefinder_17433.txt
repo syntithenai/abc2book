@@ -1,0 +1,24 @@
+X: 1
+T: Jenny's Chickens
+O: trad Ireland
+B: 100 Essential Irish Session Tunes p.12
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|: "Bm"f3g  fece | fefa "A"eAce | "Bm"f2fg fece | "F#m"fgaf "A"eAce :|
+|: "Bm"fBBA B3e  | fBBc "A"eAce | "Bm"fBBA Bdce | "F#m"fgaf "A"eAce :|
+|: "Bm"B2bB aBgB | B2af "A"eAce | "Bm"B2bB aBgB | "F#m"fgaf "A"eAce :|
+S:https://www.folktunefinder.com/tunes/17433
+S:http://trillian.mit.edu/~jc/music/abc/reel/JennysChickens_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/JennysChickens_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/JennysChickens_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JennysChickens_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

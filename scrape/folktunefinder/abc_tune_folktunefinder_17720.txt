@@ -1,0 +1,36 @@
+X:1
+T:Joe Tanzy's
+T:Pat Carney's
+T: the Braes of Glendochart/Glendochert
+T:Mr Menzies of Culdares
+R:reel
+B:Cole's 1000 Fiddle Tunes
+Z:Nigel Gatherer <gatherer@argonet.co.UK>
+N:The Dochart, a river and glen, is in Perthshire near Crianlarich (a tiny
+N:town of little import, but many of Scotland's road signs mention it). It
+N:is the burying ground for the Macnabs, and has been called "the Macnab
+N:country"... "It now is included in the Breadalbane territory, the clan
+N:having emigrated to Canada in the first two decades of the present century
+N:[that is, 1801-1821]..." - Ordnance Gazetteer of Scotland, 1883
+M:C|
+L:1/8
+% Contributed 19991129150122 by John Chambers jc:trillian.mit.edu
+K:D
+G|(3FED AF BGAF|EG=cG ECCE|(3FED AF BGAF|Dddc dDDG|
+(3FED AF BGAF|EG=cG ECCE|(3FED AF BGAF|Dddc dDD:|
+g|fada fdad|eg=cg ecgc|fada fdgd|(3Bcd AG FDDg|
+fada fdad|eg=cg ecgc|afge fdec|dBAG FDD:|
+S:https://www.folktunefinder.com/tunes/17720
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrMenziesOfCuldares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MrMenziesOfCuldares.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BraesOfGlendochartGlendochert.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/JoeTanzys.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MrMenziesOfCuldares.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/PatCarneys.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 2
+P: Trial by Jury Lancers, Figure 5B (O Joy, unbounded Finale)
+C: Sir Arthur Sullivan
+M: C
+L: 1/8
+K: D
+%%text Couples 1 & 3
+A"B"\
+|: "D"B2 A2 A2 FF \
+| "A7"GA Bc "D"d2 AA \
+|1 "G"c2 B2 "D"A2 FF \
+| "A"EA "E7"^GB "A"A3 "A7"A \
+:|2 "G"c2 B2 "D"AF "E7"DE \
+| "D"F2 "A7"E2 "D"D3 F ||
+| "Bm"F2 B2 "F#7"^AF2 F \
+| "Bm"F2 B2 "F#7"^AF2 F \
+| "Bm"F2 d2 "A"cA2 E \
+| "B7"F2 "E7"^G2 "A"A3 "A7"A |
+| "D"B2 A2 A2 FF \
+| "A7"GA Bc "D"d2 AA \
+| "G"c2 B2 "D"AF "E7"DE \
+| "D"F2 "A7"E2 "D"Dz "(E7)"Dz"->A"[|] |]
+S:https://www.folktunefinder.com/tunes/205
+S:http://trillian.mit.edu/~jc/music/abc/Contra/TrialByJuryLancers_P2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

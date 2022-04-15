@@ -1,0 +1,35 @@
+X:1005
+T:Milford Pavillion
+% Nottingham Music Database
+S:Derek Pearce, via Phil Rowe
+M:6/8
+K:G
+"D7"d3 |"G"b2b gfe|ded B3|"G""b"ded "G/dim""bb"^cdc|"Am"c3 -c2g|"D7"a2g fga|
+"G"gag d2g|"D7"fga fga|f3 d3|"G"b3 gfe|ded B3|"G""b"ded "G/dim""bb"^cdc|
+"Am"c3 -c2g|"D7"a2g fga|"G"gag d2d|"Am"e2e "D7"fef|"G"g3 -g2f||
+"Am"e2f "D7"e2f|"G"deg bag|"Am"e2f "D7"a2f|"G"d3 g2f|"Am"e2f "D7"e2f|
+"G"deg bag|"Am"e2e "D7"d2c|"G"B3 -B2f|"Am"e2f "D7"e2f|"G"deg bag|
+"Am"e2f "D7"a2f|"G"d3 g2f|"Am"e2f "D7"e2f|"G"deg bag|"Am"edc "D7"B2A|"G"G3 G3\
+||
+K:D
+"D"ABd fed|ABd fed|\
+K:D
+"D"ABd fed|"A7"f2e e3|efe cBA|
+"A7"efe cBA|efe cBc|"D"B2A A3|\
+K:D
+"D"ABd fed|ABd fed|
+K:D
+"D"ABd fed|"A7"f2e e3|efe cBA|"A7"efe cBA|A2A B2c|"D"d3 ||
+S:https://www.folktunefinder.com/tunes/64949
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

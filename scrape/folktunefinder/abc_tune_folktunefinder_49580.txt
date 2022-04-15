@@ -1,0 +1,28 @@
+X: 25
+T:Waltz,A. CJF.025
+M:3/4
+L:1/8
+Q:120
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+GB|(dgb).a.g.f|(eac').b.a.g|(fad').c'.b.a|(bgfagb)|!
+(dgb).a.g.f|(eac').b.a.g|(fad').^c'.=c'.a|g4:|!
+|:d2|(cdAdcd)|(BdgdBd)|(cdAdcd)|(Bdgd)b2|!
+(dgb).a.g.f|(egc').b.a.g|(fad').^c'.=c'.a|g4:|]
+S:https://www.folktunefinder.com/tunes/49580
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

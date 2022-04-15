@@ -1,0 +1,23 @@
+X:14232
+T:Return to Milltown
+Z: id:dc-reel-286
+M:C
+L:1/8
+K:D Dorian
+A,|D3G FEDB,|C2EC FCEC|D3G FEDE|FDEC DCA,C|!
+D3G FEDB,|C2EC FCEC|F3D E3C|DFEC D3:|!
+K:D Major
+A|dcde f2ed|cdef g2fe|dcde f2ed|cAGE EDD2|!
+dcde f2ed|cdef g2fe|fgfd efed|cAGE EDD:|!
+S:https://www.folktunefinder.com/tunes/64242
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

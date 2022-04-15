@@ -1,0 +1,24 @@
+X:2038
+T:Foot and Fiddle
+O:england
+S:Birmg SDB, via EF
+M:4/4
+L:1/4
+K:A
+P:A
+e|"A"ae "E7"c/2d/2e/2g/2|"A"ae c3/2e/2|"A"ae A/2B/2c/2d/2|"Bm"cB "E7"B3/2e/2|
+"A"ae "E7"c/2d/2e/2g/2|"A"ae c3/2c/2|"D"dB "E7"G/2A/2B/2c/2|"A"BA A:|
+P:B
+e|"A"Ac e/2d/2e/2f/2|"Bm"ed d3/2c/2|"E7"Bd gf/2g/2|"A"fe "E7"e2|
+"A"Ac e/2d/2e/2f/2|"Bm"ed d3/2c/2|"E7"Bd gf/2g/2|"A"ba a:|
+S:https://www.folktunefinder.com/tunes/22489
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

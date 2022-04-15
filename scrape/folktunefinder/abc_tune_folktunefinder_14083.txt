@@ -1,0 +1,25 @@
+X: 1
+T: Dennis Murphy's Jig
+S: Simon Wells 2005-8-4
+M: 6/8
+L: 1/8
+K: Amix
+|: cAA cec  | dfd ced | Caa cec  | d2e fed | cAA cec  | dfd cec | B2g gfe |1 d3 ded :| 2 d3 dcB ||
+|: A2a a^ga | A2g gfg | A2a a^ga | efg edB | A2a a^ga | A2g gfe | faf gfe |  d3 dcB |
+|  A2a a^ga | A2g gfg | A2a a^ga | efg efg | agf gfe  | fed edc | B2g gfe |  d3 ded |]
+S:https://www.folktunefinder.com/tunes/14083
+S:http://trillian.mit.edu/~jc/music/abc/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/Dennis_Murphys_Jig_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Dennis_Murphys_Jig_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Let Me Call You Sweetheart [G]
+C: music: Leo Friedman [1910]
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/4
+K: G
+[| "G"B2d | g2a | bd2 | ^c2d | "C"e3 | "E7"e3 | "A7"e3- | e3 |
+| "D7"f2=f | ^f2g | af2 | e2f | "G"d3 | "E7/G#"d3 | "Am"d3- | "D"d_dc |
+|  "G"B2d | g2a | bd2 | ^c2d | "C"e3 | "E7"e3 | "A7"a3- | a3 |
+|  "C"a2g | "F#7"f2g | "G"bd2 | "E7"c'2b | "A7"e3 "D7"f3 | "G"g3- | g3 |]
+S:https://www.folktunefinder.com/tunes/18827
+S:http://trillian.mit.edu/~jc/music/abc/song/LetMeCallYouSweetheart_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LetMeCallYouSweetheart_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/waltz/LetMeCallYouSweetheart_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/song/LetMeCallYouSweetheart_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/LetMeCallYouSweetheart_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: the Old Dutch Churn
+D: Buddy MacMaster
+R: Jig
+N: This is a 6/8 version of a tune that was originally a slipjig.
+O: Canada
+M: 6/8
+A: Cape Breton
+Z: Richard Robinson 
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000af6.abc
+K: Gm
+A | "Gm"B3 Bd2 | G2d dcB | "F"A3 Ac2  | F2c cBA | "Gm"B3 Bd2 | G2d dcB | "Dm"dfd cBA | "Gm"G3- G2 :|
+a | "Gm"b3 g3  | b2g gfd | "F"a3  f3  | fgf agf | "Gm"b3 g3  | b2g gfd | "Bb"fdB Bdf | "Gm"g3- g2  |
+a | "Gm"b3 g3  | b2g gfd | "F"a3  f3  | fgf agf | "Gm"b3 g3  | a2g gfd | "Dm"dfd cBA | "Gm"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/14806
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000af6.abc
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000af6.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Old_Dutch_ChurnJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Old_Dutch_ChurnJ_Gm.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

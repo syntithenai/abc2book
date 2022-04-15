@@ -1,0 +1,30 @@
+X: 1
+T: The Sauchie Haugh
+T: 8 x 32S 2c -- RSCDS Leaflet
+T: Play 1 2 3, 1 2 3, 2 1
+P: Lord Eglintoune's Auld Man
+C: Lowe's 3rd
+C: 1997 by John Chambers
+C: mods by T. Traub 11-9-02
+R: strathspey
+M: C
+L: 1/8
+K: D
+B |"D"A>D G/F/E/D/ A<D D>B | "D"A>D G/F/E/D/ A3 d/c/ \
+| "Em"B>E G>E B<E E>c | "G"d>e g/f/e/d/ "A7"~B3 c |
+"D"d>e f<a "A"e<f "G"d>B | "D"A>F D>F A>B d<e \
+| "Bm"f>d e>B "F#m"d>A B>F | "Em"E<E F>A "A7"B3 ||
+b \
+| "D"a>d f>d a<d df/g/ | "D"a>d g/f/e/d/ a3 f/a/ \
+| "Em"b>e g>e b<e e>c | "G"d>e g/f/e/d/ "A7"B2 A<B |
+"D"d>e f<a "A"e<f "G"d>B | "D"A>F D>F A>B d<e \
+| "Bm"f>d e>B "F#m"d>A B>F | "Em"E<E F>A "A7"B3 |]
+S:https://www.folktunefinder.com/tunes/58498
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/SauchieHaughSet.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

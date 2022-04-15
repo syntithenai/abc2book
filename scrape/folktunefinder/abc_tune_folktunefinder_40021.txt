@@ -1,0 +1,35 @@
+X:8
+T:Big Top Tent
+R:reel
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:currently unpublished in book form
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:333
+M:C|
+K:A
+F|E2 CE A,CEA|c2 ec BAFA|d2 fd ceAF|GBEG FECD|
+E2 CE A,CEA|c2 ec BAFA|d2 fd cBAF|EFGE A2 A:|
+|:B|c2 ec dcBA|GBEG FECD|E2 CE FADF|[1GBEG FGAB|
+c2 ec dcBA|GBEG FECD|E2 CE FADF|EFGE A2 A:|
+[2GBEG FGAF|E2 CE A,CEA|c2 ec BAFA|d2 fd cBAF|EFGE A2 A:|
+S:https://www.folktunefinder.com/tunes/40021
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

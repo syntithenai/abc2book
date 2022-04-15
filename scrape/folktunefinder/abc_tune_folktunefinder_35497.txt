@@ -1,0 +1,25 @@
+X: 9597
+T:Tansey's Favourite
+R:Jig
+S:Seamus Tansey (flute)
+D:Clare FM broadcast. From the Miltown Malbay flute recital.
+H:The Tansey of the title is another Tansey, not the player.
+H:The transcription here is somewhat rationalised
+M:6/8
+Z:Bernie Stocks
+K:G
+|: BdB (3ABcA | BdB {d}B2G | BGB dBG | ABA DFA | ~B3 ~A3 | GBd g2g | edc BcA | AGF G3 :|
+|: dcB gdB | GBd g3 | cAc fcA | GBd g3 | BAG AGF | GBd g3 | edc BcA | AGF G3 :|
+S:https://www.folktunefinder.com/tunes/35497
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

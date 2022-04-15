@@ -1,0 +1,20 @@
+X: 2069
+T: Ruzmarin
+O: Croatia
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: G
+|: "G"[d2B] [^c^A][dB] | "C"[e3c] [dB] | [ec][dB] [cA][BG] | "D7"[c2A] "G"[B2G] \
+|     [d2B] [gc][=fd] | "C"[e3c] [dB] | [ec][dB] [cA][BG] | "D7"[c2A] "G"[B2G] ||
+|| "G"[d2B] [cA][BG] | "D7"[AF][BG] [c2A] | "G"[B/G][c/A][dB] [BG][GD] | "D7"[AF][BG] [c2A] \
+|  "G"[d2B] [cA][BG] | "D7"[AF][BG] [c2A] | "G"[B/G][c/A][dB] "A7"[BG][GE] | "D"[A2D] [A2D] :|
+S:https://www.folktunefinder.com/tunes/32532
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

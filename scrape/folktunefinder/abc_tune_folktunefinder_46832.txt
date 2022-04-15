@@ -1,0 +1,24 @@
+X:15557
+T:Sl\"angpolska fr J\"amtland
+R:Polska
+R:Sl\"angpolska
+O:Sweden
+M:3/4
+A:J\"amtland
+K:D
+D>F A2 A2 | F>A d2 d2 | c>e A2 B>c \
+|1 d>f [D4A4] :|2 (d2 d7/2 d/) \
+|:A/| f2 f>d A>f | g2 g>e c>e |
+c'2 c'>b a>g | f>g ag f>>f |\
+f2 f>d A>f | g2 g>e c>e | c'2 c'>b a>g | d2 [D4d4]:|
+S:https://www.folktunefinder.com/tunes/46832
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Polska
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

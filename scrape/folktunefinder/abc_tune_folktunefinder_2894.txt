@@ -1,0 +1,34 @@
+X: 2
+P: Orijent
+N: Serbian line dance
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: AMix
+|: "A"[c2A2][ec][dB] [cA][cA][cA][AE] \
+| [cA][AE][ge][fd] [ec][ec][ec][cA] \
+| "D"[a2f2][g2e2] [fd][dB][ge][fd] \
+|1 "E7"[ec][cA][dB][BG] "A"[cA][cA][cA][AE] \
+:|2 "E7"[ec][cA][dB][BG] "A"[c4A4] :|
+|: "D"[a2f2][g2e2] [fd][dB][ge][fd] \
+| "A"[ec][cA][ge][fd] [ec][ec][ec][cA] \
+| "(E)"[f2d2][e2c2] [ec][cA][ec][fd] \
+|1 "E7"[dB][BG][ec][dB] "A"[cA][cA][cA][AE] \
+:|2 "E7"[dB][BG][ec][dB] "A  fine"[c4A4] :|
+|: "D"FDFG A=c_BA \
+| "Gm"AGFG A_B^cd \
+| "(A)"egfe edcd \
+| fedc "Gm"_BAG2 |
+|  "D"FDFG A=c_BA \
+| "Gm"AGFG A_B^cd \
+| "(A)"egfe dc_BA \
+| "Gm"G4 z4 :|
+S:https://www.folktunefinder.com/tunes/2894
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Orijent.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

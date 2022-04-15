@@ -1,0 +1,24 @@
+X: 3
+P: Kristian Oskarssons hambo-masurka
+C: Kristian Oskarsson
+O: Bj\"or Kede, Kall, J\"amtland
+Z: John Chambers <jc:trillian.mit.edu>
+D: Dansbart B-18
+R: hambo-polska
+M: 3/4
+L: 1/8
+K: G
+|: "G"(3dBd gB d2 | "Am"(3cBc ec A>G | "D7"F>G Ac B>A |1,3 "G"G>F GB d2 :|2,4 "G"G2 HG4 :|
+K: D
+|: "D" a>A aA a>a | b>a f2 f>f |1,3 "A7"a>g e2 (3efg | "D"b>a f2 d2 :|2,4 "A7"a>g ec (3ABc | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8736
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo04.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

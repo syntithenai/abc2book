@@ -1,0 +1,31 @@
+X: 4
+P: Gathering Peascods (in D)
+O: England 1650
+N:
+N: J.Barlow p.22 #27
+N: Barnes (in A)
+N: Playford (in G)
+N: Keller p.38 (in A)
+N: Karpeles p.12 (in A)
+N: Raven p.22 (in A)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+|: z | "D"a2 aa | f>g aa | "G"ba gf | "A7"e3 f | ed dc | "D"d3 :|
+|: d | "A"cA cd | e2 fe | "D"d/e/f ed | "A"c3 c | "E7"BA ~B>A | "A"A3 :|
+|: a | "D"fd de/f/ | "G"g2 za | "D"fd de/f/ | "G"g2 za  | "D"fd de/f/ | "G"g>ab a/g/ | "D"fg/f/ "A7"~e>d | "D"d3 :|
+S:https://www.folktunefinder.com/tunes/3775
+S:http://trillian.mit.edu/~jc/music/abc/England/GatheringPeascods.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/GatheringPeascods.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/GatheringPeascods.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/GatheringPeascods.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

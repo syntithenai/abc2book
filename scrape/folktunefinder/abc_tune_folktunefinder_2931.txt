@@ -1,0 +1,38 @@
+X: 1
+T: \vSestorka
+R:
+O: Bulgaria
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: A
+P: Intro
+|: "A"e2dc BcA2 | A2Bc "E7"d3c | "A"e2dc BcA2 | "B7"A2Bc "E"B4 :|
+P: Em
+K: Em
+|: b2ag .f2.e2 | egfg .f2.e2 |  b2ag .f2.e2 |  egfg .f2.e2 |
+| ~f2eg .f2.e2 | ffeg .f2.e2 | ~f2eg .f2.e2 |1 ffeg .f2.e2 :|2 b2ag .f2.e2 |]
+P: Am
+K: Am
+|: e2dc .B2.A2 | AcBc .B2.A2 |  e2dc .B2.A2 |  AcBc .B2.A2 |
+| ~B2Ac .B2.A2 | BBAc .B2.A2 | ~B2Ac .B2.A2 |1 BBAc .B2.A2 :|2 e2dc .B2.A2 |]
+S:https://www.folktunefinder.com/tunes/2931
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Shestorka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Shestorka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shestorka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Shestorka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Shestorka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Shestorka.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Shestorka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

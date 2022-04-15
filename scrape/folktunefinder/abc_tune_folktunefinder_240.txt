@@ -1,0 +1,26 @@
+X: 15
+T: Glise \`a Sherbrooke
+T: the Big Ship
+R: reel
+B: Kennedy
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   D2 \
+| "G"G2GA BABc | d2dc B4 | "D7"c2cB A2A2 | "G"d2dc     B2D2 \
+| "G"G2GA BABc | d2dc B4 | "D7"c2cB AGFA | "G"GB"D"AF "G"G2 :|
+|: Bd \
+| "C"g2gf efge | "G"d2dc B4 | "Am"c2cB "D7"A2A2 | "G"d2dc     B2d2 \
+| "C"g2gf efge | "G"d2dc B4 | "Am"c2cB "D7"AGFA | "G"GB"D"AF "G"G2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/240
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

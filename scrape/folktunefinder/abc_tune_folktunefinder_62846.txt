@@ -1,0 +1,24 @@
+X: 13
+T:My Love is But a Lassie Yet
+C: Trad
+M:4/4
+L:1/8
+Q:1/4=141
+K:D
+d/2c/2|:dDFA dDD d/2c/2|dDFA eEE  d/2c/2| 
+        dDFA Bgfe|1 d/2c/2B/2A/2 B/2c/2d/2e/2 fdd d/2c/2 \
+                :|2 d/2c/2B/2A/2 B/2c/2d/2e/2 fdd f/2g/2
+|:afge fdd  f/2g/2| afga bee f/2g/2|
+  afge fded|1 d/2c/2B/2A/2 B/2c/2d/2e/2 fdd f/2g/2 \
+        :|2 d/2c/2B/2A/2 B/2c/2d/2e/2 fdd z ||
+S:https://www.folktunefinder.com/tunes/62846
+S:http://abc.sourceforge.net/abcMIDI/original/coll.txt
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/coll.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

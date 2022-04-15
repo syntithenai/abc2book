@@ -1,0 +1,28 @@
+X: 10
+T: Peeler and the Goat, The
+C: J-4
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+A/B/| "Am"c2A "G"BAG| "Am"A2B c2d| e=fe "G"d2c| "Em"B2G GAB|
+      "Am"c2A "G"BAG| "Am"A2B c2d| efg "Em"fed| "Am"e2A A2 :|
+|:\
+f| "Am"gfe e2d| e2f "G"g2a| "Am"gfe "G"d2g| "Em"B2G GAB|
+   "Am"cBA "G"BAG| "Am"A2B c2d| efg "Em"fed| "Am"e2 A A2 :|
+%%text 9/1/98
+% ---------- page 6 ----------
+S:https://www.folktunefinder.com/tunes/1832
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

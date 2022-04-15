@@ -1,0 +1,31 @@
+X:4593
+T:Dusty Miller. JC.084
+M:6/4
+L:1/4
+Q:140
+C:Beginning of MS.13
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Double Hornpipe
+O:England
+A:Northamptonshire
+N:
+Z:P Headford
+K:G
+B>cdBAG|FAAcBA|B>cdBAG|DGGBAG:|!
+|:B>cdefg|aAAcBA|B>cde~f3/2e/4f/4|g>agBAG:|]
+W:MS includes Dance Instructions.
+W:Song text exists. See Deacon.
+W:Tunes from here  to Number 247 are in MS.13
+S:https://www.folktunefinder.com/tunes/60782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Double hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

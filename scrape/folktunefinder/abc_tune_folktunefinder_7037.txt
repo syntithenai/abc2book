@@ -1,0 +1,41 @@
+X: 2
+T: Goldenshteyn Hora
+C: German Goldenshteyn
+D: "Nakhes fun Klezmer" Di Bostoner Klezmer
+S: printed transcription by Steve Rauch
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+R: horra
+M: 3/4
+L: 1/8
+K: C
+"A"\
+[| "C"g3 c' c'b | b3 a ag | g3 a fg | e3 f dc \
+| "G7"^c2 d2 d2 | g3 f fe | "C"e3 g ^fa | "(G7)"g3 ef^f |
+| "C"gc' c'b ba | ag gf fe | ea ag gf | fe ed dc \
+| "G7"d3 e fd | B3 G AB | "C"c3 e "G"dB | "C"c4 zB |]
+"B"\
+[| "Am"A4 c2 | e4 a2 | c'6- | c'3 b c'^c' \
+| "Dm"d'3 c' ba | ^g f3 ed | "Am"{^d}e4 e2 | "(E7)"^d3 c Bc |
+| "Am"A4 c2 | e4 a2 | c'6- | c'3 b c'^c' \
+| "Dm"d'3 c' ba | "E"^g3 e ^fg | "Am"a3 e c'b | a6 |]
+"C"\
+[| "C"g3 c' c'b | b3 a ag | g3 a fg | e3 f dc \
+| "G7"^c2 d2 d2 | g3 f fe | "C"e3 g ^fa | "(G7)"g4 g2 |
+| "C"c'3 b ba | a3 g gf | f3 e ed | d3 B cd \
+| "Am"e3 f de | "E7"c3 d Bc | "Am"A3 E cB | A6 |]
+"D"\
+[| "E"E ^G3 G2 | ^G3 E FE | "Am"EA3 A2 | A6 \
+|  "E"E ^G3 G2 | ^G3 E FE | "Am"E e3 e2 | ^d3 c BA |
+|  "A"A ^c3 c2 | ^c3 A _BA | "Dm"(d6 | f6) \
+| "Am"E e3 e2 | "B7"^d3 c BA | "E7"c3 d Bc | "Am"A6 |]
+S:https://www.folktunefinder.com/tunes/7037
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GoldenshetynHora.abc
+% Rhythm Horra
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

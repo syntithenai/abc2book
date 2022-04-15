@@ -1,0 +1,26 @@
+X: 1
+T: French Air
+O: Kerr's Merry Melodies, v.1
+R: march
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+ab \
+| "D"a2f2 d2e2 | f6 "Bm"f2 | "Em"e2g2 "A7"f2e2 | "D"f4 "A7"d2ab \
+| "D"a2f2 d2e2 | f6 "B7"f2 | "Em"e2g2 "A7"f2e2 | "D"d4- "fine"d2:|
+cd \
+| "A7"e2A2 e4 | "D"f2A2 "Bm"f4 | "Em"g2gf "A7"e2a2 | "D"f4 "Bm"d2cd \
+| "A7"e2A2 e4 | "D"f2A2 "B7"f4 | "Em"e2dc "E7"B2e2 | "A"A4- "d.C"A2 |]
+S:https://www.folktunefinder.com/tunes/15426
+S:http://trillian.mit.edu/~jc/music/abc/march/FrenchAir_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/FrenchAir_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/FrenchAir_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

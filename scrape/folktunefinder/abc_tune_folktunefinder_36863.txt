@@ -1,0 +1,26 @@
+X:3920
+T:the North Country Lass
+A:North-West
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004cc.html
+%%ID:000004cc
+K:D
+a|\
+abg fge| dcd ecA| ABA ABA| def e2a|\
+abg fge| dcd ecA| ABc dgf| edc d2::
+A|\
+d2g b3| d2f afd| dgb bag| dfa afd|\
+gab gfe| fga fed| Bgb abg| fge d2:|
+S:https://www.folktunefinder.com/tunes/36863
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

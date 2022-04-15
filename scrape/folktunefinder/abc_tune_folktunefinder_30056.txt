@@ -1,0 +1,24 @@
+X:0
+T:The Dorian/Minor (re/la) Hexatonic Scale
+M:9/4
+L:1/4
+K:DDor
+P:re -ti
+"_re"D2 "_mi"E "_fa"F "_so"G "_la"A "_do"c "_re"d2 |\
+"_re"d2 "_do"c "_la"A "_so"G "_fa"F "_mi"E "_re"D2||
+P:la -fa
+K:AMin
+"_la"A2 "_ti"B "_do"c "_re"d "_mi"e "_so"g "_la"a2 |\
+"_la"a2 "_so"g "_mi"e "_re"d "_do"c "_ti"B "_la"A2|]
+S:https://www.folktunefinder.com/tunes/30056
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

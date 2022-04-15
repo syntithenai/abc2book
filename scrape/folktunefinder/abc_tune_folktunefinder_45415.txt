@@ -1,0 +1,19 @@
+X:1
+T:All clefs
+M:C
+L:1/4
+K:C bass
+%%freegchord 1
+"bass"G,CEG|[K:bass3]"bass3"G,CEG|[K:alto4]"alto4"G,CEG|[K:alto]"alto"G,CEG|
+[K:alto2]"alto2"G,CEG|[K:alto1]"alto1"G,CEG|[K:treble]"treble"G,CEG|
+[K:treble1]"treble1"G,CEG|[K:treble-8]"treble-8"G,CEG|[K:treble8]"treble8"G,CEG|
+S:https://www.folktunefinder.com/tunes/45415
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

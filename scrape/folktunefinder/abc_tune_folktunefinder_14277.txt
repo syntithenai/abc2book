@@ -1,0 +1,31 @@
+X:1
+T:The South Bridge of Edinburgh
+T:The Haddington Assembly
+R:jig
+N:Johnson (1984) states the tune was composed by an anonymous fiddler undoubtedly
+N:in the autumn of 1787, to celebrate the opening of Edinburgh's South Bridge.
+N:The alternate title was a renaming of the piece by Nathaniel Gow, who dedicated
+N:it to a patron hunting or dancing organization.
+B:Sharpe MS, p.223
+B:Johnson "Scottish Fiddle Music in the 18th Century" 1984 #86 p.229
+M:6/8
+L:1/8
+K:G
+   B/c/ \
+| "G"dBG G2B | "G"dBG "(D7)"A2B | "Am"ecA ABA | "D"f3 "C"g2e \
+| "G"dBG G2 B | "D7"AFD D2c | "G"BdB "D7"cAF | "G"G3-G2 :|
+|: d \
+| "Em"g2 a bge | "D"f2 g afd | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"GBG "D7"A2 c | "G"BdB "C"c2 e | "G"dcB "D"AGF | "G"G3-G2 :|
+S:https://www.folktunefinder.com/tunes/14277
+S:http://trillian.mit.edu/~jc/music/abc/jig/HaddingtonAssembly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HaddingtonAssembly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HaddingtonAssembly_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

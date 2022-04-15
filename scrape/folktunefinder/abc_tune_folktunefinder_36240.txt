@@ -1,0 +1,26 @@
+X:805
+T:the Brigham Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004fc.html
+%%ID:000004fc
+K:F
+(3cde|\
+fdfc abag| fefd cfcA| BABG dBGF| (3EFG (3FED C2(3cde|\
+fefc abag| fefd cfcA| BGdB AGFE| G2F2 F2::\
+EF|\
+G^FGA BGdB| Acfc afcA| Bbca BgAf| (3efg (3fed (3cdc (3BAG|\
+FAcA fcaf| Bdge bgec| fcdB AGFE| G2F2 F2:|
+S:https://www.folktunefinder.com/tunes/36240
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:886
+T:Xiraldilla (CT 393)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Es una modificacin de la lnea meldica de la sealada con el nmero CT 93 (Grupo primero, subgrupo C).
+N:Esta xiraldilla es, de antiguo, muy corriente en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 393
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|d2 dd|e2 fe|d2 B2|d2 dd|e2 fd|e2 z2|
+d2 dd|e2 fe|d2 B2|d2 cB|A2 Bc|B2 z2 :||
+W:-Crtame un ramito verde.
+W:-Verde te lo cortar.
+W:-Crtame un ramito verde
+W:de los lamos del Rei.
+W:
+W:Y si el Rei no te dejara
+W:de sus lamos cortar,
+W:crtame un ramito verde,
+W:que los tiene el olivar.
+W:
+S:https://www.folktunefinder.com/tunes/59773
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 242
+T:Portland Fancy
+% Nottingham Music Database
+P:ABCD
+S:FTB 2/48, via EF
+M:6/8
+K:A
+P:A
+E|"A"E2A E2A|"A"EAB c2c|"D"dcd "E7"Bcd|"A"e2c "D"BAF|
+"A"E2A E2A|"A"EAB c2c|"D"dcd "E7"cEG|"A"AEc Ace|
+P:B
+"A"a3 "D"agf|"A"ecf e3|"E7"dBe d3|"A"cde "D"f2e|"A"a3 "D"agf|
+"A"ecf e3|"E7"edB EFG|"A"AEc AFG|\
+K:D
+"D"
+P:C
+ABc d2e|"D"f2g a3|"A7"efg AB/2c/2d/2e/2|"D"f2d "A7"AFG|
+K:D
+"D"ABc d2e|"D"f2g a3|"A7"efg ABc|"D"d3 -d3|"D"
+P:D
+F2A F2A|"D"FAd f3|"A"ece gec|"D"dfe "A7"d2(3c/2B/2A/2|
+"D"F2A F2A|"D"FAd f3|"A7"ece gec|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/65330
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

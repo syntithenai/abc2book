@@ -1,0 +1,22 @@
+X:6409
+T:Tail Toddle
+O:england
+M:C
+K:G
+G/G/G BG c2GE| G/G/G BG A2FD| \
+G/G/G BG cABG| A/B/c B/c/d A2FD::
+c2GE EcGE| c2GE DAFD| \
+c2GE (d/c/B/A/) BG| A/B/c B/c/d A2FD ::
+G/G/G BG cABE| G/G/G BG ADFD| \
+G/G/G BG cABG| A/B/c B/c/d c2AF::
+c2Ec EcGE| c2Ec DAFD| \
+c2Ec (d/c/B/A/) BG| A/B/c B/c/d A2FD:|
+S:https://www.folktunefinder.com/tunes/26861
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:4188
+T:Dinny O'Keefe's
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+"A"E2A ABA|"G"G2A Bcd|"A"e2A ABA|"Em"G3 F2G|
+"A"E2A ABA|"G"G2A Bcd|"A"efe "G"dcB|"A"A3 A3::
+"A"\
+P:turn
+e3 efe|"D"\
+P:turn
+d3 dcd|"A"e2A ABA|"Em"G3 F2G|"A"E2A ABA|"G"G2A Bcd|"A"efe "G"dcB|"A"A3 A3:|
+S:https://www.folktunefinder.com/tunes/60377
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

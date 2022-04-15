@@ -1,0 +1,48 @@
+X:14
+T:Biessanwals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+R:Wals
+M:3/4
+L:1/4
+%%staves [ 1 2 3 ]
+K:C
+P:A
+V:1
+|:"C"G3|"Em"G>FE|"Dm"F3|"G7"F>ED|"C"E2C|GEC|"G"B,2C|D>EF|
+V:2
+|:c3|B3|A3|G3|E3|G3|D2E|F2 [DG]|
+V:3
+|:G E/F/ G/E/|G E/F/ G/E/|F D/E/ G/D/|F D/E/ F/D/|EEC|GEC|B,2C|D>EF|
+V:1
+"C"G3|"Em"G>FE|"Dm"F3|"G7"F>ED|"C"(3E/F/E/ C/G/ E/C/|"G"F/D/ B,/C/ D/B,/|"C"CE"G"D|"C"C3:|
+V:2
+c3|B3|A3|G3|E3|F2D|E3-|E3:|
+V:3
+G E/F/ G/E/|G E/F/ G/E/|F D/E/ G/D/|F D/E/ F/D/|(3E/F/E/ C/E/ C/E/|FDB,|CED|C3:|
+P:B
+V:1
+|:"Dm"F D/F/ D/F/|"G7"B, D/B,/ D/F/|"C"E C/E/ C/E/|G,CE|\
+V:2
+|:D2F|B,2D|C2E|E2C|
+V:1
+"G"F (3D/F/D/ B,|FDA|"C"G>EG|c/C/ E/C/ G/E/|
+V:2
+D>B,G,|G,A,B,|C/B,/ C/D/ E/F/|G3|
+V:1
+"Dm"F D/F/ D/F/|"G7"B, D/B,/ D/F/|"C"E C/E/ C/E/|G,CE|\
+V:2
+D2F|B,2D|C2E|E2C|
+V:1
+"G"F (3D/F/D/ B,|FDB,|"C"CE"G"D|"C"C3:|
+V:2
+D>B,G,|G,A,B,|C C/D/ E/D/|C3:|
+S:https://www.folktunefinder.com/tunes/75710
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Wals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

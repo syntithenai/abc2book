@@ -1,0 +1,23 @@
+X: 1
+T: Miss Jean's Jig
+T: You're sitting in my chair!
+C: Vince O'Nonnell
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+|: "G"G2G- GFG | "Em"B2G- GFG | "C"Ecc "G"DBB | "Am"CEA "D7"FEF \
+|  "G"G2G- GAB | "C"ceg "G"Bdg | "Am"Ace "G"dBG | "D7"DBA "G"G3 :|
+|: "D7"FAA Ddd | "G"BdB GAB | "C"cee "G"dBG | "D7"AFD "C"GEC \
+|   "D7"FAA Ddd | "G"BdB GAB | "C"cge "G"dBG | "D7"DBA "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14664
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissJeansJig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissJeansJig_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

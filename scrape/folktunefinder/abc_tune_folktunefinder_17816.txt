@@ -1,0 +1,37 @@
+X: 1
+T: Over the Moor to Maggie
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: DE \
+|  "G"~G3A  BGBd |  "C"efge  "G"dBAG \
+| "Am"EAAG  ABAG | "Am"EAAG "D7"A2DE |
+|  "G"~G3A  BGBd |  "C"efge  "G"dBAG \
+|  "C"EG~G2 "G"BGAG |  "C"EG"D7"GF "G"G2 :|
+|: ga \
+|  "G"~b3g  "D"a3f   |  "C"gage  "G"d2Bd \
+| "Am"eaag     abag  | "Am"eaag "D7"a2ga |
+|  "G"bg~g2 "D"af~f2 |  "C"gage  "G"d2Bd \
+| "Am"ea~a2 "G"bgag  |  "C"eg"D7"gf "G"g2 :|
+|: Bd \
+|  "C"~e3c  "G"d2dB | "Am"c2cA  "G"B2AG \
+| "Am"EAAG     ABAG | "Am"EAAG "D7"ABcd |
+|  "C"~e3c  "G"dedB | "Am"cA~A2 "G"B2AG \
+|  "C"EG~G2 "G"BGAG |  "C"EG"D7"GF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/17816
+S:http://trillian.mit.edu/~jc/music/abc/reel/Over_the_Moor_to_Maggie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Over_the_Moor_to_Maggie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Over_the_Moor_to_Maggie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Over_the_Moor_to_Maggie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Over_the_Moor_to_Maggie_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

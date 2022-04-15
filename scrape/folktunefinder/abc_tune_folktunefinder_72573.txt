@@ -1,0 +1,24 @@
+X:116
+T: Mir bluehet kein Fruehling, mit lachet keine Sonne,
+N: D0173
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Inzipit = entfernte Variante zum Lied 
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: D
+A2 | F4GFED | CEG2z2
+A2 | G3GA3E | GFF2z2
+D2 | DBB4A2 | A^G=G4
+G2 | F3AAGEC | D4z2
+S:https://www.folktunefinder.com/tunes/72573
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

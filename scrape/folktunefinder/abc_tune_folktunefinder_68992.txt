@@ -1,0 +1,23 @@
+X:133
+T: DA DRAUSSN AUF DEM BERGLE
+N: Z0132
+O: Europa, Mitteleuropa, Deutschland, Vogtland
+R: Erzaehlung, lustige Romanze
+M: 3/8
+L: 1/8
+K: F
+c | cAB | ccc | f
+cc | cBA | GAB | A
+Bc | cBA | GAB | A2
+S:https://www.folktunefinder.com/tunes/68992
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

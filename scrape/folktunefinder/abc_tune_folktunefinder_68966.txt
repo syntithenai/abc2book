@@ -1,0 +1,23 @@
+X:107
+T: ES STAND DIE HERBERG AN DEM RHEIN
+N: Z0107
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/16
+K: D
+A,2 | D3E=F2G2 | A_BAGA2z2
+=F2FGA2A2 | D2D2G4
+E2E2=F2E2 | E4D2z2
+E2EE=F2EE | E2D2D2
+=C2 | E2EE=F2A2 | A2^G2A2
+S:https://www.folktunefinder.com/tunes/68966
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

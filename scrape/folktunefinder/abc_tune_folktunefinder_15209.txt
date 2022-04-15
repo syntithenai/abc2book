@@ -1,0 +1,35 @@
+X:1
+T: the Trowie Burn
+C:Friedemann Stickle
+R:jig
+M:6/8
+K:EMin
+G2A Bed|BAG A2c|{Bc}(2BA (2::3AG/A/|{Bc}B2A (2G<E|\
+G2A Bed|BAG Bcd|(2eE {Bc}B2A|(2G<E E3:|g2a baf|\
+M:9/8
+g2d (2B<G A2c|\
+M:6/8
+{Bc}(2BA AGA|{Bc}B2A (2G<E|g2a baf|\
+M:9/8
+g2d (2B<G Bcd|\
+M:6/8
+(2eE {Bc}B2A|(2G<E E3|g2a baf|\
+M:9/8
+g2d (2B<G A2c|\
+M:6/8
+{Bc}(2BA AGA|{Bc}B2A (2G<E|G2A Bed|\
+BAG Bcd|(2eE {Bc}B2A|(2G<E E3|]
+S:https://www.folktunefinder.com/tunes/15209
+S:http://trillian.mit.edu/~jc/music/abc/jig/TrowieBurnJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/TrowieBurnJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/TrowieBurnJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

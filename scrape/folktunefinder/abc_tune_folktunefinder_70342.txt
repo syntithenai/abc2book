@@ -1,0 +1,32 @@
+X:212
+T: Die Rheinbraut (1a), S. 27
+N: T0100
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: STRASSEN, gesungen von Frau Witry am 24.1.1933;
+N: gleiche Melodie (1b), anderer Text aus RAMMELDINGEN von
+N: Nikolaus Felten am 17.2.1934; weitere Melodie (1c),
+N: anderer Text aus ESCH/ALZETTE von Frau Rauchs 1914;
+N: weitere Lesarten mit unwesentlichen Abweichungen aus
+N: JUNGLINSTER (1d, 1890) und HEFFINGEN (1e, 1933)
+R: "Erzhlendes Lied"]
+M: 6/8
+L: 1/8
+K: C
+G | G2AF2G | EEz3
+G | G2AF2G | EEz3
+G | GGee2d | ccEG2
+c | B2FFFA | A2GF2
+G | GGee2d | ccEG2
+c | B2FFFA | A2GF2
+S:https://www.folktunefinder.com/tunes/70342
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlendes lied%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

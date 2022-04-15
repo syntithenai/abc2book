@@ -1,0 +1,31 @@
+X:114
+T: Hoer an, mein liebes Kind, was ich muss leiden,
+N: D0171
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Rhythmische Korrekturen (Pausen weggelassen) ; Inzipit = Variante
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: D
+DF | A2d2AA | F4z2
+B2A3E | G2F2
+DF | A2d2AA | F4z2
+B2A3E | G2F2
+EE | E2E3E | EFGBA2
+A2B2dB | BAA2
+DF | A2d2AA | AGF2z2
+B2A3E | G2F2
+EE | E2E3E | EFGBA2
+A2B2dB | BAA2
+DF | A2d2AA | AGF2z2
+B2A3E | G2F2
+S:https://www.folktunefinder.com/tunes/72571
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

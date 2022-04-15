@@ -1,0 +1,32 @@
+X:18551
+T:Wearmouth Lasses. BF13.095
+T:Yarmouth Lasses,aka. BF13.095
+M:6/8
+L:1/8
+Q:120
+C:In hand "B"
+S:MS13,c1850,Lakes,Browne Coll.
+R:Jig
+O:England
+A:Lakes
+N:Key signature is given as D major.  Note in modern handwriting
+N:"Wearmouth Lasses Lately known as "Yarmouth Lasses" which is probably a
+N:mishearing..Handwriting looks like another, perhaps later version of
+N:the same hand. the Treble clef has been drawn differently..CGP
+Z:vmp.Cherri Graebe.
+K:G major
+"SEE NOTE"d|gfg dBd|cAcB2G|DGB B2A|Acee2d|!
+gfg dBd|cBcB2G|DGB B2d|dcAG2:|!
+|:z|DGBB2A|"A added"Ace e2d|DGB B2A|Acee2d|!
+gfg dBd|cAcB2G|DGB B2d|dcAG2:|]
+S:https://www.folktunefinder.com/tunes/49999
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

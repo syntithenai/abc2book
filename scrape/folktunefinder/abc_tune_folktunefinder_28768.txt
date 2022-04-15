@@ -1,0 +1,37 @@
+X:2488
+T:Cancioneiro de Casto Sampedro: N\'umero 349
+T:Xota de Pontevedra
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=220
+K:C % 0 sharps
+z2 ED EF GF|AG E4 cB|AG FE GF D2-|D2 B,C DC ED|
+FE GF AG FE|FD GF AG E2|z2 ED EF GF|AG E4 cB|
+AG FE GF D2-|D2 B,C DC ED|FE GF AG FE|FD ED B,D C2-|
+C2 GE CE GE|CE GE C2 GE|CE GE CE GF|D2 GF DF GF|
+DF GF D2 GF|DF GF DE CC|EC CC EC EC|CC CC EC CC|
+EC FD DD DD|FD DD FD FD|DD DD FE GF|ED EC CC CC|
+z2 CE EC CE|EC C2 z2 CE|EC CE EC D2|z2 DF FD DF|
+FD D2 z2 DF|FD GF ED C2|z2 ED EF GF|AG E4 cB|
+AG FE GF D2-|D2 B,C DC ED|FE GF AG FE|FD GF AG E2|
+z2 ED EF GF|AG E4 cB|AG FE GF D2-|D2 B,C DC ED|
+FE GF AG FE|FD ED B,D C2-|C2 GE CE GE|CE GE C2 GE|
+CE GE CE GF|D2 GF DF GF|DF GF D2 GF|DF GF DE CC|
+EC CC EC EC|CC CC EC CC|EC FD DD DD|FD DD FD FD|
+DD DD FE GF|ED EC CC CC|z2 CE EC CE|EC C2 z2 CE|
+EC CE EC D2|z2 DF FD DF|FD D2 z2 DF|FD GF ED C2-|
+C2
+S:https://www.folktunefinder.com/tunes/28768
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

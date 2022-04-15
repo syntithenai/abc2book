@@ -1,0 +1,25 @@
+X:24
+T: DURCH FELD UND BUCHENHALLEN
+N: B0510
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 6/8
+L: 1/8
+K: A
+E | E2Ec2B | A3F2
+F | E2GG2B | A4z
+E | c2ccBe | e3d2
+B | A2ABAB | c4z
+E | c2ccde | f3ed
+B | A2Ac2B | A4z
+S:https://www.folktunefinder.com/tunes/62047
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

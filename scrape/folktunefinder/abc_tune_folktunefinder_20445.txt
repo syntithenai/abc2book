@@ -1,0 +1,36 @@
+X:1
+T:11. Fantasia tertia.
+T:Superius.
+C:B. Lupachino.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z: Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+N:Original clef, C on first line
+K:F
+c4 A2 B2 G > F G A > G F/ E/ D F2 E/ D/ E2 F A2 F G4 "A"A2 F2 c3 c d2 B2 c3 B A2 B2
+G2 A3 G F4 E2 F3 F G > A B G A c > B A/ G/ F A G E F/ E/ D/ C/ D2 z C D F2 E A > G A/ B/ c C/ D/ E/ F/
+G/ A/ B > A A2 G "B"A4 z d c e d > c B/ A/ G B A F c2 A B2 z A2 F G A B2 A F > G A/ F/ G F2 E/ D/ E2
+F C F > G A F c2 z c B G A B > A A2 G A2 z A A A  B2 A2 G2 F2 B2 "(5)"G2 A > G F/ E/ D/ C/ F2 E F/ G/ A/ B/
+N:(5) Original is a quarter note
+c3 B A2 B2 G > F G/ A/ B/ c/ d/ c/ c2 B "C"c C G > F E F D C G > F E A > G F2 E F F c > B A B G F
+c > B A d > c ""B2 A B G A F c > B A/ G/ F/ E/ D/ C/ F2 E D2 C F2 G A2 B2 A c2 A B G A F B2
+A2 F G A c2 B c > B A G A E > F D > E F2 E "D"F2 c2 A2 B2 G > F G A > G F/ E/ D F2 E/ D/ E2 F A2 F
+G4 A > B c A B2 A G > F F2 E F16 |]
+S:https://www.folktunefinder.com/tunes/20445
+S:http://www.laymusic.org/music/bicinia/tertia/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

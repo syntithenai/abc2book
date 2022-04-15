@@ -1,0 +1,26 @@
+X:5042
+T:Sid Blaney's
+R:Hornpipe
+C:Aidan Crossey
+M:4/4
+L:1/8
+K:D
+|:fg|(3aaa ab agfe|defd (3BBB dB|ABAc dcde|fagf (3eee fg|
+(3aaa ab agfe|defd (3BBB dB|AFDF BGEG|(3ABA Bc d2:||
+|:FG|AFDF BGEG|AFDF (3EEE FG|AFDF BGEG|(3ABA Bc d2de|
+fdBd ecAG|(3FGF (3ABc d2cd|(3efe ag (3fgf ed|(3efe dc d2:||
+S:https://www.folktunefinder.com/tunes/77434
+S:http://trillian.mit.edu/~jc/music/abc/by/AidanCrossey/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/aidananita:se13.freeserve.co.uk/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RoadHome.abc
+S:http://paythereckoning.com/crosseyabc.txt
+S:http://www.paythereckoning.com/crosseyabc.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

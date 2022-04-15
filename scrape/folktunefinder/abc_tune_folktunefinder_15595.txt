@@ -1,0 +1,34 @@
+X: 1
+T: the Mist-Covered Mountain
+R: waltz, Jig
+Z: John Chambers <jc:trillian.mit.edu>
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: ADor
+G \
+| "Am"E>AA ABd | e2A AGE | "G"G2G GAB | dBA GED \
+| "Am"E>AA ABd | e2A "G"B^cd | "C"e>fg "G"dBG | "Em"BAG "Am"A3 :|
+a \
+| "Am"a>ge a2b | age edB | AGE "G"G2A | BAB deg \
+| "Am"a>ge a2b | age edB | AGE "G"G2A | BAG "Am"A2 |]
+a \
+| "Am"a>ge a2b | age edB | AGE "G"G2A | BAB GED \
+| "Am"EDE G2A | "G"BAG B^cd | "C"efg "G"dBG | "Em"BAG "Am"A3 |]
+%%text Played as both waltz and jig.
+S:https://www.folktunefinder.com/tunes/15595
+S:http://trillian.mit.edu/~jc/music/abc/march/MistCoveredMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MistCoveredMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MistCoveredMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MistCoveredMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MistCoveredMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/MistCoveredMountain.abc
+% Rhythm Waltz, jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

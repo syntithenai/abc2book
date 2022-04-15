@@ -1,0 +1,26 @@
+X:4
+T:Purmer-Reutel Horlepiep                 %titel
+M: 4/4                        % 4/4
+L:1/8                        % length of shortest note
+Q:                           %tempo  Q:1/4=160
+P:Intro, dan  6x A
+K:C                           %key C
+V:1                          %voice 1
+P:Intro
+"C"(3efg|"F"ag af2g af|"G"gf ge2f ge|"F"fe fd2g gf|"C"e2c2c2z2||
+P:A
+"C"c2c'2g2>f2| "C"e>f g>ec2d>e| "F"f>e f>g f>e d>c|"G"g>f g>a g>f e>d|
+"C"c2c'2g2>f2| "C"e>f g>e c2cB|"F"A2f2dg gf|"C"e2c2c2 (3efg |
+"F"ag af fg af|"G"gf ge ef ge|"F"fe fg fe dc|"G"gf ga gf ed|
+"F"ag af2g af|"G"gf ge2f ge|"F"fe fd2g gf|"C"e2c2c2z2 ||
+S:https://www.folktunefinder.com/tunes/50491
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

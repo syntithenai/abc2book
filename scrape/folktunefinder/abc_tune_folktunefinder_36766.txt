@@ -1,0 +1,22 @@
+X:3435
+T:Mazurka
+M:3/4
+O:France
+R:Mazurka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006e3.html
+%%ID:000006e3
+K:G
+DG|B2 B2 GF|E2 E2 DF|A2 A2 FA|d4 DG|\
+B2 B2 GF|E2 E2 DF|A2 Ac BA|G4::
+dc|B2 Bd Bd|G2 A2 cB|A2 A2 FA|d4 dc|\
+B2 Bd Bd|g2 A2 A2|d2 dB cA|G4:|
+S:https://www.folktunefinder.com/tunes/36766
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

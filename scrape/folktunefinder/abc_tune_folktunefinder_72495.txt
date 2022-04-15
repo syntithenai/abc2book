@@ -1,0 +1,27 @@
+X:38
+T: Totenlied
+N: D0040
+O: Europa, Mitteleuropa, Lothringen, Rechicourt ( Kr. Saarburg )
+N: Verzierungen
+R: geistliches Lied, Tod, Totentanz
+M: 6/4
+L: 1/4
+K: G
+D | G2GA2A | B3zz
+A | A2Bc2d | B2AA2
+B | c2BBAG | A3zz
+B | B2AA2G | GABA2
+B | B2AA2G | GABA2
+B | d2AB2B | G3zz
+S:https://www.folktunefinder.com/tunes/72495
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied, tod, totentanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

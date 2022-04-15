@@ -1,0 +1,29 @@
+X:3
+T:Kadril van Putte
+T:3de figuur
+C:Trad.
+O:Vlaanderen
+A:Putte
+Z:Bart Vanhaverbeke 
+P:(AB)x4
+L:1/8
+M:2/4
+K:C
+P:Voorspel
+K:C
+"C"ed/c/ G2 | ed/c/ G2 | "G7"G^GAB | c z c z ||
+P:Inleiding
+"C"ed/c/ G2 | ed/c/ G2 | ed/c/ GA | Bcde | "G7"fd/B/ G2 | fd/B/ G2 | G^GAB | "C"c z cz ||
+P:A
+"C"Gc E>F | G4 | Gc Gc | "Dmin"B2 A2 | "G7"GABc | d3 c | BA G>F | "C"E4 | 
+"C"Gc E>F | G4 | Gc Gc | "Dmin"B2 A2 | "G7"dcBA | G3 ^F | GB e>d | "C"c z c z ||
+P:B
+"C"ed/c/ G2 | ed/c/ G2 | ed/c/ GA | Bcde | "G7"fd/B/ G2 | fd/B/ G2 | G^GAB | "C"c z cz ||
+S:https://www.folktunefinder.com/tunes/40580
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Putte.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

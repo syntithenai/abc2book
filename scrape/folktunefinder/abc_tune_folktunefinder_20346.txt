@@ -1,0 +1,27 @@
+X: 1
+T: Ye Banks and Braes of Bonnie Doon
+C: Tune: Trad Scotland
+C: Words: Robert Burns
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G2G  | "D7"A>GA | "G"BdB | "D7"AGA | "G"B>AG | "C"GED |1 "Am"DEG | "D7"A2 :|2 "D7"DEG | "G"G2 |]
+B \
+| "G"d2e | dBG | d2e | dBG | dBG | "Em"dBG | "Am"e>dc/B/ | "D7"BA |]
+B/A/ \
+| "G"G2G  | "D7"A>GA | "G"BdB | "D7"AGA | "G"B>AG | "C"GED | "D7"DEG | "G"G2 |]
+S:https://www.folktunefinder.com/tunes/20346
+S:http://trillian.mit.edu/~jc/music/abc/waltz/YeBanksAndBraes_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/YeBanksAndBraes_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

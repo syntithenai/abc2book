@@ -1,0 +1,22 @@
+X:12
+T:La jeune Isabelle
+M:2/4
+L:1/8
+K:Cm
+%%staves [1 2]
+V:1
+c>de>f | g2 {f}e2 | g>fe>d |1 c4 :|2 c3 z/d/ |: f2 e>d | c2 !!=B2 | c>ed>d |
+G4 | c>de>f | g2 {f}e2 | g>f!!e>d |1 c3z/d/ :|2 c4 |]
+V:2 
+C4 | C,>=B,,C,>D, | E,>F,G,>G,, |1 C,>G,A,>=B, :|2 C,3z/G,/ |: =B,,>G,, C,>G, | _A,2 G,>F, | E,>C,G,>F, | 
+E,>F,E,>D, | C,2C,,2 | C,>=B,,C,>D, | E,>F,G,>G,, |1 C,3z/G,/ :|2 C,4 |]
+S:https://www.folktunefinder.com/tunes/40175
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

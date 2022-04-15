@@ -1,0 +1,28 @@
+X:1152
+T:Reinl\"ander e. \AA{}non Egeland
+C:e. \AA{}non Egeland
+R:Reinl\"ander
+O:Norway
+M:4/4
+%%ID:00000be6
+Z:Richard Robinson 
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000be6.abc
+K:DMix
+D>EFG A2cA| B>AAF D2DF| E2C2 C2EG| F2D2 D4::\
+%
+d2dd d2ed    | c2A2 A3B  |
+A>GFE F>G Ad | ^c2AA A3A |\
+d2dd d2ed    | c2A2 A3B  |\
+A>GFE F2DC   | D2D2 D4  :|
+S:https://www.folktunefinder.com/tunes/49391
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000be6.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Rhythm Reinla?nder
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

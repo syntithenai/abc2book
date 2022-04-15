@@ -1,0 +1,28 @@
+X:800
+T:Jenny's Welcome to Charlie
+Z: id:dc-reel-150
+M:C
+L:1/8
+K:D Mixolydian
+D3B AGFD|E2cE dEcE|D2BD AGFD|E2cE EDD2|!
+D3B AGFD|E2cE dEcd|eddc AGEF|GEcE EDD2:|!
+K:D Dorian
+f3d e3d|cAAG AcG2|f3d ed^cd|eaag edd2|!
+f3d e3d|cAAG A2cd|eddc AGEF|GEcE EDD2:|!
+K:D Mixolydian
+a3b agef|g2af gedB|eaa2 ageg|agag egdg|!
+a3b agef|g2af gedB|ABcd eddc|AGcE EDD2:|!
+K:D Dorian
+Add^c def2|AccB cAG2|Add^c defg|eaag edd2|!
+Add^c d=cAB|c2ec cAGE|DEFG AddB|cBcG EFGE:|!
+S:https://www.folktunefinder.com/tunes/66092
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

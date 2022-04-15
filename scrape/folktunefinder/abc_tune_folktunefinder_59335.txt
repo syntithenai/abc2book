@@ -1,0 +1,38 @@
+X:448
+T:La Lola (CT 414) (Arrg.)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Laureano lvarez, El Revs, de treinta y cinco aos, de Uviu.
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 414
+M:3/4
+L:1/8
+Q:1/4=116
+K:Cm
+G
+|"Cm"c2 =Bc ed|"Cm"c2 =Bc ed|"Cm"c2 =Bc _BA|"G"G4 z2|
+"G"gg gg fe|"Cm"gf/e/ df ed|"Fm"fe/d/ ce d=B|"Cm"c4 ||
+W:La Lola
+W:tiene un chiquillo
+W:y ese chiquillo
+W:de quin ser
+W:No es de cura 
+W:ni es de fraile, ler,
+W:que es de alcalde, ler,
+W:de la ciud.
+W:
+S:https://www.folktunefinder.com/tunes/59335
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

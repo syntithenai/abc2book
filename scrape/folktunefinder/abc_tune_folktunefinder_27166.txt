@@ -1,0 +1,31 @@
+X:6714
+T:the Dressed Ship
+R:March
+O:England
+M:C
+L:1/4
+N:John Chambers has a more interesting (and possibly more
+N:"authentic") version. But this is how I've heard it played.
+Q:116
+%%ID:00000d28
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d28.abc
+K:G
+|: d | \
+BG DB | c2 c/d/e | dB gB | cA- Ad | \
+BG DB | ce dg | ec Ad | BG2 ::
+e/f/ | \
+gd BG | e/f/g/e/ dB | ce dB | cA- Ae/f/ |\
+gd BG | e/f/g/e/ dB | ec Ad | BG2 :|
+S:https://www.folktunefinder.com/tunes/27166
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d28.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

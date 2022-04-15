@@ -1,0 +1,26 @@
+X: 1
+T: the Braes of Breadalbane
+R: strathspey
+B: RSCDS 21-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: E \
+| "Am"E<A AB c>B Ac | "Am"e2 cA e2 cA \
+| "Am"E<A AB "(F)"c>B Ac | "E7"c>A B>^G "Am"A3 :|
+|: G  \
+| "C"c<c cc "G"d<d dd | "C"e>f ge "G"d>B AG \
+| "C"c<c cc "G"d<d dd |1 "C"e>d c>d "E7"e2z :|2 "E7"e>d c>B "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/19218
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfBreadalbane1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfBreadalbaneS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOfBreadalbane1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfBreadalbane1_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:841
+T:Xiraldilla (CT 277)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 277
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|G2 A2|G2 ^FG|A2 G2|^F4|A2 B2|c2 (dc)|B2 A2|G4|
+G2 A2|G2 ^FG|A2 G2|^F4|A2 B2|c2 (dc)|B2 A2|G2 zG|
+AA AG|^F2 AB|cc BA|B2 GG|AA AG|^F2 AB|cc BA|B2 G2|
+B2 c2|d2 ed|c2 A2|G4|B2 c2|d2 ed|c2 A2|G4||
+W:El xueves compr un gochn
+W:que cien riales me cost;
+W:dio-y elmal ploes oreyes;
+W:estir'l rabu y morri.
+W:
+W:Que yo la vi bailar,
+W:la penosa en La Ribera
+W:que yo la vi bailar,
+W:oxal que nun la viera.
+W:La penosa en La Ribera,
+W:oxal que nun la viera.
+W:
+S:https://www.folktunefinder.com/tunes/59728
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

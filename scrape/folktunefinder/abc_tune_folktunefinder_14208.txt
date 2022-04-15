@@ -1,0 +1,37 @@
+X: 1
+T: Funeral March of the Marionettes
+T: Alfred Hitchcock Theme
+C: F.Gounod
+S: JoAnne Rocke
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+[| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"A2c "G"e2d | "C"c2e "G"g2f \
+| "Em"e2g "B7"b2a | "E7"k^g>fe dc[Be] |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2z |]
+[| "E"e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"e2E "F"FGA | "E"B2E "F"FGA \
+| "E"B3E EDC | "E7"DED C2B, |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2z |]
+S:https://www.folktunefinder.com/tunes/14208
+S:http://trillian.mit.edu/~jc/music/abc/jig/FuneralMarchOfTheMarionettes_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FuneralMarchOfTheMarionettes_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FuneralMarchOfTheMarionettes_Am.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

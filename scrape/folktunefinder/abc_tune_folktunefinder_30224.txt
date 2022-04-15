@@ -1,0 +1,20 @@
+X:0
+T:Dancing the Baby
+G:jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:AMix
+% both f and g are missing
+e|cee dee|cee dcB|cee dee|AAA cBA|
+  cee dee|cee dcB|AAc BBc|AAA A2:|
+e|acc ecc|acc dcB|acc dcB|AAA cBA|
+  acc ecc|acc dcB|AAc BBc|AAA A2:|
+S:https://www.folktunefinder.com/tunes/30224
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

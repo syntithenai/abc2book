@@ -1,0 +1,26 @@
+X:231
+T: Der geistliche Ackermann
+N: A0588
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 II No. 39.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+G | GA_Bc | _BAG2z
+G | _BBcd2A | _Bcd2z
+d | =fdfddc | _B2A2z
+=F | _B2cA2G | _B2cd2
+c | _BAGABB | A2G3
+S:https://www.folktunefinder.com/tunes/80290
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

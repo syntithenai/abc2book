@@ -1,0 +1,21 @@
+X: 1
+T: TEST: Keysig: D to Dmin in middle of 3 lines.
+%%staffwidth 12cm
+K: D
+[| DEFG ABcd |        dcBA GFED |]
+[| DEFG ABcd | [K:Dm] dcBA GFED |]
+[| DEFG ABcd |        dcBA GFED |]
+S:https://www.folktunefinder.com/tunes/2417
+S:http://trillian.mit.edu/~jc/music/abc/test/K_1Change3Lines.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_1Change3Lines.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_1Change3Lines.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_1Change3Lines.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

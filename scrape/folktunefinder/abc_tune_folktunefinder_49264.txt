@@ -1,0 +1,26 @@
+X: 58
+T:A Fancy
+M:4/4
+L:1/16
+S:Wright 1713
+Z:p
+K:Dmin
+d2dA e2eA f2Af e2eA|d2AG F2d2E2^c2d2D2|a2ga b2gb a2gf e2c2|f2fA B2g2 cfe
+gf2F2|fedc Bdef gfed ^cB^cA|dBAG FAdF Ddce d2D2|fedc Bdef gfed ^cB^cA|d2
+AG F2d2 E2c2 d2D2||
+L:1/8
+db2agE2D|Ca2gfD2C|B,g2feC2B,|Af2edC2A,|G,ged^c=BAG|
+L:1/16
+F2ag a2F2 E2ge g2E2|D2fe f2D2 C2ed e2C2|B,2d^c d2 2B,2A2d2^c4|abag f2D2
+B,CB,A, 
+G,2G,2|fefc d2B,2 gfgd e2C2|fefc d2g2 cfeg f2F2|fedc Bdef gfed ^cB^cA|dB
+AG FABG Ddce d2D2|fed^c Bdef gfed ^cB^cA|d2AG F2d2 E2^c2d2D2||
+S:https://www.folktunefinder.com/tunes/49264
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T:Jacky Bull
+Q:3/8=110
+R:jig
+M:6/8
+L:1/8
+K:D
+"D"d2 d A2A|"G"B2B "A"A2A|"D"ded d2e|f3 a2f|
+"D"d2 d A2A|"G"B2B "D"A2f|"G"gab "D"afd|"A"e3 "D"d3:|
+|:"D"d/e/ff fgf|fgf afd|"A"c/d/ee efe|efe gec|
+"D"d/e/ff fgf|fgf afd|"G"gab "D"afd|"A"e3 "D"d3:|
+S:https://www.folktunefinder.com/tunes/14390
+S:http://trillian.mit.edu/~jc/music/abc/jig/Jacky_Bull_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Jacky_Bull_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

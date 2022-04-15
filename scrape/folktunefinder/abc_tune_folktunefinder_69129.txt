@@ -1,0 +1,28 @@
+X:270
+T: MEINST DU DENN ICH SOLL MICH KRAENKEN UEBER DEINE FALSCHE TREU
+N: Z0268
+O: Europa, Mitteleuropa, Deutschland, Rheinpfalz
+N: Die letzten 8 Takte werden auf die Silbe 'ai' gesungen.
+R: Lyrisches Lied, Romanze
+M: 3/4
+L: 1/8
+K: D
+FG | A3FBA | ACE2
+EF | G3EAG | F4
+FG | A3FBA | ACE2
+EF | G3EAC | D4
+FA | Age2cA | Afd2
+dF | Age2cA | Afd2
+dF | Age2cA | Afd2
+dF | Age2Af | d4
+S:https://www.folktunefinder.com/tunes/69129
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

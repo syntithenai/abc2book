@@ -1,0 +1,30 @@
+X:154
+T: Der Ritt durch den Wald
+N: A0189
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder (c. 1542) No. 18.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G4 | _B2B2c2c2 | d4G4
+d4 | c3de2=f4e2 | =f3ed2c_B | c8 | z4
+=f4 | =f2d2f2g2 | =f2e2d4
+f4 | _e2d2d2_B2 | c6
+d2 | d3c_B2AG | A8 | z4
+A4 | A2A2d2c2 | _B2AGA2A2 | _B4z2
+=f2 | =f2d2_e2g2 | =f2e2d4
+f4_e2d2 | d2_B2
+c4 | d6c_B | _B2AGA4 | G4
+S:https://www.folktunefinder.com/tunes/68700
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

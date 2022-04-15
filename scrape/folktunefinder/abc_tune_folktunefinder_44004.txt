@@ -1,0 +1,29 @@
+X: 10
+T:Home From Holm
+% Nottingham Music Database
+S:Dennis Salter, via PR
+M:4/4
+L:1/4
+K:G
+B/2c/2|"G"d/2^c/2d/2e/2 "D7"d/2=c/2B/2A/2|"G"BG G3/2F/2|"C"EA -"Am"AG|\
+"D7"Fd -dd|
+"C"e2 "G"dc/2B/2|"D7"cA "G"B^c/2^B/2|1"A7"^cA -A/2B/2A/2G/2|"D7"Fd -d:|
+ [2"A7"^cA Aa/2g/2|"D7"fd -"G7"dg||"C"ec c3/2B/2|"F"A=f -f2|"Dm"A3/2B/2 "D7"cd\
+|"G"BG -G2|
+"F"AG/2=F/2 "C"G2|"G7"=FE/2D/2 "C"E2|"D7"D/2E/2F/2G/2 Ad|"G"BG -G2|\
+"C"e2 "E7"e3/2d/2|"Am"cA -A2|
+"A7"aa a/2b/2a/2g/2|"D7"fd -d3/2a/2|"Cm"_b/2a/2g g3/2f/2|"G"gd2^d|\
+"Am"e/2g/2-g/2e/2 "D7"ga|"G"g2 -g||
+S:https://www.folktunefinder.com/tunes/44004
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsH-L.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

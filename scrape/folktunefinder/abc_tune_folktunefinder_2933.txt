@@ -1,0 +1,29 @@
+X: 1
+T: \vSilova\vcko
+%T: Shilovachko
+R: kolo
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"D4 | A3 G | F3 G | D3 F | "C"E3 G | FG EF |1 "Dm"D4 | A,4 :|2 "Dm"D4- | D CDE ||
+|: "Dm"F3 G | "C"E3 F | "Bb"D3 E | "Am"C3 E | "Dm"DC DE | "C"FG EF |1 "Dm"D4- | D CDE :|2 "Dm"D4- | D2z2 |]
+%%sep 8 8 4cm
+K: Am
+|: "Am"A4 | e3 d | c3 d | A3 c | "G"B3 d | cd Bc |1 "Am"A4 | E4 :|2 "Am"A4- | A GAB ||
+|: "Am"c3 d | "G"B3 c | "F"A3 B | "Em"G3 B | "Am"AG AB | "G"cd Bc |1 "Am"A4- | A GAB :|2 "Am"A4- | A2z2 |]
+S:https://www.folktunefinder.com/tunes/2933
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Silovacko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shilovachko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Silovacko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Silovacko.abc
+% Rhythm Kolo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

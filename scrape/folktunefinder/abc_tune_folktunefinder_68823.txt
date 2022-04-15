@@ -1,0 +1,27 @@
+X:277
+T: An den Most
+N: A0318
+O: Europa, Mitteleuropa, Deutschland
+N: Reutterliedlein (1535) No. 5.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: F
+c2 | A2F2c2d2 | c2B2A2
+G2 | c3BA2G2 | c2B2c2A2 | G4z4
+F4c2d2 | c2B2A2
+G2 | c3BA2G2 | c2B2c2A2
+d4c4 | A2F2G4 | F4z2
+S:https://www.folktunefinder.com/tunes/68823
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

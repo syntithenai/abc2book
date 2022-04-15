@@ -1,0 +1,37 @@
+X:140
+T:Reveille, Daybreak - Camp Duties #1 *
+B:American Veteran Fifer - Camp Duties #1
+M:C
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/8
+%%MIDI ratio 2 1
+Td8 -d4 z4|Te8 -e4 z4|Tg8 Te8|THd8 z8||\
+M:2/4 
+K:G 
+c2|B>c A>B G2g2|f>d A>B d2>c2|B>c A>A G2g2|f>d e>c d2>c2|
+B>c A>B G2g2|f>d e>c d2>c2|B>c A>B G2g2|f>d e>c d2(3def|\
+"^Second Camp."\
+g>d B>G e2e2|d>e d>B A2>c2|B>c A>B G2g2|
+B>G A>F G2(3def|g>d B>G e2e2|d>e d>B A2>c2|B>c A>d G2g2|B>G A>F G4||\
+"^Third Camp"\
+c2|B2>A2 G2 z g|f>d e>c d2>c2|B2>A2 G2 z g|f>d e>c d2(3def|
+g>d B>G e2>e2|d>e (3dcB A2>c2|B>c A>B G2g2|B>G A>F G2(3def|g>d B>G e2e2|d>e (3ecB A2>c2|B>c A>B G2g2|f>g a>f g2 z2||\
+"^Drum Roll."\
+c8|c8|c4z4||
+S:https://www.folktunefinder.com/tunes/39536
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

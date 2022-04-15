@@ -1,0 +1,41 @@
+X: 1
+T: the Moffat Ram
+C: Muriel Johnstone
+R: jig
+B: The Whiteaddr Collection, 1993
+D: Dancing Fingers Vol.III
+N:
+N: Muriel Johnstone and Bill Zobel   Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Whiteaddr
+M: 6/8
+L: 1/8
+K: D
+| "D"A2d fed | "Em"B2e gfe | "A7"c2b age | "D"def "A7"A3 \
+| "D"A2d fed | "Em"B2e gfe | "A7"c2b age | "A7"ABc "D"d2 ||
+|| e \
+| "Bm"fB Bfb | "A7"afe "D"d2e | "Bm"f2B Bcd | "A"cBA A2e \
+| "Bm"fB Bfb | "A7"afe "D"d2c | "G"B2b "D"afd | "A7"ABc "D"d2 ||
+|| z \
+| "D"A3 d3 | fed A3 | "Em"B3 e3 | "A7"gfe dcB \
+| "D"A3 d3 | fed A3 | "G"B2b "Em"age | "A7"ABc "D"d2 ||
+|| e \
+| "Bm"fB Bfb | "A7"afe "D"d2e | "Bm"f2B- Bcd | "A"cBA A2e \
+| "Bm"f2B- B2b | "A7"afe "D"d2c | "G"B2b "D"afd | "A7"ABc "D"d2 |]
+S:https://www.folktunefinder.com/tunes/14683
+S:http://trillian.mit.edu/~jc/music/abc/jig/MoffatRamJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MoffatRamJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MoffatRamJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MoffatRamJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MoffatRamJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MoffatRamJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

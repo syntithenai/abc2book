@@ -1,0 +1,29 @@
+X:7947
+T:Waltz. CJF.218
+O:england
+M:3/4
+L:1/16
+Q:160
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:G
+"p"d2|.d2.d2.d2|.d2(dB)g2|.e2.e2.e2|.e2(ec)g2|d2b2a2|\
+g2f2e2|d2c2B2|A4d2|.d2.d2.d2|.d2(dB)g2|.e2.e2.e2|
+e2(ec)a2|(fagfed|cedcBA|GFEDEF|G4h||"Fine"AB|c2A2F2|\
+d4c2|(B2G2)f2|(g2b2) AB|(c2A2).F2|
+d4c2|(B2G2).f2|g4ga|"f".b2(ba)(gf)|(e^defga)|b2bagf|\
+e4fg|.a2(ag)(fe)|(d^cdefg)|.a2(ag)(fe)" D.C."|d4||
+S:https://www.folktunefinder.com/tunes/28399
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

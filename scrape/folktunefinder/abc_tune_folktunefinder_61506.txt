@@ -1,0 +1,20 @@
+X:9473
+T: Legnala Dana
+M: 7/8
+L: 1/8
+K: C
+[| "C"c2G cd ef | "F"f3- ff ef | "G7"g2a gf ~fe/f/ | "C"g/f/e2- e4 \
+ | "C"c2G "C7"cd ef | "Dm"d3- d2 de | "E#7"c2d cB BA | "Am"A3 "G7"G4 |]
+|: "C"[C3E] [CE][DF] [EG][FA] | [E3G]- [E2G] [EG][FA] \
+|  "G7"[G2B][GB] [GB][FA] [FA][EG] | "C"[EG][DF][EG] [DF][CE] [C2E] \
+|  "C"[C3E] "C7"[CE][DF] [EG][FA] | "Dm"[E3G]- [E2G] [DF][EG] \
+| "G7(Fm)"[D2F][CE] [C4E] | "C"[C7E] :|
+S:https://www.folktunefinder.com/tunes/61506
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

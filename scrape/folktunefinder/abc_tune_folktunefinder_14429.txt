@@ -1,0 +1,25 @@
+X: 1
+T: Joe Derrane's
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|: A \
+| "Bm"B3  BAF | "A"AFE E2F | "D"DFA def | afe dBA | 
+| "Bm"BdB BAF | "A"AFE E2F | "D"DFA def | "Bm"edB B2 :| 
+|: d \
+| "Em"e2e edB | "A7"~A3 "D"d2A | def ~a3 | baf afa | 
+| "D"baf afa | baf edB | def afe | "Bm"dBA B2 :|
+S:https://www.folktunefinder.com/tunes/14429
+S:http://trillian.mit.edu/~jc/music/abc/jig/JoeDerranesJ_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JoeDerranesJ_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JoeDerranesJ_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

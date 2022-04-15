@@ -1,0 +1,23 @@
+X:2691
+T:the King's Anthem
+O:ireland
+M:3/4
+K:D
+d2d2 e>d| "tr"{d}c3d e2| {de}f2f2 g2| "tr"{g}f3e d2| \
+e/f/g/e/ {e}d2 c2| {Bc}d6::\
+a2a2 a>b| "tr"{b}a3g f2|
+g2g2g2| "tr"{a}g3f e2|\
+f3/g//a// (gf) "tr"ed\
+|1 {de}f3g a2| b/a/g f2 "tr"e2{de} | {c}d3:|2\
+{de}f3g (a/b/c'/d'/)| (c'/b/a/g) f2 "tr"e3{de} | d6|]
+S:https://www.folktunefinder.com/tunes/42909
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

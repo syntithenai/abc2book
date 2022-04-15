@@ -1,0 +1,29 @@
+X:42
+T:Margriet
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+%P:6x
+L:1/8
+M:6/8
+K:F
+P:A
+"C7"CDE || "F"F2 F "C7"GFG | "F" A3 "F7"FGA | "Bb"B2 B "F"A2 A | "C7"G3 CDE |
+"F"F2 F "C7"GFG | "F7"A3 "Bb"BcB | "F"A2 A "C7"BAG |1 "F"F3 "C7" CDE :|2 "F"F"rit"CD EFG |]
+M:3/4
+L:1/4
+"F"[A2F2] A | "F7"[A_E] B c | "Bb"[d2D2] d | "D7"[d3^F3] | "Gm"[G2G2] G | "C7"[GE] A B | "F" [c2F2] c | "Am"[c3E3] |
+"Dm"[F2D2] F | [FD] G A | "Gm"[B2G2] B | [BG] G F | "C7"E2 c | [BC] [AD] [GE] | "F"F3 |]
+P:Naspel
+"Bb"B B B | "F"A A A | "C7"c d e | "F" f3 |]
+S:https://www.folktunefinder.com/tunes/40623
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

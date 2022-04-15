@@ -1,0 +1,29 @@
+X:6695
+T:Waltz
+M:3/4
+N:The d's are slightly sharpish in the first part (as are some of the c's..)
+N:It goes pretty fast and bouncy, rather than slow and romantic
+O:Norway
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c24.html
+%%ID:00000c24
+K:C
+|:Ac|\
+(efe)d e^g| a2 ec A2| ~c2 (BA) ^GB| (Ac e2) e2|\
+(efe)d e^g|a2 ec A2|~c2 (BA) ^GB|A4::
+e2|\
+(g2e2)f2| d3 efg| (a2^g2)a2| e4 cd| \
+(efg)e fd| ~c3BAc|B2A2 ^G2|A4:|
+S:https://www.folktunefinder.com/tunes/37418
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:1
+T:103. En fin l'Amour
+C:Jacob van Eyck
+Z:Transcribed by Laura Conrad: http://www.laymusic.org
+M:C
+K:C
+%%LY voices \property Staff.raggedlast = ##t
+%%LY voices \partial 4
+V:1
+L:1/4
+|: E | E > F G G | A > B c > d | c c G c | B3 c | A B/ c/ d > c | d e f > e | e3 ::
+S:https://www.folktunefinder.com/tunes/1936
+S:http://www.laymusic.org/music/vaneyck/finlamour-score.abc
+S:http://www.laymusic.org/music/vaneyck//finlamour-score.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

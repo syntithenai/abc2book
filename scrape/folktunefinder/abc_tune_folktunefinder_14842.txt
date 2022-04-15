@@ -1,0 +1,31 @@
+X: 1
+T: Penny Farthing
+C: Bert Murray
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Edor
+B \
+| "Em"EFE BAB | EFE BAB | "D"AdA FAF | DDE FED \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 :|
+B \
+| "Em"efg gfe | Bef gfe | "D"dfd AdA | FAF DFA \
+| "Em"efg gfe | Bef gfe | "D"dcB ABd | BAF "Em"E2 |]
+B \
+| "Em"efg gfe | Bef gfe | "D"dcd A^GA | FEF DEF \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 |]
+S:https://www.folktunefinder.com/tunes/14842
+S:http://trillian.mit.edu/~jc/music/abc/jig/PennyFarthing_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PennyFarthing_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

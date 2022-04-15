@@ -1,0 +1,26 @@
+X:2540
+T:Hgtidsmarsch
+M:4/4
+O:Sweden
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000712.html
+%%ID:00000712
+K:G min
+(G8|G4) F2E2|D3E D2B,2|G,4 B,2D2|\
+G8|G4 ^F2G2|A3B A2^F2|D4 G2A2|\
+B6 cB|A6 BA|G3F E2D2|^C6 EC|\
+D2B,2 D2CB,|A,2F,2 A,2 B,A,|(G,8|G,6):| GA|\
+B4 B2BB|B2AB c2B2|A4 A2AA|A6 AB|\
+c4 c2cc|c2Bc d2c2|\
+B4 B2BB|B6 GA|\
+B4 B2cB|A4 A2BA|G4 GE FG|\
+(^F4 F)D FG|_A6 BA|G4 G2_AG|F6 EF|D8|]
+S:https://www.folktunefinder.com/tunes/36587
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

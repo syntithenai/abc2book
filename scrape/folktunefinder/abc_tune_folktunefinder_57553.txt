@@ -1,0 +1,35 @@
+X:071
+T:Robert Cormack, Aberdeen
+C:James Henry (1860-1914)
+S:The Flowers of Scottish Melody (1935)
+N:"Sweetly"; B part "Faster"
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:F
+C|F>CA>F D>B,G,>G|E/F/G/A/ B/c/d/e/ {e}f2-fA/c/|\
+d>B D/F/B/d/ c>A C/F/A/c/|{c}B>D{A}G>F E/F/{A}G/F/ E/d/c/E/|
+[A,F]>CA>F D>B,G,>G|E/F/G/A/ B/c/d/e/ f2-fA/c/|\
+(3dfe {a}(3g>fd (3cfe {g}(3f>cA|(3GDF (3Edc {A,}[A,2F2] [A,F]|]
+c|f>c f/a/c/f/ A/F/A/c/ f>A|B/A/B/c/ d/c/B/A/ G/F/E/D/ C>c|\
+f>c f/a/c/f/ A/F/A/c/ f>A|B/d/g/f/ e/c/d/e/ {e}f2 fc|
+f>c f/a/c/f/ A/F/A/c/ f>A|B/A/B/c/ d/c/B/A/ G/^F/G/A/ B/c/d/e/|\
+f/e/f/g/ a/b/c'/d'/ c'/a/f/c/ A/F/C/A,/|A/c/f/a/ g/d'/c'/e'/ f'2 f|]
+S:https://www.folktunefinder.com/tunes/57553
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+S:http://nigelgatherer.com/tunes/abc/tb02.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb02.abc
+S:http://nigelgatherer.com/tunes/abc/abc1/cormak.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abc/cormak.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc1/cormak.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abc/cormak.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

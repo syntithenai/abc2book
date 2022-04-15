@@ -1,0 +1,23 @@
+X: 2
+T: Incipit Test 2 (no keysigs)
+K: C
+[| "Barnyards of Delgaty"c>B AE | FA FE \
+\hskip 1em
+[| "Boys of Bluehill"B3A/2F3A/2 D2 F3A/2|B3A/2 (3Bcd \
+\hskip 1em
+[| "Captain Taylor's March"G>F GA | B2 gf | eg/e/ dB | A2 \
+\hskip 1em \
+|
+S:https://www.folktunefinder.com/tunes/2412
+S:http://trillian.mit.edu/~jc/music/abc/test/IncipitTest2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/IncipitTest2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/IncipitTest2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/IncipitTest2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

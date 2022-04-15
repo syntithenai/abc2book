@@ -1,0 +1,25 @@
+X:203
+%%topmargin 3cm
+T:Pease Strae
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+A | (de)fd (ge)fd | eA A/A/A (=c3 e) | (de)fd (ge)fd | egfe d2 d :|
+(f/g/) | afdf afdf | eA A/A/A (=c3 e) | afdf afdf | egfe d2 (fg) |
+afdf afdf | eA A/A/A (=c3 f) | afge fde^c | Agfe d2 d |]
+S:https://www.folktunefinder.com/tunes/71232
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Pease_Strae.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0203.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

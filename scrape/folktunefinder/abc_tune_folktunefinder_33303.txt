@@ -1,0 +1,22 @@
+X: 3390
+T:Garryowen
+R:double jig
+M:6/8
+L:1/8
+K:G
+gf|edc BAG|BcB Bgf|edc BAG|ABA Agf|!
+edc BAG|BcB B2c|def gdB|ABA A:|!
+Bc|d2B d2B|d2B dgf|e2c e2c|e2c e2f|!
+g2a b2a|gfe dBc|def gdB ABA A:|
+S:https://www.folktunefinder.com/tunes/33303
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: The Glasgow Ceilidh Club
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+K: Bm
+"(A)"c \
+| "Bm"dcB BAF | BAB "E7"d2B | "A"cBA ceA | cea "F#7"edc \
+| "Bm"dcB BAF | BAB "G"d2e | "D"faf "F#7"edc | "Bm"dBB B2 :|
+|: "A7"c \
+| "D"dfa dfa | dfa fed | "A"ceA ceA | cea "F#7"edc \
+| "Bm"dcB BAF | BAB "G"d2e | "D"faf "F#7"edc | "Bm"dBB B2 :|
+S:https://www.folktunefinder.com/tunes/14241
+S:http://trillian.mit.edu/~jc/music/abc/jig/GlasgowCeilidhClub_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GlasgowCeilidhClub_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GlasgowCeilidhClub_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/GlasgowCeilidhClub_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/GlasgowCeilidhClub_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,54 @@
+X: 179
+T:Auld Toun o' Ayr, the
+M: 4/4
+L: 1/8
+R:Strathspey
+Q:1/4=211
+% Last note suggests Dorian mode tune
+K:D
+% 2 sharps
+% (c) SSF January 2006
+V:1
+FD<DF<Ad3| \
+cB/2A/2 B/2c<dB/2A<FF-| \
+F/2d/2D<DF3/2A/2d3| \
+f (3efg (3gfed<BB-| B/2d/2D<DF<Ad3|
+\ cB/2A/2 B/2c<dB/2A<FF-| \
+F/2A/2B/2A/2 B/2c<dB/2A<FF-| \
+F/2d/2A<FF3/2D/2E2E| FD3/2d<Fd/2A<FF-| \ F/
+2A/2B/2A/2 B/2c<dB/2A<FF-| \
+F/2d<Dd<Fd/2A<FF-| \
+F/2A<dB/2A<FE3| FD3/2d<Fd/2A<FF-| \
+F/2A<BA<Bc/2d3| \
+f (3efg (3gfed<BB-| \
+B/2d/2A<
+FF3/2D/2E2E|
+V:2
+D, z[AFD] zD, z[AFD]| \
+zG,, z[DB,G,] zD, z[AFD]| \
+zD,z[AFD] zD, z[AFD]| \
+zA,, z[GECA,] zB,, z[FDB,]|
+zD, z[AFD] zD, z[AFD]| \
+zG,, z[DB,G,] zD, z[AFD]| \
+zE, z[BGE] zD, z[AFD]| \
+zD,
+z[AFD] zA,, z[ECA,]|
+zD, z[AFD] zD, z[AFD]| \
+zG,, z[DB,G,] zD, z[AFD]| \
+zD, z[AFD] zD, z[AFD]| \
+zE, z[AFD] zA,, z[ECA,]| zD, z[AFD]
+zD, z[AFD]| \
+zG,, z[DB,G,] zB,, z[FDB,]| \
+zA,, z[GECA,] zG,, z[DB,G,]| \
+zD, z[AFD] zA,, z[ECA,]|
+%  <A name="D1X180">
+S:https://www.folktunefinder.com/tunes/54047
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X: 1
+T: Dinky One-Step
+P: I(ABACDC')nA
+M: 6/8
+L: 1/8
+K: A
+%%indent 400
+"Intro"\
+| "E7"e3 zee | e3 zee | eee eee | e3 z ||
+"A"\
+|: cd \
+| "A"ke3 "D"kf3 | "A"e3 zAB | "A"kc3 "D"kd3 | "A"c3 zBA \
+| "E"kB3 "C#7"kc3 |1 "F#m"A3 zGA | "B7"B2B BcB | "E"e3 z \
+                :|2 "F#m"A3 z"B7"GF | "E7"EFE c2B | "A" A3 "fine"z |] A^A |
+"B"\
+|:"E7"B2^A B2A | c2B GFE | "A"c2^B c2B | c2A GFE \
+| "E7"d2c d2B | "A"e2d e2f | "E"gfe "B7"fe^d |1 "E"eEF GA^A :|2 "E"e3 "d.C."zy |]
+K: D
+"C"\
+[|"D"F3 z^EF | "A7"G3 E3 | G3 zFG | "D"A3 F3 \
+| "D"A2d c2B | "A7"c2G G3 | G2c B2A | "D"B2F F3 \
+||"D"F3 z^EF | "A7"G3 E3 | G3 zFG | "D"A3 F3 |
+| "D"A3d c2B | "A"c2E E2c | "E7"B2E E2B |1 "A"A3 "A7"zG=G :|2 "A"AEF GAB |]\
+"D"\
+[|"A7"c3 c3 | c3 zBA | "D"B3 B3 | B3 z2F |
+| "D"F2G "(B7)"AGF | "Em"G2F G3 | "E7"^G2A BAG | "A"Afe dcB \
+| "A7"c3 c3 | c3 zBA | "D"B3 B3 | B3 zDE |
+| "D"F2^G "B7"AGF | "A"EAc "C#7"e2^e \
+| "Bm"fdB "E7"GEB | "A"A2z A^G=G |] \
+"C'"\
+[|"D"F3 z^EF | "A7"G3 E3 | G3 zFG | "D"A3 F3 \
+| "D"A2d c2B | "A7"c2G G3 |
+| G2c B2A | "D"B2F F3 \
+| "D"F3 z^EF | "A7"G3 E3 | G3 zFG | "D"A3 F3 \
+| "D7"A2^G A2^A | "G"B2E EEF | "A7"GA^A B=c^c | "D"d2d "d.C."dy |]
+S:https://www.folktunefinder.com/tunes/14089
+S:http://trillian.mit.edu/~jc/music/abc/jig/DinkyOneStep_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/DinkyOneStep_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Barnyards of Delgaty
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: A
+ [| "A"c>B AE | "D"FA "A"FE | c>B "F#m"AE | "Bm"FA "E7"B2 \
+  | "A"c>B AE | "D"FA "A"FE | EE "E7"e>d | cB "A"A2 ||
+ || "A"e>A AA | cB "(E7)"cf |  "A"e>A "F#m"AA | "Bm"ce "E7"B2 \
+  | "A"e>A AA | cB ce |  EE "E7"e>d | cB "A"A2 |]
+S:https://www.folktunefinder.com/tunes/15316
+S:http://trillian.mit.edu/~jc/music/abc/march/BarnyardsOfDelgaty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/BarnyardsOfDelgaty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BarnyardsOfDelgaty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/BarnyardsOfDelgaty.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BarnyardsOfDelgaty.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march/BarnyardsOfDelgaty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

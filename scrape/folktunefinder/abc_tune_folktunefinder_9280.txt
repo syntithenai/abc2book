@@ -1,0 +1,26 @@
+X: 1
+P: G\aangl\aat
+R: g\aangl\aat
+S: Janet Gage, Oct 1998
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: A, \
+| A,>D DE | TFE/F/ D>E | TFG/F/ ED/C/ | DA A2- \
+| A2 A>A | A^c de | fe/f/ d>e | fg/f/ e/d/c | d3 :|
+|: e \
+| f>c fa | Tg>e ce/g/ | Tf>e fg | a2- a(3a/^g/a/ \
+| c'>a af | gf/g/ af/e/ | dg e/d/c | d3 :|
+S:https://www.folktunefinder.com/tunes/9280
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Snoa05.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

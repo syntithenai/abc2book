@@ -1,0 +1,23 @@
+X: 754
+T: Jerry's Beaver Hat
+R:jig
+N:"Collected by O'Reilly"
+B:O'Neill's 754
+Z:Transcribed by Michael Hogan
+M:6/8
+L:1/8
+K:D
+D | DFA d2e | fdB BAF | ABA AFD | EFE "tr"E2D |
+DFA d2e | fdB BAF | ABA dAF | DED D2 :|
+d | dfa afd | gbg faf | dfa afd | cee e2f |
+dfa afd | gbg faf | BdB AFA | DED D2 :|
+S:https://www.folktunefinder.com/tunes/76958
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0732-0758_mh.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

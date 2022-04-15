@@ -1,0 +1,26 @@
+X: 1
+T: Przeworska
+C: Trad.
+O: Poland
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+P: Basic tune:
+|: "C"(3c'ba "(G7)"ge | "C"cc eg | "G7"GG Bd |1 "C"cc eg | :|2 "C"czc2 |]
+|: "Am"Ac Ac | "E7"B E2 E | "Am"Ac Ac | "E7"ez e2 \
+|  "Am"Ac Ac | "E7"B E2 E | "E7"e>d cB | "Am"A4 :|
+P: Decorated:
+L: 1/16
+|: "C"c'2ba "(G7)"gfed | "C"c2cc eceg | "G7"G2GG BGBd |1 "C"c2cc eceg | :|2 "C"c2z2c4 |]
+|: "Am"ABc2 ABc2 | "E7".B2 E4 E2 | "Am"ABcB ABcd | "E7".e2z2 e4 \
+|  "Am"ABc2 ABc2 | "E7".B2 E4 E2 | "E7"e3d  c2B2 | "Am"A8 :|
+S:https://www.folktunefinder.com/tunes/7716
+S:http://trillian.mit.edu/~jc/music/abc/Poland/Przeworska_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Przeworska_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

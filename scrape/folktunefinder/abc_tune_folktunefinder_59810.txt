@@ -1,0 +1,45 @@
+X:923
+T:Xiraldilla (CT 463)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 463
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+cB|A2 A2|G2 cB|A2 A2|G2 zG|
+|: cc cd|ee ef|e2 d2|c2 cB|A2 A2|G2 zG :|
+cc cd|ee ef|e2 d2|c2 cB|Ac BA|G2 cB|Ac BA|G2 GG|
+cc cd|ee gf|ef ed|c2 GG|
+cc cd|ee gf|ef ed|c2 ||
+W:Rosa encarnada es la bandera,
+W:la que se bambolea por toda Espaa.
+W:As deca:
+W:que Espaa no se gana toda nun da,
+W:ni se ganara
+W:si no fuera traidores que hai en Espaa.
+W:
+W:De maana sale el sol,
+W:de tu carita la flor;
+W:sale el sol, sale la luna,
+W:sale la luna y el sol,
+W:sale el sol sale la luna,
+W:sale mi nia al balcn.
+W:
+S:https://www.folktunefinder.com/tunes/59810
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

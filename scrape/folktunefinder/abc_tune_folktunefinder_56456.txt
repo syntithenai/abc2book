@@ -1,0 +1,19 @@
+X:1517
+T:Black Mill
+Z: id:dc-reel-368
+M:C
+L:1/8
+K:A Mixolydian
+gf|edef g2fe|dBGB dBGB|edef gage|dBgB A2:|!
+cd|e2ed eAAB|c2dB dBGB|e2ed eAAB|dBGB A2cd|!
+e2ed eAAB|c2dB dBGB|edef gage|dBGB A2|]!
+S:https://www.folktunefinder.com/tunes/56456
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

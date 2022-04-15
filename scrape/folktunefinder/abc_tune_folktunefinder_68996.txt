@@ -1,0 +1,23 @@
+X:137
+T: GUTN ABEND GUTN ABEND FRAU MUELLERIN
+N: Z0136
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2B2B2 | d2d2d2D2 | G6
+D2 | G2G2B2B2 | d2ddd2
+DD | G2GGB2BB | d2d2d2
+DD | G2GGB2DD | G6
+S:https://www.folktunefinder.com/tunes/68996
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

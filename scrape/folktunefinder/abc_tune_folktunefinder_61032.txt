@@ -1,0 +1,29 @@
+X:8999
+T:La Musga\~na tune 1
+R:Other
+O:Spain
+M:4/4
+A:Galicia
+K:Dm
+G AB|\
+c2 A(B B)c BA|G2 A(F F)(D D)E/F/|\
+G2 A(B B)G A2|G2 F/E/(F F)D A2|
+G2 F/E/(F F)D AF|(D4 D)D EF|\
+G2 E(F F)(D D)E/F/|D4 z::
+D EF|\
+G2 F/E/(D D)D EF|G2 F/E/(D D)D EF|\
+G2 A(B B)G A2|
+G2 F/E/(F F)D A2|\
+G2 F/E/(F F)D AF|(D4 D):|
+S:https://www.folktunefinder.com/tunes/61032
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

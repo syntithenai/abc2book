@@ -1,0 +1,32 @@
+X:191
+T: DA STREITEN SICH DIE LEUT HERUM
+N: B0676
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied, Vergaenglichkeit
+M: 4/4
+L: 1/8
+K: G
+d2 | e2d2c2B2 | B2A2A2z
+B | d3cB2A2 | G4z2
+d2 | e2d2c2B2 | B2A2A2z
+B | d3cB2A2 | G4z2
+B2 | A2A2B2^c2 | d2A2f2z
+d | ^c2A2g3c | d4z2
+d2 | e2d2c2A2 | B2d2g2
+d2 | f3ed2F2 | G4z2
+B2 | A2A2B2^c2 | d2A2f2z
+d | ^c2A2g3c | d4z2
+d2 | e2d2c2A2 | B2d2g2
+d2 | f3ed2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/62214
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, vergaenglichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

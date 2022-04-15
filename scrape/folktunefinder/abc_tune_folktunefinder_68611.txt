@@ -1,0 +1,26 @@
+X:65
+T: Ritter und Maid
+N: A0069A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei Fr. Nicolai, Almanach I, 1771 No. 2.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+d2 | d2c2d2_e2 | =f3gd3
+f | _e2d2c2_B2 | c4d2z
+c | c2ccd2c2 | _B3AG3
+A | _B2c2d2B2 | A4G2
+S:https://www.folktunefinder.com/tunes/68611
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

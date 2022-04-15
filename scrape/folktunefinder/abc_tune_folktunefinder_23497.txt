@@ -1,0 +1,24 @@
+X:3046
+T:Jockey to the Fair
+O:england
+M:6/8
+R:Jig
+K:G
+D|\
+G2A B2c| d2g d2c| (Bd).G GFG| (A/B/c).B A2d|\
+d^cd (ef)g| faf e2g| fed Ad^c| d3 d2::
+d|\
+afd afd| c2c B2c| dgd dgd|c2c B2B|\
+e2f g2f| e2f B2e| e^de B2A| G2F E2F|
+G2G G2B| d3 g3| dBG A2B| E2F G2A| B2g BcA| (G3 G2):|
+S:https://www.folktunefinder.com/tunes/23497
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 48
+T: Bugeacul
+O: Romania
+M: 6/8 
+L: 1/8
+K: F
+%%MIDI gchord fg
+|:"F"AcB B2A    |AcB B2A  |AcB B2A|AA2 GF2 :|
+%%MIDI gchord fz
+|:"A"A2G "Bb"F2E|"D"D3 c2B|A2G F2E|FGE D3  :|
+S:https://www.folktunefinder.com/tunes/67934
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

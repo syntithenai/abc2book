@@ -1,0 +1,24 @@
+X: 1
+T: the Peverill Lasses
+M: 4/4
+R: reel
+C: Jean Duval
+S: Juergen Gier <Juergen.Gier@post.rwth-aachen.de>
+Q: 190
+K: Bm
+|  F2fe dcBA | G2BG DGBG |1 F2fe dcBA | Acec aecA :|2 F2fe dcBA | AcBd cedc |
+|: d2dc defd | e2ed egfe | dAFA DAFA | GFEF GABc |  d2dc defd | e2ed efga |
+| bfde fdGB | decA B4 :: FBdB FBdB | GBdB GBdB | FBdB FBdB | AcBd cedB |
+|1 FBdB FBdB | GBdB GBdf | bfde fdGB | decA B4 :|2 FdBF dFBd | GdBG dGBd |
+| bfde fdGB | decA B4 |]
+S:https://www.folktunefinder.com/tunes/17860
+S:http://trillian.mit.edu/~jc/music/abc/reel/PeverillLasses.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

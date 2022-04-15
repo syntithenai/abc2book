@@ -1,0 +1,61 @@
+X:11
+T:11 Inflammatus et accentus
+T: due
+M:C
+L:1/8
+%%staves s | a | {1 2 3}
+Q:"Allegro"
+K:Bb
+% (51)
+V:s name=Sopran dyn=up
+z8|z8|z8|
+V:a name=Alt dyn=up
+z8|z8|z8|
+V:1 name="Str.\nBc."
+ff2e [Fd][Fd]2[Ec]|TB/A/B Tc/B/c d/c/Bz2|ff2e [Fd][Fd]2[Ec]|
+V:2
+x8|DB2A BG F/E/D/C/|!dolce!x8|
+V:3
+B,,2B,,2B,,2B,,2|B,,B,E,F, B,,G, F,/E,/D,/C,/|[B,,B,]2B,,2B,,2B,,2|
+V:s% M4
+z8|z8|z8|
+V:a
+z8|z8|z8|
+V:1
+TB/A/B Tc/B/c d/c/B zf|gb2a bB zf|gb2a bBe2|
+V:2
+DB2AB2!forte!B,2|gfe2dEF!dolce!d|gfe2dB2!forte!A|
+V:3
+B,,B,E,F, B,,C,D,B,,|E,D,C,F, B,,C,D,B,,|E,D,C,F,B,2G,A,|
+V:s% M7
+z8|z8|z8|
+V:a
+z8|z8|z8|
+V:1
+dc/B/Tc2x4|cdTe2d2fB|cdTe2db/a/ bb|
+V:2
+F2BAB2!dolcea!fB|x8|x4!fortea!x4|
+V:3
+B,D,E,F, B,,B,,D,D,|E,F,G,A, B,B,D,D,|E,F,G,A, B,FDC|
+% (52)
+V:s% M10
+z8|z8|z8|
+V:a
+z8|z8|z8|
+V:1
+Bb/a/ bb Bb/a/ bb|Ge d/B/c/A/ Bb/a/ bb|Bb/a/ bb Bb/a/ bb|
+V:2
+x8|x4x!dolce!x3|x8|
+V:3
+B,DB,A, G,B,G,F,|E,E,F,F, B,,F,D,C,|B,,D,B,,A,, G,,B,,G,,F,,|
+V:s% M13
+z8|f(f2e) d(d2c)|TB2Tc2d/c/ Bz2|
+S:https://www.folktunefinder.com/tunes/1819
+S:http://moinejf.free.fr/abc/stabat.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

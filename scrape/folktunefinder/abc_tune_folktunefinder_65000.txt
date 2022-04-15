@@ -1,0 +1,23 @@
+X:1260
+T:Rattlebones
+% Nottingham Music Database
+S:Upton, via EF
+M:6/8
+K:G
+P:A
+d/2d/2|"G"dBB BAG|"D"AGA "Em"BGE|"G"DGG GBd|"C"edB "D"Add|
+"Em"dBB BAG|"D"AGA "Em"BGE|"G"DGG GAB|"D7"AGF "G"G2:|
+P:B
+B/2A/2|"G"GBd g2d|"C"edB "D7"BAG|"G"GBd g2d|"C"ed"c#"B "D"A2-"d#"A|
+"Em"GBd g2d|"G"edB ABd|"C"ege "G"dBG|"D7"AGA "G"G2:|
+S:https://www.folktunefinder.com/tunes/65000
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

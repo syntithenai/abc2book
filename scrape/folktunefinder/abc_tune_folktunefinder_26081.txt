@@ -1,0 +1,53 @@
+X:5629
+T:Room For Company
+O:england
+S:Digital Tradition, roomcmpn
+H:First printed in 1614. From Roy Palmer.
+M:6/8
+L:1/8
+Q:3/8=100
+W:Room for company, here come good fellows,
+W:Room for comp'ny in  Bartholmew Fair.
+W:Cobblers and broom-men, jailers and loom-men,
+W:Room for comp'ny in  Bartholmew Fair.
+W:Butchers and tailors, shipwrights and sailors,
+W:Room for company, well may they fare.
+W:Room for company, here come good fellows,
+W:Room for comp'ny in  Bartholmew Fair.
+W:
+W:Paviers, bricklayers, potters and brickmakers,
+W:Room for comp'ny in  Bartholmew Fair.
+W:Pinders and pewterers, plumbers and fruiterers,
+W:Room for company, well may they fare.
+W:Room for company, here come good fellows,
+W:Room for comp'ny in  Bartholmew Fair.
+W:
+W:Pointers and hosiers, salemen and clothiers,
+W:Horse coursers, carriers, blacksmiths and farriers,
+W:
+W:Colliers and carvers, barbers and weavers,
+W:Sergeants and yeomen, farmers and ploughmen,
+W:
+W:Bellfounders, felmongers, bellowsmenders, woodmongers,
+W:Pumpmakers, glassmakers, chamberlains and matmakers,
+W:
+W:Collarmakers, needlemakers, buttonmakers, fiddlemakers,
+W:Fletchers and bowyers, drawers and sawyers,
+K:Bb
+B2B, DEF|GcB A-GA|B2B, DEF|GcA B3|
+BBB, D-EF|GcB A-GA|B2B, DEF|GcA B3|
+dcB d-cB|dcB d-cB|c-AB cAB|ced c3|
+B2B, DEF|GcB A-GA|B2B, DEF|GcA B3||
+S:https://www.folktunefinder.com/tunes/26081
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1704
+T:Boil the Breakfast Early
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:G
+BA|G2BGAD~D2|G2BG c2BA|GABG AD ~D2|GE~E2 c2 BA|\
+~G3 B AD~D2|G2BG c2Bc|dBcA BGAF|GE~E2 c2 ||*
+K:D
+Bc|dA~A2 dAFA|dA~A2dfec|dA~A2 dAFA|GE~E2 =c2 Bc|\
+dA~A2 dAFA|dA~A2dfec|dBcA BGAF|GE~E2 =c2 BA||**
+S:https://www.folktunefinder.com/tunes/56643
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

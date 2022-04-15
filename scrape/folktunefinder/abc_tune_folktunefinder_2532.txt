@@ -1,0 +1,23 @@
+X:7
+T:Slurs and Ties
+T: Title with funny chars like \cC\'e\~n\^o \`A\cc\"a\ss\"o \251
+M:C|
+K:Ebm
+[| (CDEF) ((3efg) ((3gag)| (C2 EF) (ef(ga)) | ((c2 (3(d)ef) e2)\
+ A2-|A4 (c4|(c4)(e4)|a8) |]
+S:https://www.folktunefinder.com/tunes/2532
+S:http://trillian.mit.edu/~jc/music/abc/test/SlursAndTies.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/SlursAndTies.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/SlursAndTies.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/SlursAndTies.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

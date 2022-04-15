@@ -1,0 +1,26 @@
+X:2070
+T:Fram Apon Him
+O:england
+S:Peter Kennedy, via EF
+M:4/4
+K:D
+M:6/8
+P:A
+A/2G/2|"D"F2A "A7"d2e|"D"fgf e2f|"G"g2f e2c|"Em"d2c "A7"B2A|
+"D"F2A "A7"d2e|"D"fgf "G"e2g|"D"fef "A7"gec|"D"d3 d2:|
+P:B
+A/2G/2|"D"F2A d2A|"G"BAG "D"F2D|"G"GBG "D"AFA|"Em"E2E "A7"E2D|
+"D"F2A d2A|"G"BAG "D"F2g|"D"fef "A7"gec|"D"d3 d2:|
+S:https://www.folktunefinder.com/tunes/22521
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

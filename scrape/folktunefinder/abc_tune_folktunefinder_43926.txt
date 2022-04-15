@@ -1,0 +1,29 @@
+X:305
+T:Paddy Mulligans Jig
+A:Lancaster
+C:Andy Hornby
+M:6/8
+N:March 95
+O:England
+R:Jig
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000771.html
+%%ID:00000771
+K:D
+A|\
+F3FED|FGA d2A|Bcd AFD|E3 EAG|\
+F3 FED|FGA d2A|Bcd ecA|d3 d2 :|
+|:g|\
+f2d dag|f2d dcd|e2A f2A|g2A e2A|\
+f2d dag|f2d dcd|ecA gec|d3 d2 :|
+S:https://www.folktunefinder.com/tunes/43926
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,46 @@
+X: 1
+T: the Original Schottische Polka
+R: shottish
+F: http://nla.gov.au/nla.mus-vn606599-s2
+F: http://www.nla.gov.au/apps/cdviewpi=nla.mus-vn606599-s2-e
+N: "No. 16 of A Selection of Favourite POLKAS Arranged for the Piano Forte BY Jullien & &"
+N: Published by G. Hudson, 377 Pitt St. North, Sydney
+N: Dated 1840-1849
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3FG^G \
+| "D".A2.f2 "A7".G2.e2 | "D"F2 (d3AFD) | "A7"C2 (B3AGE) | "D"D2 (B3AFG) |
+| "D".A2.f2 "A7".G2.e2 | "D"F2 (d3AFD) | "A7"C2 (B3AGE) | "D".D2.[F2D2].D2 :|
+|: AB \
+| "A".[c2A2](dc) "E7".B2(cB) | "A".A.E"D".F.^G "A".A.B.[cA].[dB] \
+| "A".[c2A2](dc) "E7".B2(cB) | "A"({B}A^BAB) "A7"({B}A=GF[GE]) |
+| "D".[A2F2]{A}.f2 "A7".[G2E2]{G}.e2 | "D"[F2D2] ([d3F3]AFD) \
+| "A7"C2 ([B3E3C3]AGE) | "D"D2[d2F2]D2 :|
+|: F2 \
+| "Bm"B2B2 ({c}B>^AB>c) | "Bm"({e}d>cA2) ({e}d>cA2) \
+| "F#7".[c2^A2]<[f2F2] .[c2A2]k[f2F2] | "Bm"(d>ec>d) B,2B2 |
+| "Bm"d2d2 "/Bb"({e}d>c"Bdim"d>e) | "D"({g}f>ed2) ({g}[fd]>ed2) \
+| "A7".[e2c2]ka2A2 .[e2c2]ka2 |1 "D"f>g "A7"e>f "D"d2 :|2 "D"[f2A2].[dAFD].[dAFD] .[d2A2F2D2] |]
+"Coda"[|]\
+  "D"d2z2 z2"n.c."z[a-cA] | [a2c2A2][a2c2A2] [f3d3A3] [c'e2c2][c'e2c2] [d'2a2f2d2]z2 \
+| "8va"[d'2a2f2d2]z2 z4 | "loco."[d4A4F4D4] z2 |]
+S:https://www.folktunefinder.com/tunes/18418
+S:http://www.nla.gov.au/apps/cdviewpi=nla.mus-vn606599-s2-e
+S:http://nla.gov.au/nla.mus-vn606599-s2
+S:http://www.nla.gov.au/apps/cdviewpi=nla.mus-vn606599-s2-e
+S:http://nla.gov.au/nla.mus-vn606599-s2
+S:http://trillian.mit.edu/~jc/music/abc/shottish/OriginalSchottischePolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/shottish/OriginalSchottischePolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/shottish/OriginalSchottischePolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/OriginalSchottischePolka_D.abc
+% Rhythm Shottish
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

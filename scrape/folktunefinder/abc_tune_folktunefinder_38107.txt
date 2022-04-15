@@ -1,0 +1,25 @@
+X:16736
+T:The Gadie Water
+R:jig
+M:6/8
+L:1/8
+K:C
+G |\
+"C"cdc "F"cBA | "C"GAG GEG | "C"cde gec | "G7"Bdd dBG |\
+"C"cdc "F"cBA | "C"GAG Ggf | "C"edc "G7"dBG | "C"G2c c2:|
+e |\
+"C"gec ceg | "F"afa "G7"g2f | "C"edc "D7"cde | "G7"dBG Gg>f |\
+"C"edc ceg | "F"afa "G7"g2f | "C"edc "G7"dBG | "C"c3 c2e | 
+"C"gec ced | "F"afa agf | "C"edc "D7"cde | "G7"dBG "C7"GA_B |\
+"F"AFA cBA | "C"GEG "G7"Ggf | "C"edc "G7"dcB | "C"c3 c2 |]
+S:https://www.folktunefinder.com/tunes/38107
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

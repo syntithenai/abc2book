@@ -1,0 +1,23 @@
+X: 34
+T:Morrison's Jig (A section 1)
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:Em
+"Em"E2E B2B|E2E "D"AFD|
+"Em"E2B E2B|"G"dcB "D"AFD|
+"Em"E2E B2B|E2E "D"AFD|
+"G"GAG "D"FGA|"G"d3z|
+S:https://www.folktunefinder.com/tunes/50542
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

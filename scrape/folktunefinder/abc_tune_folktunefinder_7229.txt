@@ -1,0 +1,30 @@
+X: 1
+T: Od Yishoma #1
+C: S.Carlebach
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"E2 E2 | B,E2E | G2 G>G | EG3 \
+| "Am"A2 A2 | EA2c |1 "B7"BA GA | "Em"B4 :|2 "B7"BA GF | "Em"E4 |]
+|: "G"Bc dB | ed2c | "E7"Bc dB | "Am"c2-c2 \
+| AB cA | "D7"dc2c |1 BA GA | "G"B4 :|2 "B7"BA GF | "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/7229
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/OdYishoma123_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/OdYishoma123_Bbw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/OdYishoma1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/OdYishoma1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/OdYishoma1_Em_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/OdYishoma1_Em_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/OdYishoma123_Bbw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/OdYishoma1_Em_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/OdYishoma1_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

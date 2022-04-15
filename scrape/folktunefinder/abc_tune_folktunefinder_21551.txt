@@ -1,0 +1,39 @@
+X:1102
+T:Chingford Processional
+O:england
+M:6/8
+C:
+S:Chingford MM
+N:based on Bartholomew Fair
+A:Chingford
+R:
+%P:A.(AB)$^{\infty}$.A
+P:A.(AB)8.A
+L:1/8
+K:G
+I:speed 300
+P:A
+|:\
+g2 d Bcd|eag fef|g2 d Bcd|eaf  g3:|\
+P:B
+bag  bag|bag bag|afg  afg|ac'b a3|\
+M:2/2
+L:1/4
+g2 d2|b c d2|e a g2|d e d2|\
+M:6/8
+g2 d Bcd|eaf g3||
+W:C[] part can be (AAB)
+S:https://www.folktunefinder.com/tunes/21551
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

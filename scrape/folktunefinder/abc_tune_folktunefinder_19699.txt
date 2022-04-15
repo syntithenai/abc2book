@@ -1,0 +1,28 @@
+X: 1
+T: Waukin' o' the Fauld
+R: strathspey
+M: C
+L: 1/8
+K: Ador
+A>G \
+| "Am"E-<A A>B A2 g>e | "G"d>B AG "C"E2 D>E \
+| "G"G>A B>A "C"G-<E D>E | "G"G>A B>A G>E D>G |
+| "Am"E-<A A>B A2 G>A | "G"B>A Bd "C"e2 g>a \
+| "G"b>a g>e de/f/ g>B | "Em"A>G E-<G "Am"A2-A ||
+B \
+| "Am"A-<a a>b "(D)"a2 g>a | "G"b2 a>g "C"e2 d>e \
+| "G"g>a g-A B-<G | "G"g/f/g/a/ gb "Em"GA BG |
+| "Am"A-<a a>b "(D)"a2 g>f | "C"e>d e-<g "Am"a2 g>a \
+| "G"b/a/g a/g/e de/f/ g>B | "Em"A>G E-<G "Am"A2-A |]
+S:https://www.folktunefinder.com/tunes/19699
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WaukinOTheFauld_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WaukinOTheFauld_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

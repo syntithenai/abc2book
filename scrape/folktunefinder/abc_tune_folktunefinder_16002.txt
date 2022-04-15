@@ -1,0 +1,20 @@
+X: 1
+T: Vi ro musikanter
+T: We are musicians
+O: Scandinavia
+M: 2/4
+L: 1/8
+K: G
+D | "G"G>F GA | B2 BB | "D7"A>G AB | "G"G2 z :|
+S:https://www.folktunefinder.com/tunes/16002
+S:http://trillian.mit.edu/~jc/music/abc/misc/Vi_aro_musikanter_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/ViAroMusikanter_GW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Vi_aro_musikanter_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/ViAroMusikanter_GW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/song/ViAroMusikanter_GW.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

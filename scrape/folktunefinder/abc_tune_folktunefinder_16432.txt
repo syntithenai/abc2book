@@ -1,0 +1,34 @@
+X: 1
+T: R\orospols etter Bruce Sagan
+R: pols
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+vA>ud \
+| "D"(vd>A) (uAd) vd>uf \
+| (f>A) (Ad) d>f \
+| "A7"(f>e) (ed) d>c \
+| (c>B) A2 A>d \
+| "D"(d>A) (Ad) d>f |
+| ((5f/g/f/e/f/) g2 f2 \
+| "A7"(e>g) (fd) e>c \
+| "D"d4 :: f>g \
+| "D"a2 (a>f) g>b \
+| a2 g2 f2 |
+| "Em"(e>f) (gf) g>b \
+| "A7"a2 g2 f2 \
+| "D"A2 (a>f) g>b \
+| a2 g2 f2 \
+| "A7"(e>g) (fd) e>c \
+| "D"d4 :|
+S:https://www.folktunefinder.com/tunes/16432
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_BruceSagan.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:361
+T: "Die Mordfranzosen"
+N: Z1041
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade, Tod, historisch Dreissigjaehriger Krieg)
+M: 3/4
+L: 1/8
+K: F
+FF | F3AcB | A3GFA | G2G2B2 | A4z2
+c6 | d4cB | A4G2 | F4
+GA | G2A2=B2 | c2C2
+CE | F2FEDE | F2F2G2 | FED2D2 | C4z2
+c2d2cA | B3cAG | FGA2G2 | F4
+S:https://www.folktunefinder.com/tunes/69220
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, historisch dreissigjaehriger krieg)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

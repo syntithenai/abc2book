@@ -1,0 +1,33 @@
+X: 2
+T: Sunrise, Sunset
+O:Fiddler on the Roof
+Z: John Chambers <jc:trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+K:Am
+|| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6) |
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | A6 \
+|  "B"B6 | "B7"B6 | "E"(c6 | "E7"c6) ||
+|| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6) |
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | "B7"^d6  | \
+|  "E"e6- | "E7"e6- | "E6"e6 | "E"[^GE][AF][BG][GE][AF][BG] ||
+|: "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "E7"[B2^G] \
+|  "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "E7"[B2^G] \
+|  "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "Dm"[d2B] \
+|  "Am"[e6c] | "A7"[^cA][dB][ec][cA][dB][ec] |
+|  "Dm"[f2d] [f2d] [f2d] | "G7"[fd][ec] [d2B] [f2d] | "C"[e6c] | "Am"[c6A] \
+|  "Bm"[d2B] [d2B] [d2B] | "E7"[dB][cA] [B2^G] [d2B] |1 "Am"([c6A] | [c6A]) |2 "Am"([A6A] | [A6A]) :|
+S:https://www.folktunefinder.com/tunes/7357
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SunriseSunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Waltz_SunriseSunset.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

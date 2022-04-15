@@ -1,0 +1,27 @@
+X:32
+T: ICH HOERT EIN BAECHLEIN RAUSCHEN
+N: B0519
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 2/4
+L: 1/16
+K: G
+Bc | d2d2d2d2 | d3BG2
+BG | D2D2DFAF | G4z2
+Bc | d2d2d2d2 | d3BG2
+BG | D2D2DFAF | G4z2
+B2 | B2B2z2BA | ^G2G2z2
+=G2 | A2A2e2ed | c4z2
+A2 | BcBcd2d2 | d3BG2
+BG | D2D2DFAF | G4z2
+S:https://www.folktunefinder.com/tunes/62055
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

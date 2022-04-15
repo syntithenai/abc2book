@@ -1,0 +1,24 @@
+X: 1
+T: the Providence Reel
+T: the Rossport Reel
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+   F \
+| "A7"~E3F "D"DEFA | "D"d2fd gefd | "G"edBd "D"A2FA | "Em"B{c}dAF        GFED | 
+| "A7"EDCE "D"DEFA | "D"d2fd gefd | "G"edBd "D"A2FA |  "G"B{c}d"A7"AG "D"FDD :|
+|: e \
+| "D"fd~d2    fdad | "D"fd~d2 "A7"ecAc |  "D"fd~d2    fdad | "A7"fgag "D"fdde | 
+| "D"fgaf "A7"gfec | "Bm"dBAF  "G"G2FG | "A7"A2{BA}GB ABde | "A7"faeg "D"fdd :|
+S:https://www.folktunefinder.com/tunes/17913
+S:http://trillian.mit.edu/~jc/music/abc/reel/Providence_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Providence_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Providence_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

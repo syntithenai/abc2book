@@ -1,0 +1,29 @@
+X:4680
+T:Polska
+A:Skvde
+C:e. Carl Aron Hakberg
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cec.html
+%%ID:00000cec
+K:F
+(Ad) (d^c) de | f2 (fe) dd | ((3d^cd) (e>c) A2 |\
+F>A ((3GFG) A2- | A>(G E)<(F D2) |
+(A>d) (d>^c) d>e | (ef) (fg) ga | (af) (fd) d(f |\
+a)>(^f e)(^c A)c | (3ege d4 ::
+a2 (fa) c'>a | (ag) (3gfg a2 | \
+(ag) (fe) df | (a>^f) (f>e) e>c |
+(3:2A2f2a2 c'a | (a>g) (3gfg a2 | \
+(ag) (fe) df | a>^f e^c A>c | (3ege d4 :|
+S:https://www.folktunefinder.com/tunes/37015
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

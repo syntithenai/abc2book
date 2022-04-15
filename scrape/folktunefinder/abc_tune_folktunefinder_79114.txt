@@ -1,0 +1,28 @@
+X:10
+T: IS DENN MEI VATER A LEIERSMANN
+N: E1007
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Tanz - Lied
+M: 3/8
+L: 1/16
+K: G
+ | B2BcB2 | A2B2c2 | d2ded2
+B2BcB2 | A2B2c2 | d4z2
+B2BcB2 | A2B2c2 | d2ded2
+B2BcB2 | A2B2c2 | d4z2
+B2dBG2 | A2cAF2 | G2B2D2
+B2dBG2 | A2cAF2 | G4z2
+B2dBG2 | A2cAF2 | G2B2D2
+B2dBG2 | A2cAF2 | G4z2
+S:https://www.folktunefinder.com/tunes/79114
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

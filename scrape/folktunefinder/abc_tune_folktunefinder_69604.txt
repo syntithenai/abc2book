@@ -1,0 +1,22 @@
+X:44
+T: EIN BISSERLE LIEB UND E BISSERLE TREU
+N: F0130
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Spott
+M: 3/8
+L: 1/16
+K: F
+C2 | FGA2B2 | c2c2c2 | d2d2d2 | c4
+cc | B2B2B2 | A2A2A2 | G2G2G2 | F4
+c2 | G2c3B | A2f3c | c2A2G2 | F4
+S:https://www.folktunefinder.com/tunes/69604
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

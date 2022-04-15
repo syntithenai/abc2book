@@ -1,0 +1,29 @@
+X: 1
+T: Lady Belhaven's Delight
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: from medley by White Cockade
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2A2 A2c2 | "E"B3G E2G2 | "A"A2A2 "(F#m)"c2A2 | "B7"B4 "E7"B2c2 \
+| "A"A2A2 A2F2 | "E7"G3A B2c2 | "D"F3B "E7"AGFE | "A"A4 A2 :|
+fg \
+| "A"a3e agfb | a3f e2c2 | A2A2 c2e2 | "Bm"f2B2 "E7"B2fg \
+| "A"a3e agfb | a3f e2c2 | "E7"E2E2 E2FG | "A"A4 A2 |]
+fg \
+| "A"a3e agfb | a3f e2c2 | A2A2 "F#m"c2e2 | "Bm"f2B2 "E7"B2cd \
+| "A"c2e2 e2a2 | "D"d2f2 f2b2 | "E7"E2E2 E2FG | "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/15519
+S:http://trillian.mit.edu/~jc/music/abc/march/LadyBelhavensDelight_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/LadyBelhavensDelight_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LadyBelhavensDelight_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

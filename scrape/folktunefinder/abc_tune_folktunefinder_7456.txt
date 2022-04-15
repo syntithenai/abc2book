@@ -1,0 +1,24 @@
+X: 1
+T: Yibane Hamikdash [Dm]
+O: Trad Ashekazi
+O: Zemirot Liturgy
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"F D2 F | "C"ED C2 | CG FE | "Dm"D2 D2 | "Dm"F D2 F | "C"ED C2 |
+S:https://www.folktunefinder.com/tunes/7456
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/YibaneHamikdash.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/YibaneHamikdash_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/YibaneHamikdash_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/YibaneHamikdash_Dm_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:6
+T: Schuettensam
+N: A0373A
+O: Europa, Mitteleuropa, Deutschland
+N: Aus einem fliegenden Blatt von 1540.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/4
+K: G
+ |  |  | G2G2G2 | d2d2e2e2 | c4z2
+c2 | d3e=f2g2- | g2=f2e4 | d4z2
+d2 | =f3ed2c2 | _BABcd4
+=f3e | d2c4_B2A4 | G4z2
+d2d2d2 | c2A2_B2G2 | =F4z2
+f2 | =f2d2e2f2 | g4=f3e
+defed2c_B | A4z2
+G2 | _B2c4B2A4 | G8 | z2
+S:https://www.folktunefinder.com/tunes/80065
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

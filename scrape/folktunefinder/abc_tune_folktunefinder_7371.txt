@@ -1,0 +1,27 @@
+X: 3
+T: Tsav\'e [Em]
+M: C
+L: 1/8
+S: Printed MS of unknown origin
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+P: ABCB
+K: Em
+"A"\
+|: "Em"kB2 kB2 (BA) G2 | "Em"kB2 kB2 (BA) G2 \
+|1 "Am"G A2 G (BA) (AG) | "Em"G3 G G4 \
+:|2 "Em"(EF) GF "B7"(AG) (FG) | "Em"E3 E E4 |]
+"B"[| "Am"kA kA2z "D"kA kA2z | "Am"kA kA2z "D"A2 "Em"G2 \
+| "Am"G A2 G "B7"(AG) (AG) | "Em"G3 G G4 \
+| "Am"kA kA2z "D"kA kA2z | "D"(dc) (BA) "Em"(GF) E2 |
+| (EF) GF "Am"(AG) "B7"(FG) | "Em"E3 E HE4 \
+"C"\
+|: "Em"ke ke2z "C"ke ke2z | "Am"ke ke2z "Em"ke ke2z | (B^c) dc (ed) (cd) | "B7"B3 B "->B"B4 :|
+S:https://www.folktunefinder.com/tunes/7371
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Tsave.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

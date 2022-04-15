@@ -1,0 +1,30 @@
+X:11747
+T:New London Hornpipe. FK.18
+M:4/4
+L:1/8
+Q:160
+C:"MS 42 p.6"
+S:Kidson's Hornpipe MS,early 20th C.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:G
+B2 AB G2 f2 | g2 eg f2 d2 | cdec Bcde | cABG GFED |!
+ EDEF G2 G2 | BABc d2 g2 | ecGB cAFA |"*"G2 G2 G2:|:!
+ d2 | g2 eg f2 d2 | g2 eg f2 d2 | cdec BcdB | cABG GFED |!
+ EDEF G2 G2 | BABc d2 g2 | dBGB cAFA | G2 G2 G2 |]
+% * The anacrusis implied is missing.JB |]
+S:https://www.folktunefinder.com/tunes/54496
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

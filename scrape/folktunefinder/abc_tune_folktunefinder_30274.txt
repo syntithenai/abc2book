@@ -1,0 +1,65 @@
+X:3
+T:Bransle Champaigne 1
+R:
+C:Anamnse
+H:1998
+N:
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/2
+L:1/2
+Q:1/2=135
+K:F
+%%staves [1 | 2 | 3]
+%%measurenb 0
+%%measurebox 1
+%%staffsep 49pt
+%%sysstaffsep 30pt
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+c2AG | d>BA2 | c2AG | d>BA2 | c2BA | d>BA2 |:
+G/A/B>A G/F/ | G/A/ G>D D | G/A/B>A G/F/ | G/A/ G>d d |
+G/A/B>A G/F/ | G/A/ G>D D | G/A/B>A G | G D2 z :|
+[M:8/2] AD>FG>F G/F/ ED   | [M:9/2] AD>FG>F  GFE2 |
+[M:8/2] AD>FG>F G/F/ ED   | [M:9/2] AD>FG>F  GFE2 |
+V:2
+K:F
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+G2DG | A>FF2 | G2DG | F>FD2 | G2D_E | G2F2 |:
+G/A/d2 c | cG2G | G/A/d2 c | AG>GD |
+GG2A-|AG>CB | G/A/d2 c | AG2z :|
+[M:8/2] GA>BG>A B/A/ Bd | [M:9/2] d B>A G>A B AA z |
+[M:8/2] D/G/ B2 d>c  BA G | [M:9/2] A  F>B B>G  ABA2 | 
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+K:F bass
+G2AB | F>cd2 | G2AB | F>cd2 | c2 BB | G2F2 |:
+G/B/G2 A | cd3/ B/4A/4 G | G3 A | cB>F F | 
+B/A/G2 A | cd3/ G/4A/4 G-|G G2 d | cG2 z :|
+[M:8/2] FA>BG2 AG F-|[M:9/2]F B>F G2 d AA2 |
+S:https://www.folktunefinder.com/tunes/30274
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/2
+% Time_signature 8/2
+% Time_signature 4/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

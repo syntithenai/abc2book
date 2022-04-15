@@ -1,0 +1,35 @@
+X: 23
+T: Maggie And Jock
+C: Felix Burns (1864-1920)
+M: 4/4
+M: 4/4
+L: 1/8
+F: http://www.thesession.org/tunes/display/7231 2009-2-5
+R: barndance
+K: Gmaj
+|: B>c \
+| d>B d>B g2 g2 | (3fgf e>^d e3 A | c>A (3cBA f2 f2 | (3efe d>^c d3 B |
+| .d2 (3ddd .g2 (3ggg | f2 e>^d e3 c | f2 f>e d>c (3cBA | G2 G2 G2 :|
+|: (3ABc \
+| d>B G>B d>B G>E | F>d F>d F3 f | e>d ^c>d (3fed (3=cBA | G>e (3ed^c d2 (3AB=c |
+| d>B (3GAB d2 B>E | F>d F>d F4 | e2 (3d^cd f>d (3=cBA | G2 g2 G2 :|
+|: (3ABc \
+| d2 d2 g>G (3Bdg | f2 e2 e3 A | c2 c2 f>F A>f | e2 d2 d3 B |
+| d2 d2 g2 g2 | a2 e>^d e3 f | g>a (3gfe d2 (3Bcd |1 e2 f2 g>G :|2 e2 d2 G3 ||
+K: Dmaj
+|: A/A/ \
+| A>d (3ffd B>d g>d | (3Adf (3afd A4 | (3Ace (3ged c4 | (3dfa (3baf d3 A/A/ |
+| A>d f>d (3Bcd g>d | A>d f>d A2 A2 | (3Ace (3aec A>e (3ABc |1 d2 d2 d3 :|2 d2 f2 d2 ||
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12676
+S:http://www.thesession.org/tunes/display/7231
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Barndance
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

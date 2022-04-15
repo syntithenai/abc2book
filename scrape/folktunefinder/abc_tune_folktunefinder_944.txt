@@ -1,0 +1,28 @@
+X:310
+T:Air des Bouffons
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0200.gif
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:8/2
+L:1/2
+Q:1/2=220
+K:F
+FGAA B4 | AGAF G4 | FGAA B4 | AFGG F4 |
+c2dc B4 | AGAB c4 | c2dc B4 | AFGG F4 ||
+S:https://www.folktunefinder.com/tunes/944
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

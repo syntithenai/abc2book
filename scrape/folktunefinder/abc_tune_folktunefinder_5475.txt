@@ -1,0 +1,22 @@
+X: 1
+T: Debka Kafrit
+O: Israel
+M: 2/4
+L: 1/16
+K: Dm
+|: DC \
+| "Dm"D2DE "C"C2CC | "Dm"DC=B,C D2DC | "Dm"D2DE FGFE | "Am"FEDC "Dm"D2 :|
+D2 "Intro"\
+| "Gm"G2GA "Dm"F2ED | "Gm"G2{F}GA "Dm"F2ED | "Gm"GFFE "Am"EDDC | "Dm"DEFE HD2 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/5475
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DebkaKafrit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/DebkaKafrit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/DebkaKafrit.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

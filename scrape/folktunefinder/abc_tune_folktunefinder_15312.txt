@@ -1,0 +1,27 @@
+X: 1
+T: the Australian Ladies
+C: William Fergusson
+R: march
+B: Glasgow Assembly
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+Ad \
+| "D"f2af d2A2 | "G"B2A2 "D"f2ef | "Em"g3e "A7"c2e2 | "E7"ceA2 "A7"A2de \
+| "D"f2af d2A2 | "G"B2A2 "D"f2A2 | "Em"BGgf "A7"e2cA | "D"d6 ||
+|| fg \
+| "D"a3f d2a2 | fAdf a2ef | "Em"g3e "A7"c2e2 | "E7"cAce "A7"g2fg \
+| "D"a3f d2a2 | "Bm"fafe d2A2 | "Em"BGgf "A7"e2cA | "D"d6 ||
+|| fg \
+| "D"a3f d2a2 | fAdf a2ef | "Em"g2a2 "A7"e2g2 | "E7"c2e2 "A7"eAg2 \
+| "D"a3f Addf | "Bm"fafe d2A2 | "Em"BGgf "A7"e2cA | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/15312
+S:http://trillian.mit.edu/~jc/music/abc/march/AustralianLadies_24.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

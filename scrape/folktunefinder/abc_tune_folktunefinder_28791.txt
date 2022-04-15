@@ -1,0 +1,36 @@
+X:2511
+T:Cantar d'Arrieros (CT 209)
+R:Arrieros
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Constantino mallada, de treinta y cinco aos, de Armada, ayuntamiento de L.lena.
+N:Suelen cantarla los arrieros.
+O:Armada (L.lena)
+A:Asturies
+Z:Cancioneru de Torner 209
+M:Llibre
+L:1/8
+Q:1/4=63
+W:Si quieren saber, seores (bis)
+W:el uso d'un asturiano, (bis)
+W:trai la montera de picu
+W:y el palu pintu en la mano.
+K:G
+A/B/ c/d/ d-d>d B A2 z2 
+A/B/ c/d/ d-d>d B A z
+A/B/ c/d/ d2-d/ (c/4B/4)(c/B/4A/4B/A/4G/4A/G/4F/4 G) G-G2 z2 :||
+S:https://www.folktunefinder.com/tunes/28791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Arrieros
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

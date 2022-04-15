@@ -1,0 +1,122 @@
+X:1193
+T:Jan Willem van Dormolen
+O:ireland
+C:trad. Ierland
+M:4/4
+L:1/8
+Q:1/4=96
+K:F
+V:1   % voice 1
+c2|\
+a3abgd'b|\
+c'6za|\
+a3g^fgag|\
+f6zc|\
+a3abgd'b|\
+c'6za|\
+g3c'd'bag|\
+c'6zc'|\
+d'3c'babb|\
+c'6zc'|\
+e'3d'c'bgb|\
+a6za|\
+a3d'aabb|\
+a6za|\
+g3gagab|\
+c'6c2|\
+a3abgd'b|\
+c'6za|\
+a3g^fgag|\
+f6zc'|\
+c'3agfef|\
+d'6e'd'|\
+c'3agabe|\
+f8|\
+V:2    % voice 2
+cB|\
+c6Bd|\
+f6zf|\
+e4_e2e2|\
+f2c2A2zB|\
+c6Bd|\
+f6z_e|\
+e2g4f2|\
+e2_e2e2ze|\
+g2e4(f2|\
+f2)e2f2z2|\
+g2f2e2f2|\
+f6eg|\
+f6g2|\
+f6f2|\
+g2dcB2df|\
+e2_e2e2z2|\
+f2_e2e2(f2|\
+f2)g2a2zf|\
+e2c2e4|\
+f6zf|\
+f2c2A2c2|\
+f2b2f2^g2|\
+a3fg2ec|\
+c2^c4.c2|\
+V:3    % voice 3
+E2|\
+F2_E2E2(F2|\
+F2)G2A2zc|\
+B2c4B2|\
+A3GF2zE|\
+F2_E2E2(F2|\
+F2)G2A2z^F|\
+G2E2BGB2|\
+c2B2A2zc|\
+e2c2B2d2|\
+c2B2A2z2|\
+(c8|\
+c6)^c2|\
+d6d2|\
+d6dc|\
+B4GABd|\
+c2A2B2z2|\
+c6Bd|\
+c2A2F2zF|\
+G2E2G2cB|\
+A6zA|\
+A3FF2A2|\
+B6B2|\
+c3dd2cB|\
+A2B4.A2|\
+V:4    % voice 4
+C2|\
+F,2^F,2G,2^G,2|\
+A,2G,2F,2F2|\
+C2G,2C4|\
+F6C2|\
+F,2^F,2G,2^G,2|\
+A,2G,2F,2C2|\
+C4G,4|\
+C6C2|\
+C2G,2CG,^G,2|\
+A,2G,2F,2F2|\
+C2G,2C2E2|\
+F2C2F,2A,2|\
+D2A,2D2G2|\
+D2A,2D2D2|\
+G2G,2D2G,2|\
+C6C2|\
+F,2^F,2G,2^G,2|\
+A,2G,2F,2F2|\
+C2G,2C4|\
+F,2C2F2F,2|\
+F2_E2D2C2|\
+B,2F2B,2F,2|\
+FEDCB,2C2|\
+F2B,4.F,2
+S:https://www.folktunefinder.com/tunes/42148
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

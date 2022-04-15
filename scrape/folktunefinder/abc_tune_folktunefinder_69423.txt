@@ -1,0 +1,27 @@
+X:564
+T: "Treue"
+N: Z1244
+O: Europa, Mitteleuropa, Tirol
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2B2 | c2cBce | dBg2z2 | z4
+GA | B2B2B2 | c2cBce | d4z2 | z4
+GA | B2B2B2 | dccBce | dBg2z2 | z4
+GA | B2B2B2 | dcBAGF | G4z2 | z4
+d2 | d3dd2 | d2d2c2 | B2A2z2 | z4
+d2 | d3dd2 | d2dedc | B4z2 | z4
+GA | B2B2B2 | dccBce | dBg2z2 | z4
+GA | B2B2B2 | dcBAGF | G4
+S:https://www.folktunefinder.com/tunes/69423
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

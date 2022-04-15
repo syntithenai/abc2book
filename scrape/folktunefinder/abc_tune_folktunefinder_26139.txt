@@ -1,0 +1,33 @@
+X:5687
+T:Royal Charlie. CJF.174
+O:england
+M:6/8
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The note marked "" is c3 in the MS. - PJH.
+K:C
+E|c2Bc2d|e2fe2d|c2Bc2d|e3E3|c2de2a|\
+g2e{c/}d2e|{B/}c2A AGE|A3-A2B|
+c2cc2d|e2ee2d|c2cc2d|{c/d/}e3E2B|c2de2a|\
+g2ed2e|c2A AGE|A3-A2||B|c2A AGE|
+c2A AGE|c2A AGE|G3-G2B|""c2de2a|g2ed2e|\
+c2A AGE|A3-A2B|c2A AGE|c2A AGE|
+edc dcB|cBA GFE|c2de2a|g2ed2e|c2A AGE|A3-A2||
+S:https://www.folktunefinder.com/tunes/26139
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

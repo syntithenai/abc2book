@@ -1,0 +1,29 @@
+X:254
+T: TANZ LIEBCHEN TANZ
+N: E0838A
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass, Schweighausen
+R: Hochzeits -, Ehestands - Lied
+M: 2/4
+L: 1/16
+K: D
+ | A,4D3B, | A,4z2
+A,2 | B,3A,G,2F,2 | E,4z2
+E,2 | E,3F,G,3A, | B,4B,2z
+D | C3CB,2C2 | D4z2
+A,2 | F,3A,A,2A,2 | F,2A,2A,2
+A,2 | F,3A,A,2A,2 | F,2A,2A,2
+A,2 | B,4C4 | D4z2
+A,2 | F,3A,A,2A,2 | F,2A,2A,2
+A,2 | F,3A,A,2A,2 | F,2A,2A,2
+A,2 | B,4C4 | D4z4
+S:https://www.folktunefinder.com/tunes/76739
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

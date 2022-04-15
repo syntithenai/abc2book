@@ -1,0 +1,28 @@
+X:134
+T:Li proumiro viouleto
+R:Valse
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:J. Ginas
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+M:3/4
+L:1/8
+K:Bb
+B2A3G | G4Fz | B2A3G | G4Fz | e2d3c | f4-fz | d2c3B | f4fz | B2A3G | G4Fz |
+B2A3G | G4Fz | e2d3c | g4-gz | A2B3c | B2z2e2 || d4cz | B4A2 | c6 | B4A2 | c6 | B4A2 |
+A6 | G2z2z2 | e4e2 | d2c2B2 | c6- | c2z2B2 | A6 | A2G2F2 | d6- | d2z2z2 | e4dz | c2B2A2 | c6 | B4A2 |
+c6 | B4A2 | (e6- | d2)z2z2 | F4B2 | B4d2 | d4e2 | d2z2z2 | F4B2 | c4f2 | c4d2 | B2z2z2 |]
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+S:https://www.folktunefinder.com/tunes/40332
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

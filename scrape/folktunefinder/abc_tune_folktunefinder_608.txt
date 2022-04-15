@@ -1,0 +1,24 @@
+X:150
+T:Rigaudon (de Marseille)
+T:Branle de Saint Elme
+O:France
+A:Provence
+C:Trad.
+R:Rigaudon
+M:2/4
+L:1/8
+Q:1/4=90
+K:Bbmajor
+FF GG|(B/A/)G/F/ BF|BA/B/ cd/B/|ed c2|FF GG|(B/A/)G/F/ BF|BA/B/ c/d/e/f/|AG F2|:
+ff fe/d/|cd ec|ee ed/c/|Bc d2|(B/A/)G/F/ (B/A/)G/F/|(B/A/)G/F/ B2|(c/d/)e/c/ (e/d/)c/B/|(d/c/)B/A/ B2:|
+%%footer $D   Galouvielle-MBe 2008 \nRigaudon (France)
+S:https://www.folktunefinder.com/tunes/608
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Rigaudon
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

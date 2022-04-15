@@ -1,0 +1,24 @@
+X: 2080
+T: Vari Hasapikos II
+T: Slow Hasapikos
+R: hasapikos
+O: Greece
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Am
+|: e/ d>e || "Dm"(3fff (3fff (3fff e>d | "Am"e3 d c>e d>e | "Dm"f2 a2 g2 f2 | "Am"e4- e>e d>e |
+| "Dm"(3fff (3fff (3fff e>d | "Am"e3 d c>B c>e | "E7"(3efe (3ded (3cdc (3 BcB | "Am".A2 "E7".E2 "Am".A :|
+|: E>A || "AM"c4- c>B c>d | "G"B4- B>A B>c | "F"A2 A2 G2 F2 | "E7"E4- E :|
+[| A>c || "Am"e4- e>e d>e | "Dm"f2- f>e d>c d>e | f2 a2 g2 f2 | "Am"e6 A>c |
+|  "Am"e4- e>e d>e | "Dm"f2- f>e d>c d>f | "E7"(3efe (3ded (3cdc (3 BcB | "Am".A2 "E7".E2 "Am".A |]
+S:https://www.folktunefinder.com/tunes/32543
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hasapikos
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

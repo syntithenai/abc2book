@@ -1,0 +1,31 @@
+X: 1
+T:Machar
+M:4/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien:crc.doc.ca
+P: in Dm:
+K:Dm
+"Intro"\
+| "Dm" F2 F>E FD EF | "C" G2 C2 CC DE | "Bb" F2 ED- DD ^CD | "A7" E4 z2 ||
+|: "A7"A,2 \
+| "Dm"HD4- DE FA | "Gm" G>F ED "C" E2 C2 | "Bb" DD DD C2 D2 | "A7" E6 A,2 |
+| "Dm" D4- DE FA | "Gm" G>F ED "C" E2 C2 | "Bb" DD DD "C7" C2 G2 | "F" F8 ||
+|| "D7" A2 A>A A^F GA | "Gm" B2 D2 D2 EF | "C7" G3 F EC FG | "F" A4- "A7"A4 |
+| "Dm" F2 F>F FD EF | "C" G2 C2 CC DE | "Bb" F2 ED- DD ^CD | "A7"E6 :|
+S:https://www.folktunefinder.com/tunes/5814
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Machar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Machar.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Machar_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/Machar_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Machar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/Machar_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/Machar_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

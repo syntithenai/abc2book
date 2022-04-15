@@ -1,0 +1,25 @@
+X:345
+%%topmargin 3cm
+T:Neil Gow's Wife
+C:Duncan McIntyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+d | B<G~G>B A<F~F>A | B<GG>A {/c}B>AB>g | B<G~G>B A<F~F>A | BB FBB :|
+d | BB f>Bd>B | F<FA>F c>FA<c | BB f>Bd<f | g<gb>g d<gg>b |
+f<d~d>f | e>c~c>e | dd {/c}B>AB>F | G<G Bc | B>G B/A/G/^F/ DGG |]
+S:https://www.folktunefinder.com/tunes/71374
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Neil_Gows_Wife.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0345.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

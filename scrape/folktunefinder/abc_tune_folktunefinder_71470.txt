@@ -1,0 +1,26 @@
+X:441
+%%topmargin 3cm
+T:A Skye Air
+C:Very Old
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:C
+L:1/8
+K:E aeolian
+d<d TB>A Bd e2 | g>d e2 B>A G2 | d<d B>A B>d e2 | ~G2 (B/A/)G/F/ BE [G,2B,2E2] |
+d<d TB>A B>d e2 | g>d {/d}e2 B>A G2 | "_express."A>B g2 (g/f/e/^d/) {/d}e2 | !p!G2 (B/A/)(G/F/) BE E2 ::
+[G2e2] [Ge][F^d] [G2e2] [Ge][F^d] | e>f g2 TB>A G2 | [A2d2] dB (d2e2) | G2 (B/A/).G/.F/ BE [G,2B,2E2] |
+{/D}d2 {/e}d>B {/D}d2 d>B | (d2 e2) B>A G2 | AB {/B}g2 (g/f/)(e/^d/) {/d}He2 | G2 (B/A/)(G/F/) BE [G,2B,2E2] :|
+S:https://www.folktunefinder.com/tunes/71470
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Skye_Air.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0441.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

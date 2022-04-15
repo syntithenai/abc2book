@@ -1,0 +1,23 @@
+X: 1
+T: Bishop of Chester's Jigg
+N: A Fool's Preferment, or The Three Dukes of Dunstable, Song, Z571/7
+O: 1688
+B: The Dancing Master v.1 1696
+M: 9/8
+L: 1/8
+K: G
+|: "G"G2d dBd d2B | "G"G2d dBd "C"e/f/g"D"d \
+|  "G"G2d dBd "C"e2"D"f | "G"gde "C"cBc "D"A2"G"G :|
+|: "G"gdg gdg "C"e2d/c/ | "G"d>ed "D"f>ga/g/ g2f \
+|  "G"gdg gc'b g2f | "C"e/f/ge "G"dBG "D"A2"G"G :|
+S:https://www.folktunefinder.com/tunes/13879
+S:http://trillian.mit.edu/~jc/music/abc/jig/BishopOfChestersJigg_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BishopOfChestersJigg_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/BishopOfChestersJigg_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

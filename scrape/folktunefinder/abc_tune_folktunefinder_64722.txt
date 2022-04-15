@@ -1,0 +1,26 @@
+X:9
+%%newpage
+T:L'avertissement  Mickey
+C:                           % composer
+O:Ecosse                           % origin.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4                           % meter
+L:1/4                        % length of shortest note
+Q:1/4=180                           % tempo
+K:Em                           % key
+V:1                          % voice 1
+"Em"B2B | "D"A>GF | "Em"GE2- | E2E | "C"Eee | e>dc | "D"d3- | d2c |
+"Em"Be>e | ege | "G"dB2- | B2G/A/ | "Em"BcB | "D"A/G/GF | "C"E3- | EGA |
+"G"BBc | B2B | "Em"BEF | E3 | "C"E>ee | e/d/dc | "G"dB2- | B2A |
+"Em"Gee | "D"f2e | "G"d/B/Bc | "Em"B2G/A/ | B>cB | "D"AGF | "C"GE2- | E3 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (Ecosse)
+S:https://www.folktunefinder.com/tunes/64722
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

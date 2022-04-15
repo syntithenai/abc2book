@@ -1,0 +1,26 @@
+X: 62
+T:Dennis Crowther's No 2
+M:6/8
+L:1/8
+Q:1/8=100
+K:G
+B | GBG F2 B | E2 B D2 B | GBG F2 B |
+E2 B E2 D | cdc A2 B | F2 A E2 A | DFA d3 |
+M:9/8
+DEF E2 D  B3 |
+M:6/8
+GBG F2 B | E2 B D2 B | GBG F2 B | E2 B E2 D |
+cdc A2 B | F2 A E2 A | DFA d3 | DEF G3 ||
+D2 D D3 | E2 E E3 | DBA GFE | GFD C3 |
+D2 D D3 | E2 E E3 | DCB, DEF | C2 B, B,3 |
+D2 D D3 | E2 E E3 | DCB, BAG | dcB E3 |
+AFA cBA | BcB  GFG | BGB A2 F | G3-G2 ||
+S:https://www.folktunefinder.com/tunes/52135
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

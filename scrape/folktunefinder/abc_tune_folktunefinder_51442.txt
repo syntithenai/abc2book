@@ -1,0 +1,23 @@
+X:22
+T:Anderson's Reel
+M:C|
+L:1/8
+K:D
+"D" ABdf "G" efdB|"D" AFFF "A" EDEF|"D" ABdf "G" e2 df|"A" afef "D" d2 dB|
+ABdf "G" efdB|"D" AFFF "A" EDEF|\
+"D" ABdf "G" e2 df|1 "A" afef "D" d2 dc :|2 "A" afef "D" d2 fg||
+|:"D" a2 fa bafa|a2 fd "G" edBd|"D" a2 fa bafb|"A" afef "D" defg|
+"D" a2 fa bafa|a2 fd "G" edBd|"D" AFFF "G" ABdf|"A" afef "D" d3 z:|
+S:https://www.folktunefinder.com/tunes/51442
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t22.abc
+S:http://www.arcelts.com/bbot1/t22.txt
+S:http://www.arcelts.com/bbot1/t22.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

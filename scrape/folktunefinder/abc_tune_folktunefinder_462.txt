@@ -1,0 +1,38 @@
+X:3
+T:Badine
+O:France
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-01
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/8
+Q: "Allegro"
+K:Bb
+%%continueall 1
+V:1 name=G
+d2 (cB) | d2 (cB) f2 ed | f4 g2 g2 | feed eddc | d2B2 d2cB | d2cB f2ed |
+f4 g2g2 | fedc d2!!c2 | B4 :: FBcB | B2AB cd ec | d2 B2 df dB |
+cf cA Bd cB | B2 A2 f2 f2 | (ABcd) e2 d2 | e2 dc dcde | fefg fefg | 
+Te4 d2cB | d2cB f2ed | f4 g2g2 | feed eddc | d2B2 d2cB | d2cB f2ed |
+f4 g2g2 | fedc d2!!c2 | B4   !fine!   :: [K:Bbm] c2de | d2ef B2cd |
+c2F2 dc Bc | !!=A2 B2 c2 d2 | d2 c2 d2ef | g2g2 c2de | f2f2 B=ABc | F2Bc d2c2 |
+B4:| fefg | f2e=d e2f2 | {f2}g4 edef | e2dc d2e2 | {e2}f4 Bc=Ac |
+B2F2 dece | d2c2 dcde | f6 ed |c4 !D.C.! |]
+V:2 name=V
+z4 | z4  d2cB | d2cB e4 | B4 f2f2 | b2B2 z4 | z4 d2cB | d2cB e4 | d2B2 f2F2 | B4 ::
+z4 | f4f2f2 | B2b2 b2b2 | a2f2 g2=e2 | f2F2 z4 | f2f2 A2B2 | c2f2 B2B2 | B2b2 b2b2 | 
+a4 b2B2 | z4 d2cB | d2cB e4 | B4 f2f2 | b2B2 z4 | z4 d2cB | d2cB e4 | d2B2 f2F2 | B4 :: 
+[K:Bbm] b2b2 | b4 g2e2 | f2F2 B2B2 | e2d2 c2B2 | f4 b2b2 | e2fg a2a2 | d4 g2g2 | fede f2F2 | B4 :|
+b2b2 | b3a g2f2 | e4 a2a2 | a3g f2e2 | d4 z4 | z4 (bc')(=ac') | b2f2 B2Bc | dcde d2e2 | f4 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (France)
+S:https://www.folktunefinder.com/tunes/462
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

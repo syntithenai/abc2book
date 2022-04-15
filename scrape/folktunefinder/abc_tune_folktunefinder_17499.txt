@@ -1,0 +1,27 @@
+X: 2
+T:Kit O'Connor's Reel (Damp in the Attic's version)
+M:4/4
+L:1/8
+S:Damp in the Attic
+R:reel
+Z:Naka Ishii <n_ishii@YAHOO.COM> irtrad-l 2000-10-25
+K:A
+E3F ABcd | eA~A2 BFAF | E3F ABcB | AF~F2 dFAF |
+E2CE A,ECE | dBcA BAFE | CE~E2 BAf2 |1 ecBc ABAF :|2 ecBc ABcf |
+| eA~A2 EAaf | eA~A2 BAFA | ec~c2 acec | dBcA Bcdf |
+ec~c2 acec | dBcA BAFA | a2ge fgaf |1 e2cA Bcdf :|2 eAcA BFAF ||
+S:https://www.folktunefinder.com/tunes/17499
+S:http://trillian.mit.edu/~jc/music/abc/reel/KitOConnorsReelDampInTheAtticsVersion.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KitOConnorsReelDampInTheAtticsVersion.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KitOConnorsReelDampInTheAtticsVersion.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,47 @@
+X: 1
+T: Hora Pe Gheatsa
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"(3^D2E2D2 E4 \
+| (3^A2B2A2 B4 \
+| {^c}d3d =cBcd \
+|1 e2B3 AGF \
+:|2 e2B4 z2 |]
+|: "C"e2d>c "G"B4 \
+| "D7"AGAF "G"G3F \
+| "D7"Dz F2- FDEF \
+| "G"GABc dBG2 \
+| "C"e2d>c "G"B4 |
+| "D7"AGAF "G"G4 \
+| "B7"FGAF GEF^D \
+|1 "Em"E2FG ABcd \
+:|2 "Em"EB,"B7"C^D "Em"E2z2 :|
+|: "G"BGcG BGcG \
+| ~B3A AGGA \
+| BGcG BGAG \
+| "G"GABc dBG2 \
+| BGcG BGAG |
+| "Am"FGA3 FGA \
+| "B7"_BAAG GFFE \
+|1 "Em"EB,C^D EFGA \
+:|2 "Em"EB,"B7"C^D "Em"E2z2 :|
+S:https://www.folktunefinder.com/tunes/2833
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/tune/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/HoraPeGheatsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/HoraPeGheatsa.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/HoraPeGheatsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

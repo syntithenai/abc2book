@@ -1,0 +1,24 @@
+X:605
+T:Bryan O'Lynn
+C:Steeleye Span
+R:jig
+N:
+Z:
+M:6/8
+K:Ador
+B|:"C"cAd cAG|"Em"E3 GAB|"C"c2A "G"BAG|"Am"EAG A2B|
+"C(\F)"cAd cAG|"Em"E3 GAB|"C"cde "D"fed|1 "C"cAG "Am"A2B:|2 "C"cAG "Am"ABA||
+"G"egg ged|"C"cAB c2d|"Dno3"eaa age|"C"gec "G"def|
+"C"g2e "D"fed|"C"cAB cde|"D"fed "C"cAG|1 EAG "Am"ABA:|2 EAG "Am"A2B||
+S:https://www.folktunefinder.com/tunes/67423
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

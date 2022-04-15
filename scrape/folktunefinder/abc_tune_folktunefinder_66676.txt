@@ -1,0 +1,36 @@
+X:32
+T:The Gold Ring
+R:jig
+S:Clare FM
+D:i.Niall & Cillian Vallely- Beyond Words
+Z:psc -  http://www.cranfordpub.com
+L:1/8
+Q:300
+M:6/8
+K:G
+BAG ~A2 d|cAF ~G2 A|BAG A2 d|cAG FGA|
+BAG A2 d|cAF GB/c/d|gbg afd|cAF G2 A:|
+|:~B2 B Bdc|~A2 A dcA|~G3 GFG|A2 d cAG|
+~B2 B Bdc|~A2 A dcA|FDE FDd|[1cAF G2 A:|[2cAG G2 g||
+|:fdd edd|fdd edd|fdd ed^c|dcA Ggg|
+fdd edd|fdd ed^c|dfa fed|1 cAF G2 g:|2 cAF GBd||
+|:gag f2d|cAF GBd|g2 g fed|cAG FGA|
+g2 g fed|gbg f2 d|gbg afd|[1 cAF GBd:|[2 cAG G2 E||
+|:DBB DBB|DAA DAA|~G2 G GBd|cAG FGA|
+DBB DBB|DAA DAA|~G2 G GBd|[1 cAF G2 E:|[2 cAF G2 A||
+|:BAB ~D3|AGA ~D3|~G2 G GBd|cAG FGA|
+BAB ~D3|AGA ~D3|~G2 G GBd|cAF G2 A:|
+|:B2G A2 G|d2 G G2 A|B2G A2 G|cAG FGA|
+BAG AGF|GFD FGA|fag fed|cAF G2 A:|
+S:https://www.folktunefinder.com/tunes/66676
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

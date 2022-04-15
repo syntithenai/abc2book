@@ -1,0 +1,33 @@
+X: 15
+T:Quick March. JMP.015
+M:6/8
+L:1/8
+Q:110
+C:"17"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - marked as triplet
+N:Sounds rather conventional in D so I'm leaving it in
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+"key G as in MS, but works well in D"A/G/ | FGA d2 A | ded  c2 A  |\
+ "1"(B/c/dB)  AFD |BGE E2 G |!
+ FGA d2A | ded c2 A | (B/c/dB) AFd |AFD D2 :|!
+|:ef | afd afd | efd c2A | (G/A/BG) (F/G/AF) |BGE E2f/g/ |!
+ afd afd | efd c2A | (B/c/dB) AFd | AFD D2 :|]
+S:https://www.folktunefinder.com/tunes/1952
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

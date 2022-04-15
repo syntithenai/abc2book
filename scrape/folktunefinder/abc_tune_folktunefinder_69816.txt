@@ -1,0 +1,26 @@
+X:256
+T: EINSAM EINSAM NEIN DAS BIN ICH NICHT
+N: F0448
+O: Europa, Mitteleuropa, Deutschland
+R: Heimat -, Wander - Lied
+M: 3/4
+L: 1/16
+K: A
+ | A4B4z4 | c3dd4z4
+c6e2G2B2 | A8z4
+F2A2A2A2BAGF | F3EE4z4
+A2c2dcBce2dB | A3BG4z4
+A2A2B2A2G2A2 | G4F4z4
+E2A2c4e2d2B2 | A8z4
+S:https://www.folktunefinder.com/tunes/69816
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Heimat -, wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

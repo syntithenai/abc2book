@@ -1,0 +1,40 @@
+X:8
+T:Tous prs de ma fentre
+R:Chanson
+C:
+S:Achille Millien : Chansons populaires du Nivernais et du Morvan. (vol. 4 )
+H:
+N:sur le disque la voix est 1/2 ton plus grave
+D:
+D:Catherine Paris "A.Millien - Le pommier doux"
+O:France
+A:Centre France (Nivernais)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:7/8
+L:1/8
+Q:1/4=124
+K:Eb 
+ G | Gc cB G>F Gc cB G3 :: [M:C] E | FA GF E>D CE FA G>F E3 :| Hz4 ||
+W:Tout prs de ma fentre, Tout proche de mon lit, (bis)
+W:Le rossignol y chante, Pour qui chante-t-il  (bis)
+W:
+W:Il chante pour les filles Qui n'ont point d'amis. Il chante pas pour moi Car j'en ai un joli.
+W:Il est  ma main droite, Voyez comme il rit, Je crois qu'il en a d'autres, Je crois qu'il en rougit.
+W:Il a qu'faire d'avoir honte, J'en ai bien d'aut' que lui. J'en ai encore un autre, Il est bien plus joli.
+%%vskip 0.5cm
+%%sep
+%%text Divers :
+S:https://www.folktunefinder.com/tunes/39934
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Time_signature 7/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

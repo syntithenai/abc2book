@@ -1,0 +1,17 @@
+X: 1
+T: Three bass lines
+K: C
+V: 1 clef=bass
+[| CDEF GABc | cdef gabc' | c'bag fedc | cBAG FEDC |]
+S:https://www.folktunefinder.com/tunes/2280
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtut_Clefs.html
+S:http://trillian.mit.edu/~jc/doc/abc/ABCtut_Clefs.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: Oak Leaf Reel
+C: Susie Secco 1997
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+   ag \
+| "Bm"fBBf edcB | "G"GBdB "A"Acag | "Bm"fBBf    edcB | "G"GBdB  "A"A2ag |
+| "Bm"fBBf edcB | "G"GBdB "A"Acag | "Bm"fBBf "G"edcB | "A"edcd "Bm"B2  :|
+|: zF \
+| "G"G2GF GAB2 | "A"Acdc dcBA |  "G"G2GF    GAB2 | "A"B2AE "Bm"F3"(F#m)"F |
+| "G"G2GF GAB2 | "A"Acdc dcde | "Bm"fedf "A"edcA | "G"B2BA "Bm"B2        :|
+S:https://www.folktunefinder.com/tunes/17787
+S:http://trillian.mit.edu/~jc/music/abc/reel/Oak_Leaf_Reel_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Oak_Leaf_Reel_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Oak_Leaf_Reel_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

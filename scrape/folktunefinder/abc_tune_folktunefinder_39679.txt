@@ -1,0 +1,28 @@
+X:86
+T:Hickmott's Waltz
+R:waltz
+C:Bruce Osborne -- Oct. 2001
+Z:abc by bosborne@kos.net
+M:3/4
+L:1/8
+K:G
+DG B|e2 d2 (3BdB|G4 (3DGD|F2 E3 F|E4 AB|\
+cB AG FE|DE DC A,C|B,3 A, B,C|B,4 (3DGB|\
+e2 d2 (3BdB|G4 (3DGD|F2 E3 F|E4 AB|\
+cB AG FE|DF Ac BA|G3 F GA|G3||\
+DG B|e2 d2 (3BdB|G4 (3Bdg|f2 e3 f|e4 AB|\
+cB cd eg|fe dc Ac|B3 G (3EGE|D4 (3DGB|\
+e2 d2 (3BdB|G4 (3Bdg|f2 e3 f|e4 ag|\
+f3 g fe|dc AF DF|G3 F GA|G3||
+S:https://www.folktunefinder.com/tunes/39679
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

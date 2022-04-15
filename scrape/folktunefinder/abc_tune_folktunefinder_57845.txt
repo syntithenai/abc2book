@@ -1,0 +1,24 @@
+X:60
+T:New Year's Day
+S:Gow's Complete Repository, c.1810
+N:Transposed from F; 1st bar
+N:changed from d/e/fe to dfe
+Z:Nigel Gatherer
+M:6/8 jig
+L:1/8
+K:D
+F|D>ED dfe|dDD D2 F|D>ED d>ef|eEE E2 F|DEF dcB|
+A2 g f2 e|d>cB AFd|AFD D2::F/G/|A>BA FAF|ABA F2 G|
+ABc d>ef|eEE E2 F|A>BA FAF|A2 g f2 e|dcB AFd|AFD D2:|
+S:https://www.folktunefinder.com/tunes/57845
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/nige.abc
+S:http://www2.redhawk.org:8080/irish/other/nige.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

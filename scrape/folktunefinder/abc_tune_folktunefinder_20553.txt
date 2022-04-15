@@ -1,0 +1,27 @@
+X:104
+T:Adsons Saraband
+O:england
+M:6/8
+L:1/8
+Q:110
+R:Jig
+H:John Adson (d. 1640) may have written the original music for the dance.
+H: English-born, he began his career in France, but eventually joined the
+H:English court band in 1625.  He also played several instruments at the
+H:Blackfriar's Theatre.  In 1634 he was appointed music teacher to
+H:Charles I.
+K:D
+f2f e2d|fga e2d|cde fBc|dcB A2G|FGF FFA|Bcd c2B|Aef gBc|def e2d||
+S:https://www.folktunefinder.com/tunes/20553
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

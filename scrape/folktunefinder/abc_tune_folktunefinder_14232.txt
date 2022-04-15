@@ -1,0 +1,24 @@
+X: 1
+T: Gigue du forgeron
+T: Blacksmith's jig
+O: Qubec
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dcd AFA | dfb "Bm"a2f | "Em"gfg "A7"Ace | "D"dfd "(A7)"AFA \
+| "D"dcd AFA | dfb "B7"a2f | "Em"gfg "A7"Ace | "D"d2d d2 :|
+|: a \
+| "G"b3- bag | "D"faa agf | "Em"gfg "A7"Ace | "(D)"ba^g "D"a2a \
+| "G"b3- bag | "D"faa "Bm"agf | "Em"gfg "A7"Ace | "D"d2d d2 :|
+S:https://www.folktunefinder.com/tunes/14232
+S:http://trillian.mit.edu/~jc/music/abc/jig/GigueDuForgeron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GigueDuForgeron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/tune/GigueDuForgeron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/GigueDuForgeron_D.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

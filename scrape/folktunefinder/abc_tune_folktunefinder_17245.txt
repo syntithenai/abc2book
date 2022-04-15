@@ -1,0 +1,29 @@
+X: 1
+T: Gigue du diamant bleu
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: D
+ag "A"\
+|: fded fdef | gbaf e2ag | fded fdef |1 gbaf d2ag :|2 gbaf d2Ad ||
+"B"\
+|: f2ed fded | BdAd BdAd | f2ed f2ed |1 cABc d2Ad :|2 cABc dABc ||
+"C"\
+| dcdA FAFA | GBGB FAFA | dcdA FAFA | GABc d2(3ABc |
+| dcdA FAFA | GDB,D FAFA | dcdA FAFA | GABc d2 |]
+S:https://www.folktunefinder.com/tunes/17245
+S:http://trillian.mit.edu/~jc/music/abc/reel/Gigue_du_diamant_bleu_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Gigue_du_diamant_bleu_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Gigue_du_diamant_bleu_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/Gigue_du_diamant_bleu_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/reel/Gigue_du_diamant_bleu_D4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

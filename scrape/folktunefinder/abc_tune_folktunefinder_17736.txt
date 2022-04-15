@@ -1,0 +1,34 @@
+X: 1
+T:Dillon's Fancy
+T:the Mug of Brown Ale
+M:C|
+L:1/8
+R:Reel
+B:O'Neill's 1272
+B:Levey V.1
+N:Collected by Dillon
+N:Traveler/singer Margaret Barry claimed that her grandfather,
+N:Antrim piper Robert Thompson, composed the tune.
+N:Often ended on a major chord.
+Z:Transcribed by Trish O'Neil
+K:A
+| EAAc eA (3cBA | ceae (3fga ed \
+|1 cdef edcA | (3Bcd cA BF {G}(3FEF :|2 cefg agaf | edcB Aceg ||
+{b}aece {b}aece | agbg aece | {b}aece {b}aecA | BABc defg |
+{b}aece {b}aece | agbg aece | (A/2B/2c/2d/2 e/2f/2g) agaf | edcB ABAF |]
+S:https://www.folktunefinder.com/tunes/17736
+S:http://trillian.mit.edu/~jc/music/abc/reel/MugOfBrownAle.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldManDillon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MugOfBrownAle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/OldManDillon.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/MugOfBrownAle.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/OldManDillon.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

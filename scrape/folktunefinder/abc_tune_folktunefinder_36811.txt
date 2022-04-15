@@ -1,0 +1,25 @@
+X:3660
+T:Mopsi Don
+M:6/8
+O:Wales
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000db2.html
+%%ID:00000db2
+K:G
+FGA A2B | A2B AFD | GFG BcB | GFG BcB | \
+FGA A2B | A2B AFD | GAB c2B | AGF G2G ::
+dBd cAc | BGB AFD | G2G BAG | F2G A2d |\
+% not sure I have the ending bar right here. Must listen more
+dBd cAc | BGB AFD | BAG edc | B2A G3 :|
+S:https://www.folktunefinder.com/tunes/36811
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

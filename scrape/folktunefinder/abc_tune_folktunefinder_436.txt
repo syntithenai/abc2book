@@ -1,0 +1,46 @@
+X: 14
+T: S\onderhoning
+C:Trad.
+O:Denmark
+Z:jaffer@ai.mit.edu
+M:4/4
+L:1/4
+Q:C2=90
+%E:10
+K:D
+P:A
+|: "A"e e e>d | c c c>B | A B/2c/2 d c | "E"c2 B2 :|
+"A"e c e c | "D"a f d2 | "Bm"d2 f f | "E"b ^g e2 |
+"A"c>B c e | "F#m"A2 c A | "Bm" B d "E"^G B | "A"A Z A Z ||
+P:B
+"D"A d "A"c/2d/2e/2c/2 | "D"d d "A"c/2d/2e/2c/2 | "D"d d "A"c/2d/2e/2c/2 | "D"d z d z |
+"D"f f "A"e/2f/2g/2e/2 | "D"f f "A"e/2f/2g/2e/2 | "D"f f "A"e/2f/2g/2e/2 | "D"f z f z |
+"D"a>g f e | "Bm"d c B2 | "Em"g>f e d | "A"c B A2 |
+"D"A d "A"c/2d/2e/2c/2 | "D"d d "A"c/2d/2e/2c/2 | "D"d d "A"c/2d/2e/2c/2 | "D"d z d d |
+P:C
+% What key is this last section in
+% K:D
+% |:"D"f>e f a | d2 f d | "Em"e f g a | "A"b a d' a |
+% "D"f>e f a | d2 f f | "Em"e g "A"c e | "D"d2 d a |
+% "D"(af) d' d' | "A"(c'e) e c' | "Bm"d'>c' d' e' | "A"a (A/2B/2c/2d/2e/2=f/2) |
+% "D"f>e f a | d2 f f | "Em"e g "A"c e |1 "D"d2 d a :|2 "D"d2 d z |]**
+K:G
+|:"G"B>A B d | "Em"G2 B G | "Am"A B c d | "D"e d g d |
+"G"B>A B d | "Em"G2 B G | "Am"A c "D"F A | "G"G2 G d |
+"G"(dB) g g | "D"(fA) A f | "Em"g>f "A7"g e | "D"d (D/2E/2F/2G/2A/2_B/2) |
+"G"B>A B d | "Em"G2 B G | "Am"A c "D"F A |1 "G"G2 G d :|2 "G"G2 G z |]**
+% K:A
+% |:"A"c>B c e | A2 c A | "Bm"B c d e | "E"f e a e |
+% "A"c>B c e | A2 c c | "Bm"B d "E"G B | "A"A2 A e |
+% "A"(ec) a a | "E"(gB) B g | "F#m"a>g a b | "E"e (E/2F/2G/2A/2B/2=c/2) |
+% "A"c>B c e | A2 c c | "Bm"B d "E"G B |1 "A"A2 A e :|2 "A"A2 A z |]**
+S:https://www.folktunefinder.com/tunes/436
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

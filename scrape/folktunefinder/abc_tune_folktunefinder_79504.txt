@@ -1,0 +1,26 @@
+X:400
+T: ADE DU LIEBES STAEDTCHEN
+N: E1594
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Handwerker -, Gesellen - Lied; Abschied, Wanderschaft
+M: 4/4
+L: 1/8
+K: D
+A,2 | D2D,2F,2A,2 | D3B,A,2
+A,2 | B,2B,2B,CDB, | A,G,F,G,A,2
+D2 | D,2E,2F,2G,2 | A,^G,A,B,A,2
+D2 | B,4z2E2 | C4z2G2 | F2GED2C2 | D4
+D4 | B,B,B,B,B,2E2 | CA,A,A,A,2
+G2 | F2GED2C2 | D4z2
+S:https://www.folktunefinder.com/tunes/79504
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, handwerker -, gesellen - lied; abschied, wanderschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

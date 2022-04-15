@@ -1,0 +1,28 @@
+X: 1
+T: Johnny Wilmot's Jig
+C: Johnny Wilmot
+Z: Toby A. Rider <darkrider1:tullochgorm.com>
+M: 6/8
+L: 1/8
+R: Jig
+K: G
+g \
+| "G"dBB BAB | "Em"GEE EGE | "G"DB,D GAB | "C"cBc "D7"A2g |
+| "G"dBB BAB |  "C"GEE EGE | "G"DB,D GAB | "D7"cBA "G"G3 :|
+c \
+|  "G"Bdg gdB | "C"ceg gec | "G"Bdg gdB | "C"cBc "D7"A2c |
+|1 "G"Bdg gdB | "C"ceg gfe | "G"dcB "D7"AGA | "G"BGG G2 :|
+|2 "G"Bdg Bdg | "C"ceg ceg | "G"dcB "D7"AGA | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/14440
+S:http://trillian.mit.edu/~jc/music/abc/jig/JohnnyWilmotsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JohnnyWilmotsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JohnnyWilmotsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JohnnyWilmotsJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

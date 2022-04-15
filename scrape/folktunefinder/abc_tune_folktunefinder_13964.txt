@@ -1,0 +1,29 @@
+X: 1
+T: Cal Howard's Jig #1
+C: Cal Howard 1980
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"d2d dcd | "G"Bdd "D"Add | "G"Bdd "D"Add | "Em"Bed "A7"cBA \
+| "D"A2d dcd | "G"Bdd "D"Add | "G"Bdd "A7"cde | "D"fdd dy :|
+fg \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg gec \
+| "D"a2a afd | dfa afd | "G"gfg "A7"eag | fdd dy |]
+fg \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg g2g \
+| "D"fef "A7"gfg | "D"agf "G"efg | "A7"fed cBA | "D"Add dy |]
+S:https://www.folktunefinder.com/tunes/13964
+S:http://trillian.mit.edu/~jc/music/abc/jig/CalHowardsJig1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CalHowardsJig1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/CalHoward/CalHowardsJig1_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 150
+T:Cotillion. CJF.150
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Cotillon
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"C J Fox" is on the stave at the end of the tune. - PJH
+Z:vmp.P J Headford 2000
+K:G
+"p"Bc d2d2|Bc d2d2|ef g2g2|fe d2c2|Bc d2d2|\
+Bc d2d2|ef g2g2|fa g2g2|!
+Bc d2d2|Bc d2d2|\
+ef g2g2|fe d2c2|Bc d2d2|Bc d2d2|ef g2g2|\
+fa g2g2||!
+"f"fg a2a2|ab g2f2|ef g2g2|\
+ab f2d2|ab a2a2|ba g2gf|e2edef|d4d2|!\
+"f"fg a2a2|ab g2f2|ef g2g2|ab f2d2|\
+ab a2a2|ba g2gf|e2edef|d4d2|]
+S:https://www.folktunefinder.com/tunes/49705
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Cotillon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:13
+T: Es haett ein Maidlein ein Reiter hold
+N: L0067F
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 99
+R: Lied
+M: 3/4
+L: 1/8
+K: D
+D2 | D4D2 | A4A2 | B4B2 | A4
+A2 | B4B2 | d4A2 | =c4B2 | A6- | AGAB
+=c2 | B3=cd2 | =c3BA2 | G2E2=F2 | E4
+A2 | A4=c2 | A4D2 | =F2E4 | D4
+S:https://www.folktunefinder.com/tunes/80012
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

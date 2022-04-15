@@ -1,0 +1,29 @@
+X:4
+T:Pastorelle
+M:3
+L:1/8
+Q:"Lentement et tendrement"
+K:Cm
+%%staves [1 2]
+%%continueall 0
+V:1
+G2 | c2>d2ue2 | !!d2gfgd | ue3dc2 | c2!!=B3A/B/ | c4e2 | ufefagf | !!e2{d}c2a2 | g2!!f3g | 
+g4 de | uf2gfgd | uegfagf | gfgb=ag | !!^f4fg | u=a2ba!!g^f | ug3=ab2 | !!=ag!!^f3g | g4 :: 
+d2 | !!d3cde | uf3g!!d2 | ue2{d}c2g2 | !!g3fga | ub3c'!!g2 | ua2{g}f2a2 | g2!!f3g | !!=e3efg | 
+ab!!g3f | f2agaf | geagaf | ugf/g/agfe |!!d4G2 | c3due2 | !!d2gfgd | ue3fug2 | ad!!d3c | c4 :|
+V:2
+z2 | z6 | z2z2G2 | c3due2 | !!d2gfgd | ue3dc2 | c2=B3A/B/ | c4f2 | e2!!d3c | !!=B4Bc | 
+ud2e2!!=B2 | c2dBcd | ededcB | !!=A4AB | uc2dc!!B=A | uB3cud2 | !!cB!!=A3G | G4 :: =B2 | !!B3=A=Bc | ud3e!!=B2 |
+uc4=e2 | !!e3d=ef | ug3a!!=e2 | uf4c2 | B2!!A3B | !!G3cd=e | ufg!!=e3f | f2fefd | uecfefd | ued/e/fedc |
+!!=B4z2 | z6 | z2z2G2 | c3due2 | dc!!=B3c | c4 :|
+S:https://www.folktunefinder.com/tunes/40167
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

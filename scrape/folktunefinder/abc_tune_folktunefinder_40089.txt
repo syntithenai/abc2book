@@ -1,0 +1,36 @@
+X:76
+T:Loma Linda
+R:jig
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:The Cape Breton Fiddlers Collection
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:300
+M:6/8
+K:Gdor
+DGE F2 D|GDC B,A,G,|DGE F2 A|cAF FDC|
+DGE F2 D|GAB d2 g|fdc d2 c|AGF G2 z:|
+|:d2 g f2 d|cAF ABc|dge f2 g|[1agf g2 f|
+dge fba|gfd cAF|DGE F2 A|BAF G2 z:|
+[2agf g2 a|bag agf|gfd cAF|DGE F2 A|BAF G2 z|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/40089
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

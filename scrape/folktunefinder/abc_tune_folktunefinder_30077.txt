@@ -1,0 +1,28 @@
+X:0
+T:Murdo Mackenzie of Torridon
+G:pipe march
+M:6/8
+L:1/8
+S:Rebecca Knorr
+Q:3/8=120
+K:AMix
+% mixolydian/dorian hexatonic; A-final C-gap
+ e|Aee e3 |Aee dBg|GBd dBd|e<gG BAG |
+   Aee e3 |Aee dBa|gfe deg|edB  A2 :|
+ B|Aaa a3 |Aaa gea|gfe def|gGd  BAG |
+[1 Aaa a3 |Aaa gea|gfe deg|edB  A2 :|
+[2 e3  A2e|dBd e2a|gfe deg|edB  A2 ||
+ B|A3  e3 |A2e dBg|B3  G3 |e<gG B>AG|
+   A3  e3 |A2e dBa|gfe deg|edB  A2 :|
+ B|AaA gAa|AgA aAa|gfe def|gGd  BAG |
+[1 AaA gAa|AgA aAa|gfe deg|edB  A2 :|
+[2 e3  A2e|dBd e2a|gfe deg|edB  A2 |]
+S:https://www.folktunefinder.com/tunes/30077
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

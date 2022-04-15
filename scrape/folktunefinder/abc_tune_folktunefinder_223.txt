@@ -1,0 +1,20 @@
+X: 4
+P: Compliments to the Boys of the Lough
+C: Frank Ferrel
+R: jig
+M: 6/8
+L: 1/8
+K: A
+|: "A"EAA ABc | "E7"BcB "A"A2c | "D"def "A"eac \
+                               |1,3 "Bm"BAc  "E7"BAF :|2,4 "G(E7)"B3   "A"A3 :|
+|: "A"cee ecA |  "D"fda "A"ecA |1,3  "A"cee "F#m"ecA  |    "Bm"fec   "E7"B2A \
+                              :|2,4  "D"fda   "A"ecA  |     "G"BA=G   "A"A3  :|
+S:https://www.folktunefinder.com/tunes/223
+S:http://trillian.mit.edu/~jc/music/abc/Contra/byFrankFerrel.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

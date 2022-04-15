@@ -1,0 +1,24 @@
+X:484
+%%topmargin 3cm
+T:Teviot Bridge
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+e | dBG D2 G | E2 G D2 G | DED D2 d | c2 B A2 G | dBG D2 G | E2 G D2 B | c2 e dBG | A3 G2 ||
+|: e | dBG GBd | efe efg | dBG GBG | AFD D2 e | dBG GBd | gfe dcB | "2nd"ceg xxx & "_1st"c3 dBG | A3 G2 :|
+S:https://www.folktunefinder.com/tunes/71513
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Teviot_Bridge.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0484.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

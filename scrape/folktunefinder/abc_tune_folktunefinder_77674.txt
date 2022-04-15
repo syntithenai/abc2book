@@ -1,0 +1,30 @@
+X:200
+T: Austin Tierney's
+T: Cherry Tree
+T: Farewell to Erin (B)
+T: R\'il Aibhistin U\'i Thiarnaigh
+S: B.Breathnach:"Ceol Rince na hEireann" III/111
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+D2 FD AD (3FED|Addc defd|d3A BAFA|BdAF EB, B,2|
+D2 FD AD (3FED|AddA Bcde|fd (3gfe dBcA|BdAG EDEF|
+D2 DB AD (3FED|Addc de f2|D2 (3FED ADFA|BdAG E3F|
+D2 (3FED ADFD|AddA Bcde|fd (3ddc dBAd|BdAF EDFA ||
+d3B AF F2|DF (3AAF AFFA|d3B (3ABA FA|BdAF EDCA|
+dcdA BcdB|BAFB ABde|fd (3gfe dBAF|GFED CE A2|
+d3B AF F2|DFAF AFFA|d3B (3ABA FA|BdAF EDFE|
+dcdc BcdA|BAFB A2 ag|faec dBAd|BdAF E3F ||
+S:https://www.folktunefinder.com/tunes/77674
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/a.abc
+S:http://www2.redhawk.org:8080/irish/zouki/a.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

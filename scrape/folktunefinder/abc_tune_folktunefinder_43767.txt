@@ -1,0 +1,24 @@
+X:8
+T:Trip to Slaidburn
+C:Andy Hornby 1996
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+A|DFG AFA|Bcd AFA|Bcd AFA|Bcd e2A|
+DFG AFA|Bcd A2d|Bcd edc|d3d2:|
+|:g|fdf ecA|Bcd AFA|Bcd A2d|Bcd e2g|
+fdf ecA|Bcd A2d|Bcd edc|d3d2:|
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43767
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

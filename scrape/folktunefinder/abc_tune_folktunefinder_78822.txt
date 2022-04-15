@@ -1,0 +1,25 @@
+X:381
+T: IN DER STADT HAGENAU GENANNT
+N: E0215
+O: Europa, Mitteleuropa, Deutschland, Niederrhein; Elsass
+R: erzaehlendes Volks - Lied, Mahn -, Moral - Lied, Strafe
+M: 3/4
+L: 1/8
+K: G
+GBc | d3edc | B2z
+ABc | d3edc | B2z
+BdB | A3BcB | A2z
+ddd | d3BcA | G2z
+S:https://www.folktunefinder.com/tunes/78822
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, mahn -, moral - lied, strafe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Margaret Ann Robertson
+C: F.R.Jamieson
+R: air, waltz
+M: 3/4
+L: 1/4
+K: A
+E \
+| "A"A,2E | C2A, | "D"D>FA | "E7"E3 | "A"c>BA | "F#m"c2A | "Bm"BGE | "E7"DCB, |
+| "A"A,2E | C2A, | "D"D>FA | "E7"E3 | "F#m"c>BA | "E7"c2B | "D"{G}A3 | "A"{B}A2 :|
+c/d/ \
+| "A"e2A | {g}a2A | "D"g2A | "E"fec/d/ | "A"e2A | {g}a2c | "Bm"B3 | "E7"e2c/d/ |
+| "A"e2A | {g}a2A | "D"f>ga | "A"ecA | A,CE | A<ce | "E7"dcB | "A"A2 ||
+c/d/ \
+| "A"e2A | {g}a2A | "D"g2A | "E"fec/d/ | "A"e2A | {g}a2c | "Bm"B3 | "E7"e2E |
+| "A"A,2E | C2A, | "D"D>FA | "A"E3 | "(F#m)"c2B/A/ | "E"{E}c2B | "D"{G}A3 | "A"{B}A2 |]
+S:https://www.folktunefinder.com/tunes/13255
+S:http://trillian.mit.edu/~jc/music/abc/air/MargaretAnnRobertson.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MargaretAnnRobertson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MargaretAnnRobertson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MargaretAnnRobertson.abc
+% Rhythm Air, waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

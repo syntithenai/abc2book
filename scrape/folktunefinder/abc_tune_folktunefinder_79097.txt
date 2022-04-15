@@ -1,0 +1,27 @@
+X:656
+T: SCHAUTS AUSSI,WIES REGNT
+N: E0605
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Liebes - Lied, Trost
+M: 3/4
+L: 1/8
+K: G
+GA | B3BB2 | c2z2
+AB | c3cc2 | d2z2
+GA | B3BB2 | c2A2
+AB | c3cc2 | B4
+G2 | d3cB2 | B2A2
+A2 | e2d2c2 | c2B2
+B2 | d3cB2 | B2A2
+A2 | e3dc2 | B4
+S:https://www.folktunefinder.com/tunes/79097
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, trost
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

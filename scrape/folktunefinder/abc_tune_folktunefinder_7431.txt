@@ -1,0 +1,36 @@
+X: 2
+T: Josefins dopvals [G]
+T: Josefin's baptism waltz
+C: Roger Tallroth
+N: Josefin is Roger's niece.
+Z: John Chambers <jc@trillian.mit.edu>
+N: Harmony by John Chambers
+D: V\"asen, "Spirit"
+D: Dervish, "At the End of the Day"
+M: 3/4
+L: 1/4
+K: G
+V: 1
+zD \
+|: "G"DGA | Bdc | BAG | D3 | "C"C>CC |1,3 EGF | "Am"E3 | "D7"D3 :|2,4 "C"EFG | "D7"A3- | A :|
+|: Bc \
+| "G"dBd | g2f | "C"e3 | "G"d3 | "C"ced | cGA | "G"B>cB | "D7"ABc | "G"dBd | g2f | "C"e3 | "G"d3 |
+| "C"ced | "D7"cBA | "G"B>cB | "D7"ABc | "G"BAG | "D7"F2G | "C"G3 | C>DC | "G"B,DG | "D7"FEF | "G"G3- | G :|
+V: 2
+z2 \
+|: "G"B,DF | GBA | GED | B,3 | "C"G,2G, |1,3 CED | "Am"C3 | "D7"A,3 :|2,4 "C"CDE | "D7"F3- | F :|
+|: GA \
+| "G"BGB | d2B | "C"c3 | "G"B3 | "C"GcB | GEF | "G"G>AG | "D7"FGA | "G"BGB | d2d | "C"c3 | "G"B3 |
+| "C"GcB | "D7"AGF | "G"G>AG | "D7"FGA | "G"GFE | "D7"D2D | "C"C3 | E>GE | "G"DGB | "D7"d2c | "G"B3- | B :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7431
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Waltz_Josefins.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals_Josefins.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

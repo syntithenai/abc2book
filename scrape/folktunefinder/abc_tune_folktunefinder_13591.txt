@@ -1,0 +1,27 @@
+X: 1
+T: In Days Gone By
+C: \251 B.Black
+%Q: 325
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Ddor
+A \
+| d^cde fgag | f2 ed cA (3AGA | c2BG A2GE | FGAd ^ceag |
+| fgaf ec (3ccc | dcAG FDDE | F2AF cFdF | cAGE D3 :|
+A \
+| dcAc dcAc | adgc fedc | defd cAGE | FDCE D3A |
+| dcAc agfe | defd cAGE | FGAd ^ceag | fdec d3 :|
+S:https://www.folktunefinder.com/tunes/13591
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/InDaysGoneBy_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/InDaysGoneBy_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/InDaysGoneBy_Dm.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

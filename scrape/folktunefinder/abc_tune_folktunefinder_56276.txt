@@ -1,0 +1,31 @@
+X:1337
+T: Bela Rada
+R:
+O: Srbija
+B:
+D:
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: G
+|: "G"[B2G][dB][dB] [dB][^c^A][dB] | [dB][ec][d2B] [d2B][B2G] \
+| "D7"[d2B][c2A] [cA][BG][A2F] | [cA][BG][A2F] "G"[BG][AF][G2D] :|
+|: "C"{B}[c4A] [cA][BG][A2F] | "D7"[d2B][A2F] [AF][GD][AF][BG] \
+|  "C"{B}[c4A] [cA][BG][A2F] | "D7"[d2B][A2F] "fine"[A4F] :|
+%%sep
+K: D
+|: "D"[f2d][af][af] [af][^g^e][af] | [af][bg][a2f] [a2f][f2d] \
+| "A7"[a2f][g2e] [ge][fd][e2c] | [ge][fd][e2c] "D"[fd][ec][d2A] :|
+|: "G"{f}[g4e] [ge][fd][e2c] | "A7"[a2f][e2c] [ec][dA][ec][fd] \
+|  "G"{f}[g4e] [ge][fd][e2c] | "A7"[a2f][e2c] [e4c] :|
+S:https://www.folktunefinder.com/tunes/56276
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

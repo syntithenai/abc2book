@@ -1,0 +1,31 @@
+X: 1
+T: Purcell the Piper
+M: 4/4
+L: 1/8
+R: reel
+C: B. Black
+Z: Bill Black <Zouki@AOL.COM> irtrad-l 2000-09-30
+N: Although I had heard about him for years, I first met Al Purcell of Dublin
+N: and Detroit at the 1998 Chicago fleadh. He's the kind of guy you meet the
+N: first time and think you've known all your life. This tune is dedicated to
+N: Al and the other illustrious pipers in his family.
+K: G
+A | GEDE GABd | e2 ef edBd | gfef g3 e | d2 BG AcBA |
+GEDE GABd | e2 ef edBA | GBdg fdcA | BGAF G3 :|
+d | gfga fd d2 | cBcd BG G2 | EAAB cBcd | edef gaba |
+gfga fd d2 | cBcd BGAG | EAAB cABG | EDEF G3 :|
+S:https://www.folktunefinder.com/tunes/17917
+S:http://trillian.mit.edu/~jc/music/abc/reel/PurcellThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PurcellThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/PurcellThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PurcellThePiper.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:75
+T: Man scheckt Jokele aus, S. 42
+N: L0035V
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+N: 2 Weisen;
+N: 1. Weise mit Sign. 0034
+R: , Kinderlied]
+M: 2/4
+L: 1/16
+K: A
+ | A4A2B2 | c2c2c2z2
+e2e2d2B2 | d2c2B4
+A2A2A2B2 | A2G2F2E2
+A2A2AAB2 | c4c4
+c2B2A2G2 | B4A4
+S:https://www.folktunefinder.com/tunes/70205
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm , kinderlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

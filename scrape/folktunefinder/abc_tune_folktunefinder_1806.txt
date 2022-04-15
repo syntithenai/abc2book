@@ -1,0 +1,35 @@
+X:1
+T:10. Fantasia secunda.
+T:Superius.
+C:Giovanni de Antiquis.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+N:Original clef, C on first line
+K:F
+F2 D F G F > E F/ D/ E/ F/ G/ E/ F E F A G > F G/ E/ F/ G/ A/ B/ c/ B/ A/ G/ F2 E
+F/ G/ A/ G/ A/ B/ c/ A/ B/ c/ d c > B A/ G/ A G F2 E/ D/ E/ F/ G/ E/ F/ G/ A/ B/ c2 A c d c > Bc/ A/ B/ c/ d/ B/
+c/ B/ A/ G/ F > G A B2 A/ G/ A/ F/ G2 C > D E/ F/ G/ E/ F/ G/ A/ G/ A/ B/ c A G2 z F
+D F G F > E F/ D/ E/ F/ G/ E/ F E F G/ F/ E/ D/ E/ C/ D/ E/ F2 E F A > G F/ E/ D/ C/ F2 E D2
+z F A B > A F/ G/ A/ B/ c2 B c G2 A/ G/ F/ G/ A/ B/ c > B A/ G/ F/ E/ D2 z F A B > A F/ G/ A/ B/ c2 B
+c2 z C > D E/ F/ G/ A/ B/ c/ d/ B/ c > B A G F2 E F A B > A F/ G/ A/ B/ c/ A/ B/ c/ d2 c d > c c2 B
+c/ B/ A/ G/ F D/ E/ F/ G/ A/ B/ c G > A B/ G/ A/ B/ c/ B/ A/ G/ F E D/ C/ D/ E/ F2 E F16 |]
+S:https://www.folktunefinder.com/tunes/1806
+S:http://www.laymusic.org/music/bicinia/secunda/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

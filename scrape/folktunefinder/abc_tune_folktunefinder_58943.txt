@@ -1,0 +1,51 @@
+X:56
+T:Aada (CT 434) (Arrg.)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de cuna (Aada), transcrita en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+G:Arrg.
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 434
+M:2/4
+L:1/8
+Q:1/4=80
+K:Cm
+|:"Cm"Gc cc|"Cm"c2 c2|"Bb (Gm)"de "Bb"fe|"Gm"(d>c) B2|
+"Gm"dd dc|"Gm"B2 BA|"Gm"GF "Bb"GA|"Cm"G2 G2:|
+|"Cm"Gc cc|"Cm"c2 c2|"Gm"de "Bb"fe|"Gm"(d>c) BB|
+|"Gm"dd dc|"Gm"B2 BA|"Cm"GF GA|"Gm"G2 G2|
+|"Gm"dd dc|"Cm"cB BA|"Gm"GF GA|"Gm"G2 G2|
+|"Gm"dd dc|"Cm"cB BA|"Gm"GF GA|"Cm"G2 G2|
+W:La perrita chita,
+W:la perda ayer tarde,
+W:yendo de paseo solita
+W:con mi amante.
+W:
+W:el que me la encuetre
+W:que la devuelva luego;
+W:ya le d las seas
+W:ayer al pregonero.
+W:
+W:La patita blanca,
+W:y el rabito negro,
+W:la orejita encarnada
+W:y un cascabel al cuello.
+W:Ea, ea, ea, resalada,
+W:que te quiero;
+W:ea, ea, ea, resalada,
+W:que me muero.
+W:
+S:https://www.folktunefinder.com/tunes/58943
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

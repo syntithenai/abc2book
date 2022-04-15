@@ -1,0 +1,25 @@
+X:489
+%%topmargin 3cm
+T:Lady Nelly Wemyes's Jig
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:B dorian
+B S|: Tc2 e- ega | cAc e2 d | cde- ef=g | B=GB d2 B | ~c2 e- efg | {fg}a>gf edc | !wedge!d(.f.d) !wedge!c(.a.c) | B=GB d2 B ::
+acA ecA | acA efg | acA ecA | B=GB d2 B | acA ecA | agf edc | !wedge!d(.f.d) !wedge!c(.a.c) | B=GB d2 B S:|
+S:https://www.folktunefinder.com/tunes/71518
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Nelly_Wemyess_Jig.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0489.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

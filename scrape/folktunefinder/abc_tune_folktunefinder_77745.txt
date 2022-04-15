@@ -1,0 +1,21 @@
+X:100
+T:Madame Bonaparte
+Z: id:dc-setdance-20
+M:C|
+L:1/8
+K:G Major
+dc|B2BA BdBG|c2cB cecA|GBdf gfge|d3e dcBA|!
+B2BA BdBG|cBcd efge|dBGB cAFA|G2GF G2:|!
+BA|GBdf g3e|d3e dcBA|GBdf g3e|d3e dcBA|!
+BdGd BdGd|ceAe ceAe|BdGd BdGd|FADA FADA|!
+BdGd BdGd|cBcd efge|dBGB cAFA|G2GF G2:|!
+S:https://www.folktunefinder.com/tunes/77745
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Setdance.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Setdance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

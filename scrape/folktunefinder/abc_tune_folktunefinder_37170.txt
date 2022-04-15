@@ -1,0 +1,32 @@
+X:5455
+T:Schottische (Halling)
+M:4/4
+O:Sweden
+O:Norway
+P:AABAABCC
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008ed.html
+%%ID:000008ed
+K:D dorian
+P:A
+A2 | A2f2f2ed | e3fe2A2 | A2d2d2cB | c3dc2 :|
+P:B
+A2 | A2f2f2ed | g2ga gffg | a3_ba3b | \
+agfed2ag | f2ed e2c2 | d4 |:
+P:C
+A2 | \
+f2ag f2ed | cdc_B ABAG | FGFD EFED | E6 A2 |
+f2ag f2ed | cdc_B ABAG | FGFD EFED | E6 ag| \
+f2ed e2^c2 | d6 :|
+S:https://www.folktunefinder.com/tunes/37170
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

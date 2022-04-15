@@ -1,0 +1,24 @@
+X: 118
+T:Haste To The Wedding
+% Nottingham Music Database
+S:EF
+M:6/8
+K:D
+P:A
+F/2G/2|"D"A2A A2f|"G"ede fdB|"D"A2A AGF|"Em"GFG "A7"EFG|
+"D"A2A A2f|"G"ede fdB|"D"A2A "A7"a2g|"D"fdd d2:|
+P:B
+d/2e/2|"D"fga " ""B7"agf|"Em"gab "A7"bag|"D"fga " ""B7"agf|
+"G"gfg "A7"efg|"D"a3 "Bm"f3|"G"ede fdB|"D"A2A "A7"a2g|"D"fdd d2:|
+S:https://www.folktunefinder.com/tunes/65206
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

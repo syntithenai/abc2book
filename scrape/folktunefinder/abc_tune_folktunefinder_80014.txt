@@ -1,0 +1,26 @@
+X:15
+T: Es waren zwei Gespielen
+N: L0070B
+O: Europa, Mitteleuropa, Deutschland
+N: Muendl. aus Schlesien
+R: Lied
+M: 3/4
+L: 1/8
+K: F
+C | FAc2G2 | A2G2z
+c | cef2d2 | e2c2z
+c | cef2g2 | fdc2z
+A | Bdc2G2 | A2F2z
+c | cef2g2 | fdc2z
+A | Bdc2G2 | A2F2z
+S:https://www.folktunefinder.com/tunes/80014
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

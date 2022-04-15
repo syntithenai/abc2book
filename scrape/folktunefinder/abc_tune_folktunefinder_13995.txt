@@ -1,0 +1,28 @@
+X: 1
+T: Charlie Stuart's Jig
+T: Charlie Hunter's Jig
+C: Bobby MacLeod
+D: FR200 "Kitchen Junket"
+D: Rounder 7004, Joe Cormier, "The Dances Down Home"
+B: Bobby MacLeod's Selection of Country Dance Tunes
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fed "Bm"Bcd | "A7"ecA GFE \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fef "A7"gec | edc "D"d2 :|
+|: f/g/ \
+| "D"afd dcd | "G"BGG G2F | "E7"E^GB e2d | "A"cAA A2a/g/ \
+| "D"fdA FDF | "G"GBd g2g | "D"fef "A7"gec | edc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/13995
+S:http://trillian.mit.edu/~jc/music/abc/jig/CharlieStuartsHuntersJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CharlieStuartsHuntersJ_D.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

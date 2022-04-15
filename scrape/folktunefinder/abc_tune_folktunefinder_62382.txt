@@ -1,0 +1,37 @@
+X:51
+T:Grannas flecker
+R:sl-polska
+H:Variant 1 efter Pelle Fors, via br\"oderna Hellstr\"om
+H:En visa "grannas flecker g{\aa}r i vall med korna"
+H:\"Aven i Am, #14.
+A:\"Osterg\"otland
+B:Variant 2: Bagge 32
+Z:id:hn-sp-51
+M:3/4
+L:1/16
+K:Gm
+(D2|G3)(A Bc)BA (G^F)GA | (BA)Bc d4 B4 | d3(^f ga)gf (cA)c=e |
+(ga)g^f (d_e)dc (Bc)BA | G3(A Bc)BA (G^F)GA | (BA)Bc d4 B4 |
+d3(^f ga)gf (cA)c=e |1 (ga)g^f d6 :|2 (ga)g^f d8 ||
+d3(^f ga)gf (cA)c=e |: (ga)g^f d4 B4 | (BA)Bd (fg)fd (BA)Bd |
+(fg)fd c4 A4 | A2(BA) (GA)Bc (d_e)dc |1 (Bc)BA (G^F)AF G4- |
+G3(^f ga)gf (cA)c=e :|2 (Bc)BA (G^F)AF G2 ||
+[K:Am] "variant 2" z2 |
+A2B2 cdcB A2B2 | cBcd e4 c4 | e2^g2 a2a2 fdfa |
+abag efed cdcB | A2B2 cdcB A2B2 | cBcd e4 c4|
+e2^g2 a2a2 fdfa | abag e8 :|
+|: e2^g2 a2a2 fdfa | abag e4 c4 | c2e2 g2g2 eceg |
+gagf d4 B4 | cBcd e2c2 A2c2 | cB^GB B2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/62382
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key A
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

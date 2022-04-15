@@ -1,0 +1,23 @@
+X: 1
+T: Hambo ("generic")
+O: Trad
+N: Variants of this tune are found all over Scandinavia in various rhythms
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"F2 (A>F) D>F | "G"G2 (B>G) E>B \
+| "A7"c2 (e>c) A>c |1,3 "D"d2 (f>d) A>G :|2,4 "D"d2 d4 :|
+|: "D"f2 (f>d) f>a | "G"g2 (g>f) e>d \
+|1,3 "A7"c2 (e>c) e>g | "D"f2 (f>e) d2 \
+:|2,4 "A7"c2 (e>c) A>c | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16330
+S:http://trillian.mit.edu/~jc/music/abc/pols/Generic_hamb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Generic_hamb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:5845
+T:the Spey in Spate
+C:J. Scott Skinner
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a26.html
+%%ID:00000a26
+K:D
+{A,B,C}D2FD A,DFA|dcBA ^GAFD|\
+E2GE B,EGB|gecA GECA,|\
+{C}D2FD A,DFA|dDcD BDAf|gefd ecdB|AFGE DABc||\
+d/d/dfd AdFA|DFAd fagf|e/e/ege BeGB|CEAc egfe|\
+d/d/dfd AdFA|DFAd fagf|gefd ecdB|AFGE D4|]
+S:https://www.folktunefinder.com/tunes/37248
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

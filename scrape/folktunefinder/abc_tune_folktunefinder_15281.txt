@@ -1,0 +1,22 @@
+X:1
+T:Zycanthos Jig
+M:6/8
+C:Roger Wilson
+S:Clare Maher 2008-4-30 [email]
+K:Am
+|:"Am"a2a  gag |    e2a ag2 |    e2c  BcB | A2F "F"F3 \
+| "Am"EAB  cBA | "F"FAB cBA | "G"B2B ed(B | B)"Am"cd cBA :|
+|:"Dm"d2 d2 c2 |    dc2 B2A |    d2 d2 cd | B3 "E"A3 \
+| "Dm"d2 d2 c2 |    dc2 B2A |    d2 d2 cd | "E"ez2 z2 :|
+S:https://www.folktunefinder.com/tunes/15281
+S:http://trillian.mit.edu/~jc/music/abc/jig/ZycanthosJig_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ZycanthosJig_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ZycanthosJig_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

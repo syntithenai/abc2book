@@ -1,0 +1,25 @@
+X:170
+T: Muede kehrt ein Wandersmann zurueck
+N: D1001
+O: Europa, Mitteleuropa, Deutschland, Hessen, Gross  Gerau, Klein Gerau
+N: DVA-Signatur A 487
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+ | B3AG2F2 | G2F2G2A2 | D3z
+D2F2 | A6G2 | F2A2e2d2 | B8- | B2z2
+G2A2 | B4d4 | c2B2A2G2 | E8- | E2z
+GF2E2 | D6G2 | F2A2e2d2 | B8
+S:https://www.folktunefinder.com/tunes/72627
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

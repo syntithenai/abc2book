@@ -1,0 +1,27 @@
+X: 1
+T:2fiddles
+R:Hambo
+M:3/4
+L:1/8
+O:Sweden
+Z:Carol Turner
+K:Gm
+D |\
+G>B d2 g>b | a^f/2a/2 g2 d>c | \
+Bd/2B/2 AB/2A/2 GA/2B/2 | BA/2G/2 ^F/2G/2A/2^F/2 D>D |\
+G>B d2 g>b | a^f/2a/2 g2 d>c |\
+Bd/2B/2 AB/2A/2 GB/2G/2 | D/2^F/2A/2^F/2 G>D::\
+d>c B/2A/2B/2c/2 dd/2e/2 | cc/2A/2  FF/2A/2 cc/2d/2 |\
+B>A G/2^F/2G/2 B/2 dB | BA/2G/2 ^F/2G/2A/2^F/2 D>D |\
+d>c B/2A/2B/2c/2 dd/2e/2 | cc/2A/2  FF/2A/2 cc/2d/2 |\
+B>A G/2^F/2G/2B/2 dB | A/2B/2A/2^F/2 G4:|
+S:https://www.folktunefinder.com/tunes/43719
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/2f/2fiddles_1.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

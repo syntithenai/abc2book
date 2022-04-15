@@ -1,0 +1,51 @@
+X:1
+T:The Raven Through The Bog
+T:The Rover Through The Bog
+T:The Mullingar Races
+T:Bealltaine
+T:The Butchers of Bristol
+T:Taylor's Hornpipe
+T:Geary's Hornpipe
+D:Patrick Street
+M:C|
+L:1/8
+R:Hornpipe
+S:Tommy Peoples - Workshop 7/17/01
+Z:AK/Fiddler's Companion irtrad-l 2001-7-24
+K:G
+DGBG ABcA | defa {g/a/} gedc | ~B3d ~c3A | E/F/G AF DEFD |
+G2 BG AB{c/d/}cA | B/c/d fa {g/a/}gedc | B2 dB {d}cAFG | {A/B/}A2 G2 G4 :|
+|: ~g3a {a}gfde | {g/a/}g2 af gfde | ~f3g afge | Adfe dcAF |
+G2 BG AB{c/d/}cA | B/c/d fa {g/a/}gedc | B2 dB {d}cAFG | {A/B/}A2 G2 G4 :|
+S:https://www.folktunefinder.com/tunes/13477
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Bealltaine_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ButchersOfBristol_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/GearysHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MullingarRaces_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RavenThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RoverThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/TaylorsHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Bealltaine_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/ButchersOfBristol_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/GearysHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/MullingarRaces_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/RavenThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/RoverThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/TaylorsHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Bealltaine_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ButchersOfBristol_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GearysHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MullingarRaces_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RavenThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RoverThroughTheBog_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TaylorsHornpipe_1.abc
+% Rhythm Hornpipe
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:45
+T: HINAUS HINAUS ES RUFT DAS VATERLAND
+N: B0054
+O: Europa, Mitteleuropa, Deutschland
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 4/4
+L: 1/16
+K: G
+D2E3F | G6G2G3AB3c | d8z2
+d2e3d | c6A2B3Gd3B | A3BA6
+D2B3A | G6F2G3AB3^c | d8z2
+A2A2A2 | f6d2A4B3^c | e4d4z2
+d2e3d | c6A2B3Gd3B | A8z2
+d2e3d | c6A2B3Gd3B | A3BA6
+D2B3A | G3DB3AG3Be3d | c6B2A2
+A2d3c | B6B2A3GA3B | G8z2
+D2B3A | G3DB3AG3Be3d | c6B2A2
+A2d3c | B6B2A3GA3B | G8z2
+S:https://www.folktunefinder.com/tunes/78066
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

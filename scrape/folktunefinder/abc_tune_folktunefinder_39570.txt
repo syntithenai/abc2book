@@ -1,0 +1,35 @@
+X:15
+T:La Jalousie
+C:Feuillet (1700)
+R:Contredanse
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-16
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/4
+%%staves {(1 2) 3 }
+P: joue 3 fois
+K:Dm
+V:1 name=G
+de |: fe/f/ g/f/e/d/ | ^c!breath!A de | fe/f/ g/f/e/d/ |1 a2 de :|2 a2 gg ||
+!breath!g2 gg | !breath!g2 gg | ga _b/a/g/f/ | e!breath!e d/e/f/g/ | !breath!a2 d/f/e/d/ |
+^c!breath!A d/e/f/g/ | !breath!a2 d/f/e/d/ | ^c!breath!A aa | _b/a/g/f/ !!e>d | d2 |]
+V:2 name=
+FE | F2G2 | E2 AG | A2 d2 | [^c2A2] x2 | A2 =c2 |
+c2cd | edef | x4 | ^CxAz | D/E/F/G/ AG | 
+E2Az | A/G/F/E/ DF | ExDF | G_B A2 | [F2D2] |
+V:3 name=V
+d^c | dc_BG | A!breath!G FE | DC _B,2 | A,2 dA | A,2 ED | 
+E!breath!F ED | ^C!breath!B, CD | EFGE | A!breath!GFE | FDFG | 
+A!breath!G FE | FDFG | A!breath!GFD | GEAA, | D2 |
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+S:https://www.folktunefinder.com/tunes/39570
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Contredanse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

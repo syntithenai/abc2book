@@ -1,0 +1,34 @@
+X: 1
+T: the Maid at the Spinning Wheel
+T: the Hag at the Spinning Wheel
+R: jig
+B: Breathnach's Ceol Rince na hEireann, vol. 1.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"~G3 B2G | "D7"BcA "G"B2D |     ~G3 BAG | "D7"EFG AFD \
+| "G"~G3 B2G | "D7"BcA "G"Bge | "D7"fed cAF | "G"~G3 Gz :|
+|: c \
+| "G"BAG "D"AFD | ~D3 AFD |     ~D3 AFD | "C"EFG "D7"ABc \
+| "G"BAG "D"AFD | ~D3 AFD | "D7"ded cAF | "G"~G3 Gz :|
+|: D \
+| "G"GBd "D7"gba | "G"gdB "C"ecA |  "G"dBG "Am"cAG | "D7"F2G AFD \
+| "G"GBd "D7"gba | "G"gdB "C"ecA | "D7"fed     cAF | "G"~G3 Gz :|
+|: c \
+| "G"BAG "D7"Afd | "G"Bfd "D"Afd |  "G"Bfd "D"AFD | "C"EFG "D7"ABc \
+| "G"BAG  "D"AFD |    ~D3    AFD | "D7"ded    cAF | "G"~G3 Gz :|
+S:https://www.folktunefinder.com/tunes/14577
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidAtTheSpinningWheel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MaidAtTheSpinningWheel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MaidAtTheSpinningWheel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MaidAtTheSpinningWheel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidAtTheSpinningWheel_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

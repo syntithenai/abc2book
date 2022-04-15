@@ -1,0 +1,31 @@
+X: 69
+T:Miss Baker's Hornpipe,aka. JMP.069
+M:C|
+L:1/8
+Q:180
+C:"74"..untitled
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+N:untitled in MS
+H:1799
+Z:vmp.C. Graeb
+K:D major
+AG | F2 D2 DFED | CDEF G2 GF | GABc dBAG | F2 D2 D2 :||!
+(AB/c/) | dAFA dfed | ecAc egfe | fdec dBed | c2 A2A2 dc |!
+BAGF G2 gf | edcB A2 GF | GABc dBAG | F2 D2 D2|]
+S:https://www.folktunefinder.com/tunes/2006
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 144
+T: Iste Hendek
+O: Turkey
+Z: Deborah Jones
+M: 4/4
+L: 1/8
+Q: 1/4 =120
+K: Am
+%%MIDI gchord fzfz
+  "Am"z2 AA dB c2|(BA3) A4         |z2 AA dB c2    |(BA3) A4         |
+  z2 AA dB c2    | (cB2) A (dB) c2 | z2 Bc (dB) c2 | (BA3) A4        | 
+|:z2 AA dB c2    | BA3 A4          | z2 AA dB c2   | BA4 A4          |
+  z2 AA dB c2    | B B2A d2 c2     | z2 Bc dB c2   | BA3 A4          :|
+|:"C" zc2 d e2e2 |"Dm"z e2 f e2d2  |z d2 d d2 dc   |"Am" z d2 e d2 c2|
+  "C" zc2 c dB c2| "Dm" z c2 d c2 B|"Em" z A2B B2B2|"Am" B2 c2 B A3  :|
+S:https://www.folktunefinder.com/tunes/68030
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

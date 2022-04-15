@@ -1,0 +1,27 @@
+X: 1
+T: Vendelspolskan
+C: Leonard Larsson "Viksta Lasse"
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|: "A"c2 A>c e>c | "Bm"e>d B>d f>e \
+|1,3 "A"e>c A>c e>d | "E7"B<G E4 \
+:|2,4 "A"e>c A>c "E7"e>d | B<G "A"A4 :|
+|: "A"a2 a<c e>d | "Bm"f2 fc | "E7"e2 e<E G>B \
+|1,3 "A"d>c A>c ef/g/ :|2,4 "E7"d<c "A"A4 :|
+|: "A"C2 E2 E>E | "D"D2 F4 | "E7"E>G B<d c>B \
+|1,3 "A"A2 (3cAc e2 :|2,4 "A"Az A4 :|
+S:https://www.folktunefinder.com/tunes/16595
+S:http://trillian.mit.edu/~jc/music/abc/pols/VendelsP_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hambo/VendelsP_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/VendelsP_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/VendelsP_A.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

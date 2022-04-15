@@ -1,0 +1,29 @@
+X: 64
+T:Au renouviau
+R:Danse XIIIe
+O:France
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+L:1/8
+P:ABACABACA
+K:Bbmaj
+M:4/4
+P:A
+c>B c>d | e>f d>e (3dcB c>d |1 G2 Gz :|2 c2 c>B ||:
+P:B
+c>d d>e | c>B c>d |1 c2c>B :|2 c2c2 ||
+P:C
+c>g g>e | f>e d>d | c>g g>e | f>e d>d | c>B c>d | c2 c2 |]
+%%footer $D   Galouvielle-MBe 2008 \nEstampie (--)
+S:https://www.folktunefinder.com/tunes/523
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse xiiie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

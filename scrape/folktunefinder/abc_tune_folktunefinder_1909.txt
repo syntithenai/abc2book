@@ -1,0 +1,27 @@
+X: 87
+%%topspace .3cm
+T: St. Lawrence
+C: J-32
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+"D"ABA FAd| f2d A2d| "A"c2B G2B| "D"B2A F2G|
+"D"ABA FAd| f2d A2d| "A"cec ABc| "D"d3 d3:|
+|:\
+"G"a2g B2g| "D"g2f A2d| "A"cde ABc| "D"dcB A2f|
+"G"a2g B2g| "D"g2f A2d| "A"d2c cBc| "D"d3 d3:|
+%%text 9/1/98
+% ---------- page 44 ----------
+S:https://www.folktunefinder.com/tunes/1909
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

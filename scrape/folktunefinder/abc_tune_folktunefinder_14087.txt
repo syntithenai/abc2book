@@ -1,0 +1,40 @@
+X: 1
+T: Devonshire House
+O: Playford 1698
+R: jig
+N: Longways for as many as will
+B: H. Playford "The Dancing Master" 10th ed. 1698 p.204
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+d/c/ \
+| B2f d>cB | fga b2a | g>ab a>gf | f2=e f2 :|
+|: e/d/ \
+| e2f g>fe | dec f2e | d>cB ABG | G2F F2B |
+| F>GF E2e | c>Bc F2f | d>cB B2A | B3- B2 :|
+%
+W:First cu. cast off, the 2. cu leading up, change places at the same time; 2 cu. cast down, 1. cu. lead
+W:up, changing places as before, men being on the wo. side, hands half round, break hands all abreast
+W:lead up; 1. man cross over with the 2. wo. 2. man and 1. wo. do the like, turn single all four, cross over
+W:all four, turn single right and left into the 2. cu. place,
+W:     The Second Part.
+W:First cu. lead down between the 2. and cast up into their own places; the 2. cu lead between the 1. and
+W:cast down into their own places; 1. man cross over with the 2. wo. cross over all four, turn your
+W:own, the 1. man being in the 2. man's place, and the 2. man being in the 2 wo. place; cross over
+W:with the 1. wo. then cross over all four, and turn your own.
+S:https://www.folktunefinder.com/tunes/14087
+S:http://trillian.mit.edu/~jc/music/abc/jig/DevonshireHouse_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/DevonshireHouse_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/DevonshireHouse_Bb.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/DevonshireHouse_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

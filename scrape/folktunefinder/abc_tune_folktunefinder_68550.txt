@@ -1,0 +1,26 @@
+X:4
+T: Herzog Ernst
+N: A0004C
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Lied
+M: 4/1
+L: 1/1
+K: E
+A | AEAA | AB=cc | BAz
+=c | =cccc | =d=cB
+A | =cBAA | EEz
+A | AEAA | AB=cc | BAz
+=c | =cccc | =d=cB
+A | =cBAA | EE
+B=d | =cBA=G | =GGE=C
+zGGG | =GGGA | =Gz
+AB | =cBA=G | AE2=F | E4
+S:https://www.folktunefinder.com/tunes/68550
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Text Has notes text
+% Has_accompaniment_chords No chords

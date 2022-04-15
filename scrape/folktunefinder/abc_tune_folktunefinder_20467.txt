@@ -1,0 +1,27 @@
+X:18
+T:6/8 du Petit Sarny
+O:england
+M:6/8
+L:1/8
+C:Eric Favreau
+R:jig
+K:G
+||: ~B3 Bcd | ~B3 BAG | EFG AGA | BGE D3 |
+~B3 Bcd | ~B3 BAG | EFG AGA |1 BGF G3 :|2 BGF GAB
+||: dBd gdB | A3 BGE | DBB Dcc | DBB ABc |
+dBd gdB | A3 BGE |1 Ggf edB AGF | ~G3 GBc :|2
+DB,D ~E3 FEF | ~G3- GBc ||:
+dBd g2f | e3 gdc | Bdg gfg | ~a3- aBc |
+dBd g2f | e3 gdc | Bdg fef |1 ~g3- gBc :|2 ~g3- gGA ||
+S:https://www.folktunefinder.com/tunes/20467
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

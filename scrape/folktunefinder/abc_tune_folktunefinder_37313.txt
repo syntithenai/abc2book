@@ -1,0 +1,27 @@
+X:6170
+T:TawnyGate Corner
+A:North-West
+M:6/8
+N:P4 2/3
+O:England
+R:Jig
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000562.html
+%%ID:00000562
+K:A
+g|\
+a2a g2e |fga g2e |a2f ecA |B3 B2g |\
+a2a g2e |fga g2e |a2f edc |A3A2 ::
+d|\
+c2A c2e |fga g2e |a2f ecA |B3B2d |\
+c2Ac2e  |fga g2e |a2f edc |A3A2 :|
+S:https://www.folktunefinder.com/tunes/37313
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

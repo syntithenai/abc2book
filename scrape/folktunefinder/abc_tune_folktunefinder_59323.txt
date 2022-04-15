@@ -1,0 +1,31 @@
+X:436
+T:La Cruz de Mayu (MG 73) (Arrg.)
+R:Marcha
+C:Versin de Chema Castan
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 73
+M:2/4
+L:1/16
+Q:1/4=100
+E:Comp.
+K:C
+({G/2A/2G/2} EG)|:"Am"cBAG "F"FEFG|"C"GAGE "C"C2G2|
+|[1 "Dm"FGFD "Em"B,2A2|"C"GAGE "C"C2EG:|[2 "Dm"FGFD "Em"B,DGE||
+"C"C4- "C"C2E2|:"G"DCB,C "Dm"DEFG|"C"EFED "C"C2E2|
+|[1 "G"DEDC "Em"B,2A2|"C"GAGE "C"C2E2:|[2 "G"DEDC "Em"B,DGE||
+"C"C2- C
+S:https://www.folktunefinder.com/tunes/59323
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

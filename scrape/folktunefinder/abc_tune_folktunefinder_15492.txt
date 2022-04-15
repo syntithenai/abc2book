@@ -1,0 +1,28 @@
+X: 1
+T: Jamie Allen
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen was a Northumbrian small-pipes player.
+K: A
+ A/B/ \
+| "A"cA AB | "Fm"c2 AB/c/ | "Bm"dB Bc | "E7"d2 cB \
+| "A"Aa "D"af | "A"e2 c>d | "E7"ee d/c/B | "A"A3 :|
+|: c/B/ \
+| "A"Aa a>g | "Fm"fe dc | "Bm"Bb b>a | "E7"ge fg \
+| "D"a>b af | "A"e2 c>d | "E7"ee d/c/B | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/15492
+S:http://trillian.mit.edu/~jc/music/abc/march/JamieAllen_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/JamieAllen_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/JamieAllen_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/JamieAllen_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/JamieAllen_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

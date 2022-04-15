@@ -1,0 +1,29 @@
+X: 1
+T:Bon Gout. WCl.14
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+N:bar B5 as given in MS
+Z:vmp.Barry Callaghan
+K:D
+d2d c2c|efe efg|d2d c2c|ecA A3|!
+d2d c2c|efe efg|afd gec|d3 D3::!
+f2f fed|g2g efg|f2d d2f|ecA "sic"A3-|!
+a2|faf def|gbg efg|afd gec|d3 D3:||
+S:https://www.folktunefinder.com/tunes/13919
+S:http://trillian.mit.edu/~jc/music/abc/jig/Bon_Gout_WCl_14_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Bon_Gout_WCl_14_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Bon_Gout_WCl_14_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:3100
+T:Latrigg Side
+A:North-West
+C:Wm. Irwin
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004ff.html
+%%ID:000004ff
+K:F
+cB|\
+Afef afcA| Gg^fg bgec| cfef cfef| gfed cBAG|\
+Acfe afcA| Gg^fg bgec| bgaf edc=B| c2c2 c2::\
+ef|\
+gc=Bc acBc| bgaf edcB| Afef Bg^fg| efde cdec|\
+fc=Bc gcBc| ac=Bc bgec| fagb afge| g2f2 f2:|
+S:https://www.folktunefinder.com/tunes/36699
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

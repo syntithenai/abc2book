@@ -1,0 +1,24 @@
+X: 1
+T: Silent Night [Bb]
+T: Stille Nacht
+T: Glade Jul
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+[|"Bb"[FD]>[GE][FD] [D3B,3] | "Bb"[FD]>[GE][FD] [D3B,3] \
+| "F7"[c2F2][cF] [A2-E2-][AE] | "Bb"[B2D2][BD] [F3D3] \
+||"Eb"[G2E2][GE] [BG]>[AF][GE] | "Bb"[FD]>[GE][FD] [D3B,3] |
+| "Eb"[G2E2][GE] [BG]>[AF][GE] | "Bb"[FD]>[GE][FD] [D3B,3] \
+||"F7"[c2F2][cF] [eA]>[cF][AE] | "Bb"[B3D3] [d2F2]z \
+| [BD2][FD][DB,] "F7"[FA,]>[EC][CA,] | "Bb"[B,3B,3] z3 |]
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8716
+S:http://trillian.mit.edu/~jc/music/abc/Scand/GladeJul.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

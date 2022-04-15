@@ -1,0 +1,32 @@
+X:1500
+T:the Drunken Sailor
+L:1/8
+M:4/4
+O:Ireland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bb5.html
+%%ID:00000bb5
+K:A dorian
+EAAG ABcd | edcB AGEF| G2GF G2GF | GABc dBcB|
+A2AG ABcd | edcB cBAG| Aaaa aged | c2A2 A2:|
+|:AB|\
+c2cB cdef| gdBc dBGA| B2dB eBdB| GBdB edcB|
+AccB cdef| gdBc dBGB| Aaaa aged| c2A2 A2:|
+Bd|\
+|:eaag a2ga| bagf edeg| f2af bfaf| dfaf bagf|
+eaag a2ga| bagf edBd| egfa gedB| c2A2 A4:|
+Acec Acec| GBdB GBdB| Acec Acec| BcBc BAG2|
+Acec Acec| GBdB GBd^d| egfa gedB| c2A2 A4:|
+aeac' aeac'|gdgb gdgb| aeac' aeaa| gedB eBdB|
+A2Ac B2Bd| c2ce d2df|egfa gedB| c2A2 A4:|
+S:https://www.folktunefinder.com/tunes/36379
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

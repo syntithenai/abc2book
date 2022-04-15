@@ -1,0 +1,23 @@
+X:3905
+T:Nonesuch
+L:1/4
+M:4/4
+Z:Richard Robinson 
+% Nottingham Music Database
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001289.html
+%%ID:00001289
+K:D min
+a|\
+af ga | fe/2f/2 da | af ga | f2 fa | \
+af ga | fe/2f/2 da | af ga | f2 de ||
+ec de | fe/2f/2 de | ec de | f2 de |\
+ec de | fe/2f/2 de | ec de | f2 d |]
+S:https://www.folktunefinder.com/tunes/36860
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

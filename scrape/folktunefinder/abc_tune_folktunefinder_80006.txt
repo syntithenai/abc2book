@@ -1,0 +1,25 @@
+X:7
+T: Da zu Mitterfasten es geschah
+N: L0060
+O: Europa, Mitteleuropa, Deutschland
+N: Hs. des 15. Jh.
+R: Lied
+M: 4/4
+L: 1/8
+K: D
+D4G4 | A2G2E2=F2 | D4E2=F2 | G4z2
+D2 | =C4G4 | A4=F4 | G4G4 | =F4z2
+E2 | =F4G4 | =F4D2E2 | E2=C2B,2E2 | =F2D=CB,4 | A,8
+S:https://www.folktunefinder.com/tunes/80006
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

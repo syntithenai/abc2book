@@ -1,0 +1,42 @@
+X: 1
+T: Patch Tanz
+O: Hassidic
+M: 2/4
+L: 1/16
+P: C instruments
+K: Em
+ | "Em"G4 GAAG | GAAG "B7"GFFE | "Em"G4 GAAG | "B7"GFFE "Em"E4 \
+ | "Em"[G4B] [GB][Ac][Ac][GB] | [GB][Ac][Ac][GB] "B7"[GB][FA][FA][EG] | "Em"[G4B] [GB][Ac][Ac][GB] | "B7"[GB][FA][FA][EG] "Em"[E4G] ||
+|| "D7"ABcA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 \
+ | "D7"dcBA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 ||
+|| "D7"DEF2 "G"GAB2 | "B7"AGF2 "Em"E4 | "G"GDDG "F"G=FFE | "Em"E8 \
+ | "D7"DEF2 "G"GAB2 | dcB2 "Am"A4 | "G"GDDG "F"G=FFE | "Em"E8 |]
+P: Am
+K: Am
+ | "Am"c4 cddc | cddc "E7"cBBA | "Am"c4 cddc | "E7"cBBA "Am"A4 \
+ | "Am"[c4E] [cE][dF][dF][cE] | [cE][dF][dF][cE] "E7"[cE][BD][BD][AC] | "Am"[c4E] [cE][dF][dF][cE] | "E7"[cE][BD][BD][AC] "Am"[A4C] ||
+|| "G7"defd "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 \
+ | "G7"gfed "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 ||
+|| "G7"GAB2 "C"cde2 | "E7"dcB2 "Am"A4 | "C"cGGc "Bb"c_BBA | "Am"A8 \
+ | "G7"GAB2 "C"cde2 | gfe2 "Dm"d4 | "C"cGGc "Bb"c_BBA | "Am"A8 |]
+S:https://www.folktunefinder.com/tunes/2899
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/PatchTanz_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/PatchTanz_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/PatchTanz_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/PatchTanz_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/PatchTanz.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/PatchTanz.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/PatchTanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

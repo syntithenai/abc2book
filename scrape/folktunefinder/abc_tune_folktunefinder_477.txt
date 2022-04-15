@@ -1,0 +1,81 @@
+X:18
+T:Aire de la Bravado de Saint Maime  Riez
+R:Air
+O:France
+A:Provence
+T:1. La passado do sero
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+z BA|G2G dcd| c3 zBA| G2G dcB| A3 zAB| c2c BAG| d4 c/B/A/B/| G2G dcd| c3 zAB| 
+c2c BAG| d4 c/B/A/B/| G2G dcd| HG6||[M:2/4] G/A/B/c/ d/c/B/A/|BG3|  G/A/B/c/ d/c/B/A/| HG4!D.C.!||
+T:2. L'Aubado
+G2G|d3 B2c| d3 A2B| cdc B2A| B3 G2G| d3 B2c| d3 A2B| cdc B2A| HG3-G2 || B|
+c3 A2B| G3 ABc| d2c B2A| B3 A2B| c3 A2B| G3 ABc| d2c B2A|G3 !D.C.!||
+T:3. Lou Rampe
+T:Se jougo uno ouro avans de parti  la ceremounio
+[M:3/8]
+FFG| F2G| AAA| A3 | cc/c/c/c/| cBA| cBA/B/|HG3:|
+GGG|AGF|FGB | A2A|G/G/GG|AGF|FGB/>B/|A3!D.C.!||
+T:4. Li gavu
+T:Se jougo la veio en fasnt lou tour de vilo per acampa de jouine per lou fue
+[M:2/4]
+S B2 cd | d2cz | B2cd | c2z2 | f2ed | c2B2 | f2ed |1 c2z2 :|2 c2z |: 
+d | BB ce | d3c | BB cc | (d2B)d | BB ce | d3c | BB cd | [B4c3] !fine! :| 
+z | f2 ed | c2B2 | f2ed |c3z | f2ed | c2B2 | f2ed | c2zd | 
+BB ce | d3c | BB cc | (d2 B)d | BB ce | d3c | BB cd | c3z S ||
+T:5. Aire dou fue - Belugo
+[M:C]
+f>e | dz ez cz dz | Bz cz dz ez | cz dz Bz cz | dz ez cz dz | 
+B2 zc d2B2 | z2 zc f2c2 | z2 FG ABcd | f2c2z2 :|
+T:6. Lou retour dou fue
+[M:2/4]
+GB | GB GB | A2Ac | Ac Ac | BB G/A/B/c/ | dd dd |
+c2cc | AB c/B/A/B/ | GG G/A/B/c/ | dd dd | c2 cd | AB c/B/A/B/ | G3 :|
+T:7. Ei champ - Elevacioun de la messo - Salut au drapu e  Sant Maime
+[M:C|]
+G/ |: G4 d4 | G2d2c2-c>A | F2>>G2 B4 | A2G>A F2>>G2 |
+A2c2G2>>G2 | A2F>AG2>>G2 | A2B2c2>>G2 | A2F>AG2>G2 :|
+T:8. Aire du dejeuna sus l'erbo  la capello du sant
+[M:2/4]
+Bf fe | dd/e/ dc | BB/A/ BF | Ff fe | dd/e/ dc | Bz Bz |
+cc/B/ AA/G/ | Fe d2 | cc/B/ AA/G/ | Fe de | dc BA | Bz Bz !fine! ||
+F>F FF | G>G GG | A>A AA | BB B2 | F>F FF | G>G GG | A>A AA | BB B2 | 
+Bd df | fe d2 | Bd df | fe d2 | f2 dB | f2 dB | f/g/f/e/ d/e/d/c/ | Bz Bz !D.C.! ||
+T:9. Aprs la messo - Sus la plao, davans la capello
+[M:6/8]
+G2G | d2d dBc | d3 A2B | cdc cBA | BAB G2G | d2d dBc | d3 A2B | cdc B2A | G3 !fine! ||
+G2A | BAB GAB | c3 cAB | G2B A2G | ^F2D G2A | BAB GAB | c3 cde | dcB Ac^F | G3 !D.C.!  ||
+T:10. Lou retour de Sant Maime
+G | c2c cdc | B3 z2G | c2c dcd | e3 z2e | f2f fed |e2e edc | d2d B2d | c3 :| 
+c | c2c g2g | g2 z2e | g3 gfe | d2 z2d | f2f dfd | e2e dec | d2d B2d | c2z z2 !D.C.! ||
+T:11. Defilado - Au retour de chasque ceremouni chascun rintro  soun oustau
+[M:2/4]
+Gd | d2 Gd | d2 Gd | dd dc/B/ | A2FG | A2Ac | G2 cc/B/ | 
+AB/A/ GG | AF FG | A2 Ac | G2 cc/B/ | AB/A/ GG | F2 |]
+T:12. Marcho du fort - Lou fifre et lou tambour la jougon tout lou tms de la bravado
+B/c/ || B2F2 | BB/A/ Bc | B2F2 | B2 zB/c/ | B2F2 | BB/A/ Bc | B2 F2 | B2zc ||
+[M:6/8] d2d dcB | f3 z2c | d2z e2z | f2f fed | c2z f2z | B3z2 !fine!:|
+B | c2c c2d | c3 z2B | c2d c2d | e3 z2c | d2ze2z | f2f fed | c2zf2z | B2z z2B/c/ ||
+T:13. La Joio
+[M:3/8]
+B | fff | ggg | f/g/fe | dd/e/d/e/ | fff | ggg | f/g/fe | Hd2 ||
+B | ddd | eee | d/e/dc | BBB | ddd | eee | d/e/dc | B2 !D.C.! ||
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/477
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles Over ten titles
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 3/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

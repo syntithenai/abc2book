@@ -1,0 +1,28 @@
+X:321
+T: AUF IHR BRUEDER FRISCH UND FROH
+N: F0553
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Wander - Lied
+M: 4/4
+L: 1/8
+K: D
+ | D3EF2G2 | A2F2B4
+A3AB2c2 | d4D2z2
+D3EF2G2 | A2F2d4
+A3A^G2B2 | B4A2z2
+B2A2G2A2 | B3AG2z2
+A2G2F2G2 | A3GF2z2
+D3FA2d2 | d4B2z2
+A2A2B2G2 | E4D2z2
+S:https://www.folktunefinder.com/tunes/69881
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

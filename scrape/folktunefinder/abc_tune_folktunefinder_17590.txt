@@ -1,0 +1,22 @@
+X: 1
+T: a Mabou Reel
+O: trad
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Hp
+   d | {gcd}c2Ac {gBd}B2GB | ABcd efed    | {g}c<{d}Aec {gBd}B2Gf | ecdB {GAG}A2{g}A :|
+|: d |  {g}c<eag {afg}f2df | ecae fB{G}Bd | {g}c<eag      {a}fedf | ecdB {GAG}A2{g}A :|
+S:https://www.folktunefinder.com/tunes/17590
+S:http://trillian.mit.edu/~jc/music/abc/reel/MabouReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MabouReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MabouReel_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

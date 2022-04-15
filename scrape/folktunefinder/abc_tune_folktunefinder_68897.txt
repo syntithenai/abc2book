@@ -1,0 +1,23 @@
+X:38
+T: ES SAH EINE LINDE INS TIEFE TAL
+N: Z0039
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze; erzaehlendes Volks - Lied, Liebe
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2C2CEGE | D3CB,2
+D2 | C2A,2A,2C2 | G,3F,E,2
+G,2 | C2C2D2CD | E4D4 | C4z2
+S:https://www.folktunefinder.com/tunes/68897
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze; erzaehlendes volks - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

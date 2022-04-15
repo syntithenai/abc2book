@@ -1,0 +1,33 @@
+X: 2
+T: Jack's Maggot [D]
+O: Cecil Sharp, 1922
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Duple minor longways
+N: Playford Ball
+N: Playford, "Twenty Four New Country Dances", 1702
+M: C|
+L: 1/8
+K: D
+|: dc \
+| "D"d2D2 F2A2 | "G"BABc "A7"d2e2 | "D"fga2 "G"Bcd2 | "Em"e3f "A7"e2dc \
+| "D"d2D2 F2A2 | "G"Bcd2 "A7"c2ag | "D"f2d2 "A7"e2c2 | "D"d4- d2 :|
+|: fg \
+| "D"a2f2- f2a2 | "Bm"f2d2- d2ef | "Em"gfed c2d2 | "A7"e3f e2fg \
+| "D"a2f2 d2f2 | A2d2 F2A2 | "G"d3e "A7"~e3d | "D"d4- d2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3822
+S:http://trillian.mit.edu/~jc/music/abc/England/JacksMaggot.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/JacksMaggot.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/JacksMaggot.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/JacksMaggot.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/JacksMaggot.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/JacksMaggot
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

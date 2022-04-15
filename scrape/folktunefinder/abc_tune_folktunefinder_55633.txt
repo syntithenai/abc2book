@@ -1,0 +1,22 @@
+X:30
+T:Chinese Breakdown
+R:Reel
+M:4/4
+K:D
+L:1/4
+P:A
+A| "D"dcBA |F2FA | dcBA |"A"E3A | ee2d |cc2B | AA BA |"D"F3A |
+"D"dcBA |F2FE | DD EF |"G"G3A |"A"ee2d |cc2B | AA Bc |"D"d3 A ||
+P:B
+"D" ffed |f2f e/f/| gfed |"A"c2c2 |a2a f/g/| a2a f/g/ | aaba |"D"f2f2 |
+"D" ffed |f2fe | dd ef "G"|g3 z |"A" e2ed |cc2B | AABc |"D"d3|]
+S:https://www.folktunefinder.com/tunes/55633
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

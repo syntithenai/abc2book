@@ -1,0 +1,22 @@
+X:6
+T:Bank of Ireland
+Z: id:dc-reel-7
+M:C
+L:1/8
+K:D Mixolydian
+AB|c2AB cBAG|EGDG EGAB|c2AB cBAG|Add^c dfed|!
+c2AB cBAG|EGDG EGAB|c2AB cBAG|Add^c d2:|!
+de|f3d e2fe|dfed ^cAA2|f3d e2fg|afge d2^cd|!
+eaa2 efge|dged cAGE| Add^c defg|afge d2:|!
+S:https://www.folktunefinder.com/tunes/65559
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Reels.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

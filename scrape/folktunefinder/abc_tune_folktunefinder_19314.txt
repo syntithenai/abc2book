@@ -1,0 +1,42 @@
+X: 1
+T: the Duchess of Gordon's New Strathspey
+C: Robert Mackintosh
+R: strathspey
+B: RSCDS __-6
+N:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C \
+| "F"F>G F<C A,<C C>F | "Gm"D<G "G7"G>F "C"E<G "C7"Gc/B/ \
+| "F"A<F "F7"F>C "Bb"D>F B>d | "C7"{d}cB/A/ {c}BA/G/ "F"AF F :|
+c \
+| "F"f>a "C"g>a "Dm"f>g "Am"e<c | "Gm"d<g g>f "C7"e<g g>b \
+| "F"a<f e<f "Bb"d<f "F"c<A | "Gm"B<d "C7"c>B "F"A<F F |]
+c \
+| "F"f<a "C"g<a "Dm"(3fgf "Am"edc | "Gm"d<g "G7"g>f "C7"e<g g>b \
+| "F"a/g/f "C"g/f/e "Dm"f/e/d "Am"e/d/c | "Gm"d<g "C7"c<e "F"f<F F |]
+S:https://www.folktunefinder.com/tunes/19314
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DuchessOfGordonsNewStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DuchessOfGordonsNewStr_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DuchessOfGordonsNewStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/DuchessOfGordonsNewStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/DuchessOfGordonsNewStr_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/DuchessOfGordonsNewStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DuchessOfGordonsNewStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DuchessOfGordonsNewStr_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DuchessOfGordonsNewStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStr_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStrathspey.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStr.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStr_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DuchessOfGordonsNewStrathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

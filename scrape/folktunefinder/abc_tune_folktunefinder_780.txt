@@ -1,0 +1,51 @@
+X:146
+T:A HORNPIPE BY C. SMITH
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:G
+P:1
+FG A2 Bc d2 e4    | d2 A4 d2 B2 AG |\
+FG A2 Bc d2 f2 ed | B2 G4 d2 B2 AG ||
+P:2
+a2 f2 d2 a2 d4    | a2 A4 d2 B2 AG |\
+a2 f2 d2 a2 f2 ed | B2 G4 d2 B2 AG ||
+P:3
+A2 A4 d2 f4 | A2 A4 dc BcdB |\
+A2 A4 d2 f4 | g2 g4 d2 B2 AG||
+P:4
+a2 f2 d2 a2 f3 d  | a2 f2 d2 a2 b2 g2 |\
+a2 f2 d2 a2 f2 ed | g2 g4    d2 B2 AG ||
+P:5
+GFGA BABc edef | abaf a2 A2 B2 AG |\
+GFGA BABc edef | g2 g4   d2 B2 AG ||
+P:6
+af d2 z2 a2 af d2 | a2 A4 d2 B2 AG |\
+af d2 d2 a2 f2 d2 | B2 G4 d2 B2 AG ||
+P:7
+FG A2 Bc d2 FG A2 | F2 A2 Bc d2 B2 AG |\
+F2 A2 B2 d2 F2 A2 | d2 B2 G2 d2 B2 AG ||
+P:8
+A2 F2 D2 A2 F2 D2 | A2 A,4 D2 B,2 A,G, |\
+A2 F2 D2 A2 F2 ED | B,2 G,4 D2 B,2 A,G,||
+P:9
+A2 F2 D2 A2 F2 D2 | A2 F2 D2 A2 B2 G2 |\
+A2 F2 D2 A2 F2 D2 | d2 B2 G2 d2 B2 G2 ||
+P:10
+AGFE DEFG ABAF | A2 A,4 D2 B,2 A,G, |\
+AGFE DEFG ABAF | G2 G,4 D2 B,2 A,G, ||
+P:11
+AGFE DEFG ABAF | ABAF DEFD BcdB |\
+ABAG DEFG ABAF | d2 B2 G2 d2 B2 AG |]
+S:https://www.folktunefinder.com/tunes/780
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 15
+T:Grove,The. WCl.15
+T:aka. WCl.15
+M:6/8
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:C
+c>dc GEG|(c/2d/2ec) (d/2e/2fd)|c>dc GEG|(d/2e/2fB) "cr"d3::!
+g>ag ece|fdc BAG|F2d E2c|dcB c2:||
+S:https://www.folktunefinder.com/tunes/40698
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Polska efter Carl Gustaf Holmberg
+O: Ringkarleby
+R: Hamburska
+N: Learned from David Bastviken, Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: A | d2 FG E>F | D>F EG F2 | A2 B2 e>d | c>B AA/c/ B/d/c/e/ |  d2 FG E>F |
+| D>F EG F2 | A2 B2 e>d | (3cBc d3 :: F | D2 F2 A>F | G>G (3GFG A>F | D2 F2 A>F |
+| G>G (3GFG A>F |  D2 F2 A>F | G>G (3GFG A>A |  d2 FG E>G | F/E/D/C/ D3 :|
+S:https://www.folktunefinder.com/tunes/16309
+S:http://trillian.mit.edu/~jc/music/abc/pols/CarlGustafHolmbergP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/CarlGustafHolmbergP.abc
+% Rhythm Hamburska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

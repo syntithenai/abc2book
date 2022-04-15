@@ -1,0 +1,25 @@
+X: 1
+T: MARSHALL HILL'S HORNPIPE
+O: Kerr's 2nd
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd p.43 #387 c.1880
+M: C|
+L: 1/8
+K: Bb
+(de) \
+| f>bd>f B>dF>B | D>B,D>F B2 (3FGA | B>FD>F d>cB>d | f>ed>e c2(d>e) |
+| f>bd>f B>dF>B | D>B,D>F B2 (3FGA | B>FB>d c>eA>c | B2B2 B2 :|
+|: (BA) \
+| B>df>a b>ag>^f | g>^fg>a g2(cB) | A>FA>c e>gf>e | d>cd>e f2(dc) |
+| B>df>a b>fd>D | E>Gc>e g>ec>E | D>FB>d c>eA>c | B2b2 B2 :|
+S:https://www.folktunefinder.com/tunes/13626
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MarshallHillsHp_Bb_Kerr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/MarshallHillsHp_Bb_Kerr.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

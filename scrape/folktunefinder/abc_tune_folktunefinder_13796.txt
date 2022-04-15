@@ -1,0 +1,30 @@
+X: 69
+T:Ap Siencyn
+M:6/8
+L:1/8
+Q:130
+C:Trad
+S:Blodau'r Grug Collection Vol. 2
+R:jig
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:G
+d/c/|B2B Bgf|e2e efg|ded dcB|cAA A2d/c/|BcB Bgf|efe efg|
+ded cBA|G2B G2:||
+g/a/|b2g a2f|gfg dcB|cde dgB|BAA A2 g/a/|!b2g a2f|gfe agf|
+bag fge|dgf edc|B2B Bgf|e2e efg|!ded dcB|cAA A2 d/c/|
+B2B Bgf|efe efg|ded cBA|G2B G2||
+S:https://www.folktunefinder.com/tunes/13796
+S:http://trillian.mit.edu/~jc/music/abc/jig/ApSiencyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/ApSiencyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/ApSiencyn.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

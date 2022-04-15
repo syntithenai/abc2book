@@ -1,0 +1,44 @@
+X:3
+T:Lessley House Quick Step
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/5/04
+N:Petrie's First Collection, page 2
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Quickstep
+K:Bb
+[V:1] B,|F3  BAG|FED CDB,|EFG  FED|GEC C2D/E/|
+[V:2] z |BdB e3 |a2b f2z |c'2a b2B|c3  edc   |
+[V:1]    FDF BAG|FBF DEF |GAB  ABc|dBB B2   :|
+[V:2]    B3  e3 |d3  b3  |e3   f3 |B3  b2   :|
+[V:1] g |fdB fdB|cAF cAF |EFG  FED|GEC C2g   |
+[V:2] z |B3  b3 |f3  F3  |c2A  B2b|c3  cde   |
+[V:1]    fdB fdB|cAF cAF |GAB  cde|dBB B2g   |
+[V:2]    d3  B3 |F3  f3  |e3   f3 |B3  Bde   |
+[V:1]    fdB fdB|cAF cAF |EFG  FED|GEC CDE   |
+[V:2]    d3  b3 |f'3 f3  |c'2a b2B|c3  edc   |
+[V:1]    FED GFE|AGF BAG |ABc  Fec|dBB B2   |]
+[V:2]    d2z e2z|f2z g2z |f3   a3 |b3  B2   |]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72031
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/LessleyHouseQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Lessley_House_Quick_Step.abc
+% Rhythm Quickstep
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

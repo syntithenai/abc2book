@@ -1,0 +1,23 @@
+X:600
+T: Ewe Reel
+T: R\'il na F\'oisce
+S: B.Breathnach: "Ceol Rince na hEireann" II/145
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+DG G2 DG G2|F2 AF cFAF|DGGF GBAg|fdcA BGAF|
+DG G2 DG G2|F2 AF cFAF|DGGF GGGg|fdcA BG G2 :||
+(3gfg bg dgbg|(3fgf af cFAF|(3gfg bg dgag|agfa ggga|
+(3bag ag fdde|(3fgf fd ^cAFA|dggf gbag|fd^cA BG G2 :|
+S:https://www.folktunefinder.com/tunes/80702
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE2.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

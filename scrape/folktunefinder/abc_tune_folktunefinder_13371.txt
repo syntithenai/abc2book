@@ -1,0 +1,36 @@
+X: 1
+T: the Soldier's Song
+T: Amhra/n na bhFiann
+T: National Anthem of E/ire
+R: March
+C: Peadar Kearney/Patrick Heaney
+S: IRTRAD, Benjamin Hollister, 5/97
+B: National Anthems of The World
+Z: Benjamin Hollister
+M: 4/4
+L: 1/4
+K: Bb
+F \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d3/c/ | BGFD | (F3/E/)C/z/F \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d3/B/ | A3/A/G3/G/ | FFzF |
+| E3/E/ (E/C/)(D/E/) | F3/G/FB | A3/G/AG | FE(CF) \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d(B/G/) | (F/B)D/C3/B,/ | B,3z ||
+|| (B3/c/)dB | F3F | G3/G/EG | F2F2 \
+| B2A2 | G3(A/B/) | c3/d/cG | A3z |
+| (B3/c/)dB | F3F | G3/G/EG | F2FF \
+| A2A3/A/ | AAG3/G/ | F3F |
+| E3/E/ (E/C/)(D/E/) | F3/G/FB | A3/G/AG | FECF | D(B,/D)F3/F/ \
+| (G/A/)(B/c/)Hd(B/G/) | (F/B)d/c3/B | B3z |]
+S:https://www.folktunefinder.com/tunes/13371
+S:http://trillian.mit.edu/~jc/music/abc/anthem/SoldiersSong_S.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/SoldiersSong_M.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/SoldiersSong_M.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march/SoldiersSong_M.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

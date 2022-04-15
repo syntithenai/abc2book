@@ -1,0 +1,37 @@
+X:10
+T:Tail Todle
+Z:Jack Campin <http://www.campin.me.uk/>
+S:George Skene's MS, 1715, NLS Adv.5.2.21 (fiddle tunes part)
+N:The ornament here interpreted as an inverted mordent (P) is written
+N:as "x" in the MS; the one taken to be a trill (T) is written as "=".
+M:C|
+L:1/8
+K:A Mixolydian
+% Introduction
+ dd`````Pfd   ge````````gB   | dd``````Tfd       Te2     (cA) |\
+Pdd``````fd  Pge```````Tfd   |Tee       f/g/a    Te2     (cA)||
+%
+% Tune
+~dd``````fd   g2        dB   | dd```````fd        c/d/e (TcA) |\
+ dd``````fd  ~ge````````fd   | ee       f/g/a    Te2     (cA):|
+~g2    (.dB) (B.g)``````dB   | g2      .d(B       B).e  (TcA  |\
+ g2)     Bg   a/g/f/e/ Tfd   | e/f/g/e/ f/g/a/f/ Te2     (cA):|
+%
+% Last time
+ d/d/d T(fd) ~ge````````gB   | d/d/d   (gd)      (eA)    TcA  |\
+ d/d/d T(fd) Pge```````Tfd   | e/e/e    f/g/a    Te2     (cA) |
+(g2      B)g  Bg```````(d{c}B| g2)      Bg        Ae````(TcA  |\
+ g2)     Bg   a/g/f/e/  fd   | e/f/g    f/g/a    Te2      cA ||
+~g2    (.dB) (B.g)``````dB   | g2      .d(B       B).e``(TcA  |\
+ g2)     Bg   a/g/f/e/ Tfd   | e/f/g/e/ f/g/a/f/ Te2     (cA)|]
+S:https://www.folktunefinder.com/tunes/52666
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

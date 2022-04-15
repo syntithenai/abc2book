@@ -1,0 +1,27 @@
+X:18
+T:Canto cigale
+O:France
+A:Provence
+C:Auzias Jouvau
+R:Chanson
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+Q: Moderato
+Bd | ff gg | ff Bd | ff gg | f2 df | ee ce | dd Bd | c^c d=e | Hf2 [Q:Allegretto] f>e | dd cd |
+BF Bc | d2d2 | Hc2 f>e | dd cd | BF Bc | !tenuto!d2 !tenuto!c2 | B2 |]
+%%footer $D   Galouvielle-MBe 2005 \nChanson France
+S:https://www.folktunefinder.com/tunes/40217
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

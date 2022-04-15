@@ -1,0 +1,29 @@
+X:4212
+T:Dockedansen
+R:Waltz
+O:Sweden
+N:Needs abc2mtex
+N:It means "Puppet dance", apparently
+M:3/4
+K:Dm 0&2
+F2 & (A^c)|\
+E2D2B,2 & e2f2(de)|A,2FG FE & (^cA)(=Bc)de|\
+[D2A2][D2A2] & d2d2 |:\
+F2 & (A^c) |\
+E2D2B,2 & e2f2 (de)| A,2 (FG) FE & (^cA)(=Bc)de | F2E2G2 & d2^c2(Ac) |\
+E2D2B,2 & e2f2 (de)| A,2 (FG) FE & (^cA)(=Bc)de | [D2A2][D2A2](FE) & d2d2(fg)|\
+D2(FA) de & a2 (fa) ag| ^c2A2 BA & e2 (^cd) gf |\
+G2G2^G2 & d2 (=B^c)de | A2=G2F2 & ^c2 (A=B)cd|\
+E2D2B,2 & e2f2(de)| A,2 (FG) (FE) & (^cA)(=Bc)(de)| [D2A2]z2 & d2z2:|
+S:https://www.folktunefinder.com/tunes/60401
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

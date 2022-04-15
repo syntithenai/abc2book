@@ -1,0 +1,32 @@
+X: 71
+T: Karam Fil
+L:1/8
+O: Bulgaria
+C: presented by Jaap Leegwater
+W: Adapted from Richard Geisler Feb 1984
+W: The harmony is my own.
+M:7/8
+Q:1/4=120
+K:F#m
+%%MIDI gchord f3f2f2
+%%MIDI beatstring fppmpmp
+f3-f2 cd |"Dm" edc d3c|"B"B2 B eddc|"A" cAB cBAG|
+"F#m" F3 c2-cd|"Bm" cBA B2 BF |"C#7" A3 BG- GF |"F#m" F3-F2-F2|
+[F,3C3] [C2F2] [C2G2] | [C3A3] [C4A4]| [C3G3] "C#7" [C2G2] [F2A2] |\
+"F#m" [C2G2] [CF] [C4F4]|
+"E7" [C3A3] [C2A2] [D2B2] | "A" [E3c3] [E4c4]| "E" [D2B2] c/2B/2 [E2A2] [E2B2]|\
+ "A" [E7c7]|
+"F#m" [D3F3] [D2F2] [F2d2] | "Bm" [E2c2] [DB] [D4B4]|\
+ "E7" [D3B3] [C2A2] [B,2G2]| "A" [C2A2] [DB] [E4c4]|
+"C#m" [E3C3] [E2C2] [D2B2]| [C3A3] [B,4G4]| [B,3G3] [A,2F2] [^C2^E2]|\
+ "C#7" G/2A/2G F "F#m" [A4F4]|
+|: "Bm" f2 e d4|"F#m" e2 d c4| "Bm" B2 c/2B/2 A2 B2| "F#m" c3-c4|
+"Bm" B2 B edcB| "F#m" A2 B c4| "C#7" BBA AG GF| "F#m" F3-F2-F2 :|
+S:https://www.folktunefinder.com/tunes/67774
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

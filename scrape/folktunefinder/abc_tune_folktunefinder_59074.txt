@@ -1,0 +1,40 @@
+X:187
+T:Cantar de Ronda (CT 413)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de ronda, dictada por D. Avelino Arias, de Uviu, quien dice la aprendi en Peruyes, ayuntamiento de Cangas d'Ons.
+A:Asturies
+O:Peruyes (Cangas d'Ons)
+Z:Cancioneru de Torner 413
+M:3/8
+L:1/8
+Q:1/8=120
+K:Cm
+G|c=Bc|f2e|(3d/2e/2d/2 c2-|c2d|fec|
+d2B|(3A/B/A/ G2-|GzG|c=Bc|f2e|(3d/e/d/ c2-|
+c2d|fec|d2B|(3A/B/A/ G2-|Gcd|B2A|
+c2B|G3-|Gcd|BAB|cBA|G3-|Gz2||
+W:- Cuando paso por el puente,
+W:siempre te encuentro lavando:
+W:la hermosura de tu cara,
+W:el agua la va llevando.
+W:- Si me quieres,
+W:dmelo;
+W:si me quieres
+W:igual har yo.
+W:
+S:https://www.folktunefinder.com/tunes/59074
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

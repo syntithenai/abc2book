@@ -1,0 +1,57 @@
+X: 1
+T: the Six-Twenty Two-Step
+C: Jimmy Shand
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|| D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2c "D7"A2c | "G"B2B "Em"G2B | "Am"ABA "A7"GFE | "D"D3 ||
+|| "D7"d3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:D]
+"B"\
+|| "A7"A3 \
+ | "D"A2B B2A | Afd A3 | A2f fef | "A7"g3- g2A \
+ | A2e e2d | d2c c3 | ded c2B | "(D)" B2_B A2A |
+ | "D"A2B B2A | Afd A3 | a2d d2c | "G"B3- B2B \
+ | B2g g2B | "D"A2f f2d | "A7"c2A ABc | d2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:C]
+%%sep 10 10 200
+"C"\
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"E3 B,3 | C2E A2G | "G7"G3- G3 | B,3- B,3 ||
+ | "Dm"D3 "A7"^C3 | "Dm"D2A, F2E | D2D "A7"^CDE | "Dm"D3- D3 \
+ | "D7"D2^D E2F | ^F2c B2A | "G"G2g "D7"ag^f | "G"g3 ||
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"e3 c3 | G3 E3 | "F"B2A A2^G | A3- A3 |
+ | "Dm"f2e d2^c | "G"d3 g3 | "C"e2d cBA | G3- G3^G \
+ | "F"A2c cBA | "C"G2e edc | "G7"BAG FED | "C"C2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z |]
+S:https://www.folktunefinder.com/tunes/15066
+S:http://trillian.mit.edu/~jc/music/abc/jig/SixTwentyTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SixTwentyTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SixTwentyTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/SixTwentyTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SixTwentyTwoStep.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

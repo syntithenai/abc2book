@@ -1,0 +1,27 @@
+X: 2
+P: Flop-Eared Mule
+R: reel, shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   de \
+| "D"Jf2fe d2dB | ABAF D2D2 | "A7"E2EF G2FE \
+| "D"DEFG "(A7)"A2de | "D"f2fe d2dB | ABAF D2D2 |
+|1,3 "A7"E2EF GECE | "D"D2D2 D2 :|2,4 "A7"E2EF GABc \
+| "D"d2d2 d2 :|[K:A]|: cd | "A"efec efec | efec A2A2 |
+| "E7"B2Bc d2cB | "A"ABcd e2cd | "A"efec efec \
+| efec A2A2 |1,3 "E7"B2Bc dBGB | "A"A2A2 A2 :|2,4 "E7"B2Bc defg | "A"a2a2 a2 :|
+S:https://www.folktunefinder.com/tunes/9229
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish09.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SH1.abc
+% Rhythm Reel, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

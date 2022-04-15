@@ -1,0 +1,30 @@
+X: 8
+T:Marche
+R:Marche
+C:Epoque napolonnienne
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:
+K:C
+V:1
+cA/2c/2 f3c fc| AF/2A/2 c3F HA2 |[M:12/8] z12 | z12 |
+cc/2B/2c/2d/2 cGE ee/2d/2e/2f/2 ecG | gg/2a/2b/2c'/2 g3 gfe d3 ::
+dd/2c/2d/2e/2 dBG ee/2d/2e/2f/2 eBG | gg/2a/2b/2c'/2 f3 fed c3 :|
+V:2 clef=perc
+x8 | x8 | [M:12/8] cc/2c/2c/2c/2 c3 ccc c3 | cc/2c/2c/2c/2 c3 ccc c3 | 
+cc/2c/2c/2c/2 c3 cc/2c/2c/2c/2 ccc | cc/2c/2c/2c/2 c3 cc/2c/2c/2c/2 ccc |
+cc/2c/2c/2c/2 c3 cc/2c/2c/2c/2 ccc | cc/2c/2c/2c/2 c3 cc/2c/2c/2c/2 ccc |
+%%begintext
+S:https://www.folktunefinder.com/tunes/39563
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

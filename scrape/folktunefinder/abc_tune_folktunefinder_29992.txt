@@ -1,0 +1,20 @@
+X:0
+T:Hava Nagila
+M:C
+L:1/8
+K:DPhr
+ D2 D3 ^F(3:2:2E2D|^F2 F3 A(3:2:2G2F|G2 G3 B (3:2:2A2G|^F2 E/D/E [1 ^F4:|[2 D4||
+^FF2E  DD      D2 | EE2D CC      C2 |CE2D CC       G2 |^F2 E/D/E [1 ^F4:|[2 D4||
+G4        B4       |G2    B2        A2 G2||\
+G/G/G B>A GB    AG |G/G/G B>A       GB AG |
+A/A/A c>B Ac    BA |A/A/A c>B       Ac BA |\
+A/A/A d2  A/A/A d>D|DD    B/A/G/^F/ G4   |]
+S:https://www.folktunefinder.com/tunes/29992
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

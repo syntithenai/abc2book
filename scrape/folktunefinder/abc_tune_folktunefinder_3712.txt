@@ -1,0 +1,31 @@
+X: 1
+T: De'il Take the Warr [C]
+S: Young 1721
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/16
+K: C
+|: "C"c4 cde2 "G"d6 c2 | "C"c2G2 "F"ABc2 "C"G4 E4 \
+|  "C"E2G2 G2c2 c2d2 d2e2 | "F"f2e2 d2c2 "G"d8 |
+|  "C"c4 cde2 "G"d6 c2 | "C"c2G2 "F"ABc2 "C"G4 E4 \
+|  "C"E2G2 G2c2 c2d2 "(G)"d2e2 | "C"gfe2 "G7"d3c "C"c8 :|
+|: "C"e4 efg2 e2c2 e2c2 | "G"B4 Bcd2 d2B2 d2B2 \
+| "Am"e4 e2c2 "G"d4 d2B2 | "F"c4 dcBA "G7"A6 G2 |
+|  "C"E4 G4 GAG2 c2G2 | "C"E2F2 GAG2 G6 G2 \
+| "Dm"A4 c4 d6 A2 | "F"d3e d2c2 "G7"B6 A2 |
+|  "C"G4 G2E2 G4 c2d2 | g2e2 "G7"d3c "C"c8 :| \
+S:https://www.folktunefinder.com/tunes/3712
+S:http://trillian.mit.edu/~jc/music/abc/England/DeilTakeTheWarr.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/DeilTakeTheWarr_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/DeilTakeTheWarr.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/DeilTakeTheWarr.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

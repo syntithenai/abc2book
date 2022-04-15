@@ -1,0 +1,40 @@
+X: 1
+T: Fati\^se Kolo
+R:
+O: Srbija
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+P: 2322
+M: 9/16
+L: 1/16
+K: F
+|: "C"C2 "F"A2A A2A2 | "C"GA BAG GA "F"F2 :| \
+|: "C"c2 cBA "A7"GA "Dm"FE | DE "Gm"F2G "A7"E2 "Dm"D2 :|
+|: "C"C2 "F"AGF "C"cB "F"AF | "C"C2 "F"AGF "C"cB "F"A2 \
+|  "C"C2 "F"AGF "C"cB "F"AF | "Gm"GF GAG "A7"FE "Dm"D2 :|
+%%sep 5 5 200
+K: G
+|: "D"D2 "G"B2B B2B2 | "D"AB cBA AB "G"G2 :| \
+|: "D"d2 dcB "B7"AB "Em"GF | EF "Am"G2A "B7"F2 "Em"E2 :|
+|: "D"D2 "G"BAG "D"dc "G"BG | "D"D2 "G"BAG "D"dc "G"B2 \
+|  "D"D2 "G"BAG "D"dc "G"BG | "Am"AG ABA "B7"GF "Em"E2 :|
+%%sep 5 5 200
+K: A
+|: "E"E2 "A"c2c c2c2 | "E"Bc dcB Bc "A"A2 :| \
+|: "E"e2 edc "C7"Bc "Fm"AG | FG "Bm"A2B "C7"G2 "Fm"F2 :|
+|: "E"E2 "A"cBA "E"ed "A"cA | "E"E2 "A"cBA "E"ed "A"c2 \
+|  "E"E2 "A"cBA "E"ed "A"cA | "Bm"BA BcB "C7"AG "Fm"F2 :|
+S:https://www.folktunefinder.com/tunes/2814
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/FatisheKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/FatisheKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/FatisheKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Key A
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,93 @@
+X:4729
+T:O'Keefe's Plow
+T:Tom Billy's Reel
+O:england
+R:Reel
+N:IrTrad, 5/99
+M:C|
+L:1/8
+K:D
+dcdA BAFB|AF F/2F/2F EFDE|F/2F/2F AF G/2G/2G BG|ABde fdec|d/2d/2d dA BAF
+B|AF F/2F/2F/2 EFDE|F/2F/2F AF G/2G/2G BG|1ABde fe e/2e/2e:|2ABde fdde||
+fa a/2a/2a afdf|g/2g/2g fg edBd|fa a/2a/2a bafd|ABde fe e/2e/2e|fa a/2a/
+2a afdf|g/2g/2g fg|{f}edBA|F/2F/2F AF G/2G/2G BG|
+1ABde fe e/2e/2e:|2ABde fdec||
+\font\largefont=cmr10 at 36pt
+\font\medfont=cmr10 scaled \magstep4
+\font\smallfont=cmr10 scaled \magstep2
+\font\ordfont=cmr10 scaled \magstep1
+\ {. }
+\vskip 2.5in
+\centerline{\largefont Paddy O'Brien's Sets }
+\vskip 1in
+\centerline{\medfont Tune Sets Arranged by Paddy O'Brien,}
+\vskip 20pt
+\centerline{\medfont Nenagh, Co. Tipperary}
+\vskip 1in
+\centerline{\smallfont Edited by Dave Gabol and John Walsh}
+\vskip 10pt
+\footline={\hfil}
+\eject
+\global\count0=0
+\headline{\hfil{Paddy O'Brien's Sets}\hfil}
+\centerline{\smallfont Table of Contents}
+\vskip 1in
+\ordfont
+\baselineskip=18pt
+\line{The Limerick Lassies/The Old Copper Plate/Buckley's Fancy
+\dotfill\  page 1}
+\line{Crooked Road to Dublin/College Grove/Killaghbeg House
+\dotfill \ page 2}
+\line{Paddy's Resource/The Pipe on the Hob/Blooming Meadows
+\dotfill \ page 3}
+\line{Kilfinane/Paddy in London/Tongs by the Fire
+\dotfill \ page 4}
+\line{Hartigan's Fancy/Maloney's Wife/Have a Drink With Me
+\dotfill \ page 5}
+\line{Road to Youghal/Conlan's Well/The Holly Bush
+\dotfill \ page 6}
+\line{Boys of Ballysodare/Pat Tuohy's/Birmingham
+\dotfill \ page 7}
+\line{Christmas Eve/Bunker Hill/The Hunter's Purse
+\dotfill \ page 8}
+\line{Bush in Bloom/Congress/Ewe Reel
+\dotfill \ page 9}
+\line{Paddy Reynolds'/Jer Quigley's/Hunters House
+\dotfill \ page 10}
+\line{Follow Me Down/Milliner's Daughter/Sailor's Jacket
+\dotfill \ page 11}
+\line{Sheehan's/Down the Broom/Kiss Me Kate
+\dotfill \ page 12}
+\line{King of the Clans/My Love is in America/Flogging
+\dotfill \ page 13}
+\line{Reavy's/The Providence/Peeler's Jacket
+\dotfill \ page 14}
+\line{Magpie's Nest/Chattering Magpie/Kerry
+\dotfill \ page 15}
+\line{The Hill on the Road/Contentment is Wealth/Tell Her I Am
+\dotfill \ page 16}
+\line{First Night in America/Apples in Winter/The Rakes of Clonmel
+\dotfill \ page 17}
+\line{The Bowlegged Tailor/O'Mahony's/Father Fielding's Favorite
+\dotfill \ page 18}
+\baselineskip=12pt
+\vfil\eject
+\headline={\hfil{Paddy O'Brien's Sets}\hfil\the\count0}
+\vsize=9.8in
+\hsize=7in
+\voffset=0.0in
+\hoffset=-0.25in
+\raggedbottom
+\musicsize=20\relax
+\def\tune{\vbox}
+M:C|
+S:https://www.folktunefinder.com/tunes/25181
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

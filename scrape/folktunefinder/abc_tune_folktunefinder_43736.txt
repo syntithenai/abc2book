@@ -1,0 +1,22 @@
+X:1
+T:The Bleasdale  waltz
+C:Andy Hornby 2006
+Q:1/4=130
+I:abc2nwc
+M:3/4
+L:1/8
+K:C
+E|EA Ac BA|c2A3E|EA Ac BA|B4-BE|EB Bd cB|d2B3E|EB Bd cB|A4-A|]
+E|EA Ac BA|c2A3e|e2ec de|f3f ed|e2ed ce|d2dc Bd|cE ^GB dc|A3|]
+|:e ef|e2dc BA|B2E2ef|e2 dc BA|B3e ef|
+g2fe dc|dc BA ^G2|E^G BE dc|[1A3:|[2A4-A|]
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43736
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

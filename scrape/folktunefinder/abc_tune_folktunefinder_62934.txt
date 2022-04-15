@@ -1,0 +1,24 @@
+X:36
+T:Kerry Jig, The
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of D)
+K:D
+"D"~f3 edB | AFA BAF | DFA dfa | "G"baf "A"ede |
+"D"~f3 edB | AFA BAF | DFA "G"~B3 | "A"cBc "D"d2e :|:
+"D"~f3 afd | "G"~g3 b2g | "D"~f3 afa | "G"baf "A"ede |
+"D"~f3 edB | AFA BAF | DFA "G"~B3 | "A"cBc "D"d2e :|]
+S:https://www.folktunefinder.com/tunes/62934
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Jig (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

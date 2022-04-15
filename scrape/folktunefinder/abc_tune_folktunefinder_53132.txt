@@ -1,0 +1,26 @@
+X:2
+T:53. [Pavan:] Last will and testament
+T:Altus
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C|
+N:Original clef, C on first line
+K:D min
+|: A4 B2 F2 G4 C c2 =B c4  F2 D2 E4 z2 A2
+c3 B A2 G c A2 B2 A3 A G2 F G E2 A2 A8 :|
+|: A3 e d > c A =B
+c2 =B2 A > G E2 F3 F G4 C2 F3 G A4 A3 E F2 E2 A2 A2 A3
+ =B ^c2 d c/ B/ A =B ^c8 :|
+|: A4 A2 F2 B3 A G F E D C2 C3 D E2
+F3 G A F G A G2 E A2 G/ F/ G2 A4 A B c A B2 G2 A4 A8  :|
+S:https://www.folktunefinder.com/tunes/53132
+S:http://www.laymusic.org/music/holborne/will/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

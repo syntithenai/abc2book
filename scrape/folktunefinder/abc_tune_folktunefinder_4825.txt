@@ -1,0 +1,25 @@
+X: 2
+P: Felicia Waltz (G/C)
+C: Allen Zagel
+N: From a MIDI file at angelfire.com.
+M: 3/4
+L: 1/8
+K: G
+ de | \
+ "G"d4D2 | B4de | d4B2 | "C"c4d2 | "D7"f4 e2 | d4  c2 | e4d2 | "G"B4de |
+ "G"d4D2 | B4de | d4B4 | "C"c4d2 | "D7"f2f3e | ddd2c2 |1 "G"B6- | B3z :|2 "G"B3gg2 | g4 :| [K:=f]
+K: C
+|: G2 |\
+ "C"c2B3c | G2A2G2 | "G7"F2G2B2 | G6 | F2G2B2 | A2G2F2 |  "C"E2G2c2 | G4G2  |
+ "C"c2B3c | G2A2G2 | "G7"F2G2B2 | G6 | F2G2B2 | A2G3 F |1 "C"E2G2e2 | c4G2 :|2 "C"E3EE2 | "d.C."E6 |]
+S:https://www.folktunefinder.com/tunes/4825
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Waltz_Felicia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

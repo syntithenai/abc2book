@@ -1,0 +1,28 @@
+X: 1
+T: Tll Pohjanthden alla
+C: Sv: Petri Laaksonen
+C: San: Turkka Mali
+M: 6/8
+L: 1/8
+K: Dm
+DF \
+| "Dm"A2A G2F | E2D ZAA \
+| "Gm"B2B B2A | "C"A2G "C7"zFE \
+| "A"[A2D2]A "A7"[G2^C2]A | "Dm"[G2D2]F zED |
+|1 "G"GG2 F2G | "A"E3 z \
+:|2 "A"[A2D2]A "A7"[A^C]A2 | "Dm"D3 z2 \
+|: A \
+| "Gm"B2B "C"c2B | "Dm"A2D zDA |
+| "Gm"GG2 "A7"zFE | "Dm"E2D "F"z[AC][AC] \
+| "Bb"[d2F2][dF] [c2F2][dF] | "F"[c2A2][AF] zFG \
+| "A"[A2D2]A "A7"[A2^C2]A | "Dm"D3-Dz :|
+S:https://www.folktunefinder.com/tunes/19010
+S:http://trillian.mit.edu/~jc/music/abc/song/TaallaPohjantahdenAlla2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/TaallaPohjantahdenAlla2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/TaallaPohjantahdenAlla2_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

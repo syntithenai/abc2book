@@ -1,0 +1,27 @@
+X: 1
+T: The Cage
+C: James Hill
+Z: Rob Say <rob.say:totalise.co.uk> tradtunes 2001-04-10
+M: 4/4
+L: 1/8
+E: 10
+K: A
+|: A>B \
+| c>Bd>c B>Ac>B | A>[EC][EC]>[EC] [E2C2] F>G | A>FB>A c>Ad>c | B>AG>A B2 e>d |
+| c>Bd>c B>Ac>B | A>FB>A G>FE>D | C>EA>E F>ecA | [B2G2] A2 A2 :|
+|: (3efg \
+| a>Ace a>gb>a | g>fa>g f2 (3agf | e>EG>B e>cf<e | d>ca>c B2 A>B |
+| c>Bd>c B>Ac>B | A>FB>A G>FE>D | C>EA>E F>ecA | [B2G2] A2 A2 :|
+S:https://www.folktunefinder.com/tunes/13497
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/CageHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/CageHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/CageHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/CageHp_A_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

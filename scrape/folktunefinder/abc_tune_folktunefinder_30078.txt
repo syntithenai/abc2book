@@ -1,0 +1,51 @@
+X:0
+T:Mixolydian/Dorian (3-gap, so/re) Hexatonic Scales
+L:1/4
+M:9/4
+K:EbMix
+"^E flat"  E2 FA Bcd e2|e2 dc BAF E2||
+M:9/4
+K:BbMix
+"^B flat"  B2 ce fga b2|b2 ag fec B2||
+M:9/4
+K:FMix
+"^F"       F2 GB cde f2|f2 ed cBG F2||
+M:9/4
+K:CMix
+"^C"       C2 DF GAB c2|c2 BA GFD C2||
+M:9/4
+K:GMix
+"^G"       G2 Ac def g2|g2 fe dcA G2||
+M:9/4
+K:DMix
+"^D"       D2 EG ABc d2|d2 cB AGE D2||
+M:9/4
+K:ADor
+"^A"       A2 Bd efg a2|a2 gf edB A2||
+M:9/4
+K:EDor
+"^E"       E2 FA Bcd e2|e2 dc BAF E2||
+M:9/4
+K:BDor
+"^B"       B2 ce fga b2|b2 ag fec B2||
+M:9/4
+K:F#Dor
+"^F sharp" F2 GB cde f2|f2 ed cBG F2|]
+S:https://www.folktunefinder.com/tunes/30078
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key A
+% Key A-sharp
+% Key D
+% Key G-sharp
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

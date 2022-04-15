@@ -1,0 +1,23 @@
+X: 7782
+T:Schottische fr Denmark 
+R:Schottische
+O:Denmark
+O:Sweden
+M:4/4
+A:Sk\aa{}ne
+K:F
+AcFA GBEG | F2F2F2 Ac \
+|1 B2G2G2e2 | f2c2c3B :|2 B2G2 e2de | f2f2f4:|
+|: d2B2 Bdfd | c2A2 FAcA \
+|1 B2G2 EGBd | c2A2 FAcf \
+:|2 B2G2e2de | f2f2f4:|
+S:https://www.folktunefinder.com/tunes/34999
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

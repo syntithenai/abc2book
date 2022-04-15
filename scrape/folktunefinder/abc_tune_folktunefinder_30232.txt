@@ -1,0 +1,20 @@
+X:0
+T:The Stool of Repentance (cheat's version)
+G:jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+% tweaked to remove the f's
+g2d B2d|g2e dcB|gee e2d|ege e2d |
+g2d B2d|g2e dcB|c2d e2d|egB A2G:|
+BGG dGG|BGG dcB|cAA eAA|cAA edc |
+BGG dGG|BGG dcB|c2d e2d|egB A2G:|
+S:https://www.folktunefinder.com/tunes/30232
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

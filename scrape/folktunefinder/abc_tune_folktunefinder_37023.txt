@@ -1,0 +1,30 @@
+X:4720
+T:Polska (Offerdals polska)
+A:Jmtland
+C:e. Gustav Persa
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007a6.html
+%%ID:000007a6
+K:D lydian
+A>f f<d e>c|(3def (3fed (3efg|1\
+a>f f<d e>c|(3def fd e2 :|2\
+a>f f<d e>d|(3{cd}cBc d4:|
+|:\
+(3ABA G<A F>A|cB/A/ (3GAB A2|\
+(3ABA G<A F>A|cB/A/ (3GAB A2|
+(3ABA G<A F>A|cB/A/ (3GAB A>d|\
+d>e (3fgf e>c|d2 d4:|
+S:https://www.folktunefinder.com/tunes/37023
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

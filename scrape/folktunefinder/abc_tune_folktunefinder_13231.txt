@@ -1,0 +1,30 @@
+X: 1
+T: Laoidh an t-Slanuighear
+T: Laoidh an t'Slanuidhfear
+T: Hymn to the Saviour
+B: Capt. Simon Fraser "The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816
+M: C
+L: 1/16
+K: G
+DEF2 \
+| "G"G3A {GA}B3A "C"G3E "G"D2zF | "G"GB3 "D 7"A4 "G"{GA}G4 z2Bc \
+| "G"d2ef g3a g3d B2d2 | "Em"B3A "B7"B2^d2 "Em"{d}e4 ||
+z2Bc \
+| "G"d2ef g3a g3f "C"e2fg | "G"d2B2 "G7"A2G2 "C"E4 "D7"z2E/D/E/F/ \
+| "G"G3D E2G2 "C"e4 g4 | "G"d2B2 "D7"A4 "G"{GA}G4 :|
+|: G2AB \
+| "Am"c3d {cd}e3^c "D7"d2D2 D2e2 | "G"dB3 "D7"A4 "G"{GA}G4 z2de/f/ \
+| "G"g3a {ga}b3a g3d B2d2 | "Em"B3A "B7"B2^d2 "Em"{d}e4 ||
+z2g/f/g/a/ \
+| "G"b3a g3f g3f "C"e2fg | "G"d2B2 "G7"A2G2 "C"E4 "D7"z2D/E/F \
+| "G"G3D E2G2 "C"e4 g4 | "G"d2B2 "D7"A4 "G"{GA}G4 :|
+S:https://www.folktunefinder.com/tunes/13231
+S:http://trillian.mit.edu/~jc/music/abc/air/LaoidhAnTSlanuighear0_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/LaoidhAnTSlanuighear0_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

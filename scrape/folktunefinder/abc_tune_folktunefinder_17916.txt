@@ -1,0 +1,28 @@
+X: 1
+T: Punter's Graveyard
+C: Daniel Compton
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2002.pdf
+M: C|
+L: 1/8
+K: Bm
+|:"Bm"B3c  dB~B2 | "D"fgfe dcdB | "A"ABcd c3B | "F#m"ABcd cA~A2 |
+| "Bm"B2Bc dB~B2 | "D"fgfe defg | "A"aA~A2 c2cd | edcA "Bm"B3A :|
+|:"Bm"BF~F2 "G"GBdB | "A"Acac bcac | "Bm"bf~f2 bfaf | "A"ec~c2 egfd |
+| "Bm"BF~F2 "G"GBdB | "A"Acac bcac | "Bm"bf~f2 bfaf | "A"egfd "Bm"B3z :|
+S:https://www.folktunefinder.com/tunes/17916
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://trillian.mit.edu/~jc/music/abc/reel/PuntersGraveyard_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PuntersGraveyard_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/PuntersGraveyard_Bm.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

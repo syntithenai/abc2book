@@ -1,0 +1,33 @@
+X:5130
+T:Reinlnder fran Skillingmark, Varmland
+A:Vrmland
+C:e. Mats Berglund
+L:1/16
+M:2/4
+O:Sweden
+R:Reinlnder
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c9d.html
+%%ID:00000c9d
+K:D
+D>EF>G A2A2 | G>AB>c d2d2 | \
+c>de>g a2a2 | A2aa A2ff |\
+D>EF>G A2A2 | G>AB>c d2d2 |
+c>de>g a>AB>c | d2f2 d2A2 ::\
+%
+d>DF>A d2d2   | d>FA>d f2f2 | \
+f>Ad>e f>Ad>e | f>Ad>f a2a2 |
+g>fe>f g2g2   | f>ed>e f2f2 | \
+d>FA>d c>EA>c | d2f2 d2B2  ::
+%
+A2f2 d2B2   | A>DF>A d2d2 | c>EA>c e2e2 | d>FA>d f2f2 |
+A2f2 d2B2   | A>DF>A d2d2 | d>FA>d c>BA>c | d2f2 d4:|
+S:https://www.folktunefinder.com/tunes/37105
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reinlnder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

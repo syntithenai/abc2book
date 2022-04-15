@@ -1,0 +1,25 @@
+X: 2
+T: TEST: Alto Recorder high & low octave
+%%staffwidth 300
+N: Both staffs written in F-g' range.
+N: Clef definition used to get desired octave.
+K: F clef=treble middle=B
+[| FGA Bcd | efg abc' | d'e'f' g'3 |]
+K: F clef=treble8 middle=b
+[| FGA Bcd | efg abc' | d'e'f' g'3 |]
+S:https://www.folktunefinder.com/tunes/2364
+S:http://trillian.mit.edu/~jc/music/abc/test/Clef_altrec_hilo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Clef_altrec_hilo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Clef_altrec_hilo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Clef_altrec_hilo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

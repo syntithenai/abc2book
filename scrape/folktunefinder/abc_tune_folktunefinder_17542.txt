@@ -1,0 +1,31 @@
+X:1
+T:Larry's Favourite
+C:Paddy O'Brien
+S:Kevin Rowsome
+Z:Juergen Gier <Juergen.Gier@POST.RWTH-AACHEN.DE> irtrad-l 2001-02-03
+N:This is Down the Broom, with an additional second part inserted.
+M:4/4
+K:ADor
+|: AG \
+| E.A.AG .A.ABd | eAA2 BAGE | G2DG EGDE | GABd edBG | \
+  E.A.AG .A.ABd | eAA2 BAGE | GABd gedB | AcBG A2:|
+|: Bd \
+| eaag egfg | eAA2 edBe | d2BG AGEF | GABd g2fg | \
+  eaag egfg | eAA2 BAGE | GABd gedB | AcBG A2:|
+|: Bd \
+| eaag a2ga | bgg2 abge | dggf g2eg | dBB2 GABd | \
+  eaag a2ga | bgg2 abge | dBB2 gedB | AcBG A2 :|
+S:https://www.folktunefinder.com/tunes/17542
+S:http://trillian.mit.edu/~jc/music/abc/reel/LarrysFavourite.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LarrysFavourite.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LarrysFavourite.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

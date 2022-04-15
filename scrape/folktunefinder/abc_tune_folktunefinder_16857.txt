@@ -1,0 +1,26 @@
+X:278
+T:Brumley Brae, The
+C:William MacPherson (1919-1974)
+B:RSCDS 39-1 (16-bar version with a few diffent notes)
+B:The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+A2 | d2 cd AFDd | cdAF DFAF | E2 EF GFED | CEGB =cA^cA | d2 cd AFDd |
+| cdAF DFAF | Begf edcB | AGFE D2 :: a2 | ^gafd Aa^ga | fdAa ^gafd |
+| eBBe bagf | edcB A^ABc | d2 cd AFDd | cdAF DFAF | G,B,DB, A,CEG | F2 D2 D2 :|
+S:https://www.folktunefinder.com/tunes/16857
+S:http://trillian.mit.edu/~jc/music/abc/reel/BrumleyBraeThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BrumleyBraeThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_MacPherson/BrumleyBraeThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BrumleyBraeThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BrumleyBraeThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BrumleyBraeThe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:543
+%%topmargin 3cm
+T:Mrs. Haswell
+C:Duncan McIntyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F dorian
+G | E>GB>c B>GB>c | B<Ge>c B>GBc | E>GB>c B<Ge>c | B<GG>E {DE}[B,2F2] [B,F]G | E>GB>c B>GB>c | B<Ge>c B>G Bc/d/ |
+{/d}e>f g/f/e/d/ {/d}ecc{/d}e | B<GG>E {DE}[B,2F2] [B,F] || G/A/ | B<Ge>c BGGc | B<Ge>G B2 Bc | BGB c/d/ e/d/c/B/ {/d}e>c |
+B<eG>E {DE}[B,2F2] [B,F]G/A/ | B<Ge>c BGGc | c/B/A/G/ {/G}e>G {/G}B2 Bc/d/ | e>f g/f/e/d/ {/d}ecc{/d}e | B<GG>E {EF}[B,2F2] [B,F] |]
+S:https://www.folktunefinder.com/tunes/71572
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Haswell.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0543.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

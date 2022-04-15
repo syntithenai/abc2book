@@ -1,0 +1,25 @@
+X:363
+T: "Die Kluge"
+N: Z1043
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: D
+D2 | A2A2A2_B2 | A2AGA2
+A2 | =c2c2d3c | _B2A2A2
+A2 | d2A2=F2D2 | E2D2D2
+=F2 | =F2E2D2C2 | E2D2D4
+D2DE=F2E2 | =FGA_BA2A2
+B2A2G2F2 | E3DD2
+S:https://www.folktunefinder.com/tunes/69222
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

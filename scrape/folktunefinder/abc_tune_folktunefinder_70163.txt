@@ -1,0 +1,27 @@
+X:33
+T: Madam, Madam, nach Hause sollt Ihr kommen, S. 58
+N: R0057
+O: Luxemburg
+S: D'Fraen um Kanddaaf an der aler Zeit, Luxemburg 1929]
+N: Grundton
+R: , Tod, Ehebruch]
+M: 2/4
+L: 1/16
+K: G
+G2 | D6G2 | D6D2 | G3DD2D2 | D4D2
+D2 | G3DD2D2 | D4D2
+DD | G2D2D2D2 | D4z4
+F2D2D4 | F2D2D4
+F2E2D2C2 | C3B,B,2z2
+A,A,A,A,B,2^C2 | D4z2
+S:https://www.folktunefinder.com/tunes/70163
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm , tod, ehebruch]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

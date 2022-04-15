@@ -1,0 +1,23 @@
+X: 192
+T: Zimmermo [G]
+M: 34/44
+L: 1/8
+K: G
+|:"G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "C"[c'a][e'c'][e'2c'2] "G"[bg][d'b][d'2b2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "D7"[af][c'a][c'2a2] "G"[b2g2]z2 \
+::"D7"[f2A2] [fA][gB] [a2c2] | "G"[g2B2] [gB][ac] [b2d2] |
+| "D7"[f2A2] [fA][gB] [a2c2] | "G"[g2B2] [gB][ac] [b2d2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "C"[c'a][e'c'][e'2c'2] "G"[bg][d'b][d'2b2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "D7"[af][c'a][c'2a2] "G"[b2g2]z2 :|
+S:https://www.folktunefinder.com/tunes/5239
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

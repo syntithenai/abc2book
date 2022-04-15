@@ -1,0 +1,22 @@
+X:123
+T:Moose-Wood Reel
+R:reel
+C:Bruce Osborne  --  May 1991
+Z:abc by bosborne@kos.net
+M:2/4
+L:1/8
+K:A
+E/D/|C/E/A,/C/ E/A,/C/E/|D/F/A/F/ EA/B/|c/e/A/c/ f/e/c/A/|B/c/B/A/ BE/D/|\
+C/E/A,/C/ E/A,/C/E/|D/F/A/F/ EA/B/|c/e/A/c/ f/e/c/A/|E/G/B/c/ A:|
+|:c/d/|ee/f/ e/c/B/A/|d/c/d/e/ f/a/g/f/|e/c/A/c/ e/c/A/c/|B/c/B/A/ Bc/d/|\
+ee/f/ e/c/B/A/|d/c/d/e/ f/a/g/f/|e/c/A/c/ d/B/G/B/|A/c/B/G/ A:|
+S:https://www.folktunefinder.com/tunes/39716
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

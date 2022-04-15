@@ -1,0 +1,40 @@
+X:1
+T:Trusting Schottisch
+C:Hunter (1868)
+B:published in 1868 for piano, scanned images at Duke Scriptorium
+N:composer only written as "HUNTER", no first name
+Z:Fakebook style transcription by Moshe Braner, Jan. 2002
+Z:this version displays each part only once
+R:schottisch
+M:2/4
+L:1/8
+P:ABA CDC A
+K:G
+P:A (schottisch)
+"G"DG/B/ d^c/d/ | "Am/C"eA {B}A/^G/A | "D7"cF {G}F/E/F | "G"ED {F}ED |
+"G"DG/B/ d^c/d/ | "Am/C"eA {B}A/^G/A | "D7"cF {G}FE/F/ | "G"G[B,G][B,G]z ||
+P:B
+K:D
+"A7"Ag fe | "D"ed {e}d/c/d | "A7"ec {d}c/B/c | "D"ed  {e}d/c/d |
+"A7"Ag fe | "D"ed {e}d/c/d | "A7"ec {d}c/B/c | "D"dd/d/ "D7"dd ||
+P:C (trio)
+K:C
+Ge/d/ .c.E | "G/D"GF {G}F/E/F | "G7"Gf/e/ .d.B | "C"dc {d}c/B/c |
+Ge/d/ .c.E | "G/D"GF {G}F/E/F | "G7"Gf/e/ .d.B | "C"d{d}c/B/ cz ||
+P:D
+K:G
+"D7"ed-d/F/A/c/ | "G/D"ed-d/G/B/d/ | "D7"gf-f/c/d/f/ | "G"ag-g/d/B/G/ |
+"D7"ed-d/F/A/c/ | "G/D"ed-d/G/B/d/ | "D7"gf-f/d/b/a/ | "G"g{a}g/f/ gz ||
+S:https://www.folktunefinder.com/tunes/18499
+S:http://trillian.mit.edu/~jc/music/abc/shottish/TrustingSchottisch_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/TrustingSchottisch_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/TrustingSchottisch_1.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

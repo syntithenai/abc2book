@@ -1,0 +1,25 @@
+X: 1
+T: Vals i Gm
+O: efter Paul Dahlin
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+|: d2 \
+| "Gm"g2 ~g2 ga | g4 d2 | B2 ~B2 Bd | B3 A G2 \
+| "D7"D2 ^F2 A2 | d2 A3 ^F |1,3 "Gm"G3 ABc | "D7"d4 :|2,4 "Gm"G3 G G2 | G4 :|
+|: d2 \
+| "Gm"d2 b2 b2 | a4 g2 | d2 g2 g2 | d3 B G2 \
+|  "D7"D2 ^F2 A2 | d2 A3 ^F |1,3 "Gm"G3 ABc | "D7"d4 :|2,4 "Gm"G3 G G2 | G4 :|
+|: B,A, \
+| "Gm"G,3 A,B,C | D3 EDC | B,D G2 A2 | B4 c2 \
+| d2 ga gd | B2 A2 G2 | "D7"^FG AB AF |1,3 DE DC :|2,4 "Gm"G4 :|
+S:https://www.folktunefinder.com/tunes/20290
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Vals_Gm2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Vals_Gm2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

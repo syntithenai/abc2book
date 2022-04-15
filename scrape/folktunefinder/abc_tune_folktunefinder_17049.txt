@@ -1,0 +1,31 @@
+X:93
+T:Down The Road
+% Nottingham Music Database << and they must have it this way round too, I suppose
+S:via PR
+S:Ian Hall  tradtunes 2004-7-13
+M:4/4
+L:1/8
+K:G
+"G"G2G2 GABG|A2G2 G2Bc|"G"d2Bc d2g2|"C"e2e2 "G"d4|\
+"C"e2e2 "G"d4|"C"e2e2 "G"d4|"C"e2e2 "G"dBGA|"A7"B2A2 "D7"AcBA|
+"G"G2G2 GABG|A2G2 G2Bc|"G"d2Bc d2g2|"C"e2e2 "G"d4|\
+"C"e2e2 "G"d4|"Em"e2e2 "Bm"d4|"Am"G2G2 "D7"FGAF|"G"G2D2 E2F2||
+"G"G2>E2 D2>E2|G2G2 GABA|"G"G2G2 GABA|"D7"A2F2 D4|\
+"D7"A2>F2 D2>F2|"D7"A2A2 ABcB|A2A2 ABcA|"G"B2A2 G4|
+"G"B2>c2 d2d2|"C"c2B2 "Am"A2G2|"D7"F2D2 c2A2|"D7"F4 D4|"C"E2E2
+"G"D4|"Em"E2E2 "Bm"D4|\
+"Am"GG "D7"FGAF|[1 G2D2 E2F2:|[2 "G"G2F2 G4|
+S:https://www.folktunefinder.com/tunes/17049
+S:http://trillian.mit.edu/~jc/music/abc/reel/Down_the_Road_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Down_the_Road_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Down_the_Road_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Down_the_Road_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Down_the_Road_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 134
+T:Bacca Pipes
+M:6/8
+L:1/8
+R:Jig
+K:ADor
+|: B |"C" c3   c2 e |"G" d2 c B2 d |"Am" c2 B A2 c |
+"G" B2 A G2 B |"C" c3   c2 e |"G" d2 c B2 d |"C" c2 A "G"B2 G |"Am" A3   A2 :|
+|: z |"G" g2 f g2 e | d2 B G3   | g3   ffg  |"D" a2 f d2 z |
+"G" g2 f g2 e | d2 B G2 B |"C" c2 A "G"B2 G |"Am" A3   A2 :|
+S:https://www.folktunefinder.com/tunes/52234
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

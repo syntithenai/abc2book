@@ -1,0 +1,28 @@
+X: 24
+T:Through the long Mure. JMP.024
+M:6/8
+L:1/8
+Q:120
+C:"25"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:jig
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+Bee e2d | ege dBG | Bee e2d | BAG E3 |!
+ Bee e2d | ege dBG | Bee e2d | BAG E3 :|!
+|:d | BGG GAG | BAG ABd | BGG GAG | BAG E2 d |!
+ BGG GAG | BAG ABd | Bee e2d | BAG E3 :|]
+S:https://www.folktunefinder.com/tunes/1961
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

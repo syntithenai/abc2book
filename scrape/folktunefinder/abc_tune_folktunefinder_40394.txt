@@ -1,0 +1,22 @@
+X: 1
+T: crescendo
+M: 2/4
+L: 1/8
+K: G
+%%MIDI deltaloudness 20 
+!mf!cdef|edcB|
+!<(! cdef|!<)! edcB|AAAA|
+!>(!  cdef|!>)! edcB|AAA|
+!crescendo(! cdef  |!crescendo)!|edcB|AAA|
+!diminuendo(! cdef |!diminuendo)!|edcB|AAA|
+S:https://www.folktunefinder.com/tunes/40394
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 3
+T: Berceuse pour Hannah
+T: Berceuse pour Anna
+C: Richard For\^et
+N: Richard Forest lives and writes tunes in Montr\'eal.
+S: after Andr\'e Brunet
+Z: Nov 2008 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watchv=F3iVloKLJYs
+F: http://www.youtube.com/watchv=nNMg2dZ-RYk
+M: 3/4
+L: 1/8
+K: D
+DE  \
+| "D"F3 E D2 | "Em"G2 F2 E2 | "D/F#"A6 | "D7"F3 E D2 \
+| "G"d6 | "A7"c4 B2 | "D"A4 AG | "D7"F2 G2 A2 |
+| "G"B3 A G2 | "A(F#)"c3 B A{B}c | "Bm"d2 c2 d2 \
+| "G"e2 d3 B | "D"A3 F D2 \
+|1 "A7"E2 D2 E2 | "D"F3 G F2| "A7"E4 \
+:|2 "A7"E3 F E2 | "D"D6- | H[d4D4] |]
+|: cd \
+| "A"e2 c2 A2 | E4 (3ABc | "G"d2 B2 G2 | "E7"E4 AB \
+| "A"c2 a3 f | "G"g2 e2 d2 | "E7"e6- | e4 cd |
+| "A"e2 c3 A | E4 (3ABc | "G"d2 B2 G2 | "E7"E4 AB \
+| "A"c2 B3 A | "G"G2 F2 G2 | "A"A6- | "A7"A4 :|
+S:https://www.folktunefinder.com/tunes/7719
+S:http://www.youtube.com/watchv=nNMg2dZ-RYk
+S:http://www.youtube.com/watchv=F3iVloKLJYs
+S:http://www.youtube.com/watchv=nNMg2dZ-RYk
+S:http://www.youtube.com/watchv=F3iVloKLJYs
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/BerceusePourHannah.abc
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:60
+T:Butter Side Up
+A:Lancaster
+C:Andy Hornby
+M:9/8
+N:1988
+O:England
+R:Slip Jig
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000756.html
+%%ID:00000756
+K:D
+A | dcd A2F D2d | Bcd efd cBA | \
+dcd A2F D2d | Bcd edc d2 :|
+|:e | fgf dcd A2d |efe cBc A2e | \
+dcd BdB G2B | Agf edc d2 :|
+S:https://www.folktunefinder.com/tunes/43877
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:3095
+T:Last of the Twins
+T:Northumbrian hornpipe
+A:Northumberland
+M:4/4
+O:England
+O:Ireland
+R:Hornpipe
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000725.html
+%%ID:00000725
+K:D
+(3ABc|\
+dAFA BAFE|DFAd BAFD|1 CDEF GABA|GFED E2:|2\
+CDEF GABc|d2ce d2::
+(3ABc|\
+dcde dcBA|BABc BAFD|1 CDEF GABA|GFED E2:|2\
+CDEF GABc|d2ce d2:|
+S:https://www.folktunefinder.com/tunes/36698
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

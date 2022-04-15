@@ -1,0 +1,25 @@
+X:1385
+T:Lark in the Morning
+O:ireland
+Z: id:dc-jig-68
+M:6/8
+L:1/8
+K:D Major
+A|AFA AFA|BGB BdB|AFA A2e|fed BdB|!
+AFA AFA|BGB BdB|def afe|dBB B2:|!
+A|def a3|baf afe|def afe|dBB B2A|!
+def a3|baf a2f|g3 f3|edB B2:|!
+A|def fef|fef fef|def fef|edB B2A|!
+def fef|fef fef|g3 f3|edB B2:|!
+A|Add fdd|edd fdd|Add fdd|edB B2A|!
+Add fdd|edd fef|g3 f3|edB B2:|!
+S:https://www.folktunefinder.com/tunes/42246
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

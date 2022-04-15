@@ -1,0 +1,31 @@
+X:16843
+T:The Hilland Solo
+B: Walsh
+M:4/4
+L:1/8
+N:
+K:A
+ef ea fg fg| dg dg BG B2| ef ea fg eg| ef eA ca c2|ef ea fg fg| dg dg BG B2|\
+eA cA eA cA | eA cA BG B2| eA cA eA cA| BG BG BG B2|\
+L:1/16
+eeee e2e2 ggg g2g2|eeee e2e2 c2A2 c4|eeee e2e2 ggg g2g2|dddd d2d2 B2G2 B4|\
+eeee e2e2 aaaa a2a2| eeee e2e2 c2A2 c4| dddd d2a2 cccc c2a2|\
+BBBB B2g2 B2G2 B4|A2cd e4 A2fg a4| A2cd e4 c2A2 c4|A2cd e4 A2fg a4| \
+A2Bc d4 B2G2 B4|A2cd e4 A2fg a4| A2cd e4 c2A2 c4| dddd d2a2 cccc c2a2|\
+BBBB B2g2 B2G2 B4| ABcd e2A2 e2A2 c4| ABcd e2A2 e2A2 c4| A2cd e2A2 e2A2 c4| \
+A2ef g2d2 B2G2 B4| eeee eeee ffff ffff| eeee eeee c2A2 c4|ffff gggg ffff ffff|\
+dddd dddd B2G2 B4| eeee eeee aaaa aaaa| eeee eeee c2A2 c4| dddd dddd cccc cccc|\
+BBBB B2g2 B2G2 B4|ABcd e4 c2A2 c4| d4 agfe c4 agfe| B4 g4 B2G2 B4|\
+eeee e2A2 ffff f2A2| eeee e2A2 c2A2 c4| eeee e2A2 ffff f2A2|\
+dddd d2G2 B2G2 B4|eeee e2A2 aaaa a2A2| eeee e2A2 c2A2 c4| dddd d2a2 cccc c2a2|\
+BBBB B2g2 B2G2 B4| e2A2 dcBA e2A2 dcBA| e2A2 dcBA dcBA B4|e2A2 dcBA e2A2 dcBA|\
+B2G2 B2G2 B2G2 B4| ABcd efge a8:|
+S:https://www.folktunefinder.com/tunes/38214
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

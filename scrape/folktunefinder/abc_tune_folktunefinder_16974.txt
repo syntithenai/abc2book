@@ -1,0 +1,35 @@
+X:1
+T:Gregg's Pipes
+T:Craig's Pipes
+T:Kerry Huntsman, The
+R:reel
+S:Mike McHale workshop - East Durham July 2000
+Z:Michael Hogan <Michael.Hogan@unilever.com> irtrad-l 2001-01-03
+M:C|
+L:1/8
+K:G
+B3 B{d} BAGA | B2GB AGED | B2dB{d} BAGB | A2 BG AGed |
+B3 B{d} BAGA | B2GB AGED | (3Bcd ed BedB | AcBG AGEG ||
+DG ~G2 DGBG | GABG AGEG | DG ~G2 d3 B | dBAc BG~G2 |
+DG ~G2 DGBG | d2BG AGEG | DG ~G2 d3 B | dBAc BG~G2 ||
+d2 (3Bcd e2ge | d2BG AGEG | d2Bd eg ~g2 | a2bg ageg |
+d2 (3Bcd e2ge | d2BG AGEG | d2Bd eg ~g2 | a2bg aged ||
+S:https://www.folktunefinder.com/tunes/16974
+S:http://trillian.mit.edu/~jc/music/abc/reel/CraigsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/GreggsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/KerryHuntsmanThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/CraigsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GreggsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KerryHuntsmanThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CraigsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GreggsPipes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KerryHuntsmanThe.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

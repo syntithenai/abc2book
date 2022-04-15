@@ -1,0 +1,26 @@
+X:970
+T:the Spinning Wheel
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000018a.html
+%%ID:0000018a
+K:E min
+G/F/|\
+E2e edc| BAG FED| E2e (e/f/g).f| e2E E2F|\
+E2e edc| BAG FED| E2e egf| e2E E2::|\
+F|\
+GAG (B/c/d)G| FEF DEF| GFE E2f| efg B2f|\
+gfe dcB| ABG FED| E2e (e/f/g).f| e2E E2:|
+S:https://www.folktunefinder.com/tunes/30503
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

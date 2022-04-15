@@ -1,0 +1,26 @@
+X:315
+T: WO ZUR FROHEN FEIERSTUNDE
+N: F0543
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, Geselligkeit
+M: 2/4
+L: 1/8
+K: F
+ | c2AB | c2c2 | defe | edc2
+F3F | A2c2 | f2a2 | g4
+c2AB | c2c2 | defe | edc2
+F3F | A2c2 | f2a2 | g4
+c2cc | d2dd | ecde | f2z2
+f2ff | f2ed | cBAG | F2z2
+c2cc | d2dd | ecde | f2z2
+f2ff | f2ed | cBAG | F2z2
+S:https://www.folktunefinder.com/tunes/69875
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied, geselligkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

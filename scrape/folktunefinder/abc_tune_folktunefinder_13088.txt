@@ -1,0 +1,42 @@
+X: 1
+T: Offa's Dyke
+T: Clawdd Offa
+O: Wales
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"d2d "A7"A2G | "D"FA2- A2A | d2d "(G)"F2G | "A7"A3- A2A \
+| "D"d2d "G"Bcd | "A7"e>dc "D"A2A | "G"B>cd "A7"e2c | "D"d3- d2 :|
+|: c/d/ \
+| "A7"e2e c2d | e3- ede | "D"f2f d2e | f3- f2e \
+| "G"d>cB "D"A2A | "G"B>AG "D"F2A | "G"B>cd "A7"e2c | "D"d3- d2 :|
+|: d \
+| "Bm"d2c Bde | f>ed B2A | "D"d2f e>dc | "G"B3 "A7"A2A \
+| "G"d>cB "D"A2A | "G"B>AG "D"F2A | "G"B>cd "A7"e2c | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/13088
+S:http://trillian.mit.edu/~jc/music/abc/Wales/ClawddOffa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/OffasDyke_48.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/ClawddOffa.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/OffasDyke_48.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OffasDyke_48.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ClawddOffa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/ClawddOffa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/OffasDyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/OffasDyke_48.abc
+S:http://trillian.mit.edu/~jc/music/book/500/OffasDyke.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

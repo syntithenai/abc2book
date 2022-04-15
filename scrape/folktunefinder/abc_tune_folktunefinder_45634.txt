@@ -1,0 +1,30 @@
+X:200
+T:Steirische (2.)
+C:traditionell
+R:Steirer
+A:Steiermark
+S:Auf einem von Sepp Pichler geschriebenen notenblatt aus dem besitz von Luise Buisman, mit folgenden quellen-angaben:1. St.Pangratzen bei Graz 1912, 2. Stiwoll bei Graz 1912, 3. Bruck an der Mur 1882
+N:bei Pichler ganz in F, erster ton 1.stimme: c', 2.stimme: c', zweistimmig in einer noten-zeile, 2. melodie von drei
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:F
+V:1
+|: C2 |\
+AC A3 A | BC Cc c2 | BC B3 B | AC Cc c2 |\
+AC A3 A | BC Cc c2 | BE c2 BE | F4 :|
+V:2
+|: C2 |\
+FC F3 F | EC CE E2 | EC E3 E | FC CA A2 |\
+FC F3 F | EC CE E2 | EC E2 Gc | A4 :|
+S:https://www.folktunefinder.com/tunes/45634
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

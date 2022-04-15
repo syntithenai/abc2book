@@ -1,0 +1,32 @@
+X: 21
+T:London March,The. JMT.020
+M:C
+L:1/8
+Q:140
+S:J.Moore,Tyneside,1841.(14a)
+R:March
+O:England
+A:Northumbria
+N:Irregular (bar missed out in the B music
+Z:vmp.John Adam
+K:D
+|:F2 FF F2 E2| DFAc B2 A2 | Bd Ad Gd Fd | E>DEF E4 | F2 FF F2 E2 | DFAd
+B2
+ A2 |! Bd Ad FA dg | f2 e2 d2 :|:
+(3agf | efge f2 e2 ""| d2 de f2 fa | a2 (3 agf f2 e2 | f2 ff f2 e2 | df
+ Ad
+ B2 A2 |!
+ Bd Ad Gd Fd |  E>DEF E4 | F2 FF F2 E2 | DFAd B2 A2 | Bd Ad FA d
+g | f2 e2 d4 :|]
+%Try repeating the first bar.
+S:https://www.folktunefinder.com/tunes/52783
+S:http://www.village-music-project.org.uk/abc/jmooret.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

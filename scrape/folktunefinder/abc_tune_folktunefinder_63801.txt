@@ -1,0 +1,33 @@
+X:254
+T:B Minor Reel
+M:4/4
+L:1/8
+R:reel
+D:Cherish the Ladies: At Home
+N:Learned from Cherish the Ladies: At Home
+Z:Michael Abraham Shulman
+K:Bm
+DE|:FB~B2 cfec|dfec BAFE|FB~B2 caa^g|afeg effe|
+~f3e cfec|ABBc def^g|afbf fecB|1 cfec B2BA:|2 cfec B2Bc|
+dB~B2 aB^gB|fB~B2 Bcce|dB~B2 caa^g|afeg effe|
+~f3e cfec|~B3c def^g|af~f2 fecB|1 cfec B2Bc:|2 cfec B2BA|
+%%text `A' Part Variations:
+FB~B2 ca^g=g|fedc BAFE|FB~B2 ca~a2|afeg effe|
+~f3e cfec|ABBc def^g|afbf fecB|cfec B2||
+%%text `B' Part Variations:
+dB~B2 aB^gB|fB~B2 Bcce|dB~B2 ca~a2|afeg Af~A2|
+f2Af Afec|~B3c def^g|af~f2 fecB|cfec B2||
+dB~B2 aBbB|aB~B2 Bcec|dB~B2 caa^g|afeg effe|
+~f3e cfec|~B3c def^g|af~f2 fecB|cfec B2||
+S:https://www.folktunefinder.com/tunes/63801
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 30
+T:London's Loyalty. HA.031
+M:3/2
+L:1/8
+Q:200
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Scordatura ADAE. Tune bottom string up a tone. This you may compare
+N:with the more understandable version in Playford
+N:13th edition, 1706..For this reason I have only straightened out the
+N:(usual) crotchets.. CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"Scordatura ADAE"D4 (dc)(dA) G2F2|E2F2 (GF)(GE) B,4|\
+D4 (dc)(dA) G2F2|(EF)(ED) E2B,2 D4||!
+c4 e2c2 (ef)g2|c2g2 g2c2 g4|\
+defg a2d2 "cr's"fga2|d2a2 a2d2 a4|!
+gfed c2f2 (AB)(cB)|(GF)(ED) B,2c2 E4|\
+F2E2 F2G2 A2A2|B2c2 d2"cr"dc d4|]
+S:https://www.folktunefinder.com/tunes/72279
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

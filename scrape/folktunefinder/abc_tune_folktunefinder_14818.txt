@@ -1,0 +1,27 @@
+X: 1
+T: Over Easy
+C: Michael McCool <mkmc:teleport.com> on irtrad-l 2000-01-23
+R: jig
+N: (c) Copyright Michael McCool, 1999
+N: Permission granted for non-commercial performance and for non-commercial
+N:   distribution of this file (provided that this notice is retained).
+M: 6/8
+L: 1/8
+K: D
+A | ded D2F | AFA BAF | ded D2F | AFE EDE \
+  | ded D2F | AFA BAF | ABc dcB | Ace d2 :|
+A | def a2a | baf afd | efe e2f | gfg afd \
+  | efg fga | bag fga | bag fag | fdc d2 :|
+S:https://www.folktunefinder.com/tunes/14818
+S:http://trillian.mit.edu/~jc/music/abc/jig/OverEasy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OverEasy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

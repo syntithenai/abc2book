@@ -1,0 +1,43 @@
+X:24
+T:Reculimen
+O:France
+A:Provence
+C:J. Ginas (1927)
+C:(A mon ami Raspaut)
+C:
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+%%continueall 1
+L:1/8
+Q:"lento" 1/4=60
+K:Bb
+V:1
+%%MIDI program 74
+d2cdec | !breath!d2cBAG | !breath!B2AGBc | d6 | f2edce | !breath!d2cBAc | !breath!B2AcBA | G6 | (GBdfec |
+d)(gdcAe | dcdB)G2 | (edcd)(ga) | (g^f)(ecA)d | [Q:"foro lento"]BGB!breath!A cd | G6 !fine! |: [Q:"andt moderato"]d4c2 | e4G2 !breath!| A4B2 | B4F2 !breath!| d4c2 | f4c2 !breath!|
+a4g2 | f6 !breath! | f2f2f2 | _d6 !breath!| G2_A2B2 | c6 !breath! | c2c2c2 | f6 !breath! | F2d2c2 | B6 !breath! | A2B2c2 | B6 !breath! | d2c2A2 | B6 !D.C.!:|
+V:2 clef=perc stafflines=0 staffscale=0.7
+B2z2z2 | B2z2z2 | B2z2z2 | B2B2B2 | B2z2z2 | B2z2z2 | B2z2z2 | B2B2B2 | 
+B2B2BB | B2B2BB | B2B2BB | B2B2BB | B2B2BB | B2B2BB | B2B2B2 |:
+z2z2B2 | B2z2B2 | B2z2B2 | B2z2B2 | B2z2B2 | B2z2B2 | B2z2B2 | B2z2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | B2B2B2 | 
+B2B2B2 | B2B2B2 :| 
+V:3
+G2[A2c2]c2 | B2A2cB | G2ABG2 | A2d2f2 | d2cBAc | B2AG^FA | G2^FAGF | G2B2d2 | A2d2Bc |
+d2BA^Fc | B2^F2G2 | cdedB^F | GAc3d | e2B2A2 | G6 |: B4A2 | c4G2 | F4G2 | G4F2 | B4a2 | d4A2 |
+c4=e2 | f6 | c2B2_A2 | G2B2_d2 | f2f2f2 | =e6 | c2c2c2 | A6 | F2G2A2 | B2c2d2 | f2e2A2 | d2B2G2 |
+F2G2A2 | B6 :|
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/483
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

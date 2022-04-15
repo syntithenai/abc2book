@@ -1,0 +1,29 @@
+X:6565
+T:Vals
+A:Dalarna, lvdalen
+C:e. Pl Karl Persson, e. Evert hs
+D:Simon Simonssons Kvartett, Giga CCD-15
+M:3/4
+O:Sweden
+R:Waltz Bakmes
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c23.html
+%%ID:00000c23
+K:A dorian
+AA|\
+A2 cA cd| e4 ee | e2 f2 d2| c3B cd| c2 BG BG | A4 :|\
+cd|\
+(3efe-e2 d2 |f2 ed cd |
+(3efe- e2 d2| f2 ed cd| ef ed fd| e3A cd|\
+e2 f2 d2| c3B cd| c2 BG BG | A4 :|
+S:https://www.folktunefinder.com/tunes/37392
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz bakmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

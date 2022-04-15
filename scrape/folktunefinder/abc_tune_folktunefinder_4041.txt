@@ -1,0 +1,25 @@
+X: 3
+P: The Blackthorn Stick
+%: Fire on the Mountains
+%: the Humors of Bantry
+R: jig
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   d \
+| "G"gfg "C"ege | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGB "D2"A2d \
+| "G"gfg "C"age | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGG G2 :|
+|: d \
+| "G"edd gdd | edd gdd | ede "C"gfg | "G"edB "D2"A2d \
+| "G"gfg "C"age | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/4041
+S:http://trillian.mit.edu/~jc/music/abc/England/Rapper2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

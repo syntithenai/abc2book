@@ -1,0 +1,22 @@
+X:1065
+T:Christmas Day i'da Morning
+M:12/8
+O:Shetland
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000842.html
+%%ID:00000842
+K:D
+f2d f3 e2d c2A|BG2 d2c B2G G3|\
+e2f g2f e2d c2B|ABA ABc d3 d3:|
+K:AMix
+|:e3 (4edef g3 B3|A2F A2A B2c d2B|\
+e3 (4edef g3 B3|ABe d2B A3 A3:|
+S:https://www.folktunefinder.com/tunes/36292
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

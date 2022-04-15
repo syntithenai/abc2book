@@ -1,0 +1,25 @@
+X: 1
+T: Captain William McLeod's Fancy
+C: William Marshall
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Paddledoo Collectioon
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+|: "F"f2c "C7"cdB | "F"A2G F3  |  "Gm"gab "G7"agf | "C7"e2d c3 \
+| "Bb"d2B b2B | "F"c2A a2A |1 "Gm"GAB "(G7)"AGF | "C7"EGF EDC \
+                          :|2  "F"AGF "C7"CDE |  "F"F3  F3 :|
+|:"C7"CCC C2f | "C7"e{f}ge c2z | "F"CCC C2f | "F"f{g}af c3 \
+| "Bb"b2g "F"a2f | "C7"g2e "F"f2c | "Bb"dcB "C7"ABG | "F"F3 F3 :|
+S:https://www.folktunefinder.com/tunes/13980
+S:http://trillian.mit.edu/~jc/music/abc/jig/CaptainWilliamMcLeodsFancy_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CaptainWilliamMcLeodsFancy_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

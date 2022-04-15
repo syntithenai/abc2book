@@ -1,0 +1,52 @@
+X:3
+T:Sonata \`a3 - bass
+C:Giuseppe Sammartini
+%I have not find a good way to notate figured bass in abc.
+%In the first movement I have experimented a little with using the chord symbol function,
+%but I wasn't satisifed with that solution. Any good ideas
+M:C
+L:1/8
+K:C
+C,2z2C,2z2|C,2z2C,2z2|C,2"7"G,,2C,2z2|C,2"7"G,,2C,2z2|
+C,2z2G,,2z2|A,,2^F,,2G,,2"-"B,,G,,|C, z G,, z C, z G,, z|"7"E,, z "6"E, z "#"D,2G,,2|
+"6/4"D,2"#"D,,2G,,2z2|z8|z8|z4"#"D, z G,,z|"6/4"D, z "#"D,, z G,,4:|
+G,,2z2G,,2z2|G,,2"7/#"D,2G,,2z2|z8|z4"#"D, z "6/4"D, z|
+"#"D, z "6/4"D, z "#"D,2 z2|z4 "#"D,2 z2|"6"^F,2 "#6/4"E,2 "#"D,2 z2|z4E,2z2|"6"G,2"#"^F,2E,2z2|
+E,E,E,E, "6"^D,"6"=D,"-"D,"-"D,|"7"^C,"7"=C,"-"C,"#6"C, "#"B,,"-"B,,"6/4"B,,"-"B,,|"#"B,,2z2"#"B,,"-"B,,"6/4"B,,"-"B,,|"#"B,,2z2"n"B,,2"-"A,,2|
+"6"G,,2E,,2A,,2z2|"7/#"D,2z2G,,2z2|"7"C,2z2"7"^F,,2z2|"#"B,,2z2E,,2zA,,|
+"6/4"B,,2"7/#"B,,2E,2z2|"6/4 - 5/#"B,,4E,2z2|z8|z8|C,2z2C,2z2|
+C,2G,,2C,2z2|C,2z2G,,2z2|A,,2"6"^F,,2G,,2z2|"6"B,,z C, z G,,2z2|
+G,, z "6/4"G,, z G,,G,G,"-"F,|"6"E,"-"E,"-"E,"-"E, "-"E,,"-"E,,"-"E,,"-"E,,|F,,"-"A,"-"A,"-"G, "6"^F,"-"F,"-"F,"-"F,|"6"^F,,"-"F,,"-"F,,"-"F,,G,,2z2|
+z8|z4G,,2"7/n5"B,,2|C,2"7"G,,2C, z F,, z|"7"G,, z "6"A,, z "6/4"G,, z G,, z|C,8|]
+T:2. Adagio
+M:3/4
+L:1/8
+G,2G,2G,2|F,4z2|A,2A,2A,2|G,4z2|^G,2G,2G,2|A,2A,2A,2|A,,2A,,2A,,2|
+A,,2z2z2|z6|F,2A,2A,,2|D,2z2z2|B,,2B,,2B,,2|B,,2B,,2B,,2|B,,2z2z2|
+z6|E,2B,2B,,2|E,6|^F,2^A,,4|B,,2z2z2|E,2^G,,4|A,,2z2z2|
+D,2^F,,4|G,,2E,,2E,2|F,2^D,4|E,2E,2E,,2|F,,2F,,2F,,2|F,,2F,,2F,,2|^F,,2F,,2F,,2|
+^G,,2G,,2G,,2|A,,2E,2E,,2|A,,2E,,2E,,2|A,,2E,,2E,2|A,,6|A,,2D,2E,2|A,,6|]
+T:3. Allegro
+M:3/8
+L:1/8
+|:C,E,D,|C,E,D,|C,E,,G,,|C,E,G,|C3|G,2C,|B,,G,,2|C,C,z|C,2E,|F,3|^F,3|
+G,G,G,|G,3|G,,G,,G,,|G,,3|G,,G,,G,,|G,,3|z3|z3|z3|C,B,,A,,|
+G,,A,,B,,|C,B,,A,,|G,,3|G,,3|C,3|C,D,D,,|G,,3:|C,2z|C,2z|C,E,,2|
+F,,3|^F,,3|^F,,3|^F,,3|G,,3|C,C,C,|B,,B,,B,,|C,C,C,|G,G,,z|D,D,C,|B,,B,,A,,|
+G,,B,,G,,|C,C,z|C,C,B,,|A,,A,,G,,|F,,3|G,,G,,G,,|G,,G,,G,,|G,,G,,G,,|G,,G,,G,,|G,,2C,|
+F,G,G,,|C,C,C,|C,3|C,C,C,|C,3|C,C,C,|C,3|z3|z3|z3|
+C,3|F,3|F,G,G,,|C,C,C,|C,C,C,|C,B,,/A,,/G,,/F,,/|E,,F,,G,,|C,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/40098
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

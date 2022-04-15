@@ -1,0 +1,32 @@
+X:950
+T:Xota Asturiana (MG 88)
+T:Jota Asturiana (MG 88)
+R:Xota
+C:Versin de Gaiteru Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 88
+M:3/8
+L:1/8
+Q:3/8=80
+E:Comp.
+K:C
+G
+|: c2 d|BcA|B2 G|F2 G|B2 c|ABG|A2 F|E2 G :|
+|: EEG|E2 G|EEG|F2 G|FFG|F2 G|FFG|E2 G|
+|EEG|E2 G|EEG|F2 G|AAc|B2 A|G2 F|E2 G :|
+|: c2 A|B>~GF|AAA|B2 G|F2 G|B2 G|~A>GF|GGG|A2 F|[1 E2 G :|[2 E3|
+|: c>cc|ccc|~d2 B|GBB|c2 A|FAA|B2 G-|G3|
+|~A>AA|AAA|B2 G|EGG|A2 F|DFF|~G2 E-|E3 :|
+|: GGG|E2 E|G2 G|A2 A|FFE|D2 D|F2 F|G2 G|
+|GGG|E2 E|G2 G|A2 A|BBA|G2 G|[1 F2 F|E3 :|[2 F2 B|c3|
+S:https://www.folktunefinder.com/tunes/59837
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

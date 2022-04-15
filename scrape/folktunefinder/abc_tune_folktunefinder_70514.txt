@@ -1,0 +1,30 @@
+X:384
+T: Falsch und Treu (110), S. 264
+N: T0273
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Heffingen, Anna Kimmel, 10.3.1933
+R: Liebeslieder]
+M: 3/4
+L: 1/4
+K: C
+C | E2G | c2c | c2d | dc
+C | E2G | cBA | GBA | G2
+C | E2G | c2c | c2d | dc
+C | E2G | cBA | GBA | G2
+d | ddd | dcA | G2F | FE
+C | E2G | cee | dfd | c2
+d | ddd | dcA | G2F | FE
+C | E2G | cee | dfd | c2
+S:https://www.folktunefinder.com/tunes/70514
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

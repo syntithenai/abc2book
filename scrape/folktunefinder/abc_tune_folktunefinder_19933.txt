@@ -1,0 +1,34 @@
+X: 1
+T: Gentle Maiden
+O: Trad
+R: waltz
+N: Also played as a jig.
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G>AG | "D7"FED | "G"d2d | "C"efg | "G"dcB | "G7"A2G | "C"E3- | "D7"E2F |
+y3\
+| "G"G>AG | "D7"FED | "G"d2d | "C"efg | "G"d>cB | "D7"A2G | "G"G3- | G2 ||
+d \
+| "G7"d>ef | "C"g2g | g2g | gfe | "G"d>cB | "Am"A2G | "C"E3- | "D7"E2F |
+y\
+| "G"G>AG | "D7"FED | "G"d2d | "C"efg | "G"d>cB | "D7"A2G | "G"G3- | G2 |]
+S:https://www.folktunefinder.com/tunes/19933
+S:http://trillian.mit.edu/~jc/music/abc/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/waltz/GentleMaidenW_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/waltz/GentleMaidenW_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 4757
+T:SPINDLE SHANKS(g)
+M:4/4
+L:1/8
+K:G
+~B2 Ad (3BAG) GA|BGdc BGGA|~B2Ad BGGA|(3Bcd) ef g2 ed|!
+~B2 Ad (3BAG) GA|BGdc BGGA|~B2Ad BGGA|(3Bcd) ef g2 fg|!
+~a3g abag|fgab c'2 bg|~a3g abag|fdef g2 dc|!
+~a3g abag|fgab c'2 bc'|d'~a3 b~g3|fdef g2 dc|!
+S:https://www.folktunefinder.com/tunes/33914
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

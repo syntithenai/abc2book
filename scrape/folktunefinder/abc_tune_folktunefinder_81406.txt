@@ -1,0 +1,42 @@
+X: 8
+T:Spaghetti Panic
+M:7/8
+L:1/8
+Q:1/8=180
+C:Andy Cutting
+P:AB AB CD CE AB
+B:Alexandra Browne : Diatonic Liasons (Dragonfly 2000)
+D:Blowzabella : Vanilla
+N:Posted to tradtunes 26/02/2001
+Z:Steve Mansfield July 2000
+K:Em
+P:A
+BeB fB gB | gfe f^d B=d | ~edc BA GA | AFD BA GA |
+BeB fB gB | gfe f^d B=d | ~edc BA GA | AGF (E2E2):
+P:B
+[M:8/8]|:EFG G2B dB | [M:7/8] ABc BF Ed | ~edc BA GA |
+M:8/8
+{G}AGF F2G FD | EFG G2B dB |
+M:7/8
+ABc BF Ed | ~edc BA GA |1AGF[E2e2]-[Ee] :|2AGF[E2e2]z2 |
+P:C
+|: GAd _ed cA | B((3GBG) _FG AF |
+GAd _ed cA | B((3GBG) _F([Ac][Ac])F::
+P:D
+g=fg ^ag f^(f | g)^ag _fd ^Ad |
+g=fg ^ag f^(f |1g)^ag=f2 ^f2:|2g^ag =fd ^A=A |
+P:E
+[M:7/8]BeB fB gB | [M:8/8]aBgB fBeB |[M:7/8] cec fc gc |
+[M:8/8]acgc fcec | [M:7/8]AeA =fA gA | [M:8/8]aAgA =fAeA |
+[M:7/8]FAF BF cF | [M:8/8]dAeA =fA^fA ||
+S:https://www.folktunefinder.com/tunes/81406
+S:http://www.lesession.co.uk/music/posts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 7/8
+% Time_signature 8/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

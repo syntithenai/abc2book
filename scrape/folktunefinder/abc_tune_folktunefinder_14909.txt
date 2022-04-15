@@ -1,0 +1,28 @@
+X: 1
+T: Planxty O'Flynn
+C: O'Carolan
+B: O'Neill's 669
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: G
+G \
+| GDG G>AG | {G}FDF G2A | (B/c/d).B (c/d/e).c | Bdd g2a |
+| gfe dcB | (c/B/c/d/e/c/) ABA | F2D A(F/G/A) | G3 G2 ||
+|| D \
+| DB,D DB,D | (EC)C (EC)C | (F/G/A).A A>(BA/G/) | FDd d2c |
+| BAG GgG | GgG ecA | (B/c/d).d d>(ed/c/) | B(c/B/)(A/G/) AFD |
+| GEC CEC | DFD dcB | (c/d/e).A FDF | G3G2 |]
+S:https://www.folktunefinder.com/tunes/14909
+S:http://trillian.mit.edu/~jc/music/abc/jig/PlanxtyOFlynn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PlanxtyOFlynn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PlanxtyOFlynn.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/PlanxtyOFlynn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:76
+T: ICH WILL MICH UMSCHAUEN
+N: E0685
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt, Meiningen;
+R: Liebes - Lied, Leid, Klage, Trennung
+M: 3/4
+L: 1/8
+K: G
+GB | d2d2ec | cBB2
+dB | BAcAGF | G4
+GB | d2d2ec | cBB2
+dB | BAcAGF | G4
+GB | d2BAGB | A2A2
+GB | d2BAGB | A4
+GB | d2d2ec | cBB2
+dB | BAcAGF | G4
+S:https://www.folktunefinder.com/tunes/76561
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage, trennung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

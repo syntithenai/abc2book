@@ -1,0 +1,28 @@
+X:235
+T:Jack the horse-courser
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+D:the Geckoes "the Red Horse" (OCK 060)
+L:1/8
+M:C|
+N:There is a small amount of guesswork here, owing to misalignment of paper in photocopier, the left edge of paper waent missing. Check with mss for yourself ...
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000613.html
+%%ID:00000613
+K:G
+G2g2 d2(cB) | cBAG F2(ED) | GDGB AFED | GDGB AFED |\
+G2g2 d2(cB) | cBAG F2(ED) | c2(BA) B2(AG) | D2F2 G4 ::
+d2g2 f2(ed) | e2(fd) c2(BA) | dAdf ecBA | dAdf ecBA |\
+d2g2 f2ed | e2fd c2(BA) | c2(BA) B2(AG) | D2F2 G4 :|
+S:https://www.folktunefinder.com/tunes/43610
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 47
+T:Waltz,A. CJF.047
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:None of the trplets are marked as such in the MS. The asterisk marks
+N:where there is a bar line in the MS. Some triplets are beamed together,
+N:as indicated by deliberately omitted spaces - PJH.
+Z:vmp.P J Headford 2000
+K:G
+dc|Bdgdb2|Bdgdb2|c'afdef|gfgadc|!
+Bdgdb2|Bdgdb2|c'afdef|g4:|!
+|:ba|c'afdef|gfgbdB|ceBGFA|GB d2 bg|!
+c'afdef|gfgbdB|cedcBA|G4:|!
+|:dc|((3BGB) ((3dBd) ((3gdg)|((3bgb) ((3d'c'b) ((3agf)|\
+((3efg) ((3abc') ((3ec'a)|g2f2 dc|!
+((3BGB) ((3dBd) ((3gdg)|\
+((3bgb) ((3d'c'b)((3agf)|((3efg)((3abc')"*" ((3def)|g4:|!
+|:bg|((3c'af) ((3dfa) ((3c'af)|\
+((3gbg) ((3gfe) ((3dec)|((3Bcd)((3efg) ((3ec'a)|g2f2 dc|!
+((3BGB) ((3dBd) ((3gdg)|((3bgb) ((3d'c'b)((3agf)|\
+((3efg)((3abc') ((3def)|g4:|]
+S:https://www.folktunefinder.com/tunes/49602
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

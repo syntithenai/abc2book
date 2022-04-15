@@ -1,0 +1,31 @@
+X: 1
+T: (My Love is Like) the Red Red Rose
+R: air, strathspey (and waltz)
+O: trad
+N: One of several common settings for the Robert Burns poem of the same name.
+B: Kerr's 3rd, p.6, #27.
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+[| d | "D"D<D E>F d>c B>A | "G"B>A B<d "A7"e2 de/f/ | "D"D<D E>F d>c B>A | "G"B>A "A7"Bc "D"d3 |]
+[| A | "D"d>f e>d "G"B<c "D"A>F | A>A "G"g>f "A7"f<e a>g | "D"fa fd "G"B<d "D"A>F | "A7"A>A Bc "D"d3 |]
+S:https://www.folktunefinder.com/tunes/13306
+S:http://trillian.mit.edu/~jc/music/abc/air/RedRedRose.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RedRedRose.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RedRedRoseS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RedRedRose.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RedRedRoseS.abc
+S:http://trillian.mit.edu/~jc/music/book/500/RedRedRose.abc
+S:http://trillian.mit.edu/~jc/music/book/500/RedRedRoseS.abc
+% Rhythm Air, strathspey (and waltz)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

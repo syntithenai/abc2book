@@ -1,0 +1,27 @@
+X:3
+T:Chief O'Neill's
+R:hornpipe
+O:Ireland
+M:4/4
+L:1/8
+K:Dmix
+de | "D" fefg "G" afge | "D" fded "A" dcAG | "D" FEFD "G" FGAB | "C" =cAd^c "A" A2 de |
+     "D" fefg "G" afge | "D" fded "A" dcAG | "D" FEFD "G" GBAG | "A" F2  D2    "D" D2 :|
+DE | "F" =FEFD    FGAB | "C" =cAdB    cAGB | "D" Adde     fded | "A" cAdc    A2    de |
+     "D" fefg "G" afge | "D" fdef "A" dcAG | "D" FEFD "G" GBAG | "A" F2  D2    "D" D2 :|
+\end{abc}
+% -----
+\section{Reels}
+\addcontentsline{toc}{subsection}{Abbey Reel}
+\begin{abc}[name=abbey]
+S:https://www.folktunefinder.com/tunes/66622
+S:http://abcplus.sourceforge.net/tunebook-sample.tex
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

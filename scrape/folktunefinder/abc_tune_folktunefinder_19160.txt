@@ -1,0 +1,29 @@
+X: 1
+T: Wearing of the Green
+I: Wearing of the GreenS-WDsquare
+%C: S-W
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+DE| "D"F2F2 F2F2| F2A2 A2F2| "A7"F2E2 E2F2| E6 A2| \
+    "G"B2G2 d2c2| "D"B2A2 F2D2| "A7"E2D2 D2E2| "D"D6 :|
+\
+dc| "D"B2A2 A2F2| A2A2 D2E2| F2E2 F2G2| F4 d2c2| \
+    "G"B2B2 A2B2| "D"A2A2 D2F2| "E7"E2D2 C2B,2| "A"A,6 |]
+|: \
+DE| "D"F2F2 F2F2| F2A2 A2F2| "A7"F2E2 E2F2| E6 A2| \
+    "G"B2G2 d2c2| "D"B2A2 F2D2| "A7"E2D2 D2E2| "D"D6 :|
+S:https://www.folktunefinder.com/tunes/19160
+S:http://trillian.mit.edu/~jc/music/abc/square/Wearing_of_the_Green.abc
+S:http://roaringjelly.org/music/square/Sq_W_Wearing_of_the_Green.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_W_Wearing_of_the_Green.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Wearing_of_the_Green.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_W_Wearing_of_the_Green.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

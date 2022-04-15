@@ -1,0 +1,33 @@
+X:10
+T:Polka du Moulinet
+R:Polka
+C:Mes souliers sont rouges
+N:
+D:
+O:France
+Z: <anamnese@laposte.net>
+M:2/2
+L:1/8
+Q:1/4=130
+K:C 
+V:1
+%%MIDI program 22 %Accordion 
+|: A>B AB cece | dBfB d {d}BGB |
+A>B AB cece | dBGB A2 A2 :||:
+A2 a2 gecc | dBfB d {d}BGB |
+A2 a2 gecc | dBGB A2 A2 :|
+V:2
+%%MIDI program 34 %Bass 
+K:C bass
+%%MIDI transpose -36
+|: A2B2 c2e2 | g2d2 g2 ega2 | e2c2e2g2 | ^g2 aecB :||:
+A2B2 c2e2 | g2d2 g2 ega2 | e2c2e2g2 | ^g2 aecB :|
+S:https://www.folktunefinder.com/tunes/39879
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

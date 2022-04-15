@@ -1,0 +1,29 @@
+X:273
+T: ICH HAB ZU DIR GESAGT, MEIN KIND ICH LIEBE DICH
+N: Z0271
+O: Europa, Mitteleuropa, Deutschland, Sued - Deutschland, Bayern
+R: Lyrisches Lied, Romanze
+M: 2/4
+L: 1/8
+K: A
+E | ABcd | c2B
+c | dcde | d2c
+E | ABcd | c2B
+c | dBAG | A2z
+c | edcd | e2d
+c | defd | d2c
+E | ABcd | c2B
+c | dBAG | A2z
+S:https://www.folktunefinder.com/tunes/69132
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

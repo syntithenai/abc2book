@@ -1,0 +1,27 @@
+X:14291
+T:Rights of Man, The
+S:John B. Walsh
+Z:Leo Rowsome's setting, from his uilleann pipe tutor.
+M:4/4
+E:6.5
+R:hornpipe
+K:G
+|:GA|BcAB GAFG|EFGA B2ef|gfed Bgfg|(3ege dB A2GA|
+BcABGAFG|EFGA B2ef|gfed BA (3Bcd|e2 E2 E2:|
+|:ga|babg efga|babg egfe| dAFA d^cdf|afdf a2 gf|
+edef gfga |(3bag af g2ef|gfed BA  (3Bcd|e2 E2 E2:|
+\noindent The first measure is often played in triplets:
+||(3BcB (3ABA (3GAG (3FGF|EFGA B2 ||
+S:https://www.folktunefinder.com/tunes/64301
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

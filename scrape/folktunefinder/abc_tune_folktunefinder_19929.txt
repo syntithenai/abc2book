@@ -1,0 +1,29 @@
+X: 1
+T: From Among Dragons
+C: Leslie Lassetter (Oct 2002)
+W: 2nd ending last time only
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"B3 A G2 | "Am(Em)"c4 B2 | "C"E G3 A2 | "G"G6 \
+|  "C"e6 | "G"d6 | "Am"c3 d e2 | "D7"A6 |
+|  "G(Em)"B3 A G2 | "Am7"c4 B2 | "C"EG3 A2 | "G"G6 \
+|  "C"EG- G4 | "G"DG- G4 | "D7"A4 B2 | "C"G6 |
+| "G"d6 | "C"c6 | "Em"B4 GA | "D"A6 \
+| "G"d6 | "Am"c6 | "Em"B3 c d2 | "D"A6 |
+| "G"d6 | "Am"c6 | "Em"B3 c d2 | "C"e6 \
+| "G"d2 dc BA | "Em"B2 G2 c2 |1 "Am"G3 c A2 "D"A6 :|
+|2 "D7"B3 c A2 | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/19929
+S:http://trillian.mit.edu/~jc/music/abc/waltz/From_Among_Dragons_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/From_Among_Dragons_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

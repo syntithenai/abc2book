@@ -1,0 +1,30 @@
+X: 1
+T: Lochleven Side
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+O: John Bowie  Collection
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A3 "E7"BAB | "A"c>BA "D"d2f | "A"e>dc "E7"BAB |1,3 "A"cAE "E7"E2 :|2,4 "A"cAA A2 :|
+|: f/g/ \
+| "A"a>gf edc | c>de "D"f>af | "A"e>dc "E7"BAB |1 "A"cAE "E7"E2 :|2 "A"cAA A2 ||
+|| f/g/ \
+| "A"a>gb a2g | "D"f>de  f>af | "A"e>dc "E7"BAB | "A"cAE "E7"E2 ||
+|| c/B/ \
+| "A"A>EA "E7"BAB | "A"c>BA "D"d2f | "A"e>dc "E7"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/14553
+S:http://trillian.mit.edu/~jc/music/abc/jig/LochlevenSideJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LochlevenSideJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LochlevenSideJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LochlevenSideJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 65
+T:Croppies ly Down. JMP.065
+M:6/8
+L:1/8
+Q:120
+C:"70...Quick Step"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Jig
+O:Scotland
+A:Perth
+N:1 - the last two bars are written in the margin at the end of the stave
+N:and are not easy to read
+H:1799
+Z:vmp.C.  Graebe
+K:G major
+e | dBG GFG | ABA ABd | ege dBd | GAG G2 :|!
+|:e | deg gfg | efg a2d | gab efg | ded BGD | G3 e3 {fg} |\
+dBd G3 :||:! 
+gfg efg | ded BGE | "1" E3 dBd | GAG G2 :|]
+S:https://www.folktunefinder.com/tunes/2002
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

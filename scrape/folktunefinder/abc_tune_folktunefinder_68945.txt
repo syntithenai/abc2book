@@ -1,0 +1,24 @@
+X:86
+T: ICK SAG (SAH) MINEN HERRN VON FALKENSTEEN
+N: Z0086
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Sagen - Lied, Romanze
+M: 4/4
+L: 1/16
+K: F
+F4 | F4G2G2A4B4 | c4c4F4
+G4 | A4d4c4F4 | F6_EDE4F4 | D16 | C12
+c4 | c4c2c2d4c4 | c2c2B4A4
+d4 | c4G4A4F4 | _E4F4G4A4 | A4G2F2G8 | F12
+S:https://www.folktunefinder.com/tunes/68945
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

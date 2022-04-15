@@ -1,0 +1,24 @@
+X: 4
+P: Jevrevalsen
+O: etter Trond Villa
+M: 3/4
+L: 1/8
+K: D
+|: A2 | "D"A2 F2 A2 | "G"d2 c2 B2 \
+| "D"A2 d4 | "A7"cB AG F2 | E2 c4- | cB AG FG \
+| "D"A2 F2 A2 | "G"d2 c2 B2 | "D"A2 d4 |
+| "A7"cB AG F2 | E2 c4 | "D"d4 :: dc | "Bm"B2 BA Bc \
+| B2 Bc de | "(F#)"f6 | "Bm"B2 BA Bc | B2 Bc de | "(F#)"f6 |
+| "Em"g2 f2 e2 | "D"f2 e2 d2 | "A"e6 | "Bm"f2 B3 c \
+| "G"d2 c2 B2 | "D"A2 d2 f2 | "A7"g2 f2 e2 | "D"f6 \
+| "A7"e3 f e2 | "D"d6- | d4 :|
+S:https://www.folktunefinder.com/tunes/9348
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals06.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

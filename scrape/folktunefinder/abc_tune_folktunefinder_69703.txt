@@ -1,0 +1,25 @@
+X:143
+T: O SEHET DOCH WIE FEIN UND HOLD
+N: F0269
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, religioes
+M: 6/8
+L: 1/16
+K: D
+A2 | d4d2A4A2 | F4G2A4
+F2 | B4A2A2G2F2 | F6E4
+A2 | d4d2A4A2 | F4G2A4
+A2 | A2^G2G2d2B2=G2 | B6A4
+A2 | B4F2E4F2 | G4A2G4
+E2 | c3Bc2d4F2 | E4A2D4
+S:https://www.folktunefinder.com/tunes/69703
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

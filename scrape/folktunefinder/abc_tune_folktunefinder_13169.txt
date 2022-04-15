@@ -1,0 +1,28 @@
+X:10
+T:Dom Oiche Ud I mBeithil
+R:air
+Z:John Walsh Dec 99
+S:John Walsh <walsh@math.ubc.ca> irtrad-l 2001-12-7
+M:3/4
+Q:3/4=45
+K:D
+F2|B4 d2|c4 BA|B6-|B2 z2 Bc|d3e f2|c4 B2|A6-|A2 z2 F2|
+B4 d2|c4 BA|B6-|B2 z2 c2|d3 ef2|c4 B2|B6-|B2 z2 f2|
+a4 f2|e4 fa|b6-|b2 z2 b2|a4 fe|d4 e2|f6-|f2 z2 F2|
+B4 d2|c4 BA|B6-|B2 z2 Bc|d3 ef2|c4 B2|B6-|B2 z2 ||
+S:https://www.folktunefinder.com/tunes/13169
+S:http://trillian.mit.edu/~jc/music/abc/air/DomOicheUdIMbeithil_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DomOicheUdIMbeithil_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/DomOicheUdIMbeithil_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/xmas/DomOicheUdIMbeithil_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DomOicheUdIMbeithil_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

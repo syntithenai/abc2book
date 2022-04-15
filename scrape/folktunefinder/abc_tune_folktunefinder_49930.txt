@@ -1,0 +1,29 @@
+X:18482
+T:Waltz. CJF.195
+M:3/8
+L:1/8
+Q:45
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:P J Headford 2000
+K:G
+"p"(B/c/)|d2d|d(gf)|{f}e2e|.e(c'b)|{b}a2a|.a(d'f)|\
+(ag).g|g2:||:!B|(e^d).d|(fe).e|(gf).f|(ag).g|
+.e.f.g|d2B|(dc).A|G2h:||:!d|.g.f.g|.b.a.^g|.a.b.c'|\
+(e'd').b|.g.a.b|.a.b.c'|.d'(df)|g2:||:!"f"d|(a^ga)|
+(^ab).g|(ac').f|.g.b.d'|.a.b.c'|"p"(^c'd').b|"D Capo"(d'c').a|g2:||
+S:https://www.folktunefinder.com/tunes/49930
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: Tobin's Favorite
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+| "D"DFA dcd | "A7"ecA cde | "D"~fdf "G"~gdg | "A7"ecA    GFE \
+| "D"DFA dcd | "A7"ecA cde | "D" faf "A7"gec |     edc "D"d3 :|
+|:"D"dfa agf | "A7"efg efg | "D" fef "G" gfg | "A7"ecA    GFE \
+| "D"DFA dcd | "A7"ecA cde | "D" faf "A7"gec |     edc "D"d3 :|
+S:https://www.folktunefinder.com/tunes/15173
+S:http://trillian.mit.edu/~jc/music/abc/jig/TobinsFav2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TobinsFavourite2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TobinsFav2.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/TobinsFavourite.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/TobinsFavourite2_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

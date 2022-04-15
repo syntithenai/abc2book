@@ -1,0 +1,19 @@
+X: 1
+T: Ain't She Sweet [G]
+C: M.Ager [1927]
+M: C|
+L: 1/8
+K: G
+|: "G"e4 "B"^d4 | "D7"=d4 ze2d | "G"e2e2 "B"^d2d2 | "D7"=d4 ze2d | "G"g2g2 "B7"f2f2 |
+| "E7"e2ee- edc2 | "A7"B4 "D7"A4 |1 "G"G4 "D7"z4 :|2 "G"G2g2 "G7"g2g2 |[| "C7"g8- | g2g2 g2g2 | "G"g4 d4- |
+| "G"d2g2 "G7"g2g2 | "C7"g8- | "C7"g2g2 g2g2 | "G"g4 d4- | "D7"d4 z4 |[| "G"e4 "B"^d4 | "D7"=d4 ze2d |
+| "G"e2e2 "B"^d2d2 | "D7"=d4 ze2d | "G"g2g2 "B7"f2f2 | "E7"e2ee- edc2 | "A7"B4 "D7"A4 | "G"G4 z4 |]
+S:https://www.folktunefinder.com/tunes/18566
+S:http://trillian.mit.edu/~jc/music/abc/song/AintSheSweet_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/AintSheSweet_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

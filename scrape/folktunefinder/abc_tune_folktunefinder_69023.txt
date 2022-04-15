@@ -1,0 +1,27 @@
+X:164
+T: GESTERN ABEND WAR VETTER MICHEL HIER
+N: Z0163
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/8
+K: F
+FG | A2F2F2GA | B2G2G2
+cB | A2F2F2EF | GFEDC2
+FG | A2F2F2GA | B2G2G2
+cc | cBAGF2AG | F2F2F2
+AB | c2c2c2_e2 | d2B2B2
+Bc | d2d2d2f2 | e2c2c2
+FG | A2F2F2GA | B2G2G2
+cc | A2A2GFGA | F2F2F2
+S:https://www.folktunefinder.com/tunes/69023
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

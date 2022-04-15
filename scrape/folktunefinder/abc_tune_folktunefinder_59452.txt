@@ -1,0 +1,45 @@
+X:565
+T:Nun quiero que me quieran (CT 194)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+N:Dice que la aprendi en Cangas d'Ons.
+A:Asturies
+O:Cangas d'Ons
+Z:Cancioneru de Torner 194
+M:2/4
+L:1/8
+Q:1/4=132
+K:G
+Bc
+|d2 cd|(c3/2B/4A/4) B2|dd cd|(c3/2B/4A/4) Bc|
+d2 cd|(c3/2B/4A/4) B2|cc AB|(A3/2G/4F/4) GA|G2 G2|
+cc AB|(A3/2(3B/4A/4G/4) FG|AA AB|(A3/2B/4A/4) G2|
+cc AB|(AB/4A/4G/4F/4) GA|G2 G2-|G2||
+W:No quiero que me quieran
+W:ni ser querida;
+W:quiero ser de los hombres
+W:aborrecida.
+W:
+W:Estribillu:
+W:
+W:Por el aire,
+W:por el aire
+W:van los supiros
+W:de mi amante,
+W:por el aire van,
+W:por el aire.
+W:
+S:https://www.folktunefinder.com/tunes/59452
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

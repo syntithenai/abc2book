@@ -1,0 +1,39 @@
+X: 27
+T: The Mathematician
+C: J.S.Skinner
+N: Skinner, H&C p.130, SV p.45, Hardie p.97, Hunter 332
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+D: Alasdair  Fraser on Portrait tape
+M: 12/16
+L: 1/16
+K: D
+A2(G \
+| "D"F2)(G ^G2)(A f2)(d A2)(F \
+| "G"G2)A ^A2B g2e B2d \
+| "A7"c2b a2g f2e d2c \
+| "D"dfe dcB "A7"ABA GFE |
+| "D"F2G ^G2A fed cBA \
+| "G"G2A ^A2B gfe dcB \
+| "A7"cba gfe dcB ABc \
+| "D"dAf dAF D3 ||
+a3 \
+| "D"d'2a f2d A2F D2=C \
+| "Em"B,2^D E2G B2e g2b \
+| e'2b g2e B2G E2D \
+| "A7"C2E A2c e2a c'2e' |
+| "D"f'2d' a2f d2A F2D \
+| "G"G2B d2g b2d' g'2b \
+| "D"af'e' d'c'b "A7"aba gfe \
+| "D"dfa d'af d3 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12680
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 12/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

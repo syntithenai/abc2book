@@ -1,0 +1,24 @@
+X:6385
+T:Trip to Oxford
+A:North-West
+M:6/8
+N:P16 2/3
+O:England
+R:Jig
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000057f.html
+%%ID:0000057f
+K:D
+D2G F2D|A,2D F2D|ABA A2d|c2d e3|\
+DED F2D|A,2D F2D|ABA B2c|d3d3:|
+|:ABA c2d|e2f g2e|f2d d2f|ecA A2B|\
+ABA c2d|e2f g2e|faf edc|d3 D3:|
+S:https://www.folktunefinder.com/tunes/37356
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

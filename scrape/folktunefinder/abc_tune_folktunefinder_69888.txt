@@ -1,0 +1,26 @@
+X:328
+T: DIE FAHNEN WEHEN FRISCH AUF ZUR SCHLACHT
+N: F0563
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: G
+d | d2d2d2dd | B2d2G2
+D2 | GDBGd2z
+D | G2d2d2cB | A2A2A2z
+d | B2A2G2z
+B | ABcAB2GG | ABcAd2z
+d | d2BdG2
+DD | G2GBd2d2 | B4z3
+S:https://www.folktunefinder.com/tunes/69888
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

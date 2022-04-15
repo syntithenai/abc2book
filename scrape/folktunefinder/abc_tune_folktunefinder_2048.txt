@@ -1,0 +1,31 @@
+X: 111
+T:25th or 67th Psalms. JMP.111
+T:67th or 25th Psalms. JMP.111
+M:4/4
+L:1/4
+Q:120
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Psalm
+O:Scotland
+A:Perth
+N:. . . .  on whome I trust
+N:I lift my heart and voice
+N:O let me not be put the shame
+N:Nor let my foes rejoic
+H:1799
+Z:vmp.C.  Graebe
+K:G
+A2 ed | c2 B2 | A4 ||e2 gf | e2d2 | e4 ||\
+c2 B A e2 | c2 dc | B4 ||B2 e d | (B>A) | A4 |]
+S:https://www.folktunefinder.com/tunes/2048
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Psalm
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

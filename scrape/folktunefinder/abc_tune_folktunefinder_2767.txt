@@ -1,0 +1,36 @@
+X: 1
+T: Sirun Akhchik
+T: Sweet Girl
+O: Armenia
+D: Folkdance Underground FU-3
+Z: John Chambers <jc@trillian.mit.edu> from Richard Geisler transcription, recording
+M: C|
+L: 1/8
+K: Gdor
+V: 1 nm="C Clar" snm="Clar"
+|:~G,F, A,B, CF, CF, | DC D/C/B, C3 B, |~CB, DB, ~B,A, C_A,/C/ |1 _A,G, B,A,/C/ G,4 :|2  _A,G, B,A, HG,2 EF |]
+"vocal"\
+|: z2 EF k.G2 .G2 | F2 EF ~D4 | ~C2 A,B, CB,- [D2B,2] | k.[F2B,2] B,_A, G,3z :|
+|: z2 {F}A,B, CC3 | DC DB, C3z | CB, DB, B,A, C_A, | kDG, {G,}B,=A, G,4 :|
+| z2 {C}D2 DC DB, | CD/C/ B,A, G,3 F, | A,B, CD B,C A,G, | CB,/C/ B,A, A,G, G,F, | G,8- | G,8y |]
+V: 2 nm="Mand" snm="Mand"
+|: G,F, A,B, CF, CF, | DC D/C/B, CC CC | CB, DB, B,A, C_A,/C/ |1 _A,G, B,A,/C/ G,G, G,G, :|2  _A,G, B,A, HG, G,G,G, |]
+|: .G2 EF GF GE | FE EF D3 D | C2 A,B, DB, C[DB,] | B,_A, A,G, G,3z :|
+|: G,F, A,B, CF, CF, | DC DB, C3 B, | DB, DB, B,A, C_A,/C/ | kDG, B,=A, G,4 :|
+| z2 {C}D2 DC DB, | CD/C/ B,A, G,3 F, | A,B, CD B,C A,G, | CB,/C/ B,A, A,G, G,F, | G,8- | G,8 "D.C."y |]
+V: 3 nm="Bb Clar" snm="BbCl"
+K: Ador
+|:~A,G, B,C DG, DG, | ED E/D/C D3 C |~DC EC ~CB, D_B,/D/ |1 _B,A, CB,/D/ A,4 :|2  _B,A, CB, HA,2 FG |]
+|:.A2 FG AG AF | ~GF FG E3 E | ~D2 B,C DD D[EC] | C_B, ~B,A, A,3z :|
+|: A,G, B,C DG, DG, | ED EC D3 C | DC EC CB, D_B,/D/ | kEA, C=B,/E/ A,4 :|
+| z2 {D}E2 ED EC | DE/D/ CB, A,3 G, | B,C DE CD B,A, | DC/D/ CB, B,A, A,G, | A,8- | A,8 "D.C."y |]
+S:https://www.folktunefinder.com/tunes/2767
+S:http://trillian.mit.edu/~jc/music/abc/Armenia/SirunAkhchik_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SirunAkhchik_Gm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

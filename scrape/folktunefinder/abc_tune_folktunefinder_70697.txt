@@ -1,0 +1,31 @@
+X:567
+T: Der Herr von Falkenstein (265), S. 565
+N: T0455
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: aus dem sling, mitgeteilt: hhh Heinrich Godefroid (Lehrer)
+R: Scherz-, Spiel-, Spottlied]
+M: 4/4
+L: 1/8
+K: G
+D2 | G4A4 | B3BB2
+B2 | A2c2B2A2 | GGGGG2
+A2 | B3AB2c2 | d4d2
+d2 | c2e2d2c2 | BBBBB2
+GG | G2D2D2
+BB | B2G2G2
+dd | d4c4 | B4z4
+G2A2B2G2 | A2B2c2z2
+A2B2c2A2 | B2c2d2
+Bc | d4c4 | B4z2
+S:https://www.folktunefinder.com/tunes/70697
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Scherz-, spiel-, spottlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

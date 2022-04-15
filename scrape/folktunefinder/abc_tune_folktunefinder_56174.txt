@@ -1,0 +1,25 @@
+X:1235
+T:Battering Ram, The
+E:10
+M:6/8
+R:jig
+I:speed 350
+K:D
+B|dBG A2G|dBG G2B|dBG AGE|GED D2 B|\
+ded BAG|ded BAG|AGA BAB|GED D2:|*
+d|deg aga|bge edB|deg aga|bge ega|\
+b2g age|ged ege|dBG ABA|GED D2:|*
+d|B2G A2G|B2D D2B|BAG AGE|GED D2d|\
+B2G A2G|B2G BdB|AGA BAB|GED D2:|**
+S:https://www.folktunefinder.com/tunes/56174
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

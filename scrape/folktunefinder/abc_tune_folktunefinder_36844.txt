@@ -1,0 +1,31 @@
+X:3825
+T:Mylecharaine's March
+M:3/4
+O:Isle of Man
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000723.html
+%%ID:00000723
+K:D
+d>c |\
+d2 A2 d>c | d2 A>F d>c | \
+d2 A>G F>D | E2 D2 e>f |\
+g2 f2 e2 | d2c2 d2 | e3f e>d | e3 d c>d |
+e2 a2 g2 | f2 e2 d>c | d2 A>G F>D | E4 F>G |\
+A2 G>F E>D | E2 d2 c2 | (d6 | d6)||
+|: (3ABc |\
+d>c d>e f>d | ed ef ge| \
+d>c d>e f>d | e2 A2 c>d|
+e2 a2 g2 | f2 e2 d>c | d2 A>G F>D| E4 F>G |\
+A2 G>F E>D | E2 d2 c2 | (d6 | d4) :|
+S:https://www.folktunefinder.com/tunes/36844
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

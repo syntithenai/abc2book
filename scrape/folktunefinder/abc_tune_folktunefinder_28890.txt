@@ -1,0 +1,38 @@
+X:2610
+T:Captain C.R. Lumsden
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:6/8
+L:1/8
+Q:3/8=86
+K:Hp
+     e|  {g}A2{GdGe}A {gcd}c{e}B{d}c |  {g}A{d}ce       {ag}a2e     |\
+         {g}f<af      {gef}eca       |{dcd}cB{G}A      {gBd}B2e     |
+         {g}A2{GdGe}A {gcd}c{e}B{d}c |  {g}A{d}ce       {ag}a2e     |\
+       {gfg}fec         {g}B<{d}G{d}B|  {g}A2{GdGe}A {gAGAG}A2     :|
+     e|  {g}f<ae        {g}f<ac      |{gBd}B{e}A{d}B   {gcd}c2e     |\
+         {g}fga        {fg}fec       |{gef}ec{G}A      {gBd}B2e     |
+         {g}f<ae        {g}f<ac      |{gBd}B{e}A{d}B   {gcd}c2e     |\
+       {gfg}fec         {g}B<{d}G{d}B|  {g}A2{GdGe}A {gAGAG}A2     :|
+     e|  {g}A2{GdGe}A   {g}A2{GdGe}A |{gcd}c{g}B{d}A     {g}B{d}ce  |\
+         {g}f2{GdG}f  {gef}eca       |{dcd}cB{G}A      {gBd}B2e     |
+         {g}A2{GdGe}A   {g}A2{GdGe}A |{gcd}c{g}B{d}A     {g}B{d}ce  |\
+       {gfg}fec         {g}B<{d}G{d}B|  {g}A2{GdGe}A {gAGAG}A2     :|
+{Gdc}d|  {g}c<ea           d<fa      |{dcd}cBc           {G}A{d}ce  |\
+        {ag}agf       {gef}e2c       |{gef}ec{G}A      {gBd}B2{Gdc}d|
+         {g}c<ea           d<fa      |{dcd}cBc           {G}A{d}ce  |\
+       {gfg}fec         {g}B<{d}G{d}B|  {g}A2{GdGe}A {gAGAG}A2     :|
+S:https://www.folktunefinder.com/tunes/28890
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

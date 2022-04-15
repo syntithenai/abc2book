@@ -1,0 +1,32 @@
+X:8
+T: Komm heraus, du traurige Braut, S. 32
+N: S0071
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: Hochzeitslied]
+M: 2/4
+L: 1/16
+K: F
+F2A2 | c4c2d2 | c4c4 | c2B2B2A2 | B4
+c2B2 | A4F4 | G4B2B2 | A4F4 | G4F2
+A2 | c4c4 | d4c4 | c2B2B2A2 | B4
+c2B2 | A4A4 | G4G4 | F4z4 | z4
+F4 | B4c2B2 | A4F4 | G2F2G2A2 | G4
+AA=B2 | c4c4 | d4c4 | c2=B2A2B2 | c4
+A2c2 | d4d4 | d4e2d2 | c2B2A2B2 | c4
+A4 | G6F2 | E4G4 | F4z4 | z4
+A4 | c8 | z4f4 | c8 | z4
+B4 | A2G2A2B2 | c4B2B2 | A4
+S:https://www.folktunefinder.com/tunes/70138
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Hochzeitslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

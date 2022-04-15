@@ -1,0 +1,27 @@
+X: 1
+T: the Munsters theme song
+C: Jack Marshall
+R: march
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Helen Powell leap:mindspring.com, plus a youtube video
+M: C|
+L: 1/8
+K: Em
+[| "Em"E2G2 ^ABe2 | "Am"cBA2- A2BA | "Em"G2AG  "D"FED2 | "Em"E4 z4 \
+|| "Em"E2G2 ^ABe2 | "Am"cBA2- A2GA | "B7"B2B,2 B,^C^D2 | "Em"E4 z2"D7"D2 |]
+[| "D7"{^c}d2d2 d2=c2 | BcAB "G"G4 |  "A"A2A2 "A7"a3g  |  "D"fgef "B7"^d4 \
+|| "Em"E2G2 ^ABe2 | "Am"cBA2- A2BA | "Em"GzE2 "B7"z2Bz | "Em"e4 z4 |]
+S:https://www.folktunefinder.com/tunes/15608
+S:http://trillian.mit.edu/~jc/music/abc/march/MunstersThemeSong_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MunstersThemeSong_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MunstersThemeSong_Em.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

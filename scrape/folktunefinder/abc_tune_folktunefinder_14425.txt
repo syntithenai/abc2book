@@ -1,0 +1,32 @@
+X: 1
+T: Jock McLeod's Wedding March
+C: Alexander C. McColl 1947
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 6/8
+L: 1/8
+K: D
+a \
+| "D"f>ef d3 | "A7"e>de c3 | "D"f>ef "Bm"d>ef | "Em"g>fg "A7"e>fg \
+| "D"f>ef d3 | "A7"e>de c2g | "D"f>ed "A7"A>ce | "D"d3 d2 :|
+|: fg \
+| "D"a2a "D7"a>fd | "G"B<GB d>BA | "D"a2a "Bm"d>ef | "Em"g>fg "A7"e>fg \
+| "D"a2a "D7"a>fd | "G"B<GB d>BA | "D"f>ed "A7"A>ce | "D"d3 d2 :|
+|: f \
+| "D"A>AA A3 | f>ef d>ef | "A7"a>eg "D"f>dd | "Em"g>fg "A7"e>dB \
+| "D"A>AA "D7"A3 | "G"B<GB d>BA | "D"f>ed "A7"A>ce | "D"d3 d2 :|
+|: g \
+| "D"f>dd a>dd | "A7"g>cc c>eg | "D"f>dd "Bm"a>dd | | "Em"g>fg "A7"e>fg \
+| "D"f>dd a>dd | "A7"g>cc c>ea | "D"f>ed "A7"A>ce | "D"d3 d2 :|
+S:https://www.folktunefinder.com/tunes/14425
+S:http://trillian.mit.edu/~jc/music/abc/jig/JockMcLeodsWeddingMarch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JockMcLeodsWeddingMarch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JockMcLeodsWeddingMarch_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:4292
+T:Dornkop
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:6/8
+L:1/8
+Q:3/8=88
+K:Hp
+    A|{Gdc}ded        {gdc}def     |     af{g}d   {gBd}B2g         |\
+      {afg}fed        {gde}dcd     |{gef}ec{G}A {gAGAG}ABc         |
+      {Gdc}ded        {gdc}def     |     af{g}d   {gBd}B2{gf}g     |\
+      {afg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}d2         :|
+{gf}g|     af{g}d     {gdc}def     | {gf}ged        {g}c2{GdG}e    |\
+        {g}fed        {gdc}def     |{gef}ec{G}A {gAGAG}A2  [1 {gf}g|
+           af{g}d     {gdc}def     | {gf}ged        {g}c2{GdG}e    |\
+      {afg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}d2:|[2  {d}c|
+      {gde}dcB          {g}c2{GdG}e|{gfg}fed        {g}efg         |\
+      {afg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}c2         ||
+    A|  {g}d<Af         {g}faf     |{gef}edc      {Gdc}d2e         |\
+      {gfg}f2d        {gdc}dfd     |{gef}ec{G}A     {g}ABc         |
+        {g}d<Af         {g}faf     |{gef}edc      {Gdc}d2e         |\
+      {gfg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}d2         :|
+{gf}g|     af{g}d      {ag}ag{a}f  |  {g}efg      {afg}f2e         |\
+      {Gdc}ded          {g}Bcd     |{gef}ec{G}A {gAGAG}A2  [1 {gf}g|
+           af{g}d      {ag}ag{a}f  |  {g}efg      {afg}f2e         |\
+      {afg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}d2:|[2  {d}c|
+        {g}B<{d}G{d}B {gde}dcB     |  {g}c<{d}A{d}c {g}efg         |\
+      {afg}fed        {gef}ec{G}A  |{Gdc}d3       {gdc}d2         :|
+S:https://www.folktunefinder.com/tunes/60481
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

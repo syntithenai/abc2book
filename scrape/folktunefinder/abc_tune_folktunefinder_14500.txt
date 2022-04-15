@@ -1,0 +1,27 @@
+X: 1
+T: LADY NELLIE WEMYSS
+O: Kerr's 2nd
+R: jig
+N: "Scotch Jig"
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd (c.1880) p.211 #317
+M: 6/8
+L: 1/8
+K: A
+   B \
+| c2e ega | cAc e2d | cde ef=g | B=GB d2B \
+| c2e efg | agf edc | dfd cac  | B=GB d2 :|
+|: B \
+| acA ecA | acA efg | acA ecA  | B=GB d2B \
+| acA ecA | agf edc | dfd cac  | B=GB d2 :|
+S:https://www.folktunefinder.com/tunes/14500
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyNellieWemyss_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyNellieWemyss_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

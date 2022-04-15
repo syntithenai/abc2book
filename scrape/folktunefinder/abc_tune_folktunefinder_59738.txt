@@ -1,0 +1,33 @@
+X:851
+T:Xiraldilla (CT 314)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 314
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+g
+|(ge)g|fdf|e c2-|c2 f|(fd)f|ece|d B2-|B2 z|
+BBB|Bcd|(e2 c)|A2 G|F2 A|ddc|B G2-|G z||
+W:Qu chaquetilla tan curra,
+W:qu bonito tiene el corte;
+W:dime, galn de esta villa,
+W:dnde pasaste la noche.
+W:
+S:https://www.folktunefinder.com/tunes/59738
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

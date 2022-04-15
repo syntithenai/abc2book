@@ -1,0 +1,21 @@
+X:214
+T:Russian Two Step
+M:2/4
+K:Dm
+P:A
+"Dm"A2d4d2| "A"^c3BA4|A2e4e2|"Dm" fgfed4| A2d4d2|"A"^c3B A4|a2g2 f2e2|"Dm"d4d4|
+"D7"d2a4a2|"Gm"b3ag4|"C"g2c'4g2|"Dm"a3gf4|d2f4f2|"A"g3fe4|a2g2 f2e2|"Dm"d4d4|]
+P:B
+K:D
+"A".e4"G".g4|"D".f4z2f2|"A"a2g2e4|"D"g2f2d4|"A".e4"G".g4|"D".f4z2f2|"A"a2g2 f2e2|"D"d4d4|
+"G"g2b4g2|"D"f2a4f2|"A"e2g4e2|"D"fefga4|"G"g2b4g2|"D"f2a4f2|"A"a3g f2e2|"D"d4d4|]
+S:https://www.folktunefinder.com/tunes/55817
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

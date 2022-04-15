@@ -1,0 +1,55 @@
+X:203
+T:Cantar de Trabayu (CT 483)
+R:Trabayu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Grau.
+N:Suelen aplicarlo las mujeres como acompaamiento de aquellas labores que se ejecutan con movimientos equivalentes a la medida meldica.
+A:Asturies
+O:Grau
+Z:Cancioneru de Torner 483
+M:2/4
+L:1/8
+Q:1/4=112
+K:G
+|GG AB|c2 c2|cc BA|B2 B2|BB AG|A2 A2|AA GF|G2 G2|
+G2 GG|G2 AB|c4|c2 cd|c2 BA|B2 A2|B2 Bc|B2 AG|G2 z2|
+G2 GG|G2 AB|(c2 B2)|A4|B2 Bc|B2 AG|A4|G2 z2|
+|: =FE DE|=F2 F2|G=F EF|G2 G2|=FE DE|=F2 F2|G=F EF|G2 G2 :|
+=FE DE|=F2 FF|G=F EF|G2 GG|cB AB|cB (AB)|c2 BA|G2 G2-|G2 z2|
+W:Por salir de dudas,
+W:yo me fui a la iglesia
+W:ya all me he encontrado
+W:con mi suegra muerta.
+W:Le dije al enterrador:
+W:entirreme ust esta dama,
+W:que yo le dar un dobln;
+W:hgale el pozo bien hondo
+W:y clquele bien de arena.
+W:El as lo hizo 
+W:y ella se saliera;
+W:ella era una bruja,
+W:era una hechicera.
+W:Esas malas maas
+W:ya las tena ella,
+W:de salir de noche
+W:y arrodiar la Espaa
+W:de Madrid a Cdiz,
+W:de Cdiz a La Habana,
+W:y siempre amaneca
+W:conmigo en la cama.
+W:
+S:https://www.folktunefinder.com/tunes/59090
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Trabayu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

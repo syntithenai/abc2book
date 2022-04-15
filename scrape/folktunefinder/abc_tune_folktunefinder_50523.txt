@@ -1,0 +1,28 @@
+X: 15
+T:Loch Lomond
+M:2/4
+L:1/8
+Q:240
+R:March
+K:G
+D|"G"G2GA|"Em"B2BG|"C"A2AG|"D"E2DE|
+"G"G2G2|"Em"G2Bd|"C"e4|"D"d3d|
+"Em"e2ed|"G"B2Bd|"C"cBAG|"D"E2DE|
+"G"G2Bd|"C"e2dB|"D"A4|"G"G3|
+T:Chorus (not used for dance) :
+D|"G"G2G>A|"Em"B2B>A|"C"G2G>E|"D"D2D>D|
+"G"G2G>G|"Em"G2B>d|"C"e4|"D"d3d|
+"Em"e2e>d|"G"B2B>d|"C"cBAG|"D"E2D>D|
+"G"G2B>d|"C"e2d>B|"D"A4|"G"G3|
+S:https://www.folktunefinder.com/tunes/50523
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Cigan\vcica
+O: Croatia
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"[A2c2][ce][ce]  [c2e2][c2e2] | "B"[ce][B^d][B2d2]   [B2d2][B2d2] \
+|  "Am"[B^d][ce][A2c2] [A2c2][A2c2] | "E7"[Ac][B=d][^G2B2] [G4B4]       :|
+|: "Am"[c2e2][Ac][Ac]  [A2c2][A2c2] | "E"[Ac][Bd][^G2B2]   [G2B2][G2B2] \
+|  "Am"[Ac][^FA][F2A2] [F2A2][F2A2] | "E7"[^G4B4]          [G4B4]       :|
+S:https://www.folktunefinder.com/tunes/252
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/Cigancica_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Cigancica_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/Cigancica_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

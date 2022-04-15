@@ -1,0 +1,28 @@
+X: 1
+T: Miss Elizabeth Ferguson's Favourite
+R: jig
+B: RSCDS 23-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2c "D"f2d | "A"e2c A2g | a2e c2A | "E7"GBB B2c/d/ \
+| "A"e2c "D"f2d | "E7"g2e "F#m"a2f | "A"eac "E7"BGE | "A"A3 A2 :|
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2B \
+| "A"AGF EDC | "E7"EAG "A"A2E | "D"FBA "E7"GFE | "A"A3 A2 |]
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2d \
+| "A"ecf "Bm"dBf | "E7"eag "A"acA | "D"Fdf "E7"eEG | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14661
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissElizabethFergusonsFavouriteJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissElizabethFergusonsFavouriteJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissElizabethFergusonsFavouriteJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

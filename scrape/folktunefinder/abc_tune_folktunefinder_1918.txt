@@ -1,0 +1,27 @@
+X: 96
+T: Lad O'Beirne
+C: J-37
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+"D"d2F AGF| d2F AGF| "A"A,CE GFE| A,CE GFE|
+"D"DFA "G"G2B| "A"Adc "D"d2e| fed cBA| "A"GFE "D" D3:|
+|:\
+"D"f=f^f a^ga| f2d de=f| "C"e=ce gfg| "A"e2^c cde|
+"D"f=f^f "G"gfg| "D"agf "A"efg| "D"fed cBA| "A"GFE "D" D3:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/1918
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

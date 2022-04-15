@@ -1,0 +1,35 @@
+X:18
+T:Tourdion
+R:
+S:
+N: - p. 48
+N: publi par Pierre Attaignant
+B:Deutsch-Franzsisches Liederbuch
+O:
+A:
+Z:<anamnese@laposte.net>
+M:3/2
+L:1/4
+Q:1/4=130
+K:D
+V:1
+EFGAGF | E3 FGA | BAG GAF | (G2FE)D2 | EFGAGF | E2G2F2 | E4 D2 | E6 :|
+: B3 ABc | B4 B2 | dcBAGF | (G3F) E2 | B3 ABc | B2A GF2 | E4 D2 | E6 :]
+V:2
+B,4 B,2 | E4 E2 | D2-D2 E2 | E2 A4 | G4 E2 | B,A,B,CD2 | B,2 B,4 | B,6 :|
+G4 G2 | G4 G2 | F4 F2 | E4 E2 | D4 D2 | D4 D2 | B,2 B,4 | B,4 B,2 :]
+V:3
+K:D bass
+G4 E2 | B4 B2 | B2-B2 =c2 |
+S:https://www.folktunefinder.com/tunes/39939
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

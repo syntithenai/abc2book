@@ -1,0 +1,22 @@
+X: 43
+T:John Ryan's
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:G
+e/2f/2|"G"gg "Em"e/2f/2(3g/2f/2e/2|"G"dB dB|"G"gg "Em"e/2f/2(3g/2f/2e/2|
+"G"dB "D7"AG|"G"gg "Em"e/2f/2(3g/2f/2e/2|"G"dB "D7"dg/2a/2|"G"bg "D7"af|"G"g3\
+S:https://www.folktunefinder.com/tunes/44037
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsH-L.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

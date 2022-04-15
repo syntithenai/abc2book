@@ -1,0 +1,29 @@
+X:294
+T: SO WILL ICH FRISCH UND FROEHLICH SEYN
+N: Z0292
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze
+M: 3/8
+L: 1/8
+K: G
+G | BGB | dBd | gfe | d2
+c | B2A | G2B | A3 | D2
+G | BGB | dBd | gfe | d2
+c | B2A | G2B | A3 | D2
+D | dcB | Bcd | c2c | c2
+B | c2B | c2B | A2G | d3 | D2
+d | dcB | Bcd | c2c | c2
+c | cBA | ABc | B2B | B2
+d | c2B | A2G | A3 | G2
+S:https://www.folktunefinder.com/tunes/69153
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

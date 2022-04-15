@@ -1,0 +1,28 @@
+X:44
+T:Champ1
+M:4/4
+L:1/8
+Q:1/4=65
+K:Bb % 2 flats
+% Last note suggests Dorian mode tune
+% Time signature=4/4  MIDI-clocks/click=24  32nd-notes/24-MIDI-clocks=8
+% MIDI Key signature, sharp/flats=0  minor=0
+V:1
+%%MIDI program 4 19
+G,B, F,G, F,/2z/2F,/2z/2 B,,3/2z/2|B,,/2z/2B,, G,,B,, F,B,, F,B,,|G,B, F,G, F,/2z/2F,/2z/2 B,,3/2z/2|B,,/2z/2B,, G,,B,, F,B,, F,B,,|
+G,3/2z/2 G,/2z/2G, C,G, F,2|F,/2z/2F,/2z/2 G,3/2z/2 G,/2z/2G, D,G,,/2
+V:2
+%%MIDI program 3 18
+Gd cB BA B3/2z/2|B/2c/2d cB cd cB|Gd cB BA B3/2z/2|B/2c/2d cB cd cB|
+B2 B3/2A/2 G/2A/2B/2G/2 A2|c/2z/2c B>A G/2A/2B/2G/2 AG/2
+%%MIDI program 2 17
+% input file tmp/midi.mid
+% format 1 file 5 tracks
+S:https://www.folktunefinder.com/tunes/45848
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

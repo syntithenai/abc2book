@@ -1,0 +1,28 @@
+X: 7678
+T:Polska fr Lima
+A:Lima, V\"asterdalarna
+R:Polska
+M:3/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+Z:photocopies from Suzanne Lind \& Louise Schultz
+K:Dm
+b>(a c'g | a2 ({a=b}a^g) e>f\
+|1 g2 (3{ga}gfg a>(e | (3:2:4f)(de2)^c2 A2 :|2 \
+g2 (3{ga}gfg a>f | (e<^c) d4 |:
+(3:2:3 A2(d2^c2) d>e | (3:2:3f2(f2d2) e>f \
+|1 g2 (3{ga}gfg a>(e |(3:2:4f)(de2)^c2 A2 :|2 \
+g2 (3{ga}gfg a>f | (e<^c) d4 :|
+S:https://www.folktunefinder.com/tunes/34895
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

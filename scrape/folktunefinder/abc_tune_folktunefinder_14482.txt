@@ -1,0 +1,26 @@
+X: 1
+T: Kiss Me Quick
+O: Trad
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Originally in march time
+M: 6/8
+L: 1/8
+K: DMix
+|: Bc \
+| "D"d3 "(A7)"A2G | "D"F2D AGF | "C"E2c E2c |    E2C "(A7)"GFE \
+| "D"d3 "(A7)"A2G | "D"F2E D2F | "C"GFE C2E | "D"D2D       D :|
+|: ag \
+| "D"f2e    d2a |    f2d    faf |  "C"e2d  c2g |    e2c ege \
+| "D"f2d "C"g2e | "D"a2f "C"g2e | "A7"gfe ^c2e | "D"d2d d :|
+S:https://www.folktunefinder.com/tunes/14482
+S:http://trillian.mit.edu/~jc/music/abc/jig/KissMeQuickJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KissMeQuickJ_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

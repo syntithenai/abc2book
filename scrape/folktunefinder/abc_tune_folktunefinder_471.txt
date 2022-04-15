@@ -1,0 +1,27 @@
+X:12
+T:L'enlvement
+R:---
+T:Complainte populaire
+A:Provence
+O:France
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Gm
+V:1
+GG|dd dd |dd ga|f2 e2|d2 dd|dd dd|
+BA Bc|d2 cB|A2 GA|B3 c|dd/e/ d/d/f/d/|B2 A2|G4|]
+V:2
+GG|BB dB|GB Bc|A2 c2|B2 dB|GB dB|
+Gc BA|G2 AB|c2 BA|G3A|BG BA|G2 F2|G4|]
+%%footer $D   Galouvielle-MBe 2008 \n--- (France)
+S:https://www.folktunefinder.com/tunes/471
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm ---
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:250
+T: WAS IST DES DEUTSCHEN VATERLAND
+N: F0433
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch
+M: 4/4
+L: 1/16
+K: D
+A,4 | D6B,2A,2B,2A,2G,2 | G,4F,4z4
+D4 | D3B,B,4z4D4 | D3A,A,4z4
+D4 | C6C2D6D2 | E3CA,4z4
+A,4 | D6D2E6E2 | F3ED4z4
+A,4 | F6E2G2F2E2D2 | D4B,4z2
+B,2D2B,2 | A,6D2F2E2D2C2 | D4z8
+A,4 | F6E2G2F2E2D2 | D4B,4z2
+B,2D2B,2 | A,6D2F2E2D2C2 | D4z8
+S:https://www.folktunefinder.com/tunes/69810
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Bessaraber Khusidl [Cm]
+M: 2/4
+L: 1/16
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, with [Composer] as the composer ;-)
+K: Cm
+|: "Cm"cece cece | "G7"e2 d4 d2 \
+| d2f2 fagf | "Cm"fg c6 \
+| "Fm"fafa fafa | "Cm"a2 g4 fe |
+| "G7"d2a2 gfed |1 "Cm"df e4 d2 \
+:|2 "Cm"f2 e4 fe | "G7"d2a2 gfed | "Cm"c8 \
+|: "Cm"cdec G4 | efed c4 |
+| "G"=Bcde "(Fm)"dcBA | "G"AG G4 G2 \
+| "Eb"e2g2 b2g2 | "Fm"f2f4 _g2 \
+| "G"_gffe eddc | "Cm"de c4 c2 :|
+|: "Eb"g6 fe | fg e4 e2 \
+| gaga g2fe | fg e4 e2 \
+| "Fm"f_gfg fede | f6 _g2 \
+| "G"_gffe eddc | "Cm"de c6 :|
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7153
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Khos_Bessaraber.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

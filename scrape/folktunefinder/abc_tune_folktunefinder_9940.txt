@@ -1,0 +1,24 @@
+X: 1
+P: John, Come Kiss Me Now
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: The first phrase is the song tune; various second parts are added.
+M: C|
+L: 1/8
+K: G
+|: D2 \
+| "G"G3A  B2AG | "C"c2E2 c2BA |  "G"G3A      BABc | "D7"d2D2 d4   \
+| "G"G3A  B2AG | "C"cBcd e2dc |  "G"BcdB "D7"A3F  |  "G"G4   z2  :|
+|: Bc \
+| "G"d4   g2f2 | "C"e6 "D7"f2 |  "G"g2Bc     d2e2 | "D7"f2g2 g2f2 \
+| "G"g2dc B2B2 | "C"c2E2 eBAG | "D7"A2B2     A3F  |  "G"G4   z2  :|
+S:https://www.folktunefinder.com/tunes/9940
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BackOfBennachie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

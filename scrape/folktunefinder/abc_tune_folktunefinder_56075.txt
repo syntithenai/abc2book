@@ -1,0 +1,23 @@
+X:1136
+T:Bank's Dance for "As you like it"
+M:6/8
+Z:I have interpolated the rest at the start of the 3rd part to make the bar lengths come out right.
+K:G
+B/c/|\
+dBG G2g| e2d d2c/B/| cec dBG| FAA A2B/c/|\
+dBG G2g| e2d d2e/f/| gbg afd| g3 g2::
+g|\
+g2f efg| dec B2c| dBg dBG| FAA A2f|\
+g2f efg| dec B2c|dBg dBG| A3 G2::
+z|\
+BGd d2g| BGd d2g| fdf g2b| afd d2c|\
+BGd d2g| BGd d2g| efg A2d| BGG G2:|
+S:https://www.folktunefinder.com/tunes/56075
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

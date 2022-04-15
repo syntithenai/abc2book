@@ -1,0 +1,26 @@
+X:54
+T: 's Geigenbuebele
+N: D0058
+O: Europa, Mitteleuropa, Lothringen, Hambach
+N: haeufige Wiederholung eines rhythmischen Motivs; Verzierung;
+N: Inzipit = Variante zum Lied
+R: Ballade, magisch, mythisch
+M: 3/4
+L: 1/8
+K: G
+D2 | G3FG2 | A4d2 | B3AB2 | G4
+G2 | A3Bc2 | d3cB2 | G3AB2 | A4
+A2 | d3ed2 | dcB2A2 | G3DGB | A3B
+G2 | A3Bc2 | d3cB2 | A4d2 | G4
+S:https://www.folktunefinder.com/tunes/72511
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, magisch, mythisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

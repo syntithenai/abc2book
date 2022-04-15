@@ -1,0 +1,28 @@
+X: 1
+T: Mama
+O: Italy
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+FG \
+| "Dm"A2A2 A3F | "Gm"G6 EF | G2G2 "A7"F3E | "Dm"D6 ^CD \
+| "Gm"E2E2 E2FG | "Dm"F6 F2 | "E7"E2E2 F3E | "Em"E4- "A7"E4 || [K:D]
+|: "D"F4 D4- | DA,B,C DEFG | "D#dim"A3F "A7"A2E2- | E8 \
+| "A7"z2E2 C4- | CA,B,C "Em"DE"A7"FG | "D"B3A "Em"(3GAGF2- | "D"F8 |
+| "D"zAAA B3A | (F/A/F/E/ D6) | "Am"zAAA "B7"BA2G | "Em"F2 E6 \
+| "Gm"GG2G G2A_B | "Dm"A=FA2- A3z | "Gm"G2(3GGG G_B2d | "A7"c4- cd"Em"d2 |
+| "G"d4 "Gmaj7"B4- | "G"BGAB cdcB | "D"dc2B A4- | "Dmaj7"A4- "D7"A2z2 \
+| "G"B4 G2B2 | "D"AGF2- "D7"FDEF | "Em"GAGF "A7"AG2E | "D"D6 z2 :|
+S:https://www.folktunefinder.com/tunes/18853
+S:http://trillian.mit.edu/~jc/music/abc/song/Mama_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/song/Mama_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

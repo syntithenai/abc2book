@@ -1,0 +1,27 @@
+X: 1
+T: Felicia Waltz (F/Bb)
+C: Allen Zagel
+N: From a MIDI file at angelfire.com.
+M: 3/4
+L: 1/8
+K: F
+ cd | \
+ "F"c4C2 | A4cd | c4A2 | "Bb"B4c2 | "C7"e4 d2 | c4  B2 | d4c2 | "F"A4cd |
+ "F"c4C2 | A4cd | c4A4 | "Bb"B4c2 | "C7"e2e3d | ccc2B2 |1 "F"A6- | A3z :|2 A3ff2 | f4 :|
+K: Bb
+|: F2 |\
+   "Bb"B2A3B | F2G2F2 | "F7"E2F2A2 | F6 | E2F2A2 | G2F2E2 |  "Bb"D2F2B2 | F4F2  |
+   "Bb"B2A3B | F2G2F2 | "F7"E2F2A2 | F6 | E2F2A2 | G2F3 E |1 "Bb"D2F2d2 | B4F2 :|2 "Bb"D3DD2 | "d.C."D6 |]
+S:https://www.folktunefinder.com/tunes/19912
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Felicia_Waltz_FBb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/Felicia_Waltz_FBb.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/waltz/Felicia_Waltz_FBb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

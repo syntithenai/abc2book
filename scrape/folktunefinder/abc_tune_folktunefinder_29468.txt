@@ -1,0 +1,21 @@
+X:3188
+T:Coleraine
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:Am
+E|"Am"EAA ABc|"E7"Bee e2d|"Am"cBA ABc|"E7"B^GE E2E|
+"Am"EAA ABc|"E7"Bee e2d|"Am"cBA "E7"B^GE|"Am"A3 -A2::
+B|"C"c2c cdc|"G"Bdg g2^g|"Am"aed cBA|"E7"^GBG E^FG|
+"Am"A^GA "E7"BAB|"Am"cde "Dm"fed|"Am"cBA "E7"EA^G|"Am"A3 -A2:|
+S:https://www.folktunefinder.com/tunes/29468
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

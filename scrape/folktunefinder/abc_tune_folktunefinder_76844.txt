@@ -1,0 +1,33 @@
+X:359
+T: KOMT HIER GIJ PROPER MAEGETJE
+N: E0989
+O: Europa, Mitteleuropa, Niederlande, Flandern
+R: Tanz - Lied, Reigen, Gesellschafts - Spiel
+M: 2/4
+L: 1/16
+K: G
+G2 | G2B2B2d2 | d3dd2
+d2 | e4c4 | d4z2
+d2 | e4c4 | d6
+G2 | G2B2B2d2 | d3dd2
+d2 | e2e2e2d2 | d2B2
+B2d2 | c4A2A2 | B2G2
+B2d2 | c4A4 | G4z2
+B2 | B2d2c2B2 | A4G2
+B2 | B2d2c2B2 | A4G4
+G4B2d4d2 | d4d2d6
+e4d2c4B2 | B4A2G4
+B2 | B2d2c2B2 | A4G2
+B2 | B2d2c2B2 | A4G4
+G4B2d4d2 | d4d2d6
+e4d2c4B2 | B4A2G4
+S:https://www.folktunefinder.com/tunes/76844
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, gesellschafts - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

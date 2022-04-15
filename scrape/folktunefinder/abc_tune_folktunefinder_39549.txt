@@ -1,0 +1,27 @@
+X:153
+T:Tattoo 9-P.M. - Regulation Fife Calls 1776-1856, #7 *
+B:American Veteran Fifer, Regulation Fife Calls 1776-1856, #7
+M:C
+L:1/8
+Q:1/4=90
+K:D
+Td4 -d2 z2|Te4 -e2 z2|Tg4 Te4|T.d4 z4||\
+K:G\
+M:2/4\
+G>B|d>e d2|g2 f2|e2 Hd2|d>e d2|c2 B2|A2 HG2|G>A G z|d>ed2|
+% too few notes in last bar, tune differs rom other sources, changed last note from 1/8 to 1/4
+% Original was as follows:
+%G>B|d>e d2|g2 f2|e2 Hd2|d>e d2|c2 B2|A2 HG2|G>A G z|d>ed|
+S:https://www.folktunefinder.com/tunes/39549
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

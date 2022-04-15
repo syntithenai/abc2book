@@ -1,0 +1,23 @@
+X: 6
+T: Iltalaulu
+T: T\"a\"al yksin\"ani laulelen
+N: "I'm singing here alone"
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+C2 \
+| "C"E2 ED "F"C2 FA | "G7"G3 F "C"E2 G2 \
+| "Am"c2 c2 "D7"d2 c2 | "G"B4 z2 |
+|: G2 \
+| "C(F)"c2 c2 "F"B2 A2 | "C"G3 E "Am"C2 E2 \
+| "F"A3 G "G7"F2 D2 |1 "C"E4 z2 :|2 "C"C4 z2 :|
+S:https://www.folktunefinder.com/tunes/8684
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_song1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

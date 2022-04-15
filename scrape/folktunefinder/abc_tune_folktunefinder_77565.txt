@@ -1,0 +1,30 @@
+X:27
+T:Qui Rosarium intrare conatur Philosophicum absque clave, assimilatur homini ambulare volenti absque pedibus
+T:He who tries to enter the Philosophic Rosegarden without a key is like a man trying to walk without feet
+T:Fuga XXVII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 10               % Hippomenes
+V:2 program 1 10 transpose -12 % Golden Apple
+V:3 program 1 10 bass          % Atalanta
+M:none
+L:1/4
+Q:1/2=108
+K:G dorian
+[V:1] z4    d2  B2  G2  E2  A2  D2  G2  C2  F2  D2   GF  E2   A G  FE  D2 G3   F  E2 |
+[V:2] d4    d2  d2  c4      d2  d2  c4      B4       c4       d4       B4     c2  c2 |
+[V:3] z2 D2 B,2 G,2 E,2 A,2 D,2 G,2 C,2 F,2 D,2 G,F, E,2 A,G, F,E, D,2 G,3 F, E,2 A,2|
+%
+[V:1] A2 D3    E F2  D2   G F  ED  C2 A3   A F2  D2 z2    F_E  DC   B,2 z2  F2  D2  =B,2 =B,8 |]
+[V:2] d2 d2  A4      G2   G2   A4     c4     B4     A4         B2   B2  A4      G2   G2   G8  |]
+[V:3] D,3 E, F,2 D,2 G,F, E,D, C,2 A,3 A,F,2 D,2 z2 F,_E, D,C, B,,2 z2  F,2 D,2 B,,2 G,,2 G,,8|]
+S:https://www.folktunefinder.com/tunes/77565
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

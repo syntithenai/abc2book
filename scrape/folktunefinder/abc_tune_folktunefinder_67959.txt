@@ -1,0 +1,37 @@
+X: 73
+T: Cupino Kolo
+O: Albania
+M: 2/4
+L: 1/8
+P:ABBCCD
+Q:1/4=210
+K: Em
+%%MIDI program 23
+P:A
+%%MIDI drum dddd 41 41 41 41 80 60 60 60
+%%MIDI drumon
+z4     |z4    |z4      |z4      |\
+P:B
+%%MIDI drum dz 43
+|:E3D  |GFE2  |DCDE    |C4      |\
+  C3B, |DCB,2 |G,A,A,G,|A,4     :|
+P:C
+|:C3B, |DCB,A,|A,2A,2  |A,A,A,A,|\
+  G,2D2|CB,A,2|A,A,A,A,|A,2A,2  :|
+P:D
+K: EPhr
+|:_B_AA|GFFE  |EFEE    |E3z\
+| EFG_A|GFFE  |EFEE    |E3z     :|
+|:EFG_A|GFFE  |EFEE    |E3z     |\
+  EFG_A|GFFE  |EFEE    |E3z     :|
+S:https://www.folktunefinder.com/tunes/67959
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

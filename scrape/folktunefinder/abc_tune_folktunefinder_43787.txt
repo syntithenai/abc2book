@@ -1,0 +1,23 @@
+X:3
+T:Cathy goes to Rio
+C:Andy Hornby 1992
+I:abc2nw
+M:C
+L:1/8
+K:C
+e^de ^de^de|c3A- A4|ze^de c=deg|f8-|fdef gfe^d|
+|e2cd/2e/2 fedc|d2Bc/2d/2 edcB|EAED CB,A,^G,|A,:|
+|:a/2a/2 aa a-a/2g/2-gf|e8-|ea/2a/2 aa a-a/2g/2-ge|
+f8-|fa/2a/2 aa a-a/2g/2-gf|e2cd efec|d2Bc/2d/2 ed- dc/2B/2|A zEA EDCB,|A,:|
+%%newpage
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43787
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

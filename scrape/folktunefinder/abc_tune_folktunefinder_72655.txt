@@ -1,0 +1,28 @@
+X: 5
+T:Pomp and Circumstance
+R:March
+M:4/4
+L:1/4
+Q:80
+C:Sir Edward Elgar
+K:G
+D (3D/2D/2D/2 DD|DDEF|:G2
+F/2G/2A|E2D2|C2B,/2C/2D|
+A,4|B,2^C/2 DE/2|A2D2|G2G/2FE/2|D4|
+G2F/2G/2A|E2D2|C2 B,/2C/2D|A,4|B,2 ^C/2 DE/2|
+A2D2|c2 c/2 BA/2|B&#91;BG&#93;&#91;BF&#93;&#91;B=F&#93;|E2
+F/2GA/2|D2G2|
+G,2C/2 B,A,/2|&#91;1G,(3D/2D/2D/2
+DD:|&#91;2G,4|&#93;
+S:https://www.folktunefinder.com/tunes/72655
+S:http://folkmads.org/abc_archive.html
+S:http://www.folkmads.org/abc_archive.html
+S:http://www.nmia.com/~folkmads/abc_archive.html
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

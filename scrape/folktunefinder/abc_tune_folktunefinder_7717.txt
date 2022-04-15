@@ -1,0 +1,36 @@
+X: 1
+T: Berceuse pour Hannah
+C: R.Brunet, R.Forest & S.Jacques
+R: waltz
+N: "This waltz is dedicated to Hannah, 11 years old, who kindly lent us her room while we were
+N: staying at her parents' home during a festival in Owen Sound, in northern Ontario (1998).
+Z: Feb 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: D
+D2 E2 !segno!\
+|: "D"F3 E D2 | "Em"G2 F2 E2 | "D"A6 | "D7"F4 D2 \
+|  "G"d6 | "A"c4 B2 | "D"A6 | F2 G2 A2 |
+|  "G"B3 A G2 | "A"c3 B A2 | "Bm"d2 c2 d2 | "G"e2 d3 B | "D"A3 F D2 \
+|1 "A"E3 D E2 | "D"F3 E D2 | "A"(3EFE D2 E2 \
+:|2 "A"E3 F E2 | "D"D6- | "fine"D3 zcd |
+|: "A"e2 c2 A2 | E3 zBc | "G"d2 B2 G2 | "E"E3 zAB \
+|  "A"c2 a2 f2 | "G"(3gag e2 d2 | "E7"e6- | e3 zcd |
+|  "A"e2 (3cdc A2 | E3 zBc | "G"d2 B2 G2 | "E7"E3 zAB \
+| "A"c2 (3BcB A2 | "G"G2 F2 G2 | "A"A6- |1 A3 "G"c2d :|2 "A"A2 D2 "d.S."E2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7717
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/BerceusePourHannah.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

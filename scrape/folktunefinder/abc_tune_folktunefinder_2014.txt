@@ -1,0 +1,33 @@
+X: 77
+T:Slow March 34th Regt. JMP.077
+T:34th Regt. Slow March. JMP.077
+M:C
+L:1/8
+Q:100
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1  Last two bars very difficult to read..1st Bn The Border Regt.
+H:1799
+Z:vmp.C.  Graeb
+K:D minor
+"Key given as G"D2 | D2 F>D A2 c>A | D2 (f/e/d/c/) d2 B>d |\
+ A2 F>A A>GF>E | D2 D>D D2 DD |!
+ F>DA>F d>A f>d | edcd d2d2 |\
+c>ec>A d>BA>^G | A2 A>A A2 :|!
+|:A2 | A2 c>d e2 A>A | A2 d>e f2 A>A |\
+gefd ecdf | edcB AGFE |!
+D2 FD A2 cA | d2 fd a2 g2 |\
+"1"fa a/g/f/e/ d2c2 | d2 d>d d2 :|]
+S:https://www.folktunefinder.com/tunes/2014
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

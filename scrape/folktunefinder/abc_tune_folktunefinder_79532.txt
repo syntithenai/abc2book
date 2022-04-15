@@ -1,0 +1,27 @@
+X:428
+T: ZU FRANKFURT VOR DEM THOR
+N: E1620
+O: Europa, Mitteleuropa, Deutschland, Hessen, Wetterau, Bettenhausen
+R: Staende -, Handwerker -, Gesellen - Lied, Maurer, Streik
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G4B4B4 | d8
+e6d2 | d4c4c4c4 | d4B4B6
+d2 | ABc2A2 | B2d2
+d2 | ABc2A2 | B2d2
+D2 | G4B4e2d2 | d8
+e3d | d3cc4d3c | c3BB4
+G2A2 | B3BB4B2c2 | e3dd4
+e3d | d3cc4d2d2 | B4z4
+S:https://www.folktunefinder.com/tunes/79532
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, handwerker -, gesellen - lied, maurer, streik
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

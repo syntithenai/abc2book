@@ -1,0 +1,26 @@
+X: 1
+T: the Gentle Shepherd
+C: Joshua Campbell
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+B: RSCDS "Originally Ours"
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"dBG "(C)"Gge | "G"dBG "(C)"Gge | "G"dBG "Em"dBG | "A7"AAA "D7"A2B/c/ \
+| "G"dBG "(C)"Gge | "G"dBG "(C)"Gge | "G"dBG "D7"cAF | "G"GGG G2 |]
+B,/C/ \
+| "G"DB,D "C"ECE | "D7"FDA  "G"B2G | "Bm"DB,D "C"ECE | "D7"FDd "G"B2G \
+| "G"DB,D "C"ECE | "D7"FDA "Em"B2G | "Bm"dBd "Am"ece | "D7"fdb "G"g2 |]
+S:https://www.folktunefinder.com/tunes/14226
+S:http://trillian.mit.edu/~jc/music/abc/jig/GentleShepherd_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GentleShepherd_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GentleShepherd_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:9066
+T:La Russe
+R:Reel
+C:Kevin Briggs, via EF
+S:Nottingham Music Database
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+BA  |  "G"G2BB B2dd|d2g2 g2fg|"C"a2g2 e2c2|"Am"e2de "D7"dcBA|
+"G"G2BB B2dd|d2g2 g2fg|"C"e2d2 "D7"d2FG|"G"A2G2 G2:|
+Q:1/4=200
+K:D
+A2 | "D"A2d2 d2cB|A2a2 a2gf|"A7"g2f2 g2e2|
+"D"fgag "A7"f2d2|"D"A2d2 d2cB|A2a2 a2gf|"A7"g2f2 g2e2|"D"d6:|
+S:https://www.folktunefinder.com/tunes/61099
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

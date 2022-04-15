@@ -1,0 +1,29 @@
+X:289
+T: Was mein Gott will, das gscheh allzeit
+N: A0640A
+O: Europa, Mitteleuropa, Deutschland
+N: Fliegendes Blatt 1530
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: D
+D4 | =F4G4 | =F2_B2B2A2 | _B2
+B2A2G2 | =c4_B2A2 | AGG4F2 | G4
+D4 | =F4G4 | =F2_B2B2A2 | _B2
+B2A2G2 | =c4_B2A2 | AGG4F2 | G4z4 | z2
+G2G2G2 | AG=FEF2G2- | G2=F4E2 | =F4z2
+F2 | =F3GA2_B2- | B2A2G4 | =F4z2
+D2 | =F4G4 | =F2_B2B2A2 | _B2
+B2A2G2 | =c4_B2A2 | AGG4F2 | G8
+S:https://www.folktunefinder.com/tunes/80348
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

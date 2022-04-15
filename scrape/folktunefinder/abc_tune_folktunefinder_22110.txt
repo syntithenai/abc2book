@@ -1,0 +1,33 @@
+X:1661
+T:Drucd an Ceo
+O:england
+M:4/4
+L:1/4
+Q:60
+C:Traditional Celtic
+R:Slow
+B:FOUR WINDS MUSIC COLLECTION
+K:G
+B/2d/2 |: e d/2B/2 e d/2B/2 | A B D E/2F/2 |
+G/2B/2 A/2G/2  E>  D |1 E2 z B/2d/2 :|2 E2 z F ||
+G> B d c/2B/2 | A G/2A/2 B G/2A/2 |
+B> gf/2e/2 d | B/2d/2  e> z B/2d/2 | e d/2B/2 e d/2B/2 |
+A B D E/2F/2 | G/2B/2 A/2G/2 E> D |
+E2 z F | G> B d c/2B/2 | A G/2A/2 B G/2A/2 |
+B> gf/2e/2 d | B/2d/2 e>  z B/2d/2 | e d/2B/2 e d/2B/2 |
+A B D E/2F/2 | G/2B/2 A/2G/2 E> D | E2-E |]
+W:Arrangement: Patrick O. Young, 1996.
+%  ABC2Win Version 2.1 1/27/99
+S:https://www.folktunefinder.com/tunes/22110
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Slow
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

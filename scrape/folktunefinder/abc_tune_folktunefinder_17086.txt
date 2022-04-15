@@ -1,0 +1,35 @@
+X: 1
+T: the Earl of Crawford
+R: reel
+C: P. Milne
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: A
+e \
+| "A"a2ed ceAc | "D"dfce "E7"Befg \
+| "A"a2ed ceAc | "E7"dfBg "A"a3 :|
+e \
+|| "A"cAeA fAeA | cAeA "G"dB=GB \
+| "A"cAeA fAeA | "G"dB=GB "A"cAAe |
+| "A"cAaA gAfA | cAeA "G"dB=GB \
+| "A"cBce "D"dcdf | "E7"eagb "A"aAA |]
+S:https://www.folktunefinder.com/tunes/17086
+S:http://trillian.mit.edu/~jc/music/abc/reel/EarlOfCrawford.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/EarlOfCrawford.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Peter_Milne/EarlOfCrawford.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/EarlOfCrawford.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EarlOfCrawford.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/EarlOfCrawford.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r32/EarlOfCrawford.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/EarlOfCrawford.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

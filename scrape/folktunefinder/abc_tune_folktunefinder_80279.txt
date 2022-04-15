@@ -1,0 +1,28 @@
+X:220
+T: Wallfahrtsgesang
+N: A0573
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Gsgb 1586 fol. 70b
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2_B2B2 | G4=F2
+F2 | _B2B2c2c2 | d4z2
+c2 | d2ddd2c2 | d4_B2
+c2 | d2d2c2c2 | _B4z2
+B2 | c2_B2c2c2 | d4d2
+_B2 | c3c_B2B2 | G4=F4z2
+F2 | c2_B2c2c2 | d4d2
+_B2 | c2_B2A2G2 | c4d4
+_BBB2A4 | G6
+S:https://www.folktunefinder.com/tunes/80279
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

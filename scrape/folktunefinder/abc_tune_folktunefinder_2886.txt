@@ -1,0 +1,21 @@
+X: 1
+P: Nebesko Kolo
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"[GD][AF] [B2G2]- | [BG][cA] [BG][AF] | [BG][BG] "D"[AF][AF] \
+|1 "G"[G2G2] [D2D2] :|2 "G"[G3G3] z ||
+|: "G"[d2B2] "D"[c2A2] | "G"[B2G2] "D"[A2F2] \
+|  "G"[dB][dB] "D"[cA][cA] | "G"[BG][BG] "D"[A2F2] :| "G"M[GG] z3 |]
+S:https://www.folktunefinder.com/tunes/2886
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/NebeskoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/NebeskoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/NebeskoKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

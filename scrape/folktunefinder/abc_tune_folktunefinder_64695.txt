@@ -1,0 +1,30 @@
+X:14685
+T:Ryan's Rant
+% Nottingham Music Database
+P:AABBCCDD
+S:Eric Foxley
+M:4/4
+L:1/4
+K:Am
+P:A
+E|:"Am"Ae/2A/2 a/2A/2e/2A/2|"Am"Ae/2A/2 "G"d/2B/2G/2B/2|\
+"Am"Ae/2A/2 a/2A/2e/2^f/2|"G"gg/2e/2 d/2B/2G/2B/2:|
+P:B
+"Am"(3c/2B/2A/2e/2A/2 (3c/2B/2A/2e/2A/2|"Am"(3c/2B/2A/2e/2A/2 "G"d/2B/2G/2B/2|\
+"Am"(3c/2B/2A/2e/2A/2 (3c/2B/2A/2e/2A/2|"G"gg/2e/2 d/2B/2G/2B/2:|
+P:C
+"Am"Ae/2A/2 a/2A/2e/2A/2|"Am"a/2A/2e/2A/2 "G"d/2B/2G/2B/2|\
+"Am"Ae/2A/2 a/2A/2e/2A/2|"G"g/2^f/2g/2e/2 d/2B/2G/2B/2:|
+P:D
+"Am"c/2e/2A/2e/2 c/2e/2A/2e/2|"Am"c/2e/2A/2e/2 "G"d/2B/2G/2B/2|\
+"Am"c/2e/2A/2e/2 c/2e/2A/2e/2|"G"g/2^f/2g/2e/2 d/2B/2G/2B/2:|
+S:https://www.folktunefinder.com/tunes/64695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

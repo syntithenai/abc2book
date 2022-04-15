@@ -1,0 +1,33 @@
+X:7952
+T:Waltz. CJF.232
+O:england
+M:3/4
+L:1/8
+Q:180
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the stave is "C J Fox 1832" at the end of the tune. The 8vo mark has
+N:an extension line covering the second section, except for the last 2
+N:bars. The section is marked "for" (forte). - PJH.
+K:D
+"p"fg|a2a2a2|a2a2a2|">"b4a2|agg2e"p"f|g2g2g2|g2g2g2|\
+">"a4g2|gff2:||:"8vo for"A>A|Ace2AA|
+Adf2ed|c2c2c2|d2-d2FG|A2A2d2|(BAGFED)|\
+c2c2c2|d4:||A2|dfdAFA|dfdAFA|
+egecAc|dfa^g=ge|dfdAFA|dfdAFA|egecAc|d4:||:\
+"for"a/a>a|_b3a/a>a|_b3a/a>a|
+^g2g2g2|a4z2|dfdAFA|dfa2a2|gecABc|d4:||
+S:https://www.folktunefinder.com/tunes/28404
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

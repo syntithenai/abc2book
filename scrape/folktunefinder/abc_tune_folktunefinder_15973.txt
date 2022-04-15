@@ -1,0 +1,18 @@
+X: 1
+T: S\aa g\aar jag h\"ar i ringen och ser upp\aa dej
+M: 2/4
+L: 1/8
+K: D
+A | "D"Ad d>d | d2 f>d | "A7"e2 A>A A2 z
+A | "A7"A>e ee | e2 a>g | "D"f2 d>d | d2 z
+A | "D"d2 fd | "A7"ce A>c | "A7"e2 g>e | "D"db a>
+A | "D"d2 fd | "A7"ce A>c | "A7"e2 g>f | "D"d2 z |]
+S:https://www.folktunefinder.com/tunes/15973
+S:http://trillian.mit.edu/~jc/music/abc/misc/Sa_gar_jag_har_i_ringen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Sa_gar_jag_har_i_ringen_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

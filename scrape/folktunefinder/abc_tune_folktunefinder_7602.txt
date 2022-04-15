@@ -1,0 +1,33 @@
+X: 1
+T: Teardrop Waltz (1st setting)
+C: Reg Bouvette
+S: Casey Willis, fiddaboy (youtube.com)
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+A B>c \
+|: "D"d>e d>c B>A | A2 A>[FA,] D>E | F2 F3 D | "Bm"B,3 CDE \
+|  "D"F2 E3 D | F2 E3 D | "G"B4- B{c}d | "A7"B3 {c}dcB |
+|  "D"AB AG FE | D3 A,DE | F2 F3 D | "Bm"B,3 CDE \
+|  "D"F2 A3 [FD] | "A7"E3 DB,C | "D"D4- DE |1 DE FG (3ABc :|2 D2 d2 c2 ||
+|: "Bm"B4- BA | "G"B4- BA | "D"{F}A4- AB | A2 {F}d2 c2 \
+|  "G"B4 c2 | "A7"d4 e2 | "D"f4- fg | fe dc Bc |
+|  "G"d4- dc | d4- dc | "D"d3 BAF | D3 A,DE \
+|  "Bm"F2 A3 F | "A7"E3 DB,C |1 "D"D4- DE | D2 d2 c2 :|2 "D"D2 F2 A2 | d3 |]
+%%sep 2 1 500
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7602
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/Waltz_Teardrop.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:3730
+T:Lo Pastro
+O:england
+M:3/4
+L:1/4
+K:C
+GAB|cde|fdB|G3|:GAB|cde|fed|\
+g2g|f2f|e2e|dfe|d3-|d3|
+GAB|cde|fed|\
+L:1/8
+g3e ge|f3d fd|e3c ec|d3B dB|c6-|c6:|\
+G2c2e2|:g3e ge|
+g3e ge|g3e ge|\
+f3e de|f3e de|f3d ef|ga gf ed|1 e2 cG ce:|2 c6-|c6||
+S:https://www.folktunefinder.com/tunes/24181
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

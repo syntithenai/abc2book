@@ -1,0 +1,22 @@
+X:6
+T:Jenkins Rise
+C:Andy Hornby 1997
+Q:1/4=130
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+A|F3/2A/2d BGe|cAa f3/2d/2a|bge dce|dcB A2G|
+F3/2A/2d BGe|cAa f3/2d/2a|bge dce|d3d2:|
+|:f/2g/2|a3/2f/2d bge|cde afd|Bcd efd|c3 A2a|
+f3/2g/2a d3/2e/2f|g3/2a/2b b3/2g/2e |f/2g/2af gec|d3d2:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43766
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

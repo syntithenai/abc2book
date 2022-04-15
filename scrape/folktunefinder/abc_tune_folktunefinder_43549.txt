@@ -1,0 +1,19 @@
+X: 31
+T:
+% Nottingham Music Database
+S:
+M:4/4
+L:1/4
+K:A
+z/2|:"A"\
+P:bB2
+fe/2e/2 BA/2A/2|fe/2e/2 BA/2A/2|"A"fe/2e/2 BA/2A/2|"E"BA/2A/2 "A"BA/2A/2:|
+S:https://www.folktunefinder.com/tunes/43549
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsA-C.txt
+S:http://www.guitarnut.com/nmd/reelsA-C.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

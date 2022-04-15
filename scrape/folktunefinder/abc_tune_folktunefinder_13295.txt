@@ -1,0 +1,29 @@
+X:1
+T:An Paistin Fionn
+M:4/4
+L:1/8
+S:Celtic Tradition
+R:air, hornpipe
+D:Celtic Tradition LP" I have waited for many a Night and Day"
+Z:Barney <G.Bahn-Koepke@t-online.de> irtrad-l 2000-10-26
+K:D
+(3Bcd|:eg fe de(3fed|gb ag f2 gf|e2 ed BA GA|Bd (3cBA B2 (3Bcd|
+eg fe de (3fed|gb ag f2 gf|e2 ed BA FG|1 E2 ED E2 (3Bcd :|2 E2 ED E4||
+GA Be dB (3BBB|cA (3AAA dB BA|GA Be dB ~B A|Be e^d e3z|
+GA Be dB BA|Be ef ~g3 f|e2 ed BA FG|1 E2 ED E4:|2 E2 ED E2 (3Bcd||
+S:https://www.folktunefinder.com/tunes/13295
+S:http://trillian.mit.edu/~jc/music/abc/air/PaistinFionnHp.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/PaistinFionnHp.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/PaistinFionnHp.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/PaistinFionnHp.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PaistinFionnHp.abc
+% Rhythm Air, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1169
+T:Cobb's Horse
+O:england
+M:4/4
+C:Chris Leslie
+S:Seabright
+N:
+A:Adderbury
+R:Reel
+%P:A(AB)$^4$
+P:A(AB)4
+%
+%
+K:D
+I:speed 400
+P:A
+dcBA  B2 g2 | f2  d2 e2 A2 | d2 cB A2 G2 | F2  A2 E3  E  |\
+DEFG  A2 d2 | c2  e2 d2 ag | f2 ed e2 c2 | d4     d4     ||\
+P:B
+|: agfe  d2 A2 | =c2 B2 A4    | agfe d2 A2  | =c2 B2 A2 B^c |\
+d2 d2 e2 f2 | g2  f2 e2 ag | f2 ed e2 A2 | d4     d4     :|
+S:https://www.folktunefinder.com/tunes/21618
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

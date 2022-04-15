@@ -1,0 +1,33 @@
+X:3
+T:Fugue
+M: 2
+L: 1/8
+Q:"Gay"
+K:C
+%%staves [1 2]
+%%continueall 0
+V:1
+z8 | z8| z2g2 g2g2 | a2 a2 a2 a2 | b2 g2 c'4- | c'4 !!b4 | c'2 c2 c2 c2 | d2 d2 d2 d2| 
+e2 c2 f2ef | d2B2 e2de | c2 A2 d2 c2 | B4 g4- | g4 f4- | f4 e4 | d4 g4- | g2 fe f4-| 
+f2 e2 e2 fe| d2 e2 d2>c2| c2 ef gaga | g2 cd efef | e2g2 c'd'bd' | c'2c2 efdf | e4 xc'ba | gagf efef | 
+gaga fgfg | edef egfe | dede fefe | dede fefe | d4 g4-    | g4 ^f4   | g4 zg=fe | d2g2 g2fg |
+e2c2 c2c2 | d2d2 d2cd | e2c2 fedc | BcdB edcB | ABcA dcBA | B2G2 c4- | c4 B4 | cdcd efef| 
+efef efef| e2dc B3c| c2ef gaga| gaga gaga| g2 fe2<d2c| c2g2 c'2b2| c'2c2 efdf| e8|]
+V:2
+z2c2 c2c2| d2d2 d2d2| e2c2 g4- | g4 f4-| f4 e4| d2g2 g2fg| e4 c'4-| c'4 b4-|
+b4 a4-| a4 g4-| g4 ^f4| g2G2 G2G2 | A2A2 A2A2| B2G2 c4-| c4 ^A4| =A4 d4| G4 c4-| 
+c4 B4| c2cd e=fef| e2ef gaga| g2c2 efdf| e2g2 c'd'bd'| c'c'ba gagf| efed cdcd|
+efef dede| cBcd cedc| BcBc dcdc| BcBc dcdc|B2G2 G2G2| A2A2 A2GA| B2G2 c4-| c4 B4|
+c4 c'4-| c'4 b4-| b4 a4-| a4 g4-| g4 f4-| f4 e2fe| d2e2 d4| efef gaga| gaga gaga| g2 fe2<d2c| 
+cdcd efef| efef efef| e2 dc2<B2c| c8-| c2g2 c'2b2| c'8|]
+S:https://www.folktunefinder.com/tunes/40166
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

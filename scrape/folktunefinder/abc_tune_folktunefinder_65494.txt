@@ -1,0 +1,23 @@
+X: 160
+T:Rakes of Kildare
+% Nottingham Music Database
+P:AAB
+S:EF
+M:6/8
+K:Am
+P:A
+|:E|"Am"EAA AGA|"Am"Bcd e2^f|"G"g^fg ege|"G"dBG A2E|
+"Am"EAA AGA|"Am"Bcd e2^f|"G"g^fe dBG|"Am""F"A3 A2:|
+P:B
+a|"Am"aea aea|"Am"aea b2a|"G"g^fg ege|"G"dBG A2a|"Am"aea aea|
+"Am"aea b2a|"G"g^fe dBG|"Am"A3 A2a|"Am"aea aea|"Am"aea b2a|"G"g^fg ege|
+"G"dBG A2E|"F"EAA AGA|"F"Bcd e2^f|"G"g^fe dBG|"Am""F"A3 A2||
+S:https://www.folktunefinder.com/tunes/65494
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

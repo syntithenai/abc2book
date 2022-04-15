@@ -1,0 +1,25 @@
+X: 1
+T: the Royal Circus
+R: jig
+B: Pinewoods Alternates
+B: Gow
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+F/G/ \
+| "F"AFc cBA | "Bb"BGd "C7"dcB | "F"AFc "Dm"cBA |"Gm"BGG "C7"G2F/G/ \
+| "F"AFc cBA | "Bb"BGd "C7"dcB | "F"Acf "C7"gae | "F"f2f f2 :|
+|: e/f/ \
+| "C"gec cdc | "F"afc cdc | "Bb"bag "F"agf | "G7"efg "C"c2c \
+|"Bb"dBd dfb | "F"cAc cfa | "Gm"bag "F"agf | "C7"cfe "F"f2 :|
+S:https://www.folktunefinder.com/tunes/15002
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoyalCircus_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoyalCircus_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

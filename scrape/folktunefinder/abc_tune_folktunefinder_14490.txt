@@ -1,0 +1,29 @@
+X: 1
+T: Korolenko's Backyard
+C: Jean-Paul Loyer
+O: Qu\'ebec
+D: Jean-Paul Loyer "Ojnab"
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed page from Debby Knight
+M: 6/8
+L: 1/8
+K: G
+BA \
+| G2G GFG | D2D DBA | G2G GFG | GEE EAB \
+| c3  cBc | d2d dcB | A2A AGA | BGE DBA |
+| G2G GFG | D2D DBA | G2G GFG | GEE EAB \
+| c3  cBA | d2d dcB | AGE DBA |1 GDD D :|2 G2G G2D ||
+|:EEE E2E | E2F G2E | DGG AGA | BGB dBG \
+| EEE E2E | E2F G2E | DGG FGA |1 BGF G2F :|2 BGF G |]
+S:https://www.folktunefinder.com/tunes/14490
+S:http://trillian.mit.edu/~jc/music/abc/jig/KorolenkosBackyard_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/KorolenkosBackyard_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

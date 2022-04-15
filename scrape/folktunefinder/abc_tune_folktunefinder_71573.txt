@@ -1,0 +1,26 @@
+X:544
+%%topmargin 3cm
+T:Maise an taobh tuath
+T:The Beauty of the North
+C:Capt. Frasers coll.
+C:Published about 1816
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Eb
+E | G,<EE>F G>AB<c | C<C TF>E DB, B,2 | G,<EE>F G>AB<g | fc (e/d/).c/.B/ {/d}e2- e :| g | {/d}e>gB<g e<gb>g | {/g}a>g{/g}f>e d<BB<g |
+e<gB>g e/f/g/a/ bg | {/g}af (e/d/).c/.B/ {/d}e2 eg | g<eB<G eE DA G<eB<g | fd (e/d/).c/.B/ {/d}e2- e |]
+S:https://www.folktunefinder.com/tunes/71573
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Beauty_of_the_North.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Maise_an_taobh_tuath.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0544.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

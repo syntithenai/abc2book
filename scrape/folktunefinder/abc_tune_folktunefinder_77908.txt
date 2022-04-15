@@ -1,0 +1,33 @@
+X: 950
+T: Galtee mountain
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 950
+R: Hornpipe
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-095
+0.abc
+M: C
+L: 1/8
+K: Em
+(3(DEF)|G(FGA) BAGB|AEEF (3(EFG) FE|D(EFG) ABAG|(3(FED) (dF) DFAF|E(DEF)
+GFGA|B(ABd) gefd|edBc (3(dc(B) AF)|G2E2E2|
+|:(GA)|BGB(d ed)ef|gba(f ge)dB|cBA(B cd)ef|(3(gfe) (af) g2(Bd)|g(dBd) ecA
+G|(3(FED) (FA) BGBd|e(dBc) (3(dcB) (AF)|G2E2E2:|
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/77908
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-095
+S:http://trillian.mit.edu/~jc/music/book/oneills/1001/F/09.abc
+% Rhythm Hornpipe
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

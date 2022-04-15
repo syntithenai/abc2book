@@ -1,0 +1,26 @@
+X:1950
+T:Garfields Hornpipe
+M:4/4
+O:USA
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bd9.html
+%%ID:00000bd9
+K:G
+GDB,D GDB,D| GFGA BABc| dAFA dAFA| defe dcBA|
+GDB,D GDB,D| GFGA BABc| defe dcBA| G2B2 G2::
+g>f|\
+ecG3/(E/ E3/)Gce| dBG3/(D/ D3/)GBd|\
+cAed cAed| BGed BGgf|
+ecG3/(E/ E3/)Gce| dBG3/(D/ D3/)GBd|\
+defe dcBA| G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/36469
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

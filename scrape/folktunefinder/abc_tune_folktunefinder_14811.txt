@@ -1,0 +1,27 @@
+X: 1
+T: THE OLD HORNED SHEEP
+T: THE ONE-HORNED SHEEP
+T: THE HUMOURS OF DONNYBROOK
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: from copy of page from unknown book (BOOK SEVEN . 109)
+R: jig
+M: 6/8
+K: G
+|: (3d/e/f/ \
+| "G"g2G GFG | "C"EGG "G"DGG | g2G GFG | "A7"EAG "D7"FED \
+| "G"g2G GFG | "C"EGG "G"DGG | "C"EGG "D7"FGA | "G"BGG G3 :|
+|: D \
+| "G"BBd dBG | BBd d2G | BBd dBG | "Am"cBc "D7"A2c \
+| "G"BBd dBG | BBd "D7"def | "Em"gfe dcB |1 "Am"ABG "D7"FE :|2 "Am"cAB "D7"c2 |]
+S:https://www.folktunefinder.com/tunes/14811
+S:http://trillian.mit.edu/~jc/music/abc/jig/OneHornedSheep2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OneHornedSheep2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/OneHornedSheep2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OneHornedSheep2_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

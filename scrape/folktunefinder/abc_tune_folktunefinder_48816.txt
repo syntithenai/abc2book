@@ -1,0 +1,28 @@
+X:60
+T:Gervaise3
+C:Claude Gervaise
+L:1/8
+M:4/4
+O:France
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d8f.html
+%%ID:00000d8f
+K:C
+AB|c6c2|c2e2d2c2|B2G^F GA Bc|B2d2c2B2|A6A2|
+A2c2B2A2|^G2E^F GA BA|^G6AB|c6c2|c2e2d2c2|
+B2G^F GA Bc|B2d2c2B2|A2Bc BA ^G^F|^G2A4G2|A4 A3^G|A6:|
+[M:3/4]|:AB|c4c2|c2d2d2|e4e2|e4f2|e3e d2|
+c2c2B2|1 c4c2|c4:|2 cd ef ed|c4|
+|:cd|e3d cB|cd eg fe|d4d2|Bc df ed|
+c3c B2|1 A2Bc dc|B2B2A2|^G4:|2 A2Bc BA|^G4G2|A4|]
+S:https://www.folktunefinder.com/tunes/48816
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

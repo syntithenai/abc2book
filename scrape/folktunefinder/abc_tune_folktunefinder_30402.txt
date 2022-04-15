@@ -1,0 +1,23 @@
+X:465
+T:Poor a purse but routh o' Credit
+B:Aird's Airs and Melodies vol 2
+L:1/16
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000125.html
+%%ID:00000125
+K:E min
+(def)g a4 f2d2 f(ga)f| defg a4 g2c2 efge|\
+defg a4 f2d2 fgaf| efge fgaf gfed c2e2::
+f2d2A2d2| f2d2 efge| f2d2A2d2 g2c2 efge|\
+f2d2A2d2 f2d2 fgaf| g2ag f2gf e2c2 efge:|
+S:https://www.folktunefinder.com/tunes/30402
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,58 @@
+X: 2
+P: Setesvalsen (Vals fran Setesdalen)
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: This rather irregular tune (note the 14- and 23-bar phrases)
+N: is commonly played as a "last waltz" all over Scandinavia.
+O: Trad
+M: 3/4
+L: 1/8
+K: G
+|: D2 \
+|| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2C] [F2C] \
+| "G"[G4B,] [D2B,] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| [G2B,] [B2D] [d2G] |
+| "C"[g2e] [f2d] [e2c] \
+| [e2c] [d2B] [c2G] \
+| "D7"[d3F] [eG][dF][cE] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2D] [F2C] \
+| "G"[G4B,] :|
+|: [B2D] || "C"[c2E] [cE][cE] [cE][cE] \
+| "D7"[c2E] [B2D] [A2C] \
+| "G"[B3D] [AC][GB,][BD] \
+| [d2G] [B2D] [G2B,] \
+| "Am"[A3C] [GB,][FA,][GB,] \
+| "D7"[A3C] [GB,][FA,][EB,] \
+| [D2A,] [B2D] [c2F] |
+| "G"[d4G] [e2G] \
+| "C"[c2E] [cE][cE] [cE][cE] \
+| "D7"[c2E] [B2D] [A2C] \
+| "G"[B3D] [AC][GB,][BD] \
+| [d2G] [B2D] [G2B,] \
+| "Am"[A3C] [GB,][FA,][GB,] \
+| "D7"[A3C] [GB,][FA,][EB,] \
+| [D2A,] [E2C] [F2C] |
+| "G"[G2B,] [B2D] [c2G] \
+| [d2B] [g2e] [f2d] \
+| "C"[e2c] [d2B] [c2G] \
+| "D7"[d3F] [eG][dF][cE] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2D] [F2C] \
+| "G"[G4B,] :|
+S:https://www.folktunefinder.com/tunes/9379
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals14.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

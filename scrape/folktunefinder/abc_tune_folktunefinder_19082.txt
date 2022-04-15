@@ -1,0 +1,31 @@
+X:1
+T:You must believe in spring
+M:4/4
+L:1/8
+C:Michel Legrand
+C:Lyrics: Alan & Marilyn Bergman
+Q:1/4=88
+%%staves (chords melody)
+K:D
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"C#m7b5"x4 "-/F#"x2"F#7"x2 | "A#dim7/B"x4 "Bm"x4 |
+"Em7"x4 "-/A"x2"A7"x2 | "C#dim7/D"x4 "Dmaj7"x4 |
+"G#m7b5"x4 "-/C#"x2"C#7"x2 | "F#m7b5"x4 "-/B"x2"B7"x2 |
+"Em7"x4 "-/A"x2"A7"x2 | "C#dim7/D"x4 "G#7"x4 ||
+V:melody
+zEFG B,G^A,F | EDEC D4 |
+S:https://www.folktunefinder.com/tunes/19082
+S:http://trillian.mit.edu/~jc/music/abc/song/You_must_believe_in_spring.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/You_must_believe_in_spring.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/you_must_believe_in_spring.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/you_must_believe_in_spring.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:200
+T:Misir Las
+M:4/4
+N:whoever transcribed this says that the doublebar in the middle
+N:is some sort of repeat, but they can't remember what.
+O:Greece
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c71.html
+%%ID:00000c71
+K:G _e_A
+GG2A B2 c2 | dd2e ^f2ed | d8- | d8 |:
+ed2 ed2 c2 | dc2 dc2 BA | G8- | G8 |\
+dc2 dc2 B2 | BA2 BA2 G2 | G8 ||
+zG ^FG A<=A_B=B | c8-  | c4 cc2 B/c/ | d8- | \
+d4 dd2c/d/      | e6 de| ^f6 df      | g8- |
+g8 | ag2 ag2 f2 | gf2 gf2 e2 | d8- | \
+d8 | fe2 fe2 d2 | dc2 dc2 B2 | G8- | G8 |]
+S:https://www.folktunefinder.com/tunes/53270
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

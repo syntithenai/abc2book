@@ -1,0 +1,42 @@
+X: 2349
+T:Scherzo
+T:From Sonata no. 3
+C:Joseph Haydn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0
+V:2 Program 1 0 bass
+M:2/4
+L:1/16
+K:F
+V:1
+c2|fcfc afaf|c'4bagf|efge c2[g2b2]|[g4b2][f2a2] c2|
+V:2
+z2|[F4A4]z4|[F2A2][F2A2][F2A2][F2A2]|[C2G2][C2G2][C2G2][C2G2]|F2C2 F,2 z2|
+V:1
+fcfc afaf|c'4bagf|gabg fedc|f4 z2:|
+V:2
+[F4A4]z4|[F2A2][F2A2][F2A2][F2A2]|[C4G4][C4G4]|F4 z2:|
+V:1
+|:c2|b2b2 b2d'b|a4 z2 c'2|e2e2 e2ge|f4 z2 c2|
+V:2
+|:z2|E,CE,C E,CE,C|F,CF,C F,CF,C|G,CG,C G,CG,C|A,CA,C A,CA,C|
+V:1
+g2g2 g2GB|AcBA GFEF|DBdc BAGF|E4 z2|
+V:2
+E,C,E,C, E,C,E,C,|F,4z4|[B,,4B,4]z2 =B,2|C2G,2C,2|
+V:1
+c2|fcfc afaf|c'4bagf|efge c2[g2b2]|[g4b2][f2a2] c2|
+V:2
+z2|[F4A4]z4|[F2A2][F2A2][F2A2][F2A2]|[C2G2][C2G2][C2G2][C2G2]|F2C2 F,2 z2|
+V:1
+fcfc afaf|c'4bagf|gabg fedc|f4 z2:|
+V:2
+|[F4A4]z4|[F2A2][F2A2][F2A2][F2A2]|[C4G4][C4G4]|F4 z2:|
+S:https://www.folktunefinder.com/tunes/32745
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

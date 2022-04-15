@@ -1,0 +1,30 @@
+X:49
+T:Polkasaluwee
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:ABC x3
+L:1/8
+M:2/4
+K:D
+P:Voorspel
+F | FE EG | GF FA | A>A Bc | d2 z |]
+P:A
+F || FE EG | GF FA | AA/A/ ^GA | B2 A A | d2 cB | A2 F2 |1 A>A GF | E2 z F :|2 A>G FE | D3 z|]
+P:B
+FA FA | GG G2 | cc Bc | dA A2 | dd/d/ cd | eB B2 | cc/c/ Bc|1 BA A2 :|2\M:C\\L:1/8\d2 "rall." A2 B2 c2 |]
+P:C
+M:C
+L:1/8
+"a Tempo"d>d dd dd ed | c2 (B2 B) "rall."BBB | (A2 A)A Ac BG | (F4 F) "a Tempo"ABc |
+d>d dd dd ed | c2 (B2 B) "rall."gec | (A2 A)A B2 c2 |1 (d4 d) ABc :|2 (d4 d) zz |]
+S:https://www.folktunefinder.com/tunes/40630
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

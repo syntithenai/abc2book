@@ -1,0 +1,39 @@
+X:166
+T:Cantar de Ronda (CT 119)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 119
+M:2/4
+L:1/8
+Q:1/4=80
+K:G
+d|dd ef|g4|f4|g2 f>e|(ed) Bc|(d3 e|c(3d/c/B/ cd|B2) z2|
+d2 d>e|(ed) Bc|d4|(e>d) cB|c2 A>B|c3 c|d>c BA|B2 G>A|B2 d2|A2 zd|
+dd ef|g4|f4|g2 f>e|(ed) Bc|(d3 e|c(3d/c/B/ cd|B2) z2||
+W:Calle la del Rivero,
+W:camn del Cristo que ai!
+W:camn del Cristo,
+W:la pasean los frailes;
+W:que adnde va la mi morena,
+W:que adnde va
+W:La pasean los frailes
+W:de San Francisco, que ai!
+W:
+S:https://www.folktunefinder.com/tunes/59053
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

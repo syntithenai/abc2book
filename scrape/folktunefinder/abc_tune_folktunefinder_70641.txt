@@ -1,0 +1,28 @@
+X:511
+T: Ostereierlied (217), S. 469
+N: T0399
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Pintsch, hhh Martin Blum (Pfarrer), 1917
+R: Ansingelied fr Volks- und Festtage, Kinderlied]
+M: 2/4
+L: 1/8
+K: G
+ | BBAB | G2z2
+AAGA | B2z2
+BBdc | B2GG | A2GA | B2z2
+BBdc | B2GG | A2GA | G3
+D | G2A2 | B3D | G2A2 | B2z2
+B2AA | G2z2
+S:https://www.folktunefinder.com/tunes/70641
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Ansingelied fr volks- und festtage, kinderlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Scots Wha Hae
+O: trad
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: A
+[|"A"E2E | E2C |     E2F | "A7"A3 \
+| "D"F2F | F2E | "Bm"F2G | "E7"A2B |
+| "A"c2c | "C#7"B2A | "F#m"A2B | "C#7"c3 \
+| "D"A2F | "Bm"F2E | "E7"E3- | E3 |]
+[|"A"c2c | c2B | cd2 | e3 \
+| "E"B2B | "Bm"B2A | "E7"B2c | d3 |
+| "A"e2c | "C#7"B2A | "F#m"A2B | "C#7"c3 \
+| "D"A2F | "Bm"F2E | "E7"E3- | E3 |]
+S:https://www.folktunefinder.com/tunes/20183
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ScotsWhaHae_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ScotsWhaHae_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 2
+T: Mazel
+C: From Pete Sokolow, Klez Kamp 2001
+R: Waltz
+Z: Terry Traub
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+K: Em
+L: 1/4
+|: "Em"B, E G | "Em" B/^A/ B > c | "B" B ^D2-|"B" ^D3| "B"B, ^D F|\
+   "B7"A  G F |[1 "Em" G3-| G3 :|[2 "Em" E3-| E3 ||
+   "E7"E ^G B | "E7" d c B | "Am" c/B/ A2-| "Am" A3| "D" D F A| \
+   "D7"c  B A | "G"B/A/ G > B| "B7"A/G/ F2||
+   "Em"B, E G | "Em" B/^A/ B > c | "B" B ^D2-|"B" ^D3| "B"B, ^D F|\
+   "B7"A  G F | "Em" E3-| E3 |]
+S:https://www.folktunefinder.com/tunes/7434
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Waltz_Mazel.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

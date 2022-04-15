@@ -1,0 +1,24 @@
+X: 2
+P: Christchurch Bells (in D)
+N: This tune may be played as a three-part round
+R: march
+O: 1686
+B: J.Barlow p.57 #222; Barnes
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|  "D"d3d d2d2  | d2d2 d2f2 | "G"e2d2 c2B2 | "A"A3A  A2A2 | "D"F2A2 D2A2 | "G"d2G2 "A"A2ag | "G"f2b2 "A"efg2 | "D"Hf3e d4 ||
+|| "D"f3f f2f2  | f2f2 f2a2 | "G"g2fg e2d2 | "A"e2A2 e2e2 | "D"f2e2 f2e2 | "G"f2e2 "A"e2dc | "G"d2B2 "A"e2c2 | "D"Hd3e f4 ||
+|| "D"aaaa a2aa | a2aa a2A2 | "G"B3B  c2d2 | "A"c6     Bc | "D"d2c2 d2c2 | "G"d2e2 "A"c2BA | "G"B2G2 "A"A3A  | "D"HD8     |]
+S:https://www.folktunefinder.com/tunes/5369
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ChristchurchBells.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

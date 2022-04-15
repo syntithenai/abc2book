@@ -1,0 +1,27 @@
+X:11
+T:Dospatsko Choro
+R:choro
+O:Bulgaria
+M:322/8
+Q:1/4=104
+K:Em
+"Em"E3 "/"E2 "/"B2 | "Em"B3 "/"{BcBc}B3G | "Am"A3 "/"{ABAB}A3G |
+"Em"AB2 "/"G2 "/"{GA}GF | "Em"E3 "/"E2 "/"B2 | "Em"B3 "/"{BcBc}B3G |
+"Am"A3 "/"A3G | "Em"AB2 "/"G2 "/"{GA}GF :||:"Am"{G}A2G "/"{F}G2 "/"{GAGA}G2 |
+"D"{F}GA2 "/"{FG}F2 "/"{FG}FE | "Em"E3- "/"E4 |
+"G"{A}B3- "/"B3 G | "A"{GAB}A2G "C"{F}G2 "/"G2 | "Bm"GA2 "/"{FG}F2 "/"FE |
+"Em"E3- "/"E4 | "Em"E^CD "/"E2 z2 :||: "D"DEF "/"GA "/"AG |
+"D7"{cdcd}c2B "G"B2 z2 | "Am"{cdcd}c2B "/"cd "/"cB | "D"{ABAB}A2G "G"G2 z2 |
+"D"DEF "/"GA "/"AG | "D7"{cdcd}c2B "G"B2 "/"z2 | "Am"{ABAB}A2G "/"GA "/"FE |
+"Em"E3 "/"E2 z2 :||: "D"d3 "/"dc "/"BA | "D7"{ABAB}A2G "G"G2 z2 |
+"G"dGe "/"dc "/"BA | "A7"{BcBc}B2A "D"A2 z2 | "D"{dede}d3 "/"dc "/"BA |
+"D7"{ABAB}A2G "G"G2 z2 | "Am"AEB "/"AG "/"FE | "Em"E3 "/"E4 :|
+S:https://www.folktunefinder.com/tunes/67699
+S:http://www.firepowr.com/abc/SAMPMUS.ABC
+% Rhythm Choro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 66/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:097
+%%topmargin 3cm
+T:Lady Mary Ramsay
+C:Nath Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E dorian
+A, | LD3 B A>F~xF>B | A>FB>G A>FF>d | LD3 B A>F~xF>A | {/c}d>BA>F E/2E/2E TE :|
+g | (f>d)Td>f e>c {/d}~c>e | {/c}d>B{/c}d>B A<FF>e | f>dTd>f e>d{/d}c>A | {/c}d>BA>F E/2E/2E Ee | f>dTd>f ec~xce |
+{c}d>B{/c}d>B A<FF>A | [1 {/c}d>fc>e B>dA>F | {/c}d>BA>F E/2E/2E E :| [2 (3def "conclusion." (3edc (3dcB (3AGF | (3GAB (3AGF (F<E)E>F ||
+|: d3 b affb | afd'b affd' | d3 b affb | adaf feef :|
+d/2e/2 | ff e<cc>e | dd AF-Fd/2e/2 | ff e<cc>e | {/c}d>B{/B}A>F FE-Ed/2e/2 |
+ff e<cc>e | dfBd AFFA | (3agf (3edc (3dcB (3AGF | (3DdB (3AGF FEEF |]
+W:The accent upon the a in 2nd and 3rd bard &c give character to the tune.
+W:This tune (Lady Mary Ramsay) is called "The auld toon o'Edinburgh" in James
+W:Porteous's Collection and having his initials attached it is possible he may
+W:have been the composer of it.
+W:Note: The score had turns between notes. The only way I could figure out to
+W:imitate that was to add an invisible rest, which, however, forced a space
+W:between the notes. rp
+S:https://www.folktunefinder.com/tunes/71127
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Mary_Ramsay.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0097.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Catharsis
+C: Amy Cann
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+F: http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc 2007-11-02 14:55:25 UT
+K: G minor
+|:"Gm"[DG,]GGF DGGF | DGGA BGAF | DGGF DGGF | "D7"DEDC B,CB,A, |
+| "Gm"[DG,]GGF DGGF | DGGA BABc | dcBA "F"BAGF |1 "Dm"DGGF "Gm"G3F :|2 "Dm"DGGF "Gm"G[DA][DB][Dc] |]
+|:"Gm"[Dd]GGc GGBG | GAGG G[DA][DB][Dc] | "F"[Dd]FFc FFBF | FAFF G[DA][DB][Dc] |
+| "Eb"[Dd]EEc EEBE | EAEE G[DA][DB][Dc] | "Dm"dcBA BAGF |1 DGGF "Gm"G[DA][DB][Dc] :|2 "D7"DEDC B,CB,A, |]
+S:https://www.folktunefinder.com/tunes/16903
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Catharsis_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Catharsis_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Catharsis_Gm.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

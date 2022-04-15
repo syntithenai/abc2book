@@ -1,0 +1,35 @@
+X: 1
+T: Severnya\vska R\ua\vcenica
+R: rachenica
+O: Bulgaria
+S: From handwritten ms labelled "jm 6-7-86"
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+"A"
+|: "Am"{^g}az z2 {g}az2 | "Dm"dz2 z4 | "E7"~c2 Bc dcB |1,3 "Am"AB cd e3 :|2,4 "Am"AE ^F^G A3 :|
+"B"
+|: "Am"~c2 Bc dcB | ~c2 Bc dcB | ~c2 Bc dcB | |1,3 "Am"AB cd e3 :|2,4 "Am"AE ^F^G "fine"A3 :|
+"C"
+|: "G7"Bc de fed | "C"cB ce gec | "G7"Bc de fed |1,3 "C"cB ce g2z :|2,4 "C"cG AB c2z :|
+"D"
+|: "Am"A^G AB cBA | A^G Ac ecA | A^G AB cBA |1,3 A^G Ac e2z :|2,4 AE ^F^G A3 :|
+"E"
+|: "C"Gc Gc ~e3 |  ec dc ~e3 | Gc Gc ~e3 |1,3 ed dc g GG :|2,4 ed dc c2z :|
+"D"
+|: "Am"A^G AB cBA | A^G Ac ecA | A^G AB cBA |1,3 A^G Ac e2z :|2,4 AE ^F^G A3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5952
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RACH4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rach_4.abc
+% Rhythm Rachenica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

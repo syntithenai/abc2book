@@ -1,0 +1,24 @@
+X: 1
+T: Art Doyle's Jig
+C: Charles DeMaris
+S: Daniel J. Curtin <curtin:nku.EDU>
+%In memory of Dr. Art Doyle, a mainstay of Irish music in Cincinnati, OH, USA
+Q: 250
+M: 6/8
+K: G
+|: BAG EDE | GFG EDE | BAG EDE | GFG  G2A \
+|  BAG EDE | GFG EDE | BAG EDE | GFG  G3 :|
+|: ged BGA | BAB d2e | ged BGA | B^cB A2d \
+|  ged BGA | BAB d2e | ged BGA | B2>A2 G2 :|
+S:https://www.folktunefinder.com/tunes/13799
+S:http://trillian.mit.edu/~jc/music/abc/jig/ArtDoylesJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ArtDoylesJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

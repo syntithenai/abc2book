@@ -1,0 +1,25 @@
+X:21
+T:American Eagle Q.S. 
+C:By Col. Le Roy Van Horn Chicago,Ill., Co.A.18th U.S.Inf.
+B:American Veteran Fifer, #21
+M:2/4
+L:1/16
+Q:1/8=200
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/4
+%%MIDI ratio 2 1
+|: BA|G2D2E2G2|B2AG B2d2|e2d2g2B2|ABAG E2D2|G2D2E2G2|B2AG B2d2|G2A2B2G2|AGAB G2 :|
+|: Bc|d2ef g2f2|e2d2 B2Bc|d2B2g2B2|ABAG E2D2|d2ef g2f2|e2d2 e2fg|G2>A2 B2G2|AGAB G2 :|
+S:https://www.folktunefinder.com/tunes/39417
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 91
+T: Captain White
+B: James Kerr
+M: 6/8
+L: 1/8
+Z: Transcribed to abc by Mary Lou Knack; edited by John Chambers
+R: jig
+K: D
+A/F/ \
+| "D"DFA d2f | "Em"edc "G"B2d | "D"A2d "Bm"F2B | "G"AGF "A7"E2F \
+| "D"DFA d2f | "Em"edc "G"B2d | "D"A2d F2B | "A7"ABc "D"d2 :|
+f \
+| "A"e^de A2f | e^de "(D)"a2f | "A"efe "E7"dcB | "A"A2B c2f \
+| "A"e^de A2f | e^de "(D)"a2f | "A"efe "E7"dcB | "A"AcB "A7"AGE |
+| "D"D2f fef | d2A A2A | "Em"B2g gfg | "Em"e2B "A7"B3 \
+| "D"A2f fef | d2A A2A | "G"Bcd "A"edc | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/13979
+S:http://trillian.mit.edu/~jc/music/abc/jig/CaptainWhite.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CaptainWhite.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CaptainWhite.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

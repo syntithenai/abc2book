@@ -1,0 +1,24 @@
+X:207
+T: VERGANGEN IST DER LICHTE TAG
+N: B0245
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Nacht
+M: 6/8
+L: 1/8
+K: C
+G | C2D_E2F | G2GG2
+G | _A2GF_EF | G2F_E2
+E | G2Gc2_B | _B2G_E2
+E | _AGFG2_E | D_EDC2
+S:https://www.folktunefinder.com/tunes/78228
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Tageszeiten - lied, nacht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:104
+T: ES RITTEN DREI REITER WOL UEBER DEN RHEIN
+N: E0057
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 2/4
+L: 1/8
+K: G
+D | G2FG | A2GA | B2cB | A2z
+d | c2Ac | B2GB | A2FD | GBd
+d | c2Ac | B2GB | A2FD | G2z
+S:https://www.folktunefinder.com/tunes/78545
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

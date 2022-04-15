@@ -1,0 +1,23 @@
+X: 62
+T: Belvidere -- Hornpipe
+Z:Bob Puckette  2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+vdc|Bcde dcBc|dBgB bBgd|Bcde dcBc|Aaag fedc|
+Bcde dcBc|dBgB bBgd|cBAG FDEF|G2B2G2:|
+|:BcBA .G2(BG)|DGBG DGBd|BcBA .G2(BG)|FGAB cedc|
+BcBA .G2(BG)|DGBG DGBd|cBAG FDEF|G2B2G2z2:|
+S:https://www.folktunefinder.com/tunes/75234
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/AB.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

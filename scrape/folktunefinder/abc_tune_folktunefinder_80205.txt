@@ -1,0 +1,28 @@
+X:146
+T: Ain Tagweis von den heyligen dreyn kuennigen
+N: A0512B
+O: Europa, Mitteleuropa, Deutschland
+N: Lambacher Hs. fol. 171, von Boehme in moderne Noten uebertragen.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: D
+DDD | AB=cA | GA2z
+AG=FE | DD=CD | =FED2 | z
+DDD | AB=cA | GA2z
+AG=FE | DD=CD | =FED2 | z
+DE=F | GAG=F | G2z
+D | E=FGA | G=FG2
+AGFE | ED=CD | =FED2 | z
+S:https://www.folktunefinder.com/tunes/80205
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

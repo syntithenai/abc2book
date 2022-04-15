@@ -1,0 +1,26 @@
+X:1
+T:4r. Oculus non vidit,
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:D dorian 
+T:Superius.
+N:Original clef, treble
+%1
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+S:https://www.folktunefinder.com/tunes/52700
+S:http://www.laymusic.org/music/bicinia/oculus/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

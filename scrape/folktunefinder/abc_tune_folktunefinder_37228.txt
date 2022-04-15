@@ -1,0 +1,24 @@
+X:5745
+T:Slngpolska
+A:Smland
+M:3/4
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bf1.html
+%%ID:00000bf1
+K:G
+DD G2 AB| cB d2 B2| cc AA FG| AG FE D2|\
+DD G2 AB| cB d2 B2| cc AA FG| AB G4::
+BB AA GG| AG FE D2| BB AA GG| AG FE D2|\
+DD G2 AB| cB d2 B2| cc AA FG| AB G4::
+S:https://www.folktunefinder.com/tunes/37228
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

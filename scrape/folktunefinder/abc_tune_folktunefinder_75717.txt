@@ -1,0 +1,34 @@
+X:21
+T:Bourr\'ee de Plaix
+R:Bourr\'ee \`a 3 temps
+S:Mic Baudimant
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+%%staves [ 1 2 3 ]
+K:Gm
+V:1
+"Gm"d2 e|dcB|"F"ABc|"Bb"BAG|"Gm"d2 e|dcB|"F"cBA|"Gm"G3:|
+V:2
+d2d|d2d|c2c|c2c|B2B|B2B|c2c|c2c:|
+V:3
+b2b|b2b|a2a|a2a|g2g|g2g|a2a|a2a:|
+V:1
+|:"F"A2B|AGA|"Bb"d2B|"Gm"AG2|"F"A2B|AGA|"Bb"dB"D7"A|"Gm"G3:|
+V:2
+|:A2A|A2A|B2B|B2B|c2c|c2c|d2d|d2d:|
+V:3
+|:d2d|d2d|e2e|e2e|f2f|f2f|g2g|g2g:|
+S:https://www.folktunefinder.com/tunes/75717
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Bourre?e a? 3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:150
+T:Nancy Dawson's Hornpipe
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:none
+N:mss a bit confused. looks as though he started to write in in 6/8 (which
+N:is actually written, but crossed out) and then changed his mind halfway
+N:through and altered things. And then somebody else seems to have pencilled in their ideas. The overall impression is more 2/4 than 6/8.
+O:England
+Z:Richard Robinson 
+%%RRN:"for a Country Dance"
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc8.html
+%%ID:00000dc8
+K:G
+G>G (Bc) | dB GB | A2 AB | AF D2 | \
+GG (Bc)  | dB GB | AG FE | D2 D2 ::
+A2 A>B  | AF D2 | d2 de | dB G2 | \
+(cB) cd | ef ge | dB AF | G2 G2 :|
+S:https://www.folktunefinder.com/tunes/43593
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

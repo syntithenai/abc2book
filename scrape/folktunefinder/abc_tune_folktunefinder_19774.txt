@@ -1,0 +1,23 @@
+X: 1
+T: Siciliano [G]
+C: G.Ph.Telemann (TWV 51)
+N: chords by Graham Christian
+N: from Concerto for oboe d'amore and strings in A
+M: 3/4
+L: 1/8
+K: G
+|: GA | "G"B3 c d2 | "C"c3 B "D"A2 | "G"B4 G2 | G4 :|
+"C"e2 | "G"d6- | d2 "C"ef ge | "G"d6- | d2 "C"ef gG | "Am"c3 d c2 | c4 c2 |
+| "D"a4 f2 | d4 "Ddim7"c2 | "G"B3 A "C"c2 | "G"B3 c "D"A2 | "G"G6- | G4 |]
+S:https://www.folktunefinder.com/tunes/19774
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Alice_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Alice_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

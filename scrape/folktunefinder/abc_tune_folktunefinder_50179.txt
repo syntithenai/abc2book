@@ -1,0 +1,26 @@
+X:18731
+T:White Heather Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+D|"G"G2G "D7"FGA|"G"G2G G3|"G"B2B "D7"ABc|"G"B3 -B2B|"D7"c2c A2c|
+"G"B2B G2B|"A7"ABA GFE|"D"D3 -D2D|"G"G2G "D7"FGA|"G"G2G G3|"G"B2B "D7"ABc|
+"G"B3 -B2B|"D7"c2A F2e|"G"d2c B2d|"D"ded "D7"cBA|"G"G3 -G2A||
+K:D
+"D"A2B B2A|Afd A2A|"D"A2f fef|"A7"g3 -g2A|A2e e2d|
+"A7"d2c c3|ded c2B|"A7"B2_B _B2A|\
+K:D
+"D"A2B B2A|Afd A2A|
+"D"a2f d2c|"G"B3 -B2B|B2g g2B|"D"A2f f2d|"A7"c2A ABc|"D"d3 d3||
+S:https://www.folktunefinder.com/tunes/50179
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

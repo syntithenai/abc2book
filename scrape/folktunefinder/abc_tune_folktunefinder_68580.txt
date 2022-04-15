@@ -1,0 +1,27 @@
+X:34
+T: Peter Unverdorben
+N: A0033
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie und Text aus einer Handschrift des 15. Jahrh. des Klosters
+N: St. Georgen (Bibl. Karlsruhe). Mitgetheilt durch None, Anzeiger VI.
+N: Jahrg. Beil. 2 die Melodie.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: C
+D4 | G4A3GE4F4 | D4E2F2G4
+D4 | C4G4A2A2F2F2 | G2G2F4z4
+E4 | F6G2F4D2E2 | E2C2B,2C2E2F2DCB,2 | C8z4
+S:https://www.folktunefinder.com/tunes/68580
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

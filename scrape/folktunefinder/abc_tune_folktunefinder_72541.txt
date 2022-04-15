@@ -1,0 +1,32 @@
+X:84
+T: Schon wieder toent's vom Schacht zurueck
+N: D0094
+O: Europa, Mitteleuropa, Deutschland, Baden, Freiburg i. Brsg.
+N: erste, dritte und fuenfte Zeile rhythmisch korrigiert; Zweiter Teil
+N: des Liedes mehrstimmig; Inzipit = Variante zum Lied
+R: Arbeit, Staende - Lied, Bergmannslied
+M: 2/4
+L: 1/16
+K: G
+ |  |  | D4B,3C | D4D4 | E4F4 | G4z2
+G2 | F2A2G2E2 | E2D2z4
+D4B,3C | D4D4 | E4F4 | G4z2
+G2 | F2A2G2E2 | E2D2z4 | z4
+D4 | A6G2 | F2A2D4 | d6c2 | B4
+D4 | c6B2 | A2A2D4 | e6c2 | B8 | z4
+G4 | G6G2 | A4B4 | c8 | z4
+B2A2 | d8 | d4c4 | B8 | z4
+D4 | A6G2 | F2A2D4 | d6c2 | B4
+D4 | c6B2 | A2A2D4 | e6c2 | B8 | z4
+G4 | G6G2 | A4B4 | c8 | z4
+B2A2 | d8 | d4c4 | B8
+S:https://www.folktunefinder.com/tunes/72541
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Arbeit, staende - lied, bergmannslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

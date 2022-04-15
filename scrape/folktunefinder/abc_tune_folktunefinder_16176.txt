@@ -1,0 +1,22 @@
+X: 1
+T: Polkett efter Finnmark Hellstr\"om
+O: Sweden
+N: A variant of Jenny Lind's polka.
+M: 2/4
+L: 1/16
+K: G
+|: "G"G2B2 "D7"A2c2 | "G"B2d2 d^cd2 | "D7"A2c2 cBc2 | "G"G2B2 BAB2 \
+|  "G"G2B2 "D7"A2c2 | "G"B2d2 d^cd2 | "C"e3d  "D7"dcAF | "G"A2G2 G4 :|
+|: "C"g4 "D7"f3e | "G"e2d2 B3d | "D7"d2c2 A3c | "G"e2d2 B3d \
+|  "C"g4 "D7"f3e | "G"e2d2 B3d | "G"d2dB "D7"c2AF | "G"A2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/16176
+S:http://trillian.mit.edu/~jc/music/abc/polka/P_FinnmarkHellstrom_G2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/P_FinnmarkHellstrom_G2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

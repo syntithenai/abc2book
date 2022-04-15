@@ -1,0 +1,27 @@
+X: 42
+T:Waltz,A. HS.42
+M:3/4
+L:1/4
+Q:80
+S:Henry Stables MS,Cumbria,late19thC
+R:waltz
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:F
+c|f2e/g/|f/e/f/g/a/b/|a2g|f2c|f/a/g/f/e/d/|c2A|cBA|AGc|!
+f2e|f/e/f/g/a/b/|a2g|f2c|fcB|c2B|A2G|(GF)::!
+c|c/d/e/f/g/a/|b/a/g/f/e/d/|c2B|AGc|c2f|G2B|dcE|(GF)::!
+"P"c|c2B|BAA|A2G|GFF|d2c|cB/A/G/F/|B2A|AGc|!
+c2B|BAA|A2G|GFF|EDB|A2G|F2E|(GF):||
+S:https://www.folktunefinder.com/tunes/52745
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

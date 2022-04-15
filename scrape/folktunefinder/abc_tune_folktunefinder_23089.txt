@@ -1,0 +1,29 @@
+X:2638
+T: Hop-Two-Three  % -----
+O:england
+C: TTF
+M: 2/4
+S: Toss the Feathers CD "Next Round"
+P: AABCBC
+K: Em
+P: A
+"Em"EEBE GABG | EEBE "D"AFDF | "Em"EEBE AGAB | "D"dBAd "Em"BE E2 :|
+"Em"efge "D"fgaf | "Em"gfed edBd | efge "D"fgaf | "Em"gfed Be e2 |
+"Em"efge "D"fgaf | "Em"gfed efga | "D"bgaf gfed | "Em"e2 BA GEFD ||
+P: B
+"Am"A2e2 g2 eg | "G"edBA GABG | "Am"A2e2 g2 eg | "G"edBe "Am"dAAA |
+"Am"A2e2 g2 eg | "G"edBA GABc | "D"dBcA BGAF | "Em"GE (DG) "Am"EAAA ||
+P: C
+"Am"A2 AB cBAG | "G"EADA GABG | "Am"A2 AB cBAG | "G"EADA BAGB |
+"Am"A2 AB cBAG | "G"EADA GABc | "D"dBcA BGAF | "Em"GE (DG) "Am"EAAA ||
+S:https://www.folktunefinder.com/tunes/23089
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

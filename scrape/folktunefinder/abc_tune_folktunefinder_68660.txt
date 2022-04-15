@@ -1,0 +1,29 @@
+X:114
+T: Jungbrunnen
+N: A0133A
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 44
+R: Romanze, Ballade, Lied
+M: 4/1
+L: 1/2
+K: D
+=C2 | D2E2=F2D2 | =C4D3
+E | =F2G2E4 | D4z2
+=C2 | D2E2=F2D2 | =C4D3
+E | =F2G2E4 | D4z2
+D2 | A2A2A2G2 | G4A2
+G2 | =F2E2D2D2 | A,4z2
+A,2 | D2=C2D2E2 | =F4E2
+D2 | =F3ED2A2 | G4E4 | D6
+S:https://www.folktunefinder.com/tunes/68660
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

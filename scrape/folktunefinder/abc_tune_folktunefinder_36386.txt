@@ -1,0 +1,36 @@
+X:1535
+T:Duncan Johnstone
+B:CM
+C:P.M. D. MacLeod
+M:2/4
+O:Scotland
+R:Reel
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000820.html
+%%ID:00000820
+K:A mixolydian
+e|\
+Aeed edde|eABd e2g2|GddB dBBd|egde BdGB|\
+Aeed edde|eABd e2g2|eaag egBd|e2A2 A2::\
+AB|\
+Aaag aeef|gefd e2dB|GddB dBBd|egde BdGB|\
+|1  Aaag aeef|gefd e2dB|AAAB egBd|e2A2 A2\
+:|2 Aeed edde|eABd e2g2|eaag egBd|e2A2 A2|:\
+gf|\
+eAA2 Aeed|BAAB e2ge|dGGG dBBd|egde BdGB|\
+eAA2 Aeed|BAAB e2g2|eaag egBd|e2A2 A2::\
+g2|\
+aaag aeeg|aaag e2ef|gaae degf|egde BdGB\
+|1  aaag aeef|aaag a2ef|gaag egBd|e2A2 A2\
+:|2 e2de Aede|eABd e2g2|eaag egBd|e2A2 A2|]
+S:https://www.folktunefinder.com/tunes/36386
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

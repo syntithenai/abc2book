@@ -1,0 +1,30 @@
+X: 1
+T: The Golden Anniversary
+C: John Campbell
+R: strathspey
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces 1
+K: A
+d \
+| "A"c<A ~A2 a>e "(D)"f<a | "A"A>B c>e "Bm"f>B "E7"B<d \
+|  "A"c<A ~A2 a>e "(D)"f<a | "E7"e>c B>d "A"c<A A :|
+B \
+| "A"A>B c<f e>c B<c | "A"A>B c>e "D"f>e f<a \
+| "A"A>B c<f e>c B<c | "E7"E>F A>B "A"c<A A> |
+B \
+| "A"A>B c<f e>c B<c | "A"A>B c>e "D"f>e f>g \
+| "(A)"a>b a>g "D"f>e a>f | "E7"e>c B>d "A"c<A A |]
+S:https://www.folktunefinder.com/tunes/19372
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GoldenAnniversary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GoldenAnniversary_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

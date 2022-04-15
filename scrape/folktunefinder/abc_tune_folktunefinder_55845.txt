@@ -1,0 +1,30 @@
+X:242
+T:Stars and Stripes Forever ( octave)
+T:With Web-footed Friends 
+C:John Philip Sousa Lyrics by Fred Allen
+N:Arrangement by Jo Anne Rocke
+Z:B Quern & S Gowan
+L:1/4
+M:C|
+K:C
+P:Intro
+c2 B>c|Ac2d|_e=ef^f|gz"G7"g2||
+P:A
+"C"ez/2.e/2"E7".e.e|"Am"ez/2.e/2"Dm".f.f|"G"(d/2^c/2).d/2.e/2 "D7".d=c|"G7".B.A.B.G|
+"C"gz/2.g/2"G7".g.g|"C"g z/2 g/2 "E7" .^g .g|"Am"(a/2^g/2).a/2.c'/2 .b.a|"E"^g3g|
+"C"gz/2g/2 c'z/2a/2|.g .^f.g.e|"G"d "// Tacet"g/2^f/2g/2f/2 g|"G"d "// Tacet"g/2^f/2g/2f/2 g|
+"C"gz/2g/2 c'z/2a/2|.g . ^f.g._e|"D7"d ^f/2e/2f/2e/2 f|"G"g2 "G7"g>f||
+P:B
+"C"e2(a>g)|"G7"B2 [A2a2]|[G2g2] f2|"C"e2 "C7"d>e|
+"F"fa2c'|"D7"d'2 c'>-c'|"Dm"e4|"G"d2 "G7"g>f|
+"C"e2a>g|"G"B2 [A2a2]|[G2g2] f2|"C"e2 "C7"d>e|
+"F"fad'>c'|"Em"eg"Am"c>e|"Dm"d2-"G7"d2|"C"c2 "C7"C2||
+S:https://www.folktunefinder.com/tunes/55845
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

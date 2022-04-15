@@ -1,0 +1,27 @@
+X:80
+T: EIN SCHIFFLEIN SAH ICH FAHREN
+N: Z0080
+O: Europa, Mitteleuropa, Deutschland, Westfalen; Pommern
+R: Sagen - Lied, Romanze, Soldaten - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G3GG2A2 | B4Gz
+Bc | d2d2dcc2 | B4z2
+B2 | d2d2d2ed | dcc2z2
+dc | BBBBB2AG | BAA2z2
+dc | B2G2G2dc | B2G2G2
+dc | BABcBABc | BABcd2
+e2 | d4c2cc | B4A2
+A2 | B2A2B2cc | d4G2
+S:https://www.folktunefinder.com/tunes/68939
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

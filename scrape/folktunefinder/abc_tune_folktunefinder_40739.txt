@@ -1,0 +1,31 @@
+X: 56
+T:Nancy of the Dale. WCl.56
+M:C
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+N:Bar 5 notes 2,3,4 presumably intended as triplet, but not marked in MS
+Z:vmp.Barry Callaghan
+K:D
+A2|d3e d3f|B2 G>FE2A2|D2(d2{de}f2) (ed)|e4z2e2|!
+c2"not triplet in ms" ((3BA^G) A2f2|(e<c)(BA) d2B2|(e/c/d/e/ f)((3B/c/d/
+) c2 "tr"B2|A4z2A2|!
+e3dc2((3BA^G)|F2A2d4|f2edc2B2|F4z2B2|g3fe3d|!
+c2(d/2e/2f)G2(B>G)|(FA)A2A2(B>c)|d4z2(d3/2e/4f/4)|(d<B)B2z2(e3/2f/4g/4)|
+S:https://www.folktunefinder.com/tunes/40739
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

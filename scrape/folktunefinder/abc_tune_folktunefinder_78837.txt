@@ -1,0 +1,32 @@
+X:396
+T: PRINZ EUGENIUS DER EDLE RITTER
+N: E0324A
+O: Europa, Mitteleuropa, Deutschland
+R: historisches Lied, Prinz Eugen (1717)
+M: 3/4
+L: 1/16
+K: G
+D2D2 | G3GG2G2G2A2 | B4B4
+G2A2 | B4d4 | d2c2c2B2
+A2G2A2B2c2B2 | A8
+D2D2 | G3GG2G2G2A2 | B4B4
+G2A2 | B4d4 | d2c2c2B2
+A2G2A2B2c2B2 | A8
+d2c2 | B4d4 | e2d2c2B2
+A2G2 | A4c4 | d2c2B2A2
+G2G2 | G4B4A2A2 | G8
+d2c2 | B4d4 | e2d2c2B2
+A2G2 | A4c4 | d2c2B2A2
+G2G2 | G4B4A2A2 | G8
+S:https://www.folktunefinder.com/tunes/78837
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, prinz eugen (1717)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

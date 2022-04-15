@@ -1,0 +1,26 @@
+X:548
+T: EINE HAND VOLL ERDE
+N: F1067
+O: Europa, Mitteleuropa, Deutschland
+R: Trauer -, Bregraebnis -, Trost - Lied
+M: 2/4
+L: 1/8
+K: F
+ | AABB | c2Az
+BBAA | A2Gz
+AABB | c2dz
+ccEE | F3z
+AABB | c2Az
+BBAA | A2Gz
+AABB | cf2d
+ccEE | F2z2
+S:https://www.folktunefinder.com/tunes/70108
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Trauer -, bregraebnis -, trost - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

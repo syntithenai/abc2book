@@ -1,0 +1,41 @@
+X:16522
+T:The Bridge of Perth
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:set by Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=88
+N:initial repeat sign printed at the start of the first part
+N:bar 5 in last part printed as |{gAGAG}Aeag {a}gg{eg}ec|
+K:Hp
+{gAGAG}A2 {gef}eA     {d}c{e}A{g}fe   |  {g}ce{gAGAG}Ae    a>e {gcd}c2 |\
+{gAGAG}A2 {gef}eA     {d}c{e}A{gef}ec |  {g}Bd{e}G{d}B  {a}g>d {gBd}B2 |
+{gAGAG}A2 {gef}eA     {d}c{e}A{g}fe   |  {g}ce{gAGAG}Ae    a>e {gcd}c2 |\
+    {g}A{d}c{gef}ed   {g}ce{g}A{d}c   |  {g}Bd{e}G{d}B  {a}g>d {gBd}B2||
+{gAGAG}Aaea          {cA}caea         | {cA}ca{eg}ef  {gef}e>A {gcd}c2 |\
+{gAGAG}Aaea              c2{GdG}e>f   | {gf}gaeg      {ade}d>G {gBd}B2 |
+{gAGAG}Aaea          {cA}caea         | {cA}caef      {gef}eA{d}ce     |\
+       af{a}ge        {g}fd{gef}ec    |  {g}Bd{e}G{d}B  {a}g>d {gBd}B2||
+    {g}A2 {dAe}A>{d}c {g}A2{dAe}A>{d}c|{gef}e3{g}A/a/  {eg}eA  {gcd}c2 |\
+    {g}A2 {dAe}A>{d}c {g}A2{dAe}A>{d}c|{gBd}B2{e}G>g  {ade}d>G {gBd}B2 |
+    {g}A2 {dAe}A>{d}c {g}A2{dAe}A>{d}c|{gef}e3{g}c/e/      ae  {gcd}c2 |\
+    {g}A2 {dAe}A>{d}c {g}Ae{g}A{d}c   |{gBd}B2{e}G>g  {ade}d>G {gBd}B2||
+{gAGAG}Aeag           {a}fa{eg}ec     |{gef}e2{AGAG}Aa {eg}eA  {gcd}c2 |\
+{gAGAG}Aeag           {a}fa{eg}ec     |  {g}Bd{a}ge   {gde}d>G {gBd}B2 |
+{gAGAG}Aeag           {a}fa{eg}ec     |{gef}e2{AGAG}Aa {eg}eA{d}ce     |\
+    {g}faef           {g}de{g}cd      |  {e}Bg{a}fg   {ade}d>G {gBd}B2|]
+S:https://www.folktunefinder.com/tunes/37893
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

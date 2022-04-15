@@ -1,0 +1,29 @@
+X: 1
+T: Carnavalito
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: D
+|: "D"D.F2A "G"B.d2B | "D".A2.F2 D4 | "A7"E.F2G E.F2E |1 "D".D2.F2 A4 :|2 "D".D2.[A2D2] D4 :|
+|| "D"A2d2 A2d2 | f3d A4 | F2A2 F2A2 | d3A F4 | D2F2 D2F2 |
+| A3F D4 |  E.F2A "A7"B.A2F | "D"DDCD "D7"EFGA |: "G"BB2B BB2B |
+| BG2B d3B | "D"AA2A AA2F | AF2A d3A | "A7"GG2G GE2G |
+| GE2G c3A | "D"FF2A "A7"BA2F |1 "D"DDCD "D7"EFGA :|2 "D".D2.D2 D4 |]
+S:https://www.folktunefinder.com/tunes/5353
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/Carnavalito.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Carnavalito.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Carnavalito.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Carnavalito
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Carnavalito.txt
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Carnavalito.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

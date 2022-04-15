@@ -1,0 +1,25 @@
+X:168
+T: ES GING AMOL A BETTELSMANN HERAUS
+N: Z0167
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/16
+K: G
+D2 | G2BGA2cA | GGBGA2
+D2 | G2B2d3B | ddBGA2
+A2 | B2d2c3B | d2cBA2
+A2 | c2BAc2BA | B2D2G2
+B2 | c2BAc2BA | B2D2G2
+S:https://www.folktunefinder.com/tunes/69027
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

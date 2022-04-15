@@ -1,0 +1,26 @@
+X:5360
+T:Schottis fr Barsebck
+M:4/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000871.html
+%%ID:00000871
+K:D
+AG|\
+F2AG E2GF|D2FA d2d2|cege cdec|dfdB A2AG|\
+G2AG E2GF|D2FA d2d2|
+cege cdec|d6::\
+A2|\
+Affd A2AA|Affd B2B2|
+Bgge eccA|Aaaf fddA|\
+Affd A2AA|Affd B2BB|Bgge cdef|d2d2 d2:|
+S:https://www.folktunefinder.com/tunes/37151
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

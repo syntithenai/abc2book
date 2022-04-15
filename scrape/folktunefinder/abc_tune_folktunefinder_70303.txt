@@ -1,0 +1,32 @@
+X:173
+T: Der Tyroler und sein Kind (3-11), S. 30f
+N: K1148
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Tod, melancholisch]
+M: 3/4
+L: 1/16
+K: F
+A4 | B2G2e6d2 | c2F2A6c2
+c2=B2_B2A2B2d2 | c4z4
+A4 | B2G2e6d2 | c2F2A6
+c2 | c2=B2_B2A2B2E2 | F4z4
+A4 | G3GA4=B4 | c2d2e6
+e2 | e2d2f6=B2 | e2G2c4z2
+c2 | c2B2_ed4zc2 | B3AA4z2
+A2 | A2G2B6E2 | G3FF4z2
+c2 | d2e2f6d2 | e2d2c6
+c2 | c2=B2_B2A2B2E2 | F4z4
+S:https://www.folktunefinder.com/tunes/70303
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Tod, melancholisch]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

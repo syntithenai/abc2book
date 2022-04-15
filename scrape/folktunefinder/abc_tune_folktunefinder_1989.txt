@@ -1,0 +1,33 @@
+X: 52
+T:March. JMP.052
+M:C
+L:1/8
+Q:174
+C:"57"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+"key D in MS"D/E/F/ | G2 B>G A2 c>A  | B>gf>e d2 (c>B) |\
+ "tr"c2  e>c "tr"B2 d>B | A>GA>B A>cB>A |! 
+ G2 B>G A2 c>A  | B>gf>e d2 ((3Bcd) |\
+e2 c>e "tr"f2 ((3def) | g2 G>G G2 :|!
+|: B>c | d2 d>d d2 ((3BdB) |\
+G2 G>G G2 e>g | g>fe>d B>dG>B | A2 A>A A2 ((3DEF) |!
+G2 B>G A2 c>A  | B>gf>e d2 ((3Bcd) | e2 ((3cde) f2 ((3def) |\
+g2 G>G G2 :|]
+S:https://www.folktunefinder.com/tunes/1989
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

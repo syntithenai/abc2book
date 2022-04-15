@@ -1,0 +1,27 @@
+X: 1
+T: Lady Marie Parker
+C: Niel Gow
+R: strathspey
+B: Annie Shand "Old Scottish Music collected and adapted for SCD" #12
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+|: "A"c4 B3A ce3 c4 | "D"d3c B2A2 "E7"G2B2 E4 \
+|  "A"c4 B3A ce3 c4 |1 "E7"AGFE F3G "A"A4 A4 :|2 "A"agfe "E7"f3g "A"a4 e2fg |]
+[| "A"a3e "D"f3e "A"a3A dcBA | "E7"G3B E3B G3B E4 \
+|  "A"a3e "D"f3e "A"a3A dcBA | "E7"(3G2A2B2 (3E2F2G2 "A"A4 e2fg |]
+[| "A"a3e "D"f3e "A"a3A dcBA | "E7"G3B E3B G3B E3B \
+|  "A"A3c "E7"B3d "A"c3e "D"df3 | "A"agfe "E7"f3g "A"a4 A4 |]
+S:https://www.folktunefinder.com/tunes/19450
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyMarieParker_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyMarieParker_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

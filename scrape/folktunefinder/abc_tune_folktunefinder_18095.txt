@@ -1,0 +1,24 @@
+X: 1
+T:Seany Dorris'
+D:Deanta 1st
+M:4/4
+L:1/8
+R:Reel
+K:DMin
+FD (3DDD AD (3DDD|d2de dcAG|FD (3DDD AD (3DDD|EDCD EGcG|
+FD (3DDD AD (3DDD|d2de dcAG|F2cF dFcF|1E2EF EDCE:|E2EF EDC2|]
+K:G
+fd (3ddd fdad|f2fg fede|fd (3ddd fdad|cBAB cBA2|
+fd (3ddd fdad|f2fg fedB|c2gc acgc|B2Bc BAGd:|
+S:https://www.folktunefinder.com/tunes/18095
+S:http://trillian.mit.edu/~jc/music/abc/reel/SeanyDorris.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SeanyDorris.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

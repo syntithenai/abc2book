@@ -1,0 +1,27 @@
+X:95
+T: ACH EDLER GRAF VON LUETZELBURG
+N: B0124
+O: Europa, Mitteleuropa, Deutschland
+N: modulierender Schluss
+R: Ballade, Romanze
+M: 6/8
+L: 1/16
+K: C
+G,2 | C4C2D2C2B,2 | C4A,2G,4
+D2 | E4D2C2E2D2 | G,2C2B,2C4
+E2 | F4E2D2C2D2 | E4D2C4
+C2 | D2E2D2C4D2 | C4B,2A,4
+DG, | C4B,2C2D2E2 | D2C2B,2A,4
+S:https://www.folktunefinder.com/tunes/78116
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

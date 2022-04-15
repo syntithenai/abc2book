@@ -1,0 +1,26 @@
+X:678
+T: IHR CHRISTEN GROSS UND KLEIN
+N: E2079
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Neisse
+R: geistlich, Marien - Lied
+M: 4/4
+L: 1/8
+K: F
+C2 | F2FAA2G2 | F4z2
+FG | A2Acc2B2 | A4z2
+GA | B4A2A2 | G4z2
+cA | G2GFE2FA | G4z2
+cA | G2GFE2FA | G4z2
+GB | A4G2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/79782
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, marien - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 47
+T: Whiskey Before Breakfast
+M: 4/4
+L: 1/8
+R: Reel
+K: D
+| A,DFG A2 A2 | ABAG FEDF | G2 BG F2 AF | EDEF EDCB, |
+| A,DFG A2 A2 | ABAG FEDF | G2 BG F2 AF | EDEF D4 :|
+|: A d2 A d2 d2 | cded cB A2 | B e2 B e2 ef | gfed cABc |
+| d2 fd c2 ec | BABc BAFA | G2 BG F2 AF | EDEF D4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12997
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

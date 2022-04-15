@@ -1,0 +1,36 @@
+X: 1
+T: Bonnie Lesley
+C: Robert Burns
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+[| d>c \
+|| "G"cBAG G2G2 | G4 D3E | "F"=F3G F2F2 | A2c2- "D7"c2d>c \
+|  "G"cBAG G2G2 | G4 D2G2 | "Em"B2AB "C"cBAG | "G"B2d2- "D7"d2 |]
+[| ef \
+|| "G"g2d2 e2B2 | "C"c4 "F"=f3c | _BAG=F F3G | A2c2- "D7"c2d2 \
+|  "G"cBAG "D7"A2D2 | "G"B3c  "Em"d2g2 | "C"gfef g2G2 | "G"B2d2- "D7"d2 |]
+%%sep 5 5 234
+K:C
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+S:https://www.folktunefinder.com/tunes/15349
+S:http://trillian.mit.edu/~jc/music/abc/march/BonnieLesley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/BonnieLesley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BonnieLesley.abc
+S:http://trillian.mit.edu/~jc/music/book/500/BonnieLesley_x.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

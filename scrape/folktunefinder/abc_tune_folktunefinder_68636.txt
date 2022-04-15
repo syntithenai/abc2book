@@ -1,0 +1,27 @@
+X:90
+T: Tagelied
+N: A0105
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III 1549 No. 6.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+C4A,2B,2 | C4z2C2 | D2D2C4 | z2
+C2E2D2 | G4F2E2- | E2DCD4 | C8
+C4A,2B,2 | C4z2C2 | D2D2C4 | z2
+C2E2D2 | G4F2E2- | E2DCD4 | C8
+z4E4 | D2D2C4 | B,2C2A,4 | G,4z2G,2 | A,2B,2C4
+z2C2E2D2 | G4F2E2- | E2DCD4 | C8
+S:https://www.folktunefinder.com/tunes/68636
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

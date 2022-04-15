@@ -1,0 +1,25 @@
+X:530
+T: ICH HAB EIN KLEINES HUETTCHEN
+N: E0516
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: F
+CFG | A3BGA | F3
+AAB | c3dBc | A2z
+FFF | d3dfd | c2A
+ccc | B2Gccc | A2z
+FFF | d3dfd | c2A
+ccc | B2Gccc | A2z
+S:https://www.folktunefinder.com/tunes/78971
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

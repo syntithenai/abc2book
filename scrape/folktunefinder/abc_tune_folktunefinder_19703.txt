@@ -1,0 +1,25 @@
+X: 1
+T: Welcome to Your Feet Again
+R: strathspey
+B:
+N: From Terry Traub, as played by Raymond Ellis
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+|: "C"C3E G3A  "G"cE3 D4  |   "C"C3E G3A "Am"c3G AG3 \
+|  "F"F3d E3c  "G"d3E DE3 |1  "C"C3E GA3  "G"c3G Ac3 :|2 "C"C3E GA3 "G"c3G Aa3 ||
+|: "C"gc3 c3a "Dm"g3e d3e | "C/E"gc3 g3a "Am"g3e de3 \
+|  "F"f3g agfe "G"d3c de3 |1  "F"c3G A3G  "G"c3G Aa3 :|2 "F"c3G A3G "C(G)"c3G Ac3 |]
+S:https://www.folktunefinder.com/tunes/19703
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Welcome_to_Your_Feet_Again_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Welcome_to_Your_Feet_Again_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

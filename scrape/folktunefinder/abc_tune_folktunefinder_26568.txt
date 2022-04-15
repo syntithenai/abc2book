@@ -1,0 +1,23 @@
+X:6116
+T:Sly Devil
+O:england
+M:12/8
+L:1/8
+C:Adam Shapiro 1996
+K:GMin
+"Gm"G,3 G,B,D  "Bb"FGE D2 A|"Cm"BAG A^FD "D5"GBA GDB,|
+"Gm"G,3 G,B,D "Bb" FGE D2 A|1"Cm"BAG "D5"A^FD GBA "Gm"GDB,:|2"Cm"BAG "D5
+"A^FD GBA "Gm"G2A||
+"Gm"BcB =BdB "F"cdc d2 g|"Eb"1ag^f gdc "D5"B3 A^FD|
+"Gm"BcB =BdB "F"cdc d2 g|1"Eb"ag^f "F"gdc "D5"BGD "Gm"G,2z:|2"Eb"ag^f "F
+"gdc "D5"BGD "Gm"G,B,A,||
+S:https://www.folktunefinder.com/tunes/26568
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

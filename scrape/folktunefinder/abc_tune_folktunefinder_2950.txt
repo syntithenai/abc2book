@@ -1,0 +1,45 @@
+X: 1
+T: Triti Puti
+S: Aman
+Z: John Chambers <jc@trillian.mit.edu>
+N: The recording goes through twice, and ends with 4 H's.
+M: C|
+L: 1/8
+K: A
+"A"\
+|: "A"eAde cAeA | eAde "E"cAB2 | "A"eAde cAeA | eAc2 "E"B4 :|
+"B"\
+|: "A"Tc3A "E"Td3B | "A"Tc3A deeA | "A"Tc3A "E"Td3B | "A"Tc3A "E"B2BA :|
+"C"\
+|: "A"Tc2BA AEAE | Tc2BA AEeE | "A"Tc2BA AEAE \
+|1 cEeE AEeE :|2 "E"cEBE "A"A4 ||
+"D"\
+|: "A"cdef =gfed | Tc3A cAeA | "A"cdef =gfed | Tc3A "E"B3A :|
+"D'"\
+|: "A"[cA][dB][ec][fd] [=ge][fd][ec][dB] | T[c3A3][AE] [cA][AE][ec][AE] \
+|  "A"[cA][dB][ec][fd] [=ge][fd][ec][dB] | T[c3A3][AE] "E"[B3G3][AE] :|
+"E"\
+|: "A"gaea =gfeg | "D"fAdf "A"edcA | "E"Bcde dcBd | cEBE "A"A4 :|
+"F"\
+|: "E"Bcde "A"Tc3E | "E"BEdE "A"Tc3E | "E"Bcde "A"Tc3A \
+|1 "E"TB3E "A"AEeE :|2  "E"TB3E "A"A4 ||
+"G"\
+|: "D"fAdf "A"edcA | "E"Bcde "A"Tc3A | "E"BEdE "A"Tc3A \
+|1 "E"TB3E "A"A2e2 :|2 "E"B3E "A"A4 ||
+"H"\
+|: "E"BEdE Bcde | "A"cEeE AEeE | "E"BEdE Bcde \
+|1 cEBE "A"A2AE :|2 "E"cEBE "A"A4 |]
+S:https://www.folktunefinder.com/tunes/2950
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/TritiPuti.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/TritiPuti.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TritiPuti.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TritiPuti1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

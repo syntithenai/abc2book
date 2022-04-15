@@ -1,0 +1,25 @@
+X:41
+T:41.  Sawmill River (gdad tuning) 
+C:c 2003 Harry Bolick  
+R:Breakdown
+O:United States
+A:Hastings On Hudson, New York
+M:4/4
+L:1/8
+Q:180
+K:Gm
+ |: "F"  =EF2^F "Gm"GB (B/2A/2)G| "Gm"dd "(Cm)" (c/2B/2)G "Gm"(c/2B/2c/2)d/2 "(Cm)"(c/2B/2)G|
+ "F" (F/2G/2A/2)c/2 "Gm"(B/2A/2)G"Dm" A4| (A/2B/2A/2)G/2 (F/2D/2)=E/2F/2 "Gm" G4:|
+"C" =E (cc/2) B/2A "Gm" G (BB/2) A/2G | "Dm" (d/2c/2d)  (f/2e/2f) g"Gm"g  (f/2e/2)d |
+"(F)" (F/2G/2)A/2c/2 "(Gm)"(B/2A/2)G "Dm"  A2 A2 | (A/2B/2A/2)G/2 (F/2D/2)=E/2F/2 "Gm" G4:|
+S:https://www.folktunefinder.com/tunes/1738
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:296
+%%topmargin 3cm
+T:Rothiemurcus Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+N: The manuscript has no open repeat section indication for the second section. I have added the open repeat section. rp.
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D dorian
+G | TE>DTE>C (EG) TG2 | c>GA>G c>(GA<c) | TE>DTE>C (E<G)G>c | A<cG>c [CE]<[B,D][B,D] :: f | {gf}e2 d>c d>e{/^c}d>B |
+c>de>d (e/d/).c/.B/ {/B}c>G | A/A/A a>g {agf}e2 d>c | A<cG<c T[CE][B,D][B,D] :: f | e<gTg>a (g>a)g>d | e<aTa>b (a>b)a>g |
+e<{/f}gd>e {/B}c>de>c | A<a{/f}g>e ec d<e {/^g}a2 | (g<e)e>d {/B}(c<A)A>c | {/^F}GA{/B}cd {cd}e2 d<c |
+(A<c)G<c [CE]<[B,D][B,D]>f | {gf}e2 (d>c) d<e {/^g}a2 | g<ee>d {/B}(c<A)A(e/f/) | a>e{/f}g>d {/f}e2 (d<c) | A<{/B}cG<c [CE]<[B,D][B,D] :|
+S:https://www.folktunefinder.com/tunes/71325
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

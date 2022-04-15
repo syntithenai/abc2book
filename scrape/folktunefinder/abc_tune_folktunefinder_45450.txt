@@ -1,0 +1,32 @@
+X:16
+T:Steyrer Tanz in F, nr. 26 (Clarinett Taenze)
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in F, s. 54 nr. 26
+N:um1800
+M:3/4
+L:1/8
+K:F
+V:1
+(ef) |\
+"1"gceg b2 | acfa c'2 | gceg b2 | acfacf |\
+"1"gceg b2 | acfa c'2 | gcegbg | f4 :|
+V:2
+cd |\
+eGce g2 | fAcf a2 | eGce g2 | fAcfAf |\
+eGce g2 | fAcf a2 | eGcegc | A4 :|
+S:https://www.folktunefinder.com/tunes/45450
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

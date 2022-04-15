@@ -1,0 +1,33 @@
+X: 30
+T:Black Mountain Reel
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:A
+P:A
+|:A/2B/2| "A"cf/2f/2 e/2c/2A/2B/2|cf/2f/2 e/2c/2A/2B/2|"A"cf/2f/2 "D"e/2c/2A/2B/2|\
+"Bm"c/2B/2A/2F/2 "E"E/2F/2A/2B/2|
+"A"cf/2f/2 e/2c/2A/2B/2|cf/2f/2 e/2c/2A/2B/2|"A"cf/2f/2 "D"e/2c/2A/2B/2|\
+"E"c/2B/2A/2F/2 "A"A:|
+P:B
+A/2B/2|:"A"[ce][c/2e/2][c/2 e/2 ][B/2e/2][c/2e/2][c/2e/2]c/2|\
+"A"c/2B/2A/2F/2 E/2F/2A/2B/2|cc/2c/2 c/2B/2A/2F/2|"E"E/2F/2E/2D/2 "A"C/2B,/2A,:|
+"A"\
+P:C
+[C2E2][CE][B,E]|"A"[A,2E2][CE][EA]|"D"[F2A2]F/2E/2D/2E/2|[F2A2]ED|\
+"A"[C2E2][CE][B,E]|
+"A"[A,2E2]CE|"E"G2 A2|B/2c/2B/2A/2 G/2F/2E/2D/2|"A"[C2E2][CE][B,E]|\
+"A"[A,2E2][CE][EA]|
+"D"[F2A2]F/2E/2D/2E/2|[F2A2]GF|"A"E2 CE|"E"DE FG|A2 -A2|A2 -A||
+S:https://www.folktunefinder.com/tunes/43485
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

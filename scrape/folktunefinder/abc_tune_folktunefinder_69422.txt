@@ -1,0 +1,24 @@
+X:563
+T: "Nachtbesuch"
+N: Z1243
+O: Europa, Mitteleuropa, Steiermark
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: D
+ | A2B3A | A2G2F2
+d2d3F | F2E2E2
+G2G2E2 | F2FddF
+A2G2GC | D2E2F2
+E2G3E | F2FddF
+A2G2GC | D4z2
+S:https://www.folktunefinder.com/tunes/69422
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

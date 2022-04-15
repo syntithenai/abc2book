@@ -1,0 +1,25 @@
+X: 40
+T:LA MONTEE DE BAGE
+M:2/4
+L:1/8
+Q:240
+C:trad. Bresse
+R:marche
+K:G
+G/A/|BB BA/B/|cc cB/c/|dd d/e/d/c/|B/c/B/A/ GG/A/|BB BA/B/|cc cB/c/|d3/2
+d/ ef
+|g3:|:B/c/|dg fg| \
+e2d2|d/e/d/c/ B/c/B/A/|G/F/G/A/ B/A/B/c/|dg fg|e2d2|d/e/d/c/ B/c/B/A/| G
+3:|
+% Output from ABC2Win  Version 2.1 f on 12/05/99
+S:https://www.folktunefinder.com/tunes/39997
+S:http://membres.lycos.fr/michelplatre/RBv1.1/rbbook.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

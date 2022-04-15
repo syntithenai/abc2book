@@ -1,0 +1,50 @@
+X:9747
+T:Loch Maree
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Retreat March
+V:1
+V:2
+M:3/4
+L:1/8
+Q:1/4=86
+K:Hp
+V:1
+{gcd}ce|  {g}A2 {GdGe}A>{d}c   {e}A{d}c  |{gef}e2   {A}e2 {gcd}ce   |\
+        {gfg}f2    {g}A>d      {g}fa     | {fg}f2   {g}e2 {gcd}ce   |
+[1        {g}A2 {GdGe}A>{d}c   {e}A{d}c  |{gef}e2   {A}e2 {gcd}ce   |\
+        {gfg}f2    {g}A>{d}c {gef}e>c    |{gcd}c2   {e}B2          :|
+[2      {gfg}f2    {g}A2       {g}B{GdG}c|{gef}e2   {g}A2   {g}A>B  |\
+        {GdG}c2    {e}A>{d}c {gef}e>c    |{gBd}B2   {G}A2          ||
+{gcd}ce| {ag}a2    {g}af      {ag}a>f    | {gf}e2   {A}e2 {gcd}ce   |\
+        {gfg}f2  {gef}ec      {ag}a>f    |{gfg}f2   {g}e2 {gcd}ce   |
+[1       {ag}a2    {g}af      {ag}a>f    | {gf}e2   {A}e2 {gcd}ce   |\
+        {gfg}f2    {g}A>{d}c {gef}e>c    |{gcd}c2   {e}B2          :|
+[2      {gfg}f2    {g}A2       {g}B{GdG}c|{gef}e2   {g}A2   {g}A>B  |\
+        {GdG}c2    {e}A>{d}c {gef}e>c    |{gBd}B2   {G}A2          ||
+V:2
+{gcd}ce|  {g}A2 {GdGe}A>c    {gcd}c{e}A  |  {d}c2 {GdG}c2   {e}A{d}c|\
+        {Gdc}d2    {e}A>B    {Gdc}df     |{Gdc}d2   {e}c2 {gcd}ce   |
+[1        {g}A2 {GdGe}A>{d}c {gcd}c{e}A  |  {d}c2 {GdG}c2   {e}A{d}c|\
+        {Gdc}d2    {e}c2     {gcd}cA     |{gcd}c2   {e}B2          :|
+[2      {Gdc}d2  {gcd}c2     {gBd}B{G}A  |{gcd}c2   {g}e2 {gcd}c>B  |\
+          {g}A2    {d}c2     {gcd}c>{e}A |{gBd}B2   {G}A2          |]
+{gcd}ce|  {g}f2    {g}fd       {g}f>d    | {gd}c2 {GdG}c2   {e}A{d}c|\
+        {Gdc}d2  {gcd}c{e}A    {g}f>d    |{gde}d2   {e}c2 {gcd}ce   |
+[1        {g}f2    {g}fd       {g}f>d    | {gd}c2 {GdG}c2   {e}A{d}c|\
+        {Gdc}d2    {e}c2     {gcd}cA     |{gcd}c2   {e}B2          :|
+[2      {Gdc}d2  {gcd}c2     {gBd}B{G}A  |{gcd}c2   {g}e2 {gcd}c>B  |\
+          {g}A2    {d}c2     {gcd}c>{e}A |{gBd}B2   {G}A2          |]
+S:https://www.folktunefinder.com/tunes/61780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Retreat march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

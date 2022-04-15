@@ -1,0 +1,25 @@
+X:3
+T: Liebesklage
+N: D0003
+O: Europa, Mitteleuropa, Lothringen, Altripp
+N: Taktwiederholung; Inzipit = Transposition zum Lied
+R: Liebes - Klage
+M: 4/4
+L: 1/8
+K: D
+A2 | A2A2G2A2 | =c2B2A2G2
+c2B2A2G2 | A2=F2E4
+A2A2D2EF | G2=FED2=C2
+F2G2A2G2 | =F2E2D2
+S:https://www.folktunefinder.com/tunes/72460
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

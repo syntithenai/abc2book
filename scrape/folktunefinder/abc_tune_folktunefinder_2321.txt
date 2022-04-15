@@ -1,0 +1,40 @@
+X:1
+T: Praeludium II (WT II)
+C: J.S. Bach
+M: C
+L: 1/16
+K:Cm
+V:RH clef=treble staves=2 brace=2 name="2."
+V:LH clef=bass
+[V:RH]  zGFG AFEF GEDE FDCD   | E2c2F2c2 E2c2D2=B2  |
+[V:LH]  c2c'2f2c'2 e2c'2d2=b2 | cgfg bfef gede fdcd |
+%
+[V:RH]  CEGc Dc=B=A DGBd EdcB | EAce Fedc FBdf Gfed | ecBc dBAB cBAG Fzz2|
+[V:LH]  e2c2f2d2 g2f2g2e2     | a2g2=a2f2 b2a2=b2g2 | c'a'g'a' bg'f'g' a2 z2ze'd'c'|
+%
+[V:RH]  dBAB cAGA BAGF Ezz2          | cAGA BGFG AFEF TA2A2           |
+[V:LH]  bg'f'g' af'e'f' g2Z2 z_d'c'b | af'e'f' ge'd'e' fd'c'd' ec'bc' |
+%
+[V:RH]   AGFG TA2A2 Adfe dcBA | GBeG FeFd eBAB cAGA |
+[V:LH]   dgfg caga B2b2 z2 d2 | e2c2A2B2 E2e2A2e2   |
+%
+[V:RH]   BGFG AFEF GEDE C2A2 | B,2G2A,2F2 G,B,EG- GFED | EGcF BEAD [B,8EG] :|
+[V:LH]   G2e2F2d2 egfg afef  | gede fdcd e2g2a2b2      |c'2a2b2B2 zeBG C4  :|
+S:https://www.folktunefinder.com/tunes/2321
+S:http://trillian.mit.edu/~jc/music/abc/test/Bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/Bach_Praeludium_II.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/ABC2PS-14x2/bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abc2ps/bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Bach_Praeludium_II.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Bach_Praeludium_II.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Bach.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Bach_Praeludium_II.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

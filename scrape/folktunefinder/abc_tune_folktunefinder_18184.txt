@@ -1,0 +1,29 @@
+X: 1
+T: Sweet's the Name of Peggy
+C: Elmer Briand (1922-1992)
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: Emix
+|: "E"eBGE GBBc | "D"dAFD FAgf \
+|  "E"eBGB egbg | "B7"aBfa "E"gee2 :|
+[| "E"ebgb ebge | "D"defg adfd \
+|  "E"ebgb ebge | "D"defa "E"gee2 |]
+[| "E"ebgb ebge | "D"defg afdf \
+|  "E"bgaf ge"D"fd | "C"e=gfa gb"D"af |]
+S:https://www.folktunefinder.com/tunes/18184
+S:http://trillian.mit.edu/~jc/music/abc/reel/SweetsTheNameOfPeggy_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SweetsTheNameOfPeggy_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/SweetsTheNameOfPeggy_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SweetsTheNameOfPeggy_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SweetsTheNameOfPeggy_E.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

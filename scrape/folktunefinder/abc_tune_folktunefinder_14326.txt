@@ -1,0 +1,24 @@
+X:1
+T:Holm Band Jig
+S:Jack Campin <jc:purr.demon.co.uk> scots-l 2001-8-24
+Z:from Ian King's messy version which probably came from MIDI
+M:6/8
+L:1/8
+%Q:3/8=73
+K:A
+ E|A>AA c>BA|F>FF d>zf|e>cA G>AB|c>Ac B>zE|
+   A>AA c>BA|F>FF d>zf|e>cA G>AB|c>AA A>z:|
+ E|A>ce a>ga|e>cA d>zf|e>cA G>AB|c>Ac B>zE|
+[1 A>ce a>ga|e>cA d>zf|e>cA G>AB|c>AA A>z:|
+[2 A>AA c>BA|F>FF d>zf|e>cA G>AB|c>AA A2 |]
+S:https://www.folktunefinder.com/tunes/14326
+S:http://trillian.mit.edu/~jc/music/abc/jig/HolmBandJig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HolmBandJig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HolmBandJig_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 235
+T: Bally Patrick
+B: O'Neill's 235
+N: "With spirit"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The second part has 15 bars.
+M: 3/4
+L: 1/8
+K:G
+D2 \
+| (D2 G2) .G2 | G3 (FGA) | .B2 .B2 .B2 | B3 z(BA) \
+| .G2 .G2 .G2 | G3 (cBG) | (A2 F2) .D2 | D3 zBc |
+| .d2 .d2 .d2 | g2 d2 B2 | B2 A2 B2 | c3 (def) \
+| d2 B2 G2 | G3 ABG | F2 D2 D2 | D4 ||
+|| DE \
+| G4 GA | B2 B2 (cB) | A2 G2 z(B/c/) | (~d3 e)(=fe) \
+| dc B2 cA | ({AB}A2 G2) G2 | G3 (EDC) | (.B,2 .C2 .D2) |
+| G4 (GA) | B2 B2 cB | A2 G2 Bc | (~d3 e)(=fe) \
+| dc TB2 cA | {AB}A2 G2 G2 | G4 ||
+S:https://www.folktunefinder.com/tunes/80513
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0235_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

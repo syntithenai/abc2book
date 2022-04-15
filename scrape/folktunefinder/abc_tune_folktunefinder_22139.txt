@@ -1,0 +1,29 @@
+X:1690
+T:Duke John
+R:March
+O:England
+L:1/8
+M:2/4
+%%ID:00000d09
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d09.abc
+K:G
+D | \
+G>F GD | G>F GB | AD FA | c/B/A/G/ FA | \
+G>F GD | G>F GB | Ac FA | G3 ::
+B |\
+d>c Bd | G3 c | BG Bd | c/B/A/G/ FA | \
+GD B>G | EG c2 | FA DF | G3 :|
+S:https://www.folktunefinder.com/tunes/22139
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d09.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

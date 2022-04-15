@@ -1,0 +1,25 @@
+X:11
+T:Rondeau tourn
+O:France
+A:Gascogne
+C:Trad.
+R:Rondeau
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+B2A G3|DEF GFG|B2A G3|DEF G3|B2A G3|DEF GFG|B2A G3|DEF G3||
+G2A B2B|BAB c2c|BcB A2A|AGA B2G|G2A B2B|BAB c2c|BcB A2A|ABA G3|]
+%%footer $D   Galouvielle-MBe 2005 \nRondeau --
+S:https://www.folktunefinder.com/tunes/53310
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

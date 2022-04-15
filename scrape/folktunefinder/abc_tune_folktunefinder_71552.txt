@@ -1,0 +1,27 @@
+X:523
+%%topmargin 3cm
+T:Miss Ann Stewart _ East Craigs
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Gm
+B | G>gg>f g>a{ga}b>g | f>dc>d B>FF>B | G>gg>f g>a{ga}b>g | f>dc>d TB>GG>A | G>gTg>f g>a{ga}b>g |
+f>dc<f A<fF<A | G>gg>f g>a{ga}b>g | (g//f3/4)(e//d3/4) Tc>d BGG || A | TB>cdf Tcdeg | (B/A/B/c/) (B/c/d/c/) B>FF>A |
+[1 TB>cdf Tc>deg | g//f3/4e//d3/4 Tc>d B>GG :| [2 (B/A/B/c/) d>f ( c/B/c/d/) e>g | g//f3/4e//d3/4 (e//d3/4)(c//d3/4) B>GG |]
+S:https://www.folktunefinder.com/tunes/71552
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Ann_Stewart_East_Craigs.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0523.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

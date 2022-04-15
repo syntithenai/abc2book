@@ -1,0 +1,28 @@
+X:1
+T:Mes burons sont morts
+R:Berceuse
+O:France
+A:Berry
+Z:<anamnese@laposte.net>
+M:3/4
+L:1/8
+Q:1/4=60
+K:D
+B f f e f2 | c e d c d/c/B | B f f e f2 | c e d c B2 |
+^A B c B c2 | c e d c d B | ^A B c B c2 | c e d c B2 | 
+W:Mes burons sont morts, raides, raides, raides
+W:Mes burons sont morts, raides, raides morts.
+W:
+W:Y'en a plus que deux, qui suivront leur mre,
+W:Y'en a plus que deux, qui sont vigoureux.
+S:https://www.folktunefinder.com/tunes/39913
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Berceuse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

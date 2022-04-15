@@ -1,0 +1,25 @@
+X:21
+T:F\"ortvivlans polska
+R:sl-polska
+S:efter Johan Jakob Bruun, Sk{\aa}ne
+A:Sk{\aa}ne
+B:SVL Sk{\aa}ne 574
+Z:id:hn-sp-21
+M:3/4
+L:1/16
+K:Ddor
+{b}a^g(ab) (c'b)ag a4 | {e}d(^cd)e (fe)dc d4 | ^f3e d2e2 f2g2 |
+a2(ab) g2(ga) ^f4 :||: .a2.f2 .f2.f2 (ac').c'2 |
+.g2.e2 .e2.e2 (gc').c'2 | .^g2.e2 .e2.e2 (gc')c'c' |
+{b}a2a^g a2ab (c'b)(ag) | {b}a2ag f2fe (d{ed}^c)de | 
+(fe)d^c [A2A2][d2D2] [d4D4]:|
+S:https://www.folktunefinder.com/tunes/62352
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

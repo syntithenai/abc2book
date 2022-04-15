@@ -1,0 +1,26 @@
+X: 1
+T: Chinese Breakdown
+I: Chinese BreakdownS-CDsquare
+%C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+S:https://www.folktunefinder.com/tunes/19111
+S:http://trillian.mit.edu/~jc/music/abc/square/ChineseBreakdown.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/ChineseBreakdown.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

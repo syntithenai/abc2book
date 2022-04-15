@@ -1,0 +1,30 @@
+X: 4
+P: Our Love is Here to Stay [D]
+C: George & Ira Gershwin
+M: C|
+L: 1/8
+K: D
+F2 | "D6"A2A2 F2"C7"B,2 | "D"C2 C4 F2 | "B7"A2A2 "E7"F2B,2 | "B7"C6 F2 |
+"Em7"A2A2 F2"Adim"A,2 | "A9"B,2 B,4 C2 | "D6"EE E4 "Ddim"D2 | "Em"E6 "A7"z2 |
+"G"B2A2 GFG2 | "D"A2 A4 D2 | "E7"(3C2C2C2 C2B,2 | "A7"C8 |
+"G"B2A2 G2F2 | "Cdim"EE E4 "F#7"F2 | "B"^DD2F B,4- | B,4 "E7"D4 | "A9"F8 |
+|: z2A,2 "A7"B,2F2 | "E9"D8 | "Em7"DE2D "A7"E2E2 | "D"D8 | z2A,2 "A7"B,2A2 |
+"E7"F8 | "E(m)7"DE2D "A7"E2E2 | "C9"F4- "B9"F4 | "E7"z2c2 c2B2 |
+"A7"A4 "B7"B3A | "Em7"GGG2 "A7"A3G | "D"F2F2 "Em"A2G2 | "F#7"E2F2 F2E2 |
+"Bm"D2E2 C2D2 | "E7"zE2F ^D2E2 | "Em7"B8 | "A7"z2A,2 B,2F2 |
+"E9"D8 | "Em7"DE2D "A7"E2E2 | "D"D8 | z2A,2 "A7"B,2A2 |
+"E7"F8 | "E(m)7"DE2D "A7"E2E2 | "C9"F4- "B9"F4 | "E7"z2c2 c3B |
+"A7"AAA2 "B7"BB2A | "Em7"GGG2 "A7"AA3 | "C9"zF=EF "B7"A2G2 | "Em7" =E4 "Bdim"B4 |
+"D"z2A2 B2F2 | "Em7"A4 "A9"B,4 | "D"D8 :|
+S:https://www.folktunefinder.com/tunes/16640
+S:http://trillian.mit.edu/~jc/music/abc/program/OurLoveIsHereToStay_Tune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/OurLoveIsHereToStay_Tune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/OurLoveIsHereToStay_Tune.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/OurLoveIsHereToStay_Tune
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

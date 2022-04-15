@@ -1,0 +1,29 @@
+X:65
+T: Frisch auf, ihr Landsknecht alle!
+N: A0417B
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod. M. (1550 - 1560)
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/2
+L: 1/4
+K: G
+d2 | d4d4e2d2 | c4B2c4
+c2 | d4d4g2d2 | d4z2
+d2 | d4d4e2d2 | c4B2c4
+c2 | d4d4A2G2 | =F4z2
+F2G2A2 | _B2d2c2B2A2G2 | =F4z2
+F2 | _B2c2d4 | e2=f2d2e2 | d4z2
+d2 | c2_B2c2d2 | _B4G4
+d4 | =f4e2d4d2 | _B4G4
+d4 | =f4e2d4_B2 | c3_BAGA6 | G8
+S:https://www.folktunefinder.com/tunes/80124
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

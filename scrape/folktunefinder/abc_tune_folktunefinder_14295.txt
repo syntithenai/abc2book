@@ -1,0 +1,25 @@
+X: 1
+T: the Haymakers
+O: Gow's Repository
+B: RSCDS 2-11
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+S:https://www.folktunefinder.com/tunes/14295
+S:http://trillian.mit.edu/~jc/music/abc/jig/HaymakersJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/HaymakersJ_G24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HaymakersJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

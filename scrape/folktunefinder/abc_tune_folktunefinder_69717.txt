@@ -1,0 +1,24 @@
+X:157
+T: SAMMELT EUCH IN TRAUTE REIHN
+N: F0289
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, patriotisch, Neujahr
+M: 3/8
+L: 1/8
+K: C
+ | CEC | G,2G, | CEC | G,2z
+C2G, | A,2D | B,A,B, | C2z
+D2D | E2C | B,2C | DB,G,
+D^CD | E2C | B,2C | DB,G,
+C2C | E2E | A,2C | F3
+FED | C2C | CDB, | C2z
+S:https://www.folktunefinder.com/tunes/69717
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, patriotisch, neujahr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

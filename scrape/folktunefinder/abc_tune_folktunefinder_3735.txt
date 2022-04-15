@@ -1,0 +1,33 @@
+X: 1
+T: Early Arrival
+C: Leslie Lassetter 10 March 2007
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: G
+"A"\
+|: "G"dc.d2 (d2G2) | "Em"(G2A2) (A2B2) | "G"BA.B2 G2e2 | "D"d8  \
+|  "G"dc.d2 (d2G2) | "Em"(G2A2) (A2B2) | "G"BA.B2 G2e2 | "D"d8 ||
+"B"\
+|| "G"(gf).g2 g4 | "C"(gf).g2 g2 | "Em".g2dc e4 | "D"d8 \
+|  "G"(gf).g2 g4 | "Bm".g2dc B4 | "Am".c2.d2 .c2.d2 | "C".c2.d2 .e2.f2 ||
+"C"\
+|| "G"z2.G2 (G2g2) | "C"z2.G2 c4 | "Am"(Bc)B2 A2G2 | "C"(e4 "D"d4) \
+|  "G"z2.G2 z2.B2  | "C"z2.G2 c4 | "Am"BcB2 "C"A2G2 | "D7"D8:|["end" "G"HG4 |]
+%: clap | clap | | | clap | clap
+S:https://www.folktunefinder.com/tunes/3735
+S:http://trillian.mit.edu/~jc/music/abc/England/EarlyArrival.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/EarlyArrival_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/EarlyArrival.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/EarlyArrival.txt
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/EarlyArrival_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

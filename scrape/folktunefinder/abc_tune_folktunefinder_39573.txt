@@ -1,0 +1,32 @@
+X:18
+T:Tambourin
+S:La Belle Vielleuse
+C:Corette
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+%%continueall 1
+L:1/8
+Q:"Allegro"
+K:C
+V:1 name=G
+eccd | eccg | affa | ge e/f/g/e/ | f/g/f/e/ d/e/f/d/ | 
+e/f/e/d/ c/d/e/f/ | gccd | eccg | affa | ge e/f/g/e/ | f/g/f/e/ d/e/f/d/ | e/f/e/d/ c2 :: ecce |
+edGd | dBBd | dcAc | cAAc | BGg2 | gg gf/e/ | fca2 | aa ag/f/ | gf/e/ fe/d/ | e/f/e/d/ c/d/e/c/ |
+dGg2 | g2gf/e/ | dc B/c/d/B/ | cf/e/ d/e/f/d/ | ed/c/ B/c/d/B/ | cf/e/ d/e/f/d/ | ed/c/ B/c/d/B/ | cG g2 | g2 gf/e/ | dc B/c/d/B/ | c2c2 :|
+V:2 name=V
+z4 | gcce | fddf | ec c/d/e/c/ | d/e/d/c/ B/c/d/B/ |
+cg e/d/c/d/ | eccB | ceec | fddf | ec c/d/e/c/ | d/e/d/c/ B/c/d/B/ | cgc2 :: ceec |
+cBBG | GddB | e3e | e2^f2 | gde2 | ee ed/c/ | def2 | ff fe/d/ | ed/c/ dc/B/ | cg/f/ e/f/g/e/ | 
+fde2 | e2 ed/c/ | fe d/e/f/d/ | ed/c/ B/c/d/B/ | cf/e/ d/e/f/d/ | ed/c/ B/c/d/B/ | df/e/ d/e/f/d/ | ed e2 | e2 ed/c/ | Bc GG | c2c2 :|
+%%footer $D   Galouvielle-MBe 2005 \nContredanse France
+S:https://www.folktunefinder.com/tunes/39573
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

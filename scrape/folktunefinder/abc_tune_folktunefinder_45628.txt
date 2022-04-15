@@ -1,0 +1,35 @@
+X:194
+T:Hanslbauer-Steirische (1.)
+C:traditionell
+R:Steirer
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+S:im buch mit der angabe: Diese Steirer stammen aus St.Wolfgang vom Hanslbauern. Leopold Khals hat sich, wie er mir (A.Ruttner -SW) mtteilte, mit der Aufzeichnung redlich geplagt und hat auch bemerkt, dass er nichtalle Steirischen erwischt habe.
+N:im buch ganz in D, zwei stimmhefte, im II. teil nr. 8/1, erster ton 1. stimme a', erster ton 2. stimme f#'
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:C %Transposed from D
+P:Eingang
+"&"(c'bc'e) | g2 (BdfB) | (ce) g2 (fB) || "(klammer) > Eingang" (c3 B c2) |\
+(G3 F G2) | (E3 F E2) | "(klammer unter der klammer) > Uebergang" c6 |]
+V:2
+"&"(agac) | e2 (GBdG) | (Gc) e2 (dG) || "(klammer) > Eingang" (G3 F G2) |\
+(E3 D E2) | (C3 D C2) | "(klammer unter der klammer) > Uebergang" E6 |]
+V:1
+P:1
+(Gg) (eG)(ce) | (fGBd) G2 | (Gg fGBf) | (eGce) G2 |\
+(Gg) (eG)(ce) | (fGBd) G2 | (Gg fGBd) "&"| c2 z2 z2 :|
+V:2
+(Ee) (cE)(Gc) | (BDGB) D2 | (Dd BD) (GB) | (cEGc) E2 |\
+(Ee) (cE)(Gc) | (BDGB) D2 | (Dd BD) (GB) "&"| E2 z2 z2 :|
+S:https://www.folktunefinder.com/tunes/45628
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 37
+T:Prince of Wales' March. JMP.037
+M:2/4
+L:1/16
+Q:100
+C:"37"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:D Major
+A2 | d2ec d2ec | .d2.e2.f2.g2 | f2ge f2ge | f3ga3A |!
+B3c (edcB) | A2a2g2f2 | e3f g2f2 | e2ee e2 :|!
+|:ee | a2ee a2ee | a^gae dcBA | dcdA GFED | A2AA A4 |!
+ a3b/a/ g2f2 | g3a b4 | g3a/b/ f2e2 | f3g a2AA |!
+ d2ec d2ec | .d2.e2.f2.g2 |f2{a}g>{f}e d2c2 | d2dd d2 :|]
+S:https://www.folktunefinder.com/tunes/1974
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

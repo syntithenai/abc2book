@@ -1,0 +1,31 @@
+X: 133
+T:Foxhunter's Reel, The
+R:reel
+D:Arcady: Many Happy Returns.
+Z:Played in G or A. Both versions included.
+Z:id:hn-reel-92
+M:C|
+K:G
+d2BG dGBG|dGBG AGEG|d2BG dGBG|AcBG AGEG:|
+|:~D3B BAGE|DGBG AGEG|~D3B BAGB|AcBG AGEG:|
+|:gedB GABd|gdBd eaaf|gedB GABG|ABcd eA~A2:|
+|:dggf ~g3e|dggd egdB|dggf ~g3d|egdB AGAB:|
+|:G2BG dGBA|GBBG AGAB|G2BG dGBd|egdB AGAB:|
+K:A
+|:e2cA eAcA|eAcA BAFA|e2cA eAcA|BdcA BAFA:|
+|:~E3c cBAF|EAcA BAFA|~E3c cBAc|BdcA BAFA:|
+|:afec ABce|aece fbbg|afec ABcA|Bcde fB~B2:|
+|:eaag ~a3f|eaae faec|eaag ~a3e|faec BABc:|
+|:A2cA eAcB|AccA BABc|A2cA eAce|faec BABc:|
+S:https://www.folktunefinder.com/tunes/66558
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

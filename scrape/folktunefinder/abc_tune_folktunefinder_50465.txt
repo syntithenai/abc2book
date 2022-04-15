@@ -1,0 +1,25 @@
+X:1
+T:Double Fault
+M:4/4
+L:1/8
+Q:C4=112
+C:Paul Rosen
+S:Copyright 2006, Paul Rosen
+R:old time
+K:D
+"D"F2BB AB3|BAFB AFED|F2BB AB3|dBAd "A"BAFA|
+F2BB AB3|BAFB AFED|d2ff ef3|fedf "A"edBA:|
+|:"D"d2ff ef3|fedf "A"edBA|"D"d2ff ef3|dBAd "A"BAFA|
+"D"d2ff ef3|fedf "A"edBA|a3a3 a2-|a2fe dBA2:|
+S:https://www.folktunefinder.com/tunes/50465
+S:http://paulrosen.net/tunes/original_tunes_abc.html
+S:http://www.paulrosen.net/tunes/original_tunes_abc.html
+% Rhythm Old time
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

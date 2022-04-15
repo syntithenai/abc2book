@@ -1,0 +1,27 @@
+X:1
+T:A New Country Dance.
+T:New Year's Day in the Morning.
+S:Musical Miscellanies, EPL qYML 288, p14
+Z:Jack Campin
+S:Nigel Gatherer scots-l 2002-12-30
+M:6/8
+L:1/8
+K:A
+A2c  d2f|eca  cBA|fdf ecA|GBA GFE|A2c d2f|eca cBA|gba gfe|Bc^d e3:|
+Ae=d cBA|=GEG FED|dfe dcB|AFA GFE|gba gfe|dBd cBA|fdf ecA|EFG  A3:|
+S:https://www.folktunefinder.com/tunes/14757
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewCountryDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewYearsDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NewCountryDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NewYearsDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/NewCountryDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/NewYearsDayInTheMorning_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:2549
+T:Cantar de Ronda (CT 102)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de ronda, transcrita en Norea.
+O:Norea
+A:Asturies
+Z:Cancioneru de Torner 102
+M:3/4
+L:1/8
+Q:1/4=76
+W:Fuime a cortexar a Faro, (bis)
+W:en casa de La Temprana, (bis)
+W:por mucho que madrugu
+W:amanecime en la cama.
+K:G
+|:ddd dd3/2B/4c/4|(d3/2 (3e/4d/4c/4) B4|ddd dd3/2B/4c/4|
+(d3/2 (3e/4d/4c/4) B2 c2|d3 BAG/2A/2|(B3/2 (3c/4B/4A/4) G2 z2:||
+S:https://www.folktunefinder.com/tunes/28829
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

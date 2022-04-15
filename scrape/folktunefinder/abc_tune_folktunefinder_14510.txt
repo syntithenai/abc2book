@@ -1,0 +1,27 @@
+X: 1
+T: Lango Lee
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: A
+|: "A"A3 {AB}c3 | "D"B>AB "E7"cAF \
+| "A"E>FA "D"A2f | "A"edc "E7"B2A :|\
+  "A"c>de ef=g | "D"f>ed "E7"{d}cBA |
+| "A"c>de efg | "E7"g3 {fg}a2A \
+|  "A"Ace "D"agf | "A"edc "E7"B2A \
+| "A"AEF "F#m"AEF | "D"Adc "E7"B2A |]
+S:https://www.folktunefinder.com/tunes/14510
+S:http://trillian.mit.edu/~jc/music/abc/jig/LangoLee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/LangoLee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LangoLee_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

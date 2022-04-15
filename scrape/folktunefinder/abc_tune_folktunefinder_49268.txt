@@ -1,0 +1,24 @@
+X: 62
+T:Yallow Stockings
+M:9/4
+L:1/4
+S:Wright 1713
+Z:p
+K:C
+B|c>BAAEAAEB|cA/B/cAEABGB|c>BAAEAAEA|B2GG>AGBG||
+B|c/B/c/d/eB2AAEA|c/B/c/d/e B2A BGB|c>deB2AAEA|BdgBdgBG||
+B|c>dagaA2B|c/B/c/d/egfgG2A|c>de/f/agaA2B|c>de/f/ g2dBG||
+B|c/d/c/B/A GEG C2B|cBAGEFG2B|c/d/c/B/AGE/F/GC2c|B2gd>ed/c/BG||
+B|cegc/d/e/f/gBGB|cegga/g/f/e/fdB|cegcegBGB|cBAGEGA,2||
+% Output from ABC2Win  Version 2.1 f on 05/05/2004
+S:https://www.folktunefinder.com/tunes/49268
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has source text
+% Has_accompaniment_chords No chords

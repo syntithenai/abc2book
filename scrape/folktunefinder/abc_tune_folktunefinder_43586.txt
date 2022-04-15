@@ -1,0 +1,30 @@
+X:115
+T:Flowers of Edinburgh
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+N:2 sharps is definitely what it says. Interesting
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc3.html
+%%ID:00000dc3
+K:D
+(GF/E/) |\
+D3E G3A | BABd B2AG | F3E DEFG | AFdF EFGE |
+D3E G3A | BABd e3g  | B2AG AGAc | B2G2 G2 ::
+d2 |\
+gfga b2ag | fefg a2gf | edef gfed | B2e2 e2g2 |
+dBAG d2cB | edef g3a  | B2AG AGAc | B2G2 G2 :|
+% page 13
+S:https://www.folktunefinder.com/tunes/43586
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

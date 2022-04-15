@@ -1,0 +1,23 @@
+X:1
+T:Bourre  Dechaux
+C:Trad
+R:Bourree
+B:Massif Central Tune Book no 2 number 18
+M:3/8
+L:1/8
+K:G
+DEF|GAB|GA/B/A/G/|F3|DEF|GAB|GA/B/A/F/|G3:|
+ABA|d3|cBA|c3|BAG|AcB|1GA/B/A/G/|F3:|2GA/B/A/F/|G3|]
+S:https://www.folktunefinder.com/tunes/52000
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:14
+T:La Rosa De Los Vientos
+R:waltz
+M:3/4
+L:1/8
+K:Amin
+V:1
+z2 A2 B2|c3B A2|G2 E2 D2|E6|
+z2 A2 B2|c3B A2|G2 E2 D2|E6|
+z2 e2 d2|c3d e2|d2 c2 B2|c6|
+z2 e2 de|c3d e2|d2 c2 B2|A6:||
+z2 A2 B2|c4 E2|B4 E2|A6|
+z2 A2 B2|c4 E2|B4 c2|AG F4|
+z2 A2 B2|c4 e2|d4 e2|e6|
+z2 e2 d2|c3B A2|E2 G2 B2|A6:||
+V:2
+S:https://www.folktunefinder.com/tunes/2111
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

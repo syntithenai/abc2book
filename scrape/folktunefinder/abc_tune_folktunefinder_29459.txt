@@ -1,0 +1,33 @@
+X:3179
+T:Coleccin Feij\'oo: N\'umero 82
+O:Galicia (Spain)
+B:Libro Aires da Terra, de J.L. Calle
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=90
+K:D % 2 sharps
+zf/2e/2 f/2g/2a/2f/2 g/2e/2d2f/2e/2|f/2g/2a/2g/2 a/2b/2a2a/2b/2 c'/2d'/2e'|d'c' ba gf/2a/2 g/2e/2d-|df/2e/2 f/2g/2a/2f/2 g/2e/2d2f/2e/2|
+f/2g/2a/2g/2 a/2b/2a2a/2b/2 c'/2d'/2e'|d'c' ba gf/2a/2 g/2e/2d-|df/2a/2 g/2b/2b/2a/2 f/2a/2g/2b/2 b/2a/2f/2a/2|g/2b/2b/2a/2 f/2a/2b/2a/2 af/2g/2 f/2a/2a/2g/2|
+e/2g/2f/2a/2 a/2g/2e/2g/2 f/2a/2a/2f/2 g/2e/2d-|df/2a/2 g/2b/2b/2a/2 f/2a/2g/2b/2 b/2a/2f/2a/2|g/2b/2b/2a/2 f/2a/2b/2a/2 af/2g/2 f/2a/2a/2g/2|e/2g/2f/2a/2 a/2g/2e/2g/2 f/2a/2a/2f/2 g/2e/2d-|
+dz fg2f ef|gb2a f2 ab-|ba fa d'd'2c'|g2 gg2f ef|
+gb2a f2 ab-|ba fa d'd'2c'|g2 gg2g g2|fe fg b2 af|
+f/2e/2f/2g/2 a/2f/2g/2e/2 d2 f/2e/2f/2g/2|a/2g/2a/2b/2 a2 a/2b/2c'/2d'/2 e'd'|c'b ag f/2a/2g/2e/2 d2|f/2e/2f/2g/2 a/2f/2g/2e/2 d2 f/2e/2f/2g/2|
+a/2g/2a/2b/2 a2 a/2b/2c'/2d'/2 e'd'|c'b ag f/2a/2g/2e/2 d2|f/2a/2g/2b/2 b/2a/2f/2a/2 g/2b/2b/2a/2 f/2a/2g/2b/2|b/2a/2f/2a/2 b/2a/2a f/2g/2f/2a/2 a/2g/2e/2g/2|
+f/2a/2a/2g/2 e/2g/2f/2a/2 a/2f/2g/2e/2 d2|f/2a/2g/2b/2 b/2a/2f/2a/2 g/2b/2b/2a/2 f/2a/2g/2b/2|b/2a/2f/2a/2 b/2a/2a f/2g/2f/2a/2 a/2g/2e/2g/2|f/2a/2a/2g/2 e/2g/2f/2a/2 a/2f/2g/2e/2 d2|
+zf g2 fe fg|b2 af2a b2|af ad' d'2 c'g-|gg g2 fe fg|
+b2 af2a b2|af ad' d'2 c'g-|gg g2 gg2f|ef gb2a f
+S:https://www.folktunefinder.com/tunes/29459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5750
+T:Saint Patrick's Day
+O:england
+R:march
+M:6/8
+L:1/8
+K:G
+~G3 GBd|gfe dBG|cBc AFD|EFE E2D|
+~G3 GBd|gfe dBG|1 cBc AFD|E2F G2D:|2 cde dBG|E2F G2B||
+|:def gag|fed e2B|def gag|fed e2B|
+def gbg|fed efg|GAG GBd|gfe dBG|
+cBc AFD|EFG AFD|GAG GBd|gfe dBG|
+cde dBG|1 E2F G2B:|2 E2F G2D||
+S:https://www.folktunefinder.com/tunes/26202
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

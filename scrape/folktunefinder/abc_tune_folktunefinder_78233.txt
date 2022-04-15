@@ -1,0 +1,31 @@
+X:212
+T: WENNS MAILUEFTERL WEHT
+N: B0250
+O: Europa, Mitteleuropa, Deutschland; Oesterreich
+R: Stimmungs - Lied, Fruehling
+M: 3/4
+L: 1/16
+K: F
+C4 | C4A6B2 | c4
+G6A2 | B4d4c4 | A4z4
+A4 | A2G2G4A2=B2 | d4c4
+=B2A2 | A3GD4F2E2 | C4z4
+C4 | C3GG4A4 | G4F4
+C4 | B4B4c4 | A8
+F4 | F4G4A4 | c4B4z2
+G2 | G4A4=B4 | d4c4z2
+c2 | c4d4e4 | g4f6
+c2 | e4d4B4 | A4z4
+A4 | G4e6d2 | c4C4
+C4 | B4A4G4 | F8
+S:https://www.folktunefinder.com/tunes/78233
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

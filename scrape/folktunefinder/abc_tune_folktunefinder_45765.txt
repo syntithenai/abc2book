@@ -1,0 +1,27 @@
+X:3
+T:3.
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-11-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+Q:"Adagio"
+K:Eb
+V:A treble
+!p!(.E.E)(.E.E) (.[BD].[DB,])(.[DB,].[DB,]) | (.C.C)(.E.E) (FG/A/) (B>.B) | B2z2 z/"esspress."!mf!!tenuto!C/(E/C/) (G/G,/)(B,/G,/) |
+z/!tenuto!A,/(C/A,/) (E/E,/)(G,/E,/)z2 z!p!G, | (CD)GF F2z2 | z2z2!p!B2B2 | G2G2E2B,2 | 
+B,2 zC "allarg."(FG/A/) (B>.B) || [Q:"Allegro"]!p!.G.G.G.G .G.G.G.G | .G.G.G.G .G.G.G.G |
+.D.D.D.D .D.D.D.D | .C.C.C.C .C.C.C.C | .B,.B,.B,.B, .B,.B,.B,.B, |
+.E.E.E.E .E.E.E.E | .F.F.F.F .F.F.F.F | .E.E.E.E .E.E.E.E | 
+.B,.B,.B,.B, .B,.B,.B,.B, | !p!.E.E.E.E .E.E.E.E | .B,.B,.B,.B, B,2z2 | !f!LB,2z2 LC2z2 | 
+F4Hz4 || [Q:"Adagio"]!p!(.E.E)(.E.E) (.[BD].[DB,])(.[DB,].[DB,]) | (.C.C)(.E.E) (FG/A/) (B>.B) | B2z2 z/"esspress."!mf!!tenuto!C/(E/C/) (G/G,/)(B,/G,/) |
+z/!tenuto!A,/(C/A,/) (E/E,/)(G,/E,/)z2 z!p!G, | (CD)GF F2z2 | z2z2!p!B2B2 | G2G2E2B,2 | 
+B,2 zC "allarg."(FG/A/) (B>.B) | "tempo"!p!G2z2E2G2 | C2"allarg."z2!mf!E2z!p!A | A2(GA)B2B,2 |B,8 |]
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/45765
+S:http://michel.bellon.free.fr/Musique/abc/Corelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

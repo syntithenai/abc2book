@@ -1,0 +1,35 @@
+X:729
+T:Vaqueirada (CT 260)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero.
+N:Es propia de los vaqueiros de las braas de Balmonte.
+A:Asturies
+O:Balmonte
+Z:Cancioneru de Torner 260
+M:6/8
+L:1/8
+Q:3/8=88
+K:G
+|A2c ddc|AGA BBc|B3- B2z|
+A2c ddc|AGB AGF|G3- G2z||
+W:En lo alto del puertu
+W:tengo el mio querer.
+W:Maana, vida ma,
+W:te volver a ver.
+W:
+S:https://www.folktunefinder.com/tunes/59616
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

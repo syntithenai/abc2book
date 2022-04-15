@@ -1,0 +1,24 @@
+X: 1
+T: Pirunpojan polkka
+O: Finland
+Z: John Chambers <jc@trillian.mit.edu>
+R: polka
+M: 2/4
+L: 1/16
+Q: 1/4=116
+K: D
+[e2A2] \
+|: "A7"a3e a2a2 | "D"agfe d2d2 | "A7"A2A2 c2cA :|1 "D"d4 d2f2 :|2 "D"d2d2 d4 ||
+|: "A7"A3B =c2A2 | "G"d2d2 "A7"e2e2 | A2c2 c2cc | "Dm"d4 d2z2 :|
+[D2G,2] | [e6A6] [D2G,2] | [e6A6] [D2G,2] | [e6A6] [D2G,2] | H[e6A6] |]
+S:https://www.folktunefinder.com/tunes/13429
+S:http://trillian.mit.edu/~jc/music/abc/folk/PirunpojanPolkka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/PirunpojanPolkka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/PirunpojanPolkka_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

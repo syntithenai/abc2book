@@ -1,0 +1,29 @@
+X:3133
+T:Johnny William's Jig
+O:england
+R:Jig
+S:Jim Mulqueeny, Clare (fiddle).
+H:'c's and 'f's very mobile
+H:A version of 'The Yellow Wattle'
+D:A mysterious tape
+M:6/8
+L:1/8
+K:G
+|:dcA ABG|ABG ABc|dcA ABc|dcA GED|
+dcA ABG|ABG AGE|D2A cde|dcA GED:|
+|:DED c2d|edd dcd|D2A cde|dcA GED|
+DED c2d|edd dcd|efe cde|dcA GED:|
+S:https://www.folktunefinder.com/tunes/23584
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

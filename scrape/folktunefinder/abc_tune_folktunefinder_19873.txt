@@ -1,0 +1,30 @@
+X: 653
+T: Dermot O'Dowd
+C: O'Carolan
+B: O'Neill's 653
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: collected by F.O'Neill.
+M: 3/4
+L: 1/8
+K: Am
+(A>G) \
+| E2 A2 A2 | A2 (BA)(GA) | B2 (Bd) (BA) | G2 E2 D2 \
+| E2 A2 A2 | A2 (BA) (GA) | B2 d2 e^f | g4 ||
+|| (ed) \
+| (edegab) | a2 (ba)(g^f) | g2 (gaba) | g2 ez d2 \
+| e2 (eged) | B4 (A>G) | (E2 A2) A2 | B2 HA2 |]
+S:https://www.folktunefinder.com/tunes/19873
+S:http://trillian.mit.edu/~jc/music/abc/waltz/DermotODowd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/DermotODowd.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/DermotODowd.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/DermotODowd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

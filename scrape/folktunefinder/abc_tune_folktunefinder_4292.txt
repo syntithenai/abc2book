@@ -1,0 +1,26 @@
+X: 2
+T: Ellin polkka
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|:"Am"E2AA AAAB | cBAA AAAB | cBAA AAAB | cBAA AABB |
+| "Am"E2AA "(/G#)"AAAB | "(/G)"cBAA "(/F#)"AAAB | "(/F)"c2d2 "E7"c2B2 | "Am"A4 A4 :|
+|:"Am"eee2 d2c2 | "E7"B2E2 BEBc | ddd2 c2B2 |1,3 "Am"c2A2 AcAc :|2,4 "Am"A2c2 A4 :|
+|:"Am"a4 g4 | "Dm"fede f2d2 | "G7"g4 f4 | "C"edcd e2e2 |
+| "Dm"f2g2 f2e2 | dedc B2B2 | "E7"efed c2B2 | "Am"A2c2 A4 :|
+|:"E7"B2BB B2B2 | "Am"A^GAB c2A2 |1,3 "E7"B2BB B2B2 | "Am"A^GAB c2A2 \
+                                :|2,4 "E7"B2E2 ^F2^G2 | "Am"A4 A4 :|
+S:https://www.folktunefinder.com/tunes/4292
+S:http://trillian.mit.edu/~jc/music/abc/Finland/EllinPolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/EllinPolkka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

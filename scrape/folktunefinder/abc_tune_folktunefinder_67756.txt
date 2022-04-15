@@ -1,0 +1,34 @@
+X: 53
+T:Gocino Kolo
+O:Serbia
+M:4/4
+L:1/8
+Q:1/4=300
+%%MIDI gchord fzzzzzzz
+K:Am
+|:"A" [FA][FA][FA]z [F2A2][E2^G2]|"A" [F2A2]z2 [F2A2][E2^G2]|\
+"A" [F2A2][GB]z [F2A2][E2^G2]|"Dm"[D4F4] [D2F2][C2E2]|
+"Dm"[D4F4] [D2F2][C2E2]|"Dm" [DF][DF][D2F2] [C2E2][B,2D2]|\
+"A" [C2E2][B,2D2] [C2E2][B,2D2]|\
+[1 "C#m"[C4E4][D2F2][E2^G2]:|[2 "A"[B,4E4] [B,4E4]|
+|:"Dm"[DF][DF][D2F2] [D2F2][C2E2]| "A"[F2A2]z2 [F2A2][E2^G2]|\
+"A"[F2A2][GB]z [F2A2][E2^G2]|"Dm" [D4F4] [D2F2][C2E2]|
+"Dm"[D4F4] [D2F2][C2E2]|"Dm"[DF][DF][D2F2] [C2E2][B,2D2]|\
+"A"[C2E2][B,2D2] [C2E2][B,2D2]|\
+[1 "C#m"[C4E4]  [D2F2][E2^G2]:|[2 "A"[C4E4] [C4E4]|
+K:Bm
+|:"A"E2z2 E2E2|"D"D2E2 F4|"A"E2z2 E2z2|"Dm"D4- D2z2|
+"A"C2z2 C2C2|"Bm"B,2C2 D4|"A"C2A,2 B,2C2|"E"B,6z2:|
+|:"A"cdcz cdcz|"Bm"B2c2 d2z2|"A"cdcz cdcz|"A"e2z2 z4|
+"A"cdcz cdcz|"Bm"B2c2 d2z2|"A"c2A2 B2c2|"E"B6 z2:|
+|:"A"cdcz cdcz|"E"B2cd eeez|"A"cdcz cdcz|"A"e4 z4|
+"A"cdcz cdcz|"E"B2cd eeez|"A"c2A2 B2c2|"E"B6z2:|
+S:https://www.folktunefinder.com/tunes/67756
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

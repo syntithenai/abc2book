@@ -1,0 +1,25 @@
+X:086
+%%topmargin 3cm
+T:Mrs. General Campbell's Reel
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:Am
+e | Tc>A A/2A/2A EAAc | BGdB gded | Tc>A A/2A/2A EAAc | BGgB A/2A/2A A :|
+^g | ~(aga)!wedge!b abae | gbeg BGdB | ~(aga)!wedge!b abae | degB A/2A/2A A^g |
+abga egdg | Bgdg BGdB | cAdB dega | geg>B A/2A/2A A |]
+S:https://www.folktunefinder.com/tunes/70833
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Mrs_General_Campbells_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

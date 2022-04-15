@@ -1,0 +1,29 @@
+X: 2
+T: In Gradina Lui Ion
+O: Romania
+P: AA (BCA)x3 BCC
+N: From transcription by Ray Rosenstock & Martina Aurian-Blajeni
+M: 3/4
+L: 1/8
+K: D
+"A"\
+[|"D"D2 F4 | "G"GF E3 D | "Gm"GF E3 D | "A"A2 A2 z2 \
+| "D"D2 F4 | "G"GF E3 D | "A7"GF E3 D | "D"D2 D2 z2 |]
+"B"\
+[|"D"[FD][GED] [A3F3D3] [BGD] | [=cAD][BGD] [A3F3D3] [GED] \
+| "D"[FD][GED] [A3F3D3] [BGD] | [=cAD][BGD] [A4F4D4] \
+| [D2B,2] [E4B,4] | [E2B,2] "A"[A4E4A,4] \
+| [AA,][GC] "D"[F3D3] E/D/ | "A"[E2A,2] "D"D2 z2 |]
+"C"\
+[|"D"D2 F4 | "G"GF E3 D | "Gm"GF E3 D | "A"A2 A2 z2 \
+| "D"D2 F4 | "G"GF E3 D | "A7"GF E3 D | "D"D2 D2 z2 |]
+S:https://www.folktunefinder.com/tunes/5705
+S:http://trillian.mit.edu/~jc/music/abc/Intl/InGradinaLuiIon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/InGradinaLuiIon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

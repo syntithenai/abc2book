@@ -1,0 +1,86 @@
+X: 19
+T: Farewell to Erin
+M: 2/2
+L: 1/8
+Q:1/4=170
+% Last note suggests Phrygian mode tune
+K:D % 2 sharps
+% Farewell to Erin
+% (c) SSF February 2006
+V:1
+% Midi 1
+D2  (3FED AD FD| \
+Ad dc de fd| \
+D2  (3FED AD FD| \
+ (3Bcd AF FE =CE|
+D2  (3FED AD FD| \
+Ad d^c de fg| \
+ (3agf  (3gfe fd ec| \
+ (3Bcd AF2<E2F|
+D2  (3FED AD FD| \
+Ad dc de fd| \
+D2  (3FED AD FD| \
+ (3Bcd AF FE =CE|
+D2  (3FED AD FD| \
+Ad d^c de fg| \
+ (3agf  (3gfe fd ec| \
+ (3Bcd AF2<E2F|
+d2 dB AF F2| \
+DF F2 AD FA| \
+dc dB AD FA| \
+ (3Bcd AF2<E2c|
+d2 c2 B2 A2| \
+BA GB AB de| \
+ (3fga ec dc BA| \
+ (3Bcd AF2<E2F|
+d2 dB AF F2| \
+DF F2 AD FA| \
+dc dB AD FA| \
+ (3Bcd AF2<E2c|
+d2 c2 B2 A2| \
+BA GB AB de| \
+ (3fga ec dc BA| \
+ (3Bcd AF2<E2F|
+V:2
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [AFD]z D,z [E=CA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [E^CA,]z D,z [ECA,]z| \
+G,z [AFD]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [AFD]z D,z [E=CA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [E^CA,]z D,z [ECA,]z| \
+G,z [AFD]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [AFD]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,,z [DB,G,]z A,,z [ECA,]z| \
+D,z [ECA,]z G,,z [DB,G,]z| \
+G,,z [AFD]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [AFD]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,,z [DB,G,]z A,,z [ECA,]z| \
+D,z [ECA,]z G,,z [DB,G,]z| \
+G,,z [AFD]z A,,z [ECA,]
+%  <A name="D1X20">
+S:https://www.folktunefinder.com/tunes/81693
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

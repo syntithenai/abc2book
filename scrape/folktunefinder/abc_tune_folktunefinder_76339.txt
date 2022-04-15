@@ -1,0 +1,27 @@
+X:359
+T: Da droben auf jenem Berg (4-58), S. 76
+N: P0619
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Abschiedslied, Liebe]
+M: none
+L: 1/8
+K: G
+D2 | G2GGA2Bd | c2B2A2
+B2 | G2G2A2B2 | c4z2
+Gc | c2GcA2GF | E2D2
+A2 | BAG2c2B2GA | G4
+Gc | c2GcA2GE | E2D2
+A2 | BAGcc2BGA2 | G4
+S:https://www.folktunefinder.com/tunes/76339
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Abschiedslied, liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

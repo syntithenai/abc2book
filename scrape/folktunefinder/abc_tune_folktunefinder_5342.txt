@@ -1,0 +1,26 @@
+X: 1
+T: Branne Bachanalle
+O: France
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: G
+P: Intro
+d2dc B2AG | A2F2 G4 \
+|: "G"G2GF G2GA | B2AG "D7"A2A2 \
+| "G"GAGF "Em"G2GA | "A7"B2A2 "D"D4 |
+| "D"d2dc "G"B2BA | "Em"G2F2 E2"D7"F2 \
+| "G"G4 "D7"D4 | "G"G2GF G2GA | "A7"B2AG "D"A2A2 | d2dc "G"B2AG |
+| "C"A2"D7"F2 "G"G4 \
+| "G"G4 "D7"D4 \
+| "G"G2GF G2GA | "A7"B2AG "D"A2A2 \
+| d2dc "G"B2AG | "C"A2"D7"F2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/5342
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BranneBachanalle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

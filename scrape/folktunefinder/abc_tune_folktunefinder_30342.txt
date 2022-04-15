@@ -1,0 +1,24 @@
+X:165
+T:a Trip to Clumber
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000e9.html
+%%ID:000000e9
+K:D
+A2 Ad| d2 cd| Bg/e/ dc| d/c/d/e/ dd|\
+A2 Ad| d2 cd| Bg/e/ dc| d2 D2::
+A2 FA| AG EC| DA,B,C  | D/C/D/E/ DD|\
+A2 FA| AGEC| DA,B,C| D2D2::
+f2 fd| g2 g2| ec cA| d/c/d/e/ dd|\
+f2fd g2 g2| ed c/d/e/c/| d2 d2:|
+S:https://www.folktunefinder.com/tunes/30342
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X: 1
+T: Vals av Anselm Hellstr\"om
+C: Anselm Hellstr\"om
+M: 3/4
+L: 1/8
+K: G
+|: "G"d2 B>B B2 \
+| "D7"c2 A>A A2 \
+| "G"GF GA Bc \
+| d2 B>B B2 \
+| "G"g2 d>d d2 \
+| "C"e2 c>c c2 |
+| "Am"AG AB ce \
+| "D7"d6 \
+:: "G"GB Bd dB \
+| "Am"c2 A>A A2 \
+| "D7"df fa af \
+| "G"g6 \
+:| "G"gf ga bf |
+| g2 d>d d2 \
+| g2 d>d d2 \
+| b2 g>g g2 \
+| "C"ed ef ga \
+| "G"b2 d>d d2 \
+| "D7"d3 edc \
+| "G"B6 ||
+|| "G"GB Bd dB \
+| "Am"c2 A>A A2 \
+| "D7"df fa af \
+| "G"g6 \
+| "G"dg bg dB \
+| "Am"c2 A>A A2 \
+| "D"FA cA FA \
+| "G"G6 |]
+S:https://www.folktunefinder.com/tunes/20273
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_AnselmHellstrom_G
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_AnselmHellstrom_G
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

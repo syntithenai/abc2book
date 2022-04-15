@@ -1,0 +1,22 @@
+X: 93
+T:Fiery Clock Fyece
+% Nottingham Music Database
+S:EF
+M:6/8
+K:C
+P:A
+g|"C"c'2c' c2d|"C"e2f g2a|"Bb"_b2b d2e|"Bb"f2g "G7"a2b|
+"C"c'2c' c2d|"C"e2f g2g |"F"abc' "G7"d'2b|"C"c'3 c'2:|
+P:B
+c/2d/2|"C"e2e cde|"F"f2e d2c|"Dm"B2A G2A|"G"B2c d2^d|
+"Am"e2e cde|"Dm"f2e d2c|"G7"BAG A2B|"C"c3 c2:|
+S:https://www.folktunefinder.com/tunes/65471
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

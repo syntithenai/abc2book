@@ -1,0 +1,28 @@
+X:14
+T:Geld him Lasses
+Z:Jack Campin <http://www.campin.me.uk/>
+N:It's unlikely you were meant to play this with no repeats
+N:as it was written.  But I can't decide what repeat structure
+N:might be most appropriate.  Maybe treat one or both of the
+N:first two sections as a refrain
+S:Thomson MS, 1702
+M:6/4
+L:1/4
+K:D Dorian
+f2   TA2       F2|Ac2 fTed|g2   TB2       G2|Bd2 fTed||
+f>g   ag       f2|Ac2 fTed|g>a   ba       g2|Bd2 fTed||
+fF    AF       fF|Ac2 fTed|gG    BG       gG|Bd2 fTed||
+f>g   f/g/a/g/ f2|Ac2 fTed|g>a   g/a/b/a/ g2|Bd2 fTed||
+fe/d/ c/B/A/G/ F2|Ac2 fTed|gf/e/ d/c/B/A/ G2|Bd2 fTed|]
+S:https://www.folktunefinder.com/tunes/52670
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

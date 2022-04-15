@@ -1,0 +1,35 @@
+X: 7996
+T:Vals fr\aa{}n Siljansn\"as och R\"attvik
+R:Waltz
+O:Sweden
+M:3/4
+C:Roligs Per Andersson
+A:Dalarna
+K:Am
+AB | \
+c2 cBAB | c2 cBA^G | B2 E2^G2 | A4 Ac |\
+e2 e^de^f | g2g^fe^d | ^f2 eff^d e4 :|
+|: e2 | \
+e2 c2ec   | c2 ec eg  | ^f2 d2fd | d2 ^fdfa |\
+ga g^f ed | cd cB A^G | B2 E2^G2 | A4 :|
+|: e2 |\
+e2 c2 A2  | AB A^G Ac | B2E2E2 | C4 A,2 |\
+AB A^G AB | c2 ed cB  | (3cdc B2B2 | B4 e2 |
+c2 A2A2 | AB A^G Ac | B2 E2E2 | C4 A,2 | \
+AB A^G AB | c2 ed cB | (3BcB E^G BG | A4 :|
+|:e2 |\
+a3b a^g | e4 AB | cd cB A^G | A4 E2 | \
+A,^C DE FG | B4 AA | AB cd ef | e4 e2 |
+a3b a^g | e4 AB | cd CB A^G | A4 e2 |\
+a2ed cB | ed cB A^G | Bd B^G EG | A4 :|
+S:https://www.folktunefinder.com/tunes/35213
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

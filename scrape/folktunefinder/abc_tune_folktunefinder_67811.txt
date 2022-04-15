@@ -1,0 +1,22 @@
+X: 24
+T:Dobrudzanka Pandela
+O:Bulgaria
+S:Learned and collected in Bulgaria by Jaap Leegwater (JL1985.01)
+L:1/8
+M:2/4
+Q:1/4=160
+K:D
+|:"A"A2 e2|"D"fe d2| "A"c2 "G"B2| "A"A4|
+"G"G2 B2 |"A"c2 "G"B2|[1"A"A3 B|cd e2:|[2"A"A4 | A4|
+|:"A"ABBA|ABBA|ABBA|A2 E2| ABBA|ABBA|ABBA|A4:|
+"D"d2 d2|"Am"=cdcB|"A"A4|A4| "D"d2 d2|"Am"=cdcB|"A"A4-|A4|
+c2 A2| A4| ABBA| A4| ABcd| c2 BA| A2 z2|A2 z2|
+S:https://www.folktunefinder.com/tunes/67811
+S:http://jjaquier.free.fr/midifiles/abc/balk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

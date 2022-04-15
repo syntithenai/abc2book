@@ -1,0 +1,24 @@
+X: 16
+T:Where's the Cat
+M:6/8
+L:1/8
+Z:id:dc-slide-34
+K:A Major
+"A"EFE A2E| "D"F2E "Bm"A2E| "A"EFE A2c| "Bm"B2A "D"F2E|
+"A"EFE A2E| "D"F2E A2e| "A"cec "Bm"d2c| B2A "D"F2E:|
+"A"cBc e2c| "Bm"BAF d2c| "A"cBc e2c| "Bm"B2A F2E|
+"A"cBc e2c| "Bm"BAF "D"d2a| faf "A"e2c| "Bm"B2A "D"F2E:|!
+S:https://www.folktunefinder.com/tunes/18300
+S:http://trillian.mit.edu/~jc/music/abc/reel/Wheres_the_Cat_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Wheres_the_Cat_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Wheres_the_Cat_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Wheres_the_Cat_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Wheres_the_Cat_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

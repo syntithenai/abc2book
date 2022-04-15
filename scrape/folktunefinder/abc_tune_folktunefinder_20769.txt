@@ -1,0 +1,23 @@
+X:320
+T:Auld lang syne
+O:england
+M:4/4
+L:1/8
+Q:1/4=100
+K:Am
+V:1
+G2 |"C" c3 Bc2 e2 |"G7" d3 cd2 ed |"C7" c3 ce2 g2 |
+"F" (a4 "F#" a2) a2 |"C" g3 e"Am" e2 c2 |"Dm" d3 c"G" d2 ed |"F" c3 A"G" A2 G2 |
+"C" c6 a2  |:"C" g3 e"Am" e2 c2 |"Dm" d3 c"G7" d2 a2 |"C7" g3 ee2 g2 |
+"F" a4 "F#" z2 ba |"C" g3 e"Am" e2 c2 |"D7" d3 c"E7" d2 ed |"F" c3 A"Am" A2 "G7" G2 |
+|1 "C" c6 a2 :|2 c6 ||
+S:https://www.folktunefinder.com/tunes/20769
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

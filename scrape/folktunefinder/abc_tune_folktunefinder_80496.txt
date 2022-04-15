@@ -1,0 +1,27 @@
+X: 218
+T: When First I Met Thee
+B: O'Neill's 218
+N: "With spirit"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:F
+F \
+| A>G GG | GF FF | G^F GA | cB A z/A/ \
+| G>G G^F GA Bc | d>e fd | cA F ||
+|| c \
+| c>f fe | fe {e}dc | c>f fe | ed c>c \
+| cf fc | dc BA | Gd cB | BA {A}GF |
+| F2 F>F | {A}GF FF | G>^F GA | cB A2 \
+| G2 G>G GA HBc | d>e fd | cA F2 ||
+S:https://www.folktunefinder.com/tunes/80496
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0218_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

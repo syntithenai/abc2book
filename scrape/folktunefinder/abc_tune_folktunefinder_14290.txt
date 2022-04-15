@@ -1,0 +1,18 @@
+X: 1
+T: Harmonica
+B: Kerr's 
+M: 6/8
+L: 1/8
+K: G
+d | "G"g2d B2g | "Am"e2c A2G | "D7"FGA DEF | "G"G2B d2d | "G"g2d B2g | "Am"e2c A2G | "D7"FGA DEF | "G"G3 G2 :|
+d | "Am"c2a a2c | "G"B2g g2B | "Am"ABc "D7"def | "G"g2a b2d | "Am"c2a a2c | "G"B2g g2b | "D"agf "A7"ed^c | "D"dFG ABc ||
+y2| "G"dBg "C"ecg | "G"dBg "C"ecg | "G"dcB BAG | "D7"FAA ABc | "G"dBg "C"ecg | "G"dBg "C"ecg | "G"dcB "D7"AGF | "G"GBd g2 |]
+S:https://www.folktunefinder.com/tunes/14290
+S:http://trillian.mit.edu/~jc/music/abc/jig/HarmonicaJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HarmonicaJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

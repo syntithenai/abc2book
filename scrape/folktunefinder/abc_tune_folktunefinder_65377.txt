@@ -1,0 +1,23 @@
+X: 289
+T:New Rigged Ship
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+A|"D"dcd d2f|dcd d2f|"A"ecA Ace|ecA ABc|
+"D"dcd d2f|"D"dcd "A"ecA|"G"Bcd "A7"edc|"D"d3 -d2::
+f/2g/2|"D"a2f a2f|"Bm"ded dfa|"Em"b2g b2g|"A7"efe efg|
+"D"a2f a2f|"Bm"def "D"d2f|"A7"ecA ABc|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/65377
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:698
+T: "Die Braut im Kloster"
+N: Z1379
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, Romanze
+M: 6/8
+L: 1/16
+K: G
+A2 | A2G2A2A2G2A2 | _Bcd2cBA4
+AG | A3_BcAB3AGB | A2G2F2G4
+_B2 | A3GAG=F3GA2 | G2=F2E2F4
+AG | A3_BcAB3AGB | A2G2F2G4
+S:https://www.folktunefinder.com/tunes/69557
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

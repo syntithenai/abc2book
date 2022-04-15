@@ -1,0 +1,30 @@
+X:1529
+T:DI TANTI PALPITA. CJF.046
+O:england
+M:2/4
+L:1/16
+Q:60
+C:Rossini
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The triplets are no marked as such in the MS - PJH.
+K:G
+"mf"B4B2B2|(B>A)(B>c) d2z2|((3cdc) ((3BcB) A2d2|\
+((3BcB) ((3ABA) G2z2|B4B2B2|(B>A)(Bc) d2z2|((3cdc) ((3BcB) A2d2|G6z2||
+A4(^GA)(cA)|(F4D2)z2|G4B2d2|A4({cB}A2)z2|\
+A4(^GA)(cA)|(F4D2)z2|G4B2d2|A6^A2||
+S:https://www.folktunefinder.com/tunes/21978
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

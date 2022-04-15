@@ -1,0 +1,56 @@
+X:1
+T:Petrunino Horo
+T:(ABBCCDDEE)
+R:petrunino
+O:Bulgaria
+C:Trad.
+D:Balkan Arts MK6G
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:ABBCCDDEE
+Q:1/4=190
+L:1/8
+M:12/8
+K:F
+P:A
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 21
+%%MIDI bassprog 32
+%%MIDI gchord f3c2c2c2c3
+%%MIDI drumon
+%%MIDI drum d2dd2d2d2d2d 41 37 43 43 43 41 37
+|:"F"FEF ~G2 GF GA ~B2A |GAF A~G- GF "C"G2 G3 |
+"F"FEF ~G2 GF GA ~B2A |1 =Bcc ~G2 GF "C"G2 G3 :|2 =Bcc ~G2 GF "C"G2 G2F ||
+P:B
+|:"F"GAF =Bc AF ~_B2 AAF:| GAF =Bc AF ~_B2 AAF |"C"G2c GFEF G2 ~G2F ||
+P:C
+|:"F"GAF ABBA GA cFF:| GAF ABBA GA cFF |"C"G2c GFEF G2 ~G3 ||\
+K:C
+P:D
+%%MIDI channel 1
+%%MIDI program 1 109
+K:C
+"Fm"Bcc cBcd cB _AGF |{c}G2F GF G_ABc ~B3 |FG_A Bccd cB _AGF |"C"c~G2 B_AGF G2 ~G3 ||
+P:E
+|:"Fm"c~G2 B_AGF G_A BcF |1 cB_A B_AGF G2 ~G3 :|2 cB_A B_AGF "C"G2 ~G3 ||
+W:
+W:
+W:Arrangement Copyright (C) 2005 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/65553
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Petrunino.abc
+S:http://people.csail.mit.edu/jaffer/Music/Petrunino.abc
+S:http://voluntocracy.org/Music/Petrunino.abc
+S:http://www.voluntocracy.org/Music/Petrunino.abc
+% Rhythm Petrunino
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

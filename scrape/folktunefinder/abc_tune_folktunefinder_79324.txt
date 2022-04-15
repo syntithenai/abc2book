@@ -1,0 +1,28 @@
+X:220
+T: NICHT WEIT VON WUERTEMBERG
+N: E1359
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt;
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: Eb
+B,2 | E3FGABc | Bee2z2
+Be | d3cBAcB | G4z2
+B,2 | E3FGABc | Bee2z2
+Be | d3cBAcB | G4z3
+B | FBA3F | GcB3
+G | FBA3F | GcB2
+B,2 | E3FGABc | Bee2z2
+Be | d3cBAcB | G4z2
+S:https://www.folktunefinder.com/tunes/79324
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

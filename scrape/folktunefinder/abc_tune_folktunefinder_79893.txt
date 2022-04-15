@@ -1,0 +1,27 @@
+X:69
+T:Inverary Castle
+R:Strathspey
+S:MS from 1850s
+N:No.0
+O:Scottish
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:E minor
+B,>E E2 B,>EG<E|B,<EE<F G<A B2|B,>E E2 B,>EG<E|D>B,G,>A, B,>DD>^C|
+B,>E E2 B,>EG<E|B,<EE<F G<A B2|B,>E E2 B,>EG<E|D>B,G,>A, B,>D D|]
+B/A/|G>AB<g e>BB>A|G>AB>d Be e2|G>AB<e d<eB<e|d>AF<D F<A A2|
+G>A B/e/B B/g/B B/e/B|G>AB>e g/f/e/^d/ e>f|g>BA>G F>ED>C|\
+B,>G,D>G, B,>D D2|]
+S:https://www.folktunefinder.com/tunes/79893
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

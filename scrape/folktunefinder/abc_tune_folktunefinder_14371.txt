@@ -1,0 +1,32 @@
+X:1
+T:Upstairs in a Tent
+T:In and Out the Harbour
+T:Jenny Tie Your Bonnet
+R:reel
+B:O'Neill "Music of Ireland" #1245
+B:O'Neill "The Dance Music of Ireland"
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-reel-345
+Z:transcribed by henrik.norbeck@mailbox.swipnet.se
+M:C|
+L:1/8
+K:Amix
+|: ~A3g fdec |   AGA=c BG~G2 | ~A3g fdef |1 ~g3d BGGB  :|2 ~g3d BG~G2 ||
+|: faaf gfed | (3cBA eA fAeA | faaf gfef |1 ~g3d BG~G2 :|2 ~g3d BGGB  |]
+S:https://www.folktunefinder.com/tunes/14371
+S:http://trillian.mit.edu/~jc/music/abc/jig/InAndOutTheHarbour_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/JennyTieYourBonnet_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/UpstairsInATent_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/InAndOutTheHarbour_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JennyTieYourBonnet_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/UpstairsInATent_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/InAndOutTheHarbour_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JennyTieYourBonnet_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/UpstairsInATent_A.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

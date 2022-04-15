@@ -1,0 +1,26 @@
+X:6875
+T:Wright's Humour
+A:North-West
+C:Daniel Wright ()
+M:3/4
+O:England
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000051f.html
+%%ID:0000051f
+K:G
+G,2g4| D2f4| C2e4| B,2d4| A,2c4| F2D3A| BcA4| G2G,4||
+G,2gfg2| D2fef2| C2cde2| B,2Bcd2| A,2ABc2| F2Bcd2| G2G2F2| G2G,4||
+DBGBAG| DFAFED| CEGEDC| B,BdBcd| GEAcdA| BFGFGA| BcA4| G2G,4||
+bgdbag| fdfagf| ecegfe| dcdefg| bagafg| agfgeg| fe^defd| efgfed|
+cdedcd| BcdcBd| cdcBAG| FDEFGB| ecefga| fdefgB| AGD2f2| g2G4|]
+S:https://www.folktunefinder.com/tunes/37454
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

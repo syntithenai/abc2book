@@ -1,0 +1,27 @@
+X:41
+T: Die himmlischen Freuden
+N: D0043
+O: Europa, Mitteleuropa, Lothringen, Halsdorf ( Kr. Diedenhofen )
+N: Achttonskala ( Ionisch in die Dominanttonart modulierend )
+N: Inzipit = Variante zum Lied
+R: geistliches Lied
+M: 3/4
+L: 1/16
+K: F
+F3F | A4A4B4 | c4c4c4 | A8B4 | c8
+c4 | d4c4B4 | A4G4F4 | E8F4 | G8
+F4 | A4c4=B4 | c4d4=B4 | c4d4=B4 | c4c4z4
+d8f4 | e6d2c4 | f4e4d4 | c12
+B12 | A4c4A4 | G4F4G4 | F8
+S:https://www.folktunefinder.com/tunes/72498
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

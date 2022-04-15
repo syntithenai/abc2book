@@ -1,0 +1,23 @@
+X:1
+T:Betty Lou's Reel
+M:4/4
+L:1/8
+C:Donald Angus Beaton
+S:Arr. The Rankin Family
+R:Reel
+K:Bm
+|: "Bm"f2Bc defe | "A"ceaf efAb | "Bm"~f2Bc defe :|1 "A"cAac "Bm"~B2B2 :|2 "A"ceac "Bm" B2BA |]
+|: "Bm"FBBc d2cB | "A"ceaf ecBA | "Bm" FBBc d2cB :|1 "A"cAac "Bm"~B2BA :|2 "A"ceac "Bm"~B2B2 |]
+S:https://www.folktunefinder.com/tunes/16792
+S:http://trillian.mit.edu/~jc/music/abc/reel/BettyLousReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BettyLousReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BettyLousReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

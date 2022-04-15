@@ -1,0 +1,27 @@
+X:515
+T:Monja a la fuerza
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Teberga
+Z:DyC en Teberga
+M:2/4
+L:1/8
+Q:1/4=96
+K:C
+CE|: G2 AA/A/|AG CE|G2 AA/A/|AG BA|
+G2 AG/F/|GE AG|F2 GG/G/|[1 [M:3/4] G E3 C E :|
+[2 [M:2/4] G E3-|E z E F||
+S:https://www.folktunefinder.com/tunes/59402
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

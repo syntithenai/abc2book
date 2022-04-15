@@ -1,0 +1,41 @@
+X:14022
+T:Recovery,The. GS.055
+M:2/4
+L:1/8
+Q:160
+S:George Spencer m/s, Leeds,1831
+R:Misc.
+O:England
+A:Leeds
+N:The figure 4 over an E is in the MS and is an instruction  to use 4th
+N:finger not an open string.  Those in bars 2 and 10 are written in ink.
+N:Those in bars 6 and 14 are possibly in pencil,  certainly in a
+N:different hand.  . - written under note -  diminuenda.
+H:1831
+Z:vmp.Cherri Graebe
+K:C major
+"See note".G.c.G.c | (d/2c/2d/2)"4"e/2 d2 | gfdB | ce G2 | .G.c.G.c | (d
+/2c/2d/2"4
+"e/2) d2 | (gf).d.B | c4 :||!
+gfdB | c"4"e G2 | FF F/2E/2F/2G/2 | (F2E2) | (gf).d.B | c"4"e G2  | ff f
+/2e/2f/2d/2 | c4 |!
+ee/2e/2 ee |">" e3 f | edcB | (A/2B/2c/2d/2 e2) | dd/2d/2 dd | d3 e | dc
+BA | G
+>A G/2F/2E/2F/2 |!
+GcGc | (d/c/d/e/) d2 | (gf).d.B | ceG2 | GcGc | (d/c/d/e/)d2 | (gf).d.B
+| [E4c4]
+ ||
+S:https://www.folktunefinder.com/tunes/64032
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

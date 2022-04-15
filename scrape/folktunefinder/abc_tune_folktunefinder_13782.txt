@@ -1,0 +1,30 @@
+X: 1
+T: Allington's Jig
+C: Barbara McOwen (1981)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: D
+c \
+| "D"d2d     dAF |     DFA     dcd | "Em"e2e     e2f |    gee "A7"e2c \
+| "D"d2d     dAF | "Bm"DFA     d2A |  "G"Bcd "A7"efg | "D"fdd     d2 :|
+f \
+| "D"aff     aff | "Em"gfg "A7"ede | "Bm"f2B "E7"Bcd | "A"ecA     A2f \
+| "D"aff     aff |  "G"gab     bag |  "D"fed "A7"edc | "D"dAF     D2 |]
+f \
+| "D"aff     aff | "Em"gfg "A7"ede | "Bm"f2B "E7"Bcd | "A"ecA     A2g \
+| "D"fga "Em"gab |  "D"agf  "G"edc | "Em"Bcd "A7"efg | "D"fdd     d2 |]
+S:https://www.folktunefinder.com/tunes/13782
+S:http://trillian.mit.edu/~jc/music/abc/jig/AllingtonsJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Barbara_McOwen/AllingtonsJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AllingtonsJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

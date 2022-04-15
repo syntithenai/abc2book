@@ -1,0 +1,28 @@
+X:416
+T: "Alt und Jung"
+N: Z1096
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: D
+D2 | D2F2F2F2 | F2A2A2z2
+G3FG2A2 | F4z2
+D2 | D2F2F2F2 | F2A2A2z2
+G3FG2A2 | F4z2
+G2 | G2B2B2B2 | B2A2A2
+A2 | A2G2G2G2 | G2F2F2z2
+E3GG2z2 | F3AA2z2
+G3FG2A2 | F4A2z2
+E3GG2z2 | F3AA2z2
+G3FG2E2 | D4z2
+S:https://www.folktunefinder.com/tunes/69275
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

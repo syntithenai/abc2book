@@ -1,0 +1,34 @@
+X: 163
+T:Sun that lights the Roses,The. CJF.163
+M:2/4
+L:1/16
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The bars beginning * have a peculiar arrangement - the grace notes are
+N:interspersed with the Main notes in a manner I haven't seen before. To
+N:attempt to convey this, if I use hyphens to indicate beaming, and use M
+N:for main notes and g for grace notes, it would look like this: M- g-g
+N:-M g-g M- g- -M -g-g | M- g- -M -g-g M M-M |   - PJ
+Z:vmp.P J Headford 2000
+K:C
+G|.e2.d2.c2zG|.e2.d2.c2zg|{g}f3ea2d2|d2{f}e2d2zG|!
+(e>f)(d>e) c2zG|e>fd>e c2ze|(dafd) c2zB|d2c2z2ze|!
+e3ee3e|b3e e2ze|e3e fedc|c3Bz2ze|!
+e3ee3e|{e}d3dha2hc'2|(bg)(ea) d2c^f|a2hg2z2gf|!
+e2g2c2a2|g3fd2zf|(egc'b) (agfe)|e2d2z2d2|!
+"*"e3{fe}e {dc}f3{g}f{ed}|g3{a}g{fe} a2 c'b|(agfe) (d2g) B|(d2c2z4|]
+S:https://www.folktunefinder.com/tunes/49718
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

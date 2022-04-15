@@ -1,0 +1,33 @@
+X: 10
+T:Tant Tivey. JMT.010
+M:6/8
+L:1/8
+Q:120
+S:John Moore,Tyneside,1841. (06)
+R:Jig
+O:England
+A:Northumbria
+H:1841
+Z:vmp.John Adams
+K:D
+A| d2d B2G | F2G A2d | B2d ceg | f3 e2A |! 
+d2d f2d | B2B e2d | c2c BAB | A3 zcd |!
+ e2c A2A |f2d A2A | f2d A2d | cd/2e/2 f a2 f |!
+ f3 e2A |FGA Bcd | efg afd | B2e d2c | d3 d2  A/2A/2 |!
+ A3 A3 |A-d2 d2 A/2A/2 | AFA AFA |  (Ad)d d2(c/2d/2) |! 
+e3 e3| (e-a).a .a2 c/2d/2|ece ece | (ea)a a2a|!
+fdd d2f | eAA A2a | fdd d2f | eAA A2 B/2c/2 |!
+d2f d2f  | d3 z2 A/2A/2 | d2f d2f | a3 z2 (A/G/) |!
+FGA Bcd | efg afd | B2e d2c | d3 a3 |! 
+f2f ede | a3 g3 |  f2f ede | ddd d2||
+S:https://www.folktunefinder.com/tunes/52899
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

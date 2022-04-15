@@ -1,0 +1,22 @@
+X: 1
+P: The Flight (C)
+O: 1777
+M: 6/8
+L: 1/8
+K: C
+  G \
+| "C"ced ced | "C"c2G "G7"G2F | "C"EGc "F"ABc | "D7"dfe "G7"d2G \
+| "C"ced ced | "C"c2G "G7"G2F | "C"EGc "G7"GcB | "C"c3- c2 :|
+|: g \
+| "C"g2e ceg | "F"a2f "G7"def | "C"g2c "(D7)"B2c | "G"dBG G2f \
+| "C"g2e ceg | "F"a2f "G7"def | "C"gec "G7"GcB | "C"c3- c2 :|
+S:https://www.folktunefinder.com/tunes/3945
+S:http://trillian.mit.edu/~jc/music/abc/England/MutualLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/MutualLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/MutualLove.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

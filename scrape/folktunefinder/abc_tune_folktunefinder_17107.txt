@@ -1,0 +1,39 @@
+X: 1
+T: Elmer Briand's Favorite
+C: Johnny Wilmot
+R: Reel
+D: Rodney Macdonald, Dancer's Delight, RMD1, 1995
+F: http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+F: http://www.cranfordpub.com/tunes/CapeBreton/ElmerBriand'sFavourite.htm
+M: C|
+L: 1/16
+K: B Dorian
+   e2 \
+|  f2B2BBB2 B2A2F2B2 | A2F2E2F2 A2B2c2e2 | f2B2 BBB2 B2A2F2A2 | B2f2e2c2 B4c2 :|
+|: e2 \
+|  f4f2a2 f2e2d2f2 | e2c2ccc2 A2c2ccc2 \
+|1 f4f2a2 f2e2d2f2 | e2c2A2c2 B4c2 \
+:|2 f2e2d2f2 =g2f2e2f2 | a2f2e2c2 f2B2B2 |]
+S:https://www.folktunefinder.com/tunes/17107
+S:http://www.cranfordpub.com/tunes/CapeBreton/ElmerBriand'sFavourite.htm
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ElmerBriandsFavorite2_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ElmerBriandsFavorite2_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ElmerBriandsFavorite2_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Wilmot/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ElmerBriandsFavorite2_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ElmerBriandsFavorite_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ElmerBriandsFavorite2_Bm.abc
+% Rhythm Reel
+% Link Link to ABC
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Reel d'Issoudun
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+F: http://mustrad.udenap.org/partitions/TQ278.jpg
+S: Mervin Ares <mervin_ares@yahoo.ca> QueTrad 2008-1-29
+M: C|
+L: 1/8
+K: A
+|: efge | a2gf eagf | edcd efge | a2gf eagf | edcA BAGB |1 A2e2 :|2 A2AB c2c2 |
+|: B4 B2Bc | dcBA c2c2 | B3c BAGB |1 A2A2 EGAB | c2c2 :|2 A2e2 |]
+S:https://www.folktunefinder.com/tunes/17974
+S:http://mustrad.udenap.org/partitions/TQ278.jpg
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDIssoudun_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDIssoudun_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ReelDIssoudun_A.abc
+% Rhythm Reel
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

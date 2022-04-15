@@ -1,0 +1,29 @@
+X:452
+%%topmargin 3cm
+T:Lady Ann Wharton Duff's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:The four sixteenths in bar 6 were written as eighth notes in the manuscript. rp.
+R:Strathspey
+M:C
+L:1/8
+K:D phrygian
+"Slow when not Danced."~B,>F (G/F/)E/D/ (C>D)EG | ~B,>F (G/F/)E/D/ (F>G)Bd | .f.d.B.D (C>D).E.G | .F.B.A.c .B.D.F.D |
+~B,>F (G/F/)E/D/ (C>D).E.G | ~B,>F (G/F/)E/D/ (F>G).B.d | .f.d.B.D (C>D).E.G | .F.B.A.c .B.d.c.e ||
+~d>f (e/d/)c/B/ g>ceg | ~d>f (e/d/)c/B/ fb BD | Ec DB C>DEG | FBAc Bdce |
+~d>f e/d/c/B/ g>ceg | ~d>f e/d/c/B/ fb BD | EcDB C>DEG | FBAc BDFD |]
+S:https://www.folktunefinder.com/tunes/71481
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Ann_Wharton_Duffs_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0452.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

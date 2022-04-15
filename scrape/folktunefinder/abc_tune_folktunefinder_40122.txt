@@ -1,0 +1,33 @@
+X: 18
+T: 4. Blackthorne Stick
+R: Jig
+Z: Nottingham Music Database
+M: 6/8
+L: 1/8
+K: A %Transposed from G
+|: e |\
+"A" aga "D" faf | "A" ecA "D" BAF | "A" EAA "E7" GAB | "A"  ABc "E7" B2e  |
+"A" aga "D" baf | "A" ecA "D" BAF | "A" EAA "E7" GAB | "A"  cAG      A2  :|
+|: e |\
+"D" fee "A" aee | "D" fee "A" aee | "D" fef "A"  agf | "Bm" fec "E7" B2e  |
+"A" aga "D" baf | "A" ecA "D" BAF | "A" EAA "E7" GAB | "A"  cAG      A2  :|
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 12 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center Lady Glasgow
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 8x32 Strathspey    1 2 3 4 2 3 4 1
+S:https://www.folktunefinder.com/tunes/40122
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:3940
+T:the Northern Lass
+A:North-West
+M:6/8
+O:England
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004bf.html
+%%ID:000004bf
+K:A min
+A2B c2d| e>de g3| d2e g2e| d>BA G3|\
+A2B c2d| e>fg a_ba| ge2 g/e/d/B/c A3-A2:|
+g2a _b2a| ge2 g3| d2e g2e| d>BA G3| \
+g2a _b2a| ge2 g3| e2d ef/g/a| g3-g3|
+a3 _b2a| ge2 g3| d2e g2e| d>BA G3|\
+A2B c2d| e>fg a_ba| ge2 g/e/d/B/c| A3-A3|]
+S:https://www.folktunefinder.com/tunes/36867
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

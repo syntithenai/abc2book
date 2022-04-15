@@ -1,0 +1,25 @@
+X: 1
+T: Mr Douglas
+R: strathspey
+S: printed MS or unknown origin
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+|: "G"DG3 G3E "D7"F3G A3F | "G"G3B d3B "C"e6 f2 \
+| "Em"gb3 e3g "G"dg3 B3g |1 "A(m)"EA3 A3G "D7"F3E F3D :|2 "Am"EA3 "D7"F3D "G"G6d2 ||
+[| "Em"eg3 g3e "Bm"fa3 d3f | "C"e3f g3e "G"d4 c3B \
+| "Am"c3d e3c "G"Bd3 g3B | "Am"EA3 A3G "D7"F3E F3D ||
+|| "G"DG3 G3E "D7"F3G A3F | "G"G3B d3B "C"e6 f2 \
+| "Em"gb3 e3g "G"dg3 B3g | "A(m)"EA3 "D7"F3D "G"G6 |]
+S:https://www.folktunefinder.com/tunes/19576
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrDouglas_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrDouglas_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

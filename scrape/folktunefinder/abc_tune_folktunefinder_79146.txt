@@ -1,0 +1,29 @@
+X:42
+T: AUF EINEM FUSSE ZWEIMAL DREH
+N: E1039
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Schleifer
+M: 3/8
+L: 1/16
+K: G
+D2 | G3ABc | A2A3
+G | GFEDEF | G4
+D2 | G3ABc | A2A3
+G | GFEDEF | G4
+B2 | A3GFG | A4
+B2 | A3GFG | A4
+G2 | G3Bdf | g2e3
+e | dedcBA | G4
+S:https://www.folktunefinder.com/tunes/79146
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, schleifer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

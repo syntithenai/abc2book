@@ -1,0 +1,27 @@
+X: 2081
+T: Zaplanski Cacak
+O: Bulgaria
+M: 2/4
+L: 1/16
+K: GMix
+P: 2X
+D |: "G"~G2D ~B2D | ~c2D ~B2D | ~G2D ~B2D | "D7"~A2D ~d2D \
+  |  "G"~G2D ~B2D | ~c2D ~B2D | ~G2D ~B2D | "D7"~A2D ~A2D :|
+P: 2X
+D |: "D"^F2G ~A2G | ^F2G ~A2G | "A7"cBA G^FG | "D"A2D ~A2D \
+  |  "D"^F2G ~A2G | ^F2G ~A2G | "A7"cBA G^FG | "D"~A3- A3 :|
+  |: "Dm"{G}A4- | A4- |A4- |A4 :|
+P: 4X
+F |: "Dm"^GAB AGF | GAB AGF | GAB AGF | ~A3 F3 :|
+P: 4X
+B, |: "E"^GAB AGF | ~E2B, ~^G2B, | "Dm"^GAB AGF | "E"~E2B, ~E3 :|
+S:https://www.folktunefinder.com/tunes/32544
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

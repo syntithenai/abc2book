@@ -1,0 +1,36 @@
+X: 1
+T: College Hornpipe
+R: hornpipe, reel
+O: trad
+N: H&C  p.136, Harding 6 (in C), Hunter 336, Skye p.173, Litten p.19, BSFC II-7
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 4/4
+L: 1/8
+K: A
+ag \
+| "A"a2 A2 A2 ed | ce a2 a2 b^a | "Bm"b2 B2 B2 BA | "E7"GB e2 e2 fg |
+| "A"ag fe "F#m"fe dc | "D"dc BA "E7"BA GF | "A"EA GB "E7"Ac Bd | "A"c2 A2 A2 :|
+|: ed \
+| "A"ce ae ce ae | "D"f2 d2 d2 fe | "B7"^df bf df bf | "E"g2 e2 "E7"e2 fg |
+| "A"ag fe "F#m"fe dc | "D"dc BA "E7"BA GF | "A"EA GB "E7"Ac Bd | "A"c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/13514
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/hornpipe/CollegeHornpipe_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/CollegeHornpipe_A.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

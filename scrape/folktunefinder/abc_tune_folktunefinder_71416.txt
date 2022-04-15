@@ -1,0 +1,24 @@
+X:387
+%%topmargin 3cm
+T:Mrs. Henry Lumsden of Tillwhilly's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:Bb
+g | Bc ~B2 (B>F) | G>BF>B {Bc}d<c-c>!wedge!g | Bc ~B2 (B>d) | x x (A/G/)F/E/ Dc ~B2 (B>F) |
+G>BF>B {Bc}d<cc>g | Bc ~B2 (B>d) | (c/d/)c/B/ A/G/F/E/ DG DB | DB, G/F/E/D/ ECCB | DB,DF EGFB | e<gTc>e dB DB | D>B, G/F/E/D/ ECCg | {/g}T[d3/2f3/2]e/ {/e}T[B3/2d3/2]c/ ~[D2B2] ([F3/2B3/2]d/) | ([G/c/]d/)c/B/ ([E/A/]G/)F/E/ D<B,B, |]
+S:https://www.folktunefinder.com/tunes/71416
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Henry_Lumsden_of_Tillwhillys_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0387.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:656
+T:Andy McGann's No2
+M:4/4
+L:1/8
+K:D
+|d ~F3 AGFE|DEFD E ~B,3|ADFA BdAF| ~E3 D EFGA|
+|1 d ~F3 AGFE|DEFD E ~B,3|ADFA BdAF| EA,CE ~D3 c:|
+|2 d2 fd ~c2 ec|~B3 d AGFE|D2 FA BdAF|EA,CE ~D3 c||
+d2 fd edfd|~B3 d AGFE|D2 FA BdAF|~E3 D EFGA|
+|1 d2 fd edfd|~B3 d AGFE|D2 FA BdAF|EA,CE D3 c:|
+|2 faba f ~d3| ~B3 d AGFE|D2 FA BdAF|EA,CE D3 ||
+S:https://www.folktunefinder.com/tunes/1290
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

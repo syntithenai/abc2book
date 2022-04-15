@@ -1,0 +1,26 @@
+X:2
+T:5v. Justus cor suum,
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:D dorian 
+T:Altus
+N:Original clef C on second line
+%1
+z8 D8 F6 E D C2 D2 F3 G A2 D2 z2 A B c F B2 A4 z2 D2 C2 E2 F4 E2 c4 B A
+S:https://www.folktunefinder.com/tunes/53324
+S:http://www.laymusic.org/music/bicinia/justus/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

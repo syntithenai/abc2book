@@ -1,0 +1,63 @@
+X: 1
+T: Karago\'una
+O: Thessaly
+M: C|
+L: 1/8
+Q: 1/2=60
+K: Gdor
+z2 "vocal"\
+| "Gm"G2G2 (AB)^c2 | d6 ^c2 | d2d2 ^c2d2 | ^c4 (BA)G2 |
+%w: 1.~Ay-de pe-*ra-se,* e-na ka-lo-ke-ri
+%w: 2.~E-se-na,* sou pre-pou, me-ta-ksa-ta si-gou-*nia
+%w: 3.~Ay-de da* pou-li, pou-li-so ki ti sta-ni,
+| "Gm"G2G2 "(G)"(AB)=B2 | "Cm"c6 B2 | "D"d2d2 ^c2([dB]A) | "Gm"G4 G2 :|
+%w: 1.~ay-de ke* de mou, de mou-sti-les ham-*be-ri.
+%w: 2.~ay-de ti* ham-be, ham-be-ri na sou* sti-lo,
+%w: 3.~ay-de na* sou-pa, sou-pa-ro 'na fou-*sta-ni.
+|: B2 | (BA)G2 z2B2 | (BA)G2 z2B2 | "D"d2d2 ^c2d2 | "Gm"(BA)G2 z2 :|
+%w: 1.~Ay Gou-*nam, ay Gou-*nam, ay Gou-nam Ka-ra-gou-*nam.
+%w: 2.~Am-pos-*da, am-ti-*da, tin pro-ko-pis tin i-*da.
+%w:    Am-pos-*da, am-ti-*da, sto pa-ra-thi-ri s'i-*da.
+%w: 3.~Ay Gou-*nam, ay Gou-*nam, ay Gou-nam Ka-ra-gou-*nam.
+Q:1/2=88
+z2"instr"\
+| "Gm"gfed ^cdef | gfed ^cBAG | gfed ^cdef | g2gd g4 ||
+| "Gm"gfed ^cdef | gfed ^cBAG | ^FGAB ^cdBA | "Gm"GD"D7"E^F"Gm"G2 |]
+W: From the MIT Folk Dance Club Songbook:
+W:
+W: Ajde perase, ena kalokeri
+W: ajde ke de mou, de moustiles hamberi.
+W:
+W: Aj Gounam, aj Gounam, aj Gounam Karagounam.
+W:
+W: Esena, su prepou,
+W: metaksata sigounia
+W: Ajde ti hambe, hamberi na su stilo,
+W: ajde poupyases, pyases kenourio filo.
+W:
+W: Am'posda, am'tida, tin prokopis tin ida.
+W: Am'posda, am'tida, sto parathyri s'ida.
+W:
+W: Ajde da pouli, pouliso ke ti stani,
+W: ajde na soupa, souparo 'na foustani.
+W:
+W: Aj Gounam, aj Gounam, aj Gounam Karagounam.
+W:
+W: Esena, su prepou,Me taksu vazi vouna.
+W: me taksata sigounia.
+W:
+W: Aide, one summer has passed and you haven't sent me any news
+W: Ai Gouna, ai Gouna, my Karagouna, you deserve silken sigounia.
+W: Aide, what news shall I send you, aide, now that you have a new lover
+W: Indeed, how now, I saw purpose, Indeed, how now, I saw you in the window.
+W: Aide, I will sell, I'll sell the flock of sheep, aide, to buy, to buy you a skirt.
+S:https://www.folktunefinder.com/tunes/5736
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Karagouna.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

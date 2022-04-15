@@ -1,0 +1,40 @@
+X:1925
+T:Bourre du Morvan
+G:Kazimodal
+R:Bourre du Morvan
+C:Arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=250
+P:A(BC)4
+M:3/4
+S:Entendu  Anost aot 1991
+K:G
+P:A
+%MIDI gchord fcfcfc
+%MIDI chordprog 105
+%MIDI bassprog 32
+%MIDI bassvol 127
+"G"D2 |
+P:B
+|: "G"GF G2 A2 | "C"G2 F2 G2 | "D"AB c2 B2 | A4 D2 |
+"G"GF G2 A2 | "C"G2 F2 G2 | "D"A2 B2 A2 |1 "G"G4 D2 :|2 "G"G4 B2 |
+|: dc "D"B2 A2 | "Em"G2 F2 G2 | "C"AB c2 B2 | "D"A4 "G"B2 |
+dc "D"B2 A2 | "Em"G2 F2 G2 | "C"A2 B2 "D"A2 |1 "G"G4 B2 :|2 "G"G4 D2 ||
+P:C
+|: "G"GF "Am"G2 A2 | "Bm"G2 F2 G2 | "C"AB c2 B2 | "D"A4 D2 |
+"G"GF "Am"G2 A2 | "Bm"G2 F2 G2 | "C"A2 B2 "D"A2 |1 "G"G4 D2 :|2 "G"G4 B2 |
+|: dc "D"B2 A2 | "Em"G2 F2 G2 | "C"AB c2 B2 | "D"A4 "G"B2 |
+dc "D"B2 A2 | "Em"G2 F2 G2 | "C"A2 B2 "D"A2 |1 "G"G4 B2 :|2 "G"G4 D2 ||
+S:https://www.folktunefinder.com/tunes/56864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Bourre du morvan
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

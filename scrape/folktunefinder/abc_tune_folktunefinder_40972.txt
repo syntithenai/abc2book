@@ -1,0 +1,23 @@
+X:130
+T:Green Sleeves.
+N:Aird prints the last note of each part as a quaver and
+N:the second-to-last in part 2 as an undotted crotchet.
+M:6/8
+L:1/8
+K:AMin
+A/B/|c2c cde |dBG G2B|c2A ABA |G2E E2
+B   |c2c cde |dBG G2B|cBA BA^G|A3  A2::
+f/e/|g2g g^fe|dBG G2g|a2a aba |g2e e2
+f   |gag g^fe|dBG GAB|cBA BA^G|A3  A2::
+S:https://www.folktunefinder.com/tunes/40972
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Aird-v1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Aird-v1.abc
+S:http://www.purr.demon.co.uk/jack/Music/Aird-v1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

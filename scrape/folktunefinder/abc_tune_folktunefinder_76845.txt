@@ -1,0 +1,26 @@
+X:360
+T: SCHIEBEN WIR DEN WAGEN
+N: E0990
+O: Europa, Mitteleuropa, Deutschland, Rheinland, Siebengebirge
+R: Tanz - Lied, Reigen, Gesellschafts - Spiel
+M: 2/4
+L: 1/8
+K: F
+ | CCCC | D2D
+D | CCCC | F2z2
+CCCC | D2D
+D | CCCC | F2z
+F | FFAA | AGG
+F | EFGA | F2z
+F | FFAA | AGG
+F | EFGA | F2z2
+S:https://www.folktunefinder.com/tunes/76845
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, gesellschafts - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Hame Came Our Gude Man
+R: strathspey
+B: RSCDS 30-__
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+d2 \
+| "D"A3F A2f2 "G"e2d2 B2d2 | "D"A3F A2B2 "G"d3e d2B2 \
+| "D"A2F2 A2f2 "Em"gfed "A"dcBA | "D"A3F "A7"A2B2 "D"d3e d2 :|
+|: a2 \
+| "D"f3e d2f2 "Em"e3d "A7"B2a2 | "D"f3e d2f2 a3b "A7"a2g2 \
+| "D7"f2a2 "G"bagf "Em"gfed "A7"dcBA | "D"A3F "A7"A2B2 "D"d3e d2 :|
+S:https://www.folktunefinder.com/tunes/19384
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HameCameOurGudeMan_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HameCameOurGudeMan_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

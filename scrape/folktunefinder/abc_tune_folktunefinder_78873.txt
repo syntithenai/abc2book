@@ -1,0 +1,29 @@
+X:432
+T: EINSTMALS SASS ICH VOR MEINER HUETTE
+N: E0355
+O: Europa, Mitteleuropa, Deutschland, Hessen, Odenwald; Nassau
+R: historisches Lied, Krieg, Schlacht bei Leipzig (1813)
+M: 6/8
+L: 1/8
+K: G
+DEF | G2BAGA | BAz
+AAA | d2cB2A | G2z
+DEF | G2BAGA | BAz
+AAA | d2cB2A | G2z
+BBB | dcAcBG | BAz
+BBB | dcAcBG | BAz
+DEF | G2BAGA | BAz
+edc | BAGAGF | d3
+edc | BAGd2d | G2z
+S:https://www.folktunefinder.com/tunes/78873
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg, schlacht bei leipzig (1813)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

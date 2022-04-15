@@ -1,0 +1,26 @@
+X:280
+T: ACH GOTT WIE WEH THUT SCHEIDEN
+N: Z0278
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, Abschieds - Lied
+M: 6/8
+L: 1/8
+K: E
+=G | A2=GF2E | E3=D2
+D | =G2GAGA | B3z2
+=G | A2=GF2E | E3=D2
+D | =G2GAGA | B3z2
+B | =d2dd2d | =d2AA2
+A | =c2ce=dc | =c3B2
+B | =cBA=G2F | E3z2
+S:https://www.folktunefinder.com/tunes/69139
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

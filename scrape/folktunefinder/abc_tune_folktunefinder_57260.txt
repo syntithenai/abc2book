@@ -1,0 +1,22 @@
+X:2321
+T:Burke's
+Z: id:dc-jig-16
+M:6/8
+L:1/8
+K:D Major
+A|dAF AGF|dAF AGF|A,CE GFG|A,CE GFE|!
+DFA DGB|Ace d2e|fed cBA|GFE D2:|!
+g|fdf a^ga|fdc d2f|e=ce gfg|e=ce gfe|!
+f3 g3|a3 bag|fed cBA|GFE D2:|!
+S:https://www.folktunefinder.com/tunes/57260
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

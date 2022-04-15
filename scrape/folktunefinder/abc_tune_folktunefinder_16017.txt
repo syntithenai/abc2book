@@ -1,0 +1,37 @@
+X: 1
+T: Maple Leaf Rant
+C: Jimmy Boal
+N: Maple Leaf Band, Dundee
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: File file Janis Dairiki 2009-2-13
+M: C|
+L: 1/8
+K: D
+"A7"A2 \
+| "D"(3ABA ^GA B2A2 | (3ded cd e2d2 | dAdf a2_a2 \
+| "Em"g4- g2 "A"A2 | "A"(3ABA ^GA B2A2 |
+| (3cdc ^Bc e2c2 | "Em"gagf "A7"edcB | "D"A4- A2"A7"A2 \
+|[| "D"(3ABA ^GA B2A2 | (3ded cd e2d2 | f2de "D7"fga^a |
+| "G"b8 | "G"bdgb dgbd | "D"adfa dfad \
+| "Em"gfed "A7"cdec | "D"d6 |]| "D7"A2 | "G"B2B2 BcdB | "D"A2F2 F4 |
+| "G"G2G2 "A7"GABG | "D"A4- "D7"A4 | "G"B2B2 BcdB \
+| "D"A2F2 F4 | "E7"E^GBd c2B2 | "A"A4- A2|: "D7"A2 | "G"B3B B2d2 |
+| "D"A3A A2F2 | "G"G3G G2B2 | "D"A4- A4 \
+| "G"B3B B2d2 | "D"A2f2 "E7"edcB | "D"A2f2 "A7"f3e | "D"d4- d2 :|
+S:https://www.folktunefinder.com/tunes/16017
+S:http://trillian.mit.edu/~jc/music/abc/new/MapleLeafRant1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MapleLeafRant1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MapleLeafRant1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MapleLeafRant1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/MapleLeafRant1_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

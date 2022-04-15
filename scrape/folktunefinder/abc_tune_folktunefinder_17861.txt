@@ -1,0 +1,24 @@
+X: 1
+T: Pig Town Fling
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2ge d2ed | B2ge dBAB | G2ge d2ed |1 BGAG "C"EF"D7"GA \
+                                      :|2 "D7"BGAF "G"G4 :|
+|: "Em"Be2e e2eg | "D"fgaf "Em"gfed | Be2e efge |1 "D"fgaf "Em"g2B2 \
+                                               :|2 "D"fgaf "G"g4 :|
+S:https://www.folktunefinder.com/tunes/17861
+S:http://trillian.mit.edu/~jc/music/abc/reel/PigTownFling.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/PigTownFling.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PigTownFling.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

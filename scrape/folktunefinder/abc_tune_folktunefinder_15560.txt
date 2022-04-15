@@ -1,0 +1,26 @@
+X: 1
+T: the Man at the Loom
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS probably from Barbara McOwen
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"e4 "D"f4 | "A"e2c2 "D"f4 | "A"e2a2 "F#m"AGAB | "D"c2B2 "E7"B2cd \
+| "A"e4 "D"f4 | "A"e2c2 "D"f4 | "A"e2a2 "E7"AGAB | "A"c2A2 A2 :|
+|: cd \
+| "A"e4 "A7"efec | "D"d2B2 "E7"B2 AB | "A"c2ce dcBA | "G"=G2B2 "E7"e3d \
+| "A"c4 c2BA | "D"d2f2 a3e | "Bm"f2d2 "E7"B2ed | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/15560
+S:http://trillian.mit.edu/~jc/music/abc/march/ManAtTheLoom_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/ManAtTheLoom_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

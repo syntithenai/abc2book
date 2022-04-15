@@ -1,0 +1,30 @@
+X: 1
+T: LeMa'an Achai [Dm]
+T: For the Sake of My Brothers and Friends
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+N: Berachot 64A
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: A \
+| "Dm"A ^G A | f e d | "Gm"B6- | B4 B \
+| B A G | f e d | "Dm"A3- | A2 A |
+S:https://www.folktunefinder.com/tunes/7174
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/LeMaanAchai.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Waltz_LeMaanAchai.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/waltz/LeMaanAchai_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/LeMaanAchai_Dm_wW.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:117
+%%topmargin 3cm
+T:Mr. Alexander Munro's Favourite
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A mix
+e | A<Ac>A d>Bc>A | BA d>BG>B | A<Ac>A d>Bc>A | d>Be>d c>BA>a |
+A<Ac>A c>Bc>A | B>Gg>d B>AG>B | A>Ac>A d>Bc>A | d>Ba>e c>BA>a ||
+e>ac>a e>ac>a | d>Bg>d B>AG>B | e>ac>a e>ac>a | d>Be>d c>BA>e |
+a>ec>e a>ec>e | Bd B>AG>g | a>fg>e f>de>c | d>Ba>e c>BA :|
+S:https://www.folktunefinder.com/tunes/71147
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_Alexander_Munros_Favourite.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0117.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

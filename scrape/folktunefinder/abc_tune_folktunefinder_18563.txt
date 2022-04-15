@@ -1,0 +1,28 @@
+X:1
+%%Copyright 1918, Broadway Music Corporation, New York
+T:After you've gone
+M:4/4
+L:1/8
+C:Creamer & Layton
+Q:1/4=240
+%%staves (chords melody)
+K:Bb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Ebmaj7"x4 x4 | "Ebm6"x4 x4 | "Bbmaj7"x4 "( Eb7 )"x4 | "Dm7"x4 "G7"x4 ||
+V:melody
+GBcd-d4 | zcdc dc3 | DFGA-A4 | zGAG AG3 ||
+S:https://www.folktunefinder.com/tunes/18563
+S:http://trillian.mit.edu/~jc/music/abc/song/After_youve_gone.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/after_youve_gone.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/After_youve_gone.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/after_youve_gone.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

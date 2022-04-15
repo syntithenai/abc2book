@@ -1,0 +1,22 @@
+X:1
+T:abcm2ps version 3 features
+M:2/4 3/4
+K:C
+C2D2 E2F2G2{FG}|G4-G6|1.2[M:5/4 (2/4 3/4)]G4{AB}z6:|["last time"A2B2 c6||
+%%multicol start
+%%rightmargin 11.5cm
+[M:2/4]C2G2|C4|//|
+%%multicol new
+%%leftmargin 11.5cm
+%%begintext
+S:https://www.folktunefinder.com/tunes/45426
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

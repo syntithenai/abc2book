@@ -1,0 +1,30 @@
+X:121
+T: Die Schferin und der Kuckuck (1-47), S. 118
+N: K1095
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Scherzlied, ]
+M: 6/8
+L: 1/8
+K: G
+D | G2GGFG | A2AA2
+A | B2BdcA | G2z3
+D | G2GGFG | A2AA2
+A | B2BdcA | G2z3
+d | ^c2AABc | d2^cd2
+d | ^c2AABc | ed^cd2
+d | B2z3d | c2z3
+d | B2dB2d | B2z3
+S:https://www.folktunefinder.com/tunes/70251
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Scherzlied, ]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

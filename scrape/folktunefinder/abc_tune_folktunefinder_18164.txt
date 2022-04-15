@@ -1,0 +1,28 @@
+X: 1
+T: Steer her up and had her gaun
+R: reel
+B: Gow's Collection
+B: RSCDS 8-6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe \
+| "D"d2d2 f3e | defg a2 AG | F2A2 BAGF | "A7"E2E2 c3e \
+| "D"d2d2 f3e | defg a2ga | "G"bagf "A7"edec | "D"d2 D4 :|
+|: fe \
+| "D"d2A2 F3A | dAGA GFED | "C"e2 =c4 E=F | GFED =C2 fe \
+| "D"d2A2 F3A | DEFG A2gf | "G"efgf "A7"ecAc | "D"d2 D4 :|
+S:https://www.folktunefinder.com/tunes/18164
+S:http://trillian.mit.edu/~jc/music/abc/reel/SteerHerUpAndHadHerGaun_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SteerHerUpAndHadHerGaun_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SteerHerUpAndHadHerGaun_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

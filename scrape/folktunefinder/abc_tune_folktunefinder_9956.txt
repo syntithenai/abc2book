@@ -1,0 +1,54 @@
+X: 2
+T: the Balkan Hills Shottishe
+R: shottish
+N: Bain 14, BSFC II-46
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+H: # This g is sometimes played sharp.
+M: 4/4
+L: 1/8
+K: D
+"A"[|] a>g \
+| "D"f2 f>e d2 A2 \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a g>f e>d \
+| "A7"f2 e2 e2 a>g \
+| "D"f2 f>e d2 A2 |
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|"B"|: f>g \
+| "D"a<d f>a f2 e>d \
+| "G"B<G d>B "D"A2 f>g |
+| "D"a<d f>a g>f e>d \
+| "A7"f2 e2 e2 f>g \
+| "D"a<d f>a f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|
+"C"|: A2 \
+| "D"d2 d>e f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<A f>a g>f e>d \
+| "A7"f2 e2 e2 A2 \
+| "D"d2 d>e f2 e>d |
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|"D"|: f>g \
+| "D"a>d f<a f<d f<a \
+| f<d f<a f2 f>g |
+| "D"a>d f>a g>f e>d \
+| "A7"f2 e2 e2 f>g \
+| "D"a>d f<a f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/9956
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BalkanHills.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

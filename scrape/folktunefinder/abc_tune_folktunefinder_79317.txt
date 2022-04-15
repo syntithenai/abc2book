@@ -1,0 +1,31 @@
+X:213
+T: ES LEBE HOCH DER STAND DER EHREN
+N: E1353
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: Bb
+B,2B,2D2 | F4F4G4A4 | B8F2
+F2D2E2 | F4F4B4d4 | c4z8
+c3B | A4A2B2c4c3B | A6B2c4
+A3B | c4F4A4G4 | F4z8
+F4 | B4B2B2d2c2B2G2 | F8D4
+G3F | F4E2D2E4F3E | D4z6
+F2F2F2 | B4z6B2B2A2 | G4z6
+c2c2c2 | d4d4e4f4 | d4z8
+F4 | B4B2B2d2c2B2G2 | F8D4
+G3F | F4E2D2E4F3E | D4z6
+F2F2F2 | B4z6B2B2A2 | G4z6
+c2c2c2 | d4d4e4f4 | d4z6
+S:https://www.folktunefinder.com/tunes/79317
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

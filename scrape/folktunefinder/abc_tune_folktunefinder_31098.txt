@@ -1,0 +1,25 @@
+X: 591
+T:Mount your Baggage
+N:Looks to me as though this would be better written in 3/2
+M:C|
+L:1/4
+K:D
+F|\
+DFA2| DA B/A/G/F/| GE2F| \
+DFA2| Fdc>B| AFF::
+d/e/|\
+f/d/e/c/d2| DA B/A/G/F/|GE2d/e/|\
+f/d/e/c/d2| Fd"tr"c>B| AF2d/e/|
+f/d/e/c/d2| DA B/A/G/F/| GE2F|\
+DFA2| Fd e/d/c/B/| AF2:|
+S:https://www.folktunefinder.com/tunes/31098
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

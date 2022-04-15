@@ -1,0 +1,40 @@
+X:767
+T:Arthur Darley
+R:Jig
+C:Formally, but with lift, via Phil Rowe
+S:Nottingham Music Database
+M:6/8
+L:1/8
+K:D
+dc/2B/2|A2D AGF|EDC D3|d2e fgf|edc d2A|
+d2e fgf|
+M:9/8
+edc d2A BAG|
+M:6/8
+FED EDC|DA,B, CDE|Ddd Aee|Aff Agg|
+fed edc|d3 dcB||A2D AGF|EDC D3|
+d2e fgf|edc d2A|d2e fgf|
+M:9/8
+edc d2A BAG|
+M:6/8
+FED EDC|DA,B, CDE|Ddd Aee|Aff Agg|
+fed edc|d3 d=c_B|:
+K:F
+A2f fef|A2f fef|Aff Agg|Aaa Abb|
+A2f fef|A2f f2g|fed ed^c|1 d3 dcB:|2 d3 d2e|
+K:D
+:|fgf edc|d2A BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d3 d3:|]
+S:https://www.folktunefinder.com/tunes/1401
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

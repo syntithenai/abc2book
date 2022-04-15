@@ -1,0 +1,26 @@
+X:265
+T: Alte niederlaendische Tanzmelodie
+N: A0309A
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 132
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G3GB3B | d3dB3
+B | d3dB3c | d4d2
+G2 | G3GB3B | d3dB3
+B | d3dB3c | d4d2
+d2 | d3dd3d | B3BA3
+A | B3AG3=F | E3=FG3A | B4A4 | G6
+S:https://www.folktunefinder.com/tunes/68811
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

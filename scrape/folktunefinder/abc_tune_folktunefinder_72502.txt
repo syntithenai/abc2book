@@ -1,0 +1,26 @@
+X:45
+T: Wilmens Esel
+N: D0047
+O: Europa, Mitteleuropa, Lothringen, Breisdorf ( Kr. Diedenhofen )
+N: Heptatonik ( Ionisch, Schluss moduliert in parallele Molltonart)
+N: Inzipit = Variante zum Lied
+R: Ballade, Schwank
+M: 2/4
+L: 1/16
+K: Bb
+F2 | B2B2B2c2 | d2c2B4
+c2B2c2d2 | e2ccd4d4
+f2e2d2c2 | d2ccB4
+c2c2c2d2 | B2B2B4
+c4c2B2 | d2c2B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/72502
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Ballade, schwank
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

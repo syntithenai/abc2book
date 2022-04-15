@@ -1,0 +1,26 @@
+X: 1
+T: Kopanica
+O: 
+R: kopanica
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwrittenMS of unknown origin
+M: 7/16
+Q: 1/8 1/8 3/16 1/8 1/8
+L: 1/16
+K: Dmix
+|: D2EF G2F GFE2 | {G}A2A2 G2F GFE2 | D2EF G2F GFE2 | {D}E2E2 E2A E4 :|
+|: {A}B2B2 B2B B2B2 | AGFE F2E GFE2 | {A}B2B2 B2B {A}B2B2 | AGFE F2B F4 :|
+|: dcBA B2A BAG2 | FEFG A2B GFE2 | dcBA B2A BAG2 | {E}F2F2 F2B F4 :|
+S:https://www.folktunefinder.com/tunes/19748
+S:http://trillian.mit.edu/~jc/music/abc/tune/Kopanica01_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/tune/Kopanica01_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kopanica01_D.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/16
+% Text Has source text
+% Has_accompaniment_chords No chords

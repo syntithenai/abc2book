@@ -1,0 +1,26 @@
+X:153
+%%topmargin 3cm
+T:The Caledonian Hunt
+C:Sir A. Don
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A | F>A dA B<d A>F | GF BE-E>G | .F.A .d.A BdAF | GG FD-D>G | F>A dA B<dA>F |
+GF BE-E>G | F>A d>A B/2c/2d A>G | F>A D>g f>dd || f | (d/2e/2f/2g/2) a>f b>ga>f | (d/2e/2f/2g/2) a<f g<e e>f |
+(d/2e/2f/2g/2) a>f b<ga<f | A<aTa>g fd d>f | (d/2e/2f/2g/2) a>f b>ga>f | (d/2e/2f/2g/2) a>f gee>g | f>d e<f Td>B A<F | A>B d>e f>dd |]
+S:https://www.folktunefinder.com/tunes/71183
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caledonian_Hunt.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0153.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

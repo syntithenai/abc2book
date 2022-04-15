@@ -1,0 +1,18 @@
+X: 1
+T: El Ha-Rahat (F#m)
+M: 4/4
+L: 1/8
+K: F#m
+|: "Bm"B2B2 | "E"GF FE | GF FE | "F#m"F3 z :: "Bm"BB BA/B/ | cB B2 | "E"GF GE | "F#m"F3 z :|
+S:https://www.folktunefinder.com/tunes/13387
+S:http://trillian.mit.edu/~jc/music/abc/folk/ElHarahat_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ElHarahat_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/ElHarahat_Fsm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/ElHarahat_Fsm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/folk/ElHarahat_Fsm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

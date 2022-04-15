@@ -1,0 +1,36 @@
+X:95
+T:Gillespie's Reel
+T:The Donegal Traveller
+T:The Drunken Tinker
+T:The Boreen Reel
+R:Reel
+D:Hugh Gillespie (a 78)
+D:Finbarr Dwyer
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:A
+A2EA CAEA|A3e GABG|(3ABA EA CABc|dfed ceBe|\
+A2ED CEB,E|A,2eA GABG|(3ABA EA cABc|dfed ceA2||\
+(3efe ^df ecAc|efec dcdB|eAA2 fAA2|efed cAA2|\
+(3efe ^df ecAc|efec dcBc|(3ded ce dcBA|Gfed ceBe||\
+S:https://www.folktunefinder.com/tunes/16827
+S:http://trillian.mit.edu/~jc/music/abc/reel/BoreenReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/DonegalTraveller_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrunkenTinker_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/GillespiesReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BoreenReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DonegalTraveller_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DrunkenTinker_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GillespiesReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BoreenReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DonegalTraveller_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DrunkenTinker_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GillespiesReel_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

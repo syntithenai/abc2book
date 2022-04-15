@@ -1,0 +1,24 @@
+X: 1
+T: Napoleon
+R: march
+S: 358 Danske folkedansemelodier af Herluf vad Thomsena 1963
+O: Danmark
+Q: 1/2=76
+M: 2/4
+L: 1/8
+K: G
+   d | g2 f>e | d2 d2 | e2 f2 | g2 dd | ed cB | A2 d2  | B4-   | B2 z :|
+|: d | Bd dd  | ed dd | Bd dd | ed dd | g2 a2 | ba g>g | a2 f2 | g2 z :|
+S:https://www.folktunefinder.com/tunes/13423
+S:http://trillian.mit.edu/~jc/music/abc/folk/Napoleon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/folk/Napoleon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/Napoleon_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:Bessy Bell and Mary Gray
+L:1/8
+M:6/8
+S:Andrew Kuntz <aikuntz:aol.com> tradtunes 2001-7-13
+B:McGlashan - Collection of Scots Measures
+B:Aird
+Z:AK/Fiddler's Companion
+N:paul_burgess:bigfoot.com wrote:
+N:According to tradition, Bessy Bell and Mary Gray were two young ladies
+N:of Perthshire, who, at the time of the plague (in 1645) retired for
+N:safety to some cottage or `bower', about a mile from Lynedoch House,
+N:Mary Gray's home. A youth, who was much attached to them,
+N:supplied them with food from Perth, but at last brought the
+N:infection, and they both died; according to custom, they were
+N:buried in a lonely spot, instead of with `their noble kin'.
+K:D Mix
+A | F>GA ABc | B>AB G2G | F>GA A>BA | d3 (g2f/g/) | aAA ABc | BAG g2 f/g/ | agf gfe | d3f2 :|
+|: f/g/ | afd dfd | gec efg | a/g/f/e/d d>fd | f3 (g2f/g/) | afd faf | gec efg | agf gfe | d3f2 ||
+S:https://www.folktunefinder.com/tunes/13859
+S:http://trillian.mit.edu/~jc/music/abc/jig/BessyBellAndMaryGray_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BessyBellAndMaryGray_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/BessyBellAndMaryGray_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

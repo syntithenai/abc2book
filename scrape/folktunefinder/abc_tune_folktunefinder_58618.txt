@@ -1,0 +1,28 @@
+X: 11
+T: Munster Bacon
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 340
+R: Double jig
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/oneill-1001-301-400.abc
+M: 6/8
+L: 1/8
+%F:http://www2.redhawk.org/irish/oneill/1001/F/03.abc 2003-07-15 16:27:09 UT
+K: D
+G|ABA AFD|dfe (d2c)|BGB dA(F|G)EE E2G|AFA dc(d|B)GB (e/f/g)e|
+agf ed(e|f)dd d2:|||f|afd dfa|bge efg|(fa)(f g)e(d|e)cA A2G|
+Fdd cee|dff efg|(f/g/a)(f e)d(e|f)dd d2:|
+S:https://www.folktunefinder.com/tunes/58618
+S:http://www2.redhawk.org/irish/oneill/1001/F/03.abc
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Double jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

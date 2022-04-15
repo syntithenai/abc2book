@@ -1,0 +1,35 @@
+X: 2
+P: Katu\vse Mome (\VSto mi je milo em drago)
+O: Makedonia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+"Verse"\
+|: "A"[A2E2] "D"[d2F2][dF] [d2F2] [d2F2] \
+| "A"[e2G2] [eG][dF][eG] "D"[f4A4] \
+| [fA][gB] "A"[a2c2][bd] [ac][gB] [gB][fA] \
+|1 "A"[fA][eG] [gB][fA][eG] "D"[d2F2] [cE][BD] \
+:|2 "A"[fA][eG] [gB][fA][eG] "D"[d4F4] ||
+"Chorus"\
+|: "D"[fA][gB] "A"[a2c2][bd] [ac][gB] [gB][fA] \
+| "A"[fA][eG] [eG][dF][eG] "D"[f4A4] \
+| [f2A2] "A"[e2G2][eG] [eG][dF] [ac][gB] \
+| [fA][eG] [gB][fA][eG] "D"[d4F4] :|
+"Inst."\
+|: "D"[af][bg] [a2f2][ge] [fd][ge] [af][bg] \
+| [af][fd] "A"[ge][fd][ec] "D"[f/d/][g/e/][a/f/][b/g/] [a2f2] \
+| [af][bg] [a2f2][ge] [fd][ge] [af][bg] \
+| [af][fd] "A"[ge][fd][ec] "D"[d4A4] :|
+S:https://www.folktunefinder.com/tunes/2849
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/KatusheMome.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KatusheMome.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KatusheMome1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/KatusheMome.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/KatusheMome1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

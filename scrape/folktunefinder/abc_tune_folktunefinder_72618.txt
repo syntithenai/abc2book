@@ -1,0 +1,25 @@
+X:161
+T: In Hamburg steht ein Haus,
+N: D0269
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Muenster
+N: Inzipit = Variante zum Lied
+R: Tanz - Lied, Spiellied
+M: 2/4
+L: 1/16
+K: C
+G4 | c2G2E2C2 | G4
+e4 | d2c2B2A2 | G4
+A4 | G3FE2FF | G2G2G4
+G3FE2F2 | G2G2G2
+c2 | B2B2A2B2 | c4
+S:https://www.folktunefinder.com/tunes/72618
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Tanz - lied, spiellied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

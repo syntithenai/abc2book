@@ -1,0 +1,36 @@
+X: 64
+P: L\"ordags valsen (Saturday waltz)
+C: Anselm Johansson
+R: waltz
+O:
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: G
+|: D2 \
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"B3 AGE | D4 D2 |
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F2 D2 F2 | A2 B2 A2 | "G"G3 G G2 | HG2 :|
+|: G2 \
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F2 D3 F | A2 d2 c2 | "G"B3 AGE | D4 G2 |
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"G3 G G2 | G2 :|
+|: D2 \
+| "G"DG BD GB | DG BD GB | DG c2 B2 | "D7"A3 A A2 \
+| DF AD FA | DF AD FA | DF B2 A2 | "G"G3 G G2 |
+| "G"DG BD GB | DG BD GB | "Am"EA cE Ac | EA cE Ac \
+| "D7"d2 e3 d | c2 E2 F2 | "G"G3 G G2 | G2 :|
+S:https://www.folktunefinder.com/tunes/8607
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Vals.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:1
+T:Alexanders Rag Time Band
+M:2/2
+L:1/8
+Q:1/8=220
+F:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+K:G
+{^A} B2|{^A} B3 z  {^A}  B2|{^A} B3 z  {^A}  B2|
+{^A}  B2 =A2 F2 D2|G3 z {^d}  e2|
+{^d} e3 z  {^d} e2|{^d} e3 z  {^d} e2
+|{^d} e2 c2 G2 c2|e3 z e2|
+{^c}  d2 e2 {^c} d2 e2|{^c} d2 e2  {^c} d2 B2|
+G2 {^A} B2   G2 {^A} B2|G2 {^A} B2  G2 z|
+A2 A2-A2 B2|^c2 A2 B2 c2|
+d2 z d2 z|c B3 A2 {^A} B2|
+{^A} B3 z  {^A}  B2|{^A} B3 z  {^A}  B2|
+{^A}  B2 =A2 F2 D2|G3 z {^d}  e2|
+{^d} e3 z  {^d} e2|{^d} e3 z  {^d} e2|
+{^d} e2 c2 G2 c2|e3 z e2|
+d3 z B2|A2 G2 B2 A2|
+G4 g4|e2 g2-g2 d2|
+{^c} d3 z d2|{^c} d3 z d2|
+{^c} d2 d2 e2 f2|g6||
+S:https://www.folktunefinder.com/tunes/18574
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/AlexandersRagtimeBand1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/song/AlexandersRagtimeBand1_G.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

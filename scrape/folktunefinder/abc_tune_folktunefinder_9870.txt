@@ -1,0 +1,28 @@
+X: 4
+P: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"C<F F>G "Dm"A>G A<F | "Gm"D<G G>A "C7"B2 Bc \
+| "Bb"d<f "F/A"c>A "Gm"G>F "C7"G<A | "F"C>F "C7"E>G "F"F2- "fine"F :|
+c \
+| "F"f>e f<a "C7"f>e f<a | "Dm"f>g f>a "G7"g3 a \
+| "F"f>c c>A "Bb"B>b a>g | "F"f>d c>A "C7"G2- "d.C."G |]
+S:https://www.folktunefinder.com/tunes/9870
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Alltshellach.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090112/Alltshellach.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

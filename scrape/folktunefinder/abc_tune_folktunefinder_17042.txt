@@ -1,0 +1,28 @@
+X: 1
+T: Douglas
+O: Athole Coll
+S: Athole Collection
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+   GE \
+| "C"C2 c4 Bc | "G"dBGB "C"c2cd | "C"ecec "G"fdfd | "Am"gece "G"dBGE |
+| "C"C2 c4 Bc | "G"dBGB "C"c2Bc | "G"dBdB "D7"cAG^F | "G"G2G2 G2 :|
+|: ef \
+| "C"gfed "C7"c_BAG | "F"A2F2 F2fg | "Dm"agfe "D7"dcBA | "G"B2G2 G2ef |
+| "C"gege "F"fafa | "C"gege "F"fafa | "C"geaf "G7"edcB | "C"c2c2 c2 :|
+S:https://www.folktunefinder.com/tunes/17042
+S:http://trillian.mit.edu/~jc/music/abc/reel/Douglas_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Douglas_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Douglas_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

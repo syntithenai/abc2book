@@ -1,0 +1,31 @@
+X:214
+T: Sehnsucht
+N: A0259
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Lbb. 1450 No. 17. Die Rhythmisierung ist von Boehme,
+N: sie folgt der "musikalischen Vernunft".
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/2
+K: D
+G | A2AAd2 | =c2A=FG2 | =F2z
+G | Ad2=cdB | A2z
+G | A_B=cc | d2A2
+d2 | =c2_BABG | =F2
+=c2 | _BAG=F | E2D2
+E=F | =c2AcG2 | =F2z
+F | AA=cc | d2A2
+G2 | AG2=FE2 | D3
+S:https://www.folktunefinder.com/tunes/68760
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

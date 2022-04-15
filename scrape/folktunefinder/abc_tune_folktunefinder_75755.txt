@@ -1,0 +1,63 @@
+X:59
+T:Kadril van Mazel
+T:Kadril van Mazenzele
+S:Fotocopie van met de hand geschreven partituur
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+T:Eerste figuur
+P:Voorspel
+G|"C"GG "F"AB|"C"cB "Am"ce|"G"GG "G7"AB|"C"c3||
+P:A
+C/E/!segno!|"C"GG "F"AA|"C"GE CE|"G"GG "F"AB|"C"G2 EG|"C"GG "F"AB|"C"cB "Am"ce|"Dm"dc "D7"BA|"G"G3 C/E/|
+"C"GG "F"AA|"C"GE CE|"G"GG "F"AB|"C"G2 EG|"C"GG "F"AB|"C"cB "Am"ce|"G7"GG AB|"C"c2||
+P:B
+GG|:"C"e2 "G"d2|"C"c2 "G7"Bd|"F"c2 A2|"C"G2 E2|G3 A|G>F EF|G2 "F"A2|"G7"G2 z2|
+"C"c3 d|e>e ee|"G7"d2 d2|"C"e2 z2|c3 d|"Am"e>e ee|"G"d2 "G7"d2|[1"C"c2 GG:|[2"C"c2||
+P:C
+M:6/8
+"C"cBc|:"F"A2A c2c|"C"G2G "C"c2c|"G"d2d "G7"c2d|"C"e2z "C7"cBc|
+"F"A2A c2c|"C"G2G "C"c2c|"G"d2d "G7"c2B|[12"C"c2z "C7"cBc:|[3c2z||[M:2/4]C/E/!segno!||
+T:Tweede figuur
+K:G
+P:Voorspel
+G|"G"GD "C"GA|"G"BA "Em"GB|"Am"AE "D7"FD| "G"Gz||
+P:A
+!segno!B/c/|"G"dd "C"ee|"G"dd zB/c/|dd "C"ee|"G"d2 zB/c/|"G"dd ef|"C"gg fe|"Em7"dB GB|"D"A2 zB/c/|
+"G"dd "C"ee|"G"dd zB/c/|dd "C"ee|"G"d2 zB/c/|"G"dd ef|"C"gd dB|"D7"dc BA|"G"GB dB|GB, DB,|G,3||
+P:B
+G|"G"GD GA|"Em"BA GB|"D"AG FA|"G"G2DG|"G"GD GA|"Em"BA GB|"A7"AG FE|"D"D3 G|
+"G"GD GA|"Em"BA GB|"D"AG FA|"G"G2DG|"G"GD GA|"Em"BA GB|"Am"AE "D7"FD| "G"G2z!segno!|]
+T:Derde figuur
+K:C
+P:Voorspel
+"C"G AG|c2 c2|d2 c2|(e4|e)(efg)|("G"gf) (fe)|"D7"d2 "G7"e2|("C"c4|c)||
+P:A
+!segno!G EG|"C"CC/C/ (C2|C)C B,C|("G7"D4|D)F EF|"G7"B,B,/B,/ (B,2|B,)B, A,G,|("C"G4|G)G EG|
+"C"CC/C/ (C2|C)C DE|"F"F4|A4|"G7"GG/G/ GA|Gz zG/A/|"rall."GF ED|"C"Cz||G|
+P:B
+"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "F"AF|"C"EC "G6"ED|"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "D5"EC|"G"Dz G,B,|
+"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "F"AF|"C"EC "G6"ED|"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "G7"ED C||
+"a tempo"G AG|"C"c2c2|d2c2|(e4|e)G AG|[c2e2][c2e2]|[d2f2][c2e2]|([e4g4]|[eg])e fg|"G7"g2f2|e2f2|(d4|d)d ef|fd BA|"G"G2 "F"a2|("G"g4|g)G AG|
+"C"c2c2|d2c2|(e4|e)G AG|[c2e2][c2e2]|[d2f2][c2e2]|([e4g4]|[eg])G AG|"C7"g2e2|f2g2|"F"a4|"Fm"c'4|"G7"bg fd|B2G2|("C"c4|c)!segno!|]
+T:Vierde figuur
+P:Voorspel
+"F"A3A|"C"G2G2|"F"A4|"G7"B4|("C"c4|c)z||
+P:A
+!segno!C>E|"C"G2G2|G2 c>A|(G4|G)G FE|"G7"D4|DF ED|("C"C4|C)c cB|"F"A3A|B3A|"C"A2 Gz|zG AG|
+"Dm"F3D|"G7"G3F|"C"F2Ez|zC EG|"G7"c3c|d2c2|("F"A4|A)c BA|"C"G3G|"F"A2 "G7"B2|("C"c4|c)||
+P:B
+E>F|"C"G>G GG|AG ^FG|A2G2|E2 z2|"G7"D3E|F2F2|"C"E3F|G2G2|"F"A3A|"C"G2G2|"F"A4|"G7"B4|("C"c4|c)z!segno!|]
+%%scale 0.75
+S:https://www.folktunefinder.com/tunes/75755
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

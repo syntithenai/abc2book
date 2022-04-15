@@ -1,0 +1,24 @@
+X:592
+T: ICH HAB MIR EINEN GARTEN GEPFLANZT
+N: E0552
+O: Europa, Mitteleuropa, Deutschland, Bonn, Kessenich
+R: Liebes - Lied, Vertroestung
+M: 4/4
+L: 1/8
+K: A
+E2 | A2B2=c2B2 | A4=G2
+G2 | =cdeed2dB | =c4z2
+cd | e2e2=c2e2 | d2=c2B2
+Bc | d2d2B2e2 | =c2BcA2z2
+B3cd2eB | =c2B2A2
+S:https://www.folktunefinder.com/tunes/79033
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, vertroestung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

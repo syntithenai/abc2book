@@ -1,0 +1,26 @@
+X:214
+T: Der Jger und das Mgdelein (2c), S. 31
+N: T0102
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: JUNGLINSTER, gesungen vom Gemeindewegewrter, hhh
+N: Valentin Santer
+R: "erzhlende Lieder"]
+M: 2/4
+L: 1/8
+K: G
+ | G2GA | B2AG | GEEE | E2
+EE | GGFG | A2F2 | G2DD | D2
+D2 | B2BB | B2d2 | BBcB | A2
+DD | DDDA | A2A2 | c2FA | G2z2
+S:https://www.folktunefinder.com/tunes/70344
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

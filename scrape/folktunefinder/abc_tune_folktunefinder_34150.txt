@@ -1,0 +1,35 @@
+X: 6239
+T:Thunderhead (7/8)
+C:Grey Larsen
+O:Canada
+B:Published Sleepy Creek Music, BMI
+N:Contact address - glarsen@bluemarble.net
+N: After last rep of 7/8 part of tune, end with a one note coda : B7
+M:7/8
+K:D
+~B3 fBBf | eBB dBBA | ~B3 fggf | edB AGGc | \
+~B3 fBBf | eBB dBef |
+gfe fddB | ADF ABBc :||\
+K:G
+dGG AGGE | DEG E~F3 |
+EFF E~F3 | GFE E~F3 | \
+dGG AGGE | DEG EFFA |1 BdB ceeg | f/2g/2af g2ge :|2\
+M:6/8
+Bde fge |\
+M:7/8
+edB AGGc ||
+W:Copyright (C) Grey Larsen
+S:https://www.folktunefinder.com/tunes/34150
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

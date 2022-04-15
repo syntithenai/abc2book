@@ -1,0 +1,37 @@
+X:2313
+T:Sunshine hornpipe
+C:trad. Ierland
+O:Ireland
+M:12/8
+L:1/8
+Q:1/4=216
+K:Eb
+V:1
+(G2 G)|(B eB GB GE GE B,2 G,)|(G,2 B,E2 GB2 GE2 G)|(G cG GB G)(F GF EG E)|
+(D2 F)(C2 F)B,3 (G2 G)|(B2 eG2 BE2 GB,2 G,)|(G,2 B,E2 GB2 GE2 G)|(G cG GB G)(F GF DF D|
+E2) (eB2 GE3) ||(G2 G)|(B eB GB GE GE B,2 G,)|(G,2 B,E2 GB2 GE2 G)|
+(G cG GB G)(F GF EG E)|(D2 F)(C2 F)B,3 (G2 G)|(B2 eG2 BE2 GB,2 G,)|(G,2 B,E2 GB2 GE2 G)|
+(G cG GB G)(F GF DF D|E2) (eB2 GE3) ||(F2 G)|(G2 FD2 FB,2 DF2 G|
+G2 FD2 FG3) (G2 G)|(B2 GE GE B,2 EG2 G|B2 GE GB e3) (d2 e)|(c2 GF2 G)(c BG GF E)|
+(D EF ED C)B,3 (G2 G)|(B2 ec2 G)(G2 E)(F2 D)|E2 (eB2 GE3) ||(F2 G)|
+(G2 FD2 FB,2 DF2 G|G2 FD2 FG3) (G2 G)|(B2 GE GE B,2 EG2 G|B2 GE GB e3) (d2 e)|
+(c2 GF2 G)(c BG GF E)|(D EF ED C)B,3 (G2 G)|(B2 ec2 G)(G2 E)(F2 D)|E2 (eB2 GE3) |]
+V:2          %II
+z3 |"Gb" E3 z3 z3 "Db" (D3 |"Gb" E3) z3 z3 B,3 |"Cb" (C3 "Gb" B,3) "Abm" (G,3 "Ebm" G,3) |
+"Db" F,3 "Ab" =A,3 "Db" B,3 (G2 F)|"Gb" E3 z3 z3 "Db" (D2 F|"Gb" E3) z3 z3 B,3 |"Cb" (C3 "Gb" B,3) "Db7" E3 B,3 |
+"Gb" E,3 B,3 E,3 ||z3 |"Gb" E3 z3 z3 "Db" (D3 |"Gb" E3) z3 z3 B,3 |
+"Cb" (C3 "Gb" B,3) "Abm" (G,3 "Ebm" G,3) |"Db" F,3 "Ab" =A,3 "Db" B,3 (G2 F)|"Gb" E3 z3 z3 "Db" (D2 F|"Gb" E3) z3 z3 B,3 |
+"Cb" (C3 "Gb" B,3) "Db7" E3 B,3 |"Gb" E,3 B,3 E,3 ||z3 |"Db7" (B,6 (B,6) |
+(B,6) (B,2) CD2 F|"Gb" (E6) (E6) |(E6) E2) (FG2 B)|"Abm" G3 z3 z3 "Ab7" (=A,3 |
+"Db" B,3) z3 z2 (B,E2 F)|"Db" (G2 B"Cb" G2 F)"Gb" E2 z"Db" D2 z|"Gb" z2 (EB,2 G,E,3) ||z3 |
+"Db7" (B,6 (B,6) |(B,6) (B,2) CD2 F|"Gb" (E6) (E6) |(E6) E2) (FG2 B)|
+"Abm" G3 z3 z3 "Ab7" (=A,3 |"Db" B,3) z3 z2 (B,E2 F)|"Db" (G2 B"Cb" G2 F)"Gb" E2 z"Db" D2 z|"Gb" z2 (EB,2 G,E,3) |]
+S:https://www.folktunefinder.com/tunes/42720
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

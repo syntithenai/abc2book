@@ -1,0 +1,27 @@
+X:1126
+T: Strop the Razor
+R:double jig
+N:"" "2nd Setting"
+B:O'Neill's 1093
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:6/8
+L:1/8
+K:G
+G>AG GBG|AFD DFD|G>AG G2B|Add cAF|
+G>AG GBG|AFD DFD|FDE F2G|Add cAF||
+GDG G2A|FDF F2A|GDG G2B|Add cAF|
+GDG G2A|FDF FGA|cAG FGA|Add cAF||
+(G/A/B/^c/d/e/ f2)d|a(ba/g/) f2d|cAG FGA|Add cAF|
+(G/A/B/^c/d/e/ f2)d|a(ba/g/) f2d|cAG FGA|Add cAF||
+G3 BGG|AGG BGG|G>AG BGG|Add cAF|
+G>AG BGG|FDE F2G|FDE F2G|Add cAF||
+S:https://www.folktunefinder.com/tunes/74285
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

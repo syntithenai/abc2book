@@ -1,0 +1,26 @@
+X:256
+T: ZU PRESSBURG STELL ICHS MEIN UNGLUECK
+N: E1396
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied, Deserteur
+M: 2/4
+L: 1/16
+K: Bb
+F2 | B4A2B2 | c4B2
+c2 | d2d2c2d2 | e2d2cz
+d2 | d2d2c2d2 | e4z2
+d2 | c2c2B2c2 | d4z2
+c2 | d2d2c2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/79360
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied, deserteur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

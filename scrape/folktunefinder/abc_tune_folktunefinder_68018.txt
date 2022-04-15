@@ -1,0 +1,35 @@
+X: 132
+T: Hora Dragaselinor
+M: 2/4
+L: 1/16
+Q:1/4=144
+K:G % 1 sharps
+V:1
+%%MIDI program 110
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+Ax ex dx cx                    | \
+c2 B2 c4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+d2 c2 c2 B2                    | \
+cd B2 A4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+Ax ex dx cx                    | \
+c2 B2 c4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+d2 c2 c2 B2                    | \
+cd B2 A4                       |
+S:https://www.folktunefinder.com/tunes/68018
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

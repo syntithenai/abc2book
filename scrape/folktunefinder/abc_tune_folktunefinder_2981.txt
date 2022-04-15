@@ -1,0 +1,25 @@
+X:1
+T:ENTRA E VAI
+C:trad/the performer
+Z:Gianni Cunich <g.cunich:tiscalinet.it tradtunes 2001-05-12
+D:VV AA Brazil: Forr=F2 - music form maids and taxi drivers CD (Globestyle,= 1989)
+N:as played (transposed) by Heleno dos Oito Baixos
+N:literal English translation of the title: In and Out
+M:2/4
+L:1/16
+K:C
+ce | c2e2 g2c'2 | b8 | a2 g4f2 | e2 g4ce |
+c2e2 g2c'2 | b2 a4g2 | f2e2 d2B2 | c6 :|
+cA | G2A2 B2c2 | B4G2 B2 | d2B2 G2B2 | e2 c4cA |
+G2A2 B2c2 | B4G2 B2 | d2B2 G2B2 | c6 :|
+S:https://www.folktunefinder.com/tunes/2981
+S:http://trillian.mit.edu/~jc/music/abc/Brazil/EntraEVai_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/EntraEVai_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

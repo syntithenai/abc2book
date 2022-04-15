@@ -1,0 +1,28 @@
+X:170
+T: Liebesklage
+N: A0208
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III. 1519 No. 17.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2_B2A2G2 | d4d4
+d4 | _B3cd2d2c2c2 | _B6
+G2 | G2_B2A2G2 | d4d4
+d4 | _B3cd2d2c2c2 | _B6
+B2 | _B2d2c2B2 | A4G4
+d4 | c4A4 | _B6A2G4 | =F4z4
+d4 | =f2f2e2d2d2c2 | d4_B4
+c2d2B2c2A4 | G6
+S:https://www.folktunefinder.com/tunes/68716
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

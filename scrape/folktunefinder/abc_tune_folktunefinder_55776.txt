@@ -1,0 +1,28 @@
+X:173
+T:Pat d'Budgie
+C:Graham Townsend
+M: C|
+R: reel
+K: C
+P:A
+B,|"C"C2CE G3 E| "F"FEFA "Dm"d3 c| "G7"BcBA G2 AB| "C"cBcd ecGE|
+"C"C2CE G3 E| "F"FEFA "Dm"d3 c| "G7"BcBA G2 AB| "C"c2 cB c3 :|
+P:B
+e|:"F"f2 fe fg a2| "C"gage c2 Bc| "G7"dedB G2 AB|1 "C"c2 cB cd e2 :|2 "C"c2 cB c2 z||
+P:C
+"C"g2 z2 "F"a2 z2| "C"gage c2 Bc| "G7"dedB G2 AB| "C"c2 cB cd e2 |
+"C"g2 z2 "F"a2 z2| "C"gage c2 Bc| "G7"dedB G2 AB| "C"c2 cB c3|]
+P:Solas Ending - play instead of C
+"C"g2 z2 "F"a2 z2| "C"gage c2 Bc| "G7"dedB G2 AB| "C"c2 cB c3|
+"C"C2CE G3 E| "F"FEFA "Dm"d3 c| "G7"BcBA G2 AB| "C"c2 z2z4 |]
+S:https://www.folktunefinder.com/tunes/55776
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

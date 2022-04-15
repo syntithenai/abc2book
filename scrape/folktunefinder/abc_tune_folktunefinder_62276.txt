@@ -1,0 +1,32 @@
+X:253
+T: GOTT SEI DES KAISERS SCHUTZ
+N: B0734
+O: Europa, Mitteleuropa, Russland
+R: National - Hymne
+M: 4/4
+L: 1/8
+K: F
+ | c4d2d2 | c3AF4
+f4e2d2 | c4d4
+B4c2c2 | A4A2
+=B2 | c4=B4 | A4z4
+c4d2d2 | c3AF4
+f4e2d2 | c4d4
+B4c2c2 | A4A2
+=B2 | c4=B4 | A4z4
+B4A2G2 | A4A4
+f4d2^c2 | d4c4
+f4e2d2 | c4c2
+B2 | A4G4 | F4z4
+S:https://www.folktunefinder.com/tunes/62276
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm National - hymne
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

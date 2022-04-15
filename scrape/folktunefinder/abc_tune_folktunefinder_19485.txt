@@ -1,0 +1,35 @@
+X: 1
+T: Lochnagar
+C: Bert Murray M.C.P.S.
+R: strathspey
+B: the Bon Accord Collection
+N: For Sheena Blackhall - Scottish Poet
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A,2 \
+| D3A, D3E F3D FA3 | G3D G3A B3G Bd3 \
+| A3F d3B A3F D3F | G2AB A2GF GE3 E3F |
+y2 \
+| D3A, D3E F3D FA3 | G3D G3A Bd3 d3A \
+| d3c B3A B3c d3B | A3F E3A FD3 D2 |]
+A2 \
+| d3e f3e dA3 A3d | B3c d3B AF3 F4 \
+| G3A B3G F3G A3F | G2AG F2ED CE3 E3A |
+y2 \
+| d3e f3e dA3 A3d | BABc d3B AF3 F3A \
+| d3c B3A B3c d3B | A3F E3A FD3 D2 |]
+S:https://www.folktunefinder.com/tunes/19485
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Lochnagar2_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/Lochnagar2_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Lochnagar2_D4.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

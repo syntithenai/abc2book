@@ -1,0 +1,27 @@
+X: 3
+T: Ve David
+O: I Samuel 18:7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: Dphr
+M: 4/4
+L: 1/8
+K: F#dor
+"Intro"\
+|: "F#m"F2 F2 "E"E2 FG | "F#m"A2 B2 AB AG | F2 F2 "E"EE ^DE | "F#m"F8 :|
+K: Bm
+|: "F#"Fc cd cd cB | "Em"^AB AG FE "F#"F2 :|
+F/ | "Bm"FB BB cB "F#"c2 | Fc ce "Bm"d/c/B "F#"c2 |
+| "Em"^AA A2 B2 AG | "F#"F8 | "F#"[^Ac][Ac] [A2c2] "Em"[B2d2] [Ac][GB] | "F#"[c8F8A8] |]
+S:https://www.folktunefinder.com/tunes/7410
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/VeDavid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key B
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X:356
+T:Rig a Jig
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+DED DED|B2G A2B|c2A F2A|d2B GFE|
+DED DED|B2G A2c|B2d cBA|G3G3:|
+B3d3|e2d B3|ABA E2F|A2F E2D|
+B3d3|e2d B3|ABA E2F|(G3G3):|
+S:https://www.folktunefinder.com/tunes/52497
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

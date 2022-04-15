@@ -1,0 +1,34 @@
+X: 13
+T:Irish Emigrant. TLY.013
+M:2/4
+L:1/8
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+N:Time signmature in original given as 3/4. Title given as "Irish
+N:Emegrant" in Ms.
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+A|d>c B>A|BA F>F|F>E F>E|D2 z (E/F/)|!
+GF GA|Bc d>d|cE c>B|A2 z A|!
+fedc|BA GF/2E/2|EFGA|B2 z (B/c/)|!
+d>cBA|BA FF/2F/2|F>EFE|D2 z2||!
+F|FdcB|ABd>F|Fedc|B2 z (B/2c/2)|!
+d>cde|f>c d(c/2c/2)|BB Ac|B2 z A/2A/2|!
+A>F Ad|d>d ec/2/c/2|Afed|BB z (B/2c/2)|!
+d>cBA|B>A FF/2F/2|F>EFE|D2|]
+S:https://www.folktunefinder.com/tunes/37546
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

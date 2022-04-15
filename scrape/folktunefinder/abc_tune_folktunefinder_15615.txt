@@ -1,0 +1,23 @@
+X: 1
+T: Norman Whitelaw
+C: Angus Fitchet
+M: C|
+L: 1/8
+K: F
+AB \
+| "F"cBAB c2f2 | "Bb"d2f2 "F"c3A | "Bb"B2d2 "F"c2f2 | "Gm"dcBA "C7"G2AB \
+| "F"cBAB c2f2 | "Bb"d2B2 "Gm"G3F | "C7"EFGE C2cB | "F"A2F2 F2 :|
+|: AB \
+| "F"c3d c2f2 | "C7"e2g2 B3A | G2GA Bcde | "F"fgaf c2AB \
+| "F"c3d c2f2 | "Bb"d2B2 "Gm"G3F | "C7"EFGE C2cB | "F"A2F2 F2 :|
+S:https://www.folktunefinder.com/tunes/15615
+S:http://trillian.mit.edu/~jc/music/abc/march/NormanWhitelawR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/NormanWhitelawR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:5
+T: The Blackbird
+B: O'Neill's 201
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: "3rd Setting"
+N: "Collected by F.O'Neill"
+M: 2/4
+L: 1/16
+K: D
+((5DEFGA) \
+| (B3d) (c2B2) | (A3G) (AB{d}=cA) | (d2c2) (d=cAF) | (GAGF) D2(DE) |
+| F2(FG) A2(fe) | (d3c) (d=cAF) | (GAGF) D2D2 | D4 :| ((5FGABc) |
+| d3e f2g2 | (a3g) (f2a2) | (g3f) (g2a2) | (g3f) (d2a2) |
+| (d3e) f2g2 | (a3g) f2a2 | (g3f) d2d2 | d4 defg |
+| (a3g) (fgaf) | g3b (agfd) | =c2(AB) c2(de) | (.d.e.f.g) Ha2 (FG) |
+| A3G (FGAB) | =c3e (dcAF) | G3F D2D2 | D4 ||
+S:https://www.folktunefinder.com/tunes/80379
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

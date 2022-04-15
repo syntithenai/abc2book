@@ -1,0 +1,18 @@
+X: 8
+P: David Melech Yisrael
+O: Trad Hassidic
+M: C
+L: 1/8
+K: D
+[| "D"A4 | F4 | AA AA | F4 \
+| A4 "G"B4 | "D"A2 "A"G2 | "D"(F2 "A"E2) \
+|: "D"DD "A"EE | "D"DD "A"E2 | "D"D2 "G"G2 |1 "A"FE "D"F2 :|2 "A"FE "D"D2 |]
+S:https://www.folktunefinder.com/tunes/6656
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/20051025.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

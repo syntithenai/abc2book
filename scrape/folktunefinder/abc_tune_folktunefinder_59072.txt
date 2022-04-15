@@ -1,0 +1,40 @@
+X:185
+T:Cantar de Ronda (CT 411)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, trancrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 411
+M:3/4
+L:1/8
+Q:1/4=76
+K:Cm
+|GG/G/ G2 c>=B|c(3d/e/d/ c4)|BA/G/ F2 B>A|(c B/4c/4B/4A/4 G4)|
+GG/G/ G2 c>=B|c(3d/e/d/ c4)|BA/G/ F2 B>A|(c B/4c/4B/4A/4 G)z =EE/F/|
+GA/G/ F2 G>F|E(3D/E/D/ C2) =EE/F/|GA/G/ F2 G>F|E(3D/E/D/ C2) z2||
+W:La noche clara y serena
+W:no es buena para rondar;
+W:para los enamorados
+W:es mejor la oscurid.
+W:
+W:Marinerito,
+W:recoge la vela,
+W:que est la noche
+W:tranquila y serena.
+W:
+S:https://www.folktunefinder.com/tunes/59072
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

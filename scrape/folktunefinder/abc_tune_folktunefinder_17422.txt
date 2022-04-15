@@ -1,0 +1,24 @@
+X: 1
+T: The Jay Bird
+B: American Veteran Fifer #34
+C: Arr. by A.F.Hopkins, Fife Major National Association of Civil War Mus.
+M: 2/4
+L: 1/16
+Q: 1/8=180
+F: http://www.drumband.org/music/avf/jaybird.abc 2006-10-30 16:18:16 UT
+K: D
+|: G2B2 BGBG | F2A2 AFAF |  G2e2 e2d2 | cdec A4    \
+|  G2B2 BGBG | F2A2 AFAF |  dcde dBAG | F2D2 D4   :|
+|: f2d2 f2d2 | fdfg a4   |  ecAc ecAc | ecef g4    \
+|  f2d2 f2d2 | fdfg a4   |1 efec dedB | c2A2 A2Ad :|2 dcde dBAG | F2D2 D4 |]
+S:https://www.folktunefinder.com/tunes/17422
+S:http://www.drumband.org/music/avf/jaybird.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Jaybird3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Jaybird3_D.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

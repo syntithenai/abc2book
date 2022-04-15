@@ -1,0 +1,23 @@
+X:88
+T: ES WARN EINMAL ZWEI BAUERNSOEHN
+N: E0050C
+O: Europa, Mitteleuropa, Deutschland, Trier
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 3/4
+L: 1/8
+K: G
+D | DDG2B2 | AGA2z
+D | DDA2c2 | Bed2z
+c | Bcd2c2 | Bdd2z
+G | GGc2B2 | AFG2z
+S:https://www.folktunefinder.com/tunes/78529
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:128
+T: Geigenbwele (2-30) S. 95
+N: P0903
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Standesunterschied, Beischlaf]
+M: 3/4
+L: 1/16
+K: G
+D4 | G6F2G4 | A8d4 | B6A2B4 | G8
+G4 | A6B2c4 | d6c2B4 | G6A2B4 | A8
+A4 | d6e2d4 | d2c2B4A3B | G6D2G2B2 | A6B2
+G4 | A6B2c4 | d6c2B4 | A8d4 | G8
+S:https://www.folktunefinder.com/tunes/76108
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Standesunterschied, beischlaf]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

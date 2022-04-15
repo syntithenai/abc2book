@@ -1,0 +1,28 @@
+X:17
+T: WO IST DAS VOLK
+N: B0020
+O: Europa, Mitteleuropa, Deutschland, Preussen
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/16
+K: G
+DG3A | B6B2d3cB3A | G8z3
+^GA3B | c6A2^G6AB | E8z3
+EB3A | A3B^c3dD4F3E | D8z4
+D4 | c12B3A | B12
+G3B | d8d3BA3G | A8z3
+dc3A | G4B4B3Bd3c | A8z3
+AB3c | d6e2d3cB3A | G4z3
+Bd6BG | d6BGD6EF | G8z3
+S:https://www.folktunefinder.com/tunes/78038
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 214
+T:Flowers Of Edinbourgh,The. JaW.213
+M:C
+Q:180
+S:James Winder Ms, Lancashire, 1835-41
+R:Reel
+O:England
+A:Wyresdale,Lancashire
+N:Though most widely used for a reel tune, this is really a
+N:hornpipe(rant), alongside "Devil's Dream"...The second part of the tune
+N:goes a little beyond the normal range of the fiddle, suggesting either
+N:some violinistic technique or another instrument such as flute or
+N:clarinet..CGP
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+cB|G2GA c2cd|ecgd e2dc|dcBA GABc|dBgB ABcA|!
+G2GA c2cd|edef g2((3abc')|e2dc B2cd|e2c2c2:|!
+|:g2|c'bc'd' e'2d'c'|babc' d'2c'b|agab c'bag|e2a2 a2(c'a)|!
+gece g2g2|agab c'2(c'a)|gfed cBcd|e2c2c2|]
+S:https://www.folktunefinder.com/tunes/47751
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

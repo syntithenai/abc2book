@@ -1,0 +1,44 @@
+X:2554
+T:Cantar de Ronda (CT 162)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de ronda, transcrita en Cangas d'Ons.
+O:Cangas d'Ons
+A:Asturies
+Z:Cancioneru de Torner 162
+M:3/4
+L:1/8
+Q:1/8=132
+W:Canta el gallo,
+W:canta el gallo,
+W:canta el gallo,
+W:canta el gallo,
+W:canta el gallo,
+W:que amanece;
+W:canta el gallo,
+W:que amanece;
+W:la nia que
+W:tiene amores,
+W:todo o nunca
+W:se adormece.
+K:G
+|:Gdd (d3/8c/8 B/2)dd|(d3/4 (3B/8c/8B/8 A) A4|Gdd (d3/8c/8B/2)dd|
+[M:2/4]
+(d3/4 (3B/8c/8B/8 A) A2|
+[M:3/4]
+GBB (B3/8A/8G/2)cB|(A/2 B/8A/8G/8 G) G2 z:|
+S:https://www.folktunefinder.com/tunes/28834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

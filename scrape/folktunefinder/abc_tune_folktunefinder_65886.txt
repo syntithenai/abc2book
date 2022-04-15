@@ -1,0 +1,17 @@
+X:333
+T:Sporting Nell
+Z: id:dc-reel-377
+M:C
+L:1/8
+K:D Dorian
+c|ADD2 A2dc|AcGE EDEG|ADD2 A2dc|AcGE EDD:|!
+B|c2ec gcec|c2ec AddB|c2ec gcec|AcGE EDDB|!
+c2ec gcec|c2ec Adde|f3d e3d|c2BG Add|]!
+S:https://www.folktunefinder.com/tunes/65886
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

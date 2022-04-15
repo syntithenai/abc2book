@@ -1,0 +1,27 @@
+X: 1
+T: Tarry Awhile
+O: Printle's Collection 1802
+R: jig
+B: RSCDS __-4(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B>cB F2D | "Bb"F2F F2d | "Eb"e>fe "Bb"dcB | "C7"d3 "F7"c2F | "Bb"B>cB F2D |
+| "Bb"F2F Fde | "Bb"fdB "F7"c2d | "Bb"B3- "fine"B2 |] e | "Bb"d2f fed | "Eb"e2g "F7"cde | "Bb"d>cB "C7"BAB |
+| "F7"d>cA F2e | "Bb"d2f fed | "Eb"efg "F7"cde | "Bb"dcB "C7"BAB | "(Bb)"d3 "F7"c2"d.C."z |]
+S:https://www.folktunefinder.com/tunes/15141
+S:http://trillian.mit.edu/~jc/music/abc/jig/TarryAwhile.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/Tarry_Awhilehile_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TarryAwhile.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TarryAwhile.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Tarry_Awhilehile_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

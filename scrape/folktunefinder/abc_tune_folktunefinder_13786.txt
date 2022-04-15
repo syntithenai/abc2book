@@ -1,0 +1,34 @@
+X: 1
+T: Andr\'e Alain
+O: Trad Qu\'ebec
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+F: http://tradquebec.over-blog.com/
+F: http://www.archive-host2.com/membres/up/1369506393/reeld/hommageajoebouchardetandrealain%5D.jpg
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"DFA DFA | "G"dcB "(A7)"B2A |  "D"DFA DFA | "A7"GFE  A,CE \
+| "D"DFA DFA | "G"dcB       B2A | "A7"Ace Ace | "A7"gfe "D"d2 :|
+|: e \
+| "D"fef "(Bm)"def | "Em"gfg "A7"efg | "D"fef "(Bm)"def | "Em"edB "A7"B2A \
+| "D"fef "(Bm)"def | "Em"gfg "A7"efg | "D"fef "(Bm)"def | "A7"edc  "D"d2 :|
+S:https://www.folktunefinder.com/tunes/13786
+S:http://www.archive-host2.com/membres/up/1369506393/reeld/hommageajoebouchardetandrealain
+S:http://tradquebec.over-blog.com/
+S:http://www.archive-host2.com/membres/up/1369506393/reeld/hommageajoebouchardetandrealain
+S:http://tradquebec.over-blog.com/
+S:http://trillian.mit.edu/~jc/music/abc/jig/AndreAlain_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AndreAlain_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/AndreAlain_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:6635
+T:Vandrandre pinne
+T:the Stick Insect
+L:1/8
+M:4/4
+O:Sweden
+R:Schottis
+Z:Carol Turner
+%D:CD1
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c97.html
+%%ID:00000c97
+K:D
+A>c e>d c2 (A2 | A>)a ag =f2 d2 | d>=f ed cA ce  | e>d d<c A4 |
+A>c e>d c2 (A2 | A>)a ag =f2 d2 | d>=f ed cA ce  | e>d d<cd4 ::
+d>c d>e f4     | d>c df e4      | A>^G Ac eg =fe | dc d<c A4 |
+A>c e>d c2 (A2 | A>)a ag =f2 d2 | d>=f ed cA ce  | e>d d<c d4 :|
+S:https://www.folktunefinder.com/tunes/37406
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

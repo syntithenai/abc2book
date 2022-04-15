@@ -1,0 +1,63 @@
+X:2749
+T:Casme fai tres semanes (CT 188)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 188
+M:3/4
+L:1/8
+Q:3/8=80
+W:Caseme fai tres semanes,
+W:el demoniu me tent,
+W:con la fa Blas el Nanu
+W:y bien que me la peg.
+W:
+W:Ofreciome tanto y cuanto,
+W:dxome que yera bona nea
+W:y el Nanu metiome un fuelle
+W:comu'l d'una gaita vieya.
+W:
+W:Pesquela pelos guedeyos
+W:y al mio suegru la llev:
+W:"Tome, suegru, la so fa,
+W:qudese con ella ust,
+W:que yo nun soi tapadera
+W:de naide sin dar daqu.
+W:
+W:Nun soi a tornala en casa,
+W:ye una cabra saltariega;
+W:bien lo saben los vecinos,
+W:que l'atopen per uquiera".
+W:
+W:Y contestme'l mio suegru:
+W:"Calla, Lin, y ten paciencia:
+W:lo mesmo yera so madre
+W:y desque vieya dio gelta.
+K:G
+GGG GAB|c2c4|Bdd cdc|B6|
+Acc BcB|A2G4|FAA GGF|G6|
+FAA GAA|G2G4|FAA GAA|G2G4|
+FGA BcB|(d3/2c/2) B4|Acc BBA|G2G4|
+FGG FGA|B2B4|Acc BBA|G6|
+GBc Bdc|(d3/2c/2) B4|Acc BBA|B6|
+FGA BcB|(B3/2 (3c/4B/4A/4 G4)|FAB AAG|G6|
+GGG GAB|c2c4|Bdd cdc|B2B4|
+Acc BcB|A2G4|FAB AAG|G2G4|
+FGG FGA|B2B4|Acc BBA|G2G4|
+GBc Bdc|(d3/2c/2) B4|Acc BBA|G2G4|
+S:https://www.folktunefinder.com/tunes/29029
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

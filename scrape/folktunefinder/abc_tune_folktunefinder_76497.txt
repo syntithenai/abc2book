@@ -1,0 +1,26 @@
+X:12
+T: ONDS LIEBE DAS HALTE MER
+N: E0625
+O: Europa, Mitteleuropa, Schweiz, Appenzell
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+B,2 | C2ECB,2DB, | A,2A,2D4
+B2DBACA,F | G2B,2D4
+C2E2B,2D2 | A,2A,A,D4
+B2DBACA,F | G4z2
+B,C | D2GB,D2B,D | C2E^GA4
+C2FAD2FA | B2DFG4
+D2GB,D2B,D | C2E^GA4
+B2EAD2FA | G4B2
+S:https://www.folktunefinder.com/tunes/76497
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

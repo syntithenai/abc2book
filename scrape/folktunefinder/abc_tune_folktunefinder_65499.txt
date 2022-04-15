@@ -1,0 +1,23 @@
+X: 175
+T:Lesley Dolman's Jig
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:6/8
+K:D
+P:A
+F/2G/2|:"D"AGF f2f|"D"AGF f2f|"D"dcd e2d|"Em"c2e B3| "Em"cde B3|
+"Em"cde B3| [1"Em"ced c2B|"A7"A2G F2G:| [2"A7"cBA f2e|"D"d3 -d2A|
+P:B
+|:"D"ABA d2e|"D"f3 -f2f|"D7"fef g2f| "G"e3 B3| "Em"ced cBA|
+"A"a2a a3| [1"Em"ced cBA|"A7"A2G F2G:|[2"A7"ABA f2e|"D"d3 -d2z|
+S:https://www.folktunefinder.com/tunes/65499
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

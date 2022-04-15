@@ -1,0 +1,33 @@
+X: 7795
+T:Senpolska e. Harald Johansson, N\"asteln
+D:\"O S'slag CD
+R:Senpolska
+O:Sweden
+M:3/4
+Q:1/4=186
+A:J\"amtland
+K:DDor
+a>g ba g>e| fe/f/ af e>^c| \
+d>e fa/f/ e^c|de/f/ ed ^cA|\
+a>g ba g>e| fe/f/ af e>^c|
+d>e fa/f/ e^c|de/f/ d4 ::\
+K:Dm
+A>B AG F>E| D>^c df e>c|
+A>B AG F>E| D/E/F E4|\
+A>B AG F>E| D>^c df e>c|\
+A>B AG FE/D/| ED/^C/ D4 :|
+S:https://www.folktunefinder.com/tunes/35012
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Senpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

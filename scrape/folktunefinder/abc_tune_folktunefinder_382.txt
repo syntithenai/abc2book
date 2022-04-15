@@ -1,0 +1,34 @@
+X: 2
+T: Danish Masquerade
+O: Trad Danmark
+M: 4/4
+L: 1/8
+Q: 1/4=126
+K: G
+P: March
+|: D \
+| "G"G2 G>G G2 "D7"A>c | "G"B2 B>B B2 "C"c>e | "G"edBd "D7"dcAF |1 "G"G2G>G GDB, :|2 "G"G2G>G G |]
+P: Waltz
+M: 3/4
+|: [BG]-[cA] \
+| "G"[d2B2]- [B2G2] "C"[ge]-[ec] | "G"[d2B2]- [B2G2] [ec]-[dB] \
+| "D7"[c2A2]- [A2F2] [BG]-[AF] | "G"(GFG[AF]) [BG]-[cA] |
+| "G"[d2B2]- [B2G2] "C"[ge]-[ec] | "G"[d2B2]- [B2G2] [ec]-[dB] \
+| "D7"[c2A2]- [A2F2] [f2A2] | "G"[g4B4] :|
+P: Hopsa
+M: 2/4
+L: 1/8
+|: d/d/ \
+| "G".d.B "C".g.e | "G".d.B .G.B | "D7".d.c .A.d | "G".e.d .B.d \
+| "G".d.B "C".g.e | "G".d.B .G.B | "D7".d.c .E.F | "G".G2 z :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/382
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Sweet Hope
+O: 1750
+N: From a ms bound with a recorder tutor from 1750, published by
+N: John Simpson, and now at the Houghton Library of Harvard University.
+R: waltz, minuet
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+d2 \
+| "G"d4 (3cBA | "D"B4 (3AGF | "G"G2 e2 d2 |"D7"c2 B2 d2 \
+| "G"g4 (3fed | "C"e4 (3dcB |"Am"c4    B2 |"D7"B2 A2 z2 |
+| "D"A2 B2 c2 | "G"B2    g4 | "D"A2 B2 c2 | "G"c2 B2 d2 \
+|    d2 c2 B2 | "C"e2 F2 G2 |"D7"B2 dc BA | "G"G4 d2 |
+| "G"g4 (3fed | "C"e4 (3dcB |"Am"cd c2 B2 | "D"B2 A2 z2 \
+|    A2 B2 c2 |    d2 e2 f2 |"D7"ec B2 TA2 | "G"G4 |]
+S:https://www.folktunefinder.com/tunes/20232
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Sweet_Hope_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Sweet_Hope_G.abc
+% Rhythm Waltz, minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

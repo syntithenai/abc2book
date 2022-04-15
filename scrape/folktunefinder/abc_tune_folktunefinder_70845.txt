@@ -1,0 +1,25 @@
+X:098
+%%topmargin 3cm
+T:Harvest Home
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A S| DD{/G}F>D A>D{/G}F>D | A,A,C>A, E>A,C>A, | DD{/G}F>D A>D{/G}F>A | (3Bcd (3efg f<dd:|
+f | ddf>d {ef}g>ef>d | {ef}g2 e>d c>BA>f | ddf>e {ef}g>ef>d | B<ge>c {/c}d2 A>f |
+ddf>d {ef}g>ef>d | {ef}g2 e>d c>BA>c | (3def (3efg (3fed (3cBA | (3GAB (3ABc (3{/c}dAG (3FED S|]
+S:https://www.folktunefinder.com/tunes/70845
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Harvest_Home.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:2750
+T:John Fenwick (is the Floor Amang Them All)
+A:Northumberland
+M:3/4
+O:England
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009e3.html
+%%ID:000009e3
+K:G
+G2GA Bc|d3e {e}g2|d3e {e}g2|{eg}ed cB AG|\
+A2 AB cd|e4 {e}g2|e4 {e}g2|{eg}e4 d2|
+G2 GA Bc|d3e {e}g2|d3e {e}g2|{eg}ed cB AG|\
+c2 dc BA|B2 cB AG|A3B d2|e4 d2::
+g2 G2 Bd|g2 G2 Bd|g2 G2 g2|ed cB AG|\
+a2 A2 e2|a2 A2 e2|a2 A2 a2|{ef}e4 (3def|
+g2 G2 Bd|g2 G2 Bd|g2 G2 g2|ed cB AG|\
+c2 dc BA|B2 cB AG|A3B d2|e4 d2:|
+S:https://www.folktunefinder.com/tunes/36629
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

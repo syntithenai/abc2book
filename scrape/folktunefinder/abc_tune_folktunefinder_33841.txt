@@ -1,0 +1,26 @@
+X: 4684
+T:Off She Goes
+T:Humpty Dumpty
+C:Trad
+M:6/8
+I:speed 350
+I:part 1
+K:D
+|:F2A G2B| ABc d3 | F2A G2B | AFD E3 |
+F2A G2B | ABc d3 | f2d g2f | edc d3:|
+|: faf def | gbg efg | faf def | ecA A3|
+faf def | gbg efg | fed g2f | edc d3:|
+I:final
+|:D2FE2G | FGG F3 | D2F E2G | FDB, CB,A, |
+D2F E2G | FGG F3 | A2F B2A | G2G F3:|
+|: dfd A2A | ege A2A | dfd A2d | cAE C2A |
+dfd A2A | ege A2A | dcB A2 A | GFE F3:|
+S:https://www.folktunefinder.com/tunes/33841
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

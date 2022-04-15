@@ -1,0 +1,27 @@
+X: 14
+T:Foxhunter's Jig, The
+M:9/8
+L:1/8
+R:Slip-jig
+K:D
+"D"F3 F2D "G"G2E|"D"F3 F2D "A"E2D|
+"D"F3 F2D "G"G2B|"D"A2D DEF "A"E2D:|
+|:"Em"B3 BAG FGA|B2E E2F G2B|
+"A"ABc dcB ABc|"D"d2D DEF E2D:|
+|:"D"f3 f2d "G"g2e|"D"f3 f2d "A"e2d|
+"D"f3 f2d "G"g2b|"D"a2d def "A"e2d:|
+|:"Em"gfe dcB AGA|B2E E2F G2B|
+"A"ABc dcB ABc|"D"d2D DEF E2D:|
+S:https://www.folktunefinder.com/tunes/50522
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Slip-jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Larry Redican's Bow
+C:Larry Redican
+S:Paul de Grae  irtrad-l 2000-04-26
+R:reel
+M:4/4
+L:1/8
+K:D
+|| D2 FD A,DFD | E2 GE B,EGE | Dddc B2 AF | E2 ED EGFE |
+|  D2 FD A,DFD | E2 GE B,EGE | FAdA BdAF |1 GECE D2 FE :| 2GECE D3 A ||
+|| B3 A B2 Bc | dBBA BdcB | A2 fc eAcB | ABce fecA |
+|  B2 (3cBA B2 Bc | dBBA B2 Bc | dBBA BAFB | ABce faec ||
+|| B3 A B2 Bc | dBBA BdcB | A2 fc eAcB | ABce fecA |
+|  B2 (3cBA B2 Bc | dBBA B2 Bc | (3dcB (3cBA BAFD | E2 EF GECE |]
+S:https://www.folktunefinder.com/tunes/17541
+S:http://trillian.mit.edu/~jc/music/abc/reel/LarryRedicanssBow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LarryRedicanssBow.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LarryRedicanssBow.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

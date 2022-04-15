@@ -1,0 +1,30 @@
+X: 1
+T: Drum House
+T: Mr. Hay's Favourite
+C: Nathaniel Gow
+B: Gow Collection
+M: 2/4
+L: 1/16
+K: G
+|: "D7"dc \
+| "G"B2G2 G2B2 | "Am"c2A2 "D7"A2dc | "G"B2G2 G2B2 | "D7"d4 g3d \
+| "G"B2G2 G2B2 | "Am"c2A2 "D7"A2f2 | "G"g3d "(Em)"edcB | "D7"d4- d2 :|
+g2 \
+| "Em"e2f2 g2a2 | "D"f2d2 d2g2 | "Em"e2f2 "A7"g2a2 | "D7"f4 "G"g3d \
+| "Em"e2f2 g3a | "D7"gfed "G"g3e | "C"edcB "D7"A2B2 | "Am"cBcd "D7"egfa ||
+|| "G"g2G2 G3B | "Am"c2A2 "D7"A2dc | "G"B2G2 G2B2 | "D7"d4 g3d \
+| "G"B2G2 G2B2 | "Am"c2A2 "D7"A2f2 | "G"g3d "(Em)"edcB | "D7"d4- d2 :|
+S:https://www.folktunefinder.com/tunes/15408
+S:http://trillian.mit.edu/~jc/music/abc/march/DrumHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/DrumHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/DrumHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DrumHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/DrumHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/DrumHouse.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/DrumHouse.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/by/Gow/DrumHouse.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:5984
+T:Shelf #1, The
+O:england
+R:polka
+D:Skylark: Raining Bicycles
+M:2/4
+L:1/8
+K:D
+(3A/B/c/|df Aa|Ad' Aa|A/c/e/c/ A/c/e/g/|fd d/c/B/c/|
+df Aa|Ad' Aa|A/c/e/c/ A/c/e/g/|fd d:|
+|:e|f2 f>e|fa a/g/f|g2 g>a|b/a/g/f/ ag|
+f>e ff/g/|a/g/f/a/ g (3e/f/g/|ad f/e/d/c/|ed d:|
+|:(3a/b/c'/|d'f a/f/d|cB B>d|cA B/c/d/e/|df a (3d/f/a/|
+d'f a/f/d|cB B>d|cA B/c/d/e/|fd d:|
+|:z|A/B/c/d/ e/f/g/a/|ba/^g/ a2|A/B/c/d/ e/f/g|a/f/d a/f/d|
+A/B/c/d/ e/f/g/a/|ba/^g/ a2|A/B/c/d/ e/f/g/e/|fd d:|
+S:https://www.folktunefinder.com/tunes/26436
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

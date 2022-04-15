@@ -1,0 +1,27 @@
+X:550
+T:N'Uviu nun me caso
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:3/4
+L:1/4
+Q:3/4=70
+K:C
+|DED|C3|DED|C3|EEF|G2 F|G2 F|[1 E3 :|[2 EFE|
+|F2 E|DED|E2 D|CFE|F2 E|DED|E2 D|C3-|C3|
+S:https://www.folktunefinder.com/tunes/59437
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

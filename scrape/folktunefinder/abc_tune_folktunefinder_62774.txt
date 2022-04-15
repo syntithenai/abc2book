@@ -1,0 +1,22 @@
+X: 52
+T:Tom Billy's (Jig)
+M:6/8
+L:1/8
+Q:120
+K:ADor
+"Am"ABA ABd|edB "G"G2B|dBB GBB|"Am"ABd efg|
+ABA ABd|edB "G"G2B|dBB "Em"gBB|"Am"ABA A3::
+"Am"eaa aga|bab age|"G"ege GBd|ede ged|
+"Am"eaa aga|bab age|"G"e/2f/2ge "Em"dBG|"Am"ABA A3:||
+S:https://www.folktunefinder.com/tunes/62774
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

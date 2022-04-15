@@ -1,0 +1,30 @@
+X:52
+T:Trip to the Compost
+A:Ben Bolker
+N:thanks to Susie Lorand
+M:6/8
+K:G
+D |: EDD FDD | GFG A2 B | \
+       cBA BAG | ECC CDE  \
+    |1 EDD FDD | GFG A2 B | \
+       cBA BAG | ECE D2 D | \
+    :|2 FED GFG | Ad^c d2 e | \
+        gfe dcA | GEC A,3 | \
+   DD[df] DD[df] | DD[df] C3 | \
+   DCD EcB | AGE A,3 | \
+   DD[df] DD[df] | DD[df] C3 | \
+   DCD EcB | AGE D3 |
+   DD[df] DD[df] | DD[df] C3 | \
+   DCD EFG | GFG [A2A2] e | \
+   age dcA | GEC A,3 | \
+   DED dcA | GEC D3 ||
+S:https://www.folktunefinder.com/tunes/43718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/TripToTheCompost_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

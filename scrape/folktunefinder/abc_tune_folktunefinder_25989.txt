@@ -1,0 +1,34 @@
+X:5537
+T:Rhos-y-gwaliau Romp
+O:england
+S:Dennis Salter, via PR
+M:4/4
+L:1/4
+K:G
+d|"G"e/2d/2^c/2d/2 e/2d/2B/2=c/2|d/2g/2f/2e/2 dz/2d/2|\
+"G"e/2d/2^c/2d/2 "F"e/2d/2=f/2d/2|
+"D7"f3c/2c/2|d/2c/2B/2c/2 fc/2c/2|"D7"d/2c/2B/2c/2 fz|cB/2c/2 f/2e/2d/2c/2|
+"G"B3d/2d/2|"G"e/2d/2^c/2d/2 e/2d/2B/2=c/2|d/2B/2e/2B/2 de/2f/2|\
+"G"gf/2g/2 "G7"a/2g/2f/2=f/2|
+"C"e3g|a/2e/2^d/2e/2 a/2e/2d/2e/2|"G"g/2d/2^c/2d/2 g/2d/2c/2d/2|\
+"D7"f/2e/2d/2c/2 "Am"B"D7"A|
+"G"GD/2E/2 "D7"F/2G/2A/2^A/2|"G"G3/2B3/2G/2 B/2 GBGB|BdB2d2B/2c/2|\
+"C"e3/2d/2 cB|
+"Am"cc/2B/2 c/2B/2A/2G/2|"D7"Dc/2c/2 cc|"Am"Ac "D7"cB/2c/2|"D7"dc A^A|\
+"G"B2 "D7"d2|
+"G"e/2d/2^c/2d/2 e/2d/2B/2=c/2|d/2B/2e/2B/2 de/2f/2|\
+"G"gf/2g/2 "G7"a/2g/2d/2^d/2|"C"e3f/2g/2|
+a/2e/2^d/2e/2 a/2e/2d/2e/2|"G"g/2d/2^c/2d/2 g/2d/2c/2d/2|\
+"Am"f/2e/2d/2c/2 "D7"B/2A/2G/2F/2|"G"Gd g||
+S:https://www.folktunefinder.com/tunes/25989
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

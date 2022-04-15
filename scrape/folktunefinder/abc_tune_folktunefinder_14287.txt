@@ -1,0 +1,28 @@
+X: 1
+T: the Hare in the Corn
+O: as played by Planxty
+S: as played by Planxty
+N: also in G
+N: printed MS with "Airlie p.2 of 2" handwritten
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"F2A AFA | "G"BdB "D"AFE | "D"F2F "A7"EDE | "D"F2D    D2E \
+| "D"F2A AFA | "G"BdB "D"AFE | "G"Bcd "A7"ecA | "D"ded    d2 |]
+e \
+| "D"f2f fed | "A7"g2e   ede | "D"f2f     fed | "D"a2a "G"bag \
+| "D"f2f fed | "A7"g2e   ede | "D"ABd "A7"ecA | "D"ded    d2 |]
+S:https://www.folktunefinder.com/tunes/14287
+S:http://trillian.mit.edu/~jc/music/abc/jig/HareInTheCorn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/HareInTheCorn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HareInTheCorn_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

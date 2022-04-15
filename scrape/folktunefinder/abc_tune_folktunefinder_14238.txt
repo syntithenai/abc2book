@@ -1,0 +1,35 @@
+X:1
+T:Gwynt Y Glan Jig
+T:The Girls of Banbridge
+S:Radio Scotland, 1991
+N:It's both Welsh and Irish.
+Z:Nigel Gatherer irtrad-l 2001-5-21
+M:6/8
+K:D
+A2 d dcB | ABA FED | FFF FEF | FED EFG | A2 d dcB |
+ABA F3 | fdf gec | edc d3::A2 d dfa | agf efg | fdf ged |
+cdc BcB | A2 d dfa | agf efg | fdf gec | edc d3 :|
+S:https://www.folktunefinder.com/tunes/14238
+S:http://trillian.mit.edu/~jc/music/abc/jig/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/jig/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/jig/GwyntYGlan_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/GirlsOfBanbridge_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/GwyntYGlan_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

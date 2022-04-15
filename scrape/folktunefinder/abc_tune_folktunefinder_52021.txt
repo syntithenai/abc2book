@@ -1,0 +1,23 @@
+X:1
+T:"French tune whose name completely escapes me"
+M:2/4
+L:1/8
+R:Polka
+D:Jabadaw
+Z:Steve Mansfield 29 January 2003
+K:Ador
+AA/B/ AG | FG A2 | AB/c/ d>c | BA BG | AA/B/ AG | FG A2 |
+AB/c/ d>c | BA G2 :: dd e>d | cB A2 | AB/c/ dc |
+BA BG | dd e>d | cB A2 | AB/c/ dc | BA G2 :|
+S:https://www.folktunefinder.com/tunes/52021
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

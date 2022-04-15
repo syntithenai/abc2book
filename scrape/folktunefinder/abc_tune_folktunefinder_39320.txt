@@ -1,0 +1,35 @@
+X:17949
+T:Tzadik Katamar
+O:Israeli
+I:choreographer Y. Gaby
+Q:1/4=180
+L:1/8
+M:4/4
+P:ABCB 
+K:Dm
+P:A
+f2 e2 d2 ^c2| =B2 ^c2 A2 c2| e2 d6-| d2 z6|
+P:B
+|: "Dm"d2 .d.e .f2 .d2| "A"^c2 .c.d .e2 c2| "Dm"d2 .d.e .f2 .d2| a4 z4:|\
+"Gm".g4 .g4| .g2 fg e2 ef| "Dm"a2 a2 a2 g2 | f2 e2 d2 f2|
+ e2 d2 "Am"^c2 =B2| ^c2 A2 "Am"c2 e2| "Dm"f8| "D"^f4 g2 a2|\
+"Gm".g4 .g4| .g2 fg e2 ef| "Dm"a2 a2 a2 g2 | f2 e2 d2 f2|\
+ "Dm"e2 d2 "A"^c2 =B2| "A"^c2 A2 c2 e2| "Dm"d8|d4 z4|
+P:C
+K:Em
+|: "Em"e2 .e.f .g2 .e2| "B"^d2 .d.e .f2 d2| "Em"e2 .e.f .g2 .e2| b4 z4:|\
+"Am" .a4 .a4| .a2 ga f2 fg| "Em" b2 b2 b2 a2| g2 f2 e2 g2|
+f2 e2 "Bm" ^d2 =c2|^d2 B2 "Bm"d2 f2| "Em"g8| "E"^g4 a2 b2|\ 
+"Am".a4 .a4| .a2 ga f2 fg| "Em" b2 b2 b2 a2| g2 f2 e2 g2|\
+"Em"f2 e2 "B"^d2 =c2| "B"^d2 B2 d2 f2| "Em"e8|e4 z4|
+S:https://www.folktunefinder.com/tunes/39320
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

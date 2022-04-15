@@ -1,0 +1,26 @@
+X: 269
+T: Burn's Farewell
+B: O'Neill's 269
+N: "Moderate"
+N: "Collected by J.Kennedy"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K:Am
+ed \
+| c2A2 A2GE | c2e2 d2^cd | e2e2 d2^cd | e2G2 G2ed \
+| c2A2 A2GE | c2e2 d2^cd | e2a2 gede | c2A2 A2 :|
+|| e^f \
+| g2a2 g2^fg | a2g2 g2ag | =f2e2 d2^cd |e2G2 G2ed \
+| c2A2 A2GE | c2e2 d2^cd | e2a2 gede | c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/80547
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0269_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

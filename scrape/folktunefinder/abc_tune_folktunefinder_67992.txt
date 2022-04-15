@@ -1,0 +1,29 @@
+X: 106
+T:Fatise Kolo
+O:Serbia
+M:9/8
+L:1/8
+Q:1/4=140
+K:Gm
+%%MIDI program 56
+%%MIDI bassprog 115
+%%MIDI chordprog 16
+%%MIDI chordvol 19
+%%MIDI bassvol 45 
+%%MIDI beatstring fpmppmpmp
+%%MIDI drum dzddzdzdz 40 40 40 40 40  40 40 40 40 40
+%%MIDI drumon
+|: "Gm" B2 dcB fedc|B2 dcB fed2   |\
+   B2 dcB fedc     |cB cdc BAG2   :|
+|: B2 d2d d2d2     |cd edc cdB2   :|\
+|: f2 fed c2BA     | GA Bc2 G2G2  :|
+S:https://www.folktunefinder.com/tunes/67992
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

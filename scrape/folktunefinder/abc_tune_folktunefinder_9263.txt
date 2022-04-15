@@ -1,0 +1,51 @@
+X: 1
+T: Slipstenspolskan
+O: efter Snickar Erske
+N: efter Erik Olsson, Ovan\aaker
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+%%systaffsep    10
+%%staffsep      15
+K: A
+V: 1
+a2 \
+| gafg efde cdBc | A2a2 gafg e2a2 | gafg efde cdBc | A2a2 gafg e4 |
+| Acec Acec Acec | GBdB GBdB GBdB | Acec Acec Acec | GBeB GBeB G2e2 |
+| A2c2 BABd c4   | c2e2 dcdf f2e2 | e2fg agfe dcBA | GABG A6 |][K:D=g]
+K: D
+|: D2 \
+| DFAF DFAF DFAF | CEAE CEAE CEAE | DFAF DFAF DFAF | CEAE CEAE C2A2 |
+| D2F2 EDEG F4   | F2A2 GFGB B2A2 | A2Bc dcBA GFED | CDEC D6 :|[K:A]
+K: A
+|: z2 \
+| A,CEC A,CEC A,CEC | DFAF DFAF DFAF | EGBG EGBG EGBG | Acec Acec Acec |
+| B^dfd Bdfd  Bdfd  | egbg egbg egbg | e2fg agfe dcBA | GABG A6 :|
+V: 2
+A,2 \
+| B,CDE CDFG EFGA | C2c2 ecde c4 | Bcde GABc EFGA | C2c2 ecdB [B4G4] |
+| A2G2 F2G2 A2E2 | E2G2 D2G2 E2D2 | C2A2 E2C2 E2A2 | E2G2 D2G2 E2D2 |
+| C2A2 GFEG A4 | E2G2 BAGE D2C2 | E2FG AGFE GAGF | E2D2 [E6C6] |][K:D=g]
+K: D
+|: D2 \
+| [AD][AD][AD][AD] [AD][AD][AD][AD] [AD][AD][AD][AD] | [EA,][EA,][EA,][EA,] [EA,][EA,][EA,][EA,] [EA,][EA,][EA,][EA,] \
+| [AD][AD][AD][AD] [AD][AD][AD][AD] [AD][AD][AD][AD] | [EA,][EA,][EA,][EA,] [EA,][EA,][EA,][EA,] A,2C2 |
+| D2A,2 CB,A,C D4 | D2=C2 B,DB,G, ^C2G2 | F2G2 FAGF EDCB, | A,2[G2A,2] [F6D6] :|[K:A]
+K: A
+|: z2 \
+| A,2C2 E2A2 E2A,2 | D2F2 A2d2 A2D2 | D2E2 G2E2 D2E2 | A,2A2 E2A2 E2A,2 |
+| B,2B2 A2B2 A2F2 | G2E2 B2G2 E2D2 | C2AB cedc BAGF | E2D [E6C6] :|
+S:https://www.folktunefinder.com/tunes/9263
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Slipstenspolskan.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/Slipstenspolskan_A_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Slipstenspolskan_A_2V.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

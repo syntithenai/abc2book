@@ -1,0 +1,33 @@
+X:94
+T:Macleod's Daughter
+T:Nighean Thormaid
+R:Slow Air
+S:Simon Fraser Collection
+N:No.65
+O:Scottish
+M:C
+L:1/8
+Q:1/4=100
+K:G Minor
+A|B>AG>^F d2 =F2|F=E F3A|B>AG>^F d2 F2|G^F G3A|
+B>AG>^F d3 ^f|g>b=f>g d>fcd|B>ABc d>BA>c|B>GA>^F G2 G||A|
+B<G G>^F d3 g/4^f/4g/4a/4|b>ag>=f d2 cB|c>=Bc>e d>_Bc>A|
+B>GA^F G2 GA|B<G G>^F d3 g/4^f/4g/4a/4|b>ag>=f d2 cB|c>=Bce dg f/e/d/c/|
+B>GA>^F G3||A|B>AG>^F d2 =F2|F=E F3A|B>AG>^F d2F2|
+G^F G3A|B>AG>^F d3^f|g>b=f>g d>fcd|B>AB>c d>BA>c|B>GA>^F G2G||
+b/a/|g>fd>e fe|f>d B/c/d/e/ (f2 f)b/a/|g>fd>e fc|
+B>d c/=B/c/d/ e3/2(3g/4f/4e/4 d>e|d>cB>c d<f F2|F=E F3A|
+G>AB>c d>Bc>A|B>GA>^F G2G||
+S:https://www.folktunefinder.com/tunes/79918
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 179
+T:De'il Take The Wars. HA.178
+M:C
+L:1/8
+Q:1/4=100
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:cf Playford DM 9B(1698).
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:C
+"tr"Tc2 (c/2d/2)e d3c|(cG) (A/2B/2c) G2E2|\
+(EG)(Gc) (cd)(ef)|(ge)(dc) d2d2|!
+"tr"Tc2(c/2d/2e) d3c|(cG) (A/2B/2c) G2E2|\
+(EG)(Gc) (cd)(ef)|(ge)(dc) c4:|!
+|:"tr"Te2 (e/2f/2g) (ec)(ec)|B2(B/2c/2d) (dB)(dB)|\
+e2(ec) d2(dB)|c2 (d/2c/2B/2A/2) A3G|!
+(GE)G2(G/2A/2G) (cG)|\
+(GE) (G/2A/2G) G3G|A2c2 d3A|!
+d>ed>c B3A|(GE)(G>A) G2(ef)|(ge)(dc) c4:|]
+S:https://www.folktunefinder.com/tunes/72428
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

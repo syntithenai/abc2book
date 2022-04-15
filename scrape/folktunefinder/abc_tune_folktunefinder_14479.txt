@@ -1,0 +1,22 @@
+X: 1
+T: The Kinnegad Slashers
+T: Barley Meal
+R: jig
+M: 6/8
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"ded dAF | "A7"ABA ABc | "D"ded dAF | "A7"Eee e2f \
+| "D"ded dAF | "A7"ABA Aag | "D"fef dBA | "G"Bdd "D"d2 :|
+|: A \
+| "D"dfa afd | "A7"cde ecA |  "D"dfa afd | "A7"faa a2A \
+| "D"dfa afd | "A7"cde eag | "D"fef dBA | "G"Bdd "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14479
+S:http://trillian.mit.edu/~jc/music/abc/jig/KinnegadSlashers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KinnegadSlashers.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

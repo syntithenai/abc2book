@@ -1,0 +1,27 @@
+X: 1
+T: Larry O'Gaff
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+| "G"{def}g2G BAG | d>ed dBG | "C"cec "G"BdB | "Am"ABc "D7"def \
+| "G"g2G BAG | d>ed dBG | "C"cec "G"BdB | "D7"AGA "G"G2 :|
+|: d \
+| "G"dgg gfg | gfg "D"afd | daa aga | aga "G"b2a \
+| "G"gba "C"gfe | "G"dge dBG | "C"cec "G"BdB | "D7"AGA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14516
+S:http://trillian.mit.edu/~jc/music/abc/jig/LarryOGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LarryOGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LarryOGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LarryOGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LarryOGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/LarryOGaff.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

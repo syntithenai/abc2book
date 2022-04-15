@@ -1,0 +1,25 @@
+X: 7890
+T:Swan's Hornpipe
+R:Hornpipe
+O:England
+M:C|
+L:1/16
+A:Westmorland
+N:P3 2/2
+K:D
+F2d2 d2cB c2e2 e2dc|d2f2 fgaf edcB AGFE|\
+F2d2 d2cB c2e2 e2ag|f2ed Adce d2d2 d4:|
+|:Bc|dAFc dfed edcB A2fa|gfed edef edcB A2Ac|\
+BGGG dGGG AFFF A2eg|f2ed Adce d2D2 D4:|
+S:https://www.folktunefinder.com/tunes/35107
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

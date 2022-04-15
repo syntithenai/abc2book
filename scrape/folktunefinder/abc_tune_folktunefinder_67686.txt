@@ -1,0 +1,43 @@
+X: 1
+T:ABC Notation - Every part of it
+T:Alternative title
+T:A third title
+C:Henrik Norbeck
+R:polka
+S:Out of my head
+H:I just wrote this tune to show examples of everything you can do in
+H:the abc format. This is the history of this tune.
+N:Some interesting notes on this tune.
+A:Stockholm
+B:My tunebook
+D:Not recorded by anyone (yet)
+G:Sample group
+O:Swedish
+Z:id:hn-sample-200
+Z:Some transcription notes for this tune.
+P:AB
+E:Ignored by ABCMUS (note spacing)
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+"scale" C,D,E,F,G,A,B,|CDEFGAB|cdefgab|c'd'e'f'g'a'b'|
+"beaming" AAAA | AA AA | AAA A | A2AA | AAA2 |
+"note lengths" A8 A4 A2 A A/ A/4 A/8 | A6 A3 A3/2 A3/4 |
+"broken rhythms" A>A A<A | A>>A A<<A |
+"tuplets" (3AAA (4AAAA (5A/A/A/A/A/ (6A/A/A/A/A/A/ (3A2A2A2 |
+"accidentals" ^f =f _E =E ^^B =B |
+"rests" z8 z4 z2 z z/ z/4 z/8 |
+"double stops" [CE][DA] [G2c2] |
+"bar lines" ABcd | ABcd || ABcd [| ABcd |]
+S:https://www.folktunefinder.com/tunes/67686
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ab/ABC_Notation_Every_part_of_it_1.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

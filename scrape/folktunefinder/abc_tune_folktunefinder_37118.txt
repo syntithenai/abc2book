@@ -1,0 +1,26 @@
+X:5195
+T:the Rose Tree
+M:4/4
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000879.html
+%%ID:00000879
+K:D
+fe|\
+d2B2 A2F2|ABAF A2AB|d2cd e2de|f2e2 egfe|\
+d2B2 A2F2|ABAF A2AB|d2cd e2de|f2d2 d2::
+de|\
+f2e2 f2g2|a2ba g2f2|e2b2 b2a2|b2e2 egfe|\
+d2B2 A2F2|ABAF A2AB|d2cd e2de|f2d2 d2:|
+S:https://www.folktunefinder.com/tunes/37118
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

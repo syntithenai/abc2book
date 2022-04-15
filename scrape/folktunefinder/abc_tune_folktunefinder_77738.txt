@@ -1,0 +1,21 @@
+X:65
+T:Is the Big Man Within
+Z: id:dc-setdance-13
+M:9/8
+L:1/8
+K:D Major
+E|FDF G2E E2G|FDF A2D D2E|FDF G2E E2c|dcB A2D D2:|!
+M:6/8
+E|F2A ABc|ded cBA|BcB AGF|B2E E2G|!
+F2A ABc|ded cBA|BcB BAF|A2D D2:|!
+S:https://www.folktunefinder.com/tunes/77738
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Setdance.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Setdance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:4499
+T:Duchess of Hamilton's Rant. ASH.03
+M:6/8
+L:1/8
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Jig
+O:England
+A:Derbyshire
+N:Key sig "D" in MS..B strain Bar 6, note "F" has "E" written over it
+N:in MS
+Z:Mick Peat 
+K:A
+""f | ecA def|ecA d2f|ecA ecA|BcB d2f|
+ecA def|! ecA d2f|faf edc|BcB d2:||
+:f | ecA acA|ecA d2f|! ecA acA|BcB d2f|
+ecA acA|ecA d2"*"f|faf edc|BcB d2f :|]
+S:https://www.folktunefinder.com/tunes/60688
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

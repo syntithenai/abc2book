@@ -1,0 +1,34 @@
+X:3167
+T:Coleccin Feij\'oo: N\'umero 110
+O:Galicia (Spain)
+B:Libro Aires da Terra, de J.L. Calle
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=100
+K:D % 2 sharps
+z4 zA d2|AF2A d2 AF-|FG/2F/2- [G/2-F/2]G/2G GG FE|B2 AF DA d2|
+AF2A d2 AF-|FA AB AG FE|D4 zA d2|AF2A d2 AF-|
+FG/2F/2- [G/2-F/2]G/2G GG FE|B2 AF DA d2|AF2A d2 AF-|FA AB AG FE|
+D4 zD F2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|EF/2E/2- [G/2-E/2]G/2G GG FE|A2 FD2E/2D/2- [F/2-D/2]F3/2|
+DF2D E2 F/2E/2-[E/2-E/2]E/2-|EA AB AG FE|D4- DD F2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|
+EF/2E/2- [G/2-E/2]G/2G GG FE|A2 FD2E/2D/2- [F/2-D/2]F3/2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|EA AB AG FE|
+D4- DA d2|AF2A d2 AF-|FG/2F/2- [G/2-F/2]G/2G GG FE|B2 AF DA d2|
+AF2A d2 AF-|FA AB AG FE|D4 zA d2|AF2A d2 AF-|
+FG/2F/2- [G/2-F/2]G/2G GG FE|B2 AF DA d2|AF2A d2 AF-|FA AB AG FE|
+D4 zD F2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|EF/2E/2- [G/2-E/2]G/2G GG FE|A2 FD2E/2D/2- [F/2-D/2]F3/2|
+DF2D E2 F/2E/2-[E/2-E/2]E/2-|EA AB AG FE|D4- DD F2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|
+EF/2E/2- [G/2-E/2]G/2G GG FE|A2 FD2E/2D/2- [F/2-D/2]F3/2|DF2D E2 F/2E/2-[E/2-E/2]E/2-|EA AB AG FE|
+D2
+S:https://www.folktunefinder.com/tunes/29447
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

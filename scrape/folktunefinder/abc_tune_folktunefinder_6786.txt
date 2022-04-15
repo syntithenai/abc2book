@@ -1,0 +1,33 @@
+X: 2
+T: der Heyser Bulgar
+Z: 2000 by John Chambers <jc:trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+D: Dave Tarras "Khasene Nigunim" 1925
+N:
+N: 8 repeated bars deleted from A phrase.
+M: 2/4
+L: 1/8
+K: E^G
+EGA \
+|: "E"BB B2 | (3Bcd "Dm"(3cBA | "E"BB G2- | GE GA | "E"B2 ze- | (3eBd "Dm"(3cBA | "E"BB G2- | GE GA |
+| "E"BA cB | AG FE | "Dm"AA D2 | zD FA | d/e/f/e/  d/c/B/A/ | B/c/d/c/ B/A/G/F/ | "(E)"G/A/B/A/ "Dm"G/F/E/D/ | "E"EEGA |]
+| "E"BA cB | AG FE | "Dm"AA DE | F4    | (3dcB  (3cBA | (3BAG (3AGF | "(E)"E4 |1 zEGA :|2 "E"EE Ac |]
+[| "Am"^de- ee | e/^d/c c2 | B/=d/c cc | ~B>A GA | "E"GA Bc | "Dm"dB/d/ (3cBA | "E"B6 | zE Ac |
+|  "Am"^de- ee | e/^d/c c2 | B/=d/c cc | ~B>A GA | "E"GA Bc | "Dm"d>c d/c/B/A/ | "E"G>F "Dm"G/F/E/D/ |1 "E"EE Ac :|2 "E"Ez zB, |]
+[| "E"Ez z2 | Bz "(Am)"(3cBA | "E"(3GAB (3AGF | GA "B7"^AB | "E"Ez z2 | Bz (3cBA | "E"(3GAB "Am"(3cBA | "E"(3BAG "Dm"(3FED |
+|  "E"Ez z2 | Bz "(Am)"(3cBA | GA ^AB | "Dm"^cd3- | d4- | d4- | d4 \
+| d/e/f/e/  d/c/B/A/ | B/c/d/c/ B/A/G/F/ | "(E)"G/A/B/A/ "Dm"G/F/E/D/ |1 "E"E2 zB, :|2 "E"E2 E_E ||
+|: "Dm"D2 EF | ED A2 | (3GAB (3AGF | ED GA |1 "Dm"D2 EF | ED d2 | "Dm"(3dcB "Am"(3cBA | "E"(3BAG "Dm"(3AGF \
+                                          :|2 "Dm"D2 EF | ED A2 | "E"(3GAB "Dm"(3AGF | "E"E |]
+S:https://www.folktunefinder.com/tunes/6786
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Heys.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

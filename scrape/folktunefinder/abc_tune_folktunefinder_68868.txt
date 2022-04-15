@@ -1,0 +1,25 @@
+X:9
+T: ES IST NIT LANG, DASS ES GESCHAH
+N: Z0010
+O: Europa, Mitteleuropa, Deutschland, Rheinland; Niederlande
+R: Sagen - Lied, Romanze, Ballade, Tod
+M: 4/4
+L: 1/8
+K: G
+ |  |  | z2G2G4 | G2d4d2 | c2_B2A4
+z2G2G4 | G2d4d2 | c2_B2A3B | c4z2
+c2 | _B2A2B2G2 | =F4D4
+A2_B4A2 | G4d2c2 | c2_B2A3B | c6-c
+c | _B2A2B2G2 | =F4D4
+_B4AGd2- | d2c_BA4 | G8
+S:https://www.folktunefinder.com/tunes/68868
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

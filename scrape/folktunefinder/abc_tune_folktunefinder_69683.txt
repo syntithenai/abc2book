@@ -1,0 +1,25 @@
+X:123
+T: DER WINTER IST NUN BALD VORBEI
+N: F0242
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Fruehling
+M: 6/8
+L: 1/16
+K: Bb
+F2 | F3GF2B4B2 | c2B2A2B4
+Bd | f4f2f2e2d2 | c6z4
+c2 | c4f2A4c2 | G2A2B2A4
+F2 | B4B2c2B2c2 | d4z6
+f2 | f2e2d2c2B2c2 | B4z6
+S:https://www.folktunefinder.com/tunes/69683
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:5
+T:The Bells of Newport
+T:The Belles of New-York
+H:32-bar triple or duple-minor longways; moderate.
+H:Dance: [New York] The Gentleman & Lady's Companion, 1798-9;
+H:Tune: [Newport] Murphey MS, 1790.
+M:2/2
+L:1/8
+%P:
+%Q:
+%
+K:D
+%
+|: "D" d2 fd dcBA | "G" G2 dB BAGF | "Em" G2 BG E2 ef | "A" gefd dcBA |
+   "D" d2 fd dcBA | "G" B2 dB BAGF | "Bm" G2 BG E2 g2 | "G"fd"A"ec "D" d4 :|
+"D" D2 FD FAFD | "G" G2 BG GBGE | "Bm" D2 F2 A2 g2 |  "A" fefd dcBA |
+"D" D2 FD FBFD | "G" G2 BG GBGE | "Bm" D2 F2 A2 g2 | "G"fd"A"ec "D" d4 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49284
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

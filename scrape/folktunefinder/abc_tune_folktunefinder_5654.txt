@@ -1,0 +1,25 @@
+X: 2
+P: Hasapiko Grigoro
+C: Greece
+M: 4/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: Bm
+|: "Bm"FB BB | "F"^AB c2 | FB ^AG | "Bm"F4    \
+|  "Bm"FB BB | "F"^AB c2 | fe dc  | "Bm"BF Bz :|
+|| "B7"bb bb       | "Em"b/a/g/f/ e2 | "A7"aa gf              | "D"f4     \
+|  "Em"g/f/e/f/ gb | "Bm"f/e/d/e/ fb | "F#7"^a/b/a/g/ f/e/d/e/ | "Bm"f4    |
+|  "Em"g/f/e/f/ gb | "Bm"f/e/d/e/ fb | "F#7"c/d/e/g/ f/e/d/c/  | "Bm"BF Bz ||
+|| "B"^dd =cB | ff e^d |"Am"=c/^d/e/f/ e/d/c/B/  | "B"^d4   \
+|  "B"^dd =cB | ff e^d |"Am"A/B/=c/^d/ c/B/A/c/  | "B"B4    |
+|| "B"ff e^d  | aa gf  | "Am"e/f/g/a/ g/f/e/^d/  | "B"f4    \
+|  "B"ff e^d  | aa gf  | "Am"=c/^d/e/g/ f/e/d/c/ | "B"BF Bz |]
+S:https://www.folktunefinder.com/tunes/5654
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hasapikos4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:9
+T:La crouzade
+R:Bourre
+M:3/4
+L:1/8
+Q:1/4=100
+K:G% 0 sharps
+V:1
+d4 Bc|d4 Bc| d2 c2B2|A6|A2B2c2|d2e2d2|c2B2A2| [1B4 G2:| [2G4 G2|:
+AB c2d2|A4d2|edc2B2|A2B2G2|ABc2d2|A4d2|edc2B2| [1A4G2:| [2A4D2|:
+G2ABcB|A2B2A2|G2ABAG|F4 D2|G2ABcB|A2B2A2|G2ABAF| [1 G4D2:| [2AF G6|]
+%%footer $D   Galouvielle-MBe 2005 \nRondeau --
+S:https://www.folktunefinder.com/tunes/53308
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

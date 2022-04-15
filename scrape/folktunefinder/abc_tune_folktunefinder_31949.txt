@@ -1,0 +1,28 @@
+X: 1442
+T:The Gallowglass
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+M:6/8
+K:F
+A |: {d}BAG dAc | BGG G2A | {d}BAG def | cAF FGA |
+~B2G dAc | BGB d2c | BAG ^FGA |1 {d}BGG G2A :|2 {d}BGG G3 ||
+{a}g^fg (3dedc | BGG G2A | {d}BAG def | cAF F2g |
+{a}g^fg d2c | BGG dcA | BAG ^FGA | BGG G2g |
+{a}g^fg (3dedc | BGG G2A | {d}BAG def | cAF F2g |
+{a}gdg fdf | ecA BGD | _EGB dAc | BGG G3 ||
+S:https://www.folktunefinder.com/tunes/31949
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

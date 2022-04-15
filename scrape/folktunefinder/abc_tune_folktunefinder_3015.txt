@@ -1,0 +1,24 @@
+X:2
+T:Le Laride
+T:Tri Martelod
+O:trad Brittany
+D:Alan Stivel, \`a l'olympia, Fontana 6399 008
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+|: A, \
+|| "Dm"DCDE  | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"E2  | "Dm"DC DE | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"EGFE |
+|| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, | "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"CC | "Dm"D A,A,A, ||
+|| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, | "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"C2 | "Dm"HD :|
+S:https://www.folktunefinder.com/tunes/3015
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/LeLaride.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LeLaride.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/LeLaride.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

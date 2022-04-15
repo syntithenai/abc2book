@@ -1,0 +1,23 @@
+X:99
+T: DA UNTEN IN DER MUEHLE                                           0126
+N: F0210
+O: Europa, Mitteleuropa, Deutschland
+R: Stimmungs - Lied, Todes - Ahnung
+M: 6/8
+L: 1/8
+K: F
+F | F2FF2F | FE
+FG2G | G4FG | A3-Az
+F | F2FF2F | A3G2
+G | F2FEDE | F4z
+S:https://www.folktunefinder.com/tunes/69659
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Stimmungs - lied, todes - ahnung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

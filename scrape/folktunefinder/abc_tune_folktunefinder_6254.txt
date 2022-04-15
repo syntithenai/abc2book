@@ -1,0 +1,32 @@
+X: 1
+P: Seidas F\"uata (Eb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: Eb
+|: B,D \
+|[M:2/4][L:1/8]"Eb"E4 | [G3E3][AF] \
+|[M:3/4][L:1/8]"Bb7"[G2B,2] [F2D2] [F2B,2] | "Eb"E2 ED EF \
+"I"\
+|[M:2/4][L:1/8]"Eb"[G4E4] | [B3G3][cA] \
+|[M:3/4][L:1/8]"Bb7"[B2D2] [A2F2] [A2D2] | "Eb"[G2E2] z2 :|
+|: [BG][AF] \
+|[M:3/4][L:1/8]"Eb"[G2E2] [B2G2] [G2E2] | "Fm"[A2F2] [cA][BG] [AF][GE] \
+| "Bb7"[F2D2] [A2F2] [F2D2] | "Eb"[G2E2] [BG][AF] [GE][FD] \
+|[M:2/4][L:1/8]"Eb"E4 | [G3E3][AF] |
+|[M:3/4][L:1/8]"Bb7"[G2B,2] [F2D2] [F2B,2] | "Eb"E2 ED EF \
+|[M:2/4][L:1/8]"Eb"[G4E4] | [B3G3][cA] \
+|1[M:3/4][L:1/8]"Bb7"[B2D2] [A2F2] [A2D2] | "Eb"[G2E2] z2 \
+:|2[M:3/4][L:1/8]"Bb7"[B2D2] [c2A2] [d2A2] | "Eb"[e2G2] z2 |]
+S:https://www.folktunefinder.com/tunes/6254
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_SeidasFuata.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

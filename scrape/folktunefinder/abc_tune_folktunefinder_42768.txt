@@ -1,0 +1,25 @@
+X:2409
+T:the Blarney Pilgrim
+O:ireland
+R:Jig
+M:6/8
+K:DMix
+D3 DEG|A3 ABc|BAG AGE|GEA GED|\
+D2D DEG|A2G ABc|
+BAG AGE|GED D3::\
+d2d dBG|AGA BGE|d2d dBG|AGA GBd|
+g2e dBG|AGA BGE|B2G AGE|DED D3::\
+ADD BDD|ADD ABc|
+BAG AGE|GEA GED|\
+ADD BDD|ADD ABc|BAG AGE|GED D3:|
+S:https://www.folktunefinder.com/tunes/42768
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 7
+T: Boolavogue
+M:3/4
+L:1/8
+S: Ottawa Celtic Jam <ottawajam@yahoo.ca> 2002-5-2
+K:G Major
+D2 \
+ | G4 D2 | G4 Bd | g4 f2 | e2 g3e | d4 e2 | B4 AG | A4 G2 | E4 F2 |
+ | G4 D2 | G4 Bd | g4 f2 | e g4 e | d4 e2 | B4 AG | A4 G2 | G4 d2 |
+ | d4 B2 | d4 ef | g4 f2 | e g4 e | d4 e2 | B4 AG | A4 G2 | E4 F2 |
+ | G4 D2 | G4 Bd | g4 f2 | f g4 f | d4 e2 | B4 AG | A4 G2 | G4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13018
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

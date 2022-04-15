@@ -1,0 +1,25 @@
+X: 2915
+T:Seanamhac Tube Station
+M:6/8
+L:1/8
+Q:120
+C:John Carty
+R:jig
+K:GMin
+GFD DFD|GAc ~d3|dcA cAF|GFD CDF|
+!GFD DFD|GAc ~d3|dcA cAF|1~G3 G2 A:|2~G3 GAc|
+!:~d3 dcA|~c3 cAc|dcA cAF|GFD CAc|
+!|1~d3 dcA|~c3 gfd|dcA cAF|~G3 GAc:||
+!2GFD DFD|GAc ~d3|dcA cAF|~G3 G2 A||
+S:https://www.folktunefinder.com/tunes/33086
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

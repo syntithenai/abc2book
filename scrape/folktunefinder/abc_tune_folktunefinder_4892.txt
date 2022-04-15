@@ -1,0 +1,34 @@
+X: 4
+P: Der Finker (C)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: C
+|:[M:3/4][L:1/8]"C"[G2E2] [GE][AF] [GE][FD] \
+| [M:2/4][L:1/8]"C"[E2C2] [G2E2] | [c2E2] [e2G2] \
+|1,3[M:3/4][L:1/8]"G7"[d2F2] [f2B2] [B2F2] | "C"[cE][BD] [cE][AF] [GE][FD] \
+:|2,4[M:3/4][L:1/8]"G7"[d2F2] [dF][cE] [BD][dF] | "C"[c2E2] z2 z2 :| \
+| [M:3/4][L:1/8]"G7"[d2B] [dB][ec] [fd][ge] |
+| [M:2/4][L:1/8]"G7"[f2d2] [d2B2] | [f2d2] [d2B2] \
+| [M:3/4][L:1/8]"C"[e2c2] [ce][fd] [ge][af] \
+| [M:2/4][L:1/8][g2e2] [e2c2] | [g2e2] [e2c2] \
+| [M:3/4][L:1/8]"G7"[d2B] [dB][ec] [fd][ge] | [f2d2] [fd][ec] [d2B2] \
+| "C"[ec][fd] [ge][^f^d] [ge][a=f] |
+| "C"[g2e2] z2 CE \
+|:[M:3/4][L:1/8]"C"[G2E2] [GE][AF] [GE][FD] \
+| [M:2/4][L:1/8]"C"[E2C2] [G2E2] | [c2E2] [e2G2] \
+|1[M:3/4][L:1/8]"G7"[d2F2] [f2B2] [B2F2] | "C"[cE][BD] [cE][AF] [GE][FD] \
+:|2[M:3/4][L:1/8]"G7"[d2F2] [dF][cE] [BD][dF] | "C"[c2E2] z2 z2 |]
+S:https://www.folktunefinder.com/tunes/4892
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Finker.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Finker.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

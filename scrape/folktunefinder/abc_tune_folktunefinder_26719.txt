@@ -1,0 +1,30 @@
+X:6267
+T:Stara Vlainja
+O:england
+S:Borino
+M:3/8
+L:1/8
+Q:1/4=200
+K:A
+|:"A"E^DE|"F#"F2E|"A"A2E|EDC|"F#"EF2|"A"E2D|CB,A,|C3|
+A2E|EDC|"E"B,A,B,|"A"C3|CB,A,|A,2B,|A,3|A,3:|
+|:"A"A,B,2|"E"B,A,G,|"A"A,3|A,3|A,B,2|"E"B,A,G,|"A"A,3|A,3|
+"A"A,B,2|"E"B,A,G,|"A"CDB,|C3|A,B,2|"E"B,A,G,|"A"A,3|A,3:|
+M: 2/4
+L: 1/8
+"A"E4|E4|E4|E4|:"A"E2A2|AGA2|"D"D2F2|"F#"FEF2|
+"A"E4|CB,A,2|"D"D4|F4| "E"B4|"A"AGA2|"F#"F2E2|"A"EDE2|
+"D"D2C2|"A"C2A,2|"E"B,4|B,4:|\
+|:"A"A2E2|"D"DCB,2|"E"B,A,B,2|"A"C4|"A"A2E2|EDC2|"E"B,4|B,4:|
+S:https://www.folktunefinder.com/tunes/26719
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

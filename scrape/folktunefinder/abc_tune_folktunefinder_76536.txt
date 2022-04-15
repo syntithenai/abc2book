@@ -1,0 +1,28 @@
+X:51
+T: ICH BIN KUCKUK UND BLEIB KUCKUK
+N: E0667
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Bresalau; Gotha
+R: Liebes - Lied, Schaefer - Lied
+M: 6/8
+L: 1/16
+K: G
+d2 | d4B2B4d2 | c4A2A4
+c2 | B3cd2d3cB2 | A6D4
+d2 | d4B2B4d2 | c4A2A4
+c2 | B3AG2A3GF2 | G6G4
+D2 | G4B2B3AG2 | A4c2c3B
+A2 | B3cd2d3cB2 | A6D4
+d2 | d4B2B4d2 | c4A2A4
+c2 | B3AG2A3GF2 | G6G4
+S:https://www.folktunefinder.com/tunes/76536
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, schaefer - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

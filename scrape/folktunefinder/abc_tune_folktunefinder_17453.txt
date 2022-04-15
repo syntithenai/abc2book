@@ -1,0 +1,28 @@
+X: 1
+T: Mr John Stewart
+O: Glen Collection
+R: reel
+B: RSCDS 28-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Caledonian Country Dances" 1754
+M: C|
+L: 1/8
+K: F
+|: A \
+| "F"F2F2 AFcA | F2F2 "C7"AGGA | "F"F2F2 cAcA | "Bb"Bd"C7"GB "F"AF F :|
+|: c \
+| "F"f>a"Bb"fd "Am"cecA | "Dm"f2fa "Gm"gd"C7"de | "F"f>a"Bb"fd "C"ce"Dm"fg | "C7"fdcB "F"AFF :|
+S:https://www.folktunefinder.com/tunes/17453
+S:http://trillian.mit.edu/~jc/music/abc/reel/JohnStewart.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/JohnStewart.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/JohnStewart.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JohnStewart.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JohnStewart.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

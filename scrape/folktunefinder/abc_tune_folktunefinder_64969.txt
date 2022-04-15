@@ -1,0 +1,28 @@
+X:1105
+T:Nutting Girl
+% Nottingham Music Database
+P:AAB
+S:Kevin Briggs, via EF
+M:4/4
+K:A
+M:6/8
+P:A
+E|"A"A2c e2e|"E7"e2d B2G|"A"A2B "E7"c2d|"A"e3 e2c|"D"dcd "E7"Bcd|\
+"A"cec "F#m"ABc|"Bm"d2B "E7"A2G|"A"A3 A2:|
+P:B
+A|"D"A2d d2f|"A"f2e ecA|"D"A2d d2f|"A/c"e3 "E7/b"ecB|"A"A2a "D"a2f|
+"A"f2e "F#m"edc|"Bm"B2A "Bm/a"B2c|"E7/g"e3 c2B|"A"AFE A2A|"A"A3 A2c|\
+"E7"BGE B2B|
+"E7"B3 Bcd|"A"edc edc|"D"agf edc|"A"AFE "D"A2A|"A"A3 A2:|
+S:https://www.folktunefinder.com/tunes/64969
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

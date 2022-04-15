@@ -1,0 +1,32 @@
+X: 1
+T: Briar Rose
+C: Kim McGarrity
+R: air
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+A2 \
+| "Dm"d2 d>e "(Bb)"f>e d<f | "A7"e>d ^c<e "Dm"d2 d>=c \
+| "F"A2 A>G "Dm"F2 G>A | "Gm"B>A G<F "A7"E2 A2 |
+y3 \
+| "Dm"d2 d>e f2 (3def | "Gm"g>f e<d "A7"^c2 A2 \
+| "Dm"d>c "(F)"A>F "Gm"G2 (3GAB | "A7"A>=B ^c<A "Dm"d2 |]
+d>e \
+| "Dm"f>e d>f A<a a2 | "Gm"g>f e>d "A7"^c<e a2 \
+| "C"g>f e>d c>d e>f | "C"g>f e>d "A7"^c<e a2 |
+y3 \
+| "Dm"f>e d>f A<a a2 | "Gm"g>"(#)"f gg \
+| "Dm"f>e d>^c d<A "Gm"G>B | "A7"A<F E>A "Dm"D2 |]
+S:https://www.folktunefinder.com/tunes/13145
+S:http://trillian.mit.edu/~jc/music/abc/air/BriarRose_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BriarRose_Dm.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

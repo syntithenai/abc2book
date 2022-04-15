@@ -1,0 +1,30 @@
+X: 175
+T: Lamplighter's Hornpipe
+C: R-90
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: A
+cd| "A"ecec eagf| ecec eagf| ecec fedc| "E7"d2B2 B2cd|
+    "A"ecec eagf| ecec eagf| efde "E7"cdBc| "A"A2A2 A2 :|
+|:\
+cd| "A"edcd e2fe| "E7"dcBc d2ed| "A"cAcA dcBA| "E"GABc B2cd|
+    "A"edcd e2fe| "E"dcBc d2ed| "A"cagf "E"edcB| "A"A2c2 A2 :|
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-90, "John Howett", same as R-83
+%%textfont       Times-Roman 9.0
+% ---------- page 91 ----------
+S:https://www.folktunefinder.com/tunes/57512
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

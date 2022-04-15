@@ -1,0 +1,30 @@
+X: 238
+T:Waltz. CJF.238
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The dot is not visible in the MS for the marked note. - PJH.
+Z:vmp.P J Headford 2000
+K:C
+G>c|e2e2 c>e|g2f2 G>B|d2d2 G>d|f2e2 G>c|!
+e2e2 "*"c>e|g2f2 G>B|d3cBd|c4:|!
+|:G>B|d2d2 (fe)|(ag)g2 G>B|d2d2 (fe)|(ag)(fd) G>c|!
+e2e2 (c>e)|g4f2|GBdfdB|c4:|!
+|:G2|e2(eg)(fa)|(ag)(^fg)(ec)|(Af)(ef)(df)|(fe)(ag)(c'g)|!
+e2(eg)(fa)|(ag)(^fg)(ec)|(Af)(ef)(dB)|c4:|]
+S:https://www.folktunefinder.com/tunes/49793
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

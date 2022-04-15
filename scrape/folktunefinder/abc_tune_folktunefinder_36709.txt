@@ -1,0 +1,24 @@
+X:3150
+T:Limoux carnival tunes Valse
+A:Aude
+M:3/4
+O:France
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009fd.html
+%%ID:000009fd
+K:A
+E6 | E4 G2 | F6  | E6      | C6  | C4    D2 | B,6- | B,6 |\
+B6 | C2 D2 | G6- | G2 F2 G2| E6- | E2 D2 E2 | C6-  | C6 |
+E6 | E4 F2 | F6  | E6      | A6  | G4    A2 | F6-  | F6 | \
+F6 | G4 A2 | c6- | c2 A2 F2| E6  | B4    c2 | A6   | A2 |]
+|: E2c2|\
+B3B B2 | B2 E2 B2 | A3A A2 | A2 E2 A2| G2EF GA | B^A Bc de | c6  | A2E2 c2|
+B3B B2 | B2 E2 B2 | A3A A2 | A2 E2 A2| G2EF GA | B^A Bd cB | A6- | A2 :|
+S:https://www.folktunefinder.com/tunes/36709
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

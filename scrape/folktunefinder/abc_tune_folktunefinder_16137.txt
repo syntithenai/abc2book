@@ -1,0 +1,29 @@
+X: 1
+T: Kivikspolkan
+T: Miss E.Lyalls Polka
+R:
+O: Scandinavia
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N: Also played by Scottish musicians
+M: 2/4
+L: 1/8
+K: G
+B/A/ \
+|: "G"GB dg | b>a g2 | GB dg | "D7"f>e d2 \
+| DF Ad | f>e d2 |1 DF Ac | "G"B>A G2 :|2 "D7"df/e/ d/c/B/A/ | "G"G4 :|
+B/c/ \
+|: "G"~d2 ed | ~B2 cB | ~G>B AG | "C"E2- .Ez \
+| DF Ad | f>e d2 |1 DF Ac | "G"B>A G2 :|2 "D7"df/e/ d/c/B/A/ | "G"G4 :|
+w: | | | | ~ "Hej!"
+S:https://www.folktunefinder.com/tunes/16137
+S:http://trillian.mit.edu/~jc/music/abc/polka/KiviksP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/KiviksP.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

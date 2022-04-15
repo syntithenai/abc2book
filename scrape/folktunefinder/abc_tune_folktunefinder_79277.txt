@@ -1,0 +1,29 @@
+X:173
+T: WER WILL EIN JUENGER JESU SEIN
+N: E1312
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied, geistlich
+M: 4/4
+L: 1/8
+K: G
+D2 | G2F2G2A2 | B3cd2
+e2 | d2cBA3G | G6
+D2 | G2F2G2A2 | B3cd2
+e2 | d2cBA3G | G6
+G2 | c3Bc2d2 | e6
+d2 | c2B2A2G2 | A6
+D2 | G2F2G2A2 | B3cd2
+e2 | d2cBA3G | G6
+S:https://www.folktunefinder.com/tunes/79277
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

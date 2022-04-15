@@ -1,0 +1,58 @@
+X: 1
+T: Tango Caliente (in Em)
+R: tango
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|: "Em"Bb-b^a b4- \
+| b~b^ab c'b=ag \
+| "B7"gf-f^e f4- \
+| f8 \
+| "B7"Ba-a^g a4- \
+| a~a^ga ba=gf |
+| "Em"ag-gf g4- \
+| g6 =f2 \
+| "E7"e^g-ga b4- \
+| be^ga bgab \
+| "Am"d'c'-c'b c'4- \
+| c'6 c'2 |
+| "Em"c'b-b^a b2g2 \
+| "B7"gf-f^d B2f2 \
+| "Em"fe-e^d e4- \
+|1 "Em"ez3 c4 \
+:|2 "Em"ez3 |] \
+z2e_e |
+|: "D"d4- defg \
+| af-fe d2c2 \
+| "G"cB-B^A B4- \
+| B6 ^A2 \
+| "B7"B^d-de f4- \
+| fB^df ag-gf |
+| "Em"ag-gf e4- \
+| e4 "(E7)"e2d2 \
+| "Am"ca-a^g a4- \
+| a~a^ga ba=ge \
+| "Em"Bg-gf g4- \
+| g~gfg ageB |
+| "F7"^Af-f^e f3A- \
+| "B7"=Af-f^e f2g2 \
+| "Em"fe-e^d e4- \
+|1 "Em"e3B gfe_e \
+:|2 "Em"ez3 z4 |] \
+"Em"ez2 .b .e'z3 |]
+S:https://www.folktunefinder.com/tunes/19731
+S:http://trillian.mit.edu/~jc/music/abc/tango/TangoCaliente_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Argentina/tango/TangoCaliente_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/tune/TangoCaliente_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tango/TangoCaliente_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/TangoCaliente_Em.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

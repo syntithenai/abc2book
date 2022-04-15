@@ -1,0 +1,19 @@
+X: 2
+T: Artsa Alinu
+M: C
+L: 1/8
+K: Cm
+|: "Cm"CG2F G2F2 | "Fm"EF2E F2E2 | "Cm"CC2B, "G7"(E2D2) | "Cm"C6 z2 :: "Eb"G3A B2c2 |
+| "Cm"GG2F (GF)E2 :| "Fm"EF2E F2E2 | "Cm"C4 C4 | "Gm"B,C2B, "G7"(E2D2) | "Cm"C4 C4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/6417
+S:http://trillian.mit.edu/~jc/music/abc/Israel/ArtsaAlinu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ArtsaAlinu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

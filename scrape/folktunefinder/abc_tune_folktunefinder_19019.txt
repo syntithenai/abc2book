@@ -1,0 +1,50 @@
+X:1
+T:Tell a little star
+T:(I've told ev'ry little star)
+M:4/4
+L:1/8
+C:Atte Andr
+Q:1/4=200
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Fmaj7"x4 "Dm7"x4 | "Gm7"x4 "C7"x4 | "Am7"x4 "D7"x4 | "Gm7"x4 "C7"x4 |
+"Am7"x4 "Ab7"x4 | "Gm7"x4 "C7"x4 | "F6"x4 "( Dm7"x4 | "Gm7"x4 "C7 )"x4 ||
+V:melody
+G2zF EFGA | cAFD GF2E- | EF/2^F/2 GE _Ed z2 | zc (3AFD BF_DC- |
+C4 F4 | B4 zCEF | z3C EFz2 | z8 ||
+P:A
+V:chords
+"Fmaj7"x4 "Dm7"x4 | "Gm7"x4 "C7"x4 | "Am7"x4 "D7"x4 | "Gm7"x4 "C7"x4 |
+"Am7"x4 "Ab7"x4 | "Gm7"x4 "C7"x4 | "F6"x4 x4 | "Dm7"x4 "G7 )"x4 ||
+V:melody
+G2zF EFGA | cAFD GF2E- | EF/2^F/2 GE _Ed z2 | zc (3AFD BF_DC- |
+C4 F4 | B4 zCEF | z3C EFz2 | zCEF- FD=B,_A, ||
+P:B
+V:chords
+"Cmaj7"x4 "Am7"x4 | "Dm7"x4 "G7"x4 | "Cmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 |
+"Dm7"x4 "G7"x2 "G#dim7"x2 | "Am7"x4 "D7"x4 | "Dm7"x4 "G7"x4 | "Gm7"x4 "C7"x4 ||
+V:melody
+G,4 z4 | zA, (3=B,CE DA2G- | G4 z4 | zB, (3C_DF _EB^GA- |
+ADFA ED zE- | EA,CE =B,A, zD- | D4 z4 | zA (3FDB _AE2G ||
+P:A
+V:chords
+"Fmaj7"x4 "Dm7"x4 | "Gm7"x4 "C7"x4 | "Am7"x4 "D7"x4 | "Gm7"x4 "C7"x4 |
+"Am7"x4 "Ab7"x4 | "Gm7"x4 "C7"x4 | "F6"x4 "( Dm7"x4 | "Gm7"x4 "C7 )"x4 |]
+V:melody
+G2zF EFGA | cAFD GF2E- | EF/2^F/2 GE _Ed z2 | zc (3AFD BF_DC- |]
+C4 F4 | B4 zCEF | z8 | z8 ||
+S:https://www.folktunefinder.com/tunes/19019
+S:http://trillian.mit.edu/~jc/music/abc/song/Tell_a_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/tell_a_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Tell_a_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/tell_a_little_star.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:266
+T: ICH WEISS MIR EINEN ANGER BREIT
+N: E0143
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Scherz, Schwank, betrogener Ehemann
+M: 4/4
+L: 1/8
+K: F
+D2 | F2F2G2G2 | A2A2A2
+A2 | G2A2B2B2 | A2A2G2
+G2 | A2A2F2F2 | E2D2C2
+C2 | E2F2E2D2 | G2A2B2
+B2 | A2GFE2G2 | BAG2F2
+S:https://www.folktunefinder.com/tunes/78707
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, scherz, schwank, betrogener ehemann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 153
+T:Hunter's House, The
+M:C|
+L:1/8
+C:Ed Reavy
+R:reel
+D:Music at Matt Molloy's
+Z:id:hn-reel-127
+K:G
+Bd~d2 cAFA|G2BG DGBG|Bd~d2 cAFA|GBAG FGEF|
+DG~G2 BG~G2|BGAF GABc|defg agfd|cAFA G3A:|
+|:B2gB aBgB|~B2gf edcB|Aa~a2 baaf|dfaf gfed|
+~B2gB aBgB|~B2gf edcB|cBAg fgaf|gdBd cAFA:|
+%X: 55
+%T:The Mason's Apron
+%M:4/4
+%L:1/8
+%S:Kevin Burke and Jackie Daly
+%R:reel
+%D:Kevin Burke: If the Cap Fits.
+%Z:Barney
+%K:A
+%"Kevin Burke and Jackie Daly"
+%a2 f2|: ec (3ccc Bc  AF| EFAB c2 BA| FB ~B2 cB ~B2| cefg abaf|
+%e2 cA BF (3FFF| EFAB cABc| dcde fgaf|1 ecBc A2 af:|2 edcB A2 ed||
+%(3cBA eA fAeA| (3cBA eAfA eA| df ~f2 af ~f2|df ~f2 af ~f2|
+%{c}^c2 ec fcec| Ac(3ccc fcec| dcde fgaf|1 ecBc A2 AB:|2 edcB A2||
+S:https://www.folktunefinder.com/tunes/66578
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 61
+T:Lovily Nimph. JMP.061
+M:3/4
+L:1/8
+Q:90
+C:"66...Low"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:'Low' is written in a different writing
+N:"1"  - shown as a triplet
+H:1799
+Z:vmp.C. Graebe
+K:D major
+D2 | F4 (E>D) | A4 A/B/c | d>Bc>A  Bc/d/ | "1"A/F/D D2 "1"D/E/F |!
+(G2F2) (dc) |(Bc/d/) A2 (D/F/A/d/) | "1"B/A/G (F2"tr"E2) | D4 D2 |!
+F>G "1"A/G/F (ED) | A4 (A/B/c) |d>Bc>A Bc/d/|\
+((3A/F/D/) D2 ((3DE/F/) |! 
+(G2F2) (dc) | (Bc/d/) A2 (D/F/A/d/) | (B/A/G) F2E2 | D4 :|! 
+|:{c}(d4 "tr"e2) {de} |fe de/f/ |A2 (GF)(ED) | (Bd)(ce)d2 |!
+ D4 (DE) |F2A2 (de/f/) |(ed)(cBAG) | (AB)(AGFE) | !
+D4 E2{DE} | (F2G2 (AB/c/) |\
+(dB)(cA) (Bc/d/) | "1"AF/D/ D2 "1"D/E/F |! 
+G2F2 dc |\
+(Bc/d/) A2 (D/F/A/d/) | B/A/G (F2E2) | D4 :|]
+S:https://www.folktunefinder.com/tunes/1998
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

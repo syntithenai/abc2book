@@ -1,0 +1,25 @@
+X: 1
+T: J. B. Milne
+T: 8 x 32R 3C
+P: J. B. Milne
+C: By Angus Fitchet
+C: Arr. T. Traub 4-27-01
+R: reel
+M: 4/4
+L: 1/8
+K: A
+cd|"A"efed c2 A2 |"A"E2 A2 c4|"A"cedc B2 A2|"Bm"d6 Bc|"E7"dedc B2 G2|"E"E2 G2 B4|"E7"BdcB A2 B2 |"A"c6 cd||
+cd|"A"efed c2 A2 |"A"E2 A2 c4|"A7"cedc B2 A2|"D"f6 fg|"D#dim"af^d=c A2 ag|"A"fecA E2 gf|"E"(3efe ^de "E7"f2 g2|"A"a6 cd||
+"A"e2 c2 "A/G#"f2 c2|"A/F#"e2 c2 "A/E"f2 c2|"A"e2 ^de "F#" fe=dc|"Bm"d6 Bc|"Bm"d2 B2 "/A#"e2 B2|"/A"d2 B2 "E"e2 B2|"Bm"d2 cd "E"edcB|"A"c6 cd||
+"A"e2 c2 "A/G#"f2 c2|"A/F#"e2 c2 "A/E"f2 c2|"A"a2 ga "A7"baga|"D"f6 fg|"D"abag "Adim"fagf|"A"fecA E2 gf|"Bm"(3 efe ^de "E7"f2 g2 "A"a6 |]
+S:https://www.folktunefinder.com/tunes/58419
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/JBMilneR.abc
+S:http://terrytraub.org/abc/JBMilneR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

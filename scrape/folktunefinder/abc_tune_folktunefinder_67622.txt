@@ -1,0 +1,33 @@
+X: 9
+T:Orange in Bloom
+% Nottingham Music Database
+P:A(ABBB)2(ACCC)2B
+S:Ascot via Coventry MM
+M:6/8
+K:D
+P:A
+"D"dcd f2e|"G"d2B BdB|"D"ABA d2e|"D"fdd "A7"d2A|
+"D"dcd f2e|"G"d2B BdB|"D"ABA d2e|fdd d3||
+P:B
+"D"fdf a2f|"A7"ede "D"f3|"D"faf "A"ede|"Bm"fdB "A7"A2A|
+"D"dcd f2e|"G"d2B BdB|"D"ABA d2e|fdd d3||
+P:C
+"D"fdf a3f|"A7"ede "D"f3|\
+M:4/4
+L:1/4
+"D"fa f2|"A"ed e2|"Bm"fd B2|\
+M:6/8
+L:1/8
+"A7"A3A3 |
+"D"dcdf2e |"G"d2BBdB |"D"ABAd2e |fddd3 ||
+S:https://www.folktunefinder.com/tunes/67622
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

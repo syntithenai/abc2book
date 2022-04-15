@@ -1,0 +1,23 @@
+X:195
+T:South Downs Jig
+R:jig
+S:Robert Habron
+M:6/8
+L:1/8
+K:G
+|: d | dcA G3 | EFG AFE | DEF GAB | cde d2d |
+dcA G3 | EFG AFE | DEF GAB | cAF G2 :: 
+B | Bcd e2c | d2B c2A | Bcd e2c | d2B c2B  A3 | 
+DGF E3 | cBA FED | DEF GAB |1 cAF G2 :|2 cAF G3 |]
+S:https://www.folktunefinder.com/tunes/53852
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

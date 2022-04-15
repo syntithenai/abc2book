@@ -1,0 +1,25 @@
+X:40
+T:40.  Rodgers and Spencer (gdgd tuning)
+C:c 2000 Harry Bolick
+R:Breakdown
+O:United States
+A:Hastings On Hudson, New York
+M:4/4
+L:1/8
+Q:200
+K:G
+ D |: "G" GA B/2A/2G B,>C B,D | GA B/2A/2G"D" A,>B, A,D | 
+"G" GA B/2A/2G B,>C B,D | BA/2B/2 A/2G/2"D"F/2D/2 "G"G3 D :|
+|: dd d/2B/2A B2 B/2A/2B   |"C" (ee/2)f/2 e/2d/2B/2A/2 "G" d4 |
+ "C" e/2f/2e/2d/2 "G" BA/2B/2 c/2B/2A/2F/2 GA |  BA/2B/2 A/2G/2 F/2D/2   G4 :|
+S:https://www.folktunefinder.com/tunes/1737
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: the Rival Hornpipe
+O: Trad
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"GDGB dGBd | gfed cBAG | "C"ABcd "Am"ecAG | "D7"GFAF D2EF | "G"GDGB dGBd |
+| gfed cBAG | "C"ABcd "D7"ecAF | "G"G2G2 G2 :: EF | "D"ADFD ADFA | "D7"cDBD A2GA |
+| "G"BDGD BDGD | "G"dDcD B2D2 | "G"GDGB dGBd | gfed cBAG | "C"ABcd "D7"ecAF | "G"G2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/13671
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/RivalHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RivalHp_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

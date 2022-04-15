@@ -1,0 +1,34 @@
+X: 12
+T:Lyndhurst
+R:Jig
+C:Jack Smith
+B:Ceol na Fidhle, Vol.3
+D:Silly Wizard
+P:4
+M:6/8
+L:1/8
+Q:140
+K:A
+f| "Bm"B3/2B/2B B3/2c/2A| "E"B3/2c/2e f3/2e/2c| "A"A3/2A/2A A3/2c/2e|"F#m"a3/2g/2a f3/2e/2c|
+"Bm"B3/2B/2B B3/2c/2A|"E"B3/2c/2e f3/2e/2c| "F#m"A3/2c/2e f3/2e/2c| "Bm"B3/2c/2A B2 :|
+|"A"c/4e3/4|("F#m"fa2) f3/2e/2a| "F#m"f3/2g/2a f3/2e/2c| "A"A3/2A/2A A3/2c/2e|"F#m"a3/2g/2a f3/2e/2c|
+ ("F#m"fa2) f3/2e/2a|"F#m"f3/2g/2a f3/2e/2c|"F#m"A3/2c/2e f3/2e/2c|"E"B3/2c/2A B2 c/4e3/4 |
+("F#m"fa2) f3/2e/2a| "F#m"f3/2g/2a f3/2e/2c|"A"A3/2A/2A A3/2c/2e|"F#m"a3/2g/2a f3/2e/2c|
+ "Bm"B3/2B/2 B B3/2c/2A|"E"B3/2c/2e f3/2e/2c|"F#m"A3/2c/2e f3/2e/2c|"Bm"B3/2c/2A B2||
+f|"A"B3/2c/2A c3/2B/2B|"F#m"f3/2e/2a f3/2e/2c| "A"A3/2A/2A A3/2c/2e| "F#m"a3/2g/2a f3/2e/2c|
+"A"B3/2c/2A c3/2B/2B| "F#m"f3/2e/2a f3/2e/2c|"F#m"A3/2c/2e f3/2e/2c| "Bm"B3/2c/2A B2 :|
+c/4e3/4|"F#m"f3/2e/2a (f2e)| "F#m"a3/2f/2e f3/2e/2c| "A"A3/2A/2A A3/2c/2e|"F#m"a3/2g/2a f3/2e/2c|
+"F#m"f3/2e/2a (f2e)| "F#m"a3/2f/2e f3/2e/2c| "F#m"A3/2c/2e f3/2 e/2c| "E"B3/2c/2A B2c/4e3/4|
+"F#m"f3/2e/2a(f2e)| "F#m"a3/2f/2e f3/2e/2c|"A"A3/2A/2A A3/2c/2e|"F#m"a3/2g/2a f3/2e/2c|
+"A"B3/2c/2A c3/2B/2B| "F#m"f3/2e/2a f3/2e/2c| "F#m"A3/2c/2e f3/2e/2c| B3/2c/2A B2 ||
+S:https://www.folktunefinder.com/tunes/58619
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

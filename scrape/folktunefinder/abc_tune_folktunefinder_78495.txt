@@ -1,0 +1,25 @@
+X:54
+T: ES RITT EIN RITTER WOL DURCH DAS RIED
+N: E0042
+O: Europa, Mitteleuropa, Deutschland, Heidelberg
+R: erzaehlendes Volks - Lied, Ritter -, Raeuber - Sage
+M: 3/2
+L: 1/8
+K: G
+G2 | G2A2B4A4 | B2cBA4z2
+BA | G2GFG4B4 | A2BAG4z2
+A2 | F2E2F2D2E2F2 | G4ABA4
+B2 | E4E2D2G2G2 | B6G4
+S:https://www.folktunefinder.com/tunes/78495
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter -, raeuber - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

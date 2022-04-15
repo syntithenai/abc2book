@@ -1,0 +1,25 @@
+X: 1
+T: Aston Hall
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+DEF \
+|: G2D G2D | GAB cBA | B2G B2G | Bcd edc | edB ABG | FGE D2c | BGB AFD | G3 z3 :|
+[| gfg efg | aba fed | gfg efg | fge d3  | cBc acA | BAB gfe | dcB AGF | G3 z3 |]
+[| GDG BDB | gdg bdb | GDG BDB | c3  A3  | GDG BGB | d3  B3  | B{c}dB cAF | G3 |]
+S:https://www.folktunefinder.com/tunes/13802
+S:http://trillian.mit.edu/~jc/music/abc/jig/AstonHall_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/AstonHall_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/AstonHall_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

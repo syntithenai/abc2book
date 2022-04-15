@@ -1,0 +1,19 @@
+X:600
+T:Glass of Beer
+Z: id:dc-reel-378
+M:C
+L:1/8
+K:B Minor
+de|fBB2 fBaB|fBB2 e2de|fBB2 fgfe|dfaf e2:|!
+dc|d3e fgfe|defd edBc|d3e fgfe|dfaf e2:|!
+S:https://www.folktunefinder.com/tunes/66052
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

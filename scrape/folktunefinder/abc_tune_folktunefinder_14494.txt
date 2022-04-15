@@ -1,0 +1,28 @@
+X: 1
+T: the Lads o' Dunse
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: J. Murray Neil, "The Scots Fiddle" p.36 #28
+M: 6/8
+L: 1/8
+K: D
+B \
+| "D"A2D DED | DED "G"B2A | Bcd "D"AFA | "Em"BGE "A7"E2d \
+| "D"A2D DED | DED "G"B2A | Bcd "D"AFd | "A7"AFD "D"D2 :|
+g \
+| "D"fef d2e | fga "G"B2A | Bcd "D"AFA | "Em"BGE "A7"E2g \
+| "D"fef d2e | fga "G"B2A | Bcd "D"AFd | "A7"AFD "D"D2 ||
+g \
+| "D"fef d2e | fga "G"B2A | Bcd "D"AFA | "Em"BGE "A7"E2f/g/ \
+| "D"afa "A7"geg | "Bm"fdf "A7"ece | "G"dcB "D"AFd | "A7"AFD "D"D2 |]
+S:https://www.folktunefinder.com/tunes/14494
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadsODunseJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadsODunseJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

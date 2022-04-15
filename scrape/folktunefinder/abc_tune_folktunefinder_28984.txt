@@ -1,0 +1,39 @@
+X:2704
+T:Carretera d'Avils (CT 206)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:Suelen cantarla los arrieros.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 206
+M:Llibre
+L:1/8
+Q:1/4=63
+W:Carretera de Avils:
+W:como yes estrecha y larga,
+W:estrecha y larga,
+W:cuando voy a la salida
+W:no me acuerdo de la entrada.
+K:G
+z/ B/ d>B d (3c/4d/4c/4 (3B/4c/4B/4 (3A/4B/4A/4 (G(6A/4B/4A/4G/4F/4G/4-G2
+z3/2 B/ B2 c/d/ d/c/4 B/4 ((3c/4d/4c/4 (3B/4c/4B/4 (3A/4B/4A/4G) G2
+z2 GG>G (c2-c/B/4A/4 B) B2-B
+(3A/B/c/ (d>d) c/4B/4 (d/c/4B/4c/B/4A/4B/A/4G/4A/G/4F/4 G(6A/4B/4A/4G/4F/4G/4)G2 A/>G/ G2
+z (3A/4B/4c/4 d (d3/2(3c/4B/4A/4 d/c/4B/4c/B/4A/4B/A/4G/4A/G/4F/4 G2) z2 ||
+S:https://www.folktunefinder.com/tunes/28984
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

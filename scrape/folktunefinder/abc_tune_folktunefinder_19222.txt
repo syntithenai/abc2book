@@ -1,0 +1,26 @@
+X: 1
+T: The Braes of Dunvegan
+R: strathspey
+S: handwritten MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+    F<G | A>B A<F A2    d>e  | f>d g<e f2 e<d | B>c d>B A>F D>F | E>D E<F E2 F<G |
+        | A>B A<F A2    d>e  | f>d g<e f2 e<d | B>c d>B A>F G<E | F2 D2 D2 :|
+|:  f>g | a>g f>e f<a (3AB=c | B>A d>e f2 e<d | B>c d>B A>F D>F | E>D E<F E2 |
+|[1 f>g | a>g f>e f<a (3AB=c | B>A d<e f2 e<d | B>c d>B A>F G<E | F2 D2 D2 :|
+|[2 F>G | A>B A>F A2     d>e | f<d g<e f2 e<d | B>c d>B A>F G<E | F2 D2 D2 |]
+S:https://www.folktunefinder.com/tunes/19222
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfDunvegan_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfDunvegan_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

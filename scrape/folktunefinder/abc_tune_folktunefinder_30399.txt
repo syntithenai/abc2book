@@ -1,0 +1,23 @@
+X:450
+T:Quick Step 10th Regt.
+B:Aird's Airs and Melodies vol 2
+M:12/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000122.html
+%%ID:00000122
+K:B min
+e3 ef^g agf edc| e3 efg BGB d2B|\
+e3 ef^g agf edc| dbd cac BGB d2B||
+ecA ABA ecA Bcd| ecA ABA BGB d2B|\
+ecA ABA a^gf edc| dfd cec BGB d2B:|
+S:https://www.folktunefinder.com/tunes/30399
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

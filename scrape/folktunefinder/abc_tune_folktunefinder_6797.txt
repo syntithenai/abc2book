@@ -1,0 +1,33 @@
+X: 1
+T: Nigun Sameach
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"Dz Fz | Az dz | f4- | f4 \
+| gf ef | ed ^cd | "A7"e4- | eA BA |
+| "A7"A3 ^c e3 d | (3^cde (3dcB | A4 | ed ^cB \
+| AG FE |1 "Dm"D4 | (3A^GF (3FED :|2 "Dm"D4- | HD4 |]
+|: "Dm"Ad "(A7)"fe | "Dm"dc "D7"BA | "Gm"AB BB | B4 \
+| GB ed | "(A7)"^cB AG | "Dm"^GA AA | A4 |
+| "A7"AB ^cd | ef (3fed | ^c4- | c4 \
+| ed ^cB | AG FE | "Dm"D4- | D2 z2 :|
+|: "Dm"z2 a^g | a2 "Gm"b2 | "Dm"a3 f | d4 \
+| "Gm"b3 a | "C7"ga b[c'g] | "F"a4- | a4 |
+| "Gm"ba g2  | gf e2 | "A7"gf e2 |  ed ^c2 \
+| AB ^cd | ef  ^ce |1 "Dm"d4 | (3a^gf (3fed :|2 "Dm"d4 | fd "da Capo"AF |]
+S:https://www.folktunefinder.com/tunes/6797
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Kam9-12_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Bulg_Kam9-12_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bulg_Kam9-12_Dm.abc
+% Rhythm Bulgar, freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

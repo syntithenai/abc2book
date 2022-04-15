@@ -1,0 +1,24 @@
+X:517
+%%topmargin 3cm
+T:Earl of Hyndfords Reel
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Cm
+G, | TC2 EG (cde).c | .B(GTFE) DB,B,D | TC2 EG (cde).c | .B(GFD) ECCE | TC2 EG (cde).c | .B(GTFE) DB,B,D | ECFD GEAF | GEFD ECC||
+G | cGEe cgec | Bbfg dfBd | e<cge dBGc | BEDG ECCG | cGEe cgec | BdFB DFB,D | ECFD GEAF | GEFD ECC |]
+S:https://www.folktunefinder.com/tunes/71546
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Earl_of_Hyndfords_Reel.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0517.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

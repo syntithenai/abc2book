@@ -1,0 +1,31 @@
+X:582
+T:Pastor
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Musicologa Asturiana - La Cancin Tradicional, Modesto Gonzlez Cobas
+Z:La Cancin Tradicional, M.G.C.
+M:3/8
+L:1/8
+Q:3/8=80
+K:Am
+E
+|A2 ^G|AcB|AGF|E2 F|G2 F|GBA|G3/4F/4 E2-|E z2|
+|EGF|GAG|EFE|D3|DGF|GBA|^FGE|^F2 ^D|E3-|E z2|
+W:pastor qu'estas en el monte pastor y duermes entre la rama
+W:si te casaras conmigo pastor durmieras en buena cama y anda!y anda!
+W:
+S:https://www.folktunefinder.com/tunes/59469
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

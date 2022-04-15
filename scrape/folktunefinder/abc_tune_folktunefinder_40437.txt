@@ -1,0 +1,29 @@
+X:1
+T:Windy Gap, The
+T:Custom Gap, The
+T:Mills Are Grinding, The
+T:Tuttle's
+R:reel
+M:4/4
+L:1/8
+Q:1/4=180
+K:Ddor
+V:1
+A,D DE FE FG|Ac Gc Ad d2|A,D DE FE FG|AF GE FD D2|
+A,D DE FE FG|Ac Gc Ad de|fd ec dc AB|cA GE ED D2:|
+d2 dA c2 cA|d2 dA cA GA|d2 dA cd cA|EF GE ED D2|
+d2 dA c2 cA|d2 dA cA GA|fd ec dc AB|cA GE ED D2:|
+V:2
+A,D DE AG AG|Ac Gc Ad d2|A,D DE AG AG|AB GE DD D2|
+A,D DE AG AG|Ac Gc Ad de|fd ec dc AB|cA GE ED D2:|
+d2 dA c2 cA|d2 dA cA GA|d2 dA cd cA|EF GE ED D2|
+d2 dA c2 cA|d2 dA cA GA|fd ec dc AB|cA GE ED D2:|
+S:https://www.folktunefinder.com/tunes/40437
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

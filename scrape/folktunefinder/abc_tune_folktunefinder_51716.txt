@@ -1,0 +1,63 @@
+X:43a
+T:Honky Tonk Swing
+C:Mike Compton
+S:Jim Coon to CoMandoList TOW
+M:4/4
+L:1/8
+Q:1/8=376
+K:C
+ [D_B,]=B, | "C""C"CC EG [cG][cG] [cG][cG] |\
+ [cG][cG] [_BG]G [cG][cG] [cG][^dG] | [ecG]_B GF EC EC | \
+ "C7"EC [E2B,2] [E2_B,2] [E2B,2] | "F""F"A,F [F2A,2]\
+ [F2A,2] [A2F2A,2] |
+ Gc GF EC FE | "C""C"C2 [c2E2C2] [cEC]A, _B,=B, | \
+ C2 [c2E2C2] [c2E2C2] [c2E2C2] | "G""G"G,_B, =B,G F2 F^F | Gc GF EC EE |
+ "C""C"C2 [c2E2C2] [c2E2C2] _B,=B, | \
+ C2 [c2E2C2] [c2E2C2] [c2E2C2] | "C"[cGG,][cGG,] \
+[cGG,][cGG,] [cGG,][cGG,] [cGG,][cGG,] | [^d2G2G,2] [d2G2G,2] [d2G2G,2] [d2G2G,2] | \
+ [cG]_B GF EC EC | "C7"EC [E_B,][EB,] [EB,][EB,] [EB,][^D/A,/][D/A,/] |
+"F"[^DA,][DA,] [DA,][DA,] [DA,][DA,] [D2A,2] | \
+ G_B GF EC EE | "C"CG, CC EC A,C | G,2 [c2G2] [c2G2] [c2G2] | "G"G,B, DG
+ Bd gb | ge dc BG EE | "C"C2 [c2E2C2] [c2E2C2] _B,=B, | \
+ C2 [c2E2C2] [c3E3C3][c/G/G,/][c/G/G,/] | "C"[cGG,][c/G/G,/][c/G/G,/] [c
+GG,][c/G/G,/][c/G/G,/] [cGG,][c/G/G,/][c/G/G,/] [cGG,][c/G/G,/][c/G/G,/]
+ | \
+ [cGG,][c/G/G,/][c/G/G,/] [cGG,][c/G/G,/][c/G/G,/]\
+ [cGG,][c/G/G,/][c/G/G,/] [cGG,][c/G/G,/][c/G/G,/] | \
+ [GG,][G/G,/][G/G,/] [GG,][G/G,/][G/G,/] [GG,][G/G,/]\
+[G/G,/] [GG,][G/G,/][G/G,/] | "C7"[G_B,][G/B,/][G/B,/] \
+[GB,][G/B,/][G/B,/] [GB,][G/B,/][G/B,/] [GB,][G/B,/][G/B,/] | \
+ "F"[G_B,][FG,] [FG,][^DG,] [DG,]E C[G/B,/][G/B,/] |\
+ "G"[G_B,][FG,] [FG,][^DG,] [DG,]E FE | "C"Cc GF EC B,C | \
+ G,2 [c2E2C2] [c2E2C2] [c2E2C2] | "G"G,_B, =B,G F^F GD | Gc GF EC EC |\
+ "C"EC EC CG, _B,=B, | C2 [c2E2C2] [c2E2C2] [c2E2C2] | \
+ "C"(3ac'c' (3c'c'c' (3c'c'c' (3c'c'c' |\
+ (3c'c'c' (3c'c'c' (3c'c'c' (3c'c'c' | (3c'c'c' (3c'c'c' (3c'c'c' (3c'_bb | \
+ "C7"(3ggg g2 g2 g2 | "F"ff zf ag zg | ag ^de de de |\
+ "C"c_B GF EC (3B,CC | G,2 [c2E2G,2] [c2E2G,2] [c2D2G,2] | \
+ "G""G"G,[gBD] g[gBD] [aBD][g2B2D2]g | \
+[aBD][gBD] ^de de de | "C"[c2G2G,2] [c2G2G,2] [cGG,]G, _B,=B, | \
+ C2 [c2G2G,2] [c2G2G,2] _B,=B, | "C"C2 [c2G2G,2] [c2G2G,2] _B,=B, | C2 [
+c2G2G,2] [c2G2G,2] _B,=B, | \
+ CG, [cG]G, [cG]G, [cG]G, | "C7"[G_B,]G, \
+[GB,]G, [GB,]G, [GB,]G, | "F"^G,A, FA, [F2A,2] [FA,][G/=G,/][G/G,/] | \
+ [GG,][F/G,/][F/G,/] [FG,]^D/D/ D/E/E/E/ EC | "C"[EC]_B,/B,/ B,A,/A,/ A,
+^G,/G,/ G,=G,/G,/ | G,2 [c2G2G,2] [c2G2G,2] [c2G2G,2] | \
+ "G"G,B, DG F2 F2 | Gc GF EC EC | "C"EC EC CG, _B,=B, |\
+ C2 [c2E2C2] [c2E2C2] [c2E2C2] | "C"c2 cc e2 e2 | \
+ ^fg zg c'2 c'2 | e'/c'/z c'/g/z g2 d/e/z | c/_B/z G/E/z D/^D/z c2 | "F"
+[FC][FC] [FC][FC] [FC][FC] DD | \
+ Gc GF EC ^DE | "C"Cc GF EC B,/C/C | G,2 [c2G2G,2] G,G, G,2 | "G"G,B, DG
+ [A2F2] [A2F2] | Gc GF EC ^DE | \
+ "C"C2 [c2E2G,2] [c2E2G,2] [c2E2G,2] |\
+ [c/E/G,/][c/E/G,/][cEG,] [c2E2G,2] [c4E4G,4] | \
+W:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/51716
+S:http://www.mandozine.com/music/TOW.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

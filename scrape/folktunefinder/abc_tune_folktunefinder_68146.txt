@@ -1,0 +1,27 @@
+X:59
+T:Shenandoah (Bullen)
+M:2/4
+L:1/8
+K:Db
+F|\
+AF FF|AF FF|AF EE|F2 E2|F3 E|(FE F2)|
+M:4/4
+L:1/8
+B,2-B,>D F3F|
+M:2/4
+L:1/8
+AF FF|AF FF|AF EE|F2 B,2|
+M:4/4
+L:1/8
+B,2D2 E2F2|C2-C>D D3||
+S:https://www.folktunefinder.com/tunes/68146
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C-sharp
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

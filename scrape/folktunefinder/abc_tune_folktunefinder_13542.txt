@@ -1,0 +1,28 @@
+X: 1
+T: Fast Boat to China
+C: Barbara McOwen 1984
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C|
+L: 1/8
+K: Bm
+BA \
+| "Bm"F2B2 Bcdc | B2f2 f2ec | "A"A2A2 ABcA | "A"edcB "F#m"A2BA \
+| "Bm"F2B2 "A"Bcdc | "G"B2f2 "D"f2fe | "Em"dfeg "F#7"fdec | "Bm"d2B2 B2 :|
+|: de \
+| "Bm"fBgB fedc | "Bm"Bcde f2ed | "A"eAfA edcB | "A"ABcd "A7"e2dc \
+| "D"d2Ad "A"e2Ae | "Bm"fefg "A"agfe | "Em"dfeg "F#7"fdec | "Bm"d2B2 B2 :|
+S:https://www.folktunefinder.com/tunes/13542
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/FastBoatToChina_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/FastBoatToChina_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/FastBoatToChina_Bm.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

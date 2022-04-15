@@ -1,0 +1,23 @@
+X: 6256
+T:Miss Monaghan
+S:Leo Rowsome
+R:reel
+E:6.5
+I:speed 350
+M:C|
+K:D
+{c}AF|{A}D2 ~D2 .FA~A2|GA{c}BG FA~A2|dedB {c}ABde|fedf ecAF|{A}D2 ~D2 .FA~A2|GA{c}BG F.AAB|dedB {c}ABdB|{c}AFEF {A}D2:|
+de|fa~a2 {b}afdf|(3.g.fe fd edBc|dedB {c}ABde|fedf ~e2 de|fa~a2 {b}afdf|(3.g.fe fd edBc|dedB {c}ABdB|{c}AFEF {A}D2:|
+S:https://www.folktunefinder.com/tunes/34167
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

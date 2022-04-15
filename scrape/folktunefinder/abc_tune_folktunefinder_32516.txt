@@ -1,0 +1,29 @@
+X: 2052
+T: Makazice
+R:
+O: Srbija
+B:
+D:
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: G
+|: "G"[d2B][dB][dB] [dB][ec][c2A] | [cA][dB][B2G] [BG][AF][G2D] \
+| [B2G][BG][GD] "D7"[c2A][cA][AD] | "G"[cA][dB][B2G] [BG][AF][G2D] |
+| "G"[BG]z3 "D7"[cA]z3 | "G"[cA][dB][B2G] [BG][AF][G2D] \
+| "G"[BG]z3 "D7"[cA]z3 | "G"[cA][dB][B2G] "fine"[BG][AF][G2D] :|
+K: D
+|: "D"[a2f][af][af] [af][bg][g2e] | [ge][af][f2d] [fd][ec][d2A] \
+| [f2d][fd][dA] "A7"[g2e][ge][eA] | "D"[ge][af][f2d] [fd][ec][d2A] |
+| "D"[fd]z3 "A7"[ge]z3 | "D"[ge][af][f2d] [fd][ec][d2A] \
+| "D"[fd]z3 "A7"[ge]z3 | "D"[ge][af][f2d] [fd][ec][d2A] :|
+S:https://www.folktunefinder.com/tunes/32516
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 3
+P: Delavaird Brig
+R: shottish, strathspey
+B:
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: C
+L: 1/8
+K: D
+(3ABc  \
+| "D"d>e d>B "F#m"c2 F<A | "G"B>A G>B "D"A2 F<D | "Em"G>B (3GFE "D"F>A (3FED \
+|1 "E7"E>^G B>d "A7"c2 :|2 "Em"E>G "A7"F>E "D"D2  ||
+d>e \
+| "D"f>g f>d "F#7"e2 c<e | "Bm"d>e d>B "F#m"c2 A<F | "Em"G>B e>G "D"F>A d>F | "E7"(3E^GB e>d "A7"c>A d>e |
+| "D"f>g f>d "F#7"e>d c<e | "Bm"d>e d>B "F#m"c>B A<c | "Em"B>G (3BAG "D"A>F "B7"(3AGF | "Em"E>G "A7"F>E "D"D2 |]
+S:https://www.folktunefinder.com/tunes/9899
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AnnaHoldensStr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Drumelzier1.abc
+% Rhythm Shottish, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

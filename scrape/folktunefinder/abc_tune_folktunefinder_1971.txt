@@ -1,0 +1,28 @@
+X: 34
+T:Paddy Whak. JMP.034
+M:6/8
+L:1/8
+Q:120
+C:"35"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Jig
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G Major
+G|GBd gfg | edc BcA | GBd efg | fdd d2d |!
+ ecc ceg | dBG A2G |GBd cAc | BGG G2 :|!
+|: c | BdB cde | dBG A2 G | GBd efg | fdd d2 d |!
+geg fdB | cec dBG | GBd cAc | BGG G2 :|]
+S:https://www.folktunefinder.com/tunes/1971
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+P: Ingrid Dardels polska
+R: hambo-polska
+C: Evert Taube
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"F>G A2>>G2 | F>G A4 | "G"G>A B2>>A2 | "Em"G>A B4 | "A7"A>B c>d e>f | (3gfe c2>>B2 | A>B  c>d e>f | "D"ga f4 ||
+|| "D"F>G A2>>G2 | F>G A4 | "G"G>A B2>>A2 | "Em"G>A B4 | "A7"A>B c>d e>f | (3gfe c2>>B2 | A>B  c>d e>f | "A7"(3gfe "D"d4 :|
+|: "G"B>B g2 g>g | B2 g4 | "D"A>A f2 f>f | A2 f4 | "A7"A>B c>d e>f | (3gfe c3 B | A>B c>d e>f | "D"ga f4 ||
+|| "G"B>B g2 g>g | B2 g4 | "D"A>A f2 f>f | A2 f4 | "Em"b>a g>a g>f | "A7"e>d  c3 B | A>A B>B c>c | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/5612
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hambo5.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

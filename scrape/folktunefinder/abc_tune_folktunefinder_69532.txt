@@ -1,0 +1,26 @@
+X:673
+T: "Die Erbfehler"
+N: Z1354
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/8
+K: A
+EE | A2A2cA | e4
+cA | BcBcBc | A2z2
+EE | A2A2cA | e4
+cA | BcBcBc | A4
+cd | e2e2fe | edd2
+ed | ccc2dc | Bee2
+dcB | A2A2cA | fee2
+cA | BcBcBc | A4
+S:https://www.folktunefinder.com/tunes/69532
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

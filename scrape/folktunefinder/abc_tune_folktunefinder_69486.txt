@@ -1,0 +1,26 @@
+X:627
+T: "Kuhreigen"
+N: Z1308
+O: Europa, Mitteleuropa, Appenzell
+N: Die letzten 8 Takte werden auf die Silbe 'do' gesungen.
+R: Handwerker -, Bauern - Lied
+M: 2/4
+L: 1/16
+K: G
+DD | G2G2B2BB | d2edB2BB | d2c2A2AA | B2g2b2
+DD | G2GAB2Bc | d2edB2BB | d2c2A2AA | B4z2
+G2 | A2AAGFED | A2A2GFED | A2A2d4- | d2FAAGEF | D2D2D2z2
+G2G2BABc | d2edB2cB | d2c2A2AA | B2g2b2
+BB | d2c2A2AA | B6
+Bd | c2AcaAce | d2Bbg2Bd | c2AcaAce | d2Bbg2
+db | g4-gdbd | g4-gdbd | gdbdgddb | g4z2
+S:https://www.folktunefinder.com/tunes/69486
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

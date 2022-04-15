@@ -1,0 +1,25 @@
+X:634
+T: MYS LIEB WE DU ZUR CHILCHE THUEST GA
+N: E0584
+O: Europa, Mitteleuropa, Schweiz, Bern
+R: Liebes - Lied
+M: 3/8
+L: 1/8
+K: A
+ | A3 | cde | dcB | AGF | E3
+A3 | Bcd | cde | B3
+A3 | cde | dcB | AGF | E3
+A3 | Bcd | cde | A3
+S:https://www.folktunefinder.com/tunes/79075
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

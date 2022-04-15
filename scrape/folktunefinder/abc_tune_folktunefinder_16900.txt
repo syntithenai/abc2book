@@ -1,0 +1,30 @@
+X: 1
+T: Catchin' Rabbits
+C: Ian Powrie
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+|: A2 | "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beed e2ef |     gefd "A7"edBA |
+|       "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beef gefd | "A7"eAce  "D"d2  :|
+[| ag | "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beed e2ef |     gefd "A7"e2ag |
+|       "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beef gefd | "A7"eAce  "D"d2ag |
+||      "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beed e2ef |     gefd "A7"edBA |
+|       "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beef gefd | "A7"eAce  "D"d2  |]
+S:https://www.folktunefinder.com/tunes/16900
+S:http://trillian.mit.edu/~jc/music/abc/reel/CatchinRabbits.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/CatchinRabbits.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/CatchinRabbits.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/IanPowrie/CatchinRabbits.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/CatchinRabbits.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CatchinRabbits.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

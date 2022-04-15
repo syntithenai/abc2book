@@ -1,0 +1,32 @@
+X: 1
+T: Vallafield
+C: trad Shetland
+R: reel
+N: Learned from Pam Swing, 1984
+Z: John Chambers <jc:trillian.mit.edu>
+B: Tom Anderson "Ringing Strings" 1983
+N: Tom Anderson's notes:
+N: A trowie tune from Unst, heard by a man coming home from visiting a friend.
+N: When he sat down to light his pipe under a rock face he heard music coming
+N: from inside the rock.  Although frightened, he managed to retain the tune
+N: in his head and sang it to his daughter when he got home, and she played
+N: it on her fiddle.
+M: C|
+L: 1/8
+K: C
+G \
+| "C"c2e c2e | "Am"ecA A2A | "G"Bcd dBG |1,3 Bcd dBG :|2,4 "C"c3 c2 :: d | "C"cBA "G7"GAB | dBA B2G |
+| "C"cBA "G7"GAB | "C"cBA "G7"GAB | dBA B2G | dBA B2G | "C"cBA "G7"GAB |"C"c3 c2 :|
+S:https://www.folktunefinder.com/tunes/15229
+S:http://trillian.mit.edu/~jc/music/abc/jig/Vallafield_C32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j32/Vallafield_C32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Vallafield_C32.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

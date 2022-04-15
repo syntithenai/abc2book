@@ -1,0 +1,27 @@
+X:461
+T:46. BOBBY SHAFTOE (32 bar reels)
+M:4/4
+L:1/8
+Q:1/4=150
+R:Reel
+O:FTB2, No. 52
+K:D
+P:A
+|:"D"d2 dg fafd|"A"A2 Ad cecA|"D"d2 dg fafd|"G"eg"A"ec "D"d2d2 :|
+P:B
+|:"D"fafd ea a2|"A7"egec eg g2|"D"fafd fa a2|"G"eg"A"ec "D"d2d2 :|
+P:C Key Change!
+K:G
+|:"G"G2 BG BdBG|"Am"EAAG "D"FAFD|"G"G2 GB BdBG|"C"Ac"D"AF "G"G2G2 :|
+P:D
+|:"G"gddc BdBG|"Am"EAAG "D"FAFD|"G"gddc BdBG|"C"Ac"D"AF "G"G2G2 :|
+S:https://www.folktunefinder.com/tunes/51920
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set46.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

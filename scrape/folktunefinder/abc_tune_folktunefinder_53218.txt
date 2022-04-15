@@ -1,0 +1,25 @@
+X:4
+T:5. Lachrim\ae Coact\ae
+T:Tenor.
+C: John Dowland
+O: From Lachrim\ae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+N: Original clef, C on third line
+K:Amin -8va
+%%MIDI transpose -12
+c3 B c d e2 f2 z e e > d c > c B4 A c2 c c4 A4 z A B2 G2 A4 d2 d3 c B e2 d/ c/ B A B2 A8 ||
+B4 B2 B2 ^c3 c ^F2 B2 E4 e2 c d e d/ c/ B c d2 c > B A e A2 A4 z d e2 d3 B B6 B2 B8 ||
+g2 f2 e2 d2 c3 B/ A/ B3 B c3 B A2 B2 c2 d3 c B2 A2 d e f e2 d/ c/ d2 d2 c > d e3 B c d2 c B2 HA8 |]
+S:https://www.folktunefinder.com/tunes/53218
+S:http://www.laymusic.org/music/dowland/coactae/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

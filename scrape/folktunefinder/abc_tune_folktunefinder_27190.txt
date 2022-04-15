@@ -1,0 +1,36 @@
+X:6738
+T:The Enchanted White Duck
+O:england
+R:song
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:  A little boy is changed by draoidheacht or enchantment into a white duck,
+H:and in this disguise he is killed and eaten by his own family.  Our servant
+H:Biddy Hickey used to tell the whole story, sometimes reciting, sometimes
+H:singing, sometimes chanting in a monotone: but it has all faded from my
+H:memory except the following weird little fragment with its tune, which took
+H:strong hold of my childhood fancy.
+H:  The English folk-tale called "The Story of Orange" (for which see "Journ.
+H:of the Folk-Song Soc.", Vol. II, p. 295) corresponds with this, and some
+H:versions of the words come very close to the verse I give here.  But there
+H:is nothing in the English air that in the least resembles our Irish tune.
+W:My mamma cut me and put me in the pot;
+W:My dada said I was purty and fat;
+W:My three little sisters they picked my small bones
+W:And buried them under the marble stones.
+L:1/8
+M:6/8
+K:Bb
+G/A/|B3 G A F|D G G G2 G/A/|B3 A G F|D F F F2 D|
+G G A B B c|d e d d2 c|B A G D =E F|G2 G G2||
+S:https://www.folktunefinder.com/tunes/27190
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

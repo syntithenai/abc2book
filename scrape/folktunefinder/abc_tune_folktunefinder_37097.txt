@@ -1,0 +1,28 @@
+X:5090
+T:Reinlendar
+C:e. Jens Mausset / Einar Espe
+M:2/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Norway
+R:Reinlnder
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b69.html
+%%ID:00000b69
+K:D
+[A,8D8A8e8]|]\
+(uFA)d(e f)(^ga)b | a2f2 a4 | (^g2e2) =g3e | f2d2 f4 |
+(FA)d(e f)(^ga)b| a2f2 a4 | (^g2e2) (af=g)e | d2d2 d2z2 ::\
+[(uG,2D2]g2) (ge)(ce)| {e}g2(ef) d2(FG) |
+ABcd efga | (ba)(^ga) f>ef2 |\
+[(G,2D2]g2) (ge)(ce)| {e}g2(ef) d2(FG) | ABcd efge | d2d2 d3z:|
+S:https://www.folktunefinder.com/tunes/37097
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reinlnder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:195
+T: SIE LEGTEN IHN AUF EINEN TISCH
+N: E0100B
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 6/8
+L: 1/16
+K: G
+d2 | _B4A2G4=F2 | G4A2_B4
+d2 | _B4A2G4=F2 | G4A2_B4
+Bc | d2d2d2d2_e2d2 | d6c4
+A_B | c4c2c2d2c2 | c6_B4
+BA | G4dc_B3cAB | G4z6
+S:https://www.folktunefinder.com/tunes/78636
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

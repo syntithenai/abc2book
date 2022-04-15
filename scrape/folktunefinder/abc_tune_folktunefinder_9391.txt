@@ -1,0 +1,28 @@
+X: 1
+P: Kehruvalssi (Spinning Waltz)
+R: waltz
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: G
+|: "G"d2d | e2B | "D7"d2c | c3 \
+| "A7"a2g | f2e | "D7"e2d | "G"B3 |
+| "G"g2B | B2c | "D7"B2A | A3 \
+| "D7"f2e | d2F | A2G | "G"G3 :|
+|: "B7"B2B | c2B | "Em"e2f g2e \
+| "A7"a2g f2e | "D7"e3 | d3 |
+| "G"g2B | B2c | "D7"B2A | A3 \
+| "Am"e^df | ecA | "D7"A2G | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/9391
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals17.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

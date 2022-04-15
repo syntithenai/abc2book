@@ -1,0 +1,33 @@
+X:65
+T:Murphy's Hornpipe
+R:hornpipe
+D:Padhraic MacMathuna: Blas na Meala
+D:Frankie Gavin & Alec Finn
+Z:id:hn-hornpipe-65
+M:C|
+K:D
+(3ABc|:d2AF d2AF|dcdf ecAg|f2df gfed|c2A2 AB (3cBA|
+d2AF d2AF|dcdf ecAg|fa~a2 bgec|1 d2 (3edc d2 (3ABc:|2 df (3edc defg||
+afdg fa~a2|bged ceag|fa~a2 bged|c2A2 A2 (3efg|
+afdg fa~a2|bged ceag|fa~a2 bgec|d2dc defg|
+afdg fa~a2|bged ceag|fa~a2 bged|c2A2 A2 (3ABc|
+d2AF d2AF|dcdf ecAg|fa~a2 bgec|d2 (3edc dBAG||
+|:(3FGF Dg fdec|dcdf ecAG|FADg fdec|df (3edc dBAG|
+(3FGF Dg fdec|dcdf ecAg|fa~a2 bgec|1 df (3edc dBAG:|2 df (3edc dfag||
+~f3d ~g3e|f2df ecAg|fAdf gfed|c2A2 A2AG|
+(3FED AD BDAD|dcdf ecAg|fa~a2 bgec|d2dc dfag|
+~f3d ~g3e|f2df ecAg|fAdf gfed|c2A2 A2 (3ABc|
+dcdf edeg|fefa ~g3b|agba gfec|(3ded fe d2||
+S:https://www.folktunefinder.com/tunes/50617
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnhp0.abc
+S:http://www.norbeck.nu/abc/i/hnhp0.abc
+S:http://www.firepowr.com/abc/Norbeck_hnhp0.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

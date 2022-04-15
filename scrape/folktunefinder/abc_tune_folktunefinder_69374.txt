@@ -1,0 +1,25 @@
+X:515
+T: "Verdacht"
+N: Z1195
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Liebes - Lied, verlassene Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2A2 | B3AB2B2 | c2B2A2G2 | A4z2
+D2 | G3FG2A2 | B3AB2B2 | c2B2A2G2 | A4z2
+B2 | A3BA2D2 | D3ED2A2 | A3BA2D2 | D3ED2
+D2 | G2G2A2A2 | B3cd2c2 | B2B2A2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/69374
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, verlassene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

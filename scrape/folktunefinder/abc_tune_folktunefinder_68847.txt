@@ -1,0 +1,28 @@
+X:301
+T: Der trunkene Bruder
+N: A0345
+O: Europa, Mitteleuropa, Deutschland
+N: Reutterliedlein 1535 No. 17.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: D
+D2 | DE=FGA2A2 | A4B2=c2- | c2BAB2B2 | A4z2
+d2 | d2d2=c4 | d2=f4ed | e4d2
+D2 | DE=FGA2A2 | A4B2=c2- | c2BAB2B2 | A4z2
+d2 | d2d2c4 | d2=f4ed | e4d4
+z2=f2e3d | =c2B2A2c2 | d2e3dd4c2 | d4z2
+A2 | A2A2A2A2 | B4A4 | z2A2A2A2 | =c4z2
+c2 | =c2c2G4 | z2G2G2G2 | B3=cd4 | A4z2
+=f2 | =f2f2e2d2 | e4d2
+S:https://www.folktunefinder.com/tunes/68847
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

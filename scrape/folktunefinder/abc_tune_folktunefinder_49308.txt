@@ -1,0 +1,31 @@
+X:29
+T:The Spaniard
+M:6/8
+L:1/8
+K:G
+%P:
+%Q:350
+V:1
+%
+V:1
+"G" G3 D3 | "Em" B3 G3 | "Am" BAB "C" c2 A | "Em" B3 G3 | "Bm" d3 c3 | "Am" B3 A3 | "C" G3 "D" A2 F | "G" G3-G3 :|
+|: "Em" b3 bag | "Am" a2 f "Em" g2 e | "G" d3 dcB | "D" c2 A "Em" B2 G | "Bm" b3 bag | "Am" a2 f "Em" g2 e | "G" d3 dcB | "D" c2 A "G" G3 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.6
+%%maxshrink 1
+%
+S:https://www.folktunefinder.com/tunes/49308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

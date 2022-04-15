@@ -1,0 +1,27 @@
+X:28
+T: WIE IST DOCH DIE ERDE SO SCHOEN
+N: B0515
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | G,2E,2G,2E2D2C2 | B,4A,2C4
+A,2 | G,3F,E,2D,2E,2F,2 | E,8z2
+E,2 | E,3F,E,2C4B,2 | B,6A,4
+A,2 | G,3A,G,2E4D2 | D6C2
+G,2G,2 | A,4B,2D3CB,2 | A,6A,2
+C2A,2 | G,2C2E2D2A,2B,2 | C8z2
+S:https://www.folktunefinder.com/tunes/62051
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

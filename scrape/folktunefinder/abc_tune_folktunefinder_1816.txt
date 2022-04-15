@@ -1,0 +1,20 @@
+X:8
+T:8 Fac, ut ardeat cor meum
+T: due
+M:C|=2/1
+L:1/4
+%%staves s | a | {1 2 3 4}
+Q:"Allegro"
+K:Gm
+V:s name=Sopran dyn=up
+d4e4|d3B(cA)(dc)|B2G2(gf)(=ed)|
+S:https://www.folktunefinder.com/tunes/1816
+S:http://moinejf.free.fr/abc/stabat.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

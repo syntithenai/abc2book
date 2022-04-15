@@ -1,0 +1,24 @@
+X:210
+%%topmargin 3cm
+T:Inverary Castle
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D mixolydian
+E | B,E E2 B,E {EF}GE | B,EEF GA B2 | B,E E2 B,E GE | DB,G,A, B,DD || z | GA Be dBBA | GA Be Be e2 |
+GA Be dB Be | dAFD FA A2 | GA Be dBBA | GA Bf g/f/e/d/ ef | gB AG FEDC | B,G, B,G, B,DD |]
+S:https://www.folktunefinder.com/tunes/71239
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Inverary_Castle.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0210.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

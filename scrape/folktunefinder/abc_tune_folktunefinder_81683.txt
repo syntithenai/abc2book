@@ -1,0 +1,88 @@
+X: 9
+T: Pop Wernowski's Prince of Wales Schottische
+M: 4/4
+L: 1/8
+Q:1/4=180
+K:G % 1 sharps
+% Pop Wernowszki's PoW
+% (c) SSF February 2006
+% Collected from Cyril & Carol Wernawski
+V:1
+B2 B2 B3/2 (3AGFE/2| \
+D3/2D<DD<DB,<DG/2| \
+F3/2F<FF<FD<EF/2| \
+G2 G2 G3A|
+B2 B2 B3/2 (3AGFE/2| \
+D3/2D<DD<DB,<DG/2| \
+F3/2F<FF<FD<EF/2| \
+G2 G2 G2 B,3/2C/2|
+D3/2B,<G,B,<DB,<G,B,/2| \
+C2 E2 E2 F3/2G/2| \
+A2 D2 A2 D2| \
+A3/2G<FE/2 D2 B,3/2C/2|
+D3/2B,<G,B,<DB,<G,B,/2| \
+C2 E2 E2 F3/2E/2| \
+% \b\q 11 2 33 
+D3/2E<FG<AD<
+EF/2| \
+G2 G2 G2 z2|
+B2 B2 B3/2 (3AGFE/2| \
+D3/2D<DD<DB,<DG/2| \
+F3/2F<FF<FD<EF/2| \
+G2 G2 G3A|
+B2 B2 B3/2 (3AGFE/2| \
+D3/2D<DD<DB,<DG/2| \
+F3/2F<FF<FD<EF/2| \
+G2 G2 G2 B,3/2C/2|
+D3/2B,<G,B,<DB,<G,B,/2| \
+C2 E2 E2 F3/2G/2| \
+A2 D2 A2 D2| \
+A3/2G<FE/2 D2 B,3/2C/2|
+D3/2B,<G,B,<DB,<G,B,/2| \
+C2 E2 E2 F3/2E/2| \
+% \b\q 11 2 33 
+D3/2E<FG<AD<
+EF/2| \
+G2 G2 G2 
+V:2
+G,z [dBG]z G,z [dBG]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]z|
+G,z [dBG]z G,z [dBG]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]z|
+G,z [dBG]z G,z [dBG]z| \
+C,z [GEC]z C,z [GEC]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [E^CA,]z D,z [AFD]z|
+G,z [dBG]z G,z [dBG]z| \
+=C,z [GEC]z C,z [GEC]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]z|
+G,z [dBG]z G,z [dBG]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]z|
+G,z [dBG]z G,z [dBG]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]z|
+G,z [dBG]z G,z [dBG]z| \
+C,z [GEC]z C,z [GEC]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [E^CA,]z D,z [AFD]z|
+G,z [dBG]z G,z [dBG]z| \
+=C,z [GEC]z C,z [GEC]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [GEC]z G,z [dBG]
+%  <A name="D1X10">
+S:https://www.folktunefinder.com/tunes/81683
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

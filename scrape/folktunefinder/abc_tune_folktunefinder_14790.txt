@@ -1,0 +1,22 @@
+X: 1
+T: O'er the Water to Charlie
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A | "D"D>FA     AFA | "G"{Bc}d2F "A7"E2D | "D"D>FA     AFA | "G"BAB "D"def \
+     | "D"D>FA     AFA | "G"Bcd      "D"AFD | "D"d>fd "A7"ecA | "G"B3  "D"d2 :|
+|: A | "D"d>fd "A7"ecA | "G"{Bc}d2F "A7"E2D | "D"d>fd "A7"ecA | "G"B3  "D"d2A \
+     | "D"d>fd "A7"ecA | "G"B<d-d   "A7"FED | "D"D>FA     AFA | "G"B3  "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14790
+S:http://trillian.mit.edu/~jc/music/abc/jig/OerTheWaterToCharlieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/OerTheWaterToCharlieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OerTheWaterToCharlieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OerTheWaterToCharlieJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

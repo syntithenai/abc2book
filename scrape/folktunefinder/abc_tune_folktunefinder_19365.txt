@@ -1,0 +1,25 @@
+X: 1
+T: the Glen Tromie Strathspey
+C: William Marshall
+Z: John Chambers <jc:trillian.mit.edu>
+N: Marshall's v.1, p.45
+M: 4/4
+L: 1/8
+K: C
+e/f/ | "C"g-<c "(G7)"e>d "C"c3 e/f | g-<c a>c "G7"B-<d de/f/ \
+     | "C"g-<c "(G7)"e>d "Am"c2- c/B/A/G/ | "F"A/B/c/A/ "G7"B/c/d/B/ "C"Gc c :|
+G/F/ | "C"E>c Gc Ec Gc | "Am"e>d c/d/e/c/ "G7"dD DG/F/ \
+     | "C"E>c Gc Eg ec | "F"A>f "G7"dB "C"ec c |]
+G/F/ | "C"E>c Gc Ec Gc | "D7"e>d c/d/e/c/ "G7"dD DG/F/ \
+     | "C"E>G cE "Dm"FA df | "G7"e/f/g/a/ g/f/e/d/ "C"ec c |]
+S:https://www.folktunefinder.com/tunes/19365
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlenTromieS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/GlenTromieS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlenTromieS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:586
+T: "Ringelreigen"
+N: Z1266
+O: Europa, Mitteleuropa, Deutschland
+R: Natur und Welt
+M: 6/8
+L: 1/8
+K: F
+F | F2FA2A | c3c2
+c | c2cd2d | c3A2
+F | F2FA2A | c3c2
+c | c2cd2d | c3e2
+e | f2fe2d | c3A2
+A | c2cd2d | c3B2
+B | A2AG2G | F2z3
+S:https://www.folktunefinder.com/tunes/69445
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

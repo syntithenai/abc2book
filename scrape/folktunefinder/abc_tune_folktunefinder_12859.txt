@@ -1,0 +1,21 @@
+X: 8
+P: Calliope House
+C: D.Richardson
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+|: zB | "E"eBB gBB | "B7"fBB "E"gBB | "F#m"cff f2e | "B"fge cec | "E"BcB B2G | B2c e2f |
+     |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |: ga | "E"b3 gbb | "B7"fbb "E"[ge]bb | "A"a3 gag |
+     | "B7"fgf fec | "E"BcB B2G | B2c e2f |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |]
+S:https://www.folktunefinder.com/tunes/12859
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

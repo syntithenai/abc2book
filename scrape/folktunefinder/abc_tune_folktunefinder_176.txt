@@ -1,0 +1,23 @@
+X: 4
+T: La Bastringue des m\'en\'etriers
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed copy from Debby Knight
+M: C|
+L: 1/8
+K: D
+A \
+| d2D2 DFAd | c2B2 Bdef | g3A Acea | f2d2 dABc | d2D2 DFAd |
+| c2B2 Bdef | ggfg bgec | d2f2 d3 :: A | d2dc defg | a4- a3f |
+| gbge fbfd | Bgec (3BcB (3ABc | d2dc defg | a4- a3f | gbge fbfd | Bgec d3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/176
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJnew.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

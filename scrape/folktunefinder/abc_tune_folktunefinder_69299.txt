@@ -1,0 +1,24 @@
+X:440
+T: "Erhebung"
+N: Z1120
+O: Europa, Mitteleuropa, Deutschland
+R: religioeses Lied
+M: 4/4
+L: 1/8
+K: A
+A2A2=G2=c2 | BAB2A4
+A2=c2d2c2 | d2e2=c4
+c2d2e2c2 | d2=cBA4
+A2A2=G2c2 | BAB2A4
+S:https://www.folktunefinder.com/tunes/69299
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

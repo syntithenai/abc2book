@@ -1,0 +1,26 @@
+X:60
+T:Ballydesmond Polkas
+R:polka
+Z: two polkas played as one 4-part polka
+M:2/4
+L:1/8
+K:G
+|:"Am"EA AB|cd e2|"G"G>F GA|GE ED|
+"Am"EA AB|cd e>f|"G"ge dB|"Am"A2 A2:|
+|:a>g ab|ag "D"ef|"G"g>f ga|ge ed|
+"Am"ea ab|ag "D"ef|"G"ge dB|"Am"A2 A2:|
+"Am"cd/c/ "G"Bc/B/|"F"AB/A/ "Em"G>A|"G"B/c/d "D"ed|"G"g3d|
+"Am"ea ge|"G"dB GA/B/|"Am"ce "G"dB|"Am"A2 A2:|
+|:ea ag/e/|"G"dg gd|"Am"ea ab|"G"g>f gd|
+"Am"ea ge|"G"dB GA/B/|"Am"ce "G"dB|"Am"A2 A2:|
+S:https://www.folktunefinder.com/tunes/50735
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfpolk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

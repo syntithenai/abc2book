@@ -1,0 +1,49 @@
+X: 1
+T: Sher 5 (Russian)
+O: Harry Kandel 1917
+B: Mel Bay Klezmer Collection
+N: "Harry Kandel - Russian Sher" Global Village 128
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|:"Am"A2a2 ~e2d2 | ~d2 c4 ~B2 | A2a2 ~e2d2 | ~d2 c4 A2 \
+| "C"g3a _baga | _bagf e2d2 | "E7"cdec d2cB | "Am"A8 :|
+"B"\
+|:"Am"a4- a2e2 | a4- a2e2 | a3e a3e | a3e a4 \
+| {b}c'2c'2 ~b2a2 | {b}c'2c'2 ~b2a2 | e'4 ~d'2c'2 |  bc'd'c' ~b2a2 |
+| {b}c'2c'2 ~b2a2 | "Dm"^gaba ~g2f2 | "E7"e^def e=dcB |1 "Am"A3B cd (3ef^g :|2 "Am"A8 \
+"C"\
+|:"C"c4 d4 | e2 c4 c2 |
+| "F"f3e f2a2 | "C"a2 {g}g6 \
+| g3a _baga | _bagf ~e2dc \
+| "E7"cdec d2cB |1 "Am"A2Bc defa :|2 "Am"A8 |]
+"D"\
+|:"Am"a4- ag^fg | a6 e2 \
+| aeae c'2ba | .a4 z4 \
+| "C"gaag gaag | c'bag fedc \
+| "E7"cddc cBBA | "Am"A8 :|
+"E"\
+|:"Dm"d'aad' d'c'c'b | "C"c'ggc' c'bba | "G7"abc'd' c'bab | "C"c'8 \
+| "Dm"d'aad' d'c'c'b | "C"c'ggc' c'bba |
+| "E7"abc'd' c'bba | "Am"a8 :| \
+"F"\
+|:"Am"a4- ae^de | "Am"a4- ae^de \
+| ae^de ae^de | ae^de a4 |
+| "C"ga_ba gfed | "Dm"dgdg d4 \
+| "C(G7)"cdec "G7"d2cB | "C"c4 kc'2z2 \
+| "C"ga_ba gfed | "Dm"dgdg d4 |
+| "E7"eddc cBBA | "Am"A8 :| \
+S:https://www.folktunefinder.com/tunes/7321
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Sher5_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/Sher5_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/sher/Sher5_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Sher5_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

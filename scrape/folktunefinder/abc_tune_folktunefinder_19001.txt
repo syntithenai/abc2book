@@ -1,0 +1,17 @@
+X:1
+T: Sur le pont d'Avignon
+M:2/4
+L:1/8
+K:F
+% --- end of header ---
+FF F2 | GG G2 | ABcF | EFGC |
+FF F2 | GG G2 | ABcF | GE F || F |
+FF FF | G2 FF | FFFF | G2 F2 |]
+S:https://www.folktunefinder.com/tunes/19001
+S:http://trillian.mit.edu/~jc/music/abc/song/SurLePontDAvignon_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

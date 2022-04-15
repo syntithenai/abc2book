@@ -1,0 +1,33 @@
+X:6
+T:Johnie Cope
+S:Charles Maclean, Collection of Favourite Scots Tunes, pub. Neil Stewart, c.1770
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2001-10-21
+L:1/16
+M:C|
+K:Gmin
+ G4      (GABc)     d2G2    (AG)(FD)|   F4      (FGAB)    c2F2    AGFD |\
+ G4      (G2Bc)     d2G2     A2GF   |   F2f2    (dc)(BA)  G4      G4  :|
+ B4       B2B,2    (Bc)(d=e) f4     |   A2GF     F2c2    (AB)(cA) A2G^F|\
+ G2B2A2c2           B2d2    (A2GF)  |   F2f2     dcBA     G4      G4  :|
+ G2G,2    GABc      dcBA     BGFD   |   F2C2     FGAf     cAfc    A2GF |\
+ G2FE     DCB,A,    G,A,B,C  D2CB,  |   CDFG     FDCA,    G,4     G,4 :|
+ g4     (Tg2fg)     a2g2    (ag)(fd)|   f4       f3g      a2gf    f2a2 |\
+ g4     (Tg2fg)     a2f2g2d2        |[1 f2c2    (dc)(BA)  G4      G4  :|\
+                                     [2 F2C2     DCB,A,   G,4     G,4 ||
+ GFGA    (GA)(Bc)  (de)(dc) (BA)(BG)|  (AF)(cF) (dF)(cF) (Ac)(fc) A2GF |\
+(Bc)(BA) (G^F)(GD) (GA)(Bc) (dc)(dB)|   cdfg     fdcA     G4      G4  :|
+ gdgb     gdgb      GBdg     bgdB   |   fcfa     fcfa     FAcf    afcA |\
+(dB)(df) (cA)(cf)  (BG)(Bd) (AF)(Ac)|   dBcA     BGAF     G4      G,4 :|
+S:https://www.folktunefinder.com/tunes/17457
+S:http://trillian.mit.edu/~jc/music/abc/reel/JohnieCope_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JohnieCope_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JohnieCope_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

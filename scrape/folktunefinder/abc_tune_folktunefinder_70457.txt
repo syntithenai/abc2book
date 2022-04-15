@@ -1,0 +1,28 @@
+X:327
+T: Plauderei an der Linde (67), S. 200
+N: T0216
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Burglinster, fff M. Lemmer, 7.1.1914
+R: Liebeslieder]
+M: 2/4
+L: 1/8
+K: G
+z2DD | G2B2 | B2AG | A2
+DF | A2c2 | c2B2 | z2
+dd | B2d2 | edcB | c2
+cc | A2c2 | dcBA | B2
+GB | d2BG | A2G2
+S:https://www.folktunefinder.com/tunes/70457
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

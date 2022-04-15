@@ -1,0 +1,37 @@
+X:85
+T:Dance of the Vugs
+A:Leeds
+C:Alan Dawson
+M:7/8
+O:England
+Z:Richard Robinson 
+%%Copyright:Alan Dawson
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000074a.html
+%%ID:0000074a
+K:D mixolydian
+c2c2 | \
+A^c^d e2e2 | e=d=c A2A2 | \
+GAB dcBA | GAB c2c2 | \
+A^c^d e2e2 | e=d=c A2A2 |\
+GAB dcBA | GAB c2c2|
+A^c^d e2e2 | e=d=c A2A2 | \
+GAB dcBA | GAB c2c2 | \
+A^c^d e2e2 | e=d=c A2A2 | GAB dcBA ||
+G2G GFED | EFA G2F2 |\
+EEE G2 F2 | DDD G2 F2 | EEE D2D2|\
+DEF GFED | EFA G2F2 |
+EEE G2F2 | DDD G2F2 | EEE D2D2 |\
+DEF GFED | EFA G2F2 | \
+EEE G2F2 | DDD G2F2 | EEE D2D2 |
+DEF GFED | EFA G2F2 | \
+EEE G2F2 | DDD G2F2 | EEE D2D2 ||\
+"DC"DE=F ||
+S:https://www.folktunefinder.com/tunes/43882
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

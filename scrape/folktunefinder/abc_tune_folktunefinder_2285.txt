@@ -1,0 +1,25 @@
+X: 1
+T: Country Garden(s)
+P: A(A2B2C2B2)2
+M: C|
+L: 1/8
+K: C
+P: A
+[| g2  g>f e2 e2 | d2  d>c B2 B>c |  d2 G2 A2 c2 | B3A G4 |]
+P: B
+[| g>a g>e f2 d2 | g>a g>e f4     | g2 g>f e2 a2 | f3e d2 B>c |
+|  d2  g>f e2 e2 | d>e d>c B2 B>c | d2 G2  A2 c2 | B3A G4 |]
+P: C
+[| G2  c2 c2  e2 | d>e d>c B2 B>c | d2 G2  A2 c2 | B3A G4 |]
+S:https://www.folktunefinder.com/tunes/2285
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtut_Repeats.html
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtutorial-old.html
+S:http://trillian.mit.edu/~jc/doc/abc/ABCtut_Repeats.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

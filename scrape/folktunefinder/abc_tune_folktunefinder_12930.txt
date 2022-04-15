@@ -1,0 +1,25 @@
+X: 8
+T: Farewell to Whiskey
+N: Niel Gow, ** many versions**
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+M: 4/4
+L: 1/8
+K: G
+|: GE \
+| "G"D2G2 B2AG | "Am"A2E2 E3G | "G"D2G2 B2AG | "Bm"d2B2 B3d \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2 G2 :|
+|: Bc \
+| "G"d2B2 g2B2 | "Am"cBAG "D7"A2Bc | "G"d2B2 g2d2 | "C"e2g2 g3d \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2 G2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12930
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

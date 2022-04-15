@@ -1,0 +1,22 @@
+X: 1
+T: the Countrey Coll
+M:6/8
+L:1/8
+%Q:110
+R:Jig
+K:G
+g2d gdG | B>cd e2d | efg fga | dge f2d || e3 d2B | cde d2B | gd2 B>cd | gd2 B>cd | Aa2 b2g ||
+S:https://www.folktunefinder.com/tunes/14052
+S:http://trillian.mit.edu/~jc/music/abc/jig/CountreyColl.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/CountreyColl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CountreyColl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/CountreyColl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

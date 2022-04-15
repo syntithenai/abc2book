@@ -1,0 +1,27 @@
+X: 1
+T: Teelin Polka No. 1
+Z: Paul de Grae  irtrad-l 2000-9-04
+N: Paul wrote:
+N: At a house session back in 1988,  Nicky  McAuliffe  and  Dermot  McLaughlin
+N: played  this  tune  and referred to it as a polka - not a Kerry one either,
+N: it's one of a pair that they called  the  "Teelin  Polkas"  (Teelin  is  in
+N: Donegal).
+M: 2/4
+L: 1/8
+K: D
+AF A>B | AG G/F/E/d/ | cE c>B | Ad/e/ f/e/d/B/ \
+| AF A>B | AG G/F/E/d/ | cE c/d/c/B/ |1 A/F/G/E/ Dd/B/ :|2 A/F/G/E/ D/E/F/G/ |
+|: Af f>d | ed d/c/B/c/ | Bf g>f | e/d/c/B/ A/G/F/G/ \
+| Af f>d | ed dA/d/ | cE c>B | A/F/G/E/ D/E/F/G/ :|
+S:https://www.folktunefinder.com/tunes/13342
+S:http://trillian.mit.edu/~jc/music/abc/air/TeelinPolkaNo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/TeelinPolkaNo1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 1
+T: Vals e. Roligs Per - Leksand
+R: vals
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+Z: from 1983 transcription Bob Werner, Susan Godfrey
+Z: from LP Leksands l\aatar
+M: 3/4
+L: 1/8
+K: Ador
+"A"\
+|: AB \
+| "Am"c2 cB AB |     c2 cB Ac | "E"B2 E^G BG | "Am"A4 Ac \
+|     ef ed ef | "Em"g2 gf ed | "D"f2 fg  fd |  "E"e4 :|
+"B"\
+|: e2 \
+|  "C"e2 c2 ec |     c2 ec eg | "D"f2 d2  fd |     d2 fd fa \
+| "Em"ga gf ed | "Am"cd cB Ac | "E"B2 E^G BG | "Am"A4 :|
+"C"\
+|: e2 \
+| "Am"e2 c2  A2 | AB A^G Ac | "E"B2 E2  E2 | "Am"C4 A,2 \
+|     AB A^G AB | c2 ed  cB |1,3 "E"c2 B2  B2 |     B4 \
+                           :|2,4 "E"B2 E^G BG | "Am"A4 :|
+"D"\
+|: e2 \
+| "Am"a3 b a^g |  "E"e4   AB |     cd cB A^G | "Am"A4 E2 \
+|     CD EF GA | "Dm"B3 A A2 | "Am"AB cd ef  |  "E"e4 e2 |
+| "Am"a3 b a^g | "E"e4 AB |    cd cB A^G | "Am"A4 e2 \
+|     a2 ed cB | ed cB Ac | "E"B2 E^G BG | "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/20278
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_RoligsPer_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_RoligsPer_Am.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

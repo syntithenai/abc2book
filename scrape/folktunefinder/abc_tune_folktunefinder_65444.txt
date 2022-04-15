@@ -1,0 +1,30 @@
+X: 22
+T:Bill Charlton's Fancy
+% Nottingham Music Database
+S:Billy Pigg, via EF
+M:6/8
+K:G
+P:A
+(3d/2e/2f/2|"G"g2G f2G|e2G d3|"G"DGB dBG|"D"DFA c3|"D"aAc g2A|
+"D"f2A e3|"D7"d^cd e2=c|"G"Bdg B2d|"G"gGB f2G|e2G d3|"G"DGB dBG|
+"C"ecA E3|"C"ecG EGc|"G"gdB GBd|"D7"fed ^cdF|"G"GBd g2:|
+P:B
+(3d/2e/2f/2|gGB fGB|eGB dGB|eGB dGB|cAF DFA|
+aAc gAc|fAc eAc|d^cd ^de=c|Bdg B2d|
+gGB fGB|eGB dGB|eGB dGB|"C"ecA E3|
+"C"ecG EGc|"G"gdB GBd|"D7"fed ^cdF|"G"GBd g2:|
+P:C
+d|bGB aBG|gGB fGB|eGB dGB|cAF DFA|
+aAc gAc|fAc eAc|d^cd ^de=c|Bdg B2d|
+bGB aBG|gGB fGB|eGB dGB|"C"ecA E3|
+"C"ecG EGc|"G"gdB GBd|"D7"fed ^cdF|"G"GBd g2:|
+S:https://www.folktunefinder.com/tunes/65444
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

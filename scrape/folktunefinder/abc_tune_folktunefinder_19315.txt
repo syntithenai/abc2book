@@ -1,0 +1,24 @@
+X: 1
+T: the Duchess of Manchester
+R: strathspey
+S: unknown printed MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+   C2 | FF3 F3F A3F A2c2 | df3 c3A {A}G4 G3A | FF3 F3F A3F A3c2 | df3 c3A F4 F2 :|
+|: c2 | f3g a2g2 agfd c2f2 | df3 c3A {A}G4 G3c | f3g a2g2 agfd c2f2 | df3 c3A {A}F4 F2 :|
+|: A2 | C2F2 A,2F2 C3F B2d2 | cA3 F3A {A}G4 G3A | C2F2 A,2F2 C3F B2d2 | cA3 f3A F4 F2 :|
+   c2 | f3g {fg}a3g agfd c2f2 | c3d f3a g4 g3a | f3g {fg}a3g agfd c3f | df3 c3A {A}F4 F3 |
+   c  | f3g {fg}a3g agfd c2f2 | c3d f3a g4 g2fg | a3f agfe f3c df3 | c3B A3G F4 F2 |]
+S:https://www.folktunefinder.com/tunes/19315
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DuchessOfManchester_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DuchessOfManchester_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:140
+T: Calendar
+T: F\'eilire (An)
+S: B.Breathnach: "Ceol Rince na hEireann" II/32
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: D
+F|: EFE EFA|BAB d2d|DED DFA|BAG FED|
+EFE EFA|BAB d2e|fef d2B|BAG FED :|
+e2B BAF|ABc dcd|Bee Bee|BAG FED|
+e2B BAF|ABc def|edc d2B|BAG FED :|
+BEE BEE|BEB d2A|BEE BEB|BAG FED|
+BEB BEB|BEB d2e|fef d2B|BAG FED :|
+EEE FFF|GGG F3|DFA d2A|BAG FED|
+EEE FFF|GGG FFF|DFA dfe|dAG FED :|
+S:https://www.folktunefinder.com/tunes/80610
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

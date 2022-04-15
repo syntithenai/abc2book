@@ -1,0 +1,21 @@
+X: 4
+P: Johan Skators polska
+O: Johan Skator, N\aas
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+R: 3/4
+L: 1/8
+K: A
+|: "A"E2 A2 c2 | ef e<d c2 | "E7"d2 BA B>d | "A"c2 A2 E2- \
+|  "A"E2 A2 c2 | ef e<d c2 | "E7"d2 BA B>d | "A"c2 A4 :|
+|: "A"[e2A2] a2 gf | e2 ag e2 | "E7"ef df/e/ cd | (3BGB "A"A2 E2 \
+|  "A"[e2A2] a2 gf | e2 ag e2 | "E7"ef (3dfe cd | BG/B/ "A"A4 :|
+S:https://www.folktunefinder.com/tunes/9063
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Nasfora1.abc
+% Rhythm 3/4
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

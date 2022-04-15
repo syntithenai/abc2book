@@ -1,0 +1,27 @@
+X:122
+T: SO GEHT ES IN SCHNUETZELPUTZ HAEUSEL
+N: Z0122
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze, Unsinns - Verse
+M: 6/8
+L: 1/8
+K: C
+C | C_B,A,A,G,A, | _B,2A,G,2
+C | C_B,A,A,G,A, | _B,2A,G,2
+C | CA,F,D_B,G, | A,2G,F,2
+G, | G,A,B,CDE | DEFE2
+G, | G,A,B,CDE | DEFE2
+E | ECA,FDB, | A,3B,3 | C3C2
+S:https://www.folktunefinder.com/tunes/68981
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze, unsinns - verse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

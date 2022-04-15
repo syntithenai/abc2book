@@ -1,0 +1,34 @@
+X: 5
+T:Maraichines en Cascade
+C:Trad.
+O:France
+A:Poitou
+R:Maraichine
+L:1/8
+Q:1/4=120
+K:G
+M:4/4
+M:6/8
+d2B d2B | dcB ABc | d2B d2B | dcB A3 :: GAB A2d |1,3 cBA B2G :|2,4 cBA G3 :|
+[M:2/4]|: GD G2 | GF/2G/2 A2 | Ad dc/2B/2 |1 AA BG :|2 AB G2 |:\
+GB BA/2G/2 | FG A2 | Gd dc/2B/2 |1 AA B2 :|2 AB G2 |:
+Gd dB | dc/2B/2 AG | Gd dB | d2 A2 :: AB cB | AB/2A/2 GG | Bd cB | A2 G2 ::
+[K:G] EE B2 | A/2B/2c/2B/2 AF | GA B2 | G/2A/2G/2F/2 E2 :: E/2F/2G/2E/2 FA | GF GE | E/2F/2G/2E/2 FA | GF E2 ::
+[K:G] G>A Bc | d2 d2 ed cB |1 A2 G2 :|2 A2 Gd |:dd G>A | GF Gd | dd G>A |1 GF Gd :|2 GF G2 |:
+BA/2G/2 FG | Ac B2 | BA/2G/2 FG | A2 G2 :: DE FG | AG/2A/2 BG | DE FG | A2 G2 ::
+d2 Bd | cB A2 | DG GF/2G/2 |1 AA BG :|2 AA G2 |: DG GF/2G/2 | AA BG | DG GF/2G/2 | A2 G2 ::
+GD G2 | GF/2G/2 A2 | Ad dc/2B/2 |1 AA BG :|2 AB G2 |: GB BA/2G/2 | FG A2 | Gd dc/2B/2 |1 AA B2 :|2 AB G2 |:
+d2 Bd | cB A2 | DG GF/2G/2 |1 AA BG :|2 AA G2 |: DG GF/2G/2 | AA BG | DG GF/2G/2 | A2 G2 :|
+%%footer $D   Galouvielle-MBe 2005 \nCercle circassien Irlande
+S:https://www.folktunefinder.com/tunes/53305
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Maraichine
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

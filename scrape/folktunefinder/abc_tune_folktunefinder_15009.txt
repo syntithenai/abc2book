@@ -1,0 +1,30 @@
+X: 1
+T: The Sailor's Wife
+C: Niel Gow
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"EFG F2E | "Em"e2f g2a | "Em"bag fed | "G"BdB "D"AFD \
+| "Em"EFG F2E | "Em"e2f g2a | "Em"bag "B7"fe^d | "Em"e3- e2 :|
+|: "D7"f \
+| "G"gab gab | "G"gab bag | "D"fda fda | "D"fga "B7"agf \
+| "Em"gab bag | "D"fga agf | "Em"efg "B7"fe^d | "Em"e3- e2 :|
+S:https://www.folktunefinder.com/tunes/15009
+S:http://trillian.mit.edu/~jc/music/abc/jig/SailorsWife_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SailorsWife_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SailorsWife_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SailorsWife_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/SailorsWife_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SailorsWife_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

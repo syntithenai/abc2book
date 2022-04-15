@@ -1,0 +1,31 @@
+X: 1
+T: the Frost is All Over
+T: the American Dwarf
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"def edB | AFD "A7"E2D | "D"DFA "Bm"AFA | "E(m)"Bee "A7"edB \
+| "D"def edB | AFD "A7"E2D | "D"DFA AFA | "G"Bdd "D"d2 :|
+|: g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fdf "Bm"afd | "Em"gfg "A7"e2g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fga "A7"efg | "D"fdd d2 :|
+S:https://www.folktunefinder.com/tunes/14203
+S:http://trillian.mit.edu/~jc/music/abc/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FrostIsAllOver.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/FrostIsAllOver.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

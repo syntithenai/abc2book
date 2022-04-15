@@ -1,0 +1,31 @@
+X:110
+T:Lamento D Tristana
+L:1/8
+M:3/4
+N: Often played with La Rotta
+N:Anon C14 Italian
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d99.html
+%%ID:00000d99
+K:D
+Bc|d3/2c/2 de f/2e/2d/2c/2|B3c/2d/2 ee|\
+d3/2c/2 d/2c/2d/2e/2 f/2e/2d/2c/2|B3/2A/2 B/2A/2B/2c/2 B/2c/2B/2A/2|
+G3/2F/2 G/2F/2G/2A/2 B/2A/2G/2F/2|1E2FG A/2B/2A/2G/2|\
+F3G/2F/2 E/2D/2E|F4:|2E2FG B/2A/2G/2F/2|E2FE F/2E/2D|E4|]
+BA|G3/2F/2 G/2F/2G/2A/2 B/2A/2G/2F/2|E2FG A/2B/2A/2G/2|F3G/2F/2
+E/2D/2E|F4BA|G3/2F/2 G/2F/2G/2A/2 B/2A/2G/2F/2|E2A/2G/2F/2E/2 F/2E/2D|E4|
+|:EF|G3/2F/2 G/2F/2G/2A/2 B/2A/2G/2A/2|B4ee|d3/2c/2 d/2c/2d/2e/2f/2e/2d/2c/2|\
+B3/2A/2 B/2A/2B/2c/2 B/2c/2B/2A/2|G3/2F/2 G/2F/2G/2A/2 B/2A/2G/2F/2|1\
+E2FG A/2B/2A/2G/2|F3G/2F/2 E/2D/2E|F4:|2E2FG B/2A/2G/2F/2|E2FEF/2E/2D|E4|]
+S:https://www.folktunefinder.com/tunes/48826
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

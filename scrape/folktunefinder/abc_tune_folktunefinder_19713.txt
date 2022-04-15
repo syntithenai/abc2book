@@ -1,0 +1,22 @@
+X: 1
+T: The Yoe
+R: strathspey
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+F | "G"D<G G>F D<G G>A | "D"F2 A>F d>F A>F | "G"D<G G>F D<G G>g | "D7"f>d (3cBA "G"B<G G :|
+d | "G"g2 b>g d>g b<g | "D"f2 a>f d>f a<f | "G"g2 b>g d>g b<g | "D7"a>g f<a "G"g2 g ||
+d | "G"g2 b>g d>g b<g | "D"f2 a>f d>f a<f | "Em"(3bag "D"(3agf "G"g<d "C"d>e | "G"d>c "D7"B>A "G"G2 G |]
+S:https://www.folktunefinder.com/tunes/19713
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Yoe_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Yoe_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

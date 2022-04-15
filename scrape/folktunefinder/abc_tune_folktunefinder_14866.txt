@@ -1,0 +1,40 @@
+X:1
+T: the Piper's Chair
+T:Cathaoir an Ph\'iob\'aire
+B:Ceol Rince na hE/ireann I, no. 9
+S:Sonny Brogan, accordion
+N:translation of note by Breathnach: Mr. Brogan got this
+N:from piper Willie Clancy.  It was first published by Petrie
+N:as "The Catholic Boys" (P i [The Ancient Music of
+N:Ireland], p.144).  He got it from the Lord Chief Baron of
+N:Ireland on 15 January 1852.  Petrie said that the old Irish
+N:name was lost but this was the name that Clancy had on
+N:it.  Stanford did not bother giving any name to it (P iii
+N:[The Complete Collection of Irish Music as noted by
+N:George Petrie], 282.  Roche also calls it "The Catholic
+N:Boys" in a setting which is almost identical to Petrie's
+N:(R iii [Collection of Irish Airs, Marches and Dance Tunes,
+N:vol. III], 91.
+R:double jig
+M:6/8
+L:1/8
+K:G
+F | DGG GFD | Dcc cBc | ~ded cAG | FAG ~FED |
+DGG GFD | Dcc cBc | ~ded cAF | ~AGG G2 :: B/d/ |
+{a}gfg agf | d^cd {a}gfg | GFG =fef | ABA AGF |
+GBd g2 f | d2 e fdc | B2 d cAF | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/14866
+S:http://trillian.mit.edu/~jc/music/abc/jig/PipersChair.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PipersChair.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PipersChair.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/PipersChair.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/PipersChair.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

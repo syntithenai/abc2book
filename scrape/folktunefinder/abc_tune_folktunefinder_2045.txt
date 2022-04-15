@@ -1,0 +1,38 @@
+X: 108
+T:34th Psalm,To the. JMP.108
+T:Cornish tune. JMP.108
+M:3/4
+L:1/8
+C:"or Cornish tune."
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hymn
+O:Scotland
+A:Perth
+N:Photocpy dark - last few notes very uncertain
+N:Words
+N:Thro all the changing seens of life
+N:In truble and in joy
+N:The praises of my God shall still
+N:My heart and tunge imploy (2
+H:1799
+Z:vmp.C. Graebe
+K:G major
+G2 | (B>c B2) A2 | (G>AG2) B2 | (d>ed2) c2 | (B4A2) ||\
+ A2 | (B>AG2) B2 | d2c4 | d4 ||!
+  D2 |(G>AB2) A2 | (G>FE2) D2 | (G>A[G2B2] B,>C D2 ||\
+ D2 | (G>FE2) D2 | E>FGF2 | G4 ||!
+B2 | (d>e d2) c2 | (B>cB2) d2 | (B>AG2) B2 (B2A4) ||\
+ A2 (B2A2) G2 | (d2c2) cAB2A2G4 |]
+S:https://www.folktunefinder.com/tunes/2045
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hymn
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

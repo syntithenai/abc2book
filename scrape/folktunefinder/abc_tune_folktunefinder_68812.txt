@@ -1,0 +1,26 @@
+X:266
+T: Albas Vertreibung
+N: A0309B
+O: Europa, Mitteleuropa, Deutschland
+N: Willems 1848 No. 36.
+R: Romanze, Ballade, Lied
+M: 6/8
+L: 1/8
+K: F
+F | F2FA2A | c2cA2
+A | c2cA2B | c3c2
+F | F2FA2A | c2cA2
+A | c2cA2B | c3c2
+c | c2cc2B | A2AG2
+G | A2FE2E | D2EF2G | A3G3 | F3z2
+S:https://www.folktunefinder.com/tunes/68812
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 1
+T: Kpyln poikain viinapolkka
+O: Trad
+M: 2/4
+L: 1/16
+Z: John Chambers <jc@trillian.mit.edu>
+K: G
+|: "G"B3B B2B2 \
+| BGBd B2B2 \
+| "C"c3c c2c2 \
+| cGce c2c2 \
+| "D7"d2dd d2f2 \
+| aa.a2 gg.g2 |
+|1,3 ff.f2 ee.e2 \
+| dd.d2 cc.c2 \
+:|2,4 ff.f2 f2ef \
+| "G"g2g2 g4 \
+|: "G"{a}b2b2 b2ab \
+| "C"c'2e2 e3g |
+| "D7"f2f2 f2ef \
+| "G"g2B2 d3g \
+| "G"b2b2 b2ab \
+| "C"c'2e2 e3g \
+| "D7"f2f2 f2ef \
+| "G"g2g2 g4 :|
+S:https://www.folktunefinder.com/tunes/16127
+S:http://trillian.mit.edu/~jc/music/abc/polka/KapylanPoikainViinapolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/KapylanPoikainViinapolkka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

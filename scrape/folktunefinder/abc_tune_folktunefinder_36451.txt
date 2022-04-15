@@ -1,0 +1,30 @@
+X:1860
+T:French-Canadian Waltz
+M:3/4
+N:From playing of Joseph Guilmette
+O:Canada
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cc8.html
+%%ID:00000cc8
+K:E min
+B2 EFGE | B2 EFGE | \
+c4 c2 | c2 B2 A2 |1 \
+B2 EFGE | B2 EFGE | \
+F2 B,2 B,2 | F2 B,2 B,2 :|2
+B2 c2 B2 | A2 G2 F2 | E2 G2 B2 | e4:: \
+D2 |\
+E2 c3E | F4 E2 | \
+D2 B3 D | E4 E2 |
+E2 c3E | F2 E2 F2 \
+|1 A2 G2 E2 | D4 :|2 G2 B2 d2 | g4 |]
+S:https://www.folktunefinder.com/tunes/36451
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

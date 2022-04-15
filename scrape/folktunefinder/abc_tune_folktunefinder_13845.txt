@@ -1,0 +1,28 @@
+X: 1
+T: Becky's Warp and Woof
+C: Barbara McOwen (Feb 1993)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+B \
+| "E"e3 gfe | "E"bBB gfe | "D"=d2A FAF | "D"=DA,D FAd \
+| "E"e2B GAB | "D"=d2A FGA | "B7"Bc^d efg "B7"a3 agf |
+| "E"e3 gfe | "E"bBB gfe | "D"=d2A FAF | "D"=DA,D FAd \
+| "E"e2B GAB | "D"=d2A FGA | "B7"Bag fe^d | "E"e3 e2 |]
+B \
+| "E"E2g gfe | "E"Bef gfe | "D"=D2f fed | "D"AFD A,DF \
+| "E"E2g gfe | "E"bBB gfe | "B7"Bc^d efg | "B7"a3 agf |
+| "E"E2g gfe | "E"Bef gfe | "D"=D2f fed | "D"AFD A,DF \
+| "E"E2B BAG | "D"FA=D FDA, | "B7"B,2a agf | "E"e3 e2 |]
+S:https://www.folktunefinder.com/tunes/13845
+S:http://trillian.mit.edu/~jc/music/abc/jig/BeckysWarpAndWoof_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BeckysWarpAndWoof_E.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

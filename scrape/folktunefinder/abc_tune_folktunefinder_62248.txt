@@ -1,0 +1,22 @@
+X:225
+T: ALS DER GROSSVATER DIE GROSSMUTTER NAHM
+N: B0712
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 3/4
+L: 1/8
+K: G
+ | G3GG2 | G3AB2 | B2A2A2 | A4
+A2 | B3cd2 | d3cB2 | B2A2A2 | A4
+D2 | G3GG2 | G3AB2 | B2A2A2 | A4
+c2 | B3cd2 | c2B2A2 | A2G2G2 | G6
+S:https://www.folktunefinder.com/tunes/62248
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

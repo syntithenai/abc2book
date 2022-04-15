@@ -1,0 +1,35 @@
+X:4780
+T:Polska fr Bingsj
+T:Skriket
+T:the Scream
+A:Dalarna, Bingsj
+L:1/16
+M:3/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b6e.html
+%%ID:00000b6e
+K:D min
+(A2|\
+D2)A2 (~FE)D^C D2(e2 | ~f2)ed (cd)ec A2(c'2 | \
+c'2)^g2 a2(f2 ~ef)ed | d2^cd (ef)e^c A3(A |\
+d2)A2 (FE)D^C D2(e2 | ~f2)ed (cd)ec A2(c'2 |\
+c'2)^g2 a2(~f2 e2)eg | (fe)d^c d6 ::\
+(e2 |\
+~f2)(~gf e2)(fe d2)(ed) | (^cd)ec A3 (e2 | \
+~fe)fg a4 (~f3g | |f2)ed (cd)(ec) A2(e2 |\
+~f2)~gf e2(fe d2)d2 | (cd)ec A6(e2 |\
+~fe)fg a2(~f2 e2)(eg) (fe)d^c d6 :|
+S:https://www.folktunefinder.com/tunes/37035
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

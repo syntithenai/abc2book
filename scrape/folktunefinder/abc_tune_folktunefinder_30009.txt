@@ -1,0 +1,27 @@
+X:0
+T:My Daughter Shilo
+S:James Thomson's MS for the treble recorder, 1702
+B:David Johnson, 21 Scots Tunes for the Treble Recorder
+N:extensive ornamentation omitted, see Johnson's edition
+N:I think I've come across this tune from
+N:an American source, anybody recognize it
+M:3/4
+L:1/8
+Q:1/4=80
+K:GDor
+Ac|d2 d2 cA |f2 e2 d2   |cd cA GA   |F3  G A2|
+   d2 fd cA |f3  g a2   |F3  G A/G/F|G4
+Ac|d2 d2 c>A|f2 f2 ef   |g2 g2 fg   |a2 ba gf|
+   d2 fd cA |fg g2 f/g/a|F3  G A/G/F|G4     |]
+S:https://www.folktunefinder.com/tunes/30009
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

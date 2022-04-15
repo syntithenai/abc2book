@@ -1,0 +1,120 @@
+X:271
+T:Danza (CT 303)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cuideiru.
+N:Intervienen personas de ambos sexos.
+A:Asturies
+O:Cuideiru
+Z:Cancioneru de Torner 303
+M:6/8
+L:1/8
+Q:3/8=92
+K:G
+"1 Coro"ddd|GBc d2d|A2A B2c|ded c2A|
+G2z G2B|AAB c2d|A3 B2c|ded cBA|
+G2z G2B|A2B c2d|A2A B2c|d2F A2F|G3 G3-|
+G2z G2B|A2B c2d|A2A "2 Coro"B2c|ded c2A|G2z "1 Coro"G2B|
+A2B c2d|A2A "2 Coro"B2c|ded cBA|G2z "1 Coro"G2B|
+|:A2B c2d|A2A B2c|d2F A2F|G3 G3-|G2z G2B|
+A2B c2d|A2A "2 Coro"B2c|ded c2A|G2z "1 Coro"G2B|
+A2B c2d|A2A "2 Coro"B2c|ded cBA|G2z G2B:|
+|:"1 Coro"A2B c2d|A2A B2c|d2F A2F|G3 G3-|G2z G2B|
+A2B c2d|A2A "2 Coro"B2c|ded c2A|G2z "1 Coro"G2B|
+A2B c2d|A2A "2 Coro"B2c|ded cBA|[1 G2z G2B:|[2 G2 z||
+W:1Coro
+W:T que me diste las zapatillas,
+W:aydamelas a calzar.
+W:Vaya al diablo el zapalastrn
+W:que conmigo quera casar.
+W:
+W:Soi majo y quiero tendella,
+W:soi majo y quiero tendella,
+W:soi majo y quiero tendella.
+W:
+W:2Coro
+W:Aydamelas a calzar.
+W:
+W:1Coro
+W:la capa y durmi en ella
+W:
+W:2Coro
+W:y conmigo quera casar.
+W:
+W:---
+W:
+W:1Coro
+W:Ai! tend la mio camisa,
+W:Ai! tend la mio camisa,
+W:Ai! tend la mio camisa,
+W:
+W:2Coro
+W:aydamelas a calzar
+W:
+W:1Coro
+W:nuna planta d'artemisa
+W:
+W:2Coro
+W:y conmigo quera casar.
+W:
+W:---
+W:
+W:1Coro
+W:Ai! tend la mio boada,
+W:Ai! tend la mio boada,
+W:Ai! tend la mio boada,
+W:
+W:2Coro
+W:aydamelas a calzar
+W:
+W:1Coro
+W:nuna planta d'hortelana
+W:
+W:2Coro
+W:y conmigo se quera casar.
+W:
+W:---
+W:
+W:1Coro
+W:Sarasa de flor tostada,
+W:Sarasa de flor tostada,
+W:Sarasa de flor tostada
+W:
+W:2Coro
+W:aydamelas a calzar
+W:
+W:1Coro
+W:traila Antona la Condada
+W:
+W:2Coro
+W:y conmigo se quera casar.
+W:
+W:1Coro
+W:Sarasa de flor de picu,
+W:Sarasa de flor de picu,
+W:Sarasa de flor de picu
+W:
+W:2Coro
+W:aydamelas a calzar
+W:
+W:1Coro
+W:traila la de Don Benito
+W:
+W:2Coro
+W:y conmigo quera casar.
+W:
+S:https://www.folktunefinder.com/tunes/59158
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

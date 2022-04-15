@@ -1,0 +1,31 @@
+X:4055
+T:Mary's Wedding
+O:england
+C:David M. Barton
+N:Written for Mary Larsen and Jerry Holland, as a wedding,
+N:present, July 21, 1999. (The wedding was in the fall of 1999,
+N:in Cape Breton, N.S., Canada.)
+L:1/8
+M:3/4
+R:waltz
+K:G
+DGA-|:"G"B3 GB d-|"Am"c3 A c e-|"Em7"d2g2e2|"C"c4 d c-
+|"G"B2 d3 g-|"Am"e2 c2 B2|"D"A3 GF G-|"D7"A4 d c-
+|"G"B3 G B d-|"Am"c3 A c e-|"Em7"d2 g2 e2|"C"c4 d c-
+|"G"B2 d3 b-|"Am"A2 "D7"G2 F2|"G"G6-|G2 B2d2|
+|"G"g3 d B2|"Bm"f3 d B2|"Am7"e2 g3 e-|"D07"d B4 B-
+|"A"A2 ^c2 e2|"A6"a2 f3 e-|"D"d6-|"D7"d2 e2 f2
+|"G"g3 d B2|"Bm"f3 d B2|"Am7"e2 g3 e-|"D07"d B4 B-
+|"C"A2 G2 E2|"Am7"DE3 G2|"G"G6-|1 G3:|2 G3|]
+S:https://www.folktunefinder.com/tunes/24507
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

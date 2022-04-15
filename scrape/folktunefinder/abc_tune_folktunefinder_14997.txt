@@ -1,0 +1,25 @@
+X: 1
+T: the Rover
+O: Trad
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"ded BAB | "D"dfa "G"b2a | "D"d'2f     fef | "A7"g2g gfe \
+| "D"ded BAB | "D"dfa    b2a | "D"d'af "A7"ede |  "D"fdd d2 :|
+|: (3f/a/f/ \
+| "D"dfa    dfa | "D"dfa "A7"gfe | "D"afd     ded | "A7"cAA A2e \
+| "D"fdf "A"ecA | "G"GAB  "D"AFA | "D"DEF "A7"GEA |  "D"FDD D2 :|
+S:https://www.folktunefinder.com/tunes/14997
+S:http://trillian.mit.edu/~jc/music/abc/jig/Rover_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Rover_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

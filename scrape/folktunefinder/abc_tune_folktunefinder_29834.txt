@@ -1,0 +1,25 @@
+X:3554
+T:Crooked Stove Pipe
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+d|"G"GB B/2c/2d/2B/2|"G"GB B/2c/2d/2B/2|"G"GB e3/2B/2|"Am"dc c3/2A/2|
+"D"FA A/2B/2c/2A/2|"D"FA A/2B/2c/2d/2|"D7"ed ef|"G"g3:|
+K:G
+P:B
+G/2A/2|"G"B2 BA|"G"G2 GE|"C"FE "G"FG|"Am"AG AB|"D"c2 cA|"D"F2 FE|"D7"DD EF|\
+"G"G3:|
+S:https://www.folktunefinder.com/tunes/29834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 61
+T:Hole in the Wall
+M:3/2
+L:1/8
+Q:1/4=150
+K:Em
+||:"G"B3 c Bc d2 A2 d2|"Em"G3 A GA B2 F2 B2|"Em"E3 F
+EF G2 D2 B2|"Em"G6 F2 G4:||
+|"Em"g3 f ef g2 f2 e2|"B"^d3 e de f2 B2 f2|"Em"g3 f e
+f g2 f2 e2|"Em"e6 ^d2 e4|
+"Em"E3 F EF G2 FG A2|"Em"G3 A GA B2 AB c2|"G"B3 c Bc
+d2 D2 d2|"Em"B6 AB G4||
+S:https://www.folktunefinder.com/tunes/52134
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

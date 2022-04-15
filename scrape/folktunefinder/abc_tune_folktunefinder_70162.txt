@@ -1,0 +1,27 @@
+X:32
+T: Bruder Melchor, S. 54
+N: R0056
+O: Luxemburg
+S: D'Fraen um Kanddaaf an der aler Zeit, Luxemburg 1929]
+R: ]
+M: 2/4
+L: 1/16
+K: G
+ | G2A2B2c2 | d4d4 | e2f2g2e2 | e2d2d4
+c2c2c4 | B2B2B2B2 | A2A2d2d2 | G4G4
+G2AABBc2 | d2d2d2
+d2 | e2f2g2ee | edd2d2d2
+c2c2c4 | BBB2B4
+c2c2c4 | BBB2B4
+G2A2B2c2 | d4g4 | e3eg3e | d4z4
+c2c2c2c2 | B4B4 | A4A4 | G8
+S:https://www.folktunefinder.com/tunes/70162
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

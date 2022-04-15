@@ -1,0 +1,36 @@
+X: 1
+P: La Bastringe
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"f2ff f2gf \
+| "A7"e2c2 "D"d4 \
+| "A7"c2d2 efec \
+| "D"d2e2 f2d2 \
+| "D"f2ff f2gf |
+| "A7"e2c2 "D"d4 \
+| "G"g2f2 efed \
+| "A7"B2c2 "D"d4 \
+:: "D"d2fd adfd \
+| "C"=c2ec gcec \
+| "D"d2fd adfa |
+| "A7"bgec dcBA \
+| "D"d2fd adfd \
+| "C"=c2ecgcec \
+| "D"d2fd adfa \
+| "A7"bgec "D"d4 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/3197
+S:http://trillian.mit.edu/~jc/music/abc/Contra/Bastringue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/program/special/Bastringue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/program/special/Bastringue.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

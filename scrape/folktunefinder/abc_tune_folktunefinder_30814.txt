@@ -1,0 +1,24 @@
+X: 306
+P: Auretti's Dutch Skipper
+O: England
+R: jig
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 6/8
+L: 1/8
+K: G
+|: D \
+|  "G"GDG BAG | "D7"AFD c3 | "G"BAG "D7"FAF | "G" GDB, G,2D |
+| "G"GDG BAG | "D7"AFD ABc | "G"BAG "D7"DGF | "G"G3- G2 :|
+|: D \
+| "G"GBd dBG | "C"Ace e2D | "G"GBd dBG | "D7"FAA A2D |
+| "G"GBd dBG | "C"Agf g2c | "G"BAG "D7"DGF | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/30814
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:14667
+T:Russ Allen
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+A/2B/2c/2|"D"dd "A7"c/2d/2e/2c/2|"D"dd "A7"c/2d/2e/2c/2|"D"d/2e/2f/2g/2 af|\
+"G"g/2f/2e/2d/2 "A7"cA|
+"D"dd "A7"c/2d/2e/2c/2|"D"dd "A7"c/2d/2e/2c/2|"D"d/2e/2f/2g/2 ad|\
+"A7"c/2d/2e/2c/2 "D"d::
+P:B
+f/2g/2|"D"a/2^g/2a/2b/2 af/2=g/2|"D"a/2^g/2a/2b/2 af|"G"ge/2g/2 "D"fd/2f/2|\
+"Em"e/2d/2c/2d/2 "A7"ef/2g/2|
+"D"a/2^g/2a/2b/2 "A/c"af/2=g/2|"C"a/2^g/2a/2b/2 "B7"af|"Em"ge/2g/2 fd/2f/2|\
+"A7"ec "D"d:|
+S:https://www.folktunefinder.com/tunes/64677
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

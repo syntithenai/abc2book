@@ -1,0 +1,28 @@
+X: 1
+T: Mrs. Stewart Nicholson
+R: strathspey
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C
+L: 1/16
+K: D
+A2 \
+| "D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, A,2B,C "D"D2F2 A2d2 \
+| "D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, B,2C2 "D"D4 D2 :|
+B2 \
+| "D"A2d2 d2ef "Em"eB3 B3e | "A7"c3B A2Bc "D"defg a3d \
+| "D"A2d2 d2ef "Em"eB3 B3e | "A7"c3B ABcA "D"d4 D2 |
+B2 \
+| "D"A2d2 d2ef "Em"eB3 B3e | "A7"c3B A2Bc "D"defg a3d \
+| "D"A3d "G"B3d "D"AB3 F3D | "A7"DCB,A, B,2C2 "D"D4 D2 |]
+S:https://www.folktunefinder.com/tunes/19597
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsStewartNicholson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsStewartNicholson_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

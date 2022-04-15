@@ -1,0 +1,23 @@
+X: 8
+T:Caroline's Return from the Red Sea
+M:13/8
+L:1/8
+C:Mits Ota
+K:D minor
+d2 BA GAG ^c2 BA G2 | ^c2 BA GAG BAd(^c c)A |
+d2 BA GAG ^c2 BA G2 | z BAd ^cAc dc B(A A) A |
+^CDEF G2 E GBAd ^c2 | zd^ce dcB AGF(E E)E |
+^CDEF G2 E G^F GA BA |M:6/8 ^c2 A B2 A | c2  A B2 A |M:2/4 c4 c4 |
+M:13/8 d2 dG GdG GA BG Ad | ^c2 cA AcA cB AG Ac |
+d2 dG GdG GA BG AB | ^cd cB AGE FE D2 D2 |
+d2 dG GdG GA BG Ad | ^c2 cA AcA cd ec de |
+d2 dG GdG GA BG AB | z d^cB AGE FE D2 D2 ||
+S:https://www.folktunefinder.com/tunes/67673
+S:http://www.ling.ed.ac.uk/~mits/mytunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 13/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5
+T:Hornpeipe: "Skuggspelet"
+N:From "Baron Fredrik A,,kerhielm's Dance Book", Stockholm, 1785.
+N:According to the dance description, this is a longways country dance.
+M:4/4
+R:Engelska
+S:jonas_liljestrom <consolamentum@spray.se> tradtunes 2005-6-15
+K:F
+c3/B/|:A2F2 FAGF|E3/G/B2 BdcB|Acde fcdB|[1A2F2 F2c3/B/:|[2A2F2
+F2c2|:fcAc fagf|gc=Bc gbag|a2f2 f2ga|gfed c2f3/e/|dcBA B2g3/f/|edcB
+Acde|fcdB cABG|[1F2F2 F2c2:|[2F2F2 F2z2||
+S:https://www.folktunefinder.com/tunes/15956
+S:http://trillian.mit.edu/~jc/music/abc/misc/Hornpeipe_Skuggspelet_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Hornpeipe_Skuggspelet_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Hornpeipe_Skuggspelet_1.abc
+% Rhythm Engelska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

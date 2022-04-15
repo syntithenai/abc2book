@@ -1,0 +1,22 @@
+X:66
+T:The Wherligig
+T:to the tune Woodicock
+M:6/8
+L:1/8
+Q:110
+B:The Round Band Book of Playford
+K:Dm
+A |\
+"Dm"d2d f>ed | "Am"c2A c2c | "Dm"d2d f>ed | "Am"cAA A2A |\
+"Dm"d2d f>ed | "Am"c2A c2c | "Dm"d2d f>ed | "Am"cAA A |]
+|: d |\
+"F"c2B c>BA | "Gm"BGG G2G | "Am"AAA A>Bc | "Dm"dDD D2d |\
+"F"c2B c>BA | "Gm"BGG G2G | "Am" AAA A>Bc | "Dm"dDD D :|
+S:https://www.folktunefinder.com/tunes/15910
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Round_Band_Book_of_Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Round_Band_Book_of_Playford.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

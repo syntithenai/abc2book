@@ -1,0 +1,30 @@
+X:6870
+T:the Wounded Hussar
+T:Captain Keane
+A:North-West
+C:Carolan
+M:3/4
+O:Ireland
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004c8.html
+%%ID:000004c8
+K:G dorian
+~GF|\
+D2G2 A2| B4AG| ABcBAG| H[F2C2] G2A2| \
+B2d2 d2| Hd>cBAGF| D2G2A2| G4:|
+GA|\
+B2d2 d2| d4 cB| A2c2 c2| c4 =Bc|\
+d2g2^f2| g3a b2| d2g2^f2| g4 ga|
+b3a g2| (fd3) cB| AcfA GF/E/| H[C2F2] G2A2|\
+Bcdefe| Hd>cBAGF| D2G2A2| G4|]
+S:https://www.folktunefinder.com/tunes/37453
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,63 @@
+X:83
+T:Orphan
+R:jig
+D:Kevin Burke: Up Close
+Z:id:hn-jig-121
+M:6/8
+L:1/8
+K:Amin
+M:6/8
+Q:3/8=110
+K:Amin
+R:jig
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"Am"e>ge "Am"dcd|"Em"ecA "Em"GED|
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"Am"e>ge "G"dcB|"Em"cec "Em"A2G:|
+"F"a>ba "C"ged | "Am"cde "G"~g3 |"Am"a>ge "G"ged|"Am"ecA "Em"GED|
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"C"e>ge "G"dcB|"Am"cec "Am"A2G:|
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"Am"e>ge "Am"dcd|"Em"ecA "Em"GED|
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"Am"e>ge "G"dcB|"Em"cec "Em"A2G:|
+"F"a>ba "C"ged | "Am"cde "G"~g3 |"Am"a>ge "G"ged|"Am"ecA "Em"GED|
+"Am"E-E>A "Am"AGE | "C"cBc "G"dcd |"C"e>ge "G"dcB|"Am"cec "Am"A2G:|
+T:Larry'Favourite
+Q:1/2=120
+K:Ador
+R:reel
+M:4/4
+"Am"EAAG "D"A2Bd|"Am"eA~A2 "Em"BAGE|"G"G2DG "Em"EGDE|"G"GABd "Em"edBG|
+"Am"EAAG "D"A2Bd|"Am"eA~A2 "Em"BAGE|"G"GABd "Em"gedB|1 "G"(3ABc BG "D"ABAG:|2 "G"(3ABc BG "Am"ABcd||
+|:"Am"eaag "Em"egfg|"Am"eA~A2 "Em"edBe|"G"d2BG "Am"AGEF|"G"GABd "G"g2fg|
+"Am"eaag "Em"egfg|"Am"eA~A2 "Em"BAGE|"G"GABd "Em"gedB|"G"(3ABc BG "Am"ABcd:|
+|:"Am"eaag "D"a2ga|"G"bg~g2 "Em"abge|"G"dggf "Em"g2eg|"G"dB~B2 "G"GABd|
+"Am"eaag "D"a2ga|"G"bg~g2 "Em"abge|"G"dB~B2 "Em"gedB|1"G"(3ABc BG "Am"ABcd:|2 "G"(3ABc BG "D"ABAG||
+M:6/8
+Q:3/8=120
+K:Amin
+R:jig
+"Am"E2A "Am"AGE | "C"cBc "G"dcd |"Am"ege "Am"dcd|"Em"ecA "Em"GED|
+"Am"E2A "Am"AGE | "C"cBc "G"dcd |"Am"ege "G"dcB|"Em"cec "Em"A2G:|
+"F"aba "C"ged | "Am"cde "G"~g3 |"Am"age "G"ged|"Am"ecA "Em"GED|
+"Am"E2A "Am"AGE | "C"cBc "G"dcd |"C"ege "G"dcB|"Am"cec "Am"A2G:|
+M:4/4
+Q:1/2=120
+K:Ador
+R:reel
+"Am"EAAG "D"A2Bd|"Am"eA~A2 "Em"BAGE|"G"G2DG "Em"EGDE|"G"GABd "Em"edBG|
+"Am"EAAG "D"A2Bd|"Am"eA~A2 "Em"BAGE|"G"GABd "Em"gedB|1 "G"(3ABc BG "D"ABAG:|2 "G"(3ABc BG "Am"ABcd||
+|:"Am"eaag "Em"egfg|"Am"eA~A2 "Em"edBe|"G"d2BG "Am"AGEF|"G"GABd "G"g2fg|
+"Am"eaag "Em"egfg|"Am"eA~A2 "Em"BAGE|"G"GABd "Em"gedB|"G"(3ABc BG "Am"ABcd:|
+|:"Am"eaag "D"a2ga|"G"bg~g2 "Em"abge|"G"dggf "Em"g2eg|"G"dB~B2 "G"GABd|
+"Am"eaag "D"a2ga|"G"bg~g2 "Em"abge|"G"dB~B2 "Em"gedB|1"G"(3ABc BG "Am"ABcd:|2 "G"(3ABc BG "D"ABAG||
+S:https://www.folktunefinder.com/tunes/2180
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Jig
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

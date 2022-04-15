@@ -1,0 +1,31 @@
+X:14967
+T:Schottisch
+S:Notenmaterial von Stefan Straubinger
+N:Tonarten der Quelle: A  B Teil in B-Dur, Trio in Es
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/16
+C:trad.
+K:G
+{A}G2F2 G3A|B2c2d4|c3A A2F2|G2B2d4|
+{A}G2F2 G3A|B2c2d4|c3A A2F2|1G2B2G2z2:|2G2B2G2 B2||
+|:(d4 c2A2)|d3BG4|{B}A2G2 A2B2|{A}G2F2G2B2|
+(d4 c2A2)|d3BG4|{B}A2G2 AcFA|1G2B2G2 B2:|2G2B2G2z2||
+P:Trio
+K:C
+|:G6c2|G2E2 c4|B2G2d4|c2A2e4|
+G6c2|G2E2c4|B3A G2B2|c2c2c2z2:||
+S:https://www.folktunefinder.com/tunes/46242
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

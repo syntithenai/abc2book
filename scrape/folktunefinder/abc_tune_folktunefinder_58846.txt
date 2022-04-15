@@ -1,0 +1,29 @@
+X:35
+T:October Jig
+R:jig
+C:Debbie Scott
+S:Rodney Miller
+N:Something like the way it's played in Montague, Mass.
+M:6/8
+L:1/8
+K:Am
+"Am"~A,3  C2D|"Em"~E3 AGE|"Am"~A,3  C2D|E2 "F"c Bcd|
+"Am"~A,3  C2D|"Em"~E3 AGE|"Dm"D2"Dm"D3"E"D|"G"DG"G"E DB,G,:|
+|:"Am"~A,3 c3|"G"AGE DB,G, |"Am"~A,3 c2d|"Em"edc AGE|
+"Am"~A,3 c3|"G"AGE DB,G, |[1 "F"=F3-F2 "Em"E|D"G"GE DB,G,:|[2 "F"(=F3F2)G|"G"^G=GF FED|]
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58846
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

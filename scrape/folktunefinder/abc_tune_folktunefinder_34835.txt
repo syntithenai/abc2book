@@ -1,0 +1,27 @@
+X: 7618
+T:Pols fr R\o{}ros (2)
+R:Pols
+O:Norway
+M:3/4
+Q:1/8=320
+K:DDor
+d2 d<^c A2|f2 fd e>f|\
+(3geg (3fdf e>^c|d2 {e}d<^c A2|\
+d2 d<^c A2|f2 fd e>f|\
+(3geg (3fdf e>^c|^cd d4:|
+|:\
+K:D
+a2 fa fa|g2 eg eg|f2 (3dfd e>c|d2 df a2|\
+a2 fa fa|g2 eg eg|f2 (3dfd e>c|c<d d4:|
+S:https://www.folktunefinder.com/tunes/34835
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: The Gareloch
+O: Trad
+R: strathspey
+B: Kerr's
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+F \
+| "G"G2 D>C B,<G, G,>B | "C"c>B A>G "D7"F<D D>F \
+| "G"G>B "D"A>c "G"B>d "C"c>e | "D7"d<g d>c "G"B<G G :|
+f \
+| "G"g>d B>d g>d B>d | "C"c>B A>G "D7"F<D D>F \
+| "G"G>B "D"A>c "G"B>d "C"c>e | "D7"d<g d>c "G"B<G G ||
+f \
+| "G"g>d B>d g>d B>d | "C"c>B A>G "D7"F<D D>F \
+| "G"(3GAB "D"(3ABc "G"(3Bcd "C"(3cde | "D7"d<g d>c "G"B<G G |]
+S:https://www.folktunefinder.com/tunes/19357
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Gareloch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Gareloch_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

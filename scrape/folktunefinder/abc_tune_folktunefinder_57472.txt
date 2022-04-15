@@ -1,0 +1,27 @@
+X: 135
+T: Tom and Jerry
+C: R-66
+C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+%%text Repeat both parts 4 times
+A2| "D"d2fd "A"efge| "D"d2fd "A"efge| "D"dfad' "A"c'bag|1 "D"fgab "A"agfe:|2 "D"fgef d2|]
+|: \
+AG| "D"FAdA FAdA| "G"GBdB GBdB| "A"ABcd efge|1 fgef "D"dcBA:|2 fgef "D"d2|]
+%%text 9/1/98.  New England reel, from Cole's.
+S:https://www.folktunefinder.com/tunes/57472
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

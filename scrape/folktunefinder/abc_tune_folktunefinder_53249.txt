@@ -1,0 +1,24 @@
+X:95
+T:Dreischrittdreher
+A:Bavaria
+M:2/2
+N:fast
+O:Germany
+Q:1/8=400
+R:Zwiefache
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006a4.html
+%%ID:000006a4
+K:G mixolydian
+B2B2d4|dccc edd2|B2B2d4|dccc B4:|
+|: eeee edd2|dccc edd2|B2B2d4 | dccc B4:|
+S:https://www.folktunefinder.com/tunes/53249
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Rhythm Zwiefache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:151
+T: DIE BLUMEN AUF DEM FELDE
+N: E0734
+O: Europa, Mitteleuropa, Deutschland, Hessen, Giessen, Rabenau
+R: Liebes - Lied, Leid, Klage, Tod
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2B2B2 | d4B2
+d2 | e2d2c4 | B6z
+d | c2B2A2c2 | B2A2G2z
+A | B2c2d2c2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/76636
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

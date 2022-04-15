@@ -1,0 +1,29 @@
+X:366
+T: ES LEBE HOCH DER KRIEGERSTAND
+N: F0652
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, national
+M: 4/4
+L: 1/8
+K: D
+D,D,D, | A,3A,A,2B,C | D2z3
+F,D,F, | A,3A,A,2D2 | C4z2
+CB, | A,2E,E,C2B,B, | A,2E,2z2
+CB, | A,2E,E,C3B, | A,4z2
+A,2 | D2DDDEFD | A,4F,2
+B,A, | A,G,G,2G,B,A,G, | F,4z2
+A,2 | D2DDDEFD | A,4F,2
+B,A, | A,G,G,2G,B,A,G, | F,4z
+A,B,C | D4zF,G,A, | B,2z3
+EEE | F3FE3E | D4z
+S:https://www.folktunefinder.com/tunes/69926
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

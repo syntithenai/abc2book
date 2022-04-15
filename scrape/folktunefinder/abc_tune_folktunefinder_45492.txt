@@ -1,0 +1,36 @@
+X:58
+T:Steyrer Tanz in G, nr. 17
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in G
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:G
+V:1
+%violino 1mo
+GA |\
+BDBA G2 | FA,FGAB | cEcB A2 | BDBdGA |\
+BDBA G2 | FA,FGAB | cEcBAD | "in D" G4 :|
+V:2
+%violino 2do
+(Bc |\
+dD)(dc TB2) | AC ABcd | eEed c2 | dDdc B2 |\
+dD(dc TB2) | AC ABcd | eEed cD | B4 :|
+S:https://www.folktunefinder.com/tunes/45492
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 18
+T: Kelloholm Jig, the
+M:6/8
+L:1/8
+C:Peter Hyssett
+S:RSCDS Leaflet 32
+R:Jig
+K:G
+G \
+|  "G"D2B B^AB |   d^cd BGE |     D2B B^AB |  dcB "Am"c3 \
+| "D7"D2A A^GA |   cBc  AFE |     D2A A^GA |1 ed^c "G"d2 :|2 "D7"cBA "G"G3 |]
+[| "G"DGB d2d  |   ed^c dBG |     DGB dcB  | "Am"c2A  A3 \
+| "D7"DFA c2c  |   dcB  cAF |     DFA c2c  |    ed^c "G"d3 |]
+[| "G"DGB d2d  |   ed^c dBG |     DGB dBG  |  "C"F2E  E3 \
+| "Am"EAc ecA  | "G"DGB dBG | "D7"FAc e2F  |  "G"G3-  G2 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12671
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

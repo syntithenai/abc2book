@@ -1,0 +1,26 @@
+X:2730
+T:a Jigg
+A:North-West
+M:6/8
+N:P4 3/3
+O:England
+R:Jig
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000563.html
+%%ID:00000563
+K:G
+B2c d2g | faf g3 | g2d def | g2d d2A |\
+B2c d2g | faf g3 | e2d c2B | A3 c3 ::
+B2A G2A | B2c d2f| [e2g2]d def | g2d d2A |\
+B2A G2A | B2c d2f| e2d     c2B | A3 c3:|
+S:https://www.folktunefinder.com/tunes/36625
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

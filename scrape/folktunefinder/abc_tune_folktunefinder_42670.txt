@@ -1,0 +1,23 @@
+X:2213
+T:Sheridan's Hornpipe
+O:ireland
+R:hornpipe
+Z:id:hn-hornpipe-106
+M:C|
+L:1/8
+K:G
+B,D|GFGA Bdgf|agfc ed^cd|BGDG cAFG|ABcB AG (3FED|
+G,B,D=F ECEG|(3FED FA GBAc|Bgfg cAFD|(3GGG (3AGF G2:|
+|:fg|afdg bgfa|gfge dcBd|ceAc BcdG|FAcB AG (3FED|
+G,B,D=F ECEG|(3FED FA GBAc|Bgfg cAFD|(3GGG (3AGF G2:|
+S:https://www.folktunefinder.com/tunes/42670
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

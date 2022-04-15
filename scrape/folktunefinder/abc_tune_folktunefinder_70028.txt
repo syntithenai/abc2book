@@ -1,0 +1,25 @@
+X:468
+T: ES WAREN ZWEI KOENIGSKINDER
+N: F0882
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade, Liebe, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2_B3AB2 | G4_B2A4
+B2 | G3FG2A2G2D2 | G6-G4
+GA | _B3BB2d2c2B2 | A3_Bc2B4
+A2 | G3FG2A2G2F2 | G6-G4
+S:https://www.folktunefinder.com/tunes/70028
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade, liebe, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

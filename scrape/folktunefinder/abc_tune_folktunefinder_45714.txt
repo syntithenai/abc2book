@@ -1,0 +1,28 @@
+X:280
+T:Steirer (78.)
+C:traditionell
+A:Salzkammergut
+S:MIDI erhalten von Christian Amon. Nach einer kopie im besitz von Johann Stoeckl eines manuscriptes. Stoeckl(zitiert von Amon): "diese sammlung wurde 1935 im hause der familie Hohenlohe-Schillingfuerst gefunden. Sie wurde von einem der beiden brueder Steinegger 1866 verfasst. Die originale sind im Ausseer Kammerhofmuseum".
+M:3/4
+L:1/8
+K:G
+V:1
+d ed |\
+g2 Bd ed | f2 cd ed | ed ed cF | G2 Bd ed |\
+g2 Bd ed | f2 cd ed | ed ed cF | G4 z |*
+V:2
+B cB |\
+d2 GB cB | d2 AB cB | cB cB AD | B2 GB cB |\
+d2 GB cB | d2 AB cB | cB cB Ad | B4 z|*
+S:https://www.folktunefinder.com/tunes/45714
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

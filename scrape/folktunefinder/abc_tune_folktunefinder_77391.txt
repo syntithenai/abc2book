@@ -1,0 +1,30 @@
+X:1                   % tune no 1
+T:Dusty Miller, The   % title
+T:Binny's Jig         % an alternative title
+C:Trad.               % traditional
+R:DH                  % double hornpipe
+M:3/4                 % meter
+E:8                   % note spacing
+I:speed 300           % speed for playabc
+K:G                   % key
+B>cd BAG|FA Ac BA|B>cd BAG|DG GB AG:|\
+Bdd gfg|aA Ac BA|Bdd gfa|gG GB AG:|
+BG G/2G/2G BG|FA Ac BA|BG G/2G/2G BG|DG GB AG:|
+W:Hey, the dusty miller, and his dusty coat;
+W:He will win a shilling, or he spend a groat.
+W:Dusty was the coat, dusty was the colour;
+W:Dusty was the kiss, that I got frae the miller.
+\bigskip              % a bit of space
+M:6/8                 % default meter for the following tunes
+R:J                   % mark following tunes with a J (jig) for the index
+S:https://www.folktunefinder.com/tunes/77391
+S:http://www2.redhawk.org:8080/irish/abc/examples/
+S:http://www.firepowr.com/abc/English.abc
+% Rhythm Dh                  % double hornpipe
+% Rhythm J                   % mark following tunes with a j (jig) for the index
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

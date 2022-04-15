@@ -1,0 +1,28 @@
+X:2736
+T:Hunters House
+O:england
+C:Ed Reavy
+S:arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+G/2A/2|Bd~d2 cAFA|~G2BG DGBG|Bd~d2 cAFA|GBAG FDCE|\
+DGBG cAFA|(3BAG AF GABc|defg agfd|cAFA G2:|\
+G/2A/2|~B2 gB aBgB|~B2gf edcB|~A2ad bdad|dfaf gfed|1\
+~B2gB aBgB|~B2 gf edcB|~c2 Ag fdBd|cAFA BG G2:|2 Bdgb afgd|\
+Bdgf edcB|~c2 Ag fg (3agf|gdBd cAFA||
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/23187
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:570
+T:Greenholm
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+d|"G"dBG GBd|"C"efg g2e|"G"dBG GAB|"A7"ABG "D7"FED|
+"G"dBG GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3 -G2::
+B/2c/2|"G"dBd gfg|"C"ece gfg|"G"dBG GAB|"A7"A3 -"D7"A2d|
+"G"dBG GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/64862
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

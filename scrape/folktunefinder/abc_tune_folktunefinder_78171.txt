@@ -1,0 +1,28 @@
+X:150
+T: ADE DU LIEBES WALDESGRUEN
+N: B0179
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Wald; Abschied
+M: 4/4
+L: 1/8
+K: G
+D2 | d3cB2A2 | G2E2D2
+D2 | A4z2D2 | B4z2
+B2 | e3d^c2B2 | A2G2F2
+B2 | A4z2G2 | =F4z2
+AB | c2cBA2AB | c2B2A2
+cd | edc2cBAG | F2FGA2
+D2 | B3BA2d2 | G4z2
+D2 | B3BA2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/78171
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied, wald; abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:206
+T: WER WOLLTE SICH MIT GRILLEN PLAGEN
+N: F0353
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung
+M: 3/8
+L: 1/16
+K: D
+A,2 | D3CB,2 | A,4F,2 | G,4A,2 | F,2D,2
+G,F, | F,4DC | C4ED | C2A,2^G,A, | A,4
+A,2 | D3CB,2 | A,4F,2 | G,4A,2 | F,2D,2
+G,F, | F,4DC | C4ED | C2A,2^G,A, | A,4
+A,2 | C3B,C2 | D4A,2 | A,2G,2F,2 | F,2E,2
+A,2 | C3B,C2 | D4F,2 | ^G,2F,2G,2 | A,4
+A,2 | E2DCB,C | D4D2 | ^DE=DCB,A, | A,2D2
+=C2 | B,4C2 | D4E2 | C3B,C2 | D4
+S:https://www.folktunefinder.com/tunes/69766
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

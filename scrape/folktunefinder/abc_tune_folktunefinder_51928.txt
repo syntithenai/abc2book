@@ -1,0 +1,24 @@
+X: 1
+P: Pat the Budgie
+C: Graham Townsend 1961
+Z: John Chambers <jc@trillian.mit.edu>
+N: Pat was a budgie who perched on Graham's bow while he played.
+R: reel
+M: C|
+L: 1/8
+K: D
+A2 |::: "D"D2DF    A3F | "G"GFGB "Em"e3d | "A7"cA~A2 ^GABc |1,3 dc"D"de fdAF :|2,4 ~d2"D"ce d2 :|
+ef |::: "G"g2gf   gbag | "D"fddc    d2Bd | "A7"cA~A2  cdec |1,3 dc"D"de fedf :|2,4 ~d2"D"ce d2 :|
+fg |::: "D"a2z2 "G"b3f | "D"abaf    dafd | "A7"cA~A2  cdec |1,3 dc"D"de fdfg :|2,4 ~d2"D"ce d2 :|
+S:https://www.folktunefinder.com/tunes/51928
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR23_B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

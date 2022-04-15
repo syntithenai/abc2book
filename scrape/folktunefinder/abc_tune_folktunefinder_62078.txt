@@ -1,0 +1,28 @@
+X:55
+T: DEUTSCHE WORTE HOER ICH WIEDER
+N: B0539
+O: Europa, Mitteleuropa, Deutschland
+R: Wander -, Heimat - Lied
+M: 4/4
+L: 1/16
+K: D
+D,3D, | F,8D,4F,2D,2F,2 | A,8F,4
+A,2F,2A,2 | D6D2C4D4 | E8z4
+C3C | E4D4B,4D4 | C6D2E4
+C3C | E4D4B,4F3E | C8z4
+A,3A, | A,8-A,3A,A,2E,2A,2 | E8z4
+C3C | C8-C3CC2A,2C2 | E12z4
+F8D4z4 | D8B,4z4
+A,3B,C3DF4E4 | D8z4
+A,4 | F8D4z4 | D8B,4z4
+A,3B,C3DF4E4 | D4z2D2D4D4 | F12
+S:https://www.folktunefinder.com/tunes/62078
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Wander -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

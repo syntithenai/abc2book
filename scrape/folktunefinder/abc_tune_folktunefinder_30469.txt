@@ -1,0 +1,26 @@
+X:800
+T:Mathew Briggs
+B:Aird's Airs and Melodies vol 2
+M:6/8
+N:Also in Winder under this title. Drummond Castle, of course.
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000168.html
+%%ID:00000168
+K:A dorian
+ABA a3| gef g3| cdc edc| B2g dBG|\
+ABA a3| gef g3| e3 deg| edB A3::
+cdc efe| d2d (ded)| (cdc) (edc)| B2g dBG|\
+cdc edc| deg a2g| e3 deg| edB A3:|
+S:https://www.folktunefinder.com/tunes/30469
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

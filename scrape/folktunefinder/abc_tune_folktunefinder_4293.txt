@@ -1,0 +1,25 @@
+X: 1
+T: Emma
+O: Trad Finland
+M: 3/4
+L: 1/4
+K: Am
+|: A | "Am"eee | cAc |     eee | cAc | "E7"BBB | dcB | "Am"A2A | A2 :|
+|: e | "Dm"a2a | agf | "Am"e2e | edc | "E7"BBB | dcB | "Am"A2A | A2 :|
+S:https://www.folktunefinder.com/tunes/4293
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Emma.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Emma_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Emma.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Emma_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz/Emma_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Emma_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Emma_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/test/Emma_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Finland/waltz/Emma_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/waltz/Emma_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

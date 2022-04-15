@@ -1,0 +1,29 @@
+X: 4
+T: March, A (not really!)
+C: John Clews MS 1832
+N: Written in 6/8 but appears to be in 9/8 or 3/2.Possibly author not familiar
+N: with 9/8 and attempted to make tune fit 6/8. This "March" therefore
+N: turns out to be a lovely slip-jig. NeilB.
+S: Neil Brookes <neil@brookes36.freeserve.co.uk> tradtunes 2006-6-18
+N: barred in 6/8 in MS
+N: 1 dotted in MS in effort to fit into 6/8
+N: 2 notes EGE precede C2C in MS - probable error which I have taken the liberty of editing
+M: 9/8
+L: 1/8
+K: G
+|: G2G BAG BdB | "1"G2c BAG FED      | "1"C2C E2E "2"EGE | FED DEF      G3 :|
+|: G2G g2d BdB |    G2G g2d B/2c/2dB |    A2e e2c    e2c | d2g f/2g/2af g3 :|
+|: gec BAB GAB |    gec BAB GAB      |    c2e e2c    e2c | d2g f/2g/2af g3 :|
+S:https://www.folktunefinder.com/tunes/18539
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/March_A_not_really_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/March_A_not_really_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/March_A_not_really_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/March_A_not_really_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:103
+T:Baille de Panderu (CT 472)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, dictada por Manuela y Josefa Martnez Martnez, de ochenta y ochenta y dos aos respectivamente, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 472
+M:6/8
+L:1/8
+Q:3/8=88
+K:C
+|Gcc cBA|B2G- G3|Gcc cBA|
+B2G- G2z|_eee edc|d2_B- B3|
+Gcc c=BA|B2G- GAF|G6-|G2 z4||
+W:Quisiera que me dixeras,
+W:dientro de mui pocu tiempu
+W:que llugar ye'l qu'ocupa
+W:mio corazn nel to pechu. Ai amor!
+W:
+S:https://www.folktunefinder.com/tunes/58990
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

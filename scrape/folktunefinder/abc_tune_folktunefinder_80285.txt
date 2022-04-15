@@ -1,0 +1,25 @@
+X:226
+T: Die Linde im Himmelreich
+N: A0582
+O: Europa, Mitteleuropa, Deutschland
+N: H. v. Laufenbergs geistl. Lieder Hs.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/4
+L: 1/4
+K: C
+C | C2C | E2E | G2G | G2
+G | A2c | B2G | AGA | G2
+G | A2c | B2A | G2F | E2
+E | G2G | E2D | C3 | C2
+S:https://www.folktunefinder.com/tunes/80285
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

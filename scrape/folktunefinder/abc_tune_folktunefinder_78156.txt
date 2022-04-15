@@ -1,0 +1,28 @@
+X:135
+T: ALS ICH AUF MEINER BLEICHE
+N: B0166
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 4/4
+L: 1/8
+K: A
+E2 | A2A2c2B2 | B2A2A2
+A2 | B3cdBAG | A2z4
+E2 | A2A2c2B2 | B2A2A2
+A2 | B3cdBAG | A2z4
+c2 | B2e2^d2c2 | c2B2B2
+A2 | G3BBAGF | E2z4
+e2 | e^dd2=d2d2 | d2c2c2
+A2 | B3cdBAG | A2z4
+S:https://www.folktunefinder.com/tunes/78156
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

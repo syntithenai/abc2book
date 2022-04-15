@@ -1,0 +1,28 @@
+X:177
+T: Muede kehrt ein Wandersmann zurueck
+N: D1008
+O: Europa, Mitteleuropa, Deutschland, Hessen, Hanauer Kinzigtal,
+N: DVA-Signatur A 46 222
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+DG | B3AGFGB | D4z2
+DG | A3GFAed | B4z2
+GA | B2d2cBAG | E4z2
+GE | D3GFAed | B4z2
+GA | B2d2cBAG | E4z2
+GE | D3GFAed | B4z2
+S:https://www.folktunefinder.com/tunes/72634
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

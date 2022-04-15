@@ -1,0 +1,25 @@
+X:11
+T: ES WOLLT EIN NICKELMANN FREIEN GEHN
+N: E0001
+O: Europa, Mitteleuropa, Deutschland, Magdeburg, Leitzkau
+R: Sage, Maerchen -, Zauber - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | F2F2FEFG | ABAGF2
+AA | B2B2A2A2 | G4z2
+AB | c2G2GAGF | EFEDC2
+CC | F2F2G2d2 | c4
+B4 | A2A2AGG2 | F4z2
+S:https://www.folktunefinder.com/tunes/78452
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

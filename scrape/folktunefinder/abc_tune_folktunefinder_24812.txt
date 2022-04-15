@@ -1,0 +1,29 @@
+X:4360
+T:Moran's Return
+O:england
+M:4/4
+L:1/8
+C:Traditional
+S:"Lead The Knave," Nollaig Casey & Arty McGlynn
+R:Air
+K:D
+FA|:.B2 .E2 .E2 AG|.F2 .D2 .D2 de|(f>f) e/2 dc dB AF|E2 EF G2 GA|
+.B2 .E2 .E2 AG|.F2 .D2 .D2 de|(f>f) e/2 dc dB AF|1 E2 D2 D2 (3EFG:|2 E2
+D2
+D2 FE|
+|:D2 dc d3 e|fe dc B2 AF|B2 e2 e3 f|gf ed e2 de|
+f2 gf e2 fe|de dB A2 de|(f>f) f/2 dc dB AF||1 E2 D2 D2 FE:|2 E2 D2 "d.c.
+"D2 |
+S:https://www.folktunefinder.com/tunes/24812
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

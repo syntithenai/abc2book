@@ -1,0 +1,27 @@
+X: 1
+T: Belladrum House
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems tape
+M: 4/4
+R: strathspey
+L: 1/8
+K: D
+A, \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | A-<F FE/D/ "A7"E2- E>F \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | "A7"A-<F F>E "D"D3 :|
+f \
+[| "A"e>A f>A g>A f>A | e>A g>f e2- e>f \
+| e>A f>A g>A f>A | (3fga (3gfe "D"d>A F>A |
+|  "D"d>f A-<f d>f A-<f | d>f A-<f "A7"e2- e>g \
+| "D"(3fga (3gfe "Bm"(3dcB (3AGF | "G"G>B "A7"A-<F "D"D3 |]
+S:https://www.folktunefinder.com/tunes/19198
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BelladrumHouseS.abc-orig
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BelladrumHouseS.abc-orig
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

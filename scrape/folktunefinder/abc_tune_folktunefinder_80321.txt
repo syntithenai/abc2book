@@ -1,0 +1,26 @@
+X:262
+T: Maria Magdalena - Ruf
+N: A0618
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 II No. 8.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+G | _B2c2 | d2=f2 | dc_BA | G2
+G2 | d2de | =f2g2 | =f2z
+g | g2g2 | =f2_ee | dcd2 | c2
+=f2 | _edc2 | _BcBA | G3
+S:https://www.folktunefinder.com/tunes/80321
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

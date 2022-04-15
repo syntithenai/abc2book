@@ -1,0 +1,35 @@
+X:290
+T:Danza de La Panadera
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Versin 2
+A:Asturies
+O:Teberga
+Z:DyC en Teberga
+M:3/8
+L:1/8
+Q:3/8=100
+K:F
+|: c2 c|cdc|BAB|BAB|c3|c2 c|cdc|BAc|BAG|F3|
+[M:2/4]
+[Q:1/2=120]
+|F2 z F|GGG B|A3 G|FFF E|
+|F2 z F|GGG B|A2 A G|FFF E|F2 z2|
+[M:3/8]
+[Q:3/8=100]
+|A2 c|BAG|F3|A2 B|cdc|BAc|BAG|F3 :|
+S:https://www.folktunefinder.com/tunes/59177
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

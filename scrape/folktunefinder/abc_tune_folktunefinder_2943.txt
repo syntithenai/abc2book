@@ -1,0 +1,35 @@
+X: 1
+T: Syrtos: Psaropoula
+R: syrtos
+O: Greece
+M: 2/4
+L: 1/16
+K: C
+[cE][dF][eG] "A"\
+| "F"[f3A3][fA] [f2A2][f2A2] \
+| "Dm"[fA][eG][fA][gB] [fA][eG][d2F2] \
+| "C"[e3G3][eG] [e2G2][e2G2] \
+| "Am"[eG][dF][eG][fA] [eG][dF][c2E2] \
+| "Dm"[d3F3][dF] [d2F2][d2F2] |
+| "G7"[dF][eG][dF][cE] [dF][cE][d2F2] \
+| "G7"[gB][^fA][gB][ac] [gB][=fA][eG][dF] \
+| "C"[cE][BD][cE][dF] [eG][fA][gB][fA] \
+| "G7"[e2G2][dF][cE] [BD][cE][dF][BD] \
+| "C"[c8E8] |]
+"B"\
+[| "C"[c3E3][cE] [c2E2][d2F2] \
+| [e3G3][eG] [eG][dF][c2E2] \
+| "G7"[d4F4] [B2D2]{A}[G2B,2] \
+| "C"[c8E8] |
+S:https://www.folktunefinder.com/tunes/2943
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/SyrtosPsaropoula2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/SyrtosPsaropoula2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SyrtosPsaropoula2.abc
+% Rhythm Syrtos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

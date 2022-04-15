@@ -1,0 +1,30 @@
+X: 1
+T: Tam Lin
+T: Howling Wind
+T: Glasgow Reel
+C: Davey Arthur Finbar Furey
+M: 4/4
+L: 1/8
+S: Paddy O'Brien Tune Collection
+R: Reel
+N: Paddy O'Brien played this in Dm, but we play it in Em around
+N: here.....The original name is Tam Lin, he renamed it with "The Howling
+N: Wind" because he thought it needed a better name.
+K: Am
+|: AG \
+| "Am"EA~A2 "G"GABG | "F"F2AF cFAF | "G"G2BG dGBG | FGAc BAGF |
+| "Am"EA~A2 "G"GABG | "F"F2AF cFAF | "G"G2BG dGBd | cBAG "Am"EA :|
+|: ce \
+| "Am"aeed cAce | aeed cAce | "G"gd~d2 Bdde | gdde gabg |
+| "Am"aeed cAce | aeed cAGA | "F"FEFG AGAB | "G"cBAG "Am"EA :|
+S:https://www.folktunefinder.com/tunes/18188
+S:http://trillian.mit.edu/~jc/music/abc/reel/TamLinR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TamLinR_Am.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

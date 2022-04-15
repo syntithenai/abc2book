@@ -1,0 +1,27 @@
+X:1
+T:Fanfare
+%%continueall 1
+M:2
+L:1/8
+Q:"Anim"
+K:C
+%%staves [1 2]
+V:1
+cdcd | c2G2 efef | e2c2 gaga | g2c'g g2ag | f2af f2gf | !!e2ge egfe | !!d2gf g2d2 | e2ed e2!!B2 |
+c2gf g2d2 | e2ag a2e2 | ^fdga !!^f3g | g4 :| dede | d2G2 d2!!e2 | f2f2 f2gf | !!e3d egfe |  !!d2g2g2g2| g2fe d2!!e2 | f2a2a2a2 | 
+a2gf e2!!f2 | g2gf e2g2 | c2fe defd | efed cGAB | cdcd eBcd | efef g4- | gaga g4- | gaga g4- | gaga gaga | g2fe !!d3c | c4 |]    
+V:2
+z4 | z4 cdcd | c2G2 efef | e2c2 e2fe | d2d2 dfed | c2cB cedc | !!B4 z4 | z2gf g2d2 |
+e2ed e2B2 | c2cB c2A2 | dcBc !!A3G | G4 :| BcBc | B2BA B2^c2 | d2AG A2!!B2 | c2G2 c2dc | !!B4z4 | z8 | z2 f2f2f2 | f2ed c2!!d2 |
+e2ed c2e2 | A2Bc !!B2G2 | c4z4 | z4 zGAB | cdcd efef | e4- efef | e4- efef | efef efef | e2dc !!B3c | c4 |]
+S:https://www.folktunefinder.com/tunes/40164
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

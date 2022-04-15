@@ -1,0 +1,23 @@
+X: 112
+T: Saulocker (in F)
+R: Zwiefacher
+M: 34/4
+L: 1/8
+K: F
+|: (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA B2 | "F"d2 c=B c2 \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA Bc | "F"A4 :|
+|: A2 \
+| "C7"A2 G^F G4 | "F"B2 A^G A4 | "C7" c2 BA Bc | "F"d2 cB (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 |1 "C7"c2 BA Bc | "F"A4 :|2 "C7"c2 =Bc de | "F"f4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5159
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 34/4
+% Has_accompaniment_chords Has chords

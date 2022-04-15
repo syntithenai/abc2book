@@ -1,0 +1,29 @@
+X:5000
+T:Proudlock's Hornpipe
+A:Northumberland
+L:1/8
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001145.html
+%%ID:00001145
+K:G
+(3DEF |\
+GFGB AGAB | G2gf gedc | (3Bcd BG (3ABc AF | GFGA GFED |
+GFGB AGAB | G2gf gedc | (3Bcd BG (3ABc AF | G2B2 G2 ::
+Bc |\
+dedc B2(3GAB | cdcB A2Bc | dedc B2g2 | agfe dcBA |
+GFGB AGAB | G2gf gedc | (3Bcd BG (3ABc AF | G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/37079
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

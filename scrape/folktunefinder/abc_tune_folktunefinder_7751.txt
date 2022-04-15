@@ -1,0 +1,23 @@
+X: 2
+T: Bulgar (Russian)
+R: bulgar
+O: Abe Schwartz
+D: Naftule's Dream Music
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A_B^c
+|: "A"cB A2 | cB A2 | cB AB | "Gm"AG G2 | FG AB | cd cB |1 "A"A2 c2 | e2 a2 :|2 "A"A4- | A4 |]
+[| "A"A2 f2 | ed cd | e3 d | cB A2 | "A"A2 f2 | ed cd | e4 | a4 |
+| "Gm"d>c d>c | dc BA | G2 AB | A G3 | gf ed | cG AB | "A"A4- | A4 |]
+S:https://www.folktunefinder.com/tunes/7751
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Bulgar1.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

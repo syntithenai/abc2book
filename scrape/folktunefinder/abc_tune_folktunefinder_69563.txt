@@ -1,0 +1,31 @@
+X:3
+T: UND SCHAU ICH HIN SO SCHAUST DU HER
+N: F0019
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Klage, Schmerz
+M: 2/4
+L: 1/16
+K: C
+G,2 | ^F,2G,2A,2G,2 | ^F,2G,2A,2
+G,2 | G,2F,2D2F,2 | F,2E,2C2
+G,2 | ^F,2G,2A,2G,2 | ^F,2G,2A,2
+G,2 | G,2F,2F3B, | C4z4
+D,4G,4 | B,6
+B,C | B,2A,2A,2A,B, | A,2G,2G,2
+B,C | B,2A,2A,2A,B, | A,2G,2G,2
+B,C | B,2A,2E3D | G,4z2
+G,2 | ^F,2G,2A,2G,2 | ^F,2G,2A,2
+G,2 | G,2F,2D2F,2 | F,2E,2C2
+G,2 | ^F,2G,2A,2G,2 | ^F,2G,2A,2
+G,2 | G,2F,2F3B, | C4z2
+S:https://www.folktunefinder.com/tunes/69563
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, klage, schmerz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

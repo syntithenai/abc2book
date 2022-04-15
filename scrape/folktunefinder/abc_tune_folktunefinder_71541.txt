@@ -1,0 +1,27 @@
+X:512
+%%topmargin 3cm
+T:Lady Charlotte Durham
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+D | G<G g<g ~g>d BG | GG ~GA/B/ E3 ~x (F/G/) | .D.D D>E F>G A>B | {/d}c>A {/c}B>G B/A/G/F/ EA |
+G<G g<g ~g>d BG | GG ~GA/B/ E3 ~x (F/G/) | DD D>E FGAB | Tc3/2(d/3e/3) dF G3 ::
+B/c/ & "_or" z | dd "#"~dg ddd (B/c/) & (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ | d"#"~d (eg) d3 (B/c/) & (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ (3B,/D/G/ B, z | "_expres"dd {/d}b>a {/a}g>f {/f}e>d |
+{/d}c>B {/B}A>G {/G}F>E FD | G<G g<g (g/b/)(a/f/) (g/d/)(B/G/) | GG ~GA/B/ E3 ~x (F/G/) | DD DE ~F>G ~A>B | Tc3/2(d/3e/3) dF [B,3D3G3] :|
+S:https://www.folktunefinder.com/tunes/71541
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Charlotte_Durham.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0512.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

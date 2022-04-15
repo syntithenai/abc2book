@@ -1,0 +1,25 @@
+X:376
+%%topmargin 3cm
+T:Miss Margaret Gr\aeme of Inchbrakie
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+g | d<G(Td>c) d>GG<f | c<F(Tc>A) c>FA<f | d<G(Td<c) d>GG<g | Tf>d{/d}c>A {/^F}G2 G :|
+d | (g<a){ga}b>g | a>^fg>d | Tf>dc<f | A<Fc>A | (g>a)b>g a>^fg>d | Tf<cf>A {/^F}G2 G>d |
+(g>a)b>g | a>^fg>d | Tf>dc<f A<Fc>A | {/^F}Gd{/d}c>A {/^F}G2 G |]
+S:https://www.folktunefinder.com/tunes/71405
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Margaret_Graeme_of_Inchbrakie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0376.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

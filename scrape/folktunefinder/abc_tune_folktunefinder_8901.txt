@@ -1,0 +1,34 @@
+X: 1
+T: O jul med din glede
+C: Words: Gustava Kielland
+C: Tune: Trad (Norway)
+M: C
+L: 1/8
+K: C
+C |\
+   "C"[G2E2C2] "G"[GD][GD] "C"[E2C2] CC |\
+   "F"[A2F2] [AF][AF] "C"[G2E2] z[GF] |\
+   "C"[c2E2] [GE][FD] [E2C2] [GE][EC] |
+w: 1.~O jul med din gle-de og barn-li-ge lyst, vi \on-sker deg al-le vel-
+w: 2.~I \Os-ter-lands vi-se i tre stjer-ne-menn, vi vet jo nok hvor-hen i
+w: 3.~S\aa rek-ker jeg deg n\aa med gle-de min h\aand. Kom skynd deg og gi meg den
+   "G7"[D4B,4] "C"C2 zC |\
+   "C"[G2E2C2] "G"[GD][GD] "C"[E2C2] CC |\
+   "F"[A2F2] [AF][AF] "C"[G2E2] z[GF] |
+w: kom-men. Vi hil-ser deg al-le med jub-len-de r\ost, ti-
+w: dra-ge. Ti vi vil-le og-s\aa s\aa gjer-ne der-hen og
+w: and-re. S\aa knyt-ter vi kj\aer-lig-hets hel-li-ge b\aand og
+   "C"[c2E2] [GE][FD] [E2C2] [GE][EC] |\
+   "G7"[D4B,4] "C"C2 |[| z[cE] |\
+   "G7"[BD]B/c/ [dF][BD] "C"[G2E2] [c2E2] |
+S:https://www.folktunefinder.com/tunes/8901
+S:http://trillian.mit.edu/~jc/music/abc/Scand/OJulMedDinGlede.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/OJulMedDinGlede_CwW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/xmas/OJulMedDinGlede_CwW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/OJulMedDinGlede_CwW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

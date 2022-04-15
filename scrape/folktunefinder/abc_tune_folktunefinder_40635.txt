@@ -1,0 +1,25 @@
+X:56
+T:Tralman
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:(AB)x3 A
+L:1/8
+M:2/4
+K:F
+P:Voorspel
+A/B/ | "F"cc cA/G/ | "Dmin"FF FA | "G"G>A "C7"BE | "F"F3F2 z |]
+P:A
+A/B/ | "F"[cA][cA] [cA]A/G/ | "F"FF FA | "C7"G>A BG | "F"GF FA/B/ | "F"[cA][cA] [cA]A/G/ | "F"FF FA | "C7"G>A BE |1 "F"F2 zA/B/ :|2 "F"F2 z |]
+P:B
+z | "F"CF A2| "C7"GE C2 | "C7"cB Gc | "F" [A2F2] F2 | "F"CF A2| "C7"GE C2 |1 "C7"cB AG | "F"[A2F2] z2 :|2 "C7"c=B _BG | "F"F2 z |]
+S:https://www.folktunefinder.com/tunes/40635
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:100
+T:Bank of Ireland, The
+M:C|
+L:1/8
+R:Reel (Key of Dmix)
+K:Dmix
+"C"c2AB cBAG | "G"EGDG EGAB | "C"c2AB cBAG | "D"Add^c dfed |
+"C"c2AB cBAG | "G"EGDG EGAB | "C"c2AB cBAG |1 "D"Add^c d2AB :|2 "D"Add^c d3e ||:
+"D"~f3d "A"e2fe | "G"dfed "A"^cA~A2 | "D"~f3d "A"e2fg | "D"afge d2^cd |
+"Am"ea~a2 efge | "D"dfed "C"cAGB | "D"Add^c defg |1 "A"afge "D"d3e :|2 "A"afge "D"d2ed |]
+S:https://www.folktunefinder.com/tunes/62926
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Reel (key of dmix)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

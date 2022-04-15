@@ -1,0 +1,40 @@
+X:9
+T:polka jenny lind                           %title
+C:                           %composer
+O:                           %origin
+M:2/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=120                           %tempo  Q:1/4=80
+K:F                           %key C  Cm
+%deel A
+K:F
+P:intro
+"Dm"fd "C"fe/d/|"Bb" eb"A"a2|"Bb"ag "A"fe|"Dm"dz|]
+c>B|:"F" Ac/A/ "G" Bd/=B/|"F"ca "F"a/g/a/A/|"C"Bg "G" g/f/g/B/|"F" Af "F"f/e/d/c/|
+"F"Ac "C" Bd |"F" ca a/g/a | "Bb" b/a/g/f/ "C7" e/f/g/e/|1 "F" fc=B "C7"_B :|2 "F"f2zf|]
+%deel B
+|:"Dm" fd "C"fe/d/|"Bb"eb "A"a2|"Bb"ag "A"fe|"Dm"fe/f/ "Bb"d/c/d/e/|
+"Bb" fd "G" fe/d/|"C" eb "F" a2|"A"ag "A7"fe|1 "Dm" d zf:|2 "Dm" dz3|]
+%deel C
+K:C
+|:"C" GE/G/ c>E |"F" GF "F"G/F/G|"G"FE/F/ "G7"d>B|"C"dc "C"c/B/c| "C"GE/G/ "C"c>E|
+"F"GF F>E| "G"D/E/F/G/ "G7" A/G/A/B/ |1 "C" c/G/E/G/ "C"C2 :|2 "C" cc c/B/=B/A/|]
+%deel A
+K:F
+|:"F" Ac/A/ "G" Bd/=B/|"F"ca "F"a/g/a/A/|"C"Bg "G" g/f/g/B/|"F" Af "F"f/e/d/c/|
+"F"Ac "C" Bd |"F" ca a/g/a | "Bb" b/a/g/f/ "C7" e/f/g/e/|1 "F" fc=B "C7"_B :|2 "F"f2zf|]
+%deel B
+|:"Dm" fd "C"fe/d/|"Bb"eb "A"a2|"Bb"ag "A"fe|"Dm"fe/f/ "Bb"d/c/d/e/|
+"Bb" fd "G" fe/d/|"C" eb "F" a2|"A"ag "A7"fe|"Dm" d4 :|
+S:https://www.folktunefinder.com/tunes/45802
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:2480
+T:Harmonica
+O:england
+P:AAB
+S:Kevin Briggs, via EF
+M:6/8
+K:G
+F=FF3/2\
+P:A
+d|"G"g2d B2g|"Am"e2c A2G|"D7"FGA DEF|
+"G"G2B "D7"d2e/2f/2|"G"g2d B2g|"Am"e2c "A7"A2G|"D7"FGA DEF|"G"G3 G2:|
+P:B
+d|"D7"c2a a2c|"G"B2g g2B|"D7"ABc def|"G"g2a b2d|"D7"c2a a2c|"G"B2g g2b|
+"D"agf "A7"ed^c|"D"dFG "D7"ABc|"G"dBg "C"ecg|"G"dBg "C"ecg|"G"dcB BAG|
+"D7"FGA A2B/2c/2|"G"dBg "C"ecg|"G"dBg "C"ecg|"G"dcB "D7"AGF|"G"G3 G2||
+S:https://www.folktunefinder.com/tunes/22931
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

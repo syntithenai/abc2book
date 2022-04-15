@@ -1,0 +1,25 @@
+X: 1
+T: the Maids Of Castlebar
+T: McFarley's Reel
+M: 4/4
+L: 1/8
+R: reel
+K: D
+ABc \
+[| dD (3DDD EDB,E | DEFA BAFA | d2cd (3Bcd AF | DEFD EDB,D |
+|  FD (3DDD EDB,E | DEFA BAFA | dfec dBAG | FDEF D2Bc ||
+|| dD (3DDD EDB,E | DEFA BAFA | dDcD BDAD | DEFD EDB,D |
+|  FD (3DDD EDB,E | DEFA BAFA | dfec dBAG | FDEF D4   |]
+|: {^g}a2^ga fd (3ddd | fdad fddf | (3gfe be geef | (3gfe be geeg |
+|  ~f3a ~g3e | fdec dcBA | Bcde (3f^ga ec | dBAG FDD2 :|
+S:https://www.folktunefinder.com/tunes/17608
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaidsOfCastlebar_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MaidsOfCastlebar_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MaidsOfCastlebar_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

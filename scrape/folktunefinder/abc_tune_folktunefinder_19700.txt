@@ -1,0 +1,31 @@
+X: 1
+T: the Waukin' o' the Fauld
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C
+L: 1/16
+K: Ador
+G2 \
+| "Am"EA3 A3B A4 g3e | "G"d3B A2G2 E4 D3E \
+| "G"G3A B3A GE3 D3E | "G"G3A B3A "Em"G3E DG3 |
+| "Am"EA3 A3B A4 G3A | "G"B3A G2d2 "C"e4 g3a \
+| "G"b3a g3e d2ef g3B | "Em"A3G EG3 "Am"A4 A2 |]
+B2 \
+| "Am"Aa3 a3b a4 g3a | "G"b4 a3g e4 d3e \
+| "G"g3a gb3 G3A BG3 | "C"gfga g2b2 "Em"G2A2 B2G2 |
+| "Am"Aa3 a3b a4 g3f | "C"e3d eg3 a4 g3a \
+| "G"bag2 age2 d2ef g3B | "Em"A3G EG3 "Am"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/19700
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Waukin_o_the_Fauld_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Waukin_o_the_Fauld_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

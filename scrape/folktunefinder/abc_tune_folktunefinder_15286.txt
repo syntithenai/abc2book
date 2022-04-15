@@ -1,0 +1,29 @@
+X: 13
+T: Karam Fil
+L:1/8
+O: Bulgaria
+C: presented by Jaap Leegwater
+S: adapted from Richard Geisler Feb 1984
+M:7/8
+Q:1/4=120
+K:F#m
+%%MIDI gchord f3f2f2
+f3-f2 cd |"Dm" edc d3c|"B"B2 B eddc|"A" cAB cBAG|
+"F#m" F3 c2-cd|"Bm" cBA B2 BF |"C#7" A3 BG- GF |"F#m" F3-F2-F2|
+C3 F2 G2 | A3 A4| G3 "C#7" G2 A2 |"F#m" G2 F F4|
+"E7" E3 A2 B2 | "A" c3 c4| "E" B2 c/2B/2 A2 B2| "A" c3-c4|
+"F#m" F3 F2 d2 | "Bm" c2 B B4| "E7" B3 A2 G2| "A" A2 B c4|
+"C#m" C3 C2 B2| A3 G4|  G3 F2 ^E2| "C#7" G/2A/2G F "F#m" F4|
+|: "Bm" f2 e d4|"F#m" e2 d c4| "Bm" B2 c/2B/2 A2 B2| "F#n" c3-c4|
+"Bm" B2 B edcB| "F#m" A2 B c4| "C#7" BBA AG GF| "F#m" F3-F2-F2 :|
+S:https://www.folktunefinder.com/tunes/15286
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/KaramFil.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

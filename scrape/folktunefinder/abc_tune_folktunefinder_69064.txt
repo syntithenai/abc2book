@@ -1,0 +1,27 @@
+X:205
+T: IM WALD UND AUF DER HAIDE
+N: Z0204
+O: Europa, Mitteleuropa, Deutschland, Anclam
+R: Jaeger - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | G,4G,2G,4G,2 | G,4E2C2B,2
+C2 | A,4A,2A,4A,2 | A,4F2D2C2
+D2 | B,4B,2B,2C2D2 | E6
+F2E2D2 | C4C2B,2A,2B,2 | C8
+C2D2 | E4EEE4EE | G6
+G2F2E2 | D4D2D2C2D2 | E6
+F2E2D2 | C4C2B,2A,2B,2 | C6
+G2F2D2 | D4D2D2C2D2 | C8z2
+S:https://www.folktunefinder.com/tunes/69064
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

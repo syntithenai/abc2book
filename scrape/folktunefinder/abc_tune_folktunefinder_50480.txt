@@ -1,0 +1,25 @@
+X:31
+T:3. THE BRIDGE OF ATHLONE (48 bar jigs)
+T:Dingle Regatta
+R:Jig
+O:Ireland
+M:6/8
+K:G
+P:A
+d^cd e2d|B^AB d2B|A2A AGA|B2A G2^c|\
+d^cd e2d|B^AB d2B|A2A DEF|G3 G3::
+P:B
+d2d def|g2g g2g|a2a aga|b2a gfe|\
+d2d def|g2g gfg|a2g f2e|def g3::
+P:C
+g3 d3|BdB G3|A2A DEF|G2B d3|\
+g3 d3|BdB G2d|A2A DEF|G3 G3:|
+S:https://www.folktunefinder.com/tunes/50480
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set03.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

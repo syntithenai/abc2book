@@ -1,0 +1,28 @@
+X: 1031
+T:Duke of York New March
+M:4/4
+L:1/8
+S:Armitt MS
+N:'Chords' in bar 4 - the upper notes are shown above the bar of the
+N:quaver groups, the lower notes are shown below -  implies alternatives
+N:rather than fiendishly clever double stopping  * This note could be a
+N:quaver, but in a couple of other places the beam of the quavers is
+N:over-enthusiastically long and it makes more sense this way.  The first
+N:'F' in this bar is shown with a sharp sign in front of i
+K:G major
+D/2E/2F|G2GGG2B/2A/2G|d2ddd2f/2e/2d|g2d2B2G2|[Aa][Gg][Ff][Ee] [Dd][Cc][B
+,B][A,A]|G2GGG2B/2A/2G|d2ddd2g|f/2g/2a b/2a/2g f2e2|d2ddd2:||:Bc|dcded2c
+B|A2g2a4|cAccc2BA|G2g2g4|dcded2cB|AGABA2AB|cBcd c2BA|GFGA"*"G2 FE|((3DEF
+)(3EFG(3FGA(3GAB|(3ABc(3Bcd(3cde(3def|(3gbg(3edc B2A2|G2GGG2:||
+S:https://www.folktunefinder.com/tunes/31538
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

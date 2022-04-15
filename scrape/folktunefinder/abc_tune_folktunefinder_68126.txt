@@ -1,0 +1,18 @@
+X:39
+T:Drunken Sailor (a)
+M:2/4
+L:1/16
+K:DMIX
+{F}A4 {F}A4|{F}A2D2 F2A2|G2G2 G2G2|G2C2 E2G2|
+{F}A4 {F}A4|{F}A2B2 c2d2|c2A2 G2E2|D4   D4  |
+ A2AA  A2AA|   A2D2 F2A2|G2GG G2GG|G2C2 E2G2|
+ A2AA  A2AA|   A2B2 c2d2|c2A2 G2E2|D4   D4 ||
+S:https://www.folktunefinder.com/tunes/68126
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

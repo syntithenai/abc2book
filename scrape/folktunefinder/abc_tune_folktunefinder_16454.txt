@@ -1,0 +1,29 @@
+X: 1
+T: Polska efter Kus-Erik
+R: J\"arvs\"opolska / Skrea Fr\aan Nor
+S: Matt Fichtenbaum 2002-7
+Q: 1/4=110
+M: 3/4
+L: 1/16
+K: E
+|: e2- \
+| e2fg a2af g2ge | b2bg a2af (gf)ed | e2fg a2af g2ge | (gf)ed e2ge [B4E4] |
+| e2fg a2af g2ge | b2bg a2af gfed | e2fg a2af g2(ge) | (gf)ed e6 :|
+K: A
+|: (f2 \
+| e2)d2 c4 c2Bc | (d2c2) B6 (f2 | e2)d2 c4 c2Bc | (de)dc B6 (c2 |
+| B3)G A2G2 A2B2 | (cB)cd e2fg a3g | f2e2 d2fd c2ec | B2AG A6  :|
+S:https://www.folktunefinder.com/tunes/16454
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_KusErik_EA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_KusErik_EA.abc
+% Rhythm Ja?rvso?polska / skrea fr%C3%A5n nor
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:159
+T: Wiegenlied am Christkripplein
+N: A0525
+O: Europa, Mitteleuropa, Deutschland
+N: Paderborner Gsgb 1609 S. 33
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/1
+L: 1/1
+K: F
+A | A2F | cBG | FGA | F3
+c3 | A3 | c3 | A3
+FGA | cBA | F2E | F2
+c | c2B | A2d | cBA | G2
+c | GAB | c2F | F2E | F2
+B | BAG | ABc | G2A | F2
+S:https://www.folktunefinder.com/tunes/80218
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

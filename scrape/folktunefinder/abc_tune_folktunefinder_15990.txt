@@ -1,0 +1,50 @@
+X: 1
+T: Thunderhead Jig
+M: 6/8
+C: Grey Larsen
+S: Grey Larsen
+N: As of Oct 1997:
+N: |  Grey Larsen
+N: |  Musician, Producer, Recording Engineer, Music Editor
+N: |  glarsen@bluemarble.net
+N: |  8920 Southshore Drive, Unionville, IN 47468, USA
+N: |  Phone: (812) 336-4050
+N: |  Fax:   (812) 336-7266 (when the computer's on)
+N: |  <http://www.bluemarble.net/~glarsen>
+N: published by the BMI publishing company, Sleepy Creek Music.
+N: The 6/8 tune has come to be known among pipers in Brittany as 'Brest St. Michael's Jig'
+D: "Thunderhead" Flying Fish 266 (1982) (Malcolm Dalglish, Grey Larsen, Kevin Burke, Michael O'Domhnaill, Triona Ni Dhomhnaill).
+D: The Breton 6/8 version (somewhat different from this) is on Tannahill Weavers' "Cullen Bay" Green Linnet 1108 (1990).
+K: Emin
+M: 6/8
+~B3 fBB | eBB dBA | ~B3 fgf | edB AGc | ~B3 fBB | eBB def | gfe fdB | ADF ABc :|\
+K: G
+dGG AGE | DEG ~F3 | EFF EFF | GFE ~F3 | dGG AGE | DEG E/2F/2GA |1 BdB ceg | f/2g/2af gfe :|2 Bde fgf | edB AGc |]\
+K: Emin
+M: 7/8
+~B3 fBBf | eBB dBBA | ~B3 fggf | edB AGGc | ~B3 fBBf | eBB dBef |\
+gfe fddB | ADF ABBc :|\
+K: G
+dGG AGGE | DEG E~F3 | EFF E~F3 | GFE E~F3 | dGG AGGE | DEG EFFA |1 BdB ceeg | f/2g/2af g2ge :|2
+M: 6/8
+Bde fge |\
+M: 7/8
+edB AGGc ||\
+N: After last rep of 7/8 part of tune, end with a one note coda :
+B7
+S:https://www.folktunefinder.com/tunes/15990
+S:http://trillian.mit.edu/~jc/music/abc/misc/ThunderheadJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/misc/ThunderheadJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 6/8
+% Time_signature 7/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

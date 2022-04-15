@@ -1,0 +1,28 @@
+X:222
+T: DEM KAISER SEI MEIN ERSTES LIED
+N: F0377
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, national, patriotisch
+M: 6/8
+L: 1/8
+K: D
+A, | A,2F,F,2D | D2A,A,2
+F | E2CDCB, | A,3z2
+A, | A,2F,F,2D | D2A,A,2
+F | E2CDCB, | A,3z2
+D | C2EA,2G, | F,2A,A,2
+D | C2EA,2G, | F,G,A,A,2
+A, | B,2B,B,2B, | C3z2
+D | E2ECB,C | F3-F2
+D | E2EA,B,C | D3z2
+S:https://www.folktunefinder.com/tunes/69782
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, national, patriotisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

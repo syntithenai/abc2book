@@ -1,0 +1,32 @@
+X:9866
+T:Lord McDonald
+S:as recorded by Michael Coleman, 1st time through
+N:transcribed by Alan Ng
+D:Gael-Linn/Viva Voce CEFCD 161 disc 1, track 1, tune 1
+Z:id:ng-reels-33 transcribed by Alan Ng agng@students.wisc.edu Sep. 29, 1999
+Z:The doublestops noted here are written this way due to the limitations of abc.
+Z:They should instead appear as long, held, ringing drones.
+E:9
+M:C|
+K:G
+d6 z2|D2[BD]D [dD]D[BD]D|[cD]D[BD]D [AD]GEG|\
+[DG,][EG,][GG,]BAG[BG]G|DEDC {C}B,G,[G,2D2]|\
+DG(3[BG]GG [dG]G(3[BG]GG|[c2G2][BG][cG] AG[EG,][GG,]|\
+[~B3D3]A [GG,][FG,][GG,][EG,]|[DG,][EG,][GG,]A [BG]G[G2G,2]||\
+"stopped noting drones"Bd(3ddd dBgB|defg aged|Bd~d2 {e}dBgB|ABcA BG[G2G,2]|\
+Bd{e}d^c {e}dB[gB]B|[dD]efg aged|Bd{e}d^c d2ge|dBAc BG[GG,]B||\
+dgbg agbg|dgbg "slide a"ageg|dgbg "slide a"agbg|dedc BG[GG,]B|\
+dgbg "slide a"agbg|dgbg "slide a"ageg|(3bag{a}gf {a}gfe^c|dega bgg2||\
+Bd(3ddd dBgB|defg aged|Bd{e}d^c {e}dB[GG,]B|dedc BG[G2G,2]|\
+Bd(3ddd dBgB|defg aged|Bd{e}d^c {e}dB[GG,]B|dedc BG[G2G,2]|]*
+S:https://www.folktunefinder.com/tunes/61899
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

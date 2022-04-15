@@ -1,0 +1,25 @@
+X:6161
+T:Somhairle Mac Con Uladh
+O:england
+M:3/4
+L:1/8
+Q:120
+R:air
+K:A
+A>B||c3 B c<e|A4 (3Ace|f3 e f<a|e3 c B>A|d3 c d<e|c4 (3cBA|B2 c2 d>e|f3
+e d>B|
+c3 B c<e|A4 (3Ace|f3 e f<a|e3 c B>A|d3 c d<e|c4 (3cBA|B2 c2 d>e|f4 (3efg
+|
+a4 a2|e3 c B>A|f3 e f<a|e3 c B>A|d3 c d<a|c3 B c<a1|B2 c2 d>e|f4 (3efg|
+a4 a2|e3 c B>A|f3 e f<a|e3 e e<a|d3 d d<a|c3 c c<a|B3 A B<c|A4
+S:https://www.folktunefinder.com/tunes/26613
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

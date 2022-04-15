@@ -1,0 +1,47 @@
+X: 1
+T: Kalajoki valssi
+C: Svelm: Unto Jutila 1973
+C: Sanat: Haikki Vaponen
+R: waltz
+M: 3/4
+L: 1/8
+%W: Miss me-ren aa-va au-ke-aa,
+%W: U-lap-pa ran-na-ton.
+%W: Miss aal-to ran-taan rau-ke-aa,
+%W: Ja pi-v lm-min on.
+%W: Sen ke-s ai-na kau-noi-sin,
+%W: On siel-t muis-to mie-lui-sin,
+%W: Kyn sin-ne ai-na aa-tok-sin.
+%W: Se paik-ka ver-ra-ton.
+%W:
+%W: Refrain:
+%W: Kalajoen ran-taa,
+%W: Kul-tai-sin-ta san-taa
+%W: Poh-jan-lah-den aal-lot ar-mah-taa.
+%W: Siell suvi-tuu-len
+%W: Kuis-kai-le-van kuu-len,
+%W: Sinne palaan ai-na uu-des-taan.
+%W:
+K: G
+%"Intro"[|]e^def \
+%| "G"g4 "Em"e2- | e2 egfe | "C"e4 d2- | d2 ded_d | "C"c4 E2 | "D"B4 A2 | "G"G2 G3 G | G2 z2 ||
+%%%sep 5 5 5
+B2 | "G"de d2 _d2 | "D7"c4 F2 | "G"G6- | G2 z4 | "G"b2 a2 g2 | "E7"f4 e2 | "Am"c6- | c2 z2 A2 |
+S:https://www.folktunefinder.com/tunes/18812
+S:http://trillian.mit.edu/~jc/music/abc/song/KalajokiValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/KalajokiValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/KalajokiValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/KalajokiValssi_G_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/KalajokiValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/KalajokiValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/KalajokiValssi_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

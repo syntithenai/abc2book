@@ -1,0 +1,40 @@
+X:23
+T:La Montreuil
+T:Contredanse
+R:Contredanse
+O:France
+C:Anonyme
+C:Harm. J.-B. Giai
+S:Carnet de E. Magaud (coll. La Capouliero)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:F
+V:1 name=V
+(fe)f | F2F FGA |B3 GAB | cdc cBA | G2F (fe)f | F2F FGA |
+B3 d3 | cBA GFE | F3 :: 'p' c2B | (BA)G (GF)E | c2B (AG)F | f2c (cB)A |
+A2G c2B | (BA)G (GF)E | c2c cd_e | dgf =edc | =BAG g2e | c2c cde |
+f3 def | gag gfe | e2d g2e | c2c cde | f3 def | gfe dc=B |
+c3 fed | .c.c.c dcB | .A.A.A fed | cdc cBA | G3 (fe)f | F2F FGA |
+B3 GAB | cdc cBA | G2F (fe)f | F2F FGA | B3 GAB | cba gfe | f3 :|
+V:2  name=G
+A2A | F2F =e2e | d3 EFG | E2E edc | B2A AcA | AGA FEF |
+d3 BAB | edc BAG | A3 :: E2G | (GF)E E2E | EFG F2A | A2A (AG)F |
+F2E E2G | (GF)E E2E | EGF ABc |BBA GFE | GFE c=Bc | E2E EGc |
+A3 FGA | =BcB BdG | G2G c=Bc | E2E EGc |A3 FGA | =BAG FEG |
+E3 dc_B | .A.A.A BAG | .F.F.F dcB | ABA AGF |E3 A2A | F2F _e2e |
+d3 EFG | ABA AGF | E2F A2A | ABA FEF | d3 EFG |Adc BAc | A3 :|
+%%footer $D   Galouvielle-MBe 2005 \nDanse de caractre --
+S:https://www.folktunefinder.com/tunes/40222
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Contredanse
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

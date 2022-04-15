@@ -1,0 +1,32 @@
+X: 1
+T: Forrest Go Get YourChainsaw
+C: Beth Sweeney
+R: jig
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Written in 1991 by Beth Sweeney.
+N: The story, according to Forrest Larsen, is that he said "Beth, go get your ax,"
+N: and her replay was "Forrest, go get your chainsaw."  They both decided that that
+N: was a good name for a tune, so she wrote one.
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"G>DD D2E | G>Bd e>dA | "C"B>dB B>AG | "D7"A3 A2B \
+| "G"G>DD D2E | "Em"G>Bd e>dA | "C"B>dB "D7"A>GE | "G"G3 G2 :|
+|: d \
+| "Am"e2e e>dB | "G"d2d d>BA | "C"B>dB B>AG | "D7"A3 A2B \
+| "G"G>DD D2E | "Em"G>Bd e>dA | "C"B>dB "D7"A>GE | "G"G3 G2 :|
+S:https://www.folktunefinder.com/tunes/14197
+S:http://trillian.mit.edu/~jc/music/abc/jig/ForrestGoGetYourChainsaw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ForrestGoGetYourChainsaw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ForrestGoGetYourChainsaw.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

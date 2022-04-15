@@ -1,0 +1,26 @@
+X:205
+T:Ballance a strow
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dce.html
+%%ID:00000dce
+K:G
+GA |\
+B2BB BdcB | A2AA A2Bc | d2cB c2BA | G2GG G2:: \
+gf |\
+e2dd d2GA | B2BB B2gf |! e2dd d2cB | AGFE D2GA |\
+B2BB BdcB | A2AA A2Bc | d2cB c2BA | G2GG G2 :|
+% page 21
+S:https://www.folktunefinder.com/tunes/43604
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

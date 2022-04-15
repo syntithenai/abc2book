@@ -1,0 +1,25 @@
+X:211
+%%topmargin 3cm
+T:Dunnottar Castle
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A, | D<DF<A d>e f>e | d/c/B/A/ G/F/E/D/ C/D/E/D/ C<A, | D<DF<A d>ef>e | d/c/B/A/ B/g/f/e/ f<dd :|
+f | a>ba<f d'>c'ba | g>fe>d c/d/e/d/ c<A | a>ba<f d'>c'ba | d'/c'/b/a/ b<c' d'2 d((3a/b/c'/) |
+(d'>d)(c'>d) (b>d)(a>f) | (g>f)(e>d) c/d/e/d/ c<A | F<D(A>F) (G>F)E>e | d/c/B/A/ B<c d2 d |]
+S:https://www.folktunefinder.com/tunes/70958
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

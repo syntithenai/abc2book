@@ -1,0 +1,31 @@
+X: 18
+T:Geese in the Bog, The
+T:Old Geese in the Bog, The
+M:6/8
+L:1/8
+R:jig
+D:Music at Matt Molloy's, Liz Carroll, Corner House
+H:Played in C or D
+Z:id:hn-jig-248
+K:C
+cEE GEE|cEE GAB|cEE GED|EAA A2B|cEE GEE|cEE GAB|
+cBA GED|EAA A2B:||:cde g2e|gea ged|cde ged|eaa age|
+cde g2e|gea ged|cBA GED|EAA A2B:|
+K:D
+|:dFF AFF|dFF ABc|dFF AFE|FBB B2c|dFF AFF|dFF ABc|
+dcB AFE|FBB B2c:||:def a2f|afb afe|def afe|fbb baf|
+def a2f|afb afe|dcB AFE|FBB B2c:|
+K:G
+S:https://www.folktunefinder.com/tunes/58625
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

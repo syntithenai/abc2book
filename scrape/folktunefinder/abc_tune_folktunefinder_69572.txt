@@ -1,0 +1,23 @@
+X:12
+T: EINSAM BIN ICH NICHT ALLEINE
+N: F0047
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: D
+ | A4F2d4A2 | G4E2e4A2
+A2d2d2d2c2A2 | A2f2edd2c4
+A4d2e3dBG | ^G4e2f3ecA
+f4c2A4F2 | E4BAG4F2
+F2A2d2f3dAF | A3GFED4z2
+S:https://www.folktunefinder.com/tunes/69572
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

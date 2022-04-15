@@ -1,0 +1,27 @@
+X:162
+T: KEIN SCHOENRER TOD IST AUF DER WELT
+N: E1284
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 3/4
+L: 1/8
+K: F
+C | FAA3A | Adc2
+f2 | dcB2A2 | GBA2z
+C | FAA3A | Adc2
+f2 | dcB2A2 | GBA2z
+c | cGG3A | GFE2
+G2 | Gcc2e2 | d=Bc2z
+C | FAA3A | Adc2
+f2 | dcB2A2 | GBA2z
+S:https://www.folktunefinder.com/tunes/79266
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

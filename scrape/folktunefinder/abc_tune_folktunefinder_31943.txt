@@ -1,0 +1,30 @@
+X: 1436
+T:Johnny's Wedding
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:The 'B's are slightly flat, giving the first part more than a hint of G minor.
+H:The long 'G' in bar 4 is a slide, as is the 'b' in bar 5 of part 2.
+M:4/4
+K:C
+(3.B.B.G dG BGGB | AFcF AFFA | BGdG BGGB | A^FDF G4 |
+(3.B.B.G dG BGGB | AFcF AFFA | GBAc Bdcd | {e}dc^fa g3A |
+BGdG EGGB | AFcF DFFA | BG(3.d.d.G BGdG | A^FDF G4 |
+(3.B.B.B dG BGGB | AFcF AFFA | GBAc Bdcd | {e}dc^fa g3a ||
+|: bg{a}g^f afde | ^fdcA A=FFA | bg(3.a.a.^f {a}gfd^c | dg^fa g3B3a |
+b2ag {a}g^fde | ^fd(3.c.c.A A=FFD | GBAc Bdcd |1 {e}dc^fa g3a :|2 {e}dc^fa g3A ||
+S:https://www.folktunefinder.com/tunes/31943
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

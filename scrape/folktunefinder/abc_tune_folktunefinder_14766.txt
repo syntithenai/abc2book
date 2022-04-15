@@ -1,0 +1,27 @@
+X:1
+T:New York Jig, The
+R:Jig
+S:John Skelton, One At A Time
+N:Skelton remembers the name of this tune only as The New York Jig,
+N:but others have reported it as a Charlie Lennon composition called
+N:The Handsome Daughter...any thoughts  Post 'em to IRTRAD.
+D:John Skelton, One At A Time (PAN 146CD)
+Z:Chris Corrigan <corcom:interchange.ubc.ca> irtrad-l 2000-04-06
+M:6/8
+L:1/8
+K:D
+|: dAG FAE|DFA dcd|eAA GAA|EAA edc |dAG FAE|DFA dcd|eAA GAA|1 edc d3:|2 edc dAG||
+|: F2 A FAF|G2 B BAG|FGA dAF|EBA BAG| F2 A FAF|G2 B BAG|AFA dAF|FEc d3:|
+S:https://www.folktunefinder.com/tunes/14766
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewYorkJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/NewYorkJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

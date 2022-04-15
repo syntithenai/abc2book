@@ -1,0 +1,32 @@
+X: 23
+T:Miss Gayton's Hornpipe. TLY.022
+M:4/4
+L:1/8
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Hornpipe
+O:England.
+A:Lancashire.
+N:1st bar in B strain is my reconstruction..CGP
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+d>c|B>dg>f g2 d>c|B>dg>f g2 f>e|\
+d>fa>g f>ed>c|B>dg>f g2 d>c|!
+"Bar not in ms"B>dg>f g2 d>c|B>dg>f g2 f>e|\
+e>fg>e f>ga>f|g2b2g2:|!
+|:g>a|b>ab>g a>g d2|g>fg>e d>BG>B|c>de>c B>cd>B|c2 A2A2g>a|!
+b>gb>g g>fd>f|g>fg>e d>BG>d|e>fg>e f>ga>f|g2b2g2:|]
+S:https://www.folktunefinder.com/tunes/37556
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

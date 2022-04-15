@@ -1,0 +1,24 @@
+X:7742
+T:U4 Schottisch
+O:england
+C:Hermann Fritz
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/16
+K:D
+DDD2 AAA2|d2d2B4|AAAA A2G2|FFFF F2E2|
+DDD2 AAA2|d2d2B4|AAAA AGFE|D2F2D4:|
+|:EEEE F2E2|GGGG A2G2|FEDC DGGF|E2ED DCCD|
+EEEE F2E2|GGGG A2G2|FEDC DGGF|E4 E4:|
+|:"oder Variante: "A, EEA, F2E2|A, GGA, A2G2|FEDC DGGF|
+E2ED DCCD|A, EEA, F2E2|A, GGA, A2G2|FEDC DGGF|E4 E4:|
+S:https://www.folktunefinder.com/tunes/28194
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

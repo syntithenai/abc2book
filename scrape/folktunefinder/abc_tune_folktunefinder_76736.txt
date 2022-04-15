@@ -1,0 +1,27 @@
+X:251
+T: HANSEL DEIN GRETELEIN IST EIN FAULS SCHLAMPERLEIN
+N: E0836
+O: Europa, Mitteleuropa, Deutschland
+N: modulierend; Form: AA'
+R: Hochzeits -, Ehestands - Lied
+M: 3/4
+L: 1/8
+K: D
+ | D2F2A2 | G2GEC2
+E2G2B2 | A2AGF2
+G2E2C2 | E6 | D4z2
+F2A2d2 | e2edc2
+^G2B2d2 | c2cBA2
+d2B2^G2 | B6 | A4z2
+S:https://www.folktunefinder.com/tunes/76736
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

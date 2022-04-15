@@ -1,0 +1,41 @@
+X:9246
+T:Lang Stayed Away
+C:Trad
+S:Northumbrian Minstrelsy
+M:3/4
+K:G
+eccg ~e2| eAAc \
+M:3/4l
+BcdB|\
+M:3/4
+eccg ~e2| dGGc \
+M:3/4l
+BcdB::\
+M:3/4
+c2 cg ~c2| eAAc \
+M:3/4l
+BcdB|\
+M:3/4
+c2 eg ~c2|  dGGc \
+M:3/4l
+BcdB::\
+cdec BcdB \
+M:3/4
+~A2 | eAAc \
+M:3/4l
+BcdB| cdec BcdB \
+M:3/4
+~A2 | BGGc \
+M:3/4l
+BcdB :|
+S:https://www.folktunefinder.com/tunes/61279
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

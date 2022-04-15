@@ -1,0 +1,29 @@
+X:101
+T: Die Sonne ist verblichen
+N: A0116B
+O: Europa, Mitteleuropa, Deutschland
+N: M. Praetorius Mus. Sion. VIII. No. 229. "Wacht auf ihr Christen alle"
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+G2 | G4d2=f4e2d4 | A8
+G4A4 | _B6c2 | A4z2
+G2 | G4d2=f4e2d4 | A8
+_B2G4A2 | _B6c2 | A4z2
+c2 | c2c2c2_B2 | A4G4- | G4A2_B2- | B2G2=F2G2 | A4z2
+A2 | =F4F2G2- | G2A2_B4 | G8
+d4=f4 | e2d4c2 | _B6AG | F4
+G4 | _B3BB2c2 | A4G2
+S:https://www.folktunefinder.com/tunes/68647
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

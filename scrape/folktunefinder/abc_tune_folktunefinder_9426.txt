@@ -1,0 +1,24 @@
+X: 1
+T: Wilssonin Valssi
+T: Wilson's Waltz
+C: G\"osta Ratsula, Pori
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"B2c | d2d | "D7"(Ac)B | A2D | "G"DBc | d2e | "Bm"df>f | f2f |
+| "C"(e2f) | g2g | "G"d2c | B2B | "D7"(Ac)B | (F2A) | "G"G>GG | G2 :|
+|: z \
+| "C"(e2f) | g3 | (f2e) | "G"B3 | "C"e2e | "G"(d2c) | Bd>e | (d2B) |
+| "D7"(Ac)B | ABc | "G"(d2B) | G2B | "D7"AcB | (F2A) | "G"G>GG | G2 :|
+S:https://www.folktunefinder.com/tunes/9426
+S:http://trillian.mit.edu/~jc/music/abc/Scand/WilssoninValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WilssoninValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/WilssoninValssi_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/WilssoninValssi_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

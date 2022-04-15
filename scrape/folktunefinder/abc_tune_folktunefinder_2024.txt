@@ -1,0 +1,31 @@
+X: 87
+T:Haymakers,The. JMP.087
+M:6/8
+L:1/8
+Q:120
+C:"Strabane May 12th 1800"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Jig
+O:Scotland
+A:Perth
+N:Strabane May 12th 1800' at bottom of page.  'John  Miller' at top.
+H:1799
+Z:vmp.C.  Graebe
+K:G Major
+D | G2BA2c | "tr"B2G AFD | G2BA2c | (B/c/d)B G2 :|!
+|:B | d2e"tr"g2d | (e/f/g)e dBG | d2e"tr"g2d |  (e/f/g)e d2 :|!
+|:D | c2e dBG | (A/B/c)A B2G | c2e dBG |  (A/B/c)A G2 :|]
+S:https://www.folktunefinder.com/tunes/2024
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

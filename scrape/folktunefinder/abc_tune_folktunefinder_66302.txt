@@ -1,0 +1,19 @@
+X:1850
+T:Wheels of the World
+Z: id:dc-reel-349
+M:C
+L:1/8
+K:D Mixolydian
+B|ADD2 FAGF|ECC2 G,CEG|ADD2 FAde|=fedc AddB|!
+ADD2 FAGF|ECC2 G,CEG|AddB cBAG|EDCE EDD:|!
+B|cBce gecA|d2ad bdad|cBcd edd2|eaa2 edAB|!
+cBce gecA|d2ad bdad|abag efge|fage d3:|!
+S:https://www.folktunefinder.com/tunes/66302
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

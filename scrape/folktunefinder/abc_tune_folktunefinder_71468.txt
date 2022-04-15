@@ -1,0 +1,27 @@
+X:439
+%%topmargin 3cm
+T:Mrs. Scott Skinner
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+!f! A, | (tD>.F) (tA>.B) (B/A/).G/.F/ {/F}(d>e) | (f/e/).d/.c/ {/c}(td>.[DF]) [C2E2]-[CE]>F | (tD>.F)(tA>.B) (B/A/).G/.F/ (d^G) | (A<!1!d) L!3!f>!2!e (d2 t[Dd]) :|
+"with energy" .f/.g/ | (Lta>.f) d>A B<g~g>B | (A!3!f) {/f}(!2!e>d) e2- e.f/.g/ | (ta>.f)(td>.A) B<g ~g>B | ([FA][Af])([Af][Ge]) ([F2d2] t[Fd]).f/.g/ |
+(L^g/a/).b/.a/ (tf.d) TBB | ([FA]f) {/f}(ed) ec HA>G | (F/E/F/G/) (tA>._B) (=B/A/G/F/) [Gd]>^G | (A<d) (Ltf>.e) (d2 t[Fd]) ||
+|: A, | !p!(D/E/).F/.G/ (A/^G/).A/.B/ (B/A/).=G/.F/ {/F}Ld>e | !f!(f/e/).d/.c/ {/c}(td.[DF]) [C2E2] [CE]>F | (D/E/).F/.G/ (A/^G/).A/.B/ (B/A/).=G/.F/ {/F}([Gd]^G) | (A<d) (tf>.e) (d2 t[Fd]) :|
+.f/.g/ | !f!(^g/a/).b/.a/ (=g/f/).e/.d/ (B/^d/).e/.f/ (g[GB]) | ([FA]f) {/^G}(ed) [A2e2]- [Ae].f/.g/ | (^g/a/).b/.a/ (=g/f/).e/.d/ (B/^d/).e/.f/ (.g.[GB]) | ([FA][Af]) ([Af][Ge]) [F2d2]- d.f/.g/ |
+(^g/a/).b/.a/ (=g/f/).e/.d/ (B/^d/.e/.f/) (g[GB]) | ([FA][Af]) {/^G}(ed) (ec) HA>G | "all on 3rd string 12 down 2 up."(F/E/F/G/) (!2!A/!1!^G/!2!A/"_rall."!2!_B/) (!3!=B/!2!A/!3!=G/!2!F/) d^G | A<d (Ltf>.e) (d2 .[Fd]) |]
+S:https://www.folktunefinder.com/tunes/71468
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

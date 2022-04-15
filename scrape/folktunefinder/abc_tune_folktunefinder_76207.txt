@@ -1,0 +1,26 @@
+X:227
+T: Napoleonslied (3-30), S. 99
+N: P1002
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: historisches, Soldatenlied]
+M: 2/4
+L: 1/16
+K: G
+D4 | G4A4 | B6c2B4 | A4B2A2 | G8
+G2A2 | B4c4 | d6e2d4 | c4d2c2 | B8
+B2d2 | d4B4 | de4-ed2d4 | c4B2A2 | Ad6-d
+B2d2 | B4A4 | G6A2B4 | B4A3G | G8
+S:https://www.folktunefinder.com/tunes/76207
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Historisches, soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

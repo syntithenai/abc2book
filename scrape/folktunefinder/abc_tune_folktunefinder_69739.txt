@@ -1,0 +1,23 @@
+X:179
+T: UNTER DEN ROTEN BLUMEN
+N: F0315
+O: Europa, Mitteleuropa, Deutschland
+N: Modulation
+R: Jugend - Lied, Trauer
+M: 3/8
+L: 1/16
+K: C
+ | C3CC2 | E4D2 | C6 | G,4z2
+A,3G,C2 | D4G,2 | E6- | E2z4
+B,3CD2 | C4A,2 | B,6 | G,4z2
+C3B,A,2 | B,3G,^F,2 | E,6- | E,4z2
+S:https://www.folktunefinder.com/tunes/69739
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, trauer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

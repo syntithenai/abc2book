@@ -1,0 +1,24 @@
+X:215
+T:La Belle Qui Tiens Ma Vie
+C:Thoinot Arbeau
+L:1/8
+M:4/4
+N:Orchesographie, 1589
+N:http://en.wikipedia.org/wiki/Thoinot_Arbeau
+O:France
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dae.html
+%%ID:00000dae
+K:G
+A4A2^G2|A2B2c4|c2e2d2c2|c2B2c4:|
+|:c4B2B2|A2A2^G4|E4F^G A2|A2^G2A4:|
+S:https://www.folktunefinder.com/tunes/48847
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

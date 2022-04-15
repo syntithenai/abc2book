@@ -1,0 +1,22 @@
+X:218
+%%topmargin 3cm
+T:Mrs. Ross
+C:Pipe tune.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+A<A e>A f>Ae>c | A<Ae>c de f2 | A<A e>A f>Ae>c | g>BB>c de [1 ((3fga) :| [2 f2 || da af e>dc>A | ea a2 de f2 |
+ea af e>dc>A | f>BB>c de f2 | e<a af e>dc>A | ea a2 de g2 | a/g/f ge f>de>c | g>BB>c de ((3fga) |]
+S:https://www.folktunefinder.com/tunes/70965
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

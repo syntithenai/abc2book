@@ -1,0 +1,23 @@
+X:203
+T:Portuguese Dance
+R:jig
+M:6/8
+L:1/8
+K:G
+B2B B2B | ABA G2G | F2G A2F | G2A B2G | 
+B2B BcB | AGF GAB | c2B A2G | FEF G3 ::
+A2A F2D | GAB A2A | ABA FED | GAB AB^c |
+d2d ^c2c | B^cB A2A| GAG FGF | EFE D2D ::
+d2d d2d | cBc B2B | A2B c2A | B2c d2B | 
+d2d d2d | cdc Bcd | e2d c2B | AGF G3 :|
+S:https://www.folktunefinder.com/tunes/53860
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

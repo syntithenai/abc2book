@@ -1,0 +1,19 @@
+X:0
+T:Last May a Braw Wooer
+G:song
+B:Gall & Inglis, Select Songs of Scotland
+M:6/8
+L:1/8
+K:F
+% almost lydian/major hexatonic
+F|A>GA F>GF|A>GA F2 c/B/ |A>GA FAc|d3   c2c|
+  c>de fed |c<fA G2(F/G/)|A2C  CDE|F>GA GFG|AcC C>FA|G3 F2|]
+S:https://www.folktunefinder.com/tunes/30084
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

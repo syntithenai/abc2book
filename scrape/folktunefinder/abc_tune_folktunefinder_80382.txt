@@ -1,0 +1,26 @@
+X:20
+T: The Irish Nation
+B: O'Neill's 204
+N: "Moderate"
+N: "Collected by F.O'Neill"
+N: There is a minor typo in bar 1.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+(c>d) \
+| e>^de3/2f e2c>e | d>cBA G2AB | c>B ((3cBA) B>edB | A4 A2z :|
+B \
+| A2A2 a3g | e>de>f g3z | A>AA>A a>ag>f | g<ez2 z2(c>d) |
+| e>^de>f e2c>e | d>cBA G2AB | c>B ((3cBA) B>ed>B | A4 Az :|
+S:https://www.folktunefinder.com/tunes/80382
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

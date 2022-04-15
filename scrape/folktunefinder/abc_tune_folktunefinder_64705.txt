@@ -1,0 +1,27 @@
+X:14695
+T:Ru Verde
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Teberga
+A:Asturies
+Z:DyC en Teberga
+M:3/8
+L:1/8
+Q:3/8=60
+K:F
+|:A2 G|F2 F|FEF|G3|c2 B|A2 G|BAG|[1 F3:|[2 F2 F|
+|:FAG|FFF|FEF|G2 G|GcB|ABA|GAG|[1 F2 F:|[2 F3|
+S:https://www.folktunefinder.com/tunes/64705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:651
+T: WENN ICH ZUM THUEREL NAUS GEH
+N: E0600A
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Neisse
+R: Liebes - Lied
+M: 3/8
+L: 1/8
+K: D
+ | FEF | GFG | A2
+A | AdF | AGE | F2z
+AdF | AGE
+GBE | GFD
+FEF | GFG | A2
+A | AdF | AGE | F2z
+S:https://www.folktunefinder.com/tunes/79092
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

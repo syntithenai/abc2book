@@ -1,0 +1,26 @@
+X: 1
+T: Not Her First Choice
+C: Kim McGarrity
+R: jig
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+|:"A"A3     "D"a2f |  "A"ecA "E"B2c |  "A"A2A    "D"FAF | "Bm"FEF  "E"E2E \
+| "D"F2A    "E"B2E |"F#m"cBA "E"B2e |  "D"fef "c#/A"a2f |1"Bm"fec  "E"BEF :|2 "Bm"fef "E"b3 |
+[|"D"a2f "(Bm)"faf |  "A"fec "E"B2c |"F#m"A2F   "Bm"BAF |  "D"FEF  "E"E3  \
+| "D"FAA   "Bm"B2c |  "E"BAB "A"c2e |  "D"fec "c#/A"efa |  "Bm"fef "E"b3  |]
+[|"D"aff    "A"fec | "Bm"BAF "E"E2E |"F#m"FAc   "Bm"BcB |  "D"AFD  "E"E2E \
+| "D"DFF "c#/A"A2c | "Bm"BAB "A"cef |"F#m"a3     "E"afe |  "D"cBA  "A"A2  |]
+S:https://www.folktunefinder.com/tunes/14778
+S:http://trillian.mit.edu/~jc/music/abc/jig/NotHerFirstChoice_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NotHerFirstChoice_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/NotHerFirstChoice_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T:Mrs Bakers Hornpipe. WCl.40
+M:C|
+L:1/8
+Q:160
+S:William Clarke MS,Lincoln,1770.
+R:Hornpipe
+O:Lincoln
+A:England
+N:Second quaver c in B1 conjectural - cut off in MS..Interesting for
+N:it's use of triplets in a plain hornpipe....CGP
+Z:vmp.Barry Callaghan
+K:F
+cB|A2 F2-FAGF|EG B2-BdcB|Acde fcdB|A2 F2F2::!
+((3cde)|fcAc fagf|gece gbag|afge fdgf|e2c2-c2 fc|!
+((3def) ((3ABc) B2 ba|gfed dcBA|((3Bcd) ((3EFG) FdcB|A2 F2 F2:||
+S:https://www.folktunefinder.com/tunes/17731
+S:http://trillian.mit.edu/~jc/music/abc/reel/Mrs_Bakers_Hornpipe_WCl_40_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Mrs_Bakers_Hornpipe_WCl_40_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Mrs_Bakers_Hornpipe_WCl_40_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

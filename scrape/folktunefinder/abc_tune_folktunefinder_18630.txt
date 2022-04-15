@@ -1,0 +1,32 @@
+X:1
+%% Copyright 1938 by The Peter Maurice Music Co. Ltd, London
+T:Cherokee
+M:4/4
+L:1/4
+C:Ray Noble
+Q:1/4=300
+%%staves (chords melody)
+K:Bb
+%%text (up)
+%%vskip 20
+P:A
+V:chords
+"Bb6"x2 x2 | x2 "F7"x2 | "Bb7"x2 x2 | x2 x2 |
+"Ebmaj7"x2 x2 | x2 x2 | "Ebm6"x2 x2 | x2 x2 |
+"Bb6"x2 x2 | x2 x2 | "C7"x2 x2 | x2 x2 |
+[1"Cm7"x2 x2 | "Bdim7"x2 x2 | "Cm7"x2 x2 | "F7"x2 x2 :|
+[2"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 x2 | x2 !fine!x2 ||
+V:melody
+D4 | F2G2 | B4 | G4 |
+S:https://www.folktunefinder.com/tunes/18630
+S:http://trillian.mit.edu/~jc/music/abc/song/Cherokee.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Cherokee.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/cherokee.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/cherokee.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

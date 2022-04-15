@@ -1,0 +1,35 @@
+X: 1
+P: Prekid Kolo
+O: Croatia
+M: 4/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: G
+|: "G"~[d2B2] [^c^A][dB] [BG][GD] [ge][fd] \
+| "D7"[ec][fd] [ec][dB] "G"~[B2G2] [BG][GD] \
+| "D7"([^c/^A/][d/B/])z z2 [D2] ~[=c2=A2] \
+|1,3 [cA][AF] [dB][cA] "G"[B2G2] [BG][GD] \
+:|2,4 [cA][AF] [dB][cA] "G"[B2G2] z2 :|
+|: "G"([^c/^A/][d/B/])z z2 "D7"[D2] [=c2=A2] \
+| [cA][AF] [dB][cA] "G"[B2G2] [BG][GD] \
+| {^c}[dB][dB][dB]z "D7"[D2] [=c2=A2] \
+|1 [cA][AF] [dB][cA] "G"[B2G2] z2 \
+:|2 [cA][AF] [dB][cA] "G"[B2G2] z2 |]"^->Coda"[|] [K:C]
+|: "C"([^f/^d/][g/e/])z z2 "G7"[=f2=d2] [fd][dB] \
+| "C"~[f2d2] [ec][dB] [ec][dB] [ec][cG] \
+| "G7"~[d2B2] [dB]G ~[f2d2] [fd][dB] \
+| "C"~[f2d2] [ec][dB] [ec][dB] [ec][cG] |
+| ~[g2e2] [ec][ge] "G7"~[f2d2] [fd][dB] \
+| "C"~[f2d2] [ec][dB] [ec][dB] [ec][cG] \
+| "G7"~[d2B2] [dB]G ~[f2d2] [fd][dB] \
+| "C"~[f2d2] [ec][dB] [e2c2] z2 :|
+"Coda"[| "D7"H[c4^F4] | "G"H[B4G4] |]
+S:https://www.folktunefinder.com/tunes/5943
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PrekidKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

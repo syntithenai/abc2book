@@ -1,0 +1,32 @@
+X:158
+T:Rose of Sharon
+T:Rosebud of Allenvale
+M:3/4
+L:1/8
+Q:1/4=100
+C:James Scott Skinner (1843-1927)
+S: Scottish fiddler
+S:Jim Coon to CoMandoList TOW
+R:Waltz
+O:
+K:A
+( e2 d2)|"A"(c3 d)c2|"E"(B2 c2) B2|"A"A6-|A2 (B2 c2)|"D"(d2 e2) f2|\
+"A"eA- A2 c2|"E"B6-|B2 (e2 d2)| !
+"A"(c3d) cB|A2 B2 c2|"D"d2 A2 a2|\
+f4 ga|"A"eA- A2 dE|"E"c4 (BG)|"A"A6-|A2 (c2 d2)|| !
+"A7"e2 f2 =g(f/2g/2|f3) (c e2)|"D"d6-|d6|"B7"f2 g2 a(g/2a/2|g4) (f^d)|\
+"E"e6-|e2 f2 g2|!
+"A"((3agf e2) c2|AG- G2 =G2|"D"F2 B2 d2|f3 (a g)f|\
+"A"eA- A2 dE|"E"c4 (BG)|"A"A6-|A2||!
+S:https://www.folktunefinder.com/tunes/51777
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

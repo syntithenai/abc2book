@@ -1,0 +1,26 @@
+X: 1
+T: Miss Nellie Wemyss
+R: Scots measure
+B: RSCDS __-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+dB | "G"G3A B2AG | "C"A2e2 e3g | "G"d3B dBAG | "Am"ABAG "C"E2"D7"DE | "G"G3A B2AG |
+| "C"A2e2 e3f | "G"gaba gedB | "G"d2g2 g2 || gf | "C"e3d efga | "G"b3ag2G2 |
+| "Am"A3B ABcd | e2A2 "D7"A2dc | "G"BABG gedB | "C"ABAG E2GE | "G"D3d "D7"ABcd | "G"B2"D"AG "G"G2 |]
+S:https://www.folktunefinder.com/tunes/17762
+S:http://trillian.mit.edu/~jc/music/abc/reel/NellieWemyssR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/NellieWemyssR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/NellieWemyssR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NellieWemyssR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/NellieWemyssR.abc
+% Rhythm Scots measure
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

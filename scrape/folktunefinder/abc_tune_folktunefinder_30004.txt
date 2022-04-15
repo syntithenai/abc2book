@@ -1,0 +1,25 @@
+X:0
+T:Andro wi his Cutty Gun
+G:drinking song
+S:MacColl, Folk Songs and Ballads of Scotland
+M:3/4
+L:1/4
+Q:3/4=72
+K:D Dorian
+  A3  |(D2 E)|(F<G) E|C3 |\
+  A3  | D2 E | F<E- E|D2
+A|A2 D| D2 E | F  E2 |D2  \
+A|A2 D| D2 E | F  E2 |D2||
+G|A2 d| d2 e | c2   B|A2  \
+G|A2 d| d2 e | c  B2 |A2
+G|A d2| d2 e | c2   B|A2  \
+D|D2 A| G2 E |(F  E2)|D2|]
+S:https://www.folktunefinder.com/tunes/30004
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

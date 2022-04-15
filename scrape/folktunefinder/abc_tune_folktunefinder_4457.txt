@@ -1,0 +1,23 @@
+X: 2
+T: Viitatoista
+T: Viistoista
+M: 2/4
+L: 1/8
+P: (D2 G2 D2 G2) x 8
+K: D
+P: D:
+|: "D"f2 "G"d>B | "D"AA/A/ AF | "A7"AG FG/G/ | "D"AA A2 \
+:: "G"BB BB | "D"BA AA "I"| "A7"cc Bc | "D"dd d2 :|
+P: G:
+K: G
+|: "G"b2 "C"g>e | "G"dd/d/ dB | "D7"dc Bc/c/ | "G"dd d2 \
+:: "C"ee ee | "G"ed dd | "D7"ff ef | "G"gg g2 :|
+%%sep 1 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4457
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Rev30080302.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

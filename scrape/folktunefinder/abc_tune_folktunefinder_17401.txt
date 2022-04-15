@@ -1,0 +1,25 @@
+X:1
+T:Inchmagranachan
+C:James MacIntosh, Dunkeld
+B:A Collection of Reels, Strathspeys, etc (1930)
+Z:Nigel Gatherer scots-l 2001-01-10
+R:Strathspey
+M:4/4
+L:1/8
+K:Gm
+D \
+| G<G B>d g>agd | f>gfc A<FF>A | G<G B>d g>bag | f>dc>A B<GG :|
+d \
+| g>agd g>agd | f>dc>B A<FF>d | g>agd g>bag | f>dc>A B<GG>d |
+| g>agd g/^f/g/a/ ba/g/ | fadf A<FF>A | (3BAG (3AG^F (3GBd (3gab | (3fdc (3cBA BGG |]
+S:https://www.folktunefinder.com/tunes/17401
+S:http://trillian.mit.edu/~jc/music/abc/reel/Inchmagranachan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Inchmagranachan.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

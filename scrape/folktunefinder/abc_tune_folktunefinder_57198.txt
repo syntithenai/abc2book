@@ -1,0 +1,27 @@
+X:2259
+T:Buckley's Fancy
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F2|~G2 BG dGBG|ABcd egdB|~G2 BG dGBG|ABAG FDEF|\
+~G2BG dGBG|ABcd efga|bgaf gedB|GBAF G2:|\
+Bd|gfga gede|gabg ageg|agab agef|gabg ~e2 de|\
+gfga gede|gabg agef|~g2fa gedB|GBAF G2:|**
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/57198
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

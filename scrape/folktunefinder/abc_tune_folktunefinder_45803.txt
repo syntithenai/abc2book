@@ -1,0 +1,36 @@
+X:10
+T:vleegerd                           %title
+C:                           %composer
+O:                           %origin
+M:6/8                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=138                           %tempo  Q:1/4=80
+K:G                           %key C  Cm
+V:1
+"G"d d^c=c|"G"B2 B B2 B |B2 c ^c2 d|"Am" e2e e2e| g5 e| "D7"d2d d2e|d2c B2A|"C"G4z ||
+M:4/4\
+D|"G"G2 A2 B3 c |"D7" A2 B2 "G"G3A |B2c2 d3e|"D7"c2d2"G"B3G|G2 G2 "C"e2ef|g2 e2"G"d2Bc|
+d2d2"D7"c2AA|1 d2c2 "G"B3 :|2 d2 d2 "G" G||
+M:6/8\
+|:"G"d d^c=c|"G"B2 B B2 B |B2 c ^c2 d|"Am" e2 AA2A|A4zG|"D7" F2A A2A |A2 Bc2^c|"G"d2G G2G|
+G4zG|B2BB2B|B2c^c2d|1 "Am" e2 AA2A|A4 zd|"D7"d2^cd2e|d2cB2A|"G" G3 B3 |
+G2:|2"C"e2e e2e|g4ze|"G"d2^cd2e|"D7"d2c B2A|"G"G3B3|G2z||
+V:2
+B B^A=A   |G2G G2G      |G2 A ^A2 B| c2c c2c    | e5 c| B2B B2c     |B2A G2F| G4z||
+%M:4/4\
+D|D2F2 G4|F4 D3F| G2A2 B3c| A2B2G4|B,4 C4| E2C2 B,2GA|
+B2B2 G2FF|1 D2F2 G3 :|2 D2D2 G||
+%M:6/8\
+BB^AA|G2G G2G|G2A ^A2B|c2F F2F|F4zE|D2F F2F| F2G A2^A|B2D D2D|
+D4zD|G2G G2G |G2A ^A2B|1 c2FF2F|F4zB|B2^A B2c|B2A G2F| E3G3|
+G2:|2 c2c c2c|e4zc|B2^A B2c|B2A G2F| E3G3|G2z||
+S:https://www.folktunefinder.com/tunes/45803
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

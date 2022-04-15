@@ -1,0 +1,27 @@
+X:4005
+T:Da Slockit Light
+R:Air
+C:Tom Anderson, 1969
+O:Scotland, Shetland
+M:4/4
+L:1/8
+Q:1/4=90
+K:D
+FE|"D"D3F A2d2|fedc d2A2|"G"B2d2 "D/F#"A2d2|"Em"BAGF "A7"EGFE|
+"D"D3F A2d2|fedc "Bm"d2A2|"G"B2G2 "A7"AGFE|"D"D4- D2:|
+g2|"D"f2a2 "A7"e3c|"Bm"d3e "A"dcBA|"D"f2a2 "E7"e2^g2|"A"a4- a2=g2|
+"D"f2a2 "A7"e3c|"G"d3e "D/F#"dcBA|"Em"B2G2 "A7"AGFE|"D"D4- D3g|
+"D"f2a2 "A7"e3c|"Bm"d3e "G"dc"D/F#"BA|"G"B2d2 A2d2|BAGF "A"EGFE|
+"D"D3F A2d2|"A"fedc "Bm"d2A2|"G"B2G2 "A7"AGFE|"D"D4- D2|]
+S:https://www.folktunefinder.com/tunes/51163
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 265
+T: Podrimsko Oro
+S: tape 5
+T:Kucevacko Kolo
+S: Ciga Ivon Despotovic, Radio-Televizija Beograd
+M: 4/4
+L: 1/8
+Q: 1/4=210
+K: Bm
+%%MIDI gchord fzzzfzfz
+|:"Bm"F2EF E^D=C2 |"Bm"B,2=C2^D2E2|"Bm" F2EF E^D=C2|"Bm"B,8    :|
+|:B,2A,B, A,^G,F,2|^G,2A,2 B,2=C2 |B,FFE E^DD=C    |B,8        :|
+|:B,=CCB,B,^DCB,  | B,=CCB,B,^DCB,| B,=CCB,B,^DCB, |B,=CCB,B,4 :|
+S:https://www.folktunefinder.com/tunes/54248
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

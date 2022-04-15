@@ -1,0 +1,27 @@
+X:935
+T:Luck Penny
+% Nottingham Music Database
+P:AABBCC
+S:Micheal Gorman, via EF
+M:6/8
+K:G
+P:A
+G/2A/2|"G"B2G "D7"AGF|"G"DGG "D7"FGA|"G"BAG BdB|"C"cAG "D7"FGA|
+"G"B2G "D7"AGF|"G"GBd gdB|"D7"def "G"gdB|"D7"cAF "G"G2:|
+P:B
+d|"G"d2g gfg|"G"b2g "D7"fga|"G"bag "D/f"agf|"Em"def "D7"g2a|
+"G"bag "D/f"agf|"Em"gfg "Bm"fdB|"C"def "G"gdB|"D7"cAF "G"G2:|
+P:C
+G/2A/2|"G"BAG GFG|"G"DGB DGB|"F"AG=F FEF|"F"C=FA CFA|
+"G"BGG GFG|"Am"cAA A^GA|"D7"def "G"gdB|"D7"cAF "G"G2:|
+S:https://www.folktunefinder.com/tunes/64935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

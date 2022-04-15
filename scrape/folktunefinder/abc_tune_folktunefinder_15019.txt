@@ -1,0 +1,40 @@
+X: 1
+T: Miss Sally Hunter of Thurston's Jig
+C: Nathaniel Gow
+N: BSFC III-23
+N: Hardie #293
+N: Skye p.177 (with an obvious typo)
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"D>FA ~d2A | "G"~B2A "D"~d2A | "G"B>cd "Em"efg | "A7"efd cBA \
+| "D"D>FA ~d2A | "G"~B2A "Bm"Bcd | "Em"egf "A7"edc | "D"~d3- d2 :|
+[| g \
+|  "D"f>ed "Em"~g2e | "D"a2f "G"b2g | "D"f>ef "Bm"def | "Em"efd "A7"cBA \
+|  "D"f>ed "Em"~g2e | "D"a2f "G"b2g | "D"f>ga "A7"Adc | "D"d3- d2 g ||
+|| "D"f>df "Em"~geg | "D"a>fa "G"bgb | "D"a>fd "Bm"Bcd | "Em"efd "A7"cBA \
+|  "D"D>FA ~d2A | "G"~B2A "Bm"Bcd | "Em"egf "A7"edc | "D"~d3- d2 |]
+S:https://www.folktunefinder.com/tunes/15019
+S:http://trillian.mit.edu/~jc/music/abc/jig/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/SallyHunterOfThurstonsJ.abc
+S:http://trillian.mit.edu/~jc/music/book/500/SallyHunterOfThurstonsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

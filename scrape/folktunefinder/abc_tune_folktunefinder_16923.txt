@@ -1,0 +1,25 @@
+X: 1
+T:Childgrove in Em
+M: 2/4
+L: 1/8
+Q:200
+K: Em
+|: B \
+| "Em"Be ef | g2 fe | "Am"ag fe | "Bm"f>e d/c/B \
+| "Em"Be ef | g2 fb | "Am"a>g "Bm"f/g/f/e/ | "Em"e3 :|
+|: g/a/ \
+| "G"bg gb | "D"af fa | "Em"ge e/f/g/e/ | "Bm"fB Bg/a/ \
+| "G"b>a g/a/b/g/ | "D"a>g f/g/a/f/ | "Em"gf/e/ "B"fe/^d/ | "Em"e3 :|
+S:https://www.folktunefinder.com/tunes/16923
+S:http://trillian.mit.edu/~jc/music/abc/reel/Childgrove_in_Em_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Childgrove_in_Em_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Childgrove_in_Em_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/Childgrove_in_Em_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:19
+T: ROSESTOCK HOLDERBLUET
+N: E1016
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied; Liebe
+M: 3/8
+L: 1/16
+K: C
+ | E3DCE, | A,2G,F,D,2
+A,2G,F,D,2 | A,2G,E,C,2
+E3DCG, | A,2G,F,D,2
+G,2B,2D2 | C4z2
+FED4 | EDB,4
+G,2A,2C2 | CB,CDE2
+FED4 | EDB,4
+G,2A,2C2 | C4z2
+S:https://www.folktunefinder.com/tunes/79123
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied; liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

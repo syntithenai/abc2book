@@ -1,0 +1,27 @@
+X:164
+T: UNSER LIEBEN FRAUE
+N: E1287
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied, Landsknechts - Marsch
+M: 4/4
+L: 1/8
+K: G
+ | G2G2_B2B2 | G4=F2
+F2 | _B2B2c4 | d4z2
+d2 | d2d2d2d2 | _e4d2
+d2 | d2d2d2c2 | _B4z4
+d3dd2c2 | _B4G2
+G2 | _B2B2c2c2 | d4z2
+d2 | d2d2d2d2 | _e4d2
+dd | c2c2_B2A2 | G4
+d3d | c2c2A2A2 | G8
+S:https://www.folktunefinder.com/tunes/79268
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied, landsknechts - marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

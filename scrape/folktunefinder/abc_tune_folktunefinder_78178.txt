@@ -1,0 +1,32 @@
+X:157
+T: TYROLER SIND LUSTIG TYROLER SIND FROH
+N: B0187
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Landleben, Berg
+M: 3/4
+L: 1/8
+K: C
+GEG | cGE3C | B,DF3
+A | FDB,2B,G | G3
+FEG | cGE3C | B,DF3
+A | FDB,2B,2 | C2z2
+G2 | ^FAD3F | GBD3
+G | ^FGABcA | BdcB
+AG | ^FAD3F | GBD3
+G | ^FGABcA | G3
+GEG | cGE3C | B,DF3
+A | FDB,2B,G | G3
+FEG | cGE3C | B,DF3
+A | FDB,2B,2 | C2z
+S:https://www.folktunefinder.com/tunes/78178
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied, landleben, berg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

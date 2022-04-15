@@ -1,0 +1,22 @@
+X:4489
+T:Dublin Streets
+% Nottingham Music Database
+S:O'Neill
+M:9/8
+K:Em
+P:A
+B|"Em"G2A BGE BGE|"D"F2G AFD AFD|"Em"G2A BGE BGE|"G"dcB "B7"AGF "Em"E2:|
+P:B
+"Em"e2f g2a bge|"D"d2e f2g afd|"Em"e2f g2a bge|"G"dcB "B7"AGF "Em"E2|
+S:https://www.folktunefinder.com/tunes/60678
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

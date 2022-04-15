@@ -1,0 +1,29 @@
+X:55
+T: Laemmerweide
+N: A0056B
+O: Europa, Mitteleuropa, Deutschland
+N: "Christ ist erstanden" Melodie in Koephls Gsgb. Strassb. 1537.
+N: Boehme will hiermit nachweisen, dass A0056A die bessere volketuemliche
+N: Lesart eines Volksliedes ist, das als geistliches Lied weltlichen
+N: Ursprung hat.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: D
+A4 | _B2A2B2d2 | =c2_B2A4
+z2A2d2d2 | =c2A2_B2G2 | =F4=c4
+z2A2c2_B2 | A2G2=F2D2 | =C4z2
+c2 | A2A2_B2=c2 | d4A4
+z2d2=c2_B2 | A2G2=FDE2 | D4
+S:https://www.folktunefinder.com/tunes/68601
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

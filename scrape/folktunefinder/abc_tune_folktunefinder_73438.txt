@@ -1,0 +1,27 @@
+X:279
+T: My Heart's Full of Joy
+B: O'Neill's 279
+N: "Playful"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Typo: Missing dot in first bar.
+M: 6/8
+L: 1/8
+K:G
+(D/>G/) \
+| Bc/A GAB | {AB}c2B {B}A2d | G2{cd}e dG/) |
+| B>cA GBd | g{ag}fe d2d | dcB ABA | G2(B/A/) G2 ||
+|| d \
+| g{ag}fg agf | gdB G2(B/>d/) | g{ag}fe dBc | d3 d2(B/>d/) |
+| g{ag}fg agf | gBd  g2e | dcB ABA | G2(B/A/) G2 ||
+S:https://www.folktunefinder.com/tunes/73438
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

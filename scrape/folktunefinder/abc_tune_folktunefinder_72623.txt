@@ -1,0 +1,29 @@
+X:166
+T: Pioniere sind stets munter,
+N: D0290
+O: Europa, Mitteleuropa, Deutschland,
+N: Inzipit = Variante zum Lied
+R: Soldaten - Lied
+M: 4/4
+L: 1/8
+K: D
+ |  |  |  |  |  | F3FFFEF | A2G2z4
+E3cccBc | d6z2
+F3FFFEF | A2G2z4
+E3cccBc | d6z2
+c3cccBc | d2A2z4
+c3cccBc | d2A2z2
+FG | A2d2c2B2 | A4
+B3B | AABc | d2
+FF | A2d2c2B2 | A4
+B3A | AABc | d4
+S:https://www.folktunefinder.com/tunes/72623
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

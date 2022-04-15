@@ -1,0 +1,28 @@
+X:7982
+T:Watson's Quick Step. GHW.024
+O:england
+M:4/4
+L:1/8
+Q:130
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:March
+A:Norfolk
+K:F
+(3cdc)|B>AG>A F>fe>d|c>BG>A B2 (3cde)|f>ae>g d>fc>f|d>fc>f g2 c2|
+B>AG>A F>fe>d|c>BG>A B2 c2|d>gd>e c>d (3efg)|f2e2f2:|
+|:(3efe)|d>^cd>f a>f d2|e>ce>g b>g e2|d>^cd>f a>f (3def)|e2 c2 A2 c2|
+d>^cd>f a>f d2|e>ce>g b>g e2|d>ab>a g>f (3efe)| d2 ^c2 d2:||
+S:https://www.folktunefinder.com/tunes/28434
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: She's Ower Young to Marry Yet
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+D \
+| "D"F<A A>B "Bm"d>e f>e | "G"d>B A>B "A7"e>f eE \
+| "D"F<A A>B "Bm"d>e f>e | "D"f<a "A7"e>f "D"d<D D :|
+|: a \
+| "D"f>d a>d "Bm"f>g a>b | "D"f<d a<d "A7"f<e e>a \
+| "D"f>d a>d "Bm"f>g a>b | "Em"f<d "A7"e>c "D"d<D D :|
+S:https://www.folktunefinder.com/tunes/19658
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ShesOwerYoungToMarryYetS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ShesOwerYoungToMarryYetS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

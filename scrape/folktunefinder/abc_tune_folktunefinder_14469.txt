@@ -1,0 +1,25 @@
+X: 1
+T: Kesh Jig
+T: Kincora Jig
+O: Trad
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdd | "D7"edB dBA \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdB | "D7"AGF "G"G2 :|
+|: A \
+| "G"B2d dBd | "C"ege "G"dBG | "G"B2d dBG | "Am"ABA "D7"AGA \
+| "G"B2d dBd | "C"ege "G"dBd | "C"gfg "D7"aga | bgf "G"g2 :|
+S:https://www.folktunefinder.com/tunes/14469
+S:http://trillian.mit.edu/~jc/music/abc/jig/KeshJig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KeshJig_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

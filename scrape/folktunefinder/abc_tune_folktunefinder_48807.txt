@@ -1,0 +1,29 @@
+X:15
+T:RondeVI & Salterelle
+C:Tielman Susato
+L:1/8
+M:4/4
+O:Germany 
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d86.html
+%%ID:00000d86
+K:G
+|G2GA B4|Bc dB c2A2|A2A2A2A2|AB cA B2G2|
+G2GA B2B2|Bc dB c2A2|AB cA B2AG|FE GF G4:|
+|:d2d2B2B2|e2e2d4|Bc dB cB AG|FE GF GA Bc|
+d2d2B2B2|e2e2d4|Bc dB cB AG|FE GF G4:|
+|:[M:6/8]G2A B2B|B3/2c/2d/2B/2 c2A|A2A A2A|A3/2B/2c/2A/2 B2G|
+G3/2F/2G/2A/2 B2B|B3/2c/2d/2B/2 c2A|\
+A3/2B/2c/2A/2 B/2c/2B/2A/2G|F3/2E/2F G2G:|
+|:d2d B2B|e2e d2d|B3/2c/2d/2B/2 c3/2B/2A|G3/2A/2F G3:|
+S:https://www.folktunefinder.com/tunes/48807
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

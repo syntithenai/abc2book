@@ -1,0 +1,25 @@
+X:196
+T: EIN SCHWEINHIRT DER HUET BEI DEM KORN
+N: Z0195
+O: Europa, Mitteleuropa, Deutschland
+R: Hirten -, Handwerker - Lied
+M: 3/8
+L: 1/8
+K: G
+d | d2c | c2_B | _B2A | _B2
+B | _B2A | A2G | GFG | G2
+d | d2=f | =f2d | _e2c | cc
+c | d2_B | A2G | FGA | DD
+d | d2d | g2G | G2
+c | _B3 | A3 | G2
+S:https://www.folktunefinder.com/tunes/69055
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Hirten -, handwerker - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

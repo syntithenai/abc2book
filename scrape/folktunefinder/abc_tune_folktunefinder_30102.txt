@@ -1,0 +1,30 @@
+X:0
+T:The Dorian/Minor/Phrygian Pentatonic (re/la/mi, pi-4) Scale
+L:1/4
+M:8/4
+K:DDor
+P:re -mi -ti
+"_re"D2 "_fa"F "_so"G "_la"A "_do"c "_re"d2 |\
+"_re"d2 "_do"c "_la"A "_so"G "_fa"F "_re"D2||
+M:8/4
+P:la -ti -fa
+K:AMin
+"_la"A2 "_do"c "_re"d "_mi"e "_so"g "_la"a2 |\
+"_la"a2 "_so"g "_mi"e "_re"d "_do"c "_la"A2||
+M:8/4
+P:mi -fa -do
+K:EPhr
+"_mi"E2 "_so"G "_la"A "_ti"B "_re"d "_mi"e2 |\
+"_mi"e2 "_re"d "_ti"B "_la"A "_so"G "_mi"E2|]
+S:https://www.folktunefinder.com/tunes/30102
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

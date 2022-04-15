@@ -1,0 +1,42 @@
+X:872
+T:Xiraldilla (CT 375)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Alfredo Garca Muiz, de diez y ocho aos, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 375
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|d2 B|Bdd|eee|eed|e2 z|
+d2 B|Bdd|eee|edc|B2 z :||
+W:Si pasas por mi calle
+W:de madrugada,
+W:tir una piedrecita
+W:a mi ventana.
+W:
+W:Tira una piedrecita,
+W:trala fuerte,
+W:que si me hallo dormida,
+W:que me despierte.
+W:
+W:Que si me hallo dormida,
+W:que me despierte
+W:del sueo de la aurora,
+W:sueo mui fuerte.
+W:
+S:https://www.folktunefinder.com/tunes/59759
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

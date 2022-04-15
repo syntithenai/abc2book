@@ -1,0 +1,24 @@
+X:100
+T: UEBER DIE VERHEERTEN MATTEN
+N: B0588
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied, Klage, Heimweh, politisch
+M: 4/4
+L: 1/8
+K: C
+ | C3G,C2E2 | D3B,G,2G,2
+C3G,C2E2 | D3B,G,2G,2
+E2E2EDEC | B,2A,2G,2z2
+G,3D,G,2B,2 | A,3D,A,2C2
+B,3G,B,2D2 | C3G,C2E2
+F2F2E2FD | C2B,2C2z2
+S:https://www.folktunefinder.com/tunes/62123
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, soldaten - lied, klage, heimweh, politisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

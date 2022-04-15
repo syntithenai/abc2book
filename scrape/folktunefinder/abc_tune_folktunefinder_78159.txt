@@ -1,0 +1,27 @@
+X:138
+T: EIN NIEDLICHES MAEDCHEN EIN JUNGES BLUT
+N: B0168
+O: Europa, Mitteleuropa, Deutschland, Westerwald; Dillkreis; Wetzlar
+R: Ballade, Romanze
+M: 6/8
+L: 1/8
+K: F
+F | FFFFGA | B2BB2
+B | cccFGA | B3z2
+B | BGGGGG | FAcf2
+A | ccccBG | F3z2
+F | FFFFGA | B3z2
+B | ccccBc | d3z2
+B | BGGG2G | FAcf2
+A | ccccBG | F3z2
+S:https://www.folktunefinder.com/tunes/78159
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

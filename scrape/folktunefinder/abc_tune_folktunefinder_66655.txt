@@ -1,0 +1,26 @@
+X:11
+T:The Fergus Reel
+R:reel
+D:Trian
+S:Clare FM
+Z:psc -  http://www.cranfordpub.com
+L:1/8
+Q:333
+M:C|
+K:D
+e|fd ~d2 edBA|BGEF G2 AG|FA A/A/A GB ~B2|Adef gbag|
+fd ~d2 edBA|BGEF G2 AG|FA A/A/A GB ~B2|ceag fdd:|
+|:e|fd ~d2 fdaf|ge e/e/e gebe|fdAF G2 AG|Adef gbag|
+fd ~d2 fdaf|ge e/e/e gebe|fdAF G2 AG|A2 ag fdd:|
+S:https://www.folktunefinder.com/tunes/66655
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

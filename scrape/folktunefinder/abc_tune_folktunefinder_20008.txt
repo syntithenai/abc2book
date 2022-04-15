@@ -1,0 +1,35 @@
+X:1
+T:Judith's Waltz
+M:3/4
+L:1/8
+R:Waltz
+C:Jody Kruskal
+N:2002, Jody Kruskal, ASCAP. Used with permission of the composer.
+B:"Feet in the Clouds: 50 Dance Tunes by Jody Kruskal."
+N:Contact Jody Kruskal, 359 16th St., Brooklyn, NY, 11215
+N:jody:kruskal.net
+Z:AK/Fiddler's Companion
+S: aikuntz:aol.com tradtunes 2002-9-6
+K:D
+A de |: "D"f2a2A2 | "G"B3 d cB | "A"A4E2 | "D"FA Bc de |
+f2a2A2 | "G"B2 ga fg | "Em"ef ed cB | "A"A3 c de | "D" f2a2A2 |
+"G"B3 d cB | "A"A4 E2 | "Bm"F2G2A2 | "G"B2ga fg | "Em"e>f ed cB |
+"A"AB AG FE |1 "D"D3 A de :|2 "D"D4 DE ||: "D"FD EF "G"G2 |
+"A"A3Bc2 | "Bm"dA Bc d2 | "A" e4 de | "D"f2a2A2 | "G"B2 ga fg |
+"Em"ef ed cB | "A"A4DE | "D"FD EF "G"G2 | "A"A3Bc2 | "Bm"dA Bc d2 |
+"G"e4 de | "D"f2a2A2 | "G"B2ga fg | "A"e>f ed c2 |1 "D"d4 DE :|2 "D"d3 ||
+S:https://www.folktunefinder.com/tunes/20008
+S:http://trillian.mit.edu/~jc/music/abc/waltz/JudithsWaltz_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/JudithsWaltz_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 1
+T: Dve Gitari
+T: Two Guitars
+O: Russian Gypsy
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bm
+| "Em"zegb c'2b2 \
+| "Bm"zdfb c'2b2 \
+| "F7"z2b2- b^a^ga \
+| "Bm"b4 z4 \
+|| "Em"z2a>g a2g2 \
+| "Bm"z2g>f g2f2 \
+| "F7"z2f>e f3e |
+| "Bm"e2d2 z4 \
+| "Em"z2dc aggf \
+| "Bm"f4 z4 \
+| "F7"zf2f- f2^g^a \
+| "Bm"c'4 b4 \
+|: "Em"za2g g4 \
+| "Bm"zg2f f4 |
+| "F7"f2ee f2e2 \
+| "G"e3d d4 \
+| "Em"c'3c' c'2c'2 \
+| "Bm"c'3b b4 \
+| "F7"b2^aa ^g2aa \
+| "Bm"b3b b2z2 :|
+S:https://www.folktunefinder.com/tunes/18682
+S:http://trillian.mit.edu/~jc/music/abc/song/DveGitari_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/song/DveGitari_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Russia/song/DveGitari_Bm.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: the Ballyfin Slide
+R: jig, slide
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG \
+|: "D"A2A AFA | "G"B2B BAB | "A7"c2c ABc | "D"d2e f3 \
+|  "D"A2A AFA | "G"B2B BAB | "A7"c2c ABc | "D"d2d d3 :|
+e \
+|: "D"f2f fef | "Em"g2g g2f | "A7"e2e ede | "D"f2f f2e \
+| "Bm"d2d dcd | "Em"e2e e2d | "A7"c2c ABc |1 "D"d2e f3 :|2 "D"d2d d3 :|
+S:https://www.folktunefinder.com/tunes/13824
+S:http://trillian.mit.edu/~jc/music/abc/jig/BallyfinSlide.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BallyfinSlide.abc
+% Rhythm Jig, slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

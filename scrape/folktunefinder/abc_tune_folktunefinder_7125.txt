@@ -1,0 +1,29 @@
+X: 2
+T: Bulgar (Frailach)
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19
+Z: John Chambers <jc@trillian.mit.edu>
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Em
+|: EGB \
+|| "Em"e^d eB- | B^A B2 | GF GE- | EE FG | "Am"A3 G | "B7"B/^A/G G/F/E | "Em"^A/=c/ B3- | BE GB |
+|| "Em"e^d eB- | B^A B2 | GF GE- | EE FG | "Am"A3 G | "B7"B/^A/G G/F/E | "Em"E4-        | E :|
+|: "D7"d[e=c][f_c] \
+|| "G"[gB][dB] [gB][bd]- | [bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g] \
+| "D7"[a3f] [bg] | [c'a][d'/b][c'/a] [bg][af] | "G"[^af] [b3g]- | [bg]d "D7"[e=c][f_c] |
+|| "G"[gB][dB] [gB][bd]- | [bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g] \
+|  "D7"[d'3b] [bg] | [d'/b][c'/a][bg] [c'/a/][b/g/][af] | "G"[g4g]- | g :|
+|: G"B7"F^D \
+|| "Em"E4- | E[F^D] [GE][AF] | [B4G]- | [BG]G FE | "B7"^D2 F2 | c3 ^A | "Em"B3 ^A | B/^A/G G/F/E |
+|| "Em"E4- | E[F^D] "E7"[GE][^G=D] | "Am"[A4C] | [c2E] z2 | "Em"BE FG | "B7"B/^A/G G/F/E | "Em"E4- | E :|
+S:https://www.folktunefinder.com/tunes/7125
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Kammen9-19.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:0
+T:Trooping the Colours
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Slow March
+M:2/4
+L:1/16
+Q:1/4=56
+N:part 3 ends with a quaver in the book, variant repeat is mine
+K:Hp
+   af|{gef}e4         {A}ef{gef}eA  |  {d}c4         {gcG}c2{ag}af |\
+        {g}ef{gef}ec  {g}AB{g}c{d}A |  {g}GA{g}B{d}c {gBG}B2af     |
+      {gef}e4         {A}ef{gef}eA  |  {d}c4         {gcG}ceaf     |\
+      {gef}ec{g}B{d}c {g}GA{g}B{d}c |  {e}A4       {gAGAG}A2      :|
+{d}ce|  {g}f4          {g}fa{f}gf   |  {g}e4         {geA}e2{g}AB  |\
+      {GdG}c4        {gef}ec{g}B{d}A|  {g}GA{g}B{d}c {gBG}B2{d}ce  |
+      {GdG}f4          {g}fd{e}Af   |{gef}e4           {A}e2{g}AB  |\
+      {GdG}c2{gef}ec {gBd}BA{g}B{d}c|  {e}A4    [1 {gAGAG}A2      :|\
+                                                [2 {gAGAG}A3      ||
+    B|{GdG}c4        {gef}ec{g}B{d}A|  {g}f4          {ag}af{gef}ec|\
+      {Gdc}d4        {gfg}fe{g}c{d}A|  {g}GA{g}B{d}c {gBG}B2{g}AB  |
+      {GdG}c4        {gef}ec{g}B{d}A|  {g}f4          {ag}af{gef}ec|\
+      {Gdc}d3f       {gef}ec{g}B{d}A|  {g}GA{g}B{d}c   {e}A3      :|
+S:https://www.folktunefinder.com/tunes/66320
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

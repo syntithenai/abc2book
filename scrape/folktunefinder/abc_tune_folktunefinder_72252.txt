@@ -1,0 +1,33 @@
+X: 3
+T:Untitled. HA.004
+M:6/4
+L:1/8
+Q:240
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"unedited"d4e2 f2e2d2|(ed)(ef)(ef)|d4e2 f2e2d2|e4|!
+|a4g2 f2e2d2|g4f2 e2^c2d2|e2f2g f2ed2|!
+a4g2 f2e2d2|g4f2 e2^c2d2|e4e2e4||!
+zzz|zzz|zzz||!
+M:9/4
+"Edited By CGP"d4e2 f2e2d2 (ed)(ef)(ef)|d4e2 f2e2d2 e6||!
+M:6/4
+a4g2 f2e2d2 |g4f2 e2^c2d2|e2f3g f3ed2|!
+a4g2 f2e2d2| g4f2 e2^c2d2| e4e2e6|]
+S:https://www.folktunefinder.com/tunes/72252
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/4
+% Time_signature 6/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

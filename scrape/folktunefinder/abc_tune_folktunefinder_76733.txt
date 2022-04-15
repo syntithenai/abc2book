@@ -1,0 +1,30 @@
+X:248
+T: DIE MUTTER SPRACH ZUM TOECHTERLEIN
+N: E0833
+O: Europa, Mitteleuropa, Deutschland
+R: Hochzeits -, Ehestands - Lied
+M: 3/4
+L: 1/8
+K: G
+G2 | _B4G2 | _B4c2 | d3_e=f2 | _e4
+d2 | c4_B2 | A4G2 | F6 | G2z2
+G2 | _B4G2 | _B4c2 | d3_e=f2 | _e4
+d2 | c4_B2 | A4G2 | F6 | G2z2
+A2 | _B3AB2 | c3_Bc2 | d3cd2 | _e4
+d2 | c4_B2 | _B4A2 | _B4
+d2 | d3e=f2 | d3e=f2 | d3c_B2 | A3_B
+c2 | _B3AG2 | F3GA2 | G6- | G2z2
+S:https://www.folktunefinder.com/tunes/76733
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:4
+%%leftmargin 1.1cm
+%%rightmargin .4cm
+T: Tam Lin
+R: reel
+K: Dm
+%%text Repeat part A 4 times
+G,|: "Dm"A,2DA, FA,DA,| "Bb"B,2DB, FB,DB,| "C"C2EC GCEG|[1,3 "Am"FEDC DCA,G, :|[2,4 "Am"FEDC "Dm"D4 |]
+|:"Dm"dcAG F2 D2|dcAG F2 D2|"C"cE (3EEE cEdE|cE (3EEE c=Bc^c|
+"Dm"dcAG F2 D2|dcAG F2 D2|"Bb"B,3A, B,CDE|"Am"FEDC "Dm"D4:|
+S:https://www.folktunefinder.com/tunes/150
+S:http://trillian.mit.edu/~jc/music/abc/Contra/NEFFA_Sets_2008.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

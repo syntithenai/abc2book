@@ -1,0 +1,34 @@
+X: 298
+T: St. Patrick's Day
+B: O'Neill's 298
+N: "Lively"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The second part is 14 bars (68).
+M: 6/8
+L: 1/8
+K: G
+D \
+| GAG GBd | gfe dBG | AGA BGD | EFE E2D \
+| GAG GBd | gfe dBG |
+| AGA BGD | E2F G2 :| B | def gag | fed edB \
+| def gag | fed e2B | def gag | fed gfe |
+| dBG GBd | gfe dBG | AGA BGD | EFE E2D \
+| GAG GBd | gfe dBG | AGA BGD | E2F G2 ||
+S:https://www.folktunefinder.com/tunes/15014
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/StPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/StPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/StPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SaintPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/StPatricksDay1.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/SaintPatricksDay1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

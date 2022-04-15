@@ -1,0 +1,27 @@
+X:309
+T: MAMA PAPA ACH SEHN SIE DOCH DEN KNABEN
+N: B0366
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Scherz - Lied, Liebe
+M: 2/4
+L: 1/8
+K: C
+G, | C2C,2 | C,2z
+C | CB,A,G, | G,2E,
+G, | G,F,F,F, | F,E,E,
+G, | A,G,F,E, | G,2D,
+D, | G,2G,A, | B,A,B,
+C | D3E | D2z
+D | DCCC | CB,D
+B, | B,A,CA, | G,2z
+S:https://www.folktunefinder.com/tunes/78330
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Scherz - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

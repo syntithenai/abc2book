@@ -1,0 +1,36 @@
+X:245
+T:Rowland Hornpipe
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+N:A personal note - this was the first 3/2 hornpipe I ever met; written like this, in 4/4. It took me years to realise what was going on with it ...
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000604.html
+%%ID:00000604
+K:D
+AFDF EDCE | D2EF   GFED | C2E2   DEFD | AFDF EDCE | D2d2   AGFE | D2F2 EFGE ::
+ABcA BcdB | c2(BA) GFED | C2E2   DEFD | ABcA fedc | d2(cB) AGFE | D2F2 EFGE ::
+fgaf efge | c2(cf) efge | c2(cf) efge | fgaf efge | d2(cB) AGFE | D2F2 EFGE ::
+AFAF BGBG | AcBA   GFED | CDEC   EFGE | AFAF BGBG | BdcB   AGFE | DEFD EFGE :|
+%%text Time signature is written as C| in mss, it's probably more comfortable in 3/2 :-
+%%scale .5
+[M:3/2] \
+AFDF EDCE D2EF   | GFED C2E2   DEFD | AFDF EDCE D2d2   | AGFE D2F2 EFGE ::
+ABcA BcdB c2(BA) | GFED C2E2   DEFD | ABcA fedc d2(cB) | AGFE D2F2 EFGE ::
+fgaf efge c2(cf) | efge c2(cf) efge | fgaf efge d2(cB) | AGFE D2F2 EFGE ::
+AFAF BGBG AcBA   | GFED CDEC   EFGE | AFAF BGBG BdcB   | AGFE DEFD EFGE :|
+% page 24
+S:https://www.folktunefinder.com/tunes/43612
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

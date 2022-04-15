@@ -1,0 +1,28 @@
+X:595
+T: I HA DAHEIM EN MAIDLI
+N: E0556
+O: Europa, Mitteleuropa, Schweiz
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | A,2G,2F,2D,2 | E,2G,2C2
+G,2 | G,2F2A,2B,2 | C4z2
+G,2 | A,2G,2F,2D,2 | E,2G,2C2
+G,2 | F2D2A,2B,2 | C4z2
+E2 | E3DD2E2 | D2C2C2
+D2 | C2B,2A,2B,2 | D2C2C2
+FE | ^C2D2D2ED | B,2C2C2
+EC | B,2G,2A,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/79036
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

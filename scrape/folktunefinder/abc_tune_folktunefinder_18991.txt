@@ -1,0 +1,30 @@
+X:1
+%% Copyright 1934 Mills Music Incorporated, USA, Campbell, Connelly & Company Limited, 8-9 Frith Street, London W1
+T:Stars fell on Alabama
+M:4/4
+L:1/8
+C:Mitchell Parish & Frank Perkins
+Q:1/4=66
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Cmaj7"x4 "A7"x4 | "D7"x4 "G7"x4 | "Cmaj7"x4 "Fmaj7"x4 | "Em7"x4 "Ebdim7"x4 |
+"Dm7"x4 x4 | "G7"x4 "-/F"x4 | "Em7"x4 "A7"x4 | "Dm7"x4 "G7"x4 ||
+V:melody
+E4 ^DEDE | A2A4G2 | e4 ^dede | B6_B2 |
+S:https://www.folktunefinder.com/tunes/18991
+S:http://trillian.mit.edu/~jc/music/abc/song/Stars_fell_on_Alabama.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/stars_fell_on_alabama.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Stars_fell_on_Alabama.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/stars_fell_on_alabama.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:380
+T:Sally's Jig
+A:Lancaster
+C:Andy Hornby
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000076f.html
+%%ID:0000076f
+K:G
+D|\
+G2B BAB|c2A A2G|F2A AGA|BAG FED|\
+G2B BAB|c2A A2G|FAd cAF|G3 G2 :|
+|: d|\
+ded c2A|ABc B2G|FAF DEF|GAB d2B|\
+ded cdc|BdB A2F|DFd cAF|G3 G2 :|
+S:https://www.folktunefinder.com/tunes/43941
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

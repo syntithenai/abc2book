@@ -1,0 +1,28 @@
+X:16268
+T:Tabulature du Fifre, ou Arigot du troisiesme ton. (*)
+R:
+S:Thoinot Arbeau
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:8/2
+L:1/2
+Q:1/2=150
+K:C
+%%MIDI nobarlines
+%%MIDI transpose 0
+G G A B c z z z | G G A B c B c d | c d c B/ A/ B2 |
+B A/ B/ c/ B/ A/ G/ A2 | A G A/ B/ A/ G/ F/ G2 | G F E D E2 | E D E F G2 | /.../
+S:https://www.folktunefinder.com/tunes/37639
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 8/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:7619
+T:Ton double gavotte
+O:england
+C:Padrig Sicard
+D:Portland
+P:G4
+M:12/8
+Q:C3=156
+K:G
+P:G
+"Em"B2 B E2 E F2 G "D"A3|B2 d "G"B2 A "C"G3 "Em"E3::
+"Em"B2 B E2 E F2 G "D"A3|B2 d "G"B2 A B2 c "D"B2 A|\
+"C"GAG E2 E F2 G "D"A3|B2 d "G"B2 A "C"G3 "Em"E3:|
+S:https://www.folktunefinder.com/tunes/28071
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: the Earl of Breadalbane's Hermitage
+C: Niel Gow
+S: handwritten MS (BSFC)
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+|: B | "Em"~E2EG B3^c | "D"dBAd FDAF | "Em"~E2EG B3g | "B7"f^dBd "Em"e3 :|
+   f | "Em"gfef  gfeg | "D"feda fadf | "Em"gfef gfeg | "B7"f^dBd "Em"e3 ||
+   f | "Em"gfef  gfeg | "D"feda fadf | "Em"gbeg bgeg | "B7"f^dBd "Em"e3 |]
+S:https://www.folktunefinder.com/tunes/17085
+S:http://trillian.mit.edu/~jc/music/abc/reel/EarlOfBreadalbanesHermitage_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/EarlOfBreadalbanesHermitage_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EarlOfBreadalbanesHermitage_Em.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

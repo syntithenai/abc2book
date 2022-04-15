@@ -1,0 +1,29 @@
+X: 1
+T: Fyrmanna shottis
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+(3cde \
+| "F"f2 A2 A>A Bc | "Gm"d2 G2 G2 GF | "C7"E2 G2 C2 DE | "F"F2 A2 c>c de \
+| "F"f2 A2 A>A Bc | "Gm"d2 G2 G2 GF | "C7"E2 G2 C2 DE | "F"F2 A2 F2 :|
+K: Bb
+|: F2 \
+| "Bb"d2 dd d2 dd | d2 f2 B4 | "F7"c2 e2 A4 | "Bb"B2 d2 f3 d \
+| "Bb"d2 dd d2 dd | d2 f2 B4 | "F7"c2 ce A2 c2 | "Bb"B2 d2 B2 :|
+K: F=e
+|: cf \
+| "F"aa aa c'2 f2 | "Gm"e2 gb d'4 | "C7"gg gg b2 e2 | "F"f2 ac' f'4 \
+| "F"aa aa c'2 f2 | "Gm"e2 gb d'4 | "C7"gg gg b2 e2 | "F"f2 a2 f2 :|
+S:https://www.folktunefinder.com/tunes/18365
+S:http://trillian.mit.edu/~jc/music/abc/shottish/FyrMannaShottis_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/FyrMannaShottis_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/shottish/FyrMannaShottis_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

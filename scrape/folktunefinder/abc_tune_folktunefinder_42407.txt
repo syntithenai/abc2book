@@ -1,0 +1,21 @@
+X:1699
+T:Moving Bog
+O:ireland
+Z: id:dc-reel-228
+M:C
+L:1/8
+K:D Major
+A,|D2FA d2Bc|defg ecAc|d2cd BGED|CEAG FDEF|!
+D2FA d2Bc|defg ecAc|d2cd BGED|CEAG FDD:|!
+A|defd gefd|gabg ecAc|defd gefd|gabg f3e|!
+defd gefd|gabg ecAc|d2cd BGED|CEAG FDD:|!
+S:https://www.folktunefinder.com/tunes/42407
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

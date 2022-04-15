@@ -1,0 +1,35 @@
+X: 1
+T: Polsdans etter Konrad H. Evensg\aard
+O: Norway
+S: handwritten MS of unknown origin
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1
+D>F \
+| (3ABA ^G<A B>c | d2 f<d e>c | (3ABA ^G<A B>c | d>A F<E D>F |
+| (3ABA ^G<A B>c | d2 f<d e>c | (3ABA ^G<A B>c | d2 d2 :|
+|: z2 \
+| e>f d<e f>a | (3gag (3fgf e<c | d>e f<g e>c | A6 |
+| e>f d<e f>a | (3gag (3fgf e<c | d>e f<g e>c | d2- [d2D2] :|
+V: 2
+z2 \
+| "D"(3FGF A2 "A"[A2E2] | "D"{AB}[A4D4] "A"[A2E2] | "D"(3ABA A2 "A7"[G2C2] | "D"[F2D2] A<G F>A |
+| "D"(3FGF A2 "A"[A2E2] | "D"{AB}[A4D4] "A"[A2E2] | "D"(3ABA "(E7)"[^G-E][GD] "A7"[=G2C2] | "D"[F2D2] [F2D2] :|
+|: z2 \
+| "A"G>A "D"F<G "D7"A>=c | "G"(3B=cB (3ABA "A7"G2 | "D"F>G A<B "A"A2 | "F#m"F4 [c2F2] |
+| "A"G>A "D"F<G "D7"A>=c | "G"(3B=cB (3ABA "A7"G2 | "D"F>G A<B "A"A2 | "D"d2- [d2A2D2] :|
+S:https://www.folktunefinder.com/tunes/16497
+S:http://trillian.mit.edu/~jc/music/abc/pols/Pols_KonradHEvensgard_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/pols/Pols_KonradHEvensgard_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Pols_KonradHEvensgard_D_2V.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

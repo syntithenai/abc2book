@@ -1,0 +1,24 @@
+X: 1
+T: the One-Horned Sheep
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+|: \
+"G"{f}g2G GFG | "C"EGG "G"DGG | {f}g2G GFG | "Am"EAG "D"FED |
+"G"{f}g2G GFG | "C"EGG "G"DGG | "C"EGG "D"FGA | "G"BGF G3 :|
+|: \
+"G"GBd dBd | GBd d2D | GBd dcB | "D"cdc A2D |
+"G"GBd dBd | GBd def | "C"gfe dBG |1 "D"ABA G3 :|2 "D"ABc def |]
+S:https://www.folktunefinder.com/tunes/14810
+S:http://trillian.mit.edu/~jc/music/abc/jig/OneHornedSheep1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/OneHornedSheep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OneHornedSheep1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OneHornedSheep_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

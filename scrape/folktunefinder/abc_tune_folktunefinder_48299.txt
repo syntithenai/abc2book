@@ -1,0 +1,30 @@
+X:1115
+T:Leaving Brittany
+M:3/4
+L:1/8
+Q:180
+C:Johnny Cunningham
+R:waltz
+D:Celtic Fiddle Festival
+Z:Devin McCabe
+K:DMin
+dc|:A ~d3 fd|a ~d3 cd|A ~d3 fd|ag fe df|
+!e ~c3 =Bc|Gc cc cA|^cd ef gf|ed cB AG|
+!A ~d3 fd|a ~d3 cd|A ~d3 fd|ag fe (3def|
+!e ~c3 =Bc|Gc cc cA|^cd ec ac|1d4 dc:|2d3 A df|
+!:a ~A3 df|a ~A3 df|a2 ga (3aag|(3aba (3gag (3fgf|
+!e ~c3 =Bc|Gc cc cA|^c2 d2 e2|e2 f2 g2|
+!a ~A3 df|a ~A3 df|a2 ga (3aag|(3aba (3gag (3fgf|
+!e ~c3 =Bc|Gc cc cA|^cd ec ac|1d3 A df:|2d4 dc||
+S:https://www.folktunefinder.com/tunes/48299
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

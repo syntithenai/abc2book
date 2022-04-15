@@ -1,0 +1,30 @@
+X:58
+T: Wilhelmus van Nassouwen
+N: A0411
+O: Europa, Mitteleuropa, Deutschland
+N: (=A0409D)Willems, Oude vlaemische liederen. No.33.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/8
+K: G
+D2 | G3AG4 | A4d4 | B4A2
+d2 | c4B4 | A3GA3B | G4z2
+D2 | G3AG4 | A4d4 | B4A2
+d2 | c4B4 | A3GA3B | G4z2
+BD | G2A2B2c2 | d3ed2c2 | B4A4
+G2A2B2c2 | d4edcB | A6
+D2 | G3AG4 | A4d4 | B4A2
+d2 | c4B4 | A3GA3B | G4z2
+S:https://www.folktunefinder.com/tunes/80117
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

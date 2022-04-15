@@ -1,0 +1,28 @@
+X:113
+T:Ell' s'tait fait couper les cheveux
+T:(one-step)
+R:One-step
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+M:2/4
+L:1/8
+Q:2/8=160
+K:Bb
+dB dB | dB dB | cG GG | G4 | cA cA | cA cA | BF FF | F4 | dB dB | dB dB | cA AA | A4 |
+(BG) (cA) | (dB) (=ec) | f4- | f f ed | c2 =Bd | c2 =Bd | c4- | c =B cd | c4- | c =B cd | c4- |c =B cd | fe dc | Bf =ef ||
+e2 c2 | G2A2 | B4- | BB/c/ dB | (c4 | F2) (e2 | d4)- | d f =ef | e2c2 | G2A2 | B4- | Bz d^c | cz d^c | cz d=e | f4- |
+ff =ef | e2c2 | G2A2 | B4- | BB/c/ dB | (c4 | F2) (e2 | (d4) | B)d de | fz G2 | G f ff | fz e2 | eg g_g | f2e2 | d2c2 | Bz z2 |]
+%%footer $D   Galouvielle-MBe 2005 \nPaso doble --
+S:https://www.folktunefinder.com/tunes/40311
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm One-step
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

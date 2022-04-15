@@ -1,0 +1,21 @@
+X:102
+T:Grumbling Old Man and the Growling Old Woman
+R:Reel
+M:4/4
+K:Am
+A,B,|"Am"CA,A,A, CA,A,A,|"G"B,G,G,G, B,G,A,B,|"Am"CA,A,A, CA,A,A,|"G"B,G,G,G, "A"A,2A,B,|
+"Am"CA,A,A, CA,A,A,|"G"B,G,G,G, B,G,A,B,|"Am"CA,A,A, CA,A,A,|"G"B,G,G,G, "A"A,2A,:|
+K:A
+cd|:"A"efed cdef|"G"=ged=c B=G^cd|"A"efed cAcd|"G"ea2^ga2ef|
+|"A"=gfed cdef|"G"=ged=c B=GBd|"Am"=c2 (3BcB A=GED|"Em"ED =C2"Am"A,2:|
+S:https://www.folktunefinder.com/tunes/55705
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

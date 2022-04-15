@@ -1,0 +1,23 @@
+X: 3
+P: Even fr\aa Fron
+O: etter Even Nordlistugun, Fron
+Z: John Chambers <jc@trillian.mit.edu>
+R: shottish
+M: 4/4
+L: 1/8
+K: D
+|: "D"D>F FE F2 FE | "G"D>G GF "Em"G2 GF |1,3 "A7"E>c cc cd cB | "D"A>d dc d2 d2 \
+                                        :|2,4 "A7"E>c cc cA Bc | "D"d2 d2 d4 :|
+e- |: "D"f2 fd "A"e2 ec | "Bm"d2 dF "F#m"A2 F2 |1,3 "Em"G2GE "A7"c2 cB | "D"A>B AF d2 de \
+                                              :|2,4 "Em"G2GE "A7"c2 ce | "D"d2 d2 d4 :|
+S:https://www.folktunefinder.com/tunes/7941
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NEFFA_Shottish1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Shottish1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Shottish1.txt
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

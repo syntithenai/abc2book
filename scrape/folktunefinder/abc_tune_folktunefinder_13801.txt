@@ -1,0 +1,24 @@
+X: 1
+T: Assembly of Lovers
+O: Walsh (1766-1824)
+B: Walsh V.W.4758
+R: jig
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"BcB d2g | "C"gfe "D7"d2d | "G"GAG "Em"B2e | "D7"d2c "G"BAG \
+|  "G"BcB d2g | "C"gfe "A7"d2^c | "D"def "A7"gfe | "D"d3- d3 :|
+|: "D"aba a2d | "G"bab "D"a2d | "D"aba a2d | "D7"cBA B2A \
+| "G"GAG B2g | "C"gfe "D7"d2c | "G"BAG "D7"D2F | "G"G3- G3 :|
+S:https://www.folktunefinder.com/tunes/13801
+S:http://trillian.mit.edu/~jc/music/abc/jig/Assembly_of_Lovers_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Assembly_of_Lovers_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

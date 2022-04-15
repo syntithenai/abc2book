@@ -1,0 +1,25 @@
+X: 1
+T: Take Me Out to the Ball Game
+C: Albert von Tilzer
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+[| "F"Fzf | dcA | "C7"c3 | G3 | "F"Fzf | dcA | "C"c3- | c3 |
+| "D7"d^cd | ABc | "G7"d2B | G3 | "G7"d2d | def | "C"ged | cBG |
+|  "F"Fzf | dcA | "C7"c3 | G2A | "F"F2G | "F7"ABc | "Bb"d3- | dde |
+|  "F"fz2 | "Bdim"fz2 | "F"fed | "D7"c=Bc | "G7"d3 | "C7"e3 | "F"f3- | fz2 |]
+%%sep 2 1 500
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13077
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/TakeMeOutToTheBallGame.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

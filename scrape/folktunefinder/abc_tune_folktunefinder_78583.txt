@@ -1,0 +1,25 @@
+X:142
+T: ES SOLLT SICH EIN GOLDSCHMIED SCHMIEDEN
+N: E0071G
+O: Europa, Mitteleuropa, Deutschland, Bonn; Koblenz
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2G2B3AB2 | G4F2G4
+AB | c4c2B3cd2 | A6z4
+Bc | d2d2dcB3cd2 | d4c2A4
+A2 | B3cd2G4BA | G4z2
+A6 | B3cd2G4BA | G6z4
+S:https://www.folktunefinder.com/tunes/78583
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:11
+T:Blauw garen en koperdraad                           %title
+C:                           %composer
+O:                           %origin
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=140                           %tempo  Q:1/4=80
+K:Dm                           %key C  Cm
+V:1
+"Dm" z2z2 defg| "Gm" a2 gf "A" e3 d|  "Dm" d8||
+"Dm"d4 d2 ef|"C" g2 c2 c2 c2 |"Bb"d2f2e2d2 |1 "A" ^c2 A2 A4:|2 "A" c2 A2A2 ag||\
+|:"F" f2f2f2 ag| f2f2f2 ag|
+f2a2 f2a2 |"C" g2e2 c2 g2| ef g2 "A"ef g2 |"Dm" f2d2 defg| "Gm" a2 gf "A" e3 d|1 "Dm"d6 ag :|2 "Dm" d8||
+V:2
+"Dm" z2z2 FGAB|"Gm" c2B2"A"A2G2|"Dm"  F2A2F4||
+"Dm" F4 A2 GA|"C" c2G2E2G2 |"Bb" B2d2c2B2|1 "A" A2 E2 G4:|2 "A" A2 E2 E2 z2||\
+|: "F" A2c2A2 z2|A2c2A2z2|
+A2c2A2c2|"C" e2c2g2c2|c4 "A"^c4 | "Dm" d2A2 FGAB|"Gm" c2B2"A"A2G2|1"Dm" F6z2:|2 "Dm" F2A2F4||
+S:https://www.folktunefinder.com/tunes/45804
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

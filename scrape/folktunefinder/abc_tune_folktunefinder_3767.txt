@@ -1,0 +1,28 @@
+X: 2
+P: From Among Dragons
+C: Leslie Lassetter (Oct 2002)
+W: 2nd ending last time only
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|: "A"c3 B A2 | "Bm(F#m)"d4 c2 | "D"F A3 B2 | "A"A6 \
+|  "D"f6 | "A"e6 | "Bm"d3 e f2 | "E7"B6 |
+|  "A(F#m)"c3 B A2 | "Bm7"d4 c2 | "D"FA3 B2 | "A"A6 \
+|  "D"FA- A4 | "A"EA- A4 | "E7"B4 c2 | "D"A6 |
+| "A"e6 | "D"d6 | "F#m"c4 AB | "E"B6 \
+| "A"e6 | "Bm"d6 | "F#m"c3 d e2 | "E"B6 |
+| "A"e6 | "Bm"d6 | "F#m"c3 d e2 | "D"f6 \
+| "A"e2 ed cB | "F#m"c2 A2 d2 |1 "Bm"A3 d B2 "E"B6 :|
+|2 "E7"c3 d B2 | "A"A6 |]
+S:https://www.folktunefinder.com/tunes/3767
+S:http://trillian.mit.edu/~jc/music/abc/England/FromAmongDragons.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

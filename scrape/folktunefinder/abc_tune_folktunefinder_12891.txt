@@ -1,0 +1,25 @@
+X: 176
+P: My Darling Asleep.
+B: O'Neill's 925
+Z: John Chambers <jc:trillian.mit.edu>
+Z: abc 1.6
+M: 6/8
+R: Jig
+L: 1/8
+K: D
+(d/e/) \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA "Bm"def | "Em"gfg "A7"eag \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA     def | "A7"gec "D"d2 :|
+|: (A/G/) \
+| "D"FAA  "G"Bcd | "D"FAA  "G"BAG | "D"FAA "Bm"def | "Em"gfg "A7"eag \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA     def | "A7"gec "D"d2 :|
+S:https://www.folktunefinder.com/tunes/12891
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

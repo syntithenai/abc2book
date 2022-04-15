@@ -1,0 +1,24 @@
+X:97
+T: FRUEHMORGENS DER PFALZGRAF ZUM WAIDWERK REIT
+N: Z0097
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze, Tod
+M: 4/4
+L: 1/16
+K: F
+C4 | F4F3G_A2G2F2G2 | _A4B4c4z2
+c2 | c2B2B2B2B2_A2G2F2 | B2_A2G2F2G6
+c2 | _e2_d2c2=B2c6c2 | c4B2_A2G6
+c2 | c2B2B2_A2G4G2c2 | _A4G2G2F4
+S:https://www.folktunefinder.com/tunes/68956
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

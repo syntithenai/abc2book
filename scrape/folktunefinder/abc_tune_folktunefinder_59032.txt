@@ -1,0 +1,49 @@
+X:145
+T:Cantar de Navid (CT 316)
+R:Navid
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Navidad, transcrita en Navia.
+A:Asturies
+O:Navia
+Z:Cancioneru de Torner 316
+M:3/4
+L:1/8
+Q:1/4=116
+K:G
+|: (3ddd g2 de|=f2 e4|(3def g2 de|=f2 e4|
+(3e=fe d2 cB|A2 G4|(3FGA B2 cB|A2 G4 :||
+W:Esta noche es Nochebuena
+W:y no es noche de dormir,
+W:que anda la Virgen de parto
+W:y a las doce ha de parir.
+W:
+W:La Virgen lava paales
+W:y los tiende en el romero;
+W:los pajarillos cantaban
+W:y el agua se iba reyendo.
+W:
+W:En el Portal de Beln
+W:vende fruta una zagala,
+W:y como es fruta del Cielo
+W:nadie le pide alcabala.
+W:
+W:En el Portal de Beln
+W:hay una piedra redonda
+W:donde Cristo puso el pie
+W:para subir a la gloria.
+W:
+S:https://www.folktunefinder.com/tunes/59032
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Navid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

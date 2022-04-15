@@ -1,0 +1,25 @@
+X:4695
+T:Polska
+A:Dalarna, lvdalen
+C:e. Lars hs
+M:3/4
+O:Sweden
+R:Polska
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c61.html
+%%ID:00000c61
+K:A min
+E>^G A>B c>A| B^G/B/ A3 B| c/B/c/d/ e2 ce | d2 B4 ::
+c>d e2 e2| c>e dB/d/ cA| c>d e2 e2 | c>e dB/d/ cA| \
+A^G EE G>A | B^G/B/ A4:|
+S:https://www.folktunefinder.com/tunes/37018
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

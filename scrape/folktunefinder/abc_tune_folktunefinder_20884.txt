@@ -1,0 +1,24 @@
+X:435
+T: Batchelder's Reel
+O:england
+R: reel
+M: 2/4
+L: 1/16
+K: F
+c2
+|: "F"f2af "C7"efge | "F"f2c2- c2=Bc | "Bb"dcBA BAGF |1,3 E"C7"FGA Bcde :|2,4 E"C7"FGE "F"F4 :|
+|: "F"A2cA cAcA | "Bb"B2dB dBdB |1,3 A2"F"cA cAcA | "C7"BAGF EFGB :|2,4 A"F"cfa "C7"bgeg | "F"f2a2 f4 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/20884
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

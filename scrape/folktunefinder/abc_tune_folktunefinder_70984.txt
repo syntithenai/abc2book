@@ -1,0 +1,26 @@
+X:237
+%%topmargin 3cm
+T:Coirsdan Mhr
+T:Miss Stewart, Bun Rannoch
+T:Ciorsdaidh Mhor
+T:Big Kirsty
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:E aeolian
+F | {/F}G2 GB {/^c}dBBe | {AB}cA A/A/A {/^c}(dB)Be | {/F}G2 GB {/^c}dBBe |
+{/B}cABG TE2 E :: d | (ef){/f}ge {/^c}dBBe | {/B}cA A/A/A {/^c}(dB)Bd |
+[1 ef{/f}ge {/^c}}dBBe | {/B}cABG TE2 E :| [2 efge dgBb | {/B}cABG TE2 E |]
+S:https://www.folktunefinder.com/tunes/70984
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Coirsdan_Mh_r.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:27
+T:Oh My Rita
+R:waltz
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:currently unpublished in book form
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:266
+M:3/4
+K:C
+G AB|c3 B cd|c2 G2 E2|AGABAG|AGEGAB|
+c2 cdef|edcfef|g3 f ef|g3 G AB|
+cBcdcB|cAGcAG|AGAcAG|AGEGED|
+CEGagf|efdfed|c2 cged|c2 c:|
+|:d eg|a3 b ag|e2 c'2 cd|e2 d2 d2|e2 cdeg|
+a2 ab ag|e2 c'2 fg|edcged|[1c2 c:|[2c2 c2||
+||ED|:CEGc e2|DFAd f2|gecgec'|e2 d2 d2|
+CEGc e2|DFAd f2|gecgec|d2 c2 c2:|
+K:F
+afcagb|a2 f2 f2|gecgfa|g2 e2 e2|
+fdAdfg|aecefe|dcdfed|c2 A2 A2|
+afcagb|a2 f2 f2|gecgfa|g2 e2 e2|
+fagfed|ecAgfe|d=BGdAB|c2 c|]
+S:https://www.folktunefinder.com/tunes/40040
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

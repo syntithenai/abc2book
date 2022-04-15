@@ -1,0 +1,31 @@
+X: 1
+P: Galopede (Yarmouth Reel)
+R: Reel
+O: England
+N:
+N: The AABC pattern is for the country dance "Galopede".  This tune is
+N: used for several dances, with several different repeat patterns.
+M: C|
+%P: AABC
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Karpeles & Schofield p.1 (1951)
+N: Kennedy v.1 p.31 #63 (1951)
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB |1,3 "C"cBcd edcB | "D7"A2A2 A2 :|2,4 "C"cBAG "D7"FGAF | "G"G2G2 G2 :|
+|: dc \
+| "G"B2gf "C"e2ed | "D7"dcBc A2dc |1 "G"B2gf "C"edcB | "D7"A2A2 A2 :|2 "G"BdcB "D7"AcBA | "G"G2G2 G2 |]
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 |1 .d2.d2 "(C)"edcB | "D7"A2A2 A2Bc :|2 "C"edcB "D7"dcBA | "G"G2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/3500
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR71.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

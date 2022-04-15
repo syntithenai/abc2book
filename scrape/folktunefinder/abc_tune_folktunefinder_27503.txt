@@ -1,0 +1,41 @@
+X:7051
+T:The Maid of the Spinning Wheel
+T:Cailleach an Tu/irne
+O:england
+M:6/8
+L:1/8
+R:Jig
+B:Breathnach, CRE I 1
+N:translation of Breathnach's note:
+N:First printed by Rutherford about 1756 in the third volume
+N:of the "Compleat Collection of 200 of the most celebrated
+N:Country Dances" (106).  He called it "The Wild Irishman".
+N:"Norickystie" was Aird's title ("A Selection of Scottish,
+N:English, Irish and Foreign Airs", 1,143) (c.1782), and a
+N:translation of this name, "Nora with the Purse", was
+N:Bunting's title for it in his third collection (1840).  Thomas
+N:Moore wrote "Wreathe the Bowl" to this air.  O'Neill's
+N:"The Road to Lurgan" is a poor version (O'N i [Dance
+N:Music of Ireland], 94).  "Kiss me, darling" is another
+N:O'Neill version in the "Music of Ireland" (920).  O'Neill
+N:re-printed "The Wild Irishman", the version of
+K:G
+D||: GAG B2 G | BcA B2 G | GDG cAG | ~F3 AFD |
+GAG B2 G | BcA B2 c | ded cAF | G3 G2 :||: c |
+BAG AFD | ~D3 AFD | ~D3 AFD | EFG ABc
+BAG AFD | ~D3 AFD | ded cAF | G  G2 :||: D |
+GBd gba | gdB ecA | dBG cAG | ~F3 AFD |
+GBd gba | gdB ecA | fed cAF | G3 G2 :||: A |
+(4cBAC Afd | Bfd Afd | Bfd AFD | EFG ABc |
+BAG AFD | ~D3 AFD | ded cAF | G3 G :||
+S:https://www.folktunefinder.com/tunes/27503
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

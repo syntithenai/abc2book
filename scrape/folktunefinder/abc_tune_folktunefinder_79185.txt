@@ -1,0 +1,24 @@
+X:81
+T: S ISCH WAHR I WILL NIMMAEMEH LIAEGE
+N: E1107
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Luegen - Lied, Maerchen
+M: 3/8
+L: 1/16
+K: G
+G2 | G4G2 | _B3AG2 | A2d2d2 | d2d2
+dd | d3c_B2 | _B3AG2 | G4A2 | A3A
+A2 | _B4B2 | _B3AG2 | A6 | D4
+D2 | G3GG2 | _B3AG2 | G3dd2 | d4
+d2 | d2c2_B2 | A4G2 | A6 | G4
+S:https://www.folktunefinder.com/tunes/79185
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Luegen - lied, maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

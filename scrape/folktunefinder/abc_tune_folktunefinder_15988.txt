@@ -1,0 +1,40 @@
+X: 1
+T: Tankfulla L\aaten
+C: Paul Dahlin
+%%slurgraces 1
+R: Sk\"ankl\aat
+M: 4/4
+L: 1/8
+K: A
+|: AB \
+| "A"{B}c2 cd e2 c2 \
+| "E7"{A}B6 Bc \
+| "D"d2 df "E7"ed cB \
+| "A"AB cA "E7"E2 AB \
+| "A"{B}c2 cd e2 c2 |
+| "E7"{A}B6 Bc \
+| "D"d2 dB "E7"EG BG \
+| "A"A6 :: A2 \
+| "D"{A}f3 e dc df \
+| "A"ef ec A2 ce |
+| "E7"Bc BA GA BG \
+| "A"AB cd {d}e2 e2 \
+| "D"{A}f3 g {g}a2 gf \
+| "A"ef ec A2 ce \
+| "E"Bc BA GA BG \
+| "A"A6 :|
+S:https://www.folktunefinder.com/tunes/15988
+S:http://trillian.mit.edu/~jc/music/abc/misc/TankfullaLaaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/TankfullaLaaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/TankfullaLaaten_A3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/TankfullaLaaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tune/TankfullaLaaten.abc
+% Rhythm Ska?nkl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

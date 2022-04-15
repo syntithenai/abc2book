@@ -1,0 +1,23 @@
+X:0
+T:Jaj de sokat arattam
+G:song
+B:Kodaly, Folk Music of Hungary
+S:collected by Bartok in 1906 in Horgos (Csongrad County)
+M:4/4
+L:1/8
+Q:1/4=76
+K:GDor
+% mixolydian/dorian hexatonic
+eefg ecd2|cG3  G2z2 |\
+ggec aag2|gd3  d2z2 |
+ggec aag2|dfec d4   |\
+eefg ecd2|cG3  G2z2|]
+S:https://www.folktunefinder.com/tunes/30243
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

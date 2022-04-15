@@ -1,0 +1,29 @@
+X:3
+T:Flock's in a Cluster (Cloister), The
+C:John Jones MS 1801
+A:Ash, N. Shropshire
+Z:Neil Brookes <neil@brookes36.freeserve.co.uk> tradtunes 2006-6-7
+M:6/8
+L:1/8
+K:G
+D \
+| G>AG BGd | gag g2 d | BGB dcB | B3-A2 B \
+| cec BdB | GBd g2 f/2g/2 | afd gec | d3- d2 :|
+|: f/2g/2 | afd dAB | cdc cBA | GBd dcB \
+| B3- A2B | c>ec B>dB | GBd g2d | BGB dGg \
+| e3- d2e | d>cB c>BA | G3-G2 :|
+S:https://www.folktunefinder.com/tunes/14192
+S:http://trillian.mit.edu/~jc/music/abc/jig/Flocks_in_a_Cluster_Cloister_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Flocks_in_a_Cluster_Cloister_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Flocks_in_a_Cluster_Cloister_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Flocks_in_a_Cluster_Cloister_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Flocks_in_a_Cluster_Cloister_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Flocks_in_a_Cluster_Cloister_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Flocks_in_a_Cluster_Cloister_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Flocks_in_a_Cluster_Cloister_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

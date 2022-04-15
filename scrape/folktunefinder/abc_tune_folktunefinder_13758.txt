@@ -1,0 +1,28 @@
+X:1
+T:Abraham Brown
+T:(Bidford)
+C:Trad.
+S:Bacon
+M:6/8
+R:Jig
+A:Withington
+P:A(AB3)2(AC3)2A
+K:D
+P:A
+A | "D"dcB A2 d | "G"g2 f "A"e3 | "D"fga A2 A | "G"B3 "D"d2 :|
+P: B
+A | "D"d2 f a2 f | "G"b2 g "A"a2 f | "D"d2 f a2 f | "G"b3 "A"a2 a |\
+"Em"b2 g "A"efg | "D"a2 f d2 A | def A2 A | "G"B3 "D"d2 |]
+P: C
+A | "D"d2 f a2 f | "G"b2 g "A"a2 f | "D"d2 f a2 f | "G"b3 "A"a2 a |\
+"Em"b3 g3 | "A"(2ef g3 | "D"a3 f3 | d3 d2 A | def A2 A | "G"B3 "D"d2 |]
+S:https://www.folktunefinder.com/tunes/13758
+S:http://trillian.mit.edu/~jc/music/abc/jig/AbrahamBrown.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/AbrahamBrown.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

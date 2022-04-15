@@ -1,0 +1,24 @@
+X:18003
+T:Redesdale Hornpipe
+R:Hornpipe
+C:Trad.
+O:England
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+P:A
+"D7"(3def|"G"gdBd GB "D7"(3def|"G"gdBd G2AB|"D7"cAFA DFAc|"G"ed^cd B2"D7"(3def|
+"G"gdBd GB "D7"(3def|"G"gdBd G2"Em"AB|"Am"cAFA "D7"DFAB|"G"A2G2 G2:|
+GA|"G"BGFG DGFG|"G"BGFG D2AB|"Am"cAFA "D7"DFAc|"G"ed^cd B2GA|
+"G"BGFG DGFG|"G"BGFG D2AB|"Am"cAFA "D7"DFAB|"G"A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/51294
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

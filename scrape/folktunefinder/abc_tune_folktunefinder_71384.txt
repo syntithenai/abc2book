@@ -1,0 +1,25 @@
+X:355
+%%topmargin 3cm
+T:Lady Grace Douglas
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bb
+g | Tf2 (dB) {/d}c2 (AF) | ~B2 (FD) ECCg | Tf2 (dB) dcAF | BFGE DB,B, :|
+E | (D/E/F) FB GBFB | EBDB cCCE | (D/E/F) (FB) GBFB | DFBF DB,B,E |
+(D/E/F) (FB) GBFB | EBDB cCCE | (DF)Bd cFAg | Tfdce dBB |]
+S:https://www.folktunefinder.com/tunes/71384
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Grace_Douglas.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0355.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

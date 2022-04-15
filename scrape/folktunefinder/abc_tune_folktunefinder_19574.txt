@@ -1,0 +1,30 @@
+X: 1
+T: Mr. A. G. Wilken's Favourite
+C: J.S.Skinner
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+{A}d \
+| "F"c<A A>G F>G A<F | "Bb"{D}B<d d>c {B}d2 d<{e}f \
+| "F"c<A A>G "Dm"F>G A<F | "Gm"D<G G>F "C7"{E}G2 G<d |
+| "F"c<A A>G F>G A<F | "Bb"{D}B<d d>c {B}d2 d<{e}f \
+| "F"(3cde {f}(3fed c<A F>{E}D | "C7"C<A A>G "F"F2- F ||
+c \
+| "F"f>g a>f "C7"e>f g>e | "Bb"d>e f>d "F"A2- A>A \
+| "Bb"{D}B<d d>B "F"(3Ac{e}f (3cAF | "Gm"D<G G>F "C7"{E}G2 G<C |
+| "F"F>G A>F "C7"E>F G>E | "Bb"D>E F<C "F"A,3 C \
+| "Bb"(3FGA {D}(3Bcd "F"c<A F>{E}D | "C7"C<A A>G "F"F2- F |]
+S:https://www.folktunefinder.com/tunes/19574
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrAGWilkensFav_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MrAGWilkensFav_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrAGWilkensFav_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

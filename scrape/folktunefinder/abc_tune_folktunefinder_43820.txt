@@ -1,0 +1,32 @@
+X:29
+T:Henry's Cat
+S:Andy H
+R:Hornpipe
+O:England
+N:Jan '96
+M:4/4
+I:speed 320
+C:Andy Hornby
+A:Lancaster
+K:G
+(3Bc^c|\
+dedB cAFD|GABG DGF=F|EGcE DGBG|cBAG A2(3Bc^c|\
+dedB cAFD|GABG DGF=F|EGce dcAF|G4 G2::\
+AG|\
+FAcA FDEF|GBdc BGAB|ceag fde^c|de^ce d2(3B=c^c|\
+dedB cAFD|GABG DGF=F|EGBe dBGF|G4 G2:|
+W:Copyright Andy Hornby
+S:https://www.folktunefinder.com/tunes/43820
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

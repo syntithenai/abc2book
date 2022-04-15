@@ -1,0 +1,21 @@
+X:1
+T:Idbury Hill
+L:1/8
+M:4/4
+N:Transposed from D Dorian for comparison
+K:E Dorian
+   B2Bc d2B2 | AGFE D2EF | G2B2 BAGF | E4  E4 :|
+|| B2Bc d2B2 | edcB A2A2 | B2Bc d2A2 | e3d B4 |
+   B2Bc d2B2 | AGFE D2EF | G2B2 BAGF | E4  E4 ||
+S:https://www.folktunefinder.com/tunes/17396
+S:http://trillian.mit.edu/~jc/music/abc/reel/IdburyHill_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/IdburyHill_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

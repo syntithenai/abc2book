@@ -1,0 +1,22 @@
+X: 1
+T: The Accomplished Maid
+O: ca.1790
+M: 6/8
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: F
+|: "F"F2A A2B | cAc "Bb"def | "F"F2A A2B | cAF "C7"GEC \
+|  "Bb"D2B, B,2F | "C7"E2C C2B | "F"A{B}cA "C7"BGE | "F"F3 F3 :|
+[| "C(Am)"A2e e2f | e2c "Gm"dBG | "F"c2A "G7"G2f | "C"e2c "G7"d=BG \
+|  "C"g2e "G7"f2d | "C"e2c "G"d=BG | "F"A=Bc "G7"dcB | "C"c3 [c2C2]A |]
+[| "Bb"B2B BgB | "F"A2A AfA | "Gm"G2G GAB | "F"cAF "C7"GEC \
+|  "Bb"D2B, B,2F | "C7"E2C C2B | "F"A{B}cA "C7"BGE | "F"F3 F3 |]
+S:https://www.folktunefinder.com/tunes/13762
+S:http://trillian.mit.edu/~jc/music/abc/jig/Accomplished_Maid_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Accomplished_Maid_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

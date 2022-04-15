@@ -1,0 +1,26 @@
+X:433
+T: Soldatenabschied (152), S. 333
+N: T0321
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Burglinster, fff Michel Lemmer, 7.1.1914
+R: historische, Kriegs- und Soldatenlieder, Liebeslied]
+M: 3/8
+L: 1/16
+K: G
+D2 | D2G2G2 | G2B2d2 | d2B2G2
+A4d2 | d4c2 | B4
+GA | B4BB | B2c2d2 | e2d2
+cB | A4AA | A2B2c2 | e2d2
+c2 | B4d2 | d4c2 | B4
+S:https://www.folktunefinder.com/tunes/70563
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

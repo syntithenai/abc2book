@@ -1,0 +1,32 @@
+X:576
+T: "Auf der Alm"
+N: Z1256
+O: Europa, Mitteleuropa, Tirol
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+DC | B,DB3A | GB,D3
+G | FA,CFAF | GB,D3
+C | B,DB3A | GB,D3
+d | edcDFA | G2z2
+A^G | BAG3^C | DFA2
+dd | ^cBAGEC | D2d2
+A^G | BAG3^C | DFA3
+d | ^cBAGEC | D2z2
+DC | B,DB3A | GB,D3
+G | FA,CFAF | GB,D3
+C | B,DB3A | GB,D3
+d | edcDFA | G2z2
+S:https://www.folktunefinder.com/tunes/69435
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

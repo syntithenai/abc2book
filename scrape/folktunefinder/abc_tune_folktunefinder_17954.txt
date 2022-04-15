@@ -1,0 +1,22 @@
+X: 5
+P: Bibbity Bobbity Boo
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+| "G"d^cd e2d | B^AB c2B | GAG GFE | "D7"D6 \
+| DEF GAB | cBA d3 | ded cBA | "G"G3- "fine"G3 :|
+|| "C"ccc A2G | c6 | "G"BBB A2G | B3- B2B \
+| "A7"AAA A2A | A2A A2G | "D7"FEF GFG | A3 "d.C."d3 |]
+S:https://www.folktunefinder.com/tunes/17954
+S:http://trillian.mit.edu/~jc/music/abc/reel/RapperGB1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

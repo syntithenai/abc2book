@@ -1,0 +1,22 @@
+X:3135
+T:Coblers Hornpipe
+M:3/2
+L:1/4
+N:The grace notes should be slurred with the preceding notes - ABC2WIN
+N:doesn't seem to handle this
+K:F
+F2 D E/2sF/2s G/2sF/2sE/2SD/2s|E C2{C}  GFE|F>G A G/2sF/2s E/2sF/2sG/2sE
+/2s|A, D2{D}  FED:|!
+d2 d/2e/2 fed|e c2{c} gfe|f>g a g/2sf/2s e/2sf/2s e/2sd/2s|A d2{d} FED:|
+S:https://www.folktunefinder.com/tunes/29415
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

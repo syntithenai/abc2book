@@ -1,0 +1,29 @@
+X: 1
+T: Perthshire Volunteers
+R: strathspey
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+A2 \
+| "A"E3A cde2      c4 A3c | "Bm"d3B    dcBA "E7"GB3      B3d \
+| "A"E3A cde2      c4 A3c |  "D"d3f "E7"e3d  "A"cA3 "D"(3A2G2F2 |
+| "A"E3A cde2 "F#m"c4 A3c | "Bm"d3B    dcBA "E7"GB3    (3B2c2B2 \
+| "A"A4  cde2 "F#m"c4 A3c |  "D"d3f "E7"e3d  "A"cA3      A2 |]
+e2 \
+| "A"a3e agfe "F#m"a4 e3c | "Bm"d3B    dcBA "E7"GB3 B3g  \
+| "A"a3e agfe "F#m"a4 e3c | "E7"d3B    dcBA  "A"EA3 A3 |]
+e2 \
+| "A"a3e agfe "F#m"a2e2 cA3 | "Bm"d3B    dcBA "E7"GB3 B3c  \
+| "A"E3A cde2 "F#m"c4   A3c |  "D"d3f "E7"e3d  "A"cA3 A2 |]
+S:https://www.folktunefinder.com/tunes/19625
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PerthshireVolunteers1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PerthshireVolunteers_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PerthshireVolunteers1_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:0
+T:Sister Jean
+G:slow air
+S:Catriona Macdonald
+M:6/8
+L:1/8
+Q:3/8=80
+R:andante
+K:DDor
+D2E F2G|ABA G2F|E2C C2G|E3 D2C|D2E F2G|ABA A2G|A2d d2c|d3 D3:|
+K:DMix
+A2B c2d|efe e2c|A2B c2G|E3 C3 |A2B c2d|efe e2d|\
+K:D
+                                               f2d d2c|d3 A3 |
+K:DMix
+A2B c2d|efe e2c|A2B c2G|E3 C2B|A2A F2D|A2A F2D|A2d d2c|d3 D3|]
+S:https://www.folktunefinder.com/tunes/30142
+S:http://www.campin.me.uk/Music/Modes.abc
+% Rhythm Andante
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

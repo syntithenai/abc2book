@@ -1,0 +1,28 @@
+X:17485
+T:Tink A Tink. BF13.055
+M:4/4
+L:1/8
+Q:180
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Reel
+O:England
+A:Kent
+N:NB.Bars 11,16 missing from MS. Bar 15 unclear.
+Z:vmp.Chris Partington
+K:G
+G2d>B|G2d>B|c>dc>B| A>GF2|G2d>B|G2d>B|c>AG>F|G2z2:|!
+|:d2g>f| e>dc>B|"NB"A>Bc>d|B2G2| d2g>f| e>dc>B|A>cF>A|G2z2:|!
+S:https://www.folktunefinder.com/tunes/38856
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

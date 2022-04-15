@@ -1,0 +1,29 @@
+X:732
+T:Winter Apples
+N:anon.
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 732
+R:Reel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+N:Music Aviva - The Internet center for free sheet music downloads
+M:C|
+L:1/8
+K:G
+(3(def) "^segno" |g2fd edBA|GABG AGEF|GFGA BABd|(3(efg) (af) gfed|g2(fd)
+edBA|
+GABG AGEF|GFGA BABd|(3(efg) af g2 H ||(ef)|(3(gab) (eg) b2(ag)|(3(fg(a) d
+)f a2(gf)|
+(3(gab) (eg) b2(ag)|(3(fga) (df) e2(ef)|gb2b b2ag|fa2a a2gf|(3(gag) bg (3
+(fgf) af|edef gbaf "^segno" |]
+S:https://www.folktunefinder.com/tunes/45144
+S:http://music.gordfisch.net/oregans/assets/abc/oneills1001.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

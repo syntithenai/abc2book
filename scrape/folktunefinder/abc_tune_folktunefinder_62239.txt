@@ -1,0 +1,28 @@
+X:216
+T: MEIN HERR MALER
+N: B0703
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 6/8
+L: 1/8
+K: C
+ | E,2F,G,2C | B,A,B,C3
+A,2G,F,2E, | G,3D,2z
+E,2F,G,2C | B,A,B,C3
+A,2G,F,2E, | G,3D,2z
+D,2F,E,2C | B,A,B,C3
+D,2F,E,2C | B,A,B,C3
+C2CC2C | E3C3
+A,2DC2B, | D3C2z
+S:https://www.folktunefinder.com/tunes/62239
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

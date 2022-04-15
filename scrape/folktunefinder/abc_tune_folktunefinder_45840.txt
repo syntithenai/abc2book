@@ -1,0 +1,44 @@
+X:28
+T:Company of Wolves (fiddle theme for weeding) *
+C:George Fenton 
+N:retranscription still on progress
+N:original tune can be found 
+N:at http://garvalf.online.fr/temp/compagnie_des_loups_violons.mp3
+N:tuned up 1/2 step in the film
+N:- tune probably works only in AbcMus
+D:
+O:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=160
+K:D
+%%MIDI program 110 %fiddle 
+V:1
+|: [D4A4 f2 ] .fg f2 dA | [A4e2] .e=f e2 dA | [D4A2] d2 d2 cB | [E4c]d ec [E4A4] |
+[D4A4 f2 ] .fg f2 dA | [A4e2] .e=f e2 dA | [D4A2] d2 d2 cB | [A,6c]d ec [D4d4] :|
+V:2
+|: z8 | z8 | z8 | z8 :|
+|: z8 | z8 | z8 | z8 :|
+%
+K:C
+V:1
+A2 d2 d2 cB | c2 e2 e2 cB |
+A2 d2 d2 cB | cd ec A2 c2|
+A2 d2 d2 cB | c2 e2 e2 cB |
+A2 d2 d2 cB | cd ec A4 |
+V:2
+A2 d2 d2 cB | C2 DC A,2 A,2 |
+F2 FE D2 F2 | E2 GE C2 E2 |
+C2 D2 D2 CB,| C2 DC A,2 A,2 |
+F2 FE D2 F2 | E2 GE C2 E2 |
+S:https://www.folktunefinder.com/tunes/45840
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

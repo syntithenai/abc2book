@@ -1,0 +1,27 @@
+X: 3
+T: Sk\aalbergsl\aaten
+T: Harmony
+C: John Chambers
+O: Boda Spelmanslag
+Z: John Chambers <jc@trillian.mit.edu>
+B:
+D:
+M: 3/4
+L: 1/16
+K: G
+|: G3F G4 c3B | BG3 D8 | G3F G4 c3B | BG3 A8 | A3G A4 B4 | d4 d8 | F3d d8 | c4 BcBA B3A |
+|  G3F G4 c3B | BG3 D8 | G3F G4 c3B | BG3 A8 | A3G A4 B4 | d4 d7c | B2AG F3E D3C | B,4 B,8 :|
+|: D3d d8 | D3d d8 | d4 {ed}c4 {dc}B4 | A4 GAGF G4 | A3e e8 | c3e e8 | e4 {^de}g4 f4 | e4 dedc d4 |
+|  D3d d8 | D3d d8 | d4 {ed}c4 {dc}B4 | A4 GAGF G4 | A3G A4 B3c | d4 d7c | B2AG F3E D3C | B,4 B,8 :|
+%%sep 5 5 200
+%%wordsfont Helvetica 10
+W: Arrangement by John Chambers http://trillian.mit.edu/~jc/music/abc/Scand/
+S:https://www.folktunefinder.com/tunes/16533
+S:http://trillian.mit.edu/~jc/music/abc/pols/SkaalbergsLaaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SkaalbergsLaaten.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

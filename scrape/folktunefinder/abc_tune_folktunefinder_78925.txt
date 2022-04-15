@@ -1,0 +1,24 @@
+X:484
+T: MIR IST EIN ROTH GOLDFINGERLEIN
+N: E0434
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: F
+F2 | A4B2 | c2f2d2 | A4B2 | c4
+c2 | f4e2 | d2c2g2 | f2ecd2 | c4
+c2 | f4c2 | c2A2c2 | B2AFG2 | F4
+A2 | c4AF | G2F2c2 | B2AFG2 | F4
+S:https://www.folktunefinder.com/tunes/78925
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

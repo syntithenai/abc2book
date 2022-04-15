@@ -1,0 +1,25 @@
+X:7307
+T: the Sailor's Wife
+O:england
+R: jig
+M: 6/8
+L: 1/8
+K: Dm
+A \
+| "Dm"DEF E2D | d2e f2g | agf edc | "F"AcA "C"GEC \
+| "Dm"DEF E2D | d2e f2g | agf "A7"ed^c | "Dm"d3- d2 :|
+|: e \
+| "F"fga fga | fga agf | "C"ecg ecg | efg "A7"gfe \
+| "Dm"fga agf | "C"efg gfe | "Dm"def "A7"ed^c | "Dm"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/27759
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

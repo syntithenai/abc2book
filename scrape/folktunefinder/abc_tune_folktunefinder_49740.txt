@@ -1,0 +1,39 @@
+X: 185
+T:Quadrille. CJF.185
+M:6/8
+L:1/8
+Q:110
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The note marked "" has no dot on it - the rising stick ends at B, but
+N:I have used the same three notes as bar 4. The note marked "*" has a
+N:mark on its tail, and COULD just be interpreted as a dotted quaver
+N:(c'3/2).The lead note for the last section has been left as in the MS.
+N:- PJH.
+Z:vmp.P J Headford 2000
+K:C
+(c/" $"d/)|(e>""dc) Gcd|e>dc Gcd|e>dc g>fe|\
+dfed2(c/d/)|!
+(e>dc) g>fe|c'bag2(e/f/)|\
+g (f/^f/g/f/) gab|"*"c'3c'2h||!
+(B/c/)|\
+ded dgb|ded dgb|dgb dgb|d'^c'=c'a2(A/B/)|!
+c>dc c^fa|c>dc cag|^fed def|.g(ba) g^f" $"=f||!
+e|(a2e)(c'2b)|a^ga ea=g|\
+fed dcB|^GABE2e|!
+a2ed'2b|a^ga e=fe|cBf fe^GA3A2|]
+S:https://www.folktunefinder.com/tunes/49740
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Solomon Levi #3
+I: Solomon LeviS-SDsquare
+%C: S-S
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+"D"A2A A2A| A2A FGA| "G"B2B B2B| B3-B2 B| \
+"A7"c2c c2c| c2c c2B| "D"B2A A2B| A3 F2G|
+"D"A2A A2A| A2A FGA| "G"B2B B2B| B3-B2 B| \
+"A7"c2c c2c| c2c c2B| AAA B2c| "D"d3 e"  fine"z|]
+\
+"F#7"f3 cde| "Bm" d3 B3| "F#7"fgf edc| "Bm"B3-B2z| \
+"E7"e3 B2d| "A"c3 A3| "E7"efe dcB| "A7"ABA GFE|]
+S:https://www.folktunefinder.com/tunes/19158
+S:http://trillian.mit.edu/~jc/music/abc/square/Solomon_Levi_3.abc
+S:http://roaringjelly.org/music/square/Sq_S_Solomon_Levi_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_S_Solomon_Levi_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Solomon_Levi_3.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_S_Solomon_Levi_3.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

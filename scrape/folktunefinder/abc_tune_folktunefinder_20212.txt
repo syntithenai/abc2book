@@ -1,0 +1,36 @@
+X: 1
+T: the Star of the County Down
+O: Trad
+R: 40-bar waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+E2G2 \
+|  "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd \
+|  "C"e3 d c2 | "Am"A3 G E2 | "Em"G6- | G2 ||
+|| c2B2 \
+|  "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd \
+|  "Am"e3 d c2 | "Dm"A4 A2 | "Am"A6- | A2 ||
+|| c2e2 \
+|  "C"g4 e2 | e3 d c2 | "G"d4 d2 | d4 cd \
+|  "C"e3 d c2 | "Am"A3 G E2 | "Em"G6- | G2 ||
+|: c2B2 \
+| "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd \
+|  "Am"e3 d c2 | "Dm"A4 A2 | "Am"A6- | A4 :|
+S:https://www.folktunefinder.com/tunes/20212
+S:http://trillian.mit.edu/~jc/music/abc/waltz/StarOfTheCountyDown_40.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/w40/StarOfTheCountyDown_Am40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/StarOfTheCountyDown_40.abc
+% Rhythm 40-bar waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

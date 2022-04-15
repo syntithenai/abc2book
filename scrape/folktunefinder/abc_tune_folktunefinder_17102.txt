@@ -1,0 +1,32 @@
+X: 1
+T: Eight O'Clock Train
+R: reel
+B: Kerr's 4th
+N: Kerr has a 12-bar second part.
+N: This is a commonly-played 32-bar version.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB \
+| "A"c2Ac "E"B2GB | "G"A=GED GED2 | "A"EAAB cdef | "G"=gedB =GABd |
+| "A"c2Ac "E"B2GB | "G"A=GED GED2 | "A"EAAB cdef | "G"=gedB "A"A2 :|
+cd \
+| "A"eagb ageg | agbg agef | "G"=g2ga gfef | =geaf ged2 |
+| "A"eaab ageg | agbg agef | "G"g2g2 "D"a2a2 | "G"b=gaf gedB |
+| "A"cBAc "E"BAGB | "G"A=GED GED2 | "A"EAAB cdef | "G"=gedB =GABd |
+| "A"cBAc "E"BAGB | "G"A=GED GED2 | "A"EAAB cdef | "G"=gedB "A"A2 |]
+S:https://www.folktunefinder.com/tunes/17102
+S:http://trillian.mit.edu/~jc/music/abc/reel/EightOClockTrain_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EightOClockTrain_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/EightOClockTrain_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

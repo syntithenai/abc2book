@@ -1,0 +1,25 @@
+X: 1
+T: Wait a While
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: O'Neill's
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+   B \
+| "A"cde eca | "A"cAc "E7"e2d | "A"cde   ef=g | "G"B=GB "E7"d2B \
+| "A"cde efg | "D"agf  "A"edc | "D"dfd "A"cac | "G"B=GB "E7"d2 :|
+|: B \
+| "A"acA ecA | "A"acA "E7"efg | "A"acA    ecA | "G"B=GB "E7"d2B \
+| "A"acA ecA | "A"acA "E7"efg | "D"agf "A"edc | "G"B=GB "E7"d2 :|
+S:https://www.folktunefinder.com/tunes/15236
+S:http://trillian.mit.edu/~jc/music/abc/jig/WaitAWhile_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WaitAWhile_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

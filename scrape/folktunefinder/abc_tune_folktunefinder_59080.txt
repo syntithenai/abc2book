@@ -1,0 +1,36 @@
+X:193
+T:Cantar de Ronda (CT 492)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Hevia, parroquia de Santa Cecilia de Carees, ayuntamiento de Maliayo.
+A:Asturies
+O:Hevia (Maliayo)
+Z:Cancioneru de Torner 492
+M:3/4
+L:1/8
+Q:1/4=104
+K:C
+GG
+|G3 G AB|(c>B A2) BB|c3 B AG|B2 B4-|B2 z2 GG|
+G3 G AB|(c>B) A2 BB|c3 B AG|B2 B2 FE|
+D3 B cB|(A3/2B/4A/4) G2 FE|
+D3 B cB|(A3/2B/4A/4) G4-|G2 ||
+W:Para m tu eres el sol,
+W:para m t eres la luna;
+W:todos los sitos que veo,
+W:me presentan tu hermosura. (Tres)
+W:
+S:https://www.folktunefinder.com/tunes/59080
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

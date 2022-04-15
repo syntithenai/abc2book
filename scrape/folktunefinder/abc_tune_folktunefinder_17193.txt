@@ -1,0 +1,42 @@
+X: 1
+T: Four in One
+C: Sylvia Miskoe
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Sylvia wrote:
+N: "To Bob for many years of music and good feelings."
+N: It came from chord progressions created while playing unstructured warm-up
+N: music for the local SCD class.  I was asked to contribute a tune to a book
+N: honoring Bob McQuillen and used that.  Because it is based on chord patterns,
+N: it can also be played in 3 other meters and the waltz (The MattKat Waltz) and
+N: the strathspey are written out.  I haven't written the jig because I haven't
+N: needed to.
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+|  "Dm"DEFD "A7"EFGE | "Dm"FGAF "Gm"B2B2 | "Dm"Ad2A "Gm"BAGF | "A7"EFGE ^C2A,2 | "Dm"DEFD "A7"EFGE |
+| "Dm"FGAF "Gm"B2B2 | "Dm"Ad2A "Gm"BAGF | "A7"EA,=B,^C "Dm"D2 :| [K:D] "A7"A2 |: "D"d2AF DFAd | "G"cB^Ac B2B2 |
+| "E7"e2B^G EGBe | "A"cBcd "A7"e2e2 | "D"a2fd Adfa | "G"gfed "E(m)"c2B2 | "A7"ABcd e2c2 | "D"dA"A7"fe "D"d4 :|
+S:https://www.folktunefinder.com/tunes/17193
+S:http://trillian.mit.edu/~jc/music/abc/reel/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Sylvia_Miskoe/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FourInOneR.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/FourInOneR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/FourInOneR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/FourInOneR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/reel/FourInOneR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/FourInOneR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

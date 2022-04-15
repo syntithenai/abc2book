@@ -1,0 +1,24 @@
+X:1
+P: MacLeod of Mull
+R: jig
+C: Donald MacLeod
+C: arr. Matt Petrie, mods. by T. Traub 6-27-03
+M:6/8
+K: Bm
+L: 1/8
+|: e|"Bm"f2 B B>cA|"Bm"B>ce f2 a|"A"e>ce f>ec|"F#m" A>Bc e2 f|"Bm"a>cc B>cA|"Bm"B>ce f2 e|"D"f>aa "A"f<ae|"F#m"f>ec "Bm"B2 :|
+|: f|"D"a2 f a>ff|"A"e>fa "E"f2 c|"A"e>ce f>ec|"A"A>Bc e2 f|"D"a2 f "A"a>ff|"F#m"e>fa "Bm"f2 e|"D"f>aa "A"f<ae|"F#m"f>ec "Bm"B2 :|
+|: f|"Bm"B>cA B3|"Bm"B>ce "E"f>ga|"A"c<AB c2 B|"A"c>AA "F#m"c<ef|"Bm"B>cA B3|"Bm"B>ce f2 e|"D"f>aa "A"f<ae|"F#m"f>ec "Bm"B2 :|
+|: f|"D"a>ff e>ff|"Bm"B>ff "E"f2 e|"D"f>aa "A"e>ff|"A"A>ee e2 f|"F#m"a>ff "A"e>ff|"Bm"B>ff f2 e|"D"f>aa "A"f<ae|"F#m"f>ec "Bm"B2 :|
+S:https://www.folktunefinder.com/tunes/58345
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FlightsOfFancySet.abc
+S:http://terrytraub.org/abc/MacLeodOfMullJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MacLeodOfMullJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

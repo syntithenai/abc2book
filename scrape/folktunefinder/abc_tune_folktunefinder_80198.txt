@@ -1,0 +1,23 @@
+X:139
+T: Haehnchen und Huehnchen
+N: A0505
+O: Europa, Mitteleuropa, Deutschland
+N: M. Franck, Fasc. Quodl. 1611 No. 6.
+R: Romanze, Ballade, Lied, Kinderlied
+M: 4/4
+L: 1/8
+K: C
+ |  |  | A,2A,2C2C2 | A,2A,2G,2
+G,2 | C2C2D2D2 | E4z4
+E3EE2E2 | G4E2
+E2 | D2C2C2B,2 | C4z4
+S:https://www.folktunefinder.com/tunes/80198
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kinderlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

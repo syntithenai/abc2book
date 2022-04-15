@@ -1,0 +1,35 @@
+X:1
+T:The Cliffs of Moher
+R:Jig
+M:6/8
+S:aar09:dial.pipex.com (Phil Taylor) abcusers 2002-7-19
+H:Paddy Canny
+K:G
+~g3 agf | d2g fdc | _B2G AGF | DGG ABc |\
+dgg agf | dgg fdc | _B2G AGF | DC_B, G,3 |
+~g3 agf | dgg fdc | _B2G AGF | DGG ABc |\
+d(3.g.g.g agf | dgg fdc | _B2G AGF | DGF GAc ||
+~d3 cAG | Add cAG | FGA {d}cAG | FGA cBc |\
+~d3 cAG | Add cAG | FGA {d}cAG | DGF G2A |
+~d3 cAG | Add cAG | FGA {d}cAG | FGA ~c3 |\
+Add edd | ^cdd Bdd | GBd AFA | GBd ~f3 ||
+S:https://www.folktunefinder.com/tunes/14017
+S:http://trillian.mit.edu/~jc/music/abc/jig/CliffsOfMoher2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/CliffsOfMoher_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/CliffsOfMoher_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CliffsOfMoher2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/CliffsOfMoher_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/CliffsOfMoher_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CliffsOfMoher2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/CliffsOfMoher_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

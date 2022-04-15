@@ -1,0 +1,34 @@
+X:1915
+T:Galician jig
+A:Galicia
+M:6/8
+O:Spain
+R:48-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d18.html
+%%ID:00000d18
+K:G
+GBd |\
+cAF FAe | dBG GBg | \
+fdf ece | dBG GBd | \
+cAF FAe | dBG GBg |
+fed cBA | G3 ::     \
+GBd |               \
+e2e d2d | c3 ABc  | \
+d2d c2c | c2B GBd |
+e2e d2d | c3 ABc  | \
+d2d c2c | c2B GAB | \
+c2c B2G | A3 d2c  |
+BcB AGA | c2B GAB | \
+c2c B2G | A3 d2c  | \
+BcB AGF | G3 :|
+S:https://www.folktunefinder.com/tunes/36462
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

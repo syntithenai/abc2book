@@ -1,0 +1,28 @@
+X:1560
+T: Blackett o' Wylam
+C:Trad
+S:Northumbrian Minstrelsy
+M:6/8
+K:G
+L:1/16
+Bc |\ 
+L:1/8
+ded d2 c| Bgd B2 c|  ded d2 c| BgB A2 :: \
+L:1/16 
+ef|\
+L:1/8
+gfe dBG| Bgd B2 \
+L:1/16 
+ef|\
+L:1/8
+S:https://www.folktunefinder.com/tunes/56499
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:50
+T:Oranges and Lemons
+M:4/4
+L:1/8
+B:The Round Band Book of Playford
+K:D
+A2 | "A"d2e2 afed | "G"e3d "A7"B3A | "D"d3f afed | "A7"e3f "D"d2 :: \
+ga | "G"b6 fg | "D"a6 fe | "D"d3f afed | "G"e3d "A7"B3A |
+"Bm"d3f "Em"afed | "A7"e3f "D"d2ga | "G"b6 fg | "F#m"a6 fe |\
+"Bm"d3 f afed | "E7"e3d "A7"B3A | "D"d3f afed | "A7"e3f "D"d4 :|
+S:https://www.folktunefinder.com/tunes/15894
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Round_Band_Book_of_Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Round_Band_Book_of_Playford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

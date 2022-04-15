@@ -1,0 +1,36 @@
+X:398
+T: WAS PERLET IM GLASE
+N: F0726
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied, Rundgesang
+M: 3/4
+L: 1/8
+K: C
+G,2 | CB,CDEF | G2FE
+DC | B,DF2A,B, | CEG,2
+B,C | D2D^CD2 | G2^FE
+D^C | D2B,2A,2 | A,B,B,2
+G,2 | G,3A,G,2 | C2EB,
+CA, | G,A,B,CD2 | E4
+D2 | D3ED2 | G^DEB,
+CA, | G,2B,2A,2 | G,4z2
+G,A,B,CDE | F4
+E2 | F3DCB, | CEG,2
+EC | B,DG2F2 | E4
+E2 | E2E2E2 | G2F2
+ED | C2D2B,2 | C4
+E2 | F3DCB, | CEG,2
+EC | B,DG2F2 | E4
+E2 | E2E2E2 | G2F2
+ED | C2D2B,2 | C4
+S:https://www.folktunefinder.com/tunes/69958
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied, rundgesang
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

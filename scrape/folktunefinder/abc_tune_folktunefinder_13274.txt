@@ -1,0 +1,27 @@
+X:1
+T:My Lagan Love
+T:The Fairy Mistress
+R:Air
+D:Brendan Power "The New Irish Harmonica
+M:3/4
+L:1/8
+Z:Paul Kinder 
+Q:60
+K:GMix
+d ef\
+|"G"g3 (3d/2f/2d/2 "C"(3cBG|"F"F3 G "G"(3Bcd|"C"c3 B/2A/2 GF|"C"G3 d/2e/2 "F"(3fef|
+"G"g3 d "F"c/2B/2A/2G/2|"F"F3 G A/2B/2c/2d/2|"C"c3 B {B}G>G|"C"G3 G/2A/2"G"B/2c/2|
+"C"e3 d "G"(3dcB|"C"c4 (3edf|"C"g3 c (3ede|"Bm"^f>g "Gm"g_b>g=f|
+"G"g3 (3d/2f/2d/2 d/2c/2B/2G/2|"F"F3 G/2A/2 "G"(3Bcd|"C"c3 B {B}G>G|"G"G4|]
+S:https://www.folktunefinder.com/tunes/13274
+S:http://trillian.mit.edu/~jc/music/abc/air/MyLaganLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/MyLaganLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MyLaganLove.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

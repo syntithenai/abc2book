@@ -1,0 +1,23 @@
+X:1785
+T:Trim the Velvet
+Z: id:dc-reel-367
+M:C
+L:1/8
+K:G Major
+G3B AGFD|GBdB cAFA|G3B AGFD|defd cAFA|!
+G3B A3c|BcdB cAFA|G3B AGFD|defd cAFA|]!
+dgeB dgg2|dedB cAFA|dgeB dgg2|defd cAFA|!
+d3e dBB2|dBGd cAFA|dgeB dgg2|defd cAFA|]!
+g3a bgaf|g2ab c'baf|g3a bgaf|defd cAFA:|!
+BGdG BGG2|DGBd cAFA|BGdG BGBc|defd cAFA|!
+BGdG BGG2|DGBd cAFA|B3G AGFD|defd cAFA|]!
+S:https://www.folktunefinder.com/tunes/66289
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

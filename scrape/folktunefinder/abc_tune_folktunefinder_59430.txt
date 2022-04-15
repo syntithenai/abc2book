@@ -1,0 +1,31 @@
+X:543
+T:Mueira de Rengos (Arrg.)
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+O:Rengos
+M:6/8
+L:1/8
+Q:3/8=121
+K:G
+"G"GBd|: "C"ga/2g/2e/2g/2 "D"fed| "G"B2 G "G"GBd| "C"ga/2g/2e/2g/2 "D"
+fed| "C"c3 "D7"ABc| "D"ded "C"cBc| "Bm"B2 A "D7"ABc| "D"ded "D7"cBA | [1
+ "G"G3 "G"GBd:|
+[2 "G"G3 "Bm"B2 A|| "G"GGA/2G/2 "D7"F/2G/2FG| "D7"A3 "D7"
+ABc| "D"ded "D"ded| "G"B2 G "Bm"B2 A| "G"GGA/2G/2 "D7"F/2G/2FG| "D7"A3
+ "D7"ABc| "D"ded "D7"cBA| "G"G3 z3|
+S:https://www.folktunefinder.com/tunes/59430
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

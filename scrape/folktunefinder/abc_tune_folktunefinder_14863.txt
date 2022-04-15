@@ -1,0 +1,27 @@
+X: 1
+T: Pipe on the Hob
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dcd "(A7)"A2G | "D"F2D "Bm"DED | "C"E2E =c2E | E2D "D"D2A \
+| "D"d=cB "Am"cBA | "G"BAG "Bm"FED | "C"E2E =c2E | E2D "D"D2 :|
+g \
+| "D"f2d dcd | f2d "Bm"dcd | "C"e2=c cBc | e2=c "Am"cBA \
+| "D"f2d dcd | f2d dcd | "Em"e2e "A7"a2g | "D"f2d d2 |]
+g \
+| "D"f2d dcd | f2d "Bm"dcd | "C"e2=c cBc | e2=c "Am"cBA \
+| "D"fef "Em"gfg | "D"agf "Em"efg | "D"fed "A"cBA | "A7"Adc "D"d2 |]
+S:https://www.folktunefinder.com/tunes/14863
+S:http://trillian.mit.edu/~jc/music/abc/jig/PipeOnTheHob2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PipeOnTheHob2_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

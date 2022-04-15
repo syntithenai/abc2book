@@ -1,0 +1,37 @@
+X: 2
+T: Alexander's Rag Time Band
+C: words, music: Irving Berlin [1911]
+M: C
+L: 1/8
+F: http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+K: D
+  "D"z2F>^E FA3 | "D7"z2F>^E FA3 | "G"z2B>^A Bd2B | "A"A2 G2 F2 E2 |\
+  "D"z2F>^E FA3 | "D7"z2 F>^E FA3 | "E7"z2E>F ^G>FE2 | "A"z2A>B c>BA2 |
+  "D"z2F>^E FA3 | "D7"z2 F>^E FA3 | "G"z2B>^A Bd2B | "A"A2 "(G)"G2 "(D7)"F2 "(C)"E2 |\
+  "D"D4 "C"A4 | "G"G4 "E7"B4 | "A7"z2A>B c>BA2 | "D7"d4 || [K:G]
+|: "CHORUS"z>^AB>A |\
+  "G"B4 "/F#"z>^AB>A | "Em"B4 "D7"z2B>^A | "G"B2A2 "D7"F2D2 | "G"G4 z>^de>d |\
+  "C"e4 "/B"z>^de>d | "Am"e4 "G7"z2e>^d | "C"e2c2 G2c2 | "C"e4  z2B>c |
+  "G"dd eB d2 eB | "G"dd eB d2 z2 | "G"G2 BD G2 BD | "G"GG BD G2 z2 |\
+  "D(A7)"A2 A4 B2 | "A7"^c2 A2 B2 c2 | "D"d8 | "Am"cBA2 "D7"z>^AB>A |
+  "G"B4 "/F#"z>^AB>A | "Em"B4 "D7"z2B>^A | "G"B2A2 "D7"F2D2 | "G"G4 z>^de>d |\
+  "C"e4 "/B"z>^de>d | "Am"e4 "G7"z2e>^d | "C"e2c2 G2c2 | "C"e4 zBc^c |
+  "G7"d2 d2 d2 B2 | "(Dm)"A2 G2 "G7"B2 A2 | "C"G4 g4 | "A7"e2g2 z>^cd>c |\
+  "G"d4 z>^cd>c | "E(m)"d4 ze2^d | "A7"e2 d2 "D7"B2 A2 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/16604
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/AlexandersRagtimeBand.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/AlexandersRagtimeBand.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/AlexandersRagtimeBand.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/AlexandersRagtimeBand
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

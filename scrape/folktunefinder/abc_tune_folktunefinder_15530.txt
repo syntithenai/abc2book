@@ -1,0 +1,33 @@
+X: 1
+T: the Lass o' Gowrie
+R: march
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: [GE][FD] \
+| "C"[E2C2][G2E2] [G2E2][AF][BD] | [c3E3][dF] [c2E2][B2G2] \
+| "F"A3G A2c2 | "G"d3e d2 GF \
+| "C"E2G2 G2[AF]B | "Am"[c3E3][dF] [e3G4]d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 :|
+|: gf \
+| "C"e2g2 c3d | edef "(A7)"g2fe \
+| "Dm"f2a2 d3e | "G7"fefg a2gf \
+| "C"e2g2 "G7"d3e | "Am"cBcd e3d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 :|
+S:https://www.folktunefinder.com/tunes/15530
+S:http://trillian.mit.edu/~jc/music/abc/march/LassOGowrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LassOGowrie_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LassOGowrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LassOGowrie_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LassOGowrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LassOGowrie_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

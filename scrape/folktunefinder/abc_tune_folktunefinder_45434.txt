@@ -1,0 +1,26 @@
+X:2
+T:2r. Beatus vir
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original printed in Antwerp by Petrum Phalesium, 1609
+C:Orlando Lassusio
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+N: original clef: C on third
+K:D dor -8va
+%%MIDI transpose -12
+T: Altus
+M:C|
+L:1/4
+%1
+d8 ^c4 d4 G2 d4 d2 f3 e d c d2 A2 f3 e d2 c2 A2 c3 d e c g2
+S:https://www.folktunefinder.com/tunes/45434
+S:http://www.laymusic.org/music/bicinia/beatusvir/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

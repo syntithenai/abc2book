@@ -1,0 +1,34 @@
+X:55
+T:Bulgarian 5
+T:Buimi
+L:1/16
+M:15/16
+O:Bulgaria
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000671.html
+%%ID:00000671
+K:B min
+"Hm"B2(ef) (fB)(fB) (~f2e) (edef)| \
+.d2.c2.d2~c2 A^GA B2(BF)|      \
+B2(ef) (fB)(fB) (~f2e) (edef)|  \
+.d2.c2.d2~c2 (A^GA) ~B4 ::      \
+"Hm".d2.c2.d2~c2 "A"(~A2A) Bcde|   \
+"Hm".d2.c2.d2~c2 (A^GA) ~B2(BF) :: \
+"Hm"(de)(ec) (dB)(cA) (~B2c) ~d2(dA) |\
+(de)(ec) (dB)(cA) (~B2e) ~B2(BA)    ::\
+"H"(agfe) (f^d)(e=c) (def) (~d3F) |\
+(^GAB=c) (^de)~d2 (cBA) ~B2(BF) ::  \
+"H"(^de)~f2 (~fe)~f2 (e^d=c) ~d2(dF)|\
+(^GABc) (ec)~^d2 (cBA) (B2B2) :: \
+"H"(ef)(fB) (ef)(fB) (^gfe) ~^d2(cB) |\
+(ef)(fB) (ef)(fB) (^gfe) ~f2(fB) :: \
+(eF)~^d2 (ef)~d2 (B^AB) (c^def) |\
+(eF)~^d2 (ef)~d2 (BdB) ~c2(cF) :|
+S:https://www.folktunefinder.com/tunes/53241
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 15/16
+% Has_accompaniment_chords Has chords

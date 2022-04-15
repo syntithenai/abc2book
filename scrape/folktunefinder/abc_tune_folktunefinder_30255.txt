@@ -1,0 +1,29 @@
+X:0
+T:The Chow Man
+S:Scots Guards Standard Settings of Pipe Tunes book 2
+C:Pipe Sergeant E. MacDonald
+H:Composed at Lo Wu Camp, South China during the tour
+H:of duty of 2nd Battalion Scots Guards 1927-29
+M:2/4
+L:1/16
+Q:1/4=88
+K:D
+% lydian/major/mixolydian pentatonic
+ e2|A2B<d B2A2 |B2d2  e4   |f2e>f a3f  |e2`d2     e2f2|
+    A2B<d B2A2 |B2d2  e2d<e|f2e>d B2A>B|d4        d2 :|
+ e2|f2a2  f2e<d|e2a2  f4   |e2a2  f2e<d|e>dB<d [1 A3e |
+    f2a2  f2e<d|e2dd B2A>B|d4        d2 :|
+                                               [2 A2f2|\
+    A2B<d B2A2 |B2d2  e2d<e|f2e>d B2A>B|d4        d2 |]
+S:https://www.folktunefinder.com/tunes/30255
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

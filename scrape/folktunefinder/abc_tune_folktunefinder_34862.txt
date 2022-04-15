@@ -1,0 +1,29 @@
+X: 7645
+T:Polska (Dawn l\aa{}t)
+R:Polska
+O:Sweden
+N:the turns should be mordants.
+M:3/4
+C:e. Pers Erik  Pers Hans
+A:Dalarna
+K:D
+A>c ~d>e f>a|(3:2:4a3/f/g2e2 f2|\
+(3:2:5d2cdcA B>G|G<B A4|
+A>c ~d>e f>a|(3:2:4a3/f/g2e2 f2|\
+a>a g/a/g/e/ f>d|e<c d4::
+A2 ~fd A>G|(3:2:6G2Bc/B/AG (A2|\
+(3:2A2)E2F2 G>A|"tr"BA/G/ A4|
+A2 ~fd A>G|(3:2:6G2Bc/B/AG (A2|\
+A)>c d>e f>d|e<c d4:|
+S:https://www.folktunefinder.com/tunes/34862
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

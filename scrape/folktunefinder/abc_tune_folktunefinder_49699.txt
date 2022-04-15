@@ -1,0 +1,33 @@
+X: 144
+T:Sunset Waltz,The. CJF.144
+M:3/8
+L:1/8
+Q:30
+C:"From Harts Gallopades"
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"From Harts Gallopades" on title line. - PJ
+Z:vmp.P J Headford 2000
+K:D
+"p"D|DFA|dcB|ABA|F2F|A2G|E2G|B2A|F2D|!
+DFA|dcB|ABA|F2A|B2A|EGF|DAc|d2D|!
+"f"DAc|dcB|ABA|F2F|A2G|E2G|B2A|F2D|DAc|!
+dcB|ABA|F2A|A/G/B/A/G/F/|E/G/A/B/c/A/|\
+DD/F/A/F/|d2h||!
+"p"A|A2G|E2E|B2A|F2d|cBA|GBA|A2F|d2A|!
+A2G|E2E|B2A|F2A|GFE|EFG|A" D Capo"a/a/a/a/|a2|]
+S:https://www.folktunefinder.com/tunes/49699
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

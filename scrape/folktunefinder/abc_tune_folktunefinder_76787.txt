@@ -1,0 +1,26 @@
+X:302
+T: SIST GEWISS UND KEIN GEDICHT
+N: E0904
+O: Europa, Mitteleuropa, Deutschland
+R: Ehestands - Lied
+M: 3/4
+L: 1/16
+K: G
+D3D | G6G2F2G2 | A8
+G2B2 | d4G4A2F2 | G8
+B2c2 | d4d4A2c2 | B2A2G4
+B2c2 | d4d4A2c2 | B2A2G4
+D3D | G6G2F2G2 | A6
+c2B2c2 | d4B2c2B2c2 | d4B2G2A2F2 | G4z4
+S:https://www.folktunefinder.com/tunes/76787
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:381
+T: DER GENRAL WERDER HAT EINMAL
+N: F0677
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Spott, national
+M: 2/4
+L: 1/8
+K: Bb
+F | BBBd | FFF
+F | BBAB | c2z
+c | edcB | AcF
+B | AAGA | B2z
+c | c2zc | c2z
+c | cBAG | AcF
+c | c2zc | c2z
+c | cBAG | F2z
+F | BBBd | FFF
+F | BBAB | c2z
+c | edcB | AcF
+B | AAGA | B2z
+F | B2d2 | f3
+d | c2d2 | B2z
+F | B2d2 | f3
+d | c2d2 | B2z
+S:https://www.folktunefinder.com/tunes/69941
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, spott, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

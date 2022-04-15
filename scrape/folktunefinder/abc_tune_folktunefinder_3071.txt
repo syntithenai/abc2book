@@ -1,0 +1,35 @@
+X: 1
+T: Delijsko Pravo
+C: Ivan \vSibilev
+O: Bulgaria
+R: pravo, jig
+B: Narodni Hora i R\ua\vcenici za Akordeon (D\uar\vzavno Izdatelstvo "Muzika", Sofija, 1976)
+Z: John \vCambers <jc@trillian.mit.edu>
+N: Originally a r\ua\vcenica
+M: 6/16
+L: 1/16
+K: Ephr^G
+|::: "E"EGA B2B | B2B ~B2A | "Am"Bcc B2A |1,3 "Dm"~A2G FED :|2,4 "E"ABB B3 :|
+|: "E"EGA B2B | B2B ~B2A | "Am"Bcc B2A | "Dm"~A2G FED \
+|     DEF F2F | E2F  G2A |     BAG FED | "E"E2B E3 :|
+|::: "Dm"DEF F2F | E2F G2A | BAG FED |1,3 "E"EGA B2E :|2,4 "E"E2B E3 :|
+|: "A"ez2 e3 | "Dm"d3-d3 | "Am"~c2B AGA | Bcc c3 \
+|  "E"B2c d2e | d2c B2A | "Dm"~A2G FED |1 "E"EGA Bcd :|2 "E"E2B E3 ||
+|::: "E"B2c d2e | d2c B2A | "Dm"~A2G FED |1,3 "E"EGA B2E :|2,4 "E"E2B E3 :|
+|::: "E"ABG ABA | GEF ~G2E | "Dm"A2G FED |1,3 "E"EGA B2E :|2,4 "E"E2B E3 :|
+S:https://www.folktunefinder.com/tunes/3071
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/DelijskoPravo_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/DelijskoPravo_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/DelijskoPravo_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/jig/DelijskoPravo_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/DelijskoPravo_E.abc
+% Rhythm Pravo, jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

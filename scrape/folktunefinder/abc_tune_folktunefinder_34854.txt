@@ -1,0 +1,24 @@
+X: 7637
+T:Polska
+R:Polska
+O:Sweden
+M:3/4
+A:J\"amtland
+K:Dm
+B| A2 AG A^c | d2 d^c de \
+|1 f2 fe (3d^cd | ef e^c AB :|2 \
+f2 (3fed fg| a2 a4 :|
+|:f/g/ |\
+a2 a2 {ab}a>e | f2 f>d e2 | ef e^c Ac \
+|1 d^c de fg :|2 d2 d4 :|
+S:https://www.folktunefinder.com/tunes/34854
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:189
+T: Rundgesang (3-30), S. 76f
+N: K1164
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Soldatenlied, Spiel- und Trinklied]
+M: 2/4
+L: 1/16
+K: F
+ | F4F2F2 | F4C4 | F4G4 | A8
+A4G2A2 | B4A4 | G4G4 | F8
+c4A2c2 | B4G2B2 | A4F2A2 | G4C4
+c4A2c2 | B4G2B2 | A4F2A2 | G4C4
+F3FF2F2 | F4C4 | A3AA2A2 | A4F4
+c4A4 | c4A4
+c3cc2c2 | d2d2c4 | d2d2c4
+B2B2A2A2 | G2G2F4
+S:https://www.folktunefinder.com/tunes/70319
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Soldatenlied, spiel- und trinklied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

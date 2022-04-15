@@ -1,0 +1,24 @@
+X:1
+T:Mrs Hamilton of Wishaw's Strathspey
+L:1/8
+M:C
+B:Marshall's 1781 and 1822 Collections
+B:Gow's Third Collection, 1792
+B:MacDonald, The Skye Collection, 1887; p.128
+B:Stewart-Robertson, The Athole Collection, 1884; p.288
+Z:AK/Fiddler's Companion
+K:A
+E \
+| A<A A<A      B>G E<G | A<A c>A B2 Bc    | AA  AF  G/A/B/c/ Bc  | ~F>B  A/G/F/E/ A2 A :|
+(3e/f/g/ \
+| a>e a/g/f/b/ a>f e>c | A<A c>e fB Bf/g/ | a>e a/g/f/b/ a>f e<c |  E<E  EF/G/    A2 Ag |
+| a>e a/g/f/b/ a>f e<c | A<A c>e fB Bd    | ce  ea       df fb   |  E<E ~EF/G/    A2 A |]
+S:https://www.folktunefinder.com/tunes/19588
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsHamiltonOfWishawsStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsHamiltonOfWishawsStr_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

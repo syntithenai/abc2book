@@ -1,0 +1,29 @@
+X:1
+T:Sirdes
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:4/4
+O:Armenia
+Q:1/8 2/8 1/8 2/8 2/8
+K:Gm^F
+P: in D hijaz:
+|: "Bb"zd2d "Cm"cde2 | "D"zc2c "Gm"cBd2 | zBAG "D"FGA2 |1 "Cm"ABce "D"d4 |2 "Cm"FGFE "D"D4 ||
+|: "D"zd2A BGA2 | "Cm"zF2G "D"FED | "Gm"zB2B B-BB2 | "D"zA2B d2-d2 :|
+|: "Bb"zd2d "F"cde2 | "D"zA2B "(Cm)"c2-c2 | "D"zD2E FGA2 | "Cm"FGFE "D"D2-D2 :|
+%%sep 8 8 4cm
+P: in E hijaz:
+K:Am^G
+|: "C"ze2e "Dm"def2 | "E"zd2d "Am"dce2 | zcBA "E"GAB2 |1 "Dm"Bcdf "E"e4 |2 "Dm"GAGF "E"E4 ||
+|: "E"ze2B cAB2 | "Dm"zG2A "E"GFE | "Am"zc2c c-cc2 | "E"zB2c e2-e2 :|
+|: "C"ze2e "G"def2 | "E"zB2c "(Dm)"d2-d2 | "E"zE2F GAB2 | "Dm"GAGF "E"E2-E2 :|
+S:https://www.folktunefinder.com/tunes/2760
+S:http://trillian.mit.edu/~jc/music/abc/Armenia/Sirdes.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sirdes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

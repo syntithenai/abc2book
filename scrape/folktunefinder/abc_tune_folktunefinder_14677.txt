@@ -1,0 +1,26 @@
+X: 1
+T: Miss Lauren Holmes Patrick
+C: Ian Holmes
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: Page from Edwin Werner (e.werner:wanadoo.nl), with handwritten chords
+M: 6/8
+L: 1/8
+K: G
+D \
+|: "G"GED "D7"G2A |  "G"Bdd  "D"edd | "Em"gfe  "Bm"edB |"Am"AGA "Em"BGE \
+|  "D"GED  "G"G2A | "Em"Bgf  "C"efg |  "G"edB  "D7"AGA | "G"BGG     G3 :|
+|:"Em"Bee     gee | "Em"bee "A7"gfe |  "D"d^cd "A7"DFA | "D"dfe "D7"def \
+|  "G"gBB "Bm"dBB |  "G"dgf  "C"efg | "G"edB   "D7"AGA | "G"BGG     G3 :|
+S:https://www.folktunefinder.com/tunes/14677
+S:http://trillian.mit.edu/~jc/music/abc/jig/Miss_Lauren_Holmes_Patrick_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Miss_Lauren_Holmes_Patrick_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

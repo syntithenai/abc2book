@@ -1,0 +1,48 @@
+X: 1
+T: Syrtos from Samos
+R: syrtos
+O: Greece
+M: C
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"E>F ^GA GFED | "A"^CEDC B,2 A,2 \
+|1,3 "Dm"D^CD2 zEF^G | A>B A^G FED2 \
+:|2,4 "Dm"D^CDE F/E/D EC | DEF^G AGFE | D2z2 z4 :|
+"B"\
+|: "Dm"D/E/D/^C D2 E/F/E/D/ EF | "E"^G3E FEFG \
+|1 "Dm"A^GA3 GA=B | c>=B A^G FED2 \
+:|2 "Dm"A^GA=B c/B/A BG | A2z2 |]
+"C"\
+|: zA^GA \
+| "Gm"^c3B- Bc2B | "Dm"A/B/A/^G/ A2 zABA \
+| "Gm"G/A/G/^F/ G2 z^GAG | "Dm"FED2 zA^GA \
+|     B2A2 ^G2F2 | "A"E2{F}D2 {E}^CDEC |
+| "Dm"DEF^G AGFE | D2 z2 \
+"D"\
+[| z=Bc^c \
+| "Dm"d2d2 d2c=B | "E"edc=B c/B/A B^G |
+| "Dm"(A2{^G}A2) z^GA=B | c=BA^G FED2 \
+| "Dm"d2d2 d2c=B | "E"edc=B c/B/A B^G \
+| "Dm"A2zd ^cdec | d/e/d/^c/ d2 z=B=c^c |
+| "Dm"d2d2 d2c=B | "E"edc=B c/B/A B^G \
+| "Dm"A2z2 z^GA=B | c=BA^G FED2 \
+"E"\
+|:"Gm"E^FGF GFG2 | "Dm"zA2G FED2 |
+| "Gm"E>^F G>F G>F G2 | "Dm"zAA^G FED2 \
+| "Dm"z^GAG AGA=B | "A"c=BA^G FED^C \
+| "Em"DEF^G AGFE | D2z2 z4 :|
+S:https://www.folktunefinder.com/tunes/19753
+S:http://trillian.mit.edu/~jc/music/abc/tune/Syrtos_Samos_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/tune/Syrtos_Samos_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Syrtos_Samos_Dm.abc
+% Rhythm Syrtos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

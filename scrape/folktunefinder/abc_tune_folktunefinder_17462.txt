@@ -1,0 +1,26 @@
+X: 1
+T: Johnny Muise's Reel
+C: Jerry Holland
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen)
+K: A
+af \
+| "A"ec~c2 BcAB | c2Bc "D"BAFB | "A"AE~E2 "F#m"Acec | "Bm"dfaf "E7"edcd \
+| "A"ec~c2 BcAB | c2Bc "D"BAFB | "A"AE~E2 "F#m"Acec | "E7"BABc "A"A2 :|
+|: cd \
+| "A"ea~a2 "A7"a2ga | "D"baga fedf | "A"ec~c2 "F#m"acec | "Bm"fedc "A7"Bcdf \
+| "A"ea~a2 "A7"a2ga | "D"baga fedf | "A"ec~c2 "F#m"acec | "E7"BdcB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/17462
+S:http://trillian.mit.edu/~jc/music/abc/reel/JohnnyMuisesReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/JohnnyMuisesReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/JohnnyMuisesReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JohnnyMuisesReel_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

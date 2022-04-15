@@ -1,0 +1,60 @@
+X:598
+T:Pasucis (CT 328)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Pasucis de gaita, transcrito en Uviu.
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 328
+M:6/8
+L:1/8
+Q:3/8=120
+E:2 Voces
+K:G
+V:1
+d4 -|d3 BdB|G2G BAB|c3 AcA|F2F AGA|
+B3 BdB|GGG BAB|c2c AcB|FFF AGA|
+B2B GBc||:def gfe|d2d gfe|dcB AGA|
+B2G GBc|def gfe|d2d gfe|dcB AGA|
+G3 BdB|G2G {c}BAB|c3 AcA|F2F {B}AGA|
+B3 BdB|GGG {c}BAB|c3 AcA|FFF {B}AGA|
+B3 GBc|def gfe|d2d gfe|dcB AGA|
+B2G GBc|def gfe|d2d gfe|dcB AGA|
+G3 BdB|G2G BAB|c3 AcA|F2F AGA|
+B3 BdB|GGG BAB|c3 AcA|FFF AGA|
+B3 GBc|d3 BdB|G2G BAB|c3 AcA|
+F2F AGA|B3 BdB|GGG BAB|c2c AcB|
+FFF AGA|[1 B2B GBc:|[2 G2 (3A/B/c/ d3-|d3||!
+V:2
+"Tambor" G/4G/4G/4G/4G/4G/4G/4G/4"Redoble"G/4G/4G/4G/4G/4G/4G/4G/4|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|:GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG|GGG GGG|[1 G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4 GGG:|
+[2 G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4|
+G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4G/4||
+S:https://www.folktunefinder.com/tunes/59485
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Pasucis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

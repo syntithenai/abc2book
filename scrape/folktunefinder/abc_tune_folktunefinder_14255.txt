@@ -1,0 +1,24 @@
+X: 1
+T: Good Christian Men, Rejoice
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+G \
+|  "G"G2G     B2c |     d2e "D7"d2d |  "G"G2G     B2c |     d2e "D7"d3 \
+|  "G"d2e "D7"d2c | "Em"B2A     G3  | "Am"A2A "D7"B2A |  "G"G2A     B3 ||
+|| "G"d2e "D7"d2c |  "G"B2A "Em"G2G | "Am"A2A "D7"B2A | "Em"G2A     B3 \
+|  "C"E2E  "D"FEF | "Em"G3   "D"d3  |  "G"B2B "D7"ABA |  "G"G3      z2 :|
+S:https://www.folktunefinder.com/tunes/14255
+S:http://trillian.mit.edu/~jc/music/abc/jig/GoodChristianMenRejoice_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GoodChristianMenRejoice_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

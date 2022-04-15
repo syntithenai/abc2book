@@ -1,0 +1,32 @@
+X:3263
+T:Kilfenora Jig, The
+O:england
+R:jig
+D:Arcady: Many Happy Returns
+D:Johnstons
+D:Gerry O'Connor
+M:6/8
+L:1/8
+K:D
+A2D FED|A2D FED|A2D FED|dce dcB|
+A2D FED|A2D FED|EDE =cAF|1 ~G3 GFG:|2 ~G3 GAG||
+|:F2d dAF|AFA BAG|F2d dAF|~A3 BAG|
+F2d dAF|ABA FED|~E3 =cAF|1 ~G3 GAG:|2 ~G3 G2g||
+|:f2d dcd|f2d dcd|fdd dcd|a^ga ba=g|
+f2d dcd|f2d def|ged cde|gfg a2g:|
+|:fed faf|gbg faf|fed faf|~a3 bag|
+fed faf|gbg faf|ged cde|gfg a2g:|
+|:fed edc|dcd AFA|DFA dAF|~A3 AFA|
+~B3 =c2c|B=cB AFD|EDE =cAF|1 ~G3 G2g:|2 GAG GFG||
+S:https://www.folktunefinder.com/tunes/23714
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

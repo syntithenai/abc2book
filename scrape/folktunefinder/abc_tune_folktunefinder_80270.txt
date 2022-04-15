@@ -1,0 +1,25 @@
+X:211
+T: Osterjubel
+N: A0564B
+O: Europa, Mitteleuropa, Deutschland
+N: Mainzer Cantual 1605.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: F
+F | F2A | c2d | cAB | c2
+f | ede | f2c | c2B | A2
+F | GAB | AGF | EDE | F2
+S:https://www.folktunefinder.com/tunes/80270
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

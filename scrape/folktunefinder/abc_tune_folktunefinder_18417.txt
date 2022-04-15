@@ -1,0 +1,30 @@
+X: 1
+T: Brochan Lom (Thin Porridge)
+T: Orange and Blue
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: called a schottische in Skinner SV p.20 (with variations),
+N: Hunter  354
+N: jig or strathspey in Skye p.121
+N: second Kennedy tune-book
+N: p.19, BSFC I-23, keep under O&B name alphabetically
+M: 4/4
+L: 1/8
+K: F
+[| c>B | "F"A-<F ~F2 C-<F ~F2 | A>F c>A F2 GA \
+       | "Gm"B-<G ~G2 D-<G ~G2 | "C7"E>C G>E C2 c>B |
+       | "F"A-<F ~F2 C-<F ~F2 | A>F c>A F2 (3ABc \
+       | "Bb"d>B "F/A"c>A "Gm"B>G "F"A>F | "C7"G>E (3CDE "F"F2 |]
+[| c>B | "F"A-<c c2 "/E"A-<c c2 | "Dm"A>F c>A "/F"F2 G>A \
+       | "Gm"B-<d d2 "/F"B-<d d2 | "C7"B>G d>B G2 A>B |
+       | "F"A-<c c2 "/E"A-<c c2 | "Dm"A>F c>A "/F"F2 (3ABc \
+       | "Bb"d>B "F/A"c>A "Gm"B>G "F"A>F | "C7"G>E (3CDE "F"F2 |]
+S:https://www.folktunefinder.com/tunes/18417
+S:http://trillian.mit.edu/~jc/music/abc/shottish/OrangeAndBlue_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/OrangeAndBlue_F.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

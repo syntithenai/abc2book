@@ -1,0 +1,26 @@
+X:431
+T: MEIN VATER IST EIN SCHNEIDER
+N: E1624
+O: Europa, Mitteleuropa, Deutschland, Oderberg, Hohen Saathen
+R: Staende -, Handwerker -, Gesellen - Lied, Schneider; Wanderschaft
+M: 3/8
+L: 1/16
+K: G
+B2 | G2B2BB | G2B2
+B2 | G2B2B2 | d2c2
+A2 | F2A2AA | F2A2
+A2 | d2d2dd | d2e2
+c2 | BBB2B2 | BBB2d2 | g2d2
+c2 | AAA2A2 | AAA2
+A2 | d2edcA | G2z2
+S:https://www.folktunefinder.com/tunes/79535
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende%20-,%20handwerker%20-,%20gesellen%20-%20lied,%20schneider;%20wanderschaft
+% Titles One%20title
+% Transcriptions Only%201%20transcription
+% Mode major
+% Key G
+% Time%20signature 3/8
+% Text Has%20notes%20text
+% Has%20accompaniment%20chords No%20chords

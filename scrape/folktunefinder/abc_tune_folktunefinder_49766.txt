@@ -1,0 +1,40 @@
+X: 211
+T:Miss Denison's Waltz. CJF.211
+M:3/8
+L:1/16
+Q:50
+C:"D.C. & Finish with Second part." -
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:There is a note beneath the stave. "D.C. & Finish with Second part." -
+N:PJH.
+Z:vmp.P J Headford 2000
+K:G
+"p"(Bc)|.d2(dg) Bc|.d2(dg) (Bc)|(d2g2b2)|a4(de)|!
+.f2(fa) (de)|.f2(fa) (df)|g2(gb)(fa)|g4:|!
+|:"f"(fg)|.a2(af)(df)|.a2(af)(df)|.g2(gb)(ac')|b4(^de)|!
+"p".f2(f^d)(Bd)|.f2(f^d)(Bd)|.e2(eg)(f^d)|e4(Bc)|!
+"cres:".d2(dg)(Bc)|.d2(dg) (Bc)|(d2g2b2)|a4(de)|\
+.f2(fa) (de)|.f2(fa) (df)|.g2(gb)(fa)|g4h||!
+"Dol."(g2|\
+d4)(g2|B4)e2|.A2(e2d2)|(c2{dc}B2)(g2|d4)(g2|\
+B4)e2|.A2(e2d2)|G4:||!
+"f"g2|f>ga>fd>f|\
+(g/f/g/a/ g/f/e/d/ c/B/A/G/)|f>ga>fd>f|g2G2 g2|!\
+f>ga>fd>f|(g/f/g/a/ g/f/e/d/ c/B/A/G/)|f>ga>fd>f|!
+"Dol."g4(g2|d4){f}(g2|B4){^d}e2|\
+.A2(e2d2)|(c2{dc}B2) (g2|d4){f}(g2|B4){^d}e2|.A2(e2d2)|G4|]
+S:https://www.folktunefinder.com/tunes/49766
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

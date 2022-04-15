@@ -1,0 +1,20 @@
+X:1890
+T:Farewell To Marian     %Tune name
+Q:1/4=100     %Tempo
+O:England
+M:3/4     %Meter
+L:1/8     %
+K:Dm
+"Dm"Ad A=B ^cd |"A"e2 A4 |"Dm"fg "(Bb)"fe de |"A"^c2 A4 |"Dm"Ad AG AF |"Gm"Bd BA BG |"Dm"FA F2 "A"E2 |"Dm"D6 :|
+"F"A2 c3 A |"C"G2 "F"A4 |A2 c3 d |"Am"e2 A4 |"Dm"f2 "Gm"g3 g |"Dm"f2 e2 d2 |"Am"ce c2 "E"=B2 |
+"A"A6 ||"Dm"Ad A=B ^cd |"A"e2 A4 |"Dm(Bb)"fg fe de |
+"A"^c2 A4 |"Dm"Ad AG AF |"Gm"Bd BA BG |"Dm"FA F2 "A"E2 |"Dm"D6 |]
+S:https://www.folktunefinder.com/tunes/22340
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

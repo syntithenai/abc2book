@@ -1,0 +1,55 @@
+X:7143
+T:The North Skelton Sword Dance
+O:england
+N:from Douglas Kennedy's description in the EFDSS
+C:
+S:J. Winspear
+A:North Skelton
+R:N/A
+I:gap 0
+I:part 1
+P:(AB)(CD)(AB)(EF)(CD)
+K:C
+T:Lass O' Dallogill 
+M:6/8
+I:speed 240
+P:A
+ede   G2 G  | A2 A G3    | ede   G2 G  | A2 B c3     |\
+ede   G2 G  | A2 A G3    | ede   G2 G  | A2 B c2     ||\
+P:B
+d |  e2 c  d2 B  | c2 c BAG   | e2 c  d2 d  | d2 f g3     |\
+a2 f  g2 e  | f2 d e3    | ede   G2 G  | A2 B c3     ||
+T:The Oyster Girl
+K:G
+I:speed 240
+P:C
+ded   B2 d  | c2 B A2 F  | GAG   G2 B  | d3   A2 d   |\
+ded   B2 g  | f2 e c2 e  | ded   c2 A  | G3   G3     ||\
+P:D
+B3-   BcB   | e3   e3    | A3-   Ace   | d3   d2 d   |\
+ded   B2 g  | f2 e c2 e  | ded   c2 A  | G3   G3     ||
+T:The Keel Row
+K:D
+M:4/4
+I:speed 320
+P:E
+G2 | F4    D2 F2 | G4   E2 G2 | F4    D2 F2 | E2 F2 G2    \
+E2 | F4    D2 F2 | G4   E2 G2 | F2 A2 G2 E2 | D6       E2 ||\
+P:F
+F2 A2 d2 c2 | B4   A2 G2 | F2 AF d2 F2 | G2 F2 E4    |\
+D2 FA d2 A2 | B4   A2 G2 | F2 A2 G2 E2 | D6          ||
+S:https://www.folktunefinder.com/tunes/27595
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm N/a
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

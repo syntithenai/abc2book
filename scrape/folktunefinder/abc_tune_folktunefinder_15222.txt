@@ -1,0 +1,45 @@
+X: 1
+T: Upon a Summer's Day
+T: the Garland
+B: Barnes (Fm)
+B: The Complete Country Dance Tunes from Playford's Dancing Master, Barlow, #101 p.36 (Gm)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Chords thanks in part to Peter Barnes
+M: 6/8
+L: 1/8
+%Q: 116
+R: Jig
+W: Souldier:
+W: My dearest deare adue, since that I needs must goe
+W: my fortunes to pursue against some Forraine Foe
+W: Being that it is so, I pray thee patient be
+W: and doe no kilt thy Coat, to goe along with me.
+W: Pegge:
+W: Alas my dearest heart, if that thou leave me here
+W: Death kills me with his dart, as plainly may appear
+W: For sorrow griefe and smart will quickly make me dye
+W: Therefore lie kilt my Coat, and goe along with thee.
+O: Samuel Pepys, Ballads, I,296, 1650
+P: AABBB
+K: GDor
+|| d \
+| "Gm"d2d B2G | d3-d2 e/-f/ | g2f g2a | b3-b2 B |
+| "Bb"B2B A2G | "F"f3 g3 | "Dm"a2B A2G | "Gm"G3-G2 ||
+|| a \
+| "Dm"a2a f2d | a3- a2f | "Gm"g2f "F"g2a | "Bb"b3-b2 B |
+| "Gm"B2B A2G | "F"f3 g3 | "Dm"a2B A2G | "Gm"G3-G2 |]
+S:https://www.folktunefinder.com/tunes/15222
+S:http://trillian.mit.edu/~jc/music/abc/jig/UponASummersDay.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/UponASummersDay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/UponASummersDay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/song/UponASummersDay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/UponASummersDay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/UponASummersDay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/song/UponASummersDay.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

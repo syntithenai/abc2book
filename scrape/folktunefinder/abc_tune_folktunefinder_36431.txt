@@ -1,0 +1,24 @@
+X:1760
+T:the Ferry reel
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000094a.html
+%%ID:0000094a
+K:D
+A|\
+d2dA d2d2|efed c2A2|BcdB ABAF|G2E2 E3A|\
+d2dA d2d2|efed c2A2|BcdB AGFE|D2d2 d3::\
+e|\
+f2fA f2fA|fgag fedf|e2eA e2eA|efed cBAd|
+f2fA f2fA|fgag fedf|efgf edcB|A2a2 a3:|
+S:https://www.folktunefinder.com/tunes/36431
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: AngusMcLeod of Achgarve
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e2 \
+| "A"A>AA c2a | {fg}f>eA {cd}c2B | {e}A<af {ef}e>cA | "G"{Bc}B<=Ge {de}d>GB |
+|  "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: cd \
+| "A"{ef}e2a a2f | "A"{efe}f>eA {cd}c2a | {a}A>ca {fg}f>eA | "G"B<=Ge {de}d>GB |
+|1 "A"{fg}A2a {ab}a2f | "A"{fgf}f>eA {efe}c2A | "G"B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|2 "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: e2 \
+| "A"A>ca A>cf | {f}A>ca {cd}c>BA | "A"{ga}A<af {ef}e>cA | "G"{ef}B<=Ge {de}d>GB |
+| "A"{ga}A>ca A>cf | A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 A2 :|
+|: cd \
+| "A"e2a A>ca | "D"{de}d>fa "A"{cd}c2a | "A"{ef}e2a A>ca | "G"B<=Ge {de}d>GB |
+|1 "A"{ef}e2a A>{d}ca | "D"{dc}d>fa "A"{cd}c2a | "G"B<=Ge {de}d>GB | "A"{Bc}A3 {AB}A2 :|
+|2 "A"{ga}A>ca A>cf | "A"{cB}A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 {AB}A2 :
+S:https://www.folktunefinder.com/tunes/13791
+S:http://trillian.mit.edu/~jc/music/abc/jig/AngusMcLeodofAchgarveJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/AngusMcLeodofAchgarveJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AngusMcLeodofAchgarveJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/pipe/AngusMcLeodofAchgarveJ_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

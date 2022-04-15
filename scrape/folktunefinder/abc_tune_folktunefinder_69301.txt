@@ -1,0 +1,24 @@
+X:442
+T: "Der Schutzengel"
+N: Z1122
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: religioeses Lied
+M: 3/4
+L: 1/8
+K: G
+ | G2G2G2 | A3GF2 | G2F2E2 | D4z2
+G2G2D2 | G4AB | cBA2z2
+GAB2c2 | d3cB2 | c2B2A2 | B4z2
+GFEFG2 | A3BGF | EFG2z2
+S:https://www.folktunefinder.com/tunes/69301
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

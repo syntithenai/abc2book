@@ -1,0 +1,27 @@
+X:166
+T: Stete Liebe
+N: A0204A
+O: Europa, Mitteleuropa, Deutschland
+N: J. Ott 1534 No. 67 und 68, J. Ott III 1544 No. 14. Tonsatz
+N: von Heinr. Isaak, vermuthlich auch von ihm die Melodie erfunden
+N: denn als Volksweise waere sie zu gekuenstelt.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/8
+K: G
+G4 | _B8c4 | d8=f4 | e4d8 | c8
+c4 | d8d4 | _B4G4d4 | c6_BAG4 | =F8
+F4 | _B8c4 | d4_B4d4 | c6_B2A4
+G4c4B4 | A2G2A8 | G8
+S:https://www.folktunefinder.com/tunes/68712
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

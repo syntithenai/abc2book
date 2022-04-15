@@ -1,0 +1,32 @@
+X:1244
+T:Bauernkrieg
+R:
+O:Alsace - Elsass
+A:
+S:
+B:Chansons populaires de l'Alsace
+Z:transcription (partition) : eric.forgeot@caramail.com
+N:Weckerlin I - p. 228
+N:
+M:C
+L:1/4
+Q:1/4=130
+K:F
+F>G A (B/A/) | G (A/G/) F C | A>B c (d/c/) | B (c/B/) A z |
+F>G A (B/A/) | G (A/G/) F C | A>B c (d/c/) | B (c/B/) A z |
+c (d/c/) d c | c (d/c/) d c | c (d/c/) d c | c (d/c/) d c |
+c>B A F | G>A F z ||
+W:Isch das nt n elnd's Lwe Um  arme Bre-stand 
+W:Eb mer het der Name trage, Liwerging mer s dem Land. /.../
+S:https://www.folktunefinder.com/tunes/56183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:313
+T: Bohnenlied
+N: A0362
+O: Europa, Mitteleuropa, Deutschland
+N: Pet. Schoeffer II. 1537 No. 6., hier giebt Boehme die vereinfachte
+N: Form nach Werlin 1646 S. 3135.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: F
+c2d2d2 | G2c2A3F | G2G2F4 | z2
+c2c2c2 | d3c=B2c2 | =B4c4 | z2
+c2d2d2 | G2c2A3F | G2G2F4 | z2
+c2c2c2 | d3c=B2c2 | =B4c4 | z2
+c2d2e2 | f4z2e2 | d2^c2d4 | z2
+f2d2e2 | f3ed2c2 | B4A4 | z2
+c2d2=B2 | c4z2A2 | B2G2A4 | z2
+F2c2A2 | F2A2G4 | F8 | z2
+S:https://www.folktunefinder.com/tunes/68859
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

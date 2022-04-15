@@ -1,0 +1,27 @@
+X: 1
+T: Down the Lane
+R: Jig
+C: Niall Vallely
+D: Nomos "Set You Free"
+S: Robbie <mgpig:aug.com>
+M: 6/8
+K: D
+| afd afd | cde Ace | gfe bag | fge dfg \
+| afd afd | cde Ace | gfe bag | fge d3 :|
+|: ece Ace | ~f3 def | ~g3 efg | ~f3 def \
+| ece Ace | f3 def | gfe bag | fge d3 :|
+S:https://www.folktunefinder.com/tunes/14112
+S:http://trillian.mit.edu/~jc/music/abc/jig/DownTheLane.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DownTheLane.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DownTheLane.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

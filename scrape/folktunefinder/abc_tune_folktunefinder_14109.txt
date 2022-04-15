@@ -1,0 +1,29 @@
+X: 1
+T: Doug's Jig
+O: Trad.
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: from Vince O'Donnell
+M: 6/8
+L: 1/8
+K: A
+   e \
+| "A"c2A    Ace |  "D"dfa "E7"e2d | "A"c2A "F#m"Ace | "Bm"dcd "E7"B2e \
+| "A"c2A    Ace |  "D"dfa "E7"e2d | "A"c2A  "E7"dcB |  "A"A3  A2 :|
+|: e \
+| "A"efe    efg |  "D"aba     agf | "A"eac      cBA | "E7"GBB dcB |
+|1"A"efe    efg |  "D"aba     agf | "A"eac  "E7"dcB |  "A"A3  A3 :|
+|2"A"ece "D"fdf | "E7"geg  "D"agf | "A"eac  "E7"dcB |  "A"A3  A3 |]
+S:https://www.folktunefinder.com/tunes/14109
+S:http://trillian.mit.edu/~jc/music/abc/jig/DougsJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/DougsJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DougsJig_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:2435
+T:Hall's Barn Dance
+O:england
+R:Barn Dance
+C:Lorimer Higgins
+S:The Maritime Fiddler
+B:|2c2eg
+M:C|
+L:1/8
+K:F
+AB|:c2AB cBc2|aga2 f4|c2AB cBAc|B4 G4|
+C2CD ECE2|efec d4|[1 c2=Bc dc=Bd|c4 c2AB:|[2 c2ed bgeg|f4 f2c2||
+d3c def2|c2cd cBAF|G2G2 GFEG|FEFG ABc2|
+d2cd ef2|c2cd cBAF|GG2G FEG|FBAG F4||
+S:https://www.folktunefinder.com/tunes/22886
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Barn dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

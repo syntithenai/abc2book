@@ -1,0 +1,23 @@
+X: 3
+T: Pigeon on the Gate
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+af \
+|: "A"eA~A2 | ABcd | eA~A2 "D"a2af | "A"eA~A2 ABcd | efge "G"d2cd :|
+| "A"eaaf "G"gfed | "A"eaaf "G"g2fg | "A"eaaf "G"gfed | "A"efge "G"d2cd |
+| "A"eaaf "G"gfed | "A"eaaf "G"g2fg | "D"afge fdec | "G"dB~B2 g2 y2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6287
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/PigeonOnTheGate.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

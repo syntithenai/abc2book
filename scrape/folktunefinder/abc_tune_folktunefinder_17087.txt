@@ -1,0 +1,24 @@
+X: 1
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+     D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 ||
+|::: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :::|
+S:https://www.folktunefinder.com/tunes/17087
+S:http://trillian.mit.edu/~jc/music/abc/reel/EarlOfLauderdale_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EarlOfLauderdale_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/EarlOfLauderdale_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

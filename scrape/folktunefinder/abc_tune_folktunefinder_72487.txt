@@ -1,0 +1,24 @@
+X:30
+T: Das Zauberross
+N: D0031
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Taktart in ' FREI ' korrigiert
+R: Ballade, magisch, mythisch
+M: none
+L: 1/8
+K: G
+DGA | B2B2AA | G2z
+GGB | d2d2eed
+cBA | G2d2cA | G3
+S:https://www.folktunefinder.com/tunes/72487
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, magisch, mythisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

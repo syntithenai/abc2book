@@ -1,0 +1,26 @@
+X:19
+T:L\aeg di Maw (Snoa, Danish Reinlender Polka)
+M:2/4
+L:1/8
+%Q:1/4=120
+R:Snoa or Danish Reinlender Polka
+%O:Sweden
+Z:Bob Wyttenbach  8/8/02, from Fiddles & Feet 2002 tunebook handwritten copy
+K:G  bass %clef=bass middle=D
+P:A
+B,B, D>B,|G,G,B,2|CC/B,/ A,B,/A,/|[1G,B,D2:|[2G,G,G,2:|
+P:B
+[K:D] A,/B,/A,/F,/ A,/B,/A,/F,/|A,D/F/ AA|G/A/G/F/ EE|F/G/F/E/ DD|
+A,/B,/A,/F,/ A,/B,/A,/F,/|A,D/F/ AA|G/A/G/F/ E/G/F/E/|[1DDD2:|[2DC B,A,:|
+%W:Pattern:AABBABB (A part repeats are 1,3 and 2,4; B repeats are 1,Fine and 2 (to A).
+S:https://www.folktunefinder.com/tunes/62641
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Snoa or danish reinlender polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,68 @@
+X:1208
+T:Basse-dance appelle : Iouyssance vous donneray : 
+T:auec les mesures & battemens du tabourin. 
+C:Trad.
+S:Thoinot Arbeau
+N:0069.gif
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/2
+L:1/2
+Q:1/2=160
+K:C
+"Air de la basse dance" \
+DDD | FE/D/C | FG/E/F/G/ | A2 A |
+"continuation de l'air" \
+A/G/F/G/A/B/ | cc/B/A | B/A/G/F/G/E/ | F2F |
+"branle" \
+AGA | D2D | E/F/G/F/E/D/ | C2C |
+"Devx simples" \
+c/B/A/G/F/E/ | FB/A/G/F/ | E/D/C/ D/D/C/ | D2D |
+"Dovble" \
+DDD | FE/D/C | FG/E/F/G/ | A2 A |
+"Reprise" \
+A/G/F/G/A/B/ | cc/B/A | B/A/G/F/G/E/ | F2F |
+"Dovble" \
+AGA | D2D | E/F/G/F/E/D/ | C2C |
+"Reprise" \
+c/B/A/G/F/E/ | FB/A/G/F/ | E/D/C/ D/D/C/ | D2D |
+"Branle" \
+ddd | c/B/c/d/e2 | d/c/B/A/B/G/ | A2 A |
+"Devx simples" \
+A/G/A/B/c/d/ | ed/c/B/A/ | B/A/G/A/ B/G/ | A2 A | 
+"Dovble" \
+ddd | c/B/c/d/ e | d/c/B/A/B/G/ |  A2 A |
+"Dovble" \
+A/G/A/B/c/d/ | e d/c/B/A/ | B/A/G/A/B/G/ | A2 A |
+"Dovble" \
+DDD | F E/D/ C | F G/F/G/ | A2 A |
+"Reprise" \
+A/G/F/G/A/B/ | c c/B/ A | BAGFGE | F2 F |
+"Dovble" \
+AGA | D2 D | EFGFED | C2 C |
+"Reprise" \
+c/B/A/G/F/E/ | F B/A/G/F/ | E/D/C/D/D/C/ | D2 D ||
+"Branle" \
+D/C/D/E/D/E/ | F E/D/ C | F/E/D/E/F/G/ | A2 A |
+"Devx simples" \
+A/G/F/G/A/B/ | c/B/c/d/c/A/ | B/A/G/F/G/E/ | F2 F |
+"Dovble" \
+AGA | D2 D | E/F/G/F/E/D/ | C2 C |
+"Reprise" \
+c/B/A/G/F/E/ | F B/A/G/F/ | E/D/C/D/D/C/ | HD4 ||
+%%textfont Helvetica 9
+%%text     Branle     & cong
+S:https://www.folktunefinder.com/tunes/56147
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

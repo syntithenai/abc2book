@@ -1,0 +1,27 @@
+X:125
+T: Vor Fastnacht
+N: A0489
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Cod. germ 1461 Bl. 54b.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F2 | F2G2 | A2BA | c2AF | G2F2
+B2 | Ad2cB2 | A2z2
+F2 | F2G2 | A2BA | c2AF | G2F2
+B2 | Ad2cB2 | A2z2
+c2 | cdef | d2c2AA | d2BGA2 | G2z
+G | AABB | c2AA | ddff | e2d2
+c2 | f2ed | c2d2 | BAG2 | F4
+S:https://www.folktunefinder.com/tunes/80184
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

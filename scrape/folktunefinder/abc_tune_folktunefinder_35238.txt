@@ -1,0 +1,29 @@
+X: 8021
+T:Waltz from Lolland, Falster
+R:Waltz
+O:Denmark
+M:3/4
+C:Hans J\"orgen Jensen
+K:D
+FG |\
+A4 AA | {B}A2 ^G2 A2 | F2A2d2 | f4 ef |\
+g2 fe dc | e2 dc BA | c2 BA GE | D4 :|
+K:A
+|: E2 |\
+EG GB Bd | dc ce a2 | ag gB d2 | fe eA c2 |\
+cB Bd dc | cB BA AG | FE Ec cB | A4 :|
+K:D
+|: A2 |\
+[A2g2][A4g4] | g2f2e2 | fA df a2 | gA ce a2 | \
+[A2g2][A4g4] | g2f2e | fA a2 ge | d4 :|
+S:https://www.folktunefinder.com/tunes/35238
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

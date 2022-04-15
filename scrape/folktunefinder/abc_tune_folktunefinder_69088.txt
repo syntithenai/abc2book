@@ -1,0 +1,28 @@
+X:229
+T: UNSER BRUDER MALCHER, DER WULLT A REITER WAEREN
+N: Z0228
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Erzaehlung, lustige Romanze, Spott - Lied
+M: 3/8
+L: 1/16
+K: C
+ |  | CDE2F2 | G2G2z
+E | FEF2D2 | E2C2z
+B, | CDE2F2 | G2G2z
+E | FEF2D2 | C4z
+G | GGG2zG | AGF2z
+F | DEF2zF | GFE2z2
+G2B,2B,2 | CDEFG2
+G2B,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/69088
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze, spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

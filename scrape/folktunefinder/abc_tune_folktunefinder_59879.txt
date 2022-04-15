@@ -1,0 +1,30 @@
+X:3690
+T:Da mihi Manum
+C:Rory Dall (Scotland, 17th century)
+N:not the Irish harper of the same name 100 years
+N:previously, despite what you read in some books
+S:Dan Wright, Aria di Camera c.1726
+N:intended for the transverse flute
+M:6/4
+L:1/4
+Q:1/4=120
+K:EMin
+D   |EGG    G2E   |EGG     G2E   |EGG     GAB   |Bed          B2
+A/G/|AAe    BBd   |A>BA/G/ E2D   |EGG     g2D   |EGG          g2
+D   |EGG    gab   |d>ba/b/ g2D   |EGG     GAB   |Bed          B2
+A   |AAe    BBd   |ABd     e2d/B/|dde     g2e/d/|eeg          a2
+g/e/|ggd/e/ ggd/e/|gga     b3    |bbb     b2a/g/|a/g/a/b/a/b/ a2
+g   |eeg/e/ dde/d/|BBd/B/  A2G   |GGB/d/ =f2e/d/|eeg          e2
+d/B/|ddg    BBd   |A>BA/G/ E2D   |]
+S:https://www.folktunefinder.com/tunes/59879
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

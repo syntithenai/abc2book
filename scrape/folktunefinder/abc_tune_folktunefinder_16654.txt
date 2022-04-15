@@ -1,0 +1,28 @@
+X: 2
+T: Shenandoah [D]
+T: Sea shanty
+C: anon.
+O: USA
+R: shanty
+Z: Frank Nordberg - http://www.musicaviva.com (modified by John Chambers)
+M: none
+L: 1/8
+K: D
+A,2 \
+| "D"DD D3 "(Em)"EFG | "G"B"D"A3 (dc) | "G"B3A "(A7)"BA |
+| "D"FA3 "A/C#"A2 | "Bm"BBB3F "F#m"AF | "A"E "Bm"D3y "A7"DE |
+| "D"F3E "(A/C#)"F>B | "F#m"A6 | "D"D>E "(G)"F3E | "A7"E2 "D"D4 |]
+%%sep 1 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/16654
+S:http://trillian.mit.edu/~jc/music/abc/program/Shenandoah.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/Shenandoah.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/Shenandoah.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Shenandoah
+% Rhythm Shanty
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

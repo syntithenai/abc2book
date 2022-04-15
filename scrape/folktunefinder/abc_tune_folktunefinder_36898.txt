@@ -1,0 +1,28 @@
+X:4095
+T:Orton Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004ee.html
+%%ID:000004ee
+K:C
+ed| \
+cGEG c2c2| ecge c2de| f2ag fedc| BcdB G2ed|\
+cGEG c2c2| ecge c2de|
+fagf edcB| d2c2 c2::\
+ef|\
+g^fge c2de| f2af d2de|
+f2ag fedc| (3Bcd (3cBA G2ef|\
+g^fge c2de| f2af d2ef| gece fdBd| c2e2 c2:|
+S:https://www.folktunefinder.com/tunes/36898
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

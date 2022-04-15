@@ -1,0 +1,28 @@
+X:26
+T: Das faule Gretchen
+N: D0028
+O: Europa, Mitteleuropa, Lothringen, Gebenhausen
+N: Mehrere rhythmische Korrekturen zum 4/8 - Takt durchgefuehrt
+N: Verzierung; Inzipit = Variante
+R: Spott - Lied
+M: 4/8
+L: 1/16
+K: G
+D2 | G2B2A2F2 | G2E2D2
+D2 | E2G2F2A2 | G4z2
+D2 | G2B2A2F2 | G2E2D2
+D2 | E2G2F2A2 | G4
+d3c | B2B2B2B2 | B2d2d4 | B2d2d4
+d2c2c2e2 | e2d2B2
+AA | B2d2c2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/72483
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

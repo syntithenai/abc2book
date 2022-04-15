@@ -1,0 +1,24 @@
+X:5
+T: SCHAUTS IHR LIEBEN LEUTEL
+N: E1004
+O: Europa, Mitteleuropa, Deutschland, Franken, Schweinfurt
+R: Tanz - Lied, Landsknechts - Tanz
+M: 3/4
+L: 1/8
+K: G
+ | d3cBA | G2G2G2 | e2e2e2 | d4z2
+c2c2c2 | B4e2 | d2c2AF | G4z2
+AFDDD2 | B2G2G2
+AFD2D2 | B2G2G2 | z4
+BA | G2G2Bd | e6
+d3ed2 | c2B2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/79109
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, landsknechts - tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

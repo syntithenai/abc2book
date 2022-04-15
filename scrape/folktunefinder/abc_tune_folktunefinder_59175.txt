@@ -1,0 +1,26 @@
+X:288
+T:Danza de La Noche de San Xuan
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+M:2/4
+L:1/8
+Q:1/8=250
+K:G
+|B2 A2|G3 A|B2 Ac|B2E z|G2 F G|AB c B|GA GF|G2 z2|
+S:https://www.folktunefinder.com/tunes/59175
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

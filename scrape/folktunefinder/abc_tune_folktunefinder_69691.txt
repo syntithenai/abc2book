@@ -1,0 +1,23 @@
+X:131
+T: VOEGLEIN SINGEN VOEGLEIN SPRINGEN
+N: F0251
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Fruehling
+M: 2/4
+L: 1/8
+K: A
+ | A2A2 | AGAB | c2c2 | cBcd
+e2c2 | A2E2 | A2c2 | B4
+EFGA | B2B2 | GABc | d2d2
+c2e2 | A2A2 | GABc | A4
+S:https://www.folktunefinder.com/tunes/69691
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

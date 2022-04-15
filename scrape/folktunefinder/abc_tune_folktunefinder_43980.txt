@@ -1,0 +1,92 @@
+X:2
+T:Concerto Op. 10 no. 1
+T:La tempesta di mare
+T:2. Largo
+C:Antonio Vivaldi
+V:1 program 1 73
+V:2 program 2 40
+V:3 program 3 110
+V:4 program 4 41
+V:5 program 5 41
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/16
+Q:1/4=40
+K:F
+V:1
+z2 a2 (abc'b ag^fg)|({g}^f12)|z2 b2 (bc'd'c' ba^ga|({a}^g12)|z2 c'2
+(3c'2d'2c'2 (3=b2a2b2)|a4- (3a^f=g (3agf (3=bfg (3agf|
+V:2
+z12|z2 z .D ("_-"D3.D) ("_-"E3.^F)|"_-"G4 z4 z4|z2 z .E ("_-"E3.E)
+("_-"^F3.^G)|A4 z4 z4|("_-"^D3.D) ("_-"D3.D) ("_-"D3.D)|
+V:3
+z12|z2 z .D ("_-"D3.D) ("_-"E3.^F)|"_-"G4 z4 z4|z2 z .E ("_-"E3.E)
+("_-"^F3.^G)|A4 z4 z4|("_-"^D3.D) ("_-"D3.D) ("_-"D3.D)|
+V:4
+z12|z2 z .D, ("_-"D,3.D,) ("_-"E,3.^F,)|"_-"G,4 z4 z4|z2 z .E,
+("_-"E,3.E,) ("_-"^F,3.^G,)|A,4 z4 z4|("_-"^D,3.D,) ("_-"D,3.D,) ("_-"D,3.D,)|
+V:5
+z12|z2 z .D, ("_-"D,3.D,) ("_-"E,3.^F,)|"_-"G,4 z4 z4|z2 z .E,
+("_-"E,3.E,) ("_-"^F,3.^G,)|A,4 z4 z4|("_-"^D,3.D,) ("_-"D,3.D,) ("_-"D,3.D,)|
+%
+V:1
+^g4- (3ge^f (3gfe (3=ba^g (3=fed|^c4- (3cef (3gfe (3agf (3edc|d4- (3dde
+(3fed (3agf (3edc|=B4- (3Bde (3fed (3gfe (3dcB|(3cde (3efg (3 ga_b (3bag
+(3gfe (3edc (3|
+V:2
+("_-"E3.E) ("_-"E3.E) ("_-"E3.E)|("_-"A3.A) ("_-"A3.A)
+("_-"G3.G)|("_-"F3.F) ("_-"F3.F) ("_-"F3.F)|("_-"G3.G) ("_-"G3.G)
+("_-"F3.F)|("_-"E3.E) ("_-"E3.E) ("_-"E3.E)|
+V:3
+("_-"E3.E) ("_-"E3.E) ("_-"E3.E)|("_-"A3.A) ("_-"A3.A)
+("_-"G3.G)|("_-"F3.F) ("_-"F3.F) ("_-"F3.F)|("_-"G3.G) ("_-"G3.G)
+("_-"F3.F)|("_-"E3.E) ("_-"E3.E) ("_-"E3.E)|
+V:4
+("_-"E,3.E,) ("_-"E,3.E,) ("_-"E,3.E,)|("_-"A,3.A,) ("_-"A,3.A,)
+("_-"G,3.G,)|("_-"F,3.F,) ("_-"F,3.F,) ("_-"F,3.F,)|("_-"G,3.G,)
+("_-"G,3.G,) ("_-"F,3.F,)|("_-"E,3.E,) ("_-"E,3.E,) ("_-"E,3.E,)|
+V:5
+("_-"E,3.E,) ("_-"E,3.E,) ("_-"E,3.E,)|("_-"A,3.A,) ("_-"A,3.A,)
+("_-"G,3.G,)|("_-"F,3.F,) ("_-"F,3.F,) ("_-"F,3.F,)|("_-"G,3.G,)
+("_-"G,3.G,) ("_-"F,3.F,)|("_-"E,3.E,) ("_-"E,3.E,) ("_-"E,3.E,)|
+%
+V:1
+(3Bcd (3efg (3gab (3bag (3gfe (3dcB|A4 z4 z4|z12|(3cfg (3agf (3cga (3bag
+(3cab (3c'ba|(3.c.f.g (3(ag).f (3.c.g.a (3(ba).g (3.c.a.b
+(3(c'b).a|(3cbc' (3d'c'b (3cc'd' (3e'd'c' (3cd'e' (3f'e'd'|
+V:2
+("_-"C3.C) ("_-"C3.C) ("_-"C3.C)|F2FF AAcc ffcc|AAFF AAcc ffcc|C4 C4
+C4|C4 C4 C4|C4 C4 C4|
+V:3
+("_-"C3.C) ("_-"C3.C) ("_-"C3.C)|F2FF AAcc ffcc|AAFF AAcc ffcc|C4 C4
+C4|C4 C4 C4|C4 C4 C4|
+V:4
+("_-"C,3.C,) ("_-"C,3.C,) ("_-"C,3.C,)|F,2F,F, A,A,CC FFCC|A,A,F,F,
+A,A,CC FFCC|C,4 C,4 C,4|C,4 C,4 C,4|C,4 C,4 C,4|
+V:5
+("_-"C,3.C,) ("_-"C,3.C,) ("_-"C,3.C,)|F,2F,F, A,A,CC FFCC|A,A,F,F,
+A,A,CC FFCC|C,4 C,4 C,4|C,4 C,4 C,4|C,4 C,4 C,4|
+%
+V:1
+(3e'd'c' (3d'c'b (3c'ba (3bag (3agf (3gfe|(f/g/a/b/) c'f Tg5f2|f4 z4 z4|z12|z12|Hz12|]
+V:2
+C4 C4 C4|F4 c4 C4|F2FF AAcc ffcc|AAFF AAcc ffcc|A2F2 c4 C4|HF12|]
+V:3
+C4 C4 C4|F4 c4 C4|F2FF AAcc ffcc|AAFF AAcc ffcc|A2F2 c4 C4|HF12|]
+V:4
+C,4 C,4 C,4|F,4 C4 C,4|F,2F,F, A,A,CC FFCC|A,A,F,F, A,A,CC FFCC|A,2F,2
+C4 C,4|HF,12|]
+V:5
+C,4 C,4 C,4|F,4 C4 C,4|F,2F,F, A,A,CC FFCC|A,A,F,F, A,A,CC FFCC|A,2F,2
+C4 C,4|HF,12|]
+S:https://www.folktunefinder.com/tunes/43980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/2Largo_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ConcertoOp10No1_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/LaTempestaDiMare_2.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 42
+T:Waltz,1. TLY.041
+M:3/8
+L:1/16
+Q:50
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Waltz
+O:England.
+A:Lancashire.
+N:No key signature given in MS.
+H:1860.
+Z:vmp.Taz Tarry.
+K:F
+"No key sig in MS"cB|(Ac)f2 cB|(Ac)f2 (fa)|\
+(eg) c2e2|f2a2 (cB)|(Ac)f2 cB|!
+(Ac)f2 (af)|(eg)c2e2|f4:||:(ef)|(ga)b2 ge|(fa) c2ef|!
+(gf)(ed)(cB)|B2A2 (ef)|(ga) b2(ge)|\
+(fa) c2(fe)|dcBA (Ge)|f4:|]
+S:https://www.folktunefinder.com/tunes/37575
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

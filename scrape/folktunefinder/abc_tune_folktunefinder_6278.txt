@@ -1,0 +1,26 @@
+X: 1
+T: IRISH WASHERWOMAN
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.108
+M: 6/8
+L: 1/8
+Q: 1/4=126
+%%slurgraces 1
+K: G
+(d/c/) \
+| "G"BGG DGG | BGB dcB | "D7"cAA     DAA |    cAc edc \
+| "G"BGG DGG | BGB dcB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+|: g/a/ \
+| "G"bgg    dgg |     bgb    bag |  "D"aff     dff |    fdf agf \
+| "C"egg "G"dgg | "Am"cgg "G"Bgg | "Am"cBc "D7"Adc | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/6278
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/IrishWasherwoman_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/IrishWasherwoman_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

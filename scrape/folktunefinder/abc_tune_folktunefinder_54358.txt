@@ -1,0 +1,26 @@
+X: 375
+T: Not identified 1
+T: 63A /334 (lesnoto)
+O: Macedonia
+M: 3/8
+L: 1/8
+K: C
+CDE|CDE|AGF|EDC|\
+CDE|CDE|AGF|G3|
+GAB|GAB|AGF|EDC|\
+AGF|EFDE|C3|C3|
+M:7/8
+[c2G2][cG][e2c2][e2c2]|[d2B2][cA][c2A2][c2A2]|\
+[e2c2][ec][a2f2][a2f2]|[a2f2][ge][g4e4]|
+|:[g2e2][af][b2g2][b2g2]|[a2f2][ge][g2e2][g2e2]|\
+[g2e2][ge][f2d2][f2d2]|[f2d2][ec][e4c4]:|
+S:https://www.folktunefinder.com/tunes/54358
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

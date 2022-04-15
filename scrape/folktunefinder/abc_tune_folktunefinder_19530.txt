@@ -1,0 +1,25 @@
+X:1
+T: the Miller's Rant
+C:J Scott Skinner
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+R:Strathspey
+K:D
+| A,<D F>D A>D F>D | B,<E G>E B>E G>E | A,<D F>D A>D F>D | G<B C<A D2 D :|
+A \
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | A<d f>d a>d f>d | B<d c<a d2 d>A |
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | (3agf (3edc (3BAG (3FED | (3CDE (3A,B,C D2 D |]
+S:https://www.folktunefinder.com/tunes/19530
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MillersRant.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MillersRant.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MillersRant.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Grand Old Flag
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+ge \
+| "C"c2 c2 | c2 AG | "G7"c d2 B | "C"c2 AG | c2 AG | c2 AG | "G7"B4- | B2 zG |
+| "G7"B2 "C"c2 | "G7"d2 BG | "C"c2 "G7"d2 | "C"e4 | "D7"d e2 c | d e2 c | "G"d4- | d2 ge |
+| "C"c2 c2 | c2 AG | "G7"c d2 B | "C"c2 B_B | "A"A2 ^ce | a2 "A7"g2 | "Dm"f4- | f2 "G7"G2 |
+| "C"c3 B | c2 e2 | "G7"d3 ^c | d2 GG | "F"A c2 B | "G7"c2 d2 | "C"c4- | c2 |]
+S:https://www.folktunefinder.com/tunes/15451
+S:http://trillian.mit.edu/~jc/music/abc/march/GrandOldFlag_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/GrandOldFlag_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

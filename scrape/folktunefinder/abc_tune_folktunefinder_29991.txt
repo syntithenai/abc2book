@@ -1,0 +1,26 @@
+X:0
+T:Bolero (second theme)
+C:Maurice Ravel
+M:3/4
+L:1/16
+Q:1/4=72
+K:C % hijaz
+_b4-       bagf   bc'ag |  _b2ag      b4       abag-   |\
+ g4-       gfed   e4-   |   e4        z2_b2    c'2_d'2-|\
+_d'2  d'4    d'2  d'2d'2|(3_d'2d'2d'2 d'2c'_b  d'2c'b  |
+_d'c'_b_a  gfe2-  e4-   |   e8-                e2z2    |\
+ d6          e2   def2- |   f4        g2_a2  (3f2g2e2  |\
+ dedc-     c2_B2- B4-   |  _BcBc      dedc     dcB_A   |
+_B_AG2-    G2F2-  F4-   |   F4-       FGF_E-   E4-     |\
+_E4        FEF_D- D4-   |  _D4-       DD_ED    FEDC-   |\
+ C2z2      z4     z4    |   z4        z4       z4     |]
+S:https://www.folktunefinder.com/tunes/29991
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

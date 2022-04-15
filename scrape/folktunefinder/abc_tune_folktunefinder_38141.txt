@@ -1,0 +1,26 @@
+X:16770
+T:THE GOLD RING
+M:6/8
+L:1/8
+R:JIG
+K:G
+d/2|cAG GFG|cAG G2 d|cAG GFG|cAG F2 d|cAG GFG|cAG A2 G|FGA
+fed|cAG G2:| d/2|cAd cAd|cAG G2 d|cAd cAd|cAG F2 d|cAd cAd|cAG A2 G|FGA
+fed|cAG G2:| (3def|gag gdc|BGG G2
+d/2e/2|fgf fcB|A=FF F2 d|gag gdc|BGG G2 d/2|=fgf fed| cAGG G2:|(3def|gdd
+ fdd|gdd fdd|gdd fdd|cAG G2 (def|gdd fdd|gdd
+fdd| f/2g/2ag f2 d/2|cAG G2:|D/2|Gdd Gdd|cAG G2 A/2|B2 G/2 A2 G/2|cAG F2
+ A/2| B2 G/2 A2 G/2|B2 G/2 A2 G/2|FGG
+fed|cAG G2:|G/2A/2|BGB AGA|DED FED| Add fed|cAG FGA|BGB AGA|DED FED|Add
+fed|cAG G2:|G/2A/2|BAB DED|
+AFA DED|Add fed|cAG FGA|BAB DED|AFA DED|Add fed|cAG G2:|
+S:https://www.folktunefinder.com/tunes/38141
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

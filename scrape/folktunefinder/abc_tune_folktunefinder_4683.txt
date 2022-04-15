@@ -1,0 +1,39 @@
+X: 1
+T: Y\"olintu
+C: A.Heikkil\"a
+M: 3/4
+L: 1/4
+K: Dm
+%%staffsep 30
+A, "A"\
+| "Dm"D2E | F2G | A2d | ^c2d | "A7"A2G | E2F | "Dm"D3- | DzA, |
+| "Dm"D2E | F2G | A2d | ^c2d | "E7"e2d | =B2^c | "A7"A3- | A2A |
+| "Dm"f2e | d2^c | "A7"e3 | "Dm"d3 | "Gm"d^ce | d2B | "Dm"A3- | "A7"AzA, |
+| "Dm"D2E | F2G | A2d | ^c2d | "A7"A2G | E2F | "Dm"D3- | "fine"D/ ||
+"B"\
+|: A/^GA \
+| "A7"e>d^c | z/A/^GA | "Dm"f>ed | z/d/^cd | "Gm"e>dB | zB/d/c/B/ | "Dm"A3 | z/A/^GA |
+| "A7"e>d^c | z/A/fe | "Dm"d2A | "Gm"z/A/cB | "Dm"A>GF | "A7"E/G/F/E/D/^C/ | "Dm"D3- | D/ :|
+P: repeat A
+"no chords"z/zA/A/ | ABA | FED | "A"AA/A/A | "A7"AA |[K:D]
+"C"\
+|: "A7"A \
+| "D"d3 | c2A | B3 | F3 | B3 | "B7"A2F | "Em"G3- | G2z |
+| "A7"e3 | d2B | c3 | G3 | B3 | A2E | "D"F3- | F2z |
+| "D"d3 | c2A | B3 | F3 | "F#7"c3 | f2c | "Bm"d3- | d3 |
+| "Em"e3 | "G"d2B | "D"A3 | "B7"F3 | "Em"G3 | "A7"F2E | "D"D3- | "d.C."Dz :|
+S:https://www.folktunefinder.com/tunes/4683
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Yolintu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Yolintu.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Yolintu_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Yolintu_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz/Yolintu_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Yolintu_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

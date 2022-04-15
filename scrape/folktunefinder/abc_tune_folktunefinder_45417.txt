@@ -1,0 +1,21 @@
+X:3
+T:All clefs with common key signatures
+M:C
+L:1/4
+K:E bass
+C,E,G,C|[K:Ab]C,E,G,C|[K:E bass3]C,E,G,C|[K:Ab]C,E,G,C|
+[K:E alto4]G,CEG|[K:Ab]G,CEG|[K:C# alto]G,CEG|
+[K:Ab]G,CEG|[K:E alto2]CEGc|[K:Ab]CEGc|
+[K:E alto1]CEGc|[K:Ab]CEGc|[K:E treble]CEGc|[K:Ab]CEGc|
+S:https://www.folktunefinder.com/tunes/45417
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C-sharp
+% Key E
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

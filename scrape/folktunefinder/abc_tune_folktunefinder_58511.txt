@@ -1,0 +1,29 @@
+X: 1
+T: Fair Donald
+T: 8x32S 3C
+P: Lady Dick Lauder's Strathspey
+R: strathspey
+C: RSCDS 29-4
+C: 1997 by John Chambers, mods by T. Traub 11-3-02
+D: J. Taylor Album
+M: C
+L: 1/8
+K: Bb
+|: F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"Gb "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+S:https://www.folktunefinder.com/tunes/58511
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/LadyDickLaudersS.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

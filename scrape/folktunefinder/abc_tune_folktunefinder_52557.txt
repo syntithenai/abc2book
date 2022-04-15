@@ -1,0 +1,25 @@
+X:423
+T:Valentine - Field Town
+S:OY(AB)2(AC)2
+M:6/8
+L:1/8
+K:G
+"A"d | gfe ede | edc cBc | dBg dBG |FAA A2 d |
+gfe ede | edc cBc | dBG DAF  | GGG G ||
+"B" Bc | ded dBd | BGG GAB | cAc BGB | FAA ABc |
+ded dBd | BGG G2 d | efg dBd | BGG G :||
+"C" Bc | ded dBd | BGG GAB |
+M:4/4
+c  A c2 | B G  B2 | F A  A2 | A2 |
+M:6/8
+B2 c | ded dBd | BGG G2 d | efg dBd | BGG G2 :||
+S:https://www.folktunefinder.com/tunes/52557
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

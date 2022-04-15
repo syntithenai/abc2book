@@ -1,0 +1,23 @@
+X: 39
+T:Denis Murphy's Jig
+M:12/8
+L:1/8
+Q:120
+K:D
+"D"A2D FED F2A A2f|"G"g2ef2d "A"e2d Bcd|
+"D"A2D FED F2A A2f|"G"a2f "A"efe "D"d3 d2B::!
+"D"d2e f3 gfe f3|gfe f2d "A"e2d B2A
+|"D"d2e f3 gfe f2g|"G"a2f "A"efe "D"d3 d2B:|
+S:https://www.folktunefinder.com/tunes/50547
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

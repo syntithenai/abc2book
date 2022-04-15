@@ -1,0 +1,22 @@
+X: 1
+T:The Ragg          %Tune name
+C:1726           %Tune composer
+Q:1/4=120     %Tempo
+|:
+M:6/8     %Meter
+L:1/8     %
+K:G
+a |"D"f2 A AcA |"G"B/c/dB G2 g |"D"f2 A AcA |"G"d3 g2 a |"D"f2 A AcA |
+"G"B/c/dB G2 g |"D"fga "A"gfe |"D"d3 "G(A)"g2  ::g |
+"D"fga a"^"fd |"C"efg gec |"D"fga afd |f3 "(A)"a3 |"D"fga afd |"C"efg gec |"D"f/g/af "C(Am)"ecA |"D"d3 "G(A)"g2  :|
+S:https://www.folktunefinder.com/tunes/14954
+S:http://trillian.mit.edu/~jc/music/abc/jig/Ragg_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Ragg_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Ragg_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

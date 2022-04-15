@@ -1,0 +1,24 @@
+X:1
+T: King of the Fairies
+M:2/4
+K:Em
+|:B,2 | EDEF GFGA | B2 B2 G3 A | B2 E2 EFGE | FGFE D2 B,2 | 
+EDEF GFGA | BAGB d3 c | B2 E2 GFED | E4 E2 :|
+|| e2 e2 Bdef | gagf e3 f | e2 B2 BABc | dedc BcdB | 
+e2 B2 Bdef | gagf efed | Bdeg fedf |  e4 e3 f | 
+g3 e f3 d | edBc d3 e | dBAF GABc | dBAF GFEE | 
+B,2  E2 EFGA | B2 e2 edef | e2 B2 BAGF| E8 ||
+S:https://www.folktunefinder.com/tunes/58717
+S:http://ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/moreTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/xir
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xir
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

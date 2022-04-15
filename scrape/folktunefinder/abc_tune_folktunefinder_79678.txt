@@ -1,0 +1,26 @@
+X:574
+T: GOLDNE GOLDNE BRUECKE
+N: E1879
+O: Europa, Mitteleuropa, Deutschland
+R: Kinder - Lied, Tanz, Bruecken - Spiel
+M: 2/4
+L: 1/8
+K: D
+ | DEFG | A2A
+A | BBdB | A2F
+A | G2EA | F2D
+F | EFGA | G2F
+D | AAFD | AAF
+D | BBdB | A2F
+A | BAGF | E2Dz
+S:https://www.folktunefinder.com/tunes/79678
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, tanz, bruecken - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

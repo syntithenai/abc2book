@@ -1,0 +1,23 @@
+X:22
+T: ACH DEN ICH HAETT SO GERN
+N: E0637A
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: C
+E,2G,2C2 | E3DC2E,2G,2E,2 | A,3A,G,2
+C,2E,2C,2 | G,3F,G,2D,2F,2D,2 | A,3A,G,2
+E,2G,2C2 | E3DC2E,2G,2E,2 | A,3A,G,2
+C,2E,2C,2 | G,3F,G,2D2F2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/76507
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

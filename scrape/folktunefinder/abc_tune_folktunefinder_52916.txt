@@ -1,0 +1,31 @@
+X: 27
+T:Silver Street Lasses. JMT.027
+M:4/4
+L:1/8
+Q:180
+S:J.Moore,Tyneside,1841.(20)
+R:Hornpipe
+O:England
+A:Northumbria
+H:184
+Z:vmp.Chris Partington
+K:C
+E2|(A^G)AB (A=G)EG|(A^G)AB (cB)cd|(ef)ge dedc|B2G2G2E2|!
+(A^G)AB (A=G)EG|(A^G)AB (cB)cd|(ef)ge (de)dB|c2A2A2:|!
+|:eg|(a^g)ab (a=g)eg|(a^g)ab (a=g)eg|(gf)ga (ge)dc|B2G2G2eg|!
+(a^g)ab (a=g)eg|a^gaba2AB|(cB)cd (eg)de|c2A2A2eg|!
+(a^g)ab (a=g)eg|a^gaba2ef|(ga)ge (de)dc|B2G2G2cB|!
+(A^G)AB (cBc)e|(dc)BA (GA)BG|(A^G)AB cBcd|e2A2A2:||
+S:https://www.folktunefinder.com/tunes/52916
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

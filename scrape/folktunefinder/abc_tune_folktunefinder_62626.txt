@@ -1,0 +1,39 @@
+X:3
+T:X-Hambo
+C:Thomas Thiger
+%O:Sweden
+Z:Bob Wyttenbach, 8/4/02 from xerox copy in Buffalo Gap 2002 book
+M:3/4
+L:1/8
+%Q:1/4=120
+K:C  bass %clef=bass middle=D
+V:1
+P:A
+C2G,2F,D,|E,>G, (D,E,)C,2|A,>B, CF,A,C|B,>D G,^G,A,B,|
+V:2
+G,2E,2D,B,,|C,2G,,4|F,>G, A,D,F,A,|G,2(D,E,)F,G,|
+V:1
+C2G,2F,D,|E,>G, (D,E,)C,2|A,>F, A,C B,>D|"Fine"C2C4:|
+V:2
+G,2E,2D,B,,|C,2G,,4|F,>C, F,A, G,>G,|E,2E,4:|
+V:1
+P:B
+A,2E,2A,>C|B,2E,4|C>DE2(DC)|B,>^G, (E,G,)B,2|
+% or (EG) (B>c)| at end of this line
+V:2
+C,2A,,2C,>E,|D,2B,,4|G,>B,C2(B,A,)|^G,>E, (B,,D,)E,2|
+%or (B,D) (E>F)| at end of this line
+V:1
+A,2E,2A,>C|B,2E3(D|C>)A, E,^G, B,>C|[1A,2A,4:|[2"D.C."A,2G,4||
+V:2
+C,2A,,2C,>E,|^G,2B,3(B,|A,>)E, C,E, ^G,>G,|[1E,2E,4:|[2E,2F,4||
+S:https://www.folktunefinder.com/tunes/62626
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

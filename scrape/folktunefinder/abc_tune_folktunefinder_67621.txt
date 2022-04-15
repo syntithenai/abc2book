@@ -1,0 +1,23 @@
+X: 8
+T:Mrs Casey
+% Nottingham Music Database
+P:A(ABB)4
+S:Ascot via Coventry MM
+M:6/8
+K:D
+P:A
+"Bm"f2e d2B|BdB A2A|Bcd c2B|g3 f2e|d2B BdB|A2F A2A|Bcd e2f|d3 d3||
+P:B
+"D"d2e f2g|"D"aba "A7"a2f|"D"d2e f2g|"D7"a3 f2a|"G"b2a a2f|"G"g2g f3|
+efe e2f|g3 f2e|d2B BdB|A2F A2A|Bcd e2f|d3 d3||
+S:https://www.folktunefinder.com/tunes/67621
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

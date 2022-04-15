@@ -1,0 +1,26 @@
+X: 1
+T: Valse des cerfs-volants
+T: Waltz of the kites
+C: Mario Loiselle
+O: Qu\'ebec
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> from Pascal Gemme's blog 
+M: 3/4
+L: 1/8
+K: G
+[| B3  c BG | A2 F2 G2 | E2 G2 d2 | F2 d2 e2 \
+|  B3  c BG | E2 F2 G2 | E2 F2 G2 | E2 d2 c2 | c2 B3 F |
+|  B2 Bc BG | A2 F2 G2 | E2 G2 d2 | F2 d2 e2 \
+|  B2 Bc BG | E2 F2 G2 | E2 F2 G2 | E2 d2 c2 | c2 B3 F ||
+|: EF GE BG | e2 d3  e | eB G3  d | dF F3  G \
+|  EF GE BG | e2 d3  e | ef g3  B | BA E3  B | BA F2 FG :|
+S:https://www.folktunefinder.com/tunes/20303
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Valse_des_cerfs-volants_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/Valse_des_cerfs-volants_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/waltz/Valse_des_cerfs-volants_G.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

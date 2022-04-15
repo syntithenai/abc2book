@@ -1,0 +1,32 @@
+X:1526
+T:Devil take the hindmost
+O:england
+L:1/8
+M:6/8
+C:Laurie Griffiths and Judith Beton
+K:A
+efg |\
+"A"a3 a3 | "A"agf edc |\
+"E7"Bcd cBA | "E7"Bc\
+d efg | "A"a3 a3 |\
+"A"agf edc | "E7"Bcd dcB \
+|1 "A"A3 :|2 "A"A6 |
+"E"Bcd dcB | "A"cde edc |\
+"E"Bcd dcB | "A"cde e3 |\
+"D"fga agf | "A"edc Bcd |\
+"E7"efe dcB | "A"A6 |
+"Bm"Bcd dcB | "C#m"cde edc |\
+"D"Bcd dcB | "E"cde "E7"efg |\
+"A"a3 a3 | "A"agf edc |\
+"E7"Bcd efg | "A"a3 ||
+S:https://www.folktunefinder.com/tunes/21975
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

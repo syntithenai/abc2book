@@ -1,0 +1,26 @@
+X:1
+T:Kit O'Connor
+S:irtrad-l 2001-4-24
+C:Reel
+H:Connie Connel
+H:'Normally' an A tune (Tommy Peoples esp.)
+M:4/4
+K:G
+D3E GABG | dGBG AGEG | D3E GABA | GE~E2 cEGE | {G}EDB,D G,2B,D |\
+~B3B AGEG | D3E GABd |1 {e}dBAd BGG2 :|2 {e}dBAd BGGd |:\
+{e}d2BG DGBG | DGBG AEE2 | dB~B2 gB~B2 | c2Bc ABce | dB~B2 gB~B2 | c2Bc
+ABce|\
+~g3g eg{a}ge | dBGB AGEG :|
+S:https://www.folktunefinder.com/tunes/17496
+S:http://trillian.mit.edu/~jc/music/abc/reel/KitOConnor.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KitOConnor.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KitOConnor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

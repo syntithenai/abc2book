@@ -1,0 +1,28 @@
+X:52
+T: Die schoene Magdalene
+N: A0054
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie: Schmeltzel 1544 Quodlibet No. 19, dritte und vierte Zeile
+N: von Boehme ergaenzt. (Vgl.A0065 und A0066, diese Angabe kann nicht
+N: stimmen!)
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/4
+K: F
+F2 | c4c2c4c2 | d6d4
+f2 | e4d2c4B2 | A6-A4
+A2 | c4B2A4G2 | F6D4
+FF | G4B2A4G2 | F6-F4
+S:https://www.folktunefinder.com/tunes/68598
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

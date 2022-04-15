@@ -1,0 +1,37 @@
+X: 1
+T: Skudrinka
+O: Macedonia
+S: Atanas Kolarovski
+Z: John Chambers <jc@trillian.mit.edu>
+W: The recording has an 8-bar solo after part C
+M: 2/4
+L: 1/16
+K: A
+"A"\
+|: "A"E2AA A2E2 | "A"A4 "E7"B4 \
+| "A"c2cd c3B | "A"ABcd e4 |
+| "D"z2ef fefe | "A"efed c3A \
+| "E7"BEcE dece | "E7"B3A "A"A4 :|
+"B"\
+|: "D"z2ef f2f2 | "D"f3e f3e \
+| "D"agab agfe | "A"efed c2c2 |
+| "D"z2ef fefe | "A"efed c3A \
+| "E7"BEcE dece | "E7"B3A "A"A4 :|
+"C"\
+|: "D"z2ef fefe | "A"efed c3A \
+| "E7"BEcE dece | "E7"B3A "A"ABcd |
+| "D"z2ef fefe | "A"efed c3A \
+| "E7"BEcE dece | "E7"B3A "A"A4 :|
+P:Rhythm:
+| E2AA A2A2 | E4 A4 |
+S:https://www.folktunefinder.com/tunes/6063
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Skudrinka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Skudrinka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Skudrinka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

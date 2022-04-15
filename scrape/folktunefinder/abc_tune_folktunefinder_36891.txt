@@ -1,0 +1,25 @@
+X:4060
+T:Old Maids of Galway
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000093f.html
+%%ID:0000093f
+K:G
+eB {c}(3BAB e2dB | A2GA Bdgf | \
+(3efg df e2dc | (3ABA GA BG G2 :: \
+g2fg egde | (3gfg bg eaa2 |
+g2fg egdB | (3ABA GA BGG2 |\
+g2fg egde | (3gfg bg eaa2 |\
+bgag {a}gfdB | (3ABA GA BGG2 :|
+S:https://www.folktunefinder.com/tunes/36891
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

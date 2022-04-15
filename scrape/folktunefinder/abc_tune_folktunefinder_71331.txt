@@ -1,0 +1,24 @@
+X:302
+%%topmargin 3cm
+T:Mrs. Campbell of Lochnell
+C:Robt. Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+G | {/B}c2 (Gc) ECGE | {/B}c2 ec dDDB | [1{/B}c2 (AF) EGCE | FDG,G ECC :| [2 {/B}c2 (Ac) GcEc | defd ecc  ||
+|: G | EC(EG) AF(Ac) | ECFE DG,G,F | [1 EC(EG) AFAc | BdGf ecc :| [2 EGFA G_BAc | Bagf ecc |]
+S:https://www.folktunefinder.com/tunes/71331
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Campbell_of_Lochnell.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0302.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:The Fairy Queen
+S:Ethan Hack <Ethan.Hack@NCL.AC.UK> irtrad-l 2001-01-19
+R:reel, hornpipe
+B:Matt Cranitch's Irish Fiddle Book
+M:C
+L:1/8
+K:D
+A2 \
+| d2ec d2AG | FDFA dAFA | G2BG E2ef | gece dcBA \
+| d2ec d2AG | FDFA dAFA | G2BG E2ef |gece d2 :|
+|: A2 \
+| df(3fgf gece | da^ga ba^ga | fdAF G2ef | ge(3efe ge(3efe \
+| df(3fgf gfga | ba^ga ba^ga | fdAF G2ef | gece d2 :|
+S:https://www.folktunefinder.com/tunes/13541
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/FairyQueen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/FairyQueen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/FairyQueen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FairyQueen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/FairyQueen_D.abc
+% Rhythm Reel, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

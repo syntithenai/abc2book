@@ -1,0 +1,25 @@
+X:206
+T:The Car Park Jig
+C:Gordon Mooney
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:D
+Gd |: f3 fdd | GBB Bcd | cde Ace | f2a gfe | 
+f3 fdd | GBB Bcd | cde Ace | fdd d2A/d/ ::
+fdd add | fdd add | cde Ace | f2a gfe |
+fdd add | fdd add | cde Ace | fdd d2A/d/ ::
+f3 fed | B3 Bcd | c3 cde | f2a gfe | 
+f3 fed | B3 Bcd | cde Ace | fdd d2A/d/ ::
+faa Agg | Aff Aee | cde Ace | f2a gfe | 
+faa Agg | Aff Aee | cde Ace | fdd d2z :|
+S:https://www.folktunefinder.com/tunes/53863
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:2
+T:Doudlebska polka
+O:Tjechie
+M:2/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+P:Intro
+G,G,/G,/ G,G,/C/ |EE/E/ EC/E/ |GG,/G,/ A,_B, |B,4||
+P:A polka
+"C" GG E2 |AA G2 |GG FE |"G" F4 |\
+BB A2 |BB A2 |"C" Gc BA |"G7" GE F^F |
+"C" GG E2 |AA G2 |GG FE |"G" F4 |\
+BB A2 |"G7" BB A2 |GG AB |"C" cG/G/ "G7" GG |]
+"C" E2 G2 |c2 GE |"G7" F2 G2 |B4 |\
+F2 G2 |B2 AF |"C" E2 G2 |cB AG |
+"C" E2 G2 |c2 GE |"G7" F2 G2 |B4 |\
+F2 G2 |B2 AB |"C" cc/c/ cc |c3 "G7" G||
+P:B Klappen
+"C" .E/.E/ .E/.E/E G|.c .c.c G|"G7" F/F/ F/F/F G|.B .B.B G|
+F/F/ F/F/F G|.B .B.A G|"C" E/E/ E/E/E G|.c .B.A .G|
+E/E/ E/E/E G|.c .c.c G|"G7" F/F/ F/F/F G|.B .B.B G|
+F/F/ F/F/F G|.B .B.A B|"C" c c/c/c c|c4 |]
+S:https://www.folktunefinder.com/tunes/45740
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

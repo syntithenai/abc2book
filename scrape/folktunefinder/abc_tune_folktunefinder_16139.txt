@@ -1,0 +1,23 @@
+X: 1
+T: Kuuliaiset Kottilassa
+R: polka, shottish
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| "D"D2FF F2A2 | A2d2 d4 | ffdd e2d2 | "G"c2B2 B4 \
+| "Em"BGEG BGEG | B2B2 B2BB | "A7"c2AA cBAG | "D"F2D2 D4 |
+| "D"D2FF F2A2 | A2d2 d2ee | f2dd e2d2 | "G"c2B2 B4 \
+|: "Em(G)"B2gg ffee | "D"ddff eedd | "A7"c2AA B2cc |1 "D"d2"A"e2 "D"f4 :|2 "D"d2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16139
+S:http://trillian.mit.edu/~jc/music/abc/polka/KuuliaisetKottilassa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/KuuliaisetKottilassa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/KuuliaisetKottilassa_D.abc
+% Rhythm Polka, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

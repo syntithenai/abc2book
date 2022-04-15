@@ -1,0 +1,26 @@
+X:44
+T:Ca' Hawkie Through the Water
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:G Minor
+P:Chorus
+B2  B d|c2  c e|                              \
+                 B2   B  d|(c/B/) (A/G/) F A |
+B B B d|c2  c                                 \
+              e| d g  g ^f| g      G     G G|]
+P:Verse
+f d d B|c d e2 |                              \
+                 f d  d  B| c      A     A F |
+f d d B|c d e                                 \
+              e|(d`g) g ^f| g      G     G G||
+S:https://www.folktunefinder.com/tunes/75607
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

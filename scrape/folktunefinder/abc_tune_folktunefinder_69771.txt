@@ -1,0 +1,29 @@
+X:211
+T: WER GLEICHET UNS TURNERN
+N: F0359
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Turner - Lied
+M: 3/8
+L: 1/16
+K: F
+C2 | F3EF2 | G3FG2 | A2F2z2 | z4
+FG | A4A2 | B3AB2 | c3dcB | A4
+C2 | F3EF2 | G3FG2 | A2F2z2 | z4
+FG | A4A2 | B3AB2 | c3dcB | A4
+FA | c2c2c2 | A3GA2 | B2B2B2 | G3F
+G2 | A2A2G2 | A4cB | A2A2G2 | F4
+FA | c2c2c2 | A3GA2 | B2B2B2 | G3F
+G2 | A2A2G2 | A4cB | A2A2G2 | F4
+S:https://www.folktunefinder.com/tunes/69771
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, turner - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

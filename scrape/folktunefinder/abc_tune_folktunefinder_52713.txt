@@ -1,0 +1,27 @@
+X: 10
+T:Young May Moon,The. HS.10
+M:6/8
+Q:120
+C:"Set of Quadrilles,No4"
+S:Henry Stables MS,Cumbria,late19thC
+R:Quadrille
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+A|d2Ad2A|B2A ABc|d2d ede|f2d def|!
+g2gf2f|efd cBA|BAG FGA|B2AA2::!
+f/g/|a2b afe|b2ba3|b2b afd|f2ee2a|!
+b2b a2g|fed cBA|BAG FGA|B2AA2:||
+S:https://www.folktunefinder.com/tunes/52713
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

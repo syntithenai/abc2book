@@ -1,0 +1,29 @@
+X:37
+T:Tria sufficiunt ad magisterium, fumus albus, hoc est, aqua, leo viridis, id est, aes Hermetis, et aqua foetida
+T:Three things suffice for the mastery: white smoke, that is, water, the green lion, that is, the ore of Hermes, and foetid water
+T:Fuga XXXVII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 73      % Golden Apple
+V:2 program 1 71      % Hippomenes
+V:3 program 1 71 bass % Atalanta
+M:none
+L:1/4
+Q:1/2=120
+K:G dorian
+[V:1] d4      d2  d2  c4      d2  d2 c4     B4       c4       d2  d2 B4      c2  c2 |
+[V:2] z4      GA  B2  G2 c B  AG  F2 z2 c2  F2  BA   GF  E2   AG  F2 B3   A  GF  E2 |
+[V:3] z2 G,A, B,2 G,2 CB,A,G, F,2 z2 C2 F,2 B,A,G,F, E,2 A,G, F,2 B,3 A,G,F, E,2 A,2|
+%
+[V:1] d2   d2   A4      G2  G2   A4      c2  c2   B4     A4       B2   B2   A4      G2 G2 G8 |]
+[V:2] A2   D E  F G  AB c3    B  A G  FG A3    G  FE D3    E F E  D  C B,C  DE  F2  D4    D8 |]
+[V:3] D,E, F,G, A,B, C3  B, A,G, F,G, A,3 G, F,E, D,3 E, F,E,D,C, B,,C,D,E, F,2 D,2 G,4   G,8|]
+S:https://www.folktunefinder.com/tunes/77575
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

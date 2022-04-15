@@ -1,0 +1,28 @@
+X: 1
+T: Quadreglia Napoletana
+T: Neapolitan Quadrille
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig, tarantella
+M: 6/8
+L: 1/8
+K: A
+P: Intro
+| "D"d3 f3 | "A"e3 a2a | "E7"gfe dcB | "A"A2z z3 | z2 ||
+|: c cd^d | "A"e2c cBA | e2c cBA |1 "E7"G2G F2F | "A"E2 :|2 "E7"GFE DCB, | "A"A,2 ||
+|: z aba | "E7"g2g f2f | "A"e2z aba | "E7"gag fgf | "A"e2
+c cd^d | "A"e2c cBA | e2c cBA | "E7"GFE DCB, | "A"A,2 :|
+|: F FG^G | "D"A2F FG^G | A2F ded | "A7"cdc BcB | "D"A2
+F FG^G | "D"A2F FG^G | A2F ded | "A7"cBA GFE | "D"D2 :|
+S:https://www.folktunefinder.com/tunes/5951
+S:http://trillian.mit.edu/~jc/music/abc/Intl/QuadregliaNapoletana.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/QuadregliaNapoletana.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/tarantella/QuadregliaNapoletana_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/QuadregliaNapoletana.abc
+% Rhythm Jig, tarantella
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

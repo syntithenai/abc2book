@@ -1,0 +1,25 @@
+X:203
+T: Ostergesang
+N: A0554B
+O: Europa, Mitteleuropa, Deutschland
+N: Coelner Gsgb 1526 S. 204
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/1
+L: 1/2
+K: F
+f2 | f4f2 | e4e2 | f4d2 | c4
+c2 | d3ef2 | e4d2 | c4B2 | A4
+G2 | A4B2 | c4B2 | A2G4 | F4
+B2 | A2G3F | F4E2 | F4
+S:https://www.folktunefinder.com/tunes/80262
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

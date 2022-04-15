@@ -1,0 +1,36 @@
+X:269
+T:Danza (CT 287)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Uviu.
+N:Todas las coplas que se cantaban en esta danza estaban dedicadas a zaherir a un molinero y a una molinera, cuyas personas no eran declaradas en ninguna de las cuartetas.
+N:Se supone a la molinera con amores ilcitos, de los cuales ambos sacan partido provechoso para su vida holgada y su lujo en el vestir.
+N:Intervienen en esta danza personas de ambos seos.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 287
+M:6/8
+L:1/8
+Q:3/8=88
+K:G
+"Solo"ddc|:B2c d2e|c2c ccB|A2B c2d|B6-|B2z "Coro"BBA|
+G2A B2c|A2A AAG|F2G A2B|G6-|[1 G2z ddc:|[2 G2z||
+W:La molinera trai corales
+W:y el molineru corbatn;
+W:d'nde saquen tantu luxu
+W:si nun lu saquen del moln
+W:
+S:https://www.folktunefinder.com/tunes/59156
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Boring the Leather
+O: Early New England
+B: NEFR
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: GEE GAB | dBB cBA | GEE GAB | dBG A2B \
+|  GEE GAB | dBG ABd | gfg e{f}ge | dBG A2G :|
+|: dBB gfg | dBB d2g | dBb gfg | dBG A2B \
+|  dBB geg | aga b2a | gfg ege | dBG A2B :|
+S:https://www.folktunefinder.com/tunes/13926
+S:http://trillian.mit.edu/~jc/music/abc/jig/BoringTheLeather.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BoringTheLeather.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

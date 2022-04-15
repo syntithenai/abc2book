@@ -1,0 +1,39 @@
+X:2
+T:Salve Regina
+T:per soprano con accomp. di quartetto d'archi
+C:G.B. Pergolesi
+M:C
+L:1/8
+%%header "Salve Regina$P / 16"
+%%newpage 1
+%%staves {1 2 3 4}
+K:Cm
+V:1 dyn=down name="No 1"
+Q:"Largo"
+!p!c6=B2|e4(d3/e//f// e)d|(e/d/c3)_d4-|
+V:2 dyn=down
+z4d4-'|d2c4=B2|zgecz4|
+V:3
+zCEC FDGG,|C2zG,A,2G,2-|G,4z4|
+V:4
+z8|zC,E,C, F,D,G,G,,|C,4-C,B,G,F,|
+V:1
+d_d'c'ba4-|aagfe4-|edfag4-|gfac' (=b3/c'//d'// c')c|
+V:2
+g4-gf=dc|=B2d2-dceg|f4-f!cresc!ec'b|a4-ag-gf|
+V:3 dyn=up
+z2C4F2-|F2=B,2C4|D4E4|F4GDEA,|
+V:4 dyn=up
+=E,4F,4|G,8-|G,8-|G,4-G,F,E,F,|
+%%staves s | {1 2 3 4}
+V:s dyn=up
+z8|z8|z8"^SOPRANO"|z4!p!c4-|
+S:https://www.folktunefinder.com/tunes/45738
+S:http://moinejf.free.fr/abc/salve.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:17622
+T:Ton simple gavotte
+%T:TS2
+R:Gavotte des montagnes
+C:Traditionnel
+D:Penno Skoulm
+Q:C3=156
+P:B4
+M:12/8
+K:C
+P:B
+"Am"A2 e "C"e2 c "Dm"d2 e "F"f3|"G"eee "Dm"d2 d "F"c3 "Am"c3::\
+"Am"A2 B "C"c2 d "D"e2 c "F"A3|c2 c "G"BAG "D"A3 "Am"A3:|
+\bigskip
+S:https://www.folktunefinder.com/tunes/38993
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Gavotte des montagnes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

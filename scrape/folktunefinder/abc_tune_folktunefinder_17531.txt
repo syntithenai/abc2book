@@ -1,0 +1,32 @@
+X: 1
+T: da Laird o' Gulberwick
+O: Shetland
+R: reel
+D: Boys of the Lough
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"BGFG DGFG | B,DGA B2AB | "C"cBcd edcB | "D7"AGFE D2dc |
+| "G"BGFG DGFG | B,DGA B2AB | "C"cBAG "D7"FedA | "G"B2G2 G2 :|
+|| Bc \
+| "G"dBgB "C"cAae | "D7"fdef "G"g2G2 | "C"cBcd edcB | "D7"AGFE D2Bc |
+| "G"dBgB "C"cAae | "D7"fdef "G"g2B2 | "C"cBce "D7"dgfa | "G"g2G2 G2 ||
+|| Bc \
+| "G"dBgB "C"cAae | "D7"fdef "G"g2G2 | "C"cBcd edcB | "D7"AGFE D2dc |
+| "G"BGFG DGFG | B,DGA B2AB | "C"cBAG "D7"FedA | "G"B2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/17531
+S:http://trillian.mit.edu/~jc/music/abc/reel/LairdOGulberwick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/LairdOGulberwick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LairdOGulberwick.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

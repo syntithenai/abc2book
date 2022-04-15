@@ -1,0 +1,28 @@
+X: 1
+T: Taladh
+R: jig
+O:
+B: Kerr's 3rd, p.407 #290; Pinewoods Collection
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: C
+G \
+|: cec A2c | GAG G2A | GAG GAc | e2g fed \
+|  cec A2c | GAG G2A | G2f efd | c3 cz2 :|
+G \
+|: c2e g2e | f2d gec | cde f2d | e2c edA \
+|  c2e g2e | f2d gec | ede GAG | e2g fed :|
+S:https://www.folktunefinder.com/tunes/15137
+S:http://trillian.mit.edu/~jc/music/abc/jig/TaladhJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TaladhJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

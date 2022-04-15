@@ -1,0 +1,41 @@
+X: 4
+P: Villiruusu (The Wild Rose) (Inarin J\"arvi (Lake Inari))
+R: waltz
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+|: A | "Dm"d2d | "A7"e2f | "Dm"d3 | A2d | "Gm"e2f | g2f | "A7"e3- | e2a || "Dm"a2f | d2f | "Gm"f3 |
+| "Gm"G2B | "A7"A2A | e2^c | "Dm"d3- | d2 :: a | "A7"a2g | "Dm"f2f | "Gm"g2f | "A7"e2e | "Dm"f2e |
+| "Dm"d2d | "A7"e2^c | A2A || "Dm"d2d | f2d | "Gm"d3 | G2B | "A7"A2A | Ae^c | "Dm"d3- | d2 :|
+S:https://www.folktunefinder.com/tunes/211
+S:http://trillian.mit.edu/~jc/music/abc/Contra/Vals01.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NEFFA_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NEFFA_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Vals.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Vals.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_Scand01
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

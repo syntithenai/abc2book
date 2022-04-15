@@ -1,0 +1,45 @@
+X: 1
+P: My Love is But a Lassie Yet
+O: Trad
+R: reel, march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: dc \
+| "D"d2D2 F2A2 | d2D2 D2dc | d2D2 F2A2 | "Em"e2E2 "A7"E2dc |
+| "D"d2D2 F2A2 | "G"B2g2 "A7"f2e2 | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+|: fg \
+| "D"a3f "A7"g3e | "D"f2d2 d2fg | a2f2 gfga | "Em"b2e2 "A7"e2fg |
+| "D"a2af "A7"g2ge | "D"f2fd "A7"e2ec | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+%
+W: Chorus
+W: My love, she's but a lassie yet,
+W: My love, she's but a lassie yet!
+W: We'll let her stand a year or twa,
+W: She'll no be half sae saucy yet!
+W: 1.
+W: I rue the day I sought her, O!
+W: I rue the day I sought her, O!
+W: Wha gets her need na say he's woo'd,
+W: But he may say he has bought her, O.
+W: 2.
+W: Come draw a drap o' the best o't yet,
+W: Come draw a drap o' the best o't yet!
+W: Gae seek for pleasure whare ye will,
+W: But here I never missed it yet.
+W: 3.
+W: We're a' dry wi' drinkin o't,
+W: We're a' dry wi' drinkin o't!
+W: The minister kiss't the fiddler's wife -
+W: He could na preach for thinkin o't!
+S:https://www.folktunefinder.com/tunes/4016
+S:http://trillian.mit.edu/~jc/music/abc/England/RG_Octomystic.abc
+% Rhythm Reel, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

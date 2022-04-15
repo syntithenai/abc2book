@@ -1,0 +1,47 @@
+X:772
+T:Xiraldilla (CT 105)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Esta cancin lleg a alcanzar gran popularidad, no slo en Asturies, sino tambin en Espaa.
+N:La hemos odo cantar, con mayor o menor exactitud en relacin con la transcrita, en Llen, Valladolid, Madrid y Sevilla.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 105
+M:2/4
+L:1/8
+Q:1/4=152
+K:G
+|B3 c|dB cA|G2 z2|
+B3 c|de d^c|dc BA|dc BA|G2 z2|
+B3 c|de d^c|d2 d2|d3 e|fe fe|(d2 {e}dc)|
+B3 c|de d^c|d2 d2|d3 e|fe fe|(d2 {e}dc)|
+B3 c|de d^c|dc BA|dc BA|G4|
+B3 c|de d^c|dc BA|dc BA|G4||
+W:En Santo Domingo entr
+W:y por Pedro Crespo Calvo,
+W:carpintero pregunt.
+W:Y me dixo una seora,
+W:qu Pedro pregunta ust:
+W:pel d'arriba, pel d'abaxu,
+W:o per el del arrabal
+W:Hai tres Pedros Crespos Calvos
+W:carpinteros nel llugar;
+W:hai tres Pedros Crespos Calvos
+W:que nun quieren trabayar.
+W:
+S:https://www.folktunefinder.com/tunes/59659
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

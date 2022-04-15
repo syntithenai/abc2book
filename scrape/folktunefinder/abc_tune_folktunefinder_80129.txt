@@ -1,0 +1,26 @@
+X:70
+T: Der Schwartenhals
+N: A0421A
+O: Europa, Mitteleuropa, Deutschland
+N: Forster, Frische Liedlein III 1549 No. 29.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/8
+K: G
+G2 | _B4B4 | c4c4 | d4d4 | d4z2
+e2 | =f6e2 | d4c4 | _B2AGA4 | G4z2
+G2 | A4d4 | d2c2_B2A2 | G6=FE | D4z2
+_B2 | =f6_e2 | d4c4 | _B2AGA4 | G6
+S:https://www.folktunefinder.com/tunes/80129
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

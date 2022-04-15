@@ -1,0 +1,26 @@
+X:49
+T: Well der wesse wie mer sein, S. 13
+N: L0010
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+N: 16tel in Takt fnf original als Vorhalte notiert
+R: Kinderlied]
+M: 2/4
+L: 1/16
+K: F
+ | F2F2c2c2 | A2G2F4
+G2G2c2c2 | B2A2G2A2 | F2A2AGAG | F4z4
+F4C4 | F2G2A2B2 | c4z4
+B2A2G2A2 | G2G2F4 | G4F4
+S:https://www.folktunefinder.com/tunes/70179
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Kinderlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: the Galway Hornpipe
+O: Trad
+R: hornpipe, reel
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF G2FE | "D"D2FA dcdf | "E7"edcB "A7"AGFE |
+| "D"D2FA dAFD | "A7"CDEF G2FG | "D"AdcB "A7"AGFE | "D"D2F2 D2 ||
+|| de \
+| "D"fefg fedc | "Em"B^ABc B2cd | "E7"e^def e=dcB | "A"~A2ce aABc |
+| "D"dcde fdAF | "Em"GFGA BdcB | "D"AdcB "A7"Agec | "D"d2f2 d2 |]
+S:https://www.folktunefinder.com/tunes/13550
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/GalwayH.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/GalwayH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/GalwayH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GalwayH.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/hornpipe/GalwayH.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/GalwayH.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

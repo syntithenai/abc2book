@@ -1,0 +1,24 @@
+X: 1
+T: the Haughs of Cromdale
+R: strathspey
+M: 4/4
+L: 1/8
+K: Edorian
+e \
+| "Em"B<E E>F "Bm"B>A F<A | "Em"B<E EF/E/ "D"D>E F<A \
+| "Em"B<E E>F "Bm"B>A F<A | "G"B>d "D"B/A/G/F/ "Em"E3 :|
+|: F \
+| "D"D<d d>e d/c/B/A/ d2 | F<A A>B B/A/G/F/ A2 \
+| "Em"B<e e>f "C"g>f e>d | "G"B>d "D"B/A/G/F/ "Em"E3 :|
+S:https://www.folktunefinder.com/tunes/19389
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HaughsOfCromdaleS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HaughsOfCromdaleS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

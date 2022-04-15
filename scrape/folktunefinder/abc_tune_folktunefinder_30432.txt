@@ -1,0 +1,26 @@
+X:615
+T:Blow Zabella
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000143.html
+%%ID:00000143
+K:G
+d2c BAG| c2A B2G| d2c BAG| A2D G3::
+g2d BGB| cAc BAG| g2d BGB|1 ADF G3 :|2 ADF G2|:
+G/A/|\
+BAB cBc| d3 d2c| BcB ABA|1 G3 G2 :|2 G3 G3|:
+g2G g2G| ABA B2G| g2G g2G|1 ABA G3:|2 ABA G2|:
+G/A/|\
+BAB cBc| d3 d2c| BcB ABA| G3 G2:|
+S:https://www.folktunefinder.com/tunes/30432
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Mackilmoyle's Reel (v.1)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Also played with the bar lines shifted by half a bar.
+M: C|
+L: 1/8
+K: D
+|: "(D)"DF Ad \
+| "D"fd fd "A7"cd ec | "D"dB AF "D7"DF A=c | "G"BG BG "D"FG AF | "A7"E4 "(D)"DF Ad |
+| "D"fd fd "A7"cd ec | "D"dB AF "D7"DF A=c | "G"BG Bd "A7"cd ec | "D"d4 :|
+|: "(A)"cd ef \
+| "A7"gf ge Ac e^g | "D"a^gaf e^def | "A7"gfge "E7"dfed | "A7"cBA2 Acef |
+| "A7"gf ge Ac e^g | "D"a^gaf e^def | "G"gfge "A7"cdec | "D"d4 :|
+S:https://www.folktunefinder.com/tunes/17597
+S:http://trillian.mit.edu/~jc/music/abc/reel/MackilmoyleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MackilmoyleR1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MackilmoyleR1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MackilmoyleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MackilmoyleR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/MackilmoyleR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

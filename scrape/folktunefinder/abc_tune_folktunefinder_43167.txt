@@ -1,0 +1,24 @@
+X:3207
+T:War's alarms entic'd my Willy
+O:ireland
+M:C
+H:Yes, the penultimate bar seems to have only 3 beats.
+K:G
+"Affectuoso"\
+d2Be A3c| BGEA GFED| \
+G2G2G>AB>c| {Bc}d2cB {B}A4|\
+d2Be A3c| BGEA GFED|
+G2G2G>AB>c| B2A2 G4||\
+e2e^d eBcB| c2cB BAGE| c2F2B2e2| BAGF E3F|
+G2G2 e3d| {d}c>B {B}A>G {G}F>D |d2Be A3{AB}c| B2A2 G4|]
+S:https://www.folktunefinder.com/tunes/43167
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

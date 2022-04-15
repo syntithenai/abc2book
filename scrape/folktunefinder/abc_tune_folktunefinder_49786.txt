@@ -1,0 +1,30 @@
+X: 231
+T:Waltz. CJF.231
+M:3/4
+L:1/8
+Q:120
+C:"by Herz"
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the title line is "by Herz". - PJH.
+Z:vmp.P J Headford 2000
+K:G
+"p"DC|(B,DEDGA|GBce)d2|(Fca).D.C.D|(B,Gd).B.G.D|!
+(B,DEDGA|GBce)d2|(Fca).d.e.f|g2z2:|!
+|:"mf"(gf)|(eg) A (age)|(df) .A (agf)|(eg) .A (age)|(b2a^g=gf)|!
+(eg) .A (age)|(df) .A (afd)|(^cegba>c)|(d=cA" D.C."FDC)|]
+S:https://www.folktunefinder.com/tunes/49786
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

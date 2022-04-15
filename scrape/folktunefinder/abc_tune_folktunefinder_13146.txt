@@ -1,0 +1,36 @@
+X:1
+T:A Bright Star in Cepheus
+C:Phil Cunningham
+S:Dan Mozell <dan:danmozell.com> scots_music 2008-1-225
+D:CD - Road not travelled - Aly Bain and Phil Cunningham
+D:Online video - (http://www.youtube.com/watchv=4nLQynIJp7Q)
+M:C
+L:1/8
+K:D
+N:Written by Phil Cunningham for his brother, the late Johnny Cunningham
+|: B2A2 \
+| "D"A3F Ad3 | "A/C#"e4 d2c2 | "G/B"d4 G3F | "A"DE3 FG3 \
+| "D"A3F Ad3 | "A/C#"e4 f2g2 | "A7"f2e2 dc3 | "Bm"d4 "G"B3A |
+| "D"AF3 Ad3 | "A/C#"e4 d2c2 | "G/B"d4 G3F | "A"EB3 "A7"A3G \
+| "Bm"FD3 "G"GE3 | "Asus4"A3d "A"dc3 |1 "Bm"d8- | "G"d4 :|[2 "D"d8- | d4 ||
+|: "A7"g4 \
+| "Bm"f3e d3F | "Em"G4 e4 | "A"e4 G3F | "D"A6 g2 \
+| "Bm"f4 d3F | "Em"G4 e4 | "A"e8- | "A7"e6 g2 |
+| "Bm"f4 d2F2 | "Em"G4 e2d2 | "A"c2d2 A2G2 | "Bm"F4 "G"D2E2 \
+| "D"FD3 "G"GE3 |"A"A3d "A7"d2c2 | "D"d8- | d4 :|
+S:https://www.folktunefinder.com/tunes/13146
+S:http://trillian.mit.edu/~jc/music/abc/air/BrightStarInCepheus_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/Bright_Star_in_Cepheus_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bright_Star_in_Cepheus_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BrightStarInCepheus_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Bright_Star_in_Cepheus_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Bright_Star_in_Cepheus_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:308
+T: WACH AUF MEIN HORT VERNIMM MEIN WORT
+N: Z0306
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, Tage - Lied
+M: 6/8
+L: 1/8
+K: G
+D | G2Bd2D | G2Bd2
+B | GB2d2B | A3A2
+d | d2de2d | c2cd2
+c | B2Gc2B | A3D2
+d | d2de2d | c2Ad2
+c | B2Gc2B | A2GA2F | G3G2
+S:https://www.folktunefinder.com/tunes/69167
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, tage - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

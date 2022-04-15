@@ -1,0 +1,26 @@
+X:086
+%%topmargin 3cm
+T:Foot It Feathy
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+g | a2 AB cdef | =g2 d=c BGG>g | a2 AB cdef | gfed cAA>e :| cAeA aAef | =g2 d=c BGGB |
+cAeA aAef | gfed cAAe | cAeA aAef | =g2 d=c BGGB | AcBd ceef | eagb aA A2 |]
+W:I am indebted to Miss L. Duff Stuart for this excellent old tune.
+S:https://www.folktunefinder.com/tunes/71116
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Foot_It_Feathy.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0086.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Campbell's Farewell to Redcastle
+R: march
+M: 4/4
+L: 1/4
+N: There is a third part that is not always used.
+N: Scots Guard
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+K: AMix
+e "A"| "A"A>B cd | ea e>d | cA AB/c/ |"G"dd/B/ GB |  "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A2 A :|
+g/f/ "B1"| "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ Gg/f/ |  "A"ea ag/f/ | ea e>d | "G"cB/A/ GB | "A"A2 A ||
+g/f/ "B2"| "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ GB |  "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A2 A |]
+S:https://www.folktunefinder.com/tunes/15376
+S:http://trillian.mit.edu/~jc/music/abc/march/CampbellsFarewellToRedcastle_A_AABB.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/CampbellsFarewellToRedcastle_A_AABB.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/CampbellsFarewellToRedcastle_A_AABB.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

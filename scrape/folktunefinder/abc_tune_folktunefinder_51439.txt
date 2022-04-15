@@ -1,0 +1,22 @@
+X:12
+T:After the Battle of Aughrim
+M:4/4
+L:1/8
+K:ADorian
+"A Dorian" AG |: "Am"E2 A2 ABcd|e2 d2 c2 A2|"G"{Bc}B2 G2 {A}GFGA|BGAG E2 D2|
+"Am"E2 A2 A2 ((3Bcd)|e2 ed e2 ag|"G"e2 d2 BedB|1 "Am" A4 A2 AG:|2 "Am" A6 e2||
+|:"Am"a2 ag e2 ((3efg)|abag e2 ((3efg)|a2 {b}af "Em"g2 {a}ge|"G"dedB G4|
+"Am"abag e2 ((3efg)|abag e2 d2|"Em"B2 e2 "G"d2 B2|1 "Am" A6 e2:|2 "Am"A6||
+S:https://www.folktunefinder.com/tunes/51439
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t12.abc
+S:http://www.arcelts.com/bbot1/t12.txt
+S:http://www.arcelts.com/bbot1/t12.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

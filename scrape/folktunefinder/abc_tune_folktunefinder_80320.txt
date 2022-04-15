@@ -1,0 +1,24 @@
+X:261
+T: St. Katharina
+N: A0617
+O: Europa, Mitteleuropa, Deutschland
+N: Corners Gsgb 1625 No. 289
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: G
+G | G2=F | _B2B | cdc | _B2
+G | G2=F | _B2B | cdc | _B2
+=f | =f2c | d2A | _B2A | G2
+S:https://www.folktunefinder.com/tunes/80320
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

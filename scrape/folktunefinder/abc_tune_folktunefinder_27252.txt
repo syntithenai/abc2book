@@ -1,0 +1,26 @@
+X:6800
+T:The Friendly Visit
+O:england
+S:FTB1 p5
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+BA|"G"(3GFGDG BGBd|"C"(3cBcAB "D7"cdef|"G"g2df "C"ecAG|"Am"FGAB "D7"cAFD|
+"G"(3GFGDG BGBd|"C"(3cBcAB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2:|
+P:B
+(3GBd|"G"g2dB GBdg|"Am"e2cA FGAg|"D"f2ed "A7"^cdeg|"D7"(3fgf(3efe dcBA|
+"G"(3GFGDG BGBd|"C"(3cBcAB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/27252
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

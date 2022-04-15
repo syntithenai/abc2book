@@ -1,0 +1,28 @@
+X: 1
+T: Largo Law
+R: strathspey
+B:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/16
+K: A
+c2 \
+| "A"Ac3 E3F A3B c2e2 | "D"fa3 "A"e3c "E7"~B4 B3c \
+| "A"Ac3 E3F "F#m"A3B c2e2 | "D"fefg "E7"a3c "A"~A4- A2 :|
+e2 \
+| "A"a3e f3c ~e4 a3e | "D"fa3 "A"{f}e3c "E7"~B4 B3g \
+| "A"a3e f3c ~e4 a3e | "D"fa3 "E7"e3c "A"~A4- A2 ||
+e2 \
+| "A"a3e f3c ~e4 a3e | "D"fa3 "A"{f}e3c "E7"~B4 B3c \
+| "A"Ac3 E3F "F#m"A2B2 c2e2 | "Bm"fefg "E7"a3c "A"~A4- A2 |]
+S:https://www.folktunefinder.com/tunes/19461
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LargoLawS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LargoLawS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

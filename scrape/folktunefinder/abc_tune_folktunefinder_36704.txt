@@ -1,0 +1,24 @@
+X:3125
+T:Lekken Hinnes Kokk-Sofia
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c78.html
+%%ID:00000c78
+K:A
+(3EFG A2 B2 | c2 d2 c2 | f>d c<d B>d | (3cAc (3BGB A2 |
+(3EFG A2 B2 | c2 d2 c2 | f>d c<d B>a | (3gfg a4::
+e>d c<e a>g | f>e d<c d>c | B>A G<A B>c | (2dBd (2cAc B2 |
+e>d c<e a>g | f>e d<c d>c | B>A G<A (2efg | a2 a4 :|
+S:https://www.folktunefinder.com/tunes/36704
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

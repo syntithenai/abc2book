@@ -1,0 +1,23 @@
+X:1
+T: hanter dro 01
+C: trad breton
+M: 6/4
+L: 1/4
+R: hanter dro
+F:http://www.boombaltunes.be/tunes/abc/ht_hanter_dro_01.abc 2008-12-09 21:27:08 UT
+K:Amin
+||e e/f/ ed c2|e d/c/ B d c A|e e/f/ ed c2|e d/c/ B d c A||
+|: A/G/ A/B/ c/B/ c/d/ e z|d>f a g/f/ e z|e/c/ d/e/ f e d c|B>d c B A2:|
+S:https://www.folktunefinder.com/tunes/2212
+S:http://www.boombaltunes.be/tunes/abc/ht_hanter_dro_01.abc
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Hanter dro
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

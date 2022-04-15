@@ -1,0 +1,24 @@
+X:199
+T: DES MORGENS ZWISCHEN DREI UND VIEREN
+N: E1340
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: G
+D4 | G3GG2A2B2B2c2c2 | B8A4
+A2B2 | c3cc2c2c2e2d2c2 | c8B4
+B4 | A4d4^c4A4 | d8z4
+c3B | A4A3Bc4c3e | d8z4
+G2A2 | B4B4A4A4 | G8z4
+S:https://www.folktunefinder.com/tunes/79303
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

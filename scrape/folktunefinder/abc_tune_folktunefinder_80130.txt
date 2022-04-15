@@ -1,0 +1,27 @@
+X:71
+T: Der Schwartenhals
+N: A0421B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. 1646 S. 1475.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/8
+K: G
+G2 | _B2B2c2c2 | d3dd4 | z2
+d2=f2e2 | d2c2_B2AG | A4G4 | z2
+G2A2d2 | d2c_BA2G2 | =F3ED4 | z2
+G2A2d2 | d2c_BA2G2 | =F3ED4 | z2
+A2_B2c2 | d2c2_B2AG | A4G2
+S:https://www.folktunefinder.com/tunes/80130
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

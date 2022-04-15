@@ -1,0 +1,36 @@
+X:0
+T:Heptatonic Modes on A
+L:1/4
+M:10/4
+K:ALyd
+"^Lydian"     A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:A
+"^Major"      A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:AMix
+"^Mixolydian" A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:ADor
+"^Dorian"     A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:AMin
+"^Minor"      A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:APhr
+"^Phrygian"   A2 Bc de fg a2|a2 gf ed cB A2|]
+S:https://www.folktunefinder.com/tunes/30044
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key F
+% Key A
+% Key D
+% Time_signature 10/4
+% Has_accompaniment_chords No chords

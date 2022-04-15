@@ -1,0 +1,24 @@
+X:32
+T: DRAUSSE IM GRUENE WALD
+N: E1027
+O: Europa, Mitteleuropa, Deutschland, Rheinpfalz, Kaiserslautern,
+R: Tanz - Lied
+M: 3/8
+L: 1/8
+K: F
+ | ccf | ddc
+BBA | GFz
+AAB | GGc
+AAB | G2F
+AAB | GGc
+AAB | GFz
+S:https://www.folktunefinder.com/tunes/79136
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

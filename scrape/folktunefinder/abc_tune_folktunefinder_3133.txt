@@ -1,0 +1,30 @@
+X: 2
+P: Bulgar: Henry Weinstein's
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19
+Z: John Chambers <jc@trillian.mit.edu>
+R: Bulgar
+K: Dm
+M: 2/4
+L: 1/8
+|: DFA \
+|| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"^G/=B/ A3- | AD FA |
+|| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"D4-        | D :|
+|: "C7"c[d=B][e_B] \
+|| "F"[fA][cA] [fA][ac]- | [ac][fA] [a2c] | [c'a][af] [c'a][af]- | [a4f] \
+| "C7"[g3e] [af] | [bg][c'/a][b/g] [af][ge] | "F"[^ge] [a3f]- | [af]c "C7"[d=B][e_B] |
+|| "F"[fA][cA] [fA][ac]- | [ac][fA] [a2c] | [c'a][af] [c'a][af]- | [a4f] \
+|  "C7"[c'3a] [af] | [c'/a][b/g][af] [b/g/][a/f/][ge] | "F"[f4f]- | f :|
+|: F"A7"E^C \
+|| "Dm"D4- | D[E^C] [FD][GE] | [A4F]- | [AF]F ED | "A7"^C2 E2 | B3 ^G | "Dm"A3 ^G | A/^G/F F/E/D |
+|| "Dm"D4- | D[E^C] "D7"[FD][^F=C] | "Gm"[G4B,] | [B2D] z2 | "Dm"AD EF | "A7"A/^G/F F/E/D | "Dm"D4- | D :|
+S:https://www.folktunefinder.com/tunes/3133
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Reel_KlezContra02_C.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

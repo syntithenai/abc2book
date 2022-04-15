@@ -1,0 +1,53 @@
+X:1
+T:Moments Notice
+C:John Coltrane
+M:4/4
+L:1/4
+%%staves (chords melody)
+K:Eb
+P:A
+V:chords
+"Em7"x2 "A7"x2 | "Fm7"x2 "Bb7"x2 | "Ebmaj7"x2 x2 | "Abm7"x2 "Db7"x2 |
+"Dm7"x2 "G7"x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+z<GGz/G/- | GG z/G/z | z<GAB | B>A-A2 |
+z<FFz/F/- | FF z/F/z | z<FGA | G>F z/G/ z/F/ ||
+P:B
+V:chords
+"Cm7"x2 "B7"x2 | "Bbm7"x2 "Eb7"x2 | "Abmaj7"x2 x2 | "Abm7"x2 "Db7"x2 |
+"Gm7"x2 "C7"x2 | "Abm7"x2 "Db7"x2 | "Gbmaj7"x2 x2 | "Fm7"x2 "Bb7"x2 ||
+V:melody
+E4 | c4 | B2G2 | E2F2 |
+G2A2 | B2_c2 | _d>B _G/E/G/E/- | E2F2 ||
+P:A
+V:chords
+"Em7"x2 "A7"x2 | "Fm7"x2 "Bb7"x2 | "Ebmaj7"x2 x2 | "Abm7"x2 "Db7"x2 |
+"Dm7"x2 "G7"x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+z<GGz/G/- | GG z/G/z | z<GAB | B>A-A2 |
+z<FFz/F/- | FF z/F/z | z<FGA | G>F z/G/ z/F/ ||
+P:B
+V:chords
+"Cm7"x2 "B7"x2 | "Bbm7"x2 "Eb7"x2 | "Abmaj7"x2 x2 | "Abm7"x2 "Db7"x2 |
+"Gm7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 x2 | "Fm7"x2 "Bb7"x2 |]
+V:melody
+E4 | c4 | B2G2 | E2F2 |
+G2E2 | F>E F/E/F/G/ | !coda!E4 | z4 |]
+V:chords
+"Eb6"x2 x2 | "Fm7"x2 x2 | "Gm7"x2 x2 | "Fm7"x2 x2 |
+"Eb6"x2 "Fm7"x2 | "Gm7"x2 "Fm7"x2 | "Eb6"x2 x2 | x2 x2 ||
+V:melody
+!coda!E3G | F3A | G3B | F3G |
+E2F2 | G2F2 | Ezz2 | z4 ||
+S:https://www.folktunefinder.com/tunes/18866
+S:http://trillian.mit.edu/~jc/music/abc/song/Moments_Notice.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/moments_notice.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Moments_Notice.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/moments_notice.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:166
+T: Ansingelied zum Neujahre
+N: A0530A
+O: Europa, Mitteleuropa, Deutschland
+N: Baseler hs. Tenor 1544 - 1574.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: G
+G | G2G2A2G2 | c2d2c2z
+B | d2e2d2B2 | c2A2G2z
+G | c2B2d2A2 | G2E2D2z
+D | A2A2A2B2 | c2A2G2A2 | F2G2A4 | G8
+S:https://www.folktunefinder.com/tunes/80225
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 2
+T: Bostony
+M: 4/4
+L: 1/8
+Q: 160
+S: John Hartford's "Wild Hog in the Redbrush" transcribed by Llarry Brandon
+K: G
+|: de | "G" gfgb a2 f2 | gega g2 dc | Bcde gega | "D7"b2 a2 a4 |
+| c'4 e4 | fefg f2 fe | BABc dBAc | "G" B2 G2 G2 :|
+|: GE | "G" DEGA BABd | e2 d2 d2 B2 | "D7"cBAG FDEF | "G" A2 G2 G2 GE |
+| DEGA BABd | e2 d2 d2 B2 | "D7"cBAG FDEF | "G" G6 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7575
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/Bostony.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

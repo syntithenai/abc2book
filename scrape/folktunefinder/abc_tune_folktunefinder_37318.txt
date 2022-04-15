@@ -1,0 +1,29 @@
+X:6195
+T:Teribus
+L:1/8
+M:2/4
+O:Scotland
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a14.html
+%%ID:00000a14
+K:D
+A|\
+dA d>e | fa fd | \
+g>f ed | ce cA | \
+dA d>e | fa fd |
+g>f ea | fd d :: \
+g|\
+a2 a>g | fa fd | \
+g>f e>d | ce cA |1
+a2 a>g| fa fd | g>f da  | fd d :|2\
+dA d>e|fa fd  | g>f ea  | fd d|]
+S:https://www.folktunefinder.com/tunes/37318
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

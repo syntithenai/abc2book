@@ -1,0 +1,35 @@
+X: 1
+T: Hora Fetelor
+O: Romania
+D: Gypsy Camp v.1
+Z: From a transcription by Tom Pixton
+N: See also versions from Aubrey Jaffer and Seymour Shlien
+P: AABBABB
+%%staffsep 50
+M: 4/4
+L: 1/8
+K: G
+"A"
+|: "G"DG- G2 "F"AB- B2 | "E7"c4- c/B/A/^G/ "Am"A2 z=G \
+| "Cm"Bc cc (3d_ef (3edc | "G"d6 zD |
+| "G"DG- G2 "F"AB- B2 | "E7"c4- c/B/A/^G/ "Am"A2 z2 \
+| "Cm6"(3Bcd (3cB_A "D7b5"(3cBA (3GGF |1 "G"G4 z2zD :|2 "G"G4 zB cd |
+"B"
+|: "Cm"_e3 d "G"d3 c | "E7"Bcd (3:2:2c2B "Am"(3cBA Az \
+| "Cm"(3zBc (3:2:2c2c (3d_ef (3:2:2e2c | "G"d4 zd_ef | "Cm"g3 f _ed cB |
+| "E7"(3gf_e (3dcB "Am"(3cBA Az | "Cm6"(3Bcd (3cB_A "D7b5"(3cBA (3GGF \
+|1 "G"G4 zB cd :|2 "G"G4 z "DC"zD |]["Coda" "G".G2 "D".D2 "G".G2 z2 |]
+S:https://www.folktunefinder.com/tunes/2831
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/HoraFetelor_TP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraFetelor_TP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraFetelor_TP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/tune/HoraFetelor_TP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

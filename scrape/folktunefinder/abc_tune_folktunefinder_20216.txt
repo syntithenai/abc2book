@@ -1,0 +1,27 @@
+X: 1
+T: St\odt kanel
+T: Pounded Cinnamon
+O: trad Danmark
+R: waltz
+S: http://www.folkdance.suite.dk/u9/main.htm
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| "G"G2 B2 G2 | "D7"F2 A2 D2 |  "G"G2 B2 G2 | "D7"A4 D2 \
+| "G"G2 B2 G2 |  "C"c2 c2 B2 | "D7"A2 G2 F2 |  "G"G4   :|
+|: dc \
+| "G"B2 Bc d2 | "D7"A2 AB c2 |  "G"B2 Bc d2 | "D7"A4 D2 \
+| "G"G2 B2 G2 |  "C"c4    B2 | "D7"A2 G2 F2 |  "G"G4   :|
+S:https://www.folktunefinder.com/tunes/20216
+S:http://trillian.mit.edu/~jc/music/abc/waltz/StodtKanel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/waltz/StodtKanel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/StodtKanel_G.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

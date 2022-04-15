@@ -1,0 +1,62 @@
+X: 1
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+|: de \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg \
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg \
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+S:https://www.folktunefinder.com/tunes/15547
+S:http://trillian.mit.edu/~jc/music/abc/march/LordHuntleysCave2.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LordHuntlysCave.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LordHuntlysCave2.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/Lord_Huntlys_Cave_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LordHuntlysCave.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LordHuntlysCave_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LordHuntleysCave2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LordHuntlysCave.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/LordHuntlysCave.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/LordHuntlysCave2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Lord_Huntlys_Cave_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LordHuntlysCave.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LordHuntlysCave2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Lord_Huntlys_Cave_D4.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

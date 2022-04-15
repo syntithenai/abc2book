@@ -1,0 +1,30 @@
+X: 1
+T: the Hill O'Nigg
+R: strathspey
+C: J.S.Skinner
+B: RSCDS 38-2
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+F \
+| "C"E>F G>_B "F"A2 F>A | "C"G>F E>c "G7"d<D D>F \
+| "C"E>F G>_B "F"A2 F>A |1 "G7"G>c B<d "C"c<C C2 :|2 "G7"G>c B<g "C"e<c c2 ||
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "C"G<c "G7"d<D D>g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "G7"G<c "C"E<C C> ||
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A/B/c "C"G<c "G7"d<D D>F \
+| "C"E>F G>_B "F"A2 F>A | "G7"G>c B<g "C"e<c c2 |]
+S:https://www.folktunefinder.com/tunes/19398
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HillONigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/HillONigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HillONigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HillONigg.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 15
+T:15.  Gridlock
+C:c 1984 Harry Bolick 
+R:Breakdown
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:300
+K:D
+|: "D" dc d2 A2 AB| "C"=cB c2 A2 ^c2| "D" dc d2 A2 G2 | "A" A2 A4 A2|
+"D" dc d2 A2 AB| "C"=cB c2 A2 G2|"G" B,2D2G2F2|"D"D8:|
+|:DF A2 "A" c2 c2|"D"DF A2  d2 d2| fe fe d2B2|"A" e8|
+"D"DF A2 "A" c2 c2|"D"DF A2  d2 d2| fe fe"A" d2B2| "D" d8:|
+S:https://www.folktunefinder.com/tunes/1709
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

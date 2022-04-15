@@ -1,0 +1,37 @@
+X: 35
+T: 4. Lord Eglintoune's Auld Man  2X
+R: Strathspey
+B: Lowe's 3rd
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+% Q: 220
+M: C
+L: 1/8
+K: D
+B |\
+"D" A>D G/F/E/D/  A<D D>B   |      A>D G/F/E/D/       A3 d/c/ |\
+"Em" B>EG>E       B<E E>c   | "G"  d>e g/f/e/d/ "A7" ~B3 c    |
+"D" d>ef<a        e<f d>B   |      A>FD>F             A>B d<e |\
+"Bm" f>de>B       d>AB>F    | "Em" E<E F>A      "A7"  B3  b   |
+"D" a>df>d        a<d df/g/ |      a>d g/f/e/d/       a3 f/a/ |\
+"Em" b>eg>e       b<e e>c   | "G"  d>e g/f/e/d/ "A7"  B2 A<B  |
+"D" d>ef<a        e<f d>B   |      A>FD>F             A>B d<e |\
+"Bm" f>de>B       d>A B>F   | "Em" E<E F>A      "A7"  B3     ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 20 of 31
+%%textfont Times-Roman 24
+% ---------------------------------------------------------
+%%center The Red House
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 6x40 Reel    1 2 3 2 3 1
+S:https://www.folktunefinder.com/tunes/40138
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

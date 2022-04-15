@@ -1,0 +1,29 @@
+X:42
+T: DER GOTT DER EISEN WACHSEN LIESS
+N: B0051
+O: Europa, Mitteleuropa, Deutschland
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 4/4
+L: 1/16
+K: C
+G,4 | C6C,2E,4C,4 | A,6A,2A,4
+A,4 | G,6F,2E,4D,4 | E,4C,4z4
+G,4 | C4C,4E,4C,4 | A,6A,2A,4
+D4 | B,6A,2G,4A,4 | B,4G,4z4
+G,4 | G,6G,2A,4A,4 | B,6B,2C4
+G,4 | F6D2E4C4 | B,3CD4z4
+G,4 | E6D2C4B,4 | A,4G,4F,4
+E,4 | D,4A,4G,4F,4 | E,8D,8 | C,8z4
+G,4 | E6D2C4B,4 | A,4G,4F,4
+E,4 | D,4A,4G,4F,4 | E,8D,8 | C,8z4
+S:https://www.folktunefinder.com/tunes/78063
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

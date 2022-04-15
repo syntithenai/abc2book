@@ -1,0 +1,23 @@
+X: 1
+T: Fiddlers Three
+C: B.Guest
+M: 6/8
+L: 1/8
+K: D
+G \
+| "D"F2A "G"dcB | "D"AFA    f2e |  "D"dAF "Bm"DFA | "Em"BEE "A7"E2G \
+| "D"F2A "G"dcB | "D"AFA "G"g2f | "A7"ecA     Ace |  "D"fdd    d2 :|
+|: f/g/ \
+| "D"a2f "(G)"b2f | "D"agf "Em"gfe | "A7"c2e a2g |    gfe "D"f2g \
+| "D"a2f "(G)"b2f | "D"agf "Em"gfe | "A7"c2e gfe | "D"fdd    d2 :|
+S:https://www.folktunefinder.com/tunes/14181
+S:http://trillian.mit.edu/~jc/music/abc/jig/FiddlersThree_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FiddlersThree_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/FiddlersThree_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

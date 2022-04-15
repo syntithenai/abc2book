@@ -1,0 +1,26 @@
+X:183
+T: Jesus im Garten
+N: A0542B
+O: Europa, Mitteleuropa, Deutschland
+N: Speiersches Gsgb. 1617 fol 33b.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: F
+c | cdcB | AGF2 | z
+FAB | cGAB | c2z
+A | Bcdc | BAB2 | z
+AGA | Bcc=B | c3
+S:https://www.folktunefinder.com/tunes/80242
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

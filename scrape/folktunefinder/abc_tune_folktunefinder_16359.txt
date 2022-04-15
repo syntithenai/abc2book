@@ -1,0 +1,31 @@
+X:2
+T:Hins polska
+M:3/4
+L:1/16
+Q:1/4=124
+O:Sweden
+A:Common
+N:Tuning: A - E - A - C#
+P:Notated for "trollst\"amt" fiddle (A,EAC#)
+N:"" before a note means left hand pizzicato
+Z:L.Sohlman <l.y.sohlman@mailbox.calypso.net>, Sweden
+K:A
+""e4 ""A4 ""D4|""e2ue2 ""A2uA2 ""D2uD2| ""e4 ""A4 ""D4|""e2ue2 ""A2uA2 ""D2uD2|
+A3A B2AB [c4e4]|D2ED =C2DC [B,4D4]| A3A B2AB [c4e4]|D2ED =C2DC [B,4D4]|
+A3A B2AB [c4e4]|A3A B2AB [c4e4]| c2Bc d2Bd c2Ac|B2FB [=G8A8]::
+(=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (B,D)(AD) (B,D)(AD)| (=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (B,D)(AD) (B,D)(AD)|
+A3A B2d2 c2""e2|A3A B2d2 c4-|c2Bc d2Bd c2Ac|B2FB [=G8A8]:: {e}=g2(ga) vg2""e2 ""A2ue2|=f2(f=g) vf2""e2 ""A2ue2|
+=g2(ga) vg2""e2 ""A2ue2|B2FB [=G8A8]:: (=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (A,D)(AD) (=G,D)(AD)|
+(=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (A,D)(AD) (=G,D)(AD)| A3A B2Bd c2""e2|A3A B2Bd [c4e4]| c2Bc d2Bd c2Ac|B2FB [=G8A8]:|
+S:https://www.folktunefinder.com/tunes/16359
+S:http://trillian.mit.edu/~jc/music/abc/pols/HinsPolska2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/HinsPolska2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/HinsPolska2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/HinsPolska2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Morgane
+C: Maxou Heintzen
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: D
+|: "D"A2B2d2 |"G"c2B2d2 | "A7" c2B2AB | "D"F6 | "G"B2A2B2 | "Em"E2F2G2 |"A7"G2F2E2 |1 "D"F4D2 :|2 "D"D6 |]
+[| "D"FAFEDE |   FAFEDE |      FAFEDF |"Em"G6 |"A7"GBGFEF |     GBGFEF |    GBGFEG |  "D"A6    |
+|  "D"FAFEDE |   FAFEDE |"(Bm)"FAFEDF |"Em"E6 |"A7"EFGABc |"(G)"B2A2G2 |"A7"F2E2F2 |  "D"D6    |]
+S:https://www.folktunefinder.com/tunes/20097
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Morgane_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/Morgane_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

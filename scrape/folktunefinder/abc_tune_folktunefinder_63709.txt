@@ -1,0 +1,39 @@
+X:162
+T:The Dionne Reel
+M:4/4
+L:1/8
+R:reel
+P:ABABCDE
+N:Learned from Kira Ott
+Z:Michael Abraham Shulman
+H:This tune was written for the Dionne quintuplets.
+H:Supposedly, after the first two, no more were expected, so the first
+H:two parts repeat before going on.
+K:D
+P:A
+cB|:Adfd gdfd|Adfd edcB|Adfd gdfd|1 efec d2cB:|2 efec d2fg|
+P:B
+|:afbf afde|fded Bcdf|afbf afde|1 fdec d2fg:|2 fdec d2|
+%%text Repeat the first two parts again.
+P:C
+d=c[K:G]|:B2AG B2AG|B2AG EFGA|B2AG B2AG|1 FADF G2GA:|2 FADF G2FE|
+P:D
+[K:D]D2FA dAFD|G2Bd g2dB|A2ce gecA|defg a2a2|
+D2FA dAFD|G2Bd g2dB|A2ce gecA|dfec dBAF|
+D2FA dAFD|G2Bd g2dB|A2ce gecA|(3ded (3cdc (3BcB (3ABA|
+D2FA dAFD|G2BG =cGBG|A2ce gecA|dfec defg|
+P:E
+|:a2fd a2fd|g2e=c g2e=c|a2fd a2fd|1 gece defg:|2 dfec d2||
+S:https://www.folktunefinder.com/tunes/63709
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

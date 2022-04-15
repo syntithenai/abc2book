@@ -1,0 +1,28 @@
+X:36
+T:The Old Pipe Reel
+C:Trad
+D:Silly Wizard
+R:Reel
+M:C
+L:1/8
+K:Am  % D originally (only affects that one 'c' note)
+|: A2 A2 GAAd | e2 de gede | a2 ea gedB | A2 A2 BGGB |
+ ABAG A2 AB | e2 de gede | a2 ea gedB | A2 A2 GA A2 :|
+|: a2 ea gede | a2 ea gede | a2 ea gedB | A2 A2 BGGB |
+ ABAG A2 AB | e2 de gede | a2 ea gedB | A2 A2 GA A2 :|
+|: A2 A2 GAAd | e2 de gedB | A2 A2 GA eg | e2 dA BGGB |
+ ABAG A2 AB | e2 de gede | a2 ea gedB | A2 A2 GA A2 :|
+|: a2 a2 gede | a2 a2 gede | a2 a2 gedB | AGAc BGGA |
+ ABAG A2 AB | e2 de gede | a2 ea gedB | A2 A2 GA A2 :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58847
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

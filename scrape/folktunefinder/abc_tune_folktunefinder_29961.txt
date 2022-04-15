@@ -1,0 +1,26 @@
+X: 3
+T: The Sultan Polka
+M: 2/4
+L: 1/8
+R: polka
+K: Gmaj
+|:A |\
+B2 B>A |AG G>G | FG AB | d^c =c2 |
+c2 c>B | BA A>A | GF EF |[1 ED  D :|[2 G3 || 
+|: A |\
+BE BE/E/ | BE E>F | GE E/F/G/E/ | FB B>^A |
+BE BE | BE E>F | GG FG/F/ | E3 :|
+^D |\
+D>D GA | B3 c | d>d cB | AE E2 |
+A>A c/B/A | c3 d | e>e dc | BA G/A/G/E/ |
+DD/D/ GA | B2 Bc | d>d cB | AE E2 |
+e>e fe | ed  B/c/d | d^c/d/ eF | G3 |]
+S:https://www.folktunefinder.com/tunes/29961
+S:http://www.thesession.org/tunes/display/8629
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

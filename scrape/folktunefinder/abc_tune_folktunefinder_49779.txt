@@ -1,0 +1,28 @@
+X: 224
+T:Waterloo Waltz. CJF.224
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+(Bc)|.d2(dgfg)|.B2(BGBd)|(dc)(cB)(ce)|(ed).d2 (Bc)|!
+.d2(dgfg)|.B2(BGBd)|dcecAF|G4h:|!
+|:(Bc)|(dg)(gfdf)|(ag).g2Bc|dggfdf|(ag).g2 Bc|!
+.d2(dgfg)|.B2(BGBe)|dcecAF|G4:|!
+|:FA|AB^cdef|.d2(dAdf)|.e2(edef)|d2A2 FG|!
+AB^cdef|.d2(dAdf)|.e2(edef)|" D.C."d4:|]
+S:https://www.folktunefinder.com/tunes/49779
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

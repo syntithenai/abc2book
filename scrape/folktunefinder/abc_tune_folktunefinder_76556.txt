@@ -1,0 +1,28 @@
+X:71
+T: NUN LAET UNS SENGN
+N: E0683
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Leid, Klage
+M: 2/4
+L: 1/16
+K: G
+D2 | G2A2B2c2 | d2d2d2
+B2 | c2Bcd2B2 | G4z2
+D2 | G2A2B2c2 | d2d2d2
+B2 | c2Bcd2B2 | G4z2
+B2 | c2c2c2A2 | B2B2B2
+G2 | A2Bcd2B2 | G4z2
+B2 | c2c2c2A2 | B2B2B2
+G2 | A2Bcd2B2 | G4z2
+S:https://www.folktunefinder.com/tunes/76556
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

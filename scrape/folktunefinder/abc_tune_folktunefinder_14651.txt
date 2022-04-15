@@ -1,0 +1,26 @@
+X: 1
+T: Miss Gordon of Park
+C: William Marshall
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+|:"F"F2F cAF | "F"FGF "Bb"d3 | "F"cAF F2A | "C7"GEC CDE \
+| "F"F2F cAF | "F"FGF "Dm"a3 | "G7"gaf efd |1 "C7"cdB ABG :|2 "C7"c3 c3 ||
+| "C7"c2c gec | "F"cdc c2a | "C7"b2g "F"a2f | "G7"g2f "C7"edc \
+| "C7"c2c gec | "F"cdc "Bb"b3 | "F"agf "C7"cde | "F"f3 f2c |]
+| "C7"c2c gec | "F"cdc c2a | "C7"b2g "F"a2f | "G7"g2f "C7"edc \
+| "F"f3 cAc | "Bb"d3 B2d | "C7"cba gfe | "F"f3 f2 |]
+S:https://www.folktunefinder.com/tunes/14651
+S:http://trillian.mit.edu/~jc/music/abc/jig/Mis_Gordon_of_Park_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/Mis_Gordon_of_Park_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Mis_Gordon_of_Park_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

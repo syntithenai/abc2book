@@ -1,0 +1,40 @@
+X:1
+T:Irish Molly Barn Dance
+R:barndance
+S:Leeds Band
+D:"Down the Long Road" Bob Davenport.
+S:Neil Brookes <neil@brookes36.freeserve.co.uk> tradtunes 2006-5-8 (cleaned up a bit by John Chambers)
+M:4/4
+L:1/8
+%Q:1/4=100
+K:G
+"A"[|]\
+B/c/^c/ | d^c/ de/ d/B/G/ D/G/B/ | d^c/ =cA/ E3/ \
+AB/ | cB/ cd/ c/A/F/ D/F/A/ | ed/ A_B/ =B3 ||
+Bc/ | d^c/ de/ d/B/G/ D/G/B/ | cd/ ef/ g3/ \
+fe/ | dB/ ed/ cA/ FG/ | A/B/A/ GF/ G3/ :|
+"B"|:\
+GF/ | E^D/ EF/ GF/ GA/ | Be/ e^d/ e3/ \
+FE/ | Dd/ d^c/ d3/ BA/ | Gg/ gf/ g3/ ||
+GF/ | E^D/ EF/ GF/ GA/ | Be/ e^d/ e3/ \
+ef/ | g/f/e/ f/e/d/ e3/ BA/ | G3/ F3/ E3/ :|
+"C"|:\
+DG/ | B3/ B3 B/ c^c/ | d3/ d3 d/ BG/ | D3/ GB/ d3/ ^c3/ | =c4-c/ \
+B3/ | A3/ A3/z A/ Bc/ | f3/ f3- f3/ | e3/ e3/ A3/ _B3/ | =B4- B/ ||
+DG/ | B3/ B3 B/ c^c/ | d3/ d3 GB/ | d3/ GB/ d3/ G3/ | g3 z/ \
+g/ fe/ | d3/ B3 B/ cd/ | e3/ E3 FE/ | D3/ B3/ BG/ AF/ | Gd/ e/d/B/ Gz :|
+S:https://www.folktunefinder.com/tunes/13596
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Irish_Molly_Barn_Dance1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Irish_Molly_Barn_Dance1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Irish_Molly_Barn_Dance1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Irish_Molly_Barn_Dance1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Irish_Molly_Barn_Dance1.abc
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

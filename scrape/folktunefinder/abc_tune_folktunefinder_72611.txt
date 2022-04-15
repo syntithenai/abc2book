@@ -1,0 +1,29 @@
+X:154
+T: Uebers Bacherl bin i gschprunga,
+N: D0242
+O: Europa, Mitteleuropa, Deutschland, Bayern
+N: Inzipit = Transposition
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: D
+ | FG | A2A2FG | A2A2
+fd | c2c2BG | F2z2
+EF | GBB2AG | FAd2
+Ad | c2ccBG | F4
+EF | GBB2AG | FAd2
+Ad | c2ccBG | F4
+fd | dAA2FA | EAA2
+gc | cAA2GA | FAA2
+fd | dAA2FA | EAA2
+gc | cAAABc | d4
+S:https://www.folktunefinder.com/tunes/72611
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

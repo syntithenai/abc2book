@@ -1,0 +1,40 @@
+X:30
+T:Miss Stewart Derculloch's Reel
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 14
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C|
+R:Reel
+K:D
+[V:1] A|d2 (df) e2 (eg)|fdgf e(EE)e|d2 (df) e2 (eg)|fdec dDDA|
+[V:2] z|d2  d'2 c'2 a2 |d'2d2e2 g2 |f2  d2  g2  e2 |a2A2 d2f2|
+[V:1] d2 (df) e2 (eg)|fdgf e(EE)e|defd efga|fdec dDD||
+[V:2] d'2 d2  c'2 a2 |d'2d2e2 g2 |f2d2 g2e2|a2A2 d2D||
+[V:1] f|abaf dfaf |gbaf g(ee)f|abaf dfaf|ge a/g/f/e/ fddf|
+[V:2] z|d2d'2f2d'2|e2d2 a2 g2 |f2d2 f2d2|e2 A2       d2z2|
+[V:1] abaf dfaf|gbaf g(ee)f|dfeg fagb|afge fdd|]
+[V:2] d2d'2f2d2|e2d2 a2 A2 |d2c2 d2g2|A2A2 D2D|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72057
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MissStewartDercullochsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Stewart_Dercullochs_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

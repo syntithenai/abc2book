@@ -1,0 +1,34 @@
+X: 46
+T:Zwiefacher Die Alte Kath
+C:traditionell
+O:Germany
+Z:abc transcription Simon Wascher
+Z:harmony and chord added by Seymour.Shlien@crc.ca
+M:3/4
+L:1/4
+Q:1/4=180
+K:G
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+%%MIDI chordvol 63
+%%MIDI bassvol 100
+  "G"[D2B,2](3C/B,/C/               | [D2B,2][GE]            |\
+  [M: 2/4] "D"[FD][AF]              |"G" [GE][BG]            |
+  [M: 3/4]"G"[D2B,2](3C/B,/C/       | [D2B,2][GE]            |\
+  [M: 2/4] "D"[FD][AF]              |"G" [G2G,2]             :|
+|:[M: 3/4] "Em"[EC][c/A/][B/G/][cA] | [DB,][B/G/][A/F/][BG]  |\
+  [M: 2/4] "D" [FD][AF]             |"G" [GE][BG]            |
+  [M: 3/4] "Em"[EC][c/A/][B/G/][cA] | [DB,][B/G/][A/F/][BG]  |\
+  [M: 2/4] "D" [FD][AF]             |"G" [G2G,2]             :|
+S:https://www.folktunefinder.com/tunes/81317
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:52
+T:Attente 
+R:Bourr\'ee 3t
+C:P.Sorgues
+N:original url: www.wolfram.claranet.de
+M:3/8
+L:1/8
+Q:240
+K:C
+ z3 |: c3/2G/c | _B2A | FGA | G3/2F/C | \
+ c3/2G/c |1 _B2A | FGA | GC/G/C/G/ :|2 _B2c | dc_B | c3 |
+K:Eb
+|: E3/2F/G | =A2B | cB=A | B=AG | \
+ E3/2F/G |1 =A2d | cB=A | G/8C2z3/4z/8 :|2 =A2B | cB=A | GC/G/C/G/ |
+S:https://www.folktunefinder.com/tunes/53154
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Rhythm Bourre?e 3t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

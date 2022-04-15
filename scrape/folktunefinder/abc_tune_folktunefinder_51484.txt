@@ -1,0 +1,26 @@
+X:163
+T:The Dingle Regatta
+M:12/8
+L:1/8
+K:G
+|:"G"d^cd e2 d BAB d2 B|"D"A3 AGA "G"B2 A G2 z|d^cd e2 d BAB d2 B|\
+"D"A3 B2 A "G"G3 z2z:|
+|:"D"d2 d def "G"g3 gfg|"D"a3 aga "G"b2 a gfe|\
+"D"d^cd def "G"g3 g2 b|"D"a2 g f2 e def "G"g3:|
+K:C
+|:"G".g2 z.d2 zBdB G3|"D"A3 DEF "G"G2 B d2 z|.g2 z.d2 zBdB G3|\
+"D"A3 DEF G2 B "G"G2 z:|
+S:https://www.folktunefinder.com/tunes/51484
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t163.abc
+S:http://www.arcelts.com/bbot1/t163.txt
+S:http://www.arcelts.com/bbot1/t163.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

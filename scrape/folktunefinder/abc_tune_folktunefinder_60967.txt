@@ -1,0 +1,33 @@
+X:8934
+T:La Gallegada (MG 55)
+R:Gallegada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 55
+E:Comp.
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+|:c3d|edcB|A3/2B/2 AG|F4|
+c3d|cB AB|G3/2A/2 GF|[1 E4:|
+M:6/8
+|[2 E3 E2F||:GBG FEF|G2E E2F|
+GBG FEF|F3 D2E|FGF EDE|
+F2D D2E|FGF EDE|[1 E3 E2F:|[2 E6||
+S:https://www.folktunefinder.com/tunes/60967
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Gallegada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

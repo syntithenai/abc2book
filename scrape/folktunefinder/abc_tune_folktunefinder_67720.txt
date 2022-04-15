@@ -1,0 +1,20 @@
+X: 17
+T:Bazetan Dantza
+O:Spain, Basque
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI gchord zzfzzzfz
+|:"G"defa g2d2|BdBG "C"c4|"G"BdBG "Am"AcAF| "G"G2 G2 G2 z2:|:
+GAB2 BGc2|cAB2 BGc2|BdBG "Am"AcAF| "G"G2 G2 G2 z2:|:
+G2d2d2e2|c2d2B2e2|c2d2B2e2|c2d2B2z2|c3dedcB|A2GFG2z2:|
+S:https://www.folktunefinder.com/tunes/67720
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: Jove Maloj Mome
+O: Bulgaria
+M: 117/16
+L: 1/16
+K: Am
+|: "Am"d3 A4 cde2 | d3 cBA2 | c2B A4 "G"B2G2 | "Am"A2G ABc2 \
+| c2B A4 "G"B2G2 | "Am"A2G ABcd | c2B A4 "G"B2G2 | "Am"A3 A2z2 :|
+K: Dm
+|: "Dm"g3 d4 fga2 | g3 fed2 | f2e d4 "C"e2c2 | "Dm"d2c def2 \
+| f2e d4 "C"e2c2 | "Dm"d2c defg | f2e d4 "C"e2c2 | "Dm"d3 d2z2 :|
+%%sep 10 10 100
+K: Bm
+|: "Bm"e3 B4 def2 | e3 dcB2 | d2c B4 "A"c2A2 | "Bm"B2A Bcd2 \
+| d2c B4 "A"c2A2 | "Bm"B2A Bcde | d2c B4 "A"c2A2 | "Bm"B3 B2z2 :|
+K: Em
+|: "Em"a3 e4 gab2 | a3 gfe2 | g2f e4 "D"f2d2 | "Em"e2d efg2 \
+| g2f e4 "D"f2d2 | "Em"e2d efga | g2f e4 "D"f2d2 | "Em"e3 e2z2 :|
+S:https://www.folktunefinder.com/tunes/3093
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JoveMalojMome1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/JoveMalojMome1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key B
+% Key A
+% Key D
+% Time_signature 117/16
+% Has_accompaniment_chords Has chords

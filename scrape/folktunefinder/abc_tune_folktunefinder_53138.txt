@@ -1,0 +1,36 @@
+X:552
+T:An Dro de Bretagne
+O:Brittany
+M:3/4
+L:1/16
+%%MIDI program 62
+%%MIDI chordprog 105
+%%MIDI bassprog 34
+K:G
+P:A
+|: "G"G2GA B2A2 B2A2 | G2GA B2A2 B4 :| \
+M:2/4 \
+|: "G"B2BG A2d2 | B2AG A4 | B2BG A2B2 | cBAB G4 :|
+P:B
+M:3/4
+L:1/16
+|: "Em"B2AB A2G2 F2GA | B2AB A2G2 F4 :| \
+M:2/4 \
+|: "Em"E2FG A4 | B2AG F4 | B2AG A2B2 | G2FG E4 :|
+P:C
+M:3/4
+L:1/16
+|: "D"D2FG A2B2 A4 | d2cB A2F2 G2A2 :| \
+M:2/4 \
+|: "D"A2BA F2D2 | G2FG E4 | A2BA E2FG | F2EF D4 :|
+S:https://www.folktunefinder.com/tunes/53138
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set55.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

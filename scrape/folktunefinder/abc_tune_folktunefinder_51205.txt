@@ -1,0 +1,26 @@
+X:7010
+T:Grandfather's Tune
+T:Sheepshearing
+R:Reel
+C:Trad.
+O:England
+M:4/4
+L:1/8
+Q:1/4=210
+K:D
+"D"F2A2 B2c2|dcde f2 a2|"Em"g2f2 e2d2|"A"c2B2 A2G2|
+"D"F2A2 B2c2|dcde f2 a2|"Em"g2f2 eABc|"D"d2f2 d4:|
+|:"Em"e4 f4|g2f2 e4|g2f2 e2d2|"A"c2B2 A2G2|
+"D"F2A2 B2c2|dcde f2 a2|"Em"g2f2 eABc|"D"d2f2 d4:|
+S:https://www.folktunefinder.com/tunes/51205
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

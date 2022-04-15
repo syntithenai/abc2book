@@ -1,0 +1,26 @@
+X:165
+T:Reflection Waltz
+R:waltz
+C:Bruce Osborne  --  June 1991
+Z:abc by bosborne@kos.net
+M:3/4
+L:1/8
+K:Eb
+G,A,|(3B,CB, G,2 B,2|[G,3 E3] B, EF|[B,2 G2] [A,2 F2] [G,2 E2]|[C4 A4] [Ec][E c]|\
+[D3/2 B3/2] [F3 B3] [G3/2 B3/2]|[F4 B4] [EB][F B]|(3[GB][AB2/3][G2/3 B2/3] [G2 B2] [F2 B2]|[E4 B4] G,A,|\
+(3B,CB, G,2 B,2|[G,3 E3] B, EF|[B,2 G2] [A,2 F2] [G,2 E2]|[C4 A4] [Ec][E c]|\
+[D3/2 B3/2] [F3 B3] [G3/2 B3/2]|[F4 B4] [EB][F B]|(3[GB][AB2/3][G2/3 B2/3] [G2 B2] [F2 B2]|[E4 B4]||\
+G,A,|B, E3 B,G,|C E3 C2|B,3 [G, E] [G,E][A, F]|[B,3 G3] [B, G] [B,G][B, A]|\
+[B,2 G2] [A,3 F3] [A, G]|[A,4 F4] [A,F][A, G]|[A,2 F2] [G,3 E3] [G, D]|[G,4 E4] G,A,|\
+B, E3 B,G,|C E3 C2|B,3 [G, E] [G,E][A, F]|[B,3 G3] [B, G] [B,G][B, A]|\
+[B,2 G2] [A,3 F3] [A, G]|[A,4 F4] [A,F][A, G]|[A,2 F2] [G,3 E3] [G, D]|[G,4 E4]||
+S:https://www.folktunefinder.com/tunes/39758
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

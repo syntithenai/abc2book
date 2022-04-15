@@ -1,0 +1,37 @@
+X: 1
+T: Bare Necessities
+R: waltz
+N: English country dance (longways)
+C: Pat Shaw
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: DDor
+|: "Dm"A4 G2 | FE D4 | "G"d4 c2 | BA G4 \
+| "Dm"A4 G2 | FE D2 F2 | "Am"ED C2 E2 |1 "Dm"D3 EFG :|2 "Dm"D6 ||
+|| "Dm"f4 g2 | ag fe d2 | "C"ef gf ed | "Am"c3 B A2 \
+|  "Dm"f4 g2 | ag fe dc | "G"B2 G2 B2 | d4 cB |
+|  "F"AG FG AB | "C"c2 G2 E2 | "Dm"FE DE FG | "A7"A4 B^c \
+|  "D"d4 a2 | ^fe d2 f2 | "G"e2 d2 B2 | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/19793
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BareNecessities_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/BareNecessities_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Waltz_BareNecessities.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/BareNecessities_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/BareNecessities_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/Waltz_BareNecessities.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/BareNecessities_Dm.abc
+S:http://trillian.mit.edu/~jc/music/book/500/BareNecessities_d.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

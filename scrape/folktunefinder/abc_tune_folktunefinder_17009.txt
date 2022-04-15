@@ -1,0 +1,35 @@
+X: 1
+T: Delia
+T: The Amorous Goddess
+C: Samuel Howard
+Q:1/4=120
+R:reel
+M:4/4
+K:D
+L:1/8
+P:A
+A2|"D"d2 d/e/f "A7"e2 ac|"Bm"d2 "Em"g<e "D"d2 "A7"c2|\
+"D"dA "D7"B=c "G"B^c "D"d2|"Em"e/f/g "D"f2 "A7"e4|
+"D"d2 d/e/f "A7"e2 ac|"Bm"d2 "Em"g<e "D"d2 "A7"c2|\
+"D"dA "D7"B=c "Em"B2 ge|"D"d2 "A7"c2 "D"d4||
+P:B
+"A7"c2 "D"d/e/f "A"e2 dc|"Bm"d2 "E7"cB "A"c4|\
+"A"ec BA "D"F^G "A"A2|"Bm"d2 c2 "E7"B4|
+"A"e2 "D"df "A"e2 dc|"Bm"d2 "E7"bd "A"c4|\
+"A"ec BA "Bm"F2 dB|"A"A2 "E7"^G2 "A"A4||
+P:C
+"D"d2 d/e/f "A"e2 ac|"Bm"d2 "Em"g<e "D"d2 "A7"c2|\
+"D"dA "D7"B=c "G"B^c "D"d2|"Em"e/f/g "D"f2 "A7"e4|
+"D"d2 d/e/f "A"e2 ac|"Bm"d2 "Em"g<e "D"d2 "A7"c2|\
+"D"dA "D7"B=c "Em"B2 ge|"D"d2 "A7"c.B//c// "D"d4||
+S:https://www.folktunefinder.com/tunes/17009
+S:http://trillian.mit.edu/~jc/music/abc/reel/Delia_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Delia_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

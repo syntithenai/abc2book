@@ -1,0 +1,24 @@
+X: 189
+T: Zimmermo [Db]
+M: 34/44
+L: 1/8
+K: Db
+|:"Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Gb"[ge][bg][b2g2] "Db"[fd][af][a2f2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Ab7"[ec][ge][g2e2] "Db"[f2d2]z2 \
+::"Ab7"[c2e2] [ce][df] [e2g2] | "Db"[d2f2] [df][eg] [f2a2] |
+| "Ab7"[c2e2] [ce][df] [e2g2] | "Db"[d2f2] [df][eg] [f2a2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Gb"[ge][bg][b2g2] "Db"[fd][af][a2f2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Ab7"[ec][ge][g2e2] "Db"[f2d2]z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5236
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:317
+T: SO HERZIG WIE MEIN LIESEL
+N: B0374
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 3/4
+L: 1/8
+K: C
+G2 | Gcc2EE | EGG2
+FE | D3DEF | A2G2
+G2 | Gcc2EE | EGG2
+FE | D3EFD | C2z2
+FE | D2D2EF | Gce2
+FE | D2D2EF | Gce2
+eB | cGG2eB | cGG2
+cB | A3FDB, | C2z2
+S:https://www.folktunefinder.com/tunes/78338
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

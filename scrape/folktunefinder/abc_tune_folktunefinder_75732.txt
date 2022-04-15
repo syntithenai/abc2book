@@ -1,0 +1,25 @@
+X:36
+T:Garde Sus
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+N:Voorspel |:AABB:| ad lib.
+K:F
+P:Voorspel
+C2| FFFF|FGAB|cA cA|F2 zC ||
+P:A
+!segno!|: FFFF|FGAB|cc BA|G4|cccc|cc c2|c>B AG |[1 A2 FC :|[2 F2 z2 ||
+P:B
+|: c>B AB|cc cA|BBBB|dc B2|c>B AB|cc cA|c>B AG |[1 F2 z2 :|[2 F z!D.S.!C |]
+S:https://www.folktunefinder.com/tunes/75732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

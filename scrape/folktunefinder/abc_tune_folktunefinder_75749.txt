@@ -1,0 +1,21 @@
+X:53
+T:Jan Smet
+C:Traditioneel
+O:Perk (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+Q:1/4=100
+d|:"G"B2zd|B2zd|"D7"ed cB|(d2c)c|A2zc|A2zd/d/|dc BA|1"G"G2zd:|2"G"G2z2||
+Q:1/4=126
+|:("G"B>c) dd|(cA) FF|(c>A) FF|"D7"ee dG|(B>c) dd|(cA) FF|(c>A) FF|1"G"ed Gz/:|2"G"ed !D.C.!G|]
+S:https://www.folktunefinder.com/tunes/75749
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

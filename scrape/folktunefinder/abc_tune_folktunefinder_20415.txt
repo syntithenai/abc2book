@@ -1,0 +1,26 @@
+X: 1
+T: O Little Town of Bethlehem Jig
+C: Brooks
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"B2B ^A2B | "Am"d2c E2A | "D7"G>FG A2D  | "G"B3- B2B \
+| "G"B2B "E7"e2d | "Am"d2c E2A | "D7"G>FG B2A | "G"G3- G2 |]
+B \
+| "G"B2B "Am"A2G | "B7"F3 F2F | "Em"E2F G2A | "B7"B3- B2B \
+| "G"B2B ^A2B | "Am"d2c "(C)"E2e | "G"d2G "D7"B2A | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/20415
+S:http://trillian.mit.edu/~jc/music/abc/xmas/OLittleTownOfBethlehemJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OLittleTownOfBethlehemJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/OLittleTownOfBethlehemJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/OLittleTownOfBethlehemJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/OLittleTownOfBethlehemJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

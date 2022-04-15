@@ -1,0 +1,24 @@
+X: 2
+P: The Rakish Highlandman
+R: jig
+B: RSCDS 19-6(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+G/F/ \
+| "Em"E2B B2A | GBG E2G | "D"FAF D2G | FAF D2G/F/ \
+| "Em"E2B B2A | GBG E2G | "D"FAF D2F | "Em"E3 E2 :|
+|: G/A/ \
+| "G"B2A "(A)"B2c | "D"d2c d2 | FAF D2G | FAF D2G/A/ \
+| "G"B2A "(A)"B2c | "D"d2c d2 | FAF D2F | "Em"E3 E2 :|
+S:https://www.folktunefinder.com/tunes/9568
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ14.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

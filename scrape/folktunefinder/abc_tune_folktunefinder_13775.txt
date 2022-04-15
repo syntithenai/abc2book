@@ -1,0 +1,42 @@
+X:1
+T: All the Rage
+C: Larry Ungar 1989
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: E
+e \
+| "E"fgg gfe \
+| fgg g2e \
+| "A"cee "E"Bee \
+| "F#m7"gfe "B7"f2e \
+| "E"fgg gfe \
+| fgg g2b \
+| "(A)"gfe "B7"fed \
+| "E"e3- e2 :|
+|: e \
+| "A"cee "E"Bee \
+| "A"cee "E"B2e \
+| "A"ece "F#m7"fef \
+| "E"gbg "B7"f2e \
+| "A"cee "E"Bee \
+| "A"cee "E"B2b \
+| "(A)"gfe "B7"fed \
+| "E"e3- e2 :|
+S:https://www.folktunefinder.com/tunes/13775
+S:http://trillian.mit.edu/~jc/music/abc/jig/AllTheRage.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/AllTheRage_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/AllTheRage_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AllTheRage.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AllTheRage_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/AllTheRage_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AllTheRage_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/AllTheRage_E.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

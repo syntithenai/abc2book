@@ -1,0 +1,28 @@
+X: 33
+T: 2. Simon Brody  2X
+R: strathspey
+M: C
+L: 1/8
+Z: Chords by Robin Shaylor, August 2004
+% Q: 220
+K: F
+|: c |\
+"F" (3fed (3cde f2 c>B |      A<F c>F "C7" A<G G>e |\
+"F" (3fed (3cde f2 c>A | "Bb" B<d "C7" G>B "F" A<F F  :| 
+^c |\
+"Dm" d2 A>d F>A D>A |      (3Ade (3fed         (3ade (3fed |\
+"C"  c2 G>c E>G C>G |      (3Gcd (3edc "C7"    (3gcd (3edc |
+"F"  f2 c>f A>c F>e | "Dm" (3fed (3edc "Cmaj6" (3dcB (3cBA |\
+"Bb" (3Bcd "C7" G>B "Am" (3ABc "F7" F>A | "Gm" (3GAF "C7" (3CDE "F" F3 ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 19 of 31
+S:https://www.folktunefinder.com/tunes/40136
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

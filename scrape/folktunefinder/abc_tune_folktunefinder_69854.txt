@@ -1,0 +1,32 @@
+X:294
+T: VOLL ZAERTLICHKEIT WILL ICH DIR
+N: F0514
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, Liebe
+M: 4/4
+L: 1/16
+K: C
+G,4 | C3DE3DC3B,C3A, | G,8E,2
+G,2G,2G,2 | A,4D4C4B,4 | C4z8
+G,4 | C3DE3DC3B,C3A, | G,8E,2
+G,2G,2G,2 | A,4D4C4B,4 | C8z4
+C4 | B,3CD6G,2G,2G,2 | C3DE3DC4
+C4 | B,3CD6G,2G,2G,2 | C3DE3DC4
+G,4 | C3DE3DC3B,C2A,2 | G,6F,2E,2
+G,2G,2G,2 | A,4D4C4B,4 | C4z8
+C4 | B,3CD6G,2G,2G,2 | C3DE3DC4
+C4 | B,3CD6G,2G,2G,2 | C3DE3DC4
+G,4 | C3DE3DC3B,C2A,2 | G,6F,2E,2
+G,2G,2G,2 | A,4D4C4B,4 | C4z8
+S:https://www.folktunefinder.com/tunes/69854
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

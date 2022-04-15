@@ -1,0 +1,24 @@
+X:1
+T:Auld Lang Syne (old tune)
+S:SMM #413, 1796
+Z:Bruce Olson 
+Q:120
+L:1/8
+M:2/4
+K:D
+A | d3/2 d/ e f | A3/2 B/ A F | d3/2 f/ e3/2 d/ | B2 (d/2B3/2) |
+| A3/2 F/ E D | E3/2 D/ E3/2 F/ | A2 B3/2A/ | A3"Chorus"A |
+| d2(ef) | A3/2 B/ A F | (d3/2f/2) ed | B3 (d/B/) |
+| A F E D | E3/2 D/ E F | A2 ~B3/2A/ | {A/}d3 |]
+S:https://www.folktunefinder.com/tunes/13116
+S:http://trillian.mit.edu/~jc/music/abc/air/AuldLangSyneOldTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/AuldLangSyneOldTune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

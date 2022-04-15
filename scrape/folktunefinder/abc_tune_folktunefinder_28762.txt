@@ -1,0 +1,36 @@
+X:2482
+T:Cancioneiro de Casto Sampedro: N\'umero 329
+T:Muieira  de Ourense
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=190
+K:C % 0 sharps
+z4 EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF GA|B/2G/2-[G/2E/2-]E/2 Cz EF GA|
+Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF ED|C3z EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|
+dc c/2B/2-[B/2A/2-]A/2 GF GA|B/2G/2-[G/2E/2-]E/2 Cz EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF ED|
+C3z CD EC|EF DF EC EF|DF EC ED B,D|A/2G/2-[G/2E/2-]E/2 Cz CD EC|
+EF DF EC EF|DF EC ED B,G|C3z CD EC|EF DF EC EF|
+DF EC ED B,D|A/2G/2-[G/2E/2-]E/2 Cz CD EC|EF DF EC EF|DF EC ED B,G|
+C3z EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF GA|B/2G/2-[G/2E/2-]E/2 Cz EF GA|
+Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF ED|C3z EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|
+dc c/2B/2-[B/2A/2-]A/2 GF GA|B/2G/2-[G/2E/2-]E/2 Cz EF GA|Bc dc c/2B/2-[B/2A/2-]A/2 Gc|dc c/2B/2-[B/2A/2-]A/2 GF ED|
+C3z CD EC|EF DF EC EF|DF EC ED B,D|A/2G/2-[G/2E/2-]E/2 Cz CD EC|
+EF DF EC EF|DF EC ED B,G|C3z CD EC|EF DF EC EF|
+DF EC ED B,D|A/2G/2-[G/2E/2-]E/2 Cz CD EC|EF DF EC EF|DF EC ED B,G|
+C6
+S:https://www.folktunefinder.com/tunes/28762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

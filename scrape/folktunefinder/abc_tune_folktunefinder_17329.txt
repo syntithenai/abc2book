@@ -1,0 +1,28 @@
+X: 1
+T: Heather Hill
+C: Dan R MacDonald
+B: Fiddle Music of Prince Edward Island, 1996
+Z: Nigel Gatherer scots-l 2002-7-8
+S: handwritten MS
+M: 4/4
+L: 1/8
+K: G
+B \
+| "G"G2BA BGGB | "(D7)"dedB "G"~G2GB | "G"dedB  degd | "C"egdB "D7"~A2AB |
+| "G"G2BA BGGB | "(D7)"dedB "G"~G2GB | "G"dedB  degd | "C"eg"D7"dB "G"~G2G :|
+|: f \
+| "G"gfga gdde | "G"gage  degd | "Am"eaab ageg | "Am"abag "C"~e2"D7"ef |
+| "G"gagf gdde | "G"gage  degd | "Am"eaab agea | "D7"gedB "G"~G2G :|
+S:https://www.folktunefinder.com/tunes/17329
+S:http://trillian.mit.edu/~jc/music/abc/reel/HeatherHill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HeatherHill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HeatherHill_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

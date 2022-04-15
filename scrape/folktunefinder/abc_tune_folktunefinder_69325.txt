@@ -1,0 +1,25 @@
+X:466
+T: "Sehnsucht"
+N: Z1146
+O: Europa, Mitteleuropa, Deutschland, Franken; Lothringen
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: F
+CC | F3Ac2A2 | A4G2
+GA | B2G2c2B2 | A6
+c2 | d2B2B2d2 | d2c2c2
+A2 | c2B2G2G2 | d4c2
+c2 | d2B2B2d2 | d2c2c2
+A2 | c2B2G2B2 | A6
+S:https://www.folktunefinder.com/tunes/69325
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

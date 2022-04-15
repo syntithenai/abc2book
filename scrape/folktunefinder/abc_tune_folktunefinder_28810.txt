@@ -1,0 +1,46 @@
+X:2530
+T:Cantar de Navid (CT 292)
+R:Navid
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Navid, transcrita en La Pola L.lena.
+N:No hemos podido averiguar el significado de las palabras solende pitio, a pesar de los esfuerzos que para ello hicimos.
+N:Son, sin duda, corrupcin de otras palabras, bien castellanas, o bien en alguno de los dialectos, como a veces se observa en otras canciones.
+O:La Pola L.lena (L.lena)
+A:Asturies
+Z:Cancioneru de Torner 292
+M:2/4
+L:1/8
+Q:1/4=132
+W:Alsa, Bayona,
+W:solende, pitio;
+W:alsa, Bayona,
+W:que en Beln naci un nio.
+W:Los pastores en Beln,
+W:todos van a cortar lea
+W:para calentar al nio
+W:que naci en la Nochebuena.
+W:Alsa, Bayona,
+W:solende, pitio;
+W:alsa, Bayona,
+W:que en Beln naci un nio.
+K:Gm
+|G2 ^FG|A2 GG|c2 cB|A2 G2|G2 ^FG|AG GG|c2 cB|A2 G2-|G z :|:GG|
+cc de|d2 cB|AA BB|A2 G2-|G2 GG|
+cc de|dd cB|AA BB|A2 G2|G2 ^FG|
+A2 GG|c2 cB|A2 G2|G2 ^FG|
+AG GG|c2 cB|A2 G2-|G z :||
+S:https://www.folktunefinder.com/tunes/28810
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Navid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

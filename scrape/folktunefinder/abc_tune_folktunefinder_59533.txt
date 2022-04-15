@@ -1,0 +1,30 @@
+X:646
+T:Rumba d'Ibias (MG 60) (Arrg.)
+R:Rumba
+C:Tradicional
+S:Gaiteru tradicional d'Ibias
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+O:Ibias
+Z:Mtodu de Gaita 60
+M:2/4
+L:1/8
+Q:1/4=120
+E:Comp.
+K:C
+"C"C/2C/2C/2D/2|:"C".EE/2C/2 FF|"C"E3/2C/2 .EE|"G7"D3/2B,/2 CF|"C"EC C/2C/2C/2D/2|
+"C".EE/2C/2 .FF|"C"E3/2C/2 .EE|"G7"D3/2B,/2 DD|[1 "C"C2 C/2C/2C/2D/2:|[2 "C"C2 cB|
+|:"F"A3/2F/2 AA|"C"G3/2E/2 GG|"G7"F3/2D/2 E/2D/2E/2F/2|"G"G2 cB|
+"F"A3/2F/2 AA|"C"G3/2E/2 GG|"G7"FD/2E/2 G/2F/2E/2D/2|[1 "C"C2 cB:|[2 "C"C4||
+S:https://www.folktunefinder.com/tunes/59533
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Rumba
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

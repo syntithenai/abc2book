@@ -1,0 +1,37 @@
+X: 1
+T: S\^irba
+O: Romania
+D: Carpati: 50 miles, 50 years
+S: Transcriptionby Steve Rauch
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+A,2 \
+| "Dm"A,D EF "A7"ED ^CA, | "Dm"D6 zD \
+| "Dm"DF ^GA GF ED | "Dm"^GA3 z2 (3c=BA |
+| "Dm"^GA=Bc dc BA | "Dm"^GA =Bc BA GF \
+| "E7"EF ^GA "A7"A/G/F F/E/D | "Dm"D4 y2 :|
+|: C2 \
+| "F"A2 (3^GA=B c2 (3Bcd | "F"(3_edc (3=Bcd (3cB_B (3AGF \
+| "F"A2 (3^GA=B c2 (3Bcd | "F"(3_edc =BA Bc- c2 |
+| "F"A2 (3^GA=B c2 (3Bcd | "F"(3_edc (3=Bcd (3cB_B (3AGF \
+| "C7"G>A Bc "F"AF "C7"(3BAG | "F"F4 z2 :|
+|: "(A7)"A2 \
+| "Dm"^G>A F>A "A7"E>A ^C>A | "D"D6 zd \
+| "Dm"^c>d B>d "D7"A>d ^F>d | "Gm"G2 zd |
+| "Dm"fd "A7"^c3 ABG | "Dm"A2 A4 FD \
+| "E7"EF ^GA "A7"A/G/F F/E/D | "Dm"D4 y2 :|
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6061
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sirba1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

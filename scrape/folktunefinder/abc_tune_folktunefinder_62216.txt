@@ -1,0 +1,28 @@
+X:193
+T: ICH MOECHTE WOHL DER KAISER SEIN
+N: B0678
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 4/4
+L: 1/8
+K: G
+D | G3DB3G | d3BG3
+B | D4F4 | G4z
+EFG | A2A2A2A2 | F2D2z
+EFG | A2A2A2A2 | F2D
+DD2D2 | F2D2F2D2 | F2z
+FF2F2 | A2F2A2F2 | A2z
+AA2A2 | c2A2c2A2 | c6
+D2 | G3DB3G | d3BG2z
+B | D4F4 | G4z3
+S:https://www.folktunefinder.com/tunes/62216
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

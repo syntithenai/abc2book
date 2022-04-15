@@ -1,0 +1,24 @@
+X:1
+T:10. M. John Langtons Pavan
+T:Cantus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+K:F
+c3 B A2 G3 F F3 E/D/ E2 F c d e f2 e2 d2 c B/ c/ d c c3 =B/ A/ =B/ c =B/ c G A B c2 B2 A2 G3 F2 D E F2 E F8 ||
+G F G A B3 A/ G/ A/ =B/ c2 =B c2 z f > f e f d c2 d c > c =B c > A G/ F/ G F > c d > d e f d2 _e > d c d/ c/ =B c2 =B/ A/ =B/ c =B/ c8 ||
+z c A > B c d c > B A c f > e d/ c/ c2 =B c G A B c2 B2 A2 z f2 e/ d/ e f "(1)"d2 d/ f/ e/ d/ ^c3 d > d c/ =B/  c/ d ^c/ d3 c B4 A G/ F/ G3 F F3 E/ D/ E/ F E/ HF8 |]
+N:(1) Original has quarter note
+S:https://www.folktunefinder.com/tunes/455
+S:http://www.laymusic.org/music/dowland/langton/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

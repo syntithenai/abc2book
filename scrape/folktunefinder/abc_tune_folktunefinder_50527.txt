@@ -1,0 +1,29 @@
+X: 19
+T:Maggie Morrisey
+M:4/4
+L:1/8
+Q:150
+R:Hornpipe
+K:G
+B>c|"G"d>B G>B "D"c>A F>A|"G".G2 G>F G>A B>c|
+.d>g f>g "C"e>f g>e|"G"d>B G>B "D"A2B>c|
+"G"d>B G>B "D"c>A F>A|"G".G2 G>F G>A B>c|
+.d>g f>g "C"e>c "D"A>F|"G".G2 .B2 .G2::
+B>c|"G".d>g f>g "C".e>g f>g|"G".d>g f>g "C".e>g f>g|
+"G".d>g f>g "C"e>f g>e|"G"d>B G>B "D"A2B>c|
+"G"d>B G>B "D"c>A F>A|"G".G2 G>F G>A B>c|
+.d>g f>g "C"e>c "D"A>F|"G".G2 .B2 .G2:|
+S:https://www.folktunefinder.com/tunes/50527
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

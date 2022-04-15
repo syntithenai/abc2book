@@ -1,0 +1,25 @@
+X: 3
+P: Lad O'Beirne
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"d2F AGF | d2F AGF | "A7"A,CE GFG | A,CE GFE \
+|  "D"DFA "G"DGB | "A7"Adc "D"d2e | fed "A7"cBA | GFE "D"D3 :|
+|: "D"~f3 a^ga | fdd de=f | "C"e=ce gfg | "A7"efd cde \
+|  "D"fef "A7"gfg | "D"aga "G"bag | "D"fed "A7"cBA | GFE "D"D3 :|
+S:https://www.folktunefinder.com/tunes/3226
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ12.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/JeffersonAndLiberty.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/JeffersonAndLiberty2.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/JeffersonAndLiberty2
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

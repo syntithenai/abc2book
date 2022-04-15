@@ -1,0 +1,26 @@
+X:452
+T: DIE LIEBE MAIENZEIT
+N: E0392
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Jahreszeiten, Fruehling
+M: 4/4
+L: 1/8
+K: F
+c2 | c3AB2A2 | G4
+c4 | c3AB2A2 | G4z2
+G2 | G3GG2A2 | F4F2
+E2 | F3FG2A2 | B4A2
+A2 | B3BA2G2 | ^F4G2
+G2 | A2B2c2F2 | G4F2
+S:https://www.folktunefinder.com/tunes/78893
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

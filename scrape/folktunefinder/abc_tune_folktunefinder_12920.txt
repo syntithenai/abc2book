@@ -1,0 +1,20 @@
+X: 696
+P: The Weaver and His Wife
+N: Nottingham Music Database
+C: Andrew Rankine
+M: 6/8
+K: A
+E \
+| "A"E2E EAB | c3 A3 | c3 A2c | edc "Bm"B3 | "E7"E2E EBc | d3 B3 | E2e dcB |1 "A"c3- c2 :|2 "A"A3 -A2 ||
+|: "(E)"G/F/ \
+| "A"EAc e3 | EAe c3 | EAc edc | "Bm"d3 -d>Bc | "E7"ded BdB | G3 F3 | E2e dcB |1 "A"c3 -c2 :|2 "A"A3 -A2 |]
+S:https://www.folktunefinder.com/tunes/12920
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

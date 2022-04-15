@@ -1,0 +1,31 @@
+X: 1
+T: the Battle of the Somme
+S: The Albion Country Band
+R: march
+N: This really should be a 9/8 march
+M: 6/8
+L: 1/8
+%Q: 1/8=3D90
+K: D
+   faf \
+| d3 c2d | edG B3   | A3  BdB | A3  d2e | faf  e3- | e2A faf \
+| d3 c2d | edG B>cB | A3  BdB | A3  f2f | e>fe d3- | d3 :|
+|: dcd \
+| e3 A2e | ede fa2  | d2c def | g2z A2g | faf  e3- | e2A faf \
+| d3 c2d | edG B3   | A3  BdB | A3  f2f | e>fe d3- | d3 :|
+S:https://www.folktunefinder.com/tunes/13841
+S:http://trillian.mit.edu/~jc/music/abc/jig/BattleOfTheSomme6_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/BattleOfTheSomme6_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BattleOfTheSomme6_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BattleOfTheSomme6_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

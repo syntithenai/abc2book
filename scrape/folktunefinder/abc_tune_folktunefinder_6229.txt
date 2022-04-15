@@ -1,0 +1,20 @@
+X: 1
+T: Y'did nefesh
+C: S and E Zweig
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"D4 D2 | (A,2 D2) F2 | "G"G3 FGF |1 "Gm"(G4 F2) :|2 G4 z2 |
+w: Y'-did     ne-*fesh     av~~ ha-ra-cha-man,* \-man
+| "A7"G4 G2 | (G2 F2) E2 | "Dm"F6- | F4 z2 | "Gm"G4 G2 | "C7"(G2 F2) E2 | "F"A6- | "D7"A4 z2 |
+S:https://www.folktunefinder.com/tunes/6229
+S:http://trillian.mit.edu/~jc/music/abc/Intl/YedidNefesh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/YedidNefesh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

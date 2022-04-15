@@ -1,0 +1,30 @@
+X: 2
+T: Suvi valssi
+C: Reijo Lumisalmi
+M: 3/4
+L: 1/8
+K: Em
+B,C \
+| "Em"B,2E2G2 | B2G3A | "Am"G2F4- | "B7"F2z2B,C \
+| B,2^D2F2 | B2B2A2 | "Em"G6- | "B7"G2z2B,C |
+| "Em"B,2E2G2 | B2G2A2 | "Am"G2F4- | "B7"F2z2CC \
+| B,2B,2B,2 | ^D2E2F2 | "Em"E6- | E2z2 GA |
+| "Dm"B2B2A2 | "E7"^G2B2c2 | "Am"B2A4- | A2z2AG \
+| "(D)"F2F2F2 | "B7"B2B2A2 | "Em"G6- | "B7"G2z2B,C |
+| "Em"B,2E2G2 | B2G2A2 | "Am"G2F4- | "B7"F2z2C2 \
+| B,2B,2B,2 | ^D2E2F2 | "Em"E6- | E2z2 ||
+|: B,2 \
+| "Em"B6- | B2c2B2 | "Am"A6- | "B7"A2z2FG \
+| "Am"A2A2c2 | "B7"B2B2A2 | "Em"G6- | G2z2G2 |
+| "Am"F4E2 | A,4B,2 | "Em"C4B,2 | B,4B2 \
+|1 "B7"A4F2- | F2G2A2 | "Em"B6- | "B7"B2z2 \
+:|2 "B7"A4F2- | F2G2F2 | "Em"E6- | E2z2 |]
+S:https://www.folktunefinder.com/tunes/8686
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_song5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Kalvelis (C/F)
+R: polka
+M: 4/4
+L: 1/4
+K: C
+|: "C"cG GG | GG EC | "G7"GG FD | "C"GG EC \
+|  "C"cG GG | GG EC | "G7"GG AB | "C"cc "fine"cz :| [K:F]
+|: "F"Cz Fz | Az cz | "C7"cB GE | "F"FD Cz \
+| "C7"Cz Ez | Gz Bz |     BG EC | "F"FF Fz :|
+S:https://www.folktunefinder.com/tunes/16125
+S:http://trillian.mit.edu/~jc/music/abc/polka/Kalvelis_CF.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/Kalvelis_CF.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/Kalvelis_CF.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Kalvelis_CF.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

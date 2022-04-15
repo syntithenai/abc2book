@@ -1,0 +1,28 @@
+X:153
+T: Conscritlied (2-55) S. 175
+N: P0928
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Soldatenlied, Abschied, Liebe]
+M: 3/4
+L: 1/8
+K: G
+D2 | G2B2AA | G2z2
+GA | B2d2cA | B2z2
+G2 | FAA2FD | GBB2
+G2 | FAc2AF | GBB2
+GF | E3FGE | D2z2
+GB | d2d2cA | G2z2
+S:https://www.folktunefinder.com/tunes/76133
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Soldatenlied, abschied, liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

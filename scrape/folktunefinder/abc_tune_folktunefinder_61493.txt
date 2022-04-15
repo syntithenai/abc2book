@@ -1,0 +1,28 @@
+X:9460
+T:Leeds Hornpipe. FK.10
+M:C
+L:1/8
+Q:160
+C:"Kennedy MS no.1"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:A
+A,B,CE A2 cA | EGBG A2 cA | dfdf ceAc | BAGF edcB |!
+ AAce A2 cA | EGBG A2 cA |dfdf cece | EGBG A2 z2 ::!
+ceae cefe | ceae dcBA | cefg agfe | dcBA GBGE |!
+ ceae cefe | dcBA GBGE |dfdf cece |EGBG A3z |]
+S:https://www.folktunefinder.com/tunes/61493
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

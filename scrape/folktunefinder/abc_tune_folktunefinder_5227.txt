@@ -1,0 +1,41 @@
+X: 180
+T: Wirt vo Stoa
+T: (WP2WP2W2)
+R: zwiefacher
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 23/4
+L: 1/8
+K: F
+P: F
+|: "C7"[c2c2] [d2=B2] [e2_B2] | "F"[f2A2] z [cA] | [c2A2] z2 \
+| "Bb"[d2B2] [e2c2] [f2d2] | "C7"[g2e2] z[fd] | [e2c2] z2 \
+| [d'b][c'a] [bg][ge] [ec][gB] | "F"[f2A2] z2 z2 :|
+|: "F"[fA][ac] [ac][gB] [fA][ac] \
+| [c'2f2] [a2f2] | [d'2b2] [c'2a2] \
+| "C7"[b2g2] [bg][ge] [dB][be] \
+| "F"[a2f2] [ac][gB] | [f2A2] \
+| [d'b][c'a] [bg][ge] [ec][gB] | "F"[f2A2] z2 z2 :|
+P: Bb
+K: Bb
+|: "F7"[F2F2] [G2=E2] [A2_E2] | "B"[B2D2] z [FD] | [F2D2] z2 \
+| "Eb"[G2E2] [A2F2] [B2G2] | "F7"[c2A2] z[BG] | [A2F2] z2 \
+| [ge][fd] [ec][cA] [AF][cE] | "B"[B2D2] z2 z2 :|
+|: "B"[BD][dF] [dF][cE] [BD][dF] \
+| [f2B2] [d2B2] | [g2e2] [f2d2] \
+| "F7"[e2c2] [ec][cA] [GE][eA] \
+| "B"[d2B2] [dF][cE] | [B2D2] \
+| [ge][fd] [ec][cA] [AF][cE] | "B"[B2D2] z2 z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5227
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

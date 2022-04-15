@@ -1,0 +1,26 @@
+X:5780
+T:Smedens Anders Skottish
+M:4/4
+O:Denmark
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000982.html
+%%ID:00000982
+K:G
+D>G B>A G2G2|B>d g>B d2g2| f>g a>f d2e>f \
+|1 g>f g>e d2z2 :|2 g>d B>d G2z2 :|
+|:\
+e3f g2f>e|d>e d>B G2B2|\
+A>B A>F D2E>F|G>F G>B d2z2|
+e3f a>g f>e|d>e d>B G2B2 |\
+A>B A>F D2E>F|G2G2G2 :|
+S:https://www.folktunefinder.com/tunes/37235
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+% Copyright 1936 PolyGram International Publishing, Inc. and Aldi Music (c/o The Songwriters Guild Of America)
+T:The way you look tonight
+M:4/4
+L:1/4
+C:Jerome Kern & Dorothy Fields
+Q:1/4=200
+%%staves (chords melody)
+K:F
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Dm7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( -/Bb"" "x2 |
+"Am7 )""Fmaj7"x2 x2 | "D7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 "Gm7"x2 | "C7"x2 x2 |
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+c4 | F4 | GABA | G4 |
+S:https://www.folktunefinder.com/tunes/19106
+S:http://trillian.mit.edu/~jc/music/abc/song/way_you_look_tonight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/way_you_look_tonight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/way_you_look_tonight.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/way_you_look_tonight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

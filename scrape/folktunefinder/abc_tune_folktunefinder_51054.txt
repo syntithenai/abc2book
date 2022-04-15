@@ -1,0 +1,27 @@
+X:18014
+T:Rule Britannia
+R:March
+C:Tune: Arne. Words: Thomson
+O:England
+M:4/4
+L:1/8
+Q:1/4=100
+K:D
+A|"D"d2d2 (d/2e/2f/2g/2) ad|"A"e3 (f/2g/2) "D"f2 z A|
+("D"d/2e/2d/2e/2) (f/2 g/2f/2g/2) "A"aefe|"D"de/2f/2 ed "F#m"c3 A|
+"A"cAeA a^g/2f/2 e/2d/2c/2B/2|"D"A2B2 A A2z|
+"D"d2 d>A "G"BG z d|"G"g>fed "F#m"c2 z A|
+"D"a2g2 f/2d/2g/2e/2 ag|f2 e/f/e/d/ d4|
+"D"f2 z f gg z f|"Em"g>fe>d "G"c4|
+"D"a2g2 f/2d/2g/2e/2 ag|f2 e/f/e/d/ d4||
+% --------------------------------- S ---------------------------------------
+S:https://www.folktunefinder.com/tunes/51054
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

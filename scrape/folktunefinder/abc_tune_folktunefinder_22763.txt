@@ -1,0 +1,25 @@
+X:2312
+T:Good night and Joy be with you all
+O:england
+M:4/4
+N:version of song "the Parting glass"
+L:1/8
+K:D
+fe | \
+d2d2 A3d | B2B2 b3a | faba faba | f2e2 e2fe |\
+d2d2 A3d | B2B2 b3a | faba faba | f2d2 d2 :|
+|:zf |\
+edef e2dB | ABde f2ed | e3f gfga | b2e2 e3f |\
+gfga b2ag | fefg a2gf | edef afef | e2B2 B2 :|
+S:https://www.folktunefinder.com/tunes/22763
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

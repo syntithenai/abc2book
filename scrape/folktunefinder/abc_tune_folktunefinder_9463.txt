@@ -1,0 +1,30 @@
+X: 3
+T: Klara solen p\aa himmelen den lyser
+M: 3/4
+L: 1/8
+K: F
+"A"\
+[| "F"CC F2 DD | "C7"EF G2 FE |1 "F"F2 C2 z2 :|2 "F"F2 C2 zA |
+w: 1.~Kla-ra so-len p\aa him-me-len den* ly-ser, | ly-ser, och
+"B"\
+|  "F"AA A2 FF | "Bb"GA B2 "F"AA | "C7"A2 G2 zG |
+w: fris-ka vatt-net i kla-ra k\"al-lan, det fry-ser, och
+   "F"AB c2 CC | "C7"CC B2 AG | G2 "F"F2 z2 |
+w: fris-ka vatt-net i kla-ra k\"al-lan, det fry-ser.
+"C"\
+|: "F"C2 F2 "Bb"D2 | "C7"EF G2 FE |1 "F"F2 C2 z2 :|2 "F"F2 C2 zC |]
+w: 2.~Kom, kom, min lil-la v\"an, l\aat oss nap-pas. | nap-pas. Och
+w: 3.~Jag ska' er b\aa-da tv\aa sam-man-vi-ga. | \-vi-ga. Och
+"D"\
+|: "C7(Gm)"BB BB BB | "F"AA AA AA | "C7"GG GG GG |1 "F"F2 c2 zc :|2 "F"F2 F2 z2 |]
+w: 2.~ef-ter kom-mer pr\"as-ten, ef-ter kom-mer pr\"as-ten med sin l\aang-a svar-ta kap-pa, och | kap-pa.
+w: 3.~du ska' he-ta far och du ska' he-ta mor och du v\aar lil-la n\"at-ta pi-ga, och | pi-ga.
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/9463
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

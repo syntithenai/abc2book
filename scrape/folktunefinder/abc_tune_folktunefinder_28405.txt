@@ -1,0 +1,38 @@
+X:7953
+T:Waltz. CJF.233
+O:england
+M:3/8
+L:1/16
+Q:60
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The tune carries across from lower half of. CJF.137 to the lower half
+N:of
+N:the facing sheet. CJF.138. A symbol resembling a circled asterisk is
+N:use
+N:
+N:to make this clear in the MS. "Charles James Fox" is written on the
+N:stave at the end of the tune. - PJH.
+K:G
+"p"g4g2|{a}g2f2g2|b6|b2a2g2|a4e'2|d'4c'2|b6|b4z2|g4g2|\
+{a}g2f2g2|e4a2|c'4e'2|d'2c'2b2|a2g2f2|g6|g4z2:||:
+"f"A^GBAFA|^cdedcd|efgfba|gfefd2|A^GBAFA|\
+^cdedcd|efgfba|d4z2:||:d4b2|
+g6|{a}g2f2g2|(e'4d'2)|(d4c'2|a4a2|(gfedef|g4z2:||:\
+B4g2|.e2(Be).g2|.f2(df)b2|(g4e2)|
+.a2(fa).d'2|(b4g2)|d'4(fa)|g4z2||
+S:https://www.folktunefinder.com/tunes/28405
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

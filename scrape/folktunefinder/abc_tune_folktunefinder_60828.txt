@@ -1,0 +1,28 @@
+X:8795
+T:L'Estecheiru
+C:Beleo
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+M:6/8
+L:1/8
+Q:3/8=120
+K:F
+|:G2E G2E|FED EDE|G2E G2E|
+BAG AGF|G2E G2E|FED C3:|
+|:EFG E2C|DEF E2C|EFG E2C|DEF E3|
+EFG E2C|DEF E2C|BAG AGF|GFE C3:|
+|:BAG AGF|G2E G2G|BAG AGF|G6|
+AGF GFE|F2E D2C|DEF EFE|C6:|
+S:https://www.folktunefinder.com/tunes/60828
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

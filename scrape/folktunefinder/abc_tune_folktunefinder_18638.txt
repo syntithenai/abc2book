@@ -1,0 +1,36 @@
+X:1
+T:Confirmation
+M:4/4
+L:1/8
+C:Charlie Parker
+Q:1/4=200
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+"F6"Ac2A BA (3EF^F|"Em7b5"GdBG "A7"A^C2G|"Dm7"zFz2 "Db7"z3A|"Cm7"GBAG "F7"zF2B|
+"Bb7"_cB_AF BA3|"Am7"zcBG "D7"^FAD=B-|"G7"B2eA z3_e/d/|"Gm7b5"_dFGE "C7"zc3||
+P:A
+"F6"A2zF (3BA_A G=A|"Em7b5"F/G/_Ez2 "A7"z^C2G-|"Dm7"GF- Fz "Db7"z3A|"Cm7"GBAG "F7"F_DFF-|
+"Bb7"F_ABF ABz2|"Am7b5"z_EGB "D7"A^Fz2|"Gm7"G_B (3A/B/A/G "C7"c^GAF|"F6"z4 zd3||
+P:B
+"Cm"c2 z/G/_E/C/ "Cmmaj7"=BG2G|"Cm7"(3BcB G_E "F7"_A_G_CF|"Bb6"AFAG-G3G|z4 z3B|
+"Ebm7"_d/B/_A/=A/ c/B/_G- G_AF_F|"Ab7"_E_AA2 AA- A_G/=E/|"Dbmaj7"(3F/_A/c/_e- ed/c/ _d/B/z z2|"Gm7b5"zG_DF "C7"_AEDC|]
+P:A
+"F6"z2<c2 BA (3EF^F|"Em7b5"GdBG "A7"A^C2G|"Dm7"zFz2 "Db7"z3A|"Cm7"GBAG "F7"zF2B|
+"Bb7"_cB_AF BA3|"Am7"zcB^G "D7"A^CDF-|"Gm7"FDFA "C7"zF2D|"F6"F2z2 "(C7)"z4|]
+S:https://www.folktunefinder.com/tunes/18638
+S:http://trillian.mit.edu/~jc/music/abc/song/Confirmation.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Confirmation.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/confirmation.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/confirmation.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/Confirmation.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/confirmation.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/confirmation.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

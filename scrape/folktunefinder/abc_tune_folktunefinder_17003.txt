@@ -1,0 +1,29 @@
+X: 1
+T: David White's Reel
+C: Jerry Holland
+S: BSFC (handwritten MS)
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+D | "D"FAAG     BAAd |  "G"B2AB "D"degf    | "A7"e2fe "D"d2ed |  "G"B2dF "A7"EDEG |
+y2| "D"FAAG     BAAd |  "G"B2AB "D"degf    | "Em"edef "G"B2dB | "A7"AFEG  "D"FDD  :|
+f | "D"abaf  "A"edef | "Em"edef "G"[ge]dB2 |  "D"ABde    dBAF |  "D"ABdA "A7"FEE  ||
+f | "D"abaf  "A"edef | "Em"edef "A"edB2    |  "D"ABde    dBAF | "A7"EDEG  "D"FDD  |]
+f | "D"abaf "Bm"edef | "Em"edef "G"[ge]dB2 |  "D"ABde    dBAF |  "D"ABdA "A7"FEE  ||
+G | "D"FAAG     BAAd |  "G"B2AB "D"degf    | "Em"edef "G"B2dB | "A7"AFEG  "D"FDD  |]
+S:https://www.folktunefinder.com/tunes/17003
+S:http://trillian.mit.edu/~jc/music/abc/reel/DavidWhitesR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DavidWhitesR_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DavidWhitesR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

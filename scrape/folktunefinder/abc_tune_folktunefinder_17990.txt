@@ -1,0 +1,28 @@
+X: 1
+T: le Reel en viole
+O: Quebec
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed page from Debby Knight
+M: C|
+L: 1/8
+K: A
+|::: a2ab a2e2 | fef=g fecd |1,3 e2ef e2a2 | f2df e4 :|2,4 e2ef ecAc BABc A4 :|
+|::: A2Ac e2ce | fedf e2ef | ecAc BABc |1,3 [M:1/2]B4 :|2 A4 :|4 A2cA ||
+M: C|
+|::: BABc dcBd | cAcA EAcA | BABc dcBd |1,3 cAA2 A2cA :|2,4 cAA2 A4 :|
+|::: efed c2ee | fefg abaf | efed c2Ac |1,3 BABc B4   :|2,4 BABc A4 :|
+S:https://www.folktunefinder.com/tunes/17990
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelEnViole_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelEnViole_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 1/2
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

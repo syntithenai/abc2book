@@ -1,0 +1,33 @@
+X: 237
+T:Nabrala 2
+O:Czech Republic
+M:2/4
+L:1/8
+Q:1/4=132
+K:Eb
+%%MIDI program 110
+%%MIDI bassprog 32
+%%MIDI chordprog 32
+"Fm"[fd][fd] [fd][fd]|"Dm"[ec][d=B] [e2c2]|\
+"Fm"[fd][fd] [fd][fd]|"Dm"[ec][d=B] [e2c2]|\
+"Cm"[c2G2] [f2d2]|[ec][d=B] [c2G2] |\
+[dA] [c2G2] [=BG] |[c2G2] [c2G2] |
+|:"Gm"[g3c3] [c'g] |[g3c3] [c'g] |\
+"Bb"[bg][af][ge][fd] |[g2e2] [e2c2] |\
+"Fm"[fd][ec] [d2=B2]|"Cm"[c4E4] :|
+|:"Eb"ed ef|ed ef |\
+"Gm"g2 c'2 |g4 |\
+"Fm"ff ff|ed e2 |\
+ff ff |ed e2 |
+"Fm"c2 f2|ed c2 |\
+"Cm"d c2 =B|c2 c2 :|
+S:https://www.folktunefinder.com/tunes/54220
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 7916
+T:Teviot Bridge
+R:Jig
+O:Scotland
+M:6/8
+K:A
+f |\
+ecA E2A | F2A E3 | EFE E2c | d2c B2A | \
+ecA E2A | F2A E2c | def ecA | B3 A2 :|
+|: c |\
+ecA Ace | fgf fga | ecA AcA | BGE E2c |\
+ecA Ace | agf edc | dfa ecA | B3 A2 :|
+S:https://www.folktunefinder.com/tunes/35133
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

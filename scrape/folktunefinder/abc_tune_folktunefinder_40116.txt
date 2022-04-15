@@ -1,0 +1,33 @@
+X: 12
+T: 2. Lynne Brook
+R: Strathspey
+C: Doreen McKerron
+M: C
+L: 1/8
+Z: Notated by Robin Shaylor, November 2004
+% Q: 220
+K: G
+|: B>c |\
+"G" d>e          d>c      TB>A      G>A  | "Em"  TB>A G>F "C"   TE>D E<F   |\
+"G"  {F}G2 "/F#" G2 "Em"  G2        A>B  | "A7"  A>G F>G  "D7"   A>D B>c   |
+"G"   d>e        d>c      TB>A      G>A  | "Em"  TB>A G>F "C"   TE>D E<F   |\
+"G"  {F}G2 "Bm"  d2 "Am7" TB2 "D7"  A>B  | "G C" {F}G4    "G"    G2 (3 DEF |
+"G"  {F}G2 "/F#" G2 "Em"  G2        A>B  | "Am"  c>d e>d  "Am/C" c>B A>G   |\
+"A7"  A2         A2       A2        B>^c | "D"   d>e f>e  "D7"   d>=c B>A  |
+"G"  {F}G2 "/F#" G2 "Em"  G2        A>B  | "C"   c>d e>d "Em7"   c>B  A>G  |\
+"Am7" A2c2 "D7"  D>_E    =E>F | "G" G2 "C" G2 "G  (A7)" G2 :| [K:D] |
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 9 of 31
+S:https://www.folktunefinder.com/tunes/40116
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

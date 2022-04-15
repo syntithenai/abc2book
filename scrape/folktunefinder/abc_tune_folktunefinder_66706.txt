@@ -1,0 +1,26 @@
+X:22
+T:The Longford Tinker
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:D
+fe | "Bm" dBBA   B3    c | "Bm" dB ~B2 "A" fgef | "Bm" dBBA      BABd | "A" ABde      fdef |
+     "Bm" dB ~B2 FB  ~B2 | dB ~B2         def^g | "A" aAA^G   ~A2  FB | ABde          fdef |]
+     "D" dcdf   "A" edfe | "D" dafa    "G" gefe | "D" dafa "A" eg ~g2 | "G" defa  "A" gefe |
+     "D" dafa   "A" gefe | "D" dafa   "G" g2 dg | "G" bgaf       gfed | "D" f2   af   gfed |]
+     "D" fA ~A2 "A" FAEF | "D" Dafa        gfed | "G" gbba    b2   ba | "G" gbaf  "A" gfed |
+     "D" fA ~A2 "A" FAde | "D" fdaf   "G" g2 dg | "G" bgaf       gfed | "D" f2 bf "G" gfed |]
+     "D" fa ~a2  fa  ~a2 | "D" faaf    "A" gfed | "G" fa  ~a2  fa ~a2 | "G" gbaf  "A" gfed |
+     "D" fa ~a2  fa  ~a2 | "D" faaf   "G" g2 dg | "G" bgaf       gfed | "D" f2   af   gfef |]
+S:https://www.folktunefinder.com/tunes/66706
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 47
+T: The Toda Klop
+C:Cormac Breathnach
+D:Cormac Breathnach "Musical Journey"
+M:2/4
+R:Polka
+S:Emmanuel Mann  irtrad-l 2001-11-26
+K:G
+|: e>g ed | G/A/(3B/c/d/ e/c/A/F/ | GG/A/ ~Bd | c/B/A/G/ ~Ad/e/ \
+| f>g e/f/f/e/ | dg/f/ e/d/c | B/c/d G/F/G/A/ | BA a(3B/c/d/ :|
+| ~a3 g | e2 ag | e2 d2 | e/c/A/F/ GG/A/ | ~B2 d2 | g/f/e/d/ e/f/g/b/ \
+| ~a3 g | e2 ag | e2 de/c/ | A2 B/c/d | G/F/G/A/ BA | a2 |
+| ~a3 g | ea/g/ a/g/e/d/ | e/B/c/A/ GG/A/ | ~B2 d2 \
+| g/f/e/d/ G/A/B/d/ | e>g ed | G/A/c/d/ e/d/c/A/ | B/c/d G/F/G/A/ BA | a2 ||
+|: d/e/f/g/ ag | f/e/d G/A/c/d/ | e/d/g/d/ e/d/c/A/ | d/e/f/g/ ag \
+| f/e/d c/G/c/d | e/d/c/B/ B/A/G2 A/B/d2 | G/F/G/A/ BA | a2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6352
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:319
+%%topmargin 3cm
+T:Mrs. Dundas of Arniston
+C:Wm. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Manuscript has 3 eighth notes at the beginning of the 2nd measure, with a turn over the 3rd eighth note. I've changed the 3rd eighth note to a quarter. rp.
+R:Reel
+M:C|
+L:1/8
+K:C
+G | ~c2 (ce) dBG_B | AF ~F2 GE{/B,}CE | ~F2 FA {/^F}GE{/B,}CE | {/E}FDCB, {/B,}C2 C :| f | (eg)ec Bd g2 | Ac f2 Gc e2 |
+FAdF EGce | fdcB ~c2 (cf) | (eg)ec BdgB | AcfA GceG | FAdF EGcE | FD{/B,}CB, {/B,}C2 C |]
+S:https://www.folktunefinder.com/tunes/71348
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Dundas_of_Arniston.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0319.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

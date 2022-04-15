@@ -1,0 +1,41 @@
+X: 192
+T:Glasses sparkle on the Board,The. CJF.192
+M:C
+L:1/8
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"C J Fox" is in the stave after the tune. The grace note run two bars
+N:from the end is written over a Quaver rest in the MS. The first four
+N:notes in bar 6 are semiquvers in the MS (e/d/)(c/B/). I have inserted
+N:the bar line just before the "cresc" marking. In the bar marked "p",
+N:the beamed notes were quavers in the MS (ed). - PJH
+Z:vmp.P J Headford 2000
+K:D
+"Bold f"A2|d2A2f3e|{e}d2cBA2dc|B2d2(ag)(fe)|\
+d3(e/d/)c2A2|!
+f2(ed)e2A2|"6"(ed)(cB)c2ac|B3f edcB|A6|!
+a2|"cres"A3B cdef|g2G2F2zA|\
+B2d2(ag)(fe)|d3(e/d/)c2z"p"A|!
+d3cB2cd|\
+e3dc2de|f3ed2ef|g2f2he2A2|"f".d2.c2.B2.A2|!
+((3GAG) ((3FGF)E2B2|e2d2c2B2|((3ABA) ((3GAG)F2A2|\
+a3gf2e2|!
+d3c (dhb) ({a/g/f/e/}{d/c/B/A/)} F|(GF).G.E"tr"A3A|D6|]
+S:https://www.folktunefinder.com/tunes/49747
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

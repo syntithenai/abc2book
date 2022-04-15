@@ -1,0 +1,26 @@
+X:32
+T: Der verkleidete Markgrafensohn
+N: D0033
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Inzipit = Variante zum Lied
+R: Ballade
+M: 4/8
+L: 1/8
+K: G
+DDD | G2FE | FGA2- | A3
+A | BAGF | E2D
+A | AAB | AAd2 | cBA | G2A
+B | cA | BAG | F3 | G3
+S:https://www.folktunefinder.com/tunes/72489
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

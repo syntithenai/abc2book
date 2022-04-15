@@ -1,0 +1,29 @@
+X:8062
+T:Whinshields
+O:england
+S:NPTB, via EF
+M:4/4
+L:1/4
+K:G
+d/2c/2|"G"BG GB|"D7"AD D(3D/2E/2F/2|"G"GG "D7"G/2A/2B/2c/2|"G"dB "G7"dg|\
+"C"ec ce|
+"G"dG GA/2B/2|"Am"cB "A7"AG|"D7"FA d/2e/2d/2c/2|"G"BG GB|"D7"AD D(3D/2E/2F/2|
+"G"GG "D7"G/2A/2B/2c/2|"G"dB "G7"dg|"C"ec ce|"G"dG GA/2B/2|\
+"Am"c/2B/2A/2G/2 "D7"Fd|"G"G2 "D7"Gd|
+"G"g3/2a/2 "D7"g/2f/2e/2d/2|"G"BG GA/2B/2|"C"c/2B/2c/2d/2 c/2B/2A/2G/2|\
+"Am"FA "D7"df|"G"g3/2a/2 "D7"g/2f/2e/2d/2|
+"G"BG GB|"A7"A"g"A "f#"B"e"^c|"D7"d-"c"d "b"e"a"f|"G"g3/2a/2 "D7"g/2f/2e/2d/2|\
+"G"BG GA/2B/2|
+"C"c/2B/2c/2d/2 c/2B/2A/2G/2|"D7"FA d/2e/2d/2c/2|"G"BG GB|"D"AD DB|\
+"Am"c/2B/2A/2G/2 "D7"Fd|"G"G3||
+S:https://www.folktunefinder.com/tunes/28514
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

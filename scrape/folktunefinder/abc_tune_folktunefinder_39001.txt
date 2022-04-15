@@ -1,0 +1,44 @@
+X:17630
+T:Tonada (CT 113)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Pelgano, ayuntamiento de Ayer.
+N:Variante de la nmero CT 114.
+O:Pelganu (Ayer)
+A:Asturies
+Z:Cancioneru de Torner 113
+M:3/8
+L:1/8
+Q:3/8=83
+W:Esta noche ha llovido,
+W:maana hay barro;
+W:cuatro pares de mulas
+W:lleva mi carro.
+W:
+W:Cuatro pares de mulas,
+W:cutro zagales,
+W:cuatro delanterillos,
+W:tres mayorales.
+W:
+W:Cuatro delanterillos,
+W:tres mayorales,
+W:cutro son los que rondan,
+W:nia, tu calle.
+K:Gm
+|:G2 B|ddd|edc-|cee|(f>e)d-|d2 z|
+G2 B|ddd|edc-|cBA|(B>A)G-|G2 z:||
+S:https://www.folktunefinder.com/tunes/39001
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

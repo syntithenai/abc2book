@@ -1,0 +1,45 @@
+X: 1
+T: Triti P\^uti
+Z: John Chambers <jc@trillian.mit.edu>
+D: 
+M: 2/4
+L: 1/16
+K: Em
+"A"\
+|::: "Em"GABA ~G2FE | G2FD E2[B2E2] :::|\
+"B"\
+|::: "Am"AGAB "Em"~G2FE | ~G2FD E2[B2E2] :::|
+K:Ephr^G
+"C"\
+|: "E"B2AG GEAB | ~G2FE EGBE | B2AG GEAB | "E"~G2"B7"FE "E"E2z2 |
+|  "E"ABBE GEAB | ~G2FE EEBE | ABBE GEAB | "E"~G2"B7"FE "E"E4 :|
+K:Ephr=G
+"D"\
+|::: "Em"GABE ~E2DE | GE=FD ~E2B,E :::|\
+"E"\
+|::: "Em"GEFD E2GA | GEFD ~E2B,E :::|
+K:D
+"F"\
+|::: "D"GAFA ~A4 | GAFA ~F2ED :::|\
+"G"\
+|::: "D"FGA2- A2D2 | GD~F2 EDD2  :::|
+K:E=f^G
+"H"\
+|::: "E"GABE GEAB | ~G2FE [1,3 E2BE :|2,4 EDE2  :|
+K:A
+"I"\
+|: "E"GABE "A"dccE | dccE "E"eEE2 | "E"GABE "Am"=cB"E"BE | "Am"=cB"E"BE GE"B"FE :|
+"J"\
+|::: "A"cBAE "E"GE"B"AB | "E"~G2"B"FE [1,3 "E"E2BE :|2,4 "E"EB,E2 :|
+S:https://www.folktunefinder.com/tunes/6147
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TritiPuti3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

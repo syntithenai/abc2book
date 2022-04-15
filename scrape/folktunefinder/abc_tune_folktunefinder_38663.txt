@@ -1,0 +1,31 @@
+X:17292
+T:The Toastmaster
+% Nottingham Music Database
+S:Mick Peat
+P:/f2Can be played fast or sedate/fP
+M:4/4
+L:1/4
+K:G
+"d"d2 "b"B3/2"d"d/2|"g Gv1"g3d|"C"e/2d/2c/2B/2 "D"A/2e/2d/2c/2|\
+"G"B/2A/2G/2F/2 G/2D/2G/2B/2|"d"d2 "b"B3/2"d"d/2|"g Gv1"g3d|1
+"C"e/2d/2c/2B/2 "D"A/2e/2d/2c/2|"G"BG G/2A/2B/2c/2:|2\
+"D"e/2d/2c/2B/2 A/2e/2d/2f/2|"G"gG G2:|
+K:A
+"A"A2 "Ev2"e3/2d/2|"Av1"c3"A"e|"D"f/2e/2d/2c/2 "E"B/2f/2e/2d/2|\
+"A"c/2B/2A/2G/2 A/2E/2e/2c/2|
+"D"d2 "Av2"a3/2g/2|"Dv1"fd "D"fa|"G"b/2a/2g/2f/2 "A"g/2a/2b/2c'/2|"D"d'd 
+P:DC al fine
+"D7"d2:|
+S:https://www.folktunefinder.com/tunes/38663
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

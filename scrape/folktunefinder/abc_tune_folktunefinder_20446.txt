@@ -1,0 +1,39 @@
+X:2
+T:11. Fantasia tertia.
+T:Tenor.
+C:B. Lupachino.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z: Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+N:Original clef, C on fourth line
+%%MIDI transpose -12
+K:F -8va
+z8 c4 A2 B2 G > F G A G/ F/ E/ "(1)"D/ "(2)"F3 E/ D/ E2 "A"F8 "(3)"z4 F2 c > c d2 B2 c3 B A2 B2 G2 A3 G F3 _E E2
+N:(1) Original is quarter note
+N:(2) If the dot is there in the original, it's covered by a smudge
+N:(3) My original guess about this smudge was that it was a half rest.
+F2 c > B A F G A D2 z G A c B > A G2 F f2 e g/ f/ e/ d/ c/ A/ d > c A B c "B"F A > G F/ E/ D F
+E C G4 z D2 E F2 G/ A/ B/ c/ d/ e/ f d2 c2 B G d > c A/ B/ c/ A/ B/ A/ G/ F/ G4 F2 F B c d e c
+e f g G d3 c B2 A > B c d > c d G d2 c2 B2 A G g2 f > e d/ c/ B/ A/ B2 G2 d > c A2 f4 B2 c > d _e2
+f > e d2 "C"c g > f e/ d/ c A B c2 B c2 z A B c d f > e c d B c d c/ B/ A/ G/ F f > e d c2
+%These two lines have bad bleedthrough from the other side of the sheet
+B _e d2 c f > e d/ c/ B/ A/ d > c c2 f e d2 c2 f2 _e f > e c d2 c2 A G2 A F B2 A2 F G
+A c2 B c > B A G B A G2 "D"F6 z2 c4 A2 B2 G > F G A > G F/ E/ D F2 E/ D/ E2 F A2 F G2 A B2 A G2 F16 |]
+S:https://www.folktunefinder.com/tunes/20446
+S:http://www.laymusic.org/music/bicinia/tertia/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

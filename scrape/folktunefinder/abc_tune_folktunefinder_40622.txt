@@ -1,0 +1,26 @@
+X:41
+T:Marche van Beyeren
+O:vlaanderen
+C:J. De Gruytters 1746
+Z:Bart Vanhaverbeke 
+L:1/8
+M:C|
+K:G
+(3def | g4 d4 | B3 A G2 D2 | G2 A2 B2 c2 | AGAB Adef | g4 d4 | B3 c d2 G2 | c2 BA A3 G | G6 :|
+d2 | gfga gagf | e6 e2 | agab abag | f3 g a2 d2 | g2 fe e3 d | d6 d2 |
+gfga gagf | edef efed | cBcd edcB | AGAB Adef | g4 d4 | B3 c d2 G2 | c2 BA A3 G | G6 :|
+V:2
+L:1/4
+z | GABF | G3 F | EFGC | D2 z2 | GABF | G>ABE | CEDD | G3 :|
+z | GABG | cCcB |AB^cA |d3 F |ED AA | dcBA |
+GABF | c3 B | AFGc |d D z2 | GABF | G>ABE | FG dD | G3 :|
+S:https://www.folktunefinder.com/tunes/40622
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:85
+T:Lei Cascavu
+O:France
+A:Provence
+C:Trad.
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Bbmajor
+dc|:B2c d2e|f3- fde|f2f fgf|e2d cdc|B2c d2e|f3- fde|f2f fgf|e2d c2B|
+c2B c2d|e2d c3|Bcd Bcd|cdB cdc|B2c d2e|f3 g3|fgf edc|B3- Bdc:|
+%%footer $D   Galouvielle-MBe 2008 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/544
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

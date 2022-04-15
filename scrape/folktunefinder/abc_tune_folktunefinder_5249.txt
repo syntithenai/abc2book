@@ -1,0 +1,37 @@
+X:1
+T:Oson zes fainu
+T:Drinking song (c. 100 B.C.)
+C:anon.
+O:Greece
+B:Allorto: Antologia della storia della Musica (Milano 1959)
+N:ABC transcription by Frank Nordberg - http://www.musicaviva.com
+R:Drinking song
+Z:Reconstructed by Ricardo Allorto
+S: Frank Nordberg <frnordbe@online.no> abcusers 2001-01-07
+%http://www.musicaviva.com/abc/abcusers/2000.abc
+%Posted June 19th 2000 at abcusers by Frank Nordberg.
+M:6/8
+L:1/8
+K:E dorian %or rather: ancient Greek phrygian
+Ae2 e3|(cde) d3|c2d e (dc)|BA2 (BG2)|
+S:https://www.folktunefinder.com/tunes/5249
+S:http://trillian.mit.edu/~jc/music/abc/Greece/OsonZesFainu.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/OsonZesFainu.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/DrinkingSongC100BC.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/DrinkingSongC100BC_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/OsonZesFainu.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/OsonZesFainu_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/DrinkingSongC100BC.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/DrinkingSongC100BC_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/OsonZesFainu.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/OsonZesFainu_1.abc
+% Rhythm Drinking song
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 9559
+T:Daniel O'Connell (version)
+R:Jig
+S:Seamus Quinn, Fermanagh (fiddle)
+D:From RTE 'The Pure Drop'
+N:As played, but lots of open strings, and a very dotted rythmn.
+M:6/8
+Z:Bernie Stocks
+K:D
+|: d2D {G}FED | AFA BAF | GBG F2E | DFA B2c | d2D {G}FED | AFA {d}BAF |
+~G3 EAG |1 FDD DFA :|2 FDD D2d |: dcd ede | fdB AFA | {e}dcd efg |
+fdd d2A | ded {e}dcB | AFd AFD | ~G3 EAG |1 FDD D2d :|2 FDD DFA ||
+S:https://www.folktunefinder.com/tunes/35459
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

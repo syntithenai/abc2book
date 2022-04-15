@@ -1,0 +1,39 @@
+X:26
+T:Bolero
+O:France
+A:Provence
+R:Bolero
+S:
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-01
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+V:Galoubet1 name=Gal._1
+Hf2 {fcABcAFG}HA (c | B2) A2 | (A4 | G2) z2 | Hf2{fedcBAGF} dB | A2G2 | F2z2 | (A2c2 | d2c2) | BAGF | 
+(A2G2) | B2c2 | d2cB | AG^FG | A3z | f2e2 | edcB | A2G2 | F3z | Az3 | Fz3 |: [M:3/4] ff/f/ fedc | AA/A/ AcBA |
+GG/G/ GABd | cc/c/ c^cde | ff/f/ fedc | dd/d/ defg | afcABG | Fzfz z2:: [K:C] GG/G/ GABc | ee/e/ edcB |
+AA/A/ ABcd | dd/d/ dcBA | GG/G/ GABc | gg/g/ gfed | AA/A/ AcBd |1 cc/c/ cz z2 :|2 cc/c/ cz c2 || [K:F] ff/f/ fedc |
+AA/A/ AcBA | GG/G/ GABd | cc/c/ c^cde | ff/f/ fedc | dd/d/ defg | afcABG || Fzfz z2| F2G2A2 |B3dcB |
+A2c2f2 | g4f2 | F2G2A2 | B3dc=B | [Ac]fcABG | Ff/f/ ffff | F2G2A2 | B3dcB | A2c2f2 | g4f2 | F2G2A2 |
+B2c2d2 | f2_e2c2 | BB/B/ Bz c2 ||  FF/F/ FFFF | AA/A/ AAAA | cc/c/ cccc | fz z2z2 | fz z2z2 | fz z2z2 |]
+V:Galoubet2 name=Gal._2
+AHz (HF2 | G2)F2 | E4- | E2 z2 | AHz z2 | F2E2 | F2z2 | F2A2 | B2A2 | GFEF | 
+(F2E2) | G2A2 | B2EG | FE^FG | F3z | A2c2 | GBAG | F2G2 | F3z | Azz2 | Fzz2 |:  [M:3/4] 
+AA/A/ AcBA | FF/F/ FAGF | EE/E/ EFGB | AA/A/ ABAG | AA/A/ AcBA | BB/B/ BGdG | cAAFGE | FzAzz2 :: [K:C] EE/E/ EEGE | GG/G/ GGEG |
+FF/F/ FdAF | FF/F/ FAGF | EE/E/ EEGE | ee/e/ edcG | FF/F/ FAGF |1 EE/E/ Ezz2 :|2 EE/E/ Ez A2 || [K:F] AA/A/ AcBA |
+FF/F/ FAGF | EE/E/ EFGB | AA/A/ ABAG | AA/A/ AcBA | BB/B/ BGdB | cAAFGE || FzAz z2 |  F2G2A2 |B3dcB |
+A2c2f2 | g4f2 | F2G2A2 | B3dc=B | [Ac]fcABG | Ff/f/ ffff | F2G2A2 | B3dcB | A2c2f2 | g4f2 | F2G2A2 |
+B2c2d2 | f2_e2c2 | BB/B/ Bz c2 || FF/F/ FFFF | FF/F/ FFFF | AA/A/ AAAA | Az z2z2  | Az z2z2  | Az z2z2  |]
+%%footer $D   Galouvielle-MBe 2008 \nChanson (--)
+S:https://www.folktunefinder.com/tunes/485
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Bolero
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

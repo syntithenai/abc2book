@@ -1,0 +1,82 @@
+X: 21
+T: the Sailor's Cravat
+M: 2/2
+L: 1/8
+Q:1/4=170
+K:D % 2 sharps
+% the Sailor's Cravat
+% (c) SSF February 2006
+V:1
+d2 fe dc Bd| \
+AB FB AD FA| \
+d2 fe dc Bd| \
+AF DF GE  (3EDE|
+d2 fe dc Bd| \
+AB FB AD FA| \
+d2 fe dc Bd| \
+AF EG FD D2|
+d2 fe dc Bd| \
+AB FB AD FA| \
+d2 fe dc Bd| \
+AF DF GE  (3EDE|
+d2 fe dc Bd| \
+AB FB AD FA| \
+d2 fe dc Bd| \
+AF EG FD D2|
+Ad d2 BA FA| \
+de fd Be e2| \
+Ad d2 Bc dB| \
+AF GE FD D2|
+Ad d2 BA FA| \
+de fd Be e2| \
+Ad d2 Bg fe| \
+dB AG FD D2|
+Ad d2 BA FA| \
+de fd Be e2| \
+Ad d2 Bc dB| \
+AF GE FD D2|
+Ad d2 BA FA| \
+de fd Be e2| \
+Ad d2 Bg fe| \
+dB AG FD D2|
+V:2
+D,z [AFD]z D,z [AFD]z| \
+D,z [FDB,]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z A,,z [GECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [FDB,]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [GECA,]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [FDB,]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z A,,z [GECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [FDB,]z D,z [AFD]z| \
+D,z [AFD]z D,z [AFD]z| \
+D,z [GECA,]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z E,z [BGE]z| \
+D,z [AFD]z G,,z [DB,G,]z| \
+D,z [GECA,]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z E,z [BGE]z| \
+D,z [AFD]z E,z [BGE]z| \
+G,,z [GECA,]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z E,z [BGE]z| \
+D,z [AFD]z G,,z [DB,G,]z| \
+D,z [GECA,]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+D,z [AFD]z E,z [BGE]z| \
+D,z [AFD]z E,z [BGE]z| \
+G,,z [GECA,]z D,z [AFD]
+S:https://www.folktunefinder.com/tunes/81660
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 2
+P: The Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E\
+| "A"A<A A>c E>c A<c | "E7"e>d c>B "A"c<A A>c \
+| "E7"E<E E>G E>F G>A | "B7"B>A G>F "E7"GE (3EFG |
+| "A"A2 A>B c>B A<a | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> ||
+g \
+|| "A"a2 a>g a>A c>A | "E7"e>d c>B "A"c<A A>^a \
+| "Bm"b2 b>^a b<f d>B | Fc "E7"d>e f>g |
+| "A"a2 (3bag a>A c>A | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"(3GFE (3dcB "A"c<A A> |]
+S:https://www.folktunefinder.com/tunes/9898
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AnnaHoldensStr2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

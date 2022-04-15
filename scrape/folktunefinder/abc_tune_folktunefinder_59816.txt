@@ -1,0 +1,43 @@
+X:929
+T:Xiraldilla (CT 469)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Cenera, ayuntamiento de Mieres.
+A:Asturies
+O:Cenera (Mieres)
+Z:Cancioneru de Torner 469
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+E|EF GA|AG AB|c2 A2|G2 zG|c3 B|AA GA|G2 F2|E2 z||
+W:Los geyos de la nea,
+W:qu bonitos son:
+W:Ai! resalada
+W:de mio corazn.
+W:
+W:La xusticia na to cai
+W:qusome prender
+W:cuerpo salado,
+W:por venite a ver.
+W:
+W:Esi cuerpu salu,
+W:que-y de l'aire:
+W:cuerpu salu,
+W:salga ust al baille.
+W:
+S:https://www.folktunefinder.com/tunes/59816
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

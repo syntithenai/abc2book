@@ -1,0 +1,27 @@
+X:44a
+T:President Garfield's hornpipe
+R:reel
+C:traditional
+S:Jim Coon to CoMandoList TOW
+M:4/4
+L:1/8
+Q:1/4=200
+K:Bb
+FG|:"Bb" BFDF BFDF| BABc dcd=e|"F"fcAc fcAc| f=efg f_edc|!
+"Bb"BFDF BFDF|BABc dcd=e|"F"fgag fedc|1
+"Bb"Bbfd B2 F-G:|2"Bb"B2 D2 B2 b-a|!
+|:"Eb"geBG EGBg|"Bb"fdBF DFBf| "F"eAgf eAgf|"Bb"dBgf dBba|!
+"Eb"geBG EGBg|"Bb"fdBF DFBf|"F"efag fedc|1
+"Bb"Bbfd B2 b-a:|2"Bb"B2 d2B2||
+S:https://www.folktunefinder.com/tunes/51718
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

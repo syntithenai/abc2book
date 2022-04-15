@@ -1,0 +1,22 @@
+X: 1
+T: Hull's Reel
+M: 4/4
+L: 1/8
+R: reel
+K: Emaj
+e \
+| BEEc B2Bc | BE (3EEE cBGe | BE (3EEE B2GB | cBce fefg |
+| BEEc B2Bc | BE (3EEE cBce | fgfe c2fg |1 eccB ceec :|2 eccB ceef |
+|: gB (3BBB g2fe | fc (3ccc c2Bc | fc (3ccc c2Bc | eB (3BBB Bcef | gB (3BBB g2fe |
+| fc (3ccc c2ce |1 fgfe c2fg | eccB ceef :|2 fgfe c2gf | eccB ceec |]
+S:https://www.folktunefinder.com/tunes/17376
+S:http://trillian.mit.edu/~jc/music/abc/reel/HullsReel1_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HullsReel1_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HullsReel1_E.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

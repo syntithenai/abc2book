@@ -1,0 +1,31 @@
+X: 2
+T: School for Lovers [A]
+B: Thompson's Compleat Collection, London 1773
+B: Kate Van Winkle Keller & George A Fogg, "No Kissing Allowed in School!" A Virginia Dancing School in 1784
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+"A"\
+|: "A"A2e c2e | "E7"d2e B2d | "A"c2e A2c | "E7"BcA GFE \
+|  "A"A2a "D"f2a | "E"g2b e2g | "B7"fag fe^d | "E"e3 E3 :|
+"B"\
+[| "A"e2c e2c | "E7"d2B d2B | "A"aec "E7"dBA | GBA GFE \
+|  "A"e2c e2c | "E7"d2B d2B | "A"aec "E7"dBA | "A"A3 A,3 |]
+"C"\
+[| "A"E2E "E7"D2C | "A"E2E "E7"D2C | "A"ABc "D"Bcd | "A"cBA "E7"BGE \
+|  "A"E2E "E7"D2C | "A"E2E "E7"D2C | "D"B,dc "E7"BAG | "A"A3 A,3 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/2745
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/SchoolForLovers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/SchoolForLovers.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

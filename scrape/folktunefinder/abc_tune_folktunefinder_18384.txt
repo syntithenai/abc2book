@@ -1,0 +1,32 @@
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 2-2(b)
+B: Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+S:https://www.folktunefinder.com/tunes/18384
+S:http://trillian.mit.edu/~jc/music/abc/shottish/JennysBawbee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JennysBawbee.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JennysBawbee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JennysBawbee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JennysBawbee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/JennysBawbee_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JennysBawbee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JennysBawbee_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Pamela Rose Grant
+C: Alasdair Frazer (1995)
+R: strathspey
+M: C
+L: 1/8
+K: D
+"A7"F>G \
+| "D"A2 F>G A>G F<D | "G"B2 G>A B<d "A7"c<e \
+| "D"A2 F>G "Bm"A>G F<D | "Em"B,<E E>F G2 "A7"F>G |
+y4 \
+| "D"A2 F>G A>G F<D | "G"B2 G>A B<d "A7"c<e \
+| "D"A<f "A,/C"e>c "Bm"d>B A<F | "Em"B,<E E>F "A7"G2 ||
+"A7"F>E \
+| "D"D2 d>e "Bm"f>e d<A | "G"B<d "D/F"A>F "Em"F<E "A7"E>F \
+| "D"D2 d>e "Bm"f>e de/f/ | "G"g>f e<d "A7"B>A B<d |
+y4 \
+| "D"D2 d>e "Bm"f>e d<A | "G"B>A "Em"B<d "A7"e2 d>e \
+| "D"f>e dB d>F | "Em"B,<E E>F "A7"G2 |]
+S:https://www.folktunefinder.com/tunes/19618
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PamelaRoseGrant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PamelaRoseGrant_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

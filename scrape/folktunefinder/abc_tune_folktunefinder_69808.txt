@@ -1,0 +1,31 @@
+X:248
+T: FREUDE SCHWESTER EDLER SEELEN
+N: F0431
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch, Rundgesang
+M: 4/4
+L: 1/16
+K: C
+G,2G,2 | C6G,2E6D2 | D2C2C4z4
+C2C2 | B,4C4D4E4 | E4D4z4
+G,2G,2 | C6G,2E6D2 | D2C2C4z4
+C2C2 | B,4C4D4E4 | E4D4z4
+D2D2 | D6G2^F3ED3C | B,4D4z4
+D2D2 | D6G2^F3ED3C | B,4D4z4
+G,2G,2 | C6C2D6D2 | E4z4
+G6F2 | E4D4C4B,4 | C8z4
+D2D2 | D6G2^F3ED3C | B,4D4z4
+D2D2 | D6G2^F3ED3C | B,4D4z4
+G,2G,2 | C6C2C4D4 | E4z4
+G6F2 | E4D4C4B,4 | C4z8
+S:https://www.folktunefinder.com/tunes/69808
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch, rundgesang
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

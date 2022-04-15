@@ -1,0 +1,30 @@
+X: 1
+T: Lord Alexander Russel's Jig
+C: William Marshall
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"[c3E3G,3] c2e | "G"B/c/dB "C"c2G | "F"cBA "C"GFE | "Dm"D3 "G7"D2B \
+| "C"[c3E3] "Am"c2e | "D7"dec "G"B2G | "F"cBA "G7"GEG | "C"{B,}C3 C2 :|
+e/f/ \
+| "C"e/f/gc gfe | "Dm"f/g/af "G7"agf | "C"gec "Am"cde | "Dm"{^c}d3 y"G7"d2e/f/ \
+| "C"e/f/gc gfe | "Dm"f/g/af "F"agf | "C"edc "G7"GAB | "C"c3 c2 ||
+e/f/ \
+| "C"gec "Dm"afd | "C"gec "F"afd | "C"gec "Am"cde | "D7"{^c}d3 "G7"d2e/f/ \
+| "C"gfe "G7"fed | "Am"edc "G7"dcB | "F"cBA "G7"GEG | "C"{B,}C3 C2 |]
+S:https://www.folktunefinder.com/tunes/14558
+S:http://trillian.mit.edu/~jc/music/abc/jig/LordAlexanderRusselsJ_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/LordAlexanderRusselsJ_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LordAlexanderRusselsJ_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/LordAlexanderRusselsJ_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

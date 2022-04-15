@@ -1,0 +1,39 @@
+X:18
+T:Hyttstenspolketten (Snoa, Svav)
+C:efter Bengt Jonsson
+%O:Sweden
+R:Snoa, Svav
+Z:Bob Wyttenbach 5/31/03 from Andrea Hoag for NFF 2003
+M:4/4
+L:1/8
+%Q:1/4=132
+K:D
+P:A
+V:1
+FG|A2A2B2AG|(FG)A2A3z|{A}F2f2f2ed|(cd)e2e3z|
+V:2
+DE|"D"F2F2"G"G2FE|"D"(DE)F2F3z|{F}D2A2A2GF|"A7"(EF)G2G3z|
+V:1
+E3FE2(FG)|A3BA2(Bc)|d2cde2c2|d6:|
+V:2
+"A7"C3DC2D2|E6G2|"D"F2EF"A7"A2G2|"D"F6:|
+P:B
+V:1
+de|f2fef2de|(fg) fef2gf|e2(cd)e2f2|g2b2a2g2|
+V:2
+FG|"D"A2AGA2FG|(AB) AGA2AB|"A7"c2(AB)c2d2|"G"d2g2"A7"f2e2|
+V:1
+f2fef2de|(fg) fef2gf|e2fga2c2|d6:|
+V:2
+"D"d2dcd2Ac|"D"(de)dcd2d2|"A7"c2cBA2G2|"D"F6:|
+S:https://www.folktunefinder.com/tunes/62549
+S:http://www.nordicfiddlesandfeet.org/music/NFF.abc
+% Rhythm Snoa, svav
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

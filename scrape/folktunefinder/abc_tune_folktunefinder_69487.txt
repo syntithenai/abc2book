@@ -1,0 +1,31 @@
+X:628
+T: "Kuhreigen"
+N: Z1309
+O: Europa, Mitteleuropa, Oberhaslithal
+R: Handwerker -, Bauern - Lied
+M: 3/8
+L: 1/16
+K: F
+c2 | c2A2c2 | B2G2c2 | c2A2c2 | B2G2
+F2 | F2G2F2 | F2G2F2 | F2G2F2 | F2G2
+F2 | A4A2 | =B4B2 | c4c2 | c2A2
+c2 | B2G2c2 | c2A2c2 | B2G2
+F2 | F2G2F2 | F2G2F2 | F2G2F2 | F2G2
+F2 | A4A2 | =B4Bd | c4c2 | A2A2
+B2 | G2G2c2 | A2A2B2 | G2G2c2 | A4F2 | F6
+c2 | B2AAG2F2 | E2D2C2
+c2 | A2F2E2G2 | F4F2
+F2 | E2G2G2E2 | F2A2A2
+F2 | E2G2G2E2 | F2A2A2
+c2 | =B2c2A2E2 | F4F2
+S:https://www.folktunefinder.com/tunes/69487
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

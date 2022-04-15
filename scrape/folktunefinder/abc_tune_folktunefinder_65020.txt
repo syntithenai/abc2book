@@ -1,0 +1,24 @@
+X:1360
+T:Sarah's Jig
+% Nottingham Music Database
+S:Bob McQuillan, via Phil Rowe
+M:6/8
+K:D
+"D"DEF "A"EFG|"D"F2D DFG|"D"AFA "G"B2c|"D"d3 -d2A|"G"Bcd dcB|
+"D"A2d AFG|"D"A2d "Bm"AGF|"Em"E2F "A7"GFE|"D"DEF "A"EFG|"D"F2D DFG|
+"D"AFA "G"B2c|"D"d3 -"A"d2e|"D"fgf "A"efe|"Bm"ded "F#m"cBA|"G"Bcd "A7"ecA|\
+"D"d3 -d3
+|:"D"fgf fed|"A"ecA Ade|"D"fgf fed|"A7"ecA A2G|
+"D"FGA "G"GAB|"A"ABc "G"dcB|"Em"Agf "A7"edc|"D"d3 -d3:|
+S:https://www.folktunefinder.com/tunes/65020
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

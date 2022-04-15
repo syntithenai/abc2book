@@ -1,0 +1,35 @@
+X:6
+T:Abercairney House
+R:Strathspey
+C:Niel Gow
+O:Scotland
+A:Inver (Perth)
+B:(n=B01) Gow Collection of Scottish Dance Music - Oak Publications
+Z:transcription (livre) : anamnese@caramail.com
+S:Eric Forgeot <eforgeot@yahoo.fr> abcusers 2002-4-17
+N:
+M:C
+L:1/8
+%Q:1/4=3D120 %tempo exact non connu
+K:Bb
+ B/c/ | d<GB>G dGB<g | c<FA>F cFAf | \
+d<GB>G dGB<g | f>d {d}cB/A/{A}G2 G :| d |
+g>dgb g<af<g | fadf c>F {d}cB/A/ | \
+g>dgb g<af<g | d>c {d}cB/A/{A}G2 Gd |
+g>dgb g<af<g | fadf c>F {d}cB/A/ | \
+d<GB>G dGB<g | d>c {d}cB/A/{A}G2 G |]
+S:https://www.folktunefinder.com/tunes/19166
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AbercairneyHouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/AbercairneyHouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AbercairneyHouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/AbercairneyHouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/AbercairneyHouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/AbercairneyHouse_1.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

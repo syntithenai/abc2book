@@ -1,0 +1,37 @@
+X:112
+T:Bien s que cortexes a una (CT 338)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 338
+M:6/8
+L:1/8
+Q:3/8=88
+K:C
+d2 d
+|: B3 c>Bc|d2 d c>Bc|d6-|d2 z c2 c|
+A3 BBB|G2 G B>BB|D>DD G>GG|A3 A>Bc|d2 B c2 A|G6-|[1 G2 z d2 d:|[2 G2 ||
+W:Bien s que cortexes una,
+W:chinchirinchn,
+W:ms abaxo de mi casa;
+W:tambirul, con el tambirul,
+W:chinchirinchn, ol y ol,
+W:ms guapa que yo seralo,
+W:chinchirinchn,
+W:pero no de tanta gracia.
+W:tambirul, con el tambirul,
+W:chinchirinchn, ol y ol,
+W:
+S:https://www.folktunefinder.com/tunes/58999
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

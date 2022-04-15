@@ -1,0 +1,25 @@
+X: 4
+T: Jambolsko Pajdu\vsko (Bm)
+O: Bulgaria
+R: pajdu\vsko
+M: 5/8
+L: 1/8
+K: Bm
+|: "Bm"BF dcB | "A"cA "Bm"~B2F | cd dcB | "A"cA "Bm"~B2F \
+| "Bm"BF dcB | Bc def | "Em"~e2 dcB | "A"cA "Bm"B2z :|
+[| "Bm(D)"DD DE2 | F2 F3 | F2 F3 | E2 D3 \
+| DD CD2 | "Em"E2 B,3 | B,2 B,3 | "Bm"B,2 B,3 |]
+|: "A"A,A, A,A,2 | B,2 B,3 | "Bm"B,2 B,2C | D2 D3 \
+| "Em"EE FE2 | DC B,3 | "Bm"[F2B,] B,3 | B,2 B,3 :|
+S:https://www.folktunefinder.com/tunes/3089
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JambolskoPaj_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JambolskoPajdushko_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/JambolskoPaj_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/JambolskoPajdushko_Bm.abc
+% Rhythm Pajdus?ko
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

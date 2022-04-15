@@ -1,0 +1,30 @@
+X:32
+T:32.  Money Mississippi
+C:c 2006 Harry Bolick  
+R:March
+O:United States
+A:Hastings On Hudson, New York
+M:4/4
+L:1/8
+Q:140
+K:G
+|: "G" G(B/2c/2) (B/2A/)G ^de ^de|  G(B/2c/2) (B/2A/)G E_E "D" D2|
+"G" G(B/2c/2) (B/2A/)G ^de ^de | "D" f>g a>g  f^c "G" d2 ||
+|:  "C" ee e/2d/2B/2A/2 "G" B(d d2) | "C" {(Bcd)}ee e/2d/2(B/2A/2) "G" d4 |
+ "C"  B/2d/2e/2d/2 B/2d/2e/2d/2 "G"B/2A/2B/2(d/2 d2) | "C" GB/2d/2 e/2d/2B/2A/2 "G" G4  :|
+K:C 
+|: "C" C>D EG A^G =G2  |G^G A=G "G" D4  |
+ [1   B,"F">C DE "C"GE c2 | "G" BG "C" AC E4 :|
+[2  B,"F">C DE "C"GE AE  |"G" GD ED "C" C4 ||
+S:https://www.folktunefinder.com/tunes/1729
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

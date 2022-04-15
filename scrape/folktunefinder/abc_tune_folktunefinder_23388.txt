@@ -1,0 +1,28 @@
+X:2937
+T:Jacksons Hornpipe. GHW.063
+O:england
+M:2/4
+L:1/8
+Q:360
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+A:Norfolk
+K:G
+(BA)|G2 (GA) BGBd|e2 (ed) (ef)ge|dBge d{B/}c{A/}B{G/}A|E2 (A2A2) BA|
+G2 (GA) BGBd|e2 (ed) efge|dBge d{B/}c{A/}B{G/}A|d2 G2G2:|
+|:(3(def)|(gd)Bd (gd)Bd)|efge d{B/}c{A/}B{G/}A|cAce dcBA|E2 (A2A2) (3(d
+ef)|
+(gd)Bd (gd)Bd)|efge dcBA|(cA).c.e d{B/}c{A/}B{G/}A|D2 G2G2:|
+S:https://www.folktunefinder.com/tunes/23388
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

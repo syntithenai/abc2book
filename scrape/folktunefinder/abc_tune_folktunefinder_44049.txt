@@ -1,0 +1,29 @@
+X: 55
+T:Kingussie Flower
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:2/4
+L:1/4
+K:D
+[F4 A4 d4 f4]|z4|\
+P:A
+B,/4C/4|"Bm"D/2F/2 "F#7"F/2^G/4^A/4|"Bm"B/2F/2 F/2d/2|\
+"Em"c/2B/2 "F#7"d/4c/4B/4^A/4|
+"Bm"B3/2B,/4C/4|"Bm"D/2F/2 "F#7"F/2^G/4^A/4|"Bm"B/2F/2 F/2d/2|\
+"Em"c/2B/2 "F#7"d/4c/4B/4^A/4|"Bm"B3/2||
+P:B
+d/4e/4|"D"f/2d/2 d/2e/4f/4|"A"e/2A/2 A/2B/4c/4|"Bm"d/2B/2 B/2c/4d/4|\
+"F#m"c/2F/2 F/2D/4E/4|
+"D"F/4E/4D/4E/4 F/4E/4D/4E/4|"D"F/4E/4F/4G/4 F/2d/2|\
+"Em"c/2B/2 "F#7"d/4c/4B/4^A/4|"Bm"B3/2||
+S:https://www.folktunefinder.com/tunes/44049
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

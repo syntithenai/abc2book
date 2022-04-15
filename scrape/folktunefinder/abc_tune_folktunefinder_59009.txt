@@ -1,0 +1,42 @@
+X:122
+T:Cantar d'nimes (CT 173)
+R:nimes
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de nimas, transcrita en Llamo, ayuntamiento de Riosa.
+N:En la noche vspera de la festividad de Todos Los Santos es costumbre en Riosa que varias mujeres postulen de puerta en puerta, a fin de invertir lo recaudado en misas en sufragio de Las nimas del Purgatorio.
+N:Pueden ser las postulantes en nmero de seis, ocho o ms.
+N:Van cubiertas con negros mantos desde la cabeza a los pies y delante del coro marchan dos mujeres llevando un farol encendido y una campanilla, respectivamente, con la cual se da un golpe al final de cada miembro de la frase, correspondiente a un verso de la cuarteta.
+N:La tristeza que en s encierra la frase meldica y todas las circunstancias que concurren en este acto, hacen que el nimo de las gentes, al escuchar este canto en el silencio de la noche, se sobrecoja de temor.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 173
+M:3/4
+L:1/8
+Q:1/4=68
+K:Gm
+|GB B>A GB|c2 B4|Bc c>B cd|d2 c4|GB B>A GB|c2 B4|AG ^F>G AB|(A3/2B/4A/4) G4 :||
+W:nimas del Purgatorio
+W:son las que estn a tu puerta;
+W:si nos dais una limosna
+W:tendris la gloria mui cierta.
+W:
+W:Ai, ai, ai! que aqu me abraso,
+W:ai, ai, ai! que aqu me quemo;
+W:ten piedad de nuestras almas,
+W:que estn pasando tormentos.
+W:
+S:https://www.folktunefinder.com/tunes/59009
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Nimes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

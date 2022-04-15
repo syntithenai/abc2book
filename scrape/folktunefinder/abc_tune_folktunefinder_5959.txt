@@ -1,0 +1,36 @@
+X: 1
+T: Polka "Redwing"
+O: Swedish
+R: polkett
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Ed Johnson (Minneapolis) played this; it was one of the tunes he remembered from his youth
+N: in R\"attvik (in the 1920's).  It is clearly derived from the 19th-century American tune "Redwing".
+M: 2/4
+L: 1/16
+K: G
+|: z2Bc \
+| "G"d2Bc d2Bc | d2B2 G2Bc | d2Bc d2g2 | "D7"f6 fg \
+| a2fg a2fg | a2f2 d3e | d2c2 B2A2 |1 "G"[B4G4] :|2 "G"G4 :|
+|: g2f2 \
+| "C"e4 c4- | c2g2 f2e2 | "G"d4 B4- | B2g2 f2g2 \
+| "D7"a4 f4- | f2a2 g2a2 | "G"b4 g4- | g4 f2=f2 |
+| "C"e4 c4- | c2g2 f2e2 | "G"d4 B4- | B2g2 f2e2 \
+| "D7"d4 c4 | E4 F4 | "G"G2GA "D7"B2A2 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/5959
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RedwingPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/RedwingPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/polka/RedwingPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/RedwingPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/RedwingPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polka/RedwingPolka.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

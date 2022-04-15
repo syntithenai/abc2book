@@ -1,0 +1,21 @@
+X:101
+T: O WIE WOHL IST MIR AM ABEND
+N: F0213
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Abend; Kanon
+M: 3/4
+L: 1/4
+K: F
+ | F2G | A2F | B2A | AGF | B2A | AGF
+A2B | c2A | d2c | cBA | d2c | cBA
+F3 | F3 | F3 | F3 | F3 | F3
+S:https://www.folktunefinder.com/tunes/69661
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Tageszeiten - lied, abend; kanon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

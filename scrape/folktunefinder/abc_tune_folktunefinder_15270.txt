@@ -1,0 +1,35 @@
+X: 1
+T: Banks of Newfoundland
+T: Woods of Old Limerick, the
+M: 6/8
+L: 1/8
+S: Jack Coen
+R: jig
+Z: Lesl
+S: Brendan Taaffe <laughingrock:HOTMAIL.COM> irtrad-l 2001-11-20
+N: Chords by John Chambers
+K: G
+GA \
+| "G"B2A BGD |     GBd    ~g3  |    ded "Em"BGA | "Am"BAG "D7"AGA \
+| "G"B2A BGD |     GBd     g2g |    ded "Em"BGA | "D7"BGF  "G"Gy :|
+AB \
+| "G"d2g gfg | "Am"e2a "D7"aga | "G"bge     dBG | "Em"BAG "D7"ABc \
+| "G"d2g gfg | "Am"e2a "D7"aga | "G"bge     dBA | "D7"BGF  "G"Gy |]
+AB \
+| "G"d2g gfg | "Am"e2a "D7"aga |    bge     dBG | "Em"BAG "D7"ABc \
+| "G"B2A BGD |     GBd     g2g |    ded "Em"BGA | "D7"BGF  "G"Gy |]
+S:https://www.folktunefinder.com/tunes/15270
+S:http://trillian.mit.edu/~jc/music/abc/jig/WoodsOfOldLimerickThe_0.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/WoodsOfOldLimerickThe_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WoodsOfOldLimerickThe_0.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WoodsOfOldLimerickThe_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WoodsOfOldLimerickThe_3.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

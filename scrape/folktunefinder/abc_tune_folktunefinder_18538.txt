@@ -1,0 +1,24 @@
+X:1
+T:Maltman,The
+N:A Version of Sir Roger de Coverly
+L:1/8
+M:9/8
+S:Gow's 2nd Repository
+Z:AK/Fiddler's Companion tradtunes 2002-5-12
+K:G
+D|E/F/GGG2g dBG|F2(A A)EA F2D|E/F/GG G2g def|g2(G G>)AG G2:|
+|:c|Bcdefg dBG|F2(A A)EA F2D|dBd ece def|g2G GAG G2:|
+|:(d2/e/2f/)|g3 f2e dBG|F2(A A)EA F2D|gag f2e def|g2(G G)AG G2:|
+S:https://www.folktunefinder.com/tunes/18538
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/MaltmanThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/Maltman1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MaltmanThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/MaltmanThe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:310
+T:Behind the Haystack
+T:Munster Buttermilk
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a8d.html
+%%ID:00000a8d
+K:D
+A|\
+d2e fdB | d2e fdB | AFE EFE | AFE EFA |\
+d2e fdB | d2e fdB | AFD D2B | AFD D2 :|
+|:B2B BAF | ABc d2B | AFE EFE | AFE EFA |\
+B2B BAF | ABc d2B | AFD D2B | AFD D3 :|
+|:g3 f3   | ede fdB | AFE EFE | AFE EFA |\
+gag fgf | ede fdB | AFD D2B | AFD D2 :|
+S:https://www.folktunefinder.com/tunes/36141
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

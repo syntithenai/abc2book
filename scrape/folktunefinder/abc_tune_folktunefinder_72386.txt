@@ -1,0 +1,43 @@
+X: 137
+T:Read House Rant,The. HA.136
+T:Old Lancashire Hp,aka. HA.136
+T:Cheshire Hornpipe,aka. HA.136
+M:6/4
+L:1/4
+Q:120
+C:see #HA.010
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:D
+"1"B>"*"AG|"*"F>"*"ED f>ed|eE-E B>"*"AG|\
+"*"F>ED f>"*"e"*"c|dD-D:|!
+|:"2"B>"*"AG|F>GA F>ED|CE-E B>"*"AG|\
+F>GA F>"*"ED|A,D-D:|!
+|:"3"B>"*"AG|("*"FA)G B>"*"AB|=cE-E B>"*"AG|\
+("*"FA)(GB)"*"A"crs"B/c/)|dD-D:|!
+|:"4"B>"*"AG|AD-D B>"*"AG|=cE-E B>"*"AG|\
+"*"AFB G"*"c3/2(B/4c/4)|dD-D:|!
+|:"5"B>"*"AG|F>ED b"*"af|"*"eE-E B>"*"AG|\
+F>ED f"*"e(d/c/|dD-D:|!
+|:"6"B>"*"AG|"*"FAG B"*"AB|"*"=cE-E B>"*"AG|\
+"*"FAG B(A/B/)(c/A/)|dDD:|!
+|:"7"B>"*"AG|F>E (D/E/) (F/G/) (A/B/) (c/d/)|\
+eE-E B>"*"AG|"*"F>E (D/E/) (F/G/) (A/B/) (c/A/)|dD-D:|!
+|:"8"B>"*"AG|"*"AD-D B>"*"AG|"*"=cE-E B>"*"AG|\
+"*" AFB G"*"^c(B/c/)|dD-D:|]
+W:Mysterious double marks on stems of these notes.|
+S:https://www.folktunefinder.com/tunes/72386
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

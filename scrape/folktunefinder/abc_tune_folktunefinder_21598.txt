@@ -1,0 +1,25 @@
+X:1149
+T:Cleveland Park
+O:england
+R:Jig
+C:Trad
+M:6/8
+L:1/8
+K:Em
+L:1/8
+|B,EF GFE|CEF GFE|^CEF GFE|FAF DFA||
+B,EF GFE|CEF GFE|FAF DFA|1 AGF EDC:|2 AGF E2B,|
+|:EGB eBG|ABc BGE|CEG B,EG|GFE ^DEF||1 EGB eBG|
+ABc BGE|CEG B,EG|FE^D E2B,:||2 B,EF GFE|CEF GFE|
+FAF DFA|AGF E3||
+S:https://www.folktunefinder.com/tunes/21598
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 6
+T: Phubhaore's Reel
+Z: Joe Test1 <jc@trillian.mit.edu>
+T: the Frog in the Blender
+C: Maireadh Phubhaore
+N: Test tune 5.
+% Contributed 19991124183149 by Joe Test1 jc@trillian.mit.edu
+K: D
+|: D2EF GABc | d2cB AGFE | D2C2 D4 :|
+|: d2A2 F2D2 | D2F2 A2d2 | f2a2 d4 :|
+S:https://www.folktunefinder.com/tunes/2489
+S:http://trillian.mit.edu/~jc/music/abc/test/PhubhaoresReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/PhubhaoresReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/PhubhaoresReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/PhubhaoresReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/jcabc2ps/abc/PhubhaoresReel.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T:Broom, the Bonny Bonny Broom
+M:4/4
+L:1/8
+Q:200
+K:G
+"G"d3e "D7"d3e | "G"dcBA G4 | "Em"g2ga bagf | "C"e6 f2 | \
+"G"g3a b2ab | "Em"g2GA "G"B2AG | "Am"A2A2 e3c | "D"A8 :|
+S:https://www.folktunefinder.com/tunes/16855
+S:http://trillian.mit.edu/~jc/music/abc/reel/Broom_the_Bonny_Bonny_Broom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Broom_the_Bonny_Bonny_Broom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Broom_the_Bonny_Bonny_Broom_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

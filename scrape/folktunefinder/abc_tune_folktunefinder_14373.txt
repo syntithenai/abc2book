@@ -1,0 +1,26 @@
+X:1
+T:Indian Point
+C:Rick Mohr
+M:6/8
+L:1/8
+Z:Kevin Alewine at kalewine:HOME.COM irtrad-l 2001-5-15
+R:jig
+K:Em
+|: B,EF G2A | BAG FED | CEF G2A | BAG BAG \
+| FED A,2D | FED AGF |1 EFG BAG | F2F GFE :|2 BAG FEF | E3 E2A ||
+|: Bef gfe | cef gfe | dfg agf | gfe fed \
+| Bef gfe | ceg a2a |1 bag fef | e2f gfe :|2 bag fef | e3 ez2 |]
+S:https://www.folktunefinder.com/tunes/14373
+S:http://trillian.mit.edu/~jc/music/abc/jig/IndianPoint_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/IndianPoint_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/IndianPoint_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/IndianPoint_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

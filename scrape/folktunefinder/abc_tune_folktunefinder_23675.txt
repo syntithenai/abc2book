@@ -1,0 +1,21 @@
+X:3224
+T:Keel Rows
+O:england
+M:4/4
+L:1/8
+R:Strathspey
+K:G
+d>c|"G"B2 G>B "C"c2 A>c|"G"B2 G>B "D"A>F D2|"G"B2 G>B "C"c>c A>c|"G"B>G
+"D"A>F "G"G2:||:G>A|"G"B<d d>g "C"e2 d>c|"G"B2  G>B "D"A>F D2|"G"B<d d>g
+"C"e2 d>c|"G"B>G "D"A>F "G"G2:||
+S:https://www.folktunefinder.com/tunes/23675
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

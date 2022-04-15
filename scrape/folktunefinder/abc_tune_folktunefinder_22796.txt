@@ -1,0 +1,23 @@
+X:2345
+T:Grandfather's Dance
+O:england
+C:Trad
+M:4/4
+L:1/8
+K:D
+|:F2A2B2c2|dc de f2a2|g2f2e2d2|c2B2A2G2|
+F2A2B2c2|dc de f2a2|g2f2e2Bc|d2f2d4:|
+|:e2A2e2A2|g2f2e2A2|g2f2e2d2|c2B2A2G2|
+F2A2B2c2|dc de f2a2|g2f2e2Bc|d2f2d4:|
+S:https://www.folktunefinder.com/tunes/22796
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

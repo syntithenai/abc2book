@@ -1,0 +1,29 @@
+X: 1
+T: Roxburgh Castle (A)
+R: hornpipe
+N: Also in G.  This is a common Morris-dance tune.  Also played as a reel.
+N: Kennedy 1-11
+N: Raven p.188 (identical to the Kennedy version)
+N: Brody p.237
+N: Karpeles and Schofreld, p.7 (in A), p.42 (in G)
+M: 4/4
+L: 1/8
+K: A
+|: (3EFG \
+| "A"A2 A>c e>c (3ABc | "D"d2 d>f "A"e>c (3ABc | "D"d2 f>d  "A"c4 e>c | "Bm"B>A B>c "E7"B>d c>B |
+| "A"~A2 A>c e>c (3ABc | "D"~d2 d>f "A"e>c A3 | "D"a>g a>f "E7"e>d c>B | "A"c2 A2 A2 :|
+|: (3efg \
+| "A"a>e c>e f>e c>e | a>e c>e f>e d>c | "Bm"d2 b>d "A"c2 a>c | "Bm"B>A B>c "E7"B>d c>B |
+| "A"~A2 A>c e>c (3ABc | "D"~d2 d>f "A"e>c A3 | "D"a>g a>f "E7"e>d c>B | "A"c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/18053
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoxburghCastle_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/RoxburghCastle_A.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

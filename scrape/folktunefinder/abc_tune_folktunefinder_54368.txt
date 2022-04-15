@@ -1,0 +1,35 @@
+X:11619
+T:N'Uviu nun me caso (MQ 020)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Es una de las canciones asturianas ms conocidas.
+N:Es muy sencilla y por tanto una de las ms apropiadas para iniciarse en el manejo de la gaita.
+N:En la zona de Quirs y Teberga la incluyen los gaiteros en la jota para las mudanzas del "paseillo".
+A:Asturies
+Z:Manolo Quirs 020
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+|DED|C3|DED|C3|DEF|G2 F|G2 F|E3|
+DED|C3|DED|C3|DEF|G2 F|G2 F|EFE|
+F2 E|DEF|E2 D|CFE|F2 E|DEF|E2 D|CFE|
+F2 E|DEF|E2 D|CFE|F2 E|DGF|E2 D|C3|
+S:https://www.folktunefinder.com/tunes/54368
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

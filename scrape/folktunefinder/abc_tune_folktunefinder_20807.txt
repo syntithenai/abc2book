@@ -1,0 +1,33 @@
+X:358
+T:Bad Boys of Dunkirk
+O:england
+M:4/4
+C:
+S:Bordering on the Absurd
+N:
+A:Border
+R:Reel
+%P:
+L:1/8
+K:G
+L:1/8
+P:A
+|:\
+B>EE>D E>F G2|F>ED>E F>G A2|B>EE>D   E>F   G2|F>ED>E F4|\
+B>EE>D E>F G2|F>ED>E F>G A2|(3GGG G2 (3GGG G2|B>AG>F E4:|\
+P:B
+|:D>GG>F G>A B2|A>GF>G A>cB>A|D>GG>F   G>A   B2|A>GF>G A4|\
+D>GG>F G>AB>d|c>BA>B c>de>f|g>dB>G   c>ed>c|B>GA>F G4:|
+S:https://www.folktunefinder.com/tunes/20807
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

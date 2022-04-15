@@ -1,0 +1,25 @@
+X:179
+T: SCHON HABEN VIEL DICHTER
+N: B0666
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied, Lebenslauf
+M: 3/4
+L: 1/16
+K: C
+G,4 | C6B,2C4 | A,4A,4A,4 | B,6A,2B,4 | D2C2C4
+G,4 | C6B,2C4 | A,4F4D4 | B,6A,2B,4 | D2C2C4
+E4 | E6D2C4 | D6C2B,4 | D2C2B,2A,2G,2^F,2 | G,4z4
+C2B,2 | A,4A,4D2C2 | B,4D4F4 | E3DC4B,4 | C4z4
+S:https://www.folktunefinder.com/tunes/62202
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, lebenslauf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

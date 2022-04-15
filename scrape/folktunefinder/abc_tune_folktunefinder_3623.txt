@@ -1,0 +1,21 @@
+X: 1
+P: Alta Vittoria
+C: Fabritio Caroso
+D: Renaissonics: Renaissance Dances & Improvisations (Titanic, Ti 232)
+M: C|
+L: 1/8
+K: C
+   gf "A"| "C"e2ed   ecde |"Bb"f2fe f2gf | "C"e2dc "G7"dcdB | "C"c6 :|
+|:_Bc "B"|"Bb"d2dc   dcde |    f2fe f2gf | "C"e2dc "G7"dcdB | "C"c6 :|
+|: FG "C"| "F"A2c2 "G7"f4 | "C"e2ed cBAG | "F"A2c2 "G7"d4   | "C"c6 :|
+|: Bc "D"| "G"d2dc   dcBA |    d2dc d2gf | "C"e2dc "G7"dcdB | "C"c6 :|
+S:https://www.folktunefinder.com/tunes/3623
+S:http://trillian.mit.edu/~jc/music/abc/England/AlexandersBirthDay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

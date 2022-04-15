@@ -1,0 +1,29 @@
+X:6240
+T:St. Joe Hornpipe
+O:england
+M:2/4
+L:1/16
+Q:122
+S:from Cyril Stinnett
+A:Missuori
+B:transcribed as #45 in OTFR
+N:the title likely refers to the northwest Missouri city of St. Josehp
+D:taken from a recording of Cyril Stinnett in September, 1979
+K:Bb
+(FGA|B2)d(f b2)b(f|a2g2 (ga)ge|(Ac)ef a2(=ef|g2)f(=e fg)fc|
+(Bc)df b2b(f|a2)g2 (g^fg)=e|(fa)gf =e(cA)c|B2(3cBA) B2:|
+|:[B,2D2]|[B,2D2]DF B2Bc|(dcd)e (dc)A(B|cd)c(B A)FGA|(BAB)(c dBFD|
+[B,2D2]DF (BAB)c|(dcd)e (dc)A(B|cd)c(B A)FG(A|Bd)cA B2:|
+S:https://www.folktunefinder.com/tunes/26692
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

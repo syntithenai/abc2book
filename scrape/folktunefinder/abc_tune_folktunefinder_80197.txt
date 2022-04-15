@@ -1,0 +1,24 @@
+X:138
+T: Fuchs im Loche
+N: A0504
+O: Europa, Mitteleuropa, Deutschland
+N: Hainhofers Lautenbuch 1603.
+R: Romanze, Ballade, Lied, Kinderlied
+M: 4/4
+L: 1/8
+K: G
+d2 | BcBAG2d2 | BcBAG2
+d2 | e2d2c2B2 | A2A2A2z2
+A2AAF2D2 | d2ddB2
+d2 | B2G2AGAF | G4z2
+S:https://www.folktunefinder.com/tunes/80197
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kinderlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

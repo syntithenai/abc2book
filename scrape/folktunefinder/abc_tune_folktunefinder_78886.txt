@@ -1,0 +1,25 @@
+X:445
+T: DIE FRANZOSEN ZOGEN EIN
+N: E0364
+O: Europa, Mitteleuropa, Deutschland, Frankreich, Elsass
+R: historisches Lied, Krieg, franzoesisches Soldaten - Lied (1855)
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2A2 | G4
+GA | B2B2A2 | G4
+GB | d2d2d2 | d3c
+B2 | c2c2c2 | c3B
+A2 | B2B2A2 | G4
+GB | d2d2c2 | B4
+S:https://www.folktunefinder.com/tunes/78886
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg, franzoesisches soldaten - lied (1855)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

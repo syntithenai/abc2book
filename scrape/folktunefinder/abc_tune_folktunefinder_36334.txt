@@ -1,0 +1,23 @@
+X:1275
+T:Danza de Astureses
+A:Galicia
+M:4/4
+O:Spain
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007cf.html
+%%ID:000007cf
+K:C
+c2d2|\
+e2 de fe dc|B2 G2 c2 d2|e2 de ^fd ef|g4::
+A2G2|\
+g3f ed cB|A2G2 A2A2|B3G AG AB|c4:|
+S:https://www.folktunefinder.com/tunes/36334
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

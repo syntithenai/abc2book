@@ -1,0 +1,26 @@
+X: 19
+T: To Ting
+O: Denmark (Himmerland)
+B: 358 danske Folkedansemelodier v.1 #124
+M: 3/4
+L: 1/8
+K: D
+Q: 3/4=54 "Vals"
+A2 \
+| f3 (e dB) | (A2 d2) d2 | (c2 e2) e2 | (d2 f2) f2 \
+| f3 (e dB) | (A2 d2) d2 | (ce) Ac ec | d4 :|
+Q: 1/4=126 "Hopsa"
+M: 2/4
+L: 1/8
+A \
+| (3(dcB) (3(BAG) | (Fd) (dF) | (Ec) (cE) | (Fd) d2 \
+| (3(dcB) (3(BAG) | (Fd) (dF) | (3(cBA) (3(GFE) | D3 :|
+S:https://www.folktunefinder.com/tunes/399
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

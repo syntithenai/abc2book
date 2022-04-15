@@ -1,0 +1,27 @@
+X: 1
+T: Judy McFadden's Jig
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Ryan/Cole Collection
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: A
+E \
+| A3 c>BA | e>cA c>BA | "Bm"B2c d2e | "D"faf "E7"ecB \
+| A3 cBA | ecA cBA | "Bm"B2c "E"d>cB | "F#m"cAF F2 :|
+|: A \
+| "A"AFE EFA | "Bm"BAF d2f | "A"edc cBA | "Bm"BAF "F#m"F2A \
+| "A"AFE EFA | "Bm"BAF "E7"d2f | "A"e>dc "E7"BAB | "A"cAA A2 :|
+S:https://www.folktunefinder.com/tunes/14446
+S:http://trillian.mit.edu/~jc/music/abc/jig/JudyMcFaddensJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JudyMcFaddensJig_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

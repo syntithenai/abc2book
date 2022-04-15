@@ -1,0 +1,28 @@
+X:311
+T: ICH SOLLT EIN NOENNLEIN WERDEN
+N: E0919
+O: Europa, Mitteleuropa, Deutschland
+R: Ehestands - Lied, Nonnen - Klage
+M: 4/4
+L: 1/4
+K: C
+C | CCB,A, | G,2G,
+G, | A,CCB, | C2z
+C | CCB,A, | G,2G,
+G, | A,CCB, | C2z
+C | CCGC | B,B,A,2
+DDDC | B,A,G,
+G, | A,CCB, | C2z
+C | CCGC | B,B,A,2
+DDDC | B,A,G,
+G, | A,CCB, | C2z
+S:https://www.folktunefinder.com/tunes/76796
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied, nonnen - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

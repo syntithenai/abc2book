@@ -1,0 +1,23 @@
+X:13
+T: ES RITT EIN KOENIG WOHL UEBER DEN RHEIN
+N: E0002A
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: Sage, Maerchen -, Zauber - Lied
+M: 3/4
+L: 1/8
+K: G
+DGA | _BBA2GGG | d3
+dcA | d2c2_Bc | A3
+AAA | d2ccd_B | A3
+_BGA | _BdcBAB | G2z
+S:https://www.folktunefinder.com/tunes/78454
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

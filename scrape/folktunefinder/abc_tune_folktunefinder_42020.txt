@@ -1,0 +1,24 @@
+X:941
+T:Green Fields of America
+O:ireland
+Z: id:dc-reel-124
+M:C
+L:1/8
+K:G Major
+B|c2ec B2dB|AGAB GEDE|GAGE DEGB|AGAB G2AB|!
+c2ec B2dB|AGAB GEDE|GAGE DEGB|AGAB G3:|!
+D|GABc d2ef|g3e dBGB|c2ec B2dB|AGAB GED|!
+[1 E|GABc d2ef|g3e dBGB|c2ec B2dB|AGAB G3:|!
+[2 f|gfgd efge|dedc BGEF|GAGE DEGB|AGAB G3|]!
+S:https://www.folktunefinder.com/tunes/42020
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

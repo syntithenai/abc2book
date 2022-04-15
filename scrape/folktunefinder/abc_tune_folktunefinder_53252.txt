@@ -1,0 +1,28 @@
+X:110
+T:Erinaki
+A:Peloponnesus
+M:7/8
+O:Greece
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000677.html
+%%ID:00000677
+K:G min
+"D"D|\
+"Gm"G2 G (AB) (AG)|B2G A3z|(BA) G (^FG) (AG)  \
+|1 "Cm"^F2 E "D"D2 zD:|2 "Cm"^F2 E "D"D2 zD|  \
+"Cm"G2 G G2 G2|"D"^F2 E (DC) DE| (^F3 F)z2 D| \
+"Cm"G2 G G2 G2|"D"^F2 E (DC) (DE)|        \
+(^FG) A "Cm"(FD) (EC)|"D"D2 z (DE) (^FG)|
+|:A2 G (^FE) (DE)|^F2 z (DE) (FG) |       \
+"Cm"A2 G (^FD) (EC)                       \
+|1"D"D2 z (DE) (^FG) :|2 "D"D2 z z4 ||
+S:https://www.folktunefinder.com/tunes/53252
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

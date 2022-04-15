@@ -1,0 +1,39 @@
+X: 1
+T: Opa Cupa
+O: Serbia/Roma
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/16
+P: AABBCDEEFF (AABBCCEEFF)x2
+K: Ador
+"A"\
+|:"Am"a2a2 e2aa | a2e2 aag^f | "Em"g2g2 e2gg | g2e2 gfe^d \
+| "Am"fg^ga =gfe^d | e2^d2 c2A2 | "B7"^d2c2 cBAc | "E"B2BG E2z2 :|
+"B"\
+|:"Am"ccc2 A2cc | c2A2 ccBA | "Dm"ddd2 B2dd | d2B2 ddcB \
+| "Am"ccc2 A2c2 | "F"c2A2 ccBA | "B7"Bc^cd =cBAc | "E"B2BG E2z2 :|
+%%text Vocal:
+"C"\
+|:"Am"g2f2 g2f2 | g2f2 gfe2- | e2ee e2^d2 | e2^d2 edc2- \
+| c2cc c2c2 | d2c2 c2B2 | "B7"A2B2 B2B2 | "E"c2B2 B4 :|
+"D"\
+||"Am"a2A2 B2c2 | d2c6 | A2A2 B2c2 | d2c6 \
+| a2g2 f2e2 | f2e2 ^d2c2 | "B7"A2B2 B2B2 | "E"c2 B4 z2 ||
+"E"\
+|:"Dm"d8 | "Am"e2c2 B2A2 | z2cc c2c2 | d2c2 B2A2 \
+| z2a4 gf | gf2e- e2z2 | "B7"c2c2 A2c2 | "E"B4 z4 :|
+"F"\
+|:"Am"A2e2 e2e2 | e2e2 e4- | "B7"e2^dd d2d2 | e2^d2 c2B2 \
+| "F"A2c2 c2c2 | d2c2 c4 | "B7"A2B2 B2B2 | "E"B2B2 z4 :|
+S:https://www.folktunefinder.com/tunes/5876
+S:http://trillian.mit.edu/~jc/music/abc/Intl/OpaCupa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/OpaCupa_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

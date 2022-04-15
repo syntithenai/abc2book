@@ -1,0 +1,29 @@
+X:5375
+T:Schottis fr Norbotten
+A:Norrbotten
+M:4/4
+N:the upbows in bar 9 should be pizzicato
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008d7.html
+%%ID:000008d7
+K:D
+ABAG F2A2 | dcde f2fa |1 gfgf e2ef | abaf d4:|2\
+gfgf e2eg | f2d2 d4 ::
+abag fgfe | d2cd e4 | ue2uA2ue2uA2 | abaf d4 |\
+fgfe d2ef | g2b2 e2ed |
+c2cd eAfe | dcde f4|\
+fgfe d2ef | g2b2 e2ed | c2cd eAfe | d2dc d4 :|
+S:https://www.folktunefinder.com/tunes/37154
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,83 @@
+X: 1
+T: Dancing in the Barn, Schottische
+R: shottish
+O: c.1878
+C: Tom Turner & Ed W Orrin
+N: Pub. Walter Street, Montreal
+F: http://www.ragtimepiano.ca/rags/can8.htm
+F: http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+M: C
+L: 1/8
+K: Gm
+"A"
+|: "Gm"(3ddd c>B A>G D2 \
+| "D7"D>D ^F>A (e2 d)z \
+|      dc3- c>c B>A \
+| "Gm"G2 (3DDD E2 D2 \
+|| "Gm"(3ddd c>B A>G D2 \
+| "D7"D>D ^F>A (e2 d)z \
+|
+|  "D7"D>D ^F>A e>d A>B \
+|1 "Gm"G2 [g2B2] G2 B>c \
+:|2 "Gm"G2 [gdB]>[gdB] "fine"[g2d2B2]y2 |] G>A \
+"B"\
+| "Gm"B>B B>G "D7"A2 B>A \
+| "Gm"GD3- D2 d2 \
+| "Cm"e2 {fe}de [ge]>[ge] [fd]>[ec] |
+| "Gm"[d4B4] z2 e>d \
+| "D7"(cA3) z2 d>c \
+| "Gm"BG3 z2 G>A \
+| "Eb"B>B B>B [c2G2] [^c2G2] \
+| "D"[d2^F2] (3DDD E2 D2 \
+||"Gm"BkB2G "D7"A>A B>A \
+| "Gm"GD3- D2 d2 |
+| "Cm"e>e e>e [ge]>[ge] [fd]>[ec] \
+| "Gm"[d4B4] z2 e>d \
+| "D7"(cA3) z3 d>c \
+| "Gm"(BG3) z2 G>A \
+| "Gm"B2 {cB}A>G "D7"A2 d2 \
+| "Gm"G4- G2 |] "F7"k[F2E2] |
+"C"\
+| "Bb"[BD]kd2B g2 f2 \
+| "Bb"d6 c>d \
+| "F7"eA c4 Bc \
+| "Bb"dF B4 F>F \
+| "Bb"B kd2 B g2 f2 \
+| "Bb"d6 B2 \
+| "Gm"B2 (3BBB "Eb"(3cBc (3_dcd \
+| "D7"[=d2^A2] (3DDD E2 D2 |
+| "Gm"BB2G "D7"A2 B>A \
+| "Gm" GD3- D2 d2 \
+| "Cm"e2 {fe}d>e [ge]>[ge] [fd]>[ec] \
+| "Gm"[d4B4] z2 e>d \
+| "D7"(cA3) z2 d>c \
+| "Gm"(BG3) z2 G>A \
+| "Gm"B2 {cB}A>G "D7"A2 d2 \
+| "Gm"G4- G2 |] "F7"F2 |
+"D"\
+| "Bb"(3BAB (3d^cd (3f=ef b>b \
+| "Eb/Bb"(3ggg b2 "Bb"(3fff b2 \
+| "Bb"(3BAB (3d^cd (3f=ef b>b \
+| "Cm7"c'>=b c'>d' "F7"c'>a g>f |
+| "Bb"(3BAB (3d^cd (3f=ef b>b \
+| "Eb/Bb"(3ggg b2 "Bb"(3fff b2 \
+| "Gm"(3gfe "D7"(3d=e^f "Gm"g>a b>c' \
+| "D7"d'>c' b>a "Gm"g2 "d.C."z2 |]
+S:https://www.folktunefinder.com/tunes/6039
+S:http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+S:http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+S:http://www.ragtimepiano.ca/rags/can8.htm
+S:http://www.ragtimepiano.ca/rags/can8.htm
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish7.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/shottish/DancingInTheBarn_Gm_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/shottish/DancingInTheBarn_Gm_8.abc
+% Rhythm Shottish
+% Link Link to PDF
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

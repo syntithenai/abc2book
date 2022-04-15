@@ -1,0 +1,25 @@
+X: 1
+T: Polska efter Zuaw
+T: Kumlapolskan
+O: N\"aarke
+S: Bengt Jonsson (Oct 1993)
+M: 3/4
+L: 1/8
+K: G
+D \
+| "G"G>A B2 G>B | "Am"B<A A3 B | "D7"c2 c>B A>G | (3FEF "G"G>D B,D \
+| "G"G>A B2 G>B | "Am"B<A A3 B | "D7"c2 c>B A>G | (3FEF "G"G3 :|
+|: B \
+| "G"d2 d>c c>B | "Am"cf "A7"e>d | (3^cBc "D"d3 B \
+| "G"d2 d>c c>B | "Am"cB A>G | (3FEF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/16599
+S:http://trillian.mit.edu/~jc/music/abc/pols/Zuaw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Zuaw.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

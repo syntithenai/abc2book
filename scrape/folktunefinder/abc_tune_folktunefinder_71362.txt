@@ -1,0 +1,26 @@
+X:333
+%%topmargin 3cm
+T:Aberlour's Squeeze
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+E | c2 c>e d>B c2 | G<cc>e d>ef>g | e<c-c>e (e/d/)(c/B/) (c<A) | A<cG>E D>EF :|
+e/g/ | g>ce>c g>c Te2 | g>c{/f}e>g a>df>a | g<ce<g c<ge<g | {AB}c>AG<E D>E F(e/f/) |
+g>ce>c g>c Te2 | g>ce<g a>df>a | ((3efg) ((3def) ((3edc) ((3dcB) | ((3ABc) ((3GFE) D>EF |]
+S:https://www.folktunefinder.com/tunes/71362
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Aberlours_Squeeze.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0333.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

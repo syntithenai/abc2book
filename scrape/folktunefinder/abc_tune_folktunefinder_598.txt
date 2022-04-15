@@ -1,0 +1,30 @@
+X:140
+T:Eleonora
+T:Polka n16
+O:France
+R:Polka
+A:Provence
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-27
+M:2/4
+L:1/8
+K:Bb
+Fd Bd | FB/d/ f2 | edcB | A/G/A/B/ cB | Fd Bd | FB/d/f2 | ed c/B/A/c/ |1 Bd/f/B2 :|2 BdB |:
+K:F
+(3c/d/c/ | AcfA | cB BG/A/ | Bd dc/B/ | Aff(F{cdc}) | AcfA | cB BG/A/ | Bg gf/e/ | faf :| z |
+K:Bb
+F/G/A/B/ dd | d4 | A/B/c/d/ cc | c4 | (e/e/)(e/e/) ee | (d/d/)(d/d/) dd | cBAG | (G2F)f | 
+F/G/A/B/ dd | d4 | A/B/c/d/ cc | c4 | (e/e/)(e/e/) ee | (d/d/)(d/d/) dd | cc/B/ Ac | BdB S ||
+K:F
+A | (Ac)f>(g | f3)A | (Ac)e>(f | e3)G | (GB)d>(_e | d3)F | (FA)c>(d | c3)A | 
+(Ac)f>(g | f3)A | (Ac)e>(f | e2)zb/b/ | ba ag/g/ | gf fe/e/ | ecde | fffz !D.C.! |]
+%%footer $D   Galouvielle-MBe 2008 \nPolka (France)
+S:https://www.folktunefinder.com/tunes/598
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

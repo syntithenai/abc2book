@@ -1,0 +1,25 @@
+X: 1
+T:Gan ainm
+R:Reel
+M:4/4
+L:1/8
+K:A
+cEE2 c2Bc|AFFE FAEA|F3E FGAB|cBAB cffe|\
+cEE2 c2Bc|AFFE FAEA|F3E FGAB|cABG A4:||\
+aefe c2Bc|AFEF ABce|f2ba fbaf|ecAB cAce|\
+aefe c2Bc|AFEF ABce|f2ba fbaf|ecBc A4:||
+S:https://www.folktunefinder.com/tunes/17223
+S:http://trillian.mit.edu/~jc/music/abc/reel/GanAinm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GanAinm.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GanAinm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/GanAinm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/GanAinm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

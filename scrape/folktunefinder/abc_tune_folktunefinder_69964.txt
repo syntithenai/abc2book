@@ -1,0 +1,25 @@
+X:404
+T: GUTE NACHT
+N: F0741
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Tageszeiten - Lied, Abend
+M: 4/4
+L: 1/16
+K: G
+D4D4 | G8F4F4 | E8
+D4G4 | E4E4D4C4 | B,8
+A,4D4 | B,2^C2D2E2F4E3F | E4D4
+D4D4 | G2B,2E2D2F4G4 | F4D4
+G4F4 | E4D4C4B,4 | A,8
+A,4A,4 | D8D4D4 | D8
+S:https://www.folktunefinder.com/tunes/69964
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, tageszeiten - lied, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

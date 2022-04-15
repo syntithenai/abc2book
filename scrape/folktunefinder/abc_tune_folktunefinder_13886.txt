@@ -1,0 +1,26 @@
+X: 1
+T: the Black Walnut
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen dated June 1988 ("Stan Hamilton album")
+M: 6/8
+L: 1/8
+K: A
+B \
+| "A"cAc "E7"dBd | "A"cAc "Bm"B2A | "E"GEG "B7"B2A | "E"GEG "E7"Bcd \
+| "A"cAc "E7"dBd | "A"cAc "Bm"B2A | "E"GBG "E7"EFG | "A"A3 A2 |]
+E \
+| "A"Ace ece | "D"aga "E7"e2d | "A"cAc "E7"B3  | "B7"cAc "E7"B2E \
+| "A"Ace ece | "D"aga "E7"e2d | "A"cAc "E7"BAG | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/13886
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlackWalnut_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/BlackWalnut_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BlackWalnut_A16.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Bell's Favorite Jig
+S: Copy from unknown book
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20040721174425 by John Chambers jc:trillian.mit.edu
+K: D
+A \
+| FEF GFG | BAF A2d | cde ABc | dcB A2G \
+| FEF GFG | BAF A2d | cde ABc | d3 d2 :|
+|: f \
+| aba fdf | gfg e2d | cde ABc | dcB A2f \
+| aba fdf | gfg ed2 | cde ABc | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/13857
+S:http://trillian.mit.edu/~jc/music/abc/jig/BellsFavoriteJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BellsFavoriteJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BellsFavoriteJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc:trillian.mit.edu/BellsFavoriteJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BellsFavoriteJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

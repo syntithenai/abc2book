@@ -1,0 +1,24 @@
+X:200
+T: DER SOMMER KEHRET WIEDER
+N: F0345
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Geselligkeit, Scherz, Kanon
+M: 2/4
+L: 1/8
+K: Bb
+F | BdBd | B2B
+B | cFFF | B2z
+F | DB,DF | D2D
+D | EEEE | D2z2 | z
+fdz | zfdz | zfd
+S:https://www.folktunefinder.com/tunes/69760
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, geselligkeit, scherz, kanon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

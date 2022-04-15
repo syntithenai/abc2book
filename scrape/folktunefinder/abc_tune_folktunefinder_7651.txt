@@ -1,0 +1,27 @@
+X: 48
+T: Kitchen Girl
+N:Chords added by J. Evans (yes, the major E chord is intentional!).
+F:Found in http://www.ars-nova.com/swusermanual/abc.htm 2007-9-10
+N:Note the incorrect keys.
+C:Trad.
+L:1/8
+K:D
+            [c4a4] [B4g4] | "A"efed c2cd |    e2f2 "G"gaba | "E"g2e2 e2fg \
+| "no chord"[c4a4] [B4g4] | "A"efed cdef | "G"g2d2    efed | "A"c2A2 A4 :|
+K:G
+|: "Amin"ABcA "G"BAGB | "Amin"ABAG EDEG | A2AB    c2d2 |    e3f edcB \
+|        ABcA "G"BAGB | "Amin"ABAG EGAB | cBAc "G"BAG2 | "Amin"A4 A4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7651
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Link Link to
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

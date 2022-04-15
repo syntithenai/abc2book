@@ -1,0 +1,31 @@
+X: 1
+T: Rapukestit
+T: Crayfish party
+R: shottish
+C: Konsta Jylh\"a
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "A7"A2 \
+| "Dm"d2 de fe d^c | ed AF D2 DE | FE FA G2 ~F2 | "A7"E6 EF \
+| "Gm"G2GA BABc | "C7"cee2 e3f | gf ed c2 ~B2 | "F"A6 "A7"A2 |
+| "Dm"d2 de fe d^c | ed AF D2 DE | "D7"^F2 FG A2 c2 | "Gm"B4 B4 \
+| "A7"ef gf ed ^cA | "Dm"de fe dA FD | "Gm"GA BG "A7"A2 ^c2 | "Dm"d6 :|
+|: AB \
+| "F"c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe e2 | "Gm"B6 GA \
+| "C7"B2 Bd E2 GA | BA Bd E2 GA | BA Bd e2 ~d2 | "F"A6 AB |
+| "F"c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe g2 | "Bb"d6 ga \
+| "Gm"ba gf "C7"e2 c2 | "F"c'b ag fdc2 | "Gm"d^c df "C7"e2 =c2 | "F"f6 :|
+S:https://www.folktunefinder.com/tunes/18432
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Rapukestit_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish/Rapukestit_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/Rapukestit_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Rapukestit_Dm.abc
+% Rhythm Shottish
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

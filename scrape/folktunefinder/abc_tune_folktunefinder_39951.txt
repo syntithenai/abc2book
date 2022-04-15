@@ -1,0 +1,42 @@
+X:8
+T:La dame blanche
+R:
+A:
+N:p 72
+C:D'aprs Boieldieu - Paroles R. Vieuxbl
+O:France
+Z: <anamnese@laposte.net>
+M:C
+L:1/4
+Q:1/4=120
+K:C
+%%staves [1 2]
+V:1
+G | ccce | eG2G | dddf | fG2G |  
+w: O | vois sur la tou-|rel-le, La | blan-che Da-moi-|sel-le, Sous |
+w:Ce | ch-teau du si-|len-ce, Qui | vers le ciel s'-|lan-ce, Peut-|
+Geee | e2AA | Addd | d2GG | 
+w:la lu-ne qui | luit El-le | va, mou-vant fan-|t-mes. Ren-|
+w:tr(e) est le r-|duit D'affreux | lutins et de | gn-mes. Ren-|
+Geee | f2f e/d/ | dc2B | c3 ||
+w:trons, ren-trons, Guil-|lau-me Bien~ | froid(e) est la | nuit |
+w:trons, ren-trons, Guil-|lau-me Bien~ | froid(e) est la | nuit |
+V:2
+z | z2zG | ccce | G2GG | dddf | 
+w:  O | vois sur la tou-|rel-le, La | blanche Da-moi-|
+w:  Ce | ch-teau du si-|len-ce, Qui | vers le ciel s'-|
+G2GG | AEAG | F2FF | GDGF |
+w:sel-le, Voy-|ez ce blanc fan-|t-mes. Ren-|trons, ren-trons, Guil-|
+w:lan-ce, est | le r-duit de | gn-mes Ren-|trons, ren-trons, Guil-|
+Ecc_B | A3 G/F/ | FE2D | C3 ||
+w:laum(e) Ah! oui ren-|trons Bien~ | froid(e) est la | nuit |
+w:laum(e) Ah! oui ren-|trons Bien~ | froid(e) est la | nuit |
+S:https://www.folktunefinder.com/tunes/39951
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

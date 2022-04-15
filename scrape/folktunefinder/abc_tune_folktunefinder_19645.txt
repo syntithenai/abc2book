@@ -1,0 +1,26 @@
+X: 1
+T: 'S ann an Ile
+T: It is an Island
+T: Marquis of Huntly's Strathspey
+R: strathspey
+N: handwritten MS by Barbara McOwen dated Nov 1995
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d<d f>d "A7"g>e "D"f<d | "G"B<e e>d "A7"c<A A<c \
+| "D"d<d f>d "A7"g>e "D"f<d | "G"B>e "A7"c<A "D"d2 d :|
+|: z \
+| "A"A>A A>A A/A/A A>A | "A7"a>f e>f "G"d<B B2 \
+| "A"A>A A>A A/A/A A>A | "A7"a>f e>f "D"d2 d :|
+S:https://www.folktunefinder.com/tunes/19645
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SAnnAnIle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SAnnAnIle_D.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

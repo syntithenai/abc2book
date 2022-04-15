@@ -1,0 +1,27 @@
+X:216
+T: Das Lied vom Scheiden
+N: A0262
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III 1549 No. 17
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+C4 | G2G2A2B2 | c4c4
+e4 | d4B2c3BAGA2A2 | G4z2
+G2 | c4c2B2B2AG | A4E4
+c4 | B2A3EG2F4 | E4z2
+E2E2E2 | G4F2E4DCD2D2 | C4z
+FC2 | G4A2B3cdB | c4G4
+c4 | B2A3EG2F4 | E8
+S:https://www.folktunefinder.com/tunes/68762
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

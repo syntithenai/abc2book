@@ -1,0 +1,26 @@
+X:460
+T:Fiddle Hill Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+G|"G"G2g f2e|d^cd edB|"G"G2B c2^c|"D"d3 -dAB|
+c2d c2d|"D"cAF DFA| [1"D"ded "D7"cdc|"G"B3 -B2:|
+[2"D7"ded cBA|"G"G3 -G2|:\
+K:D
+F/2G/2|"D"A2z"A"G2z|"D"FAd fed|"A"c2e B2c|
+"E7"BA^G "A"A2F/2G/2|"D"A2z"A"G2z|"D"FAd fed|"A7"cBA gfe| [1"D"d3 -d2:|
+[2"D"d3 "D7"=cBA||
+S:https://www.folktunefinder.com/tunes/64840
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

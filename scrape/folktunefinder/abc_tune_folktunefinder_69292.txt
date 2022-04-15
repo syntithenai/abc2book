@@ -1,0 +1,35 @@
+X:433
+T: "Die Baeuerin und der Ritter"
+N: Z1113
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+N: Moduliert in T18 nach G
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: D
+A,2 | D2A,2B,2C2 | D4D2
+F2 | E3DC2B,2 | A,4z2
+A,2 | D2A,2B,2C2 | D4D2
+F2 | E3DC2B,2 | A,4z2
+E2 | E2D2C2B,2 | D2C2B,2
+E2 | E2A,2B,2^G,2 | A,4z2
+A,2 | A,2D2D2E2 | F2D2z2E2 | F2D4
+D2 | B,2E2D2C2 | D4z4
+D4 | =C4D2B,2G,4 | E2G2F2E2
+D4 | =C4D2B,2G,4 | E2G2F2E2
+D4 | A,4A,4C2A,2 | D8
+D2B,2 | A,4A,4C2A,2 | D8
+D2B,2 | D4B,4G,4 | =C4A,4
+D2B,2 | D4B,4G,4 | =C4A,4
+D2B,2 | E4E4E4 | D6=C2
+B,4 | D2=C2B,4A,4 | G,8
+S:https://www.folktunefinder.com/tunes/69292
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

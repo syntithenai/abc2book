@@ -1,0 +1,25 @@
+X:350
+%%topmargin 3cm
+T:Brechin Castle
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F ionian
+F S|: B/B/B TB2 B>df>d | B/B/B TB2 {AB}(c>B)A<F | B/B/B ~B2 B>df>d | e<gd<f {AB}(c>B)A<F ::
+Tf>B (e/d/)(c/B/) Tfg | TfB (e/d/)(c/B/) {AB}c>BA<F | Tf>B (e/d/)(c/B/) ff | [1 e<gd>f {AB}(c>B)A<F :| [2 e<gdB)A<F S|]
+S:https://www.folktunefinder.com/tunes/71379
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Brechin_Castle.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0350.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

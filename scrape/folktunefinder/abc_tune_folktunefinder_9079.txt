@@ -1,0 +1,39 @@
+X: 2
+P: Alv\'en Polska
+R: Orsa-polska
+O: efter Karin Thorn
+N: Learned in April 1995 workshop.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+(A \
+| "D"d4) (AB)AG F3E \
+| D3(g Tf4) "Em"(e4- \
+| e3g) B4 "A7"c3e \
+| "G"d3B- (3B2G2B2 "A7"(A4 \
+| "D"d4) (AB)AG F3E |
+| D3(g Tf4) "Em"e3f \
+| "A7"(g3f) (e3d) c3B \
+| (Ac)ec "D"d7 "fine"y \
+:: (vg \
+| "D"Tf3e) (d2A2) d3e \
+| (Tf2e2) (d2A2) F3A |
+| d2(A2 F2A2) d3e \
+| (fe)fb a4- a2(vef \
+| "Em"g3)(a g2f2) e3d \
+| "A7"c3(B AB)cd e3e \
+| {e}a3c- c2e2 "G"d3B- \
+| (3B2G2B2 "A"A7 :|
+S:https://www.folktunefinder.com/tunes/9079
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Orsa2.abc
+% Rhythm Orsa-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

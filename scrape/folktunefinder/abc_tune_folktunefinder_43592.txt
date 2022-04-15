@@ -1,0 +1,27 @@
+X:145
+T:Geewoe Dobin
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc7.html
+%%ID:00000dc7
+K:G
+A |\
+FED AGF | BAG A2A | dcd Bcd | ecA d2 ::
+d |\
+def Bcd | ecA B3 | d3 ABA | AGF (GE)F |\
+G3 F3 | A2 F/D3/ G2 |B2 G/E3/ F2 | A3 GFE | Ddc d3 :|
+% page 16
+S:https://www.folktunefinder.com/tunes/43592
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

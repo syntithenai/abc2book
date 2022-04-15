@@ -1,0 +1,31 @@
+X: 1
+T: Vall\aatspolskan (ornamented)
+O: efter G\"ossa Anders
+N: From arrangement by Alm Nils Ersson
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+A2- \
+|: A3(^c d3)(e f2){ef}a2 | a3{ba}g- ga3 (fg)fe \
+| {^cd}c4 {=Bc}(d2e2) f2e2 | g2{ag}f2 dedc A4- |
+| A2(^c2 d2)e2 f2{ef}a2 | a3{ba}g- g2a2 (fg)fe \
+| {^cd}c4 {=Bc}d3e f2{gf}e2 | g2{ag}f2 d8 :|
+K: Gm
+|: {B}A3(B A2)Bc {de}d4- | d2(^F2 G2)A2 {BA}B3c \
+| d3e d2{ed}c2 B2{cB}A2 | c2{dc}B2 G2{AG}^F2 D4- |
+| D3(B A2)Bc d3{ed}c | B2{cB}A2 (G^F)GA {BA}B3c \
+| d3e d2{ed}c2 B2{cB}A2 | c2{dc}B2 G8 :|
+S:https://www.folktunefinder.com/tunes/16590
+S:http://trillian.mit.edu/~jc/music/abc/pols/VallatsP1b_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/VallatsP1b_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

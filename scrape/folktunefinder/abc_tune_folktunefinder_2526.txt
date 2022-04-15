@@ -1,0 +1,24 @@
+X:3
+T:Short and Long Notes, Beams, N-tuplets
+C:Trad
+M:C
+K:C
+L: 1/8
+ c8| d4 e2 fg | C c C/ c/ d/e/ d// C// C/D/E/F/ | d>e d>>e e<fe (3CDE (4fgab |
+S:https://www.folktunefinder.com/tunes/2526
+S:http://trillian.mit.edu/~jc/music/abc/test/ShortAndLongNotesBeamsNTuplets.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/ShortAndLongNotesBeamsNTuplets.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/ShortAndLongNotesBeamsNTuplets.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/ShortAndLongNotesBeamsNTuplets.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

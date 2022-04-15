@@ -1,0 +1,22 @@
+X:1155
+T:Paddy Whack
+% Nottingham Music Database
+S:EF
+M:6/8
+K:G
+P:A
+d|"G"GBd gfg|"C"edc "D7"BcA|"G"GBd "A7"efg|"D7"fdd def|
+"G"gbg "D"afd|"C"cde "G"dBG|"Em"GAB "D7"cAd|"G"BGG G2:|
+P:B
+G/2A/2|"G"BGB "C"c2e|"G"dBG "D7"A2G|"G"GBd "A7"efg|"D7"fdd def|
+"G"gbg "D"afd|"C"cde "G"dBG|"Em"GAB "D7"cAd|"G"BGG G2:|
+S:https://www.folktunefinder.com/tunes/64979
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:51
+T:Jan Pirrewit
+C:Traditioneel
+O:Nederokkerzeel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+K:G
+L:1/4
+D|:B/B/ B A|G/G/ G G/G/|GFG|AzD|F/F/ FG|A/A/ A A/B/|cBA|[1 BzD :|2 Gz D/D/|
+DEF|Gz E/E/|EFG|AzD|B/B/ BA|G/G/ G A/B/|cBA|G !fine!z D||
+L:1/8
+|:BB/B/ Bd Bd|BB/B/ Bd Bd|BB/B/ Bd Bd|c4 D2|DE FG AB|
+cB AG FE|[1 DE FG A^A|B4D2:|2DE FG AB|Gz!D.C.!G2|]
+S:https://www.folktunefinder.com/tunes/75747
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

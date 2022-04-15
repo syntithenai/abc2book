@@ -1,0 +1,27 @@
+X:50
+T: Zeitenlied
+N: A0404
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod. M. 53. 16. Jh.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/2
+L: 1/2
+K: C
+C | CCCG, | C2D2
+G2 | GF2ED2 | C2z
+C | CCCG, | C2D2
+G2 | GF2ED2 | C2z
+F | EDCD | E2E2z
+E | F2FG2F | E2z
+D | FEDC | G2G2
+G2 | GF2ED2 | C3
+S:https://www.folktunefinder.com/tunes/80109
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

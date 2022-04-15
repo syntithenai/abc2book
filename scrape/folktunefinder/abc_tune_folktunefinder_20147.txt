@@ -1,0 +1,51 @@
+X: 1
+T: Pellikvalsen efter Leisme Per Larsson
+O: Malung, Finnmark, Sweden
+R: waltz
+S: handwritten MS
+B: From "R\"oda h\"aftet", book from AB Carl Gehrmans Musicf\"orlag, 1953
+D: Malungs spelmanslag RA 186
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: D2- \
+| "G"D2 BB B2 \
+| (GB) (dg) (ge) \
+| "C"(ec) cc cc \
+| c2 (eg) (ec) \
+| "G"(cB) BB B2 \
+| (GB) (dg) (dc) |
+| "D7"A2 (ce) "G"(dB) \
+| (BG) (Bd) "D7"(cA) \
+| (DF) (Ac) (AF) \
+| "G"G2 z2 :: D2- \
+| "G"Dz (BA) GB \
+| (BA) (cB) AG |
+| "D7"Fz (AD) FA \
+| "G"Dz (ed) BG \
+| Dz (BA) GB \
+| "G"(BA) (cB) AG \
+| "D7"Fz (AD) FA \
+| "G"G2 z2 :|
+|: D2- \
+| "G"Dz (gd) Bd \
+| "C"c2 (ed) cA \
+| "D7"F2 (AD) FA \
+| (DF) GA Bc \
+| "G"(Bd) (gd) Bd \
+| "C"c2 (ed) cA \
+| "D7"F2 (AD) FA \
+| "G"G2 z2 :|
+S:https://www.folktunefinder.com/tunes/20147
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Pellikvalsen1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Pellikvalsen1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/Pellikvalsen1_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

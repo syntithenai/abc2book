@@ -1,0 +1,26 @@
+X:18817
+T:Wind on the Heath
+% Nottingham Music Database
+S:Scotland
+M:3/4
+L:1/4
+K:D
+A|"D"D3/2E/2D|"D"F2G|"D"A2B|"D"AFD|"G"G2d|"D"F2d|"Em"EFD|"A7"CB,A,|
+"D"D3/2E/2D|"D"F2G|"D"A2B|"D"AFD|"Em"FdF|"A7"Edc|"D"dAF|"D"D2A|
+"D"d3/2e/2d|"D"f2g|"D"a2g|"D"fed|"G"B3/2c/2B|"A"c2d|"E7"efd|"A7"cBA|
+"D"d3/2e/2d|"Bm"f2g|"F#m"a2g|"Bm"fed|"Em"B/2c/2dB|"A7"c/2d/2ec|"D"d3|"D"d2A|
+"D"d3/2e/2d|"D"f2g|"D"a2g|"D"fed|"G"B3/2c/2B|"A"c2d|"E7"efd|"A7"cBA|
+"D"dad|"A"cac|"G"Bag|"D"fed|"Em"B/2c/2dB|"A7"c/2d/2ec|"D"dAF|"D"D2||
+S:https://www.folktunefinder.com/tunes/50265
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

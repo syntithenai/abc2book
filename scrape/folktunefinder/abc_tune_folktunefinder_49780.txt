@@ -1,0 +1,29 @@
+X: 225
+T:Pantalon Waltz,La. CJF.225
+T:La Pantalon Waltz. CJF.225
+M:3/4
+L:1/8
+Q:120
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:D
+"$"(ac)|(dcdc).b.d|e2e2(ge)|(dc)BABc|d2d2(ac)|!
+(dcdc).b.d|e2e2(ge)|(dc)(BABc)|d4:|!
+|:ef|(gA)(eA).g.A|fAdfaf|(gA)(eA).g.A|fAdfaf|!
+d2d2(bd)|e4(ge)|(dc)BABc|d4:|!
+|:de|f2f2e2|d2d2c2|B2{c}(BABc)|defgag|f2f2e2|!
+d2d2c2|B2{c}BA"D.C."Bc|"  $"d4:|]
+S:https://www.folktunefinder.com/tunes/49780
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

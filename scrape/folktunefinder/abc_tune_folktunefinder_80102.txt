@@ -1,0 +1,31 @@
+X:43
+T: Mahnlied
+N: A0399A
+O: Europa, Mitteleuropa, Deutschland
+N: Fliegendes Blatt, 1546.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: G
+GGG | _B2G | _B2c | d2
+d | _e2d | c_Bc | d2z
+GGG | _B2G | _B2c | d2
+d | _e2d | c_Bc | d2z
+ddd | d2_B | cA
+d | c2A | _BG2 | =F2z
+ddd | d2G | _B2c | d2
+d | d2_B | cA2 | G3
+ddd | d2_B | cA
+d | c2A | _BG2 | =F2z
+ddd | d2G | _B2c | d2
+d | d2_B | cA2 | G3
+S:https://www.folktunefinder.com/tunes/80102
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

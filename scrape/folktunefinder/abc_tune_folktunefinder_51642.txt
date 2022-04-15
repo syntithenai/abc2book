@@ -1,0 +1,39 @@
+X:782
+T:Wild Rose of the Mountain
+M:4/4
+L:1/8
+K:A
+"A"a2 a2 "G"=ga=gf|"A"efed c2 (3efg|a2 ae =ga=gf|\
+M:2/4
+ed c2|\
+M:4/4
+"E"(e8|e6) a2|
+"A"a2 a2 "G"=ga=gf|"A"efed c2 A2|EFGA cdcB|\
+M:2/4
+"E"A ^G2|\
+M:4/4
+"A"(A8|1 A4) Aceg :|
+|2 A6 A,2 |: "(" "A" ")" A,B,CE A2 AB|efed cdcA|\
+M:2/4
+BA ^G2|\
+M:4/4
+"E"(E4 E3) F|E8|
+"(" "A" ")" A,B,CE A2 AB|cdef =ga=gf|efed cdcA|\
+M:2/4
+"E"BA ^G|\
+M:4/4
+"A"(A8|1 A6) A,2 :|2 A8|]
+S:https://www.folktunefinder.com/tunes/51642
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t782.txt
+S:http://www.arcelts.com/bbot1/t782.abc
+S:http://www.arcelts.com/bbot1/t782.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

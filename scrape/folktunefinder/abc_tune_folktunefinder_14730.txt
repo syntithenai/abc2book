@@ -1,0 +1,27 @@
+X:2
+T:The Munster Jig
+T:Jackson's Mistake
+M:6/8
+L:1/8
+R:Double Jig
+S:Rob Greenway <robgreenway:yahoo.com> IrishTradAccord 2005-4-15
+Z:Rob Greenway
+K:G
+   D | ~G3 AGA | Bde gdB | GAB cBA | BGE EDE \
+     | ~G3 AGA | Bde gdB | cBA BdB | AGF G2 :|
+|: f | gfg efg | eag fed | gfg efg | afd def \
+     | gfe agf | gfe d2B | cBA BdB | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/14730
+S:http://trillian.mit.edu/~jc/music/abc/jig/Munster_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Munster_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Munster_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/IrishTradAccord/Munster_Jig_1.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

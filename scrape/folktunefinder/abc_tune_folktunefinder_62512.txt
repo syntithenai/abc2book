@@ -1,0 +1,36 @@
+X:21
+T:Gregorieleiken (R\orospols)
+%O:Norway
+R:R\oorospols
+Z:Bob Wyttenbach 5/31/03 from Andrea Hoag for NFF 2003
+M:3/4
+L:1/8
+%Q:1/4=130
+K:G
+P:A
+V:1
+uf|g2(bg) (3d(ef)|g2(bg) d>(e|d)>(c (3B)(GB) (3A(FA)|G2(BG) D>f|
+V:2
+uA|B2(gd) (3B(cd)|B2(gd) B>(c|B)>(A (3G)(DG) (3F(DC)|B,2(DB,) G,>A|
+V:1
+g2(bg) (3d(ef)|g2(bg) d>(e|d)>(c (3B)(GB) (3A(FA)|G2G3:|
+V:2
+B2(gd) (3B(cd)|B2(gd) B>(c|B)>(A (3G)(DG) (3F(DC)|B,2B,3:|
+P:B
+V:1
+uf|g2(gd) (3B(GB)|c2(ec) A>F|A2(AF) (3D(FA)|G2(BG) D>f|
+V:2
+uA|B2(BG) (3D(B,D)|E2(GE) C>D|F2(FD) (3A,(DC)|B,2(DB,) G,>A|
+V:1
+g2(gd) (3B(GB)|c2(ec) A>F|A2(AF) (3D(FA)|[1G2G3:|[2G2G4|]
+V:2
+B2(BG) (3D(B,D)|E2(GE) C>D|F2(FD) (3A,(DC)|B,2B,3:|[2B,2B,4|]
+S:https://www.folktunefinder.com/tunes/62512
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003.abc
+% Rhythm R%C3%B8orospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

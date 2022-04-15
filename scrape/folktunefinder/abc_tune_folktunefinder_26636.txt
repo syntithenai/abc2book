@@ -1,0 +1,29 @@
+X:6184
+T:South Australia
+O:england
+M:4/4
+C:
+S:Digital Folk Tradition Database
+N:hacked DigiTrad SongWright code
+A:Adderbury
+R:Reel
+%P:A(AB)$^4$
+P:A(AB)4
+%:WWW:no
+%:abc2mtex:no
+K:C
+I:speed 400
+P:A
+G2 | E2    G2  G2   G2 | A2    G2   G4       | A2    G2 G4    | A2   G2 G2
+S:https://www.folktunefinder.com/tunes/26636
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 11
+T: Cold Frosty Morning
+R: reel
+S: Henry Reed
+Z: jc@purr.demon.co.uk (Jack Campin)
+M: 4/4
+L: 1/8
+K: Ador
+| a4      a4     | a>b a>g e>d  c>d | e>d e>f g>a g>f  | e>d c>d e4 |
+| A4      c3 c   | d>c d2  e2   e>d | c>B A>c B>A  G2  | A3B     A4 :|
+| E>D E>G A2 A>A | c>A c>d e2 (3DEF | G2  B>A G2 (3DEF | G>A B>c d4 |
+| E>D E>G A2 A>A | c>A c>d e2   e>d | c>B A>c B>A  G2  | A8         :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7614
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

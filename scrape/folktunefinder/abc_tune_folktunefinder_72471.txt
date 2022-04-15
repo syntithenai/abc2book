@@ -1,0 +1,22 @@
+X:14
+T: Der Nachtjaeger
+N: D0015
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Inzipit = entfernte Variante 
+R: Ballade, Zauber
+M: 2/4
+L: 1/16
+K: G
+D2 | G4F2E2 | D4D2D2 | c4c4 | B6
+B2 | B2A2c2A2 | G4G2B2 | A4A2F2 | G6
+GG | F2A2A2AA | G2B2d2c2 | B4A2A2 | G6
+S:https://www.folktunefinder.com/tunes/72471
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Ballade, zauber
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

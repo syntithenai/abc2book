@@ -1,0 +1,38 @@
+X:74
+T:Aulla un perru (CT 031)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Trubia, ayuntamiento de Uviu.
+A:Asturies
+O:Trubia (Uviu)
+Z:Cancioneru de Torner 031
+M:3/4
+L:1/8
+Q:1/4=108
+K:C
+|: d>d d2 c_B|d2 c4|_B2 d2 B2|A2 G4|
+d>d d2 c_B|d2 c4|_B2 d2 B2|A2 G4|
+G>A _B2 AG|A2 c4|_B2 d2 B2|A2 G4|
+G>A _B2 AG|A2 c4|_B2 d2 B2|A2 G4 :||
+W:Aulla un perro, madre,
+W:junto a la puerta;
+W:cuando amanezca el da
+W:ya estar muerta.
+W:
+W:-Si ya vas mejorando,
+W:no digas eso.
+W:-Madre ma del alma,
+W:dame otro beso.
+W:
+S:https://www.folktunefinder.com/tunes/58961
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

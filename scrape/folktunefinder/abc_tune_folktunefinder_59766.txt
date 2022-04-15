@@ -1,0 +1,53 @@
+X:879
+T:Xiraldilla (CT 386)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Esta xiraldilla es, ya de antiguo, muy corriente en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 386
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|: g2 d2|B>c de|ed cB|d2 c2|a2 f2|d>e fg|fe dc|[1 B2 z2 :|[2 B2 zA|
+BB cc|d B2 A|BB cc|d2 zd|ed cB|d c2 B|A2 Bc|B2 zA|
+BB cc|d B2 A|B2 cc|d2 zd|ed cB|dd cB|AA Bc|B2||
+W:No voy sola,
+W:no voy sola,
+W:no voy sola
+W:al jardn del Olivar,
+W:del Olivar;
+W:no voy sola,
+W:no voy sola,
+W:no voy sola:
+W:mi amor me va acompaar,
+W:a acompaar.
+W:
+W:
+W:Estribillu:
+W:Arriba, Manolillo,
+W:abajor, Manol;
+W:de la quinta pasada
+W:yo te libert.
+W:De la que viene ahora,
+W:no s si podr:
+W:arriba, Manolillo,
+W:Manolill, Manol.
+W:
+S:https://www.folktunefinder.com/tunes/59766
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

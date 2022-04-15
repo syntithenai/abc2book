@@ -1,0 +1,25 @@
+X:199
+T: DER MOND IST AUFGEGANGEN
+N: B0237
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Abend
+M: 4/4
+L: 1/4
+K: G
+G | AGcB | A2G
+B | BBed | c2B
+B | BBcB | A2z
+G | AGcB | A2G
+B | BBed | c2B
+B | BBcB | AAG
+S:https://www.folktunefinder.com/tunes/78220
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Tageszeiten - lied, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

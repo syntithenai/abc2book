@@ -1,0 +1,31 @@
+X: 1
+T: Golden Slippers
+I: Golden SlippersS-GGreel
+%C: S-G
+C: Old-Time
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+GA| "G"B2B2 BAGA| B2B2 B2GA| B2B2 c2B2| "D"B2A2 A2FG|\
+       A2AB AGFG| A2AG A2FG| A2c2 B2A2| "G"A2G2 G2 :|
+\
+E2| "G"D6 GA| B2A2 G2=F2| "C"E6 AB| c2B2 A2G2|\
+    "D"F3E F2G2| A3B A2F2| "G"G3F G2A2| B2G2 F2 E2|
+    "G"D6 GA| B2A2 G2=F2| "C"E6 AB| c2B2 A2G2|\
+    "D"F3E F2G2| A4 c4| "G"B2Bc "D"B2A2| "G"G6 |]
+S:https://www.folktunefinder.com/tunes/19122
+S:http://trillian.mit.edu/~jc/music/abc/square/Golden_Slippers.abc
+S:http://roaringjelly.org/music/square/Sq_G_Golden_Slippers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_G_Golden_Slippers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Golden_Slippers.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_G_Golden_Slippers.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:6242
+T: St. Martin's
+O:england
+M:4/4
+L:1/8
+Q:160
+S:Playford
+A:English
+K:C
+E2|AB c2 Bc d2|c4 c2 d2|e^f g2 f3 e|e6 e^f|g2 ^fe d2 de|f2 ed c2 cd|e2 d
+c B3 A|A6::\
+B2 e2 B2 c2| B3 A G^F G2|cde^f d3 e|c6 e^f|g2de f2 cd|e2 Bc d2 cd|e2 dc
+B3 A|A6:|
+S:https://www.folktunefinder.com/tunes/26694
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

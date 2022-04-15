@@ -1,0 +1,35 @@
+X: 4
+P: Source of Spey (Mathair Spe)
+C: Lachlan MacPherson
+B: Skye p.100 (1887)
+B: Kerr (Merry Melodies), V.3; p.9 #65
+B: Neil, p.166 #127 (1991)
+B: Athole, p.169 (1884)
+B: Fraser, The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles, p.26 #72 (1816, 1874)
+R: strathspey
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B | "Em"G<E E>F G>A B<e | "G"dA G>A B<e | "Em"G<E E>F     G>A B<e | "E7"d^G "Am"A2 A :|
+B | "Em"e>f g>e d>e B<e | "G"de d>e B<g | "Em"e>f g>e     d<e B<g | "E7"d^G "Am"A2 A |]
+B | "Em"e>f g>e d>e B<e | "G"de d>e B<g | "Em"ea | "Em"g>e d>B  "Am"A2 A |]
+S:https://www.folktunefinder.com/tunes/3621
+S:http://trillian.mit.edu/~jc/music/abc/England/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS06.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BorderCrossings2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LetsMeetAgainStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LetsMeetAgainStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/LetsMeetAgainStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/LetsMeetAgainStr.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/AdieuMonAmi.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LetsMeetAgainStr
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,48 @@
+X: 164
+T:Cicerenella
+N:Neapolitan Tarantella
+R:Tarantella
+O:Italy
+B:
+D:
+Z:John Chambers <jc@trillian.mit.edu>
+N:If the D part is used, the order is ADBC or ADABAC.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-08-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+T:ABACA(DA)
+F:http://trillian.mit.edu/~jc/music/abc/Intl/Tarantella_Neapolitan.abc 2005-08-26 20:46:57 UT
+K:Gm
+%
+P:A
+|: g2g \
+| "Gm"d2d g2g | d2d d2d | "Cm"e2e efe | "Gm"e2d ded \
+| "D7"d2c cdc | "Gm"c2B BcB | "D7"B2A B2A | "Gm"G2z :|
+P:B
+|: G2A \
+| "Gm"BAB "Cm"cBA | "Gm"BAB "Cm"cBA | "Gm"BAG "D7"^FGA | "Gm"G2z G2A \
+| "Gm"BAB "Cm"cBc | "Gm"dcd "Cm"edc | "Gm"BAG "D7"^FGA | "Gm"G2z :|
+P:C
+|: "F7"FGA \
+| "Bb"BAB dBd | f2f fgf | "F7"f2e efe | "Bb"e2d "F7"FGA \
+| "Bb"BAB dBd | f2f f=ef | "F7"agf edc | "Bb"B2z :|
+P:D (rare)
+|: d2e \
+| "Bb"f2f g2f | "F7"e2d c2d | e2e f2e | "Bb"d2c B2d \
+| "G7"f2f g2f | "Cm"e2d c2d | "F7"efe d2c | "Bb"B2z :|
+%%footer $D   Galouvielle-MBe 2008 \nTwo-step (France)
+S:https://www.folktunefinder.com/tunes/622
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Tarantella_Neapolitan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Tarantella_Neapolitan.abc
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Tarantella
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

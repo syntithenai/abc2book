@@ -1,0 +1,23 @@
+X:518
+T: "Troestung"
+N: Z1198
+O: Europa, Mitteleuropa, Deutschland, Bayern; Tirol
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: A
+A2 | e3dc2 | c2B2
+B2 | f3ed2 | d2c2
+c2 | e3dc2 | c2B2
+B2 | f3ed2 | c4
+S:https://www.folktunefinder.com/tunes/69377
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

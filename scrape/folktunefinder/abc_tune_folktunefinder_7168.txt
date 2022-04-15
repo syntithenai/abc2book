@@ -1,0 +1,23 @@
+X: 2
+T: Kohanochka
+O: Russia
+R: Polka
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+|: "Bm"B2Bd "F7"c2ce | "Bm"d2d2 "Em"e4 | "F7"f3e d2c2 | "Bm"B2F2 B4 :|
+|| "A7"a4 a3g | "D"g2f2 f^efg | "A7"f2e2 e^def | "D"e2d2 A4 |
+|  "A7"a4 a3g | "D"g2f2 fedc | "Bm"B2Bc "Em"d2e2 | "F7"f4 z4 || [K:B]
+|: "B"Md2z2 "F7"Me2z2 | "B"d2f2 fdB2 | "F7"c2e2 ecA2 |1,3 "B"Bcde f4 :|2,4 "B"B2d2 B4 :|
+S:https://www.folktunefinder.com/tunes/7168
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Kohanochka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Audrey and Andrea
+C: Jonathan Jensen
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Dm
+|: "Dm"a2A "A/C#"a2g "Dm"fed | "Gm"g2G g2e "A"^c=Bc \
+|  "Dm"d2D "Gm/E"d2D "Dm/F"d2D | "Bb"d2F "Gm"GFG "A"A3 |
+|  "Dm"a2A "A/C#"a2g "Dm"fed | "Gm"g2G g2e "A"^c=Bc \
+|  "Dm"d2D "Gm/E"d2D "Dm/F"d2F | "Gm"GAB "A"Ed^c "Dm"d3 :|
+|: "D7"cd_e ABc ^FGA | "Gm"g2G g2d BAG \
+|  "E7"def =Bcd ^GAB | "A"a2A a2e ^c=BA |
+|  "Dm"fga def "Gm"B2G | gab efg "A"^c3 \
+|  "Dm"d2D "Gm/E"d2D "Dm/F"d2F | "Gm"GAB "A"Ed^c "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/13808
+S:http://trillian.mit.edu/~jc/music/abc/jig/AudreyAndAndrea_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/AudreyAndAndrea_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/AudreyAndAndrea_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/AudreyAndAndrea_Dm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1
+T:Lasses of Melross, The
+M:6/8
+L:1/8
+S:Aird, Vol. II (1782)
+Z:AK/Fiddlers Companion
+K:G
+d \
+| "G"B>AB "Em"GAB | "Am"c>Bc "D7"ABc | "G"BAB    "Em"GAB | "D7"AFD D2c \
+| "G"BAB  "Em"GAB | "Am"cBc  "D7"ABc | "G"B{c}dB "D7"cAF |  "G"G3  G2 :|
+|: f \
+| "G"gbg "Em"gbg | "Am"ac'a "D7"ac'a | "G"gbg "Em"gbg | "D7"afd d2f \
+| "G"gbg "Em"gbg | "Am"ac'a "D7"abc' | "G"bag "D7"agf |  "G"g3  g2 :|
+S:https://www.folktunefinder.com/tunes/14518
+S:http://trillian.mit.edu/~jc/music/abc/jig/LassesOMelross_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LassesOMelross_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

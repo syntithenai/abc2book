@@ -1,0 +1,19 @@
+X: 2
+P: Reinlendar etter Johannes
+R: shottish
+Z: Brian Wilson 
+M: C|
+L: 1/8
+K: A
+|:"A"c>d ~cB c>d ~cB | c>d ~cB c2 A2 | c2 cA "E7"B2 EG |1,3 B2 Bd "A"c2 A2 :|2,4 "A"A2 A2 A4 :|
+|: "A"c>d ef e2 ec | "E7"B2 Bd "A"c2 A2 | c2 cA "E7"B2 EG |1,3 B2 Bd "A"c2 A2 :|2,4 "A"A2 A2 A4 :|
+S:https://www.folktunefinder.com/tunes/18495
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Stabberinglander.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Stabberinglander.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

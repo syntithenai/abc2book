@@ -1,0 +1,19 @@
+X:18
+T:Bonjoer
+%%staffsep 20
+C:Traditioneel
+O:Wilder (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+K:G
+P:A
+Q:3/8=112
+D E2F|G2G G2G|G2G A2G|G3 (F3|F2) z d3 |(F6|F2) z d3|(G6|G2) D E2 F|
+S:https://www.folktunefinder.com/tunes/75714
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

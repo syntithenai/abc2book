@@ -1,0 +1,105 @@
+X:2
+T:Haute tour
+R:
+C:Anamnse
+H:1998
+N:
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=82
+K:C
+%%staves [1 | 2 | 3 | 4 | 5]
+%%measurenb 0
+%%measurebox 1
+%%staffsep 49pt
+%%sysstaffsep 30pt
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+A/A/A A/E/E | B/A/B c/B/A-|A2 A/A/A | A/E/E B/A/B | c/B/A3 | 
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |[Q:1/4=90] z4 |
+[Q:1/4=108]
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+A/A/A A/E/E | B/A/B c/B/A-|A2 A/A/A | A/E/E B/A/B | c/B/A3 | 
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+[EA][EB][Ec][EA] | [Ec][E3A3] | [EA][EB][Ec][EA] | [Ec][E3A3] | [EG][EG][EB][EB] | [E/c/]B/ [E3A3] |
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z4 | z4 | A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z4 | z4 | z2 c/d/e | cdGd | e/d/c3 | 
+A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 | z4 |
+A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z4 | z4 | A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z4 | z4 | z2 c/d/e | cdGd | e/d/c3 | 
+A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z4 | z4 | A,/c/ A,A,E, | E, A,2z | G,G,E,E,/G,/ | C/G,/A,3 |
+z
+K:C
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+K:C treble-8
+z4 | z4 | z4 | z4 | 
+A/<B/ A/<c/ A/4d/4c/4B/4 c3/4B/4 | d3/4c/4 e3 | A/B/A/c/ A/4d/4c/4B/4 c/B/ | d/c/ e3 | z4 | z4 | 
+A/B/c A/B/G | GG/G/ G/B/ E-|E z z2 | 
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | 
+z4 | z4 | z4 | z4 | 
+A/<B/ A/<c/ A/4d/4c/4B/4 c3/4B/4 | d3/4c/4 e3 | A/<B/ A/<c/ A/4d/4c/4B/4 c3/4B/4 | d3/4c/4 e3 | z4 | z4 | 
+A/B/c A/B/G | GG/G/ G/B/ E-|E/ E/ E2 C-|C B,2 F | E/D/ E3 |
+A/>A/ A/B/ c2 | e/>e/ e/d/ e2 | G/>G/ G/A/ B2 | EE3 |
+A/>A/ A/B/ c2 | e/>e/ e/d/ e2 | G/>G/ G/A/ B2 | EE3 |
+A/<B/ A/<c/ A/4d/4c/4B/4 c3/4B/4 | d3/4c/4 e3 | A/<B/ A/<c/ A/4d/4c/4B/4 c3/4B/4 | d3/4c/4 e3 | z4 | z4 | 
+V:4
+K:C bass
+%%MIDI channel 4
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | 
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | 
+z4 | z4 | z4 | z4 | z4 |
+A/<e/ A/<e/ A/4d/4c/4B/4 c3/4A/4 | e3/4A/4 e3 |
+A/<e/ A/<e/ A/4d/4c/4B/4 c3/4A/4 | e3/4A/4 e3 | GGE2 | g/g/ c'3 | z4 | z3 z3/4 e/4 | e/d/ c2 z |
+ z4 | z4 | z4 | z2 z/ e/<e/ d/ | e/g/ e3 | d/c/ A3 | z4  | z2 z/ e d/ | e/f/ e3 | d/c/ A3 |
+A/<e/ A/<e/ A/4d/4c/4B/4 c3/4A/4 | e3/4A/4 e3 |
+A/<e/ A/<e/ A/4d/4c/4B/4 c3/4A/4 | e3/4A/4 e3 | GGE2 | g/g/ c'3 | 
+V:5
+%%MIDI channel 5
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | 
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | 
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |
+c/d/e c/d/B | Gd e/d/ c-|c2 c/d/e | c/d/ B G d | e/d/ c3 | 
+A,2 E,2 | C C/C/ A,2 | C2 B,2 | G,/G,/A,3 | A,2 E,2 | C C/C/ A,2 | C2 B,2 | G,/G,/A,3 |
+S:https://www.folktunefinder.com/tunes/30273
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

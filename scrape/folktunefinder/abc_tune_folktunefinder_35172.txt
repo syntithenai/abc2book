@@ -1,0 +1,23 @@
+X: 7955
+T:Trip to Oxford
+R:Jig
+O:England
+M:6/8
+A:Westmorland
+N:P16 2/3
+K:D
+D2G F2D|A,2D F2D|ABA A2d|c2d e3|\
+DED F2D|A,2D F2D|ABA B2c|d3d3:|
+|:ABA c2d|e2f g2e|f2d d2f|ecA A2B|\
+ABA c2d|e2f g2e|faf edc|d3 D3:|
+S:https://www.folktunefinder.com/tunes/35172
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

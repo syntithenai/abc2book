@@ -1,0 +1,28 @@
+X: 1
+T: Turn of the Tide
+C: heather Bexon (1998)
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: Peter Barnes "English Country Dance Tunes" V.2
+M: 3/4
+L: 1/8
+K: G
+[| "G"B4 GA | "G/f#"B4 GA | "G/e"B2 e2 d2 | "G/d"B2 A2 G2 \
+| "Am"E2 F2 G2 | "Am7"A2 B2 A2 | "D7"D2 E2 F2 | F2 E2 DB |
+|  "G"B2 GA | B4 GA | B2 e2 d2 | B2 A2 B2 \
+|  "C"E2 F2 G2 | "D7"A2 B3 A | "G"A2 G4- | G4 de ||
+||"Dm"=f4 eg | "G"gd- d4 | "C"c2 B2 c2 | "G"dG- G4 \
+|  "F"=f4 eg | "G"gd- d2 B2 | "D7"c2 B3 c | "G"d6 |
+| "Dm"=f4 eg | "G"gd- d2 B2 | "D7"c2 B2 c2 | "Em"dGG- G3 D \
+| "Am"GA AB Bc | "D7"A4 GF | "G"F2 G4- | G6 |]
+S:https://www.folktunefinder.com/tunes/20261
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Turn_of_the_Tide_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Turn_of_the_Tide_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

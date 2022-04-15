@@ -1,0 +1,25 @@
+X:161
+T: ICH STEH AUF EINEM HOHEN BERG
+N: E0089
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid
+M: 6/8
+L: 1/8
+K: D
+A | D2E=F2G | A2AG2
+A | _B2AG=FG | A4z
+A | A_B=ccBA | A2GG2
+G | =FGAAGF | =F2EE2
+A | AG=FEDC | D4z
+S:https://www.folktunefinder.com/tunes/78602
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

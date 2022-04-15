@@ -1,0 +1,28 @@
+X:900
+T:Bytt Lasses Brudmarsch
+A:Hlsingland
+M:4/4
+O:Sweden
+R:Wedding march
+Z:Richard Robinson 
+%%RRN:The Gs are actually between natural and sharp. Perhaps the ones marked
+%%RRN: sharp are a little sharper than those that aren't. Or perhaps not.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008d3.html
+%%ID:000008d3
+K:A dorian
+AB|\
+c3d c2BA | B6 Bd | cBAG ABcd | e2f2 g2e2 | c3d c2BA | B6 Bd |
+cBAG Ace2 |1 E^GBG A2 :|2 E^GBG A4- |: \
+AB^cd e2ce | a6 ef   | ! g2f2 e2^c2 | d4    a4   | \
+e3d   cBcd | c4 e2e2 | B6      Bd | cBA^G Ace2 | B4 E^GBG |1 A8 :|2 A6|]
+S:https://www.folktunefinder.com/tunes/36259
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Wedding march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

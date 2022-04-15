@@ -1,0 +1,28 @@
+X:6
+T: ES WAR EIN MARKGRAF UEBERN RHEIN
+N: Z0007
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Sagen - Lied, Romanze, Tod
+M: 3/4
+L: 1/8
+K: A
+EEE | A3=cBA | G2z
+B=cd | e3d=cB | A2z
+EEE | A3=cBA | G2z
+B=cd | e3d=cB | A2z
+eee | e3B=cA | B2z
+EA=c | B3d=cB | A2z
+eee | e3B=cA | B2z
+EA=c | B3d=cB | A2z
+S:https://www.folktunefinder.com/tunes/68865
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

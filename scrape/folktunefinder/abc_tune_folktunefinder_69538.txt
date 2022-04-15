@@ -1,0 +1,27 @@
+X:679
+T: "Der Knab auf dem Berge"
+N: Z1360
+O: Europa, Mitteleuropa, Oesterreich
+R: Kinder - Lied
+M: 3/8
+L: 1/16
+K: G
+d2 | d2c2B2 | c2d2e2 | d4
+d2 | d3cB2 | A2B2c2 | B4
+d2 | d3cB2 | c2d2e2 | d4
+d2 | d3cB2 | A2B2c2 | B4
+d2 | d3cB2 | c2d2e2 | d4
+d2 | d2c2B2 | A2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/69538
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

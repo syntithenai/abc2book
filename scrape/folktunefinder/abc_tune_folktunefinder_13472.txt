@@ -1,0 +1,37 @@
+X: 1
+T: Banks (of the River)
+T: Mrs. Taft's Hornpipe
+R: hornpipe
+C: Parazotti
+N:
+N: Parazotti was a fiddler whose grandfather settled in Glasgow.
+N: Mrs. Taft was a patron for whom Parazotti composed this tune.
+N: It was inspired by the sounds of a river at its crest.
+B: H&C  p.141,  SV  p.43,  Hardie  p.128,  Hunter 340
+D: Tom Anderson and Aly Bain on The Silver Bow Album
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+K: Eb
+|: ((3.B,.C.D \
+| E2) G4 (3(.B.G.E D2) F4 (3(.A.F.D \
+| A,2) c4 (de) (=AB).c.B ._A.G.F.E \
+| G,2 B4 c2 A,2 c4 (de) |
+| (DE).F.G .A.F.D.E E2G2 E2 :: {a}g>^f \
+| g2 [E2G,2][E2G,2] ((3gbg) f2 D2D2 ((3fgf) \
+| e2 c4 (fe) (dc)B=A {A}B2 {=e}f2 |
+| (DB)fB (DB)fB (EB)gB (EB)gB \
+| (=AB)cd (ec)Ac (BA)Bc (B_A)GF \
+| ([EG,]G)BG (eG)FE (DF)BF (dF)ED |
+| (CE)AE (cB)AG (FG)FE DCB,A, \
+| (G,E)BE (G,E)BE (A,E)cE (A,E)cE \
+| (DE)FG AFDF E2G2 E2 :|
+S:https://www.folktunefinder.com/tunes/13472
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Banks.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

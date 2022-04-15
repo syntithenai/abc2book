@@ -1,0 +1,28 @@
+X: 1
+T:Sunset, The
+S:Altan
+C:Cathal McConnell \& Seamus Quinn
+Z:Juergen.Gier@post.rwth-aachen.de
+R:Reel
+L:1/8
+M:4/4
+K:D
+ed \
+| cFFF c2dc | BGBd e2ed | =cdeg d2Ad | dfed cded |
+| cFFF c2dc | BGBd e2ed | =cdeg fde^c | dfec d2:|
+|: ag \
+| fdfg a2gf | e=cef g2za | fggf gfec | dfed cded |
+| cFFF c2dc | BGBd e2ed | =cdeg fde^c | dfec d2 :|
+S:https://www.folktunefinder.com/tunes/18175
+S:http://trillian.mit.edu/~jc/music/abc/reel/Sunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SunsetThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Sunset.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

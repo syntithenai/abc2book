@@ -1,0 +1,23 @@
+X:12127
+T:O Poortith Cauld
+S:222 Popular Scottish Songs with Music (1868)
+N:words by Burns
+M:3/4
+L:1/8
+K:CMin
+% essentially minor/phrygian hexatonic
+E2 |E>E E2 e>c  |BG  F3G   |E>E      E3F|GC3
+zD |E>E E2 ec   |B>G F3G   |E>E      E3F|GC3||
+E2 |A>A A3  B   |AG  G3B   |G>F      F3G|Gc3
+c>B|Bc  e2 ef/g/|fe  c3e/c/|B/G/F/E/ E3F|GC3|]
+S:https://www.folktunefinder.com/tunes/54876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:498
+%%topmargin 3cm
+T:Miss Maule's Strathspey
+C:R. Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+E | {AB}c2 A>E F>AE<C | {AB}c2 A>E Fd | c>BA<E F>AE<C | D>FE>G A/A/A A :| e | c>ea>e f>ae<d | c>ea>c {Bc}dd |
+c>ea>e f<ae>c | d<fe>d c<AA>e | c>ea>e f>ae<d | c>ea>c {Bc}dBB(c/d/) | c>ed>f e<agfe>d cAA |]
+S:https://www.folktunefinder.com/tunes/71527
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Maules_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0498.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

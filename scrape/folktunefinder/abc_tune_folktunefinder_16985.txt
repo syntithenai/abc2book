@@ -1,0 +1,24 @@
+X: 1
+T: Crossing the Minch
+T: McNabb's Hornpipe
+R: hornpipe, reel
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A>d \
+| "D"f>A ~A2 f2 e>f | "G"g>B ~B2 g2 a>g | "D"f>A ~A2 "Bm"f2 E>F | "Em"g>B e>d "A7"d>c d>e |
+| "D"f>A ~A2 f2 e>f | "G"g>B ~B2 g2 a>g | "D"fg a>f "A7"g>e c>d | "D"e2 d2 d2 :|
+|: A>d \
+| "D"f>A ~A2 "D7"f>g a>f | "G"g>B ~B2 g>a a>g | "D"f>A ~A2 "Bm"f>g a>f | "Em"g>B e>d "A7"d>c d>e |
+| "D"f>A ~A2 "D7"f>g a>f | "G"g>B ~B2 g2 a>g | "D"fg a>f "A7"g>e c>d | "D"e2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/16985
+S:http://trillian.mit.edu/~jc/music/abc/reel/CrossingTheMinch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CrossingTheMinch_D.abc
+% Rhythm Hornpipe, reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

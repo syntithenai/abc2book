@@ -1,0 +1,21 @@
+X:109
+T:Tanseys Favorite
+%T:The Treble Jig
+S:Lesl Harker <lmh:RCONS.COM> irtrad-l 2001-10-4
+M:6/8
+K:G
+D|:G3 BAB|GBd gdB|AFD cBA|GBd gdB| ~G3 BzB|GBd gdB|AFD cBA|1 BGG G2D:|2 BGG GBd||
+|:g2a f2a|gdB GBd|gfe fed|efe e2f| g2a f2a|gdB GBd|AFD cBA|1 BGG GBd:|2 BGF G2D||
+|:GBd ~g3|edc BcA|GBd ~g3|faf g2a| bgb afa|gfe fed|ed^c def|gaf gdB:|G6||
+S:https://www.folktunefinder.com/tunes/15139
+S:http://trillian.mit.edu/~jc/music/abc/jig/TanseysFavorite_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TanseysFavorite_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TanseysFavorite_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

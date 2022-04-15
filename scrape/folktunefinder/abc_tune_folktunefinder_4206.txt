@@ -1,0 +1,40 @@
+X:21
+T:Belly Wassail
+M:3/4
+L:1/8
+C:Traditional: Camborne
+S:Minners and Thomas
+R:3/4
+K:D
+D>/3E \
+| F2D>/EF>/G | A2A2A>/A | B2B2B2 | A4A>/A \
+| B3cdB | A2F2A>/A | GGF2E | D4F2 |
+| E4G2 | F4A2 | A2d2B2 | A4A>A \
+| B3cdB | A2F2A2 | G2F2E2 | D4 ||
+T:A Sober spouse For Me
+M:3/4
+L:1/8
+C:Music by Henry Russell Lyric By George P. Morris
+K:G
+d | dBG2AB | DGB2c> B | A3 ABA |
+(G2GZB>c | dBG2A> B | DGB2 cB | A3 B/A/ EF |
+D2z2z2 | z2z2cB | A3ABA | (G2D2) B> c |
+dBG2 A>B | DGB2c>B | A2 B/A/DB/A/ | G2z (F>G) |
+AFD2 G> A | BGD3B | A3 B/A/ ^G A (d3D) GA |
+BBB3B | BBB2 (B>c | d3 B/G/DB/A/ | G2z2GA |
+BBB2 G>A | BBB2 B>c | d3 B/G/B/A/ | G2DGB |
+A3DFA | G3DGB | A2 e/3de/3d | e/3dzzd | DBGA> B |
+DGB2 c> B | A3 ABA | (G2D2)B> c | dBG2(A>B |
+DGB2 c> B | A3B/A/ D d | G3 c/B/A/G/F/E/ |
+D3 E/D/^C/D/E/F/ | G3 c/B/A/G/F/E/ | D3 G/B/dF | Gz2z2 |
+S:https://www.folktunefinder.com/tunes/4206
+S:http://trillian.mit.edu/~jc/music/abc/England/WassailTunes.abc
+% Rhythm 3/4
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

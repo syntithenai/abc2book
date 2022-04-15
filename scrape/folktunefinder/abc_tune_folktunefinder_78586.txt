@@ -1,0 +1,25 @@
+X:145
+T: ES GIENG A MAIDL NACH HOLZ
+N: E0073A
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | B3BA2G2 | c3cF2
+F2 | c3cB2A2 | d4z2
+B2 | d3dc2B2 | e3eF2
+E2 | D2c2B2A2 | G4z2
+d2 | B2d2g3d | f3ee2
+e2 | d2D2B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/78586
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

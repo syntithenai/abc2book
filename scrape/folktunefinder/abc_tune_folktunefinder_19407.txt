@@ -1,0 +1,26 @@
+X: 1
+T: Inukshuk
+C: Ron Wallace (2002)
+R: strathspey
+N: Inukshuk is an Inuit word for an arrangement of stones that act as a spirit guide to the afterlife.
+B:
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+F2 \
+| "F"C<F F>A "Bb"G>F "C7"G<A | "Dm"~F2 A>c "Bb"d2 d>f | "F"c<A A>c "Bb"B<d d>F | "C7"E<c c>B BA GF |
+| "F"C<F F>A "Bb"G>F "C7"G<A | "Dm"~F2 A>c "Bb"d2 d>f | "F"c<A A>c "Bb"B<d g>f | "C7"(3edc (3BAG "F"A<F F2 |]
+[|"F"A2 A<c "Bb"d>c d<f | "F"A2 A>F "C7"G2 G>A | "F"A<A "Am"c<c | "Dm"f<f "Am"a>g | "Bb"f<d d>c "C7"c2 cF |
+| "F"A2 A<c "Bb"d>c d<f | "F"~A2 A>F "C7"G>A Bd | "Am"A<c c>A "Bb"B<d g>f | "C7"(3edc (3BAG "F"A<F F2 |]
+S:https://www.folktunefinder.com/tunes/19407
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Inukshuk_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Inukshuk_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

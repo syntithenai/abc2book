@@ -1,0 +1,22 @@
+X: 3
+P: The Old Man and Old Woman
+O: Don Messer
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: Bc \
+| "G"dedB GBdB | "D7"cdcB A2g2 | fgfe dfaf |1,3 "G"gage d2 :|2,4 "G"gfga g2 :|
+|: Bc \
+| "G"dg2g g2Bc | "D7"df2f f2AB |1,3 "C"ce2e e2dB | "G"GABc d2 :|2,4  "C"ce2e e2dc | "G"BG"D7"AF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/3516
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR74.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

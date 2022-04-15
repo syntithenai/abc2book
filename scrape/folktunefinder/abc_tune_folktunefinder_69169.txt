@@ -1,0 +1,27 @@
+X:310
+T: WO SOLL ICH MICH HINKEHREN
+N: Z0308
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, Verlassenheit
+M: 2/4
+L: 1/8
+K: A
+E | AB=cd | e2B
+B | =cBAB | E3
+E | AB=cd | e2B
+B | =cBAB | E3
+e | =fed=c | B3
+e | =cABE | A3
+e | =fed=c | B2B
+e | =cABE | A3
+S:https://www.folktunefinder.com/tunes/69169
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, verlassenheit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

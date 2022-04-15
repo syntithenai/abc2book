@@ -1,0 +1,22 @@
+X:100
+T:Kennebec Lake Jig
+R:jig
+C:Bruce Osborne - Sept. 2002
+Z:abc by bosborne@kos.net
+M:6/8
+L:1/8
+K:Gmaj
+D|GFG GDB,|GFG GAB|edB edB|GAB AGE|\
+GFG GDB,|GFG GAB|edB edB|AGF G2:|
+|:d|edB edB|DEF GDB,|G,B,D EDB,|B,A,G, A,2 d|\
+edB edB|DEF GDB,|G,B,D EDB,|AGF G2:|
+S:https://www.folktunefinder.com/tunes/39693
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

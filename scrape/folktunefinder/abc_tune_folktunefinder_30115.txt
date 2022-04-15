@@ -1,0 +1,54 @@
+X:0
+T:Lydian/Major/Mixolydian (4,7-gap, fa/do/so, pi-1) Pentatonic Scales
+L:1/4
+M:8/4
+K:DbLyd
+"^D flat"  D2 EF AB d2|d2 BA FE D2||
+M:8/4
+K:AbLyd
+"^A flat"  A2 Bc ef a2|a2 fe cB A2||
+M:8/4
+K:EbLyd
+"^E flat"  E2 FG Bc e2|e2 cB GF E2||
+M:8/4
+K:BbLyd
+"^B flat"  B2 cd fg b2|b2 gf dc B2||
+M:8/4
+K:FLyd
+"^F"       F2 GA cd f2|f2 dc AG F2||
+M:8/4
+K:C
+"^C"       C2 DE GA c2|c2 AG ED C2||
+M:8/4
+K:GMix
+"^G"       G2 AB de g2|g2 ed BA G2||
+M:8/4
+K:DMix
+"^D"       D2 EF AB d2|d2 BA FE D2||
+M:8/4
+K:AMix
+"^A"       A2 Bc ef a2|a2 fe cB A2||
+M:8/4
+K:EMix
+"^E"       E2 FG Bc e2|e2 cB GF E2||
+M:8/4
+K:BMix
+"^B"       B2 cd fg b2|b2 gf dc B2|]
+S:https://www.folktunefinder.com/tunes/30115
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key A
+% Key A-sharp
+% Key D
+% Key G-sharp
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

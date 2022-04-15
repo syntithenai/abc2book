@@ -1,0 +1,25 @@
+X: 2
+P: Gjetarpols
+R: R\/orospols
+C: Geir Egil Larsen
+B:
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/16
+K: Dm
+|: A2 | "Dm"d4 d3^c "(C)"d3e | "Bb"f4 (3fdf "A7"(3e^ce | "Dm"d3^c d3e (3fed | "Gm"G4 "A7"A4 z2A2 | "Dm"d4 d3^c "(C)"d3e |
+| "Bb"f4 (3fdf "A7"(3e^ce | "Dm"d3^c d3e f3g | "A7"a4 a6 :: fg | "F"a4 (3afa (3afa | "C"(3agf e3f d3e |
+| "Dm"f4 (3fdf (3fed | "A"(3ABA "Gm"(3GAB "A7"A3A | "Dm"d4 d3^c "(C)"d3e | "Bb"f3e (3efg "A7"a4 | "(Dm)"f3e d3f "A7"(3e^ce | "Dm"d4 d6 :|
+S:https://www.folktunefinder.com/tunes/5966
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rorospols1.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

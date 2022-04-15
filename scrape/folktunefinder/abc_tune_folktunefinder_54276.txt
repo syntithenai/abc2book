@@ -1,0 +1,28 @@
+X: 293
+T: Seljancica
+O: Serbia and Croatia
+Z: Deborah Jones VIFD Book 1
+M: 2/4
+L: 1/8
+Q: 1/4=100
+K: G
+%%MIDI program 25
+%%MIDI bassprog 36
+%%MIDI chordprog 24
+|:"G" [GB][Ac] [Bd][ce]             |[Bd][ce] [B2d2]     |\
+  "C" [eg][eg] [df][ce]             |"G" [B2d2] [G2B2]   :|
+  "D7" [B2d2] [A2c2]                | "G" [B2d2] [G2B2]  |\
+  "D7" [B2d2] [A2c2]                | "G" [B2d2] [G2B2]  |
+|:"G" [G/B/][A/c/][Bd] "D7" [Bd][Ac]|\
+  "G" [G/B/][A/c/][Bd] "D7" [Bd][Ac]|\
+  "G" [G/B/][A/c/][Bd] "D7" [Bd][Ac]|\
+  [1"G" [G2B2] [D2B2]               :|[2"G" [G2B2] [G2B2]|
+S:https://www.folktunefinder.com/tunes/54276
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

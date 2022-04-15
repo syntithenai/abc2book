@@ -1,0 +1,24 @@
+X:182
+T: BIN I A LUSTIGA FUHRMANNSSOHN
+N: Z0181
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Schiffer -, Handwerker - Lied
+M: 3/4
+L: 1/8
+K: A
+ | cee2c2 | Bdd2B2 | c2c2c2
+cee2c2 | Bdd2B2 | c2z4
+BBBBBc | eddcB2
+cccccd | feedc2
+cee3c | Bdd3B | c2c2c2
+cee3c | Bdd3d | c2z4
+S:https://www.folktunefinder.com/tunes/69041
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Schiffer -, handwerker - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:2611
+T:Hole in the Wall
+O:england
+S:Playford
+P:AAB
+M:3/2
+K:Bb
+P:A
+B2c2||\
+P:segno
+"Bb"d3edef2"F/a"c2f2|"Gm"B3cBcd2"Dm/f"A2d2|"Eb"G3AGAB2"Bb/d"F2d2|\
+"Eb"B4-"F7"B2A2"Bb"B4:|
+P:B
+"Gm"b3agab2"Cm"a2g2|"D"^f3gfga2"D7"d2a2|"Gm"b3agab2"Cm"a2g2|\
+"Gm/d"g4-"D7"g2^f2"Gm"g4|
+"Eb"G3AGAB2"F"ABc2|"Gm"B3cBcd2"F/a"cde2|"Bb"d3edef2"F/a"F2f2|"Gm"d4-"F7"d2cd
+P:D.S.
+"Bb"B2||
+S:https://www.folktunefinder.com/tunes/23062
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

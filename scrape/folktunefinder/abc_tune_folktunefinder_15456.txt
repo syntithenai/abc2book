@@ -1,0 +1,26 @@
+X:1
+T:The Heights of Dargai
+C:J.Wallace
+R:Retreat march
+B:Scots Guards #399 p.228
+S:Jack Campin <jc@purr.demon.co.uk> abcusers 2001-12-14
+M:9/8
+L:1/8
+K:Hp
+e|A>Bc e3 c2e |f>df e3 c3|a>gf e3 [1 A>ce|f>ec B3 B2:|\
+                                  [2 B2e |c>Bc A3 A2||
+B|A>Be f3 f>df|a>gf e3 c3|a>gf e3 [1 A>ce|f>ec B3 B2:|\
+                                  [2 B2e |c>Bc A3 A2|]
+S:https://www.folktunefinder.com/tunes/15456
+S:http://trillian.mit.edu/~jc/music/abc/march/HeightsOfDargai_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/HeightsOfDargai_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/HeightsOfDargai_1.abc
+% Rhythm Retreat march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

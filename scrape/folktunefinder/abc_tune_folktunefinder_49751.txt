@@ -1,0 +1,36 @@
+X: 196
+T:Waltz. CJF.196
+T:Mozart Waltz. CJF.196
+M:3/4
+L:1/8
+Q:120
+C:Mozart
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:You will need to add your own lead-notes to the A & Bmusics to get the
+N:scansion correct. "Mozart" is in the title line. - PJH.
+Z:vmp.P J Headford 2000
+K:G
+"p"{e/}(d2^c2d2)|{d/}b4g2|{a}(g2f2g2|(^g4a2)|{d}(c2B2c2)|{c/}c'4f2|\
+{a/}(f2e2f2)|g4:|!
+|:{a/}g2f2e2|f2^d2b2|{a/}g2f2e2|f2^d2B2|\
+{a/}g2f2e2|.=d2(g2b2)|(d'2c'2f2)|g4:|!
+|:"f"(Bc)|(dBbagf)|(ecc'bag)|\
+(fdd'c'ba)|(^ab)(fg)(Bc)|!
+(dBbagf)|ecc'bag|fdd'c'ba|g4:||!
+(AB)|"p"(dc)A2(Bc)|(e2d2)(AB)|dcA2(Bc)|\
+(e2d2)(Bc)|(dBbagf)|(ecc'bag)|(fdd'c'ba)g4|]
+S:https://www.folktunefinder.com/tunes/49751
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

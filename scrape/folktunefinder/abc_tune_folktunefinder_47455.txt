@@ -1,0 +1,29 @@
+X:16180
+T:Swedish Barn dance (1)
+R:Hornpipe
+R:Schottische
+O:Sweden
+O:England
+M:4/4
+K:G
+D| G>AB>c d>gf>a | g2B2 d2e>d | \
+c>eA>B c2d>c | B>dG>A B>DE>F |\
+G>AB>c d>gf>a | g2B2 d2c>B | c>eA>B c>AF>G \
+|1 (3ABA G>F G3 :|2 (3ABA G>F G>AB>c |:\
+d2b2c2a2 | B>gg>f g>dB>G |\
+F>GA>B c>AF>A | G>AB>c d>Bc>^c |\
+d2b2c2a2 | B>gg>f g>dB>G | F>GA>B c>AF>G \
+|1 (3ABA G>F G>AB>c :|2 (3ABA G>F G3||**
+S:https://www.folktunefinder.com/tunes/47455
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

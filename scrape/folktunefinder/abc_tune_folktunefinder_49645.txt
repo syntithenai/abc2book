@@ -1,0 +1,28 @@
+X: 90
+T:Lepine,La. CJF.090
+T:La Lepine. CJF.090
+M:2/4
+L:1/16
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+ded|(^ab)g2zded|^abg2zgfg|efg^g abc'a|(g4 f) ded|!
+^abg2zded|(^ab)g2zgfg|efg^g abc'f|(a4 g)h||!
+aba|fa(d2 d)def|gbg2 gfe^d|(fe)(gf) (ag)(ba)|(g4 f)aba|!
+fa(d2 d)def|gbg2zfe^d|(fegb) d2^c2|(e4 d) "*"aba|!
+fa(d2 d)def|gb(g2 g)fe^d|fegf agba|(g4 f)aba|!
+fa(d2 d)fef|gb(g2 g)fe^d|fegb d2^c2|(e4"$"d)|]
+S:https://www.folktunefinder.com/tunes/49645
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

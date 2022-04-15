@@ -1,0 +1,26 @@
+X:281
+%%topmargin 3cm
+T:The Fisher's Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+F S|: G>D (C/B,/)(A,/G,/) (B,<D)D>G | E>A,F>A, G>A,F>A, | {/F}G>D (C/B,/)(A,/G,/) B,B | [1 (3EFG (3ABc (3BAG (3FED :|
+[2 E>A (G/F/)(E/D/) {/F}G2 G || B | {/^c}d>BA>G {/f}g>dTB>G | (3cec (3BdB (A>B)c>e | {/^c}d>BA>G {/f}g>dB>G | (3ced (3cBA (3GDC (3B,A,G, |
+{/^c}d>BA>G {/f}g>dB<G | (3cec (3BdB {cB}(A>B)c>e | (3dcB (3AGF (3GFE (3DCB, | (3CDE (3DEF (3GDC (3B,A,G, S|]
+S:https://www.folktunefinder.com/tunes/71310
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Fishers_Rant.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0281.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

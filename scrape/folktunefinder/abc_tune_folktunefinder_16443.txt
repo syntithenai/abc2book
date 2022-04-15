@@ -1,0 +1,29 @@
+X: 1
+T: Polska efter Erika Lystedt
+R: Polska
+S: Erika Lystedt (1998/1/16)
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 9/16
+L: 1/16
+K: D
+|: "D"A2d faf d2d | ABA FAF DEF \
+| "G"G2B BG2 G2E | "A7"E2A AF2 "D"F2D | A2d faf d2d |
+| "D"ABA FAF DEF | "G"G2B BG2 "A7"G2E \
+| A,CE "D"D6 :: "D"A2d faf d2f | a2a faf dfb |
+| "Em"g2g ege "A"cAc | "G"d2B BAG "A7"B2A \
+| "D"A2d faf d2f | a2a faf dfb \
+| "Em"g2g ege "A7"cec | ABc "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16443
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_ErikaLystedt.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_ErikaLystedt.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/16
+% Text Has source text
+% Has_accompaniment_chords Has chords

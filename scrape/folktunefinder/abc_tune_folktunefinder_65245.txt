@@ -1,0 +1,23 @@
+X: 157
+T:Jump at the Sun
+% Nottingham Music Database
+S:John Kirkpatrick, via EF
+M:6/8
+K:Gm
+P:A
+B/2A/2|"Gm"GBd ^c2d|"Gm"GBd ^c2d|"Gm"gdd "Gm/bb"gdd|"Cm"dcB "D7"A2B|
+"Gm"GBd ^c2d|"Gm"GBd ^c2d|"Gm"gdd "Cm"edc|"D7"BcA "Gm"G2:|
+"Gm"gdd bag|"D7"add c'ba|"Gm"bag bag|"D7"a^fd e2d|
+"Gm"gdd bag|"D7"add c'ba|"Gm"gdd "Cm"edc|"D7"BcA "Gm"G2:|
+S:https://www.folktunefinder.com/tunes/65245
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

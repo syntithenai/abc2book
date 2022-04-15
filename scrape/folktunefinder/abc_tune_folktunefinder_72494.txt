@@ -1,0 +1,25 @@
+X:37
+T: Wiedersehn
+N: D0039
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Neuntonskala (beginnt in Moll, moduliert sofort nach Ionisch)
+R: Ballade, Liebe, Wiedervereinigung der Liebenden
+M: 3/4
+L: 1/8
+K: G
+D2 | G3A_B2 | A2_B2A2 | G2F2G2 | D4
+D2 | G4A2 | d3ed2 | c2B2A2- | A2z2
+BA | G2G2d^c | d2d2GG | G3FG2 | D4
+D2 | G2A2d2- | d4cB | A3BA2 | G4
+S:https://www.folktunefinder.com/tunes/72494
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, liebe, wiedervereinigung der liebenden
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

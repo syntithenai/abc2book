@@ -1,0 +1,25 @@
+X: 1
+T: Bilgewater Jig
+C: Becky Ashenden
+S: handwritten MS of unknown origin
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"B2B "D"ABA | "G"GDE FGA | "Am"c2c "Em"BAB | "Am"A3- A2A \
+| "Bm"d2d "G"dcB | "Am"c3- c2c |1 "A"ABA ABA "D"d3- d2c :|2 "G"BGB "D"AFA | "G"G3- G2G ||
+|: "G"GAG "Em"GAG | BAB "G"BAB | "Am"ABA ABA | "Bm"d3- d2d \
+| "G"d2d dcB | "Am"c3- c2c |1 "A"ABA ABA | "D"d3- d2d :|2 "G"BGB "D"AFA | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/13870
+S:http://trillian.mit.edu/~jc/music/abc/jig/BilgewaterJig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BilgewaterJig_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

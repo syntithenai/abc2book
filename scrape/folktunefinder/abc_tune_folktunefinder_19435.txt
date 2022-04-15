@@ -1,0 +1,24 @@
+X: 2
+T:Kelravock's Strathspey
+M:4/4
+L:1/8
+R:Strathspey
+Z:Toby A. Rider <darkrider1@earthlink.NET>
+K:G
+B, \
+| G,2 G>D G,<G,G>D | C>A A>G E/E/E E>G | D>E GB, D>E G>A | B>G c>A BG G :|
+(B/c/) \
+| d>B G>B d>e dB | c<e d>B A/A/A AB/c/ | d>B G>B d>e dc | c<e d>B G/G/G Gc/d/ |
+| e>c d>B c>A B>G | G<e dB A/A/A A2 | G>E DC B,A, G,B | c>A d>B G/G/G G |]
+S:https://www.folktunefinder.com/tunes/19435
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/KelravockSStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/KelravockSStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/KelravockSStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/KelravockSStrathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

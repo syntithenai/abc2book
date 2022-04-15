@@ -1,0 +1,25 @@
+X:231
+T: DAS SCHIFF STREICHT DURCH DIE WELLEN
+N: B0718
+O: Europa, Mitteleuropa, Deutschland; Italien
+R: Heimat - Lied, Sehnsucht
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2A2A2 | B3dA2AB | G4z2
+D2 | G2G2A2A2 | B3dA2AB | G4z2
+D2 | c2c2c2ed | d2BBcB
+AG | AAAABAGF | G2GABdcc | G4z2
+D2 | c2c2c2ed | d2BBcB
+AG | AAAABAGF | G2GABdcc | G4z2
+S:https://www.folktunefinder.com/tunes/62254
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Heimat - lied, sehnsucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

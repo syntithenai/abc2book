@@ -1,0 +1,25 @@
+X:650
+T:Dinny Delaney's
+C:Chieftains
+R:slip jig
+D:Deiseal.
+Z:id:hn-slipjig-1
+M:9/8
+K:Ador
+|:A2D AGF|A2D EFG|A2D AGF|G2A GED|
+A2D AGF|c2de2d|dcA AGE|G2A GED:|
+|:dcA AGE|c2G ABc|dcA AGE|G2A GED|
+dcA AGE|c2d e2d|dcA AGE|G2A GED:|
+|:A2D D2D|A2B G2B|A2B G2A|E2E GED|
+A2D D2D|c2d e2d|dcA AGE|G2A GED:|
+S:https://www.folktunefinder.com/tunes/67432
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

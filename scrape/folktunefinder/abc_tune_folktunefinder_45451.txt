@@ -1,0 +1,32 @@
+X:17
+T:Steyrer Tanz in F, nr. 30 (Clarinett Taenze)
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in F, s. 54 nr. 30
+N:um1800
+M:3/4
+L:1/8
+K:F
+V:1
+fa |\
+c2 gbcb | ac Tf2 af | c2egce | fc a2 fa |\
+c2 gbcb | ac Tf2 af | c2egce | f4 :|
+V:2
+Ac |\
+G2 egcg | fc A2 cA | G2 GBGB | AF c2 Ac |\
+G2 egcg | fc A2 cA | G2 GBGB | A4 :|
+S:https://www.folktunefinder.com/tunes/45451
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

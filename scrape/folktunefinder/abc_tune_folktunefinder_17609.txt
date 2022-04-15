@@ -1,0 +1,40 @@
+X: 1
+T: the Maids of Currie
+C: Helen Cruickshank
+R: reel
+B: RSCDS Childrens-7
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"G2g2 "D"dedc \
+| "G"BcGA "D"B2BA \
+| "Em"G2g2 "Bm"dedB \
+| "Am"A4 "D7"A2BA \
+| "G"G2g2 "D"dedc |
+| "Em"BABc "D7"d2ef \
+| "G"gddd dedB \
+| "D7"AGAB "G"G2 \
+|| BA \
+| "G"G2G2 "Em"GBAG \
+| "A(m)"AGAB "D"A2 BA |
+| "G"G2G2 "A7"GBAG \
+| "D"A4 "D7"A2BA \
+| "G"G2G2 "Em"GBAG \
+| "A(m)"AGAB "D7"A2Bc \
+| "G"dBcd "D7"BGAB | "G"G4 G2 |]
+S:https://www.folktunefinder.com/tunes/17609
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaidsOfCurrieR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Helen_Cruickshank/MaidsOfCurrieR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MaidsOfCurrieR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MaidsOfCurrieR_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

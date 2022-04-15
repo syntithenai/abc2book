@@ -1,0 +1,42 @@
+X:12010
+T:Lumps of Plum Pudding
+R:Jig
+C:Trad. Morris Dance
+O:Bledington, England
+P:A.AB.(CB)2
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+P:A
+d|"G"B>AG g>fg|"G"d>ed G2 A|"G"B>AG "Em"G>FG|"Am"A>BA "D7"D2 c|
+"G"B>AG g>fg|"D7"d>ef "G"g3|"G"d>BG "D7"ABc|"G"d2 B G2||
+P:B
+z|"G"d>fg d>fg|"G"d2 B G>AB|"Am"c>de cAB|"Am"c>AA ABc|
+"D7"d>ef "G"g3|"D7"d>ef "G"g3|"G"d>BG "D7"ABc|"G"d2 B G3||
+P:C
+M:3/8
+L:1/8
+"G"d2 c|\
+M:6/8
+"G"B2 A G3|"Em"g2 f g3|"D7"d2 e d3|"G"G3 "D7"A3|
+"G"B2 A G3|"Em"G2 F G3|"A7"A2 B "D"A3|
+M:3/8
+L:1/8
+"D7"D2 c|\
+M:6/8
+"G"B>AG g>fg|\
+"D7"d>ef "G"g3|"G"d>BG "D7"ABc|"D7"d2 B "G"G2|]
+% --------------------------------- M ---------------------------------------
+S:https://www.folktunefinder.com/tunes/51243
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

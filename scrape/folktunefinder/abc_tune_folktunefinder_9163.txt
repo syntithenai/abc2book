@@ -1,0 +1,37 @@
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+M: 2/4
+L: 1/8
+K: Am
+|: {Ace}"Am"ae dc | "E7"cB Bc/d/ | e>d cB | "Am"BA Ac/e/ \
+| ae dc | "E7"cB Bc/d/ | ed cB | "Am"A2 "fine"z2 :|
+e \
+|: "Am"A/B/c/d/ ea | "E7"a^g g/a/b | e/^f/^g/a/ bc' | "Am"ba a/^g/a \
+| A/B/c/d/ ea | "E7"a^g g/a/b | ee ^f^g | "A"a2 z2 :|
+Ac \
+|: "Am"ee/c/ AA/c/ | ee/c/ AA/c/ | ee fe | "E7"d/e/d/c/ BB/c/ \
+| dd/c/ BB/c/ | dd/c/ BB/c/ | dd ed | "Am"c/d/c/B/ AA/c/ ||
+|| "Am"ee/c/ AA/c/ | ee/c/ AA/c/ | ee "A7"ag | "Dm"f/g/f/e/ d>e \
+| ff ed | "Am"c/d/c/B/ AA/c/ | "E7"B/c/B/A/ ^GB | "Am"A2 z2 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/9163
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Rev19000331.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

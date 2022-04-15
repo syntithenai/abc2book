@@ -1,0 +1,23 @@
+X:1
+T:Tom and Jerry
+S:Sam Bush, Repertoire Tape, 1985
+S:Nigel Gatherer, Edinburgh  <gatherer@argonet.co.uk>
+M:C|
+L:1/8
+K:A
+EF | A2 Ac BAGB | ABcA ecAG | Acea (3f=gf ed | cedf edcB |
+AAec BAGB | ABcA ecAG | Acea (3f=gf ed | cAec A2 :|
+eg | aeca ecBc | defg agfg | egbe (3fgf eg | agbg aece |
+aeca ecBc | defg agfg | egbe (3fgf eg | agbg a2 :|
+S:https://www.folktunefinder.com/tunes/18223
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomAndJerry_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TomAndJerry_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

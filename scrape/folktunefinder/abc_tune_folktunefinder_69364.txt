@@ -1,0 +1,26 @@
+X:505
+T: "Liebesplauderei"
+N: Z1185
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Liebes - Lied, Abschieds - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2B2G2A2 | B6A4
+Bc | d2c2B2A2G2A2 | B4z6
+B2 | d2c2B2A2G2A2 | G4E2D4
+D2 | B4G2A4
+Bc | d3cB2A2G2A2 | G8z2
+S:https://www.folktunefinder.com/tunes/69364
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

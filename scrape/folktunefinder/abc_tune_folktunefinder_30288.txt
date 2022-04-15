@@ -1,0 +1,48 @@
+X:12
+T:air renaissance
+C:Eric Forgeot
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+N:
+M:4/4
+L:1/8
+Q:1/4=100
+K:Bb
+%%staves [2 | 1 | 3 ]
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+|: DF G2 DF G2 | DF ED E2 C2 | DF G2 DF G2 | DF ED E2 C2 |B,>z :
+DC E2 Dz |  DC B,3 C B, A, | G,2 DCE2 Dz | DC B,3 C B,A, :| [G,2D2] z6 |]
+V:2
+K:Bb
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+|: BA B2 G2 B2-|BA G2 FG E2 | BA B2 G2 B2-|BA G2 F2G2-|Gz :
+GFG2 G2 | B3 cd2 A2 | BA G3z GF | G4 zD FF :| B2 z6 |]
+V:3
+K:Bb bass
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+|: DB, G2 D2 E2-|ED C4 A2 | DB, G2 D2 C2-|CA B,C B,C D2 | G,>z :
+B,G,C3 B, | A,G,A,B,A3 z | B,A,G,3z G,A, | G,3CB,4 :| G,2 z6 |]
+S:https://www.folktunefinder.com/tunes/30288
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

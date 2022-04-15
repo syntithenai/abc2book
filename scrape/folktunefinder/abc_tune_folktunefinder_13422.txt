@@ -1,0 +1,23 @@
+X: 1
+T: Napoleon
+R: march
+S: printed MS of unknown origin, with dance description in Danish
+O: Danmark
+Q: 1/2=76
+M: 2/4
+L: 1/8
+K: D
+   A | d2 c>B | A2 A2 | B2 c2 | d2 AA | BA GF | E2 A2 | F2 D2 | D2 z :|
+|: A | FA AA  | BA AA | FA AA | BA AA | d2 e2 | fd dd | e2 c2 | d2 z :|
+S:https://www.folktunefinder.com/tunes/13422
+S:http://trillian.mit.edu/~jc/music/abc/folk/Napoleon_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/folk/Napoleon_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/Napoleon_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

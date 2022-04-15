@@ -1,0 +1,27 @@
+X:126
+T: K\^inigskinder (2-28) S. 85
+N: P0901
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: verbotene Liebe, Tod]
+M: 3/4
+L: 1/4
+K: D
+D | FFF | E2E | D3 | D2
+D | GGG | FFF | E3- | E2
+A | ABA | dcB | A2B | A2
+G | F2D | EFE | D3- | D2
+A | ABA | dcB | A2B | A2
+G | F2D | EFE | D3- | D2
+S:https://www.folktunefinder.com/tunes/76106
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Verbotene liebe, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

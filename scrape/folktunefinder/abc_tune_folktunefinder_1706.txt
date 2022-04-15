@@ -1,0 +1,26 @@
+X: 12
+T:12.  Gizmo's Retreat
+C:c 1984 Harry Bolick   
+R:Breakdown
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:300
+K: A
+|: "A"  c2 B2   BcBA | F4 E2 F2 | "D" d2 c2 B2 A2  |"E" B4 "A"c4 |
+ c2 B2   BcBA |1  F2 FF (3EFA (3EFA|"E" (3BcB   "A" A6 :|2 F2 FFEF A2|"E" (3BcB   "A" A6 ||
+|: ABce "E" g4 | "D" fgfe d4 | "A" c2ec "D" d4 |  "C" cBAc "E" B4 | 
+"A"  EFAB c4|1 "D" d2 c2 d2 e2 | "A" e2d2e2d2 |cBAc "E" B4 :|
+|2 "D" d2 e2 f4 | "A" gfeg "D" fedf | "A" ec B2 A4 ||
+S:https://www.folktunefinder.com/tunes/1706
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

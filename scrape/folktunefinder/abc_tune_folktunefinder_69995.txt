@@ -1,0 +1,29 @@
+X:435
+T: DA BIN ICH GERN WO FROHE SAENGER WEILEN
+N: F0811
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits - Lied
+M: 4/4
+L: 1/16
+K: D
+A,4 | D3EF2E2D2C2D2B,2 | A,6G,2F,2
+F,2E,2F,2 | G,4A,4B,4C4 | D6E2F4
+A,4 | D3EF2E2D2C2D2B,2 | A,6G,2F,2
+F,2E,2F,2 | G,4E4D4C4 | D4z8
+D4 | C3DE6A,2A,2A,2 | D3EF2E2D4
+D4 | C3DE6A,2A,2A,2 | D3EF2E2D4
+A,4 | D3EF2E2D2C2D2B,2 | A,6G,2F,2
+F,2E,2F,2 | G,4E4D4C4 | D4z8
+S:https://www.folktunefinder.com/tunes/69995
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 27
+T:42 Regt. Quick March. JMP.027
+T:Black Watch,aka. JMP.027
+M:2/4
+L:1/8
+Q:220
+C:"28"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 -  something is written above this note.
+N:It could be "tr
+H:1799
+Z:vmp.C Graebe
+K:G major
+E | G2 BA/G/ | GBBg | dBA"1"G | AFED |\
+G2 BA/G/ | GBBg | dBAG | A2 G :|!
+|:d | gfed | efga | gfed | e2d2 |\
+gfed | efge | dBAG | A2 G :|]
+S:https://www.folktunefinder.com/tunes/1964
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

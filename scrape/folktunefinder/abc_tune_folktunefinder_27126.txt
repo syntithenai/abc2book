@@ -1,0 +1,29 @@
+X:6674
+T:The Cuckoo's Nest
+O:england
+R:Hornpipe
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+H:Played after "The Plains Of Boyle".
+M:4/4
+K:G
+dc |: BABA GBdg | fccB cedc | BABG FGAB | c2A2 A2dc | BABA GBdg |
+fccB cedc | BABG FGAc |1 B2G2 G2dc :|2  B2G2 G2Bc |: dBGB dBGB |
+dBcA G2AB | cAFA cAFA | dcBA ~G3A | BGBd gabg | afdB cedc |
+BABG FGAc | B2G2 G2Bc :: d2g2 gabg | afd^c d3e | =f2de fgaf |
+gfdB c2dc | BGBd gabg | afdB cedc | BABG FGAc | B2G2 G2Bc :|
+S:https://www.folktunefinder.com/tunes/27126
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

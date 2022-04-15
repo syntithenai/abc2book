@@ -1,0 +1,29 @@
+X:7493
+T:The Yellow Horse
+O:england
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air
+H:In Stanford-Petri and Bunting are several airs called "The Yellow Horse"
+H:and An Gearr\'an buidhe (same meaning): but this tune is different from
+H:all.
+L:1/8
+M:6/8
+K:G
+H:Lively
+D|G3 AGA|B2 e e2 B|d2 B cBA|B2 G E2 D|
+G3 AGA|B2 e efg|dcB ABc|B2 G G2:|
+|:B|d2 B GFE|f2 d d2 e|d2 B gfe|f2 d def|
+g2 f e2 d|g2 B Bcd|e2 B cBA|B2 G E2 D|
+GFG AGA|B2 e efg|dcB Adc|B2 G G2:|
+S:https://www.folktunefinder.com/tunes/27945
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

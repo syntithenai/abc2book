@@ -1,0 +1,20 @@
+X: 1
+P: Kalvelis (D/G)
+R: polka
+M: 4/4
+L: 1/4
+K: D
+|: "D"dA AA | AA FD | "A7"AA GE | "D"AA FD \
+|  "D"dA AA | AA FD | "A7"AA Bc | "D"dd "fine"dz :| [K:G]
+|: "G"Dz Gz | Bz dz | "D7"dc AF | "G"GE Dz \
+| "D7"Dz Fz | Az cz |     cA FD | "G"GG Gz :|
+S:https://www.folktunefinder.com/tunes/5733
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Kalvelis.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

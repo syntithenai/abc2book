@@ -1,0 +1,27 @@
+X:40
+T:Lei jardiniero
+O:France
+A:Provence
+C:Trad.
+R:Danse trad.
+%%continueall 1
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Bb
+F |B3B BcdB |f4- ff=e_e | d2f2d2B2 | f6 F2 |e3e dddd | c3A FFGA | B2f2d2B2 | f6 F2 |
+e3e dddd | c3A FFGA | B2f2d2B2 | f4- ff=e_e | d2d2 c2de | d2d2 c2de | d2d2 GABG |
+F3F A3A | B2c2 Bcde | f2e2d2c2 | B4B2 z!fine! |]
+%%footer $D   Galouvielle-MBe 2005 \nDanse trad. France
+S:https://www.folktunefinder.com/tunes/40239
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Danse trad.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

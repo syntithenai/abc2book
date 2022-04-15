@@ -1,0 +1,47 @@
+X:10615
+T:\AA, bukken var brokut
+C:anon., arr. Frank Nordberg
+O:Norway
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/aa-bukken-var-d/aa-bukken-var-d-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:2/4
+L:1/16
+Q:1/4=64
+K:D
+V:1
+A2|d2dd A2FA|d2df e2A2|d2dd ADFA|dddf e2fe|
+V:2
+z2|[D,4D4A4]z4|[D4A4]A2z2|[D,4D4A4]z4|[D4A4]zA3|
+V:1
+d2fa gfed|B2B2 e2cB|A2A2 c2Ac|e2d4:|
+V:2
+[D8A8]|D4 A2z2|E4z4|A2[D,4D4A4]:|
+W:
+W:\AA, bukken var brokut, og bukken var svart.
+W:Og bukken vart borte p\aa ei laurdagsnatt.
+W:Killebukken min, ser du geita.
+W:
+W:Og nedfor ein bakke, og oppf\or ein dal
+W:der budde dei karane som bukken stal.
+W:Killebukken min, ser du geita.
+W:
+W:Den lange han leidde, den stutte jaga p\aa.
+W:Og s\aa veit du fulla det, at bukken laut g\aa.
+W:Killebukken min, ser du geita.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/58669
+S:http://abc.musicaviva.com/tunes/norway/aa-bukken-var-d/aa-bukken-var-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/aa-bukken-var-d/aa-bukken-var-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/aa-bukken-var-d/aa-bukken-var-d-ddad1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

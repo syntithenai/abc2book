@@ -1,0 +1,23 @@
+X:120
+T: COELN IST EINE SCHOENE STADT
+N: E0061J
+O: Europa, Mitteleuropa, Deutschland, Nassau, Kreis Wetzlar; Dillkreis
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 3/4
+L: 1/16
+K: G
+D2 | G2G2G4B4 | d2B2A6
+BA | G2F2G4B4 | B4A4z2
+c2 | B2e2d6d2 | d2dcB6
+B2 | A2d2c4B2d2 | A4G4z2
+S:https://www.folktunefinder.com/tunes/78561
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:268
+T: Das deutsche Gloria
+N: A0622
+O: Europa, Mitteleuropa, Deutschland
+N: Schumanns Gsgb 1539 fol 87.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/1
+L: 1/2
+K: F
+F | A2Bc2B | A2GA2A | A2GBAG | FDEF2
+F | A2Bc2B | A2GA2A | A2GBAG | FDEF2
+F | F2GB2A | G2FG2G | A2Bc2B | A2GA2
+F | GGBA2G | F2EF2
+S:https://www.folktunefinder.com/tunes/80327
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

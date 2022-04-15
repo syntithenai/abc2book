@@ -1,0 +1,26 @@
+X: 1
+T: Cory McLennon
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Am
+gf \
+|  "Am"e>dc | "G"dcB | "Am"AG>E | "Em"GEG | "F"ABc | "G"d>cd | "C"e3- | eg>f |
+|  "Am"e>dc | "G"dcB | "Am"A>GE | "Em"GEG | "F"ABc | "G"B>AG | "Am"A3- | Aef ||
+||  "C"g>ag |    geg | "F"a<ga | "C"ged | e>dc | e<ag | e>dc | "G"BAG |
+|  "Am"EAc  | "G"B>AG | "Am"Acd | e>ag| "F"e>dc | "G"BAG | "Am"A3- | A |]
+S:https://www.folktunefinder.com/tunes/19860
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CoryMcLennonW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/CoryMcLennonW.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/waltz/CoryMcLennonW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

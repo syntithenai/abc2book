@@ -1,0 +1,38 @@
+X: 12
+T: Armenian Miserlou
+T: Eench Eemanaee
+C: Armenia
+S: Tom Bozigian, vol. 2
+M: 4/4
+L: 1/8
+Q: 1/4=144
+%%MIDI program 71
+%%MIDI bassprog 116
+%%MIDI chordprog 22
+%%MIDI bassvol 70
+%%MIDI chordvol 40
+%%MIDI gchord f2z6cz3cz3
+K: Am
+P:A
+|:"Am" z2 e3/2f/ edd^c  |d^cde "G7"f4- | f2 d3/2e/ dccB    |"C"cBcd e4-  |\
+  e2 c>d edcB      |
+  "Bdim"d2 zc  BA^GF   |"Bdim"B2c2 BAA^G|[1(3A^GA (3BAB c2d2 :|[2 "Am"A6 z2|
+P:B
+  "Bdim"E3c B2A2       |B3A^G2F2 |E3F ^G2A2        |B3cB4|
+  "C"z2E2E2c2-        |c2B2A2c2  |"Bdim"B2A2B2c2              |"Em"e6z2      |
+P:C
+|:"Am" ef3e2e2       |d2c2"Bdim"B4   |B2c2d4-             |d8      |
+  de3d2d2           |c2B2A4   |B2c2c4-             |c4 z2 cd|
+  e2c2B3A           |^GFE2z2Bc|[1BAA^GA2B2         |c4d4     :|\
+[2 BAA^G "Am"A4-|A4z4|
+S:https://www.folktunefinder.com/tunes/67898
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

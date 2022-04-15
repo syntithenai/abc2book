@@ -1,0 +1,25 @@
+X: 17
+T: Jig for the Jappys
+C: Muriel Hohnstone
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"cGF EFG | "Am"C2C "C7"CDE | "Dm"FED fed | "D7"cde "G7"dGB \
+| "C"cGF EFG | "Am"C2C "C7"CDE | "Dm"Ffd "G7"BAG | "C"c3 c2 :|
+|: g \
+| "C"gea gec | "F"A2A "C"ABc | "Dm"dAf "D7"edc | "G"B2B "E7/G#"Bcd \
+| "F/A"cBA "C"GEC | "F"A,CF "C"G,CE | "Dm"DFA "G7"BAB | "C"c3 c2 :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12670
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

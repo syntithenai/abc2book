@@ -1,0 +1,45 @@
+X: 1
+T: Hambo p\aa Logen
+T: Hambo in the Barn
+Z: John Chambers <jc@trillian.mit.edu>
+C: Karl Salomonsson
+R: hambo-polska
+N:
+N: hken = fanden
+N: blogen = blodet
+W: Rough translation:
+W:   Tune your fiddle,  you happy spelman!  and put some life into your bow.
+W:   This is my friend, and here am I, and we'll dance like the devil!
+W:   It spreads happiness form top to toe, and warms up the blood,
+W:   but nothing can compare with a hambo in the barn!!
+M: 3/4
+L: 1/8
+K: G
+|: "G"D2 D<E D>C \
+| B,2 D>G B2 \
+| G2 G<A G>E \
+| "D7"G2 F4 \
+| "D7"D2 D<F E>F \
+| D2 F>A d2 \
+| d2 d<e d>c \
+| "G"c2 B4 |
+| "G"D2 D<E D>C \
+| B,2 D>G B2 \
+| G2 G<A G>F \
+| "C"F2 E4 \
+| "D7"c2 cc \
+| "G"B2 B<A G>B \
+| "D7"A2 A<F D>F \
+| "G"G2 G4 :|
+|: "G"B>c d2 d>B \
+S:https://www.folktunefinder.com/tunes/16347
+S:http://trillian.mit.edu/~jc/music/abc/pols/HamboPaaLogen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/HamboPaaLogen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/HamboPaaLogen.abc
+% Rhythm Hambo-polska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

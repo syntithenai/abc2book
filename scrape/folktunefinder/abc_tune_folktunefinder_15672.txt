@@ -1,0 +1,27 @@
+X:47
+T: A Scotch Jigge
+S: Leycester MS Chester Records Office c. 1630
+N: one of several tunes in this viol manuscript for the instrument tuned 'Bagpipe Way'
+N: The tune is the classic 'Scots Jig' ground
+M:4/4
+L:1/8
+K:A myxolodian
+g | fefe | gBBg | fefe | cAA :|
+g | fef/g/a/f/ | gBBg | fef/g/a/f/ | aAA :|
+d | cAae | gBBg | cAa/g/a/e/ | aAA :|
+d | cccA | BBBd | cccA | aAA :|
+f/g/ | a/g/f/e/ f/g/a/f/ | gBB f/g/ | a/g/f/e/ f/g/a/^g/ | aAA :|
+g | fe c/A/c/A/ | gBBg | fec/A/c/A/ | aAA :|
+S:https://www.folktunefinder.com/tunes/15672
+S:http://trillian.mit.edu/~jc/music/abc/march/Scotch_Jigge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/Scotch_Jigge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Scotch_Jigge_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Scotch_Jigge_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:487
+%%topmargin 3cm
+T:Gillean an Fheilidh
+T:Lads in the Kilt
+C:From Miss F. Morison's Collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+"Slowly."e |: d>BA A2 B | Tdfe dBA | d>BA B2 g | aAa Tf2 e :| Td>ef g>eg | a>Aa f>ed | Td>ef g>eg | a>Aa Tf2 e | d>ef g>eg | a>Aa f>ef |
+d>BA TB2 g | a>Aa Tf2 e | d>ef g>eg | a>Aa f>ef | d>ef g>eg | a>Aa Tf2 e | Td>ef g2 {/A}A | a2 {/A}A f>ef | d>BA TB2 g | aAa Tf2 e |]
+S:https://www.folktunefinder.com/tunes/71516
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Gillean_an_Fheilidh.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lads_in_the_Kilt.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0487.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

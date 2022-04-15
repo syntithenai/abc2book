@@ -1,0 +1,46 @@
+X:0
+T:Boethius's system
+N:Double octave with changing key sig, shifted around a static
+N:characteristic octave E-e
+M:none
+L:1/1
+K:EMin
+P:Hypodorian
+E,F,G,A,B,CD|EFGABcde| ||
+K:EMix
+P:Hypophrygian
+F,G,A,B,CD|EFGABcde|f||
+K:ELyd
+P:Hypolydian
+G,A,B,CD|EFGABcde|fg||
+K:EPhr
+P:Dorian
+A,B,CD|EFGABcde|fga||
+K:EDor
+P:Phrygian
+B,CD|EFGABcde|fgab||
+K:E
+P:Lydian
+CD|EFGABcde|fgabc'||
+K:ELoc
+P:Mixolydian
+D|EFGABcde|fgabc'd'|]
+S:https://www.folktunefinder.com/tunes/30199
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Key F
+% Key B
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

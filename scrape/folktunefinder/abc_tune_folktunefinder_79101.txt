@@ -1,0 +1,33 @@
+X:660
+T: MEI DIENDERL IS HARB AUF MI
+N: E0610
+O: Europa, Mitteleuropa, Oesterreich, Steiermark
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: G
+D2A2 | B6A2B4 | c2F2F4z2
+c2 | c6B2c4 | d4z4
+d4 | d6^c2d4 | g4A4
+A2B2 | c2F2c2F2c2F2 | G4z4
+B4 | A4B4^c4 | d6^c2
+B4 | A4f6e2 | d8
+D2B2 | B6A2B4 | e4A4
+A2B2 | c2F2c2F2c2F2 | G4z4
+d4 | d6^c2d4 | g4A4
+A2B2 | c2F2c2F2c2F2 | G4z4
+D2B2 | B4A6B2 | c2e2F4
+A3B | c2e2^d2e2=d2c2 | B2g2G4
+B2c2 | e2d2c2B2A2G2 | a6
+g2f2e2 | e2F2e2F2e2F2 | G8
+S:https://www.folktunefinder.com/tunes/79101
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

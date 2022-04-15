@@ -1,0 +1,26 @@
+X: 3
+P: F\"orsta g\aangen som det vart lyst ...
+R: masurka, polska
+S: Allspaelsl\aatar fr\aan Uppland 2
+N: fr\aan Bengt Jonsson
+M: 3/4
+L: 1/16
+K: G
+|: vB3A G4 (GF3) | vA2FA G7 (vD \
+| vG3)A B4 (B2A2) | vBc3 d4 (BG3) | vA4 uD8 :|
+|: (vd3c) (Bc3) d2e2 | (vc2B2) (A3B) c2A2 \
+|  (vd3c) (Bc3) d2e2 | (vc2B2) (A3B) c2A2 \
+|   vd2B2 G4 (A3G) | vF2EF uG8 :|
+S:https://www.folktunefinder.com/tunes/8820
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Masurka2.abc
+% Rhythm Masurka, polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

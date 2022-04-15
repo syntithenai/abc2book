@@ -1,0 +1,26 @@
+X:1
+T:Lamma bada
+C:mediaeval Andalus
+Z:Jack Campin 2001 rec.music.early 2001-3-13
+M:10/8
+L:1/16
+K:G Minor ^f
+P:ostinato
+|:D2|G2z2 D2  G2z2    D2 D2   G2 z2      D2 |G2z2 D2  G2z2   D2 D2 G2 z2  :|
+P:tune
+  D2|G4  (AB) (cBBA)  AG(GF)  G4        (AB)|c4   d2  B3A   (AGG)F G4  (AG)|
+     F4   G2  (E3D)   ED(EF)  D4        (ed)|c4   d2  B3A   (AGG)F G4   D2 |
+     G4  (AB) (cBBA)  AGGF    G4        (AB)|c4   d2  B3A   (AGGF) G4  (AG)|
+     F4   G2  (E3D)   ED(EF)  D4        (ed)|c4   d2  B3A   (AGG)F G4   D2 |
+     G4  (AB) (cBBA) (AGG)F   G4         D2 |G4   A2  B4    (B2A)c B4   G2 |
+     d4   c2  (cBBA) (AGG=F) (G2AB){AG} =F2 |G4   A2  B4    (B2A)c B4   G2 |
+     c4   d2   B3A   (AGG)F   G4        (AG)|F4   G2 (FEED) (EDE)G D4  (ed)|
+     c4   d2  (B3A)  (AGG)F   G4        (AB)|c4   d2  B3A   (AGG)F G4     |]
+S:https://www.folktunefinder.com/tunes/15962
+S:http://trillian.mit.edu/~jc/music/abc/misc/LammaBada.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 10/8
+% Has_accompaniment_chords No chords

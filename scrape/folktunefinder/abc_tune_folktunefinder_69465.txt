@@ -1,0 +1,31 @@
+X:606
+T: "Der Alpjaeger"
+N: Z1286
+O: Europa, Mitteleuropa, Tirol
+N: Die letzten 8 Takte werden auf Silben gesungen.
+R: Jaeger - Lied
+M: 3/4
+L: 1/8
+K: Eb
+ | E,2E,DE,F, | G,2G,F,G,A, | C6 | B,6
+B,GGEEB, | A,FFDF,D | E4z2
+E,2E,DE,F, | G,2G,F,G,A, | C6 | B,6
+B,GGEEB, | A,FFDF,D | E4z2
+B,2A,G,A,2 | A,FFDDA,
+C2B,A,B,2 | B,GGEEG,
+B,2A,G,A,2 | A,FFDDB,
+B,GGEFD | E4z
+B, | B,BG2GB, | B,GE3
+B, | B,AFDF2 | B,FD3
+B, | B,BG3B, | B,GE3
+B, | B,AFDB,D | E6
+S:https://www.folktunefinder.com/tunes/69465
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

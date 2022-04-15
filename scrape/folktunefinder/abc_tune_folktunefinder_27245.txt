@@ -1,0 +1,22 @@
+X:6793
+T:The Forth Bridge
+O:england
+M:4/4
+L:1/8
+C:Williamson Blyth
+K:D
+A, | (3DDD FD ADFD | A,DFA Bdcd | (3A,A,A, CE AECE | edcB AGFE |
+(3DDD FD ADFD | A,DFA BcdA | GFGA BcdB | AGFE D3 :||: a | ^gafd AFD=g |
+fafd AFDf | gfge cAce | gfed cdef | gafg efde | cdBc ABFA |[1 GFGA BcdB
+|
+AGFE D3 :|[2 GFGA Bcde | fgef d3 ||
+S:https://www.folktunefinder.com/tunes/27245
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

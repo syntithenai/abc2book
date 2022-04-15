@@ -1,0 +1,40 @@
+X: 13
+T:Sweetnors Jigg. HA.014
+T:Gee Woe Dobbin,aka. HA.014
+T:Swaggering Boney,etc,aka. HA.014
+M:6/4
+L:1/4
+Q:120
+C:Gee Woe Dobbin,Swaggering Boney,How do you do sirOld frog dance,etc
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Jigg
+O:England
+A:Hartburn,Northumberland
+N:Editing this if required, seems fairly straightforward, so
+N:I've provided a parallel version.AKA Swaggering Boney,Longborough. Old
+N:Frog Dance,Oddington, How Do You Do SirSherborne, and Gee Woe
+N:Dobbin.CGP..
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"As Writ, No Key Sig in MS"c|AGF (A/B/) c/A|\
+B/(c/d/) B c2c|fe/d e/(f/g/) e|f2F F2||!
+f|fga gab|ag/f efg|fe/f dg/f|ec2 c2c|!
+def ccf|BBf AAf|dg/f ed/e|fFF F2||!
+zzzz|zzzz|zzzz||!
+"Edited version by CGP"c|AGF (A/B/) cA|\
+B/(c/d) B c2c|f>ed e/(f/g) e|f2F F2:|!
+f|fga gab|a>gf efg|f>ef d>gf|ec2 c2c|!
+def ccf|BBf AAf|d>gf e>de|fFF F2|]
+S:https://www.folktunefinder.com/tunes/72262
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Jigg
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

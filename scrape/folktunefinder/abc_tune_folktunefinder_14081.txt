@@ -1,0 +1,24 @@
+X: 1
+T: the Deil's awa' wi' the Exciseman
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2d ded | "D7"c2B ABc | "G"d2G "D7"G2A | "G"B3 "D7"d2 :| c | "G"BAB G2G | "Am"AGA "D7"D2D |
+| "G(Em)"G2G "D7"G2A | "G"B3 "D7"d2c | "G"BAB "Em"G2G | "Am"ABA "D7"def | "G"g2G "D7"G2A | "G"B3 "D7"d2 |]
+S:https://www.folktunefinder.com/tunes/14081
+S:http://trillian.mit.edu/~jc/music/abc/jig/DeilsAwaWiTheExciseman_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/DeilsAwaWiTheExciseman_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DeilsAwaWiTheExciseman_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/j16/DeilsAwaWiTheExciseman_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DeilsAwaWiTheExciseman_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

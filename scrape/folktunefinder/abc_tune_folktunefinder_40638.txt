@@ -1,0 +1,20 @@
+X:59
+T:Zevenster
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:6/8
+K:C
+G | "C"c2 c "G"B>cd | "F"c>BA "C"G2 G | "C"c2 c "G"B>cd | "D7"e>dc "G"d2 G | "C"c2 c "G"B>cd | "F"c>BA "C"G2 G | "C"c2 c "G"B>AB | "C"c3 c2 c |
+"F"f2 f f>ed | "C"e2 e e>dc | "G"d2 d d>ef | "C"g3 g2 c | "G"d2 d d>cB | "C"c3 c2 |]
+S:https://www.folktunefinder.com/tunes/40638
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

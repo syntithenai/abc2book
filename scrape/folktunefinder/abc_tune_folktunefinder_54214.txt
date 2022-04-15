@@ -1,0 +1,36 @@
+X: 231
+T: Momacka Setnja
+M: 4/4
+L: 1/8
+Q: 1/4=200
+K: Gm
+%%MIDI bassprog 117
+%%MIDI gchord ffz2
+|:"a"A2"c"c2c2B2   |"a"A2"c"c2c2B2  |\
+  "a"A2"c"c2c2B2   |"a"A2 "c"BAG2z2 :|
+K: Cm
+%%MIDI gchord fzfz
+|:"b"F>D E2  D>E C2|"e"D2 E2 C2 z2  | 
+  "b" F>D E2 D>E C2|"e" D2 DE C2 z2 | 
+  "b" F>D E2 D>E C2|"^a"EF G_A BG AF|
+  GE FD EC DC      |[1C2 FC-C2 DE   :|[2C2 z6|
+  EF G_A BG AF     |GE FD ED CB,    |
+  EF G_A BG AF     |GE FD E2 z2     |
+  EF G_A BG AF     |GE FD ED CB,    |
+  D2 F2 EDCB,      |C2 z6           |
+|:D2 F2 TE4        |D2 E2 TC4       |
+  D2 F2 TE4        |D2 ED C2 z2     |
+  D2 F2 TE4        |D2 E2 C2 G_A    |
+  BG AF GE FD      |ED Cz F2 C2     :|
+S:https://www.folktunefinder.com/tunes/54214
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:5540
+T: Ribbon Dance
+O:england
+M:4/4
+L:1/8
+Q:160
+S:Playford
+A:English
+K:G
+d2 g3 a g2 fe|defg a3 f|g2 d2 e2 dc|B2 G2 G2 d2|d2 g3 a g2 fe|defg a3 f|
+\
+g2 d2 e2 dc|B2 G2 G4::c2 e2 e2 dc|B2 d2 d2 cB|A2 e2 d2 c2|BcdB G2 B2|\
+c2 e2 e2 dc|B2 d2 d2 g2|fgaf e2 f2 |g2 g2 g2 :|
+S:https://www.folktunefinder.com/tunes/25992
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

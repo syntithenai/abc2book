@@ -1,0 +1,28 @@
+X: 1
+T: Earl of Seafield
+R: reel
+O:
+B: Walker p.12 (unattributed).
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: E | "Am"EA~A2 ~c2Ac | "G"BGdG gdBG | "Am"EA~A2 ~c2AF | EC"G"DB, "Am"CA,A, :|
+[| c | "Am"~A2 a^g aAce | "G"gGBG dGBc | "Am"~A2a^g agaf | "G"gedB "Am"cAAc ||
+|| "Am"~A2 a^g aAce | "G"gGBG dGBc | "Am"Ac"G"Bd "Am"ce"G"dd' | "Am"c'a"E7"b^g "Am"aAA |]
+S:https://www.folktunefinder.com/tunes/17088
+S:http://trillian.mit.edu/~jc/music/abc/reel/EarlOfSeafield.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EarlOfSeafield.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/EarlOfSeafield.abc
+S:http://trillian.mit.edu/~jc/music/book/500/EarlOfSeafield.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/EarlOfSeafield.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/EarlOfSeafield.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/EarlOfSeafield.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

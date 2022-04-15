@@ -1,0 +1,27 @@
+X:56
+T:Lei courdelo
+O:France
+A:Provence
+C:Trad.
+R:Danse trad.
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+de | fdfd | B/A/B/c/ BB | cdec | d/c/d/e/ dd/e/ | fdfd | B/A/B/c/ BB | cdec | d2 :| cB |
+ABcd | ec Ac/B/ | ABcd | ec Ac | ffff | g2 g/a/b/g/ | fd f/e/d/c/ |B2 |]
+%%footer $D   Galouvielle-MBe 2008 \nDanse trad. (France)
+S:https://www.folktunefinder.com/tunes/515
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse trad.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

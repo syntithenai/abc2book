@@ -1,0 +1,27 @@
+X: 2
+T: Vrni se Vrni
+O: Makedonija
+Z: John Chambers <jc@trillian.mit.edu>
+N: Handwritten MS labelled "CRH" (Cal Howard)
+M: 2/4
+L: 1/16
+K: C
+"inst"\
+|: "C"cddc BcdB | "Am"BccB ABcA | "Em"~B2BA GABG | "G7"~A2GF "C"EFG2 |
+| "Dm"D2 ~G4 F2 | "G7"~E3D DCDE | "C"C2z2 GFED |1 Cz EF GABc :|2 "C"~C2CG, C2z2 ||
+"vocal"\
+[| "C"[C2G,2] [E4C4] [F2D2] | [G4E4] [G4E4] | "F"[A2F2] [A4F4] [A2F2] | "C"[G2E2][=F2^D2] [G4E4] \
+| [G2E2] [A4F4] [B2F2] | [c4E4] [d4G4] | "C"[c8-E8-] | [c6E6] z2 ||
+|: "F"[c2A2] [d4A4] [c2A2] | [B4F4] [A4F4] | "C"[G2E2] [G4E4] [F2D2] | [E4C4] [D2G,2][C2G,2] \
+| "G7"[D2B,2] [G4D4] [F2D2] | [E4B,4] [D4B,4] |1 "C"[C8C8]- | [C6C6] z2 :|2 "C"C4 GFED | ~C2CG, C2z2 |]
+S:https://www.folktunefinder.com/tunes/6189
+S:http://trillian.mit.edu/~jc/music/abc/Intl/VrniSeVrni.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/VrniSeVrni.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

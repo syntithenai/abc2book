@@ -1,0 +1,25 @@
+X:70
+T: IHR GEDANKEN HALTET EIN
+N: E0682
+O: Europa, Mitteleuropa, Deutschland, Baden, Schoenau
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: G
+DD | G3DB2G2 | d6
+GG | B3GBAGF | G4z2
+AB | c2c2cedc | cBB2z2
+AB | c2c2cedc | cBB2z2
+D2 | G2GDB2BG | d6
+GG | B3GBAGF | G4z2
+S:https://www.folktunefinder.com/tunes/76555
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

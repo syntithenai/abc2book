@@ -1,0 +1,23 @@
+X: 27
+T:Jack's Life
+% Nottingham Music Database
+S:Ralph Page, via PR
+M:4/4
+L:1/4
+K:G
+D/2D/2|"G"DB AG|d/2^c/2d/2e/2 dD/2D/2|"G"DB "A7"AG|"D"F/2G/2A/2B/2 cD/2D/2|\
+Dc BA|
+"D"f/2f/2f/2f/2 f2|"D7"e/2e/2e/2e/2 e2|"G"e/2d/2B/2G/2 DD/2D/2|"G"DB AG|\
+d/2^c/2d/2e/2 dD/2D/2|
+"G"DB "A7"AG|"D"F/2G/2A/2B/2 cD/2D/2|Dc BA|"D"f3e|"D7"d/2e/2d/2c/2 BA|"G"G3
+|:D/2D/2|"G"Dd ^cd|=c3/2B/2 BB|"G"BG F/2G/2A/2B/2|
+"Am"c3D|"D"Dc Bc|A3F|[1"D"DF "D7"G/2A/2B/2c/2|"G"d2 -"D7"d:|[2"D7"DF GA|"G"G3||
+S:https://www.folktunefinder.com/tunes/44021
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

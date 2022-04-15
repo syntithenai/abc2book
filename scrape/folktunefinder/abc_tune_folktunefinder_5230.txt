@@ -1,0 +1,26 @@
+X: 183
+T: Wirt vo Stoa
+R: zwiefacher
+M: 3/4
+L: 1/8
+K: Eb
+|: "Bb7"B,2C2D2 |[M:2/4]"Eb"E2 zB, | B,2 z2 \
+|[M:3/4]"Ab"C2D2E2 |[M:2/4]"Bb7"F2 zE | D2 z2 \
+|[M:3/4]"Bb7"cB AF DF | "Eb"E2z2z2 :|
+M:3/4
+|:"Eb"EG GF EG |[M:2/4]B2 G2 | c2 B2 \
+|[M:3/4]"Bb7"A2 AF DA |[M:2/4]"Eb"G2 GF | E2 z2 \
+|[M:3/4]"Bb7"cB AF DF | "Eb"E2z2z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5230
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

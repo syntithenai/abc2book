@@ -1,0 +1,28 @@
+X:184
+T: KEIN BESSER LEBEN IST AUF DIESER WELT ZU DENKEN
+N: Z0183
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, siebenjaehriger Krieg
+M: 2/4
+L: 1/16
+K: A
+E2 | A2c2c2e2 | e4d2
+c2 | d3fe2d2 | d2c2z2
+E2 | A2c2c2e2 | e4d2
+c2 | d3fe2d2 | d2c2z2
+e2 | e2B2B2e2 | e4^d2
+e2 | f2^d2B2A2 | A4G2
+E2 | A2c2c2e2 | e4d2
+e2 | d2f2edcB | A2
+AAA2cc | c2edc2
+S:https://www.folktunefinder.com/tunes/69043
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten - lied, siebenjaehriger krieg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

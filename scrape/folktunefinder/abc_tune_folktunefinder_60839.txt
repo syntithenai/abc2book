@@ -1,0 +1,29 @@
+X:8806
+T:L'Ofrecimientu (Arrg.)
+T:Reverencia (Arrg.)
+C:Tradicional. Fiesta de Santa Marina
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Trad. Fiesta de Santa Marina
+O:Parres (Llanes)
+A:Asturies
+G:Arrg.
+Z:Tito
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+|:"G"~ddd|"C"~gfe|"G"d3|
+"G"~ggg|"Bm"~fed|"C"c3|
+"G"~BBB|"Am"~cBA|"G"G3|
+"G"~ddd|"C"~efg|"G"g3:|
+S:https://www.folktunefinder.com/tunes/60839
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

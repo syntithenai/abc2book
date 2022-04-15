@@ -1,0 +1,30 @@
+X:3785
+T:Lord Huntley's Cave
+O:england
+M:4/4
+L:1/8
+R:March
+K:D
+C:J. Scott Skinner
+d/e/|"D"fA "G"g/f/e/d/ "D"fA dc/d/|"A"eA a/g/f/e/ "D"d/c/d/f/ "A"e/A/d/e
+/|
+"D"fA "G"g/f/e/d/ "D"fA dc/d/|"A"e/a/c/a/ A/a/c/a/ "D"d2 d:|
+|:f/g/|"D"a>fda f/A/a dc/d/|"A"eA a/g/f/e/ "D"d/c/d/f/ "A"e/A/f/g/|
+"D"a>fda f/A/a dc/d/|"A"e/a/c/a/ A/a/c/a/ "D"d2 d:|
+T:Variation
+d/e/|"D"f/A/a/A/ "G"g/f/e/d/ "D"f/A/a/A/ d/<d/c/d/|"A"e/A/c/A/ a/g/f/e/
+"D"d/c/d/f/ "A"e/A/d/e/|
+"D"f/A/a/A/ "G"g/f/e/d/ "D"f/A/a/A/ d/<d/c/d/|"A"e/a/c/a/ A/a/c/a/ "D"d2
+d:|
+|:f/g/|"D"a/A/a/f/ d/A/d/e/ f/A/a/A/ d/<d/c/d/|"A"e/A/c/A/ a/g/f/e/ "D"d
+/c/d/f/ "A"e/A/f/g/|
+"D"a/A/a/f/ d/A/d/e/ f/A/a/A/ d/<d/c/d/|"A"e/a/c/a/ A/a/c/a/ "D"d2 d:||
+S:https://www.folktunefinder.com/tunes/24236
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

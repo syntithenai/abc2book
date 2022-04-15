@@ -1,0 +1,37 @@
+X:106
+T:Touro louro louro
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:Fance
+A:Provence
+M:C|
+L:1/4
+Q:1/2=100
+K:A
+A/B/c/d/ | ee ff | ee cc | dc Bc |
+!breath!A2 ((A/B/)(c/d/) | ee ff | ee cc | dc Bc |
+!breath!A) (e ee | !breath!c)(e ee | !breath!c)(e ee | !breath!c)(e ee |
+!breath!c)(e e2 | !breath!c)(e e2 | | !breath!c2) (Bc | dc B(c/B/) | AA/B/ cc |
+dc B2 | !breath!A2) (c2- | c2 BB | !breath!A2) (c2- | c2 BB | !breath!A2) (AA/B/ |
+cc (B/c/) B2 | Ac BB | Ac (B/c/)B | HA2) |]
+T:Avec Galoubet en la (si)
+K:C
+c/2d/2e/2f/2 | gg aa | gg ee | fe de |
+!breath!c2 ((c/2d/2)(e/2f/2) | gg aa | gg ee | fe de |
+!breath!c) (g gg | !breath!e)(g gg | !breath!e)(g gg | !breath!e)(g gg |
+!breath!e)(g g2 | !breath!e)(g g2 || !breath!e2) (de | fe d(e/2d/2) | cc/2d/2 ee |
+fe d2 | !breath!c2) (e2- | e2 dd | !breath!c2) (e2- | e2 dd | !breath!c2) (cc/2d/2 |
+ee (d/2e/2) d2 | ce dd | ce (d/2e/2)d | Hc2) |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/40304
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Nol
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

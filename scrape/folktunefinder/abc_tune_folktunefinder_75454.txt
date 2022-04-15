@@ -1,0 +1,18 @@
+X: 1
+T:Capy's the Dog
+M:6/8
+L:1/8
+K:C
+G/2G/2|ECEGEG|A>FAGA/2B/2|(cB)cAdc|BABc2B/2c/2|
+deddBG|dBGG2F/2E/2|FABc>G E|FDEF3|| E2GEC2|F>GAFD2|EFGAdc|BABc2:||
+% Output from ABC2Win  Version 2.1 i on 3/5/2000
+S:https://www.folktunefinder.com/tunes/75454
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

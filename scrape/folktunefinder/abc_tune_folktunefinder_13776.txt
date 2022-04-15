@@ -1,0 +1,40 @@
+X:1
+T: All the Rage
+C: Larry Ungar 1989
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+d \
+| "D"eff fed \
+| eff f2d \
+| "G"Bdd "D"Add \
+| "Em7"fed "A7"e2d \
+| "D"eff fed \
+| eff f2a \
+| "(G)"fed "A7"edc \
+| "D"d3- d2 :|
+|: d \
+| "G"Bdd "D"Add \
+| "G"Bdd "D"A2d \
+| "G"dBd "Em7"ede \
+| "D"faf "A7"e2d \
+| "G"Bdd "D"Add \
+| "G"Bdd "D"A2a \
+| "(G)"fed "A7"edc \
+| "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/13776
+S:http://trillian.mit.edu/~jc/music/abc/jig/AllTheRage_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/AllTheRage_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AllTheRage_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/AllTheRage_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AllTheRage_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/AllTheRage_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

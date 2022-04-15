@@ -1,0 +1,18 @@
+X: 1
+T: Kol Rina
+T: The Voice of Joy
+M: C
+L: 1/8
+K: G
+|: "G"D3G G2G2 | AB3  G4 | "D7"A3B  c2B2 | "G"AG3 B3z \
+|  "G"D3G G2G2 | A2B2 G4 | "D7"A2B2 c2B2 |1 "G"AG3 G3z :|2 "G"A2 G4 zd |]
+|: "G"d2 BB B2 Bc | "D7"B2A2 A4 | c2 cd c2 cd | "G"c2B2 B4 \
+|  "G"d2 BB B2 Bc | "D7"B2A2 A4 |1 d3c B2c2 | "G"d6 z2 :|2 "D7"d3c B2A2 | "G"G6 z2 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/7169
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/KolRina.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

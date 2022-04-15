@@ -1,0 +1,24 @@
+X: 1
+T: the Hamnavoe Polka
+O: collected by Tom Anderson
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: "G"{D}G2 "D"F2 "C"E2 "G"D2 | "D7"A>B c/B/A "G"d>B G2 \
+|1 "C"{A}e2 "G"d2 "D7"c2 "G"B2 | "Am"A>B A>G "D7"F<A d2 \
+:|2 "C"e g3 "G"d g3 | "G"{F}G2 "D7"F2 "G"G4 :|
+|: "G"{f}g2 "D"f2 "C"e>f g/f/e | "G"d2 B2 "D7"A>B c/B/A \
+| "G"G2 G2 "Em"G>A B>A |1 "G"G2 "Am"A2 "D7"{G}F4 :|2 "G"G2 "D7"F2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/16098
+S:http://trillian.mit.edu/~jc/music/abc/polka/HamnavoePolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/HamnavoePolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/polka/HamnavoePolka_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

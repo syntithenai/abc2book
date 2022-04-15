@@ -1,0 +1,26 @@
+X: 1
+T:Stoney Steps
+M:4/4
+L:1/8
+S:Offord
+S:Pete Stewart  tradtunes 2003-1-5
+N:The version of Stony Steps that is in Offord's John of the Greeney Cheshire Way
+Z:p
+K:G
+G2 BG dBgB | ecAd GFED | ECB,C  A,2 AB | cABG GFED |
+G2 BG dBgB | ecAd GFED | ECB,C  A,2 AB | cAGF G4 ||
+G,A,B,C DEFG | ABcD B2G2 | BcAF G2 ef | ged^cd4 |
+dBgd =cBed | cBAG FEDC | B,DGD CEAc | BAGF G2z2 ||
+S:https://www.folktunefinder.com/tunes/18167
+S:http://trillian.mit.edu/~jc/music/abc/reel/StoneySteps_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/StoneySteps_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/StoneySteps_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

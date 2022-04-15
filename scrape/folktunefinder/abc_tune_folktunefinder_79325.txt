@@ -1,0 +1,28 @@
+X:221
+T: SETZT ZUSAMMEN DIE GEWEHRE
+N: E1360
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 2/4
+L: 1/8
+K: Eb
+ | E3B, | EB,EG | c2B2
+e3d | cBAG | B2A2
+F2F2 | F3F | B2A2 | G4
+G2B2 | e3d | f2e2 | d2c2
+A2F2 | d3c | B2A2 | c2B2
+G3E | B3A | G2F2 | G4
+G2B2 | e3d | f2e2 | d2c2
+A2F2 | d3c | B2A2 | c2B2
+G3E | B3A | G2F2 | G4
+S:https://www.folktunefinder.com/tunes/79325
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

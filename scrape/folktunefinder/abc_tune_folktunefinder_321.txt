@@ -1,0 +1,29 @@
+X: 1
+T: Skomagerstykket
+T: Shoemaker's Dance
+O: Denmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"dd d/B/G/B/ | dd d/B/G/B/ | "C"c>c "G"B>B | "D7"AA "G"G2 :| \
+|: "D7"AA DD | "G"GB d2 | "C"c>c "G"B>B | "D7"AA "G"G2 :|
+K: C
+|: "C"gg g/e/c/e/ | gg g/e/c/e/ | "F"f>f "C"e>e | "G7"dd "C"c2 :| \
+|: "G7"dd GG | "C"ce g2 | "F"f>f "C"e>e | "G7"dd "C"c2 :|
+K: F
+|: "F"cc c/A/F/A/ | cc c/A/F/A/ | "Bb"B>B "F"A>A | "C7"GG "F"F2 :| \
+|: "C7"GG CC | "F"FA c2 | "Bb"B>B "F"A>A | "C7"GG "F"F2 :|
+S:https://www.folktunefinder.com/tunes/321
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/Skomagerstykket.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/folk/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Denmark/Skomagerstykket.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:65
+T: Schlangenkoechin
+N: D0067A
+O: Europa, Mitteleuropa, Lothringen, Hambach
+N: In der zweiten Zeile rhythmisch korrigiert; Variante zu D0067
+R: Ballade
+M: 3/4
+L: 1/8
+K: G
+Bc | d2B2d2 | cBA2
+cc | B2G2B2 | A4
+D2 | G2G2AA | B2B2
+Bc | d2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/72522
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

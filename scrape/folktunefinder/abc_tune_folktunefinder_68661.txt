@@ -1,0 +1,30 @@
+X:115
+T: Jungbrunnen
+N: A0133B
+O: Europa, Mitteleuropa, Deutschland
+N: Praetorius Mus. Sion. VII No. 74 (1609)
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+G | GA_BG | =F2G
+A | _BcA2 | G2z
+G | GA_BG | =F2G
+A | _BcA2 | G2z
+A | =FFGA | _B2c
+B | AG=FG | A2z
+A | GGAG | =F2G
+A | _BcBA | GFG
+S:https://www.folktunefinder.com/tunes/68661
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

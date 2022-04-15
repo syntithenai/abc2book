@@ -1,0 +1,28 @@
+X:437
+%%topmargin 3cm
+T:Aldivalloch
+T:O'er the Muir amang the Heather
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+"Very Slow."(A,<D) D>E ~D>EDA, | (B,E) TE>F {/F}TG>FED | "_express."!p!(FA)T[EA]>B T[Fd]>e {de}f>e | {/e}d>B (3(A/B/d/).F TE>FED ::
+(A<d)Td>e {/c}d>edA | k(B>e) Te>mf {ef}ng>fepd | {/d}!p!f>edB (A<g) HTf>e | {/e}d>B (3(A/B/d/).F TE>FE!fine!HD ::
+(A,/B,/D/E/ D/A,/D/E/ F/G/E/F/) (D/E/).D/.A,/ | (B,/D/E/F/ E/)(B,/E/F/) (A/F/)(d/F/) TE>D | (D/E/F/G/) A>B (A/D/)F/A/ [Fd]>e | (f/d/)(e/B/) (d/A/)(B/F/) (E/F/G/).F/ ED ::
+D/>d/ T(d/c//d//) f/>d/ Td/c//d// D/d/f/e/ dA | (E/=G/B/)^d/ (e/d/).e/.f/ (g/a/)(f/g/) {/f}e=d | (f/d/).e/.f/ (d/A/).B/.d/ (F/A/)(E/F/) (A/B/).d/.e/ | f/>d/e/>B/ d/>A/B/>F/ (E/F/G/).F/ TED !D.C.! :|
+W:
+W:This tune is sometimes played as a Reel \~n the first two parts of it.
+S:https://www.folktunefinder.com/tunes/71466
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

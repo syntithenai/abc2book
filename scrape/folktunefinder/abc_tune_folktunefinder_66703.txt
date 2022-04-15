@@ -1,0 +1,22 @@
+X:19
+T:John Kelly's Reel
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:Cmaj
+"Dm" AddB "(C)" cdec | "Am" dcAB  ((3cBA)  BG | "Dm" Ad d2 "(C)" cdec | "Am" dcAB  cedc |
+"Dm" AddB "(C)" cdec | "Am" dcAB     cA    A2 | "F" f3   d   "C" eged | "Am" cAAG  cdec |]
+"Dm" Ad    d2   ABcB | "Am" A2    GE     DEFG | "Dm" Ad    d2    ABcB | "Am" A2 GE CDEG | 
+"Dm" Ad    d2   ABcB | "Am" A2 GE "(G)" D2 EG | "Dm" Ad    d2    ABcB | "Am" AcGE  CDEG |]
+S:https://www.folktunefinder.com/tunes/66703
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

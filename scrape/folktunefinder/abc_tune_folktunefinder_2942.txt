@@ -1,0 +1,26 @@
+X: 1
+T: Syrtos: Psaropoula
+R: syrtos
+O: Greece
+M: 2/4
+L: 1/16
+K: C
+cde "A"\
+| "F"f3f f2f2 | "Dm"fefg fed2 | "C"e3e e2e2 | "Am"edef edc2 | "Dm"d3d d2d2 |
+| "G7"dedc dcd2 | "G7"g^fga g=fed | "C"cBcd efgf | "G7"e2dc BcdB | "C"c8 |]
+"B"\
+[| "C"c3c c2d2 | e3e edc2 | "G7"d4 B2{A}G2 | "C"c8 |
+S:https://www.folktunefinder.com/tunes/2942
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/SyrtosPsaropoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/SyrtosPsaropoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SyrtosPsaropoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/SyrtosPsaropoula.abc
+% Rhythm Syrtos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

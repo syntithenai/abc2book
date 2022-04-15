@@ -1,0 +1,27 @@
+X:5220
+T:Roxburgh Castle (G)
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000622.html
+%%ID:00000622
+K:G
+(3DEF |\
+G2 G>B d>B G>B | c>B c>e d>B G>B |1 \
+c2e>c B2d>B  | c2A2 A2 :|2 ! d>gf>e d>cB>A|B2G2 G2 :: \
+(3def|\
+g>dB>d e>dB>d | g>dB>d e>dB>G  |
+c2e>c B2d>B   | c2A2   A2(3DEF | \
+G2G>B d>BG>B  | c>Bc>e d>BG>B  |\
+d>gf>e d>cB>A | B2G2   G2 :|
+S:https://www.folktunefinder.com/tunes/37123
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

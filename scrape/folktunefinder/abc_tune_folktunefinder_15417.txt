@@ -1,0 +1,31 @@
+X: 1
+T: Earl Grey
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen dated 6/90
+N: Usually a strathspey
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A3B  A2E2 | "D"F2A2 "A"E2c2 | "Bm"d3B     dcBA | "E7"G2B2 B2c2 \
+| "A"A3B  A2E2 | "D"F2A2 "A"E2c2 |  "D"d3e "E7"fefg | "A"a2A2  A2  :|
+fg \
+| "A"a2A2 g2A2 | "D"f2A2 "A"e2A2 | "Bm"d3B     dcBA | "E7"G2B2 B2g2 \
+| "A"a2A2 g2A2 | "D"f2A2 "A"e2A2 |  "D"d3e "E7"fefg | "A"a2A2  A2  |]
+fg \
+| "A"a2A2 g2A2 | "D"f2A2 "A"e2A2 | "Bm"d3B     dcBA | "E7"G2B2 B2cB \
+| "A"A3B  A2E2 | "D"F2A2 "A"E2c2 |  "D"d3e "E7"fefg | "A"a2A2  A2  |]
+S:https://www.folktunefinder.com/tunes/15417
+S:http://trillian.mit.edu/~jc/music/abc/march/EarlGreyM_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/EarlGreyM_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/EarlGreyM_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

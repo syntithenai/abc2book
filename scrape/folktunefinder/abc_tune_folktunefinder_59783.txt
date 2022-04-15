@@ -1,0 +1,42 @@
+X:896
+T:Xiraldilla (CT 418)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Mara Fernndez Argelles, de diez y nueve aos, de Cabaaquinta, ayuntamiento de Ayer.
+A:Asturies
+O:Cabaaquinta (Ayer)
+Z:Cancioneru de Torner 418
+M:3/8
+L:1/8
+Q:3/8=88
+K:Cm
+|c2 d|e2 c|d2 e|(d>c=B)|
+c2 d|_B2 G|F2 G|G2 G|
+c2 d|e2 c|d2 e|(d>c=B)|
+c2 d|_B2 G|F2 G|GGG|
+ccd|BBA|GFA|G2 G|
+ccd|BBA|GFA|G2 ||
+W:Tienes ojos de cristal
+W:hechos en la platera;
+W:en mi vida he visto yo
+W:ojos de tanta alegra.
+W:
+W:Ni como, ni vivo,
+W:ni puedo dormir,
+W:al ver que tus ojos
+W:no son para m.
+W:
+S:https://www.folktunefinder.com/tunes/59783
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:309
+%%topmargin 3cm
+T:Calam breugach
+T:Callum breugach
+T:Lying Malcolm
+C:Very old.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E phrygian
+B | {/^F}G<EE>G D>E{/F}G>B | A/A/A e>A {AB}c>Ae>A | {/^F}G>EE>G D>E{/F}G>B | {AB}c>AB>G A/A/A e :|
+^f | g>g (a/g/).^f/.e/ (d/c/).B/.A/ {/^F}G>B | (A/B/).c/.d/ e>A {AB}c>Ae>^f | g>g (a/g/).^f/.e/ (d/c/).B/.A/ {/^F}G>B | c>AB>G A/A/A {^g}a2 |
+{/^f}gG D>E{/F}G>B | {AB}c>AB>^G A/A/A e ||
+|: ^f | {/^f}g<ee>{/f}g {/^c}d>e{/f}g>a | b<a{/b}a(g/a/) b<a{/b}a>b | {/^f}g<ee>{/f}g {/^c}d>e{/f}g>a | [1 b<a{/b}a>^g a2 b :| [2 b<aa>^g {/g}a2 a ||
+^f | g>g (a/g/).^f/.e/ dcBA {/^F}G>B | (A/B/)c/d/ e>A {AB}c>Ae>^f | g>g (a/g/).^f/.e/ (d/c/).B/.A/ {/^F}G>B | c>AB>G A/A/A {/^g}a2 |
+{/^f}gB | {/^F}G<EE>G D>E{/F}G>B | {AB}c>AB>^G A/A/A {/f}e2 |]
+S:https://www.folktunefinder.com/tunes/71338
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

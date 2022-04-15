@@ -1,0 +1,30 @@
+X:303
+T: ICH NEHM MEIN GLAESCHEN IN DIE HAND
+N: F0528
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GABc | ddd2
+ecge | edd2
+ecge | edd
+d | dccc | cBB2
+AedA | cBB2
+AedF | AGG2
+ecge | edd2
+cAdc | cBB2
+Afff | g2G2
+ecge | edd2
+cAdc | cBB2
+Afff | g2G
+S:https://www.folktunefinder.com/tunes/69863
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

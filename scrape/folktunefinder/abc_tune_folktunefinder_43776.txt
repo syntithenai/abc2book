@@ -1,0 +1,26 @@
+X:1
+T:Bashful Alley
+C:Andy Hornby 1994
+N:June 1994
+Q:1/4=180
+I:abc2nwc
+M:9/8
+L:1/8
+K:D
+f2d dcd B2d|A2d dcd efg|f2d dcd Bcd|G2g gfg ecA:|
+|:F2A E2A D2A|FGA DFA BAG|F2d dcd BAF|E2G GFG BAG:|
+|:f2a afa e2a|d2a afa bag|f2a afa baf|e2g gfg bag:|
+|:f2d A2c d3|A2B G2A FGA|f2d ABc d2A|B2G E2e cBA:|
+%%textfont Timesbold 25
+%%center  ODD RHYTHMS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43776
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

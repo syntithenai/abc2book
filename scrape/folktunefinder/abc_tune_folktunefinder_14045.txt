@@ -1,0 +1,38 @@
+X: 1
+T: Constant Billy
+T: None So Pretty
+N:
+N: C part used only by Morris Dancers.
+N: Played with various phrasing.  Adderbury: 6x(AAB) and no capers.
+N: Karpeles&Schofield p.37 (in A), p. 59 (in G)
+N: Fleming-Williams & Shaw p.14 (in A)
+O: English
+Z: John Chambers <jc:trillian.mit.edu>
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D | G2d BGB | c>BA F2D | BAG EFG | DEF G2 :|
+"B"\
+|: G | Bcd e2A | ABc d2B | Bcd e2e | ABc def |
+| g2d BGB | c>BA F2D | BAG EFG | DEF G2 :|
+Q: C3=88
+"C"\
+|: D | G3 d3 | B G2 B3 | c3 A3 | A F2 D3 | BAG EFG | DEF G2 :|
+S:https://www.folktunefinder.com/tunes/14045
+S:http://trillian.mit.edu/~jc/music/abc/jig/ConstantBilly2.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/NoneSoPrettyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/NoneSoPrettyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ConstantBilly2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NoneSoPrettyJ.abc
+S:http://trillian.mit.edu/~jc/music/book/500/ConstantBilly.abc
+S:http://trillian.mit.edu/~jc/music/book/500/ConstantBilly2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

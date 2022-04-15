@@ -1,0 +1,26 @@
+X: 60
+T:Old French
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+R:Reel
+K:D
+((3ABc|:"D"d2)cd BdAF|DFAdf2ed|"A"c-def gecA|"D"defd A2((3ABc|!
+d2)cd BdAF|DFAd f2ed|
+"A"c-def gedA|[1"D"d2f2d2 ((3ABc):|[2"D"d2f2d2c-d|:!
+"A"efed c2A2|AEAc e2d-c|"G"BGBd gfed|
+"A"cAce a2c-d|efedc2A2|!
+AEAc e2d-c|"G"BGBd gfed|[1"A"c2A2A2c-d:|[2"A"c2A2
+A2((3ABc)|]
+S:https://www.folktunefinder.com/tunes/77253
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Maid of Bellevue
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: G \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"c>ec "G7"d>BG \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 :|
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G2e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>dc "G7"G>cB | "C"c3 c2 ||
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G>AB \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 |]
+S:https://www.folktunefinder.com/tunes/14584
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidOfBellevueJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/MaidOfBellevueJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidOfBellevueJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

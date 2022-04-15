@@ -1,0 +1,27 @@
+X:162
+T: STUND ICH AUF HOHEN BERGEN
+N: E0089A
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid
+M: 2/4
+L: 1/16
+K: D
+=FG | A3G=F2E2 | D2=FGA2
+A2 | _B2B2G2G2 | A4z2
+A2 | A3_B=c2A2 | G2=FGA2
+G2 | =F3GA2F2 | E2DE=F2
+A2 | d2=F2GAFE | D4
+A4 | d2=F2GAFE | D4z2
+S:https://www.folktunefinder.com/tunes/78603
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

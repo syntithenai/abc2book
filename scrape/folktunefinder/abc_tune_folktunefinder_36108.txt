@@ -1,0 +1,29 @@
+X:145
+T:the Alston Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004fd.html
+%%ID:000004fd
+K:F
+cB|\
+Acf4 af| egb4ga| \
+bgaf gefa| gec4 cB|\
+Acf4 af| egB4dB|
+AFBG AFGE| F2{e}f2 F2::\
+cB|\
+Acfc acfA| dBFD B,2dc|
+=Bdgd bdgd| ecGE C2cB|\
+Acf4 af| egB4 dB| \
+AFBG AFGE| F2A2 F2:|
+S:https://www.folktunefinder.com/tunes/36108
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

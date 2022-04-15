@@ -1,0 +1,28 @@
+X: 170
+T:Master McDermott
+S:IrTrad; Philippe Varlet 6/97
+M:4/4
+L:1/8
+Q:240
+C:Sean McGuire and Liam Donnelly
+R:reel
+B:Irish Tunes by the 100 Vol. 1
+K:D
+D2 (3FED ADFA | df{a}fe dB{d}Bd | AF{G}FE DFAF | BFAF EDB,A, |
+D2 (3FED ADFA | df{a}fe dB{d}Bd | AF~F2  dFAF |1 EGFE D2 A,2 :|
+2 EGFE D2 (3ABc ||
+df{a}fe dfaf | ~g2  bg af{a}fe | dB{d}BA Bcde | fdgf efde |
+fgaf ~g2  bg | af{a}fe dB{d}Bd | AF~F2  dFAF |1 EGFE  D2 (3ABc :|
+2 EGFE D4 ||
+S:https://www.folktunefinder.com/tunes/30679
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

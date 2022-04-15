@@ -1,0 +1,40 @@
+X:15617
+T:Slow March,2. TLY.044
+M:4/4
+L:1/8
+Q:100
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+N:bar 1 is marked with a sign. Bars 9,10, 1313 and 14 are marked f, and
+N:have dotted quaver-semiquaver crothcet rhythm marked under the crotchet
+N:rests. End of bar 16 is marked with a sign. Minim A in bar 24 is marked
+N:accented
+H:1860.
+Z:Taz Tarry.
+K:G
+(d/e/d/c/)|:"S"B2 B>B B2 ~c2|d3 ^d e-fg-e|e-d.B.d d-cc-B|{B}A2A.A A
+2 (d/e/d/c/)|!
+B2 B>B B2 ~c2|d3 ^d e-fg-e|e-d.B.d d-c.B.A|G2 G>G G2:|!
+|:g2|f2 z2 z2 g2|f2 z2 z2 b2|a-bc'-b a-gf-g| a2 a>a a-bag|!
+f2 z2 z2 g2|f2 z2 z2 b2|a-bc'-b b-aa-g| g-ff-e e-d"S"c-B||!
+z2|(d3e/d/) c-B.c.A| G2 G>G (F/G/A/B/ c/d/e/f/)| (gfed) (edcB)
+| (B3c/B/) ABc-^c|!
+(d3e/d/) c-B.c.A| G2 G>G (F/G/A/B/ c/d/e/f/)| g-f.e.d d2 e-f
+|a4-g2:|!
+S:https://www.folktunefinder.com/tunes/46892
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:2095
+T:Frieze Breeches, The
+O:england
+R:jig
+H:There are words for the first two parts: "Cunnla".
+M:6/8
+K:Dmix
+FED EFG|AdB cAG|~A3 BAG|FAF GED|FED EFG|A2d cAG|FAF GEA|1 ~D3 D2E:|2 ~D3 D3||
+|:d2e fed|efd cAG|~A3 BAG|FAF GED|d2e fed|efd cAG|FAF GEA|~D3 D3:|
+|:~D3 c3|AdB cAG|AB^c ded|ded cAF|~D3 c3|AdB cAG|FAF GEA|~D3 D3:|
+|:d2e fdd|Add fdd|^c2d eAA|fAA eAA|d2e fdd|Add ^cde|faf ge^c|1 ded d2A:|2 ded d2e||
+|:fed ed^c|ded =cAG|~A3 BAG|FAF GED|1 fed ed^c|ded =cAG|FAF GEA|
+~D3 D2e:|2 fef gfg|afd =cAG|FAF GEA|~D3 D2E||
+S:https://www.folktunefinder.com/tunes/22546
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

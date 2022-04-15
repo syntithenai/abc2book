@@ -1,0 +1,26 @@
+X:79
+T: Graserin und Ritter
+N: A0088
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie in Bicinia II, 83. Von Boehme rhythmisch vereinfacht.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: E
+B2 | =c2c2B2e2 | =d2d2=c4 | z2
+B2=c2=d2 | e2=d=cB2A2 | =G4z2
+G2 | =c2BA=G2c2 | =G4E2
+G2 | =c2BA=G2=F2 | E4=G2=c2 | B2A2=G3=F | E6
+S:https://www.folktunefinder.com/tunes/68625
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T:Montrosses' March
+B:Musick's Delight on the Cithren, Playford
+N:as printed in CRE II, no. 12 (ii)
+N:time signature changed to 6/4 from original "3"
+M:6/4
+L:1/4
+K:G
+GBB B2 e|d>eB A2 G|G/A/BB B2 A|BGG [GBdg]:|
+|:eeg eeg|eeg edB|dde dde|d2 e dBG|G/A/BB B>^cB/c/|
+d>Bc/d/ e3|de/d/c/B/ A2 G|G/A/BB B2 A|BGG [GBdg]:|
+S:https://www.folktunefinder.com/tunes/14690
+S:http://trillian.mit.edu/~jc/music/abc/jig/MontrossesMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MontrossesMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MontrossesMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

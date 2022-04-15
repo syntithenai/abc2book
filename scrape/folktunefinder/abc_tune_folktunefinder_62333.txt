@@ -1,0 +1,35 @@
+X:2
+T:Str\"omkarlspolskan
+R:sl-polska
+S:efter Pelle Fors
+N:St\"amning AEAC#. o = flageolett
+A:\"Osterg\"otland
+Z:id:hn-sp-2
+M:3/4
+L:1/16
+K:A
+c2(3BcB A2B2 c2A2 | (ed)cd e8 | c2{dc}Bc d2dB c2cA |
+(Bc)BG (AG)AE (DC)B,A, | c2(3BcB A2B2 c2A2 | (ed)cd e8 |
+c2{dc}Bc d2dB c2cA | (Bc)BA G2A2 A4 :|
+|: A3B (cB)AB c2A2 | E2""[c2A2] "arco"[c2A2]""[A2E2] "arco"A2""[E2A,2] |
+"arco"[E3A,3]B (cB)AB c2A2 | E2""[c2A2] "arco"[c2A2]""[A2E2] "arco"A2""[E2A,2] |
+"arco"A2Bc (de)dB (cd)cA | (Bc)BA G2A2 A4 :|
+|: (CE)(AE) (CE)(AE) (CE)(AE) | (DF)(AF) (DF)(AF) (DF)(AF) |
+(CE)(AE) (CE)(AE) (CE)(AE) | (DF)(AF) (DF)(AF) (DF)(AF) |
+(CE)(AE) (B,E)(AE) A,2B=c | d=cBA G2A2 A4 :|
+|: "o"c'4 "o"a4 "o"e4 | "o"c'4 "o"a4 "o"e4 | "o"c'2"o"c'2 "o"a2"o"a2 "o"e4 |
+"o"c'2"o"c'2 "o"a2"o"a2 "o"e4 |
+(CE)(AE) (CE)(AE) (CE)(AE) | (DF)(AF) (DF)(AF) (DF)(AF) |
+(CE)(AE) (CE)(AE) (CE)(AE) | (DF)(AF) (DF)(AF) (DF)(AF) |
+(CE)(AE) (B,E)(AE) A,2B=c | d=cBA G2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/62333
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

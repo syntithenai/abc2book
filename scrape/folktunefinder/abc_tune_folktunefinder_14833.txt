@@ -1,0 +1,24 @@
+X: 1
+T: Les patins de Pauline
+T: Pauline's Skates
+C: Andr\'e Marchand
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 6/8
+L: 1/8
+K: G
+  D \
+| GAB GED | GAB GED | FGF E2D | FDF E2D | GAB GED |
+| GAB GED | FGF EFE | DEF G2 :: D | GAB GDB, | CDE DB,G, |
+| ECA, B,A,A, | ECB, A,2D | GAB GDB, | CDE DB,G, | ECA, B,A,A, | DEF G2 :|
+S:https://www.folktunefinder.com/tunes/14833
+S:http://trillian.mit.edu/~jc/music/abc/jig/Patins_de_Pauline_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Patins_de_Pauline_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/Patins_de_Pauline_G3.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

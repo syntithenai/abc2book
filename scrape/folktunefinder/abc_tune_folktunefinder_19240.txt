@@ -1,0 +1,25 @@
+X: 1
+T: Buckingham House
+C: Abraham Mackintosh
+R: strathspey
+B: RSCDS 
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Dm
+E \
+| "Dm"F3D DDD2 A,3D D3E | "Dm"F3D DDD2 "Gm"GAB2 "A7"A3G \
+| "Dm"F3D DDD2 A,3D D3F | "C"EFG2 c3G EC3 G3 :|
+E \
+| "Dm"Dd3 d3c d3e d3c | "Dm"Ad3 d3e "Dm"f3d "A"e3^c \
+| "Dm"d3d f3d "C"e3c "Dm"f3d | "C"c3d c3G EC3 G3 :|
+S:https://www.folktunefinder.com/tunes/19240
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BuckinghamHouse_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BuckinghamHouse_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

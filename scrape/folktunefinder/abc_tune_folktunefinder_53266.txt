@@ -1,0 +1,23 @@
+X:180
+T:Macedonian #3
+L:1/8
+M:5/8
+O:Macedonia
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000691.html
+%%ID:00000691
+K:Bb min
+g2f2e|g2f2e|g2f2e|g2g3|\
+cde2e|e2e3|deg2e|dcB3::
+Bcd2c|e2B3|Bcd2c|e2B3|\
+Bcd2c|e2B3|cBB3|cBB3:|
+S:https://www.folktunefinder.com/tunes/53266
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A-sharp
+% Time_signature 5/8
+% Has_accompaniment_chords No chords

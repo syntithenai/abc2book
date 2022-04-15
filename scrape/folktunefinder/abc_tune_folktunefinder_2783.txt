@@ -1,0 +1,40 @@
+X: 1
+T: Bi\vcak
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 14/16
+L: 1/16
+P: A4B2 A2B1 C2 D2 E2 F2 G2 H2 I A2B2
+Q: 1/8 1/8 1/8 3/16 1/8 3/16
+K: F
+%%indent 350
+"A"\
+|: "C7"c2- cB B2 B2A "F"AF "Bb"B2A | "C"G2 G2 AG FE2 "F"F2 F2z :|
+"B"\
+|: "Bb"EF FG G2 "C7"G3 B2 "F"AGF |  "C7"GC GB A2 ~G2F "F"FG ABc |  "Bb"EF FG G2 "C7"G3 B2 "F"AGF |  "C7"GC GB A2 ~G2F "F"F2 F3 :|
+"C"\
+|: "C7"c=B cd _B2 B2A Bc "F"AGF | "C7"GC GB A2 ~G2F "F"FG ABc | "C7"c=B cd _B2 B2A Bc "F"AGF | "C7"GC GB A2 ~G2F "F"F2 F3 :|
+"D"\
+|: "D drone"D2 G2 F2 G3 FE D3 | D2 F2 E2 D3 G2 F2E | D2 G2 F2 G3 FE D3 | D2 F2 E2 D3 D2 D3 :|
+"E"\
+|: "Gm"G2 c2 B2 "Cm"c3 "Gm"BA G3 | G2 B2 A2 G3 "Cm"c2 "D7"B2A | "Gm"G2 c2 B2 "Cm"c3 "Gm"BA G3 | G2 B2 A2 "D7"G3 "Gm"G2 G3 :|
+"F"\
+|: "Gm"FG GF GA "Cm"BcA "Gm"BA G2D |  "Gm"FG GF GA "Cm"BcA "Gm"BA Gdd |  "Gm"FG GF GA "Cm"BcA "Gm"BA G2D |  "Gm"FD FG GF "Cm"BAG "Gm"G2 GGG :|
+"G"\
+|: "Cm"~c2- cA BA "Gm"G2A "Cm"c2 "Gm"B2A |  "Cm"GF "Gm"BA GF "Cm"B2A "Cm"c2 "Gm"B3 |  "Dm"~d2- cA BA "Gm"G2A "Cm"c2 "Gm"BA |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F :|
+"H"\
+|: "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G3 :|
+"I"\
+|| F14- | "da Capo"F14 |]
+S:https://www.folktunefinder.com/tunes/2783
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Bicak1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Bicak1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Bicak1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 14/16
+% Has_accompaniment_chords Has chords

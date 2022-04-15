@@ -1,0 +1,23 @@
+X: 82
+T:Little Liza Jane
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:A
+(3e/2f/2g/2|:"A"ae e3/2e/2|\
+f/2e/2c/2B/2 A (3e/2f/2g/2|af ec|
+"F#m"f3/2g/2 f(3e/2f/2g/2|"A"ae ee|"D"f/2e/2c/2B/2 "A"A2|"A"c/2B/2A/2F/2 "E7"EF |"A"A3A::
+"A"B/2cB/2 c3/2A/2|BA2A|"A"B/2cB/2 c/2B/2A|"F#m"F3E|"D"F/2A/2-A B3/2A/2|\
+"A"B/2c/2-c B3/2A/2|"A"c/2B/2A/2F/2 "E7"EF|"A"A3A:|
+S:https://www.folktunefinder.com/tunes/44076
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:250
+T: O REGIMENT MEIN VATERLAND
+N: E1389
+O: Europa, Mitteleuropa, Deutschland, Hessen, Nassau; Elsass
+R: Staende -, Soldaten - Lied
+M: 3/4
+L: 1/16
+K: Bb
+F2 | D2F2B6F2 | A3GG6
+G2 | G2B2A6E2 | G3FF6
+F2 | D2F2d6d2 | c3Gc6
+B2 | A3GF2F2G2A2 | B8z2
+F2 | D2F2d6d2 | c3Gc6
+B2 | A3GF2F2G2A2 | B8z2
+S:https://www.folktunefinder.com/tunes/79354
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:2
+T:Under der linden an der heide
+C:Walther van der Vogelweide
+N:the way Andrea van Ramm sang it with Syntagma
+N:Musicum but with a few extra gracenotes
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2002-4-15
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+B4 {A}BA|   B3 B{A}BA|G4 {AG}F2|{GA}G6      |\
+B4 {A}BA|   B3 B{A}BA|G4 {AG}F2|{GA}G6      |
+A4 {B}AG|   B4  {A}B2|A4 {BA}B2|{FA}F4 {A}G2|\
+A4 {G}AG|   B4  {A}B2|G4  {A}F2|    G6      |
+B4 {A}B2|{A}B4  {A}B2|B4  {A}B2|    B6      |\
+B4 {A}BF|{A}G6       |\
+A4 {G}AG|   B4  {A}B2|G4 {AG}F2|{GA}G6     |]
+S:https://www.folktunefinder.com/tunes/19046
+S:http://trillian.mit.edu/~jc/music/abc/song/UnderDerLindenAnDerHeide_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/song/UnderDerLindenAnDerHeide_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/UnderDerLindenAnDerHeide_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

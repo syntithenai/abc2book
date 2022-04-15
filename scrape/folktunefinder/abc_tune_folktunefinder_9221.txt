@@ -1,0 +1,31 @@
+X: 3
+P: Is\"a-Jussin sottiisi
+C: Konsta Julh\"a{}
+O: Finland
+M: 4/4
+L: 1/8
+K: C
+|: "C"C2EG c2Bc | e2cA GFED \
+| C2EG c2Bc | "Dm"B2A2 A4 \
+| "G7"f2fg fedc | B2B2 B3A |
+| GABc defg | "C"agge cAGE \
+|| "C"C2EG c2Bc | e2cA GFED \
+| C2EG c2Bc | "Dm"B2A2 A4 | "G7"f2fe d^cdf |
+| "C"e2c2 G4 | "G7"B2Bc BGAB | "C"c2eg g4 \
+| "Dm"f2fe "(G7)"d^cdf | "C"e2c2 G4 \
+| "G7"B2Bc BGAB | "C"c2c2 Hc4 :|
+|: "F(Dm)"faaf "G7"defa | "C"g2ge c2Bc \
+| "G7"e2G2 BGBd |1,3 "C"c2eg g3f :|2,4 "C"dc c2 c4 \
+:: "Am"EAc2 EAc2 | "Dm"cBdc BA^GA |
+| "E7"Bcd2 f3e | "Am"e2d2 cBA2 \
+|  "Am"EAc2 EAc2 | "Dm"cBdc BA^GA \
+| "E7"Bcdf e2^G2 |1 "Am"A4 A4 :|2 "Am"A4 "G7"G4 |]
+S:https://www.folktunefinder.com/tunes/9221
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish07.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:2588
+T:Cantiga 1 de Santa Maria
+M:4/4
+L:1/4
+Q:1/4=127
+C:Alfonso X el Sabio
+R:Cantiga
+K:G
+BB2B|B3A|B3c|B3A|G2GA|Bcdc|
+|:BcBA|B3B|d2e2|ed2B|B2c/2B/2A|B3B/2A/2|G2G2|ABGF|E3D|
+1E3E|GFED|G2GA:|2E3A|A3F|GFGA||
+F2F2-|FBB2|BAG2|ABGF|EFD2-|DFA2-|AG/2F/2EF|GFFE|
+EDE2-|E2BB-|BBB2-|BAB2-|BcB2-|BAG2|GABc|dcBc|
+|:BAB2-|BBd2-|e2ed-|dBB2|c/2B/2AB2-|BB/2A/2G2|G2AB|GFE2-|EDE2-|
+1EEGF|EDG2|GABc:|2EAA2-|AFGF|GAF2||
+F3B|B2BA|G2AB|GFEF|D3F|A3G/2F/2|EFGF|FEED|E4|]
+% Output from ABC2Win  Version 2.1 i on 6/04/2000
+S:https://www.folktunefinder.com/tunes/28868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Cantiga
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

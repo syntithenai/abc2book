@@ -1,0 +1,29 @@
+X:1
+%% Copyright 1933, by Harms Inc
+T:I cover the waterfront
+M:4/4
+L:1/4
+C:John W. Green & Edward Heyman
+Q:1/4=80
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 "(Gm7)""Bbmaj7"x2 | "Am7"x2 "Abdim7"x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "Fmaj7"x2 x2 | "Am7"x2 "D7"x2 ||
+V:melody
+zA (3GFG | AA/2A/2- A2 | zc (3cAF | E3 D/2E/2 |
+S:https://www.folktunefinder.com/tunes/18759
+S:http://trillian.mit.edu/~jc/music/abc/song/I_cover_the_waterfront.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/i_cover_the_waterfront.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/I_cover_the_waterfront.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/i_cover_the_waterfront.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

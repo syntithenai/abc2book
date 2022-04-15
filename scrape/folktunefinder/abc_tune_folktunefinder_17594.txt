@@ -1,0 +1,46 @@
+X: 1
+T: MacLeod's Reel
+T: Miss/Mrs. MacLeod's
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: Sometimes called "Uncle Joe" in America.
+N: Skye p.8
+N: Hunter 249
+N: BSFC I-61 and III-45
+N: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 32 tape A6
+R: reel
+M: C|
+L: 1/8
+K: A
+   cB \
+| "A"A2a2 "(D)"fefa | "A"~c2cB "(E7)"c2cB \
+| "A"A2a2 "F#m"fefa | "Bm"B2BA "E7"B2cB |
+| "A"A2a2 "(D)"fefa | "A"~c2cB c2e2 \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+|: cB \
+| "A"~A2cA eAcA | c2cB "(E7)"c2cB \
+| "A"~A2cA "F#m"eAcA | "Bm"B2BA "E7"B2cB |
+| "A"~A2cA eAcf | ecBA c3e \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+S:https://www.folktunefinder.com/tunes/17594
+S:http://trillian.mit.edu/~jc/music/abc/reel/MacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MsMacLeodsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MsMacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MsMacLeodsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MsMacLeodsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MsMacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MacLeodsR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MsMacLeodsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel/MacLeodsR_A.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

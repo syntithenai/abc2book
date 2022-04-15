@@ -1,0 +1,27 @@
+X:3
+T:Le Dromadaire
+C:Patrick Bouffard
+R:Bourree
+I:Centre France
+Z:edited by Dave Holland <dave@biff.org.uk>
+Q:1/4=150
+M:2/4
+L:1/8
+K:Gm
+D2 CD-|D^F DF|G3/2^F/2 G/2A/2B-|BA G/2A/2B/2c/2|
+d2^cA-|A=c BA|1B3/2A/2 G^F/2-|FG A^F:|2B3/2A/2 G/2^F/2G-|G4||
+d2 ^cA-|A=c BA|B3/2A/2 G^F/2-|F/2G/2F/2G/2 A^F|
+D2 CD-|D^F DF|1G3/2^F/2 G/2A/2B-|BA G/2A/2B/2c/2:|2G3/2A/2 G/2^F/2G|G4:|
+S:https://www.folktunefinder.com/tunes/51987
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

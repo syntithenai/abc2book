@@ -1,0 +1,28 @@
+X: 1416
+T:The Repeal Of The Union
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Bar 7 is a variation every other time through, otherwise part 1 is just
+H:the first 4 bars repeated.
+H:Played with 50
+M:4/4
+K:G
+| AD{F}ED AD{F}ED | E2cE dEcE | AD{F}ED AD{F}ED | E2cE {G}EDD2 | AD{F}ED AD{F}ED |
+E2cE dEcE | cdBc AGED | E2cE {G}EDD2 || ~d3g fdec | ABcA dBcB | Ad~d2 Ad{e}dB |
+cAGE {G}EDD2 | ~d3g fdec | ABcd efge | afge dged | ~c3d cAGE ||
+S:https://www.folktunefinder.com/tunes/31923
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

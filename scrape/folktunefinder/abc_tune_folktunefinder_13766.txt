@@ -1,0 +1,24 @@
+X: 1
+T: the Addams Family
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+|: "D"d2f d2B | "G"G2e z2d | "A"c2e c2A | "D"F2d z2A \
+|  "D"d2f d2B | "G"G2e z2d | "A"c2A B2c |1 "D"d3 z2A :|2 "D"d3 ABc ||
+|: "D"dz2 z2z | z2z Bc^d | "E"ez2 z2z | z2z Bc^d \
+|  "E"ez2 Bc^d | "E"ez2 ABc | "D"dz2 "fine"z2z |1 z2z ABc :|2 "A7"AAA Az |]
+S:https://www.folktunefinder.com/tunes/13766
+S:http://trillian.mit.edu/~jc/music/abc/jig/AddamsFamily_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AddamsFamily_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/AddamsFamily_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AddamsFamily_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

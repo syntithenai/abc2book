@@ -1,0 +1,28 @@
+X:19
+T: NUN ZU GUTER LETZT
+N: B0505
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 4/4
+L: 1/16
+K: F
+F,3A,A,3C | C8A,3CC3F | F8
+E4D4 | C6C2D4C4 | B,3A,A,4
+F,3A,A,3C | C8A,3CC3F | F8
+E4D4 | E6E2E4D4 | D3CC4
+C4F4 | F6F2E4F4 | G3EC4
+C4F4 | F6F2E4F4 | G3EC4
+A,3CC3_E | _E8B,3DD3G | G8
+F4D4 | C6C2D4C4 | B,3A,A,4
+F,4G,4 | A,4F,4G,4A,4 | C16 | C8
+S:https://www.folktunefinder.com/tunes/62042
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

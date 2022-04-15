@@ -1,0 +1,86 @@
+X:207
+T:Cantar Relixosu (CT 169)
+R:Relixosu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Canto Religioso, propio para oir misa, transcrito en San Esteban de Relamiego, ayuntamiento de Tinu.
+N:El primero lo entonan los fieles al entrar en la iglesia, y el segundo al momento de arrodillarse.
+N:Con esta ltima meloda cantan la segunda serie de estrofas.
+N:Con esta meloda se canta tambin en la iglesia por cuatro mujeres, el Jueves y Viernes Santos, el romance transcrito.
+A:Asturies
+O:San Esteban de Relamiego (Tinu)
+Z:Cancioneru de Torner 169
+M:6/8
+L:1/8
+Q:3/8=72
+K:G
+GG
+|c3 (B/c/4B/4)FG|B B2-Bcd|c2 c B2 G|A G2-GGG|
+c3 (B/c/4B/4)FG|B B2-Bcd|c2 c BBc|ddc B2 G|A G2-G||
+W:Nesta tierra me arrodillo,
+W:nesta tierra consagrada,
+W:por ver si puedo lograr
+W:sacramentos para el alma.
+W:
+W:---------------------
+W:
+W:a) Al salir el sacerdote revestido para oficiar:
+W:
+W:Adori, fieles cristianos,
+W:al que sale escondido;
+W:con la ropa consagrada
+W:representa a Cristo vivo.
+W:
+W:b) Al salir del templo una vez terminada la misa:
+W:
+W:Quede con Dios La Seora
+W:cheme la bendicin,
+W:gueme por buen camino,
+W:lbreme de perdicin.
+W:
+W:----------------------------
+W:
+W:Con esta meloda se canta tambin en la iglesia por cuatro mujeres,
+W:el Jueves y Viernes Santos, el siguiente romance:
+W:
+W:Jueves Santo, Jueves Santo,
+W:tres das antes de Pascua,
+W:cuando el Redentor del mundo
+W:a sus discpulos llama.
+W:
+W:Llmalos de dos en dos,
+W:de cuatro en cuatro llegaban.
+W:Desque los vio todos juntos,
+W:rica cena que les daba.
+W:-Cul de vosotros los mos
+W:morir por mi maana
+W:Miran unos para otros,
+W:todos les tiembla la barba.
+W:
+W:El que barba no tena
+W:la color se le mudaba,
+W:si no fue San Juan Bautista
+W:que predica en la montaa.
+W:
+W:-Por T morir, mi Dios,
+W:por T morir maana,
+W:si las culpas de los hombres 
+W:con la mi muerte se paga.
+W:
+W:-Nuestra Seora me valga,
+W:vlgame la Madre Santa:
+W:tres sillas hai en el cielo,
+W:una para ti guardada.
+W:
+S:https://www.folktunefinder.com/tunes/59094
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Relixosu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

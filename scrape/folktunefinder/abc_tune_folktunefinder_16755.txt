@@ -1,0 +1,33 @@
+X: 1
+T: the Barrowburn Reel
+C: Addie Harper
+Z: John Chambers <jc:trillian.mit.edu>
+N: Addie Harper (who is this - Do we need permission)
+L: 1/8
+K: D
+   z2 \
+|  "D"~D2DE FAAd | "G"~B2BA BddB | "D"~A2AB "Bm"d2de | "Em"fedB "A7"AFEF |
+y4 \
+|  "D"~D2DE FAAd | "G"~B2BA Bdde | "D"f2af "A7"e2fe | "G"dB"A7"AB "D"d2 :|
+|: cd \
+| "A7"~e2ef ecBA | "D"~f2fg fdBA | "Em"~g2ga gecA | "F#m"a2ag f2ef |
+y4 \
+| "G"g2ga gecA | "D"a2ag f2ef | "G"g2ag "D"f2ed | "G"dB"A7"AB "D"d2 :|
+S:https://www.folktunefinder.com/tunes/16755
+S:http://trillian.mit.edu/~jc/music/abc/reel/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BarrowburnR_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Addie_Harper/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BarrowburnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BarrowburnR_D4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

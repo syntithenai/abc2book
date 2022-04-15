@@ -1,0 +1,33 @@
+X: 23
+T:Untitled. HA.024
+M:C|
+L:1/8
+Q:150
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Although there are two sharps in the MS, they are on top F and bottom
+N:F.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:G
+(dB)|"cr"G3A B2(AG)|A2e2e2g2|\
+"cr"d3B (dB) (AG)|(AB) (AF) D2(dB)|!
+"cr"G3A B2(AG)|A2e2e2f2|\
+(ga) (ba) (ae) (e/f/g)|B2d2d2|!
+g2|"cr"e3d (ef) (ga)|b2a2g2G2|\
+A2A2 (cB) (cd)|e2A2 A2 (A/B/c)|!
+(BA) (BG) (ge) (dB)|(AB) (AG) "cr"E3d|\
+"cr"D3d (AB) (cd)|B2G2G2|]
+S:https://www.folktunefinder.com/tunes/72272
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

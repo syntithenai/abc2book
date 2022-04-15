@@ -1,0 +1,22 @@
+X: 1
+T: Glengarry's Dirk
+R: strathspey
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: "C"G<E ~E>D C>E G>A | "C7"G<E E>e "F"d>c A2 | "C"G<E ~E>D "(Am)"C>E G>c | "F"e>d c>A "G7"G<E D2 :|
+|| "C"E/F/G c>G A>G c>G | E>G c>G "G7"A>G D2 | "C"E/F/G c>G "(Am)"A>G c>d | "F"e>d c>A "G7"G<E D2 ||
+|| "C"E/F/G c>G A>G c>G | E>G c>e g<e "F"f2 | "C"g<c' g>e "Dm"f>d "Am"e>c | "Dm"d>B "Am"c>A "G7"G<E D2 |]
+S:https://www.folktunefinder.com/tunes/19370
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlengarrysDirkS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlengarrysDirkS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

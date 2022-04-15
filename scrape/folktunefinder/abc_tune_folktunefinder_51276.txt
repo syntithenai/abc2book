@@ -1,0 +1,25 @@
+X:15001
+T:Off to California
+R:Hornpipe
+C:Trad.
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+(3DEF|"G"GFGB "D"AGED|"G"GBdg "C"e2 (3def|"G"gfgd "C"edBG|"D"ABAG "C"E2 (3DEF|
+"G"GFGB "D"AGED|"G"GBdg "C"e2 (3def|"G"gfgd "C"edBG|"D"ABAF "G"G2:|
+|:(3def|"D"gfeg "G"fedf|"Em"edef edBd|"Em"gfgd "D"edBG|"D"ABAG "C"E2 (3DEF|
+"G"(3GAG BG "D"AGED|"G"GBdg "C"e2 (3def|"G"gfgd "C"edBG|"D"AADE "G"G2:|
+S:https://www.folktunefinder.com/tunes/51276
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

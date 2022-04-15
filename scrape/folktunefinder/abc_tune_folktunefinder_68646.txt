@@ -1,0 +1,30 @@
+X:100
+T: Die Sonne ist verblichen
+N: A0116A
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III 1549 No. 42.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2d2=f2e2 | d4A2
+A2 | G4A2d2 | dc_BAB2B2 | G6
+G2 | G2d2=f2e2 | d4A2
+A2 | G4A2d2 | dc_BAB2B2 | G6
+c2 | c2c2c2_B2 | A4G4
+_B4 | A4=F2G2 | G=FEDE2E2 | D8
+z2G2G2A2 | _B2c2A4 | G4
+d4 | =f4e2d4c2
+d3c_BAB2- | B2AG=F2
+F2 | G2_B2A2c2 | d_BAGA2A2 | G6
+S:https://www.folktunefinder.com/tunes/68646
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Year of Jubilo
+M: 4/4
+L: 1/4
+F: http://www.thursdaycontra.com/users/spuds/tunes/reels/YearJubilo.abc
+K: D
+   F/E/ \
+| "D"DF FA | Af f/e/d/B/ | AF dF | "A7"E2-E F/E/ \
+| "D"DF FA | Af"(G)" f/e/d/B/ | "D"Ad "A7"e>d | "D"d3 :| 
+|: A \
+| "G"B> ABc | d>e dB | "D"AF dF | "A7"E2-E F/E/ \
+| "D"DF FA | Af "(G)"f/e/d/B/ | "D"Ad "A7"e>d | "D"d3 :|
+S:https://www.folktunefinder.com/tunes/15723
+S:http://www.thursdaycontra.com/users/spuds/tunes/reels/YearJubilo.abc
+S:http://www.thursdaycontra.com/users/spuds/tunes/reels/YearJubilo.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/YearOfJubilo_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/march/YearOfJubilo_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/YearOfJubilo_D.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 31
+T:Dark Isle, The (9/8)
+M:9/8
+L:1/8
+Q:160
+R:Waltz
+K:D
+B3|e3-e2f e3|d3-d2e d3|BG2-G3 B3|A6 d2e|
+f3-f2e d3|fa2-a3 A3|f3-f2 a3f|e6B3|
+e3-e2f e3|d3-d2e d3|BG2-G3 B3|A3-A2A d2e|
+f3-f2A a2f|e3-e2A f2e|d3-d2e d2c|d3f3g3|
+|a3-a2A A3|f3e3d3|BG2-G3 B3|A6 d2e|
+f3-f2e d3|fa2-a3 A3|f6 a2f|e6B3|
+e3-e2f e3|d3-d2e d3|BG2-G3 B3|A3-A2A d2e|
+f3-f2A a2f|e3-e2A f2e|d3-d2e d2c|d6|
+S:https://www.folktunefinder.com/tunes/50539
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

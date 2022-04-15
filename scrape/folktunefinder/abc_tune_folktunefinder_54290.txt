@@ -1,0 +1,55 @@
+X: 307
+T: Sitna Zborenka
+L:1/16
+O: Bulgaria 
+M:2/4
+Q:1/4=72
+S: The dance was re-transcribed from the "Vancouver International 
+S: Folk Dancers Music Book" Deborah Jones (c) 1982 and modified
+S: for abc notation software -Seymour 
+P:ABCDEHBCDEHFG
+K:Em
+P:A
+|:"Am"cdde cBA2           | BEcE "Em" BAG2     |"D" FGA2 "G" AGAB   |"Am" ~c2cd "D" ~cBA2|
+  "G" cdde "Am" cBA2      |"Em" BEcE BAG2      |"D" FGA2 "G" AGcd   |"Am" A2AE "D" A2AE  :|
+%%sep 10 10
+P:B
+|:"D" AGFE FGA2           | ABcd "G" ~B2BG     |"Am" ABcd cBAG      |"G" B2BG B2BG       |
+  "Em" FGG2 "Am" ABcd     |"D" cBAG B2BG       |\
+  "Am" cd/2e/2dB "G" cABG |"Am" A2AE "D" A2AE  :|
+%%sep 10 10
+P:C
+|:"D" FGA2 "G" AGBA       |"Am" ~A2AE "Em" GFE2|"D" FGA2 "G" AGBA   |"Am" A2AE A2AE      :|
+%%sep 10 10
+P:D
+|:"D" A2cd dccB           |"G" A2cd B2BG       |"Am" cdcB "D" A2cd  |"G" B2BG B2BG       :|
+%%sep 10 10
+P:E
+|:"D" cdcB A2cd           | B2BG "G" ~Bcde     |"Am" cdcB "D" A2cd  |"G" B2BG B2BG       :|
+%%sep 10 10
+P:H
+|:"Am" cddc cBA2          |"Em" BccB BA~G2     |"Am" ABA2 "Em" GFE2 |"D" A2AB "G" c2d2   |
+  "Am" dcde cBA2          |"Em" BccB BAG2      |"Am" A2BA "Em" GFE2 |"Am" A2AE A2AE      :|
+%%sep 10 10
+K:F#m
+P:F
+  "A" AEdE c2cA           |"E7" ABBA "A" ABcd  |"E7"  eEdE "A" c2cA |"E7" ABBA "A" A2AE  |
+  "A" AEAd c2cA           |"Dm" ABBA "A" ABcd  | eEdE c2cA          |"Dm" ABBA "A" AEAB  |
+%%sep 10 10
+P:G
+  "E7" cded cBB2          |"A" cded cBA2       |"E7" cddc cBde      |"A" A2AE ABcd       |
+  "D" efed "E7" cBB2      | cded "A" cBA2      |"E7" cddc cBde      |"A" A2AB A2AB       |
+  "E7" cded cBB2          |"A" cded cBA2       |"E7" cddc cBde      |"A" A2AE ABcd       |
+  "D" efed "E7" cBB2      | cded "A" cBA2      |"E7" cddc cBde      |"A" A2AE Azz2       |
+S:https://www.folktunefinder.com/tunes/54290
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

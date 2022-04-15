@@ -1,0 +1,25 @@
+X: 7691
+T:the Preston Hunt
+M:C|
+O:England
+A:North-West
+R:Reel
+K:Bb
+Bc|\
+defg f2dB| g2ec f2dB| Bcde fdBd| c=Bcd c3_B/c/|\
+defg f2dB| g2ec f2dB| fbag gfed| fedc B2::\
+FG|\
+ABcd cAFA| dBFB cAFA| FGAB cAFA| edc=B c3_B/c/|\
+defg fB "tr"(B3/A//B//)| gB "tr"(B3/A//B//) fB "tr"(B3/A//B//)|\
+fbag gfed| fedc B2:|
+S:https://www.folktunefinder.com/tunes/34908
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

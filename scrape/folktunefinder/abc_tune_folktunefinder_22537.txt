@@ -1,0 +1,33 @@
+X:2086
+T:French Quadrille. CJF.116
+O:england
+M:2/4
+L:1/16
+Q:110
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the stave at end is "C J Fox 1829". The asterisked notes in the MS
+N:were one note of a4. I have introduced first-time and second-time bars
+N:to allow the tune to play correctly.- PJH.
+K:D
+.d4"f".f4|.a4z2aa|d'2ad' f'2d'2|a4z2"p"d'2|.c'2"cres:".b2.a2.g2|\
+f2ff f2b2|.a2.g2.f2.e2|d2dd d2e2|f2e2f2^g2|
+abc'd' d'2a2|.b4.g4|1""a8:|2""a6|:A2|d2dd d2f2|d2dd d2f2|d2f2d2f2|\
+agfg e2A2|d2dd d2f2|a2d'2 d'2c'b|abag egec|d2f2d2:|
+K:D
+|:e2|c'4c'd'bc'|a6c'2|b2b2b2c'2|bagf fgab|
+c'4c'd'bc'|a4a2ga|fd'c'b agfg|"D Capo"(b4a4)||
+S:https://www.folktunefinder.com/tunes/22537
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

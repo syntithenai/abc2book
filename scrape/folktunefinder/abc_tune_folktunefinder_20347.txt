@@ -1,0 +1,33 @@
+X: 1
+T: The Yellow Haired Laddie
+R: waltz
+B: Orpheus Caledonius 1725
+B: RSCDS 12-7
+M: 3/4
+L: 1/8
+K: D
+D>E \
+| "D"F2 A2 Bc | d3 e f2 \
+| A2 BA GF | "A7"E4 D>E \
+| "D"F2 A2 B>c | "Bm"dc de f2 \
+|1 "A7"AB AF E>D | D4 \
+:|2 "A7"A2 gf ed | "D"d4 ||
+|: d>e \
+| "D"f2 gf ed | "A7"c2 ec BA \
+| "Bm"Bc dB AF | "A7"E4 DE \
+| "D"F2 A2 Bc | "Bm"dc de f2 \
+|1 "A7"AB AF ED | D4 \
+:|2 "A7"A2 gf ed | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/20347
+S:http://trillian.mit.edu/~jc/music/abc/waltz/YellowHairedLaddie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/YellowHairedLaddie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/YellowHairedLaddie_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

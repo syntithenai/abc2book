@@ -1,0 +1,25 @@
+X:125
+T:Little Wot ye Wha's Coming
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:G
+ d/d/d fd Tg2       dB| d/d/d    fd       Te2cA |\
+ d/d/d fd  ge```````fd| e/f/g    f/g/a    Te2cA:|
+Tg2    dB  Bg```````ec|Tg2       dB        AecA |\
+Tg2    dB  Bg```````dB| e/f/g    f/g/a    Te2cA:|
+ d/d/d fd  ge```````fB| d/d/d    fB        eAcA |\
+ d/d/d fd  ge```````fd| e/f/g/e/ f/g/a/f/ Te2cA:|
+ g2    Bg  Bg```````dB| g2       Bg        BgcA |\
+ g2    Bg  a/g/f/e/ fd| e/f/g/e/ f/g/a/f/ Te2eA:|
+S:https://www.folktunefinder.com/tunes/75688
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

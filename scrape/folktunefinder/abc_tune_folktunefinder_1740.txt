@@ -1,0 +1,27 @@
+X:43
+T:43.  Shortcut (dada tuning)
+C:c 1999 Harry Bolick  
+R:Breakdown
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:350
+K:Ddor
+((3ABc) || "Dm" d2 dd d2 dd |  (fe) c2 d2 ((3Acd) |  d2 d2 d2 d2 | 
+"Dm" (cA) C2 D2 ((3Acd) |"Dm"  d2 dd d2 dd | (fe) c2 d2 ((3Acd)|
+K:Ddor
+|: "Dm" a>g ag ag e2 | "F" f2 f<f (ef3) | "G" g2 gg g2 (ag) |"C"  (fe) c2 "Dm" d4 :|
+K:C
+|:  "Dm" f2  fg fe d2 |  "C" c2 cd cB A2 | [1 "G"  BA G4    B2 | 
+"A no-3d"AB c2 "Dm" d4 :|[2   "G" BA G2   BA G2  | BA Bc"Dm" d2 d2 | d8    ||
+S:https://www.folktunefinder.com/tunes/1740
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

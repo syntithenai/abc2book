@@ -1,0 +1,20 @@
+X: 2
+P: Reel de Montr\'eal
+O: French Canadian
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+|: "G"gf/2e/2 d/2c/2B/2A/2 | G/2B/2D/2G/2 BA/2G/2 | "D"F/2A/2D/2F/2 A/2c/2B/2A/2 | "G"G/2B/2D/2G/2 B/d/e/2f/2 || "G"gf/2e/2 d/2c/2B/2A/2 |
+| "G"G/2B/2D/2G/2 BA/2G/2 | "D7"F/2G/2A/2B/2 c/2d/2e/2f/2 | "G"gg g2 :| [K:D] |: "D"AF/2A/2 dA/2d/2 | fd/2f/2 aa/2b/2 |
+| "A7"ag eg | "D"ba fd || "D"AF/2A/2 dA/2d/2 | fd/2f/2 aa/2b/2 | "A7"ag ec | "D"d2- "(D7)"d2 :|
+S:https://www.folktunefinder.com/tunes/3527
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR75.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:509
+T:Marcha Procesional de Llanes
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Llanes
+Z:Curdin
+M:3/8
+L:1/8
+Q:1/4=100
+K:C
+G|: E2 F|E/D/ C D|E2 D|C2 C|D2 E|FED|[1 G3-|G2 G :|[2 C3-|C3|
+|G2 E|G2 E|FGA|G3|F2 D|F2 D|EFG|E3|
+|G2 E|G2 E|FGA|G2 G|: c2 B|A2 G|FED|C3 :|C3|
+S:https://www.folktunefinder.com/tunes/59396
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,182 @@
+X:8
+T:Hlose et Abailard
+T:Loiza hag Abalard
+R:
+A:Bretagne
+S:http://students.washington.edu/jjcrump/courses/honor252/heloise.html
+B:1923 edition of Villemarqu's book Barzaz-Breiz : Chants Populaires de la Bretagne. 
+O:France
+Z: <anamnese@laposte.net>
+M:3/4
+L:1/4
+Q:1/4=130
+K:G
+(d/e/) | d2 (d/c/) || [M:2/4] B e || [M:3/4] ed 
+(d/e/) | d2 (d/c/) || [M:2/4] B e || [M:3/4] (ed/)z/ 
+(d/e/) | d2 (d/c/) || [M:2/4] B e || [M:3/4] (ed/)Hz/
+     d | d2 d ||[M:2/4] d d || [M:3/4] BGA | B2B | B2 A/ > G/ A-| A Hz 
+     d | d2 d ||[M:2/4] d d || [M:3/4] BGA | (Bc)B | B2 A |(AG2) ||
+%%multicol start
+%%rightmargin 11.5cm
+%%begintext
+W:Je n'avais que douze ans quand je quittai la maison de mon pre,
+W:quand je suivis mon clerc, mon bien cher Abailard.
+W:
+W:Quand j'allai  Nantes, avec mon doux clerc, 
+W:je ne savais, mon Dieu, d'autre langue que le breton;
+W:
+W:Je ne savais, mon Dieu, que dire mon Pater, 
+W:quand j'tais chez mon pre, petite,  la maison.
+W:
+W:Mais maintenant je suis instruite, fort instruite en tout point; 
+W:je connais la langue des Franks et le latin, je sais et crire,
+W:
+W:Et mme lire dans le livre des vangiles, et bien crir parler, 
+W:et consacrer l'hostie aussi bien que tout prtre.
+W:
+W:Et empcher le prtre de dire sa messe, 
+W:et nouer l'aiguilette par le milieu et les deux bouts;
+W:
+W:Je sais trouver l'or pur, l'or au milieu de la cendre,
+W:et l'argent dans le sable, quand j'en ai le moyen:
+W:
+W:Je me change en chienne noire, ou en corbeau, 
+W:quand je le veux, ou en feu follet, ou en dragon;
+W:
+W:Je sais une chanson qui fait fendre les cieux, 
+W:et tressaillir la grande mer, et trembler la terre.
+W:
+W:Je sais, moi, tout ce qu'il y a  savoir en ce monde; 
+W:tout ce qui a t jadis, et tout ce qui sera.
+W:
+W:La premire drogue que je fis avec mon doux clerc, 
+W:fut faite l'oeil gauche d'un corbeau, et le coeur d'un crapaud;
+W:
+W:Et avec la graine de la fougre verte, cueillie  cent brasses 
+W:au fond du puits, et avec la racine de l'Herbe d'or arrache dans la prairie,
+W:
+W:Arrache tte nue, au lever du soleil, 
+W:en chemise et nupieds.
+W:
+W:La premire preuve que je fis de mes drogues, 
+W:fut faite dans le champ de seigle du seigneur abb:
+W:
+W:De dix-huit mesures de seigle qu'avait semes l'abb, 
+W:il ne recueillit que deux poignes.
+W:
+W:J'ai un coffret d'argent  la maison, chez mon pre: 
+W:qui l'ouvrirait s'en repentirait bien!
+W:
+W:Il y a l trois vipres qui couvent un oeuf de dragon; 
+W:si mon dragon vient  bien, il y aura dsolation.
+W:
+W:Si mon dragon vient  bien, il y aura grande dsolation; 
+W:il jettera des flammes  sept lieues  la ronde.
+W:
+W:Ce n'est pas avec de la chair de perdrix, ni avec de la chair de bcasse, 
+W:mais avec le sang sacr des Innocents, que je nourris mes vipres.
+W:
+W:Le premier que je tuai tait dans le cimetire,
+W:sur le point de recevoir le baptme, et le prtre en surplis.
+W:
+W:Quaud on l'eut port au carrefour, je quittai ma chaussure, 
+W:et m'en allai le dterrer, sans bruit, sur mes bas.
+W:
+W:Si je reste sur terre, et ma Lumire avec moi; 
+W:si nous restons en ce monde encore un an ou deux;
+W:
+W:Encore deux ou trois ans, mon doux ami et moi, 
+W:nous ferons tourner ce monde  rebours.
+W:
+W:-Prenez bien garde, jeune Loza, prenez garde  votre me; 
+W:si ce monde est a vous, l'autre appartient  Dieu.-
+W:
+%%endtext
+%%multicol new
+%%leftmargin 11.5cm
+%%begintext
+W:LOIZA HAG ABALARD 
+W:(- IES KERNE -)
+W:
+W:Ne oann nemed dauzek vloa pa guitiz ti ma zad,
+W:Pa oann oet gand ma c'loarek, ma Abalardik mad.
+W:
+W:Pa oann-me occ da naonet gand ma dousik kloarek
+W:Ne ouienn ies, ma Doue, nemed ar brezonek;
+W:
+W:Ne ouienn tra, ma Doue, met laret ma feter;
+W:Pa oann-me plac'hik biban e ti ma zad er ger,
+W:
+W:Hogen breman, disket onn, disket onn mad a-grenne;
+W:Me oar Galleg ha Latin, me oar skriva ha lenn;
+W:
+W:la lenn e levr ann Aviel ha skriva mad ha preek,
+W:Ha sakri ar bara-kann kerkouls ha peb belek;
+W:
+W:Ha miret ouz ar belek da lar he oferen,
+W:Ha skloumo ann alc'houilten e kreiz hag enn daoubenn.
+W:
+W:Me oar kaout ann aour melen, ann aour touez al ladu;
+W:Hag ann argant touez ann drez, pa'm euz kavet an tu:
+W:
+W:Me oar mont da giez du, pe da vran, p'am euz c'hoant;
+W:Pe da botrik ar skod-tan, pe da aerouant;
+W:
+W:Me oar eur zon hag a lak ann nenvou da frailla
+W:Hag ar mor braz da zridal. hag aon douar da grena.
+W:
+W:Me oar me kement tra zo er bed-man da c'houiet,
+W:Kement tra zo bet gwechall, kement zo da zonet.
+W:
+W:Kentan louzou am euz gret gant ma dousik kloarek,
+W:Oe gand lagad klei eur vran ha kalon eunn tousek;
+W:
+W:Ha gand had ar raden glaz, don ar puns hat goured,
+W:Ha grouiou ann aour-ieoten war ar prad dastumet;
+W:
+W:Dastumet, diskbel-kaer, d'ar goulou-de a-grenn,
+W:Nemed ma iviz gen-in, hag ouspenn dierc'henn.
+W:
+W:Kenta 'toliz ma louzcu da c'hout hag hen oa mad,
+W:A oe e-kreiz park segal ann otrouann Abad,
+W:
+W:Deuz triouec'h bigouad segal doa hadet ann Abad,
+W:N'en deuz bet da zastumi nemed diou guichennad.
+W:
+W:Me'm euz eunn arc'hig argant er ger e ti ma zad,
+W:Ann hini hen digorfe en defe kalonad'
+W:
+W:Hag enn han teir aer-wiber o c'houri ui aerouant,
+W:Mar deu ma aerouant da vad, neuze vo nec'hamant.
+W:
+W:Mar deu ma aerouant da vad, a vo gwall nec'hamant;
+W:Seiz leo war-dro ac'hannen e teui da deureul tan.
+W:
+W:Ne ket gand kik klujiri na kik keveleged,
+W:Gand goad sakr ar re zinam eo int gan-in maget.
+W:
+W:Ar c'hentan em boa lahet oa ebarz ar vered,
+W:O vonet d'ar vadiant, hag ar beleg gwisket.
+W:
+W:Tre ma oa oet d'ar c'hroaz-hent, e tonnez ma boutou,
+W:Hag a iez d'he ziveia, didrouz, war ma lerou.
+W:
+W:Mar jommann war ann douar, ha gen-in ma Goulaou,
+W:Mar jommomp war ar bed-man, c'hoaz eur bloavez pe zaoug
+W:
+W:C'hoaz eunn daou pe dri bloavez, ma dous ha me hon daou,
+W:Ni a lakai ar bed-man da drei war he c'hinaou.
+W:
+W:-- Evesait mad, Loizaik, evesait d'hoc'h ene,
+W:Mar d-eo ar bed-man d'hoc'h-hu, da Zoue egile.--
+%%endtext
+%%multicol end
+S:https://www.folktunefinder.com/tunes/39954
+S:http://anamnese.online.fr/abc/gallia.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Yismechu hashamayim
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"DD A,D F2 "A7"E2 | "Dm"D6 "C7"z2 | "F"FF CF A2  "C7"G2 | "F"F6 z2 |
+S:https://www.folktunefinder.com/tunes/6555
+S:http://trillian.mit.edu/~jc/music/abc/Israel/YismechuHashamayimSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/YismechuHashamayimSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/YismechuHashamayim_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/YismechuHashamayim_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/YismechuHashamayim_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

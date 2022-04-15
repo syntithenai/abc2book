@@ -1,0 +1,27 @@
+X:506
+T: MEIN GMUETH IST MIR VERWIRRET
+N: E0476
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/4
+K: C
+ | E,2A,2 | G,F,2E, | D,2E,2
+B,2C2 | CB,2B, | A,4
+E,2A,2 | G,F,2E, | D,2E,2
+B,2C2 | CB,2B, | A,2z
+C | B,G,A,B, | C3
+G, | A,G,A,F, | E,4
+C2B,2 | DC2B, | A,2B,2
+E,2F,2 | E,D,2D, | E,4
+S:https://www.folktunefinder.com/tunes/78947
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

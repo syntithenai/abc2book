@@ -1,0 +1,28 @@
+X:512
+T: UND WENN DER JAEGER IN DEN WALD
+N: E1779
+O: Europa, Mitteleuropa, Deutschland, Rheinland, Koeln
+R: Scherz - Lied, Tabak; Jaeger - Lied
+M: 4/4
+L: 1/16
+K: F
+ | c4G2G2G3GB2B2 | A3AA4AAAAA4
+c4G2G2G4B4 | A4A4AAAAA4
+A4F2F2FFFFF4 | B4G2G2GGGGG2
+FG | A6F2A2G2G2E2 | F4z8
+A4 | G4C4C4A4 | G4C4C4
+G4 | A6F2B4A4 | A8G4
+F2G2 | A4A4B4G2F2 | G4G2G2G4
+G4 | c8B8 | f8z4
+d4 | c8B8 | f8z4
+d4 | c8B8 | A8z8
+S:https://www.folktunefinder.com/tunes/79616
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied, tabak; jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

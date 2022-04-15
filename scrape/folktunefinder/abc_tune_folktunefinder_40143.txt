@@ -1,0 +1,30 @@
+X: 40
+T: 2. Glenfiddich  2X
+R: Strathspey
+C: William Marshall
+N: Barbara McOwen's version
+% Q: 220
+M: C
+K: D %Transposed from A
+|: \
+"D" D2 F>D A>DF>D  |      A,>DF>D "A7" E3 F         |\
+"D" D2 F>D A>DF>D  |1 "G" B,>G "A" F>E "D" D4      :|2 "G" B,>G "A" F>E "D" D3 ||
+B/c/ |\
+"D" d>AB>G A>F D>c |      d>A B<e "A7" c2 AB/c/     |\
+"D" d>AB>G A<F E>D | "G"  B,>G "A" F>E "D" D3 B/c/  |
+"D" d>AB>G A>F D>c |      d>A B<e "A7" c2 AB/c/     |\
+"D" d>AB>G A<F E>D | "Em" E/F/G "A7" F>E "D" D3    ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 23 of 31
+S:https://www.folktunefinder.com/tunes/40143
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

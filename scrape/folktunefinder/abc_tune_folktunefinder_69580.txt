@@ -1,0 +1,27 @@
+X:20
+T: WENN ICH AN DEN LETZTEN ABEND DENK
+N: F0066
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Abschied
+M: 4/4
+L: 1/8
+K: F
+FA | c2c2c2dc | cBB2Bd
+cB | A2A2cBA2 | G4z2
+FA | c2c2c2dc | cBB2Bd
+cB | A2A2cBA2 | G4z2
+FF | d2dddefd | dcc2c2
+BA | G2d2c2B2 | A4z2
+FF | d2dddefd | dcc2f2
+BA | G2d2c2BG | F4z2
+S:https://www.folktunefinder.com/tunes/69580
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

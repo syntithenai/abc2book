@@ -1,0 +1,23 @@
+X:522
+T: EIN VOGEL RUFT IM WALDE
+N: F0997
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Tiere
+M: 4/4
+L: 1/8
+K: C
+G,2 | G,2E2E2D2 | C4G,2
+G,2 | G,2D2B,2G,2 | C4z2
+CB, | A,2A,2C2A,2 | A,2G,2G,2
+G,2 | G,2B,2D2E2 | C4z2
+S:https://www.folktunefinder.com/tunes/70082
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur - lied, tiere
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

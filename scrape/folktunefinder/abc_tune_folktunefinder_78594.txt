@@ -1,0 +1,23 @@
+X:153
+T: ES HAT E BUUR ES TOECHTERLI
+N: E0080
+O: Europa, Mitteleuropa, Schweiz
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/8
+K: F
+C | FGAF | c2G2 | F2z
+c | cdec | f2d2 | c2z
+c | fedc | fdc
+C | FGAB | c2G2 | F2z
+S:https://www.folktunefinder.com/tunes/78594
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

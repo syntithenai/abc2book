@@ -1,0 +1,30 @@
+X: 1
+T: U \vsest
+O: Serbia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Good tune for dvojnica, or any two whistle-type instruments.
+M: C|
+L: 1/8
+K: C
+|: "C"[e2c2] [e2c2] ~[fd][ec] [e2c2] \
+| "G7"[d/B/][e/c/][fd]- [fd][fd] "C"~[fd][ec] [e2c2] :| \
+|: "C"[e2c2] [e2c2] {f}.[ge][ec] [e2c2] \
+| "G7"[d/B/][e/c/][fd]- [fd][fd] "C"~[fd][ec] [e2c2] :|
+|: "C"{f}.[g2e2] [e2c2] {f}.[g2e2] [e2c2] \
+| "G7"[d/B/][e/c/][fd]- [fd][fd] "C"~[fd][ec] [e/c/][d/G/][e/c/][f/d/] \
+| "C"{f}.[g2e2] [e2c2] {f}.[g2e2] [e2c2] \
+| "G7"[d/B/][e/c/][fd]- [fd][fd] "C"~[fd][ec] [e2c2] :|
+|: "G7"[f2d2] [f2d2] ~[ec][dB] [dB]>[ec] \
+| ~[fd][ec] "D7"~[ec][dB] "G"[d2B2] [d/B/][c/G/][d/B/][e/c/] \
+| [fd][fd] [fd][fd] ~[ec][dB] [d/B/][c/G/][d/B/][e/c/] \
+| ~[fd][ec] "D7"~[ec][dB] "G"[d4B4] :|
+S:https://www.folktunefinder.com/tunes/12729
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/USest2_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/USest2_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

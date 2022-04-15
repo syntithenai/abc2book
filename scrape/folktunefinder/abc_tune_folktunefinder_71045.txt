@@ -1,0 +1,25 @@
+X:15
+%%topmargin 3cm
+T:Cailleach Oidhche
+T:The Owl
+C:Scotland
+O:Pipe tune
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+e | AAe>A f>Ae>{/g}=g | =GG {/c}d>B =ge{/c}dB | AAe>A f>Ae{/f}=g | =GGB>d e>AA :|
+g |{/g}a2 e>g {/g}a>e{/d}c>A | {/f}=g2 (d>g) BgB=G | {/g}a2 e>g {/g}a>ec>A | B<=GB<{/c}d e>AA>g |
+{/g}a2 (e>g) {/g}a>ec>A | {/f}=g2 d>g d>gB>=G | A>B{/B}^c>d {/f}e>dB>{/f}=g | =G>GB>{/c}d eAA :|]
+S:https://www.folktunefinder.com/tunes/71045
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Cailleach_Oidhche.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Owl.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

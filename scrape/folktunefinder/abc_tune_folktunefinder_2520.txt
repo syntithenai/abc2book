@@ -1,0 +1,38 @@
+X:1
+T: TEST: Scale with Treble, Alto and Bass Clefs
+M:C
+K:7/8
+L:1/4
+P:Treble
+K:C treble
+| "C,"C,"D,"D,"E,"E,"F,"F,  "G,"G,"A,"A,"B,"B,\
+| "C"C"D"D"E"E"F"F  "G"G"A"A"B"B \
+| "c"c"d"d"e"e"f"f  "g"g"a"a"b"b \
+| "c'"c'"d'"d'"e'"e'"f'"f'  "g'"g'"a'"a'"b'"b' |
+P:Alto
+K:C alto
+| "C,"C,"D,"D,"E,"E,"F,"F,  "G,"G,"A,"A,"B,"B,\
+| "C"C"D"D"E"E"F"F  "G"G"A"A"B"B \
+| "c"c"d"d"e"e"f"f  "g"g"a"a"b"b \
+| "c'"c'"d'"d'"e'"e'"f'"f'  "g'"g'"a'"a'"b'"b' |
+P:Bass
+K:C clef=bass
+| "C,"C,"D,"D,"E,"E,"F,"F,  "G,"G,"A,"A,"B,"B,\
+| "C"C"D"D"E"E"F"F  "G"G"A"A"B"B \
+| "c"c"d"d"e"e"f"f  "g"g"a"a"b"b \
+| "c'"c'"d'"d'"e'"e'"f'"f'  "g'"g'"a'"a'"b'"b' |
+S:https://www.folktunefinder.com/tunes/2520
+S:http://trillian.mit.edu/~jc/music/abc/test/Scale_3clefs.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Scale_3clefs.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Scale_3clefs.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Scale_3clefs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

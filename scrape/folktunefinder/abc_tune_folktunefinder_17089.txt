@@ -1,0 +1,32 @@
+X: 1
+T: the Earl of Seaforth's Reel
+R: reel
+B: RSCDS 12-__(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: c \
+| "D"d2Ad "Bm"FDDF | "Em"EB,ED "A7"CA,A,A \
+| "D"FDFA "G"dGBd | "A7"ceAc "D"d2d :|
+|| g \
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "D"f2df "Em"geeg | "A7"fdec "D"d2 dg |
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "Bm"fedf "Em"gfeg | "A7"faef "D"d2d |]
+S:https://www.folktunefinder.com/tunes/17089
+S:http://trillian.mit.edu/~jc/music/abc/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/EarlOfSeaforthsR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/EarlOfSeaforthsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

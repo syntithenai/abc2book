@@ -1,0 +1,26 @@
+X:205
+T:Momirul
+M:2/4
+O:S.E.Europe
+Q:1/4=126
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000067f.html
+%%ID:0000067f
+K:C
+{^c}"G"d4 GABG | ~c4 B^AB2    | \
+defe gfed      | ~c4 B^AB2    | \
+{^c}d4 GABG    | ~c4 B2G/^F/G | \
+"D"ABAG D2G/^F/G | ABAG D2G/^F/G |
+ABAG D2G/^F/G | A4 d4 |\
+ABAG D2G/^F/G | ABAG D2G/^F/G |\
+ABAG D2G/^F/G | A4A4|]
+S:https://www.folktunefinder.com/tunes/53271
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

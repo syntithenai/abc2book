@@ -1,0 +1,35 @@
+X: 2
+T: Devetorka: Tri godini
+%O: Bulgaria
+Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers from two handwritten MSs (Mandala, unidentified)
+%P: ABABCD
+K: D
+%%%text Vocal:
+"B"\
+|: "D"[dF][cE] [BD][cE] [dF][eG] [d3F3] \
+| [dF][cE] [BD][cE] [dF][eG] [d3F3] \
+| "G"[B2G2] [B2G2] [B2G2] "(A7)"[BG][AF][GE] \
+| "D"[A2F2] [dAF][cA] "A7"[BG][AF] "D"[A3F3] :|
+"C"\
+|: "D"[A2F2] [dF][eG] [dF][cF] "G"[B2G2][cA] \
+| [dB][cA] [BG][AF] "(A7)"[AF][GE] "D"[F2D2][G/E/][A/F/] \
+| "G"[B2G2] [BG][AF] [AF][GE] "D"[F2D2][DA,] \
+| "A7"[EC][FD] [GE][FD] [E2C2] "D fine"[D3D3] :|
+%%%text Instrumental:
+"D"\
+|: "D"{de}fd fg "A7"fe "D"d2e \
+| "D"fd fg "A7"fe "D"d3 \
+"E"\
+:: "D"{fg}[af][fd] [af][bg] "A7"[af][ge] "D"[f2d2][ge] \
+| "D"[af][fd] [af][bg] "A7"[af][ge] "D"[f3d3] :|
+S:https://www.folktunefinder.com/tunes/5482
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Devetorka1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

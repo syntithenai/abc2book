@@ -1,0 +1,28 @@
+X:93
+T: Die neue Jagd
+N: A0448
+O: Europa, Mitteleuropa, Deutschland
+N: Bueschings Volkslieder 1807 No. 74.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 3/8
+L: 1/8
+K: D
+A, | D2D | EDE | FD
+D | F2F | E2E | D2
+A, | D2D | EDE | FD
+D | F2F | E2E | D2
+F | A2F | F2A | GE
+E | G2G | F2F | E2
+A, | D2D | EDE | FD
+D | F2F | E2E | D2
+S:https://www.folktunefinder.com/tunes/80152
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

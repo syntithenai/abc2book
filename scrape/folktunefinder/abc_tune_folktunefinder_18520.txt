@@ -1,0 +1,27 @@
+X:1
+T:Cwrw Da
+T:Good Beer
+O:Wales
+M:9/8
+L:1/8
+N:slip jig
+F:http://www.welshtraditionalmusic.com/files/content/abc/094.abc
+O:ar log
+K:G
+|: GAB G2G GFD | GAB G2B dcB | GAB G2G AFD | EFG  AGF  G3  :|
+|: Bcd d2d dcB | cde e2e edc | Bcd d2d dcB | gfe dcB  A2d :|
+|: GDB, GDB, GEC | GDB, GDB, FDA, | GDB, GDB, GFE | ^DEF B,E^D E3  :|
+S:https://www.folktunefinder.com/tunes/18520
+S:http://www.welshtraditionalmusic.com/files/content/abc/094.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/CwrwDa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/CwrwDa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/slipjig/CwrwDa_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/slipjig/CwrwDa_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/slipjig/CwrwDa_G.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

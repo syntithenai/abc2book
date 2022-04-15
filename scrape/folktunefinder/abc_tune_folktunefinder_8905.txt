@@ -1,0 +1,51 @@
+X: 1
+T: Pellikvalsen
+T: efter Leisme Per Larsson
+O: Malung, Finnmark, Sweden
+R: waltz
+S: emailed PDF
+B: Copy from "R\"oda h\"aftet", book from AB Carl Gehrmans Musicf\"orlag, 1953
+D: Malungs spelmanslag RA 186
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+   E2 \
+| "A"E2 cc c2 \
+| Ac ea af \
+| "D"fd dd dd \
+| d2 fa fd \
+| "A"dc cc c2 \
+| Ac ea "(E7)"ed \
+| "E7"B2 df "(A)"ec |
+| "A"cA ce "(E7)"dB \
+| "E7"EG Bd BG \
+| "A"A4 :: E2 \
+| "A"E2 cB Ac \
+| cB dc BA \
+| "E7"GA BE GB \
+| "A"[A2E2] fe cA |
+| "A"E2 cB Ac \
+| "A"cB dc BA \
+| "E7"GA BE GB \
+|1 "A"A4 \
+:|2 "A"A3 Bcd \
+|: "A"e2 ae ce \
+| "D(Bm)"d2 fe dB |
+| "E7"EG Bd BG \
+| AG AB cd \
+| "A"e2 ae ce \
+| "D(Bm)"d2 fe dB \
+| "E7"EG Bd BG \
+|1 "A"A2 ABcd \
+:|2 "A"A4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8905
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pellikvalsen.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

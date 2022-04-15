@@ -1,0 +1,39 @@
+X:815
+T:Xiraldilla (CT 237)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 237
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|:c2c|cBc|dB2|dd3/2c/2|cB2:|
+|:cBA|GAG|AcB|AG2:|
+W:Dgale ust a don Diego
+W:y a don Antonio,
+W:que por ser los estremos
+W:al otro adoro.
+W:
+W:Ai! don Antonio,
+W:don Juan y don Diego,
+W:ai! don Antonio,
+W:don Juan, que me muero.
+W:
+S:https://www.folktunefinder.com/tunes/59702
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

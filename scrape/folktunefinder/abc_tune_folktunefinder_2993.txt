@@ -1,0 +1,24 @@
+X: 1
+T: An Dro 5
+M: C|
+L: 1/8
+B: Dave Shepherd "Breton Dance 7 Tune Book"
+K: Am
+|: "Am"A2e2 e2e2 | "G"d2c2 B2cB | "Am"A2e2 e2e2 | "G"d2c2 B4 :|
+|: "Am"ABcA "G"B2Bc | "G"d2ed "Am"c2"E7"B2 | "Am"ABcA "G"B2dc | "E7"B2c2 "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/2993
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/AnDro5_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/andro/AnDro5_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/andro/AnDro5_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/AnDro5_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Brittany/andro/AnDro5_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/France/andro/AnDro5_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/AnDro5_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

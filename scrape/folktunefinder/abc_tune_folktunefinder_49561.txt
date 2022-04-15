@@ -1,0 +1,28 @@
+X: 6
+T:Rosa. CJF.006
+M:6/8
+L:1/8
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:March
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:D
+"$"(a>f)f (b>c'd')|a>ff {g/}f>ed|a<ff b>c'd'|afd {f}e2d|!
+a<ff b>c'd'|a<ff f>ed|e2f g>ab|afd {f}e2d:|!
+{f/g/}a2d{g/a/}b2d|{f/g/}a2d (f>ed)|{f/g/}a2d{g/a/}b2d|afd {f}e2d|!
+{f/g/}a2d{g/a/}b2d|{f/g/}a2d (f>ed)|e2f g>ab|afd e2d:|!
+(d'a)a (d'b)b|(d'a)a {g/}fed|(d'aa) (d'bb)|afd {f/}e2d|!
+(d'a)a (d'b)b|(d'a)a {g/}fed|e2f g>ab|afd {f/}e2d:|]
+S:https://www.folktunefinder.com/tunes/49561
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

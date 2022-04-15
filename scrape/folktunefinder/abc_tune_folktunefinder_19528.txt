@@ -1,0 +1,29 @@
+X:1
+T: The Miller O' Hirn
+C: by J. Scott Skinner
+C: arr. T. Traub 6-5-1996
+R: Strathspey
+M: 4/4
+K: D
+L: 1/8
+|: A, \
+| "D"D>E FE "G"G/F/E/D/ "A" C<A,A,>C \
+| "D"D>E FD"A"C<A "D"F<D D :|
+B \
+| "D"A>G"D7"F<d "G"B<G G2 | "E"B>A"E7"^G<e "A"c<A A>B \
+| "D"A>G"D7"F<d "G"B>A"Em"GB A<a "D"f<d d>B |
+| "D"A>G"D7"F<d "G"B<G G2 | "E"B>A"E7"^G<e "A"c<A A>c \
+| "D"(3dAB (3cde (3fde (3fga |[1 "G"(3bag "D"(3fed "A"(3cBA "A7"(3GFE :|[2 "G"(3bag "A"(3fge "D"f<d d |]
+S:https://www.folktunefinder.com/tunes/19528
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Miller_O_Hirn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Miller_O_Hirn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Miller_O_Hirn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots_music/Miller_O_Hirn_1.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

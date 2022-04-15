@@ -1,0 +1,23 @@
+X: 436
+T:Bab at the Bouster.
+M:6/8
+L:1/8
+K:G
+(A/B/)|c3       B3 |ABG F2D|GAG BAB|GAG BAB|\
+       c3       B3 |ABA fef|g2d edc|B3  G2::
+ B    |cd(e/f/) gdB|ABG F2D|G2c BAB|G2c BAB|\
+       cd(e/f/) gdB|ABG F2D|gfe dec|B3  G2::
+(A/B/)|cAc      BGB|ABG FED|GAG BAB|GAG BAB|\
+       cAc      BGB|ABA fef|g2d edc|B3  G2:|
+S:https://www.folktunefinder.com/tunes/30943
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

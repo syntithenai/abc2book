@@ -1,0 +1,26 @@
+X: 1
+T: Karusellen
+T: Carousel
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 6/8
+L: 1/8
+K: C
+[| "C"G3 G3 | "G7"G3 G3 | "C"c2G E2F | G3- G3 | "G7"A2G F2E | F3 [F3D3] | G2F E2D  | "C"E3 [E3C3] ||
+|| "C"G3 G3 | "G7"G3 G3 | "C"c2G E2F | G3- G3 | "F"A3 A2A | "G7"B2G A2B | "C"c2 "F"c2c | "C"c6 ||
+M: 4/4
+L: 1/4
+"faster"\
+|: "C"G2 G2 | G4 | "F"AA A2 | A4 |
+|  "G7"BB BB | BG AB | "C"c2 "F"c>c | "C"c4 :|
+S:https://www.folktunefinder.com/tunes/5354
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Carousel.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/Karusellen_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Karusellen_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Karusellen_C.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

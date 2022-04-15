@@ -1,0 +1,29 @@
+X: 1
+T: Hunt The Squirrel
+R: jig
+S: Nottingham Music Database
+B: Playford #30 ("Squirrel")
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Some versions have long e's in bars 1 and 5; others have repeated notes.
+M: 6/8
+K: G
+BA \
+|:"G"Gd-d d2e | d3 B3 |    GAB  "C"A2G | "G"GAB "D7"A2G \
+| "G"Gd-d d2e | d3 B3 | "C"GAB "D7"A2G | "G"G3      z3 :|
+GAB \
+|:"C"c2d edc | "C/B"c2d edc | "Am"c2d     e2f | "Em"g3 gfe \
+| "G"dB2 dB2 |  "Bm"dB2 d3  | "Em"GAB "D7"A2G |  "G"G3 z3 :|
+S:https://www.folktunefinder.com/tunes/14354
+S:http://trillian.mit.edu/~jc/music/abc/jig/HuntTheSquirrel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/HuntTheSquirrel_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

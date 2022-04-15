@@ -1,0 +1,26 @@
+X: 1
+T: Captain Simon Fraser of Knocky's Favorite
+M: C
+L: 1/8
+R: Air
+N: "Slow with expression"
+S: Gow - 4th Repository (1817)
+Z: AK/Fiddler's Companion
+K: A Minor
+   A | "Am"(E<A) A>^G A>B cA | (E<A) A>^G {G}A3 =G/F/ | (E<A) A>^G A>B ce | "G"d>c B>A G3 :|
+|: B | "Am"(c<e) e>A (d/c/)(B/A/) eA | (c<e) ec A3B | "C"ce e>c e>^f g>e | "G"d>c B>A G3 :|
+%: Repeat an octave higher:
+|: a | "Am"(e<a) a>^g a>bc'a | (e<a) a>^g {g}a3 {b}c' | (e<a) a>^g a>bc'e' | {e'}d'>c' {c'}b>a g3 :|
+|: b | "Am"(c'<e') e'>a (d'/c'/)(b/a/) e'>a | (c'<e') e'>c' a3b | (c'<e) e'>c' e'^f' g'e' | {e'}d'>c' {c'}b>a g2g :|
+S:https://www.folktunefinder.com/tunes/19251
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CaptSimonFraserOfKnockysFavStr_Am_32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CaptSimonFraserOfKnockysFavStr_Am_32.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

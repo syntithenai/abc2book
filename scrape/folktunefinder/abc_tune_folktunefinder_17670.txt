@@ -1,0 +1,29 @@
+X: 1
+T: Miss Christie of Durrie
+C: J.Walker
+O: Glen Collection
+R: reel
+B: RSCDS __-8(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+B | "C"c2Bc     GcBc | "Dm"defd "G"cBAG | "C"c2Bc "Dm"defd | "G"ecdB "C"c2c :|
+f | "C"g2eg "Dm"f2df |  "F"afed "G"cBAG | "C"c2Bc "Dm"defd | "G"ecdB "C"c2c ||
+f | "C"g2eg "Dm"f2df |  "F"afed "G"cBAG | "C"ce"G7"df "C"eg"F"fa | "G7"gefd "C"c2c |]
+S:https://www.folktunefinder.com/tunes/17670
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissChristieOfDurrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MissChristieOfDurrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MissChristieOfDurrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissChristieOfDurrieR_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissChristieOfDurrie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissChristieOfDurrie.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,64 @@
+X: 1
+T: Vals e. Roligs Per - Leksand
+R: vals
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+Z: from 1983 transcription Bob Werner, Susan Godfrey
+Z: from LP Leksands l\aatar
+M: 3/4
+L: 1/8
+K: Ador
+V: 1
+"A"\
+|: AB \
+| "Am"c2 cB AB |     c2 cB Ac | "E"B2 E^G BG | "Am"A4 Ac \
+|     ef ed ef | "Em"g2 gf ed | "D"f2 fg  fd |  "E"e4 :|
+V: 2
+|: E^G \
+| A2 B/A/^G EG | A2 B/A/^G ED | ED C2 B,2 | C4 EG \
+| c2 d/c/B cd | e2 f/e/d cB | d/e/d c2 B2 | [B4^G4] :|
+V: 1
+"B"\
+|: e2 \
+|  "C"e2 c2 ec |     c2 ec eg | "D"f2 d2  fd |     d2 fd fa \
+| "Em"ga gf ed | "Am"cd cB Ac | "E"B2 E^G BG | "Am"A4 :|
+V: 2
+|: cG \
+| [c2E2] GA GF | E2 Gc ec | d2 ~B2 BA | B2 d2 ~f2 \
+| e>f ed ~c2 | A>B A^G E2 | ED C2 B,2 | C3 E :|
+V:1 
+"C"\
+|: e2 \
+| "Am"e2 c2  A2 | AB A^G Ac | "E"B2 E2  E2 | "Am"C4 A,2 \
+|     AB A^G AB | c2 ed  cB | "E"c2 B2  B2 |     B4 e2 |
+| "Am"e2 c2  A2 | AB A^G Ac | "E"B2 E2  E2 | "Am"C4 A,2 \
+|     AB A^G AB | c2 ed  cB | "E"B2 E^G BG | "Am"A4 :|
+V: 2
+|: cB \
+| A2 E2 E2 | =F{EFE}D CB, CE | ~^G2 E2 E2 | C3 B, A,2 \
+| AB AE CE | AB cB A^G | A/B/A ^G2 G2 | ^G3 B cB |
+| A2 E2 E2 | =F{EFE}D CB, CE | ~^G2 E2 E2 | C3 B, A,2 \
+| ED CB, CE | AE AB cA | E^G Bd ed | c4 :|
+V:1
+"D"\
+|: e2 \
+| "Am"a3 b a^g |  "E"e4   AB |     cd cB A^G | "Am"A4 E2 \
+|     CD EF GA | "Dm"B3 A A2 | "Am"AB cd ef  |  "E"e4 e2 |
+| "Am"a3 b a^g | "E"e4 AB |    cd cB A^G | "Am"A4 e2 \
+|     a2 ed cB | ed cB Ac | "E"B2 E^G BG | "Am"A4 :|
+V: 2
+|: A2 \
+| e3 f ed | c4 {c}~B2 | A^G ED CB, | C4 C2 \
+| A,B, ^CD E=F | G3 =F F2 | {E}=FG AB cd | c4 A2 |
+| e3 f ed | c4 {c}~B2 | A^G ED CB, | C4 C2 \
+|{f}~e2 cB A2 | {c}~B2 A^G ~E2 | D2 B,E DE | [E4C4] :|
+S:https://www.folktunefinder.com/tunes/20279
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_RoligsPer_Am_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_RoligsPer_Am_2V.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

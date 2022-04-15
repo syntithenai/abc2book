@@ -1,0 +1,32 @@
+X:591
+T: "Alter Leittanz"
+N: Z1271
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Natur und Welt, Liebe
+M: 3/4
+L: 1/8
+K: C
+G2 | c4e2 | dBG2
+E2 | F3DEG | C4
+ce | d3BcA | Bcd2
+dc | B2B2A2 | G4
+G2 | c4e2 | dBG2
+E2 | F2DFEG | C4
+ce | d3BcA | Bcd2
+dc | B4A2 | G4
+G2 | c2G2E2 | FGA2
+E2 | F2D2G2 | C4
+G2 | A2A2g2 | edc2
+B2 | c2E2D2 | C4
+S:https://www.folktunefinder.com/tunes/69450
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

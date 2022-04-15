@@ -1,0 +1,34 @@
+X: 1
+T: Hora la Patru
+O: Wallachia
+Z: John Chambers <jc:trillian.mit.edu>
+N: The D's are mostly somewhat sharp in the recording.
+M: 2/4
+L: 1/16
+Q: 1/4=116
+K: E^g
+|: "E"gbe2 f2Tg2- | gfag fefd \
+| gbe2 f2Tg2- | gfag fefd |
+| gbe2 f2Tg2- | gfag fed^c \
+| "Dm"defg abTg2- |1 gefd "E"egb2 :|2 "Dm"gefd "E"e2z2 ||
+|: "Am"ea2a a2a2 | Ta4- agab \
+| c'bag abc'b | "E"abTg2- gfed |
+| "Dm"ef2f f2f2 | f4- fefg \
+| baag fefd |1 "E"efga b2e2 :|2 "E"ef"Dm"df "E"e2z2 |]
+S:https://www.folktunefinder.com/tunes/7737
+S:http://trillian.mit.edu/~jc/music/abc/Romania/HoraLaPatru.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/HoraLaPatru.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/HoraLaPatru.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraLaPatru_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/HoraLaPatru_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HoraLaPatru.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HoraLaPatru_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

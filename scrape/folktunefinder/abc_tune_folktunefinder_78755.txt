@@ -1,0 +1,25 @@
+X:314
+T: ES KAM EIN ABENTEURER
+N: E0180
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte
+M: 4/4
+L: 1/16
+K: G
+G4 | G4d4d4e2g2 | =f4e4d4z2
+e2 | =f4d4d4A2B2 | c4B4A4z2
+d2 | d4d2B2G4B4 | d2c2c2B2A6
+B2 | c4B2A2G4F2G2 | A6BAG4
+S:https://www.folktunefinder.com/tunes/78755
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+%% Copyright 1953 Atlantic Music Corp.
+T:Bloomdido
+M:4/4
+L:1/8
+C:Charlie Parker
+Q:1/4=240
+K:Bb
+%%text (medium)
+%%vskip 20
+"Bb6"B,CB,G, z3B, | "Cm7"D2FC "F7"zF, zD | "Bb6"B,CB,G, EDB,_A, | "Bb7"zG zF C_A,^F,G, |
+"Eb6"FEB,G, B,z2_D- | "Ebm7"D2B,_G, CB,G,F, | "Dm7"z3B Az2C | "Dbm7"_G_F (3_B,_A,E z3_D |
+"Cm7"CG, zA, CB,A,G, | "F7"_G,B,CD ECDE | "Bb6"(3D/E/D/B, EB, DE (3D/E/D/B, | "T.A."E2z6 :|
+S:https://www.folktunefinder.com/tunes/18610
+S:http://trillian.mit.edu/~jc/music/abc/song/Bloomdido.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/bloomdido.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Bloomdido.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/bloomdido.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

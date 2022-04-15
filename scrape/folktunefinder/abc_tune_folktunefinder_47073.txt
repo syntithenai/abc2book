@@ -1,0 +1,30 @@
+X:15798
+T:Speed the Plough
+R:Reel
+C:John Morehead
+N:From around 1800
+B:Skye, p.5.
+B:Caledonian Companion, p.37.
+B:Harp and Claymore, p.96 (with variations by J.S.Skinner).
+Z:John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M:C
+L:1/8
+Q:1/4=200
+K:A
+E|:"A"~A2Ac efec|eaec efec|"E7"dfdB "A"cecA|
+"E7"dcBA GABc||"A"~A2Ac efec|eaec efec|"E7"decd BcAB|
+"D"FA"E7"GB "A"A3::g|a2 (3bag aAcd|aAgA fAeA|"E7"dfdB "A"cecA|
+"E7"dcBA GABc||"A" (3cBA eA "D"fA"A"eA|"D"fgaf "A"ecAc|"E7"decd BcAB|
+"D"FA"E7"GB "A"A3:|
+S:https://www.folktunefinder.com/tunes/47073
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

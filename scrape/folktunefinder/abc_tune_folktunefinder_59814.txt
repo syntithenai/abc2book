@@ -1,0 +1,36 @@
+X:927
+T:Xiraldilla (CT 467)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Cangas d'Ons.
+A:Asturies
+O:Cangas d'Ons
+Z:Cancioneru de Torner 467
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|:B2B|B2A|d2c|B2A|G2A| B2A|G2F|E2E:|
+|:FFF|(F3/2E/2)D|EEE|[1 (D3/2C/2)B,:|[2 (D3/2C/2)B,-|B,||
+W:L'agua del ru cuerre,
+W:la del arroyo remansa:
+W:quien tien amores nun duerme,
+W:quien nun los tien descansa.
+W:
+W:Ai mi Dolores, calla bien mio;
+W:dexa que cuerra l'agua del ru.
+W:
+S:https://www.folktunefinder.com/tunes/59814
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

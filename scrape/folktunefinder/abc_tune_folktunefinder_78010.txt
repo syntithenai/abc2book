@@ -1,0 +1,28 @@
+X:55
+T: Bold Deserter, The
+T: An Treigteoir Dana
+C: "collected by Mrs Cantwell"
+S: 1791 O'Neill's Music of Ireland
+N: Lead-in to second part should probably be 1/16th notes not 1/8th notes
+B: O'Neill's 1791
+Z: Transcribed by Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 2/4
+Q: 60
+K: D
+f/-e/|dA BA/-F/|A/B/d/e/ f/e/d/B/|A/F/d/B/ A/F/D/F/|EE/E/ E/G/F/E/|
+dA BA/-F/|A/B/d/e/ f/e/d/B/|A/F/d/B/ A/F/E/F/|DD/D/ D:|
+|:D-E|FA de/-f/|g/f/g/e/ dd/-e/|f/e/d/B/ A/F/E/F/|AA/A/ AD/-E/|
+FA de/-f/|g/f/g/e/ dd/-e/|f/e/d/B/ A/F/D/F/|EE/E/ E/G/F/E/|
+dA BG/-F/|A/B/d/e/ f/e/d/B/|A/F/d/B/ A/F/E/F/|DD/D/ D:|
+S:https://www.folktunefinder.com/tunes/78010
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1781-1800_rt.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

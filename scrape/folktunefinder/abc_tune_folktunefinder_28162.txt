@@ -1,0 +1,41 @@
+X:7710
+T:Trunkles
+O:england
+M:2/2
+C:
+S:Bay Area Teams
+N:
+A:Bledington
+R:Reel
+%:
+%:
+%P:A/2(AB$^3$C$^3$)$^2$(AB$^3$D$^3$)$^2$A
+P:A.(AB3C3)2(AB3D3)2A
+L:1/8
+K:G
+Q:1/2=100
+P:A
+%
+|:z2|d2  d>B c2 e2|d>cB>A    B2 G2|d2 d>B  c2 e2|d>cB>A G2:|\
+P:B
+A2|B>A B>c d2 d2|e>f (3gfe d2 g2|f2 e>d ^c2 A2|d4     d2||\
+P:C
+c>d|e2  c2  c>de>c|d2  B2    B>cd>B|c2 A2  A>Bc>e|d>cB>A G2 \
+c2|B2  A>G F2 A2|G4        G2||\
+P:D
+z2|c3   d  e4|c4        c3  d|e2 c2  d4|B4     B3 \
+c|d2  B2  c4|A4        A3  B|c2 e2  d3 c|B2 A2  G2 \
+c2|B2  A>G F2 A2|G4        G2||
+S:https://www.folktunefinder.com/tunes/28162
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:190
+T: SONST SPIELT ICH MIT SCEPTER
+N: B0675
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied, Vergaenglichkeit
+M: 3/4
+L: 1/8
+K: Eb
+G | G2E2zc | c2B2z
+c | B2G2Ge | e4
+e2 | edA3c | cBG3
+B | B2AGFB | E4
+G2 | G2E2c2 | BcA3
+A | G2e2dc | B2A3
+A | G2d2=AB | G2D2
+=AB | Gded=AcB | G4
+B2 | c2B3B | c2B2
+Be | e2dcAc | B4
+e2 | fe=B3c | dc=A3
+B | c2B2A2 | G4
+B2 | B2d2e2 | fedc
+dc | c2BAGF | E4z
+S:https://www.folktunefinder.com/tunes/62213
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, vergaenglichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

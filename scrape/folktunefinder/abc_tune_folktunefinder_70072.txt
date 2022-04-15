@@ -1,0 +1,24 @@
+X:512
+T: WALDVOEGELEIN WO SINGST DU
+N: F0982
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Tier
+M: 6/8
+L: 1/8
+K: E
+ | EB,^A,B,2E | G3E3
+FB,CD2F | A3F3
+GFEDDE | F3G3
+GFEDDE | F3G3
+E3B,3 | G3E2
+E | EB,B,GEE | F2BE2z
+S:https://www.folktunefinder.com/tunes/70072
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Natur - lied, tier
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

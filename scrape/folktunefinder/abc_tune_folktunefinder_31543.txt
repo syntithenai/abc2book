@@ -1,0 +1,28 @@
+X: 1036
+T:(Psalm) PS 2 
+M:3/2
+L:1/4
+N:There is a symbol before the time signature.  It could be a sharp on
+N:the second line down, but its got long trailing legs if it is.  It
+N:could be an attempt at a clef other than treble.  The tune makes sense
+N:if you play it as bass clef, but ABC doesn't seem to have a bass clef.
+N:Why won't ABC show the slur from  begining of second bar after double
+N:vbar to 3rd note of 3rd bar
+K:C Major
+"This is BASS CLEF - see note"B2|(d2c2B)(c/2B/2)|^A2F2f2|(gfedc)B|A3||
+c2d2B2|(f>ed2cd|e4)f2|d2c4|d4||M:2/2 L:1/4 d2|fedc|!(dcBA|Bcd)e|f4|z2z
+B
+|
+ddff|d3B|F3c|ddde|ffffd|c3A|B4||
+S:https://www.folktunefinder.com/tunes/31543
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

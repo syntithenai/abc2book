@@ -1,0 +1,27 @@
+X: 1
+T: Juletr\aet [G]
+T: H\ojt fra tr\aets gr\onne top
+C: P.Faber & E.Horneman
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%staffsep 50
+| "G"[BG][dB] "D7"[cA][AF] "G"[BG][gB] [d2B2] \
+| [ec][dB] [BG][GD] "D7"[A2F2] "G"[B2G2] \
+| "D"[AF][dA] [fd][AF] "A7"[AE]>G "D"[F2D2] \
+| "D"[FD][AF] [dA][FD] "A7"[E2^C2] "D"[D2A,2] \
+| "D7"[E=C][FD] "G"[GD][BG] "D7"[dA]>c "G"[B2G2] |
+| "G7"[A=F][BG] "C"[cG][ec] "G7"[ge]>=f "C"[e2c2] \
+| "G"[BG][gd] "Am"[ec][cA] "D7"[A2F2] "G"[B2G2] \
+| "Am"[cA][ec] [cA][AE] "D7"[F2D2] "G"[G2B,2] \
+| "D7"[AF][ec] "G"[d2B2] "D7"[AF][ec] "G"[d2B2] \
+| "A7"[^cA][ge] "D7"[fd][a^c] "G"[g4B4] |]
+S:https://www.folktunefinder.com/tunes/20406
+S:http://trillian.mit.edu/~jc/music/abc/xmas/Juletraet_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/Juletraet_G.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

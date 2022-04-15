@@ -1,0 +1,22 @@
+X:0
+T:Donald Blue
+G:march
+S:Scots Guards pipe tune book
+M:2/4
+L:1/8
+Q:1/4=88
+K:EDor
+   d>B G>B|dB cA|d>B G>B|AB e2 |
+   d>B G>B|dB cA|B>A G>B|AB e2:|
+   B>B g>e|dB cA|B>B g>e|dB e2 |
+[1 B>B g>e|dB cA|B>A G>B|AB e2:|
+[2 e>f g>e|dB cA|B>A G>B|AB e2|]
+S:https://www.folktunefinder.com/tunes/30014
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

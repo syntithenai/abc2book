@@ -1,0 +1,27 @@
+X:1
+T:Nuala's Jig
+C:Nigel Gatherer
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+Q:1/1=300
+K:G
+"G"G2B "G"dcA | "D"AGF "G"GBd | "G"g3  "G"d2B | "D"cAG "D"FED |
+"G"G2B "G"dcA | "D"AGF "G"GBd | "G"g3  "D"afd | "D"cAF "G"G3 :|
+"Em"B2e gfe | "D"faf def | "G"g3  "G"d2B | "D"cAG FED |
+"Em"B2e gfe | "D"faf def | "G"g3  "D"afd | "D"cAF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14780
+S:http://trillian.mit.edu/~jc/music/abc/jig/Nualas_Jig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Nualas_Jig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Nualas_Jig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nigel_Gatherer/Nualas_Jig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Nualas_Jig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Nualas_Jig_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

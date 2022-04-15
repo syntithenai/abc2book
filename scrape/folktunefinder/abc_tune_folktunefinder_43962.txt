@@ -1,0 +1,30 @@
+X:485
+T:Tuesday
+C:Celia Briar
+M:3/4
+O:New Zealand
+R:Slow Air
+Z:Richard Robinson 
+%%Copyright:Celia Briar
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c7b.html
+%%ID:00000c7b
+K:D
+BA|\
+GF EF GA | B3A Bc | d2 ed cB | A2 B2 c2 |\
+BG E2 G2 | FD B,D FG | E6 - | E4 ::
+Bc |\
+d3B cd | e4 de | fe dc BA | B4 Bc |\
+d2 ed cB | c2 dc BA | B6 - | B4 Bc |
+d3B cd | e4 de | fe dc BA | B4 BA |\
+GF E2 G2 | FD B,D FG | E6 - | E4 :|
+S:https://www.folktunefinder.com/tunes/43962
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

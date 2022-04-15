@@ -1,0 +1,24 @@
+X: 1
+T: Halla-Viinen jenkka
+N: Soittanut v.1957 Viine Halla-aho, 2-rivinen haitari.
+N: Recorded in 1957 by Viine Halla-aho, 2-row accordion.
+M: 2/4
+L: 1/16
+K: G
+|: "G"{GBd}.g2G2 GBBd | eddc BGBd | "D7".f2F2 FAAc \
+| "G"e2d2 BGBd |  "G".g2G2 GBBd | eddc BGBd |
+| "D7".f2AB ccB2 | "(G)"A2G2 "G"G4 :: "G"GBAG GFFE | "Am"EccB AGFE \
+| "D7"D2FA dcB2 | "G"A2GB g2G2 |
+|  "G"GBAG GFFE | "Am"EccB AGFE | "D7"D2FA dcB2 \
+|1 "(G)"A2G2 "G"G4 :|2 "(G)"A2G2 "G"G2"B7"F2 |: "Em"EGBG E2B |
+| "Am"cdcB A4 | "B7"BcBA GAGF | "Em"EGBG E2E2 \
+| "Em"EGBG E2B | "Am"ABcd e4 | "B7"BcBA FFGF | "Em"E2E2 E4 :|
+S:https://www.folktunefinder.com/tunes/4298
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Halla-ViinenJenkka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

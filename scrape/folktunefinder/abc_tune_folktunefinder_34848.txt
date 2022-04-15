@@ -1,0 +1,23 @@
+X: 7631
+T:Polska
+R:Polska
+O:Sweden
+M:3/4
+C:e. Kalle Alml\"of 
+A:Dalarna
+K:D
+A>c A2 cd | e>f gf ec | A>c A2 cd | e<f d4 ::\
+de f>e fg | a>b a^g ae |
+f2 fd ef | (3gag (3fdf e>c  |\
+A>c A2 cd | e<f d4 :|
+S:https://www.folktunefinder.com/tunes/34848
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

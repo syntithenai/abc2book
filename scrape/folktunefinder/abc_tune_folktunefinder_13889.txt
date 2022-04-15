@@ -1,0 +1,27 @@
+X: 1
+T: Blackberry Quadrille
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"~a2a ba^g | a2f d2f | "A7"e2c A2g | "D"fdB A3 \
+|  "D"~a2a ba^g | a2f d2f | "A7"e2c ABc | "D"d3- dz2 :|
+c/B/ \
+|: "D"A2B "G"G2A | "D"F2A def | "A7"g2e cBc | "D"dfe dcB \
+|  "D"A2B "G"G2A | "D"F2A def | "A7"g2e cBc | "D"d3- dz2 :|
+S:https://www.folktunefinder.com/tunes/13889
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlackberryQuadrille.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/BlackberryQuadrille.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BlackberryQuadrille.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BlackberryQuadrille.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BlackberryQuadrille.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

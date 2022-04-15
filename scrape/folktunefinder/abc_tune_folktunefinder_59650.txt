@@ -1,0 +1,39 @@
+X:763
+T:Xiraldilla (CT 063)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 063
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|G3 B|dd dd|dd dd|ee ee|(d2 {e}dc)|
+B3 c|dd dd|dd dd|ee ee|(d2 {e}dc|
+B3 c|dd dd|c2 cB|A3 B|cc cc|B2 BA|
+G3 B|dd dd|cB AB|cc cc|B2 BA|G2 z2 ||
+W:Que te tengo de dar una
+W:que te tengo de matar;
+W:que no quiero que tu vengas
+W:a mi casa a cortejar.
+W:Que con el limonito verde,
+W:que con la verde limonada,
+W:que con el limonito verde
+W:t me traes engaada.
+W:Y ol!
+W:
+S:https://www.folktunefinder.com/tunes/59650
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

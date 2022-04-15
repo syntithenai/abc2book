@@ -1,0 +1,42 @@
+X:3280
+T:MacLeod of Mull
+C:P.M. D. MacLeod
+M:6/8
+O:Scotland
+R:Pipe march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000097f.html
+%%ID:0000097f
+K:B min
+|: {afa}f2B {a}B>{d}c{e}A|{a}B>{d}ce {afa}f2a| \
+{ef}e>ce {a}f>e{a}c| {a}A>B{GdG}c {aef}e2f| \
+{ag}a>c{G}c {g}B>{d}c{e}A| {g}B>{d}ce {aga}f2{g}e | \
+{g}f>a{g}a f<ae| {gfg}f>ec {gBG}B3 ::\
+{ag}a2f a>f{e}f| {g}e>fa {fg}f2{g}c |\
+{gef}e>ce {g}f>e{g}c| {g}A>B{GdG}c {gef}e2f\
+|1 {ag}a2f a>f{e}f| {g}e>fa {fg}f2{g}e| \
+{g}f>a{g}a f<ae|{gfg}f>ec {gBG}B3\
+:|2 {ag}ac{G}c {g}B>{d}c{e}A| {g}B>{d}ce {gfg}f2{g}e| \
+{g}f>a{g}a f<ae| {gfg}f>ec {gBG}B3:|\
+|: {g}B>{d}c{e}A {GdG}B3| {g}B>{d}ce {g}f>ga| \
+c<{d}AB {gcd}c2{e}B| {g}c2{GdGe}A {g}c<ef| \
+{g}B>{d}c{e}A {GdG}B3| {g}B>{d}ce {gef}f2{g}e| \
+{g}f>a{g}a f<ae| {gfg}f<ec {gBG}B2 ::\
+{g}f| \
+a2{GdG}f {g}e>f{e}f| {g}B>f{e}f {gfg}f2{g}e| \
+{g}f>a{g}a e>f{e}f| {g}A>e{A}e {gef}e2{g}c\
+|1 a2{GdG}f {g}e>f{e}f| {g}B>f{e}f {gfg}f2{g}e| \
+{g}f>a{g}a f<ae| {gfg}f>ec {gBG}B2\
+:|2 {g}B2{GdGe}B {gcd}c>{e}B{d}c| \
+{g}B>{d}ce {gfg}f2{g}e| {g}f>a{g}a f<ae| {gfg}f>ec {gBG}B2|]
+S:https://www.folktunefinder.com/tunes/36735
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

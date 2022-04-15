@@ -1,0 +1,25 @@
+X: 1
+T: the Singing Bird
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+GE \
+| "G"D3E "Em"G2AB | "Am"c3B "D"A2GA | "G"BAGE D2D2 | D4- "D7"DFGE \
+| "G"D3E "Em"G2AB | "Am"c3B "D"A2GA | "G"BAGE "D7"D2D2 | "G"G6 ||
+Bc \
+| "Bm"d3B "Em"e3d | "Am"c2c2 "D7"c2c2 | "G"B2G2 "Am"c2B2 | "D7"B2A3 FGE \
+| "G"D3E "Em"G2AB | "Am"c3B "D"A2GA | "G"BAGE "D7"D2D2 | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/13324
+S:http://trillian.mit.edu/~jc/music/abc/air/SingingBird.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/SingingBird.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 34
+T:-Auld Swaara
+M:2/4
+L:1/8
+Q:240
+K:G
+D|GG (3DB,G,|(3DG-D (3B,A,B,|G,2 {c}(3BAF|
+GG (3DB,G,|(3DG-D (3B,A,B,|DG G::!
+A|(4GFED (3CEC|(3B,DB, A,>B,|G,2 {c}(3BAF|
+(4GFED (3CEC|(3B,DB, A,>B,|DG G::!
+D|(4GFED G g|ed/2-B/2 (4defg|a2 {A}(3BAF|
+(4GFED G g|ed/2-B/2 (3dg-d|BG G:|
+S:https://www.folktunefinder.com/tunes/62756
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

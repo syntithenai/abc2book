@@ -1,0 +1,20 @@
+X: 1
+T: the Rakes of Mallow
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+[| "G"GB GB | GB c/B/A/G/ | "D7"FA FA | FA d/c/B/A/ \
+|  "G"GB GB | GB d2 |  "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 ||
+|| "G"gf/e/ dc | Bc "(D7)"d2 | "G"gf/e/ dc | Bg "D7"A2 \
+|  "G"gf/e/ dc | BG "C"c2 | "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 |]
+S:https://www.folktunefinder.com/tunes/15656
+S:http://trillian.mit.edu/~jc/music/abc/march/RakesOfMallow_G16.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/RakesOfMallow_G16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

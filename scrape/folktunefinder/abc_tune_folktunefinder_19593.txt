@@ -1,0 +1,30 @@
+X: 1
+T: Mrs Rae Wallace
+C: Jim Johnstone
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+"E7"E2 \
+| "A"c2 B>A "D"d2 F2 | "E7"G>A B>G "A7"A4 \
+| "D"F>G A>F "A/C#"E>A c>e |1 "Bm"d>c B>A "E7"B2 :|2 "Bm"d>B "E7"G>B "A"A2 |]
+A2 \
+| "D"f>e d>f "A"e2 c2 | "Bm"d>c "E7"B>d "A"c4 \
+| "C#7"c>d c>B "F#m"A>B c>A | "Bm"d>F G>A "E7"B2 ||
+e>d \
+| "C"c2 B>c "D"d>F "(B7)"B>A | "E7"G>A B>G "C#7"c4 \
+| "D"F>G A>F "A/C#"E>A c>e | "Bm"d>B "E7"G>B "A"A2 |]
+S:https://www.folktunefinder.com/tunes/19593
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsRaeWallace_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsRaeWallace_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

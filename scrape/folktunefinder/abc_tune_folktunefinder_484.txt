@@ -1,0 +1,33 @@
+X:25
+T:Romance et Pastourelle
+R:Air
+O:France
+A:Provence
+C:Maurice Marchal (1970)
+O:Provence
+M:6/8
+L:1/8
+K:Bb
+"mlancolique, souple"(Mc2d Mf2d|cdc G3)|(Mc2d MB2G|BdB G3)|(MB2F G2B|Mc2G B2)z|(B2F G2E|MF3 F2)z|
+(G>EG B2G|B>GB c3)!breath!|(d2B c2G|(d/e/)dG d3)|(e2c _A2e|d2B G2)z|(B>(cd) Gce|g3-g2)z|
+(Mf2d M=e2c|Md2B Mc2)(G|M=e2c Md2B|Mc2G MB2)z|(c2G B2G|c2G B3) |(c2G B2G|c2F HG3)||
+M:3/8
+"gai".d|MG(G/A/B/c/)|(dB).d|MgMfMe|Md2z|c(e/d/c/B/)|AFc|B>AG|
+.F.G.A|!breath!G2.d|MG(G/A/B/c/)|(dB).d|g(f/g/f/e/)|d2z|c(e/d/c/B/)|AFc|
+B>AG|FGA|!breath!B2MB|Mc2 ((3B/A/G/)|Fdf|d2c|!breath!B2d|e2 ((3d/c/B/)|
+c2A|d2((3c/B/A/)|!breath!B2B|c2((3B/A/G/)|Fdf|d2c|!breath!B3|c>BA|
+G2F|(G/A/)Bc|d3-|!breath!d2.d|MG(G/A/B/c/)|(dB).d|MgMfMe|Md2z|
+c(e/d/c/B/)|AFc|B>AG|.F.G.A|!breath!G2 .d|MG(G/A/B/c/)|(dB).d|g(f/g/f/e/)|
+d2z|c(e/d/c/B/)|AFc|B>AG|FGA|B3!D.C.!||
+%%footer $D   Galouvielle-MBe 2008 \nBolero (France)
+S:https://www.folktunefinder.com/tunes/484
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

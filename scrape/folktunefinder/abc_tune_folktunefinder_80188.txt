@@ -1,0 +1,24 @@
+X:129
+T: Wiegenlied
+N: A0493
+O: Europa, Mitteleuropa, Deutschland
+N: Calvisius, Harmonia cantionem 1597 und Strassburger Gsgb 1616.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F | FFAF | ccc
+c | dcAB | c2z
+c | cccA | ccA
+c | BAGG | F2A2 | cAGG | F3
+S:https://www.folktunefinder.com/tunes/80188
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

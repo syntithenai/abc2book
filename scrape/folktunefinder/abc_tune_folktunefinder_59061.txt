@@ -1,0 +1,36 @@
+X:174
+T:Cantar de Ronda (CT 201)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por el presbtero D. Jess Fernndez Villarof, de treinta y cuatro aos, de Uviu, quien dice la aprendi en Cabranes.
+N:Expresa la letra la tierna despedida que hace un mozo quintado a su novia.
+A:Asturies
+O:Cabranes
+Z:Cancioneru de Torner 201
+M:6/8
+L:1/8
+Q:3/8=72
+K:G
+G
+|c2 c dcB|c2 B-B2 B|B2 B cBA|B2 G-G2 G|
+c2 c dcB|c2 B-B2 B|B2 B cBA|B2 G-GBA/G/|F2 c-c2 c|(B/4c/4B/4A/4) G2-G z||
+W:No llores, Concha del alma,
+W:no llores ni tengas pena,
+W:que en cumpliendo los tres aos,
+W:caso contigo, morena.
+W:Concha del alma, no llores.
+W:
+S:https://www.folktunefinder.com/tunes/59061
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:286
+T: Geistliches Lied ueber Psalm 43
+N: A0638A
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod. 1560
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | F3GA2B2 | A4d4 | c4d2cB | A4z2
+A2 | G4d4 | c4d2d2 | G3A=B2B2 | c4z2
+c2 | B2d2c2B2 | A4z2F2 | A2A2B2B2 | c2c2A2
+c2 | B2A2B2c2 | A4G4 | F6
+S:https://www.folktunefinder.com/tunes/80345
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

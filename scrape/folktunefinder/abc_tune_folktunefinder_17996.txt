@@ -1,0 +1,32 @@
+X: 1
+T: Reel M.Mimeau
+O: Qubec
+N: from a handwritten MS
+R: reel
+M: 2/4
+L: 1/16
+K: D
+|: "D"A3B A2D2 | F2G2 B2AF \
+| A2FA f2d2 | "A7"e2f2 g2f2 \
+|1,3 "A7"e2d2 c2B2 |
+| B2A2 F2G2 \
+:|2 "A7"e2d2 ccac | "G"B2"A"c2 "D"d2D2 "A7"F2G2 \
+:|4 "G"B2"A"c2 "D"d3B ||
+|: "D"A2f2 A2f2 | A2f2 ~f2ed \
+| "A7"c2a2 c2a2 | c2a2 agfe |
+| "D"d2f2 A2f2 | ~f2ed "A7"c2a2 \
+|1 "G"B2"A"c2 "D"d3B \
+:|2 "G"B2"A"c2 "D"d2D2 "A7"F2"d.C."G2 |]
+S:https://www.folktunefinder.com/tunes/17996
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelM_Mimeau_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelM_Mimeau_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelM_Mimeau_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

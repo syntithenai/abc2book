@@ -1,0 +1,25 @@
+X:349
+T: "Der Wecker"
+N: Z1029
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Brunhilde - Sage, Dornroeschen
+M: 2/4
+L: 1/8
+K: G
+ | _B2AG | F3F | GA_B2
+B2AG | F3F | GA_Bz
+B2AB | G2AF | G2z2
+_B2c2 | d2z2 | _B2c2 | d2z2
+d2c_B | A2G2 | A2GF | G2z2
+S:https://www.folktunefinder.com/tunes/69208
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, brunhilde - sage, dornroeschen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: the Top Of Ben Lomand
+C: Scottish March
+Z: Dan Mozell <Dan.Mozell:nashville.COM>
+M: 6/8
+L: 1/8
+%Q: 1/4=120
+K: D
+a \
+| "D"f<af d>fd | "G"B<dB "A7"A2B | "D"d>ef "Bm"a>fd | "Em"e>fd "A7"e2a \
+| "D"f<af d>fd | "G"B<dB "A7"A2B | "D"d>ef "A7"a>fe |  "D"d3 d2 :|
+|: g \
+| "D"a2~A f2~A | "G"B<dB "A7"A2B | "D"d>ef "Bm"a>fd | "Em"e>fd "A7"e2g \
+| "D"a2~A f2~A | "G"B<dB "A7"A2B | "D"d>ef "A7"a>fe |  "D"d3 d2 :|
+S:https://www.folktunefinder.com/tunes/15696
+S:http://trillian.mit.edu/~jc/music/abc/march/TopOfBenLomond_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/TopOfBenLomond_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

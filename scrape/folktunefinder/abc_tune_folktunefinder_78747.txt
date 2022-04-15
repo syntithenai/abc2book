@@ -1,0 +1,23 @@
+X:306
+T: ES WOLLT EIN MAEDCHEN SPAZIEREN GEHN
+N: E0174C
+O: Europa, Mitteleuropa, Deutschland, Uckermark, Granzow
+R: erzaehlendes Volks - Lied, Sage, Pflanzen - Maerchen, Moral - Lied
+M: 3/4
+L: 1/16
+K: G
+D2 | D2G2G4G4 | D2FGA6
+BA | G2G2G6AB | c2B2A4z2
+B2 | G2G2c6B2 | A2G2A6
+B2 | G2G2B3AG2G2 | F4G4z2
+S:https://www.folktunefinder.com/tunes/78747
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, pflanzen - maerchen, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

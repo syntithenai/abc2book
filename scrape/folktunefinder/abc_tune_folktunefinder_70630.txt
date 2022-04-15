@@ -1,0 +1,26 @@
+X:500
+T: Des Burschen Tracht (204b), S. 446
+N: T0388
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Stegen, hhh Nikolaus Pletschette (Lehrer)
+R: Tanz-, Spiellied]
+M: 3/8
+L: 1/16
+K: G
+ | G4GG | D4D2 | EEE2E2 | D6
+c4cc | B4B2 | A2B2A2 | G6
+G2G2G2 | GGG2B2 | d6
+c4cc | B4B2 | A2B2A2 | d6
+c4cc | B4B2 | A2B2A2 | G6
+S:https://www.folktunefinder.com/tunes/70630
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Tanz-, spiellied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

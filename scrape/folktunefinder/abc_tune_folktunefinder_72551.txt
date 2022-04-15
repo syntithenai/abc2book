@@ -1,0 +1,26 @@
+X:94
+T: Z' nachst bin i spat aussiganga
+N: D0136
+O: Europa, Mitteleuropa, Deutschland, Niederbayern, Weitmichel
+N: Inzipit = Variante zum Lied
+R: Kilt - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G3GG2 | B2B2A2 | G2z2
+B,2 | B3BB2 | d2d2c2 | B2z2
+GG | e3eee | g2f2e2 | d3dd2 | g2
+d2B2 | c3cd2 | f3ed2 | B2z2
+GG | e3eee | g2f2e2 | d3dd2 | g2
+d2B2 | c3cd2 | f3ed2 | B2z2
+S:https://www.folktunefinder.com/tunes/72551
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 5
+T: Bucket o' Nails, The
+C: \251 B.Black
+S: Bill Black <Zouki@AOL.COM> irtrad-l 2001-4-14
+N: With humbly offered alteration by Paul de Grae [accepted with thanks - Z]
+N: Dedicated with thanks to the FOOZ (Friends of Ol' Zouki) who came
+N: to his defense during the Recent Unpleasantness.
+M: 2/4
+L: 1/8
+Q: 275
+R: polka
+K: D
+A>B AF | EDEF | A/F/A/B/ dB | AF E2 |
+A>B AF | ABdA | Bd A/B/A/G/ | FD D2 :|
+f>a fd | ge=ce | f>a fd | cd e2 |
+f>a fd | ge=ce | f/g/a/f/ g/e/c/e/ | fd d2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6310
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

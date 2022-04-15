@@ -1,0 +1,17 @@
+X: 1
+T:Blackett O' Wylam
+M:6/8
+L:1/8
+K:G
+B/2c/2|dedd2c|BgdB2c|dedd2c|BgBA:|:e/2f/2|gfedBG|BgdB2e/2f/2|gfedBG|BgBA
+2:||
+% Output from ABC2Win  Version 2.1 i on 3/12/2000
+S:https://www.folktunefinder.com/tunes/75481
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 33
+T: Miss Nora Kindness
+C:Muriel Johnstone
+R:reel
+B:Dale Birdsall "A Cup of Kindness"
+N:Comments from the book "A Cup of Kindness": The dance was devised for Miss Nora
+N:Kindness, who for many years single-handedly kept SCD alive and well in Cincinnati.
+N:The music ["Miss Nora Kindness"] was commissioned from Miss Muriel Johnstone by
+N:the Cincinnati Branch and was presented to Nora along with the dance. The music
+N:is published with Muriel's permission.
+Z:2009 John Chambers <jc:trillian.mit.edu>
+S:PDF file "music for holidays 2008" from Lee Fuell 2009-1-14
+M:C|
+L:1/8
+K:G
+|: "G"DGFG     BGFG |  "G"DBGB   "C"AGEG \
+|  "G"DGBG "Am"ABce |1 "D7"d3B      AGAB :|2 "D7"d3g abc'a ||
+[| "G"bgdB     GABG |  "D"Add^c     d2ga \
+|  "G"bgdB "Em"GABG | "Am"EAA^G "D7"A2ga |]
+[| "G"bgdB     GABG |  "D"Add^c     d2Bd \
+| "Am"cBAB "D7"cdef |  "G"g2 "D7"(3agf "G"g2z2 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12686
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

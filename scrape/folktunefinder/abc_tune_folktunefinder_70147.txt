@@ -1,0 +1,27 @@
+X:17
+T: Musikanten-Vierzeiler 2, S. 70
+N: S0080
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: Brautlied]
+M: 2/4
+L: 1/16
+K: F
+ | A3FG2B2 | G3FG2A2
+B3AB2c2 | A2G2F4
+A3FA2B2 | G3FG2A2
+c3AB2G2 | F2E2F2z2
+S:https://www.folktunefinder.com/tunes/70147
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Brautlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: From Night 'Til Morn -- march
+C: Welch MS
+R: march
+M: 4/4
+L: 1/8
+K: G
+|: dc \
+|  B2B2 B2G2 | AGAB G2AB | cBAG GABc | d3e/c/ B2dc |
+|  B2B2 B2G2 | AGAB G2AB | cBAG GABG | A4     G2  :|
+|: z2 \
+|  GABc d2d2 | d2e2 d4   | e2d2 g2B2 | d3e/c/ B2dc |
+|  B2B2 B2G2 | AGAB G2AB | cBAG GABc | d3e/c/ B2dc |
+|  B2B2 B2G2 | AGAB G2AB | cBAG GABG | A4     G2  :|
+S:https://www.folktunefinder.com/tunes/15427
+S:http://trillian.mit.edu/~jc/music/abc/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/march/FromNightTilMorn2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/FromNightTilMorn2_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

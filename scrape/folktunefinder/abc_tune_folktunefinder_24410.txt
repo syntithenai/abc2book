@@ -1,0 +1,55 @@
+X:3958
+T:Malcome Kaird's Come Again - Bagpipe way
+O:england
+S:George Skene's MS, NLS Adv.MS.5.2.21, 1715
+N:Notes given a ~ are marked with a superscripted "gr" in the MS
+M:4/4
+L:1/8
+K:Gmix
+d|\
+"="B2 Gc (d/c/B/A/) "="BG|A/~A/B G/~G/c A/~A/c F/F/d|\
+"="B2 Ac (d/c/B/A/) "="BG|G/G/G G/G/G "="BGG:|
+d|\
+"="BG d2   "="BG g2|BG f2 AF Fd|BG d2 BG g2|BG d2 BG g2|
+(B/c/B) d2 (B/c/B) g2|A/~B/A f2 AFFf|\
+(g/f/e/d/) "="ec (d/c/B/A/)"="BG|A/~B/A f2 AGG:|
+d|\
+"="BG"="BG "="BG"="BG|A/~A/B G/G/c A/A/c F/F/d|\
+"="BG"="BG "="BG"="BG|A/~B/A f2 BGG:|
+f|\
+(g/f/e/)d/ "="ec (d/c/B/)A/ "="BG|A/B/A f2 "="AFFf|\
+(g/f/e/)d/ "="ec d/c/B/A/ "="BG|A/~B/A f2 BGG:|
+A|\
+G/~G/G "="BG G/G/G "="BG|A/~B/A f2 "="AFFA|\
+G/G/G "="BG G/G/G "="BG|A/B/A f2 BGG:|
+(e/f/)|\
+gBBg BBgB|A/B/A f2 AFF(e/f/)|\
+gBBg BBgB|A/B/A f2 BGG:|
+B|\
+G/~G/G G/G/G G/G/G G/G/G|A/A/B G/G/c A/A/c F/F/d|\
+G/G/G G/G/G G/G/G G/G/G|A/B/A f2 BGG:|
+B|\
+G/~G/G g"x"Bg"x"BgB|A/B/A f2 AFFA|G/G/G gB gBgB|A/B/A f2 BGG:|
+A|\
+G/~G/G A/A/A G/G/G A/A/A|G/G/G A/A/A cFFA|\
+G/G/G A/A/A G/G/G A/A/A|G/G/G A/A/A G/G/G A/A/A|
+G/G/G A/A/A G/G/G A/A/A|G/G/G A/A/A cFFd|\
+B2Gc d/c/B/A/ BG|A/~A/B G/G/c A/A/B G:|
+d|\
+"="BGGc d/c/B/A/ "="BG|A/~A/B G/G/c A/A/c F/F/d|\
+"="BGGc d/c/B/A/ "="BG|A/~A/B G/G/B A/A/B G/G/B|
+A/~A/B G/G/B A/A/B G/G/B|A/A/c F/F/c A/A/c F/F/c|\
+A/A/~B G/G/B A/A/B G/G/B|A/A/~B G/G/B A/A/B G/G/B|
+A/~A/B G/G/B A/A/B G/G/B|A/A/c F/F/c A/A/c F/F/c|\
+"="BGGc d/c/B/A/ "="BG|G/G/G G/G/G "="BGG|]
+S:https://www.folktunefinder.com/tunes/24410
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

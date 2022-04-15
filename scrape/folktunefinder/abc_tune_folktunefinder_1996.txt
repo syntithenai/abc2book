@@ -1,0 +1,31 @@
+X: 59
+T:Jockeys Hornpipe,The. JMP.059
+T:Jack in the horse Course. JMP.059
+T:Harmonious Blacksmith,aka. JMP.059
+M:C
+L:1/8
+Q:160
+C:"64...Harmonious Blacksmith"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+B2 e2 d2 cB | A2 BA GFED | GDGB AGAB |  GDGB AGAB |!
+B2 e2 d2 cB |A2 BA GFED | c2 BA B2 AG | EGFA G4 :|!
+|:d2 g2 f2 ed | e2 fe dcBA | dAdf edef |  dAdf edef |!
+d2 g2 f2 ed | e2 fe dcBA |  g2 fe f2 ed | Bdce "D.C."d4 |]
+S:https://www.folktunefinder.com/tunes/1996
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

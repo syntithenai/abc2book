@@ -1,0 +1,25 @@
+X:503
+T: "Spannung"
+N: Z1183
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Liebes - Lied
+M: 3/8
+L: 1/16
+K: B
+FF | F2B2BB | B2A2B2 | c3=dc2 | B4
+B2 | c4f2 | e2=d2c2 | B4=d2 | c4
+B2 | c4f2 | f2e2f2 | e=dc2B2 | A4
+F2 | B4c2 | =d2c2B2 | =d2c2B2 | A6 | B4
+S:https://www.folktunefinder.com/tunes/69362
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 243
+T: the Fairy Boy
+B: O'Neill's 243
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+E2 \
+| (Ac) E2 FG | Ac f2 e2 | fe c3 A | (BA F2) G2 \
+| (Ac) E2 (FG) | (Ac f2) e2 | (fe) c3 A | (c>B) A2 ||
+|| e2 \
+| (ec) (f3 e) | (cA) (B3 A) | cA f3 e | cA B3 (c/B/) \
+| (Ac) (E2 FG) | (Ac f2) e2 | fe (c3 A) | c>B A2 ||
+S:https://www.folktunefinder.com/tunes/19902
+S:http://trillian.mit.edu/~jc/music/abc/waltz/FairyBoy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/FairyBoy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

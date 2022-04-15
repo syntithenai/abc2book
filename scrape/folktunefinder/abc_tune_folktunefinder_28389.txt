@@ -1,0 +1,31 @@
+X:7937
+T:Waltz. CJF.137
+O:england
+M:3/8
+L:1/16
+Q:50
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The key signature is given as an e-flat followed by a B-flat in the MS.
+N:The note marked with a letter "c" is also marked thus in the |MS. - PJH
+K:Bb
+F2|B2BABA|B2d2f2|f2^f2a2|c4(cd)|\
+edgfed|cdedcB|A>gf>ed>c|{c2}B4:||:dB|
+AcecAc|BABcde|fgabag|{g2}f4(gf)|\
+ede"c"cdc|e>gf>ed>c|BdfecA|{c2}B4:||
+S:https://www.folktunefinder.com/tunes/28389
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Charlie Fleming's Reel
+R: reel
+S: Donough O'Donovan <odono@IINET.NET.AU> irtrad-l 2001-8-19
+M: C|
+L: 1/8
+K: D
+d2 cd AFDd | cdAF DFAF | E3 F GFED | C2 AE BEcE |
+d2 cd AFDd | cdAF DFAF |1 Gfgf efed | ecAc d3 c :||2 Gfgf edcB | Acec d3 a ||
+^gafd Aa^ga | fdAa ^gafd | eB ~B2 bagf | edcB Aa^ga |
+^gafd Aa^ga | fdAa ^gafd | eB ~B2 cBAG | FDECD3 a |
+^gafd Aa^ga | fdAa ^gafd | eB ~B2 bagf | edcB AGFE |
+ D2 cd AFDd | cdAF DFAF | Gfgf efed | cAGE D3 c ||
+S:https://www.folktunefinder.com/tunes/16912
+S:http://trillian.mit.edu/~jc/music/abc/reel/CharlieFlemingsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/CharlieFlemingsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CharlieFlemingsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CharlieFlemingsReel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

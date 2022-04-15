@@ -1,0 +1,29 @@
+X:505
+%%topmargin 3cm
+T:Caoidh na h-Alba airson Neill Gobha
+T:Caledonia's Wail for Neil Gow, Her Favourite Minstrel
+C:Capt. Fraser
+C:From Captain Fraser's Collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:C
+L:1/8
+K:B aeolian
+"Slow." F | DC D>E{DE}FB | A>F {DE}F>E DA,A,(F/E/) | D<"_cres."B,B,>C D>E {DE}Fg | f>d n(e/d/).c/.d/ pB2 k(Bc/d/m) |
+!p!DC D>E{DE}F>B | A<F {DE}F>E D3/2E/F/ A,(F/E/) | D<"_cres."B,TB,>C D>E {DE}Fg | f>d n(e/d/).c/.d/ pB2-B :|
+f/^a/ | !p!b>c' {bc'}d'>c' Tb>af>d | a<f {de}f>e dAA(f/^a/) | "_cres."b>c' {bc'}d'>c' b>a f/^a/b/c'/ | d'f (e/d/).c/.e/ .B/.d/.f/.d/ B(d/e/) |
+!f!f.[fd'].[fd']e/>d/ c.[ca].[ca]d/>c/ | k[DB]>c d/c/d/m^e/ f[F^A]H[FA] D/=E/ | !p!.[DF].[DF].[DF] C/D/ [CE][CE]H[CE] (D/C/) | kB,CDm^E nF>p^A, B,2-B, |]
+S:https://www.folktunefinder.com/tunes/71534
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caledonias_Wail_for_Neil_Gow_Her_Favourite_Minstrel.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caoidh_na_h_Alba_airson_Neill_Gobha.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0505.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

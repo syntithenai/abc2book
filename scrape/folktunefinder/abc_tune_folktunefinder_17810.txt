@@ -1,0 +1,29 @@
+X: 1
+T: the Otter's Holt
+T: the Otter's Lair
+T: the Otter's Nest
+T: Pol An Madra Uisce
+T: the Waterdog's Hole
+M: 4/4
+L: 1/8
+R: reel
+K: Bmin
+e \
+|  fBBA FEFB | (3ABA FB ABde | fBBA FEFA | (3Bcd cA Bcde |
+|  fBBA FEFB | (3ABA FB ABde | faaf effe |1 dBBA   ~B3  :|2 dBAF B3 || 
+|: c \
+|  d2fd Adfa | bfaf effe | (3ddd fd Adfa |  bfaf    egfe |
+|  defd Adfa | bfaf efde |  fBBA    FEFA | (3Bcd cA B3  :|
+%
+S:https://www.folktunefinder.com/tunes/17810
+S:http://trillian.mit.edu/~jc/music/abc/reel/OttersHolt_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OttersHolt_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/OttersHolt_Bm.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

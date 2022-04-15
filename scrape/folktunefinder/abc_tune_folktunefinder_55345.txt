@@ -1,0 +1,21 @@
+X: 40
+T:Moll of the Wood
+M:6/8
+L:1/8
+S:JC Tunefinder PDF/Blowzabella
+Z:abc2nwn
+K:G
+|:BAB G2 F| E2 F G2 A | BAB dcB|1  A2 F D2 D:|2 A2 F D2 c||: BGB d2c| BG
+B d2c|BGB dcB |1 A2 F D2 c:|2 A2 F D||
+% Output from ABC2Win  Version 2.1 f on 27/06/2004
+S:https://www.folktunefinder.com/tunes/55345
+S:http://www.freewebs.com/folkbluesnbeyond/WIP.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

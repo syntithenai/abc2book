@@ -1,0 +1,48 @@
+X:1
+T:Johnny Cope
+M:C
+L:1/8
+Q:288
+S:San Francisco Scottish Fiddlers Newsletter June 1997
+N:From the playing of Buddy MacMaster
+A:Cape Breton
+Z:Steve Wyrick  scots-l 2001-10-22
+K:Ador
+AG|:"Am"{E}A4AB cd|e2A2{A}BA GE|"G"{E}G4GA Bc|{c}d2G2BA GE|!
+"Am"{E}A4AB cd|{d}e2A2{A}B2AB|"G"G2gf ed cB|1"Am"A4A3G:|2"Am"A4A2B2||!
+P:Var. I
+|:"C"c3dc2C2|cd efg4|"G"B2AGG2d2|Bc dcB2AG|"Am"A2c2"G"B2d2|!
+"Am"c2e2"G"B2AG|"Em"E2gf ed cB|1"Am"A2-A3A AB:|2"Am"A4Ad^cB||!
+P:Var. II
+"Am"A2E2AB cd|"C"ed cB "G"dc BA|G2D2GA Bc|dB gd cB AG|"A"A2GF "E"ED
+^CB,|"A"A,B, ^CDE2DC|!
+"D"D2F2"E"ED ^CB,|"A"A,4A,d ^cB|"Am"A2E2AB cd|ed cB "G"dc BA|"G"G2D2GA Bc|!
+"G"dB gd cB AG|"A"{G}A2GF "E"ED ^CB,|"A"A,B, ^CDE2DC|"D"D2F2"E"ED
+^CB,|"A"{B,}A,4A2z2||!
+P:Var. III
+|:"Am"a4a2ga|{a}b2a2{a}ba ge|"G"{e}g4g2ga|{a}b2agg2b2|"Am"a4a2ga|!
+"G"{a}b2g2"A"a2e2|1"D"f2df "E"ed ^cB|"A"{D}A4A4:|2"D"F2DF "E"ED
+^CB,|"A"A,4A,d ^cB||!
+P:Var. IV
+|:"Am"AE AB A Bcd|"C"ef ed cB Ac|"G"BG dG eG dG|"G"Bd gd cB AG|"Am"cd cB AG
+AB|!
+"Am"AB cd ed eB|df ga "Em"ge dB|1"Am"A4Ae^cB:|2"Am"A4A2e2||
+P: Var. V
+"A"a3/2e/2 a/2^c'3/2 a3/2e/2 a/2c'3/2|"A"E3/2A/2 ^c3/2a/2 ^c'3/2a/2
+e3/2f/2|"G"g3/2d/2 g/2b3/2 g3/2d/2
+g/2b3/2|"G"D3/2G/2 B3/2g/2 b3/2d/2 g3/2B/2|!
+"C"e3/2c/2 e/2g3/2 "G"d3/2B/2 d/2g3/2|"Am"c3/2A/2 c/2g3/2 "G"d3/2B/2
+d/2g3/2|"C"e3/2c/2 "G"d3/2B/2 "Am"c3/2A/2 "Em"B3/2G/2|"Am"{G}A4A2e2:||
+S:https://www.folktunefinder.com/tunes/17461
+S:http://trillian.mit.edu/~jc/music/abc/reel/JohnnyCope_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JohnnyCope_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JohnnyCope_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

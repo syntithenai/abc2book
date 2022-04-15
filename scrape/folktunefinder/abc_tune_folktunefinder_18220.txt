@@ -1,0 +1,31 @@
+X: 1
+T: Timur the Tartar
+T: Blanchard Races
+R: reel
+N: Timpany
+N: Kennedy v.1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"A2 ((3cBA) eA ((3cBA) | eA aA gA fA \
+|  eA ((3cBA) eA ((3cBA) | "E7"BE dE cE BE |
+| "A"A2 ((3cBA) eA ((3cBA) | eA aA gA fA \
+| efec eaec | "E7"BABc "A"A2-A2 :|
+|: E2 ((3GFE) BE ((3GFE) | BE dE cE BE \
+| "A"A2 ((3cBA) eA ((3cBA) | eA aA gA fA |
+| "A"efec "D"agaf | "A"efec "D"agaf \
+| "A"ecag "D"fedc |1 "E7"BABc "A"A2-"fine"A2 :|2 "E7"BAGF EFGE |]
+S:https://www.folktunefinder.com/tunes/18220
+S:http://trillian.mit.edu/~jc/music/abc/reel/TimurTheTartar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TimurTheTartar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TimurTheTartar.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TimurTheTartar.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

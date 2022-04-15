@@ -1,0 +1,30 @@
+X:5
+T:Lansierskadril
+T:5de figuur
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:AB x2 A
+L:1/8
+M:2/4
+K:C
+P:Voorspel
+G>>G | GG/>G/ GG/>G/ | G3 G/>A/ | "G7"[BG]B/>c/ [dB]d/>e/ | [f3d3B3] G/>G/ | GG/>G/ GG/>G/ | G3 B/>c/ | "G7"[dB]d/>e/ [fd]f/>g/ | "G7" [a3f3d3] |]
+P:A
+z | "C"g/>^f/g/>a/ g/>=f/e/>d/ | cc c/>B/c/>d/ | ee e/>d/e/>f/ | "G7"dd d/>e/f/>^f/ |
+"C"g/>^f/g/>a/ g/>=f/e/>d/ | cc c/>B/c/>d/ | ee "G7"d/>c/d/>e/ | "C"c/>B/c/>d/ e/>d/e/>f/ |
+"C"g/>^f/g/>a/ g/>=f/e/>d/ | cc c/>B/c/>d/ | ee e/>d/e/>f/ | "G7"dd d/>e/f/>^f/ |
+"C"g/>^f/g/>a/ g/>=f/e/>d/ | cc c/>B/c/>d/ | ee "G7"d/>c/d/>e/ | "C"cec |]
+P:B
+z/ B/ | "C"c/>B/c/>d/ e>c | "G7"c/>B/d/>B/ GA/>B/ | "C" c/>B/c/>d/ e/>d/e/>c/ | "G7"c/>B/d/>B/ G z |
+"C"G/>F/E/>F/ G/>A/B/>c/ | G/>F/E/>F/ G/>A/B/>c/ | ge "G7"d/>c/d/>e/ | "C" cec |]
+S:https://www.folktunefinder.com/tunes/40585
+S:http://user.online.be/volksdans/abc/Lansierskadril.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Lansierskadril.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

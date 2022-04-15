@@ -1,0 +1,25 @@
+X:6
+T:The Timely Consent
+C:Andy Hornby 1998
+Q:1/4=200
+I:abc2nwc
+M:10/8
+L:1/8
+K:G
+d2A de f2d ag|f2d e2d e2f2|d2A de f2d ag|f2d e2d c2d2:|
+|:a2a2bag f2d|ege f2d f2g2|a2a2bag f2d|ege f2d c2d2:|
+|:[M:7/8]A2d2cBA|GFG B2A2|DEF G2F2|E2D E2F2|
+A2d2cBA|GFG B2A2|DEF G2F2|E3D4:|
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43781
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Time_signature 10/8
+% Has_accompaniment_chords No chords

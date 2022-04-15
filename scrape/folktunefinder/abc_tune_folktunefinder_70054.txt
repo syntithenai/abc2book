@@ -1,0 +1,28 @@
+X:494
+T: FREUDVOLL UND LEIDVOLL
+N: F0938
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: Eb
+ | E3B,B,2zB, | B,3G,G,2z
+G, | B,2A,2F,2D2 | E,4z4
+E3CC2zC | C3G,G,2z
+G, | G,4=A,2=B,2 | C6z2
+B,4C2D2 | E3B,B,2z
+B, | B,3=A,_A,2zA, | G,4z4
+E6DE | F6
+B,B, | G4F3D | E6z2
+E4FEDE | F6
+EC | G4GAFD | E6z2
+S:https://www.folktunefinder.com/tunes/70054
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

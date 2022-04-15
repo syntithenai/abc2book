@@ -1,0 +1,28 @@
+X:420
+T:Speed the Pretzel
+C:John Bone
+L:1/8
+M:4/4
+O:England
+Z:Carol Turner
+%%Copyright:John Bone
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c75.html
+%%ID:00000c75
+K:F
+z2|\
+AB^cd efec |efe^c eae^c | d2 e(^c c)ABA | B2 BA GA B2| \
+AB^cd efec | efe^c eae^c |
+d2 e(^c c)ABA | GedB A2 ::\
+^ce| \
+ae^c(a a)e^ce | aAgA fAeA |
+d2 e(^c c)ABA | GAB^c def^g | \
+ae^c(a a)e^ce | aAgA fAeA | d2 e(^c c)ABA | GedB A2:|
+S:https://www.folktunefinder.com/tunes/43949
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

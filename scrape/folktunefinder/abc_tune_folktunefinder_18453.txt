@@ -1,0 +1,25 @@
+X:1
+T:Schottis e. Ryman, Stugun
+R:schottis
+N:copy from Janet Gage -- she learned it from Leif 11/96 workshop
+N:(and so probably did I....)
+B:Bygdedansar fr Jaemtland och Harjedalen (book w/ red cover)
+Z:1998 Brian Wilson
+M:2/4
+L:1/16
+K:G
+|: "G"G,>BBB "C"G,>ccc | "C"c>eee "G"{f}(ed)d2 | "D"F>eee {f}(ed)d2 | "D"D>ccc "G"{d}(cB)B2 |
+   "G"G,>BBB "C"G,>ccc | "C"c>eee "G"{f}(ed)d2 | "D"d>gf>e d>cB>A | "G".G2 .G2 [B,4G4] :|
+|: "G"d>bg>d b>gd>B | "Am"c>af>d {d}.a2 .a2 | "D7"A>gf>e d>cB>A | "G"G>e d>c {ce}(cB)B2 |
+   "G"d>bg>d b>gd>B | "Am"c>af>d {d}.a2 .a2 | "D"A>gf>e d>cB>A | "G".G2 .G2 [B,4G4] :|
+S:https://www.folktunefinder.com/tunes/18453
+S:http://trillian.mit.edu/~jc/music/abc/shottish/SchottiseRymanStugun.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/SchottiseRymanStugun.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

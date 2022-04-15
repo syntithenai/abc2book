@@ -1,0 +1,24 @@
+X:162
+T: Huete du dich!
+N: A0200
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder. Nuernberg bei Berg und Newber c. 1542 No. 33.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: F
+F2 | F3FA2 | G4A2 | B4A2 | G6 | A4G2 | F4
+F2 | A3AB2 | c4c2 | G4A2 | B4
+B2 | A4B2 | c4c2 | G4A2 | B6 | A4G2 | F6
+A4B2 | c4c2 | G4A2 | B4
+B2 | A2G4 | F4B2 | A2G4 | F4
+S:https://www.folktunefinder.com/tunes/68708
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

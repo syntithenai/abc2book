@@ -1,0 +1,30 @@
+X: 1
+T: Barbara Rae
+C: Paul Machlis
+Z: John Chambers <jc:trillian.mit.edu>
+N: Written for Barbara Rae (Bowsma) McOwen
+M: C
+L: 1/8
+K: D
+"A7"\
+A,| "D"F3 E "A7"F-<A ED | "Bm"d>c dA "G"G-<F "A7"ED \
+  | "D"F-<A d>A "Bm"B-<A FA | "Em"G-<F "A7"E>D "D"D3 ||
+A,| "D"F3 E "A7"F-<A ED | "Bm"d>c dA "G"G-<F "A7"ED \
+  | "D"F-<A d>A "Bm"B-<A FA | "G"B/c/d "D"F>D "A7"E-<F "D"D |]
+A | "D"F-<A f>A "Bm"B-<F "A7"E>A | "D"F-<A a>f "Em"g/f/e/d/ "A7"d/c/B/A/ \
+  | "D"F-<A d>A "Bm"B-<A     F>A | "Em"G-<F "A7"E>D "D"D3 ||
+A | "D"F-<A f>A "Bm"B-<F "A7"E>A | "D"F-<A a>f "Em"g/f/e/d/ "A7"d/c/B/A/ \
+  | "D"F-<A d>A "Bm"B-<A     F>A | "G"B/c/d "D"F>D "A7"E-<F "D"D |]
+S:https://www.folktunefinder.com/tunes/13124
+S:http://trillian.mit.edu/~jc/music/abc/air/BarbaraRae_4S.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BarbaraRae_4S.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BarbaraRae_4S.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BarbaraRae_4S.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

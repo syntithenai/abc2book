@@ -1,0 +1,26 @@
+X:272
+T:Steirer (70.)
+C:traditionell
+A:Salzkammergut
+S:MIDI erhalten von Christian Amon. Nach einer kopie im besitz von Johann Stoeckl eines manuscriptes. Stoeckl(zitiert von Amon): "diese sammlung wurde 1935 im hause der familie Hohenlohe-Schillingfuerst gefunden. Sie wurde von einem der beiden brueder Steinegger 1866 verfasst. Die originale sind im Ausseer Kammerhofmuseum".
+M:3/4
+L:1/8
+K:D
+V:1
+AB |\
+AG c2 AB | AF d2 AB | Ac b3 a/g/ | fa df AB |\
+AG c2 AB | AF d2 AB | Ac ba gc | d4 |*
+V:2
+FG |\
+FE A2 FG | FD A2 FG | FA g3 f/e/ | df Ad FG |\
+FE A2 FG | FD A2 FG | FA gf eA | F4 |*
+S:https://www.folktunefinder.com/tunes/45706
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

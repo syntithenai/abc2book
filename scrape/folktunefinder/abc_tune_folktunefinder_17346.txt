@@ -1,0 +1,22 @@
+X: 3
+T: The High Drive
+C: Gordon Duncan
+N: 3 Scots reels/3 reels cossais
+S: Dominique Renaudin <domren@free.fr> IrishTradAccord 2004-3-1
+K: D
+|: d3e fedA | (3BBB gB BAGB | GA(3AAA fedf | eA(3AAA afge |
+   d3e fedA | (3BBB gB BAGB | GA(3AAA fedf | edce d4 :|
+|: a3g ad(3ddd | AB(3BBB gBdB | GA(3A(3A(3A fedf | eA(3AAA efge |
+   a3g ad(3ddd | AB(3BBB gBdB | GA(3AAA fedf | edce d4 :|
+S:https://www.folktunefinder.com/tunes/17346
+S:http://trillian.mit.edu/~jc/music/abc/reel/High_Drive_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/High_Drive_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/IrishTradAccord/High_Drive_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

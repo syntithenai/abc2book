@@ -1,0 +1,43 @@
+X:61
+T:Songs for Sarajevo
+R:Mazurka
+O:England
+N:Needs abc2mtex
+M:3/4
+C:C.A. Goss
+A:Lancaster
+K:FMix 1&1
+z2 & AB||\
+F2[c4f4] & c2 B2 A2| G2 & dc && [d4g4] & B2 AB|\
+F2 [c4f4] & c2 B2 A2| E2 [B4e4] & GA B2 AB|
+F2 [c4f4] & c2 B2 A2| \
+M:3/2
+F4 & gfed && [c8f8] & cded c2e2 \
+|1\
+M:3/4
+F2 [c2f2] & A4 :|2 F2 c2 f2 & A4 c2 |]\
+F2c2f2 & "Coda"A4 c2| z6 & "Fine"[A6f6]|] 
+[c6f6] & fc Af cA| [B6f6] & eB Ge BG| \
+[G6d6] & dB Fd BF| \
+[F6(c6] & AB cd ed| \
+[c6)F6] & f2 c2 e2| 
+[c6f6] & fc Af cA|\
+[B6f6] & eB Ge BG |1\
+M:5/4
+[G6d6] & dB Fd BF && A2 B2 & [A2d2] [B2e2] :|2\
+M:4/4
+[G6d6] z2 & dB Fd "D.C. al Fine"BF AB |]
+W:Copyright Catherine Goss 12.3.94
+S:https://www.folktunefinder.com/tunes/43852
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/People.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

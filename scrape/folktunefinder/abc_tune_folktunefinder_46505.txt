@@ -1,0 +1,22 @@
+X:15230
+T:Seven Stars
+% Nottingham Music Database
+S:Thomas Hardy Collection via Yetties, via Phil Rowe
+M:6/8
+K:D
+"D"d2A A2F|"G"GAB "D"A3|"G"Bcd "A"efg|"D"fed "A"cBA|
+"D"d2A A2F|"G"GAB "D"A3|"G"Bcd "Em"efg|"A"Adc "D"d2::
+f|"A"e2A A2f|"A"efg "D"f3|"A"efg "D"fed|"A"cec A3|
+"G"BGB "D"AFA|"G"BGB "D"AFA|"G"Bcd "Em"efg|"A7"Adc "D"d2:|
+S:https://www.folktunefinder.com/tunes/46505
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

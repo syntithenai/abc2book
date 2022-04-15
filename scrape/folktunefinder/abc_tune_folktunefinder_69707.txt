@@ -1,0 +1,26 @@
+X:147
+T: WOHL IST DER HERBST EIN EHRENMANN
+N: F0276
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Herbst
+M: 2/4
+L: 1/16
+K: C
+C | G,3E,G,3E, | F,2D,2E,2z
+^F, | G,A,B,CD2B,G, | A,3B,G,2z
+D | D3B,D3B, | C2A,2B,2z
+D | D3B,DGDB, | C2A,2B,2z
+G, | CDEFG2EC | D3EC2z
+S:https://www.folktunefinder.com/tunes/69707
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, herbst
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

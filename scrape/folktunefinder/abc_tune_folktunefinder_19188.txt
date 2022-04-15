@@ -1,0 +1,30 @@
+X: 1
+T: The Banks of Garry
+R: strathspey
+O: Athole Collection
+B: Athole Collection
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+FG \
+| "D"A3B A3F A3B d3f | "D"A3B A3F "C"EEE2 E2FG \
+| "D"A3B A3F A3B d3f | "A7"F3D E3F "D"DDD2 D2 :|
+fg \
+| "D"a3f d3f A3d f3d | "C"e3d f3d "A"eee2 e2fg \
+| "D"a3f d3f "/C#"e3d f3d | "Bm"B3A B3d "F#m"FFF2 F2 ||
+fg \
+| "D"a3f d3f A3d f3d | "C"e3d f3d "A"eee2 e2fg \
+| "D"f3d "A"e3d "Bm"B3A d3F | "A7"F3D E3F "D"DDD2 D2 |]
+S:https://www.folktunefinder.com/tunes/19188
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BanksOfGarry_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BanksOfGarry_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

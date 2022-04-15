@@ -1,0 +1,19 @@
+X:455
+T:Feathers
+% Nottingham Music Database
+S:EF
+M:6/8
+K:G
+B/2A/2|"G"G2G G2g|"C"gfe "G"d3|"Am"c2B A2G|"D7"FGA DEF|"G"G2G G2g|
+"C"gfe "D"d2c|"Em"BAG "D7"AGF|"G"G3 GFE|"D"D2D D2d|"Em"dcB "Am"c3|"D"D2D D2c|
+"Am"cBA "D7"B2A|"G"G2G G2g|"C"gfe "D"d2c|"Em"BAG "D7"AGF|"G"G3 G2||
+S:https://www.folktunefinder.com/tunes/64839
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

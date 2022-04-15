@@ -1,0 +1,25 @@
+X:4390
+T:Polka () fr Finland
+M:4/4
+O:Finland
+R:Polka
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008db.html
+%%ID:000008db
+K:A min
+A2 | \
+A2EA c2EA | c2B2 B^GEG | c2B2 B^GEG | B2A2 A4 :|
+|:\
+e2e2 f3e | e2d2 dcBc | d2d2 e3d | d2c2 cBA2 |\
+A2EA c2EA | c2B2 B^GEG | c2B2 B^GEG | B2A2 A4:|
+S:https://www.folktunefinder.com/tunes/36957
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

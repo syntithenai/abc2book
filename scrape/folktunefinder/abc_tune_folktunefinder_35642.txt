@@ -1,0 +1,23 @@
+X: 9742
+T:Polska (med lng etta)
+R:polska L1
+N:A polska with long first beat.
+M:3/4
+K:D
+A2|:g2 f2 ed|e>d cB A2|g2 f2 ed|e>d cB AG|
+A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|1 d2 d2 A2:|2 d2 d2 AA||
+|:A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|e>d cB AG|
+A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|1 d2 d2 AA:|2 d2 d2||
+S:https://www.folktunefinder.com/tunes/35642
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska l1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

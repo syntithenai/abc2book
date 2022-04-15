@@ -1,0 +1,27 @@
+X:95
+T: DER LANDSTURM
+N: B0582
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied
+M: 4/4
+L: 1/8
+K: D
+A2 | d4A2A2 | d4A2
+A2 | B2A2G3A | F2E2D2
+GF | EFGAB3A | GABcd3
+d | c2B2e3d | c2B2A2
+A2 | B2GEA2FD | EFGAF2
+A2 | B2c2d2B2 | A4A4 | D4z2
+A2 | d4D2A2 | d4D2
+S:https://www.folktunefinder.com/tunes/62118
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T: Polska efter Leander
+O: F\"ollinge
+D: Mats & Ulf Andersson "L\aatar fr\aan F\"ollingetrakten i J\"amtland"
+M: 3/4
+L: 1/16
+%%slurgraces 1
+K: G
+|: "G"B2AB d3B G3B | "Am"c2Bc e3c A4 | "D7"f2ef a3f d2ef |1,3 "G"g2fg b3g d4 :|2,4 "G"g3z g8 :|
+|: "G"[G,3D3]b b3g d3g | "C"g3f f3e c4 | "D7"d4 d3A F3A |1,3 "G"G4 DGD B,DB, :|2,4 "G"G3z G8 :|
+S:https://www.folktunefinder.com/tunes/16458
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Leander_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Leander_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

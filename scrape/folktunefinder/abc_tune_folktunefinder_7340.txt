@@ -1,0 +1,24 @@
+X: 2
+T: Simkhes-Toyre [Gm]
+C: Mark Warshawsky
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: Gm
+[|"Gm"G2 B2 c2 B2 | "Cm"c2 B2 c2 B2 | "Gm"G2 B2 "Cm"c2 B2 | "D7"G2 A2 "Gm"B2 z2 \
+| "Gm"G2 B2 c2 B2 | "Cm"c2 B2 c2 B2 | "G"G2 B2 "D7"d2 c2 | B2 A2 "Gm"G2 z2 |]
+[| "Gm"d4 d4 | d2 d2 d4 | "Gm"d2 c2 "D7"B2 c2 | "Gm"d2 d2 d4 \
+|  "Gm"d2 c2 "(D)"B2 c2 | "D7"B2 A2 "Gm"G4 | "D7"[d2A2] c2 B2 A2 | "Gm"G4 z4 |]
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7340
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SimkhesToyre.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

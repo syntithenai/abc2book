@@ -1,0 +1,25 @@
+X:281
+%%topmargin 3cm
+T:Greig's Strathspey
+C:Very old
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+"Slow" EG TG2 {^FG}cG TG2{^FG} | c>GA>G (c/A/).G/.E/ G2 | A,A A>B (c/B/)A/^G/ A2 | A,A (A>B) (c/B/)A/^G/ A2 | Cc Tc2 eg Tg2 | ea Ta>g ec' HTc'2 |
+c'b/a/ Tag/e/ ed/c/ Tcd/e/ | TA,>B,TC>D (TEA) A2 :: eg Tg2 {^fg}c'g Tg2 | eg Tg2 {^fg}c'g Tg2 | ea Ta>b (c'/b/)a/^g/ a2 |
+AaTa>b (c'/b/)a/^g/ Ta>b | {ab}c'>ba>g a>gf>e | Tf>edc "smorz."(G/E/)G/c/ {/B}HA>B, | TA,>B,TC>D E/D/C/D/ TE2 n| TA,>B,TC>D (EA)pA2  :|
+S:https://www.folktunefinder.com/tunes/71028
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

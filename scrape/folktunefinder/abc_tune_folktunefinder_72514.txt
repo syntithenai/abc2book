@@ -1,0 +1,25 @@
+X:57
+T: Der arme Bauer
+N: D0061
+O: Europa, Mitteleuropa, Lothringen, Bettringen b. Holvingen
+N: Inzipit = Variante zum Lied
+R: Bauern - Klage
+M: 3/4
+L: 1/8
+K: G
+dd | d2dd_BG | A4
+d_e | d3d_BG | A2z
+ccc | c3cd_e | d2z
+c_BA | G2A2_BA | G3z
+S:https://www.folktunefinder.com/tunes/72514
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Bauern - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

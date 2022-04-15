@@ -1,0 +1,22 @@
+X:1485
+T:Spencefield Lane
+% Nottingham Music Database
+S:Chris Dewhurst 1980, via Phil Rowe
+M:6/8
+K:Am
+E|"Am"e2d cBc|A2E A^GA|"E"B2E B^GB|efe dcB|
+"Am"A2B cBc|"Dm"d2e g2f|"Am"e2A "E"AB^G|"Am"A3 -A2::
+A|"A"e2A A^ce|"Dm"f2e d2c|"G"B2G GBd|"C"e2d c2B|
+"F"A2F Ace|"Dm"d2c BAB|"Am""e"c2A "E"AB^G|"Am"A3 -A2:|
+S:https://www.folktunefinder.com/tunes/65045
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

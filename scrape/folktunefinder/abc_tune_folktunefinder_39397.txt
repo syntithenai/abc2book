@@ -1,0 +1,26 @@
+X:1
+T:Civil War Musician's Q.S. * 
+R:
+C:By A.F. Hopkins National Fife Major.
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/4
+%%MIDI ratio 2 1
+((3def)|gagededB|efeBdBAG|efeBdedB|gbagf2((3def)|gagededB|efeBdBAG|efedfafd|g2b2g2:||
+f2|g8|{f}gfg6|{f}gfgagdBG|efe^cA4|{d}f8|{d}fef6|{d}fafdege^c|dbagfdef|
+{f}g8|{f}gfg6|{f}gfgagdBG|efecA4|{f}a3gb2a2|(3abagfgdBG|efedfafd|g2b2g2||
+S:https://www.folktunefinder.com/tunes/39397
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

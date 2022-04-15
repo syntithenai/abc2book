@@ -1,0 +1,31 @@
+X: 2
+P: Da Guizers' March
+C: Gideon Stove
+O: Shetland
+M: 4/4
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+K: D
+ A, \
+"A"\
+| "D"D>E FA d2 Ad | "A7"c>d e/d/c/B/ "D"AD FA \
+| "Em"GE "A7"A>G "D"FD DF | "Em"E/F/G/A/ B/A/G/F/ "A7"EAC[EA,] |
+| "D"D>E FA d2 fd | "A7"c>d e/d/c/B/ "D"Ad F>D \
+| "G"GB "Em"E>G "D"FD d>f | "A"e/d/c/B/ A/G/F/E/  "D"FD D |]
+ f/g/ \
+"B"\
+| "D"a>f dA "G"[B3G]d | "A7"c>d e/d/c/B/ "D"Ad fa \
+| "G"bB "Em"g>b "D"aA d>f | "G"g/a/b/a/ "Em"g/f/e/d/ "A7"cA Af/g/ ||
+| "D"a>f dA "G"[BG]>G Bd | "A7"c>d e/d/c/B/ "D"Ad fa \
+| "G"b[BG] [BG]>b "D"a[AF] [AF]>a | "Em"g/f/e/d/ "A7"c/B/A/G/ "D"FD D |]
+S:https://www.folktunefinder.com/tunes/9596
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGM02.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

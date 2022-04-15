@@ -1,0 +1,27 @@
+X: 16
+T:Miss Sheppard
+M:4/4
+L:1/8
+Q:180
+R:March
+K:ADor
+"Am"A,>B,C>D E2 D>C|"G"B,>GF>G  "Em"D>B, G,2|
+"Am"A,>B,C>D E>GA>c|"G"B>AG>B "Am"B>A A2:|!
+"Am"g>ae>d c>BA>F|"G"=G>ED>C "Em"B,>G, G,2|
+"Am"g>ae>d c>BA>F|"G"=G>AB>d "Am"c>A A2|!
+"Am"g>ae>d c>BA>F|"G"=G>ED>C "Em"B,>G, G,2|
+"Am"A,>B,=C>D E>GA>c|"G"B>AG>B "Am"B>A A2||
+S:https://www.folktunefinder.com/tunes/62738
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

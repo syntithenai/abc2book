@@ -1,0 +1,46 @@
+X:829
+T:Xiraldilla (CT 251)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla.
+N:Es propia de los vaquiros que habitan las braas vecinas a Somiedu.
+N:Est expresada en la letra de esta cancin la costumbre del regalo que antes de la boda hace el novio vaqueiro a su prometida.
+N:No siempre, tanto entre los vaqueiros como entre el resto de los campesinos de Asturies, llegan a realizarse las bodas concertadas,
+N:pues una desavenencia entre los padres de los novios en el mmento de discutir la dote que han de dar a sus hijos, puede dar lugar a que la boda no llegue a efectuarse,
+N:y se rompa,por consiguiente, el noviazgo.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 251
+M:2/4
+L:1/8
+Q:1/4=126
+K:G
+d>d
+|:d>c B>c|B2 B2-|Bz d>d|
+d>c B>c|B>G c>c|c>c B>A|
+[1 G2 G2-|Gz d>d:|[2 G2 G2|
+[Q:1/4=160]
+|:F>F F>F|B2- B>A|G>A G>F|[1 G2 G2:|[2 G2 G2-|Gz||
+W:Yo te regali un queisu, (bis)
+W:en prueba de matrimoniu; (bis)
+W:el matrimoniu foi nulu,
+W:vulveme esi queisu al horriu.
+W:
+W:Sbilu p'arriba,
+W:dxalu baxari;
+W:toca la bocine
+W:y baxa merendari.
+W:
+S:https://www.folktunefinder.com/tunes/59716
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

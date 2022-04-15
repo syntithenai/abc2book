@@ -1,0 +1,28 @@
+X:1050
+T:Chief o'Neill's Favourite
+M:4/4
+O:Ireland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000841.html
+%%ID:00000841
+K:D
+de|\
+fe fg af ge|(3fgf ec dc AG|\
+FD (3DDD DF AB|=cA d^c A2 de|
+fe fg af ge|(3fgf ec dc AG|FD EF GB AG|F2D2D2::
+DE|\
+=F2 FG A2AB|=cB cd cB AG|\
+Ad (3ddd fd ed|=cA d^c A2 de|
+fe fg af ge|(3fgf ec dc AG|FD EF GB AG|F2D2D2:|
+S:https://www.folktunefinder.com/tunes/36289
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

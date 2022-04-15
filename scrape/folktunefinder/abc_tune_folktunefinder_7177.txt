@@ -1,0 +1,31 @@
+X: 2
+T: Lebedich un Freilech
+R:
+O: Abe Schwartz
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: EDor
+B^A/B/ =cB =AG FB | \
+|: "Em"E>E GF- FE FG | B^A cB- BA GF | E>E GF- FE FG |1 B>^A c>A B B,C^D :|
+|2 E4- E || E GB | "Em"e2e2 e2ef | "Bm"d/c/B BB- BE GB | "Em"e2e2 e2ef | "Bm"d/c/B BB- BA GF |
+| "Em"E>E GF- FE FG | B^A cB- BA GF | E>E GF- FE FG | E4- E || [K:E]
+|: E AB \
+| "A"c4- cB c>B | AE3 zEAB | "E7"c>"/"B c>"/"B c>"/"B c>"/"B | "A"AE3 zEAB |
+| "A"c4 "Am"=c4 | "B"BA GF- FF GA | "E"B>G "B7"A>F "E"G>E "B7"F>D | "E"E4- D:|
+S:https://www.folktunefinder.com/tunes/7177
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/LebedichUnFreilech.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

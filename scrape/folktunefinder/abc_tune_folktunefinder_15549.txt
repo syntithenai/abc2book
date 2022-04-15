@@ -1,0 +1,25 @@
+X:1
+T: the Lord Monk's March
+T:General Monk's March
+B:Dancing Master, 3rd ed., supplement, 1657, via Barlow's book, 1985
+S:Bruce Olson  irtrad-l 2000-09-03
+Q:120
+L:1/8
+M:C|
+K:Dm
+  FD3     F4 | cA3   c4     | Ac(dc)   A2  (GF)|(EF)(GF) E2(DC)|\
+ (FD3)    F3d|(cA3)  f4     | e4      (d^c)(de)|^c(A3    A4)  :|
+  g4      a4 | f3c  (dc)(AF)| G4       d4      | G6        (AB)|\
+ (cd)(cA) c3A|(GE)CE G3E    |(FG)(FD) (cd)(cA) | F(D3    D4)  :|
+S:https://www.folktunefinder.com/tunes/15549
+S:http://trillian.mit.edu/~jc/music/abc/march/LordMonksMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/LordMonksMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LordMonksMarch.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

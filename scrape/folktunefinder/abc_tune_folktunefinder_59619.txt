@@ -1,0 +1,33 @@
+X:732
+T:Vaqueirada (CT 470)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Perlunes, ayuntamiento de Somiedu.
+N:Es propia de los vaqueiros.
+A:Asturies
+O:Perlunes (Somiedu)
+Z:Cancioneru de Torner 470
+M:6/8
+L:1/8
+Q:3/8=88
+K:Bbm
+|BBB eee|B3/2c/4B/4 A-A3|ddd fff|e3/2 (3c/4d/4d/4 B-B2 z|
+BBB eee|B3/2c/4B/4 A-A3|ddd fff|e2c Bee|(d>c)B-B3-|B2 z4|
+W:Soy vaqueiru, soy vaqueiru
+W:vivo entre la vaqueirada,
+W:soy fitsu de Xuan Barreiru,
+W:del meo met la braa Ay! vida ma.
+W:
+S:https://www.folktunefinder.com/tunes/59619
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

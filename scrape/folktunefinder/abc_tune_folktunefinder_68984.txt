@@ -1,0 +1,27 @@
+X:125
+T: ES HATT EIN BAUR EIN JUNGES WEIB
+N: Z0125
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/16
+K: A
+E2 | A3BA3B | G3FE3
+E | F3FG3G | A4z2
+E2 | A3BA3B | G3FE3
+E | F3FG3G | A4z2
+B2 | c3Bc3A | d4z2
+c2 | B3BB3B | e3ee3
+c | c3cc3c | f3ff3
+d | c3cB3B | A6
+S:https://www.folktunefinder.com/tunes/68984
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

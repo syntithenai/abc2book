@@ -1,0 +1,26 @@
+X:1
+T:Suite de Rigaudon
+R:air
+O:Piemonte (Padania)
+N:From cereia guido <cerejag@chivasso.alpcom.IT>
+M:3/2
+L:1/4
+Q:120
+K:F
+| C"F"F2GAG | F"Bb"D3C2 | C"F"F2GAF | A"C"G-G4 \
+| C"F"F2GAG | F"Bb"D3C2 | C"F"F2GAF | A"C"G-G4 |
+| G"Bb"GAGFD | G"F"F4 | C2"F"c3AGF | "F"c3AGF \
+| "Bb"B3FDF | "Bb"B3FDB | "F"A3FCF | "F"A3FCA |
+| "C"G2FE2D | "Bb"CDEG EC | "F"c3AGF | "F"c3AGF \
+| "Bb"B3FDF | "Bb"B3FDB | "F"A3FCF | "F"A3FCA \
+| "C"G2FE2D | "C"CDEF2 :|
+S:https://www.folktunefinder.com/tunes/15987
+S:http://trillian.mit.edu/~jc/music/abc/misc/SuiteDeRigaudon.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

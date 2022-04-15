@@ -1,0 +1,49 @@
+X:2658
+T:Careu de Silvamayor (MG 68)
+R:Careu
+C:Versin de Gaiteru Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baille del Oucidente asturianu.
+N:El ritmu ye tenrariu.
+N:Los bailladores dancien en rueda y van cambiando de parexa demientres van dando vueltes, dndose la cara "carendose".
+N:Nes braes de Silvamayor, Emberniegu, Busecu y Aristbanu cntase con payel.la.
+N:Nes de Tinu acompase de pandeiru redondu y payel.la.
+O:Silvamayor (Lluarca)
+A:Asturies
+Z:Mtodu de Gaita 68
+E:Comp.
+M:3/8
+L:1/8
+Q:3/8=90
+K:C
+|: G2 G|G~AG|F2 G|B2 A|GFG|~A G2-|
+G2 E|G2 G|GAG|FE~G|FED|C3-|
+C2 D|EE~G|F2 E|[1 D C2-|C2 E :|[2 D C2-|C2 G|
+|: C>DE|FED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,ED|[1 C2 G :|[2 C3-|C2 C|
+|: F~ED|C B,/C/D/E/|F G/F/E/D/|~GEC|F~ED|C B,/C/D/E/|F G/F/E/D/|C2 C :|
+|F~ED|C B,/C/D/E/|F G/F/E/D/|~GEC|F~ED|C B,/C/D/E/|
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,ED|[1 C2 G :|[2 C3-|C2 G|
+|: C>DE|FGG|~A2 G|FGG|~A2 G|EGF|~E2 D|[1 C2 G :|[2 C3-|C GG|
+|: GFE|DEE|FG/F/E-|EGG|GFE|D E/F/E/D/|[1 C3-|CGG :|[2 C3-|C2 G|
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,ED|[1 C2 G :|[2 C3-|C2 E|
+|: G2 E|F G/F/E/D/|C3-|C2 G :|
+|: C>DE|F~ED|C>DE|F~ED|CFE|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,ED|[1 C2 G :|[2 C3-|C2 z|
+S:https://www.folktunefinder.com/tunes/28938
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Careu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

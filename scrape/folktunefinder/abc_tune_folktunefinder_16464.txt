@@ -1,0 +1,28 @@
+X: 1
+T: Polska i G av Matthias Blom
+C: Matthias Blom
+R: polska
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin, recording from workshop
+M: 2/4
+L: 1/16
+K: G
+D2 \
+| "G"E3G B3A G3E | DG2B- B3A G3E | DE2F- F3G A3B | "D7"c2B2 A6 F2 |
+|"D7"D3F A3G F3E | DF2A- A3G F3E | DE2F- F3G A3B | (3c2B2A2 "G"G6 :|
+|: B2 \
+| "G"d3d- d2cB A2BA | G3D- D2GB d2^cd | "Am"e3d c3B A3B | "D7"c2e2 d3c B3c |
+| "G"d3d- d2cB A2BA | G3D- D2GB d2^cd | "Am"e3d c3B "D7"A3G | (3F2E2F2 "G"G6 :|
+S:https://www.folktunefinder.com/tunes/16464
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_MatthiasBlom_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_MatthiasBlom_G.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

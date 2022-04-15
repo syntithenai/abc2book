@@ -1,0 +1,25 @@
+X:56
+T:56.  West of Chester
+C:c 2003 Harry Bolick  
+R:Stomp
+O:United States
+A:Hastings-On-Hudson, New York
+M:4/4
+L:1/8
+Q:250
+K:C
+|: "C" EC Ee2 d cB|"F" cA F "C" G2 G AG|"F" cA cd cA GD|  "C" E8|
+ EC Ee2 d cB| "F" cA FG2 G "C" AG|"F" cA cd cA GA|"C" c8:|
+ gc ga2 g fe|"F" fe c "G" d2 A cd|"C"  ed ef "F"ed cA|"C" G8|
+ "C" g3g/2ag3 (c/4d/4)| eg ed c(FG A) |"F" cA c  d2c AG |"C"c8:|
+S:https://www.folktunefinder.com/tunes/1754
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Stomp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

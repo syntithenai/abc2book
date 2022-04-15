@@ -1,0 +1,29 @@
+X:649
+T: MEIN HERZLEIN THUT MIR GAR ZU WEH
+N: E0598
+O: Europa, Mitteleuropa, Deutschland, Gotha
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+G2 | _B4c4 | d6
+GA | _B4A4 | G4z2
+G2 | _B4c4 | d6
+GA | _B4A4 | G4z2
+A_B | c2c2c2cd | c4z2
+_Bc | d2d2c2_B2 | A4z2
+d2 | c2_B2A2G2 | G3FG2
+A2 | _B2c2d2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/79090
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

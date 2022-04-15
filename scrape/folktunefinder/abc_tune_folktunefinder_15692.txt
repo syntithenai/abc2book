@@ -1,0 +1,26 @@
+X: 1
+T:There is a Fountain
+R:slow march
+D:Tola Custy and Cyril O'Donoghue, "Setting Free" , CICD 098, 1994
+Z:Paul de Grae  irtrad-l 2001-01-18
+M:2/4
+L:1/8
+Q:1/4=40
+K:D
+DF|A3 B|A2 d2|Bd2 B|A2 DF|A3 A|BA FD|E4-|E2 DF|
+A3 B|A2 d2|Bd2 B|AB de|f4|ed ef|d4-|d2:|:Ad|
+f3 f|e2 fe|d4|Bd2 B|A4|BA FD|E4-|E2 DF|
+A3 B|A2 d2|Bd2 B|AB de|f4|ed ef|d4-|d2:|
+S:https://www.folktunefinder.com/tunes/15692
+S:http://trillian.mit.edu/~jc/music/abc/march/ThereIsAFountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/ThereIsAFountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ThereIsAFountain.abc
+% Rhythm Slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

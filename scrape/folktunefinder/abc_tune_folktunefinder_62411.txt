@@ -1,0 +1,24 @@
+X:80
+T:Hopp j\"aklar i lull
+R:sl-polska
+A:\"Osterg\"otland
+B:SvL \"Ogl 419, efter Karl Gustaf Bergstr\"om, Rimforsa
+Z:id:hn-sp-80
+M:3/4
+L:1/16
+K:G
+g4 d2(dc B4) | A2AB cBA2 G4 | G3A B2c2 d2e2 | (5fgagf e4 d4 :|
+w:Hopp, j\"ak-lar i lull, i-kv\"all ska ja supa mig full
+|: G3B dBGB d2c2 | D2FA (cA)FA c2(B2 | G3B dBGB d2c2 |
+D2FA (cA)FA c2(B2 | G3(A B2)c2 d4 | d3d e2f2 g4 |
+d2dd g2g2 B3d | (dc)Bc A4 G4 :|
+S:https://www.folktunefinder.com/tunes/62411
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

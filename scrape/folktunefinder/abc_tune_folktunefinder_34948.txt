@@ -1,0 +1,24 @@
+X: 7731
+T:Rowan Tree
+R:Slow air
+O:Scotland
+M:4/4
+K:A
+A>B|\
+c3c c2B2|ce3 e2a2|f3e f2a2|f3e e2 A>B|\
+c3c c2B2|ce3 f3e|ec3 B3c|A6 ::
+e2|\
+(e2 e)>a (a2 a)>g|g2f2 f2a2|\
+e3f fedc|(c2 c)d/>c/ B2A>B|\
+c3c c2B2|ce3 f3e|ec3 B3c|A6 :|
+S:https://www.folktunefinder.com/tunes/34948
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

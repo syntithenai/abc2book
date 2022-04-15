@@ -1,0 +1,23 @@
+X:196
+%%topmargin 3cm
+T:The Millers Man
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+F | D<DF>D E<DF>D | A,<A,A,>B, TE2 E>F | D<DF>D E>DF>D |
+A,<A,A,>B, {FE}D2 D :| f | d<df>d e>df>d | B>AB<d {/f}e3 f|
+[1d<df>d e>df>d | (A>B)A<F {FE}D2 D :| [2 a>fe>d B>dA>F | (A>B)A>F {FE}D2 D |]
+S:https://www.folktunefinder.com/tunes/70943
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:258
+T: Ein alter Ruf an St. Lorenz
+N: A0615A
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 II No. 67.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2A2B2c2 | d4d2
+d2 | e2d2B2c2 | d3cB2
+d2 | c2B2A2c2 | B3AG2
+B2 | A2GGA2A2 | G6
+S:https://www.folktunefinder.com/tunes/80317
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

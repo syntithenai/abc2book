@@ -1,0 +1,28 @@
+X:210
+T: Vom christlichen Abschied aus dieser Welt
+N: A0254B
+O: Europa, Mitteleuropa, Deutschland
+N: 1555
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: F
+F | F2GA2c | B2A2z
+A | c2cG2A | F2E2z
+F | GABA | G2z
+A | F2GA2c | B2A2z
+A | c2cG2A | F2E2z
+C | F2G2 | A2B2 | A2G2 | F3
+S:https://www.folktunefinder.com/tunes/68756
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

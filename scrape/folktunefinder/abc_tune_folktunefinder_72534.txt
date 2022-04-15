@@ -1,0 +1,26 @@
+X:77
+T: Bu hoscht du hin das Zautle
+N: D0085
+O: Europa, Mitteleuropa, Deutschland, Gottschee
+N: Unterstimme in parallelen Terzen, ergaenzt die Skala zur Heptatonik
+N: (Ionisch) ; erste Zeile rhythmisch korrigiert (Pause)
+N: Inzipit = Variante zum Lied; DVA-Signatur 85a
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: F
+C2 | c3cB2c2 | A4A2
+c2 | B3Bc2B2 | A4c2z2
+B3Bf2d2 | c3cc2f2
+e3dc2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/72534
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:1
+T: The Auld Town O' Ayr
+T: Achaios Polis Ayre
+S: Terry Traub May 2004
+M: 4/4
+L: 1/8
+K: D
+F \
+| "D"D<D F>A d3 c | "Gm"_B/A/B/c/ d>B "D"A<F F<d | "D"D<D F>A d3 f | "Cm"(3_efg (3gfe "G"d<_B B>d |
+| "D"D<D F>A d3 c | "Gm"_B/A/B/c/ d>B "D"A<F F<A | "Gm"_B/A/B/c/ d>B "D"A<F F>d | "D"A<F F>D "Cm"_E2 EF |]
+[|"D"D>d F>d A<F F>A | "Gm"_B/A/B/c/ d>B "D"A<F F<d | "D"D>d F>d A<F F>A | "D"d>_B A<F "Cm"_E2 E>F |
+| "D"D>d F>d A<F F>A | "Gm"_B>A B>c "D"d3 f | "Cm"(3_efg (3gfe "Gm"d<_B B>d | "D"A<F F>D "Cm"_E3 |]
+S:https://www.folktunefinder.com/tunes/78437
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/misc/AuldTownOAyr_DH.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

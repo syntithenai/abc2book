@@ -1,0 +1,26 @@
+X: 54
+T: Turnpike Slide
+C: J-19
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A| "D"d2d "A"c2A| "G"BdB "D"AGF| "G"G2e "D"F2d| "A"e2d cBc|
+   "D"d2d "A"c2A| "G"BdB "D"AGF| "G"G2e "D"F2d| "A"cBc "D" d2 :|
+|:\
+A| "D"d2f a2b| afd a2f| "A"A2c e2f| ecA e2c|
+   "D"d2f a2b| afd a2f| "G"gbg "D"faf| "A"edc "D"d2 :|
+%%text 9/1/98
+% ---------- page 27 ----------
+S:https://www.folktunefinder.com/tunes/1876
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

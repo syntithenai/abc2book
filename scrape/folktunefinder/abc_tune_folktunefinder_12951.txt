@@ -1,0 +1,32 @@
+X: 1
+T: Castle Kelly
+O: trad
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: "Am"A2 cA AB cA \
+| "C"Gc EG- "G"G4 \
+| "Am"A2 cA "G"GA cd \
+| "F"ec "G"dB "Am"cA A2 \
+:: "Am"ag ec "G"d2 ed \
+| "F"cA GE "G"G4 |
+| "Am"ag ec "G"d2 cd \
+| "Am"ea ag "F"a2 ba \
+| "Dm"ge dc "Em"df ed \
+| "F"cA GE "G"G2 EG \
+| "Am"A2 cA "G"GA cd \
+| "F"ec "G"dB "Am"cA A2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12951
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

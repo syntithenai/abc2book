@@ -1,0 +1,25 @@
+X:6735
+T:The Ebb Tide
+O:england
+M:4/4
+L:1/8
+R:hornpipe
+H:from Breandan Breathnach's "Folk Music and Dances of Ireland", 1971
+H:(triplets in measures 5, 8 and 16 are missing the '3' over or under
+H:the middle note - BarFly problem)
+K:G
+dc|BdAB GABc|d2 GG G2 bg|fdcA BcdB|cABG =F2 dc|
+BdB ABA GABc|defd gdge|fdcB ceAc|BdB GG G2:|
+ga|bgdG gGdG|DGBd gdbg|aBcA =fAcA|D=FcF fFeF|
+BdAB GABc|defd gdge|fdcB ceAc|BdB GG G2:|
+S:https://www.folktunefinder.com/tunes/27187
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

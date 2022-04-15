@@ -1,0 +1,27 @@
+X:207
+T: MUSS ICH DENN MUSS ICH DENN
+N: E0785A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Odenwald
+R: Abschieds - Lied, Liebe
+M: 2/4
+L: 1/16
+K: F
+FA | c2ccc2fd | c2ccA2
+dd | c3BG2c2 | A4z2
+FA | c2ccc2fd | c2ccA2
+dd | c3BG2c2 | A4z2
+cc | G2G2G2c2 | A2A2A2
+FF | B3dfefd | c4z2
+FA | c2ccc2fd | c2ccA2
+dd | c3BG2c2 | A4z2
+S:https://www.folktunefinder.com/tunes/76692
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

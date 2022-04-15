@@ -1,0 +1,30 @@
+X:3219
+T:Water parted from the Sea
+O:ireland
+M:3/4
+H:repeats A||B:::
+K:G
+G4A2| B2c2B2 | A2G2F2 | G/F/G/A/G2z2 |\
+B4c2 | d2e2d2 | d>ec2B2 | {c}B2A2z2 |
+G4A2 | B2c2B2 | e2d2{ef}g2 | g2(fe)("tr"dc) | \
+B>A c>B e>d | f>gc2B2 | {B}A2 G2F>G| G4||
+d4e>^c| d4e>^c| d2A2B2| A2"tr"G2F2| \
+A4A2| A4A2| B2e2d2| (d2^c2) z2|
+d4e2| f2g2f2| e2d2^c2| d2g2f2| \
+B2(e3f/g/)| A2d3e/f/| f>e e>d d>^c| {c}Hd4z2|
+G4A2| B2c2B2| A2G2F2| G/F/G/A/G2z2|\
+B4c2| d2e2d2| d>ec2B2| B2A2z2|
+d3g fe| e2dc BA| G2A>B B3/A//B//| c4z2|\
+B>A c>B e>d| "tr"f4g2| {f}e{d}cB2"tr"A2| G4z2|]
+S:https://www.folktunefinder.com/tunes/43173
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: My Lady Winwood's Maggot
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: Cecil J Sharp "Country Dance Tunes" v.8 p.2 1916
+M: 2/2
+L: 1/8
+K: G
+   g2 \
+| "D"f2d2 d2ef | "G"g2G2 G2g2 | "D"f2d2 defd | "G"g6 ag \
+| "Bm"f2d2 d2ef | "Em"g2d2 "Am"d2c2 | "G"B4 "D7"A4 | "G"G6 :|
+|: cB \
+| "C"c2e2 e2dc | "G"[BG][cA][d2B2] [d2B2]cB | "C"c2e2 e2dc | "G"B2d2 d2B2 \
+| "C"cBcd edef | "G"g2d2 "Am"d2c2 | "G"B4 "D7"A4 | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/17750
+S:http://trillian.mit.edu/~jc/music/abc/reel/MyLadyWinwoodsMaggot_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MyLadyWinwoodsMaggot_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

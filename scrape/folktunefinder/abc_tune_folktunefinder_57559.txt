@@ -1,0 +1,30 @@
+X:077
+T:Scarfuin ()
+S:Midi file off website
+N:Simplified (inadequate ABC skills)
+M:3/4
+L:1/8
+K:Em
+B4 d2|e2   ef g2|g2  f2   ed  | ef g2 f2|
+e2  d<B de|e2 d<B  de|e2  d<B (3def| e4    de|
+B2 d>e d<A|B2 d>e d<A|B<B (3def  e2|d<B-B2 EF|
+G>F GA B^c|d2  d2  BA|G<F E<D    E2| F2 E2 E2|]
+S:https://www.folktunefinder.com/tunes/57559
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+S:http://nigelgatherer.com/tunes/abc/tb02.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb02.abc
+S:http://nigelgatherer.com/tunes/abc/abc1/scarf.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abc/scarf.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc1/scarf.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abc/scarf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

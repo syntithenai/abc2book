@@ -1,0 +1,28 @@
+X: 93
+T: N\"udli
+R: zwiefacher
+M: none
+K: F
+(3[cA][=B^G][_B=G] \
+|[M:2/4][L:1/8]"F"[F2A2] [C2F2] | "C7"[G2B2] [E2G2] \
+|[M:3/4][L:1/8]"F"[FA][Ac] [A2c2] "C7"[G2B2] | "F"[F2A2] [EG][DF] "C7"[C2E2] \
+|[M:2/4][L:1/8]"F"[F2A2] [C2F2] | "C7"[G2B2] [E2G2] \
+|[M:3/4][L:1/8]"F"[CF][Ac] [Ac][FA] "C7"[GB][EG] | "F"[F3A3] z :|
+|: "C7"[FA][GB] \
+|[M:2/4][L:1/8]"F"[A2c2] [F2A2] | "Gm"[B2d2] [G2B2] \
+|[M:3/4][L:1/8]"C7"[c2e2] [ce][df] [ce][Bd] | "C7"[G2B2] [GB][EG] [C2E2] \
+|[M:2/4][L:1/8]"F"[A2c2] [F2A2] | "Gm"[B2d2] [G2B2] \
+|[M:3/4][L:1/8]"C7"[c2e2] [ce][df] [ce][Ac] | "F"[F3A3] z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5140
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

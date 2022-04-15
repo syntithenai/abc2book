@@ -1,0 +1,25 @@
+X:6475
+T:Tune from Micho Russell, 6
+L:1/8
+M:2/4
+O:Ireland
+R:Reel
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b54.html
+%%ID:00000b54
+K:G
+DG BG| dG BG| DF AF| cF AF | \
+DG BG| dG BG| BdAc| BG G2::  \
+g2 gf| gb ag| f2 fe| fg af | \
+g2 gf| gb ag| fd cA| BG G2 | \
+g2 gf| gb ag| f2 fe| fg a2 | \
+de fg| a2 ag| fd cA| BG G2 |]
+S:https://www.folktunefinder.com/tunes/37374
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

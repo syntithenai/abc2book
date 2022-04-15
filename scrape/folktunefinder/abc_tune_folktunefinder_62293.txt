@@ -1,0 +1,26 @@
+X:270
+T: STILLE NACHT HEILIGE NACHT
+N: B0748
+O: Europa, Mitteleuropa, Deutschland
+R: Weihnachts - Lied, religioes
+M: 6/8
+L: 1/16
+K: C
+ | G,3A,G,2E,6 | G,3A,G,2E,6
+D4DB,B,6 | C4CG,G,6
+A,4A,2C3B,A,2 | G,3A,G,2E,6
+A,4A,2C3B,A,2 | G,3A,G,2E,6
+D4D2F3DB,2 | C6E4z2
+C2G,2E,2G,3F,D,2 | C,6-C,4z2
+S:https://www.folktunefinder.com/tunes/62293
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Weihnachts - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

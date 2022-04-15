@@ -1,0 +1,34 @@
+X: 1
+T: Lady Mary Ramsay
+C: Nathaniel Gow
+R: hornpipe
+B: RSCDS __-10(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+B \
+| "G"G2- "C"Ge "G"de | "G"dc "G"dg \
+| "G"G2- "C"Ge "G"dd "C"e<G "G"d>B "D7"A3 :|
+|| g/a/ \
+| "G"b<g g>b "D7"a<f f>a | "C"g<e e>g "G"d<B Bg/a/ \
+| "G"b<g g>b "D7"a<f "G"g>d | "C"e<g "G"d>B "D7"A3 ||
+|| g/a/ \
+| "G"b<g g>b "D7"a<f f>a | "G"gg "G"dd \
+| "G"ga "Em"e<g "G"d>e | "G"d<g "G"d>B "D7"A3 |]
+S:https://www.folktunefinder.com/tunes/13607
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/LadyMaryRamsay.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/LadyMaryRamsay.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

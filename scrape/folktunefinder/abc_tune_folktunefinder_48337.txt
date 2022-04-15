@@ -1,0 +1,25 @@
+X:1305
+T:Bush on the Hill, The
+M:6/8
+L:1/8
+R:jig
+D:Johnny B. Connolly: Bridgetown
+Z:Devin McCabe
+K:G
+~G,3 DB,D|GG,G Bdg|edc BcA|BGE DB,A,|
+!~G,3 DB,D|GG,G Bdg|edc BcA|BGF ~G3:|
+!GBd gag|ece dBG|cBc dBG|~A3 BGF|
+!~G3 gGg|ece dBG|cBc dBG|1AGF ~G3|2AFG GDB,:|
+S:https://www.folktunefinder.com/tunes/48337
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

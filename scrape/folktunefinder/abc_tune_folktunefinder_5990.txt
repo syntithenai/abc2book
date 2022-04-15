@@ -1,0 +1,20 @@
+X: 1
+T: Sadi Moma [G]
+O: Macedonia
+M: 7/8
+L: 1/8
+K: G
+"Instr."\
+|: "C"c2d e2- ed | "C"g2c d2- dc | "G"(4cBAB G4 \
+|  "G"G3 "D"A2 AB | "C"c3 "G"B2 d2 | "Dm"A3 A4 | "Am"A3 A4 :|
+"Vocal"\
+|: "G"[d2B2][cA] [B2G2] "D"[A2D2] | "G"[B2G2][cG] ([BG][AF]) [G2D2] | "G"[G3G3] "D"[A2D2] ([AD][BG]) |
+S:https://www.folktunefinder.com/tunes/5990
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SadiMoma_GA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SadiMoma_Gw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

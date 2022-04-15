@@ -1,0 +1,24 @@
+X:330
+T: "Ritt ins Feenland "
+N: Z1010
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: G
+_B2 | _B3A=F2B4c2 | d4c2d4
+d_e | =f3_edcd4c2 | _B4z6
+c2 | c4B2c4_ed | c4B2c4z2
+c6d6 | _e3dc_BA3cBA | G6z4
+S:https://www.folktunefinder.com/tunes/69189
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:194
+T: DIE DUNKELN SCHATTEN FLIEHEN
+N: F0339
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Tageszeiten, Morgen, religioes
+M: 4/4
+L: 1/4
+K: A
+E | ABcd | ecz
+e | fedc | B2z
+E | ABcd | ecz
+e | edcB | A2z2
+AAA | d2d | ede | f2
+A | Aff | edc | Bcd | c2
+c | e2c | edc | BcB | A2z
+S:https://www.folktunefinder.com/tunes/69754
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, tageszeiten, morgen, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

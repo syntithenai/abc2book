@@ -1,0 +1,27 @@
+X: 1
+P: \,Tarina de la Abrud [C] (Tsarina de la Abrud)
+O: Romania
+R:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: C
+|: G2A2B2 \
+|| "C"c3B c3B | cde2- e2c2 | "G7"B3A B3c | dcBA GABc |
+|  "Dm"d3^c d3c | def2- f^cde | "G7"fedc BGAB | "C"c2 :|
+|: z3 ^cde \
+|| "Dm"fagf "A7"egfe | "Dm"d2d2- d^cde | "Dm"fagf "A7"egfe | "Dm"d4- d^cde |
+|  "Dm"fagf "A7"egfe | "Dm"dfed "C"c^cde | "G7"fedc BGAB | "C"c2 :|
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6156
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TsarinaDeLaAbrud.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

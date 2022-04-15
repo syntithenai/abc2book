@@ -1,0 +1,25 @@
+X:213
+T: Joseppelied (3-16), S. 55
+N: P0988
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: yyy]
+M: 3/8
+L: 1/16
+K: F
+G2 | G2G2G2 | G2G2A2 | B2A2G2 | F2F2
+G2 | B2A2AA | G2G2G2 | F2G2A2 | G2G2
+G2 | G2G2c2 | c2A2F2 | B4c2 | A4
+A2 | G4G2 | F2F2F2 | B2A2G2 | F4
+S:https://www.folktunefinder.com/tunes/76193
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Yyy]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

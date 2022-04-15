@@ -1,0 +1,25 @@
+X: 1
+P: Penobscot Memory
+C: Vince O'Donnell 1981
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D \
+| "G"DB3 B2 | "F"A=F2G AF | "G"G3A Bc | d2 B2 G2 \
+| "C"ce3 e2 | "G"d3 B GB | "F"A6- | "D7"A4 D2 |
+| "G"DB3 B2 | "F"A=F2G AF | "G"G3A Bc | B2 G2 D2 \
+| "C"EG3 G2 | "D7"DA3 BA | "C"G6- | "G"G2 "B7"G2 F2 ||
+|| "Em"E4 E2 | e3 f ge | "D"fg fe d2- | d2 f2 a2 \
+| "C"g4 g2- | g2 f2 e2 | "G"d6- | d2 "B7"G2 F2 |
+| "Em"E4 E2 | "C"g4 g2 | "G"ed3 d2 | "Em"e4 B2 \
+| "Am"A3 B c2- | "D7"c2 B2 A2 | "C"G6- | "G"G4 |]
+S:https://www.folktunefinder.com/tunes/9796
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW07.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

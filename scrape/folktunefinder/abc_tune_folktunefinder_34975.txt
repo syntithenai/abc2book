@@ -1,0 +1,21 @@
+X: 7758
+T:Schottis
+M:4/4
+R:Schottische
+O:Sweden
+A:W\"asterbotten
+K:Dm
+d2A2 B2G2 |A>GFG A4|1G>F EG F>EDF|E2A2=B2^c2 :|2 G>F EG F>EDF|E2^c2d3 e ::
+f2ef a2f2| e^ce^c e3 e  |1 f2df e2^ce| d>e f<d A3 e :|2 ^f2df e2^ce | d2 d2 d4:|
+S:https://www.folktunefinder.com/tunes/34975
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

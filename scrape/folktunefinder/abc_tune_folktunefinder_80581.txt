@@ -1,0 +1,88 @@
+X:808
+T:Ach meydlein rein
+C:Heinrich Isaac
+O:Germany
+S:xeroxed page 12 from a German anthology of recorder duets
+N:Not very thoroughly proofread
+N:BarFly currently gets the staff display horribly wrong
+R:Lied
+Z:Jack Campin
+F:http://abc.musicaviva.com/tunes/isaac-heinrich/ach-meydlein-rein/ach-meydlein-rein-2h.abc
+%Posted 15 May 1999 at ABC-users during a discusion about barlines
+%Heinrich Isaac : 1450-1517
+M:none
+L:1/4
+Q:1/2=116
+K:C
+V:1
+g8 a4 c'4 b4 (a3b) (c'3d') b2 (c'3b   ag) a4  g4 z2 a2 b4   |
+V:2
+z8 c8     d4  f4    e4     d2 (a3 g) (g4 ^f2) g4 z4    z2 d2|
+%
+V:1
+c'4 (d'3c') (ba)(bg) a2 g4 (c'4 b2) c'4 z2 c'2 c'4 c'4|
+V:2
+e4   f4      g4      f2 e4 (dc) d4  c8         z4  f4 | 
+%
+V:1
+a8    z4 d'8 b4 c'4 d'4 g4 a6 (gf) (f3 e/d/)(ef) g4  ^f2|
+V:2
+f4 f4 d8 z4  g4 e4  f4  g4 c4 d6      (cB)  (A2  G2) A4 |
+%
+V:1
+g8 d'4 b4 (e'3d') c'2 (ba) b2 (e'3d') c'4 (ba) b4 (c'3b)|
+V:2
+G8 z4  g4  e4     a4       g4   c4      d4     d4  c4   |
+%
+V:1
+a4 g2  b2 a4   g4 z2 d'2 c'4 b4  a4 z2 g2 (b6 c'2) |
+V:2
+d4 e2 (g4 ^f2) g8        z4  g4 =f4 e4     d4 z4   |
+%
+V:1
+d'4   e'2 c'4 (ba) b4 a6     d'4 ^c'2 d'4 z2 d'2 |
+V:2
+z2 f2 e6       f2  g4 a2 f4 (ed) e4  d8         |
+%
+V:1
+d'4 b4 d'4 e'4 d'4 c'2 e'4 (d'c')(bg) (ab) c'8|]
+V:2
+z4  g4 g4  e4  g4  a2  g4  (fe)   d2   d2  c8 |]
+W:
+W:Ach meydlein rein
+W:ich hab allein
+W:eygen mich dir ergeben
+W:Darumb ich wil
+W:in gheim vnd stil
+W:dir zu gefallen leben
+W:Pas frey darauff
+W:das dich der kauff
+W:nit rewen sol
+W:yedoch wie wol
+W:ich ietzvnd scheid
+W:mit schmerz vnd leid
+W:so hoff ich doch
+W:es werd mein noch
+W:vergessen nit
+W:erbarm dich mein
+W:das ist mein bit.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/80581
+S:http://abc.musicaviva.com/tunes/isaac-heinrich/ach-meydlein-rein/ach-meydlein-rein-2h.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/isaac-heinrich/ach-meydlein-rein/ach-meydlein-rein-2h.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/isaac-heinrich/ach-meydlein-rein/ach-meydlein-rein-2h.abc
+% Rhythm Lied
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

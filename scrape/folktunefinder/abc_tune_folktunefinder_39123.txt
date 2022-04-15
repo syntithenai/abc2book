@@ -1,0 +1,26 @@
+X:17752
+T:Trip to Bow Fair,A
+B:Walsh
+R:Hornpipe
+M:3/2
+L:1/8
+K:Gm
+B,4 CDEF GABc | d2 B4 FG D2 B,2| C4 DEFG ABcd | e2 c4 GB A2 F2|\
+B,4 CDEF GABc | d2 B4 FG D2 B,2|Bgfe dcBd cBAG| FEDC B,CFA,B,4::\
+f3 e defe dcBA|B2 F2 _AcBA GEDE|g3 f efgf edc=B| c2 G2 BdcB AF=EF|\
+f3 e defe dcBA|B2 F2 _AcBA GEDC| DF B2 CE A2 B,DGF| EDCB, A,B,CA, B,4::\
+Bdfb fdBd f_agf| g2 e4 cd A2 f2| BABc dcBA GFED| CB,CD EFGB, A,4|\
+Bdfb fdBd f_agf| g2 e4 cd A2 f2| GBAc Bdfb fdBG| AFGD ECDA, B,4:|
+S:https://www.folktunefinder.com/tunes/39123
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

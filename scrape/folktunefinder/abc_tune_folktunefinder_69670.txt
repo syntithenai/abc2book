@@ -1,0 +1,25 @@
+X:110
+T: DEUTSCHES HERZ VERZAGE NICHT
+N: F0229
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands - Lied, national
+M: 4/4
+L: 1/8
+K: G
+Bc | d3Bc2A2 | B4z2
+BB | A2d2e3^c | d4z2
+Bc | d3dcBAG | e4z2
+cc | B2d2c3A | G4z2
+S:https://www.folktunefinder.com/tunes/69670
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

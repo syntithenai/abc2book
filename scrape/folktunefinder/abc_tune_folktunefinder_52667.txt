@@ -1,0 +1,28 @@
+X:11
+T:Tail Todle
+S:Margaret Sinkler MS, Glasgow 1710
+Z:Jack Campin <http://www.campin.me.uk/>
+M:4/4
+L:1/8
+Q:1/2=104
+K:G Mixolydian
+ G2G2 B2G2|c4   A2F2|G2G2 B2 G2 | d4   B2G2 |
+ d4   B2G2|c4   A2F2|G2g2 d2 e2 | d4   B2G2||
+ D2D2 B2G2|ABc2 A2F2|G2G2 B2 G2 | Bcd2 B2G2 |
+ Bcd2 B2G2|ABc2 A2F2|Bcd2 ef g2 | d4   B2G2||
+ B2d2 d2f2|c4   A2F2|B2d2 d2 e^f| gfed g2d2 |
+=f2ef gfed|c4   A2F2|GABc d2 g2 | d4   B2G2||
+ D2D2 B2G2|ABcB A2G2|G2G2 B2 G2 | Bcdc B2G2 |
+ Bcdc B2G2|ABcB A2F2|BcdB e^fge | d4   B2G2||
+ BAGc dBgd|cdcB AGAF|GABc dB`ec |^fdge afge |
+=fgag fgfd|cdcB ABAF|GABc de^fg | d4   B2G2|]
+S:https://www.folktunefinder.com/tunes/52667
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

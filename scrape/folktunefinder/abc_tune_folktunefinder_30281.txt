@@ -1,0 +1,35 @@
+X:8
+T:13oct2000
+C:Eric Forgeot
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+N:
+M:5/4
+L:1/8
+Q:1/4=100
+K:C
+V:1
+|: e2 ee fe fd-dd | cd ee de B4 :|
+M:6/4
+|: A2 AA cB cB c2 cc :|
+M:5/4 
+V:2
+|: E2 E2 E2 E2 E2 | E2 E2 E2 E2 E2 :|
+M:6/4
+|: E2 E2 E2 E2 E2 F2 :|
+M:5/4 
+V:3
+|: E,2 G,2 E,2-E,2 D,2 | F,2 E,2-E,2 E,2 E,2 :|
+M:6/4
+|: A,2-A,2 G,2 A,2 G,2 F,2 :|
+S:https://www.folktunefinder.com/tunes/30281
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 5/4
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

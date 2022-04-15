@@ -1,0 +1,25 @@
+X:4550
+T:Polska
+A:Dalarna
+C:e. Kalle Almlf 
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007a3.html
+%%ID:000007a3
+K:D
+A>c A2 cd | e>f gf ec | A>c A2 cd | e<f d4 ::\
+de f>e fg | a>b a^g ae |
+f2 fd ef | (3gag (3fdf e>c  |\
+A>c A2 cd | e<f d4 :|
+S:https://www.folktunefinder.com/tunes/36989
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:210
+T:Joseph's Frolick
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000f2.html
+%%ID:000000f2
+K:D
+F/G/|\
+A3 Bdc| BAG FGA| Bcd AGF| GEE EFG| \
+A3 Bdc| BAG FGA|
+Bcd cBc| dDD D2::\
+(d/e/)|\
+fef def| ede cde|
+dcB AGF| GEE E2f/g/|\
+agf bag| fed cBA| (B/c/)dB (c/d/)ec| dDD D2:|
+S:https://www.folktunefinder.com/tunes/30351
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

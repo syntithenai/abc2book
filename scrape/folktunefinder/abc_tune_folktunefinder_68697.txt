@@ -1,0 +1,24 @@
+X:151
+T: Drei Fraeulein
+N: A0184
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 41. Forster V 1556 No. 45.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2G2G2 | A4A4
+d4d2A2 | d2c4_B2 | A8 | z6
+d2 | d2d2d2d2 | c2A4
+_B2 | G4A2c2 | d_BAGA4 | G8
+d4=f2d2 | d_Bc2A4 | G6
+S:https://www.folktunefinder.com/tunes/68697
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

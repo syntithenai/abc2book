@@ -1,0 +1,34 @@
+X:149
+T: O SCHIPMANN O SCHIPMANN
+N: E0078B
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: F
+d4 | c2F2d4 | c2F2z2
+FA | c3dc2B2 | A3GF2
+F2 | E2C2E2C2 | F3FF2
+C2 | F3CF2F2 | F3Ac2
+B2 | A4G4 | F2z2
+d4 | c2F2d4 | c2F2z2
+FA | c2cdc2B2 | A2GGF2
+F2 | E2C2E2C2 | F4F2
+FA | c2cdc2BB | A3GF2
+F2 | E2C2E2C2 | F3FF2
+FA | c3dc2B2 | A3GF2
+F2 | E2C2E2C2 | F3FF2
+C2 | F3CF2A2 | F3Ac2
+B2 | A4G4 | F2z2
+d4 | c2F2d4 | c2F2
+S:https://www.folktunefinder.com/tunes/78590
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

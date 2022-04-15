@@ -1,0 +1,23 @@
+X:252
+T: Geistliche Lieder im Jacobston
+N: A0611B
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod. M. 53
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: D
+=F | =F2F2G2G2 | A3GA2z
+A | A2A2_B2A2 | G2=F2G2z
+G | A2A2=F2F2 | D4=C2z2
+A2A2=F2F2 | G3=FG2z
+A | =F2F2D2F2 | EDE2D3
+S:https://www.folktunefinder.com/tunes/80311
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:2
+T:O'Connor's Polka
+S:Martin O'Connor of The Boys of the Lough
+M:C|
+L:1/4
+K:G
+B \
+| "G"D>E GB | D>E GB | "Am"AE ED/E/ | "C"GE "D"EB \
+| "G"D>E GB | D>E GB |  "C"AE "D"FG | "D"AG "G"G :|
+|: B/c/ \
+| "G"dB BA/B/ | dB B>A | "Em"GE ED/E/ | "C"GE "D"EB/c/ \
+| "G"dB BA/B/ | dB B>A |  "C"GE "D"FG | "D"AG "G"G :|
+S:https://www.folktunefinder.com/tunes/16169
+S:http://trillian.mit.edu/~jc/music/abc/polka/OConnersPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/OConnersPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/OConnersPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/OConnersPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/OConnersPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/polka/OConnersPolka_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

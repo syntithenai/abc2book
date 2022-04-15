@@ -1,0 +1,27 @@
+X: 1
+T: Wha'd Be King But Charlie
+C: Cape Breton/Scotland
+R: Jig
+S: arr. T. Traub 11-3-02
+M: 6/8
+L: 1/8
+K: Am
+B \
+| "Am"c2B AGE | "Am"c2B    AGE |  "C"c2E     EDE |  "G"G3 GAB \
+| "Am"c2d e2a | "Am"age "G"ded | "Am"c2A "Em"AGE | "Am"A3 A2 :|
+|: B \
+| "Am"c2A c2d | "Am"eag    e2d | "Am"c2A     c2d | "Em"e3 "G"GAB \
+| "Am"c2d e2a | "Am"age "G"ded | "Am"c2A "Em"AGE | "Am"A3    A2 :|
+S:https://www.folktunefinder.com/tunes/15249
+S:http://trillian.mit.edu/~jc/music/abc/jig/WhadBeKingButCharlieJ_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WhadBeKingButCharlieJ_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

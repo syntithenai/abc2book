@@ -1,0 +1,24 @@
+X:21
+T:The Longford Collector
+R:reel
+O:
+M:C
+L:1/8
+K:G
+"G" ~G3 A Bdef | "Em" eB ~B2     eBdB  | "G" ~G3   A    BcdB | "Am" AcBA        GEDE |
+"G" ~G3 A Bdef | "Em" eB  BA "D" B2 ef | "G" gbaf (3(gfe) dB | "Am" AcBA "Em/C" GEDE :|
+"G" ~g3 a gedf | "Em" eB ~B2 "D" d2 ef | "G" (3(gag) fa gedB | "Am" AcBA      GE ~E2 |
+"G" ~g3 a gedf | "Em" eB ~B2 "D" d2 ef | "G" gb (3(agf) gedB | "Am" AcBA "Em/C" GEDE :|
+S:https://www.folktunefinder.com/tunes/66705
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

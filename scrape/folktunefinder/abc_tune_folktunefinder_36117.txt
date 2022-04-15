@@ -1,0 +1,24 @@
+X:190
+T:Another roros pols
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de7.html
+%%ID:00000de7
+K:D
+|: "D"F2 (A<F) D>(F | "Em"G2) (B<G) E>(B | \
+"A7"c2) (e<c) A>(c  |1 "D"d2) (f<d) A>G :|2 "D"d2 d4 ::
+"D"{e}f2 (f<d) f>(f | "Em"g2) (g<f) e>(d \
+|1 "A7"c2) (e<c) e>(g | "D"f2) (f<e) d2 \
+:|2 "A7"c2 (e<c) ((3AB)c | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/36117
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

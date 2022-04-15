@@ -1,0 +1,22 @@
+X: 1
+T: Oige ja Vasemba
+O: Estonia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+A/A/ \
+| "D"Ad "A"ce | "D"dc "A"BA/A/ | "D"Ad "A"ce | "D"d2 zA/A/ \
+| "D"Ad "A"ce | "D"dc "A"BA/A/ | "D"Ad "A"ce | "D"d2 z2 ||
+[| "Bm"f2 f>e | dc B2 | "Em"e2 e>d | "A"cB A2 \
+| "Bm"f2 f>e | dc B2 | "E7"e2 e/d/c/B/ | "A"AA A |]
+S:https://www.folktunefinder.com/tunes/16172
+S:http://trillian.mit.edu/~jc/music/abc/polka/OigeJaVasemba_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/OigeJaVasemba_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/OigeJaVasemba_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

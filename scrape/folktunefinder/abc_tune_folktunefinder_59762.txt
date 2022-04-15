@@ -1,0 +1,41 @@
+X:875
+T:Xiraldilla (CT 381)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 381
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|B2 c|dee|edc|B2 z|
+B2 c|dee|e2 d|
+B2 c|dee|e2 d|edc|B3|
+ABc|e2 d|edc|B3|
+ABc|e2 d|edc|B2 z||
+W:Eso no, seor mdico, no,
+W:que no es esa la vena
+W:la que a mi me da pena,
+W:seor dotor;
+W:ms abajito
+W:tengo el dolor,
+W:que me da al lado
+W:del corazn
+W:
+S:https://www.folktunefinder.com/tunes/59762
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

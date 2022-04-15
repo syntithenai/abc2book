@@ -1,0 +1,27 @@
+X:2922
+T:Cherish the Ladies
+Z: id:dc-jig-18
+M:6/8
+L:1/8
+K:D Major
+A|dFF AGF|DFA AFA|BEE GEE|BdB ABc|!
+dFF AGF|DFA AFA|Bcd efg|fdc d2:|!
+A|dfd cec|BdB AFA|BEE GEE|BdB ABc|!
+dfd cec|BdB AFA|Bcd efg|fdc d2:|!
+B|Add fdd|add fdd|BAB gfg|ece gfe|!
+[1 Add fdd|add fdd|fdB AGF|GEF GF:|!
+[2 afa bgb|afa gfe|fdB AGF|GEF GF|]!
+E|A3 AGF|AGF AdB|A3 AGF|GEF GFE|!
+A3 AGF|AGF AB=c|BGB AFA|GEF GF:|!
+E|DFA dAF|DFA BGE|DFA dAF|GEF GFE|!
+DFA dfd|cec AB=c|BGB AFA|GEF GF:|!
+S:https://www.folktunefinder.com/tunes/29202
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

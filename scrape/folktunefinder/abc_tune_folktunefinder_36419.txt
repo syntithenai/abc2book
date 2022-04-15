@@ -1,0 +1,27 @@
+X:1700
+T:Fannikedans
+T:Hans Madsens kiste
+A:Fan
+C:e. Grner Nielsen
+L:1/8
+M:2/4
+O:Denmark
+Q:1/4=108
+R:Fannikedans
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b36.html
+%%ID:00000b36
+K:G
+D|\
+G>B dB| ce ec| BG A/B/A| GD DD|\
+G>B dB| ce ec| BG A/B/A| G2 G>g|
+fd de/f/| gg gg| fd de/f/| g2 gB| \
+ce e>c| Bd d>c| BG A/B/c/A/| G2 Gz |]
+S:https://www.folktunefinder.com/tunes/36419
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Fannikedans
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

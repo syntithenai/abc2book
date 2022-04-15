@@ -1,0 +1,50 @@
+X:1
+T:Starceska Racenica
+T:AABBCCDD
+C:Trad.
+O:Bulgaria
+R:racenica
+S:John Chambers
+Z:John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+P:AABBCCDD
+Q:2/8=150
+M:7/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 1 75
+%%MIDI bassprog 34
+%%MIDI bassvol 55
+%%MIDI gchord f2f2f3
+%%MIDI drumon
+%%MIDI drum d2d2d2d 41 43 41 37
+P:A
+ "a"|: ABcd ~c2G | cB{c}BG c2G | cB{c}BG ABG | |1 A2cd {e}dcB :|2 A2AE Az2 ||
+P:B
+ |: cB{c}BG AEE | FG~A2 AGA | cB{c}BG AEE | |1 FG~A2 Ad{e}d :|2 FGA2 Az2 ||
+P:C
+K:A
+ |: ed~c2 AEE | AB{c}BA ABc | dBc2 AEE |1 AB{c}BA Ade :|2 AB{c}BA Az2 ||
+P:D
+ |: ~A2z2 dz2 | ~c2z2 edc | ~A2z2 dz2 |1 ~c2z2 Ade :|2 ~c2z2 B2A ||
+W:Transcription: J. Chambers
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/58668
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/StarceskaRac.abc
+S:http://people.csail.mit.edu/jaffer/Music/StarceskaRac.abc
+S:http://voluntocracy.org/Music/StarceskaRac.abc
+S:http://www.voluntocracy.org/Music/StarceskaRac.abc
+% Rhythm Racenica
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

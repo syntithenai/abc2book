@@ -1,0 +1,29 @@
+X: 1
+T:Tom Jones. WCl.08
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:D
+"No time sig. in ms"a3 g3|fdf ece|d2f ece|d2f ece|!
+dcd ede|fef ^gf^g|a2d cdB|A3 A3::!
+D2F E2G|F2A EFG|F2d AB"sic"^c|B3 B2F|!
+GFG AGA|BAB cBc|d2G FGE|D3 D3:||
+S:https://www.folktunefinder.com/tunes/15178
+S:http://trillian.mit.edu/~jc/music/abc/jig/Tom_Jones_WCl_08_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Tom_Jones_WCl_08_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Tom_Jones_WCl_08_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

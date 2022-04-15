@@ -1,0 +1,26 @@
+X: 1
+T: Jacky's Return
+R: jig
+B: RSCDS __-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+(3c/d/e/ \
+| "F"f2F F2A | "Bb"B2d "C7"G2B | "F7"AGF "Dm7"cBA | "Gm"A3 "C7"G2(3c/d/e/ \
+| "F"f2F F2A | "Bb"B2d "C7"G2B | "F7"AGF      cBA | "C7"G3  "F"F3 :|
+|: "F"cdc       f2g | "F"a2f      f3      | "Bb"def "F"cBA | "Gm"B2G "C7"G2c \
+|  "F"fcf "(Dm)"afa | "F"c'af "Bb"[d'3b3] |  "F"afd    cAF | "C7"G2F "F"F3 :|
+S:https://www.folktunefinder.com/tunes/14393
+S:http://trillian.mit.edu/~jc/music/abc/jig/JackysReturn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JackysReturn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JackysReturn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JackysReturn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JackysReturn.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Yellow Barber
+M:2/4
+L:1/8
+S:GerryMilnes
+Z:Andrew Kuntz/Fiddler's Companion tradtunes 2002-4-14
+K:D
+A,/B,/D/E/DD/D/|A,/B,/D/E/ F/E/D|C/D/E E>(A,/2B,/4|C)E G/F/E|!
+E/F/AAA/A/|B/A/F/G/ A g/f/|(3f/g/f/e (3d/e/d/B|A/F/E/F/ D2:|!
+|:(A<d)d>B|Ad/e/ f/e/d|c/d/e/f/ ee/d/|ce/f/ g/f/e|!
+f/a/f/f/ e/d/B/d/|B/A/F/G/ AA/A/|((3f/g/f/e)((3d/e/d/B)|A/F/E/F/ D2:|!
+S:https://www.folktunefinder.com/tunes/18330
+S:http://trillian.mit.edu/~jc/music/abc/reel/YellowBarber_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/YellowBarber_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/YellowBarber_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/YellowBarber_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

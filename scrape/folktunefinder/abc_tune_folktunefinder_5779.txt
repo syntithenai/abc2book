@@ -1,0 +1,25 @@
+X: 2
+T: Kuma Echa [Em]
+O: Israel
+R: hora
+M: 4/4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+L: 1/4
+K: Em
+P: Intro
+| "Em"EG2F | E2E2 | "C"EG2F | E2E2 | "Am"EG2F | "B7"E2^D2 | "Em"E4- | E4 ||
+|: "Em"EG2F | E2E2 | "C"EG2"D7"A | "G"B4 | GB2A | G2G2 | GB2c | d4 |
+| "G"Bd2c | "Em"B2B2 | "Am"Ac2B | "(B7)"A4 | "Em"GB2A | "Am"G2F2 | "B7"G/F/EFF | "Em"E4 ||
+|| "Em"(3B/c/d/e2e | e2e2 | e/f/g2f | e4 | "G"Bd2d | d2d2 | "Dm"d/e/=f2e | d4 |
+| "Am"dc2c | c2c2 | "Em"{B}eB2B | B4 | "Am"BA2A | "B7"A2A2 | "Em"G/F/E"B7"FF | "Em"E4 :|
+S:https://www.folktunefinder.com/tunes/5779
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KumaEcha.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/KumaEcha.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/KumaEcha
+% Rhythm Hora
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

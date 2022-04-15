@@ -1,0 +1,28 @@
+X:1
+T:4. Rigaudon 2
+C:J.P. Rameau (1683-1764)
+Z:Klas Krantz 16/2 2006
+Q:&quot;Allegro&quot;
+L:1/8
+M:C
+K:D
+AG | &quot;D&quot;F2D2D2&quot;A&quot;E2 | &quot;D&quot;{FG}F2EFD2A2 | &quot;G&quot;B2A2&quot;A&quot;{GA}G4 | &quot;D&quot;FGFE D2AG |
+&quot;D&quot;F2D2D2&quot;A&quot;E2 | &quot;D&quot;{FG}F2EFD2A2 | &quot;G&quot;B2A2&quot;A&quot;{GA}G4 | &quot;D&quot;{GFG}F6FG |
+&quot;D&quot;A2D2D2d2 | &quot;G&quot;d2G2G2e2 | &quot;D&quot;{cd}c2d2&quot;A7&quot;e2f2 | &quot;A&quot;edcB A2ef |
+&quot;G&quot;g2B2B2cd | &quot;A&quot;e2A2&quot;D&quot;A2dc | &quot;em7&quot;Bcde &quot;A&quot;~c3d | &quot;D&quot;d6  ef |
+&quot;G&quot;g2dc &quot;em7&quot;B2cd | &quot;A7&quot;e2cB&quot;D&quot;A2dc | &quot;D&quot;BAGF&quot;A&quot;~E3D | &quot;D&quot;D6 |]
+&quot;D O U B L E&quot;AG | FGFE DFEG | FGFE DAdA | B=cAB GFGA | FGFE DdAG |
+FGFE DFEG | FGFE DAdA | B=cAB GFGA | {GFG}F6 FG |
+AGFE DAdA |BAGF GBeB | cAdA eAfA | edcB Afef |
+gdcd Bdcd | edcB Adcd | Bcde ~c3d | d4-dfef |
+gdcd Bdcd | edcB Adcd | BAGF ~E3D | D6 |]
+S:https://www.folktunefinder.com/tunes/52699
+S:http://www.thesession.org/tunes/display/2673
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

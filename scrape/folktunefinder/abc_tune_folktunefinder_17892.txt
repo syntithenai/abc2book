@@ -1,0 +1,31 @@
+X:1
+T:Possum Up a Gum Stump [2]
+L:1/8
+M:2/4
+S:Howdy Forrester, transcribed by John Hartford
+F:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+K:C
+|: \
+e2g2 | g/e/a/g/ e/g/g |\
+e2 gg/a/ | g/e/d/c/ A/c/c |
+e2g2 | g/e/a/g/ eg/g/ |\
+c'b ag | e/g/a/g/ e/d/c :| 
+|: \
+E/(c/c) c>d | c/A/G/c/ A/B/c |\
+G,/C/E/G/ A/B/c/d/ | c/A/G/E/ D/A,/C | 
+G,/C/E/G/ A/B/c/d/ | c/A/G/c/ A/c/c |\
+e2 e>d | c/A/G/E/ D/C/C :|
+S:https://www.folktunefinder.com/tunes/17892
+S:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+S:http://trillian.mit.edu/~jc/music/abc/reel/PossumUpAGumStump2_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PossumUpAGumStump2_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/PossumUpAGumStump2_C.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

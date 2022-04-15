@@ -1,0 +1,36 @@
+X:73
+T:Nina Wara
+R:jig
+C:A.Villaneuva
+S:Sumaj Rumi
+N:From band called Sumaj Rumi (now known as Markasa)
+N:Rhythm is originally Callawaya
+O:Bolivia
+Z:Mike Minchin (05/06)
+P:A (intro); B ad infinitum (or longer)
+M:6/8
+L:1/8
+Q:68
+K:Em
+P:A
+BAG EGA|BGe d2z|ece ged|BAG B2z|
+BAG EGA|BGe d2z|ged dBG|BAG E3 |
+BAG EGA|BGe d2z|ece ged|BAG B2z|
+BAG EGA|BGe d2z|ged dBG|BAG E3 ||
+P:B
+Bdd ded|B2A G3|egg gag|e2d B3|
+Bdd ded|B2AG3|EGA BAG|E3- E2z:|
+BAG d3|BAG E3|egg gag|e2d B3|
+BAG d3|BAG E3|EGA BAG|E3- E2z:|
+S:https://www.folktunefinder.com/tunes/52289
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: Lennox Love to Blantyre
+R: strathspey
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Nathaniel Gow's Repository.
+N: Published in Bremner's Collection 1757 - and older.
+M: C
+L: 1/8
+K: F
+|: "C7"C \
+| "F"F2 F>G A>G F>A | "Gm"G<G "(F)"A>c "C7"d>c d>e \
+| "Dm"f>g f>d "(F)"c>A F>A | "Gm"B>G "(A)"A>F "Dm"D/D/D D :|
+f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f b>a "C"g2 "F"f>d |
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"f>g a>f | "Gm"g>f b>a "C7"g2"F"f |]
+S:https://www.folktunefinder.com/tunes/19469
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LennoxLoveToBlantyreS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LennoxLoveToBlantyreS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LennoxLoveToBlantyreS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

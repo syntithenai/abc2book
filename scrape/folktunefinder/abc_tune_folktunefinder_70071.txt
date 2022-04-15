@@ -1,0 +1,27 @@
+X:511
+T: DIE LUFT IST BLAU
+N: F0978
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Jahreszeiten - Lied, Fruehling
+M: 2/4
+L: 1/16
+K: G
+d2 | d3cB2B2 | BcBAG2
+d2 | g2fed3B | ABcdB2
+B2 | A3dfed^c | e4d2
+D2 | c3BA2A2 | dedcB2
+Bc | d2Bcd2Bc | d4B2
+d2 | g3dedcB | A4G2
+S:https://www.folktunefinder.com/tunes/70071
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur -, jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 2
+T: Athole Brose
+T: Buckingham House
+C: Abraham Macintosh (1769-)
+B: H&C p.113 (Am/A); Skye p.73 (D/Dm); Carlin #5 (D/Dm); Kerrs #2 p.17
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Several books label this tune "Niel Gow's Favorite"; published versions vary greatly.
+M: 4/4
+L: 1/8
+K: Gdor
+d \
+|: "Gm"B>G ~G2 D<G G>A | B>G ~G2 "Cm"c/d/e "D7"d>c  | "Gm"B>G ~G2 D<G G>B | "F"(3ABc F>c f>c A>F :|
+|: "Gm"G<g g>f g>a g>f | d<g g>a b>g "D7"a>^f | "Gm"g>a b>g a>^f g>e | "F"=f>d c<f A<F c>A :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/9916
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AtholeBrose.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

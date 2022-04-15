@@ -1,0 +1,26 @@
+X:11
+T: ICH HAB MEIN SACH AUF NICHTS GESTELLT
+N: F0045
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 4/4
+L: 1/8
+K: D
+A,2 | D2C2D2E2 | F3ED2F2 | E4z2
+A,2 | E2D2E2F2 | G3FE2E2 | F4z2
+F2 | F3FF2E2 | D2C2D2
+B,2 | E3EE2D2 | C2B,B,C2
+A,2 | F3ED2C2 | B,2B,2D2
+B,2 | A,2D2C2E2 | D2z4
+S:https://www.folktunefinder.com/tunes/69571
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 4
+T:Swallowtail Jig
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:Em
+F|"Em"GEE BEE|GEE BAG|"D"FDD ADD|dcd "(Bm)"AGF|
+"Em"GEE BEE|GEE B2c|"G"dcd "D"AGF|1 "Em"GEE E2:|2 "Em"GEE E3|:
+"Em"Bcd e2f|e2f edB|Bcd e2f|edB "D"d3|
+"Em"Bcd e2f|e2f edB|"G"dcd "D"AGF|"Em"GEE E3:|
+S:https://www.folktunefinder.com/tunes/50512
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

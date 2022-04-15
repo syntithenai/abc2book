@@ -1,0 +1,24 @@
+X:399
+T: MIR BLUEHET KEIN FRUEHLING
+N: B0472
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: G
+D2 | B4cBAG | FAc2z2
+D2 | c4dcBA | GBd2z2
+G2 | Gee4d2 | d^c=c2z2
+c2 | B3ddcBA | A2G2z2
+S:https://www.folktunefinder.com/tunes/78420
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

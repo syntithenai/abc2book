@@ -1,0 +1,41 @@
+X:2271
+T:Spla-Foot Nancy
+O:ireland
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:There was a half-comic song to this air, composed in my own time by a local
+H:bard, ridiculing a neighbour, a big bony ungainly girl, universally known as
+H:"Spla-foot Nance."  I remember just one verse:
+W:There was Spla-foot Nancy
+W:To try her chance,
+W:  She took a notion of a man:
+W:She stood on her toes
+W:And says she: "Here goes;
+W:  I'll cock my hat at Shaun MacCann."
+W:So Spla-foot Nance
+W:Began to dance
+W:  And off to Shaun's little house she ran;
+W:But his mother rushed out
+W:With a terrible shout:
+W:  "How daar you come coortin to Shaun MacCann"
+R:song
+L:1/8
+M:6/8
+K:G
+B/A/|\
+G2 A B2 d|e2 d g2 f|efg d2 B|c2 A A2 B/A/|
+G2 A B2 d|e2 d g2 e|=f2dc2 A|A2 G G2||d|
+g2 f e2 d|e2 f gfe|d2 B c2 d|e2 A A2 B/A/|
+GAG BAB|def g2 e|=fef dcA|A2 G G2||
+S:https://www.folktunefinder.com/tunes/42699
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

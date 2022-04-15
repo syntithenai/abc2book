@@ -1,0 +1,19 @@
+X: 2
+T: Russian Freilach (Dm)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"d2 Ad | Ad Ad | f2 df | df df | a2 fa | "Gm"g2 eg |1,3 "Dm"f2 df | "A7"e2 a2 :|2,4 "A7"f2 ed | "Dm"d4 :|
+|: "Dm"za bc' | ba gf | za bc' | ba gf | za bc' | "D7"d'c' ba | "Gm"g2 ba | g4 |
+| "C7"zg ab | c'b ag | "F"f2 ag | f3 f | fc cf | "Eb/Cm"f_e ed | "Dm"d4- | d4 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7761
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Freilach5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

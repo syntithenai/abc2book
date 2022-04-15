@@ -1,0 +1,25 @@
+X: 1
+T:Leeds Polka,The
+M:2/4
+L:1/8
+Q:200
+R:Polka
+S:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2001-03-01
+Z:C.G.P
+K:D
+|: dg g/f/g/e/ | dgB2 | Aff2 | Bgg2 | dg g/f/g/e/ | dgB2 | Af af | ggg2 :|
+|: A/d/f fa | ag g/f/e | A/c/e eg | gf fe/d/ | A/d/f fa | ag g/f/e | A/c/eA/c/e | ddd2 :|
+|: D/G/B BB | D/G/B BB | =c/B/A c/B/A | GB ed | D/G/B BB | D/G/B BB | =c/B/A c/B/A | G2 g2 :|
+S:https://www.folktunefinder.com/tunes/16144
+S:http://trillian.mit.edu/~jc/music/abc/polka/LeedsPolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/polka/LeedsPolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LeedsPolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LeedsPolka_D_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:494
+T: "Die Entfuehrung"
+N: Z1174
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: G
+ | G12 | A8d4 | d12
+B2c2d4A4 | G8z4
+d2c2B4d4 | e2d2c2B2c4
+c2B2A4d2d2 | B6c2B4
+G12 | A8e4 | d12
+B2c2d4A4 | G8z4
+d2c2B4d4 | e2d2c2B2c4
+c2B2A4d4 | B6c2B4
+G12 | A8e3d | d12
+B2c2d4A4 | G12
+S:https://www.folktunefinder.com/tunes/69353
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

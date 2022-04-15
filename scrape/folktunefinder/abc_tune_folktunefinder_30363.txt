@@ -1,0 +1,26 @@
+X:270
+T:Sussie
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000fe.html
+%%ID:000000fe
+K:D
+B|\
+A>FD>F| E>FGB| A>FD>F| Addc/B/|\
+A>FD>F| E>FGB| AF D/E/F/G/| Add::
+A|\
+d>fe>g| f>dcA| d>feg| f(aa)f|\
+g>feg| f>dcA| Bd e/d/c/B/| Add:|
+S:https://www.folktunefinder.com/tunes/30363
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

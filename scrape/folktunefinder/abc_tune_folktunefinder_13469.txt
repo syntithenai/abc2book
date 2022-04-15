@@ -1,0 +1,32 @@
+X: 1
+T: Back Shore Hornpipe
+C: Drummond Cook
+R: hornpipe
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: Printed MS from Sylvia Miskoe
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"AFDF "A"A^GAB | "D"AdcB A2dc \
+| "Em"Beef gf"E7"ed | "A7"c2a2 a2ag |
+| "D"fagf "A"ecAc | "Bm"dfed "F#m"c2BA \
+| "G"BdcB "A7"Aedc | "D"d2D2 D2 :|
+|: cd \
+| "A7"ecA2 Aede | "D"fdA2 Afef \
+| "Em"gaba gf"E7"ed | "A7"c2a2 a2ag |
+| "D"fagf "A"ecAc | "Bm"dfed "F#m"c2BA \
+| "G"BdcB "A7"Aedc | "D"d2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/13469
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/BackShoreHp_D_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/BackShoreHp_D_4.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

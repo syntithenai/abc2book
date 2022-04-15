@@ -1,0 +1,35 @@
+X: 43
+T:Aria. TLY.042
+M:3/8
+L:1/8
+Q:40
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+N:25 bar marked cresc. 32nd. bar first crotchet marked pause, last quaver
+N:A marked p. 45th. bar marked fort
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+A|ddd|d2e| (fg).e|d2e| fff| f2g| (ab).g| f2 (d'/c'/)|!
+ bbb| b2 (b/a/)| ggg|g2 (a/g/)| (fe).d| (ag).f| eee|e2:|!
+A|aaf| g2e| ffd| e2A| d2d| e2e|f>af| e2a|!
+"Cres." b>c'b| (d'c').b| a>ba| (ba).g|f>ga| (ag).f| eee| e2A|!
+A>BA|AB=c| (=c3|B2) B|B>cB|Bcd|(d3|c2) A|!
+BdB| cec| dfd| ege| f>ga| (gf).e|d'3| b3|!
+ a>gf| (gf).e| d'3| bc'd'| a>gf| (gf).e| ddd|!
+ d/c/d/e/f/g/| afd| (AB).c|dd'd'|d'3:|]
+S:https://www.folktunefinder.com/tunes/37576
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

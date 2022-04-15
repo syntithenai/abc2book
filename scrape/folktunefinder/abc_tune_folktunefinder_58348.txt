@@ -1,0 +1,23 @@
+X: 1
+P:MacLeod of Mull
+R:jig
+C:Donald MacLeod
+C:arr. Matt Petrie, mods. by T. Traub 6-27-03
+M:6/8
+K:Eb
+L:1/8
+|: f|"Cm"g2 c c>dB|"Cm"c>df g2 b|"Bb"f>df g>fd|"Gm" B>cd f2 g|"Cm"b>dd c>dB|"Cm"c>df g2 f|"Eb"g>bb "Bb"gfd "Cm"c2 :|
+|: g|"Eb"b2 g b>gg|"Bb"f>gb "F"g2 d|"Bb"f>df g>fd|"Bb"B>cd f2 g|"Eb"b2 g "Bb"b>gg|"Gm"f>gb "Cm"g2 f|"Eb"g>bb "Bb"gfd "Cm"c2 :|
+|: g|"Cm"c>dB c3|"Cm"c>df "F"g>ab|"Bb"dBB "Gm"d<fg|"Cm"c>dB c3|"Cm"c>df g2 f|"Eb"g>bb "Bb"gfd "Cm"c2 :|
+|: g|"Eb"b>gg f>gg|"Cm"c>gg "F"g2 f|"Eb"g>bb "Bb"f>gg|"Bb"B>ff f2 g|"Gm"b>gg "Bb"f>gg|"Cm"c>gg g2 f|"Eb"g>bb "Bb"gfd "Cm"c2 :|
+S:https://www.folktunefinder.com/tunes/58348
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FlightsOfFancySetPipes.abc
+S:http://terrytraub.org/abc/FlightsOfFancySetPipes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

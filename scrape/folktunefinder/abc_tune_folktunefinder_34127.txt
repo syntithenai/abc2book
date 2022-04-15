@@ -1,0 +1,36 @@
+X: 6216
+T:Pay the Piper
+R:Reel
+O:England
+N:1994
+M:4/4
+C:Andy Hornby
+A:Lancaster
+K:G
+dB | \
+G2GA BGGA | BGdG edBG | A2AB cAFA | cAeA cBAF | \
+G2GA BGGA | BGdG edBG |
+A2AB cAfe | dcAF G2 :: \
+Bc| \
+dggf gBBc | dggf g2AB | cAeA cBAB | cAfe dcBA |
+Gggf gBBc | dggfg2 AB | cAfe dcAF | AGGF G2:|\
+|:AG | \
+FAAB cAAG | FAAB cAdc |
+BGGF G2GA |  GBdB cBAG |\
+FAAB cAAG | FAAB cAdc | B2dB cAFG | AGGF G2 ::
+Bd | \
+gdBd gdBd | gfed gdBd | fcAB cAfA | cBAB cdef |
+gdBd gdBd | gfed gdBd | fcAB cAfe |dcBA G2 :|
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/34127
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

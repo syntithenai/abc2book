@@ -1,0 +1,36 @@
+X: 1
+T: Kolo Kalendara
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Play twice in each key.
+N: Typical tamburica-band kolo, very bouncy.
+N: Best with lots of mandolin-type instruments.
+M: C|
+L: 1/8
+P: C
+K: C
+|: "C"[g2e][fd][ec] [g2e][fd][ec] | [g2e][fd][ec] "G7"[d4G] :| \
+|: "C"[c2G]-[cG][d/B][e/c] "G7"[fd][ec][fd][ge] | "C"[e2c]-[ec][f/d][e/c] "G7"[d4G] :|
+P: G
+K: G
+|: "G"[d2B][cA][BG] [d2B][cA][BG] | [d2B][cA][BG] "D7"[A4D] :| \
+|: "G"[G2D]-[GD][A/F][B/G] "D7"[cA][BG][cA][dB] | "G"[B2G]-[BG][c/A][B/G] "D7"[A4D] :|
+P: D
+K: D
+|: "D"[a2f][ge][fd] [a2f][ge][fd] | [a2f][ge][fd] "A7"[e4A] :| \
+|: "D"[d2A]-[dA][e/c][f/d] "A7"[ge][fd][ge][af] | "D"[f2d]-[fd][g/e][f/d] "A7"[e4A] :|
+P: A
+K: A
+|: "A"[e2c][dB][cA] [e2c][dB][cA] | [e2c][dB][cA] "E7"[B4E] :| \
+|: "A"[A2E]-[AE][B/G][c/A] "E7"[dB][cA][dB][ec] | "A"[c2A]-[cA][d/B][c/A] "E7"[B4E] :|
+S:https://www.folktunefinder.com/tunes/264
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/KoloKalendara.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/KoloKalendara.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KoloKalendara.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

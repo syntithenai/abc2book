@@ -1,0 +1,64 @@
+X:17
+T:Lilting Fisherman & Friends
+R:jig
+M:6/8
+L:1/8
+Q:3/8=135
+K:Gmaj
+B|dBG GBd|gfg ege|dBG GFG|AFD cBc|
+dBG GBd|gfg ege|dBG FGA|BGF G2:|
+K:D Major
+B|ABA AFA|fgf f2e|dfe dcB|ABA AFG|
+AFA AFA|BGB Bcd|cec ABc|dfe d2:|
+K:G Major
+B|dBG GBd|gfg ege|dBG GFG|AFD cBc|
+dBG GBd|gfg ege|dBG FGA|BGF G2:|
+K:D Major
+B|ABA AFA|fgf f2e|dfe dcB|ABA AFG|
+AFA AFA|BGB Bcd|cec ABc|dfe d2:|
+K:G Major
+B|dBG GBd|gfg ege|dBG GFG|AFD cBc|
+dBG GBd|gfg ege|dBG FGA|BGF G2:|
+K:D Major
+B|ABA AFA|fgf f2e|dfe dcB|ABA AFG|
+AFA AFA|BGB Bcd|cec ABc|dfe d3:|
+P:Out in the ocean
+K:G Major
+|:D2B BAG|BdB A2B|GED G2A|B2B AGE|
+D2B BAG|BdB A2B|GED G2A|BGE G:|
+Bd|e2e edB|ege edB|d2B def|gfe dBA|
+G2A B2d|ege d2B|AGE G2A|BGE G:|
+|:GE|D2B BAG|BdB A2B|GED G2A|B2B AGE|
+D2B BAG|BdB A2B|GED G2A|BGE G:|
+Bd|e2e edB|ege edB|d2B def|gfe dBA|
+G2A B2d|ege d2B|AGE G2A|BGE G:|
+|:GE|D2B BAG|BdB A2B|GED G2A|B2B AGE|
+D2B BAG|BdB A2B|GED G2A|BGE G:|
+Bd|e2e edB|ege edB|d2B def|gfe dBA|
+G2A B2d|ege d2B|AGE G2A|1 BGE G:|2 BGE G2||
+K:A Major
+f|"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cBB "Bm"B2f|
+"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cAA "F#m"A2f:||
+A|"A"cee "D"dff|"A"cee "A"ecA|"A"cee "D"dff|"A"ecA "Bm"B2A|
+"A"cee "D"dff|"A"cee "A"ecA|"Bm"Bdc "Bm"BAB|"A"cAA "A"A2:||
+f|"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cBB "Bm"B2f|
+"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cAA "F#m"A2:||
+A|"A"cee "D"dff|"A"cee "A"ecA|"A"cee "D"dff|"A"ecA "Bm"B2A|
+"A"cee "D"dff|"A"cee "A"ecA|"Bm"Bdc "Bm"BAB|"A"cAA "A"A2:||
+f|"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cBB "Bm"B2f|
+"A"ecA "Bm"BAF|"A"AFE "A"EFA|"Bm"Bdc "Bm"BAB|"A"cAA "F#m"A2:||
+A|"A"cee "D"dff|"A"cee "A"ecA|"A"cee "D"dff|"A"ecA "Bm"B2A|
+"A"cee "D"dff|"A"cee "A"ecA|"Bm"Bdc "Bm"BAB|"A"cAA "A"A2:||
+S:https://www.folktunefinder.com/tunes/2114
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

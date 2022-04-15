@@ -1,0 +1,25 @@
+X:2880
+T:the Kesh
+T:the Kincora Jig
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000856.html
+%%ID:00000856
+K:G
+G3 GAB|ABA ABd|edd gdd|edB dBA|\
+G3 GAB|ABA ABd|edd gdB|AGF G2:|
+|:A|\
+B3 dBd|ege dBG|BAB dBG|ABA AGA|\
+B3 dBd|ege dBd|g2g aga|bgg g2:|
+S:https://www.folktunefinder.com/tunes/36655
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

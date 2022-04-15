@@ -1,0 +1,26 @@
+X:4285
+T:Plant un Chou
+M:2/4
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b95.html
+%%ID:00000b95
+K:C
+e2d2 cBcd| f2e2 d4| gagf edef |1 e2d2 e2c2 :|2 e2d2 c4 ||\
+e2e2 f3e| dcde c4|
+d2d2 efed| c2B2A4 | \
+ABcA d2d2| cBcd e2e2| ABcd efed| c2d2 e2A2|
+e2e2 a3g| fedf e2c2| ABcd efed| c2d2 e2A2| \
+e2e2 a3g| fedf e2c2| ABcd efed| c2B2 A4|]
+S:https://www.folktunefinder.com/tunes/36936
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

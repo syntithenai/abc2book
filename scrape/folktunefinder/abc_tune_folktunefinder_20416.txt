@@ -1,0 +1,31 @@
+X: 1
+T: O Tannenbaum
+T: O Christmas Tree
+N: Similar to an old student song `Lauriger Horatius'.
+N: The Maryland state song is based on this tune.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| "G"G>G G2 "D7"A2 \
+| "G"B>B "(Em)"B3 B \
+| "Am"AB c2 "D7"F2 \
+| A2 "G"G2 :| zd \
+| "G"dB "C"e3 d \
+| "D7"dc c3 c |
+| cA d3 c \
+| "G"cB B2 "D7"D2 \
+| "G"G>G G2 "D7"A2 \
+| "G"B>B B3 B \
+| "Am"AB c2 "D7"F2 \
+| A2 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/20416
+S:http://trillian.mit.edu/~jc/music/abc/xmas/OTannenbaum_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/xmas/OTannenbaum_G.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

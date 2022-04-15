@@ -1,0 +1,25 @@
+X:116
+T: Pfaff und Ziegeldeckers Frau
+N: A0473
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 16.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+c2 | c2c2c2B2 | A2A2G2
+B2 | A2F2G4 | F4z2
+F2 | B2B2c2c2 | d2d2c2
+d2 | c2B2c2G2 | A2d2c3B | A2F2G4 | F6
+S:https://www.folktunefinder.com/tunes/80175
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

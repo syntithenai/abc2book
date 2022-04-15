@@ -1,0 +1,39 @@
+X:12
+T:Il est bien temps
+R:Bourre  2 temps
+O:France
+A:
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+E2|:\
+A4B2c2|B3A ^G2E2|A4B2c2|d3c B2c2|A4B2c2|B3A ^G2E2|A3c B2^G2|[1 A6E2:|:[2A8|:
+A4B2c2|d3c B2c2|e4^d2c2|BcBA ^G2E2|A4B2c2|d3c B2c2|A3c B2^G2|A8:|
+T:La bergre de Coulandon
+%R:Bourre  2 temps
+%O:France
+%A:
+%C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Em
+c3c B2c2|A6Bc|d3c B2A2|B4G4|c4B2c2|A6Bc|d3c B2A2|G8:|:
+A3B A2G2|^F6G2|A3B c2A2|B4G4|A3B A2G2|^F6G2|A3B c2A2|G8:|
+%%footer $D   Galouvielle-MBe 2006 \nBourre  2 temps (France)
+S:https://www.folktunefinder.com/tunes/45780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Rhythm Bourre  2 temps
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

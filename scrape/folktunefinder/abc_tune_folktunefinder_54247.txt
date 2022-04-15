@@ -1,0 +1,23 @@
+X: 264
+T: Pjevaj_mi_Pvevaj
+T: Licko Kolo
+O: Croatia
+S: Deborah Jones VIFD Book 1
+M: 4/4
+L: 1/4
+Q: 1/4=120
+K: Edor
+%%MIDI program 70
+ F2 GF           | E2 D2        | [D2F2] [F2A2]|\
+ [FA][E2G2][DF]  |[D2F2][EG][DF]|
+ [A,2E2][A,2D2]  |[D2F2][F2A2]  |[FA][E2G2][DF]|\
+ [DF][DF][EG][DF]|[A4E4]        |
+S:https://www.folktunefinder.com/tunes/54247
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

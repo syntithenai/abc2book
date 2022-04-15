@@ -1,0 +1,24 @@
+X: 1
+P: B\aatsman D\"ack
+O: efter Ceylon Wallin
+R: hambo-polska
+M: 3/4
+L: 1/8
+O: efter Ceylon Wallin
+Z: John Chambers <jc@trillian.mit.edu>
+K: G
+|: "G"D>G B>G D>G | .B2 B4 | c>B A>G F>G | "D7".A2 A4 \
+|| D>F A>F D>F |  .c2 c4 | d>c B>A G>A | "G".B2 B4 :|
+|: "C"e2 e>d c>e | "G"d>d- d>c B>d | "D7"c>B A>G F>A | "G"G2 (3BGB d2 \
+|| "C"e2 e>d c>e | "G"d>d- d>c B>d | "D7"c>B A>G F>A | "G".G2 G4 :|
+S:https://www.folktunefinder.com/tunes/7867
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo4.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

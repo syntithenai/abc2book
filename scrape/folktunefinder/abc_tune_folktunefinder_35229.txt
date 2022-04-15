@@ -1,0 +1,24 @@
+X: 8012
+T:Waltz
+O:Sweden
+M:3/4
+R:Waltz
+K:Dmin
+EG|\
+F4 E2| D2 ^C2 D2| ^CD E2 D2| ^CD EF GE|\
+F4 E2| D2 ^C2 D2| ^CE A2 C2| D4 ::
+A,2|\
+A,2 F2 FF| F2 E2 D2| D2 GAGF| E2 F2 G2| \
+AB AG F2| EG FE D^C| DF E^C EC| D4 :|
+S:https://www.folktunefinder.com/tunes/35229
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

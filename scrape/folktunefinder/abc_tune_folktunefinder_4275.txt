@@ -1,0 +1,26 @@
+X: 15
+T: Miss Latons Hornpipe. JB.037
+T: Long Odds,aka. JB.037
+S:Jas.Blackshaw MS, 1837, N.Shropshire
+S:Chris Partington <ChrisTheFiddlerPartington:Hotmail.com> tradtunes 2009-2-4
+Z:Tony Weatherall 2006
+M:2/4
+L:1/8
+Q:1/2=3D90
+A:North Shropshire
+N:Hornpipe in the theatrical sense.
+R:.Hornpipe
+K:G
+|: G2GB | d2dB | e2ec | d2dB | G2GB | d2d2 | egga | g2g2 :|
+|: b2bg | a2af | g2ge | d2dB | G2GB | d2df | egga | g2g2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4275
+S:http://trillian.mit.edu/~jc/music/abc/England/new.abc
+% Rhythm .hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

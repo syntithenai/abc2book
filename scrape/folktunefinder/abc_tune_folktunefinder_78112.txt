@@ -1,0 +1,28 @@
+X:91
+T: IN EINEM THAL BEI ARMEN HIRTEN
+N: B0118A
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 4/4
+L: 1/8
+K: G
+DEF | G3BB3d | dcA2z
+DEF | G2BGdcAF | G4z
+DEF | G3BB3d | dcA2z
+DEF | G2BGdcAF | G4z
+ddd | cBAGGFED | EGG2z
+ddd | c2A2B2G2 | d4z
+cAF | G3BB3d | dBE2z
+Bce | edBGdcAF | G4-G
+S:https://www.folktunefinder.com/tunes/78112
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Beauty in Tears
+C:Turlough O'Carolan
+M:3/4
+L:1/8
+K:D
+A2 \
+| "D"d2 f2 a2 | f2 d2 B2 | "Em"ef gf ed | "G"fe dc BA \
+| "D"d2 fd ec | "G"d2 B2 G2 | "A7"A2 [B2G2] [c2G2] | "D"[d4F4] :|
+z2 \
+| "D"d2 f2 a2 | [d'2a2] a2 g2 | "Em"ed ef ga | "G"b2 g2 e2 \
+| "D"dc de fg | "Bm"a2 gf ed | "E7"e2 [a2e2] [^g2d2] | "A"[a4c4] |]
+f2 \
+|"Bm"f2 d2 B2 | B2 c2 d2 | "A"ef gf ed | "G"fe dc BA \
+| "D"d2 fd ec | "G"d2 B2 G2 | "A7"A2 [B2G2] [c2G2] | [d4F4] |]
+S:https://www.folktunefinder.com/tunes/19795
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BeautyInTears_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/BeautyInTears_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/BeautyInTears_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/BeautyInTears_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/BeautyInTears_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

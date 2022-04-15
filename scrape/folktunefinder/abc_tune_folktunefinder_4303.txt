@@ -1,0 +1,21 @@
+X: 1
+T: Hilu hilu
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: z2 | "D"AAAA AAAA | "G"B2BB BAGF | "A7"E2EE EGB2 | "D"A4 A2 :|
+|: A2 | "D"DDDD "E7"D2DD | "A7"C2E2 G2GG | "D"F2FF "A7"E2E2 | "D"D4 D2 :|
+S:https://www.folktunefinder.com/tunes/4303
+S:http://trillian.mit.edu/~jc/music/abc/Finland/HiluHilu_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/HiluHilu_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/HiluHilu_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/HiluHilu_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/HiluHilu_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

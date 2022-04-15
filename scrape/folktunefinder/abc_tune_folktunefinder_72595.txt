@@ -1,0 +1,24 @@
+X:138
+T: Et sass e kli waelt Vijeltchen
+N: D0220
+O: Europa, Mitteleuropa, Deutschland, Siebenbuergen
+N: Variante zum folgenden D0220A, Inzipit = Variante zum Lied
+R: Liebes - Ballade
+M: 3/4
+L: 1/16
+K: G
+D2 | G3GG6A2 | _B3AG4z2
+G2 | d2d2D2D2 | G4G4z2
+d2 | d3c_B6d2 | c3_BA4z2
+A2 | G3G_B6F2 | G4G4z2
+S:https://www.folktunefinder.com/tunes/72595
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:177
+T: Das Judaslied
+N: A0539C
+O: Europa, Mitteleuropa, Deutschland
+N: J. Ott III 1544 No. 12.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: F
+cccc | d2c2 | BBAG | F2z2
+cccc | d2BB | dd_ed | c2z2
+cccc | f2c2 | ddcc | B2z2
+cccd | c2A2 | BBGG | F4
+B2c2 | d2_e2 | c2=B2 | c4
+S:https://www.folktunefinder.com/tunes/80236
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

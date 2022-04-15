@@ -1,0 +1,27 @@
+X:531
+%%topmargin 3cm
+T:Bothan airidh'm Braighe Raineach
+T:The Shieling in the Braes of Rannoch
+C: From Capt. Fraser's Collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:3/4
+L:1/8
+K:Gm
+"Slow and pathetic." !p! G>A | d2 f2 =e>c | (d2 c)z G>A | d2 f2 =e>d | (c2 F) z c>A | c2 d2 c>d | (F2 G) z {/A}d>c | {/B}A2 F2 G2 | L(A2 G) z ||
+d>^f | g2 b2 a>g | (f2 d) z d>^f | g2 b2 a>g | (g2 d)z f>=e | (d2 c)z {/B}A>G | (F2 A)z {/A}d>c | {/B}A2 F2 G2 | (LA2 G)z |]
+S:https://www.folktunefinder.com/tunes/71560
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bothan_airidhm_Braighe_Raineach.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Shieling_in_the_Braes_of_Rannoch.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0531.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:478
+%%topmargin 3cm
+T:The Steam-Boat
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Hornpipe
+M:C
+L:1/8
+K:A
+(cd) | e2 ae c2 ec | A2 cA E2 AE | F2 BA GBec | decd B2 (cd) | e2 ae c2 ec | A2 cA E2 AE | Ffed cABG | A2 A2 A2 ||
+(cd) | e^def ecAc | dcde dBGB | ABcd efga | bagf edcd | e^def ecAc | dcde dBGB | Afed cABG | A2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/71507
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Steam_Boat.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0478.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

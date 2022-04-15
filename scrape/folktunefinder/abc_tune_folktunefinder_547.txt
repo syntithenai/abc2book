@@ -1,0 +1,30 @@
+X:88
+T:Fox-trott n1
+R:Fox-trott
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+%%continueall 1
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+M:C|
+L:1/4
+K:F
+cc dd | ed/e/ de | c2d2 | G4 | GA Bc | BA/B/ AG | c4- | c3z | cc dd | ed/e/ de | c2d2 | e4 | Ae dA |
+ed/e/ dG | c4- | c4 | Bc df | d4 | AB ce | c4 | GA Bc | d2ef | e2d2 | c4 | Bc df | d4 | =Bc dB | e4 | df ed |
+ed/e/ dG | c4- | cz FG | c2 fd | c4- | c2 dB | A2 dB | A2 dB | A4- | A2 GA | BA BA | B2 c2 | A4 | c2 GA | BA BA |
+B2 c2 | A4- | A2 FA | c2 fd | c2 fd | c4- | c2dB | A2 dB | A2 dB | A4- | A2 GA | BA Bc | A2 GA | BA Bc | A2 GA | Bc df | f2e2 | f4- | f3z |]
+%%footer $D   Galouvielle-MBe 2008 \nFox-trott (France)
+S:https://www.folktunefinder.com/tunes/547
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Fox-trott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

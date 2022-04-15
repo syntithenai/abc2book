@@ -1,0 +1,26 @@
+X: 1
+T: Hunting the Hare
+R: march, polka
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"D>F Ad | "A7"cA "(G)"BG | "D"F>D FA | "A7"E2- E2\
+|  "D"D>F Ad | "A7"cA "(G)"BG | "D"F>D "A7"FA | "D"d2- d2 :|
+|: "D"f>g af | "G"ge "D"fd | "A7"e>f ge | ae cA \
+|  "D"f>g af | "G"ge "D"fd | "A7"ce Ac | "D"d2- d2 :|
+S:https://www.folktunefinder.com/tunes/13095
+S:http://trillian.mit.edu/~jc/music/abc/Wales/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/polka/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/polka/HuntingTheHare.abc
+% Rhythm March, polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

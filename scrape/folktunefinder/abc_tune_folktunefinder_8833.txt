@@ -1,0 +1,24 @@
+X: 6
+P: To Ting (D)
+O: Danmark
+N: Vary the number of repeats to try to confuse the dancers.
+B: 358 danske Folkedansemelodier v.2 #634
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A>d \
+| "D"f4 A>d | f4 f>g | a2 g2 f2 | "A7"e4 A>c \
+| e4 A>c | e4 e>f | g2 f2 e2 | "D"d4 :|
+M: 6/8
+|: "D"Adf Adf | Adf agf | "A7"Ace Ace | gfe "D"d3 :|
+S:https://www.folktunefinder.com/tunes/8833
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Misc1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

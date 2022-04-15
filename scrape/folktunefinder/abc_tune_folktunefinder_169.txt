@@ -1,0 +1,29 @@
+X: 2
+P: Patience Quadrille, Figure 5 (A magnet hung in a hardware shop)
+C: Sir Arthur Sullivan
+M: C
+L: 1/8
+K: D
+B2 "A"\
+|:"D"B>F FF FA AB | "A7"B>E EE EF GB | B>E EF GA Bc |1 "D"de fd A3 B :|2 "D"dA "A7"ce "D"d2 "fine"d2 |][K:=c]
+[K:G]"B"\
+| "G"D3 G G3 B | B3 ^A B3 c | "D7"A3 ^G A3 B | "G"G3 F G2 zD \
+| "G"D3 G G3 B | kB2 kd2 "F#"kf3 e | "G"ekd2 ^G "D7"Akc2 B | "G"G>G GF G3 B |[K:=g]
+[K:D]"A"\
+|:"D"B>F FF FA AB | "A7"B>E EE EF GB | B>E EF GA Bc |1 "D"de fd A3 B :|2 "D"dA "A7"ce "D"d2 z>E |][K:A]
+[K:A]"C"\
+| "A"AA AG/F/ "E7"GG GF/E/ | "E7"dd dc/B/ "A"cc cE \
+| "A"AA AG/F/ "E"GG Gz | "B7"BF BF "E"G/A/F/G/ "E7"EE |
+| "A"AA AG/F/ "E7"GG GF/E/ | "E7"dd dc/B/ "A"c3 A \
+| "D6"{c}BA {c}BA {c}BA {c}BA | "Bm"kfz "E7"kez "A"kAz "A7"zB |]
+%%text Play 2x(ABAC)A
+S:https://www.folktunefinder.com/tunes/169
+S:http://trillian.mit.edu/~jc/music/abc/Contra/PatienceQuadrille_P2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

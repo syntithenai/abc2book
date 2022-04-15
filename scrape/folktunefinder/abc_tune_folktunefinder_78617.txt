@@ -1,0 +1,23 @@
+X:176
+T: WACH AUF WACH AUF MEIN SCHATZ ALLEIN
+N: E0093E
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 3/4
+L: 1/16
+K: F
+C2C2F2 | F4A4G2GA | F4z2
+C2F2A2 | c4A4G2^F2 | G4z2
+G2G2AB | c4C2C2F2A2 | A4G2
+C2B2A2 | G4F4C2E2 | F4z2
+S:https://www.folktunefinder.com/tunes/78617
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:0
+T:Greenwoodside
+G:pipe march
+M:2/4
+L:1/16
+Q:1/4=86
+K:BMin
+% dorian/minor hexatonic, B-final G-gap hexatonic pitch set
+   e2|B>BB>c B2A2|B>cd>e f4|e3f  e>fe>d|c2A2 A2
+   f2|B2B>c  B2A2|B>cd>e f4|e2a2 f2ef  |d2B2 B2:|
+   de|f3d    B2f2|B>BB>c f4|e3f  e>fe>d|c2A2 A2
+[1 de|f3d    B2f2|B>BB>d f4|e2a2 f2ef  |d2B2 B2:|
+[2 e2|B2B>c  B2A2|B>cd>e f4|e2a2 f2ef  |d2B2 B2|]
+S:https://www.folktunefinder.com/tunes/30066
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

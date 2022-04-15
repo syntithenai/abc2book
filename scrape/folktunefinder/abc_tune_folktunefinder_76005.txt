@@ -1,0 +1,26 @@
+X:25
+T: Es war einmal ein Kaufmannssohn (Band 1), S. 75
+N: P0799
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Liebe, Standesunterschied, Mord]
+M: 2/4
+L: 1/16
+K: F
+C2 | F2G2_A3A | B2c2_A2
+F2 | c2BBc3c | _d2B2c2
+_A2 | c2c2c2B2 | c4B2
+_A2 | _A2A2G2
+F2 | B2c2_A2F2 | c2c2_AG2F | E4F2
+S:https://www.folktunefinder.com/tunes/76005
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Liebe, standesunterschied, mord]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: St-F\'er\'eole
+C: trad
+O: Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: D
+|: DEFG A2FA | d2F2 A4 | f2ed c2A2 |1,3 BABc B2A2 :|2,4 BABc d4 :|
+|: Acde ffed | e2f2 g4 |1,3 BABc B2AG | FGAB A4 :|2,4 BABc B2(3AAA | BABc d4 :|
+S:https://www.folktunefinder.com/tunes/18153
+S:http://trillian.mit.edu/~jc/music/abc/reel/St-Fereole_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/St-Fereole_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/St-Fereole_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

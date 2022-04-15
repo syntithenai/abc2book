@@ -1,0 +1,29 @@
+X: 1609
+T:Clare polka #1
+S:Han Speek, Ir-Trad, 9/97
+R:Polka
+S:Conor Keane
+C:Trad. arr. Conor Keane
+Z:This was one of the tunes Conor played for his class at the
+Z:Willie Clancy Summer School, July 1997.
+Z:He plays it as a set together with the next polka.
+M:2/4
+L:1/8
+K:G
+D |: GA Bc | d2 Bd | cd/2c/2 BA | G/2A/2B D2 |
+GA Bc | d2 Bd | cd/2c/2 BA |1 G2-G D :|2 G2-G z |
+|: gd ed | gd ed | BG gd | BG ed |
+gd ed | gd BG | eg fa | g2-g z :|
+S:https://www.folktunefinder.com/tunes/32115
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

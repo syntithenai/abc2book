@@ -1,0 +1,25 @@
+X:200
+T:Prince Eugene
+R:Polka
+C:Trad
+S:Martin Nolan CD "Bright Silver Dark Wood"
+B:Goodman Manuscripts
+M:2/4
+L:1/16
+Q:1/4 =90
+K:G
+|:GFED G2AB|cBAG B2AG|A2AG A2AB|cBAG E2F2|
+GFED G2AB|cBAG B2AG|D2D2 G2Ac|B2GF G4:|
+|:Bc|d3d d2dg|fddc B2AG|A2AG A2AB|cBAG E2Bc|
+d3d d2dg|fddc B2AG|D2D2 G2Ac|B2GF G4:|
+S:https://www.folktunefinder.com/tunes/50763
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfpolk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

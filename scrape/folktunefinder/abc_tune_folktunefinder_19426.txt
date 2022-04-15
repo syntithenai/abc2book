@@ -1,0 +1,33 @@
+X: 1
+T: Jean Martin of Aberdeen
+C: Muriel A Johnstone
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: RSCDS leaflet "Three for 2006"
+N: Written for the dance of the same name
+M: C|
+L: 1/8
+K: D
+F \
+| "D"A>F "c#/F#m"A>F "Bm7"(3AGF "A7"E>F | "D"D>F A<d "G"B>A "f#/B7"G<F \
+| "Em"B>G B>G (3BAG "d#/B7"F>G | "Em"E>G B<e "A7"d>c B<A |
+| "f#/D"d>c d<A "G"B>A GF "c#/F#m"A<F "Bm"D>E "a/D7"F<D \
+| "G"B<d G>F "Em"E<D "A7"F>E | "G"D2 D>E "D"D2- D |]
+B \
+| "D"A<f f>e "f#/D"f<d A2 | "Em"B<g g>f "A7"e>c A>G \
+| "Bm"F<d d>c "f#/Bm"d>B F2 | "E7"^G<d e>d "A7"c>B A>=G |
+| "D"F<d "Em7"G<d "f#/D"A<d "A"c<e | "Bm"dg "D"f>e d>c \
+| "G"B<d G>F "Em"E<D "A7"F>E | "G"D2 D>E "D"D2- D |]
+S:https://www.folktunefinder.com/tunes/19426
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JeanMartinOfAberdeen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JeanMartinOfAberdeen_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

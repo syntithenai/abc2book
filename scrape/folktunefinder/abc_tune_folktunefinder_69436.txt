@@ -1,0 +1,24 @@
+X:577
+T: "Nimm dich in Acht"
+N: Z1257
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Liebes - Lied;  Phrasen geaendert (2.7.89)
+M: 6/8
+L: 1/8
+K: A
+E | A2B=c2A | e2ee3 | e3BB
+E | A2B=c2A | e2ee2
+E | A2B=c2A | e2ee3
+e2=cc3 | e2BB2
+B | E3G3 | A3z2
+B | E3G3 | A3z2
+S:https://www.folktunefinder.com/tunes/69436
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied;  phrasen geaendert (2.7.89)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

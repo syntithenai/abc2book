@@ -1,0 +1,26 @@
+X: 1
+T: The Fantocini
+B: Hendrickson's "John Griffiths Dancing Master."
+R: jig
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: 3/8=104
+K: F
+|:"F"fcc c3 |"Dm"dAA A3  |"Gm"GBA "G7"GAF |"C7"EFG C3 \
+| "F"fcc c3 |"Dm"dAA A2f | "C"edc "G7"GA=B | "C"c3  c3 :|
+|:"C"gcc c3 |"C7"bcc c3  |"Bb"dcB  "F"AGF |"C7"EFG C3 \
+| "F"fcc c3 |"Dm"dAA A3  |"Gm"GBA "C7"GFE | "F"F3   F3 :|
+S:https://www.folktunefinder.com/tunes/3749
+S:http://trillian.mit.edu/~jc/music/abc/England/Fantocini.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Fantocini_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/jig/Fantocini_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Fantocini_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/jig/Fantocini_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

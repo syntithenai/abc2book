@@ -1,0 +1,19 @@
+X:1
+T:TEST: Hanging slurs
+M:none
+K:C
+| (Cx)(Ex)(Gx) (cx)(ex)(gx) \
+| (Cy)(Ey)(Gy) (cy)(ey)(gy) \
+| (Cz)(Ez)(Gz) (cz)(ez)(gz) |
+S:https://www.folktunefinder.com/tunes/2531
+S:http://trillian.mit.edu/~jc/music/abc/test/Slur_Hang1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Slur_Hang1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Slur_Hang1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Slur_Hang1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

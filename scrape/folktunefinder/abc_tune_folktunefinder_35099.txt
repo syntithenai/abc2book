@@ -1,0 +1,27 @@
+X: 7882
+T:Stockholsml\aa{}ten
+Z:John Chambers <jc@eddie.mit.edu>
+R:G\aa{}ngl\aa{}t
+O:Sweden
+M:2/4
+L:1/16
+K:A
+|: E2 |\
+A3E A2c2 | e4 c2A2 | d3f a2f2 | e4 c2e2 | \
+a2ba f2ed | e2ae c2Bc | d3B EGBG |1A2AE C2 :|2 A6 :|
+|: a2 |\
+fafd fafd | f2fa g2f2 | efec A2Ac | e2fe c2A2 | \
+E3G B2e2 |  g6 f2 | e2fe d2fd | c6 a2 ||
+fafd fafd | f2fa g2f2 | efec A2Ac | e2fe c2A2 | \
+E3G B2e2 |  g6 f2 | efec d2BG | A6 :|
+S:https://www.folktunefinder.com/tunes/35099
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

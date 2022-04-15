@@ -1,0 +1,35 @@
+X: 1
+T: Sir Alexander Don's Strathspey
+O: Scotland late 1700s
+R: strathspey
+B: "18th Century Beauties of Niel Gow"
+N: From an opera by a Mr Shields.
+N: Auld Lang Syne was taken from this tune, which Burns thought "mediocre"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+F: http://www.kitchenmusician.net/giftunes/alexdon.gif
+M: C
+L: 1/16
+K: D
+A,2 \
+| "D"DD3 D3F "A"E3D E2F2 | "D"DD3     D3F      A6 d2 \
+| "D"DD3 D3F "A"E3D E2F2 | "G"DB,3 "A"B,3A, "D"D6 :|
+B2 \
+| "D"AF3 F3E "A"F2E2 E2F2 | "D"AF3     F3D      F6 B2 \
+| "D"AF3 F3D "A"E3D  E2F2 | "G"DB,3 "A"B,3A, "D"D6 ||
+B2 \
+| "D"AF3  F2D2 "A"FE3 E2F2 | "D"AF3     F2D2 "Bm"B4 z2cd \
+| "G"BAGF GFED "A"E3D E2F2 | "G"DB,3 "A"B,3A, "D"D6 |]
+S:https://www.folktunefinder.com/tunes/19660
+S:http://www.kitchenmusician.net/giftunes/alexdon.gif
+S:http://www.kitchenmusician.net/giftunes/alexdon.gif
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SirAlexanderDonsStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SirAlexanderDonsStr_D.abc
+% Rhythm Strathspey
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

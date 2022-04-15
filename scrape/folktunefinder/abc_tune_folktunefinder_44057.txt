@@ -1,0 +1,28 @@
+X: 63
+T:Lord of the Dance
+% Nottingham Music Database
+S:Sydney Carter, arr Eric
+M:4/4
+L:1/4
+K:G
+P:segno
+"D7"D|"G"GG/2G/2 "Em"B/2A/2B/2c/2|"Bm"dd/2d/2 "Em"BB/2B/2|"Am"AA AA/2B/2|\
+"Am"c/2B/2A/2G/2 "D7"FD/2D/2|
+"G"GG/2G/2 "Em"B/2A/2B/2c/2|"Bm"dd/2d/2 "Em"BB/2B/2|"Am"AA "D7"BB/2A/2|\
+"C"GG "G"G2|"G"d2 "Em"B3/2A/2|"G"B/2c/2B/2A/2 "Em"G2|
+"G"BB/2c/2 dc/2B/2|"Am"AA "D7"AD/2D/2|"G"GG "C"G3/2A/2|\
+"G"B/2A/2"D7"B/2c/2 "G"dc/2B/2|"Am"AA "D7"BB/2A/2|"G"G"C"G 
+P:Fine
+"G"G2||B/2B/2|"Am"AA "D7"BB/2A/2|"G"G"C"G \
+P:D.S.
+"G"G||
+S:https://www.folktunefinder.com/tunes/44057
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

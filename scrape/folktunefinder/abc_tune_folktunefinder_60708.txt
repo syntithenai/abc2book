@@ -1,0 +1,37 @@
+X:4519
+T:Duke of York New March. BF11.63
+M:4/4
+L:1/8
+Q:150
+C:Browne A hand
+S:MS11,c1800.,Browne Coll.,Lakes
+R:March
+O:England
+A:Lakes
+N:'Chords' in bar 4 - the upper notes are shown above the bar of the
+N:quaver groups, the lower notes are shown below -  implies alternatives
+N:rather than fiendishly clever double stopping  * This note could be a
+N:quaver, but in a couple of other places the beam of the quavers is
+N:over-enthusiastically long and it makes more sense this way.  The first
+N:'F' in this bar is shown with a sharp sign in front of i
+Z:vmp.Cherri Graebe.
+K:G major
+D/E/F|G2GGG2B/A/G|d2ddd2f/e/d|g2d2B2G2|[Aa][Gg][Ff][Ee] [Dd][Cc][B,B][A,
+A]|!
+G2GGG2B/A/G|d2ddd2"Qu"g2|f/g/a b/a/g f2e2|d2ddd2:|!
+|:Bc|dcded2cB|A2g2a4|cAccd2BA|G2g2g4|!
+dcded2cB|AGABA2AB|cBcd c2BA|GFGA"*"G2 FE|!
+((3DEF)(3EFG(3FGA(3GAB|(3ABc(3Bcd(3cde(3def|(3gbg(3edc B2A2|G2GGG2:||
+S:https://www.folktunefinder.com/tunes/60708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

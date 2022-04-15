@@ -1,0 +1,22 @@
+X:1
+T: The Machine without Horses
+T: 32J 3C x 8
+P:The Machine without Horses
+R:jig
+C: RSCDS Book 12, arr. T. Traub 6-8-98
+M:6/8
+K:G
+L: 1/8
+|: D|"G"G>AB/c/ dBG|"C"Gge "G"dBG|"C"cec "G"BdB|"A"ABG "D"FED|"G"G>AB/c/ dBG|"C"Ggf "A7"efg|"D"afd "A7"ge^c|"D"d3 D2 :|
+d|"G"dBd dBd|"D7"cAc cAc|"G"Bdg dBG|"Am"ABG "D"FED|"G"dBd dBd|"D7"cAc cAc|"G"Bdg dBG|"D7"cAF "G"G2 ||
+d|"G"dBd dBd|"D7"cAc cAc|"G"Bdg dBG|"Am"ABG "D"FED|"G"GDG BGB|"G"dBd "Em"g2 d|"C"efg "D"agf|"G"g3 G2 |]
+S:https://www.folktunefinder.com/tunes/48856
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MachineWithoutHorsesJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MachineWithoutHorsesSet.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

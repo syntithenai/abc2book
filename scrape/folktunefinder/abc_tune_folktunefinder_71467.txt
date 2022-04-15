@@ -1,0 +1,29 @@
+X:438
+%%topmargin 3cm
+T:Niel Gow's Lamentation for James Moray of Abercairny
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:"Niel" is the spelling in the manuscript.
+R:Strathspey
+M:C
+L:1/8
+K:G
+"Slow and Pathetic." {/C}B,>A, | G,>B, (DG) (EG) DG | ~A>B (c/B/)(A/G/) {/F}E2 E(F/G/) | G,>B, (DG) (EG) Dg/e/ | dG (d/c/)(B/A/) {/A}G2 ~GB,/A,/ |
+G,>B, (DG) (EG) DG | ~A>B c/B/A/G/ E2 E(F/G/) | G,>B, (DG) (EG) Dg/e/ | dG (d/c/)(B/A/) {/A}G2 [B,DG] ||
+e | de/f/ gd ed gB | ~ca/c/ Bg/B/ {/B}A2 A>B | ~G,>B, (DG) (EG) Dg/e/ | dG (d/c/)(B/A/) {/A}G2 G>e |
+d~"#"e/f/ gd {/f}edgB | Pc/B/c/a/ TB/(A/B/g/) {/B}[F2A2] [FA] B/c/ | n(e/d/)c/pB/ n(d/c/)(B/pA/) n(c/B/)(A/pG/) n(B/A/)(G/pF/) | n(A/G/)(F/E/) (D/E/)(D/pB,/) G,2 G, |]
+S:https://www.folktunefinder.com/tunes/71467
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Niel_Gows_Lamentation_for_James_Moray_of_Abercairny.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0438.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

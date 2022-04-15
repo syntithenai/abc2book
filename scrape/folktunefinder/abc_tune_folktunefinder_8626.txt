@@ -1,0 +1,32 @@
+X: 1
+T: Dejlig er Jorden [C]
+O: Silesian folk tune
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: C
+| "C"C2 "Am"C C \
+| "Dm"D "G7"B, "C"C2 \
+| "C"E E "Am"E E \
+| "Dm"F "G7"D "C"E2 \
+| "C"G2 "F"c A \
+| "C"G2 "G7"F "C"E \
+| "Dm"F2 "D7"E2 \
+| "G"D3 z ||
+|| "Em"G2 "Am"A G \
+| "A7"G E "Dm"F2 \
+| "G7"F2 G F \
+| F D "C"E E \
+| "Am"E E "C"G "Dm"F \
+|  "C"E2 "G7"D2 \
+| "C"C3 z |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8626
+S:http://trillian.mit.edu/~jc/music/abc/Scand/DejligErJorden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Geese in the Bog
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: O'Neill's 1001
+B: O'Neill's 1850
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+d \
+|:"D"Add fdB | "D"AFA     AFA | "D"Add "Bm"fdB |"F#m"AFA "Bm"B2A \
+| "D"Add fdB | "D"AFA     DFA |"Em"gfe "Bm"fdB |"F#m"AFA "Bm"BdB :|
+|:"D"AFE DFE | "D"DFA  "G"BdB | "D"AFD     DFA | "Em"BGA "A7"BdB \
+| "D"AFE DFE |"Bm"DFA "Em"Bgf |"Em"gfe "Bm"fdB |"F#m"AFA "Bm"B3  :|
+S:https://www.folktunefinder.com/tunes/14222
+S:http://trillian.mit.edu/~jc/music/abc/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/GeesInTheBog_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/GeesInTheBog_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

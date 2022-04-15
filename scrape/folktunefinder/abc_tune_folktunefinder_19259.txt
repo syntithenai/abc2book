@@ -1,0 +1,28 @@
+X: 1
+T: Castlecraigs
+C: Muriel Johnstone
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+D4 \
+| "G"B4 A3B GD3 D4 | "G"B,3D G3A Bd3 e3d \
+| "Am"c4 B3c AE3 E4 | "Am"C3E A3B ce3 f3e ||
+| "G"d4 g3f "G7"gG3 A3B | "C"c3B A3G "D"F3E D3C \
+| "G"B,3D GB3 "Am"C3E Ac3 | "D7"(3B2A2G2 d3d "G"G4 :|
+g3f \
+| "Em"eB3 g3f (3e2B2G2 (3B2e2g2 | "A7"(3f2e2d2 e3^c "D"d3A F3D \
+| "G"G4 B,3G C3G D3G | "Am"AA3 c3B "B7"A4 B4 ||
+| "Em"eB3 g3f e3B GF3 | "Am"Ee3 e3^c "D"d3A FD3 \
+| "C"E3G ce3 "G"D3G Bd3 | "D7"(3B2A2G2 d3d "G"G4 |]
+S:https://www.folktunefinder.com/tunes/19259
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Castlecraigs_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Castlecraigs_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 3697
+T:Queen of the Rushes, The
+R:jig
+H:Also played in G. 2nd part sometimes played with =c all the way.
+D:Planxty
+M:6/8
+L:1/8
+K:D
+AG|:F2D DEF|G2E EFG|F2D DAF|GED DAG|!
+F2D DEF|G2E EFG|ABA GEA|1 DED DAG:|2 DED D2B||!
+|:c2A Bcd|ecA AGE|d2e fed|ecA A2B|!
+c2A Bcd|ecA AGE|~F3 GEA|1 DED D2B:|2 DED DFG||!
+~A3 dAF|~A3 dAF|~G3 EFG|EFG EFG|!
+~A3 dAF|~A3 dAG|~F3 GEA|DED DFG|!
+~A3 dAF|~A3 dAF|~G3 EFG|=cEE EFG|!
+~A3 dAF|~A3 dAG|~F3 GEA|DED D||!
+S:https://www.folktunefinder.com/tunes/33465
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

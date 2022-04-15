@@ -1,0 +1,27 @@
+X:82
+T: DAS WASSER RAUSCHT DAS WASSER SCHWOLL
+N: B0112
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 6/8
+L: 1/8
+K: F
+C | C2CF2C | C2CG2
+C | A2FB2G | F3E2
+G | G2G=B2G | c2GG2
+A | G2cd2=B | c3z2
+G | G2AB2F | F2GA2
+c | c2FB2A | G3z2
+A | B2cd2c | d2ef2
+d | c2FG2E | F3z2
+S:https://www.folktunefinder.com/tunes/78103
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

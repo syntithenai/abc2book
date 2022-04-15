@@ -1,0 +1,25 @@
+X: 48
+T: 2. Rachel Rae
+R: reel
+M: C|
+L: 1/8
+% Q: 440
+K: D
+|: A |\
+"D" D2FA "A" d2Ac | "D" d2fd "A7" e2cA | "D" d2AF "Em" BAGF | "A7" EFGA "D" FDD2  |
+"D" D2FA "A" d2Ac | "D" d2fd "A7" e2cA | "D" d2AF "Em" BAGF | "A7" EFGA "D" FD D :|
+|: A| \
+"D" defg a2fd | "Em" g2bg "A" e2cA | "D" defg "A" a2fd | "A7" egfe "D" fddA  |
+"D" defg fafd | "Em" g2bg "A" e2cA | "D" d2AF "Em" BAGF | "A" EFGA "D" FD D :|
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 27 of 31
+S:https://www.folktunefinder.com/tunes/40151
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

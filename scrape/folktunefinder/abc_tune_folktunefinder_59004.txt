@@ -1,0 +1,33 @@
+X:117
+T:Cancin (MQ 018)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Tpica pieza de gaita.
+N:Es muy sencilla y repetitiva, muy propia para ejercitarse en el empleo del Lab y el Mib.
+A:Asturies
+Z:Manolo Quirs 018
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+|C3 D E3 (3F/E/D/|E2 (7F/E/D/E/F/E/D/ E3 (3D/C/B,/|C4 C4|
+E3 F G (3A/G/F/ GA|F (3G/F/E/ FG E (3F/E/D/ ED|CB, DB, C4|
+[M:6/8]
+|EEE EED|G2 F E3|EGF EDC|B,3 C3|
+EEE EED|G2 F E3|CB,C DED|C6|
+GGG GGF|_B2 _A G3|_E2 F G2 C|D_ED C3|
+GGG GGF|_B2 _A G3|CB,D F2 D|B,2 D C3|
+S:https://www.folktunefinder.com/tunes/59004
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 1
+T: the Nutting Girl [G]
+S: Jour EFDS, 1928 - under Field Town
+O: Bampton
+P: A.ABA.(CBA)2
+B: Morris Ring
+B: Nan Fleming-Williams & Pat Shaw "English Dance Airs" EFDSS Book 3 p.12 1968 (in A)
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"\
+[|] B>A \
+| "G"G2 G>A B>A G>B | "D7"d2 (3cdc A2 G>F | "G"G>A B>c d2 g2 | "G7"d4 d3 B |
+| "C"c>d e>c "D7"A2 B>c | "G"B>c d>B "Em"G2 A>B | "Am"c2 (3AcA "D7"F2 D2 | "G"G4 G2 |]
+"B"\
+[| B>A \
+| "G"G2g2 g>e f>g | "D7"f>e d2- d2 B>c | "G"d2 e>f (3gag f>e | "D7"f4 f3 e |
+| "G"d2 g2 g3 f | "G"e2 d2 d3 B | "Am"A2 B2 c2 d2 | "C"e>f g>e "D7"d>B c>"->A"A |]
+%%text Capers:
+"C"\
+[| B>A \
+| "G"G4 G3 A | "G"B3 A G3 B | "D7"d4 c4 | "D7"A4 F4 \
+| "G"G4 B3 c | "G"d4 g4 | "G"d4 d4 | "G7"d4 B4 |
+| "C"c>d e>c "D7"A2 B>c | "G"B>c d>B "Em"G2 A>B | "Am"c2 (3AcA "D7"F2 D2 | "G"G4 G2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/13076
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/NuttingGirl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

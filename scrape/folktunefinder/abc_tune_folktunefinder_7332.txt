@@ -1,0 +1,41 @@
+X: 1
+T: Shnirele Perele
+T: String of Pearls
+S: printed MS of unknown origin
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+[| "Gm"G2 GF G2 GF | "Gm"G2 "F"A2 "Gm"B3 G | "Cm"c2 cA "Gm"B2 B2 | "F"A2 BA "Gm"G3 d \
+|  "Gm"G2 G2 G2 G2 | "Gm"GG "F"AA "Gm"B3 G | "Cm"c2 cA "Gm"B2 B2 | "F"AA BA "Gm"G3 d |
+|  "Gm"dc cB B2 B2 | "Gm"BA    AG     B3 G | "Cm"dc cB     B2 B2 | "F"A2 BA "Gm"G3 d \
+|  "Gm"dc cB B2 B2 | "Gm"BA    AG     B3 G | "Cm"dc cB     B2 B2 | "F"A2 BA "Gm"G4 ||
+|: "Gm"(3zGG (3GGG d2 B2 | "Gm"(3zGG (3GGG B3 G3 \
+|  "Gm"(3zGG (3GGG d2 B2 | "Gm"(3zGA (3BAB "Cm"c G2 G | "Gm"BB AB "Cm"c2 G2 :|
+%
+W:Shnirele perele, gilderne fon    Meshiekh ben Dovid zitst oybn on.
+W:Halt a bekher in der rekhter hand    Makht a brokhe oyfn gantsn land.
+W:
+W:Oy, omeyn ve-omeyn, dos iz vor,    Meshiekh vet kumen hayntiks yor.
+W:
+W:Vet er kumen tsu forn,    Veln zayn gute yorn.
+W:Vet er kumen tsu raytn,    Veln zayn gute tsaytn.
+W:Vet er kumen tsu geyn,    Veln di Yidn in Erets Yisroel aynshteyn.
+W:
+W:String of pearls, golden banner,    Messiah ben David sits at the table's head
+W:Holding a goblet in his right hand,    Making a blessing on the whole land.
+W:
+W:Amen, amen, this is true,    Messiah will come this year.
+W:
+W:When he comes,    Will be the good years.
+W:When he comes riding,    Will be the good times.
+W:When he comes,    The Jews witll return to the Land of Israel.
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7332
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShnirelePerele.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

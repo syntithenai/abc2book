@@ -1,0 +1,41 @@
+X:0
+T:Echo Bank
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Slow March
+M:4/2
+L:1/8
+Q:1/2=44
+N:in the book bar 8 ends with A4 and bar 12 has c3 for c2 (both too long)
+K:Hp
+      {d}ce2c        {g}B2{d}c{e}B   {G}A2B{GdG}c     {g}e4     |\
+      {g}f3{GdG}f    {g}f2cf         {g}e6                 {g}AB|
+      {d}ce2c        {g}B2{d}c{e}B   {g}A3{GdGe}A   {GdG}B4     |\
+      {g}c3{GdGe}c {gcd}c3{GBG}A   {GdG}B4>>             c4     |
+    {Gdc}d2ed      {gde}d2cB         {g}c3{GdG}e      {A}e4     |\
+      {g}f3{GdG}f    {g}e2fg        {ag}a6                    AB|
+      {d}ce2c        {g}B2{d}c{e}B   {g}A2B{GdG}c     {g}e2{g}AB|\
+      {d}ce2c        {g}B2{d}c{e}B   {G}A4        {gAGAG}A2    ||
+{d}ce|{g}f2gf       {gf}e3c          {g}e2fg         {ag}a3e    |\
+      {g}c3{GdGe}c   {g}e2f{g}c    {GdG}e6                 {g}ce|
+      {g}f2gf       {gf}e3f          {g}c3{GdGe}A {gAGAG}A3B    |\
+      {g}c3{GdGe}c   {g}B{d}c2{G}A {GdG}B4>>          {d}c4     |
+      {g}B3{GdGe}A   {d}A2{d}c{e}B   {G}A2B{GdG}c     {g}e4     |\
+      {gfg}f2e{g}c  {ag}a2g{a}f      {g}e2f{g}c       {g}e2{g}AB|
+      {d}ce2c        {g}B2{d}c{e}B   {G}A2B{GdG}c     {g}e2{g}AB|\
+      {d}ce2c        {g}B2{d}c{e}B   {G}A4        {gAGAG}A3    |]
+S:https://www.folktunefinder.com/tunes/66322
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

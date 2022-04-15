@@ -1,0 +1,28 @@
+X:187
+T: Liebeslied
+N: A0220C
+O: Europa, Mitteleuropa, Deutschland
+N: Herm. Schein, in Scheins Gesangbuch 1627
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: E
+E2A2 | =G=F2E | =D2E2
+B2=c2 | =cB2B | A4
+E2A2 | =G=F2E | =D2E2
+B2=c2 | =cB2B | A2z
+=c | BAAB | =c2c
+=G | A=GA=F | E4
+E=cB2 | =d=c2B | A2B2
+E2=F2 | E=D2D | E4
+S:https://www.folktunefinder.com/tunes/68733
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

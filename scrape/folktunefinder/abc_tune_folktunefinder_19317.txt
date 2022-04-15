@@ -1,0 +1,27 @@
+X:1
+T:Duke Of Gordon
+M:4/4
+L:1/8
+R:strathspey
+F:http://www.thesession.org/tunes/display.php/2814 2008-05-06 22:37:13 UT
+K:D
+F>E | D<A, B,>A, D>B, A,>F | G<E   F>D B,2 F>E \
+    | D<A, B,>A, D>B, A,>B | A>F (3EFE D2     :|
+B>c | d<A  B>F   A>F  D>F  | G<E   F>D B,2 B>c \
+    | d<A  B>F   A>F  D>F  | G<E   B>c d2     ||
+B>c | d<A  B>F   A>F  D>F  | G<E   F>D B,2 F>E \
+    | D<A, B,>A, D>B, A,>B | A>F (3EFE D2     |]
+S:https://www.folktunefinder.com/tunes/19317
+S:http://www.thesession.org/tunes/display.php/2814
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DukeOfGordon3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DukeOfGordon3_D.abc
+% Rhythm Strathspey
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

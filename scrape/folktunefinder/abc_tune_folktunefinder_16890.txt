@@ -1,0 +1,33 @@
+X: 1
+T: Captain Campbell's Reel
+R: reel
+N: Originally a strathspey
+B: James S Kerr's "Merrie Melodies", 1st Collection
+B: The Athole Collection
+B: James M Hunter "The Fiddle Music of Scotland"
+Z: 2007 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"EAAB cABG | "G"DGGA BdBG \
+| "Am"EAAB cBce | "G"dBgB "Am"A3 :|
+B \
+| "Am"Aaag edce | "G"dege dBGB \
+| "Am"Aaag edce | "G"dBgB "Am"A3 |]
+B \
+| "Am"Aaag edce | "G"dege dBGB \
+| "Am"cA"G"dB "C"edce | "G"dBgB "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/16890
+S:http://trillian.mit.edu/~jc/music/abc/reel/CaptCampbellsR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CaptCampbellsR_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/CaptCampbellsR_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

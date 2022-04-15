@@ -1,0 +1,26 @@
+X: 9
+T: De Valse Zeeman
+O: Netherlands
+M: 3/4
+L: 1/8
+K: Cm
+%%MIDI program 73
+%%MIDI bassprog 45
+%%MIDI beat 90 80 70 4
+%%MIDI gchord f
+P:A
+"C" z6  |"G" z6 |"G#" z6|"F"z6  |:"C"C2C4 |"G"G2G4|
+"G#"A2G4|"F"E2C4|"C"D2E4|"G"E2D4|"G#"E2C4-|"F"C6  :|
+%%MIDI gchordoff
+P:B
+G2F2E2  |D2E2D2 |C4E2   |D2z2E2 |E6       |D4E2   |E6  |
+z6      |E2C4   |C2D4   |D2D4   |E2E4     |E2C4   |C2D4|E2E4|
+S:https://www.folktunefinder.com/tunes/81280
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

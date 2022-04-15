@@ -1,0 +1,20 @@
+X: 22
+T:Mountain Belle
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+def| g2 G2 d>de>d | c2 F2 A2 g2| a>gf>e d>cB.A| G.Bd>e d2 def| g2 G2 d>d
+e>d | c2 F2 A2 g2| a>gf>e d>cB.A| G2 B2 G2 :| G2 B2 G4|| 
+F2 A2 f2-f>e| e2 d2 G-G>d |d2  ^c2 G>FG>B| B2 A2 F2-F>G| F2 A2 f2-f>e|e2
+ d2 G2-G>A|B2 A>A B>AB>^c|d>AF>A D4:|d>AF>A D2||
+S:https://www.folktunefinder.com/tunes/55327
+S:http://www.freewebs.com/folkbluesnbeyond/WIP.ABC
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

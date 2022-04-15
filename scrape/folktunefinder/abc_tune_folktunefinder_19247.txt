@@ -1,0 +1,32 @@
+X: 1
+T: Cameron's Got His Wife Again
+R: strathspey
+N: Skye p.45, BSFC III-3 and IV-10, Chambers' version with C chord, S9
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"{c}d>B A>F "A7"A/A/A AB/c/ | "D"d>B A>F "C"E4 \
+| "D"{c}d>B A>F "A7"A>g f>e | "G"d>B "A7"A<F "D"D3 :|
+g \
+| "D"f>d f<a "A7"e>g f>e | "D"f>d f<a "G"B2- B>g \
+| "D"f>d f<a "A7"e>g f>e | "G"d>B "A7"A<F "D"D3 ||
+g \
+| "D"f>d f<a "A7"e>g f>e | "D"f>d f<a "G"B2- B>g \
+| "D"f>g a>f "A7"e>g f>e | "G"d>B "A7"A<F "D"D3 |]
+S:https://www.folktunefinder.com/tunes/19247
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CameronsGotHisWifeAgain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CameronsGotHisWifeAgain.abc
+S:http://trillian.mit.edu/~jc/music/book/500/CameronsGotHisWifeAgain.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CameronsGotHisWifeAgain.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/CameronsGotHisWifeAgain.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

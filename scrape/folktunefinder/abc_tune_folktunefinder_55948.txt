@@ -1,0 +1,35 @@
+X:1009
+T:Baille de Panderu (CT 046)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Villamarcel, ayuntamiento de Quirs.
+O:Villamarcel (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 046
+M:6/8
+L:1/8
+Q:3/8=88
+W:Agora sal a baillar
+W:un amigu que yo tengo
+W:y por eso voi dar
+W:y por eso voi dar
+W:un golpe ms de panderu.
+K:C
+|:GGG GBc|d6|cdd cdd|c2B- B2z:|
+|cdd cdc|(B3/2A/2G-) G3|GGG GBc|
+(d3/2c/4B/4c-) c3|BBA GAA|G2G- G2z||
+S:https://www.folktunefinder.com/tunes/55948
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

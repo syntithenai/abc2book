@@ -1,0 +1,24 @@
+X:542
+%%topmargin 3cm
+T:Mrs. Linley
+C:Duncan McIntyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:C aeolian
+G | c2 GE CEGc | dBGD B,DF=B | cGAF GFFD | ECFD ECC :| d | ecgc Gceg | fBdB dfBd |
+ecec Gceg | dBfd eccd | ecGE CEGe | dBFD B,DF=B | cGAF GEFD | ECFD ECC |]
+S:https://www.folktunefinder.com/tunes/71571
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Linley.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0542.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

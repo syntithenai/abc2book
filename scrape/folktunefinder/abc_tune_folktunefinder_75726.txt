@@ -1,0 +1,29 @@
+X:30
+T:Draaiende Winden
+C:Traditioneel
+O:Minderhout (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+Q:1/4=104
+M:2/4
+L:1/8
+N:Voorspel (AAB) x6
+K:C
+P:Voorspel
+E/G/|"C"cc EE/G/|"Dm"AA DD/E/|"G7"FG AB|"C"c2 z E/G/ ||
+P:A
+!segno!|: "C"cc EE/G/|"Dm"AA DD/E/|"G7"FG BA|"C"GF EE/G/ |
+"C"cc EE/G/|"Dm"AA DD/E/|"G7"FG AB |[1G2 z E/G/ :|[2 c2 z C ||
+P:B
+K:F
+"F"AA A/^G/2A/^G/|A2 zc|cc AF|"C"AG GC|GG G/^F/G/^F/|G2 zC| "C7"CE GB|"F"AF FC|
+"F"AA A/^G/A/^G/|A2 zc|cc AF|"Gm"Bc d2|d>d "C7"cB|"F"Ac cc/d/|"C7"cB AG|F2 z E/!segno!G/|]
+S:https://www.folktunefinder.com/tunes/75726
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

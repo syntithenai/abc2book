@@ -1,0 +1,23 @@
+X: 2
+T: Sk\aalbergsl\aaten
+T: Decorated version
+O: Boda Spelmanslag
+Z: John Chambers <jc@trillian.mit.edu>
+B:
+D:
+M: 3/4
+L: 1/16
+K: G
+|: "G"(B>cBA) B4 e3d | (dB3) G8 | (B>cBA) B4 e3d | "Am"(dB3) c8 | (c>dcB) c4 d3e | "D7"{e}f4 f8 | vA3vf f4- f3c- | e3d d-ed^c d3=c |
+|  "G"(B>cBA) B4 e3d | (dB3) G8 | (B>cBA) B4 e3d | "Am"(dB3) c8 | (c>dcB) c4 d3e | "D7"{e}f4 f4- f3e | d3B cdcA F2AF | "G"{F}G4 G8 :|
+|: "G"D3B B4 B3D- | D3B B4 B3B- | B3c/B/ A3B/A/ G3G- | "Am"F4 E>-FED E4 | "Am"E3c c8 | E3c c8 | "D7"c2d/c/B/c/ e4 d4 | c3B BcBA B4 |
+|  "G"D3B B4 B3D- | D3B B4 B3B- | B3c/B/ A3B/A/ G3G- |  "C"F4 E>-FED E4 | "Am"(c>dcB) c4 d3e | "D7"{e}f4 f4- f3e | d3B cdcA F2AF | "G"{F}G4 G8 :|
+S:https://www.folktunefinder.com/tunes/16532
+S:http://trillian.mit.edu/~jc/music/abc/pols/SkaalbergsLaaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SkaalbergsLaaten.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

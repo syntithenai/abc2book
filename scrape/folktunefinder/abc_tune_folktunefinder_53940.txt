@@ -1,0 +1,25 @@
+X: 72
+T:Hundred Pipers, the
+M:6/8
+L:1/8
+S:AABB
+R:Jig
+K:C
+c/2-d/2|"C"e2 G (GAG)|"F"A2 c c2 a|"C"g2 e e-dc|"G"d3-d2 c/2-d/2|!
+"C"e2-G (GAG)|"F"A2-c c2-a|"C"g2-e "G"d-eud|"C"c3-c2:||!
+E/2-F/2|"C"G2-G (GEG)|"F"A2-c c2-A|"C"G2-E E-DC|"G"D3-D2 E/2-F/2|!
+"C"G2-G (GAB)|"F"c2-c c-BuA|"C"G2-E "G"D-EuD|"C"C3-C2:||!
+% <A name="D1X073">
+S:https://www.folktunefinder.com/tunes/53940
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

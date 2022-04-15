@@ -1,0 +1,27 @@
+X:325
+%%topmargin 3cm
+T:Caillach liath Rasar
+T:Cailleach liath Ratharsair
+T:The Grey Old Lady of Raasay
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:B aeolian
+e | AA g2 aeef | g2 ag fdde | cc g2 aeeg | fdec BBB :| a | cAAA ec{/G}ce |
+f2 AA ecca | [1 cAAA ecce | fdec BBB :| [2 cA d2 ecce | fAec BBB |]
+S:https://www.folktunefinder.com/tunes/71354
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caillach_liath_Rasar.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Cailleach_liath_Ratharsair.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Grey_Old_Lady_of_Raasay.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0325.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

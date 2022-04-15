@@ -1,0 +1,44 @@
+X: 3
+P: The Shepherd's Wife
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G2A | B2c | d2g | g>fd | "C"e>fg | "G"dcB | "A(m)"A>BG | "D7"FED |
+y2| "G"G2A | B2c | d2g | g>fd | "C"e>fg | "D7"agf | "G"g3- | g2 ||
+g/a/ \
+| "G"b2b | "D"a>gf | "Em"g2g | "Bm"f>ed | "C"e>fg | "G"dcB | "A7"ABG | "D7"FED |
+y2| "G"b2b | "D"a>gf | "Em"g>ag | "Bm"f>ed | "C"e>fg | "D7"agf | "G"g3- | g2 |]
+S:https://www.folktunefinder.com/tunes/3601
+S:http://trillian.mit.edu/~jc/music/abc/England/AGW01.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Waltz01.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW09.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/AGW09.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_Scot09.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Waltz01.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/Waltz01.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/Waltz01.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/Waltz01.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/Waltz01.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090216/AGW09.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/AGW09.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/AGW09.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/AGW09.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/AGW09.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Waltz_Scot01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_Scot09
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:Wild Rose of the Mountain
+N:Ros fhiadhaich nam Beann
+N:Slow Air/Waltz
+C:John Mason
+Z:Steve Wyrick  irtrad-l 2001-11-13
+L:1/4
+M:3/4
+K:G
+D|G2D|A2D|B3/2c/2d|e3/2f/2g|d3/2e/2d|B2G|A3-|A2D|!
+G2D|A2D|B3/2c/2d|e3/2f/2g|d3/2B/2G|A2B|G3-|G2:|!
+d|d/2B3/2d|d/2c3/2d|f2{gf}e/2f/2|g2d|e3/2f/2g|d2B|A3-|A2d|!
+d/2B3/2d|d/2c3/2d|f2{gf}e/2f/2|g2f/2e/2|d3/2B/2G|A2B|G3-|G2d|!
+d/2B3/2d|d/2c3/2d|f2e/2f/2|g2f/2e/2|d2e|d2B|A3-|A2G/2F/2|!
+E3/2F/2G|F3/2G/2A|B3/2c/2d|efg|d3/2B/2G|A2B|G3-|G2||
+S:https://www.folktunefinder.com/tunes/13356
+S:http://trillian.mit.edu/~jc/music/abc/air/WildRoseOfTheMountain_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WildRoseOfTheMountain_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WildRoseOfTheMountain_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/WildRoseOfTheMountain_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/WildRoseOfTheMountain_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

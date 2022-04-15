@@ -1,0 +1,86 @@
+X: 27
+T: Herb's Jig
+M: 6/8
+L: 1/8
+Q:1/4=160
+K:A % 3 sharps
+% Herb's Jig
+% (c) SSF February 2006
+V:1
+z6| EE2 AAB| \
+cB2 AA2| \
+fe2 ccB|
+A2<B2B2| \
+EE2 AAB| \
+cB2 AA2| \
+fe2 cBc|
+B2<A2A2| \
+EE2 AAB| \
+cB2 AA2| \
+fe2 ccB|
+A2<B2B2| \
+EE2 AAB| \
+cB2 AA2| \
+fe2 cBc|
+B2<A2A2| \
+AA2 Acd| \
+e2<a2a2| \
+fec BAB|
+c2<B2B2| \
+AA2 Acd| \
+e2<a2
+f2-| \
+fef edc|
+B2<A2A2| \
+AA2 Acd| \
+e2<a2a2| \
+fec BAB|
+c2<B2B2| \
+AA2 Acd| \
+e2<a2
+f2-| \
+fef edc|
+B2<A2A2|
+V:2
+z6, zA,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z|
+[ECA,]E,z [BGE]E,z| \
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]E,z|
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z|
+[ECA,]E,z [BGE]E,z| \
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]E,z|
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]D,z [AFD]D,z| \
+[AFD]A,,z [ECA,]A,,z|
+[ECA,]E,z [BGE]E,z| \
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]D,z [AFD]D,z| \
+[AFD]A,,z [ECA,]E,z|
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]A,,z [ECA,]A,,z| \
+[ECA,]D,z [AFD]D,z| \
+[AFD]A,,z [ECA,]A,,z|
+[ECA,]E,z [BGE]E,z| \
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]D,z [AFD]D,z| \
+[AFD]A,,z [ECA,]E,z|
+[BGE]A,,z [ECA,]A,,z| \
+[ECA,]
+S:https://www.folktunefinder.com/tunes/81666
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

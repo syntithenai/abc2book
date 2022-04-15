@@ -1,0 +1,24 @@
+X:109
+T: A Dirndel geht um Holz in Wald,
+N: D0164
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Inzipit = Variante zum Lied
+R: Jaeger - Lied, Liebes - Lied
+M: 2/4
+L: 1/8
+K: G
+D | BBAG | ccA3
+D | ccBA | d2z
+B | ddcB | eeA2z
+d | f3edc | B2z
+S:https://www.folktunefinder.com/tunes/72566
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Jaeger - lied, liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

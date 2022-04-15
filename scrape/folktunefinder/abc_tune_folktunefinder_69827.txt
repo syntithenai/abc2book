@@ -1,0 +1,28 @@
+X:267
+T: DEUTSCHER KAISER GOTT BESCHUETZE
+N: F0466
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, Kaiser - Lied
+M: 4/4
+L: 1/4
+K: C
+ | C2B,2 | A,2G,2 | F,E,F,G, | E,2C,2
+C2B,2 | A,2D2 | C2B,2 | C2z2
+C2B,2 | A,2G,2 | F,E,F,G, | E,2C,2
+C2B,2 | A,2D2 | C2B,2 | C2z2
+D2D2 | D2C2 | B,2E,2 | B,2A,2
+C2A,B, | CG,E,A, | G,2D,F, | E,2z2
+G,2DE | D2C2 | B,A,B,C | B,2A,2
+C2A,B, | CB,CD | E2D2 | C2z2
+S:https://www.folktunefinder.com/tunes/69827
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, kaiser - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:715
+T:The Hunt
+R:jig
+C:Boys of the Lough
+N:
+Z:
+M:6/8
+K:G
+D3|:"G"G2 A BAG|"D"A2G E G2|"C"c2d e g2|"D"d2c B2A|
+"G"G2A BAG|"D"A2G ED2|"Am"E2 A A2 G|ABc "D"B2A|
+"G"G2 A BAG|"D"A2G E G2|"C"c2d e g2|"D"d2c B2A|
+"G"G2A BAG|"Am"A2G ED2|"C"E G2 G2 A|1"G"G3 D3:|2"G"G3 DEF||
+|:"G"G2 A B2c|d3 d2 e|"F"=f3 f3|=f3 e2d|
+"C"e3 e2d|ef2 g2e|"G"d3 d2e|"D"d3 c B2|
+"C"c2Bc d2|e2dc B2|"Am"A2G AB2|"D"A3 "C"G3|
+"G"g3 g2a|"C"g2e "G"d2B|"Am"A2G EG2|"C"ABc "D"B2A|
+"G"G2A BAG|"D"A2G "G"EG2|"C"c2d eg2|"D"d2c B2A|
+"G"G2A BAG|"Am"A2G ED2|"C"E G2 G2 A|1"G"G3 DEF:|2"G"G3 D3||
+S:https://www.folktunefinder.com/tunes/67445
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

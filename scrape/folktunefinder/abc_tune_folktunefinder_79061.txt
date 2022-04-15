@@ -1,0 +1,29 @@
+X:620
+T: HIER STEH ICH AM BERGE
+N: E0571B
+O: Europa, Mitteleuropa, Deutschland, Schwalbach
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: D
+F4 | E4A4B2d2 | d4c4
+A4 | E4A4B2d2 | d4c4
+F4 | E4A4B2d2 | d4c4
+A4 | E4A4B2d2 | d4c4
+A2d2 | d4c4B3B | B4A4
+E4 | E2^G2B2d2d4 | c6B2
+A4 | d4c4B3B | B4A4
+F2A2 | A4G4E2G2 | F2A2d4
+A4 | d4c4B3B | B4A4
+F2A2 | A4G4E2G2 | F8
+S:https://www.folktunefinder.com/tunes/79061
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

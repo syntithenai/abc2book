@@ -1,0 +1,27 @@
+X:3505
+T:Menuett fr Oravais
+A:Oravais
+M:3/4
+O:Finland
+R:Minuet
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a39.html
+%%ID:00000a39
+K:D min
+A>A Ac BG|AF E/D/C/E/ D2|\
+d>c d>e fd|e>d ^c>d A2|\
+A>A Ac BG|AF E/D/C/E/ D>E|
+F/E/F/G/ AA FF|EC D4::\
+C>F F>E D2|C>c cB A2|
+A>B c>B AA|GG F4|\
+A>A Ac BG|AF E/D/C/E/ D>E|F/E/F/G/ AA FF|EC D4:|
+S:https://www.folktunefinder.com/tunes/36780
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

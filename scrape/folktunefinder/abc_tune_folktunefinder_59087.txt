@@ -1,0 +1,38 @@
+X:200
+T:Cantar de Trabayu (CT 431)
+R:Trabayu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Se aplica en Llamo (Riosa) esta cancin a la faena de recolectar el trigo.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 431
+M:6/8
+L:1/8
+Q:3/8=88
+K:Cm
+GGG|c2 c-c3-|c2 z zdd|
+e2 c d2 (B/(3c/4B/4A/4)|(G>A)B-B3-|B2 z zdd|
+e2 c (d>c)A|(c3-cB3/2(3c/4B/4A/4|G)G2-G3-|G2 z z2G|c2 c-c3-|c2 z zdd|
+e2 c d2 (B/(3c/4B/4A/4)|(G>A)B-B3-|B2 z zdd|
+e2 c (d>c)A|(c3-cB3/2(3c/4B/4A/4|G)G2-G3-|G2 z||
+W:A las andechas,
+W:ya no voi a las andechas,
+W:porque no tengo mesories,
+W:mesories;
+W:prestarasme t les tuyes
+W:y coyeremos a soles.
+W:
+S:https://www.folktunefinder.com/tunes/59087
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Trabayu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

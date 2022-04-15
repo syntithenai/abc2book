@@ -1,0 +1,27 @@
+X: 1199
+T:Gan Ainm
+M:4/4
+L:1/8
+R:Barn Dance
+D:Session tape - Derrygonelly, Fermanagh 1993
+Z:Bernie Stocks
+H:Technically the first bit of this could be 'D' but even with the C sharp
+H:the 'feel' is still 'G'
+M:4/4
+K:G
+A2B^c A2G2 | E2B^c B2A2 | FGAB ^cBcd | (3efg af g4 :: \
+bagf g2d2 | bagf g2d2 | gfeg fedB | (3cde BA G4 :|
+S:https://www.folktunefinder.com/tunes/31706
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Barn dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

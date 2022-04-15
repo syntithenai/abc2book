@@ -1,0 +1,26 @@
+X:078
+%%topmargin 3cm
+T:The Lea Rig
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+c | (AF)EF A2 AB | (A/2B/2c) BA (BF)FB | AFEF ABce | faef AAA :|
+f | (ef/2g/2) ae feac | B/2B/2B {/c}(BA) BFFB | AFEF A2 Aa | f2 ec eAAe |
+ceag fedc | B2 {/c}BA (BF)FB | AFEF ABce | faef cAA |]
+S:https://www.folktunefinder.com/tunes/70825
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lea_Rig.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

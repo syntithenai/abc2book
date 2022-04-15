@@ -1,0 +1,41 @@
+X: 1
+T: Five Minute Strathspey
+C: James Stevenson
+R: strathspey
+B: The Tin Woodsman
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: D
+A>G \
+| "D"F>A d>F "Em"E>F G>B \
+| "A"A>G F<E "F#7"F2 F>E \
+| "Bm"D>F (3FGA "G"B>A G>F \
+| "Em"E<G GA |
+| "D"F>A d>F "G"G>A B>d \
+| "A"c>B A<G "Bm"F3 E \
+| "G"D2 (3DEF "Em"G>E B,>D \
+| "G"E<F "A"D>C "D"D>A (3ABc ||
+| "D"d2 d>e d>c B>A \
+| "G"B>c d<e "A"c2 B<A \
+| "G"B>A (3Bcd "D"A>G F>A \
+| "Em"E<G GA |
+| "D"d2 d>e d>c B>A \
+| "G"B>c d<e "F#7"f2 f>e \
+| "G"d>e "G#dim"(3dcB "D"A>B "B7"G>F \
+| "Em"E<F "A7"D>C "D"D2 |]
+S:https://www.folktunefinder.com/tunes/19347
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FiveMinuteStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FiveMinuteStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FiveMinuteStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FiveMinuteStrathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:101
+T: Der Baer
+N: A0460
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 75.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+F | FFG | A2F | AAB | c2
+c | ccc | ccB | AFG | F2
+c | ccc | ccB | AFG | F2
+S:https://www.folktunefinder.com/tunes/80160
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

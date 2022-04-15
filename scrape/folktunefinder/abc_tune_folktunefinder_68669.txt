@@ -1,0 +1,30 @@
+X:123
+T: Bunte Blumen
+N: A0144
+O: Europa, Mitteleuropa, Deutschland
+N: "Nicht unpassend waere die Weise vom "alten Mai"(s. geistl. Lieder)
+N: zu diesem Blumen und Mailust-Liede. Ich habe sie deshalb in modernen
+N: Noten und im Tanzrhythmus oben beigesetzt."
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: A
+A | A2AA2G | E3B2
+c | B2AG2F | E3-E2
+A | A2AA2G | E3B2
+c | B2AG2F | E3-E2
+E | A2AG2E | A3B2
+B | B2Bc2c | B2AB2
+B | e2dc2B | A3d2
+B | c2BA2G | A3-A2
+S:https://www.folktunefinder.com/tunes/68669
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 2
+M: 2/4
+L: 1/8
+P: Yosis
+K: Fm
+[| "C7"CA GF | =EC EF \
+| "C7"G2 G2 | G2 G2 \
+| "Fm"CA GF | =EC EF \
+| "C7"G4 | c4 \
+| "Fm"CA GF | =EC EF |
+| "C7"G2 G2 | G2 G2 \
+| "Fm"CA GF | "Bbm"=EB, CD \
+| "C"C4- | CC =D=E \
+|: "Fm"F4 | A4 \
+| zA AA | AB/A/ GF \
+| "Db"F4 | A4 |
+| "Db"zA AA | AB/A/ GF \
+| "Bbm"G4 | B4 \
+| zB BB | BB AB \
+| "C7"c2 B2 |1 A2 B2 | "Fm"c4- | "(C7)"c2 z2 :|3 "C7"A2 G2 | "Fm"F4- | F2 z2 |]
+S:https://www.folktunefinder.com/tunes/6746
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BensWeddingSet_C1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Charley Stuart
+O: 1817
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|:  B | "D"AF  ED |  "G"G3  B | "D"AF  ED | "A7"E3  B | "D"AF  ED | "G"GA Bd | "D"AF "A7"dF  | "D"D3  :|
+|:: f | "D"d>e fd | "A7"gf ec | "D"d>e fd | "A7"ec BA | "D"d>e fd | "G"gf eg | "D"fa "A7"e>f | "D"d3 ::|
+S:https://www.folktunefinder.com/tunes/16911
+S:http://trillian.mit.edu/~jc/music/abc/reel/Charley_Stuart_D40.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Charley_Stuart_D40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r40/Charley_Stuart_D_AABBB.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Charley_Stuart_D40.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/Charley_Stuart_D40.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r40/Charley_Stuart_D_AABBB.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/Charley_Stuart_D40.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

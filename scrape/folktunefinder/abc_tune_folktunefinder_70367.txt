@@ -1,0 +1,32 @@
+X:237
+T: Die glckliche Nonne (15), S. 69
+N: T0125
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Blascheid (Betzdorf/Berg, fragm.), hhh Johann Brimeier, 1902
+R: Liebeslieder]
+M: 6/8
+L: 1/8
+K: C
+G | G2GGAB | c2AA3
+c3BAG | A2AG2
+G | GGGA2G | F2ED2
+E | FFFG2F | E2DC2
+G | GGGGAB | c3
+d3 | cBAcBA | G2z3
+G | GGGA2G | F2ED2
+E | FFFG2F | E2DC2
+G | GGGGAB | c3
+d3 | cBAcBA | G2z3
+S:https://www.folktunefinder.com/tunes/70367
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

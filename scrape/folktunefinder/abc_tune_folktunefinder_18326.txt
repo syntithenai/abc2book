@@ -1,0 +1,28 @@
+X: 1
+T: Wonder Hornpipe
+L: 1/8
+M: C
+N: sometimes attributed to James Hill of Newcastle
+B: Honeyman - Strathspey, Reel and Hornpipe Tutor (1898)
+B: Kerr's
+Z: Andrew Kuntz <AIKUNTZ@AOL.COM> IRTRAD-L 2000-11-03
+K: Bb
+(3FGA \
+| B>fd>B A>ec>A | B>cd>B F2 B>A | G>=Bc>d e>dc>_B | A>cf>=e g>f_ec |
+| B>fd>B A>ec>A | B>cd>B F2 B>A | G>gf>e d>cB>A | c2 (B2 B2) :|
+|: (3dcB \
+| A>cf>=e f>dc>B | A>cf>=e f>ag>f | =e>fg>a b>ge>g | f>=ef>g f2 g>_e |
+| d>ed>c =B>d g2 | c>dc>B A>c f2 | g>ba>g f>ed>c | B2 b2 B2 :|
+S:https://www.folktunefinder.com/tunes/18326
+S:http://trillian.mit.edu/~jc/music/abc/reel/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WonderHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

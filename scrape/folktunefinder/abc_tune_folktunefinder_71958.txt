@@ -1,0 +1,25 @@
+X: 78
+T:Tom Jones
+M:6/8
+L:1/8
+Q:130
+C:Trad
+S:Blodau'r Grug Collection Vol. 3
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+a3g3|fdf ece|d2f ece|d2f ece|dcd ede|fef ^gfg|a2d cdB|A3-A2z:||
+D2FE2G|F2A EFG|F2d AB=c|B3-B2F|GFG AGA|BAB cBc|d2G FGE|D3-D2z:||
+S:https://www.folktunefinder.com/tunes/71958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/TomJones.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

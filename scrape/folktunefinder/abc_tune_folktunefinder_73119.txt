@@ -1,0 +1,26 @@
+X:175
+T: Planxty O'Rourke
+C: O'Carolan
+B: O'Neill's 660
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "With spirit"
+N: O'Neill has two sharps, but this is clearly a typo.
+M: 6/8
+L: 1/8
+K: G
+D \
+| ">"G(G/A/B/c/) dBG | ccc (c/d/e)c | dBd (e/f/g).e | (f/g/a).f g2d |
+| .g(ab) (ab)g | (fg).e (dc).B | .c(Ad) .B(Gd) | eee f2d/d/ |
+| g>gg g(Bd) | gfg afd | eee (e/f/g).e | dBG G2D |
+| (DG).G Gz D | ">"G(G/A/B/c/) dBG | (EA).A Az E | ">"A(A/B/c/d/) ecA |
+| ddd dec | B>BB BB>A | G>GG G2A | (GFE) DDD |
+| (DEF) .G(B,D) | GFG (AFD) | d2c (B/c/d).G | (F/G/A)D G2 |]
+S:https://www.folktunefinder.com/tunes/73119
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

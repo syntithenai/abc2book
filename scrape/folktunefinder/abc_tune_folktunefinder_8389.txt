@@ -1,0 +1,37 @@
+X: 184
+P: Senpolska fr\aan Torp #4
+R: Polska
+O: efter N.Fannberg, Torp
+B: Musik till Svenska Folkdanser, Ingvar Norman, 1971
+M: 3/4
+L: 1/16
+N: "Mycket l\aangsamt"
+K: Dm
+|: A2 \
+| "Dm"d4 {d}^c2{dc}=Bc A4 \
+| {e}f4 (ef)e^c d4 \
+| {g}(fe)fg a2af d2f2 \
+| "E7"{f}e2ed (^cd)ec "A"A4 |
+| "Dm"{A}d4 ^c2{dc}=Bc A4 \
+| {g}f4 (ef)e^c d4 \
+| {g}(fe)fg a2(af) "A7"d2f2 \
+| (ef)e^c "Dm"d6 :|
+|: b2 \
+| "Dm"a2g2 f2g2 a2ba \
+| "C"g2e2 c2e2 g2ag \
+| "Dm"(fe)fg a2af "(A)"d2f2 \
+|1,3 "E7"(ef)e^c e2c2 "A"A4 \
+:|2,4 "A7"(ef)e^c "Dm"d6 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8389
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

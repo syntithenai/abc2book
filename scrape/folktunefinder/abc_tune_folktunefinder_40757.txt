@@ -1,0 +1,29 @@
+X: 1
+T:Jack's Alive. WCl.01
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+G3 BGB|A3 cAc|d2Bc2A|BAG FED|!
+G3 BGB|A3 cAc|dBG cAF|G3G3:|!
+|:g3 gag|f3  fgf|e3 efg|a2g (fed)|!
+g3 gag|f3 fgf|efg agf|g3 g3|!
+gag gag|fgf fgf|efe efg|a2g  (fed)|!
+g3 dBd|e3 cAc|dBG cAF|G3 G2:|]
+S:https://www.folktunefinder.com/tunes/40757
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

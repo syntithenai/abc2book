@@ -1,0 +1,23 @@
+X: 1
+T: Lonesome John
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+|: "Am"abag e2g2 | e2c2 A4 | abag e2d2 | "G"{d}e8 \
+|  "Am"{fg}abag e2g2 | edc2 A2Ac | edc2 "G"A2{BA}G2 | "Am"A8 :|
+|: "Am"A2AG A2c2 | AGA2 c2A2 | A2AA c2d2 | "G"{d}e8 \
+|  "Am"{fg}a2a2 g2{ag}e2 | "D(m)"d2d2 c2{dc}A2 | "Am"cBAc "G"BAG2 | "Am"A8 :|
+S:https://www.folktunefinder.com/tunes/17576
+S:http://trillian.mit.edu/~jc/music/abc/reel/LonesomeJohn_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LonesomeJohn_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

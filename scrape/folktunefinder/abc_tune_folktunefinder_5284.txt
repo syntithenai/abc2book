@@ -1,0 +1,33 @@
+X: 1
+P: Andro 4 (Cm)
+Z: John Chambers <jc@trillian.mit.edu> from handwritten MS
+M:C
+L:1/16
+K:Cm
+[| C2ED CDEF G2GF E2D2 | C2ED CDEF G2GF G2G2 \
+|  C2ED CDEF GGGF EDED | CDED CDEF GGGF G2G2 |]
+|: C2ED CDEG F2FD GFED | C2ED CDEG FEDE C2C2 :| \
+|: B,CDE F2FG E2DE FGFD | B,CDE F2FG E2DE F2F2 :|
+|: F2FG E2EF D2DE CDB,2 \
+|  B,FB,C D2B,2 DB,CD EDC2 \
+|  F2FG E2EF D2DE CDB,2 \
+|  B,2B,C D2B,2 DB,CD B,2B,2 :|
+|: G2GA G2GF E2D2 C2C2 \
+|  F2F2 D2CB, CDEF G2G2 \
+|  G2GA GGGF EDED C2C2 \
+|1 F2F2 D2CB, CDED C2C2 :|
+|2 F2F2 D2CB, CDED C2CF \
+|: G2B2 C2CF G2B2 D2DE \
+|  F2F2 D2CB, CDEF G2GF |
+|  G2B2 CCCF G2B2 DDDE \
+|1 F2F2 D2CB, CDED C2CF \
+:|2 F2F2 D2CB, CDED C2C2 :|
+S:https://www.folktunefinder.com/tunes/5284
+S:http://trillian.mit.edu/~jc/music/abc/Intl/AnDro4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

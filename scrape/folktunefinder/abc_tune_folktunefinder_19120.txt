@@ -1,0 +1,52 @@
+X: 1
+%%topspace0cm
+%%leftmargin2.0cm
+% %staffwidth17.5cm
+T: Goin' Down South #1
+I: Goin' Down SouthS-GD/E/Fsquare
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+%C: S-G
+C: arr: T. Saletan
+P: Intro
+K: D
+"D"A2 A4 B2| A8| "G"A2G2 G2B2| d4 D2E2| "D"F4 A4| "A7"F4 E4| "D"D8| z8|]
+%%text ----- in D:
+|:\
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A7"F2E2 E2^D2| E4 FE| "G"D2D2- "A7"D2B,2| "D"A,8|
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A"E4 A4| "E7"^G4 B4| "A"A8| z2F2 "A7"G2^G2|
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A7"F2E2 E2^D2| E4 F2E2| "G"D2D2- "A7"D2B,2| "D"A,8|
+"D"A2 A4 B2| A8| "G"A2G2 G2B2| "Ddim7"d4 D2E2| "D"F4 A4| "A7"F4 E4| "D"D8| "         (4x)"z8:|
+%%text ----- in E:
+K: E
+|:\
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B7"G2F2 F2=F2| F4 G2F2| "A"E2E2- "B7"E2C2| "E"B,8|
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B"F4 B4| "F#7"^A4 c4| "B"B8| z2G2 "B7"A2^A2|
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B7"G2F2 F2=F2| F4 G2F2| "A"E2E2- "B7"E2C2| "E"B,8|
+"E"B2 B4 c2| B8| "A"B2A2 A2c2| "Edim7"e4 E2F2| "E"G4 B4| "B7"G4 F4| "E"E8| "         (2x)"z8:|
+%%text ----- in F:
+K: F
+[|\
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F"C8|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C"G4 c4| "G7"=B4 d4|"C"c8| z2A2 "C7"B2=B2|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F"C8|
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| "Fdim7"f4 F2G2| "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 F2G2| \
+"F"A4 c4| "C7"A4 G4| "F"F8| z8 |]
+S:https://www.folktunefinder.com/tunes/19120
+S:http://trillian.mit.edu/~jc/music/abc/square/Goin_Down_South_1.abc
+S:http://roaringjelly.org/music/square/Sq_G_Goin_Down_South_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_G_Goin_Down_South_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Goin_Down_South_1.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_G_Goin_Down_South_1.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key F
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

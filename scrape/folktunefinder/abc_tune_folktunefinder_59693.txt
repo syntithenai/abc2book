@@ -1,0 +1,41 @@
+X:806
+T:Xiraldilla (CT 228) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 228
+M:6/8
+L:1/8
+Q:3/8=88
+K:Gm
+|"Gm"BB/c/d-dcc|"D"B (3B/c/B/A-A3|"D"AA/B/c-cBB|"Gm"A (3A/B/A/G-G3|
+"Gm"BB/c/d-dcc|"D"B (3B/c/B/A-A3|"D"AA/B/c-cBB|"Gm"A (3A/B/A/G-G^FG|
+"D"A^FG ABA|"D"^F2 "Gm"G-GFG|"D"A^FG ABA|"D"^F2 "Gm"G-G2 z||
+W:Sal a bailar buena moza,
+W:menate resalada
+W:que la sal del mundo tienes
+W:y no te meneas nada.
+W:
+W:Caprichosa,
+W:menea la saya,
+W:que ayer tarde
+W:bien la meneabas.
+W:
+S:https://www.folktunefinder.com/tunes/59693
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

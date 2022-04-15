@@ -1,0 +1,21 @@
+X: 12
+T: Lantti (in F)
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+|: "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3c | "F"c2g2 f3B \
+|  "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3e | "F"f2f2 f4 :|
+|: "F"a4 f4 | c2c2 c4 | "F"a4 f4 | c2c2 c4 \
+| "Bb"b2b2 b4 | "F"a2a2 a4 | "C7"g2g2 gbge | "F"g2f2 f4 :|
+%%sep 2 1 500
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/4470
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Revontulet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

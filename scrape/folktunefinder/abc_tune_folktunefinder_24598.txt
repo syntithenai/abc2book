@@ -1,0 +1,25 @@
+X:4146
+T: McQuillen's Squeezebox
+O:england
+C: Ralph Page
+M: 2/4
+L: 1/8
+K: D
+|: FG \
+| "D"A>B AG | FA "(G)"dB | "D"A>B AG | F2 EF \
+| "A7"G>A GF | EA ce |1 "D"d>e "(G)"dB | "A7"A2 :|2 "D"d>e "A7"dc | "D"d2 ||
+|: de \
+| "D"f>g fe | dA de | f>g fe | d2 cd \
+| "A7"e>f gf | eA cd |1 e>f gf | e2 :|2 "A7"ed fe | "D"d2 |]
+S:https://www.folktunefinder.com/tunes/24598
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

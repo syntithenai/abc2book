@@ -1,0 +1,32 @@
+X: 1
+T: The Roselath Cross
+C: Kerrell Garner
+B: RSCDS 41-__
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:G
+D \
+| "G"G2B "D"F2B | "Em"E2B "G"D2d | "G"G>dB "D7"AGA | "G"B3- B2B \
+| "C"c2e "G"B2d | "Am"A2c "A7"G2B | "D"FDF "A7"AGE | "D"D3- D2 ||
+D \
+| "G"G2B "D"F2B | "Em"E2B "G"D2d | "G"D>GB "D7"AGA | "G"B3- B2B \
+| "C"A2e "G"B2e | "Am"c2d ece | "G"d2B "D7"dcA | "G"G3- G2 |]
+B \
+| "Em"E2B "B7"^D2B | "Em"E2B B,2E | "Am"C>EC EDC | "Em"B,3- B,2B, \
+| "Bm"D2F "F#7"^C2F | "Bm"D2E FDB | "D"A2F "A7"AGE | "D"D3- D2 ||
+D \
+| "G"G2B "D"F2B | "Em"E>GB "G"D2B | "G"G>dB "D7"{B}AGA | "G"B3- B2B \
+| "C"A2e "E7"B2e | "Am"c>de fga | "C"ged "D7"cBA | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/14990
+S:http://trillian.mit.edu/~jc/music/abc/jig/Roselath_Cross_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Roselath_Cross_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Roselath_Cross_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

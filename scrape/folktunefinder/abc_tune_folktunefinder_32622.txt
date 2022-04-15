@@ -1,0 +1,28 @@
+X: 2161
+T:Sandansko Oro
+O:Macedonia
+M:22/8
+N:9  13
+P:ABABC
+K:Bbm
+P:A
+    B2f2e2f3  e2 ed f2e3 dc cB\
+|1  Bcd2dce2d dc cB c2B3 Bc de\
+:|2 Bcd2dce2d dc cB c2B3 B2 B2|| \
+P:B
+|:  Bcd2ece2e dc cd dee2g ed cB|\
+    Bcd2dce2d dc cB c2B3 B2B2 :|\
+P:C
+|:  def2fee2d de f=g agf2e de ed|\
+   =def2fee2d de f=g fe ded dd d2:|
+S:https://www.folktunefinder.com/tunes/32622
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A-sharp
+% Time_signature 22/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

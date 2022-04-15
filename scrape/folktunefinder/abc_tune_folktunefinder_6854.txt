@@ -1,0 +1,29 @@
+X: 4
+T: Sidney's ershte bulgar
+C: Sid Beckerman (1989)
+M: 4/4
+L: 1/8
+K: Am
+"E7"E^F^G \
+|:"Am"A2Ec- cBA2 | c2Ae- edc2 \
+| "Am"^de^fe "(B7)"dcBA | "E7"B4 zE^FG \
+||"E7"^G2EB- BAG2 | "Dm"d2Bf- fed2 |
+| "E7"(3efe "Dm"(3ded "B7/D#"(3cdc "E7"(3BcB \
+|1"Am"(3ABA "G"GAG "F"(3FGF "E7"E2 :|2 "Am"A4 z \
+|:"G7"GAB \
+| "C"cBcG- GEC2 | e^dec- cGE2 |
+| "C"(3g^fg (3_bag (3bag "G7"=fe | "C"^fg-g2 "G7"zGAB \
+||"C"cBcG- GEC2 | "Dm"dAde fed>c \
+| "E7"Bc^de dcBc | "Am"A4 z :|
+S:https://www.folktunefinder.com/tunes/6854
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Sidneys1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SidneysErshteBulgar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

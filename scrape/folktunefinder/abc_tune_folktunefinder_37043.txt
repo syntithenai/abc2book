@@ -1,0 +1,28 @@
+X:4820
+T:Polska fr Boda
+T:Laggarfarfars Polska
+A:Dalarna, Boda
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007c0.html
+%%ID:000007c0
+K:A
+E|\
+A>(A A)>B c>d|e>(e e)>d c>e|\
+a2a2 A>c|e2e3 d|\
+c>B A>B c>d|e>(e e/)f/e/d/ c>e|
+a2a2 A>c|e2 e3e|:\
+f>e f2 d>e|f2 d3f|a>(e e/)f/e/c/ A>c|e2 e3e|
+f>e d>c (B2|B/)c/B/A/ B>c d>e|\
+f>(e e/)f/e/c/ d>B|(3EGB A4:|
+S:https://www.folktunefinder.com/tunes/37043
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

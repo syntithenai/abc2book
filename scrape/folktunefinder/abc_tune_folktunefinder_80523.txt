@@ -1,0 +1,26 @@
+X: 245
+T: I'll Be a Good Boy
+B: O'Neill's 245
+N: "Moderate"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:D
+(Ad) \
+| f2 (gf) (ed) | (c2 A2) (A>G) | (F2 D2) D>E | D4 (Ad) \
+| (fg a2) (gf) | (ef g2) (fe) | (dc A2) A2 | A4 (de) |
+|| fg a2 gf | ef g2 fe | d>c de fg | f4 e(f/e/) \
+| (d2 A2) (A>G) | (F2 D2) (FG) | (A2 d2) (d{f}e) | Hd4 ||
+S:https://www.folktunefinder.com/tunes/80523
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0245_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

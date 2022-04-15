@@ -1,0 +1,23 @@
+X:2
+T:Abercairny House
+R:Strathspey
+B:The Athole Collection
+M:C
+L:1/8
+K:C Minor
+C|C<c c>G c>d ed/c/|B>cB>G F/E/D/C/ B,>D|C<c c>G c>d ed/c/|
+BF/B/ G/F/E/D/ E<C C>G,|C<c c>G c>d ed/c/|B>cB>G F/E/D/C/ B,>D|
+C<c c>B c>d ed/c/|d>B g/f/e/d/ e<cc||
+|:G|c>de>c g>ce>c|B>df>b f/e/d/c/ B>d|1 c>de>c g>ce>c|d>B g/f/e/d/ e<cc:|2
+e>cd>=B c/B/c/d/ ed/c/|B/G/F/E/ D/E/F/G/ E<CC||
+S:https://www.folktunefinder.com/tunes/71599
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/athol-ad.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/athol-ad.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

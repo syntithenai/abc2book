@@ -1,0 +1,38 @@
+X: 9
+T: 2. Westwood Reel
+C: Bill Skeoch
+Z: H.I.S.C.D. Happiness is Scottish Country Dancing BRG LP 017
+Z: ABC notation by Robin Shaylor, 2004
+R: Reel
+L: 1/8
+M: C|
+% Q: 440
+K: D
+FG |\
+"D" AAAA .B2 A2 | .A2 d2 Tf4 | AAAA "D#dim" B2 A2 | "A7/E'" {B}c4 c4 |
+"A7/E" c2ce "Em7/B" B2 Bd | "A7" .c2 B2 TB4 | "A7/E'" EFGA "A7m6/A" .B2 c2 | "D" B2 A2 "A7" F2 FG | 
+"D" AAAA .B2 A2 | .A2 d2 Tf4 | "B7" gggg f2 ^d2 | "Em" B4 "Em7" B4 | 
+%
+%%newpage
+%
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 7 of 31
+%
+%%text
+%%text
+"A7" cccc B2 A2 |  g2 e2 "E7" B4 | "A" ceBd "A/C#" c2 A2 | "D" {c}d4 d2 FG |
+"D" AFBF .A2 [A2F2] | AFBF TA2 FG | AFBF "D/F#" .A2 d2 | "A7/E" Tc4 c4 | 
+"A7" ceBd "Em7" .c2 B2 | "A7" .E2 G2 "Em7" {A}B4 | "A7" cBAG "A7/C#" F2 E2 | "/D" DF "Fdim" B2 "D/F#" A2 FG | 
+"D" AFBF  .A2 [A2F2] | AFBF TA2 FG | AFBF "D/F#" .A2 d2 | "G" Tf2 e2 "Em7" B3 d |
+"A7" c2 ce "E7" B2 Bd | "A7" .c2 B2 "Em7" G2 E2 | "A7" CDEF "A7/C#" GABc | "D" {c}.d2 ||
+S:https://www.folktunefinder.com/tunes/40113
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

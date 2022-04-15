@@ -1,0 +1,24 @@
+X:1
+T: Kaisari nokkur maetur mann
+N: L0031A
+O: Europa, Island
+N: Island, bis 1850 im Volksmund erhalten.
+R: Lied
+M: 2/4
+L: 1/16
+K: G
+c6cc | c6c2 | c2B2A4 | G8
+G4G4 | G6G2 | _B8 | A4z4
+c6c2 | c6c2 | c2B2A4 | G8
+G6G2 | G6A2 | A6_B2 | G8
+_B6B2 | G6G2 | A6A2 | c6c2 | c6B2 | A8
+S:https://www.folktunefinder.com/tunes/80000
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

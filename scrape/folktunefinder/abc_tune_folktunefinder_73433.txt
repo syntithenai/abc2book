@@ -1,0 +1,23 @@
+X:274
+T: Achil Air
+B: O'Neill's 274
+N: "Slow"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:D
+(.A.d.d) \
+| ">"d3 (ded) | ">"c3 .c(cB) | ">"A3 .G(AB) | ">"c3 (.A.d.d) \
+| ">"d3 (ded) | ">"c3 .c(cB) | A3 G (TE>D) | D2- D ||
+|| (.A.A.A) \
+| ">"A3 (ABA) | ">"d3 (.A.A.A) | ">"B3 (.A.B.c) | ">"d3 (.d.d.d) \
+| =f3 "dim".f(fe) | (ed) (dcBG) | "p"A3 G (TE>D) | D2- D ||
+S:https://www.folktunefinder.com/tunes/73433
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

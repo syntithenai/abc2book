@@ -1,0 +1,30 @@
+X:1620
+T:the Elterwater Hornpipe
+A:North-West
+C:Wm Irwin
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f4.html
+%%ID:000004f4
+K:G
+Bc|\
+dBGB dBGB| ecAc efge| \
+dBGB dBGB| AFDF ABce| \
+dBGB dBGB| ecAc efge|
+dBGB cAFA| G2B2 G2  ::\
+ga|\
+bgdg afdf| gece dBGB|
+cdef gcBA| B2A2 A2ga| \
+bgdg afdf| gece dBGB| \
+cedc BAGF| A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/36403
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

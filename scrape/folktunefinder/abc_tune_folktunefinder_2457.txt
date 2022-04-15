@@ -1,0 +1,21 @@
+X:4
+T:Key signature, Accidentals and Decorations
+M:C
+L:1/4
+K:A
+| ^C=C_C ^G=G_G | .F/.G/.A/ Ma/Mg/Mf/ Jc J^c  J[c^f] J[c^g]  \
+| {f}e {C}D {cd}c {E^c}a2 {dedc}d | uc vc'-c'/Mb/Mc'/Ma/ |
+(b4 \
+| b/).a/.b/.c'/ | ~A ~g RA Rg  MA Mg kA kg \
+| KA Kg vf/-g/ (u.a/.b/)  | uR~M.c2  Hg4 ||
+S:https://www.folktunefinder.com/tunes/2457
+S:http://trillian.mit.edu/~jc/music/abc/test/KeySignatureAccidentalsAndDecorations.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/KeySignatureAccidentalsAndDecorations.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/KeySignatureAccidentalsAndDecorations.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/KeySignatureAccidentalsAndDecorations.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

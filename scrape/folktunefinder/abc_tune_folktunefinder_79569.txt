@@ -1,0 +1,28 @@
+X:465
+T: ZAU DICH FRAU
+N: E1720
+O: Europa, Mitteleuropa, Deutschland, Rheinland, Koeln
+R: Spott - Lied, Satire
+M: 2/4
+L: 1/8
+K: Bb
+ | FBB2 | Gcc2 | dBBB | cFF2
+FBB2 | Gcc2 | dBcA | B2z2
+cccB | AGF2 | cccB | AGF2
+FBB2 | Fccc | dBcA | B2
+f2 | f3e | d2f2 | f3e | d4
+g2f2 | eed2 | c2B2 | c4
+FBB2 | Gcc2 | dBBB | cFF2
+FBB2 | Gcc2 | dBcA | B2z2
+cccB | AGF2 | cccB | AGF2
+FBB2 | Fccc | dBcA | B2z2
+S:https://www.folktunefinder.com/tunes/79569
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Spott - lied, satire
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

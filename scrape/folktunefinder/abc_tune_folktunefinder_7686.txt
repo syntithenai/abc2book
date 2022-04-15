@@ -1,0 +1,24 @@
+X: 83
+T: the Spotted Pony
+R: reel
+N: The parts are commonly interchanged.
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: D
+|: "D"f2a2 f4 | "G"efed BcdB | "D"ABde fede | f2a2 "A7"e4 | "D"f2a2 f4 |
+| "G"efed BcdB | "D"ABAB dBAG | "A7"F2E2 "D"D4 :: "D"D2D2 "A7"E2E2 | "D"FDF2 "G"G4 |
+| "D"ABde fede | f2a2 "A7"e4 |  "D"D2D2 "A7"E2E2 | "D"FDF2 "G"G4 | "D"ABAB dBAG | "A7"F2E2 "D"D4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7686
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

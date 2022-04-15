@@ -1,0 +1,26 @@
+X:5
+T:Le bal de Sceaux
+T:air:  Et gai, gai, gai
+O:France
+R:Chanson
+C:Tentative d'harm. Michel Bellon
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/4
+Q:1/2=120
+P:ABABA
+K:Gm
+P:A
+V:1 name=G
+G | d2d2 | d/ c/ d/ e/ de | d cB A |
+S:https://www.folktunefinder.com/tunes/39560
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Chanson
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

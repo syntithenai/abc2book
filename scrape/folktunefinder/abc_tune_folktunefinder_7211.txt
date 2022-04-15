@@ -1,0 +1,31 @@
+X: 1
+T: Der Mu\vzinikal
+T: The Youngest Boy Getting Married
+O: Kandel's Orchestra, July 23, 1926
+Q: 1/4=116
+P: ABCB
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|:"A"A2ka2 A2ka2 | gfed Te3d | ^cAce "Dm"dAdf \
+|1,3 "A"ed^cB c3A :|2,4 "A"ed^cB A4 :|
+"B"\
+|:"Dm"f4 f4 | feed d4 | "A"^cdef efef | ed^cB c3A \
+| "Dm"^ced2 d2d2 |
+| "Gm"d^cBA G4 | ^FGAB ^cdcB |1 "A"A2^c2 e2a2 :|2 "A"^cB"fine"A4 |]
+"C"\
+|: A2 \
+| "Dm"d6 ef | d6 A2 | (3d2e2f2 (3e2d2^c2 | d6 A2 | (3d2e2f2 (3e2d2^c2 | d6 A2 |
+| "Dm"def2 "A7"efg2 | "Dm"fga2 "Gm"gab2 | "Dm"agf2 "A7"gfe2 | f6 A2 |
+| "Dm"def2 "A7"efg2 | "Dm"fga2 "Gm"gab2 | "Dm"agf2 "A7"gfe2 | "Dm"d6 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7211
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Muzinikal.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

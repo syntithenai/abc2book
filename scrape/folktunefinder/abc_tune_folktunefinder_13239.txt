@@ -1,0 +1,22 @@
+X: 1
+T: the Lea Rig
+R: air
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+[| BA | "G"B2D2 "D"D2E2 | "Em"G3A G2B2 | "Am"A3B cBAG | "C"B2E2 "D7"E2BA \
+| "G"B2D2 "D"D2E2 | "Em"G3A G2gf | "C"e3d "D7"efgd | "G"B2"C"G2 "G"G2 |]
+[| d2 \
+| "C"ed"D"ef "G"g2B2 | "C"cBcd e2G2 | "Am"A3B cBAG | "C"B2E2 "D7"E2BA \
+| "G"B2D2 "D"D2E2 | "Em"G3A G2gf | "C"e3d "D7"efgd | "G"B2"C"G2 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/13239
+S:http://trillian.mit.edu/~jc/music/abc/air/LeaRig_G.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 58
+T:Niel Gow's Lament for the Death of His Second Wife
+M:6/8
+L:1/8
+Q:50
+C:Niel Gow
+S:Modified to match "Thistledown" version by S. C.
+R:Slow Air
+K:D
+D/2B,/2|"D" A,>B,D "Bm"({DE}D)>ED| ("A"EFA) "Bm"B2 d| ("D"A>FD) ("Em"{EF
+}E>DE)|!
+"Bm"({DE}F)DB, "Bm"B,2 D/2B,/2| "D"A,>B,D "Bm"{DE}D>ED|
+"A"(EF)A "Bm"d2 d/2B/2|!
+ ("D"A2>F/2D) "Bm"({B,=C} B,2)  A,|[1 "Bm"B,D2 "D
+"[D3A,3]:|[2"Bm"B,D2 "D"D2
+(3(A/2B/2c/2)||!
+ ("Bm"d>fd) ("A"{cd}ecA)|
+({Bc}"Bm"B/2A/2)(B/2c/2)({Bc}d) ("G"B/2A/2)(G/2F/2)(E/2D/2)| "Em"({EF}E)
+>DE ("Bm"{DE}F)DB,|!
+ "D"A,DD "Bm"D2 (3(A/2B/2c/2)| ("Bm"df)d ("A"{cd}ec)A|
+ ("Bm"{Bc}B/2A/2)(B/2c/2)({Bc}d)  ("G"B/2A/2)(G/2F/2)(E/2D/2)|!
+S:https://www.folktunefinder.com/tunes/77251
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Reel de Charny
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: G
+|: DG,B,D G,DB,D | CDEG cGBG | ADFA DAFA | GABc ddd2  |
+|  DG,B,D G,DB,D | CDEG cGBG | ADFA DAFA | GBAF GGG2 :|
+|: gfga   bgdg   | dgdg Bdef | gfga bgdg | defg a2ab  |
+|  a2ga   bgdg   | dgdg Bdef | gBBc dedc | BGAF G2G2 :|
+S:https://www.folktunefinder.com/tunes/18007
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_de_Charny_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Reel_de_Charny_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Reel_de_Charny_G4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:12310
+T:Old Dutch Churn, The
+S:as played by Buddy MacMaster
+R:Jig
+O:Canada
+M:6/8
+I:speed 300
+A:Cape Breton
+K:Gm
+A| \
+B3 Bd2 | G2d dcB | A3 Ac2 | F2c cBA | \
+B3 Bd2 | G2d dcB | dfd cBA| G3 G2 :|
+z| \
+b3 g3 | b2g gfd | a3 f3 | fgf agf | \
+b3 g3 | b2g gfd | fdB Bdf | g3 g2a |
+b3 g3 | b2g gfd | a3 f3 | fgf agf |\
+b3 g3 | a2g gfd | dfd cBA | G3 G3|]
+S:https://www.folktunefinder.com/tunes/55059
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

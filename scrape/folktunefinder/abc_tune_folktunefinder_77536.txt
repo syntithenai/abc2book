@@ -1,0 +1,25 @@
+X:2
+T:Accidental Parade Flute Part
+C:copyright 1998 Jim Thompson 
+N:To be played with Kaubells' tune of that name
+R:Jig
+E:14
+M:6/8
+K:D
+|d2^g bc'b|aed c3|d2e dcB|ABA A3|
+|a2=f dcd|e2c e^de|f2^d f^ef|1 B3 B^AB:|2 Bcd ef^g||
+|:ze/f/e zc/d/c|d2A F2A|ceg edc|dAB cde|
+|zf/^g/f z^d/e/d|e2B ^G2B|edc e2a|1 fde fga:|2 f3 z3||
+T:Last time
+|zf/^g/f z^d/e/d|e2B ^G2B|edc e2a|f3 f3|]
+S:https://www.folktunefinder.com/tunes/77536
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/bee-harmony.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

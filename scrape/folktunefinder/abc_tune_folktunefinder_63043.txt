@@ -1,0 +1,24 @@
+X:310
+T:Martin Wynne's #1
+M:C|
+L:1/8
+Q:120
+C:Martin Wynne
+R:Reel (Key of D)
+K:D
+"D"AF~F2 "A"GE~E2 | "D"DFAF "A"EFDB, |"D"A,B,DE ~F3B | ABde "A"fedB |
+"D"AF~F2 "A"GE~E2 | "D"DFAF "A"EFDB, |"D"A,B,DE ~F3B |1 "A"ABde "D"fddB :|2 "A"ABde "D"fede |:
+"D"f2af "G"gfeg | "D"fedf "A"edBc | "D"dBAF DEFB | ABde "A"fede |
+"D"f2af "G"gfeg | "D"fedf "A"edBc | "D"dBAF DEFB |1 "A"ABde "D"fdde:|2 "A"ABde "D"fedB |]
+S:https://www.folktunefinder.com/tunes/63043
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

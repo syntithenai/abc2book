@@ -1,0 +1,26 @@
+X:174
+T: UND EIN GOTT IST
+N: F0309A
+O: Europa, Mitteleuropa, Deutschland
+N: Strophenvariante von F0309
+R: Jugend - Lied, Moral, religioes
+M: 4/4
+L: 1/4
+K: Eb
+B,B, | E2EE | E2DC | B,3A, | B,2z
+B, | A,2G,2 | F,2F,F, | F,4 | F,2z
+G | G2EF | G2FE | E2FE | E2z
+E | F2B,B, | E2CA, | _D4 | C2
+CC | =B,2B,A, | C2CC | D2D2 | E2
+EE | E2EE | E2EC | B,4 | B,2B,2 | B,2
+S:https://www.folktunefinder.com/tunes/69734
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, moral, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

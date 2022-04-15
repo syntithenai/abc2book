@@ -1,0 +1,31 @@
+X:17664
+T:Top Sail Shivers (in the wind). JC.218
+M:C
+L:1/8
+Q:110
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Air
+O:England218
+A:Northamptonshire
+N:MR.Bars 4.13,following the dotted qu, a qu in the Ms is given here as a
+N:semi-qu.
+Z:P Headford
+K:D
+A2|d2d2d>e{f}f>e|d2D2D2de|f2f2(f>g)ag|(f3/2g/4)f/4e2z2a>g|!
+f2f>ed2b>a|g2g>fe2A2|d>cd>g f>a a/g/f/e/|d2z2z2A2|!
+dAB=c cBAG|eBcd dcBA|fcded3d|bagf fefg|!a>fdA FAdf|
+afba {a}g3(g3/2a/4b/4)|a2b3/2c'/4d'/4 af>"tr"ed|f<a a/g/f/e/{e}d2|]
+W:Song text exists. See Deacon.
+S:https://www.folktunefinder.com/tunes/39035
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

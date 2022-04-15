@@ -1,0 +1,31 @@
+X:73
+T: Kriegsfreud und Kriegsleid
+N: A0424
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. 1646 S. 3302.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/8
+K: G
+G2 | G2A2_B2c2 | d3dA2
+d2 | c2_B2A2G2 | A4z2
+G2 | G2A2_B2c2 | d3dA2
+d2 | c2_B2A2G2 | A4z2
+d2 | e2d2d2^c2 | d6
+d2 | e2d2d2^c2 | d4z2
+_B2 | =f4c2c2 | d4_B2
+B2 | c2d2_e2c2 | _B4z2
+d2 | c2_B2A2G2 | F3GA2
+_B2 | c2d2A3G | G4z2
+S:https://www.folktunefinder.com/tunes/80132
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:755
+T:Reel Beatrice
+M:4/4
+L:1/8
+R:reel
+D:Liz Carroll: Liz Carroll
+Z:Devin McCabe
+K:GMin
+G,A, |: B,2G,B, DG,B,D | GDDC D2GA | B2GB dGBd | gddc d2ga |
+!bagf edcB | AccB ~c3e | ~d3e dcBA |1 B2AB G2G,A, :|2 B2AB G3^f |:
+!~g2^fg a~e3 | edcd g~d3 | dcde dcBA | B2AB GABd |
+!g2^fg a~e3 | edcd g~d3 | dcde dcBA |1 B2AB G3^f :|2 G3G, G,3A |:
+!BF F/2F/2F DFBd | BF F/2F/2F DFBd | cA A/2A/2A FAcA | Bbag fedc |
+!BF F/2F/2F DFBd | BF F/2F/2F DFBd | cA A/2A/2A FAcA |1 B2Ac B2 (3FGA :|
+S:https://www.folktunefinder.com/tunes/48044
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

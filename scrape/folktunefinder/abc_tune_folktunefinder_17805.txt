@@ -1,0 +1,25 @@
+X: 1
+T: On a Bank of Flowers [Dm]
+O: Trad
+B: Gow, Vocal Melodies
+Z: John Chambers <jc:trillian.mit.edu>
+N: Sometimes played in major (see O'Neill)
+M: 2/4
+L: 1/16
+K: Dm
+DE | "Dm"F2A2 "A7"A2=B^c | "Dm"d2A2 A2f2 | "Gm"e2d2 "A7"fed^c | "Dm"d6 :| fg | "F"a2f2 f2ga | "C"g2c2 c2de |
+| "Dm"f2d2 d2ef | "A7"e2A2 A2FG | "Dm"AGFG "/C"AGFG | "/Bb"AGAB "/A"A2f2 | "Gm"e2d2 "A7"fed^c | "Dm"d6 |]
+S:https://www.folktunefinder.com/tunes/17805
+S:http://trillian.mit.edu/~jc/music/abc/reel/OnABankOfFlowers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/OnABankOfFlowers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/OnABankOfFlowers_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OnABankOfFlowers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:0
+T:Grain in hides and corn in sacks
+S:Kilberry Book of Ceol Mor
+N:6,6,4 structure
+M:C
+L:1/8
+Q:1/4=40
+K:HP
+    {ge4}d<{G}d   {G2dc}d2       B{g}d{e}A{d}A|{ge4d}B{G2dc}d3         A{g}B{e}G{d}G |
+    {ge4}d<{G}d   {G2dc}d2       B{g}e{g}A{d}A| {ge4}d<{G}d   {G2dc}d2 B{g}d{e}A{d}A |
+      {g}e2          {g}A{d}A {g}d2   {e}A{d}A|{ge4d}B{G2dc}d3         A{g}B{e}G{d}G||
+    {ge4}d<{G}d   {G2dc}d2       B{g}e{g}A{d}A| {ge4}d<{G}d   {G2dc}d2 B{g}d{e}A{d}A |
+[1 {ge4d}B{G2dc}d3               A{g}B{e}G{d}G| {ge4}d<{G}d   {G2dc}d2 B{g}d{e}A{d}A |
+      {g}e2          {g}A{d}A {g}d2   {e}A{d}A|{ge4d}B{G2dc}d3         A{g}B{e}G{d}G:|
+[2    {g}e2          {g}A{d}A {g}d2   {e}A{d}A|{ge4d}B{G2dc}d3         A{g}B{e}G{d}G|]
+S:https://www.folktunefinder.com/tunes/30222
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

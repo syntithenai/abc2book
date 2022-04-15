@@ -1,0 +1,28 @@
+X:2
+T:Reel Cornichons
+C:Neil Brookes
+Z: "Neil Brookes" <neil:brookes36.freeserve.co.uk> tradtunes 2001-01-24
+N: Written for fiddle in the style of a French Canadian reel.
+N: AbcMus will tell you there are too many notes - true, but don't worry!
+M:4/4
+L:1/16
+Q:1/4=120
+K:G
+| DG2 BGAB cAGABcd3 | d2fed cAFGA cBA BGAF | G2 BGABcAGABcd3 | efdecdcA FGBAFG4 |
+| G2 BGAB cAGABcd3 | d2fed cAFGA cBA BGAF | G2 BGABcAGABcd3 | efdecdcA FGBAFG4 |
+|g2 bgabag edcABGG2 | D2 FDADFD ABcABGG2 | g2 bgabag edcABGG2 | DEFGABcA BGAF GBAFG4 |
+|g2 bgabag edcABGG2 | D2 FDADFD ABcABGG2 | g2 bgabag edcABGG2 | DEFGABcA BGAF GBAFG3 |
+S:https://www.folktunefinder.com/tunes/17972
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelCornichons.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ReelCornichons.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilBrookes/ReelCornichons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ReelCornichons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ReelCornichons_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

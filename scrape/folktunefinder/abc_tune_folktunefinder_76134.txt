@@ -1,0 +1,27 @@
+X:154
+T: Jung Franzosenblut (2-56) S. 177
+N: P0929
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Soldatenlied]
+M: 4/4
+L: 1/8
+K: C
+G2 | c3GGFED | C2E2E2
+E2 | D2c2c2BA | G2^F2G2
+GF | E2EEEFGA | G2FEF2
+FE | D2D2D2CE | G3GG2G2 | G4
+G3c | c3GAGFE | A4
+c3d | c3GAGFD | C4z2
+S:https://www.folktunefinder.com/tunes/76134
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

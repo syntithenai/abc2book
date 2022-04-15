@@ -1,0 +1,31 @@
+X:15996
+T:Stens Polska
+S:From Lennart Melgrens
+R:Polska
+O:Sweden
+M:3/4
+A:Boda
+K:D
+{B}A2 D>F A>d| f<g a2 f>g| \
+a2 a/b/a/g/ e>c| {c}d2 c/d/c/B/ A>B|\
+A2 D>F A>d| f<g a2 f>g| 
+a2a/b/a/g/ e>c | {c}d2 d4 :||: \
+K:G
+G>A Bc e>d| d<g B2 B>c| \
+d2 d/e/d/c/ A>B| c2 B/c/B/A/ B>A|
+G>A Bc e>d| d<g B2 B>c| \
+d2 d/e/d/c/ A>F |1 G2 G4 :|2 G2 G3|]
+S:https://www.folktunefinder.com/tunes/47271
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

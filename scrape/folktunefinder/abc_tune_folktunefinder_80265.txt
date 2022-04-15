@@ -1,0 +1,27 @@
+X:206
+T: Osterlied des 15. Jahrhunderts
+N: A0561
+O: Europa, Mitteleuropa, Deutschland
+N: H. Finck 1536 No. 11.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/4
+K: G
+G2 | d6d2d4=f4 | e4d4c4z2
+d2 | B4G4B4c4 | d4e4d4z2
+G2 | d6d2d4=f4 | e4d4c4z2
+d2 | B4G4B4c4 | d4e4d4z4
+g6=f2e4d4 | g4e4d4z2
+d2 | g4c4d4G4 | B4d4B4z2
+G2 | A3Ac4B4A4 | E4=F4G4z2
+G2 | A3Ac4B4A4 | E4F4G4A4 | G8z6
+S:https://www.folktunefinder.com/tunes/80265
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

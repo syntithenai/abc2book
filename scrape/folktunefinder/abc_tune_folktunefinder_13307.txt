@@ -1,0 +1,30 @@
+X: 1
+T: Ringen
+R: sk\"ankl\aat
+C: Peter "Puma" Hedlund
+S: Peter "Puma" Hedlund at ANA Stmma 1999
+N: From a transcription by Matt Fichtenbaum
+M: C|
+L: 1/8
+K: Gm
+"D7"D2 \
+| "Gm"B,2D2 D2D2 | (G^F)GA (~BA)GF | "D7"D2c2 c2c2 | (~BA)Bc (dc)BA |
+| "Gm"G2d2 d2d2 | "Cm"(c=B)cd e2dc | "Gm"B2d2 "D7"A2d2 | "Gm"G4 G2 :|[K:=B=e][K:G]
+K: G
+|: "D7"=Bc \
+| "G"d2g2 g2g2 | "Em"(e^d)ef (g~f)e=d | "Am"c2e2 e2e2 | "D7"(d^c)de (d=c)BA |
+| "G"G2d2 d2d2 | "C"(cB)cd e2dc | "G"B2d2 "D7"A2d2 | "G"G4 G2 :|
+S:https://www.folktunefinder.com/tunes/13307
+S:http://trillian.mit.edu/~jc/music/abc/air/Ringen_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/skanklat/Ringen_Gm.abc
+% Rhythm Ska?nkl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

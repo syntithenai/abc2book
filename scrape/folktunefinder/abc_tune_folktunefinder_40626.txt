@@ -1,0 +1,31 @@
+X:45
+T:Molenmazurka
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+%P:(Voorspel ABC) x4
+L:1/8
+M:3/4
+K:D
+P:Voorspel
+FE FG A2 | BA Bc d2 | A2 B2 c2 | d2 d2 z2 |]
+P:A
+FE FG A2 | BA Bc d2 | A2 B2 d>e | d2 c2 z2 | ED EF G2 | GF GA B2 | c2 c2 B>c | B2 A2 z2 |
+FE FG A2 | BA Bc d2 | d2 c2 d2 | e2 d2 z2 | e3 d cB | d3 c BA |1 c3 B AG | (F2 F) z z2 :|2 c3 B AB/c/ | d2 d z |]
+P:B
+A2 || dc BA FA | BA GF GB | cB AG FG | BA FA FA |
+dc BA FA | BA GF GB | cB AG FE |1 D2 D z A2 :|2 D2 D z z2|]
+P:C
+F3 F EF | (G2 G) z z2 | E3 E DE | (F2 F) z A2 | d3 c ed | c3 B AB | c3 B AG | (F2 F) z z2 |
+F3 F EF | (G2 G) z z2 | E3 E DE | (F2 F) z A2 | d3 c ed | c3 B AB | c3 B AB/c/ | d2 d z z2 :|
+S:https://www.folktunefinder.com/tunes/40626
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

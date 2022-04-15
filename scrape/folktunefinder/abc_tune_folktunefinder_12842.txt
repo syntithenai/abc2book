@@ -1,0 +1,24 @@
+X: 9
+T: King of the Fairies, The
+R: hornpipe
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+K: Edor
+|: EDEF GFGA | B2B2 G2GA | B2E2 EFGE | FGFE D2B,2 |
+|  EDEF GFGA | BAGB d3=c | B2E2 GFED | E8 :|
+|| e2e2 Bdef | gagf efed | e2B2 BABc | dedc Bcd{c}B |
+|  e2B2 Bdef | gagf efed | Bde{f}g fedf | e6 ef |
+|  g3e f3d | edBc d3e | dBAF GABc | dBAF GFED |
+|  B,2E2 EFGA | B2e2 edef | e2B2 BAGF | E8 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12842
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

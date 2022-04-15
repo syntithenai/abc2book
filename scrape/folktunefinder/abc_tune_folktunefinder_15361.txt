@@ -1,0 +1,29 @@
+X: 1
+T:British Field March
+M:2/4
+L:1/16
+%Q:90
+S:As played by Janet Kerr
+O:Quincy Dillon - (Fifer in the Civil War)
+N:Henry Reed learned it from Quincy Dillon, and passed it on to Alan Jabbour.
+Z:Johnny Adams -Village Music Project
+K:Am
+|: ABcd e2a2 | gage dBGB | ABcd e2a2 | g2^f2 e4 \
+|  ABcd e2a2 | gage dBGB | g2ge dBAG | EGAB  A4 :|
+|: AB (3cBA BcdB | G2Bc dB(G2 | G3)B cBAG | EGAB A4 \
+|  AB (3cBA BcdB | G2Bc dBG2  | g3e  dBAG | EGAB A4 :|
+S:https://www.folktunefinder.com/tunes/15361
+S:http://trillian.mit.edu/~jc/music/abc/march/BritishFieldMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/BritishFieldMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BritishFieldMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/BritishFieldMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

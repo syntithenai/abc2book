@@ -1,0 +1,28 @@
+X:430
+T: BALD SINKT NUN DER MITTERNACHT
+N: F0799
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Moral - Lied
+M: 2/4
+L: 1/16
+K: G
+G3G | A2A2B2B2 | A4
+c3c | B2dcB2A2 | G2z2
+G3G | A2A2B2B2 | A4
+c3c | B2dcB2A2 | G2z2
+d3d | A2A2B2d2 | A4
+d2d2 | dcedc2B2 | A4
+G3A | B2A2B3c | d4
+c3c | B2cAG2F2 | G4
+S:https://www.folktunefinder.com/tunes/69990
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

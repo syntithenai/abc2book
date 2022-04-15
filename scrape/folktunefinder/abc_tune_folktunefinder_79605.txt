@@ -1,0 +1,25 @@
+X:501
+T: DAVIDKEN SIEN VADER
+N: E1758
+O: Europa, Mitteleuropa, Deutschland, Mark
+R: Scherz - Lied, biblischer Stoff
+M: 3/8
+L: 1/8
+K: C
+G, | CB,A, | G,F,E, | F,D,G, | C,2
+C | B,2C | D2D | G,A,B, | C2
+C | A,2A, | A,B,C | G,2G, | G,2
+C | A,2A, | A,B,C | G,2G, | G,2
+G, | CB,A, | CB,A, | CB,A, | G,2
+G, | DEF | B,CD | C2C | C2
+S:https://www.folktunefinder.com/tunes/79605
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied, biblischer stoff
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

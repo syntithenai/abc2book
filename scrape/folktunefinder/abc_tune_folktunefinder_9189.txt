@@ -1,0 +1,25 @@
+X: 1
+T: Rudolf er r\od p\aa nesen
+C: Tune: Johnny Marks
+C: Words: Egil Hagen
+M: C
+L: 1/8
+K: Bb
+[| "Bb"F G2 F D2 B2 | G2 F4 z2 \
+ |  FG FG F2 "Edim"[B2=E2] | "F7"[A6_E6] z2 |
+w: Ru-dolf er r\od p\aa ne-sen, og n\aar det er vind og sno
+ | "F7"E F2 E C2 [A2E2] | [G2E2] [F4E4] z2 \
+ | FG FG F2 "F75"[G2^C2] | "Bb"[D6B,6] z2 ||
+w: blir han s\aa kald p\aa ne-sen s\aa den ly-ser som en glo.
+|| "Bb"F G2 F D2 B2 | G2 F4 z2 \
+ |  FG FG F2 "Edim"[B2=E2] | "F7"[A6_E6] z2 |
+S:https://www.folktunefinder.com/tunes/9189
+S:http://trillian.mit.edu/~jc/music/abc/Scand/RudolfErRodPaNesen.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/RudolfErRodPaNesen_Bbw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/RudolfErRodPaNesen_Bbw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

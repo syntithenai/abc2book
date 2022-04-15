@@ -1,0 +1,41 @@
+X: 1
+T: Larry Mills' g\aangl\aat
+O: Bruce Sagan & Andrea Hoag
+R: air
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+V: 1
+DE \
+|  "D"{E}F2FD A3(F | "Em"G2)GE B3(d | "A7"~c3)(B A)GFE | "D"{A}B2A2 (AD)DE |
+|  "D"{E}F2FD A3(F | "Em"G2)GE B3(d | "A7"c3)d fece | "D"d4- d2(DE) ||
+|| "D"{E}F2FD A3(F | "Em"G2)GE B3(d | "A7"c3)(B A)GFE | "D"{A}B2BA (AD)(DE) |
+|  "D"{E}F2FD A3(F | "Em"G2)GE B3(d | "A7"c3)(d f)e(ce) | "D"d4- dcde |]
+|: "D"(ef)fd (Ad)fd | "A7"(ef)ec A3(F | "G"G)FGA (~BA)Bc | "D"d2dc "G"b2"A7"a2 |
+|  "D"(ef)fd (Ad)fd | "A7"(ef)ec A3(uF |1 "G"G)FGA B2"A7"c2 | "D"d4- dcde \
+                                :|2 "G"GFGA B2"A7"c2 | "D"d4- d2 |]
+V: 2
+M: C
+L: 1/8
+K: D
+A,C \
+|  {C}D2DA, F3(D | E2)EB, G3(B | A3)(G F)EDE | {F}G2F2 (FA,)A,C |
+|  {C}D2DA, F3(D | E2)EB, G3(B | A3)B   cBAG | [A4-F4-] [A2F2] A,C ||
+|| {C}D2DA, F3(D | E2)EB, G3(G | A3)(G F)EDE | (FG)GF F2(Ac) |
+|  {c}d2dA  f3(f | e2)ef ~g3(b | a3)(b a)b(ag) | [f4-A4] fedc |]
+|: (Ad)dA (FA)dA | (cd)cA E3(D | B,A,)B,D (GF)GA | [B2D4]BA [d2D2][c2E2] |
+|  (cd)dA (FA)dA | (cd)cA E2(uD2 |1 B,)A,B,D [A2G2][A2E2] | [A4-F4-] [AF]EFG \
+                               :|2 B,)A,B,D A2[A2G2] | [A4-F4-] [A2F2] |]
+S:https://www.folktunefinder.com/tunes/8801
+S:http://trillian.mit.edu/~jc/music/abc/Scand/LarryMillsGanglat.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LarryMillsGanglat_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/LarryMillsGanglat_2V.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

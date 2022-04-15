@@ -1,0 +1,25 @@
+X: 5
+T:5.  Buying Some Time
+C:c 2003 Harry Bolick  
+R:Breakdown
+O:United States
+A:Hastings On Hudson, New York
+M:2/4
+L:1/8
+Q:160
+K:G
+ A/2B/2|: "G"  AG GA/2B/2|A/2G/2E/2D/2"C" C2|"G" B,B, A,B,| "D" D3 A/2B/2|
+"G" AG G2 |D/2E/2F/2F/2 GG|BB c/2B/2A|[1 B3  A/2B/2 :|[2 B3 (e/2g/2) ||
+"D" ed d(e/2g/2) |edd2 |ff g/2a/2g|f2 ff/2g/2 |"G" e/2d/2(B/2A/2) GA/2B/2 |
+"C" A/2G/2E/2D/2C2|1 "G" B,B, A,B,| "D" D3 (e/2g/2):|2  "G" B,B, A,B,| G4:|
+S:https://www.folktunefinder.com/tunes/1698
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:791
+T:Xiraldilla (CT 151)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Estanislao Lana Lana, de veintin aos, de Somiedu.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 151
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|: G>AB|cBA|G>AB|ccc|B3|A2 z|
+A>AA|BAG|F>GA|BAG|F3|G2 z :|
+A>AA|BAG|F>GA|BAG|F3|G2 z||
+W:Maanita de San Juan,
+W:cunto me diverta
+W:a las orillas del mar
+W:con una prenda ma.
+W:A las orillas del mar
+W:con una prenda ma,
+W:maanita de San Juan,
+W:cunto me diverta,
+W:a las orillas del mar
+W:con una prenda ma.
+W:
+S:https://www.folktunefinder.com/tunes/59678
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

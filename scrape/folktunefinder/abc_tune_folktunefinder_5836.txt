@@ -1,0 +1,27 @@
+X: 1
+T: Mayim
+T: Water
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+|: D/E/ \
+|| "Dm"DE F/E/D | FG A>G | "F"FA cB | AG "A7"AA/A/ |
+|  "Dm"DE F/E/D | FG A2 | "Bb"dd "F"cc | "Am"Ac "Dm"d2 ||
+|| "Dm"dd dd | "Bb"dd dd | "F"zc cc | "Am"Ac "Dm"d2 |
+|  "Dm"dd dd | "Bb"dd dd | "F"zc cc | AG A2 || "C7"c2 c2 | c2 c2 ||
+|| "F"cc "C7"B/A/G | "F"cc "C7"B/A/G | "F"FG A>A | GF "C7"c2 |
+|  "F"cc "C7"B/A/G | "F"cc "C7"B/A/G | "A7"AA "Dm"F/E/D | "A7"FE "Dm"D2 :|
+"Coda" \
+|| "Dm"d2d2 | zd "C"cc | "Dm"d2d2 | zd "C"cc | "Dm"d2d2- | d4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5836
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Mayim.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Mayim.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Mayim.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

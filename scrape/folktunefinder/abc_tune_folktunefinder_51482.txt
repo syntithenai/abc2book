@@ -1,0 +1,23 @@
+X:161
+T:The Dances at Kinvara (Barndance)
+C:Ed Reavy
+M:4/4
+L:1/8
+K:G
+(3DEF|"G"G2 B2 BdBG|"D"c2 D2 [F3A3] G|FGAB cdef|"G"gfag gd^cd|
+B2 G2 DBcB|"D"A2 D2 [F3A3] G|FGAB cAFA|"G"G2 B2 G2:|GA|"G"B2 dB "C"c2 e2|
+"G"d2 b2 b3 f|"D"agfe dcBA|"G"G2 g2 g2 (3def|\
+g2 dB "Am"e2 cA|"G"d2 BG "C"[C2E2] AG|
+"D"FGAB cAFA|"G"G2 B2 G2:|
+S:https://www.folktunefinder.com/tunes/51482
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t161.abc
+S:http://www.arcelts.com/bbot1/t161.txt
+S:http://www.arcelts.com/bbot1/t161.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

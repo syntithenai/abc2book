@@ -1,0 +1,37 @@
+X: 2
+T: Ratevka
+O: Bulgaria
+M: 7/8
+L: 1/8
+K: EPhr^G
+"B"\
+[| "E"DEE E2 EF | (4GABA G2 (3FEF | G3 GB AG | FED E2 ED \
+|     DEE E2 EF | (4GABA G2 F2 | G7- | G7 |
+|  "E"G2A BE cE | B2A AG (3FEF | G2E GB AG | FED E2 ED \
+| "Dm"EFD FD FA | G2F FE FD | E7 | B3 "ginf"E2 z2 |]
+"C"\
+|: "E"d^ce d=c BA | BcA B2 BE |1,3 dee dc BA |  BcA B2 BE :|2,4 cBA G2 GF | "Dm"FED "E"E2 E2 :|
+"D"\
+|: "E"cBA G2 GF | "Dm"FED "E"E2 ED | "Dm"AGF "E"G2 GF |1,3 "Dm"FED "E"E2 ED |2,4 "Dm"FED E3 z :|
+"E"\
+|::: "E"AAG AA AG | GGF GG GF | GGF FF FE | FFE EE EE :::|
+"F"\
+|: BBE EE EE | | GGF EE EE | ABE EE EE |1 GGF EE EE :|2  GGF EE ED |]
+"G"\
+|| "D"D7- | D7 | {^G}A7- | A7 || [K:=G][K:Dmix]
+"A"\
+|: "D"ddc cB BA | BcA ^cd dA | ddc cB BA |1,3 BcA ^cd dA :|2,4 BcA ^cd d2 :|
+"H"\
+|::: "D"cBA ^GA AD | EED ^GA AD | ^GAB AG AD | FFD ^GA AD :::|
+"I"\
+|: "G"BBz BB BA | "D"AAG FF FD | "A7"FGz GG GF | "D"FFE DD D2 |
+|  "G"B3  BB BA | "D"AAG FF FE | "A7"FGE FF FE | "D"EED D2 z2 :|
+S:https://www.folktunefinder.com/tunes/5958
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ratevka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

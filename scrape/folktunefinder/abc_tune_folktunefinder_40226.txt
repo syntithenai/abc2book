@@ -1,0 +1,34 @@
+X:27
+T:La Gavotte
+O:France
+A:Provence
+C:Trad. militaire
+R:Danse de caractre
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+P: A B C B C
+K:Bbmajor
+V:1
+P:A
+{FGA}B2B2|B3 c/d/|ed cB|AG AF|B2B2|B3 c/d/|cB AG|F4::
+P:B
+c>d ec|AF FF|(B/A/).B/.c/ (d/A/).B/.G/|F4 :|\
+P:C
+FA cA|ec AF|B2 d>c|B4|]
+V:2 clef=perc stafflines=1 staffscale=0.7
+[K:C]B2 B2 | BBB2 | B2 B2 | BBB2 | B2 B2 | BBB2 | B2 B2 | BBB2 | B2 B2 | BBB2 |
+B2 B2 | BBB2 | B2 B2 | BBB2 | B2 B2 | B3z |
+%%footer $D   Galouvielle-MBe 2005 \nDanse de caractre France
+S:https://www.folktunefinder.com/tunes/40226
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:97
+T: Lied der Floesser vom Rotmain
+N: D0143
+O: Europa, Mitteleuropa, Deutschland, Oberfranken
+N: Wechselgesang solo - Gruppe; Sequenzen; In der fuenften Zeile
+N: rhythmisch korrigiert; Inzipit = Variante zum Lied
+R: Staende - Lied
+M: 4/8
+L: 1/16
+K: G
+ |  |  |  | G2G2G2G2 | G2E2D2D2 | G2E2D2D2
+G2A2B2B2 | A2A2G4
+G2A2B2B2 | A2A2G2
+D2 | G2G2G2G2 | G2E2D4 | G2E2D4
+G2A2B2B2 | A2A2G4
+G2A2B2B2 | A2A2G4 | z2
+GA | B3BB2AB | c2A2c2A2 | z2
+AB | c3cc2Bc | d2B2d2B2
+D4 | G2G2G2G2 | G2E2D4 | G2E2D4
+G2A2B2B2 | A2A2G4
+G2A2B2B2 | A2A2G4
+d4 | BBBcd4 | BBBcd4
+d2c2c2c2 | e2d2d2
+d2 | BBBcd4 | BBBcd4
+d2c2c2c2 | B4
+S:https://www.folktunefinder.com/tunes/72554
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

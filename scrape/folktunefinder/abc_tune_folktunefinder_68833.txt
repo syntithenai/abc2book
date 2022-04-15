@@ -1,0 +1,25 @@
+X:287
+T: Zecherlied
+N: A0331
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II (1540) No. 43
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: E
+=c2 | =c4B4 | A6=d2 | =d3B=c2A2 | =G4z2
+G2 | =c4B4 | A4E4 | =G2G2=F2F2 | E4z2
+E2 | E4E4 | =G6=F2 | E4=D4 | =C4z2
+E2 | =G2G2G4 | =G2G2G4 | A6A2 | A4z2
+B2 | =c2c2B4 | A4E4 | =G4=F4 | E6
+S:https://www.folktunefinder.com/tunes/68833
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

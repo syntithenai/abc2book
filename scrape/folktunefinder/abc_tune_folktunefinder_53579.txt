@@ -1,0 +1,25 @@
+X:77
+T:Untitled Jig #1
+M:6/8
+L:1/8
+Q:3/8=140
+S:Lee Cremo
+R:jig
+Z:posted by Philippe Varlet 5/97
+K:A
+cd |: efe c2 d | efe c2 e | dcd B2 c | d3 {e}dcd |
+efe ce=g | fef dfa | g2 b gfg |1 a3 a3 :|2 a3 a2e ||
+agf edc | Bcd f2 e | cde eae | cde f2 e |
+agf edc | Bcd f2 a | efe dcB |1 c/2B/2A2 ea2 :|2 BA2 A3 ||
+S:https://www.folktunefinder.com/tunes/53579
+S:http://otterlimits.org/fiddling/tunes/longlist.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

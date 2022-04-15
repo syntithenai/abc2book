@@ -1,0 +1,35 @@
+X:1
+T:Le corsaire "le Grand Coureur"
+R:chant marin
+O:France
+Z:<anamnese@laposte.net>
+M:3/4
+L:1/8
+Q:1/4=60
+K:F
+F E |: D A A G | A2 F E :| D A A G | A2 F E | 
+A2 A A | A3 c | B3 A | G2 E F | G>B A F | 
+D>D D F | A2 F2 | D>D D F | A2 F2 | E2 z2 ||
+W:Le corsaire le Grand Coureur / Est un navire de malheur 
+W:Quand il s'en va croisire / Pour aller chasser l'Anglais 
+W:Le vent, la mer et la  guerre 
+W:Tournent contre le Franais. 
+W:Allons les gars gai, gai 
+W:Allons les gars gaiement! 
+W:
+W:Il est parti de Lorient 
+W:Avec mer belle et bon vent 
+W:Il cinglait babord amure 
+W:Naviguant comme un poisson 
+W:Un grain tombe sur sa mature 
+W:v'la le corsaire en ponton. 
+W:/.../
+S:https://www.folktunefinder.com/tunes/39928
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chant marin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

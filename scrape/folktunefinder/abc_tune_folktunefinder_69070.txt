@@ -1,0 +1,30 @@
+X:211
+T: ES JAGT EIN JAEGER GESCHWINDE DORT OBEN VOR DEM HOLZ
+N: Z0210
+O: Europa, Mitteleuropa, Deutschland
+R: Jaeger - Lied
+M: 3/8
+L: 1/16
+K: F
+C2 | F4G2 | A2F2c2 | c6 | B2A2G2 | F4
+G2 | A4=B2 | c4=B2 | c4
+C2 | F4G2 | A2F2c2 | c6 | B2A2G2 | F4
+G2 | A4=B2 | c4=B2 | c4
+B2 | B4G2 | A3GAB | c4B2 | c3B
+c2 | F4F2 | G6- | G2E2D2 | C4
+C2 | F4F2 | G4F2 | A3GA2 | F6
+A3Bc2 | A3FG2 | F6
+c4c2 | G3AB2 | c2A4 | G4
+A2 | c4B2 | A3BG2 | F4
+S:https://www.folktunefinder.com/tunes/69070
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

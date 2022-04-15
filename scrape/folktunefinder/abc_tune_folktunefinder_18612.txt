@@ -1,0 +1,30 @@
+X:1
+T:Blue Monk
+M:4/4
+L:1/8
+C:Thelonious Monk
+Q:1/4=120
+%%staves (chords melody)
+K:Bb
+%%text (medium blues)
+%%vskip 20
+V:chords
+"Bb7"x4 x4 | "Eb7"x4 x4 | "Bb7"x4 "F7"x4 | "Bb7"x4 x4 |
+"Eb7"x4 x4 | "Edim7"x4 x4 | "Bb7"x4 "F7"x4 | "Bb7"x4 x4 |
+"F7"x4 x4 | x4 x4 | "Bb7"x4 "F7"x4 | "Bb7"x4 x4 |]
+V:melody clef=treble
+DE=EF-F4 | G_A=AB-B4 | FGF=E _EF,^CD- | D_D2C- C4 |
+G_A=AB-B4 | B=Bc_d-d4 | FGF=E _EF,^CD- | D6 (3FFF |
+FF,-F,6 | FGF=E _EF,^CD- | D2FG F=E_EF, | ^CD-D6 |]
+S:https://www.folktunefinder.com/tunes/18612
+S:http://trillian.mit.edu/~jc/music/abc/song/Blue_Monk.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/blue_monk.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Blue_Monk.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/blue_monk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

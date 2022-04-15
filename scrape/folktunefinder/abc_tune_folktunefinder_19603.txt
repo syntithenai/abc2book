@@ -1,0 +1,38 @@
+X: 1
+T: Muriel Johnstone's Compliments to Robert MacKay
+C: Muriel Johnstone
+B: A Score & More Tunes
+Z: T. Traub 5-8-1997
+F: http://terrytraub.org/abc/MurielJohnstonesComplimentsToRobertMacKayS.abc 2007-11-11
+M: 4/4
+L: 1/8
+K: Bb
+c \
+[| "Bb"d2    d>B       "Eb"G<E   E2       \
+|  "Cm"e2    g>B       "F"A<F    F2       \
+|  "F7"A>c   (3fga     "Bb".b.f. d.B      \
+|  "Eb"g>e   "C7"c>B   "F7"A<F   F2       ||
+|| "Bb7"d2   d>B       "Eb"G<E   E2       \
+|  "Cm"e2    g>B       "F"A<F    F2       \
+|  "F7"A>c   (3fga     "Bb"(3bab "Bb7"fed \
+|  "Cm"g>e   "F7"c>f   "Bb"d<B   B2       |]
+[| "Bb"B,>D  F<D       B2        (3BAB    \
+|  "Eb"G>e   "Bb"F>D   "Cm"E<C   "F"C>D   \
+|  "Bb"B,>D  F<D       "Gm"B2    (3BAB    \
+|  "Eb"(3gfe "C7"(3dcB "F7"A<F   F>A      ||
+|| "Bb"B>d   f<d       "Gm"b2    (3bab    \
+|  "A7"a>g   f>=e      "Dm"f<d   d2       \
+|  "Bb7"d2   d>B       "E7"G<E   E>e      \
+|  "Cm"g>e   "F7"c>a   "Bb"b<B   B2       |]
+S:https://www.folktunefinder.com/tunes/19603
+S:http://terrytraub.org/abc/MurielJohnstonesComplimentsToRobertMacKayS.abc
+S:http://terrytraub.org/abc/MurielJohnstonesComplimentsToRobertMacKayS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MurielJohnstonesComplimentsToRobertMacKay_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MurielJohnstonesComplimentsToRobertMacKay_Bb.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

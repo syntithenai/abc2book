@@ -1,0 +1,51 @@
+X:3176
+T:Coleccin Feij\'oo: N\'umero 6
+O:Galicia (Spain)
+B:Libro Aires da Terra, de J.L. Calle
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=200
+K:D % 2 sharps
+z4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|e2 d2 fa df|
+ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|
+ge gf dg/2f/2- [f/2e/2-]e/2c|e2 d2 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|
+d3d fg a2|fg ab af df-|fa ge ce2g|fe d2 fg a2|
+fg ab af da|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fg a2|fg ab af df-|
+fa ge ce2g|fe d2 fg a2|fg ab af da|ge gf df/2g/2- [g/2e/2-]e/2c|
+d4 fg df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|e2 d2 fa df|
+ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|
+ge gf dg/2f/2- [f/2e/2-]e/2c|e2 d2 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|
+d4- da a2|aa gf ga be-|eg g2 gg fe|fa fd2a a2|
+aa gf ga be-|eg g2 gg fe|d4 za a2|aa gf ga be-|
+eg g2 gg fe|fa fd2a a2|aa gf ga be-|eg g2 gg fe|
+d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|e2 d2 fa df|
+ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|
+ge gf dg/2f/2- [f/2e/2-]e/2c|e2 d2 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|
+d3d fg a2|fg ab af df-|fa ge ce2g|fe d2 fg a2|
+fg ab af da|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fg a2|fg ab af df-|
+fa ge ce2g|fe d2 fg a2|fg ab af da|ge gf df/2g/2- [g/2e/2-]e/2c|
+d4 fg df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|e2 d2 fa df|
+ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|
+ge gf dg/2f/2- [f/2e/2-]e/2c|e2 d2 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|
+d4- da a2|aa gf ga be-|eg g2 gg fe|fa fd2a a2|
+aa gf ga be-|eg g2 gg fe|d4 za a2|aa gf ga be-|
+eg g2 gg fe|fa fd2a a2|aa gf ga be-|eg g2 gg fe|
+d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|e2 d2 fa df|
+ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|d4 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|
+ge gf dg/2f/2- [f/2e/2-]e/2c|e2 d2 fa df|ad'/2c'/2- [c'/2b/2-]b/2c' ba fa|ge gf df/2g/2- [g/2e/2-]e/2c|
+d3
+S:https://www.folktunefinder.com/tunes/29456
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

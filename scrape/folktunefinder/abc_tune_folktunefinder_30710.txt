@@ -1,0 +1,24 @@
+X: 201
+T:Calliope House
+M:6/8
+L:1/8
+C:Dave Richardson
+S:As played by Alisdair Fraser on "The Road North"
+N:A.F. plays it in F
+K:D
+A|dAA fAA|eAA fAA|Bee e2 d|efd BdB|ABA A2 F|
+A2 B d2 e|1f2 a fed|e3-e2 A:|2faf edB|d3 d2 f||
+{f}a3 faa|eaa faa|{f}g3 fgf|efe edB|ABA A2 F|
+A2 B d2 e|1f2 a fed|e3-e fg:|2faf edB|d3-d2||
+S:https://www.folktunefinder.com/tunes/30710
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

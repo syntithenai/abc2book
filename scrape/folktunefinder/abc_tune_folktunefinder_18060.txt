@@ -1,0 +1,23 @@
+X:1
+T:The Sailor's Bonnet
+R:reel
+D:Michael Coleman
+D:Davy Spillane: Shadow Hunter
+D:Bothy Band: 1975
+Z:2006 John Chambers <jc@trillian.mit.edu>
+M:C|
+K:D
+|: "D"~A2FA dff2 | dfef "G"dBB2 |  "D"~A2FA dfec | "A7"dBAF "D"ADD2 :| 
+|: "D" faab afdf | afef "G"dBB2 | "Bm" fbba bafa |     bfaf "A"feea | 
+|  "D" bff2 aff2 | afef "G"dBB2 |  "D" A2FA dfec | "A7"dBAF "D"ADD2 :|
+S:https://www.folktunefinder.com/tunes/18060
+S:http://trillian.mit.edu/~jc/music/abc/reel/SailorsBonnet_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SailorsBonnet_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

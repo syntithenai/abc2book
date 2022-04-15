@@ -1,0 +1,31 @@
+X:137
+T:Halblauter Steirer (F.)
+C:traditionell
+R:Steirer
+A:Salzkammergut
+B:"Es war einmal einmal ein Dudlsackpfeifer - ausgewaehlte Lieder und Taenze aus Oesterreich, Bayern und dem Egerland fuer Dudelsack(Bock)", R.Lughofer, Volkskultur Niederoesterrich, Moedling 1997,
+S:Schwegelschule von Adolf Ruttner
+N:im buch in F, teil F
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:F
+V:1
+Cx |\
+(CE) G3 E | (FA) F3 d | (dB) Ec BE | (FA) CA FC |\
+(CE) G3 E | (FA) F3 d | (dB) Ec BE | F2 z2 :|
+V:2
+Fx |\
+(EG) B3 c | (AF) A3 f | (fd) Be dB | (Ac) Fc AF |\
+(EG) B3 c | (AF) A3 f | (fd) Be dB | A2 z2 :|
+S:https://www.folktunefinder.com/tunes/45571
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

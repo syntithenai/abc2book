@@ -1,0 +1,40 @@
+X: 53
+T:Duchesse,La. CJF.053
+T:La Duchesse. CJF.053
+T:Brunswick Qudrill No.1. CJF.053
+M:2/4
+L:1/16
+Q:100
+C:Brunswick Qudrill No.1
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:On page. CJF.029 appears a title -
+N:(No.s 1, 2, 3, & 5 From the Brunswick Quadrills);
+N:this tune appears to be one of these
+Z:vmp.P J Headford 2000
+K:G
+"$".d2(Bc) .d2.g2|.d2(Bc) .d2.g2|(fg^ga =gfed)|\
+(gdef gbd'g')|!
+.d2(Bc) d2g2|(b2c'b agfe)|d^dfe =dcBA|\
+(GBdg) G2z2||!
+defg abc'^c'|d'=c'af d4|^cdfa cdfa|gabc' d'bgd|!
+e2(c'b agfe)|d2(ba gfed)|e2ee a2a2|d4zcBc"$"||!
+K:C
+.c2EG c2(^fa)|.g2(EG c2)fa|.g2(eg c'gc'e')|(d'c'ba gfed|!
+.c2(EG c2)^fa|g2^g2a2b2|c'2e'd' c'bag|^fedc " D.C. $"BABc|]
+S:https://www.folktunefinder.com/tunes/49608
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

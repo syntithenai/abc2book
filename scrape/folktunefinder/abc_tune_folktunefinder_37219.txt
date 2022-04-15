@@ -1,0 +1,24 @@
+X:5700
+T:Skott-Sara Leken
+L:1/8
+M:3/4
+O:Sweden
+R:Polska
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d68.html
+%%ID:00000d68
+K:D
+A/ \
+|: "D"d>c A3 d | "A7"d>c e4 | "D"d>e fd g>f | "A7"e>d cB B>A | \
+|  "D"A>G FE F>A | "G"GB "A"A4 | D>E (3FDF (3ECE | "D"D2 D4 ::
+"D"f2 d2 f>a | "A7"a^g e3=g | "D"g>f d2 e>f | "A7"dc A3e | \
+"D"f2 d2 f>a | "A7"a^g e2 =g>b | "D"bc d2 "A7"e>f | dc "D"d4 :|
+S:https://www.folktunefinder.com/tunes/37219
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

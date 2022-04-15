@@ -1,0 +1,29 @@
+X: 1
+T: Young Sandy Tulloch - Reel
+C: Jimmy Shand
+R: reel
+N: For Cadgers in the Cannon Gate
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d \
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"gG (3GGG BG GG | "Am"ABcA "D7"defd |
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"GABG "Am"ABcA | "D7"(3Bcd DF "G"G2 "_fine"G ||
+|: c \
+| "G"Bdde dBAG | Bdde d2B2 | Bdde dGBd | "D7"edcB "G"A2G2 |
+| "G"Bdde dBAG | Bdde d2ga | bgaf gfed | "C"(3efg "G"dB "D7"A2- "_D.C."A :|
+S:https://www.folktunefinder.com/tunes/18336
+S:http://trillian.mit.edu/~jc/music/abc/reel/YoungSandyTullochR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/YoungSandyTullochR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/YoungSandyTullochR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

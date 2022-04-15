@@ -1,0 +1,18 @@
+X: 1
+P: Izi \vco\vcek
+C: R.B.Iverson (1992)
+M: 4/4
+L: 1/8
+K: G=B_e_A
+|: "G"FG/G/ GA AG GF |  FG/G/ GA Bc d2 \
+|     B/c/d dc cB BA |1 "Fm"AG GF "G"DD Dz :|2 "Fm"AG GF "G"GG Gz ||
+|: "G"B/c/d dc cB BA |  B/c/d dc "Fm"cB BA \
+|  "G"B/c/d dc cB BA |1 "Fm"AG GF "G"DD Dz :|2 "Fm"AG GF "G"GG Gz |]
+S:https://www.folktunefinder.com/tunes/5379
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Cocek_Izi.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

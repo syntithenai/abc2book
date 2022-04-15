@@ -1,0 +1,44 @@
+X: 1
+T: Little Man In A Fix
+T: Bitte mand i knibe
+O: Denmark
+N: Couple Mixer; description from Janet Gabites <jgabites@eos.ubc.CA>
+N: Start the dance with two couples facing each other but offset so that the
+N: men are side by side, near arms linked. The other arm is around their
+N: partner's waist. The women are on the outside holding near shoulder with
+N: left hand, and partner's hand at the waist on the right. Running step
+N: around in a mill - if weight and size ratios are right and the music is
+N: fast enough, the women can fly. For the next section, open the line to
+N: hand-holds and pass the women in and under the mens' arms. Men keep
+N: holding hands, and women keep holding their partner's right hand. Women
+N: now turn back in to link free hands and the whole double-handed mill
+N: rotates. The third section is a waltz, first tyrolia (out, in, out, in)
+N: then regular partner waltz around the other couple. The whole dance then
+N: repeats. If it is being used as a mixer, each couple uses the waltzing to
+N: move off to find a new couple to dance with.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R:
+M: 3/4
+L: 1/8
+K: G
+P: Bouncy (polska)
+"G"DGB |: "G"dd dc BA | GG GB AG | "D7"AA Ac BA |1 "G"GG GD GB :|2 "G"G2- Gz :|
+P: Smooth (waltz)
+D2 |: "C"E2 G2 FE | "G"D2 B2 AG | "D7"F2 c2 BA |1 "G"G2 B2 D2 :|2 "G"G2- Gz :|
+%%sep 5 5 200
+P: Bouncy (polska)
+K: D
+"D"Adf |: "D"aa ag fe | dd df ed | "A7"ee eg fe |1 "D"dd dA df :|2 "D"d2- dz :|
+P: Smooth (waltz)
+A2 |: "G"B2 d2 cB | "D"A2 f2 ed | "A7"c2 g2 fe |1 "D"d2 f2 A2 :|2 "D"d2- dz :|
+S:https://www.folktunefinder.com/tunes/307
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/LittleManInAFix.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho/LittleManInAFix.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

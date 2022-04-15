@@ -1,0 +1,24 @@
+X:323
+T: WILL NIEMAND SINGEN
+N: E0935B
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Reigen, geistlich
+M: 4/4
+L: 1/4
+K: F
+ | A2AA | c2B2 | A2G2 | F2B2 | A4
+A2AA | c2B2 | A2G2 | F2B2 | A2
+B2 | AGFE | D2C2 | G2G2 | A2
+B2 | AGFE | D2C2 | G2A2 | F4
+S:https://www.folktunefinder.com/tunes/76808
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

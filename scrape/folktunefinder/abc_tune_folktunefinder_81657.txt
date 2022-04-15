@@ -1,0 +1,84 @@
+X: 18
+T: Knole Park
+M: 2/4
+L: 1/16
+Q:1/4=130
+K:D % 2 sharps
+% Knole Park
+% (c) SSF February 2006
+% Bishop (1788)
+V:1
+z2 A3 B A2| \
+F2 A2 d2 f2| \
+d2 B2 ef g2| \
+e2 d2 c2 B2|
+A2 A3B A2| \
+F2 A2 d2 f2| \
+d2 B3g e2| \
+c2 d2 A2 D2-|
+D2 A3 B A2| \
+F2 A2 d2 f2| \
+d2 B2 ef g2| \
+e2 d2 c2 B2|
+A2 A3B A2| \
+F2 A2 d2 f2| \
+d2 B3g e2| \
+c2 d2 A2 D2-|
+D2 a2 f2 A2| \
+af g2 e2 A2| \
+g2 g3f e2| \
+d2 c2 B2 A2|
+G2 B2 g2 A2| \
+f2 G2 e2 F2| \
+d2 E2 g2 fe| \
+dc d2 A2 D2-|
+D2 a2 f2 A2| \
+af g2 e2 A2| \
+g2 g3f e2| \
+d2 c2 B2 A2|
+G2 B2 g2 A2| \
+f2 G2 e2 F2| \
+d2 E2 g2 fe| \
+dc d2 A2 D2-|
+D2
+V:2
+z2 D,2 z2 [A2F2D2]| \
+z2 D,2 z2 [A2F2D2]| \
+z2 G,2 z2 [B2G2E2]| \
+z2 A,,2 z2 [G2E2C2A,2]|
+z2 D,2 z2 [A2F2D2]| \
+z2 D,2 z2 [A2F2D2]| \
+z2 E,2 z2 [G2E2C2A,2]| \
+z2 D,2 z2 [A2F2D2]|
+z2 D,2 z2 [A2F2D2]| \
+z2 D,2 z2 [A2F2D2]| \
+z2 G,2 z2 [B2G2E2]| \
+z2 A,,2 z2 [G2E2C2A,2]|
+z2 D,2 z2 [A2F2D2]| \
+z2 D,2 z2 [A2F2D2]| \
+z2 E,2 z2 [G2E2C2A,2]| \
+z2 D,2 z2 [A2F2D2]|
+z2 D,2 z2 [A2F2D2]| \
+z2 A,,2 z2 [G2E2C2A,2]| \
+z2 E,2 z2 [B2G2E2]| \
+z2 A,,2 z2 [E2C2A,2]|
+z2 G,,2 z2 [A2F2D2]| \
+z2 E,2 z2 [A2F2D2]| \
+z2 E,2 z2 [G2E2C2A,2]| \
+z2 D,2 z2 [A2F2D2]|
+z2 D,2 z2 [A2F2D2]| \
+z2 A,,2 z2 [G2E2C2A,2]| \
+z2 E,2 z2 [B2G2E2]| \
+z2 A,,2 z2 [E2C2A,2]|
+z2 G,,2 z2 [A2F2D2]| \
+z2 E,2 z2 [A2F2D2]| \
+z2 E,2 z2 [G2E2C2A,2]| \
+z2 D,2 z2 [A2F2D2]|
+S:https://www.folktunefinder.com/tunes/81657
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

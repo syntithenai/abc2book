@@ -1,0 +1,23 @@
+X: 1
+T: Le Rond Argentonnais
+O: France
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Play last 3 bars as intro.
+N: From a transcription by Terry Traub.
+M: C
+L: 1/4
+K: C
+P: A
+|: "C"C>G GG | "F"A>G EF | "C"GA G2 :| "C"G>c GF | EE GG | EC "G7"D2 |
+P: B
+|: "C"E>F Gc | "Em"G>F EG |1 "Dm"FD "Am"C2 :|2 "G7"FD "C"C2 |]
+S:https://www.folktunefinder.com/tunes/5962
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RondArgentonnais.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

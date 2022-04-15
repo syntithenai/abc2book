@@ -1,0 +1,26 @@
+X:491
+%%topmargin 3cm
+T:Huntly's Wedding Medley
+T:Banais Marcus Hundfhuinn
+C:Capt. Fraser
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+(b/a/g/f/) | e>A{AB}c>A F<AE>D | C>EAg a2 (b/a/g/f/) | e<A{AB}c>A F<AE>C | E/F/G/A/ B>G A2 A (b/3a/3g/3f/3) | e<A{AB}c>A F<AE>D |
+C>EAg a2 (b/a/g/f/) | e<A{AB}c>A F<AE>C | E/F/G/A/ B>G A2 A ||E | C<EE>G A<ETE>D | C<EA>B ~c2 (d/c/)B/A/ |
+C<EE>G B<EE>C | E/F/G/A/ B>G A2 AE | C<EE>G A<EE>D | C<EAg a2 (b/a/).g/.f/ | ((3.e.c.e) ((3.f.d.f) ((3.g.e.g) a>f | e/f/g/a/ b>g a2 a |]
+W:
+W:From Captain Frasers Collection
+S:https://www.folktunefinder.com/tunes/71520
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

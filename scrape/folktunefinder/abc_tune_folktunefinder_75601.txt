@@ -1,0 +1,26 @@
+X:38
+T:Elsie Marley
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:Eb
+P:Chorus
+   G F  G  E2   E| E2   e   e B      \
+A|(G`F) G  E2   E| F2  _d   d A
+F|(G`F) G  E E  E|(e`f) e   e`B      \
+A| A f  A  G e  G| F2  _d  (d`A) HF |]
+P:Verse
+   G2   A  B2   B|(B`c) d  (e`B)     \
+A| G2   A  B2   B|(FG)  F (_d`A)
+F| G2   A  B2   B|(Bc)  d  (e`B)     \
+G|(A`f) A (G`e) G| F2  _d  (d`A``HF)||
+S:https://www.folktunefinder.com/tunes/75601
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

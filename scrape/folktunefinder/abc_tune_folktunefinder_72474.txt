@@ -1,0 +1,24 @@
+X:17
+T: Der himmlische Ackersmann
+N: D0018
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Inzipit = Variante zum Lied; Verzierungen
+R: geistliches Lied
+M: 3/4
+L: 1/8
+K: E
+=GE | E2E2E2 | B2B2A2 | B4A2 | =G4
+A2 | A4B2 | =c2B2A2 | =G2E2F2 | E4z2
+A6 | =G2F2E2 | =D4
+D2 | =G2G2A2 | B2B2A2 | =G2E2F2 | E4z2
+S:https://www.folktunefinder.com/tunes/72474
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

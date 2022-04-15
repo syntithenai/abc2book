@@ -1,0 +1,65 @@
+X:14828
+T:Salve (CT 049)
+R:Relixosa
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Salve que hasta hace unos cuarenta aos cantaba en la iglesia, al final de la misa, el pueblo de Llamo, ayuntamiento de Riosa.
+O:Llamo (Riosa)
+A:Asturies
+Z:Cancioneru de Torner 049
+M:Llibre
+L:1/8
+Q:1/8=120
+W:Dios te salve Reina y Madre,
+W:Madre de misericordia,
+W:vida y dulzura,
+W:esperanza nuestra,
+W:Dios te salve.
+W:A t clamamos
+W:los desterrados hijos de Eva:
+W:a ti suspiramos gimiendo y llorando
+W:en este valle de lgrimas.
+W:
+W:Ea, pues, Seora,
+W:abogada nuestra,
+W:vuelve a nosostros esos tus ojos
+W:misericordiosos,
+W:y despus de este destierro,
+W:mustranos a Jess,
+W:fruto bendito de tu vientre.
+W:Oh clemente!
+W:Oh pidadosa!
+W:Oh dulce Virgen Mara!
+W:Ruega por nosotros,
+W:Santa Madre de Dios,
+W:para que seamos dignos de alcanzar
+W:las promesos de nuestro seor Jesucristo.
+W:Esta salve que cantamos
+W:la ofrecemos a Mara;
+W:que nos libre del pecado
+W:y su mala compaa.
+K:C
+GB d>d c2-c A (cB-B/B/8c/8B/8A/8B/8c/8 B2) GB BB AB {GB}A {GA}G2
+BB BB BB d(c{B}A) c B2 GB BB AB {GB}A {GA}G2 BA BA G2 GB A G2 GG GB {GB}A {GA}G2 
+GBd>d c2-c A (cB-B/B/8c/8B/8A/8B/8c/8 B2) GB BB AB A/>A/ G2
+BB BB d c2 BA Bc B2 GG BA G2 BA BA G2 GB AB {GB}A {GA}G2
+GB d>d c2-c A (cB-B/B/8c/8B/8A/8B/8c/8 B2) GG BA B {GB}A {GA}G2
+BB Bd d(c{B}A) Bc B2 GB A G2 GB A G2 GG GG GB {GB}A {GA}G2
+GB d>d c2 BB AB (cB-B/B/8c/8B/8A/8B/8c/8 B2) GB BB AB {GB}A {GA}G2
+BB d(c{B}A) Bc B2 GB AB (AG2) GB {GB}A {GA}G2 
+GB d>d c2-c A (cB-B/B/8c/8B/8A/8B/8c/8 B2) GB BB AB {GB}A {GA}G2
+BB dd (c{B}A) Bc B2 GB BB AB {GB}A {GA}G2 ||
+S:https://www.folktunefinder.com/tunes/46103
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Relixosa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

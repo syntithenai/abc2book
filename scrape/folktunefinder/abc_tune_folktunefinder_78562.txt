@@ -1,0 +1,25 @@
+X:121
+T: ES LIEGT EIN SCHLOESSCHEN IN OESTERREICH
+N: E0061K
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 2/4
+L: 1/16
+K: G
+D2G2B2 | G4F2G2 | A2B2G4 | z2
+G2B2d2 | d3cB2A2 | G4A4 | z2
+G2B2G2 | d3ed2B2 | A2G2c4 | z2
+B2A2G2 | d3ed2B2 | A2G2c4 | z2
+B2A2G2 | c4B4 | A4G4 | z2
+S:https://www.folktunefinder.com/tunes/78562
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

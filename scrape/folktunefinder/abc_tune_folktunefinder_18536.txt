@@ -1,0 +1,29 @@
+X:1
+T:The King's Jig
+T:In WInchester Was A Wedding
+M:9/8
+L:1/8
+Z: eroot:swva.net tradtunes 2001-04-29
+R:(Slip) jig
+S:Chappell's Popular Music of the Olden Times
+O:English
+Z:Eric Root
+N:Transposed from B-flat
+K:A
+A, \
+| CDE F2E ECA, | CDE A2F B2B, | CDE F2E ECE | FGA BGE A2A, |
+| CDE F2E ECA, | CDE AGF B2B, | CDE F2E ECE | FGA BGE A2 |
+|: f \
+| efc e2A B2F | Bcd F2B G2E | AFD FAF BGc | FGA A2G A2 :|
+S:https://www.folktunefinder.com/tunes/18536
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/KingsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/KingsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/KingsJig_1.abc
+% Rhythm (slip) jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 2
+T: The Maid Peeped Out the Window
+T: The Friar in the Well
+O: 1651
+P: 3 times
+M: 6/8
+L: 1/8
+K: Amix
+E \
+| "A"A2A A>Bc | "D(Bm)"B2A F3 | "A"c2c "D"d>ef | "A"e2c A2 :: A | "A"c2d e>fe | "D"d2c B2A |
+| "G"G2F G2A | B>AG "D"F3 | "A"E2E A2A | "G(Em)"G>FG "D"F2F | "A"E2A "G"G>AB | "A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/3909
+S:http://trillian.mit.edu/~jc/music/abc/England/MaidPeepedOutTheWindow.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/MaidPeepedOutTheWindow.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/MaidPeepedOutTheWindow.txt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

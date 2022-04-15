@@ -1,0 +1,26 @@
+X: 4
+T: Polska efter Vingel-Anders
+O: H\"alsingland
+S: Lena Jonsson, workshop in Arlington, Massachusetts, Oct 2008
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+(f/ \
+| e)>(d c)(>e a)>c' | e>(d c)>e (3g(bg) \
+| e>(c d)>(B c)>A |1,3 ((3EGB) e2- e>(f :|2,4 ((3EGB) A4 :|
+|: [A2E2] (e>d) (3c(ec) | [A2D2] (f>e) (3d(fd) \
+| B2 (b>g) e>g |1,3 a>c' e>a c>e :|2,4 (a/g/f/g/) a4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/8805
+S:http://trillian.mit.edu/~jc/music/abc/Scand/LenaJonsson_Boston2008.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

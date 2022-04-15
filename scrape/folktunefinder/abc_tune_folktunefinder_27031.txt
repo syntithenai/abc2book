@@ -1,0 +1,28 @@
+X:6579
+T: the Bridal Jig
+O:england
+B: Cole p.58
+R: jig
+M: 6/8
+L: 1/8
+K: A
+"E7"E
+| "A"A2A cAc | "E7"efg "A"aga | "D"fdB "A"ecA | "E7"GBA GFE
+| "A"A2A cAc | "E7"efg "A"aga | "D"fdB "A"ecA | "E7"dBG "A"A2 :|
+K: F#m
+|: c
+| "Fm"c2f fec | "E"efg "Fm"a2b | c'ba "E"bag | "Fm"f2f fec
+| "Fm"c2f fec | "E"efg "Fm"a2b | c'ba "E"bag | "Fm"f2f f2 :|
+S:https://www.folktunefinder.com/tunes/27031
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

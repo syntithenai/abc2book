@@ -1,0 +1,35 @@
+X:72
+T:The Burning of Auchindoun
+G:song
+Z:Jack Campin, http://purr.demon.co.uk/modes.abc (melody)
+M:4/4
+L:1/4
+Q:1/2=72
+K:EDor
+E/|E>B B>A|BG  F2  |(ED)  B,>E|
+   E2  BA|G>E  F>D | E2   E2  |
+   B>B d2 |c>c B2 |E>B  B>B |(A<F) D>E |
+   E2  B2 |A<A B2 |G>E  F>D | E2   E2 ||
+   B2  d>d|c<A B2 |E>B  B<B |(A<F) D2  |
+   E2  B2 |A<A B>A|G>E (F<D)| E2   E3/|]
+W: 1. As I cam' in by Fiddichside, on a May morning
+W:    I spied Willie MacIntosh, an hour before the dawning.
+W: 2. "Turn again, turn again, turn again, I bid ye;
+W:    If ye burn Auchindoun, Huntly he will heid ye."
+W: 3. "Heid me or hang me, that shall never fear me;
+W:    I'll burn Auchindoun though the life leaves me."
+W:
+W: 4. As I cam'in by Auchindoun, on a May morning
+W:    Auchindoun was in a bleeze, an hour before the dawning.
+W: 5. Crawing, crawing, for a' your crouse crawin'
+W:    Ye brunt your crop an' tint your wings, an hour before the dawning.
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58883
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

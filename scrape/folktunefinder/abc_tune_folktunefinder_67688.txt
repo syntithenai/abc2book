@@ -1,0 +1,44 @@
+X:200
+T:ABC Notation - Every part of it
+T:Alternative title
+T:A third title
+C:Henrik Norbeck
+R:polka
+S:Out of my head
+H:I just wrote this tune to show examples of everything you can do in
+H:the abc format. This is the history of this tune.
+N:Some interesting notes on this tune.
+A:Stockholm
+B:My tunebook
+D:Not recorded by anyone (yet)
+G:Sample group
+O:Swedish
+Z:id:hn-sample-200
+Z:Some transcription notes for this tune.
+P:AB % Ignored by ABCMUS (parts)
+E:Ignored by ABCMUS (note spacing)
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+&quot;scale&quot; C,D,E,F,G,A,B,|CDEFGAB|cdefgab|c'd'e'f'g'a'b'|
+&quot;beaming&quot; AAAA | AA AA | AAA A | A2AA | AAA2 |
+&quot;note lengths&quot; A8 A4 A2 A A/ A/4 A/8 | A6 A3 A3/2 A3/4 |
+&quot;broken rhythms&quot; A>A A<A | A>>A A<<A |
+&quot;tuplets&quot;z (3AAA (4AAAA (5A/A/A/A/A/ (6A/A/A/A/A/A/ (3A2A2A2 |
+&quot;accidentals&quot; ^f =f _E =E ^^B =B |
+&quot;rests&quot; z8 z4 z2 z z/ z/4 z/8 |
+&quot;double stops&quot; [CE][DA] [G2c2] |
+&quot;bar lines&quot; ABcd | ABcd || ABcd [| ABcd |]
+S:https://www.folktunefinder.com/tunes/67688
+S:http://tomkeays.com/music/wiki/about/sample
+S:http://www.tomkeays.com/music/wiki/about/sample
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

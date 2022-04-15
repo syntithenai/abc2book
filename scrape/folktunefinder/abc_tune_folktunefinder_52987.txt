@@ -1,0 +1,30 @@
+X: 98
+T:Duke Of York,s March. JMT.095
+M:4/4
+L:1/8
+Q:180
+S:J.Moore,Tyneside,1841.(67b)
+R:March
+O:England
+A:Northumbria
+N:There are many versions for comparison, so I have not attempted to edit
+N:this. See Leadley MS, etc
+Z:vmp.Chris Partington
+K:D
+"Beware, this is not edited. See notes."D2 D>D D2|\
+[F2A2] [F>A>][FA] [F2A2]|AFAF D2A2|dAdA dAFD|!
+A2 A>A A2|e2 e>g f2za|a3f fdgf|[c2e2] [c>e>][ce] [c2e2]z2:|!
+|A2 A>A Aefg|A2 A>A Adea|(ge).e.e (fd).d.d|bagf f2e2|!
+d3(f/e/) dAB=c|=cB B2B2  ^cdef|.g.g.f.f .e.e.d.d|e2 e>e e2z2|!
+D2D>DD2|F2F>FF2|AFAFD2g2|(fa)(af) gedc|d2d>dd2||
+S:https://www.folktunefinder.com/tunes/52987
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:Whitefryer's Hornpipe
+R:hornpipe
+C:trad
+S:John Walsh c1730
+Z:Neil Brookes <neil:brookes36.freeserve.co.uk>tradtunes 2001-02-07
+D:John Kirkpatrick/Sue Harris "Shreds and Patches"
+M:4/4
+L:1/8
+Q:1/4=180
+K:Dmix
+| c>BA>G | F>GA>F | G>AB>G | A2D/2E/2D/2z/2 | F2D/2E/2D/2z/2 | F2Az | A3B |
+  c>BA>G | F>GA>F | G>AB>G | A>Bc>A | B2Gz | G2z B |
+  c>BA>G | F>GA>F | G>AB>G | A2D/2E/2D/2z/2 | F2D/2E/2D/2z/2 | F2Az | A3B |
+  c>BA>G | F>GA>F | G>AB>G | A>Bc>d | B2Gz | G2z B |
+| c>Bc>d | e4 | g2(3efg | a>gf>e | d>ef>d | e>fg>e | a zA2 | A3 B |
+  c>Bc>d | e4 | g2(3efg | a>gf>e | d>ef>d | A>Bc>A | B2Gz | G3 B |
+  c>Bc>d | e4 | g2(3efg | a>gf>e | d>ef>d | e>fg>e | a zA2 | A3 B |
+  c>Bc>d | e4 | g2(3efg | a>gf>e | d>ef>d | A>Bc>A | B2Gz | G2 A>B |]
+S:https://www.folktunefinder.com/tunes/13725
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/WhitefryersHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/WhitefryersHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/WhitefryersHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/WhitefryersHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/WhitefryersHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:272
+T: ES FUHR EIN BAUER INS HOLZ
+N: E0149B
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Scherz, Schwank, betrogener Ehemann
+M: 6/8
+L: 1/16
+K: G
+D2 | G4G2F4F2 | E4E2D4
+D2 | G4G2A2G2A2 | B6z4
+G2 | B4A2B3cd2 | B4G2A4
+c2 | c4B2A4G2 | F3GA2A4
+B2 | d2B2d2c2A2c2 | B6z4
+S:https://www.folktunefinder.com/tunes/78713
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, scherz, schwank, betrogener ehemann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

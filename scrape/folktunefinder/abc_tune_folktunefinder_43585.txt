@@ -1,0 +1,23 @@
+X:110
+T:Doon the Bank
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc2.html
+%%ID:00000dc2
+K:G
+B|\
+A(FED) G2(GB) | A(FED) E2(EB) | A(FED) dcdf | ecBA D3 ::
+A|\
+dcdf ecBA | dcdf A4 | A dcdf ec B | A A>BAF D3 :|
+% page 12
+S:https://www.folktunefinder.com/tunes/43585
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

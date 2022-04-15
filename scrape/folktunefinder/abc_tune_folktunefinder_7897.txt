@@ -1,0 +1,35 @@
+X: 2
+P: Furuboms polska
+O: trad
+Z: John Chambers <jc@trillian.mit.edu>
+R: polska
+M: 3/4
+L: 1/8
+K: Am
+|: "Am"A2 A>B c>d | e4 c2 | "E7"B2 B>d c>B | "Am"B2 A>E C>E \
+|  "Am"A2 A>B c>d | e4 c2 | "E7"B2 B>d c>B | "E7"B2 "Am"A4 :|
+|: "G7"g2  g>a g>f | "C"f2 e4 | "G7"G2 G>B d>B | "C"c2 c>d e>f \
+|  "G7"g2  g>a g>f | "C"f2 e4 | "G7"G2 G>B d>B | "C"c2 c4 :|
+S:https://www.folktunefinder.com/tunes/7897
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Hambo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Hambo.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Hambo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Hambo1.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Hambo01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Hambo01
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Hambo1
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

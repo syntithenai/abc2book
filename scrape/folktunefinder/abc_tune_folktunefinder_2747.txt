@@ -1,0 +1,30 @@
+X: 1
+T: Et barn er fdt i Betlehem
+O: Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D2 \
+| "G"G2 D2 G2 "D7"A2 \
+| "G"Bc "D7"BA "G"G4 \
+| "G"d4 "D7"c4 \
+| "G"B6 "C"c2 \
+| "B7"B2 A2 G2 F2 |
+| "Em"A2 G2 "C"E4- \
+| E2 "D"D2 "G"G2 "D"A2 \
+| "G"B6 B2 \
+| G4 "D7"F4 \
+| "G"G6 |]
+S:https://www.folktunefinder.com/tunes/2747
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/xmas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/xmas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/xmas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

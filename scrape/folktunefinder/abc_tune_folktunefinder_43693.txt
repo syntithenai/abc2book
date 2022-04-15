@@ -1,0 +1,22 @@
+X:26
+T: (Saratoga)
+M:4/4
+K:D
+de |: fd (3ded B2 AG | FADF Ecde  |  fd (3ded B2 AG | FABc d2 de | \
+fd (3ded B2 AG | FADF Ecde  |  fd (3ded B2 AG | FABc d2 z2 :| \
+dB |: AF (3FFF AFdB | AFDF EcdB | AF (3FFF AFdB | AFEC D2 dB | \
+AF (3FFF AFdB | AFDF EcdB | AF (3FFF AFdB | AFEC D2 z2 :: \
+Acec (3BcB AA | Acec (3BcB AA | Acec (3BcB AA | BABc d2 z B | \
+Acec (3BcB AA | Acec (3BcB AA | Acec (3BcB AA | BABc d2 z2 :| \
+Acec (3BcB AA | Acec a3 A | Acec (3BcB AA | BABc d2 z B | \
+Acec (3BcB AA | Acec a3 A | Acec afed | cABc d2 z2 :|
+S:https://www.folktunefinder.com/tunes/43693
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/Saratoga_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

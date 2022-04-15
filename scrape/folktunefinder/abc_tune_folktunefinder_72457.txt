@@ -1,0 +1,35 @@
+X: 208
+T:Parson upon Dority. HA.207
+T:Shepherds Daughter,aka. HA.207
+M:C
+L:1/8
+Q:1/4=200
+C:"J.A."
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Dotted (minimcr)in lines 1 and 2 likely errors in MS.
+N:HA possibly could not decide between mincr and dotted min!
+N:Tune title at end. cf Playford DM eds 2(1652).. NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:F
+BA|G2G2A2F2|"*"B4-B2d2|c3B (AB)(cA)|B4-B2||!
+d2|c3B (AB)(cA)|B2F2F2d2|c3B (AB)(cA)|"*"B4-B2d2|!
+c3B (AB)(cA)|B2F2F2d2|c3B (AB)(cA)|"*"B4B2AB||!
+c2 c2-c2Bc|d2 d2-d2cB|A2G2A2F2|G4G2AB|!
+c2 c2-c2Bc|d2 d2-d2g2|d2g2g3f|g4g2|]
+W: The minims marked "*" are dotted in MS|
+% Output from ABC2Win  Version 2.1 k pre2 on 18/02/2005
+S:https://www.folktunefinder.com/tunes/72457
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:554
+T: "Die Beruhigte"
+N: Z1234
+O: Europa, Mitteleuropa, Oesterreich
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+G2BDGB | d2gGB2
+A2cDF2 | G2BDG2
+G2BDGB | d2gGB2
+A2ccA2 | G2
+BBG2 | A2ccA2 | G2
+BBG2 | A2ccA2 | G4
+dd | g2dBcB | G2z4
+S:https://www.folktunefinder.com/tunes/69413
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

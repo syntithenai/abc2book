@@ -1,0 +1,28 @@
+X: 1
+T: Mari Mariiko
+O: Bulgaria
+N: Taught by Jaap Leegwater
+D: Balkanton GHA 11134 "Folkdances From Bulgaria, Vol.II"
+M: C
+L: 1/8
+Q: 1/4=80
+K: D
+P: Intstr:
+| "D"{e}f2- f2 ~a2 (fe) | "A"{d}e2- ~e2 "Bm"f2 (dB) \
+| "G"{d}e2- ~e2 "Bm"(ae) f2 | "G"{f}e2 {f}e2 "A7"(3fga ~e2 ||
+P: Vocal:
+|: "Bm"{A}B4 dB "Em"eA | "Bm"{A}B4 B2 "F#m"c/B/A \
+|  "Bm"{A}B4 dB "Em"eA | "Bm"{A}B4 B2 zz |
+| "D"{e}f4 a2 fe | "Em"{f}e2 f/e/d {e}f2 f~e \
+| "Bm"(3dcd (3cBc "Em"de B2 |1 "Bm"B4 "Em"B3 z :|2 "Bm"B4 B3 z :|
+S:https://www.folktunefinder.com/tunes/3099
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/MariMariiko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/MariMariiko.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:227
+T: Buchsbaum und Felbinger
+N: A0273A
+O: Europa, Mitteleuropa, Deutschland
+N: Finck 1536 No. 46
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/4
+K: G
+G2 | G4G4A2B2 | c4c2c4
+c2 | c4c4B2A2 | B2A2G2A4
+A2 | =F4^F2E4E2 | D3E=F2G4
+G2 | c2B2A2G2 | A4G4
+S:https://www.folktunefinder.com/tunes/68773
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

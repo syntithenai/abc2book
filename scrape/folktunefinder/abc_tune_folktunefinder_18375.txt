@@ -1,0 +1,31 @@
+X:1
+T: the Hawk
+C:James Hill
+S:"The Lads Like Beer" - The Fiddle Music of James Hill
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2000-09-14
+N:Possibly an antecedent to Skinner's "The Spey in Spate"
+M:4/4
+L:1/8
+K:E
+(B/c/)d| e2  g>e (B>e)g>f|(e>g)f>a   (g>b)a>g| f2  a>f (c>f)a>g|(f>e)d>c (B>c)d>B|
+         e2  g>e (B>e)g>f|(e>g)f>a   (g>b)a>g|(f>e)f>g (a>B)c>d|(e>B)g>f  e2    :|
+ B>B   |(B>b)g>e (B>a)f>d| B(a/g/) fd edcB   |(c>B)d>c (e>d)f>e|(g>f)a>g  f2  f>g|
+        (a>b)g>a (f>g)e>f| dbca       BgAf   |(d>e)f>g (a>B)c>d|(e>B)g>f  e2    :|
+S:https://www.folktunefinder.com/tunes/18375
+S:http://trillian.mit.edu/~jc/music/abc/shottish/HawkS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HawkS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HawkS_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/HawkS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HawkS_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HawkS.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HawkS_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HawkS_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

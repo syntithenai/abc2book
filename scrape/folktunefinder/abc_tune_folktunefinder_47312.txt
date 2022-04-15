@@ -1,0 +1,31 @@
+X:16037
+T:Stork, stork hini
+R:
+O:Alsace - Elsass
+A:
+S:
+B:Chansons populaires de l'Alsace
+Z:transcription (partition) : eric.forgeot@caramail.com
+N:Weckerlin II - p. 34
+N:"Cigogne, cigogne, avec tes longues pattes, Avec tes longs genoux, 
+N:On pourrait y mettre un quarteron d'avoine."
+M:2/4
+L:1/8
+Q:1/4=130
+K:F
+(cd) (cd) | c2 A A | c d c d | c2 A A |
+  c d c d | c4 | c d c d | c>B A2 ||
+W:Stork, stork hini, Mt din mang Bini,
+W:Mt dina lang Gni', S'geht  Kpfla Hawer dri.
+S:https://www.folktunefinder.com/tunes/47312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

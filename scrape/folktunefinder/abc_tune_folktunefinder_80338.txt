@@ -1,0 +1,30 @@
+X:279
+T: Wider Papst und Pfaffen
+N: A0633
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod M. 53.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/2
+L: 1/2
+K: C
+c | c2dc2G | c2dc2
+G | c2dc2G | c2dc2
+c | G2A_B2A | G2FG2
+G | F2FG2G | F2FG2
+G | F2FG2G | F2FG2
+G | G2FEG2 | E3C2
+C | C2CF2F | C2CF2
+F | C2CF2F | C2CF2
+F | G2_BA2G | A2_Bc2
+G | G2FE2G | E3C2
+S:https://www.folktunefinder.com/tunes/80338
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

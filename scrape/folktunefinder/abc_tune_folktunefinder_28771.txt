@@ -1,0 +1,42 @@
+X:2491
+T:Cancioneiro de Casto Sampedro: N\'umero 392
+T:Danza de Ribadavia
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+N:http://www.multimania.com/galicia/terraes.htm
+Z:formatado por Xurxo-Adrian Ente
+Z:Covertido de Midi a abc por Antonio-Nil
+M: 4/4
+L: 1/8
+Q:1/4=200
+K:C % 0 sharps
+z4 cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG AG|FE DE GF ED|
+E3/2z/2 C3/2z/2 cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG FE|DC DE GF ED|
+C3z cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG AG|FE DE GF ED|
+E3/2z/2 C3/2z/2 cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG FE|DC DE GF ED|
+C3z Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+E3/2z/2 C3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+C3z Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+E3/2z/2 C3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+C3z cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG AG|FE DE GF ED|
+E3/2z/2 C3/2z/2 cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG FE|DC DE GF ED|
+C3z cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG AG|FE DE GF ED|
+E3/2z/2 C3/2z/2 cz/2B<cB/2|A2- A/2z/2G cz/2B<cB/2|A2- A/2z/2G AG FE|DC DE GF ED|
+C3z Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+E3/2z/2 C3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+C3z Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+E3/2z/2 C3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Fz/2E<FA/2|G3/2z/2 E3/2z/2 Dz/2C<DF/2|E2- E/2z/2G Az/2G<FD/2|
+C6- C/2
+S:https://www.folktunefinder.com/tunes/28771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

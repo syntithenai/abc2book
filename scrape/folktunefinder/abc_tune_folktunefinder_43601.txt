@@ -1,0 +1,25 @@
+X:190
+T:Highland Laddy -- old way
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dcc.html
+%%ID:00000dcc
+K:G
+G2G2 B2(AG) | c4 B4 | A2A2 cdec | A2A2 cdec |\
+G2G2 B2(AG) | c4 B4 | G2G2 BcdB | G4 G4 ::
+{ef}gfed efge | d4 B4 | c2A2 A2 (fg) a2A2 A2(ef) |\
+gfed efge | d4 B4 | G2G2 BcdB | G4 G4 :|
+% page 20
+S:https://www.folktunefinder.com/tunes/43601
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

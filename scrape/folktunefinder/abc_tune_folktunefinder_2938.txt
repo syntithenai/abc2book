@@ -1,0 +1,25 @@
+X: 1
+T: Syrtos Kritikos [Am]
+T: Ta mavra rukha
+R: syrtos
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L: 1/8
+M: 4/4
+K: Ador
+P: Instr.
+|: "Dm"z~d2c ~d2cB | "Am"z~c2B ~c2BA | "G"z~d2B ~c2BG |1 "Am"ABcd "Dm"~e2d2 :|2 "Am"A>B AG FGA2 :|
+P: Vocal
+| A8- | A8 |: "Dm"zd2c d2cB | "Am"zc2B c2BA | "G"zd2B c2BB |1 "Am"ABcd "Dm"edd2 :|2 "Am"A3G FGA2 :|
+S:https://www.folktunefinder.com/tunes/2938
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/SyrtosKritikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/SyrtosKritikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/SyrtosKritikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SyrtosKritikos1_Am.abc
+% Rhythm Syrtos
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

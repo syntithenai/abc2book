@@ -1,0 +1,26 @@
+X:374
+%%topmargin 3cm
+T:Craig O' Barns
+C:Very old
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+{ABc}d2 {/d}c>A G<G G>A | {AB} c>Fc<A {AB}c>FA<c | {ABc} d2 {/d}cA G<G TG>A | {/B}c>F {/d}c>A {/^F}G2 G2 :|
+{/E}F>Ac>d {/d}cA {AB}c2 | d>=e(f>a) g>f{/^c}d>e | f<ad<f {/E}F>GA>c | d>f {/d}c>A {/^F}G2 (G>A) |
+{/E}F>A(c>d) {/d}c<A {/B}c2 | d>=ef>a Tg>f{/^c}d>e | f<ad<f {/E}F>GA>c | d<f {/d}c>A {/^F}G2 G2 |]
+S:https://www.folktunefinder.com/tunes/71403
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Craig_O_Barns.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0374.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:65
+T:Jenny Nettles
+N:Battlefield p.46
+N:Williamson p.52
+N:Skye p.115 (fancier version, with third part)
+N:BSFC XI-4 (simple two-part version)
+Z:John Chambers <jc@trillian.mit.edu>
+M:C|
+L:1/8
+K:ADorian
+|:AB | "Am"c2B2 A2a2 | "C"efge "G"dBGB | "Am"c2B2 A2a2 | "C"ge"D"fd "E7"e2 :|
+|:AB | "C"cdef gage | gage "G"dBGB | "C"cdef gage | "E7"ea^gb "Am"a2 :|
+S:https://www.folktunefinder.com/tunes/58876
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:The Weaver and His Wife
+C:Andrew Rankine
+S:Jim Paterson
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> 2004
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+c|E2E EAB|c3  A3|c3  A2c|edc B3 |
+  E2E EBc|d3  B3|E2e dcB|A3  A2:|
+c|EAc e3 |EAe c3|EAc edc|d3  B2c|
+  ded BdB|G3  F3|E2e dcB|A3  A2:|
+S:https://www.folktunefinder.com/tunes/15242
+S:http://trillian.mit.edu/~jc/music/abc/jig/Weaver_Amnd_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Weaver_and_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Weaver_and_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/Weaver_Amnd_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/Weaver_and_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Weaver_Amnd_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Weaver_and_His_Wife_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Weaver_and_His_Wife_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

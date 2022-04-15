@@ -1,0 +1,32 @@
+X: 49
+T:A Hornpipe made in Lancashire
+M:3/2
+L:1/8
+S:Wright
+N:Wright says 'raise your 3rd (violin string) a Note'; in fact its only
+N:going to make sense if you raise 3rd and 4th a note. Given here as
+N:sounds.
+N:N: Wright says 'Raise your 3rd a Note (ie D=E)
+N:N: as printed only makes sense if you raise your 4th as well (G=A)
+N:N:notes here are as sounde
+K:A
+AagaA2B=cA2e2|GFGAB2 F2G3B|A2a2A2B=cA2e2|c2A4F2G3B||!
+ABcA agfe fedc|d2B4f2F3B|A2a2cdec BcdB|c2A4F2G3B||!
+ABcd efec efec|dcdB cBcF G3B|ABcd efec fgaf|c2A4F2G3B||!
+C2E2D2F2C2E2|B,2B4F2GFED|C2E2D2F2C2E2|A,2A4F2G3B||!
+A,2C2B,2A2A,2A2|B,2A4F2GFED|CDEC DEFD CDEC |A,2A4F2G3B||!
+Aaga cdec Bcde|G2B4F2G3B2|agfe fedc dcBA|a2A4F2G3B||
+S:https://www.folktunefinder.com/tunes/49255
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

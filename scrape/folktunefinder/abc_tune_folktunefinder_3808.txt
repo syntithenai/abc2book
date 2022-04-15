@@ -1,0 +1,31 @@
+X: 2
+T: I Care Not For These Ladies
+C: T.Campian
+N: Dance by K.Skrobela
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2e f2g | f3 "A7"e2c | "D"d2d "G"g2f | "A7"e3- e2 :| \
+z \
+| "G(Em)"B2c d2e | "A7"c3 A2a | "D"a2b "A7"g2a | "D"f3- f2a |
+| "D(F#m)"a>gf e2f | "G"g3 z2g | "Em"g>ag "D"f2f | "A"e3 z2f \
+| "A7"e2d e2c | "D"d2d "G"e>fg | "D"a>gf "A7"e2d | "D"d3- d2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3808
+S:http://trillian.mit.edu/~jc/music/abc/England/ICareNotForTheseLadies.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/ICareNotForTheseLadies.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/ICareNotForTheseLadies.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/ICareNotForTheseLadies.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/ICareNotForTheseLadies.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/ICareNotForTheseLadies.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ICareNotForTheseLadies
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:70
+T: ES WOLLT EIN MAEDCHEN BRECHEN GEHN
+N: Z0071
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/8
+K: F
+C | FFFF | AFF
+F | cFFF | G2F
+C | FFFF | AFF
+F | cFFF | G2F
+F | BBBB | dBB
+B | BGGG | c2C
+C | FFFF | AFF
+F | fFFF | G2F
+S:https://www.folktunefinder.com/tunes/68929
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

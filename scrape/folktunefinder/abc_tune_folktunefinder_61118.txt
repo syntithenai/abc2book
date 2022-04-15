@@ -1,0 +1,30 @@
+X:9085
+T:La trova de los novios
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin
+A:Asturies
+Z:DyC en Teberga
+M:3/8
+L:1/8
+Q:3/8=60
+K:F
+dd
+|: d2 c|
+[M:2/4]BA AB|
+[M:3/8]
+c2 B|d A2-|AAB|c2 B|c d2-|ddc|B2 A|G F2-|F3-|[1 F dd :|[2 F z2|
+S:https://www.folktunefinder.com/tunes/61118
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

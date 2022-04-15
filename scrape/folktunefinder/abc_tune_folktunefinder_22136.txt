@@ -1,0 +1,28 @@
+X:1687
+T:Dudelsackmelodie
+O:england
+R:Lndler
+C:trad.
+S:Aufgezeichnet 1907 von R. Zoder
+A:Gundschachen
+P:2
+M:3/4
+L:1/8
+K:G
+(Bc)|(dedc)(Bc)|(dedc)(Bc)|c2B2A2|BABcd2|\
+(dedc)(Bc)|(dedc)(Bc)|c2B2A2|G4:|z2|
+|:(e2c2)c2|(cd)e4|(d2B2)B2|(Bc)d4|\
+(c2A2)A2|(AB)c2A2|(dedc)(BA)|G6:|
+S:https://www.folktunefinder.com/tunes/22136
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Lndler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

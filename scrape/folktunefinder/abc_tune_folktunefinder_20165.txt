@@ -1,0 +1,23 @@
+X:1
+T:Roisin the Beau
+S:John McCusker
+Z:Juergen.Gier@post.rwth-aachen.de
+M:3/4
+L:1/8
+K:Eb
+B,2 \
+| E6 | G3F E2 | E3G B2 | c4 e2 | B3G F2 | E3F G<B | C6 \
+| C4 B,2 | E6 | G3F E2 | E3G B2 | c4 e2 | B3G E2 | G4 F2 | E6 |1 E4 :|2 E3G A2 |
+|: B3c B2 | Bc d4 | d2e4 | e3d cB | B3G F2 | E3F G<B | C6 \
+| C4 B,2 |1 B3c B2 | Bc d4 | d2e4 | e3d cB | B3G E2 | G4 F2 | E6 |
+| E3G A2 :|2 E6 | G3F E2 | Ee3 dB | c4 e2 | B3G E2 | G4 F2 | E6 | E4 |]
+S:https://www.folktunefinder.com/tunes/20165
+S:http://trillian.mit.edu/~jc/music/abc/waltz/RoisinTheBeau.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RoisinTheBeau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

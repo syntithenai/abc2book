@@ -1,0 +1,25 @@
+X:12
+T:Reel de Montr\'eal
+M:4/4
+R:reel
+Q:1/2=120
+L:1/8
+K:G
+"G"g2fe dcBA|"G"GBDG B2AG|"D"FADF AcBA|"G"GBDG Bdef|
+"G"g2fe dcBA|"G"GBDG B2AG|"D"FGAB cdef|1 g2 gf g2d2:|2g2gf g4||
+K:D
+|:"D"A2 FA d2Ad|"D"f2df a2ab|"A"a2g2e2g2|"D"b2a2f2d2|
+"D"A2 FA d2Ad|"D"f2df a2ab|"A"a2g2e2c2|1 "D"d8:|2"D"d2 ^d2 e2 f2 ||
+%%newpage
+S:https://www.folktunefinder.com/tunes/57396
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/reels.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

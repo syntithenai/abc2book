@@ -1,0 +1,53 @@
+X:1
+T:El Cahon
+M:4/4
+L:1/8
+C:Johnny Mandel
+Q:1/4=190
+%%staves (chords melody)
+K:Bb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x7 || "D7"x4 "( Ab7 )"x4 | "G7"x4 x4 | "C7"x4 x4 | x4 x4 |
+"Cm7"x4 "( Gb7 )"x4 | "F7"x4 x4 | "Bbsus7"x4 x4 | "Bb7"x4 x4 ||
+V:melody
+DEF GABc || d4 e3=e- | e4 z3g | d_d2c- c^c2=d- | d4 z4 |
+c4 ^c3d- | d4 z3f | c_c2B- B=B2=c- | c4 z3c ||
+P:B
+V:chords
+"Ebmaj7"x4 x4 | "Am7"x4 x4 | "D7"x4 x4 | "G7"x4 x4 |
+"C7"x4 x4 | x4 x4 | "Cm7"x4 x4 | "F7"x4 "-/Eb"x4 ||
+V:melody
+B4- Bc/B/ Ac- | c4 z3B | d3d- d4- | d4 z3G |
+d6e=e- | e4 z4 | zg2f g2fg- |gf3 GABc ||
+P:A
+V:chords
+"D7"x4 "( Ab7 )"x4 | "G7"x4 x4 | "C7"x4 x4 | x4 x4 |
+"Cm7"x4 "( Gb7 )"x4 | "F7"x4 x4 | "Bbsus7"x4 x4 | "Bb7"x4 x4 ||
+V:melody
+d4 e3=e- | e4 zgGB | d_d2c- c^c2=d- | d4 z=E/G/ B^c/d/ |
+c4 ^c3d- | d4 z3f | c_c2B- B=B2=c- | c4 z4 ||
+P:B
+V:chords
+"Ebmaj7"x4 x4 | "Am7"x4 x4 | "D7"x4 x4 | "G7"x4 x4 |
+"C7"x4 x4 | "F7"x4 x4 | "Bb6"x4 x4 | x4 x4 |]
+V:melody
+z4 B2Ac- | c4 z3B | d4 zefg | _a3g fg zd- |
+d4 zGBG | d2A_G d3B | z8 | z8 |]
+S:https://www.folktunefinder.com/tunes/18694
+S:http://trillian.mit.edu/~jc/music/abc/song/El_Cahon.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/el_cahon.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/El_Cahon.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/el_cahon.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/el_cahon.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/El_Cahon.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/el_cahon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

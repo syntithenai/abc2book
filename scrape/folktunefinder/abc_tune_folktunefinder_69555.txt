@@ -1,0 +1,28 @@
+X:696
+T: "Vorsorge"
+N: Z1377
+O: Europa, Mitteleuropa, Deutschland Schwaben
+R: Kinder - Lied
+M: 2/4
+L: 1/8
+K: A
+E | ABcd | eec2
+e2BB | cde2
+cde2 | cde2
+cde2 | cde2
+c2dd | efe
+d | ccee | cde2
+c2dd | efe
+d | cded | c3
+S:https://www.folktunefinder.com/tunes/69555
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

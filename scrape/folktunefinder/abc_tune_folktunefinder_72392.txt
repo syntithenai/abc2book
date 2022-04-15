@@ -1,0 +1,35 @@
+X: 143
+T:Love Is Ye Cause of My Mourning. HA.142
+M:3/4
+L:1/8
+Q:1/4=90
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Deviation from 3/4 (in 2 bars) is probably intended .NBr
+N:cf Music for Alan Ramsay,1724..CGP.
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:F
+F>G A3 A>c|A>cG>AF2|f2g2a2|A4c2|!
+d2(df) (cA)|c2(dc) (Ac)|(ag)(fd)(cA)|GAG>F D2|!
+F>G A2 A>c|A>cG>A F2|f>g ("="gf/2g/2) a2|A4c2|!
+dcA2cA|GF G3F|Gf dc A2 (A/2c/2d/2c/2)|A3GF2||!
+f3g ag|f3dc2|G2 Acdf|dfdc A2|!
+c2 Acdf|cdAcGA|agfdcA|GAGF D2|!
+f>g a2 ac'|ac' ag f2|f>g ("="gf/2g/2a2)|A4c2|!
+dc A2 (Ac/2A/2)|GF G3F|Gf dc A2|\
+(A/2c/2d/2c/2)"="A3GF2|]
+S:https://www.folktunefinder.com/tunes/72392
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 148
+T:French March. HA.147
+M:C
+L:1/8
+Q:1/4=180
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:C
+c4B3A|G4G2G2|ABcA BcdB|c4G4|!
+c4B3A|G4G2G2|ABcA BcdB|c8||!
+(ef)g2(ef)g2|"="f3ed2G2|c4d2e2|"="e4d4|!
+(ef)g2(ef)g2|"="f3ed2G2|A4B4|c8|]
+S:https://www.folktunefinder.com/tunes/72397
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

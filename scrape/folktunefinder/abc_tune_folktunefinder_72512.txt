@@ -1,0 +1,26 @@
+X:55
+T: Drei Soldaten
+N: D0059
+O: Europa, Mitteleuropa, Lothringen, Hambach
+N: Verzierung; Inzipit = Variante zum Lied
+R: Ballade, Liebe, Freibitte fuer den Geliebten
+M: 4/4
+L: 1/8
+K: D
+D2 | D3EF2GG | A3BA2
+d2 | cBA2BcB2 | A4z2
+A2 | d2A2BcB2 | A3GF2
+B2 | B2A2AFAF | F2D2E2
+AB | A2EGF2E2 | D4z2
+S:https://www.folktunefinder.com/tunes/72512
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, liebe, freibitte fuer den geliebten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

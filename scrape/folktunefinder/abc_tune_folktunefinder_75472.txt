@@ -1,0 +1,17 @@
+X: 1
+T:Bobby Shaftoe
+M:2/4
+L:1/8
+K:A
+|AAAd|cecA|EEEA|GB(GE)|AGAd|ce(cA)|BdBG|A2A2||cecA|cec2|BdBG|BdB2|cecA|c
+e c2|BdBG|A2 A2||
+% Output from ABC2Win  Version 2.1 i on 3/2/2000
+S:https://www.folktunefinder.com/tunes/75472
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

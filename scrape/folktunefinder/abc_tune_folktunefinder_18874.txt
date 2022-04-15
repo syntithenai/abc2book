@@ -1,0 +1,31 @@
+X:1
+%% Copyright 1927 Warner Bross. Inc (renewed)
+T:My heart stood still
+Z:Bud Powell/The complete Blue Note
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=110
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "F"x2 | "Bb6""Gm7"x2 "Bbm6""C7"x2 |
+"F6"x2 "(Eb7""F"x"D7"" "x | "Db7)""Gm7"x2 "C7"x2 | "Am7"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zFED | G2FE | zAGF | B2AG |
+S:https://www.folktunefinder.com/tunes/18874
+S:http://trillian.mit.edu/~jc/music/abc/song/My_heart_stood_still.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/my_heart_stood_still.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/My_heart_stood_still.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/my_heart_stood_still.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

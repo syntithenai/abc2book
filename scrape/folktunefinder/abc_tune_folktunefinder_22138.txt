@@ -1,0 +1,23 @@
+X:1689
+T:Duivelspaard
+O:england
+C:Trad.
+L:1/4
+M:3/4
+P:AB
+K:Dm
+P:A
+A | d>e d | e>d e| f>e f | e f g | a>g f | e>d e | (d3 | d2) :|
+P:B
+d | e c A | e c A | e c A | e c A | a f d | a f d | a f d | a f d |
+e c A | e c A | e c A | e2 f/g/ | a>g f | e>d e | (d3 | d2) :|
+S:https://www.folktunefinder.com/tunes/22138
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

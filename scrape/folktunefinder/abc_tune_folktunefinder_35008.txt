@@ -1,0 +1,24 @@
+X: 7791
+T:Scottis
+R:Schottische
+O:Norway
+M:4/4
+C:e. Georg Brobacken
+K:AMix
+~(E2 E)>F (E2 E)>D|E>B c>B A4|1\
+ (c2 c)>B (G2 G)>F|G>B e>c B<A A>F :|2\
+ (c2 c)>B G>B e>c|B<A A>B A4 :|
+ |:\
+~(a2 a)>b (g2 g)>f|e>f e>c B<A A2 |1\
+ (c2 c)>B (G2 G)>F|G>B e>c B<A A2 :|2\
+ (c2 c)>B G>B e>c|B<A A>B A4 :|
+S:https://www.folktunefinder.com/tunes/35008
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

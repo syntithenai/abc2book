@@ -1,0 +1,25 @@
+X: 1
+T:Larry Redican's No. 1
+M:C|
+L:1/8
+Q:240
+C:Larry Redican
+R:reel
+K:F
+AdcA GcAG | FAGF DGFD | CA,~A,2 CDFG | AF~F2 GABG |
+AdcA GcAG | FAGF DGFD | CA,~A,2 CDFG |1 AFGE F3  G :|2 AFGE FGAB |
+|: ~c3   A {d}BAGA | F2 AF GFDF | CF~F2 CF~F2 | BAGF DFGA |
+{d}BABd cAGF | {e}d^cde f=cAF | CF~F2 DFBd |1 cAGA FGAB :|2 cAGA F4  ||
+S:https://www.folktunefinder.com/tunes/17539
+S:http://trillian.mit.edu/~jc/music/abc/reel/LarryRedicanNo1R.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LarryRedicanNo1R.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

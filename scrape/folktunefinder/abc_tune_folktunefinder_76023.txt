@@ -1,0 +1,28 @@
+X:43
+T: Der Wasserkrug (Band 1), S. 133
+N: P0817
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Standesunterschied, Beischlaf]
+M: 2/4
+L: 1/8
+K: E
+E | =GFGA | BBE
+=G | FFEd | E2z
+=G | A=GAB | =cc=G
+c | BA=GA | E2
+FA | BA=GF | E2z
+S:https://www.folktunefinder.com/tunes/76023
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Standesunterschied, beischlaf]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

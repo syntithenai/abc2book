@@ -1,0 +1,33 @@
+X:255
+T: Paddy in London
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 250
+R: Double jig
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0250.abc
+M: 6/8
+L: 1/8
+K: D
+(G|F)DF ABc|ded def|AGF G2A|BGE E2G|FDF ABc|ded def|
+AGF BAG|FDD D2:|(g|f)df agf|gfe dBG|AGF G2A|BGE E2[Gg]|
+[1fdf agf|gfe dBG|AGA BAG|FDD D2:|[2FDF ABc|ded def|AGF BAG|FDD D2||
+|:(g/f/)|eAA Agf|edc d2B|AGF G2A|BGE E2(f/g/)|agf gfe|ded def|AGF BAG|FDD
+D2:|
+%Bar 12, last note (chord) org. 4th note
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/44264
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0250.abc
+S:http://www2.redhawk.org:8080/irish/oneill/1001/F/02.abc
+% Rhythm Double jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

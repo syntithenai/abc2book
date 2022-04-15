@@ -1,0 +1,40 @@
+X: 1
+T: L\"u Dao Xiaoyequ
+T: Green Island Serenade
+C: Chen Chang-shou
+D: Vienna Teng "Warm Strangers"
+N: Somewhat simplified melody, by comparing with several online versions
+M: 4/4
+L: 1/8
+%Q: 1/4=70
+%%slurgraces 1
+K: G
+D2 \
+| "G"d3 e "(Bm)"d2 B2 | "D7"A2 {BA}GA "Em"B3 A \
+| "C"GG2 E "G"D3 E | "G"D4 "(D)"z4 \
+| "C"E3 D E2 G2 | "D7"A2 {BA}GA "G"B3 d \
+| "Am"AA2 B "D7"d3 e | "G"d4 "(D)"z4 |
+| "C"ee2 d "G"B2 BA | "Em"GA B[dG] "Bm"B4 \
+| "Am"AA2 G "C"ED EG | "D7"A4 z4 \
+| "G"BB2 A "Em"Bd B2 | "Am"AB AG "C"E4 \
+| "G"Dd BA "D7"de BA | "G"{A}G4 z4 |]
+[|"C"e>e ed "G"B B3 | "Am"AA2 G "C"ED EG | "D7"A4 z4 \
+| "G"d>e dA "Bm"BB2 B | "Am"AA2 G "C"E2 G2 | "G"d4 "D7"z3d |
+| "G"d2 {ed}Bd "C"e3 g | "G"de dB "Am"A4 \
+| "Em"B2 AG "C"E3 G | "D7"A2 {BA}GA "G"B3d \
+| "C"e3 B "D7"A3 B/A/ | "G"G4 z2 |]
+S:https://www.folktunefinder.com/tunes/3176
+S:http://trillian.mit.edu/~jc/music/abc/China/GreenIslandSerenade_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/China/GreenIslandSerenade_G.txt
+S:http://trillian.mit.edu/~jc/music/abc/China/GreenIslandSerenade_G.utf8.txt
+S:http://trillian.mit.edu/~jc/music/abc/i18n/GreenIslandSerenade_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/i18n/GreenIslandSerenade_G.txt
+S:http://trillian.mit.edu/~jc/music/abc/i18n/GreenIslandSerenade_G.utf8.txt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:612
+T: ALS ICH BEI MEINEN SCHAFEN WACHT
+N: E1949
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Fest - Lied, Weihnachten
+M: 4/4
+L: 1/8
+K: G
+ | _B2AG=F3F | G3A_B4
+B2AG=F3F | G3A_B4
+B2AG=F3F | G3A_B4
+B2AG=F3F | G3A_B4 | z2
+_B2A3A | G4A3A | G4
+_B2c2 | d4_B2c2 | d4
+d2c_B | A2G2A2F2 | G4
+d2cB | A2G2A2F2 | G8
+S:https://www.folktunefinder.com/tunes/79716
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, fest - lied, weihnachten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

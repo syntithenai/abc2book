@@ -1,0 +1,35 @@
+X:802
+T:Broad Cupid
+O:england
+S:as played by the City of Auckland Morris Dancers
+N:
+H:abcTranscriber: Alex Boster 
+A:Badby
+R:
+P:A(AB$^2$)$^4$
+%P:A(AB2)4
+%:
+%:
+K:G
+M:2/4
+L:1/8
+P:A
+dc | B2 B2 | B2 G2 | AGAB | G2 AB | cBAG | GABc | d2 ec | B2 A2 |
+B2 B2 | B2 G2 | AGAB | G2 AB | cBAG | GABc | A4    | G4    ||
+P:B
+||  GABc | d2 d2 | d2 e2 | d2 d2 | e2 dd | g2 B2 | d2 ec | B2 A2 |
+B2 B2 | B2 G2 | AGAB  | G2 AB | cBAG  | GABc  | A4    | G4    ||
+S:https://www.folktunefinder.com/tunes/21251
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

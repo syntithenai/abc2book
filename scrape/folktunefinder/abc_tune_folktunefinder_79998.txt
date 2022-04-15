@@ -1,0 +1,29 @@
+X:174
+T:Willie's auld Trews
+T:Seann triubhais Uilleachain
+R:Reel
+S:Simon Fraser Collection
+N:No.187
+O:Scottish
+M:C|
+L:1/8
+K:D Minor
+D|A,DDF E2 A,E|F2 ED ECCE|A,DDF E2 A,E|F2 E>D CA,A,B,|A,DDF E2 A,E|
+F2 ED ECCE|A,DDF E2 A,A|GFED CA,A,:|
+|:c|AcAF GcGE|F2 E>D ECCc|1 AcAF GcGE|F2 ED CA,A,:|2 Ac=Bc GcEc|
+DFED CA, A,2||
+|:Addf e2 Aa|gfed ecce|Addf e2 Aa|(gf)ed cAA:|
+|:c|AFcF GEcE|FDGF ECCc|AFcF GEcE|F2 ED CA,A,c|AFcF GEcE|
+FDGF ECCc|Ac=Bc GcEe|DFED CA, A,:|
+% Output from ABC2Win  Version 2.1 k on 16/11/2002
+S:https://www.folktunefinder.com/tunes/79998
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1030
+T: Ellis's Jig
+T: Port Ellis
+R:double jig
+N:"collected by J.O'Neill"
+S:998 O'Neill's Music of Ireland
+B:O'Neill's 998
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:6/8
+K:G
+D | G>AG B2 G | c2 A F2 D | G>AG B2 c | d2 g B2 c |
+  | dgd =f2 d | cAG F2 A | d>ed cBA | G3 G2 :|
+d | g2 d B2 G | c2 A F2 D | g2 d B2 ^c | dde =f2 e |
+  | dgd =f2 d | cAG F2 A | d>ed cBA | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/74189
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

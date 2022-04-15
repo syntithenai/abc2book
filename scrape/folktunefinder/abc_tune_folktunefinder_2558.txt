@@ -1,0 +1,22 @@
+X:1
+T: TEST: Bass Voice with notes C,, to c
+N: Bass clef, but notes have treble pitch
+K: C
+V:4 name="bass" clef=bass middle=D,
+[V:4] | C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C | CDEF GABc |
+w:  C,, D,, E,, F,,  G,, A,, B,, C, |  C, D, E, F,  G, A, B, C |  C D E F  G A B c |
+S:https://www.folktunefinder.com/tunes/2558
+S:http://trillian.mit.edu/~jc/music/abc/test/V_B2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_B2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_B2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_B2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

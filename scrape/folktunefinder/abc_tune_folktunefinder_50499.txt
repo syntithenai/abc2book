@@ -1,0 +1,37 @@
+X:12
+T:De Valse Zeeman                 %titel
+C:                           %composer
+O:                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/8                        % length of shortest note
+Q:                           %tempo  Q:1/4=80
+%P:Intro ABC ABD B
+K:C                           %key C  Cm
+P:Intro
+|:"Am"A6|"Em" G6|"F" F3 E FE|"Dm" D6|"Am"A6|"Em"G6|1"F"(F6|F6):|2"F"(F6|F4)A2||
+P:A
+|:"Am" A4 e2|"Em"e4 ef|"F6" e2 e3 c|"Dm" A4B2|"Am"c6|\
+"Em"B4A2|"F"(A6 |"F"(A4) A)A|"Am"A4 e2|
+"Em" e4 ef| "F6"e4 ec| "Dm"(A4 A)B|"Am" c4 A2| "Em" B4 G2 \
+|1 "F" (A6|A4) A2:|2 "G"(G6|(G4)G)[Ge]||
+P:B
+"F"[e2F4] d2[F2c2]| "G" [G4B4] [G2B2]|"Em" [G4B4] [B2d2]|\
+"Am"([c4e4][ce])[Ae]|"Am"([c4e4][Ae])[Ae]|"Em"[G4e4] [e(A][A)d]|\
+"Am"([A6e6]|"Am"([A4e4])[Ae])[Gd]|"F"[F4c4] [F2c2]|
+"G" [G4d4] [G2d2]|"Em"[B4d4] [e(B][B)d] |"Am" [c4e4] [Ae][Gd]|\
+"F"[F4A4] [F2A2]|"G" [G4d4][G2d2]|"Em"([E6B6]|[e6B6])||
+P:C
+"Am" A6|"Em"G6|"F" F3E FE| "Dm" D6| "Am" A6|"Em"G6|(F6|F6)||
+P:D
+"Am" [a3A3] [Aa] [Bb][cc']|"Em"[d2d'2] [c2c'2] [A2a2]|"F" g6 |\
+"Dm" ef ed cd | "Am" e6|"Em" dc A2 G2|
+"F" (A6 | A6)| "Am" A6| "Em" G6 | "F" F3 E FE| "Dm" D6 |"Am" A6| "Em" G6|"F" (F6|F6)||
+S:https://www.folktunefinder.com/tunes/50499
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:629
+T: VOEGELE IM TANNENWALD
+N: E0576
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Liebes - Lied
+M: 3/8
+L: 1/16
+K: F
+ | FGA2B2 | c2d2c2
+d2c2B2 | A2fff2
+FGA2B2 | c2d2c2
+d2c2B2 | A4z2
+A2ccc2 | c2B2B2
+B2A2A2 | A2GGG2
+FGA2B2 | c2d2c2
+d2c2B2 | A6
+S:https://www.folktunefinder.com/tunes/79070
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

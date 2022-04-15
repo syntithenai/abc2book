@@ -1,0 +1,20 @@
+X:3454
+T:Corriechoille's Farewell
+M:2/4
+L:1/8
+Q:1/4=110
+K:D
+% lydian/major/mixolydian pentatonic, D-mode GC-gap
+e|A>B Ad|e>d BA|d>e fa|fe ef|A>B Ad|e>d BA|d>e fa|fd d:|
+f|a>f df|e>d BA|d>e fa|fe ef|A>B Ad|e>d BA|d>e fa|fd d:|
+S:https://www.folktunefinder.com/tunes/29734
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

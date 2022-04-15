@@ -1,0 +1,23 @@
+X:180
+T:Alexanders Hornpipe
+O:england
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+| 3ABc | dAFA DFAd | fdcd A2 ef | ~g2 ge fdcd | 3efe 3dcB A2 3ABc | dAFA
+DFAd | fdcd A2 ef | ~g2 fe fdcd | eddc d2 :|
+|AG | FAdA FAdA | GBdB GBdB | Acec Acec | dfaf 3gfe 3cBA | FAdA FAdA |
+GBdB GBdB | Acef gecd | eddc d2 :|
+S:https://www.folktunefinder.com/tunes/20629
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

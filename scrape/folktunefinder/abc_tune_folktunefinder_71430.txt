@@ -1,0 +1,25 @@
+X:401
+%%topmargin 3cm
+T:Carnie's Canter
+C:James Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+B | A>c c/c/c dc=Bc | Ac=Bc fc_BA | B>d d/d/d ed^cd | Bd^cd ed=cB | A>c c/c/c dc=Bc |
+Ac=Bc fc_BA | {Bc}BABd g^fga | kbagf edcmB || A>f f/f/f (cf)Af | afef cfAf |
+B>g g/g/g (dg)Bg | bagf edcB | A>f f/f/f (cf)Af | afef cfAf | bgaf gefd | cBAG F2- F |]
+W:
+W:These tunes ["Dr. Keith, Aberdeen" and "Carnie's Canter"] are in Scott Skinner's best style.
+S:https://www.folktunefinder.com/tunes/71430
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

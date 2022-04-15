@@ -1,0 +1,27 @@
+X:476
+%%topmargin 3cm
+T:College Hornpipe
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Hornpipe
+M:C
+L:1/8
+K:Bb
+(BA) | TB2 B,2 B,2 (FE) | DF B2 ~B2 (dB) | c2 C2 C2 (cB) | (Ac) f2 ~f2 (ga) | bagf gfed |
+(ed)cB TBAGF | GBAc Bdce | d2 B2 ~B2 :: (FE) | DFBF DFBF | {/^F}G2 E2 E2 GF |
+=EGcG EGcG | A2 F2 F2 (ed) | e2 g2 gfed | edcB BAGF | GBAc Bdce | d2 [D2B2] [D2B2] :|
+S:https://www.folktunefinder.com/tunes/71505
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/College_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0476.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

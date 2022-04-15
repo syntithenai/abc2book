@@ -1,0 +1,35 @@
+X: 96
+T: West Fork Gals
+S:Karl Moore - Peach Bottom String Band
+C:
+M:4/4
+L:1/4
+K:D
+d/2e/2|:\
+"D"f/2g/2f/2e/2de/2f/2|\
+"G"g/2f/2gBf|\
+"A"e/2f/2e/2d/2cA|\
+"A"d/2B/2A/2G/2FD|\
+"D"ff/2e/2de/2f/2|\
+"G"g/2f/2e/2d/2B2|\
+"A7"e/2f/2e/2d/2cA|\
+"A7"B/2A/2B/2c/2"D"d2::\
+"D"A3/2G/2F3/2G/2|\
+AdF3/2F/2|\
+"A7"G/2C/2FE[EA]|\
+G/2C/2FE2|\
+e/2f/2e/2d/2c(3A/2B/2c/2|\
+"D"dAF/2G/2A|\
+"D"dc/2d/2"A7"eD/2e/2|\
+"D"fdd2:|\
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7699
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

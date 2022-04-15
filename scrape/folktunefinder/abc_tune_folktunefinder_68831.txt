@@ -1,0 +1,24 @@
+X:285
+T: Der Rebner
+N: A0329
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II (1540) No. 54.
+R: Romanze, Ballade, Lied, Trinklied
+M: 3/2
+L: 1/2
+K: F
+FFF | A2A | c2c | AA
+d | c2c | AAd | c2c | AA
+A | AAA | A2A | B2A | GGG | F2E | F2
+A | AAA | A2A | B2A | GGG | F2E | F3
+S:https://www.folktunefinder.com/tunes/68831
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

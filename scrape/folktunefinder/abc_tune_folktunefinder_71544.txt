@@ -1,0 +1,25 @@
+X:515
+%%topmargin 3cm
+T:The Brigg of Ballater
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+"Very Slow." E | C>EG>A c>GA<a | g<cTg>e {/e}d2 d>e | C>EG>A | c>GA<a | g<cTg>e c2 c ||
+e/f/ | !p!g>ce>c g>cf<a | g<c~g>e {/e}d2 Tde/f/ | g>ce>c g>cf<a | g>c {cd}e>d {d/}Tc2 ce/f/ |
+g>ce>c g>cf<a | g>c (ag) (f>e) {/e}d2 Td>e | !f!C>EG>A c>GA<a | g<cTg>e {/e}c2 c |]
+S:https://www.folktunefinder.com/tunes/71544
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Brigg_of_Ballater.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0515.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

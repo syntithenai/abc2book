@@ -1,0 +1,28 @@
+X:920
+T:the Calgarth Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004ef.html
+%%ID:000004ef
+K:F
+cB|\
+A2F2 F2GA| B2G2 G2cB| \
+Acfe dcBA| G2C2 C2cB|\
+A2F2 F2GA| BABc defg|
+abga ecde| f2a2 f2:: fg|\
+afcf Afcf| afcf bagf|
+gece Gece| gece gfef|\
+dfcf BfAf| GABc defg| \
+abga ecde| f2a2 f2:|
+S:https://www.folktunefinder.com/tunes/36263
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

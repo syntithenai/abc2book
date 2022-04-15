@@ -1,0 +1,34 @@
+X:90
+T:Steyrer Tanz in G, nr. 56
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in G
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:G
+V:1
+%violino 1mo
+(DB,)(DF)(G=F | FE)(E^G(A)=G | G^F)FA dc | cBBD G2 |\
+(DB,)(DF)(G=F | FE)(E^GA)=G | GFFA dB | G2 G,2 "in D" G2 :|
+V:2
+%violino 2do
+.G,2 ( .B,2 .B,2) | C2 C2 C2 | D2 D2 A2 | G2 G2 B,2 |\
+G,2 B,2 B,2 | C2 C2 C2 | G2 G2 G2 | B,4 :|
+S:https://www.folktunefinder.com/tunes/45524
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

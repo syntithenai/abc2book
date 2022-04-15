@@ -1,0 +1,21 @@
+X:1
+T: the Almost Reel
+C:Chris Armstrong
+Z:James Curtin <curtinjj@sover.net> (irtrad-l 1999/12/30)
+M:4/4
+L:1/8
+K:D
+| ~B3 d cA B2 | DddA dAFA | ~B3d cA B2 | DddA BF ~F2 |
+| ~B3 d cA B2 | DddA dAFA | ~B3d cA B2 | DddA BA ~A2 |
+| ~B3 d eB d2 | BddA dAFA | EBeB dc B2 | DddA BF ~F2 |
+| ~B3 d eB d2 | BddA dAFA | EBeB dc B2 | DddA BA ~A2 |]
+S:https://www.folktunefinder.com/tunes/16707
+S:http://trillian.mit.edu/~jc/music/abc/reel/AlmostReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/AlmostReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/AlmostReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

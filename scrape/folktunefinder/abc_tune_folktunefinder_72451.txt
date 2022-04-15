@@ -1,0 +1,32 @@
+X: 202
+T:Uncle John. HA.201
+M:3/2
+L:1/8
+Q:480
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Time Sig. Quite clearly 6/4 in MS, but it equally clearly shouldn't
+N:be.CGP.."=" = double slashed note.NBr.
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+"Time Sig. 6/4 in MS"f2d4D2"="F4|E2e4(fg)(ag)(fe)|\
+f2"u"d4"u"D2"="F4|D2d4(fg) (ag)(fe)|!
+|:d2"u"f4"u"d2"u"f4|c2e4(fg) (ag)(fe)|\
+d2f4d2f4|d2f4d2 efge|!
+d2f4d2f4|"u"c2e4 (fg) (ag)(fe)|\
+(fe)(dc) (dc)(BA) (BA)(GF)|D2d4 (fg) agfe:|]
+S:https://www.folktunefinder.com/tunes/72451
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

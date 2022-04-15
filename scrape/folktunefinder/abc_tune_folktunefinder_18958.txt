@@ -1,0 +1,48 @@
+X:1
+T:The Scene Is Clean
+C:Tadd Dameron
+M:4/4
+L:1/8
+Q:1/4=138
+%%staves (chords  melody)
+K:Ab
+P:A
+V:chords
+"G7"x3 || "Cm7"x4 "F7"x4 | "Bbm7"x4 "Eb7"x4 | "Abm7"x4 "Db7"x4 | "G7"x4 "C7"x4 |
+"Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 "F7"x4 | "Bbm7"x4 "Eb7"x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+d3 || (=d2fd) z_d3 | (c2ec) z_c3 | (B2dB) zA3 | (A2BG-G4 ) |
+F2FB F2FB | G2Gc _G3F | DGcB =ABcd | e2 (3cef _g2zf ||
+P:B
+V:chords
+"Bbm7"x4 x4 | "Dbm7"x4 "Gb7"x4 | "Gm7b5"x4 x4 | "C7"x4 x4 |
+"Cmaj7"x4 x4 | "Cm7"x4 "F7"x4 | "Bbmaj7"x4 x4 | "Dm7b5"x4 "G7"x4 ||
+V:melody
+eeee- edAe- | eeee- edA2 | (3c2c2c2 (3c2B2F2 | A6G2 |
+=E2FG =A=Bc=d | d2fd- (3d2c2=A2 | F4 z=A, (3B,=DF | _A3G zd3 ||
+P:A
+V:chords
+"Cm7"x4 "F7"x4 | "Bbm7"x4 "Eb7"x4 | "Abm7"x4 "Db7"x4 | "G7"x4 "C7"x4 |
+"Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 "F7"x4 | "Bbm7"x4 "Eb7"x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+(=d2fd) z_d3 | (c2ec) z_c3 | (B2dB) zA3 | (A2BG-G4 ) |
+F2FB F2FB | G2Gc _G3F | DGcB =ABcd | e2 (3cef _g2zf |
+P:C
+V:chords
+"Bbm7"x4 x4 | "Dbm7"x4 "Gb7"x4 | "Cm7"x4 x4 | "F7"x4 x4 |
+"Bbm7"x2 """A7"x2 "G7"x2 "Gb7"x2 | "F7"x2 "E7"x2 "Bbm7"x2 "Eb7"x2 | "Abmaj7"x4 x4 | "Dm7b5"x4 "G7"x4 |]
+V:melody
+aBBB- Bcde | =e2e4_e2 | gGGG- GB=df | _g6f2 |
+c2ce c2ce | c2ce c2ce | c8 | zg Ac g2fe |]
+S:https://www.folktunefinder.com/tunes/18958
+S:http://trillian.mit.edu/~jc/music/abc/song/Scene_Is_Clean.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/the_scene_is_clean.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Scene_Is_Clean.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/the_scene_is_clean.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

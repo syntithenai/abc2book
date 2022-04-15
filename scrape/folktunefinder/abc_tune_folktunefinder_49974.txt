@@ -1,0 +1,39 @@
+X:18526
+T:Wat ye what I got late yestreen - Bagpipe Set
+S:George Skene's MS, NLS Adv.MS.5.2.21, 1715
+N:bar 8 is | [ge][ec][cA] d2:| in the MS
+N:bar 28 is |fA/c/c d2:| in the MS
+Z:Jack Campin 1998
+M:6/8
+K:Dmix
+e|\
+cAa ef/g/a|eae fde|cAa ef/g/a|gec d2:|
+f/g/|\
+a2e f2d|gec efg|a2e f2d|gec d2:|
+e|\
+cAa ef/g/a|a/g/f/g/a a/g/f/g/a|cAa ef/g/a|gec d2:|
+f/g/|\
+aee fdd|ecc gee|aee fdd|ecA d2:|
+A|\
+dad dad|cgc cgc|dad dad|ecA ecA|
+d2a a/g/f/g/a|c2g g/f/e/f/g|d2a a/g/f/g/a/f/|gec d2||
+e|\
+cAe {f}ec/d/e|{f}ec/d/e {f}ec/d/e|cAe {f}ec/d/e|fA/B/c d2:|
+e|\
+d/c/d/e/f/g/ a/g/f/g/a/f/|c/B/c/d/e/f/ g/f/e/f/g/e/|\
+d/c/d/e/f/g/ a/g/f/g/a/f/|g/f/e/d/e/c/ d2:|
+f/g/|\
+a/g/f/e/f/d/ f/e/f/g/a/f/|g/f/e/d/e/c/ e/d/e/f/g/e/|\
+a/g/f/e/f/d/ f/e/f/g/a/f/|g/e/f/d/e/c/ d2:|
+S:https://www.folktunefinder.com/tunes/49974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

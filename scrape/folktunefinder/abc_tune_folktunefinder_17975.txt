@@ -1,0 +1,28 @@
+X:4
+T:Reel de Bellechasse
+R:reel
+O:Qubec
+Q:1/4=200
+S:Dominique Renaudin <domren:free.fr> QueTrad 2002-11-26
+M:4/4
+L:1/8
+K:D
+A Bc | d2 fd cd ec | de fd A2 dc | BB gf ed cB |
+Aa aA aA Bc | d2 fd cd ec | de fd A2 dc | BB gf ed cB |
+Af ec d :: Ad | [f2F2] fg fe dc | Bg gB gg Ac |
+ed ef ed cB | Aa aA a2 AB | [f2F2] fg fe dc | Bg gB gg AB |
+ed ef ed cB | Af ec d :|
+S:https://www.folktunefinder.com/tunes/17975
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDeBellechasse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDeBellechasse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDeBellechasse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ReelDeBellechasse_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

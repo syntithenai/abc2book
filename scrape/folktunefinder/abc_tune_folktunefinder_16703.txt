@@ -1,0 +1,43 @@
+X:1
+T:Alfred E. Milne
+C:G.S. MacLennan
+S:G.S.MacLennan, Highland Bagpipe Music book 1, pub R.G. Hardie, 1956 reprint
+B:NLS Mus.D.s.33(6)
+N:In the book the first note is e, and the last notes of each part are
+N:A3 except for part 1 which is A6.  I have assumed these are mistakes,
+N:or rather, attempts to make the notation represent rubato in a way it
+N:can't legally do.
+Z:Jack Campin <jc@purr.demon.co.uk> irtrad-l 2001-04-26
+M:2/4
+L:1/16
+K:Hp
+    e2|  {g}A3{GdGe}A {gcd}c2{g}B{d}A|  {g}c2{GdGe}A{d}c  {gef}e2{g}dc  |\
+         {g}B3{GdGe}B {Gdc}d2{gcd}cB |  {g}df{g}eg        {afg}f2{g}ec  |
+         {g}A3{GdGe}A {gcd}c2{g}B{d}A|  {g}c2{GdGe}A{d}c  {gef}e2{gde}dc|\
+       {Gdc}d2{gfg}fd {gef}ec{gde}dB |{gcd}c2{e}A2      {gAGAG}A2      :|
+ {g}cd|{gef}e2{ag}a2       fgaf      |{gef}eA{d}ce          {g}fe{gde}dc|\
+       {Gdc}d2{e}dB     {d}ce{g}A{d}c|{g}Bd{g}ce            {g}df{gef}ec|
+       {gef}e2{ag}a2       fgaf      |{gef}eA{d}ce          {g}fe{gde}dc|\
+       {Gdc}d2{gfg}fd {gef}ec{gde}dB |{gcd}c2{e}A2      {gAGAG}A2      :|
+{ag}a2|     c2{GBG}Ae {gcd}c3{GBG}A  |  {g}c2{GdG}ef      {gef}e2{gde}dc|\
+         {g}d2{GcG}Bf {gde}d3{GcG}B  |{Gdc}de{g}fg             af{gef}ed|
+       {gcd}c2{GBG}Ae {gcd}c3{GBG}A  |  {g}c2{GdG}ef      {gef}e2{gde}dc|\
+       {Gdc}d2{gfg}fd {gef}ec{gde}dB |{gcd}c2{e}A2      {gAGAG}A2      :|
+    e2|  {g}ceag        {a}fgaf      |  {g}eace           {gfg}fe{gde}dc|\
+         {g}Bd{a}gf     {g}efge      |{gde}dG{g}Bd        {gef}ed{gcd}cB|
+         {d}ceag        {g}fgaf      |  {g}eace           {gfg}fe{gde}dc|\
+       {Gdc}d2{gfg}fd {gef}ec{gde}dB |{gcd}c2{e}A2      {gAGAG}A2      :|
+S:https://www.folktunefinder.com/tunes/16703
+S:http://trillian.mit.edu/~jc/music/abc/reel/AlfredEMilne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/pipe/AlfredEMilne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AlfredEMilne.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/AlfredEMilne_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

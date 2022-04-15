@@ -1,0 +1,26 @@
+X:468
+T: HANS IM SCHNOCKELOCH
+N: E1723
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Scherz - Lied
+M: 2/4
+L: 1/16
+K: F
+ | c4c2d2 | c3BA2
+A2 | B2B2G2G2 | A4z4
+G3AB2G2 | A3Bc2
+A2 | G3AB2G2 | A3Bc2z2
+c4c2d2 | c3BA2
+A2 | B2B2G2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/79572
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

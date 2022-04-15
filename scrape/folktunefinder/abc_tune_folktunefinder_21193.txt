@@ -1,0 +1,26 @@
+X:744
+T:Branle Quatre Branles
+O:england
+T:Die vier branslen
+S:E.P.Band
+R:Branle
+M:4/4
+B:from Susato's Danserye of 1551 (thanks Elaine Charlson for that)
+K:A
+c2cB AGAB|c2ed c2B2|c2cB AGAB|c2ed B4::\
+cdef edcB|c2A2 A2c2|d2c2 B4::
+cde2 cde2|cdef d2c2|f3e d2c2|f3e d2c2|
+cdec dcBA|GABG A2ed|c2BA B2ed|c2B2 A2ed|\
+c2BA B2ed|c2B2 A4:|
+S:https://www.folktunefinder.com/tunes/21193
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Branle
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

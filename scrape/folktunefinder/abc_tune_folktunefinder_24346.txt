@@ -1,0 +1,26 @@
+X:3894
+T:Madness
+O:england
+S:Chris Dewhurst (1983), via PR
+M:4/4
+L:1/4
+K:F
+A,"C7"B, =B,|"F"C3/2C/2 DC|"F"A2 A2|"C7""g"C3/2C/2 " ""c"DC|\
+"C7""g"B2 -" ""c"B2|"Gm"C3/2C/2 DC|"C7"c3/2c/2 =Bc|"F"AF "Dm"ED|"Gm"CA, "C7"B,=B,|
+"F"C3/2C/2 DC|"F"A2 A2|"C7""g"C3/2C/2 " ""c"DC|"Gm"B2 -"C7"B2|\
+"F"c3/2A/2 "F7"GF|"Bb"DF FG|"F""c"A2 "C7"G2|"F"FF "F7"GA||
+"Bb"B3/2B/2 Bc|dD FB|"F"A3/2A/2 AB|"Am"c3A|"Dm"F3/2F/2 FG|"G7"AG A=B|\
+"C7"dc "Gm"BG|
+"C"E_E "C7"D_D|"F"C3/2C/2 DC|"F"A2 A2|"C7""g"C3/2C/2 " ""c"DC|"Gm"B2 -"C7"B2|\
+"F"c3/2A/2 "F7"GF|"Bb"DF FG|"F""c"A2 "C7"G2|"F"F||
+S:https://www.folktunefinder.com/tunes/24346
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

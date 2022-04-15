@@ -1,0 +1,21 @@
+X: 144
+T:Bourree #2
+M:2/4
+L:1/16
+Q:130
+K:D
+F4 G2F2 | A6 B2 | =c6 d2 | A3B =cBAG |
+F4 G2F2 | A6 B2 | =c6 d2 | A8 :||
+FEFG ADFA | =c2B2 A3G |FEFG ADFA |
+=c2B2 B2G2 |FEFG ADFA | =c2B2 A3G |
+FEFG A2F2 G4 :||
+S:https://www.folktunefinder.com/tunes/52214
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:123
+T:Polska efter Gustaf Elgstr\"om
+R:sl-polska
+H:efter fl\"ojtisten Gustaf Elgstr\"om (1844-1927), J\"at
+A:Sm{\aa}land
+B:Sm{\aa}l\"andsk musiktradition 311
+Z:id:hn-sp-123
+M:3/4
+L:1/16
+K:D
+D3F FEGF E2D2 | F2A2 G2B2 A4 | d2df e2eg f2d2 | dfaf edcB AGFE |
+D3F FEGF E2D2 | F2A2 G2B2 A4 | d2df e2eg g2b2 | gfed c2d2 d4 :|
+|: DFAF DFAF DFAF | DGBG DGBG DGBG | DFAF DFAF DFAF | DGBG DGBG DGBG |
+A2dd d2FF F2E2 | GFGA B2GG G2F2 | A2dd d2FF G2g2 | efed c2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/62454
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

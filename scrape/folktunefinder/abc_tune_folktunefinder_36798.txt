@@ -1,0 +1,28 @@
+X:3595
+T:Miss McPherson Grant of Ballindalloch
+C:William Marshall
+M:6/8
+O:Scotland
+R:48-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000969.html
+%%ID:00000969
+K:A
+E |\
+E2A A2F | GAB Bcd | c2E AGA   | B3 E3    | \
+E2e e2c | dcd Bcd | |1cde fed | cBA GFE :|2 ! cBA EFG | A3 A2 :: \
+E|\
+C2E A2=G | FEF    D2F | {F}d2c BcA  | G3 E2E | \
+FGA Bcd  | cde    fga | ! gfe    Bc^d | e3 e2z | \
+f2D fed  | {c}e2c ecA | FGA    BcA  | G3 E3 | \
+F2d E2c  | D2B    C2e | {d}cBA EFG  | A3 A,2 :|
+S:https://www.folktunefinder.com/tunes/36798
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:610
+T: LAUFET  IHR HIRTEN
+N: E1946
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Glatz
+R: geistlich, Fest - Lied, Weihnachten
+M: 3/4
+L: 1/8
+K: G
+d2 | B2G2d2 | B2G2
+d2 | dcB2A2 | G2z2
+d2 | B2G2d2 | B2G2
+d2 | dcB2A2 | G2z2
+dB | A2AGFG | A4
+dB | A2AGFG | A4
+d2 | d2B2d2 | d2B2
+d2 | dcB2A2 | G2z2
+S:https://www.folktunefinder.com/tunes/79714
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, fest - lied, weihnachten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

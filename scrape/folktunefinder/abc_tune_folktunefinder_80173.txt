@@ -1,0 +1,24 @@
+X:114
+T: Der Bauer ins Holz
+N: A0472E
+O: Europa, Mitteleuropa, Deutschland
+N: Baseler Tenor 1560 fol. 80.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+G,2 | G,2z4A,2 | A,2z4C2 | C4
+C4 | B,2G4F2 | E4D4 | E2DCB,2
+G,2 | G,2z4G,2 | G,3A,B,2C2 | D2C2C2B,2 | C6
+S:https://www.folktunefinder.com/tunes/80173
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

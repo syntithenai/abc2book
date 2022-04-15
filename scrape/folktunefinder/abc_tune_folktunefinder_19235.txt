@@ -1,0 +1,23 @@
+X:10
+T:The Bridge of Gairn
+M:4/4
+L:1/8
+Q:128
+K:D
+AF3/D/D/D/ DB,3/D/A,3/D/F3/D/A3/F/B/E3/E3/A/F3/D/D/D/ DB,3/D/A,3/D/G3/B/A3/c/d/D3/D3/A/
+W: D G D D Em D G D Em A7 D
+F3/D/D/D/ DB,3/D/A,3/D/F3/D/A3/F/B/E3/E3/c/d3/f/a3/e/B3/d/A3/F/G3/B/A3/c/d/D3/D3/g/
+W: D G D D Em Bm A G D Em A7 D
+f3/d/f/e/ d/c/d3/B/A3/F/G3/B/F3/A/B/E3/E3/g/f3/d/f/e/ d/c/d3/B/A3/F/G3/b/a3/g/f/d3/d3/g/
+W: D G D Em D A7 D G D Em A7 D
+f3/d/f/e/ d/c/d3/B/A3/F/G3/B/F3/A/B/E3/E3/A/F/D3/F/A3/G/B3/A/d3/c/e3/A3/c/d/D3/D|z
+W: D G D Em D A7 D G D A7 D
+S:https://www.folktunefinder.com/tunes/19235
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Bridge_of_Gairn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Bridge_of_Gairn_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

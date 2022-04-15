@@ -1,0 +1,36 @@
+X: 1
+T: Gertrudes Traum
+T: Gertude's Dream
+N: Attributed (probably incorrectly) to L. van Beethoven ("Twelve Minuets Op.79")
+N: Arr by Galla-Rini
+S: printed MS of unknown origin
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/16
+K: Bb
+"A"\
+|: "Bb"d8 (FBdf) | "Cm/Eb"e8 (Gceg) | "F" f6 (F2A2c2) | "F"([f4A4] "C7/G"[=e4B4] "F7/A"[_e4c4]) |
+|  "Bb"d8 (FBdf) | "Cm/Eb"e8 (Gceg) | "F7"f6 (.F2.G2.A2) | "Bb"B8 "fine"z4 :|
+"B"\
+|: "F"[c4A4F4] [c3A3F3]([cAF] "C7/E"[c3B3G3])([cBG] | "F"[c4A4F4]) [c3A3F3]([cAF] "C7/E"[c3B3G3])([cBG] \
+|  "F"[c4A4F4]) [f4c4A4] [a4f4c4] | "C"[g4=e4c4] k[e8g8c'8] |
+| "Dm"[A4F4D4] [A3F3D3]([AFD] "A7/C#"[A3G3E3])([AGE] | "Dm"[A4F4D4]) [A3F3D3]([AFD] "A7/C#"[A3G3E3])([AGE] \
+| "Dm"[A4F4D4]) [f4d4A4] "G7"[=B4G4F4] | "C"[c8G8=E8] z4 :|
+"C"\
+|: "C"(c4 =B4 _B4 | "C7"G6) (=E2G2B2 | "C7"d4 c2)(=E2 G2B2 | "F"d4 c2)z2 c3c | "C"(c4 =B4 _B4 |
+| "F"A6) (c2f2a2) | "C7"(g2(3ag^f g2)(c2 d2=e2 |1 "F"f8) z2 :|2 "F"f4) (z2f2=e2f2 ||
+"D"\
+|: "Bb"d6) (b2a2b2 | "Eb"a4 g2)(g2 ^f2g2 |"F7"A6) (g2=f2_e2 | "Bb"^c4 d2)(f2 =e2f2 | "Bb"d6) (b2c'2b2 |
+| "Eb"a4 g2)(g2 ^f2g2 | "F7"A6) (g2=f2A2 |1 "Bb"B4) (z2f2=e2f2 :|2 "Bb"B8) "d.C. al fine"z4 |]
+S:https://www.folktunefinder.com/tunes/19934
+S:http://trillian.mit.edu/~jc/music/abc/waltz/GertrudesTraum_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/GertrudesTraum_Bb.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

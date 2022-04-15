@@ -1,0 +1,37 @@
+X:1
+T:Ritournelles de Belleville
+C:Richard Lewis
+Z:Dave Holland <dave@biff.org.uk> from a PDF from Mike Gilpin
+M:3/4
+L:1/4
+K:D
+DFA|df/z/d|c3|B3|\
+A^GA|BA^G|=G3-|G3|
+GFG|A2B/c/|B3-|B3|\
+GFG|A2B/c/|B3-B3|
+DFA|df/z/d|c3|B3|\
+A^GA|BA^A|B3-|B3|
+B^AB|dcB|A^GA|BAF|\
+EFG|ABc|d3-|d3:|
+L:1/8
+K:Dm
+A^G AB AG|AB =Bc ^cd|_ed ^c=c =B_B|A6|
+A^G AB AG|AB =Bc ^cd|e6-|e6|
+ef gf ef|gf ef gf|ef gf ef|e6|
+ef gf ed|^cd ed cd|^c6-c6|
+A^G AB AG|AB =Bc ^cd|_ed ^c=c =B_B|A6|
+A^G AB AG|AB =Bc ^cd|e6-|e6|
+d^c de fe|d^c de fe|d^c de fe|d6|
+ba _ag ^f=f|e_e d^c =c^c|d6|d2 z2 z2|]
+S:https://www.folktunefinder.com/tunes/52014
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

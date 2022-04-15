@@ -1,0 +1,33 @@
+X: 131
+T: Hora Din Goicesti
+O: Romania
+S: Gypsy Camp volume 2
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P:AABBCC
+K: CPhr 
+%%MIDI program 75
+P:A
+  F=EDC |DCD=E|FDB,2|B,2z2   |\
+  F=EDC |DCD=E|FDB,2|B,2z2   |
+  B,CDB,|CD=EC|D=EFD|=EFGE   |\
+  BAGF  |GF=ED|=EDC2|C2z2    |
+P:B
+|:z2=EF |G2C2 |G3F  |=EFG2   |\
+  BAAG  |GF=EF|=EDC2|C2z2    :|
+P:C
+|:B3B   |BAAG |FGAG |B2A2    |\
+  BAAG  |GF=EF|=EDC2|[1C=EG2 :|[2C2z2|
+S:https://www.folktunefinder.com/tunes/68017
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

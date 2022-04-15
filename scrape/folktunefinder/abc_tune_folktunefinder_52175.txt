@@ -1,0 +1,28 @@
+X: 104
+T:The LNB Polka
+M:2/2
+L:1/8
+Q:1/8=200
+K:D
+"D"d2 A2 "Am"=c3 B | "D"A2 F2 "G"G2 FG | "D"A2 B2 "D"ABAG |
+"D"F2 A2 "Em"E4 |"D"d2 A2 "Am"=c3 B | "D"A2 F2 "G"G2 FG |
+"D"A2 B2 "D"ABAG | "D"F2 E2 "D"D4 |"D"d2 A2 "Am"=c3 B |
+"D"A2 F2 "G"G2 FG | "D"A2 B2 "D"ABAG | "D"F2 A2 "Em"E4 |
+"D"d2 A2 "Am"=c3 B | "D"A2 F2 "G"G2 FG | "D"A2 B2 "D"ABAG |
+"D"F2 E2 "D"D2 EF||
+"Em"G2 E2 "Em"BGEB | "Em"GE B2 "G"B2 AG | "D"F2 D2 "D"AFDA |
+"D"FD A2 "D"A2 GF |"Em"G2 E2 "Em"BGEB | "Em"GE B2 "G"B2 AG |
+"D"A2 B2 "D"ABAG | "D"F2 E2 "D"D2 |"Em"EF | "Em"G2 E2 "Em"BGEB |
+"Em"GE B2 "G"B2 AG | "D"F2 D2 "D"AFDA | "D"FD A2 "D"A2 GF |
+"Em"G2 E2 "Em"BGEB | "Em"GE B2 "G"B2 AG | "D"A2 B2 "D"ABAG |
+"D"F2 E2 "D"D4||
+S:https://www.folktunefinder.com/tunes/52175
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

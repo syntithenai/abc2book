@@ -1,0 +1,40 @@
+X: 1
+T: the Farewell
+C: William Marshall
+R: air
+O:
+B: Wm. Marshall "Volume 2nd of a Collection of Scottish Melodies Reels & Strathspeys",  1845
+N: Published posthumously
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+|: (F>G) \
+| "D"(A3G) "A7"(F3{F}E) | "D"(DFAd) f3d \
+| "A"(eAef) {a}g2fg | "E#(m)"{f}e2T(EF) "A7"E2(~FG) \
+| "D"(A3{A}G) "A7"(F3{F}E) |
+| "E"((3DFA) ((3dfa) "A7"{a}g2fe \
+|1 "D"(e{fe}d)cB "A7"(Ac)de | "D"{de}f2d2 d2 \
+:|2 "Em"(e{fe}d)cB "A7"(B{cB}A)GF | "D"{F}A2D2 D2 |]
+|: f>g \
+| "D"a3d f3a | ({c}d3{edcd}e) (f3d) \
+| "A7"g3e "D"fagf | "A7"{f}e2TEF E2~fg \
+| "D"a2d2 (f/g/f/e/)dc | "G"(e{fe}d)cB (TBA)"D"{A}GF |
+| "G"(GB)"D"Ad "A7"(ce)(Ag) | "D"f2d2 d2fg \
+| "D"(a3d) (f3Tc) | d2"D7"D2 "G"(B{c}A)(GF) \
+| "D"(A,DFA) "E#7"(GBcd) |
+| "A7"{d}f3e e2(FG) \
+| "D"(A3{A}G) (F3{F}E) | ((3DFA) ((3dfa) "A7"{a}g2fe \
+| "Em"(e{fe}d)cB "A7"(B{cB}A)GF | "D"{F}A2D2 D2 |]
+S:https://www.folktunefinder.com/tunes/13180
+S:http://trillian.mit.edu/~jc/music/abc/air/Farewell_D.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:91
+T:Rozenwals
+C:Traditioneel
+O:Achtel, Vlaanderen
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:G
+P:Intro
+"G"D G B|B G B|"D"d c "G"B|!fermata!"D7"A3||
+P:A
+|:"G"D G B|B G B|(d d/^c/ d/e/|d B) z|"D"D F A|"D7"c3|(e d c| "G"B3)|
+"G"D G B|B G B|(d d/^c/ d/e/|d B) z|("C"Le c "D"A)|("G"Ld B G)|("D7"Lc A F)|"G"G3:|
+P:B
+"G"B G E|(D D/)F/ A/B/|"D"!tenuto!c !tenuto!c !tenuto!c|"D7"Lc3|\
+"D"c A F|"D7"(D D/)F/ A/c/|"G"!tenuto!B !tenuto!B !tenuto!B|LB3|
+D G B|D3|"Am"E A c|E2 F/E/|"D"D F A|[1"D7"c2 e|e d c|"G"B3:|\
+[2"D7"c B A|"G"G/F/ G/B/ "D7"A/F/|"G"G3||
+P:C
+|:("G"d>e d/c/|B3)|("D"c>d c/B/|"D7"A3)|\
+"D"D F A|"D7"Lc2 e/e/|.e .d .c|"G"!tenuto!B2 D|
+(D G B)|("E7"e d B)|("Am"d c A)|E2 (F/E/|"D"D) F A|"D7"c B A|\
+[1"G"d d d|"D"d3:|[2"G"G B "D7"A|"G"G3 !D.C.!|]
+S:https://www.folktunefinder.com/tunes/75787
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Wals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

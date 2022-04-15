@@ -1,0 +1,20 @@
+X: 1
+T: 72nd's Farewell To Aberdeen
+M: 4/4
+L: 1/8
+R: barndance
+K: Cmaj
+|: e|{g}A{Gdc}d{gdc}d{g}e3/4f/4|g3/4f/4{g}e3/4d/4{g}f2|{gf}gB{GdGe}B{g}c3/4d/4| {g}e3/4f/4{g}e3/4c/4{g}A2|
+{g}A{Gdc}d{gdc}d{g}e3/4f/4|g3/4f/4{g}e3/4d/4{g}f2| {gf}gB/4{G}B3/4{g}f3/4e/4{g}d3/4c/4|{Gdc}d2{gdc}d:|
+|:{gf}g| {ag}aA{GdGe}A{d}c|{gBd}B{e}G{g}A2|{g}A{Gdc}d{g}A{Gdc}d| {g}e3/4d/4{gcd}c3/4B/4{g}A{gf}g|
+{ag}aA{GdGe}A{d}c|{gBd}B{e}G{g}A2| {g}A{Gdc}d{g}f3/4e/4{g}d3/4c/4|{Gdc}d2{gdc}d:|
+S:https://www.folktunefinder.com/tunes/57331
+S:http://www.thesession.org/tunes/display/6970
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

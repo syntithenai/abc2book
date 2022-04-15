@@ -1,0 +1,27 @@
+X: 3
+T: Yismechu hashamayim [F#m]
+O: Trad Hassidic
+M: C
+L: 1/8
+K: F#m
+"A"\
+|: "F#m"FF CF A2 "C#7"G2 | "F#m"F6 "E7"z2 \
+| "A"AA EA c2  "E7"B2 | "A"A6 z2 \
+| "A"cc Ac e2 "F#7"dc | "Bm"B4 f3 A \
+| "F#m"cB BA "C#7"AG GF |1 "F#m"A6 z2 :|2 "F#m"F6 Hz2 :|
+"B"\
+|: "F#m"AB "Bm"BA "F#m"A4 | "F#m"AB "Bm"BA "F#m"A4 \
+|  "F#m"AB "Bm"BA "F#m"AG GF |1 "F#m"A2 "Bm"B2 "C#7"c4 :|2 "F#m"A2 "C#7"G2 "F#m"F4 |]
+"C"\
+|: "A"cd "E7"dc "A"c4 | "A"cd "E7"dc "A"c4 \
+|  "A"cd "E7"dc "A"cB BA |1 "A"c2 "E7"d2 "A"e4 :|2 "A"c2 "E"B2 "F#m"A2 "C#7"G2 "d.C."|]
+%%text Sometimes ends with another part B.
+S:https://www.folktunefinder.com/tunes/6557
+S:http://trillian.mit.edu/~jc/music/abc/Israel/YismechuHashamayimSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/YismechuHashamayimTune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

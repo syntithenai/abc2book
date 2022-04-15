@@ -1,0 +1,27 @@
+X:7453
+T:The Wedding Jig
+O:england
+M:6/8
+L:1/8
+S:Altan, The Red Crow
+R:jig
+K:G
+G2 B, G,A,B, | DEF G2 E | EB,E G2 A | BGE E2 F |
+G2 B, G,A,B, | DEF G2  E| DA,D F2 d | AFD DEF :||:
+GAG {A}GFG | ABA {B}AGA | BGB GBc | def ~g3  |
+ded {e}dcB | ~c3  {d}cAG | FGA {d}BAG |1 FGE DEF :|2 FGE DB^c ||:
+{e}d^ce d^ce | dAF G2 E | EB,E G2 A | BGE EB^c |
+{e}d^ce d^ce | dAF G2 E | DA,D F2 d |1 AFD DB^c :||2 AFD DEF ||
+S:https://www.folktunefinder.com/tunes/27905
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

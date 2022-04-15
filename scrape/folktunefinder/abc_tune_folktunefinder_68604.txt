@@ -1,0 +1,27 @@
+X:58
+T: Malers Toechterlein
+N: A0058
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie aus den Reutterliedlein 1535 No. 12. Von Boehme in einen
+N: 3/2-Takt gesetzt.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | G4A2 | B2c4 | B2A4 | G4
+G2 | d2A4 | d4^c2 | d6 | z4
+d2 | c4A2 | B4c2 | d6 | c4
+BA | G4G2 | A3Bc2 | d6
+d2c2BA | G2ABcd | e2d3B | c2A4 | G4
+S:https://www.folktunefinder.com/tunes/68604
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

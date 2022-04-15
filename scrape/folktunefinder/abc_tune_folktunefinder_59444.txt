@@ -1,0 +1,24 @@
+X:557
+T:Nin como nin vivo
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Asturias, canciones
+M:3/8
+L:1/8
+Q:3/8=70
+K:C
+|A2 B|c2 A|B2 c|(B>A^G)|A2 B|G2 E|D2 E|E2 E|
+A2 B|c2 A|B2 c|(B>A^G)|A2 B|G2 E|D2 E|EEE|
+AAB|GGG|EDF|E2 E|AAB|GGF|EDF|E2 z||
+S:https://www.folktunefinder.com/tunes/59444
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

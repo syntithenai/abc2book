@@ -1,0 +1,29 @@
+X: 1
+T: Sl\"angpolska etter Tone Hulb\aekmo
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+g \
+| "G"ba g3 f \
+| "C"ed c3 B \
+| "D7"AF DF Ac \
+|1,3 "G"(3BdB GB d \
+:|2,4 (3BdB "G"G3 :: D \
+| "G"GB d2 BG |
+| "D7"Fz F3 D \
+| FA c3 B \
+| "G"Gz G3 D \
+| "G"GB d3 d \
+| "C"ed cB cB \
+| "D7"Ag fd fa \
+| a{ba}f "G"g3 :|
+S:https://www.folktunefinder.com/tunes/16543
+S:http://trillian.mit.edu/~jc/music/abc/pols/SlangPolska3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SlangPolska3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

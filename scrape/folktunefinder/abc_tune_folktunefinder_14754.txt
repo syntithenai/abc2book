@@ -1,0 +1,43 @@
+X:1
+T:Nellie The Elephant
+R:Jig
+C:Ralph Butler, Peter Hart (1956)
+F:http://hardy.demon.co.uk/pgh_session_tunebook.abc (disappeared in April 2008)
+M:6/8
+L:1/8
+P:A1A2BA2
+K:Gm
+K:G
+z \
+| "G"Bcd "D7"cBA | "G"B2c d2d \
+| "C"e2e gfe | "G"d3 B3 \
+| "Am"c2c "D7"AAA | "G"ddd B3 \
+|1 "A7"A3 A3 | "D"d3 "D7"z2c \
+:|2 "C"e3 "D"F3 | "G"G3 "fine"z2 ||
+"C"\
+G \
+| "C"Gce g2e | "G"g3 d3 \
+| "C"e3 "D7"d2c | "G"B3-B2B \
+| "A"A2B ^cBA | "D"d2e ffg \
+| "A"a2g f2e | "D7"d3 cBA ||
+||"G"Bcd "D7"cBA | "G"B2B d2d \
+| "C"e2e gfe | "G"d3 B3 \
+| "Am"c2c "D7"AAA | "G"ddd B3 \
+| "C"e3 "D"F3 | "G"G3 "d.C."z3 |]
+S:https://www.folktunefinder.com/tunes/14754
+S:http://hardy.demon.co.uk/pgh_session_tunebook.abc
+S:http://hardy.demon.co.uk/pgh_session_tunebook.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/NellieTheElephant_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/NellieTheElephant_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NellieTheElephant_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/NellieTheElephant_G32.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

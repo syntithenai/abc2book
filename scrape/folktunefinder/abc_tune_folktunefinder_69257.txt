@@ -1,0 +1,23 @@
+X:398
+T: "Die Rosen"
+N: Z1078
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: C
+G2 | c2G2E2G2 | c3Bcc
+d2 | e2c2B3A | A4G2
+G2 | A2G2AGFE | E2F2G2
+G2 | c2c2e2c2 | B4c2
+S:https://www.folktunefinder.com/tunes/69257
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

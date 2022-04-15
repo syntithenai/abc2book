@@ -1,0 +1,37 @@
+X:948
+T:Aada (CT 139)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Cuna (Aada), transcrita en Navia.
+O:Navia
+A:Asturies
+Z:Cancioneru de Torner 139
+M:6/8
+L:1/8
+Q:3/8=80
+W:Este nin
+W:que tengo nel collo
+W:e d'un amor
+W:que se l.lama Vitorio;
+W:Dios que mo deu,
+W:l.leveme llougo,
+W:por nun andar con Vitorio,
+W:nel collo.
+K:G
+GAB
+|c2 c cBA|B2 B GAB|ccc cBA|B2 B GAB|
+ccc B2A|B2 B GGG|AAA AGF|G3 G3-|G2 z||
+S:https://www.folktunefinder.com/tunes/1582
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

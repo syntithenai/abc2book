@@ -1,0 +1,26 @@
+X:4
+T:Jag \"ar Fattig (Hambo)
+T:"I am poor"
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach 5/30/03 from Andrea Hoag for NFF 2003
+M:3/4
+L:1/8
+%Q:1/4=160
+K:D
+P:A
+f>e d2b2|(a>d)f4|f>dA2g2|(3fgf e2-e(>f|g>f) (e>^d) e>f|
+(g>f) (e>^d) e>f|(g>f) (e>d) c>c|(3(BcB)A4|f>e d2b2|(a>d)f4|
+f>dA2g2|(3fgf e4|d>gb2b2|d>fa2a2|A>A B>A c>A|d2d4:|
+P:B
+f>e d2c2|B2F3F|B>A B>c d>e|eff4|uf>e d2c2|
+(3BcB F3F|B>A B>c d>e|eff4|d>gb2b2|d>fa2a2|
+A>A B>A c>A|d>d (3fdfa2|d>gb2b2|d>fa2a2|A>A B>A c>A|d2d4:|
+S:https://www.folktunefinder.com/tunes/62495
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003.abc
+% Rhythm Hambo
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

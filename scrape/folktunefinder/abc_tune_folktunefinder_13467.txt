@@ -1,0 +1,42 @@
+X: 1
+T: Auld Reekie Hornpipe
+C: Barbara McOwen 1992
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: C|
+L: 1/8
+K: Gm
+Bc \
+| "Gm"dcBA G2dc | BAGB cdd2 | "F"c2Ac f2cf | agfe "D7"dcBc |
+| "Gm"dcBA G2dc | BAGB "C7"cdd=e | "F"f2ag "Dm"f_edc | "Gm"d2G2 G2 |]
+[| ga \
+| "Gm"bB~B2 "D7"aA~A2 | "Gm"g2GA Bcd2 | "Am"=e2A=B cdeg | "D7"^fd~d2 fdfa |
+| "Gm"bB~B2 "D7"aA~A2 | "Gm"gaba gdBG | "F"F2ag "Dm"fedc | "Gm"d2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/13467
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/AuldReekieH_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Barbara_McOwen/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Barbara_McOwen/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/h16/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AuldReekieH_Gm-16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AuldReekieH_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AuldReekieH_16_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AuldReekieH_Gm-16.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:41
+T:Alborada del Paxarn (MG 30)
+R:Alborada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 30
+L:1/8
+Q:1/4=150
+E:Nivel 3
+K:C
+G6 ABc c2 d~ede f6 edfded f2 edcBAB c2 ~e2 dcBABc G2 cBAGFED C2 {D}CDEC 
+DEFDEF G2 cBAG FEDEFG E2 FEDC B,2 CDE F2 ED ~E2 DC ~D2 CB, C2 {F}ED C4|!
+[M:2/4]
+|:B,CB,C|~.D2 D~E|~.D2 D~E|~.D2 D~E|: DEDE|.D.DD~E :|
+|DEDE|.D2 ~D2|B,DB,D|~.E2 EF|~.E2 EF|~.E2 EF|~EFEF|.E.EEF|
+|EFEF|.E2 ~E2|B,CB,C|~.D2 D~E|.D2 D~E|.D2 DE|~DEDE|.D.DD~E|
+|DEDE|.D2 ~D2|B,DB,D|~E3 C|~DCDE|.FGFD|EDEF|~G3 E|
+|FEFG|~A3 F|~GFGA|BcBG|~AGAB|~c3 B|~AGAB|~c3 ~e|
+|c3 ~e|c3 ~e|c~ec~e|c3 d|B~dB~d|c3 ~e|c~ec~e|c3 d|Bd B/d/B/d/|
+|: c3 d|~e3 d|c3 d|~ed~ed :|
+|cB~AG|~AGAB|~c3 B|~AGAB|cB~AG|cB~AG|F3 ~A|F3 ~A|F3 ~A|
+|: FAFA|.F.FF~A :|FAFA|.E.EE~G|EGEG|.E.EE~G|EGEG|: .D.DD~G|DGD~G :|
+|: EEE~G|EGEG :|: .F.FF~A|FAFA :|: .E.EE~G|EGEG :|
+|D{C}D{C}D~G|.E.EE~G|.F.FF~A|.E.EE~A|.D.DD~G|.E.EE~A|.F.FF~G|.E.EE~G|
+|.D.DD~G|DGDG|C3 D|.E2 .D2|~D2 CD|~ED~E.D|~D2 CD|.E2 .D2|
+|~D2 CD|EGE.D|~D2 CD|.E2 .D2|~D2 CD|EDED|~D2 B,C|B,CDE|C4|
+c e2 f4 ~e2 ~d2 c2 B A B c B A B G A F G E F D E B, D C4 G2 c/4
+S:https://www.folktunefinder.com/tunes/58928
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:142
+T: Weh, Windgen, weh!
+N: A0507
+O: Europa, Mitteleuropa, Deutschland
+N: Scheidt, Orgeltabulatur 1624 I, 7.
+R: Romanze, Ballade, Lied, Kinderlied
+M: 4/4
+L: 1/8
+K: G
+d2d2d2e2 | d4B2A2 | B2d2c2B2 | A3Bc2
+B2 | A2G2F2G2 | A4
+D4 | G4A4 | B3cd2
+G2 | A2B2c2A2 | G8
+S:https://www.folktunefinder.com/tunes/80201
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kinderlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

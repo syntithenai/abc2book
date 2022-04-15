@@ -1,0 +1,28 @@
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS __-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+|: GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 ||
+|| ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+S:https://www.folktunefinder.com/tunes/18312
+S:http://trillian.mit.edu/~jc/music/abc/reel/WillieBrewedAPeckOMaut.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/WillieBrewedAPeckOMaut.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WillieBrewedAPeckOMaut.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/WillieBrewedAPeckOMaut.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/WillieBrewedAPeckOMaut.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

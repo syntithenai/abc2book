@@ -1,0 +1,26 @@
+X: 1
+T: the Curly-Headed Ploughboy
+M: C|
+L: 1/8
+K: G
+"A"|: d>c \
+| "G"B2d2 G2B2 | "C"E4 "G"D2G2 \
+| "D7"FGAB c2B2 | "G"BdcB "D7"A2d>c \
+| "G"B2d2 G2B2 | "C"E4 "G"D2G2 \
+| "D7"FGAB c2F2 | "G"G6 :|
+K: D
+"B"|: d2 \
+| "A7"c2c2 cABc | "D"d2d2 d2ed | "A7"c2c2 cABc | "D"d6 ed \
+| "A7"c2c2 cABc | "D"d2A2 "G"B2G2 | "A7"F2E2 A2C2 | "D"D6 :|
+S:https://www.folktunefinder.com/tunes/15394
+S:http://trillian.mit.edu/~jc/music/abc/march/CurlyHeadedPloughboy_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/CurlyHeadedPloughboy_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/march/CurlyHeadedPloughboy_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

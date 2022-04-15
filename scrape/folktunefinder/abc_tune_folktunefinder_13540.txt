@@ -1,0 +1,24 @@
+X: 1
+T: Edward Jay's Jaunt
+C: Angus Fitchet
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+|: d2 \
+| "G"g2dB GBdg | "Am"a2A2 A2ag | "D7"f2fe defd | "G"gfga b2d2 |
+| "G"g2dB GBdg | "Am"a2A2 A2ag | "D7"f2fe dcBA | "G"B2G2 G2 :|
+|: dc \
+| "G"B2g2 g2dB | "Am"c2A2 A2ed | "A7"^c2a2 abag | "D7"f2d2 d2dc |
+| "G"BGBd gagf |  "C"eceg a2fe | "D7"d2de  fdef |  "G"g2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/13540
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/EdwardJaysJaunt_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/EdwardJaysJaunt_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/EdwardJaysJaunt_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: den Toppede H\one
+T: the Crested Hen
+T: Bondepigen
+O: Denmark
+B: Danske Folkedansemelodier #4
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"a2a2 fdfa | fdfa "A7"age2 | "D"a2a2 fdfa | "A7"agec "D"d4 :|
+:: "D"f2f2 "Bm"dcB2 | "Em"g2g2 "A7"edc2 | "D"a2a2 fdfa | "A7"agec "D"d4 :|
+S:https://www.folktunefinder.com/tunes/15993
+S:http://trillian.mit.edu/~jc/music/abc/misc/ToppedeHone_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc/ToppedeHone_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/ToppedeHone_D.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

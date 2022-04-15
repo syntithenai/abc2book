@@ -1,0 +1,32 @@
+X:7958
+T:Waltz. CJF.240
+O:england
+M:3/8
+L:1/16
+Q:60
+C:"(from Watson)"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the title line "(from Watson)". - PJH.
+K:G
+D2|B3.A.G.F|.E.F.G.^G.A.B|(dc) F2F2|(GB) D2D2|\
+B3.A.G.F|.E.F.G.^G.A.B|(dc) F2F2|G4:||:B2|^ABBB^dB|
+e3fge|^GAAA^cA|d3efd|B3AGF|"p"EFG^GAB|(dc) F2F2|\
+G4:||:D2|D2G2B2|d4B2|A3{dc^Bc}Bcd|(^AB).G2 D2|
+D2G2B2|d4B2|"~"A3BcA|G4:||:"f"d2|(dc)A2 e2|(ed)B2 d2|\
+dcBced|d4D2|D2G2B2|d4B2|"~"A3BcA|G4:||
+S:https://www.folktunefinder.com/tunes/28410
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

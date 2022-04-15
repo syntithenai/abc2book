@@ -1,0 +1,42 @@
+X: 18
+T:Soldier ladie,The. JMP.018
+T:Soldier Laddie,aka. JMP.018
+M:6/8
+L:1/8
+Q:110
+C:"19"
+S:John Miller his book for the fife 1799
+R:March
+O:Scotland
+A:Perth
+N:This is marked as a quick step
+N:The name 'John Miller is written in the left hand margin
+N:1 - the first bar of the third line is marked with an asterix
+N:the words "the third is wrong" are written above and "put this bar in
+N:at the begining of the third line  John" written above and below the
+N:fourth line which has one bar on it.  A
+N:double bar line is at the end of the third line.  So that's what I've
+N:done.
+N:2 - In each of these bars the note duration is shown as three
+N:semiquavers
+N:%  marked as a triplet beamed with a quaver, then 3 quavers  eg :
+N:(3(c/d/e/)f gdB |
+H:1799
+Z:vmp.C. Graebe
+K:G major
+e | dBG GDE | ABA ABd |"2" (e/f/g)G GDE | GAG B2 G |!
+ cAc BGB | ABA ABd | "2"(e/f/g)G GDE |  GAG G2 :|!
+|:d| gag gdB | Aaa agf | def gdB |"1" gag gdB |!
+"2" (c/d/e)f gdB |  aAA ABc |\
+"2"(e/f/g)G GDE |  GAG G2 :|]
+S:https://www.folktunefinder.com/tunes/1955
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X: 1
+T: A Dance for Sylvia
+C: Bert Murray, 1998
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for the Stoner House.
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DB,G, B,DG \
+| B2B B2A \
+| GFE DCB, \
+| "Am"C3- C2B, \
+| "D7"A,B,C A,B,C \
+| F2F F2E \
+| D^CD ED=C \
+| "G"B,3- B,2E |
+| "G"DB,G, G,A,B, \
+| D2G G2A \
+| BcB BAG \
+| "C"E3- E2E \
+| c2c cBA \
+| "G"GFE D2B, \
+| "D7"DED CB,A, \
+| "G"G,3- G,2D ||
+|| "G"DGB dBG \
+| DGA BAG \
+| DGB dcB \
+| "Am"c3- c2B \
+| "D7"cBc A^GA \
+| F^EF D^CD \
+| DFA d_dc \
+| "G"B3- B2c |
+| "G"dBG DB,G, \
+| B,DG B2c \
+| "G7"d2d dcB \
+| "C"e3- e2f \
+| gfe dcB \
+| "Am"edc BAG \
+| "D7"ABc def \
+| "G"g3- g2 |]
+S:https://www.folktunefinder.com/tunes/14072
+S:http://trillian.mit.edu/~jc/music/abc/jig/DanceForSylviaJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DanceForSylviaJ.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DanceForSylviaJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

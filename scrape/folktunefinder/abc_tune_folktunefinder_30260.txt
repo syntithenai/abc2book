@@ -1,0 +1,26 @@
+X:0
+T:Fine Fishing Song from Haragama
+S:Patia Isaku, "Mountain Storm, Pine Breeze: Folk Song in Japan"
+N:the short lines are a shouted chorus
+M:2/4
+L:1/16
+K:F#Phr
+F4 G2B2|(c4 (3ded(3::2c2d|f4) d2f/d/c/d/|c4 B4|G2B/G/F/G/ F4|
+B4 B2 c/B/c|d4 (3cdcB2|F4 F2{GF}G>F|D2
+d2 d B d B|
+D4 F2GF|({G}B4 c2{dc}Bd)|(c4{dc} B2{cB}G2{FG}|B2cB) (G2{BG}FG)|F8-|F4
+D2F2|(^G8{AGFG})|(F3=G B2) B/c/B|(F4 {GF} D2{FD}C2{B,C})|B,2
+d2 d B d B|
+(B,4 C2) DC|(D2<<F2 G2FB)|(c2>>B2 d4)|
+(c3d/c/ (3BcB (3GFG|B2{c}B2) G2{FG}FG|F8-F8|]
+S:https://www.folktunefinder.com/tunes/30260
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

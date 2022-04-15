@@ -1,0 +1,24 @@
+X:271
+%%topmargin 3cm
+T:Peggy Menzies
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A dorian
+f | ~g2 dg Bgdg | ~g2 (dB) {cB}A2 (AB) | ~g2 dg gaba | {ef}ge{/^c}dB {=cB}A2 A ::
+B | {/^c}dGdB {/c}dGdg | {/^c}dGdB {=cB}A2 (AB) | {/^c}dGdB {ef}gaba | {ef}ge{/^c}dB {=cB}A2 A :|
+S:https://www.folktunefinder.com/tunes/71300
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Peggy_Menzies.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0271.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

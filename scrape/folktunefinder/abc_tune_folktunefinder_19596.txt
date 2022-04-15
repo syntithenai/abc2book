@@ -1,0 +1,30 @@
+X: 1
+T: Mrs. Scott Skinner
+R: strathspey
+C: J.S.Skinner
+B: Hunter #20; The Scottish Violinist, J.S.Skinner, p 17.
+N: Both Hunter and Skinner give a (slightly different) variation.
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+|: A2 | "D"D3F A3B BAGF {F}d3e | fedc {c}d2[F2D2]- "A7"[E4C4]- [E3C3]F \
+| "D"D3F A3B BAGF d2^G | Ad3 "A7"f3e "D"d6 :|
+[| fg | "D"a3f d3A "G"Bg3 ~g3B | "D"A2f2 {f}e2d2 "A7"e4- e2fg \
+| "D"a3f d3A "G"Bg3 ~g3[BG] | [A2F2][f2A2] "A7"[f2A2][e2G2] "D"[d4F4]- [d2F2]fg ||
+|| "D"^gaba f3d "G"B=g3 g3B | "D"A2f2 {f}e2d2 "A7"e2c2 A3G \
+| "D"FEFG A3^A B=AGF d3^G | Ad3 "A7"[f3A3][eG] "D"[d4F4]- [d2F2] |]
+S:https://www.folktunefinder.com/tunes/19596
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsScottSkinner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MrsScottSkinner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsScottSkinner.abc
+S:http://trillian.mit.edu/~jc/music/book/500/MrsScottSkinner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

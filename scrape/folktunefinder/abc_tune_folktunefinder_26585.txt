@@ -1,0 +1,35 @@
+X:6133
+T:Snow Drift Gallop. GHW.037
+T:Jingle Bells,aka. GHW.037
+O:england
+M:2/4
+L:1/8
+Q:250
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Galop
+A:Norfolk
+N:Coda written above first bar of 'C' music. DC at end.
+K:G
+D|(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|F2 z F|F(ed)>c|B3 D|
+(DBAG)|D2 z D|DBAG|E2 z E|EcBA|Bed>B|edcA|1 G2 G:|2 G2B z||
+(3(BBB) B>B|d>d d>d|B>B e>e|^d4|(e>Bc>e)|(d>BG>B)|(A>cB>A)| B4|
+(3(BBB) B>B|d>d d>d|B>B e>e|^d4|(e>Bc>e)|(d>BG>B)|(A>cB>A)|1 G2 Gz:|2 G2
+G D|
+(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|F2 z F|F(ed)>c|B3 D|
+(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|Bed>B|(edcA)|G2||
+G2|G2E2|G2c2| e3 d|c3B|A3B|(dcBA)|(G4|G2) G2|
+(F3E)|(F2G2)|(F2E2)|(c3B)|(A3 d)|(d3c)|(cBAG)|(^FGAG)|
+G2E2|G2c2| e3 d|c3B|A3B|dcBA|(G4|G2) G2|
+(F3E)|(F2G2)|(F2E2)|
+c3 c|(d2A2)|(cBAB)|c4|[c2E2] z||
+S:https://www.folktunefinder.com/tunes/26585
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Galop
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

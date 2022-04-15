@@ -1,0 +1,22 @@
+X:4607
+T:New Rigged Ship, The
+O:england
+C:Scottish Jig
+M:6/8
+L:1/8
+K:C
+G2|"C"c3 c2e|"C"c3 c2e|"G"dBG GBd|"G"dBG GAB|
+"C"c3 c2e|"C"cBc "G"dBG|"F"ABc "G"dBG|"C"c3 c2:||
+ef|"C"g2e {e}g2e|"C"c2c ceg|"F"a2f a2f|"G"d2d def|
+"C"g2e g2e|"C"c2c "G"dBG|"F"ABc "G"dBG|"C"c3 -c2e/f/|
+"C"gfe gfe|"C"cdc ceg|"F"agf agf|"G"ded def|
+"C"gfe gfe|"C"cdc "G"dBG|"F"ABc "G"dBG|"C"c3 c2||
+S:https://www.folktunefinder.com/tunes/25059
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

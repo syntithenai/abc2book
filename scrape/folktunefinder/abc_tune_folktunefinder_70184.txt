@@ -1,0 +1,28 @@
+X:54
+T: Weihnachtslied, S. 19f
+N: L0015
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: geistliches, religi\^ises Lied]
+M: 3/4
+L: 1/4
+K: F
+ | _A3 | G2_A | FEC | F2G | _A3
+A3 | G2_A | FEC | F2G | _A2z
+A3 | G2_A | F3 | GFE | F2z
+_A3 | c2B | c3
+_A3 | c2B | c3
+cBc | _AGF | GFE | F2z
+S:https://www.folktunefinder.com/tunes/70184
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches, religi%C3%AEses lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 3
+T: Arnes Polka
+C: Arne Jornegsen
+O: Denmark
+S: Harald Haugaard
+N: from a handwritten MS
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"A2ff f2f2 | "G"B2gg g2Bc |
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"fga[bg] [c'f][ad][ge]f | "G"g2g2 "fine"g2 :|
+|: g2 \
+| "C"eccG G2e2 | "G"dBBG D2d2 \
+| "D7"cAAF D2F2 | "G"GFGA B2G2 |
+| "C"EGcG EGcG | "G"DGBG DGBG \
+| "D7"FGAB cAFA | "G"G2G2 G2 :|[K:C=f]
+|: "C"[E2C2][E2C2] [E4C4] | "F"[F2A,2][F2A,2] [F4A,4] \
+| "G7"G2BA GFED |1-3 "C"CDEF G2G,2 :|4 "C"[E2C2][E2C2] [E4C4] |]
+S:https://www.folktunefinder.com/tunes/410
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

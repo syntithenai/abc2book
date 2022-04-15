@@ -1,0 +1,32 @@
+X: 237
+T:Waltz. CJF.237
+M:3/4
+L:1/8
+Q:120
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Written after the tune is "1833". I have added the rests at the end of
+N:each section. - PJH
+Z:vmp.P J Headford 2000
+K:G
+D|GFGABc|e>dB2B2|d>BA2A2|c>BG2D2|!
+GFGABc|e>dB2B2|d>cA2F2|G4z:|!
+|:d|efagfe|e>dB2B2|d>cA2A2|d>BG2z2|!
+efagfe|e>dB2B2|d>cA2F2|G4z:|!
+|:D|GFGABc|d2g2g2|c2a2a2|B2g2g2|!
+GFGABc|d2g2g2|c2a2f2|g4z:|]
+S:https://www.folktunefinder.com/tunes/49792
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 10
+T:Blakney. WCl.10
+M:C|
+L:1/8
+Q:140
+S:William Clarke MS,Lincoln,1770.
+R:Country Dance.
+O:Lincoln
+A:England
+N:Barry had this as a reel, but I've ascribed it to the unsatisfactoy
+N:group of Country Dance., which I suppose ought really to be "Country Dan
+N:". It
+N:is a large group and contains many tunes later to become well-known as
+N:Polka tunes..CGP..
+Z:vmp.Barry Callaghan
+K:C
+cdcG cdcG|AGFE FD-D2|cdcG cdcG|GFED EC-C2:|!
+|:gage fgfd|efec Bd-d2|gage fgfd|egdg ec c2:|!
+|:cBAG AGFE|FEDC B,D-D2|cBAG AGFE|FEGF EC-C2:|]
+S:https://www.folktunefinder.com/tunes/40766
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Country dance.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

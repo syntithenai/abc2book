@@ -1,0 +1,22 @@
+X: 1
+T: Duncan MacGillvray Chief Steward
+C: Jim MacGillvray
+B: Susie Petrov Her Book of Musick
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2d A>df | "A"e>fd e>cA |1,3 "D"f2g "Bm"a>fd | "Em"f<gf "A"e2 \
+                            :|2,4 "D"f2g     a>fd | "A7"f<ge "D"d2 :|
+|: A \
+| "A"e2A "D"f2A | "A"g2g gfe |1,3 "D"f2g  "Bm"a>fd | "Em"f<gf "A"e2 \
+                            :|2,4 "D"f2g      a>fd | "A7"f<ge "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14132
+S:http://trillian.mit.edu/~jc/music/abc/jig/DuncanMacGillvray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DuncanMacGillvray_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:18017
+T:Rule Britannia
+R:March
+C:Thomas Augustine Arne (1740)
+N:Words by James Thomson (1700-48)
+O:England
+M:4/4
+L:1/8
+Q:1/4=100
+K:D
+A|"D"d2d2 (d/2e/2f/2g/2) ad|"A"e3 (f/2g/2) "D"f2 z A|
+("D"d/2e/2d/2e/2) (f/2 g/2f/2g/2) "A"aefe|"D"de/2f/2 ed "A"c3 A|
+"A"cAeA a^g/2f/2 e/2d/2c/2B/2|"D"A2 B>A A2 z2|
+"D"d2 d>A "G"BG z d|"G"g>fed "A"c2 z A|
+"D"a2g2 f/2d/2g/2e/2 ag|"A"f2 e/f/e/d/ "D"d4|
+"D"f2 z f gg z f|"Em"g>fe>d "A"c4|
+"D"a2g2 f/2d/2g/2e/2 ag|"A"f2 e/f/e/d/ "D"d4|]
+S:https://www.folktunefinder.com/tunes/51308
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

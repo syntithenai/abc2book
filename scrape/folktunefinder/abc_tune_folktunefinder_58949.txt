@@ -1,0 +1,30 @@
+X:62
+T:Aada (JHM 004) (Arrg.)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 004
+M:6/8
+L:1/8
+Q:3/8=72
+K:G
+GAB|"Am7"c2 c "D7"cBA|"G"B2 B GAB|"Am7"ccc "D7"cBA|"G"B2 B GAB|
+"Am7"ccc "D7"B2 A|"G"B2 B GGG|"C"AAA "D7"AGF|"G"G3 G3-|G2 z4||
+W:Este nin que tengo nel collo
+W:e d'un amor que se t.sama Vitorio;
+W:Dios que modeu, t.seveme llougo 
+W:por non andar con Vitorio nel collo.
+W:
+S:https://www.folktunefinder.com/tunes/58949
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

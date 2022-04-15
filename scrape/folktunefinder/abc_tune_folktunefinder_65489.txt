@@ -1,0 +1,20 @@
+X: 149
+T:Johnny MacGill
+% Nottingham Music Database
+S:Athole p 141, via EF
+M:6/8
+K:F
+P:A
+|:d|"F"cAA AGF|"F"cAA A2d|"F"cAA "C"AGA|"Dm"FDD "C7"D2d|
+"F"cAA AGF|"F"cAA AGF|"Gm"G3 "A7"AGA|[1"Dm"FDD D2:|[2 "Dm" FDD D3
+|:"Dm"f3 "C/e"g3|"F"afd "F"cAF|"Dm"f3 "C"g3|"Dm"afd "C"dfg|
+"F"afa "C"geg|"Dm"fde "C""Bb"f2d|"F"cAF "A7""C/e"G2A|"Dm"FDD D3:|
+S:https://www.folktunefinder.com/tunes/65489
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

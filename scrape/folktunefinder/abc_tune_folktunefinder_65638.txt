@@ -1,0 +1,19 @@
+X:85
+T:Earl's Chair
+Z: id:dc-reel-81
+M:C
+L:1/8
+K:D Major
+A|B2dA BAFA|B2dA BAFB|AFF2 DFF2|BAdA BDFA|!
+B2dA BAFA|B2dA BAFB|A3B defd|edef d3:|!
+f|e3f d3f|edef dBA2|e3f d3e|fedB ADFA|!
+e2df eBB2|gBB2 defg|afbf afde|fedB ADF:|!
+S:https://www.folktunefinder.com/tunes/65638
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

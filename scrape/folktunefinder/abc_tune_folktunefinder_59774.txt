@@ -1,0 +1,38 @@
+X:887
+T:Xiraldilla (CT 394)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 394
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|d3 c|A2 cd|e2 d2|B2 z2|
+dd/d/ de|dB cd|e2 d2|A2 z2|
+f2 f>f|g2 fe|de dc|B2 ||
+W:Ai! Ins,
+W:qu bonita es,
+W:que disimuladito
+W:tiene su querer.
+W:
+W:Ai! vida ma,
+W:que as debe de ser.
+W:
+S:https://www.folktunefinder.com/tunes/59774
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

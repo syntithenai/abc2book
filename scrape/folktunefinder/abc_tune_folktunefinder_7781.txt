@@ -1,0 +1,25 @@
+X: 1
+T: Katinka
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+| "Dm"A,2 DF | A2 BA | "A7"A2 GE | ^C4 \
+| A,2 ^CE | G4 | "Dm"A,2 DF | A4 |
+| "Dm"A,2 DF | A2 BA | "A7"A2 GE | ^C4 \
+| A,2 ^CE | G2 FE | "Dm"D2- "Gm"D2- | "D7"DA Bc |
+| "Gm"d2 cB | d2 cB | d2 cB | "Dm"A4 \
+| "A7"B2 AG | B2 AG | "Dm"A>F- Fz | "A7"G>E- Ez |
+| "Dm"A,2 DF | A2 BA | "A7"A2 GE | ^C4 \
+| A,2 ^CE | G2 FE | "Dm"D2- "Gm"D2- | "Dm"D2 z2 |]
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7781
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Katinka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

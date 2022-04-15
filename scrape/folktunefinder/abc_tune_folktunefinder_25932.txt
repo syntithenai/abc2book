@@ -1,0 +1,27 @@
+X:5480
+T:Reel Beatrice
+O:england
+M:4/4
+L:1/8
+S:From Liz Carroll
+R:Reel
+K:GMin
+G,A, |: B,2G,B, DG,B,D | GDDC D2GA | B2GB dGBd | gddc d2ga |
+bagf edcB | AccB ~c3e | ~d3e dcBA |1 B2AB G2G,A, :|2 B2AB G3^f |:
+~g2^fg a~e3 | edcd g~d3 | dcde dcBA | B2AB GABd |
+g2^fg a~e3 | edcd g~d3 | dcde dcBA |1 B2AB G3^f :|2 G3G, G,3A |:
+BF F/2F/2F DFBd | BF F/2F/2F DFBd | cA A/2A/2A FAcA | Bbag fedc |
+BF F/2F/2F DFBd | BF F/2F/2F DFBd | cA A/2A/2A FAcA |1 B2Ac B2 (3FGA :|
+2 B2Ac B2G,A,||
+S:https://www.folktunefinder.com/tunes/25932
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

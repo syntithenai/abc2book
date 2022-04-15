@@ -1,0 +1,31 @@
+X:16914
+T:The Kyle of Sutherland
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+N:Named by GS's son George MacLennan
+C:Pipe Major George S. McLennan
+S:Gordon Highlanders Pipe Music Collection volume II
+B:NLS Mus.D.s.19
+R:Slow Air
+M:6/8
+L:1/8
+Q:3/8=36
+K:Hp
+{gBd}B>A{e}G      d<{e}Bd|{g}e<gf {gef}e2d|{gBd}B>A{e}G      d<{e}Bd|  {g}e2d {GBG}A3 |
+{gBd}B>A{e}G      d<{e}Bd|{g}e<gf {gef}e2d|{gef}e>Bd    {gef}e2d    |{GBG}A>BA  {e}G3:|
+     e<{g}Bd {gef}e2d    |{g}e<gf {gef}e2d|     e<{g}Bd {gef}e2d    |  {g}e2d {GBG}A3 |
+     e<{g}Bd {gef}e2d    |{g}e<gf {gef}e2d|     e>{g}Bd {gef}e2d    |{GBG}A>BA  {e}G3:|
+S:https://www.folktunefinder.com/tunes/38285
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

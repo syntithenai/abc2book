@@ -1,0 +1,24 @@
+X:117
+T: Die schoene Pfarrkoechin
+N: A0474
+O: Europa, Mitteleuropa, Deutschland
+N: Forster V 1556 No. 36.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+ |  |  |  | G2G2_B2B2 | G4=F2
+F2 | _B2B2c2c2 | d4z2
+g2 | =f3d_e2c2 | d4z2
+d2 | d2d2=f2_B2 | d4c2
+_B2 | A2G2G2F2 | G8
+S:https://www.folktunefinder.com/tunes/80176
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

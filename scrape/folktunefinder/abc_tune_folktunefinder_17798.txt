@@ -1,0 +1,29 @@
+X: 4
+T:Old John Tate
+M:C
+L:1/8
+Q:200
+S:from Vivian Williams Workshop in Ellensburg WA
+R:Reel
+N:from Glen Berry
+Z:William C. Dunlap  2001-01-17
+K:Am
+"Am"e2a2a3g| a2g2 edcA|cdcA "G"BcBG|"Am"AcBG AG E2|
+"Am"e2a2a3g| a2g2 edcA|cdcA "G"BcBG|"Am"AGEG A4:|
+|:"Am"((3AGFE2) E4|A2 AB cd e2|((3AGFE2) E4|"E"AcBG A2A2|
+"Am"((3AGFE2) E4|A2 AB cBcd|e2d2~c2 Ac|"Em"BAGB "Am"A4:|
+S:https://www.folktunefinder.com/tunes/17798
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldJohnTate.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OldJohnTate.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BillDunlap/OldJohnTate.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

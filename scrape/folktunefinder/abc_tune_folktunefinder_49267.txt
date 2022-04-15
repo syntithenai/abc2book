@@ -1,0 +1,31 @@
+X: 61
+T:Portens nant Sarah
+M:3/4
+L:1/4
+S:Wright 1713
+H:Appears to be marked in 4 bar phrases, which means bar 14 is an error
+H:and should be omitted. Also there msut be a bar missing at 40 (dAE).
+H:Altogether rather unsatisfying. There also seems to be a bar missing
+H:after 44(ECE). your on your own here.
+Z:ps
+K:D
+A>GF|ECE|DFA|D2B|D/E/F/G/A|ECE|D/E/F/A/d/A/|F2B|A/B/A/G/F/d/|ECE|D/E/F/D
+/ F|E/F/G/E/G|D/E/F/D/F |D/E/F/D/F|E/F/G/E/|Bfa|a2a|d/e/f/g/a/f/|c/d/e/f
+/g
+/e/|d/e/f/g/a/b/|a2g|a/g/f/g/a/f/|g/f/e/f/g/e/|a/g/a/g/a/b/|a/g/f/g/a/f/
+|g/a/b/a/g/f/|g/f/e/d/c|d>cB|A>GF|G>AG|ECE|DAF|DcB|DAF|ECE|DAF|dAB|AGF|E
+CE|dAD|dAF|dAE|d/c/B/A/F|d/c/B/A/E|d/c/B/A/D|d/c/d/c/d/e/|d/c/B/A/G/F/|E
+B
+A|A2G|FA2|CE2|FA2|A2G|F3/2F/4G/4A|ECE||
+S:https://www.folktunefinder.com/tunes/49267
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

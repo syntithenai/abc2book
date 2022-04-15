@@ -1,0 +1,24 @@
+X: 1
+T:Pat Hogan's #1
+M:4/4/
+L:1/4
+Q:120
+R:March
+K:Em
+"Em"B2 B>A|"D"FADA|"Em"B2B>A|Bd"D"ed|
+"Em"B2 B>A|"D"FAD>E|FDAF|'"Em"E2-E2::
+"Em"Bee>f|edBA|Bee>f|edBc|
+"G"d>edB|"D"AFD>E|FDAF|"Em"E2-E2:|
+S:https://www.folktunefinder.com/tunes/50509
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

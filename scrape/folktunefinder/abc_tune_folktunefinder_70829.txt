@@ -1,0 +1,26 @@
+X:082
+%%topmargin 3cm
+T:Mr. Joseph Bank
+C:Arranged by Mr. W. Martin
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+F | ~EDCD E<A,A,>A | GBAc B<EE>d | (cB/2A/2) e>A f>Ag>A | (a/2g/2f/2e/2) a>e c<A A::
+a | (a/2g/2f/2e/2) ce Ae ce | (a/2g/2f/2e/2) df Bf df | (a/2g/2f/2e/2) ce Ae ce | a2 ec cA A:|
+W:I am indebted to Mr. William Marting for this excellent old tune which is now
+W:published for the first time so far as known.
+S:https://www.folktunefinder.com/tunes/70829
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Mr_Joseph_Bank.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

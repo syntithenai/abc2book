@@ -1,0 +1,22 @@
+X: 1
+T: Grittenfeldt
+T: Reinlender av \AAnon Egeland
+C: \AAnon Egeland
+R: shottish
+S: as played by Olov Johansson
+Z: 2005 John Chambers from MS by Elizabeth Weiss
+M: 2/4
+L: 1/16
+K: A
+|: ABcd ee=ge | feec A2Ac | B2=G2 G2Bd |1,3 c2A2 A3E :|2,4 c2A2 A4 :|
+|: a2a2 a2ba | g2e2 e3f |1,3 edcB cdfa | g2e2 e4 :|2,4 edcB c2A=G | =GAA2 A4 :|
+S:https://www.folktunefinder.com/tunes/18371
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Grittenfeldt_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Grittenfeldt_A.abc
+% Rhythm Shottish
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

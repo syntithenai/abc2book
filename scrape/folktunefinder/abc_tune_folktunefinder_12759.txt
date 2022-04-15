@@ -1,0 +1,36 @@
+X: 1
+T: the Silvery Voe
+C: Tom Anderson 1966
+R: air
+B: Tom Anderson "Ringing Strings" 1983
+N: Learned in 1985 from Ed Pearlman
+N: Tom Anderson's notes:
+N: "When the full moon shines down on a Shetland voe in winter the sea appears
+N: to be shining silver.  Composed in the winter of 1966 when driving along
+N: Weisdale Voe.  In the key of F major, as that key to me is always a silver
+N: colour."  From a tape recording of Tom by a student.
+M: C
+L: 1/8
+K: F
+C2 \
+| "F"A3G F2C2 | "Bb"D2F2   "F"C4   | "Bb"D2 B2 "F"C2 A2 | "Gm"BA GF "C7"G2 C2 \
+| "F"A3G F2C2 | "Bb"D2F2  "C7"C3B  |  "F"A C3 "C7"B,2G2 |  "F"F4 F2 :| AB |
+| "F"c3A f3 A | "Bb"B3c/d/ "F"c3A  | "Bb"B2 dB "F"A2 cA | "Gm"BA GF "C7"G2 AB \
+| "F"c3A f3 A | "Bb"B2cd  "C7"c3B  |  "F"A C3 "C7"A3 G  | "Bb"F3 E "F"FG "(C7)"AB |
+| "F"c3A f3 A | "Bb"B3c/d/ "F"c3A  | "Bb"Bd cB "F"Ac BA | "Gm"BA GF "C7"G2 C2 \
+| "F"A3G F2C2 | "Bb"D2F2  "C7"C2B2 |  "F"AC3  "C7"B,2G2 | "Bb"F4- "F"F2 |]
+S:https://www.folktunefinder.com/tunes/12759
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/SilveryVoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/SilveryVoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/SilveryVoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Tom_Anderson/SilveryVoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/air/SilveryVoe.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

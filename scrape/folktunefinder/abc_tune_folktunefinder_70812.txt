@@ -1,0 +1,27 @@
+X:065
+%%topm65argin 3cm
+T:Blue Bonnets over the Border
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A
+c | (A>B)cd (ef)ec | ~B>c{/c}de f/2f/2f Tf2 | ABcd ec{/g}af | ec{/c}dB A/2A/2A {/B}A S::
+d | {/d}cABc BGF<E | {/d}cABc F/2F/2F T(F>d) | {/d}cABc BGTFE | ec{/c}dB A/2A/2A TA H:|
+(f/2g/2) | {/g}ae{/d}cA {/g}ae{/d}cA | TBABc F/2F/2F F>g | {/g}ae{/d}cA {/g}ae{/d}cA | {/c}dBec A/2A/2A (A>g) |
+{/g}ae{/d}cA {/g}ae{/d}cA | TBABc F/2F/2F F>g | {/g}ae{/d}cA (ef/2g/2) {/g}a>f | ec{/c}dA A/2A/2A TA S|]
+S:https://www.folktunefinder.com/tunes/70812
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Blue_Bonnets_over_the_Border.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

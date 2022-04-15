@@ -1,0 +1,36 @@
+X: 1
+T: Gilliecrankie
+O: McGibbon (c.1746)
+M: C
+L: 1/8
+N: "Brisk"
+B: McGibbon - Scots Tunes, book II, p.37 (c. 1746)
+S: AK/Fiddler's Companion
+F: http://www.ibiblio.org/fiddlers/KIC_KISI.htm 2008-2-23
+K: D
+F/G/ \
+| A>dAF (A/F/)(A/d/) AF | (A>Bd)F (A2A)d/c/ \
+| B>dBA T(B/A/B/)d/ BA | (d/c/d/)e/ (d/e/f/)d/ (B2B)f/a/ |
+| b(a/f/) a(f/e/) f(e/d/) ef | A>BdF A2 Ad/c/ \
+| BB dd ee Tf>e | d>B (A/B/d/)F/ TE3D :|
+|: (f/g/) \
+| a>baf T(a/g/a/)b/ af | (a/g/)T(f/e/) d/e/f/g/ (a2a)f/a/ \
+| b>d'ba (b/a/b/)d'/ ba | (b/a/)(g/f/) (e/f/)(g/a/) (b2 b)f/a/ |
+| (b/a/f/)b/ (a/f/e/)a/ (f/e/d/)f/ (e/d/)(B/e/) | (d/B/)(A/B/) (d/c/d/)F/ (A2A)d/c/ \
+| T(B/A/B/)c/ (d/c/d/)f/ (e/d/e/)g/ Tf>e | (d/B/A/B/) (A/B/d/)F/ TE3D :|
+S:https://www.folktunefinder.com/tunes/15513
+S:http://www.ibiblio.org/fiddlers/KIC_KISI.htm
+S:http://trillian.mit.edu/~jc/music/abc/march/Killiecrankie3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Killiecrankie3_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/Killiecrankie3_D.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

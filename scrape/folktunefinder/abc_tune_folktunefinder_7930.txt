@@ -1,0 +1,30 @@
+X: 4
+P: Alfred p\aa Hultet
+O: Sweden, Denmark
+R: polka, polkett
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"f2f2 fgfe | d2d2 F3G | A2A2 {A}B2AG | "Em"F2E2 E4 \
+|  "A7"g2g2 gfed | c2c2 c3B | "D"A2A2 {A}B2AG | F2A2 d2e2 ||
+|| "D"f2f2 fgfe | d2d2 F3G | A2A2 {A}B2AG | "Em"F2E2 E4 \
+|  "A7"g2g2 gfed | c2a2 abag | f2g2 B2c2 | "D"d4 d4 :|
+|: "D"f2f2 fdAd | f2f2 f4 | "G"g2g2 gdBd | "Em"g2g2 g4 \
+| "A7"a2a2 aece | a2a2 abag | f2g2 e2a2 | "D"f2d2 d2e2 ||
+|| "D"f2f2 fdAd | f2f2 f4 | "G"g2g2 gdBd | "Em"g2g2 g4 \
+| "A7"a2a2 aece | a2a2 abag | f2g2 B2c2 | "D"d4 d4 :|
+S:https://www.folktunefinder.com/tunes/7930
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NEFFA_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NOMAD_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Polka.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NOMAD/2007NOMAD_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NOMAD/2007NOMAD_Polka.txt
+% Rhythm Polka, polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

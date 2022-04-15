@@ -1,0 +1,29 @@
+X: 1
+T: Blind Ifan's
+R: polka, march
+O: Wales
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"d2cB "A7"A2G2 | "D"F2G2 A2F2 | "G"G2F2 "A7"G2E2 | "D"F2D2 D4 \
+| "D"F3G A2F2 | "G"G2A2 "(A7)"B2c2 | "D"d4 "A7"c4 | "D"d8 :|
+|: "D"f2d2 defd | "A7"e2c2 cdec | "Bm"d2B2 "E7"BcdB | "A"c2A2 A4 \
+| "D"f2d2 defd | "A7"e2c2 cdec | "Bm"d2B2 "E7"BcdB | "A"c2A2 A4 |
+| "G"B2G2 GABG | "D"A2F2 FGAF | "Em"G2E2 "A7"EFGE | "D"F2D2 D4 \
+| "D"F3G A2F2 | "G"G2A2 "(A7)"B2c2 | "D"d4 "A7"c4 | "D"d8 :|
+S:https://www.folktunefinder.com/tunes/13080
+S:http://trillian.mit.edu/~jc/music/abc/Wales/BlindIfansP.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/BlindIfansP.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/BlindIfansP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/march/BlindIfansP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/polka/BlindIfansP.abc
+% Rhythm Polka, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

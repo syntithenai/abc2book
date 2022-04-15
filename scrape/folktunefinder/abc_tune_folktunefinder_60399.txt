@@ -1,0 +1,22 @@
+X:4210
+T:Doc Boyd
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:C
+P:A
+G|"C"cBc GEG|"C"cea g2e|"F"faf "Dm"A2d|"G"BdB "G7"GAB|
+"C"cBc GEG|"C"cea g2e|"G7"fdB GAB|"C"c3 c2:|
+P:B
+g|"F"a2a ag^f|"C"g2g g2e|"G7"f2f fed|"C"g2e "C7"c2g|
+"F"a2a ag^f|"C"g2g g2e|"G7"fdB GAB|"C"c3 c2:|
+S:https://www.folktunefinder.com/tunes/60399
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

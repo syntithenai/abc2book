@@ -1,0 +1,29 @@
+X:324
+%%topmargin 3cm
+T:Jenny Nettles
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A minor
+A/B/ | Lc2 LB2 LA2 a2 | e^fge dBGB | LcdLBc LA2 a2 | ge^fd e2 A2 ::
+!p!(cd)eA (cd)eA | (d/c/B/A/) (Gd) BGdB | (cdeA) (cdea) | ge^fd e2 A :|
+!ff!B | cde^f gage | gage (d/c/B/A/) (GB) | cde^f gage | aba^g a2 (AB) |
+cde^f gage | gage (d/c/B/A/) (GB) | cde^f gagf | ea^gb a2 A |]
+S:https://www.folktunefinder.com/tunes/71353
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Jenny_Nettles.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0324.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

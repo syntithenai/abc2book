@@ -1,0 +1,24 @@
+X:104
+T:Valce Ardennaise
+C:Traditional
+O:Wallonie
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/8
+L:1/16
+N:Intro (AABB) x2 A
+K:C
+P:A
+G2|[EGc]B cd ef|[c2e2g2]g2g2|^ga ga ga|.g2.g2.e2|[GBf]d (fd) (fd)|[Gce]c (ec) (ec)|[FBd]B (dB) (dB)|[E4c4]:|
+P:B
+|:G2|EC EC EC|FD FD FD|EC EC EC|G,4 .G2|C2[c2e2][c2e2]|G,2[d2f2][d2f2]|[c2e2] (ec) (dB)|c4:|
+S:https://www.folktunefinder.com/tunes/75800
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Wals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

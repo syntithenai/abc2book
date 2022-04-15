@@ -1,0 +1,32 @@
+X:605
+T:Pasucis d'Uvieu (MG 75)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Sacu del Cancioneru de Torner.
+A:Asturies
+O:Uviu
+Z:Mtodu de Gaita 75
+M:6/8
+L:1/8
+Q:3/8=125
+E:Comp.
+K:C
+EGE
+|C2 C ~EDE|F3 DFD|B,2 {G}B, ~DCD|E3 EGE|
+|CCC ~EDE|F2 F DFD|B,{G}B,{G}B, ~DCD|E2 ~E CEF|
+|GAB cB~A|G2 G cB~A|GFE ~DCD|~E2 C CEF|
+|GAB cB~A|G2 G cB~A|GFE ~DCD|C3 z3|
+S:https://www.folktunefinder.com/tunes/59492
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Pasucis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

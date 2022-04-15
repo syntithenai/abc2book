@@ -1,0 +1,26 @@
+X: 48
+T:Hunsup Through The Wood. HS.48
+M:6/8
+Q:120
+S:Henry Stables MS,Cumbria,late19thC
+R:Jig
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:G
+G2d Bcd|G2d Bcd|edc BAG|A2B cBA|!
+G2d Bcd|G2d Bcd|edc BAG|A3e3||!
+A2Bc2d|e2e edc|BGB AFA|G3e3|!
+A2Bc2d|egf ed^c|d2g fef|g3-g3||
+S:https://www.folktunefinder.com/tunes/52751
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

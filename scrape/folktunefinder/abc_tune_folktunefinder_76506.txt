@@ -1,0 +1,27 @@
+X:21
+T: HERZIGS SCHATZERL
+N: E0637
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: C
+E,3F, | G,4E3DC3A, | G,4E,2z2
+A,3G, | G,2B,2D,2F,2A,3G, | G,4E,2z2
+E,3F, | G,4E4C3A, | G,4E,2
+G,2A,3G, | G,3FF4B,2B,2 | C4z2
+G,2A,3G, | F,2B,2D,2F,2A,3G, | G,2C,2E,2
+G,2A,3G, | F,2B,2D,2F,2A,3^G, | G,2C,2E,4
+E,3F, | G,4E3DC3A, | G,4E,2
+G,2A,3G, | G,3FF4B,2B,2 | C4z4
+S:https://www.folktunefinder.com/tunes/76506
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

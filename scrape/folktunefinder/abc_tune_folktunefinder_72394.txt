@@ -1,0 +1,36 @@
+X: 145
+T:Lass She Lost Her Maidenhead,Ye. HA.144
+M:C
+L:1/8
+Q:1/4=220
+C:"..for all her fine petticotes"
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Some dots appear to be missing in MS. Also in line 3 a qu. should
+N:probab
+N:be
+N:a dotted cr. I have made these changes to make more sense of tune.
+N:The title continues, but not legibly! NB
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:Amin
+B2|c4B3A|c4E4|G4G2 Bc|dcBA G2B2|!
+c4B3A|e4E4|A4"cr"e3d|"="c3BA2:||:!
+B2|c3de2f2|"cr"g3ag2e2|d2B2g2e2|dcBA G2B2|!
+c3de2g2|"cr"a3ba2e2|^c2A2a2e2|"="c3BA2B2|!
+"qu"c3 d e2f2|gfgag2e2|d2B2g2e2|dcBA G2B2|!
+c4"cr"B3A|e4E4|A4e3d|"cr"c3BA2:|]
+S:https://www.folktunefinder.com/tunes/72394
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

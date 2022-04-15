@@ -1,0 +1,44 @@
+X: 1
+T: Dorogoy Dal'noyu #1
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+| "D7"DDDD B2A2 \
+| cBA2 "Gm"G4 \
+| DDEF "G7"G3D \
+| "Cm"ED C6 \
+| "Gm"GGAB c3B \
+| AGB2 G4 \
+| GGAB "Gdim"dd^cB \
+| "D7"A6 D |
+| "D7"HB4 HA4 \
+|: "Gm"A3G G4- \
+| G2G2 "G7"G2F2 \
+| "Cm"F3E E4- \
+| E2C2 D2E2 \
+| "F7"F6 G2 \
+| A3G F2E2 |
+| "Bb"D8- \
+| D2=B,2 "G7"C2D2 \
+| "Cm"F3E E4- \
+| E2G2 G2E2 \
+| "Gm"D3D D4- \
+| D2G2 A2B2 \
+| "D7"d6 c2 \
+| B2A2 G2^F2 \
+|1 "Gm"G3 D \
+| "D7"HB4 HA4 \
+:|2 "Gm"G8 :|
+S:https://www.folktunefinder.com/tunes/18662
+S:http://trillian.mit.edu/~jc/music/abc/song/DorogoyDalnoyu1_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/song/DorogoyDalnoyu1_Gm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Russia/song/DorogoyDalnoyu1_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

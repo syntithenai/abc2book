@@ -1,0 +1,25 @@
+X: 3
+P: Reconciliation Reel, The
+R: reel
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+F:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReconciliationR.abc 2005-11-03 05:25:16 UT
+K: A
+|: "A"A2 c{B}A eAfA |     eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(E)"ecBc "E7"AFEF |
+|  "A"A2 c{B}A eAfA |     eAfA "E7"ecBc | "A"ABAF     EAcf |  "E7"ecBc  "A"A4  :|
+|: "A"A2{B}ce  a3f  | "E7"efed     cdcB | "A"A2{B}ce  a3g  |  "Bm"fbba "E7"gefg |
+|  "A"a2ae     faec | "Bm"dBcA "E7"BAFG | "A"ABAF     EAcf |  "E7"ecBc  "A"A4  :|
+S:https://www.folktunefinder.com/tunes/155
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReconciliationR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReconciliationR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/NomadSet1.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

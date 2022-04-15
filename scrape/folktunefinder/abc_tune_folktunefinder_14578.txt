@@ -1,0 +1,24 @@
+X:1
+T: the Maid at the Well
+T: the Maids of Glenroe
+T: the Silver Tip
+T: the Christmas Jig
+S: Philippe Varlet  irtrad-l 1000-02-02
+M: 6/8
+L:1/8
+K:G
+|: GDD EDD | GAB c2d | edc BcA | BGE EDE \
+|  GDD EDD | GAB c2d | edc BcA | AGF G3 :|
+|: gdd edd | gdB c2d | edc BcA | BGE EED \
+|  gdd edd | gdB c2d | edc BcA | AGF G3 :|
+S:https://www.folktunefinder.com/tunes/14578
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidAtTheWell2J.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MaidAtTheWell2J.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MaidAtTheWell2J.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

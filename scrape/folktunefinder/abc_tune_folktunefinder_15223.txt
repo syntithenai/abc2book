@@ -1,0 +1,29 @@
+X: 1
+T: Upon a Summer's Day
+T: AABBBx3
+%T: the Garland
+B: Barnes (Fm)
+B: The Complete Country Dance Tunes from Playford's Dancing Master, Barlow, #101 p.36 (Gm)
+Z: John Chambers <jc@trillian.mit.edu>
+N: Chords thanks in part to Peter Barnes
+M: 6/8
+L: 1/8
+R: Jig
+O: Samuel Pepys, Ballads, I,296, 1650
+K: ADor
+|: e \
+| "Am"e2e c2A | e3-e2 f/-g/ | a2g a2b | c'3-c'2 c \
+| "C"c2c B2A | "G"g3 a3 | "Em"b2c B2A | "Am"A3-A2 :|
+|:: b \
+| "Em"b2b g2e | b3- b2g | "Am"a2g "G"a2b | "C"c'3-c'2 c \
+| "Am"c2c B2A | "G"g3 a3 | "Em"b2c B2A | "Am"A3-A2 ::|
+S:https://www.folktunefinder.com/tunes/15223
+S:http://trillian.mit.edu/~jc/music/abc/jig/UponASummersDay_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/UponASummersDay_Am.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,45 @@
+X: 1
+T: Polska fr\aan R\"attvik
+O: efter Hol Anders Andersson
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+V: 1
+|: "A7"A4 a6 g2 | gage "Dm"{fe}f8 \
+| {ef}d3f a4 "A7"gage | "Dm"f4 "A7"efe^c A4- \
+| A4 a6 g2 | gage "Dm"{fe}f8 |
+| {ef}d3f a4 "A7"gage | "Dm"f3d "A7"[e8A8] \
+| e3^c A3c d3e | f3g a8 \
+| abag a3e "Dm"f3d | "A7"efe^c "Dm"d8 :|
+|: "F"a3c' c'4 a4 | "C7"gage "F"[f8A8] \
+| "Dm"d3f a4 "A7"gage | "Dm"f4 "A7"efe^c A4- \
+| "F"A4 c'6 a2 | "A7"gage "Dm"f8 |
+| d3f a4 "A7"gage | "Dm"f3d "A7"e8 \
+| e3^c A3c d3e | f3g a8 \
+| abag a3e "Dm"f3d | "A7"efe^c "Dm"d8 :|
+V:2
+|: [E4^C4] D4 E4 | [AE][AF][AE]^C [A3D3][AE] [A3F3]G \
+| [A4F4] D4 [EA,4]FG2 | [A4D4] ^C3E A4 \
+| [e4^c4] [f4d4] e4 | [eA4]ge^c [A3D3][AE] [A3F3]G |
+| [A4F4] D4 [EA,4]FG2 | (3D2E2F2 [E8^C8] \
+| E3^C A,3C D3E | F3G A8 \
+| [E4^C4] D3C D3F | [G3A,4]E [A8F8] :|
+|: F3A A4 F4 | BcBG F8 \
+| [A4F4] D4 EFE^C | [D3A,4]F A4 E4 \
+| F4 a6 f2 | efe^c d8 |
+| [A4F4] D4 [EA,4]FE^C | D3F A4 [GA,4]AGE \
+| [E4A,4] [E3^C3]B A3G | [A4D4] [E8^C8] \
+| [E2^C2]DE F3G A3F | [G3A,4]E [A8F8] :|
+S:https://www.folktunefinder.com/tunes/16512
+S:http://trillian.mit.edu/~jc/music/abc/pols/RattviksP4_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/RattviksP4_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

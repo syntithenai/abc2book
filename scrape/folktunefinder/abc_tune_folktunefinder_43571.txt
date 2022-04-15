@@ -1,0 +1,24 @@
+X:40
+T:Wilks Rigg
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000db8.html
+%%ID:00000db8
+K:D
+ded A2f | g2f e2d |   ded A2A | B3 d3 :: \
+d2f a2f | g2f e2d | ! d2f a2g | f3 a2a | \
+b2g e(fg) a2f d2d |   def A2A | B3 d3 :|
+% barline after #5 of 2nd part missing in mss.
+S:https://www.folktunefinder.com/tunes/43571
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:270
+T:Killavil Reel, The
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of D)
+K:D
+"D"~D2AD BDAD | ~D2AD BDAD | "Em"~E2BE cEBE | BABc dBAF |
+"D"~D2AD BDAD | ~D2AD BDAD | "G"GFEF GABc |1 "D"~d2fd "A"BAFE:|2
+"D"~d2fd "A"BAFA |:
+"D"~d2fd Adfd | "G"~g2fg "A"edBc | "D"~d2fd Adfd | "G"~g2fg "A"e2Bc |
+"D"~d2fd Adfd | "G"~g2fg "A"edBc | "G"dBBA Bcde |1 "D"fdgf "A"edBc :|2
+"D"fdgf "A"edBA |]
+S:https://www.folktunefinder.com/tunes/63035
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

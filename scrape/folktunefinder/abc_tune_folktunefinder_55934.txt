@@ -1,0 +1,31 @@
+X:995
+T:Bagpipes,The. WM.145
+M:2/4
+L:1/8
+Q:200
+S:Wm.Mittell's MS,New Romney,Kent,1799
+O:England
+A:Kent
+N:See D.Roberts' book for full version. has this, but I have included it f
+N: the bowing
+N:Accompanied throughout by double stopped drone on string below,rythm as
+N:per bowing
+Z:vmp.Chris Partington
+K:D
+A|"Maintain continuous drone on string below"(B/c/d d)c|~B3A|(B>ABc)|
+(d/c/d/e/ d)A|(B/c/d d)c|~B3A|(B>A)(Bc)|d2d:|!
+|:e|(f/g/a a)f|~f2-e2|(f/g/f/g/) aa|(f/e/f/g/ a)a|(B/c/d d)c|~B3A|(B>A)(
+Bc|d2d:|]
+S:https://www.folktunefinder.com/tunes/55934
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

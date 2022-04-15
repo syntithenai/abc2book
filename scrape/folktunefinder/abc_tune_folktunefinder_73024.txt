@@ -1,0 +1,27 @@
+X: 640
+T: Young Bridget
+C:O'Carolan
+B:O'Neill's 640
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Slow"
+M:3/4
+L:1/8
+K:G
+(B/d/e/f/) \
+| g2 c'b {b}ag | g4 (g>f) | e2 (gfed) | e2 ef (g>f) |
+| ed {d}cB (A{BA}G) | ({G}F/E/F/G/) A3 G | G6 | G7/2 (c/ BA) |
+| G3 A (B>^c) | d3 (d g>f) | e2 (gf) e^d | e4 ({d}cB/A/) |
+| (G>A) (B>c) (de/f/) | g2 (g>b) (a>g) | f2 ~e3 d | d4 (de/f/) |
+| g2 (.g.b .a.f) | g4 (f>g) | e (.g.f.e.d) | e3 f (g>f) |
+| ({ef}ed) ({cd}cB) ({AB}AG) | ({G}F/E/F/G/) A3 G | G3- | G2 |]
+S:https://www.folktunefinder.com/tunes/73024
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

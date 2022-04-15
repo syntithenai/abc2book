@@ -1,0 +1,25 @@
+X:109
+T: ES GING EIN MAEDCHEN IN DIE STADT
+N: F0227
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied, Liebe
+M: 3/4
+L: 1/16
+K: C
+G,2 | G,2G,2E,6G,2 | F,2F,2D,4z2
+D,2 | F,3E,D,2A,2G,2F,2 | E,2C2G,4z2
+G,2 | G,2G,2E,6G,2 | F,2F,2D,4z2
+D,2 | F,3E,D,2A,2G,2B,2 | C,4z2
+E,2E,2E,2 | G,2G,2C6G,2 | A,2A,2D6
+C2 | B,3G,G,2F2E2D2 | C4z6
+S:https://www.folktunefinder.com/tunes/69669
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Scherz - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

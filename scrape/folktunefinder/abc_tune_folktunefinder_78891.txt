@@ -1,0 +1,27 @@
+X:450
+T: MIR GLIEBT IM GRUENEN MAIEN
+N: E0383
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Jahreszeiten, Fruehling
+M: 6/4
+L: 1/8
+K: G
+GA | _B4B2B2c2c2 | d6_B3c
+d2 | _e4d2d2c4 | _B6-=B4
+GA | _B4B2B2c2c2 | d6_B3c
+d2 | _e4d2d2c4 | _B6-=B4
+_Bc | d4d2d2c2_B2 | A3GA_BA3B
+c2 | _B4A2G4F2 | G6-G4
+S:https://www.folktunefinder.com/tunes/78891
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:296
+T: Trinklied
+N: A0340
+O: Europa, Mitteleuropa, Deutschland
+N: Scandello 1567 No. 20.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/2
+K: C
+G, | CCDD | E2C2
+G2 | AG2GGG | G2E2
+A2 | G2FED2 | C4
+G2E2A2 | GFGED2 | C4
+G2E2A2 | GFGED2 | C3
+S:https://www.folktunefinder.com/tunes/68842
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

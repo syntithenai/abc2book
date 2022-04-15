@@ -1,0 +1,35 @@
+X:908
+T:Xiraldilla (CT 443)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en L.luarca
+A:Asturies
+O:L.luarca
+Z:Cancioneru de Torner 443
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+G|c2 c|cef|gef|gag|f2 e|d c2-|cze|
+egf|e2 f|d c2-|c2 e|
+egf|e2 f|d c2-|cz||
+W:Vaqueira casa las fil.las
+W:que agora tienen el sere,
+W:que nun son yerbas del campo
+W:que vuelvan reverdecere.
+W:
+S:https://www.folktunefinder.com/tunes/59795
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

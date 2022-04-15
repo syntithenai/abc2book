@@ -1,0 +1,20 @@
+X: 103
+T:Earl's Chair
+M:C
+L:1/8
+K:D
+A| B3 B BAFA| BddA BAFB | A ~F3 DFAF| AddA BAFA| 
+B3 B BAFA| BddA BAFB | AFAB defd| edef d3 :|
+| f | e3 f d3 f | edef  dB A2 | edef d3 e | fedB ADFf | 
+edef e ~B3 | g ~B3 defg | afbf af eg| fedB AD F :|
+S:https://www.folktunefinder.com/tunes/66528
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

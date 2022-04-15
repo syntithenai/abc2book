@@ -1,0 +1,37 @@
+X: 7
+T:La Valriane
+O:France
+A:Provence
+C:
+R:Marche
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+V:1 name=G
+GB || S d2d def | g2g gfg | a2a aba | g3 !breath!g GB | d2d def |
+g2g gfg | aba def| g3- g!fine! :| [K:D] df | a3 age | f3 dcd | e2e a2a |
+f3 !breath!d df | a3 age | f3 dcd | ede age |1 d3- d :|2 ded =cBA!D.C.! || [K:G]
+"^TRIO"z | b2b bag | a2d d2z | g2g gfe | f2B B2z |e2e ed^c | d2G G2z |
+Bcd edc | (B3 A2)z | b2b bag | a2d d2z | g2g gfe | f2B B2z | e2e ed^c |
+d2G g2z | ded cBA | G3-G S |]
+V:2 name=V
+GG | B2B Bcd | B2B BdB | c2c cdc | B3 !breath!B GG | B2B Bcd |
+B2B BdB | cdc Bcd | B3- B :|[K:D] dd | c3 cBc | d3 FGF | G2G ABc |
+d3 !breath!d dd | c3 cBc | d3 FAF | G2G ABc |d3-d :| dgf ed=c ||
+[K:G] z | g2g gfe | f2d d2z | e2e ed^c | d2B B2z | c2c cB^A | B2B B2z |
+GAB cBA | (G3 ^F2)z | g2g gfe | f2d d2z | e2e ed^c | d2B B2z | c2c cB^A |
+B2B B2z | BcB AGF | G3- G |
+%%begintext
+S:https://www.folktunefinder.com/tunes/39562
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

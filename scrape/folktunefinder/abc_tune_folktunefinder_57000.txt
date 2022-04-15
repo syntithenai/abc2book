@@ -1,0 +1,29 @@
+X:2061
+T:Branle de Malte. 
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0167.gif
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:8/2
+L:1/4
+Q:1/2=150
+K:F
+BABc d2d2 c2B2 A2GF G2G2 F4 :: BABc d2e2 c2d2 e4 |
+cde2 d4 cd e2d2 | cBAG BAB2 ||
+S:https://www.folktunefinder.com/tunes/57000
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

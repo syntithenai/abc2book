@@ -1,0 +1,28 @@
+X: 5
+T:Bob Horn's Hornpipe.WM.005
+M:4/4
+L:1/8
+Q:180
+S:Wm.Mittell's MS,New Romney,Kent,1799
+R:Hornpipe
+O:England
+A:Kent
+N:
+Z:vmp.Chris Partington
+K:G
+GBdB GBdB|c2e2-e2.c2|BdBG cecA|F2A2-A2.A2|!
+GBdB GBdB|e2g2-g2ag|{f}f2ed{e}e2d-c|d2d2-d2.d2:|!
+|:defe defe|e2c2-c2.c2|efgf efgf|f2d2-d2.d2|!
+GBdB GBdB|c2e2-e2.c2|BdBA ecBA|G2G2-G2.G2:||
+W:Needs Csharp in bar 6 ||
+S:https://www.folktunefinder.com/tunes/72864
+S:http://www.village-music-project.org.uk/abc/mittell.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

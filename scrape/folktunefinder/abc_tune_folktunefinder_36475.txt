@@ -1,0 +1,30 @@
+X:1980
+T:Gillan's reel
+C:P. Milne
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a28.html
+%%ID:00000a28
+K:A
+E|\
+A2cA B2dB|c2ec dBGB|{G}A2 ce fgaf|edcB AGFE|\
+AEAc BEBd|cAce dBGB|
+A/A/A ce fgaf|edcB A3||\
+g |\
+a2fa g2eg|f2df ecBA| \
+{g}a2fa gaba| gfe^d e2fg|
+{g}agfa {a}gfeg|{g}fedf {f}edcB|\
+A/A/A ce fgaf|ecdB AGFE|]
+S:https://www.folktunefinder.com/tunes/36475
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

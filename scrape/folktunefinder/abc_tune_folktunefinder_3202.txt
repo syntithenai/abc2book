@@ -1,0 +1,26 @@
+X: 2
+T: Bundle and Go
+T: I Lost My Love
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Susan Songer & Clyde Curley "The Portland Collection" v.1 p.43 1997
+M: 6/8
+L: 1/8
+K: Em
+   D \
+| "Em"E3  EDB, | "G"G3  GAB |  "D"A3  A[BF]A | "Bm"d3 d2e \
+|  "G"dBG GAB  | "D"AFE DEF | "Em"GFE "D"FED | "Em"E3 E2 :|
+|: A \
+| "Em"Bee edB  | "D"Add def | "Em"~e3    edB |  "D"d3 d2e \
+|  "G"dBG GAB  | "D"AFE DEF | "Em"GFE "D"FED | "Em"E3 E2 :|
+S:https://www.folktunefinder.com/tunes/3202
+S:http://trillian.mit.edu/~jc/music/abc/Contra/BundleAndGo.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:136
+T: Medche, waelt te'n Far nien
+N: D0219
+O: Europa, Mitteleuropa, Deutschland, Siebenbuergen
+N: Variante in D0219A notiert, Inzipit = Variante zum Lied
+R: Ehestands - Lied
+M: 2/4
+L: 1/16
+K: F
+ |  |  | F2E2F2G2 | A4B4
+c4c3E | F4z2
+F2 | F2E2F2G2 | A2A2A4
+F2E2F2G2 | A2A2A4
+c4c3E | F4z4
+S:https://www.folktunefinder.com/tunes/72593
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

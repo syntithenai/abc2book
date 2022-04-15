@@ -1,0 +1,30 @@
+X:276
+T: DIE TREUE DIE UNS BRUEDER BAND
+N: F0482
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, national
+M: 4/4
+L: 1/8
+K: F
+C2 | F3GA2B2 | c3AF2
+c2 | d2c2B2A2 | c6
+C2 | F3GA2B2 | c3AF2
+c2 | d2c2B2A2 | c6
+c2 | G3AcBAG | A2c2f2
+c2 | d2c2B2A2 | c4z2
+C2 | F3GA2B2 | c3AF2
+d2 | c3AcBAG | A2Bdc2
+fd | c3AcBAG | F4z2
+S:https://www.folktunefinder.com/tunes/69836
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

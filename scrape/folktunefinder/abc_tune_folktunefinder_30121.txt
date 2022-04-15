@@ -1,0 +1,29 @@
+X:0
+T:The Pentatonic Modes based on A
+L:1/4
+M:8/4
+K:A
+"^Lydian/Major/Mixolydian Pentatonic"  A2 Bc ef a2|a2 fe cB A2||
+M:9/4
+K:AMix
+"^Major/Mixolydian/Dorian Pentatonic"  A2 Bd ef a2|a2 fe dB A2||
+M:9/4
+K:ADor
+"^Mixolydian/Dorian/Minor Pentatonic"  A2 Bd eg a2|a2 ge dB A2||
+M:9/4
+K:AMin
+"^Dorian/Minor/Phrygian Pentatonic"    A2 cd eg a2|a2 ge dc A2|]
+S:https://www.folktunefinder.com/tunes/30121
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 8/4
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

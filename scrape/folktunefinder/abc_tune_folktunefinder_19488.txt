@@ -1,0 +1,27 @@
+X: 1
+T: Lord Lyndoch
+R: strathspey
+S: Reel & Strathspey Tutorial
+M: 4/4
+L: 1/8
+K: D
+c/ \
+| "D"d>e d>B A>F D>F | "Em"EA Gc \
+| "D"d>e d>B A>F D>F | "Em"E>D "A7"E>F "D"D2- D> :|
+g \
+| "D"f/e/d a>d f>d a>d | "A7"c/B/A e>A c>A e<g \
+| "D"f/e/d a>d f>d a>f | "G"gg "D"f<d d> ||
+g \
+| "D"f/e/d a>d f>d a>d | "A7"c/B/A e>A c>A e>A \
+| "G"B<d "A"c<e "Bm"d<f "Em"e<g | "Bm"fg "D"f<d d> |]
+S:https://www.folktunefinder.com/tunes/19488
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordLyndoch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordLyndoch_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

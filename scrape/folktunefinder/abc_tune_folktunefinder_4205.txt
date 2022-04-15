@@ -1,0 +1,24 @@
+X:20
+T:Heywood Sumner Wassail
+M:2/4
+L:1/16
+S:The Besom Maker, Heywood Sumner
+K:G
+| D2G4G2A2 | B4A2B4 | c4c2c2 | d4z2B2 \
+| d4d2e2 | d4c2B2 | c4c2d2 | c4B2A2 |
+| B4B2A2 | G2F2E2D2 | G2B2A2c2 | B2B2z2def \
+| g4d2d2 | e4e2dc | B2A2G2F2 | GGz2 |
+M:3/4 L:1/8
+GA | B2A2B2 | c2d2c2 | B2A2G2 | A4GA | B2A2B2 | c2d2edc | B4A2 | G4 |
+S:https://www.folktunefinder.com/tunes/4205
+S:http://trillian.mit.edu/~jc/music/abc/England/WassailTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

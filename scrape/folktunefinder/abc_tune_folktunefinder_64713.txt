@@ -1,0 +1,29 @@
+X: 1
+T: Cicerenella For Bagpipe
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: B2c | &quot;G,&quot;d2d e2d | &quot;D7&quot;c2B A2B | c2c d2c | &quot;G,&quot;B2A G2B |
+&quot;E7&quot;d2d e2d | &quot;A,m&quot;c2B A2B | &quot;D7&quot;cdc B2A | &quot;G,&quot;G2z :|
+K:Gm
+|:GBd|g2g d2d|g2g d2d|e2e efe|d3 ded|
+c2c cdc|B2B BcB|A2A ABA|1 G3  :|2 G3 ||
+K: Am
+|:A2B | &quot;Am&quot;cBc &quot;Dm&quot;dcB | &quot;Am&quot;cBc &quot;Dm&quot;dcB | &quot;Am&quot;cBA &quot;E7&quot;^GAB | &quot;Am&quot;A2z A2B |
+&quot;Am&quot;cBc &quot;Dm&quot;dcd | &quot;Am&quot;ede &quot;Dm&quot;fed | &quot;Am&quot;cBA &quot;E7&quot;^GAB | &quot;Am&quot;A2z :|
+K:C
+|: &quot;G7&quot;GAB | &quot;C&quot;cBc ece | g2g gag | &quot;G7&quot;g2f fgf | &quot;C&quot;f2e &quot;G7&quot;GAB |
+&quot;C&quot;cBc ece | g2g g^fg | &quot;G7&quot;bag fed | &quot;C&quot;c2z :|
+S:https://www.folktunefinder.com/tunes/64713
+S:http://www.thesession.org/tunes/display/4291
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

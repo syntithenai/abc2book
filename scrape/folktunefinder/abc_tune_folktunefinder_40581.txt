@@ -1,0 +1,29 @@
+X:1
+T:Lansierskadril
+T:1ste figuur
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABC x2 A
+L:1/8
+M:6/8
+K:C
+P:Voorspel
+GAG | "C"[e2G2] e "G7"[d2F2] d | "C"[c2E2] G G^FG | "Dmin"[A2F2] d "G7"GAB | "C" c2 z |]
+P:A
+GAG | "C"[e2G2] [eG] "G7"[d2F2] [dF] | "C"[c2E2] [GE] GAG | "G7" [f2A2] [fA] "C" [e2G2] [eG] | "G7" [d2F2] G GAG | 
+"C" [e2G2] [eG] "G7" [d2F2] [dF] | "C" [c2E2] [GE] G^FG |"Dmin"[A2F2] d "G7" [GF]AB | "C"[c2E2] z |]
+P:B
+GAG |"G"[B2D2] [BD] [c2E2] [cE] | [^c2^A2] [dB] "C" [GE][AF][GE] | "G7"[FD][GE][FD] "C"[EC][FD][EC] | "G7"[D3B,3] GAG | 
+"C"[e2G2] [eG] "G7"[d2F2] [dF] | "C"[c2E2] [cE] cBA | [G2E2] E "G7"[F2D2] B, | C2 z |]
+P:C
+EFE | "Amin"A2 A [c2A2] [cA] | "E7"B2 E EFE | "Amin"A2 A [c2A2] [cA] | "E7"B2 E EFE | 
+"Amin"[c2E2] [cE] "E7"[B2D2] [BD] | "Amin" [A2C2] [AC] | "Gmin" [_B2D2] [BD] | "Amin" [A2C2] [AC] "E7" [^G2D2] [GD] | "Amin" [A2C2] z |]
+S:https://www.folktunefinder.com/tunes/40581
+S:http://user.online.be/volksdans/abc/Lansierskadril.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Lansierskadril.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

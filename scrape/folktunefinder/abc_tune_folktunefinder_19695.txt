@@ -1,0 +1,36 @@
+X: 1
+T: the Ury Water
+C: J. Scott Skinner
+R: strathspey
+B: RSCDS __-10
+N: Johnson's Caledonian Country Dances 3rd Edition 1750
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G \
+| "C"e>d c>B "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G \
+| "C"e>d c>B "F"A>G A>c | "C"G>c "G7"d>B "C"c3 G |
+| "C"e>d c>B "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 G \
+| "C"c>d c>B "F"A>G A>c | "C"G<E "G7"D>E "C"C3 ||
+G//F//E//D// \
+| "C"C>D E>G "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G, \
+| "C"C>D "C7"E>G "F"A>G A>c | "C"G<E "G7"D>E "C"C3 E |
+| "C"C>D E>G "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 c/d/ \
+| "C"e>g "F"a>c' "C"g>e "F"d>c | "C"A>G "G7"d>e "C"c3 |]
+S:https://www.folktunefinder.com/tunes/19695
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/UreyWater.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/UreyWater.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/UreyWater.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/UreyWater.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

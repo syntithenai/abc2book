@@ -1,0 +1,56 @@
+X:3
+T:Le prince d'Orange
+R:Chanson
+N:je ne suis pas du tout certain des notes et du rythme... (rvision pour plus tard...)
+D:Pierre de Grenoble (Malicorne)
+O:France
+Z:transcription (d'oreille sauf les paroles) : <anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=110
+K:Bb
+V:1
+d |: B c>B A G2 Gd | B c>B A G3 F |\
+    BB cc d2 dc | Bd cB A3 d |\
+     dd dd d>B Bc| B2 A2 G4 | z4 z3 d :|
+V:2
+D |: B, C>C C D2 DD | B, C>C C D3 C|\
+    DD FF G2 GF | DG GG D3 G,|\
+    G,G,G,G,G,>G,G,G,| D2 E2 D4 | z4 z3 D :|
+V:3 %je suis encore moins sr de la troisime voix que du reste...
+d' |: b c'>b a g2 gd'| b c'>b a g3 f |\
+    dd ff g2 gf | dg gg d3 G |\
+    GGGGG>GGG | d2 e2 d4 | z4 z3 d :|
+W: C'est le Prince d'Orange, tt matin s'est lev
+W: Est all voir son page, va seller mon coursier
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Va seller mon coursier
+W: Mon beau Prince d'Orange, o voulez vous aller
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Je veux aller en France o le roi m'a mand
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Mit la main sur la bride, le pied dans l'trier
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Je partis sain et sauf et j'en revins bless
+W: QUE MAUDIT SOIT LA GUERRE !
+W: De trois grands coups de lance, qu'un Anglais m'a donns
+W: QUE MAUDIT SOIT LA GUERRE !
+W: J'en ai un  l'paule et l'autre  mon ct
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Un autre  la mamelle, on dit que j'en mourrai
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Le beau Prince d'Orange est mort est enterr
+W: QUE MAUDIT SOIT LA GUERRE !
+W: L'ai vu porter en terre par quatre Cordeliers
+W: QUE MAUDIT SOIT LA GUERRE !
+W: Par quatre Cordeliers.
+S:https://www.folktunefinder.com/tunes/39929
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

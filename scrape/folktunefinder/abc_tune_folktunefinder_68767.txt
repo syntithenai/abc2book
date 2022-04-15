@@ -1,0 +1,28 @@
+X:221
+T: Abschiedsstunde
+N: A0269A
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 22 - 24.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: D
+=F4 | D2E2=F2G2 | A4A4
+A4 | G4E2=F2D4 | =C4z2
+=F2 | =F2A2G2F2 | E4D2
+=F2 | E2D2=C2D2_B,4 | A,4z2
+A,2A,2A,2 | D4D2=C3_B,A,G, | =F,4z2
+F2 | D2E2=F2G2 | A6
+G=F | E4G4 | =F2D4=C2D2_B,2 | A,8
+S:https://www.folktunefinder.com/tunes/68767
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

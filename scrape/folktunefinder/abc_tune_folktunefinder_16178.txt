@@ -1,0 +1,17 @@
+X: 1
+T: Painter's Polka
+M: 2/4
+L: 1/16
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+K: D
+|: "D"A2AB AGFE |    E2D2 DFA2 | "A7"Acec Acec |1,3 "D"Adfd Adfd :|2,4 "D"d2f2 d4 :|
+|: "G"G2g2 gfg2 | "D"A2f2 fed  | "A7"c2ec Acec |1,3 "D"d2f2 fed2 :|2,4 "D"d2f2 d4 :|
+S:https://www.folktunefinder.com/tunes/16178
+S:http://trillian.mit.edu/~jc/music/abc/polka/Painters_Polka_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/Painters_Polka_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

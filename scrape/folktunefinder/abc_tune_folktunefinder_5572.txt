@@ -1,0 +1,26 @@
+X: 1
+T: Greensleeves (and Yellow Lace)
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: GDor
+  GA \
+| "Gm"B2B B>cd | "F"cAF F>GA | "Gm"B2G G>AB | "D7"A2^F D2A \
+| "Gm"B2B B>cd | "F"cAF F>GA | "Eb"B>AG "D7"A^F2 | "Gm"G3 z :|
+|: de \
+| "Bb"f2f f>ed | "F"c>AF F2f | "Gm"g2a bag | "Dm"f>dd d2e \
+| "Bb"f2f f>ed | "F"c>AF FGA | "Eb"B>AG "D7"A^F2 | "Gm"G3 z :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5572
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Greensleeves.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Greensleeves.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

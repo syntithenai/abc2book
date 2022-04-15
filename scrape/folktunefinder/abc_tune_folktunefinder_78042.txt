@@ -1,0 +1,29 @@
+X:21
+T: ES KLINGT EIN HELLER KLANG
+N: B0024
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/8
+K: D
+D,2 | D,3F,A,2A,2 | A,6
+E,2 | F,3A,D2D2 | C6
+A,2 | B,3B,E2E2 | A,3
+A,D2A,2 | D,2E,2F,2^G,2 | A,6
+E,2 | E,4E,4 | A,3CC3
+E | E3DC2B,2 | A,2E,2C2
+E,2 | E,4E,4 | A,3CC3
+E | E3DC2B,2 | A,2E,2C2
+A,2 | D3CB,2B,2 | A,3G,F,2
+E,2 | F,2A,2B,2E2 | D4C4 | D4z2
+S:https://www.folktunefinder.com/tunes/78042
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

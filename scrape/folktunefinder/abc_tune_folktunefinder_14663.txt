@@ -1,0 +1,28 @@
+X: 1
+T: Miss Helen McInnes
+C: William Marshall
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"E2A A2F | "E"BAG BGE | "A"EGA ABc | "D"def ecA \
+| "D"dfa "A"edc | "B(m)"BcA "E"GFE | "D"FGA "E7"BE | A3 A2 :|
+e \
+| "A"cea cea | "B"^dfb dfb | "E"geB geB | "F#m"fge "B7"^dcB \
+| "E"bgb "B7"afa | "E"geg "B7"f^dB | "A"c^de "B7"fdB | "D"e3 E2 |]
+E \
+| "A"E2A A2F | "E"BAG BGE | "A"EGA ABc | "D"def ecA \
+| "D"d2c "B m"fed | "A"cBA "E"GFE | "D"F2B "E7"GFE | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14663
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissHelenMcInnes_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissHelenMcInnes_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

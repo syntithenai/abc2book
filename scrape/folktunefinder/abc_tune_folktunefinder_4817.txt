@@ -1,0 +1,27 @@
+X: 1
+P: On the Beautiful Blue Danube
+C: Johann Strau\ss
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+C CEG \
+| "C"G2.g  .g2.e  |  .e2C  CEG   |"G7"G2.g  .g2.f  |  .f2B, B,DA |
+|"G7"A2.a  .a2.f  |  .f2B, B,D.A | "C"A2.a  .a2.e  |  .e2C  CEG  |
+| "C"c2.c' .c'2.g |  .g2C  CEG   | "F"c2.c' .c'2.a |  .a2D  DFA  |
+|"G7"A3-    A^FG  | "C"e3- ecE   | "F"E2D "G7"A2G  | "C".C>CC "fine"C |]
+K:G
+.c.B \
+| "D7".B.A.A z.A.^G | .^G.A.A        z.D.D | "G"E2D z.D.D | A2G "G"z.c.B |
+| "D7".B.A.A z.A.B  |  .d.c.c "B7/D#"z.F.A | "Em"A2G "Am"F3/E/C/A,/ | "D7"E/E/ED "G"G"d.C."z |]
+S:https://www.folktunefinder.com/tunes/4817
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Waltz_BlueDanube.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

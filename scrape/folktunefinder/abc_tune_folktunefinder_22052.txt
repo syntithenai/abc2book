@@ -1,0 +1,20 @@
+X:1603
+T:Dorset 4 hand reel (1)
+O:england
+R:Reel
+M:4/4
+K:G
+G2B2 d3B|c2e2 c2e2|G2B2 d3B|c2A2 A2BA|\
+G2B2 d3B|c2e2 c2e2|G2B2 d3c|B2G2 G4::
+g2g2 gfe2|d2d2 dcB2|A3B c2d2|e2d2 d2ef|\
+g2g2 gfe2|d2d2 dcB2|A3B c2A2|A2G2 G4:|
+S:https://www.folktunefinder.com/tunes/22052
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

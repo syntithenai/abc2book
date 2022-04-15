@@ -1,0 +1,27 @@
+X: 651
+T: One Bottle More
+C:O'Carolan
+B:O'Neill's 651
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Spirited"
+M:3/8
+L:1/8
+K:G
+G \
+| GBd | d>BG | cee | e2d/c/ \
+| Bdg | dBG | (A/F/) DD | D2 :|
+D \
+| G>FG | EFG | (A/B/) (c/d/) (e/f/) | g2 (f/e/) \
+| deg | (a/g/) (f/e/) (d/c/) | BGG | (G>Bd/B/) |
+| (A/F/) DD | D2 (F/G/) | (A/B/) (c/d/) (e/f/) | g2 (f/e/) \
+| dg (f/g/) | (a/g/) (f/e/) (d/c/) | BGG | G2 |]
+S:https://www.folktunefinder.com/tunes/73035
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

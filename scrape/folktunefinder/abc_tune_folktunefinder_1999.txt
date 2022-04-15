@@ -1,0 +1,30 @@
+X: 62
+T:Wests Hornpipe. JMP.062
+M:C|
+L:1/8
+Q:180
+C:"67"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:D major
+d2 FG AFAF | d2 FG AFAF | BAGF E2 ef | gfed cecA |!
+ d2 FG AFAF | d2 FG AFAF | BAGF E2 ef | fdec d4 :|!
+|:f2 df dfdf | e2 ce cece | f2 df dfaf |edcB A2 Bc |!
+dcdB cBcA | dcdB cBcA | Bfed cBA^G | A2 AA A2 :|]
+S:https://www.folktunefinder.com/tunes/1999
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

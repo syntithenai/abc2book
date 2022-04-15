@@ -1,0 +1,32 @@
+X: 1
+T: The Concertina Reel
+M: 4/4
+L: 1/8
+B: Breathnach (CRE II) 1976 #210 (appears as Gan ainm/No title). 
+B: Breathnach (II) 1976 #210, 220 & 275 (last appears as Gan ainm/No title).
+B: Mallinson (Essential) 1995 #43, p.19
+B: Mitchell (Dance Music of Willie Clancy) 1993 #72, p.71.
+B: Tubridy (Irish Traditional Music, Book Two) 1999 p.18
+N: Also in G and A
+N: Chords by John Chambers
+N: Willie Clancy declared he had this tune from his mother, a concertina
+N: player and singer from Ennistymon, Ireland.
+K: D
+FG \
+| "D"A2FA  BAFA  | (3ABA FA BAFA | "A7"B2cA   BAcA |     BAcA  BAFG |
+| "D"A2FA  BAFA  | (3ABA FA BAFE |     FABc "G"d3B | "A7"AFEF "D"D2 :|
+|: FG \
+| "D"Ad~d2 Ad~d2 |     AddA BAFA | "Em"B2cA   BAcA | "A7"BAcA  BAFG |
+| "D"Ad~d2 Ad~d2 |     AddA BAFE |     FABc "G"d3B | "A7"AFEF "D"D2 :|
+S:https://www.folktunefinder.com/tunes/16958
+S:http://trillian.mit.edu/~jc/music/abc/reel/Concertina_Reel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Concertina_Reel_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

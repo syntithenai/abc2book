@@ -1,0 +1,22 @@
+X: 1
+T: Somewhere, My Love
+C: Maurice Jarre
+N: From the MGM movie "Doctor Zhivago"
+M: 6/8
+L: 1/8
+K: C
+|: "C"E3 G2^d | e6 | Bdc G2_G | "G7"F6 | F3 G2A | B6 |
+|1 "G7"AG^F G2f | e6 :|24 "G7"AG^F G2d | "C"c6 "fine"y|] "F"A3 c3- | c3 dcB |
+|  "F"c3 A3 | "C"G6 | "Eb"G3 =B3 | B2=B cBc | "B"d3 "Eb"_e3 | "G7"f6 "d.C."y |]
+S:https://www.folktunefinder.com/tunes/20200
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Somewhere_my_love_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/Somewhere_my_love_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

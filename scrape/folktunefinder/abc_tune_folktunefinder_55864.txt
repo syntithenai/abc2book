@@ -1,0 +1,26 @@
+X:1
+T:[6] Au pre de vous secretement demeure
+T:Cantus
+O: Transcribed from French Chansons for three voices (ca. 1550), 
+O: Part I: Three-Part Chansons Printed by Gardane (1541), 
+O: Edited by Courtney S. Adams, A-R Editions, Inc. Madison, Wisconsin
+C: Claudin de Sermisy
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+N:Original clef, C on third line
+M:C|
+L:1/4
+K:A min
+c4 B3 B A > G A/ B/ c > B A/G/ A2
+S:https://www.folktunefinder.com/tunes/55864
+S:http://www.laymusic.org/music/gardane/aupres/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

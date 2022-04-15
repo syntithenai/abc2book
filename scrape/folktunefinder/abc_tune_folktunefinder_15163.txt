@@ -1,0 +1,28 @@
+X: 1
+T: Three Meet
+T: the Pleasures of the Town
+O: England
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Schofield & Karpeles p.6
+M: 6/8
+L: 1/8
+K: D
+A \
+|: "D"F2A d2A | "G"B2B "Em"e2d | "A7"d>ed cBc | "D"d2e "(A7)"f2A \
+|| "D"F2A d2A | "G"B2B "Em"e2d | "A7"d>ed cBc | "D"d3- d3 :|
+|: "D"f2a "A7"e2a | "D"fed "A7"cBA | "D"d2d "A7"ede | "D"faf "A7"e3 \
+|| "D"Md'3 "A7"Ma3 | "G"Mg3 "D"Mf3 | "Em"ede "D"fed | "A7"B2c "D"d3 :|
+S:https://www.folktunefinder.com/tunes/15163
+S:http://trillian.mit.edu/~jc/music/abc/jig/ThreeMeet.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/ThreeMeet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ThreeMeet.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

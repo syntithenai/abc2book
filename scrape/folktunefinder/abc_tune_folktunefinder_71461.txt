@@ -1,0 +1,28 @@
+X:432
+%%topmargin 3cm
+T:The Duchess of Athole's Favorite
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:6/8
+L:1/8
+K:A
+"Slow"c/B/ | (AE)C (A,C)E | AEA c(e/d/)(c/B/) | AEC A,(F/E/)D/C/ | B,BB TB2 Tc/B/ |
+AEC A,CE | AEA c(d/c/)(B/A/) | EFA TBAB | cAA A2 ||
+|: f/g/ | Taec (f/e/)d/c/B/A/ | aec (f/e/)d/c/B/A/ | T(B/A/)B/c/d/e/ f/e/d/c/B/A/ |
+FBB B2 Tc/d/ | (ec).A (af).d | eaf {/f}ed/c/B/A/ | E>FA TBAB | cAA A2 :|
+S:https://www.folktunefinder.com/tunes/71461
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Duchess_of_Atholes_Favorite.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0432.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

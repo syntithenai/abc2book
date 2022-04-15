@@ -1,0 +1,26 @@
+X:297
+T: DURCH FELD UND WALD
+N: F0519
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | C2A,2B,2D2 | C2F2F2
+C2 | C2A,2B,2D2 | C2F2F2
+A,2 | G,2C2EDC=B, | C4z2
+C2 | B,2A,2G,2B,2 | A,2C2A,2
+C2 | B,2A,2G,2B,2 | A,2C2A,2
+C2 | D2D2E2E2 | F8 | z6
+S:https://www.folktunefinder.com/tunes/69857
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

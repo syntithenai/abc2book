@@ -1,0 +1,30 @@
+X:424
+T: Der Reiter im Quartier (143), S. 319
+N: T0312
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Heffingen, fff Anna Kimmel, 10.3.1933
+R: historische, Kriegs- und Soldatenlieder]
+M: 6/8
+L: 1/8
+K: G
+D | GGGBGB | d3d2
+d | c2cB2B | A3z2
+D | GGGBGB | d3e2
+c | B2BA2A | G3z2
+d | d2dd2g | e3z2
+d | c2Bc2e | d3z2
+D | GGGBGB | d3e2
+c | B2BA2A | G2z3
+S:https://www.folktunefinder.com/tunes/70554
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

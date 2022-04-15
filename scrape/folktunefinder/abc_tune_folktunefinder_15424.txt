@@ -1,0 +1,27 @@
+X: 1
+T: Flickorna Svensson
+C: Pelle Svensson
+S: Peter "Puma" Hedlund at ANA Stmma East, 1999
+Z: from a transcription by Matt Fichtenbaum
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2G2 G2AG | G2FE "D7"D2EF | "G"G2AB "C"(cB)AG |[M:3/2] "D7"~F2EF G3 :|
+M:C|
+|: Bc \
+| "G"d2d2 d2ed | d2cB "D7"A2Bc | "G"d2d2 d2ed | d2cB "D7"A2D2 |
+| "C"E2G2 "D7"(FG)AF | "G"G2~B2 "D7"(AB)cA | "G"~B2AG "D7"F2EF | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/15424
+S:http://trillian.mit.edu/~jc/music/abc/march/FlickornaSvensson_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/FlickornaSvensson_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,44 @@
+X: 92
+T:Return From Fingal, The
+H:According to a (none-too-reliable) tradition, this tune was played
+H:by Brian Boru's troops on the return from the Battle of Clontarf.
+R:Marche
+Q:1/16=325
+L:1/16
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+%K:HP %also works
+K:Gdor
+%%MIDI channel 1
+%%MIDI program 1 109
+%%MIDI chordprog 109
+%%MIDI chordvol 50
+%%MIDI gchord c
+"G5"d2BA GABc|d2BA G4|cBAc f2c2|d2c2 def2|\
+d2BA GABc|d2BA G4|cBAc f2cB|A2G2 G4:|*
+a2g2 g2fe|d2c2 f2c2|d2c2 f2c2|d2c2 defg|\
+a2g2 g2fe|d2c2 f2c2|cBAc f2cB|A2G2 G4:|**
+"Gm"d2BA GABc|d2BA G4|"F"cBAc f2c2|d2c2 def2|\
+"Gm"d2BA GABc|d2BA G4|"F"cBAc f2cB|"Gm"A2G2 G4:|*
+"Gm"a2g2 g2fe|d2c2"F" f2c2|d2c2 f2c2|"Gm"d2c2 defg|\
+a2g2 g2fe|d2c2"F" f2c2|cBAc f2cB|"Gm"A2G2 G4:|**
+W:
+W:
+W:Arrangement Copyright 2000 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+%%footer $D   Galouvielle-MBe 2008 \nMarche (--)
+S:https://www.folktunefinder.com/tunes/551
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

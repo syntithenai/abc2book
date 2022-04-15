@@ -1,0 +1,23 @@
+X:1240
+T:Czech Bagpipe tune
+M:6/8
+O:Czechoslovakia
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d1c.html
+%%ID:00000d1c
+K:G
+G2G ABc | d2d edc | B2G c2A | d2d cBA |\
+G2G ABc | d2d edc | B2G A2F | G3 G3 ::
+A2A BAd | A2A GFD | G2D A2D | B2d cBA |\
+G2G ABc | d2d edc | B2G A2F | G3 G3 :|
+S:https://www.folktunefinder.com/tunes/36327
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

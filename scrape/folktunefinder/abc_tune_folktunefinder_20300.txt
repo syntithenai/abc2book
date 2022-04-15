@@ -1,0 +1,30 @@
+X:2
+T:Valse \`e Delsay (adaptiert fuer sack-pfeife)
+R:valse
+S:"Culture Populaire et Loisirs", PoitouZ
+Z:original abc transcription by Stephan Steiner
+N:adaptiert by Simon Wascher
+M:3/4
+L:1/8
+K:G
+D2 |\
+BGDGBG | dGDGBG | d2 cFAc | B2 d2 D2 |\
+BGDGBG | dGDGBG | d2 cFAc |1 B4  :|\
+                           [2 B3 ||
+|: DGB |\
+d2 dedc | B2 GDGD | c2 ADAD | B2 GDGB |
+d2 dedc | B2 GDGD | c2 ADAD |1 G3:|\
+                            [2 G4 ||
+S:https://www.folktunefinder.com/tunes/20300
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValseEDelsay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/ValseEDelsay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ValseEDelsay_2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

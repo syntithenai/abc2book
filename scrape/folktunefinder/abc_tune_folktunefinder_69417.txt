@@ -1,0 +1,32 @@
+X:558
+T: "Sehnsucht"
+N: Z1238
+O: Europa, Mitteleuropa, Tirol
+N: Die letzten 16 Takte werden auf die Silbe 'da' gesungen.
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: C
+C3D | E4E6F2 | G2E2A6
+G2 | F2D2G6F2 | E2D2C2B,2
+C2D2 | E4E6F2 | G2E2A6
+G2 | F2D2G6F2 | E8
+G4 | G4E2c2G4 | A2G2F2D2B,4
+G4F2d2B4 | c2e2d4c4
+G4E2c2G4 | A2G2F2D2B,4
+G4F2d2B4 | c8
+c4- | c4c3Bc3A | G3ee6
+c2 | B2F2D6B2 | c3Bc3de4
+c4c3Bc3A | G2e2e6
+c2 | B2F2D2B2D2B2 | c4z4
+S:https://www.folktunefinder.com/tunes/69417
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

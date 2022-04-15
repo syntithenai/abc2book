@@ -1,0 +1,21 @@
+X:645
+T:Gravel Walk
+Z: id:dc-reel-122
+M:C
+L:1/8
+K:A Dorian
+A2eA BAeB|A2ed BAGB|A2eA Bdef|gedc BAGB:|!
+A2aA gAfA|A2ed BAGB|A2aA gAfA|efge dBGB|!
+A2aA gAfA|A2ed BAGB|ABcd egfa|gedc BAGB|]!
+cAAG A3B|cAA2 dBGB|cAAG A3f|gfge dBGB:|!
+c2gc acgc|c2gc BAGB|c2gc acga|gedc BAGB|!
+c2gc acgc|c2gc BAGB|ABcd egfa|gedc BAGB:|!
+S:https://www.folktunefinder.com/tunes/66061
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

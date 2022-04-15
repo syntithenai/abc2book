@@ -1,0 +1,28 @@
+X: 7613
+T:Polkett fr J\"amtland (Hoppvals)
+R:Polkett
+C:e. Kristian Oskarsson
+O:Sweden
+N:the ornament in bar 2 is a trill
+M:2/4
+L:1/16
+A:J\"amtland
+K:D
+FG |\
+A2BA A2B2 | ~B2A2 A2FG | A2ff fed2 | e8 |\
+E3E  E2E2 | A3A A2A2 | c2Ac e2c2 | d6 :|
+|: ef |\
+g2ag f2de | f2gf e2Ac | e2Ac e2Ac | g2ag fed2 |\
+f2 (3gfe f2de | f2gf e2ed | c2Ac e2c2 | d6 :|
+S:https://www.folktunefinder.com/tunes/34830
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:1560
+T:Down the Tannoch Road
+% Nottingham Music Database
+S:AA, via EF
+M:6/8
+K:D
+P:A
+d|"D"AFG A2d|"G"c2B B2B|"A7"BEF G2c|"D"B2A "A7"A2A|
+"D"AFG A2d|"Em"e2B Bed|"A7"c2B ABc|"D"d3 d2:|
+P:B
+e|"D"f2d Adf|"Em"g2e "A7"Ace|"D"f2d Adf|"E7"efd "A7"cBA|
+"D"f2d Adf|"Em"g2e "A7"Ace|"D"faf "A7"gec|"D"edd d2:|
+S:https://www.folktunefinder.com/tunes/65060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

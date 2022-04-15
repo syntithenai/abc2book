@@ -1,0 +1,26 @@
+X:6520
+T:Untitled reel
+M:4/4
+O:Ireland
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a57.html
+%%ID:00000a57
+K:B dorian
+B3d fB df| af ed cB Ac\
+|1 B/2B/2B bB aB gB| e2 ef ed cA|
+:|2 af f/2f/2f df af| ed cA B3 c :: \
+dB FB df ed| c/2B/2A ce ae cA|
+|1\
+BF ~F2 GB dB|cB Ac B3c:|2\
+df f/2f/2f af f/2f/2f| ed cA B3:|
+S:https://www.folktunefinder.com/tunes/37383
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

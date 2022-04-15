@@ -1,0 +1,26 @@
+X:432
+T: "Lockere Wirthschaft"
+N: Z1112
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: A
+E2 | E4A2A2G2A2 | B4=c2A4
+A2 | B3=cd2e4e2 | d=cB4z4
+A2 | B2=c2d2e4d2 | =c2B2e2A4
+c2 | d3ed2=c2B2A2 | G2A2B2E4
+E2 | A2A2A2B2=c2d2 | e6B6 | A4z6
+S:https://www.folktunefinder.com/tunes/69291
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

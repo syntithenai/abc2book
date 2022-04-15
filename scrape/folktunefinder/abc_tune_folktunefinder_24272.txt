@@ -1,0 +1,25 @@
+X:3821
+T:Louisburg
+O:england
+S:EF
+M:6/8
+K:G
+P:A
+B/2c/2|"G"d2d dBc|"G"d2d dBd|"C"g2g f2e|"G"d3 "G7/f"d2B|
+"C/e"c2e "D7/f"edc|"G"B2d "Em"G2B|"Am"A2B "D7"cBA|"G"G3 G2:|
+K:D
+P:B
+F/2G/2|"D"A2d "A7/e"c2e|"D/f"d2f agf|"Em"e2f "A7"gfe|"D"d2f "A7"afd|
+"D"A2d "A7"c2e|"D"d2f "Bm"agf|"Em"e2f "A7"gfe|"D"d3 d2:|
+S:https://www.folktunefinder.com/tunes/24272
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

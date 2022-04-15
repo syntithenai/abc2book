@@ -1,0 +1,22 @@
+X: 67
+P: Mantoliinityysk\"a
+O: Jussi Hongisto
+R: shottish
+M: 4/4
+L: 1/8
+K: D
+|: A,2 \
+| "D"DE FG A2 Bc | d2 cB A2 A2 | "A7"GG GF E2 E2 | G2 FE "D"F2 D2 \
+| "D"DE FG A2 Bc | d2 cB A2 fe | "A7"d2 cB AA Bc | "D"d2 d2 d2 :|
+|: FG \
+| "D"A2 f2 "A7"G2 e2 | "D"F2 d2 "G"dB GF | "A7"E2 B2 BA GF |1,3 "D"DE FG AG :|2,4 "D"E2 D2 D2 :|
+S:https://www.folktunefinder.com/tunes/8480
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

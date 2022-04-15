@@ -1,0 +1,22 @@
+X:1
+%%scale 0.80
+T:TEST: Clefs: treble treble-8 treble8
+M:C
+L: 1/8
+K:C
+| cdef gabc' [K:treble8] | cdef gabc' [K:treble-8] | cdef gabc' [K:treble] | cdef gabc' |
+S:https://www.folktunefinder.com/tunes/2357
+S:http://trillian.mit.edu/~jc/music/abc/test/Clef_Tu8d8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Clef_Tu8d8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Clef_Tu8d8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Clef_Tu8d8.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

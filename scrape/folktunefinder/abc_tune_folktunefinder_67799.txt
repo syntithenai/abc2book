@@ -1,0 +1,28 @@
+X: 12
+T:Briuletul
+O:Romania
+S:Presented by Mihai and Alexandru David, Romanian Tour '77
+L:1/8
+M:2/4
+Q:1/4=160
+I:Set accompaniment to plucked double bass, piano or equivalent
+K:D
+%%MIDI gchord fzfz
+|:"A"E A2 c| EAcz| f/e/^d f/e/^d| e2 c2:|\
+|:"A"E A2 c| EAcz| f/e/^d f/e/^d| e2 c2:|
+|:"A"c/d/e g/f/e| g/f/e  c/d/e| g/f/e g/f/e| c2 c2 :|
+|:"A"c/d/e g/f/e| g/f/e  c/d/e| g/f/e g/f/e| c2 c2 :|
+|: "Em"B2 f2| e/^d/ef2| g/f/e "Cm"^d=c| "Em"B2B2 |\
+ "Em"B2 f2| e/^d/ef2| g/f/e "Cm"^d=c| "Em"B2B2 :|
+|:"A"A2 "Em"B2|"A"A2 "Em"B2|"A"A4|"A"A4:|
+S:https://www.folktunefinder.com/tunes/67799
+S:http://jjaquier.free.fr/midifiles/abc/balk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

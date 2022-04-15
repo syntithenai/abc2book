@@ -1,0 +1,26 @@
+X:217
+T: Scheidelied
+N: A0263
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III 1549 No. 18.
+M: 4/2
+L: 1/4
+K: A
+ |  |  | e4e2e2 | e2d2e2=g2- | g2=f4ed | e2=c2z2
+e2 | e2e2e2d2- | d2=c3Bcd | e8
+e4e2e2 | e2d2e2=g2- | g2=f4ed | e2=c2z2
+e2 | e2e2e2d2- | d2=c3Bcd | e4z2
+e2 | =g3=fe2d2 | =c2A2=G4
+z2g2g2g2 | a2=f2=g2e2- | e2d=cBAB2 | A4z4
+z2A2e2=g2 | =f4e4 | A4z2
+e2 | =g2e4d2 | d=cBAB2B2 | A8
+S:https://www.folktunefinder.com/tunes/68763
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

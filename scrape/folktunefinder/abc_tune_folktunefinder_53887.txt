@@ -1,0 +1,21 @@
+X: 19
+T:Craighall
+M:6/8
+L:1/8
+Q:1/4=120
+K:A % 3 sharps
+e|"A"fec A2 A|"D"BAF D2 F|"A"E2 e cBA|"E"GBB B2 e|!
+"A"fec A2 A|"Bm"BAF d2 F|"E7"EFA "E"BcB|"A"A3-A2:||!
+ e|"A"aga Ace|"D"f2 e fga|"A"e2 A cBA|"E"GBB B2 e|!
+"A"aga ecA|"Bm"BAF d2 F|"E7"EFA "E"BcB|"A"A3-A2:||
+% <A name="D1X020">
+S:https://www.folktunefinder.com/tunes/53887
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

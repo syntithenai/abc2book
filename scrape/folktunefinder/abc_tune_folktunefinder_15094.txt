@@ -1,0 +1,27 @@
+X: 1
+T: The Sorcerer's Apprentice
+R: jig
+C: Walt Disney's Fantasia
+C: arr. 2002-11-18 T. Traub
+%: Play AABA
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"fdf agf | "A"e2 c ABc | "D"dfb "Bm"afd | "Em"g2 f "A"e3 \
+| "D"fdf agf | "G"g2 a bag | "D"fed "A7"gec | "D"d3 "fine"d2 :|
+c \
+| "Bm"BFB    dcB | "F#"c2^A F^GA | "Bm"Bdg fdB | "A"c2 d e3 \
+|  "D"fdf "A"ece | "Bm"dBd "F#"c2 ^A | "F#"F2 f edc | "Bm"B3 "A7"A2 |]
+S:https://www.folktunefinder.com/tunes/15094
+S:http://trillian.mit.edu/~jc/music/abc/jig/SourcerersApprentice_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SourcerersApprentice_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

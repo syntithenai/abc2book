@@ -1,0 +1,31 @@
+X: 1
+T: De Colores
+O: Mexico
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+z2 \
+| "D"[A3-F3-] "A7"[A2F2][GE] | "D"[GE][F2D2] z[FD][GE] \
+|    [AF][AF]>[AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][GE][FD] |"A7"[AF][G2-E2-] [G2E2]z |
+|"A7"[G3-E3-] [G2E2][FD] | [FD][E2C2] z[GE][AF] \
+|    [BG][BG]>[BG] [BG][AF][GE] | [BG][BG]>[BG] [BG][AF][GE] | "D"[BG][A2-F2-] [A2F2]z |
+| "D"[A3-F3-] "A7"[A2F2][GE] | "D"[GE][F2D2] z[FD][GE] \
+|    [AF][AF][AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][BG][=cA] | "G"[B3G3] z |
+|: [GE][AF] | "G"[BG][BG][BG] "A7"[BG][cA]>[BG] | "D"[BG][AF]>[AF] "Bm"[AF][BG][AF] \
+|["1-N"  "Em"[AF][GE][AF] "A7"[BG][AF][GE] | "D"[F3D3] z :|
+|["last" "Em"[AF][GE][AF] "A7"[BG][AF][cGE] | "D"[d4F4D4] |]
+S:https://www.folktunefinder.com/tunes/19872
+S:http://trillian.mit.edu/~jc/music/abc/waltz/DeColores_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/DeColores_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Mexico/waltz/DeColores_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/waltz/DeColores_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

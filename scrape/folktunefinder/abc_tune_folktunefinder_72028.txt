@@ -1,0 +1,33 @@
+X:53
+T:Captain Patrick McKenzie's Strathspey (standard tuning)
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 17
+N:transposed from scordatura by Steve Wyrick
+L:1/8
+M:C
+R:Strathspey
+K:A
+%Petrie's original is in scordatura (tuning: A,EAe); see X:37 -SW
+ A        | A,<A,A,>C (EF/G/)TA>G|TF>EF<A          B/A/B/c/ B<c  |\
+            A,<A,A,>C (EF/G/) Af |(3(ef)d (3(cd)B  c<AA         :|
+(e/f/4g/4)|Ta>ga>e     c<ea<c    | dA (GBBd)                 |\
+            c<ae<a     f<aB<d    |ceEd             cAA (e/f/4g/4)|
+           Ta>ga<e     c<ea>c    |dA           GE        |\
+            F<AE<A     D<AC>A    |B,C/D/ E/C/C/B,/ CA,A,        |]
+S:https://www.folktunefinder.com/tunes/72028
+S:http://nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://nigelgatherer.com/tunes/abc/petrie/53.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/53.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

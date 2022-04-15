@@ -1,0 +1,48 @@
+X:630
+T:Quin te llava'l pauelu (CT 438)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Trubia, ayuntamiento de Uviu.
+A:Asturies
+O:Trubia (Uviu)
+Z:Cancioneru de Torner 438
+M:2/4
+L:1/8
+Q:1/4=112
+K:Cm
+GG
+|c2 dd|c2 c2|BB AG|c2 z2|
+F2 G=E|G2 =E2|F2 G=E|G2 G2-|Gz GG|
+cc dd|c2 c2|B2 AG|c2 c2|F2 G=E|G2 =E2|F2 G=E|G2 G2-|Gz GG|
+c2 dd|c2 c2|B2 AG|c2 c2|F2 G=E|G2 =E2|F2 G=E|G2 =E2|F2 G=E|G2 G2-|Gz GG|
+c2 dd|c2 c2|B2 AG|c2 c2|F2 G=E|G2 =E2|F2 GB|(A3/2 B/4A/4) G2-|G ||
+W:Quin te lava el pauelu,
+W:quisiera saber.
+W:All en Pintoria me lu lavaron.
+W:De les corrientes del agua,
+W:sala un cau
+W:Nea,
+W:t'estorben los milicianos
+W:toma, nea, esa rosa,
+W:dame la mano,
+W:que yo soy tuyu,
+W:que soy tu dueu
+W:y ando en la guerra,
+W:defendiendo a Cristina
+W:con su bandera.
+W:
+W:Y alsa, pilili,
+W:viva la reina!
+W:
+S:https://www.folktunefinder.com/tunes/59517
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

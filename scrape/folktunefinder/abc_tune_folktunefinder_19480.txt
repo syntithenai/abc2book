@@ -1,0 +1,32 @@
+X: 1
+T: Loch Ba
+C: Paul Machlis (1985)
+R: strathspey
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+d>e \
+| "Dm"f2 f>e d<A "Gm"G>c | "Dm"A<F "A7"E>F "Dm"D2 F>G \
+| "F"A2 A>B "C/e"c2 (3cde | "Dm"f>e d<g "A7"e2 d>e |
+y3 \
+| "Dm"f2 f>e d<A "Gm"G>c | "Dm"A<F "A7"E>F "Dm"D2 (3DEF \
+| "Gm"G2 (3GAB "C"c2 (3cde | "Bb"f>e "C"de "Dm"d2 |]
+g>f \
+| "Am"e<c c>B A>B c<A | "Dm"d>A FE D2 g>f \
+| "Am"e<c c>B A>B cA | "Bb"(3Bcd "C"(3cde "Dm"(3def "C"(3efg |
+y3 \
+| "Dm"a>g f<e d<A "Gm"G>c | "Dm"A<F "A7"E>F "Dm"D2 (3ABc \
+| "Gm"d2 "(C)"(3GAB "F"c2 (3FGA | "Gm"G>F "A7"EF "Dm"D2 |]
+S:https://www.folktunefinder.com/tunes/19480
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LochBaS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LochBaS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

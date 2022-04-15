@@ -1,0 +1,23 @@
+X: 3
+P: Major Mackie's Jig
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"ABc dcd | "G"B2e "Em"e2d | "A7"c2a a^ga | "D"f2d "A7"dcB \
+| "D"ABc dcd | "G"B2e "Em"e2d | "A7"c2a gfe | "D"d3- d2 :|
+|: e \
+| "Bm"f2f def | "Em"g2[gB] g2f | "A7"e2e cde | "D"f2[fA] f2e \
+| "Bm"d2d def | "Em"g2[gB] e2d | "A7"c2a gfe | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/9842
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AirieBennan1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

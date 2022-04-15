@@ -1,0 +1,25 @@
+X: 1
+T: Teetotaler's Reel
+T: Temperance Reel
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: C|
+L: 1/8
+K: G
+"D7"D2 | "G"G2GF GABc | dBeB dBAG | "Em"BEED EFGA | "Am"BGAF "D7"GFED | "G"G2GF GABc |
+| dBeB dBAG | "Em"BEED EFGA | "D7"BGAF "G"G2 || B2 | "Em"Beed e3f | "Em"geaf "A7"gfed |
+| "D"Add^c d3e | fdaf "Bm"gfed | "Em"Beed e3f | "Em"geaf "A7"gfed | "Em"BEED EFGA | "D7"BGAF "G"G2 |]
+S:https://www.folktunefinder.com/tunes/18201
+S:http://trillian.mit.edu/~jc/music/abc/reel/TeetotalersR_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/TeetotalersR_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TeetotalersR_G3.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

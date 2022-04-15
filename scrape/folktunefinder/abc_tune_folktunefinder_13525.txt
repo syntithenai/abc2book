@@ -1,0 +1,32 @@
+X: 1
+T: the Crooked Hornpipe
+C: Ralph Page
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"Aafd "A7"Agec | "D"Aafd dcBA | "G"BgAf "Em"GeFe | "A7"efge dcBA | "D"Aafd "A7"Agec |
+| "D"defd A2dc | "G"Bcde "A7"fa^ga | "D"d2d2 d2 :: cd | "A"eAfA gAfA | "A7"eAce dcBA |
+| "G"BbAa "Em"GgFf | "A7"efge dcBA | "G"Bbge "D"Aafd | "A7"Ggec "Bm"d2dc | "Em"Bcde "A7"fABc | "D"d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/13525
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/CrookedHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/CrookedHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/CrookedHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/CrookedHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/CrookedHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/CrookedHp_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/hornpipe/CrookedHp_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/CrookedHp_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/hornpipe/CrookedHp_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/CrookedHp_D.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

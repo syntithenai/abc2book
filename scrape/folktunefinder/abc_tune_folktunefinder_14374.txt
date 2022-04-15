@@ -1,0 +1,26 @@
+X: 1
+T: Ingonish Jig
+R: jig
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+M: 6/8
+L: 1/8
+K: Edor
+   A \
+| "Em"B2e efg | "D"fef dBA | "Em"B2e efg | "D"afe d2A \
+| "Em"B2e efg | "D"fef dBA | "G"Bcd "D"AFD | "Em"EFE E2 :|
+|: e \
+| "Em"BEE BEB | "D"AFD DFA | "Em"BEE BdB | "D"ADF Adc \
+| "Em"BEE BdB | "D"AFD DFA | "G"Bcd "D"AFD | "Em"EFE E2 :|
+S:https://www.folktunefinder.com/tunes/14374
+S:http://trillian.mit.edu/~jc/music/abc/jig/IngonishJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/IngonishJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/IngonishJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IngonishJ_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

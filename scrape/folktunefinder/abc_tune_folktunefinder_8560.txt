@@ -1,0 +1,28 @@
+X: 17
+P: Vals fr\aan Orsa
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+S: Kathie Aagaard; Tre Spelm\"an
+N: Some players repeat only the 2nd half of the third part.
+M: 3/4
+L: 1/8
+K: D
+|: FG \
+| "D"A3A A2 |    AB AG FA | d4 de | "A7"d2 cA ce | "D"f4 fa | "A7"a2 gf ed | c2 eg fe | "G"d2 Bd BG |
+| "A7"A4 FG | "D"AB AG FA | d4 de | "A7"d2 cA ce | "D"f4 fa | "A7"a2 gf ec | Ac eg fe | "D"d4 :|
+|: g2 \
+| "G"b2 gb gb | "D"a2 fd  fa | "A7"ab ag ec | "D"A2 df a2 \
+| "G"b2 gb gb | "D"a2 fd  fa | "A7"ab ag ec | "D"d4 :|
+|: A2 \
+| "D"A2 d2 g2 | f3 e d2 | "G"d2 gb gb | "D"a3 f d2 | "Dm"de =f2 d2 | "Am"e4 =c2 | "G"B2 Bd BG | "A7"A4 A2 |
+| "D"A2 f2 a2 | "A7"g3 f g2 | "D"A2 d2 f2 | "A7"e3 d e2 | AB c2 d2 | "Em"E3 G B2 | "A7"AB AG EC | "D"D4 :|
+S:https://www.folktunefinder.com/tunes/8560
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Vals.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

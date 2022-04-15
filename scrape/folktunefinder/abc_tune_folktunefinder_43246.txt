@@ -1,0 +1,24 @@
+X: 14
+T:The Warrior's Grave
+B:Scott Skinner: Harp and Claymore (1903)
+Z:Jack Campin 1999
+M:4/4
+L:1/8
+Q:1/4=72
+K:A Minor % originally D minor, for the fiddle
+{^g}a2e>d cB    A2   |   F>>A E>>A ^G>>B e/^g/b|\
+{^g}a2e>d cB/A/ GF/E/|[1 D>>F E>>^G A4        :|
+                      [2 D>>F E>>e  A3g       ||\
+c'>bag ^fg ec|f>edc     BA^Ge     |    c'>ba^g ae    e>f  |ec   cB
+A2Ag|
+c'>bag ^fg ec|A>^G=G>c  A>B e/^g/b|{^g}a2  e>d cB/A/ GF/E/|D>>F E>>e {e}
+A4 |]
+S:https://www.folktunefinder.com/tunes/43246
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

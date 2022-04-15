@@ -1,0 +1,29 @@
+X: 1
+T: The Green Fields of Rockall
+S: Francie Byrne, via Danny O'Donnell
+N: played after "The Launching of the Boat"
+Z: Paul de Grae  irtrad-l 2001-5-17
+R: reel
+M: 4/4
+L: 1/8
+K: G
+DF \
+|  G2BG A2Bc | dBcA  BGAF | DGBG A2Bc | (3dcB cA BGB,D |
+   G2BG A2Bc | dBcA  BGAF | DGBG A2Bc | (3dcB cA BG :| G2 ||
+|: gfge fafd | efed ^cdef | gfge abaf | gbaf gdBd |
+   gbge fafd | efed ^cdef | gdBd ecAd | BGAF DGG2 :|
+S:https://www.folktunefinder.com/tunes/17296
+S:http://trillian.mit.edu/~jc/music/abc/reel/GreenFieldsOfRockall_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GreenFieldsOfRockall_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GreenFieldsOfRockall_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

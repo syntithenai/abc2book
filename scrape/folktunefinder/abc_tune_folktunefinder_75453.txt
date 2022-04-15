@@ -1,0 +1,19 @@
+X: 1
+T:Canny Newcassel
+M:6/8
+L:1/16
+K:D
+A2|d3cd2 F3GA2|G3FG2 E4AG|F3ED2A3GF2|F2E4z2A2|d3cd2F3GA2|G3FG2E4AG|F3GA2
+B2e2c2|D2d4z2||dc|c3BA2 d4d2|c3BA2d4AG|F3GA2 A2G2F2|F2E4z2d2|c3BA2d2d2d2
+|c3BA2d4FG|A2B2A2A2G2F2|E2D4z2||A2|d3cd2 F3GA2|G3FG2E4AG|
+F3ED2 A3GF2|F2E4z2|d3cd2 F2GA2|G3FG2E4AG|F3GA2B2e2c2|d2d4z2||
+% Output from ABC2Win  Version 2.1 i on 3/3/2000
+S:https://www.folktunefinder.com/tunes/75453
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

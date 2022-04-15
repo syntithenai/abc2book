@@ -1,0 +1,38 @@
+X:3
+T:William and Nancy
+T:New Mown Hay
+T:Legacy, The
+C:Trad.
+O:Bledington, Gloucestershire % place of origin
+B:Sussex Tune Book            % also in these books
+B:Mally's Cotswold Morris vol.1 2
+D:Morris On                   % you can hear it on this record
+P:(AB)2(AC)2A                 % play the parts in this order
+M:6/8
+K:G
+P:A                   % part A
+D|&quot;G&quot;G2G GBd|&quot;C&quot;e2e &quot;G&quot;dBG|&quot;D7&quot;A2d &quot;G&quot;BAG|&quot;C&quot;E2&quot;D7&quot;F &quot;G&quot;G2:|
+P:B                   % part B
+d|&quot;G&quot;e2d B2d|&quot;C&quot;gfe &quot;G&quot;d2d| &quot;G&quot;e2d    B2d|&quot;C&quot;gfe    &quot;D7&quot;d2c|\
+  &quot;G&quot;B2B Bcd|&quot;C&quot;e2e &quot;G&quot;dBG|&quot;D7&quot;A2d &quot;G&quot;BAG|&quot;C&quot;E2&quot;D7&quot;F &quot;G&quot;G2:|
+T:Slows
+M:4/4                 % change meter
+L:1/4                 % and default note length
+P:C                   % part C
+&quot;G&quot;d2|&quot;C&quot;e2 &quot;G&quot;d2|B2 d2|&quot;Em&quot;gf &quot;A7&quot;e2|&quot;D7&quot;d2 &quot;G&quot;d2|&quot;C&quot;e2 &quot;G&quot;d2|\
+M:3/8
+L:1/8
+&quot;G&quot;B2d|\
+M:6/8
+&quot;C&quot;gfe &quot;D7&quot;d2c|\
+  &quot;G&quot;B2B Bcd|&quot;C&quot;e2e &quot;G&quot;dBG|&quot;D7&quot;A2d &quot;G&quot;BAG|&quot;C&quot;E2&quot;D7&quot;F &quot;G&quot;G2:|
+S:https://www.folktunefinder.com/tunes/48796
+S:http://abc.sourceforge.net/standard/abc2-draft.html
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

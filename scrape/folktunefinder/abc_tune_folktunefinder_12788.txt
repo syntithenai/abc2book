@@ -1,0 +1,23 @@
+X: 1
+T: The Kerry Dancing
+O: Trad
+R: jig, air
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: F
+%%staffsep 30
+[| "F"F2G A>GF | "Bb"B2d "F"c2A | "Dm"f2A A>GF | "G(m)"G2D "C"E3 |
+S:https://www.folktunefinder.com/tunes/12788
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/KerryDancing.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/KerryDancing_Fw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/KerryDancing_Fw.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/song/KerryDancing_Fw.abc
+% Rhythm Jig, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

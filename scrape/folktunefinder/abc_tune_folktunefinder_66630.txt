@@ -1,0 +1,31 @@
+X:2
+T:The Abbey Reel
+T:The Crosses of Annagh
+C:Traditional
+D:Moher, "Out on the Ocean"
+N:Play 3 Times
+N:The Corofin Plain Set, Figure 1, Tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:reel
+M:C
+L:1/8
+K:Amix
+~A3B AGEG | ~A3G BcdB | ~A3B AGEF  | ~G3A BcdB :||
+e~g3 ~a3b | gabg ageg | e~g3 ~a3g | bgef gedg |
+e~g3 agbg | agbg ageg | e~g3 ~a3g | bgef gedB ||
+S:https://www.folktunefinder.com/tunes/66630
+S:http://theflow.org.uk/text/flow_corofin.txt
+S:http://www.theflow.org.uk/text/flow_corofin.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

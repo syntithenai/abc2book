@@ -1,0 +1,25 @@
+X:16
+T: Lindenschmid
+N: A0377B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin 1646 hs. Sammlung S. 1589.
+R: Romanze, Ballade, Lied, Personenlied
+M: 3/2
+L: 1/4
+K: A
+A2A2A2 | A4=G2 | =c4B2 | =c6
+B2A2A2 | d4d2 | A4B2 | A4
+A2 | d4d2 | B4A2 | =G3AB2 | =G6
+G2=c2d2 | e4d2 | =c4B2 | =c6
+B2A2A2 | E3FG2 | A2B4 | A6
+S:https://www.folktunefinder.com/tunes/80075
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

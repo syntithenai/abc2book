@@ -1,0 +1,19 @@
+X: 3
+P: Polska fr\aan N\aasf\"ora
+R: polska-mazurka
+M: 3/4
+L: 1/8
+K: G
+|: "G"G>A BD G>B | "C"c>e dc B>A |1,3 "D7"D>F AD F>A | c>e dc B>A \
+                                :|2,4 "D7"DF/A/ dA F>A | "G"G2 G4 :|
+|: "G"GB/d/ g2 g2 | "D7"g2 fe f2 | "C"f2 e2 e>g | "G"f>e d4 \
+|  "C"dB c2 c2 | "G"cB/A/ B4 | "D7"F>A d2 F>A | "G"G2 G4 :|
+S:https://www.folktunefinder.com/tunes/9062
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Nasfora1.abc
+% Rhythm Polska-mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

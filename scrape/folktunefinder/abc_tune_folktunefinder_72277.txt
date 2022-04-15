@@ -1,0 +1,30 @@
+X: 28
+T:Untitled,fragment. HA.029
+M:C
+Q:200
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:I can't make sense of this in any key yet. as a melody. Could it be a
+N:harmony lineCGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:C
+"No Key Sig"B2G2G2g2|(gf)(ed) B4|\
+(fg)(fd) (Bd)(fc)|(AB)(cA) f2 f2|!
+G2b2a2B2|(fg)(af) "cr"g3g|\
+(fe)(fd) ef g2|(c2Bc) d4||!
+"sic"b(ag) (ad)|g2a2b4|(ba)(gf) (ed)(cB)|!
+(de)f2 A3 A|"sic"(Ac)(dB) (de) (fd)|"music runs out"zzzz||
+S:https://www.folktunefinder.com/tunes/72277
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

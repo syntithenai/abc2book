@@ -1,0 +1,36 @@
+X: 1
+T: Facteur Gordon
+C: Claude M\'eth\'e
+O: Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: Amix
+"A"\
+|: a2ea a2ea | agec Acef | g2ga gfeg | fedf eece |
+|  a2ea a2ea | agec Acef | g2ga gfeg |2 fedf e4 :|2 fedf e2cd |
+"B"\
+|: eaec ecAc | BGBd gfed | eaec ecAc | BGBd c2Ac :|
+"B'"\
+|: ecec A2DF | EGBd gfed | eaec A2DF |1 EGBd c2Ac :|2 EGBd c2AF |
+"C"\
+|: EFGA [B2E2]EB | cBcd ecAF | GFGA Beee | dece BcBA |
+|  EFGA [B2E2]EB | cBcd ecAF | GFGA BAAA |1 GAFA EFED :|2 GAFA [A2E2]^g2 |
+"D"\
+|: a2ce aece | g2Bd gBdg | f2df Afdf | eaec ABAF |
+|  GFGA [B2E2]EB | cBcd ecAF |1 GFGA Beee | dece [B2E2]^g2 :|2 GFGA BAAA | GAFA [A4E4] |]
+S:https://www.folktunefinder.com/tunes/17113
+S:http://trillian.mit.edu/~jc/music/abc/reel/Facteur_Gordon_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Facteur_Gordon_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Facteur_Gordon_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/Facteur_Gordon_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/reel/Facteur_Gordon_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

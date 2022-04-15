@@ -1,0 +1,34 @@
+X: 1
+T: Fraser's Fiddle
+C: Muriel Johnstone
+R: reel
+B: The Whiteaddr Collection, 1993
+D: Dancing Fingers Vol.III
+N:
+N: Muriel Johnstone and Bill Zobel   Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|: "F"CFAF "Bb"GFDF | "F"C2cd "C7"cAGA |  "F"CFAF "Bb"GFDF | "F"CDFA "C7"GABd |
+| "F"cfaf "Bb"gfdf | "F"cfaf "C7"gabg | "Dm"agfd cA"F"Ac | "Gm"BA"F"cF "Bb"GF"C7"DF |
+| "F"C2ag "Bb"fddf | "F"cFAG "Dm"F2Ac | "Bb"d2DC DF"Gm"DC | DF"Bb"DC "Gm"DF"C7"DC |
+| "F"C2ag "Bb"fddf | "F"cF"A7"AG "Dm"F2Ac | "Bb"d2DC DFDC |1"F"CD"Dm"FA "Gm"GA"C7"Bd :|2 "F"CD"Dm"FA "C7"G2"F"F2 |]
+S:https://www.folktunefinder.com/tunes/17199
+S:http://trillian.mit.edu/~jc/music/abc/reel/FrasersFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/FrasersFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FrasersFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/FrasersFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FrasersFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/FrasersFiddleR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: Roaring Mary
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+|: DF (3FEF AF (3FEF | df (3fef g2fe | dedB     AFAB     | defd     efdB  |
+|  DF (3FEF AF (3FEF | df (3fef g2fe | dedB     ABdf     | afeg     fdd2 :|
+|: abag     fgfe     | dedA     BGG2 | eg (3gfg bg (3gfg | af (3fef gee2  |
+|  DF (3FEF AF (3FEF | df (3fef g2fe | dedB     ABdf     | afeg     fdd2 :|
+S:https://www.folktunefinder.com/tunes/18034
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoaringMary_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/RoaringMary_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RoaringMary_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

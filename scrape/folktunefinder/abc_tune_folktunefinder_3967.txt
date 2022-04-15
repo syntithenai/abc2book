@@ -1,0 +1,23 @@
+X: 1
+T: Old Hob
+T: The Mouse Trap
+O: Walsh 1719
+M: 6/8
+L: 1/8
+K: C
+C \
+| "C"C2D E2F | "G"G2A B>AG | "F"ABc "G"dBG | "C"Gc2- c2C \
+|"Am"C2D E2F |  "G"G2A B>AG | "F"ABc "G"dBG | "C"Gc2- c2 :|
+|: B/c/ \
+| "G"dBG "C"c>de | "F"A2 "Dm"f3 | "C"edc "D"d>cd | "G"G3- G2e \
+| "Dm"f2e d2c | "G"B>cd G2G | "F"A>Bc "G"d>BG | "C"Gc2- c2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/3967
+S:http://trillian.mit.edu/~jc/music/abc/England/OldHob.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

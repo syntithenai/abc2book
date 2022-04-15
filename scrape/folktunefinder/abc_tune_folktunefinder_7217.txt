@@ -1,0 +1,32 @@
+X: 2
+T: Nakhes fun kinder
+O: Belf
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Ephr^G
+"B"\
+|:"E"e2ee e2e2 "Dm"d2cd "E"e4 \
+| "E"z2ee eeee "Dm"d2cd "E"e4 \
+| "E"z2g2 g2e2 "Am"a3g gffe |
+| "E"z2gg gggg "Am"a3g gffe \
+| "E"e4 "Dm"dcd2 "E"e8 :| \
+"C"\
+|:"Am"z2AA A2A2 "E"A2GA B4 \
+|  "E"z2G2 G2G2 G2FG F2E2 |
+| "Am"z2A2 A2A2 A2GA e4 \
+|  "E"z2G2 G2G2 G2FG F2E2 \
+|  "E"E4 "Dm"DCD2 "E"E8 :| \
+"D"\
+|:"Am"e2e2 e2dc "E"Bcd2- d4 |
+| "Am"cBcB dcBA "E"GAB2- B4 \
+| "Dm"AGAG BAGF "E"EFG2- GFED \
+| "Dm"DEFG G3F "E"FEE2- E4 :|
+S:https://www.folktunefinder.com/tunes/7217
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/NakhesFunKinder.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

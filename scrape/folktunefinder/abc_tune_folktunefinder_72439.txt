@@ -1,0 +1,39 @@
+X: 190
+T:Untitled. HA.189
+M:C
+L:1/8
+Q:1/4=180
+C:"J.A."
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:single(-) and double(=) slashes marked.Minims in line 3 not dotted in
+N:MS (or maybe too faint)
+N:Single and double slashes give some indication of style, assuming the
+N:me
+N:ing is as
+N:same as modern usage.
+N:Numerous marks (may not be original) present above and below notes in
+N:MS
+N:but meaning not clear. NB
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+AB|A2d2A2d2|A4"-"F2 AB|A2d2B2e2|"="c6 ef|!
+e2a2e2a2|e4"="c2 ef|e2 dc BcBA|A6:|!
+|:ef|e2a2e2a2|e4"="c2ef|e2c2d2e2|"as writ"f4fg|!
+f2b2a2b2|f2b2a2b2|f2 ed cdcB|"as writ"B4Bc|!
+d2c2B2A2|G3FE2 ef|e2d2c2B2|"="A3GF2 AB|!
+A2d2A2d2|"="A3GF2 AB|A2d2A2 (ef)|"v"d6:|]
+S:https://www.folktunefinder.com/tunes/72439
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

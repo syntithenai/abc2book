@@ -1,0 +1,97 @@
+X: 1
+T: 
+N: Instrument Channel 10 ... [Acoustic Grand Piano]
+N: Instrument Channel 10 ... [Acoustic Grand Piano]
+N: Instrument Channel 13 ... [Synth Drum]
+N: Instrument Channel 13 ... [Synth Drum]
+N: Instrument Channel 2 ... [Electric Bass (Finger)]
+N: Instrument Channel 2 ... [Electric Bass (Finger)]
+N: Instrument Channel 3 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 3 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 16 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 16 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 5 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 5 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 6 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 6 ... [Acoustic Guitar (Steel)]
+N: Instrument Channel 7 ... [Distortion Guitar]
+N: Instrument Channel 7 ... [Distortion Guitar]
+N: Instrument Channel 8 ... [Overdriven Guitar]
+N: Instrument Channel 8 ... [Overdriven Guitar]
+N: Instrument Channel 12 ... [Helicopter]
+N: Instrument Channel 12 ... [Helicopter]
+N: Instrument Channel 11 ... [String Ensemble 2]
+N: Instrument Channel 11 ... [String Ensemble 2]
+N: Instrument Channel 9 ... [Cello]
+N: Instrument Channel 9 ... [Cello]
+N: Instrument Channel 14 ... [Flute]
+N: Instrument Channel 14 ... [Flute]
+N: Instrument Channel 1 ... [Flute]
+N: Instrument Channel 1 ... [Flute]
+M: 4/4
+L: 1/8
+Q:1/4=91
+N: Last note suggests minor mode tune
+K:G
+%DRIVE        
+z8|z8|z8|
+%%MIDI program 10 0
+%%MIDI program 10 0
+%%MIDI program 13 118
+%%MIDI program 13 118
+%%MIDI program 2 33
+%%MIDI program 2 33
+%%MIDI program 3 25
+%%MIDI program 3 25
+%%MIDI program 16 25
+%%MIDI program 16 25
+%%MIDI program 5 25
+%%MIDI program 5 25
+%%MIDI program 6 25
+%%MIDI program 6 25
+%%MIDI program 7 30
+%%MIDI program 7 30
+%%MIDI program 8 29
+%%MIDI program 8 29
+%%MIDI program 12 125
+%%MIDI program 12 125
+%%MIDI program 11 49
+%%MIDI program 11 49
+%%MIDI program 9 42
+%%MIDI program 9 42
+%%MIDI program 14 73
+%%MIDI program 14 73
+%%MIDI program 1 73
+%%MIDI program 1 73
+E,,B, EE/2E,G,/2E,, FD,/2D,/2|
+C,C, B,E/2E,G,/2A,, G,G,/2G,/2|E,,E, EE/2E,G,/2E,, FD,/2D,/2|C,C, B,E/2E,G,/2A,,/2E,,/2 G,/2E,,/2G,/2G,/2|E,,E,, GE/2E,/2 G,,,/2G,/2E,, FF/2E,/2|
+C,C, E/2C,,/2E/2E,/2 F,,/2G,/2A,, EE,/2E,/2|E,,E,, GE/2E,/2 G,,,/2G,/2E,, FF/2E,/2|C,C, E/2C,,/2E/2E,/2 F,,/2G,/2A,,/2E,,/2 E/2E,,/2E,/2E,/2|E,,E,, EE/2E,/2 F,/2G,/2E,, F/2G,,,/2E,/2D,/2|
+F,E,/2F,/2 B,F,/2E,/2 F,,/2G,/2A,, G,/2A,,,/2E,/2G,/2|F,=F,/2G,/2 EE/2E,/2 ^F,/2G,/2E,,/2G,/2 F/2G,,,/2D,/2D,/2|C,C, B,E/2E,/2 F,,/2G,/2A,,/2E,,/2 G,/2A,,,/2G,/2G,/2|E,,E,, EE/2E,/2 F,,/2G,/2E,, F/2G,,,/2E,/2D,/2|
+E,E,/2F,/2 B,/2E,/2E/2E,/2 F,,/2G,/2E, F,/2A,,,/2G,/2G,/2|F,G,/2G,/2 EE/2E,/2 G,/2G,/2D,/2D,/2 F/2G,,,/2D,/2D,/2|C,C, B,E/2E,/2 F,,/2G,/2A,,/2E,,/2 G,/2G,,,/2G,/2G,/2|C,z EF,,/2E,/2 E/2B,/2E EA,,|
+zA,, E^C/2F,,/2 EB,/2^C/2 E/2B,/2E|C,C,, EF,,/2E,/2 EE EE|zA, EE/2F,,/2 EE EE|C,z EF,,/2E,/2 EE EA,,|
+zA,, EF,,/2F,,/2 E/2B,/2B,/2^C/2 E/2B,/2E|C,C,, EF,,/2E,/2 EE E/2A,/2E-|EA,2E EE/2E,,/2 E/2E,,/2E/2E,,/2|E,,E,, GB,/2E,/2 G/2G,/2E,, FF/2E,/2|
+C,C, E/2C,,/2D/2E,/2 F,,/2G,/2A,, EE,/2E,/2|E,,E,, GE,,,/2E,/2 G,,,/2G,/2E,,/2E,/2 F/2A,/2F/2E,/2|C,C,/2B,/2 E/2C,,/2F,,/2E,/2 F,,/2G,/2A,,/2E,,/2 E/2E,,/2E,/2E,/2|E,,E,, GB,/2E,/2 G/2G,/2E,, FF/2E,/2|
+C,C, E/2C,,/2D/2E,/2 F,,/2G,/2A,, EE,/2E,/2|E,,E,, GE,,,/2E,/2 G,,,/2G,/2E,, FF/2E,/2|C,C, E/2C,,/2B/2E,/2 F,/2G,/2A,,/2E,,/2 E/2E,,/2E,/2E,/2|eE,, E/2B,,/2E/2E,/2 F,,/2G,/2E,, FD,/2D,/2|
+E,E,/2E,/2 B,/2E,/2F,/2E,/2 F,,/2G,/2A,, F,E,/2G,/2|F,F,/2F,/2 EE/2E,/2 F,,/2G,/2G,/2G,/2 FD,/2D,/2|C,C, B,E/2E,/2 F,,/2G,/2A,,/2E,,/2 G,/2E,,/2G,/2G,/2|E,,E,, EE/2E,/2 e/2G,/2B FE,/2D,/2|
+E,/2E,/2B/2F,/2 B,E,/2E,/2 e/2G,/2B/2E,/2 E,E,/2G,/2|F,/2F,/2E,,/2F,/2 EE/2E,/2 F,,/2G,/2E FE/2D,/2|EB B,B/2E,/2 e/2G,/2B/2E,,/2 e/2E,,/2B/2G,/2|C,C,, EF,,/2E,/2 E/2B,/2E EA,,|
+zA,, E^C/2E,,,/2 E/2G,,,/2B,/2G,,,/2 E/2G,,,/2E/2G,,,/2|C,C,, EF,,/2E,/2 EE/2D/2 E/2D/2E|zA, EE/2E,,,/2 EE EE|C,C,, EF,,/2E,/2 EE EA,,|
+zA,, EF,,/2E,,,/2 E/2G,,,/2B,/2G,,,/2 E/2G,,,/2E/2G,,,/2|C,D ED/2E,/2 EE EE-|EE EE EE/2E,,/2 E/2E,,/2E/2E,,/2|E,,E,, GB,/2E,/2 G/2G,/2E,, FF/2E,/2|
+C,C, E/2C,,/2D/2E,/2 e/2G,/2A,, EE,/2E,/2|E,,E,, GE,,,/2E,/2 G,,,/2G,/2E,,/2E,/2 F/2A,/2F/2E,/2|C,C,/2B,/2 E/2C,,/2B/2E,/2 e/2G,/2A,,/2E,,/2 E/2E,,/2E,/2E,/2|E,,E,, GB,/2E,/2 G/2G,/2E,, FF/2E,/2|
+C,C, E/2C,,/2D/2E,/2 e/2G,/2A,, EE,/2E,/2|E,,E,, GE,,,/2E,/2 G,,,/2G,/2E,, FF/2E,/2|C,C, E/2C,,/2F,,/2E,/2 F,/2G,/2E/2E,,/2 E/2E,,/2E,/2E,/2|EE,, GB/2E,/2 F,,/2G,/2A FF/2E,/2|
+C,C, EA/2E,/2 F,,/2G,/2D EE,/2E,/2|EE,, GE,,,/2E,/2 F,,/2G,/2E FF/2E,/2|C,E EC,,/2E,/2 F,,/2G,/2G/2E,,/2 E/2E,,/2E,/2E,/2|BE,, GA/2E,/2 F,,/2G,/2d FF/2E,/2|
+C,A EB/2E,/2 E/2G,/2A,, EE,/2E,/2|ED GE,,,/2E,/2 F,,/2G,/2A FF/2E,/2|AG EE/2E,/2 E/2G,/2D/2E,,/2 E/2E,,/2E,/2E,/2|B,C,, EF,,/2E,/2 E/2B,/2E EA,|
+zA,, EB,/2E,,,/2 E/2G,,,/2F,,/2G,,,/2 E/2G,,,/2E/2G,,,/2|G,C,, EF,,/2E,/2 EE EE-|EA,2F,2E, E,2|A,,/2E,,/2E,,/2E,,/2 E,,/2E,,/2E,,/2E,,/2 E,,/2E,,/2E,,/2E,,/2 E,,/2E,,/2E,,/2A,/2|
+eB GB/2E,/2 e/2G,/2B FF/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B EE,/2E,/2|eB GB/2E,/2 e/2G,/2B/2E,/2 F/2A,/2F/2E,/2|eB/2B,/2 E/2C,,/2B/2E,/2 e/2G,/2B/2E,,/2 E/2E,,/2E,/2E,/2|
+eB GB/2E,/2 e/2G,/2B FF/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B EE,/2E,/2|eB GB/2E,/2 e/2G,/2B FF/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2E,,/2E,,/2 E,,/2E,,/2E,,/2E,/2|
+eB GB/2E,/2 e/2G,/2B F/2A/2F/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B E/2A,,/2E,/2E,/2|e/2E,,/2B GB/2E,/2 e/2G,/2B FF/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B/2E,,/2 E,,/2E,,/2E,,/2E,/2|
+eB GB/2E,/2 e/2G,/2B F/2A/2F/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B E/2A,,/2E,/2E,/2|e/2E,,/2B GB/2E,/2 e/2G,/2B FF/2E,/2|eB E/2C,,/2B/2E,/2 e/2G,/2B/2E,,/2 E/2E,,/2E,/2E,/2|
+eB EF,,/2E,/2 EE E/2A,,/2E-|E8-|E8|
+S:https://www.folktunefinder.com/tunes/53067
+S:http://community.codemasters.com/forum/archive/index.php/t-194110.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

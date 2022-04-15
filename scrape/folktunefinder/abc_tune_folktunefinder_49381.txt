@@ -1,0 +1,31 @@
+X:71
+T: Pariserpolka
+O:norway
+R:
+S: etter Sigbj\orn B Osa
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "D"Adef e2d2 | "G"g2B2 g2B2 | "A7"Aceg f2e2 | "D"a2d2 f2d2 \
+|  Adfa g2f2 | "Em"b2e2 g2e2 | "A7"Aceg f3e | "D"d2f2 d4 :|
+K: A
+|: "A"[f4A4]- [e4A4] | [c2e4]A2 [c2e4]A2 | [f4A4]- [e4A4] | "E7"[d2e4]B2 [d2e4]B2 \
+| [f4d4]- [e4d4] | [d2e4]B2 [d2e4]B2 | [f4d4] e3c | "A"A2c2 A4 :|
+K: D
+|: "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"d2f2 dcd2 \
+|  "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"[d4F4] [d4F4] :|
+S:https://www.folktunefinder.com/tunes/49381
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

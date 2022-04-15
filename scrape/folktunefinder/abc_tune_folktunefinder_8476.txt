@@ -1,0 +1,26 @@
+X: 63
+P: Reinlendar etter Ringnesen
+R: shottish (reinlendar)
+O: Norway
+B: Folklore Village booklet
+N: Just "Norsk Schottis" in some transcriptions
+M: C
+L: 1/8
+K: D
+|: "D"DF ED A2 A2 | DF ED f2 f2 \
+|1,3 "Em"gf ed "A7"cB A2 | cB AG "D"FE D2 \
+:|2,4"Em"gf ed "A7"cA Bc | "D"d2 d2 d2 z2 :|
+|: ef \
+| "G"g2 B2 Bg fe | "D"f2 A2 Af ed \
+|1,3 "A7"c2 E2 Ec Bc | "D"d2 F2 Ad \
+:|2,4"A7"c2 EF GA Bc | "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/8476
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish (reinlendar)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

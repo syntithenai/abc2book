@@ -1,0 +1,35 @@
+X: 1
+T: La Valse Des Pastouriaux
+C: Jackie Molard
+N: Played both as a waltz and a jig
+D: Fest-Noz by Pennou Skoulm
+D: Pennou Skoulm by Pennou Skoulm
+F: http://www.thesession.org/tunes/display/7880
+M: 3/4
+L: 1/8
+R: waltz
+K: G
+D2 \
+| ~G3  A Bc | de dc BG | c2 cB AG | AB AF D2 |
+| ~G3  A Bc | de dc BG | cB AG FG | A4 :|
+|: d2 \
+|  ed eg fa | ~g3 d BG | cB AG FG | A2 ag fd |
+|1 ed eg fa | ~g3 d BG | cB AG FG | A4 :|
+|2 e2 eg fa | ~g3 d BG | cB AG DF | G4 |]
+S:https://www.folktunefinder.com/tunes/20298
+S:http://www.thesession.org/tunes/display/7880
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValseDesPastouriaux_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/waltz/ValseDesPastouriaux_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/ValseDesPastouriaux_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ValseDesPastouriaux_G.abc
+% Rhythm Waltz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

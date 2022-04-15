@@ -1,0 +1,32 @@
+X: 25
+T: Malhao
+O: Portugal
+M: 4/4
+L:1/16
+Q: 1/4=80
+K: G
+%%MIDI program 46
+GGBB dddG GGBB dddG|\
+FFAA dddG  FFAA dddG|
+GGBB dddG  GGBB dddG|\
+fede cdBc  ABG2- G4|
+L:1/8
+%%MIDI program 56
+%%MIDI drum z4dddz 35 35 35
+|:\
+%%MIDI drumoff
+zG/G/ GF/E/|\
+%%MIDI drumon
+DD-D2z F FE/D/|\
+  GG-G2:|
+%%MIDI drumoff
+|:z D/2D/2 DE | DF/2F/2 FE DD/2C/2 B,A, | G,G, G,2 :|
+S:https://www.folktunefinder.com/tunes/81296
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

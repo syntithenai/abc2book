@@ -1,0 +1,40 @@
+X:1
+T:Westville Polka
+S:Jehile Kirkhuff, Susquehanna Co., PA
+Z:Joel Shimberg  tradtunes 2001-03-06
+N:
+N:Jehile Kirkhuff was a blind fiddler who lived on a mountain in Northeast
+N:Pennsylvania. He was a good match for the stereotype of the Southern
+N:Appalachian fiddler, apart from the geography. His area is, in fact, near
+N:the northern limits of the Appalachian range. For years, Jehile had
+N:traveled a few circuits in Pennsylvania and New York, where people looked
+N:forward to the next square dance he would play. He had lost his sight in
+N:his teens (I believe -- I'm not sure of the chronology.).
+N:
+N:He played quite slowly and clearly -- it was easy to learn tunes from him,
+N:especially since he was very generous with his tunes and his time. Many of
+N:his tunes were from Cole's 1000 tunes, a reprinting of Ryan's 1050 Tunes
+N:(1880s). I had asked his to play local tunes, rather than book tunes, when
+N:he gave me this one.
+Q:400
+M:C
+L:1/8
+K:G
+B>A | G2DG B2GB | d2Bd g3g | f2 e2 ed^cd | e2d2 dcBA |
+    | G2DG B2GB | d2Bd g3g | f2 e2 ecAF  | G2B2 G2:|
+K:D
+|: zG | A2f2 f3A | G2e2 e3e | d2c2 BA^GA | B2A2 A2z2 |
+      | A2f2 f3A | G2e2 e3d | d2c2 B2c2 |d6 :|
+S:https://www.folktunefinder.com/tunes/16260
+S:http://trillian.mit.edu/~jc/music/abc/polka/WestvillePolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/WestvillePolka_G_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/WestvillePolka_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

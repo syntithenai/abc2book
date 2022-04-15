@@ -1,0 +1,31 @@
+X: 75
+T:Cylph Dance,The. JMT.073
+T:Sylph,The,aka. JMT.073
+T:Plymouth Lasses,aka. JMT.073
+M:6/8
+L:1/8
+Q:110
+C:Plymouth Lasses,aka.
+S:J.Moore,Tyneside,1841.(51a)
+R:Jig
+O:England
+A:Tyneside
+N:a.k.a. The Selph,Self,et
+Z:vmp.Chris Partington
+K:D
+A|AFA d(fa)|(ag)fe2g|(fe)d (fe)d|(ce)e"NB"e2A|!
+AFA dfa|agf efa|(f/g/)ad gec|dddd2:|!
+|:A/G/|(FA).d (dc).B|(BA).G (GF)D|(F/G/A)G F/G/AD|CEEE2A/G/|!
+FAd dcB|BAGF2D|(F/G/A)D GEC|EDDD2:||
+W:NB=Crotchet E missing from MS
+S:https://www.folktunefinder.com/tunes/52964
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

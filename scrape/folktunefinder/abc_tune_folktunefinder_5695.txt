@@ -1,0 +1,30 @@
+X: 1
+T: the Indian Princess
+C: Colin Hume
+O: England
+R: march
+M: C|
+L: 1/4
+K: F
+| "F"F2 f2 | "Am"e3 c | "Bb"dB Fd | "F"c3 d \
+| "C7"cB- Bc | "F"BA- AB/c/ | "Bb"dB GF | "C7"EC DE |
+| "F"F2 f2 | "Am"e3 c | "Bb"dB Fd | "F"c3 d \
+| "Gm"cB- "C7"Bc | "F"BA- "Dm"AB/c/ | "Bb"dB "C7"GE | "F"F3 F ||
+|| "Bb"d>e fg | fd- dA/B/ | "F"cA A>G | Ac- cF \
+|  "Bb"d>e fg | "Dm"af- fe/d/ | "C"ec "G7"d=B | "C"c3 c |
+| "Bb"d>cBd | "Am"c>B Ac | "Gm"BA GD | "C7"E3 C \
+| "F"F/G/A/B/ cF | "Bb"B/c/d/e/ fd | "F"cA "C7"G>F | "F"F3 z |]
+S:https://www.folktunefinder.com/tunes/5695
+S:http://trillian.mit.edu/~jc/music/abc/Intl/IND1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/IndianPrincess_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/IndianPrincess_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/IndianPrincess_F.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

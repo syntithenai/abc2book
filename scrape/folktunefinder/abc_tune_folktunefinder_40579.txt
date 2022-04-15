@@ -1,0 +1,38 @@
+X:2
+T:Kadril van Putte
+T:2de figuur
+C:Trad.
+O:Vlaanderen
+A:Putte
+Z:Bart Vanhaverbeke 
+P:(ABCD)x4
+L:1/8
+M:6/8
+K:F
+P:Voorspel
+K:F
+"F"[A2F2] [AF] [A2F2] [AF] | ([A3F3] [AF])[AF][BG] | "C7"[c2E2] [cE] [B2E2] [GE] | "F"(F3 F) [AF][BG] ||
+P:Inleiding
+"F"[c2A2] [dB] [c2A] [dB] | ([c3A3] [cA])[AF][BG] | [c2A2] [dB] [c2A2] [=B^G] | "C7"([B3G3] [BG])[GE][AF] | [B2G2] [cA] [B2G2] [cA] | ([B3G3] [BG])cd | [eG]dc BAG | "F"F2 z F2 z ||
+P:A
+K:C
+"C"([G3E3] [GE])^FG | ([E3C3] [EC])DE | "G7"[F2D2] [GE] [B2G2] [AF] | "C"[G3E3] [E3C3] | ([G3E3] [GE])^FG | ([E3C3] [EC])dc | "G7"BAG FED | "C"C2 z z [AF][_BG] ||
+P:B
+K:F
+"F"[c2A2] [dB] [c2A] [dB] | ([c3A3] [cA])[AF][BG] | [c2A2] [dB] [c2A2] [=B^G] | "C7"([B3G3] [BG])[GE][AF] | [B2G2] [cA] [B2G2] [cA] | ([B3G3] [BG])cd | [eG]dc BAG | "F"F2 z F2 z ||
+P:C
+K:Bb
+"Bb"([f3d3] [fd])=ef| ([d3B3] [dB])cd | "F7"e2 d e2 g | "Bb"[f3d3] [d3B3] | ([f3d3] [fd])=ef| ([d3B3] [dB])cd | "F7"e2 d e2 A | "Bb"B2 z z AB ||
+P:D
+K:F
+"F"[c2A2] [dB] [c2A] [dB] | ([c3A3] [cA])[AF][BG] | [c2A2] [dB] [c2A2] [=B^G] | "C7"([B3G3] [BG])[GE][AF] | [B2G2] [cA] [B2G2] [cA] | ([B3G3] [BG])cd | [eG]dc BAG | "F"F2 z F2 z ||
+S:https://www.folktunefinder.com/tunes/40579
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Putte.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

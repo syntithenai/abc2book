@@ -1,0 +1,32 @@
+X:6
+T:Flurry Flurry
+C:Bill Tomczak
+B:Along the River, Susan Conger, 2000 - www.alongtheriver.com
+R:reel
+M:C|
+Q:1/2=120
+Z:Tom Novelli
+Z:I keyed this in to see how it sounds with the chords (played in tinny MIDI
+Z:by AbcMus) - this was before I heard Bill play it at his dance. Anyway,
+Z:it's a really sweet tune.. it's tough on the fiddle, but worth the effort.
+Z:BTW, the melody works out nicely on guitar.
+K:Fm
+"Fm"FFcF ccFc |"Bbm"dc=Bd "Fm"cAG=E |FFcF ccFc |"Bbm"dc=Bd "C7"cCDC |
+"Fm"FFcF ccFc |"Bbm"dc=Bd "Fm"cAFG |"Db7"AGAB "C7"AGC=E |"C7"AG=EG "Fm"F4 :|
+"F7"=ABcA ccAc |"Bbm"dedc BcBa |"Eb7"GABG BBGB |"Ab"cdc=B "C7"c_BAG |
+"Fm"FGAF AAFA |"Bbm"BcBA "Db7"GAB=B |"C7"cCGC GGCG |AG=EG "Fm"F4 |
+"F7"=ABcA ccAc |"Bbm"dedc BcBa |"Eb7"GABG BBGB |"Ab"cdc=B "C7"c_BAG |
+"Fm"FGAF AAFA |"Bbm"B_cBA "Db7"GAB=B |"C7"cCGC GGCG |AG=EG "Fm"F4 |
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58817
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

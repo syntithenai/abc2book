@@ -1,0 +1,22 @@
+X: 32
+T: the Old One
+T: the Cuban
+D:Jackie Daly, "Many's a Wild Night"
+M:2/4
+L:1/8
+R:polka
+K:Amix
+e>e fe | e/f/g/e/ a2 | BB/B/ d/B/A | BA/B/ d/B/A |
+e>e fe | e/f/g/e/ a2 | BA/B/ dB | A2 A2 :|
+|: fA fA | ff g>f | ed ef/e/ | d/c/d/f/ a>g |
+fA fA | ff g>f | e/f/e/d/ c/A/B/c/ | d2 d2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6337
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

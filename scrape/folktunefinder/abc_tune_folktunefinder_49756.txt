@@ -1,0 +1,33 @@
+X: 201
+T:Waltz. CJF.201
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+D2|G3BdB|e3cA2|.D.E.F.G.AB|(cB)(ed)d2|!G3BdB|\
+e3cA2|FAcAFA|G4:|!
+|:Bd|(dcBc).A2|(cBAB).G2|(dcBc).A2|d3BG2|!
+(dcBc).A2|(cBAB).G2|BAcAFA|G4:|!
+|:d2|(dg)(fedc)|(Bd).G2.G2|(FAcA)(FA)|GB).d2.d2|!
+(dgfedc)|(Bd).G2.G2|(FA)cA(FA)|G4:|!
+|:G2|\
+(FA)cA(FA)|(GB)dB(AG)|(FA)cA(FA)|(GB).d2.d2|!
+(dgfedc)|(Bd) .G2.G2|(FAcA)(FA)|G4:|]
+S:https://www.folktunefinder.com/tunes/49756
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

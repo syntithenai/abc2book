@@ -1,0 +1,31 @@
+X: 65
+T:New Coldstream March,(Melody). WCl.65
+M:4/4
+L:1/4
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:March
+O:Lincoln
+A:England
+P:2
+Z:vmp.Barry Callaghan
+K:D
+d2f2|agfe|d2A2|BB ({B/4c/4}d)c/2B/2|!
+A>BAA|BB {B/4c/4}dc/2B/2|A>BAd|c>edf|!
+e>gff|edcd|e>fea|a2~^g2|a2z/4A/4B/4c/4:||!
+dddf/e/|dBGg/2f/2|eeea|g~fez/4A/4B/4c/4|!d2f2|agfe|d2A2|\
+BB ({B/4c/4}d)c/2B/2|!
+A>BAA|BB ({B/4c/4}d)c/2B/2|A>BAA|gg ({g/4a/4}b)a/2g/2|!
+fgad'|f2~e2|1d3z/4A/4B/4c/4:|2d4|]
+S:https://www.folktunefinder.com/tunes/40821
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

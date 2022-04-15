@@ -1,0 +1,22 @@
+X: 1
+T: R\"attvikspolska
+R: R\"attvikspolska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: E2Ac efed c3e | a2af d2fd e4 | E2Ac efed cdcB |1,3 EGBG A2ce a2a2 \
+                                                :|2,4 EGBG A8 :|
+|: ag \
+| ~f3d Adfd Adfd | e2ec Acec Acec | d3B EGBG EGBG |1,3 A2AB cBcd e \
+                                                 :|2,4 A4 a4- a2 :|
+S:https://www.folktunefinder.com/tunes/16508
+S:http://trillian.mit.edu/~jc/music/abc/pols/RattviksP1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/RattviksP1.abc
+% Rhythm Ra?ttvikspolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 42
+T: 4. The Braes o' Tullymet  2X
+M: C
+L: 1/8
+% Q: 220
+R: Strathspey
+K: Am
+B |:\
+"Am" A<e e>d      e>d e<g  | "G" B<G d>G      e>Gd>B    |\
+"Am" A<e e>d      e>d e<a  | "Em" g>ed>B "Am" A/A/A B2 :|
+\
+"Am" a>e a<c'     a>e a<c' | "G" g>d gd g<b   |\
+"Am" a>e a<c'     a>e a<c' | "Em" g>ed>B "Am" A/A/A A2  |
+"Am" a>e a<c'     a>e a<c' | "G" g>d gd g<b   |\
+"Am" a<e e>^f "G" g>ab>a   | "Em" g>ed>B "Am" A2       ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 24 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center Jennifer's Jig
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 8x32 Jig    1 2 3 4 2 3 4 1
+S:https://www.folktunefinder.com/tunes/40145
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

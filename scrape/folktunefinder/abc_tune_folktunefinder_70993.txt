@@ -1,0 +1,25 @@
+X:246
+%%topmargin 3cm
+T:The Flagon
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+c |: BG G/G/G (BG)dG | BG G/G/G G2 {/f}(gd) | BG G/G/G (BG)d_B | (A/_B/c ) (=Fc) AFcF ::
+{ef}g2 (dB) {/F}GB{/c}dB | {ef}g2 (dB) gbaf | {ef}g2 (dB) {/F}GBd_B | A=fcf AFcA :| (B/c/d) (gd) (B/c/d) (gd) |
+(B/c/d) (gd) BGG_B | (A/_B/c) (=fc) (A/B/c) (fc) | (A/_B/c) (=fc) AFFc | (B/c/d) (g>d) (B/c/d) (gd) | (B/c/d) (gd) BGGe |
+=fg(ag) Tfgfd | cA=fc AFF || c | (B/c/d) (Gd) BdGd | BdGd BGG_B | (A/B/c) =Fc AcFc |
+Ac=Fc AFFc | (B/c/d) (Gd) BdGd | BdGd BGGe | ~=fg(ag) ~fgfd | cA=fc AFF |]
+S:https://www.folktunefinder.com/tunes/70993
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

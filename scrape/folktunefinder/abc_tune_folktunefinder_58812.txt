@@ -1,0 +1,23 @@
+X:1
+T:A. A. Cameron's Strathspey
+D:Silly Wizard - So Many Partings
+Z:Tom Novelli (from the record)
+R:Strathspey
+M:C
+K:Em
+"Am" ~A, A, {C}B,>A, .D>(G, | "Am" A,) .A,   D>G ((3FED)  | \
+"Am" ~A, A, {C}B,>A, .D>(G, | "Gm" B,) G,>B, D>G ((3FED) :|
+"Em" ~E E>F G>E .A>(D | "Em"     E) E>F   G>E {G}((3FED) | \
+"Em" ~E E>F G>E .A>(E | "Dm" {GE}D) G,>B, .D>G   ((3FED) :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58812
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

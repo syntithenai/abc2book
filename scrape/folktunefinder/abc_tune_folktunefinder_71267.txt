@@ -1,0 +1,25 @@
+X:238
+%%topmargin 3cm
+T:Haughs of Cromdale
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E aeolian
+e | B<ET(E>F) (B>A)F<A | B>ET(E>F) (D>E)F>A | B<E(E>F) TB>A(F>A) | {/^c}d>BA>F ~E2 E ::
+F | (D<d)d>e (d/^c/)(B/A/) {/c}d2 | F<AA>B A>F TA2 | (B<e)e>f {/f}(g>f)e>d | (B>d) T(B/A/)(G/F/) TE2 E :|
+S:https://www.folktunefinder.com/tunes/71267
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Haughs_of_Cromdale.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0238.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

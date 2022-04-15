@@ -1,0 +1,30 @@
+X: 72
+T:My Nanny O. JMP.072
+M:C|
+L:1/8
+Q:160
+C:"77"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Scots Measure
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+GA | B2E2"tr"B2 AB | G2FGE2DE | GFGA BABd | e2 A>B A2 GA |!
+B2 d2 cBAG | A2 B2 g3 f | efed BABd | e2 EF E2 :|!
+|:Bc | (d3 d/)e dcBA | f2 d>e d2 gf | edef gfga | b2 e>f e2 dc |!
+B2 g2 dBAG | A2B2 g3 f | efed BABd | e2 EF E2 :|]
+S:https://www.folktunefinder.com/tunes/2009
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Scots measure
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

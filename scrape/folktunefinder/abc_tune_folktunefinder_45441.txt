@@ -1,0 +1,33 @@
+X:7
+T:Steyrer Tanz in B, nr. 13
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820, s. 46 nr. 13
+N:im der quelle in B(b), erster ton 1. stimme: d' erster ton 2. stimme: b'
+N:um1800
+M:3/4
+L:1/8
+K:Bb
+V:1
+DE |\
+FE GFED | C2 FGAB | cdecBA | B2 dDDE |\
+FE GFED | C2 FGAB | cdecBA | B4 :| "in F"y |]
+V:2
+Bc |\
+(dc) (edcB) | A2 (A,B,CD) | EF GEDC | D2FBBc |\
+(dc) (edcB) | A2 (A,B,CD) | EF GEDC | D4 :|
+S:https://www.folktunefinder.com/tunes/45441
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

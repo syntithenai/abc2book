@@ -1,0 +1,32 @@
+X:976
+T:Xotina (MQ 076)
+T:Un armeru de la vega (MQ 076)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin tradicional de Uviu, los grupos de danzas la bailan con el nombre de "jotina".
+A:Asturies
+O:Uviu
+Z:Manolo Quirs 076
+M:3/8
+L:1/8
+Q:3/8=76
+K:C
+G
+|c2 d|BcA|B2 G|F2 G|B2 c|ABG|A2 G|E2 G|
+c2 d|BcA|B2 G|F2 G|B2 c|ABG|A2 G|E2 G|
+GAB|c2 d|BAG|F2 F|FGA|B2 A|GGF|E2 G|
+GAB|c2 d|BAG|F2 F|FGA|B2 A|GGF|E2 G|
+|: c2 A|B2 G/G/|AAA|B2 G|F2 G|B2 G|A2 F/F/|GGG|A2 F|[1 E2 G :|[2 E3||
+S:https://www.folktunefinder.com/tunes/59863
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

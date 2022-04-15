@@ -1,0 +1,24 @@
+X:108
+T:Were Di
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:Deze melodie is gebaseerd op die van de Rijzembezemdans, een tradionele
+N:Vlaamse dans, opgetekend door Theofiel Peeters. De aanpassingen zijn gedaan
+N:voor de zwaarddans `Were Di'
+M:2/4
+L:1/8
+Q:1/8=200 "Presto"
+K:F
+"C"cB/A/ BF|"C7"GC "F"Fz|:"F"FF/F/ FE/F/|"C7"GA/G/ "F"FC|\
+"C"GG/G/ "F"AF|"C"GF/A/"C7"G2:|
+"F"FF/F/ FE/F/|"C"GC Cz|cB/A/ BF|"C7"GC "F"Fz|]
+S:https://www.folktunefinder.com/tunes/75804
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X: 1
+T: Saint Patrick's Day
+R: jig
+O: RSCDS 3-3
+B: RSCDS 3-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Old Irish Jig - Rutherford's Country Dances 1750 and earlier.  Here from Gow's Repository.
+N: The second part of this tune is played with several variant phrasings.
+M: 6/8
+L: 1/8
+K: G
+D \
+|: "G"G>AG GBc | d>ed dBG | "D7"A>Bc "G"BGD |1 "C"E>FE "D7"E2D :|2 "C"E2"D7"F "G"G2 ||
+d \
+|: "G"def "Em"g2e | "D"f2d "Em"e2B | "G"def "Em"g2e | "D"f2d "Em"e2g \
+| "G"G>AG GBc | d>ed dBG | "D7"A>Bc "G"BGD | "D7"E2F "G"G2 :|
+S:https://www.folktunefinder.com/tunes/15013
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay2.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay2_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/SaintPatricksDay2_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/SaintPatricksDay_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SaintPatricksDay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SaintPatricksDay2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SaintPatricksDay2_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SaintPatricksDay_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SaintPatricksDay2_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SaintPatricksDay_24.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:297
+T: EINST HAT MIR MEIN LEIBARZT GEBOTEN
+N: B0349
+O: Europa, Mitteleuropa, Deutschland, Rheinland; Pfalz
+R: Trink - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | C3C,C,2C,2B,2C,2 | E,2D,2z6
+D,2 | D3CB,2A,2G,2F,2 | E,4z6
+G,2 | C3CC2E2D2C2 | C4A,2A,4
+A,2 | G,3G,G,2G,2A,2B,2 | C6D3C
+B,A, | G,3G,G,2G,2F,2D,2 | C,4z6
+S:https://www.folktunefinder.com/tunes/78318
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

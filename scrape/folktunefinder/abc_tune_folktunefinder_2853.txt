@@ -1,0 +1,45 @@
+X: 1
+T: Krivo Horo
+R: kopanica
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 11/16
+L: 1/16
+K: C
+"A" \
+|: "C"C2^DE E2C E2EC | E2G2 G2E G2GE | GAGE "G"G2F FEFD | FGFD "C"F2E E^DEC :|
+"B" \
+|: "F"A2AF ABc A2A2 | "G"Bcd2 dcB BAAG | "C"G2G2 GAB G2G2 |1 "G"BAAG G2F "C"EFGC :|2 "G"BAAG G2F "C"ECE2 ||
+%%text Repeat AA BB
+"C" \
+|: "G"BAAG G2F "C"EFG2 | "G"BAAG G2F "C"EFGC |"G"BAAG G2F "C"EFGC | "G"BAAG G2F "C"E2E2 :|
+"D" \
+|: "Dm"D2D2 EFD ECCA, | C2DA, FED ECDA, | D2D2 EFD ECCA, | C2DA, FED ECD2 :|
+"E" \
+|: "C"_BAG^F E^DE FGGC | _BAG^F E^DE FGGC | _BAG^F E^DE FGGC | _BAG^F E^DE C2z2 |
+"F" \
+|: "C"_BAG2 _BAG _BAG2 | _BAG2 _BAG _BAG2 | _BAG^F E^DE FGGC |
+| _BAG^F E^DE FGGC | _BAG^F E^DE FGGC | _BAG^F E^DE C2z2 :|
+"G" \
+|: "D"GA^F2 _EDC D2DA, | GA^F2 _EDC D2DA, | GA^F2 G2F GAF2 | GA^F2 _EDC D2DA, :|
+%%text Repeat AA BB
+K: D
+"H" \
+|: "D"D2^EF F2D F2FD | F2A2 A2F A2AF | ABAF "A7"A2G GFGE | GAGE "D"G2F F^EFD :|
+"I" \
+|: "G"B2B2 Bcd B2B2 | "A"cde2 edc cBBA | "D"A2A2 ABc A2A2 |1 "A"cBBA "D"A2G FGA2 :|2 "A"cBBA "D"A2G F2z2 ||
+"J" \
+|::: "A"cBBA A2G "D"FGAD | "A"cBBA A2G "D"FDF2 :::|
+S:https://www.folktunefinder.com/tunes/2853
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/KrivoHoro1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KOP_KrivoHoro1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KrivoHoro1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Kop_KrivoHoro1.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 11/16
+% Has_accompaniment_chords Has chords

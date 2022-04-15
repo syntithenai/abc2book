@@ -1,0 +1,24 @@
+X:235
+T:Neapolitan Threshers
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000f7.html
+%%ID:000000f7
+K:D
+A|\
+FED AGF| B2A A2A| dcB edc| dAF D2A|\
+FED AGF| B2A A2A| dcB edc| "tr"d3 d2::
+A|\
+def efg| fed cde| dcB Bcd| cBA A2A|\
+Bdd Add| Gdd Fdd| Edd edc| dAF D2:|
+S:https://www.folktunefinder.com/tunes/30356
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

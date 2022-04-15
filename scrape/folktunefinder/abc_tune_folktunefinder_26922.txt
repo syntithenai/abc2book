@@ -1,0 +1,26 @@
+X:6470
+T:the 14th of October
+O:england
+M:C
+K:G
+G>A|\
+B3g (dB)(AG)| B2d>e d2AB| c3e (dB)(AG)| B2A>B A2GA|\
+(Bd)(eg) (dB)(AG)| B2ga g2Bc|
+d>edB (cB)("tr"AG)| E2G>A G2::\
+de|\
+g>aba gedB| d2g>a g2AB|
+c>deg (dB)(AG)| B2AB A2GA|\
+BABG EGAB| cBcd edef| \
+gfga babd| e2g>a g2:|
+S:https://www.folktunefinder.com/tunes/26922
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

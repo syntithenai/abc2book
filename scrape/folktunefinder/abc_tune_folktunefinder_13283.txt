@@ -1,0 +1,32 @@
+X: 1
+T: Niel Gow's Lamentation for Dr. James Moray of Abercairney
+B: Skye p.157; BSFC V-1; Hunter #9
+D: Bill  Lamey  tape  2A,  Alastair  Hardy  on  Jean Redpath tape, Ron Ganella on 3 Fiddles tape
+C: Niel Gow
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: B,>A, \
+| "G"G,>B, DG "C"EG "G"DG | "Am"~A>B c/B/A/G/ "C"{F}E2- "D7"EF/G/ \
+| "G"G,>B, DG "C"EG "G"Dg/e/ | dG "D7"d/c/B/A/ "C"{A}G2- "G"G :|
+e \
+|| "G"de/f/ gd "(C)"ed "G"gB | "Am"ca/c/ "G"Bg/B/ "Am"A2- "D7"A>B \
+| "G"G,>B, DG "C"EG "G"Dg/e/ | dG "D7"d/c/B/A/ "C"{A}G2- "G"G>e ||
+|| "G"de/f/ gd "(C)"ed "G"gB | "Am"c/B/c/a/ "G"B/A/B/g/ "Am"A2- "D7"A>B \
+| "C"e/d/c/B/ "D"d/c/B/A/ "Em"c/B/A/G/ "B7"B/A/G/F/ | "C"A/G/F/E/ "D7"D/E/D/B,/ "C"G,2- "G"G, |]
+S:https://www.folktunefinder.com/tunes/13283
+S:http://trillian.mit.edu/~jc/music/abc/air/NielGowsLamentForDrJamesMoray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/NielGowsLamentForDrJamesMoray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/NielGowsLamentForDrJamesMoray.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/NielGowsLamentForDrJamesMoray.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/NielGowsLamentForDrJamesMoray.abc
+S:http://trillian.mit.edu/~jc/music/book/500/NielGowsLamentForDrJamesMoray.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

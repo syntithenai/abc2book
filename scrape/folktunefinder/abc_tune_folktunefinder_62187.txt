@@ -1,0 +1,27 @@
+X:164
+T: FLUECHTIGER ALS WIND UND WELLE
+N: B0651
+O: Europa, Mitteleuropa, Deutschland, Weimar
+R: Moral - Lied, Vergaenglichkeit
+M: 6/8
+L: 1/8
+K: C
+ | E,2E,E,2E, | G,2F,E,2E,
+E2DCB,A, | A,B,^G,A,2z
+E,2E,E,2E, | G,2F,E,2E,
+E2DCB,A, | A,B,^G,A,2z
+B,2B,C2C | DCDE2C
+^C2CD2D | EDEF2z
+FDB,G,2G, | G,A,B,C2C
+CDEF2D | CDB,C2z
+S:https://www.folktunefinder.com/tunes/62187
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, vergaenglichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

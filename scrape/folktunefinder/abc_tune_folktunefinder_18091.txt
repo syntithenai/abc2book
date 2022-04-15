@@ -1,0 +1,29 @@
+X: 1
+T: Screech Owl Reel
+C: Dave Wiesler 1994
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: Am
+|: "Am"A2AA A2AB | "Am"cBA2 A4 | "Am"A2c2 "G"d2cd | "C"e2e2 "G"d4 \
+|  "Dm"d2de fedc | "Bb"d2d2 "Am"c2AB | "Am"c2dc "G"BAG2 | "Dm(Am)"A4 A4 :|
+[| "F"a2 a4 a2 | "C"gec2 "G"d4 | "Dm"dcde fedc | "Bb"d2d2 "Am"c2A2 \
+|  "F"a2 a4 a2 | "C"gec2 "G"d2cd | "Am"e2AB c2dc | "Em"BAG2 "Am"A4 |]
+[| "F"a2 a4 a2 | "C"gec2 "G"d4 | "Dm"dcde fedc | "Bb"d2d2 "Am"c2A2 \
+|  "F"A2cA "G"B2dB | "F/A"c2ec "G/B"d2fd | "C"e2ce "Dm"dcBA | "Em"E2G2 "Am"A4 |]
+S:https://www.folktunefinder.com/tunes/18091
+S:http://trillian.mit.edu/~jc/music/abc/reel/ScreechOwlR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ScreechOwlR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ScreechOwlR_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

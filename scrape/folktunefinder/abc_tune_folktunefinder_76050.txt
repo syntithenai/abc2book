@@ -1,0 +1,27 @@
+X:70
+T: Ich kann des Abends nit schlafen gehn (Band 1), S. 201
+N: P0845
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Fenstergang, Liebe]
+M: 2/4
+L: 1/16
+K: E
+E2 | B3ABB=c2 | A3=GA2
+BA | =G2FF2GAG | F3EF2=G2 | E3DE2
+E2 | B3ABB=c2 | A3=GA2
+BA | =G2GGGABG | F3EF2=G2 | E3DE2
+S:https://www.folktunefinder.com/tunes/76050
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Fenstergang, liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 152
+T:Untitled. HA.151
+M:9/4
+L:1/4
+Q:180
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Some bowing style guide given in MS. u/v = up/down
+N:and double slashed notes.NBr
+H:1/4
+Z:vmp.Neil Brookes, Jan.2004
+K:F
+"2 sharps in MS"G3/2A/2GB2"u"g"="f3/2 e/4f/4 g|\
+G3/2A/2G"u"B2"u"dc"u"A"u"F|!
+G3/2A/2G"u"B2"u"g"="f2d|f2(cc)fdcAF|!
+|:"v"f2d-dBddBd|"v"f2ddBdcAF|!
+"v"f2d-dBd-dBd|c3/2d/2cfedc"u"AF:|]
+S:https://www.folktunefinder.com/tunes/72401
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 9/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

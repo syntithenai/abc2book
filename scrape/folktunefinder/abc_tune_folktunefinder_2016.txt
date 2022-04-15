@@ -1,0 +1,45 @@
+X: 79
+T:5th Royal Dragoons Slow March. JMP.079
+M:C
+L:1/8
+Q:110
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:C major
+"as written"A2 | d2 d>d dgfe | d2 d>d dgfe|\
+  f2 d/e/f/g/ a2 gf |e2 e>ee2 cd | ea cd e2 d2 |!
+eacd e2 d2 | (3cec AA BB GG |\
+(3cec AA BB GG | Aagf edcB | A2  A>A A2 :|!
+|:cd | e2 e>e eagf | g2 ee e2 g2 |ff dd cc dd |\
+ ee cc ABcA  | d3 A d3 A |!
+dcde ffed | e3 A e3 A | edef ggfe |f2 a>a a2 f>a |!
+ g2 e>e efge | f2 a>a a2 fa |\
+g2 e>e "1"efge | f3 a agfe | d2 d>d d2 :||!
+zzzz|!
+K:  D major
+"Suggested Interpretation"A2 | d2 d>d dgfe |\
+d2 d>d dgfe|  f2 d/e/f/g/ a2 gf |e2 e>e e2 cd |! 
+ea cd e2 d2 |eacd e2 d2 | (3cec AA BB ^GG |!
+(3cec AA BB ^GG | Aa^gf edcB | A2  A>A A2 :|!
+|:cd | e2 e>e eagf | g2 ee e2 g2 |\
+ff dd cc dd | ee cc ABcA  |!
+ d3 A d3 A | \
+dcde ffed | e3 A e3 A | edef ggfe |f2 a>a a2 f>a |!
+ g2 e>e efge | f2 a>a a2 fa |g2 e>e e-f-g-e |\
+ f3 a agfe | d2 d>d d2 :|]
+S:https://www.folktunefinder.com/tunes/2016
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

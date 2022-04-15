@@ -1,0 +1,31 @@
+X: 1
+T: Hardiman's Fancy Jig
+T: Derrane's Jig
+C: Traditional
+Z: gturnbull:oblique-design.demon.co.uk
+B: The Trip to Sligo (slightly different)
+D: De Danann on "Star Spangled Molly" (as "Derrane's").
+N: cf "The Banks of Lough Gowna"
+N: Recorded first in the early 1950s by Joe Derrane and Jerry O'Brien.
+N: It may have been named after a Martin Hardiman, an accordion player in Chicago.
+M: 6/8
+L: 1/8
+R: Jig
+K: Em
+|: ~B3 BAF | AFD ~E3 | DFA def | afe dBA |
+|  ~B3 BAF | AFD ~E3 | DFA def | edB ~B3 :|
+|: ~e3 edB | AFD DFA | def afa | baf a2f |
+|  baf afa | baf ~e3 | def afe | dBA ~B3 :|
+S:https://www.folktunefinder.com/tunes/14286
+S:http://trillian.mit.edu/~jc/music/abc/jig/HardimansFancyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HardimansFancyJ.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/HardimansFancyJ.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

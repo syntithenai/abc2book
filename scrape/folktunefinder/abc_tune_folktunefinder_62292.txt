@@ -1,0 +1,27 @@
+X:269
+T: O SANCTISSIMA O PIISSIMA
+N: B0747A
+O: Europa, Mitteleuropa, Deutschland
+R: Marien - Lied, religioes
+M: 2/4
+L: 1/16
+K: F
+ | c4d4 | c3BA2B2
+c4d4 | c3BA4
+c4c4 | d4e2f2 | e4d4 | c8
+G3AG2A2 | B3cB4
+A3BA2B2 | c3dc4
+f2e2d2c2 | f2d2c2B2 | A4G4 | F8
+S:https://www.folktunefinder.com/tunes/62292
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Marien - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

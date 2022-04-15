@@ -1,0 +1,28 @@
+X:426
+T: Sch\^ines Himmelreich (5-22), S. 41
+N: P0696
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+N: Da Mammut keine Duolen in einem ternren Taktmetrum akzeptiert
+N: wird in den Zeilen 2 und 4 (3b_2_) zugunsten von 3b__2_ umgendert
+R: geistliches, religises Lied]
+M: 6/4
+L: 1/8
+K: D
+ | D2D2D2A4A2 | =c2d2cBA4
+BA | G3AG2=F2E2DE | =F4E2D4
+d2 | A2A2d2ABA2G2 | =F2A2FED3=C
+DE | =F2A2AGA3BAG | =F4E2D6
+S:https://www.folktunefinder.com/tunes/76406
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliches, religises lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

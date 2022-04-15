@@ -1,0 +1,27 @@
+X: 1
+P:Cliffs of Moher
+M:6/8
+L:1/8
+R:Jig
+F:http://breizhpartitions.free.fr/jigs/cliffs_moher.abc 2003-06-27 21:02:52 UT
+C: arr. T. Traub 6-27-03
+K: G maj
+|:d |"Am" eaa bag|"Am" eaf ged|"Am"c2A "G" BAG|"Em"EFG ABd|"Am"eaa bag|"Am"eaf ged|"G"c2A BAG|"Em"EFG "Am"A2 :|
+d |"Am"e2e dBA|"Am"e2e dBA|"G"GAB dBA|"G"GAB dBd | "Am"e2e dBA|"Am" e2e dBA|"G"GAB dBG|"Em"EFG "Am"A2 ||
+d |"Am"e2e dBA|"Am"e2e dBA|"G"GAB dBA|"G"GAB dBd | "Am"e2e dee|"Am"cee Bee|"Em"EFG BAG|"Em"edB "Am" A3 |]
+S:https://www.folktunefinder.com/tunes/58369
+S:http://breizhpartitions.free.fr/jigs/cliffs_moher.abc
+S:http://breizhpartitions.free.fr/jigs/cliffs_moher.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FairJennysSet.abc
+S:http://terrytraub.org/abc/JigSet3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/JigSet3.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

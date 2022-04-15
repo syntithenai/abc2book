@@ -1,0 +1,27 @@
+X: 1
+T: Planxty Denis O'Conor
+C: O'Carolan
+B: O'Neill's 667
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: Bb
+  B2B BcA | B2f fge | d2e fdB | {c}BAB cAF \
+| B2B BcA | B2f fge | d2e fdB | FGA B2z ||
+| f2f fga | b2f gfe | d2e fdB | {c}BAB cAF \
+| f2f fga | b2b bag | f2g fdB FGA B2z ||
+| B,DF BAB | cAF FGA | Bcd dcB | cAF EDC \
+ B,DF BAB | cde edc | f2F FGA | B3 B2z |]
+S:https://www.folktunefinder.com/tunes/14877
+S:http://trillian.mit.edu/~jc/music/abc/jig/PlanxtyDenisOConor_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PlanxtyDenisOConor_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/PlanxtyDenisOConor_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

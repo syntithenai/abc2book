@@ -1,0 +1,24 @@
+X: 1
+T: Fleur de Mandragore
+C: Michel Bordeleau
+O: Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Roaring Jelly
+M: C|
+L: 1/8
+K: A
+|:"A"EFGE GABA | Aced cAAA | "F#m/C#"EGAE GABB- | BABd cAAA |
+| "D"EGAE GABA | Aced cAAA | "E7"EGAE GABB- |1 BABd "A"cAA2 :|2 "E7"BABc "(A)"Aceg ||
+|:"A"a4 a2ga | "Bm"bAaA g2{ag}ec | "D"dfed "A"cABc | "E7"defg agfe |
+| "A"a4 a2ga | "Bm"bAaA g2{ag}ec | "D"dfed "A"cABc |1 "E7"dcBc "(A)"Aceg :|2 "E7"dcBc "A"BAA2 |]
+S:https://www.folktunefinder.com/tunes/17167
+S:http://trillian.mit.edu/~jc/music/abc/reel/Fleur_de_Mandragore_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Fleur_de_Mandragore_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Fleur_de_Mandragore_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

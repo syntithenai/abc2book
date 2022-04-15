@@ -1,0 +1,20 @@
+X:24
+T:CAN CAN
+C:J Offenbach (modified by C. Maher)
+R:Reel
+M:C|
+L:1/8
+K:C
+"C" C4 "G7" DFED | "C"G2 G2 GAEF | "G7" D2 D2 DFED |"C" CcBA "G" GFED|
+"C" C4 "G7" DFED | "C"G2 G2 GAEF | "G7" D2 D2 DFED |"C" CG"G"DE "C" C2 z2:|
+"C" CGGA "F" GFFA | "Bb" _Bdfd "F" dcc2 |"C7" dEEd "F6" dFFA|"G7" GAGA "C" G2 z2|
+"C" CGGA "F" GFFA | "Bb" _Bdfd "F" dcc2 |"C7" dEEd "F6" dFFA|"C" AGAG "F" F2 z2 :|
+S:https://www.folktunefinder.com/tunes/55627
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

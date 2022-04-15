@@ -1,0 +1,27 @@
+X:160
+T:Fair Jenny's Jig
+R:jig
+C:Peter Barnes
+S:Jim Coon to CoMandoList TOW
+M:6/8
+L:1/8
+Q:3/8=130
+K:D
+|:"D"f3 fgf|"A7"ecA ecA|\
+"G"Bcd "A7"ecA|"G"Bcd "A7"ecA|!
+"D"f2f fgf|"A7"ecA ecA|\
+"G"Bcd "A7"e2A|"A7"ABc "D"d2A:|!
+|:"G"B3 B=cB|GBB B=cB|\
+"D7"ADD dDD| cDD =cDD|!
+"G"B3 B=cB|GBB B=cB|\
+"A7"AEA ABc|"D"dAF D2A:|!
+S:https://www.folktunefinder.com/tunes/51779
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

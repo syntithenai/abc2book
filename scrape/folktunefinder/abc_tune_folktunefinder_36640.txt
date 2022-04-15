@@ -1,0 +1,27 @@
+X:2805
+T:Jonk Oppi Bergen
+M:4/4
+O:Finland
+O:Sweden
+R:Schottische
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008e0.html
+%%ID:000008e0
+K:G
+B>c dd b/b/b gg|B>c dd g/g/g ff|\
+A>B cc ee/c/ dd|ee/c/ dd bb g2::
+bg g/a/g fe e/^d/e|c'f f/e/f/g/ ag g/f/g|\
+bg g/a/g fe e/^d/e|c'f f/e/f/g/ ag g2::
+f/g/a f/g/a fe e>f|gc df/e/ db f2|\
+f/g/a f/g/a fe e>f|gc ef/e/ df d2:|
+S:https://www.folktunefinder.com/tunes/36640
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

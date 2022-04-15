@@ -1,0 +1,24 @@
+X:483
+%%topmargin 3cm
+T:The Irish Washerwoman
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+d/c/ | BGG DGG | BGB dcB | {/B}cAA EAA | {/B}cAc edc | BGG DGG | BGB dcB | {/B}cBc Adc | BGG G2 ::
+d | gdg gdg | gdg bag | =fcf fcf | =fcf agf | egg dgg | cgg Bgg | {/B}cBc Adc | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/71512
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Irish_Washerwoman.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0483.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

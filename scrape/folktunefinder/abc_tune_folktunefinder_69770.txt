@@ -1,0 +1,27 @@
+X:210
+T: DIE SONNE BLICKT MIT HELLEM SCHEIN
+N: F0358
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, Optimismus
+M: 4/4
+L: 1/16
+K: C
+G,4 | A,4G,4C4G,4 | E6D2C4
+G,4 | F6E2D3CB,3C | D8
+E8 | D6B,2A,3B,C3D | B,8z4
+G,4 | D6C2B,4D,4 | F,6E,2D,4
+G,4 | E6D2C4E,4 | G,6F,2E,4
+G,4 | C8D4E4 | A,8
+F4D4 | C8B,4B,4 | C8z4
+S:https://www.folktunefinder.com/tunes/69770
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, optimismus
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

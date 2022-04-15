@@ -1,0 +1,40 @@
+X:38
+T:Quand la bergre.... 
+R:Tour
+C:Trad.
+A:Bretagne
+D:voir Tranes-Meuriennes
+O:France
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=100
+K:F
+|: dd/d/ cc/d/ cB AG |
+   dd/d/ cc/d/ cB A2 :|
+M:3/4
+|: BA/B/ cd BA | GA/B/ AG F2 |
+   BA/B/ cd BA | GA/B/ Ad G2 :|
+W:Quand la bergre s'en va au moulin h
+W:Quand la bergre s'en va au moulin (2x)
+W:Monte dessus son ne Martin (...tin tin)
+W:Monte dessus son ne et s'en va au moulin
+W:Quand le meunier la voit venir de rien ne peut se retenir (2x)
+W:Attache donc ton ne martin adore l tin tin
+W:Attache donc ton ne  la queue du moulin (2x)
+W:Pendant que le moulin tournait meunier l'a  peine caresse (2x)
+W:Le loup a mang l'ne Martin adore l tin tin
+W:Le loup a mang l'ne  la queue du moulin (2x)
+W:
+S:https://www.folktunefinder.com/tunes/39903
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Tour
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: the Pleasures of May
+C: Vince O'Donnell
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   F2G \
+| "D"ABA f2d | "G"G3     e2d | "A7"dcB     BAG |  "D"FAA "A7"EAA \
+| "D"DFA dfd | "G"c2B    dcB | "A7"AGF     EDC |  "D"D3 :|
+|: f2g \
+| "D"aba fdf | "G"B3     gfg | "A7"ecA     Ace | "E7"ba^g "A7"af=g \
+| "D"aba fdf | "G"Bgg "D"Aff | "Em"GBe "A7"cBc |  "D"d3 :|
+S:https://www.folktunefinder.com/tunes/14929
+S:http://trillian.mit.edu/~jc/music/abc/jig/PleasuresOfMay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PleasuresOfMay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PleasuresOfMay_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

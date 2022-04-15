@@ -1,0 +1,28 @@
+X: 10
+T:The Hard Nut
+R:March, maybe polka
+C:Composed by Gavin Atkin
+S:Copright Gavin Atkin 1997
+M:4/4
+L:1/8
+Q:120
+K:G
+|: D2 | "G" G2 GA B2 G2 | "Am" e2 ee d2 c2 |
+ "Bm" B2 ~BA G2 BB | "D7" A2 AB A2 D2 | 
+"G" G2 GA B2 G2 | "C" e2 ee d2 c2 | 
+"G" B2 ~BB "D" A2 de | "G" dc~BA "C" G2 :| 
+|: GA | "G" B2 GG "Em" G2 AB | "C".c2 AA "D7" A2 GA |
+ "G" B2 EE "Em" ~E2 FE | "D" F2 ~B,B, "Bm" B,2 GA |
+"Em" B2 B2 "D" A2 A2 | "C" G2 G2 "Bm" F2 F2 |
+"G" Bc~BA "D" GBAF | "C" E2 ~EF "Em" E2 :|
+S:https://www.folktunefinder.com/tunes/76871
+S:http://home.clara.net/gmatkin/gavs.abc
+% Rhythm March, maybe polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

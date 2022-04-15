@@ -1,0 +1,44 @@
+X: 14
+T: 4. John Robertson
+C: Bobby MacLeod
+B: MacLeod Book
+Z: John Chambers
+M: C
+L: 1/8
+% Q: 220
+K: D
+|: G |\
+"D" F<D F<A "G" {D}B>A  G>B | "A7" c<A c<e      "D" {c}d>e f>g |\
+"D" a>f d>c "G" B<.G    g>B | "A7" A<F {F}G>E   "D"   F<D TDG  |
+"D" F<D F<A "G" {D}B>A  G>B | "A7" c<A c<e      "D" {c}d>e f>g |\
+"D" a>f d>c "G" B<.G    g>B | "A7" A<F {F}G>E   "D"   F<D D e  |
+"D" f>e d<f "A7" e>d    c<e | "Bm" d>c B<d      "F#m" c>A F2   |\
+"G" B>A GF     D>F | "Em" G>E G/F/E/D/ "A7"  C<E E>G  |
+"D" F>G A<F "G" G>A     B<G | "A7" A>B c<e      "Bm"  d>e f>g  |\
+"F#m" a>f d>c "G" B<G   g>B | "A7" A<F G>E      "D"   F<D D   :|
+%%text
+%%text
+%%text Performance Note:
+%%text
+%%text 'John Robertson' is unlike the other three tunes, having only an eighth-note pickup and corresponding last measure shortfall.
+%%text Therefore in the transitions to 'John Robertson', extend the first playing of the pickup 'G' to a quarter-note, and in transitions
+%%text from 'John Robertson', omit the first eighth-note in the pickups in 'Lynne Brook' and 'Castle Wynd'.
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 10 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center The Machine without Horses
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 8x32 Jig    1 2 3 4 2 3 4 1
+S:https://www.folktunefinder.com/tunes/40118
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

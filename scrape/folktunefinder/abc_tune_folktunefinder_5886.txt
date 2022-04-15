@@ -1,0 +1,34 @@
+X: 2
+T: Osmica
+O: Romania
+C: Trad.
+Z: http://swiss.csail.mit.edu/~jaffer/Music
+Q: 3/8=120
+M: 6/8
+L: 1/8
+K: A
+%%MIDI gchord f3f3
+"Bm"[B3E3]~f3 | [fe][fd][fc] [f2B2]A |"A"[fd]A[fd] [fd]A[fd] | [f2c2]B [f2A2] E |
+"Bm" A3 ~f3   | edc [f2B2]A          |"A"[fd]A[fd] [fd]A[fd] | [f2c2]B A2 z ||
+Q: 3/8=135
+M: 7/8
+%%MIDI gchord f2f2f3
+"A"E2 A2 ~A3 | [g2c2] [a2d2] [b3e3E3] |"Bm"[f2e2] [fd]c [f2B2]A | [fB]d c[fB] (4A-AGA |
+"A"E2 A2 ~A3 | [g2c2] [a2d2] [b3e3E3] |"Bm"[f2e2] [fd]c [fB][gc]A | [f2B2E2] z2 z3 ||
+N:
+N:
+N: Arrangement Copyright (C) 1999 Voluntocracy.
+N:
+N: Permission is granted to copy and distribute modified or unmodified versions of this music
+N: provided the copyright notice and this permission notice are preserved on all copies and the
+N: entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/5886
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Osmica.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

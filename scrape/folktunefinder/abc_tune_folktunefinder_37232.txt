@@ -1,0 +1,25 @@
+X:5765
+T:Slngpolska fr Skne
+A:Skne
+M:3/4
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007aa.html
+%%ID:000007aa
+K:D dorian
+d>^c de fd|e>f ef ef|d>^c de fd|e/d/^c/B/ A4::
+af ff a2|g/f/e/d/ c/d/e/f/ g2|\
+af ff a2|g/f/e/d/ c/d/e/f/ g2|\
+ag/f/ gf/e/ fe/d/|ed/^c/ d4:|
+S:https://www.folktunefinder.com/tunes/37232
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

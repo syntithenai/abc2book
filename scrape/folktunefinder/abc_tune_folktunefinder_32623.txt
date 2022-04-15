@@ -1,0 +1,31 @@
+X: 2162
+T:Schaufelstiel
+O:Germany
+N:(slow) VVMM (faster) MMMMMMMM (accel throughout)
+M:3/4
+Q:1/8=320
+A:Bavaria
+R:Zwiefache
+K:GMix
+"slow"G3B d2 | G3B d2|\
+M:2/4
+[e4c4][c4A4]|[d4B4][B4G4]|\
+M:3/4
+G3B d2 | G3B d2|\
+M:2/4
+c4A4|G8 :|\
+|:\
+"faster"e4e4| d4d4| c4c4| B4d4|\
+e4e4| d4d4| c4c4| B8 :|
+S:https://www.folktunefinder.com/tunes/32623
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Zwiefache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:101
+T: Krippenlied (2-3) S. 16
+N: P0876
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: geistliche, religise Lieder]
+M: 3/4
+L: 1/8
+K: G
+D2 | G4A2 | B2A2d2 | ^c2d2e2 | d6 | A2B2^c2 | d4
+Bc | d4e2 | d2c2B2 | c2B2A2 | B2A2
+G2 | A4dc | B4A2 | G4
+S:https://www.folktunefinder.com/tunes/76081
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliche, religise lieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

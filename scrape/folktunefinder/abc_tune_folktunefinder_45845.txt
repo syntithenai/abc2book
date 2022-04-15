@@ -1,0 +1,27 @@
+X:36
+T:Wedding Song
+N:
+D:
+O:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:5/4
+L:1/8
+Q:1/4=72
+K:G
+%%staves (1 2)
+V:1
+G>A B G c B A3 D | G A B3 G d4 | e d/ c/ B G A2 G3 B | c2B2 A G A4 | 
+c2 c>d e c d2 | c d/ c/ B G d4-d D | G A B G c3 B A D | (E/F/) G A G2 F G3 d |
+e d c e d c B3 d | c B A G E 
+V:2
+"G"x4 "C"x2 "D"x2"D7"x2 |
+S:https://www.folktunefinder.com/tunes/45845
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

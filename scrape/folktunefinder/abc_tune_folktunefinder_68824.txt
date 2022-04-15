@@ -1,0 +1,27 @@
+X:278
+T: Weingruss
+N: A0319
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 35
+R: Romanze, Ballade, Lied, Trinklied
+M: 3/1
+L: 1/2
+K: D
+A2 | A2A2BB | =c2cc2
+A | G2G2AB | =c3A3 | z4
+G2 | A2=c2BA | G2E=F2
+D | E2=F2GG | z4
+E2 | =F2G2AA | z4
+=c2 | B2A2G2 | =F2G4 | D4
+S:https://www.folktunefinder.com/tunes/68824
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:100
+T: Bin ich's Wandern muede, sehn ich mich nach Ruh'
+N: D0146A
+O: Europa, Mitteleuropa, Deutschland, Wolga - Kolonie
+N: Strophenvariante zu D00146; Inzipit = Transposition zum Lied
+R: Wander - Lied, Handwerksburschen - Lied
+M: 4/4
+L: 1/16
+K: A
+ | E3AA2A2c4A4 | d2c2B2A2B8
+E2F2G2A2B2c2d4 | e3dc2B2A8
+e2e2f2g2a2f2e2c2 | f2e2d2c2c2d2B4
+E3AA2A2c2c2A2zc | e2e2e3fe6
+c2 | e2e2f2g2a2f2e2d2 | c2d2B4A8
+S:https://www.folktunefinder.com/tunes/72557
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Wander - lied, handwerksburschen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

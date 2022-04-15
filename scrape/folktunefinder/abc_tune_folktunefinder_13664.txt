@@ -1,0 +1,23 @@
+X: 1
+T: Philabelula All the Way
+R: hornpipe
+M: C
+L: 1/8
+K: G
+B>A \
+| "G"G>F G>E D2 C>B, | "Am"A,>A, B,>C "D7"D2 E>F | "G"G>E D>E "D7"G>B A>F | "G"G2 D2 G2 :|
+G>A \
+| "G"B2 B2 B2 c>B | "Am"c>B A2 A4 | "Em"G2 G2 "A7"G>B A>G | "D"F>G E>F "D7"D2 E>F ||
+| "G"(3GAG (3FED "C"E>F "G"G2 | "G"(3GAG (3FED "C"E>F "G"G>B | "D7"A2 (3ABc d>D (3DEF | "G"G2 B2 G2 |]
+S:https://www.folktunefinder.com/tunes/13664
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Philabelula_All_the_Way_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Philabelula_All_the_Way_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

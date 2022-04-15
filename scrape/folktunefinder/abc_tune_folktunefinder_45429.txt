@@ -1,0 +1,17 @@
+X:4
+T:Voice overlay and chords
+M:C
+L:1/4
+K:C
+[C2G]A[B3/G2]c/|cdef&ABcd|GA{[FA]}[GB][Ac]|defg&&Bcde|
+GABc|efga&&FGAB&&CDEF|GA(&&Bc|de&&FG|AB)cd|
+S:https://www.folktunefinder.com/tunes/45429
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

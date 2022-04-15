@@ -1,0 +1,39 @@
+X:32
+T:Alborada (MQ 001)
+R:Alborada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Esta alborada est recogida del cancionero de Vctor Sez.
+N:Aunque este gran msico la cataloga como alborada (sus razones tendra), el caso es que los primeros treinta compases son ms tpicos de las clsicas jotas asturianas que de las alboradas.
+N:El resto de la cancin se asemeja bastante a uno de los movimientos del Fandango Asturiano que R. Korsakoff incluy en su Capricho Espaol.
+A:Asturies
+B:"Primer pot-pourri" de cantos asturianos, Victor Saenz
+Z:Manolo Quirs 001
+M:3/8
+L:1/8
+Q:3/8=70
+K:C
+|B B/c/B/c/|G G/E/ G|c G/c/G/c/|G/A/G/E/ G|c G/c/G/c/|A {B}A/F/ A|
+c B/A/G/F/|E/F/G/E/ C|(3F/G/F/ E/F/A/F/|D{E}D/B,/ D|A A/G/G/E/|C2 E|
+(3F/G/F/ E/F/A/F/|D{E}D/B,/ D|A A/-G/G/-E/|C-C/E/C/E/|C/E/C/E/C/E/|G/F/D/F/D/F/|
+D/F/D/F/D/F/|G/E/C/E/C/E/|C/E/C/E/C/E/|G/F/D/F/D/F/|D/F/D/F/D/F/|G2 c|
+(3B/c/B/ G/B/G/B/|(3A/B/A/F/A/F/A/|GEG|F/E/D/E/F/D/|G/E/C/D/E/C/|D/C/B,/C/D/B,/|
+C2 G|c2 G|AFA|_B2 A|
+GE c/d/|e d/e/f/e/|dB d/e/|A G/A/B/A/|
+ecG|c2 G|AGA|_B2 A|
+GE C/D/|E D/E/F/E/|DB, D/E/|F G/F/E/D/
+|: C-C/D/E/C/|F/E/D/E/F/D/|G/E/C/D/E/C/|D/C/B,/C/D/B,/ :|
+C2 G/c/|f2 e/d/|c/B/A/G/F/E/|D/C/ C2||
+S:https://www.folktunefinder.com/tunes/58919
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

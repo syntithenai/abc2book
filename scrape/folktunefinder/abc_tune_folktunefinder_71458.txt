@@ -1,0 +1,27 @@
+X:429
+%%topmargin 3cm
+T:Mr. Marshall's Favorite
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+A,AA>B A/B/c/A/ TE2 | B,B TB>c B>A TF2 | A,AA>B TA>B A/B/c/d/ | (e/f/g/)wa/ (f/e/d/)wc/ TB2 A2 :|
+cee>f Te>fec | TBABc ~A>BAE | FfTf>a (f/e/).d/.c/ (d/c/).B/.A/ | (B/c/d/c/) (d/c/B/A/) TB2 A2 |
+cee>f Te>fec | B>ABc [C/A/]B/[A,/A/]E/ | FAEA DAHC>f | {/f}Tec {/c}TBA TB2 A2 |]
+S:https://www.folktunefinder.com/tunes/71458
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_Marshalls_Favorite.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0429.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

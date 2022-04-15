@@ -1,0 +1,30 @@
+X:197
+T: Sch\^ines Blmelein (3-1), S. 13
+N: P0972
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: yyy]
+M: 4/4
+L: 1/8
+K: F
+AB | c3BA2GG | A2G2F2
+GG | ABcBA2G2 | F4z2
+GG | ABcBA2G2 | F4z2
+c2 | c3BA2G2 | F4z2
+cc | d2ccBABd | c4z2
+AB | c3BA2GG | A2G2F2
+GG | ABcBA2G2 | F4z2
+GG | ABcBA2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/76177
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Yyy]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

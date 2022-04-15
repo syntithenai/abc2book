@@ -1,0 +1,29 @@
+X:695
+T:Rogues in a Nation
+R:reel
+Z:
+M:4/4
+K:Dm
+"Dm"d2|:decA d2 de|fdcA "F"F2 GA|"Bb"BAGF "C"G2 Ac|\
+M:2/4
+"Dm"d3c|\
+M:4/4
+|1"Dm"A6d2:|2"Dm"A6fg||
+"F"abag f2 ed|cAGF "C"(c4|c2) de "Dm"f2 ef|"C"g2 fg "Dm"a3g|
+"Dm"d6 fg|"F"a/2c'3/2 "C"g/2a3/2 "F"f2 ed|cAGF "Bb"(f4|f2)ed "F"cAGF|
+"C"G2 Ac "Bb"d3c|"Dm"A6z2|z8|\
+M:2/4
+z2"Dm"d2||
+S:https://www.folktunefinder.com/tunes/67441
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

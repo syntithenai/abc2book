@@ -1,0 +1,26 @@
+X: 9169
+T:Schottisch  Fleuret
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/16
+K:G
+d2B2 g2fe|d2B2d4|c2A2 f3e|dcedB4|
+d2B2 g2fe|d2B2d4|c2A2 f3e|dfafg4:|
+|:dBdg b2a2|cAcf a2g2|dBdg fgfe|dcAcB4|
+dBdg b2a2|cAcf a2g2|dBdg f3e|cfafg4:|
+S:https://www.folktunefinder.com/tunes/35408
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

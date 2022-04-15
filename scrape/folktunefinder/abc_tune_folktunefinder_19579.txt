@@ -1,0 +1,24 @@
+X: 1
+T: Mr. Grant of Pilnacree's Strathspey
+C: Malcolm McDonald
+B: RSCDS 29-4
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: D
+|: f | "D"d>A F<D A<D F<D | "G"G>A "E7"B/A/G/F/ "Am"E<e e>f \
+     | "D"d>A F<D A<D F<D | "G"G>B "A7"A/B/c/A/ "D"dD D :|
+|| f | "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"~d2 f>d "A7"g>e "D"f<d | "A7"ea a>g "D"f<d df |
+    || "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"d>A "F#m"F<A "G"Gg "A7"f/g/a/g/ "D"fd d |]
+S:https://www.folktunefinder.com/tunes/19579
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrGrantOfPilnacreesS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MrGrantOfPilnacreesS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrGrantOfPilnacreesS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Tom Billy's Reel
+R: reel
+M: C|
+L: 1/8
+K: D
+|: "D"d2dA "A7"BAFB |  "D"AFF2 "A7"EFDE | "D"F2AF "G"G2BG | "A7"ABde    fgfe  |
+|  "D"d2dA "A7"BAFB |  "D"AFF2 "A7"EFDE | "D"F2AF "G"G2BG | "A7"ABde "D"fdd2 :|
+|: "D"faab     afdf | "Em"gefd "A7"edBg | "D"faab    afdB |  "A7"ABde "D"fddg  |
+|  "D"faab     afdf | "Em"gefd "A7"edBA | "D"F2AF "G"G2BG |1 "A7"ABde "D"fdd2 :|2 "A7"ABde fgfe |]
+S:https://www.folktunefinder.com/tunes/18225
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomBillysReel_D_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TomBillysReel_D_4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+S:https://www.folktunefinder.com/tunes/13219
+S:http://trillian.mit.edu/~jc/music/abc/air/KindRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/KindRobin_F_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/KindRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/KindRobin_F_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/KindRobin.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

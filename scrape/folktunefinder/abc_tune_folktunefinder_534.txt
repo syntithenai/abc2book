@@ -1,0 +1,26 @@
+X: 75
+T:Farandole de Lantosque
+R:Farandole
+I:abc2nwc
+O:France
+A:Provence
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Fmaj
+A2B c2c|c2d cBA|G2A B2B|B2c BAG|F2G A2A|A2A A2G|G2A B2c| [1 d2e c3 :| [2 d2e f3|
+f3f2d|e2e e2c|d2d d2B|c3A3-|A2c c2d|e2d c3|A2c c2d|e2d c3|
+c3f2d|e2e e2c|d2d d2B|c3A3-|A2c c2d|g2f e3|e4cd|edc f3|]
+%%footer $D   Galouvielle-MBe 2008 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/534
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

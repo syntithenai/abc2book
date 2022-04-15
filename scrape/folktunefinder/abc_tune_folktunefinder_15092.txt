@@ -1,0 +1,30 @@
+X: 1
+T: Sort of Jolly
+C: Liz Donaldson 1984
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"BAG D2D | "C"EFG "D7"A2A | "G"BAG "Em"EFG | "A7"A3- "D7"A2d \
+| "G"BAG D2D |"Am"EFG "D7"A2c | "G"BAG "D7"DEF |  "G"G3 G2 :|
+G \
+| "G"GED GED | "C"GED GED |  "G"GED DEG |"D7"A3  A2A \
+| "G"B2B GAB | "C"c2B A2G | "D7"F2D DEF | "G"G3  G2 |]
+G \
+| "G"GED GED | "C"GED GED |  "G"GED DEG |"D7"A3  A2A \
+| "G"GED GAB | "C"c2c c2e | "D7"d2d def | "G"g3- g2 |]
+S:https://www.folktunefinder.com/tunes/15092
+S:http://trillian.mit.edu/~jc/music/abc/jig/SortOfJolly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SortOfJolly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SortOfJolly_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

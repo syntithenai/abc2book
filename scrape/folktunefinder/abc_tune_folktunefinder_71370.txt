@@ -1,0 +1,25 @@
+X:341
+%%topmargin 3cm
+T:Miss Campbell of Menzies
+C:Donald Dow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:C
+e | c2 Gc (ec)GE | FdEc dDDB | c2 Gc (ec)GE | FADF ECC :|
+f | ecgc acgc | ec (a/g/f/e/) (fd)df | (gc)ac (gc)ec | Bcdf eccf |
+(ec)gc (ac)gc | egce fddf | gecf afdc | Bcdf ecc |]
+S:https://www.folktunefinder.com/tunes/71370
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Campbell_of_Menzies.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0341.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

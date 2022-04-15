@@ -1,0 +1,32 @@
+X: 1
+T: Katrine's Answer
+C: Ann Hooper
+N: 2001-8-23
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2c d2e | "D"f2g "G"a2b | "D"afd "G"Bgf | "A"e2d "A7"cBA \
+| "D"d2c d2e | "D"fga "G"b3 | "D"afd "G"Bgf | "A7"edc "D"d2 :|
+c \
+| "Bm"B2c def | "A"ecA A2c | "Bm"dcB "E7"E2^G | "A"A2B "F#m"cdc \
+| "Bm"B2c def | "A"ecA "D"a2f | "A"ecA "E7"EF^G | "A"A2B "A7"cde ||
+|| "D"d2c d2e | "D"f2g "G"a2b | "D"afd "G"Bgf | "A"e2d "A7"cBA \
+| "D"dcd "A"ede | "D7"fef "G"gab | "D"afd "A7"ABc | "D"d3 D2 |]
+S:https://www.folktunefinder.com/tunes/14462
+S:http://trillian.mit.edu/~jc/music/abc/jig/KatrinesAnswer_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Ann_Hooper/KatrinesAnswer_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KatrinesAnswer_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

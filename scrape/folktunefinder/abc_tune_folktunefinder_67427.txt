@@ -1,0 +1,23 @@
+X:625
+T:The Star Above the Garter
+R:jig
+N:
+Z:
+M:6/8
+K:G
+"G"d2B BAG|"D"A3 ABA|"C"G2E c2B|"G"BAG "D"ABc|
+"G"d2B BAG|"D"A3 ABA|"C"G2E c2E|E2 D "D"D3:|
+|:"D"d2e f2a|"G"gfe d2B|"C"G2B c2B|"G"BAG "D"ABc|
+"D"d2e f2a|"G"gfe d2B|"C"G2B c2E|E2D "D"D3:|
+S:https://www.folktunefinder.com/tunes/67427
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

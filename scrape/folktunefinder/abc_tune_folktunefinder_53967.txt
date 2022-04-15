@@ -1,0 +1,23 @@
+X: 99
+T:Jump at the Sun
+M:6/8
+L:1/8
+S:AABB
+R:Jig
+K:Dm
+||:"Dm"DFA _A2 =A|DFA _A2 =A|dAA dAA|AGF "A7"E3|!
+"Dm"DFA _A2 =A|DFA _A2 =A|dAA "Gm"BAG|"A7"FGE "Dm"D3:||!
+|"Dm"dAA def|"A7"eAA gfe|"Dm"dAA fed|"A7"ecA B2 A|!
+"Dm"dAA def|"A7"eAA gfe|"Dm"dAA "Gm"BAG|"Dm"FG"A7"E "Dm"D3:||
+% <A name="D1X100">
+S:https://www.folktunefinder.com/tunes/53967
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

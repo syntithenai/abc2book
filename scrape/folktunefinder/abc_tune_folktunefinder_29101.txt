@@ -1,0 +1,45 @@
+X:2821
+T:Chalmers' Hornpipe. GS.090
+M:2/2
+L:1/8
+Q:150
+S:George Spencer m/s, Leeds,1831
+R:Hornpipe
+O:England
+A:Leeds
+N:" "1"  This note has a natural   written over it, above the stave   The
+N:slur joins only the 'F' and the grace notes, but ABC2win doesn't like
+N:that.   "2" - grace note (semiquaver) is slurred with the    following
+N:note  "3" impossible to show as written!  Main note has a "~" over it -
+N: the sign for a turn which is also correctly written out in terms of
+N:pitch - the 'B' is shown as a normal sized note,   the others as
+N:grace-note size. "4" -" ~" and sign for natural shown vertically
+N:underneath it, so it's a turn with an E natural and won't play quite
+N:right here.  The final pause is written above the double bar.  Fine is
+N:written  below it.
+H:1831
+Z:vmp.Cherri Graebe
+K:BB major
+ F | BAcA Bdfd | c=BdB cege |.dbfd .cgec | AecA "1"(F{GF=EF}) GA |!
+ "2"{c}BAcA Bdgd | "2"{d}c=BdB cege | .dbfd .cgec | .AecA B2 :|!
+|: "3  ~"(c/4B/4A/4B/4) | cfef cfef | df=ef bfdB | cfef cfef | dfga bfdB
+ |!
+ gfed e=Bcg | fedc dA_Bf | efde cdBd | ABGA " nat 4" ~F2 GA |!
+BAcA Bdfd | c=BdB cege | .dbfd .cgec |.AecA " nat 4" ~F2 GA |!
+ "2"{c}BAcA Bdfd | "2"{d}c=BdB cege |.dbfd .cgec |.AecA "pause  Fine"B2
+:||
+S:https://www.folktunefinder.com/tunes/29101
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

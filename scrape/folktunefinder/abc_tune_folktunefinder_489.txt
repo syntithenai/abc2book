@@ -1,0 +1,27 @@
+X: 30
+T:L'escrivto
+T:La femme aux sarrazins
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n5
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:Bbmaj
+F | B>c d d | c2 d d | B>c d d | [M:3/8] c2 d d B c |
+[M:2/4] d2 f2 | c c B c | c2 d2 | B4 ||
+W:Jean-Pierre de Provence se marie aujourd'hui (2x)
+W:Il prend femme si jeune qu'il ne peut s'en servir.
+W:Il est parti en guerre sept ans sans revenir.
+W:Au bout de la huitime il revient au pays /.../
+%%footer $D   Galouvielle-MBe 2008 \nChanson (France)
+S:https://www.folktunefinder.com/tunes/489
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

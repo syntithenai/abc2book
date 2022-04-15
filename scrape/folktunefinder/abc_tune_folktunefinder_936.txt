@@ -1,0 +1,26 @@
+X:302
+T:Air de la gaillarde appellee I'aymerois mieulx dormir seulette.
+R:Gaillarde
+C:Trad.
+S:Thoinot Arbeau
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/2
+L:1/2
+Q:1/2=150
+K:F
+FFFFFF | GGG AzA | BBB AAA | AGG ^Fz^F |
+FGA BBA | AGG ^FzF | FGA BBA | GG^F GzG ||
+S:https://www.folktunefinder.com/tunes/936
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has source text
+% Has_accompaniment_chords No chords

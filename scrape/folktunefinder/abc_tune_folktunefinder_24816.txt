@@ -1,0 +1,34 @@
+X:4364
+T:Moresca nuziale (D. Craighead, R. Tesi)
+O:england
+M:3/4
+L:1/8
+K:C
+"A"AB cd|:eE ce dB|cA Ec BG|\
+ABc BcB|1 AG AB cd:|2 AG dc Bc||
+|:AF AB ce|dz dd cB|\
+cBA BcB|1 AG dc Bc:|2 AG AB cd||
+|:"B"d2 Be ee|d2 Be ee|fed edc|BG AB cG:|\
+dG Be Ge|d2 Be ee|
+fed edc|BG AB cG|\
+dG Be Ge|dG dG eG|\
+fed edc|BG AB cd:|
+"B1"d2 Be ee|d2 Be ee|fed edc|BG AB cG|\
+dG Bd eG|dG Bd eG|fed edc|BG AB cG||
+|:dG/A/ Bc de|dG/A/ Bc de|\
+fed edc|1 BG AB cA:|2BG AB cd||
+"Coda"eE ce dB|cA Ec BG|ABc BcB|1 AG AB cd:|2 AG dc Bc||
+|: AF AB ce|dz dd cB|1 cBA BcB|AG dc Bc:|2 cBA B2G|\
+Acz AcAc GB|cBA B2G|\
+Acz AcAc GB|cBA B2G|\
+Acz AcAc GB|cBA B2G|A6c6|]
+S:https://www.folktunefinder.com/tunes/24816
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:19
+T:Duo de la Viergi Mario
+O:France
+A:Provence
+C:Anonyme
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:1
+%%MIDI program 74
+f | f2d>e | f2 g>f | f4 | e2c>d | e2c>d | egfe | e4 | d2f>f | f4 | ff=ef | ^f4 | g2b>g | f3f |
+=efge | f4 | z2f2 | e3d | ce g>f | f3e | d2 d>e | f3d | f>d f>d | c4 | z2d>c | B3c | dfb>a | a2 g2- | gz e>g | f3f |
+agfe | (e2d2) | z2d>c | B3c | dfba | a2g2- | g2e>g | f3f | agec |1 d3 :|2 B>B B2 |]
+V:2
+%%MIDI program 74
+d | d2B>c | d2e>d | d4 | c2 A>B | c2 A>B | cedc | c4 | B2z2 | zFBc | dd^cd | d2c2 | B2B2 | A3A |
+GABc | A4 | z4 | zGAB | cc e>d | d3c | B2B>c | d3B | d>B d>B | F4 | z2 A>F | d3f | Bdd>f | f2e2- | e2c>e | d3d |
+fedc | (c2B2) | z2 B>F | d3f | Bddf | f2e2- | e2c>e | d3d | fecA | B3 :| B>BB2 |]
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/478
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+%% Copyright 1928 Warner Bros. Inc (renewed)
+T:Lover come back to me
+M:4/4
+L:1/4
+C:Sigmund Romberg & Oscar Hammerstein II
+Q:1/4=250
+%%staves (chords melody)
+K:Ab
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Ab6"x2 x2 | x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Bb7"x2 x2 | x2 x2 |
+"Ab6"x2 x2 | x2 x2 | "Bb7"x2 x2 | "Eb7"x2 x2 |
+"Ab6"x2 x2 | "Dbm7"x2 "Gb7"x2 | "Ab6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zAAB | c4 | zGGA | B4 |
+S:https://www.folktunefinder.com/tunes/18841
+S:http://trillian.mit.edu/~jc/music/abc/song/Lover_come_back_to_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Lover_come_back_to_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/lover_come_back_to_me.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/lover_come_back_to_me.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X: 1
+P: Ajde Lepa Maro (D)
+R: Kolo
+O: Croatia
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: D
+[| "G"[bg][af] [ge][fd] \
+| "A"[g3e] [ge] \
+| "D"[fd][af] [fd][dB] \
+| "A"[e2A] [a2c] \
+| "G"[bg][af] [ge][fd] \
+| "A"[g3e] [ge] \
+| "D"[fd][af] [fd][dB] \
+| "A"[e2A] [eA]z |]
+[| "D"[dA][dA] [cA][dB] \
+| "A"[e3c] [fd] \
+| [ge][ec] "E7"[fd][dB] \
+| "A"[e2A] [a2c] \
+| "D"[dA][dA] [cA][dB] \
+| "A"[e3c] [fd] \
+| [ge][ec] "E7"[fd][dB] \
+| "A"[e2A] [eA]z |]
+S:https://www.folktunefinder.com/tunes/250
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/AjdeLepaMaro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/AjdeLepaMaro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/AjdeLepaMaro.abc
+% Rhythm Kolo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

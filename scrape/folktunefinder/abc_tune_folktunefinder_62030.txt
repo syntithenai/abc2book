@@ -1,0 +1,27 @@
+X:7
+T: NOCH EINMAL ROBERT
+N: B0495
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 4/4
+L: 1/16
+K: D
+F,2F,2G,2 | B,2A,2A,4A,2B,2C2D2 | D2B,2B,4z2
+B,2G,2E,2 | B,2A,2A,4G,6A,2 | G,4F,4z2
+F,2F,2G,2 | B,2A,2A,4A,2B,2C2D2 | D2B,2B,4z2
+B,2G,2E,2 | B,2A,2A,4G,4B,2C2 | D8z2
+A,2G,2F,2 | F,2E,2E,4E6CA, | A,2D2D4z4
+=C4 | B,6B,2E3EE3D | C8z4
+A,4 | D6A,2A,2B,2C2D2 | D2B,2B,4z2
+B,2G,2E,2 | B,2A,2A,4A,4B,2C2 | D8z2
+S:https://www.folktunefinder.com/tunes/62030
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

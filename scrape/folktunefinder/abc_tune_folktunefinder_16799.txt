@@ -1,0 +1,26 @@
+X: 1
+T: Billy in the Lowground
+R: reel
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: C
+|: G,A,CD EGAB | cBcd cGEG | AcAG EGAB |1 cBcd cAGE \
+                                      :|2 cAGE DC3 :|
+|: eg2e g2g2 | gagf edc2 |1 fa2f a2a2 | abag edcd \
+                        :|2 e2e2 cdcA | GAGE DC3 :|
+S:https://www.folktunefinder.com/tunes/16799
+S:http://trillian.mit.edu/~jc/music/abc/reel/BillyInTheLowground.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BillyInTheLowground_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/BillyInTheLowground.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/BillyInTheLowground_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/BillyInTheLowground_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

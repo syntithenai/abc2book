@@ -1,0 +1,21 @@
+X:0
+T:Lamentation for McDonald of Keppoch
+S:Logan's Inverness Collection
+M:9/8
+L:1/8
+Q:3/8=60
+K:AMin
+% dorian/minor/phrygian pentatonic
+A3 A>GA c2c |    c2A A>GA G3|e3 e>de a2g|    e2d c>AG    A3 |
+g3 age  g>ed|{cd}e2d c>AG G3|A3 A>GA c2d|{cd}e2d c>AG {G}A3|]
+S:https://www.folktunefinder.com/tunes/30105
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

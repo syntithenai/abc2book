@@ -1,0 +1,24 @@
+X:14
+T:Popcorn Behavior
+M:4/4
+R:reel
+C:Jay Ungar (via Susie Lorand)
+D:Popcorn Behavior, _Journeywork_
+K:Am
+(3e^f^g |: a2 e=f ecAc | BABc BEEE | AEAc AEAc | BABc B2 (3e^f^g | \
+a2 ef ecAc | BABc BEEE | DFAc dcAF |1 ECDB, A,2 (3e^f^g  \
+ :|2 ECDB, A,B,CD | \
+|: EA,A,E FA,A,F | EA,A,E D^G,^G,D | A,B,CD ECFA | GECD EFED | \
+EA,A,E FA,A,F | ^FA,A,^F =FA,A,F | DFAc dcAF |1 ECDB, A,B,CD \
+:|2 ECDB, A,4 ||
+S:https://www.folktunefinder.com/tunes/17886
+S:http://trillian.mit.edu/~jc/music/abc/reel/PopcornBehavior_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/PopcornBehavior_BB.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

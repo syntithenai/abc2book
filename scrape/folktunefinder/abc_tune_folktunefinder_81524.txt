@@ -1,0 +1,25 @@
+X:350
+T: Floating Bottle
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+dedB ABde|fd (3dcd edBA|FAdB AF (3FEF|ED (3EFG DFAc|
+dedB ABde|fd (3dcd edBA|FAdB AF (3FEF|ED (3EFG D2FA :|
+d2 fd adfd|(3efg fe dB (3BAB|d2 fd adfd|(3efg fe d2 cd|
+d2 fd adfd|(3efg fe dB (3BAB|defg a3 b|agec dgfe :|
+S:https://www.folktunefinder.com/tunes/81524
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/mulv.abc
+S:http://www2.redhawk.org:8080/irish/zouki/mulv.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

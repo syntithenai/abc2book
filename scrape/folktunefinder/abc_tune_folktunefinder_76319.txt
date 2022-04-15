@@ -1,0 +1,27 @@
+X:339
+T: Mach auf, o Schfer
+N: P0599
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Hirtenlied, Brautwerbung]
+M: 4/4
+L: 1/8
+K: G
+D2 | G3ABAG2 | A4z2
+DF | A3AdcBA | G4z2
+GA | B2B2d2d2 | cBA2z2
+DF | A3Bd2cA | A2G2z2
+B2 | A3GA2B2 | c3de2
+c2 | B2G2B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/76319
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Hirtenlied, brautwerbung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

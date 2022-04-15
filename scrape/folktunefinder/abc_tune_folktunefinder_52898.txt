@@ -1,0 +1,30 @@
+X: 9
+T:Tench's Hornpipe,aka. JMT.009
+T:Hornpipe by Tench,A. JMT.009
+M:C
+L:1/8
+Q:180
+C:by Tench
+S:John Moore,Tyneside,1841. (05)
+R:Hornpipe
+O:England
+A:Northumbria
+H:1841
+Z:vmp.John Adams
+K:D
+AG | (FG)EF DFAd | (cd)(Bc) Aceg | (fg)(ef) (de)(cd) | (Bc)(AB) GBAG |!
+(FA)(EF) DFAc | (cd)(Bc) Aceg | (fa)ge fdec | d2d2d2 :|!
+de | (fed).f (edc).e | (dcB).d (cBA).c | (BAG).B (AGF).A | GEFD ECCG |!
+(FG)(EF) DFAc | (cd)(Bc) Aceg | fage fdec | d2d2d2 :||
+S:https://www.folktunefinder.com/tunes/52898
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X: 3
+T: Northdown Waltz
+M: 3/4
+L: 1/8
+K: D
+A2 | "D"f4 d2 | a2 f2 d2 | "A7"g2 e2 c2 | "D"d2 f2 A2 | f4 d2 | a2 f2 d2 | "A7"g2 e2 c2 | "D"d4 :|
+A2 | "A7"A2 g2 e2 | "D"A2 f2 d2 | "A7"A2 e2 c2 | "D"d2 f2 A2 | "A7"A2 g2 e2 | "D"A2 f2 d2 | "A7"A2 e2 c2 | "D"d4 ||
+a2 | "D"f2 a2 a2 | "G"b3 a gf | "Em"e2 g2 g2 | "F#m"a3 g fe | "Bm"d2 f2 f2 | "Em"g3 f ed | "A7"c2 cd ec | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/3955
+S:http://trillian.mit.edu/~jc/music/abc/England/NorthdownWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/NorthdownWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

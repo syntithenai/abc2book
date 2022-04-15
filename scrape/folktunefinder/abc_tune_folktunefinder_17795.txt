@@ -1,0 +1,27 @@
+X: 1
+T: the Old Copperplate
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "100 Essential Irish Session Tunes" 1995 Dave Mallinson, ed.
+M: C|
+L: 1/8
+K: Ador
+   G | "Am"A2EA cAAg | aged cAFA     |  "G"G2DG     BGBd |    gedc    "Em"BAGB |
+     | "Am"A2EA cAAg | aged cA"Em"GB |  "F"ABcd "Em"efge | "F"ag"G"ed "Am"cAA :|
+|: g | "Am"ageg a2eg | aged cAAf     | "Em"gfef     g2ef | "G"gfge        dBGb |
+     | "Am"ageg a2eg | aged cA"Em"GB |  "F"ABcd "Em"efge | "F"ag"G"ed "Am"cAA :|
+S:https://www.folktunefinder.com/tunes/17795
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldCopperplate_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OldCopperplate_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/OldCopperplate_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/OldCopperplate_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OldCopperplate_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

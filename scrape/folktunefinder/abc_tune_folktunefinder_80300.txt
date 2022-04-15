@@ -1,0 +1,25 @@
+X:241
+T: Lichtmessgesang
+N: A0600
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 II No. 82.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+A | A2A2 | c2_B2 | A_Bc2 | _B2z
+B | A2G2 | AG=FE | DEF2 | G2z
+G | DEF2 | G3c | _BBAA | G3
+S:https://www.folktunefinder.com/tunes/80300
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

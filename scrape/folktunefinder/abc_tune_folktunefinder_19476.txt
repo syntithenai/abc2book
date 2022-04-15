@@ -1,0 +1,26 @@
+X: 1
+T: Link Him Dodie
+R:
+B: RSCDS 8-4
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 4/4
+L: 1/8
+K: A
+|: "A"Ae e>d c<A c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e :|
+| "A"a/g/f/e/ c>a e>a c2 | "G"B=g g>d B<=G B<g \
+| "A"a/g/f/e/ c<a e<a c<a | "F#m"A<a c<a "A"ec c<e ||
+| "A"a/g/f/e/ "D"f>d "A"e>d c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e |]
+S:https://www.folktunefinder.com/tunes/19476
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LinkHimDodie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LinkHimDodie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LinkHimDodie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

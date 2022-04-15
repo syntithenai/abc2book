@@ -1,0 +1,29 @@
+X:409
+T: "Der boese Bruder"
+N: Z1089
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Romanze, Ballade, Tod
+M: 2/4
+L: 1/16
+K: Ab
+E2 | A4B4 | c2e2d2c2 | B4z2
+c2 | d2c2B2A2 | G2B2E2
+E2 | A4B4 | c3de2d2 | c4B4 | A4z2
+c2 | B2c2d2e2 | d4c4 | B4z2
+B2 | c2d2e2f2 | e4d4 | c4z2
+E2 | A4B4 | c2e2d2c2 | B4z2
+c2 | d2c2B2A2 | G2B2E2
+E2 | A4B4 | c3de2d2 | c4B4 | A4z2
+S:https://www.folktunefinder.com/tunes/69268
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

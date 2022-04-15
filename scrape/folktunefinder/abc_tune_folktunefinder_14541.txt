@@ -1,0 +1,29 @@
+X: 1
+T:Lilting Banshee, The
+T:Miller of Glenmire, The
+R:jig
+S:Mary Bergin
+N:Bars 1 and 5 also played |EAA EAc|
+M:6/8
+L:1/8
+K:Ador
+|: G \
+| "Am"EAA EAA | "G"BAB G2A | Bee edB | dBA     GED \
+| "Am"EAA EAA | "G"BAB G2A | Bee edB | dBA "Am"A2 |]
+|: {A}d \
+| "Am"eaa age | "G"dBA G2A | Bee edB | def    ~g3 \
+| "Am"eaa age | "G"dBA G2A | Bee edB | dBA "Am"A2 |]
+S:https://www.folktunefinder.com/tunes/14541
+S:http://trillian.mit.edu/~jc/music/abc/jig/LiltingBanshee_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LiltingBanshee_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/LiltingBanshee_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LiltingBanshee_Am.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

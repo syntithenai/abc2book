@@ -1,0 +1,22 @@
+X: 2
+P: Maamme (V\aart land) (Our Land) (National Anthem of Finland)
+C: Fredrik Pacius
+N: National anthem of Finland
+M: 3/4
+L: 1/8
+K: A
+E CD \
+| "A"E3 A "E7"B>E | "A"c4 A2 | "D"F>B "A"A2 "E7"G2 | "A"A3 ||
+|: zE2 \
+| "E7"B>A GF ED | "A"C"D"F "A"E2 E2 | "E7"B>A GF ED | "A"C"D"F "A"E2 zE |
+| "A"A>E CE AB | "A"c4 A2 | "D"F>B "A"A2 "E7"G2 | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/4559
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

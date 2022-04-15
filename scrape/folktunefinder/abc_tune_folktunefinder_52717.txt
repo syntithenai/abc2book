@@ -1,0 +1,29 @@
+X: 14
+T:Scale for D Major. HS.14
+M:C
+L:1/4
+S:Henry Stables MS,Cumbria,late19thC
+R:misc.
+O:Walthwaite,nr.Ambleside.
+A:England
+N:This time there are no suck/blow instructions..They reappear in the
+N:next tune without the fingering numbers..This is consistent with a
+N:shift on the violin to Third Position..CGP
+Z:vmp.Chris Partington
+K:D
+"see note"DEFGABcdefg"1"a"2"b"3"c'"4"d'|\
+"4"d'"3"c'"2"b"1"a"=2"gfedcBAGFED||
+S:https://www.folktunefinder.com/tunes/52717
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

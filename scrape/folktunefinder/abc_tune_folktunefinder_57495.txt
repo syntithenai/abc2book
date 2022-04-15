@@ -1,0 +1,34 @@
+X: 158
+%%topspace .5cm
+T: Crieff Hydro March
+C: R-79
+C: Ron Gonnella
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: march
+K: D
+FE| "D"D3F A2d2| f4 a3f| "Em"g3f efed| "A"c2A2 AGFE|
+    "D"D3F A2d2| f4 a3f| "Em"g2fg "A"agfe| "D"d6 :|
+\
+fg| "D"a2f2 f2a2| a2f2 f2a2| a2^ga "B"ba=gf| "Em"g2e2 "A"e2fg|
+    "D"a2f2 f2a2| "G"g2b2 b2g2| "A"a3g f2e2| "D"d6 fg|
+    "D"a2f2 f2a2| a2f2 f2a2| a2^ga "B"ba=gf| "Em"g2ec "A"AGFE|
+    "D"D3F A2d2| f4 a3f| "Em"g2fg "A"agfe| "D"d6 |]
+%%begintext ragged
+%% A lively march named after Scotland's unique family holiday resort.
+%% Recorded on CHD 2401.
+%%
+%% 9/1/98
+%%endtext
+S:https://www.folktunefinder.com/tunes/57495
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

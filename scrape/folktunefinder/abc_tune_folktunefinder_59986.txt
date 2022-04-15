@@ -1,0 +1,36 @@
+X:3797
+T:Danza (CT 074)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Panderu, dicatada por Manuela y Josefa Martnez Martnez, de ochenta y ochenta y dos aos, respectivamente, de Llanuces, ayuntamiento de Quirs.
+N:Despus de habernos cantado esta meloda, dijeron las dos ancianas que esta cancin tena tambin un tono triste, y entonaron la que figura en el subgrupo A del grupo segundo, sealada con el nmero CT 149.
+O:Llanuces (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 074
+M:6/8
+L:1/8
+Q:3/8=88
+W:T dices que no me quieres
+W:porque no soy la primera;
+W:la flor que primero nace,
+W:primero el aire la lleva.
+K:C
+B
+|d2 d edc|d B2 d2 B|G3 ABc|d c2-c z B|
+d2 d edc|d B2 d2 B|G3 BBB|(B-B/c/4B/4A/G/4A/4)G3-|G2 z4||
+S:https://www.folktunefinder.com/tunes/59986
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

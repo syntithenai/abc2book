@@ -1,0 +1,21 @@
+X:16221
+T:Sweet Molly
+M:C|
+L:1/8
+K:EDor
+% alternate bars are in D major
+% there is only one unimportant c; both modes are nearly hexatonic
+   e|E/E/E BE dEBe|dBAF  DEF
+   d|E/E/E BE dEBe|dBAF  B2E:|
+   F|Eeef     gfed|BdAF  DEF
+[1 D|Eeef     gfed|BdAF  B2E
+[2 f|afge     fdec|d>BAF B2E|]
+S:https://www.folktunefinder.com/tunes/47496
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:3297
+T:Concertina Hoe Down
+R:polka
+Z:Martin_Dring, mailto:mdoering@mucl.de
+M:4/4
+L:1/8
+K:D
+"A"a4 e4|"F#m"dcdf "A"e2 c2|"A"A2>c2 e2 c2|"E7"dcBG "A"A4:|
+"A"A2>c2 e2 c2|"F#m"dcdf "A"e2 c2|"A"A2>c2 e2 c2|"E7"dcBG "A"A4:|
+"A"a4 "G"g4|"D"f2 f2 fed2|"A"e2 e2 ed c2|"D"dcde "Bm7"f4|
+"A"a4 "G"g4|"D"f2 f2 fed2|"A"e2 e2 ed c2|"Bm7"d2 f2 "E7"d2 z2||
+S:https://www.folktunefinder.com/tunes/29577
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:4790
+T:Polska fr Bjrkede
+A:Jmtland
+C:e. Oskar Andersson
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008c5.html
+%%ID:000008c5
+K:A mixolydian
+d3c de | (3fgf (3efe de | (3fgf (3efe (3ded | \
+cd Bd Bd | B2 A4 |
+a3 ^g ab | (3c'd'c' (3bc'b ab | \
+(3c'd'c' (3bc'b (3aba | ^gab a4 :|
+|:A2- (3ABA ^GA | FA FA FA | \
+F2 F4 | E2 F4 |\
+A2- (3ABA ^GA | FA FA FA | dc BA GF | E2 D4 :|
+S:https://www.folktunefinder.com/tunes/37037
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

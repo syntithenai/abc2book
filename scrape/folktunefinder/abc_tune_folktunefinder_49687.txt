@@ -1,0 +1,34 @@
+X: 132
+T:Waltz,A. CJF.132
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The note marked "a" here is also so marked in the MS, where the stave
+N:show a c2, - PJH.
+Z:vmp.P J Headford 2000
+K:D
+(fg)|(af) d2(db)|(af) d2(af)|(ge)cAag|g2f2 (fg)|!
+af d2db|afd2 af|gecAge|d2d2:|!
+|:cd|ecAceg|fdAdfa|b2b2b2|^gagacd|!
+ecAceg|fdAdfa|b2bg ec|d4:|!
+|:A|d2f2a2|(ab).a.gf2|e2d2e2|f2d2A2|!
+d2f2a2|abagf2|fed2e2|d4:|!
+|:A2|cAEAcA|dAFAdA|e2edcB|"a"A2cgfe|!
+d2f2a2|(ab).a.gf2|e2d2e2|f2d2A2|!
+d2f2a2|(ab).a.gf2|fed2e2|d4:|]
+S:https://www.folktunefinder.com/tunes/49687
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

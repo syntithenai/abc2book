@@ -1,0 +1,45 @@
+X: 1
+T: Devetorka: Samokovsko Horo
+O: Bulgaria: Shop
+S: Jaap Leegwater
+Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers from handwritten MS, Tom Pixton's transcription
+%%slurgraces
+K: A^c=f_B
+"A"\
+|: "A"{B}AG AB cd c2B | {B}AG AB cd c2B | {B}AG AB cd c2B | "Gm"cB {B}AG A2 "A"A3 :|
+"B"\
+|: "Dm"dc dc de "A"c2B | {B}AG AB cd c2B | "Dm"dc dc de "A"c2B | "Gm"cB {B}AG A2 "A"A3 :|
+"A"\
+|: "A"{B}AG AB cd c2B | {B}AG AB cd c2B | {B}AG AB cd c2B | "Gm"cB {B}AG A2 "A"A3 "fine"y:|
+K: G
+"D"\
+|: "G"[B6G6] [cA][BG][cA] | [d6B6] [ec][dB][ec] \
+| "D"[f6d6] [ge][fd][ec] |1 "G"[d6B6] "D7"[cA][BG][AF] :|2 "G"[d7B7]z2 ||
+"D"\
+|: "D"[f6d6] [ge][fd][ec] | "G"[d6B6] "(D7)"[cA][BG][cA] \
+|1 "G"[d6B6] [cA][BG][cA] | "C"[e7c7]z2 \
+:|2 "G"[d6B6] "D7"[ec][dB][cA] | "G"[B7G7]z2 ||
+"E"\
+[| "G"[d2B2] [ge][fd] [g2e2] "C"[e3c3] | "D"[d2B2] [dB][ec] [dB][cA] "G"[B3G3] \
+| "C"[g2e2] [ge][fd] [e2c2] [ge][fd][ec] |  "G"[d2B2][dB][cA] [BG][cA] [d3B3] \
+| "G"[d2B2] [ge][fd] [g2e2] "C"[e3c3] |
+| "D"[d2B2] [dB][ec] [dB][cA] "G"[B3G3] \
+|: "D"[d2B2] [cA][BG] [A2F2] [cA][BG][AF] | "G"[G4G4] [BG][cA] [d3B3] \
+|  "D"[d2B2] [cA][BG] [A2F2] [cA][BG][AF] | "G"G7z2 :|
+S:https://www.folktunefinder.com/tunes/2802
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Devetorka2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Devetorka2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Devetorka2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

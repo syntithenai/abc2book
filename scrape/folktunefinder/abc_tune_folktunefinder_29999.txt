@@ -1,0 +1,20 @@
+X:0
+T:Weel May The Keel Row
+G:song
+S:Gall and Inglis, Select Songs of Scotland
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+D|B>B GB |c2 Ac |B>B GB |AF DD|BB  GB |c2 Ac |B>G A>F|G3:|
+c|B>d dg |e2 dc |B>G GB |AF Dc|B>d d<g|e2 dc |B>G AF |G3:|
+z|B2  G>B|c2 A>c|B2  G>B|AF D2|B2  G>B|c2 A>c|B>G A>F|G3:|
+S:https://www.folktunefinder.com/tunes/29999
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

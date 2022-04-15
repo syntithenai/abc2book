@@ -1,0 +1,28 @@
+X:0
+T:Kenny Gillies of Portnalong, Skye
+G:jig
+S:Rory Campbell
+M:6/8
+L:1/8
+Q:3/8=120
+K:Amix
+% lydian/major/mixolydian pentatonic, A-mode DG-gap
+e||AAA e2c|efa f2e|faa AAA|fec cBB |
+   AAA e2c|efa f2e|eff fec|BAA A3 :|
+   a3  AAA|cea fee|faa AAA|fec cBB |
+[1 a3  AAA|cea fee|eff fec|BAA A2e:|
+[2 AAA e2c|efa f2e|eff fec|BAA A3 ||
+   AAA cBc|AeA fee|faa AAA|fec cBB |
+   AAA cBc|AeA fee|eff fec|BAA A2e:|
+   c2e afa|Ace fee|faa AAA|fec cBB |
+[1 c2e afa|Ace fee|eff fec|BAA A3 :|
+[2 AAA cBc|AeA fee|eff fec|BAA A3 |]
+S:https://www.folktunefinder.com/tunes/30110
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

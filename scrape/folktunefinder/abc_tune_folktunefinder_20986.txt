@@ -1,0 +1,37 @@
+X:537
+T:Bill Jones. CJF.167
+O:england
+M:C
+L:1/8
+Q:160
+C:"Rodwell"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The name "Rodwell" is inbrackets on the title line. The tune seems to
+N:continue across the pages from the bottom stave of. CJF.091 to the
+N:penultimate stave of. CJF.092. This link is indicated by two lines
+N:which
+N:cross the page boundaries and written above is what seems to be "box
+N:12" between two marker asterisks. - PJ
+K:D
+D2|D2F2A3D|D2G2B3B|d2F>BA3A|A2E>FD2zD|\
+D2F2A3D|D2G2B3B|(d>c)B2B2E2|A2^G2A2zA|
+B>A G>FG2E2|A2zEF2zF|F2^A2B2zD|d2c2B2zB|\
+(d>c) (B>=A) (B>A) (G>F)|(G>F) (E>D)hA3A|d2d2d3D""|
+""(D>E) (F>G)A2^A2|(B>=A) (G>F)G2^G2|\
+(A>=G) F>E) F2d2|(D>E) (F>G)A2c2|d3dd3d|d6d2|
+(D>E) (F>G)A2c2d4||
+S:https://www.folktunefinder.com/tunes/20986
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

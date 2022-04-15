@@ -1,0 +1,51 @@
+X:773
+T:Xiraldilla (CT 106)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xirladilla, dictada por Milagros Vquez Martnez, de veintids aos, de Murias, ayuntamiento de Quirs.
+A:Asturies
+O:Murias (Quirs)
+Z:Cancioneru de Torner 106
+M:2/4
+L:1/8
+Q:1/4=152
+K:C
+G
+|GA Bc|dd de|f2 e2|d2 z G|
+GA Bc|dd de|f2 e2|d2 z2|
+|d2 c2|B2 dc|B2 A2|G4|
+d2 c2|B2 dc|B2 A2|G2 z G|
+GA Bc|dd de|f2 e2|d2 z G|
+GA Bc|dd de|f2 e2|d2 z2|
+d2 c2|B2 dc|B2 A2|G4|
+d2 c2|B2 dc|B2 A2|G2 z2||
+W:Aquella palomina que del mar sali,
+W:aquella palomina, pa mi ya vol.
+W:
+W:Sigue la paloma en el mar,
+W:sguela que se va embarcar.
+W:
+W:Que si t no la sigues,
+W:quin la va seguir.
+W:
+W:Ai! amante del alma,
+W:que se va a morir.
+W:
+W:Sigue la paloma en el mar,
+W:sguela que se va embarcar.
+W:
+S:https://www.folktunefinder.com/tunes/59660
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X:10
+T:10 Fac ut portem Christi mortem
+T:Alto solo
+M:C
+L:1/8
+%%staves a | {1 2 3}
+Q:"Largo"
+K:Gm
+V:a name=Alt dyn=up
+Hz8|Hz8|
+V:1 name="Str.\nBc."
+[Gg]G3//G// G3//B//A3//G// ^F3//^c// {c}dHz2|[=F=f]F3//F// F3//_A//G3//F// =E3//=B// {B}cHz2|
+V:2
+x8|!dolce!x8|
+V:3
+G,G,3//G,// G,3//B,//A,3//G,// ^F,DHz2|=F,F,3//F,// F,3//_A,//G,3//F,// =E,CHz2|
+V:a% M3
+Hz8|Hz8|
+V:1
+[_E_e]E3//E// E3//G//F3//E// D3//=A//B Hz(b/^f/|Tg/^f/g-) g//g//(a//b//a//g//f//g//) (f/=e/d)Hyz2|
+V:2
+!forte!x4x3!dolcea!x|x8|
+V:3
+_E,E,3//E,// E,3//G,//F,3//E,// D,B, HzD|E(e/=B/ c)^CD2Hy!forte!D,/=C,/_B,,/A,,/|
+% (48)
+V:a% M5
+z8|Hz8|
+V:1
+(g/b//a//g)- g/(c//A//)(B//G//)(A//^F//) G/(b//a//g)- g/((c//A//)B//G//)(A//F//)|G3//B//E3//G// ^CDG,2Hz2|
+V:2
+!forte!x4!dolce!x4|!forte!x8|
+V:3
+[G,,G,][B,,B,][C,C][D,D] [E,E]B,,C,D,|G,3//B,//E,3//G,// ^C,D,G,,2Hz2|
+V:a% M7
+G2-G3//B// TA3//G// ^F {^c}dHz2|!dolce!=F2-F/_A/ TG/F/ =E {=B}cHz2|
+S:https://www.folktunefinder.com/tunes/1818
+S:http://moinejf.free.fr/abc/stabat.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

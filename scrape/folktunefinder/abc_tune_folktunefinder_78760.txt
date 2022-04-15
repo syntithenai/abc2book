@@ -1,0 +1,25 @@
+X:319
+T: ES WOHNT EIN MARKGRAF AN DEM RHEIN
+N: E0182B
+O: Europa, Mitteleuropa, Deutschland, Potsdam, Toeplitz
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte
+M: 2/4
+L: 1/16
+K: G
+D2G2D2 | G4d4 | B2d2B2
+G2 | A3BA2c2 | B3cB2
+A2 | G4D4 | G2B2d2
+c2 | B4A4 | G4z4 | z2
+S:https://www.folktunefinder.com/tunes/78760
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Ho Ro My Nut-Brown Maiden
+R: jig (originally march)
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"d2c B2A | "D"d3     A2d |  "D"f2d "Bm"g2f | "Em"fe2 "A7"e2g \
+| "D"fa2 fa2 | "D"A3 "Bm"d2e | "Em"f2f "A7"g2e | "D"d3-      d2 :|
+|: f \
+| "D"a2b a2f | "D"a3     f2g |  "D"a2b "Bm"a2f | "Em"e3 "A7"e2g \
+| "D"fa2 fa2 | "D"A3 "Bm"d2e | "Em"f2f "A7"g2e | "D"d3-     d2 :|
+S:https://www.folktunefinder.com/tunes/14318
+S:http://trillian.mit.edu/~jc/music/abc/jig/HoRoMyNutBrownMaidenJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HoRoMyNutBrownMaidenJ_D.abc
+% Rhythm Jig (originally march)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

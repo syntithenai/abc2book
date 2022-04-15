@@ -1,0 +1,37 @@
+X: 1
+T: Come Dance and Sing
+T: Come Let Us Dance and Sing
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Kennedy
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2cd "A7"e2de | "D"f2d2 dedc | "G"B2e2 "E7"efed | "A7"c2A2 A2((3ABc) |
+| "D"d2cd "A7"e2de | "D"f2d2 dedc | "Em"B2e2 "A7"dcBc | "D"d2D2 D2 :|
+|: AG \
+| "D"F2A2 ABAG | F2A2 "A7"A3G | "D"F2A2 d2f2 | "E7"edcB "A7"A2AG |
+| "D"F2A2 ABAG | F2A2 "A7"A2Bc | "D"d2de "E7"fefg | "A7"a2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/16948
+S:http://trillian.mit.edu/~jc/music/abc/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/~jc/music/book/500/ComeDanceAndSing.abc
+S:http://trillian.mit.edu/~jc/music/book/500/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/ComeDanceAndSing_D4.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/ComeDanceAndSing.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/ComeDanceAndSing_D4.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

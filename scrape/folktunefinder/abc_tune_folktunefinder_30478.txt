@@ -1,0 +1,26 @@
+X:845
+T:Aire de l'Opera Francoise
+B:Aird's Airs and Melodies vol 2
+M:C
+N: !!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000171.html
+%%ID:00000171
+K:G
+G2G2 d2d2| efge {e}d4| c2c2 B2B2| AGAB G2-G2::\
+d2d2 c2c2| B2B2 A4|
+d2d2 c2c2| B2B2 A4|\
+G2G2 d2d2| efge d4| c2c2 B2B2| AGAB G4::
+BGBG dBdB| efge d4| cAcA BGBG| AGAB G4::\
+dBdB cAcA| BGBG B2A2|
+dBdB cAcA| BGBG "tr"B2A2|\
+BGBG dBdB| efge {e}d4| cAcA BGBG| AGAB G4:|
+S:https://www.folktunefinder.com/tunes/30478
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

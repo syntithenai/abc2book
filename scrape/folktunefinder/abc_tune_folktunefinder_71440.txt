@@ -1,0 +1,25 @@
+X:411
+%%topmargin 3cm
+T:Borlum's Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F
+d S|: c<Af>A c2 Ld2 | c>Af>A G2 Ld2 | c<Af>A c<Aa>g | f>d{/d}c>A G2 Ld2 :| F>AF>A c2 Ld2 | F>AF>A G2 Ld2 |
+F>AF>A F>AF>A | (B/A/B/c/) (d/c/B/A/) G2 Ld2 | F>AF>A G2 Ld2 | F>AF>A G2 Ld2 | F>FC>F A,>FC>A | B>c d/c/B/A/ G2 Ld2 S|| H[F8A8c8] |]
+S:https://www.folktunefinder.com/tunes/71440
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Borlums_Rant.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0411.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

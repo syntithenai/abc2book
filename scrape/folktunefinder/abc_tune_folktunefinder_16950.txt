@@ -1,0 +1,25 @@
+X:1
+T:The Concert Reel
+S:Dance Music of Willie Clancy No. 9 emended with notes and memories from local sessions
+N:Not absolutely sure about the second half of the next to the last bar in B part
+Z:Jerome Colburn <jscolbur@PRAIRIENET.ORG> irtrad-l 2001-7-20
+M:C
+K:ADor
+|: ~A3B AGEF | GABG A3 B | dBAB  G3 B | dBeB dBAc |
+   BAGB AGEF | GABG A2Bd | ea~a2 gedB | GBdB BAA2 :|
+|: ea~a2 ea~a2 | edef gedB | dg~g2 a2ga | bgab gedg |
+   ea~a2 ea~a2 | edef gbaf | gage  dBAB | GBdB BAA2 :|
+S:https://www.folktunefinder.com/tunes/16950
+S:http://trillian.mit.edu/~jc/music/abc/reel/ConcertReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ConcertReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ConcertReel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:223
+T: EIN JUNGER KNAB GASSATEN GING
+N: E0813
+O: Europa, Mitteleuropa, Deutschland, Meiningen; Coburg
+R: Tage - Lied, Kilt - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | GFG3B | AGA3
+B | cBc2e2 | B2B2
+D2 | GFG3B | AGA3
+B | cBc2e2 | B2B2z
+G | Bcd3B | cde3
+e | ded3B | AGA3
+B | cBc2e2 | B2B3
+G | Bcd3B | cde3
+e | ded3B | AGA3
+B | cBc2e2 | B2B2
+S:https://www.folktunefinder.com/tunes/76708
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tage - lied, kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

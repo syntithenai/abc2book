@@ -1,0 +1,39 @@
+X:824
+T:Xiraldilla (CT 246)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Aurelio Noval, de veinte aos, de La Pola Siero.
+A:Asturies
+O:La Pola Siero (Siero)
+Z:Cancioneru de Torner 246
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+B
+|dd^c|d2 B|dd^c|d B2|ccA|G2 A|GGF|G2 B|
+dd^c|d2 B|dd^c|d2 B|ccA|G2 A|GGF|G2 z||
+W:El carbonero
+W:que est en la esquina:
+W:no hay quien me compre
+W:carbn d'ancina
+W:Carbn d'ancina,
+W:que no es de roble.
+W:El Carbonero!
+W:Adios, que voime.
+W:
+S:https://www.folktunefinder.com/tunes/59711
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

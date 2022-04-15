@@ -1,0 +1,25 @@
+X:0
+T:Honey-Ant Song of Ljaba
+O:Central Australia
+G:song
+B:Charles Haywood, Folk Songs of the World
+M:6/8
+L:1/8
+Q:3/8=108
+K:C
+% lydian/major/mixolydian pentatonic
+e|(2(ed) (dc)c|c2c c3| c2 c c2:|
+e|(2(ed) (dc)c|c2c c3| c2 c c2c|
+  (2(AG) (GE)E|E2E E3|(ED)D C2E|
+     E3   E2 E|E2E E3|(ED)C C2C|
+     C3   C2 C|C2C C3| C2 C C2E|
+     E3   E2 E|E2E E3|(ED)C C2C|
+     C3   C2 C|C2C C3| C2 C C3|]
+S:https://www.folktunefinder.com/tunes/30253
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 4
+P: Hundred Pipers (bagpipe version)
+R: jig, march
+O: trad Scotland
+M: 6/8
+L: 1/8
+K: D
+   ag \
+| "D"f2A A>BA | "G"B2d d2a | "D"a2f f>ed | "A7"e3- ede \
+| "D"f2A A>BA | "G"B2d d2a | "D"a2f "A7"e>fe | "D"d3- d :|
+|: cd \
+| "A"e2e e>ce | "D"f2a a2f | "A"e2c c>BA | "G"B3- Bcd \
+| "A"e2e e>ce | "D"f2a a2f | "A"e2c "G"B>cB | "A"A3- A :|
+S:https://www.folktunefinder.com/tunes/3332
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ72.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ04.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/CuttySark1.abc
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

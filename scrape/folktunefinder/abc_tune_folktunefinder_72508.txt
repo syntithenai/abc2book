@@ -1,0 +1,25 @@
+X:51
+T: Die irdische Pilgerfahrt
+N: D0055
+O: Europa, Mitteleuropa, Lothringen, Hambach
+N: Sonderzeichen in der Notation
+R: geistliches Lied
+M: 3/4
+L: 1/8
+K: G
+G2 | G4G2 | d6 | _e2=f2e2 | d4
+d2 | c3dc2 | _B2A2GA | _B2A2G2 | z4
+g2 | d2d2g2 | d2d2c2 | _B3dBA | G4
+G4 | _B2d2c2 | d3_edc | _B4A2G2- | G2z6
+S:https://www.folktunefinder.com/tunes/72508
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Fig for a kiss
+T:The Old Dutch Churn
+M:9/8
+L:1/8
+S:James Kelly workshop
+Z:Foty, Caroline C. <FotyC@nasd.COM>
+N:The c near the end may be c# instead.
+R:slipjig
+K:EDor
+|: F \
+|  G2B E2B {d}BAG | FGA D2A {B}AGF | G2B E2B {d}BAG |  BdB AGF E2  :|
+f \
+|  g2e g2e {f}edB | f2d {e}dcd fed | g2e g2e {f}edB | dBA ABd e2f |
+|  g2e g2e {f}edB  | f2d {e}dcd fga | {ga}gfe fed ed=c | B/2c/2dB AGF E2 |]
+S:https://www.folktunefinder.com/tunes/18528
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/FigForAKiss.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/FigForAKiss.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/FigForAKiss.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/slipjig/FigForAKiss.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/slipjig/FigForAKiss.abc
+% Rhythm Slipjig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

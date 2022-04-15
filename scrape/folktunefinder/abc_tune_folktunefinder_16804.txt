@@ -1,0 +1,30 @@
+X: 1
+T: The Black Haired Lass
+R: Reel
+N: Collected by F. O'Neill
+B: O'Neill's 1326
+Z: Transcribed by Trish O'Neil
+M:C|
+L:1/8
+F:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1326_to.abc 2003-10-31 15:50:54 UT
+K:Amix=g
+ ed | "A"c2AB    cdec | "G"d2gd    BGGB | "A"cBAB    cdec | "E7"dfec "A"A2 :|
+yAB | "A"cdef "G"g2eg | "D"fddf "G"gfed | "A"cdef "G"g2eg | "E7"fdec "A"A2 ||
+yAB | "A"cdef "G"g2eg | "D"fddf "A"e2fg | "D"afge    fdec | "E7"dfec "A"A2 |]
+S:https://www.folktunefinder.com/tunes/16804
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1326_to.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1326_to.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlackHairedLass_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/BlackHairedLass_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BlackHairedLass_A.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

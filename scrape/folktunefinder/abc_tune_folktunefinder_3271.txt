@@ -1,0 +1,42 @@
+X: 3
+P: Stan Chapman's
+C: Jerry Holland
+M: 6/8
+L: 1/8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: A
+   F \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | ecA "E"BAF \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | "E"ecA "A"A2 :|
+   f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "A"cAA A2 |]
+   f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"ecA ecA | "D"fdf fga | "A"fec "E"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/3271
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ55.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ContraJig04.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/ElliesJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/ElliesJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/FiftyYearsOn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/JohnnysNewJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/JubileeJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LadiesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LadyCatherineBrucesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LadyCatherineBrucesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LairdOfMiltonsDaughter1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RoryOMore.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LadiesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/LadiesFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/LadiesFancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090119/ElliesJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LadiesFancy
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

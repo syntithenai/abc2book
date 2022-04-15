@@ -1,0 +1,27 @@
+X:51
+T: BALD GRAS ICH AM NECKAR
+N: E1049
+O: Europa, Mitteleuropa, Deutschland, Hessen, Odenwald, Lindenfels
+R: Tanz - Lied, Jodler
+M: 3/4
+L: 1/16
+K: C
+E2D2 | C4E,4G,2E,2 | D,4F,4
+D2C2 | B,4G,4G,2F,2 | E,4G,4
+E2D2 | C4E,4G,2E,2 | D,4F,4
+D2C2 | B,4G,4G,2B,2 | C8z4
+A,4F4C4 | G,4E4C4
+B,3A,B,3CD4 | C3B,C3DE4
+A,4F4D4 | G,4E4C4
+B,3A,B,3CD3B, | C4z4
+S:https://www.folktunefinder.com/tunes/79155
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

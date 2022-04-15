@@ -1,0 +1,26 @@
+X:1310
+T:Den Seje Hambo
+M:3/4
+O:Sweden
+R:Hambo
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c62.html
+%%ID:00000c62
+K:D min
+D2 D>F A>d | e2 A>c e>g| f2 f>e d>^c| e2 e>^c A2 |\
+d2 D>F A>_A| G2 G>A B>G| A2 ^c>e a>c|1 d2 d4 :|2 d2 d2 zA|:
+[K:D]
+d2 d>e f>a| e2 e>d c>d| B2 B>c (3dcB| c2 f>c A>F|\
+G2 G>A B>d| A2 A>d f>c
+|1 ef g>f e>d| cd e>c A>A\
+:|2 e>f (3gfe a>c| d2 d4 |]
+S:https://www.folktunefinder.com/tunes/36341
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

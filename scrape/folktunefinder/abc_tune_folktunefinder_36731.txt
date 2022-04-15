@@ -1,0 +1,27 @@
+X:3260
+T:Lngdans fran Smland e. Bengt Lofberg
+A:Smland
+C:e. Bengt Lofberg
+L:1/8
+M:3/4
+N:Johan Hedin, Norwich 2004
+O:Sweden
+R:Lngdans
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ec0.html
+%%ID:00000ec0
+K:D dorian
+d2 (dc) (ec) | A2 (AG) A2 | d2(dc) (ec) | (AB) AG  A2  | F2(FE) (FA) \
+|1 (FD) (EC) A,G,| A,4  A,2 | A,4 A,2 :|2 FD EC A,C | D4 D2 | D4 DE |: !\
+F2FE FA | FD EC A,G, | A,4  A,2 | A,4 A,2 |\
+F2FE FA | FD EC A,C  | D4 D2    | D4 DE:|
+S:https://www.folktunefinder.com/tunes/36731
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Lngdans
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

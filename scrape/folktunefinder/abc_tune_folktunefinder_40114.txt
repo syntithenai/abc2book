@@ -1,0 +1,32 @@
+X: 10
+T: 3. Caddam Wood
+R: Reel
+L: 1/8
+M: C|
+% Q: 440
+K: A
+|: \
+"A" eeee ^d2e2 | f2e2 c4   |  EEEE "F#" A2c2 | "Bm" f2e2 "E" d4  |
+"E" dddd  c2d2 | g2f2 d4   |1 g3f       d2B2 |      f2e2     c4 :|2 gfed c2 B2 | A2-A2 c4 ||
+"A" eeee  c2c2 | eeee c2c2 |  e4    "D" f3e  | "E7" e2^d2  =d4   |
+"E" dddd  B2B2 | dddd B2B2 |  g3f       g3f  | "A"  f2e2    f2e2 |
+"A" e4    efed | c2c2 c4   |  e4    "D" f3e  | "E7" e2d2   =d4   |
+"E" d4    dedc | B2B2 B4   |  GABc      defg | "A"  a4      a4  ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 8 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center Portia's Smile
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 8x32 Strathspey    1 2 3 4 2 3 4 1
+S:https://www.folktunefinder.com/tunes/40114
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

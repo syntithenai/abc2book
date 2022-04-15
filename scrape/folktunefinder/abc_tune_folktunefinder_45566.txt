@@ -1,0 +1,30 @@
+X:132
+T:Halblauter Steirer (1.)
+C:traditionell
+R:Steirer
+A:Salzkammergut
+B:"(1.) Spielheft fuer Okarina", V .Derschmidt, Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+Z:abc transcription Simon Wascher
+N:im buch in F, nr. 1
+M:3/4
+L:1/8
+K:F
+V:1
+(CF)ACFA | (CE)GC E2 | (CE)GCEG | (CF)AC F2 |\
+(CF)ACFA | .c2 BG E2 | (CE)GCEG |1 F6 :|\
+################################[2 F4 ||
+V:2
+(FA)cFAc | (EG)BE G2 | (EG)BEGB | (FA)cF A2 |\
+(FA)cFAc | .e2 dB G2 | (EG)BEGB |1 A6 :|\
+################################[2 A4 ||
+S:https://www.folktunefinder.com/tunes/45566
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:231
+%%topmargin 3cm
+T:As, a Thiseach
+T:Be off, Macintosh!
+C:Captain Fraser
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D mixolydian
+^c | {/^c}dEBE {/c}dEB^c | {/^c}dEBE {/G}FDD^c | {/^c}dEBE {/F}GBeB | ^cA{/c}dA {/G}FDD :: f | {/f}(ge)(be) {/f}geef |
+{/f}(ge)(be) fddf | [1 {/f}(ge)(bg) {/f}gefd | ^cA{/c}dA {/G}FDD :| [2 ebgb faeg | f^c{/c}dA {/G}FDD |]
+S:https://www.folktunefinder.com/tunes/70978
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/As_a_Th_iseach.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

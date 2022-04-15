@@ -1,0 +1,35 @@
+X: 1
+T: Bung Your Eye
+T: the Braw Young Man
+T: There Came a Young Man
+C: Niel Gow
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: Bang your Eye in Clark Collection
+N: Mel Bay 165
+N: Williamson p.50
+N: BSFC IV-1
+M: 6/8
+L: 1/8
+K: Em
+"B7"B, \
+| "Em"E>FE G2A | B>AG "A7"F2E | "D"D>ED F2G | AdB AFD \
+| "Em"E>FE G2A | B>AG "(D)"FGA | "(C)"B2E "B7"EF^D | "Em"E3- E2 :|
+|:"D7"F \
+| "G"G2B d2e | d>BG dBG | "D7"D2F A2B | AdB AFD \
+| "G"G2B d2e | d>BG "B7"GB^d | "Em"e2E "B7"EF^D | "Em"E3- E2 :|
+S:https://www.folktunefinder.com/tunes/13956
+S:http://trillian.mit.edu/~jc/music/abc/jig/BungYourEye_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/BungYourEye_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BungYourEye_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/BungYourEye_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/BungYourEye_Em.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

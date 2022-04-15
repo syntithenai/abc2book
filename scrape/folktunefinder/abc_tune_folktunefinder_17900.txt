@@ -1,0 +1,25 @@
+X: 1
+T: Pretty Peg
+R: reel
+B: Kerr's Caledonian
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A \
+| "D"d2fd AFDF | d2fd "A7"egfe | "D"d2fd AFDF | "Em"GEFD "A7"CEE :|
+|: A \
+| "D"FDAD BDAD | "Em"GEFD "A7"CEEG | "D"FDAD BDAD | "A7"GEFD "D"A,DDA |
+| "D"FDdD cDBD | ADFD "A7"CEEG | "D"FAdf "Em"ecdB | "A7"AFGE "D"FDD |]
+S:https://www.folktunefinder.com/tunes/17900
+S:http://trillian.mit.edu/~jc/music/abc/reel/PrettyPeg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/PrettyPeg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PrettyPeg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PrettyPeg.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

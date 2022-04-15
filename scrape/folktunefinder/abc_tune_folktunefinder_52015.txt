@@ -1,0 +1,24 @@
+X:1
+T:Valse  Bouffard
+C:Patrick Bouffard
+R:Waltz
+M:3/4
+L:1/4
+%F:http://members.yline.com/~zeiler1/abc/czvals.abc   2005-10-23 20:24:43 UT
+K:D
+F2E|D2F|A3|A3|B2c|dcB|ABA|GFE|F2E|D2F|A3|A3|
+B2c|dec|d3|d3:| |:FAd|FAd|GBd|GBd|Ace|Ace|
+d>c d/2e/2|f2d|FAd|FAd|GBd|GBd|Ace|Ace|dc/2d/2 e/2c/2|d3:|
+S:https://www.folktunefinder.com/tunes/52015
+S:http://members.yline.com/~zeiler1/abc/czvals.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Waltz
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

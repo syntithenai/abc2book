@@ -1,0 +1,24 @@
+X:636
+T: "Raethsellied"
+N: Z1317
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Zech -, Schalks - Lied
+M: 2/4
+L: 1/8
+K: F
+C | FEFG | F2CC | AGAB | A2z
+G | AGAB | c2BA | GFGA | F2z
+c | c2c2 | d2d2 | e2e2 | f2z
+c | c2c2 | d2cB | A2G2 | F2z
+S:https://www.folktunefinder.com/tunes/69495
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

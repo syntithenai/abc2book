@@ -1,0 +1,27 @@
+X: 1
+T: A mother's love is a blessing
+Z: Hugh O'Rourke <hughor@optonline.net> irtrad-l 30 Mar 2001
+N: popularized by the New York area singer Ruthie Morrissey.
+M: 3/4
+K: D
+"D"A \
+| "D"F2 "D"A | "G"G2 "D"F | "A"E "D"D2 | "D"D2 "D"A \
+| "D"d2 "A"e | "D"d "F#m"c "Bm"B | "D"A3 | "D"A3 |
+| "D"d2 "D"d | "F#m"c2 "Bm"B | "D"A "D"F2 | "D"F2 "D"A \
+| "Bm"B2 "A"E | "A"E2 "D"F | "A"E3 | "D"F2 "D"A |
+| "D"F2 "D"A | "G"G2 "D"F | "A"E "D"D2 | "D"D2 "D"A \
+| "D"d2 "A"e | "D"d "F#m"c "Bm"B | "D"A3 | "D"A "Bm"B "F#m"c |
+| "D"d2 "D"d | "F#m"c2 "Bm"B | "D"A2 "D"F | "D"D "A"E "D"F \
+| "G"G "D"A "Bm"B | "D"F2 "A"E | "D"D3 | "D"D2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13012
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

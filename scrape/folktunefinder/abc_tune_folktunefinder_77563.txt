@@ -1,0 +1,31 @@
+X:25
+T:Draco non moritur, nisi cum fratre et sorore sua interficatur, qui sunt Sol et Luna
+T:The Dragon will not die, unless it be killed by its brother and sister, who are the Sun and Moon
+T:Fuga XXV
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 11               % Atalanta
+V:2 program 1 57 transpose -12 % Golden Apple
+V:3 program 1 14 bass          % Hippomenes
+M:none
+L:1/4
+Q:1/2=96
+K:G dorian
+[V:1] z2 dc =BA=B2  z2   c4    _B2 A2 GA  B>A G2    z2   c2  B2A2   G2 B2  A2  c2  cB AG  F  G2 ^F |
+[V:2] d4     d2 d2  c4       d2 d2 c4     B2  B2    c4       d4     B4     c2  c2  d2 d2  A4       |
+[V:3] z4     z2 G,F,E,D, E,2 z2 F,4  _E,2 D,2 C,D, _E,>D,C,2 z2F,2 _E,2D,2 C,2_E,2 D,2F,2 F,_E,D,C,|
+%
+[V:1]  G2   G2    E3F/G/ A2  A2       A2 G2  FD>EF  G2     z  G2 F/E/FE/F/G4                     G8 |]
+[V:2]  G2   G2    A4     c4           B4     A4     B2     B2     A4      G2         G2          G8 |]
+[V:3] =B,,C,2=B,, C,2C,2 A,,3_B,,/C,/ D,2D,2 D,2C,2 B,,G,,>A,,B,, C,2 z C,2 B,,/A,,/ B,,A,,/B,,/ C,8|]
+S:https://www.folktunefinder.com/tunes/77563
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

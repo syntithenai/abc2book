@@ -1,0 +1,31 @@
+X: 2
+P: The Bobby Harvey Strathspey
+C: Angus Fitchet
+B: Leeds #10
+Z: From the Newcastle Branch RSCDS
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: F
+B \
+| "F"A>c f>a "Bb"g-<d d2 | "C7"e>f g>e "F"f-<c c2 \
+| "Bb"d>B f>d "F"c>A d>c | "Gm"B>A G>F "C7"E-<G c2 |
+| "F"A>c f>a "Bb"g-<d d2 | "C7"e>f g>e "F"f-<c c2 \
+| "Bb"d>B f>d "F"c>A F>A | "Gm"B/A/G/F/ "C7"E>c "F"A-<F F |]
+B \
+| "F"A>B c>f "Bb"d-G g>f "C7"e-<c c>_B \
+| "F"A>B c>f "Dm"d>c A>c | "Gm"B/A/G/F/ "C7"E>c "F"A-<F F>B |
+| "F"A>B c>f "Bb"d-G g>f "C7"e-<c c2 \
+| "F"f-<c c=B/c/ "Gm"d>c "G7"A>F | "C7"E/F/G c>B "F"A-<F F |]
+S:https://www.folktunefinder.com/tunes/9699
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS02.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/WindOnLochFyne.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

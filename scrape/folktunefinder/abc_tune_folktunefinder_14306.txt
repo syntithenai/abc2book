@@ -1,0 +1,20 @@
+X: 1
+T: Hey, Boys, Up Go We
+O: England
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+K: C
+|: c | "G"d2d d2c | B2c d2G | "F"A2A "G7"BAB | "C"c3- c2 :: E || "F"F>GF "C"EDE | "G7"D2B BAB |
+| "C"c2G "G7"AG2 | "C"E3 CDE | "F"F>GF "C"EDE | "G7"D2B BAB | "C"c2G "G7"AG2 | "C"E3 C3 :|
+S:https://www.folktunefinder.com/tunes/14306
+S:http://trillian.mit.edu/~jc/music/abc/jig/HeyBoysUpGoWe.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/HeyBoysUpGoWe.abc
+S:http://trillian.mit.edu/~jc/music/book/500/HeyBoysUpGoWe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

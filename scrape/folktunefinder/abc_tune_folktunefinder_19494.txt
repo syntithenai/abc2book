@@ -1,0 +1,22 @@
+X: 1
+T: the MacAulays of Benbecula
+C: Frank Reid
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A |: "D"d>b  a-<d f2 f>e | "Bm"d>f d-<F "F#m"A2 F>A | "G"B>c (3dcB "D"A>f d>A |1 "E7"B2 e2 "A7"e2 f>e :|2 "G"B2d2 "D"d2 e>d ||
+[| "A"c>B c-<d "A7"e2 A2 | "D"A-<a f>e "D7"f2 (3fed | "G"g>f g>b "D"a>f d-<A | "E7"B2 e2 "A7"e2 f>e |]
+[| "D"d>b  a-<d f2 f>e | "Bm"d>f d-<F "F#m"A2 F>A | "G"B>d "A7"(3ecB "D"A>f d>A | "G"B2d2 "D"d2 |]
+S:https://www.folktunefinder.com/tunes/19494
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MacAulaysOfBenbeculaS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MacAulaysOfBenbeculaS.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/MacAulaysOfBenbeculaS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

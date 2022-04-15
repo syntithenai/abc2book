@@ -1,0 +1,23 @@
+X: 1
+T: Shiftin' Bobbins
+T: 8 x 32R 3C (R. Clowes/Ormskirk Book 6)
+P: Shiftin' Bobbins
+C: by Muriel Rimmer
+C: from B. McOwen, arr. T. Traub 8-9-2000
+R: reel
+M: 4/4
+L: 1/8
+K: G
+d2 |"G"^cddd e2 d2|^c2 d2 B2 G2 |DDDD G2 B2|"C"B2 c2 "Am"c4|"D"^cddd e2 d2 |"D"f2 e2 "A7"d2 e2|"D"fed=c B2 A2|"G"G2 E2 "D"D4||
+"G"^cddd e2 d2 |^c2 d2 B2 G2|"G"DDDD "Em"G2 B2|"C"B2 =c2 "Am"c4|"D"Bccc ^G2 A2|"D"^E2 F2 ^C2 D2|"D"D=EF=G B2 A2|"G"G4 G2||
+"G"DDDD E2 D2|^C2 D2 E2 D2|DDDD G2 B2|"C"^G2 A2 "Am"A4|"D"FFFF G2 F2 |^E2 F2 ^C2 D2|F3 E D2 ^C2|"G"F2 E2 D4||
+"G"DDDD E2 D2|^C2 D2 E2 D2|"G"DDDD "Em"G2 B2|"C"B2 c2 "Am"c4|"D"Bccc ^G2 A2|^E2 F2 ^C2 D2|"D"D=EF=G "A"B2 "D"A2|"G"G4 G2 |]
+S:https://www.folktunefinder.com/tunes/58450
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/ShiftinBobbinsR.abc
+S:http://terrytraub.org/abc/ShiftinBobbinsR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

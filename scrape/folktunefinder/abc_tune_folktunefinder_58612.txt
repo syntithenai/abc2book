@@ -1,0 +1,23 @@
+X: 5
+T:Gallowglas
+S:Jacky Daly
+P:2
+M:6/8
+L:1/8
+Q:200
+K:BMinor
+|:EF| GFE BFA| GEE E2 F| GFE Bcd| AFD DEF| GFE BFA|GFE B2 A|
+GFE DEF| GEE E2 B:|| ~e3 B2 A| GEE E2 F| GFE Bcd| AFD DEE|
+~e3 B2 A| GFE B2 A|GFE DEF| GEE E2 B| ~e3 B2 A| GEE E2 F|
+GFE Bcd| AFD DEE|eBd cAF| BGE FDB,| EFG BFA| GEE E3|
+S:https://www.folktunefinder.com/tunes/58612
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:2730
+T:Castle Jig
+R:jig
+C:Sean Ryan
+S:(Unknown fiddle)
+H:
+N:
+D:Unknown - Milltown Fiddle Recital
+Z:Adrian Scahill
+M:6/8
+L:1/8
+K:G
+c2A BAG|AGE DB,G,|A,3 EDB,|DEG AGE|\
+c2A BAG|AGE DB,G,|A,3 E3|DB,G, A,3:||
+cBA a3|bag edB|GBd g3|GBd cBA|\
+c3 dcd| ede gab|age dBG|EFG A3:||
+S:https://www.folktunefinder.com/tunes/29010
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

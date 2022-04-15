@@ -1,0 +1,25 @@
+X: 8
+T:40 pound float
+M:4/4
+L:1/8
+Q:120
+R:March
+K:D
+"D".d.d B/2c/2d/2B/2 AF AF|.d.d B/2c/2d/2B/2 AF ED|
+.d.d B/2c/2d/2B/2 AF Ad/2e/2|1 fd "A"ec "D"d4:|
+2 fd "A"e/2d/2c "D"d3 d/2e/2|:
+"D"fd de/2f/2 "G"gf ed/2e/2|"D"fd Ad f2 "A"a>g|
+"D"fd de/2f/2 "G"gf ed/2e/2|1 "D"fd "A"ec "D"d3 d/2e/2:|
+2 "D"fd "A"e/2d/2c "D"d4
+S:https://www.folktunefinder.com/tunes/50516
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

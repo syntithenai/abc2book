@@ -1,0 +1,36 @@
+X: 1
+T: Theme from "The Godfather"
+C: Nino Rota (1911-1979)
+M: C
+L: 1/8
+K: Am
+EAc \
+| "Am"BAcA "Dm"BAFG \
+| "Am"E4- EEAc \
+| BAcA BAE_E \
+| "Dm"D4- DDF^G |
+| "Dm6"B4- BDF^G \
+| "Am"A4- AA,CG \
+| FEGF "E7"FEE^G, \
+| "Am"A,4- A[AC][AC][_AC] |
+| "G7"[G4B,4] [B2D2] [AC][FA,] \
+| "C"[E4-G,4-] [EG,][EC][GE][EC] \
+| "Bb"[D4-_B,3] "Bdim"[DA,4]DF^D \
+| "Em"E4- "E7"EEAc |
+| "Am"BAcA "Dm"BAFG \
+| "Am"E4- EEAc \
+| BAcA BAE_E \
+| "Dm"D4- DDF^G |
+| "Dm6"B4- BDF^G \
+| "Am"A4- AA,CG \
+| FEGF "E7"FEE^G \
+| "Am"A4- A |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6576
+S:http://trillian.mit.edu/~jc/music/abc/Italy/GodfatherTheme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

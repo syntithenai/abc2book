@@ -1,0 +1,27 @@
+X:246
+T: Baenkelsaengerlied
+N: A0291
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Liederbuch No. 42
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/2
+K: F
+F | F2FA2A | c3c2
+c | c2cd2d | c3A2
+F | F2FA2A | c3c2
+c | c2cd2d | c3e2
+e | f2fe2d | c3A2
+A | c2cd2d | c3B2
+B | A2AG2G | F3-F2
+S:https://www.folktunefinder.com/tunes/68792
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: the Roxburgh Quick Step
+R: jig
+B: RSCDS 26-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: D
+A, \
+| "D"D3 FEF | A2d F2F | "Em"G2B E2D | "A7"CEA A,B,C \
+| "D"D3 FEF | A2d F2F | "G"GBA "Em"GFE | "A7"E3 "D"D2 !fine![|]:|
+A \
+| "D"d3 fdf | a2a f2d | A2d "Em"G2A | "A7"GEE E2A \
+| "D"d3 fdf | a2a "Bm"f2d | "E7"Bdc BA^G | "A7"ABA =GFE !d.C.![|]|]
+S:https://www.folktunefinder.com/tunes/14999
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoxburghQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoxburghQuickStep_D_AABA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/RoxburghQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RoxburghQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoxburghQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoxburghQuickStep_D_AABA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RoxburghQuickStep.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

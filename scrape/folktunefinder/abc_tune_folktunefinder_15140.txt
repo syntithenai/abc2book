@@ -1,0 +1,31 @@
+X: 1
+T: Tarry a While
+R: jig
+B: RSCDS __-20
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+|: F \
+| "Bb"B>cB F2D | F2F F2d | "Eb"e>fe "Bb"dcB | "Gm"d3 "F7"c2F \
+| "Bb"B>cB F2D | "(F7)"F2F Fde | "Bb"fdB "F7"c2d | "Bb"B3- B2 :|
+|: e \
+| "Bb"d2f fed | "Eb"e2g "F7"cde | "Bb"d>cB "Gm"BAB | "F7"d>cA F2e \
+| "Bb"d2f fed | "Eb"efg "F7"cde | "Bb"dcB BAB | Md3 "F7"c2 :|
+S:https://www.folktunefinder.com/tunes/15140
+S:http://trillian.mit.edu/~jc/music/abc/jig/TarryAWhileJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Tarry_a_While_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TarryAWhileJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TarryAWhileJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TarryAWhileJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Tarry_a_While_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TarryAWhileJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Tarry_a_While_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

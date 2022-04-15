@@ -1,0 +1,25 @@
+X:246
+T: DANN WANN DIE HAEHNE KRAEHEN
+N: Z0245
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Romanze
+M: 2/4
+L: 1/8
+K: E
+E | EF=GA | B2B
+B | =cB^AA | B2z
+B | A=GFE | D2B
+A | =GFED | E2z
+S:https://www.folktunefinder.com/tunes/69105
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Longwater
+C:XiM
+D:"989", XiM
+R:Schottische
+Z:Dave Holland <dave@biff.org.uk>
+M:2/4
+L:1/8
+K:Dm
+"Dm"F>E D/E/D/E/|F/E/F/G/ AG/A/|"B\b"B>A GF | "C"{GA}GF "Am"E2|
+"Dm"F>E D/E/D/E/|F/E/F/G/ "(F)"AG/A/|"B\b"BA {GA}GF | "C"E4:|
+"B\b"DF "C"EF/G/|"F"A>G A/G/F/E/|"B\b"D/E/F/A/ "C"GF/G/|"Dm"A/F/c/A/ "Am"G2|
+"B\b"DF "C"EF/G/|"F"A>G A/G/F/E/|"B\b"D/E/F/A/ "C"GF/E/|"Dm"FF "Am"E2:|
+S:https://www.folktunefinder.com/tunes/51972
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

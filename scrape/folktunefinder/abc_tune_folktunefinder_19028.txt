@@ -1,0 +1,28 @@
+X:1
+T:Time after time
+M:4/4
+L:1/4
+C:Jule Styne & Sammy Cahn
+Q:1/4=150
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Dm7"x2 "G7"x2 | "C6"x2 "Am7"x2 | "Dm7"x2 "G7"x2 |
+"Cmaj7"x2 x2 | x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 ||
+V:melody
+E2C>D|C3D|EAGE|C3D|
+S:https://www.folktunefinder.com/tunes/19028
+S:http://trillian.mit.edu/~jc/music/abc/song/Time_after_time.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/time_after_time.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Time_after_time.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/time_after_time.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

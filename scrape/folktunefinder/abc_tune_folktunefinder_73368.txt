@@ -1,0 +1,25 @@
+X:209
+T: Lord Mayo
+B: O'Neill's 209
+N: "Slow"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K:GDor
+GF \
+| (D>G) (G/A/c) d2 (cA) | d2 (G>A) (GF) D2 | D>G (G/A/c) d2 (fd) | (d>c) (A>G) G2 ||
+|| d2 \
+| (fd)(fg) a2 (gf) | (d>c) (d/=e/f) (F>G) (FD) | (fd)(fg) a2 (gf) | d2 (ga) g2 (ag) |
+| (fd)(fg) a2 (gf) | d>c (d/=e/f) F>G FD | (D>G) (cA) (GF) (fd) | d>c A>G G2 ||
+S:https://www.folktunefinder.com/tunes/73368
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

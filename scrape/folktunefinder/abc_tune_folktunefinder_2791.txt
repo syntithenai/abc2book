@@ -1,0 +1,30 @@
+X: 1
+T: \vCa\vcak
+O: Makedonija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: Dm
+"Dm" |: d2d2 a2g2 | abc'b a2g2 :: d3e fede | f2f2 edec :: d2g2 fede | f2f2 edec :|
+K: Am
+"Am" |: A2A2 e2d2 | efgf e2d2 :: A3B cBAB | c2c2 BABG :: A2d2 cBAB | c2c2 BABG :|
+%%sep 5 5 300
+K: Em
+"Em" |: E2E2 B2A2 | Bcdc B2A2 :: E3F GFEF | G2G2 FEFD :: E2A2 GFEF | G2G2 FEFD :|
+K: Bm
+"Bm" |: B2B2 f2e2 | fgag f2e2 :: B3c dcBc | d2d2 cBcA :: B2e2 dcBc | d2d2 cBcA :|
+S:https://www.folktunefinder.com/tunes/2791
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Cacak.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Cacak.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Cacak.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key B
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

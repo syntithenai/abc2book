@@ -1,0 +1,26 @@
+X: 1
+T: Jambolsko Pajdu\vsko (Dm)
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+R: pajdu\vsko
+M: 5/8
+L: 1/8
+K: Dm
+|: "Dm"dA fed | "C"ec "Dm"~d2A | ef fed | "C"ec "Dm"~d2A \
+| "Dm"dA fed | de fga | "Gm"~g2 fed | "C"ec "Dm"d2z :|
+[| "Dm(F)"FF FG2 | A2 A3 | A2 A3 | G2 F3 \
+| FF EF2 | "Gm"G2 D3 | D2 D3 | "Dm"D2 D3 |]
+|: "C"CC CC2 | D2 D3 | "Dm"D2 D2E | F2 F3 \
+| "Gm"GG AG2 | FE D3 | "Dm"[A2D] D3 | D2 D3 :|
+S:https://www.folktunefinder.com/tunes/3091
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JambolskoPajdushko_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Paj_Jambolsko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Paj_Jambolsko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/JambolskoPajdushko_Dm.abc
+% Rhythm Pajdus?ko
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

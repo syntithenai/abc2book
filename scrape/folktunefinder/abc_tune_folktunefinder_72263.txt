@@ -1,0 +1,32 @@
+X: 14
+T:Jigg,A. HA.015
+M:6/4
+L:1/4
+Q:120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Jigg
+O:England
+A:Hartburn,Northumberland
+N:The ends of the phrases are minims, and should possibly be played as
+N:dotted minims, but don't need editing to make sense,CGP
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:F
+c|ABc f2d|(cA)F E2D|EFG C2c|!
+Bcd b2a|(gc)f "cr"f>ge|"NB.sic"f2F2||!
+f/g/|(af)d (ge)c|(d/e/)fA GAB|c2f2|!
+"cr"e>dc dcB|bdg "cr"e>dc|f2F2|]
+W:cr=crotchet in MS
+S:https://www.folktunefinder.com/tunes/72263
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Sex Man Engelska
+O: Lemland, \AAland, Finland
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+N: Yet another version of Soldier's Joy
+M: 2/4
+L: 1/16
+K: D
+|: "D"AFDF AFDF | A2dd d2d2 | AFDF AFDF | "A7"F2EE E4 \
+|  "D"AFDF AFDF | A2dd d2d2 | "A7"e2e2 gece | "D"e2d2 d4 :|
+|: "D"f2ff f2d2 | "A7"e2ee e2A2 | "D"f2ff f2d2 | "A7"edcB A4 \
+|  "D"f2ff f2f2 | "G"g2bb b3f | "D"a2f2 "A7"gece | "D"e2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/13433
+S:http://trillian.mit.edu/~jc/music/abc/folk/SexManEngelska_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/SexManEngelska_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/SexManEngelska_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

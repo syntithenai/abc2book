@@ -1,0 +1,24 @@
+X:31
+T: Es fliegen zwei Tauben wohl ueber den Rhein,:
+N: D0032
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Achttonskala ( Ionisch, modulierend in die Dominanttonart )
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G3AB2 | A2A2D2 | E2F2E2 | D4
+D2 | G2A2B2 | A2A2d2 | ^c3de2 | d4
+d2 | G2A2B2 | c2B2A2 | G2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/72488
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

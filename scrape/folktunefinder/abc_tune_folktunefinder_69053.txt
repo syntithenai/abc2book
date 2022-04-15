@@ -1,0 +1,26 @@
+X:194
+T: SAGT MIR O SCHOENSTE SCHAEFRIN MEIN
+N: Z0193
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze
+M: 6/8
+L: 1/8
+K: C
+G | C2EC2E | C2ED2
+F | E2DC2D | G,3-G,2
+G | C2EC2E | C2ED2
+F | E2DC2D | G,3-G,2
+C | F2FF2F | E2DC2
+C | F2FF2F | E2DC2
+E | C2EC2E | C3-C2
+S:https://www.folktunefinder.com/tunes/69053
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Down Yonder #2
+I: Down YonderDDsquare
+%C: S-D
+M: C|
+%Q: 1/2=100
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A^G=G| "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G3G|
+       "D"FDED FDED| FAFA- A4| FDED FDED| FAFA- A2BA|
+       "E7"^G2GG- GFE2| ^GGGG- GFE2| "A"ABAG- GFE2| "A7"ABAG- GFE=F|
+       "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G2AG|
+       "D"FDED FDED| FAFA- A2^GA| "E7"Bcde- "A7"ecA2| "D"d4- d |]
+%%vskip 1cm
+P: Last Time
+A^G=G| "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA2| z8|
+       "D"FDED FDED| z8| FDED FDED| z8|
+       "E7"^G2GG- GFE2| z8| "A"ABAG- GFE2| z8|
+       "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G2AG|
+       "D"FDED FDED| FAFA- A2^GA| "E7"Bcde- "A7"ecA2| "D"d4- d |]
+S:https://www.folktunefinder.com/tunes/19119
+S:http://trillian.mit.edu/~jc/music/abc/square/DownYonder2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/DownYonder2.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:422
+T: "Jakobs Freierei. "
+N: Z1102
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 3/4
+L: 1/8
+K: Bb
+ | B2A2B2 | c2B2c2 | e2d2e2 | c4
+f2 | e2d2c2 | B3FB2 | c2B2A2 | B4
+FA | c2c2c2 | c2c2cc | f2c2A2 | F4
+G2 | A2B2G2 | A2B2G2 | F2F2CC | F6
+B2B2B2 | E2E2E2 | E2e2d2 | c4
+f2 | e2d2c2 | B2B2dc | B2B2A2 | B4z2
+S:https://www.folktunefinder.com/tunes/69281
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

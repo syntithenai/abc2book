@@ -1,0 +1,22 @@
+X:48
+T:Polka stap
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:G
+P:A
+D | "G"BA G>F | "C"AG F>E | "G" DE "Ddim"DE | "D7"(D2 D)D/D/ | DE FD | (c2 c) D/D/ |
+DE FD |1 "G"(B2 B) D :|2"G"G2 z B/B/ | "D7"A^G AB | "G"=G2 z B/B/ | "D7"A^G AB | "G" =G2 z2 |]
+P:B
+"G"DB BG/B/ | "Gdim"e^c "G"d2 | "D7"Dc c/B/A | "G"DB B/A/G | DB BG/B/ | "Gdim"e^c "G"d2 | "D7"Dc c/B/A |1 "G"MGMGMG z :|2 "G"MGMGMG |]
+S:https://www.folktunefinder.com/tunes/40629
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

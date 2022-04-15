@@ -1,0 +1,32 @@
+X: 58
+T:Yellow (Haired Laddy). TLY.057
+M:3/4
+L:1/8
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+N:Title is indecipherable, apart from Yellow, but tune is "Yellow Haired
+N:Laddy". Pause mark over last beat of 6th. bar of B
+N:music.
+H:1860.
+Z:vmp.Taz Tarry.
+K:Eb
+E>F|G2B2 c>d| e3f g2|B2 (cB)(AG)|(G2F2) E>F| G2 B2 c>d|!
+ (e>d)(e>f)s g2|B2 ag fg| e4:||:ef|g2 (ag) (fe)| d2 (fd) (cB)|!
+ (c>d e2)G2| (G2F2) E>F| G2 B2 c>d|\
+ e3 f g2| B>e BG F>E|E4:|]
+S:https://www.folktunefinder.com/tunes/37591
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

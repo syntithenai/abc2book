@@ -1,0 +1,35 @@
+X:1
+T:Walter Bulwer's Polka #2
+M:2/4
+L:1/8
+R:Polka
+N:Played AABBAABBAACAABB
+P:Play ABACA
+Z:AK/Fiddlers Companion
+K:G
+"A"\
+|: "G"DG GF/G/ | "C"AE E2 | "D7"F/G/A F/G/A | "G"BG G2 \
+|  "G"DG GF/G/ | "C"AE E2 | F/"D7"G/A DE/F/ |1 "G"GG GF/E/ :|2 "G"GG G2 ||
+K:D
+"B"\
+|: "D"AA "G"B2  | "D"AA F2 | "A7"GG E/F/G    | "D"AA F/G/A/B/ \
+|  "D"AA "G"B>B | "D"AA F2 | "A7"GG E/G/F/E/ | "D"DD D2 "-> A"[|]:|
+K:C
+"C"\
+|: "C"E3 F | G3 A | G3  E | "G7"GF F2 | D3   E |     F3   G | F3  D  | "C"FE E2 ||
+|| "C"E3 F | G3 E | G2 c2 |  "F"cA A2 | AA c>A | "G7"GG B>A | GE FB, | "C"CC C2 :|
+S:https://www.folktunefinder.com/tunes/16258
+S:http://trillian.mit.edu/~jc/music/abc/polka/WalterBulwersPolkaNr2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/WalterBulwersPolkaNr2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/polka/WalterBulwersPolkaNr2_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

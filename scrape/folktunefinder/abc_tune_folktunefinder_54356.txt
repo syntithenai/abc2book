@@ -1,0 +1,27 @@
+X: 373
+T: Zervos Karpathou
+O: Greece
+Z: Deborah Jones
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: C
+  E              |:"G" D2 GG "C" E2 FE     |"G" DC-CD "C" E4  |\
+  EA GG "G7" E2FF|"C" E6 zE                :|
+|:"G" D2 GG G2 G2|G2 B2 BA AG              |"Am" A3 D "G" GFED|\
+  [1 "C" E6 z E  :|[2 "C" HE4 z e/f/ g/^f/g|
+M: 2/4
+L: 1/8
+|:"C" aa fe      | ee/f/ g/^f/g            |aa fe             |\
+  ee/f/ g/^f/g   | "Dm" dd _ee             |c e/f/ g/^f/g     |
+  "G" dd _ee     |[1 "C"  c e/f/ g/^f/g    :|[2 "C" c2 z e    |
+S:https://www.folktunefinder.com/tunes/54356
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:21
+T:Peace and Plenty
+T:Old Oxford
+B:Playford's Dancing Master, Vol. 2, 4th ed., 1728
+B:http://memory.loc.gov/musdi/233/0254.tif (and .gif)
+Z:Tom Novelli
+M:C|
+L:1/4
+K:Dm
+"Dm" A=B/^c/ dD | GA D2 | DF/G/ Ad | "A" ^cd e2 |\
+"F" ff/g/ ag/f/ | g/f/e/d/ "A" ^c2 | "Dm" dD "F" FG/F/ | "A" E2 "Dm" D2 :|
+|: "F" Fc Fc | Fc AG/A/ | Fc Ad | "A" ^cd e2 |\
+"F" ff/g/ ag/f/ | g/f/e/d/ "A" ^c2 | "Dm" dD "F" FG/F/ | "A" E2 "Dm" D2 :|
+% ----------------------------------------------------------------------------
+%
+% Part 2 - Nice/interesting/obscure tunes found on the net.  I've cleaned up
+% the ABC if necessary.
+%
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58832
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

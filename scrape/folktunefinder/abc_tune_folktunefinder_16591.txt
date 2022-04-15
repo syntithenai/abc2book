@@ -1,0 +1,29 @@
+X: 1
+T: Vall\aatspolska
+T: Orsa polska
+R: Orsa-polska
+S: Kalle Alml\"of & Malungs spelmanslag
+M: 3/4
+L: 1/16
+K: Dm
+d2 \
+| d3^c A3c d3e | f3a agg>a fgfe | ^c4 d3e f3e | g2f2 d3^c A4- |
+| A3^c d2e2 f3a | a2g2 g2a2 fgfe | ^c4 d3e f3e | gf3 d6 :|
+K: Gdor
+|: A2- \
+| A4 BABc d4 | d3^F G3A B3c | d3=e dc3 B3A | c2B2 G3^F D4- |
+| D4 BABc d3c | B3A G^FGA B3c | d3e d3c B3A | cB3 G6 :|
+S:https://www.folktunefinder.com/tunes/16591
+S:http://trillian.mit.edu/~jc/music/abc/pols/VallatsP2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/VallatsP2_Dm.abc
+% Rhythm Orsa-polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

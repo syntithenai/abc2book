@@ -1,0 +1,26 @@
+X: 1
+T: Pacemaker's Delight
+C: Sandy Davis (Oct 2006)
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(3EFG \
+|: "A"A2cc A2cc | A2cc A2cc | e8- | e4- e2 (3EFG \
+|  "A"A2cc A2cc | A2cc "E7"BAG2 | "A"{B}A4 {B}A4 \
+||1"A"{B}A4 {B}A2 (3EFG :|2 "A"{B}A4 {B}A4 ||
+[| "A"a2ee a2ee | a2ee "E7"dcB2 | "A"c2ee c2ee | c2ee c2ee \
+|  "A"a2ee a2ee | a2ee c2AA | "E7"B2ee A2ee | G2ee F2ee |]
+[| "A"a2ee a2ee | a2ee "E7"dcB2 | "A"c2ee c2ee | c2ee c2ee \
+|  "A"c2ee c2ee | "E7"d2ee BAG2 | "A"A2ee A2ee | Ace2 az |]
+S:https://www.folktunefinder.com/tunes/17817
+S:http://trillian.mit.edu/~jc/music/abc/reel/PacemakersDelight_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PacemakersDelight_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

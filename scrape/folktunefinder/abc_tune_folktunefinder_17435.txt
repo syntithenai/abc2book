@@ -1,0 +1,24 @@
+X: 1
+T: Reel des Jeunes Mari\'es
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"D2F[AD] FAde | fafd A2ef | "A7"gfed cABc |1 "D"dcde fdAF :|2 "D"df"A7"ec "D"d2z2 :|
+fg \
+|: "D"a2fd Adfa | "A7"g2ec Acef | g2ec Aceg |1 "D"fedf "A7"eAdf :|2 "D"fd"A7"ec "D"d2z2 :|
+S:https://www.folktunefinder.com/tunes/17435
+S:http://trillian.mit.edu/~jc/music/abc/reel/JeunesMaries.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/JeunesMaries.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/JeunesMaries.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/JeunesMaries.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

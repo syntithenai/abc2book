@@ -1,0 +1,26 @@
+X:474
+%%topmargin 3cm
+T:Jack A' Tar
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Hornpipe
+M:C
+L:1/8
+K:E aeolian
+B2 | e2 e2 (ef)ge | {/^c}d2 B2- B2 (dB) | ABde faef | {/^c}d2 A2 A2 z2 | e2 (ef) Tg2 (fe) | {/c}dB{/F}GB {/c}d2 T(BA) | GFGE DEFA | {/F}G2 E2 E2 ||
+(GA) | BGEG BGEG | (GA)GF TE2 (FG) | AFDF AFDF | AGFE {FE}D2 (EF) | GFGE Tg2 (fe) | {/^c}dB{/F}GB {/c}d2 TB<A | {/F}GFGE DEFA | {/F}G2 E2 E2 |]
+S:https://www.folktunefinder.com/tunes/71503
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Jack_A_Tar.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0474.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

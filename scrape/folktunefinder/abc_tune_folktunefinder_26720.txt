@@ -1,0 +1,21 @@
+X:6268
+T: Starceska Racenica
+O:england
+M: 7/16
+K: G
+L: 1/16
+|: ABcd ~c2G | cB{c}BG c2G | cB{c}BG ABG | |1 A2cd {e}dcB :|2 A2AE Az2 :|
+|: cB{c}BG AEE | FG~A2 AGA | cB{c}BG AEE | |1 FG~A2 Ad{e}d :|2 FGA2 az2 :|
+K:A
+|: ed~c2 AEE | AB{c}BA ABc | dBc2 AEE |1 AB{c}BA Ade :|2 AB{c}BA Az2 :|
+|: ~A2z2 dz2 | ~c2z2 edc | ~A2z2 dz2 |1 ~c2z2 ade :|2 AB{c}BA Az2 :|
+S:https://www.folktunefinder.com/tunes/26720
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 7/16
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 48
+T:37 Regt. March,The. JMP.048
+M:C
+L:1/8
+Q:174
+C:"53"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - Not marked as triplet..37th Reg became the 1st Bttn R Hampshire.
+H:1799
+Z:vmp.C. Graebe
+K:G major
+B>c | d3 e d>cB>A | G2 G>G G>BA>c |\
+(BG)(dB) e>dc>B | d3 B A2 (G/A/B/c/)  |!
+d3 e d>cB>A | G2 G>G G2A2 | "1"((3Bcd)((3edc) B2 A2 |\
+G2 G>G G2 :|!
+|:A>A | A3 B d>cB>A | B3 c e>dc>B |\
+B>dc>e d>cB>A | d3 B A2 G>G |!
+ G3 B (BA)(cB) |\
+B3 d (d^c)(ed) | d>g "1" ((3fge) ((3dec) ((3BcA) |\
+G2 G>G G2 :|]
+S:https://www.folktunefinder.com/tunes/1985
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

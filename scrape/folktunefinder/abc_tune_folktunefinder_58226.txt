@@ -1,0 +1,27 @@
+X:463
+T:Mrs Gordon's Favourite
+N:"Ancient Irish"
+B:Fourth Part of the Complete Repository, 1817
+Z:Nigel Gatherer
+M:2/4
+L:1/8
+K:Em
+B, | E>D      EF       | B>A  F2      | B2  E/G/F/E/ | D>^C B2 |
+     E>D      EF       | B>d ^cB      | B>B B/A/F/E/ | E3     :|
+B  | e>e      d/B/d/e/ | f>f g/f/e/d/ | B>A A/B/d/F/ | D3  
+B  | e>e      d/B/d/e/ | f>f g/f/e/d/ | B>A A/B/d/f/ | e3
+B  | e>e      d/B/d/e/ | f>f g/f/e/d/ | B>A A/B/d/F/ | D3  
+B, | e/d/e/f/ BA/F/    | ED  d>A      | B>B B/A/F/E/ | E3     |]
+S:https://www.folktunefinder.com/tunes/58226
+S:http://nigelgatherer.com/tunes/abc/tb10.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb10.abc
+S:http://nigelgatherer.com/tunes/abc/abc6/mrsgf.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc6/mrsgf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

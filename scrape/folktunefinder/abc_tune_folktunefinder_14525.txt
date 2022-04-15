@@ -1,0 +1,27 @@
+X: 1
+T: the Leg of the Duck
+O: as played by Joe Burke
+S: as played by Joe Burke
+N: printed MS with "Airlie p.2 of 2" handwritten
+M: 6/8
+L: 1/8
+K: D
+g \
+| "D"fga "A7"eag | "D"fef dBA | "Em"B2e efd | "G"Bee "A7"ede \
+| "D"fga "A7"eag | "D"fef dBA |  "G"Bdd dBA | "D"Bdd d2 |]
+e \
+| "D"fdd ede | "D"fef dBA | "Em"Bee efd | "G"Bee "A7"ede \
+| "D"fdd ede | "D"fef dBA |  "G"Bdd dBA | "D"Bdd     d2 |]
+S:https://www.folktunefinder.com/tunes/14525
+S:http://trillian.mit.edu/~jc/music/abc/jig/LegOfTheDuck_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/LegOfTheDuck_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LegOfTheDuck_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

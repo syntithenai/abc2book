@@ -1,0 +1,27 @@
+X: 1
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+|: [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"[c2E2] z2 [A2C2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [e2A2] \
+| "Eb7"([G2d2][D2G2]) | "Ab"[A2C2] z2 :|
+|: [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"[E2c2] z2 [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [E2c2] \
+| "Eb7"([D2B2][B,2G2]) | "Ab"[A2C2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5048
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

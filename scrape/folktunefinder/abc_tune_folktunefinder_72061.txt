@@ -1,0 +1,42 @@
+X:34
+T:Monaltries Reel
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 16
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C|
+R:Reel
+K:F
+[V:1] C|F2fd cAFA|BGAF (EGGC)|F2Ff cAFA|BGcA F/F/F F:|
+[V:2] z|F2B2 F2F2|E2F2  c2B2 |A2a2 f2f2|g2c2 f2    f:|
+[V:1] c|(Tfefg) agaf|efgc (egga)|(Tfefg) agaf|egcb (affc)|
+[V:2] z|[f2a2][f2a2][f2a2][f2a2]|c'2c2c'2c'2|a2[f2a2][f2a2][f2a2]|c'2C2f2a2|
+[V:1] (Tfefg) agaf|efgc efga|bgaf ecfd|c(BTAG) AFF||
+[V:2] f2[f2a2][f2a2][f2a2]|c2e2g2c'2|e2f2b2ab|c'2c2f2f||
+[V:1] |:c/B/|AFCF AFCF|AFCF (BGGB)|AFCF BGEG|cABG AFF:|
+[V:2] |:   z|F2A2F2A2|F2A2c2e2|f2a2e2c2|f2c2F2F:|
+%Petrie omitted the repeat sign at the beginning of the above line -SW
+[V:1] |:c|fcAc (Tfga).g|fcaf e(gga)|1fcAc fdBd|.c(BAG) AFF:|2bgaf gefd|cABG AFF|]
+[V:2] |:z|a2f2a2f2|a2f2c'2c2|1a2f2b2g2|c'2c2f2f:|2e2f2c2d2|f2c2F2F|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72061
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MonaltriesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Monaltries_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

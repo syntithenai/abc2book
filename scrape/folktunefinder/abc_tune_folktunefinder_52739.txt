@@ -1,0 +1,27 @@
+X: 36
+T:Favourite Waltz,A. HS.36
+M:3/8
+L:1/8
+Q:30
+S:Henry Stables MS,Cumbria,late19thC
+R:Waltz
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+A|dfA|fad|egc|dfA|dfA|fad|egc|{e}d2::!
+f|age|gfd|age|gfd|dfA|fad|egc|{e}d2::!
+A|d/f/A/d/f/d/|e/g/A/e/g/e/|f/a/d/f/a/f/|e/g/c/e/g/e/|!
+d/f/A/d/f/d/|d/f/A/d/f/d/|e/g/A/e/g/e/|{e}d2::!
+f/g/|a/g/b/g/e/g/|g/f/a/f/d/f/|a/g/b/g/e/g/|g/f/a/f/d/e/|!
+d/f/A/d/f/d/|f/a/d/f/a/f/|e/g/c/e/g/e/|{e}d2:||
+S:https://www.folktunefinder.com/tunes/52739
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:2
+T:Zocharti Loch
+%...skipping rest of the header...
+K:Gm
+%               Start of tune body:
+V:T1
+ (B2c2 d2g2) | f6e2 | (d2c2 d2)e2 | d4 c2z2 |
+ (B2c2 d2g2) | f8 | d3c (d2fe) | H d6 ||
+V:T2
+ (G2A2 B2e2) | d6c2 | (B2A2 B2)c2 | B4 A2z2 |
+ z8 | z8 | B3A (B2c2) | H A6 ||
+V:B1
+ z8 | z2f2 g2a2 | b2z2 z2 e2 | f4 f2z2 |
+ (d2f2 b2e'2) | d'8 | g3g  g4 | H^f6 ||
+V:B2
+ x8 | x8 | x8 | x8 |
+ x8 | z2B2 c2d2 | e3e (d2c2) | H d6 ||
+S:https://www.folktunefinder.com/tunes/58809
+S:http://abc.sourceforge.net/standard/abc2-draft.aft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

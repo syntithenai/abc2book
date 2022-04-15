@@ -1,0 +1,44 @@
+X:0
+T:Captain J.F. Johnston Watson
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:6/8
+L:1/8
+Q:3/8=86
+K:Hp
+ {g}e/d/|{gcd}cB{G}A    {gef}efg   |  {a}f<af   {gef}e2d            |\
+         {gcd}cB{G}A      {d}c<ef  |  {g}B3     {gBG}B2    {gef}e/d/|
+         {gcd}cB{G}A    {gef}efg   |  {a}f<af   {gef}e2d            |\
+           {g}c<ac        {g}Bfe   |  {g}A3   {gAGAG}A2            :|
+ {d}c/e/|{gfg}fea        {fg}fe{g}c|  {g}f<af   {gfg}fec            |\
+         {gcd}cB{G}A      {d}c<ef  |  {g}B3     {gBG}B2   [1 {d}c/e/|
+         {gfg}fea        {fg}fe{g}c| {ag}a2f    {gfg}fec            |\
+           {g}cac         {g}Bfe   |  {g}A3   {gAGAG}A2:| [2 {g}e/d/|
+         {gcd}d{e}B{d}c {gef}ed{e}c|{Gdc}def     {ag}ag{a}f         |\
+           {g}eac         {g}Bfe   |  {g}A3   {gAGAG}A2            ||
+    e   |  {g}AB{GdG}c  {gcd}cBc   |  {g}c<ef   {gef}ec{ag}a        |\
+              AB{GdG}c    {g}c<ef  |  {g}B3     {gBG}B2e            |
+           {g}AB{GdG}c  {gcd}cBc   |  {g}cef    {gef}ec{ag}a        |\
+              c<ac        {g}Bfe   |  {g}A3   {gAGAG}A2            :|
+{gf}g   | {ag}a2{GdG}a   {eg}ece   |{gfg}fdf    {gef}e2c            |\
+           {g}A2{GdGe}A   {d}c<ec  |  {g}B3     {gBG}B2{gf}g        |
+          {ag}a2{GdG}a   {eg}ece   |{gfg}fdf    {gef}e2d            |\
+           {g}c<ac        {g}Bfe   |  {g}A3   {gAGAG}A2{gf}g        |
+          {ag}a2{GdG}a   {eg}ece   |{gfg}fdf    {gef}e2c            |\
+           {g}A2{GdGe}A   {d}c<ec  |  {g}B3     {gBG}B2{g}e/d/      |
+         {gcd}cBc       {gef}edc   |{Gdc}def     {ag}ag{a}f         |\
+           {g}e<ac        {g}Bfe   |  {g}A3   {gAGAG}A2            |]
+S:https://www.folktunefinder.com/tunes/66317
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

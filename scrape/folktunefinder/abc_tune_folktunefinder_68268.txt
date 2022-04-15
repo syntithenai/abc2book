@@ -1,0 +1,32 @@
+X:181
+T:The Holy Ground once More
+N:The chords represent shouting 'Fine Girl You Are'
+M:4/4 %Meter
+L:1/8 %
+K:D
+DF |F3 G AG EC |D3 C D3 E |F2 E2 D2 C2 |
+D2-D2z2 FG |A2 A2 A2 Bc |d2 d2 c3 B |A2 F2 D2 F2 |
+E2-E2z2 DE |F3 G AG EC |
+M:5/4 %Meter
+L:1/8 %
+D2 [c2B2A2] [c3/2B3/2A3/2][c/B/A/] [c2B2A2] DE |
+M:4/4 %Meter
+L:1/8 %
+F2 A2 B2 c2 |
+d2-d2z2 A2 |d3 c B2 A2 |B2 A2 F3 F |F3 E F2 E2 |
+M:5/4 %Meter
+L:1/8 %
+D2 [c2B2A2] [c3/2B3/2A3/2][c/B/A/] [c2B2A2] z2 |]
+S:https://www.folktunefinder.com/tunes/68268
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 5/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:233
+T: SCHOEN GLAENZT DAS MONDENLICHT
+N: B0720
+O: Europa, Mitteleuropa, Deutschland; Italien, Neapel 
+R: 
+M: 3/8
+L: 1/16
+K: C
+ | G,2G,3C | C3B,B,2
+F,2F,3A, | A,G,G,4
+E,2A,3G, | G,^F,=F,4
+F,2E,2D,2 | A,2G,4
+E2D2C2 | B,A,D4
+D2C2A,2 | ^F,G,C4
+ECCG,G,E, | F,DD4
+F2A,3B, | D2C4
+E2D2C2 | B,A,D4
+D2C2A,2 | ^F,G,C4
+ECCG,G,E, | F,DD4
+D2E3D | D2C4
+S:https://www.folktunefinder.com/tunes/62256
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:17655
+T:Toos van a Buenos Aires (CT 219)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Estanislao Lana Lana, de veintin aos, de Somiedu.
+O:Somiedu
+A:Asturies
+Z:Cancioneru de Torner 219
+M:3/4
+L:1/8
+Q:1/4=132
+W:Todos van a Buenos Aires,
+W:lo mismo pobres que ricos;
+W:por ganar mucho dinero,
+W:abandonan a sus hijos.
+W:Yo no voi a Buenos Aires.
+K:G
+|GG GG Bd|c2 B3 A|c2 BG GA|B2 B4|
+GG GG Bd|c2 B3 A|c2 BG GB|(A3/2B/4A/4) G2 GA|A3 F GA|B(3A/B/A/G4)||
+S:https://www.folktunefinder.com/tunes/39026
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

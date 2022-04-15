@@ -1,0 +1,22 @@
+X:105
+T:Air
+M:3/4
+O:Ireland
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006f7.html
+%%ID:000006f7
+K:B min
+f2 ed cB | (3cde AB ce | d2ce dc | BA FE FA |\
+f2 ed cB | (3cde AB ce | d2 ce dc | d2 B2B2 :|
+F2 Bc d2 | F2 Bc d2 | c2 AB ce | dc BA FE |\
+F2Bc d2 | F2 Bc d2 | c2 AB ce | d2 B2B2 :|
+S:https://www.folktunefinder.com/tunes/36100
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

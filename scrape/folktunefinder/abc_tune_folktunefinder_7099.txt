@@ -1,0 +1,28 @@
+X: 1
+T: And the Angels Sing (der Shtiller Bulgar)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+O: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: C
+|: GAB \
+| "C"c4- | cc/e/ dc | e4- | ef/e/ dc | "G7"de fg | "C"ec "G7"dB | "C"cc' ba | gf ed |
+| "C"c4- | cc/e/ dc | e4- | ef/e/ dc | "G7"de fg | "C"ec "G7"dB | "C"c4- | c :|
+|: ceg \
+| "C"a_b2b | _b/a/g g2 | ^fg2g | g/f/e e2 | a_b2b | (3_bag ^fga | g4 | [c'3e3]z |
+| "C"a_b2b | _b/a/g g2 | ^fg2g | g/f/e e2 | "G7"de fg | "C"ec "G7"dB | "C"c4- | c :|
+|: ccB \
+| "Am"A3 e | dc Bc | d3 c | (3edc (3cBA | A3 e | dc Bc | e4 | [a3c3]z |
+| "Am"A3 e | dc Bc | d3 c | (3edc (3cBA | B/d/c2c | (3cBA "E7"(3^GAB | "Am"A4- | A :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/7099
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Kammen1-15.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

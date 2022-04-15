@@ -1,0 +1,91 @@
+X:423
+T:L'aguardiente bien me gusta (CT 500)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 500
+M:3/4
+L:1/8
+Q:1/4=72
+K:C
+GG
+|(c3/2B/4A/4 B)A Bc|dd-de ed|
+(c3/2(3d/4c/4B/4 A2) dc|(B3/2(3c/4B/4A/4 G4-)|G2 z2 ^FG|
+(A_B/c/4B/4) (A3/2(3B/4A/4G/4) ^FG|(A_B/c/4B/4 A)A ^FG|
+[M:2/4]A^F G=F|[M:3/4](E3/2F/4E/4 D)z ^F(G|A)A-A2 ^F(G|
+[M:2/4]A)d ed|(c3/2(3d/4c/4B/4 A)A-|Az ^F(G|
+[M:3/4]A)A-A2 ^F(G|A) A-Az AA|[M:2/4]cB dc|
+[M:3/4](A3/2(3B/4A/4G/4 ^F)F GF|[M:2/4]GA G=F|(E3/2F/4E/4 D)D-|Dz GG|
+[M:3/4](c3/2B/4A/4 B)A Bc|[M:2/4]dd ed|(c3/2(3d/4c/4B/4 A)A-|A^F GG|
+[M:3/4](c3/2(3d/4c/4B/4 A)A ^FG|[M:2/4 ](c3/2(3d/4c/4B/4 A)A-|Az ^FG|
+[M:3/4](A3/2(3B/4A/4G/4 ^F2) (G=F)|[M:2/4](E3/2F/4E/4 D)D-|Dz A_B|c_B dc|(A3/2(3B/4A/4G/4 ^F)F|^FG A=F|(E3/2F/4E/4 D)D-|D2 z2|
+[M:3/4]dd dd _e/>(d/c)|dd-d2 _ed|[M:2/4]B3/2(3d/4c/4_B/4 A)A-|Az ^FG|A_B cd|
+[M:3/4](c3/2(3d/4c/4_B/4 A)A ^FG|[M:2/4]A_B cd|(c3/2(3d/4c/4_B/4 A)A-|Az ^FG|A^F G=F|(E3/2F/4E/4 D)D-|Dz A_B|cB dc|
+[M:3/4](A3/2(3B/4A/4G/4 ^F2) FG|[M:2/4] A^F G=F|(E3/2F/4E/4 D)D-|D_B cd|(d3/2c/4_B/4 A2)|
+[M:3/4]A_B cd _ed|[M:2/4](c3/2(3d/4c/4_B/4 A)A-|Az ^FG|A_B cd|
+[M:3/4](c3/2(3d/4c/4_B/4 A2) (^FG)|AA-A2 ^FF|[M:2/4]GA AF|(E3/2F/4E/4 D)D-|D2 ^FG|A^F G=F|(E3/2F/4E/4 D)D-|D2 z2|
+[M:3/4]A_B cd _ed|[M:2/4](c/(3d/4c/4B/4 A/(3B/4A/4G/4 ^F)F-|^FG A=F|(E3/2F/4E/4 D) D-|D2 z2|
+[M:3/4]dd dd _e/>(d/c)|dd-d2 _ed|[M:2/4](c3/2(3d/4c/4_B/4 A)A|
+[M:3/4]A2-Az ^FG|[M:2/4]A_B cd|(c3/2(3d/4c/4_B/4 A)A-|A2 ^FG|A_B cd|
+[M:3/4](c3/2(3d/4c/4_B/4 A)A-A^F|[M:2/4]GG AF|(E3/2F/4E/4) D2-|Dz ^FG|A2 AF|(E3/2F/4E/4 D)D-|DG AF|(E3/2F/4E/4 D)D-|D2 zA|cB dc|
+[M:3/4](A3/2(3B/4A/4G/4 ^F)F-FF|G2 G^FG=F|[M:2/4](E3/2F/4E/4 D)D-|[M:3/4]D2 ||
+W:L'aguardiente bien me gusta
+W:y el vino blanco tambin;
+W:pero en goliendo la sidra
+W:a m naide me detin.
+W:
+W:Escanci, escancia, tabernera,
+W:y arranca la'spicha;
+W:voi pescar la borachera
+W:desde el tonel a la tripa.
+W:
+W:Espabila esi candil, recondenada,
+W:que esta tarrea est mediada.
+W:Ai! t mui mal mides:
+W:San Bartolom te ayude a mechar candiles.
+W:
+W:Apuntaste venti rondes, tabernera;
+W:tienes la pluma del diablo
+W:pa'scribir lo que ella quiera;
+W:mucho me robes, morena.
+W:
+W:Quin sufre la mi muyer
+W:si me llambes la quincena
+W:
+W:Aire non fai,
+W:tras de m non est naide.
+W:quin coyo(sic) me emburria a m
+W:Que salgue!
+W:
+W:ESta sidra sabe al seco
+W:y yo xuro que estoy malu.
+W:Tabernera resalada,
+W:sigue escanciando.
+W:
+W:La sidra mata les penes,
+W:quin me falta a m
+W:Pensaris que estoy borrachu.
+W:Por cantar yo a nadie falto.
+W:
+W:Saca otra ronda, Lin.
+W:Esta s que es bona.
+W:Yo non me tengo.
+W:Quin me escalz los bolsos
+W:Adios, que me rinde el sueu.
+W:
+S:https://www.folktunefinder.com/tunes/59310
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

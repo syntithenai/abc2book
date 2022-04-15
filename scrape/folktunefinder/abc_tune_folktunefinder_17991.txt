@@ -1,0 +1,36 @@
+X:1
+T:Reel Eug\`ene
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+L:1/8
+K:D
+|: "Bm"B2Bc dcB2 \
+| "Em"e2ef gece \
+| "F#7"f2fg fede \
+| fbbf bfdc \
+|| "Bm"B2Bc dcB2 \
+| "Em"e2ef gece |
+| "F#7"f2fg fedc \
+|1 "Bm"B4 "F#7"F4 \
+:|2 "G"B4 "A7"A4 \
+|: "D"f2fe d2dB \
+| AAdf b2f2 \
+| "A7"a2ag e2 (3cec |
+| Aceg (3faf e2 \
+|| "D"f2fe d2dB \
+| AAdf b2f2 \
+| "A7"a2ag egec \
+|1 "D"df"A"ec "D"d3e \
+:|2 "D"df"A"ec "D"d4 |]
+S:https://www.folktunefinder.com/tunes/17991
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelEugene_3_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/reel/ReelEugene_3_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

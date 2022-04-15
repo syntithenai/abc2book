@@ -1,0 +1,34 @@
+X:190
+T:Makedonsko devoje
+T:Lesnoto
+M:7/8
+N:Jutta Weber tells me this is a song tune, and that "Lesnoto" is a dance form.
+N:The title may give problems on "Western" machines - the penultimate character,
+N:  is a c with a caron ( - upside-down circumflex) (Unicode U010d), which
+N:  doesn't exist in Latin1 (iso 8859 1), but does in, eg, Latin2. The "encoding"
+N:  line above should cause abcm2ps to use this. The "abc-charset" line was proposed
+N:  by one of the many standards, I don't know if any programs honour it. If you
+N:  use TeX (abc2mtex), this character can be written as "$\check{c}$".
+N:  I don't know what to say about this, except that Unicode Is The Answer.
+O:S.E.Europe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000666.html
+%%ID:00000666
+K:C min
+ded c2~gf | ~g2f f4 | B2B defe | ~f2e e3B |\
+ded c2gf | ~g2f ~f2ef | ~g2z  .d.e.d.c | c3z4 ||
+C2c B2c2 | B2c G4 | A2G F2A2 | (G3 G4) | \
+C2c B2c2 | B2c G4 | G2F E2D2 | (C3 C4) |
+|: c3 (G2G)B | A2G F4 | AAG F2A2 | (G3G4) | \
+A2G F2A2 | G2F E4 | G2F E2D2 \
+|1 C3 CDEG :|2  C4z4 ||
+S:https://www.folktunefinder.com/tunes/53268
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

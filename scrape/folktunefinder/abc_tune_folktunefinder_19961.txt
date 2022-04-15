@@ -1,0 +1,31 @@
+X: 1
+T: Hedwig's Theme
+C: John Williams
+R: waltz
+N: From the movie "Harry Potter and the Sorceror's Stone"
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: Em
+B, \
+| "Em"E>GF E2B | "Am"A3 F3 \
+| "Em"E>GF "Adim7"^D2 =F | "Em"B,3- "B7"B,2B, \
+| "Em"E>GF E2B | "Gm"[d2_B]_d "Fm"[c2_A2]_A \
+| "Am"c>B^A "F#7"[F2^A,2]G | "Em"E3- E2 |]
+G \
+| "Em"B2G B2G | c2B "C"_B2F \
+| "Em"G>B^A "C"^A,2B, | "Em"B3- B2G \
+| "Em"B2G B2G | "Gm"d2_d "Fm"c2_A \
+| "Em"c>B^A "F#7"[F2^A,2]G | "Em"E3- E2 |]
+S:https://www.folktunefinder.com/tunes/19961
+S:http://trillian.mit.edu/~jc/music/abc/waltz/HedwigsTheme_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/HedwigsTheme_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/HedwigsTheme_Em.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

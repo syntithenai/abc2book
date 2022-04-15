@@ -1,0 +1,32 @@
+X: 65
+T:Untitled. HA.064
+M:6/4
+L:1/4
+Q:90
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:There is a note in the margin, in pencil in a modern hand, suggesting
+N:that it may be more sensicle as 3/4. This would, however, result in
+N:twelve bars for each half of the tune, which would be very long for a
+N:3/4 tune of this date..CGP
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:C
+"2 sharps in MS"g/f/|e>dc e/f/ge|f>ga Adc|B3 G2c/B/|!
+A/B/cA f>ge|d>ec B>AG|c3C2||!
+G|E>FG GEG|cAd d(A/B/)c|B3d2e|!
+f>ef gec|(a/g/)(f/e/)(d/c/) dGB|"min"c3 C2|]
+S:https://www.folktunefinder.com/tunes/72314
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

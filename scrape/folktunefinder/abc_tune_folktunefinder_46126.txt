@@ -1,0 +1,27 @@
+X:14851
+T:Santa Brbara bendita
+R:Danza Prima
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:2/4
+L:1/8
+Q:1/4=104
+K:Cm
+G>G
+|: c3 =B|c2 d2|c4|G4|GA GF|G2 E>F|[1 G4-|G2 G>G :|[2 G4-|G2 cd|
+|: e3 e|e3 e|d2 B>c|d3 d|d2 ed|c2 A>B|c3 c|c2 dc|B2 A2|[1 G4-|G2 cd :|[2 G4-|G2 G>G||
+S:https://www.folktunefinder.com/tunes/46126
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Danza prima
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

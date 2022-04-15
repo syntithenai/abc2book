@@ -1,0 +1,23 @@
+X: 1
+T: Reilly's Own
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"D2G2 G4 | z2ed ^cdBG | "D7"D2A2 A4 |  z2ed "(G)"^cdBG \
+|  "G"D2G2 G4 | z2ed ^cdBG | "D7"A2B2 c2BA | "G"G2B2 G4 :|
+|: "C"e2f2 g2fe | "G"d2c2  B4 | "D7"A2B2 c2BA | "G"B2c2 d4 \
+|  "C"e2f2 g2fe | "G"d2c2  B4 | "D7"A2B2 c2BA | "G"G2B2 G4 :|
+S:https://www.folktunefinder.com/tunes/18018
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReillysOwn_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReillysOwn_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:572
+T: "Schifferlied"
+N: Z1252
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G2A2_B2c2 | d2_e2d4
+e2=f2e4 | d2_e2d3
+d | G2A2_B2c2 | d2_e2d3
+D | _B4A4 | G4z2
+GA | _B2c2d2_e2 | =f2g2f3
+f | A2_B2c2d2 | _e2=f2e3
+e | G2A2_B3c | d2_e2d3
+D | _B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/69431
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

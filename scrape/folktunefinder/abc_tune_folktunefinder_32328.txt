@@ -1,0 +1,25 @@
+X: 1841
+T:Reedsdale Hornpipe
+M:4/4
+L:1/8
+Q:1/4=130
+C:Trad
+R:hornpipe
+K:G
+(3def|: g>dB>d G2 (3def|g>dB>d G2 A>B|c>AF>A D>FA>c|e>d^c>d B2 (3def|
+        g>dB>d G2 (3def|g>dB>d G2 A>B|=c>AF>A D>FA>B|1 A2G2 G2 (3def :|2 \
+A2G2 G2 G>A
+|: B>GF>G D>GF>G|B>GF>G D2 A>B|c>AF>A D>FA>c|e>d^c>d B2 G>A|
+B>GF>G D>GF>G|B>GF>G D2 A>B|=c>AF>A D>FA>B|1 A2G2 G2 G>A :|2 \
+A2G2 G2 z2 ||
+S:https://www.folktunefinder.com/tunes/32328
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

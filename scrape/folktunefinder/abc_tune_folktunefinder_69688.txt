@@ -1,0 +1,27 @@
+X:128
+T: DIE FENSTER AUF DIE HERZEN AUF
+N: F0248
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Fruehling
+M: 3/4
+L: 1/16
+K: Bb
+c2 | d3cB2c2d2e2 | f8z2
+f2 | e2eee2eee2ee | d2d2z6
+d2 | c3BA2B2c2d2 | c6
+c2c2c2 | d3dd2e2d2
+d2 | =e6d2e2d2 | =e3ee2
+e2e2e2 | f3ed2c2B2z
+B | c2ccc2ccc2Bc | d2d2z6
+c2 | d2d2z6
+S:https://www.folktunefinder.com/tunes/69688
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

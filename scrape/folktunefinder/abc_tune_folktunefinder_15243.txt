@@ -1,0 +1,27 @@
+X: 1
+T: Wedding Shoes
+C: William Vickers
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G2g fed | "C"efg "G"dcB | "Am"ecA "G"dBG | "D7"FGB AFD \
+| "G"G2g fed | "C"efg "G"dcB | "Am"ecA "G"dBG | "D7"AFD "G"G2 :|
+|: d \
+| "G"gag fed | "C"e2f "G"g2A | "G"B2c dBG | "D7"FGB AFD \
+| "G"G2g fed | "C"efg "G"dcB | "Am"ecA "G"dBG | "D"AFD "G"G2 :|
+S:https://www.folktunefinder.com/tunes/15243
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeddingShoes_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WeddingShoes_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

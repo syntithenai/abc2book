@@ -1,0 +1,28 @@
+X:9
+T:Menschtertaler Martala
+C:Trad.
+O:France
+A:Alsace
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 3/4
+L: 1/4
+Q:1/4=180
+% Last note suggests Mixolydian mode tune
+K:C % 0 sharps
+V:1
+% Staff
+%%MIDI program 40
+C2C | E2E | G2G | E2E | F2F | D2D |1 C3- | C3 :|2 C3- | C2C |
+A2A | A2F | G2G | G2E | F2F | FED | G2G | G3 |
+C2C | E2E | G2G | E2E | F2F | D2D | C3- | C3 |:
+GG/F/ E/F/ | GG/F/ E/F/ | G2c | G2c | G3- | GFF | E3- | E3 :|
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/45777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

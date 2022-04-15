@@ -1,0 +1,28 @@
+X: 69
+T: Cocek Kusturica
+O: Serbia
+M: 4/4
+L: 1/8
+Q: 1/4=210
+K: Am
+%%MIDI drum d2dd 41 41 41
+%%MIDI drumon
+%%MIDI program 57
+|:  E3c BA^GA|^G3B AGFE |E3c BA^GA|^G4 G2G2    |
+    E3c BA^GA|^G3B AGFE |D3A ^GAGF|E4 E2E2     :|
+|:  D3A ^GAGF|E4 E2E2   |D3A ^GAGF|E^GAB GAFE  :|
+|:  A2A2 B2c2|c2d2 BcA2 |^G4 ^F2G2|A2B2 AB^G2  |
+    F4   E2F2|^G2BA GAF2|E4 ^GABG |[1AFEF A2z2 :|[2AFE2-E2z2|
+|:  e4 d2c2  |d4 cBcB   |c4 BABA  | B4 z4      |
+    c4 dBcA  |B4 cAB^G  |A4 B^GAF |[1E3E FGAB  :|[2E4 z4    |
+S:https://www.folktunefinder.com/tunes/67955
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

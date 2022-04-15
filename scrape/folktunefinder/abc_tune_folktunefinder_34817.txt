@@ -1,0 +1,25 @@
+X: 7600
+T:Polka fr Bleckinge
+R:Polka
+O:Sweden
+M:2/4
+L:1/8
+A:Dalarna
+K:G
+B/A/ |\
+GB DG | BB/B/ BB/A/ | GB DF | AA/A/ AA/G/ |\
+FA FA | dd/d/ dd/e/ \
+|1 fe dc | BB/B/ B :|2 fd ef | g2 z2 :|
+|:Bd ba | gg/g/ gg | Bd gf | ee/e/ ee |\
+FA FA dd/d/ dd/e/ \
+|1 fe dc | BB/B/ Bd :|2 fd ef | g2z2 :|
+S:https://www.folktunefinder.com/tunes/34817
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

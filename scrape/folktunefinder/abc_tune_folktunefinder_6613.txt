@@ -1,0 +1,22 @@
+X: 1
+P: Gondora no uta
+O:Japan
+M:6/8
+L:1/8
+F:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html 2008-4-5
+K:C
+[| "C"C2C   (CD)E | "C"(GE)c     G3 |     GAG     E{D}CG |     E3-   E2 z \
+|  "C"C2C   (CD)E |    (GE)c     G3 | "F"(CD)A "G7"(GD)E | "C" C3-   C2 z |
+|  "G"G2G   (Ge)d | "C"(cE)A     G3 |     C2D      (EC)A | "G"(G3 "C"E2)z \
+|  (CD)E "F"(Gc)A |    (dc)A "G7"G3 | "F"(CD)A "G7"(GD)E | "C" C3-   C2 z |]
+S:https://www.folktunefinder.com/tunes/6613
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+S:http://trillian.mit.edu/~jc/music/abc/Japan/GondoraNoUta.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

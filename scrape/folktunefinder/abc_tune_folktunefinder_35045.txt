@@ -1,0 +1,45 @@
+X: 7828
+T:Sl\"angpolska 
+R:Sl\"angpolska
+O:Sweden
+A:V\"asterg\"otland
+M:3/4
+K:A
+ee c/A/c/e/ a2| e/f/e/d/ c/d/e/f/ f2|\
+ee c/A/c/e/ a2| e/f/e/d/ c/d/e/f/ f2|\
+e/f/e/d/ c/d/c/B/ Ac/c/| cB/B/ BA GA| \
+|1 \
+M:2/4
+A4 z4 :|2 \
+M:2/4
+A4 E4|:\
+M:3/4
+cc dd cc| cB/c/ BA/B/ cA|\
+M:1/4
+E3E|\
+M:3/4
+cc dd cc| cB/c/ BA/B/ c2|\
+M:1/4
+E4|\
+M:3/4
+cc dd cc| cB/c/ BA/B/ cA|\
+M:1/4
+E3E|\
+M:3/4
+cc dd cc| cB/c/ BA GA |1\
+M:2/4
+A4 E4 :|2\
+M:2/4
+A4 z4 |]
+S:https://www.folktunefinder.com/tunes/35045
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

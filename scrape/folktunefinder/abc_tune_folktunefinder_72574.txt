@@ -1,0 +1,23 @@
+X:117
+T: Jetzt fahr'n mer uebern See, vidrom,
+N: D0174
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Grundton ; Inzipit = entfernte Variante zum Lied
+R: Bauern - Lied
+M: 2/4
+L: 1/8
+K: F
+C | AAAB | cccA | BBBc | A2z
+C | AAAB | cccA | BBBc | z2z
+c | dcBA | B2G2 | BBdd | cA2
+c | dcBA | B2Gc | cccB | A3
+S:https://www.folktunefinder.com/tunes/72574
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

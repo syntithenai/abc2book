@@ -1,0 +1,26 @@
+X: 3
+T: Bob and Joan
+O: Trad
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://i80.photobucket.com/albums/j199/piperdave/Bobandjoan.jpg
+S: Dave Rowlands <daverowlands:ntlworld.com> 2009-1-23
+M: 6/8
+L: 1/8
+K: Em
+|: E2B B2A | B2G E2D | E2E FGA | B2G E3 :|
+|: FAF D2D | FAF D2D | E2E FGA | B2G E3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4263
+S:http://i80.photobucket.com/albums/j199/piperdave/Bobandjoan.jpg
+S:http://trillian.mit.edu/~jc/music/abc/England/new.abc
+% Rhythm Jig
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:111
+T:Marcho proucessiounnalo de Sant Brancai
+O:France
+A:Provence
+R:Marche
+C:Trad. 
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-22
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Bb
+V:1
+b4 f4 | d2B>B !breath!B2c>d | e4 c4 | A2F>F !breath!F2f>e | d2d>d d2e2 | f2>f2 gf ed |
+c2c>c c2d2 | e2>e2 fe dc | B2>A2 BA Bc | d2>c2 dc de | f2f>f gf ed | c2c>c c2z2 ::
+c2A2c2A2 | (e2>d2) c2z2 | d2B2d2B2 | (f2>e2) d2z2 | g2>e2 b2>g2 | f2>d2 b2>f2 | g>b g>e d2c2 | B2B>B B2z2 :|
+V:2 clef=perc stafflines=1 staffscale=0.7
+%%MIDI program 116
+[K:none]"Suivre" x8 | x8 | x8 | x8 | x8 | x8 | 
+x8 | x8 | x8 | x8 | x8 | x8 ::
+B2B2B2B2 | BB/B/ BB B2B2 | B2B2B2B2 | BB/B/ BB B2B2 | B2>B2 B2>B2 | B2>B2 B2>B2 | B>B B>B B2B2 | B2B>BB2z2 :|
+V:3
+d4 d4 | B2d>f !breath!d2A>B | c4 A4 | F2A>c !breath!f2d>c | B2B>B (BF) (cF) | d2>d2 ed cB |
+A2A>A (AF) (AF) | c2>c2 dc BA | G2>F2 GF GA | B2>A2 BA Bc | d2d>d ed cB | A2A>A A2z2 ::
+.A2.A2 .A2.A2 | (c2>B2) A2 z2 | .B2.d2 .B2.d2 | (d2>c2) B2z2 | BB Bc dd de | dd dB dd dd | e>d e>c f2 e2 | d2d>d d2z2 :|
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/570
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

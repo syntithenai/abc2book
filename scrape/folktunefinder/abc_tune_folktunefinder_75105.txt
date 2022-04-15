@@ -1,0 +1,28 @@
+X:1946
+T: The Three Captains
+T: Na Tri Taoisaig
+N:"collected by J.O'Neill"
+S:1787 O'Neill's Music of Ireland
+N:There is a mistake in the 4th bar of the second part. The original transcription was:
+N:e/-f/-ge I have coded it e/-f/-g/e/ otherwise there are 9 beats to the bar instead of 8.
+B:O'Neill's 1787
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:C|
+L:1/8
+Q:60
+K:G
+D|G>G (3BGB c>AF>A|G>G (3BGB d>BG>G|(3cec A>A (3BdB G>G|A>Bc>B (3AcG (3FED|
+G>G (3BGB c>AF>A|G>G (3BGB d>BG>G|(3cec A>A (3BdB G>G|(3EcB (3AGF G2 G:|
+|:d|g>g (3dcB (3ABc (3def|g>g (3dBd (3ecA A>A|g>g (3bge f>g (3afd|e/-f/-g/e/ (3edc d>d (3dcB|
+c>d (3ecA B>c (3dBG|A>Bc>B (3ABG (3FED|G>G (3BGB c>AF>A|G>G (3BGB d>BG>G|
+(3cec A>A (3BdB G>G|(3EcB (3AGF G2 G:|
+S:https://www.folktunefinder.com/tunes/75105
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:354
+%%topmargin 3cm
+T:Mrs. Gillies
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+D | {/A,}B,>DF>B {/^c}d>Bc>A | ~B<G{/G}F>D (E<C)C>D | {/A,}B,>DFBc>A | (TB>G){/G}F>E D<B,B, ::
+F | (D>F)B,>F (D>F)B,>F | ~E>F (G/F/)(TE/D/) (E<C)C>D | {/A,}B,>DF>B {/^c}d>Bc>A | ~(B>G){/G}F>E D<B,B, |]
+S:https://www.folktunefinder.com/tunes/71383
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Gillies.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0354.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

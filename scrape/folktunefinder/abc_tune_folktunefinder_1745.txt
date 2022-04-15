@@ -1,0 +1,30 @@
+X:48
+T:48.  The Light of Other Days
+C:c 1981 Harry Bolick   
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:250
+K:Em
+z2 B,2 D2 |: "Em" E3 D EF | "G" G3 F GA | "Em" B3 e de | B3 B ^cd |
+ e2 d2 B2 | "Am" A2 G3 A | "Em" B3 A/2 z/2 B,D | "F#m" F4 GF |
+"Em" E3 D EF | "C" G3 F GA | "Bm" B3 d ^cd | "Em" B3 B ^cd |
+"G" e2 d2 B2 | "A" A2 G3 A | "Bm" B3 A GF |1 "Em" E4 B,D :|2 "Em" E3 G Bd |]
+|: "G" g3 f g2 | "Am" a3 g a2 | "Bm" b3 a gf | "Em" ed Bd ef |
+"G" g3 dg2 | "A" a3 g a2 | "Bm" b3 a gf | "Em" e4 de |
+ "C" g3 f g2 | "D" a3 g a2 | "Bm" b3 a gf | "Em" ed Bd e2 |
+"Bm" f3 d f2 | "G" g3 f ed | "Em" BA  GA "Bm" Bd |1 "Em"e4 de :|2 "Em" e6 ||
+S:https://www.folktunefinder.com/tunes/1745
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

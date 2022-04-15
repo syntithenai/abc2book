@@ -1,0 +1,19 @@
+X: 1
+T:Byker Hill
+M:4/4
+L:1/4
+C:Traditional
+K:Ab
+c2c2c2Bc|e2c2cBG2|F2F2F2EF|G2B2B2G2|c2c2c2Bc|
+e2c2cBG2|c2GBB2c2|G2FGG4|c2c2c2Bc|e2c2cBG2|<
+F2F2F2EF|G2B2B2G2|c2c2c2Bc|e2c2cBG2|c2G2A2c2|
+G2F2G4|-G4||
+% Output from ABC2Win  Version 2.1 i on 2/25/2000
+S:https://www.folktunefinder.com/tunes/75452
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

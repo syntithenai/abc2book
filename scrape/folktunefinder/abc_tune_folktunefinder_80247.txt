@@ -1,0 +1,26 @@
+X:188
+T: Altes Fastenlied
+N: A0546A
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttners Gsgb. 1602 I No. 15.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G4d4 | A4c4 | _B4A4 | G4z2
+G2 | G4d4 | A4c4 | _B4A4 | G4z2
+G2 | =F4_B4 | A4A2G2 | =F2D2E4 | D4z2
+D2 | =F4G4 | A4d4 | d3c_B2A2 | G4z2
+DE | =F4G4 | A2_B2c2d2 | _B4A4 | G6
+S:https://www.folktunefinder.com/tunes/80247
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

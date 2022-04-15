@@ -1,0 +1,28 @@
+X: 1
+T:Boddington
+C:Composed by Gavin Atkin
+S:Copyright Gavin Atkin 1994
+N:Dedicated to my lovely little son, Ewan, born on the 1st May 1994.
+M:6/8
+L:1/8
+Q:90
+K:D
+"A7"d/2e/2|:"D" (3 f/2g/2f/2 ed "A" A2 A|"G"  GBd "A" Ace |
+ "D" (3 f/2g/2f/2 ed "A" A2 A | "G" GBd  "A" e2 e |
+"D" (3 f/2g/2f/2 ed "A" A2 A |"G" GBd "A" Ace|
+"G"GBG "A"ABc|"G"d2d "D" d2 d/2e/2 :|:"F#m" .FAF ~AGF |
+"G" .GBG ~BAG | "A" A.BA ABc | "D" dcB "A7" .A2 A |
+ "F#m" FAF ~AGF | "G" GBG ~B.AG | "A" ABA "G" .g"Bm"~f"A"e |
+ "D" .d2 ~d d2 d :|
+S:https://www.folktunefinder.com/tunes/76862
+S:http://home.clara.net/gmatkin/gavs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Boddington_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

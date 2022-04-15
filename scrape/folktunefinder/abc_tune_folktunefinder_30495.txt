@@ -1,0 +1,26 @@
+X:930
+T:the Doctor
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000182.html
+%%ID:00000182
+K:G
+B/c/|\
+dBG GFG| ABc B2c| dgd dgd| dcB ABc|\
+dBG GFG| ABc B2c| dge dBd| cBA G2::
+B/c/|\
+dgd dgd| dgd dcB| cde eag| fef def|\
+gfe dcB| ABc B2c| dBG EcB| AGF G2:|
+S:https://www.folktunefinder.com/tunes/30495
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

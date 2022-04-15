@@ -1,0 +1,31 @@
+X:157
+T: Die heilige Familie auf der Flucht nach Egypten
+N: A0523
+O: Europa, Mitteleuropa, Deutschland
+N: H. von Themar, Schoene christenliche Catholische Weinacht...
+N: Augspurg 1590 No. 4.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: C
+C | C2C | C2D | F2F | G2
+F | E2D | E2
+C | C2C | C2D | F2F | G2
+F | E2D | E2
+C | C2D | EEF | G2G | E2
+G | F2E | D2C | E2D | C2
+E | F2_E | DC2 | _B,3 | z2
+G, | _B,2B, | C2C | _E2E | D2
+G | F2E | D2C | D3 | C2
+S:https://www.folktunefinder.com/tunes/80216
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:139
+T: TRARIRA DER SOMMER DER IST DA
+N: B0630
+O: Europa, Mitteleuropa, Deutschland, Pfalz
+R: Kinder -, Jahreszeiten - Lied, Sommer
+M: 2/4
+L: 1/16
+K: C
+ | C4E4 | D4z2
+G,2 | A,2G,2A,2B,2 | C4z2
+G,2 | G,2E2E2D2 | DCB,A,G,2
+G,2 | A,2B,2C2D2 | G,4C2z2
+C4E4 | G6
+EC | G,E,G,CE2D2 | C4z4
+S:https://www.folktunefinder.com/tunes/62162
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Kinder -, jahreszeiten - lied, sommer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

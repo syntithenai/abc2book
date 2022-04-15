@@ -1,0 +1,20 @@
+X:120
+T:The Tongadale Reel
+M:4/4
+L:1/8
+R:reel
+K:Amin
+|:AB | cBcB AEAB | cBcB AFAc | BGDG EDEG | DEGA BAGB |
+cBcB AEAB | cBcB AFAc | dBDB EDEG | DCB,C A,2 :|
+|:G,B, | CA,EA, FA,EA, | GA,EA, FEDC | B,G,DG, EG,DG, | FG,EG, DCG,B, |
+CA,EA, FA,EA, | GA,EA, FEDC | B,G,DG, EG,DG, | CA,A,G, A,2 :|
+S:https://www.folktunefinder.com/tunes/41197
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

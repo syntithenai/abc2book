@@ -1,0 +1,62 @@
+X: 2
+T: a Laibediga Honga
+T: a Lively Honga
+O: Kandel's Orchestra, 1925
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: Ephr
+|: "E"E2^GG GGGG \
+| ^G2EG B3A \
+| ^GAB2 GAB2 \
+| ^G2FG F2E2 \
+|| "E"E2^GG GGGG \
+| ^G2EG B3A \
+| ^GABA "Dm"G3F |
+|1 "E"E4 e4 \
+:|2 "E"E2c2 B2A2 \
+|: "E"^G4 A4  \
+| B2A2 c2B2 \
+| "Am"A8 \
+| z2A2 ^G2A2 \
+| "E"(3B2c2B2 (3A2B2A2 \
+| ^G2F2 E2F2 \
+| "E"^G8 |
+| BAA^G GFFE \
+|| ^G4 A4  \
+| B2A2 c2B2 \
+| "Am"A8 \
+| "Dm"d8 \
+| d2c2 B2A2 \
+| ^G2D2 E2F2 \
+|1 "E"E8 \
+| z2c2 B2A2 \
+:|2 E8 \
+| z4 E4 |
+|| "Am"A6 Bc \
+| A6 Bc \
+| A2Bc A2Bc \
+| A6 c2 |: "Dm"c2 d4 d2 \
+| d2c2 c2B2 \
+| "Am"B2 c4 c2 \
+| c2B2 B2A2 \
+| "G7"A2G2 G2A2 \
+| A2d2 c2B2 |
+| "C"c8 \
+| g8 \
+|| "Dm"c2d2 d2d2 \
+| d2c2 c2B2 \
+| "Am"B2c2 c2c2 \
+| c2B2 B2A2 \
+| "Dm"A2f2 e2d2 \
+| "E7"c2d2 B2c2 \
+| "Am"A8- \
+| A2 z6 :|
+S:https://www.folktunefinder.com/tunes/7172
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/LaibedigaHonga.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:441
+T: BEI WATERLOO DA FIEL DER ERSTE SCHUSS
+N: E0359
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein
+R: historisches Lied, Krieg gegen Napoleon (1815)
+M: 4/4
+L: 1/8
+K: C
+G,2 | C2G,2E,2G,2 | C4
+A,4 | G,2FFEEDD | C4z2
+C2 | D2DDB,B,G,G, | C2G,2C2
+C2 | D2DDB,B,G,G, | C2G,2C2
+C2 | A,2A,A,A,CB,A, | G,3CC3
+E | EDFDC2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/78882
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen napoleon (1815)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

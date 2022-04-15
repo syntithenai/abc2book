@@ -1,0 +1,34 @@
+X:16098
+T:Summers Flowers. BF13.089
+M:2/4
+L:1/8
+Q:140
+C:"by Bishop"
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Air
+O:England
+A:Lakes
+N:The notes marked with an asterisk have dynamic markings underneath,
+N:either a very small diminuendo or an accent mark.  The DC is underneath
+N:the stave, in the corner of the page
+Z:vmp.Cherri Graebe.
+K:G major
+(G/A/)B/c/ de|e-dze/f/2|gB/2B/2 Bd|d>A A/2c/2B/2A/2|!
+(G/2A/2B/2c/2) de|("*"(ed)  ze/2f/2|g>B (d/2c/2)A/2F/2|GB/2A/2 G|!
+|G|(F/2G/2A/2B/2) cc|c"*"[G2B2]A|G/2A/2B/2c/2 de|edzd|!
+^c/2d/2e/2f/2 gg|(g/2a/2)(f/2g/2) (e/2f/2)(d/2e/2
+)|fed^c|de/2d/2 =c/2B/2c/2"DC"A/2||
+S:https://www.folktunefinder.com/tunes/47373
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

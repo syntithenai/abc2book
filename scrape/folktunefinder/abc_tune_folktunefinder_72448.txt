@@ -1,0 +1,31 @@
+X: 199
+T:Table Wants a Frame,The. HA.198
+T:aka. HA.198
+M:6/4
+L:1/4
+Q:1/4=180
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:several dots missing on crs in MS, NBr
+H:1/4
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+A|d3/2c/2de3/2d/2e|f3d2e|f3/2g/2f"u"e2"u"d|e3-e2A|!
+d3/2c/2de3/2d/2e|f3d2e|f3/2g/2fe2d|d3-d2:|!
+|:f/2g/2|a2aa3/2b/2a|"u"g2"u"gg3/2a/2g|\
+"u"f2"u"ff3/2e/2d|e3-e2"u"f/2"u"g/2|!
+"u"a2"u"aa3/2b/2a|"u"g2"u"gg3/2a/2g|f2ff3/2e/2d|e3"u"e2A|!
+d3/2c/2de3/2d/2e|f3d2e|f3/2g/2f"u"e2"u"d|d3-d2:|]
+S:https://www.folktunefinder.com/tunes/72448
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

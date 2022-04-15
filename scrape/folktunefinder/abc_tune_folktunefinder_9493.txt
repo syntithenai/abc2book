@@ -1,0 +1,23 @@
+X: 1
+P: Bonny Bridge
+O: RSCDS 10-4
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e \
+|: "A"a-<a e>d "F#m"c-<A A>c | "Bm"d-<d B>A "E7"G-<E E>D \
+|  "A"C>E A>G "D"F-<F d>B | "E7"(3GAB E>d "A"c-<A A  :|
+e \
+|: "A"(3cde A>=G "D"F-<D D>c | "Bm"(3def "B7"B>A "E"G-<E "E7"E>G \
+|  "A"(3ABc "E7"(3Bcd "A7"(3cde "D"(3def | "A"e-<a "E7"e>d "A"c-<A A :|
+S:https://www.folktunefinder.com/tunes/9493
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/1314A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS04.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

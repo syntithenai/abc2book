@@ -1,0 +1,26 @@
+X:202
+%%topmargin 3cm
+T:Athole Brose
+C:Neil Gow's favourite.
+O:Scotland
+N:I've added some accidentals that I think were left out in the 4th (c nat), 8th (c nat), 12th (C nat), and 16th (C nat) full measures.
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A S|{/G}(F>D) D/D/D A,DDG | (F>D) D/D/D (G/A/B) (AG) | (FD) D/D/D A,DD=F | ((3D=FG) =CE =cGEG |
+(F>D) D/D/D A,DDG | (F>D) D/D/D (G/A/B) AG | (F>D) D/D/D A,DD=F | ((3E=FG) (=CE) =cGEC ||
+|: Ddd>c dedc | Add>e =fdec | Ddd>c dedA | =cd c2 AG E=C |
+Ddd>c dedc | Add>e =fdec | d<d=f>d e>cd>A | =cd c2 AG E=C S:|
+S:https://www.folktunefinder.com/tunes/70949
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

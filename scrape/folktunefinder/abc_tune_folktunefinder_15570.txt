@@ -1,0 +1,26 @@
+X: 1
+T: Miss Mary Douglas (reel)
+C: Niel Gow
+R: reel, march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%Q: 1/4=112
+K: D
+DE \
+| "D"F2F2 FGFE | D4- D2FG | A2A2 ABAG | F4- F2A2 \
+| "G"B2B2 G2B2 | "D"A2A2 F2D2 | "A7"E2E2 EDEF | "D"D4- D2 :|
+|: CD \
+| "A7"E2E2 E2DE | "D"F2F2 F2EF | "G"G2G2 GABG | "D"A6 CD \
+| "A7"E2E2 E2DE | "D"F2F2 F2D2 | "A7"E2E2 EDEF | "D"D4- D2 :|
+S:https://www.folktunefinder.com/tunes/15570
+S:http://trillian.mit.edu/~jc/music/abc/march/MaryDouglasR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MaryDouglasR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MaryDouglasR_D.abc
+% Rhythm Reel, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

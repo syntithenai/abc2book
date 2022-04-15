@@ -1,0 +1,30 @@
+X: 19
+T:The Famous Darbysheire Hornpipe
+M:6/4
+L:1/8
+S:Wright 1713
+N:you might think the last note of strains 4 should be C but wright
+N:definitely has D
+Z:p
+K:D
+D2d4A2F2D2|C2E4B,2C4|D2d4A2F4|D2F4A2G2E2||
+D2d4A2 FGAF|E2cdedcB cdec|D2 d2 edcB FGAF|DEFG FGAF EFED||
+D2d2 edcB AGFA|D2 cd edcB cdec|feec dcBA FGAF|D2d2edcB cdec||
+feed dcBA GAFA|E2cd edcB cdec|d2f2 D2G2F2A2|D2f2D2f2 cdec||
+d2f2D2G2F2A2|e2fefe fefedc|d2ed edcBAG FE|DEFG FGAF EFGE||
+DEFG AFGA BAGF|EDEF EDCB, CDEC|D6 A,2 B,4|DEFG A2D2C2E2||
+B,2D2 C2E2 DEFD|CDEF EDCB, CDEC|A,B,CA, B,CDB, DEFG|AGFE DEFD CDEC||
+D2 FD E2GE FGAF|Ddcd edcB cdec|defe d2D2F2A2|D2F4A2G2E2||
+S:https://www.folktunefinder.com/tunes/49225
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

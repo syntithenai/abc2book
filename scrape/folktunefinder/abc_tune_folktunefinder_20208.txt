@@ -1,0 +1,25 @@
+X:1
+T:Spinster's Waltz
+R:waltz
+C:Evan Lurie
+S:Gerry Strong <gerry.strong@NF.SYMPATICO.CA> irtrad-l 2001-05-03
+M:3/4
+L:1/8
+Q:1/4=120
+K:D
+FA \
+|: d3  c Bd | F4    DF | d3 c Bd | F4 DF | d3  c BA | c3  B A2 | A2 c4- |  c4 EG |
+|  d3  c Bd | G4    EG | d3 c Bd | G4 EG | c3  B A2 | c3  B A2 | A2 d4- |1 d4 FA :|2 d6 ||
+|: dg bd gb | dg bd gb | a6      | f6    | Bd gB dg | Bd gB dg | f6-    |  f3 z3 |
+|  Bd gB dg | Bd gB dg | f6      | d4 c2 | B4    c2 | A4    D2 | D6-    |  D3 z3 :|
+S:https://www.folktunefinder.com/tunes/20208
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SpinstersWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/SpinstersWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

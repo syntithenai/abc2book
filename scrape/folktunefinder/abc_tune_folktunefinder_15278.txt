@@ -1,0 +1,27 @@
+X: 1
+T: The Young Widow
+B: Hendrickson's "John Griffiths Dancing Master."
+R: jig
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+%Q: 3/8=108
+K: F
+|: "F"A2A AGA | "C7"BcB "F"AGF |1,3 AGF AGF | AGF "C7"c3 \
+                              :|2,4 "F"ABc "Bb"def | "C7"ABG "F"F3 :|
+|: "C"GEC GEC | "(F)"cBA "C"GEC | GEC GEC | "(F)"cBA "(G7)"G3 :|[K:=B]
+K: C
+|: "C"e2e ede | "G7"fgf "C"edc |1 edc edc | edc "G7"g3 \
+                              :|2 "C"cde "G7"def | g2G "C"c3 |]
+S:https://www.folktunefinder.com/tunes/15278
+S:http://trillian.mit.edu/~jc/music/abc/jig/YoungWidow_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/YoungWidow_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:334
+T: Im Rosengarten (73), S. 209
+N: T0223
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Boxhorn, hhh Michel Girres,
+N: mitgeteilt: hhh Heinrich Godefroid (Lehrer)
+R: Liebeslieder]
+M: 3/4
+L: 1/8
+K: G
+D2 | G3FB2 | A3G
+A2 | B3cB2 | A2z2
+Bd | c3BAB | B2A2
+G2 | A2G2Bd | d2z2
+dd | e3eee | d2c2
+B2 | c2B2A2 | G2z2
+S:https://www.folktunefinder.com/tunes/70464
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

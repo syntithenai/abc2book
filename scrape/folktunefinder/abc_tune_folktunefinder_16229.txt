@@ -1,0 +1,28 @@
+X: 1
+T: Shiftin' Bobbins
+C: Muriel Rimmer
+R: reel, polka
+B: "3 Ormskirk Scottish Dances Book 6"
+B: The Kinpurnie Collection, Sidlaw Music, in A
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|| "A"^deee f2e2 | ^d2e2 c2A2 | EEEE A2c2 | "Bm"c2d2 d4 \
+| "E7"^deee f2e2 | g2f2 e2f2 | gfed c2B2 | "A"A2F2 "E7"E4 |
+| "A"^deee f2e2 | ^d2e2 c2A2 | EEEE A2c2 | "Bm"c2d2 d4 \
+| "E7"cddd ^A2B2 | ^^F2G2 ^D2E2 | EFGA c2B2 | "A"A8 |]
+[| "A"EEEE F2E2 | ^D2E2 F2E2 | EEEE A2c2 | "Bm"^A2B2 B4 \
+| "E7"GGGG A2G2 | ^^F2G2 ^D2E2 | G3F E2^D2 | "A"F2E2 C4 |
+| "A"EEEE F2E2 | ^D2E2 F2E2 | EEEE A2c2 | "Bm"^A2B2 B4 \
+| "E"cddd ^A2B2 | ^^F2G2 ^D2E2 | EFGA c2B2 | "A"A8 |]
+S:https://www.folktunefinder.com/tunes/16229
+S:http://trillian.mit.edu/~jc/music/abc/polka/ShiftinBobbins_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/ShiftinBobbins_A.abc
+% Rhythm Reel, polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

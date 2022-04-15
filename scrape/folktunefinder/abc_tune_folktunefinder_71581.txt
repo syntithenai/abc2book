@@ -1,0 +1,26 @@
+X:2
+T:All the way to Galway
+T:An bothar ar fad go Gaillimh
+O:Ireland - ire
+B:O'Neill's
+Z:copie (livre) : <anamnese@laposte.net>
+N:O'Neill's 1001 gems n999
+N:(Miscellaneous)
+M:4/4
+L:1/8
+Q:1/4=150
+K:G
+%tempo donn  titre d'exemple
+A | d>ef(d cA)A>c | BGG(A/B/) cAA>c | d>ef(d cA)A>c | BG(AF) D2 D :|
+G | A>BAG A(BcA) | G>(AGF) EFGE | A>BA(G ABc)d | c(AGE) D2 (DB) |
+ A>BAG AB(cdA) | G>(AGF) EFGE | A>BAG AddB | c(AGE) D2 D |]
+S:https://www.folktunefinder.com/tunes/71581
+S:http://anamnese.online.fr/abc/celtia.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

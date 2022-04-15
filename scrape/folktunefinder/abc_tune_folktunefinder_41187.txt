@@ -1,0 +1,25 @@
+X:110
+T:Conlon's  Reel
+Z:robin.beech@mcgill.ca
+S:Victoria Bar, Glasgow
+M:4/4
+L:1/8
+R:reel
+K:D
+|: d2cd AFDd | cdAF DEF/E/D | E3F GFED | CDEF GABc |
+d2cd AFDd |cdAF DEF/E/D |E2gf edcB |1 ABc/B/A d3c :|2 ABc/B/A d3a |:
+^gafd Aa^ga | fdAa ^gafd| e3b bagf |1 edcB ABca :|2 edcB ABc/B/A |
+d2cd AFDd | cdAF DEF/E/D | E2gf edcB | ABc/B/A d3c |]
+S:https://www.folktunefinder.com/tunes/41187
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

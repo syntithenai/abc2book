@@ -1,0 +1,28 @@
+X:960
+T:Carnival tune (fr Limoux )
+A:Aude
+M:6/8
+N:said to be from Limoux
+O:France
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009fb.html
+%%ID:000009fb
+K:D
+A|\
+d2A F2A|(d3 d2)A|d2A d2A|(B3 B2)B|\
+e2d c2B|(A3 A2)A|c2B A2G|(F3 F2)A|
+d2A F2A|(d3 d2)A|d2A d2A|(B3 B2)B|\
+e2d c2B|A2G F3|EFG ABc|d6||
+K:A
+A2c e2c|d2B F3|d2B F3|GAB E3|\
+A2c e2c|d2B F3|EGB d2G|A6:|
+S:https://www.folktunefinder.com/tunes/36271
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

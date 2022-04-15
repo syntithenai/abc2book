@@ -1,0 +1,23 @@
+X:265
+T:Lord Carmarthen's March
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dd7.html
+%%ID:00000dd7
+K:D
+d2dd d2fe      | d4 A4    | d2F2 G2B2 | AGFE D4 |\
+f2ff f2(e/f/g) | f4 e4    | fgfg agfg | a8 ::
+e2ee e2(d/e/f) | e4 ag f2 | d2d2 fed2 | A2F2 D4 |\
+a2aa a2(g/a/b) | a4 g4    | fgab e3d  | d8 :|
+S:https://www.folktunefinder.com/tunes/43616
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

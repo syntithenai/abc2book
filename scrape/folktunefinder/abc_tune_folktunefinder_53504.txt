@@ -1,0 +1,37 @@
+X:152
+T:Molly Put the Kettle On
+S:Tape recording of Manco Snead
+A:Cherokee, North Carolina
+N:Manco mumbles a bit, so it's unclear whether
+N:he says "Molly" or "Polly." Calling it "Molly"
+N:keeps it separate from the common song tune.
+I:/ above a note indicates a slide up to that note,
+I: above a note indicates sharpening, V indicates
+I:flattening. Manco changes his pitches more than
+I:a little.
+Z: posted by Joel Shimberg 4/99
+N:Parts played in order:123443
+Z:Joel Shimberg
+M:C|
+L:1/8
+K:G
+"1"{A}BAG=F DC"v"B,C | DE=FG FD C2 | D2GA GFGA | B""cdd =fdg2-| ga g=f
+d2(3cdc |
+BcBG =FD"v"B,2 | DGGA GFGA | {A}B2G2G3 G- || "2" GA"v"Bc d4| _Bcdc _BG=F_B |
+GABc dcdc | BcBF G2DF | GA_Bc d4 | _Bcdc =BG=F_B | GAG"v"F DCB,C |
+DG2FG2G2 ||"3"A<B G=F DC (3A,B,C | DE=FG FDC2 | D2GA GFGA |
+B""cdd =fdg2- | ga g=f d2(3cdc | BcBG =FDB,2 | DGGA GFGA |
+B2G2G3 "/"G- ||"4" GAB""c d4 | de=fg fdc2 | dgga gfd2 |
+gagf d^cde | fgaf gfd2 | c2BG F2G2 | GAG=F DCB,C | DG2F G2G2 ||
+S:https://www.folktunefinder.com/tunes/53504
+S:http://otterlimits.org/fiddling/tunes/longlist.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

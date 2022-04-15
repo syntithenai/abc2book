@@ -1,0 +1,31 @@
+X: 1
+T: Leona Beaton Jig
+C: Joseph Beaton
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: from an arrangement by Terry Traub
+M: 6/8
+L: 1/8
+K: Ador
+B \
+| "Am"ABA c2d | e3 "D7"A2c | "G"B3 G2B | GBc dBG \
+| "Am"ABA c2d | e3  A2f/g/ | "G"a2f g2f | "A"e^cA A2 :|
+K: Amix
+|: f/g/ \
+| "A"a3 A2B | Ace agf | "G"g3 G2A | GBd gfg \
+| "A"a3 A2B | Ace agf | "G"gfe deg | edB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/14530
+S:http://trillian.mit.edu/~jc/music/abc/jig/LeonaBeatonJig_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LeonaBeatonJig_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LeonaBeatonJig_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

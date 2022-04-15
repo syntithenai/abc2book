@@ -1,0 +1,24 @@
+X:2215
+T:Halling
+L:1/16
+M:4/4
+O:Norway
+R:Halling
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c73.html
+%%ID:00000c73
+K:G
+a2ab a2fa g2eg f2df | a2ab a2fa g2ec d4 ::
+g2f2 d2c2 A2cB G2A2 | ^F3D C2D2 ^F2A2 G2A2 |\
+^F2ED C2D2 ^F2A2 G2A2 | f3e d2c2 d4 d4:|
+S:https://www.folktunefinder.com/tunes/36522
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

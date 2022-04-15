@@ -1,0 +1,34 @@
+X: 51
+P: Polka Medley 1
+K: C
+P: Hoputas polkka (Tupsun juuren) (Zorros m\"arke)
+R: polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ea a>b | ag e>f | "G"gg/a/ gf | "E7"e2 e2 :|
+|: "Am".ec BA | .ec BA | .eA .eA | .ec BA | "E7"BB/d/ cB | "Am"A2 A2 :|
+P: Polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a transcription by Karen Myers
+M: C|
+L: 1/8
+K: Am
+|: "Am"E2AA A2B2 | c2e2 edc2 | "E7"B2e2 edcB |1,3.A2"Am"c2 edc2 :|2,4.A2"Am"A2 A2z2 :|
+|: "Dm"a3g f2f2 | "Am"efed c4 | "E7"B3c ddcB |1,3.c"Am"Bcd "A7"e2e2 :|2,4.A2"Am"A2 A2z2 :|
+S:https://www.folktunefinder.com/tunes/8204
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Polka.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 4/4
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

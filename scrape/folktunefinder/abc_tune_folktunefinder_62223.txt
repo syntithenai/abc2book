@@ -1,0 +1,31 @@
+X:200
+T: DIE HEILGEN DREI KOENIGE
+N: B0684
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 2/4
+L: 1/16
+K: A
+E2 | A3GA2B2 | c4A2
+c2 | B4B4 | B4z2
+B2 | c3Bc2d2 | e3fe2
+d2 | c4B2B2 | A4z2
+c2 | B4E4 | E4z2
+c2 | B4E4 | E4z2
+B2 | c3Bc2f2 | e4
+A3B | c4B2B2 | A4z2
+c2 | B4E4 | E4z2
+c2 | B4E4 | E4z2
+B2 | c3Bc2f2 | e4
+A3B | c4B2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/62223
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

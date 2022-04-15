@@ -1,0 +1,24 @@
+X: 1
+T: The Corner House Jig
+C: Andrew Rankne
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B \
+| "D"Add dcd | fed A2d | "Em"Bee edB | Bee "A7"cBA \
+| "D"Add dcd | fed A2d | "G"Bdd "A7"cBc | "D"d3- d2 :|
+|:A/G/ \
+| "D"FAA AFD | "G"GBB BAG | "A7"Acc cBc | "D"dcd "A7"BAG \
+| "D"FAA AFD | "G"GBB BAG | "D"Add "A7"cBc | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/14048
+S:http://trillian.mit.edu/~jc/music/abc/jig/Corner_House_Jig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Corner_House_Jig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

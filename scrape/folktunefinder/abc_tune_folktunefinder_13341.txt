@@ -1,0 +1,24 @@
+X:1315
+T:Taps
+C:anon.
+O:USA
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/abc/tunes/usa/taps.abc
+S:Frank Nordberg <frnordbe@online.no> abcusers 2001-9-13
+V:1 % Program 1 56 %Trumpet
+M:C
+L:1/8
+Q:1/4=48
+K:C
+"_mf"G>G|"_cresc."Hc6 G>c|He6 G>c|He2 G>c|He2 G>c|
+S:https://www.folktunefinder.com/tunes/13341
+S:http://trillian.mit.edu/~jc/music/abc/air/Taps_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/Taps_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Taps_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

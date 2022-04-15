@@ -1,0 +1,33 @@
+X:2
+T:Muzette
+M:3
+L:1/4
+Q:"Tendrement"
+K:C
+%%staves [1 2]
+%%continueall 1
+V:1
+e | g2a | g2c' | !!(ba)b | c'2c | e2f | e2f | !!dcd | ecg | a2g | !!f2e | uf2e | !!d2g |
+(g^f)g | (gd)z | z3 | zzg | (g^f)g | a2a | (ag)a | ub2b | (ba)g | (b!!a)g | !!^f2g | g2 :: G |
+d2e | d2e | u(f!!e)d | ue2c' | ('cb)c' | !!f2f | (ugf)g | !!^g2e | a>b^g | a2b | uc'>d'b | (c'd')c' |
+!!b2a | a2a | a!!gf | ug{f}eg | g!!fe | !!d2d | ue>f!!d | ue2!!B | uc>d!!B | cGd | !!ede | ufe!!f |
+g3- | g3 | !!f/e/!!d>c | c2 :: d | (e/f/)(d/e/)(!!e/d//e//) | (f/g/)(e/f/)(!!f/e//f//) | g3- | g2- (g/a//g//) |
+(f/g//e//)!!d>c | c2 |]
+V:2
+c | e2f | e2f | (!!dc)d | uece | g2a | g2c | (!!ba)b | c'2e | uf2e | !!d2c | ud2c | !!B2z |
+z3 | zzg | (g^f)g | (gd)B | (BA)B | c2c | (cB)c | d2d | (dc)B | (dc)B | !!A2G | G2 :: G |
+B2c | BGc | c2!!B | c2e | (ed)e | !!c2c | (dc)d | !!B2z | z3 | zze | a>b^g | aba |
+!!^g2a | a2f | fed | ece | edc | !!B2B | uc>d!!B | ucGd | ue>f!!d | e2B | ucBc | dcd |
+ede | !!cBc | d/c/!!B>c | c2 :: B | (c/d/)(B/c/)(!!c/B//c//) | (d/e/)(c/d/)(!!d/c//d//) | (e/f/)(d/f/)(e/d/) | (c/d/)(B/c/)(!!c/B//c//) |
+(d/e//c//)!!B>c | c2 |]
+S:https://www.folktunefinder.com/tunes/40165
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

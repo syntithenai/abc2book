@@ -1,0 +1,26 @@
+X:243
+%%topmargin 3cm
+T:Nighean dubh nan Geala chas
+T:My Lovely Black Maiden
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A dorian
+e | {/f}g>e{/^c}d>g BB{/F}G>B | {/^c}d2 ed TB2 (Bd) | {/f}g>e{/^c}dg BB{/F}G>B | {/^c}d2 (e>d) TBAA ::
+B | {/^c}dGdB {/c}dGdB | {/^c}dGdB =ceAe | {/^c}dGdB {/c}de{/f}ga | ge{/^c}dB TBAA :|
+S:https://www.folktunefinder.com/tunes/71272
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/My_Lovely_Black_Maiden.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Nighean_dubh_nan_Geala_chas.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0243.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

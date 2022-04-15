@@ -1,0 +1,25 @@
+X:25
+T: RARITETE SEIN ZU SEHN
+N: F0083
+O: Europa, Mitteleuropa, Deutschland
+R: Kirmes -, Guckkasten - Lied
+M: 2/4
+L: 1/16
+K: C
+ | G,2G,2G,2C2 | E,2G,2C,4
+G,2C2C2E2 | D3B,G,2z2
+G,2G,2G,2C2 | E,2G,2C,4
+G,2C2C2E2 | D3B,G,2z2
+E2C2C2DE | F2D2D4
+E2C2C2DE | D2B,2G,4
+C3B,C2E,F, | G,4C,2z2
+S:https://www.folktunefinder.com/tunes/69585
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Kirmes -, guckkasten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

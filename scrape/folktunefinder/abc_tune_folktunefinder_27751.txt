@@ -1,0 +1,25 @@
+X:7299
+T:The Round
+T:to the tune of Mr Lane's Maggot
+O:england
+M:2/2
+L:1/8
+B:The Round Band Book of Playford
+K:F
+"Dm"a4 "Am"g4 | "Dm"f2gf "Am"e2A2 | \
+"Bb"defg "A"e2A2 | "Bb"defg "A"e2A2 | \
+"F"a2ba "C"g2ag | "Dm"f2gf "Am"e2A2 | \
+"Gm"defg "A7"e2^c2 | "Dm"d4 :: \
+"F"F2A2 "Dm"F2A2 | "F"F2A2 "Dm"F2A2 | \
+"Gm"A2GA "F"F2A2 | "Bb"A2GA "Dm"F2A2 | \
+"F"FGAG "Gm"FGAG | "F"FGAG "Bb"FGAf | \
+"Gm"e2d2 "A7"e2^c2 | "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/27751
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

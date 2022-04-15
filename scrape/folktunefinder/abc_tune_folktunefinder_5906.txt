@@ -1,0 +1,21 @@
+X: 1
+T: Plon niesiemy
+T: Polish harvest song
+O: Poland
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+[| "F"Acc | dcA | "C7"cBG | "F"AF2 | Acc | dcA | "C7"c/c/BG | "F"AF2 ||
+|| "C7"G/G/ED | CB2 | A/A/GG | "F"F3 | "C7"G/G/ED | CB2 | A/c/GG/E/ | "F"F3 |]
+S:https://www.folktunefinder.com/tunes/5906
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PlonNiesiemy.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/PlonNiesiemy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/PlonNiesiemy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Poland/waltz/PlonNiesiemy.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

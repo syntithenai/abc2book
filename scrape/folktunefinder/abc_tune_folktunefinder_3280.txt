@@ -1,0 +1,29 @@
+X: 2
+P: New Rigged Ship
+O: Trad
+R: jig, air
+N: Anderson p.41
+N: Bain p.43 (Da Full Rigged Ship)
+B: Skye, p.176.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: G \
+| "C"c2c c2e | c2c c2e | "G7"dBG GBc | dBG GAB \
+| "C"c2c c2e | c2c "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2 :|
+[| e/f/ \
+| "C"g2e g2e | "Am"c2c ceg | "Dm"a2f a2f | "G7"d2d def \
+| "C"g2e g2e | "Am"c2c "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2e/f/ ||
+|| "C"gfe gfe | "Am"cdc ceg | "Dm"agf agf | "G7"ded def \
+| "C"gfe gfe | "Am"cdc "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2 |]
+S:https://www.folktunefinder.com/tunes/3280
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ45.abc
+% Rhythm Jig, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

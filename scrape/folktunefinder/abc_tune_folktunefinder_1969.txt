@@ -1,0 +1,32 @@
+X: 32
+T:Quick March,A. JMP.032
+M:2/4
+L:1/8
+Q:200
+C:"34"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+A | d2ce | d2ce | d/d/e/f/ g/f/e/d/ |\
+f/e/d/e/ d/c/B/A/ |!
+d2ce | d2ce |d/d/e/f/ gf | f2e2 :|!
+|: e2 (d/c/B/A/) |\
+e2 d/c/B/A/ |gedc | (d/f/)(F/A/) (B/d/)(c/d/) |!
+e2 d/c/B/A/ | e2 d/c/B/A/ | fedc | {c}d3 :|]
+S:https://www.folktunefinder.com/tunes/1969
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

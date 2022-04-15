@@ -1,0 +1,34 @@
+X: 156
+T:Volunas Waltz. JaW.156
+M:3/8
+Q:50
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+N:"Look forward sir" is written at the end of the page, and a hand
+N:pointing off the page; but my photocopy seems to have lost it's sense
+N:of order and the next page doesn't match.CGP
+H:1/16
+Z:vmp.Chris Partington, Aug 2004
+K:F
+F3(GAB)| (Ac)(ac)(ac)| (GB)(gB)(gB)| (Ac)(fc)(fc)|!
+F3(GAB)| (Ac)(ac)(ac)| (GB)(gB)(gB)| {A}f4:|!
+|:{e}f2(FAcf)| (bg)(^fg)(fg)| {b}c'2(Gceg)|gfefef|!
+F3(GAB)| (Ac)(ac)(ac)| (GB)(gB)(gB)| {F}f4:|!
+|:K:Bb
+(DF)(BF)(dF)| (DF)(BF)(dF)| {d}e2{d}e2{d}e2| c3(GFE)|!
+(DF)(BF)(dF)| (DF)(BF)(dF)| {d}e2{d}e2 cA|B4:|]
+S:https://www.folktunefinder.com/tunes/47693
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 137
+%%musicspace .3cm
+T: Quince Dillon's High D Tune
+C: R-68
+C: Old-Time
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE| "D"D2D2 FDFA| dAde "G"dcB2| "A"A2A2 c2e2| a2a2 "D"d'2FE|
+    "D"D2D2 FDFA| dAde "G"dcB2| "A"ABAG FDEF| "D"D4 z2 :|
+\
+ag|: "D"fd2A d2A2| defg agf2| "C"e=c2d "Am"cAGA| "A"^cd"D"ef "G"gage|
+     "D"ed2A d2A2| defg aba2| "A"ABcd egfe|1 "D"d2a2 a3g:|2 "D"d2a2 a3|]
+%%text 9/1/98
+% ---------- page 71 ----------
+S:https://www.folktunefinder.com/tunes/57474
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

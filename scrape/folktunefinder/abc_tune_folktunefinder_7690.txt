@@ -1,0 +1,34 @@
+X: 87
+T: Sweet Marie
+O: Trad
+R: march
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: "Kitsap Konnection" 2003 track 1 tune 3
+F: http://soundclick.com/sharesongid=188571 (tune 3)[2008-6-22]
+S: Ross Brown, old-time Georgia fiddler, on youtube
+F: http://www.youtube.com/watchv=xq5vcmJvgQI&feature=related (at 1:04)[2008-6-22]
+M: 2/4
+L: 1/8
+K: A
+cB | "A"AE AB | c2 BA | "D"de fa | "A"e2 cd | e2 fa |     c2 dc | "E7"B4- | B2 ||
+cB | "A"AE AB | c2 BA | "D"de fa | "A"e2 cd | e2 fa | "E7"B2 cB |  "A"A4- | A2 |]
+ag | "D"f2 fg | a2 gf | "A"e2 AB |    c2 cd | e2 fa |     c2 dc | "E7"B4- | B2 ||
+cB | "A"AE AB | c2 BA | "D"de fa | "A"e2 cd | e2 fa | "E7"B2 cB |  "A"A4- | A2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7690
+S:http://www.youtube.com/watchv=xq5vcmJvgQI&feature=related
+S:http://soundclick.com/sharesongid=188571
+S:http://www.youtube.com/watchv=xq5vcmJvgQI&feature=related
+S:http://soundclick.com/sharesongid=188571
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm March
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

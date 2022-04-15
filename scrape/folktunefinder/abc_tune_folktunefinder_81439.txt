@@ -1,0 +1,31 @@
+X:1
+T:Martya
+M:11/8
+L:1/8
+C:Steve Mansfield
+N:The Cotswold morris tune Old Molly Oxford after a night out
+N: with a troupe of Bulgarian bagpipers. Maybe.
+N: Played AABBAAC
+D: Trebuchet 'Salvo' TrebuchetMusic TREBCD6001
+Z:Steve Mansfield 20070809
+K:G
+P:A
+GABc d2c B2A2 | GABc d2g fgaf | [M:12/8] ddef gdc B2 def | [M:13/8] g2d e2B d2B cBAB :|
+P:B
+|: [M:12/8]B2d B2d B2d2B2 | c2e c2e c2e2c2 | ddef gdc B2 def | [M:13/8] g2d e2B d2B cBAB :|
+P:C
+[M:12/8]B2d B2d B2d2B2 | c2e c2e c2e2c2 | B2d B2d B2d2B2 | AGF A2F A2c2A2 |
+B2d B2d B2d2B2 | c2e c2e c2e2c2 | ddef gdc B2 def | [M:13/8] g2d e2B d2B cBAB ||
+S:https://www.folktunefinder.com/tunes/81439
+S:http://www.lesession.co.uk/music/posts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 13/8
+% Time_signature 11/8
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

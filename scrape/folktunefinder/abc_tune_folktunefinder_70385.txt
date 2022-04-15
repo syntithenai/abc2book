@@ -1,0 +1,27 @@
+X:255
+T: Der Graf und die Magd (23b), S. 97
+N: T0144
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Junglinster, fff Wachtmeister-Kaiser, 25.12.1932
+R: Liebeslieder]
+M: 4/4
+L: 1/8
+K: D
+DF | A2A2AGFE | D2F2F2
+F2 | E3FG3A | G2F2z
+FEd | d2edcBAG | F3Ad3A | c2B2z2
+B2 | A3BAGFE | E2D2z2
+S:https://www.folktunefinder.com/tunes/70385
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

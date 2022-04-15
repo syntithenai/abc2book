@@ -1,0 +1,27 @@
+X: 1
+T: the Guidman of Balangigh
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+B: RSCDS "Originally Ours"
+M: 6/8
+L: 1/8
+K: F
+F \
+| "F"A2c f2g | "C7"e>dc "F"f2e | "Bb"d>cA "F"cAF | "Gm"GAG "C7"d2f \
+| "F"F>GA f2g | "C7"e>dc "Dm"f2e | "Bb"dcA "F"c>A"A7"G | "Dm"A3 d2 :|
+|: f \
+| "F"f>ga g2f | "C7"edc "Dm(Bb)"f2d | "F"cfc "Dm"AGF | "Gm"G3 "C7"B2c \
+| "Dm"f>ga "C"gec | "Bb"f2e "F"dcA | "Am"c>AG "Bb(m)"F>GF | "F"A3 f2 :|
+S:https://www.folktunefinder.com/tunes/14274
+S:http://trillian.mit.edu/~jc/music/abc/jig/GuidmanOfBalangigh_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GuidmanOfBalangigh_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GuidmanOfBalangigh_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

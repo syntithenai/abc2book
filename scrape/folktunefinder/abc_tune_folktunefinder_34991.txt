@@ -1,0 +1,21 @@
+X: 7774
+T:Schottische
+M:4/4
+O:France
+R:Schottische
+K:G
+GFGA G2D2| AGAB A2D2| BABc B2AG|1 FGAc B2A2 :|2 FGAF G4 |:
+GABc d3D| EFGA D2GF| EFGA BGAB|1 cBAG B2A2 :|2 cBAB G4 |]
+S:https://www.folktunefinder.com/tunes/34991
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

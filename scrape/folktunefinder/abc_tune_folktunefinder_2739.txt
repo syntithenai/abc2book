@@ -1,0 +1,26 @@
+X: 1
+P: The Pleasures of Youth
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+ "D7"B>c \
+| "G"d>c Bc | d2 gg | "D7"gf/g/ aa | "(G)"ag "D7"Bc \
+| "G"d>c Bc | d2 BG | "C"CG "D7"DF | "G"G2 :|
+|: "G"gg \
+| "D7"fd "G"gg | "D7"fd "G"gg | "D"ff "A"ee | "D"d2 "D7"Bc \
+| "G"d>c Bc | d2 BG | "C"CG "D7"DF | "G"G2 :|
+S:https://www.folktunefinder.com/tunes/2739
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/PleasureOfLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/PleasureOfLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/PleasureOfLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/PleasureOfLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/PleasureOfLove.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

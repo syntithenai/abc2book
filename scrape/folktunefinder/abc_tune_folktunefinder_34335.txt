@@ -1,0 +1,25 @@
+X: 6429
+T:Mooncoin Jig
+M:6/8
+L:1/8
+Q:100
+C:Trad
+R:Jig
+K:D
+cBA AEA | AEA Bcd | cBA Ace | dBG Bcd | cBA AEA | AEA Bcd | Ace gfe | dB
+G Bcd :|
+|: cde efg | faf ged | cde efg | faA Bcd | cde efg | afd bge | afd gec |
+ dBG Bcd :|
+|: cBA Aaf | ecA Bcd | cBA g2e | dBG Bcd | cBA Aaa | Agg Aff | Aee efg |
+ dBG Bcd :|
+S:https://www.folktunefinder.com/tunes/34335
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

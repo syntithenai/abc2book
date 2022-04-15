@@ -1,0 +1,25 @@
+X:650
+T: "Polterabend"
+N: Z1331
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/16
+K: C
+G,2G,2A,B, | C4D4A,2B,2 | C4z2
+G,2G,2A,B, | C4D4A,2B,2 | C4z2
+CDE2C2 | B,3CD2D2EDCB, | A,3B,C2D2D2D2 | G,4z2
+CDE2C2 | B,3CD2D2EDCB, | A,3B,C2C2D2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/69509
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

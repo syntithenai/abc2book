@@ -1,0 +1,29 @@
+X:191
+T: IHR LUSTIGEN SOLDATEN
+N: E1332
+O: Europa, Mitteleuropa, Deutschland, Bayern, Franken
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | GGG2A2 | ABB2
+BB | A3GAB | G4
+D2 | GGG2A2 | ABB2
+BB | A3GAB | G4
+Bc | d2d2e2 | c2c2
+AB | c2c2d2 | B2B2
+D2 | GGG2A2 | B4
+BB | A3GAB | G4
+D2 | GGG2A2 | B4
+BB | A3GAB | G4
+S:https://www.folktunefinder.com/tunes/79295
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

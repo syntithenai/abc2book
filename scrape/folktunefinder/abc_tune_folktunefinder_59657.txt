@@ -1,0 +1,37 @@
+X:770
+T:Xiraldilla (CT 093)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Pedro Menndez, "El Manjoyu", de treinta y nueve aos, de San Esteban de Las Cruces, ayuntamiento de Uviu.
+A:Asturies
+O:San Esteban de Las Cruces (Uviu)
+Z:Cancioneru de Torner 093
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|d2 dd|e2 ee|d2 B2|d2 dd|e2 ee|d4|B2 AB|d2 cB|A2 G2|B2 AB|c2 BA|G4 :||
+W:-Crtame un ramito verde.
+W:-Verde te lo cortar.
+W:-Crtame un ramito verde
+W:de los lamos del rey.
+W:
+W:Y si el rey no te dejara
+W:de sus lamos cortar,
+W:crtame un ramito verde,
+W:que los tiene el olivar.
+W:
+S:https://www.folktunefinder.com/tunes/59657
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

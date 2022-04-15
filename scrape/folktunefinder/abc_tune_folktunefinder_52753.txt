@@ -1,0 +1,38 @@
+X: 50
+T:Strauss Gallop. HS.50
+M:2/4
+L:1/8
+Q:60
+C:"by Strauss"
+S:Henry Stables MS,Cumbria,late19thC
+R:Gallop
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:Bb
+F/-E/|D>F D>F|G>F D>B|cF A>c|dF B>F|!
+D>F D>F|G>F D>B|cF A>c|BdB:|!
+F|"f"(de/d/) cd|(ef/e/) de|(fg/f/) db|b/-a/a/-g/ g/-f/f/-e/|!
+(de/d/) cd|(ef/e/) de|g3/2f/4d/4 f3/2e/4c/4|BdB::!
+"p"C/C/|C2-FC/C/|C2-FC/C/|BA GC/C/|AG FC/C/|!
+C2-FC/C/|C2-FC/C/|BA GA/G/|FAF||!
+c/c/|ba gc/c/|ag fc/c/|=ed c=B|Aa FC/C/|!
+"p"C2-FC/C/|C2-FC/C/|BA GA/G/|FAF:|!
+z|B2.d.f.|bzaz|_azgz|fzez|F2Ac|ezdz|dzcz|^czdz|!
+B2.d.f|bzaz|_azgz|fzez|F2Acezdz|gzfz|ecB:|!
+F/E/|D>F D>F|G>F D>d|eF A>c|dF B>F|\
+D>F D>F|G>F D>F|!
+e>F A>c|B/c/d/e/ f/F/G/A/|\
+B/c/d/e/ f/F/G/A/|Bd/d/ df/f/|fb/b/ bb/b/|bf/f/ fd/d/|!
+dB/B/ BF/F/|BB/A/ B/A/B/A/|B/A/B/A/ B/A/B/A/|\
+B2z2|b2z2|B4||
+S:https://www.folktunefinder.com/tunes/52753
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Gallop
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

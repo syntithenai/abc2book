@@ -1,0 +1,27 @@
+X: 7255
+T:Huntingtone Castle
+R:Slow air
+O:Scotland
+M:6/8
+K:Em
+B,|\
+E>FE {F}G2A|B2A F>ED|E>FE {F}G2A|"tr"B>AB d2e|\
+"tr"f>ed B>dB|A>BA FED|
+E>FE {F}GAB|{B}A>GF E2::\
+d|\
+e>fe d>cB|A>BA F>ED|
+Eee e>fg|fe^d e2f|\
+g>af e>fd|BdA F>ED|E>FE {F}GAB|{B}AGF E2:|
+S:https://www.folktunefinder.com/tunes/34472
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

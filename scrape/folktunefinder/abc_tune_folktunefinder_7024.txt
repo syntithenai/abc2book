@@ -1,0 +1,31 @@
+X: 1
+T: Freilakhs "Shlimazl Haysin"
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" v.3 New York 2003
+N: AKA "Noch a bissl"
+M: 2/4
+L: 1/8
+Q: 1/4=112
+K: G
+D \
+|: GG AG | B B2 B \
+| BB cB | d d2 d \
+| (3ded (3cdc | (3BcB (3ABA \
+|1 Gc BA | GF ED \
+:|2 G4- | GG Bd |
+|: {f}g4 | {f}g4 | {f}g2 {f}g2 | {f}g2 {f}g2 \
+| (~gd) g=f | (~ed) =fe | d4 | G4 \
+| (~gd) g=f | (~ed) =fe | d4 | G4 |
+| (~gd) g=f | (~ed) =fe | (~d^c) ed | (~^c_B) AG \
+| {^c}d2 B2 | (~AG) AB |1 G4- GG Bd \
+:|2 G4- G2 zD |]
+S:https://www.folktunefinder.com/tunes/7024
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GGv3n04_FreilakhsShlimazlHaysin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GG/3_04_FreilakhsShlimazlHaysin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

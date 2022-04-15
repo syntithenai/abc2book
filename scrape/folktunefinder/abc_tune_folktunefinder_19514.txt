@@ -1,0 +1,35 @@
+X: 1
+T: Lady Marie Parker
+C: Niel Gow
+R: strathspey
+B: Lady Maria Parker's Strathspey in William Campbell's "Book of New and Favorite Country Dances & Str. Reels for the harp..." (v.20 p.11) London 1790-1817.
+B: Peter Bowie's, "A Collection of Str., Reels, marches &c; some with variations" 1806 p.2-3
+B: Annie Shand's "Old Scottish Music Collected and Adapted for Scottish Country Dances" (1932)
+B: Barbara McOwen's "Leaves of Cabbage II" (1992)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E \
+| "A"c2 "(E)"B>A "A"c<e c2 | "D"d>c B>A "E7"G<B E2 \
+| "A"c2 "(E)"B>A "A"c<e c2 | "D"A/G/F/E/ "E7"F>G "A"A2 A>B |
+| "A"c2 "(E)"B>A "A"c<e c2 | "D"d>c B>A "E7"G<B E2 \
+| "F#m"c2 "(E)"B>A "A"c<e c>a | "D"a/g/f/e/ "E7"f>g "A"a2 ||
+(3efg \
+| "A"a>e f>e a<A d/c/B/A/ | "E7"G>B E>B Gg \
+| "A"a>e f>e a<A d/c/B/A/ | "E7"(3GAB (3EFG "A"A2 (3efg |
+| "A"a>e f>e "F#m"a<A d/c/B/A/ | "Bm"G>B E>B "E7"GB \
+| "F#m"A>c "E"B>d "A"c>e "D"d<f | "A"a/g/f/e/ "E7"f>g "A"a2 |]
+S:https://www.folktunefinder.com/tunes/19514
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarieParker.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MarieParker.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarieParker.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

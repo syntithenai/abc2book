@@ -1,0 +1,31 @@
+X:1
+T:McLeod's Reel
+C:Arr. by John Ciaglia
+S:Jack Campin <jc@purr.demon.co.uk> abcusers 2003-2-14
+M:2/4
+L:1/16
+K:G
+[V:1] BA|.G2"^_"g2 edeg|B2{c}BA B2BA|.G2"^_"g2 edeg|A2{B}AG AcBA|
+[V:2] BA| GDGB     c2ce|dBGE    D2BA| GDGB     c2ce|dcAF    D2FA|
+%
+[V:1]    .G2"^_"g2 edeg|B2{c}BA B2d2| e3 f     edef|gedB    A2 :|
+[V:2]     GDGB     c2ce|dBGE    D2B2| c3 A     c2c2|B2G2    F2 :|
+%
+[V:1] BA| GABc     dBGA|BcBA    BcBA| GABc     dBGB|A2{B}AG AcBA|
+[V:2] D2| B2G2     BGD2|G2d2    B2D2| B2G2     BGD2|dcAD    F2c2|
+%
+[V:1]     GABc     dBGA|BcBA    B2d2| e3 f     edef|gedB    A2 :|
+[V:2]     B2G2     BGD2|G2d2    gdB2| c3 G     c2c2|B2G2    F2 :|
+S:https://www.folktunefinder.com/tunes/17645
+S:http://trillian.mit.edu/~jc/music/abc/reel/McLeodsReel_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/McLeodsReel_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/McLeodsReel_2V.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

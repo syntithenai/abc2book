@@ -1,0 +1,36 @@
+X:161
+T:Cantar de Ronda (CT 084)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Alfredo Garca Muiz, de diez y ocho aos, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 084
+M:3/4
+L:1/8
+Q:1/4=80
+K:C
+c
+|_e2 d2 ed/c/|B/GA/ BB cc/B/|(d3/2_e/4d/4) c2 z c|
+_e2 d2 ed/c/|B/GA/ BB cc/B/|dd/c/ B2 A2|G4 z2||
+W:Levntate, morenita,
+W:levntate, resalada,
+W:levntate, morenita,
+W:que ya viene la maana,
+W:levntate.
+W:
+S:https://www.folktunefinder.com/tunes/59048
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+T: the Black Nag
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Barlow #116
+B: Barnes (dated 1670)
+B: Raven p.24
+B: Hunt #46 p.15
+M: 6/8
+L: 1/8
+K: Em
+|: B \
+| "Em"e>fe "Bm"fef | "Em"g>fg "Am"fga | "Em"b>ag "Bm"fef | "Em"e3- e2 :: e | "Bm"f>dB fdB |
+| fdB fdB | "Em"b>ge bge | bge bge | "Bm"f>dB fdB | fdB fga | "Em"b>ag "Bm"fef | "Em"e3- e2 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/5326
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BlackNag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Betsy Hooper's Jig
+C: Terry Traub 1995
+R: jig
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: by Terry Traub 
+M: 6/8
+L: 1/8
+K: E
+   B "A"\
+| "E"efg gfe | "A"cec "E"BGE | B,EG BGE | "B7"GFF F2B \
+| "E"efg gfe | "A"cec "E"BGE | B,EG "B7"A2F | "E"GEE E2 :|
+ y2B "B"\
+| "E"Bef gBg | bBg gfe | Bef gBg | "F#m"gfe "B7"f2B \
+| "E"Bef gBg | bBg gfe | "A"cec "B7"BGF | "E"GEE E2 ||
+ y2B "C"\
+| "E"Bef gBg | bBg gfe | Bef gBg | "F#m"gfe "B7"f2B \
+| "E"efg gfe | "A"cec "E"BGE | B,EG "B7"A2F | "E"GEE E2 |]
+S:https://www.folktunefinder.com/tunes/13860
+S:http://trillian.mit.edu/~jc/music/abc/jig/BetsyHoopersJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/BetsyHoopersJ_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BetsyHoopersJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BetsyHoopersJ_E.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

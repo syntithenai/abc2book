@@ -1,0 +1,41 @@
+X:860
+T:Xiraldilla (CT 353)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Pilar Garca Martnez, de veintiocho aos, de Teberga.
+A:Asturies
+O:Teberga
+Z:Cancioneru de Torner 353
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+Bd|dd ce|dG GA|Bc cB|A2 AA|AB cB|AD GG|GA BA|G2 :||
+W:Celindiel.lo, Celindiel.lo,
+W:Perico del Rebol.lal,
+W:fusti mozu y vienes viel.lu:
+W:Vlgame Dios, qu rapaz!
+W:
+W:El da que t te fusti,
+W:hubo una gran noved,
+W:que murrou la cabra prieta
+W:y abortou la de Fabin.
+W:
+W:Daba l.leite para siete
+W:ya para ocho almorzar,
+W:ya si lo mecen con agua,
+W:da para tou el l.lugar.
+W:
+S:https://www.folktunefinder.com/tunes/59747
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

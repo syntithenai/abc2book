@@ -1,0 +1,28 @@
+X:31
+T:O the Bonny Fisher Lad
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+Q:1/4=100
+K:B Minor
+P:Chorus
+z|A F d B A  F  G \
+E|A F d B A  F  B2|
+  A F d B A  F  G \
+E|F E D E F ^A HB|]
+P:Verse
+B|c e d f F  A  G \
+E|c e d f F ^A  B
+B|c e d f F  A  G \
+E|A F D E F ^A  B||
+S:https://www.folktunefinder.com/tunes/75594
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

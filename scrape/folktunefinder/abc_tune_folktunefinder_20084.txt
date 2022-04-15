@@ -1,0 +1,27 @@
+X: 1
+T: Mignon
+T: Spin Spin
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: from handwritten MS with dance description
+M: 6/8
+L: 1/8
+K: G
+|: "G"d2d e2B | d2c "C"c3 | "A7"a2g "D"f2e | "D7"e2d | "G"B2d |
+| "G"g2B B2B/c/ | "Am"B2A A3 | "C"e2d "D7"c2F | A2G "G"G2z :|
+|: "C"gec gec | "G"dBG dBG | "D7"D2F/A/ cBA | "G"G3/A/B/c/ dBG |
+| "C"gec gec | "G"dBG dBG | "D7"D2F/A/ cBA |1 "G"G2G/G/ GBd :|2 "G"G2G/G/ G2G |[K:=f]
+K:C
+|: "C"e2e/e/ edc | cB/A/B/c/ "G7"B2G | f2f/f/ fed | dc/B/c/d/ "C"c2G |
+|  "C"c2c/c/ c2E | "F"F2F/F/ F2E/F/ | "G7"G2G/G/ fed | dc/B/c/d/ "C"c3 :|
+S:https://www.folktunefinder.com/tunes/20084
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Mignon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/Mignon_G.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

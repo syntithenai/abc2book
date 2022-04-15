@@ -1,0 +1,37 @@
+X:899
+T:Xiraldilla (CT 421)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 421
+M:2/4
+L:1/8
+Q:1/4=160
+K:Cm
+G|: cc cd|e e2 d|f2 ed|[1 c2 zG :|[2 c2 ze|
+|BB BB|B B2 c|A2 AB|G2 zG|
+c2 ed|c2 zG|B2 dc|A2 cB|G2 z||
+W:Gasta la molinera
+W:ricos zapatos,
+W:Gasta la molinera
+W:ricos zapatos,
+W:del trigo que maquila
+W:ya los rapazos.
+W:La molinera, dale con aire
+W:la rueda que muela.
+W:
+S:https://www.folktunefinder.com/tunes/59786
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

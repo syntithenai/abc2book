@@ -1,0 +1,23 @@
+X: 2
+P: Varsovienne
+O: Scand
+M: 3/4
+L: 1/8
+K: Am
+||"Am"A>B c2 "Dm"d2 | "E7"e6 |     e>d B2 c2 | "Am"A6 \
+|  "F"A>B c2 "G7"d2 |  "C"e6 | "E7"e>d B2 c2 | "Am"A6 ||
+K: C
+||"C"G>c ee ee | G>c ee ee | g>e c2 e2 | "G7"d6 \
+|    G>B dd dd | G>B dd dd | f>d B2 d2 | "C"c2 E2 F2 ||
+|| "C"G4 G2 | e>d c2 B2 | "F"A4 A2 | "Dm"f>e d2 c2 \
+| "G7"BB B2 a2 | g3 e fd | c>B ce dB | "C"c4 z2 |]
+S:https://www.folktunefinder.com/tunes/8841
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Misc3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

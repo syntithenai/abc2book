@@ -1,0 +1,22 @@
+X: 2
+P: Julia Delaney
+C:anon
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 643
+R:Reel
+M:C|
+L:1/8
+K:Dm
+|: "Dm"dcAG F2DF | "C"E2CE "Dm"F2D2 | dcAG F2DF |1,3 "Am"Addc "Dm(Bb)"defe \
+                                               :|2,4 "Am"Addc "Dm"d4 :|
+|: "Dm"f2fe fagf | "C"ecgc acgc |1,3 "Dm"f2fe fagf | "C"edce "Dm"Adde \
+                               :|2,4 "Dm"fedf "C"edce | "Am"Addc "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/3563
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR90.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1150
+T:Connachtman's Rambles
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a8e.html
+%%ID:00000a8e
+K:B min
+A|\
+FAA dAA|BAA dAG|FAA dfe|dBB BAG|
+F2A dAA|BAB def|gfe f2e|dBB B2::
+e|\
+fbb faa|fef def|fbb faa|fed e2e|
+fbb faa|fef def|gfe f2e|dBB B2:|
+S:https://www.folktunefinder.com/tunes/36309
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

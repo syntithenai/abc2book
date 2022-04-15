@@ -1,0 +1,39 @@
+X:1
+T:Old Faithful
+C:Jerry Holland
+S:Paul de Grae  irtrad-l 2001-9-19
+R:march
+M:4/4
+L:1/8
+N: chords:
+N: - - | D - A - | D - - - | G - D - | E7 - A - |
+N: D - F#7 - | Bm - D7 - | G - D A | D G D - |
+N: - - - - | Em - A - | D - - - | E - A - |
+N: D - - - | F#7 - Bm D7 | G - D A | D G D - |
+N: - - - - | Em - A - | D - B7 - | E - A - |
+N: D - Em - | D - G - | D A D G | D G D - ||
+K:D
+ag|f2 ed c2 Bc|d2 AG FADF| GFGB AdDE|FEED E2 ag|
+f2 ef gedc|dABG F2 EF|GFGB AFGE|F2 D2 D2:|fg
+abag f2 ef|gage c2 BA|dcde fagf|e2 E2 E2 fg|
+abag f2 ef|gedc d2 (3AB=c|BAGB AFGE|F2 D2 D2 fg|
+abag f2 af|gage c2 BA|dcde fagf|e2 E2 EGFE|
+DFAd EGBe|FAdf gbag|fdec dABG|F2 D2 D2||
+S:https://www.folktunefinder.com/tunes/15625
+S:http://trillian.mit.edu/~jc/music/abc/march/OldFaithful_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/OldFaithful_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/OldFaithful_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/OldFaithful_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/OldFaithful_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/OldFaithful_2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 191
+T:Mallorca
+% Nottingham Music Database
+S:Duke of Windsor, via EF
+M:6/8
+K:G
+d/2c/2|"G"BAB GBd|"C"ece gfe|"G"ded "Em"BGB|"Am"dcB "D7"A2d/2c/2|
+"G"BAB GBd|"C"ece gfe|"G"d/2g3/2B "D7"dcA|"G"G3 -G2:|
+c|"G"deg "C"gfe|"G"dcB "D7"B2A|"G"Bde dBd|"Em"dcB "D7"A2d/2c/2|
+"G"BAB GBd|"C"ece gfe|"G"d/2g3/2B "D7"dcA|"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/65279
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

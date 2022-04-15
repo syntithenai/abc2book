@@ -1,0 +1,25 @@
+X: 1
+T: Morpeth Rant 1
+O: Trad
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: There are two common versions of this tune, with different second parts.
+N: Barnes
+M: C|
+L: 1/8
+K: G
+   D2 \
+| "G"G2DC B,G,B,D | "C"ECEG | "D7"FDFA | "G"B2BG "C"cBAG |1 "D7"F2A2 A2 :|2 "D7"D2G2 "G"G2 :|
+|: D2 \
+| "G"GBdB GBdB | "C"cBAB c2AB | "D7"cBAG FGAc | "G"BABc B2 |
+| "G"GBdB GBdB | "C"cBAB c2AB | "D7"cBAG Fddc | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/17706
+S:http://trillian.mit.edu/~jc/music/abc/reel/MorpethRant1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MorpethRant1_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

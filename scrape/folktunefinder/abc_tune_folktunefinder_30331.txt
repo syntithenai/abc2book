@@ -1,0 +1,25 @@
+X:110
+T:I wish you a merry new Year
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000de.html
+%%ID:000000de
+K:D
+A|\
+A2d dcd| efe efg| fed g2f| "tr"f3 e2A|\
+A2d dcd| efe efg| fed edc| (c3 d2)||
+g|\
+fga agf| efg gag| fed d<gf| f3 e2A|\
+A2d dcd| efe efg| fed edc| c3 d2|]
+S:https://www.folktunefinder.com/tunes/30331
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

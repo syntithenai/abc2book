@@ -1,0 +1,32 @@
+X:1
+T:Port na bP\'ucai
+R:slow air
+Z:Henrik Norbeck <henrik.norbeck@MAILBOX.SWIPNET.SE>
+M:3/2
+L:1/4
+Q:1/2=60
+K:D
+| d>c A3 B | A{BA}G/E/ F2 G2 \
+| A>B =c3{dc}B | A3/2{BA}G/ {AB}A4 |
+| d>c {AB}A3 B | A{BA}G/E/ {A}F2 {A}G2 \
+| A{BA}G/F/ G4- | G{AG}F G4 :|
+|: A>B c2 d2 | e f/g/ {fg}f2 g2 \
+| {b}a{ba}g/f/ g2 e>f | {ef}e{fe}d/B/ c4 |
+| [1 {AB}A>B c2 d2 | {ef}e f/g/ {fg}f2 g2 \
+| {b}a{ba}g/f/ g2 e>f | e{fe}d/c/ d4 :|
+| [2 d>c {AB}A3 B | {c}A{BA}G/E/ F2 G2 \
+| A{BA}G/F/ G4- | G{AG}F G4 ||
+S:https://www.folktunefinder.com/tunes/13302
+S:http://trillian.mit.edu/~jc/music/abc/air/PortNaBPucai.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/PortNaBPucai.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

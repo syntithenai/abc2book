@@ -1,0 +1,24 @@
+X:35
+T:Fezelen
+C:Traditioneel
+O:Hoogstraten (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+P:A
+D2|G2B2|A2 G2|AG FA|Gz D2|G2B2|A2 G2|AG FE |
+D2D2 |c2c2|cB ce|(d4|d2) z(c/B/)|AE E(B/A/)|GD D(A/G/)|
+FD FA|d2 z(c/B/)|AE E(B/A/)|GD D(A/G/)|FD FA |[1 Gz :|[2 Gz z2 ||
+P:B
+(d/^c/d/e/) dB|=cA Gz|(d/^c/d/e/) dB|=cB Az|(d/^c/d/e/) dB|=cA d2|dd cc|(B2 B) z |
+(d/^c/d/e/) dB|=cA Gz|(d/^c/d/e/) dB|=cB Az|(d/^c/d/e/) dB|=cA e2|dd cA|G |]
+S:https://www.folktunefinder.com/tunes/75731
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

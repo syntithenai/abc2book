@@ -1,0 +1,25 @@
+X: 1
+T: Bill McCormack of Blair
+C: Angus Cameron
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+gf \
+| "C"e2g2 "G7"d2ed | "C"c2e2 G2cB | "F"A2c2 "Dm"f2a2 | "C"gfec "G7"d2gf \
+| "C"e2g2 "G7"d2ed | "C"c2e2 G2cB | "Dm"A2f2 "G7"edcB | "C"d2c2 c2 :|
+|: ef \
+| "C"g2e2 c2eg | "G7"f2G2 G2de | "Dm"f2d2 "G7"GBdf | "C"edef "G7"g2ef \
+| "C"g2e2 c2eg | "G7"f2G2 G2de | "Dm"f2d2 "G7"gfed | "C"e2c2 c2 :|
+S:https://www.folktunefinder.com/tunes/16797
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bill_McCormack_of_Blair_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Bill_McCormack_of_Blair_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

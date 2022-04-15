@@ -1,0 +1,22 @@
+X: 1
+T: Hail to the Chief
+C: James Sanderson (ca.1810)
+M: C
+L: 1/8
+K: Bb
+|: z2 \
+| F2 G>A B2 AG | F>G FD C2 B,2 | F2 B>c d2 cB | c>B cd cB AG \
+| F2 G>A B2 AG | F>G FD C2 B,2 | F2 B>A GB DF | F2 B>c B2 :|
+|: Bc \
+| d2 d>d d2 ed | c>=B cd cA F2 | d2 d>d ed cB | c2 f>f fe dc \
+| B2 B>A G>A BG | F2 B>c d2 cB | G>A BG F>G FD | F2 B>c B2 :|
+S:https://www.folktunefinder.com/tunes/13363
+S:http://trillian.mit.edu/~jc/music/abc/anthem/HailToTheChief_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 1
+T: Donald MacLean's Farewell to Oban
+R: slow march, strathspey
+O: Scotland
+B: Hardie "Caledonian Companion" p.117.
+D:
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: Attributed to Archibald MacNeill by Hardie, to Donald MacLean or John McColl by others.
+M: 4/4
+L: 1/8
+K: A
+A>B \
+| "A"c2 B<A e2 f>e | c<e A>B c2 a2 | "D"f>e a>f "A"e<f A>c | e>c B<A "E7"B2 A>B |
+| "A"c2 B<A e2 f>e | c<e A>B c2 a2 | "D"f>e f<a "A"e<f A>B | "E7"c2 A2 "A"A2 :|
+|: c>d \
+| e2 c>d e2 f>g | a2 f>g a3 f | e>c a>f e<f A>c | e>c B<A "E7"B2 c>d |
+| e2 c>d e2 f>g | a2 f>g a3 f | e>c a<f "A"e<f A>B | "E7"c2 A2 "A"A2 :|
+|: A>B \
+| c>A c>d e>A d>e | f>A e<A c2 f>g | a>A d>e f<A c>d | e>c B<A "E7"B2 A>B |
+| c>A c>d e>A d>e | f>A e<A c2 f>g | a2 a>f e<f A>B | "E7"c2 A2 "A"A2 :|
+[| c2 \
+| e2 a>e c2  a>e | f>g a>f d2 a>f | e2 f>e c2 A>c | e>c B<A B2 c>d |
+| e2 a>e c2  a>e | f>g a>f d2 a2 | f>e a>f e<f A>B | c2 A2 A2 c>d |
+| e2 a>e c2  a>e | f>g a>f d2 a>f | e2 f>e c2 A>c | e>c B<A B2 A>B |
+ c<e d<f e>c B<A | d>c B<A c2 a2 | f>e a>f e<f A>B | c2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/15403
+S:http://trillian.mit.edu/~jc/music/abc/march/DonaldMacLeansFarewellToOban.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DonaldMacLeansFarewellToOban.abc
+% Rhythm Slow march, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

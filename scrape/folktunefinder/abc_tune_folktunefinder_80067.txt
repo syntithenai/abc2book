@@ -1,0 +1,28 @@
+X:8
+T: Schuettensam
+N: A0373C
+O: Europa, Mitteleuropa, Deutschland
+N: Mainzer Cantual 1605 S. 135 und Paderborner Gsgb. 1617 S. 135.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/4
+K: F
+F2F2A2B2 | c2B2c3
+d | _e2d2c2B2 | c4z4
+F2F2A2B2 | c2B2c3
+d | _e2d2c2B2 | c4z2
+c2 | A3Bc2d2 | c4G2
+G2 | B3AG2F2 | E2D2C2
+C2 | FGABc2GA | F8
+S:https://www.folktunefinder.com/tunes/80067
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Lewis J McLeod
+C: David White
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+[|"Dm"d2 A>G F<D D2 | "A7"E>F E>A "Dm"F<D D2 | "Gm"B>A G>B "Dm"A>F D>F | "A7"E>F E>D C<A A2 |
+| "Dm"d2 A>G F<D D2 | "A7"E>F E>A "Dm"F<D D2 | "Gm"B>A G>B "Dm"A<d D2  | "A7"E>F E>A "Dm"F<D D2 |] [K:=B^f^c]
+K: D
+|:"D"d2 f>e d<A A2 | "A7"e2 g>f e<A A2 | "D"f2 a>f "G"B2 g2 | "A7"(3fed (3cde [1 "D"f<d d2 :|[2 "D"d2  z2 |]
+S:https://www.folktunefinder.com/tunes/19470
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Lewis_J_McLeod_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Lewis_J_McLeod_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

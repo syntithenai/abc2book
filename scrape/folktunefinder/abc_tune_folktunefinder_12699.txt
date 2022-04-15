@@ -1,0 +1,23 @@
+X: 46
+T: Wee Tod
+R:Jig
+S:eileen mcauley <aaron:garroncres.freeserve.co.uk> 2004-8-18
+M:6/8
+L:1/8
+K:A
+   D | "A"AAA FEE | "D"FAA "A"fee | cee    fee |     cec "E7"BcB |
+       "A"AAA FEE | "D"FAA "A"fee | cee    fec | "E7"BcB     A2 :|
+|: B | "A"cee e2e |    cee    fee | f2e "D"f2a |  "A"f2e "E7"fga |
+       "A"AAA FEE | "D"FAA "A"fee | cee    fec | "E7"BcB     A2 :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12699
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

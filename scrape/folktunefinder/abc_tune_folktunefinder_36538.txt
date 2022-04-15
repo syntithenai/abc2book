@@ -1,0 +1,31 @@
+X:2295
+T:Hasberry Howard
+C:J. Scott Skinner
+M:4/4
+O:Scotland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009d1.html
+%%ID:000009d1
+K:G
+(3def|\
+g>d B>G D/E/F/G/ (3ABc|\
+B>G D>B, G,/A,/B,/C/ (3DE=F|
+|1 E>C B,>C A,>A B>A|F>G E>F D>d e>f :|2\
+E>C B,>C A,>A D>F|G2G,2 G,2::
+d>c|\
+B>d g>f g>d B>c|d>b a>f {f}g2 d>B|\
+c>A a>g f>d e>f|g>f g>a b2d>c|
+B>d g>f g>d B>c|d>b a>f {f}g2 d>B|\
+c>A a>g f>d e>f|a2g2 g2:|
+S:https://www.folktunefinder.com/tunes/36538
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

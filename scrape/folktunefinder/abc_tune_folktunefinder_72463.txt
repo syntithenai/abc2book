@@ -1,0 +1,25 @@
+X:6
+T: Haescher des Herodes
+N: D0007
+O: Europa, Mitteleuropa, Lothringen, Morsbach ( Kr. Forbach )
+N: Inzipit = Variante zum Lied; Verzierung
+R: Legenden - Lied, Weihnachten
+M: none
+L: 1/8
+K: E
+=DF | =G2G2FE | =D2D2
+=GA | B2=G2AFG4
+B2 | A2A2BA=G2E2
+F2G2E2F2E4
+S:https://www.folktunefinder.com/tunes/72463
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied, weihnachten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X: 1
+T: Menuet nr.60
+C: Rasmus Storm (1760)
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Spillemandsorkestret
+N: The handwritten page has a 4-part arrangement, but I have only the first page.
+F: http://www.spillefolk.dk/nodesamling/visnode.phpkey=xx-menuet60
+M: 3/4
+L: 1/8
+K: A
+|:"A"AB cd eA | "D"fA "A"eA "D"dA | "A"ce dc "B"BA | "E"G2 "B7"FG "E"E2 |
+| "D"Fd "A"Ec "D7"DB | "A"CE AG A2 | "D"(3FED "A"CA "E"B,G | "A"A6 "fine"[|]:|
+|:"A"c2 A2 (3ABc | "E"B2 G2 (3GAB | "F#m"A2 F2 "B7"(3FGA | "E"G2 "B7"FG "E"E2 |
+| "E"E2 G2 B2 | "E"eg (3gfe b2 | "B"(3agf "E"eg "B7"fe^d | "E"ef ed cB "d.C."[|]:|
+K: Am
+"Trio"\
+[|"Am"A4 (3ABc | "E7"B2 e2 B2 | "Am"(3cBA A4 | "E7"B2 e2 B2 |
+| "Am"(3cBA a2 e2 | "F"f2 "C"e2 "E7"d2 | "Am"(3cde dc BA | "E7"^G2 "B7"FG "E"E2 |
+| "Am"A4 (3ABc | "E7"B2 e2 B2 | "Am"(3cBA A4 | "E7"B2 e2 B2 |
+| "Am"(3cBA a2 e2 | "F"f2 "C"e2 "G"d2 | "C"ce "Am"cA "E7"B^G | "Am"A6 |]
+|: "C"{d}c2 g2 c2 | "G"B2 g2 B2 | "C"(3edc g2 c2 | "G"(3BAG G4 |
+|  "F"a2 c2 a2 | "C"g2 c2 g2 | "Dm"(3def "E"ed cB |1 "Am"Af ed "G7"cB :|2 "Am"Af ed "E7"cB "d.C."[|]|]
+S:https://www.folktunefinder.com/tunes/16018
+S:http://www.spillefolk.dk/nodesamling/visnode.phpkey=xx-menuet60
+S:http://www.spillefolk.dk/nodesamling/visnode.phpkey=xx-menuet60
+S:http://trillian.mit.edu/~jc/music/abc/new/Menuet60_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/minuet/Menuet60_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/minuet/Menuet60_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/new/Menuet60_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/new/Menuet60_A.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

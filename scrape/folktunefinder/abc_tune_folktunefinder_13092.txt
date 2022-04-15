@@ -1,0 +1,25 @@
+X: 1
+T: the Heights of Caethiwed
+T: Allt y Caethiwed
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: ed \
+| "A"cA ~A2 EA ~A2 | cAec ABcA | "Bm"cBBA GABc | "D"dffe "E7"f2ed |
+| "A"cA ~A2 EA ~A2 | cAec Acde | "D"fdec "A"dBcA | "E7"GBEG "A"A2 :|
+|: ed \
+| "A"cded cAed | cdec A2fe | "Bm"defe dBfe | "D"defd "E7"B2ed |
+| "A"cded cAed | cdec A2de | "D"fdec "A"dBcA | "E7"GBEG "A"A2 :|
+S:https://www.folktunefinder.com/tunes/13092
+S:http://trillian.mit.edu/~jc/music/abc/Wales/HeightsOfCaethiwed.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HeightsOfCaethiwed.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/reel/HeightsOfCaethiwed.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

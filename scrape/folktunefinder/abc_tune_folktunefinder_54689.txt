@@ -1,0 +1,22 @@
+X:11940
+T:no name
+R:jig
+Z:id:hn-jig-264
+M:6/8
+K:G
+DGG A2G|A2G ~G2F|DGG A2G|cAG ~F3|
+DGG A2G|A2F GBd|~f3 ged|cAG FGA:|
+|:~B3 cBc|dcA ~G3|~B3 GBd|cAG FGA|
+~B3 cBc|d^cd efg|a2f gfd|1 cAF G2A:|2 cAF G2F||
+S:https://www.folktunefinder.com/tunes/54689
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

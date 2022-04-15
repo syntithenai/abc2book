@@ -1,0 +1,26 @@
+X:004
+T:John O'Groats Jig
+B:Kohlers Violin repository - slightly adapted
+C:John Bain, Wick
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+O:Scottish
+R:jig
+K:Dm
+A/G/|FGA DFA|dfd ecA|Agf edc|=Bed c=BA|
+FGA DFA|dfd ecA|Bgf ed^c|dDD D2:|
+A|dfa afd|gbg ecA|dfa afd|=Bed c=BA|
+dfa afd|gbg ecA|Bgf ed^c|dDD D2:|
+S:https://www.folktunefinder.com/tunes/57336
+S:http://nigelgatherer.com/tunes/abc/tb01.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb01.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

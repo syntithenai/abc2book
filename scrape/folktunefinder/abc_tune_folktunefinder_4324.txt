@@ -1,0 +1,38 @@
+X: 1
+T: Kiikkuri kaakkuri
+O: Trad Finland
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: D2 G2
+K: D
+P: D:
+|: "D"D2FA D2FA | AGFG "A7"E2E2 | "A7"A,2CE A,2CE | GFEF "D"D2D2 :|
+|: "D"DEFG A2Bc | "G"d2G2 B3B "I"| "A7"BAGF AGFE |1,3 "D"D2F2 A4 :|2,4 "D"D2F2 D4 :|
+P: G:
+K: G
+|: "G"G2Bd G2Bd | dcBc "D7"A2A2 | "D7"D2FA D2FA | cBAB "G"G2G2 :|
+|: "G"GABc d2ef | "C"g2c2 e3e | "D7"edcB dcBA |1,3 "G"G2B2 d4 :|2,4 "G"G2B2 G4 :|
+S:https://www.folktunefinder.com/tunes/4324
+S:http://trillian.mit.edu/~jc/music/abc/Finland/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/KiikkuriKaakkuri_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/folk/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Revontulet/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/KiikkuriKaakkuri_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/misc/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/misc/KiikkuriKaakkuri_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/KiikkuriKaakkuri.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/KiikkuriKaakkuri_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/KiikkuriKaakkuri.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

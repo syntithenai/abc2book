@@ -1,0 +1,22 @@
+X:0
+T:Young Hynd Horn
+G:song
+S:C.K. Sharpe/Lady John Scott, MS.843
+M:4/4
+L:1/8
+Q:1/4=100
+K:GMin
+GA |B2BA G2GA|B2c2  d2||\
+dd |e2dd c2cc|d2^f2 g2||
+g^f|g2GG G2GA|B2cB  A2||\
+GF |B2BB c2c2|dcBA  G2|]
+S:https://www.folktunefinder.com/tunes/30149
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Rigodon les filles de vers St Martin
+R:Rigodon
+G:Violon
+O:France
+A:Hautes Alpes
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+%%MIDI program 110 %fiddle 
+P:
+M:2/4
+L:1/8
+Q:1/4=240
+K:F
+|: c2F2 | GA BA | GG FG | c2F2 | GA BA | G4 :|
+K:C
+|: A2D2 | FG BA | GG FG | A2D2 | FG BA | G4 :|
+W:Les filles de vers St Martin se croyent belles mais ne le sont gure. (2x)
+W:la grle qui les a passes et la vrole les a dfigures (2x)
+W:Les filles de vers St Marty elles tuent les puces  coup de fusil
+W:les ntres elles sont comme a elles prennent un clap et leur foutent un bon coup.
+W:Nanette quand vous danserez levez la tte tricotez des pieds (2x)
+W:les hommes qui vous font dansez ne sont pas vtres il faut les mnager. (2x)
+S:https://www.folktunefinder.com/tunes/39887
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

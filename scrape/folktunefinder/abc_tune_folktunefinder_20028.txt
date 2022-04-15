@@ -1,0 +1,34 @@
+X: 1
+T: LeMa'an Achai [Fm]
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/4
+K: Fm
+|: z C \
+| "Fm"C =B, C | A G F | "Bbm"D6- | D4 D \
+| D C B, | A G F | "Fm"C3- | C2 C |
+| "Fm"C =B, C | A G F | "Bbm"E D C | B,3 \
+| "C7"C3 | G2 A | "Fm"F3- | F :|
+|: F G \
+| "Fm"A2 A | A G F | A A A | A G F \
+| "Bbm"B2 B | c2 B | "Fm"A3- | A F G |
+| "Fm"A2 A | A G F | A A A | A G F \
+| "C7"G2 B | A2 G | "Fm"F3- | F :|
+S:https://www.folktunefinder.com/tunes/20028
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/LeMaanAchai_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/LeMaanAchai_Fm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

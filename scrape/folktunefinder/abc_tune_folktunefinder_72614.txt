@@ -1,0 +1,25 @@
+X:157
+T: Was wollen wir singen und heben an
+N: D0265
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Muenster
+N: Inzipit = Variante zum Lied (); Variante zu D0018 
+R: geistliches Lied
+M: 3/4
+L: 1/8
+K: Ab
+E2 | A4B2 | c4d2 | c4B2 | A4
+c2 | B2c2B2 | G3GG2 | B2A2F2 | G4
+E2 | F2E2B,2 | E4
+E2 | A4B2 | c4d2 | c4B2 | A4
+S:https://www.folktunefinder.com/tunes/72614
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

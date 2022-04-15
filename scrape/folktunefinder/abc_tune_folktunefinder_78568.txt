@@ -1,0 +1,26 @@
+X:127
+T: ES GIENG EIN REITER SPAZIEREN
+N: E0065
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Sage, Mord, Hinrichtung
+M: 6/8
+L: 1/16
+K: A
+E2 | A3ee2e2d2=f2 | e4=c2B4
+B2 | d3=cB2c2e2c2 | B6-B4
+B2 | =c3BA2c3BA2 | G4A2B4
+B2 | =c3BA2c3BA2 | G4A2B4
+G2 | A6e6 | =c4B2A4
+S:https://www.folktunefinder.com/tunes/78568
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord, hinrichtung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 75
+T:Quick March. JMP.075
+M:6/8
+L:1/8
+Q:110
+C:"80"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+B/c/ | e2d B2A | dBB Bcd | efg B2G | BAA A>Bc |!
+e2d B2A | GBd gfg | agf gfe | dBB B2 :|!
+|:B/c/ | dBB gBB | dBB B2e | dBB (gfg) |aAA ABc |!
+e2dB2A | GBd (gfg) | agf gfe | dBB B2 :|]
+S:https://www.folktunefinder.com/tunes/2012
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

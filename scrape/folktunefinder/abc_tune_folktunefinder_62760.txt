@@ -1,0 +1,24 @@
+X: 38
+T:Sleep Soond Ida Moarnin
+M:4/4
+L:1/8
+Q:120
+K:ADor
+"Am"A a2 g a2 e-f|"G"gedB "Em"GABG|
+"Am"A a2 g a2 e-f|1"Em"gedB "Am"A-A "Em"BG:|2"Em"gedB "Am"A3 B||
+cAeA cAeA|"G"BcdB G3 B|"Am"cAeA cAeA|"G"BAGB "Am"A2- AB|
+cAeA cAeA|"G"BcdB "Am"A2- AB|ABcd "C"efga|"G"gedB "Am"A2 BG||
+S:https://www.folktunefinder.com/tunes/62760
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:15860
+T:Sprig of Shillelah
+% Nottingham Music Database
+S:KCC p21, via EF
+M:6/8
+K:G
+P:A
+D|"G"DGG GFG|"D7"AcB AGF|"G"Gdd "G7"dcB|"C"AcB "D7"AGF|"G"GAB "C"EFG|\
+"D7"DEF "G"G2:|
+P:B
+G|"G"BGB dBd|"C"ece "D7"d2c|"G"BGB dBd|"C"ece "D7"d2c|"G"BBB BAG|
+"D7"AcB AGF|"G"Gdd "G7"dcB|"C"AcB "D7"AGF|"G"GAB "C"EFG|"D7"DEF "G"G2:|
+S:https://www.folktunefinder.com/tunes/47135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

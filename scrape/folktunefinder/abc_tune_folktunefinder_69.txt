@@ -1,0 +1,44 @@
+X:1 
+T:A_past_and_future_secret.Instr:Lute2
+C:Blind Guardian/modified and transcribed by Achazia 
+N: 
+Q:1/4=80 
+V:1 
+M:4/4 
+L:1/8 
+K:C
+[e4G4B4E4] [e2G2B2E2] [d2D2A2^F2] |[G4E4B4e4] [^f2^F2d2B2] [E2G2B2e2] |[G4E4B4e4] [G2E2B2e2] [d2A2D2^F2] |[E4G4B4e4] [d2^f2B2^F2] [E2e2B2G2] |eB GB eB G^f |eB GB eB Gd |[e4E4G4B4] 
+[D2^F2d2A2] [B2G2D2d2] |
+[^F4d4D4A4] eB GB |eB G^f eB GB |eB GB [e4E4B4G4] |[D2^F2d2A2] [d2G2D2_B2] [F4D4d4A4] |[c4e4G4] [E4c4A4e4] |[^F8A8D8d8] |[c4e4G4] [e4A4E4c4] |[A8^F8D8d8] |[G4c4e4] [E4A4e4c4] |[^F8D8A8d8] |
+[EGBe][G/E/B/e/][E/B/G/e/] [EGeB][EGBe] [EGBe][EGBe] [D2^F2A2d2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [GEBe][EGBe] [^FBd^f][FBdf] [E2G2B2e2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [^F2D2A2d2] |[EBeG][E/B/e/G/][E/B/G/e/] [BeEG][eEBG] [^FdB^f][BFfd] 
+[E2e2G2B2] |
+[EGBe][E/B/G/e/][E/B/e/G/] [EGBe][EBGe] [EGBe][EGBe] [^F2D2A2d2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [^FBd^f][FBdf] [E2G2B2e2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] 
+[D2^F2A2d2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [^FBd^f][FBdf] [E2G2B2e2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [^FBd^f][FBdf] 
+[E2G2B2e2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |[EGBe][E/G/B/e/][E/G/B/e/] [BeEG][EGBe] [^FBd^f][FBdf] [E2G2B2e2] |[G4c4e4] [E4A4c4e4] |[D8^F8A8d8] |[EGe]c Gc [EAe]c Ac |
+[D^FAd]A FA dA FA |
+[EGe]c Gc [EAe]c Ac |[D^FAd]A FA dA FA |[EGe]c Gc [EAe]c Ac |[D^FAd]A FA dA FA |[EGe]c Gc [EAe]c Ac |[D^FAd]A FA dA FA |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [^F2B2d2^f2] [E2G2B2e2] |eB GB eB G^f |eB GB eB Gd |[E4G4B4e4] [D2^F2A2d2] 
+[D2G2B2d2] |[D4^F4A4d4] [EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] |
+[EGBe][EGBe] [D2^F2A2d2] [EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] |[EGBe][EGBe] [D2^F2A2d2] [E4G4B4e4] |[D2^F2A2d2] [D2G2B2d2] [D4F4A4d4] |[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] 
+[D2^F2A2d2] |
+[EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] [EGBe][EGBe] [D2^F2A2d2] |[E4G4B4e4] [D2^F2A2d2] [D2G2B2d2] |[D4^F4A4d4] [Gce]c Gc |[EAce]c Ac [D^FAd]A FA |dA ^FA [EGe]c Gc |[EAe]c Ac [D^FAd]A FA 
+|dA ^FA [EGe]c Gc |
+[EAe]c Ac [D^FAd]A FA |dA ^FA [EGe]c Gc |[EAe]c Ac [D^FAd]A FA |dA ^FA [EGe]c Gc |[EAe]c Ac [D^FAd]A FA |dA ^FA [EGe]c Gc |[EAe]c Ac [D^FAd]A FA |dA ^FA [EGBe][E/G/B/e/][E/G/B/e/] [EGBe]
+[EGBe] |[EGBe][EGBe] [D2^F2A2d2] [EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] |
+[EGBe][EGBe] [D2^F2A2d2] [EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] |[EGBe][EGBe] [D2^F2A2d2] [EGBe][E/G/B/e/][E/G/B/e/] [EGBe][EGBe] |[^F2B2d2^f2] [E2G2B2e2] [E4-G4-B4-e4-] |[E8-G8-B8-e8-] |
+[E4G4B4e4] z4 |]
+S:https://www.folktunefinder.com/tunes/69
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-268298.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

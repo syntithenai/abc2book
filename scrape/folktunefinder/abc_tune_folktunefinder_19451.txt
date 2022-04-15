@@ -1,0 +1,34 @@
+X: 1
+T: Lady Mary Murray
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS __-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+E \
+| "G"D>E G>B d/c/B/A/ BG | "Am"A>B c>B "D7"A>G F>E \
+| "G"D>E G>B d/c/B/A/ BG | "C"AB "G"G/G/G G :|
+|| g \
+| "G"d>e g>a b/a/g/f/ g>e | dB "D7"Ad FD \
+| "G"d>e g>a b/a/g/f/ "C"g>e | "G"d>B g>B G/G/G G ||
+|| e \
+| "G"d>e g>b "D7"aa | "C"e<g "G"B>g "D7"A>G F>E \
+| "G"D>E G>B d/c/B/A/ BG | "C"AB "G"G/G/G G :|
+S:https://www.folktunefinder.com/tunes/19451
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/LadyMaryMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/LadyMaryMurray.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:82
+T: ES FIEL EIN REIF IN FRUEHLINGSNACHT
+N: Z0082
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Sagen - Lied, Romanze, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G3A_B2A2G2=F2 | _B4c2d3c
+d2 | G4_B2A2G2=F2 | _B4c2d4
+d2 | d3c_B2c2A2d2 | G4G2F4
+=F2 | _B4B2d2c2B2 | A2_B2A2G4
+S:https://www.folktunefinder.com/tunes/68941
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

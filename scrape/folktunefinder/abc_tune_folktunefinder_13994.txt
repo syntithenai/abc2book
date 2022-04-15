@@ -1,0 +1,27 @@
+X: 935
+T: Charlie Stewart
+T: Catal Stuairt
+O: O'Neill's #935
+B: O'Neill's "Music of Ireland" ("1850 tunes") #935
+N: "collected by J. O'Neill."
+Z: Transcribed by Tom Keays (htkeays@mailbox.syr.edu), chords by John Chambers
+M: 6/8
+R: Jig
+L: 1/8
+K: A
+d \
+| "A"cee Ace | "D"dfa "A"ecA | "D"def    "A"ecA | "Bm"GBB "E7"B2 d \
+| "A"cee efg | "D"agf "A"ecA | "D"f{g}af "A"ecA | "E7"BAA "A"A2 :|
+|: d \
+| "A"cAA eAA | "D"f{g}af "A"ecA | "A"cAA "F#m"eAA | "Bm"GBB "E7"B2 d \
+| "A"cAA eAA | "D"f{g}af "A"ecA | "D"agf   "A"eac | "E7"BAA "A"A2 :|
+S:https://www.folktunefinder.com/tunes/13994
+S:http://trillian.mit.edu/~jc/music/abc/jig/CharlieStewart1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CharlieStewart1_A.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

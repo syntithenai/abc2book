@@ -1,0 +1,37 @@
+X: 3
+P: Reel B\'eatrice
+%T: Oggi Nevica (Today it snows)
+C: T.Fantini
+R: reel
+O: Italy
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Well-known in New England, and many variants exist.
+N: According to Paul M.  MacDonald, the original reel began as a polka from  the
+N: Ballo  Liscio  dance  repertoire  called "Oggi Nevica" (which means 'today it
+N: snows'), played by Riccardo Tesi, an Italian accordion player.
+M: C|
+L: 1/8
+K: Am
+A,B, \
+|: "Am"CB,A,C E2CE | A2EA EGAB \
+| cBAc e2ce | aeea egab |
+| c'bag fedc | "Dm"BddB d4 \
+| "E7"e^def e=dcB | "Am"AA,A,A, A,2z2 :|
+|: "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e2^de f2e=d | "Am"cdcB cBA2 |
+| "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e^def e=dcB |1 "Am"AA,A,A, A,2z2 :|2 "Am"A2z2 "G7"G2AB ||
+|: "C"c2Gc EGce | c2Gc EGce \
+| "G7"d2Bd GBdB |1,3 "C"c2ba "(G7)"gfed :|2,4 "C"ce"G7"dB "C"c2z2 :|
+S:https://www.folktunefinder.com/tunes/51934
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR23_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

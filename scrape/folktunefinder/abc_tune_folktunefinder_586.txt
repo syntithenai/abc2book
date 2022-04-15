@@ -1,0 +1,30 @@
+X:128
+T:Mazurka n1
+R:Mazurka
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:J. Ginas
+K:Bb
+L:1/8
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+d2d>e d>c | B2 B>c d>e | f2 f>g f>e | d6 | e2e2d2 | c2c4 | f2d2c2 | d2B4 | d2d>e d>c | B2 B>c d>e | f2 f>g f>e | d6 | 
+=e2e2d2 | d2c4 | c>d c>B A>B | c6 | e>d c2c2 | e>d c2c2 | f>e d2d2 | f>e d2d2 | c>d e>d c>d | e6 | A>B c>B A>c | f6 || 
+[L:1/4] de=e | fff | fed | ff2 | fed | fed | dc2- | c3 | ef^f | ggg | gfe | g3 | 
+Ace | gfe | d3- | d3 | de=e | fff | fed | ff2 | fed | fed | dc2 | c3 | 
+cef | ggg | gfe | d3 | dfe | dfd | cfc | B3
+%%footer $D   Galouvielle-MBe 2008 \nMazurka (France)
+S:https://www.folktunefinder.com/tunes/586
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

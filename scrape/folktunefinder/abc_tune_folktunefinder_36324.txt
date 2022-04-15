@@ -1,0 +1,26 @@
+X:1225
+T:Cumberland Reel
+M:6/8
+O:England
+O:Scotland
+R:48-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000097e.html
+%%ID:0000097e
+K:D
+f2e d2c | d2B A2F | GFG EFG | F2G A2A |\
+BGB dcB | AFA d2d | cde ABc | d3 d2 A ::
+fff f2A | fff f2A | fff g2f | (e3 e2)A |\
+eee e2A | eee e2A | e2f e2d | c2B ABc |
+ded cBA | B2c d2A | ded cBA | B2c d2e | \
+efe ecA | efe efg | a2A ABc | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/36324
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

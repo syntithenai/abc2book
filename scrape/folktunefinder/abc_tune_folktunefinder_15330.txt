@@ -1,0 +1,27 @@
+X: 1
+T: Bill Sutherland
+C: Adam Rennie
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen (Oct 1987)
+M: 2/4
+L: 1/8
+K: D
+Bc \
+|: "D"d2F2 A2F2 | d2F2 A3F | d2A2 "Bm"BAGF | "Em"G2E2 E3F \
+| "Em"G2E2 B2E2 | "Em"G2E2 B4 |1 "A"gfed "E7"cded | "A7"c2A2 B2c2 :|2 "A"cBAB cdec | "D"d4 d2 |]
+fe \
+|: "D"d2f2 gfed | d2f2 f3e | d2f2 gfed | "A7"c2e2 e2AB \
+|  "A"c2A2 e2A2 | c2A2 e4  |1 "A7"gfed cded | c2A2 B2c2 :|2 "A7"gfed cdec | "D"d4 d2 |]
+S:https://www.folktunefinder.com/tunes/15330
+S:http://trillian.mit.edu/~jc/music/abc/march/BillSutherland_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BillSutherland_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

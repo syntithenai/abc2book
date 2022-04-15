@@ -1,0 +1,37 @@
+X:2286
+T:Bulgarian () 2
+S:Ian McArdle
+R:Other
+O:Bulgaria 
+N:the 'turn' symbol should be a trill
+M:2/4
+K:C
+"E"(^ga)~b2 (ba)~b2|(ba)(ba) (ba)~^g2|\
+"Dm"(^cdef) (^ga)(ad)|(ad)(^ga) "E"(ba)~g2|
+"Dm"(^cdef) (^ga)(ad)|(ad)(^ga) "E"(ba)~g2|\
+(ba)~^g2 (gf)~e2|(eB)(^cd) ~e2(eB) ::
+"Dm"(^cdef) (^ga)(ad)|(ad)(^ga) "E"(ba)~g2|\
+"Dm"(^cdef) (^ga)(ad)|(ad)(^gd) "E"(ab)~g2|\
+"Dm"(^cd)(ef) ^gaad|^gaba "E"~g2(ge)|\
+(ba)~^g2 (gf)~e2|(eB)(^cd) ~e2(eB)|\
+(ba)~^g2 (gf)~e2|ez(ab) (bd)(eB)|\
+(ba)~^g2 (gf~e2)|(eB)(^cd) ~e2(eB)|\
+"Dm"(^ga)(ag) (gd)(ef)|(^gd)(ef) (gf)(gd)|\
+(ed)(ab) "E"(ba)~^g2|(^gdef) ~g2(gd)|\
+"E"(ee)(^c'd') (d'c')~b2|"Dm"(ba)(^gf) "E"~g2(ge)| \
+"Dm"(ba)(ba) (ba)~^g2|(^gfed) "E"e4||
+|:"E"(d'c')~b2 (ba)(^ga)|~b2(be) (ba)~^g2|\
+(ba)~^g2 "Dm"(gfed)\
+|1 "E"(ef^ga) ~b2(be) :|2 "E"e2(ab) e4:|
+S:https://www.folktunefinder.com/tunes/57225
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

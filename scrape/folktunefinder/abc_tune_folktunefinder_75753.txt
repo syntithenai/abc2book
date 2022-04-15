@@ -1,0 +1,76 @@
+X:57
+T:Kadril van Brussel
+T:I
+C:Traditioneel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:F
+P:Voorspel
+"F"A2 A>G|FG AB|c3 d|c4| c2 c>c|dc BA|"C7"G2 c2|"F"F4||
+P:A
+"F"A2 A>G|FG AB|c3 d|c4|[1 c2 c>c|dc BA|"C7"G>c cc|c4:|[2 "G"=B B>B|=BG AB| "C7"c4-|cA AB||
+P:B
+"F"c2 BA|"C"G2 "C7"^G2|"F"A2 F2|zA AB|c2 BA|"C"G2 "C7"^G2|"F"A4|zA AA|
+"G"G3 A|=B2 G2|"C"A2 G2|zG Gc|"G"=B3 G|"G7"GG A=B|"C"c4|z2 z"C7"c||
+P:C
+"F"F>F FG|A3 A|A>A AA|"Bb"B3 B|B>B BB|B2 AB|"F"d2 cB|A2 zc|
+F>F FG|A3 A|"Bb"d2 c2|"F"A2 zd|"Bb"d>d dd|"F"c2 FA|"C7"cB AG|"F"F2 [F2A2C2f2]|]
+T:II
+M:6/8
+K:C
+P:Voorspel
+"C"EGA GAB|cBA G3|"G"G^FG "G7"^GAB|("C"c3 c2)z||
+P:A
+"C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|"G"G^FG =fed|"C"c2z c2z||
+P:B
+[K:G] "G"B2z d2z|dcB "D"A3|A2z c2z|"D7"cBA "G"G3|B2z d2z|"C"cBc e3|"D7"fed cBA|"G"G2z G2z||
+P:C
+[K:C] "C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|"G"G^FG =fed|"C"c2z c2z||
+P:D
+[K:F] |:"F"A2z G2z|(F3 F)Ac|("Bb"d3 d)fd|("F"c3 c2)z|"C7"B2z d2z|"F"c3 AFG|"C"A2c "C7"G2c|"F"F2z f2z:|
+P:E
+[K:C] "C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|\
+"G"G^FG =fed|"C"c2z c2z|]
+T:III
+K:G
+M:2/4
+L:1/16
+P:Voorspel
+"G"G2DG B2GB|(d^cde) d2B2|("D7"edcB) A2F2|"G"G4 G4||
+P:A
+!segno!x"G"G2DG B2GB|(d^cde) d2B2|("D7"edcB) A2F2|"G"dcBA B2d2|\
+G2DG B2GB|(d^cde) d2B2|("A"Ad^cB) A2c2|"D"d2dd "D7"d2d2|
+"G"G2DG B2GB|(d^cde) d2B2|("D"edcB) A2F2|"G"dcBA B2d2|\
+G2DG B2GB|("D"ABcd) e2G2|("D7"FGAB) (cdef)|"G"g2z2 g2z2!fine!||
+P:B
+[K:C] [L:1/4] ("C"g2|g/)e/ f/a/|g2|e e|"G"f d|"G7"b a|"C"g>f|e2|\
+(g2|g/)e/ f/a/|g2|e e|"G"d f|"G7"e d|"C"c2|c z!D.S.!|]
+T:IV
+K:C
+L:1/16
+P:Voorspel
+"C"G2E2 C2E2|(G2cd) e4|("G7"dedc) (BGAB)|"C"c2z2 c2z2||
+P:A
+|:"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BcBA)|(GAGF) E2C2|\
+"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BGAB)|"C"c2z2 c2z2:|
+P:B
+[K:F] "F"A2A2 c2c2|(cdcA) c4|("C"AcBA) G2G2|("C7"ABAG) "F"F2F2|\
+A2A2 c2c2|(cdcA) c4|"G"=B2G2 d2G2|"C"c2cc "C7"c2c2|
+"F"A2A2 c2c2|(cdcA) c4|("C"AcBA) G2G2|("C7"ABAG) "F"F2F2|\
+A2A2 c2c2|("C7"BABc) d4|c2c2 E2E2|"F"F2z2 f2z2||
+P:C
+[K:C]|:"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BcBA)|(GAGF) E2C2|\
+"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BGAB)|"C"c2z2 c2z2:|
+%%scale 0.7
+S:https://www.folktunefinder.com/tunes/75753
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

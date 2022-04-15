@@ -1,0 +1,28 @@
+X:94
+T: WENN DER LENZ ERWACHT UND IN BLUETHENPRACHT
+N: B0123
+O: Europa, Mitteleuropa, Deutschland; Norwegen
+R: Ballade, Romanze
+M: 3/4
+L: 1/16
+K: D
+ | A,3_B,G,2B,2A,4 | D3=FE3DC4
+A,3_B,G,3B,A,3C | C4D8
+A,3_B,G,2B,2A,4 | D3=FE3DC4
+A,3_B,G,3B,A,3C | C4D8
+E3=FG3EF3C | D3=FE3DC4
+E3FG3EF3C | D3=FE3DC4
+A,3_B,G,2B,2A,4 | D3=FE3DC4
+A,3_B,G,3B,A,3C | C4D8
+S:https://www.folktunefinder.com/tunes/78115
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

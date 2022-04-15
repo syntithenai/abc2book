@@ -1,0 +1,26 @@
+X:1
+T:Catholic Bill's
+B:Ryan's Mammoth Collection
+S:Paul de Grae 
+R:jig
+M:6/8
+L:1/8
+K:G
+g \
+| eAA BGG | GBd dcB | egg    dgg | BGB dcB |
+| eAA BGG | GBd dcB | e/f/ge dcB | AGG G2 :|
+|: e \
+| eaa aga | egg ged | egg    dgg | BAB dcB |
+| eaa aga | egg ged | e/f/ge dcB | AGG G2 :|
+S:https://www.folktunefinder.com/tunes/13986
+S:http://trillian.mit.edu/~jc/music/abc/jig/CatholicBillsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/CatholicBillsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CatholicBillsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:330
+T: AUF AUF IHR BRUEDER UND SEID STARK
+N: F0566
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Abschied
+M: 4/4
+L: 1/8
+K: D
+A2 | d3AAGFE | D2D2D3
+F | EAceedcB | A4z2
+AG | F2F2F3A | AGGFG3
+F | FEE2E3G | GFFEF3
+A | d3AGFED | A3z
+c4 | d3BAGFE | D2z4
+S:https://www.folktunefinder.com/tunes/69890
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

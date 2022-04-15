@@ -1,0 +1,51 @@
+X:839
+T:Atholl Highlanders
+S:irtrad-l,Dan Mozell, 1/95
+C:Traditional
+S:Fiddler's Fakebook
+M:6/8
+L:1/8
+K:A
+e3 ecA|ecA Bcd|e2
+L:1/16
+ ee
+L:1/8
+ecA|Bcd cBA|e
+L:1/16
+ee
+L:1/8
+ecA|ecA Bcd|
+L:1/16
+(3efga2e2
+L:1/8
+fed|cdB A3:|
+|:Ace Ace|Adf Adf|Ace Ace|Bcd c2
+L:1/16
+(3BcB|
+L:1/8
+Ace Ace|Adf Adf|
+L:1/16
+(3efga2e2
+L:1/8
+fed |cdB A3 :|
+|:e2 c aec|aec Bcd|ecc aec|Bcd cBA|ecc acc|acc Bcd|
+L:1/16
+(3efga2e2 {g} f2e2d2 |[1c2d2B2 A6:|[2 c2d2B2 A4B2|:
+L:1/8
+c3 cBA|d2e {g} fed|c2 e cBA|=G2 A BAG|A2 c cBA|
+d2 e {g} fed|
+L:1/16
+(3efga2e2
+L:1/8
+{g} fed|[1 cdB A2 B:|[2 cdB A3|
+S:https://www.folktunefinder.com/tunes/1473
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

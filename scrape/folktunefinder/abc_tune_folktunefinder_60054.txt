@@ -1,0 +1,39 @@
+X:3865
+T:Danza de San Roque (CT 400)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cangas de Tinu.
+N:Se la llama Danza de San Roque, por ser en esta festividad cuando preferentemente se ejecuta.
+N:Intervienen solamente mujeres, y cantan todas a un tiempo.
+O:Cangas de Tinu
+A:Asturies
+Z:Cancioneru de Torner 400
+M:6/8
+L:1/8
+Q:3/8=80
+W:En el campo de San Roque,
+W:en el campo de San Roque,
+W:perd yo una liga verde,
+W:perd yo una liga verde:
+W:adios campo de San Roque
+W:donde las ligas se pierden.
+K:G
+B2 B
+|B2 B c2 c|d3 B3-|B2 z B2 B|
+B2 B c2 c|d2 d e2 c|B2 B A2 A|B3 B3-|B2 z e2 g|
+f2 e d2 e|d3 d3-|d2 z e2 g|
+f2 e d2 e|d2 B e2 e|e2 e d2 c|B3 B3-|B2 ||
+S:https://www.folktunefinder.com/tunes/60054
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

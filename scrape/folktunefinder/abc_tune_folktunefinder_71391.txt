@@ -1,0 +1,25 @@
+X:362
+%%topmargin 3cm
+T:Mrs. Forbes of Boharm's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C|
+L:1/8
+K:Bb
+D | B,c {Bc}d>c B>F | (3GBG (3FED (3CEC (3EFG | B,c {Bc}d>cB>F | GD B,/B,/B, B, :|
+e | dcdBc<e | dBc<d B/B/B Be |
+dBc<d | {Bc}d>cB<F BdBF | GD B,/B,/B, B, |]
+S:https://www.folktunefinder.com/tunes/71391
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Forbes_of_Boharms_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0362.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

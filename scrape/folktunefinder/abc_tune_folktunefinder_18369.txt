@@ -1,0 +1,30 @@
+X: 1
+T: the Glasgow Highlanders
+R: strathspey, shottish
+B: RSCDS 2-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+[| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d e>c d>B | "A7"A>B A>F E>G F>E |
+| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 B>c "D"d>e f>g |]
+[| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d e2 d2 | "E7"(3cfe (3dcB "A7"A>e f>g |
+| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 Bc "D"d4 |]
+S:https://www.folktunefinder.com/tunes/18369
+S:http://trillian.mit.edu/~jc/music/abc/shottish/GlasgowHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlasgowHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GlasgowHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/GlasgowHighlandersS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlasgowHighlandersS.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

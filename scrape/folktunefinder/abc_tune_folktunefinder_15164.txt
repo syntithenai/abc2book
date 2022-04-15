@@ -1,0 +1,23 @@
+X: 1
+T: Thrums March
+O: Trad
+Z: Terry Traub 2003-7-30
+M: 6/8
+R: jig
+L: 1/8
+K: G
+|: D | "G"GDG BAG | "C"ECE "D7"D2c | "G"BAG dBG | "D"FAA ABc | "G"BAB "Em"GFG | "C"ECE "D"D2c | "G"BAG "D"FGA | "G"AGG G2 :|
+|: d | "G"Bcd g2d | "C"ece "D7"d2c | "G"BAG dBG | "D"FAA A2c | "G"Bcd     g2d | "C"ece "D"d2c | "G"BAG "D"FGA | "G"AGG G2 :|
+S:https://www.folktunefinder.com/tunes/15164
+S:http://trillian.mit.edu/~jc/music/abc/jig/Thrums_March_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/Thrums_March_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Thrums_March_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Thrums_March_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

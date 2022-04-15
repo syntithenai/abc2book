@@ -1,0 +1,30 @@
+X: 1
+T: Tom McVicar's Reel
+O: Trad Ireland
+S: Colin Dewar
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: EDor
+   D2 \
+| "Em"E2EF GFGA | "Em"B2e2     B3A | "D"F2D2     DEFG |  "D"A2AB AGFD \
+| "Em"E2EF GFGA | "Em"B2e2 "A7"B3A | "D"F2d2 "B7"B2AF | "Em"E6 :|
+|: B2 \
+| "Em"e2e2 BcdB | "Em"e2e2 "A7"B3c | "D"d2A2 "A7"ABAG |  "D"FGAF D4 \
+| "Em"E2EF GFGA | "Em"B2e2 "A7"B3A | "D"F2d2 "B7"B2AF | "Em"E6 :|
+S:https://www.folktunefinder.com/tunes/15693
+S:http://trillian.mit.edu/~jc/music/abc/march/TomMcVicarsR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomMcVicarsR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomMcVicarsR_Em_24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/TomMcVicarsR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TomMcVicarsR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/TomMcVicarsR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TomMcVicarsR_Em_24.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

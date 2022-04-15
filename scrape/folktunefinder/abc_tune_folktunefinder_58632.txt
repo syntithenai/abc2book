@@ -1,0 +1,25 @@
+X: 25
+T:Seanamhac Tube Station
+M:6/8
+L:1/8
+Q:180
+C:John Carty
+D:At the Racket
+K:DMinor
+|: GFD DFD | GAc d2 e | dcA cAF | GFD CDF | 
+GFD DFD GAc d2 e | dcA cAF | G3 G2 A :||
+| ded dcA | cdc cAc | dcA cAF | GFD C2 A |
+ded dcA | cdc cAc | dcA cAF | GAG G3|
+ded dcA | cdc cAc | dcA cAF | GFD CDF |
+GFD DFD | GAc d2 e | dcA cAF | G3 G2 A ||
+S:https://www.folktunefinder.com/tunes/58632
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

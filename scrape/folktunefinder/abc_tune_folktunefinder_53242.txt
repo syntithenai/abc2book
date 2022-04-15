@@ -1,0 +1,32 @@
+X:60
+T:Bulgarian tune (from Emma)
+M:11/8
+O:Bulgaria
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000669.html
+%%ID:00000669
+K:D
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FGAD | \
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FED2 :|
+|:ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FGAD | \
+ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FED2 :|
+|:ABAG "tr"F2E FGAD | ABAG "tr"F2E FED2 :|
+K:C
+|_Bcdc BAG c BAG | ^FGA2 G^FG E2EC |\
+^FGGC E2G F2FE | E2_BA G^FG E4|
+_Bcdc BAG c BAG | ^FGA2 G^FG E2EC | \
+^FGGC E2G F2FE | E2 FE E^DE C4||
+|:^FGGC E2G F2FE |E2_BA G^FG E4| \
+^FGGC E2G F2FE |E2FE E^DE C4:|
+|:EFFE E^DE CDEC| EFFE E^DE C2CG,|\
+EFFE E^DE CDEC| EFFE E^DE C2C2 :|
+S:https://www.folktunefinder.com/tunes/53242
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 11/8
+% Has_accompaniment_chords No chords

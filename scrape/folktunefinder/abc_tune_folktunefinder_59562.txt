@@ -1,0 +1,27 @@
+X:675
+T:Tpame, tpame, tpame
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Asturias, canciones
+M:3/8
+L:1/8
+Q:3/8=120
+K:G
+|: A3/2G/F|A~A2|B3/2A/G-|[1 G3 :|[2 G2 z|
+|c3/2B/A|c~c2|d3/2c/B-|B3|
+|: A3/2G/F|A~A2|B3/2A/G-|[1 G2 z :|[2G3|
+| A3/2G/F|A~A2|B3/2A/G-| G2 z |
+S:https://www.folktunefinder.com/tunes/59562
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

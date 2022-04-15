@@ -1,0 +1,31 @@
+X:95
+T:Colineto
+O:France
+A:Provence
+C:Trad.
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-18
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+V:Galoubet
+d3 ede | f3b3 | B2B c2c | ded c3 | d3 ede | f3 b3 | B2B cdc | B3-B2!fine!f |
+fed cde | f2d B2f | fed cde | f2d B2f | g2f B2f | g2f b2f | fgf fed | c3 ^c3!D.C.! |]
+V:Tambourin clef=perc stafflines=1  staffscale=0.6
+B3B3 | B3B3 | B3B3 | B3B3 | B3B3 | B3B3 | B3B3 | B3B3 | 
+B3B3 | B2BB3 | B3B3 | B2BB3 | B3B3 |  B3B3 |  B3B3 |  B3z3 |
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/554
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

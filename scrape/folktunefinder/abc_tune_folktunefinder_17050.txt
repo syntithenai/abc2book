@@ -1,0 +1,30 @@
+X: 1
+T: Dr. Bob Smith
+C: J Stanley Hamilton
+B: RSCDS-22
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| "D"DFAd BdAF | "D"DFAd B2Ad | "A7"cdef gfed | edcB AGFE |
+|  "D"DFAd BdAF | "D"DFAd B2Ad | "A7"cAce gece | "D"d2 f2 d4 |]
+fg \
+[| "D"a2ab afdf | "(Bm)"abaf dfed | "A7"cAce afed | c2A2 A2fg |
+|  "D"a2ab afdf | "(Bm)"abaf dfed | "A7"cAce aece | "D"d2 f2 d4 |]
+S:https://www.folktunefinder.com/tunes/17050
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/J_Stanley_Hamilton/DrBobSmith.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DrBobSmith.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/DrBobSmith.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DrBobSmith.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

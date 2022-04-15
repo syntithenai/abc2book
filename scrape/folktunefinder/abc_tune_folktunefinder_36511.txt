@@ -1,0 +1,24 @@
+X:2160
+T:Gnglt
+M:4/4
+O:Sweden
+R:Gnglt
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bd3.html
+%%ID:00000bd3
+K:G min
+D2|\
+G2GA B2Bc| d>edB G2GB| A>BA^F D2EF\
+|1 G2GD B,2 G,2 :|2 G2G2 G2::
+d2|\
+g2ge c2ce| d>edB G2GB| A>BA^F D2DF \
+|1 G2GB d2d2 :|2 G2G2 G2:|
+S:https://www.folktunefinder.com/tunes/36511
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

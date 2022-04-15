@@ -1,0 +1,27 @@
+X:6
+T:Blanchard's Hornpipe
+T:Fisher's Hornpipe
+R:Hornpipe
+S:MacDonald - Skye Collection
+N:pg.172
+N:original MS in key of G
+M:C
+L:1/8
+K:D
+A(B/c/)|d>AF>A G>BA>G|F>AF>A G>BA>G|F>DF>D G>EG>E|F>DF>D E2 AB/d/|
+d>AF>A G>BA>G|F>DF>D G>BA>G|F>Ad>f g>ec>e|d2[F2d2][F2d2]:|
+|:(cd)|e>cA>c e>cg>e|f>dA>d f>da>f|e>cA>c e>cg>f|e>dc>B A2 FG/A/|
+B>GE>G A>Fd>B|A>FD>F A>Fd>A|B>dc>B A>GF>E|D2 [F2d2][F2d2]:|
+S:https://www.folktunefinder.com/tunes/72087
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

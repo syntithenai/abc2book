@@ -1,0 +1,27 @@
+X: 2
+P: Sechsundrei\ssiger (Eb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+"A"\
+|:"Eb"[b4g4] [a2f2] | [g4e4] [e2B2] \
+| "Bb7"[b2g2] [a2f2] | "Eb"[g2e2] [e2B2] :| \
+"B"\
+[|]"Bb7"[d4F4] [e2G2] | [f4A4] [d2F2] | "Eb"[e2G2] "Ab"[a2c2] |
+| "Eb"[g4B4] | "Eb"[e2G2] "Ab"[a2c2] | "Eb"[g4B4] \
+"C"\
+|:"Ab"[a2c2] [ac][ac] [fA][ac] | "Eb"[g4B4] [e2G2] \
+| "Bb7"[f2A2] [cB][dA] | "Eb"[e2G2] z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4986
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_BbEb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Sechsundreissiger_A.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

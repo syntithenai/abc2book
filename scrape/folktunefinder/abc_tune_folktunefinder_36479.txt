@@ -1,0 +1,28 @@
+X:2000
+T:Gjetarpols
+C:Geir Egil Larsen
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d3f.html
+%%ID:00000d3f
+K:D min
+|: A | \
+d2   d>^c d>e  | f2 (3fdf (3e^ce | d>^c d>e (3fed | G2 A2 zA |
+d2   d>^c d>e  | f2 (3fdf (3e^ce | d>^c d>e  f>g  | a2 a4 ::
+fg | \
+a2 (3afa (3afa | (3agf e>f   d>e | f2 (3fdf (3fed | (3ABA (3GAB A>A |
+d2 d>^c   d>e  | f>e  (3efg  a2  | f>e d>f (3e^ce | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/36479
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:64
+T:The Hills of Glenorchy
+S:motun.abc #25 (fixed up the ABC a bit; same notes)
+R:Jig
+M:6/8
+C:Trad.-Buddy MacMaster, Ashley MacIsaac, Donny LeBlanc, Theresa & Donald MacLellan
+K:G
+A|EDE A,B,A,|(EDE) (G2 E)|{FE}DB,D G,A,G,|(B,A,B,) (DGF)|EDE A,B,A,|
+(EDE) A,B,A,|(EDE) (G2 A)|GEG DB,G, |1 .(A,B,A,) A,2 :|2 .A,B,A, A,2|
+|: e|aba {b}age|{b}aga {a}(b2 a)|gag {a}ged|gdg {g}(b2 g)|
+|1 .aba {b}age|{b}aga {a}(b2 a)|geg dBG|ABA A2 :|2 .c'c'c' bbb|aaa eed|ege dBG|ABA A2 :|
+|:a|ede ABA|ede (g2 d)|BAB GDG|(BAB) d2 g|
+ede ABA|(ede) g2 a|geg dBG|ABA A2 :|
+|: e|aba {b}age|{b}aga {a}(b2 a)|gag {a}ged|gdg {g}(b2 g)|
+|1 .aba {b}age|{b}aga {a}(b2 a)|geg dBG|ABA A2 :|2 .c'c'c' bbb|aaa eed|ege dBG|ABA A2 :||
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58875
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 32
+T:20th of May,The. WCl.32
+M:C|
+L:1/8
+Q:180
+S:William Clarke MS,Lincoln,1770.
+R:Hornpipe
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:Bb
+BFDF BdcB|cAFA cedc|dafe gedc|dfAc BAGF|!
+BFDF BdcB|cAFA cedc|dafe dgfe|dcBA B4::!
+BABc BABc|Bcde f2F2|GFGA GFGA|GABc d2D2|!
+EDEF EDEF|EFGA B2B,2|C2 f2f2 ed|dcBA B4:||
+S:https://www.folktunefinder.com/tunes/40715
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

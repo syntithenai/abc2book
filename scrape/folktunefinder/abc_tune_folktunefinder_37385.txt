@@ -1,0 +1,26 @@
+X:6530
+T:Untitled reel
+A:North-West
+M:C|
+N:P25(1st) 2/2
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000593.html
+%%ID:00000593
+K:D
+f/2e/2|fddA B/2c/2d dA|BGdF E/2E/2E Ee|\
+fddA B/2c/2d dB|AFdF D/2D/2D D2:|
+|:D/2E/2|FDdD FDBD|AFdF E/2E/2E EG|\
+FDdD FDBD|BdAF D/2D/2D Dd/2e/2|\
+fdaf ecAc|dAdF E/2E/2E Ee|\
+fdgf ecAc|BdAF D/2D/2D D2:|
+S:https://www.folktunefinder.com/tunes/37385
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

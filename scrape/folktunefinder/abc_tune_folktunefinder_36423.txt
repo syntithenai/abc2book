@@ -1,0 +1,36 @@
+X:1720
+T:Farewell to Erin
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000848.html
+%%ID:00000848
+K:A dorian
+A,3B, E3F|GEDB, G,B,DB,|\
+A,3B, E3F|GED=F EA,A,G,|\
+A,3B, E3F|GEDB, G,3g|
+edeg a2ba|gedB BAA2 :: \
+a2ab agef|gfga  gede|
+a2ab agef|gedB BAA2 |\
+agef g2ge|dedB GABd |\
+(3cBA Bd egfa|gedB BAA2 ::
+eA (3cBA eA (3cBA|B2BA GABd| \
+eA (3cBA e2ef|gedB BAA2|\
+eA (3cBA eA (3cBA|d2dB GABd|
+(3cBA Bd egfa|gedB BAA2 :: \
+ae^ce ae^ce|gede gede|
+ae^ce a2af|gedB BAA2|\
+agef g3e|dedB GBdB| \
+(3cBA Bd egfa|gedB BAA2|]
+S:https://www.folktunefinder.com/tunes/36423
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:293
+T: Der Tod von Basel (3-95), S. 261
+N: P1068
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Eheverdru, Tod der Frau, Freude]
+M: 2/4
+L: 1/8
+K: G
+ | GGGG | GBG
+B | BGFG | A2z
+A | AAAA | D2zD | dz2
+D | cccA | B2B
+B | AABA | GBd
+B | cccA | B2B
+G | AAAF | G4
+S:https://www.folktunefinder.com/tunes/76273
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Eheverdru, tod der frau, freude]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 4670
+T: Snowy Breasted Pearl, The
+C:Trad.
+S:Fiddler's Fakebook
+I:speed 220
+M:4/4
+K:A
+E | A3B AG FE | e3f e2 d2 | c2 A2 cB AG | F6 G2 |
+A3B AG FE | e3f e2d2 | c2 A2 cB AG | A6 e2 |
+f3 d a2 f2 | e2d2 c2e2 | d2c2B2A2 | F6 G2 |
+A3B AG FE | e3f e2d2 | c2A2 cB AG | A6||
+S:https://www.folktunefinder.com/tunes/33827
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

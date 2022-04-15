@@ -1,0 +1,23 @@
+X:15268
+T: Shano Dusho
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: C
+|: "Fm"[c2_A][cA] [c2A] [c2A] | "G"[B2G][_AF] [GE][AF] [BG][cA] | "Fm"[B2G][_AF] [B2G] [A2F] | "C"[G3E] [G4E] :|
+S:https://www.folktunefinder.com/tunes/46543
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Lesnoto
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

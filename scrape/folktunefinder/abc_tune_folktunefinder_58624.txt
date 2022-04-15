@@ -1,0 +1,28 @@
+X: 17
+T:Keys to the Convent
+T:King of the Pipers
+M:6/8
+L:1/8
+R:jig
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Dervish: The Boys of Sligo
+H:There are 3 other tunes called "King of the Pipers": #8, #219,
+Z:id:hn-jig-66
+K:D
+AFF dFF|AFB AFD|AFF dAF|DFA GAB|AFF dFF|AFB AFD|
+~F3AFD|DFA GAB:||:ABc d2A|dfa agf|geg fdB|AFA Bcd|
+ABc d2A|dfa agf|geg fdB|1 AFA~B3:|2 AFA B2A||
+|:Bbb Baa|~g3 fdA|Bbb Baa|AFA B2A|Bbb Baa|
+~g3 fdB|AFd AFE|1DFA B2A:|2 DFA ~B3||
+%  ABC2Win Version 2.1 18.11.98
+S:https://www.folktunefinder.com/tunes/58624
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:324
+T: HINTERM RIESEN VORN AM RIESEN
+N: E1473A
+O: Europa, Mitteleuropa, Schweiz, Kanton Bern, Siebenthal
+R: Staende -, Hirten -, Alpen - Lied, Kuhreihen
+M: 3/8
+L: 1/16
+K: G
+ | d4ed | d4ed | d4ed | d4ed
+B4d2 | G4A2 | B2A2G2 | A2D2D2
+B2G2G2 | A2D2D2 | B2G2G2 | A2D2D2
+S:https://www.folktunefinder.com/tunes/79428
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, hirten -, alpen - lied, kuhreihen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

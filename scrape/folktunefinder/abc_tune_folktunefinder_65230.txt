@@ -1,0 +1,25 @@
+X: 142
+T:Irish Washerwoman
+% Nottingham Music Database
+S:EF
+M:6/8
+K:G
+P:A
+d/2c/2|"G"BAB DGB|"G"DGB dcB|"Am"cBc DFA|"D7"dfa gdc|
+"G"BAB DGB|"G"DGB dcB|"C"cBc "D7"Adc|"G"BGF G2:|
+P:B
+g/2a/2|"G"b^ab dgb|"G"dgb d'bg|"D7"a^ga dfa|"D7"dfa c'af|
+"C"gef "G/b"gdf|"D7/a"gba "G"gdB|"C"cBc edc|"D7"dfa "G"g2:|
+S:https://www.folktunefinder.com/tunes/65230
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

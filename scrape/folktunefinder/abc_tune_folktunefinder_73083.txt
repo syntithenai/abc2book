@@ -1,0 +1,27 @@
+X: 699
+T: O'Carolan's Farewell
+R:
+C:O'Carolan
+B:O'Neill's 699
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"With feeling."
+M:C
+L:1/8
+K:Gm
+(G^F)(GA) B2(AG) | A2(cd) f2(dc) | (fd)(cA) (d>c)(A>G) | G4 (D3G) |
+|(G^F)(GA) (BA)(BG) | A2(f<a) Hg3f | (d3f) (c3d) | (B{cB}A)G^F G3 ||
+d | (g3a) (g^f)(ga) | (g^f)(ga) g2(d=e) | f4 (f=e)(fg) | ((fg)(fg)) f2d2 |
+|(g3a) ({c'}ba)(g^f) | (g^f)(ga) g2(d=e) | (f=e)(fg) {b}a2(^fg) | g>gfd fdcA |
+| d>cAG F2D2 | (G^F)(GA) (BA)(BG) | A2(f<a) Hg3f | d2(df) c2(cd) | (B{cB}A)G^F G3z |]
+S:https://www.folktunefinder.com/tunes/73083
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

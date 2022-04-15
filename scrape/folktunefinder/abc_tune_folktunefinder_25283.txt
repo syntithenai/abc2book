@@ -1,0 +1,21 @@
+X:4831
+T:On dit qu ia quinze ans
+O:england
+M:6/8
+R:Jig
+K:D
+d2f e2f| {e}d2e d2c| BAB B2c| d3 A3|\
+d2f e2f|  {e}d2e d2c| B2A B2c| d3 d3::
+f2f fef| g3 g2e| fga agf| f3 e3|\
+f2f fef| g3 g2e| fga agf| f3 e3:|
+S:https://www.folktunefinder.com/tunes/25283
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

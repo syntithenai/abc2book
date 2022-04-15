@@ -1,0 +1,22 @@
+X: 1
+T: Miller Lads
+R: strathspey
+B: Fraser Collection
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+A2 | "F"FF3 A4    FF3 Ac3  | "Gm"G3G A3c  "C"d4 df3  | "F"FF3 A4      FF3 Ac3 | "Bb"GG3 A3F  "C"D4 D2 ||
+A2 | "F"FF3 A4    FF3 Ac3  | "Gm"G3G A3c  "C"d4 d3e  | "F"f3g a3c     A3G FA3 | "Gm"GG3 A3F "Bb"D4 D2 |]
+e2 | "F"f3c dcBA f2c2 c2a2 |  "F"fc3 c3A "Bb"d4 d2e2 | "F"f3g a3c     A3G FA3 | "Bb"GG3 A3F  "C"D4 D2 ||
+e2 | "F"f3c dcBA f2c2 c2a2 |  "F"fc3 c3A "Bb"d4 d2e2 | "F"fa3 ga3 "Dm"A3G FA3 | "Eb"GG3 A3F "Bb"D4 D2 |]
+S:https://www.folktunefinder.com/tunes/19525
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MillerLads_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MillerLads_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

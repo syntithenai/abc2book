@@ -1,0 +1,23 @@
+X: 81
+T:Little Czech Number
+% Nottingham Music Database
+S:Joy, via EF
+M:4/4
+L:1/4
+K:Am
+P:A
+|:E|"Am"A^G A"E7"B|"Am"cB c"E7"d|"Am"e^d e"Dm"f|"Am"e2 -"Am/c"e2|"Dm"d^c de|\
+"Am/e"cB cd|"E7"B^A Bc|[1"Am"A3:|[2 "Am" A4|
+"Am"a2 "G7/b"e2|"C"ef g2|"D"dd "E7"ed|"Am"cB A2:|
+"Am"AB "Am/g"c2|"D/f"AB "F"c2|"E7"ed Bc|"Am"A4:|
+S:https://www.folktunefinder.com/tunes/43536
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

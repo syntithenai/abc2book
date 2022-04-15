@@ -1,0 +1,27 @@
+X: 1
+T: Scotty O'Neil
+C: Bob McQuillen 1973
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Written to Scott and Becky"
+M: C|
+L: 1/8
+K: E
+BA \
+| "E"G2E2 B2G2 | "A"efed cBcd |1 "E"e2B2 A2G2 | "B7"G2F4 :|2 "E"e2B2 "B7"BcBA | "E"G2E4 :|
+|: BA \
+| "E"G2B2 g3f | "A"e2d2 c3d | "E"e2B2 A2G2 | "B7"G2 F4 BA \
+| "E"G2B2 g3f | "A"efed cBcd | "E"e2B2 "B7"BcBA | "E"G2E4 :|
+S:https://www.folktunefinder.com/tunes/18090
+S:http://trillian.mit.edu/~jc/music/abc/reel/ScottyONeil_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ScottyONeil_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ScottyONeil_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/ScottyONeil_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

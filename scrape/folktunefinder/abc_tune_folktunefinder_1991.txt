@@ -1,0 +1,35 @@
+X: 54
+T:Tipperary Militia Quick March. JMP.054
+M:2/4
+L:1/8
+Q:240
+C:"59"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:The first bar has too many beats
+H:1799
+Z:vmp.C.  Graebe
+K:G major
+G2 G/G/ GG | BGGD | GDGD | BGGg |dddg | BBBd  |!
+ G(A/B/) c/B/A/G/ | dD D :||:\
+D/F/ | ((3ABA)  ((3ABA) | cBAG | ((3FEF) ((3DEF) | GB "tr"d2 |!
+ ((3ABA)  ((3ABA) | cBAG | ((3FEF) ((3DEF) | GG G :||:\
+B | "tr" e2 Bg | "tr"e2 Bg |!
+ "tr"egeg | "tr"e3 f | ff f/e/d/c/ |BB B/c/d/e/ | ff ff | B3 :|!
+|: B/c/ | dd dB/c/ | dddD | G2 A2 |B/A/B/c/ AB/c/ | dddD | dddD |!
+ G2A2 | GG G :||: G/A/ |BABA | GFGF | EDEF | !
+G/F/G/A/ GG/A/ | BABA | GFGF |EGFA | G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/1991
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

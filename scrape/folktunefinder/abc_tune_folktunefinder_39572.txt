@@ -1,0 +1,30 @@
+X:17
+T:Musette
+S:La Belle Vielleuse
+C:Corette
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3
+%%continueall 1
+L:1/8
+K:C
+V:1 name=V
+e2 | {e}Td4g2 | {c}TB4c2 | (dc)(de)(fd) | e2{d}c2e2 |  {e}Td4g2 | {c}TB4c2 | (dc)(df)(ed) | c4 :| g2 | a3a b2 | c'2g2c'2 |
+c'2 (ba)(gf) | Te2 {d}c2g2 | a3g(ab) | c'2g2c'2 | (c'b)(ag)(fe) | {e}Td4 !D.C.!|| .c2 | e3fTd2 | c2G2g2 | a2g2f2 | Te2{d}c2c2 | e3fd2 |
+c2G2g2 | a2g2f2 | {f}Te4 !D.C.! |]
+V:2 name=G
+z2 | z2 z2 e2 | {e} d2G2c2 | BABcdB | c4c2 | f4e2 | {e}Td2G2c2 | BABdcB | c4 :| e2 | f3f fg | e2c2d2 |
+e2(df)(ed) | c3ee2 | f3e fd | e2c2e2 | e2(fe)(dc) | {c}TB4 || g2 | c3d TB2 | c3de2 | f2e2d2 | c4g2 | c3dB2 |
+c3de2 | f2e2d2 | {d}c4 |]
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+S:https://www.folktunefinder.com/tunes/39572
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

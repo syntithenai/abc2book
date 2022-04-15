@@ -1,0 +1,22 @@
+X:1
+T:Jig in G
+S:Philippe Varlet  irtrad-l 2001-5-21
+B:Kerr's Merry Melodies Bk.4, p24
+Z:Nigel Gatherer
+M:6/8
+K:G
+D|BBB B2 D|BBB B2 d|gfe dcB|d2 c A2 B|ccc c2 D|
+ccc c2 e|edB dcA|GBd g2::f|gfg agf|bag agf|gfg bag|
+fdd def|gfg agf|gab bag|gab agf|g3- g2:|]
+S:https://www.folktunefinder.com/tunes/14413
+S:http://trillian.mit.edu/~jc/music/abc/jig/JigInG_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JigInG_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/JigInG_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

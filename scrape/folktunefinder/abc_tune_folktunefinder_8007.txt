@@ -1,0 +1,24 @@
+X: 3
+P: Ragundapolskan
+O: Bengt Jonsson
+N: Taught by Bengt Jonsson, Oct 1993
+N: Good for Gammelv\"anster fr\aan Oviken
+R: polska, masurka
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+|: "Gm"d>g d2 "D7"c2 | "Gm"B>A G>A (3BA-G | "D7"A>G ^F>G (3AB-A |1,3 "Gm"G>(^F GA) Bc :|2,4 "Gm"G2 G4 :|
+|: "Gm"[dD]>g (3ga-g (3ga-g | g>a (3ab-a "D7"^f>d | d>A (3Bd-B A>G |1,3 ^F>G (3AB-A F>D :|2,4 (3^FEF "Gm"G4 :|
+S:https://www.folktunefinder.com/tunes/8007
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Polska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Polska.abc
+% Rhythm Polska, masurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

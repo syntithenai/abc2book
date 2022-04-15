@@ -1,0 +1,25 @@
+X:5115
+T:Reinlnder e. non Egeland
+C:e. non Egeland
+M:4/4
+O:Norway
+R:Schottis
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000be6.html
+%%ID:00000be6
+K:D mixolydian
+D>EFG A2cA| B>AAF D2DF| E2C2 C2EG| F2D2 D4::\
+%
+d2dd d2ed    | c2A2 A3B  |
+A>GFE F>G Ad | ^c2AA A3A |\
+d2dd d2ed    | c2A2 A3B  |\
+A>GFE F2DC   | D2D2 D4  :|
+S:https://www.folktunefinder.com/tunes/37102
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

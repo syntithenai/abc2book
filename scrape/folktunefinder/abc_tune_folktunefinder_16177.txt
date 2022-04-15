@@ -1,0 +1,37 @@
+X: 1
+T: P\aa Dansbanan
+T: At the Dance Hall
+R: polka
+O: Sweden
+S: Nils Lundin (handwritten MS)
+Z: John Chambers <jc@trillian.mit.edu>
+%%staffsep 50
+M: 2/4
+L: 1/16
+K: G
+D2 \
+"A"\
+| "G"d2D2 B2D2 | G2B,2 D4 |1,3 "D7"C2A2 A2F2 | "G"GABc d2 \
+                         :|2,4 "D7"C2A2 AGF2 | "G"G2B2G4 :|[K:D]
+K: D
+"B"\
+|: "D"[A2F2][A2F2] [AF]D[AF]D | "A7"[A2C2][A2C2] [AC]C[AC]C \
+|  [B2G4]A2 [B2G4]c2 |1,3 "D"[d2A2F2]"A"[e2c2G2] "D"[f4d4A4] :|2,4 "D"[d2F2][d2F2] "d.C."[d2F2]z2 :|
+P: Play A (no repeat)
+K:C
+"C"\
+|: {cd^d}"C"[e2G2][e2G2] [e4G4] | "G7"[d2F2][d2F2] [d2F2]DE \
+|1,3 "G7"F2G2 A2F2 | "C"E2A2 G4 :|2,4 "G7"F2G2 A2B2 | "C"[c2E2][c2E2][c2E2]z2 :|
+S:https://www.folktunefinder.com/tunes/16177
+S:http://trillian.mit.edu/~jc/music/abc/polka/PaaDansbanan_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/PaaDansbanan_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polka/PaaDansbanan_G.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

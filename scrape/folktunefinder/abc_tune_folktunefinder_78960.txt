@@ -1,0 +1,27 @@
+X:519
+T: DER SCHAEFER TRAEGT SORGEN
+N: E0508A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt, Messel
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: F
+C2 | F2C2F2 | A2F2
+A2 | c2dcBA | A2G2
+B2 | B2d2fd | c2A2
+Ac | cBB2Bd | c4
+Ac | cBG2G2 | F4
+B2 | B2d2fd | c2A2
+Ac | cBB2Bd | c4
+Ac | cBG2G2 | F4
+S:https://www.folktunefinder.com/tunes/78960
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:64
+T: Die Brombeeren (Band 1), S. 189,
+N: P0839
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Jagen, Beischlaf]
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G4G2G2G2G2 | E4E4D4
+D4 | E4E2E2F4D4 | G8z4
+G2A2 | B6A2B4d4 | c4B4A4z4
+A3AA2A2A4d2c2 | B4A4G4
+G2A2 | B4B4A4A4 | G6B2d4
+d2c2 | B4G4B4A4 | G8z4
+S:https://www.folktunefinder.com/tunes/76044
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Jagen, beischlaf]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

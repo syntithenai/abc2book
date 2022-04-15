@@ -1,0 +1,28 @@
+X:117
+T: ALS ICH EIN JUENGLING WAR
+N: B0605
+O: Europa, Mitteleuropa, Deutschland, Hochwald, Allenbach; Pleizenhausen
+R: Staende -, Seemanns - Lied, Tod
+M: 6/8
+L: 1/16
+K: D
+ | A,6F,6 | A,6F,6
+A,3A,A,2B,4A,2 | G,6z6
+G,6E,6 | G,6E,6
+A,3A,A,2C4B,2 | A,6z4
+A,2 | F,4A,2D4C2 | B,6z4
+G,2 | E,4G,2C4B,2 | A,6z6
+D6D6 | E6B,6
+C3CC2C2B,2A,2 | D6-D4z2
+F6B,6 | E6A,6
+A,3A,A,2F4E2 | D6z6
+S:https://www.folktunefinder.com/tunes/62140
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, seemanns - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

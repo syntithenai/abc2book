@@ -1,0 +1,27 @@
+X: 2
+T: Long Live London
+C: Pat Shaw 1971
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+d \
+| "G"g>dBd | "C"eg2e | "G"d>B GB | "D7"A3d \
+| "G"g>dBd | "C"eg2e | "G"dB "D7"A>B | "G"G3 :|
+G \
+| "C"E>DEG | "G"D>B,DG | "D7"A>GAB | "G"G3B \
+| "D7"A>FAd | "G"B>GBd | "A7"^cdef | gfe^c |
+| "D7"d>edc | "G"BdGA/B/ | "Am"c>BAG | "D7"FADe/f/ \
+| "G"g>dBd | "Am"e>cAc | "D7"Bd2c/A/ | "G"G3 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/5810
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LongLiveLondon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

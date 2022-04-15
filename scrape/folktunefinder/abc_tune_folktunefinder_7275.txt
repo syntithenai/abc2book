@@ -1,0 +1,21 @@
+X: 1
+T: Ramustapha
+M: C
+L: 1/8
+K: C
+"A"|: "C"zE2 D C2 C2 | "G7"DE DC "C"E2 E2 | "C"zG, CD E2 EE | "G7"DF ED "C"C4 :|
+"B"|: "C(A7)"zE2 E E2 EE | "Dm"FG FE "G"D4 | "G7"zD2 D D2 DD | "G7"EF ED "C"C4 :|
+K:Cm
+"C"|: "Cm"GA GF G2 EE | ED EF G4 "D":: "Cm"G/G/G F/F/F E/E/E "G"D2 | "G7"F/F/F E/E/E D/D/D "Cm"C2 :|
+K:C=B=e=A
+"B"|: "C(A7)"zE2 E E2 EE | "Dm"FG FE "G"D4 | "G7"zD2 D D2 DD | "G7"EF ED "C"C4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7275
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Ramustapha.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

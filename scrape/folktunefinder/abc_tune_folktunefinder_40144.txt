@@ -1,0 +1,26 @@
+X: 41
+T: 3. Auld Toon o' Ayr  2X
+M: C
+L: 1/8
+R: Strathspey
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+% Q: 220
+K: D
+F |\
+"D" D<D F>A      d3 c | "G" B/A/B/c/ d>B "D" A<F F>{c}d |\
+"D" D<D F>A "Bm" d3 f | "Em" (3efg (3gfe "G" d{c}d | 
+"D" D<D F>A      d3 c | "G" B/A/B/c/ d>B "D" A<F F>A    |\ 
+"G" B/A/B/c/ d>B "D" A<F F>{c}d | "Bm" A<F F>D     "A7" E3  F         |
+"D" D>dF>d           A<F F>A    | "G" B/A/B/c/ d>B "D"  A<F F>{c}d    |\
+"D" D>dF>d           A<F F>A    | "G" {c}d>B       "D"  A<F "A7" E3 F | 
+"D" D>dF>d           A<F F>A    | "G" B>AB>c       "Bm" d3 f          |\
+"Em" (3efg (3gfe "G" d{c}d | "D" A<F F>D      "A7" E3           ||
+S:https://www.folktunefinder.com/tunes/40144
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:556
+T:Desmond's Song
+T:a.bran deasmu.ma.
+N:"Mournful"
+B:O'Neill's 556
+Z:Transcribed by J.B. Walsh (walsh@math.ubc.ca)
+M:3/4
+L:1/8
+%Q:80
+K:D
+(d>c)|(d2 D2) (d>c)|({c}B2 A2) (d>A)|({c}B2 (AF)) (E>D)|D4 (d>c)|
+d2 D2 (d>c)|(.B/.c/.d/.e/) Hf2 (d>c)|{c}B2 (AF) (E>D)|D4||
+(F>G)|(A>B) d2 f>e|d2  D2 d>c|({c}B2 A>F) (A3/B/c/)|d4 (f>e)|
+d2 D2 (d>c)|({c}B2 A2) (d>A)|{c}B2 (AF) (E>D)|D4||
+S:https://www.folktunefinder.com/tunes/75840
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0556_jw.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

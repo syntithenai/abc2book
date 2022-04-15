@@ -1,0 +1,19 @@
+X: 154
+T: Joc de Fete
+O: Romania
+M: 5/4
+L: 1/4
+Q: 1/4=144
+K:D
+%%MIDI program 49
+FFAG2|FEED2   |FEEE2 |CB,B,A,2 |C/B,/B,A,A,z|
+EEEE2|CB,B,A,2| AAAB2|AG3/2A/Fz|FEED2-      |D4z|
+S:https://www.folktunefinder.com/tunes/68040
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

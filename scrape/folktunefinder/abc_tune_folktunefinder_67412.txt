@@ -1,0 +1,24 @@
+X:550
+T:Maids of Mitchelstown
+C:Bothy Band
+R:reel
+H:
+Z:
+M:4/4
+K:Ddor
+"Dm"F3 D"C"E4|"Dm"DFED "Am"CA,A,2|"Dm"F3 D "Am"E3 F|"C"GAGE "Dm"ED D2:|
+|:"Cno3"C2 AG G4|"Dno3"AG^FA"F159"G4|"Ano3"ECDG, "Bb159"C3 C|1"Ano3"B,CDE "Gno3"A,D D2:|2"Ano3"B,CDE A,CEC||
+|:"Dm"D2 AG "C"EG G2|"Dm"A2 GA "Am"cAGE|"Dm"D2 AG "Am"EG G2|1"C"AcGE "Dm"EDCE:|2"C"AcGE "Dm"ED D2||
+|:"Cno3"EGAB c2 BG|"Dno3"Adde "F159"f2 ed|"Ano3"cAGE "Bb159"F3 G|1"Ano3"AcGE "Gno3"ED D2:|2"Ano3"(3ABc (3Bcd cAGE||
+S:https://www.folktunefinder.com/tunes/67412
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

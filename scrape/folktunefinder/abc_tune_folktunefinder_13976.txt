@@ -1,0 +1,32 @@
+X: 1
+T: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+S:https://www.folktunefinder.com/tunes/13976
+S:http://trillian.mit.edu/~jc/music/abc/jig/CaptCharlesStewartsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CaptCharlesStewartsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CaptCharlesStewartsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/CaptCharlesStewartsJ.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CaptCharlesStewartsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

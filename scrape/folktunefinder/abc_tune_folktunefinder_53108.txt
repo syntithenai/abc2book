@@ -1,0 +1,58 @@
+X:2
+T:Bou-ye djou-ye mouliyan **
+T:
+C:
+S:
+A:Iran
+D:Marzieh / Banan
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:3/8=97
+K:Bb
+K:Gm
+%%staves {1 2}
+%%EPS 
+%%vskip 1cm
+V:1
+%%MIDI program 0
+%%MIDI transpose 0
+%%MIDI control 7 120 %volume
+%%MIDI control 10 100 %pan
+G4 AB | d4 cB | dc BA Bc | d2 g4 |
+d4 ed | c4 Bc |d4    cB | A6 |
+G4 AB | d4 cB | B4 AG   | ^F4 A2 G2  | 
+z4 B2 | A2 c2>B2 | G4 A2 | G2 B2>G2 | ^F4 D2 | ^F2G4 |
+G4 AB | d4 cB | AG 
+z2 A2 | B2 c4 | B4 A2 | G2 c4 | B4 A2 | G2B4 | 
+[A4d4] ed | c4 de | cB
+z2 B2 | A2 c2>B2 | G4 A2 | G2 B2>G2 | ^F4 D2 | ^F2G4 |
+%
+%
+%A2GA2GF3/E3/D3 G2FG2FE3/D3/C3 |
+%D3/4E3/4F3/4G3/4A3/4G3/4F3/4G3/4A3/A3/A3/
+V:2
+%%MIDI program 1
+%%MIDI transpose -12
+%%MIDI control 7 105 %volume
+%%MIDI control 10 70 %pan
+K:Gm bass
+G,2[D2G2][D2G2] | D,2[D2G2][D2G2] | G,2[D2G2][D2G2] | D,2 G,2 z2 |
+D,2D2D2 | A,,2D2D2 | D,2D2D2 | A,,2 D2 z2 |
+G,2[D2G2][D2G2] | D,2[D2G2][D2G2] | G,2[D2G2][D2G2] | ^F,4 D,2 G,2 | 
+z4 z2 | D,2 z4| G,2 z4 | G,2 z4 | D,2 z4 | D,2 G,2 z2 |
+G,2[D2G2][D2G2] | D,2[D2G2][D2G2] |
+G,2 z4 | D,2 z4 | B,2 z4 | D,2 z4 | G,2 z4 | D,2D,4 |
+G,2[D2G2][D2G2] | D,2[D2G2][D2G2] |
+G,2 z4 | D,2 z4| G,2 z4 | G,2 z4 | D,2 z4 | D,2 G,2 z2 |
+S:https://www.folktunefinder.com/tunes/53108
+S:http://anamnese.online.fr/abc/persia.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

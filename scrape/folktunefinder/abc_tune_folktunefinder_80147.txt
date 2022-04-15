@@ -1,0 +1,25 @@
+X:88
+T: Jaegers Morgenbesuch
+N: A0440
+O: Europa, Mitteleuropa, Deutschland
+N: Ott III 1544 No. 15 und 97.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 6/2
+L: 1/2
+K: G
+d | d2dd2d | =f3_B3
+d2df_e2 | d3z2
+d | d2d=f2f | _B3d3
+c2cccA | _BG2=F2z
+d2df3 | _e2ed2_B | cA2G2z
+d2_BcA2 | G3z2
+S:https://www.folktunefinder.com/tunes/80147
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Captain O'Kane
+C: Turlaugh O'Carolan
+M: 6/8
+L: 1/16
+R: waltz
+B: after O'Neill's Music of Ireland
+K: G
+(FD) \
+| "Em"(B,2E2F2) (G4 FE) | "D"(FGAGFE) (D2E2F2) \
+| "Em" (G2B2G2) (BAGFED) | "Em"(B,2G2).G2 G4 (GD) |
+| "Em"(B,2E2F2) (G4 FE) | "D"(FGAGFE) (D2E2F2) \
+| "Em"(G2B2).B2 (BAGFED) | "Em"(B,2E2).E2 E4 |]
+EF \
+| "G"(G2B2).B2 B4 (AG) | "D"(F2A2).A2 A4 (dc) \
+| "Em"(B2e2^d2) (e2>f2g2) | "Em"(B2e2^d2) e4 (ef) |
+| "G"(g2>f2e2) (d2>c2B2) | "D"(A2F2).d2 (D2E2F2) \
+| "Em"(G2B2G2) (BAGFED) | "Em"(B,2E2).E2 E4 ||
+S:https://www.folktunefinder.com/tunes/19837
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CaptainOKane_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/CaptainOKane_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/CaptainOKane_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/CaptainOKane_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/CaptainOKane_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/CaptainOKane_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

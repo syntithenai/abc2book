@@ -1,0 +1,26 @@
+X:139
+T: WIE SCHOEN ISTS IM FREIEN
+N: F0262
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, Natur
+M: 3/8
+L: 1/16
+K: A
+E2 | A2G2A2 | B2A2
+E2 | c2B2c2 | d2c2
+c2 | e2d2c2 | B4c2 | B4
+B2 | G2G2A2 | c2B2z
+B | c2c2d2 | f2e2z
+e | e2c2B2 | A4B2 | A4
+S:https://www.folktunefinder.com/tunes/69699
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, natur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

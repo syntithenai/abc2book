@@ -1,0 +1,26 @@
+X:3240
+T:Kerry Jig, The
+O:england
+R:single jig
+S:Leo Rowsome
+N:The same performance is transcribed in Ceol Rince na hEireann vol. III, but it differs from this.  Probably my error. (Alan--I haven't had a chance to check this against the original yet.  Might well be wrong.)
+E:12
+I:speed 470
+M:12/8
+K:ADor
+G|.A.BA A2F G2E A2F|G2E ~E3 ~A3 A2c|B2G ~G3 Bcd B2G|c3 B2c A4z::\
+d|.e.fe e2d e2f g3|~G3 G2F G3 E3|~A3 A2c B2G ~G3|B2d B2G c4z:|
+S:https://www.folktunefinder.com/tunes/23691
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:129
+T:Schottisch n2
+O:France
+A:Provence
+C:Inconnu
+R:Scottish
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/8
+P:ABACA
+K:F
+P:A
+cd | c2A2 F2d_e | d2B2 G2ef | e2d^c d2=cd | c2Ac f2cd | c2A2 F2d_e | d2B2 G2ef | e2dc g2de | f2a2 f2 ::
+P:B
+[K:Bb] F2 | B2d2 f3B | d6 zf | g3f d3B | B2A2 A2z2 | e2e2 e3A | c4- cBAG | F2Ac e2g2 | g2f=e f2F2 |
+B2d2 f3B | d6 zf | g3f d3B | G2e2 e2z2 | g2g2 g3e | c4- cBAG | F2Ac e2GA | B2b2 b2 ::
+P:C
+[K:Bb] F2 | d2d2 dedc | B6FB | d2Bd f2gd | f2=e2 _e2F2 | e2e2 edcB | A6 (3fgf | e2f2 g2f2 | dBdf b2F2 |
+d2d2 dcBA | B6FB | d2Bd f2gd | f2=e2 _e2F2 | e2e2 edcB | g6(3fgf | a4g2f2 | b2b2b2 !D.C.! :|
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+S:https://www.folktunefinder.com/tunes/40327
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

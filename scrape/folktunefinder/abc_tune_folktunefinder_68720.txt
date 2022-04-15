@@ -1,0 +1,30 @@
+X:174
+T: Das arme Maegdlein
+N: A0212A
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III 1549 No. 31.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2G2D2 | G3A_B2c2 | d_BAGA2A2 | G4z2
+G2 | A2A2d2A2 | _B4AGc2 | A4z2
+G2 | G2G2G2D2 | G3A_B2c2 | d_BAGA2A2 | G4z2
+G2 | A2A2d2A2 | _B4AGc2 | A4z2
+A2 | _B2A2d3c | _B2A2G2
+A2 | =F2G2A3G | =F2EDE4 | D4z2
+D2 | G2F2G4 | z2A2_B2A2 | G4z2
+d2 | d2d2A2d2 | c2_B2c2A2 | G4z2
+d2 | _B2A2G2D2 | G3A_B2c2 | d_BAGA4 | G6
+S:https://www.folktunefinder.com/tunes/68720
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

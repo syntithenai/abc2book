@@ -1,0 +1,24 @@
+X:2
+T:Auld Luckie
+M:4/4
+L:1/8
+Q:128
+K:C
+c/c3/e3/c/ g3/c/e3/c/|G3/A/G3/F/ E/G3/G2|c/c3/e3/c/ g3/c/e3/c/|d3/e/d3/c/ B/d3/d2|
+W: C C C C C C D7 G
+c/c3/e3/c/ g3/c/e3/c/|G3/A/G3/F/ E/G3/G3/c/|A3/B/c3/d/ e3/f/g3/a/|(3gfe(3def e/c3/ce|
+W: C C C C F C G7 C
+g/g3/e3/g/ a3/g/e3/c/|G3/A/G3/F/ E/G3/G2|g/g3/e3/g/ a3/g/e3/c/|d3/e/d3/c/ B/d3/d2|
+W: C C C C C C D7 G
+g/g3/e3/g/ a3/g/e3/c/|G3/A/G3/F/ E/G3/G/c3/|(3agf(3gfe (3fed(3edc|B/d3/g3/f/ e/c3/c2|
+W: C C C C F C Dm C G7 C
+S:https://www.folktunefinder.com/tunes/19183
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Auld_Luckie_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Auld_Luckie_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

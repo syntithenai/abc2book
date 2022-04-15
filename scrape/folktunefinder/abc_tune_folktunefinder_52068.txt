@@ -1,0 +1,32 @@
+X:3
+T:In Continental Mood
+C:Andy Cutting
+R:Mazurka (or waltz)
+Z:Steve Mansfield
+Z:chords added by Moshe Braner
+M:3/4
+L:1/8
+Q:1/4=150
+%F:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/InContinentalMood.abc 2003-07-02 09:44:19 UT
+K:G
+ga |\
+"G"b2 bb ab |    g2 gb ab | "(Em)"g2 gb ab |     ga ba gf |
+"C"e2 ee fg | "G"d2 dd fg |    "C"c2 ce fg | "D7"a2 aa ga |
+"G"b2 bb ab |    g2 gb ab | "(Em)"g2 gb ab |     ga ba gf |
+"C"e2 ee fg | "G"d2 de fg |   "D7"a2 ba gf |  "G"g3 dBA   ||
+"G"G2 BG Bd | "Bm"F2 BF Bd | "Em"E2 GE GB | "D7"AA BA GF |
+"G"G2 BG Bd | "Bm"F2 BF Bd | "Em"E2 GE GB | "D7"A4    GA |
+"B7"B2 ^dB ^df| "Em"ga gf ef | "D"d2 fd fa | "B7"bc' ba gf |
+"C"e2 ee fg | "G"d2 de fg |   "D7"a2 ba gf | "G"g4 ||
+S:https://www.folktunefinder.com/tunes/52068
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/InContinentalMood.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/InContinentalMood.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Mazurka (or waltz)
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

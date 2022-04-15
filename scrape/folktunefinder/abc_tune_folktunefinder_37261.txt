@@ -1,0 +1,25 @@
+X:5910
+T:Stam' Villum's Stykke
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b38.html
+%%ID:00000b38
+K:D
+fa ef| {e}de/d/ cA| dd ee | {e}fd/f/ e2|\
+ef ef| {e}de/d/ ce| d/e/f/g/ ac| d2 d2||
+ef e/e/g| af {a}fe| ef eg/g/| af/f/ ea/a/|\
+gf ef/e/| de/d/ ce| d/e/f/g/ aA| d2 d2|]
+S:https://www.folktunefinder.com/tunes/37261
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

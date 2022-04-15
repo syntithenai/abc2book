@@ -1,0 +1,23 @@
+X:735
+T:Branle de Rat
+M:4/4
+O:France
+R:Branle
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006b3.html
+%%ID:000006b3
+K:G
+B2B2 B2AB|c2B2 A4|A2A2 A2GA|G2A2 B2G2|\
+B2B2 B2AB|c2B2 A4|d2d2 d2cc|B2A2 G4||
+M:6/8
+B2G B2G|DEF E2D|B2G B2G|DEF G3:|
+S:https://www.folktunefinder.com/tunes/36226
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

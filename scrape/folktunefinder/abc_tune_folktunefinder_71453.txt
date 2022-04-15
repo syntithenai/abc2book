@@ -1,0 +1,25 @@
+X:424
+%%topmargin 3cm
+T:Perth Assembly
+C:S. Duncan
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+c | A2 (cA) TB2 (dB) | {/d}c2 (Ac) BGGB | A2 (cA) Bcde | fcdB AFF :| f | a2 (fa) {/a}g2 (eg) | ~f2 (df) ecce |
+Td2 (Bd) {/d}c2 (Ac) | ~B2 (GB) AFFf | aafa ggeg | ffdf ecce | ddBd ccAc | defg af~f |]
+S:https://www.folktunefinder.com/tunes/71453
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Perth_Assembly.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0424.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

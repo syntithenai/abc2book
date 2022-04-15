@@ -1,0 +1,27 @@
+X: 52
+T:Moggy Lauder. WCl.52
+M:C|
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:D
+d>e d>f d>e d>f|e>f g/2f/2e/2d/2 (c>d) e2|!
+f>d [df][df] df d/2e/2f/2g/2|a>b a/2b/2a/2g/2 f>g a2|!
+g>a g>b f>g f>a|e>f g/2f/2e/2d/2 c>d e2|!
+d/c/B/A/ B/A/G/F/ G/F/E/D/ E>g|"sic"f>ga e/g/f/e/d/2 D2:|]
+S:https://www.folktunefinder.com/tunes/40808
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

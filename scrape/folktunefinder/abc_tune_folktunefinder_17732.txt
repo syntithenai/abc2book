@@ -1,0 +1,25 @@
+X: 1
+T:Mrs Hubards Reel. WCl.35
+M:2/4
+L:1/8
+Q:400
+S:William Clarke MS,Lincoln,1770.
+R:reel
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:C
+cege|cege|dcde|d/2d/2d"qu in MS"d2|cege|cege|BGAB|c/2c/2c c2::!
+G2E2|F2D2|E2C2|D/2D/2D D2|G2E2|c4|ecde|c/2c/2c c2:||
+S:https://www.folktunefinder.com/tunes/17732
+S:http://trillian.mit.edu/~jc/music/abc/reel/Mrs_Hubards_Reel_WCl_35_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Mrs_Hubards_Reel_WCl_35_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Mrs_Hubards_Reel_WCl_35_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

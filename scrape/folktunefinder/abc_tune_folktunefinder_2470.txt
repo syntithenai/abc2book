@@ -1,0 +1,44 @@
+X:1
+T:Meine Seel' erhebt den Herren
+S:Bach/Riemenschneider #358
+C:J.S. Bach
+Z:Jack Campin, November 1999
+N:Example of the "BarFly" interpretation of clefs, which requires using commas
+N:in the bass clef, as unmarked letters are given their treble pitch.
+N:The bass,, notation is the simplest correction for this with abc2ps.
+M:C
+L:1/4
+Q:1/4=120
+K:GMin
+V:1 up
+V:2 merge down
+V:3 bass,, up
+V:4 bass,, merge down
+K:GMin
+[V:1] d2  f2 |d  d  d  d |e2    d2   |c2    c2 |HB4  |
+[V:2] G2  F2 |F ^F  G  A |G     F2 G |G2    F2 |HF4  |
+[V:3] B,2 C2 |D  C  B, A,|B,    C2 B,|B,2   A,2|HD4  |
+[V:4] G,2 A,2|B, A, G,^F,|G, A, B, G,|E, C, F,2|HB,,4|
+%
+[V:1] d2  f2 |c  c  c  G |B2    A2 |HG4  |d2  f2 |d  d d  d |e2   d2   |c2    c2 |HB4  |
+[V:2] F4     |F  F  E  G |G2   ^F2 |HD4  |G2  A2 |F3     ^F |G  A B2-  |B  B  B A|HF4  |
+[V:3] B,4    |A, C  C  C |D3      C|HB,4 |B,2 C2 |D  C D2   |D  C B, F |G2    F C|HD4  |
+[V:4] B,2 D,2|F, A, G, E,|D, C, D,2|HG,,4|G,2 F,2|B, C B, A,|B, C F, D,|E, C, F,2|HB,,4|
+%
+[V:1] d2     f2   |c  c  c c |c2    G  A|B2     A2   | G4-        |G4-        |G4       |HG4  |]
+[V:2] z4          |F  G  A B |c2    C2  |D2     D  C |=B, D  G  F |E4-        |E2  D  C |HD4  |]
+[V:3] z2     F, G,|A, B, C2- |C  D =E ^F|G2    =F  E | D =B, C  D-|D  G, C2-  |C2 =B, A,|H=B,4|]
+[V:4] B,, C, D, E,|F,3     G,|A, B, C2  |B,, C, D, E,| F,2   E, D,|C, D, E, F,|G,4      |HG,,4|]
+S:https://www.folktunefinder.com/tunes/2470
+S:http://trillian.mit.edu/~jc/music/abc/test/MeineSeelErhebtDenHerren.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/MeineSeelErhebtDenHerren.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/MeineSeelErhebtDenHerren.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/MeineSeelErhebtDenHerren.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

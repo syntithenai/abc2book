@@ -1,0 +1,25 @@
+X:1
+T:She Moved Through the Fair
+R:Air
+M:3/4
+L:1/4
+Z:Paul T. Kinder 
+Q:55
+K:Bb
+"Bb"(3B,/2C/2D/2 | "Ab"E "Gm"D "Ab"E | "Bb"F F2- | "Bb"F2 E/2C/2 |
+"Ab"_A,3/2 B,/2 B, | "Bb"B,3- | "Bb"B,2 F/2G/2 | "Bb"_A B3/2 F/2 |
+"Gm"G F3/2 D/2 | "Ab"E D E | "Bb"F3- | "Bb"F2 F/2G/2 |
+"Bb"_A B3/2 F/2 | "Gm"G F3/2 D/2 | "Ab"{EF}E D E | "Bb"F3- | "Bb"F2 (3B,/2C/2D/2 |
+"Ab"E "Gm"D "Ab"E | "Bb"F F2- | "Bb"F2 E/2C/2 | "Ab"_A,2 B, | "Bb"B,3- | "Bb"B,2 |]
+S:https://www.folktunefinder.com/tunes/13320
+S:http://trillian.mit.edu/~jc/music/abc/air/SheMovedThroughTheFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/SheMovedThroughTheFair.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

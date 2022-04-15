@@ -1,0 +1,29 @@
+X:1
+% Copyright 1938 by Gershwin Publishing Corporation
+T:Love is here to stay
+M:4/4
+L:1/4
+C:George & Ira Gershwin
+Q:1/4=130
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 ||"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "F/A"x2 "( Bb7"" "x2 | "Am7""D7"x2 "D7 )"" "x2 |
+"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "( Fmaj7""Eb7"x2 "D7"x2 | "Bm7b5""G7"x2 "E7"" "x2 ||
+V:melody
+CDA || F4 | F/GF/ GG | F4 | zCDc |
+S:https://www.folktunefinder.com/tunes/18839
+S:http://trillian.mit.edu/~jc/music/abc/song/Love_is_here_to_stay.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Love_is_here_to_stay.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/love_is_here_to_stay.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/love_is_here_to_stay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

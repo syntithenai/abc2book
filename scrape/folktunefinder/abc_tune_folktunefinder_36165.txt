@@ -1,0 +1,27 @@
+X:430
+T:Bockeluras polska
+L:1/8
+M:3/4
+O:Sweden
+R:Polska
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c98.html
+%%ID:00000c98
+K:C
+(A2 |\
+d)(A B)(^c d)(e | f)(f e)(f d)>(e | f)(g a>)(g e)(^c | d)>^c A2A2 |
+d(A B)(^c d)(e  | f)(f e)(f d)>(e | f)(g a>)(g e)^c  | d2 d3 A ::
+%
+a2 ^g2 a2  | f(f e)(f d)>(e | f)(g a>)(g e)^c | d>^c A2 A2 |
+aa ^g2 a2  | f(f e)(f d)>(e | f)(g a>)(ge)^c  | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/36165
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

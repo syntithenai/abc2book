@@ -1,0 +1,43 @@
+X:839
+T:Xiraldilla (CT 273)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Xixn.
+A:Asturies
+O:Xixn
+Z:Cancioneru de Torner 273
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|dd>c|(B2(3A/G/F/)|G3|d/d/d/d/d/c/|e d2|
+dd>c|Bc>B|(3A/G/F/ G2-|G z F|
+|GAF|G2 F|GAF|G2 B|
+d d/d/c/B/|cAF/G/|A B/c/A/F/|G z B|
+d d/d/c/B/|cAF/G/|A B/c/A/F/|G2 z||
+W:Piqu al candado;
+W:tu para tener amores,
+W:tienes el sueo pesado.
+W:
+W:Aprtese ust,
+W:no le trie un pie,
+W:que soi moli, molinera
+W:de la farinarinar,
+W:que soi moli, molinera
+W:de la farinarinar.
+W:
+S:https://www.folktunefinder.com/tunes/59726
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

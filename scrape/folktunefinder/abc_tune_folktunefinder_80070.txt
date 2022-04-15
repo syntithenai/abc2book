@@ -1,0 +1,26 @@
+X:11
+T: Das Dollerlied
+N: A0374C
+O: Europa, Mitteleuropa, Deutschland
+N: M. Praetorius, Mus. Sion. 1610. VIII. 215. Vgl. Souterliedekens
+N: 1540 ad Ps. 82.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/4
+L: 1/4
+K: D
+d2 | d=cBA | G2A2B=c2c | d2B2A2z
+d | d=cBA | G2A2B=c2c | d2B2A2z
+A | AGAB | =c2c2cA2A | GG=F4=c2
+c2cc2Ac2 | A2A2=c2cd- | ddAB=c2BA- | A=FG2E4 | D6
+S:https://www.folktunefinder.com/tunes/80070
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

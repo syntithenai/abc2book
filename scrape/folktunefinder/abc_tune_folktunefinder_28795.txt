@@ -1,0 +1,42 @@
+X:2515
+T:Cantar d'nimes (CT 446)
+R:nimes
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de nimas, transcrita en Cuideiru.
+N:(Ver CT 173 y CT 174).
+O:Cuideiru
+A:Asturies
+Z:Cancioneru de Torner 446
+M:6/8
+L:1/8
+Q:1/4=66
+W:Las nimas esta noche,
+W:traen pedimento divino:
+W:el andar de puerta enpuerta
+W:pidiendo por Jesucristo.
+W:
+W:Si quieren saber, seores,
+W:lo que las nimas pasan,
+W:metan la mano en el fuego
+W:y vern cmo se abrasan.
+K:C
+G
+|c2 c cee|(d3/2e/4d/4)c-c2 G|
+c2 c cee|(d3/2e/4d/4)c-czd|
+(c3/2d/4c/4)A cde|{d}(B3/2c/4B/4)A-AzA|
+d2 c Acd|{c}(A3/2B/4A/4)G-G ||
+S:https://www.folktunefinder.com/tunes/28795
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Nimes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

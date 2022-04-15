@@ -1,0 +1,42 @@
+X:3858
+T:Danza de San Pabln (CT 178)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cuideiru.
+N:Se llama Danza de San Pabln, por ejecutarse especialmente en el da de la festividad de San Pablo.
+N:Intervienen solamente mujeres, y cantan divididas en coros.
+O:Cuideiru
+A:Asturies
+Z:Cancioneru de Torner 178
+M:6/8
+L:1/8
+Q:3/8=80
+W:1 Coro
+W:-------
+W:Vlgame la Soberana!
+W:Hemos de seguir danzando
+W:hasta venir la maana.
+W:
+W:2 Coro
+W:-------
+W:Hasta venir la maana,
+W:hemos de seguir danzando,
+W:Vlgame la Soberana!
+K:Gm
+|:"1 Coro"GBB BBc|A2G- G3|AAA AAA|G2^F- F3|
+GBB BBc|A2G- G2z|"2 Coro"Bdd ddc|A2G- G3|
+ccc ccB|G2^F- F3|GBB BBc|A2G- G2 z:||
+S:https://www.folktunefinder.com/tunes/60047
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

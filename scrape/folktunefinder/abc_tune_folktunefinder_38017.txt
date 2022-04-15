@@ -1,0 +1,27 @@
+X:16646
+T:The Drummer
+% Nottingham Music Database
+S:FTB 2/14, via EF
+M:4/4
+L:1/4
+K:Am
+P:A
+E|"Am"A/2B/2c/2A/2 EE/2^F/2|"G"G/2A/2B/2c/2 d/2B/2G/2B/2|"Am"A/2B/2c/2A/2 Ef|\
+"E7"e/2d/2c/2B/2 "Am"A:|
+P:B
+A/2B/2|"C"cc/2e/2 "G"dd/2e/2|"C"cc/2e/2 "G"d/2B/2G/2B/2|"C"cc/2e/2 "G"dd/2f/2|\
+"E7"e/2d/2c/2B/2 "Am"A:|
+P:B alt
+A/2B/2|"C"c/2B/2c/2e/2 "G"d/2c/2d/2e/2|"C"c/2B/2c/2e/2 "G"d/2B/2G/2B/2|\
+"C"c/2B/2c/2e/2 "G"d/2c/2d/2f/2|"E7"e/2d/2c/2B/2 "Am"A||
+S:https://www.folktunefinder.com/tunes/38017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

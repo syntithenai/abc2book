@@ -1,0 +1,27 @@
+X:350
+T: ICH BIN NUR EIN MATROSE
+N: E1506
+O: Europa, Mitteleuropa, Deutschland, Helgoland
+R: Staende -, Seemanns - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G3GG2GA | G4G2
+GA | B2B2B2Bc | B4z2
+A2 | G2A2B2c2 | d4c2
+B2 | B2A2A2A2 | A6
+D2 | c2c2c2c2 | e4d2
+c2 | B2B2B2B2 | d4c2
+B2 | E2E2E2E2 | A4c2
+A2 | G2G2F2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/79454
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, seemanns - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 2
+T:Quadrille,A. JMT.002
+T:Favourite Italian Dance,aka. JMT.002
+M:6/8
+L:1/8
+Q:100
+C:Favourite Italian Dance,aka.
+S:John Moore,Tyneside,1841. (01b)
+R:Quadrille
+O:England
+A:Northumbria
+N:See Staffs MS.CGP
+H:1841
+Z:vmp.John Adams
+K:D
+A | f2 A f2 A | fgf efe | d2 c def | e3 a2 A |!
+   f2 A f2 A | fgf efe |dcB dcB | f3 f2 :||:!
+ A | ABc def | a2 g e2 d | cde ABc | e2 d f2 g | !
+ABc def | f2 e c2 d | cde ABc |  e3 d2 :||
+S:https://www.folktunefinder.com/tunes/52891
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 1
+T: Mairi's Wedding
+T: Lewis Bridal Song
+C: John Bannerman (1935)
+O: Trad
+H: The well-known words for this song, and the Scottish Country Dance that goes
+H: with it, were written for Mary McNiven, born in 1908, and still alive in 1998.
+H: The lyrics were written by Johnny Bannerman for her birthday in 1935, in Gaelic.
+H: Her wedding to Captain John Campbell was in 1941.  The tune itself is older.
+H: It was published in Marjory Kennedy-Fraser's "Songs of the Hebrides" (1909).
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+f "A"\
+[| "D"A>A AB | de f2 | "G"ed Bd | "A7"fe fa \
+|  "D"A>A AB | de f2 | "G"ed BG | "A7"A2 A2 |]
+"B1"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"a>a ab | ag f2 | "G"ed BG |1 "A7"A2 A2 :|2 "A"AB/c/ d/e/f/g/ |]
+"B2"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"A>A AB | de fg | "G"a>f "A7"fe | "D"d2 z2 |]
+S:https://www.folktunefinder.com/tunes/15539
+S:http://trillian.mit.edu/~jc/music/abc/march/LewisBridalSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LewisBridalSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LewisBridalSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/march/LewisBridalSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LewisBridalSong.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

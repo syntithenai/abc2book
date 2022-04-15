@@ -1,0 +1,34 @@
+X:785
+T:Xiraldilla (CT 127)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Andrs Llabona Llabona, de veinticuatro aos, de Torazo, ayuntamiento de Cabranes.
+A:Asturies
+O:Torazo (Cabranes)
+Z:Cancioneru de Torner 127
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+|ddd|eeB|d c2|eee|gfe|dBd|dcA|BGc|cBA|BGc|cBA|B2 A|cBA|(B>A)G-|G2 z||
+W:Era morena y graciosa,
+W:de amores fuimos hablando.
+W:Dime, resalada,
+W:yo te dir cuando,
+W:que puse el amor
+W:en un asturiano.
+W:
+S:https://www.folktunefinder.com/tunes/59672
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

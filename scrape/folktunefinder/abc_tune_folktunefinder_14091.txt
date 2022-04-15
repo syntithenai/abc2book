@@ -1,0 +1,34 @@
+X: 1
+T: the Directors
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+GBd \
+| "G"e2d ^c2d | B3 GBd \
+| e2d ^c2d | "Am"c3- c3 \
+| "D7"f3- e2z | f3- e2z \
+|1 f2e d2c | "G"B3 \
+:|2 "D7"d2d def | "G"g3 gf=f ||[K:C]
+|| "C"e3 ^d2e | G3- G3 \
+| GAB "(D7)"cBA | "G"B3- B2G \
+| "G7"f3 e2f | G3- G3 \
+| GAB cd^d | "C"e3- e3 |
+| "C"e3 ^d2e | G3- G3 \
+| "C7"GAB cde | "F"f3 A3 \
+| A^GA f2A | "C"G^FG e2c \
+| "G7"B^AB e2d | "C"c3 |]
+S:https://www.folktunefinder.com/tunes/14091
+S:http://trillian.mit.edu/~jc/music/abc/jig/Directors_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Directors_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

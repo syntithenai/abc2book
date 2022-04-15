@@ -1,0 +1,30 @@
+X:24
+T:Newburn Lads
+C:Trad
+S:Northumbrian Minstrelsy
+M:4/4
+K:G
+L:1/16
+Bc|\
+L:1/8
+dBGB dBGB| dBdg f2 ed| ecAc ecAc| edef gage|  dBGB dBGB| dBdg f2 df|\
+afge fdgB|\
+L:1/16
+AAA2\
+L:1/8
+Bd e2 e::e| dgBg dgBg|dgBg fedf| eaca eaca|ecef gage| dgBg dgBg|\
+dgBg fedf|afge fdgB| \
+L:1/16
+AAA2\
+L:1/8
+Bd e2 e:|
+S:https://www.folktunefinder.com/tunes/75507
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/north1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/north1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

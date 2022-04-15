@@ -1,0 +1,32 @@
+X: 1
+T: Rafe's Waltz [Am]
+N: from Ralph Vaughan Williams' "English Folk Song Suite"
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: Ador
+E2 \
+| "Am"A2 A2 BA | "G"G2 A2 B2 | "C"e2 ed    BA | "G(Em)"G2 A2 B2 \
+| "Am"A2 A2 BA | "G"G2 A2 B2 | "C"e2 g2 "D"f2 | "E(m)"e4 ||
+dd \
+| "Am"e2 e2 a2 | "C"e2 f2 g2 |  "G"Bd ed    BA | "Em"G2 A2 B2 \
+| "Am"A2 A2 BA | "G"G2 A2 B2 | "Em"e2 ed    B2 | "Am"A4 |]
+"G"dB \
+| "Am"A2 A2 BA | "G"G2 A2 B2 | "C"e2 ed    ed | "G"B2 d2 dB \
+| "Am"A2 A2 B2 | "G"G2 G2 A2 | "C"e2 e2 "D"d2 | "E(m)"e4 ||
+d2 \
+| "Am"e2 e2 a2 | "C"e2 f2 g2 |  "G"B2 dB    AG | "Em"E4 E2 \
+| "Am"A2 A2 B2 | "G"G2 G2 A2 | "Em"e2 ed    B2 | "Am"A4 |]
+S:https://www.folktunefinder.com/tunes/20155
+S:http://trillian.mit.edu/~jc/music/abc/waltz/RafesWaltz_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/RafesWaltz_Am.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

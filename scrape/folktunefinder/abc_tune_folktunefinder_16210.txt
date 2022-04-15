@@ -1,0 +1,44 @@
+X: 1
+T: Redwing
+T: Union Maid
+R: polka
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Forms of this tune are found throughout the British Isles and
+N: Scandinavia, and many sets of words have been written to it.
+M: C|
+L: 1/4
+K: G
+D \
+|: "G"G>D GB \
+| d3 B \
+| "C"ce ge \
+| "G"d3 B \
+|  "Am"cc/B/ "D7"Ac \
+| "G"BB/A/ "Em"GB |
+|1 "A7"AG FG \
+| "D7"AF ED \
+:|2 "A7"AG "D7"FA \
+| "G"G2 \
+|| gf \
+|: "C"e2 c2 \
+| eg fe \
+| "G"d2 B2- |
+| Bd ed \
+| "D7"d2 A2- \
+|1 Ad ed \
+| "G"d2 B2- \
+| Bg _gf \
+:|2 Ac BA \
+| "G"G4- \
+| G3 |]
+S:https://www.folktunefinder.com/tunes/16210
+S:http://trillian.mit.edu/~jc/music/abc/polka/Redwing_G3.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:162
+T: ES MURMELN DIE WELLEN
+N: B0194
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Wasser
+M: 6/8
+L: 1/8
+K: F
+c | c4Ad | c4A
+f | e4de | f4e
+d | c4Ad | c4A
+f | e4de | f3z2
+F | f4ed | c4B
+A | G4AB | A3z2
+F | f4ed | c4B
+A | GdcBAG | F3z2
+S:https://www.folktunefinder.com/tunes/78183
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied, wasser
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

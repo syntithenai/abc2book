@@ -1,0 +1,21 @@
+X: 2
+M: C
+L: 1/8
+P: Alabama Gal (D)
+K: D
+[| "D"d2 d4 B2 | "D"d4 f4 | "D"d2 d4 B2 | "G"B4 "A7"A4 |
+| "D"d2 d4 B2 | "D"d4 f4 | "(G)"f2 a2 "A7"f2 e2 | "D"d8 |]
+S:https://www.folktunefinder.com/tunes/3194
+S:http://trillian.mit.edu/~jc/music/abc/Contra/AlabamaGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/AlabamaGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/program/special/AlabamaGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/program/special/AlabamaGal.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/AlabamaGal.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/AlabamaGal
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/AlabamaGal.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

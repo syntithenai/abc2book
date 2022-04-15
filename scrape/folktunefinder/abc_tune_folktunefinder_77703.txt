@@ -1,0 +1,20 @@
+X:10
+T:Hunt
+Z: id:dc-setdance-10
+M:C|
+L:1/8
+K:G Major
+D2|GABG AGEG|cBce dcBA|GABG AGED|EAAG AcBA|!
+GABG AGEG|cBce dcBA|GABG AGED|(3EFG FA G2:|!
+D2|GABc d2de|=f2f2 f2ed|e2e2 efge|d2de d2cB|!
+cBcd edcB|A2AB A2G2|g2g2 gedB|A2AB A2|]!
+S:https://www.folktunefinder.com/tunes/77703
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Setdance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

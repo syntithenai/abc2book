@@ -1,0 +1,25 @@
+X: 1
+T: Craigroyal
+C: Bernard Dixon
+R: strathspey
+B:
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+  E2 \
+| "A"C3 E A<E A<c | "D"F>A F<A "A"E2 A>E |1 "A"C3 E A>c e>d | "B7"c2 B2 "E7"B2 \
+                                        :|2 "E7"EG D>E F>G | "A"A4 A2 |]
+|: c>d \
+| "A"e4 c2 e2 | "D"f>d A<f "A"e2 c>d |1 "A"e2 A2 c2 A2 | "B7"(3dcB (3AGF "E7"E2 \
+                                    :|2 "A"e>c A<E "E7"c>B G<E | "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/19284
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Craigroyal_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Craigroyal_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

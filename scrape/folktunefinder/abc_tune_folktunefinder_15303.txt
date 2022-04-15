@@ -1,0 +1,24 @@
+X: 1
+T: Alastair of the Dun
+D: Andrew Rankine
+Z: Nigel Gatherer
+F: http://www.ibiblio.org/fiddlers/AI_ALI.htm
+N: Chords by John Chambers
+M: 2/4
+L: 1/16
+K: Gm
+|: "Gm"G2G2 B4   | B2AG "F"A4 |    c2cc F2F2 | cccc F2F2 | "Gm"G2G2 B4   | B2AG "F"A2Bc | "Gm"d2B2 "F"c2A2 | "Gm"G4 G4 :|
+|: "Gm"d2c2 G2Ac | d2c2    G4 | "F"c2A2 F2AB | c2A2 F4   | "Gm"d2c2 G2Ac | d2c2    G2Ac |     d2B2 "F"c2A2 | "Gm"G4 G4 :|
+S:https://www.folktunefinder.com/tunes/15303
+S:http://www.ibiblio.org/fiddlers/AI_ALI.htm
+S:http://www.ibiblio.org/fiddlers/AI_ALI.htm
+S:http://trillian.mit.edu/~jc/music/abc/march/AlisdairOfTheDun_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/AlisdairOfTheDun_Gm.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

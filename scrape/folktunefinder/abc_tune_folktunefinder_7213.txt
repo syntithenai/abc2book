@@ -1,0 +1,29 @@
+X: 1
+T: A Nacht in Gan Eydn
+T: A Night in the Garden of Eden
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K: Dm
+|: A,DE \
+| "Dm"F2 ED | F2 ED | EF D2 | "C7"zCFG | "F"A2 GF | A2 GF | GA F2 | "(C7)"zCFA |
+| "F"c2 "C7"B2 | "F"A2 GF | "A7"FG FE | "Dm"D3 "C7"C | "F"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+|: A \
+| "Dm"Ad dd | dA f/e/d | "D7"^cd BA | "Gm"G3 G | ^FG AB | "A7"^cd cB | "Dm"A4- | A2 "C7"C2 |
+| "F"CF FA | cc "D7"BA | "Gm"dG GG | GA/G/ "A7"FE | "Dm"D2 AF |1 "A7"GG FG | "Dm"A4 | ~d3 :|2 "Gm"GG "A7"FE | "Dm"D4- | D ||
+|: ABA \
+| "Dm"~d4 | "A7"zAFE | "Dm"D4 | "A7"ZABA | "Dm"f4- | (3fed "A7"(3^cde | "Dm"d4 | zc=Bc |
+| "D"d_e dc | "F"=Bc _BA | =Bc _BA | "Gm"G3F | "Dm"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+S:https://www.folktunefinder.com/tunes/7213
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/NachtInGanEydn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/NachtInGanEydn_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/NachtInGanEydn_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/NachtInGanEydn_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/NachtInGanEydn_Dm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

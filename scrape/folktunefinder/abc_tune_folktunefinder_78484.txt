@@ -1,0 +1,27 @@
+X:43
+T: HOORT TOE GY ARM' EN RYKE
+N: E0027
+O: Europa, Mitteleuropa, Niederlande; Frankreich, Flandern
+R: Helden - Sage, erzaehlendes Volks - Lied
+M: 6/8
+L: 1/8
+K: D
+D | D2AA2G | G2=FF2
+F | =F2FG2G | A4z
+D | D2AA2G | G2=FF2
+F | =F2FG2G | A4z
+A | =c2cA2A | G3=F2
+F | G2GA2A | G2=FE2
+E | E2EE2=F | G3G2
+G | A2AG2A | =F2ED2
+S:https://www.folktunefinder.com/tunes/78484
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Helden - sage, erzaehlendes volks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

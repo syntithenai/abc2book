@@ -1,0 +1,24 @@
+X:220
+T:Stumpie
+B:Aird's Airs and Melodies vol 2
+M:C|
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000f4.html
+%%ID:000000f4
+K:G
+c|\
+Bd g2 (ag/f/) g2| Bd g2 a(AA)c|\
+Bdg2 {b}(ag/f/)g2| B/c/d A/B/c BGG::
+c|\
+BcdB cdec| BcdB c(AA)c| \
+BcdB cdec| (B/c/d) (A/B/c) BG G:|
+S:https://www.folktunefinder.com/tunes/30353
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

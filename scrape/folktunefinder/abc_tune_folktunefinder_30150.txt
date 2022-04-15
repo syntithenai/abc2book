@@ -1,0 +1,30 @@
+X:0
+T:Da mihi Manum
+G:harp tune
+C:Rory Dall (Scotland, 17th century)
+N:not the Irish harper of the same name 100 years
+N:previously, despite what you read in some books
+S:Dan Wright, Aria di Camera c.1726
+N:arrangement for the transverse flute
+M:6/4
+L:1/4
+Q:1/4=120
+K:EMin
+D|EGG    G2E   |EGG     G2E   |EGG     GAB   |Bed          B2A/G/|
+  AAe    BBd   |A>BA/G/ E2D   |EGG     g2D   |EGG          g2D   |
+  EGG    gab   |d>ba/b/ g2D   |EGG     GAB   |Bed          B2A   |
+  AAe    BBd   |ABd     e2d/B/|dde     g2e/d/|eeg          a2g/e/|
+  ggd/e/ ggd/e/|gga     b3    |bbb     b2a/g/|a/g/a/b/a/b/ a2g   |
+  eeg/e/ dde/d/|BBd/B/  A2G   |GGB/d/ =f2e/d/|eeg          e2d/B/|\
+  ddg    BBd   |A>BA/G/ E2D  |]
+S:https://www.folktunefinder.com/tunes/30150
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:1
+T:Salve Regina
+T:per soprano con accomp. di 2 violoni, cembalo e basso
+C:G.B. Pergolesi
+M:C
+L:1/8
+%%header "Salve Regina$P / 10"
+%%newpage 1
+%%staves {1 2 3 4}
+K:Am
+V:1 dyn=down name="No 1"
+Q:"Largo"
+!pp!z4(bd')(c'b)|(c'/b/a)z2x4|(df)(ed) (e/d/c) x2|
+V:2 stem=down
+a4-a3^g|a/^g/ax2c4-|c3B c/B/c z/('[ce]/[ec']/[ce]/)|
+V:3
+x8|x8|x8|
+V:4
+(A,B,C)A, DB,EE,|A,3/A,/ =G,/F,/E,/D,/ (C,D,E,)C,|G,D,G,G,, C,C,A,(A,|
+V:1
+([ce][Bd]) z/([Bd]/[db]/[Bd]/) ([Bd][Ac]) z/([Ac]/[ca]/[Ac]/)|([Ac][^GB]) ([GB]/[Ac]/)([Ac]/[Bd]/)[Bd]2([Bd]/[ce]/)([ce]/[df]/)|f2^g2x4|z(!>(!fdB) x4!>)!|
+V:2
+x3!cresc!x3!unpoco!x2|x2!p!x6|!<(!df3!<)![ea]('ecA)|!f!F2z2[CA]2[B,^G]2|
+V:3
+x8|x8|x2B,2[A,E]2x2|x8|
+V:4
+B,)(B,^G,)(G, A,)(A,^D,)D,|E,Ez2E,E,,z2|=D,D,D,D,C,2z2|D,2z2E,2E,,2|
+%%staves s | {1 2 3 4}
+V:s
+"^SOPRANO"z8|z8|A4(Bd) (cB)|(c/B/) Az2c4|
+S:https://www.folktunefinder.com/tunes/45737
+S:http://moinejf.free.fr/abc/salve.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

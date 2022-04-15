@@ -1,0 +1,30 @@
+X: 1
+T: Gigue en sol
+O: Qu\'ebec
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://mustrad.udenap.org/partitions/TQ259.jpg
+M: 6/8
+L: 1/8
+K: G
+G \
+|: F2F FED | BGG G2B | c2A FED |  ~d3 dAG \
+|  F2F FED | BGG G2B | c2A FED |1 ~G3 GDG :|2 G3  G2d ||
+|: BGG Bdd | cdc Bdg | ~B3 BAG |  FAG FDD \
+|  BGG Bdd | cdc Bdg | e2d cAF |1  G3 G2d :|2 HG3 GdG |]
+S:https://www.folktunefinder.com/tunes/14233
+S:http://mustrad.udenap.org/partitions/TQ259.jpg
+S:http://trillian.mit.edu/~jc/music/abc/jig/GigueEnSol_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GigueEnSol_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/GigueEnSol_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GigueEnSol_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/GigueEnSol_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/jig/GigueEnSol_G.abc
+% Rhythm Jig
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

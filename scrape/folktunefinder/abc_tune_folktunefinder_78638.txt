@@ -1,0 +1,26 @@
+X:197
+T: GRAF FRIEDRICH WOLLT AUSREITEN
+N: E0107
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 4/4
+L: 1/8
+K: Bb
+F2 | B2F2GABG | F3ED2
+F2 | B2F2GABG | F3ED2
+B2 | c2A2F2F2 | e3cd2
+B2 | c2A2F2B2 | dccAB2
+B2 | c2A2F2F2 | e3cd2
+B2 | c2A2F2B2 | dccAB2
+S:https://www.folktunefinder.com/tunes/78638
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T:Farewell ye Green Fields. WCl.34
+M:6/8
+L:1/8
+Q:110
+S:William Clarke MS,Lincoln,1770.
+R:march
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+D|GDG BGB|d3 c3|BdB AGA|G3-G2::!
+d|dBd dBd|e3 c3|Bcd {e}dcB|(B3A2) D|!
+GDG BGB|d3 c3|BdB AGA|G3-G2:||
+S:https://www.folktunefinder.com/tunes/14166
+S:http://trillian.mit.edu/~jc/music/abc/jig/Farewell_ye_Green_Fields_WCl_34_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Farewell_ye_Green_Fields_WCl_34_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Farewell_ye_Green_Fields_WCl_34_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/Farewell_ye_Green_Fields_WCl_34_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

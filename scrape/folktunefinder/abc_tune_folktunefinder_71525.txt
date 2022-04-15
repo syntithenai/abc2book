@@ -1,0 +1,23 @@
+X:496
+%%topmargin 3cm
+T:Lord Macdonald
+C:Sir Alex. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+d>e{de}f>e d>BA>d TB>ABd e/e/e e>g | f>efb a>fef | d>BA>F D/D/D D2 ::
+A>DF>D A>Dd>A | B>EG>E Bee>B | d<aa>g Tf>efd | egTf>e d/d/d d2 :|
+S:https://www.folktunefinder.com/tunes/71525
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lord_Macdonald.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

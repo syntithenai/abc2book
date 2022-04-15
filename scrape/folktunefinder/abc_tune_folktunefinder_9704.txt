@@ -1,0 +1,40 @@
+X: 3
+P: Belladrum House
+Z: John Chambers <jc:trillian.mit.edu>
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems  (Lismore Recordings LILP5044, 1976)
+M: 4/4
+R: strathspey
+L: 1/16
+K: D
+A, \
+| "D"D2EF "G"G3B "D"A2-<F2 F3B | A2-<F2 F2ED "A7"E4- E3F \
+| "D"D2EF "G"G3B "D"A2-<F2 F3B | "A7"A2-<F2 F3E "D"D7 :|
+f \
+| "A"e3A f3A g3A f3A | e3A g3f e4- e3f \
+| e3A f3A g3A f3A | (3f2g2a2 (3g2f2e2 "D"d3A F3A |
+|  "D"d3f A2-<f2 d3f A2-<f2 | d3f A2-<f2 "A7"e4- e3g \
+| "D"(3f2g2a2 (3g2f2e2 "Bm"(3d2c2B2 (3A2G2F2 | "G"G3B "A7"A2-<F2 "D"D7 |]
+S:https://www.folktunefinder.com/tunes/9704
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS03.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BalquidderStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BalquidderStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/UpInTheAir.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/UpInTheAir1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/BalquidderStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/BalquidderStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/BalquidderStr.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090209/UpInTheAir1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Gramachie.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/BalquidderStr
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Gramachie
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:285
+T:the Battering Ram
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a89.html
+%%ID:00000a89
+K:D mixolydian
+B|\
+dBG BAG|dBG G2B|dBG AGE|GED D2B|\
+dBG BAG|B/^c/dB BAG|AGA BGB| GED D2:|
+|: B|\
+deg aga|bge edB|deg aga|bge ega|\
+bag age|ged e/f/ge|dBG AGE|GED D2:|
+|:e/d/ |\
+~B2G ~A2G|~B2D D2d|BAG AGE|EDD Ded|\
+~B2G ~A2G|B/^c/dB BAG|AGA BAB|GED D2:|
+S:https://www.folktunefinder.com/tunes/36136
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

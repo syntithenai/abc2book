@@ -1,0 +1,18 @@
+X: 40
+T: The Wild Colonial Boy
+O: 19th C. Australia
+M: 3/4
+L: 1/4
+K: D
+   A | "D"D2F | A2A | "G"B2G | "A7"E2D | CA,2 | F2E | "D"D3- | D2 ||
+|: A | "D"A2d | d2A |"A7"c2B |     E2F | G2A  | c2B | "A"A3- | A2 :|
+   A | "D"D2F | A2A | "G"B2G | "A7"E2D | CA,2 | F2E | "D"D3- | D2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13051
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

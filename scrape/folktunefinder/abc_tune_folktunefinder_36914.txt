@@ -1,0 +1,59 @@
+X:4175
+T:the Pap of Glencoe
+C:W. Lawrie
+M:2/4
+O:Scotland
+R:Pipe march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009b5.html
+%%ID:000009b5
+K:A mixolydian
+{gef}e2|\
+{g}A2{GdGe}A>{d}c {gef}e2{g}c>d|\
+{g}e<ad>f {gef}e>A {g}c<e|\
+{gef}d>G {g}B<{d}G {dc}d2{g}B>c|\
+{gef}d>G{g}f>e {gef}e>d{gcd}c>B|\
+{g}A2{GdGe}A>{d}c {gef}e2{g}c>d|\
+{g}e<ad>f {g}e<g{g}A>{d}c|\
+{g}B<d{g}G{d}B {GdG}e2{gef}e>d|\
+{gcd}c2{e}A2 {GAG}A2 ::\
+{g}c>d|\
+{gef}e>A {g}c<{d}A {ag}a2g>f|\
+{gef}e>A{g}c>d {gef}e2{g}B>c|\
+{gde}d>G {g}B<{d}G {dc}d2{g}B>c|\
+{gde}d>G{g}f>e {gef}e>d{g}c>d|\
+{gef}e>A {g}c<{d}A {ag}a2g>f|\
+{g}e<ad>f {g}e<g{g}A>{d}c|\
+{g}B<d{g}G{d}B {GdG}e2{gef}e>d|\
+{gcd}c2{e}A2 {GAG}A2 ::
+{gef}e2|\
+{gAGAG}A2{g}c<{d}A {gef}e2{g}c>d|\
+{g}e<ad>f {gef}e>A {g}c<e|\
+{gde}d>G {g}B<{d}G {dc}d2{g}B<d|\
+{gef}e>A {g}c<e {gde}d>G {g}B<{d}G|\
+{gAGAG}A2{g}c<{d}A {gef}e2{g}c>d|\
+{g}e<ad>f {g}e<g{g}A>{d}c|\
+{g}B<d{g}G{d}B {GdG}e2{gef}e>d|\
+{gcd}c2{e}A2 {GAG}A2 ::\
+{g}c>d|\
+{gef}e>A {g}c<e a>e {g}c<e|\
+{g}f<ad>f {gef}e>{g}A c<e|\
+{gde}d>G {g}B<d {a}g>d {g}B<d|\
+{gef}e>A {g}c<e {gde}d>G {g}B<d|1\
+{gef}e>A {g}c<e a>e {g}c<e|\
+{g}e<ad>f {g}e<g{g}A>{d}c|\
+{g}B<d{g}G{d}B {GdG}e2{gef}e>d|\
+{gcd}c2{e}A2 {GAG}A2 :|2\
+{gef}e>A{gAGAG}A2 {ag}a2g>f|\
+{g}e<ad>f {g}c<e{g}A>{d}c|\
+{g}B<d{g}G>{d}B {GdG}e2{gef}e>d|\
+{gcd}c2{e}A2 {GAG}A2|]
+S:https://www.folktunefinder.com/tunes/36914
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

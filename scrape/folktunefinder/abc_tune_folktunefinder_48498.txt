@@ -1,0 +1,23 @@
+X: 67
+T:Tailor's Thimble, The
+R:reel
+D:Dan: Think Before You Think
+Z:Devin McCabe
+M:C|
+L:1/8
+K:BMin
+dBcA BAFA|:dcde f2 ec|d ~B3 BAFA|BdcA B3 c|
+!dBBA ~F3A|dcde fdec|dBBA BAFA|BdcA B3 c|
+!d2 Bc dcde|f2 bf afea|fdBc ~d3 e|fbaf e^deg|
+!fdBc ~d3|f2 bf aefa|b ~f3 aefa|bfaf e^deg|fedc BAFA:|
+S:https://www.folktunefinder.com/tunes/48498
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irishtunes.net/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

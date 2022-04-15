@@ -1,0 +1,31 @@
+X:12
+T:A m me gusta la gaita (JHM 006) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 006
+L:1/8
+Q:3/8=72
+K:C
+|"C"ccc|cBc|"G7"d2 B|GBB|"Dm7"c2 A|"G7"FAA|"C"B2 G-|G2 z|
+"F"AAA|AAA|"Em"B2 G|"C"EGG|"Dm7"A2 F|"G7"DFF|"C"G2 E-|E2 z|
+ccc|cBc|"G7"d2 B|GBB|"Dm7"c2 A|"G7"FAA|"C"B2 G-|G2 z|
+"F"AAA|AAA|"Em"B2 G|"C"EGG|"Dm7"A2 F|"G7"DFF|"C"G2 E-|E2 z||
+W:A m me gusta la gaita, viva la gaita, viva el gaitero,
+W:a m me gusta la gaita que tenga el fuelle de terciopelo.
+W:A m me gusta lo blanco, viva lo blanco, muera lo negro,
+W:que lo negro es cosa triste, yo soy alegre, yo no lo quiero.
+W:
+S:https://www.folktunefinder.com/tunes/58899
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

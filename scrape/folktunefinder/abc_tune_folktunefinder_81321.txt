@@ -1,0 +1,23 @@
+X: 50
+T: Zwiefacher Neun Hauser
+O: Germany
+M: 2/4
+L: 1/8
+K: Eb
+[M:2/4]D2F2   |B2A2       | D2F2         |[M:3/4]d2d2d2|\
+c2d2e2        |[M:2/4]z4  |[M:3/4]B,2E2G2|B2BBB2       |
+[M:2/4]A2F2   |D2F2       |B2A2          |D2F2         |\
+[M:3/4]B2BBB2 |[M:2/4]A2F2|E2G2          |B2G2         |
+E2G2          |B2G2       |[M:3/4]e2eee2 |[M:2/4]B2G2  |\
+A2B2          | d2B2      |A2B2          |d2B2         |
+[M:3/4] d2ddd2|d2c2d2     |e4z2          |
+S:https://www.folktunefinder.com/tunes/81321
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

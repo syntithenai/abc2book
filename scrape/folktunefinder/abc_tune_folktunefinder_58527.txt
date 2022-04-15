@@ -1,0 +1,26 @@
+X:1
+P:The Marchioness of Huntly
+C:William Marshall
+R:Strathspey
+Z:arr. Terry Traub 6/5/96
+M:4/4
+K:Bb
+L: 1/8
+"Bb"B,>DF>D "Eb"E<G "Bb"F2|"Cm"G<cc>d "Eb"e/d/c/B/ "F"A/G/F/E/|\
+  "Bb"D>EF>D "Eb"E<G "Bb"F2|"Cm"G>c "F"B/A/G/F/ "Bb"B2-B2 :|
+"Bb"d>fB>f d>f e/d/c/B/|"F"A>cF>c "F7"A>cF>e|"Bb"d>fB>f d>f e/d/c/B/|\
+  "F"A/B/c/d/ B/A/G/F/ "Bb"B2 B,>e|
+"Bb"d>fB>f d/f/g/a/b2|"Cm"G<cc>d "Eb"e/d/c/B/ "F"A/G/F/E/|\
+  "Bb"D>EF>D "Eb"E<G "Bb"F2| "Cm"G>c "F"B/A/G/F/ "Bb"B2-B2 |]
+S:https://www.folktunefinder.com/tunes/58527
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FalkirkLassSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchionessOfHuntlyS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

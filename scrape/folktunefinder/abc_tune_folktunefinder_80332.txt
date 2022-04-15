@@ -1,0 +1,28 @@
+X:273
+T: Psalmlied
+N: A0626
+O: Europa, Mitteleuropa, Deutschland
+N: Luth Gsgb 1524
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: E
+B2 | E2B2=c2B2 | =G2A2B2z
+B | =c2=d2c2A2 | =G4=F4E2
+B2 | E2B2=c2B2 | =G2A2B2z
+B | =c2=d2c2A2 | =G4=F4E3
+A | =G2=c2B2A=d- | d=cB2A2z
+c | B2=c2=d2=G2 | B=cA2=G2z
+G | =c2B2A2E2 | =G4=F4G2
+S:https://www.folktunefinder.com/tunes/80332
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Text Has notes text
+% Has_accompaniment_chords No chords

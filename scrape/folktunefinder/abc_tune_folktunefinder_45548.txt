@@ -1,0 +1,33 @@
+X:114
+T:Steirer, Privatarchiv Hofer, Sammelgut Khals Leopold 19/3
+C:traditionell
+R:Steirer
+B:"Hundert Steirer aus dem Ausseerland", F .Hofer, Steirisches Volksliedwerk, Graz, undated,
+N:im buch in G, nr. 5
+S:Privatarchiv Hofer, Sammelgut Khals Leopold 19/3, Aussee, 1883 -1968
+A:Aussee, Salzkammergut
+M:3/4
+L:1/8
+K:G
+V:1
+%violino 1mo
+df |\
+gB d3 g | fA df a2 | fA d3 f | gB dg b2 |\
+gB d3 g | fA df a2 | fA df Af | g4 :|
+V:2
+%violino 2do
+Bd |\
+BG B3 d | cF Ad f2 | dF A3 d | BG Bd g2 |\
+BG B3 d | cF Ad f2 | dF Ad cd | B4 :|
+S:https://www.folktunefinder.com/tunes/45548
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

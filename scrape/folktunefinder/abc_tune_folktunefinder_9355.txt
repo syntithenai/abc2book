@@ -1,0 +1,32 @@
+X: 1
+P: Sommarvals
+C: Ale M\"oller
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+N: after a transcription by Karen Myers
+M: 3/4
+L: 1/4
+K: G
+   dc \
+| "G"B>AG | "D7"A2F | "C"G3 | E>FE \
+| "G"DGA | "Am"c2B | "(D7)"B{cB}AG | "D7"Adc |
+| "G"B>AG | "D/F#"A2F | "Em"G3 | "C"E>FE \
+| "G"DEG | "D7"G>AF | "G"G3- | G :|
+|: FG \
+| "D7"A>BA | AFD | "(C)"c3 | "G"B>AG \
+| "Am"EA/B/c | "Bm"d>cB/A/ | "Em"GFG | "D7"ABA |
+| "Em"G>AG | "Bm"F>GF | "C"E>FE | "G"DGA \
+| "G"B>AG | "D7"A{Bc}dF | "C"G3- | "G"G :|
+S:https://www.folktunefinder.com/tunes/9355
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals08.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals23.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

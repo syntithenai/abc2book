@@ -1,0 +1,36 @@
+X:441
+T:Bath Waltz,aka. CJF.230
+O:england
+M:3/8
+L:1/16
+Q:40
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:At the end, in the stave is "D.Capo - CJFox". The first two sections
+N:are similar to the lovely Bath Waltz in the John Clare collection. The
+N:last section does not scan. - PJH.
+K:G
+"p"(D2B2).G2|(D2B2).G2|{d2}c4AF|(GA).B.G D2|(D2B2).G2|\
+(D2B2).G2|{d}c4AF|G6:||:"f"d2defg|d2d2d2|
+B2BGce|d^cde d2|.d2(de)fg|d2d2d2|B2BdcA|{A2}G6:||:\
+K:C
+"p" (3(ccc) c2e2|g2e2c2|cBAGAB|
+cdec G2|(3(ccc) c2e2|g2e2c2|cBAGAB|c6:||:\
+"f"ec|(cB)BGBd|dccGce|eddGdf|
+fe^deec|cBBGBd|dccGce|defdcB|B2c2z:||
+K:G
+S:https://www.folktunefinder.com/tunes/20890
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

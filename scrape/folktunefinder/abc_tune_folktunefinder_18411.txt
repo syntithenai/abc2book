@@ -1,0 +1,43 @@
+X:1
+T:New Irish Barn Dance
+T:Swedish Barn Dance
+R:hornpipe
+D:DeDanann, "Star-Spangled Molly"
+D:the Flanagan Brothers in 1930 on a Columbia 78rpm.
+N:Used in the Swedish comedy "Under ditt parasoll" ("Under your parasoll"), 1968.
+S:Ted Hastings <ted@HASTINGS.NU> irtrad-l 2001-9-10
+Z:Jeff Myers
+M:C
+L:1/8
+K:D
+dc|d2 dB A2 AF|GFGA B2 BG|~A3B cdeg|fefe df
+ec|dedB A2 AF|GFGA B2 BG|(3AGA cB ABGE|(3DED FE D2:|
+(3Bcd|e2 e2 e3d|(3cBA Ac e4|(3BcB Bc e2 e2|(3cBA Ac e2
+(3Bcd|e2 e2 e3d|(3cBA Ac e3d|e2 ef edcB| A2 c2 A2:|
+dc|d2 dB A2 AF|GFGA B2 BG|~A3B cdeg|fefe df
+ec|dedB A2 AF|GFGA B2 BG|(3AGA cB ABGE|(3DED FE D2:|
+(3DEF|G6 e2|d6 B2|=cB=cB =c2 A2|BABA B2
+D2|G6 e2|=c6 e2|(3ded fe d=cBA|G2 B2 G2|
+(3DEF|G6 e2|d6 B2|=cB=cB =c2 A2|BABA B2
+D2|G6 e2|=c6 e2|(3ded fe d=cBA|G2 B2 G2:|
+dc|d2 dB A2 AF|GFGA B2 BG|~A3B cdeg|fefe df
+ec|dedB A2 AF|GFGA B2 BG|(3AGA cB ABGE|(3DED FE D2:|
+(3Bcd|e2 e2 e3d|(3cBA Ac e4|(3BcB Bc e2 e2|(3cBA Ac e2
+(3Bcd|e2 e2 e3d|(3cBA Ac e3d|e2 ef edcB| A2 c2 A2:|
+dc|d2 dB A2 AF|GFGA B2 BG|~A3B cdeg|fefe df
+ec|dedB A2 AF|GFGA B2 BG|(3AGA cB ABGE|(3DED FE D2:|
+S:https://www.folktunefinder.com/tunes/18411
+S:http://trillian.mit.edu/~jc/music/abc/shottish/NewIrishBarnDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/SwedishBarnDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scand/NewIrishBarnDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scand/SwedishBarnDance_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

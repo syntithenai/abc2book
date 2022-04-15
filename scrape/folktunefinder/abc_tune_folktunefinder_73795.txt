@@ -1,0 +1,26 @@
+X:636
+T: The Grassy Turf
+B: O'Neill's 632
+Z: 1999 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N: "Moderate"
+M: 2/4
+L: 1/16
+K:A
+(AB) \
+| c2c2 (dc)(BA) | e2c2 a2gf | e2A2 (dc)(BA) | G2B2 B2(AB) |
+| c2c2 (dc)(BA) | e2c2 a2gf | ecBA GBcd | c2A2 A2 ||
+|| (AB) \
+| c2d2 c2a2 | e2c2 (dc)(BA) | c2d2 c2a2 | e2c2 e2dc |
+| defd cdec | B2B2 B2Bc | defd cdec | B2B2 B2AB |
+| c2A2 e2A2 | (fg)(af) e2(AB) | c2A2 e2A2 | (fg)(af) e2dc |
+| defd c2a2 | B2B2 B2Bc | defd c2a2 | c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/73795
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

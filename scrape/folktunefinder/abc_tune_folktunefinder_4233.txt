@@ -1,0 +1,18 @@
+X: 2
+P: The Holly and the Ivy
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"G"G2 \
+|: "G"GG G2 "C"e2 | "G"d2 B3 G | GG G2 "C"e2 | "D7"d4 dc \
+| "G"BA G2 B2 | "C"EE "G"D2 "Em"GA | "C"Bc "G"B2 "D7"A2 | "G"G2 :|
+S:https://www.folktunefinder.com/tunes/4233
+S:http://trillian.mit.edu/~jc/music/abc/England/XmasWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/XmasWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:237
+T: EIN HERZ DAS SICH MIT SORGEN QUAELT
+N: B0285A
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass, Weissenburg
+R: Stimmungs - Lied, Freude
+M: 3/4
+L: 1/8
+K: D
+DF | A4A2 | A2B2
+AG | A3ED2 | D2E2
+FA | G4G2 | F2A2
+F2 | F2E2
+DF | A4A2 | A2B2
+AG | A3ED2 | D2E2
+FA | G4G2 | F2A2
+F2 | F2E2
+A2 | ^G2E2E2 | A2c2
+e2 | d2c2B2 | A4z2
+F2F2F2 | A2G2z2
+E2F2G2 | B2A2z2
+F2F2F2 | G2B2
+dB | A2B2c2 | d2z2
+S:https://www.folktunefinder.com/tunes/78258
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, freude
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

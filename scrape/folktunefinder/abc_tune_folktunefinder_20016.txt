@@ -1,0 +1,31 @@
+X: 1
+T:King George the 3ds Minuet. WCl.39
+M:3/4
+L:1/8
+Q:140
+C:George III,1760-1820
+S:William Clarke MS,Lincoln,1770.
+R:Minuet
+O:Lincoln
+A:England
+N:In different hand, on added paper..Barry..I disagree, looks the same to
+N:me....Chris...
+Z:vmp.Barry Callaghan
+K:D
+((3ABc)|d4 fd|e2c2A2|B4 dB|A2F2D2|!
+G4 BG|F4 AF|E2D2C2|{C}D4z2::!
+A,2 DFDF|A,2EGEG|A,2 DFDF|EDCB, A,2|!
+A,2 DFDF|A,2EGFA|((3BAG) F2"tr"E2|{E}D4:||
+S:https://www.folktunefinder.com/tunes/20016
+S:http://trillian.mit.edu/~jc/music/abc/waltz/King_George_the_3ds_Minuet_WCl_39_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/King_George_the_3ds_Minuet_WCl_39_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/King_George_the_3ds_Minuet_WCl_39_1.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

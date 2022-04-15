@@ -1,0 +1,40 @@
+X: 1
+T: Lady Storment's Strathspey
+C: Duncan MacKercher
+R: strathspey
+B: RSCDS 27-3
+M: C
+L: 1/8
+K: A
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A>A A>B "F#m"c>d e>c \
+| "Bm"FB "E7"A/G/F/E/ "A"A3 ||
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A,>C E>A "D"(3dfd "A"cec \
+| "E7"d/c/B/A/ G>B "A"A3 |]
+e \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A<A a>e c>d e>c \
+| "Bm"F>B "E7"A/G/F/E/ "A"A3 ||
+G \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"((3Ace) ((3aec) "Bm"((3fdB) "A"((3ecA) \
+| "E7"d/c/B/A/ G>B "A"A3 |]
+S:https://www.folktunefinder.com/tunes/19453
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyStormentsStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyStormentsStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyStormentsStr_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

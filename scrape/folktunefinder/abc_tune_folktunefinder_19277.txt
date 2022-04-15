@@ -1,0 +1,29 @@
+X: 1
+T: the Countess of Cassilis' Strathspey
+O: Trad
+R: strathspey
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: E \
+| "A"A>A A>A A>B c>B | A>B A/F/E/C/ "E7"B,B Bc/B/ \
+| "A"A>A A>A A>B c>B | "D"A>B "E7"A/F/E/C/ "A"A,A A :|
+|| c/d/ \
+| "A"e>e d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"e>c d/c/B/A/ "E7"GB Bc/d/ \
+| "A"e>e d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"e>E "E7"F/G/A/B/ "A"cA Ac/d/ |
+| "A"ef/e/ d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"ea/e/ "(B7)"d/c/B/A/ "E7"GB Bc/B/ \
+| "A"A>c "D"F>A "A"E>F E/D/C/B,/ | A,A "E7"c/B/A/G/ "A"AA, A, |]
+S:https://www.folktunefinder.com/tunes/19277
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CountessOfCassilisS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CountessOfCassilisS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CountessOfCassilisS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

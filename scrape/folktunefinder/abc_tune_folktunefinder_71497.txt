@@ -1,0 +1,26 @@
+X:468
+%%topmargin 3cm
+T:Victoria Hornpipe
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Hornpipe
+M:C
+L:1/8
+K:A
+e2 | a2 e2 dcBA | a2 e2 dcBA | (dc)BA =G2 AB | =g2 d2 d2 e^g | a2 e2 dcBA | a2 e2 dcBA | dcBA ^GB ed | c2 A2 A2 ::
+(cB) | (AB)cd e2 e=g | f2 df e2 ce | (dc)BA =G2 AB | =g2 d2 d2 (cB) | (AB)cd e2 e=g | f2 df e2 ce | dcBA ^GBed | c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/71497
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Victoria_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0468.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

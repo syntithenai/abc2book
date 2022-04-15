@@ -1,0 +1,23 @@
+X: 1
+T: Bobby Graham's Coach
+C: Catherine Fraser (Aug 2005)
+R: reel
+M: C|
+L: 1/8
+K: G
+DF \
+|: "G"G2BG cGBG | DGBG "D7"cBAF | "G"G2BG cGBG | "D7"dcBA GFED |
+|  "G"G2BG cGBG | DGBG "D7"cBAB | "G"dcBA GFED |1,2 "C"EDEF "D7"GFED :|["last" "C"ED"D7"EF "G"G2 |]
+|: "Em"E2BE ^cEdE | DEBE "D"d^cBA | "Em"DEBE ^cEdE | "D"FDFA dAFD |
+|  "Em"E2BE ^cEdE | DEBE "D"d^cBA | "G"G2BG "D"F2AF | "Em"B2BA "D"BAGF "d.C"[|]:|
+S:https://www.folktunefinder.com/tunes/16816
+S:http://trillian.mit.edu/~jc/music/abc/reel/BobbyGrahamsCoach_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BobbyGrahamsCoach_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

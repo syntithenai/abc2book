@@ -1,0 +1,29 @@
+X:16
+T:Captain Gillans
+R:Slow Strathspey
+C:William Christie
+S:MacDonald - Skye Collection
+N:pg.27
+M:C
+L:1/8
+Q:1/4=130
+K:A
+E|:E<E E>F E>FA>B|(c<e)B<c A>B A<E|F>GF>E F>Ad>f|1
+(g/e/)d/c/ (d/c/)B/A/ A<F F>A:|2 (f/e/)d/c/ (e/d/)c/B/ A2A2||
+c<e e>f e>fa>e|(f/g/a/f/) e>c A>B A<E|F<f f>g a>gf>e|f/e/f/g/ a/g/f/e/ f2 f>e|
+f<ae<a d<eB<c|A<cB<c A>B A<E|F<f f>g a>gf>e|1 (d/c/B/A/) (B/d/c/B/) A<F F>A:|2
+(d/c/B/A/) (B/d/c/B/) A2A2||
+S:https://www.folktunefinder.com/tunes/72097
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Slow strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

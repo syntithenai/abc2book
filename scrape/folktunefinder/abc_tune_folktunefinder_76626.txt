@@ -1,0 +1,24 @@
+X:141
+T: GUTEN ABEND LIEBES KIND
+N: E0728A
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+N:  262, 264: Endtoene verlaengert, weil sonst Taktart falsch. 
+R: Liebes - Lied, Leid, Klage; Gesang mit Pantomime
+M: 4/4
+L: 1/8
+K: G
+G3A | B2B2A2d2 | G2z2
+B3c | d2d2e2d2 | c6
+AB | c2c2d2dc | B6
+GA | B2B2A2d2 | G2z2
+S:https://www.folktunefinder.com/tunes/76626
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage; gesang mit pantomime
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

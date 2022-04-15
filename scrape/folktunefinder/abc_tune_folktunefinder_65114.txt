@@ -1,0 +1,27 @@
+X: 26
+T:Blaydon Races
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:D
+A|"D"d2d d2d|"D"d2d d2d|"A7"e2e e2e|"D"f3 "D7"d3|"G"ggg g2g|"D"f2f f2f|
+"E7"e2f e2d|"A7"c3 A3|"D"d2d d2d|"D"d2d d2d|"A7"e2e e2e|"D"f3 "D7"d3|\
+"G"ggg g2g|
+"D"f2g a2a|"A7"a2g f2e|"D"d2e f2g|"D"a3 "A7/e"a2f|"D/f"d3 "G"d2d|\
+"E7/g"e2e "A7"e2e|
+"D"f3 "D7/c"d3|"G/b"g2g "A7/c"g2g|"D"f2f "D/f"f2f|"G"e2f "E7/g"e2d|\
+"A"c3 "A7/g"A3|"D/f"d2d "G"d2d|"D/f"d3 "G"d2d|
+"E7/g"e2e "A7"e2e|"D"f3 "D7/c"d3|"G/b"g2g "A7/c"g2g|"D"f2g "B7/f"a2a|\
+"Em"a2g "A7"f2e|"D"d3 d2||
+S:https://www.folktunefinder.com/tunes/65114
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

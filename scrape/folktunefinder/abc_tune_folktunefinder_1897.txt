@@ -1,0 +1,26 @@
+X: 75
+T: Humours of Glen
+C: J-29
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: Bm
+F| "Bm"Bd/c/B/^A/ BFF| de/d/c/B/ dFF| Bd/c/B/^A/ BFd| "F#"EF^A "Bm"B2F|
+   "Bm"Bd/c/B/^A/ dFF| de/d/c/B/ dFF| "G"GA/G/F/E/ "D"FG/F/E/D/| "F#"EF^A "Bm"B2:|
+|:\
+d| "D"A/B/dd d3| d/c/d/e/f/g/ afd| "G"ga/g/f/e/ "D"fdA| AFA "G"B2d|
+   "D"A/B/dd d3| d/c/d/e/f/g/ afd| "G"ba/g/f/e/ "D"fe/d/c/B/| "F#"AF^A "G  (Bm)"B2:|
+%%text 9/1/98.  Arranged by N. F. Tolman
+S:https://www.folktunefinder.com/tunes/1897
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

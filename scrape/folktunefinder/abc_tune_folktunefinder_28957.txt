@@ -1,0 +1,28 @@
+X:2677
+T:Carnival tune (fr Limoux)
+R:Other
+O:France
+M:6/8
+A:Aude
+K:A
+A,D|\
+F2F FEF|(D3 D)DF|A2A AGA|(F3 F)Ad|\
+c2c cBc|1 (=G3 G)EF|=G2G G^G=G|B3 d|
+:|2 (=G3 G)^GF|EFG ABc|(d3 d2)|:\
+A|\
+AGA E2c|cBc A2B|
+BAB EFG|AB=c ^c2A|\
+AGA E2c|cBc A2B|BAB EFG|(A3 A2)::
+D|\
+GDG B2G|BGB d2B|cAA A2c|BGG G2D|\
+GDG B2G|BGB d2B|cAA ABA|(G3 G2):|
+S:https://www.folktunefinder.com/tunes/28957
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

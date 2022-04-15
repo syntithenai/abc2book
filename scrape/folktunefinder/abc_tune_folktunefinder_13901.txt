@@ -1,0 +1,29 @@
+X: 1
+T: Blue Bonnets
+T: Lesley's march to Scotland
+R: jig, march
+B: RSCDS 3-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 17th century tune, known as "Lesley's march to Scotland" Published in Watt's Musical Miscellany
+N: 1731, and Oswald 1755. Sir Walter Scott wrote the song "Blue Bonnets over the Border" to this tune.
+M: 6/8
+L: 1/8
+K: D
+A \
+|:"D"d2z "G"d3 | "D"dfe d2A | "G"dBB B2a | "A7"aAa f2e \
+| "D"d2z "G"d3 | "D"dfe "D7"d2A | "G"dcB ABc | "D"def "A7"e3 :|
+[|"D"dfa afd | agf "A7"fef | "D"dfa afd | def "A7"e2A \
+| "D"dfa afd | agf "A7"fef | "G"dcB ABc | "D"def "A7"e2d ||
+||"D"dfa afd | agf "A7"fef | "D"dfa afd | def "A7"e2d \
+| "D"dfa afd | aAa "D7"f2e | "G"dcB ABc | "D"def "A7"e3 |]
+S:https://www.folktunefinder.com/tunes/13901
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlueBonnetsJ1BP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BlueBonnetsJ1BP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BlueBonnetsJ1BP.abc
+% Rhythm Jig, march
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

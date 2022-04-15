@@ -1,0 +1,26 @@
+X:85
+T:Polska efter C G {\AA}strand
+R:sl-polska
+A:\"Osterg\"otland
+B:SvL \"Ogl 484 efter C G {\AA}strand, Falla, Horn
+Z:id:hn-sp-85
+M:3/4
+L:1/16
+K:Ador
+A3B c3d e3f | g2g2 (ag)fg e2d2 | dfaf dfaf d2ff |
+{g}f2{gf}e^d ^d2e2 e4 :| [M:1/4] e4 |: [K:A][M:2/4] (ag)ae cAc2 |
+(BG)Bd (cA)ce | (ag)ae cAc2 | BGBd dcBG | AGAE CA,CE |
+(ag)ae cAc2 | (BG)Bd (cA)ce | (ag)ae cAc2 | BGBd dcBG | G2A2 [A4A,4] :|
+S:https://www.folktunefinder.com/tunes/62416
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

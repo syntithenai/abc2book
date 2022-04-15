@@ -1,0 +1,31 @@
+X: 46
+T:March. JMP.046
+M:C
+L:1/8
+Q:174
+C:"51"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:D Major
+"Key sig Gmaj in MS"A2 | d2 f>g a2 g>f | g2 e>e e2 g>e |\
+f2 B>B B2 e>d | c2  A>A A2 d>c |!
+ "tr"B2  e>d c2 f>e | d2 g>f e2 a>g | f>ad>f f>ed>c | d2 d>d d2 :|!
+|:(c/d/) | e2 e>e e>fe>d | c2 c>c c>dc>B |A>fe>d (c>B)(A>^G) |\
+A2 A>A A2  fg |! 
+a2 A>A (Aa)g>f | g2 e>e e2 e>f |g2 A>A A>g(fe) |"tr" f2 d>d d2 A>A |!
+B>B c>c d>d e>e | f>ef>g "tr"a2 g2 | fefg f2e2 | d2 dd d2 |]
+S:https://www.folktunefinder.com/tunes/1983
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

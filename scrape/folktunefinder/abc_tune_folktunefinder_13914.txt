@@ -1,0 +1,27 @@
+X:1
+T:Bobby Jack's Compliments to Mary Prentice
+C:Jack, Bobby
+S:George Meikle
+S:Anselm Lingnau <anselm:strathspey.org> 2008-10-16
+R:Jig
+M:6/8
+L:1/8
+K:Amix
+e \
+| "A"A>cf e2A | "D"a>fe "A"f>ec | "D"a>fe "A"f>ec | "G"B>GB "(E7)"e>dB \
+| "A"A>cf e2A | "D"a>fe "A"f>ec | "D"a>Af "A"e2c  | "G"B>GB "A"A2 :|
+|: c/d/ \
+| "A"e>AA A>ce | "D"f>dd d>fa | "A"e>AA    A>ce | "G"B>GB "(E7)"e>dB \
+| "A"e>AA A>ce | "D"f>dd d>fa | "A"A>ce "G"B>Ge | "A"A>AA  A2 :|
+S:https://www.folktunefinder.com/tunes/13914
+S:http://trillian.mit.edu/~jc/music/abc/jig/BobbyJacksComplimentsToMaryPrentice_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BobbyJacksComplimentsToMaryPrentice_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BobbyJacksComplimentsToMaryPrentice_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

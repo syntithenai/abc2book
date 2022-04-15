@@ -1,0 +1,64 @@
+X:1
+T:Neansa\'i Mh\'ile Gr\'a
+D:Clannad in Concert, Ogham BLB 5001 (1978)
+S:Clannad learned the tune from Alphonsus Mac a' Bh\'aird, Teelin, Co. Donegal
+Z:Jerome Colburn <jscolbur@PRAIRIENET.ORG> irtrad-l 2001-01-17
+%
+N:The words as found in "C\'ead de Ceoltaibh Uladh":
+W:
+W: A Neansa\'i mh\'ile gr\'a, a bhruinneal t\'a gan sm\'al,
+W: Go bhfeice mise 'n t-\'adh 'gus an s\'ean ort!
+W: Ba ghile do dh\'a l\'aimh n\'a c\'ur geal na tr\'a,
+W: N\'a 'n eala 's \'i a' sn\'amh ar an \'Eirne.
+W: Ba ghlaise liom do sh\'uil n\'a braon beag de'n dr\'ucht,
+W: Is binne liomsa th\'u n\'a na treada\'i;
+W: 'S mur 'n \'eala\'ionn tusa liomsa, titfidh mise i leanndubh
+W: Is cuirfinn in san chill do dhiaidh m\'e.
+W:
+W: Is ioma\'i sin guth mn\'a a chloisim gach ard
+W: A bhus agus taobh thall de'n \'Eirne,
+W: Go Corcaigh na gcuan 's go B\'eal \'Atha na Slua,
+W: 'S \'i Neansa\'i thug buaidh ar a' mh\'eid sin.
+W: A Mhuire 'gus a Dhia, nar b' aoibhinn \'e ar saol
+W: D\'a mbeinnse agus \'i le ch\'eile.
+W: Tr\'athn\'ona aoibhinn chi\'uin \'o mise 'gus mo r\'un
+W: Ag cogarna\'i ar uaigneas na sl\'eibhe.
+W:
+W: Beir litir uaimse suas chuig Neansa\'i chaoin na gcuach,
+W: Is aithris d\'i gur buartha at\'a m\'e;
+W: Aithris d\'i ar\'is nach gcodhlaim fh\'ein aon o\'iche
+W: Le h-arraing at\'a fr\'id mo thaobh dheas.
+W: Aithris \'e d\'a s\'uil, aithris \'e d\'a c\'ul,
+W: Aithris \'e d\'a [x]* [y] [z]\'eil\'in,
+W: Aithris \'e d\'a ceann 's do bh\'eil\'in at\'a binn,
+W: Gur ghiorraigh s\'i go cinnte mo laetha.
+W:
+W: *This line was left out of the words on the inside album cover. [x] is a
+W: syllable whose vowel is \'i, [y] is a syllable that ends in \'oir perhaps,
+W: and [z] is a consonant, possibly g.
+M:6/4
+%
+L:1/4
+K:G
+z2 d | g2 a g2 f | e g2-g z e | d2 e d2 c | c B2-B z \
+    c | d2 d B2 G | A A2-A z G/F/ | G G2-G3 | z3 :|\
+d2 c | B2 d g2 a | b3-b2 a | b2 a b2 a | a g2-g2 e |\
+        d d2 g2 a | b3 a3 | g3 e3 | d3-d z2 \
+    d | g2 a g2 f | e g2-g2 e | d2 e d2 c | c B2-B2 \
+    c | d3   B2 G | A A2-A G F | G G2-G3 | z3 |]**
+S:https://www.folktunefinder.com/tunes/13280
+S:http://trillian.mit.edu/~jc/music/abc/air/NeansaiMhiLeGra.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/NeansaiMhiLeGra.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/NeansaiMhiLeGra.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/NeansaiMhiLeGra.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/NeansaiMhiLeGra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:06
+%%topmargin 3cm
+T:Master Reginald Macdonald
+C:K.N. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+e | A<A e<A af e<e | fe ae f<B B2 | {/c}A<A e<A af e<e | {/g}fe a<c B2 A :|
+e | A<A cA eA cA | E<E GE [EB]E G[EB] | A<A cA eA cA | E<E GB A2 A2 |
+{c/}A<A cA aecA | E<E (GE) ([EB]E) (G[EB]) | (3ABc (3Bcd (3cde (3def | (3agf (3efg a2 a |]
+S:https://www.folktunefinder.com/tunes/71036
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Master_Reginald_Macdonald.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Master_Reginald_Macdonald.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0006.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

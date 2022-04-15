@@ -1,0 +1,40 @@
+X:163
+T:Cantar de Ronda (CT 101)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Variante de la nmero CT 100, dictada por Pedro Menndez, "El Manjoyu", de treinta y nueve aos, de San Esteban de Las Cruces, ayuntamiento de Uviu.
+A:Asturies
+O:San Esteban de Las Cruces (Uviu)
+Z:Cancioneru de Torner 101
+M:2/4
+L:1/8
+Q:1/4=76
+K:C
+B/c/
+|dd ee|[M:3/4]cc e2 d(3B/c/B/|[M:2/4]A2 z A/B/|
+cc dd|A>B cB|[M:3/4](A3/2G/4A/4)(B2 A3/2B/4A/4)|[M:2/4]G2 z2 :||
+W:-Ya no vuelvo ms a Sama,
+W:tiralala,
+W:que llev la puente el ro,
+W:tiralalala.
+W:
+W:-Hai una chalana nueva,
+W:tiralala,
+W:psala, galn, conmigo,
+W:tiralalala.
+W:
+S:https://www.folktunefinder.com/tunes/59050
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

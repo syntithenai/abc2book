@@ -1,0 +1,24 @@
+X: 1
+T: Stars and Stripes Forever (2nd section)
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+"D7"d2 \
+| "G"d2 cB | B2 ^AB | B4- | B2 ^AB | B2 ^AB | d2 B>d | "D7"c4 A3 A |
+| "D7"A2 ^GA | A2 ^GA | c4- | c2 BA | "G"B d3 | "C"e3 e | "D7"A4- | A2 d2 ||
+||"G"d2 cB | B2 ^AB | B4- | B2 ^AB | "B7"B2 ^AB | cB A>F | "Em"A4 | G3 G |
+| "Cm"G2 FG | "Eb"_B2 AG | "G"g4 | zG AB | .dG AB | .dD EB | "D7"A4 | "G"Gz |]
+S:https://www.folktunefinder.com/tunes/15684
+S:http://trillian.mit.edu/~jc/music/abc/march/StarsAndStripes_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/StarsAndStripes_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

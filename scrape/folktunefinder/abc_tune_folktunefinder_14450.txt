@@ -1,0 +1,29 @@
+X: 1
+T: Julian's Jig
+C: Charlene Thomson (Jan 2003)
+M: 6/8
+L: 1/8
+K: D
+e"A"\
+[|"D"d3 A3 | "G"GFE "A7"D2C | "D"D3 A,3- | "A7"A,2A, A,B,C \
+| "D"D3 A3-| "G"A2G GAB | "A7"A3- A2B | cde edc |
+| "D"d3 A3 | "G"GFE "A7"D2C | "D"D3 A2A | "G"GAB "A7"ABc \
+| "D"d2f d2A | "G"Bcd "A7"efg | "D"faf "A7"edc | "D"d6 |]
+"B"\
+|:"D"A2F F2A | "G"GAB "A7"A2c | "D"dAG "Bm"FED | "G"B,CD "A7"E3 \
+| "D"DFA "Em"EGB | "F#m"FAc "G"d3 | "D"fed AGF | "A7"ABc "D"d2 :|
+K:Dm
+"B'"\
+|:"Dm"A2F F2A | "Gm"GAB "Dm"A3 | "A7"AGE AGE | GFG "Dm"A3 \
+| "Dm"d2d AGF | "Gm"GAB "Dm"A3 | "A7"A2^c cde | ed^c "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/14450
+S:http://trillian.mit.edu/~jc/music/abc/jig/Julians_Jig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Julians_Jig_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

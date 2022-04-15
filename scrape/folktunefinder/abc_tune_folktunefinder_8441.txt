@@ -1,0 +1,22 @@
+X: 28
+P: Reinlendar med Turar
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: (3ABc \
+| "D"d2 F2 A2 B>A | "A7"G2 C2 E2 e>f \
+|1,3"A7"g>f e>d c>B A>G | "D"F>G A>B "A7"A2 \
+:|2,4 "A7"g>f e>d c>A B>c | "D"d2 d2 d2 :|
+|: A>G \
+| "D"F2 A2 d3 e | "A7"d2 c2 c4 | b2 c2 a2 c2 | "D"d>c d>e f2 d2 \
+| "D"F2 A2 d3 e | "A7"d2 c2 c4 | b2 c2 a2 c2 | "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/8441
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

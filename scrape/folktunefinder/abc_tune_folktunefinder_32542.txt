@@ -1,0 +1,34 @@
+X: 2079
+T: Uzicka Carlama
+T: Uzhichka Charlama
+O: Srbija
+Z: 1987 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: 2/4
+L: 1/16
+K: Am
+|: "Dm"c'ba^g a2b2 \
+| ^g2a2 f2g2 \
+| fed^c d2e2 ^c2d2 \
+| "E"~B4 \
+| "Dm"fed^c d2e2 \
+| ^c2d2 "E"~B3A \
+| ^GAB2 "B7"BAGA \
+| "E"B4 [B4E4] :|
+K: A
+|: "A"[e2c2][c2A2] "E7"[d4B4] \
+| "A"[c2A2][A2E2] "E7"[B4G4] \
+| "A"[e2c2][c2A2] "E7"[d4B4] \
+| "A"[c2A2][A2E2] "E7"[B4G4] \
+| "A"[e2c2][c2A2] "E7"[d4B4] \
+| "A"[c2A2][A2E2] "E7"[d4B4] \
+| "A"[c2A2][A2E2] "B7"[G2E2][A2F2] \
+| "E7"[B4G4E4] [B4G4E4] :|
+S:https://www.folktunefinder.com/tunes/32542
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

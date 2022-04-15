@@ -1,0 +1,28 @@
+X:15542
+T:Skovblomster
+R:Waltz
+O:Finland
+N:A Danish version of the Finnish Mets\"akukka
+M:3/4
+L:1/4
+K:Am
+zE|\
+EAB|cB>A|(e3|e2)E|EAB|cB>A|(f3|f2)f|\
+def|fe>d|dcd|e2E|E^DE|c2B|(A3|A::\
+a>g|\
+ae>d|ec>B|c(A2|A2)A|d2e|f2a|(e3|e)e>f|\
+e(d2|d)d>e|d(c2|c2)E|E^DE|c2B|A3|z::\
+a>^g|\
+(=g3|=g)a>f|(e3|e)f>e|(d3|d)e>d|(c3|c)d>c|\
+(B3|B)c>B|(A3|A)zE|E^DE|c2B|A3|z:|
+S:https://www.folktunefinder.com/tunes/46817
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

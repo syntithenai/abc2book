@@ -1,0 +1,29 @@
+X: 13
+T: 3. Faithful Friend
+R: Strathspey
+C: Doreen McKerron
+M: C
+L: 1/8
+Z: Notated by Robin Shaylor, November 2004
+% Q: 220
+K: D
+|: f>g |\
+"D"   a<f {g}f>e "Bm" {c}d2   e>f | "Em" gd "A7" c2 TB>A |\
+"GD" B<d d>d "D/F#D" A<d    d>d | "Em7D" {d}e>d c>B "A7" A2 f>g  |
+"D"   a<f "D/C#" Tf>e "Bm" {c}d2 "Bm/A" e>f | "G" gd "A7" c2 TB>A |\
+"G"   B<g g>B "D/F#" A<f      f>d | "Em7" {d}e>B "A7" c>A "D" {c}d2 d2  |
+"G"   B<g g>f "Em" g3         B   | "D" A<f Tf>e "Bm" {e}f3 A  |\
+"Em7" G<e e>d "A7" c>B       .A>G | "D" (3 FGA "A7/E'" (3 GAB "D7/F#'" A>D d>c  |
+"G"   B<d .d>B "Em" e>d "A7" .c>B | "D" (3 ABA "D/C#" (3 GAG "B7" F3  F    |\
+"Em7" Gd "A7" A<c        c>e | "D" d>f "A7" (3 edc "D  (D7)" {c}d2   :| [K:G] |
+S:https://www.folktunefinder.com/tunes/40117
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

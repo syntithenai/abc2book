@@ -1,0 +1,17 @@
+X: 1
+T:The Weshin-day
+M:2/4
+L:1/8
+K:D
+B|cBAF|G>GGB|dBAF|E2zB|dBAF|GGGB|A>GFE|D3B|dBAF|G>GGB|dBAF|E3B|dBAF|G>GB
+d|A>GFE|D2DE|F2(FD)|G2 (GE)|F2FD|E2zA|F>FFE|G>ABd|AGFE|D3||
+% Output from ABC2Win  Version 2.1 i on 3/10/2000
+S:https://www.folktunefinder.com/tunes/75478
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

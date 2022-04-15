@@ -1,0 +1,42 @@
+X:15563
+T:SLAP AND KISS
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+B:John of the Greeny Cheshire Way
+K:G
+ef |\
+gfed B2 g2 dBAG | A2 e2 e2 A2 cdef |\
+gfed B2 g2 dBAG | BcdB  g2 B2 cdef ||
+gfed BcdB dBAG | A2 e2 e2 A2 cdef |\
+gfed BcdB dBAG | B2 g2 g2 B2 cdec ||
+G2 B2 G2 e2 BcdB | A2 c2 A2 a2 ABcA |\
+G2 B2 G2 g2 BcdB | G2 g2 BcdB  ABcA ||
+G2 B2 G2 g2B2 g2 | A2 a2 A2 a2 A2 f2 |\
+G2 B2 G2 g2 BcdB | G2 g2 BcdB  ABcA ||
+GABc dBde dBAG | ABcd edcB ABcA |\
+GABc dBde dBAG | BcdB effe fgaf ||
+gfed edcB cBAG | ABcd edcB  ABcA |\
+GABc dBde dBAG | BcdB g2 B2 d2 g2 ||
+B2 G2 D2 g2 dBAG | ABcd ecBA  cdec |\
+B2 G2 D2 g2 dBAG | BcdB g2 B2 cdec ||
+g<d z =f e<c z e d<B z G | A2 e2 e2 A2 cde^f |\
+g<d z =f e<c z e d<B z G | B2 g4    B2 cdec ||
+d2 g4 e^f gfed | cdef ecBA cdec |\
+B2 g4 ef gfed | BcdB g2 B2 cdec ||
+G2 B2 G2 g2 G2 B2 | A2 c2 A2 a2 ABcA |\
+G2 B2 G2 g2 G2 B2 | G2 e2 G2 B2 ABcA ||
+G2 B2 G2 g2 dBAG | ABcd ecBA  cdef  |\
+gfed  BcdB  dBAG | BcdB g2 B2 d2 g2 |]
+S:https://www.folktunefinder.com/tunes/46838
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

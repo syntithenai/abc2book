@@ -1,0 +1,29 @@
+X:6205
+T:The Minstrel's Fancy
+A:Northumberland
+L:1/8
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001144.html
+%%ID:00001144
+K:D
+FG |\
+AFAd BGBd | AFAd f2ed | cegf edcd | (3efe (3dcB  AGFG |
+AFAd BGBd | AFAd f2ed | cegf edce | d2f2 d2 ::
+ef | \
+gfge cABc | dcde f2ef | gfge cABc | (3efe (3dcB  AGFG|
+AFAd BGBd | AFAd f2ed | cegf edce | d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/37320
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 16
+T:Waltz,A. JMT.016
+M:3/8
+L:1/8
+Q:30
+S:J.Moore,Tyneside,1841.(11a)
+R:Waltz
+O:England
+A:Northumbria
+H:184
+Z:vmp.John Adams
+K:G
+D | GG (3B/A/F/) | G/B/ d B/G/ | F/A/ c A/F/ | G/B/ DD |!
+ GG (3B/A/F/) |  G/B/ d B/G/ | F/A/ c A/F/ | G2:|!
+|:G | (F/A/c/)A/F/A/| (G/B/d/)B/G/B/ | (F/A/c/)A/F/A/| .G/.A/.B/.c/d |!
+(F/A/c/)A/F/A/| (G/B/d/)B/G/B/|(F/A/c/)A/F/A/| G2  :||
+S:https://www.folktunefinder.com/tunes/52905
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

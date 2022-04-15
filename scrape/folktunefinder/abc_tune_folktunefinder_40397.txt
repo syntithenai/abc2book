@@ -1,0 +1,24 @@
+X: 1
+T: Scarlatti, sonata 1
+%***Missing time signature meta command in MIDI file
+M: 4/4
+L: 1/8
+Q:1/4=120
+% Last note suggests Phrygian mode tune
+K:F % 1 flats
+% (C) John Sankey 1998
+z/2d/2 (3efga/2-[a/2A/2] _d/2A/2[=d/2-D/2][d/2-E/2]\
+ [d/2-F/2]d/2-[d/2-G/2][d/2-A/2]| \
+[d/2A,/2][e/2-_D/2][e/2A,/2][f/2=D/2-] [d/2D/2]z/2[g/2E/2-][e/2E/2]\
+ [a/2F/2-][f/2F/2][e/2G/2-][d/2G/2] [_dA]z/2[a/2-A/2-]| \
+[a/2A/2][b/2A/2-][b/2a/2A/2]
+S:https://www.folktunefinder.com/tunes/40397
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

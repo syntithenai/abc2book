@@ -1,0 +1,38 @@
+X: 1
+T: Masurka etter Bruce Sagan
+R: mazurka
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+(uA>d) \
+| "D"vd>uA (vAd) (udf) \
+| f>A (Ad) (df) \
+| "A7"f>e (ed) (dc) \
+| c>B A2 (Ad) \
+| "D"d>A (Ad) (df) |
+| ((5f/g/f/)(e/f/) g2 f2 \
+| "A7"e>g (fd) (ec) \
+| "D"d2 d2 :: (fg) \
+| "D"a2 (af) (gb) \
+| a2 g2 f2 |
+| "Em"e>f (gf) (gb) \
+| "A7"a2 g2 f2 \
+| "D"A2 a>f (gb) \
+| a2 g2 f2 \
+| "A7"e>g (fd) (ec) \
+| "D"d2 d2 :|
+S:https://www.folktunefinder.com/tunes/15745
+S:http://trillian.mit.edu/~jc/music/abc/mazurka/M_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/mazurka/masu_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mazurka/M_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mazurka/masu_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/mazurka/M_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/mazurka/masu_BruceSagan.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

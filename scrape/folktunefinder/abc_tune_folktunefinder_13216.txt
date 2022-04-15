@@ -1,0 +1,31 @@
+X: 1
+T: John Roy Lyall
+C: E.Edmond
+S: from Earl Gaddis
+N: Highland Whisky handwritten ms.
+N: John Roy Lyall is Eddie Edmond's late father-in-law.
+B: Martin "Ceol na Fidhle", vol. 1, 1991; pg. 12.
+M: C
+L: 1/8
+K: G
+D2 \
+| "G"B2Bc "D"A2BA | "Em"G2G2 "D"A2"(G)"Bd | "C"e2ge "G"d2B2 | "Am"A4- "D"A2 D2 \
+| "G"B2Bc "D"A2BA | "G"G2G2 "Em"g2fe | "G"d2DG "D"B2A2 | "G"G6 :|
+ga \
+| "G"b2d2 "D"fga2 | "Em"g2B2 "G/B"d2gf | "C"e2ge "G"d2B2 | "Am"A4- "D"A2ga \
+| "G"b2d2 "D"f2ga | "Em"g2B2 d2ge | "G"d2DG "D"B2A2 | "G"G6 |]
+ga \
+| "G"b2d2 "D"f2ga | "Em"g2B2 "G/B"d2gf | "C"e2ge "G"d2B2 | "Am"A4- "D"A2D2 \
+| "G"B2Bc "D"A2BA | "Em"G2G2 "C"g2fe | "G"d2DG "D"B2A2 | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/13216
+S:http://trillian.mit.edu/~jc/music/abc/air/JohnRoyLyall_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/JohnRoyLyall_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T:Town End
+C:David Faulkner
+R:Mazurka
+A:England
+N:after a live transcription by Matthias Loibner
+N:aus Simon Waschers TradArchiv
+Z:abc trancription Simon Wascher
+M:3/4
+L:1/8
+%F:http://simonwascher.info/TradArchiv_mazurka/town_end.abc 2006-09-26 22:13:58 UT
+K:G
+B2BA Bd | B2BA Bd | A2AG AB | ed cB AG |
+B2BA Bd | B2BA Bd | ed cB AB |1 G6 :|\
+                             [2G3 ABd ||
+e2ed (3cde | d2dc Bd | fe dc BA | B2G2Bd |
+e2ed (3cde | d2dc Bd | fe dc BA | G6 :|
+S:https://www.folktunefinder.com/tunes/52035
+S:http://simonwascher.info/TradArchiv_mazurka/town_end.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Mazurka
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

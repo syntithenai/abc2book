@@ -1,0 +1,23 @@
+X: 212
+T: Round the Horn
+C: Jay Ungar
+R: reel
+M: C|
+L: 1/8
+K: G
+((3DEF) \
+| "G"G2GA BAGA | Bd2e d4| "C"cdef "Am"e2g2 | "D"a6 ga|
+| "G"b2g2 "D"a2f2 | "Em"gfed "G"BAGB | "D"A2d2 "G"BAG2 | "C"E6 z2 :|
+|: "C"e3f "D"e2d2 | "G"Bd2e d4 | "D"A3A "Em"G2A2 | "Bm"B d2ed4|
+| "C"g3a gfe2 | "D"dedc "G"BAGB | "D"A2d2 "G"BAG2 | "C"E6 z2 :|
+S:https://www.folktunefinder.com/tunes/55815
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

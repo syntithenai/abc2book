@@ -1,0 +1,29 @@
+X: 1
+T: Portland Fancy
+M: 6/8
+N: A 4-phrase version exists
+R: jig
+K: A
+  "E7"E \
+| "A"E2A E2A | EAB c2c | "D"dcd "E7"Bcd | "A"e2c "E"BAF \
+| "A"E2A E2A | EAB c2c | "D"dcd "E7"BFG | "A"AEc A2 |]
+   A \
+| "A"a3- "D"agf | "A"ecf e3 | "E7"dBe d3  | "A"cde "D"f2"E7"e \
+| "A"a3- "D"agf | "A"ecf e3 | "E7"edB EFG | "A"AEc A2 |]
+K: D
+|: "A7"F=G \
+| "D"ABc d2e | f2g a3 | "Em"efg "A7"A{B}c{d}e | "D"f2{e}d "A7"AFG \
+| "D"ABc d2e | f2g a3 | "Em"efg "A7"ABc | "D"dAf d2 :|
+S:https://www.folktunefinder.com/tunes/14933
+S:http://trillian.mit.edu/~jc/music/abc/jig/Portland_Fancy1_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Portland_Fancy1_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

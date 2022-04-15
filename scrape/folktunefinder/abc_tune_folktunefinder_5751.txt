@@ -1,0 +1,41 @@
+X: 2
+T: Koftos
+O: Greece
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+P: Bouzouki, guitar:
+K: Edor
+A,CD \
+|: "Em"E2 ED FG AG \
+| A2 GF EA, CD \
+| E3 D F>G A>G \
+| "G"G>F B,D GA, CD |
+| "Em"E3 D FG AG \
+| A2 GF E2 zE \
+| G>F E>G "D"F>E D>F \
+|1 "Em"Ez C2 D2 ^D2 \
+:|2 "Em"Ez E2 _E2 D2 ||
+|: "G"B2 BA B>c d>e \
+| d>=c BA GF ED \
+| B2- BA B>c d>e \
+| d>=c BA G2 z(D |
+| B2)  BA B>c d>e \
+| d>=c BA GF ED \
+| GF EG "D"FE DF \
+|1 "Em"Ez E2 _E2 D2 \
+:|2 "Em"HEz C2 D2 ^D2 |]
+S:https://www.folktunefinder.com/tunes/5751
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Koftos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

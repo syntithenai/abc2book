@@ -1,0 +1,23 @@
+X: 172
+T:Valse  Cadet
+R:Valse
+A:Morvan
+O:France
+M:3/4
+L:1/4
+Q:1/4=180
+K:Bbmaj
+BFd|B3|BFd|c2 c/2d/2|edc|BAG|FGA| [1,3 G2 F:| [2 B3:| [42 B2 A/2B/2|
+|:c c/2e/2 d/2c/2|d d/2f/2 e/2d/2|c c/2e/2 d/2c/2|1 dB A/2B/2:|2B3|:
+d2e|fgf|c2d|efe|B2c|ded| [1 c2B|c3:| [2 c2A|B3|
+%%footer $D   Galouvielle-MBe 2008 \nValse (France)
+S:https://www.folktunefinder.com/tunes/630
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

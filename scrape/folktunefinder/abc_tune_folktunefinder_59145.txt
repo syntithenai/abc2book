@@ -1,0 +1,37 @@
+X:258
+T:Danza (CT 103)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Llamo, ayuntamiento de Riosa.
+N:Intervienen en esta danza solamente mujeres.
+N:Como queda dicho en la nota referente a la cancin CT 081, esta danza es considerada por las gentes de Riosa como la ms antigua de todas las que se cantan en el concejo.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 103
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+B|BcA G2A|G3- G2B|BcA G2A|B3- B2d|
+dcd c2B|A2G- G z B|BcA G2A|G2G- G2B|
+BcA G2A|B2B- B2d|ded c2B|A2G- G z||
+W:Si me quieres di que s (bis)
+W:y si no di que me vaya (bis)
+W:no me tengas al sereno,
+W:que no soi cntaro de agua.
+W:
+S:https://www.folktunefinder.com/tunes/59145
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

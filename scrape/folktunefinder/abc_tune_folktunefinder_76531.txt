@@ -1,0 +1,29 @@
+X:46
+T: O WIE WOHL ISTS JEDEM MENSCHEN
+N: E0660
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt,
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2GF | A2A2
+BA | G3Bdc | B2z2
+GA | B2B2GF | A2A2
+BA | G3Bdc | B2z2
+GA | B2B2Ac | B2d2
+cB | A3ABA | G2z2
+GA | B2B2Ac | B2d2
+cB | A3ABA | G2z2
+S:https://www.folktunefinder.com/tunes/76531
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

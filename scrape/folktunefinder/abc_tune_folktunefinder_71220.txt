@@ -1,0 +1,25 @@
+X:190
+%%topmargin 3cm
+T:Miss Jane MacInnes
+T:Dandaleith
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+D2 (DF) ABdf | D2 (DF) ED B,2 | D2 DF ABdf | abaf d/d/d d2 :| gbfa efdA | g>fe>d B/B/B B2 |
+gbfa efdA | B<d TA>F D/D/D D2 | gbfa efdA | g>fe>d B/B/B B2 | gefd ecdA | B<dA>F D/D/D D2 |]
+S:https://www.folktunefinder.com/tunes/71220
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Dandaleith.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Jane_MacInnes.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0190.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

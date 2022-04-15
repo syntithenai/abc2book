@@ -1,0 +1,29 @@
+X:21
+%%topmargin 3cm
+T:Stool of Repentance
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+N:Time signature in the book is C (4/4), but the tune is written in 6/8. See Miss MacKay (previous tune).
+M:6/8
+L:1/8
+K:A
+e |: {/e}a2 e c2 e | agf edc | {/g}aff T(f2e) | fag Tf2 e | {/g}a2 e c2 e |
+agf edc | {/c}d2 f efg | {/g}a2 c B2 A :: {/d}cAA eAA | {/d}cAA edc |
+{/c}dBB fBB | {/c}dBB Tfed | {/d}cAA eAA | cAA edc | {/c}d2 e f2 e | fac TB2 A :]
+S:https://www.folktunefinder.com/tunes/71051
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Stool_of_Repentance.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Stool_of_Repentance.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0021.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

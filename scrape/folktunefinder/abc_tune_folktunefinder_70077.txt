@@ -1,0 +1,36 @@
+X:517
+T: ERWACHT IST DER MORGEN
+N: F0990
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Tageszeiten - Lied, Morgen
+M: 2/4
+L: 1/8
+K: G
+D | G2GA | B2G
+A | BdcB | A2z
+A | B2B^c | def
+e | d2^c2 | d2z
+D | G2GA | B2G
+A | BdcB | A2z
+A | B2B^c | def
+e | d2^c2 | d2z
+d | dAAA | B2G
+B | dAAA | B2z
+B | B2cd | ege
+c | BdcA | G2z
+B | dAAA | B2G
+B | dAAA | B2z
+B | B2cd | ege
+c | BdcA | G2z
+S:https://www.folktunefinder.com/tunes/70077
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur -, tageszeiten - lied, morgen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

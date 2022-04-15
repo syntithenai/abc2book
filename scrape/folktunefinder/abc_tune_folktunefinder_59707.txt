@@ -1,0 +1,44 @@
+X:820
+T:Xiraldilla (CT 242)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 242
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+d2d|cdc|B2c|d2d|cdc|B3|
+c2c|BAG|F2G|c2c|BBA|G3|
+W:Cuandu te vi na fonte
+W:tou m'empapiell
+W:y nun pude falate
+W:del mio grande querer.
+W:
+W:El mio grande querer,
+W:bien lo puedes decir,
+W:que nun hai otru en contornu
+W:que se muerra por ti.
+W:
+W:Que se muerra por ti
+W:comu me muerro yo.
+W:Ai! mio nea del alma,
+W:nun me digas que non.
+W:
+S:https://www.folktunefinder.com/tunes/59707
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

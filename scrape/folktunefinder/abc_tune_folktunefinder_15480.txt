@@ -1,0 +1,31 @@
+X: 1
+T: I gaed awa' fu' gate yestereen
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: Also as 16-bar march
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: Dm
+A2 \
+| "Dm"d3e fed^c | "Dm"d2A2 A2F2 | "Gm"G3B  "A7"AGFE | "Dm"F2D2 D2A2 \
+| "Dm"d3e fed^c | "Dm"d2A2 A2F2 | "Gm"G2B2 "A7"AGFE | "Dm"F2D2 D2 :|
+|: A2 \
+| "Dm"d3e f2d2 | "A7"e2^c2 A2A2 | "Dm"d3e f2a2 | "A7"gfed ^c2de \
+| "Dm"f2d2 fed^c | "Bb"defg "A7"a2F2 | "Gm"G3B "A7"AGFE | "Dm"F2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/15480
+S:http://trillian.mit.edu/~jc/music/abc/march/IGaedAwaFuGateYestereen_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/IGaedAwaFuGateYestereen_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/IGaedAwaFuGateYestereen_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/IGaedAwaFuGateYestereen_Dm.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

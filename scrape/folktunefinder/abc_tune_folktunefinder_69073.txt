@@ -1,0 +1,26 @@
+X:214
+T: IN EINEM KUEHLEN GRUNDE, DA GEHT EIN MUEHLENRAD
+N: Z0213
+O: Europa, Mitteleuropa, Deutschland
+N: "Altdeutsch" (Falsch! vgl. Eichendorff/Silcher!)
+R: Romanze
+M: 6/8
+L: 1/8
+K: Bb
+F | d2ddcd | e2cA2
+F | B2BBAB | c3-cz
+c | c2ccde | f3G2
+c | B2BcBc | d3-dz
+d | dcccde | f2bge
+c | B2Bd2c | B3-Bz
+S:https://www.folktunefinder.com/tunes/69073
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

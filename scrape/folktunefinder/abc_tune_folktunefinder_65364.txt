@@ -1,0 +1,24 @@
+X: 276
+T:Scrabble On Sunday 
+% Nottingham Music Database
+S:John Goodacre 1984, via Phil Rowe
+M:6/8
+K:Em
+"Em"E2G E2G|"Em"BAG "D"FGA|"Em"E2G E2G|"Em"BAF "G"G3|
+"C"E2G E2G|"Bm"BAG FGA|"D"FAF "Em"EGE|"Bm"F2D "Em"E3::
+"Bm"B2F B2F|"Bm"dcB "A"AcA|"Bm"B2F B2F|"Bm"dcB "F#m"A3|
+"Bm"B2F B2F|"Bm"dcB "A"AcA|"Bm"dcB "F#m"AGF|"Em"EGA B3:|
+S:https://www.folktunefinder.com/tunes/65364
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

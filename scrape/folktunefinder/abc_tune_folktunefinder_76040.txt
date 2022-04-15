@@ -1,0 +1,31 @@
+X:60
+T: Hnseleins Klage (Band 1), S. 178
+N: P0835
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Klage (Hase)]
+M: 2/4
+L: 1/16
+K: G
+D2 | G4E4 | E2D2D2D2 | A4B2A2 | G4z2
+D2 | G4E4 | E2D2D4 | A4B2B2 | G4z2
+D2 | G2A2G2F2 | E4D2
+D2 | G2A2G2F2 | E4D2
+D2 | G2F2G2B2 | A6B2 | d3
+cB2A2 | B4z2c2 | B4D2F2 | G4A2B2 | A4G2F2 | G4z2
+D2 | G2A2G2F2 | E4D2
+D2 | G2A2G2F2 | E4D2
+D2 | G2F2G2B2 | A6B2 | d3
+cB2A2 | B4z2c2 | B4D2F2 | G4A2B2 | A4G2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/76040
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Klage (hase)]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

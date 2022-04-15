@@ -1,0 +1,28 @@
+X:275
+%%topmargin 3cm
+T:Mrs. Mackinnon Corry
+T:The Highlanders march from the battle of Waterloo
+T: Bonny toun o' Kenmore
+C:Sir Alex. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+B | d>d(dBd>B | ee{ef}g>f {gf}e2 (e>f) | {/f}g>e{/^c}dGAD {/F}G3 :|
+d | {/f}g2 (g>b) TB>AB<G | (E<A)A>B A<af<a | (g/f/)(e/d/) B<g {/^c}d>BA>G | (FG/A/) (D>d) B<GG>d |
+{/f}g2 (gAB<G | (E<A)A>B A<af>a | (g/f/)(e/d/) B>g {/^c}dG | (F/G/A) D>d BG<G |]
+S:https://www.folktunefinder.com/tunes/71304
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bonny_toun_o_Kenmore.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Highlanders_march_from_the_battle_of_Waterloo.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Mackinnon_Corry.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0275.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:2370
+T:Hia Hia Svrmor
+A:Hrjedalen
+C:e. Pl Modig, verberg
+C:e. Olov Jnsson, verberg
+D:Hrjedalspipen (Mller, Berglund, Brndstrom, Srlin) (Drone, DROCD 008)
+D:Hia Hia (Hoven Droven) (Xsource, XOUCD 110)
+M:3/4
+N:who give source as ...
+N:bars 12/56 of A part sometimes played as Aa-aA a2 | Ag-gA g2|
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c84.html
+%%ID:00000c84
+K:D dorian
+A2 a2 a2 | A2 g2 g2 | A2 f2 ed | c2 A4 |\
+A2 a2 a2 | A2 g2 g2 | A2 f2 ed | c2 d4 ::
+eg f2 ed | c2 A4    | AG A2 ^cd | ef d3 d|\
+eg f2 e2 | d2 c2 A2 | AG A2 ^cd | ef d4 :|
+S:https://www.folktunefinder.com/tunes/36553
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

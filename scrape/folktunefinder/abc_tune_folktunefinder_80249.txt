@@ -1,0 +1,26 @@
+X:190
+T: Vom Osterlamb, so Christus der Herr gessen vor sein h. Passion
+N: A0547
+O: Europa, Mitteleuropa, Deutschland
+N: Variante von A0375.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: G
+G | G2G2d3c | dc_B2A2z
+B | ccccc2dc | _B2A2G2z
+d | d2c_BA2c2 | A=FG2F2z
+A | _B2AGB2c2 | d2d2G3
+A | _B2c2d2c2 | _BcA2G3
+S:https://www.folktunefinder.com/tunes/80249
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:188
+T: OB AUCH TRUEBE SEI DER HIMMEL
+N: F0330
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, Vertrauen
+M: 4/4
+L: 1/8
+K: C
+C2G,2 | E3DC2B,2 | C2C2
+B,2C2 | D2E2F2E2 | D4
+E2D2 | D2D2D2E^F | G2D2
+EDCB, | B,A,B,CB,2A,2 | G,4
+G,B,DB, | C2C2C2DE | D2D2
+G,B,DB, | C2C2C2DE | D4
+G3F | E2E2E2E2 | F2F2
+FED2 | C2C2CB,A,B, | C4
+S:https://www.folktunefinder.com/tunes/69748
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, vertrauen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

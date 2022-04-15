@@ -1,0 +1,26 @@
+X: 1
+T: Roderick MacDonald's Strathspey
+R: strathspey
+B: unknown printed pipe arrangement
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix=g
+[| (3AAA c<e e>d cA | (3BGB g>e dg BG \
+|  (3AAA cA (3ceA cA | g>e (3fed c<e e<a |
+|  (3AAA c<e e>d cA | (3BGB g>e dg BG \
+|  (3ABc (3Bcd (3edc BG | g>e (3fed c<e ef/g/ |]
+[| a2 (3efg a>e cA | dg Bg dg BG \
+|  a2 (3efg a>e cA | ge (3fed c<e ef/g/ |
+|  (3agf (3efg (3aed cA | (3BGB g>e dg BG \
+|  (3Bcd (3Bcd (3edc (3Bcd | g>e (3fed c<e e<a |]
+S:https://www.folktunefinder.com/tunes/19638
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RoderickMacDonaldsStr_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RoderickMacDonaldsStr_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

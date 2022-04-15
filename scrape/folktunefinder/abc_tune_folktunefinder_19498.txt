@@ -1,0 +1,28 @@
+X: 1
+T: Madam Frederick
+T: The Royal Recovery
+C: William Marshall
+B: The Skye Collection (1887)
+B: Gow #210
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+(3B,/A,/G,/y \
+| "A"A,>B, C>D E>F E<C | "A"A,C E<C E<A A<c \
+| "A"A,>B, C>D E>F E<C | "Bm"B,>B {e}d/c/B/A/ "E7"G<~B B>c |
+| "A"A,>B, C>D E>F E<C | "A"A,C E<C E<A A<c \
+| "A"{cd}e>c AE "D"F<d f>e | "Bm"d>c B>A "E7"G<B B |]
+c \
+| "A"A<A c>A e>A c>A | "A"E>A c>A "Bm"{A}f/e/d/c/ "E7"Bc \
+| "A"A<A c>A "(F#m)"e>A c>A | "D"F>A {G}F/E/D/C/ "E7"B,c |
+| "A"A<A c>A e>A c>A | "A"E>A c>A "Bm"{A}f/e/d/c/ "E7"Bc \
+| "A"A>c A<E "D"{DE}F>A F<D | "E7"{CD}E>D C>B, "A"A,<A A |]
+S:https://www.folktunefinder.com/tunes/19498
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MadamFrederick_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MadamFrederick_A.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

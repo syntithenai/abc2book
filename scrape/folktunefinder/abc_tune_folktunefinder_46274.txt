@@ -1,0 +1,27 @@
+X:14999
+T:Schottische fr France
+R:Schottische
+O:France
+M:4/4
+K:D
+A|\
+dcde d2Ad|edef e2A2|fefg f2ed|cdeg f2ec|\
+dcde d2Ad|edef e2ag|
+fefg f2ed|cdec d3::\
+A|\
+defg a2fd|Bcde A2dc|
+Bcde fdef|gfed f2e2|\
+defg a2fd|Bcde A2dc|Bcde fdef|gfec d3:|
+S:https://www.folktunefinder.com/tunes/46274
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 2
+P: Finnan Haddies
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B \
+| "Em"e<e B>A G>F E>G | "D"F<d A>G F<D D>B \
+| "Em"e<e B>A G>F E>G | "Am"(3FGA "B7"(3BAB "Em"G<E E :|
+F \
+| "G"G<G B>G d>G B>G | "D"F<d A>G F<D D>F \
+| "G"G<G B>G d>G B>e | "C"(3gfe "B7"(3Be^d "Em"e<E E |]
+F \
+| "G"G<G B>G d>G B>G | "D"F<d A>G F<D D>F \
+| "Em"E<E G>A B>A B>e | "C"(3gfe "B7"(3Be^d "Em"e<E E |]
+S:https://www.folktunefinder.com/tunes/9717
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS07.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Inverary2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LadyCharlotteBruce.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SauchieHaugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090105/SauchieHaugh.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1776
+T:Eilandsvreugd
+O:england
+C:Trad.
+L:1/16
+M:2/4
+P:AB
+K:G
+P:A
+D2 | "G"G2GA "Em"B2AG | "Am"A2AB "D7"c2BA | "G"G2GB d2BG | "D7"F2AD F2AD |
+"G"G2GA "Em"B2AG | "Am"A2AB "D7"c2BA |"G"BdBG "D7"AcAF | "G"G2G2G2 ||
+P:B
+Bc | "G"d2dc "E7"B2cd | "Am"c2cB "D7"A2Bc | "G"B2BA "Em"G2AB | "A7"AGFE "D7"DcBA |
+"G"B2BA "Em"G2AB | "Am"c2cB "D7"A2Bc | "G"BAGB "D7"AGFA | "G"G2G2G2 ||
+S:https://www.folktunefinder.com/tunes/22225
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

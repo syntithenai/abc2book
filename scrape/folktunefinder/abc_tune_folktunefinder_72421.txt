@@ -1,0 +1,32 @@
+X: 172
+T:Untitled. HA.171
+M:C
+L:1/8
+Q:1/4=160
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Hornpipe
+O:England
+A:Hartburn,Northumberland
+N:Dotted cr. makes B music slightly odd, but not certain where the error
+N:lies. NBr.....Sounds like another hornpipe to me.. CGP.
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:F
+c>B|A2F4 f>g|g3f dcdf|cAf>d cAGF|E2G4 F>G|!
+A2F4 f>g|g3f dcdf|FGAB cAGF|D2F4:|!
+|:f>g|fcfg agag|fedc A3A|"cr"B3f cAGF|E2G4 cB|!
+AFcA defd|gagf efge|agb>a gedc|d2f4:|]
+S:https://www.folktunefinder.com/tunes/72421
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

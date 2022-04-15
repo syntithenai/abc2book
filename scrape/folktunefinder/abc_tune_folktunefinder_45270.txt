@@ -1,0 +1,35 @@
+X:859
+T:Off To California
+N:anon.
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 859
+R:Hornpipe
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+N:Music Aviva - The Internet center for free sheet music downloads
+M:2/4
+L:1/16
+K:G
+(3(DEF)|G>FG>B A>GE>D|G>Bd>g e2(3(def)|g>fg>d e>dB>G|A>BA>G E2(3(DEF)|
+G>FG>B A>GE>D|G>Bd>g e2(3(def)|g>fg>d e>dB>G|A>BA>F G2::(3(def)|g>fe>g f>
+ed>f|e>de>f e>dB>d|
+g>fg>d e>dB>G|A>BA>G E2D2|(3(GAG) B>G A>GE>D|G>Bd>g e2(3(def)|g>fg>d e>dB
+>G|A>BA>F G2:|
+W:
+W:
+W:"Off to California" is perhaps better known as an US than an Irish
+W:tune. Irish immigrants to the USA tended to keep in close contact
+W:with their original home and O'Neill's books includes many tunes
+W:with obvious US reference.
+S:https://www.folktunefinder.com/tunes/45270
+S:http://music.gordfisch.net/oregans/assets/abc/oneills1001.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

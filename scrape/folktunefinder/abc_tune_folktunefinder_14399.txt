@@ -1,0 +1,28 @@
+X: 1
+T: Jean Ireland
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: c/B/ \
+| "A"A>EE "D"A>FF | "A"A>EE E>AB | c>ff ecA | "E7"c>BB BcB \
+| "A"A>EE "D"F>DD | "A"E>FE EAB | cef "E7"ecB | "A"cAA A2 :|
+f/g/ \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fAA | "A"edc "E"B2A \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aec "E7"BAB | "A"cAA Afg ||
+|| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fed | "A"cBA "E7"B2c \
+| "A"A>EE "D"A>FF | "A"A>EE EAB | cef "E7"ecB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/14399
+S:http://trillian.mit.edu/~jc/music/abc/jig/JeanIrelandJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/JeanIrelandJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JeanIrelandJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

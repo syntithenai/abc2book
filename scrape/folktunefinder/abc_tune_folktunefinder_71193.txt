@@ -1,0 +1,26 @@
+X:163
+%%topmargin 3cm
+T:The Chorus Jig
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:6/8
+L:1/8
+K:E dorian
+!p!A | F2 D- DED | AFD DED | F2 D- DED | A3 BAG | F2 D- DED | AFD DED | !f!E2 =c {/d}cGE | G3 E2 ::
+!p![Ac] | F2 d {/e}dcd | ABG {/G}FED | F2 d {/e}dcd | A3 BAG | F2 d {/e}dcd | ABF FED | E2 =c {/d}cBc | G3 E2 ::
+!p!g | f2 d- ded | afd ded | f2 d ded | a3 bag | f2 d- ded | afd de=f | e2 =c- cec | g3 e2 :|
+!mf!g | fdf ece | dBd AFA | D2 d {/e}dcd | A3 ABc | dBd cAc | BGB AGF | !ff!E2 =c cGE | G3 E2 |]
+S:https://www.folktunefinder.com/tunes/71193
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Chorus_Jig.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0163.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

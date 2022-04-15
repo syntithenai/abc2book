@@ -1,0 +1,28 @@
+X: 124
+T:Untitled. HA.123
+M:3/4
+L:1/8
+Q:120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:C
+A>A|c2e2e2|g4dc|B2d2d2|f4(ed)|!
+(ed)(ef)(ef)|d2B2e2|^c2A2A2|A4:|!
+(A/B/c)|B2G2G2|d4d2|d3e^c2|d4B2|!
+c2(AB)(cd)|e3d (e/f/g)|(fe)(dc)c2|c4d2|!
+e2(e/f/g) (fe)|c4c^c|d2(df) (ed)|_B4(cd)|!
+e3fe2|e2(dc) (Be)|^c2(BA)A2|A6|]
+S:https://www.folktunefinder.com/tunes/72373
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

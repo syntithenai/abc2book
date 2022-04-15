@@ -1,0 +1,26 @@
+X:125
+T:Strike the Gay Harp
+Z:Philippe Murphy 2006-05-25
+S:Kevin Crawford, In Good Company
+M:6/8
+L:1/8
+R:jig
+K: D
+d2B cBA | dAF FED | DdB cBA | dAF E3 |
+def Bcd | ABA F2E | DED DEF | AFE EFA ::
+d (3Bcd fdf | aba afe | def afa | bge edB |
+def afa | bgb a2g | fed dfe | dAF FED ::
+def dfe | dAF DFA | def dfe | dAF E3 |
+def Bcd | ABA F2E | DED DEF | AFE EFA :|
+S:https://www.folktunefinder.com/tunes/53782
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

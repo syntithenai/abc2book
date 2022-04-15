@@ -1,0 +1,23 @@
+X:5675
+T:Skeppare Schottische
+M:4/4
+O:Sweden
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bef.html
+%%ID:00000bef
+K:D
+D2FA d2BA| d2BA ddBA| D2FA d2BA| ddBA c4| \
+c2ef g2fe| ggfe a3g|  abaf gecA|1 d3c dBAF :|2 d3c defg|:\
+a2af dfa2 | abaf dfa2 | f2ed ffed| ffed e3f|\
+gage ceA2| gage ceA2| g2fe aafe |1 d3c defg :|2 d8 |]
+S:https://www.folktunefinder.com/tunes/37214
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

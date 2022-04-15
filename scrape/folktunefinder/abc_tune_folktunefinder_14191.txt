@@ -1,0 +1,31 @@
+X: 1
+T: Flirtation Jig
+M: C|
+L: 1/8
+R: reel
+B: Ryan's Mammoth Collection (as a reel)
+N: Originally a reel, converted to jig by John Chambers
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: 306
+K: G
+D \
+| "G"G2A BAB | "C"cBc "D7"def | "G"g2d "C"edc | "A7"BA^G "D7"A2D \
+| "G"G2A BAB | "C"cBc "D7"def | "G"gdc    BdB | "D7"AGF "G"G2 :|
+|: d \
+| "G"g2a bag | "D7"def "G"g2d |    g2a "(Em)"bag | "D7"fef "G"g2d \
+| "G"G2A BAB | "C"cBc "D7"def | "G"gdc       BdB | "D7"AGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14191
+S:http://trillian.mit.edu/~jc/music/abc/jig/FlirtationJig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FlirtationJig_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/FlirtationJig_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

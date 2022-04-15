@@ -1,0 +1,28 @@
+X:30
+T:Dur{\aa}moll
+R:sl-polska
+H:efter Ludvig Olsson, Enshult
+A:Sm{\aa}land
+Z:id:hn-sp-30
+M:3/4
+L:1/16
+K:G
+g4 g/a/g/f/ga g2g2 | d2dd B/c/B/A/Bc d2B2 | B/c/BAB c2BA B2AG |
+F2D2 C2B,2 A,2G,2 | g4 g/a/g/f/ga g2g2 | d2dd B/c/B/A/Bc d2d2- |
+d2g2 e3g f2a2 | g/a/gfg a4 g4 :|
+K:Gm
+|: B4 {c}BABc d2B2 | BcBA B2g2 f4 | g2dg g2b2 a3g | f=efg a2f2 d4 |
+d2g2 g2d2 dcBA | B2f2 f2c2 cBAG | d2g2 g2d2 dcBA | B2f2 f2c2 cBAG |
+GABG ABcA B2AG | ^F2DF G4 G4 :|
+S:https://www.folktunefinder.com/tunes/62361
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

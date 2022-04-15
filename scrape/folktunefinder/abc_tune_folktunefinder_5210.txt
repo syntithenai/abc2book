@@ -1,0 +1,24 @@
+X: 163
+T: S\"usserl (F)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: F
+|: "F"[AF][cA] [cA][BG] | [A2F2] z2 | [AF][cA] [cA][AF] [dB][cA] \
+| "C7"~[c2A2] [BG][AF] | [G2E2] z2 |
+| "Bb"[dB][dB] [dB][fd] [ec][dB] | "F"~[d2B2] [cA][BG] | [A2F2] z1 \
+| "C7"[cE][cE] [c2E2] [B2G2] | "F"[A2F2] z2 z2 :|
+|: "C7"[GE][BG] [BG][AF] | [G2E2] z2 | [GE][BG] [BG][GE] [cA][BG] \
+| "F"[AF][cA] [cA][BG] | [A2F2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5210
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

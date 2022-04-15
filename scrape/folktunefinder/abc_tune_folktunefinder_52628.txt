@@ -1,0 +1,27 @@
+X:563
+T:Boeing 747
+C:Ivan Karvaix
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+Q:90
+K:Gm
+GABG g3a | bagf d3=e | f=edc dBAB | dBAB A4 |
+GABG g3a |bagf d3=e | f=edc dBAB | dBAB G4 :|!
+K:G
+|:\
+gfef d4 | gfef B4 | gf=fe _edc_B | A_BcA d4 |
+gfef d4 | gfef B4 |gf=fe _edc_B | A_BcA G4 :|
+S:https://www.folktunefinder.com/tunes/52628
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

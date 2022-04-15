@@ -1,0 +1,30 @@
+X:5405
+T:Rabbits in Australia
+O:england
+M:6/8
+C:
+S:Berkeley Morris (1988 May 1)
+N:
+A:Bucknell
+R:Reel
+%P:A/2.(AB)$^3$.A
+P:A.(AB)3.A
+L:1/8
+K:G
+I:speed 450
+P:A
+|:D|G2   G    D2 D|E>Ae       d>BG|G2   G    D2 D|E2 A      G2:|\
+%|:E>Ae      d>BG|E2 A       G2 D|E>Ae      d>BG|E2 A      G2:|
+P:B
+A|B2   G    B2 G|B2-B       A2 A|B2   G    E2 E|AGF       G2
+S:https://www.folktunefinder.com/tunes/25857
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

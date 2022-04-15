@@ -1,0 +1,32 @@
+X:36
+T:Lou plang de Nosto Damo
+C:Trad.
+O:France
+A:Provence
+R:Chanson
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-12-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:Bb
+%%continueall 1
+V:1
+d2c | edc | B3 | f2e | gfe | d3 | Bed | GGc |
+A2 B | cd2 | c2z | e3 | d3 | c3 | B2c | d2G | c2B | !breath!A3 | B3 |
+c2e | d3 | cBA | BA2 | !breath!G3 | dcB | cBA | HG3 - || G3 |]
+V:2 name=Tamb. clef=perc stafflines=1 staffscale=0.6
+B2B | B2B | BBB | B2B | B2B | BBB | B2B | B2B | 
+B2B | zB2 | B2z | B2B | B2B | B2B | B2B | B2B | B2B | B3 | B2B | 
+B2B | BBB | B2B | zB2 | BBB | B2B | B2B | BBB || B3 |]
+%%footer $D   Galouvielle-MBe 2008 \nChanson (France)
+S:https://www.folktunefinder.com/tunes/495
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

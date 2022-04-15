@@ -1,0 +1,23 @@
+X:12
+T:O'Hare Jig
+M:6/8
+C:Ben Bolker
+R:jig
+K:Am
+A,3 CA,C | ECE A2 A | GcA GEC | DEC B,A,G, | \
+A,3 CA,C | ECE A2 A | GcA GED | EA,G, A,3 :|
+|: c3 ece | a^g=g fed | BdB  GAB | d^c=c BAG | \
+A3 cAc | a^g=g fed | BdB  GAB | A3 z3 :|
+S:https://www.folktunefinder.com/tunes/14785
+S:http://trillian.mit.edu/~jc/music/abc/jig/OHareJig_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/OHareJig_BB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:1
+T: the Soggy Path
+R:Polka
+C:Nigel Gatherer
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:2/4
+L:1/8
+K:D
+|: dA dA | f/g/f/e/ dA | B/c/d Af | ed B2 \
+|  dA dA | f/g/f/e/ dA | G/A/B A>c | ed d2 :|
+|: fd de/f/ | gB Bd | c/d/e B>c | BA a2 \
+|  fd de/f/ | gB Bd | c/d/e A>c | ed d2 :|
+S:https://www.folktunefinder.com/tunes/16232
+S:http://trillian.mit.edu/~jc/music/abc/polka/SoggyPathP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

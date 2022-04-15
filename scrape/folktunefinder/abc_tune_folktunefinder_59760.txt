@@ -1,0 +1,40 @@
+X:873
+T:Xiraldilla (CT 379)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 379
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|d>cB|ccc|d2 e-|e3|f>ed|eee|(d>c)B-|B2z|
+d>cB|ccc|d2 e-|e3|f>ed|eee|(d>c)B-|
+|ddd|(c>B)A|BBB|B3|
+ddd|(c>B)A|BBB|B3-|B z2||
+W:Con esi mandiln blancu,
+W:vas publicando la guerra,
+W:y yo como buen soldado
+W:siento plaza en tu bandera.
+W:
+W:Que buen soldado
+W:se lleva el rey;
+W:la escarapela
+W:le est mui bien.
+W:
+S:https://www.folktunefinder.com/tunes/59760
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

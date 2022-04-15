@@ -1,0 +1,50 @@
+X: 2
+T: R\ua\vcenica for Three
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: G
+"A" \
+[|"G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] \
+| "G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] |]
+"B" \
+|:"G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[d7B] \
+| "G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[B7G] :|
+"C" \
+|:"G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] | "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] \
+| "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][ec] [f2d][ec] | "D7"[dB][ec] [ec][dB] [dB][cA][cA] | "G"[B7G] :|
+"D" \
+[|"G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] \
+| "G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] |]
+"E" \
+|:"C"[e2c] [e2c] [e2c][ec] | [e2c] [e2c] [e2c][dB] | "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] \
+| "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] | [B2G] [c2A][d2B][dB] | "D7"[dB][cA] [cA][BG] "G"[B3G] :|
+"F" \
+[|"G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] \
+| "G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] |]
+"G" \
+[|"G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] \
+| "G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] |]
+S:https://www.folktunefinder.com/tunes/2909
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/RachenicaForThree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/RachenicaForThree_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RACH3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RachForThree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RachForThree_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RachForThree_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RachenicaForThree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RachenicaForThree_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RACH3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RachForThree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RachForThree_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rach_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RachenicaForThree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RachenicaForThree_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/RachForThree_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: Back to Erin
+R: Reel
+M: 4/4
+L: 1/8
+C: Bracha Ben Avraham
+S: "Israeli Ceilidh"
+K: Am
+|: A2AB cBAG | E2ED EAAB | c3d e3c | dgdc BGG2 |
+| A2AB cBAG | E2ED EAAB | c3d edcA | BdcB cAA2 :|
+|| a3g e3d | eaed cAA2 | a3g edcd | eaag a4 |
+| a3g e3d | eaed cAAB | cGcd eaed | cAAG A4 ||
+|| aeab aged | eaed cAAB | cAAA eAAA | eaag a4 |
+| a2ag efge | dgdc BGGB | cAcd eaed | cAAG A4 |]
+S:https://www.folktunefinder.com/tunes/16740
+S:http://trillian.mit.edu/~jc/music/abc/reel/BackToErinR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:402
+T:The Abbey Reel
+T:The Moher Reel
+S:(Simplified from) Liz Carroll, GLCD 1092, 1b
+Z:Jerome Colburn <jscolbur@PRAIRIENET.ORG irtrad-l 2001-6-9
+M:C|
+K:Gm
+G3 F G2 FD | G2 FG AccA | G3 F G2 FD | F3 G AccA |\
+G3 F G2 FD | G2 FG Ac~c2 | dcAd G2 FD | F3 G Ac~c2 :|\
+df~f2 g2 fd | fgaf g2 {a}gf | df~f2 g2 fg | afga gfdf |\
+df~f2 gfaf | gfaf gfdf | cdfa g2 fg | abga fdcA :|*
+S:https://www.folktunefinder.com/tunes/16690
+S:http://trillian.mit.edu/~jc/music/abc/reel/AbbeyReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MoherReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/AbbeyReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MoherReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/AbbeyReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MoherReel_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

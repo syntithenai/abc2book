@@ -1,0 +1,24 @@
+X:1
+T:Winding Stairs, The
+M:9/8
+L:1/8
+%Q:124
+S:Patrick Street "Made in Cork"
+Z:Paul T. Kinder 
+R:Slip Jig
+K:EDOR
+|:EDE B2 G F2 G|E2 B B2 G AFD|EDE B2 G F2 B|AGA dBG AFD:|
+|B2 e e2 d e2 d|B2 e e2 b afd|A2 d d2 c d2 B|AGA dBG AFD|!
+Bcd e2 d e2 d|B2 e e2 a fdB|gab efg dcB|AGA dBG AFD||!
+S:https://www.folktunefinder.com/tunes/18552
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/WindingStairs.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/WindingStairs.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/WindingStairs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

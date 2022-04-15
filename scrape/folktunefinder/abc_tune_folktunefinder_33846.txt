@@ -1,0 +1,31 @@
+X: 4689
+T: Breeches the
+C:trad.
+S:Martin Hayes
+I:speed 300
+M:6/8
+K:G
+G2A |: B2G A2G | B2A G2A | B2G A2G | E2D  G2A |
+B2c d2e | d2B G2A | G2E E2D |[1 D3 G2A :| [2 D3 d2e |
+|: d2B A2G | A2B d2e | d2B A2G | E3 d2e |
+g2e  d2e | B2A G2A | G2E E2D |[1 D3 d2e :| [2 D3 g2a |
+|: b2g a2g | b2a g2a | b2g a2g | e3  g2b |
+e2g d2e | B2A G2A | G2E E2D |[1 D3 g2a :| D3 e2d |
+B2d e2d | B2d e2d | B2G A2G | E3 e2d |
+B2d e2d | B2A G2A | G2E E2D | D3e2d |
+B2d e2d | B2d e2d | B2G A2G | E3 g2b |
+e2g d2e | B2A G2A | G2E E2D | D3 G2A |
+M:2/4
+S:https://www.folktunefinder.com/tunes/33846
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

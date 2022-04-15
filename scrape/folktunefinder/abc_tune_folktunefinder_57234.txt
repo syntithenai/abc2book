@@ -1,0 +1,34 @@
+X:2295
+T:Bulgarian tune (from Emma)
+S:Emma Grut
+R:Other
+O:Bulgaria
+M:11/8
+K:D
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FGAD | \
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FED2 :|
+|:ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FGAD | \
+ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FED2 :|
+|:ABAG "tr"F2E FGAD | ABAG "tr"F2E FED2 :|
+K:C
+|:_Bcdc BAG c BAG | ^FGA2 G^FG E2EC |\
+^FGGC E2G F2FE | E2_BA G^FG E4|
+_Bcdc BAG c BAG | ^FGA2 G^FG E2EC | \
+^FGGC E2G F2FE | E2 FE E^DE C4||
+|:^FGGC E2G F2FE |E2_BA G^FG E4| \
+^FGGC E2G F2FE |E2FE E^DE C4:|
+|:EFFE E^DE CDEC| EFFE E^DE C2CG,|\
+EFFE E^DE CDEC| EFFE E^DE C2C2 :|
+S:https://www.folktunefinder.com/tunes/57234
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 11/8
+% Text Has source text
+% Has_accompaniment_chords No chords

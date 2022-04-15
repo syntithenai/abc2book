@@ -1,0 +1,29 @@
+X:340
+%%topmargin 3cm
+T:Orange and Blue
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+R:Strathspey
+M:6/8
+L:1/8
+K:C
+f | e2c {/d}cBc | G2 c E2 c | e2 c ege | c3 c2 e | f2 d {/e}dcd | A2 d d2 c |
+B2 G BdB | G3 G2 f | e2 c ~c3 {Bc} | G2 c E2 c | e2 c ege | c3 c2 g | a2 f g2 e |
+f2 d e2 c | BdB GAB | c3 c2 || f | e2 g- gag | e2 g- gag | e2 c ege | c3 c2 e |
+f2 a- ac'a | f2 a ac'a | f2 d faf | d3 d2 f | e2 g- gag | e2 g- gag |
+e2 c ege | c3 c2 g | afa geg | fdf ece | BdB GAc | c3 c2 |]
+S:https://www.folktunefinder.com/tunes/71369
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Orange_and_Blue.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0340.abc
+% Rhythm Strathspey
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

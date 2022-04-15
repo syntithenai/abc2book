@@ -1,0 +1,24 @@
+X:100
+T: WAS KLINGET UND SINGET DIE STRASSEN HERAUF
+N: F0212
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied, Liebe
+M: 6/8
+L: 1/8
+K: F
+F, | F,F,F,A,A,A, | CCCA,2
+F, | D2DFED | C2CA,2
+C | CG,G,G,A,B, | A,3Cz
+C | CG,G,G,A,B, | A,3Cz
+C | CA,B,C2F | E3Fz
+S:https://www.folktunefinder.com/tunes/69660
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Abschieds - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

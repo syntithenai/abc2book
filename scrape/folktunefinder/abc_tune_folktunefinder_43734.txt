@@ -1,0 +1,29 @@
+X:3
+T:Farewell to Nun Street
+C:Andy Hornby 1998
+I:abc2nwc
+M:3/4
+L:1/8
+K:F
+D/2|D2G2A/2G/2F|G3F GA|B2A2Gd|dc BA GF|
+D2G2A/2G/2F|G3F GA|B/2A/2G c/2B/2A d^F|[1G6:|[2G4
+|:Dd|d2cA c2|B4GB|BA A^F Dc|cB BG Dd|
+d2cA c2|B4GA|B/2A/2G c/2B/2A d^F|G4:|
+K:G
+|:D|DG  GA  AB|B2 GB dc|Bc/2B/2 AG Ad|Bc/2B/2 AG A2|
+DG GA AB|B2 GB dc|B2AG AF|G4-G:|
+|:Bc|d2BG B/2c/2d|A4 Bc|B2AG FA|
+D4 Bc|dc cA Ac|c2BG GB|BA cA F/2G/2A|G4:|
+%%textfont Timesbold 25
+%%center  WALTZES
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43734
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 159
+T:La vido en roso
+R:Slow
+O:France
+C:1947
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+Q:"Tempo de slow"1/4=90
+K:Fmaj
+%%MIDI program 74
+f3e d>cA>f | e3d c>AF>e | d2c2d2e2 | f2d2 [cc4]AAG |:
+FEFGbreathA BBA | G^FGAbreathB ccB | AGAB cccc | cc_A=A c4 |
+P:Refrin
+f3e d>cA>f | e3d c>AF>e | d3c A>EF>e | d4c2z2 |
+g3f e>dB>f | e3d c>BG>e | d3c B>^FG>e | d4c2z2 |
+f3e d>cA>f | e3d c>AF>e | d3c A>FG>f | f8 |
+gg2f gg2f | gg2f d4 | gg2f gg2f | gg2"rit"f Ha2 Hg2 |
+"g tempo"f3e d>cA>f | e3d c>AF>e | d2c2d2e2 |1 f4 zAAG S :|2
+[f3(f8-]e d>cA>f | [e3(f8)]-d c>AF>e | [d2(f8)]c2d2e2 | [f2)f4] [f2c2A2] z2 |]
+%%footer $D   Galouvielle-MBe 2008 \nSlow (France)
+S:https://www.folktunefinder.com/tunes/617
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Slow
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

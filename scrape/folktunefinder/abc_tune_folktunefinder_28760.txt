@@ -1,0 +1,31 @@
+X:2480
+T:Cancioneiro de Casto Sampedro: N\'umero 320
+T:Muieira de Negros
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C % 0 sharps
+zc2c Bc AG|Ac G2 E2 GG|G2 FE FA F2|D2 cc Bc AG|
+Ac G2 E2 GG|G2 FE FA G2|C2 GG G2 EE|EE F2 D2 GG|
+G2 FE FA G2|E2 GG G2 EE|EE F2 D2 GG|G2 FE FA G2|
+C2 EE2E EC|EG F2 D2 DD|B,D DB, DA G2|E2 EE CE EC|
+EG F2 D2 DD|EF AG EG FD|C2 cc Bc AG|Ac G2 E2 GG|
+G2 FE FA F2|D2 cc Bc AG|Ac G2 E2 GG|G2 FE FA G2|
+C2 GG G2 EE|EE F2 D2 GG|G2 FE FA G2|E2 GG G2 EE|
+EE F2 D2 GG|G2 FE FA G2|C2 EE2E EC|EG F2 D2 DD|
+B,D DB, DA G2|E2 EE CE EC|EG F2 D2 DD|EF AG EG FD|
+C6
+S:https://www.folktunefinder.com/tunes/28760
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:175
+T: NUN SAGT EINMAL IHR GAENSCHEN MIR
+N: F0310
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, Tiere
+M: 2/4
+L: 1/16
+K: G
+d2 | B3GG2D2 | E2F2G2
+A2 | B2d2B2G2 | ded2z2
+d2 | B3GG2D2 | E2F2G2
+A2 | B2d2B2G2 | ded2z2
+d2 | edcccBAG | FGFED2
+d2 | BcdBGABc | B4A2B2 | G4z2
+S:https://www.folktunefinder.com/tunes/69735
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, tiere
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

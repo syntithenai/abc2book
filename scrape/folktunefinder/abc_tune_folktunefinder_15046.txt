@@ -1,0 +1,30 @@
+X: 1
+T: Seanamhac Tube Station
+R: jig
+C: John Carty
+D: John Carty: Yeh That's All It Is
+F: http://perso.wanadoo.fr/shelta/Images/shelta.abc
+M: 6/8
+K: Ador
+|:"Am"AGE EDE|ABd ~e3|"G"edB dBG|AGE DEG\
+| "Am"AGE EDE|ABd ~e3|"G"edB dBG|1 "F"A2B "G"c2B:|2 "Am"~A3 AB/c/d||
+[|"Am"~e3 edB|"G"~d3 age|"Em"edB dBG|AGE DB/c/d\
+| "Am"~e3 edB|"G"~d3 age|"Em"edB dBG|"Am"~A3 AB/c/d|]
+[| "F"~e3 aea|"G"~d3 age|"Em"edB dBG|AGE DEG\
+| "Am"AGE AGE|AGE edB|"Em"edB edB|"F"A2B "G"c2B||
+S:https://www.folktunefinder.com/tunes/15046
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SeanamhacTubeStation_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SeanamhacTubeStation_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SeanamhacTubeStation_Am.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

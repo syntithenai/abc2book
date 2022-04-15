@@ -1,0 +1,33 @@
+X:13969
+T:Randel's Reel
+% Nottingham Music Database
+S:G. Mitchell, via PR
+M:4/4
+L:1/4
+K:G
+"G"^A/2B/2d/2g/2 d/2B/2e/2B/2|^A/2B/2d/2g/2 d/2B/2e/2B/2|\
+"G"d(3B/2d/2e/2 "A7"ge|"D"f2 "A7"f2|
+"D"A/2d/2f/2A/2 g/2A/2f/2A/2|"D"a/2A/2g/2A/2 f/2A/2e/2A/2|\
+"Am"f/2g/2f/2e/2 "D7"de|"G"B2 "D7"B2|
+"G"^A/2B/2d/2g/2 d/2B/2e/2B/2|^A/2B/2d/2g/2 d/2B/2e/2B/2|\
+"G"d(3B/2d/2e/2 "Bb/dim"ge|"Am"f2 "D"f2|
+"Am"f/2A/2g/2A/2 a/2A/2g/2A/2|"D"f/2A/2e/2A/2 d/2A/2c/2A/2|\
+"Am"c/2d/2c/2A/2 "D7"DF|"G"G2 G3/2^A/2||
+"G"B/2d/2g/2B/2 a/2B/2g/2B/2|b/2B/2a/2B/2 g/2B/2d/2B/2|"G"g/2d/2B/2d/2 "Em"gb|\
+"Am"a2 "A7"a2|
+"D"A/2d/2f/2A/2 g/2A/2f/2A/2|"D"a/2A/2g/2A/2 f/2A/2e/2A/2|\
+"Am"f/2g/2f/2e/2 "D7"de|"G"B2 "D7"B3/2^A/2|
+"G"B/2d/2g/2B/2 a/2B/2g/2B/2|b/2B/2a/2B/2 g/2B/2d/2B/2|"G7"g/2d/2B/2d/2 gb|\
+"C"a2 "A7"a3/2A/2|
+"D"f/2A/2g/2A/2 a/2A/2g/2A/2|f/2A/2e/2A/2 d/2A/2c/2A/2|"F"c/2d/2c/2A/2 "D7"DF|\
+"G"G2 G2||
+S:https://www.folktunefinder.com/tunes/63979
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

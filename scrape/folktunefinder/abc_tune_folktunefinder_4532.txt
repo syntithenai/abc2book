@@ -1,0 +1,20 @@
+X: 4
+P: Karjalan kunnailla
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+| "Gm"B4 DF | "Dm"A2 A2 "Gm"B2 | "Eb"G4 G2 | "Bb"D4 B,D \
+| "Dm"F2 F2 A2 | "Eb"G2 G2 "F7"E2 | "Bb"D4 E2 | F4 "D7"DD |
+| "Gm"B4 d2 | "Dm"A2 A2 B2 | "Cm"G4 "Eb7-5"A2 | "D7"D4 B2 \
+| "Eb"G2 G2 B2 | "Gm"d4 "D"^F2 | "D7"A4 B2 | "Gm"G4 |]
+S:https://www.folktunefinder.com/tunes/4532
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song05.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

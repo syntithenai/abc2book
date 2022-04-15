@@ -1,0 +1,28 @@
+X:279
+T: Vom edlen Rebensaft
+N: A0320
+O: Europa, Mitteleuropa, Deutschland
+N: Scandello, d. Liedlein 1578 No. 3.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: A
+e2 | d2B2=c2A2 | B4A4 | z4
+=c4 | A2=F2=G2E2 | D4z2
+e2 | d2B2=c2A2 | B4A4 | z4
+=c4 | A2=F2=G2E2 | D4z2
+d2 | e2d2=c2A2 | B4=c4 | z2=c2A2A2 | =G2=F2E4
+z2A2A2A2 | =c3_BA2=F2 | =G4=F4
+z2=c2c2A2 | =c2d2c2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/68825
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

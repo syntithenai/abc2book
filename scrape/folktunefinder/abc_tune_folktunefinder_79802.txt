@@ -1,0 +1,25 @@
+X:698
+T: DER SULTAN HAT EIN TOECHTERLEIN
+N: E2127
+O: Europa, Mitteleuropa, Deutschland, Wertheim
+R: geistlich, Heiligen - Lied, Legende
+M: 3/2
+L: 1/8
+K: G
+D2 | G2A2B4d4 | B2A2G6
+c2 | B2A2B4d4 | e4d4z2
+d2 | B2d2c4B4 | A2G2F4z2
+G2 | E2D2B3AG2A2 | D4G4z2
+S:https://www.folktunefinder.com/tunes/79802
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, heiligen - lied, legende
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

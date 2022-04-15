@@ -1,0 +1,23 @@
+X: 1
+T: Khosidl
+M: 2/4
+L: 1/16
+Z: John Chambers <jc:trillian.mit.edu>
+K: Dphr^F
+|: "D"DEDE FGFE | F2D2 A,2D2 | FGFG ABAG | A2F2 D2F2 || DFAc BAGF | "Cm"GFED C4 |
+| "Cm"=B,CDE FGFE | "D"FED6 :: "D"A8 | A8 | A4 A4 | A4 A4 || "D"ABAB A3G |
+| "D"FGFG A4 | ABAB A3G | "(Cm)"FGFE "D"D4 || "D"ABAB A3G | FGAB "Cm"c4 |
+| "Cm"cBBA AGGF | FGFE "D"D4 :: "D"F3E DCDE | FGFE D4 | DBAG FGAB |
+| "D"A4 d4 || "(Cm)"cBAG FGAB | cBAG FEDC | "Cm"=B,CDE FGFE | "D"FED6 :|
+S:https://www.folktunefinder.com/tunes/7164
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Khosidl1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Khosidl1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Khosidl1_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:455
+T:Boney Crossing the Alps
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004fb.html
+%%ID:000004fb
+K:F
+dc|\
+BcAB GFDG| FDCD F2Ac| dfeg fdcB| A2F2 F2 dc|\
+BcAB GFDG| FDCD F2Ac| dfeg fdcA| G2G2 G2::\
+d^f|\
+gdga gbag| fdcA F2ce| fcfg facB| A2F2 F2 BA|\
+GDGD GBAG| FDCD FGAc| dfeg fdcA| G2G2 G2:|
+S:https://www.folktunefinder.com/tunes/36170
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Butterfly
+O: (Tommy Potts)
+R: slipjig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Commonly ends with the first bar as a coda.
+N: Although this tune is often attributed to Tommy Potts, he wrote at most the first part.
+N: The other parts are variants of the old tunes Barney's Goat and Skin the Peeler.
+D: Bothy Band: 1975
+M: 9/8
+L: 1/8
+K: Em
+|: "Em"B2E G2E "D"F3 | "Em"B2E G2E "D"FED | "Em"B2E G2E "D"F3 | "G"B2d d2B "D"AFD :|
+|: "Em"B2c e2f g3 | B2c g2e "D"dBA | "Em"B2c e2f g2a | "G"b2a g2e "D"dBA :|
+|: "Em"B>cB B2A G2A | B>cB BAB "D"dBA | "Em"B>cB B2A G2A | "G"B2d g2e "D"dBA :|
+S:https://www.folktunefinder.com/tunes/18516
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/Butterfly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/Butterfly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/Butterfly.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/slipjig/Butterfly.abc
+S:http://terrytraub.org/abc/ButterflyJ.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

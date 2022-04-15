@@ -1,0 +1,28 @@
+X:463
+%%topmargin 3cm
+T:The Hay-Makers
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Country Dance
+R:Jig
+M:6/8
+L:1/8
+K:G
+D | G2 B A2 c | B2 G AFD | G2 B A2 c | BdB G2 ::
+d | B2 d g2 d | e2 e dBG | B2 d g2 d | ege d2 ::
+B | c2 e dBG | AGA B2 G | c2 e dBG | AGA G2 :|
+S:https://www.folktunefinder.com/tunes/71492
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Hay_Makers.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0463.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

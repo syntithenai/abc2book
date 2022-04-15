@@ -1,0 +1,30 @@
+X: 7635
+T:Polska
+R:Polska
+O:Sweden
+N:The turns were given as mordants, which I don't have a notation for.
+M:3/4
+C:e. Olof Andersson
+A:Dalarna
+K:A
+[E2A,2] {efg}~a2 {e}f>g|(3efg af b>g|\
+[E2A,2] {efg}~a2 {e}f>g|1 \
+(3efg ~ae ~c>A :|2 (3efg ~a4 ::
+(A2 A)B/c/ (3dBd|d<c {d}"tr"c>A (3cAc|\
+cA (3cAc|\
+cG|(3ABc e3 [e(A]|\
+[A2)e2] [f2A2] (3dAd|\
+d<c {d}"tr"c>A (3cAc|c<B B~c (3dBd|\
+d<c {d}"tr"c>A (3cAc|cG|\
+(3ABc A4 :|
+S:https://www.folktunefinder.com/tunes/34852
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

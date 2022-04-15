@@ -1,0 +1,29 @@
+X: 1
+T: Mrs Will
+C: J.S.Skinner
+R: strathspey
+B: Harp & Claymore
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A \
+| "D"dcBA d3D FA3 A3=c | "G"B3G "D"A3F "Em"GE3 "A7"E3A \
+| "D"dcBA d3D FA3 A3g | "G"fed2 "A7"e3c "D"d4 d3 :|
+G \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3g \
+| "D"fed2 "A7"gfe2 "D"af3 d3g | "G"fed2 "A7"e3c "D"d4 d3 ||
+g \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3c \
+| "D"dcBA d3D FA3 A3G | "G"FED2 "A7"E3C "D"D4 D3 |]
+S:https://www.folktunefinder.com/tunes/19598
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsWill_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MrsWill_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsWill_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

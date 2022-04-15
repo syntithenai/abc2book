@@ -1,0 +1,23 @@
+X:202
+T: Herori matori!
+N: A0244
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 32.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+F | F2F | G2A | B2B | G2B | AGA | FF
+F | c2c | c2c | A2A | G2
+c | G2A | G2A | BAG | F2F | ABc | BG2 | F2
+S:https://www.folktunefinder.com/tunes/68748
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

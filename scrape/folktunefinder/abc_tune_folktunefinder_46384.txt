@@ -1,0 +1,26 @@
+X:15109
+T:Scottish Reform
+% Nottingham Music Database
+P:AAB
+S:Kevin Briggs, via EF
+M:6/8
+K:D
+P:A
+F/2G/2|"D"ABA AFA|"D"d2d "G"dcB|"D"ABA "Bm"AGF|"Em"EGF "A7"EFG|
+"D"ABA AFA|"D"d2d def|"G"gfg "A7"eag|"D"fdd d2:|
+P:B
+f/2g/2|"D"afd def|"G"gba "A7"gfe|"D"afd "Em"g2f|"A7"ecA A2f/2g/2|
+"D"afd def|"G"gba "A7"gfe|"G"gfg "A7"eag|"D"fdd "A7"dfg|
+"D"afd def|"G"gba "A7"gfe|"D"afd "Em"g2f|"A7"ecA ABc|
+"D"dfd "A"ecA|"G"BdB "D"AFD|"G"GFG "A7"EAG|"D"FDD D2||
+S:https://www.folktunefinder.com/tunes/46384
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

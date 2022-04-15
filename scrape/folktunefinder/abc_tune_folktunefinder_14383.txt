@@ -1,0 +1,24 @@
+X: 1
+T: Jack's Health
+T: Bolt the Door
+O: 1686
+M: 6/8
+L: 1/8
+K: Bm
+|: a3g \
+| "Bm"fdB B2c | "F#m"A2F F2c | "Bm"d2B "A"c2A | "Bm"B2c "F#(m)"d2e \
+| "Bm"fdB B2c | "F#m"A2F F2c | "Bm"d2B "A"c2A | "Bm"B3 :|
+B2c \
+| "D"dcB "(A)"A2e | "D"f3 "A"e2c | "Bm"d2B "A"c2A | "Bm"B2c "F#(m)"d2e \
+| "Bm"fdB B2e | "D"f3 "A"e2c | "G"d2B c2B | "A"A3 a2f |
+| "A"ecA A2e | "D"f3 "A"e2c | "Bm"d2B "A"c2A | "Bm"B2c "F#(m)"d2e \
+| "Bm"fdB B2e | f2b b2^g | "A"a2f e2c | "Bm"B3 |]
+S:https://www.folktunefinder.com/tunes/14383
+S:http://trillian.mit.edu/~jc/music/abc/jig/JacksHealth_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/JacksHealth_Bm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

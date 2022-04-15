@@ -1,0 +1,86 @@
+X: 11
+T: Heel and Toe #1
+M: 2/4
+L: 1/16
+Q:1/4=150
+K:G % 1 sharps
+% Heel & Toe #1
+% (c) SSF February 2006
+% collected from Charlie Oliver, Toowoomba
+V:1
+D2 G2 G3G| \
+F2 A2 A4| \
+D2 A2 A3
+A| \
+G2 B2 B4|
+D2 G2 G3G| \
+F2 A2 A4| \
+D2 F2 A3F| \
+A2 G2 G4|
+g2 g2 f2 e2| \
+d2 B2 B4| \
+c2 A2 A3c| \
+e2 d2 B4|
+g2 g2 f2 e2| \
+d2 B2 B4| \
+c2 A2 A3F| \
+A2 G2 G4|
+D2 G2 G3G| \
+F2 A2 A4| \
+D2 A2 A3
+| \
+G2 B2 B4|
+D2 G2 G3G| \
+F2 A2 A4| \
+D2 F2 A3F| \
+A2 G2 G4|
+g2 g2 f2 e2| \
+d2 B2 B4| \
+c2 A2 A3c| \
+e2 d2 B4|
+g2 g2 f2 e2| \
+d2 B2 B4| \
+c2 A2 A3F| \
+A2 G2 G4|
+V:2
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2|
+G,,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] z2| \
+D,2 z2 [A2F2D2] z2| \
+G,,2 z2 [D2B,2G,2] 
+%  <A name="D1X12">
+S:https://www.folktunefinder.com/tunes/81685
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

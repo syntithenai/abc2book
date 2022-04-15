@@ -1,0 +1,33 @@
+X: 1
+T: Sofia vals
+S: eft. Matts Israelsson-Str\"om, Malax
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+F: http://www.spelmansforbundet.fi/musik/ovriga_latar/
+M: 3/4
+L: 1/4
+K: D
+A \
+| ABA- | ABA | Af/f/f | ~fed \
+| dgg | ~gfe | eaa | a2A- |
+| ABA- | ABA- | Aff | d2d \
+| egg | [e2c2][ec] | ddd | d2 :|
+|: a \
+| ad'a | f2f | f/e/gf | d2A \
+| Agg | ~gfe | eaa | a2a |
+| ad'a | f2f | f/e/gf | d2e \
+| egg | gec | edd | d2 :|
+S:https://www.folktunefinder.com/tunes/20198
+S:http://www.spelmansforbundet.fi/musik/ovriga_latar/
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SofiaVals_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/SofiaVals_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/SofiaVals_D.abc
+% Rhythm Waltz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

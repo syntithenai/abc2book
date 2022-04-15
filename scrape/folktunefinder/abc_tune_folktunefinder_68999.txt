@@ -1,0 +1,23 @@
+X:140
+T: EY DU EDLER TANNENBAUM, DU BIST A  EDLER ZWEIG
+N: Z0139
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/8
+K: G
+ |  |  | GG_B2G2 | AAd2
+d2 | cc_B2G2 | =F2z2
+FG | GG_B2G2 | A2d2
+d2 | _BGBAGF | G4z2
+S:https://www.folktunefinder.com/tunes/68999
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

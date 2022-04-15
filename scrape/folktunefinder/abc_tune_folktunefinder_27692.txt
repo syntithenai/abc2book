@@ -1,0 +1,45 @@
+X:7240
+T:The Queen's Delight
+O:england
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Bucknell
+R:Jig
+%P:A/2(AB$^3$)$^6$(AC$^3$)$^2$
+P:A.(AB3)6(AC3)2
+L:1/8
+K:G
+Q:C3=100
+P:A
+|:d2 g dcB|cBc ABc|d2 G d2 c|BcA G3:|\
+P:B
+cBc  cBc|ABc def|gfg  eag|gfe def|\
+g2 g gfe|dec ABc|d2 G d2 c|BcA G3||\
+P:C
+cBc  cBc|ABc d2 e|\
+M:3/8
+L:1/8
+f3|\
+M:6/8
+g2 f g3|(2ea g3|g2 f e3|\
+M:3/8
+L:1/8
+def|\
+M:6/8
+g2 g gfe|dec ABc|d2 G d2 c|BcA G3||
+S:https://www.folktunefinder.com/tunes/27692
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

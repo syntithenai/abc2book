@@ -1,0 +1,30 @@
+X: 9154
+T:Zemer Baal Gilboa
+O:Israel
+Z:seymour.shlien@crc.doc.ca
+L:1/8
+M:4/4
+K:Am
+Q:1/4=120
+|:"Dm"AdcA "F"BGAF| "Dm"D2 D6| "F"AdcB "Am"AGcB| "F"A8|\
+ "Dm"FGAG "F"cGGF| "Dm"F8|EFGE GEED| D8:|
+L:1/8
+M:2/4
+K:Dm
+Q:1/4=160
+|:"Dm"z2 "F"F>G| "Dm"A2 "F"A2| "Dm"GF"F"GA| "Dm"F2 "Bb"D2|\
+"Dm"z2 "F"F>G| "Dm"A2 "F"A2| "Dm"GF"F"cB| "Dm"A4|
+"F"zA2c|"Dm"d2 "Bb"d2|"Gm"cB"Bb"cB| "Dm"A2 "F"A2|\
+"Dm"zF2G| "F"A2 "Dm"A2 |"C"GE"Am"GE|"Dm"D4:|
+S:https://www.folktunefinder.com/tunes/35393
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

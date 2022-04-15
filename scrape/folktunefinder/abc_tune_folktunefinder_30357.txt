@@ -1,0 +1,23 @@
+X:240
+T:the Millers Daughter
+B:Aird's Airs and Melodies vol 2
+M:C|
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000f8.html
+%%ID:000000f8
+K:D mixolydian
+g|\
+d/d/d dc Bcdc| B/c/d Gd e2dg|\
+d/d/d dc BcdB| A/A/A Bd "tr"e2 d::
+e|\
+gdge dBGf| gdeg "tr"e2de/f/|\
+gdge dBge| dBAB "tr"e2 d:|
+S:https://www.folktunefinder.com/tunes/30357
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

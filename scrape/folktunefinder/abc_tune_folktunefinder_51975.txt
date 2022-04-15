@@ -1,0 +1,23 @@
+X:1
+T:Scottish  Virmoux
+C:Trad arr. F. Paris
+R:Schottische
+M:C|
+L:1/8
+K:G
+GdcB d3B|cBcd e2d2|dgdB c2BA|BdBG A4|
+GdcB d3B|cBcd e2d2|dgdB c2BA|GdcB G4:|
+g2d2 g3f|edef gage|d2G2 d2cB|ABcd edef|
+g2d2 g3f|edef gage|d2G2 d2cB|ABcd G4:|
+S:https://www.folktunefinder.com/tunes/51975
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

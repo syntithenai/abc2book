@@ -1,0 +1,33 @@
+X: 205
+T:Robber's Waltz,The. CJF.205
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The beamed grace notes interrupt a beamed pair of quavers. The note
+N:marked * is given as a semiquaver in the MS. - PJH.
+Z:vmp.P J Headford 2000
+K:A
+c>B"f"|A2a2 c>B|A2a2 c>B|A2a2g2|f4d>c|!
+B2b2 d>c|B2b2 (ab)|.c'2(c'a)(bg)|a4:|!
+|:e2|(ed)(dc)(cB)|A2a2g2|(gf) (fe) (ed)|c2{dc}B2 e2|!
+(ed) (dc) (cB)|A2a2g2|f2b2g2|a4:|!
+|:(ab)|.c'.a.e.cA2|.c'.a.e.cA2|B2f2e2|d2{e>d}c2 (ab)|!
+.c'.a.e.cA2|.c'.ae.cA2|.B2(b2g2)|!
+"*"a2AAAA|.B2(e2d2)|c2.A.A.A.A|.B2(e2d2)|!
+c2A2e2|c2A2e2|c2A2g2|a2A2A2|A4|]
+S:https://www.folktunefinder.com/tunes/49760
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

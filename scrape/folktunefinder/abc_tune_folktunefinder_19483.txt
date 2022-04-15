@@ -1,0 +1,21 @@
+X:1
+T:Lochaber's Reel
+M:4/4
+L:1/8
+R:Strathspey
+S:Howe's 1000 Jigs and Reels (c.1867)
+Z:AK/Fiddler's Companion
+K:G Minor
+[| "Dm"A<d d>c d>c AF  | "Gm"D<G G<B D<G G<B | "Dm"A<d df     d<c AF | "Gm"B2 "(F)"AG "Gm"D<G G2 |
+ | "Gm"d<g g<b d<g g<b | "Dm"d<f f<a d<f f<a | "Gm"d<g g<b "Dm"af dc | "Gm"B2 "(F)"AG "Gm"D<G G2 |]
+S:https://www.folktunefinder.com/tunes/19483
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LochabersReel_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LochabersReel_Gm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

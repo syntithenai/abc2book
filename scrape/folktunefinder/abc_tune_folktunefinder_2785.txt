@@ -1,0 +1,39 @@
+X: 2
+T: Biserka
+C: Srbija
+M: 3/8
+L: 1/16
+K: Am
+|: "Am"A4 {^g}a2 | A4 {^g}a2 | e4 e2 | "E"^d2c2B2  \
+|  "Am"A4 {^g}a2 | A4 {^g}a2     | "Dm"d2e2f2     | "E"e6 |
+|  "Am"A4 {^g}a2 | A4 {^g}a2 | e4 e2 |  ^d3cBA \
+|  "Dm"d3^cde | "Am"c3Bcd | "E"B3ABc | "Am"A6 :|
+|: "C"[e4c2] [e2c] |    [g4e2] [fd2][ec2] | "G7"[d3B][ec][fd][ge] | "C"[e6c] \
+|     [e4c2] [e2c] | "F"[a3f][ge][fd][ec] | "G7"[d3B][ec][fd][ge] | "C"[e6c] |
+|1 "Am"e3ABc | e3ABc | e4 e2 | "E"^d3cBA \
+|  "Am"e3ABc | e3ABc | "E"B3ABc | "Am"A6 :|
+|2 "Am"e3ABc | e3ABc | e4 e2 | "E"^d3cBA \
+|  "Dm"d3^cde | "Am"c3Bcd | "E"B3ABc | "Am"A6 ||
+|: "Am"[c3A][BG][AF][GE] | "Dm"[F3D][EC][DB,][CA,] | "Am"[E3C]A^GA | [E6C] \
+|  "Am"[c3A]BAG | "Dm"F3EDC | "E7"B,3A,B,C | "Am"A,4 "fine"z2 :|
+S:https://www.folktunefinder.com/tunes/2785
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/BISE1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Biserka_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Biserka_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/Biserka.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Biserka.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Biserka.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Biserka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

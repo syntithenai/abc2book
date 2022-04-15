@@ -1,0 +1,26 @@
+X:384
+T: Feierabend (4-83), S. 107
+N: P0654
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Berufslied, ]
+M: 2/4
+L: 1/16
+K: G
+D4 | B2B2B4A4 | G4z4G4 | d2d2d4c4 | B4z4
+D2D2 | G2G2A4A4 | B4A4B2d2 | d2d2c4 | B4z4
+d4 | B2d2d2d2 | d4e2d2 | d2c2ccc2 | c8
+c2c2 | B4d4 | c4c4 | B8
+d4 | B2d2d2d2 | d4e2d2 | d2c2ccc2 | c4
+c2c2 | B4d4 | c4c4 | B8
+S:https://www.folktunefinder.com/tunes/76364
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Berufslied, ]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

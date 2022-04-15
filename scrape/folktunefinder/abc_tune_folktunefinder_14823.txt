@@ -1,0 +1,25 @@
+X:82
+T:Paddy Clancy's
+M:6/8
+L:1/8
+K:D
+f \
+| "D"afd "G"edB | "D"dcd "A"AFA | "D"dcd "Em"ede | "D"fef "A7"efg \
+| "D"afd "G"edB | "D"dcd "A"AFA | "D"dcd "A7"efg | "D"fdd     d2 :|
+|: e \
+| "D"faf "G"gbg | "D"faf    fed | "D"fef  "G"gfg | "D"afd "A7"e2d \
+| "D"faf "G"gbg | "D"faf    fed | "D"fef "A7"ede | "D"fdd     d2 :|
+S:https://www.folktunefinder.com/tunes/14823
+S:http://trillian.mit.edu/~jc/music/abc/jig/PaddyClancysJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PaddyClancysJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PaddyClancysJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PaddyClancysJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/PaddyClancysJ_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

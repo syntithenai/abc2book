@@ -1,0 +1,27 @@
+X:158
+T: Kindelwiegenlied
+N: A0524
+O: Europa, Mitteleuropa, Deutschland
+N: Paderborner Gsgb 1609.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/4
+K: F
+F2 | F4G2 | A4B2 | G3FG2 | A4
+F2 | F4G2 | A4B2 | G3FG2 | A4
+A2 | c4B2 | A4G2 | A3GA2 | G4
+G2 | c4B2 | A4G2 | A3GA2 | G4
+G2 | C3DE2 | F4A2 | G3FG2 | F4
+S:https://www.folktunefinder.com/tunes/80217
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

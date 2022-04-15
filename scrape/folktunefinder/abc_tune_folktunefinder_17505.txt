@@ -1,0 +1,32 @@
+X: 1
+T: the Lad's Awa'
+R: reel
+B: Birmingham 1973 #6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: G
+ba \
+| "G"g2dc "Em"BGGB | "Am"AEEA "D7"Fdef \
+| "G"g2dc "Em"BGGB | "Am"AE"D7"EF "G"G2ba |
+| "G"g2dc "Em"BGGB | "Am"ABAG "D7"Fedc \
+| "G"B2cd "C"egfe | "D7"dcBA "G"G2 ||
+|: Bd \
+| "C"e2ce "G"d2Bd | "D7"cAAc "G"Bdef \
+| "C"g2eg "Bm"f2df | "A7"egfe "D7"dcBA |
+| "G"G2GA "Em"BABc | "Am"A2AB "D7"cdef \
+| "G"g2dc "Em"BGGB | "Am"AE"D7"EF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/17505
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadsAwaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadsAwaR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/LadsAwaR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

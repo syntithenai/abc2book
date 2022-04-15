@@ -1,0 +1,25 @@
+X: 9
+T:Vous qui d'amoureuse aventure
+T:Veillons au salut de l'empire
+C:Dalayrac
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-30
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+%%continueall 1
+L:1/8
+K:G
+z3 z2d | dbg fef | gbg d2d | edc c'ba |
+g3- g2d | dbg fef | gbg d2d | agf efe |
+d2z zdd | a3- afd | b3- bgd | c'af gdB | 
+B2z zAd | a3- afd | b3- bgd | c'af gdB | A2d "Refrain"a2f |
+g2g a2g | c'ba e2e | c'2b aga | g2d a2f |
+g2g a2g | c'ba e2e | c'2b aga | g3 z3 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/39564
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

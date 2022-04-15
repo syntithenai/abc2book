@@ -1,0 +1,25 @@
+X:123
+T: Sch\^ines Himmelreich (2-25) S. 79
+N: P0898
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: geistliche, religise Lieder]
+M: 2/4
+L: 1/8
+K: E
+EEE | B4B2 | =d2e2d2 | c4
+=dc | B3cB2 | A2G2FG | A2G2 | F4
+e2 | B2B2e2 | BcB2A2 | =G2B2GF | E4
+EF | =G2B2BA | B3cBA | =G2F2 | E3
+S:https://www.folktunefinder.com/tunes/76103
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliche, religise lieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

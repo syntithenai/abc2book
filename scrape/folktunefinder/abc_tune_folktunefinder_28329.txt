@@ -1,0 +1,33 @@
+X:7877
+T: Walpole Cottage
+O:england
+C: Pat Shaw
+R: reel
+M: C|
+L: 1/4
+P: N(I A B C)  I
+K: D
+"A"\
+|: A/G/ \
+| "D"FAFA | FAd>c | "G"B>dcB | "D"A3A | "G"B>dcB | "D"Adfa | "Em"ag2f | "A7"e3A/G/ |
+| "D"FAFA | FAd>c | "G"B>dcB | "D"A3A | "G"B>dcB | "D"Adfa | "D"fd"A7"ec | "D"d3F ||
+"B"\
+|| "Bm"B>cdcB | "F#7"cf2e | "Bm"dB"F#7"c^A | "Bm"B3B | "A"c>ded | cA"Bm"Bd | "A"cA"E7"B^G | "A"A3A |
+| "G"B>cdc/B/ | "D"AF2A | "G"B>cde | "F#7"f3e | "Bm"d>efe/d/ | "A"ea"D"fd | "A"cA"E7"B^G | "A"A2a>g ||
+"C"\
+|| "D"f>efd | "A7"ecAB/c/ | "Bm"d>cdB | "F#m"A3A | "G"B>ABG | "D"FAde | fagf | "A7"e3A |
+| "D"f>efd | "A7"ecAB/c/ | "Bm"d>cdB | "F#m"A3A | "G"BcdB "D"Adfa | "D"fd"A7"ec | "D"d3f ||
+"I"\
+|| "Em"e>fgf | edcB |["1-N" "A"Az"E7"ez | "A"azz :|["Coda" "A7"Azcz | "D"d"fine"z2 |]
+S:https://www.folktunefinder.com/tunes/28329
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

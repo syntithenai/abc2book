@@ -1,0 +1,29 @@
+X:439
+T: BEI WATERLOO WAR DIE GROSSE SCHLACHT
+N: E0358B
+O: Europa, Mitteleuropa, Deutschland, Lahngebiet, Unter - Taunus
+R: historisches Lied, Krieg gegen Napoleon (1815)
+M: 4/4
+L: 1/8
+K: F
+C2 | F2A2G2c2 | A2AGF2
+G2 | A2c2B2d2 | c2cBA2
+c2 | d3cB2c2 | A4z2
+FA | c2f2d3c | dcBAG2
+GA | B2BBBdcB | A2G2F2z
+G | A2c2G4 | F4z2
+FA | c2f2d3c | dcBAG2
+GA | B2BBBdcB | A2G2F2z
+G | A2c2G4 | F4z2
+S:https://www.folktunefinder.com/tunes/78880
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen napoleon (1815)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

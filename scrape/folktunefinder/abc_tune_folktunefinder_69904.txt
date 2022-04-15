@@ -1,0 +1,25 @@
+X:344
+T: IMMER LANGSAM VORAN IMMER LANGSAM VORAN
+N: F0591
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Landsturm, Spott
+M: 4/4
+L: 1/16
+K: F
+c3B | A4F3FF4f3e | d4B3BB4
+B3A | G4G2F2c4c2B2 | A4G3GF4
+c4 | A4c4A4c4 | d2c2B2A2B4
+B4 | G4B3BG4B3B | c2B2A2G2A4
+c3B | A4F3FF4f3e | d4B3BB4
+B3A | G4G2F2c4c2B2 | A4G3GF4
+S:https://www.folktunefinder.com/tunes/69904
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, landsturm, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

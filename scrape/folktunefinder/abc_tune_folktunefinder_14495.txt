@@ -1,0 +1,34 @@
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E/=F/GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "Bm"fdf "A7"ece | "D"dAF D2 ||
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+S:https://www.folktunefinder.com/tunes/14495
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyCharlotteMurray1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyCharlotteMurray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/LadyCharlotteMurray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyCharlotteMurray1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyCharlotteMurray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyCharlotteMurray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/LadyCharlotteMurray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/LadyCharlotteMurray_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

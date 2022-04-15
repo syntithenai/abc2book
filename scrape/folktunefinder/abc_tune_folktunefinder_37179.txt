@@ -1,0 +1,30 @@
+X:5500
+T:Schottishe
+L:1/8
+M:C
+N:don't know but scandi
+O:Denmark
+Q:500
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c0f.html
+%%ID:00000c0f
+K:G
+D2|G2 GF GFGF|G6 A2|B2 BA BABA|B6 c2|
+dBGB dBGB|dBGB dBGB|A2 AG AGAB|1 A6:|2 G6||
+D2|DEFG ABcB|c6 D2|DEFG ABcB|c6 D2|
+GBAF GBAF| GBAF GABd|g2 fe dcBA| G6:|
+D2|G2 B2 d2 B2|g2 B2 d2 B2| c2 ec B2 dB|AGAB A2 D2|
+G2 B2 d2 B2|g2 B2 d2 B2|A2 AG AGAB| G6:|
+S:https://www.folktunefinder.com/tunes/37179
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

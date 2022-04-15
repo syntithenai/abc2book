@@ -1,0 +1,32 @@
+X: 1
+T: Invirtita Din Luna Turda
+O: Romania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%titlespace 0.0cm
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 0 100
+%%MIDI gchord ff2czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 7/8
+L: 1/8
+Q: 2/8=180
+K: D
+|:"D"aba ag gf | f2d e2 ed |"G"g2f ga fd |"A" e2d cB A2 |
+  "D"aba ag gf | f2d e2 ed |"G"d/2d/2dd "A"df ec | "D"d3-d2 z2 :|
+|:"D"df2 a2 g2 | f2d e2 ed |"G"g2f ga fd |"A" e2d cB A2 |
+  "D"df2 a2 g2 | f2d e2 ed |"G"d/2d/2dd "A"df ec | "D"d3-d2 z2 :|
+S:https://www.folktunefinder.com/tunes/7738
+S:http://trillian.mit.edu/~jc/music/abc/Romania/InvirtitaDinLunaTurda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/InvirtitaDinLunaTurda_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/tune/InvirtitaDinLunaTurda_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

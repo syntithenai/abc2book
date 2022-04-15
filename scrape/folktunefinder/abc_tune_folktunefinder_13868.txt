@@ -1,0 +1,29 @@
+X: 1
+T: Bide Ye Yet
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+B: Pinewoods Alternates
+B: Kerr's 1st
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"BAB G2A | Bcd "D"cBA | "G"BAB G2A | "C"B2e "D"e2d \
+| "G"BAB G2A | "Em"Bcd "Am"cBA | "Em"BAB "G"G2A | "Em"B2e e2 |]
+d \
+| "G"B2g g2d | "G"B2d "D"d2A | "Em"B2g gab | "C"B2e "D"e2d \
+| "G"B2g "Em"gab | "Bm"Bcd "Am"cBA | "G"BAG G2A | "C"B2e "D"e2 |]
+S:https://www.folktunefinder.com/tunes/13868
+S:http://trillian.mit.edu/~jc/music/abc/jig/BideYeYet_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/BideYeYet_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BideYeYet_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

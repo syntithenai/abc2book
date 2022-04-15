@@ -1,0 +1,23 @@
+X: 5
+T: 1. Gloomy Winter
+R: Strathspey
+L: 1/8
+M: C
+Z: Ian Brockbank
+% Q: 220
+K: A min
+|: E2 | \
+"Am" A3 B AG E2  | "Am" c3 e "E" dc B2  | "Am" A<A eA AGEC | "Dm" D2 "E" E^G "Am" A2 E2 |
+"Am" A3 B AG E2  | "Am" c3 e "E" dc B2  | "Am" A<A eA AGEC | "Dm" D2 "E" E^G "Am" A3 B  |
+"C" c2 ce "G" dc B2 | "Am" c>BAc "E"  Be e2 | "Am" c3  e "E" dcB<d | "Am" cA "G" BG "Am" EAAB |
+"C" c2 gc "G" Bc d2 | "Am" c>BAc "Em" Be e2 | "Am" c3  e "E" dcB<d | "Am" cA "E" B^G "Am" A2 :|
+S:https://www.folktunefinder.com/tunes/40109
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

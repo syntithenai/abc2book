@@ -1,0 +1,32 @@
+X: 1
+T: Polska efter Erik Larsson "Larsa"
+O: Uppt & arr: Ola Jonasson
+R: polska
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: D
+V: 1
+|: A(f/g/ f)e (cd- | d)(b b)a (ef- | f)g ef (cd- | d)c/d/ ec (AG) \
+|  F(f/g/ f)e (cd- | d)(b b)a (ef- | f)g ef  dc | ef/e/ (c<d- d2) :|
+|: Af/g/ a2 a2- | a>f e>d c>B | Af/g/ [b2B2] ([b2B2] | a)>g {fg}f>e d>c \
+|  de/f/ (fa) (a2- | a)f e>d c>d | e>f (3g(ag) (3f(af) | (3e(ge) (c<d- d2) :|
+V: 2
+|: [FD]A- AG [A2F2] | FG- GF (CD) | [A2D2] [A2G2] [A2F2] | E2 G2 E2 \
+|  DA- AG [A2F2] | FG- GF (CD) | [A2D2] [A2G2] [A2F2] | [AG][AG] [A4F4] :|
+|: DA (dA) (FE) | DA G>F E2 | EB (GF) (EG) | FE D>E F2 \
+| DA (dA) (FE) | DA G>F E>D | C>D E2 D2 | C[EC] {C}[D4D4] :|
+S:https://www.folktunefinder.com/tunes/16503
+S:http://trillian.mit.edu/~jc/music/abc/pols/PolskaEfterErikLarsson_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/PolskaEfterErikLarsson_D_2V.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:1
+T:La Sansonnette
+C:Dominique Forges
+C:2. H\"alfte des 20. Jahrhunderts
+R:Schottische
+A:France
+S:hg@hurdygurdy.com Sun, 18 Mar 2007 21:59:42
+Z:abc-transkription: Simon Wascher
+M:2/4
+L:1/16
+K:D aeolisch
+A2^GA =G2F2 | EGFE D4 | DEFG A2GA | c2=B2 A4 |\
+A2^GA =G2F2 | EGFE D4 | DEFG A2GF | EGFE D4 :|
+|:\
+A2FA BFAB | A2FA BFAB | A2EA BEAB | A2EA BEAB |\
+A2FA BFAB | A2FA BFAB | ABAG FGFE | DEFE D4 :|
+% aus Simon Waschers TradArchiv
+%%newpage
+%%center Bourres (2-time)
+S:https://www.folktunefinder.com/tunes/51978
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

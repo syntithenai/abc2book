@@ -1,0 +1,23 @@
+X:7
+T:Avant-Deux Lucie
+C:Traditional
+O:Wallonie
+N:For N couples, play AABBAABB N times.
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+N:(AABBAABB)xN  ABB
+K:G
+P:A
+|:DG B2|GB d2|cA EF|AG E2|DG B2|GB d2|cA EF|Gz Gz:|
+P:B
+|:BB (Bd)|d4|GG (GB)|B4|DE FG|[1A2 G2|GA (Be)|d ^cc:|[2AG AB|ce dF|Gz Gz|]
+S:https://www.folktunefinder.com/tunes/75703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Radi le
+P: ABA C1 D C2 DE C3 FGHIJKLMN
+O: Strandzha, E. Thrace
+Z: John Chambers <jc@trillian.mit.edu> (from a handwritten MS)
+N: Presented by Iliana Bozhanova and Lyuben Dossev, 1998
+W: O Radi, young man from Karyak, they've invited you to a Turkish wedding to sing for them.
+W: To a Turkish wedding, Radi, to sing for them, and even to dance for them.
+W: Dear old mother, I won't go, no, I'll never to to a turkish wedding, I'll never bow my head to Turks.
+M: 139/16
+L: 1/16
+K: Em
+"A"|: GB, FE GB, F2E  GA AB  | GB, F2E EF GA | GB, FE GB, F2E GA  AB | GB, F2E E2 E2 :|
+"B"|: AB  c2 GA  G2=F E2-E^F | GA  A2F G2-GA | BA  B2 AB G2=F GA- AB | GA G2=F E4 :|
+"C"|: {G}A2 A2 (AB) (GAF) (G3F) | E2 (GAF) G4 | {G}A2 A2 (AB) (G2F) (GA2G) | (G=F) E3 E4 :|
+S:https://www.folktunefinder.com/tunes/3115
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/RadiLe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature -117/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

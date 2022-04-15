@@ -1,0 +1,25 @@
+X: 1
+T:Slow Hornpipe
+M:4/4
+L:1/8
+Q:120
+B:Kerr's 1st
+S:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2002-1-11
+K:G
+|: D2 G>A (3BBB B>e | d>B G>A (3BBB B>e |  d>A F>G (3AAA A>B | A>G F>E (3DF A d2 |
+|  D2 G>A (3BBB B>e | d>B G>A (3BBB B>c | d>e f>e (3ded (3cBA |1 G2 B2 G2 F >E :|2 G2B2G2 G2>f2 ||
+|: e>^d e>=f e>=f e>=d | =c>d  c>B A>Bc>^c | d>^c d>e d>e d>=c | B>c B>A G>A G>=F |
+|  E>^G A>B c>d e2 | D>F G>A B>c d2 | ^c>d f>e d>=c B>A |1 G2 B2 G2 G>f :|2 G2 B2 G4 |]
+S:https://www.folktunefinder.com/tunes/13691
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/SlowHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/SlowHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SlowHornpipe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:64
+T: FROEHLICH UND FREI BIN ICH JUCHHEI
+N: B0550
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, national
+M: 3/4
+L: 1/8
+K: G
+ | G3BG2 | d4z2
+e2d2^c2 | d4z2
+c2B2A2 | d3cB2
+c2B2A2 | d3cB2
+G3BG2 | d3ed2
+e2d2^c2 | d3ed2
+d3Bd2 | g4z2
+S:https://www.folktunefinder.com/tunes/62087
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Studenten - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: the Reel Derek (tune 1)
+C: Derek Lane-Smith
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: ag \
+| "A"a2e2 c2A2 | "Bm"fedc B2BA | "E7"G2B2 E2FG | "A"ABcd "(E7)"e2ag | "A"a2e2 c2A2 |
+| "Bm"fedc "B7"B3A | "E7"GAB2 E2FG | "A"A4 "fine"A2 :| AB | "A"c2cA c2cA | "Bm"dcBA "E7"G2GA |
+| "E7"B2BG B2BG | "A"cBAF E2AB | "A"c2cA c2cA | "Bm"fedc "B7"B3A | "E7"GAB2 E2FG | "A"A4 "d.C."A2 |]
+S:https://www.folktunefinder.com/tunes/17980
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDerek1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Derek_Lane-Smith/ReelDerek1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReelDerek1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

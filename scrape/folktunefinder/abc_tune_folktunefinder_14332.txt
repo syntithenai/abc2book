@@ -1,0 +1,39 @@
+X:2
+T:Hommage a Jos. Bouchard
+I:Hommage a Jos. BouchardJ-69C/AmjigSet 57
+R:jig
+C:J-69
+C:Quebec
+C:Philippe Bruneau
+H:Written by Philippe Bruneau, in honor of Joe Bouchard
+D:From Sam Bartlett, then Mario Loiselle
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:C
+"C"E3 EFA| G3GAB| cBc "F"dcA| "A"G2G "Am7"EGc| \
+"Dm"B2B "G"GBd|
+ "Dm"f2f "G"GBd|1 "Dm"bag "G"fed| "C"cdc "G7"BAG:|\
+[2 "G"bag fed| "G"c3-"E7"cAB|]
+\
+K: Am
+\
+"Am"c2c cBc| AEE EAB| c2c cBc| "Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| \\"E7"BEE E^GB| "E"eEE "Fdim"dEE| "F#dim"cEE "E7/G#"BAB |\
+"Am"c2c cBc| AEE EAB| c2c cBc| \\"Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| "E7"BEE E^GB| "E7"efe dcB|1 "Am7"A3 "G7"G3 |][2 "A"A3-A3|]
+%%text 11/10/00.  Set 57
+S:https://www.folktunefinder.com/tunes/14332
+S:http://trillian.mit.edu/~jc/music/abc/jig/HommageJosBouchard.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/HommageJosBouchard.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/HommageJosBouchard.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhillippeBruneau/HommageJosBouchard.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords Has chords

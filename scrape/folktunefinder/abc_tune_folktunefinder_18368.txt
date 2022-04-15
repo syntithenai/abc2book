@@ -1,0 +1,36 @@
+X: 1
+T: Girl with the Blue Dress On
+R: shottish, reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G>B \
+| "G"d2 d<B "D7"c2 c<A \
+| "G"B2 G2 G>B d<B \
+| "D7"A2 D2 D>F A>c \
+| "G"B2 G2 G2 G>B \
+| "G"d2 d<B "D7"c2 c<A |
+| "G"B2 G2 G>B d<B \
+| "D7"A2 D2 D>F A<F \
+| "G"G2 B2 G4 \
+|| "G"G>A B<d g3 f \
+| "C"f2 e2 e>d e2 \
+| "D7"A>B c<d e3 d |
+| "G"c2 B2 B>A B>A \
+| "G"G>A B<d g3 f \
+| "C"f2 e2 e>d e<d \
+| "D7"c2 B<A d3 F \
+| A>G G<F "G"G2 |]
+S:https://www.folktunefinder.com/tunes/18368
+S:http://trillian.mit.edu/~jc/music/abc/shottish/GirlWithTheBlueDressOnSh_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/GirlWithTheBlueDressOnSh_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/shottish/GirlWithTheBlueDressOnSh_G.abc
+% Rhythm Shottish, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

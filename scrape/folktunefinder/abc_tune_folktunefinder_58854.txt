@@ -1,0 +1,28 @@
+X:43
+T:Cooley's
+T:Luttrell's Pass
+C:Joe Mills
+R:Reel
+O:Ireland
+M:4/4
+K:EDor
+EB {c}BA B2 EB | B2 AB dB AG | \
+(3FED AD BD AD | FD AD BA GF |
+EB {c}BA B2 EB | B2AB defg | \
+afec dBAF |1 DEFD E2ED :|2 DEFD E2 |:
+gf |\
+eB (3BBB eB gf | eB (3BBB ge dB | \
+A2FA DA FA | BA FA de fg |
+eB (3BBB eB gf | eB (3BBB de fg | \
+af ec dB AF |1 DEFD E2 :|2 DEFD E4|]
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58854
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

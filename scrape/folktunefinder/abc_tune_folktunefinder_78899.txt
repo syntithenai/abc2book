@@ -1,0 +1,26 @@
+X:458
+T: NAER OOSTLAND WILLEN WIJ
+N: E0408
+O: Europa, Mitteleuropa, Deutschland; Niederlande
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | G2F2G2d2^c2d2 | _B4A2G4
+G2 | A2G2A2d2^c2d2 | A6z4
+A2 | _B2A2G2G2A2B2 | c6d4
+c2 | _B2A2G2FED2
+d2 | _B2c2B2A2G2F2 | G6z4
+S:https://www.folktunefinder.com/tunes/78899
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

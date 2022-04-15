@@ -1,0 +1,25 @@
+X: 5
+P: Mora polskan
+O: Trad
+N: Taught by Bengt Jonsson as a hambo.
+N: Played in several different polska rhythms.
+R: polska, hambo
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm(A7)"{B}A2 A^G A>^c | "Dm"d2 d^c d>e \
+|[1,3 "Gm(Bb)"f2 fe d^c/d/ | "A7"e2 e^c A2 :|[2,4  f2 fe f>g | "A7"a2 a4 :|
+|: "A7"a2 (3aba g>e | "Dm"f2 fd e2 \
+| "A7"e>f e^c A>c |1,3 "Dm"d>^c de f>g :|2,4 "Dm"d2 d4 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8066
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hambo.abc
+% Rhythm Polska, hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

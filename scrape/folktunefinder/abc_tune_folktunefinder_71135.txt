@@ -1,0 +1,28 @@
+X:105
+%%topmargin 3cm
+T:The Lasses of Stewarton
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G lydian
+{/f}g S|| fdec dA {/c}d2 | {/G}FDDF A3 g | fde=c BG {AB}c2 | E=CCE {/F}G2 G::
+=c | B{/c}d (BG) AFD=c | B{/c}d AF A3 =c | B{/c}d AF AB=cA | {/F}GE=CE {/F}G2 G ::
+=c | BGAF BGAG | {/G}FDDF A3 =c | BGAF AB=cA | {/F}GE(=CE) {/F}G2 G ::
+ e | {/c}defg afdf | afdf {fg}a2 (fe) | {/c}defg afdf | ge=ce {ef}g2 fe |
+{/c}defg afdf | afdf {fg}a2 fe | {/c}defg abaf | {/f}ge=ce gbeg S|]
+S:https://www.folktunefinder.com/tunes/71135
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lasses_of_Stewarton.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0105.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

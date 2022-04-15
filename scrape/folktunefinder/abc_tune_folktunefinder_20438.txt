@@ -1,0 +1,25 @@
+X: 1
+T: What Child Is This
+T: Greensleeves
+O: trad England
+M: 6/8
+L: 1/8
+K: Em
+E \
+| "Em"G2A B>cB | "D"A2F D>EF | "Em"G2E "Am"E>^DE | "B7"F3 B,2E \
+| "Em"G2A B>cB | "D"A2F D>EF | "Em"G>FE "B7"^D>^CD | "Em"E3 E2 |]
+z \
+| "G"d3 d>cB | "D"A2F D>EF | "Em"G2E "Am"E>^DE | "B7"F2^D B,3 \
+| "G"d3 d>cB | "D"A2F D>EF | "Em"G>FE "B7"^D>^CD | "Em"E3 E2 |]
+S:https://www.folktunefinder.com/tunes/20438
+S:http://trillian.mit.edu/~jc/music/abc/xmas/WhatChildIsThis_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WhatChildIsThis_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/WhatChildIsThis_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/WhatChildIsThis_Em.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

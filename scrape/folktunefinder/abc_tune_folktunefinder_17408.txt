@@ -1,0 +1,29 @@
+X: 1
+T: the Isle of Skye
+T: Planxty George Brabazon
+C: O'Carolan
+R: reel
+B: RSCDS __-7
+N: Attributed to Bow in RSCDS; this is a variant of the O'Carolan tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ge \
+| "G"d2G2 cBAG | d2G2 cBAG | "Am"e2A2 ABcd | e2A2 ABce |
+| "G"d2cB g2fe | d2cB "Am"A2GA | "G"BAGE "D7"DEGA | B2G2 G2 ||
+|| ga \
+| "G"b2gb "Am"a2fa | "G"g2eg "C"e2Bd | "Am"eAgA ABcd | eAgA Af"D7"ga |
+| "G"b2gb "Am"a2fa | "G"g2eg "C"g2"Em"Be | "G"d2D2 "D7"DEGA | "G"B2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/17408
+S:http://trillian.mit.edu/~jc/music/abc/reel/IsleOfSkyeR_G.abc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/IsleOfSkyeR_G.abc.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/IsleOfSkyeR_G.abc.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

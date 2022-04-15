@@ -1,0 +1,31 @@
+X:7304
+T:the Ruffians Rant
+O:england
+M:2/4
+R:Strathspey
+L:1/8
+K:Em
+B|\
+A<F "tr"F>D| "tr"E>DFB| A<F "tr"F>D| "tr"E>DEB|\
+A<F"tr"E>D| d>ef>e| dDE::
+B|\
+A<Fd>A| B>Ad>B| A<F d>A| B>ABd|\
+A<F("tr"E>D)| d>e"tr"fe| d>Bd>F| E>DE::
+b|\
+a<f"tr"f>e| "tr"f>efb| a<f"tr"f>d| "tr"e>deb|\
+a<ff>e| d>e"tr"f>e| (d/c/B/A/ d3/)F/| E>DE::
+B|\
+A<Fd>A| "tr"B>Ad>A| "tr"B>Ad>A| B>AB<d|\
+A<FE>D| d>e"tr"f>e| d>BA>F| "tr"E>DE::
+S:https://www.folktunefinder.com/tunes/27756
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:80
+T:The Monaghan Jig
+M:6/8
+L:1/8
+R:jig
+K:Edor
+BGE ~F3|BGE FGA|BGE ~F3|AFD FGA|BGE ~F3|BGE FGA|d2B ABG|FDF AFD:|
+|:EGB efg|fed edB|EGB eBG|FDF AFD|EGB efg|fed edc|~d3 cAG|FDF AFD:|
+|:g2e efe|geg bge|g2e efe|~f3 afd|g2e efe|geg bge|dcd ABG|FDF AFD:|
+|:EGB eBG|BGE FAF|EGB eBG|~F3 AGF|EGB GBe|Beg egb|fed ABG|FDF AFD:|
+S:https://www.folktunefinder.com/tunes/63627
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

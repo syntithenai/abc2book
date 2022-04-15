@@ -1,0 +1,22 @@
+X: 1
+T: the Snow Lay on the Ground
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"B2A G2F | G3 D3 | "C"c3 "G"B3 | "D7"A3- A2A \
+| "D7"G2F E2F | D3 c3 | "G"B3 "D7"A3 | "G"G3- G2 :|
+|: B \
+| "G"d2c B2A | B3 d3 | "Am"c3 "E7"B3 | "Am"c3- c2c \
+| "Am"c2B A2G | "D7"A3 c3 | "G"B3 "D7"A3 | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/20427
+S:http://trillian.mit.edu/~jc/music/abc/xmas/SnowLayOnTheGround_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/SnowLayOnTheGround_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

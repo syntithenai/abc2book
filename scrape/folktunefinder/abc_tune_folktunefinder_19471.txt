@@ -1,0 +1,26 @@
+X: 1
+T: Lilleshall's Fancy
+C: Beryl S Johnston
+R: strathspey
+B: RSCDS (Birmingham Branch) "Scottish Country Dances" #3
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G2 \
+| "C"c2 c>d e2 e>g | "F"a>g ab c'2 a2 | "C"g<e- e2 "Am"e<c- c2 | "Dm"e<d- d2- "G7"d2 G2 |
+| "C"c2 c>d e2 eg | "F"a>g ab d'c' ba | "C"g<c'- c'2 "G7" e<d- d2 | "C"c6 ||
+a2 \
+| "G7"g2 g>d "C"e2ce | "F"f>e fg "C"eg ac' | "G"b<g- g2 "D7"a<^f- f2 | "G7"a<g- g4 a2 |
+| g2 e>d c<G- G>G | "Am"A>G Ac "Dm"ed ac' | "C"g<e "(Am)"e<c "F"c<A AG | "F"A<c c>d "C"c2 |]
+S:https://www.folktunefinder.com/tunes/19471
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Lilleshalls_Fancy_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Lilleshalls_Fancy_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X: 1
+T: S\"ag mennes int' du mi
+T: Polska fr\aan \"Alvdalen 
+O: efter Einar Britt
+R: \"Alvdalspolska
+Z: 2000 Brian Wilson , 2nd voice transcribed by John Chambers
+S: printed MS (from Ingvar Norman's book)
+M: 3/4
+L: 1/8
+K: Dm
+V: 1
+A \
+|: "Dm"A2 d^c "A7"A>c | "A7"e2 ge "Dm"f>f \
+| "Dm"f2 ag "A7"e>g | "Dm"f2 "A7"e4 :|
+|: "A7"e2 (ag) e>g | "Dm"f2 fd "A7"e2 \
+| "A7"e2 (ag) e>g | "Dm"f2 fd "A7"e>e \
+| "Dm"f2 (ag) "A7"e>g | e2 "Dm"d4 :|
+V: 2
+A \
+| [A2D2] ([AF]>[AE]) ^C>E | A>^c (e>c) d>A \
+| [A2D2] (f>e) ^c>A | [A2D2] [A4E4] :|
+|: (e>d) (^c>A) G>E | [A2D2] (d>=B) ^c>A \
+| [A2E2] (^C>E) A>^c | d2 ([AD]>[AF] [AE]>^c \
+| d2 (f>e) ^c>A | [A2E2] [A4F4] :|
+S:https://www.folktunefinder.com/tunes/16523
+S:http://trillian.mit.edu/~jc/music/abc/pols/SagMennesIntDuMi_Dm_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SagMennesIntDuMi_Dm_2V.abc
+% Rhythm A?lvdalspolska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

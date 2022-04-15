@@ -1,0 +1,34 @@
+X:8
+T:Margot, labourez les vignes
+R:
+A:
+N:p 72
+S:publi en 1554 par Le Roy et Balard
+O:France
+Z: <anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/8=130
+K:F
+%%staves [1 2]
+V:1
+A c | B A G F | E C F C | F C F G | A2 A c | B A G F |
+w:Mar-got, | la-bou-rez les | vi-gnes, vi-gnes, |  vi-gnes, vi-gne-|lot Mar-got,| la-bou-rez les |
+E F G2 |F2 || F F | c c c c | d d c2 | A2 A c | B A G F | 
+w: vi-gnes bien-tt |
+E C F C | F C F G | A2 A c | B A G F | E F G2 |F2 ||
+V:2
+F A | G F E D | C C F2 | c2 C2 | F2 F C | C D E F | 
+w:Mar-got, | la-bou-rez les | vi-gnes, Mar-| got, Mar-| got, Mar-got,|la-bou-rez les |
+G A B2 | A2 || F F | A G F E | D D E2 | F2 F A | G F E D |
+S:https://www.folktunefinder.com/tunes/39952
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

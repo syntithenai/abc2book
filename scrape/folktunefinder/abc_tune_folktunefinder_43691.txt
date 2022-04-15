@@ -1,0 +1,19 @@
+X:23
+T:L'homme a deux femmes, I
+C:from Richard Forest
+K:D
+M:4/4
+AB |: AGFE D2 dd | fd edfd AB | AGFE D2 dd | fd ec d2 AB | \
+AGFE D2 dd | fded fdAB | AGFE D2 dd | fdec d2 :| \
+(3ABc |: d2 fd adfd | cdef gefe | d2 fd adfd | cdeg fdec | \
+ d2 fd adfd | cdef gefg | (3agf ge fded | cABc d4 :|
+S:https://www.folktunefinder.com/tunes/43691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/LhommeADeuxFemmesI_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

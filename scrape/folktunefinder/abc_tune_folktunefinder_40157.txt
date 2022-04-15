@@ -1,0 +1,19 @@
+X: 1
+T:1. D Major
+N:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:D
+D E F G | A B c d | d e f g | a b c' d' || D F A d | d f a d' |]
+S:https://www.folktunefinder.com/tunes/40157
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/Scales-DWhistle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/Scales-DWhistle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/Scales-DWhistle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:4950
+T:Polska fran Svanskog
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%T:RM pols 2
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ee6.html
+%%ID:00000ee6
+K:A
+(3e2 e2 f2 d>e | (3c2 c2 d2 B>c | (3A2A2 c2 e>c | (3efg ae c>d |\
+(3e2 e2 f2 d>e | (3c2 c2 d2 B>c | (3A2A2 c2 e>c | BG A4 ::
+(3A2A2c2 B>G | (3A2A2c2 B>G | (3A2A2c2 e>c | (3d2d2f2 e>c |\
+(3A2A2c2 B>G | (3A2A2c2 B>G | E2 E4:|
+S:https://www.folktunefinder.com/tunes/37069
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

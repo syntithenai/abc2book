@@ -1,0 +1,30 @@
+X: 1
+T: Stirlins ida lum
+C: Tom Anderson 1979
+B: Tom Anderson "Ringing Strings" 1983
+N: Learned in 1983 from Pam Swing
+N: Tom Anderson's notes:
+N: Composed in 1979 while sitting inside the ruins of Tom's maternal great grandfather's croft
+N: house and listening to the Starlings feeding their young somewhere up the old lum (chimney).
+M: C|
+L: 1/8
+K: D
+A \
+|: "D"d2AG "(Bm)"F2AF | "Em"G2G2 "A7"e3g | fdec "D"d2AF |1 "A7"Addc "D"d2 fe :|2 "A7"Addc "D"d3e ||
+[| "D"faaf "G"gfed | "D"faaf  "A7"g2fe | "D"faaf "G"gfed | "A7"Addc "D"d3e |
+|  "D"faaf "G"gfed | "D"faaf  "Em"g2fe |"A7"fdec "D"d2AF | "A7"Addc "D"d3 |]
+S:https://www.folktunefinder.com/tunes/12763
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/StirlinsIdaLum.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/StirlinsIdaLum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Tom_Anderson/StirlinsIdaLum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/StirlinsIdaLum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/StirlinsIdaLum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:330
+T:Pady's Resource
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000010a.html
+%%ID:0000010a
+K:F
+C|\
+F>GF CA,C| F>GF d2c| dcB AGF|GDD D2E|\
+F>GF CA,C| F>GF d2c| c>de fcB| AFF F2::
+A|\
+CFA AFD| CEG GEC| CFA AGF| A>BA "tr"G2F|\
+F>Ac fed| cAF G2F| AFD C>DF| AFF F2:|
+S:https://www.folktunefinder.com/tunes/30375
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:89
+T:Rondinella
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+C:Traditioneel
+O:Vlaanderen
+M:6/8
+L:1/8
+Q:3/8=108
+K:G
+%%staves [(1 2)]
+P:Voorspel
+V:1
+"G"B2G B2G|"D"F2E D3|"D7"d2A B2c|"G"B3 B2z||
+V:2
+x6        |x6       |x6         |x6       ||
+P:A
+V:1
+"G"B2G B2G |"D"F2E D3|"D7"d2A d2A|("G"B2A) G3 |\
+V:2
+   G2G E2B,|   D2D D3|    D2D E2F|   (G2D) B,3|\
+V:1
+"G"B2G B2G |"D"F2E D3|"D7"d2A d2A|("G"B2A) G3||
+V:2
+   G2G E2B,|   D2D D3|    D2D E2F|   (G2D) G3||
+P:B
+V:1
+"G"D2D G2G|("C"G2F) E3|"G"G2G "C"c2c|("Am"c2B) "D"A3|\
+V:2
+D2D (B,C)D|(   E2D) C3|   G2F  (EF)G|    (A2G)    F3|\
+V:1
+"G"d2A "D7"d2A|("G"B2"D"A) "Em"G3|"D"D2D "A"E2"D7"F|"G"G3 G3||
+V:2
+   D2D     E2F|      (G2D)     E3|   D2D   ^C2   =C| B,3 B,3||
+S:https://www.folktunefinder.com/tunes/75785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

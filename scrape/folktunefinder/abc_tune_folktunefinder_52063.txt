@@ -1,0 +1,29 @@
+X: 1
+T:Les Trois Canards
+C:Bernard Blanc
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+%F:http://simonwascher.info/TradArchiv_bourree_2/les_trois_canards.abc 2008-04-28 10:57:53 UT
+K:Gm
+dc2B | A3/2G/2 ^FG | A/2B/2A/2G/2 AB | A/2B/2A/2G/2 ^FD |\
+dc2B | A3/2G/2 ^FG | A/2B/2A/2G/2 ^FD | G4 :|
+|:\
+BA2B | G2 ^FG | A/2B/2A/2G/2 AB | A/2B/2A/2G/2 ^FD |\
+BA2B | G2 ^FG | A/2B/2A/2G/2 ^FD | G4 :|
+%%newpage
+%%center Bourres (3-time)
+S:https://www.folktunefinder.com/tunes/52063
+S:http://simonwascher.info/TradArchiv_bourree_2/les_trois_canards.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

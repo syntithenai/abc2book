@@ -1,0 +1,44 @@
+X:0
+T:Colonel H.H. Burney's Farewell to the Gordon Highlanders
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:2/4
+L:1/16
+Q:1/4=74
+N:errors in the book:
+N: bar 1 is |{GbG}A2{Adc}de {gfg}f4| (impossible gracenote)
+N: last note of part 1 is d4, doesn't match upbeat of part 2 (my variant repeat added)
+N: last note of part 2 is d3, doesn't match no-upbeat part 3 (my variant repeat added)
+K:Hp
+d|: {GBG}A2{Gdc}de  {gfg}f4     |  {g}fade       {gfg}f2{g}A2   |\
+  {gAGAG}A2{d}cd    {gef}e3f    |  {a}ge{g}Bc    {Gdc}d2{e}A2   |
+  {gAGAG}A2{Gdc}de  {gfg}f4     |  {g}fa{dc}de   {gfg}f2{g}A2   |\
+  {gAGAG}A2{d}cd    {gef}e3f    |  {a}ge{g}Bc [1 {Gdc}d4       :|\
+                                              [2 {Gdc}d3       ||
+A|  {Gdc}de{g}fg     {ag}a4     |{Gdc}da{fg}fd     {g}Aa{fg}fd  |\
+      {g}c2{GdG}ef   {gf}g4     |  {a}cg{a}ec      {g}Ag{a}ec   |
+    {Gdc}de{g}fg     {ag}a4     |{Gdc}da{fg}fd     {g}Aa{fg}fd  |\
+      {g}c2{GdG}ef    {a}ge{g}ce|{gfg}f2d2    [1 {gdc}d3       :|\
+                                              [2 {gdc}d4       ||
+    {GBG}A2{g}df      {g}fadf   |{gAGAG}A2{g}df       af{g}dA   |\
+  {gAGAG}A2{d}ce      {g}eg{a}ce|{gAGAG}A2{d}ce    {a}ge{g}c{d}A|
+  {gAGAG}A2{g}df      {g}fadf   |{gAGAG}A2{g}df       af{g}dA   |\
+  {gAGAG}A2{d}ce      {g}eg{a}ce|  {gfg}f2d2     {gdc}d4       :|
+    {GBG}Ad{c}df    {gfg}fe{g}fg|       af{g}da       fa{fg}fd  |\
+      {g}A{d}c{g}ce {gef}ec{g}ef|    {a}ge{g}cg    {a}eg{a}ce   |
+      {g}Ad{c}df    {gfg}fe{g}fg|       af{g}da       fa{fg}fd  |\
+      {g}Ac{g}ce      {g}eg{a}ce|  {gfg}f2d2     {gdc}d4       :|
+S:https://www.folktunefinder.com/tunes/66318
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5
+T: Nun adje, jetzt muss ich fort
+N: D0005
+O: Europa, Mitteleuropa, Lothringen, Altripp
+N: Inzipit = entfernte Variante zum Lied  
+R: Soldaten - Lied
+M: 3/2
+L: 1/16
+K: G
+ |  | G4D4 | G6A2B8A4G2B2 | A8z8
+G4D4 | G6A2B8A4G2B2 | A8z4
+G2A2B4G4 | d6e2d4c2B2A4G4 | c6d2B4
+A2c2B4A4 | G6A2B4c2A2d4d3c | B8z8
+S:https://www.folktunefinder.com/tunes/72462
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

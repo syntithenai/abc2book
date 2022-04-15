@@ -1,0 +1,29 @@
+X: 1
+T: the Maid at the Well
+T: the Silver Tip
+R: jig
+S: Deirdre Sullivan & Paul de Grae 
+D: Rose Murphy, "Milltown Lass", Ossian OSS-21, track 3(a)
+M: 6/8
+L: 1/8
+K: G
+D2 E/F/ \
+|: GFE DB,D | GAB c2 d | edc BAG | AGE EDE |
+| GFE DB,D | GAB c2 d | edc BAG |1 AEF G2 D :|2 AEF G2 B/d/ |
+| gdd edd | gdB c2 d | edc BAG | AGF E2 D |
+|1 gdd edd | gdB c2 d | edc BAG | AEF G2 e/f/ :|
+|2 GFE DB,D | GAB c2 d | edc BAG | AEF G3 |]
+S:https://www.folktunefinder.com/tunes/14579
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidAtTheWellJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SilverTipJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidAtTheWellJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SilverTipJ.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

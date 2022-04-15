@@ -1,0 +1,29 @@
+X: 1
+T: Sean Coughlan's Jig  # 2
+T: Christy Barry's Jig
+D: Brendan Begley and Gerry Bevan on the tape "Show the Lady," part of the NPU "Music for Sets" set.
+D: Kevin Crawfords D flute album
+R:jig
+K:G
+G2A BGG | ABB d2e | ged BGG | AGA BGE |
+G2A BGG | ABB d2e | ged BGG |1 AGF G2D :|2 AGF GBd ||
+g2g gfg | agf def | ged BGG | AGE GED |
+G2A BGG | ABB d2e | ged BGG |1 AGF GBd :|2 AGF G2D ||
+S:https://www.folktunefinder.com/tunes/14007
+S:http://trillian.mit.edu/~jc/music/abc/jig/ChristyBarrysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SeanCoughlansJig2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/ChristyBarrysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SeanCoughlansJig2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ChristyBarrysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SeanCoughlansJig2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/ChristyBarrysJig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/ChristyBarrysJig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/SeanCoughlansJig2_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

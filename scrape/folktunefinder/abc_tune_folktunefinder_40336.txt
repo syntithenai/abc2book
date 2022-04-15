@@ -1,0 +1,23 @@
+X:138
+T:La Volte
+O:France
+A:Provence
+C:Trad.
+R:Volte
+M:3/4
+L:1/4
+K:G
+G/A/ | BAG | !breath!d2(d/e/) | dBG | A2 AB | cBA | f2 f/e/ | dA^A | B2 G/A/ |
+BAG |  | d2d/e/ | dBG | A2 AB | cBA | f2 f/e/ | def | g2 G |
+e/>d/cG | e/>d/cG | G/A/ B/c/ d/e/ | f2G | f/>e/ dG| f/>e/ dG| G/A/ B/c/ d/^d/ | e2G |
+e/>d/cG | e/>d/cG | G/A/ B/c/ d/e/ | f2G | f/>e/ dG| f/>e/ dG| G/A/ B/c/ d/e/ | c2 |]
+S:https://www.folktunefinder.com/tunes/40336
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Volte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

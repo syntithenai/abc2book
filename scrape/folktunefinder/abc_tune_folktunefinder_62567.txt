@@ -1,0 +1,48 @@
+X:36
+T:Welcome to the East India (S\onderhoning)
+R:S\onderhoning
+Z:Bob Wyttenbach, slightly modified from Andrea Hoag's version of BG tunebook
+N:Harmony by Bruce Sagan with modifications by Andrea Hoag
+%O:Denmark
+D:"Sand p\aa gulvet"
+M:4/4
+L:1/8
+K:G
+P:A
+V:1
+(vD2|G2)G2B2dB|G4A2B2|c3BA2G2|(GF) AF D2(vD2|
+V:2
+(B,2|"G"D2)D2G2BG|"Em"D4F2G2|"Am"A3GF2E2|"D7"(ED) DCA,2(C2|
+V:1
+G2)G2B2dB|G4A2B2|c3AF2F2|G6:|
+V:2
+"G"B,2)D2G2BG|"Em"D4F2G2|"Am"A3G "D7"(FE) DC|"G"B,6:|
+P:B
+V:1
+AB|c2c2B2A2|(GA)Bcd4|G3GF2G2|AF DFA4|AF DFA4|DE FGA2AG|
+V:2
+FG|"Am"A2A2"D7"G2E2|"G"(DF)GAB4|D3D"A7"E2^C2|"D"D^C DEF4|FE DEF4|A,C DEF2FF|
+V:1
+F2FDE2E2|D4d3B|G2G2F2D2|E4E2AB |c2c2B2G2|A4-A2Bc|
+V:2
+F2D2"A7"E2D^C|"G"D4F3D|G2D2D2B,2|"C"[C4G4][C2G2]FG|"Am"A2A2"Em"G2E2|"D7"F4-F2GA|
+V:1
+d2d2d2e2|c2cBA2Bc|d3dd2e2|c2cBA2c2|B2AGA2GF|G4-G2:|
+V:2
+"G"B2B2B2c2|"Am"A3G"D7"F2GA|"G"B2BBB2c2|"Am"(AB) AG"D7"F2A2|"G"G2FE"D7"D2DA,|"G"B,4-B,2:|
+%
+"Alternate endings"[|]y8y4[|] \
+|| "G"BAG2 "D7"AGF2 | "G"G6 :| \
+|| "G"(3B2A2G2 "D7"(3A2G2F2 | "G"G6 |] \
+|| "G"B2AG "D7"A2z2 | F4 "C"G2G2 | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/62567
+S:http://www.nordicfiddlesandfeet.org/music/NFF.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

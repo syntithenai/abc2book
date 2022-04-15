@@ -1,0 +1,22 @@
+X:990
+T:Lucy Campbell
+Z: id:dc-reel-187
+M:C
+L:1/8
+K:D Major
+dB|ADFD D2dB|ADFA BEE2|ADFA defe|[1 dBAF AD:|[2 dBAF ADD2|]!
+dBAB defe|dBcA BEE2|dBAB defe|dBAF ADD2:|!
+faaf defg|a2fa bee2|faaf defe|dBAF ADD2|!
+faaf defg|a2fa beef|g3e f3e|dBAF ADD2|]!
+dff2 dff2|dff2 afef|dffe f3e|dBAF ADD2|!
+dff2 dff2|dff2 afef|g3e f3e|dBAF AD|]!
+S:https://www.folktunefinder.com/tunes/66130
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:499
+T: Wo isch es denn jetzt, es mein Mannele (5-95), S. 149f
+N: P0769
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+N: die halbe Pause in der 4. Zeile existiert
+N: reell nicht, mu aber aufgenommen werden,
+N: da sonst Fehlermeldung in "Mammut"
+R: Abschied, Trauer, Tod]
+M: 3/8
+L: 1/16
+K: C
+ | G6 | E2D2C2 | E2G2A2 | G3FE2
+G6 | E2G2E2 | D2C2D2 | C6
+G6 | E2D2C2 | E2G2A2 | G3FE2
+G6 | E2G2E2 | D2C2D2 | C6 | z8
+D8 | E6F2G4G2F2 | E8
+D8 | E6F2G4c4B4
+A4 | G6G2F4G4 | E8z8
+S:https://www.folktunefinder.com/tunes/76479
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Abschied, trauer, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:394
+%%topmargin 3cm
+T:Lennox Love to Blantyre
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D aeolian
+C | {DE}F2 (F>G) A>G{/E}F>A | GGA>c T(d>c)d>e | T(f>g)g>d c>A{/E}F>A | B>GA>F TD2 D :|
+f | T(c>d)(f>g) a>gTf>a | Tg>fg>a Tg>f{/^c}d>f | T(c>d)f>g a>gTf>a | Tg>fb>a {ga}g2 (f>d) |
+T(c>d)(f>g) Ta>gf>a | Tg>fg>a Tg>f{/^c}d>f | ~(c>d)f>g Tf<ga>g | f>cb>a {ag}g2 Tf |]
+S:https://www.folktunefinder.com/tunes/71423
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lennox_Love_to_Blantyre.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0394.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

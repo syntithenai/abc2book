@@ -1,0 +1,38 @@
+X: 1
+%%scale0.67
+T:Dameronia
+M:4/4
+L:1/8
+C:Tadd Dameron
+Q:1/4=200
+K:F
+%%text (up)
+%%vskip 30
+%%text Intro
+"F6"A2z"C7(b10)"_e-e4 | z_d cB cBcB | "F6"A2z"C7(9,13)"A-A4 | zC DG EcAF |
+"Gm7"A2zA- ABdf | "C7"_d2zd- d2_e=e- | "Fmaj7"e3g- gec2 | "Eb7"A2"D7"B2 "Db7"G2"C7"Ac ||
+%%vskip 10
+P:A
+"F6"z2(3c/2d/2c/2A FCFA | "Gb7"_e_dcB c2z2 | "F6"z2(3c/2d/2c/2A FCFA | "Gb7"B2E_G (3_ABA G=A- |
+"F6"A2ED-D2EF | "Gb7"ABAB-B2_GF- | "F6"F2Ac "Dm7"ed zD- | "Gm7"D2FA "C7"_dcz2 ||
+P:A
+"F6"z2C2 FG^GA | "Gb7"BG_A_D- D2_E2 | "F6"z2C2 FG^GA | "Gb7"BG_A_e-e2_d2 |
+"F6"z2C2 FG^GA | "Gb7"B2_d_c BCDF | "F6"G2DF- F2A2 | D2AC zA3 ||
+P:B
+"Cm7"x4 x4 | "F7"x4 x4 | "Bb"x4 x4 | x4 x4 ||
+"G7"x4 x4 | x4 x4 | "Gm7"x4 x4 | "C7"x4 x4 |
+P:A
+"F6"z2(3c/2d/2c/2A FCFA | "Gb7"(3_e/2_f/2e/2_d cB c2z2 | "F6"z2(3c/2d/2c/2A FCFA | "Gb7"B2E_G (3_ABA G=A- |
+"F6"A2ED-D2EF | "Gb7"ABAB-B2_GF- | "F6"F2Ac "Dm7"ed zD- | "Gm7"D2FA "C7"_dcz2 |]
+S:https://www.folktunefinder.com/tunes/18641
+S:http://trillian.mit.edu/~jc/music/abc/song/Dameronia.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/dameronia.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Dameronia.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/dameronia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 546
+T:O'er the Hills and far away
+M:C
+L:1/8
+K:ADor
+DE|\
+G3A G>ABA| G2E2 E2DE| G3A GABG| B2A2 A2 DE|\
+G3A GABA| G2E2 "tr"c4| E2D2 (DE)(GA)| B2A2 A2::\
+Bc|\
+d3e dcBA| G2E2 E2 Bc| d3e dBAG| B2A2 A2Bc|\
+d3e dcBA| G2E2 "tr"c4| E2D2 DEGA| B2A2 A2::
+DE|\
+GABA GABA| G2E2 E2DE| GABA GABG| B2A2 A2DE|\
+GABA GABG| AGFE "tr"c4|
+E2D2 DEGA| B2A2 A2::\
+Bc|\
+dgfe dBAB| G2E2 E2Bc|
+dgfe dBAG| B2A2 A2Bc|\
+dgfe dcBA| G2E2 "tr"c4| E2D2 DEGA| B2A2 A2:|
+S:https://www.folktunefinder.com/tunes/31053
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:671
+T: MARIA DIE WOLLT WANDERN GEHN
+N: E2060
+O: Europa, Mitteleuropa, Deutschland, Rheinland, Siebengebirge
+R: geistlich, Marien - Lied, Legende
+M: 4/4
+L: 1/8
+K: G
+D2 | G2A2_B2AG | AG=F2z2
+_B2 | A2DE=F2E2 | D4z2
+G2 | A2d2dcc_B | A4z2
+_BA | GFGA_B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/79775
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, marien - lied, legende
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

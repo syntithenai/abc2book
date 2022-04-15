@@ -1,0 +1,37 @@
+X:2
+T:Hitt her between the legs
+Z:Jack Campin <http://www.campin.me.uk/>
+S:William Dixon MS, 1733
+N:This is a bagpipe tune, written in this key on a 4-line staff.
+N:It would more often be written in A mixolydian these days, as
+N:it is in Matt Seattle's edition "The Master Piper".
+M:6/4
+L:1/8
+Q:3/4=100
+K:G Mixolydian
+ G2B2G2 G2Bcd2|G2B2G2 d4  B2| G2B2G2 G2Bcd2|F2A2F2 c4  A2 |
+ G2B2G2 G2Bcd2|G2B2G2 g2d2f2| e2c2e2 d2B2d2|c2A2F2 c4  A2||
+ g2B2G2 BABcdB|g2B2G2 d4  B2| g2B2G2 BABcdB|f2A2F2 c4  A2 |
+ g2B2G2 BABcdB|g2B2G2 g2d2f2| e2c2e2 d2B2d2|c2A2F2 c4  A2||
+ B2G2G2 B2G2G2|B2G2G2 d2A2A2| B2G2G2 B2G2G2|A2F2F2 f2A2A2 |
+ B2G2G2 B2G2G2|B2G2B2 g2d2f2| e2c2e2 d2B2d2|c2A2F2 c4  A2||
+ gfefg2 BABcd2|g2B2G2 d4  B2| gfefg2 BABcd2|f2A2F2 c4  A2 |
+ gfefg2 BABcd2|g2B2G2 g2d2f2| e2c2e2 d2B2d2|c2A2F2 c4  A2||
+ G2BcdG dGBcdG|dGBcdG dABcdA| dGBcdG dGBcdG|dABcdF c4  A2 |
+ G2BcdG dGBcdG|dGBcdG B2G2G2| BcdcBA efgfed|f2A2F2 c4  A2||
+Tg4  g2 BABcdB|g2B2G2 d4  B2|Tg4  g2 BABcdB|f2A2F2 c4  A2 |
+Tg4  g2 BABcdB|g2B2G2 g2d2f2| e2c2e2 d2B2d2|c2A2F2 c4  A2||
+ G2BcdB dcBcdB|G2BcdB d4  B2| G2BcdB dcBcdB|f2A2F2 c4  A2 |
+ G2BcdB dcBcdB|gfefge dcBcdB| cBcdec dcdefd|c2A2F2 c4  A2||
+ BcdBG2 B4  G2|BcdBG2 c4  A2| BcdBG2 B4  G2|ABcAF2 c4  A2 |
+ BcdBG2 B4  G2|BcdBG2 B2G2G2| cBcdec dcdefd|c2A2F2 c4  A2||
+S:https://www.folktunefinder.com/tunes/52658
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

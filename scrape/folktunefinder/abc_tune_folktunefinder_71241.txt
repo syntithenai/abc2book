@@ -1,0 +1,25 @@
+X:212
+%%topmargin 3cm
+T:Geordie MacLeish
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+c | d2 (cd) D/D/D AF | d2 (cd) Agfe | d2 cd D/D/D (AF) | EFGA B2 B :|
+c | dD D/D/D (FD)Dc | dD D/D/D Agfe | dD D/D/D (AF)dF | EFGA B2 (Bc) |
+dD D/D/D (FD)Dc | dAFA Bgfe | dcBA BAGF | EFGA B2 B || z/[A,/D/] || [A,4D4] z |]
+S:https://www.folktunefinder.com/tunes/71241
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Geordie_MacLeish.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0212.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

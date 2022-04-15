@@ -1,0 +1,30 @@
+X:263
+T: THUERINGEN HOLDES LAND
+N: F0461
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied
+M: 3/4
+L: 1/8
+K: F
+ | c2F2G2 | A3BG2
+d2c2G2 | B3AA2
+G2A2=B2 | c3GG2
+edc2=B2 | c4z2
+B2AGFE | c3BA2
+c2BAG^F | d3cB2
+e2d2c2 | f2edc2
+cBA2GA | B6
+B2f2ed | c3BA2
+A2GAB2 | A4z2
+S:https://www.folktunefinder.com/tunes/69823
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: H\onsef\odder
+O: Denmark
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+R: jig
+M: 6/8
+L: 1/8
+K: F
+[| "F"A2F FEF | "F"A2F FEF | "Gm"G2G     GAB |"Am"c3 "F"A3 \
+| "Bb"A2F FEF |"Gm"A2F FEF | "C7"G2G     GAG | "F"F3 F2z ||
+||"Bb"f2f fed | "F"c2c cBA | "C7"G2G     GAB |"Am"c3 A3  \
+|  "F"f2f fed |"D7"c2c cBA | "Gm"G2G "C7"AGg | "F"F3 F2z |]
+S:https://www.folktunefinder.com/tunes/14334
+S:http://trillian.mit.edu/~jc/music/abc/jig/HonseFodder_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/HonseFodder_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/HonseFodder_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

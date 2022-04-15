@@ -1,0 +1,28 @@
+X:1
+T:McFarley's
+M:4/4
+L:1/8
+%Q:230
+S:Altan "Harvest Storm"
+R:reel
+Z:Philippe Varlet 
+% Contributed 19991130170617 by John Chambers jc:trillian.mit.edu
+K:D
+(3ABc | dD (3DDD {G}EDB,D | A,DFA {d}BAFA | dDcD BDAD | {G}EDAD {d}BAFA |
+dD (3DDD {G}EDB,D | A,DFA {d}BAFA | (3Bcd ec dBAF | {G}EDEF D2 :|
+ag | fgab afdg | fdad bdad | efga ge=c=f | e=cg=c a=cg=c |
+fgaf bfaf | gfeg fdBc | defd ecdB | AFEF D2 :|
+S:https://www.folktunefinder.com/tunes/17636
+S:http://trillian.mit.edu/~jc/music/abc/reel/McFarleys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/McFarleys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/McFarleys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/McFarleys.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/McFarleys.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

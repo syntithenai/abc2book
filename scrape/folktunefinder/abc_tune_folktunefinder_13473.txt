@@ -1,0 +1,42 @@
+X:2
+T:Banks
+T:Banks of the River
+T:Mrs. Taff
+C:Parazotti
+N:transposed from Eb
+S:The Fiddler's Companion http://www.ibiblio.org/fiddlers/FCfiles.html
+R:hornpipe
+M:4/4
+L:1/16
+K:G
+(3DEF | G2 B4 (3dBG F2 A4 (3cAF | E2 e4 fg ^cded =cBAG |
+B,2 d4 e2 C2 e4 fg | FGAB cAFA G2 B2 G2 :: b>^a |
+b2 G2 G2 (3bc'b a2 F2 F2 (3aba | g2 e4 ag fed^c d4 |
+dfaf dfaf dgbg dgbg | ^cdef gece dcde d=cBA |
+Bded bgdB Adfd afdA | EGcG edcB (3ABA (3GFE D2C2 |
+B,DGD B,DGD CEGE CEGE | FGAB cAFA G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/13473
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Banks_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Banks_of_the_River_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Mrs_Taff_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/Banks_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/Banks_of_the_River_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/Mrs_Taff_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Banks_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Banks_of_the_River_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Mrs_Taff_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Parazotti/Banks_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Parazotti/Banks_of_the_River_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Parazotti/Mrs_Taff_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Banks_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Banks_of_the_River_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Mrs_Taff_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

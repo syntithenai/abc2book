@@ -1,0 +1,32 @@
+X: 1
+T: Asher Bara #1 (D/Bm)
+M: 2/4
+L: 1/8
+K: D
+|: "D"F F2 F | FA GF \
+| "Em"E E2 E | EG FE \
+| "G"DD zD | "A7"E2 DE \
+| "D"F4- |1 F2 z2 :|2 "F#7"F2 z2 \
+|:"Bm"dB3- | B4 \
+| "A"cA3- | A4 |
+| "G"G G2 G |1 GB AG | "F#"F4- | F2 z2 :|2 "G"GB ^AG | "F#"F2 z2 \
+|: "Bm"MB2 "F#7"Mc2 \
+||"Bm"d d2 d | de/d/ cB \
+| "Em"e e2 e | ef/e/ dc \
+| "Bm"dB zB |
+| Bd cB \
+| "F#7"c2 ^A2 | F4 \
+||"Bm"zd2 d | de/d/ cB \
+| "Em"e e2 e | ef/e/ dc \
+| "Bm"dB zd | "F#7"c2 ^A2 \
+|1 "Bm"B2 z2 :|2 "Bm"B4- | B2 z2 |]
+S:https://www.folktunefinder.com/tunes/6711
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/AsherBara_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AsherBara1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AsherBara1_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

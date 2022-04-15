@@ -1,0 +1,22 @@
+X:215
+T:Champion Jig
+% Nottingham Music Database
+S:EF
+M:6/8
+K:Em
+P:A
+B|"Em"Bef gfe|"Em"bef gfe|"B7"f^dB fdB|"B7"bc'b agf|
+"Em"Bef gfe|"Em"bef gfe|"B7"b3 b2a|"Em"gee e2:|
+"Em"\
+P:B
+d3 "D7"c3|"G"Bdg bgd|"D7"cdf afd|"G"Bdg bgd|
+"Em"d3 "D7"c3|"G"Bdg bgd|"D7"cdf afd|"G"gdb g2:|
+S:https://www.folktunefinder.com/tunes/64791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

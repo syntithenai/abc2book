@@ -1,0 +1,25 @@
+X: 1
+T: Shepherds' Dance
+O: 1691
+N: King Arthur, or The British Worthy, Act II Dance and Chorus, Z628/15
+M: 3/4
+L: 1/8
+A: 1/4=94
+K: G
+|:"G"G2 d2 B2 | "C"e2 "D"A2 "G"B2 | "Am"c2 d<c "D"B/AB/ | "G"B4 A<G \
+| "G"d2 g2 d2 | B2 G2 D2 | "Em"G>A "C"c<B A<G | "D"d6 :|
+| "D"A2 F2 "G"B2 | "D"A3 B c2 | "Bm"d2 e<d "E"c/Bc/ | "Am"c4 B<A \
+| "Em"B2 e2 B2 | "B7"A2 B2 F2 | F>G A<G F<E | "Em"E6 |
+| "C"G2 "D"A2 "Em"B2 | "Am"c2 A2 "D"d2 | "G"B2 c2 d2 | "C"e3 =f e2 \
+| "D7"d2 e2 ^f2 | "G"g2 B2 "C"e2 | "D7"A2 d2 GA | A4 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/20188
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ShepherdsDance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/ShepherdsDance_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

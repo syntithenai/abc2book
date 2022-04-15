@@ -1,0 +1,25 @@
+X: 23
+T: Minne fr\aan Rommelied
+R: polka
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"dB dB | bg g/f/e | "D7"dA/B/ cF | "G"GB B/d/B/G/ \
+|  "G"dB dB | bg g/f/e | "D7"dA/B/ cF | "G"GG G2 :|
+K: D
+|: "D"FA df | fa a/f/d | "A7"cg g/e/c | "D"da a/f/d \
+|  "D"FA df | fa a/f/d | "A7"cg g/e/c | "D"dd d2 :|
+K: G
+|: "G"g2 [B2G2] | "Am"d/c/B/c/ "D7"A2 | D/F/A/d/ fa | "G"gb b/g/d \
+|  "G"g2 [B2G2] | "Am"d/c/B/c/ "D7"A2 | D/F/A/d/ fa | "G"gg g2 :|
+S:https://www.folktunefinder.com/tunes/8176
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

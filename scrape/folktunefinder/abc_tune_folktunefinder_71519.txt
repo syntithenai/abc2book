@@ -1,0 +1,26 @@
+X:490
+%%topmargin 3cm
+T:Miss Sally Hunter of Thurston's Jig
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+A | DFA Td2 A | TB2 A Td2 A | Bcd egf efd cBA | DFA d2 A | TB2 A Bcd | egf edc | Td3 D2 :| g | fed Tg2 e | c'2 a d'2 b | Tfef def | efd TcBA |
+fed g2 e | a2 f b2 g | Tfga Adc | Td3 d2 g | fdf geg | afa bgb | afd Bcd | efd {/c}cBA | AFA Td2 A | TB2 A Bcd| egf edc | Td3 D2 |]
+S:https://www.folktunefinder.com/tunes/71519
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Sally_Hunter_of_Thurstons_Jig.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0490.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

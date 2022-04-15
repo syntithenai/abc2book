@@ -1,0 +1,30 @@
+X: 1
+T: Rachael Rae
+C: John Lowe (about 1815)
+R: reel
+B: RSCDS 3-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"D2FA d2Ac | d2fd "A7"e2cA | "D"d2Ad "G"BAGF | "A7"E2AE "D"FDD2 :|
+|: "D"d2df a2fd | "Em"g2bg "A7"e2cA | "D"d2df a2fd | "A7"egfe "D"fdd2 |
+|  "D"defg a2fd | "Em"g2bg "A7"e2cA | "D"d2Ad "G"BAGF | "A7"E2AE "D"FDD2 :|
+S:https://www.folktunefinder.com/tunes/17926
+S:http://trillian.mit.edu/~jc/music/abc/reel/RachaelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RachelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RachelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RachelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Lowe/RachaelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Lowe/Rachael_Rae_D24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r24/Rachael_Rae_D24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RachaelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RachaelRaeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Rachael_Rae_D24.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

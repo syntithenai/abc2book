@@ -1,0 +1,32 @@
+X:298
+T: Der Zechbruder
+N: A0342
+O: Europa, Mitteleuropa, Deutschland
+N: Reutterliedlein 1535 No. 14.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: G
+d2 | d2d2d2d2 | A4z2
+A2 | d3c_B2A2 | G4z2
+d2 | c2A2_B2G2 | =F4z2
+D2 | G6F2 | G4z2
+d2 | c2A2_B2G2 | A4z2
+_B2 | _B6A2 | _B4z2
+B2 | c2_B2A2G2 | =F4z2
+D2 | G6F2 | G6
+d2 | c2A2_B2G2 | A2D2E2
+F2 | G6F2 | G6
+S:https://www.folktunefinder.com/tunes/68844
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

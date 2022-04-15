@@ -1,0 +1,26 @@
+X:27
+T: VON ALLEN LAENDERN IN DER WELT
+N: B0031
+O: Europa, Mitteleuropa, Deutschland
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/16
+K: D
+D,4 | F,4D,4A,4B,2C2 | D4E4F4
+D3C | B,4B,4A,4B,4 | G,4A,3A,F,4z2
+F,2 | E,4A,4A,3^G,A,3B, | C8B,8 | A,8z4
+A,4 | A,4E,4E,4F,4 | G,4A,3F,G,4z2
+G,2 | C4A,4D4A,4 | E4C3EF6
+E2 | D3CB,3ED4C4 | D8z4
+S:https://www.folktunefinder.com/tunes/78048
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

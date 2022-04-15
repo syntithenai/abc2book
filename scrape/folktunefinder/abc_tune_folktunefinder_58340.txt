@@ -1,0 +1,23 @@
+X:1
+T: Merry Oddfellows
+T: 8 x 32J3C
+P: The Blooming Meadows
+C: from Stan Hamilton via B. McOwen
+C: arr. Terry Traub, 19-April-2002
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+|:A | "D"d2 f fef| "G"d2 g gfg| "D"f2 d dcd|"A"ecA ABc| \
+  "D"d2 f fef|"G"d2 g "Em"g3| "D"fed "A7"cBc|"D"d3 d2 :|
+|: B|"D"ABA F2 G|"D"A2 d dcB|"D"ABA "Bm"FGA|"Em"BGE "A7"EFG|\
+  "D"ABA F2 G|"G"A2 a a2 g|"D"fed "A7"edc|"D"d3 d2 :|
+S:https://www.folktunefinder.com/tunes/58340
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MerryOddfellowsSet.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

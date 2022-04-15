@@ -1,0 +1,23 @@
+X:68
+T: HEUT IST EIN FREUDENREICHER TAG
+N: E1066
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Wett - Lied, Streit zwischen Sommer und Winter
+M: 3/4
+L: 1/8
+K: C
+C2 | C4D2 | C4A,2 | G,4G,2 | D,4
+E,2 | F,4F,2 | F,4A,2 | G,4G,2 | C,4
+G,2 | G,4F,2 | E,4D,2 | C,4
+G,2 | G,3A,A,2 | C4
+S:https://www.folktunefinder.com/tunes/79172
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Wett - lied, streit zwischen sommer und winter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:2574
+T:Cantar de Ronda (CT 480)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Mieres.
+O:Mieres
+A:Asturies
+Z:Cancioneru de Torner 480
+M:9/8
+L:1/8
+Q:3/8=66
+W:Soy de Langreo,
+W:mira que soy de Langreo
+W:mira que soy langreano,
+W:soy langreano,
+W:mira que te voy a dar
+W:con un palu d'avellano.
+K:F
+c c>B
+|A2-(A/4B/4A/4G/4) F3-F2 G/A/|B3-B2 z c c>B|
+A2-(A/4B/4A/4G/4) F3 G2 (F/E/)|D3-D2 z B B>c|
+d3-(d2 (5e/4d/4c/4B/4A/4 B-B/c/8B/8A/8G/8 A/ (5B/8A/8G/8F/8E/8|F) F2-F z2 c c>B|
+A2-(A/4B/4A/4G/4) F3-F2 G/A/|B3-B2 z c c>B|
+A2-(A/4B/4A/4G/4) F3 G2 (F/E/)|D3-D2 z B B>c|
+d3-(d2 (5e/4d/4c/4B/4A/4 B-B/c/8B/8A/8G/8 A/ (5B/8A/8G/8F/8E/8|F) F2-F ||
+S:https://www.folktunefinder.com/tunes/28854
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

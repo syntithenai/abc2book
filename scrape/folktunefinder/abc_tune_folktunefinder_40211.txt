@@ -1,0 +1,38 @@
+X:12
+T:Aire de la Bravado de Saint Maime  Riez
+R:Air
+O:France
+A:Provence
+T:1. La passado do sero
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+z BA|G2G dcd| c3 zBA| G2G dcB| A3 zAB| c2c BAG| d3 (4c/B/A/B/| G2G dcd| c3 zAB|
+c2c BAG| d3 (4c/B/A/B/| G2G dcd| HG6||[M:2/4] G/A/B/c/ d/c/B/A/|BG3|  G/A/B/c/ d/c/B/A/| HG4!D.C.!||
+T:2. L'Aubado
+G2G|d3 B2c| d3 A2B| cdc B2A| B3 G2G| d3 B2c| d3 A2B| cdc B2A| HG3-G2 || B|
+c3 A2B| G3 ABc| d2c B2A| B3 A2B| c3 A2B| G3 ABc| d2c B2A|G3 !D.C.!||
+T:3. Lou Rampe
+T:Se jougo uno ouro avans de parti  la ceremounio
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+FFG| F2F| AAA| A3 | cc/c/c/c/| cBA| cBA/B/|HG3:|
+GGG|AGF|A2A|G/G/GG|AGF|FGB/>B/|A3!D.C.!||
+T:4
+%%footer $D   Galouvielle-MBe 2005 \nAir France
+S:https://www.folktunefinder.com/tunes/40211
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Air
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

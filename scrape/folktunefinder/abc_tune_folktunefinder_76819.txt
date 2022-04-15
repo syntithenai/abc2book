@@ -1,0 +1,30 @@
+X:334
+T: TANZ MIR NICHT MIT MEINER JUNGFER
+N: E0952
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Reigen
+M: 4/4
+L: 1/4
+K: C
+ | CEFE | DCB,C | D2D2
+CEFE | DCCB, | C2C2
+CEFE | DCB,C | D2D2
+CEFE | DCCB, | C2C2
+DCB,C | DED2
+DCB,C | DED2
+CEFE | DCCB, | C2C2
+DCB,C | DED2
+DCB,C | DED2
+CEFE | DCCB, | C2C2
+S:https://www.folktunefinder.com/tunes/76819
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

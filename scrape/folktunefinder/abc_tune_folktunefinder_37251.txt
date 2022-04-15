@@ -1,0 +1,30 @@
+X:5860
+T:the Sportsman's Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f9.html
+%%ID:000004f9
+K:G dorian
+GA|\
+B2BB A2AG| FGAB cAGF| \
+B2BB A2AG| D2G2 G2GA| \
+B2BB A2AG| FGAB cAGF|
+fefd cBAG| D2G2 G2 ::\
+z2|\
+GABc defd| gece dcBA|
+GABc defd| gece d3d| \
+g2ge f2fd| B2Bd cAF2| \
+BABG AGAF| D2G2 G2:|
+S:https://www.folktunefinder.com/tunes/37251
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

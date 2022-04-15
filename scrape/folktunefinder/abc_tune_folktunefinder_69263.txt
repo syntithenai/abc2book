@@ -1,0 +1,24 @@
+X:404
+T: "Der Reiter"
+N: Z1084
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 4/4
+L: 1/8
+K: A
+E2 | A2A2=ccdB | =c2c2=G2
+G2 | A2E=F=G2G2 | E4z2
+=CD | E2EE=G2GG | E3D=C2
+A2 | E2A2B2=c2 | B4e2
+e^d | e2AB=c2E2 | A4z2
+S:https://www.folktunefinder.com/tunes/69263
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

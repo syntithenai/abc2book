@@ -1,0 +1,24 @@
+X:19002
+T:Saint Anne's Reel
+R:Reel
+C:Trad.
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+|:"D"fedc edcB|A2FA DAFA|"G"B2GB EBGB|"D"A2FA DAFA|
+"D"fedc edcB|A2FA DAFA|"G"B2ed "A7"cABc|"G"dedc "D"d2 de:|
+|:"D"f2fe "D7"fdef|"G"gagf g2gf|"A7"edcB ABce|baa^g a2ag|
+"D"f2fe fdef|"G"gagf g2gf|"A7"edcB ABcd|eddc "D"d2 de:|
+S:https://www.folktunefinder.com/tunes/51056
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 1
+T: Eli Ata
+O: Chassidic
+M: C
+L: 1/8
+K: Gm
+[| "Gm"D2 G2 G2 G2 | "D"^FG (AG) A4 | "D"D2 ^F2 F3 D | "D"D^F (AF) "Gm"G4 |
+S:https://www.folktunefinder.com/tunes/18699
+S:http://trillian.mit.edu/~jc/music/abc/song/EliAta_Gm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/EliAta_Gm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/EliAta_Gm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EliAta_Gm_w.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/C/EliAta_Gm_w.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/song/EliAta_Gm_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

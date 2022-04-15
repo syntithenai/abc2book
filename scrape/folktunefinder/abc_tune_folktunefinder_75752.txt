@@ -1,0 +1,90 @@
+X:56
+T:Mr. Haendel's Jig
+C:Georg Friedrich Haendel
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Double Jig
+M:6/8
+L:1/8
+Q:3/8=120
+%%MIDI chordprog 25 % Acoustic Guitar (nylon)
+%MIDI gchordoff
+%%staves [ 1 2 3 ]
+K:G
+% Eerste systeem
+% M1
+V:1
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 80
+D|:"G"G2B "D7"A2c|Bcd G2A|"G"Bcd "C"cde|"G"d3-d2 d|\
+V:2
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 70
+D|:D2G F2A|G3 D2F|GAB ABc|B2D G,2G|\
+V:3 clef=bass
+%%MIDI transpose -12
+%%MIDI program 33 % Acoustic Bass
+A|:G2z d2z|g2z d2z|g2z c2z|g2z b2z|\
+% M5
+V:1
+"C"e2A "D"ABc|"G"d2G "Em"GAB|"D"cdc "G"BAB|[1"D"A3-A2D:|[2"D"A3-A2A|
+V:2
+EFG FGA|D2d BAG|F2f g2G|[1F3-F2D:|[2F3-F2F|
+V:3 
+c2z d2z|g2z e2z|f2z g2z|[1d2c B2A:|[2d2^c d2z|
+% Tweede systeem
+% M9
+V:1
+|:"D"A2A A2"E"B|"Am"cde A2c|"Am"e2e e2"D"f|"Em"g2G G2"D7"A|\
+V:2
+|:FGA D2^G|ABc E2A|cde E2c|BAG cBc|\
+V:3 
+|:d2z d2e|a2e c2A|a2z a2d|e2z e2d|\
+% M13
+V:1
+"G"BAG "C"c3-|"D7"cBA "G"d2c|"G"BcB "D7"AGA|[1"G"G3-G2A:|[2"G"G3-G2d[K:Gm]||
+V:2
+D2d edc|f3-fga|d2g A2f|[1g3-g2F:|[2g3-g2z[K:Gm]||
+V:3 
+GAB c3|def g2z|d2z d2z|[1g2d G2z:|[2g2d G2z[K:Gm]||
+% Derde systeem
+% M17
+V:1
+|:"Gm"g2G "F"g2G|"Eb"gab "Bb"g2f|"Cm"edc "D7"BcA|"Gm"Bcd GAB|\
+V:2
+|:GAB AGF|EFG E2D|E2E F2^F|GAB B2G|\
+V:3 
+|:g2z f2z|e2z d2z|c2z d2z|G2z B2z|\
+% M21
+V:1
+"Cm"cde "F"ABc|"Bb"F2b "Eb"a2g|"Bb"fed "F"cBc|[1"Bb"B3-B2d:|[2"Bb"B3-B2f|
+V:2
+EFG FGA|DEF EFG|F2B F2E|[1D2E F2z:|[2D2E F2z|
+V:3 
+c2z f2z|B2z e2z|d2z c2z|[1B2f b2z:|[2B2f b2z|
+% Vierde systeem
+% M25
+V:1
+|:"Bb"b2B b2B|"F"ABc F2d|"Gm"g2G g2G|"D7"^FGA "Gm"D2d|\
+V:2
+|:def Bcd|FGA C3|Bcd GAB|D2C B,3|\
+V:3 
+|:B2z d2B|f2z c2A|G2z B2c|d2z G2B|\
+% M29
+V:1
+"Cm"edc "Eb"BAG|"D"^f=ef "Gm"g=f_e|"D7"dcB AGA|[1"Gm"G3-G2f:|[2"Gm"G3-G2|]
+V:2
+cBA GFE|D=E^FG2_E|D2D ^F2A|[1B2A G2z:|[2B2A G2|]
+V:3 
+c2d e3|d2c B2c|d2d ^f2f|[1g3 G2z:|[2g3 G2|]
+%%scale 0.7
+S:https://www.folktunefinder.com/tunes/75752
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

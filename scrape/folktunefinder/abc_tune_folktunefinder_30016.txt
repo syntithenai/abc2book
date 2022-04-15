@@ -1,0 +1,22 @@
+X:0
+T:The Gallowa Hills
+M:4/4
+L:1/8
+Q:1/4=100
+K:BMix
+FD |B,3   C  D2  EE|F2  B>B F3 \
+ E |D2  B,B, B,B,CD|E3   C  A,2
+F>F|B,3   C  D3   E|F2  B2  D2 \
+CB,|E>D EG   F3   E|C3   B, B,2||
+DE |F>F B2   D3   E|F<F B2  F3 \
+ D |E2  C2   A,3  C|E2  A>G F2
+FD |B,3   C  D3   E|F2  B2  D2 \
+CB,|E>D EG   F3   E|C3   B, B,2|]
+S:https://www.folktunefinder.com/tunes/30016
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

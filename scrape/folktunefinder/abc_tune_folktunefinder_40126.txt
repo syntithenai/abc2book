@@ -1,0 +1,34 @@
+X: 22
+T: 4. Hughie Johnny Angus of West Mabou
+R: Strathspey
+M: C
+L: 1/8
+% Q: 220
+C: arr. Dave MacIsaac
+Z: Chords by Robin Shaylor, August 2005
+K: G
+E2 |:\
+"G" D<G B>G "C" c>A B<G | "G" D<G B>d "D7" Tc>A F<A | "G" D<G B>G "C" c>AB>[GG,] | "Am"  G<g Td>c "D7" B<G G> E |
+"G" D<G B>G "C" c>A B<G | "G" D<G B>d "D7" Tc>A F<A | "G" D<G B>G "C" c>AB>[GG,] | "Am7" G<g Td>c "D7" B<G G> f |
+"G" Tg>ed>e g>ab>a | "Am" Tg>ed>B "D7" e<A A>f  | "G" Tg>ed>e "Em" g>ab>g    | "Am7" e<a a>b "D7" Ta>g e<a  |
+"G" Tg>ed>e g>ab>a | "Am" Tg>ed>B "D7" e<A A> g | "D7/F#'" a>f "Am7/E" g>e "D7" Tf>d f<a | "Am7" Tg>e "D7" d>g "G" B<G G2 :| [K:A] |
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 14 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center The Pigeon on the Gate
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 4x32 Reel    1 2 3 (4)
+S:https://www.folktunefinder.com/tunes/40126
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:8881
+T:La Condesita
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Versin 2
+O:Teberga
+A:Asturies
+Z:DyC en Teberga
+M:3/4
+L:1/8
+Q:1/4=72
+K:Fm
+C C |: F3 G A _B|
+M:2/4
+|c2 F2|_A2 G2|F4-|F2 C C|
+M:3/4
+|F3 G A B|
+M:2/4
+|c c c d|
+M:3/4
+|c d c2 _B2|
+M:2/4
+|A2 _B c|
+M:3/4
+|_B _B _A2 G2|
+M:2/4
+|F4-|[1 F2 C C :|[2 F2 z2|
+S:https://www.folktunefinder.com/tunes/60914
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

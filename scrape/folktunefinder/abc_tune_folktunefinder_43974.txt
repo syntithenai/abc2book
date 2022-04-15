@@ -1,0 +1,29 @@
+X:1
+E:newpage
+T:2. GALOPEDE (32 bar reel)
+R:Reel
+O:England
+M:4/4
+K:G
+P:A
+dc|\
+"G"B2Bc "D"A2AB|"G"G2"C"G2 "G"G2AB|"C"cBcd "Am"edcB|"D"A2A2 A2dc|*
+"G"B2Bc "D"A2AB|"Em"G2G2 "G"G2AB|"Am"cBAG "D"FGAF|"G"G2G2 G2::*
+P:B
+dc|\
+"G"B2gf "C"e2ed|"Am7"dcBc "D"A2dc|"Em"d2gf "C"edcB|"D"A2A2 A2dc|*
+"Em"B2gf "C"e2ed|"Am7"dcBc A2dc|"G"BdcB "D"AcBA|"G"G2G2 G2||*
+P:C
+Bc|\
+"G"d2d2 d2g2|"G"d2d2 d2g2|"G"d2d2 "C"edcB|"D"A2A2 A2Bc|*
+"G"d2d2 d2g2|"G"d2d2 d2g2|"C"edcB "D"dcBA|"G"G2G2 G2 ||*
+S:https://www.folktunefinder.com/tunes/43974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set02.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

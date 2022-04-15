@@ -1,0 +1,25 @@
+X:265
+%%topmargin 3cm
+T:Mrs. Douglas Moncrieff
+C:Robt. Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+c | BGdG BGGB | cEAG FDDc | [1 BGdG BGGB | EcAF {/F}G2 G:|
+[2 BGdB gdec | (BG)AF {/F}G3 || c | (Bcd).g ecgc | BGdG FDDc | (Bcd).g efge |
+dBcA G/G/G (Gc) | (Bcd).g ecgc | BGAG FDDc | (Bd)gb ceag | fdef g/g/g ~g |]
+S:https://www.folktunefinder.com/tunes/71294
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Douglas_Moncrieff.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0265.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

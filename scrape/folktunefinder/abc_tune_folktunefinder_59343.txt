@@ -1,0 +1,22 @@
+X:456
+T:La Molinera
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Asturias, canciones
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+E|AA AB|c c2 B|d2 cB|A2 z E|AA AB|c c2 B|d2 cB|A2 z c|
+GG GG|G G2 A|F2 FG|E2 z E|A2 cB|A2 z E|A2 cB|G2 BA|F2 AG|E2 z2||
+S:https://www.folktunefinder.com/tunes/59343
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

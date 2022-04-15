@@ -1,0 +1,22 @@
+X:10
+T:Gubben Laugrens Polska
+R:sl-polska
+A:Gotland
+Z:id:hn-sp-10
+M:3/4
+L:1/16
+K:Dm
+e4 e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d3e f2ef|gfed ^cdc=B A4|
+[e4A4] e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d2e2 f2ag|fed^c c2d2 d4:|
+|:f2ff =c2cc A2c2|f3a g_beg g2f2|{fe}f2ef d3e f2ef|gfed ^cdc=B A4|
+[e4A4] e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d2e2 f2ag|fed^c c2d2 d4:|
+S:https://www.folktunefinder.com/tunes/62341
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

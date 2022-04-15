@@ -1,0 +1,27 @@
+X:340
+T:Bill Cheathams
+M:C
+N:the 'chords' in bar 5 second part are alternative lines
+O:USA
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000be0.html
+%%ID:00000be0
+K:D
+A,B,DE F2DE| FDEF EDB,A,| B,2G2 G2DE| =FDEF EDB,D|
+A,2^F2 F2DE| FDEF EDB,D| \
+GFGA BcdB|1 AGFE D4 :|2 AGFE D2FG|:
+AFAd BGBd| cABc d2Ac| dcdA BdAG| FAFD E2FG|
+[AA][DF][FA][Ad] [BB][DG][GB][Bd]|cABc d2Ac|\
+dcdA BdAG|1 F2E2 D2FG :|2 F2E2 D4|]
+S:https://www.folktunefinder.com/tunes/36147
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:5580
+T:Sextur 3
+M:6/8
+O:Denmark
+R:Sextur
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000904.html
+%%ID:00000904
+K:G
+D | G2G GAB | cBc E2A | F2A DEF | G2B dcA :: \
+d2d B2d | e2e c2B | A2A B2c | d2d B2A |\
+G2G GAB | cBc E2G | F2A DEF | G3 G3 :|
+S:https://www.folktunefinder.com/tunes/37195
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Sextur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

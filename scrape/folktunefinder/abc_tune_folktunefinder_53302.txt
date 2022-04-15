@@ -1,0 +1,37 @@
+X:1
+T:Scottish d'automne
+R:Scottish
+C:Alain Vieillard
+M:2/4
+L:1/8
+Q:1/4=75
+K:C
+|:"C"GA "Am"A2 | "G"G/2B/2d/2B/2 "C"c2 | "G"B/2c/2d/2e/2 "F"f/2e/2d/2c/2 |1 "G"B/2c/2d/2B/2 "C"ec :|2 "G"B/2c/2d/2B/2 "C"c2 |:
+"C"ge c/2e/2g | "F"aa g2 | "C"c/2d/2e/2f/2 "G"g/2f/2e/2d/2 |1 "F"c/2d/2e/2f/2 "C"ec :|2 "F"c/2d/2e/2d/2 "C"c2 |]
+T:Scottish de St Chartier
+O:France
+A:Berry
+C:Trad.
+R:Scottish
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+V:1
+"Em"E/F/G/A/ "G"BB | "Am"A/B/c/A/ "G"B2 |1 "Am"A/B/A/G/ "D"FF | "Em"E/F/G/A/ "G"BG :|2 "Am"ed "G"BG | "D"F/A/G/F/ "Em"E2 |:
+"G"B2 "C"e2 | "D"d/e/f/d/ "Am"e2 | "G"B/c/d/B/ "Em"d/c/B/A/ |1 "G"G/F/G/A/ BG :|2 "G"G/A/G/F/ "Em"E2 |]
+V:2
+Bd dg | e2 dg |1 eg dc | B2 dB :|2 eg dB | cd B2 |: 
+d2 g/f/e/d/ | B/c/d/B/ c2 | d/e/f/d/ f2 |1 dB dB |2 dB G2 |]
+%%footer $D   Galouvielle-MBe 2005 \nBourre  2 temps France
+S:https://www.folktunefinder.com/tunes/53302
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Scottish
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

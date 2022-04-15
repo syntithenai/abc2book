@@ -1,0 +1,32 @@
+X: 1
+T: Colonel Robertson's Strathspey
+C: Niel Gow
+R: strathspey
+S: handwritten MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+F2 \
+| "Bm"B4 B3A "Em"B3E E3F | "D"A3d BAGF DEFG A3d \
+| "Bm"B4 B3A B3d e3f | "D"d3B dBAF "Em"{F}E4 E2 :|
+d2 \
+| "Em"e3f e2d2 BABd e4 | "D"d3e d2B2 AFAB d3f \
+| "Em"e3f e2d2 edef g3e | "Bm"d3B dBAF "Em"{F}E4 E2 ||
+d2 \
+| "Em"e3f e2d2 BABd e4 | "D"d3e d2B2 AFAB d2f2 \
+| "Em"g3e "D"f3d "Bm"e3B d3A | "D"d3A BAGF "Em"B4 E2 |]
+S:https://www.folktunefinder.com/tunes/19273
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ColRobertsonsStr_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ColRobertsonsStr_Em.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/ColRobertsonsStr_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

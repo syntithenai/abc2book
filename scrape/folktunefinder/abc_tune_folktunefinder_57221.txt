@@ -1,0 +1,35 @@
+X:2282
+T:Bugle Waltz No.4. CJF.016
+M:3/8
+L:1/16
+Q:60
+C: 
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Note * is d4 in MS.
+Z:P J Headford 2000
+K:D
+((3ABc)|d2A2d2|d4de|f2d2f2|f4a2|d'4f2|a2f2d2|f2e2e2|\
+e4((3ABc)|!d2A2d2|d4de|f2d2f2|f4a2|d'4f2|a4A2|
+d2d2ef|d4:|:!gf|f2e2e2|e4ag|g2f2f2|f4a2|b2c'2d'2|\
+a2g2f2|a4f2|e4((3ABc)|d2A2d2|!d4e2|f2d2f2|f4g2|a3bag|
+f3gfe|d2d2fe|d4:|:!" Bugle Solo"A2|F2A2d2|f4e2|d2c2d2|c2B2^d2|\
+e2^d2e2|B2g2e2|d6|c4A2|!a4a2|a2g2f2|f2e2^d2|e2f2g2|
+f4f2|f2e2c2|e6|d4:|:!a2|^gaba=ge|c3ABc|edcdfd|A4dc|B^defga|^abc'bge|!"*"
+d3 ced|
+d4a2|d'2f'2e'2|d'2c'2d'2|c'2b2^a2|b2c'2d'2|a4{ga}fd|a2g2e2|e6|d4:|
+S:https://www.folktunefinder.com/tunes/57221
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

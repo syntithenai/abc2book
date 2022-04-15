@@ -1,0 +1,27 @@
+X: 1
+T: Jackson's Breakdown
+I: Jackson's BreakdownS-JDsquare
+%C: S-J
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+"D"A2d2 fgfe| d2F2 A3d| "A7"c2E2 G3B| "D"A2D2 F4| \
+"D"A2d2 fgfe| d2F2 A3d| "A7"c2A2 B2c2| "D" d4 d4 :| [K:A]
+|:\
+"A"[c4e4] [c4e4]| e2a2 [c4e4]| "Bm"b2f2 "E7"g2e2| "A"a2c2 e4| \
+"A"[c4e4] [c4e4]| e2a2 [c4e4]| "Bm"b2f2 "E7"g2e2| "A"a4 a4 :|
+S:https://www.folktunefinder.com/tunes/19133
+S:http://trillian.mit.edu/~jc/music/abc/square/Jacksons_Breakdown.abc
+S:http://roaringjelly.org/music/square/Sq_J_Jacksons_Breakdown.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_J_Jacksons_Breakdown.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Jacksons_Breakdown.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_J_Jacksons_Breakdown.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

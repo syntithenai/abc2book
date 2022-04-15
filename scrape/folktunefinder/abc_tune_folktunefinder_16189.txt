@@ -1,0 +1,31 @@
+X: 1
+T: Polka
+R: polka
+O: Sweden
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+FG \
+|  "D"AAAA B2F2 | A6 DE \
+| FFFF G2D2 | F6 FG \
+| "A7"AAAA B3A | A2G2 E4 \
+|1,3 AAAA B3A | "D"A2G2 F2 \
+:|2,4 "A7"AAAA B2c2 | "D"d6 :|
+|: ff \
+| "D"f2ee e2dd | d2cc c2B2 \
+| "A7"A3B c3B | A2E2 E4 \
+| "A7"A3B c3B | A2E2 E4 \
+|1,3 "A7"A3B c3B | "D"A2F2 F2 \
+:|2,4 "A7"A3A B2c2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16189
+S:http://trillian.mit.edu/~jc/music/abc/polka/Polka5_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Polka5_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polka/Polka5_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

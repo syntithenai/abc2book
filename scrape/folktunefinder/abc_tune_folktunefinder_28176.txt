@@ -1,0 +1,25 @@
+X:7724
+T:Turks March
+O:england
+R:March
+M:2/4
+L:1/8
+K:G
+G2A2 | \
+B2G2 G2AB | c2A2 A2dc | B2GG F2G2 | AGFE D2GA |\
+B2G2 G2AB | c2AA d2c2 | BAGA D2F2 | G4 :|
+|:B2c2 | \
+d^cde d2ef | e2c2 c3d | edef gfga | f2d2 dedc |\
+B2G2 G2AB | c2A2 A2Bc | BAGA D2F2 | G4 :|
+S:https://www.folktunefinder.com/tunes/28176
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

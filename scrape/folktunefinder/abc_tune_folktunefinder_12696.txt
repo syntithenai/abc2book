@@ -1,0 +1,24 @@
+X: 43
+T: The Snouts and Ears of America
+S: Sarah Armstrong
+B: Sam Bayard "Hill Country Tunes" 1944, #58
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed PDF image of unknown origin
+M: C|
+L: 1/8
+K: D
+A2 \
+|: d2D2 D3E | F2A2 d2ed | c2A2 ABcd | e2A2 A2Bc \
+|  dcBA G2F2 | E2[A2D2] ABAG | F2D2 E2DE |1 F2D2 D2A2 :|2 F2D2 D3D |
+|: F2D2 D2D2 | F2D2 [A2D2]BA | G2[E2A,2] [E2A,2][E2A,2] | A2d2 d2AG \
+|  F2D2 D3D | F2A2 A2BA | G2E2 A3G |1 F2D2 D2DE :|2 F2D2 D4 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12696
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

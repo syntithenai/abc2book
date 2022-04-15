@@ -1,0 +1,26 @@
+X:1
+T:Tchish dar mad moqad mati mahour 
+N:Setr 57
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+%%MIDI program 111
+G,>C B,A, | C4 | CB, A,B, | G,2 z2 | G,A, B,C | D4 | C>B, A,B, | C2 z2 |
+G>c BA | c4 | cB AB | G2 z2 | GA Bc | d4 |c>B AB | c2 z2  | C>E EE | E4 |
+DE FE | D2 z2 | G,>D DD | D4 | CD ED  |C2 z2 | F>E DC | E>D CB, | CD EC | 
+D4 | E>D CB, | D>C B,A, | G,A, B,D | C2 z2 | CD EF | G4 | !b!A!=!G FG | !b!A!=!G FG |
+!b!A!=!G A_B | G4 |  GF G!b!A!=! | F2 z2 | C4 | C_B !b!A,!=!G, | !b!A,!=!_B, | C2 z | c4 | c_B !b!A!=!G | 
+!b!A!=!c _BA | G2 z2 |
+S:https://www.folktunefinder.com/tunes/53103
+S:http://anamnese.online.fr/iran/persianm.abc
+S:http://anamnese.online.fr/abc/persia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

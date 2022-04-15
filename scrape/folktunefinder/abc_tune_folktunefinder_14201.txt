@@ -1,0 +1,22 @@
+X: 1
+T: Foxy Mary
+B: Joyce, P. W.; "Old Irish Folk Music and Songs"
+R: jig
+L: 1/8
+M: 6/8
+Z: from Allan Garvin and Andrew Kuntz
+K: Dmix
+|: "D"DED D2A |    AGE    "C"c3 | "D"DED D2A | "Am"AGE      E2D | "D"DED D2A |   AGE "C"c3 |  "G"BdB "Am"c2A | AGE E2D :|
+|  "C"c3  edc | "G"GBAB/c/  dBG | "C"c3  ecA | "Am"AGE "(D)"E2D | "C"c3  edc | "G"BAG  BdB | "Am"AGE     c2A | AGE E2D  |
+|  "C"c3  edc | "G"GBAB/c/  dBG | "C"c3  edc |  "C"e2d      efg | "C"c3  edc | "G"BAG  BdB | "Am"AGE     c2A | AGE E2D |]
+S:https://www.folktunefinder.com/tunes/14201
+S:http://trillian.mit.edu/~jc/music/abc/jig/FoxyMary.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FoxyMary.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/FoxyMary.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

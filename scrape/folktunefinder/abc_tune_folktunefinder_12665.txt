@@ -1,0 +1,32 @@
+X: 12
+T: Everyone Makes Mistakes
+C: Jeff Moss
+R: jig
+N: from the TV series Sesame Street
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+"C7"C2C \
+| "F"AAA "Fmaj7"A2A | "F6"A2A "Fmaj7"c2d | "F"A3- "FMaj7"A3- | "A6"A3 "F"C2C \
+| "F"A2A "Cdim"^GG"F"A | "D7"B2A G2^F | "G7"GGA G2D | "C7"G2z C2C |
+| "Gm7"GGG G2G | "C7"c2c c2c | "Gm7"GC2- C3 | "C7"z3 C3 \
+| "Gm"G2G2 "Gm7"G2G | "C7"c2c c2B | "F"AF2- "G7"F3 | "C7"z3 c3 |
+| "F"AAA "Fmaj7"A2A | "F6"A2A "FMaj7"c2d | "F"A3- "FMaj7"A3- | "A6"A3 "F"C3 \
+| "F"A2A "C"^G2"F"A | "D7"B2A G2^F | "G7"G2A G2D | "C7"G6 |
+| "Gm7"G3z C2C | "C9"G2z C2C | "Gm7"ccc cz2 | "C7"G3 C2C \
+| "F"ccc "Ebm6"c2c | "C7"c2B A2G |1,2 "F"AF2- F3- | "Fmaj7"F6 | "Gm7"z3 "Db6"z3 | "C7"z3 :|
+|3 "A7"A3- "A7b5"A3- | "D7"Az2 A3 | "Gm7"DDD "A7"E2E | "Dm7"F3 "Bbm6"G3 \
+| "F"A3 "Bb"B2B | "Am"c3 "D7"c3 | "Gm7"d6- | d6 \
+| "C7"e6- | e6 | "F"f6- | "Bb7"f6 | "Gm7"f3- "C9"f3- | "F"fz2 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12665
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 83
+T:Slow March. JMP.083
+M:C
+L:1/8
+Q:125
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C.  Graebe
+K:D major
+"Key given as G major"((3ABc) | d2 d>d d2 ((3ede) | f2 f>f f2 ((3gfg) |\
+a2 fd gfed |e2 A>A A2 ((3ABc) |! 
+d2 d>d d2 ((3ede) | f2 f>f f2 ((3gfg) |\
+ a2 fd fedc | d2 d>d d2 :|!
+|: cd | ecAc ecAc | fdBd fdBd  |\
+gefd ecdB | c2 A>A A2  ((3ABc) |!
+ d2 d>d d2 ((3ede) |\
+ f2 f>f f2 ((3gfg) | a2 fd fedc | d2 d>d d2 :|]
+S:https://www.folktunefinder.com/tunes/2020
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

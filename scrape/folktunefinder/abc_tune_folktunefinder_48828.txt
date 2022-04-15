@@ -1,0 +1,27 @@
+X:120
+T:Ductia
+L:1/8
+M:6/8
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d9b.html
+%%ID:00000d9b
+K:D
+D2F A2G|E2G F3|D2F A2G|E2F D3:|
+d2c/2B/2 A2c|e2B c3|d2c/2B/2 A2G|B2F A2B|
+d2d cBA|B2G A2B|d2d c/2B/2AG|B2c d3|]
+|d2e d2B|c2A B2c|d2e d2B|c2B A3|
+B2c ddd|cBA B3|B2c dcA|B2c d3|]
+|:dcd e2e|dcd/2c/2 B3|dcd e2e|dcB A3:|
+|g2f ecd|e2d f3|g2f edc|B2c d3:|
+|d2e gge|f2d e3|d2e gge|f2g/2f/2 e3|
+gfe ddB|c2d eef|gfe dcA|B2c d3|]
+S:https://www.folktunefinder.com/tunes/48828
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

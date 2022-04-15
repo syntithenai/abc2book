@@ -1,0 +1,29 @@
+X: 1
+T: THE GENERAL GATHERING 1745
+O: Kerr's 2nd
+R: jig
+N: "Scotch Jig"
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd (c.1880) p.211 #320
+M: 6/8
+L: 1/8
+K: D
+f | d2F FGF | ABc def | edc dcB | A2E E2f \
+  | d2F FGF | ABc def | edc dcB | A2F F2 :|
+d | AGF AGF | AGF ABc | dcB AGF | B2E E2B \
+  | AGF AGF | ABc def | edc dcB | A2F F2 ||
+d | AGF AGF | AGF ABc | dcB AGF | B2E E2B \
+  | AGF ABc | def efg | agf edc | d3  d2 |]
+S:https://www.folktunefinder.com/tunes/14223
+S:http://trillian.mit.edu/~jc/music/abc/jig/GeneralGathering1745_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GeneralGathering1745_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

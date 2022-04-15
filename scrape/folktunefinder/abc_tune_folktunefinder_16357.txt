@@ -1,0 +1,27 @@
+X: 1
+T: Hins Polska
+N: efter Erik August Sallin, Tysslinge, N\"arke
+N: learned from David Bastviken, Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+O: N\"arke
+R: Sl\"angpolska
+M: 3/4
+L: 1/8
+K: A
+|: c2 A2 E2 | c2 B>d c2 | c2 A2 E2   | c2 B>d c2 \
+|  e2 d2 c2 | B2 AG E2  | F2 G>A B>G | A2 A2 z2 :|
+|: A2 GA F>G | A2 A>F E2 | A2 GA F>G | A2 A>B c2 \
+|  A2 GA F>G | A2 A>F E2 | EC DB, CA, | B,>C A,2 z2 :|
+S:https://www.folktunefinder.com/tunes/16357
+S:http://trillian.mit.edu/~jc/music/abc/pols/HinsPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/HinsPolska.abc
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

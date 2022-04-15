@@ -1,0 +1,18 @@
+X:1
+T:TEST: K:C [K:C clef=none]
+N:The second staff should have no clef.
+K:C
+| CDEF GABc | cdef gabc' |[K:C clef=none]
+| CDEF GABc | cdef gabc' |
+S:https://www.folktunefinder.com/tunes/2373
+S:http://trillian.mit.edu/~jc/music/abc/test/Clef_none2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Juice of Barley
+C: Henry Purcell (1690)
+B: Cecil Sharp (1916)
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+[| "Gm"G2G     d2c | "Bb"def F2F | "Eb"G2G "Bb"d2B | "Cm"G3 "Gm"B3 \
+|  "Eb"G2G "F7"d2c | "Bb"def F2F | "Eb"G2G "Cm"d2B | "Gm"G3     B3 |]
+|: "Bb"B2B       B2A/B/ |  "F"c2c "F7"c2c | "Bb"d2d "Eb"g2f | "Bb"d3  f3 \
+|  "Eb"B2B "Bb/D"B2A/B/ | "Cm"c2c    c>de | "Bb"d>cB "F"ABF | "Gm"HG3 d3 :|
+S:https://www.folktunefinder.com/tunes/14449
+S:http://trillian.mit.edu/~jc/music/abc/jig/Juice_of_Barley_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Juice_of_Barley_Gm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

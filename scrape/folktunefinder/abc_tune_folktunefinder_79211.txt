@@ -1,0 +1,31 @@
+X:107
+T: FROEHLICH ZU SEIN IN EHREN
+N: E1147
+O: Europa, Mitteleuropa, Deutschland
+R: Trink -, Zech - Lied
+M: 4/4
+L: 1/4
+K: G
+d | dddd | e2d
+B | cBAA | G2z
+d | dddd | e2d
+B | cBAA | G2z
+d | eedc | BBB
+d | eedc | BBB
+d | =fed^c | d2z
+e | =fed^c | d2z
+B | BABc | d2A
+A | BABc | d2A
+c | BBAA | G2z
+S:https://www.folktunefinder.com/tunes/79211
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Trink -, zech - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

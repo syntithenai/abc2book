@@ -1,0 +1,31 @@
+X: 1
+T: the Triumph
+R: reel
+B: RSCDS 1-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: af \
+ | "A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2 :|
+z2 \
+|| "E"B2e2 "A"c2e2 | "E"B2e2 "A"c2e2 | "E7"B2Bd "A"c2ce | "E7"[c2A2][B2G2] "A"A2z2 |
+ | "E"Be^de "A"cede | "E"Be^de "A"cede | "E"B2Bd "A"c2ce | "E"[c2E2][B2D2] "A"[A2C2]z2 ||
+|| "A"c2cd e2c2 | "E7"B2Bc d2B2 | "A"c2cd eagf | "E7"edcB "A"A2AB |
+ | "A"c2cd fedc | "E7"B2Bc edcB |  "A"c2cd eagf | "E7"edcB "A"A2 |]
+S:https://www.folktunefinder.com/tunes/18260
+S:http://trillian.mit.edu/~jc/music/abc/reel/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r24/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TriumphR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TriumphR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

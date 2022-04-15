@@ -1,0 +1,23 @@
+X: 20
+T: 2. Of Aw the Airts the Wind Can Blow
+M: C
+L: 1/8
+% Q: 220
+K: A
+"A" A<A A>A "C#m" A>EA>f | "D" e>cB>A "E7" F2 F>E | "A" A<A A>A "F#m" A>EA>f | "Bm" e f/g/a>c "E7" e2 ef |
+"A" e>fa>c "A/C#" e>cB>A | "D" B>ec>A "E" F2 F>E | "A'" A<A "C#m/G#'" A>A "F#m'" A>E "F#m7'" A>f | "D" e<c "E" B>c "A" A3 E  :|
+|: \
+"A" C>EA>E F>EA>E | c>e d/c/B/A/ F2 F<A | "A" C>EA>E "F#m" F>EA>E | 
+"Bm" c>d e/f/g/a/ "E7" e2 ef/g/ | "A" a>gf>e "E/G#" f>ed>c | "D/F#" B>e d/c/B/A/ "E7" F2 F>E | 
+"A" A<A "Bm" A>A "C#m" A>E "D" A>f |1 "E" e<c "E7" B>c "A" A3 E :|2 "E" e<c "E7" B>c "A7" A2 ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 13 of 31
+S:https://www.folktunefinder.com/tunes/40124
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

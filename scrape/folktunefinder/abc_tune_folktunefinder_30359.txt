@@ -1,0 +1,24 @@
+X:250
+T:a Favourite Strathspey
+B:Aird's Airs and Melodies vol 2
+M:C
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000fa.html
+%%ID:000000fa
+K:D
+A>FDA F>DAF| A>BAF E/E/E E2|\
+A>FDA F>DAF| d>efA F/F/F F2::
+d>ef>d e>cdB| A>FdF E/E/E E2|\
+d>efd e>Bd>B| AFdA F/F/F F2|
+d>efd e>cd>B| A>FdF E/E/E E2|\
+A>FDA F>DAF| d>efA F/F/F F2:|
+S:https://www.folktunefinder.com/tunes/30359
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

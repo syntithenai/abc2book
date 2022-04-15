@@ -1,0 +1,25 @@
+X:11820
+T: Night Piece
+M:6/8
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+N: repeat B 3 times
+A:English
+K:D
+f2 d a2 f|d2 A d f2|e g2 fed|c>ef g3 a|f2 d a2 f|d2 A d f2|e g2 f>ed|c>e
+f g2||\
+a|bga gaf|efd e2 A| ddc ddA| fe>d d2:|
+S:https://www.folktunefinder.com/tunes/54569
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

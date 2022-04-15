@@ -1,0 +1,25 @@
+X:11
+T:Saint Andrews Breakdown
+C:Andy Hornby 1995
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+G2ge d2Bd-|d^cde dBAB|G2ge d2BA-|AGAB cAFA|
+G2ge d2Bd-|d^cde dBGB|cBcd edef|gfge dcBA:|
+|:G2dG G2dG|G2dB edcB|A2DA A2DA|cBAG FGAF|
+G2dG G2dG|G2dB edcB|cBAB cBcd|edef gedB:|
+%%textfont Timesbold 25
+%%center  JIGS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43759
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

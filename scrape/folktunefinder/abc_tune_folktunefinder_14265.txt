@@ -1,0 +1,27 @@
+X: 1
+T: Greenholm
+B: Kerr's Violin IV
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+ e |: "G"d>BG GBd | "C"efg g2e | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+Bc |: "G"d2g  gfg | "C"e2g gfg | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/14265
+S:http://trillian.mit.edu/~jc/music/abc/jig/Greenholm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/Greenholm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Greenholm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Greenholm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Greenholm.abc
+S:http://trillian.mit.edu/~jc/music/book/500/Greenholm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

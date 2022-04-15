@@ -1,0 +1,38 @@
+X: 89
+T: September 1st
+C: J-33
+C: Aram Hollman  1984
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: D
+"D"D2D FED| A2D FED| "G"dcB "D"ABG| "D*"FGA "A"ED[CE]|
+"D"D2D FED| A2D FED| "G"dcB "D"ABG|1 "A"FGE "D"D2A,:|2 "A"FGE "D"DFG|] \K: A\
+|:\
+ "A"A2A ecA| ecA gfe| "G"dBA GAB| dBA GFG|
+ "A"A2A ecA| ecA gfe| "G"dBA "D"GFD|1 "Em"EFG "A"A2A :|2"Em"EFG "A"AFE|]
+%%text * for discord, substitute Em or G
+%%begintext ragged
+%% Written on September 1st, 1984, a beautiful sunny day.  Could have called it
+%% "Farewell to Brookline", since I was moving out then.  Wanted to write an Irish
+%% tune which switched keys between the first and second parts.  I got the key
+%% change (1st part in D, 2nd part in A), but the tune turned out as a New England
+%% contra!  Plays well on a mandolin, excellent whistle tune, works on backup guitar
+%% or flatpicking melody with bass string dropped to D. Harmony second part.
+%%
+%% 9/1/98
+%%endtext
+% ---------- page 45 ----------
+S:https://www.folktunefinder.com/tunes/1911
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

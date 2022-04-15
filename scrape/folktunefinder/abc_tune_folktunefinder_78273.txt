@@ -1,0 +1,31 @@
+X:252
+T: ICH KENN EIN'N HELLEN EDELSTEIN
+N: B0301
+O: Europa, Mitteleuropa, Deutschland
+R: Stimmungs - Lied, Treue, Moral
+M: 3/4
+L: 1/16
+K: G
+D4 | B2G2c6B2 | B2A2A6
+G2 | F2A2d6c2 | B8
+D4 | B2G2c6B2 | B2A2A6
+A2 | G6B2A2G2 | F2
+G2A4B4 | A8^C4 | D4z4
+D4 | A2^G2A6B2 | c2B2A6
+D2 | B2A2B6c2 | d2c2B4
+B4 | E3EE2F2G2A2 | B8
+c4 | B2G2c6B2 | B2A2A6
+G2 | F2A2d6c2 | c2B2B4
+G4 | c6c2c2c2 | c3AA4
+c4 | B6d2c2A2 | G2F2B6A2 | G4z4
+S:https://www.folktunefinder.com/tunes/78273
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, treue, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

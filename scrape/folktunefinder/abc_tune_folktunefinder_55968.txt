@@ -1,0 +1,31 @@
+X:1029
+T:Bairisch - schottisch/schottische/scottish
+C:Friedrich Fischer
+B:5.Spielheft fr Okarina, B. Dumfart, Oberoesterreichisches Volksliedwerk Linz, 1997
+S:Oberoesterreichisches Volksliedwerk M I - A1,4
+A:Altlichtenberg
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+N:in the book in C
+M:2/4
+L:1/16
+K:D
+|:A2F2 B3A|A2G2G4|A2c2 c3B|B2A2A4|
+A2F2 B3A|A2G2G4|c2c2 B2c2|d2ddd4:|
+|:^f2f2 e2d2|c2c2G4|c2c2 B2B2|A2A2F4|
+f2f2 e2d2|c2c2G4|c2c2 B2c2|d2d2d4:|
+K:G
+|:B2B2 A2A2|G2G2 D2G2|F2F2 D2F2|G2G2D4|
+B2B2 A2A2|G2G2 D2G2|F2D2 E2F2|G2GGG4:|
+S:https://www.folktunefinder.com/tunes/55968
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

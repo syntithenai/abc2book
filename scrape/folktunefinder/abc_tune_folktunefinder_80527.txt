@@ -1,0 +1,28 @@
+X: 249
+T: The Bride of Malahide
+B: O'Neill's 249
+N: "Moderate"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:G
+(d/e/f) \
+| g2 (gf)(ed) | d2 (ed)(c{dc}B) | c2 B2 ({B}A>G) | E4 (A/B/d) \
+| e2 (fe)(dB) | (A>B) d2 D2 | E2 {B}A3 G | G2 :|
+|| (D/E/F) \
+| G2 A2 BA | B2 B2 AG | c2 d2 ef | g4 (d/e/g) \
+| a2 b2 (a/g/e) | d2 e2 (e/d/B) | A2 dB AB | A4 {d}cB |
+| c2 d2 ef | g2 g2 (gf/e/) | d2 B2 A>G | E4 (D/E/F) \
+| G2 (FE) (~DC) | B,2 A,>B, G,2 | E2 {B}TA3 G | G4 ||
+S:https://www.folktunefinder.com/tunes/80527
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0249_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

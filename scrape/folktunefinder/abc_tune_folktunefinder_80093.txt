@@ -1,0 +1,30 @@
+X:34
+T: Koenig Ludwig aus Ungarn
+N: A0392
+O: Europa, Mitteleuropa, Deutschland
+N: Basts Gsgb. 1545 II. No.11.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/2
+L: 1/2
+K: F
+F | F2EF2G | A2G2
+F2 | F2EF2G | A2G2z
+F | A2AB2A | c2B2
+A2 | G2GF2G | A2G2z
+c | c2BA2G | F2C2
+F2 | F2EF2G | A2G2z
+F | A2AB2B | c2B2
+A2 | B2cA2G | F2C2F2 | A2Bc2BG2 | F6
+S:https://www.folktunefinder.com/tunes/80093
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

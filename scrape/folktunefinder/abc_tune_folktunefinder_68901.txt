@@ -1,0 +1,24 @@
+X:42
+T: ES LIEGT EIN SCHLOSS IN OESTERREICH
+N: Z0043
+O: Europa, Mitteleuropa, Deutschland, Rheinland; Niederlande
+R: Sagen - Lied, Romanze, Tod
+M: 3/4
+L: 1/8
+K: D
+ |  |  | D2D2D2 | A4A2 | =c4c2 | =F4
+G2 | A2_B2=c2 | A4_B2 | A6 | A4
+A2 | _B4A2 | G2G2_B2 | A4A2 | D4
+A2 | G3A_BA | =c4
+A2 | _B2A2G2 | =F2E2E2 | D6 | D6
+S:https://www.folktunefinder.com/tunes/68901
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

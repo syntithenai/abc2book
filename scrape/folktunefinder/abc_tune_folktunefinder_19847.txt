@@ -1,0 +1,28 @@
+X: 1
+T: A Cold Frosty Morning
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+AF \
+| "A"E>F A2 A2 | "F#m"A4 A2 | "D"Bc dc BA | "E7"GF- F2 E2 \
+| "A"E>F A2 A2 | c>d e2 a2 | "E7"B3 ABc | "A"A4 :|
+ef \
+| "G"=g3 bag | "D"gf- f2 e2 | "A"e2 f2 ab | a2 f2 ef \
+| "G"=gf gb ag | "D"f4 (3fga | "A"e>f ec Bc | A2 F2 E2 |
+| "G"=gf gb ag | "D"fe ce fa | "A"e>f ec Bc | "E7"A2 F2 E2 \
+| "A"E>F A2 A2 | c>d e2 a2 | "E7"B3 ABc | "A"A4 |]
+S:https://www.folktunefinder.com/tunes/19847
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ColdFrostyMorningW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ColdFrostyMorningW.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/waltz/ColdFrostyMorningW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

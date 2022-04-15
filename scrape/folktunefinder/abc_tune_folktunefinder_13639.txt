@@ -1,0 +1,29 @@
+X: 1
+T: Mr John Trotter's Hornpipe
+C: Robert MacKintosh
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: F
+FG \
+| "F"Af cA "C7"BG cB | "F"A2 F4 GA | "Bb"Bc dc BA GF | "C7"E2 C4 FE |
+| "Bb"DF Bd "C"EG ce | "Dm"FA df "G7"=Ba gf | "C"fe dc "G7"ed c=B | "C"c2 c2 c2 :|
+|: cB \
+| "F"AB cB AG F_E | "Bb"D2 D4 C2 | "Gm"B,2 dc BA GF | "C7"E2 C4 B,2 |
+| "/F"A,F "/G"B,F "/A"CF "/Bb"DF | "/C"Ec "/D"Fc "/E"Gc "/F/"Ac | "Gm"dB bg "C7"af ge | "F"f2 f2 f2 :|
+S:https://www.folktunefinder.com/tunes/13639
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MrJohnTrottersHp_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/MrJohnTrottersHp_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/MrJohnTrottersHp_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/MrJohnTrottersHp_F.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

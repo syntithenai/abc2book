@@ -1,0 +1,35 @@
+X: 160
+T:Hampton Court. HA.159
+M:3/4
+L:1/8
+Q:1/4=120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:cf Pills to Purge Melancholy,1719..CGP. A note at the end of the tune
+N:in the MS appears to read:
+N:"end on ye 1st strain()". i.e. play first part of tune to finish.
+N:Flat signs marked in MS (instead of natural).. NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:G
+B3c (cB/2c/2)|d2G2c2|A3Ad2|B3AG2|!
+B3c (cB/2c/2)|d2 e>dc>B|A4G2|"$"G6||!
+d>e d>c B2|e2f2g2|f3g (gf/2g/2)|a4d2|!
+g2 g>f e>d|c2d3e|e4d2|d3 edc|!
+B3c(cB/2c/2)|d2G2c2|A3Ad2|B3AG2|!
+B3c (cB/2c/2)|d2 e>d c>B|A4G2|G4G2|!
+A3Ad2|B3Be2|^d2e3f|f4e2|!
+d2g2 ("*"=fe)|"*"=f2d2 (cB)|"DC al segno"c>dB3A|A4A2|]
+S:https://www.folktunefinder.com/tunes/72409
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

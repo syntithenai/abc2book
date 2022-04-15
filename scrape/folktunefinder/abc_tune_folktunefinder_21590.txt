@@ -1,0 +1,38 @@
+X:1141
+T:Clarence Waltz. CJF.209
+O:england
+M:3/8
+L:1/16
+Q:60
+C:"C. J. Fox, Beverley"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the empty stave at the bottom of the page is "C. J. Fox. Beverley".
+N:-
+N:PJH.
+K:F
+c2|.f2(fe).f2|(c2f2).f2|(b2g2)g2|c'2a2c2|.f2(fe).f2|(a2f2).f2|\
+ga(gfed|c4:||:"cres:"c2|.c2(bg)e2|c2c'af2|
+.c2(bg).g2|(f2a2) c2|.c2(bg).e2|.d2(c'a).f2|g2{a}(gf)(ga)|f4:||\
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+K:Bb
+f2|f2d2b2|(a2g2f2)|_e2(d2c2)|d2e2=e2|(f2d2)b2|(a2g2f2)|
+(f2e2c2)|B4:||:d2"f"|e2c2a2|b2d'2 d2|e2c2a2|b4f2|f2d2b2|\
+(c'bagfe)|(dB)(ag)(ec)" D Capo"|{A}B4:||
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+K:F
+S:https://www.folktunefinder.com/tunes/21590
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

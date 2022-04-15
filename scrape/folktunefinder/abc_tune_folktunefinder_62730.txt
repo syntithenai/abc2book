@@ -1,0 +1,23 @@
+X: 8
+T:Frost Is All Over, The
+M:6/8
+L:1/8
+R:Jig
+K:D
+A|"D"def "(A)"edB|"(D)"AFD "A"{EF}E2-D|"D"DFA AFA|"Em(G)"Bee "(Em)"edB|
+"D"def edB|AFD "A"{EF}E2-D|"D"DFA "A"AFA|"G"Bdd "D"d2::
+g|"D"fdf afd|"G"gfg bag|"D"fdf afd|"G(Em)"gfg "A7"e2 g|
+"D"fdf afd|"G"gfg "(Em)"bag|"D"fga "A"efg|"D"fdd d2:|
+S:https://www.folktunefinder.com/tunes/62730
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

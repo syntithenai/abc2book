@@ -1,0 +1,31 @@
+X: 4
+T:Beggar Girl,The. TLY.004
+M:6/8
+L:1/8
+Q:100
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Misc.
+O:England.
+A:Lancashire.
+N:Bar 12, crochet d has a rall. sign above it - can't reproduce this in
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+d>cB d>cB|A>GA B3|d>cB d>cB|A>GA G2d|!
+d>cB d>cB| A>GA B>cd|d>cB d>cB|A>GA G2z:||!
+DGB DAc|DcB {B}A>GA|DG=F E2 "NB"c/c/|BAG d2 c|!
+d>cB d>cB|A>GA B>cd|d>cB e>fg|B>cA G2 z|]
+S:https://www.folktunefinder.com/tunes/37537
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: la Guenille
+O: Qubec
+N: from a handwritten MS
+R: reel
+M: 2/4
+L: 1/16
+K: D
+|: "D"Adde fdfd | "Em"Beef "A7"gece | "D"Adde fdfd |1 "A7"cdeg fdec \
+                                                  :|2 "A7"cdec "D"d2AA ||
+|: "D"a3g f2dd | "A7"cdef gece |1 "A7"a2ag "D"f2dd | "A7"cdec "D"d2AA \
+                              :|2 "A7"abag "D"f2dd |2 "A7"cdec "D"d4 |]
+S:https://www.folktunefinder.com/tunes/17312
+S:http://trillian.mit.edu/~jc/music/abc/reel/Guenille_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Guenille_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Guenille_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

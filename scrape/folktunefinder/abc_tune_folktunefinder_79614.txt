@@ -1,0 +1,22 @@
+X:510
+T: DREI WUERFEL UND EIN KARTENSPIEL
+N: E1772
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied, Spiel
+M: 4/4
+L: 1/8
+K: F
+F2 | F2F2A2A2 | c2c2A2
+AA | d2c2B2G2 | G2F2G4
+F2F2A2A2 | c2c2c4 | z2
+A2B2d2 | c2B2A3G | F6
+S:https://www.folktunefinder.com/tunes/79614
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied, spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

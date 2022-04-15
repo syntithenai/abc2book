@@ -1,0 +1,28 @@
+X:133
+T: DIE BLUEMELEIN SIE SCHLAFEN
+N: B0624
+O: Europa, Mitteleuropa, Deutschland, Niederrhein 
+R: Kinder -, Wiegen - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | A3Bc2B2 | A4G2
+A2 | Bcd2cBA2 | B4z2
+E2 | A3Bc2B2 | A4G2
+A2 | Bcd2cBA2 | B4z2
+cd | e2c2d2e2 | f3ed2
+Bc | d2d2c2e2 | B6z2
+e3cB4 | c3BAB
+cd | e2ABc2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/62156
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

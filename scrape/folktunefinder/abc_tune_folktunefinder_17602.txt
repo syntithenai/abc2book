@@ -1,0 +1,49 @@
+X: 1
+T:Maggie Lawder,Variations,Pt2. WCl.69
+M:C|
+L:1/8
+Q:100
+S:William Clarke MS, Lincoln,1770
+R:Air
+O:Lincoln
+A:England
+N:Continued...
+K:D
+"Cont..5"f/a/d/f/ A/d/F/A/ D>EDf|e>f (g/f/e/d/) c2 (e3/2f/4g/4)|f/a/d/f/
+ A/d/F
+/A/ D>EDf|!
+a>b a/b/a/g/ ~f2 a2|(g/b/)(b/d'/) (d'/b/)(~a/g/) (f/a/)(a/d'/) (d'/a/)(g
+/f/)|
+(e/g/)(f/a/) (g/f/e/d/) ~c2 e2|!
+d/c/B/A/ B/A/G/F/ G/F/E/D/ E>g|(f/g/a) e>f d2D2:||
+"6"D/F/A/d/ A/d/f/a/ d/f/a/d'/ d>f|!
+(e/f/g/f/) (e/d/c/d/) ~c2 e2|D/F/A/d/ A/d/f/a/ d/f/a/d'/ d/e/f/g/|
+(a/g/a/b/) (a/b/a/g/) ~f2a2|!
+b/g/d/B/ G>b a/f/d/A/ F>a|e>f (g/f/e/d/) ~c2e2|(d/c/B/A/) (B/A/G/F/) (G/
+F/E/D/) E>g|!
+(f/g/a) e>f d2D2:||
+"7"d>e df/g/ a/g/f/e/ d/e/f/d/|eE (g/f/e/d/) c2 e3/2(f/4g/4)|!
+f/d/c/d/ d/c/d/d/ d/A/B/c/ d/e/f/g/|a/g/a/b/ a/b/a/g/ f2a2|
+b/g/d/B/ G/d/g/b/ a/f/d/A/ F/d/f/a/|!~e>f (g/f/e/d/) c2e2|
+(d/c/B/A/) (B/A/G/F/) (G/F/E/D/) E>g|(f/g/a) ~e>f d2D2:||!
+"8"f/a/d/f/ A/d/F/A/ D/F/A/d/ F/A/ d/f/|(e/f/e/f/) (g/f/e/d/) c2 (e3/2f/
+4g/4)|!
+f/a/d/f/ A/d/F/A/ D/F/A/d/ F/A/d/f/|a/g/a/b/ a/b/a/g/ ~f2a2|!
+(b/g/)(d/g/) (b/g/)(d'/b/) (a/f/)(d/f/) (a/f/)(d'/f/)|(e/f/e/f/) (g/f/e/
+d/) ~c2 e2|!
+((3d/c/B/) ((3c/B/A/) ((3B/A/G/) ((3A/G/F/) ((3G/F/E/) ((3F/E/D/) E>g|
+(f/g/a/f/) (e/f/g/e/) d2D2:||
+S:https://www.folktunefinder.com/tunes/17602
+S:http://trillian.mit.edu/~jc/music/abc/reel/Maggie_Lawder_Variations_Pt2_WCl_69_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Maggie_Lawder_Variations_Pt2_WCl_69_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Maggie_Lawder_Variations_Pt2_WCl_69_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

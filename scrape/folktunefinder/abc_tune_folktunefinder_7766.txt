@@ -1,0 +1,24 @@
+X: 1
+T: Kalinka
+O: Russia
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"HA2 \
+| "A7"G2 EF | G2 EF | G2 FE | "Dm"D2 AA \
+| "A7"G>F EF | G2 EF | G2 FE | "Dm"D2 :| "fine"Hd4 | "C7"Hc4 ||
+| "F"Ac "C7"BA/G/ | "F"F2 C2 | Ac "C7"BA/G/ | "F"F2 C2 \
+| "Bb"D2 DE | "G7"GF ED | "C"C2 "(Dm)"C2 | "C"C2 Hc2 |
+| "F"Ac "C7"GA | "F"F2 C2 | Ac "C7"GA | "F"F2 C2 \
+| "Bb"D2 DE | "G7"GF ED | "C"c2 "Gm"B2 | "A7"HA4 |]
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/7766
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Kalinka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Miss Margaret Anderson
+M: 4/4
+C: Muriel Johnstone
+N: Recommended tune for Well's House 8x32S
+Z: Terry Traub
+L: 1/8
+K: A
+(3E/F/G/ \
+| "A"A2 A>B c<e e2 | "A"a>g f>e "D"f<a a2 | "A" e>d c>A "Bm"d<f f2 \
+|1 "B7" B>c B>A "E7"G<e e :|2 "E7" (3BGE (3EFG "A" A2-A |]
+y3g \
+| "A"a>A c>e a<A c>e | "D"d>b "A"c>a "E7"b<B B (3e/f/g/ \
+| "A"a>A c>e a<A c>e | "E7"(3dBG (3EFG A<A, A, |]
+(3e/f/g/ \
+| "A"a>A c>e a<A c>e | "Bm" d2 d'>c' "E"(3bc'a (3gfe \
+| "D"f>d' "A"e>c' "Bm"d>b "A"c>a | "E7"(3Bbg (3efg "A"a<A A |]
+S:https://www.folktunefinder.com/tunes/19556
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissMargaretAndersonS_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissMargaretAndersonS_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

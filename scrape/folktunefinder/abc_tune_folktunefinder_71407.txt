@@ -1,0 +1,25 @@
+X:378
+%%topmargin 3cm
+T:The Braes of Tullymet
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+c | (A<d){/e}d>c d>cd<f | (A>F)c>F d>Fc>F | (A<d){/e}d>c d>cd>g | Tf>d {/d}(cB/A/) {/^F}G2 G :|
+d | Tg>d(gd(gc(f<a) Tf>c(f<a) | Tg>d(gd(gd {/d}(cB/A/) {/^F}G2 G>d |
+Tg>d(g>b) d(g/a/) b>g | Tf>c(f<a) c(f/g/) a>f | Tg<d{/e}d>=e Tf>g{/g}a>g | Tf>d {/e}(d/c/)TB/A/ {/^F}G2 G |]
+S:https://www.folktunefinder.com/tunes/71407
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Braes_of_Tullymet.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0378.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

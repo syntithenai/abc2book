@@ -1,0 +1,26 @@
+X:229
+T: Buchsbaum und Felbinger
+N: A0273C
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. von 1646 S. 1502.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: G
+G | G2G | A2B | c2B | A2
+B | c2c | B2G | A2B | A2
+G | G2G | G2E | =F2G | A2
+B | c2B | A2G | A3 | G3
+S:https://www.folktunefinder.com/tunes/68775
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

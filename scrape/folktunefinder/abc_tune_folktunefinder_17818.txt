@@ -1,0 +1,20 @@
+X:1
+T:Paddy Fahy's Reel #1
+C:Paddy Fahy
+M:4/4
+L:1/8
+K:Ddor
+|: "Dm"D2DE FEFG | "A7"Ad^c[eA] "Dm"d2de | "Dm"f2[gd]f "C"edcA | "Dm"dcAG "C"FDEC || "Dm"D2DE FEFG |
+| "A7"Ad^cA "Dm"d2de | f2gf "C"edcA | dcAG "Dm"FDD2 :: "Dm"Ad~d2 ad~d2 | "C"~c2Gc EcGc | "Dm"Ad~d2 ad~d2 |
+| "C"cBcd "Dm"ed~d2 || "Dm"~a2^ga ABcA | dcAG "C"FDEC | "Dm"D2DE FEFG | "A7"Ad^cA "Dm"d4 :||
+S:https://www.folktunefinder.com/tunes/17818
+S:http://trillian.mit.edu/~jc/music/abc/reel/PaddyFahysReel1_3d.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Paddy_Fahy/PaddyFahysReel1_3d.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PaddyFahysReel1_3d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

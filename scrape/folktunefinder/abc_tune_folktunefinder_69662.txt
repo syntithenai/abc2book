@@ -1,0 +1,28 @@
+X:102
+T: GRAD AUS DEM WIRTSHAUS NUN
+N: F0214
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 3/8
+L: 1/16
+K: C
+ | G,A,B,CDE | F2D2B,2
+G,2A,2G,2 | E6
+A,B,^CDEF | G2E2^C2
+A,2_B,2A,2 | F6
+E3FE2 | D2A,2A,2
+E3FE2 | D6
+C2B,2A,2 | G,2C2E2
+F2A,2B,2 | C6
+S:https://www.folktunefinder.com/tunes/69662
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

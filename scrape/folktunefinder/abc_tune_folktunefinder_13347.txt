@@ -1,0 +1,42 @@
+X: 1
+T: The Warrior o' Persie
+M: C
+L: 1/8
+C: J.Scott Skinner
+R: strathspey or slow air
+Z: AK/Fiddler's Companion
+S: AIKUNTZ@aol.com scots-l 2002-9-7
+N: Dedicated  to  "W.   McCombie  Smith,  F.S.A.,  Schoolhouse,   Persie,   by
+N: Blairgowrie."  William  McCombie  Smith  was an author, among other things,
+N: whose works include Memoir of the Families of M'Combie  and  Thomas  (1890)
+N: and   The  Romance  of  Poaching  in  the  Highlands  (1904).   Smith  also
+N: prolifically wrote about and  participated  in  Highland  Games,  where  he
+N: competed as a heavy athlete, although his performance has been described as
+N: "mediocre".
+%%slurgraces 1
+K: D
+A, \
+| {C}[D2D2] FD A,DFD | G/A/B/c/ dD CE E>F \
+| {C}[D2D2] F>D B,D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] :|
+g \
+| {D/A/}f>ga.f .d.A.F.D | g>abg .e.B.G.E \
+| f>ga.f .d.A.F.D | C/D/E/F/ G/E/A/G/ FD [DA,] ||
+g \
+| {D/A/}f>ga.f .d.A.F.D | {G,/B/}g>abg .e.B.G.E \
+| {C}[D2D2] f>d .B,.D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] |]
+S:https://www.folktunefinder.com/tunes/13347
+S:http://trillian.mit.edu/~jc/music/abc/air/WarriorOPersieThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WarriorOPersieThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/WarriorOPersieThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/WarriorOPersieThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WarriorOPersieThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/WarriorOPersieThe_1.abc
+% Rhythm Strathspey or slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

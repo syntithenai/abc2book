@@ -1,0 +1,31 @@
+X:18917
+T:Woods of Old Limerick, The
+R:jig
+H:Played in G or D
+D:Patrick Street: Irish Times
+Z:id:hn-jig-228
+M:6/8
+K:G
+BGG ABc|dgg fdc|B2G ABc|ADD ABc|
+BGG ABc|dgg fdc|B2G ABc|1 AGF G2A:|2 AGF Gga||
+|:bgf gag|fd^c dga|bgf gab|c'af g2a|
+bag afd|~g3 fdc|B2G ABc|1 AGF Gga:|2 AGF G2A||
+K:D
+FDD EFG|Add cAG|FDD EFG|EA,A, EFG|
+FDD EFG|Add cAG|F2D EAG|1 EDC D2E:|2 EDC D2e||
+|:fdc ded|cA^G Aef|gec def|gec d2e|
+fed ecA|~d3 cAG|F2D EAG|1 EDC D2e:|2 EDC D2E||
+S:https://www.folktunefinder.com/tunes/50365
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 3
+T: The Black Velvet Band
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+a \
+| "D"a2a |     fga |    gf2-| f2e |        def |     dcB |"A7"A3- | A2f/f/ |
+| "D"f2f | "A7"ABc | "D"d2e | f2f | "G(Em)"efg | "A7"cde | "D"d3- | d2    |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13014
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

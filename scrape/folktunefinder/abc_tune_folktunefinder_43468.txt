@@ -1,0 +1,33 @@
+X: 13
+T:Arkensas Traveller
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:A
+P:A
+E|"A"A/2c/2B/2A/2 "D"FF|"E7"EE "A"A3/2A/2|"E7"BB "A"cc|"Bm"B/2c/2B/2A/2 "E7"FE\
+|
+"A"A/2c/2B/2A/2 "D"FF|"E7"EE "A"Ae|"A"a/2g/2a/2e/2 "D"fe/2d/2|"E7"cB "A"A:|
+P:B
+c/2d/2|"A"ec/2c/2 "E7"dB/2B/2|"A"cA/2A/2 "E7"BE|"A"Ac/2c/2 "E7"Bd|\
+"A"c/2d/2e "E7"Bc/2d/2|
+"A"ec/2c/2 "E7"dB/2B/2|"A"cA/2A/2 "E7"Be|"A"a/2g/2a/2e/2 "D"fe/2d/2|\
+"E7"cB "A"A:|
+P:B var
+"A"e/2d/2c/2e/2 "E7"d/2c/2B/2d/2|"A"c/2B/2A/2c/2 "E7"BE|\
+"A"A/2B/2c/2A/2 "E7"B/2c/2d/2B/2|"A"c/2d/2e "E7"Bc/2d/2|
+"A"e/2d/2c/2e/2 "E7"d/2c/2B/2d/2|"A"c/2B/2A/2c/2 "E7"Be|\
+"A"a/2g/2a/2e/2 "D"fe/2d/2|"E7"cB "A"A||
+S:https://www.folktunefinder.com/tunes/43468
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsA-C.txt
+S:http://www.guitarnut.com/nmd/reelsA-C.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:300
+T: Der Schlaftrunk
+N: A0344
+O: Europa, Mitteleuropa, Deutschland
+N: Freih. von Winnenbergs Reuterlieder. Strassburg 1582 No. 33.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/2
+K: F
+c2 | ccdc | B2Bd | cABG | F2
+c2 | ccdc | B2Bd | cABG | F2z
+B | BBG2 | GABB | G2z
+A | F2FF | GAG2 | F2z
+f | fed2 | c2A2 | BcdB | A3
+B | BBG2 | GABB | G2z
+A | F2FF | GAG2 | F2z
+f | fed2 | c2A2 | BcdB | A4
+c2cA | BAG2 | F2
+S:https://www.folktunefinder.com/tunes/68846
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

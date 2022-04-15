@@ -1,0 +1,28 @@
+X:1
+T: WENN DIE NACHT MIT STILLER RUH
+N: F0010
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Nacht, Schlaf; Liebe
+M: 4/4
+L: 1/8
+K: F
+ | F2A2c3A | GABcB2Az
+c3AdcBA | A4G2z2
+F2A2c3A | GABcB2Az
+c3AdcBA | A4G2z2
+G3BA3C | G3BB2Az
+d3dc2dcB | A2G2F2z2
+G3BA3C | G3BB2Az
+d3dc2dcB | A2G2F2z2
+S:https://www.folktunefinder.com/tunes/69561
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Tageszeiten - lied, nacht, schlaf; liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

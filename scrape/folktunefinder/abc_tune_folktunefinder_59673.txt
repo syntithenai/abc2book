@@ -1,0 +1,42 @@
+X:786
+T:Xiraldilla (CT 128)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Andrs Llabona Llabona, de veinticuatro aos, de Torazo, ayuntamiento de Cabranes.
+A:Asturies
+O:Torazo (Cabranes)
+Z:Cancioneru de Torner 128
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+|BBc|dec|d2-d|BBc|dec|d2 z|
+ddd|ggg|ggg|e2 d|ddB|cBA|G2 z :||
+W:Una nia bordadora,
+W:cuando sale de bordar,
+W:manda razn a su amante, el minero,
+W:que la venga a pasear.
+W:
+W:Que la venga a pasear
+W:y que la lleve al caf
+W:y el pobre carbonerillo, el minero,
+W:triste, afligido, se ve.
+W:
+W:Triste, afligido, se ve,
+W:no lo puede remediar;
+W:una peseta que gana el minero,
+W:no tiene para gastar.
+W:
+S:https://www.folktunefinder.com/tunes/59673
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

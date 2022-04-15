@@ -1,0 +1,27 @@
+X:75
+T:the Highlanders Lamentation
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000061a.html
+%%ID:0000061a
+K:G
+(B>A) | \
+G2(GE) (D3D) | G2(GA) (cB)(AG) |   (cB)(ce) (dB)(AG) | (AB)(AG) E2(BA) | \
+G2(GB) (D3D) | (G2G2)  g3f     | ! (ed)(cB) (AB)(cd) | (cB)(AF) G4 :: \
+f |\
+(gf)(ef) (d3d) | (gf)(ga) b3a  | ! e2(ge) (dB)(AG) | (AB)(AG) E2(BA) |\
+G2(GB)  (D2D2) | (G2G2) g3f    |   (ed)(cB) (AB)(cd) | (cB)(AF) G4  :|
+S:https://www.folktunefinder.com/tunes/43578
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

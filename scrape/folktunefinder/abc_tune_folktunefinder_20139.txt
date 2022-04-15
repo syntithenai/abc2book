@@ -1,0 +1,51 @@
+X: 1
+T: La Partida
+N: In double stops, the low octave is original; the high octave is an alternative.
+S: Clare Maher 2008-5-1 (email)
+M: 3/4
+L: 1/8
+K: Amin
+    EFE^DE |\
+"Am"c3E cE |\
+    c3E cE |\
+"E"cd/c/ B^A B2 |\
+   zDED^CD |
+"E7"B3D BD |\
+   B3D BD |\
+"Am"Bc/B/ A^G A2 |\
+    zEFE^DE |
+"A7"A2 ^GA- A_B |\
+    A2 GF- FE |\
+"Dm"EF/E/ D^C D2 |\
+    z[fF] [eE][dD] [cC][BB,] |
+"Am/E"[AA,][^G^G,] [AA,][BB,] [cC][dD] |\
+"E7"[eE][fF] [eE][dD] [cC][BB,] |\
+"Am"[AA,][B/B,/][A/A,/] [^G^G,][AA,] [Cc][eE] |\
+   .[Aa] :|
+|: zE2E2 |\
+"E7"edEedE|\
+    edEedE|\
+"Am"dcEdcE|\
+    dcEdcE|
+"E7"cBEcBE|\
+    cBEcBE|\
+"Am"BAEBAE|\
+    BAEBAE|
+"A7"AGEAGE|\
+    AGEAGE|\
+"Dm"EF/E/ D^C D2 |\
+    z[fF] [eE][dD] [cC][BB,] |
+"Am/E"[AA,][^G^G,] [AA,][BB,] [cC][dD] |\
+"E7"[eE][fF] [eE][dD] [cC][BB,] |\
+"Am"[AA,][B/B,/] [A/A,/][^G^G,] [AA,][Cc][eE] |\
+   .[Aa] :|
+S:https://www.folktunefinder.com/tunes/20139
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Partida_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

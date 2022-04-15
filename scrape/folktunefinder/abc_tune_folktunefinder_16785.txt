@@ -1,0 +1,22 @@
+X: 1
+T: la Belle Cath\'erine
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"FAdf edd2 | FAdf edd2 | "A7"cdef gfga |1,3 ba^ga "D"fdd2 :|2,4 ba"A7"fe "D"d2z2 :|
+|: "D"fa~a2 abag | fa~a2 "G"[b4g4] | "A"~a2^ga c'bag |1,3 ba^ga "D"fdd2 :|2,4 ba"A7"fe "D"d2z2 :|
+S:https://www.folktunefinder.com/tunes/16785
+S:http://trillian.mit.edu/~jc/music/abc/reel/BelleCatherine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/BelleCatherine_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

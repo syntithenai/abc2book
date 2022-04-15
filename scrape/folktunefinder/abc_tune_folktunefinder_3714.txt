@@ -1,0 +1,25 @@
+X: 1
+T: Delia (or The Amorous Goddess)
+C: Samuel Howard 1997
+P: 3x
+M: 4/4
+L: 1/8
+K: A
+"A"
+[|"A"A2 A/B/c "E"B2     eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F^G "A"A2 | "Bm"B/c/d   c2  "E"B4 |
+| "A"A2 A/B/c "E"B2     eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F2 "Bm"dB |  "A"A2  "E"G2   "A"A4 |]
+"B"
+[|"E"G2 "A"A/B/c "E"B2 AG | "F#m"A2 "B"GF "E"G4 | "E"BG FE  "A"C^D "E"E2 | "F#m"A2 G2 "B"F4 |
+| "E"G2 "A"Ac    "E"B2 AG | "F#m"A2    fA "E"G4 | "E"BG FE "F#m"C2    AF | "E"E2 "B7"^D2 "E  E7"E4 |]
+"C"
+[|"A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F^G "A"A2 | "Bm"B/c/d   c2  "E"B4 |
+| "A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F2 "Bm"dB |  "A"A2  "E"G2   "A"A4 |]
+S:https://www.folktunefinder.com/tunes/3714
+S:http://trillian.mit.edu/~jc/music/abc/England/Delia.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Delia_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

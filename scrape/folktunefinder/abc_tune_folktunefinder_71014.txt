@@ -1,0 +1,24 @@
+X:267
+%%topmargin 3cm
+T:Earl of Breadalbane's Hermitage
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:E aeolian
+e S|: E/E/E EG TB3 ^c | dBAd FDAF | E/E/E EG B3 (g | f)^dBd e3 f :| Tg>fef Tg<fef | Tfeda fadf |
+Tg>fef Tg>feg | f^dBd e3 f | Tg>fef g>feg | Tf>eda fadf | gbeg bgeg | f^dBd e3 f S|]
+S:https://www.folktunefinder.com/tunes/71014
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

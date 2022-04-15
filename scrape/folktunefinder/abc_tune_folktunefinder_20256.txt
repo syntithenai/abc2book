@@ -1,0 +1,33 @@
+X: 1
+T: Tourner \`a Trois
+C: Paul Machlis (1998)
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: MS of unknown origin
+M: 3/4
+L: 1/8
+K: Bm
+|: "Bm"de f3 F | "Em"GA B4 \
+| "A"cd e3 E | "D"G2 F4 \
+|  "Bm"B,D FB df | "Em"ef g4 \
+|1 "C#m"fg f3 F | "F#"fg fe dc \
+:|2 "F#"f3 e dc | "Bm"B6 |]
+[| "A"cd e3 g | "D"g2 f4 \
+| "Em"e3 g fe | "Bm"e2 d4 \
+| "C"=cd ef gc | "Bm"Bd f4 \
+| "C#m"fg f3 F | "F#"fg f4 |
+| "Bm"bf dB FD | "Em"GA B4 \
+| "A"cd e3 E | "D"G2 F4 \
+| "C"=cd ef gc | "Bm"Bd f3 g \
+| "F#"f3 e dc | "Bm"B6 |]
+S:https://www.folktunefinder.com/tunes/20256
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TournerATrois_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/TournerATrois_Bm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

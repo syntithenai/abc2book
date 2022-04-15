@@ -1,0 +1,22 @@
+X:126
+T: EINS ZWEI DREI ALT IST NICHT NEU
+N: Z0126
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/8
+K: C
+ | C2C2G4 | F2DB,C2z2
+C2CEG2F2 | D2DFF2E2
+C2CCD2F2 | EGEDC2z2
+S:https://www.folktunefinder.com/tunes/68985
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

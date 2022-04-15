@@ -1,0 +1,35 @@
+X: 2344
+T:Deutcher Tanz
+C:Joseph Haydn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0
+V:2 Program 1 0 bass
+M:3/4
+L:1/4
+Q:1/4=160
+K:D
+V:1
+"_f".d'.d'.d'|.a.a(f/g/|.a).a.d'|a2(a/f/|
+V:2
+.D.D.D|.A,.A,(F,/G,/|.A,).A,.D|A,2z|
+V:1
+.d).d(b/g/|.e).e(g/e/|d/c/B/A/B/c/|d3):|
+V:2
+[.F,.A,][.F,.A,]z|[.G,.B,][.G,.B,]z|[.A,,.G,][.A,,.G,][.A,,.G,]|[D,3F,3]:|
+V:1
+|:"_mp".a.a.a|(a/^g/f/e/f/g/|.a).a(^g/e/|a2)(a/f/|
+V:2
+|:[.A,.C.E][.A,.C.E][.A,.C.E]|[.B,.D.E][.B,.D.E][.B,.D.E]|[.A,.C.E][.A,.C.E][.B,.D.E]|[A,2C2E2]z|
+V:1
+"_cresc.".d).d(b/g/|.e).e(g/e/|d/c/B/A/B/c/|d3):|
+V:2
+[.F,.A,][.F,.A,]z|[.G,.B,][.G,.B,]z|[.A,,.G,][.A,,.G,][.A,,.G,]|[D,3F,3]:|
+S:https://www.folktunefinder.com/tunes/32740
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

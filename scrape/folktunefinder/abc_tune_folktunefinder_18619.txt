@@ -1,0 +1,28 @@
+X:1
+T:But beautiful
+M:4/4
+L:1/4
+C:Jimmy Van Heusen & Johnny Burke
+Q:1/4=70
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x || "Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "Am7"x2 x2 | "C#m7b5"x2 "F#7"x2 |
+"Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "A7"x2 x2 | x2 x2 ||
+V:melody
+^C/D/ || AA2G/F/ | =F3^D/E/ | BB2A/_A/ | G3F/G/ |
+S:https://www.folktunefinder.com/tunes/18619
+S:http://trillian.mit.edu/~jc/music/abc/song/But_beautiful.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/but_beautiful.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/But_beautiful.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/but_beautiful.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

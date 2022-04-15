@@ -1,0 +1,25 @@
+X:6541
+T: the Black Nag
+O:england
+B: Barlow #116
+B: Barnes (dated 1670)
+B: Raven p.24
+B: Hunt #46 p.15
+M: 6/8
+L: 1/8
+P: Bm
+K: Bm
+|: F \
+| "Bm"B>cB "F#m"cBc | "Bm"d>cd "Em"cde | "Bm"f>ed "F#m"cBc | "Bm"B3- B2 :: B | "F#m"c>AF cAF |
+| cAF cAF | "Bm"f>dB fdB | fdB fdB | "F#m"c>AF cAF | cAF cde | "Bm"f>ed "F#m"cBc | "Bm"B3- B2 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/26993
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Polska efter Ed Johnson
+O: Sweden
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS, of unknown origin
+M: 3/4
+L: 1/8
+K: D
+|: "D"f>g f<e d<c | d2 F4 | A>B c<d e<f | "G"g2 B4 \
+| "Em"g>a g<f e<d | e2 B4 | "A7" c>d cB | "D"B<A F4 |
+|  "D"f>g f<e d<c | d2 F4 | A>B c<d e<f | "G"g2 B4 \
+| "A7"g>a g<f e<d | "D"f>g f<e d<c | "A7"e>f e<A Bc | "D"d2 d4 :|
+|: "A"A2 A<B c2 | "D"d2 f2 a2 | f2 f<e d2 | "G"c2 B4 \
+|  "A7"E2 E<F G2 | A2 c2 e2 | e2 e<d c2 | "D"B2 A4 |
+|  "A"A2 A<B c2 | "D"d2 f2 a2 | f2 f<e d2 | "G"c2 B4 \
+|  "A7"g>a g<f ed | "D"f>g f<e dc | "A7"e>f e<A Bc | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16434
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_EdJohnson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_EdJohnson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/P_EdJohnson_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

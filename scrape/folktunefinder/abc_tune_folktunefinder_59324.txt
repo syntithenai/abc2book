@@ -1,0 +1,49 @@
+X:437
+T:La Cruz de Mayu (MQ 014)
+R:Marcha
+C:Tradicional. Versin de Remis Ovalle
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Tpica pieza de gaita, la tienen casi todos los gaiteros en su repertorio.
+N:Yo la recog de Remis Ovalle.
+A:Asturies
+Z:Manolo Quirs 014
+M:2/4
+L:1/16
+Q:1/4=100
+K:C
+CEG
+|cBAG FEFA|GAGE C2G2|FGFE D2A2|GAGF E2EG|
+cBAG FEFA|GAGE C2EG|FGFE DCB,D|C6 EG|
+cBAG FEFA|GAGE C2G2|FGFE D2A2|GAGF E2EG|
+cBAG FEFA|GAGE C2EG|FGFE DCB,D|C8|
+[M:3/4]
+E2DC B,CDE FEFG|
+[M:2/4]
+EFED C2E2|DEDC B,2A2|GAGE C4|
+[M:3/4]
+E2DC B,CDE FEFG|
+[M:2/4]
+EFED C2E2|DEDC B,CDE|C8|
+[M:3/4]
+G2FE DEFG AGAB|
+[M:2/4]
+GAGF E2G2|FGFE D2A2|GAGF E4|
+[M:3/4]
+G2FE DEFG AGAB|
+[M:2/4]
+GAGF E2EG|FGFE DEFG|E4-ECEG|[1 FGFE DCB,D :|[2 C8||
+S:https://www.folktunefinder.com/tunes/59324
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

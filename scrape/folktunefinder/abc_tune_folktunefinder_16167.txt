@@ -1,0 +1,31 @@
+X: 1
+T: The Music Will Tell You
+C: Ian Thow
+R: polka, reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+e2 \
+| "A"a3a f2e2 | A2c2 c2e2 | aaaa f2e2 | "E7"d2B2 B2e2 \
+|    g3g f2e2 | B2d2 d2e2 | gggg a2g2 | "A"f2e2 c2e2 |
+| "A"a3a f2e2 | A2c2 c2B2 | AAAA e2A2 | "D"g2f2 f2g2 \
+|    a3a f2e2 | "E7"e2d2 B2A2 | GGGG c2B2 | "A"A4 A4 ||
+|| "D"F3F d2F2 | "A"EEEE c2A2 | "E7"G2e2 d2B2 | "A"AAAA f2e2 \
+|  "D"F3F d2F2 | "A"EEEE c2A2 | "B7"B3c ^d2B2 | "E"e8 |
+|  "D"F3F d2F2 | "A"EEEE c2A2 | "E7"G2e2 d2B2 | "A"AAAA f2e2 \
+|  "A"e2a2 "D"g2f2 | "E7"e3d B2G2 | EEEE c2B2 | "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/16167
+S:http://trillian.mit.edu/~jc/music/abc/polka/MusicWillTellYou_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MusicWillTellYou_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Ian_Thow/MusicWillTellYou_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MusicWillTellYou_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MusicWillTellYou_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MusicWillTellYou_A.abc
+% Rhythm Polka, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,42 @@
+X:62
+T:Whisky Before Breakfast
+S:Karl Moore - Peach Bottom String Band
+C:
+M:4/4
+L:1/4
+K:D
+F/2E/2|:\
+"D"D/2E/2F/2G/2AA|\
+"D"A/2B/2A/2G/2F/2E/2D|\
+"G"GBG/2B/2G/2B/2"D"FAFA|\
+"A"E/2F/2E/2D/2C/2B,/2A,|\
+"D"D/2E/2F/2G/2AA|\
+"D"A/2B/2A/2G/2F/2E/2D|\
+"G"GBG/2B/2G/2B/2"D"FAFA|\
+"A"E/2D/2C/2E/2"D"D2::\
+"D"D/2F/2A/2c/2dd-|\
+d/2B/2A/2G/2F/2E/2D/2F/2|\
+"Em"G/2B/2ee3/2f/2|\
+"A"g/2f/2e/2d/2c/2B/2A|\
+"D"d3/2f3/2d/2f/2"A"cece|\
+"G"B/2d/2B/2d/2"D"A/2F/2D/2F/2|\
+"G"G3/2B3/2G/2B/2"D"FAFA|\
+"A"E/2D/2C/2E/2"D"D2:|\
+% ----------------------------------------------------------------------------
+%
+% Part 4 - Tunes collected from the 'net.  I can't vouch for their
+% correctness (if you can even apply that word to folk music!) and I haven't
+% cleaned up the ABC.
+%
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58873
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Saint Barnard's Waltz
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+"Intro"[|]\
+DE | "Bb"FED | FED | "F"CFA | "D7"ccB | "G7"A3 | "C7"G3 | "F"F3 C/=B,/ C/D/ | C/C/ D/E/ F/G/ ||
+|: "F"A3 | F3 | C2^C | D2C | A3 | c3 | "Gm"B3- | B3 |
+S:https://www.folktunefinder.com/tunes/5992
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SaintBarnardsW_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Saint_Barnards_Waltz_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/Saint_Barnards_Waltz_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/SaintBarnardsW_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/SaintBarnardsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/SaintBarnardsW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

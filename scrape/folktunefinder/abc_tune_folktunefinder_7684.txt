@@ -1,0 +1,23 @@
+X: 81
+T: Shoes and Stockings
+M:C|
+L:1/8
+S:Portland
+K:G
+D2 \
+| "G"G2G2 B2B2 | "C"cBc2 "G"d4 |     G2G2 BAGB | "D"ABAG FEDF |
+| "G"G2G2 B2B2 | "C"cBc2 "G"d4 | "D7"dedc BGA2 | "G"G4   G2 :|
+|: d2 \
+| "G"g2g2 "D"a2a2 | "G"bab2 d4 | "C"c2c2 "G"B2B2 | "D"ABc2  d2g2- |
+| "G"g2g2 "D"a2a2 | "G"bab2 d4 | "C"cBAc "G"BAGB | "D"AGF2 "G"G2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7684
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

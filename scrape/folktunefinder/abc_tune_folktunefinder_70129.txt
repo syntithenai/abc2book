@@ -1,0 +1,27 @@
+X:569
+T: WOHL IN DEM HOLDEN MAIENSCHEIN
+N: F1131
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2GAB2Bc | d2^ced2
+G2 | c2Gce2ce | g3ed2
+B2 | B4A2e2 | f4d2
+dd | e4^c4 | d2z4
+A2 | c3BA2c2 | e3dc2
+c2 | B3cd2g2 | g2fed2
+c2 | B4B2A2 | G6
+S:https://www.folktunefinder.com/tunes/70129
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

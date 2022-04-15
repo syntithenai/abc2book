@@ -1,0 +1,22 @@
+X:1
+P: The High Reel
+C: From Matt Petrie
+C: Arr. T. Traub 7-9-03
+R: reel
+M: 4/4
+K: A
+L: 1/8
+|: e |"A"a2 fa ec A2|"A"c/B/A eA fAeA|"A"a2 fa ec A2|"G"Bcdc B=GGe|"A"a2 fa ec A2|
+"A"cdef =g2 fg|"D"af=ge fdec|"G"Bcdc B=GG :||: d|"A"c/B/A eA fAeA|"A"c/B/A af ec A2|
+"A"c/B/A eA fAeA|"G"Bcdc B=GGB|"A"c/B/A eA fAeA|"A"cdef =g2 fg|"D"af=ge fdec|"G"Bcdc B=GG :|
+S:https://www.folktunefinder.com/tunes/58466
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/DeilAmangTheTailorsPipesSet.abc
+S:http://terrytraub.org/abc/HighReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/HighReelR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

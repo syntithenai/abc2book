@@ -1,0 +1,27 @@
+X:263
+T: EINEN GOLDNEN WANDERSTAB
+N: B0742
+O: Europa, Mitteleuropa, Deutschland, Hochwald, Bruchweiler
+R: Moral - Lied, religioes
+M: 3/4
+L: 1/8
+K: C
+G,G, | C2C2EC | G,4
+E,G, | F,2F,E,F,G, | E,4
+G,G, | C2C2EC | G,4
+E,G, | F,2F,E,F,G, | E,4
+G,F, | E,2E,2E,F, | A,G,G,2
+G,F, | E,2E,2E,F, | G,4
+G,G, | C2C2EC | G,4
+E,G, | F,2F,E,F,G, | E,4
+S:https://www.folktunefinder.com/tunes/62286
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

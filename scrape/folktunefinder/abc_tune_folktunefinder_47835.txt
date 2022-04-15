@@ -1,0 +1,30 @@
+X: 298
+T:Scotch Wallace B(....) x297
+T:Scots Wae Hae,aka. JaW.297
+M:C|
+L:1/8
+Q:120
+C:Scots Wae Hae..,aka.
+S:James Winder Ms, Lancashire, 1835-41
+R:Air
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+(G>G)(G>E) G>A c2|(A>A)(A>G) (A>B)(c>d)|\
+(e>f)(d>e) (c>d) (ed)|c>A A>G "cr"G4||!
+(e>e) (e>d) (e>f) g2|(d>d)(d>c) d>ef>a|\
+(g>e) d>e (c>d) (e>d)|c<A A>G G4|]
+S:https://www.folktunefinder.com/tunes/47835
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

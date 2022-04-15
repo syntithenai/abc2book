@@ -1,0 +1,30 @@
+X: 1
+T: Maurice Manly's Polka
+R: polka
+O: Ireland
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: ADor
+|: "Am"EA A>B | cd eg | "Em"EG G>F | GE ED | "Am"EA A>B | cd ef | "G"g>e dB | "Am"BA A2 :|
+|: "Am"ea a>b | ag ef |  "G"g>f ga | ge ed | "Am"a>g ab | ag ef | "G"g>e dB | "Am"BA A2 :|
+S:https://www.folktunefinder.com/tunes/16158
+S:http://trillian.mit.edu/~jc/music/abc/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/polka/MauriceManlysP.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/polka/MauriceManlysP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:228
+%%topmargin 3cm
+T:The Smith of Killiechassie
+C:Pipe tune.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A dorian
+A<AAB AeAe | edGd dBBG | [1 A<AAB AeAe | edGB A<AAG :| [2 A/AAe3/2 B/Bed3/2 | BGdB A/AAG3/2 ||
+|: ge a>g f2 df | g2 ea dBBG | ge a>g f2 df | gedB A/AAG3/2 :: A/AAe3/2 B/Bed3/2 | A/AAe3/2 B/BBG3/2 |
+A/AAe3/2 B/Bed3/2 | BGdB A/AAG3/2 :: g>ea>g f2 df | g2 ea dBBG | g>ea>g f2 df | gedB A/AAG3/2 :|
+W:
+W:The facsimile has :||: between the 1st and 2nd endings of A, and || at the end of the 2nd ending. rp.
+S:https://www.folktunefinder.com/tunes/71257
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Smith_of_Killiechassie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0228.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

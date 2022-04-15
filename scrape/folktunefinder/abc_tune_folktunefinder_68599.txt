@@ -1,0 +1,25 @@
+X:53
+T: Das wackere Maegdlein
+N: A0055
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie in Souterliedekens 1540 ad Ps. 3
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | G2G2G2 | d4c2 | d4_B2 | A4
+d2 | d2d2c2 | _B4A2 | G4_B2 | A4z2
+G2F2G2 | D4
+A2 | _B4B2 | G4G2 | _B3cd2 | d4
+c2 | _B2d2c2 | _B2A4 | G4
+S:https://www.folktunefinder.com/tunes/68599
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

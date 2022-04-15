@@ -1,0 +1,23 @@
+X:5
+T:Polska for Ellie
+C:Andy Hornby 1995
+Q:1/4=140
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+E/2|E3/2A/2 A3/2B/2 c3/2d/2|e4a2|e3/2d/2 c3/2e/2 d3/2c/2|B2-B3/2d/2 c3/2B/2|
+E3/2A/2 A3/2B/2 c3/2d/2|e2c2a2|e3/2c/2 E3/2^G/2 B3/2G/2|[1A4-A3/2:|[2A4||
+|:e3/2f/2|g2g3/2e/2 a3/2f/2|g2e2  e3/2d/2|c2c3/2B/2 c3/2d/2|
+e3/2c/2 A2  e3/2f/2|g2g3/2e/2 a3/2f/2|g2e2  e3/2d/2|c3/2B/2 c3/2e/2 E3/2^G/2|[1A4:|[2A6|]
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43733
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

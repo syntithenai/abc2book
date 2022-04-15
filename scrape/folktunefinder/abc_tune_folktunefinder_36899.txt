@@ -1,0 +1,26 @@
+X:4100
+T:Ostalerrak
+M:6/8
+O:Basque
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b98.html
+%%ID:00000b98
+K:C
+c2c f2f| def g2g| def gag| f2e d3| \
+c2c f2f| def g2g| def gag| f2e d3||
+fed cBc| d2e f2d| fed cBc| d2e c3|\
+fed cBc| d2e f2d| fed cBc| d2e c3||
+efg d3 | efg d3 | efg gag| gfe d3|\
+fed cBc| d2e f2d| fed cBc| d2e c3|
+efg d3 | efg d3 | efg gag| gfe d3| \
+fed cBc| d2e f2d| fed cBc|1 d2e c3 :|2 d2g c3|]
+S:https://www.folktunefinder.com/tunes/36899
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Lord Moira
+C: Neil Gow
+R: strathspey
+B: RSCDS 25-7
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+d2 \
+| "G"G4 G4 Bd3 d4 | "C"c3A "G/B"B3G "Am"A3G "D7"(3F2E2D2 \
+| "G"G4 G4 Bd3 d4 | "C"e3g "D7"f3a "G"g4 g2 :|
+d2 \
+| "G"gg3 b3g "D7"a3g fd3 | "C"ee3 g3e "G"d3c BG3 \
+| "G"gg3 b3g "D7"a3g fd3 | "C"(3e2f2g2 "D7"(3f2g2a2 "G"g4 (3g2a2b2 ||
+| "C"c'3a "G/B"b3g "Am"a3g "D7"e3g | "G"edcB g3B "Am"cBAG "D7"A3B \
+| "G"G4 G4 Bd3 d4 | "C"(3e2f2g2 "D7"(3f2g2a2 "G"g4 g2 |]
+S:https://www.folktunefinder.com/tunes/19489
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordMoira_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordMoira_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

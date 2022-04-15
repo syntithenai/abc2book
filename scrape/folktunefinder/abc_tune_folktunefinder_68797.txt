@@ -1,0 +1,26 @@
+X:251
+T: Die Bauern von St. Poelten
+N: A0296
+O: Europa, Mitteleuropa, Deutschland
+N: Handschriftlich bei Werlin 1646. III. Bd. S. 1968.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/4
+K: A
+e2 | =c4A4e2d2 | =c3Bc2A4
+e2 | d4B4=c2d2 | e12
+e4d4=c2d2 | B8z2
+B2 | d4B4e2d2 | e3de2=c4
+d2 | e4=c4d2B2 | A12
+e4=c4d2B2 | A8z2
+S:https://www.folktunefinder.com/tunes/68797
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Text Has notes text
+% Has_accompaniment_chords No chords

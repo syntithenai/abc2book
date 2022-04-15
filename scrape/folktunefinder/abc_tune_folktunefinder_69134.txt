@@ -1,0 +1,29 @@
+X:275
+T: ADE ES MUSS GESCHIEDEN SEYN
+N: Z0273
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Lyrisches Lied, Romanze, Abschieds - Lied
+M: 4/4
+L: 1/16
+K: G
+d4 | B4z2B2d3cB2A2 | G8z4
+e4 | d6B2c3Bc2d2 | B8
+e8 | d6cBc3Bc2d2 | B8z4
+B3A | A8z4c3B | B4z2
+D2G3AB2c2 | d4c2B2g4e4 | d8z4
+d3c | c8z4d3c | B8z4
+d4 | g6g2f4e4 | d8z4
+B4 | d4c2B2d6c2 | B8z4
+S:https://www.folktunefinder.com/tunes/69134
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

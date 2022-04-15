@@ -1,0 +1,27 @@
+X:12001
+T:Lark in the Morning, The
+R:Jig
+C:Trad
+O:England
+M:6/8
+L:1/8
+Q:1/4=120
+K:Bm
+B|"D"AFA AFA|"G"BGB BdB|"D"AFA AFA|"Bm"fed BdB|
+"D"AFA AFA|"G"BGB BAB|"D"def afe|"Bm"fdB B2:|:
+A|"D"def a2 a|"D"baf a3|"D"def afe|"Bm"fdB BAB|
+"D"def a2 a|"D"baf afd|"G"g3 "D"f3|"Em"edB B2:|:
+A|"D"d2 f fef|"D"fef fef|"D"d2 f fef|"Bm"edB BAB|
+"D"d2 f fef|"D"fef fed|"G"faf "D"gfe|"Em"fdB B2:|:
+B|"D"Add fdd|"D"edd fdd|"D"Bdd fdd|"Bm"edB BAF|
+"D"Add fdd|"D"edd fdd|"G"faf "D"gfe|"Em"fdB B2:|
+S:https://www.folktunefinder.com/tunes/50995
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

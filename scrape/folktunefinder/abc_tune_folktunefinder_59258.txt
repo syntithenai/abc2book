@@ -1,0 +1,32 @@
+X:371
+T:Entemediu (MQ 066)
+R:Marcha
+C:Tradicional. Versin de Silvino Fueyo
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Intermedio que aprend del gaitero Silvino Fueyo.
+N:Se toca en la zona del Caudal.
+A:Asturies
+O:Caudal
+Z:Manolo Quirs 066
+M:2/4
+L:1/8
+Q:1/4=110
+K:C
+C/C/
+|: D>D DC/D/|E>E ED/E/|F>F F/E/F/A/|GE CC/C/|
+D>D DC/D/|E>E ED/E/|FD D/C/B,/D/|[1 C3 C/C/ :|[2 C3 A/B/|
+|: cA/B/ cA/B/|EE E/D/E/G/|FF F/E/F/A/|GE CA/B/|
+cA/B/ cA/B/|EE E/D/E/G/|FD D/C/B,/D/|[1 C3 A/B/ :|[2 C3 C/C/|
+S:https://www.folktunefinder.com/tunes/59258
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

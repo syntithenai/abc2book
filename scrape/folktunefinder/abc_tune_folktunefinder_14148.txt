@@ -1,0 +1,27 @@
+X:1
+T:Empty Barrel, The
+C:Pierre Commes
+R:Jig
+I:Jig
+Q: 3/8=120
+V:1
+M:6/8
+L:1/8
+K:Bm
+A \
+|  BDF BDF | BAB dcd | fcA fcA | gfg edc \
+|  BDF BDF | BAB dcd | fcA edc |1 Bdc B2 :|2 Bdc B2 d ||
+|: geB Geg | fdB FDF | ece ecG | dBF dBf geB Geg \
+|  fdB Fed | ~f3 edc |1 BAc B2 d :|2 BAc B2 |]
+S:https://www.folktunefinder.com/tunes/14148
+S:http://trillian.mit.edu/~jc/music/abc/jig/EmptyBarrelThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/jig/EmptyBarrelThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/EmptyBarrelThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/EmptyBarrelThe_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

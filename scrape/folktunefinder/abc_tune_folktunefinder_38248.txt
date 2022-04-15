@@ -1,0 +1,24 @@
+X:16877
+T:The Indian Queen
+% Nottingham Music Database
+S:Playford
+M:4/4
+L:1/4
+K:D
+P:A
+f/2g/2|"D"af df|"A7"e2 A2|"D"FA Af|"Em"e2 -"A7"ef/2g/2|"D"af df|"A7"e2 A2|\
+"D"FA Af|"D"d3:|
+P:B
+c/2d/2|"A"e/2d/2c/2B/2 Ae|"F#m"fc "Bm"dB|"D"f/2g/2a "E7"b^g|
+"A7"a3e/2f/2|"G"g/2f/2e/2d/2 "A"ca|"Em"Bg "A7"Af/2g/2|"G"ed "A7"ec|"D"d3:|
+S:https://www.folktunefinder.com/tunes/38248
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

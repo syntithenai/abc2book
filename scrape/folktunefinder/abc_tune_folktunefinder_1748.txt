@@ -1,0 +1,25 @@
+X:50
+T:50.  Tunesmith's Hammer (dada tuning)
+C:c 2003 Harry Bolick   
+R:Breakdown
+O:United States
+A:Brooklyn, New York
+M:2/4
+L:1/8
+Q:250
+K:D
+|: "D"  (B,/2C/2 D/2)z/2 FE|"G"DG2 G|GG  FF| FG E/2D/2B,|
+A,2  (B,/2C/2 D/2)z/2| "G" FE D(G|G)G   GG | FF F/2G/2F| E/2D/2B,A,2 :|
+"D"  (3(D/2E/2F/2) AF A| FE D (3(D/2E/2F/2) | AB d/2c/2B/2A/2 | "G" B4|
+"D"  (3(D/2E/2F/2) AF A | FE D z |"G" ef g/2f/2e |"D" f2 (f/2e/2)d  :|
+S:https://www.folktunefinder.com/tunes/1748
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

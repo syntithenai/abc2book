@@ -1,0 +1,46 @@
+X: 1
+T: Beer Barrel Polka
+R: polka
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+K: Bb
+F=E || "Bb"F2 D4 F=E | F2 D4 F=E | F2B2 c3B | "F7"B2 A4 A^G | \
+         A2B2 c2B2 | B2 A4 AB | A2 G4 GA | "Bb"G2 F4 F=E ||
+       "Bb"F2 D4 F=E | F2 D4 F=E | F2B2 c2B2 | "F7"B2 A6 |\
+          c3c c3B | B2 A4 G2 | F2^F2 G2A2 | "Bb"B2=E2 F2^F2 |]
+|:\
+"Eb"G4 ^F2G2- | G2E2 D2C2 | G8- | G2D2 E2=E2 |\
+"Bb"F4 =E2F2- | F2D2 C2B,2 | F8- | F2B2 c2B2 |
+"F7"A6 c2 | G6 F2 | A8- | A2B2 c2B2 |\
+    A4 c4 |1 G4 _G4 | "Bb"F8- | F2=E2 F2^F2\
+:|2 "F7"G4 A4 | "Bb"B8- | B2B2 c2d2 |]
+%
+K:Eb
+[| "Eb"e4 c4 | B4 G4 | E4 C4 | B,4 G,4 [|\
+   "Eb"B8 | B6 =A2 | B2 c6- | c8 |\
+   "Eb"B2 c4 B2 | c2 B4 =A2 | "Bb7"_A8- | A8 ||
+   "Bb7"c8 | c6 =B2 | c2 d6- | d8 |\
+   "Bb7"c2 d4 c2 | d2 c4 =B2 | "Eb"B8- | B2G2 A2=A2 ||\
+   "Eb"B8 | B6 =A2 | B2 c6- | c8 |
+   "Eb7"B2 c4 B2 | c2 B4 E2 | "Ab"c8- | c8 ||\
+   "Fm"F2G2 A2B2 | "Bb7"d6 c2 | "Eb"c2 B6- | "C7"B4 =A2B2 |\
+   "F7"c8 | "Bb7"d8 | "Eb"e3c B2G2 | E2 z4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4761
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Polka_BeerBarrel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Polka_BeerBarrel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Polka_BeerBarrel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Polka_BeerBarrel.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Polka_BeerBarrel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Polka_BeerBarrel.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Polka_BeerBarrel
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

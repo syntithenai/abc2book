@@ -1,0 +1,22 @@
+X:18605
+T:West Wind
+Z: id:dc-reel-348
+M:C
+L:1/8
+K:G Major
+A|BdGA BGdB|ADFG ABcA|BdGA BGdB|cAFG AGGA|!
+BdGA BGdB|ADD2 ABcA|G2Bd g3e|fdcA BGG|]!
+D|G2Bd g3e|f3d ABcA|G2Bd g3e|fdcA dBcA|!
+G2Bd g3e|f3d ABcA|dgg2 bgag|fdcA BGG|]!
+A|B2GB B2dB|ADFG ABcA|B2GB B2de|fdcA dBcA|!
+B2GB B2dB|ADD2 ABcA|G2Bd g3e|fdcA BGG|]!
+S:https://www.folktunefinder.com/tunes/50053
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

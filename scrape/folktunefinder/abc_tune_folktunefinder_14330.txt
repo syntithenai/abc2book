@@ -1,0 +1,27 @@
+X:1
+T:The Homecoming
+M:6/8
+L:1/8
+R:Jig
+D:Session tape - Bangor Down 198 (Nigel and Dianna Boullier.)
+Z:Bernie Stocks (chords by John Chambers)
+K:G
+|: "D7"D3 DEF |  "G"G3  GAB | "D7"c2A  "G"BAG | "A7"A2G  "D"FED \
+|  "D7"D3 DEF |  "G"G3  GAB | "D7"cBA  "G"BdB | "D7"AGF  "G"G3 :|
+|: "G"dBG GBd | "Am"ecA ABc |  "G"dcB "A7"A2G |  "D"FDD "D7"D3  \
+|  "G"dBG GBd | "Am"ecA ABc | "D7"cBA  "G"BdB | "D7"AGF  "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14330
+S:http://trillian.mit.edu/~jc/music/abc/jig/Homecoming_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Homecoming_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Homecoming_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Homecoming_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Homecoming_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

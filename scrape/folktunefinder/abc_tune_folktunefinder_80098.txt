@@ -1,0 +1,28 @@
+X:39
+T: Geistlicher Weckruf
+N: A0396B
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 68
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+G | GGAB | c2c2z
+B | A2Gc2B | c2z
+c | BBcc | d2d2z
+c | BcdcA2 | G2z
+G | AAdd | c2B2
+A2 | G2=FGE2 | D2z
+D | A2AABc | d2d2z
+c | BAGBA2 | G3
+S:https://www.folktunefinder.com/tunes/80098
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

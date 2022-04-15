@@ -1,0 +1,26 @@
+X:291
+T: WO FINDET DIE SEELE DIE HEIMAT
+N: B0769
+O: Europa, Mitteleuropa, Deutschland
+R: religioes
+M: 4/4
+L: 1/4
+K: Eb
+B | B2Gc | B2GB | A2FA | G2z
+G | G2Ac | B2GB | A2FA | G2z
+B | e2dc | B2GB | BcAB | G2z
+B | e2dc | B2GB | BcAB | G2z2
+B2G2 | A2F2 | E2Ac | B2z
+B | e2dc | B2GB | BAGF | E2z
+S:https://www.folktunefinder.com/tunes/62314
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

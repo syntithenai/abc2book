@@ -1,0 +1,23 @@
+X: 1
+T: the Lass o' Corrie Mill
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|: "F"F>G A>F "C7"E<G "F"F2 | A<c c>B A<c c2 | d>f d>f B>f A>f \
+|1 "C7"(3agf (3efd (3cdB (3ABG :|2  "C7"(3agf (3def "F"A<F A>B ||
+|: A<c c>B A<f f2 | "C7"e<g g>e "F"f<a a2 | b>g a>f g>e f>g \
+|1 "C7"(3agf (3efd (3cdB (3ABG :|2   "C7"(3agf (3efg "F"a<f f2 |]
+S:https://www.folktunefinder.com/tunes/19463
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Lass_o_Corrie_Mill_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Lass_o_Corrie_Mill_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

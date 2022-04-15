@@ -1,0 +1,34 @@
+X: 93
+T:Duncan McQueens,Strathspay.  JMP.093
+M:2/4
+L:1/8
+Q:200
+C:'Donald McDonald'
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Strathspey
+O:Scotland
+A:Perth
+N:'Donald McDonald' written in side margin....
+H:1799
+Z:vmp.Cherri Graebe
+K:G major
+AG | EAAA | cAAe | edcA | G2 (GA/G/) |\
+EAAA | cAAe | ecde | A2 A :||:\
+c | e>cAe | A/A/A ec | d>edc | BGGc |\
+e>cAe | A/A/A e>c | (de/f/) ec | A2A :||:\
+Aaag | a2a2 | cgg>d | g2g2 |\
+ Aaa>g | a2a2 | ged>e | A2A2 |\
+a2 ba | g2 ag | e2 ge | c>d eg/e/ |\
+decG | G>B A/A/A | cdec | eag>e|"no end barline" d>e A |]
+S:https://www.folktunefinder.com/tunes/2030
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

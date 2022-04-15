@@ -1,0 +1,27 @@
+X: 2013
+T:Madame Del Caro's Hornpipe. WM070a
+M:2/4
+L:1/8
+Q:280
+S:Wm.Mittell,1799
+R:Hornpipe
+O:England
+A:Kent
+Z:C.G.P
+K:A
+A>ce>a|g>fe>f|e>dc>B|c>de2|A>ce>a|g>fe>d|c>BA>G|A2A2:|!
+|:A>ce>a|(f/g/a) (f/g/a)|E>GB>d|(c/d/e) (c/d/e)|A>ce>a|(f/g/a) (f/g/a)|c
+>BA>G|A2A2:|]
+S:https://www.folktunefinder.com/tunes/32498
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

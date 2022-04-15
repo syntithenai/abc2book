@@ -1,0 +1,27 @@
+X:117
+T: Herzens Schluessel
+N: A0135A
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder. Nuernberg c. 1542 No. 21.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F2FF | AAcc | A
+ccc | BAG2 | F4
+F2FF | AAcc | A
+ccc | BAG2 | F3
+c | cccB | A2G2 | z2
+A2 | B2Bc2A | G4 | z2
+c2 | dccA | F2cA2
+c | ccBAG2 | F4
+S:https://www.folktunefinder.com/tunes/68663
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

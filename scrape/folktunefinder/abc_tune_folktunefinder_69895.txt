@@ -1,0 +1,25 @@
+X:335
+T: ZU STRASSBURG AUF DER SCHANZ
+N: F0579
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Deserteur
+M: 4/4
+L: 1/8
+K: G
+D2 | G3DG2A2 | B4z2
+GA | B3BBAA2 | G4z2
+GA | BBBBBBAB | c4z2
+cB | BAA2A2GA | B2dcB2
+A2 | GBAcB2dc | B2A2G2
+S:https://www.folktunefinder.com/tunes/69895
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, deserteur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

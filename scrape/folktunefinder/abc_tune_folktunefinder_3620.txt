@@ -1,0 +1,36 @@
+X: 3
+P: Lochnagar
+B: Kerr's Violin #2
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A>F \
+| "D"D2 D>F A2 A>B | "D"d>e f>e e-<d d>B | "D"A>B d>B "Bm"A-<F F>D \
+|1 "Em"E>D E-<F "A7"E2 :|2 "A7"E>D E-<F "D"D2 |]
+yA2 \
+| "D"d2 f>e e-<d d>A | "G"B2 d>B "D"B-<A F>G \
+| "D"A-<F E>D "Bm"D-<d d>B | "Em"A-<F F>D "A7"E2 |]
+f>g \
+| "D"a>g f>e f-<d d>e | "G"f>e d>B "A7"A2 F>G \
+| "D"A2 B>A "Bm"A2 a>g | "Em"f2 "A7"e>d "D"d2 |]
+S:https://www.folktunefinder.com/tunes/3620
+S:http://trillian.mit.edu/~jc/music/abc/England/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/NewAbbey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RoseOfNorth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SandyOerTheLea1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/SandyOerTheLea1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090202/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/AdieuMonAmi.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/AdieuMonAmi.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/SandyOerTheLea1
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

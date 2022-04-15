@@ -1,0 +1,27 @@
+X: 1
+T: White Lightning, My Ass!
+M: 6/8
+L: 1/8
+R: jig
+C: Bill Black irtrad-l 2000-05-19
+H: refers to an actual donkey named White Lightning
+H: (details on request)
+K: A
+E | Afe cBA | BAB cAF | EFA BAB | cdc B2E |\
+    Afe cBA | Bdc BAF | EGB dcB | cAA A2 :|
+B | ecA ecA | fdB fdB | gfg gab | aga gfe |\
+    ecA ecA | dBF dBF | EGB dcB | cAA A2 :|
+S:https://www.folktunefinder.com/tunes/15258
+S:http://trillian.mit.edu/~jc/music/abc/jig/WhiteLightningMyAss.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WhiteLightningMyAss.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/WhiteLightningMyAss.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WhiteLightningMyAss.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

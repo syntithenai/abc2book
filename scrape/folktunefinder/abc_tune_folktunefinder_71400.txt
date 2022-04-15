@@ -1,0 +1,26 @@
+X:371
+%%topmargin 3cm
+T:Mrs. Wemyss of Cuttle Hill
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:2/4
+L:1/8
+K:G aeolian
+{/A}!p!BGGG | (DG)GG | BGGB | d2 (d/e/d/c/) | BGTG>F | DG ~GA/B/ | A!f![CF][CF]A | c2 (d/c/B/A/) :|
+!p!B>Tcdd | {/^f}gddd | B>Tcdd | ga {ga}b2 | (B/A/B/c/) (d/c/d/=e/) | fc Tc>B | A!f![CF][CF]A | c2 (d/c/B/A/) |
+!p!B>Tcdd | {/^f}gddd | (B/A/B/).c/ dd | gdg>(a | b)>(g a)>^f | g>d=f>c | A[CF][CF]A | c2 (d/c/).B/.A/ |]
+S:https://www.folktunefinder.com/tunes/71400
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Wemyss_of_Cuttle_Hill.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0371.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

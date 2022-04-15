@@ -1,0 +1,26 @@
+X:309
+T: O TANNENBAUM O TANNENBAUM
+N: E0175
+O: Europa, Mitteleuropa, Deutschland, Odenwald, Neunkirchen
+R: erzaehlendes Volks - Lied, Sage, Pflanzen - Maerchen
+M: 2/4
+L: 1/16
+K: F
+C2 | F2F2A2cB | A2A2G2
+G2 | A2A2Bcd2 | c4z2
+c2 | d2e2f2c2 | f2d2c2
+cB | A2A2G2GE | F4z2
+c2 | d2e2f2c2 | f2d2c2
+cB | A2A2G2GE | F4z2
+S:https://www.folktunefinder.com/tunes/78750
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, pflanzen - maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

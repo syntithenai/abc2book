@@ -1,0 +1,48 @@
+X: 1
+T: Back to the Hills
+T: To Tom Fraser
+C: J.S.Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+P: Reverie
+A, \
+| D>E FE/D/ | G>A BA/G/ | AF {F}ED | D2 {ED}^CA, \
+| D>E FE/D/ | G>A BA/G/ | Ad d^c | e2 d ||
+a \
+| [d'2d2] [a2A2] | [b3B3] [bB] | af ed | d2 {ed}^ca \
+| {D}[d'2d2] [a2A2] | {G,}[b3B3] [bB] | [aA][d'd] [d'd][^c'^c] | [e'2e2] [d'2d2] |]
+P: Jig
+M: 6/8
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A,DE FED | ADE FED | A,^CE A^ce | a^c'e' a'3 ||
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A=B^c d=c_B | AGF EFG | ABA GFE | D3- D3 |]
+P: Reel
+M: C|
+L: 1/8
+A,2 \
+| D^CDE FEFD | G^FGA BABG | AGFA GFEG | FEDF EA,AA, |
+| D^CDE FEFD | G^FGA BABG | A=B^cd AGFE | DdAF D2 ||
+|| a2 | d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA eAa^c' |
+| d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA d4 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/13119
+S:http://trillian.mit.edu/~jc/music/abc/air/BackToTheHills.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/BackToTheHills.abc
+S:http://trillian.mit.edu/~jc/music/book/500/BackToTheHills_x.abc
+% Rhythm Air, jig, reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

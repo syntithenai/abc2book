@@ -1,0 +1,27 @@
+X: 67
+P: Dans p\aa Storviks\aetra
+R: waltz
+O: Oddvar Nygaard
+B:
+D: Oddvar Nygaards kvartett, "Huldra ved Vakkertj\onna"
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: C
+   G \
+| "C"C2C/E/ | "G7"GFD | "C"C2c | c3 | "G7"cBD | D2d | dcB | AG>E \
+| "C"C2C/E/ | "G7"GFD | "C"C2c | c3 | "G7"cBD | "G7"d2B | "C"c>cc | c2 :|
+|: G \
+| "C"e>ee | e/d/eg | "G7"d>dd | d/e/fd | "Am"c>cc | c/d/ec | "F"A3- \
+| A/d/cB/A/ | "C"G2G/c/ | E3 | "G7"A2G | F2D | "C"C>CC | C2 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8610
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Vals.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

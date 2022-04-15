@@ -1,0 +1,33 @@
+X: 1
+T: the Sueno Stone
+C: Dennis Morrison
+N: "Craigieford"
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A,2 \
+| "D"D2A,D FAdc | B2A2 A4 | AA,DF AGFA | "Em"G2E2 E3D \
+| "A7"C2A,C ECEG | "B7"c2B2 B4 | "E"DE^GA BdcB | "A"A2a2 A2 ||
+A,2 \
+| "D"D2A,D FAdc | B2A2 A4 | ddde fedc | "G"B2g2 g4 \
+| "G"dddd d2g2 | "D"fffe "E7"d2B2 | "A"A2ec "A7"AGFE | "D"D2d2 d2 |]
+A2 \
+| "D"dddd "A7"f2a2 | "D"b2a2 "A7"a2A2 | "D"dddd "E7"c2B2 | "A"A2e2 e2A2 \
+| "E7"^GGGG F2E2 | "A"cccc e2c2 | "B7"^dBAF "E7"E=dB^G | "A"A2A,2 A,4 ||
+y2 \
+| "D"D2A,D FAdc | B2A2 A4 | dDFA defb | "G"a2g2 g4 \
+| "G"gggg d2g2 | "D"aaaa "E7"d2B2 | "A"A2ec "A7"AGFE | "D"D2d2 d2 |]
+S:https://www.folktunefinder.com/tunes/16238
+S:http://trillian.mit.edu/~jc/music/abc/polka/SuenoStone_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/SuenoStone_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SuenoStone_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

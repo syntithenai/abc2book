@@ -1,0 +1,39 @@
+X: 1
+T: the Summer Assembly (1st tune)
+T: the Oddfellows
+C: J.Scott Skinner
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"\
+ED | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+S:https://www.folktunefinder.com/tunes/17788
+S:http://trillian.mit.edu/~jc/music/abc/reel/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SummerAssembly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Oddfellows.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SummerAssembly_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

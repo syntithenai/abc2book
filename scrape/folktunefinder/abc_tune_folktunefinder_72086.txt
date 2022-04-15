@@ -1,0 +1,25 @@
+X:5
+T:Birk Hall
+R:Strathspey
+S:MacDonald - Skye Collection
+N:pg.10
+M:C
+L:1/8
+K:A Mix
+%BIRK HALL. Scottish, Strathspey. A Mixolydian. Standard. AABB'. Pipe Tune. "From
+%Ross's Collection (Skye)." MacDonald (The Skye Collection), 1887; pg. 10.
+a|c2 (Ae) A<AeA|c2 (Ae) dB=Ga|c2 (Ae) A<AeA|B=GdB AAA:|
+B|A<AeA a2 ef|=g2 ed B=GGe|1 A<AeA a2 ef|=g2 dB AAA:|2
+A<AeA c2 (Ae)|=g2 (dB) AA A2||
+S:https://www.folktunefinder.com/tunes/72086
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

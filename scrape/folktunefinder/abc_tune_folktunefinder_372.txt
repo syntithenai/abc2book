@@ -1,0 +1,22 @@
+X: 30
+T: 'Pedro Larsen' trekant
+O: Denmark
+S: efter Jacob S\ondergaards nodebog, Trevad/Thorkild Knudsen
+R: jig
+B: "Foklemusikhus Spillebog"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"G2G    G2G |    GFE E2D | "C"E2E "G"D2D | "D7"DFA "G"G2z :|
+|: "G"D2D "C"c2c | "G"B2G D2z | "C"E2E "G"D2D | "D7"DFA "G"G2z :|
+S:https://www.folktunefinder.com/tunes/372
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

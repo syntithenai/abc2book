@@ -1,0 +1,31 @@
+X:299
+T: CRAMBAMBULI DAS IST DER TITEL
+N: F0523
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 2/4
+L: 1/16
+K: D
+A,2 | D4C2B,2 | A,6A,2 | B,2A,2B,2C2 | D4A,2
+A,2 | B,2A,2G,2F,2 | A,4A,4 | A,6
+A,2 | D4C2B,2 | A,6A,2 | B,2A,2B,2C2 | D4A,2
+A,2 | B,2A,2G,2F,2 | A,4A,4 | A,6
+A,2 | F,2A,2A,2A,2 | B,2A,2A,2
+A,2 | F,2A,2A,2A,2 | B,2A,2A,2
+A,2 | D4E4 | F3DD2
+D2 | E4C4 | D6
+A,2 | F,2A,2A,2A,2 | B,2A,2A,2
+A,2 | F,2A,2A,2A,2 | B,2A,2A,2
+A,2 | D4E4 | F3DD2
+D2 | E4C4 | D6
+S:https://www.folktunefinder.com/tunes/69859
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

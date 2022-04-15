@@ -1,0 +1,20 @@
+X: 6
+P: Sull Sull (Hansen's Masurka)
+O: Westland
+R: mazurka
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"G2 B<G B>g | f>e d3 B | G2 B<G B>g | "Am"f>e c3 B | c2 e<c e>g |
+| "C"f2 e4 |1,3 c2 e<c e>g | "D7"f>e dc BA :|2,4 "D7"fe df ba | "G"g2 g4 :|
+|: "G"G>B d2 Bd | g>a b2 g2 |1,3 "D7"d>f ag fe | "G"d>g b2 g2 :|2,4 "D7"fe c'2 ef | "G"g2 g4 :|
+S:https://www.folktunefinder.com/tunes/8116
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

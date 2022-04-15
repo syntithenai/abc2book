@@ -1,0 +1,29 @@
+X:395
+T: GUTER MOND DU GEHST SO STILLE
+N: B0468
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: G
+dc | B2B2Bcde | dcA2z2
+dc | B2B2AGAB | G4z2
+dc | B2B2Bcde | dcA2z2
+dc | B2B2AGAB | G4z2
+AB | c2A2z2Bc | d2B2z2
+dd | e3dedcB | B2A2z2
+dc | B2B2Bcde | dcA2z2
+dc | B2B2AGAB | G4z2
+S:https://www.folktunefinder.com/tunes/78416
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

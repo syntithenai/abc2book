@@ -1,0 +1,35 @@
+X: 2
+T: the Queen's Jig
+R:
+O: England
+B:
+D:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"d2e fef | "G"g3 "A7"fga | "D"fgf "E(m)"e2d | "A7"e2A A2A \
+| "D"d2e fef | "G"g3 "A7"fga | "D"fgf "A7"e2d | "D"d3 z2 :|
+|: f/g/ \
+| "D"aba g2f | "G"g3 "A7"fga | "D"fgf "E(m)"e2d | "A7"e2A A2a \
+| "D"aba g2f | "G"g3 "A7"fga | "D"fgf "A7"e2d | "D"d3 z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3996
+S:http://trillian.mit.edu/~jc/music/abc/England/QueensJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/QueensJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/QueensJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/QueensJig.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/QueensJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/QueensJig.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/QueensJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/QueensJig.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/QueensJig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

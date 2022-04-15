@@ -1,0 +1,27 @@
+X: 1
+T: Pappilan pellolla
+O: trad Finland
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: "C"g2 fa g2 fe | "G"e>d dB G2 Bd \
+|1,3 "D7"d>c cA F2 Ac | "G"e>d dB G2 Bd \
+:|2,4 "D7"d>c cA F2 FA | A2 G2 "G"G4 :|
+|: "D7"D2 FA c2 Bc | "G"e>d dB G2 Bd \
+|1,3 "D7"d>c cA F2 Ac | "G"e>d dB G2 Bd \
+:|2,4 "D7"d>c cA F2 FA | A2 G2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/4386
+S:http://trillian.mit.edu/~jc/music/abc/Finland/PappilanPellola.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/PappilanPellola.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish/PappilanPellola.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/PappilanPellola.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/PappilanPellola.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

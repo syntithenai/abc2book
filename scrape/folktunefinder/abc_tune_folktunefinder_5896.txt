@@ -1,0 +1,58 @@
+X: 1
+T: Pas d'Espan
+O: France
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1
+[| a2 a2 \
+| "D"d'2fgfg | a2bagf | "A7"g2e4- | e2e2f2 \
+| g2agfe | g2agfe | "D"f2d4- | d2f2a2 |
+| "D"d'2fgfg | a2bagf | "Em"c'2b4- | b2c'2b2 \
+| "A7"az ABcd | efgabc' | "D"d'2z2"A7"a2 | "D"d'z "ginf" |] [K:Dm]
+[| z2A2\
+| "Dm"dz dfdf | a2z2f2 | "A7"f2{gf}e4 | a2z2g2 \
+| "Dm"f2{gf}e2d2 | "Bb"f2{gf}e2d2 | "A7"{^g}az [a2A2]z2 | {^g}az [a2A2] z2 |
+| "Dm"dz dfdf | a2z2f2 | "A7"f2{gf}e4 | a2z2g2 \
+| "Dm"f2{gf}e2d2 | "A7"^c2d2e2 | "Dm"d6- | d2 |] [K:A]
+[| c'2d'2\
+| "E7"c'2b^ab2- | b2b2c'2 | "A"b2aga2- | a2g2f2 \
+| "E7"f2e^de2- | e2g2f2 | "A"f2e^de2- | e2c'2d'2 |
+| "E7"c'2b^ab2- | b2b2c'2 | "A"b2aga2- | a2g2f2 \
+| "E7"e2{fe}^d2e2 | c'4b2 | "A"a6- | a2 |]
+%X: 1
+%T: Pas d'Espan
+%O: France
+%Z: John Chambers <jc@trillian.mit.edu>
+%M: 3/4
+%L: 1/8
+V: 2
+K: D
+[| a2 g2 \
+| f2 de de | f2 d2 d2 | e2 cc cA | c2 c2 d2 \
+| e2 A2 A2 | ed cB Ac | d2 AA AF | A2 d2 f2 |
+| a2 de de | f2 gf ed | g2 g2 f2 | ^ez e2 e2 \
+| fz A^G AB | cd ef ge | f2 z2 g2 | "fine"fz |] [K:Dm]
+[| z2z2\
+| F2 A2 d2 | f2 A2 d2 | d2 ^c2 cA | ^c2 e2 A2 \
+| d2 A2 F2 | d2 _B2 d2 | ^cz c4 | e^c cA AG |
+| F2 A2 d2 | f2 A2 d2 | d2 ^cA ce | ^c2 e2 B2 \
+| A2 G2 F2 | E2 F2 G2 | F2 A2 F2 | A2 |] [K:A]
+[| z2 z2 \
+| z2 gf ge | g2 z2 z2 | z2 e^d ec | e2 c2 c2 \
+| d2 B2 GB | dz B2 d2 | c2 A2 AB | c2 e2 f2 |
+| e2 dc dB | e6 | d2 c^B cA | e2 c2 A2 \
+| G2 F2 G2 | E4 d2 | c2 ce ce | c2 |]
+S:https://www.folktunefinder.com/tunes/5896
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PasDEspan_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

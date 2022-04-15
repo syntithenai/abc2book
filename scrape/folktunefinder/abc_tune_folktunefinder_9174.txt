@@ -1,0 +1,22 @@
+X: 5
+T: Karjalan katrilli
+M: 2/4
+L: 1/8
+K: F
+P: F:
+|: "F"{e}dc c2 | dc c2 | "C7"{f}ed cB | "F"AG F2 :: "Dm"DA AA | "Gm"GF E2 | "A7"EG GG | "Dm"FE D2 :|
+P: C:
+K: C
+|: "C"{b}ag g2 | ag g2 | "G7"{c'}ba gf | "C"ed c2 :: "Am"Ae ee | "Dm"dc B2 | "E7"Bd dd | "Am"cB A2 :|
+%%sep 8 8 8cm
+S:https://www.folktunefinder.com/tunes/9174
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Rev19980327.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Rev19980825.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

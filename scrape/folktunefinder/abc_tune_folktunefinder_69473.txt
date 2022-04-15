@@ -1,0 +1,27 @@
+X:614
+T: "Der Holzhauer"
+N: Z1294
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Handwerker -, Bauern - Lied
+M: 3/4
+L: 1/8
+K: Bb
+ | d2dcdB | dcdef2
+d2dfce | dcdef2
+g2f2=e2 | f4z2
+def2df | e2ced2
+Bcd2Bd | ceAcB2
+Bcd2Bd | ceAcB2
+dBdefd | B4z2
+S:https://www.folktunefinder.com/tunes/69473
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

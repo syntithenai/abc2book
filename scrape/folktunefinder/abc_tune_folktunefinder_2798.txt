@@ -1,0 +1,47 @@
+X: 1
+T: Dai\vcovo Oro
+O: Makedonija
+Q: 2/16 2/16 2/16 3/16
+Z: John Chambers <jc@trillian.mit.edu> from recording, Mandela transcription
+M: 9/16
+L: 1/16
+K: Gmix
+%%indent 350
+"A"\
+|::: "G"GD dD BD ~G2D | "Gm"GD _BD AD ~G2D :::|
+"B"\
+|: "G" GD GD GA B2G | "D"cB AG "G"GA B2G \
+| "D"cB AG "G"GA B2G | "D"cB AG "G"G2 "fine"G3 :|
+"C"\
+|::: "G"Bc de fG "C"~e2G | "G"dG fG eG ~d2G :::|\
+"D"\
+|::: "G"fe dc BG "D"~A2G | "G"BG dG BG "D"~A2G :::|
+K:G
+"E"\
+|:   "C"fg gf fe gfe | "G"d2 de dc ~B2G \
+|   "C"fg gf fe gfe | "G"d2 dG d2 ~d3 |
+|   "C"fg gf fe gfe | "G"d2 de dc ~B2G \
+| "D"Bc cB BA cBA | "G"G2 GD G2 G3 :|
+K:Gmix
+"F"\
+|:   "C"c2 cG de ~e3 | "G"d2 de dc ~B2G \
+|   "C"c2 cG de ~e3 | "G"d2 dG d2 ~d3 |
+|   "C"c2 cG de ~e3 | "G"d2 de dc ~B2G \
+| "D"Bc cB BA cBA | "G"G2 GD G2 G3 :|
+"G"\
+|: "D"Bc cB BA cBA | "G"G2 GD GA B3 \
+|  "D"Bc cB BA cBA | "G"G2 GD G2 G3 :|
+[| "A"A2-A2-A2-A3  | A2-A2-A2-A3 \
+"H"\
+|::: "A"gf ed ^c_B ~c2A | ed ^c_B AG ~A2E | "A"gf ed ^c_B ~c2A | ed ^c_B AG ~A3 :::|
+S:https://www.folktunefinder.com/tunes/2798
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/DaichovoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DaichovoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/DaichovoOro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

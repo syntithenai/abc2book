@@ -1,0 +1,24 @@
+X: 1
+T: Bells of Norwich
+O: England
+M: C|
+L: 1/8
+N: Sing extra chorus 4 as a coda.
+%%vocalfont Helvetica-Narrow-bold 18
+K: C
+|: "C"[c4E4] "G7"[G3D3][GD] | "C"[c2E2][e2G2] [fA][eG][dF][cE] \
+| [e2G2][c2E2] [e2G2]"F"[f2A2] |1 "G7"[g8B8] :|2 "C7"[g8_B8] |]
+S:https://www.folktunefinder.com/tunes/3650
+S:http://trillian.mit.edu/~jc/music/abc/England/BellsOfNorwich.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BellsOfNorwich.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/BellsOfNorwich_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/song/BellsOfNorwich_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/BellsOfNorwich_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

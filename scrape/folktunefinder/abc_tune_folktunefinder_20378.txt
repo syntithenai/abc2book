@@ -1,0 +1,24 @@
+X: 1
+T: Silent Night [D]
+T: Stille Nacht
+T: Glade Jul
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+[| "D"[AF]>[BG][AF] [F3D3] | "D"[AF]>[BG][AF] [F3D3] \
+| "A7"[e2A2][eA] [c2-G2-][cG] | "D"[d2F2][dF] [A3F3] \
+|| "G"[B2G2][BG] [dB]>[cA][BG] | "D"[AF]>[BG][AF] [F3D3] |
+|  "G"[B2G2][BG] [dB]>[cA][BG] | "D"[AF]>[BG][AF] [F3D3] \
+|| "A7"[e2A2][eA] [gc]>[eA][cG] | "D"[d3F3] [f2A2]z \
+| [dF2][AF][FD] "A7"[AC]>[GE][EC] | "D"[D3D3] z3 |]
+S:https://www.folktunefinder.com/tunes/20378
+S:http://trillian.mit.edu/~jc/music/abc/xmas/GladeJul_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/xmas/GladeJul_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/GladeJul_D.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

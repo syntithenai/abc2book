@@ -1,0 +1,29 @@
+X:291
+T: Das Hausen fllt mir viel zu schwer (3-93), S. 256
+N: P1066
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Eheverdru]
+M: 2/4
+L: 1/16
+K: G
+D2 | G2F2G2A2 | B2A2G2
+G2 | d2e2d2c2 | AB3A2
+D2 | G2F2G2A2 | B2A2G2
+G2 | d2e2d2c2 | AB3A2
+A2 | A2d2d2e2 | d2c2B2
+d2 | d2G2G2F2 | G2E2D2
+D2 | G4G2G2 | A4d2
+B2 | A8 | G4z2
+S:https://www.folktunefinder.com/tunes/76271
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Eheverdru]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Stewart's Lassie
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+D2 \
+| "G"G3B d3B "C"c3e g3e | "G"dB3 B3G "D7"BA3 A3D \
+| "G"G3B d3B "C"c3e g3e | "D7"dB3 A3B "G"G4 G2 :|
+d2 \
+| "G"cBAG G3D "C"E3F G3e | "G"dB3 g3B "D7"BA3 A3d \
+| "G"cBAG G3D "C"E3F G3e | "D7"dB3 A3B "G"G4 G2 |]
+d2 \
+| "G"cBAG G3D "C"E3F G3e | "G"dB3 g3B "D7"BA3 A3d \
+| "Em"G3B d3B "Am"c3e g3e | "D7"dB3 A3B "G"G4 G2 |]
+S:https://www.folktunefinder.com/tunes/19672
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Stewarts_Lassie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Stewarts_Lassie_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

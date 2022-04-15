@@ -1,0 +1,28 @@
+X:256
+T: Es ist dunkel auf hohen Bergen (3-58), S. 168
+N: P1031
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+N: Melodie der Strophen 1-7
+R: verlorene Liebe]
+M: 4/4
+L: 1/8
+K: F
+C2 | F3GABcd | c3BA2
+cf | d3ccBA2 | G4
+c4 | GBAGF2E2 | FGAFc2
+cd | cBAGA2G2 | F6
+S:https://www.folktunefinder.com/tunes/76236
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Verlorene liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

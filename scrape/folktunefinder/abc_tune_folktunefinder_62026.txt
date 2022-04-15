@@ -1,0 +1,24 @@
+X:3
+T: WEH DASS WIR SCHEIDEN MUESSEN
+N: B0491
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Abschieds - Lied
+M: 4/4
+L: 1/8
+K: C
+ | G,2E,G,C3C | C2B,2z2
+G,2 | G,3CF2E2 | E2D2z2
+C2 | G,3A,_B,2B,2 | _B,2A,2z2
+A,2 | A,3B,C2C2 | C2B,2z2
+G,2 | G,4C2 | E4C2 | C4A,2 | G,4
+E2 | F4E2 | E2D2C2 | C4B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/62026
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

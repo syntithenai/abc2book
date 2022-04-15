@@ -1,0 +1,33 @@
+X:5037
+T:The Mill Quay
+M:4/4
+L:1/8
+Q:180
+C:Aidan Crossey
+R:Hornpipe
+K:D
+|:de|fdBd AdBd|Adcd e2de|fdBd AdBd|gfaf d2de|
+fdBd AdBd|Adcd e2de|fdBd AdBd|gfaf d2:||
+|:dc|BGBGd2cB|AFAF d2cB|Adcd Bcde|fagf e2fa|
+bgbg b2ag|afaf a2gf|gece dcBc|d2 dc d2:||
+|:FG|AFDF EFGA|Bcde d2FG|AFDF EFGB|AB/A/ cB A2 FG|
+AFDF EFGA|Bcde f2ed|BGEG AFDF|EF/E/ DC D2:||
+|:AB/c/|d2ef gfed|cABc d2cd|eAfA gAfA|edcB A2AB/c/|
+d2ef gfed|cABc d2cd|eAfA gAfA|edce d2:||
+|:FG|A2Bc dDFG|A2Bc d2FG|A2Bc dDFG|AB/A/ dF E2FG|
+A2Bc dDFG|A2Bc d2cd|eAfA gAfA|ef/e/ dc d2:||
+S:https://www.folktunefinder.com/tunes/77429
+S:http://trillian.mit.edu/~jc/music/abc/by/AidanCrossey/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/aidananita:se13.freeserve.co.uk/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RoadHome.abc
+S:http://paythereckoning.com/crosseyabc.txt
+S:http://www.paythereckoning.com/crosseyabc.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

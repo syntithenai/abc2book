@@ -1,0 +1,20 @@
+X: 27
+T:Mr. Isaac's Maggot
+M:3/2
+L:1/8
+K:C
+"C" g4 e4 "G" d4|"Am" cd e2 "Dm" d2 c2 "G"d2 G2|"C"G2 c4 B2 "F" A4|"Dm" A2 d4 A2 "G" B2 G2|
+"C" g4 e4 "G" d4|"Am" cd e2 "Dm" d2 c2 "G" d2 G2|"C" G2 c4 B2 "F" A2 fe|"G" d2 c2 d2 B2 "C" c4||
+"C" E2 " G" G4 "C" A2 G4|"C" E2 " Dm" G4 AB "C" c2 G2|"Am" E2 " G" G4 "C" A2 G4|"C" E2 " Dm" G4 AB "C"c2 G2||
+"C" g3 f/g/ "F" a3 g/f/ "C" g3 f/g/|"F"agfe "Dm"fedc "G"d2 G2|"C"g3 f/g/ "F"a3 g/f/ "C"g3 f/g/|"F"agfe "G"defg "C" e2 c2|
+"C"e4 "F"f3 e/f/ "G"g4|"C"cd e2 "Dm"d2 c2 "G" d2 G2|"C"e4 "F"f3 e/f/ "G"g4|"C"G2 c2 "F"cd e2 "G"d2 "C"c2|]
+S:https://www.folktunefinder.com/tunes/39353
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

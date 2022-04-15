@@ -1,0 +1,27 @@
+X:190
+T:A sov'leg
+S:Hans Ole Larsen
+R:Other
+O:Denmark
+M:2/4
+L:1/8
+A:Fan\o{}
+K:G
+B2 cB/c/ | d2 g2 | G2 AA | Bc/B/ A2 |\
+B2 cB/c/ | d2 g2 | GB AF | G2 z2 :|*
+|:\
+dd BA/B/ | cc/d/ BG | dd BA/B/ | cc/d/ Bd |\
+ed ge | dB g>e | d>e d/c/B/A/ | G2 z2 :|**
+S:https://www.folktunefinder.com/tunes/824
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Hamish's Tune
+C: Hamish Menzies
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen (Oct 1987)
+M: 2/4
+L: 1/8
+K: A
+E2 \
+|  "A"E2A2 A2c2 | c2e2 e4 | e4  f3e |  "D"e2d2 "Bm"d2E2 \
+| "E7"E2G2 G2B2 | B2d2 d4 | g3f g3f |     f2e2     f2e2 |
+|  "A"E2A2 A2c2 | c2e2 e4 | e4  a3g |  "D"g2f2 "Bm"f4   \
+| "E7"g2f2 g2f2 | "A"f2e2 "F#m"f2e2 | "Bm"e3d  "E7"c2B2 | "A"A4 A2 |]
+EE \
+|  "A"E2A2 c2A2 | E2A2 c2A2 | c4 "F#m"d3c | "Bm"c2B2 "E7"B2E2- \
+|     E2G2 B2G2 | E2G2 B2G2 | g3f     g3f |    f2e2      f2e2  |
+|  "A"E2A2 c2A2 | E2A2 c2A2 | e4      a3g | "D"g2f2  "Bm"f4    \
+| "E7"g2f2 g2f2 | "A"f2e2 "F#m"f2e2 | "Bm"e3d "E7"c2B2 | "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/15453
+S:http://trillian.mit.edu/~jc/music/abc/march/Hamishs_Tune_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Hamish_Menzies/Hamishs_Tune_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Hamishs_Tune_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

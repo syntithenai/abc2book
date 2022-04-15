@@ -1,0 +1,36 @@
+X: 164
+T:Celebrated Waltz,The.primo. JaW.164
+M:3/4
+Q:120
+C:"This is supposed to be the best composition out"
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+g>e| c2c2(d>B)|G2G2(f>d)|B2B2B2|c2z2(c'b)|!
+ag^fedc|Bdgdec|(B/A/B/c/) dB cA|G4:|!
+|:f>d|B2B2g>e|c2c2ac|d2d2^d2|H"H"e4g2|!
+{^fga}g4e2|(c'bagfe)|.d(fedcB)|c4:|!
+|:"dolce"G2|(e4c2)|B2d2G2|(g4e2)|c4G2|\
+e4c2|(A2f2)d2|B2A2B2|c4:|!
+|:g2|.e.g.c.g.e.g|.f.g.d.g.f.g|.e.g.c.g.e.g|G4g2|!
+(eg_bgec)|dfafed)|(cegfed|c4:|!
+|:d'2|b2g2c'2|c'2g2c'2|b2d'2b2|c'4a2|!
+^g2e2a2|g2e2a2|^g2b2g2|g4G2|!
+e4c|B2d2G2|g4e2|c4G2|!
+{G}e4c2|A2f2d2|B2A2B2|c4:|]
+S:https://www.folktunefinder.com/tunes/47701
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

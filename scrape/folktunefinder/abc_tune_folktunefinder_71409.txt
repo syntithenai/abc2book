@@ -1,0 +1,26 @@
+X:380
+%%topmargin 3cm
+T:Lady Elizabeth Lindsay
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C|
+L:1/8
+K:C dorian
+g | (fc (B<G)G>B | F>BD>B Ff | (fc B<GG>B | F>BD>d Tc2 c :|
+g | f<d(Td>e) fg | (f<d)(Td>e) f>g(de) f>g(dB Tc2 (c>g) |
+(f<d)(Td>e) (f<d)d>g | (f<d)(Td>e) f>gd>f | (gg d>f(c<d) | (GD {/^B,}C2 C |]
+S:https://www.folktunefinder.com/tunes/71409
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Elizabeth_Lindsay.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0380.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

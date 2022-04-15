@@ -1,0 +1,25 @@
+X:3230
+T:Colosseum
+% Nottingham Music Database
+S:KCC p22
+M:4/4
+L:1/8
+R:Hornpipe
+K:A
+P:A
+E2|"A"A2A2 "E7"AcBd|"A"c2c2 "D"cedf|"A"eagf edcB|"A"ABcA "E7"dBGE|
+"A"A2A2 "E7"AcBd|"A"c2c2 "D"cedf|"A"eagf "E7"edcB|"A"A2a2 A2:|
+P:B
+e2|"A"ceAe ceAe|"Bm"dfBf dfBf|"A"ceAe ceAc|"B7"BAGF "E7"E2e2|
+"A"ceAe ceAe|"Bm"dfBf dfBf|"A"eagf "E7"edcB|"A"A2a2 A2:|
+S:https://www.folktunefinder.com/tunes/29510
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

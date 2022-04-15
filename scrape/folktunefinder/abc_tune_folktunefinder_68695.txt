@@ -1,0 +1,25 @@
+X:149
+T: Sichelein - Rauschen
+N: A0180A
+O: Europa, Mitteleuropa, Deutschland
+N: Forster V 1556 No. 35.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G4 | G2B2A2G2 | d4d4z2
+G2 | d2d2c2B2AGd2 | A8 | z4
+d4 | c2B2A2G2 | c2BAd2
+B2A2B2 | G3AB2c2A4 | G4
+S:https://www.folktunefinder.com/tunes/68695
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

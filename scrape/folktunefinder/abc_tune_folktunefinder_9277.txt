@@ -1,0 +1,28 @@
+X: 2
+P: S\"abb Johns g\aangl\aat
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+D: L\aatar f\"or Glada F\"otter
+M: 4/4
+L: 1/8
+K: G
+%%staffsep      50
+DC \
+| "G"B,CB,A, G,B,DG | {A}B2 B2 {cB}A2 G2 \
+| "C"C3 E G2 c2 | "(Am)"efed c2 B2 \
+| "D7"A2 {B}AG FD FA | f6 e2 |
+|1,3 e2 fe d2 c2 | "G"BcdB G2 \
+:|2,4 "D7"efed d2 F2 | "G"G6 :: BA \
+| "G"G3 B d2 g2 | b6  g2 | abaf g2 fe |
+| "C"[e6c6] B2 \
+|"D7"A2AG FGAd | f6 e2 \
+|1,3 e2 fe d2 c2 | "G"BcdB G2 \
+:|2,4 "D7"efed d2 F2 | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/9277
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Snoa04.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

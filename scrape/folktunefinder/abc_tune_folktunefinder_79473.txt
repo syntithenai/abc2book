@@ -1,0 +1,30 @@
+X:369
+T: ALL ENK NACHBARSLEUTEN HAB I ANZUDEUTEN
+N: E1554
+O: Europa, Mitteleuropa, Deutschland, Ober - Bayern
+R: Staende -, Bauern - Lied; Jodler
+M: 3/4
+L: 1/8
+K: Eb
+G,B, | EG,B,A,G,B,E | DF,A,G,
+F,D | FF,A,G,F,D | EGB,2
+G,B, | EG,B,A,G,E | DF,A,G,
+F,D | FF,A,G,F,D | E4
+B,B, | B,DFAGF | EG,B,3
+E | DF,A,2B,D | EG,B,2
+B,B, | B,DFAGF | EG,B,3
+E | DF,A,2B,D | EG,B,2
+B,B, | B,2AGAG | GB,E3
+G | FB,D3F | EB,ED
+EG | B2AGAG | GB,E3
+G | F2B,FAD | E4
+S:https://www.folktunefinder.com/tunes/79473
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, bauern - lied; jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

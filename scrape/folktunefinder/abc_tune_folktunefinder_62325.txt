@@ -1,0 +1,26 @@
+X:302
+T: EINE HAND VOLL ERDE
+N: B0778
+O: Europa, Mitteleuropa, Deutschland
+R: Trost - Lied, Tod, Klage, religioes
+M: 2/4
+L: 1/8
+K: F
+ | AABB | c2Az
+BBAA | A2Gz
+AABB | c2Az
+ccEE | G2Fz
+AABB | c2Az
+BBAA | A2Gz
+AABB | cf2d
+ccEE | G2Fz
+S:https://www.folktunefinder.com/tunes/62325
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Trost - lied, tod, klage, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

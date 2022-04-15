@@ -1,0 +1,28 @@
+X:8
+T:Pay the Piper
+C:Andy Hornby 1998
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+dB|G2GA BGGA|BGdG edBG|A2AB cAAB|cAfe dcBA|
+G2GA BGGA|BGdG edBG|A2AB cAfe|dcBA G2:|
+|:Bc|dggf gBBc|dggf g2AB|cAfA cAAB|cAfe dcBA|
+Gggf gBBc|dggf g2AB|cAfe dcAF|AGGF G2:|
+|:AG|FAAB cAAG|FAAB c2dc|BGGF G2DG|BGdG edBG|
+FAAB cAAG|FAAB c2dc|B2dB cAFG|AGGF G2:|
+|:Bd|gdBd gdBd|gfed gdBd|fcAB cAfA|cBAB cdef|
+gdBd gdBd|gfed gdBd|fcAB cAfe|dcAF G2:|
+%%textfont Timesbold 25
+%%center  REELS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43750
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

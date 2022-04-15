@@ -1,0 +1,25 @@
+X:206
+T: Vogelhochzeit
+N: A0251
+O: Europa, Mitteleuropa, Deutschland
+N: Hainhofer Lautenbuch II Bl 131 (Hs. in fol 1604)
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: D
+G2 | d4d2 | d4G2 | d6 | d4
+G2 | A4B2 | =c4A2 | G3FGA | G4
+AB | =c4c2 | =c4B2 | =c4c2 | =c4
+B2 | A4=c2 | B4A2 | D3CDE | D4
+S:https://www.folktunefinder.com/tunes/68752
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

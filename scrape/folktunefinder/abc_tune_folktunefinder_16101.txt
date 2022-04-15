@@ -1,0 +1,42 @@
+X:1
+T:Hoppvals etter Sven Nyhus
+O:Sven Nyhus
+R:polka
+Z:Smaaviltlaget, paa Skuddhold, track 12
+Z:(Also Fel'Klang #90)
+M:2/4
+L:1/16
+K:D
+A2 \
+| "D"f3e f2e2 | "D"f3e f2e2 \
+| "D"d3A F2G2 | "D"A6   d2 \
+| "A"c3A E2F2 | "G"G6   B2 \
+| "D"A2GF D2E2 | "D"F6 ||
+y A2 \
+| "D"f3e f2e2 | "D"f3e f2e2 \
+| "D"d3A F2G2 | "D"A6   d2 \
+| "A"c3B c2d2 | "A"e3d e2f2 \
+| "A"g3A B2c2 | "D"d6 :|
+|: A2 \
+|  "D"D3D F2A2 | "D"d2z2 F2F2 \
+|  "D"F3F E2F2 | "G"G2z2 "D"F4 \
+|  "A"E3E F2G2 | "A"A3A c2e2 \
+|  "A"g3g f2e2 \
+|  "D"e2d2 d4 :|
+|: A2 \
+|  "D"F3A A^GA2 | "D"F3A A^GA2 \
+|  "D"d3A F2G2 | "D"A6 :| \
+|: A2 \
+|  "G"B3B B2B2 | "D"B2A2 F2F2 | "A7"G3G E2C2 \
+|1,3 "D"D2F2 A2 :|2,4 "D"D6 :|
+S:https://www.folktunefinder.com/tunes/16101
+S:http://trillian.mit.edu/~jc/music/abc/polka/Hoppvals1_SvenNyhus_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Hoppvals1_SvenNyhus_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

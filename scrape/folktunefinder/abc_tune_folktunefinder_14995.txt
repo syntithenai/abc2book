@@ -1,0 +1,36 @@
+X: 1
+T: the Rothesay Rant
+R: jig
+B: RSCDS 11-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"{FG}A2G F2E | "D"F2E F2A | "A"E2C C2A | "E7"C2B, B,2E \
+| "A"A2G A2B | c3 A2c | "D"B2A A2F | "A"A3- A2 :|
+|: e \
+| "A"c2A A2e | c2A A2e | "D"f2e "A"c2A | "E7"B2e e2 e \
+| "D" {efg}a2g f2e | "Bm"f2e d2c | "E7"B2f f2G | "A"A3- A2 :| [K:D]
+|: A/>A \
+| "D"f3 f2f | "A7"e3 e2e | "G"d2e d2B | "D"AF2 F2A \
+| "A7"g3 g2g | "D"f3 a2b | a2f d2f | "A7"e3 a2g |
+| "D"f3 a2f | "A"e3 a2g | "D"f2a e2f | "G"d2c B2A \
+| B2d g2b | d'<d'z "A7"c'2b | "D"a2f "A7"[f2c2G2]e | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/14995
+S:http://trillian.mit.edu/~jc/music/abc/jig/RothesayRantJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/RothesayRant_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RothesayRant_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RothesayRant_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/RothesayRantJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RothesayRantJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RothesayRantJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RothesayRantJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

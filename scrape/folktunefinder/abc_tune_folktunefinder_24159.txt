@@ -1,0 +1,32 @@
+X:3708
+T:Little Polly Polka. GHW.008
+O:england
+M:2/4
+L:1/8
+Q:220
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+A:Norfolk
+N:Pause (Fine) mark at end of first part, but no DC marked in tune. 6th.
+N:bar of C written asfe semiquaver, e quaver. Assumed meant same as 2nd
+N:bar and transcribed as fe quaver, e quaver. Missing beat in 8th bar as
+N:C part left as in MS
+K:D
+Ad d/c/d|Be e2|cc/d/ ec|df f2|Ad d/c/d|Be e2|cc/d/ ec|df d2:|
+:ce ce|ed d2|B/wc/d B/c/d|fe e2| ce ce |df f2|ec e/d/c/B/|Ac A2:|
+K:G
+:d/d/d d/d/d|fe e2|^c/c/c c/c/c|fd d2|d/d/d d/d/d|fe e2|A/A/
+2A A/A/A|GBG:|
+S:https://www.folktunefinder.com/tunes/24159
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

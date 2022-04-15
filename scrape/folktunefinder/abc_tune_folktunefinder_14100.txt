@@ -1,0 +1,20 @@
+X: 1
+T: D\'onall na Gr\'eine
+T: Donald of the Sun
+T: Daniel of the Sun
+O: trad Ireland
+M: 6/8
+L: 1/8
+K: D
+|: fdd edd | fef dBA | Bee e2d | Bee e2a \
+|  fdd edd | fef dBA | Bdd dcd | Bdd d3 :|
+|: fga efg | fef dBA | Bee e2d | Bee e2a \
+|  fga efg | fef dBA | Bdd dcd | Bdd d3 :|
+S:https://www.folktunefinder.com/tunes/14100
+S:http://trillian.mit.edu/~jc/music/abc/jig/DonallNaGreine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DonallNaGreine_D.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 32
+T:Durham's Bull
+M:4/4
+L:1/8
+Q:100
+C:American
+R:Reel
+K:A
+"A"A,2CE FECE|AECE FECE|"D"D2FA BAFA|dAFA BAFA|"E"E2 GB cBGB|!
+eBGB cBGB|"D"EFGA BcBG|[1"A"A2 GF EDCB,:|[2"A"A2 cB A2 ef||!
+"A"a2ab afef|abaf efec|"D"dedB ABA=G|FDEF D2([=F2A2]|!
+"B"[^F2A2]) [^A2e2]-[B2e2] Bc|^dBcd B2 ef|"E"gfgb gfec|[
+1BAGF E2 ef:|[2BAGF [E4A4]|]
+S:https://www.folktunefinder.com/tunes/77225
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

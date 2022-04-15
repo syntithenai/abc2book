@@ -1,0 +1,29 @@
+X:454
+%%topmargin 3cm
+T:Miss Sutherland Gunn
+T:Elgin
+C:J Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+C | (C<~FF)>G LA>G A<c | (Ld>c) {/c}(f>A) {/A}G>F G<A | TC<~FF>G A>G (A<c) |
+{/c}(d>c) {/c}(f>A) {/A}(G2 F) || !f!c2 | {/c}d>c {/c}f>c Ld>c A<c | Ld>c .A.F .G.F (D<F) |
+(C2 DE) F>G A>G (A<c) | {/c}d>c{/c}f>A {/A}G2 G>c | {/c}(d>c){/c}(f>c) Ld>.c .A<.c |
+Ld>c A.F {[B,D]}G.F HD._D | (C>F) (_D>F) C(D/E/ F)(G/A/ | ~B)(c/d/ c)B/A/ {/A}.G2 .F |]
+S:https://www.folktunefinder.com/tunes/71483
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Elgin.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Sutherland_Gunn.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0454.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 70
+T:Untitled. HA.069
+M:C
+L:1/8
+Q:160
+C:Hand 'A'
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:A little tweak with the barlines and one or two note lengths is all I
+N:have done in the edited version.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"As Writ"D4|E2F3GA2|d3e dcd4|e2f2c2d2c3|(BA) (GF) FG|"u"G4A4:|!
+g2a2 g2fe|dcf2A2G4|(AB) c2d2c2|(BA) (GF) G2"u"E2F2|!
+g2a2g2|(fe) (dc)|f3e2 fga|(fe)d2e2d2|c2(BA) c2d4||!
+zzzz|zzzz|zzzz||!
+M:3/4"Edited by CGP"\
+D4 E2|F3GA2|d3e dc|d4 e2|f2c2d2|c2 (BA) (GF) |FGG4|A4:|!
+g2|a2 g2fe|dc f2A2|G4 (AB)| c2d2c2|(BA) (GF) G2|E2F2g2|!
+a2g2 (fe)| (dc) f3e| fga2 (fe)|d2e2d2|c2(BA) c2|d4|]
+S:https://www.folktunefinder.com/tunes/72319
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

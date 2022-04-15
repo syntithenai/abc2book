@@ -1,0 +1,28 @@
+X: 1
+T:Ou sont donc ces amants
+C:traditionell
+A:France
+R:Bourree
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+%F:http://simonwascher.info/TradArchiv_bourree_2/ou_sont_donc_ces_amants.abc 2008-01-02 13:57:07 UT
+K:Dm
+D2 (A2 | A)G AG/2F/2 | E3/2F/2 GA | F2 E2 |\
+D2 (A2 | A)G AG/2F/2 | E3/2F/2 GA | F2 E2 :|
+|:\
+DF EF/2E/2 | DF EF | G3/2F/2 ED | F2 E2 |\
+DF EF/2E/2 | DF EF | G3/2F/2 ED | FE D2 :|
+S:https://www.folktunefinder.com/tunes/52060
+S:http://simonwascher.info/TradArchiv_bourree_2/ou_sont_donc_ces_amants.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

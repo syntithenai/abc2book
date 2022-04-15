@@ -1,0 +1,56 @@
+X:7731
+T: Twelfth Street Rag
+O:england
+M: 2/4
+L: 1/8
+K: Bb
+"Intro"|: "F7"f=efg fz3 | F=EFG Fz3 \
+| FF2F G2^G2 | Az3 F4 \
+[| "Bb"BAGB AGBA | GBAG BAGz |
+| "F7"BAGB AGBA | Gz z4 \
+| "F7"BAGB AGBA | GBAG BAGz \
+| "Bb"BAGB AGBA | Gz3 z4 |
+|| "Bb"BAGB AGBA | GBAG BAGz \
+| "F7"BAGB AGBA | Gz z4 \
+| "C9"D4 C2z2 | A4 G2z2 |
+| "F7"FF2F G2^G2 | A2F2 G2A2 \
+[| "Bb"BAGB AGBA | GBAG BAGz \
+| "F7"BAGB AGBA | Gz z4 |
+| "F7"BAGB AGBA | GBAG BAGz \
+| "Bb"BAGB AGBA | Gz3 z4 \
+| B3B- BcB2 | "Bb7"_A3A- ABA2 |
+|| "Eb"G3G- G_AG2 | "Ebm"_G3G- _G_AG2 \
+| "Bb"F2FG- GFDB, | "C7"D2DC- "F7"CDC2 \
+| "Bb"B,2B,C DFGF | BFGB- B2z2 :|
+%%sep 10 10 200
+K: C
+"Intro"|: "G7"g^fga gz3 | G^FGA Gz3 \
+| GG2G A2^A2 | Bz3 G4 \
+[| "C"cBAc BAcB | AcBA cBAz |
+| "G7"cBAc BAcB | Az z4 \
+| "G7"cBAc BAcB | AcBA cBAz \
+| "C"cBAc BAcB | Az3 z4 |
+|| "C"cBAc BAcB | AcBA cBAz \
+| "G7"cBAc BAcB | Az z4 \
+| "D9"E4 D2z2 | B4 A2z2 |
+| "G7"GG2G A2^A2 | B2G2 A2B2 \
+[| "C"cBAc BAcB | AcBA cBAz \
+| "G7"cBAc BAcB | Az z4 |
+| "G7"cBAc BAcB | AcBA cBAz \
+| "C"cBAc BAcB | Az3 z4 \
+| c3c- cdc2 | "C7"_B3B- BcB2 |
+|| "F"A3A- A_BA2 | "Fm"_A3A- _A_BA2 \
+| "C"G2GA- AGEC | "D7"E2ED- "G7"DED2 \
+| "C"C2CD EGAG | cGAc- c2z2 :|
+S:https://www.folktunefinder.com/tunes/28183
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

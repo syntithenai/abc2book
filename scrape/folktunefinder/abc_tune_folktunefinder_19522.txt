@@ -1,0 +1,29 @@
+X: 1
+T: Mrs. McLeod of Geaston
+O: Athole Collection
+R: strathspey
+B: RSCDS 27-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|| c/B/ \
+| "F"A>F c>F A<c cB/c/ | "Gm"d>c B>A "C7"B<G G>B \
+| "F"A>F c>F A2 c2 | "Bb"d>g "C7"cd/e/ "F"f2 f :|
+|| g \
+| "F"a>f e>f c>f e>f | "Gm"d<g g>f "C7"e>g c>b \
+| "F"a>f e>f c>f e>f | "Gm"d>g "C7"cd/e/ "F"f2- f2 |
+| "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a | "Gm"B>g "F"A>f "C7"d/c/B/A/ G>B \
+| "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g | "F"a>f "C7"e/f/g/e/ "F"f2- f |]
+S:https://www.folktunefinder.com/tunes/19522
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/McLeodOfGeaston.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/McLeodOfGeaston.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/McLeodOfGeaston.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

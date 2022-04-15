@@ -1,0 +1,38 @@
+X:771
+T:Xiraldilla (CT 095)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 095
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|d2 d|d_ed|cBd|cBc|d3|
+d2 d|d_ed|cBd|cBA|G3|
+B2 d|cBA|G3|B2 c|d_ed|cBd|cBA|G3||
+W:Aquella panadera
+W:que va por all,
+W:yo la llamo, la llamo
+W:y no quiere venir.
+W:Ai, qu panadera!
+W:Ai, qu panaderilla,
+W:l'alma me lleva!
+W:
+S:https://www.folktunefinder.com/tunes/59658
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

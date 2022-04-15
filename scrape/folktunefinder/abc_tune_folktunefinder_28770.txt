@@ -1,0 +1,29 @@
+X:2490
+T:Cancioneiro de Casto Sampedro: N\'umero 390
+T:Danza Do Carril
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+N:http://www.multimania.com/galicia/terraes.htm
+Z:formatado por Xurxo-Adrian Ente
+Z:Covertido de Midi a abc por Antonio-Nil
+M: 4/4
+L: 1/8
+Q:1/4=103
+K:C % 0 sharps
+c^A/2=AG/2c G/2G/2E/2G/2 c^A/2=A/2-|A/2G/2A F/2F/2E/2F/2 G/2A/2B/2F/2 E/2D/2G|E<C G/2A/2B/2F/2 E/2D/2C2-C/2z/2|c^A/2=AG/2c G/2G/2E/2G/2 c^A/2=A/2-|
+A/2G/2A F/2F/2E/2F/2 G/2A/2B/2F/2 E/2D/2G|E<C G/2A/2B/2F/2 E/2D/2C2-C/2z/2|D/2C/2D/2E/2 F/2D<GCz/2 D/2C/2D/2E/2|F/2G/2C z2 D/2C/2D/2E/2 F/2D/2G|
+z/2Cz/2 D/2C/2D/2E/2 F/2G/2C z2|D/2C/2D/2E/2 D/2E<FDz/2 E/2D/2E/2F/2|E/2F<GEz/2 GG/2GG/2A|G/2FE/2 DC/2GA/2C z2|
+c^A/2=AG/2c G/2G/2E/2G/2 c^A/2=A/2-|A/2G/2A F/2F/2E/2F/2 G/2A/2B/2F/2 E/2D/2G|E<C G/2A/2B/2F/2 E/2D/2C2-C/2z/2|c^A/2=AG/2c G/2G/2E/2G/2 c^A/2=A/2-|
+A/2G/2A F/2F/2E/2F/2 G/2A/2B/2F/2 E/2D/2G|E<C G/2A/2B/2F/2 E/2D/2C2-C/2z/2|D/2C/2D/2E/2 F/2D<GCz/2 D/2C/2D/2E/2|F/2G/2C z2 D/2C/2D/2E/2 F/2D/2G|
+z/2Cz/2 D/2C/2D/2E/2 F/2G/2C z2|D/2C/2D/2E/2 D/2E<FDz/2 E/2D/2E/2F/2|E/2F<GEz/2 GG/2GG/2A|G/2FE/2 DC/2GA/2C
+S:https://www.folktunefinder.com/tunes/28770
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Dan Collins' Father's Jig
+T:Bill Collins' Jig
+R:jig
+D:De Danann: Song for Ireland
+D:Jerry Holland: The Fiddlesticks Collection
+Z:id:hn-jig-81
+Z:transcribed by henrik.norbeck:mailbox.swipnet.se
+S: Andrew Pickering <andrewp:DIAL.PIPEX.COM> irtrad-l 2001-11-16
+M:6/8
+K:D
+% TUNEdb Number 1418
+dAA BAB|def a2f|aba fge|dBB gfe|dAA BAB|def a2f|aba faf|1 edc d2A:|2 edc d2e||
+|:faa fab|afe fef|~a3 fge|dBB gfe|dAA BAB|def a2f|aba faf|1 edc d2e:|2 edc d2A||
+S:https://www.folktunefinder.com/tunes/13872
+S:http://trillian.mit.edu/~jc/music/abc/jig/BillCollinsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/DanCollinsFathersJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BillCollinsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DanCollinsFathersJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BillCollinsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DanCollinsFathersJig_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

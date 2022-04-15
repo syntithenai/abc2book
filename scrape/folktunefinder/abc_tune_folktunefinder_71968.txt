@@ -1,0 +1,30 @@
+X: 89
+T:Y Ceiliog Gwyn
+T:The White Cockerel
+M:2/2
+L:1/8
+Q:150
+C:Trad
+S:Blodau'r Grug Collection Vol. 1
+R:Set Dance
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+F>A d>e d2-d>c|e>d c>B A3z|F>A d>e d2-d>c|e>d c>B A3d/e/|!
+f2e2d3z/e/|f2e2d3z/c/|B>A d>c B>A d>e|f2e2d4:||
+S:https://www.folktunefinder.com/tunes/71968
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/WhiteCockerel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/YCeiliogGwyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/WhiteCockerel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/YCeiliogGwyn.abc
+% Rhythm Set dance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

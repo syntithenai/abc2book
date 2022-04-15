@@ -1,0 +1,20 @@
+X:365
+T:Baker's Buck
+O:england
+M:2/4
+L:1/8
+K:G
+G>B dd      |c/B/A d2   |G>B dd       |c/B/A     G/F/E/D/|\
+G>B dd      |c/B/A d2   |G>B dd       |ef        gz     :|
+Be  e/d/e/f/|gf    e2   |Ad  d/^c/d/e/|f/d/e/^c/ d>c     |\
+Be  e/d/e/f/|gf    eg/a/|ba  gf       |e/d/e/f/  g2     :|
+S:https://www.folktunefinder.com/tunes/20814
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

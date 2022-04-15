@@ -1,0 +1,33 @@
+X: 1
+T: Tira la Cordicella
+C: Dario Maggiorani
+R: tarantella
+M: 6/8
+L: 1/8
+K: F
+F GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2C "C7"G2C \
+| "F"F2C "C7"G2C |[K:Fm] "F(m)"F2z CFA ||
+"verse"\
+|| "Fm"c2c "Bbm"BcB | "Fm"A3  CFA | "C7"G2G  C=EG | "Fm"F2z CFA | "Fm"c2c "Bb7"BcB | "Ab"A3  EAc |
+|  "Eb7"B3  EGB  | "Ab"A2z AB=B |  "C7"cGG      GGG | "Fm"cFF FFF | "C7"c=EE E=DE |[K:F] "F"F2z z3 ||
+"refrain"\
+|: "F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG |1 "F"F3- F2z :|2 "F"F2z F2F ||
+|| "Eb"G2G "F7"A2A | "Bb"B2B BAG | "F7"A2A AGF | "Bb"G2z G2G | "F"A2A "G7"=B2B | "C"c2c c=BA | "G7"=B2B BAG | "C"c3- "C7"c2z |
+| "F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG | "F"F2z z3 |]
+"Coda"\
+| "F"FzF GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c2C "C7"B2C | "F"A2C "C7"G2C |
+|"F"F2C "C7"G2C | "F"F3- F2z | cdc A2d | c3 A3- | A3- A2"C7"Mc | "F"M[fcAF]z |] y8 y8 y8 y8
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/6605
+S:http://trillian.mit.edu/~jc/music/abc/Italy/TiraLaCordicella.abc
+% Rhythm Tarantella
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

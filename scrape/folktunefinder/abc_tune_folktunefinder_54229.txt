@@ -1,0 +1,23 @@
+X: 246
+T:Opincuta
+O:Romania
+M:4/4
+L:1/8
+Q:1/4=240
+K:Dm
+%%MIDI chordprog 45
+%%MIDI bassprog 45
+%%MIDI program 23
+|:"Dm"F3G A2F2 |"Bb"B2A2 "Gm"G2F2|EF G4 FG    |"Dm"A4 A4   |\
+  F3G A2F2     |"Bb"B2A2 "Gm"G2F2|EF G4 FE    |"Dm"D4 D4   :|
+|:D2A2 D2D2    |D2D2 D4          |"Gm"EF G4 FG| "Dm"A4 A4  |\
+  D2A2 D2D2    |D2D2 D4          |"Gm"EF G4 FE| "Dm"D4 D4  :|
+S:https://www.folktunefinder.com/tunes/54229
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

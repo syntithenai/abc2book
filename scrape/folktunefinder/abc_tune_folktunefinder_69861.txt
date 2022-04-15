@@ -1,0 +1,24 @@
+X:301
+T: GOTT GRUESS SIE LIEBER HERR PAPA
+N: F0526A
+O: Europa, Mitteleuropa, Deutschland
+N: Strophenvariante zu F0526
+R: Studenten - Lied
+M: 3/4
+L: 1/8
+K: G
+dc | B4B2 | B2A2B2 | d2c2c2 | c4
+B2 | B2A2A2 | A2G2A2 | c2B2B2 | B4
+dc | B4B2 | B2A2B2 | d2c2c2 | c4
+B2 | B2A2A2 | A2G2A2 | c2B2B2 | B4
+S:https://www.folktunefinder.com/tunes/69861
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:28
+T:Cristina Pato's 2 voice
+R:jig
+M:6/8
+L:1/8
+K:Gmaj
+V:1
+"G"GAB "G"dBd |"Am"c2A "Am"cAF|"D"DFA "Am"cAc|"G"B2 B "G"DBG|
+"G"DGB "G"dBd |"Am"c2A "Am"cAF|"D"DFA "Am"cAF|1 "G"~G3 "G"BdB:|2 "G"~G3 "G"G2 A||
+"G"BAB "G"GAB |"C"cBc "Em"EFG|("G"GA){B}A "Am"{G}AGA |"G"BdB "G"G2A|
+"G"BAB "G"GAB |"C"cBc "Em"EFG|("G"GA){B}A "Bm"DEF |1 "G"~G3 "G"G2 A:|2 "G"~G3 "G"BdB||
+V:2
+Bcd fdf |e2c ecA|FAc ece|d2 d BdB|
+dBd fdf |e2c ecA|FAc ecA|1 ~B3 dfd:|2 ~B3 B2 c||
+dcd Bcd |ede GAB|(Bc){d}c {B}cBc |dfd B2c|
+dcd Bcd |ede GAB|(Bc){d}c FGA |1 ~B3 B2 c:|2 ~B3 dfd||
+S:https://www.folktunefinder.com/tunes/2126
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

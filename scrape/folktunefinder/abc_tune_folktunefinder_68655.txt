@@ -1,0 +1,25 @@
+X:109
+T: Liebeshoffnung
+N: A0128B
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F | FAGF | E2D2
+A2 | BG2AG2 | F3
+F | FAGF | E2D2
+A2 | BG2AG2 | F3
+F | AABB | c2G2
+c2 | A2AG2F | E2D2A2 | BG2AG2 | F3
+S:https://www.folktunefinder.com/tunes/68655
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

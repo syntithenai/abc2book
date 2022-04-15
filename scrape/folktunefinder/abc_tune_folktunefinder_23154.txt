@@ -1,0 +1,38 @@
+X:2703
+T:Humours Of Glen,The. JMT018
+O:england
+M:6/8
+L:1/8
+Q:60
+S:J.Moore,Tyneside,1841.(12)
+R:Air
+A:Northumbria
+N:What a lovely tune
+H:1841
+K:D
+F|B(d/c/B/^A/) BFF|Fdc dFF|B(d/c/B/^A/) BFD|EF^A B2F|
+B(d/c/B/^A/) BFF|Fdc dFF|.G(A/G/F/E/) .F(G/F/E/D/)|EF^AB2:|
+|:d/B/|Addd2f/e/|dfa afd|g(a/g/f/e/) fdB|AF^AB2:|
+|:d/B/|AFF dFF|AFd ""(B/A/G/F/E/D/)|AFF dFD|EF^A B2d/B/|
+AFF dFF|AFd (B/A/G/F/E/D/)|g(a/g/f/e/) fdB|AF^AB2:|
+|:B|Bbb afd|g(a/g/f/e/) fdB|Bbb (b/a/g/f/e/d/)|AF^AB2B|
+B/b/b/b/b/b/ B/a/a/a/a/a/|g(a/g/f/e/) fdB|dcd (B/A/G/F/E/D/)|EF^AB2:|
+d/B/|A/F/A/F/A/F/ d/F/d/F/d/F/|A/F/A/F/d/c/ (B/A/G/F/E/D/)|A/F/A/F/A/F/
+d/F/d/F/d/F/|EF^AB2d/B/|
+A/F/A/F/A/F/ d/F/d/F/d/F/|A/F/A/F/d/c/ (B/A/G/F/E/D/)|g(a/g/f/e/) fdB|AF
+^AB2:|
+Bdfa b2b|(b/a/g/f/e/d/)a2a|g(a/g/f/e/) fdB|AF^AB2:|]
+S:https://www.folktunefinder.com/tunes/23154
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

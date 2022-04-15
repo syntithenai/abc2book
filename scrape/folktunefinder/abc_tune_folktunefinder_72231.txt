@@ -1,0 +1,27 @@
+X:150
+T:Shieling in the Braes of Rannoch, The
+T:Bothan airidh 'm braighe raineach
+R:Slow Air
+S:MacDonald - Skye Collection
+N:pg.191
+M:3/4
+L:1/8
+Q:1/4=100
+K:G Dorian
+G>A|d2f2 =e>c|(d2c) z G>A|d2f2 =e>d|(c2F)z c>A|
+c2d2 c>d|(F2 G)z {A}d>c|{B}A2F2G2|A2Gz||
+d>^f|g2b2 a>g|(f2d)z d>^f|g2b2 a>g|(g2 d)z f>=e|
+(d2 c)z {B}A>G|(F2 A)z {A}d>c|{B}A2F2G2|A2Gz||
+S:https://www.folktunefinder.com/tunes/72231
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

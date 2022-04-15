@@ -1,0 +1,25 @@
+X: 178
+T: Wintergr\"un (F)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: F
+|: [C2A,2] \
+| "F"[C2A,2] [F2D2] [A2F2] | [d2B2] z[cA] [c2A2] \
+| [C2A,2] [F2D2] [A2F2] | "C7"[c2A2] z[BG] [B2G2] \
+|[M:2/4] "Bb"[d2B2] z2 | "F"[c2A2] z2 |
+|[M:3/4] "C7"[AC][BD] [B2D2] [E2B,2] | "F"[FA,][EG,] [FA,][GC] [A2F2] \
+|[M:2/4] "Bb"[d2B2] z2 | "F"[c2A2] z2 \
+|[M:3/4] "C7"[AF][BE] [B2D2] [E2B,2] | "F"[F2A,2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5225
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

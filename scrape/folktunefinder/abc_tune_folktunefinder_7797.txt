@@ -1,0 +1,31 @@
+X: 2
+T: In the Manchurian Hills
+T: Mantsurian kukkuloilla
+C: J.A.Schatrow
+R: waltz
+M: 3/4
+L: 1/4
+K: Bm
+B,/C/D/E/ \
+"A"| "Bm"F3- | FDE | "F7"F3- | F3 | EF^A | d2c \
+| "Bm"B3- | B3 | "Bm"FBd | ^A2B | "Em"cBG | c2B |
+| "Bm"FBc | "F7"d2c | "Bm"B3- | "ginf"B \
+"B":: F/=E/F/G/ | "F7"F>CC | zDE \
+| "Bm"F3- | F A/^G/A/B/ | "A7"A>EE | ZFG |
+| "D"A3- | AA"F7"^A | "Bm"B>FF | ((3F/G/F/) =EF \
+| "Em"A2G- | GDE | "Bm"FED | "F7"C2D | "Bm"B,3- | B, \
+"A":| B,/C/D/E/ | "Bm"F3- |
+| FDE | "F7"F3- | F3 | EF^A | d2c | "Bm"B3- | B3 | "Bm"FBd \
+| ^A2B | "Em"cBG | c2B | "Bm"FBc | "F7"d2c | "Bm"B3- | B ||
+"C"|: B^A | "B7"B2=c | B2A | "Em"A2G | GFE | "A7"A2B | A2G \
+| "D"GF=E | "F7"F3 | "Bm"B,DF | Bd>c | "Em"BAG \
+| B2G | "Bm"DFE | "F7"C2D | "Bm"B,3- | B, :|
+S:https://www.folktunefinder.com/tunes/7797
+S:http://trillian.mit.edu/~jc/music/abc/Russia/ManchurianHills.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

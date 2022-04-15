@@ -1,0 +1,28 @@
+X: 1
+T: Possum up a Gum Stump [3]
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B,A, \
+| "G"G,2G,A, DCB,D | "C"CB,CD EFGE |  "G"D2DE DCB,G, | "D"A,3B, A,2B,A, |
+| "G"G,2G,A, DCB,D | "C"CB,CD EFGE | "D7"DEFG AcBA   | "G"G2GF  G2 :|
+|: (3DEF \
+| "G"G2BG AGB2   | "C"G2cG  BGc2 |  "G"G2BG AGB2 | "D7"F4   D3F |
+| "G"G2D2 B,2G,2 | "C"CB,CD EFGE | "D7"DEFG AcBA |  "G"G2GF G2 :|
+S:https://www.folktunefinder.com/tunes/17894
+S:http://trillian.mit.edu/~jc/music/abc/reel/PossumUpAGumStump3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PossumUpAGumStump3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/PossumUpAGumStump3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/PossumUpAGumStump3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/PossumUpAGumStump3_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

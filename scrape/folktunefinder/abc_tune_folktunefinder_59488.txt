@@ -1,0 +1,45 @@
+X:601
+T:Pasucis (CT 351)
+T:Xiraldilla (CT 351)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Emplean tambin los gaiteros esta meloda como "pasucis".
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 351
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+G|: AFG|A2 d|cBA|[1 G2 G :|[2 G2 D|
+|: G G/G/G/B/|dBd|[1 d c/B/A/c/|B2 D :|[2 d c/B/A/B/|GzG|
+|: AFG|A2 d|cBA|[1 G2 G :|[2 Gz||
+W:La mi morena
+W:va con solera
+W:a coger agua
+W:al cao nuevo.
+W:
+W:El cntaro es de brillantes,
+W:las asas son de cristal;
+W:la servilleta de plata,
+W:dice que la va a bordar.
+W:
+W:La mi morena
+W:va con salero
+W:a coger agua
+W:al cao nuevo.
+W:
+S:https://www.folktunefinder.com/tunes/59488
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Pasucis
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

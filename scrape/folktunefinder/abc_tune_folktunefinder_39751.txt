@@ -1,0 +1,26 @@
+X:158
+T:Pleasant Valley Clog
+R:Clog
+C:Bruce Osborne  --  Apr. 1996
+Z:abc by bosborne@kos.net
+M:2/4
+L:1/8
+K:E
+(3B,CD|E>D E>G|c>B (3EFG|c>B B>E|G2 (3EFG|\
+F>E F>G|A>F D>F|E>D E>F|G2 (3B,CD|\
+E>D E>G|c>B (3EFG|c>B B>E|G2 (3EFG|\
+F>E F>G|A>F D>F|(3EFE (3DEF|E2||\
+G>A|B>E B,>E|(3GFG E>G|c>B B>E|G2 (3EFG|\
+F>D B,>D|(3FEF B,>F|c>B B>A|B2 G>A|\
+B>E B,>E|(3GFG E>G|c>B B>E|G2 (3EFG|\
+F>D B,>D|(3FEF B,>F|(3EFE (3DEF|E2||
+S:https://www.folktunefinder.com/tunes/39751
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:207
+T: ES IST NICHTS LUSTGERS AUF DER WELT
+N: E1346
+O: Europa, Mitteleuropa, Deutschland, Thueringen, Franken
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 6/8
+L: 1/8
+K: G
+D | G2GB2B | d2dB2
+G | A2Ad2d | B3z2
+D | G2GB2B | d2dB2
+G | A2Ad2d | B3z2
+A | A2BA2A | B2dB2
+G | A2GA2d | B3z2
+D | G2GB2B | d2dB2
+G | A2Ad2F | G3z2
+S:https://www.folktunefinder.com/tunes/79311
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

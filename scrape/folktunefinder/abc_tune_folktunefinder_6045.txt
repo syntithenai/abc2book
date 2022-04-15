@@ -1,0 +1,23 @@
+X: 4
+P: Pig Squeal Shottish
+O: Scandinavia
+R: shottish
+W: * Make squealing sounds on the wrong side of the bridge.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: FG \
+| "D"A2 f2 f>e dF | "A7"G2 E4 ed | c2 cB A>g fe |1 "D"d2 dB A2 |2 "D"d2 d2 d2 :|
+|: FG \
+| "D"Az "*"z2 "*"z2 A2 | "G"Bz "*"z2 "*"z2 B2 |1 "A7"c2 G2- G>A Bc | "D"B2 A4 :|2 "A7"c2 cB A>g fe | "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/6045
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ShottishA.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

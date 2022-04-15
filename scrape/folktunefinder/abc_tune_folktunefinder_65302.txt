@@ -1,0 +1,24 @@
+X: 214
+T:Workshop Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:C
+"G7"G^F=F |"C"E3 B,3|C3 E3|"C"A2G G2^F|G6|"C"E3 B,3|C2E A2G|"G7"G6|B,6|\
+"G7"D3 ^C3|
+D2A, F2E|"G7"D3 ^CDE|D6|"D7"D2^D E2F|^F2c B2A|"G"G6-|G3 "G7"G^F=F|"C"E3 B,3|
+C3 E3|"C"A2G G2^F|G6|"C"e3 c3|G3 E3|"F"B2A A2^G|A6|"Dm"f2e d2^c|"Dm"d3 "G7"G3|
+"C"e2d cBA|G6|"F"A2c cBA|"C"G2e edc|"G7"BAG FED|"C"C6||
+S:https://www.folktunefinder.com/tunes/65302
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

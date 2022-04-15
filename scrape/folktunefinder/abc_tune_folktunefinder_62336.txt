@@ -1,0 +1,29 @@
+X:5
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl-polska
+H:Spelas \"aven i Am, se nr 86
+A:Sm{\aa}land
+B:SvL Sml 17
+Z:id:hn-sp-5
+M:3/4
+L:1/16
+K:Gm
+G3A BAG^F F2G2|G3A BAG^F F2G2|G^FGA BABc d^cd=e|f=ed^c c2d2 d2D2|
+G3A BAG^F F2G2|G3A BAG^F F2G2|G^FGA BABc d^cd=e|f=ed^c c2d2 d4:|
+K:G
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G2d2|d2g2 gfaf d4|
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G3B|A2F2 F2G2 G4|
+d'4 b4 g4|d2ed c2c2 e2d2|B2Bc A2AB G2d2|d2g2 gfaf d4|
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G3B|A2F2 F2G2 G4||
+S:https://www.folktunefinder.com/tunes/62336
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

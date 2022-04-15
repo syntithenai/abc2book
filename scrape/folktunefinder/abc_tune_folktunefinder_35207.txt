@@ -1,0 +1,26 @@
+X: 7990
+T:Vall\aa{}t from north J\"amtland
+R:Vall\aa{}t
+O:Sweden
+M:4/4
+A:J\"amtland
+K:DDor
+e2 | f2a2 g2ef | d3c A2F2 \
+|1 A2c2 d2B2 | A6 \
+:|2 A2c2 d2^c2 | d6 :: A2 |\
+M:6/4
+^c8-c2 A2 | d2e2 ^c6 A2 | def2 a2g2 ef d2 |\
+M:4/4
+e6e2 | f2a2g2ef | d3c A2F2 | A2c2d2^c2 | d6 :|
+S:https://www.folktunefinder.com/tunes/35207
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Vall%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

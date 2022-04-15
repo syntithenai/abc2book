@@ -1,0 +1,33 @@
+X:85
+T:the Acrobat
+L:1/8
+M:4/4
+O:USA
+R:Hornpipe
+Z:Steve Mansfield 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c0a.html
+%%ID:00000c0a
+K:G
+D>C |\
+B,>D G>A B>G e>d  | (3cAF (3cAF f3e | \
+d>^c =c>A F>f e>d | ^c>d e>d B>G D>C |
+B,>D G>A B>G e>d  | (3cAF (3cAF f3e  |\
+d>^c =c>A F>f e>F | G2 B2 G2::
+K:D
+A>G|\
+F>A B>A f>d c>d  | B>G B>e g>e ^d>e |\
+c>A ^GA ^A>B c>^c|(3edc (3edc A2 A>G |
+F>A B>A f>d c>d  | B>G B>e g>e ^d>e |\
+c>A ^G>A ^A>B c>^c|d2 f2 d2:|
+S:https://www.folktunefinder.com/tunes/36096
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

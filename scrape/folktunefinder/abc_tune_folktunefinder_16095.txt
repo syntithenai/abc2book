@@ -1,0 +1,58 @@
+X: 1
+T: Gsatzlig (Bb inst.)
+R: polka
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%indent 200
+"Vorspiel"[|]\
+g2 \
+| "D7".f2.f2 .e2.e2 \
+| "G".d2.d2 B3g \
+| "D7"f2f2 d2c'f \
+| "G"g2ba g2 ||
+[g2e2] "B"\
+|: "D7".[f2d2][f2d2] .[e2c2][e2c2] \
+| "G".[d2B2][d2B2] [B3G3][gB] \
+| "D7"[f2d2][f2d2] [d2A2][c'd][fc] \
+| "G"[g2B2][gB][ac] [b3d3][gB] |
+|  "D7".[f2d2][f2d2] .[e2c2][e2c2] \
+| "G".[d2B2][d2B2] [B3G3][gB] \
+| "D7"[f2d2][f2d2] [d2A2][c'd][fc] \
+|1"G"[g2B2][bd][ac] [g2B2][g2B2] \
+:|2 "G"[g2B2][bd][ac] H[g4B4] ||
+K: D
+"C"
+|: "D"[fd][af][a2f2] [b3g3][af] \
+| "A7"[g2e2][A2E2] [cA][BG][c2A2] \
+| [ec][AE][cA][ec] [a3f3][ge] \
+| "D"[f2d2][A2F2] [dA][cG][d2F2] |
+|  "D"[fd][af][a2f2] [b3g3][af] \
+| "A7"[g2e2][A2E2] [cA][BG][c2A2] \
+| [ec][AE][cA][ec] [a3c3][cA] \
+| "D"[d2F2][d2F2][d2F2] "d.C."z2 :|
+K:C
+"D"
+|: "C"[e3G3][dF] [c2E2][c2E2] \
+| [cE][BD][cE][dF] [e4G4] \
+| "G7"[d3F3][gB] [^f2^A2][g2B2] \
+| "C"[ac][gA][eG][cE] [G4C4] |
+|  "C"[e3G3][dF] [c2E2][c2E2] \
+| [cE][BD][cE][dF] [e4G4] \
+| "G7"[d2B2][gB][eG] [f3G3][BF] \
+|1 "C"[c2E2][c2E2][c2E2] z2 \
+:|2 "C"[c2E2][c2E2][c2E2] |]
+S:https://www.folktunefinder.com/tunes/16095
+S:http://trillian.mit.edu/~jc/music/abc/polka/Gsatzlig1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/polka/Gsatzlig1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/Gsatzlig1_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

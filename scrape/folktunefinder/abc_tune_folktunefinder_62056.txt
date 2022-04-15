@@ -1,0 +1,24 @@
+X:33
+T: SO HAB ICH NUN DIE STADT VERLASSEN
+N: B0520
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 4/4
+L: 1/16
+K: C
+G,4 | G,2C2E,2G,2C6G,2 | A,4G,4z2
+C2B,2A,2 | D6B,2D4C2A,2 | G,8z4
+G,4 | A,4A,4F3ED2C2 | C2B,2B,4z2
+D2C2D2 | E6C2B,2G,2A,2B,2 | C8z4
+S:https://www.folktunefinder.com/tunes/62056
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

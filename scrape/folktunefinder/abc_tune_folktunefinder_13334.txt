@@ -1,0 +1,29 @@
+X:1
+T:Song of the Kelpie
+T:Arrane Ghelby
+T:Yn Eeanleyder as y Lhondoo
+T: the Fowler and the Blackbird
+O:Manx
+Z:Michael Reid <mwreid@concentric.net>
+M:3/4
+L:1/4
+R:Air
+D:Elke Baker: Over the Border
+D:Charles Guard harp album "Avenging and Bright"
+K:D
+"G"B2 B | "A"A>B c | "Bm"d>e d | "A"c B A |
+"G"B2 B | "A"A G F | "F#m"F G A | "Bm"B3 :|
+"D"d>e f | "Bm"d>e f | "G"d>e f | "Bm"f e d |
+"A"c>d e | "F#m"c>d e | "Bm"d c B | "A"f2 e |
+"Bm"d>c B | "F#m"A G F | "Bm"d>c B | "F#m"A G F |
+"Bm"d>c B | "A"A G F | "F#m"F G A | "Bm"B3 |]
+S:https://www.folktunefinder.com/tunes/13334
+S:http://trillian.mit.edu/~jc/music/abc/air/SongOfTheKelpie.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

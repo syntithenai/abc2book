@@ -1,0 +1,28 @@
+X: 1
+P: Mrs. Stewart's Strathspey (Argyll Strathspey)
+C: W.Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df ||
+|| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+S:https://www.folktunefinder.com/tunes/9905
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/ArgyllStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/ArgyllStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Scot/ArgyllStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Scot/ArgyllStrathspey.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ArgyllStrathspey
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

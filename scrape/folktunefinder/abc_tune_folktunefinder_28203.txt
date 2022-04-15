@@ -1,0 +1,32 @@
+X:7751
+T:Under the Old Myrtle Tree
+O:england
+M:6/8
+C:
+S:Bacon (Sharp MSS)
+N:
+A:Bampton
+R:Jig
+%P:A.(AB)$^4$
+P:A.(AB)4
+K:D
+I:speed 300
+P:A
+AFA  ded  | BcB GFG  | EFE ede  | cBc ABA |\
+FGF  dcd  | BcB e2 d | cec ABc  | d3  d3  ||\
+P:B
+A2 A d2 d | BAc B2 G | EGG e2 e | cec cBA |\
+ABA  dcd  | BcB e2 d | cec ABc  | d3  d3  ||
+S:https://www.folktunefinder.com/tunes/28203
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:11
+T:Rives et collines                           % title
+C:                           % composer
+O:Ecosse                           % origin.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4                           % meter
+L:1/4                        % length of shortest note
+Q:1/4=180                           % tempo
+K:G                           % key
+V:1                          % voice 1
+|:"G"G2A | "D"A/G/GA | "G"BdB | "D"A/G/GA | "G"B>AG | "C"GED | "G"DEG |1 "D"A>BA :|2 "G"G>Bc ||
+"G"d2e | d/B/BG | d2e | d/B/BG | dBG | "Em"dBG | "C"e>dB | "D"A>BA |
+"G"G2G | "D"A/G/GA | "G"BdB | "D"A/G/GG | "G"B>AG | "C"GED | "G"DEG | G2D |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (Ecosse)
+S:https://www.folktunefinder.com/tunes/64724
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

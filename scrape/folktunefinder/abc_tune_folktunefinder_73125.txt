@@ -1,0 +1,28 @@
+X:205
+T: Planxty Mrs. O'Conor
+C: O'Carolan
+B: O'Neill's 666
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: G
+G2G FED | E2F G2A | B2G c2A | B2G c2A |
+| Bcd EFG | ABG FED | EFG AFD | G3 G2A |
+| Bcd EFG | ABG FED | EFG AFD | G3 G2z ||
+|| d2d def | g3 g3 | B2B Bcd | e3 e3 |
+| dcB c2e | d^cd D2D | EFG AFD | G3 G2z |
+| dcB c2e | d^cd D2D | EFG AFD | G3 G3 ||
+|| BGE EGE | AFD DFD | EFG ABG | F3 D2 |
+| ded dBG | efe efg | dcB AGF | G3 G2z |
+| ded dBG | efe efHg | dcB AGF | G3 G2z |]
+S:https://www.folktunefinder.com/tunes/73125
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

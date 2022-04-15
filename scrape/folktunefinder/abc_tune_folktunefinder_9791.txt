@@ -1,0 +1,26 @@
+X: 1
+P: The Green Hills of Tyrol (The Scottish Soldier)
+C: Gioacchino Rossini
+R: waltz
+N: Scottish version of a melody from Rossini's opera "William Tell", which was
+N: supposedly based on an Alpine folk melody.  Several sets of words have been
+N: written to this tune.  There's a pipe setting  that  is  played  as  a  3/4
+N: retreat march.
+M: 3/4
+L: 1/8
+K: G
+|: DGA \
+| "G"B3 GBc | d3 eBe | "D7"dc AF Ae | "G"dB GD GA | "G"B3 GBc | d3 eBe |
+| "D7"dc AD FA | "G"G3 :: "G7"GBd | "C"g4 fe | "G"ed dG Be | "D7"dc cB cd |
+| "G"cB BG Bd | "C"g4 fe | "G"ed dG Be |1 "D7"dc cB cA | "G"d3 :|2 "D"dc AD FA | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/9791
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW06.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090126/AGW06.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

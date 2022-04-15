@@ -1,0 +1,32 @@
+X:671
+T:Soled (MQ 038)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:La incluye Torner como giraldilla en su cancionero con los nmeros 88 y 89, dice en las notas correspondientes haberlas recogido en Pravia y en Gijn.
+N:En la actualidad se canta en toda Asturias.
+A:Asturies
+Z:Manolo Quirs 038
+M:3/8
+L:1/8
+Q:1/4=88
+K:C
+|: d2 B|cAB|G G2|ccc|e d2-|d3|
+d2 B|cAB|G G2|ccc|(Bd)B|A2 B|G3 :|
+[M:2/4]
+[Q:1/4=138]
+|: z2 Bd|d2 Ac|B2 G2-|Ge ee|
+ed Bd|d2 Ac|B2 G2-|GB Bd|dc AB|G4-|G4 :||
+S:https://www.folktunefinder.com/tunes/59558
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

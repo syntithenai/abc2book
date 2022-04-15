@@ -1,0 +1,25 @@
+X:714
+T: STERBEN IST EIN HARTE BUSS
+N: E2160
+O: Europa, Mitteleuropa, Deutschland, Mittel - Franken, Wuelflingen
+R: geistlich, Moral - Lied, Tod
+M: 4/4
+L: 1/16
+K: F
+ | F6G2A4A4 | G4G4F4z2
+FG | A4A4c4c4 | c2B2B4A4z2
+FA | c4c2f2d6c2 | B3AB3dc6
+B2 | A4A4c2B2B2A2 | G4c4A6
+FA | c4c2f2d6c2 | B3AB3dc6
+B2 | A4A4c2B2B2A2 | G4c4A8
+S:https://www.folktunefinder.com/tunes/79818
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, moral - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

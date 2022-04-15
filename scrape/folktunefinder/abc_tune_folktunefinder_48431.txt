@@ -1,0 +1,30 @@
+X:1775
+T:Ride to Durham, The
+M:6/8
+L:1/8
+C:Armin Barnet and David Molk
+R:jig
+D:Liz Carroll: A Friend Indeed
+Z:Devin McCabe
+K:DMix
+ABA ABc|BAG AGE|~G3 GAB|AGE GED|
+!ABA ABc|BAG AGE|D F/2E/2D DFA|GEF D F/2E/2D|
+!ABA ABd|~B2G AEG|G, B,/2A,/2G GAB|AGE GED|
+!ABA ABc|BAG AGE|D F/2E/2D DFA|GEF D3|
+!ABA ABc|~d3 cAB|~G3 A~B2|AFG EFD|
+!ABA ABc|d2D GEF|D F/2E/2D DFA|GEF D F/2E/2D|
+!ABA A/2B/2d e|~d3 cAB|~G3 A~B2|AFG EFD|
+!ABA D/2F/2A B|c2E GEC|D F/2E/2D DFA|GEF D3||
+% Output from ABC2Win  Version 2.1 i on 10/3/2003
+S:https://www.folktunefinder.com/tunes/48431
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

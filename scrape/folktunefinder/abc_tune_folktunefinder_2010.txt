@@ -1,0 +1,32 @@
+X: 73
+T:Flowers of Edinbrough. JMP.073
+M:C|
+L:1/8
+Q:200
+C:"78"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Reel
+O:Scotland
+A:Perth
+N:1 - These 3 notes marked as a triple
+H:1799
+Z:vmp.C.  Graebe
+K:G major
+GE | D3 E G3 A | BGdG B2 AG | G2 E2 (DE)(FG) | AFdF E3G |!
+D3 E G3 A | BABd efge | (dc)(BA) (GF)(GA) | B2 G2G2 :|!
+|:d2 | gfga "1" g/a/b ag | fefg "1"f/g/a gf | edef gfed | B2 e>f e2 eg |!
+dBAG d2 Bd | edef g2 fe | dcBA (GF)GA | B2 G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/2010
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

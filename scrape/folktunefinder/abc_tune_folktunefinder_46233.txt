@@ -1,0 +1,30 @@
+X:14958
+T:Schottis fr Norbotten
+S:Spaelimenninnir
+R:Schottische
+O:Sweden
+O:Norway
+M:4/4
+A:Norrbotten
+K:Dm
+A,2 |\
+D2DE F2FG | A2AB A4 | d2de f2e2 | d4-dAde |\
+f2e2 d2AB | c2B2 A2FG | ABAG F2G2 | A6 de |
+f2e2 d2AB | c2B2 A2FG | ABAG F2E2 | D6 ::\
+A2 |\
+AFDF AFDF | A2d2 c2B2 |
+ABAG F2G2 | A6 A2 |\
+AFDF AFDF | A2d2 c2B2 |ABAG F2E2 D6 :|
+S:https://www.folktunefinder.com/tunes/46233
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

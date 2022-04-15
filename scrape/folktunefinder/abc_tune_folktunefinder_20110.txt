@@ -1,0 +1,33 @@
+X: 1
+T: Ned Of The Hill
+T: Eamonn \`a Chnuic,
+M: 3/4
+L: 1/8
+R: waltz, air
+S: http://www.thesession.org/tunes/display/6508
+K: G
+BA \
+| G3  E F2 | G4   GA | B2 g2 f2 | e4 ge \
+| d2 B2 A2 | G3 A B2 | c3  B AG | E4 BA |
+| G2 E2 F2 | G4   GA | B g3  f2 | e4 ge \
+| d2 B2 A2 | G3 A B2 | A3  G GF | G4 |]
+d2 \
+| e c3  g2 | d4    d2 | e2 f3 e | d4 de \
+| d2 B2 A2 | G3  A B2 | c3 B AG | E4 BA |
+| G2 E2 F2 | G4    GA | B2 g3 f | e4 ge \
+| d3  e dB | A2 G2 AB | A3 G GF | G4 |]
+S:https://www.folktunefinder.com/tunes/20110
+S:http://trillian.mit.edu/~jc/music/abc/waltz/NedOfTheHill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/NedOfTheHill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/NedOfTheHill_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/waltz/NedOfTheHill_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/waltz/NedOfTheHill_G.abc
+% Rhythm Waltz, air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

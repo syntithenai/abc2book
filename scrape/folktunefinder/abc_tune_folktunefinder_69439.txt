@@ -1,0 +1,32 @@
+X:580
+T: "Fruehlingshoffnung"
+N: Z1260
+O: Europa, Mitteleuropa, Steiermark
+N: Die letzten 16 Takte werden auf verschiedene Silben gesungen.
+R: Natur und Welt
+M: 3/4
+L: 1/16
+K: Db
+A3B | A4d2d2d2d2 | g3gc4
+A2B2 | A3cc2c2B2c2 | f3fd4
+ABc2 | d3ef2e2d2c2 | g3fe2d2
+c2B2 | A2a2a2a2g2c2 | d4z2
+A2B2c2 | d4F2A2d2f2 | g3fe6
+d2 | c2B2A2E2B2A2 | A2G2F2A2B2
+c2 | d4F2A2d2f2 | g2f2e6
+d2 | c2B2A2E2B2A2 | D4z2
+A,2B,2C2 | D4F2A2d2f2
+g2zfg2zfe4 | g2zfg2zfe4
+f2zef2zed4 | D2F2A2d2f2a2
+b2a2g2f2e2d2 | c2B2A2E2B2A2 | D4d2z2
+S:https://www.folktunefinder.com/tunes/69439
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

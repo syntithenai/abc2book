@@ -1,0 +1,30 @@
+X: 1
+T: the Persian Dance
+O: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB |1 "C"cBcd edcB | "D7"A2A2 A2 :|2 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 |1 .d2.d2 "C"edcB | "D7"AGAB A2Bc :|2 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/17855
+S:http://trillian.mit.edu/~jc/music/abc/reel/PersianDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/PersianDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PersianDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/PersianDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PersianDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/PersianDance.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

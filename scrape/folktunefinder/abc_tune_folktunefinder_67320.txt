@@ -1,0 +1,24 @@
+X:90
+T:Cup of Tea, The
+R:reel
+Z:Sometimes played as a two-part-only reel.
+Z:id:hn-reel-63
+M:C|
+K:Edor
+BAGF GEEE|GEBE GEEE|BAGF GEEE|FDAG FDDD|
+BAGF GEEE|GEBE GEEE|BAGF GAB^c|1 dBAG FDD2:|2 dBAG FDD2||
+|:d2 de fdec|dcde fB~B2|d2 eg fdec|dBAG FDD2|
+d2 de fdec|dfaf g2fg|afge fdec|dBAG FDD2:|
+|:FAdA FAdA|FAdA FE~E2|~F3A BABc|dBAG FDD2|
+FAdA FAdA|FAde fe~e2|fdec dBAF|GBAG FDD2:||
+S:https://www.folktunefinder.com/tunes/67320
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

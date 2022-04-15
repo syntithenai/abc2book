@@ -1,0 +1,31 @@
+X: 1
+T: la F\'ee des Dents
+T: the Tooth Fairy
+C: Andr\'e Brunet
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watchv=Rm_FyS7ceSc
+M: 6/8
+L: 1/8
+%%slurgraces 1
+K: G
+|:"G"B2D- DGA | Bdc BAG | "C"{B}c2E- EFG | "D7"FAG FED \
+| "G"~B3  DGA | Bdc Bgf | "C"egd- dcB | "D7"AGF "G"G3 :|
+|:"C"~e3  edB | ced cBc | "G/B"d2B- BAG | Bdc BAG \
+| "C"e2c  efg | "D7"afd- dcB | "C"ced cBA | "D7"AGF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14168
+S:http://www.youtube.com/watchv=Rm_FyS7ceSc
+S:http://www.youtube.com/watchv=Rm_FyS7ceSc
+S:http://trillian.mit.edu/~jc/music/abc/jig/FeeDesDents_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FeeDesDents_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/FeeDesDents_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/FeeDesDents_G.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

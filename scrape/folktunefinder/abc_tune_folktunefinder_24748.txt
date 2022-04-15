@@ -1,0 +1,21 @@
+X:4296
+T:Mist Covered Mountain, The
+O:england
+R:jig
+M:6/8
+L:1/8
+K:D
+ADD BAG|ADD EFG|ADD (3=ccc A|GE=C EFG|
+ADD BAG|ADD EFG|AB=c cBA|GE=C EFG:|
+|:A2d dAd|dAd dcd|A2d dAB|=cBA GE=C|
+D2d dAd|dAd dAB|(3=ccc c cBA|GE=C EFG:||
+S:https://www.folktunefinder.com/tunes/24748
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

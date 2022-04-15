@@ -1,0 +1,24 @@
+X:300
+T: EIN GROBSCHMIDT SASS IN GUTER RUH
+N: F0526
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | GED
+D | G2d2 | B2G2 | ADD
+D | EEDD | EED
+D | EEFF | G2
+d2 | BBAA | G2z
+S:https://www.folktunefinder.com/tunes/69860
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

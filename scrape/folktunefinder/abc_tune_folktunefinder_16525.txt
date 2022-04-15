@@ -1,0 +1,26 @@
+X: 1
+T: Schlakapolska
+S: from a tape from Rita Leydon
+Z: from a transcription by Matt Fichtenbaum
+%%staffsep 50
+M: 3/4
+L: 1/8
+K: D
+|: "D"D>(F A)>(d f)>a | "A7"a>g (3(efg) "D"f2 \
+| "A7"(3(efg) (f>d) e>c |1,3 (3A(Bc) "D"d>A (3F(AF) \
+                      :|2,4 "A7"(3A(Bc) "D"d4 :|
+|: "G"B>A (B<d) c>B | "D"A>a (3f(af) (3d(fd) \
+| "A7"A>g (3e(ge) (3c(ec) |1,3 "D"A>a (3f(af) "D7"d>=c \
+                         :|2,4 "A7"(3A(Bc) "D"d4 :|
+S:https://www.folktunefinder.com/tunes/16525
+S:http://trillian.mit.edu/~jc/music/abc/pols/SchlakaPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SchlakaPolska.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

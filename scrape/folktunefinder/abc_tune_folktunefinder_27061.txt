@@ -1,0 +1,25 @@
+X:6609
+T:the Castle O'Trim
+O:england
+N:Dec '96
+M:4/4
+C:Andy Hornby
+A:Lancaster
+K:G
+d2e(c c2)d2| B2c(A A2)c2| BAG(A A)GFE| D3(D D4)|\
+d2e(c c2)d2| B2c(A A2)c2| BAG(A A2)F2| G3(G G4):|
+|:B2G(c c2)A2|BAG(A A2)F2|D3(D D4)|\
+B2G(c c2)A2|BAG(A A2)F2|G3(G G4):|
+|:g2d(e e)cdB|c2A(B B)GAF|D3(D D4)|\
+g2d(e e)cdB|c2A(B B)GAF|G3(G G4):|
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/27061
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

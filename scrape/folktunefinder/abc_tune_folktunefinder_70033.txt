@@ -1,0 +1,26 @@
+X:473
+T: ICH KAM VOM WALDE
+N: F0891
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade, Liebe
+M: 6/8
+L: 1/16
+K: E
+E2 | E4G2G3GA2 | B4c2B4
+G2 | G3GG2G3FEF | G4z6
+B2 | B3BA2G3Be2 | d6c4
+e2 | d3cB2A2G2F2 | G4B2B2G2
+e2 | d3cB2A3GF2 | E4z6
+S:https://www.folktunefinder.com/tunes/70033
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

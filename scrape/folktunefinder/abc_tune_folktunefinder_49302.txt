@@ -1,0 +1,31 @@
+X:23
+T:Off to California
+M:4/4
+L:1/8
+K:G
+P:- A -
+(3(DEF) [| "G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "G" gfgd "Em" edBG | "Am" ABAG "D" E2 D<-F |
+"G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "G" gfgd "Em" edBG | [1 "G" AGEF "D" G2 (3(DEF) :| [2 "G" AGEF "D" G2 e<-f ||
+P:- B -
+|: "Em" gfeg "Bm" fedf | "C" edef "Em" edBf | "G" gfgd "Em" edBG | "Am" ABAG "D" E2 D<-F |
+"G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "D" gfgd "Em" edBG | [1 "D" AGEF "G" G2 e<-f :| [2 "D" AGEF "G" G2 |]
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49302
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

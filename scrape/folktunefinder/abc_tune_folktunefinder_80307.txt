@@ -1,0 +1,24 @@
+X:248
+T: St. Michael
+N: A0609
+O: Europa, Mitteleuropa, Deutschland
+N: Wuerzburger Gsgb 1649 und bei Ditfurth, Fraenk. Vl I.2, No. 55.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/4
+L: 1/4
+K: E
+E | E2F | =G2G | A2A | B2=G | A2A | B2
+B | B2=c | =d2B | B2A | =G2
+B | A2=G | FEB | A2=G | FE=G | A2F | E2
+S:https://www.folktunefinder.com/tunes/80307
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

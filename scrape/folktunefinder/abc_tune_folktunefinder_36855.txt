@@ -1,0 +1,28 @@
+X:3880
+T:the New-Rigged Ship
+A:North-West
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004d8.html
+%%ID:000004d8
+K:D
+A|\
+d2d def| d2d def| ecA Acd| ecA A2A|\
+d2d def| d2d def| egf edc| d3 d2:|
+f/g/|\
+a2f a2f| d3 d3| b2g b2g| e3 e3| \
+a2f a2f| d3 f3| egf edc| d3 d2 f/g/||
+agf agf| ded dfa| bag bag| efe efg| \
+agf agf| def fed| egf edc| d3 d2|]
+S:https://www.folktunefinder.com/tunes/36855
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

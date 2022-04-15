@@ -1,0 +1,43 @@
+X: 1
+T: Reinlender efter Hilmar Alexandersen
+O: Trad
+N: Harmony by John Chambers
+Z: John Chambers <jc@trillian.mit.edu>
+%%strictness 1.0
+M: 4/4
+L: 1/8
+K: D
+V:1 stv=2
+ab \
+| a2 fd A2 de | d2 c2 cd ef |1,3 g2 A2 e2 A2 | de fg a2  \
+                           :|2,4 g2 A2 eg fe | d2 [f2d2] d2 :|
+K:G
+|: GB \
+| d2-d2 Bc de | d2 d2 B2 GB | d2-d2 Bd ga | g2 f2 f2 AB \
+| c2-c2 AB cd | c2 c2 A4 | {de}f2 f2 e2 e2 | de dc B2 GB ||
+y8\
+| d2-d2 Bc de | d2-d2 B2 GB | d2 d2 Bd gf | f2 e2 e4 \
+| a2 a2 ag fe | e2 d2 dc B2 | A2 {G}AB cd ef | g2 g2 g2 :|
+V:2
+fg \
+| "D"f2 dA F2 AA | "A7"A2 AB c2 cB |1,3 A2 AB cB AG | "D"FD FA d2 \
+                                  :|2,4 A2 AB cB AG | "D"F2 D2 D2 :|
+K:G
+|: DG \
+| "G"B2-B2 GA Bc | B2 B2 G2 DG | B2-B2 GA Bc | "D7"d2 A2 A2 FG \
+|    A2-A2 FG AB | A2 A2 F4 | {Bc} d2 d2 c2 c2 | "G"BA GA G2 DG ||
+y8\
+| "G"B2-B2 GA Bc | B2 B2 G2 DG | B2-B2 GB d2 | "C"d2 c2 c4 \
+| "(Am)"c2 cd ed c2 | "G"B2 Bc "(Em)"BA G2 | "Am"F2 FG "D7"A2 dc | "G"B2 [B2G2] [B2G2] :|
+S:https://www.folktunefinder.com/tunes/18438
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Reinl_HilmarAlexandersen_DV.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Reinl_HilmarAlexandersen_DV.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

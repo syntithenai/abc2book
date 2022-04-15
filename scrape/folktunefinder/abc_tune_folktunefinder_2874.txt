@@ -1,0 +1,60 @@
+X: 1
+T: Mari\vcensko pravo horo
+O: Bulgaria
+M: 12/16
+L:  1/16
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Based on recording, plus transcriptions by Bill Tomczak and Tom Pixton.
+P: 2x(ABCD,EFG)ABCD
+K: BPhr
+"A"\
+|: "B"Bff f2e "Am"e^dc "B"B3 \
+| "B"^d2e f2f "Am"age  "B"f3 \
+|  "B"Bff f2e "Am"e^dc "B"B3 \
+| "Am"ABB B2c     e^dc "B"B3 :|
+"B"\
+|: "B"ABB B2c "Am"e^dc "B"^d3 \
+|    ^def "Em"g2f ege "B"f3 \
+|    fg^g aeg "Am"a3 =gfe \
+| "Am"^dfe edc "B"BBF B3 :|
+"C"\
+|: "B"fg^g aeg "Am"a3 gfe \
+|  ac'b beg gfe e^dc \
+| "B"fg^g aeg "Am"a3 gef \
+| "Am"^dfe edc "B"BBF B3 :|
+"D"\
+|: "B"ABB Bcc "Am"czc c2B \
+|  "B"ABB "Am"BFA BFA "B"B3 \
+|  "B"ABB Bcc "Am"czc c2B \
+|  "B"ABB "Am"BFA "B"B2F "fine"Bz2 :| [K:D]
+%%sep 5 5 10
+"E"\
+|: "A"A3 a3 agf e^dc \
+|  e^de fed c^Bc AeA \
+|  efa fgA f3 e^dc \
+|  e^de fed c^Bc A3 :|
+"F"\
+|: "A"efa fgA f3 e^dc \
+|  e^de fed c^Bc AeA \
+|  efa fgA f3 e^dc \
+|  e^de fed c^Bc A3 :|
+"G"\
+|: "D"d2f "A"e2f "D"d2f "A"e2f \
+|  "D"d2f "A"e2c "D"d2c "A"c2A \
+|  "D"d2f "A"e2f "D"d2f "A"e2f \
+| "D"d2f "A"e2c "D"d2c "A"c2A :|
+S:https://www.folktunefinder.com/tunes/2874
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/MaricenskoHoro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/MaricenskoHoro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Pravo_MaricenskoHoro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/MaricenskoHoro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Pravo_MaricenskoHoro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 12/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

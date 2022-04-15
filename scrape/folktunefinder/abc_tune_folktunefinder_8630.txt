@@ -1,0 +1,32 @@
+X: 1
+T: Drevsj\"ovalsen
+O: Norway, Sweden
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS via Amy Parker
+D: Kurbits "Folk Music from Sweden"
+M: 3/4
+L: 1/8
+K: A
+E2 \
+| "A"A2 A3 c | e2 e2 ab | "D"a2 f2 ec | "A"e4 cd \
+| "A"e2 e3 d | "F#m"c2 A2 c2 | "B(m)7"c2 BA Bc | "E7"B3 EFG |
+| "A"A2 A3 c | e2 e2 ab | "D"a2 f2 ec | "A"e4 cd \
+| "A"e2 e3 d | "E7"c2 BG BG | "A"A3 A A2 | "A"A4 :|
+|: "A7"a2 \
+| "D"f2 d2 f2 | a3 agf | "A"ed c2 cd | e4 cd \
+| "A"e2 e3 d | "F#m"c2 A2 c2 | "B(m)7"c2 BA Bc | "E7"B6 |
+| "A"ed cA ce | a4 g2 | "D"f2 ef ed | "A"c3 def \
+| "A"e2 ef ed | "E7"c2 BG BG | "A"A3 A A2 | A4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8630
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Drevsjovalsen.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

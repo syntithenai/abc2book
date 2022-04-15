@@ -1,0 +1,24 @@
+X:2397
+T:Cadeau's Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:Bb
+B-c|"Bb"dBF DFB-|dBF DFE-|"Bb"DFB dcB-|
+"Eb"AG^F "Cm"G2A|"F7"aAA aAa|"F7"g3 -ga-g|"F7"f=ef _ede-|d3 dB-c|
+"Bb"dBF DFB-|dBF DFE-|"Bb"DFB dcB-|"Eb"AG^F "Cm"G2A|
+"F7"aAA aAa|g3 -gA-G|"F7"FAc -ecA-|"Bb"B3 BF-E||
+"Bb"D-FA BFB-|d3 d^c=c|"Bb"B-AB gfg|f3 -f2b|"F7"a3 -a^ga|
+"F7"g3 -gag|f=ef _ede|"Bb"d3 -dF-E|"Bb"D-FA BFB-|d3 d^c=c|
+"Bb"B-AB gfg|f3 -f2b|"F7"a3 -a^ga|"F7"g3 -gAG|F-Ac ecA-|"Bb"B3 B||
+S:https://www.folktunefinder.com/tunes/28677
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

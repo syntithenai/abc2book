@@ -1,0 +1,25 @@
+X: 1
+T: Lord MacDonald's Reel
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 6-__
+M: C|
+L: 1/8
+K: G
+B \
+|: "G"d3e dBgB | dBgB "D7"aAAB | "G"d^cde dBgB | "D7"A{B}c BA "G"BGG2 :|
+[| "G"DGBG AGBG | DGBG "C"AGEG | "G"DGBG "(C)"AGBG | "D7"DEDC "G"B,G,G,2 |]
+[| "G"DGBG AGBG | DGBG "C"AGEc | "G"BAGF "C"GFED | "D7"EFGA "G"BGG2 |]
+S:https://www.folktunefinder.com/tunes/17582
+S:http://trillian.mit.edu/~jc/music/abc/reel/LordMacDonaldsR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LordMacDonaldsR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LordMacDonaldsR_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LordMacDonaldsR_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

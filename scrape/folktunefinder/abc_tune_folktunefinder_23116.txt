@@ -1,0 +1,29 @@
+X:2665
+T:House that Jack built,The. CJF.168
+O:england
+M:6/8
+L:1/8
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Jig
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:I have added the final rest to allow repeats to scan. "C J Fox" is
+N:written in the stave, after the tune.  - PJH.
+K:C
+G|(Ge).dc2B|(AB).cG2G|G<ccd2G|(Bd)dd2G|(Ge).dc2c|ABcG2G|Adc {c/}BAB|
+d3-c2||d|dcB BAG|c2d e2g|gfe fAd|c3-B2d|(dc).B (BA).G|c2de2g|
+gfe fdB|(B3c2)||G|e2c {d/}cBc|f2d {e/}d^cd|B2g {a/}g^fg|e2c cBc|
+e2c {d/}cBc|f2d {e}d^cd|dedB2G|e3cz||
+S:https://www.folktunefinder.com/tunes/23116
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

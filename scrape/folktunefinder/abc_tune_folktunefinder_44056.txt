@@ -1,0 +1,25 @@
+X: 62
+T:Korybushka
+% Nottingham Music Database
+S:Russian, via EF
+M:4/4
+L:1/4
+K:Em
+P:A
+e|"Bm"BB Bd|"Bm"ff ed|"Em"ee eg|"Em"bb ag|"B7"f3g|"B7"a2 b2|"Em"g2 "Am"e2|\
+"Em"e3:|
+K:G
+P:Up an octave
+|:c'|"Am"c'2 -"g"c'd'|"D7/f"e'2 d'c'|"G"bb bg|"Em"b2 ag|"B7"f3g|"B7"a2 b2|"Em"g2 "Am"e2|\
+"Em"e3:|
+S:https://www.folktunefinder.com/tunes/44056
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:48
+T: Der Denemerker Ton
+N: A0402
+O: Europa, Mitteleuropa, Deutschland
+N: Einzeldruck von 1546
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: E
+B2 | =c2c2B2c2 | =d2=c2B4 | z2
+B2=c2B2 | A4=c2B3A=G=F | E4z2
+B2 | =c2B2c2A2 | =G6=FE | =D4=C4 | z4
+=C4 | =G4G2A4=c2 | B3A=G=FE2z2
+B2 | =c2=d2e2d2 | =c4B4 | =G2A4G2 | =F4E2
+S:https://www.folktunefinder.com/tunes/80107
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1655
+T:Engelska 2
+D:Filarfolket `Birfilar Musik frn Malm'
+M:4/4
+N:from the playing of Gisen Malmqvist.
+O:Sweden
+R:Engelska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c57.html
+%%ID:00000c57
+K:Bb
+f2|\
+bfdB F2b2 | geBG E2 g2 | fecA FAcA | B2 dc B2 ::
+K:F
+AB |\
+c2f2 a2fa | gbeg faAB | c2f2 a2fa | gbeg f2 :|
+S:https://www.folktunefinder.com/tunes/36410
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Engelska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

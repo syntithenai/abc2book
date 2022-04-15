@@ -1,0 +1,25 @@
+X:694
+T: DER KAISER UND DER KOENIG
+N: E2119B
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: geistlich, Heiligen - Lied, Legende
+M: 4/4
+L: 1/8
+K: G
+D2 | G3Ac_BAG | FED2z2
+d2 | d2c_Bc2B2 | A4z2
+A2 | _B2BcddcB | c3_BA2
+d2 | G2GA_B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/79798
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, heiligen - lied, legende
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

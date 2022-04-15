@@ -1,0 +1,26 @@
+X: 210
+T: the Boys of Carrigallen
+B: O'Neill's 210
+N: "Cheerful"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:Am
+E \
+| A2E A>(Bc/d/) | e>de (A2B/A/) | G2D G>(AB/c/) | d>cd G2B |
+| A2E ABd | e2^f g>fg | edc Bcd | ecA A2 :|
+|| a \
+| a^ga A2a | a^ga A2g | g^fg G2=g | g^fg G2B |
+| c2c d2d | e^fg a3 | edc Bcd | ecA A2 :|
+S:https://www.folktunefinder.com/tunes/80488
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0210_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

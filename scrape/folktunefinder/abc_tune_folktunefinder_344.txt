@@ -1,0 +1,34 @@
+X: 1
+T: Aah hva' \ae de m\ae d\ae
+O: Danmark
+R: shottish/polka
+M: 4/4
+L: 1/8
+K: C
+G \
+| "C"E>G c>B "F"A3 F | "G7"D>F A>G "C"E3 G | "C"E>G c>B "Dm"A>F d>c | "G7"B>G G>d "C"c2 z :|
+M: 2/4
+L: 1/16
+G4 \
+| "C"[e2c2][ec][ec] [e2c2][d2G2] | "F"[c2A2][cA][cA] [c2A2][A2F2] \
+| "C"[G2E2][GE][GE] [G2E2][c2E2] | "C"[E4C4] z2[G2E2] \
+| "G7"[F2D2][FD][FD] [F2D2][A2F2] | "G7"[D4B,4] z2[F2D2] \
+| "C"[E2C2][EC][EC] [E2C2][G2E2] | "C"C2z2 ||
+"G7"k[G4F4B,4] \
+| "C"[e2c2][ec][ec] [e2c2][d2G2] | "F"[c2A2][cA][cA] [c2A2][A2F2] \
+| "C"[G2E2][GE][GE] [G2E2][c2E2] | "C"[E4C4] z2[G2E2] \
+| "G7"[F2D2][FD][FD] [F2D2][d2F2] | "G7"[B2F2]G2 [A2F2][B2F2] \
+| "C"[c4E4] [c3E3][cE] | "C"[c4E4]z2 |]
+S:https://www.folktunefinder.com/tunes/344
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/folk.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/AahHvaAeDeMaeDae_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/folk/AahHvaAeDeMaeDae_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/AahHvaAeDeMaeDae_C.abc
+% Rhythm Shottish/polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

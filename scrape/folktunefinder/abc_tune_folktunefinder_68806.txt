@@ -1,0 +1,24 @@
+X:260
+T: Tanz- und Scherzliedchen
+N: A0304A
+O: Europa, Mitteleuropa, Deutschland
+N: Werlins Hs. 1646. S. 1765
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+F2F | G2A | B2B | A2A | G2G | F3
+F2F | G2A | B2B | A2A | G2G | F2
+A | A2B | c2c | GGB | A2G | A2A | GG
+F | G2A | B2A | G3 | F3
+S:https://www.folktunefinder.com/tunes/68806
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

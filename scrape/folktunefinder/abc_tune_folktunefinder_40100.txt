@@ -1,0 +1,125 @@
+X:8311
+T:Concerto
+T:Op. 10 no. 1 "La tempesta di mare"\.i ("The storm at sea")
+T:1. Allegro
+C:Antonio Vivaldi
+O:Italy
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/vivaldi-antonio/vivaldi-op10-01.abc
+%Posted at abcusers May 31th 2002 by Frank Nordberg
+V:1 Program 1 73 %Flute
+V:2 Program 1 110 %Fiddle
+V:3 Program 1 40 %Violin
+V:4 Program 1 41 %Viola
+V:5 Program 1 42 %Cello
+V:6 Program 1 6 %Harpsichord
+M:C
+L:1/16
+Q:1/4=108
+K:F
+V:1
+FGAB cdef F2F2F2F2|FGAB cdef F2F2F2F2|cdef gabc' c2c2c2c2|cdef gabc' c2c2c2c2|A2c'b agf_e dddd dddd|\
+d2ba gfed cccc cccc|c2ag fedc BBBB BBBB|B2gf edcB A4 z4|bgbg afaf gege afaf|bgbg afaf gege afaf|\
+bgbg afaf gc'ba gfed|c2c2c2c2 cc'ba gfed|c2c2c2c2 c'ac'a c'ac'a|c'gc'g c'gc'g c'gc'g c'gc'g|f2 ed cBAG F2F2F2F2|\
+F4 z4 "^Solo"fafa cafa|cafa cafa cgeg cgeg|cgeg cgeg cafa cafa|cafa cafa g2c2 z4|Afcf Afcf Afcf Afcf|\
+Bfdf Bfdf Bfdf Bfdf|=Bgdg Bgdg Bgdg Bgdg|cgeg cgeg cgeg cgeg|^caea caea caea caea|dafa dafa dafa dafa|\
+dbfb dbfb dbfb dbfb|e2c2 z4 z8|fcfa fcfa dBBB BBBB|gdgb gdgb eccc cccc|aeac' aeac' fddd dddd|\
+=bgbd' bgbd' egc'g egc'g|dgc'g dgc'g dg=bg dgbg|"^Tutti"cdef ga=bc' c2c2c2c2|cdef ga=bc' c2c2c2c2|GA=Bc defg G2G2G2G2|\
+GA=Bc defg G2G2G2G2|fdfd ecec d=BdB ecec|fdfd ecec =B4 z4|f4 z4 f4 z4|c'c'c'c' c'c'c'c' c'c'c'c' c'c'c'c'|\
+=bbbb bbbb "^Solo"c'ggc' c'gge|^ceea aeef fddf fc'c'f|^fddf faaf ^gddg gbbg|^geeg g=bbg aeea ac'c'a|=bebe aeae ^gege aeae|\
+=bebe aeae ^gege aeae|aeae ^gege a4 z4|z16|z16|z16|\
+"^Solo"(3agf (3efg (3agf (3efg f2d2 z2 d2|(3gfe (3def (3gfe (3def e2c2 z2 e2|ae3 ae3 d^c3 ge3|fe3 af3 bg3 ed3|^cA3 ge3 fd3 af3|\
+bg3 ^c'a3 (3d'de (3fed (3d'de (3fed|(3bd'c' (3bag (3bd'c' (3bag (3ac'b (3agf (3ac'b agf|(3gba (3gfe (3gba (3gfe fdfa fdfa|^geg=b gegb aeac' aeac'|fdf/g/a fdf/g/a gdg/a/b gdg/a/b|\
+ece/f/g ece/f/g/ fcf/g/a fcf/g/a|gcg/a/b gcg/a/b ac'af cfcA|F2F2F2F2 FGAB cdef|F2F2F2F2 FGAB cdef|c2c2c2c2 cdef gabc'|\
+c2c2c2c2 cdef gabc'|bgbg afaf gege afaf|bgbg afaf gc'ba gfed|c2c2c2c2 gc'ba gfed|c2c2c2c2 gc'c'g gc'c'e|\
+egge eggc ceeB BeeG|G4 z4 z8|c'bag fedc c'bag fedc|c'bag fedc c2c2c2c2|c4 z4 Hz8|]
+V:2
+FGAB cdef F2F2F2F2|FGAB cdef F2F2F2F2|CDEF GABc C2C2C2C2|CDEF GABc C2C2C2C2|C4 z4 z bag f_edc|\
+B4 z4 z agf edcB|A4 z4 z gfe dcBA|G4 z4 FFFF FFFF|bgbg afaf gege afaf|bgbg afaf gege afaf|\
+bgbg afaf gcBA GFED|C2C2C2C2 CcBA GFED|C2C2C2C2 afaf afaf|gfgf gfgf gege gege|f2 ed cBAG F2F2F2F2|\
+F4 z4 cfcf Afcf|Afcf Afcf eece Gece|Gece Gece Afcf Afcf|Afcf Afcf e4 z4|FcAc FcAc FcAc FcAc|\
+FdBd FdBd FdBd FdBd|Gd=Bd GdBd GdBd GdBd|Gece Gece Gece Gece|Ae^ce Aece Aece Aece|Afdf Afdf Afdf Afdf|\
+Bfdf Bfdf Bfdf BfdB|G2E2 z4 z8|z8 z ddd dddd|d4 z4 z eee eeee|e4 z4 z fff ffff|\
+f4 z4 e2e2e2e2|d2d2d2d2 d2d2d2d2|CDEF GA=BC C2C2C2C2|CDEF GA=BC C2C2C2C2|G,A,=B,C DEFG G,2G,2G,2G,2|\
+G,A,=B,C DEFG G,2G,2G,2G,2|FDFD ECEC D=B,DB, ECEC|FDFD ECEC [=B4F4G,4] z4|[=B4F4G,4] z4 [B4F4G,4] z4|eeee eeee dddd dddd|\
+dddd dddd e4 g4|g4 g4 f4 f4|^f4 f4 ^g4 g4|^g4 g4 a4 a4|=b4 a4 ^g4 a4|\
+=b4 a4 ^g4 a4|a4 ^g4 aaaa aaa=g|^ffff ffff gggg ggg=f|eeee eeee ffff fffe|dddd dddd eeee eeed|\
+C2A,2A,2A,2 D2D2D2D2|=B,2B,2B,2B,2 C2C2C2C2|^C2C2C2C2 A,2A,2A,2A,2|D2D2D2D2 G,2G,2^G,2G,2|A,2A,2A,2A,2 D2D2D2D2|\
+G2G2G2G2 F4 z4|z16|z16|z16|z16|\
+z16|z16|F2F2F2F2 FGAB cdef|F2F2F2F2 FGAB cdef|C2C2C2C2 CDEF GABC|\
+C2C2C2C2 CDEF GABC|BGBG AFAF GEGE AFAF|BGBG AFAF GCBA GFED|C2C2C2C2 CCBA GFED|C2C2C2C2 GCBA GFED|C2C2C2C2 egge eggc|\
+ceec ceeG GccG GccE|E4 z4 z8|cBAG FEDC cBAG FEDC|cBAG FEDC C2C2C2C2|C4 z4 Hz8|]
+V:3
+FGAB cdef F2F2F2F2|FGAB cdef F2F2F2F2|CDEF GABc C2C2C2C2|CDEF GABc C2C2C2C2|C4 z4 z Bcd _efga|\
+b4 z4 z ABc defg|a4 z4 z GAB cdef|g4 z4 FFFF FFFF|gege fcfc ecec fcfc|gege fcfc ecec fcfc|\
+gege fcfc ecBA GFED|C2C2C2C2 CcBA GFED|C2C2C2C2 fcfc fcfc|fcfc fcfc ecec ecec|f2 ed cBAG F2F2F2F2|\
+F4 z4 z8|z16|z16|z8 GGGG GGGG|A4 z4 z8|\
+z16|z16|z16|z16|z16|\
+z16|GGGG GGGG GGGG GGGG|c4 z4 z fff ffff|g4 z4 z ggg gggg|a4 z4 z aaa aaaa|\
+=b4 z4 c2c2c2c2|c2c2c2c2 =B2B2B2B2|CDEF GA=Bc C2C2C2C2|CDEF GA=Bc C2C2C2C2|G,A,=B,C DEFG G,2G,2G,2G,2|\
+G,A,=B,C DEFG G,2G,2G,2G,2|DG,DG, CG,CG, =B,G,B,G, CG,CG,|DG,DG, CG,CG, [=B4F4G,4] z4|[=B4F4G,4] z4 [B4F4G,4] z4|cccc cccc cccc cccc|\
+=BBBB BBBB c4 e4|^c4 c4 A4 A4|A4 A4 =B4 B4|=B4 B4 c4 c4|d4 c4 =B4 c4|\
+d4 c4 =B4 c4|=B4 B4 c^ccc cccc|=cccc cccc =BBBB BBBB|_BBBB BBBB AAAA AAAA|AAAA AAAA ^GGGG GGGG|\
+A2A,2A,2A,2 D2D2D2D2|=B,2B,2B,2B,2 C2C2C2C2|^C2C2C2C2 A,2A,2A,2A,2|D2D2D2D2 G,2G,2^G,2G,2|A,2A,2A,2A,2 D2D2D2D2|\
+G2G2G2G2 F4 z4|z16|z16|z16|z16|\
+z16|z16|F2F2F2F2 FGAB cdef|F2F2F2F2 FGAB cdef|C2C2C2C2 CDEF GABc|\
+C2C2C2C2 CDEF GABc|GCGC FCFC ECEC FCFC|GCGC FCFC EcBA GFED|C2C2C2C2 GcBA GFED|C2C2C2C2 ceec ceeG|\
+GccG GccE EGGE EGGB,|B,4 z4 z8|cBAG FEDC cBAG FEDC|cBAG FEDC C2C2C2C2|C4 z4 Hz8|]
+V:4
+z8 F,G,A,B, CDEF|F,2F,2F,2F,2 F,G,A,B, CDEF|C2C2C2C2 CDEF GABc|C2C2C2C2 CDEF GABc|F4 z4 F2F2F2F2|\
+G4 z4 E2E2E2E2|F4 z4 D2D2D2D2|E4 z4 FFFF FFFF|E2E2C2C2 C2C2C2C2|E2E2C2C2 C2C2C2C2|\
+E2E2C2C2 C2C2C2C2|CcBA GFED C2C2C2C2|CcBA GFED Cccc Cccc|Cccc Cccc Cccc Cccc|F2 ED CB,A,G, F,2F,2F,2F,2|\
+F,4 z4 F,4 F,4|F,4 F,4 C4 C4|C4 E4 F4 F4|F4 F4 EEEE EEEE|C4 z4 z8|\
+z16|z16|z16|z16|z16|\
+z16|EEEE EEEE EEEE EEEE|F4 z4 z BAG F_EDC|B,4 z4 z cBA GFED|C4 z4 z dcB AGFE|\
+D4 z4 G2G2G2G2|G2G2G2G2 G2G2G2G2|C2C2C2C2 CDEF GA=Bc|C2C2C2C2 CDEF GA=Bc|G,2G,2G,2G,2 G,A,=B,C DEFG|\
+G,2G,2G,2G,2 G,A,=B,C DEFG|G,GGG G,GGG G,GGG G,GGG|G,GGG G,GGG GFED C=B,A,G,|=BAGF EDC=B, dcBA GFED|GGGG GGGG GGGG GGGG|\
+GGGG GGGG G4 E4|E4 E4 D4 D4|D4 D4 D4 D4|E4 E4 E4 E4|^G4 E4 E4 E4|\
+^G4 E4 E4 E4|E4 E4 EEEE EEE^C|A,AAA AAA^F DDDD DDD=B,|G,GGG GGGE CCCC CCCA,|F,FFF FFFD =B,B,B,B, B,B,B,^G,|\
+E,2A,2A,2A,2 D2D2D2D2|=B,2B,2B,2B,2 C2C2C2C2|^C2C2C2C2 A,2A,2A,2A,2|D2D2D2D2 G,2G,2^G,2G,2|A,2A,2A,2A,2 D2D2D2D2|\
+G2G2G2G2 F4 z4|z16|z16|z16|z16|\
+z16|z16|F,G,A,B, CDEF F,2F,2F,2F,2|F,G,A,B, CDEF F,2F,2F,2F,2|CDEF GABc C2C2C2C2|\
+CDEF GABc C2C2C2C2|C2C2C2C2 C2C2C2C2|C2C2C2C2 C2C2C2C2|CcBA GFED C2C2C2C2|CcBA GFED C2C2C2C2|\
+C2C2C2C2 C2C2C2C2|C4 z4 z8|cBAG FEDC cBAG FEDC|cBAG FEDC C2C2C2C2|C4 z4 Hz8|]
+V:5
+z8 F,,G,,A,,B,, C,D,E,F,|F,,2F,,2F,,2F,,2 F,,G,,A,,B,, C,D,E,F,|C,2C,2C,2C,2 C,D,E,F, G,A,B,C|C,2C,2C,2C,2 C,D,E,F, G,A,B,C|F,4 z4 B,,2B,,2B,,2B,,2|\
+B,,4 z4 A,,2A,,2A,,2A,,2|A,,4 z4 G,,2G,,2G,,2G,,2|G,,4 z4 F,F,F,F, F,F,F,F,|C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,CCC C,CCC|C,CCC C,CCC C,CCC C,CCC|F,2 E,D, C,B,,A,,G,, F,,2F,,2F,,2F,,2|\
+F,,4 z4 F,,4 F,,4|F,,4 F,,4 C,4 C,4|C,4 E,4 F,4 F,4|F,4 F,4 C,C,C,C, B,,B,,B,,B,,|A,,4 z4 F,2F,2_E,2E,2|\
+D,4 B,,4 D,4 B,4|G,4 z4 G,2G,2F,2F,2|E,4 C,4 E,4 C4|A,4 z4 A,2A,2G,2G,2|F,4 D,4 F,4 D4|\
+B,4 z4 B,4 B,,4|C,C,C,C, C,C,C,C, B,,B,,B,,B,, B,,B,,B,,B,,|A,,4 z4 z B,A,G, F,_E,D,C,|B,,4 z4 z CB,A, G,F,E,D,|C,4 z4 z DCB, A,G,F,E,|\
+D,4 z4 C,2C,2C,2C,2|G,2G,2G,2G,2 G,,2G,,2G,,2G,,2|C,2C,2C,2C,2 C,D,E,F, G,A,=B,C|C,2C,2C,2C,2 C,D,E,F, G,A,=B,C|G,,2G,,2G,,2G,,2 G,,A,,=B,,C, D,E,F,G,|\
+G,,2G,,2G,,2G,,2 G,,A,,=B,,C, D,E,F,G,|G,,G,G,G, G,,G,G,G, G,,G,G,G, G,,G,G,G,|G,,G,G,G, G,,G,G,G, G,F,E,D, C,=B,,A,,G,,|=B,A,G,F, E,D,C,=B,, DCB,A, G,F,E,D,|C,2C,2C,2C,2 G,2G,2G,2G,2|\
+G,,2G,,2G,,2G,,2 C,4 C,4|A,,4 A,,4 D,4 D,4|C,4 C,4 =B,,4 B,,4|E,4 E,4 A,,4 A,,4|E,4 E,4 E,4 E,4|\
+E,4 E,4 E,4 E,4|E,4 E,4 A,,A,,A,,A,, A,,A,,A,,A,,|D,D,D,D, D,D,D,D, G,G,G,G, G,G,G,G,|C,C,C,C, C,C,C,C, F,F,F,F, F,F,F,F,|=B,,B,,B,,B,, B,,B,,B,,B,, E,E,E,E, E,E,E,E,|\
+A,,4 z4 z8|z16|z16|z16|z16|\
+z8 F,2F,2F,2F,2|G,2G,2E,2E,2 F,2F,2D,2D,2|E,2E,2^C,2C,2 D,2D,2D,2D,2|E,2E,2D,2D,2 C,2C,2C,2C,2|D,2D,2D,2D,2 B,,2B,,2B,,2B,,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 F,2F,2F,2F,2|F,,G,,A,,B,, C,D,E,F, F,,2F,,2F,,2F,,2|F,,G,,A,,B,, C,D,E,F, F,,2F,,2F,,2F,,2|C,D,E,F, G,A,B,C C,2C,2C,2C,2|\
+C,D,E,F, G,A,B,C C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,4 z4 z8|CB,A,G, F,E,D,C, CB,A,G, F,E,D,C,|CB,A,G, F,E,D,C, C,2C,2C,2C,2|C,4 z4 Hz8|]
+V:6
+z8 F,,G,,A,,B,, C,D,E,F,|F,,2F,,2F,,2F,,2 F,,G,,A,,B,, C,D,E,F,|C,2C,2C,2C,2 C,D,E,F, G,A,B,C|C,2C,2C,2C,2 C,D,E,F, G,A,B,C|F,4 z4 B,,2B,,2B,,2B,,2|\
+B,,4 z4 A,,2A,,2A,,2A,,2|A,,4 z4 G,,2G,,2G,,2G,,2|G,,4 z4 F,2F,2F,2F,2|C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,CCC C,CCC|C,CCC C,CCC C,CCC C,CCC|F,2 E,D, C,B,,A,,G,, F,,2F,,2F,,2F,,2|\
+F,,4 z4 F,,4 F,,4|F,,4 F,,4 C,4 C,4|C,4 E,4 F,4 F,4|F,4 F,4 C,2C,2B,,2B,,2|A,,4 z4 F,2F,2_E,2E,2|\
+D,4 B,,4 D,4 B,4|G,4 z4 G,2G,2F,2F,2|E,4 C,4 E,4 C4|A,4 z4 A,2A,2G,2G,2|F,4 D,4 F,4 D4|\
+B,4 z4 B,4 B,,4|C,2C,2C,2C,2 B,,2B,,2B,,B,,2B,,2|A,,4 z4 z B,A,G, F,_E,D,C,|B,,4 z4 z CB,A, G,F,E,D,|C,4 z4 z DCB, A,G,F,E,|\
+D,4 z4 C,2C,2C,2C,2|G,2G,2G,2G,2 G,,2G,,2G,,2G,,2|C,2C,2C,2C,2 C,D,E,F, G,A,=B,C|C,2C,2C,2C,2 C,D,E,F, G,A,=B,C|G,,2G,,2G,,2G,,2 G,,A,,=B,,C, D,E,F,G,|\
+G,,2G,,2G,,2G,,2 G,,A,,=B,,C, D,E,F,G,|G,,G,G,G, G,,G,G,G, G,,G,G,G, G,,G,G,G,|G,,G,G,G, G,,G,G,G, G,F,E,D, C,=B,,A,,G,,|=B,A,G,F, E,D,C,=B,, DCB,A, G,F,E,D,|C,2C,2C,2C,2 G,2G,2G,2G,2|\
+G,,2G,,2G,,2G,,2 C,4 C,4|A,,4 A,,4 D,4 D,4|C,4 C,4 =B,,4 B,,4|E,4 E,4 A,,4 A,,4|E,4 E,4 E,4 E,4|\
+E,4 E,4 E,4 E,4|E,4 E,4 A,,2A,,2A,,2A,,2|D,2D,2D,2D,2 G,2G,2G,2G,2|C,2C,2C,2C,2 F,2F,2F,2F,2|=B,,2B,,2B,,2B,,2 E,2E,2E,2E,2|\
+A,,4 z4 z8|z16|z16|z16|z16|\
+z8 F,2F,2F,2F,2|G,2G,2E,2E,2 F,2F,2D,2D,2|E,2E,2^C,2C,2 D,2D,2D,2D,2|E,2E,2D,2D,2 C,2C,2C,2C,2|D,2D,2D,2D,2 B,,2B,,2B,,2B,,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 F,2F,2F,2F,2|F,,G,,A,,B,, C,D,E,F, F,,2F,,2F,,2F,,2|F,,G,,A,,B,, C,D,E,F, F,,2F,,2F,,2F,,2|C,D,E,F, G,A,B,C C,2C,2C,2C,2|\
+C,D,E,F, G,A,B,C C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|C,2C,2C,2C,2 C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|C,CB,A, G,F,E,D, C,2C,2C,2C,2|\
+C,2C,2C,2C,2 C,2C,2C,2C,2|C,4 z4 z8|CB,A,G, F,E,D,C, CB,A,G, F,E,D,C,|CB,A,G, F,E,D,C, C,2C,2C,2C,2|C,4 z4 Hz8|]
+S:https://www.folktunefinder.com/tunes/40100
+S:http://abc.musicaviva.com/tunes/vivaldi-antonio/vivaldi-op10-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/vivaldi-antonio/vivaldi-op10-01/vivaldi-op10-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/vivaldi-antonio/vivaldi-op10-01/vivaldi-op10-01.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

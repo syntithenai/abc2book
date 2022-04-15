@@ -1,0 +1,36 @@
+X: 1
+T: Marshall's Compliments to Neil Gow
+N: (possibly to Niel Gow)
+C: Marshall
+R: march
+B: RSCDS 26-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: E2 \
+| "A"[A3E3C3]c A2E2 | A2B2 [A4E4C4] | ABcB A2E2 | "B7"F2B2 "E"B4 \
+| "A"c3B A2E2 | "D"F2f2 "Bm"e2d2 | "A"cdef "E7"edcB | "A"c2A2 A2 :|
+|| fg \
+| "A"a3c e2c2 | a2c2 e4 | agfe dcBA | "E7"GABc B2g2 \
+| "A"a3c e2c2 | a2c2 e4 | "Bm"fedc "E7"Bcde | "A"c2A2 A2 ||
+|| fg \
+| "A"a3c e2c2 | a2c2 e4 | agfe dcBA | "E7"GABc B2c2 \
+| "A"A3c A2E2 | "Bm"F2B2 d2f2 | "E7"fedc Bcde | "A"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/15568
+S:http://trillian.mit.edu/~jc/music/abc/march/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MarshallsComplimentstoNeilGow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MarshallsComplimentstoNeilGow.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: Mr. Charles Graham's Welcome Home
+C: William Gow
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+G \
+|  "Am"EAA A2G | BAA A2B | "G"d2e dBg | BGG GAG \
+|  "Am"EAA A2G | BAA A2B | "G"d2e dBg | "Am"BAA A2 :|
+e \
+|| "Am"~a3 a2e | ~a3 a2e | "G"gbg ege | dBG G2e \
+|  "Am"~a3 a2e | ~a3 a2e | "G"gbg ege | dBA "Am"A2 ||
+e \
+|| "Am"~a3 a2e | ~a3 a2e | "G"gbg ege | dBG G2A/G/ \
+|  "Am"EAA A2G | BAA A2B | "G"d2e dBg | "Am"BAA A2 |]
+S:https://www.folktunefinder.com/tunes/14707
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrCharlesGrahamsWelcomeHome_Am3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Gow/MrCharlesGrahamsWelcomeHome_3_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Gow/MrCharlesGrahamsWelcomeHome_Am3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Gow/MrCharlesGrahamsWelcomeHome_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrCharlesGrahamsWelcomeHome_3_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrCharlesGrahamsWelcomeHome_Am3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrCharlesGrahamsWelcomeHome_D3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

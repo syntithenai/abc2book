@@ -1,0 +1,30 @@
+X: 1
+T: Bobover Wedding March [C]
+R: march
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed transcription by Steve Rauch
+D: Brave Old World: "Beyond the Pale"
+M: 4/4
+L: 1/16
+K: C
+"A"\
+[| "C"C3D E4 E4 E4 | "G7"EF3 DE3 "C"C8 | "G7"D3C D2E2 FE3 DC3 | "C"E8 EFED CB,A,B, |
+|  "C"C3D E4 E4 E4 | "G7"EF3 DE3 "C"C8 | "G7"D4 DCDE FE3 DG3 | "C"C8 CB,CD EDEF |]
+"B"\
+|: "C"E3F G4 G4 G4 | G3A G3F "G7"F4 "C"E4 | "G7"F3E F3E G4 F4 | "C"E8 EDCB, CDEC :|
+"C"\
+[| "C"E3G "F"F4 F4 FEF^F | "C"G4 E4 D4 C4 | "G7"D4 DCDE FE3 DC3 | "C"E8 EFED CB,CD |
+|  "C"E3G "F"F4 F4 FEF^F | "C"G4 E4 D4 C4 | "G7"D3C DE3 F2E2 DG3 | "C"C8- C8 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/6769
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BoboverWeddingMarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:10
+T: IST MIR ALLES EINS
+N: F0043
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 3/4
+L: 1/16
+K: G
+d3c | B2d2d4c3A | G2B2B4
+A2G2 | F2c2c4B2A2 | e4d2z2
+d3c | B2d2d4c3A | G2B2B4
+A2G2 | F2e2e4c2A2 | G4z4
+B3G | F2c2c4A2F2 | G2e2d4
+B3G | F2c2c4A2F2 | G2e2d4
+d3c | B2d2d4c3A | G2B2B4
+A2G2 | F2c2c4B2A2 | e4d2z2
+d3c | B2d2d4c3A | G2B2B4
+A2G2 | F2e2e4c2A2 | G4z4
+S:https://www.folktunefinder.com/tunes/69570
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

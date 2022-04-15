@@ -1,0 +1,35 @@
+X:3876
+T:Danza del Cristo
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Nueva (Llanes)
+A:Asturies
+Z:ByD IDEA
+L:1/8
+Q:1/4=58
+K:C
+E2 G2 G3/2F/ GG/4F/4E/4D/4D2 E E F3/2G/ F6 z2
+E2 G2 G3/2F/ GG/4F/4E/4D/4D2 E E F2 DD/E/8D/8C/8B,/8C4
+[K:Bb]
+C2 E2 D2 EF/8E/8D/8C/8C2 =B, C D3/2E/4D/4 C4 
+[K:C]
+E2 G2 G3/2F/ G3/2(3F/8E/8D/8D2 E E F3/2G/F4
+E2 G2 G3/2F/ G3/2(3F/8E/8D/8D2 E E F2 DD/E/8D/8C/8B,/8C4
+[K:Bb]
+C2 E2 D2 EF/8E/8D/8C/8C2 =B, C D3/2E/4D/4 C4
+S:https://www.folktunefinder.com/tunes/60065
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Craigellachie Bridge
+R: strathspey
+O: Athole Collection
+B: Athole Collection
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+F2 \
+| "D"DD3 F3A dcBA FD3 | "C"E=C3 c3E G4 GB3 \
+| "D"A3D F3A "Bm"dcBA FD3 | "Em"Ee3 "A7"c3A "D"d4 d2 :|
+f2 \
+| "D"dd3 f3a d3a f3a | "C"=c3g e3f g4 g2ab \
+| "D"a3d f3d a3d "G"gb3 | "D"a3d f3d "Em"efg2 "A7"Tf3e |
+y2 \
+| "D"dd3 f3a d3a f3a | "C"gfed =c3e g4 g2ag \
+| "D"fa3 e3f "Bm"d3f B3d | "A7"AF3 d3F "D"D4 D2 |]
+S:https://www.folktunefinder.com/tunes/19282
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CraigellachieBridge_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CraigellachieBridge_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CraigellachieBridge_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

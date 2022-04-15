@@ -1,0 +1,33 @@
+X: 1
+T: Gavotte (for Helene)
+C: Anon.
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+Q: 1/4=104
+K: Gm
+D2 \
+| "Gm"GABc "Dm"defd | "Gm"gbag "D"^f2=ed \
+| "Gm"g^fgd "Cm"edcB | "D"ABcd "Gm"B2"D"A^F |
+| "Gm"GABc "Dm"defd | "Gm"gbag "D"^f2=ed \
+| "Gm"g^fga bag=f | "A"=efe^c "D"d2"F"=c2 |]
+[|"Bb"defd B2cd | "Cm"cdec "F"A2cA \
+| "Bb"BcdB "Cm"Gede | "F"c4 "Bb"B2"F"c2 |
+| "Bb"defd "Eb"gagf | "C"=efge "Am"abag \
+| "D"^f=efd "Gm"gfga | "D"a4 "Gm"g2 |]
+S:https://www.folktunefinder.com/tunes/17241
+S:http://trillian.mit.edu/~jc/music/abc/reel/GavotteForHelene_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/GavotteForHelene_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

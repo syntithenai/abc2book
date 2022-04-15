@@ -1,0 +1,26 @@
+X:479
+T: NACH SEVILLA NACH SEVILLA
+N: F0907
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: D
+AA | A2F2z2dd | d2A2z2
+dc | B3AG2AB | B2A2z2
+Ad | dcBAA3G | G2F2z2
+FF | B3=cB3A | A2G2
+e3B | A3BG3G | G2F2
+d3A | B2G2E2A2 | F4
+A3d | B2e2d2c2 | d4z2
+S:https://www.folktunefinder.com/tunes/70039
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

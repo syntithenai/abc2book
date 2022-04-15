@@ -1,0 +1,27 @@
+X:409
+T: GLUECKLICH WER IM HOLDEN BUNDE
+N: F0750
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied, Rundgesang
+M: 3/8
+L: 1/8
+K: C
+ | E2D | C2B, | A,B,C | A,2G,
+F2D | E2C | B,2C | D2z
+EFE | EDD | CDC | C_B,B,
+A,=B,^C | DEF | EFD | C2z
+C2C | G,2G, | E2E | C2C
+F2D | E2C | B,2C | D2z
+E2E | D2D | F2F | E2E
+A2A | G2E | FED | C2z
+S:https://www.folktunefinder.com/tunes/69969
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied, rundgesang
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

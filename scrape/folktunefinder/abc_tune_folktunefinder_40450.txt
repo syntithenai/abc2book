@@ -1,0 +1,43 @@
+X:57
+T:Bimid Ag Ol reel
+R:reel
+M:4/4
+L:1/8
+Q:4/8=115
+K:Gmaj
+|:DG~G2 dG~G2|cA~A2 dedA|DG~G2 ~B3d|cAdc AG~G2|
+  DG~G2 ~B3g |~c3A dcAd|~g3a gfde |1 fdcA AG~G2:|2 fdcA AGBd|
+|:dg~g2  gfde| ~f3e fdcA |dg~g2 gfde|fdcA AG~G2|
+  dg~g2  gfde| ~f3g afdf |~g2ga bgag|fdcA AGG2:|
+|:DG~G2 dG~G2|cA~A2 dedA|DG~G2 ~B3d|cAdc AG~G2|
+  DG~G2 ~B3g |~c3A dcAd|~g3a gfde |1 fdcA AG~G2:|2 fdcA AGBd|
+|:dg~g2  gfde| ~f3e fdcA |dg~g2 gfde|fdcA AG~G2|
+  dg~g2  gfde| ~f3g afdf |~g2ga bgag|fdcA AGG2:|
+M:4/4
+G2BG DGBG|A2eg fdcA|G2BG DGBG|ADFF ABcA|
+G2BG DGBG|A2eg fdcA|G2BG DGBd|cAFA AG~G2|
+dg~g2 dg~g2|df~f2 df~f2|dg~g2 dg~g2|d^cde fd=cA|
+dg~g2 bgag|fdde J~f3g|af (3gfe fde^c|dcde fdcA||
+G2BG DGBG|A2eg fdcA|G2BG DGBG|ADFF ABcA|
+G2BG DGBG|A2eg fdcA|G2BG DGBd|cAFA AG~G2|
+dg~g2 dg~g2|df~f2 df~f2|dg~g2 dg~g2|d^cde fd=cA|
+dg~g2 bgag|fdde J~f3g|af (3gfe fde^c|dcde fdcA||
+M:4/4
+B2 BA BAGA|B2GB AGED|~B3A BAGB|~A2 BG AGED|\
+B2 BA BAGA|B2GB AGED|(3.B.c.d ed BcdB|AcBG AGEG|
+DG ~G2 DGBG|DGBG AGEG|DGGF~G3 B|dBAc BG~G2:|\
+d2 Bd efge|dGBG AGEG|d2Bd efge|agbg ageg:|
+B2 BA BAGA|B2GB AGED|~B3A BAGB|~A2 BG AGED|\
+B2 BA BAGA|B2GB AGED|(3.B.c.d ed BcdB|AcBG AGEG|
+DG ~G2 DGBG|DGBG AGEG|DGGF~G3 B|dBAc BG~G2:|:\
+d2 Bd efge|dGBG AGEG|d2Bd efge|agbg ageg:|
+S:https://www.folktunefinder.com/tunes/40450
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

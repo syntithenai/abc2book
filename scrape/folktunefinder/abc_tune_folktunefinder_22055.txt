@@ -1,0 +1,25 @@
+X:1606
+T:Dorsetshire march, The
+O:england
+R:March
+A:Lancashire
+B:Winder
+M:4/4
+L:1/8
+K:D
+AG|F2D>F A2F>A|d2A>d f2d>f|a2b>a g>fe>d|c2e2 e2AG|
+F2D>F A2F>A|B>cd>e c2B>A|B>cd>g f2e>d|d4 d2:|
+|:fe|d2f>d B2d>B|A>Fd>B A>FE>D|F>Ad>c B>AG>F|E2E>F E2A>G|
+F2D>F A2F>A|B2g>e d>cB>A|B>ba>g f>ed>c|d4 d2:|
+S:https://www.folktunefinder.com/tunes/22055
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

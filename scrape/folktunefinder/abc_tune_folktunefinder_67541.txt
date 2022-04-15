@@ -1,0 +1,33 @@
+X:23
+T:Blue Angel, The
+T:King's Favourite, The
+R:jig
+D:Beltaine
+D:Buttons And Bows by Jackie Daly, Seamus And Manus McGuire
+D:Jig It In Style by Sean Keane
+D:Rattlin' Banjos (part 1) by Gerry O'Connor
+D:Time To Time by Gerry O'Connor
+Z:id:hn-jig-124
+M:6/8
+K:D
+a^g=g|:fdd dc=c|Bdg Adf|GBe FAd|cBA bag|fdd dc=c|Bdg Adf|GBe FAd|cBc 
+d2e:|
+fdB B^AB|fdB Bcd|c^AF FEF|fgf ede|fdB B^AB|fdB Bcd|c^AF fgf|edc B2e:|
+|:fdd dc=c|Bgg Aff|Gee Fdd|ecA bag|fdd dc=c|Bgg Aff|Gee Fdd|cBc d2e:|
+fdB ~B3|fdB dcB|cAF ~F3|fgf edc|fdB ~B3|fdB dcB|cAF fgf|edc B2e:|
+|:d/2e/2|fed dcd|Bdg Adf|GBe FAd|ecA bag|
+fed dcd|Bdg Adf|GBe FAd|ecA d2:|
+|:d/2e/2|fdB B^AB|FBd fdB|c^AF ecA|fgf edc|
+fdB B^AB|FBd fdB|c^AF fgf|edc B2:|
+e|f2d dcd|Bgg Aff|Gee Fdd|eca bag|
+fed dB=c|BgB AfA|GeG FAd|cBc d2:|
+|fdB B^AB|dcB fdB|cAF edc|fgf edc|
+fdB B^AB|dcB fdB|cAF fag|fed ecA||
+S:https://www.folktunefinder.com/tunes/67541
+S:http://domren.free.fr/VCB.html
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

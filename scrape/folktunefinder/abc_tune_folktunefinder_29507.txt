@@ -1,0 +1,25 @@
+X:3227
+T:Colonel Thornton
+S:Sandy MacIntyre
+A:Cape Breton
+R:Reel
+M:C|
+L:1/8
+K:ADor
+A| E(A,A,B,) C2 CE | DCB,D ECDB, | E(A,A,B,) C/C/C CE | DB,GB, (G,A,) A,:|
+B,| (G,A,)A,A EA,EA | GEDG B,G,G,B, | (G,A,)A,A EA,EA| GEDB, A,/A,/A, A,B,|
+ (G,A,)A,A GAAE | GEDC B,DDA | E(A,A,B,) C/C/C CE | DB,GB, (G,A,) A,||
+B,| A,aag {ab}agea | gedg BAGB| Aaab {ab}ageg | dBgB A2 AB  |
+Aaab {ab}ageb | gedg BAGB | cBAB cdec | dBgB A2A|
+%%newpage
+S:https://www.folktunefinder.com/tunes/29507
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

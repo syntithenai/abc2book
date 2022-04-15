@@ -1,0 +1,30 @@
+X: 2555
+T:Spring dance
+C:Jacques Martin Hotteterre
+O:France
+M:4/4
+L:1/8
+K:F
+V:1
+abc'2|a2f2b2a2|g2c2abc'2|a2f2c2e2|f4:|
+V:2
+FGA2|c2A2G2F2|E2E2FGA2|c2A2c2B2|A4:|
+V:1
+|:cde2|f2e2d2g2|e2c2fedf|gfeg agfa|
+V:2
+|:G2G2|A2G2F2G=B|c2c2AGF2|EDC2FED2|
+V:1
+g4abc'2|a2f2b2a2|g2c2abc'2|a2f2c2e2|f4:|
+V:2
+E4FGA2|c2A2G2F2|E2E2FGA2|c2A2c2B2|A4:|
+S:https://www.folktunefinder.com/tunes/32862
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

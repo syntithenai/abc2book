@@ -1,0 +1,27 @@
+X:471
+T:A Man's a Man for A' That
+D:World of Arthur Spink
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2003-1-4
+R:waltz
+M:3/4
+L:1/4
+K:A
+E | A2B | A2E | F2A | B2d | c2B | A2E | F3  | F2
+E | A2B | A2E | F2A | B2d | c2B | A2F | E3  | E2 ||
+d | c2d | e2c | d2c | B2d | c2d | e2E | F3  | F2
+d | c2d | e2c | f2B | B2d | c2B | A2F | E3  | E2 |]
+S:https://www.folktunefinder.com/tunes/20065
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MansAManForAThat_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MansAManForAThat_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MansAManForAThat_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

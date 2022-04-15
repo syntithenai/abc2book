@@ -1,0 +1,30 @@
+X:16253
+T:Swiss Hornpipe,The. GHW..074
+M:2/4
+L:1/8
+Q:300
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+(3CDE)|F>EF>G F>Ac>A|dcAc FAGF|EGce dfBd|cBcd cBAG|!
+F>EF>G F>Ac>A|fagf edcB|(Ac)(FA) (GB)(EG)|F2F2F2:|!
+K:C
+|:(GF)|EGce dfBd|cBcd ecGc|fedf edce|(3ded) (3cBA) G2 (GF)|!
+(EGce) (FAdf)|EGce dcBA|Gagf edcB|d2c2c2:|]
+S:https://www.folktunefinder.com/tunes/47528
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

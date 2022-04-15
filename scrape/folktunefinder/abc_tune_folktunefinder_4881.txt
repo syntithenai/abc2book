@@ -1,0 +1,22 @@
+X: 3
+P: Eichelober (F)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: F
+|: [CA,] \
+| "F"[FC][AF] | [cA][AF] | "C7"[GE] [BC] [EB,] | "F"[FA,] [AF] [CA,] \
+| "F"[FC][AF] | [cA][AF] | "C7"[GE] [BC] [EB,] | "F"[FA,] z :|
+|: [fA] \
+| "Bb"[dB] [BF] [fd] | "F" [cA] [AF] [fA] | "Bb"[dB] [BF] [fd] | "F" [cA] [AF] C \
+| "F"[FC][AF] | [cA][AF] |1"C7"[GE] [BC] [EB,] | "F"[FA,] z :|2 "C7"[GE] [BG] [eB] | "F"[fA] z :|
+S:https://www.folktunefinder.com/tunes/4881
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Eichelober.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Eichelober.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

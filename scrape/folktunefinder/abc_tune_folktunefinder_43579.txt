@@ -1,0 +1,26 @@
+X:80
+T:a Carol Tune -- for Christmas Day
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C
+N:I don't know what the mark under the doublebar is intended to indicate - some
+N:kind of repeat, I guess 
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dbf.html
+%%ID:00000dbf
+K:G
+A| d2c2 d3c | B2B2 A3A | f2f2 e3c | d2e2 f3 "_:s:"|| \
+e| a2g2 f3e | d2f2 A3G | F2E2 D3f | e3f d3 |]
+% page 9
+S:https://www.folktunefinder.com/tunes/43579
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

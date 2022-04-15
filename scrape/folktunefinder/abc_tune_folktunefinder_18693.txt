@@ -1,0 +1,20 @@
+X: 1
+T: Edelweiss
+C: tune: Richard Rodgers
+C: words: Oscar hammerstein II
+M: 3/4
+L: 1/4
+K: D
+%
+[| "D"F2A | "A7"e3 | "D"d2A | "G"G3 | "D"F2F | "Bm"FGA | "Em"B3 | "A7"A3 |
+S:https://www.folktunefinder.com/tunes/18693
+S:http://trillian.mit.edu/~jc/music/abc/song/Edelweiss_D_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/song/Edelweiss_D_w.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/song/Edelweiss_D_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

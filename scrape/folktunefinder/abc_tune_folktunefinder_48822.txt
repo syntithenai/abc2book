@@ -1,0 +1,23 @@
+X:90
+T:Courante 183
+C:Michael Praetorius
+L:1/8
+M:6/8
+O:Germany
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d95.html
+%%ID:00000d95
+K:G
+D|G2D G2A|B3/2c/2d BGd|c2B A2G|F3/2G/2A FDd|c2B A2G|
+F3/2G/2A FDd|A2B c2B|A2G F2D|E3/2F/2G F3/2G/2A|G3G2:|
+|:A|FDA FDA|FDA FDA|B3/2^c/2d ^c3/2d/2e|
+d3d2d|BGd BGd|c3c2B|A2G G F2|G3-G2:|
+S:https://www.folktunefinder.com/tunes/48822
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

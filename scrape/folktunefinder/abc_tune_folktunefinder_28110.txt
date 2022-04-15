@@ -1,0 +1,32 @@
+X:7658
+T:Trim the Velvet
+O:england
+M:C|
+L:1/8
+S:Mary Bergin
+R:reel
+D:Mary Bergin: Feadoga Stain 2.
+H:Similar to "Kiss the Maid behind the Barrel", #549
+K:G
+~G3B AGFD|GBdB BAFA|~G3B AGFA|defd cAFA|
+~G3B ~A3c|BcdB BAFA|~G3B AGFA|defd cAFA||
+dgeg dg~g2|dedB cAFA|dgeg dg~g2|defd cAFA|
+d3e dBGB|dGBd cAFA|dgeg dg~g2|defd cAFA||
+~g3a bgaf|g2ab c'baf|g2af g2af|defd cAFA|
+~g3a bgaf|g2ab c'ba2|bg~g2 af~f2|defd cAFA||
+BGdG BG~G2|(3BAG dB cAFA|BGdG BG~G2|defd cAFA|
+BGdG BG~G2 |DGBd cAFA|~B3G c2ce|defd cAFA||
+S:https://www.folktunefinder.com/tunes/28110
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

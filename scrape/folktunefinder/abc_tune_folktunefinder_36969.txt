@@ -1,0 +1,37 @@
+X:4450
+T:Polka fr Helmart
+L:1/8
+M:2/4
+O:Sweden
+R:Polka
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c9e.html
+%%ID:00000c9e
+K:D
+A2|\
+dA FA | BA GF | Df/2f/2 f(f | f3)A |\
+dA FA | BA GF | E3 (E/2F/2) |
+%
+GG/2F/2  EE/2F/2 | GG/2F/2 EE | E>e ee     | e2  Bc/2B/2 | \
+Ag/2g/2 gf/2f/2  | fe de      | ff/2f/2 ff | fz A2 |
+%
+dA FA           | BA GF | Df/2f/2 (f2  | f3) f |  \
+f/2f/2f/2f/2 ff | e2 d2 | B2 Bc        |
+%
+dd/2c/2 BB/2c/2 | dd/2c/2 B>B | A>f ff | fg f>f | \
+e2A2 | B2c2 | de/2d/2 ce | d2 ::
+FG| \
+%
+Ag/2g/2 gf/2f/2 | fe/2e/2 ed/2d/2 | dAFG | A2 d2 | \
+dc EF | G2 B2 | BA DE | F2 FG |
+Ag/2g/2 gf/2f/2 | fe/2e/2 ed/2d/2 | dAFG | A2 A2 | \
+Bc de | f2 ec | de/2d/2 ce | d2 |]
+S:https://www.folktunefinder.com/tunes/36969
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

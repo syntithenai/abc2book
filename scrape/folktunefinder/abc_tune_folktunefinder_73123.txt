@@ -1,0 +1,29 @@
+X:195
+T: Planxty Burke
+C: O'Carolan
+B: O'Neill's 664
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Animated"
+N: The turns are over the dots in O'Neill.
+M: 6/8
+L: 1/8
+K: Gm
+G(G/A/B/c/) d2c | Bcd cAF | FGF cAF | FGF fAF |
+| .G(G/A/B/c/) dBG | GAG dBG | f2f fga | ~f3 d2 ||
+|| (f/g/) \
+| agf gf=e | f=ed cde | f=ed gfe | f=ed cA^F |
+| .G(G/A/B/c/) dBG | GAG dBG | f2f fga | ~f3 d2 ||
+|| e \
+| fg=e fge | f=ed cA^F | g2g gag | fd=e f2e |
+| (^f/g/a).f gd=e | f=ed cA^F | g2d (=e/f/g)d | B3 G2 |]
+S:https://www.folktunefinder.com/tunes/73123
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

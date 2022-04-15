@@ -1,0 +1,29 @@
+X:75
+T:the Cat Needs Feeding
+A:Leeds
+C:Steve Thorp
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%Copyright:Steve Thorp
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000748.html
+%%ID:00000748
+K:E min
+B | \
+BeB AeA | GeG E3 | B2g fec | BGg fec |\
+BcA BGA | FGE F3 | BGg fec | BfF E2 ::
+F | \
+GeG FGE | gfe c2e | AeA GAF | fec B2f | \
+fBf eBe | cBc B2g |
+gBg feB | c3 c2c |\
+BcA BGA | FGE F3 | BGg fec | BfF E2 :|
+S:https://www.folktunefinder.com/tunes/43880
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

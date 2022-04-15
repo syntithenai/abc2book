@@ -1,0 +1,23 @@
+X:600
+T:Garrett Barry's
+C:Chieftains
+R:jig
+Z:
+M:6/8
+K:Dmix
+"G"DEF GFG|"Am"AGE c2A|"G"dcA "D"d2e|fed "C"cAG|
+"D\Bm"F2F "G"G2G|"Am"AGA cde|"D\G"dcA "A\Em"GEA|"D"DED "D\G"D2A:|
+|:"D"dcA d2e|f2d "Em"(3efg e|dcA "C"c2d|"(D)"efd "A"ecA|
+"D"dcA d2e|fed "G"(3efg e|dcA "Em\A"GEA|"D"DED "G\D"D2 A:|
+S:https://www.folktunefinder.com/tunes/67422
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

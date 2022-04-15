@@ -1,0 +1,31 @@
+X: 132
+T:Lei Pastouru
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:France
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=108
+K:Ebmaj
+e2 dc | B2> B2 | c>B cd | e2 B2 | e2 dc | B2> B2 | c>B cd | e4 |
+e2 fg | a2> g2 | f>e de | g2 f2 | e2 fg | a2> g2 | f>e de | ff zg |
+B2> g2 | B2> B2 | c>B cd | B2 zg | B2> g2 | B2> B2 | c>B cd | He4 |]
+N:Intro,  1, Entre, 2, Entre, 3, Entre, 6
+%%footer $D   Galouvielle-MBe 2008 \nNol (France)
+S:https://www.folktunefinder.com/tunes/590
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Nol
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

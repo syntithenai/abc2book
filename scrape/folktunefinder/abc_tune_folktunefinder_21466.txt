@@ -1,0 +1,25 @@
+X:1017
+T:Ceilidh House Polka (2)
+O:england
+M:2/4
+L:1/8
+S:Willie Coyle, Kirkubbin, Down (Accordian)
+R:Polka
+D:Session tape - Bangor, Down 198
+K:D
+EFGA | BedB | ABAF | EFD2 | EFGA | BedB | AFdF | FEE2 :|\
+efed | BcdB | ABAF | EFD2 | efed | BcdB |  AFdF | FEE2 |\
+efed | BcdB | ABAF | EFD2 | EFGA | BedB | AFdF | FEE2 ||
+S:https://www.folktunefinder.com/tunes/21466
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

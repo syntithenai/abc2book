@@ -1,0 +1,23 @@
+X:173
+T: LEBEWOHL DU DIE ICH EWIG LIEBE
+N: E0761
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Abschieds - Lied, Liebe
+M: 4/4
+L: 1/16
+K: C
+G,3G, | C6G,2E,2G,2A,3G, | G,4F,4z4
+B,3C | D6G,2^F,2G,2A,2B,2 | B,8z2
+G,2G,2C2 | E6D2C2B,2A,2G,2 | G,2F2F4z2
+F2E2D2 | E6E2D2D2A,2B,2 | C8z4
+S:https://www.folktunefinder.com/tunes/76658
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

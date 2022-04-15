@@ -1,0 +1,26 @@
+X:242
+T: Abendreihen mit Kranzsingen
+N: A0288
+O: Europa, Mitteleuropa, Deutschland
+N: Nic. Hermann: Evangelia auf alle Sonn - und Festtage. 1560.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | c2c2c2c2 | d2cBA2
+A2 | B2c2d2d2 | c4z2
+c2 | c2c2c2A2 | c2BAG2
+c2 | A2GFG2E2 | F4
+A4 | c2BAG2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/68788
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

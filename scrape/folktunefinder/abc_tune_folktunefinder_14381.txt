@@ -1,0 +1,34 @@
+X: 1
+T: Jack's Alive
+T: Dusty Bob's Jig
+O: Old MS circa 1820
+R: jig
+B: RSCDS __-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G2G GAB | "D"A2A "D7"ABc | "G"dBd "D7"cAc | "G"BGB "D7"AFD \
+| "G"G2G GAB | "D"A2A ABc | "G"BGB "D7"AFA | "G"GDB, G,B,D |
+| "G"G2G GAB | "D"A2A "D7"ABc | "G"dBd "D7"cAc | "G"BGB "D7"AFD \
+| "G"G2G GAB | "D"A2A ABc | "G"BGB "D7"AFA | "G"G3 G2 ||
+|| f \
+| "G"g2g gag | "D"f2f fgf | "C"e2e efg | "D7"afd def \
+| "Em"g2g gag  | "D"f2f fgf | "A7"efe efg | "D"a2z "D7"d2z |
+| "G"gbg gbg | "D"faf faf | "Em"efe "A7"efg | "D7"afd def \
+| "G"gbd' Bcd | "Am"ecA ABc | "D7"dcB cBA | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14381
+S:http://trillian.mit.edu/~jc/music/abc/jig/JacksAlive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JacksAlive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JacksAlive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JacksAlive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JacksAlive.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

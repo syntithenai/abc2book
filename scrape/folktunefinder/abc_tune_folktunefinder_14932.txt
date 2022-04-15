@@ -1,0 +1,28 @@
+X: 1
+T: the Porridge Bowl
+C: Jack Judson
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2B G2D | G2B G2D | dcB AGF | "D"EFA D2D \
+| "C"EFG "D"FGA | "Em"GAB "D7"d2D | "G"G2B G2D | GAG "fine"G2 ||
+D \
+|| "C"EFG AGF | EFG AGE | "G"DEF GFE | DEF GFE \
+| "A7"^CDE FED | ^CDE FEC | "D"DEF GAB | "D7"cBd "d.C."cBA |]
+S:https://www.folktunefinder.com/tunes/14932
+S:http://trillian.mit.edu/~jc/music/abc/jig/PorridgeBowlJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/PorridgeBowlJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PorridgeBowlJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PorridgeBowlJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

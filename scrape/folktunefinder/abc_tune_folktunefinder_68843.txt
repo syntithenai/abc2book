@@ -1,0 +1,27 @@
+X:297
+T: Trink aus!
+N: A0341
+O: Europa, Mitteleuropa, Deutschland
+N: Scandellus 1570 No. 18. Scheinbar eine populaere Melodie.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: F
+ |  |  |  | c4c2F2 | ccc2c2
+_e2 | d2c2B2A2 | G4F4
+c4c2F2 | ccc2c2
+_e2 | d2c2B2A2 | G4F4
+G2A2B2G2 | A2G2F2z
+F | G2A2B2G2 | A2G2F4 | z6
+c2 | c4A2c2 | c4A2c2 | c4c4
+S:https://www.folktunefinder.com/tunes/68843
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

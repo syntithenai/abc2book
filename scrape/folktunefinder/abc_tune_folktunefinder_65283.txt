@@ -1,0 +1,28 @@
+X: 195
+T:Lady Mary Douglas
+% Nottingham Music Database
+P:AABA
+S:FTB, via EF
+M:6/8
+K:D
+P:A
+A/2G/2|\
+P:segno
+"D"FGA A2d|"G"BGB "A7"A2G|"D"FGA Adf|"Em"f3 "A7"e2G|
+"D"FGA A2d|"G"BGB "A"A2b|"D"afd "A7"gec|"D"d3 D2:|
+P:B
+f/2g/2|"D"aba d'2a|"D"f3 d2f|"A"efe a2e|"A7"c3 ABc|
+"D"d2d "G"Bcd|"Em"e2e "A7"cde|"D"fga agf|"Em"edc "A7"BA
+P:D.S.
+G||
+S:https://www.folktunefinder.com/tunes/65283
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

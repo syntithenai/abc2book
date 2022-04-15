@@ -1,0 +1,27 @@
+X:227
+T: ES WOHNEN ZWEI SCHWAENE IM SEE
+N: B0272
+O: Europa, Mitteleuropa, Deutschland, Berlin
+R: Stimmungs - Lied, Trauer, Tod
+M: 6/8
+L: 1/16
+K: G
+B,2 | B3AG2F2E2F2 | E6z4
+E2 | c3BA2^G2F2G2 | B2A2z6
+A2 | d3ed2d2e2c2 | B6z4
+B2 | G3FE2G3FE2 | B2B,2z6
+B2 | B2A2A2A2G2G2 | d4c2B4
+B2 | _B3AG2B3AG2 | B3cABG4
+d2 | e2d2z6d2 | d4F2G4
+S:https://www.folktunefinder.com/tunes/78248
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, trauer, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

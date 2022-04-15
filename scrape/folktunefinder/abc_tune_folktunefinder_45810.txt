@@ -1,0 +1,20 @@
+X:17
+T:Hendriks Mazurka
+T: 3x spelen
+M:3/4
+L:1/8
+K:C
+"C" c>e gg gg |g/^f/g/a/ ge cc| "Bb" _B2 d "G" =B2 d| "C" c2 G z z2|
+"C" c>e gg gg |g/^f/g/a/ ge cc| "Bb" _B2 d "G" =B2 d|"C" c2 c2 z2:|
+"C" (3(ee)e c2 G2|"C" (3(ee)e c2 G2|"G7" (3fgf (3efe (3ded | "C" c2 G4|
+"C" (3(ee)e c2 G2|"C" (3(ee)e c2 G2|"G7" (3fgf (3efe (3ded |"C"c z c2"E"B2||
+"Am" A2 Ac ec|a2 ae ce |"D" d2 d^f ab | "E" ^g2 ^fg e2| "Am" a2 ae ce|"D" A2 Ac "E7" Bc|[M:2/4]"Am" A2A2||
+S:https://www.folktunefinder.com/tunes/45810
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

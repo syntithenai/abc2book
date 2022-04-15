@@ -1,0 +1,25 @@
+X:5046
+T:Harald's Jig
+M:6/8
+R:Jig
+L:1/8
+C:Aidan Crossey
+K:D
+|:AFD DEF|AFD DEF|BGE EFG|BGE EFG
+AFD DEF|AFD DEF|GAB AFD|GEC D3:||
+|:def fgf|fed dcd|cde efe|edc cde|
+fdd|Bdd|Add FEF|GAB AFD|GEC D3:||
+S:https://www.folktunefinder.com/tunes/77438
+S:http://trillian.mit.edu/~jc/music/abc/by/AidanCrossey/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/aidananita:se13.freeserve.co.uk/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RoadHome.abc
+S:http://paythereckoning.com/crosseyabc.txt
+S:http://www.paythereckoning.com/crosseyabc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

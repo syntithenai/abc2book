@@ -1,0 +1,29 @@
+X:092
+%%topmargin 3cm
+T:Craigaillichie Bridge
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A mix
+A, | D<DF>A (d/2c/2B/2A/2) {/G}F<D | E<=C{AB}=c>E {/F}G2 GDF>A d/2c/2B/2A/2 {/G}F<D | E<e{/d}c>A {/c}d2d :|
+f | d<df>a d>af<a | =c>ge<f {/f}g2 ga/2b/2 | a>df>d a>dgdf>d (fg/2a/2) (g<f) |
+d<df>a daf<a | (g/2f/2e/2d/2) =c<e Tg2 g(a/2g/2) | (f<a)e>f {/c}d>fB>d | A>F{/c}d>F A2 A ||
+c | (d/2c/2B/2A/2) (G/2F/2E/2D/2) (d/2c/2B/2A/2) (G/2F/2E/2D/2) | E<=C{AB}=c>E {/E}G2 G>E | (D/2E/2F/2G/2) (A/2B/2c/2d/2) (D/2E/2F/2G/2) (A/2B/2c/2d/2) | D>dF>d {/c}B>A{/F}G>F |
+D>dE>d F>dE>d | =C<=c{/d}c>E {/F}G2 G>E | D>dE>d F>dE>d | E<e{/d}c>A {/c}d2 d ||
+f | d<d(f<a) d<a(f>a) | {A/B}=c>ge>f {/f}g2 (ga/2b/2) | a>df>d a>dg>b | a<df>d (fg/2a/2) g<f |
+{/c}d<df>a d>af>a | (g/2f/2e/2d/2) {AB}=c<e {/f}g2 ga/2g/2 | f<ae>f {/c}d>fB>d | A<F{/c}d>F {cB}A2 A |]
+S:https://www.folktunefinder.com/tunes/71122
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Craigaillichie_Bridge.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0092.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

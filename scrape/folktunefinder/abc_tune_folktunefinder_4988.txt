@@ -1,0 +1,26 @@
+X: 4
+P: Sechsundrei\ssiger (F)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+"B"\
+|:"F"[c'4a4] [b2g2] | [a4f4] [f2c2] \
+| "C7"[c'2a2] [b2g2] | "F"[a2f2] [f2c2] :| \
+"C"\
+[|]"C7"[e4G4] [f2A2] | [g4B4] [e2G2] | "F"[f2A2] "Bb"[b2d2] |
+| "F"[a4c4] | "F"[f2A2] "Bb"[b2d2] | "F"[a4c4] \
+"D"\
+|:"Bb"[b2d2] [bd][bd] [gB][bd] | "F"[a4c4] [f2A2] \
+| "C7"[g2B2] [dc][eB] | "F"[f2A2] z2 :|
+S:https://www.folktunefinder.com/tunes/4988
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_BbEb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Sechsundreissiger_A.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

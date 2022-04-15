@@ -1,0 +1,36 @@
+X:827
+T:Xiraldilla (CT 249)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Trubia, ayuntamiento de Uviu.
+A:Asturies
+O:Trubia (Uviu)
+Z:Cancioneru de Torner 249
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|c2 c|cBc|(d>c)B|cBA|(B>A)G-|G2 z|
+|: A2 A|AGA|(B>A)G|AGF|G2 G-|G2 z :||
+W:Eres morena
+W:y robas los corazones;
+W:no me robes el mo,
+W:no me le robes,
+W:no me robes el mo,
+W:no lo aprisiones.
+W:
+S:https://www.folktunefinder.com/tunes/59714
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

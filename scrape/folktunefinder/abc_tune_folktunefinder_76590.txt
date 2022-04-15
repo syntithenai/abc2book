@@ -1,0 +1,27 @@
+X:105
+T: WAS FUEHR ICH DENN SO FUERN TRAURIGES LEBEN
+N: E0702
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Liebes - Lied, Leid, Klage
+M: 2/4
+L: 1/8
+K: E
+E | BA=GA | F3
+=G | BA=GA | F3
+F | F2F2 | B3
+B | BA=GE | F3
+F | F2FF | B3
+B | BA=GB | A2z
+A | B2B2 | =GFE
+G | BAF=G | E2z
+S:https://www.folktunefinder.com/tunes/76590
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

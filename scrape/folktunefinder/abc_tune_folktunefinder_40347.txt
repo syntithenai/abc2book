@@ -1,0 +1,20 @@
+X: 1
+T: fermata applied to rest
+M: 2/4
+L: 1/8
+K: G
+[V:1] CDEF|GAF!fermata!G|C2 C2|
+[V:2] EFGA|Bcd!fermata!z|C2 C2|
+[V:1] CDEF|GAF!fermata!G|C2 C2|
+[V:2] EFGA|Bcd!fermata!G|C2 C2|
+S:https://www.folktunefinder.com/tunes/40347
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1064
+T:Chary is my Darling
+C:Trad.
+O:England
+P:(AAAB)4
+L:1/8
+M:2/4
+K:Dm
+P:A
+"Dm"D>E F>G | A2 d>d | "Gm"B2 d>d | "Dm"A2 d2 | D>E F>G | A2 d>e | f>d "A7"e>^c | "Dm"d2 z d |
+"A7"^c>A =B>c | "Dm"d>e f>d | "A7"^c>A =B>c | "Dm"d2 z e | "Bb"f>e f>d | "F"c>A F>G | "A7"A>G "Dm"A>F | "A7"E2 A z :|
+P:B
+"Dm"D>E F>G | A2 d>e | f>d "A7"e>^c | "Dm"d2 z e | f>d "A7"e>^c | "Dm"d2 z2 |]
+S:https://www.folktunefinder.com/tunes/21513
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

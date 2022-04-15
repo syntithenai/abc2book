@@ -1,0 +1,28 @@
+X: 2
+T: Polska efter Lena Jonsson [2]
+N: Learned in workshop 2008-10-4, in Worcester MA USA
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+|: A3c e4 e4 | a3g f2ed c4 \
+|  G3B d4 f4 | e3d c2BA e4 \
+|  E2^F^G A2B2 c2dc | B2G2 A8 :|
+|: G2ce g4 g3e | fefa g4 G4 \
+|  e3d c2BA e4 | e2fe d2B2 B4 \
+|  a4 g2b2 a4 | g2fe d2ef e4 \
+|  E2^F^G A2B3 c2dc | B2G2 A8 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/8803
+S:http://trillian.mit.edu/~jc/music/abc/Scand/LenaJonsson_Boston2008.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

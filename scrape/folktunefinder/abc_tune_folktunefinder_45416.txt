@@ -1,0 +1,20 @@
+X:2
+T:Key signature change
+T:multi rests and measure repeat
+M:2
+L:1/4
+K:C
+Z4|"C"CEGc|[K:A]"A"Acea|[K:B]"B"Bdfb|[K:A]"A"Acea|
+[K:Eb]"Eb"EGBe|/|[K:Cb]"Cb"CEGc|[K:C]"C"CEGc|
+S:https://www.folktunefinder.com/tunes/45416
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Key C
+% Key B
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

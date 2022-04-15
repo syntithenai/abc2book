@@ -1,0 +1,34 @@
+X:231
+T:Corri-Corri (MQ 048)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza de la zona de Cabrales.
+N:Es junto con el Pericote y la Danza Prima, una de las ms emblemticas de Asturias, lleva la primera parte en modo menor y la segunda en mayor.
+N:Se dice de esta danza que es una de las ms antiguas de Europa.
+N:Es totalmente diferente al resto de las danzas existentes en la regin.
+A:Asturies
+O:Arenas (Cabrales)
+Z:Manolo Quirs 048
+M:4/4
+L:1/8
+Q:1/4=76
+K:Cm
+|:z2 CD ED CE|D>D DD ED C=B,|C>E ED ED CE|D>D DD ED C=B,|C2 C6-|
+[K:C]
+|C2 CC DD CB,|C>E EG GG AA|G>F EE DD CB,|C>E EG GG AA|
+G>F EE DD CB,|C2 C6-|C8 :|
+S:https://www.folktunefinder.com/tunes/59118
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

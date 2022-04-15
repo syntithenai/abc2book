@@ -1,0 +1,24 @@
+X:1714
+T:Bonaparte Crossing the Rocky Mountains
+I:speed 300
+M:4/4
+S:unknown, photocopy
+N:A Aeolian
+K:C
+|:A2 AB AGEG | cdec d2 eg | aged cAGE | G2GA G2cB |
+A2 AB AGEG | cdec d2 eg | aged cABG |[1A2AB A2cB:|[2A2AB A2eg|
+|: aged ^cdeg | age^c d2 eg | aged cAGE | G2 GA G2cB | 
+A2AB AGEG |cdec d2eg | aged cABG |[1A2AB A2eg :|[2A2AB A4||
+S:https://www.folktunefinder.com/tunes/56653
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

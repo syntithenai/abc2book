@@ -1,0 +1,37 @@
+X:35
+T:Alborada Asturiana (XA 65)
+R:Alborada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 65
+M:2/4
+L:1/8
+Q:1/4=88
+K:C
+B,/C/B,/C/
+|.DD/E/ ~DD/E/|~DD/E/ D/E/D/E/|D/D/D/E/ D/E/D/E/|.D~D B,/D/B,/D/|
+|.EE/F/ ~EE/F/|~EE/F/ E/F/E/F/|E/E/E/F/ E/F/E/F/|.E~E B,/C/B,/C/|
+|.DD/E/ ~DD/E/|~DD/E/ D/E/D/E/|D/D/D/E/ D/E/D/E/|.D~D B,/D/B,/D/|
+|~EE/C/ D/C/D/E/|F/G/F/D/ E/D/E/F/|G>E F/E/F/G/|~AA/F/ G/F/G/A/|
+|B/c/B/G/ A/G/A/B/|c>B ~A/G/A/B/|c>~e c>~e|c>~e c/e/c/e/|
+|c>~d B/d/B/d/|c>~e c/e/c/e/|c>~d B/d/B/d/|c>d e/f/~e/d/|
+|c>d e/d/e/~d/|c>d e/f/~e/d/|c/B/~A/G/ ~A/G/A/B/|cB ~A/G/A/B/|
+|c/B/~A/G/ c/B/~A/G/|F>~A F>~A|F>~A F/A/F/A/|F/F/F/~A/ F/A/F/A/|
+|F/F/F/~A/ F/A/F/A/|E/E/E/~G/ E/G/E/G/|E/E/E/~G/ E/G/E/G/|D/D/D/~G/ D/G/D/G/|
+|D/D/D/~G/ D/G/D/G/|E/E/E/~G/ E/G/E/G/|F/F/F/~A/ F/A/F/A/|E/E/E/~G/ E/G/E/G/|
+|D/D/D/~G/ E/E/E/~A/|F/F/F/~G/ E/E/E/~G/|D/D/D/~G/ E/E/E/~A/|F/F/F/~G/ E/E/E/~G/|
+|D/D/D/~G/ D/~G/D/~G/|C>D .E.D|~DC/D/ E/D/E/D/|~DC/D/ .E.D|
+|~DC/D/ E/G/E/D/|~DC/D/ .E.D|~DC/D/ E/D/E/D/|~DB,/C/ B,/C/D/E/|C3 z|
+S:https://www.folktunefinder.com/tunes/58922
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

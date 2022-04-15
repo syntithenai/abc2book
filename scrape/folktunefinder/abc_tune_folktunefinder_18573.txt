@@ -1,0 +1,16 @@
+X: 1
+T: Alabama Gal (E)
+M: C
+L: 1/8
+K: E
+[| "E"e2 e4 c2 | "E"e4 g4 | "E"e2 e4 c2 | "A"c4 "B7"B4 |
+| "E"e2 e4 c2 | "E"e4 g4 | "(A)"g2 b2 "B7"g2 f2 | "E"e8 |]
+S:https://www.folktunefinder.com/tunes/18573
+S:http://trillian.mit.edu/~jc/music/abc/song/AlabamaGal_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/play/AlabamaGal_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

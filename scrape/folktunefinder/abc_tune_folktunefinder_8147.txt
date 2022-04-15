@@ -1,0 +1,20 @@
+X: 10
+P: Gustafs Sk\aal (in G)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+K: G
+L: 1/8
+|: D | "G"G2 G2 G3 B | AG FE "D"ED DF | A2 A2 A3 F | "G"GA BA G3 :|
+M:2/4
+L: 1/8
+|: z | "G"BB/B/ BB/B/ | BD GB | "D7"AA/A/ AA/A/ | AD FA |
+|      "G"BB/B/ BB/B/ | BD GB | "D7"A2 F2 | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/8147
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Misc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

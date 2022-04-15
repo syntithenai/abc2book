@@ -1,0 +1,25 @@
+X: 1
+T: Korobushka
+O: trad Russia
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: Am
+P: Am
+[| "E7"E3^G | B2 ^GE | "Am"A3 B | c2 BA | "E7"B3 c | d2 ed | "Am"c2 A2 | A4 |]
+|: "Dm"d3 f| a2 gf | "Am"e3 c | e2 dc | "E7"B3 c | d2ed | "Am"c2 A2 | A4 :|
+P: Bm
+K: Bm
+[| "F7"F3^A | c2 ^AF | "Bm"B3 c | d2 cB | "F7"c3 d | e2 fe | "Bm"d2 B2 | B4 |]
+|: "Em"e3 g| b2 ag | "Bm"f3 d | f2 ed | "F7"c3 d | e2fe | "Bm"d2 B2 | B4 :|
+S:https://www.folktunefinder.com/tunes/7790
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Korobushka_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:52
+T: ALLERSCHOENSTER ENGEL
+N: F0142
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: C
+ | C4B,4 | C2G,2E,2C,2 | C4B,4 | C6
+G,2 | A,2A,2A,2A,2 | G,2G,2C2E2 | F4E2E2 | D4z2
+F,2 | G,4G,2_B,2 | A,2C2F,4
+A,2A,2A,2C2 | B,2D2G,2
+G,2 | C4E3D | C2B,2C2E,2 | F,4G,4 | C,4z4
+S:https://www.folktunefinder.com/tunes/69612
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

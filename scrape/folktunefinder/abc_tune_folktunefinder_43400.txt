@@ -1,0 +1,23 @@
+X:130
+T:Big Corral
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:A
+P:A
+E|"A"EF EA|"A"EF EA/2B/2|"A"cc/2A/2 ce|"E7"B3c|"A"EF EA|"A"EF EA/2B/2|\
+"D"cc -"E7"c/2A/2B|"A"A3:|
+P:B
+e/2c/2|"A"e4|"A"cA2A/2B/2|"A"cc/2A/2 ce|"E7"B3e/2c/2|"A"e4|"A"cA2A/2B/2|\
+"D"cc/2A/2 "E7"cB|"A"A3:|
+S:https://www.folktunefinder.com/tunes/43400
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsA-C.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsA-C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

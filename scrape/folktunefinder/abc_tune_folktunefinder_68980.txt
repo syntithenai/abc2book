@@ -1,0 +1,27 @@
+X:121
+T: S IST NICHTS MIT DEN ALTEN WEIBERN
+N: Z0121
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/8
+K: G
+G2 | d2dedc | B2G2
+Bd | c2cdBd | A4
+G2 | d2dedc | B2G2
+Bd | c2cdBd | A4
+FG | A2A2AG | F2D2
+GB | d2d2dc | B2G2
+dB | e2c2A2 | d4
+dd | e2c2A2 | G4
+S:https://www.folktunefinder.com/tunes/68980
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

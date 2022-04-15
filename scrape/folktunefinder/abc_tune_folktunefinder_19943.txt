@@ -1,0 +1,38 @@
+X:1
+T:Great Waltz of China, The
+C:\2511985 Mark Simos
+B:"The Waltz Book", Bill Matthiesen.
+N:
+N:"The 'Great Waltz of China' was a forgotten pundit's winning submission to the 1985
+N:Ashokan Celtic Week Original Tune Title Competition.  Later that summer, during
+N:Northern Week, I sat alone one dawn at the piano in the Ashokan dance hall and wrote
+N:a tune to go with the name.  (Attentive listeners will note a judiciously pentatonic
+N:melody ensnared midst a decidedly Western harmonic substrate.)  A mystery of music:
+N:that one heart's sad and lonely moments may help another's sun rise some day."
+D:CD/cassette/tunebook 'All the Time in the World (And a Little Bit More)', Mark Simos/Samizdat Music, 45 Shea Rd, Cambridge, MA 02140-1225.
+M:3/4
+Z:Transcribed to abc by Mary Lou Knack; modified by John Chambers
+R:waltz
+K:D
+|:"D"A2 FA "G"Bd | "D"A2 BA "A"FE | "Bm"F2 DF "(A)"EF | "Gsus2"DB, A,4 \
+| "D"A2 Fd "G"BA | "Bm"F3 (3E/F/E/ DF | "F#m"A6- | "A"A6- |
+| "D"A2 FA "G"Bd | "D"A2 BA "A"FE | "Bm"F2 EA "(A)"FD | "G"ED B,3A \
+| "D"F4 B,A, | "A"E4 B,A, | "G"D6- | D6 :|
+|:"A"EF AB "Bm"F2 | "G"EF DB, "D"D2 | "Em"E2 "A"EF "F#m"AB | "Bm"F6 \
+| "G"E2 FE DB, | "D"DA, "G"B,D "D"A,D | "Em"EB, DE B,E | "A"F4 E2 |
+| "D"A2 FA "G"Bd | "D"A2 BA "A"FE | "Bm"F2 EA "(A)"FD | "G"ED B,3 A, \
+| "D"F4 B,A, | "A"E4 B,A, | "G"DB, "A7"D3E | "D"D6 :|
+S:https://www.folktunefinder.com/tunes/19943
+S:http://trillian.mit.edu/~jc/music/abc/waltz/GreatWaltzOfChina_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/GreatWaltzOfChina_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

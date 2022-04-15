@@ -1,0 +1,26 @@
+X:2700
+T:Jenta Pa Neset
+C:e. Mats Berglund
+L:1/8
+M:3/4
+O:Sweden
+R:Polska
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c9b.html
+%%ID:00000c9b
+K:F
+a2 a2 ge | f2 ag/2f/2 e2 | f2 (fe) (^cd) | ef de/2^c/2 A2 |\
+a2 a2 ge | f2 ag/2f/2 e2 | f2 (fe) d^c   | d2 d4  ::
+A2 (d^c) de | f2 ag/2f/2 e2 | f2 fe ^cd  | ef de/2^c/2 A2 |\
+d2 (d^c) de | f2 ag/2f/2 e2 | f2 fe  d^c | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/36619
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

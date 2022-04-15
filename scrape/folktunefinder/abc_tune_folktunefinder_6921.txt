@@ -1,0 +1,19 @@
+X: 1
+T: Ele chamda libi
+O: Hassidic
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+[| "Dm"D2 D2 | DD (A,D) | F4- | F4 | FF FF | FF DF | A4- | A4 |: "Dm"A2 F2 | "Gm"G2 D2 |
+S:https://www.folktunefinder.com/tunes/6921
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/EleChamdaLibiSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/EleChamdaLibi_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/EleChamdaLibi_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/song/EleChamdaLibi_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

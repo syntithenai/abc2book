@@ -1,0 +1,20 @@
+X:0
+T:Glenburnie Rant
+T:Sma Coals for Nailers
+G:reel
+M:C
+L:1/8
+Q:1/2=112
+K:EMin
+% dorian/minor hexatonic, sharp D leading notes
+e2|E2EF E2EF|DEFG AFDF|E2EF E2B2|efe^d e2 :|
+B2|e2ef g2fe|defg afdf|e2ef g2fe|efe^d e2B2|
+   e2ef g2fe|defg afdf|g2ag f2gf|efe^d e2 |]
+S:https://www.folktunefinder.com/tunes/30156
+S:http://www.campin.me.uk/Music/Modes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:2
+T:Reel des boulements
+C:
+O:Qubec
+S: Dominique Renaudin <domren:free.fr> QueTrad 2003-2-12
+Q:1/4=222
+R:reel
+M:4/4
+L:1/8
+K:A
+ag fe fe dc | df ec A4 |: aA AA cA ec | Bc de fe fg |
+aA AA cA ec | fd ge a4 | aA AA cA ec | Bc de fe fg |
+ag fe fe dc |1 df ec A4 :|2 df ec A2 ed |: cA EA cA ec |
+Bc de fB ed | cA EA cA ec | fd ge a2 ed | cA EA cA ec |
+Bc de fe fg | ag fe fe dc |1 df ec A2 ed :|2 df ec A4 |:
+EA AA c2 BA | GA Bc dE EE | GB EB GB EB | GB EB A2 c2 |
+B3 G/A/ B2 BA | GA Bc de fg | ag fe fe dc | df ec A4 :|
+|: bB BB _eB fe | c_e =ef gf g_b | bB BB _eB fe | ge _bf =b4 |
+bB BB _eB fe | c_e =ef gf g_b | b_b gf gf e_e |1 eg f_e B4 :|
+[2 eg f_e B2 f=e |: _eB FB eB fe | c_e =ef gc fe | _eB FB eB fe |
+ge _bf =b2 fe | _eB FB eB fe | c_e =ef gf g_b | b_b gf gf e_e |
+[1 eg f_e B2 f=e :|2 eg f_e B4 |: FB BB _e2 cB | _B=B c_e =eF FF |
+_Bc Fc Bc Fc | _Bc Fc =B2 _e2 | c3 _B/=B/ c2 cB | _B=B c_e =ef g_b |
+b_b gf gf e_e | eg f_e B4 :|
+S:https://www.folktunefinder.com/tunes/17984
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDesEboulements_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDesEboulements_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDesEboulements_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ReelDesEboulements_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

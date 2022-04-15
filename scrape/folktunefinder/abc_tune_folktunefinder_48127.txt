@@ -1,0 +1,27 @@
+X:1170
+T:Dukie's Hornpipe
+M:C|
+L:1/8
+C:Brian Duke
+R:hornpipe
+D:Cian: Three Shouts from a Hill
+Z:Devin McCabe
+K:A
+ABcd eaed|cecA BAFA|E2AB cefe|c'bba b2ab|
+!c'bba faea|fece BAFA|EFAB cef2|ecBc A4:|
+K:AMin
+!:ABcd eaed|cABc AG^FG|EGAB cdef|ea^gb a3b|
+!(3c'ba (3bag (3age (3ged|(3ege (3ded (3cdc Bc|ABcd eaed|cABc A4:|
+S:https://www.folktunefinder.com/tunes/48127
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

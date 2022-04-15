@@ -1,0 +1,42 @@
+X: 1
+T: Reel Batrice
+%T: Oggi Nevica (Today it snows)
+C: T.Fantini
+R: reel
+O: Jos Bouchard
+B:
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Well-known in New England, and many variants exist.
+N: According to Paul M.  MacDonald, the original reel began as a polka from  the
+N: Ballo  Liscio  dance  repertoire  called "Oggi Nevica" (which means 'today it
+N: snows'), played by Riccardo Tesi, an Italian accordion player.
+N: (Did Jos Bouchard write this tune)
+M: C|
+L: 1/8
+K: Bm
+B,C \
+|: "Bm"DCB,D F2DF | B2FB FABc \
+| dcBd f2df | bffb fabc' |
+| d'c'ba gfed | "Em"ceec e4 \
+| "F#7"f^efg f=edc | "Bm"BB,B,B, B,2z2 :|
+|: "Em"b2^ab c'gg2 | "Bm"gf^ef b4 \
+| "F#7"f2^ef g2f=e | "Bm"dedc dcB2 |
+| "Em"b2^ab c'gg2 | "Bm"gf^ef b4 \
+| "F#7"f^efg f=edc |1,3 "Bm"BB,B,B, B,2z2 :|2,4 "Bm"B2z2 "A7"A2Bc ||
+|: "D"d2Ad FAdf | d2Ad FAdf \
+| "A7"e2ce Acec |1,3 "D"d2c'b "(A7)"agfe :|2,4 "D"df"A7"ec "D"d2z2 :|
+S:https://www.folktunefinder.com/tunes/16781
+S:http://trillian.mit.edu/~jc/music/abc/reel/Beatrice_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Beatrice_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Beatrice_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r48/Beatrice_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

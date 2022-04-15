@@ -1,0 +1,27 @@
+X: 1
+T: the Laird of Macintosh
+B: Hunter Collection
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B/c/ \
+| "G"d2 B>c "(Em)"d>c B<G | "Am"E2 c>A "D7"G>F E<D \
+| "G"d>c B<g "Em"B<G GF "G"G3 :|
+d \
+| "G"g2 g>f "Am"e<a a>g | "D7"f>d e<f "G"g>d B<G \
+| "G"g2 g>f "Am"e<a a>g | "D7"f>d e<f "G"g2 g>a |
+| "Em"b>g "D"a>f "C"g<e "D"f>d | "Am"e<d d>B "D7"A>B c<e \
+| "G"d>c B<g "Em"B<G GF "G"G3 |]
+S:https://www.folktunefinder.com/tunes/19459
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LairdOfMacintosh_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LairdOfMacintosh_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

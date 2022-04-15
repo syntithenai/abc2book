@@ -1,0 +1,25 @@
+X:18
+T:Kadril van Brussel
+T:Eerste figuur
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:AB
+L:1/8
+M:2/4
+K:F
+P:A
+A2 A>G | FGAB | c3 d | c4 |1 c2 c>c | dcBA | G>c cc | c4 :|2 =B2 B>B | =BG AB | (c4 |]
+P:B
+c A AB | c2 BA | G2 ^G2| A2 F2 | zA AB | c2 BA | G2 ^G2 | A4 |z A AA |
+G3 A | =B2 G2 | A2 G2 | z G Gc | =B3 G | GG A=B | c4 | z2 z c |
+F>F FG | A3 A | A>A AA | B3 B | B>B BB | B2 AB | d2 cB | A2 z c |
+F>F FG | A3 A | d2 c2 | A2 z d | d>d dd | c2 FA | cBAG | F2 [F2A2c2f2] |]
+S:https://www.folktunefinder.com/tunes/40603
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

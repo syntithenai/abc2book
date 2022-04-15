@@ -1,0 +1,27 @@
+X:3228
+T:Kelvin Grove. CJF.050
+O:england
+M:C
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"The Shearing's No' For You" - PJH.
+K:G
+"p"(G>A)|(B>dA>B) GFED)|"Cres."E2A2A2(G>A)|(B>dA>B)\
+(GFED)|E2G2G2:|:"p"(A>B)|(c>Bc>d)e2(B>c)|dBAG
+hA2(G>A)|(B>dA>B) (GFED)|E2G2G2:|]
+S:https://www.folktunefinder.com/tunes/23679
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

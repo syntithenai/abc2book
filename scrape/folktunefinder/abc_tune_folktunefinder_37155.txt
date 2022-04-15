@@ -1,0 +1,31 @@
+X:5380
+T:Schottis fr Norbotten
+A:Norrbotten
+D:Splimenninnir i Hoydalum
+M:4/4
+O:Sweden
+O:Norway
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008d9.html
+%%ID:000008d9
+K:D min
+A,2 |\
+D2DE F2FG | A2AB A4 | d2de f2e2 | d4-dAde |\
+f2e2 d2AB | c2B2 A2FG | ABAG F2G2 | A6 de |
+f2e2 d2AB | c2B2 A2FG | ABAG F2E2 | D6 ::\
+A2 |\
+AFDF AFDF | A2d2 c2B2 |
+ABAG F2G2 | A6 A2 |\
+AFDF AFDF | A2d2 c2B2 |ABAG F2E2 D6 :|
+S:https://www.folktunefinder.com/tunes/37155
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

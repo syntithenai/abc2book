@@ -1,0 +1,36 @@
+X: 1
+T: Bonnie Dundee
+R: jig
+B: RSCDS __-15
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"d>ed dBd \
+| "C"gfe "D7"d2c \
+| "G"BdD BdD \
+| "D7"A2A ABc \
+| "G"d>ed dBd \
+| "C"gfe "D7"d2c |
+| "G"(B<d)D "D7"(A<d)D \
+| "G"G>AG G2 :: D \
+| "G"G2G GcB \
+| "D7"ADD D2D \
+| A2A ABc |
+| "G"cBB B2G \
+| "G"B>AB "D7"cBc \
+| "G"dcd "C"edc \
+| "G"(B<d)D "D7"(A<d)D \
+| "G"G>AG G2 :|
+S:https://www.folktunefinder.com/tunes/13924
+S:http://trillian.mit.edu/~jc/music/abc/jig/BonnieDundee_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BonnieDundee_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BonnieDundee_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

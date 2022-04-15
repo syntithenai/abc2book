@@ -1,0 +1,35 @@
+X:1
+T: Jump At the Sun
+C: John Kirkpatrick 1972
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Dm
+|:"Dm"DFA ^G2A \
+| "Dm"DFA ^G2A \
+| "Dm"dAA dAA \
+| "Dm"AGF "A"E3 \
+| "Dm"DFA ^G2A \
+| "Dm"DFA ^G2A \
+| "Dm"dAA "Gm"BA=G \
+| "A7"FGE "Dm"D3 :|
+|:"Dm"dAA fed \
+| "A7"eAA gfe \
+| "Dm"fed fed \
+| "A"e^cA "A7"B2A \
+| "Dm"dAA fed \
+| "A7"eAA gfe \
+| "Dm"dAA "Gm"BAG \
+| "A7"FGE "Dm"D3 :|
+S:https://www.folktunefinder.com/tunes/14453
+S:http://trillian.mit.edu/~jc/music/abc/jig/JumpAttheSun_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JumpAttheSun_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JumpAttheSun_Dm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

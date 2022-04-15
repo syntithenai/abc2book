@@ -1,0 +1,18 @@
+X: 2
+T: Corrido
+P: Bb instruments
+%%indent 100
+K: C
+"Intro"[|]Ge | "C"c2 B2 | A2 Ge | "Dm"d2 c2 | B2 Bd | "G7"g2 f2 | e2 d2 | "C"c2 z2 | z4 | z4 | z2 ||
+|: Ge | "C"c4- | c2 Ge | "G7"d4- | d2 Bd | gg gg |1 aa gf | "C"e4- | e2 :|2 "G7"ag fd | "C".c2 "G7".G2 | "C".c2 z2 || z4 | z4 |
+| z4 | z4 |:[K:Cm] "Cm"e2 ee | fe de | "G7"f2 d2- | d4 | f2 ff | gf ed |1 "Cm"e4 | e2 ee :|2 "C".c2 "G7".G2 | "C".c2 ||[K:C]
+|| Ge | "C"c4- | c2 Ge | "G7"d4- | d2 Bd | gg gg |1 aa gf | "C"e4- | e2 :|2 "G7"ag fd | "C".c2 "G7".G2 | "C".c2 |]
+S:https://www.folktunefinder.com/tunes/5454
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Corrido.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

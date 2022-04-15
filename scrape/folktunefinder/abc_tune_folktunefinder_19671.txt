@@ -1,0 +1,33 @@
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: W.Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df ||
+|| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+S:https://www.folktunefinder.com/tunes/19671
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/StewartsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/StewartsStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/StewartsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/StewartsStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/StewartsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/StewartsStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/StewartsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/StewartsStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/StewartsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/StewartsStrathspey.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

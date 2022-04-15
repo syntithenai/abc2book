@@ -1,0 +1,33 @@
+X: 3
+P: The Teddy Bears' Picnic
+C:John W. Bratton (c.1907)
+N:Words by Jimmy Kennedy
+N:Copyright assigned 1907 to M.Witmark & Sons,  New York.  For the
+N:United Kingdom & British Dominions, (excepting Canada and Australia)
+N:and Continental Europe, B. Feldman & Co., ltd.
+M:6/8
+L:1/8
+K:Dm
+"A7"A,3 \
+| "Dm"D2F "A7"EFE | "Dm"D2F "A7"E2F | "Dm"DEF "A7"E2F | "Dm"D3- "C7"D2C \
+| "F"F2A "C7"GAG | "F"F2A "C7"G2A | "F"FGA "C7"G2A | "F"F3- F2c |
+| "C7"d2c d2c | GAc A2G | "F"G2F G2F | CDF D2C | "Bb"D2F "F"C2C | "Bb"DEF "F"C2A | "C7"G6 | "F"F3 :|
+K:Bb
+"F7"z3 \
+| "Bb"F3 d3 | ^c3 d3 | g2d f3- | f2d ^c2d | g2d f2d | gfd ^c2d | "F7"f2f e3- | e6 |
+| "F7"F3 e3 | =B3 c3 | a2a g3- | g2e d2e | a2g f2e | age d2e | "Bb"g2g f3- | f3- "F7"f3 |
+| "Bb"F3 d3 | ^c3 d3 | g2d f3- | f2d ^c2d | g2d f2d | gfd "B7"c2B | "Eb"b6- | b3- bga |
+| "Eb"b2a b2a | "C7"bab c'bg | "Bb"f2=e f2g | "Gm"f2B c2d | "Cm"e3 f2g | "F7"d3 c3 | "Bb"B6- | Bz2 |]
+S:https://www.folktunefinder.com/tunes/3266
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ37.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

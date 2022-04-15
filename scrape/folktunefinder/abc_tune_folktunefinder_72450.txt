@@ -1,0 +1,27 @@
+X: 201
+T:Round O Minuet,A. HA.200
+M:6/4
+L:1/8
+Q:1/4=160
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:HA writes key sig with 5# to mark every sharpened note on staff. NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:A
+"v"f4 a2e2 (dc)(BA)|d2"="c4 BABcde|"v"f4 a2e2 (dc)(BA)|dc"="B3AA4A2|!
+|:BAGABc B2"u"E2"u"E2|BAGABcB4B2|edcdef e2"u"A2"u"A2|edcdef .e4 e2:|]
+S:https://www.folktunefinder.com/tunes/72450
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

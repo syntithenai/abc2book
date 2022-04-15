@@ -1,0 +1,24 @@
+X:105
+T: Ruschelputthennchen,
+N: D0158
+O: Europa, Mitteleuropa, Deutschland, Provinz Sachsen
+N: erste Zeile rhythmisch korrigert
+N: Inzipit = Variante zum Lied, Variante zu Lied D0159 
+R: Kinder - Lied
+M: 2/4
+L: 1/16
+K: C
+ |  |  |  | E3EE4 | D3CD2E2 | C3CC2C2 | G,6
+G,2 | E4E2E2 | D4E2D2 | C2C2C2C2 | G,6
+G,2 | C4E2G2 | G3GG2A2 | A4F2E2 | D6
+D2 | E2G2C4 | D2F2G,2G,2 | C4C4 | C8
+S:https://www.folktunefinder.com/tunes/72562
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

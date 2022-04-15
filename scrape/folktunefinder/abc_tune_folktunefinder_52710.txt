@@ -1,0 +1,29 @@
+X: 7
+T:Harvest Moon. HS.07
+M:6/8
+Q:110
+C:"A Set of Quadrilles,No1"
+S:Henry Stables MS,Cumbria,late19thC
+R:jig
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+A|d2Ad2f|"NB"(a3g2)d|egf edc|f2ed2A|!
+d2Ad2f|(a3f2)d|egf edc|d3d2::!
+A|A2FA2d|f3{f}e2d|e2de2f|dfe dcB|!
+A2FA2d|f3{f}e2d|e2de2f|(d3d2)::!
+K:B Minor
+S:https://www.folktunefinder.com/tunes/52710
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key B
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

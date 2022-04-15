@@ -1,0 +1,27 @@
+X:2410
+T:da Hill o Finnigirt
+B:da Mirrie Dancers
+C:Peter Fraser
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c5a.html
+%%ID:00000c5a
+K:G
+(BA)|\
+G2(GA) {c}BABd | AG(EG) DCB,D   | G<G GA {c}BABd | egdB   A2(AB) |
+G2(GA)    BABd | AG(EG) (DC)B,D | GABc      dedB | AGAB   G2 ::
+(Bc) |\
+dGBG BdGA | Bgdg BcdB | aAeA ceAe | cAec ABcA |
+dGBG BdGA | Bgdg BcdB | GABc dedB | AGAB G2 :|
+S:https://www.folktunefinder.com/tunes/36561
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

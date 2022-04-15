@@ -1,0 +1,25 @@
+X:443
+T: ALL MEIN GEDANKEN
+N: E1646
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Hofe -, Ritter - Lied, Liebe
+M: 4/4
+L: 1/8
+K: F
+F2 | F2F2A2A2 | d2d2c3
+c | A4G4 | F4z2
+F2 | F2F2A2A2 | d2d2c3
+c | A4G4 | F4z4
+E4F3F | A2A2G2G2 | D4C4
+A2G2A2B2 | c2d2c2
+B2 | A2F2E2D2 | A4G4 | F4z2
+S:https://www.folktunefinder.com/tunes/79547
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende%20-,%20hofe%20-,%20ritter%20-%20lied,%20liebe
+% Titles One%20title
+% Transcriptions Only%201%20transcription
+% Mode major
+% Key F
+% Time%20signature 4/4
+% Text Has%20notes%20text
+% Has%20accompaniment%20chords No%20chords

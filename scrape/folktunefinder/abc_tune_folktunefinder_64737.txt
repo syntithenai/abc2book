@@ -1,0 +1,26 @@
+X: 25
+T:Bourre carre de la Chtre
+R:Bourre  2 temps
+A:Berry
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-10-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=122
+K:C
+V:1
+C>D EF|G2G2|A>B cA|G>F ED|C>D EF|G2G2|A>B cA|G3 G:|
+|:E>C EG|F/2G/2F/2E/2 DE|F>E FA|G/2A/2G/2F/2 EG|E>CEG|F/2G/2F/2E/2 DE|F>G AB|c3 G:|
+%%footer $D   Galouvielle-MBe 2006 \nBourre  3 temps (France)
+S:https://www.folktunefinder.com/tunes/64737
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

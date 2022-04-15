@@ -1,0 +1,37 @@
+X: 61
+T: Old Horse and Buggy
+O: origin unknown
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, playing of several fiddlers
+D: Art Stamper "Goodbye Girls, I'm Going To Boston" 2000
+M: C\
+L: 1/8
+K: A
+EF "A1"\
+| A2A2 cBAA | c2e2- e2EF | A2A2 cBAA | F2E2- E2 EF \
+| A2Ac BABA | cdef e2ef | ecBA FGAc | B2{cB}A2- {B}A2 ||
+EF "A2"\
+| A2Ac B2{cB}AA | c2e2- e2EF | A2Ac B2{cB}AA | F2E2- E2EF \
+| A2A2 cBAd | cdef e2ef | ecBA | FGAc | B2{cB}A2- {B}A2 |]
+z2 "B1"\
+| ef2=g fede | fa2b a3a- | a2af ecBA | ce2e- e2ce \
+| ef2=g fede | faab a2af | e2c2 BAAc | B2{cB}A2- {B}A2 ||
+e2 "B2"\
+| ef2=g fede | fa2b a3f | e2ef ecBA | ce2e- e2ce \
+| ef2=g fede | faab a2af | e2c2 BAAc | B2{cB}A2- {B}A2 |]
+%%text Alternate A part:
+[| [A2E2A,2]Ac BABA | c2e2- e2e2 | E2Ac BABA | c2A2 E2A2 \
+|  [A2E2A,2]Ac BABA | cdef e2ef | ecBA FGAc | B2{cB}A2- {B}A4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7664
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

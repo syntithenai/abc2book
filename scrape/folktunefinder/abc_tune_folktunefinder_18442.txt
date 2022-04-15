@@ -1,0 +1,28 @@
+X: 1
+T: Rendalsringlender 1
+R:
+O:
+B:
+D: Dalakopa
+N: Partly based on 1988 transcription by Rolf & Susan Wolfsberg
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "A7"a>b ag e2 e2 | e>f ge "Dm"f2 d2 | "Gdim"e>f ge "Dm"f2 df |1,3 "E7"e2 e^g "A"a4 :|2,4 "A7"e2 ^c2 "Dm"d4 :|
+P:
+K:D
+|: "D"A>B AG F2 F2 | "A7"A>c ec "D"d2 d2 | A>B AG F2 FD |1,3 "A7"E2 EC "D"D2 DF :|2,4 "A7"E2 EC "D"D4 :|
+S:https://www.folktunefinder.com/tunes/18442
+S:http://trillian.mit.edu/~jc/music/abc/shottish/RendalsRingl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/RendalsRingl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

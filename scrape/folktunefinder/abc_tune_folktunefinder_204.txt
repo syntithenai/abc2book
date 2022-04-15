@@ -1,0 +1,23 @@
+X: 1
+P: Trial by Jury Lancers, Figure 5A (That She is reeling)
+C: Sir Arthur Sullivan
+M: C
+L: 1/8
+K: A
+%%text Grand right & left
+!f![A6E6C6] z2 "A"\
+|:"A"AG AG "E7"FE FE \
+| "A"AG AG "E7"FE FE \
+|    AB cd "E"B^A B2 \
+|1 "F#m"Ac "B7"BA "E7"GF E2 \
+:|2 "E7"GA Bc "A"A2 A |]
+S:https://www.folktunefinder.com/tunes/204
+S:http://trillian.mit.edu/~jc/music/abc/Contra/TrialByJuryLancers_P2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

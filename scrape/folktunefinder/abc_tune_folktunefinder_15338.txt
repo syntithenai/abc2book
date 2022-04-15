@@ -1,0 +1,38 @@
+X: 1
+T: the Black Dance
+O: Rutherford 1772
+R: march
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG | "F"F6 |]
+yde \
+| "Bb"f2f2 f2ed |  "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed | "Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+S:https://www.folktunefinder.com/tunes/15338
+S:http://trillian.mit.edu/~jc/music/abc/march/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlackDanceM_F2_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BlackDanceM_F2_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/BlackDanceM_F2_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/BlackDanceM_F2_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BlackDanceM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BlackDanceM_F2_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BlackDanceM.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

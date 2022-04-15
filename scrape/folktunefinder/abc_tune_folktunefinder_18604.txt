@@ -1,0 +1,28 @@
+X:1
+T:Between the Devil and the deep blue sea
+M:4/4
+L:1/4
+C:Harold Arlen & Ted Koehler
+Q:1/4=190
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm6"x2 | "( Am7" "F/C"x"Abm7" " "x "Gm7" "C7"x"C7 )" " "x | "F6"x2 "C7"x2 ||
+V:melody
+zA2C | A2c2 | zA/^G/AC | Ac3 |
+S:https://www.folktunefinder.com/tunes/18604
+S:http://trillian.mit.edu/~jc/music/abc/song/Between_the_Devil_and_the_deep_blue_sea.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Between_the_Devil_and_the_deep_blue_sea.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/between_the_devil_and_the_deep_blue_sea.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/between_the_devil_and_the_deep_blue_sea.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

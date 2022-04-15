@@ -1,0 +1,31 @@
+X:163
+T: Die Sennerin hoasst Liesl,
+N: D0286
+O: Europa, Mitteleuropa, Deutschland, Bayern
+N: mehrstimmig notiert; Takt von 3/4 auf 6/8 korrigiert
+N: Inzipit = Variante zum Lied
+R: Hirten - Lied, Bauernlied, Jodler
+M: 4/4
+L: 1/16
+K: G
+ |  |  |  |  | D4 | G6D2B,4D4 | G4G4z4
+G4 | A6F2D4A4 | G8z4
+D4 | G6D2B,4D4 | G4G4z4
+G4 | A6F2D4A4 | G6
+G2F2G2 | A2A2D2A2G2A2 | B2B2G2
+G2F2G2 | A3FD2c2B2A2 | G6
+G2F2G2 | A3FD2c2B2A2 | G6
+D2D3D | D2G2G2G2G3G | G2B2B2
+G2G2B2 | d6c2B2A2 | G6
+D2D3D | D2G2G2G2G3G | G2B2B2
+G2G2B2 | d6c2B2A2 | G6z6
+S:https://www.folktunefinder.com/tunes/72620
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Hirten - lied, bauernlied, jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:0
+T:Bogallan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=88
+K:Hp
+ {gcd}c3       e/f/ {gef}ecea        |{Gdc}d3 {g}f/a/  {dc}da{fg}fd  |
+ {gcd}c3       e/f/ {gef}ecea        |     ceaf       {gef}ec{gBd}B2:|
+   {d}c{e}A{d}ce      {g}A{d}c{g}eA  |  {d}ce{g}fe      {g}fa{fg}fe  |
+[1 {g}c{d}A{d}ce      {g}A{d}c{gef}eA|  {d}ceaf       {gef}ec{gBd}B2:|
+[2 {g}ce{g}B{d}c      {e}A{d}c{g}fe  |  {g}faef       {gef}ec{gBd}B2|]
+S:https://www.folktunefinder.com/tunes/66340
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

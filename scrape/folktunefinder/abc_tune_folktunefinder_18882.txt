@@ -1,0 +1,50 @@
+X:1
+T:Nascimento
+M:4/4
+L:1/4
+C:Barry Harris
+Q:1/4=190
+%%staves (chords melody)
+K:Bb
+%%text (medium samba)
+%%vskip 20
+P:A
+V:chords
+"Cbmaj7"x2 x2 | x2 x2 | "Fm7b5"x2 x2 | "Bb7"x2 x2 |
+"Ebm7"x2 x2 | "-/Db"x2 x2 | "Cm7b5"x2 "( E7"x"Gb7 )"x | "F7"x2 x2 ||
+V:melody
+B>_G z/_A/ z/B/- | B2 _cB | _A>F z/_G/ z/A/- | A3B |
+_G>E z/F/ z/G/- | G2_A_G | F4- | F2ze ||
+P:B
+V:chords
+"Bbmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gmaj7"x2 x2 | "F#m7b5"x2 "B7"x2 |
+"Emaj7"x2 x2 | "Ebm7b5"x2 "Ab7"x2 | "Dbmaj7"x2 x2 | "Dbm7"x "Gb7"x3 ||
+V:melody
+d2-d>e | z/d/ z/c/ BA | =B2-B>c | z/=B/ z/A/ G^F |
+^G2-G>A | z/^G/ z/^F/ =E^D | =F-F/_E//_D// C/D/F/_A/ | ee3 ||
+P:A
+V:chords
+"Cbmaj7"x2 x2 | x2 x2 | "Fm7b5"x2 x2 | "Bb7"x2 x2 |
+"Ebm7"x2 x2 | "-/Db"x2 x2 | "Cm7b5"x2 "( E7"x "Gb7 )"x | "F7"x2 x2 ||
+V:melody
+B>_G z/_A/ z/B/- | B2 _cB | _A>F z/_G/ z/A/- | A3B |
+_G>E z/F/ z/G/- | G2_A_G | F4- | F2ze ||
+P:C
+V:chords
+"Bbmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Bm7b5"x2 x2 | "E7"x2 x2 |
+"Am7"x>"(Bm7"x x/"Cmaj7)"x/x/"D7"x/ | x2 x2 | "Gmaj7"x2 x2 | "C7"x2 x2 |]
+V:melody
+d2-d>e | z/d/ z/c/ BA | f-f/=B//A// ^G/B/d/f/ | gg3 |
+=E>^F z/G/ z/=B/- | Bz (3dD_B | A4 | z4 |]
+S:https://www.folktunefinder.com/tunes/18882
+S:http://trillian.mit.edu/~jc/music/abc/song/Nascimento.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/nacscimento.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Nascimento.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/nacscimento.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

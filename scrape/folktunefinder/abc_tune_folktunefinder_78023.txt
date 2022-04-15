@@ -1,0 +1,30 @@
+X:2
+T: DEUTSCHLAND DEUTSCHLAND UEBER ALLES
+N: B0001A
+O: Europa, Mitteleuropa, Deutschland
+R: Volks - Hymne, national, politisch, Vaterlands - Lied
+M: 2/4
+L: 1/16
+K: F
+ | F6G2 | A4G4 | B4A4 | G2E2F4
+d4c4 | B4A4 | G4A2F2 | c8
+F6G2 | A4G4 | B4A4 | G2E2F4
+d4c4 | B4A4 | G4A2F2 | c8
+G4A4 | G2E2C4 | B4A4 | G2E2C4
+c4B4 | A6A2 | =B4B2c2 | c8
+f6e2 | e2d2c4 | d6c2 | c2B2A4
+G6AB | c2d2B2G2 | F4A2G2 | F8
+f6e2 | e2d2c4 | d6c2 | c2B2A4
+G6AB | c2d2B2G2 | F4A2G2 | F8
+S:https://www.folktunefinder.com/tunes/78023
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Volks - hymne, national, politisch, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

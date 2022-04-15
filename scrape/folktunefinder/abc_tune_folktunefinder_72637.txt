@@ -1,0 +1,27 @@
+X:180
+T: Muede kehrt ein Wandersmann zurueck
+N: D1011
+O: Europa, Mitteleuropa, Deutschland, 
+N: DVA-Signatur A 57 199
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+DD | B3AGFGB | D4z2
+FG | A3GFAed | B4z2
+GA | B3dcBAG | E4z2
+GE | D3GFAed | B4z2
+GA | B3dcBAG | E4z2
+GE | D3GFAed | B4z2
+S:https://www.folktunefinder.com/tunes/72637
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

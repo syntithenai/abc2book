@@ -1,0 +1,27 @@
+X: 1
+P: Epsom Wells
+N: Used for the dance Wa is me, what mun I do!
+C: H. Purcell 1696
+S: Playford (1696 Supplement to the 9th edition)
+B: Jeremy Barlow "The Complete Country Dance Tunes" #354 (1985)
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+|: "F"c3 f cA | c2 A2 F2 | "Bb"d3 f dB | "Gm"d2 B2 "C7"G2 \
+|  "F"cf2 a gf | "C"g2 c2 "Dm"A2 | "Gm"B>c dc BA | "C7"GF fe "F"f2 :|
+|| "F"af ca gf | "C"g2 c2 "A7"A2 | "Dm"fd Af  dA | "G7"=B2 B/c/d G2 \
+|  "C"ge cg ec | "G7"d=B dB Gg | dg "(C)"eg "G"dg | "C"ed/e/ f/e/d/c "C7"c2 ||
+|| "F"f>e fg fe | "Dm"f3 g f2 | "Gm"g>f ga "G7"gf | "C7"g3 a g2 \
+|  "F"a>g ab ag | "Dm"a>b ag fe | "Gm"f>g f/g/a gf | "C7"fg fc "F"f2 |]
+S:https://www.folktunefinder.com/tunes/4174
+S:http://trillian.mit.edu/~jc/music/abc/England/WaIsMe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:405
+%%topmargin 3cm
+T:Lady Harriet Hope
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+A | FAcf T(dc)T(BA) | Tf2 (af) gGGA | FAcf T(dc)T(BA) | BGcA F/F/F TF ||
+c | Tfcfg (f/g/a) (gf) | ecgc acgc | Tfcfg (f/g/a) (gf) | cfeg f/f/f T(fc) |
+fcfg (f/g/a) (gf) | Tgfga baga | TfdcB {/B}A2 (fd) | cABG F/F/F TF |]
+S:https://www.folktunefinder.com/tunes/71434
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Harriet_Hope.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0405.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:29
+T: Benno, Bischof von Meissen
+N: A0388
+O: Europa, Mitteleuropa, Deutschland
+N: Breslauer Hs. 16. Jh.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: D
+ddd | A2B=cB2 | A2z
+GA=c | A2GAGG | =F2z
+AAA | G2=FE | D2=C2 | z
+=C=FG | A=FGG | A2z
+GAB | =cABc | =c2z
+A | =cdeA | =cde2 | d3
+S:https://www.folktunefinder.com/tunes/80088
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

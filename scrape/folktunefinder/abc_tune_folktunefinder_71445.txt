@@ -1,0 +1,26 @@
+X:416
+%%topmargin 3cm
+T:Lady Georgina Gordon's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+C | F/F/F (.F>.F) A>FA<c | d<Tfc>A {/A}G2 (GA) | FF/F/ (.F.F) A>FA<c | d<fTc>A {/A}F2 [1 F :| [2 F2 |: f>g{fg}ag a/g/f/d/ cf | d<gTc>A {/A}G2 G2 |
+Tf>gag a/g/f/d/ cf | d>fTc>A ~AFF :: !f!CFA,F CFBd | TcAFA ~G2 G2 | CFA,F CFBd | TcAGA {/A}F2 ~F2 :| fg{fg}ag a/g/f/d/ cf |
+~c>df<a g2 ~g2 | fg{fg}ag a/g/f/d/ cf | d<fTc>A {/A}F2 ~F2 | fg{fg}ag a/g/f/d/ cf | c>df<a g2 ~g2 | (b/a/)g/f/ b/g/f/e/ f>cd<f | Tc>BTA>G {/G}~F2 F |]
+S:https://www.folktunefinder.com/tunes/71445
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Georgina_Gordons_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0416.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: The Chorus Jig
+B: Skye (1887)
+M: 6/8
+L: 1/8
+K: D
+%%continueall 1
+G "^S"\
+|: TF2D DED | AFD A(Bd) | TF2D DED | A3 TA2G \
+|  TF2D DED | AFD DE=F |1 E2=C CEF | G3 GBA :|2 E2=c cGE | G3 GBA |
+|: TF2d dcd | ABG FGE | D2d dcd | A3 TA2G \
+|   F2d dcd | ABG FED | E2=c cGE |G3 [1 GBA :|2 Gag |
+|: Tf2d dfd | afd deg | Tf2d dfg | a3 abg \
+|  Tf2d dfg | afd de=f | e2=c cef | g3 [1gag :|[2 Tg2e |
+|:  fdf ece | dcd AFD | F2d dAF | A3 ABc \
+|   dBd =cAc | BGB AFD | E2=c cGE | G3 [1Gag :|[2 A("d.S"Bd) |]
+S:https://www.folktunefinder.com/tunes/14001
+S:http://trillian.mit.edu/~jc/music/abc/jig/Chorus_Jig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Chorus_Jig_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

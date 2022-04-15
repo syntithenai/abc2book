@@ -1,0 +1,33 @@
+X:57
+T: AN EINEM SOMMERABEND SCHOEN
+N: F0150
+O: Europa, Mitteleuropa, Deutschland; Schottland
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: A
+ED | C2E2E2FG | A3BA2
+G2 | F3EF2A2 | B3cB2
+ED | C2E2E2FG | A3Bc2
+B2 | A3FE2c2 | c2B2A2
+ed | c2e2A2B2 | c3de2
+dc | d3cB2c2 | d3ef2
+ed | c2e2B2c2 | A3Bc2
+B2 | A2F2E2c2 | c2B2A2
+ed | c2e2A2B2 | c3de2
+dc | d3cB2c2 | d3ef2
+ed | c2e2B2c2 | A3Bc2
+B2 | A2F2Ee2d | c2B2A2
+S:https://www.folktunefinder.com/tunes/69617
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

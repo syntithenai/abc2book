@@ -1,0 +1,27 @@
+X: 1
+T: Little Birds of the Mountain
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"DEG B2G | "Am"cBA "D7"FGA | "G"DEG B2G | Bcd "C"e2f \
+| "G"gfe d2B | "A(m)"ABG "Em"E2D | "G"DEG BcA | "D"BGG "G"G2 :|
+|: B \
+| "G"ded "C"ege | "G"d3 d2B |"G"ded "C"ege | "G"d3 "C"e2f \
+| "G"gfe d2B | "A(m)"ABG "Em"E2D | "G"DEG BcA | "D"BGG "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14547
+S:http://trillian.mit.edu/~jc/music/abc/jig/LittleBirdsOfTheMountain_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/LittleBirdsOfTheMountain_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LittleBirdsOfTheMountain_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LittleBirdsOfTheMountain_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

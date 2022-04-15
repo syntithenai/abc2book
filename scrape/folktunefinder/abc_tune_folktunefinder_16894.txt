@@ -1,0 +1,32 @@
+X: 15
+T:Carolan's Draught
+C:Turlough O'Carolan
+M:4/4
+L:1/8
+Q:1/2=80
+R:Other
+D:Arty McGlynn, "McGlynn's Fancy"
+D:Zan McLeod
+K:G
+D2| "G"GABc "D"defd| "C"g2fe "G"d2d2| "C"e2E2 "G"d2D2| "Am"c2Bc  "D"AB (3cBA|
+"G"GABc "D"defd| "Em"gfed "A"^cbag| "D"gfed "A"A2^c2| "D"d6:||:
+"D"fg|afga "G"bagf| "Em"(3efg fe "Am"edcB| "C"edef gfga| "G"bagf "C"efga |
+"G"bBbB "D"aBaB| "Em"gBgB "Bm"fBfB| "C"edef gfe^d| e6f2|
+"Em"gfed "Am"cBAG| "C"e2d2 "G"d2D2| "C"c2 (3BcB "Am"A2G2| "D"FGAF D2z2|
+"C"EFGE "D"FGAF| "G"GABG "D"ABcA| "G"d2g2 "D"bagf| "G"g6:|!
+S:https://www.folktunefinder.com/tunes/16894
+S:http://trillian.mit.edu/~jc/music/abc/reel/Carolans_Draught_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Carolans_Draught_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Carolans_Draught_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Carolans_Draught_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/Carolans_Draught_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Carolans_Draught_3.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:399
+%%topmargin 3cm
+T:Mrs. Fleming of Moness
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+F | DB,DF TB2 (c/B/).A/.G/ | FB, (G/F/E/D/ E)CCF | DB,DF {/c}TB2 AG | (A/B/c) F>A BB,-B, ::
+d | Bfd<f B<fd<f FcA<c F<cA<c | B<fd<f B<fd<f | (b/a/g/f/) ge dB-B ::
+!f!F | D>B,F>B, G>B,F>B, | D>B, (G/F/E/D/ E)C-C>F | D>B,F>B, G>B,F>A | (BGTFE) DB,-B, ::
+!p!g | fBb>B | fe | fB | .AT.G(FE) DB,-B, :|
+S:https://www.folktunefinder.com/tunes/71428
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Fleming_of_Moness.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0399.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

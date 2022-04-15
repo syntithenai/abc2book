@@ -1,0 +1,25 @@
+X:429
+T: "Das erlauchte Taenzchen"
+N: Z1109
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Maria
+M: 3/4
+L: 1/16
+K: A
+E2E2FG | A4A2=c2BAG2 | A6
+B2=c2d2 | e6=c2edc2 | B4z2
+A2A2e2 | e4e2=f2ed=c2 | d6
+e2d=cB2 | A6=c2BAG2 | A4z2
+S:https://www.folktunefinder.com/tunes/69288
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, maria
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

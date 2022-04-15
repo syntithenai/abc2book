@@ -1,0 +1,37 @@
+X:805
+T:Xiraldilla (CT 226)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Alfredo Garca Muiz, de diez y ocho aos, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 226
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+B/c/
+|d2 c|d2 B|AGF/G/|A2 B|c2 B|AGB/c/|
+d2 c|d2 B|AGF/G/|A2 B|c2 B|AG z||
+W:Siempre que te vas me dices adios,
+W:hasta la primera;
+W:no me dices hasta cundo,
+W:siempre me dejas con pena.
+W:
+S:https://www.folktunefinder.com/tunes/59692
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

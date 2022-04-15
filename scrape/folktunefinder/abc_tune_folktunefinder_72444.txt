@@ -1,0 +1,29 @@
+X: 195
+T:Untitled. HA.194
+M:3/4
+L:1/8
+Q:1/4=140
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Second note clearly C in MS, though could have meant B. NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+a>c'a2f2|d>ed2A2|F>GF2D2|F2"u"A2"u"d2|!
+f>gf2b2|g>ag2e2|a>ga2e2|A6:|!
+|:e>f e2f2|g>fg2B2|d>ed2f2|a>ga2A2|!
+b>a"="g2f2|ecd2e2|fg"="e4|d6:|]
+S:https://www.folktunefinder.com/tunes/72444
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

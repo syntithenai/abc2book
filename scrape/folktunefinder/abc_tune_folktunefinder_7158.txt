@@ -1,0 +1,24 @@
+X: 1
+T: Dem Trisker Rebns Khusid
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"D2AG F2F2 | FGFE D4 | D2F2 A2d2 | d2cB A4 \
+| "F"AGcB A2GF | "Gm"G_AGA G4 | "Dm"FEEF "Cm"F_EED | "Dm"D8 :|
+|: "F"C2FG A4 | A2GA G2F2 | c4 "C7"B4 | "F"A2GA G2F2 \
+| zCDE FGAB | cd_ed cBAG | "Dm"FEEF "Cm"F_EED | "Dm"D8 :|
+|: "Dm"F8 | "Cm"G2_E2 "Dm"D4 | F8 | "Cm"G2_E2 "Dm"D4 \
+| "F"_edcB AGFE | FEFA "Gm"G4 | "Dm"FEEF "Cm"F_EED | "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/7158
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Khos_TriskerRebns.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/DemTriskerRebnsKhusid_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/DemTriskerRebnsKhusid_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

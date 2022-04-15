@@ -1,0 +1,42 @@
+X: 1
+T: A Media Luz
+T: In half-light
+C: Edgardo Donato (1925)
+R: tango
+P: Tango
+N: Lead voices originally labelled for mandolin.
+N: From an undated edition by O. Di Bella Music Co., New York
+M: C|
+L: 1/8
+K: G
+V: 1
+d BGBf \
+| "G"e3d BGBe | "D7"d3d decd | "D7"B2Ac cdBA |1 "G"d2z :|2 "G"Gz "D7"dz "G"[gB]z |][K:=f][K:Gm]
+d2 \
+| "Gm"d2B2- B2dd | "Cm"e2c2- "D7"c2^f2 | "D7"^f3d ed2^c | "Gm"d4 z4 | "Gm"z2Bc dfed |
+| "D7"d2c3 z3 | "D7"z2AB cedc | "Gm"B6 B2 | "Gm"cB2c d2B2 | "D7"c2A6 |
+| "D7"c2A2 BABc | "Gm"d6 d2 | "G7"[g=BD]g2g g2f2 | "Cm"e2 c6 | "D7"[acD]^f2d ed2c |
+| "Gm"d2 B6 | "Gm"z2Bc ddcB | "D7"A2cc ccBA | "D7"AGBA cBA^F | "G"G2z |][K:=B=e][K:G]
+|: d BGBf \
+| "G"e3d BGBe | "D7"d3d decd | "D7"B2Ac cdBA \
+|1,3 "G"d2z :|2 "G"G2z :|4 "G"Gz "D7"dz "G"[gBDG,]z3 |]
+V: 2
+D GDGB \
+| G4 D2G2 | F4 F2E2 | D2CE EFDC |1 B,3 :|2 B,z [cD]z [BD]z |][K:=f][K:Gm]
+B2 \
+| B2 G4 BB | c2 E4 A2 | A3^F FF2A | B4 z4 | z2GA BdcB |
+| A2^F3 z3 | z2^FG AcBA | G6 G2 | AG2A B2G2 | A2^F2 .D.F.A.d |
+| ^F4 D4 | GDGB dzB2 | =B4 B4 | c2 E6 | ^FA2F FF2A |
+| B2 G6 | z2GA BBAG | ^F4 F4 | D4 ^F2D2 | B,2z |]
+|: z z2z2 \
+| B4 G2B2 | c4 f2e2 | d2ce efdc |1,3 B2z :|2 B2z :|4 Bz [cD]z [BDG,]z3 |]
+S:https://www.folktunefinder.com/tunes/19715
+S:http://trillian.mit.edu/~jc/music/abc/tango/A_Media_Luz_G.abc
+% Rhythm Tango
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

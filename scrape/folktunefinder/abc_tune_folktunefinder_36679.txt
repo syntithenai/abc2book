@@ -1,0 +1,28 @@
+X:3000
+T:Lamb & Sallad
+A:North-West
+M:C|
+N:P22 2/2
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000058e.html
+%%ID:0000058e
+K:C
+EGGE G2d2|dBAG FAFD|\
+EGGE G2d2|eBGF G/2A/2B E2::\
+e>feB efg2|f>gfe def2|
+e>feB efg2|fedf e/2e/2e E2|\
+P:bar missing here 
+efeB def2|eddB cBAG|\
+BdAG E/2E/2E E2:|
+S:https://www.folktunefinder.com/tunes/36679
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

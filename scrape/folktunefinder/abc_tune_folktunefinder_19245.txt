@@ -1,0 +1,32 @@
+X: 1
+T: Calluna
+C: Jim Berry
+R: strathspey
+S: Steve Wyrick email 2008-5-8
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+N: Calluna vulgaris is the scientific name of white heather.
+M: C
+L: 1/8
+K: D
+"A7"A \
+| "D"F>G A<f "D7"e>d B<d | "G"B<G d>B "D"A2 A2 \
+| "G"B<G d>B "D"A<F d>F | "E7"E<e e>d "A7"c2 (3cBA |
+| "D"F>G A<f "D7"e>d B<d | "G"B<G d>B "D"A2 A2 \
+| "G"B<g (3fed "D"A>a f>d | "A7"(3cBA f>e "D"d2 d2 |]
+[| "G"B<G B<d "A7"e>d cF A<d "Bm"f2- f>d \
+| "A7"c<A c<e "F#m"f>e d>c | "Bm"(3dcB "F#"c>^A "Bm"B2 "D7"=A2 |
+| "G"B<G B<d "A7"e>d cF A<d "G"g2 f>g \
+| "D"a>g (3fed "G"B>g (3fed | "A7"(3cBA f>e "D"d2 d2 |]
+S:https://www.folktunefinder.com/tunes/19245
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Calluna_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Calluna_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

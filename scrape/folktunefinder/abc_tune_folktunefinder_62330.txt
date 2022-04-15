@@ -1,0 +1,35 @@
+X:1
+T:Aaf unnarn Weihadamm
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+S:sammlung Rittersberg
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:F
+C |\
+FGA | G2F | EzE | ABc |\
+cBd | c2 :|
+|: d/c/ |\
+ABc | AcB/A/ | GGF/G/ | ECC/E/ |\
+FcB/A/ | G2E | F2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/62330
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/aaf_unnarn_weihadamm.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

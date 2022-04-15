@@ -1,0 +1,45 @@
+X: 1
+T: S\"ag mennes int' du mi
+T: polska fr\aan \"Alvdalen 
+O: efter Einar Britt
+R: \"Alvdalspolska
+Z: 2000 Brian Wilson ; words transcribed by John Chambers
+S: printed MS (from Ingvar Norman's book)
+M: 3/4
+L: 1/8
+K: Dm
+%
+A \
+|: "Dm"A2 d^c "A7"A>c \
+| "A7"e2 ge "Dm"f>f \
+| "Dm"f2 ag "A7"e>g \
+| "Dm"f2 "A7"e4 :|
+%
+|: "A7"e2 (ag) e>g \
+| "Dm"f2 fd "A7"e2 \
+| "A7"e2 (ag) e>g \
+| "Dm"f2 fd "A7"e>e \
+| "Dm"f2 (ag) "A7"e>g \
+| e2 "Dm"d4 :|
+%
+W: Minnes int du, s\aa minnes f\"all je
+W: allt bakom den gr\"ona busken.
+W: D\"ar v\"axte blom och d\"ar v\"axte blad
+W: och d\"ar jorde vi v\aar f\"orste.
+W:
+W: Minnes int du, s\aa minnes f\"all je
+W: allt bakom den gr\"ona busken.
+W: D\"ar gjorde vi en p\^ojti s\aa rar
+W: Och p\^ojtin han hette Ola.
+S:https://www.folktunefinder.com/tunes/18948
+S:http://trillian.mit.edu/~jc/music/abc/song/SagMennesIntDuMi_DmW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/SagMennesIntDuMi_DmW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/song/SagMennesIntDuMi_DmW.abc
+% Rhythm A?lvdalspolska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

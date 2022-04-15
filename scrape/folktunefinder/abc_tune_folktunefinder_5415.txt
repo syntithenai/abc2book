@@ -1,0 +1,30 @@
+X: 1
+P: The Sweet Maid of Glendaruel
+O: Scotland
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scots Guard p.153
+N: BSFC XI-1
+M: 2/4
+L: 1/8
+K: AMix
+e \
+| "A"A>B cd | e>c Ad    | cA     ec | "E7"cB Be \
+|  "A"A>B cd | e>c AB/c/ | "G"d>B GB | "A"BA  A :|
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cB Bg \
+| "A"fe "(D)"a>f | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cB Bg \
+| "A"fe  "D"fd   | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+S:https://www.folktunefinder.com/tunes/5415
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ContraKlez17_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR17_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

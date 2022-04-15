@@ -1,0 +1,40 @@
+X: 50
+T:Colnel Hornars March. JMP.050
+M:C|
+L:1/8
+Q:120
+C:"55"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - not shown as triplet.  2 - shown with a '4' in the slur.  Upside
+N:down at the bottom of the page is written 'John Miller his Book August
+N:1st 1 80' and in pencil in a different hand, '1800'
+H:1799
+Z:vmp.C. Graebe
+K:D major
+A>G | F>A d>d d2 f>d | ((3cec) A>A A2 "tr"B2 |\
+"1" (3Adc (3BAG (3FBA (3GFE |F2 D>D D2 A>G |!
+  F>A d>d d2 f>d | ce aa a2 c2 |\
+"1"((3dfe) (3dcB "tr"E2"tr"B2 | A2 A>A A2 :|!
+|:c>d | e2 A>e f2 A>f | g>fe>d "tr"c2 ec | d2 bd c2 a>c |\
+d2 b>d c2 ^a2 |!
+"1"(3bag (3fge "tr"d2 "tr"c2 |\
+B2 B>B B2 A>F | F>A d>d d2 f>d |\
+"1"(3cec A>A A2 "tr"B2 |!
+ "1" (3Adc (3BAG (3FBA (3GFE |F2 D>D D2 A>G |  F>A d>d d2 f>d |!
+ "2" ((4c/d/e/f/) g>g "tr"g2 e2 | "1" (3fag (3fed A2 "tr""qu"e2 |\
+ d2 d>d d2 A:|]
+S:https://www.folktunefinder.com/tunes/1987
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

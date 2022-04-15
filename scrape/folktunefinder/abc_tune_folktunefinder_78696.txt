@@ -1,0 +1,26 @@
+X:255
+T: ES GIENG EIN KNAB SPAZIEREN
+N: E0131
+O: Europa, Mitteleuropa, Deutschland, Siegen
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied; Vergewaltigung
+M: 2/4
+L: 1/16
+K: F
+C2 | F2A2c2d2 | c3BA2
+cd | c2B2G2c2 | A4z2
+cd | c2B2G2E2 | F3Ac2
+c2 | d2defed2 | c4
+B4 | A2F2G2AG | F4z2
+S:https://www.folktunefinder.com/tunes/78696
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied; vergewaltigung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

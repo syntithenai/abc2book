@@ -1,0 +1,26 @@
+X:46
+T:Red Wing
+R:reel
+C:traditional
+S:Jim Coon to CoMandoList TOW
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+D2|:"G"G2GG G2B2| (d4 d2)G2 | "C" c2e2 gfe2|\
+ "G"d6 B2| "D7" c3B A2c2|!
+"G" B3A G2B2|1 "A7" A2E2 F2G2|\
+"D7"ABAF E2D2:|2"Am"A2E2 F2D2|"G"G4 g2f2||!
+|:"C"e4 e3e| e2g2 f2e2| "G"d4 (B4|B2)d2 e2d2 |!
+"D7"d4 A4 |1 "D7"A2d2 e2d2|\
+"G" d4 (B4|B4) g2e2:|2"D7" A2c2 B2A2| "G"(G8|G6)||
+S:https://www.folktunefinder.com/tunes/51721
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

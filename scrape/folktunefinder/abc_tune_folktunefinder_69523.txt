@@ -1,0 +1,29 @@
+X:664
+T: "Der Kehraus"
+N: Z1345
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/8
+K: Bb
+ | Bcd2d2 | d2f3
+d | dce3c | edgff2
+Bcd2d2 | d2f3
+d | dce3f | d2z4
+c2d2e2 | edgff2
+c2d2e2 | edgff2
+Bcd2d2 | d2f3
+d | dce3c | edgff2
+Bcd2d2 | d2f3
+d | dce3f | d2z4
+S:https://www.folktunefinder.com/tunes/69523
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

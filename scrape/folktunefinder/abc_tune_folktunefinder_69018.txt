@@ -1,0 +1,29 @@
+X:159
+T: ICH WEISS EIN' HUEBSCHE MUELLERIN
+N: Z0158
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/4
+K: C
+B, | CEDC | B,B,A,
+B, | CG,A,B, | C2z
+B, | CEDC | B,B,A,
+B, | CG,A,B, | CDE
+C | DCB,A, | G,2z
+B, | CB,CA, | G,2E,
+C | CCDD | D2D
+F | ECDB, | C3
+S:https://www.folktunefinder.com/tunes/69018
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Liberty Two-Step
+N: LIBERTY TWO-STEP. AKA and see "Liberty [1]." Canadian, Two-Step.  D
+N: Major.   Standard.   AABB'.   Source  for  notated  version: Johnny
+N: Morrissey (1913-1994, Newtown Cross, Queens County,  Prince  Edward
+N: Island;  late  of  Vernon River) [Perlman]; fiddler Dawson Girdwood
+N: (Perth, Ottawa Valley, Ontario) [Begin].  Begin (Fiddle Music  from
+N: the Ottawa Valley), 1985; No.  67, pg. 77. Perlman (Fiddle Music of
+N: Prince Edward Island), 1996; pg.  160.  Apex AL 1613, "The Best  of
+N: Don Messer and his Islanders, Vol.  6."
+S: Winslow Yerxa <winslowyerxa:yahoo.com> QueTrad 2005-2-1
+M: 2/4
+L: 1/8
+K: D
+|: fAfA | f/g/f/e/ d/e/f/a/ | gBgB | g/a/g/f/ e/d/B/e/ | fA fA | f/g/f/e/ dc/d/ |
+| e/f/e/d/ Bc |1 dd/e/ dd/e/ :|2 d>e d(3B/c/B ||
+|: AA/B/ A/G/F/E/ | D/F/A/d/ fd | AB/2c/2 d>F | [EA]>F [EA][EA] |
+| A>B AGFE | DFAd fd | e/f/e/d/ Bc |1 d>d [df] (3B/c/B/ :|1 d>e dd/e/ |]
+S:https://www.folktunefinder.com/tunes/17559
+S:http://trillian.mit.edu/~jc/music/abc/reel/Liberty_Two_Step_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Liberty_Two_Step_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Liberty_Two_Step_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/Liberty_Two_Step_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Liberty_Two_Step_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

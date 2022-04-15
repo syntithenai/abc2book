@@ -1,0 +1,23 @@
+X:1115
+T:Banish Misfortune
+Z: id:dc-jig-2
+M:6/8
+L:1/8
+K:D Mixolydian
+e|f2d cAG|Add cAG|F2D DED|FEF GFG|!
+A3 cAG|AGA cde|fed cAG|Ad^c d2:|!
+e|f2d d^cd|f2a agf|e2c cBc|e2f gfe|!
+f2g agf|e2f gfe|fed cAG|Ad^c d2:|!
+e|f3 e3|d3 c3|A3 G3|F3 FED|!
+c3 cAG|AGA cde|fed cAG|Ad^c d2:|!
+S:https://www.folktunefinder.com/tunes/56054
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

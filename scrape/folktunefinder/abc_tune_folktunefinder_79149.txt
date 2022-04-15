@@ -1,0 +1,30 @@
+X:45
+T: INS BAYRISCH GEGANGE
+N: E1041A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Lahnkreis; Dillkreis
+R: Tanz - Lied
+M: 3/4
+L: 1/8
+K: F
+A2 | c3BA2 | G3A
+Bd | d3cB2 | A4
+cc | c2A2f2 | f3e
+d2 | c2B2c2 | A4
+A2 | G2G3F | EGc2
+ee | g3fe=B | c4
+cc | d2c2B2 | Acf2
+cf | e3dcB | A4
+cc | d2c2B2 | Acf2
+cf | e3dcB | A4
+S:https://www.folktunefinder.com/tunes/79149
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

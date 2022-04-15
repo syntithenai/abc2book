@@ -1,0 +1,28 @@
+X:526
+T:Mueira d'Astierna (XA 56)
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 56
+M:6/8
+L:1/8
+Q:3/8=112
+K:Cm
+G2 G
+|: G2 c =B2 ~=A|=B2 ~G G2 A|~G2 F G2 A|~G2 G G2 G :|
+|G2 c =B2 ~=A|=B2 ~G G2 A|~G2 F ~E2 ~D|C6|
+|: C3 DEF|G5 A|~G2 F G2 A|~F3 E2 ~D|C3 DEF|G5 A|~G2 F E2 ~D|[1 C6 :|[2 C3 z3|
+S:https://www.folktunefinder.com/tunes/59413
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

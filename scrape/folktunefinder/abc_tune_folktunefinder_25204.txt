@@ -1,0 +1,28 @@
+X:4752
+T:Off She Goes. GHW.069
+O:england
+M:6/8
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Jig
+A:Norfolk
+K:D
+A|F2A G2B|ABc d3|F2AG2B|AFD E3|
+F2AG2B|ABc d2e|f2d({ef}g2)f|edc d2:|
+|:g|(f/g/a)f d2f|(e/f/g)e c2 e|(f/g/a)fd2f|edc d2 g|
+(f/g/a)f d2f|(e/f/g)e c2 e|d2f a2 f|gec d2:|
+S:https://www.folktunefinder.com/tunes/25204
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

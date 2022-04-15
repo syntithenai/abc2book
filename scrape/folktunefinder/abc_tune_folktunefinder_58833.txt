@@ -1,0 +1,33 @@
+X:22
+T:The Banks of Spey
+C:William Marshall
+B:Caledonian Companion p.88.
+B:Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+D:played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z:John Chambers <jc@trillian.mit.edu>
+Z:http://trillian.mit.edu/~jc/music/Scotland/ ...
+R:Strathspey
+M:C|
+L:1/8
+K:ADor
+E || "Am"{E}[A2A] A>B A>B c>e | "G"d<c B->A ~G3 E \
+   | "Am"[A2A] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+   | "Am"a>g e-<c de g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 ||
+c || "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+   | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+   | "Am"a>g e-<c de g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58833
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

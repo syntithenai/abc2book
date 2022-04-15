@@ -1,0 +1,25 @@
+X:3
+T:Kerry Polka
+R:polka
+C:trad, Irish
+D:Tripping Up Stairs
+D:Kathryn Tickell Band
+M:2/4
+K:A
+e2fe c2ec | B2E2 A3c | B2A2 A2B2  | c2B2 B2c2 |
+e2fe c2ec | B2E2 A3c | B2A2 A2B2  | c2A2 A4 ::
+e2fg a3a  | g2f2 f2gf  | c2e2 f2g2 |  f2e2 e4 |
+e2fg a3a  | g2f2 f2gf  | c2e2 f2g2 | a2 a2 :|
+S:https://www.folktunefinder.com/tunes/16134
+S:http://trillian.mit.edu/~jc/music/abc/polka/KerryPolka_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/polka/KerryPolka_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/KerryPolka_BB.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

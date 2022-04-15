@@ -1,0 +1,22 @@
+X: 1
+T: I Saw Three Ships [C/D]
+O: trad England
+R: jig
+M: 6/8
+L: 1/8
+K: C
+G | "C"c2c "G7"d2e | "C"g2e "G7"d2f |1 "C"e2c c2e | "G7"d2B G2 :|2 "C"e2c cde | "G7"d3 "C"c2 :|
+K: D
+A | "D"d2d "A7"e2f | "D"a2f "A7"e2g |1 "D"f2d d2f | "A7"e2c A2 :|2 "D"f2d def | "A7"e3 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/20385
+S:http://trillian.mit.edu/~jc/music/abc/xmas/ISawThreeShips_CD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/ISawThreeShips_CD.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

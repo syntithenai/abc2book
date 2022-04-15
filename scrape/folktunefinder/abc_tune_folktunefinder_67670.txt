@@ -1,0 +1,24 @@
+X: 5
+T:Abbott's crossing
+M:4/4
+L:1/8
+Q:180
+C:Mits Ota
+K:A Dorian
+ E2 | A>GA>B c<ed>c | B>GD>G B>G (3dcB |
+A>GA>B c<de>c | g<ag>f g2 E2 |
+A>GA>B c<ed>c | B>GD>G B>G  (3dcB |
+A<cc>A B>GE>F | G>A (3BAG A2 :| c>d |
+e<de>a g>ed>c | e<aa>g a4 |
+A>Bc>d e>de>g |d>BG>B d2 c>d |
+e<gg>e d<gg>B | c>BA>G E2 A>B |
+c>Bc>e d<cB>G | (3ABc B>G A2 :||
+S:https://www.folktunefinder.com/tunes/67670
+S:http://www.ling.ed.ac.uk/~mits/mytunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

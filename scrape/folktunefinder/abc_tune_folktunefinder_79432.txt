@@ -1,0 +1,29 @@
+X:328
+T: STEH NUR AUF DU JUNGER SCHWEIZERBUA
+N: E1481
+O: Europa, Mitteleuropa, Deutschland; Schweiz 
+R: Staende -, Hirten -, Alpen - Lied
+M: 2/4
+L: 1/16
+K: C
+E,F, | G,2E,F,G,F,E,F, | G,2EDC2
+G,G, | G,2FED2ED | C4z2
+G,2 | F,2DCB,2G,2 | G,2EDC2
+G,G, | F,G,DCB,2G,G, | G,2EDC2
+E,F, | G,F,E,F,G,F,E,F, | G,2EDC2
+G,G, | G,2FED2ED | C4z2
+G,2 | F,2DCB,2G,2 | G,2EDC2
+G,G, | F,G,DCB,2G,G, | G,2EDC2
+E,F, | G,F,E,F,G,F,E,F, | G,2EDC2
+G,G, | G,2FED2ED | C4z2
+S:https://www.folktunefinder.com/tunes/79432
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, hirten -, alpen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

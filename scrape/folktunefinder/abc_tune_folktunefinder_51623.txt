@@ -1,0 +1,24 @@
+X:702
+T:Templehouse Jig
+M:6/8
+L:1/8
+K:G
+|:"Em"EFE G2 A|B2 F G2 E|"D"DED F2 D|A2 D F2 D|"C"EFE G2 A|B2 F G2 A|
+"D"BcB AGF|"Em"BGE E2:||:f|"Em"g2 f e2 f|g2 g e2 g|"D"faf d2 e|faf d2 f|
+"C"g2 f e2 f|g2 f e2 d|"D"BcB AGF|"Em"BGE E2:|
+"final ending"f|"Em"g2 f e2 f|g2 f e2 g|"D"faf d2 e|faf d2 f|\
+"Em"b2 g "D"a2 f|"C"g2 e "D"f2 d|BcB AGF|
+"Em"BGE E2|]
+S:https://www.folktunefinder.com/tunes/51623
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t702.abc
+S:http://www.arcelts.com/bbot1/t702.txt
+S:http://www.arcelts.com/bbot1/t702.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

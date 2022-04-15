@@ -1,0 +1,29 @@
+X: 30
+T: 3. The Montana Jig
+R: jig
+C: Carl MacKenzie
+N: Composed for Rex Blazer
+D: Natalie MacMaster, LIVE, 2002
+Z: Chords by Robin Shaylor, August 2005
+L: 1/8
+% Q: 330
+M: 6/8
+K: D
+|: \
+"D" d3 "D#dim" F2 A | "Em" GFG "A7" EFG | "D" AFD "Bm" dcd | "Em" ecA "A7" ABc  |
+"D" d3 "D#dim" F2 A | "Em" GFG "A7" EFG | "D" AFd "Em" BGE |1 "A7" AFD "D" DBc :|2 "D" AFD D2 ||
+|: b |\
+"D" afd "D/F#" dfa | "G" BcB         Bcd | "Em/E" efg "E7/D" Bed |  "A7" cAA     ABc |
+"D" dAF "D/F#" Adf | "G" gab "G#dim" Bcd | "A7"   efg        ABc |1 "D"  d3 "A7" d2 :|2 "D" d3 "E7" EF^G || [K:A] |
+S:https://www.folktunefinder.com/tunes/40133
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

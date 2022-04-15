@@ -1,0 +1,29 @@
+X:1145
+T:In Memory Of Handel
+R:hornpipe
+C:Jeff Lindqvist
+S: Jeff Lindqvist <jeff_lindqvist@SPRAY.SE> irtrad-l 2001-10-27
+H:May 16, -00
+M:C|
+L:1/8
+K:D
+"D"DA,~A,2 "D"DEFD|"F#m"A2AB "F#m"AGFA|"G"BAGF "G"GFEG|"D"~F2GF "A"EDCE|
+"D"DA,~A,2 "D"DEFD|"F#m"AF~F2 "F#m"DEFD|"Bm"B,DFA- "G"ACEG|"A"A,AF^E "D"F2D2:|
+|:"G"AGFD "A"EFGE|"D"DFAc "Bm"defd|"Em"g2 (3agf "Em"gfed|"A"cdBc "A"ABcB|
+"F#m"A2FG "Bm"(3ABA GF|"Em"GEed "A"cAGE|"D"(3FGF DF "A"(3EFE CE|"D"DF^EF- "D"F3z:|
+S:https://www.folktunefinder.com/tunes/13592
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/InMemoryOfHandel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/InMemoryOfHandel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/InMemoryOfHandel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/InMemoryOfHandel_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

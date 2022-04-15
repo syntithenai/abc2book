@@ -1,0 +1,30 @@
+X: 332
+T: Tasino
+O: Bulgaria
+S: Atanas Kolarovski - music AK-003
+M: 6/8
+L: 1/8
+Q: 1/4=180
+K: F
+%%MIDI program 64
+%%MIDI beat 97 87 77 3
+%%MIDI gchord fzzfzz
+%%MIDI bassprog 24
+%%MIDI bassvol 50
+|: "F"F3 EFG  | F3 EFG     | F3 EFG     |F3 B3      |
+   D3 CD_E    | D3 CD_E    | D3 B,CD    |C3 F3    :|
+%%MIDI program 57
+|: "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGB |"Am"A3 c3  |
+   "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGA |"Gm"G3 G3  :|
+S:https://www.folktunefinder.com/tunes/54315
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

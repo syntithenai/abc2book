@@ -1,0 +1,50 @@
+X:878
+T:Xiraldilla (CT 384)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla transcrita en Uviu.
+N:Esta xiraldilla es, ya de antiguo, muy corriente en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 384
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+B
+|d3 e|d>c BB|e3 f|e>d cc|
+d3 e|d>c AB|c2 d2|B2 z2|
+d3 e|d>c BB|e3 f|e>d cc|
+d3 e|d>c AB|c2 d2|B2 Bc|
+d2 Bc|d2 dd|ed cB|c2 AB|
+c2 AB|cc cc|dc BA|B2 z2||
+W:Que dame el peine
+W:y el escarpidor
+W:para peinar el pelo
+W:de mi dulce amor.
+W:
+W:El mi pelo
+W:ya est peinado,
+W:pero no con los peines
+W:que t me has dado.
+W:
+W:Hache, y,jota, ka,
+W:ele, eme, ene, o,
+W:que si t no lo bailas,
+W:solita lo bailo yo.
+W:
+S:https://www.folktunefinder.com/tunes/59765
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: da Slockit Light
+C: Tom Anderson
+O: Shetland
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FE \
+| "D"D3F A2d2 | "A7"fedc "D"d2A2 | "G"B2d2 "D"A2d2 | "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "A7"fedc "D"d2A2 | "G"B2G2 "A7"AGFE | "D"D4 D2 :|
+g2 \
+| "D"f2a2 "A"e3c | "D"d3e dcBA | "D"f2a2 "E7"e2^g2 | "A"a6 g2 \
+| "D"f2a2 "A"e3c | "D"d3e dcBA | "G"B2G2 "A7"AGFE | "D"D4 D2 |]
+g2 \
+| "D"f2a2 "A"e3c | "Bm"d3e dcBA | "G"B2d2 "D"A2d2 |  "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "F#"fedc "Bm"d2A2 | "G"B2G2 "A7"AGFE | "D"D4 D2 |]
+S:https://www.folktunefinder.com/tunes/13333
+S:http://trillian.mit.edu/~jc/music/abc/air/Slockit_Light_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Slockit_Light_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/air/Slockit_Light_D.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

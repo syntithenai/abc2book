@@ -1,0 +1,22 @@
+X:115
+T: ES LIEGT EIN SCHLOSS IN OESTERREICH
+N: E0061E
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 6/4
+L: 1/4
+K: G
+D | G2BBAG | A2ccBA | B2ddcB | BAz3
+d | d2BB2d | dcBA2c | BdGAcF | AGz3
+S:https://www.folktunefinder.com/tunes/78556
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

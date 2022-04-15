@@ -1,0 +1,25 @@
+X:1
+T:The Legacy
+T:Larry Redican's
+N:Larry Redican
+Z:2004 John Chambers <jc:trillian.mit.edu>
+R:jig
+M:6/8
+L:1/8
+K:ADor
+|:"Am"EAA    EAc |  "G"B2B     GBd | "Em"edB     edB | "Am"cdc "G"BAG \
+| "Am"E3     ABc |  "G"B2B     GBd | "Em"edB     edB |  "G"BAG "Am"A3 :|
+|:"D"def "Em"g2g | "Am"age "Em"edB |  "D"def "Em"g2g | "Am"age    age \
+| "D"def "Em"gab | "Am"age "Em"edB | "Em"eBB     edB |  "G"BAG "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/14517
+S:http://trillian.mit.edu/~jc/music/abc/jig/LarryRedicans_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LarryRedicans_Am.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

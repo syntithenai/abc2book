@@ -1,0 +1,25 @@
+X: 1
+T: Theme from Concerto #2 in Eb for Horn, K417
+C: W.A.Mozart
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+|: "C"c3 cde | "Am"c3 cBc | "Dm"def edc | "G7"B3 d3 \
+| "C"g3 gfg | "F"a2f "G7"def | "C"ged "Am"cde | "F"fdc "G7"BAG :|
+|: "C"c2c e2g | "F"a2f "G7"def | "C"g2e "Am"cBc | "Dm"d2B "G7"G2G \
+| "C"c2c e2g | "G7"g2f def | "C"gec "G7"ded | "C"c3 cz2 :|
+S:https://www.folktunefinder.com/tunes/14459
+S:http://trillian.mit.edu/~jc/music/abc/jig/K417J.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/K417J.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

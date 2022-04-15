@@ -1,0 +1,25 @@
+X: 1
+T: Papovi\vcanka
+%R: (AA BB)x2 AA
+N: Presented by Miroslav Marcetic, Oktoberfest 2002
+M: 2/4
+L: 1/16
+P: in D:
+K: D
+|: "D"d2z2 "A"~e3A | "D"d2cd "A"~e2eA | "D"d2fg ag~f2 | "D"fdfg "A"~e2z2 :|
+|: "D"{^g}a2f2 ~=g2f2 | "D"fdfa "A"~e2ed | "D"d2fg ag~f2 | "D"fdfg "A"~e2"fine"z2 :|
+P: in G:
+K: G
+|: "G"G2z2 "D"~A3D | "G"G2FG "D"~A2AD | "G"G2Bc dc~B2 | "G"BGBc "D"~A2z2 :|
+|: "G"{^c}d2B2 ~=c2B2 | "G"BGBd "D"~A2AG | "G"G2Bc dc~B2 | "G"BGBc "D"~A2z2 :|
+S:https://www.folktunefinder.com/tunes/5894
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Papovicanka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Popovicanka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: the Willow Tree
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  zD \
+| "G"G2A B2c |    d2g gdB | "C"cBA "D7"d2A | "G"G2G "D7"FED \
+| "G"G2A B2c |    d2g gdB | "C"cBA "D7"d2F | "G"G3      z  :|
+|: FG \
+|"D7"A2A AGA | "G"B3  G2D |"D7"A2A     AGA | "G"B3      G2D \
+| "G"G2A B2c |    d2g gdB | "C"cBA "D7"d2F | "G"G3      z  :|
+S:https://www.folktunefinder.com/tunes/15266
+S:http://trillian.mit.edu/~jc/music/abc/jig/WillowTree_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WillowTree_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

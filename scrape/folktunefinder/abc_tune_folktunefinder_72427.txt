@@ -1,0 +1,30 @@
+X: 178
+T:Cheshire Round,aka. HA.177
+M:3/2
+L:1/8
+Q:300
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Version of a tune commonly known as "Cheshire Round". cfr Playford DM
+N:eds 11(1701)..NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+"tr"Tf2(ef) (gf)(ed) (fg)a2|c'2e4d2c2A2|!
+f2(ef) (gf)(ed) (fg)a2|A2d4A2F2D2:|!
+|:"tr"TB2(AB) (cB)(AG)F4|E2e4d2c2A2|!
+B2(AB) (cB)(AG) F4|D2d4A2F2D2:|]
+S:https://www.folktunefinder.com/tunes/72427
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

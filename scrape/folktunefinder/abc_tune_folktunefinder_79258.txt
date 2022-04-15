@@ -1,0 +1,29 @@
+X:154
+T: MAETEN ES EN GOOD MANN
+N: E1269
+O: Europa, Mitteleuropa, Deutschland, Bergisches Land, Barmen
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Sankt Martin
+M: 2/4
+L: 1/8
+K: F
+ | cccd | c2Az
+cccd | ccA
+B | cccd | c2A
+B | cccd | c2z2
+cBAd | cBA2
+cccd | cBA2
+cccc | d2c
+c | BBAc | G2Fz
+c2Az | c2Az
+dcBA | G2Fz
+S:https://www.folktunefinder.com/tunes/79258
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, sankt martin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

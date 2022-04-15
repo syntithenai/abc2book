@@ -1,0 +1,28 @@
+X: 1
+T: the Barren Rocks of Aden
+A: Pipe Major A. Mackellar
+B: Scots Guards #217 p.116
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+d/e/ \
+|: "D"f>g fe | df Ad | "A7"ce Ad/e/ | "D"fA d>e \
+|  "D"f>g fe | df Ad | "A7"ce Af/e/ | "D"d4 :|
+f/g/ \
+|: "D"a>f df | "A7"ef Ae/f/ | ge cA | "D"df "A7"f/e/f/g/ \
+|  "D"a>f df | "A7"ef Ae/f/ | ge cA | "D"d4 :|
+S:https://www.folktunefinder.com/tunes/15317
+S:http://trillian.mit.edu/~jc/music/abc/march/BarrenRocksOfAden.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/BarrenRocksOfAden4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/BarrenRocksOfAden4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BarrenRocksOfAden4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BarrenRocksOfAden4.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

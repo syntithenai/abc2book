@@ -1,0 +1,21 @@
+X: 1
+T: TEST: ABC2WIN ! in middle of line.
+%%staffwidth 200
+K: C
+[| CDE FGA | ! Bcd efg |]
+W[| CDE FGA | ! Bcd efg |]
+S:https://www.folktunefinder.com/tunes/2324
+S:http://trillian.mit.edu/~jc/music/abc/test/Bad_BangMiddle.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Bad_BangMiddle.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Bad_BangMiddle.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Bad_BangMiddle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

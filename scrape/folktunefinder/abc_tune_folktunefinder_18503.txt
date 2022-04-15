@@ -1,0 +1,37 @@
+X: 1
+T: Vrldens Bsta Schottis
+O: efter Peter Westerlund
+N: from a transcription by Karen Myers
+N: First part similar to "Reinlender med Turar"
+M: C
+L: 1/8
+K: D
+(3ABc \
+| "D"d2 F2 A>A (3ABA \
+| "A7"G2 C2 E2 e>f \
+| "A7"g>f ed c>B AG \
+| "D"F>G AB A2 (3ABc \
+| "D"d2 F2 A>A (3ABA |
+| "A7"G2 C2 E2 e>f \
+| "A7"g>f ed c>A Bc \
+| "D"d2{e}d2{c} d2 :: ze \
+| "D"f2 a2 f2 a2 \
+| "G"g2 b2 b>a gf |
+| "A7"e2 g2 e2 g2 \
+| "D"f2 a2 a>g fe \
+| "Bm"d2 f2 B2 d2 \
+| "Em"B2 g2 g>f ed \
+| "A7"c2 {c}e2 A>A (3ABc \
+| "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/18503
+S:http://trillian.mit.edu/~jc/music/abc/shottish/VarldensBastaSchottish.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/VarldensBastaSchottish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

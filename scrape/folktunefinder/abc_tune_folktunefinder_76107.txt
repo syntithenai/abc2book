@@ -1,0 +1,27 @@
+X:127
+T: Drei Soldaten (2-29) S. 91
+N: P0902
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Liebe, Gnade]
+M: 4/4
+L: 1/16
+K: D
+D4 | D6E2F4G2G2 | A6B2A4
+d4 | c2B2A4B2c2B4 | A8z4
+A4 | d4A4B2c2B4 | A6G2F4
+B4 | B4A4A2F2A2F2 | F4D4E4
+A2B2 | A4E2G2F4E3D | D8z4
+S:https://www.folktunefinder.com/tunes/76107
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Liebe, gnade]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

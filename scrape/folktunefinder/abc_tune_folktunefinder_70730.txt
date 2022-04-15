@@ -1,0 +1,28 @@
+X:600
+T: Christlied der Hirten (297), S. 615
+N: T0487
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Beidweiler, hhh Johann Didier, 4.1.1934
+R: geistliches Lied]
+M: 4/4
+L: 1/8
+K: G
+ | _B2AG=F3F | G3A_B4
+B2AG=F3F | G3A_B4 | z2
+_B2A3B | G4A3=F | G4
+_B2c2d4 | _B2c2d4
+d2cB | c2_BABAF2 | G8
+S:https://www.folktunefinder.com/tunes/70730
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Weaver's Daughter, The
+M: 4/4
+L: 1/8
+R: strathspey
+S: jmccain@vei.net
+K: Gmin
+d|B<GG>A B<FF>d|B<GG>F (e3g)|f>e"tr"(d>c) B>GF<e|d>c(B>A) {^F}G3 G :|
+^f|g=e f<cc>^f|g>dd>g dg)|b>d(d>c) "tr"B>GF<e|(d>c)"tr"(B>A) {^F}G3 G:|
+S:https://www.folktunefinder.com/tunes/19701
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WeaversDaughterThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WeaversDaughterThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/strathspey/WeaversDaughterThe_1.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

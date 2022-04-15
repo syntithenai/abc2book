@@ -1,0 +1,38 @@
+X:28
+T:Schottis fr\aan R\"od\"on
+C:efter Rickard N\"aslin
+M:2/4
+%Q:1/4=75
+L:1/16
+R:Schottis
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook
+K:D  bass %clef=bass middle=D
+P:A
+V:1
+F,>E,F,G, F,E,F,G,|E,>D,E,F, D,2D,2|F,>E,F,G, A,2(F,D,)|E,2A,2 A,2>A,2|
+V:2
+D,>C,D,E, D,>C,D,E,|C,>B,,D,E, A,,2A,,2|D,>C,D,E, F,2(D,A,,)|C,2E,2 E,2>E,2|
+V:1
+B,>A,B,C D>CDE|F>EFG A2>A2|G>FED CA,CE|[1D2D2 D2>D,2:|[2D2D2 D2>D2||
+V:2
+G,>F,G,A, B,>A,B,C|D>CDE F2>F2|E>DCB, A,G,E,G,|[1F,2F,2  F,2>A,,2:|[2F,2F,2 F,2>F,2||
+P:B
+V:1
+F>EFG A2(FD)|E2A2 A2>A2|G>FGA F2(DF)|E>DCB, A,2>A,2|
+V:2
+D>CDE F2(DA,)|E,2C2 C2>C2|B,>A,B,C A,2(F,A,)|G,>F,E,D, C,2>D,2|
+V:1
+B,>G,B,D B,>G,B,D|A,>F,A,D F2>F2|G>FED CA,CE|[1D2D2 D2>D2:|[2D2D2D4|]
+V:2
+G,>D,G,B, G,>D,G,B,|F,>D,F,A, D2>D2|E>DCB, A,G,E,G,|[1F,2F,2 F,2>F,2:|[2F,2F,2F,4|]
+S:https://www.folktunefinder.com/tunes/62650
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

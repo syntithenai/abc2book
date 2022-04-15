@@ -1,0 +1,28 @@
+X: 1
+T: The Merry Dancers
+B: RSCDS 4-2
+B: Bremner's Scots Reels and Country Dances 1757
+M: 6/8
+L: 1/8
+K: G
+c \
+| "G7"BAB "C"cGE | "G"GAG "C"G2c | "G7"BAB "C"cGE | "D7"DED D2c \
+| "G7"BAB "C"cGE | "G"GAG "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 :|
+c \
+| "G"B/c/dB GAG | B/c/dB G2c | B/c/dB GAG | "D7"F/G/AF D2c \
+| "G"B/c/dB GAG | "G7"B/c/dB "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 ||
+g \
+| "D7"fef "G"gdB | gdB G2g | "D7"fef "G"gdB | "D7"AFD D2g \
+| "D7"fef "G"gdB | "D7"def "G"gdB | "Am"cac "G"BgB | "D7"AFD D2 |]
+S:https://www.folktunefinder.com/tunes/14629
+S:http://trillian.mit.edu/~jc/music/abc/jig/MerryDancers_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MerryDancers_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MerryDancers_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/MerryDancers_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

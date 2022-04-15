@@ -1,0 +1,25 @@
+X:1649
+T:Bluesaussis
+T:Blue Sausage Island
+M:C
+L:1/8
+C:Cliff Stapleton
+R:Schottische
+Z:Steve Mansfield
+K:C
+DEF^G A^GAB|c2B2 A^GAB|cABc d2e2|f4 e2d2|\
+DEF^G A^GAB|c2B2 A^GAB|cABc d2e2|d4 A2d2:|
+dfAd fAdf|e2d2 cdec|dfAd fAdf|e2d2 c4|\
+dfAd fAdf|e2d2 cdec|d^cAd =c2F2|[1 ^GAFA E2D2:|[2 ^GAFA E4|]
+S:https://www.folktunefinder.com/tunes/56588
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Schottische
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

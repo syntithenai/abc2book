@@ -1,0 +1,28 @@
+X:69
+T: ZU MANTUA IN BANDEN DER TREUE HOFER WAR
+N: B0093
+O: Europa, Mitteleuropa, Deutschland
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: G
+B,4 | E6E2E4F4 | G2F2E4z4
+B4 | B4A4G4F4 | E8z4
+D4 | A6^G2A4B4 | G8D4
+G2^G2 | A6^G2A4B4 | G8z4
+E4 | E6E2E4F4 | G3FE4z4
+B4 | B6B2B4A4 | G3FE4z4
+D4 | A6^G2A2e4d2 | B12
+d4 | d6c2E4F4 | G8z4
+S:https://www.folktunefinder.com/tunes/78090
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

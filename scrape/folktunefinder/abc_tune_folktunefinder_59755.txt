@@ -1,0 +1,42 @@
+X:868
+T:Xiraldilla (CT 362)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Peruyes, ayuntamiento de Cangas d'Ons.
+A:Asturies
+O:Peruyes (Cangas d'Ons)
+Z:Cancioneru de Torner 362
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+GG|B2 BG|B4|A2 z2|
+c2 cc|c2 BA|B2 BB|BA GF|E4|D2 z2|
+A2 AB|c2 BA|G2 GG|B2 BG|B4|A2 z2|
+c2 cc|c2 BA|B2 BB|B2 AG|E4|D2 z2|
+A2 AB|c2 BA|G2 BB|B2 AG|E4|D2 z2|
+A2 AB|c2 BA|G4-|G2 :||
+W:Dnde vas, dueo mo
+W:A la guerra a pelear,
+W:a pelear con el moro,
+W:con el moro a pelear,
+W:y a la vuelta que vuelva
+W:contigo me he de casar,
+W:y si ests casadita,
+W:casadita te quedars,
+W:y si ests casadita,
+W:para m no ha de faltar.
+W:
+S:https://www.folktunefinder.com/tunes/59755
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

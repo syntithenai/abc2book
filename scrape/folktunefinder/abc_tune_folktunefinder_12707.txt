@@ -1,0 +1,47 @@
+X: 1
+T: Katu\^se Mome
+T: \^Sto mi je milo em drago
+O: Makedonia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+P: verse
+K: G
+|: "D"[D2A,2] "G"[G2B,2][GB,] [G2B,2] [G2B,2] \
+| "D"[A2C2] [AC][GB,][AC] "G"[B4D4] \
+| [BD][cE] "D"[d2F2][eG] [dF][cE] [cE][BD] \
+|1 "D"[BD][AC] [cE][BD][AC] "G"[G2B,2] [FA,][EG,] \
+:|2 "D"[BD][AC] [cE][BD][AC] "G"[G4B,4] ||
+P: chorus
+|: "G"[BD][cE] "D"[d2F2][eG] [dF][cE] [cE][BD] \
+| "D"[BD][AC] [AC][GB,][AC] "G"[B4D4] \
+| [B2D2] "D"[A2C2][AC] [AC][GB,] [dF][cE] \
+| [BD][AC] [cE][BD][AC] "G"[G4B,4] :|
+P: interlude
+|: "G"[dB][ec] [d2B2][cA] [BG][cA] [dB][ec] \
+| [dB][BG] "D"[cA][BG][AF] "G"[B/G/][c/A/][d/B/][e/c/] [d2B2] \
+| [dB][ec] [d2B2][cA] [BG][cA] [dB][ec] \
+| [dB][BG] "D"[cA][BG][AF] "G"[G4D4] :|
+%%sep
+K: D
+|: "A"[A2E2] "D"[d2F2][dF] [d2F2] [d2F2] \
+| "A"[e2G2] [eG][dF][eG] "D"[f4A4] \
+| [fA][gB] "A"[a2c2][bd] [ac][gB] [gB][fA] \
+|1 "A"[fA][eG] [gB][fA][eG] "D"[d2F2] [cE][BD] \
+:|2 "A"[fA][eG] [gB][fA][eG] "D"[d4F4] ||
+|: "D"[fA][gB] "A"[a2c2][bd] [ac][gB] [gB][fA] \
+| "A"[fA][eG] [eG][dF][eG] "D"[f4A4] \
+| [f2A2] "A"[e2G2][eG] [eG][dF] [ac][gB] \
+| [fA][eG] [gB][fA][eG] "D"[d4F4] :|
+|: "D"[af][bg] [a2f2][ge] [fd][ge] [af][bg] \
+| [af][fd] "A"[ge][fd][ec] "D"[f/d/][g/e/][a/f/][b/g/] [a2f2] \
+| [af][bg] [a2f2][ge] [fd][ge] [af][bg] \
+| [af][fd] "A"[ge][fd][ec] "D"[d4A4] :|
+S:https://www.folktunefinder.com/tunes/12707
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/KatusheMome.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 2
+P: The Maid of the Mill (D)
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"Add      dfd |  "A"cde  "D"a2f/d/ \
+| "G"B>BB "A7"BcA |  "D"d3      d2y :::||: d \
+| "D"dfa      aba | "A7"agf     g2f |
+|"A7"e>fg  "D"a2d |  "D"d3  "A7"c2A \
+| "G"Bcd  "Em"g2e | "A7"c>Ae "D"a2f/d/ \
+| "G"B>BB "A7"BcA | "D"d3       d2 :|
+S:https://www.folktunefinder.com/tunes/3907
+S:http://trillian.mit.edu/~jc/music/abc/England/MaidOfTheMill.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

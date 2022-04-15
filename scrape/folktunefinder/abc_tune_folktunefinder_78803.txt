@@ -1,0 +1,25 @@
+X:362
+T: ES GRAST EIN MAEDEL HUEBSCH UND FEIN
+N: E0204
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Neisse, Korkwitz
+R: erzaehlendes Volks - Lied, Todes - Ahnung; betrogene Liebe
+M: 2/4
+L: 1/8
+K: F
+F2 | F2c2 | A2GF | G2B2 | A2z
+F | cccA | dcd
+c | BABG | ccc
+B | A2d2 | c3
+A | cBGB | A2
+S:https://www.folktunefinder.com/tunes/78803
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, todes - ahnung; betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

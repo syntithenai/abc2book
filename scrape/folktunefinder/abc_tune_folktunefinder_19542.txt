@@ -1,0 +1,26 @@
+X: 1
+T: Miss Christie of Durrie's Strathspey
+C: J.Walker
+O: Glen Collection
+R: strathspey (originally reel)
+B: RSCDS __-8(b)
+Z: 2007 converted to strathspey by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+B | "C"c2 B>c     G<c B>c | "Dm"d>e f>d "G"c>B A<G | "C"c2      B>c "Dm"d>e    f>d | "G7"e<c d>B "C"c2-c :|
+f | "C"g2 e>g "Dm"f2  d>f |  "F"a>f e>d "G"c>B A<G | "C"c2      B>c "Dm"d>e    f>d | "G7"e<c d>B "C"c2-c  |
+f | "C"g2 e>g "Dm"f2  d>f |  "F"a>f e>d "G"c>B A<G | "C"c<e "G7"d>f  "C"e<g "F"f>a | "G7"g<e f>d "C"c2-c |]
+S:https://www.folktunefinder.com/tunes/19542
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissChristieOfDurrieS_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissChristieOfDurrieS_C.abc
+% Rhythm Strathspey (originally reel)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

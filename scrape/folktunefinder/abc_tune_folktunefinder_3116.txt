@@ -1,0 +1,40 @@
+X: 1
+T: Radino horo
+R:
+O: Bulgaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+W: In B, C and H parts, play "choppy" chords only when indicated.
+N:
+M: 12/16
+L: 1/16
+K: C
+P: A
+|: "C"c3- c2d "G"B3- B3 | "F"AB2 BAG "C"G3- G3 | "F"GA2 A2G "G"G2F FED | "C"E3- E3 C3- C3 :|
+P: B
+|: "F"FGA F2A F2A "G"G2F | "C"EFG E2G E2G "C"F2E | "G"DEF D2F D2F "G"E2D | "C"C2D "C"E2F "C"G3 z3 |
+|  "F"FGA F2A F2A "G"G2F | "C"EFG E2G E2G "C"F2E | "G"DEF D2F D2F "G"E2D | "C"C3 "G"G,A,B, "C"C3 z3 :|
+P: C
+|: "G"G3 B2B ~B3- B2A | Bcd cBA ~B3- B2A | Bcd cBA B2A A2G | G2F F2D "C"E3 z3 :|
+P: D
+|: "F"A3- A3 "C"G3- G3 | "G"EFG FED "C"E2F G3 | "F"A3- A3 "C"G3- G3 | "G"EFG FED "C"E2C E3 :|
+P: E
+|: "C"G2c B2A G2F E2D | EFG F2D E2F G3 | G2c B2A G2F E2D | "G"EFG F2D "C"C2G, C3 :|
+P: D
+|: "F"A3- A3 "C"G3- G3 | "G"EFG FED "C"E2F G3 | "F"A3- A3 "C"G3- G3 | "G"EFG FED "C"E2C E3 :|
+P: F
+|: "C"CDE "F"F2F F2F ~F2E | "C"CDE E2E E2E ~D3 | "C"CDE "G"D2D D2D ~G3 | G2F E2D C3 z3 :|
+P: G
+|: "F"ef2 fed "C"de2 ~e3 | "G"cd2 dcB "C"cd2 "C"~e3 | "F"ef2 fed "C"de2 ~e3 | "G"cd2 dcB "C"c2G "C"c3 :|
+S:https://www.folktunefinder.com/tunes/3116
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Radino.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Radino.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/16
+% Has_accompaniment_chords Has chords

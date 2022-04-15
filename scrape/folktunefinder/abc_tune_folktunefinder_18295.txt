@@ -1,0 +1,24 @@
+X: 1
+T: the West Wind
+R: reel, march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"FA FA | FA d/c/B/A/ | FA FA | "A7"EA A2 \
+|  "D"FA FA | FA d/c/B/A/ | dd "A7"e/f/g/e/ | "D"fd d2 :|
+|: "D"fa ad | fa a>f | "G"g>e "D"f>d | "A7"ec BA \
+|  "D"dA "A7"B/c/B/A/ |  "D"dA "A7"B/c/B/A/ | "D"dd "A7"e/f/g/e/ | "D"fd d2 :|
+S:https://www.folktunefinder.com/tunes/18295
+S:http://trillian.mit.edu/~jc/music/abc/reel/WestWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WestWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/WestWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/WestWind.abc
+% Rhythm Reel, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

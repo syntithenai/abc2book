@@ -1,0 +1,22 @@
+X:276
+T:Trip to Sligo
+M:6/8
+L:1/8
+R:jig
+K:Em
+E2 e BGE|D2 d AFD|E2 e BAF|GFE e2 f|gfe dcB|ABG FED|EFG ABc|BGF E3:|
+eBe gfe|dAd fed|eBe gfe|faf gfe|faf gfe|dAG FED|EFG ABc|BGF E2D:|
+%%text Variation on `B' part
+eBe gbe|dAd faf|eBe gbe|f/g/ af gbe|faf gfe|dcB AFD|EFG ABc BGF E3:|
+S:https://www.folktunefinder.com/tunes/63819
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

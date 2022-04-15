@@ -1,0 +1,26 @@
+X:6090
+T:Snderhoning
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000915.html
+%%ID:00000915
+K:D
+A>G FA | d/c/d/e/ d2 | c>d ec | d/c/d/e/ fd |\
+A>G FA | d/c/d/e/ d2 | c/d/e/f/ g[ce] | d2d2 ::\
+gg/a/ ge | ff/g/ fd | ee/f/ ec | d/e/f/g/ af |\
+gg/a/ ge | ff/g/ fe/d/ | c/d/e/f/ g[ce] | d2 d2:|
+S:https://www.folktunefinder.com/tunes/37297
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

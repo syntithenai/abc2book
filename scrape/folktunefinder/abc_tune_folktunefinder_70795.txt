@@ -1,0 +1,25 @@
+X:048
+%%topmargin 3cm
+T:Fill the Stoup
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+a | {/f}e2 {/d}c2 eAAa | {/f}e2 {/d}c2 fBBa | {/f}e2 {/d}c2 eAcA | dfce fBB ::
+a | e<Ac<A e<AAf | e<Ac<A f<BBa | e<Ac<A e<AcA | dfce fBB ::
+f | eaca e<AAf | eace f<BBa | eaca eace | dfce fBB ::
+a | e<Ac>A e<AAa | e<AcA f<BBa | e<AcA f<BBa | e<AcA e<AcA | dfce fBB :]
+S:https://www.folktunefinder.com/tunes/70795
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

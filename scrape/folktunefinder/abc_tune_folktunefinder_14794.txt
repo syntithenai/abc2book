@@ -1,0 +1,28 @@
+X:2
+T:Oiche Nollag
+R:single jig
+Z:in Ceol Rince na hEireann
+Z:John Walsh Dec 99
+S:John Walsh <walsh:math.ubc.ca> irtrad-l 2001-12-7
+M:6/8
+Q:3/8=195
+K:D
+g|f2 A d2 f|e2 d B2 g|f2 A d2 f|{a}g3 a2 g|
+f2 A d2f|e2 d B2 c|d2 A B2 G|E2 F D2:|
+g|a2 b a2 f| d3 d2 f|g2fe2d|B3 A2 g|
+a2ba2f|d2fg2f|e2dc2e|a3 a2:|
+S:https://www.folktunefinder.com/tunes/14794
+S:http://trillian.mit.edu/~jc/music/abc/jig/OicheNollag_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/OicheNollag_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OicheNollag_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/xmas/OicheNollag_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/OicheNollag_1.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

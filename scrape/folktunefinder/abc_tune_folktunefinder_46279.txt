@@ -1,0 +1,27 @@
+X:15004
+T:Schottische from Lima
+R:Schottische
+O:Sweden
+M:4/4
+C:e. Kalle Alml\"of
+K:DDor
+A>B cd e2 ef|d2 de c2 c/B/c|\
+A>B cd e2 ef|ga/g/ fg a4\
+| A>B cd e2 ef|d2 de c2 c/B/c|
+d>e fg a>g ec|d2 dc d4::\
+a>gef g4|a>fde f4|
+e>cAc e>cAc |d>efg a4|\
+a>gef g4|a>fde f4|\
+e>cAc e>cAc | d2dc d4:|**
+S:https://www.folktunefinder.com/tunes/46279
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

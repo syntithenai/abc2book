@@ -1,0 +1,40 @@
+X: 1
+T: Jimmy Shand Polka
+C: Jimmy Shand
+R: polka
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+(3EF^F \
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 (3Bc^c ||[K:G]
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E4 |
+| "Am"(3efe ^d>f e>=dc>B | A>^GA>B A>=GF>E | "D7"(3DDD F>D D>CA,>^A, | "G"B,2"Gdim"[E2_B,2]"G"[D2=B,2] (3Bc^c |
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E2(3EEE  |
+| "Am"E>cB>A d>^ce>d | c>BA>G B>AG>E | "D7"D>Fc>D B>DA>D | "G"(3GGG (3GBd g2 "G7"E=F^F ||[K:C]
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G |  e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 "C7"(3cB_B ||[K:F]
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 A2d2 | "Gm"(3cdc B>A B3A |
+| "C7"G2G>B E2E>G | (3CD^D (3EF^F G2G>A | B2G2 e2d2 | "F Fdim"[d4^G4] "F"[c2A2](3c=B_B |
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 "F7"f2e2 | "Bb"d3c B2GA |
+| "C7"B2G2 e3d | "F"c2f2A2 Fc | "C7"B2E2 A3G | "F"F2F2F2z2 |]
+S:https://www.folktunefinder.com/tunes/16111
+S:http://trillian.mit.edu/~jc/music/abc/polka/JimmyShandPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/JimmyShandPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/JimmyShandPolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

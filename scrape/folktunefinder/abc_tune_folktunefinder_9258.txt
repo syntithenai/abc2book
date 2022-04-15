@@ -1,0 +1,26 @@
+X: 2
+P: Larry Mills' g\aangl\aat
+O: Bruce Sagan & Andrea Hoag
+R: air
+N: Works well as a "strathspey air"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE \
+|  "D"F2 F<D A3 F | "Em"G2 G<E B3 d | "A7"c3 B A>G F<E | "D"B2 A2 A>D D<E |
+|  "D"F2 F<D A3 F | "Em"G2 G<E B3 d | "A7"c3 d f>e c<e | "D"d4- dc de |]
+[| "D"(ef) fd A>d fd | "A7"e>f ec A3 F | "G"G<F GA BA Bc | "D"d2 dc "G"b2"A7"a2 |
+|  "D"(ef) fd A>d fd | "A7"e>f ec A3 F | "G"G<F G>A B2 "A7"c2 | "D"d4- d2 |]
+S:https://www.folktunefinder.com/tunes/9258
+S:http://trillian.mit.edu/~jc/music/abc/Scand/SkankLaat1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS10.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1111
+T:Chorus Jig
+O:england
+M:6/8
+R:Jig
+K:D
+B|:\
+A2D DFD| A2G FED| A2D DFD| A3 BAG|\
+A2D DFD| A2G FED| E2=c cBc| G3 GFE::
+D2d "tr"dcd| F2A AFA| D2d "tr"dcd| A3 BAG|\
+F2d dcd| D2A AFA| E2=c cBc|1 G3 GFE :|2 G3 efg|
+"tr"f2d dfd| afd dfd| "tr"f2d dfd| a3 bag|\
+"tr"f2d dfd| afd dfd| e2=c cdc| g3 efg|\
+fdf ece| dcd A2G| F2d dcd| A3 ABc|\
+dBd cAc| BGB AGF| GFE =cBc| G3 GFE|:
+"tr"F2D DFD| AFD EFG| F2D DFD| ABc dAG|\
+F2D DFD| AFD F2D| E2=c cBc| G3 GFE:|
+S:https://www.folktunefinder.com/tunes/21560
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

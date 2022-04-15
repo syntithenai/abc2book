@@ -1,0 +1,23 @@
+X:158
+T: AN EINEM FLUSS DER RAUSCHEND SCHOSS
+N: B0647B
+O: Europa, Mitteleuropa, Deutschland, Brandenburg; Schlesien; Thueringen
+R: Moral - Lied, Ballade
+M: 2/4
+L: 1/16
+K: C
+G,2 | C3CDCB,A, | G,3A,G,2
+F,2 | E,G,G,CC3E, | E,2D,2z2
+C2 | B,3DC2E2 | DCDFE2
+G,2 | A,FED2E2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/62181
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

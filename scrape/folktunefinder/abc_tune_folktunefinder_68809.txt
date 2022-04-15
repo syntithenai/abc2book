@@ -1,0 +1,30 @@
+X:263
+T: Der Vorreihen
+N: A0307
+O: Europa, Mitteleuropa, Deutschland
+N: Harnisch, Newe lustige teudsche Liedlein mit drei Stimmen.
+N: Helmstedt 1591 No. 23.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: F
+f2e2d2 | c4A2 | B2c2d2 | c4
+f2 | f3ed2 | c4d2 | e2f2e2 | f4z2
+d2c2c2 | A4z2 | d2c2c2 | A4B2 | G4
+A2 | F2fedc | =B2c2B2 | c4z2
+c2e2f2 | d4e2 | c2def2 | e6
+f3ed2 | c4d2 | G2F2G2 | A6
+c2e2f2 | d4e2 | c2def2 | e6
+f3ed2 | c4d2 | G2F2G2 | A6
+S:https://www.folktunefinder.com/tunes/68809
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

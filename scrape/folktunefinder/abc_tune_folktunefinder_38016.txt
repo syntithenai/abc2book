@@ -1,0 +1,23 @@
+X:16645
+T:The Drummer
+R:reel
+C:Trad.
+M:C
+L:1/8
+K:Am
+B |\
+"Am"ABcA ~E2E^F | "G"GABc dB{^F}GB | "Am"cABG ~E2Ef | "G"ed{AB}"E7"cB{cB}"Am"A2A :|
+B |\
+"C"{AB}c2ce "G"{^c}d2de | "C"{AB}c2ce "G"{^c}dB{^F}GB | "C"{AB}c2ce "Dm"{^c}d2df | "G"ed"E7"{AB}cB "Am"{cB}A2AB |
+"C"{AB}c2ce "G"{^c}d2de | "C"{AB}c2ce "G"{^c}dB{^F}GB | "C"ccce "Dm"dddf | "G"ed"E7"{AB}cB "Am"{cB}A2A |]
+S:https://www.folktunefinder.com/tunes/38016
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

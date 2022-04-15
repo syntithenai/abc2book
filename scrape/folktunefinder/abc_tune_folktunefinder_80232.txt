@@ -1,0 +1,25 @@
+X:173
+T: Dreikoenigslied
+N: A0535
+O: Europa, Mitteleuropa, Deutschland
+N: Coelner Gsgb. 1623.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: G
+G | G2G | d2d | c2_B | A2
+d | d2e | =f2d | cA2 | G2
+_B | d2d | c2d | de2 | =f3
+fff | d2=f | dc2 | _B2
+B | _B2B | _B2A | G2G | A2
+A | c2c | d2c | _BA2 | G2
+S:https://www.folktunefinder.com/tunes/80232
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

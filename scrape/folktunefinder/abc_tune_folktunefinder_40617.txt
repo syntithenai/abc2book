@@ -1,0 +1,27 @@
+X:36
+T:Lansierskadril3
+T:3de figuur
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:AB x2 A
+L:1/8
+M:6/8
+K:C
+P:Voorspel
+EF | "C"G>AG G>AG | c2 G "G7"d2 G | "C"e>dc "G7"GcD | "C"c2 z|]
+P:A
+[EC][FD] | "C"[GE]>[AF][GE] [GE]>[AF][GE] |[c2E2] [GE] [GE] [EC][FD] | "C"[GE]>[AF][GE] [GE]>[AF][GE] | "G7"[dB,][BD][dB,] [GA,] [EC][FD] |
+"C"[GE]>[AF][GE] [GE]>[AF][GE] | [c2E2] [GE]  "G7"[dF2] [GB,] | "C"[eG]>[dF][cF] "G7"[GB,][cD][BF] | "C"[c2E2] [cE] [cE] |]
+P:B
+"C"[eG]>[dF][cE] [eG]>[dF][cE] | "G7"[d2F2] [GDB,] [G3D3B,3] | "C"[eG]>[dF][cE] [eG]>[dF][cE] | "G7"[f2D2] [dFD] [d3F3D3] |
+"C" [eG]>[dF][cE] [eG]>[dF][cE] | "G7" [fd][ec][dB] H[g2B2F2] [fBG] | "C" [eG]>[dF][cE] "G7"[GFD]c[BFD] | "C" [c2E2] [cE] [cE] |]
+S:https://www.folktunefinder.com/tunes/40617
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

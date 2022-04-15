@@ -1,0 +1,34 @@
+X:989
+T:Hanged Man's Reel, The
+O:ireland
+S:irtrad-l, Edward A Beimborn, 9/94
+D:Aly Bain Version from "Far From Home"
+N:Use AEAC\# Tuning
+Z:Converted from abc code by Dan Beimborn
+M:C
+K:A
+P:A
+A,AAB c2 cc|c2 cB ABcA|EAAc BABc|dcBA cAAB|
+c2 cc c2 cB|ABcA EAAc|BBGB A2 A2:|
+P:B
+A,AAB c2 cc|BABd c2 c2|A,AAB c2 cc|BBGB A2 A2:|
+P:C
+e2 c2 A2 ee|eccc BcAc|e2 c2 A2 ee|eccc BcBa:|
+P:D
+B2 z2 B2 BB|BBGB AGAc|B2 GB BBGB|1 BBGB A4:|2 BBGB A2||
+P:E
+cAEA,|A2 BABd c2|A2 A2 cAEA,|A,2 E2 A2|BABc A2:|
+P:F
+A,A,|C2E2CEAE D2F2 DFAE|C2E2 CEAE B,2E2 B,EA,E|
+C2E2 CEAE D2F2 DFAE|CEB,E A,2:|
+S:https://www.folktunefinder.com/tunes/42044
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

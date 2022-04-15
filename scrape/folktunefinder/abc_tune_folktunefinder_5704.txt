@@ -1,0 +1,28 @@
+X: 1
+T: In Gradina Lui Ion
+O: Romania
+P: AA (BCA)x3 BCC
+N: From transcription by Ray Rosenstock & Martina Aurian-Blajeni
+N: Vowel marks need to be added here.
+%%vocalfont Helvetica-Narrow-bold 18
+M: 3/4
+L: 1/8
+K: C
+"A"\
+[|"C"C2 E4 | "F"FE D3 C | "Fm"FE D3 C | "G"G2 G2 z2 \
+| "C"C2 E4 | "F"FE D3 C | "G7"FE D3 C | "C"C2 C2 z2 |]
+"B"\
+[|"C"[EC][FDC] [G3E3C3] [AFC] | [_BGC][AFC] [G3E3C3] [FDC] \
+| "C"[EC][FDC] [G3E3C3] [AFC] | [_BGC][AFC] [G4E4C4] |
+S:https://www.folktunefinder.com/tunes/5704
+S:http://trillian.mit.edu/~jc/music/abc/Intl/InGradinaLuiIon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/InGradinaLuiIon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/InGradinaLuiIon_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/tune/InGradinaLuiIon_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

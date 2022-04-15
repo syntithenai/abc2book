@@ -1,0 +1,22 @@
+X:160
+T:Miss Jamieson's Jig
+B:Aird's Airs and Melodies vol 2
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000e8.html
+%%ID:000000e8
+K:D
+D6 A2| F2A2 d2f2| (ed)(ef) g2f2| (ed)(cB) (AG)(FE)|\
+D6 A2| F2A2 d2f2| (ede).f g2f2| {f}e8 ::
+a6 b2| g6 a2| f6 gf| edcB AGFE| \
+D6 A2| F2A2 d2f2| B2gf fedc| d8:|
+S:https://www.folktunefinder.com/tunes/30341
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

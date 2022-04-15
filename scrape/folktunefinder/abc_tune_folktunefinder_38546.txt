@@ -1,0 +1,22 @@
+X:17175
+T:The Rogue's March
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+"G"B2B Bcd|"C"e2e e3|"G"d2d -d2e|"D"d2c B2A|"G"B2B Bcd|"C"e2e e3|"G"def gdB|\
+"D7"A3 "G"G3::
+"G"g3 "D"f3|"C"e3 "D7"def|"G"g3 "D"f3|"C"e3 "D7"d2c|"G"B2B Bcd|"C"e2e e3|\
+"G"def gdB|"D7"A3 "G"G3:|
+S:https://www.folktunefinder.com/tunes/38546
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

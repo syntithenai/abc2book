@@ -1,0 +1,23 @@
+X: 3
+T: 2nd hornpipe in a set with The Laughing Minstrel
+M: 4/4
+L: 1/8
+R: hornpipe
+K: DMaj
+|: (3A,B,C |\
+DCDE =FEFA | ^A=A^Ad cdeg | =fdge afed | ced_B A2 AG | 
+FG (3AGF GABA | ^GBed cba=g | (3fga fd Bgec | d2 dc d2 :|
+|: (3Ade |\
+=fefd A2 d=c | ^A=A^AG D2 G=A | ^A=A^AG E=C=cA | AG=FA =c2 (3cde |
+=fefd A2 ^fg | agfa g2 ag | (3fga fd Bgec | d2 dc d2 :|
+S:https://www.folktunefinder.com/tunes/43993
+S:http://www.thesession.org/tunes/display/8784
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

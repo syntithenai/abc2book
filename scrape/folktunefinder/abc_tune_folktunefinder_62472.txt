@@ -1,0 +1,28 @@
+X:2
+T:Karis Pers Polska (Hambo)
+R:Hambo
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook
+M:3/4
+L:1/8
+%Q:1/4=132
+K:E %Transposed from D
+P:A
+{G}B2(uB>c) B>A|(A>G) (G>E) G>B|e2(e>f) e>d|(d>c)c4|
+f2(f>g)  f>e|(e>d) (d>B) d>f|b2(b>c') b>a|(a>g)g4|
+{G}B2(B>c) B>A|(A>G) (G>E) G>B|e2(e>f) e>d|(d>c)c4|
+f2(f>g)  f>e|(e>d) (d>B) d>f|b2(b>a) g>f|[1e2e4:|[2e2e7/2||
+P:B
+(g/|a>g) (f>e) f>a|(g>f) (e>d) e>g|(f>e) (d>B) c>d|(e>f) (g<a) b>g|
+(a>g) (f>e) f>a|(g>f) (e>d) e>g|(f>e) (d>B) c>d|[1e2e7/2:|[2e2e4:|
+S:https://www.folktunefinder.com/tunes/62472
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003Bb.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFFBb.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002Bb.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

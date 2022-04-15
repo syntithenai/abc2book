@@ -1,0 +1,29 @@
+X: 1
+T: Farewell to Devon (G)
+R: waltz
+C: Pat Shaw
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+d2 \
+|  "G"g3 f ed |     B2 d4        | "D7"G2 G2 A2 |  "G"B4 d2    \
+| "Em"g3 f ed | "Bm"B2 d4        | "A7"BA G2 B2 | "D7"A4 d2    |
+|  "G"g3 f ed | "Bm"d2 B4        |  "C"e3  d cB | "Em"B2 G4    \
+| "Am"c3 B AG |  "C"A3  G     FE | "D7"D2 B2 A2 |  "G"G4 D2   ||
+|| "G"G3 A BA |     G2 D4        | "Am"A3  B cB | "D7"A2 D4    \
+|  "G"B3 c dc | "Em"B2 G2     cd | "Am"e3  d cB | "D7"A4 d2    |
+|  "G"B3 c dc | "Em"B2 G4        | "Am"c3  d ed | "D7"c2 A2 Bc \
+| "Bm"d3 e fd | "Em"g2 G2 "Am"c2 | "D7"B3  c A2 |  "G"G4      |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3750
+S:http://trillian.mit.edu/~jc/music/abc/England/FarewellToDevon.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

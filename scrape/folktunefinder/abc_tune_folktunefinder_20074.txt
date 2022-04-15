@@ -1,0 +1,23 @@
+X: 1
+T: la Marianne
+O: Trad
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: G
+|: "G"G2B2G2 | d6 |   "C"c2e2c2 |"D7"B4A2 \
+|  "G"G2B2G2 | d6 |1 "D7"c2B2A2 | "G"G6  :|2 "C"c2BcBc | "D7"d6 |]
+|: "C(Am)"c2ecAc | "G"B2dBGB | "D7"A2cAFA |  "G"G2BGdG \
+|  "C(Am)"c2ecAc | "G"B2dBGB | "D7"A2cAFA |  "G"G6 :|
+S:https://www.folktunefinder.com/tunes/20074
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Marianne_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/Marianne_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

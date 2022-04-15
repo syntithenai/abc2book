@@ -1,0 +1,28 @@
+X:4655
+T:Polska
+A:Hrjedalen
+C:Per Myhr
+D:Hoven Droven
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bfe.html
+%%ID:00000bfe
+K:D
+Ac d2 ef| de c3e| f2 (3fef g>f| ec A4|\
+Ac d2 ef| de c3e| f2 (3fef g>f|1 ec d4 :|2 ec d3||
+f|\
+ec d2 fa| gb a2 f2| fg e3c| d2 e3 f|\
+ec d2 fa| gb a2 f2| fg e3c|1 d2 d3:|2 d2 d4|]
+S:https://www.folktunefinder.com/tunes/37010
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:597
+T: "Die Vielliebchen ( Valentinchen ) "
+N: Z1277
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Natur und Welt, Brauchtums - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | _B4A2 | G2z_BdA | _B4A2 | G2z2
+D2 | D2G2A2 | _B3AG2 | A2G2F2 | G4
+G2 | =F2_B2c2 | d3c_B2 | c2d2c2 | _B4
+A2 | G4A2 | _B3AG2 | A2G2F2 | G4
+S:https://www.folktunefinder.com/tunes/69456
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt, brauchtums - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

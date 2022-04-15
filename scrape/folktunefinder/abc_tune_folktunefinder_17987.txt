@@ -1,0 +1,32 @@
+X: 233
+T: Reel du Brae
+C: R-125
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+P: A Dorian
+K: ADor
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BG"D"Ad| "G"BGdG eGdG|
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BA"C"Gc| "G"BAGB "Am"A2A2 :|
+|:\
+"Am"eaab agea| gabg abef| "G"gage degd| egdB cABG|
+"Am"eaab agea| gabg abef| "C"gage "G"dBGB| cABG "Am"A2AA :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/17987
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDuBrae.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDuBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDuBrae.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

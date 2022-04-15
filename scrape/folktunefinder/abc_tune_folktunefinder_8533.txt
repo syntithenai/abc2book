@@ -1,0 +1,28 @@
+X: 13
+P: Mattis Mortensens Styk
+R: S\onderhoning
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"B2BB B2c2 | "D7"d4 "G"B4 \
+| d2dd "D7"e2f2 | "G"g4 d4 \
+| "Em"g2gg f2g2 | "A"a4 e3f |
+| "A7"g2gg a2g2 | "D"f2e2 dcBA \
+| "G"G2GA B2c2 | "D7"d4 A3B \
+| "Am"c2cA "D7"F2AF | "G"G4- G4 :| \
+|: "D"a2aa a2a2 |
+| "Em"b4 e3f \
+| "A7"g2gg a2g2 | "D"f2e2 dcBA \
+| "G"G2GA B2c2 | "D7"d4 A3B \
+| "Am"c2cA "D7"F2AF | "G"G4- G4 :|
+S:https://www.folktunefinder.com/tunes/8533
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Sonderhoning.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

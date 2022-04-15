@@ -1,0 +1,27 @@
+X:13
+T:Flowers of Edinburgh
+O:Scotland, Ireland
+M:C|
+K:G
+GE | "G" D2DE G2GA | "G" BGBd cBAG | "D" FGFE DEFG | "D" AFdF "C" E2 G/F/E |
+"G" D2DE G2GA | "G" BABd "C" efge | "G" dcBA "D" GFGA | "G" B2G2 G2:|
+|: df | "G" g2 gf gbag | "D" f2fe fagf | "C" edef gfed | "Em" B2e2 "C" efge |
+"G" dBGB d2 dd | "C" edef g2fe | "G" dcBA "D" GFGA | "G" B2G2 G2:|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49292
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

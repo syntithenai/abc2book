@@ -1,0 +1,26 @@
+X: 1
+T: the High Drive
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Debby Knight
+M: C|
+L: 1/8
+K: D
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |1,3 "A7"eAce afge :|2 "A7"edc{d}e "D"d4 :|4 "A7"edc{d}e "D"defg ||
+|: "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"eAce afge |
+|1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"edc{d}e "D"defg :|
+|2 "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf | "A7"edc{d}e "D"d4y2 |]
+S:https://www.folktunefinder.com/tunes/17342
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighDrive_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HighDrive_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HighDrive_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

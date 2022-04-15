@@ -1,0 +1,26 @@
+X:2
+T: WEINE NUR NICHT
+N: E0616
+O: Europa, Mitteleuropa, Deutschland, Gross - Gerau
+R: Liebes - Lied
+M: 3/8
+L: 1/16
+K: C
+ | G4E2 | c4G2 | G2G2F2 | E4z2
+D2E2^F2 | G2A2B2 | d2c2A2 | G4z2
+G2A2B2 | c4E2 | G2G2F2 | F2E2
+D2 | D2E2^F2 | G2B2B2 | d2c2A2 | G4
+GG | eeeedd | cccc
+E2 | G3FD2 | A2G2
+GG | eeeedd | cccc
+E2 | G3FD2 | C4z2
+S:https://www.folktunefinder.com/tunes/76487
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:4
+T:A trip to Galway
+T:Turas go Gaillimh
+R:double jig
+O:Ireland - ire
+B:O'Neill's
+Z:copie (livre) : <anamnese@laposte.net>
+N:O'Neill's 1001 gems n345
+N:(double jigs)
+M:6/8
+L:1/8
+Q:1/4=130
+K:F
+B | AFD DFA | cdc AGF | (E/F/G)(E C)DC | EFG Ac=B |
+ AFD DFG-|A=B^c d2 e | fed edc-|Add d2 :|
+|| e | fed afd | (d/e/f)(g a)fd | edc gec | (c/d/e)(f g)fe | 
+fed edc | (d/g/f)(d c)AG | FGA c=Bc-|Add d2 :|
+S:https://www.folktunefinder.com/tunes/71583
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

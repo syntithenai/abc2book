@@ -1,0 +1,26 @@
+X:1025
+T:Mo's Peerie Boston
+% Nottingham Music Database
+S:Tom Anderson, via Phil Rowe
+M:6/8
+K:A
+E|"A"A2A "E"GAB|"A"A2c e2e|"D"f2d A2f|"A"e3 -e2c|"Bm"d2c "E7"Bcd|
+"A"e2c "F#m"A2c|"Bm"B2e G2e|"E7"E3 EFG|"A"A2A "E"GAB|"A"A2c "A7"e2e|\
+"D"f2d "B7"a2f|
+"A"e3 -"F#m"e2c|"Bm"dff "E7"fed|"A"cee edc|"Bm"dcB "E7"e2G|"A"A3 -A2e||
+"D"f2d a2f|"A""a"f2e " ""g"e2e|"D""f#"f2e "Dm""f"A2B|"A""e"c3 cBA|\
+"D"dff "E7"fed|
+"A"cee edc|"B7"B^df afd|"E7"e3 "A7"e^de|"D"f2d def|"A"e2c A2c|
+"Bm"B2c d2B|"E7"A2G F2E|"A"A2A "E"GAB|"A"A2c "F#7"e2e|"Bm"f2d "E7"B2G|\
+"A"A3 -A2||
+S:https://www.folktunefinder.com/tunes/64953
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

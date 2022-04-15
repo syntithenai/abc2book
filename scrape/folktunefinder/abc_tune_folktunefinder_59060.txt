@@ -1,0 +1,35 @@
+X:173
+T:Cantar de Ronda (CT 200)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita y comunicada por Fray Secundino Magdalena, dominico, de treinta y un aos, de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 200
+M:2/4
+L:1/8
+Q:1/4=108
+K:G
+d
+|dc/B/ cd|c B2 d|dc/B/ cd|d2 z d|
+dc/B/ cc|(BA/)G/ BB|(AG/)F/ AA|G2 z2||
+W:como yes tan buena moza
+W:y vives con tanto honor,
+W:te llaman la encantadora
+W:y hechicera del amor.
+W:
+S:https://www.folktunefinder.com/tunes/59060
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:9053
+T:La Romera de San Andrs (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Les cuarenta principales
+M:3/4
+L:1/4
+Q:3/4=69
+K:C
+G
+|: "C"ccc|"C"c2 d|"Em"BGA|"Em"B2 c|"F"AFG|"F"A2 B|[1 "C"G3-|"C"G2 G :|[2 "C"G3-|"C"G C/D/ E/F/|
+|: "C"GEG|"F"AFA|"C"G2 E|"C"C C/D/ E/F/|"C"GEG|"Dm"FDF|[1 "C"E3-|"C"E C/D/ E/F/ :|[2 "Dm"FDB,|"C"C3-|"C"C2 G||
+S:https://www.folktunefinder.com/tunes/61086
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

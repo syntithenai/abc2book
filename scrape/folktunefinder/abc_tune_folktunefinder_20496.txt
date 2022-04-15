@@ -1,0 +1,25 @@
+X:47
+T:a Lancashire Hornpipe
+O:england
+M:3/2
+L:1/8
+K:D
+P:1
+G2 B2 F2 A2 E4 | E2 A4 G2 GFED | G2 B2 F2 A2 E4  | D2 d4    A2 GFED||
+P:2
+d2 cB cBAG  F4 | E2 e4 d2 dcBA | d2 cB cBAG  F4  | D2 d4    A2 GFED||
+P:3
+fgag  efed  c4 | B2 e4 B2 dcBA | a2 gf gfed  c4  | A2 d4    A2 GFED||
+P:4
+dcBA BAGF GFED | E2 e4 d2 c2 BA| d2 cB A2 GF EFGE| D2 Bc d2 A2 GFED||
+S:https://www.folktunefinder.com/tunes/20496
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:92
+T:Marcho du vilage
+O:France
+A:Provence
+C:Trad.
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-19
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Bb
+V:Galoubet
+d4 d>e f>g | f3 (e/d/) c2z2 | e4 e>f g>a | b3 a/g/ f2f2 | g2f2e2d2 |1 d4c2z2 :|2 d4c2F2 | A2c2f2a2 | bgf=e f2F2 |
+A2c2f2a2 | bgf=e f2f2 | (d2e2) (c2f2) | d2e2 c>f g>e | d4 c4 |1 B2B>BB2F2 :|2 B2 b>b b2z2 !fine! |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40290
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

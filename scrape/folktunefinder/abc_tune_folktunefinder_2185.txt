@@ -1,0 +1,20 @@
+X:88
+T:Alexander's Hornpipe 2
+T:Sandlark Hornpipe, The
+R:hornpipe
+Z:id:hn-hornpipe-43
+M:C|
+L:1/8
+K:D
+(3ABc|"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe (3dcB "D"A2 (3ABc|
+"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe dc "D"d2:|
+|:AG|"D"(3AcAdA "D"(3AcAdA|"G"GBdB "G"GBdB|"A"(3AcAec "A"(3AcAec|"D"dfaf "D"(3gfe dA|
+"D"(3AcAdA "D"(3AcAdA|"G"GBdB "G"GBdB|"A"(3AcAef "G"gecd|"A"(3efe dc "D"d2:|
+S:https://www.folktunefinder.com/tunes/2185
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

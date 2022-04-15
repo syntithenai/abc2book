@@ -1,0 +1,36 @@
+X:54
+T:Suskewiet
+O:vlaanderen
+C:Hugo Janssen
+Z:Bart Vanhaverbeke 
+P:(AABBCC)x2
+L:1/8
+M:6/8
+K:G
+P:Voorspel
+D | G2 A B2 c | d2 c B2 d | ded cBA | (G3 G) z D |]
+P:A
+G2 A B2 c | d2 c B2 d | c2 B A2 c | B2 A G2 D |
+G2 A B2 c | d2 c B2 d | ded cBA |1 (G3 G) z D :|2 (G3 G) z A |]
+P:B
+K:D
+ABA GFE | F2 E D2 F | E2 F G2 B | BA^G A2 F |
+EEE EF^G A2 B c2 c | BcB F2 ^G |1 (A3 A) z A :|2 (A3 A) z A, |]
+P:C
+D2 C D2 E | F2 E F2 G | A2 ^G A2 B | (A3 A)BA |
+G2 F E2 F | (G3 G)BB | BA^G A2 B | (A3 A) z A, |
+D2 C D2 E | F2 E F2 G | A2 ^G A2 B |1 (A3 A) z F |
+E2 F ^G2 A | B2 E c2 B | A z z =G z z | F z z E z  A,:|
+|2 (A3 A) z A | B2 c d2 e | f2 d A2 A | B2 d c2 e | (d3 d) z z |]
+S:https://www.folktunefinder.com/tunes/40633
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

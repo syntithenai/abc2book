@@ -1,0 +1,56 @@
+X: 1
+T: Pravo Horo
+R: pravo
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Accompaniment for a pravo is regularly in 2/4, against the 6/8 melody.
+M: 6/16
+L: 1/16
+K: Bm
+"A" \
+|: "Bm"F2B ^A2B | cdz ~c2B | "F#"^A3- A3 | "Em"B2c B3 | ~^A2G GFE \
+|  "Bm"F2B ^A2B | cdz ~c2B | "F#"^A3- A3 | "Em"B2c B3 | ~^A2G GFE |
+| FGE GEB | ~^A2G GFE | "F#"{FG}F3- F3 | "Bm"B2c B3 | "Em"~^A2G GFE \
+| FGE GEB | ~^A2G GFE | "F#"{FG}F3- F3 | F3 F3 :|
+"B" \
+|: "Em"FGE GEB | ~^A2G GFE \
+| FGE GEB | ~^A2G GFE \
+| FGE GEB | ~^A2G G2G | ~^A2G GFE \
+|1 "F#"~F2C F2C :|2 "F#"~F3 F3 |]
+"C" \
+|: "F#"f2f f3 | f3- f3 | ~e2d ~c2B \
+| "Bm"d2d d3 | d3- d3 | "Em"~e2d ~c2B \
+| "F#"^A2B c3 | c3- c3 | "Em"~e2d ~c2B |
+| "Em"^ABc BAG | "F#"{FG}F3- F3 \
+| ^A2B {cd}c3 | ^A2B c3 | c3- c3 \
+| "Em"~e2d ~c2B | ^ABc BAG \
+| "F#"{FG}F3- F3 | F3 F3 :|
+"D" \
+|: "Bm"{^A}B2z Bcd | e2d ~c2B \
+| "Em"^ABc BAG | "F#"~F3 ~c2F \
+| "Bm"{^A}B2z Bcd | e2d ~c2B \
+| "Em"^ABc BAG | "F#"~F2C ~F3 :|
+"E" \
+|: "F#"^ABc ABc | "Em"B^AG "F#"~F2C \
+| ^ABc "Em"BAG | "F#"~F3 c2F \
+| "F#"^ABc ABc | "Em"B^AG "F#"~F2C \
+| ^ABc "Em"BAG |1 "F#"~F2C ~F3 :|2 "F#"F3 F3 |]
+S:https://www.folktunefinder.com/tunes/2902
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/PravoHoro3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/PravoHoro3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Pravo_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Pravo_PravoHoro3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PravoHoro3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/PravoHoro3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Pravo_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Pravo_PravoHoro3.abc
+% Rhythm Pravo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

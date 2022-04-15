@@ -1,0 +1,24 @@
+X:533
+%%topmargin 3cm
+T:Urquhart Castle
+C:Capt. Fraser
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Gm
+B | B,>CDBD>f | e/d/c/B/ AC | B,>CDGA>^F G<G,G, :| f | e/d/c/B/ f>B g>Bf>c | d<gg>a {ga}b>ag>f |
+e/d/c/B/ f>B g>Bfc d<gg>b | dC | B,>CD<E F>ED>d | B<G A>^F GG,G, |]
+S:https://www.folktunefinder.com/tunes/71562
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Urquhart_Castle.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0533.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

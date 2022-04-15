@@ -1,0 +1,24 @@
+X:172
+T: Drei Koenige
+N: A0534
+O: Europa, Mitteleuropa, Deutschland
+N: Andernacher Gsgb. 1608 S. 135.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: G
+d2d | B2c | d2d | B3
+d2d | B2c | d2d | B3
+B2B | B2A | B2d | c3
+B2B | A2G | A2A | G3
+S:https://www.folktunefinder.com/tunes/80231
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

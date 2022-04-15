@@ -1,0 +1,51 @@
+X:0
+T:Lydian/Major (4-gap, fa/ti) Hexatonic Scales
+L:1/4
+M:9/4
+K:DbLyd
+"^D flat"  D2 EF ABc d2|d2 cB AFE D2||
+M:9/4
+K:AbLyd
+"^A flat"  A2 Bc efg a2|a2 gf ecB A2||
+M:9/4
+K:EbLyd
+"^E flat"  E2 FG Bcd e2|e2 dc BGF E2||
+M:9/4
+K:BbLyd
+"^B flat"  B2 cd fga b2|b2 ag fdc B2||
+M:9/4
+K:FLyd
+"^F"       F2 GA cde f2|f2 ed cAG F2||
+M:9/4
+K:C
+"^C"       C2 DE GAB c2|c2 BA GED C2||
+M:9/4
+K:G
+"^G"       G2 AB def g2|g2 fe dBA G2||
+M:9/4
+K:D
+"^D"       D2 EF ABc d2|d2 cB AFE D2||
+M:9/4
+K:A
+"^A"       A2 Bc efg a2|a2 gf ecB A2||
+M:9/4
+K:E
+"^E"       E2 FG Bcd e2|e2 dc BGF E2|]
+S:https://www.folktunefinder.com/tunes/30086
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key A
+% Key A-sharp
+% Key D
+% Key G-sharp
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

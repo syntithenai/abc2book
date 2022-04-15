@@ -1,0 +1,23 @@
+X:83
+T: ES WOHNTEN ZWEI LIEBCHEN IN SCHWABEN
+N: E0049B
+O: Europa, Mitteleuropa, Deutschland, St. Wendel, Kirrweiler
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 2/4
+L: 1/16
+K: F
+C2 | F2FFF2EF | G2E2z2
+C2 | G2GGG2FG | A2F2z2
+FA | c2cAB2BG | A2f2d2
+dd | c2cABdcB | A4z2
+S:https://www.folktunefinder.com/tunes/78524
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

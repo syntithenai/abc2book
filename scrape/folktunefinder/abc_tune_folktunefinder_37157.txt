@@ -1,0 +1,35 @@
+X:5390
+T:Schottis fr Vstergtland
+A:Vstergtland
+M:4/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b6a.html
+%%ID:00000b6a
+K:A
+(E|\
+A)c/B/ Ac/d/ ee/f/ e>a| gg/f/ dd f/f/f/e/ cA|\
+A/A/c/B/ Ac/d/ ef e>(a| g)B/c/ dB/G/ B2 A>(c|
+d/)d/f/e/ dd c/c/e/d/ cc| B/B/d/c/ B(B/G/) Ac/d/ e>(c|\
+d/)d/f/e/ dd c/c/e/d/ cc| Bd/c/ B(B/G/) Ac A2|]
+z|\
+A,>A, CE A,>A, CE| E>E GB A,>A, CE|\
+A,>A, CE A,>A, CE| E>E FG AE A2|
+D>D FA A,>A, CE | E>E GB A,>A, B,C|\
+D>D FA A,A, CE| E>E GB AE A2|]
+W:  ingen har du som lagar din mat
+W:  ingen har du som brygger din dricka
+W: men det har du sjlv fr du var it lat
+W: och ej skatt at dej ngon flicka
+S:https://www.folktunefinder.com/tunes/37157
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

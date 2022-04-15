@@ -1,0 +1,23 @@
+X:1189
+T: Coleraine
+O:england
+B: Kerr's Violin IV
+R: jig
+M: 6/8
+L: 1/8
+K: Bm
+|: "F7"F | "Bm"F>BB Bcd | "F7"c>ff f2e | "Bm"d>BB Bcd | "F7"c^AF F2F |
+| "Bm"F>BB Bcd | "F7"c>ff f2e | "Bm"d>cB "F7"c^AF | "Bm"B3- B2 :|
+|: "A7"c | "D"d2d ded | "A"cea "(F)"a2^a | "Bm"b>fe dcB | "F7"^AcA F^GA |
+| "Bm"B^AB "F7"cBc | "Bm"def "Em"gfe | "Bm"d>cB "F7"c^AF | "Bm"B3- B2 :|
+S:https://www.folktunefinder.com/tunes/21638
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

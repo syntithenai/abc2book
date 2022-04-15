@@ -1,0 +1,23 @@
+X: 1
+T: ORANGE AND BLUE
+O: Kerr's 2nd
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd (c.1880) p.211 #322
+M: 6/8
+L: 1/8
+K: A
+e | c2A  AGA | E2A  C2A | c2A cec | A3 A2c | d2B  B^AB | F2B  B2A | G2E GBG | E3 E2 ||
+e | c2A  AGA | E2A  C2A | c2A cec | A3 A2e | f2d  e2c  | d2B  c2A | GBG EFG | A3 A2 |]
+e | c2e- efe | c2e- efe | c2A cec | A3 A3c | d2f- faf  | d2f- faf | d2B dfd | B3 B2 ||
+d | c2e- efe | c2e- efe | c2A cec | A3 A2e | fdf  ece  | dBd  cAc | GBG EFG | A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14813
+S:http://trillian.mit.edu/~jc/music/abc/jig/OrangeAndBlueJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OrangeAndBlueJ_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

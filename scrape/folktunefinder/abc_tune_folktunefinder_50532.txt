@@ -1,0 +1,23 @@
+X: 24
+T:Skip to my Lou
+M:4/4
+L:1/8
+Q:240
+R:March
+K:D
+"D"f2 ff dd d2|f2 ff a4|"A"e2 ee cc c2|e2 ee g4|
+"D"f2 ff dd d2|f2 ff a4|"A"e2 fg f2e2|"D"d4d4:|
+T:Chorus
+|:"D"f4 d4|f2 ff a4|"A"e4 c4|e2 ee g4|
+"D"f4 d4|f2 ff a4|"A"e2 fg f2 e2|"D"d4 d4:|
+S:https://www.folktunefinder.com/tunes/50532
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

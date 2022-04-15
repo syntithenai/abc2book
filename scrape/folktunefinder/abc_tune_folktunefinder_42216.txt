@@ -1,0 +1,26 @@
+X:1325
+T:Killimor Jig, The
+T:Killimore Jig, The
+T:Killimer Jig, The
+O:ireland
+C:Sean Ryan
+R:jig
+Z:id:hn-jig-245
+M:6/8
+K:G
+DEF ~G3|BAG ABc|d^cd ~f3|ded cAF|
+DEF ~G3|BAG ABc|d^cd fed|cAF ~G3:|
+|:GBd ~g3|dgb gdB|GBd ~g3|fed cAF|
+GBd ~g3|dgb gdB|GBd fed|cAF ~G3:|
+S:https://www.folktunefinder.com/tunes/42216
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

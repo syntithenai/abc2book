@@ -1,0 +1,37 @@
+X:7845
+T:Villager's Waltz,The. CJF.199
+O:england
+M:3/4
+L:1/8
+Q:90
+C:"(Der Freischutz)"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"(Der Freischutz)" is written on the title line. "C J Fox 1831" is on
+N:the stave after the tune. - PJH
+K:G
+(DGB|edB)(DGB|edB)(DGB|dcA)(DFA|cBG)(DGB|
+edB)(DGB|edB)(DGB|dcA)(DFA|G3)||\
+K:D
+(Ade|baf)(Adf|baf)(Adf|ag)e(Ace|gfd)(Adf|
+baf)(Adf|baf)(Adf|age)(Ace|d3)||
+(dgb|e'd'b)(dgb|e'd'b)(dgb|d'c'a)(dgb|c'bg)(dgb|
+e'd'b)(dgb|e'd'b)(dgb|d'c'a)(dfa|g3)(GBd)|
+g3{(a/g/f/g/)}(dgb|d'c'ad'c'a)|d3{(e/d/^c/d/)}(dfa)|(c'bgc'bg)|
+d3(dgb)|(d'c'ad'c'a)|(dcAdcA)|G3||
+K:G
+S:https://www.folktunefinder.com/tunes/28297
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:369
+%%topmargin 3cm
+T:Mrs. Moray of Abercairny
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Three tunes of this name, or Mrs. Moray of Abercairny, in this collection.
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+D | G<GTB>G d<GB<g | F>FA>F c<FA<f | G<GTB>G d<GB<g | Tf>d{/d}c>A B<GTG :|
+d | gfc>f A<FF>A | ggd>g B<GG>d |
+gb c<aB<g | A>fc>f A<FTF>A | G<GTB>G d<GB<g | ~f>d{/d}c<A BGG |]
+S:https://www.folktunefinder.com/tunes/71398
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Moray_of_Abercairny.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0369.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

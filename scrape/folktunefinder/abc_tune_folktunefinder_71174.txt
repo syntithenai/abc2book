@@ -1,0 +1,27 @@
+X:144
+%%topmargin 3cm
+T:The Miller's Daughter
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A, | B,B, (E>D)E>F | A,>A,B,>A, D2 C>A, | B,B, E>DE>F | A,<A,B,>A, D2 D ::
+B | D<DF>D A<FTE>B | D<D{/G}F>D A>DF<D | G(B/2G/2) F(d/2F/2) E>DE<F | A,<A,B,>A, {FE}D2 D :|
+f | d<dTd>B {/f}e>de<f | A<AB>A d2 d>f | d<dTd>B {/f}e>de<f | A<AB>A {/c}d3 ||
+(f/2g/2) | (a>f){/c}d<f {/f}e>de<f | (a/2g/2).f.e {/c}d>A {/c}d>ef>d | g(a/2g/2) f/2a/2g/2f/2 {/f}e>de<f | A<AB>A {/c}d2 df |
+D<DF>D E2 E>f | D<DF>A (A>B)d>e | f>de>B {/c}d>FE>F | A,<A,B,>A, {FE}D3 |]
+S:https://www.folktunefinder.com/tunes/71174
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Millers_Daughter.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0144.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

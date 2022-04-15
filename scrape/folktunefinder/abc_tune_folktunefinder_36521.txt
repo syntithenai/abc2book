@@ -1,0 +1,28 @@
+X:2210
+T:Halling
+A:Hrjedalen
+M:4/4
+O:Sweden
+R:Halling
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c20.html
+%%ID:00000c20
+K:D min
+D2DF E2E^C| D2DF E2E^C| D2DF E2E^C| [M:2/4] D8::[M:4/4]
+f2a2-a2ge| f2a2-a2ge| f2fd e2e^c| A2^c2 d4::
+K:G
+c2AB G2AB| ^c2d2-d2cA| c2AB G2AF| D2F2 G4::
+c2AB G2AF| D2EF G2AB| c2AB G2AF| D2F2 G4:|
+S:https://www.folktunefinder.com/tunes/36521
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:283
+T: While Gazing on the Moonlight
+B: O'Neill's 283
+N: "Animated"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:Dm
+F \
+| F2F F2G | F3 E2E | D2D E2F | G2F E2A \
+| A2G F2E | D3 D2^c | d2A A2G | {G}F2E D2^c |
+| d3 A2^c | d3 A2^c | d2f e2d | =c2=B A2B \
+| c3 G2=B | c3 G2=B | c2_e d2c | B2A G2G |
+| d2^c d2A | c2=B c2A | d2f e2d | c2B A2G \
+| F2F F2F | E2E E2^c | d2A A2G | F2E D2 ||
+S:https://www.folktunefinder.com/tunes/73442
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

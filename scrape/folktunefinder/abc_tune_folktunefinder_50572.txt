@@ -1,0 +1,28 @@
+X:19
+T:Little Stack of Wheat, The
+R:hornpipe
+S:Mary Bergin
+Z:id:hn-hornpipe-19
+M:C|
+K:G
+BA|GEDE GABG|(3ABA GA (3Bcd ef|gedB GABG|dBAG E2BA|
+GEDE GABG|(3ABA GA (3Bcd ef|gedB GABG|AGEF G2:|
+(3Bcd|ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|dBAG E2 (3Bcd|
+ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|AGEF G2 (3Bcd|
+ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|dBAG E2BA|
+GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2||
+S:https://www.folktunefinder.com/tunes/50572
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnhp0.abc
+S:http://www.norbeck.nu/abc/i/hnhp0.abc
+S:http://www.firepowr.com/abc/Norbeck_hnhp0.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Miss Ann Monroe
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Glen Collection II
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+F \
+| "Bm"B3 f3 | "Bm"edc "E"dcB | "A"Acd edc | "A"aed "F#m"cBA \
+| "Bm"B3 fgf | "Bm"edc dcB | "Em"efd "F#"edc | "Bm"dBB B2 :|
+c \
+| "Bm"dfB dbB | "Bm"dcB "E"fdB | "A"ceA caA | "A"cBA "F#"edc \
+| "Bm"dfB dbB | "Bm"dcB    fdB | "Em"efd "F#(m)"edc | "Bm"dBB B2 ||
+c \
+| "Bm"dfB dbB | "Bm"dfB "E"dbB | "A"ceA caA | "A"ceA "F#"caA \
+| "Bm"BdB "F#/C#"cec | "D"dfd "Em"ege | "F#"fgf edc | "Bm"dBB B2 |]
+S:https://www.folktunefinder.com/tunes/14653
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissAnnMonroe_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissAnnMonroe_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

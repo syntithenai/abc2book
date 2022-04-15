@@ -1,0 +1,24 @@
+X: 1
+P: Senpolska fr\aan Torp #5
+C: Einar Viklund
+S: Bengt Jonsson
+M: 3/4
+L: 1/8
+K: D
+B \
+| "D"A>F DF "G"GB | "D"AB/A/ "A7"GA/G/ "D"FA | "D"d2 Ac df \
+|1,3 "E7"ef/e/ de/d/ "A7"c :|2,4 "A7"e/f/e/c/ "D"d3 :|
+|: A \
+| "D"f2 A>f A>f | "D"fe/f/ "(Em)"ge/g/ "D"fd \
+|1,3 "A7"e2 A>e A>e | ed/e/ fd/f/ e \
+:|2,4 "G"e>f ge/g/ "D"fd/f/ | "A7"ec "D"d3 :|
+S:https://www.folktunefinder.com/tunes/9132
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Sen2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

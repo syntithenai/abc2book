@@ -1,0 +1,32 @@
+X: 1
+T: Swallowtail Jig
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: EDor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+S:https://www.folktunefinder.com/tunes/15128
+S:http://trillian.mit.edu/~jc/music/abc/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/SwallowtailJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/SwallowtailJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

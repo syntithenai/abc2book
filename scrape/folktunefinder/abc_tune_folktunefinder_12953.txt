@@ -1,0 +1,23 @@
+X: 3
+T: the Crooked Stovepipe
+Z: John Chambers <jc@trillian.mit.edu>
+R:reel
+M: C|
+L:1/8
+K:G
+ (3DEF \
+|: "G"G2B2 BcdB | G2B2 BcdB | G2B2 e3B  | "Am"d2c2 cBAG |
+| "D7"F2A2 ABcA | F2A2 ABcd | e2d2 e2f2 |1 "G"g2fe dcBA :|2 "G"g6 ||
+ a2 \
+|: "G"[b6d] [a2c] | [g6B] [f2A] | "C"[e2G][e2G] [f2A][g2B] | "Am"[a6c] [b2d] \
+| "D7"[c'6f] [a2e] | [f6d] [e2c] | [d2B]d2 [e2_d][f2c] |1 "G"[g2B][^g2B] [a2c][^a2^c] :|2 "G"[g6B] ||
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12953
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

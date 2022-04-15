@@ -1,0 +1,28 @@
+X: 24
+T: Bargeren Yeghanag
+O: Armenia
+M: 4/4
+L: 1/8
+Q:1/4=180
+K:C
+V:1
+%%MIDI program 71
+|:agaf gefd |dfed d2 d2  |defd efge | efef d2z2 :| 
+|:fgaf g2z2 |FGAF GFFz   |fgac' fgfz|FGAF GFFz  |\
+  defd  efge| efef  d2z2 :| 
+V:2 name=percussion
+%%MIDI channel 10
+|:  F,,2 D,D, D,2 D,2|F,,2 D,D, D,2 D,2|F,,2 D,D, D,2 z2|F,,2 D,D, D,2 z2:: 
+!mf! z2 A,,A,, A,,A,, A,,2 | z2 A,,A,, A,,A,, A,,2 | z2 A,,A,, A,,A,, A,,2 |
+z2 A,,A,, A,,A,, A,,2 | z2 A,,A,, A,,A,, A,,2 | z2 A,,A,, A,,A,, A,,2 :|
+S:https://www.folktunefinder.com/tunes/67910
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

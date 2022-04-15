@@ -1,0 +1,28 @@
+X:359
+T: SCHON WIEDER TOENTS VOM SCHACHTE HER
+N: E1530
+O: Europa, Mitteleuropa, Deutschland, Hessen, Nassau
+R: Staende -, Bergmanns - Lied
+M: 6/8
+L: 1/8
+K: C
+G, | G,2CE,2E, | E,2G,C,2
+C, | A,2A,CB,A, | A,3G,z
+G, | G,2F,A,2F, | F,2E,G,2
+G, | G,2G,G,A,B, | D3Cz
+C | D2G,G,2F, | E,2G,C2
+C | D2G,G,2F, | E,2G,C2
+C | A,2A,CB,A, | G,3Cz
+C | B,3A,2B, | C2E,A,2
+G, | G,2EE2D | C4z
+S:https://www.folktunefinder.com/tunes/79463
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, bergmanns - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

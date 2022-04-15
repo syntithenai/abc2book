@@ -1,0 +1,30 @@
+X: 1
+T: the Girl With the Blue Dress On
+R: reel, polka, shottish
+B: Kennedy ; Raven p.146
+N: Nottingham Music Database (FTB, via EF)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"d2Bd "D7"c2Ac | "G"B2G2 GFGB | "D7"A2F2 FEFG | "G"A2G2 "D7"GABc \
+| "G"d2Bd "D7"c2Ac | "G"B2G2 GFGB | "D7"A2F2 FEFG | "G"A2G2 G2 :|
+|: z2 \
+| "G"G2Bd g3f | "C"f2e2 e4 | "D7"D2FA f3e | "G"e2d2 "D7"d4 \
+| "G2(E2m)"G2Bd g3f | "C(A2m)"f2e2 e3g | "D7"f2a2 e2f2 | "G"g3 :|
+S:https://www.folktunefinder.com/tunes/17248
+S:http://trillian.mit.edu/~jc/music/abc/reel/GirlWithTheBlueDressOn.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/GirlWithTheBlueDressOnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/GirlWithTheBlueDressOn.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/GirlWithTheBlueDressOnR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/GirlWithTheBlueDressOn.abc
+% Rhythm Reel, polka, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

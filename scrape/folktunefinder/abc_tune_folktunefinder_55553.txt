@@ -1,0 +1,29 @@
+X: 205
+T:Ton double gavotte
+C:Padrig Sicard
+D:Portland
+P:F4
+M:12/8
+Q:C3=156
+Z:bil@blueskiesink.com
+K:G % transposed from F
+%T:TD2
+P:F
+"Em"BAB "Am"c3/2B3/2 A3/2G3/2 "Bb"E3/2F3/2|\
+GFG "D"A2 F "Bm"D3 "Em"E3:|
+|:"Em"BAB "Am"c3/2B3/2 A3/2G3/2 "Bb"E3/2F3/2|\
+GFG "D"A3/2B3/2 "Bb"e3/2d3/2 "Bm"B3/2A3/2|\
+"G"GAB "Am"c3/2B3/2 A3/2G3/2 "Bb"E3/2F3/2|\
+GFG "D"A2 F  "Bm"D3 "Em"E3:|
+S:https://www.folktunefinder.com/tunes/55553
+S:http://www.lesession.co.uk/music/woodenflute.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

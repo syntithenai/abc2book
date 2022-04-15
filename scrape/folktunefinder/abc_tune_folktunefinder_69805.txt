@@ -1,0 +1,28 @@
+X:245
+T: WO SOLCH EIN FEUER NOCH GEDEIHT
+N: F0426
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch, Trink - Lied
+M: 4/4
+L: 1/16
+K: C
+G,2A,2B,2 | C4C4D4D4 | E8z4
+E4 | F4E4D4C4 | B,3CD4z4
+G4 | F2E2D2C2B,2A,2G,2
+G,2 | C4C4D6C2 | B,12A,4 | G,4z6
+G,2A,2B,2 | C4C4D6C2 | B,2A,2G,2^F,2G,4z2
+G,2 | C4G,4E,4C,4 | G,8C,2
+G,2A,2B,2 | C4C4D6C2 | B,2A,2G,2^F,2G,4z2
+G,2 | C4G,4E,4C,4 | G,8C,2
+S:https://www.folktunefinder.com/tunes/69805
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

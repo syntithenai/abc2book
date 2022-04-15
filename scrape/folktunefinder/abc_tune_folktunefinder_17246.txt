@@ -1,0 +1,25 @@
+X: 1
+T: Gigue du p\`ere Mathias
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: D
+dB "A"\
+|: AFFF A2dB | AFFF E2dB | AFFF A2dB |1AFEF D2dB :|2 AFEF D4 ||
+"B"\
+|: Acec B{c}BA2 | Acec B{c}BA2 Acec B{c}BA2 |1 BABc ddd2 :| BABc dcde ||
+"C"\
+|: f2d2 B2AG | FAFA EAde | f2d2 B2AG |1FABc dcde :|2 FABc d2 |]
+S:https://www.folktunefinder.com/tunes/17246
+S:http://trillian.mit.edu/~jc/music/abc/reel/Gigue_du_pere_Mathias_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Gigue_du_pere_Mathias_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Gigue_du_pere_Mathias_D3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

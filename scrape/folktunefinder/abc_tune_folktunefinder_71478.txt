@@ -1,0 +1,28 @@
+X:449
+%%topmargin 3cm
+T:The Duchess of Bedford's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+"Slow when not Danced."B,c TB2 (FB) | [Fc]<[Fc][Fc]>[Fd] {/d}e2 (Fe) | .d.f.g.f .e.d.c[=EB] |
+(A>B) "="~c>d c/B/A/G/ (.F.E) & F>x G>x xx C2 | Dc TB2 (FB) | [Fc]<[Fc][Fc]>[Fd] {/d}e2 (Fe) |
+.d.f.g.f .e.d.c.B | TF>B (A/B/)(c/A/) B2 B & D2 E2 D2 D || e | (d/e/)f/g/ ff {/a}b2 fa |
+(b/a/)g/f/ (g/f/)e/d/ (e/d/)c/B/ c>d | (c/d/)e/f/ (g>f) .e.d.c.B | ABc>d (c/B/)A/G/ (F>E) |
+.D.B.F.B .F.c.A.c | .F.d .B.d .E.g .e.g | d/f/g/a/ b>f (g/f/)e/d/ (e/d/)c/B/ | TF>B (A/B/)c/A/ [D2B2] [DB] |]
+S:https://www.folktunefinder.com/tunes/71478
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Duchess_of_Bedfords_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0449.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

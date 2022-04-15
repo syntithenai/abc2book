@@ -1,0 +1,28 @@
+X:347
+T: MIR IST HALT NIE SO WOHL ZU MUTH
+N: B0408
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Liebes - Lied, Liebes - Lust
+M: 6/8
+L: 1/16
+K: C
+G2 | G4E2c2B2A2 | G4E2E4
+E2 | D2F2A2G4F2 | E6z4
+G2 | G4E2c2B2A2 | G4E2E4
+E2 | D2F2A2G4F2 | E6z4
+G2 | F4D2D2F2A2 | G4E2E4
+G2 | F4D2D2F2A2 | G4E2E4
+GG | G2A2B2c2B2A2 | G4E2E4
+EE | D2F2A2G4F2 | E6z4
+S:https://www.folktunefinder.com/tunes/78368
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

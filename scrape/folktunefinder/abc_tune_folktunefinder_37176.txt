@@ -1,0 +1,29 @@
+X:5485
+T:Schottische fr France
+M:4/4
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000070e.html
+%%ID:0000070e
+K:D
+A|\
+dcde d2Ad|edef e2A2|fefg f2ed|cdeg f2ec|\
+dcde d2Ad|edef e2ag|
+fefg f2ed|cdec d3::\
+A|\
+defg a2fd|Bcde A2dc|
+Bcde fdef|gfed f2e2|\
+defg a2fd|Bcde A2dc|Bcde fdef|gfec d3:|
+S:https://www.folktunefinder.com/tunes/37176
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

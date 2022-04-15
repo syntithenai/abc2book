@@ -1,0 +1,30 @@
+X:21
+T:Mrs. MacLeod's Reel
+C:Traditional
+M:4/4
+L:1/8
+K:A
+%
+cB | "A" A2 a2 "D" fefa | "A" c2 cB "E7" cdcB | "A" A2 a2 "D" fefa | "E" B2 BA BdcB |
+"A" A2 a2 "D" fefa | "A" c2 cB c2 ce | "D" fgfe f2 (3efg | "A" a2 ec "E" B2 :|
+|: cB | "A" A2 cB eccB | c2 cB "E7" cdcB | "A" A2 cA eccA | "E" B2 BA BdcB |
+"A" A2 cA eccB | "A" cdcB c2 e2 | "D" fgfe f2 (3efg | "A" a2 ec "E" B2 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+S:https://www.folktunefinder.com/tunes/49300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

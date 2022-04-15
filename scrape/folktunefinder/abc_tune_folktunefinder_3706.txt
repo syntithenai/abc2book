@@ -1,0 +1,29 @@
+X: 2
+M: 6/8
+L: 1/8
+P: Sedauny [G] (Dargason)
+%Q: 120
+R: Jig
+H: With two titles of Welsh derivation, both of which escape convincing
+H: explanation, this unique progressive dance is paired with a 16th
+H: century double-tonic circular tune of haunting familiarity.  The title
+H: of the song also connects the tune to Wales, Shropshire lying in the
+H: foothills on the English side of the border.
+K: G
+|: "G"B2G G2G | B2c d>cB | "Am"c2A A2A | "D7"c2d e>dc |
+| "G"B2G G2G | "Em"g2g f>ed | "Am"c2A A2A | "D7"a2g f>ed :|
+S:https://www.folktunefinder.com/tunes/3706
+S:http://trillian.mit.edu/~jc/music/abc/England/Dargason.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/Dargason.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/Dargason.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/Dargason.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/Dargason.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords Has chords

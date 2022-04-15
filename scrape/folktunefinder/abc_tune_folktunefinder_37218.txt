@@ -1,0 +1,26 @@
+X:5695
+T:Skorsk
+A:Orust
+M:2/4
+N:The "ornament" marks here indicate a strongly accented note.
+O:Sweden
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cd6.html
+%%ID:00000cd6
+K:D
+AG|\
+F2D2 F2A2 | d2c2 cBcd | e2d2 c2Bc | B2A2 AGFG |\
+A2~d2 F2~A2 | d2c2 cdef | ~g2A2 B2c2 | d6 ::
+(fg|\
+a2)d2 f2df | e6 (fg | a2)d2 f2df | e6 ((3gfe | \
+d2)a2 a2(gf | e2)g2 g2(fe | d2)f2 f2ed | c2e2 e2ce | d6:|
+S:https://www.folktunefinder.com/tunes/37218
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

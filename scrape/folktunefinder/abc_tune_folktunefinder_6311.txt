@@ -1,0 +1,25 @@
+X: 6
+T: Captain Monro's Favourite
+S:Gesto Collection, 1895
+N:Transposed from C for comparison
+Z:Nigel Gatherer tradtunes 2005-8-1
+M:2/4
+L:1/8
+K:G
+D | DG GA | B2 d>B | A>G AB | AG GB/G/
+    DG GA | B2 d>B | AG  AB | AG G    :|
+G | BB Bc | dd dg  | ee  ec | ed dc    |
+    BB/B/ Bc | dd/d/ dg | ee ec | d3 z/c/ |
+    BB BB | B3 d/B/ | AG AB | AG GB/G/ |
+    DG GA | B2 d>B | AG  AB | AG G    |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6311
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

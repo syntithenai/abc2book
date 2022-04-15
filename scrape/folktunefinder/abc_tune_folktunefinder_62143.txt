@@ -1,0 +1,27 @@
+X:120
+T: EIN BAUER IST EIN EHRENMANN
+N: B0609
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Bauern - Lied
+M: 4/4
+L: 1/8
+K: D
+A2 | d2d2d2d2 | d2cBA2
+F2 | B2G2E2A2 | F4z2
+A2 | A2F2d2d2 | d3ec2
+A2 | B2cde2e2 | A4z2
+A2 | A2F2d2cd | e2G2G2
+G2 | F3Ad2d2 | c4z2
+A2 | B2B2e2e2 | A2Bcd2
+F2 | G2FGA2A2 | D4z2
+S:https://www.folktunefinder.com/tunes/62143
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

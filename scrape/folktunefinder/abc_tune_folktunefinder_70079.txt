@@ -1,0 +1,24 @@
+X:519
+T: ES TRITT DER LENZ ZUR ROSE HIN
+N: F0992
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Jahreszeiten - Lied, Fruehling
+M: 4/4
+L: 1/8
+K: A
+E2 | A2A2B2B2 | c3BA2
+c2 | B2e2^d2B2 | e4z2
+E2 | d3cB2B2 | e3dc2
+A2 | d2d2e2e2 | f4z2
+f2 | e2c2B2e2 | A4z2
+S:https://www.folktunefinder.com/tunes/70079
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur -, jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:41
+T:A Cotillon
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 19
+L:1/8
+M:2/4
+R:Cotillon
+K:G
+gdTd>c |c/B/d/B/ A>c|c/B/A/G/ B/A/G/F/|G/F/G/A/ GD|\
+gdTd>c |c/B/d/B/ A>c|c/B/A/G/ B/A/G/F/|G2G,2     :|
+d3 e/f/|g/f/g/a/ gb |d2       e/d/c/B/|c/B/A/G/ AD|\
+d3e/f/ |g/f/g/a/ gb |dB/c/    d/c/B/A/|G2G2      :|
+K:Gm
+"^Minore"d3d|e2c2|c3c| d2 B2|B3B|c2Ac   |BAG^F|TG/^F/G/A/ TB/A/B/c/|
+         d3d|e2c2|c3c| d2 B2|G3A|Bcde   |dcBA | G2         G2     ||
+         B3d|cAF2|c3e|Ted d2|f3b|g3f    |edcB | A/B/c/B/   A/G/F/E/|
+     [D3B3]d|GABG|c3e| ABcA |^f4|g3=f/e/|dcBA | G2         G,2    |]
+S:https://www.folktunefinder.com/tunes/72016
+S:http://nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://nigelgatherer.com/tunes/abc/petrie/41.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/41.abc
+% Rhythm Cotillon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

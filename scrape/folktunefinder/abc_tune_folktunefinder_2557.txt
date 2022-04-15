@@ -1,0 +1,47 @@
+X:1
+T: TEST: CONCERTO No. 5
+T: TEST: First page only
+C: Johann Sebastian Bach
+C: BWV 1050
+M: C|
+Q:"Allegro"
+L: 1/8
+K: D
+V:1 clef=treble name="Flauto traverso"     sname="Fl."
+V:2 clef=treble name="Violino\\principale" sname="Vl. pr."  spc=5
+V:3 clef=treble name="Violino\\in ripieno" sname="Vl." stv=4 brk=4
+V:4 clef=alto   name="Viola\\in ripieno"   sname="Vla."
+V:5 clef=bass   name="Violoncello"         sname="Vc."
+V:6 clef=bass   name="Violone"             sname="Vne."     spc=5
+V:7 clef=treble name="Cembalo\\concertato" sname="C." brc=2 stv=2 spc=-5
+V:8 clef=bass
+%
+[V:1]
+   z8 | z8 | z8 |
+[V:2]
+   [L:1/16] DDFF AAdd cdcB AGFE| DDFF AAdd e2A2 z2e2|ffee ggff bbaa ccdd|
+[V:3] [L:1/16] DDFF AAdd cdcB AGFE| DDFF AAdd e2A2 z2e2|ffee ggff bbaa ccdd|
+[V:4] f2 zf edec|dAdf cdec|dad'c' d'dgf|
+[V:5] d2 zd abc'a | fefd abc'a| d'c'ba gfed|
+[V:6] d2 zd abc'a | fefd abc'a| d'c'ba gfed|
+[V:7] [D2FAd] x2 x4| x8 | x8|
+[V:8] [d2f2a2] zd abc'a| fefd abc'a| d'c'ba gfed|
+%
+[V:1] z8 | z8 | z8 |
+[V:2] GGFF BBAA CCDD A,A,GG| FEFD EEA,A, DEFG ABcA | ddcc eedd ggff bbaa|
+[V:3] GGFF BBAA CCDD A,A,GG| FEFD EEA,A, DEFG ABcA | ddcc eedd ggff bbaa|
+[V:4] eddd gfeA| AdBc d/e/f/g/ a/b/c'/a/|d'fba cdec|
+[V:5] cdGF EDCc|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|
+[V:6] cdgf edcA|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|
+[V:7] x8 | x8 | x8 |
+[V:8] cdgf edcA|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|
+S:https://www.folktunefinder.com/tunes/2557
+S:http://trillian.mit.edu/~jc/music/abc/test/V_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_8.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

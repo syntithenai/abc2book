@@ -1,0 +1,31 @@
+X:1238
+T:Condon's Frolics
+O:england
+R:jig
+H:Played in Ador or Bdor. Sometimes played with 2nd part first.
+D:Paddy Keenan: Port an Phiobaire
+M:6/8
+L:1/8
+K:Ador
+eAB c2d|edc BAG|eAB c2d|e2d eag|
+eAB c2d|edc ~B3|GBd gdB|ABA ABd:|
+eaa efg|dec BAG|cBc dcd|e2d efg|
+eaa efg|dec BAB|GBd gdB|ABA ABd:|
+K:Bdor
+fBc d2e|fed cBA|fBc d2e|f2e fba|
+fBc d2e|fed cBc|Ace aec|BcB B2f:|
+fbb fga|efd cBA|dcd ede|f2e fga|
+fbb fga|efd cBc|Ace aec|BcB B2f:|
+S:https://www.folktunefinder.com/tunes/21687
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

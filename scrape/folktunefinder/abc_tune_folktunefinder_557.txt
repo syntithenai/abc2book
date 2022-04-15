@@ -1,0 +1,38 @@
+X:98
+T:La boiteuse
+T:Marche des clops
+C:Epoque napolonnienne
+R:Marche
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+P: A B C B C A
+K:Bb
+V:1
+P:Introduction
+F2 A2 dA z2 | GA/B/ AG F2 F2 ||
+P:A
+F2A2dAz2 | F2A2dAz2 | BG zG/B/ AF zF/A/ |  G/A/B/c/ ze/d/ cg z2 |
+P:B
+d2^c2 dB z2 | d2^c2 dB z2 | AB zB/A/ Bc z=e/d/ | c/B/A/B/ zB/A/ GA z2 |
+P:C
+d2^c2 dB z2 | e2d2 ec z2 | AB zB/A/ Bc zB/d/ | f/e/d/c/ zf/e/ dc z2 |
+P:Coda
+f2f2F2 z2 |]
+V:2 clef=perc stafflines=1
+z2z2z2B2 | z2z2z2B2 | 
+z2z2z2B2 | z2z2z2B2 | z2 Bz z2 Bz | z2 Bz z2 B2 |
+z2z2z2B2 | z2z2z2B2 | z2 Bz z2 Bz | z2 Bz z2 B2 |
+z2z2z2B2 | z2z2z2B2 | z2 Bz z2 Bz | z2 Bz z2 B2 |
+B2B2B2z2 |]
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/557
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

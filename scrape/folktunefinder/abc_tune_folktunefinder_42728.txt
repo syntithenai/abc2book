@@ -1,0 +1,26 @@
+X:2329
+T:Sweet Richard
+O:ireland
+N:A Welch Tune
+M:C|
+H:repeats A::B||
+K:G
+D|\
+DG GF/E/  FGA2| G2BG ABc2| B>c dB cBAG| EAGF G2G:|\
+d|\
+g2gg f2ff| efge e2d2|
+g2bg f2af| efge {e}d4|\
+ece2 dBd2| cBAG Bcd2| B2dB cBAG| EAGF G2G|]
+S:https://www.folktunefinder.com/tunes/42728
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

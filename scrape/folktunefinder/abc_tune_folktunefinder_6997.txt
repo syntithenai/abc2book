@@ -1,0 +1,27 @@
+X: 1
+T: Varshaver Freylekhs
+T: Warsaw Freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: D^G
+| "Dm"A, D2 F | AD "Gm"BD | "Dm"AD "Ddim"GD | "Dm"(3FED A2 \
+| A,D2F | GA Bc | (3Bcd (3cBA | AGF "A7"A2 |
+| "Dm"A, D2 F | AD "Gm"BD | "Dm"AD "Ddim"GD | "Dm"(3FED A2 \
+| "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 |]
+[| "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A2 G | (3AGF (3FED \
+| "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A3 | d4 |
+| "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A2 G | (3AGF (3FED \
+| "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 |]
+K:D
+|: "D"D F2 A | GF A2 | A>B (3=cBA | GF A2 \
+| D F2 A | GF A2 | "A7"E>F (3GFE | "D"D4 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/6997
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_Varshaver.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

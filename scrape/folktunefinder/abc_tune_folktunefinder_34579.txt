@@ -1,0 +1,29 @@
+X: 7362
+T:Last of the Twins
+T:Northumbrian hornpipe
+R:Hornpipe
+R:Reel
+O:England
+O:Ireland
+M:4/4
+A:Northumberland
+K:D
+(3ABc|\
+dAFA BAFE|DFAd BAFD|1 CDEF GABA|GFED E2:|2\
+CDEF GABc|d2ce d2::
+(3ABc|\
+dcde dcBA|BABc BAFD|1 CDEF GABA|GFED E2:|2\
+CDEF GABc|d2ce d2:|
+S:https://www.folktunefinder.com/tunes/34579
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

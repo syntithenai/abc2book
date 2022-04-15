@@ -1,0 +1,27 @@
+X: 1
+T: Ding Dong! Merrily on High
+C: Anonymous 16th c. French tune
+B: From Carols for Choirs, v.1, Oxford, 1960, ed. by Reginald Jacques and David Willcocks
+R: march, reel
+M:4/4
+L:1/4
+F:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc 2007-01-26 21:28:22 UT
+K:G
+|: "G"G G "Am"A/G/ F/E/ | "D"D3 D | "C"EG "D7"GF | "G"G2 G2 :|
+[| "G"d> c B/c/ d/B/ | "Am"c> B A/B/ c/A/ | "D"B> A "Em"G/A/ B/G/ | "Fm"A> G F/G/ A/F/ |
+| "Em"G> F "C"E/F/ G/E/ | "D"F> E D D |  "C"E G "D7"G F |  "G"G2 G2 |]
+S:https://www.folktunefinder.com/tunes/20373
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DingDongMerrilyOnHigh_G_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/DingDongMerrilyOnHigh_G_16.abc
+% Rhythm March, reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+P: Kinderpolka (Children's polka)
+O: Germany
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: F
+C || "F"F>G AB | c>d cA | "C7"B>c BG | "F"A3 C \
+   | F>G AB | c>d cA | "C7"B>c BG | "F"F3 c ||
+  || "F"d>c A>F | "C7"FE Ec | d>c B>E | "F"GF Fc- \
+   | .f.f .fc- | "C7".e.e .ec- | e>d c/B/A/G/ | "F"F3 |]
+S:https://www.folktunefinder.com/tunes/4774
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Polka_Kinder.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Kinderpolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/Kinderpolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/polka/Kinderpolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

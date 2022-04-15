@@ -1,0 +1,26 @@
+X: 23
+T: 1. The Pigeon on the Gate
+R: Reel
+L: 1/8
+M: C|
+C: arr. Jerry Holland
+R: Reel
+% Q: 440
+K: Gdor
+c |: \
+"Gm" dG (3GGG {e}dcAc | d2 de TdcAB | "F" cF (3FFF TcFAB |      c2cf     TdcBc  |
+"Gm" dG (3GGG {e}dcAc | d2 de TdcAG | "F" FAcf      afga | "Dm" fdcA "Gm" GABc :|
+|: \
+"Gm" dg (3ggg fagf | dgga bgTaf | "F" Tdcde fgfd |  cAf2 fgaf  |
+"Gm" dg (3ggg fagf | dgga bgTaf | "F"  dcde fgfd |1 "Dm" cAFA "Gm" GABc :|2 "/F" cA "/E" FE "D7" D3 || [K:G] |
+S:https://www.folktunefinder.com/tunes/40127
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:17819
+T:Trip to Windsor
+C:Dan R. MacDonald
+O:Cape Breton, N.S.
+M:4/4
+L:1/8
+K:A
+A/2A/2A (AB) Ace=g| f/2f/2f (fg) fef^g| agfe fgaf|1 ecBc AFEF|2 ecBd cA
+A2||!
+c| efec efae| ((3fga) (ec) BAcB| AFEC EFAE| ((3FGA) (EC) B,A,CB,| A,2 (C
+E) FECE|! 
+AEcB Aceg| agfe fgaf|1 ecBd (cA) A |2 ecBc ~ A4||
+% Output from ABC2Win  Version 2.1 f on 10/8/97
+S:https://www.folktunefinder.com/tunes/39190
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

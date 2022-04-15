@@ -1,0 +1,26 @@
+X:4
+T:rozelaar                           %title
+C:                           %composer
+O:                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/4                           % length of shortest note
+Q: 1/4=120                          %tempo  Q:1/4=80
+K:C                           %key C  Cm
+V:1
+"C" e3/2 d/ c/E/|"G7" A G/F/ D| A G/F/ D| "C"A G/E/ C|e3/2 d/ c/E/|"G7" AG/F/ D| "C"G"F"A"G7"B| "C" c3|
+|:"G7" f/e/ d2|"C"e/f/c2|"G7"GAB| "C"c/B/ c/d/ e| "G7"f/e/ d2| "C"e/d/ c2|"G7" GAB| "C" c3:|
+V:2
+"C" G3/2 F/ E/C/|"G7"FE/D/ D|F E/D/D|"C"F E/C/ C|G3/2 F/E/C/|"G7"F E/D/ D|"C"E "F"F"G7"D|"C"E3|
+|:"G7" DFG|"C"CEG|"G7"DFF|"C" E/D/ E/F/G|"G7" DFG|"C"CEG|"G7"FDF|"C"E3:|
+S:https://www.folktunefinder.com/tunes/45798
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

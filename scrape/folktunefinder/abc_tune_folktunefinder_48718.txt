@@ -1,0 +1,26 @@
+X: 287
+T:Thomas Lynch's
+M:6/8
+L:1/8
+C:Thomas Lynch
+R:jig
+D:Cig: Prospect
+Z:Devin McCabe
+K:BMin
+f2B BAF|A~B2 def|ecB ~A3|cBc efg|
+!f2B BAF|A~B2 dea|faf bfe|1dBA Bde:|2dBA ~B3||
+!:A~B2 dfe|dcB AFG|~A3 GAF|AEA FAd|
+!~B3 dfe|dcd ede|f/2g/2af bfe|dBA B2A:|
+!:dcd ede|f/2g/2af afb|faf bfa|fgf eBc|
+!~d3 ede|f/2g/2af afb|faf bfe|1dBA ~B2A:|2dBA Bde||
+S:https://www.folktunefinder.com/tunes/48718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

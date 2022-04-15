@@ -1,0 +1,28 @@
+X: 1
+T: HASTE TO THE WEDDING
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.104
+M: 6/8
+L: 1/8
+Q: 1/4=126
+%%slurgraces 1
+K: D
+A \
+| "D"AFG (Agf) | "A"ede "D"(fdB) | "D"AFG AdF | "A7"EFE E2F/G/ \
+| "D"AFG Aaf | "G"ede "D"fdB | "D"AFA "A"faf | "D"ddd d2 :|
+|: f/g/ \
+| "D"[aA]fa afa | "G"gab bag | "D"fga agf | "A7"gfg efg \
+| "D"ka3 kf3 | "Em"e>de fdB | "D"AFA "A"faf | "D"ddd d2 :|
+S:https://www.folktunefinder.com/tunes/6277
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/HasteToTheWedding_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/HasteToTheWedding_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

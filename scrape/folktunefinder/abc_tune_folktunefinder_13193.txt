@@ -1,0 +1,29 @@
+X: 1
+T: The Grey Seal's Lament for Its Pup
+C: W.R.Aim (5.11.77)
+R: slow air
+N: handwritten MS.
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+M: C
+L: 1/8
+K: G
+DG \
+| "G"{G}B3c dBGF | "C"{F}E2G2 c3E | "G"DGBd "Am"cBAG | "D"A3F D2DG |
+| "G"{G}B3c dBGF | "C"{F}E2G2 cEGE | "G"DGBd "D"cDFA | "G"[G4-B,4-] [G2B,2] :|
+GF \
+| "C"{F}E3G cEGE | "G"DB,DG "(E)"B3B  | "A"A3B ^cAfe | "D"d2^c2 "D7"H=c2Bc |
+| "G"d3e dBGF | "C"ECEG cEGE |  "G"DGBd "D"cDFA | "G"H[G4-B,4-] [G2B,2]Bc |
+| "G"d3B gdBG | "C"ECG,C EGce | "G"dgdB GDcB | "D"AGFE DCB,HA, |
+| "G"G,3B, DGFG | "C"{F}E3G cege | "G"DGBd "D"cdef | "G"[g4-B4-] [g2B2] |]
+S:https://www.folktunefinder.com/tunes/13193
+S:http://trillian.mit.edu/~jc/music/abc/air/GreySealsLamentForItsPup.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/GreySealsLamentForItsPup.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

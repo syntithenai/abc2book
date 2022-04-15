@@ -1,0 +1,27 @@
+X:125
+T:Unknown Jig # 1
+S:irtrad-l, 5/97, P. Varlet
+M:6/8
+L:1/8
+N:as played by Micmac Indian, Lee Cremo
+R:jig
+K:A
+E3 EFA | B3 Bce | fea fec | ecA BAF |
+E3 EFA | B3 Bce | fea fec |1 ecA A2F :|2 ecA Acd ||
+e3 ecA | f3 fga | fec BAB | cAF FAc |
+e3 ecA | f3 fga | fec BAB | cAA Acd |
+e3 ecA | f3 fga | fec BAB | cAF Fzf |
+ecA Ace | fdf fga | fec BAB | cAA A2z ||
+S:https://www.folktunefinder.com/tunes/45894
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/oneil/celt3.abc
+S:http://www2.redhawk.org:8080/irish/oneil/celt3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

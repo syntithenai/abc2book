@@ -1,0 +1,36 @@
+X: 8
+T: Noel Hill's Reel
+T: Micho Russell's Reel
+T: The Sister's Reel
+T: Mary McMahon
+D: De Dannan's "Hibernian Rhapsody"
+R: Reel
+Z: Adrian Scahill
+M: 4/4
+L: 1/8
+K: D
+fAeA dAAG | FGAB =cAGB | Add2 efed | (3Bcd ef g2ag |
+fdec dAAG | FGAB =cAGB | Add2 efed | cAGE D4 :|
+f3g a2fa | abag fede | f3g a2fa | bfaf g2ag |
+f3g a2fa | abag feda | bfaf gfed | (3Bcd ef g2ag :|
+S:https://www.folktunefinder.com/tunes/17621
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaryMcMahon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MichoRussellsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/NoelHillsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SistersReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MaryMcMahon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MichoRussellsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/NoelHillsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SistersReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MaryMcMahon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MichoRussellsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/NoelHillsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SistersReel_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

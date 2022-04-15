@@ -1,0 +1,31 @@
+X:3399
+T:la Grande Tortue Blue
+O:england
+N:July 93
+M:2/4
+C:Andy Hornby
+A:Lancaster
+K:Bm
+A2|\
+B3c d2e2| f4 a4 | e3d c2d2 | e6 g2|1\
+f3d B2c2 | d2B2 f2d2 |efed c2B2 | c6 :|2\
+f3g f2d2 | c2A2 e2c2 |
+B3c B2A2 |B2c2 d2e2 ||\
+|: fgfe d2e2 | f2d2 a2f2 | efed c2d2 |
+|1\
+e4 f2e2|dedc B2c2|d2B2 f2d2|cdcB A2G2|F4 F4:|2\
+e4 d2e2|fgfe dfed|c2e2 d2c2|B3c B2A2 | B6 ||
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/23850
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

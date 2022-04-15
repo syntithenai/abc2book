@@ -1,0 +1,28 @@
+X:156
+T:Jefferson and Liberty
+S:Jim Coon to CoMandoList TOW
+R:jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:Am
+|:AB | "Am"c2A ABA|E2A ABc|
+"G"B2G GAB|d2B GAB|!
+"Am"c2A ABA|E2A A2e|
+"Em"edc "G"BcB|"Am"A3- A:|!
+|:cB|"Am"A2B c2d|"Em"e2^f g3|
+"C"e2^f g2e|"G"dBG dBG|!
+"Am"A2B "E7"c2d|"Am"e^fg "Dm"a3|
+"Am"edc "E7"BcB|"Am"A3- A:|!
+S:https://www.folktunefinder.com/tunes/51775
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

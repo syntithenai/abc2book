@@ -1,0 +1,23 @@
+X:232
+T: Alter Reihen um das erste Veilchen
+N: A0280B
+O: Europa, Mitteleuropa, Deutschland
+N: Praetorius Mus. Sion. VIII 1610 No. 264
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: G
+G | G2GG | F2FF | G_BAG | F2z
+G | G2GG | F2FF | G_BAG | F2z
+_B | _BBBB | A2AA | GGFF | G3
+S:https://www.folktunefinder.com/tunes/68778
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

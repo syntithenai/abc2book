@@ -1,0 +1,25 @@
+X: 1
+T: Sl\"ovagubben - polska fr\aan Boda
+O: Sweden
+R: Boda-polska
+S: handwritten MS by John Chambers (1970s)
+L: 1/8
+%%slurgraces 0
+K: G
+|: "G"d>g- g2 f>e | e>(d B<G) B>B | "D7"(~BA/)(B/ c>A) F>A |1,3 A>(F "G"G>A) B>c :|2,4 A>F "G"G4 :|
+|: "G"B>(c d2) g>a | "D7"g>f- f>{gf}e f2 | "C"A>(B c2) e2 | "G"e>d- d>{ed}^c d2 |
+|  "Em"G>(A B2) d2 | "Am"d>c- c>{dc}B c2 | "D7"c>(B A>d) f>a | a>{ba}(f "G"g4) :|
+S:https://www.folktunefinder.com/tunes/16554
+S:http://trillian.mit.edu/~jc/music/abc/pols/Slovagubben_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Slovagubben_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/Slovagubben_G.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

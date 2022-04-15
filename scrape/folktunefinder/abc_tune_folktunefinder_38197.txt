@@ -1,0 +1,30 @@
+X:16826
+T:The Headlands
+% Nottingham Music Database
+S:Ronald Cooper via Rosa M, via EF
+P:AAB
+M:4/4
+L:1/4
+K:A
+P:A
+ed |"A"dc BA|"A"A/2c3/2 E3/2A/2|"D"FA df|"E7"e2 ef/2g/2|"A"a3/2e/2 fa|
+"F#m"fe dc|"B7"c3/2B/2 Ac|"E7"B2 e3/2d/2|"A"dc BA|"A"A/2c3/2 E3/2A/2|
+"D"FA df|"D"a2 gf|"A"ea Ac|"E7"Bf ed|"A"c2 "D"A2|"A"A2 :|
+P:B
+ef/2g/2 |"A"a3/2e/2 fa|"A"ce cA|"D"dA df|"E7"e2 ef/2g/2|"A"a3/2e/2 fa|
+"F#m"fe dc|"B7"c3/2B/2 Ac|"E7"B2 ef/2g/2|"A"ae ea|"A"ce cA|
+"D"dA df|"D"a2 gf|"A"ea Ac|"E7"Bf ed|"A"c2 "D"A2|"A"A2 "E7"ef/2g/2||
+"A"a3/2e/2 ea|"A"ce cA|"D"dA df|"A"e2 "E7"ef/2g/2|"A"a3/2e/2 fa|"F#m"fe dc|\
+"B7"c3/2B/2 Ac|
+"E7"B2 e3/2d/2|"A"dc BA|"A"A/2c3/2 E3/2A/2|"D"FA df|"D"a2 gf|"A"ea Ac|\
+"E7"Bf ed|"A"c2 "D"A2|"A"A2 ||
+S:https://www.folktunefinder.com/tunes/38197
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

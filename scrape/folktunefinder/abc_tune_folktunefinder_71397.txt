@@ -1,0 +1,24 @@
+X:368
+%%topmargin 3cm
+T:Johnnie's Made a Waddin' O't
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+c | BGdG BGG_B | (A=F)cF AFFA | BGdG BGGg | egdg BGG :| g | (bg)af gdde | ~=fd{/d}c_B AFFg |
+(bg)af gdd=f | eg^fa gGGg | (bg)af gdde | =fd{/d}c_B AFFA | G_BAc Bdc_e | dg^fa gGG |]
+S:https://www.folktunefinder.com/tunes/71397
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Johnnies_Made_a_Waddin_Ot.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0368.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

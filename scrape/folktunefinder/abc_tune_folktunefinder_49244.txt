@@ -1,0 +1,24 @@
+X: 38
+T:A Bagpipe Hornpipe
+M:6/4
+L:1/4
+S:Wright 1713
+Z:p
+K:A
+a|A>BAc>BAB>cB|A>BAa>gfe.dc|A>BAc>BAB>cB|a>bfg>fea2A||
+bBbg>fec>BA|BbBbc'ab2B|cdefgag>fe|cdBc>BAa2A||
+A,CA,CB,CECA,|A,CA,CEAG>FE|A,CA,CA,CDCE|GBAG>FEA2A,||
+aA/B/c/A/ cA/B/c/A/ cA/B/c/A/|ac/A/c/A/af/g/a/f/b2B|aA/B/c/A/ cA/B/c/A/ 
+cA/B/c/A/|abfg>fea2A||
+A,2EA,2EC>B,A,|A,2EA,2AB2|C2EC2AG>FE|FGAB>AGA2A,||
+AeAeAecAe|AeAeAebBb|AeAeAecAe|abfg>feA2a||
+S:https://www.folktunefinder.com/tunes/49244
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

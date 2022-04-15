@@ -1,0 +1,30 @@
+X: 7
+T:Ductie
+C:--
+O:France                           %origin
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+% type of bar  4/4 or 3/4 
+L:1/8
+Q:"Allegro"3/8=120
+K:Fmaj
+M:4/4
+V:1
+g2a (ba)g | f3 f2d | e2c d2e | f3z2z | g2e f2g | f3 d2B | (cd)e (fg)e | f3z2z | d2e f2g | a2g e2f |
+d2e faf | g3 z2z | f2e d2c | e3 e2f | d3 d2e | f3 z2z | g2g (fe)d | f3 f2a | g2g (fe)d | c3 z2z |
+g2g (fe)d | f3 f2a | g2g (fe)d | c3 z2z |: f2e f2d | e3 e2c |1 d3 e2c | e3 d3 :|2 d3 e2d | c6 |]
+V:2
+c2c BAG | B3 B2d | c2c (BA)G | F3 z2z | c2c (BA)G | B3 B2d | c2c (BA)G | F3 z2z | B2A B2c | A3 A2F |
+G2A B2A | G3 z2z | B2A B2c | A3 A2F | G3 A2G | F3 z2z | c3 d3 | B3 B2A | c3B3 | c3 z2z |
+G3 B3 | F3 B2A | c3B3 | c3 z2z |: B2c B2G | A3 A2B | G2A F2A | G3 z2z | G3 A2B | c6 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (Inca)
+S:https://www.folktunefinder.com/tunes/466
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

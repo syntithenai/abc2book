@@ -1,0 +1,30 @@
+X: 3
+P: Greensleeves (and Yellow Lace)
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: ADor
+|: B \
+| "Am"c2c c>de | "G"dBG G>AB | "Am"c2A A>Bc | "E7"B2^G E2B \
+| "Am"c2c c>de | "G"dBG G>AB | "F"c>BA "E7"B^G2 | "Am"A3 z2 :|
+|: f \
+| "C"g2g g>fe | "G"d>BG G2g | "Am"a2b c'ba | "Em"g>ee e2f \
+| "C"g2g g>fe | "G"d>BG GAB | "F"c>BA "E7"B^G2 | "Am"A3 z2 :|
+S:https://www.folktunefinder.com/tunes/3866
+S:http://trillian.mit.edu/~jc/music/abc/England/LancashireReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LancashireReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/LancashireReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/LancashireReel.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/LancashireReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/LancashireReel.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LancashireReel
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

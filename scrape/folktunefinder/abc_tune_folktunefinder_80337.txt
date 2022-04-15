@@ -1,0 +1,24 @@
+X:278
+T: Papstaustreiben
+N: A0631
+O: Europa, Mitteleuropa, Deutschland
+N: Fl. Bl. 1541
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/4
+L: 1/4
+K: G
+G | d2dc2c | d2dG2
+G | d2c=f2e | d2^cd2
+d | g2ge2e | =f2fd2
+G | _B2cd2c | _B2AG2
+S:https://www.folktunefinder.com/tunes/80337
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

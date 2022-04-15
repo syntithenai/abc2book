@@ -1,0 +1,26 @@
+X:1555
+T:the Dusty miller
+M:9/8
+O:Ireland
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000948.html
+%%ID:00000948
+K:G
+B2d c2A B2G | E2A A2B cBA | \
+B2d cBA G2F | D2G G2A B2G :|
+|: B2d def g3 | a2A A2B cBA | \
+B2d e2f gfe | d2B G2A B2G :|
+|: D3 G2A BAG | E3 A2B cBA | \
+B2d cBA G2F | D2G G2A B2G:|
+S:https://www.folktunefinder.com/tunes/36390
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

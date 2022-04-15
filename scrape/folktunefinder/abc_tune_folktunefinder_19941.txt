@@ -1,0 +1,29 @@
+X: 11
+T:Glwgsen
+M:3/4
+L:1/8
+Q:180
+C:Trad
+S:Blodau'r Grug Collection Vol. 2
+R:Waltz
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:Am
+E2|A2AB cA|B2^G2E2|A2AB cd|e3d cB|A2AB cA|B2^G2E2|AF Ec B^G|A4:||!
+B2|c2cd ec|g4G2|A2AB cd|e4e2|a^g a=g fe|fe fe dc|dc dc BA|^GB AG ^FE|
+A2AB cA|B2^G2E2|A2AB cd|e3d cB|A2AB cA|B2^G2E2|AF Ec B^G|A4||
+S:https://www.folktunefinder.com/tunes/19941
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Glwgsen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/waltz/Glwgsen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/Glwgsen.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

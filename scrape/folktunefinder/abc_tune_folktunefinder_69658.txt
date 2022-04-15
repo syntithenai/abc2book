@@ -1,0 +1,31 @@
+X:98
+T: WOS GAR ZU SACHT UND STILLE GEHT
+N: F0209
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits - Lied
+M: 3/4
+L: 1/16
+K: G
+G2 | d3dd6c2 | c3BB6
+A2 | G6B2A2c2 | B3cd6
+g2 | f3ed6c2 | B4G4z2
+G2 | d3dd6c2 | c3BB6
+A2 | G6B2A2c2 | B3cd6
+g2 | f3ed6c2 | B4G4z2
+B2 | A3AA6B2 | d3cc4z2
+c2 | B6d2c2e2 | e3dd4z2
+g2 | d6B2c2e2 | d6B2c3A | A4G2z4
+B2 | A3AA6B2 | d3cc4z2
+c2 | B6d2c2e2 | e3dd4z2
+g2 | d6B2c2e2 | d6B2c3A | A4G2z4
+S:https://www.folktunefinder.com/tunes/69658
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

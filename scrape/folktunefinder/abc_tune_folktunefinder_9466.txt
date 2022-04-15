@@ -1,0 +1,22 @@
+X: 6
+T: Och jungfrun hon g\aar i dansen
+M: 3/4
+L: 1/8
+K: G
+D2 | "G"G2 BA GF | "C"E2 F2 G2 | "D7"D2 E2 F2 | "G"G4 :|
+w: Och jung-frun hon g\aar i dan-sen med r\"o-da gull-band.
+w: Och k\"a-ra min lil-la flic-ka knyt in-te s\aa h\aart.
+|: B2 | "D(Am)"c4 A2 | "G"B2-B2 G2 |1 "D"A2 F2 A2 | "G"d4 :|2 "D7"A2 F2 F2 | "G"G2 z2 |]
+w: Den bin-der hon om sin k\"a-ras-tes arm. | k\"a-ras-tes arm.
+w: Jag \"am-nar ej* att rym-*ma bort.       | rym-*ma bort.
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/9466
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

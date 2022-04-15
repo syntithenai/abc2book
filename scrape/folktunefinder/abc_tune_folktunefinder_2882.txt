@@ -1,0 +1,23 @@
+X: 2
+P: Nataljino Kolo
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: D:
+K: D
+[| "D"[FD][EC] [FD][GE] | [A2F2] [BG][AF] | "A7"[GE][FD] [GE][AF] | "D"[F2D2]z2 \
+| [FD][EC] [FD][GE] | [A2F2] [BG][AF] | "A7"[GE][FD] [GE][AF] | "D"[F2D2]z2 |] [K:G]
+[| "G"[B2G2] [cA][BG] | "D7"[A2F2] [c2A2] | "G"[B2G2] [cA][BG] | "D7"[c4A4] \
+| "G"[B2G2] [cA][BG] | "D"[AF][^G/^E/][A/F/] [BG][AF] | "A7"[GE][FD] [GE][AF] | "D"[F2D2]z2 |]
+[| "G"[B2G2] [cA][BG] | "D7"[A2F2] [c2A2] | "G"[B2G2] [cA][BG] | "D7"[A4F4] \
+| "G"[d2B2] [cA][BG] | "D"[AF][^G/^E/][A/F/] [BG][AF] | "A7"[GE][FD] [GE][AF] | "D"[F2D2]z2 |]
+S:https://www.folktunefinder.com/tunes/2882
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/NataljinoKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

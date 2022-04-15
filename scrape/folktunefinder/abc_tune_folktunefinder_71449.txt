@@ -1,0 +1,27 @@
+X:420
+%%topmargin 3cm
+T:Countess of Dalhousie
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+d | c<c ~c>f (f/g/a) T(g>f) | (d/e/f) Tc>A B<GG>d | c<c~c>f (f/g/a) T(g>f) | (d>f)c>f A<FF>d |
+c<c(~c>f) (f/g/a) T(g>f) | (d/e/f) Tc>A B<GG>d | c<c ~c(f/g/) a>fg>e | f>cd>f A<FF||
+c |(A<F)F>c (A/B/c) B>A | (B/c/d) (Tc>A) B<GG>c | (A<F)F>c (A/B/c) (TB>A) | (B/c/d) c>e f<FF>B |
+(A<F)F>c (A/B/c) T(B>A) | (B/c/d) T(c>A) B<GG>B | (A<F)c<A d<Bf<d | (e/f/g) (g/a/b) a<f~f |]
+S:https://www.folktunefinder.com/tunes/71449
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Countess_of_Dalhousie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0420.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

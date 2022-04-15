@@ -1,0 +1,36 @@
+X:0
+T:The Death Croon
+S:Marjory Kennedy-Fraser, Songs of the Hebrides, volume 1
+N:sung to the dying in Eigg
+M:3/2
+L:1/4
+Q:1/2=100
+K:Fphr
+FF|F3 E F2|A4   F2|E4  E2|F2 F3 F|\
+   F4   F2|AF3  E2|EE3 E2|F2 F2
+FF|F3 E F2|A4   F2|E4  E2|F2 F2F2|\
+   F3 E F2|A2F2 E2|E4  E2|F2 F4 ||
+   FFF4   |A4   E2|\
+   FF2F3  |A4   E2|\
+   FFFF3  |A4   E2|
+   E3 E E2|E3 E E2|D4  E2|F6     |\
+   F3 E F2|AF3  E2|E4  E2|F6    :|
+   F3 F FF|A3 E E2|\
+   F3 F FF|A3E  E2|\
+   F3 F FF|A3 E E2||
+   E3 E E2|E3 E E2|D4  E2|F6     |\
+   F3 E F2|A2F2 E2|E4  E2|F6     |
+   F4   F2|A2F2 E2|D4  E2|F6     |\
+   F4   F2|AF3  E2|E4  E2|F6    ||
+   F3 F F2|A6     |E3E E2|F6     |\
+   F3 E F2|A6     |E3E E2|F6    |]
+S:https://www.folktunefinder.com/tunes/30223
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

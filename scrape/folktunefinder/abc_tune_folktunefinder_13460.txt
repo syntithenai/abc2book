@@ -1,0 +1,28 @@
+X:1
+T:The Acrobat
+R:hornpipe
+N:Original key Bb
+Z:Henrik Norbeck <henrik.norbeck@MAILBOX.SWIPNET.SE> irtrad-l 2000-12-18
+M:C|
+L:1/8
+K:D
+AG \
+| FAde fdba | (3gec (3gec c'2c'b | a^g=ge cc'ba | ^gaba fdAG |
+FAde fdba | (3gec (3gec c'2c'b | a^g=ge cc'bc | d2f2 d2 :|
+|: ed \
+| cefe c'a^ga | f^efb d'b^ab | ^ge^de =f^f=g^g | (3ac'b (3a^gf ef (3e_ed |
+cefe c'a^ga | f^efb d'b^ab | ^ge^de =f^f=g^g | (3aba ^gb a2 :|
+S:https://www.folktunefinder.com/tunes/13460
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Acrobat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Acrobat.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Acrobat.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

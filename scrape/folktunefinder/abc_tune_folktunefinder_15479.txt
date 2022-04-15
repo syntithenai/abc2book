@@ -1,0 +1,39 @@
+X: 1
+T: Hyttstenspolketten  harmony
+R: snoa, g\aangl\aat
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+N: Harmony by John Chambers.
+M: C
+L: 1/8
+K: D
+V: 1
+FG \
+| A2 A2 B2 AG | (FG) A2 A3 z | {A}F2 f2 f2 ed | (cd) e2 e3 z \
+| E3 F E2 (FG) | A3 B A2 (Bc) | d2 cd e2 c2 | d6 :|
+|: de \
+| f2 fe f2 de | (fg) fe f2 gf | e2 (cd) e2 f2 | g2 b2 a2 g2 \
+| f2 fe f2 de | (fg) fe f2 gf | e2 fg a2 c2 | d6 :|
+V: 2
+DE \
+| "D"F2 F2 "G"G2 FE | "D"(DE) F2 F3 z | {F}D2 A2 A2 GF | "A7"(EF) G2 G3 z \
+| "A7"C3 D C2 D2 | E6 G2 | "D"F2 EF "A7"A2 G2 | "D"F6 :|
+|: FG \
+| "D"A2 AG A2 FG | (AB) AG A2 AB | "A7"c2 (AB) c2 d2 | "G"d2 g2 "A7"f2 e2 \
+| "D"d2 dc d2 Ac | (de) dc d2 d2 | "A7"c2 cB A2 G2 | "D"F6 :|
+S:https://www.folktunefinder.com/tunes/15479
+S:http://trillian.mit.edu/~jc/music/abc/march/Hyttstenspolketten_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/Hyttstenspolketten_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Hyttstenspolketten_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Hyttstenspolketten_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/snoa/Hyttstenspolketten_2V.abc
+% Rhythm Snoa, g%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

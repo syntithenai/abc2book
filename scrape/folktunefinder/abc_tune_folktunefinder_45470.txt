@@ -1,0 +1,38 @@
+X:36
+T:Steyrer Tanz in C, nr. 32
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in C
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:C
+V:1
+%violino 1mo
+"3"g"1"e |\
+fd'bd' Tf2 | egc'ge'g | fd'bd' Tf2 | ge'c'geg |\
+fd'bd' Tf2 | egc'ge'g | fd'bd' gb | c'4 :|
+V:2
+%violino 2do
+"h:Ap"ec |\
+dbgb Td2 | cegec'e | dbgb Tdg | ec'gece |\
+dbgb Td2 | cegec'e | dbgb Tdg | e4 :|
+S:https://www.folktunefinder.com/tunes/45470
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

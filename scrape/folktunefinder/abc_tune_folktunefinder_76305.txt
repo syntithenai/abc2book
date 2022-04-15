@@ -1,0 +1,25 @@
+X:325
+T: Sch\^ine Magdalena (4-26), S. 37
+N: P0587
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: 
+M: 6/8
+L: 1/16
+K: G
+D4 | G2A2_BBA2G2FF | G3A_BGA4
+dd | d2d2d2d2_B2c2 | d6z4
+_Bc | d2d2ddc2c2dc | _Bcd2z6
+cB | A_Bc2z6BA | G3A_BGA4
+GA | _B2d2ccd2B2A2 | G4z4
+S:https://www.folktunefinder.com/tunes/76305
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:58
+T: ES GING EIN MUELLER WOHL UEBERS FELD
+N: Z0059
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze, Tod
+M: 4/4
+L: 1/8
+K: G
+D2 | G2_B2A2d2 | c2d_BA2
+D2 | G2_BBAAd2 | c2d_BA2
+d2 | d2c2d2_BA | _B2G2z2
+S:https://www.folktunefinder.com/tunes/68917
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

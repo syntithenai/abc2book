@@ -1,0 +1,22 @@
+X:0
+T:The Mixolydian/Dorian (so/re) Hexatonic Scale
+M:9/4
+L:1/4
+K:GMix
+P:so -ti
+"_so"G2 "_la"A "_do"c "_re"d "_mi"e "_fa"f "_so"g2 |\
+"_so"g2 "_fa"f "_mi"e "_re"d "_do"c "_la"A "_so"G2||
+P:re -fa
+K:DDor
+"_re"D2 "_mi"E "_so"G "_la"A "_ti"B "_do"c "_re"d2 |\
+"_re"d2 "_do"c "_ti"B "_la"A "_so"G "_mi"E "_re"D2|]
+S:https://www.folktunefinder.com/tunes/30070
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

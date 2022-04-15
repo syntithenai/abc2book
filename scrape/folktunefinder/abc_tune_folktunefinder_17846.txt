@@ -1,0 +1,24 @@
+X:1
+T:Paresis
+R:Reel
+L:1/8
+Z:John Erdman <jperdman@agate.NET>
+M:C|
+C:Sandy's MacIntyre's Book
+K:GDor
+A2 \
+|: {A}BAGF DGGB | AFcF dFcF | BAGF DGGA | BdcA BG G2  :|
+|| {A}B2 g2 g2 ga | bga^f gdBG | F2 f2 f2 fg | afge fcAF |
+|  G2 g2 g2 ga | bga^f g2de | f2fd cAGF | DGGA G2 ||
+|| {A}B2 g2 g2 ab | bga^f gdBG | CFA,F CFA,F | fefg afcA |
+|  {F}G2 g2 g2 ab | bga^f g2de | fefd cAGF | DGGA G2 |]
+S:https://www.folktunefinder.com/tunes/17846
+S:http://trillian.mit.edu/~jc/music/abc/reel/ParesisR_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ParesisR_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

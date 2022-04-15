@@ -1,0 +1,27 @@
+X:16
+T: WEN HYR EN PUT MIT BONEN STEIT
+N: E1012
+O: Europa, Mitteleuropa, Deutschland, Niederdeutsch
+R: Tanz - Lied
+M: 2/4
+L: 1/8
+K: G
+D | DGGG | FAA
+A | cAGA | B2z
+B | cAAA | BGG
+G | BDEF | G2z
+B | Acce | edd
+B | Acce | d3
+B | cAAA | BGG
+G | BDEF | G2z
+S:https://www.folktunefinder.com/tunes/79120
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

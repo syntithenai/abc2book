@@ -1,0 +1,23 @@
+X:1
+T:Pay the Girl her Fourpence
+R:reel
+B:O'Neill's "Dance Music of Ireland", no. 804
+Z:Paul de Grae 
+L:1/8
+K:G
+fe | d ~B2 dBGB | dcAd g2fe | dcBc dBGf | gefd egfe |
+| dB~B2 dBGB | dedB dfga | bagb afdf | gefd e2 :: ef |
+| g2bg fgaf | gefd edBd | g2bg f2af | (3gfe fd e3f |
+| gaba fgaf | (3gfe fd edBd | ~g3e fefg | afdf e2 :|
+S:https://www.folktunefinder.com/tunes/17849
+S:http://trillian.mit.edu/~jc/music/abc/reel/PayTheGirlHerFourpence.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

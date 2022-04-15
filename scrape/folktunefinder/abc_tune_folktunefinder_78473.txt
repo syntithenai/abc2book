@@ -1,0 +1,25 @@
+X:32
+T: WILDY HOOREN
+N: E0017A
+O: Europa, Mitteleuropa, Niederlande
+R: Maerchen -, Zauber - Lied, Tannhaeuser - Sage
+M: 3/4
+L: 1/16
+K: D
+D2=F2G2 | A6G=FG2G2 | A6
+A2=c2d2 | e6d=cB4 | A6
+A2A2A2 | =c6A2A2G2 | =F6z2
+=c4 | d6A2A2G=F | E4D2
+S:https://www.folktunefinder.com/tunes/78473
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Maerchen -, zauber - lied, tannhaeuser - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

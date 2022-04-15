@@ -1,0 +1,24 @@
+X: 52
+T: A Double Duet
+M:3/4
+R:waltz
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:Am
+"Am"e2 A2 "E"^G2| "Am"Ac "E"B4| "Am"c2 dc "Dm"BA|"E"^G2 ^F^G E2|
+"Am"e2 dc BA|"G"d2 cB "E"A^G|"Am"AB "Dm"c2 "E"BA|"Am"A6:|
+"C"G2 cB c2| "G"G2 dc d2| "C"G2 f2 "F"ef|"G"d6|
+"C"ef de "Am"cd|"G"Bc AB "C"G2| "F"FE D3C|"C"C6||
+"Am"cd e2 "E"^G2| "Am"Ac "E"B4| "Am"c2 dc "Dm"BA|"E"^G2 ^F^G E2|
+"Am"E2 A^G A2| "Dm"D2 A^G "E"A2| "Am"c2 "Dm"dc "E"Bc|"Am"A6|]
+S:https://www.folktunefinder.com/tunes/39378
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

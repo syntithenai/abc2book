@@ -1,0 +1,25 @@
+X: 38
+T:R`i na bP`iobair`i
+T:King of the Pipers, The
+M:6/8
+L:1/8
+R:jig
+D:Alta
+H:There are 3 other tunes called "King of the Pipers": #8, #66, #219
+Z:id:hn-jig-307
+K:Dmix
+d|:cAG A2D|DED AdB|cAG ~A3|DED GED|cAG A2D|DED AGE|
+FDF E^CE|DEF GED:||:d2e fdf|e^cA AFA|d2e fed|f/g/af gfe|
+d2e fdf|e^cA AGE|FDF E^CE|DEF GED:||:B2G AGA|BGE Edc|
+B2G AGE|GED Ddc|B2G AGA|BGE E2^c|d^cd A2G|1 FDD Ddc:|2 FDD DdB||
+S:https://www.folktunefinder.com/tunes/58645
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

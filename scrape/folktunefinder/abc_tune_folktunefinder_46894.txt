@@ -1,0 +1,33 @@
+X:15619
+T:Slow Scopel March. BF13.083
+M:4/4
+Q:120
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:March
+O:England
+A:Lakes
+Z:vmp.Chris Partington
+K:G
+D2|"P"G3B d>Bg>e|d3e d>Bg>e|d>eg>ab2a>g|e2e>e dcBA|!
+"F"G3B d>Bg>e|d3e d>Bg>e|dg e>deg|g2ggg2::!
+g>a|"P"b2a>g e>de>f|g>fg>a {g}b2G>A|B>dg>f g/f/e/d/ e/d/c/B/|"F"A2A>AA2D
+2|!
+"F"G3B d>Bg>e|d3e d>Bg>e|d<ga>g e>def|g2g>gg2::!
+G>A|"P"B3c d>Bg>e|d>BA>cB2B/c/B/A/|G3A Bd e/d/c/B/|A2A>AA2B>c|!
+"FF"d2b>ad2B>c|d>d b>ag2db|babg d<a a>^g|g2g>gg2::!
+"FF"d'>d'|d'>c'bag3d|e>fge d'3z|d'2 e'/d'/c'/a/ gbd'>b|a2a>aa2"P"G>A|!
+B3c d>Bg>e|d>BA>cB2B>c|d/e/f/g/ f/g/a/b/ a/g/f/e/ d/c/B/A/|G2A/B/ c/d/e/
+f/ |]
+S:https://www.folktunefinder.com/tunes/46894
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

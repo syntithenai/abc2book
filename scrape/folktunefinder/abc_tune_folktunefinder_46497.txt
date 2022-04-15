@@ -1,0 +1,24 @@
+X:15222
+T:Set De La Baie St Paul
+% Nottingham Music Database
+S:French Canadian, via PR
+M:4/4
+L:1/4
+K:D
+A|"D"ff fe|dd dc/2d/2|"G"ed cd|"Em"B2 Bc/2d/2|"A"e/2e/2e/2e/2 ed|\
+c/2c/2c/2c/2 cB|"A7"Ag fe| [1"D"f3:|
+ [2"D"d3:|F/2G/2|"D"A/2B/2A/2F/2 DF/2G/2|A/2B/2A/2F/2 DF/2G/2|"D"Ad cd|
+"Em"E2 zE/2F/2|"A"G/2F/2E/2D/2 CE/2F/2|G/2F/2E/2D/2 CE/2F/2| [1"G"GB "A"AG|\
+"D"F2 z:|
+ [2"G"GB "A"AC|"D"D2 z||
+S:https://www.folktunefinder.com/tunes/46497
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

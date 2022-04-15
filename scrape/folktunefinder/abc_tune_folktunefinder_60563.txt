@@ -1,0 +1,81 @@
+X:4374
+T:Drei Schwedische - Walzer/Waltz/Valse
+C:
+B:"A lustige Eicht - Mitteilungsheft des O..Volksliedwerkes", Heft 27, 7.Jahrgang, Linz September 1999
+S:Gottfried Affenzeller, Grnbach b. Fr., Slg. Aug. Schwarz  Herm. Derschmidt; Oberoesterreichisches Volkslied Archiv
+P:Grnbach bei Freistadt
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/8
+K:G
+P:1
+(G2A2)|(B2A2B2)|(c2B2c2)|(d2b2)g2|d6|
+(d2c'2)f2|d6|(d2b2)g2|d6|
+(B2A2B2)|(c2B2c2)|(d2b2)g2|d6|
+(d2c'2)f2|d4(ef)|g3gg2|g2z2:|z2||
+|:(fc')c'2af|d6|(db)b2gd|B6|
+(fc')c'2f2|(db)b3g|(dc')c'2f2|1g6:|2g4||
+P:2
+K:C
+(ef)|(gfg) fef|(ede2)c2|(def) GAB|(cd)efg2|
+(gfg) fef|(ede2)c2|(def) GAB|c4:|
+|:(eg)|(ag)ec (GF)|(EG)ceg2|(FG)Bdf2|(EG)ceg2|
+(ag)ec (GF)|(EG)ceg2|(FG)Bd (fB)|c4:|
+P:3
+K:D
+|:(Af)|(ef)(g3f)|e2Ace2|(fg)(a3g)|(fA)daf2|
+(ef)(g3f)|e2Ace2|(gA)cb (gc)|d4:|
+|:z2|(fa)gba2|(gA)ceg2|(eg)(b3a)|(fA)dfa2|
+(fa)gba2|(gA)(c3e)|(eg)(a3c)|d4:|]
+g6|fedc BA|G6|(E2G2) ze|
+F6|G2A2B2|c3cc2|c2z2:|
+P:4
+|:G2|(G4E2)|(G4e2)|(G4E2)|G4e2|
+(^c2d)ze|f4B2|(dc)c3d|e2dcBA|
+(G4E2)|G4e2|(A4F2)|A4f2|
+BBB2c2|d2z2d2|(dc)A3B|c2z:|
+P:5
+|:G2|(Ge)e3e|e2dcBA|G6-|G2A2G2|
+B6-|B2A2B2|c6-|c2^F2G2|
+(Ge)e3e|e2dcBA|G6-|G2A2G2|
+B6-|B2A2B2|c6-|c2z2:|
+P:6
+|:GF|EFGA Bc|d6|dcBA GF|E6|
+(EA)A3G|F6|(FB)B3A|G6|
+EFGA Bc|d6|dcBA GF
+(EA)A3G|F6|(FB)B3d|c2z2:|
+P:7
+|:G2|edcB AG|F3FF2|dcBA GF|E3EE2|
+(AG)G3E|(F2B2)B2|(AG)G3F|(E2c2)c2|
+edcB AG|F3FF2|dcBA GF|E3E3E2|
+(AG)G3E|(F2B2)B2|(AG) FGAB|c2z2:|
+P:8
+|:(GF)|EFGA Bc|d6|DEFGAB|c6|
+E2A3G|F3EF2|D2A3G|E3^DE2|
+EFGA Bc|d6|DEFGAB|c6|
+E2A3G|F3EF2|.B.B.B.c.d.e|c2z2:|
+P:9
+|:cd|e2dcBA|G6|c2BAGF|E6|
+F2z2G2|B2z2F2|(E4A2)|G2z2cd|
+e2dcBA|G6|c2BAGF|E6|
+F2z2G2|A2z2Bd|c3cc2|c2z2:|
+P:10
+|:EF|G6-|G2A2B2|c6|z2c2c2|
+(B4A2)|(B4A2)|G6|z2c2c2|
+c6-|c2d2e2|(g6|f2)z2z2|
+{f}(e4d2)|{f}(e4d2)|c6-|c2z2:|
+S:https://www.folktunefinder.com/tunes/60563
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

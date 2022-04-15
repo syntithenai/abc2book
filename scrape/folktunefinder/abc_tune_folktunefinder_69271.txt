@@ -1,0 +1,25 @@
+X:412
+T: "Die Nixenbraut"
+N: Z1092
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Romanze, Ballade, Tod
+M: 2/4
+L: 1/16
+K: G
+D2 | G2GFG2A2 | _B2=F2z2A2 | G2D4
+D2 | G2GFG2A2 | _B2=F4A2 | G2D4
+D2 | _B2BAB2A2 | _Bcd4
+D2 | G2GFG2AA | _Bcd4
+cB | A2G2A4 | G4z2
+S:https://www.folktunefinder.com/tunes/69271
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

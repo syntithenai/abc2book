@@ -1,0 +1,25 @@
+X:26
+%%topmargin 3cm
+T:The Highland Society of London
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+a | A<AeA cAAB | =g2 ed B=GGa | [1 AAeA cAAB | =g2 dB AAA :| [2 A<AeA c2 Ae | =g2 dB AAA ||
+e | A<AeA a2 ef | =g2 ed B=GAB | [1 A<AeA a2 ef | =g2 dB AAA :| [2 A<AeA c2 Ae | =g2 dB AAA |]
+S:https://www.folktunefinder.com/tunes/71056
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Highland_Society_of_London.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Highland_Society_of_London.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0026.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

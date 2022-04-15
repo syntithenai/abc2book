@@ -1,0 +1,33 @@
+X: 1
+T: Waltz
+O: Ukraine
+C: Trad.
+Z: Aubrey Jaffer <jaffer@ai.mit.edu>
+M: 3/4
+L: 1/4
+Q: 1/4=160
+K: Am
+P: A
+|: "Am"A2 E | c2 A | e>e e | e d/2c/2B/2A/2 | "E"E ^G B | d c B |
+|1 "Am"A/2^G/2A/2B/2c/2d/2 | "E"e/2a/2e/2d/2c/2B/2 :|2 "Am"A2 "E"E | "Am"A2z ||
+P:B
+"E"E ^G B | E ^G B | "Am"A>Bc/2B/2 | A B c |
+"E"B c d | B c d | "Am" f e d | e2 z |
+"Dm" d>ef/2e/2 | d/2f/2 e d | "Am" c>de/2d/2 | c/2e/2 d c |
+"E"B f e | d c B | "Am"A2 "E"E | "Am"A2z ||
+P:C
+K:C
+|: "G"G>G G | G d f | "C"e2z | G2z | "G"f/2e/2d/2c/2B/2A/2 |
+|1 G>A G | "C"G A/2G/2F/2G/2 | E F G :|2 G A B | "C"c2 z | "E"B2 z ||
+S:https://www.folktunefinder.com/tunes/20265
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Ukranian_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

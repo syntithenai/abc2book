@@ -1,0 +1,27 @@
+X:206
+T: The Chieftain
+B: O'Neill's 206
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K:G
+((3DEF) \
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | E4- Ez ((3DEF) |
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | G4- Gz ||
+|| ((3Bcd) \
+| (e3f) (edBA) | (G3B) (d2gf) | e2(dB) G2A2 | E4- Ez ((3DEF) |
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | G4- Gz ||
+S:https://www.folktunefinder.com/tunes/73365
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

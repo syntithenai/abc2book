@@ -1,0 +1,33 @@
+X: 64
+T:Grants Hornpipe. JMP.064
+T:Chester Castle,aka. JMP.064
+T:Recruit,The,aka. JMP.064
+M:C|
+L:1/8
+Q:180
+C:"69",Chester Castle,Recruit,The,aka.
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+N:aka Grant's Rant, aka New Hornpipe..
+H:1799
+Z:vmp.C. Graebe
+K:D major
+"Key in MS is G major"DF | A3B AFDF | AFdF AFDF |\
+GBGE FAFD | E2 EE E2 AG |!
+ ADFA d2 df |edcB A2 Bc | dfdB BdB^G | A2 AA A2 :|!
+|: cd |\
+(e3 e/)f ecAc | ecac ecAc |dfdB cecA | B2 BBB2 Bc |!
+d3B AFDF | GABc d2 cB | AGFE DEFE | F2 DD D2 :|]
+S:https://www.folktunefinder.com/tunes/2001
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

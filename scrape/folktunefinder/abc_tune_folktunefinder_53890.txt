@@ -1,0 +1,29 @@
+X: 22
+T:Bonnie Lass of Bon Accord, the - Dance Verson
+M:4/4
+L:1/8
+Q:120
+C:James Scott Skinner
+S:Modified (reluctantly) by James G-H
+R:Song Strathspey (Don't take this version too seriously)
+K:A
+|: E2 | A3B ({AB}c3)B | A2 A,2 C2 E2 | A>G A<f e>c B<A | B6 c>B | !
+A3B ({AB}c3)B | A2 C2 E2 =G2 | F>D F<A G>E G<B | A6 :| !
+(3efg | a3c d2 f2 | e2A2 a2 gf | e2 A2 f>e dc | B6 (3efg | !
+a3c d2 f2 | e2 A2 a2 =G2 | F>D F<A G>E G<B | A6 || !
+(3efg | a3c d2 f2 | e2A2 a2 gf | e2 a2 f>e dc | B6 c2 | !
+A,CEA c3B |  A2 C2 E2 =G2 | F>D F<A G>E G<B | A6 ||
+% <A name="D1X023">
+S:https://www.folktunefinder.com/tunes/53890
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Song strathspey (don%27t take this version too seriously)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

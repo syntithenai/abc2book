@@ -1,0 +1,30 @@
+X: 1
+T: the Royal Wedding
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+|| "D"D3A F2A2 | D3A F2A2 | f2ed "A7"c2dB | "D"A6 FD \
+ | "A7"C3A G2A2 | "D"F2A2 D2F2 | "E7"F2ED C2DB, | "A"A,6 ||
+B,C \
+|| "D"D3A F2A2 | D3A F2A2 | f2ed "A7"c2dB | "D"A6 GF \
+ | "G"G2Be "A7"E2G2 | "D"F2Ad "A7"A2G2 | "D"F2ED "A7"C2FE | "D"D6 ||
+A2 \
+|| "D"d3f A2df | a2fd A2FD | A,2DF A2Fd | A6 B2 \
+ | "Em"e3g B2eg b2ge B2GE | B,2EG "A7"C2EA | "D"F6 ||
+A2 \
+|| "D"d3f A2df | a2fd A2FD | A,2DF A2Fd | A6 GF \
+ | "G"G2Be "A7"E2G2 | "D"F2Ad "A7"A2G2 | "D"F2ED "A7"C3FE | "D"D6 |]
+S:https://www.folktunefinder.com/tunes/13314
+S:http://trillian.mit.edu/~jc/music/abc/air/RoyalWeddingA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/RoyalWeddingA.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

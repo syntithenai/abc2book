@@ -1,0 +1,28 @@
+X: 1
+T: the Rogue's Wedding
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+|: d \
+| "Am"e2A ABA |  "G"G2A Bcd | "Am"e2A     ABA |  "G"G3 "Am"A2d \
+| "Am"e2A ABA |  "G"G2A Bcd | "Am"efg  "G"f2d | "Am"e3  A2 :|
+|: A \
+|  "G"B2B Bcd | "Am"c3  A2B |  "C"c2c  "G"dcd |  "C"e3  g2f \
+| "Am"e2A ABA |  "G"G2A Bcd | "Am"e=fe "G"d2B | "Am"A3- A2 :|
+S:https://www.folktunefinder.com/tunes/14977
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoguesWedding_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RoguesWedding_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/RoguesWedding_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoguesWedding_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RoguesWedding_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

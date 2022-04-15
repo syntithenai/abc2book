@@ -1,0 +1,26 @@
+X:144
+T: A DIARNDL GEHT UM HOLZ IN WALD
+N: E0073
+O: Europa, Mitteleuropa, Oesterreich, Steiermark
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 3/4
+L: 1/16
+K: D
+A,2 | F3FF6F2 | d2c2B4z2
+D2 | C3BA4E4 | F2d2A4z2
+F2 | A3fd6F2 | d2c2B4z2
+D2 | C3BA4G2C2 | D4z8
+A,4C4E4 | A4g6c2 | d4F6B2 | A8z4
+c4G6B2 | A8z4 | d4F6B2 | A12
+A,4C4E4 | A4g6c2 | d4F6B2 | A8z4
+c4G6B2 | A4G4E4 | D12 | D4z6
+S:https://www.folktunefinder.com/tunes/78585
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

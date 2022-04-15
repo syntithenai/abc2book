@@ -1,0 +1,58 @@
+X: 1
+T: Bavno Oro
+O: Macedonia
+P: 2x(AB)CABD2x(EF)
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+N: 1. Parts C-F can also be harmonized a 3rd higher.
+N: 2. The recording has the long note at the end of C only the first time.
+N: 3. Accompaniment should mostly be in 3: bass-chord-chord.
+M: 7/8
+L: 1/8
+K: Em
+"A" \
+|: "Em"[g3b3] [e4g4] | "B"[^d2f2][eg] [fa][gb] [fa][eg] \
+| "Am"[^d2f2][ce] "B"[B4^d4]- | [B7^d7]- | [B7^d7] :|
+"B" \
+|: "Am"[c2e2][^df] [ec][B^d] [A2c2] \
+| [B^d][c2e2] [df][eg] [f/a/][e/g/][^df] \
+| "Am"[ce][ce][^df] [ec][Bd] [A2c2] |
+| [B^d][c2e2] [df][eg] (3[eg][df][eg] \
+| [eg][fa][eg] [^d2f2] [c2e2] \
+| "B"([^d/f/][c/e/][B2d2])- [B4^d4]- | [B7^d7] :|
+"C" \
+|: "Em"{^d}ede fg fe | "B"^d2c Bc de \
+| "Am"^d2c {c}d2 (3cBA | "B"Bc2 "Em"(^de3) |
+| "Em"{^d}ede fg fe | "B"^d2c Bc de \
+| "Am"^d2c {c}d2 (3cBA |1 "B"{A}B7 :|2 "B"{A}B7- | B7 |]
+P: Repeat A, B
+K: A
+"D" \
+|: "A"dce d2 cA | "E7"B2A GA Bc \
+| "A"dce d2 cA | "E7"B3 {^d}e4 |
+|  "A"dce d2 cA | "E7"B2A GA Bc \
+| "A"dce d2 cA |1 "E7"B7 :|2 "B".Bz |]
+K: Em
+"E" \
+|: "(faster)"Bc ^de \
+| "B"f2e f(g/a/ g/f/)e | f3 Bc ^de \
+| f2e "Am"^d(e/f/ e/d/)c | "B"B3 :|
+"F" \
+|: "B"^d(e/f/ e/d/)c \
+| ^d2c d(e/f/ e/d/)c \
+| ^d2c d(e/f/ e/d/)c \
+| ^d2c "Am"B(c/d/ c/B/)A | "B"B3 :|
+S:https://www.folktunefinder.com/tunes/2780
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/BavnoOro_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BavnoOro_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/BavnoOro_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/BavnoOro_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

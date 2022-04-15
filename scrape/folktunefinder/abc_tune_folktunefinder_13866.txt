@@ -1,0 +1,28 @@
+X: 1
+T: Bicycle, The
+R: slide
+Z: Tom Smith  irtrad-l 2000-12-11
+M: 12/8
+L: 1/8
+Q: 160
+K: ADor
+|: "Em"B2 E E2 F G2 E E3 \
+| B2 E E2 F "D"A3 F2 A \
+| "Em"B2 E E2 F G2 E E2 A \
+| B2 A "Bm"d2 B "Am"A3 "D"F2 A :|
+|: "Em"B2 e e2 d "Bm"B2 A "D"F2 A \
+| "Em"Bee e2 f "Bm"d3 B2 A \
+| "Em"Bee e^de "Bm"B2 A "D"=d2 B \
+| A^GA "Bm"D2 F "Am"A3 "D"F2 A :|
+S:https://www.folktunefinder.com/tunes/13866
+S:http://trillian.mit.edu/~jc/music/abc/jig/Bicycle1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Bicycle1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Bicycle1.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X:63
+T:South Australia (Doerflinger)
+M:C
+L:1/8
+K:D
+{A,}D>D|
+{D}F2 {F}A2 A<A z>B|
+M:6/4
+L:1/8
+(B2 A>)F {F}A3z z2 {A}B>F|
+M:4/4
+L:1/8
+{F}A4 z2 B>F|
+{F}A4 z2 A2|
+FA3 AzB2|
+BA2-A/z/ Az{E}G2|
+(F2A>)A A2zF|
+M:6/4
+L:1/8
+{F}E2 D4 z2 {A}d2 {d}c2|
+M:4/4
+L:1/8
+B4 z2{B}d>B|
+{G}(A3F) Az {A}B>F|
+{F}A4 z2 B>F|
+M:5/4
+L:1/8
+{F}A4 z2 {A}d2 {d}c2|
+M:4/4
+L:1/8
+{A}B4 z2 {B}D>B|
+BA3 A2 z>{F}G|
+(F2A>)A A2z>F|
+{D}E2 D4||
+S:https://www.folktunefinder.com/tunes/68150
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 5/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

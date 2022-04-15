@@ -1,0 +1,26 @@
+X: 1
+T: He's o'er the hills that I lo'e dear
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #14
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14305
+S:http://trillian.mit.edu/~jc/music/abc/jig/HesOerTheHillsThatILoeDear.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HesOerTheHillsThatILoeDear.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HesOerTheHillsThatILoeDear.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

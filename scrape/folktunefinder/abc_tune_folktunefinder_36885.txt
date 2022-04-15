@@ -1,0 +1,25 @@
+X:4030
+T:the Old Favourite
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000086a.html
+%%ID:0000086a
+K:G
+B3 BAB|dBA G2B|ded d2B|ded B2A|\
+B3 BAB|dBA G2B|ded cBA|G3 G3::\
+g3 fgf|ege d2B|ded d2B|ded B2d|\
+g3 fgf|efe d2B|1\
+dge dBA|G3 G3:|2 dge dge|dge dBA|]
+S:https://www.folktunefinder.com/tunes/36885
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

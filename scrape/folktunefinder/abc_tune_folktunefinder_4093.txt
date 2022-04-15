@@ -1,0 +1,25 @@
+X: 1
+T: Trio
+T: from the Duke of York's March
+B: Hendrickson's "John Griffiths Dancing Master."
+R: march
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: 1/4=108
+K: D
+[|"D"D3 F "A7"ED EC | "D"D2 F2 D2 F2 | "D"F3 A "A7"GF GE | "D"F2 A2 F2 A2 |
+| "D"A3 d d3 A | "G"B3 c d2 cB | "D"A2 dA "A7"AG GF | "D"F4 "A7"E2 z2 |]
+[|"A7"E3 F GF GE | "D"F2 A2 d2 f2 | "A7"E3 F GF GE | "D"F2 D>D D2 z2 |
+| "G"B3 c d2 cB | "D"A3 d d3 f | "A7"e2 d2 e2 c2 | "D"d2 d>d d2 z2 |]
+S:https://www.folktunefinder.com/tunes/4093
+S:http://trillian.mit.edu/~jc/music/abc/England/Trio.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/DukeOfYorksMarch_Trio_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/DukeOfYorksMarch_Trio_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/march/DukeOfYorksMarch_Trio_D.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

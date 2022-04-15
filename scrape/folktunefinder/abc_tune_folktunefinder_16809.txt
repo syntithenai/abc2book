@@ -1,0 +1,29 @@
+X: 1
+T: Blair Athole
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: Ador
+E2 \
+| "Am"A2AB AGEG | ABcd edcB | A2AB AGEF | "G"GABc dBGB |
+| "Am"A2AB AGEG | ABcd e2a2 | "G"gedB GABd | "Am"c2A2 A2 ||
+e2 \
+| "Am"a2ab agec | ABcd ecBA | "G"g2ga gedB | GABc dBAG |
+| "Am"a2ab agec | ABcd e2a2 | "G"gedB GABd | "Am"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/16809
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlairAthole_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/BlairAthole_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/BlairAthole_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BlairAthole_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

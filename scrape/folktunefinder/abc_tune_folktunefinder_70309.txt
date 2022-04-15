@@ -1,0 +1,30 @@
+X:179
+T: Ein lust'ger Musikant (3-17), S. 45f
+N: K1154
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Scherz-, Spottlied, Trinklied]
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2A2 | G2F2E2D2 | G3F2GB2 | A4z2
+D2 | G3FE2A2 | G4F4 | G4z2
+B2 | B3BB2B2 | c4c2B2 | A3AA2A2 | d6
+B2 | B4BBB2 | c6B2 | A3AA2A2 | d6
+G2 | G3GG2F2 | E2c2B2A2 | B4A4 | G6
+B2 | B3BB2B2 | c4c2B2 | A3AA2A2 | d6
+B2 | B4BBB2 | c6B2 | A3AA2A2 | d6
+G2 | G3GG2F2 | E2c2B2A2 | B4A4 | G6
+S:https://www.folktunefinder.com/tunes/70309
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Scherz-, spottlied, trinklied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

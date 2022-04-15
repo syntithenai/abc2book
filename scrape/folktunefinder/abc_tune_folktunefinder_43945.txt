@@ -1,0 +1,27 @@
+X:400
+T:Snade Mill
+A:Lancaster
+C:Andy Hornby
+M:4/4
+O:England
+Z:Richard Robinson 
+%%Copyright:Andy Hornby 4.4.97
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000785.html
+%%ID:00000785
+K:A min
+E|\
+EAcA B3c| EAcA BA^GA| EAcA B3c| dcBA ^GABc|
+EAcA B3A| EAcA BA^GA| EABc dcBA|1 ^GABG A3 :|2 ^GABG A4 ||
+|:\
+Eeef feed| dccB cAAc| dcBA ^GABc| dcBA ^GABG|
+Eeef feed| dccB cAAc| cBBA ^GABc| dcB^G A3z:|
+S:https://www.folktunefinder.com/tunes/43945
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

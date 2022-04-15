@@ -1,0 +1,28 @@
+X:280
+T:the Bank of Ireland
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000add.html
+%%ID:00000add
+K:D mixolydian
+AB|\
+c2AB cBAG | EGDG EGAB | c2AB cBAG | Adde fded |\
+c2AB cBAG | EGDG EGAB |
+c2AB cBAG | Add^c d2 :|\
+|:de |\
+f2df e2^ce | dfed BAAd |
+f2df e2fg | afeg fdd2|\
+faaf egfe | dfed BAAG | Add^c defg | afge d2 :|
+S:https://www.folktunefinder.com/tunes/36135
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

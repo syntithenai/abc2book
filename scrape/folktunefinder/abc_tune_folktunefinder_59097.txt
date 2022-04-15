@@ -1,0 +1,33 @@
+X:210
+T:Careu
+R:Careu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baille del Oucidente asturianu.
+N:El ritmu ye tenrariu.
+N:Los bailladores dancien en rueda y van cambiando de parexa demientres van dando vueltes, dndose la cara "carendose".
+N:Nes braes de Silvamayor, Emberniegu, Busecu y Aristbanu cntase con payel.la.
+N:Nes de Tinu acompase de pandeiru redondu y payel.la.
+A:Asturies
+O:Silvamayor (Lluarca)
+Z:Danzas y Bailes I
+M:3/8
+L:1/8
+Q:3/8=76
+K:F
+|: F2 F|FGA|B2 B|c2{c} c|BAG|A z2|
+|B2 A|GFE|D2 E|F2 G|BAG|F3-|F3-|F3 :|
+S:https://www.folktunefinder.com/tunes/59097
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Careu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 130
+T: Sechsundrei\ssiger (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+%%indent 300
+"Intro"\
+| "Ab"[e4c4] [d2B2] | [c4A4] [A2A2] \
+| "Eb7"[B2G2] [FE][GD] | "Ab"[A2C2] z2 ||
+"A"\
+|:"Ab"[e4c4] [d2B2] | [c4A4] [A2E2] \
+| "Eb7"[e2c2] [d2B2] | "Ab"[c2A2] [A2E2] :| \
+"B"\
+[|]"Eb7"[G4B,4] [A2C2] | [B4D4] [G2B,2] | "Ab"[A2C2] "Db"[d2F2] |
+| "Ab"[c4E4] | "Ab"[A2C2] "Db"[d2F2] | "Ab"[c4E4] \
+"C"\
+|:"Db"[d2F2] [dF][dF] [BD][dF] | "Ab"[c4E4] [A2C2] \
+| "Eb7"[B2D2] [FE][GD] | "Ab"[A2C2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5177
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

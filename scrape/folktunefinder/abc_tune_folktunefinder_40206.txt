@@ -1,0 +1,28 @@
+X: 7
+T:Ungaresca
+R:---
+C:Pierre Phalse
+C:1583
+M:4/4
+L:1/4
+K:Eb
+V:1
+Q:C2/1=132
+"Bb"BB cB|BF FG/2A/2|BBcB|F2 F2 ::
+dddc/2d/2|edcB|dddc/2d/2|edce|dBcB/2=A/2|B2 B2:|
+T:Saltarello
+Q:3/8=132
+M:6/8
+BB/2cB/2|BF/2F G/4A/4|BB/2cB/2|F3/2 F3/2 ::
+dd/2dc/4d/4|ed/2 cB/2|dd/2 dc/4d/4|ed/2 ce/2|dB/2 cB/4=A/4|B3/2 B3/2:|
+%%footer $D   Galouvielle-MBe 2005 \n--- France
+S:https://www.folktunefinder.com/tunes/40206
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm ---
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

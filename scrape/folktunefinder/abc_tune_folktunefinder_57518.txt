@@ -1,0 +1,29 @@
+X: 181
+T: St. Joseph's Reel
+C: R-94
+C: French Canadian
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+K: D
+"D"defd "A7"cdec| "D"defd A2ef| "A7"g2gf edcB| Aa2a abag|
+"D"defd "A7"cdec| "D"defd A2ef| "G" g2gf edcB| "A7"Afec "D"d2dA :|
+%%text Repeat part B 4 times
+%%vskip .1cm
+|:\
+"D"Af2g fedc| "G"BG2B g4| "A7"e2ef edcB|1 ea2a abag :|2 Afec "D"d2dA |]
+%%text 8/25/99
+% ---------- page 94 ----------
+S:https://www.folktunefinder.com/tunes/57518
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

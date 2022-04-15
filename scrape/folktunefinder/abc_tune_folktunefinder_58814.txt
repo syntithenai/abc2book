@@ -1,0 +1,40 @@
+X:3
+T:La Belton
+B:Valses et Contredanses, 1815, p.2-3
+B:http://memory.loc.gov/musdi/043/0002.tif and 0003.tif
+Z:Tom Novelli
+M:2/4
+L:1/16
+K:Gm
+V:1
+f2|b2b2 bc'd'b| f2f2 f2ga|\
+  b2b2 bc'd'b| f2f2 f2ga|\
+  b2ba g2gf| e2ed c2cB| A2AB cdeA| B2B2B2|]\
+F2|c2cd e2A2|B2d2f2b2|\
+  a2fg f2f2|fgfe d2F2|c2cd e2A2|\
+  B2(b2a2)(_a2|g2)e2c2f2|B4 z2|
+|:d2|g4      b2e'2|  d4   ^f2a2|\
+  c'2c'2 abc'a|b2d'b g2d2|\
+g4 b2d'2|e4 c'2a2|\
+  g2g2 ^fgaf|g4 z2:|
+V:2
+z2|D2[B,2D2].D2 z2| F2[A,2F2].F2 z2|
+ D2[B,2D2].D2 z2| [A,2F2][A,2F2].[A,2F2] ef|
+ g2gf e2ed| c2cB A2AG| F2 F4 E2| D2D2D2|]
+F2|A2AB c2A2|B2F2D2B,2|
+  F2de d2d2|dedc B2F2|A2AB c2A2|
+  B2B,2C2D2|E2G2F2A2|B4 z2|
+|:D2|G,B,DB, G,B,DG| D^FAF DFAd|
+  D^FAG FGAF|G2D2 B,2D2|
+G,B,DB, G,B,DB,|CEFE C2C2|
+  B,D^FG A,CFA|G4 z2:|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58814
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

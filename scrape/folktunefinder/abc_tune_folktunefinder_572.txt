@@ -1,0 +1,27 @@
+X:114
+T:Marcho de Nosto Damo de la Gardo
+O:France
+A:Provence
+C:Trad.
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-22
+S:Carnet du tambourinaire Ginas (1924)
+M:C
+L:1/8
+K:Bb
+V:Galoubet
+F2 | B2B>c B>AG>A | B4 z2d>e | f2g>f e2f>e | d>c d>e c2F2 | B2B>c B>AG>F | B6 d>e | f2g>f e2f>e | d6 d>e | 
+f2f>f f2g>f | e2e>e e2f>e | d2d>dd2e>d | c>B c>d c2d>e | f2f>f f2g>f | e2e>e e2f>e | d>c d>e d2c2 | B6 |]
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/572
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

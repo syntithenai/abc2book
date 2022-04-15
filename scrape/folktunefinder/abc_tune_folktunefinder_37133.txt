@@ -1,0 +1,26 @@
+X:5270
+T:the Salford Lasses
+A:North-West
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004d5.html
+%%ID:000004d5
+K:D
+e|\
+fed fed| Bcd AFD| Bcd efg| AGF E2e|\
+fed fed| Bcd AFD| Bcd efg| ABc d2::\
+a|\
+aba f2d| Bcd AFD| Bcd efg| f3 e2a|\
+{b}aba f2d| Bcd AFD| FGA aba| fdd d2:|
+S:https://www.folktunefinder.com/tunes/37133
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

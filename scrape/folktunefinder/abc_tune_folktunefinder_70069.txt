@@ -1,0 +1,27 @@
+X:509
+T: WIE HERRLICH ISTS IM WALD
+N: F0974
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Wald
+M: 6/8
+L: 1/16
+K: A
+A2 | A4E2E4A2 | c8z2
+c2 | B4B2B4e2 | c8z2
+A2 | A4E2E4A2 | c8z2
+c2 | B4B2B4e2 | c8z2
+c2 | c3cc2c2d2e2 | f6e2z2
+e2 | c3cc2c2d2e2 | f6e2z2
+c2 | B3BB2B4e2 | c8z2
+c2 | B4B2B4e2 | A8z2
+S:https://www.folktunefinder.com/tunes/70069
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur - lied, wald
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

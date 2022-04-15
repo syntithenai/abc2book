@@ -1,0 +1,34 @@
+X: 1
+T: Pipes Awa' March
+C: Barbara McOwen (12/91)
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 5/4
+L: 1/16
+K: D
+A2 "A"\
+| "D"d2A2 "A7"e2A2 g2fe "D"f2A2- A2c2 | "D"d2A2 "A7"e2A2 g2fe "D"f2a2- a2f2 \
+| "Em"g3f "A7"e2de "D"f2ed "A7"e2A2- A2c2 | "D"d2e2 "G"g2fe "A7"A2c2 "D"d6 :|
+|: A2 "B"\
+| "D"agfe "D7"d2ef "G"gfed "A7"c2A2- A2A2 | "D"agfe "D7"d2ef "G"g2f2 "A7"e6 A2 \
+| "D"agfe "D7"d2ef "G"gfed "A7"c2A2- "(A)"A2A2 | "G"G2B2 "Em"gfed "A7"A2c2 "D"d6 :|
+|: A2 "C"\
+| "D"d2A2 "G"B2G2 "A7"A2Bc "D"d2A2- A2c2 | "D"d2A2 "G"B2G2 "Em"ABcd "A7"e6 f2 \
+| "Em"g3f "A"e2de "D"f2ed "A7"e2A2- A2c2 | "D"defg "A7"a2A2 c2A2 "D"d6 :|
+A2 "D"\
+| "D"agfe d2ag fed2 "A7"e2A2- A2A2 | "D"agfe "Bm"d2ag "G"fed2 "A7"e6 A2 \
+| "D"agfe d2ag fed2 "A7"cBA2- A2A2 | "G"G2B2 "Em"gfed "A7"A2c2 "D"d6 ||
+A2 \
+| "D"agfe d2ag fed2 "A7"e2A2- A2A2 | "D"agfe "Bm"d2a2 "G"agf2 "A7"e6 f2 \
+| "A7"gfed c2ed cBA2 "G"B2G2- G2B2 | "A7"ABcd e2fg a2A2 "D"d6 |]
+S:https://www.folktunefinder.com/tunes/15645
+S:http://trillian.mit.edu/~jc/music/abc/march/PipesAwaMarch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/PipesAwaMarch_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1195
+T:Coxheath March
+A:North-West
+M:C|
+N:P18 2/2
+O:England
+R:March
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000584.html
+%%ID:00000584
+K:D
+A2|d>efd dcBA|BcdB BAGF|\
+G>ABc d>ed>c|A>BAGF2EA|\
+d>efd d>cBA|^GABc defg|a>fe>c B>ABc|A2AA A2::\
+A/2B/2c/2d/2|e>fec A2de|f>gfd B2gf|\
+edcB dcBA|B2BB B2dB|\
+A>BAF A>BAF|A>BAF A2fg|\
+afdf e>def|d2dd d2:|
+S:https://www.folktunefinder.com/tunes/36318
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

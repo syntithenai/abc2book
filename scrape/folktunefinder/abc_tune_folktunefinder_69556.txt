@@ -1,0 +1,29 @@
+X:697
+T: "Gute Nacht"
+N: Z1378
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Erzaehlung, Romanze, Abschieds - Lied
+M: 2/4
+L: 1/16
+K: D
+A2 | d3cd2e2 | =f2d2z2
+d2 | =c2dc_B2cB | A4z2
+A2 | d2c2d2e2 | =f2d2
+d4 | =c2dc_B2cB | A4
+A4 | G2AB=c2d2 | =c4
+d4 | =c2dc_B2cB | A4
+A4 | G2A_B=c2d2 | =c4
+d4 | =f2ede2c2 | d4z2
+S:https://www.folktunefinder.com/tunes/69556
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, romanze, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

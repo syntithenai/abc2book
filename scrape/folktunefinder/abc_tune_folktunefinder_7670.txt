@@ -1,0 +1,25 @@
+X: 67
+T: Possum up a Gum Stump [3]
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D2DE AGFA | "G"GFGA BcdB |  "D"A2AB AGFD | "A"E3F E2FE |
+| "D"D2DE AGFA | "G"GFGA BcdB | "A7"ABcd egfe   | "D"d2dc  d2 :|
+|: (3ABc \
+| "D"d2fd edf2   | "G"d2gd  fdg2 |  "D"d2fd edf2 | "A7"c4   A3c |
+| "D"d2A2 F2D2 | "G"GFGA BcdB | "A7"ABcd egfe |  "D"d2dc d2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7670
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

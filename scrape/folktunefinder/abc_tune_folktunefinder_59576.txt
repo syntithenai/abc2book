@@ -1,0 +1,47 @@
+X:689
+T:Tonada (CT 296) (Arrg.)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:Se canta generalmente con acompaamiento de gaita.
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 296
+M:3/4
+L:1/8
+Q:1/8=138
+K:G
+|:"G"Gc cB d>c|"G"(d3/2(3e/4d/4c/4) B2 de|
+"G"cd (B3/2(3c/4B/4A/4 GA/4B/4A/4G/4|"D"F4)z c|
+"D"(d3/2(3e/4d/4c/4) B2 z2|
+|"G"Gc cB d>c|"G"(d3/2(3e/4d/4c/4) B2 de
+|"G"cd (B3/2(3c/4B/4A/4 GA/4B/4A/4G/4|"D"F4)z c|
+"D"(d3/2(3e/4d/4c/4) B2{AB}A>G|"G"G4 z2 :||
+W:Ai! galn que me cortexes,
+W:t me robes la mio vida
+W:y mio padre nun te quier
+W:porque non ties casera.
+W:
+W:Tuya soy! Tuya soy
+W:galn del alma,
+W:tuya soy hasta la muerte;
+W:anque mio padre non quiera,
+W:hemos de casar pa siempre.
+W:Tuya soy!
+W:
+S:https://www.folktunefinder.com/tunes/59576
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

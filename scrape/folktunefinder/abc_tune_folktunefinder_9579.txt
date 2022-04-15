@@ -1,0 +1,25 @@
+X: 3
+P: The Wild Hills O' Wannie's
+R: jig, waltz
+B: Kennedy v.1 p.37 #76
+Z: John Chambers <jc:trillian.mit.edu>
+N: There are no C's, so A major chords may be used instead of A minor.
+M: 6/8
+L: 1/8
+K: ADorian
+gf \
+| "Am"e>AA ABA | ede gfe | "G"d>BG GDG | BGB dgf | "Am"e>AA ABA |
+| ede agf | "G"g>fe dBd | "Am"eAA A :: fg | "Am"a>^ga ef=g | a^ga e2f |
+| "G"g>fg def | gfg dfg | "Am"a>^ga ef=g | a^ga e2f | "G"g>fe dBd | "Am"eAA A :|
+S:https://www.folktunefinder.com/tunes/9579
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RoaringJelly1.abc
+% Rhythm Jig, waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

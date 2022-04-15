@@ -1,0 +1,26 @@
+X: 1
+T: New Caledonia March
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+FG \
+| "D"A>B AF | A2 de | f>e fa | d2 dc | "G"B>c dB \
+|1 "D"AF ED | "A7"E2 EF | G2 FG :|2 "D"AF "A7"EF | "D"D2 d2 | d2 :|
+|: de \
+| "D"f>e fg | a4 | "G"B>A Bc | "D"d2 dc | "G"B>c dB \
+|1 "D"AF ED | "A7"E2 EF | G2 FG :|2 "D"AF "A7"EF | "D"D2 d2 | d2 :|
+S:https://www.folktunefinder.com/tunes/15610
+S:http://trillian.mit.edu/~jc/music/abc/march/NewCaledoniaMarch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/NewCaledoniaMarch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/NewCaledoniaMarch_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

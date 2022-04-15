@@ -1,0 +1,28 @@
+X:430
+T:Jenny Nettles
+B:Aird's Airs and Melodies vol 2
+M:C
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000011e.html
+%%ID:0000011e
+K:E min
+B|\
+c2B2 A2a2| efge dBGB| c2B2 A2a2| gegd e2A::\
+B|\
+cdeA cdeA| d/c/B/A/ Gd BGdB|
+cdeA cdea| gegd e2A::\
+B|\
+cdef gage| gage d/c/B/A/ GB| cdef gage| aba^g a2A:|
+S:https://www.folktunefinder.com/tunes/30395
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

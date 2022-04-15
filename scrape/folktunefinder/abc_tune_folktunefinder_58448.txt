@@ -1,0 +1,58 @@
+X: 0
+T: Currie Mountain
+T: 8 x 32R3C (Mary Pugh, New Brunswick Coll.)
+R: reel
+C: arr. 1998 by John Chambers
+C: mods by T. Traub 6-26-03
+M: C|
+L: 1/8
+P: Speed the Plough
+M: C|
+L: 1/8
+K: A
+|: E \
+| "A"~A2Ac efec | eaec efec | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABc |
+| "A"~A2Ac efec | eaec efec | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :|
+|: g \
+| "A"a2(3bag aAcd | aAgA fAeA | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABd |
+| "A"(3cBA eA "D"fA"A"eA | "D"fgaf "A"ecAc | "D"decd BcAB | "E7"FAGB "A"A3 :|
+P: The Barrowburn Reel (by Addie Harper)
+L: 1/8
+K: D
+|: "D"~D2DE FAAd | "G"~B2BA BddB | "D"~A2AB "Bm"d2de | "Em"fedB "A7"AFEF |
+|  "D"~D2DE FAAd | "G"~B2BA Bdde | "D"f2af "A7"e2fe | "G"dB"A7"AB "D"d2 :|
+|: cd \
+| "A7"~e2ef ecBA | "D"~f2fg fdBA | "Em"~g2ga gecA | "F#m"a2ag f2ef |
+| "G"g2ga gecA | "D"a2ag f2ef | "G"g2ag "D"f2ed | "G"dB"A7"AB "D"d2 :|
+P: Father Kelley's Reel
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+|: "G"B2GB "C"AGEG \
+| "D7"DGGF "G"GABd \
+| "Am"c2AB cBAG \
+| "D7"FGAG FDDA |
+|  "G"B2GB "C"AGEG \
+| "D7"DGGF "G"GABd \
+| "C"cdef "(G)"gedc \
+| "D7"BGAF  "G"G4 :|
+Bc \
+|: "G"d2Bd gdBd \
+| d2Bd gdBd \
+| "Am"e2ce agfe \
+| "D7"defg agfe |
+|  "G"d2Bd gdBd \
+| d2Bd gdBd \
+| "Am"cBAc "G"BAGB \
+| "D7"AGFA "G"G4 :|
+S:https://www.folktunefinder.com/tunes/58448
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/CurrieMountainSet.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

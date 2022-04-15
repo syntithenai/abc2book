@@ -1,0 +1,24 @@
+X: 1
+T: Father Francis Cameron
+C: John Campbell
+N: BSFC 3-17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E2 \
+| "A"~A2cA "D"FDDF | "A"EA,CE "D"~F2DF | "A"EAcA "(F#m)"e2cA | "E7"BEGB d2cB |
+| "A"~A2cA "D"FDDF | "A"EA,CE "D"~F2DF | "A"EAce "D"dcdf | "E7"ecdB "A"A2 :|
+|: cd \
+| "A"e2cA eAce | "D"f2dB "(Bm)"fBdf | "E7"eagb "A"aecA | "E7"BEGB d2cd
+| "A"e2cA eAce | "D"f2dB "(Bm)"fBdf | "E7"eagb "A"aecA | "E7"BEGB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/17136
+S:http://trillian.mit.edu/~jc/music/abc/reel/FatherFrancisCameronR_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FatherFrancisCameronR_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:4
+T:53. [Pavan:] Last will and testament
+T: Tenor
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+L:1/4
+M:C|
+N:Original clef, C on fourth line
+K:D min -8va
+|: d2 d3 B c A B2 G2 A A2 F G E A2 D4 A2 A2 c3 B 
+A4 z4 z2 B2 c > B A/ B/ c z2 d2 e4 d8  :|
+|: A6 A4
+^G2 A3 A F G A F c2 G2 A2 A3 G F D A2 e2 e2 d2 e2 e3 d ^c =B
+A2 G2 A4 e8 :|
+|: A4 z2 f2 d3 c B A G F E3 F G2 c3 
+B A G F2 z2 z8 z2 c2 c2 c2 B > c d2 ^c d e2 d8 :|
+S:https://www.folktunefinder.com/tunes/53134
+S:http://www.laymusic.org/music/holborne/will/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

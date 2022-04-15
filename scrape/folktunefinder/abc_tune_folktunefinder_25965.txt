@@ -1,0 +1,29 @@
+X:5513
+T:Remember Me
+R:Hornpipe
+C:R.Whinham
+O:England
+A:Northumberland
+M:4/4
+%%ID:00000cb8
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cb8.abc
+K:G
+Bc|\
+dgdB GdBG | FcAF GdBG | FAFD EFGA | Bc^cd edB=c |\
+dgdB GdBG | FcAF GdBG | FAcA FDEF | G2 G2 G2 ::\
+GA |\
+Bd^cd =cdAd | BdGd FdGd | Bd^cd =cdAd | Gd^cd edB=c |\
+dgdB GdBG | FcAF GdBG | FAcA FDEF | G2g2 g2 :|
+S:https://www.folktunefinder.com/tunes/25965
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cb8.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

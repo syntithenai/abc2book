@@ -1,0 +1,28 @@
+X: 1
+T: Davy's Brae
+C: Jim Johnstone
+B: Newcastle Collection
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"FAA dAA | "G"Bcd "D"AFD | "Em"E2E "E7"e2d | "A"cAA "A7"A2G \
+| "D"FAA dAA | "G"Bcd "D"AFD | "Em"EFG "A7"ABc | "D"d3-d2 :|
+|: c \
+| "Bm"Bcd F2F | "Bm"Bcd F2F | "Bm"Bcd "E7"e2d | "A"cAA "A7"ABc \
+| "D"d2d "A7"ABc | "G"dcB "D"AGF | "Em"EFG "A7"ABc | "D"d3-d2 :|
+S:https://www.folktunefinder.com/tunes/14078
+S:http://trillian.mit.edu/~jc/music/abc/jig/DavysBrae_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Johnstone/DavysBrae_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DavysBrae_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DavysBrae_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

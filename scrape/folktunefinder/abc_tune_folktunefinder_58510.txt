@@ -1,0 +1,21 @@
+X:1
+T: Strathcare
+T: 8x32S 3C
+C: Muriel Johnstone
+M: 4/4
+Z: arranged by Terry Traub 2002-04-28
+R: Strathspey
+L: 1/8
+K: D
+f2| "D"d2 c<e "D/F#"d<A F>D| "Em"G<E E>F "A7" G3 G| "D"A<F F>G "D/F#" A>d f<a| "G"B>c d>e "A7"f2 a>f|"D"d2 c<e "D/F#"d<A F>D| 
+"Em"G<E E>F "A7" G>A B>c| "D7"d>e (3fga "G"b>a (3gfe|"Em"de|"D"f<a a2 "A7/E"g<a a2|"D/F#"A<a f>d "G"g>d B<G|
+ "D"A<d d>A "G"B<d d>c|"Em"d>B G<E "A7"A2 f>e|"D"f<a a2 "A7/E"g<a a2|"D/F#"A<a f>d "G"g2 "A7"f>e|"D7"d>e (3fga "G"b>a (3gfe|"Em"dF "D"D2 |]
+S:https://www.folktunefinder.com/tunes/58510
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/StrathcareS.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:6110
+T:Snderhoning
+A:Fan
+C:e. Grner Nielsen
+L:1/8
+M:2/4
+O:Denmark
+Q:1/4=92
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b35.html
+%%ID:00000b35
+K:A
+A|\
+AB ce| a2 AB| cc ec| B2 ze|\
+cA ce| a2 ge| ff e^d| e2 a2|
+ge fg| a2 bg| ag ff| e2 ze|\
+ff Bc| d2 eA| cc BB| A2 z|]
+S:https://www.folktunefinder.com/tunes/37301
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

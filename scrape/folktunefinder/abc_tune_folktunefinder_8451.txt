@@ -1,0 +1,26 @@
+X: 38
+P: Bremsen, schottis av Stellan Meijer
+R: shottish
+O: Kalle Alml\"of & Jonny Soling
+B:
+D:  Giga GCD-14 (1991)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 4/4
+L: 1/8
+K: A
+|: fed | "A"cA ce a2 ga | ba ag "D"d4 |1,3 "E7"fe ed Bc de | "A"fe ec A \
+                                     :|2,4 "E7"fe ed Be (3efg | "A" a2 {b}a2 {g}a :|
+K:D
+|: "A7"ABc | "D"d2 f2 fD EF | "G"G2 B2 "A7"A4 | cd cA B2 c2 |1,3 "D"df ed "A7"c :|2,4 "D"d4- d :|
+S:https://www.folktunefinder.com/tunes/8451
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Just Old
+R: polka
+Z: John Chambers <jc@trillian.mit.edu>
+S: Nils Lundin, handwritten MS
+M: 2/4
+L: 1/8
+K: G
+|: "G"d>^c ed | GB dg | "C"e>c cc | "Am"cA ca \
+| "D7"f>d dd | df ac' | "G"b>g gg | g4 |
+| "G"d>^c ed | GB dg | "C"e>c cc | "Am"ca ag \
+| "D7"f>d dd | c'>c' ba | "G"g4- | g4 :|
+|: "G"B2 d2 | e2 d2 | g>f "A7"ga | "Am"g2 "D7"f2 \
+| f>^e fg | f2 e>e | "Am"eg "F#dim"fe | "G"e2 "D7"d2 |
+| "G"B2 d2 | e2 d2 | g>f "A7"ga | "Am"g2 "D7"f2 \
+| f>^e fg | f2 e2 | d>^d ef | "G"gg ag ||
+|| "C"e2 g2 | "Cm"a2 g2 | "G"B>d dd | ed ed \
+| "A7"^c>e ee | ag fe | "D7"d>e fe | dc BA |
+| "G"B2 d2 | e2 d2 | g>f "A7"ga | "Am"g2 "D7"f2 \
+| "Am"f>^e "D7"fg | f2 e2 | d>^d ef | "G"gg Hg2 :|
+S:https://www.folktunefinder.com/tunes/16120
+S:http://trillian.mit.edu/~jc/music/abc/polka/JustOldPolka_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

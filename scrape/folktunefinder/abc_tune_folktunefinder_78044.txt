@@ -1,0 +1,28 @@
+X:23
+T: SCHLESWIG-HOLSTEIN MEERUMSCHLUNGEN
+N: B0026
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/16
+K: C
+G,3B, | C4C4E2D2C2D2 | E6D2C4
+D2E2 | F4E2D2C4D4 | E8
+D6C2 | C2B,2B,4E6D2 | D2C2C4
+E6E2 | D4C4B,4A,4 | G,8
+C4G,4 | D4G,4E4F2E2 | D8
+E4E4 | F12E2D2 | C8D8 | E8
+C4G,4 | D4G,4E4F2E2 | D8
+E4E4 | A12F2D2 | G8B,8 | C8z4
+S:https://www.folktunefinder.com/tunes/78044
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

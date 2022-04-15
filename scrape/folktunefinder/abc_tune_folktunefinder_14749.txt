@@ -1,0 +1,26 @@
+X:1
+T:Ned Coleman's jig
+Z:Lesl Harker <lmh:RCONS.COM> IRTRAD-L 2000-11-03
+S:Mike Rafferty
+R:jig
+M:6/8
+K:G
+D \
+|: G~G2 EDE | GAB d3 | ege dge | dBA GED | G~G2 EDE | GAB d3 | ege dge | dBA G2D :|
+|: g~g2 edB | dBA GED | DGG EDE | GAB d3 | g~g2 edB | dBA GED | G~G2 EGB | dBA G3 :|
+S:https://www.folktunefinder.com/tunes/14749
+S:http://trillian.mit.edu/~jc/music/abc/jig/NedColemansJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/NedColemansJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/NedColemansJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NedColemansJig1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/NedColemansJig1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

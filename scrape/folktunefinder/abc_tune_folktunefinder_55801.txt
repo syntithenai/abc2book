@@ -1,0 +1,21 @@
+X:198
+T:Return to Milltown
+N:based on suggestions at the SPUDS jam/rehearsal of 2005-Feb-27
+Z:SPUDS
+R:reel
+M:C|
+K:Dm
+%  The w: lines are accents (faked as "lyrics") for concertina.net;
+%  comment or remove them for ABC programs that do accents (L) properly.
+%  (Also, if your ABC program can't handle the hanging slurs ("-"marks) at the very beginning and end, removing them should fix it.)
+"Dm"-D3DD2ED|"C"C2EC FDE(LC|"Dm"D3)D D2ED|"C"CDEG cGE(LC|
+S:https://www.folktunefinder.com/tunes/55801
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

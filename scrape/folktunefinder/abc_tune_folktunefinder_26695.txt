@@ -1,0 +1,32 @@
+X:6243
+T:St. Michael's Jig
+O:england
+M:6/8
+L:1/8
+C:Grey Larsen
+S:Grey Larsen
+N:"The 6/8 tune has come to be known among pipers in Brittany as
+N:something like 'St. Michael's Jig'."
+D:"Thunderhead" Flying Fish 266 (1982) (Malcolm Dalglish, Grey Larsen,
+D:Kevin Burke, Michael O'Domhnaill, Triona Ni Dhomhnaill). 6/8 version is
+D:on Tannahill Weavers' "Cullen Bay" Green Linnet 1108 (1990).
+K:Emin
+dGG AGE|DEG ~F3|EFF EFF|GFE ~F3|dGG AGE|
+DEG E/2F/2GA|1 BdB ceg|f/2g/2af fe:|2Bde fgf|edB AGc||
+K:Emin M:7/8 dGG AGGE|DEG E~F3|EFF E~F3|GFE E~F3|dGG AGGE|
+DEG EFFA|1 BdB ceeg|f/2g/2af 2ge:|2 M:6/8 Bde fge|M:7/8edB AGGc||N:Afte
+S:https://www.folktunefinder.com/tunes/26695
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

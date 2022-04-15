@@ -1,0 +1,33 @@
+X: 1
+T: the Ladies Frae Hell
+C: J. MacMillan Tait
+S: TIF file from George Meikle
+L: 1/8
+M: 2/4
+R: Reel
+Q: 1/4=106
+K: Amix=g
+   e/d/ \
+|  cA   AA/a/    | cA       ef/e/ | cB    ce       | f2 fg/a/ \
+|  bf   ab       | a/g/f/e/ fg/a/ | cB/c/ c/A/c/e/ | f2 f     :|
+|: f/e/ \
+|  cf   f/g/f/e/ | cf       fa/f/ | ec    c/B/c/e/ | f2 fg/a/ \
+|  bf   ab       | a/g/f/e/ fg/a/ | cB/c/ c/A/c/e/ | f2 f     :|
+|: e/d/ \
+|  cA   AA/a/    | cA       ef/e/ | cB    ce       | f2 fg/a/ \
+|  bf   ab       | a/g/f/e/ fg/a/ | cB/c/ c/A/c/e/ | f2 f     :|
+|: e/c/ \
+|  Ac   e/f/e/d/ | cA       Aa/e/ | Ac    a/g/f/e/ | f2 fg/a/ \
+|  bf   ab       | a/g/f/e/ fg/a/ | cB/c/ c/A/c/e/ | f2 f     :|
+S:https://www.folktunefinder.com/tunes/15518
+S:http://trillian.mit.edu/~jc/music/abc/march/LadiesFraeHell_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LadiesFraeHell_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

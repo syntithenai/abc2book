@@ -1,0 +1,27 @@
+X: 17
+P: Tristrevs reinlender
+O: etter Hallvard \Orsal
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+"A"
+|::: "Dm"a>^g ae f<d f2 e<^c |1,3 "Dm"d>e f<d "A7"^c2 A2 :|2,4 "Dm"d2 e<f "fine"d4 :|
+"B"
+|::: "Dm"A2 BA F2 AF | D2 FE "A7"^C2 "Dm"D2 | "A7"a2 ge f2 e^c |1,3 "Dm"de fd "A7"^c2 A2 :|2,4 "Dm"d2 d2 d4 :|
+"A"
+|: "Dm"a^g ab "A7"a2 ge | "Dm"f2 ag "A7"f2 e2 | ge fd f2 e^c |1 "Dm"de fd "A7"^c2 A2 :|2 "Dm"d2 ef d4 |]
+"C"
+|::: "Dm"DE D^C "A7"A,2 A,C | "Dm"DE FG A2-A2 |1,3 "A7"A^c de "Dm"fe df | "A7"ag e^c A2-A2 :|2,4 "A7"A^c de fe dc | "Dm"d2 d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8430
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

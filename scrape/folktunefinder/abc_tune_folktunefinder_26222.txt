@@ -1,0 +1,23 @@
+X:5770
+T:Saltarello
+O:england
+C:Baraban
+M:2/4
+L:1/16
+K:G
+G3F|:E2B,2 E2GF|E2A2 B2c2|B2A2 F2A2|G3F E2GF|\
+E2B,2 E2GF|E2A2 B2c2|B2A2 FAGF|1 E3G/G/ G3F:|2 E3B/B/ B2d2||
+|:c3A/B/ c2A2|B3G/A/ B2G2|F2B2 FBFB|G3F E2Bd|\
+c3A/B/ c2A2|B3G/A/ B2G2|F2B2 FBFB|1 E3B/B/ B2d2:|2 E4 DGBd||
+|:edBG edBG|dcAF DFAc|dcAF fecA|edBG DGBd|
+edBG edBG|dcAF DFAc|dcAF fecA|1 G2(3DDD DGBd:|2 G8||
+S:https://www.folktunefinder.com/tunes/26222
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

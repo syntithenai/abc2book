@@ -1,0 +1,33 @@
+X:5
+T:Un court caprice
+R:
+C:Anamnse
+H:1998
+N:
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:5/4
+L:1/8
+Q:1/4=113
+K:F
+%%staves [1 | 2 | 3]
+%%measurenb 0
+%%measurebox 1
+%%staffsep 49pt
+%%sysstaffsep 30pt
+V:1
+G | B2 A/ G/z | G>A z B>A z G3 |
+G2 B>A G/z G>A z B>A z G3 | F B2 A/ G/ z G>A z d2 c/ z B3 | 
+G B2 A/ G/z G>A z B A/ z G3 | F B2 A/ G/ z G2 ^F/ z G4 |
+S:https://www.folktunefinder.com/tunes/30276
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 5/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 119
+T: The Broken Sixpence -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 394
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:G
+"_fz"v[B2g2]vdc "^SEGUE"BcdB | .A2ag fdef | \
+"_fz"[B2g2]dc BcdB | cAdc BGG2 |
+"_fz"[B2g2]dc BcdB | ceag fdef | gbfa egdB | c"4"eAd BG.G2 :|
+|:vBcdB cd"4"ec | Bdgg ba.a2 | bagf gdBG | c"4"edc BG.G2 |
+.B(d^cd) .=c(e^de) | .B(d^cd) cA.A2 | vbgaf gd"4"eB | \
+c"4"edc BG.G2 :|
+S:https://www.folktunefinder.com/tunes/75291
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/AB.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

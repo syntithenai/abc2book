@@ -1,0 +1,30 @@
+X:168
+T: A bissel sikkarisch, a bissl sakrisch,
+N: D0297
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+N: Sonderzeichen in der Notation (Glissando)
+R: Jodel - Lied
+M: none
+L: 1/8
+K: G
+D2B2G2 | F2A2d3DcF | GGz
+GFE | DDz2CE | d3
+DBG | FAddz2fF | GGGGz2
+FE | DcE2FD | G3
+DBG | FAddz2fF | GGGGz2
+FE | DcE2FD | G3
+D6 | E6 | F6 | GdBGdG | AecAe2
+FdcFdG | GgdBG2
+GdBGdG | AecAe2
+f3edF | G6
+S:https://www.folktunefinder.com/tunes/72625
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Jodel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

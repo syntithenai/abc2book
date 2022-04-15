@@ -1,0 +1,32 @@
+X: 1
+T: Don Side
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+B: Skye
+M: C
+L: 1/16
+K: G
+   A2 \
+| "G"GGG2 B3G "D"A3G EA3 | "G"GGG2 B2G A3G B3G \
+| "C"c3A B3G "Am"A3G E3e | "D"d3c B2A "G"B2G2 G2 :|
+|: f2 \
+| "G"g3d  g3B "C"A3G E3e | "G"g3d  g3B g3d g3a \
+| "G"bagf g3B "C"A3G E3e | "D"d3c B2A "G"B2G2 G2 :|
+|: a2 \
+| "G"ggg2 b3g "D"a3g e3a | "G"ggg2 b3g a3g b3g \
+| "C"ag3 b3g "Am"ag3 e3g | "D"d3c B2A "G"B2G2 G2 :|
+|: (3DEF \
+| "G"G3D B,3D "Am"EA,3 A,2EF | "G"G3D B,3D G,3D B,3D \
+| "Am"C3E B,3D "D"EA,3 A,3F | "G"GFED "D"B,3A, "G"B,2G,2 G,2 :|
+S:https://www.folktunefinder.com/tunes/19300
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DonSide_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DonSide_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

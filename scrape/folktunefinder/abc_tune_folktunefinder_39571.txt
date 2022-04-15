@@ -1,0 +1,40 @@
+X:16
+T:L'amarante
+T:"Les Fleurs"
+C:Delavigne
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/8
+K:C
+V:1 name=V
+efg2g2 fe | de f2f2ed | efg2g2 c2 | B3AG4 | efg2g2fe |
+de f2f2ed | efg2G2!!B2 | cege c4 :: efg2 g2ab | c'2b2 a2g2 | f2e2d2c2 |
+dcBA G4 | Bcd2 d2e^f | g2g2g2d2 | edcB A3G | G8 !breath!| efg2 g2fe | 
+def2 f2ed | efg2g2c2 | B3A G4!breath! | efg2 g2fe | de f2f2ed |
+efg2 G2!!B2 | cege c4 | g2ef g2g2 | gc'gc' gc'gc' | f2de f2f2 | fd'fd' fd'fd' | 
+e2cd e2e2 | eceg c'gec | dGBd gfed |  eceg c'gec | dGBd gfed | eceg c'ceg |
+^fdef gabc' | d'dd'd c'dc'd | bdbd aga^f | gdgd ecec | dBdB cBcA |
+BGAB cde^f !breath!| gab2b2ag | ^fga2a2gf | gab2 b2ag | !!^f3e d4 | dcd2d2d2 |
+ede2 e2e2 | ^fef2 f2f2 | g2dc BAG2 !breath!| efg2 g2fe | def2f2ed |
+efg2 g2c2 | B3AG4 !breath!| efg2 g2fe | def2f2 ed | efg2G2!!B2 | c8 :|
+V:2 name=G
+(cGE)G (ceg)c | (BGD)G (Bdg)B | (cde)d (cde)f | gGBd gdBG | (cGE)G (ceg)c |
+(BGD)G (Bdg)B | (cGE)G (Bdf)d | eceg c4 :: (cde)c (fed)f | eceg (fd)(ec) | (dB)(cA) (BG)(A^F) | 
+(GDG)B dgdB | (GAB)G (cBA)c | BGBd BGBd | (cB)(AG) d2D2 | (GBd)g G4 | (cGE)G (ceg)c |
+(BGD)G (Bdg)B | (cde)d (cde)f | gGBd gdBG | (cGE)G (ceg)c | (BGD)G (Bdg)B |
+(cGE)G (Bdf)d | eceg c4 | e2cd e2e2 | e4 !!e2dc | d2Bc d2d2 | d4 !!d2cB |
+c2AB c2c2 | c2d2e2c2 | B2G2 B2G2 | c2d2e2c2 | B2G2 B2G2 | c2d2e2c2 |
+d4z4 | z2^f2 f2f2 | g2G2 d2c2 | B2G2 c2A2 | B2G2 A2^F2 |
+G4 z4 | Bcd2 d2cB | ABc2c2BA | Bcd2 d2cB | !!A4 z4 | GBdg GBdg |
+cGce cGce | D^FAd D^FAd | BGBd gdBG | (cGE)G (ceg)c | (BGD)G (Bdg)B |
+(cde)d (cde)f | gGBd gdBG | (cGE)G (ceg)c | (BGD)G (Bdg)B | (cGE)G (Bdf)d | c8 :|
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+S:https://www.folktunefinder.com/tunes/39571
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

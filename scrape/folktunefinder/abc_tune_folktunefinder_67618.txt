@@ -1,0 +1,22 @@
+X: 5
+T:Constant Billy
+% Nottingham Music Database
+S:Adderbury
+M:6/8
+K:A
+P:A
+E|A2e c/2A3/2c|d2B G2E|!segno!  c3/2B/2A F2E|EFG A2:|
+P:B
+cde f3|Bcd e3|cde f3|Bcd e2(3e/2f/2g/2|a2e c/2A3/2c|d2B G2\
+P:D.S.
+E||
+S:https://www.folktunefinder.com/tunes/67618
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

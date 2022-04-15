@@ -1,0 +1,24 @@
+X:2625
+T:Jack is Yet Alive
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009a1.html
+%%ID:000009a1
+K:G
+[G,D][G,E] [G,G]B {B}[A2D2] Ac | BdBG AGEG | \
+DEGB A2 Ac |1 BG AF G3E :|2 BG AF G2 GB ::
+[B2g2] ge f2ff | efge agfd | \
+[B2g2] ge f2fd | efag f2d2 |
+g2ge f2fd | ([A2e2] e)f edB2 | \
+g2fg {f}[e2A2] dc | BG AF G2G2 :|
+S:https://www.folktunefinder.com/tunes/36604
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

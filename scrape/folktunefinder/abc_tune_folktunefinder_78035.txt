@@ -1,0 +1,25 @@
+X:14
+T: FREI UND UNERSCHUETTERLICH (GAUDEAMUS IGITUR)
+N: B0013
+O: Europa, Mitteleuropa, Deutschland; Schweiz
+R: politisch, national, Vaterlands - Lied, Studenten - Lied
+M: 3/4
+L: 1/16
+K: C
+C3G,G,4C4 | A,3A,A,8
+B,2C2D4B,4 | C2E2C4z4
+B,3CD4D4 | E3CD4D4
+B,3CD4D4 | E2C2D4D4
+C3B,A,2F2E2D2 | E4D4C8
+C3B,A,2F2E2D2 | E4D4C4z4
+S:https://www.folktunefinder.com/tunes/78035
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied, studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

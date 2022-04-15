@@ -1,0 +1,37 @@
+X: 7
+T:Georgia Railroad
+S:Karl Moore - Peach Bottom String Band
+C:
+M:4/4
+L:1/4
+K:A
+B|\
+"A"c3/2c/2cA/2B/2|\
+cBAF|\
+"Bm(7)"B3/2B/2BA/2B/2|\
+"A"c/2B/2A"E"B2|\
+"A"c3/2c/2cA/2B/2|\
+cBAF|\
+"Bm"AA/2B/2AF|\
+"E"E/2F/2A"A"A2::\
+"A"agfe|\
+fe/2c/2BA|\
+"A"agfe|\
+"D"f/2d/2f"E"g2|\
+"A"agfe|\
+fe/2c/2BA/2F/2|\
+"Bm"AA/2B/2AF|\
+"E"E/2F/2A"A"A2:|\
+S:https://www.folktunefinder.com/tunes/17244
+S:http://trillian.mit.edu/~jc/music/abc/reel/GeorgiaRailroad.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/GeorgiaRailroad.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/GeorgiaRailroad.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:338
+T: KIND WO BIST DU DENN HENNE WEST
+N: E0190A
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte
+M: 4/4
+L: 1/8
+K: F
+ | F2FGA2AB | c2d2c2
+FA | c2c2d2c2 | B4A2
+c2 | G2GGA2c2 | B4A2
+G2 | A2A2B2cd | d4c2z2
+G2GGA2d2 | c4B4 | A4
+d4 | c6A2 | c2c2B2B2 | A6z2
+S:https://www.folktunefinder.com/tunes/78779
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

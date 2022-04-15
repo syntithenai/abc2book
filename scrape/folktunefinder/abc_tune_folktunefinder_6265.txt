@@ -1,0 +1,32 @@
+X: 1
+T: \vZensko Beran\vce
+O: Makedonija
+%: ABCDE;taksim;FGHI
+Q: 3/8 2/8 3/8 3/8 2/8
+M: 13/8
+L: 1/8
+K: Cm
+"A"|: cde c2 (2de cde c2 | (4=Bcde fe (2dc (4BccG c2 |
+   |  cde c2 (2de cde c2 | (4=Bcde fe (2dc c3 c2 :|[K:=B=e=A]
+K: C
+"B"|:(4efga ~a2 a3 (4agaf gf | (4agaf f{a}g dc2 (4_BccG c2 :|
+"C"|:(4agaf f{a}g dc2 cef gc | (4agaf f{a}g dc2 (4_BccG c2 :|
+"D"|: cef ~dc dc2 cef ~dc | cef ~dc dc2 cef ~dc | cef (3{a}gfe dc2 (4_BccG c2 :|
+"E"|:(4efga _bc' d'2c' (4d'c'ba gf | (4agaf ~g2 dc2 (4_BccG c2 :|
+"F"|:_ba{b}f ga bc'd' ba{b}f gc |_bac ef gac' baf ~g2 |
+   | _baf ga bc'd' baf gc |(4agaf f{a}g dc2 _BccG c2 :|\
+   |::: "taksim"Z8 :::|
+"G"|:(4efga ~a2 a3 (4agaf gf |(4agaf f{a}g dc2 _BccG c2 :|
+"H"|:(4agaf f{a}g dc2 cef gc |(4agaf f{a}g dc2 _BccG c2 :|
+"I"|: cef ~dc dc2 cef ~dc | cef (3gfe dc2 _BccG !fine!c2 :|
+S:https://www.folktunefinder.com/tunes/6265
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZenskoBerance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ZenskoBerance_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 13/8
+% Has_accompaniment_chords Has chords

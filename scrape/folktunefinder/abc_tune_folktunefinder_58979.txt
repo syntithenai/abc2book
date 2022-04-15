@@ -1,0 +1,34 @@
+X:92
+T:Baille de Panderu (CT 149)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Panderu, dictada por Manuela y Josefa Martnez Martnez, de ochenta y ochenta y dos aos, respectivamente, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 149
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+|GBB cBc|{AB}A/G/4A/4 G2-G3|GBB ccB|c B2-B2 z|
+GBB cBc|A2 G F2 G|A3 BcB|{AB}A/G/4A/4 G2-G2 z||
+W:Avivi las castauelas,
+W:nias del baile primero,
+W:avivi las castauelas,
+W:que ya avivar el pandero.
+W:
+S:https://www.folktunefinder.com/tunes/58979
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

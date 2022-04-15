@@ -1,0 +1,36 @@
+X: 69
+P: Sl\"angpolska efter Johann Olsson
+O: Leif Alpsj\"o
+R: bond-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+F \
+|: "C"E2 CE G>c \
+| e2 cd B>d \
+|1 "Dm"f>e dc B>A \
+| "G7"A<G G2 F>F \
+:|2 "Dm"fe/f/ ag "G7"f>c \
+| BA/B/ "C"c4 :|
+|: "C"{e}g2 ge c>e \
+| "G7"d>c Bc d>e \
+| f2 fG B>d \
+| "C"c>B cd e>f \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g |
+| "G7"b2 ba g>f \
+| "C"e>a ge c>e \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g \
+| "G7"b2 ba g>B \
+| "C"{B}c2 c4 :|
+S:https://www.folktunefinder.com/tunes/8274
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm Bond-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

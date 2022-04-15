@@ -1,0 +1,22 @@
+X: 2
+T: The Helston Furry Dance
+O: Helston Town Band
+M: C|
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: http://www.youtube.com/watchv=INtcTlNQ6e0 (2006 video in Helston)
+K: F
+      C2 |  "F"F3 G A3 B | "F"c2c2 "C7"c2de | "F"f2c2 "C7"cdcB | "F"A3 G F2 :|
+|: (3FGA | "Bb"B2d2 d2cB | "F"ABcd "C7"ccde | "F"f2c2 "C7"cdcB | "F"A3 G F2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3790
+S:http://trillian.mit.edu/~jc/music/abc/England/HelstonFurry.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

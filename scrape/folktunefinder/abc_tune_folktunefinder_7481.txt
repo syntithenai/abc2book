@@ -1,0 +1,26 @@
+X: 2
+M: 2/4
+L: 1/8
+P: Yosis (Dm)
+K: Dm
+|: "Dm"Af ed | "A7"^cA cd \
+| "A7"e2 e2 | e2 e2 \
+| "Dm"Af ed |1 "A7"^cA cd |    e4  | a4     :|
+            |2 "Gm"^cG AB | "A"A4- | AA =B^c \
+|: "Dm"d4 | f4 \
+|      zf ff | fg/f/ ed \
+|  "Bb"d4 | f4 \
+|      zf ff |
+| fg/f/ ed \
+|  "Gm"e4 | g4 \
+|      zg gg | gg fg \
+|1 "A7"a2 g2 | f2 g2 | "Dm"a4- | a2 z2 \
+:|2"A7"a2 g2 | f2 e2 | "Dm"d4- | d2 z2 |]
+S:https://www.folktunefinder.com/tunes/7481
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Yosis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 2
+T: Shabechi et Y'rushelayim
+N: from handwritten ms by Ben Pasamanick
+Q: 1/4=63
+M: 2/4
+L: 1/16
+K: Em
+EE "Intro"\
+| B3d ~c2Bc | A4 G2A2 |[M:3/4][L:1/16] BcBA B8 |[M:2/4][L:1/16]  e4 B4 \
+| d2~c2 BAG2 | E2G2 F2GA | E8- | E6 EE |
+"B"
+|: B6 cB | d3B cBA2 | G4 A2B2 | A8 | A4 ~B2A2 \
+| dBc/B/A A2GF | G2~A2 G2=F2 |1 E6 EE :|2 E8- E8 ||
+"C"
+|| e6 d2 | e6 d2 | g4 =f2e2 | fe3- e4 \
+| ~e6 d2 | e6 d2 | g4 g2a2 | ae3- e4 ||
+"D"
+|| dccB B3D | dccB ~B4 | zcBA A3G | cBBA A4 \
+| G2A2 B2d2 | g4 ~f2d2 | e8- | e8 ||
+"E"
+|| d3e e4 | d3e e2 dd | g4 fefd | ~e8 \
+|  d3e e4 | d3e e2 dd | g4 f2e2 | a2gf efdd | e8- |1 e6 "->B"EE :|2 e8 ||
+S:https://www.folktunefinder.com/tunes/7285
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShabechiEtYrushelayim.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

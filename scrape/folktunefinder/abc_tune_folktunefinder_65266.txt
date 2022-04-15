@@ -1,0 +1,24 @@
+X: 178
+T:Lindbergh's Crate
+% Nottingham Music Database
+S:Bob McQuillen Jan 1976, via Phil Rowe
+M:6/8
+K:D
+e|"D"f2f "A7"e2e|"D"ded "A"cBA|"G"Bcd "D"A2f|"D"agf "A7"ede|
+"D"f2f "A7"e2e|"D"ded "A"cBA|"G"Bcd "D"Adf|"A7"edc "D"d2::
+A|"D"F2F "G"GFG|"A"ABc "D"d2e|"D"fga agf|"E7"fed "A"e2A|
+"D"FEF "G"GFG|"D"ABc def|"G"gab "D"agf|"A7"edc "D"d2:|
+S:https://www.folktunefinder.com/tunes/65266
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

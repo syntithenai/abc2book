@@ -1,0 +1,24 @@
+X:456
+T: DREI LAUB AUF EINER LINDEN
+N: E0404
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: F
+F2 | F4F2 | F4G2 | A6 | c6
+F4F2 | F4E2 | D6 | C4
+c2 | c6 | A4
+A2 | d4c2 | B4A2 | G6 | A4
+A2 | F4F2 | B4B2 | G3AB2 | c4
+c2 | c4B2 | A2G4 | F6 | z4
+S:https://www.folktunefinder.com/tunes/78897
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

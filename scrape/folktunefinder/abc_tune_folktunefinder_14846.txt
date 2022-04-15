@@ -1,0 +1,24 @@
+X:1
+T:Perpetual Motion
+C:English
+Z:<ClareCello:aol.com> 2004-5-6
+M:6/8
+R:Jig
+L:1/8
+K:Bb
+F|:"Bb"B3 F3|"F"c2e "Bb" dcB|"F"cde "Bb"f2B|"Cm"BcB "F7"AGF|
+"Bb"B3 F3|"F"c2e "Gm"dcB|"Eb"cde "Cm"f2B|"F7"BcA "Bb"B2B:|
+|: "F"cde "Bb"f2B|"Eb"e2g "F"fdc|"Gm"Bcd "Eb"e2d|"Cm"cdB "F7"AGF|
+"Eb"GAB "Bb"B2F|"Cm"GAB "F7"cde|"Bb7"dfB "Eb"e2d|"Cm"cdB "F7"AGF:|["last time" "F7"cBA "Bb"B2||
+S:https://www.folktunefinder.com/tunes/14846
+S:http://trillian.mit.edu/~jc/music/abc/jig/PerpetualMotion_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/PerpetualMotion_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

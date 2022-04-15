@@ -1,0 +1,32 @@
+X: 1
+T: Scotch Mist
+O: Trad
+R: strathspey
+B: Kerr's ____
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F>G "A1"|\
+"D"A>F A<d "G"B>G B<d | "A7"c>d e>c "D"d2 f2 |\
+"G"g>f g>b "D"a>f e>d | "Em"Bf "A"e2 F>G "A2"|\
+"D"A>F A<d "G"B>G B<d |
+| "A7"c>d e>c "Bm"d2 f2 | "Em"g>f g>b "D"a>f e>d |\
+"Em"B>g "A7"f/e/d/c/ "D"d2 |[| f>g  "B"|\
+"D"a>b a>f "Bm"d>e f>d | "Em"g/f/g/a/ b>g "A7"e2 f>g |
+| "D"a>b a>f "D7"d>e f/e/d | "G"Bf "A7"e2 F>G "A2"|\
+"D"A>F A<d "G"B>G B<d | "A7"c>d e>c "Bm"d2 f2 |\
+"Em"g>f g>b "D"a>f e>d | "Em"B>g "A7"f/e/d/c/ "D"d2 |]
+S:https://www.folktunefinder.com/tunes/19650
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ScotchMist_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ScotchMist_D3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

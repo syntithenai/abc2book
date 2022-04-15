@@ -1,0 +1,26 @@
+X:18
+T: Collier's
+C:Trad
+S: The First Month of Spring, John Vesey and Paul Brady
+I:speed 250
+M:4/4
+K:D
+|:(3FED (3EFG A3 B | =c2 cB cAGc | Ad d^c d2 (3efg | fdec dcAG | 
+(3FED (3EFG A3 B | =cedB cAGc | Add=c (3ABc AG |[1EFGE D4:|[2EFGE D3 g:|
+|:fd (3efg fdec | Ad dc Ad dg | fd (3efg fdec | A^GAB =c3 d | 
+eaa2 efge |  dged =cAGc | (3AB=c AG (3EFG AB | =cAGE ED D2:|
+S:https://www.folktunefinder.com/tunes/58734
+S:http://ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/moreTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/xir
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xir
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

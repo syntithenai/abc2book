@@ -1,0 +1,34 @@
+X:12
+T:air celte (2 adapt)
+C:Eric Forgeot
+N:29 aout 2002
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+N:
+M:4/4
+L:1/8
+Q:1/2=120
+K:C
+V:1
+   A2 c2 B2 e2 | d2 Bc A2 G2 | 
+   A2 c2 B2 e2 | d2 Bc A2 cB :| 
+|: A2 c2 B2 GE | G2 c2 A2 GA |
+   A2 c2 B2 GE | G2 A2 B2 c2 :|
+   AG ee ed e2 | g2 dd dc d2 | B2 G2 c2 cc | B2 A2 G2 A2 | 
+   AG ee ed e2 | g2 dd dc d2 | B2 G2 B2 cc | B2 A2-A4 |]
+V:2
+   z8 | z8 | 
+   A2 c2 B2 e2 | d2 Bc A2 cB :|
+|: A2 c2 e2 ee | e2 d2 e4    |
+   g2 f2 e2 dc | B2 dB c4    :|
+S:https://www.folktunefinder.com/tunes/30280
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:174
+T: Muede kehrt ein Wandersmann zurueck
+N: D1005
+O: Europa, Mitteleuropa, Schweiz, Graubuenden, Tenna
+N: DVA-Signatur A 28 158
+R: Liebes - Lied
+M: 4/4
+L: 1/16
+K: G
+D3G | B6A2G2G2G2B2 | D8z4
+D2G2 | A6G2F2A2c2B2 | G8
+D2G2B2d2 | d8c2B2A2G2 | E8z4
+G2E2 | D2G2G4F2A2c2B2 | G8
+D2G2B2d2 | d8c2B2A2G2 | E8z4
+G2E2 | D2G2G4F2A2c2B2 | G8z4
+S:https://www.folktunefinder.com/tunes/72631
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

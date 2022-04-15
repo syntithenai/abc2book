@@ -1,0 +1,31 @@
+X:252
+T: VON LIEB ENTBRANNT UND FERTIG ZU DER REISE
+N: B0733
+O: Europa, Mitteleuropa, Deutschland; Frankreich
+R: Liebes -, Troubadour -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: C
+G,2E2C2 | G,6G,2G,2G,2A,2G,2 | G,3F,F,4z2
+F,2G,2F,2 | E,6E,2F,2F,2D3C | C8-C2
+G,2E2C2 | G,6G,2G,2G,2A,2G,2 | ^F,3CC4z2
+A,2B,2C2 | B,4A,4G,2G,2^F,2F,2 | G,8z4
+G,4 | _E6C2C4C4 | B,4G,4z4
+G,4 | _E6C2C6D2 | B,4G,4z2
+G,2A,2B,2 | C6D2E2D2C2B,2 | A,4F6
+F2E2D2 | C6G,2G,2G,2A,2B,2 | C8z4
+G,4 | _E6C2C4C4 | B,4G,4z4
+G,4 | _E6C2C6D2 | B,4G,4z2
+G,2A,2B,2 | C6D2E2D2C2B,2 | A,4F6
+F2E2D2 | C6G,2G,2G,2A,2B,2 | C4z6
+S:https://www.folktunefinder.com/tunes/62275
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Liebes -, troubadour -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

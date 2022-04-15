@@ -1,0 +1,26 @@
+X:11
+T:Wiston Lodge
+C:Andy Hornby Jan 2003
+Q:1/4=174
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+E2F G2E|EEF G2E|BBc B2A|G2A B3|
+E2F G2E|EEF G2E|BBc B2A|G E2E3:|
+|:G2A B2A|BBc B2E|Bdc BAG|A G2F2E|
+G2A BBA|BBc B2A|GAB AGF|G E2E3:|
+|:BEE dEE|e2d B3|B2A G2F|GGF G E2|
+BEE dEE|e2d B3|GAB AGF|G E2E3:|
+%%textfont Timesbold 25
+%%center  POLKAS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43769
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

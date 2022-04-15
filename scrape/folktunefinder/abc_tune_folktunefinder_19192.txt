@@ -1,0 +1,29 @@
+X: 1
+T: Beaton's Delight
+C: D.A.Beaton
+R: strathspey
+N: handwritten MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ador
+A \
+| E3A, A,A,A,2 E3D E3G | A3E G3D B,G,3 G,3A \
+| E3A, A,A,A,2 E3D E3G | A3E G3B, A,A,A,2 A,3 :|
+g \
+| a3A AAA2 e3d ea3 | g3e d3g BG3 G2(3efg \
+| a3A AAA2 e3d e3a | g3e g3B AAA2 A3 ||
+g \
+| a3A AAA2 e3d e3a | g3e d3g BG3 G3B \
+| c3A BG3 A3G E3D | EG3 D3B, A,A,A,2 A,3 |]
+S:https://www.folktunefinder.com/tunes/19192
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BeatonsDelight_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BeatonsDelight_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

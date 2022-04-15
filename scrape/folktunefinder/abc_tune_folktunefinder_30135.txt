@@ -1,0 +1,21 @@
+X:0
+T:Da Shaalds o Foula
+G:jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:GMix
+% lydian/major/mixolydian pentatonic
+D|E2G G2e|edB BAG|G2B A2B|G2A GED|
+  E2G G2e|edB BAG|G2B A2B|d3  D2:|
+D|edB ABd|edB ABd|g2B A2B|G2A GED|
+  edB ABd|edB ABd|g2B A2B|d3  D2:|
+S:https://www.folktunefinder.com/tunes/30135
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

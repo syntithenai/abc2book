@@ -1,0 +1,22 @@
+X: 1
+T:O'Sullivan's March
+B:Dance Music of Ireland, O'Neill, no. 51
+N:transposed from key of D
+M:6/8
+L:1/8
+K:G
+g|dBB GBB|dcB c2 e|dBB GBG|AGG Gge|
+dBB GBc|dcB c2 e|dBd gdB|AGG G2:|
+|:g|edg edg|e/f/gf edB|dBg dBg|dBg def|
+g3 bge|dcB c2 e|dBd gdB|AGG G2:|
+S:https://www.folktunefinder.com/tunes/14788
+S:http://trillian.mit.edu/~jc/music/abc/jig/OSullivansMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OSullivansMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OSullivansMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:43
+T:A U Hinny Burd
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+G| c2   e c|B2  d2|                  \
+                   G2 (B`c)|d g  B
+G| c c  e c|B2  d2|                  \
+                   G2 (A`B)|c3     ||
+c|(f`e) d f|e e c2|                  \
+                   G2 (B`c)|d g (BG)|
+   f e  d f|e e c2|                  \
+                   G2 (A`B)|c3     |]
+S:https://www.folktunefinder.com/tunes/75606
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

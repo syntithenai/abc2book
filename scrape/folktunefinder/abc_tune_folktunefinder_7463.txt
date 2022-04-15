@@ -1,0 +1,26 @@
+X: 3
+P: Yismechu hashamayim [Fm]
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Fm
+"A"\
+|: "Fm"FF CF A2 "C7"G2 | "Fm"F6 "Eb7"z2 \
+| "Ab"AA EA c2  "Eb7"B2 | "Ab"A6 z2 \
+| "Ab"cc Ac e2 "F7"dc | "Bbm"B4 f3 A \
+| "Fm"cB BA "C7"AG GF |1 "Fm"A6 z2 :|2 "Fm"F6 Hz2 :|
+"B"\
+|: "Fm"AB "Bbm"BA "Fm"A4 | "Fm"AB "Bbm"BA "Fm"A4 \
+|  "Fm"AB "Bbm"BA "Fm"AG GF |1 "Fm"A2 "Bbm"B2 "C7"c4 :|2 "Fm"A2 "C7"G2 "Fm"F4 ||
+"C"\
+|: "Ab"cd "Eb7"dc "Ab"c4 | "Ab"cd "Eb7"dc "Ab"c4 \
+|  "Ab"cd "Eb7"dc "Ab"cB BA |1 "Ab"c2 "Eb7"d2 "Ab"e4 :|2 "Ab"c2 "Eb"B2 "Fm"A4 ||
+%%text Sometimes ends with another part B.
+S:https://www.folktunefinder.com/tunes/7463
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/YismechuHashamayimTune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:448
+T: GAUDEAMUS IGITUR
+N: E1688
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Studenten - Lied
+M: 3/4
+L: 1/16
+K: C
+ | C3G,G,4C4 | A,3A,A,8
+B,2C2D4B,4 | C2E2C4z4
+B,3CD4D4 | E2C2D4D4
+B,3CD4D4 | E2C2D4D4
+C3B,A,4F2D2 | C4B,4C4
+C3B,A,4F2D2 | C4B,4C4
+S:https://www.folktunefinder.com/tunes/79552
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

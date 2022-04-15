@@ -1,0 +1,30 @@
+X:1
+T:Fairie's Revels. HSJJ.019
+M:6/8
+L:1/8
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Jig
+O:England
+A:Lancashire
+H:1823
+Z:vmp.Chris Partington.
+F:http://www.smmp.salford.ac.uk/downloads/vmp/Hsjjack.abc 2004-10-23 17:26:45 UT
+K:C
+   G | "C"c2c cBc | "F"ABc "(G7)"def | "C"e2c cBc | "G7"B2G GAB | "C"c2c cBc | "F"ABc def | "Dm"Adc "G7"BAB | "C"c3- c2 :|
+|: e | "C"g2g gfe | "F"fga       a2c'| "C"gec cBc | "G7"d2G GAB | "C"EGc cBc | "F"Acf fga |  "C"g2c "G7"dcd | "C"e2c c2 :|]
+S:https://www.folktunefinder.com/tunes/14156
+S:http://www.smmp.salford.ac.uk/downloads/vmp/Hsjjack.abc
+S:http://www.smmp.salford.ac.uk/downloads/vmp/Hsjjack.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Fairies_Revels_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Fairies_Revels_C.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

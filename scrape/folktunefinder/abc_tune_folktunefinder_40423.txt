@@ -1,0 +1,74 @@
+X:2
+T:Dans Fisel total2
+M:4/4
+L:1/8
+K:Bmin
+Q: 1/4=140
+|"Bm"z4 "Bm"z4|"Bm"z4 "Bm"z4|
+|:"Bm"BA dc "Bm"de ~B2|"A"de cA "Bm"B2 ~B2|"D"(3ABc dc "Bm"de ~B2|"A"de cA "Bm"~B2 BA|
+"Bm"Bf ef "Bm"ge ~f2|"A"(3efg ~a2 "Bm"(3gfe fd|"Bm"~B2 dc "Bm"de ~B2|"A"de cA "Bm"~B2 BA|
+|1 "Bm"Bf ef "D"ga ~f2|"A"(3efg ~a2 "Bm"(3gfe fd|"Bm"~B2 dc "Bm"de ~B2|"A"de cA "Bm"B4:|2 "Bm"Bf ef "D"ga ~f2|"Bm"(3fef b3f ed|"Bm"~B2 dc "Bm"de ~B2|fe fa b3 z||
+K: F#min
+Q: 1/4=200
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+P:Otter's Holt
+K: Bmin
+Q:1/4=205
+|:"Bm" fBBA "Bm" FEFB|"D"(3ABA FB "D"ABde|"Bm"fBBA "D"FEFA|
+Q:1/4=210
+|"F#m"(3Bcd cA "Bm"Bcde|"Bm"fBBA "Bm"FEFB|"D"(3ABA FB "D"ABde|
+Q:1/4=212
+|"D"faaf "Bm"effe|1 "Bm"dBBA "Bm"~B3e:|2 "D"dBAF "Bm"B3c||
+Q:1/4=215
+|:"Bm"d2 fd "D"Adfa|"Bm"bfaf "Bm"effe|"Bm"(3ddd fd "D"Adfa|
+Q:1/4=217
+"Bm"bfaf "Em"egfe|"Bm"defd "D"Adfa|"Bm"bfaf "Bm"efde|
+Q:1/4=220
+"Bm"fBBA "D"FEFA|1 "F#m"(3Bcd cA "Bm"B3c:|2 "F#m"(3Bcd cA "Bm"~B3e||
+|:"Bm"fBBA "Bm"FEFB|"D"(3ABA FB "D"ABde|"Bm"fBBA "D"FEFA|
+|"F#m"(3Bcd cA "Bm"Bcde|"Bm"fBBA "Bm"FEFB|"D"(3ABA FB "D"ABde|
+|"D"faaf "Bm"effe|1 "Bm"dBBA "Bm"~B3e:|2 "D"dBAF "Bm"B3c||
+|:"Bm"d2 fd "D"Adfa|"Bm"bfaf "Bm"effe|"Bm"(3ddd fd "D"Adfa|
+"Bm"bfaf "Em"egfe|"Bm"defd "D"Adfa|"Bm"bfaf "Bm"efde|
+"Bm"fBBA "D"FEFA|1 "F#m"(3Bcd cA "Bm"B3c:|2 "F#m"(3Bcd cA "Bm"~B3e||
+|:"Bm"fBBA "Bm"FEFB|"D"(3ABA FB "D"ABde|"Bm"fBBA "D"FEFA|
+|"F#m"(3Bcd cA "Bm"Bcde|"Bm"fBBA "Bm"FEFB|"D"(3ABA FB "D"ABde|
+|"D"faaf "Bm"effe|1 "Bm"dBBA "Bm"~B3e:|2 "D"dBAF "Bm"B3c||
+|:"Bm"d2 fd "D"Adfa|"Bm"bfaf "Bm"effe|"Bm"(3ddd fd "D"Adfa|
+"Bm"bfaf "Em"egfe|"Bm"defd "D"Adfa|"Bm"bfaf "Bm"efde|
+"Bm"fBBA "D"FEFA|1 "F#m"(3Bcd cA "Bm"B3c:|2 "F#m"(3Bcd cA "Bm"~B3e||
+K:F#min
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+|: "F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "B"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+S:https://www.folktunefinder.com/tunes/40423
+S:http://www.slainte.ch/abc/myreels.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

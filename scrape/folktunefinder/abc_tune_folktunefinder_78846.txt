@@ -1,0 +1,27 @@
+X:405
+T: KAISER JOSEPH
+N: E0334
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: historisches Lied, Bayrischer Erbfolgekrieg (1778)
+M: 4/4
+L: 1/8
+K: G
+ | G2GBG2GB | B2d2B4
+A3BdcBA | A4G2z2
+G2GBG2GB | B2d2B4
+A3BdcBA | A4G2z2
+A3GF2G2 | A3Bc4
+d2ded2cB | B4A2z2
+G2GBG2GB | B2d2B4
+A3BdcBA | A4G2z2
+S:https://www.folktunefinder.com/tunes/78846
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, bayrischer erbfolgekrieg (1778)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

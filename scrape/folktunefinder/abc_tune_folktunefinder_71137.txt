@@ -1,0 +1,28 @@
+X:107
+%%topmargin 3cm
+T:The Soldier's Joy
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+B2 | AFDF AFDF | .A2 .d2 .d2 (cB) | AFDF AFDF | G2 E2 E2 (FG) |
+AFDF AFDF | .A2 .d2 .d2 .g2 | fafd egec | .d2 .d2 .d2 .B2 | AFDF AFDF |
+A2 d2 d2 (cB) | AFDF AFDF | .G2 .E2 .E2 (FG) | AFDF AFDF | .A2 .d2 .d2 .g2 |
+fafd egec | .d2 .d2 .d2 || g2 | fdfd fagf | ecec egfe | fdfd fagf |
+edcB A2 g2 | fdfd fagf | ecec egfe | fafd egec | d2 d2 d2 |]
+S:https://www.folktunefinder.com/tunes/71137
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Soldiers_Joy.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0107.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

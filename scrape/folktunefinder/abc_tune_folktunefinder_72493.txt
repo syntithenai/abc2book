@@ -1,0 +1,26 @@
+X:36
+T: Der verkleidete Reiter
+N: D0036
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Notenwert in Zeile 261 korrigiert
+R: Ballade
+M: 6/8
+L: 1/8
+K: G
+G | G2GGAG | =F3G2
+A | _BAGcBA | G3-G2
+G | _B2=FB2c | d3dc
+c | dddGAG | =F3G2
+A | _BAGcBA | G3-G2
+S:https://www.folktunefinder.com/tunes/72493
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

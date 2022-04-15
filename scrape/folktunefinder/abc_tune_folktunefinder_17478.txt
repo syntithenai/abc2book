@@ -1,0 +1,36 @@
+X:1
+T:Just a Lark
+C:(c) 2005 Helen Powell, 5/19/05 #26
+N:All four parts may be played simultaneously.
+L:1/4
+%Q:1/4=235
+M:4/4
+K:G
+%%indent 350
+d \
+| "G"d B2e | "D"d c2e | "D7" d cBA | "G"G3 ||
+|: D \
+| "G"G B2G | "D"A c2A | "G"B AGF | "C"A G "D"FE \
+| "G"D G2E | "D"F A2c | "D7" B AGF | "G"G3 ||
+D \
+| "G"G/2A/2B2G | "D"A/2B/2 c2A | "G"B>AGF | "C"A>G "D"FE \
+| "G"B,/2D/2G2E | "D"F/2G/2A2c | "D7" B>A GF | "G"G3 ||
+d \
+| "G"d B2e | "D"d c2f | "G"g fed | "C"e d "D"cB \
+| "G"d B2e | "D"d c2e | "D7" d cBA | "G"G3 ||
+ d \
+| "G"d/2c/2B2e | "D"d/_d/c2f | "G"g>fed | "C"e>d "D"cB \
+| "G"d/2c/2 B2e | "D"d c2e |[1 "D7"d/_d/cBA | "G"G3 :|
+[2 "D7"D/2E/2 F2D | "G"G3 ||
+S:https://www.folktunefinder.com/tunes/17478
+S:http://trillian.mit.edu/~jc/music/abc/reel/Just_a_Lark_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Just_a_Lark_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

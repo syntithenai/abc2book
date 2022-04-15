@@ -1,0 +1,28 @@
+X: 2
+P: Kelsterne Gardens [Em]
+O: c.1727
+B: Barnes 2nd ed.
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+|: "Em"E2e2 edcB | "Am"c2A2 F2A2 \
+| "D"D2d2 dcBA | "G"cBAG "D"BAGF \
+|  "Em"E2e2 edcB | "Am"c2A2 F2A2 \
+| "Em"B2G2 "B7"B,2^D2 | "Em"E8 :|
+|:"Em"e2b2 b2ab | "Am"c'bag "D"f2d'2 \
+| "C"e2 c'4 e2 | "B"^d2 b4 ab \
+| "Am"c'bag "B7"fe^df | "B7"B2^d2 "Em"e4 :|
+S:https://www.folktunefinder.com/tunes/3848
+S:http://trillian.mit.edu/~jc/music/abc/England/KelsterneGardens.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/KelsterneGardens.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/KelsterneGardens.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/KelsterneGardens.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/KelsterneGardens
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

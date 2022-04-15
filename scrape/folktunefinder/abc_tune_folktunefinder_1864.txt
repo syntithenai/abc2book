@@ -1,0 +1,27 @@
+X: 42
+T: Munster Buttermilk
+C: J-14
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+d| "G"gfg "C"age| "G"d2B BAB| d2B BAB| dBG GBd|
+   "G"gfg "C"age| "G"d2B BAB| dBG GAB| "D"A3 "G"G2 :|
+|:\
+"G"d2e "C"g2a| "G"b2b bag| "D"a2a agf| "G"gfg "C"age|
+"G"d2e "C"g2a| "G"b2b bag| "C"age "G"deg| "D"a3 "G"g3 :|
+%%text 9/1/98
+% ---------- page 21 ----------
+S:https://www.folktunefinder.com/tunes/1864
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:4465
+T:Polkett 
+A:Jmtland
+L:1/8
+M:4/4
+O:Sweden
+Q:1/4=110
+R:Polkett
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001141.html
+%%ID:00001141
+K:D
+A>d fd f/g/f/e/ fd | AB/c/ dc d4 | E>F GB A4 | E>F GB A/B/A/G/ FA |
+A>d fd f/g/f/e/ fd | AB/c/ dc d4 | E>F GB A4 | A,>C EF D4 ::
+f/f/f/f/ dA f/f/f/f/ dA | b2 af gf e2 | \
+e/e/e/e/ cA e/e/e/e/ cA | b2 ag fe d2 |
+de/f/ de/f/ de/f/ de/f/ | Bc/d/ Bc/d/ Bc/d/ Bc/d/ |\
+e2 ef ed cB | A2 a2 aA Bc | d2 f2 d4 :|
+S:https://www.folktunefinder.com/tunes/36972
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

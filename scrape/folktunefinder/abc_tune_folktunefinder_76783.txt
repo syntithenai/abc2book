@@ -1,0 +1,24 @@
+X:298
+T: ES WOLLT EIN FRAU ZUM WEINE GAHN
+N: E0899
+O: Europa, Mitteleuropa, Deutschland
+R: Ehestands - Lied
+M: 3/4
+L: 1/4
+K: G
+G | G2G | A2B | c2c | A2
+c | BAB | GG
+G | d2d | d2d | c2B | A2
+d | A2A | A2B | cBA | G2
+G | Bcd | cA2 | G2
+S:https://www.folktunefinder.com/tunes/76783
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

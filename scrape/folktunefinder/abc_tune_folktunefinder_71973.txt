@@ -1,0 +1,35 @@
+X: 94
+T:Y Gelynnen
+T:The Holly
+T:Rhif Wyth
+M:C|
+L:1/8
+Q:200
+C:Trad
+S:Blodau'r Grug Collection Vol. 2
+R:Set Dance
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:G
+D2|G2dc BABG|c2ed cBcA|G2dc BABc|dDFA dcBA|G2dc BABG|
+cBcd egec|BdBG AcAF|G2B2G2:||
+d2|gfga gfed|cBcd efge|a^gab a=gfe|!d^cde defd|gfga gfed|cBcd egec
+|BdBG AcAF|G2B2G2:||
+S:https://www.folktunefinder.com/tunes/71973
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/Holly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/RhifWyth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/YGelynnen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/Holly.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/RhifWyth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/YGelynnen.abc
+% Rhythm Set dance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:840
+T:Xiraldilla (CT 276) (Arrg.)
+T:La Rosina nel Rosal (CT 276) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 276
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+|"Gm"GG GB|"Gm"dd dd|"Eb"e2 "Cm"c2|"Gm"d4|
+"Gm"GG GB|"Gm"dd dd|"Eb"e2 "Cm"c2|"Gm"d2 BB|
+"Cm"c2 "D"A2|"Gm"B2 GG|"D"A2 ^F2|"Gm"G2 BB|
+"Cm"c2 "D"A2|"Gm"B2 GG|"D"A2 ^F2|"Gm"G4||
+W:Arbolito verde,
+W:sec la rama;
+W:debajo del puente
+W:retumba el agua,
+W:retumba el agua,
+W:retumba el agua,
+W:sec la rama,
+W:sec la rama.
+W:
+S:https://www.folktunefinder.com/tunes/59727
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

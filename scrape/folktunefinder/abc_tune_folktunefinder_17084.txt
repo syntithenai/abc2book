@@ -1,0 +1,34 @@
+X: 1
+T: Eamonn Coyne's Reel
+T: the Mint in the Corn
+T: Geordie Affleck
+Z: Barney <G.Bahn-Koepke@t-online.de> irtrad-l 2000-09-01
+Z: corrected by Nigel Gatherer <gatherer@argonet.co.uk>
+B: CRE 2, no. 191 as "Gan ainm"
+N: Caoimhin Mac Aoidh supplied this information on it:
+N: "No 191 is a tune which Francie Dearg & Mickey Ban O  Beirn  played
+N: in  D  and  John  Doherty  and  Danny O'Donnell played in A.  Tommy
+N: Peoples learned it in Donegal from the  old  lads.   John  and  the
+N: Deargs  called  it 'The Mint in the Corn'.  It is the Scottish Reel
+N: 'Geordie Affleck' normally played there in E Flat."
+M: 4/4
+L: 1/8
+R: reel
+K: G
+   Bc dB GA BG | AD (3DDD cA   FA  | Bc dB GA BG | AD EF G3A |
+   Bc dB GA BG | AD (3DDD AD (3DDD | Bc dB GA BG | AD EF G3A ||
+|: BG Bd gf ed  | cA ce ag fe | fg af de fd | ed ^ce d2 ef |
+   gf ed ef a2- | ag fe dc BA | Bc dB GA BG | AD FA G4 :||
+S:https://www.folktunefinder.com/tunes/17084
+S:http://trillian.mit.edu/~jc/music/abc/reel/EamonnCoynesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/EamonnCoynesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/EamonnCoynesReel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

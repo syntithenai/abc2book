@@ -1,0 +1,48 @@
+X:1
+T:Our delight
+C:Tadd Dameron
+M:4/4
+L:1/8
+Q:1/4=160
+%%staves (chords melody)
+K:Ab
+P:A
+V:chords
+x2 || "Bb7"x4 x4 | "Eb7"x4 x4 | "Ab7"x4 "Db7"x4 | "Cm7"x4 "F7"x4 |
+"Bb7"x4 x4 | "Bbm7"x4 "Bdim7"x4 | "Ab/C"x4 "Bdim7"x4 | "Bbm7"x4 "A7"x4 ||
+V:melody
+F2 || (G.G)z2 z4 | z^F3 (=E.F2)_E- | E3G- G3G- | G4 zF3 |
+(c.c)z2 z4 | Az Az (A.A2)A- | A3 A- A3(A- | A3c) zF3 ||
+P:A
+V:chords
+"Bb7"x4 x4 | "Eb7"x4 x4 | "Ab7"x4 "Db7"x4 | "Cm7"x4 "F7"x4 |
+"Bb7"x4 x4 | "Bbm7"x4 "Bdim7"x4 | "Ab/C"x4 "Bdim7"x4 | "Bbm7"x2 "Eb7"x2 "Abmaj7"x4 ||
+V:melody
+(G.G)z2 z4 | z^F3 (=E.F2)_E- | E3G- G3G- | G4 zF3 |
+(c.c)z2 z4 | Az Az (A.A2)A- | A3 A- A3A- | A2(=ce) z3(B- ||
+P:B
+V:chords
+"Ebm7"x4 x4 | "Ab7"x4 x4 | "Dbmaj7"x4 x4 | x4 x4 |
+"Dbm7"x4 "Gb7"x4 | "Cm7"x4 "F7"x4 | "Bm7"x4 "E7"x4 | "Bbm7"x4 "Eb7"x4 ||
+V:melody
+BBB)(B- BBB)(=B- | B=BB)(B- B=AA)(c- | c2._B2)(B2.A2) | (A.F2)F- F(=E (3FAc |
+.d2) ze- e4 | .c2z =d- d4 | .=B2z_d- d2(B_B- | B4) zF3 ||
+P:A
+V:chords
+"Bb7"x4 x4 | "Eb7"x4 x4 | "Ab7"x4 "Db7"x4 | "Cm7"x4 "F7"x4 |
+"Bb7"x4 x4 | "Bbm7"x4 "Bdim7"x4 | "Ab"x4 x4 | "(F7)"x4 x4 |]
+V:melody
+(G.G)z2 z4 | z^F3 (=E.F2)_E- | E3G- G3G- | G4 zF3 |
+(c.c)z2 z4 | Az Az (A.A2)A | z8 | z8 |]
+S:https://www.folktunefinder.com/tunes/18911
+S:http://trillian.mit.edu/~jc/music/abc/song/Our_delight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/our_delight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Our_delight.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/our_delight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

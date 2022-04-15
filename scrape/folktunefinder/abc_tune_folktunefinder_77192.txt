@@ -1,0 +1,25 @@
+X: 1
+T:Absent-Minded Woman, The
+M:2/2
+L:1/8
+Q:224
+C:Traditional
+S:OO 772, RWW 53
+R:Reel
+K:G
+"G"G2 GA BGBd|"Am"edgd egBA|"G"G2 GA BABd|"D"(3efg gB AGEF|!
+"G"G2 GA BGBd|"C"edgd e2 dB|"Am"dega bage|"D"d2 BGAGED:|!
+"Em"g2 bg agbg|"D"g2 bg aged|"G"g2 bg "C"agbg|"D"{a}gedB AGED|!
+"G"g2 bg agbg|"Em"g2 bg "C"aged|"G"bgaf "C"{a}gedB|"D"{d}cABG AGED"G":|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/77192
+S:http://www.blackflute.com/music/tunes/reels/amwoman.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

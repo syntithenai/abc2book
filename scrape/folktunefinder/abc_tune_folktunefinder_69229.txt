@@ -1,0 +1,26 @@
+X:370
+T: "Die Sittarder Schlacht"
+N: Z1050A
+O: Europa, Mitteleuropa, Deutschland
+N: Modulation
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: C
+G,2 | C4C2D2D2E2 | F2E2D2E4
+G,2 | C4C2D2D2E2 | F2E2D2E4
+E2 | E4G2F4E2 | E6D4
+E2 | G2F2EDC4D2 | D4E2D4
+D2 | D2E2A,2C2B,2^G,2 | B,6A,4
+S:https://www.folktunefinder.com/tunes/69229
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

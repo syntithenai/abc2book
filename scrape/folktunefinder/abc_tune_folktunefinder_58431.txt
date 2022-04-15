@@ -1,0 +1,33 @@
+X: 1
+P: Millbrae
+C: By Ron Cooper
+C: Arr. John Chambers, mods by T. Traub 6-27-03
+Z: John Chambers <jc@trillian.mit.edu>
+N: Do we need permission, Chambers, Pete Clark
+R: reel
+M: C|
+L: 1/8
+F:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MillBrae.abc 2003-06-27 21:51:33 UT
+K: A
+|: af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 af | "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+a2 \
+| "E7"gbeg begb | "A"aAce agfe | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 a2 | "E7"gbeg begb | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 a2 ||
+"E7"gbeg begb | "A"aAce agfe | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 af | "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/58431
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PinewoodsReelSet2.abc
+S:http://terrytraub.org/abc/PinewoodsReelSet2.abc
+S:http://terrytraub.org/abc/MillbraeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MillbraeR.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:64
+T: ALS DIE WUNDERSCHOENE ANNA
+N: E0042J
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Ritter -, Raeuber - Sage
+M: 2/4
+L: 1/8
+K: Eb
+EG | BBBB | AG
+FG | BFFF | F2
+EG | BBBB | AG
+FG | BFFF | F2
+ec | BBAF | E2
+EE | c2cc | Bed
+c | BBAF | E2
+EG | B2DD | E2
+S:https://www.folktunefinder.com/tunes/78505
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter -, raeuber - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

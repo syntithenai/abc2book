@@ -1,0 +1,28 @@
+X:20
+T:The Money Tree
+C:Cliff Stapleton
+Z:midi2abc/Dave Holland
+M:6/8
+R:Jig
+L:1/8
+Q:1/4=100
+K:Dm % almost
+d|g2a bag|f2g d2e|fed c2g|edc d2d|
+g2a bag|f2g d2e|fef cdc|1A2G G2d:|2A2G Acd||
+K:C % almost
+=B2d BAG|c2c Bcd|f2f g2g|edc d2d|
+B2d BAG|c2c Bcd|gec fdB|1c3 d2d:|2c3 d2|]
+S:https://www.folktunefinder.com/tunes/52040
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

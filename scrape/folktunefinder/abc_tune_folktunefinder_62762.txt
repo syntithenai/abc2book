@@ -1,0 +1,23 @@
+X: 40
+T:Lay Dee At Dee
+M:4/4
+L:1/8
+Q:180
+K:D
+"D"defe d2 d2|ABAG F2 A2|d2 ef "G"gf e2|"Em"efed "A"cB A2|!
+"D"defe d2 d2|ABAG F2 A2|"D"d2 ef "A7"gfec|e2 "D"d2 "D"d3 e::!
+"D"f2 df afdf|f2 df "G"g3 f|"A"e2 ce eece|edcB "A7"A3e|!
+"D"f2 df afdf|afdf "G"g3 f|"Em"efgf "A"edcB|"D"A2 d2 d3z:||
+S:https://www.folktunefinder.com/tunes/62762
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

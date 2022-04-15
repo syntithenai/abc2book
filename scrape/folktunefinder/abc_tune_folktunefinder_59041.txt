@@ -1,0 +1,80 @@
+X:154
+T:Cantar de Ronda (CT 027)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de ronda, dictada por Fernando Menndez lvarez, de treinta y cinco aos, de Llanuces, ayuntamiento de Quirs.
+N:Mara Martnez Daz, de veintinueve aos, de Navia, nos ha dictado la segunda versin literaria, bastante ms completa que la primera.
+A:Asturies
+O:Cenera (Mieres)
+Z:Cancioneru de Torner 027
+M:3/4
+L:1/8
+Q:1/4=96
+K:C
+|:GG GG cc|(_BA/2B/4A/4 G2) Bc|d4 z2|
+GG GG cc|(_BA/2B/4A/4 G2) AA|A2 G2 AA|
+A2 G4|_Bc cB AB|(A3/2_B/4A/4 G4-|G2) z4:|
+W:Dicen que te vas casar
+W:Ai, ai, ai!
+W:Asina lo publica'l pueblu;
+W:dos bodas habr nun da:
+W:to casamientu y mio entierru.
+W:
+W:Cuandu a ti te diga'l cura
+W:Ai, ai, ai!
+W:que si quies al fulanu,
+W:a m m'estarn poniendo
+W:l'hbitu franciscanu.
+W:
+W:Cuandu a t te ten echando
+W:Ai, ai, ai!
+W:arras nel pauelu
+W:a m me tarn echando
+W:de las andas nel suelu.
+W:
+W:-------------
+W:
+W:Que tu te vas casar
+W:anda diciendo la gente;
+W:todo sera en un da:
+W:tu casamiento y mi muerte.
+W:
+W:Primera amonestacin
+W:que en la iglesia se leyera,
+W:ser el primer paralismo
+W:que a mi corazn le diera.
+W:
+W:Segunda amonestacin,
+W:pasars por San Antonio
+W:y les dirs a los frailes
+W:que vengan a darme el olio.
+W:
+W:Te llevarn a la iglesia
+W:la madrina y el padrino
+W:y a m me estarn llevando
+W:en hombros de cuatro amigos.
+W:
+W:Cuando a t te estn poniendo
+W:la sortija de brillantes,
+W:a m me estarn ardiendo
+W:cuatro velas por delante.
+W:
+W:Cuando a t te estn poniendo
+W:el vestido colorado,
+W:a m me estarn vistiendo
+W:el hbito franciscano.
+W:
+S:https://www.folktunefinder.com/tunes/59041
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

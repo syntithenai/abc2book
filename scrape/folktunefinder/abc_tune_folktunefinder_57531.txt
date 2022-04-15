@@ -1,0 +1,28 @@
+X: 194
+T: Tommy's Tarbukas
+%%topspace       0.00cm
+%%titlespace       0.00cm
+C: R-103
+C: Alasdair Fraser
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Gm
+"Gm"d2cd BGGB| "F"AFcF dFcF| "Gm"d2cd BGGB| "F"AFcA "Gm"BGBc|
+"Gm"d2cd BGGB| "F"AFcF dFcF| "Gm"d2Bd "F"AFFA| "D"Ggdc "Gm"BGG2 :|
+|:\
+"Gm"DGBG "Cm"EGcB| "F"Acfe "Bb"dbfd| "Gm"DGBG "Cm"EGcB| "Dm"AfcA "Gm"BGG2|
+"Gm"DGBG "Cm"EGcB| "F"Acfe "Bb"dbfd| fdBe "F"cAFE| "D"DG^FA "Gm"BGG2:|
+%%text 9/1/98
+% ---------- page 100 ----------
+S:https://www.folktunefinder.com/tunes/57531
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:1
+T: Pink Floyd - Money (v1.0 Prosco)
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C 
+B,>
+^F, B,/2x3/2 ^F,3/2x/2 A,3/2x/2| \
+B,>
+B,D,/2x3/2[^f/2B,/2]x/2^f-| \
+S:https://www.folktunefinder.com/tunes/73
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

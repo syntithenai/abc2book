@@ -1,0 +1,25 @@
+X:42
+T: ES GIEBT ZWEI VOEGEL
+N: F0127
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied
+M: 6/8
+L: 1/16
+K: G
+B2 | B4B2B3cd2 | d4c2c2z2
+B2 | A4A2A3GA2 | B2B2z6
+Bc | d4d2d3cd2 | e4c2c4
+e2 | d3ed2c3dc2 | B3cd2c2B2
+A2 | B2B2z6A2 | G2G2z6
+S:https://www.folktunefinder.com/tunes/69602
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

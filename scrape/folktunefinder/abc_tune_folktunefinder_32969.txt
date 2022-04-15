@@ -1,0 +1,30 @@
+X: 2661
+T:Ross Castle. HSJJ.108
+M:2/4
+L:1/16
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Misc.
+O:England
+A:Lancashire
+N:This tune is an anagram. Change the bar lines to some sort of triple
+N:time to find the solution.
+H:1823
+Z:Chris Partington.
+K:D
+dc|"*"B4A4|G2G2 cBAG|FGAB A2dc|B4A4|G2G2 ABcA|B2G2G2:|!
+|:dc|B2G2A2D2|G2G2 cBAG|FGAB A2dc|B2G2A2D2|G2G2 ABcA|B2G2G2:|!
+|:dc|BcdB ABcA|G2G2 cBAG|FGAB A2dc|BcdB ABcA|G2G2 ABcA|B2G2G2|]
+S:https://www.folktunefinder.com/tunes/32969
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:14517
+T:Rory O'More,1st part. JNu.19
+M:6/8
+L:1/8
+Q:90
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Jig
+O:England
+A:East Lancashire
+N:At the end there is AL SEGNO, and the Segno is right at the beginning,
+N:which potentially gives 12 bars. Compare with other versions to arrive
+N:at your own solution.CGP
+Z:vmp.Manchester Morris Men
+K:A
+"primo"a/f/|ecA cAA|ecA A2a/f/|ecA A>GA|cBB B2a/f/|!
+ecA cAA|G/A/B/c/d/e/ fed|efe efg|aec A2::!
+a|agf ecA|dcB A2G|FGA Bcd|fee "NB"e2a:|]
+S:https://www.folktunefinder.com/tunes/64527
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

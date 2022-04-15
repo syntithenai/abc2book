@@ -1,0 +1,36 @@
+X:168
+T:La gerbe d'or
+R:Valse
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:J. Ginas
+K:F
+L:1/8
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+c2ABcd | c2 ABcd | c2a2f2 | c4B2 | B2GABc | B2GABc | B2g2f2 | c4A2 | 
+c2ABcd | c2ABcd | c2a2f2 | e4d2 | G2ABcd | e2d2c2 | e2c2g2 |1 f6 :|2 f2fff2 |:
+[K:Bb] F6 | F2=EFGF | d6- |d2c2d2 | f6- |f2g2d2 | f4=e2 | e6 |
+c6- | c2c2B2 | A6- | A2A2G2 | A6- | A2A2G2 | F2G2A2 | B2c2e2 | 
+d6- | d2c2d2 | e6- | e2d2e2 | g6 | f6 | c6- | c2c2B2 | A6- | A2A2G2 | F2G2A2 | B2c2d2 | B6- | B6 ::
+[K:F] c2ABcd | c2ABcd | c2a2f2 | c4A2 | B2GABc | B2GABc | B2g2f2 | c4A2 | 
+c2ABcd | c2ABcd | c2a2f2 | d4B2 | G2ABcd | e2d2c2 | e2c2g2 |1 f6 :|2 f2fff2 |:
+[K:Bb] f2=e2_e2 | d4c2 | B2ABcB | F6 | A2c2e2 | e4d2 | F2GABc | d4B2 | 
+f2=e2_e2 | d4c2 | B2ABcB | G6 | e2c2A2 | F2GABc |1 d2cdeA | B6 :|2 d2efga | b6 S |]
+%%footer $D   Galouvielle-MBe 2008 \nValse (France)
+S:https://www.folktunefinder.com/tunes/626
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

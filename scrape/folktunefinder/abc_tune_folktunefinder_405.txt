@@ -1,0 +1,22 @@
+X: 1
+T: Menuet nr.60
+C: Rasmus Storm (1760)
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Spillemandsorkestret
+M: 3/4
+L: 1/8
+K: A
+|: "A"AB cd eA | "D"fA "A"eA "D"dA | "A"ce dc "B"BA | "E"G2 "B7"FG "E"E2 |
+| "D"Fd "A"Ec "D7"DB | "A"CE AG A2 | "D"(3FED "A"CA "E"B,G | "A"A6 :|
+|: "A"c2 A2 (3ABc | "E"B2 G2 (3BAG | "F#m"A2 F2 "B7"(3FGA | "E"G2 "B7"FG "E"E2 |
+W: Where's the next page ...
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/405
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/new.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

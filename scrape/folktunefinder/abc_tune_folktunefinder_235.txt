@@ -1,0 +1,23 @@
+X: 10
+T: Batchelder's Reel
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+c2 \
+|: "F"f2af "C7"efge | "F"f2c2- c2=Bc | "Bb"dcBA BAGF |1,3 E"C7"FGA Bcde :|2,4 E"C7"FGE "F"F4 :|
+|: "F"A2cA cAcA | "Bb"B2dB dBdB |1,3 A2"F"cA cAcA | "C7"BAGF EFGB :|2,4 A"F"cfa "C7"bgeg | "F"f2a2 f4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/235
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

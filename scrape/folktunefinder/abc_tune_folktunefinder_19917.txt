@@ -1,0 +1,35 @@
+X:1
+T:Flatbush Waltz [Gm]
+C:Andy Statman
+D:Flatbush Waltz; Rounder 00116 (1980)
+Z:John Chambers <jc:trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+S:Frets Magazine, Dec 1980
+K:Dm
+[| "Dm"A3 d AG | F2 D2 D2 | A3 d AF | "Gm"G3 B AG \
+| "Dm"DE FG AF/A/ | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D3 A,DF ||
+|| "Dm"[A3D] [dA] [AF][GE] | [F2D] [D2A,] [D2A,] | [A3F] [dA] [AF][FD] | "Gm"[G3D] c (3BAG \
+| "Dm"FG AB cA | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D6 ||
+|| "Dm"[f4A] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F] [c3E] [BD] | "F"[A6C] \
+| "Gm"[B2D] [A2C] [G2B,] | "Dm"[A2C] [d2F] [e2G] | [f3A] [eG] [fA][gB] | "A7"[e6G] ||
+|| "Dm"[f4A] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F] [c3E] [BD] | "F"[A6C] \
+| "Gm"[B2D] [A2C] [G2B,] | "Dm"[A2C] [D2F,] [G2B,] |  "Dm"[F3A,] [GB,] "Eb"[_EG,][FA,]  | "Dm"[D6F,] |]
+S:https://www.folktunefinder.com/tunes/19917
+S:http://trillian.mit.edu/~jc/music/abc/waltz/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/FlatbushW_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/FlatbushW_Dm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

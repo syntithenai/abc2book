@@ -1,0 +1,36 @@
+X: 7
+T: Captain E. G. Elder, Black Watch
+C: Calum Bolton
+R: strathspey
+N: Recommended for: Captain E.G.Elder's Medley, The New Scotland Strathspey, Salute To Susan
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 \
+| "F"A<F A>B d>F d>c | "C7"B>G e>d (3cdc (3BAG \
+| "F"A<F A>B d>F d>c | "C7"B>G g>f (3efe (3dcB |
+| "F"A<F A>B d>F d>c | "G7"=B>G g>f "C7"e>c g>a \
+| "C7"(3bag (3efg "Bb"fed (3Bcd | "C7"(3cBA (3BAG "F"F2 :|
+|: c2 \
+| "F"f>c a>g f<g (3fed | "C7"B>G e>d "F"c2 c>B \
+| "C7"G<E c>B "Dm"A>F d>c | "C7"(3ced (3cBA G2 G>c |
+| "F"f>c a>g f<g (3fed | "C7"B>G e>d "F"c2 c>B \
+| "Dm"A<F d>c "C7"B>G e>d | "F"(3cBA "C7"(3BAG "F"F2 :|
+[| G2 \
+| "F"A>F A<c "Bb"B>G B<d | "F"c>A c>f "D7"(3efg (3cde \
+| "F"f>c f<a "C7"g>e (3gab | "F"(3agf "C7"(3gfe "F"f>e "C7"(3dcB |
+| "F"A>F A<c "Bb"B>G B<d | "F"c>A c>f "D7"(3efg (3cde \
+| "F"f>c f<a "C7"g>e (3gab | "F"(3agf "C7"(3gfe "F"f2 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12660
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

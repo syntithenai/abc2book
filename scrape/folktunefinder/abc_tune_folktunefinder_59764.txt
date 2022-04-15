@@ -1,0 +1,51 @@
+X:877
+T:Xiraldilla (CT 383)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+N:Esta xiraldilla es, ya de antiguo, mui corriente en las romeras que se celebran en el concejo de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 383
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|: d>cB|ABc|(d2 e-)|e3|f>ff|fgg|[1 (f>e)d-|d2 z :|[2 (f>e)d||def|
+e>dc|cde|(d>c)B-|B2 z|d>cB|ABc|d2 e-|e3|
+f>ff|fgg|f>ed|def|e>dc|cde|(d>c)B-|Bdd|
+|: g2 e|fgg|f>ed|def|e>dc|cde|(d>c)B-|[1 Bdd :|[2 B2 z||
+W:Esperar y no venir,
+W:querer y no ser querida,
+W:tener sueo y no dormir,
+W:dnde habr mayor fatiga
+W:
+W:Debajo del puente
+W:hai una morena
+W:esperando por su amante
+W:que viene de Cartagena.
+W:Debajo del puente
+W:hai una morena.
+W:
+W:Aragn, Murcia y Alicante,
+W:tres das con hoi
+W:no he visto a mi amante;
+W:tres con hoi, cuatro con maana
+W:y as pasaremos
+W:toda la semana.
+W:
+S:https://www.folktunefinder.com/tunes/59764
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

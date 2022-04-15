@@ -1,0 +1,24 @@
+X: 7
+T: Munster Buttermilk
+T: Behind the Haystack
+D: Boys of the Lough
+Z: 1997 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+A \
+|: d2e fdB | d2e fdB | AFE E2B | AFE E2B | d2e fdB | d2e fdB | AFD D2B | AFD D2A :|
+|: ~B3 BAF | ABc d2B | AFE E2B | AFE E2A | ~B3 BAF | ABc d2B | AFD D2B | AFD D2f :|
+|: ~g3 fgf | ede fdB | AFE E2B | AFE E2f | ~g3 fgf | ede fdB | AFD D2B | AFD D3  :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/232
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

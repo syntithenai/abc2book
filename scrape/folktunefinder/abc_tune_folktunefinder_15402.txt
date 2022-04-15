@@ -1,0 +1,38 @@
+X:6
+T:Delight of the Men of Mawddwy
+T:Difyrrwch Gwyr Mawddwy
+R:march
+B:Collection by Rev. T. Richards, Llangynw, 1834
+D:Ar Log, O IV i V
+O:Wales
+Z:Manuel Waldesco" <mwal:wanadoo.es> tradtunes 2002-4-2
+M:4/4
+K:Dmaj
+de \
+|: f3g f2e2 | f2d2 d2A2 | BcdB A2G2 | F3G A2F2 \
+| G3A B2AG | F2d2 c2B2 | A2G2 F2E2 |1 D4 D2de :|2 D4 D2DE ||
+|: F2D2 F2A2 | BcdB A2F2 | B3A B2c2 | defe d2c2 \
+| B3A Bcde | f2e2 f2A2 | Bcde fedc | B4 B2A2 |
+| f3g f2e2 | f2d2 d2A2 | BcdB A2G2 | F3G A2F2 \
+| G3A B2AG | F2d2 c2B2 | A2G2 F2E2 | D4 D2DE :|
+S:https://www.folktunefinder.com/tunes/15402
+S:http://trillian.mit.edu/~jc/music/abc/march/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/DelightOfTheMenOfMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/march/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/reel/DelightOfTheMenOfMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/reel/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/DelightOfTheMenOfMawddwy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/march/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/reel/DelightOfTheMenOfMawddwy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/reel/DifyrrwchGwyrMawddwy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tradtunes/DelightOfTheMenOfMawddwy_1.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

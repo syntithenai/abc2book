@@ -1,0 +1,24 @@
+X: 155
+P: The Hullichan Jig
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:  G
+|: "D7"D3 \
+| "G"GAG BGB | ded  dBG | "C"cBc ege | "G"dBG "D7"A2D \
+| "G"GAG BGB | ded B2g | "D7"fed cBA | "G"G3 :|
+|: "(D7)"B2c \
+| "G"ded Bcd | "C"ece e2e | "D7"fgf def | "G"gBd "C"gfe \
+| "G"ded Bcd | "C"ece gfe | "D7"ded cBA | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/12870
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 3
+T: Shalom Aleichem
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Am
+|: "Am"[E2A2] [ce][Bd] [A2c2] [A2c2] \
+| "E7"[^GB][Ac] [Bd][Ac] [GB][FA] [E2G2] \
+|1 [^GB][GB] [G2B2] "Am"[Ac][GB] [Ac][ce] \
+| "E7"[B4d4] [e4e4] \
+:|2 "Dm"[D2F2] [A2c2] [^G2B2] [FA][DF] \
+| "E7"[E6^G6] z2 |
+| "C"[ce][df] [e2g2] [e2g2] [e2g2] \
+| "G7"[df][ce] [Bd][ce] "E7"[df][eg] [d2f2] \
+| "Am"[ce][Bd] [Ac][Bd] [ce][eg] [df][ce] \
+| "E7"[B6d6] z2 |
+| "Dm"[B2d2] [d2f2] [d2f2] [d2f2] \
+| "E7"[df][fa] [e^g][df] "Am"[ce][Bd] [Ac][EA] \
+| [c2e2] [Bd][Ac] "E7"[B2d2] [Ac][^GB] \
+| "Am"[A6c6] z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7298
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShalomAleichem2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

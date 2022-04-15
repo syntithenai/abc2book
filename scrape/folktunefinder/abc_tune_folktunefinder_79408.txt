@@ -1,0 +1,27 @@
+X:304
+T: EIN JAEGER AUS KURPFALZ
+N: E1454
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Jaeger - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GBBB | B3
+d | dccB | BAA
+G | FAAA | A3
+d | BBAA | G2z
+d | d3c | B3
+d | gddB | BAA
+G | FAAA | A3
+d | BBAA | G2z
+S:https://www.folktunefinder.com/tunes/79408
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

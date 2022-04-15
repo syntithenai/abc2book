@@ -1,0 +1,26 @@
+X: 1
+M: 2/4
+L: 1/16
+P: Der Badchen Freylach (high)
+B: Stacy Phillips, Mel May's Klezmer Collection p.79.
+K: Ddor^g
+|: "Dm"dAdf gagf | {g}a2{g}a2 fed2 \
+| dAdf gagf | {g}a4 a4- \
+| aAdf gafd | {g}a2{g}a2 fed2 |
+| "A7"efgf edef | "Dm"d8 \
+:: "Dm"abc'b d'c'ba | gabc' a4 \
+| d'c'ba gabc' | a4 a4 |
+| abc'b d'c'ba | gabc' a4 \
+|1 abc'b "A7"ab((3fed) | "Dm"efd2- d4 \
+:|2 gaba "A7"gafe | "Dm"d8 |]
+S:https://www.folktunefinder.com/tunes/6726
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BadchenFreylach.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_Badchen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

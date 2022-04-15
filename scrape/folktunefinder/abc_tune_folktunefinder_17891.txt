@@ -1,0 +1,32 @@
+X:1
+T:Possum Up a Gum Stump [1]
+L:1/8
+M:2/4
+Z:Transcribed by Andrew Kuntz
+F:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+K:D
+(A, |\
+A,/)B,/D/E/ F/G/F/E/ | D/E/F/A/ BA |\
+B/A/B/c/ d/c/d/B/ | A/F/D/F/ E/D/B,/G,/ | 
+A,/B,/D/E/ F/G/F/E/ | D/E/F/A/ BA |\
+B/A/B/c/ d/c/d/B/ | A/G/F/E/ D :| 
+|: f/f/ |\
+f/af/ aa/g/ | f/e/d/f/ e/d/B/A/ |\
+f/aa/ ba | f/e/d/f/ ee/e/ |
+f/af/ aa/g/ | f/e/d/f/ e/d/B/A/ |\
+B/A/B/c/ d/c/d/B/ | A/G/F/E/ D :|
+S:https://www.folktunefinder.com/tunes/17891
+S:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+S:http://trillian.mit.edu/~jc/music/abc/reel/PossumUpAGumStump1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PossumUpAGumStump1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/PossumUpAGumStump1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/PossumUpAGumStump1_D.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

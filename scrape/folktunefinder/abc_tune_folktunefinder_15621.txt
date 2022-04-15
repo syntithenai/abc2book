@@ -1,0 +1,24 @@
+X: 1
+T: O'Neill's Cavalcade
+R: march
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ador
+|::: B2g2 f2a2 | e2g2 gfed :::| \
+|: e2e2 fedB :: ~e4 fedB :| \
+|::: A2AB G2GB | A2e2 edBG :::|
+|::: e2A2 A2Bd | e3d B2d2 |1,3 e2A2 A2BA | ~G3A B2d2 :|2,4 e2d2 g2B2 | A8 :|
+|::: e2a2 a2ga | b3a g2e2 | d2B2 g2B2 |1,3 dcBA GABG :|2,4 A8 :|
+S:https://www.folktunefinder.com/tunes/15621
+S:http://trillian.mit.edu/~jc/music/abc/march/ONeillsCavalcade_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/ONeillsCavalcade_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/ONeillsCavalcade_Am.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

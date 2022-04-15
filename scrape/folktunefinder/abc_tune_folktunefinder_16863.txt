@@ -1,0 +1,25 @@
+X:1
+T:Buck Moran's
+S:Paddy O'Sullivan (fiddle), north Kerry
+Z:Deirdre Sullivan & Paul de Grae 
+R:reel
+M:4/4
+L:1/8
+K:A
+AF | EFAB cB ~B2 | cBAc BcAF | EFAB c2 cf | ecBc A2 AF |
+EFAB cB ~B2 | cBAc BcAF | EFAB c2 cf | ecBc A2 AB ||
+ceec d2 fe | ceec BAFA | ceec d2 fd | ecBc A3 B |
+c2 ec Ac e2 | (3ccc ec BcAB | cefg a2 af | ecAc ~B2 AF |]
+S:https://www.folktunefinder.com/tunes/16863
+S:http://trillian.mit.edu/~jc/music/abc/reel/BuckMorans.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BuckMorans.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

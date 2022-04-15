@@ -1,0 +1,24 @@
+X:154
+T:Zaplet Kolo
+O:Yugoslavia
+Z:Jack Campin <jc@purr.demon.co.uk> abcusers 2002-4-19
+M:none
+L:1/8
+K:none
+[K:D] [M:4/4] a2 f2 g2 e2|f2 d2- dgfe|f2 d2- dgfe|fg a2- agfe|[M:2/4] f2 d2:|
+[K:G] [M:4/4] d2 B2 c2 A2|B2 G2- GcBA|B2 G2- GcBA|Bc d2- dcBA|[M:2/4] B2 G2:|
+S:https://www.folktunefinder.com/tunes/2970
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/ZapletKolo_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ZapletKolo_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ZapletKolo_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

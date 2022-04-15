@@ -1,0 +1,28 @@
+X: 1
+T: Miss Jenny Elliot's Strathspey
+C: R.Mackintosh
+R: strathspey
+B: RSCDS 17-12(II)
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+F2 \
+| "D"D3d d3d "A7"c3d e3g | "D"f3d "A"c3e "E(m)"B3e "A7"dcBA \
+| "D"D3d f3d "A7"c3d e3g | "D"fa3 "A7"g3e "D"d4 D2 :|
+A2 \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "D"F3D "G"G3D "D"A3D "G"B3D \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "Em"Bg3 "A7"e3c "D"d4 D3B |
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "D"F3D "G"G3D "D"A3D "G"B3c \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "Em"B3e "A7"dcBA "D"d4 d2 |]
+S:https://www.folktunefinder.com/tunes/19550
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissJennyElliotsStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissJennyElliotsStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissJennyElliotsStr_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

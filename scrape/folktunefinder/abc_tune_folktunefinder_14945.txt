@@ -1,0 +1,31 @@
+X: 1
+T: A Jig for Pudsey Bear
+C: David Ross
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: Handwritten MS
+N: Pudsey Bear is a loveable teddy bear that is the mascot / logo used by  the
+N: BBC in their Children in Need Appeal. See www.bbc.co.uk/pudsey for details.
+N: This tune was written to go with a dance by the same name.
+M: 6/8
+L: 1/8
+K: A
+E \
+|: "A"CDE E2A | "E7"BAB "A"c2A | "A"E2c "F#7"edc | "Bm"dBB "E7"B2E \
+|  "A"CDE "F#m"E2A | "E7"BAB "A"c2A | "E7"E2e  dcB | "A"cAA A3 :|
+|  "A"Ace "A7"a2e | "D"faf "A"ecA | "A"aec Aec | "Bm"dBB "E7"B2c \
+|  "A"Ace "A7"a2e | "D"faf "A"ecA | "A"aec "Bm"BA"E7"B | "A"cAA A2e |
+|  "A"Ace "A7"a2e | "D"faf "A"ecA | "A"aec "F#m"Aec | "Bm"dBB "E7"B2E \
+|  "A"CDE E2A | "E7"BAB "A"c2A | "C#m"E2e "E7"dcB | "A"c"D"AA "A"A2 |]
+S:https://www.folktunefinder.com/tunes/14945
+S:http://trillian.mit.edu/~jc/music/abc/jig/Pudsey_Bear_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Pudsey_Bear_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

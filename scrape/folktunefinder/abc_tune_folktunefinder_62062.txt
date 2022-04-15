@@ -1,0 +1,30 @@
+X:39
+T: DES SONNTAGS IN DER MORGENSTUND
+N: B0526
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 4/4
+L: 1/8
+K: G
+d2 | d2B2c3B | B3AG2
+G2 | A2B2c2B2 | A4z2
+d2 | d2B2c3B | B3AG2
+G2 | A2B2c2B2 | A4z2
+A2 | A3AB2^c2 | d3ef2
+f2 | e3fg2e2 | f6
+d2 | g2f2e2d2 | d3cB2
+e2 | d2B2c2A2 | d6
+d2 | g2f2e2d2 | d3cB2
+e2 | d2g2g2f2 | g4z2
+S:https://www.folktunefinder.com/tunes/62062
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

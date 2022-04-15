@@ -1,0 +1,22 @@
+X:5393
+T:Quick Step. Fencibles
+O:england
+M:2/4
+L:1/8
+K:G
+G2 B>G|A2 FD |G2 B>G|   c4                       |\
+B2 d>B|e2 c>A|Bd DF |[1 G2 G,2                  :|\
+[2 G2 D/(E//F//G//A//B//^c//)|:
+d2 (D/E//F//G//A//B//^c//)|d3 F|GEA,G|F2 D/E//F//G//A//B//^c//|\
+d2  D/E//F//G//A//B//^c// |d3 F|GEA,G|F4            "Da Capo"||
+S:https://www.folktunefinder.com/tunes/25845
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

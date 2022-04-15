@@ -1,0 +1,31 @@
+X:509
+T: Rundgesang (213), S. 464
+N: T0397
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Hamm,  Welter, 26.3.1933
+N: (214)- Consdorf, Liederheft, 1848-51, ohne Melodie;
+N: (215)- Straen, fff Witry, 13.12.1932
+R: Trink-, Zechlied]
+M: 2/4
+L: 1/8
+K: G
+D | G2d2 | BAG2
+B2AA | D2F2 | G2
+D2 | G2d2 | BAG2
+B2AA | D2F2 | G2z
+d | dcBd | dcB
+d | edcA | GGG
+d | dcBd | dcB
+d | edcA | GGG
+S:https://www.folktunefinder.com/tunes/70639
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Trink-, zechlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

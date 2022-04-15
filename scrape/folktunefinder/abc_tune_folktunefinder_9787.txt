@@ -1,0 +1,30 @@
+X: 1
+P: Lady Lepley
+C: Ed Pearlman 10/84
+R: waltz
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+G2 \
+|| "C"c4 G2 | "G"d4 G2 | "C"e3 d c2 | "G"B2 c2 ed \
+| "Am"c3 B A2 | "Em"G2 A2 c2 | "F"A6- | "G7"A4 G2 |
+|  "C"c4 G2 | "G"d4 G2 | "Am"e3 d e2 | "C"g2 a2 _b2 \
+| "F"a3 g f2 | "Em"ef g2 G2 | "F"A6- | "Em"A2 e2 g2 ||
+|| "F"fg a4 | "C"ef g4 | "G"d2 e2 gf | "C"e3 d c2 \
+| "F"f3 a f2 | "C"ef g2 G2 | "Dm"e3 d c2 | "G7"A4 G2 |
+|  "C"c4 G2 | "G"d4 G2 | "Am"e3 d e2 | "C"g2 a2 _b2 \
+| "F"a3 g f2 | "C"e3 d c2 |1 "F"A3 G F2- | "G7"F4 :|2 "F"AG F4- | "G7"F4 EF | "C"H[G6C6] |]
+S:https://www.folktunefinder.com/tunes/9787
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW05.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW05.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

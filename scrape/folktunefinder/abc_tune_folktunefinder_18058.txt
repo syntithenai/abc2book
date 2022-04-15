@@ -1,0 +1,24 @@
+X: 1
+T: Rustiana
+C: Howard Rust (1999)
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"A2 A4 c2 | e3c A4 | e^def edef | e3c A4 \
+|  "E"^G2 G4 A2 | B3^G E4 | e^def e=dcB | "A7"A6 E2 :|
+[| "Am"A2AB c2A2 | e2c2 A4 | "G"G2GA B2G2 | d2B2 G4 \
+|   "F"F2FG A2F2 | c2A2 F4 | "E"^G2GA B2G2 | E6 E2 |]
+[| "Am"A2AB c2A2 | a2e2 c2A2 | "G"G2GA B2G2 | g2d2 B2G2 \
+|   "F"F2FG A2F2 | f2c2 A2F2 | "E"E2E^F ^G2E2 | "E7"e8 |]
+S:https://www.folktunefinder.com/tunes/18058
+S:http://trillian.mit.edu/~jc/music/abc/reel/Rustiana_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Rustiana_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

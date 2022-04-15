@@ -1,0 +1,29 @@
+X:54
+T: Zriny's Tod
+N: A0408
+O: Europa, Mitteleuropa, Deutschland
+N: Dollerweise (A0374), volksthueml. hier nach Werlin, 1646, S.2946
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/4
+K: D
+d | d=cBA | G2G
+A | B=cdB | A2z
+d | d=cBA | G2G
+A | B=cdB | A2z
+A | AGAB | =c2A
+A | AAGG | =F2z
+=c | =cccd | =c2A
+A | =ccd_B | A2=cA | A=FGE | D3
+S:https://www.folktunefinder.com/tunes/80113
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

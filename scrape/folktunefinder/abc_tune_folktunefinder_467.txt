@@ -1,0 +1,25 @@
+X:8
+T:El condor pasa
+O:Inca
+C:
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+[dD] | G^FGA | BABc | d4- | d2ff | d4- | d2gf |
+d4- | dd cB | G4- | G2B2 | G4- | G2z :: d | g2-g>^f | g>^f g>f |
+g4- | g2 bg | =f4- | f2 gf |1 d4- | d2z :|2 d4 | ddcB | G4- | G2B2 | G4- | G2 z2 || 
+[K: clef=perc]  [Q:"vif"]  ^c^c/^c/- ^c^c | ^c^c/^c/- ^c^c | ^c^c/^c/- ^c^c | ^c^c ^c2 |:
+K: clef=treble
+d/g/d/g/ dc | B4 | cA/c/ f>g | d4 | d/g/d/g/ dc | B4 | G/A/B/c/ d/c/B/A/ | G4 ::
+BB/B/ d/f/d/c/ | B4 | BB/B/ d/f/d/c/ | B4 | ee/e/ ge | d>B d2 | A/AA/ BA | G4 :|
+%%footer $D   Galouvielle-MBe 2008 \n--- (--)
+S:https://www.folktunefinder.com/tunes/467
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

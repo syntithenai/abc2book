@@ -1,0 +1,24 @@
+X: 1
+T: Cwm Rhondda
+C: John Hughes (1873-1932)
+N: Public domain
+Q: "8.7.8.7.4.7"
+M: C
+L: 1/8
+K: G
+[| "G"[D2B,2] "C"[E2C2] "G"[D3D3]      [GD]     | "G"[GD]F      [GD][AE]    [B2D2] "D"[A2D2] |\
+   "G"[B2D2]  "C"[G2C2]    [E2E2]  "Am"[c2E2]   | "G"[B2D2] "D7"[A2C2]  "G"[G4B,4]           |]
+[| "G"[D2B,2] "C"[E2C2] "G"[D3D3]      [GD]     | "G"[GD]F      [GD][AE]   [B2D2]  "D"[A2D2] |\
+   "G"[B2D2]  "C"[c2E2] "G"[d2D2]  "Am"[cE]A    | "G"[G2D2] "D7"[F2D2]  "G"[G4D4]            |]
+[|"D7"[A3F3]     [BG]      [c2A2]      [A2D2]   | "G"[B3G3]     [cA]       [d2B2]     [B2G2] |\
+   "G"[d3G3]     [dG]  "D7"[cA][BG]    [AF][GE] | "D7"[d8F8] ||\
+   "G"[d3G3]     [cF]      [BG][dF] "C"[cE]A    | "G"[G2D2] "D7"[F2C2]  "G"[G4B,4]  |]
+S:https://www.folktunefinder.com/tunes/13732
+S:http://trillian.mit.edu/~jc/music/abc/hymn/CwmRhondda_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: la Temp\^ete
+O: Aird's Collection 1788-1803
+R: march
+B: RSCDS 2-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "Kilberry Polka"
+M: 2/4
+L: 1/8
+K: C
+|: "C"[cE]>G (5G/A/G/^F/G | e>c c2 | "G7"dG AB | "C"ce g2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dG AB | "C"[cE]z [cE]z :|
+|: "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dB AB | "C"cz cz :|
+|| "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"d/c/B/A/G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |
+ | "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |]
+S:https://www.folktunefinder.com/tunes/15688
+S:http://trillian.mit.edu/~jc/music/abc/march/TempeteM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/TempeteM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/TempeteM.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/TempeteM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/TempeteM.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TempeteM.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

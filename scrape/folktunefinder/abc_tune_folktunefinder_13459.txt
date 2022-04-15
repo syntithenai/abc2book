@@ -1,0 +1,37 @@
+X:451
+T:45. THE SLIDE SCHOTTISCHE (32 bar hornpipes)
+T:Steamboat, The
+S:HALL, Ian  tradtunes 2004-1-28
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+(3def|"G"g2bg d2gd|"G"BcdB G2AB|"C"c2ec "Am"A2cA|"D7"FGAB cdef|
+"G"g2bg d2gd|"G"BcdB G2AB|"C"cedc "D7"BAGF|"G"A2G2 G2:|
+P:B
+Bc|"G"dBdB g2gd|"Am"ecec a2ag|"D7"fefd "G"gfgb|"A7"agfe "D7"defd|
+"G"g2bg d2gd|"G"BcdB G2AB|"C"cedc "D7"BAGF|"G"A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/13459
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Steamboat_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Steamboat_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/Steamboat_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Steamboat_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Steamboat_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Steamboat_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Steamboat_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/45_THE_SLIDE_SCHOTTISCHE_32_bar_hornpipes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Steamboat_The_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

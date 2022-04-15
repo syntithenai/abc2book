@@ -1,0 +1,32 @@
+X: 167
+T:Earle of Darwin's Farewell,The. HA.166
+M:3/4
+L:1/8
+Q:1/4=140
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:HA marks the lower F# in addition to the upper F#.
+N:i.e the key of D looks like 3# in MS.  NBr
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+(dA)(dA)d2|f2 d2D2|f2 (gf) g2|e3f (e/2f/2g)|!
+fed2B2|(ef)(ec)(BA)|d3 f(e/2c/2B/2A/2)|A6||!
+e>de>fe>f|e>dc>B A2|f>ef>gf>e|f2d2d2|!
+g>fg>ag>f|g2e2a2|b3a^g2|a6|!
+a>ga>ba>g|f>ed>cB2|g>fg>ag>f|e>dc>BA2|!
+d>cdFGA|B3g f2|e2a2c2|d6|]
+S:https://www.folktunefinder.com/tunes/72416
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

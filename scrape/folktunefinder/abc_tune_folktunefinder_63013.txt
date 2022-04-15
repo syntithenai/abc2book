@@ -1,0 +1,23 @@
+X:160
+T:Humours of Tulla
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of D)
+K:Dmaj
+"D"d2 Ad BdAB | d2 fd "G"edBc | "D"d2 Ad BdAd | "G"(3Bcd ef "A"gefe |
+"D"d2 Ad BdAB | d2 fd "G"edBc | "D"d2 Ad BdAd | "G"(3Bcd ef "A"g2 fg |
+"D"af ~f2 df ~f2 | af ~f2 "A"ge ~e2 | "D"af ~f2 dfed | "G"(3Bcd ef "A"g2 fg |
+"D"af ~f2 bf ~f2 | af ~f2 "A"ge ~e2 | "D"af ~f2 dfed | "G"(3Bcd ef "A"g2 fe |]
+S:https://www.folktunefinder.com/tunes/63013
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

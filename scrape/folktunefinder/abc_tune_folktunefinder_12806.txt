@@ -1,0 +1,34 @@
+X: 2
+T: Whisky You're the Devil
+O: Ireland
+M: C
+L: 1/16
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+%%scale 0.70
+K: G
+d2  \
+| "G"G2G2G2A2 B2d2d2d2 \
+| "Am"e2A2A2B2 "D7"c2d2e2d2 \
+| "C"g2a2g2e2 "G"e2d2d2B2 \
+| "A7"A2A2A2B2 "D7"A2F2E2D2 |]
+| "G"G4B3A G6dB | GGGG GABc d6 dB \
+| "Am"AAAA ABcd e4 "D7"z2d2 \
+| "C"g2a2g2e2 "G"e2d2"C"g2e2 \
+| "G"d2B2 "D7"A3B "G"G4 z4 |]
+[| "G"G2G2 G3A B2d4d2 \
+| "C"e2d2e2f2 g4 \
+| "C"g3a g2e2 "G"e2d4B2 \
+| "A7"A3A A2B2 "D7"A6 d2 |
+| "G"G2G2G2A2 B2d2d2d2 \
+| "C"e2d2e2f2 g4g2f2 \
+| "G"e2d2 "C"[g3c3]f "G"e2d2 "Em"B2G \
+| "Am"A4-"D7"A4 "G"G6 |]
+S:https://www.folktunefinder.com/tunes/12806
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/WhiskyYoureTheDevil.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

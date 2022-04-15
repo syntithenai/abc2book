@@ -1,0 +1,25 @@
+X:7871
+T:Wallach moor
+O:england
+R:Jig
+M:6/8
+N:from a printed tunebook owned by the Winders
+K:Bm
+F | BcB f2e | dcB c2F | BcB c2F | BcB c2F | \
+BcB f2e | dcB ^AcF | B2c dec | B3-B2 :|
+|:A | ded a2g | fed ceA | dcd e2A | dcd ecA | \
+ded a2g | fed ce^A | B2c dec | B3-B2 :|
+S:https://www.folktunefinder.com/tunes/28323
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

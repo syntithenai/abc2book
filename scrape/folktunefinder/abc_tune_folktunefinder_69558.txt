@@ -1,0 +1,29 @@
+X:699
+T: "Genoveva"
+N: Z1380
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Erzaehlung, Romanze
+M: 3/4
+L: 1/16
+K: D
+F2E2 | D4F4G4 | A8
+d2c2 | B4A4G4 | A4z4
+A4 | B4A4G4 | A8
+A4 | B4A4G2E2 | F6G2
+A4 | F4E4D4 | E8
+F2E2 | D4D4E4 | F3ED4
+d2c2 | B4A4G4 | F2G2A4
+G4 | F6D2E4 | D8
+S:https://www.folktunefinder.com/tunes/69558
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

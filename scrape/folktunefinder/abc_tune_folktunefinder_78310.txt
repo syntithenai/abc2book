@@ -1,0 +1,31 @@
+X:289
+T: MEIN LEBENSLAUF IST LIEB UND LUST
+N: B0341
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 4/4
+L: 1/8
+K: C
+C2 | G,3A,G,2C2 | G,3A,G,2
+G,2 | F,3E,F,2G,2 | E,4z2
+C2 | C3B,A,2B,2 | C3B,A,2
+D2 | D3CB,2A,2 | G,4z2
+G,2 | B,2B,2D2D2 | B,2B,2G,2
+G,2 | F,3E,F,2G,2 | E,4z2
+C2 | C3B,A,2B,2 | C3B,A,2
+D2 | B,2G,2A,2B,2 | C4z2
+E2 | E4z2E2 | E4z2
+E2 | F2F2D2D2 | E3FG2
+E2 | E4z2E2 | E4z2
+E2 | F2F2D2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/78310
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

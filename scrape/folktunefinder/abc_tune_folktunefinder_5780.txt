@@ -1,0 +1,26 @@
+X: 1
+T: La Raspa
+O: Mexico
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 6/8
+L: 1/8
+K: D
+"A"
+|: z2A | "D".d2A .d2A | .dz2 z2A | ded c2d | "A7".ez2 z2A | .c2A .c2A |.cz2 z2A | cdc B2c | "D"H.dz2 :|
+"B"
+|: f2a | "D"ddd dcd | "A7".ez2 e2g | ccc cBc | "D".dz2 f2a | ddd dcd | "A7".ez2 e2g | ccc cBc | "D".dz2 :|
+"A"
+|: z2A | "D".d2A .d2A | .dz2 z2A | ded c2d | "A7".ez2 z2A | .c2A .c2A |.cz2 z2A | cdc B2c | "D".dz2 :|
+"C"
+|: a^g | "D"af^e fdc | .d2A- AFG | ABc def | "A7".g2e- egf | ge^d ec^B | .c2A- Aa^g | aba gfe | "D".dz2 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/5780
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LaRaspa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Raspa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Mexico/Raspa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

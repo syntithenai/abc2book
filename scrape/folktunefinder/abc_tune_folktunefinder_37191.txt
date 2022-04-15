@@ -1,0 +1,25 @@
+X:5560
+T:Seven Stars
+A:North-West
+M:6/8
+O:England
+R:32-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004d3.html
+%%ID:000004d3
+K:D
+d2A A2F| GAB A3| Bcd efg| fed cBA| \
+d2A A2F| GAB A3| Bcd efg| Adc d3::
+e2A A2f| efg "tr"f3| efg fed| cde A3| \
+BGB AFA| BGB AFA| Bcd cde| Adc d3:|
+S:https://www.folktunefinder.com/tunes/37191
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 32-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

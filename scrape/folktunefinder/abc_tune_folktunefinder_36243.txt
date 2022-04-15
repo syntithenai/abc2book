@@ -1,0 +1,26 @@
+X:820
+T:Brudemarsch #1
+A:Fan
+M:2/4
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007ac.html
+%%ID:000007ac
+K:E mixolydian
+e2ed c2cd|edcB A2A2|f2fe c2d2|e4 e4 :: \
+K:ADor
+e2e2 a2a2 | g4 gfef|
+g2gf e2d2|c4 cBcd|e2e2 A3B|c2cA B2BG |1 \
+B2A2 AB^cd :|2 B2A2 A4 |]
+S:https://www.folktunefinder.com/tunes/36243
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

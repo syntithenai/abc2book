@@ -1,0 +1,24 @@
+X:16
+T: Ich sach mir einen blauen Storchen
+N: L0071A
+O: Europa, Mitteleuropa, Deutschland
+N: Baseler Hs., 1544
+R: Lied
+M: 6/4
+L: 1/4
+K: G
+d | d2dd_ee | d2dc2
+c | g2=f2_ec | d2Gd2
+d | d2_e2=fd | c3G2
+A | _B2B2AA | G2DG2
+S:https://www.folktunefinder.com/tunes/80015
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

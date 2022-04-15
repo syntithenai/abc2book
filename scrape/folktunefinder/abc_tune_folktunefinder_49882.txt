@@ -1,0 +1,33 @@
+X:18434
+T:Waltz,5. TLY.076
+M:3/4
+L:1/8
+Q:120
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Waltz
+O:England.
+A:Lancashire.
+N:triplets are not marked after first bar in C part but simil
+H:1860.
+Z:Taz Tarry.
+K:B_
+F2| B3 cdc| Bb B2 cB| AcFAcA| Bd F2F2|B3  cdc| Bb B2 cB| AcFAcA|B4:|!
+|:B2|ABcdec|dfedcB|ABcdeB|df F2B2|ABcdec|dfedcB|ABcdeB B4:|!
+|:F2| (3BcB (3ded (3 fgf| bfd Bdf bfd|ecA FAc ecA| Bdf ecA FAc|!
+ BcB ded fgf| bfd Bdf bfd|ecA FAc ecA| Bdf ecA FAc|B4:|!
+|:f2|=efgf_ec| c2-f2 B2|ABcdec| d2-B2 f2| =efgf_ec| c2-f2 B2|ABcdec| B2
+ B,2 :|]
+S:https://www.folktunefinder.com/tunes/49882
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

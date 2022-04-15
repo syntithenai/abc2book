@@ -1,0 +1,23 @@
+X: 1
+T: Peggy's Jig
+M: 6/8
+L: 1/8
+C: Mike MacDougall
+Z: Toby A. Rider <darkrider1:tullochgorm.com>
+R: Jig
+O: Ingonish Beach
+K: G
+c \
+| BdB GBd | cec E2 G | FAF DFA | GBG D2 c | BdB GBd |
+| cec E2 G | FED AFD | G3 G | B | ded dBd | gbg d2 g | faf A2 B |
+| cec B2 c | ded dBd | gbg d2 g |1 fed cAF | G3 G :|2 fed afd | g3 g |]
+S:https://www.folktunefinder.com/tunes/14841
+S:http://trillian.mit.edu/~jc/music/abc/jig/PeggySJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PeggySJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

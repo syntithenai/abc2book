@@ -1,0 +1,27 @@
+X:17555
+T:Tom Fowlers Hornpipe
+R:Hornpipe
+O:England
+M:4/4
+A:Lancashire
+B:Winder
+K:G
+Bc|\
+dcBA Ggfg | e4 d4 | cdcB ABAG | F4 E4 |\
+DEFG A2B2 | c2de d2c2 | BAGA D2F2 | G6:|*
+|:d2|\
+g2bg e2ag | f4 d2ef | g3f edcB | ABAG F3E |\
+DEFG A2B2 | c2de d2c2 | BAGA D2F2 | G6 :|**
+S:https://www.folktunefinder.com/tunes/38926
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

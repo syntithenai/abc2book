@@ -1,0 +1,32 @@
+X:20
+T:Chipin Fair
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+N:College/Sailor's Hornpipe under a different title
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000db5.html
+%%ID:00000db5
+K:D
+(dc) |\
+d2(D2 D2)AG   | F2(d2 d2)cd | \
+e2(E2 E2)(ed) | c2a2  a2ga  | \
+bagf gfed | edcB A2G2 |\
+Bdce dfeg | f2(d2 d2) ::
+AG |\
+FAdA FAdA | B2(G2 G2)cB |\
+Aced Aced | c2(A2 A2)gf | \
+g2a2 bagf | gfed c2A2 |\
+Bdce dfeg | f2(d2 d2):|
+S:https://www.folktunefinder.com/tunes/43567
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

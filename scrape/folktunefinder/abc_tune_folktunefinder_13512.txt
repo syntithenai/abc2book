@@ -1,0 +1,31 @@
+X: 40
+T:Coleg y Brifysgol Abertawe
+M:C|
+L:1/8
+Q:180
+C:Trad
+S:Blodau'r Grug Collection Vol. 3
+A:Wales
+N:This is a hornpipe, but should be played with steady (NOT DOTTED)
+N:rhythm.
+Z:brian_martin12345@yahoo.com
+K:Dm
+A2|d2A2AcBA|B2G2GBAG|AGFA GFEG|FEDF EA=B^c|d2A2AcBA|B2G2GBAG|
+AGFA GFEG|F2D2D2:||
+A2|defed2d2|efgfe2e2|defed2d2|!
+ed^c=B ABcA|defed2d2|edefg2ag|fedf ed^ce|d2d2d2:||
+S:https://www.folktunefinder.com/tunes/13512
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ColegYBrifysgolAbertawe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/hornpipe/ColegYBrifysgolAbertawe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/ColegYBrifysgolAbertawe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:6922
+T:The Homebrew
+O:england
+R:hornpipe
+C:Composed by Gavin Atkin
+S:Copyright Gavin Atkin 1995
+N:Step-hop dedicated to home-made beer
+M:4/4
+L:1/8
+Q:70
+K:G
+D |"G" .g2 "Bm" .g2 "Em" .g2 "D" ~f>e |"G" d>B "D" A>B "Em" G2 (3GAB |
+"C" .c2 "C" c>e "G" d>B "G" G>B |"D" ~A>G "D" F>G "D7".A2 "D7" .A2 |
+"G".g2"Bm" .g2 "Em".g2 "D"~f>e |"G"d>B "D" A>B "Em" G2 (3GAB |
+"C".c2 "C" c>e "G" d>B "G" G>B | "D7" ~A>G "D" F>A "G" .G2 "G" G2 |
+"G" b>_b .=b2 "F#m" a>_a .=a2 |"G" ~ge dB "Em" .G2 "G" (3GAB |
+"C" c2 ce "G"d>B G>B | "D" ~A>G F>G "D7" .A2 "F#m" A2 |
+"G" b>_b .=b2 "F#m" a>_a .=a2 | "G" ~gedB "Em" .G2 "G" (3GAB |
+"C" ~c2 ce "G" d>BG>B | "D7" ~A>GF>A "G" .G2 "D7" G2 |
+S:https://www.folktunefinder.com/tunes/27374
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:21
+T:Kadril van Kampenhout
+T:Eerste figuur "Vandeu"
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:ABCDA
+L:1/8
+M:6/8
+K:F
+P:A
+(3C/D/E/ | F2 E F2 G | A2 F C2 z | A2 ^G A2 B | c2 A F2 z | G2 A BAG | F2 f e2 d | c2 ^c d2 e | f2 z F2 |]
+P:B
+M:2/4
+L:1/8
+z | F/G/A AA | F/G/A AA | FA cd | c=B _B2 | E/F/G GG | E/F/G GG | C/E/G/B/ d/c/B/G/ | F z F |]
+P:C
+M:6/8
+L:1/8
+(3C/D/E/ | F2 E F2 G | A2 F C2 z | A2 ^G A2 B | c2 A F2 z | G2 A BAG | F2 f e2 d | c2 ^c d2 e | f2 z F2 |]
+P:D
+M:2/4
+L:1/8
+z | A3 F | (C2 C/)C/F/A/ | c3 A | (F2 F/)A/c/f/ | e(3e/f/e/ d(3d/e/d/ | c(3c/d/c/ B(3B/c/B/ | A(3A/B/A/ G(3G/A/G/ | F z F |]
+S:https://www.folktunefinder.com/tunes/40604
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Love, Port and Sherry
+O: English
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: Kennedy (Fiddlers Tune Book), v.2, 1954; p.39
+B: Raven (English Country Dance Tunes), 1984; p.100
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d3 fed | "A7"cea age | "D"d3  "Bm"fed | "E7"cdB "A7"ABc \
+| "D"d3 fed | "A7"cea abg | "D"fed "A7"cBc | "D" dAF     D2 :|
+|: A/G/ \
+| "D"F2F     FAF | "G"G2G    GBG | "D"A2A     fed | "A7"cea a2d/e/ \
+| "D"fed "A7"gfe | "D"agf "G"bag | "D"fed "A7"cBc |  "D"dAF D2    :|
+S:https://www.folktunefinder.com/tunes/14565
+S:http://trillian.mit.edu/~jc/music/abc/jig/LovePortAndSherry_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LovePortAndSherry_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LovePortAndSherry_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:74
+T: WILL SICH HEKTOR EWIG VON MIR WENDEN
+N: B0101
+O: Europa, Mitteleuropa, Deutschland
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: C
+E,F, | G,3G,G,CDC | CB,B,2z2
+B,C | D3B,G,A,G,F, | E,G,C2z2
+G,A,B, | C3A,^F,D,B,A, | G,2z4
+G,G, | G,B,D2DCB,B,A,G, | G,CC2z2
+G,G, | G,B,D2DCB,B,A,G, | G,CC2z2
+G,A,B, | C3E,F,G,A,B, | CDE4
+CA, | G,3E,A,G,F,D, | C,2z4
+S:https://www.folktunefinder.com/tunes/78095
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

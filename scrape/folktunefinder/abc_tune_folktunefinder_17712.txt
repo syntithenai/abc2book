@@ -1,0 +1,27 @@
+X: 1
+T: the Mossy Banks
+M: 2/2
+L: 1/8
+R: Reel
+Z: Rob Greenway <rgreenwa@NAS.EDU> irtrad-l 2000-08-28
+K: G
+gedB G3A | BAGB AEGE | DEGA Bd~d2 | edgd edef |
+gedB G3A | BAGB AEGE | DEGA (3Bcd ge | dBAG EGG2 :|
+|:G3B ABGE | DGBG AGEG | Bd~d2 edge | dBGA BA~A2 |
+G3B ABGE | DGBG AGEG | Bd~d2 edge |1 dBAB GDEF :|2 dBAB G3f |
+|:g2dg egde | gabg agab | g2dg egdB | ABGA BG (3Bcd |
+g2dg egde | gabg agab | gfga gfed | (3efg fa g3f :|
+S:https://www.folktunefinder.com/tunes/17712
+S:http://trillian.mit.edu/~jc/music/abc/reel/MossyBanks.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MossyBanks.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MossyBanks.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

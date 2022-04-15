@@ -1,0 +1,26 @@
+X:45
+T:The Anti-Gallican Privateer
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+N:the printed version has apparently nonsensical segno and repeat
+M:6/8
+L:1/8
+K:G
+B|d2 B G A B|c2 A F2                           \
+                     A    |d2 B G2  E|F2 A d2||
+B|d2 d d2  d|e2 f g2                           \
+                     f/ e/|d2 B c B A|G2 G G3 |
+A2 B c3     |B2 d g2                           \
+                     f/ e/|d2 B c B A|G2 G G2|]
+S:https://www.folktunefinder.com/tunes/75608
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

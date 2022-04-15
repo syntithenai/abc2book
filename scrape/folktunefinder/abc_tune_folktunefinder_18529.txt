@@ -1,0 +1,28 @@
+X:1
+T:Fig for a kiss
+M:9/8
+L:1/8
+S:James Kelly workshop
+Z:Foty, Caroline C. <FotyC@nasd.COM>
+N:The c near the end may be c# instead.
+R:slipjig
+K:EDor
+F |  "Em"G2B E2B BAG | "D"FGA D2A "(B7)"AGF | "Em"G2B E2B BAG | "G"BdB "D"AGF "Em"E2  :|
+f |  "Em"g2e g2e edB | "D"f2d dcd "(B7)"fga | "Em"g2e g2e edB | "D"dBA ABd "Em"e2 ||
+f |  "Em"g2e g2e edB | "D"f2d dcd "(B7)"fga | "Em"gfe "D"fed "C"ed=c | "G"BdB "D"AGF "Em"E2 |]
+S:https://www.folktunefinder.com/tunes/18529
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/FigForAKiss_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/FigForAKiss_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/FigForAKiss_Em.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/slipjig/FigForAKiss_Em.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/slipjig/FigForAKiss_Em.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Peter Rae's Jig
+C: Jim Johnstone
+R: jig
+M: 6/8
+L: 1/8
+K:  G
+|: "C"CEE "C7"EFG | "F"FAA "D7/F#"ABc | "G7"Bcd GAB | "C"cea "G7"g3 \
+| "C"CEE "C7"EFG | "F"FAA "D7/F#"ABc | "G7"Bcd GAB | "C"c6 :|
+|: "Dm"FDD "G7"DEF | "C"ECC C3 | "D7"^FDD DEF | "G7"GBc def \
+| "C"ecc "Am"cde | "F"dAA "D7/F#"Acd | "G7"Bcd GAB | "C"c6 :|
+S:https://www.folktunefinder.com/tunes/14851
+S:http://trillian.mit.edu/~jc/music/abc/jig/PeterRaesJig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Johnstone/PeterRaesJig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PeterRaesJig_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 3
+T:Chester Hornpipe. JaW.003
+M:C|
+L:1/8
+Q:180
+C:"This is the best way of playing...."
+S:James Winder Ms, Lancashire, 1835-41
+R:Hornpipe
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+z2|dBAG F2E2|DFAc d2d2|BcdB gfed|cAB^G A2(Ac)|!
+BAGf gfed|cde^g a2(ag)|fafd egec|d2d2 d2:|!
+|:z2|defg afed|cdef g2gf|g2(ga) gfed|cAB^G A2Ac|!
+BAGB gfed|cAce a2ag|fafd egec|d2d2 d2:|]
+S:https://www.folktunefinder.com/tunes/47540
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

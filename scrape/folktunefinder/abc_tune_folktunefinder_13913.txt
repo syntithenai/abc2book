@@ -1,0 +1,35 @@
+X: 493
+T:Hags Purse
+T:Bobby Caseys Jig
+T:Roscommon Jig
+Z:Peter Crummy  irtrad-l 2001-12-6
+R:jig
+M:6/8
+K:D
+D|A2B =cAF|G2E EDE|=c2d cAG|
+A2D FED|A2B =cAF|GEE =cEE|DED D2:||
+A|d2e fed|e2 d cAF|G2 E EDE|=c2 d cAG|
+Add fed|e2 d cAF|GEE =cEE|DED D2:||
+K:Dmix
+G|A2D FED|A2B cAF|G2E EDE|c2d cAG|
+A2D FED|A2B cAF|GEE cEE|DED D2:|
+c|d2e =fed|e2d cAF|G2E EDE|c2d cAG|
+d2e =fed|e2d cAF|GEE cEE|DED D2:||
+S:https://www.folktunefinder.com/tunes/13913
+S:http://trillian.mit.edu/~jc/music/abc/jig/BobbyCaseysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/HagsPurse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoscommonJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BobbyCaseysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/HagsPurse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/RoscommonJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BobbyCaseysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HagsPurse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RoscommonJig_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

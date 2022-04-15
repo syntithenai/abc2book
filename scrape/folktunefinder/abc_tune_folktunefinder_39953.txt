@@ -1,0 +1,42 @@
+X:8
+T:Rus Renard
+R:Canon  trois voix
+A:
+N:p 31
+S:extrait d'un recueil du XVIme s.
+O:France
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/4
+Q:1/8=130
+K:C
+P:A
+E | C D | C E | C D | C
+w:Ru-|s Re-|nard est | un sour-| nois,
+P:'B
+G | G F | E G | G F | E
+w:A | la ga-|renne il | faut qu'il | vienne
+P:'C
+c | e B | c c | e B | c ||
+w:Em-|bus-quons |nous, tirons-|le | tous. |
+%
+%
+%
+T:Rus Renard (canon)
+%%staves [1 2 3]
+V:1
+E | C D | C E | C D | C G | G F | E G | G F | E c | e B | c c | e B | c E | C D | C E | C D | C G | G F | E G | G F | E ||
+V:2
+z | z2  |  z2 |  z2 | z E | C D | C E | C D | C G | G F | E G | G F | E c | e B | c c | e B | c E | C D | C E | C D | C ||
+V:3
+z | z2  |  z2 |  z2 |  z2 |  z2 |  z2 |  z2 | z E | C D | C E | C D | C G | G F | E G | G F | E c | e B | c c | e B | c ||
+S:https://www.folktunefinder.com/tunes/39953
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Canon  trois voix
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

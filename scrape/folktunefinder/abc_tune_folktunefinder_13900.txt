@@ -1,0 +1,30 @@
+X: 95
+T:The Blooming Meadows
+T:High Part of the Road
+R:Dbl Jig
+S:Darcie's Trad. Tune Sourcebook
+M:6/8
+L:1/8
+K:G
+A|:B2B cBc|ded cAG|F2D DED|GFG ABc|
+  ~B3  cBc|dcA cde|fed cAF|[1 AGF G2A:|[2 AGF GBd|
+|:~g3 def| g2a bag| ~f3 def| afd cAF|
+~g3def| g2a bag| fed cAF|[1 AGF GBd:|[2 AGF G2|
+S:https://www.folktunefinder.com/tunes/13900
+S:http://trillian.mit.edu/~jc/music/abc/jig/Blooming_Meadows_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/High_Part_of_the_Road_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Blooming_Meadows_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/High_Part_of_the_Road_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Blooming_Meadows_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/High_Part_of_the_Road_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Blooming_Meadows_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/High_Part_of_the_Road_1.abc
+% Rhythm Dbl jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

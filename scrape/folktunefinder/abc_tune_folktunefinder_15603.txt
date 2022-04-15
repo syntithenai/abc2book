@@ -1,0 +1,22 @@
+X:1
+T:Mr Orff's March
+M:6/8
+L:1/8
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2002-4-15
+K:E Minor
+E>FG F2E|F>ED E3  |E>FG F2E |F>ED E3 |
+E>FG F2E|A2F  G>FE|A2F  G>FE|E<FD E3:|
+G2A  B2G|A>GF E2B |G2A  B2G |A>GA B3 |
+B>AG A2F|B>AG A2F |A2F  G>FE|E<FD E3:|
+S:https://www.folktunefinder.com/tunes/15603
+S:http://trillian.mit.edu/~jc/music/abc/march/MrOrffsMarch_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/march/MrOrffsMarch_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MrOrffsMarch_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

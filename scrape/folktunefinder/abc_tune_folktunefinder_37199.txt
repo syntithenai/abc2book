@@ -1,0 +1,24 @@
+X:5600
+T:Shane's Fancy
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cbd.html
+%%ID:00000cbd
+K:G
+d|\
+G2G d2d | efg f2(3d/2e/2f/2 | g2g c2e | dBG FED | \
+G2G d2d | efg f2(3d/2e/2f/2 | g2g c2e | dBG G2 :|
+g/2a/2|\
+b3 gab | a3 def | g3 efg | f3 Bcd | e2g d2g | \
+c2g B2g | BAG DGE  G3 G2 :|
+S:https://www.folktunefinder.com/tunes/37199
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

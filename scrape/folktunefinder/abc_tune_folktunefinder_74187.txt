@@ -1,0 +1,29 @@
+X:1028
+T: My Brother Tom
+T: Tomas Mo Dearbratair
+R:double jig
+N:"collected by J.Kennedy"
+S:996 O'Neill's Music of Ireland
+N:I think this should be in the key of C
+B:O'Neill's 996
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:6/8
+K:D
+D|:DED AGE|GAB cBc|DED AGE|GcA GEC|
+|DED AGE|GAB cBc|edc dcA|GcA GED:|
+|ABc dcd|edc d2 c|ABc d2 e|fed cAG|
+[1 ABc dcd|edc d2 c|GAB cBc|GcG GEC:|
+[2 fed edc|dcA c2A|GAB c2 A|GcA GED||
+S:https://www.folktunefinder.com/tunes/74187
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

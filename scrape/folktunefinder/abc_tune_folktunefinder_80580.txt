@@ -1,0 +1,48 @@
+X:3338
+T:Ach lieben Christen, seid getrost
+T:BWV 256
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0256/bwv0256-pno2.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:4/4
+L:1/4
+K:C
+V:1
+c|cA/B/ c/d/e|d/e//f// d cc|BA/B/ cd/c/|B2 A:|d|ee B/c/d|
+V:2
+E/F/| GF GG|AG/F/ E^F |G=F EA|A^G E:|=G |GG D/E/F|
+V:3
+C| CC CC|CB, G,A,| DD C/B,/A,|FE/D/ ^C:|B, |=CG,/A,/ B,A,/B,/|
+V:4
+A, |E,F, E,/D,/C,|F,G, C,A,|G,D A,/G,/F,/E,/|D,E, A,,:|G,,|C,/D,/E,/F,/ G,F,|
+%
+V:1
+cc Bc|dA/B/ cB|A//B//c/A Gc|BA/B/ cd/c/|B2 A2|]
+V:2
+EA ^GA |A/G/^F ED/G/|G/E/^F DE |D/E/^F/=F/ EA-|A^G E2 |]
+V:3
+C/D/E EE |A,D G,/A,/B,/D/|ED/C/ B,G,/A,/ |B,/C/D C/B,/A,/C/|F/D/B,/E/ ^C2 |]
+V:4
+A,,/B,,/C,/D,/ E,A,/G,/|^F,/E,/D, E,/^F,/G,|C,D, G,,E,/^F,/|\
+G,^F,/^G,/ A,/=G,/=F,/E,/|D,/B,,/E, A,,2 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/80580
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0256/bwv0256-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0256/bwv0256-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0256/bwv0256-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

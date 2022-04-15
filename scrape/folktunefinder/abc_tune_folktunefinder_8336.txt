@@ -1,0 +1,26 @@
+X: 131
+P: Orsapolska (Hambreauspolska efter Bleck\aa)
+O: efter Andrea Hoag
+R: Orsa-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Ddor
+   (vA2 \
+|| d3)(c d2)ef g3f | (dc3) A4 G2FE | (3F4(G4B4) A3G | (3{G2}F4D4E4 C3(A |
+| d3)(c d2)ef g3f | (dc3) A4 G2FE | (3F4(G4B4) A3G | (3E4G4F4 D4 :|
+|: (A2 \
+| c2e2) (d2e2) c3(d | e4) (g^f)g_b a3g | (e2^f2) (d2e2) ({cB}c2Ac) | e3(d _B2dc) A3(=B |
+| c2e2) (d2e2) c3(d | e4) (g_b)gb a2g2 | (e2^f2) d2e2 cBcd | (e^f)e^c d6 :|
+S:https://www.folktunefinder.com/tunes/8336
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm Orsa-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

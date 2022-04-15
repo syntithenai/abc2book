@@ -1,0 +1,28 @@
+X:2865
+T:the Kendal Hornpipe
+A:North-West
+M:4/4
+N:Can be played in G
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004fe.html
+%%ID:000004fe
+K:F
+cB|\
+Acfc AFAc| BcBA GAGE| FEFG AFAc| BcBA G2cB|\
+Acfc AFAc| BcBA GAGE| FEFG ABGE| F2F2 F2::\
+cB|\
+Accc c2de| fefc BAGF| AcFc AFcA| dFcF BAGF|\
+Accc c2fc| Bddd d2ge| fefc AcGE| F2F2 F2:|
+S:https://www.folktunefinder.com/tunes/36652
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

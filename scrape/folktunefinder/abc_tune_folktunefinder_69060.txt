@@ -1,0 +1,28 @@
+X:201
+T: AUF IHR BRUEDER ALLEZUMAL, FAHRET KANONEN WOHL VOR DEN WALL
+N: Z0200
+O: Europa, Mitteleuropa, Deutschland, Anclam
+R: Soldaten -, Kriegs - Lied
+M: 6/8
+L: 1/16
+K: F
+ | F4G2F4G2 | F2E2D2C4z2
+F2E2F2G2F2G2 | A4B2A4z2
+F4G2F4G2 | F2E2D2C4z2
+F2E2F2G2F2G2 | A4B2A4
+FG | A2A2ccA2A2c2 | A2A2c2A4
+A2 | G4G2c4B2 | A4G2A4
+C2 | A4G2F2E2F2 | D2E2F2C4
+C2 | F2F2F2c2c2B2 | A4G2F6
+S:https://www.folktunefinder.com/tunes/69060
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

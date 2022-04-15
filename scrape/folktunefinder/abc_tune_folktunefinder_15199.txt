@@ -1,0 +1,36 @@
+X: 3
+T: Trip to Athlone
+T: aka Newport Lass
+M: 6/8
+L: 1/8
+R: jig
+O: Ireland
+D: An Historic Recording of Irish Music
+H: First recoreded by John McKenna as Newport Lass. later, by Paddy
+H: O'Brien as Trip to Athlone
+Z: Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+K: D
+|: ABA D2A | d=cA AGE | ABA ABc |  dAB cde  |
+|  ABA D2A | d=cA AGE | GFG Ade |1 fdc dcB :|2 fdc d2  ||
+|: e \
+|  fed edc | Adc  Ade | fed efg |  ABc def  |
+|  gfg age | d=cA AGE | GFG Ade |1 fdc d2  :|2 fdc dcB |]
+S:https://www.folktunefinder.com/tunes/15199
+S:http://trillian.mit.edu/~jc/music/abc/jig/TripToAthlone1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Newport_Lass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TripToAthlone1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Newport_Lass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TripToAthlone1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Newport_Lass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TripToAthlone1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Newport_Lass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Newport_Lass_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

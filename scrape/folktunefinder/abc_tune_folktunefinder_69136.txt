@@ -1,0 +1,25 @@
+X:277
+T: "Kleiner feiner Almanach. Altes Lied. "
+N: Z0275
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2D2E2F2 | G3ED2
+G,2 | C2D2E2F2 | G3ED2
+E2 | D2C2B,2A,2 | G,4G,2
+G,2 | D2G,2D2G,2 | E2C2E2
+C2 | F2E2D2C2 | D4C2
+S:https://www.folktunefinder.com/tunes/69136
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

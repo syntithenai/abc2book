@@ -1,0 +1,24 @@
+X: 1
+T: the Rambling Pitchfork
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:D
+|: "D"~F3 AFF |     dFF AFD | "G"GFG "A7"ABc |  "D"ded    "A7"cAG \
+|  "D"~F3 AFF |     dFF AFD | "G"~G3     BGB | "A7"AFD     "D"D3 :|
+|: "D"d2e fed | "A7"ecA AFA | "D"dcd "A7"efg |  "D"f{g}af "A7"gfe \
+|  "D"d2e fed | "A7"ecA AGF | "G"~G3     BGB | "A7"AFD     "D"D3 :|
+S:https://www.folktunefinder.com/tunes/14958
+S:http://trillian.mit.edu/~jc/music/abc/jig/RamblingPitchfork2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RamblingPitchfork2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/RamblingPitchfork2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RamblingPitchfork2_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

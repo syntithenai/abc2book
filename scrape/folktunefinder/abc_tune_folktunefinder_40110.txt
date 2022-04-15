@@ -1,0 +1,25 @@
+X: 6
+T: 2. My Lady's Goon Has Gairs On't
+R: Strathspey
+L: 1/8
+M: C
+% Q: 220
+K: G
+D |: \
+"G" G<G G>B "Am" A>GE>A | "G" G<GB>d "C" e>d "G" B<g | "G" G<GG>B "Am" A>GE>c | "G" B>d "C" g>e "D" d>BA>B |
+"G" G<G G>B "Am" A>GE>A | "G" G<GB>d "C" e>d "G" B<g | "G" G<GG>B "Am" A>GE>c | "G" B>d "C" g>e "D" d>BA>B |
+"G" B>cd>G "C" e>d "D" d>c | "G" B>cd>G "D" F<AA>c | "G" B>cd>G "C" e>d "D" d>c |  "G" B>d "C" g>e "D" d>BA>c  |
+"G" B>cd>G "C" e>d "D" d>c | "G" B>cd>G "D" F<AA>c | "G" B>cd>G "C" e>d "D" d>c |1 "G" B>d "C" g>e "D" d>BA>B :|2 "G" B>d "C" g>e "D" d2 ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 5 of 31
+S:https://www.folktunefinder.com/tunes/40110
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

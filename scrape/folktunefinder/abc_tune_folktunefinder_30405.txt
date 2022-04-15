@@ -1,0 +1,28 @@
+X:480
+T:When I follow'd a Lass
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000128.html
+%%ID:00000128
+K:G
+G/A/|\
+B>cB B>AG| ABA A2 d/c/| B>AG A>GF| GAG G2G/A/|\
+B>cB B>AG| ABA Adc|
+BAG AGF| G2G G2::\
+d|\
+g2d "tr"e2d| dgd "tr"e2d|
+gfe dBG| ABA A2d/c/|\
+BcB BAG| ABA Adc| BAG AGF| GGG G2:|
+S:https://www.folktunefinder.com/tunes/30405
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

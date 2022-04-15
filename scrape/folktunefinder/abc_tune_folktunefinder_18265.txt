@@ -1,0 +1,26 @@
+X: 1
+T: the Twenty-Ninth of May
+R: reel
+O: trad England
+Z: John Chambers <jc@trillian.mit.edu>
+N: Country dance version of the hymn All Things Bright and Beautiful"
+B: Hunt p.14 #45; Raven p.25
+M: C|
+L: 1/8
+K: D
+|: "D"a2f2 g2f2 | "A"edcB "D"A2f2 | "G"g2B2 "A7"~c3B/c/ | "D"d2A2 F2ED :|
+|| "D"F2A2 A2GF | "G"GA B4 B2 | "A7"cde2 cde2 | c2Bc A2de |
+| "D"f2ef d2ef | "G"g2fg "Em"e2fg | "A7"a2B2 ~c3 B/c/ | "D"d2A2 F2ED |]
+S:https://www.folktunefinder.com/tunes/18265
+S:http://trillian.mit.edu/~jc/music/abc/reel/TwentyNinthOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TwentyNinthOfMay.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

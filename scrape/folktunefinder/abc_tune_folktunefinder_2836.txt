@@ -1,0 +1,34 @@
+X: 1
+T: Ivanica
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: D
+%%text N.B.: No extra measures!
+P: Instr:
+|| "D"[FD][GE][AF] [AF][GE] [F2D] | [AF][BG][cA] [cA][BG] [A2F] \
+| "A"[cA][dB][ec] "E"[ec][dB] [d/B][c/A][d/B][e/c] | "A"[c7A] |
+| "A"[cA][dB][ec] [ec][dB] [dB][cA] | "A7"[c2A][dB] [cA][BG] [BG][AF] \
+| "G"[B2G][cA] "A7"[AF][GE] [GE][FD] | "D"[F7D]  ||
+P: Vocal:
+|| "G"[B2d][Bd] [A2c] [B2d] | "A7"[c2e][Bd] [A2c] [G2B] \
+| "D"[F2A][GB] "G"[B2d] [Bd][Ac] | "A"[A7c] |
+S:https://www.folktunefinder.com/tunes/2836
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Les_Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Les_Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Les_Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Ivanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_Ivanica.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 197
+T:Britton Strike Home. HA.196
+M:3/4
+L:1/4
+Q:1/4=120
+C:Henry Purcell
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Notes added in MS: after title "(by Henry Purcell G")
+N:at foot of page "* First performed in "Boadicea" 1696 G"
+H:1/4
+Z:vmp.Neil Brookes, Jan.2004
+K:D
+"v"d"u"d"u"e|"="f2a|"v"de"="f|\
+ef"v"g|a b/2a/2g/2f/2|"="e3:|!
+|:e2z|eef|.e2z|"v"f2z|ffg|fga|!
+agf|"u"g/2"u"f/2 ("="e3/2d/4e/4)|"v"f2z|\
+"v"a2z|a b/2a/2g/2f/2|"v"g2z|!
+"v"g2z|efg|fga|bag|fga|g/2f/2 "="e2|"v"d3:|]
+S:https://www.folktunefinder.com/tunes/72446
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

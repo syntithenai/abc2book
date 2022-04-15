@@ -1,0 +1,22 @@
+X: 1
+P: Sk\aalbergsl\aaten
+%: Simplified version
+R: Boda-polska
+O: Boda Spelmanslag
+M: 3/4
+L: 1/16
+K: G
+|: "G"(~B3A) B4 e3d | (dB3) G8 | (~B3A) B4 e3d | "Am"(dB3) c8 | (~c3B) c4 d3e | "D7"{e}f4 f8 | vA3vf f8 | e4 d-ed^c d3=c |
+|  "G"(~B3A) B4 e3d | (dB3) G8 | (~B3A) B4 e3d | "Am"(dB3) c8 | (~c3B) c4 d3e | "D7"{e}f4 f8 | d4 cdcA F2AF | "G"{F}G4 G8 :|
+|: "G"vD3vB [B8D8] | vD3vB [B8D8] | B4 {cB}A4 {BA}G4 | "Am"F4 E-FED E4 | "Am"vE3vc [c8E] | vE3vc [c8E] | "D7"~c4 {Bc}e4 d4 | c4 BcBA B4 |
+|  "G"vD3vB [B8D8] | vD3vB [B8D8] | B4 {cB}A4 {BA}G4 |  "C"F4 E-FED E4 | "Am"(~c3B) c4 d3e | "D7"{e}f4 f8 | d3B cdcA F2AF | "G"{F}G4 G8 :|
+S:https://www.folktunefinder.com/tunes/8991
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Boda2.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

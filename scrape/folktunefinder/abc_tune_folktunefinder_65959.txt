@@ -1,0 +1,21 @@
+X:135
+T:Bunch of Keys
+Z: id:dc-reel-29
+M:C
+L:1/8
+K:G Mixolydian
+E|DGG^F G2GA|BGdG eGdG|DFFE F2FG|AFcF dFcF|!
+DGG^F G2GA|BAGA Bcde|fgfd cBAc|BGA^F DGG:|!
+B|dgg^f g3a|bgag bga^f|d^cde ^fefg|a^fgf afge|!
+dgg^f g3a|bgag ^fdde|fgfd cBAc|BGA^F DGG:|!
+A|BGG2 BGdG|BGG2 Bdgd|AFF2 AFcF|AFF2 ABcA|!
+BGG2 BGdG|BGGA Bcde|fage fdcA|GBA^F G3:|!
+S:https://www.folktunefinder.com/tunes/65959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

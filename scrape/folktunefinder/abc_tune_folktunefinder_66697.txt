@@ -1,0 +1,19 @@
+X:13
+T:Fisherman's Island
+C:Ed Reavy
+M:4/4
+L:1/8
+K:D
+"D" DEFA      d2 dA | "G" BAGB   "D" AFDF | "A" GEED       EFGA | "G" (3(Bcd) ed "A" cAAg |
+"D" fd ~d2 "A" ecAc | "G" ~d3 A  "D" BAGF | "G" EFGA (3(Bcd) ed |1 "A" cAGE     "D" EDA,E :|2 "A" cAGE  ED D2||
+"D" fd ~d2   AF ~F2 | DFAd          f2 ef | "A" gece       bece | "G" dfed       "A" cAGE | 
+"D" DF ~F2     Adfd | "G" Bg ~g2 "A" edcB | "D" Adfa   "G" gbed |1 "A" cAGE     "D" ED D2 :|2 "A" cAGE EDA,E |]
+S:https://www.folktunefinder.com/tunes/66697
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

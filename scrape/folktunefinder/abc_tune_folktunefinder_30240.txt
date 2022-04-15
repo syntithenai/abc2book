@@ -1,0 +1,23 @@
+X:0
+T:O Shepherd, O Shepherd, Will You Come Home
+G:song
+S:Vaughan Williams and Lloyd, Penguin Book of English Folk Songs
+M:6/8
+L:1/8
+Q:3/8=100
+K:GDor
+% dorian/minor hexatonic
+B|BBB Bcd|c2B A2||\
+c|B2G GAG|F2D D2||
+B|BBB BAB|c2c d2||\
+c|BAG AGF|G3  G2|]
+S:https://www.folktunefinder.com/tunes/30240
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

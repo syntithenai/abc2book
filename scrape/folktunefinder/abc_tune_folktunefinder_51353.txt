@@ -1,0 +1,24 @@
+X:20008
+T:Three Around Three
+R:Reel
+C:Trad.
+O:England
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+Bc|"G"d2BA G2G2|"D"A2BA "G"G2D2|"C"EDEF "G"G2AB|"Am"c2B2"D"B2A2|
+"G"d2BA G2G2|"D"A2BA "G"G2D2|"C"EDEF "D"G2Ac|"G"B2G2G2:|
+|:Bc|"G"d2ef "Em"gfed|"C"e2e2efge|"G"d2B2B2AG|"D"FGAB A3 B|
+"G"d2ef "Em"gfed|"C"e2e2e3d|"C"efge "D"fgaf|"G"g4g2:|
+S:https://www.folktunefinder.com/tunes/51353
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

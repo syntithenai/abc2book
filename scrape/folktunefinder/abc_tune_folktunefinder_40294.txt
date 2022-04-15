@@ -1,0 +1,26 @@
+X:96
+T:Secoundo marcho du Rei Rene
+O:France
+A:Provence
+C:Trad.
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-22
+S:Carnet du tambourinaire Ginas (1924)
+M:C
+L:1/8
+K:Bb
+V:Galoubet
+c | f4 e>d c>B | A4-A2 zA | A4 c>BG>A | F6 zc | e>dc>B | A4-A2 zc | F4 G>A B>c | F2f>f f3!fine!::
+A2 | f4 e>d ^c>e | d4 A2A2 | f4 f>d ^c>e | d6 A2 | d4 e2f2 | g4 a2b>g | f2d2 e2>^c2 | d6!D.C.! :|
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40294
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

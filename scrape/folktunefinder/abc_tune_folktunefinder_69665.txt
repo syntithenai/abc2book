@@ -1,0 +1,27 @@
+X:105
+T: SCHOENER FRUEHLING KOMM DOCH WIEDER
+N: F0221A
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling, Natur
+M: 3/4
+L: 1/16
+K: C
+G,3F, | E,4C,4C3A, | G,4E,4
+A,3G, | F,4D,4G,3F, | E,4z4
+E3D | C4G,4C3A, | G,4E,4
+A,3G, | F,4D,4G,2F,2 | E,4z8
+G,6F2E3D | C3E,G,4z4
+G,3B,D4D4 | C3DE4E4
+G,6F2E3D | C3E,G,4z4
+G,3A,D4B,4 | C4z4
+S:https://www.folktunefinder.com/tunes/69665
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jahreszeiten - lied, fruehling, natur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

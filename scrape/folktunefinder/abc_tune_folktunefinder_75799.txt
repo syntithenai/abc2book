@@ -1,0 +1,28 @@
+X:103
+T:Valse des Montagnes
+C:Traditional
+O:Wallonie
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/8
+L:1/16
+N:Intro (AABBCC)x2
+K:D
+P:A
+  fa|ga fa eg|fa d2 fa|eg A2 ce|df A2 fa|ga fa ea|fa d2 fa|eg A2 ce|d2 z2:|
+P:B
+|:fa|eg A2 ce|df A2 fa|eg A2 ce|df A2 fa|ga fa eg|fa d2 fa|eg A2 ce|d2 z2:|
+P:C
+|:a2|b2a2f2|d4 a2|b2a2f2|e4 a2|b2a2f2|dcdfaf|edefge|d2:|
+S:https://www.folktunefinder.com/tunes/75799
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Wals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:12
+T:Bezemdans
+C:Traditioneel
+O:Winksele-Delle (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+N:(AAB)x2 A
+K:G
+P:A
+D |: B B B B|B/c/ d G2|A/B/ c F/G/ A|G/A/ B G D|B B B B|B/c/ d G2|A/B/ c F/G/ A|G B G D :|
+P:B
+K:D
+A A A f/e/|d3 A/d/|c c c3/ G/|B A F2|A A A f/e/|d3 A/d/|
+c c c3/ G/|B A F2|A A A f/e/|d3 A/d/|c c c B/c/|d z z2 |]
+S:https://www.folktunefinder.com/tunes/75708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

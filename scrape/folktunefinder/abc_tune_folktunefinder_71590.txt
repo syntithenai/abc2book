@@ -1,0 +1,28 @@
+X:8
+T:The Earl of Hadinton
+R:Strathspey
+C:Trad.
+O:Scotland
+A:Inver (Perth)
+B:(n48) Gow Collection of Scottish Dance Music - Oak Publications
+Z:transcription (livre) : <anamnese@laposte.net>
+N:A Very Old Tune
+N:A la 4me mesure il y a en thorie un dise au dessus du G...
+M:C
+L:1/8
+Q:1/4=150 %tempo exact non connu
+K:C
+ E>Gc>G A/A/A A2 | ~c2 g>c a>ce<g |\
+  E>Gc>G A<a-a>g | ~g>de<c g>GA<c :|:
+ ~f>g{fg}a>g g<e ~e2 | e>dd>e ~g>de<g |\
+  E>Gc>G A<a~a>g | c'>ga>c ~A>GAc :|
+S:https://www.folktunefinder.com/tunes/71590
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

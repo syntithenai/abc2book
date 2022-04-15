@@ -1,0 +1,26 @@
+X:303
+%%topmargin 3cm
+T:Lady Jemima Johnston
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+F | (E>F)G>F E<cG>c | E>Gc>E FF | E>FG>F E>cG>E | {DE}F<D {/G,}G>F E<CC>F | TE>FG>F E>cG>c |
+E<cG>E {DE}FF | TE>FG>E {EF}G>A d>f | e<cG>B c<CC || (e/f/) | g>e{/B}c>e g>ag>e | f>d {/f}(ed/c/) B>dde/f/ |
+g>e{/B}c>e g>ag>e | f>dg>G A>{/B}c ce/f/ | g>e{/B}(c>e g)>ag>e | f>d {/f}ed/c/ Bf | e>g G>E F>d F>D | (B>c)d>f e<cc |]
+S:https://www.folktunefinder.com/tunes/71332
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Jemima_Johnston.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0303.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

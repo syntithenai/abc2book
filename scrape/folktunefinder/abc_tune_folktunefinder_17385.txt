@@ -1,0 +1,31 @@
+X:1
+T:Humours of Lissadel
+R:reel
+D:Paddy Killoran, 78, reissued on LP "Back in Town" (Shanachie)
+D:Kevin Burke, "Sweeney's Dream"
+D:The Bothy Band 1975
+D:Seamus and Manus McGuire, Folk-Legacy FSE 78 (LP)
+D:Jack Coen, "The Branch Line"
+D:Bobby Gardiner, The Master's Choice
+M:4/4
+L:1/8
+K:EDor
+gf \
+|: eB~B2 eBdB | AF~F2 EDB,A, | B,E~E2 B,EGE | FB~B2 FBdf |
+| eB~B2 eBdB | AF~F2 EDB,A, | B,E{g}ED EFGA | (3Bcd ed e2gf :|
+|: eB~B2 A2FA | d2 df edef | df~f2 dfbf | afdf edBc  |
+| d2 fd BcdB | AF~F2 ABde | ~f2ef dfbf | afdf e2gf:|
+S:https://www.folktunefinder.com/tunes/17385
+S:http://trillian.mit.edu/~jc/music/abc/reel/HumoursOfLissadel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/HumoursOfLissadel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HumoursOfLissadel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HumoursOfLissadel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

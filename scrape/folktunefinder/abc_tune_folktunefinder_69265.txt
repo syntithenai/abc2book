@@ -1,0 +1,24 @@
+X:406
+T: "Der Schaefersohn"
+N: Z1086
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/8
+K: G
+D | G2GGA_B | AAGF2z
+FAcc_Bc | _B2AG2
+G | c2GG2=F | =F2_ED3
+EDCD3 | _EDCD3
+G2FGGD | _E2DG2
+S:https://www.folktunefinder.com/tunes/69265
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

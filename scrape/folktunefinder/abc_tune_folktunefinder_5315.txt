@@ -1,0 +1,28 @@
+X: 2
+T: Ba-shana ha-ba'a [Em]
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+Bg \
+|| "Em"e2 Bg e3 g | "Am"a>g fe "Bm"dB Bd \
+| "C"c2 ce "B7"^d2 ef | "Em"e6 Bg |
+|| "Em"e2 Bg e3 g | "Am"c'>c' ba "Em"bg Bg \
+| "Am"e2 fg "B7"f2ga | "Em"g2 a2 "E7"b2 ab |
+|| "Am"c'2 c'c' "D7"c'2 ba | "G"b2 gf "Em"g2 [af][bg] \
+| "Am"a2 ag "B7"f2 ga | "Em"g2 a2 "E7"b2 ab |
+|| "Am"c'2 c'c' "D7"c'2 ba | "G"b2 gf "Em"g2 ab \
+| "Am"a2 ag "B7"f2 e^d | "Em"e6 |]
+S:https://www.folktunefinder.com/tunes/5315
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BashanaHabaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/BashanaHabaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BashanaHabaa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

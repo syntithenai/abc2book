@@ -1,0 +1,23 @@
+X: 1
+T: Ace And Deuce Of Pipering, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|dc|:B2 cA BdcA|BdcA B2 AG|d2 ec d2 ec|dfec dcBA|
+e2 fd edcB|Add^c d=cBA|BGcA B2 AG|FGAB cBcA|
+G2 ge fdcA|FGAB cAFG|AGGF G2FG|1AGGF G2 dc:|2AGGF G2 GF||
+|:G2=f2e2f2|G2 =fg fdcA|G2 g2 ^f2 g2|d2 ga gfdc|
+A2 =f2 e2 f2|d^cde ^fefg|ag (3fga gfdc|BGcA B2 AF|
+G2 ge fdcA|FGAB cAFG|AGGF G2 FG|1AGGF G2GF:|2AGGF G4||
+S:https://www.folktunefinder.com/tunes/77965
+S:http://www.thesession.org/tunes/display/1107
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

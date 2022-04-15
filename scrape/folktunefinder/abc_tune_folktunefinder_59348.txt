@@ -1,0 +1,29 @@
+X:461
+T:La Pastora Enamorada
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Romancero vulgar usado para el corro.
+A:Asturies
+Z:DyC en Teberga
+M:2/4
+L:1/8
+Q:1/4=120
+K:Fm
+cB
+|: A3 c|c3 c|BB BA|G3 c|
+|c3 c|BA GF|=E3 F|B3 A|
+|GA GF|=EF AG|F2 F2-|[1 F2 cB :|[2F2 z2|
+S:https://www.folktunefinder.com/tunes/59348
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

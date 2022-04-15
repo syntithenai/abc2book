@@ -1,0 +1,31 @@
+X:9268
+T:Lappkungens polska
+R:Polska
+O:Sweden
+N:Yes, the B's are all natural
+M:3/4
+L:1/16
+C:Lapp-Nils
+A:J\"amtland
+K:Dm
+A2=B^c c2d2 d4| d2c=B B2c2 c4|\
+A2=B^c d2e2 f2d2|^cdc=B ABAG F2E2|\
+D2de/d/ ^c2d2 d4| d2c=B B2c2 c4|
+A2=B^c d2e2 f2d2 |^cdec d8::\
+D2a2 a2g2 e2g2| D2f2 gfed ^c2ec|
+A2=B^c d2e2 f2d2|^cdc=B ABAG F2E2|\
+D2a2 a2g2 e2g2|D2f2 gfed ^c2ec|\
+A2=B^c d2e2 f2d2|^cdec d8:|
+S:https://www.folktunefinder.com/tunes/61301
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

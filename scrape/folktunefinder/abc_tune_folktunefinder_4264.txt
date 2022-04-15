@@ -1,0 +1,24 @@
+X: 4
+T: The Brandon Quick Step
+B: William Clarke MS 1858
+I: abc2nwc
+N: repeats slightly tidied for tradtunes
+M: 6/8
+L: 1/8
+Z: Lyn Law 04/06
+K:C
+   G | c2c cBc | g2f d2f | ege eBc | d2B GAB |
+       c2c cBc | g2f d2f | egc dcd | c2e c2  :|
+|: G | G3  GEG | c3  cBc | d2d dcd | e3  c2G |
+       G3  GEG | e3  cBc | ded cBA | G2G GAB |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4264
+S:http://trillian.mit.edu/~jc/music/abc/England/new.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

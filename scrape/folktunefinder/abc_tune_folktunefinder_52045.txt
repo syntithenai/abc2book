@@ -1,0 +1,25 @@
+X:19
+T:Hanter-dro
+Z:midi2abc
+M:2/4
+L:1/8
+R:Hanter-dro
+Q:1/4=200
+K:G
+G2 Bc|d2 e2|d4|g2 fe|d2 B2|c2 d2|
+G2 Bc|d2 e2|d4|g2 fe|d2 B2|d4|
+|:d2 ed|G2 A2|B2 G2|AB c2|
+B2 G2|A2 A2|d2 ed|G2 A2|
+B2 G2|AB c2|B2 A2|G4:|
+S:https://www.folktunefinder.com/tunes/52045
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Hanter-dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

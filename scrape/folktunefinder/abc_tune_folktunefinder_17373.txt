@@ -1,0 +1,23 @@
+X: 1
+T: Hughie Jim Paul's Reel
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+K: A
+AF \
+| "A"EAAc "F#m"BAFA | "A"EAcA "D"d2cd | "A"eaag aecA |1 "D"dfec "E7"B2AF \
+                                                    :|2 "E7"fdec "A"A2 :|
+|: ab \
+| "F#m"c'bag "Bm"fecB | "B7"Ae^df "E7"e2fg |1 "A"ae~e2 "F#m"fedc | "D"dfec "E7"B2 \
+                                          :|2 "A"ae~e2 "D"fece | "E7"fdec "A"A2 :|
+S:https://www.folktunefinder.com/tunes/17373
+S:http://trillian.mit.edu/~jc/music/abc/reel/HughieJimPaulsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HughieJimPaulsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

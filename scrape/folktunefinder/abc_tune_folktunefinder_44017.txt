@@ -1,0 +1,23 @@
+X: 23
+T:Imitiation Reel
+% Nottingham Music Database
+S:Chris Dewhurst (1979), via PR
+M:4/4
+L:1/4
+K:A
+e|"A"a3/2g/2 a/2e/2c/2A/2|"E"BG E3/2E/2|"D"FA dc|"Bm"B/2A/2G/2F/2 "E"Ee|
+"A"a3/2g/2 a/2e/2c/2A/2|"E"BG Ed|"Bm"c3/2B/2 "E"AG|"A"A3::
+c/2d/2|"A"e3/2c/2 ef/2g/2|"F#m"af cf/2e/2|"B7"^dB ag/2f/2|"E"g3b|"A"a3/2e/2 ce\
+|"D"dF "Bm"Bd|"A""e"c/2e/2A/2c/2 "E"BG|"A"A3:|
+S:https://www.folktunefinder.com/tunes/44017
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsH-L.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

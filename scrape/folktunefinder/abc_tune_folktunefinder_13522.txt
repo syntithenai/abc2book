@@ -1,0 +1,20 @@
+X: 1
+T: Constitution Hornpipe
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+(3cde \
+| "F"f2f2 fcaf | "C7"g2g2 gcbg | "F"agfe "(Dm)"dcba | "G7"gfga "C7"gcde || "F"f2f2 fcaf |
+| "C7"g2g2 gcbg | "F"agfe "Bb"db"C7"ge | "F"f2f2 f2 :: c2 | "F"Acfc afcA | "Bb"Bdfd bfdB |
+| "C7"cege bgeg | "F"fagf "C7"edcB || "F"Acfc afcA | "Bb"Bdfd bfdB | "C7"cege bgeg | "F"f2f2 f2 :|
+S:https://www.folktunefinder.com/tunes/13522
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ConstitiutionHp_F3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/ConstitiutionHp_F3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/ConstitiutionHp_F3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

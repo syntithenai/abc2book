@@ -1,0 +1,34 @@
+X: 108
+T:England's Lamentation... HA.107
+M:3/4
+L:1/8
+Q:80
+C:"for the late Queen Mary"
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Queen Mary ll, wife of William lll, died in 1694. She was instrumental
+N:in the fashion for china-ware displays and chintz furnishings.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+D2F2(F/G/A)|F2(ED)A2|B2A2d>e|^c4(BA)|!
+c2(c>d) (c/G/)A|B2(B>c) (B/F/)G|A2D2G>A|F4E2|!
+F2G2A2|=B>d ^c>e d>f|e(d/c/)=B3A|A6:|!
+(A/B/)c c2c>d|c2(BA) (GF)|(A/B/c) c2 (f/g/a/f/)|g3fe2|!
+d2d2(e/f/g)|e2(dc) (fc)|(d<c) (B<A) (G<F)|F6|!
+(A/B/c) c2 c>d|c2(BA) (GF)|A/B/c) c2 (f/g/a/f/)|g3a (g/a/b)|!
+a2(ac)d2|e2(e/f/g) (f/g/a)|(g>f) e3d|d6|]
+S:https://www.folktunefinder.com/tunes/72357
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

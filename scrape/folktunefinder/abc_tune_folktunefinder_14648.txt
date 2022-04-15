@@ -1,0 +1,28 @@
+X: 1
+T: Mimi Jig
+C: \'Ivar B\aerentsen
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A3 \
+| "D"D2D DEF | A2A A2A | "G"B2B dcB | "D"A2A A2F | "G"G2G BAG | "D"F2A d3 | "E7"dcB Bcd | "A7"ecB [AA]BA ||
+| "D"D2D DEF | A2A A2A | "G"B2B dcB | "D"A2A A2F | "G"G2G BAG | "D"F2A d3 | "A7"cde ABc | "D"d3 ||
+|: "D7"def \
+| "G"g2B Bdg | "D"f2A Adf | "A7"e2A Ace | "D"def "D7"def | "G"g2B Bdg | "D"f2A Adf | "A7"a2a gfe | "D"d3 :|
+S:https://www.folktunefinder.com/tunes/14648
+S:http://trillian.mit.edu/~jc/music/abc/jig/MimiJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MimiJ_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MimiJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MimiJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MimiJ_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MimiJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MimiJ_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

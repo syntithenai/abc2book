@@ -1,0 +1,23 @@
+X:742
+T:English Jig
+T: Play Part 1, then Part 2, then both together
+C:Anon 16th Century, Arr. Charlie
+M:6/8
+K:C
+V:1
+|:"C"e2e "G"d2d|"Am"c2c "Em"B2B|"F"A2G "G"GAB|"C"c2c c2c:|
+"C"efg gfe|"G"d2d d2d|"C"efg gfe|"G"d2d d2d|
+"D"d2d de^f|"G"g2g g2g|"D"d2d de^f|"G"g2g g2g||
+|:"C"e2e "G"d2d|"Am"c2c "Em"B2B|"F"A2G "G"GAB|"C"c2c c2c:|
+V:2
+|:"G"c2c "G"G2G|"Am"A2A "Em"E2E|"F"F2E "G"EFD|"C"CEG E2C:|
+"C"cde edc|"G"GAG GDG|"C"CDE EDC|"G"GAG EDG|
+"D"^FAD ^FAD|"G"BdG BdG|"D"^FGA D2A|"G"GBd BG2||
+|:"G"c2c "G"G2G|"Am"A2A "Em"E2E|"F"F2E "G"EFD|"C"CEG E2C:|
+S:https://www.folktunefinder.com/tunes/58205
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set74.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,51 @@
+X:394
+T:Fandangu Puntiu (MG 47)
+R:Fandangu
+C:Versin del Gaiteru Veria
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 47
+M:2/4
+L:1/8
+Q:1/4=200
+E:Nivel 4
+K:C
+|c2 G2|c2 G2|c2 G2|cB~AG|c2 G2|c2 G2|c2 G2|cB~AG|
+|cB~AG|cB~AG|cB~AG|cB~AG|.EG.EG|cB~AG|cB~AG|.FA.FA|
+|cB~AG|cB~AG|.EG.EG|
+|: cB~A.G|cB~AG|.FA.FA|cB~AG|cB~AG|.EG.EG :|
+|cB~AG|cB~AG|.EG.EG|cB~AG|cB~AG|.F2 F2|~A2 F2|~A2 GA|F4|
+|~A2 F2|~A2 GF|.E2 E2|~G2 E2|G2 GA|F4|~A2 F2|~A2 F2|~A2 GA|F4|
+|~A2 F2|~A2 GF|E2 E2|F2 D2|.F2 {F}ED|C4|
+|: c2 F2|c2 FE|D2 D2|F2 D2|.F2 {F}ED|[1 C4 :|[2 C2 DE|
+|FDEF|G {EGEF}E2 D|C2 C2|~D2 B,2|D2 D2|
+|FEDE|C2 DE|FDEF|G {EGEF}~E2 D|C2 C2|~D2 B,2|D2 DE|C4|
+|: {F}~E2 C2|.F2 ED|C4|~D2 B,2|D2 DE|C4 :|
+|: {F}~E2 DC|FEDE|B,DB,D|{F}~E2 DC|FEDE|B,DB,D|FEDC|FEDE|B,DB,D :|
+|FEDC|FEDF|c4|GAGF|EDEG|c4|GAGF|EDEG|c4|
+|: eded|cBAB|cB~AG|c4|e2 ~d2|c2 GA|c4 :|
+|eded|cBAB|cB~AG|cB~AG|cB~AG|cB~AG|cB~AG|.EG.EG|
+|: cB~AG|cB~AG|.FA.FA|cB~AG|cB~AG|.EG.EG :|
+|cB~AG|cB~AG|.EG.EG|cB~AG|cB~AG|.EG.EG|cB~AG|cB~AG|.F2 F2|
+|~A2 F2|~A2 GA|F4|~A2 F2|~A2 GF|.E2 E2|~G2 E2|G2 GA|A2 F2|~A2 G2|A2 GA|F4|
+|~A2 F2|~A2 GF|.E2 E2|~G2 E2|G2 GA|F4|
+|: ~A2 .F.F|~A2 .F.F|~A2 .F.F|~A2 .F.F|~A2 .F.F :|~A2 .F.F|~A2 GF|E2 E2|
+|: G2 EE|G2 EE|G2 EE :|G2 EA|F4|~A2 F2|~A2 GF|E2 E2|F2 D2|.F2 {F}ED|
+|: C4|c2 F2|c2 FE|D2 D2|F2 D2|.F2 {F}ED :|
+|C2 DE|FDEF|G {EGEF}E2 D|C2 C2|~D2 B,2|D2 D2|
+|FEDE|C2 DE|FDEF|A {EGEF}~E2 D|C2 C2|~D2 B,2|D2 DE|C4|
+|: {F}~E2 C2|.F2 ~ED|C4|~D2 B,2|D2 DE|C4 :|
+|: {F}~E2 DC|FEDE|B,DB,D|{F}~E2 DC|FEDE|B,DB,D|FEDC|FEDE|B,DB,D :|
+|FEDC|FEDF|c4|GAGF|EDEG|c4|GAGF|EDEG|c4|
+S:https://www.folktunefinder.com/tunes/59281
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

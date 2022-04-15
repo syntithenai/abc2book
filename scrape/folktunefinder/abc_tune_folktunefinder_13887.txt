@@ -1,0 +1,25 @@
+X: 1
+T: The Black Hoe
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   f \
+| gdB BAB | GBA GBd | gdB BAB | GBd e2f \
+| gdB BAB | GBA GBd | gfe edB | ABd e2 :|
+|: f \
+| gfg bag | fef afd | gfg bag | fed e2f \
+| gfg bag | fef afd | gfe edB | ABd e2 :|
+S:https://www.folktunefinder.com/tunes/13887
+S:http://trillian.mit.edu/~jc/music/abc/jig/Black_Hoe_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Black_Hoe_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

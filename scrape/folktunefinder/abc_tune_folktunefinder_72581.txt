@@ -1,0 +1,26 @@
+X:124
+T: Auf, auf ihr Jaeger all
+N: D0181
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Grundton in der zweigestrichenen Oktave; Inzipit = Transposition
+R: Jaeger - Lied
+M: 4/4
+L: 1/4
+K: C
+G, | CCDD | E2F2 | GEFD | CA,G,
+G, | CCDD | E2F2 | GEFD | C2z
+D | DDB,D | DDB,G, | E3G, | E3
+G, | FEDE | FEDC | B,G,ED | C2z
+D | DDB,D | DDB,G, | E3G, | E3
+G, | FEDE | FEDC | B,G,ED | C2z
+S:https://www.folktunefinder.com/tunes/72581
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Caber Feidh
+T: the Deer's Antlers
+N: The Dm chords in part I are sometimes D major, with F# in the tune.
+N: Skye p.117
+N: Holland p.42
+N: Hunter 186
+N: BSFC  III-34 and II-34 and IX-7
+N: Scotty Fitzgerald on Celtic 40
+M: C|
+L: 1/8
+K: D
+A \
+| "D"d2fe d2Ac | d2AG FDDF | "Em"Eee^d e2Bd | e2BA "A7"GEEc | "D"d2fe d2Ac |
+| dA"G"BG "D"FDDF | "Em"EFGA BcdB | e2BA "A7"GEE g || "D"fdad bdad | fdad fddf |
+| "Em"gebe c'ebe | gaba "A7"geeg | "D"fdad bdad | ABde fdda | "Em"bg"D"af "Em"ge"B"f^d | "Em"e2BA "A7"GEE |]
+S:https://www.folktunefinder.com/tunes/16872
+S:http://trillian.mit.edu/~jc/music/abc/reel/CaberFeidh_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/CaberFeidh_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CaberFeidh_D.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 8
+T: Brigit O'Malley
+M:3/4
+L:1/8
+S: Ottawa Celtic Jam <ottawajam@yahoo.ca> 2002-5-2
+K:G Major
+DE \
+| G3 ABc | d B3 d | e3 dBA | G E3 ef | g3 fef | ed B2 A2 | B2 e3 f | e4 ef |
+| g3 fef | ed B2 Bc | d3 BAB | G2 E2 EF | G2 e2 de | B2 A2 BA | G2 E2 F2 | G4 :|]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13019
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

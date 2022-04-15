@@ -1,0 +1,36 @@
+X: 1
+T: Hey! Johnnie Cope
+O: Kerr's 3
+M: C|
+L: 1/8
+K: Bm
+f2 \
+| "Bm"B2B2 Bcde \
+| f2B2 "E7"B2cB \
+| "A"A2A2 ABcd \
+| e2a2 c2A2 \
+| "Bm"d2cd "A"e2de |
+| "D"f2a2 "A"c2BA \
+| "Bm"B2b2 "F#7"fedc \
+| "Bm"B6 \
+:: "A7"A2 \
+| "D"d3e d2A2 \
+| defg afed |
+| "A7"c2A2 e2A2 \
+| cdef e2dc \
+| "Bm"d2cd "A"e2de \
+| "D"f2a2 "A"c2BA \
+| "Bm"B2b2 "F#7"fedc \
+| "Bm"B6 :|
+S:https://www.folktunefinder.com/tunes/15464
+S:http://trillian.mit.edu/~jc/music/abc/march/HeyJohnnieCope_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HeyJohnnieCope_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/HeyJohnnieCope_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HeyJohnnieCope_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

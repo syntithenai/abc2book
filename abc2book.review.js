@@ -25,7 +25,7 @@ function generateReviewList() {
    var counter = 0
    Object.keys(tunes).map(function(tuneKey) {
      var tune = tunes[tuneKey]
-     
+     var boost = tune ? tune.boost : 0
      //getMetaValueFromSongline('B', songlist[tuneKey])
      
      if (boost > 0 && !hasPlayedInLast24Hours(tune.id)) {
@@ -78,42 +78,6 @@ function renderReviewList() {
   }
 }
 
-var reviewRenderResult=null
-
-function renderReviewMusic() {
-  var tune = getCurrentReviewTune()
-  if (tune) {
-    //console.log('REND MUSIC',tune)
-    //var songlist = $('#songlist').val().split("\n")
-    var abc = tweakABC(tune.songNumber, tune) 
-    //tune.settings[tune.useSetting].abc, tune.songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
-    var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
-    renderResultSingle.map(function(rr,rk) {
-      reviewRenderResult=rr
-      //// update cache 
-      //renderResult[songNumber] = rr
-      //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
-      ////if (errors.hasOwnProperty(rk)) {
-        ////addErrorControls('#music_'+rk, errors[rk])
-      ////} else { 
-        //addAudioControls('#music_'+rk, rr, rk, searchString)
-      //}
-      $('#reviewboostbuttons').remove()
-      //var boost = getMetaValueFromSongline('B',songlist[tune.songNumber])
-      //boost = boost > 0 ? boost : 0
-      var boost = tune.boost > 0 ? tune.boost : 0
-      $('#reviewmusic').before(renderBoostButtons(tune.songNumber,boost))
-      $('#review_tune_boost_up').click(function() {
-         progressUp(tune.songNumber )
-      })
-      $('#review_tune_boost_down').click(function() {
-        progressDown(tune.songNumber )
-      })
-    })
-    $('.abcjs-rhythm tspan').attr('y','20')
-  }
-  //$('#reviewmusic').html('playig '+tune.name)
-}
 
 function setReviewItem(index) {
   //console.log('set reviewindex',index)
@@ -148,7 +112,7 @@ function nextReviewItem() {
 function getCurrentReviewTune() {
   var tuneIndex = $('#reviewindex').val() > 0 ? (parseInt($('#reviewindex').val())) : 0
   var tune = getTuneFromReviewList(tuneIndex)
-  //console.log('get current',tuneIndex, tune)
+  console.log('get current',tuneIndex, tune)
   return tune
 }
 
@@ -328,7 +292,6 @@ function reviewFinishPlaying() {
 
   
 function reviewStartPlaying(visualObj, tune) {
-  var boost = tune.boost > 0 ? tune.boost : 0
   //var songlist = $('#songlist').val().split("\n")
   //var boost = getMetaValueFromSongline("B",songlist[tune.songNumber])
   if (!reviewMidiBuffer) reviewMidiBuffer = new ABCJS.synth.CreateSynth();
@@ -357,7 +320,7 @@ function reviewStartPlaying(visualObj, tune) {
       var initOptions = {
         visualObj: visualObj,
         audioContext: audioContext,
-        millisecondsPerMeasure: visualObj.millisecondsPerMeasure(),
+        millisecondsPerMeasure: getMillisecondsPerMeasure(tune), //visualObj.millisecondsPerMeasure(),
         //debugCallback: function(d) {
           //console.log('DC',d)
         //},
@@ -365,14 +328,10 @@ function reviewStartPlaying(visualObj, tune) {
           onEnded: onEnded
         }
       }
-      var useBoost = Math.min(boost,50)
-      var tempo = 40 + useBoost * 3
-      
-      tempo+= 300 // testing
       
       // rough first cut assume 4 beats per bar   
       // millisecondsPerBeat = 60000/bpm
-      initOptions.millisecondsPerMeasure = 60000/tempo * 4
+      //initOptions.millisecondsPerMeasure = getMillisecondsPerMeasure(tune)
       return reviewMidiBuffer.init(initOptions).then(function (response) {
         // reviewMidiBuffer.prime actually builds the output buffer.
         return reviewMidiBuffer.prime();
@@ -380,15 +339,69 @@ function reviewStartPlaying(visualObj, tune) {
         // At this point, everything slow has happened. reviewMidiBuffer.start will return very quickly and will start playing very quickly without lag.
         reviewMidiBuffer.start();
         //reviewMidiBuffer.seek(0.8);
-        return Promise.resolve();
+        if (startPlayingHook) startPlayingHook()
+         return Promise.resolve();
+       
       }).catch(function (error) {
           console.warn("synth error", error);
       });
     });
   }
 }
+
+function getBeatsPerBar(meter) {
+  switch (meter) {
+    case '4/4':
+      return 4
+    case '3/4':
+      return 3
+    case '2/4':
+      return 2
+    case '6/8':
+      return 2
+    case '9/4':
+      return 3
+    case '12/8':
+      return 4
+    case '3/2':
+      return 3
+  }
+  return 4
+}
+
+function getMillisecondsPerMeasure(tune) {
+   var meter = tune.meter ? tune.meter : '4/4'
+   meter = timeSignatureFromTuneType(tune.type)
+   var beats = getBeatsPerBar(meter)
+   var tempo = getTempo(tune) 
+   console.log('beats',beats, meter, tempo, tune)
+   return 60000/tempo * beats
+}
+
+function getMillisecondsPerMeasureForTempo(tempo, tune) {
+   var meter = tune.meter ? tune.meter : '4/4'
+   meter = timeSignatureFromTuneType(tune.type)
+   var beats = getBeatsPerBar(meter)
+   console.log('beats',beats, meter, tempo, tune)
+   return 60000/tempo * beats
+}
+
+function getTempo(tune) {
+  if (tune) {
+    var boost = tune.boost > 0 ? tune.boost : 0
+    var useBoost = boost > 20 ? 20 : boost
+    //Math.min(boost,50)
+    var tempo = 30 + useBoost * 5
+    //tempo+= 300 // testing
+      
+    return tempo;
+  } else {
+    return 100
+  }
+}
   
 function reviewStopPlaying() {
+  if (stopPlayingHook) stopPlayingHook()
   stopPlaying
   if (reviewMidiBuffer) reviewMidiBuffer.stop();
   $('#reviewplayallbutton').show()
@@ -400,3 +413,101 @@ function reviewStopPlaying() {
 
 
 
+
+var reviewRenderResult=null
+var stopPlayingHook = null
+var startsPlayingHook = null
+var timingCallbacks = null
+function renderReviewMusic() {
+  var tune = getCurrentReviewTune()
+  if (tune) {
+    console.log('REND MUSIC',tune)
+    var abc = tweakABC(tune.songNumber, tune) 
+    var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
+    renderResultSingle.map(function(rr,rk) {
+      reviewRenderResult=rr
+      $('#reviewboostbuttons').remove()
+      var boost = tune.boost > 0 ? tune.boost : 0
+      $('#reviewmusic').before(renderBoostButtons(tune.songNumber,boost))
+      $('#review_tune_boost_up').click(function() {
+         progressUp(tune.songNumber )
+      })
+      $('#review_tune_boost_down').click(function() {
+        progressDown(tune.songNumber )
+      })
+      
+      // ANIMATED CURSOR
+      // TODO - the following nearly works
+      // need to set qpm accurately using M and L values to 
+      
+      timingCallbacks = new ABCJS.TimingCallbacks(reviewRenderResult, {
+        beatCallback: beatCallback,
+        eventCallback: eventCallback,
+        qpm: getTempo(tune)
+      });
+
+      function createCursor() {
+        var svg = document.querySelector("#reviewmusic svg");
+        var cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        cursor.setAttribute("class", "abcjs-cursor");
+        cursor.setAttributeNS(null, 'x1', 0);
+        cursor.setAttributeNS(null, 'y1', 0);
+        cursor.setAttributeNS(null, 'x2', 0);
+        cursor.setAttributeNS(null, 'y2', 0);
+        svg.appendChild(cursor);
+        return cursor;
+      }
+      var cursor = createCursor();
+      stopPlayingHook = function() {
+        timingCallbacks.stop();
+      }
+      
+      startPlayingHook = function() {
+        timingCallbacks.start();
+      }
+
+      function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
+        var x1, x2, y1, y2;
+        if (currentBeat === totalBeats) {
+          x1 = 0;
+          x2 = 0;
+          y1 = 0;
+          y2 = 0;
+        } else {
+          x1 = position.left - 2;
+          x2 = position.left - 2;
+          y1 = position.top;
+          y2 = position.top + position.height;
+        }
+        cursor.setAttribute("x1", x1);
+        cursor.setAttribute("x2", x2);
+        cursor.setAttribute("y1", y1);
+        cursor.setAttribute("y2", y2);
+        colorElements([]);
+      }
+      var lastEls = [];
+      function colorElements(els) {
+        var i;
+        var j;
+        for (i = 0; i < lastEls.length; i++) {
+          for (j = 0; j < lastEls[i].length; j++) {
+            lastEls[i][j].classList.remove("color");
+          }
+        }
+        for (i = 0; i < els.length; i++) {
+          for (j = 0; j < els[i].length; j++) {
+            els[i][j].classList.add("color");
+          }
+        }
+        lastEls = els;
+      }
+      function eventCallback(ev) {
+        if (!ev) {
+          return;
+        }
+        colorElements(ev.elements);
+      }
+    })
+    $('.abcjs-rhythm tspan').attr('y','20')
+  }
+}

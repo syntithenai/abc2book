@@ -1,0 +1,50 @@
+X: 1
+T: Dumbarton Drums
+R: reel
+S: Loose sheet in my collection (possibly from RSCDS)
+Z: Nigel Gatherer
+S: Flowers, Ross (MTO) <Ross.Flowers@mto.gov.on.ca> scots-l 2001-6-12
+W:
+W: "Dumbarton's Drum" you wish to find;
+W: The famous song first comes to mind
+W: That Jean Redpath was want to croon
+W: But could it be another tune
+W:
+W: A forgotten air, like many more,
+W: There's one solution: look up Gore!
+W: If it's not in there I must insist
+W: The tune you seek does not exist.
+W:
+W: Aha! I see it - just before
+W: "Dumfries House" - good old Gore!
+W: A fine old reel (but that high "c"
+W: Does not endear the tune to me).
+W:
+W: So there you are, it might confuse;
+W: The song or reel, you have to choose
+W: If it's the former, let us know;
+W: If it's the latter, see below.
+M: 4/4
+L: 1/8
+K: Em
+GA | B3d  BcAB | G2d>e d2cB  | AGAB cBAG  | E2 e>f e2 de |
+     g3a  bage | dBde  g3G   | ABge dBAG  | E2 e>f e2 :|
+de | g3a  gaba | g2b>c' b2ag | agab c'bag | e2 a>b a2 ge |
+     dega bage | dBde g2ga   | bage dBAG  | E2 e>f e2 :|
+S:https://www.folktunefinder.com/tunes/15412
+S:http://trillian.mit.edu/~jc/music/abc/march/DumbartonDrums_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DumbartonDrums_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DumbartonDrums_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/DumbartonDrums_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

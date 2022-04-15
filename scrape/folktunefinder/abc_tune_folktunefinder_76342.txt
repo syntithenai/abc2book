@@ -1,0 +1,27 @@
+X:362
+T: Es fliegen's aus drei Tauben (4-61), S. 79
+N: P0622
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Liebesklage, Liebe]
+M: 3/4
+L: 1/8
+K: G
+D2 | G4A2 | _B2G2c2 | _BAG2
+B2 | A4A2 | G2D2G2 | A4
+G2 | _B3Bcc | dc_BdcA | A4
+d2 | G4AG | =F4
+A2 | c3AA2 | _B4A2 | G4
+S:https://www.folktunefinder.com/tunes/76342
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Liebesklage, liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

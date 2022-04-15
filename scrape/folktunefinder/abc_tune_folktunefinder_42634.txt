@@ -1,0 +1,22 @@
+X:2141
+T:Saddle the Pony
+O:ireland
+Z: id:dc-jig-112
+M:6/8
+L:1/8
+K:G Major
+D|GBA G2B|def gdB|GBA G2B|AFD AFD|!
+GBA G2B|def gfg|ege dBA|BGF G2:|!
+d|efe edB|def gfg|ege edB|dBA ABd|!
+efe edB|def gfg|ege dBA|BGF G2:|!
+S:https://www.folktunefinder.com/tunes/42634
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

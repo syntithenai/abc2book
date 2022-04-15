@@ -1,0 +1,44 @@
+X:16959
+T:The Little Cascade
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=88
+N:anacruses fixed from the original score
+K:Hp
+        {d}Be{A}eg   {a}ge{g}Bg  |  {a}gf{gef}eB {a}gB{g}eg    |\
+   [1   {a}Be{A}eg   {a}ge{g}Bg  |
+                                  {afg}fd{e}Ad   {g}fagf      :|\
+   [2   {a}Be{A}eg   {a}ge{g}Bg  |  {a}fagf    {gfg}f2{eA}e3/ ||
+g/|   {afg}fB{a}gf   {g}eg{a}Bg  |{afg}fBag      {a}g2{fe}f>g  |\
+      {afg}fB{a}gf   {g}eg{a}Bg  |
+                                    {a}fagf    {gfg}f2{eA}e3/ :|\
+g/|:  {aGd}G2{d}Be   {g}Be{a}ge  | {gf}g2{a}fg   {a}eg{a}Be    |
+   [1 {gGd}G2{d}Be   {g}Be{a}ge  |{gfg}fd{e}Ad   {g}fagf      :|\
+   [2 {gGd}G2{d}Be   {a}ge{g}Bg  |
+                                    {a}fagf    {gfg}f2{eA}e3/ ||\
+f/|        g{a}efg   {a}efg{a}e  |     f{g}def   {g}def{g}d    |
+           g{a}efg   {a}efg{a}e  |     fag{a}f {gfg}f2{eA}e3/ :|\
+g/|     {a}Be{a}gf {GdG}e2{g}fd  |
+                                    {g}Be{g}df {gef}ed{g}B{d}A |\
+        {d}Be{a}gf {GdG}e2{g}fd  |  {g}Be{g}df {gfg}f2{eA}e3/ :|
+g/|     {a}Gd{g}Be   {g}df{gef}e2|  {a}gfge      {g}Bega       |\
+   [1      Gd{g}Be   {g}df{gef}e2|
+                                    {g}Be{g}df {gfg}f2{eA}e3/ :|\
+   [2  {ga}gfge      {g}fd{g}ed  |  {g}Be{g}df {gfg}f2{eA}e2  |]
+S:https://www.folktunefinder.com/tunes/38330
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

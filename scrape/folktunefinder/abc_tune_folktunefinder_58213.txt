@@ -1,0 +1,51 @@
+X:1
+T:79th's Farewell to Gibraltar
+C:Unknown
+S:Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+K:A
+|:cd |\
+"A"e3 f e2 c2 |\
+"A"A2 AB A2 ag |\
+"D"f2 ec "A"efae |\
+"E"c2 B2 B2 cd |\
+"A"e3 f e2 c2 |\
+"A"A2 AB A2 ag |\
+"D"f2 ec "A"efae |\
+"E"c2 A2 "A"A2 :: ag |\
+"A"f2 ec efae |\
+"A"faec "E"B2 ag |\
+"A"f2 ec efae |\
+"E"f2 B2 B2 ag |\
+"A"f2 ec efae |\
+"A"faec "E"B2 ag |\
+"D"f2 ec "E"efae |\
+"A"c2 A2 A2 :: cB |\
+"A"A3 B c2 a2 |\
+"D"f2 ec "E"B2 cB |\
+"A"ABcd efec |\
+"E"f2 B2 B2 cB |\
+"A"A3 B c2 a2 |\
+"D"f2 ec "E"B2 cB |\
+"A"ABcd "E"efed |\
+"A"c2 A2 A2 :: cd |\
+"A"e3 f e2 c2 |\
+"A"e3 f e2 ag |\
+"D"f3 g f2 d2 |\
+"D"f3 g f2 ag |\
+"A"f2 ed c2 BA |\
+"E"BABc "A"e2 ag |\
+"D"f2 ec "E"efae |\
+"A"c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/58213
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/79thsFarewellToGibraltar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:3623
+T:Cuddle me Cuddy
+M:12/8
+L:1/8
+N:Time signature given as 12/8 - should be 9/8. Also key signature given
+N:as D, should be G
+K:D
+cde AcA AcA|cde AcA B2G|cde AcA AcA|Bcd dgd B2G:|!
+cde ege ege|cde ege g2e|cde ege ege|ded dgd B2 G:|
+S:https://www.folktunefinder.com/tunes/29903
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

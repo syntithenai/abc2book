@@ -1,0 +1,24 @@
+X: 1
+T: The Golden Harvest
+C: Angus Fitchett
+R: strathspey
+B:
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+| "D"D2 F>A d>A F>D | "Em"E2 G>E "A7"e>c A2 |1 "Bm"d2 B>d A>F B>A | "A7"G>F E>D C<E \
+                                           :|2 "Bm"f2 e<c d2 c<A | "Em"B<G "A7"e>c "D"d4 |]
+|:"Bm"{e}f2 f>d "F#7"e>c ^A<F | "Bm"d2 d>B "F#7"c>^A F>A |1 "G"B2 B>G "D"A>F B>A | "Em"G>F E>D "A7"C<E A2 \
+                                                        :|2 "G"B2 B>G "D"A>F E>D | "A7"C>B A<C "D"D2 |]
+S:https://www.folktunefinder.com/tunes/19373
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GoldenHarvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GoldenHarvest_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

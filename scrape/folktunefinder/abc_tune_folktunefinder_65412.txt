@@ -1,0 +1,28 @@
+X: 324
+T:The Wandle
+% Nottingham Music Database
+S:Pauline Wilson, via Phil Rowe
+M:6/8
+K:G
+"G"d2B "Em"e2B||"G"ded BGE|D6|"Am"c2A "D"d2B|"Am"c2A "D"d2B|"A7"A^GA B2^c|\
+"D7"d6|
+|"G"ded BGE|D6|"Am"c2A "D"d2B|"Am"c2A d2c|"G"BdB "Em"G2B|"Am"ABA "D7"DEF|"G"G6\
+||
+"C"g3 -g2f|g2f efe|"G"d2e d2c|B3 -B2B|"Am"c2d c2B|"D7"A3 -A2A|"G"d2e d2B|\
+"G7"G3 -GBd|
+"C"g3 -g2f|g2f efe|"G"d2e d2c|"G"B6|"Am"cdc A2B|"D7"c2d e2f|"G"g2d "D7"B2d|\
+"G"G6||
+S:https://www.folktunefinder.com/tunes/65412
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

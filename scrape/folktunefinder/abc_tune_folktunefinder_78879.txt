@@ -1,0 +1,26 @@
+X:438
+T: DER GROSSE KAISER NAPOLEON
+N: E0358A
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: historisches Lied, Krieg gegen Napoleon (1815)
+M: 4/4
+L: 1/8
+K: G
+D2 | G2B2A2d2 | B3AG2
+GA | B2B2c2ce | d3cB2
+d2 | e2d2c4 | B4z2
+Bc | d2B2e3d | c2cBA2
+AB | c2A2d3c | B2BAG2
+G2 | A2e2d2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/78879
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen napoleon (1815)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

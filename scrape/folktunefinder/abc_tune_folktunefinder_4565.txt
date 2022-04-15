@@ -1,0 +1,23 @@
+X: 4
+P: Niin sinulle laulan
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "Dm"D2 FA d2 AA \
+| "C(Gm)"c2 BB "F(Dm)"A2 FE \
+| "Gm"G2 FG "A7"A2 A2 \
+| "Dm"D4 D2 z2 :|
+|: "C(Gm)"G2 GA "Gm"G2 FE \
+| "F(Dm)"A2AB "A7"A2 FE \
+| "Dm(GM)"D2 FD "A7"^C2 E2 \
+| "Dm"D4 D2 z2 :|
+S:https://www.folktunefinder.com/tunes/4565
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song11.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

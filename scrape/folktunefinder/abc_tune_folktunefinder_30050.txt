@@ -1,0 +1,23 @@
+X:0
+T:St Kilda Song
+G:dance song
+S:p37 printed by J. Sibbald
+M:C
+L:1/4
+Q:1/2=100
+N:articulation, gracenotes and a trill removed
+K:F
+F>D CD |FA    G>F|FF c>d  |cA    cd |
+FF  Ac |c>c   AG |Ac f>g  |fc    df |
+FF  d>c|fc/A/ G>A|DF A/G/A|dc/A/ GF||
+S:https://www.folktunefinder.com/tunes/30050
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

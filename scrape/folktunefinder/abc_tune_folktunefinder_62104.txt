@@ -1,0 +1,28 @@
+X:81
+T: DEM KAISER SEI MEIN ERSTES LIED
+N: B0568
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied, national
+M: 4/4
+L: 1/8
+K: G
+D2 | G3=FGABc | d3AA2
+A2 | B2A2G2B2 | A4z2
+D2 | G3=FGABc | d3AA2
+A2 | B2A2B2^c2 | d4z2
+D2 | E3EE2E2 | F3FF2
+F2 | G3GG2G2 | A3AA2
+A2 | B3BB2B2 | c4z2
+B2 | A2A2F2F2 | d2edcB
+AG | A2A2F2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/62104
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, soldaten - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

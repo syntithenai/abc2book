@@ -1,0 +1,27 @@
+X:4145
+T:Oyster girl
+M:6/8
+O:England
+R:48-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d1e.html
+%%ID:00000d1e
+K:G
+d|\
+ded B2G | A2F D2D | G2G BGB | d2c ABc | \
+ded B2g | f2e c2e | ded cAF | G3 G2  :|
+Bcd Bcd | Bcd e2c | ABc ABc | ABc d2B | \
+G2G GFG | A2A A2G | F3 E3   | D3-D2 B |
+Bcd Bcd | Bcd e2c | ABc ABc | ABc d2B | \
+ded B2g | f2e c2e | ded cBA | G3 G2  :|\
+S:https://www.folktunefinder.com/tunes/36908
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

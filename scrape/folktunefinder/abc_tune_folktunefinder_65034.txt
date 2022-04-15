@@ -1,0 +1,22 @@
+X:1430
+T:Sheards of Foula
+% Nottingham Music Database
+S:Peter Kennedy, via EF
+M:6/8
+K:G
+P:A
+D|"G"G2G G2B|"C"edB "D"A2B|"Em"G2G G2A|"Em"BAG "D7"E2D|
+"G"G2G G2B|"C"edB "D"A2B|"Em"G2G GAB|"Bm"d3 d2:|
+P:B
+d|"D7"def "G"g2d|"C"edB "D"A2B|"Em"G2G G2A|"Em"BAG E3|
+"D7"def "G"g2d|"C"edB "D"A2B|"Em"G2G GAB|"Bm"d3 d2:|
+S:https://www.folktunefinder.com/tunes/65034
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

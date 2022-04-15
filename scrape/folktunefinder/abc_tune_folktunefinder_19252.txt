@@ -1,0 +1,23 @@
+X: 1
+T: Captain Carswell
+M: 4/4
+L: 1/8
+R: strathspey
+K: Ador
+G | A2  A>B A2 B>d | e>d B<d e>d B>A | G>A B>A B2 G>B | d>e d<B e2 d ||
+B | A2  A>B A2 B>d | e>d B<d e>d B>A | G2  A>B e2 d>B | e2  d>B A2 A |]
+d | e>f e<d e2 a2  | g>e f<d e2  d>B | d>B G>B d2 B>d | e>d B>d d2 B ||
+d | e>f e<d e2 a2  | g>e f<d e2  d>B | G2  A>B e2 d>B | e2  d>B A2 A |]
+S:https://www.folktunefinder.com/tunes/19252
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CaptainCarswell_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CaptainCarswell_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CaptainCarswell_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

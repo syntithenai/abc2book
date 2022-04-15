@@ -1,0 +1,28 @@
+X:093
+%%topmargin 3cm
+T:Lord MacDonald
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A<G | F<A- Af/2g/2 a>fe>d | {/f}g>f e>d B>dTB>A | F<A- A(f/2g/2) a>fe>d | (e/2f/2g) (f/2g/2a) {gf}e2d :|
+A | F<AA>B A>BA<F | G/2G/2G TG2 G>AB>G | F<AA>B A>BA>F | G>BA>F TE2 D ::
+(A/2G/2) | F<A A(f/2g/2) a>fe>d | {ef}g>fe>d B<dB>A | F<A A(f/2g/2) a>fe>d | (e/2f/2g) (e/2g/2a) {gf}e2 d ::
+g | (f<a)a>b a>ba>f | g/2g/2g Tg2 g>ab>g | f<aa>b a>ba>f | g<af>g e2 d :|
+S:https://www.folktunefinder.com/tunes/70840
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lord_MacDonald.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

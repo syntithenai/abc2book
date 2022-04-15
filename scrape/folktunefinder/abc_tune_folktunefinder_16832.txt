@@ -1,0 +1,30 @@
+X: 1
+T: Reel boule de neige
+O: Quebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2B2 g2B2 | "D7"d2c2 cBAB | c2A2 d2A2 | "G"c2B2 BAGB |
+| "G"d2B2 g2B2 | "C"f2e2 "Am"edef | "D7"e2c2 a2f2 | "G"g2a2 g2 :|[K:D]
+|: d2 \
+| "D"ABAG F2A2 | fefg f2d2 | "A7"efed c2e2 | a^gab a4 |
+| "D"ABAG F2A2 | fefg f2ed | "A7"c2e2 a2c2 | "D"e2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/16832
+S:http://trillian.mit.edu/~jc/music/abc/reel/BouleDeNeige_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BouleDeNeige_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/BouleDeNeige_GD.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

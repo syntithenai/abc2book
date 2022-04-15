@@ -1,0 +1,26 @@
+X:1
+T:Cats and Birds
+C:Paul Rosen
+S:Copyright 2005, Paul Rosen
+M:4/4
+L:1/8
+Q:C4=120
+R:old-time
+K:C
+|:GA|"C"c2Bc A2G2|"Am"E2EG E2C2|"F"F2FG A2F2|"G7"GABG ABGA|
+"C"c2Bc A2G2|"Am"E2EG E2EG|"G7"FGAc ded2|"C"c2ccc2:|c2
+|:"Am"e2eg ageg|abag age2|"F"f2fg aga2|"G"g2ga geBd|
+"Am"e2eg ageg|abag age2|"G"gega ged2|"C"c2ccc2c2:|
+S:https://www.folktunefinder.com/tunes/50463
+S:http://paulrosen.net/tunes/original_tunes_abc.html
+S:http://www.paulrosen.net/tunes/original_tunes_abc.html
+% Rhythm Old-time
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

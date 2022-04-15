@@ -1,0 +1,29 @@
+X: 1
+T: Manchester hornpipe
+T: Rickett's hornpipe
+R: Hornpipe, reel
+O: England
+O: Ireland
+M: 4/4
+K: D
+(3ABc \
+| "D"dcdA FAdf | "A7"edcB A2g2 | "D"fgaf "G"gfed | "A7"edcB A2fe | "D"dcdA FAdf |
+| "A7"edcB A2g2 | "D"fgaf "A7"bgec | "D"d2f2 d2 :: fg | "D"afaf "(Bm)"d2ga | "Em"bgbg "A7"e2fg |
+| "D"afaf "G"bagf | "E7"edcB "A7"A2fe | "D"dcdA FAdf | "A7"edcB A2g2 | "D"fgaf "A7"bgec | "D"d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/13623
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ManchesterH.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ManchesterH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ManchesterH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ManchesterH.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/ManchesterH.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/ManchesterH.abc
+S:http://terrytraub.org/abc/ManchesterH.abc
+% Rhythm Hornpipe, reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

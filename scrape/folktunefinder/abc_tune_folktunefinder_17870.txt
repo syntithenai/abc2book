@@ -1,0 +1,26 @@
+X: 4
+T: Pigeon on the Gate
+M: 4/4
+L: 1/8
+C: Trad.
+S: Jerry Holland
+R: Reel
+K: Gm
+c \
+| dG (3GGG {e}dcAc | d2 de dcAB | cF (3FFF cFAB | c2 cf dcBc |
+| dG (3GGG {e}dcAc | d2 de dcAG | FAcf afga | fdcA GAB :| 
+|: c \
+| dg (3ggg fagf | dgga bgaf | dcde fgfd | cA f2 fgaf | 
+| dg (3ggg fagf | dgga bgaf | dcde fgfd | cAFA GAB :|2 cAFA G2 G |]
+S:https://www.folktunefinder.com/tunes/17870
+S:http://trillian.mit.edu/~jc/music/abc/reel/PigeonOnTheGate4_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PigeonOnTheGate4_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

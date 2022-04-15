@@ -1,0 +1,24 @@
+X: 68
+T:Lambeth Walk
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+P:ABA
+M:4/4
+L:1/4
+K:G
+P:A
+|:"G"dd "C"ed|"G"B/2GD/2 -D2|"G"dd "E7"ed|"Am"c/2A"E7"E/2 -E2|"Am"E3/2A3/2c|e4|\
+"D7"f/2ed/2 cA| [1"G"G2 "D7"d2:|[2"G"G4:|
+P:B
+"Em"G/2AG/2 "A7"AA|"D"AB3|"A7"B/2^cB/2 cc|"D"^cd3|\
+"Bm"^c/2dc/2 "E7"dd|"D"fd3|"A7"eA3|"D7"A d3|
+%P:dc
+S:https://www.folktunefinder.com/tunes/44062
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

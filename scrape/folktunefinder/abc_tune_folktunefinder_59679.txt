@@ -1,0 +1,38 @@
+X:792
+T:Xiraldilla (CT 152)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Pelganu, ayuntamiento de Ayer.
+A:Asturies
+O:Pelganu (Ayer)
+Z:Cancioneru de Torner 152
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|GAF|GAF|G2 c|cBA|B3|GAF|GAF|G2 A|AGF|G3 :||
+W:Adnde vas sin nido,
+W:blanca paloma,
+W:adnde vas sin nido,
+W:tan triste y sola.
+W:
+W:Adnde vas sin nido,
+W:dime dnde vas,
+W:si el amor, vida ma,
+W:lo dejas atrs.
+W:
+S:https://www.folktunefinder.com/tunes/59679
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

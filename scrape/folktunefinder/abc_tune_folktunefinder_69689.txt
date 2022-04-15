@@ -1,0 +1,23 @@
+X:129
+T: WILLKOMMEN LIEBER MAI
+N: F0249
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Fruehling
+M: 6/8
+L: 1/16
+K: C
+G,2 | C4C2D3ED2 | B,3A,B,2C4
+G,2 | E4E2D2E2D2 | C2B,2A,2G,4
+D2 | D4B,2G,4G2 | G4E2C4
+G,2 | A,4A,2D2E2F2 | C4B,2C4
+S:https://www.folktunefinder.com/tunes/69689
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

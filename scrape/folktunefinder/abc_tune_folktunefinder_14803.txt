@@ -1,0 +1,35 @@
+X: 1
+T: Old Noll's Jig
+O: England
+S: Playford 12th Ed. 1703
+B: Cecil J Sharp "Country Dance Tunes" Set XI #20
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+|: E "A"\
+| "Dm"FED  "A7"D2E   | "Dm"FED  "A7"D2d \
+| "A7"^c2d "Dm"A2d   | "A7"^c2d     A2E \
+| "Dm"FED  "A7"D2E   | "Dm"FED  "A7"D2e \
+| "Dm"fed  "E7"c>=BA | "Am"A3-      A2 :|
+   c "B"\
+| "F"ABc F2c | "F"ABc F2f \
+| "Bb"def B2d | "Gm"Bcd G2g \
+| "C7"efg c2e | "F"fga "Bb"B2a \
+| "Gm"bag "C7"g3 | "F"f3- f2 ||
+   a "C"\
+| "Dm"fga "Bb"def | "Gm"efg "A7"^cde \
+| "Dm"def "Gm"efd | "A7"^c3 A2a \
+| "Gm"bag "Dm"aAa | "Gm"bag "Dm"aAa \
+| "Gm"bag "A7"f>ed | "Dm"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/14803
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldNollsJig_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/OldNollsJig_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

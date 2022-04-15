@@ -1,0 +1,37 @@
+X: 1
+T: Jovano, Jovanke
+R: lesnoto
+O: Srbija
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The Interludes are from two different recordings.
+M: 7/8
+L: 1/8
+K: Dphr^F
+P: Vocal:
+[| "D"F3 GF E2 | D7- | D7 \
+| [A2F2][cA] [BG][AF] [GE][F/D/][G/E/] | [A7F7] \
+|: "Gm"[d2B2][dB] [d2B2] [d2B2] | [dB][cA][dB] "Cm"[e2c2] [ec][dB] |
+| "F"[c2A2][cA] [c2A2] [c2A2] | [cA][BG][cA] "Bb"[d2B2] z2 \
+| "Gm"[B2G2][BG] [B2G2] [cA][dB] | "Cm"[e2c2][dB] [c2A2] [B2G2] \
+| "D"[A2F2][AF] [BG][AF] [BG][cA] | [A2F2][cA] "Cm"[BG][AF] [G2E2] \
+| "D"[F7D7]- | [F7D7] :|
+P: Instrumental interlude:
+|: "D"ABG ~A2 GF | FGE ~F2 ED |1 DEC DE FG | ABG ~A2 z2 :|2 "Cm"DEC DE FC | "D"D7- | D7 |]
+P: Alternate interlude:
+|: "D"c2d cB A2 | "Gm"B2c BA G2 | "D"F2G AB AG |1 "D"F2G A2 z2 :|2 "Cm"F2E "D"D4 |]
+S:https://www.folktunefinder.com/tunes/2844
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/JovanoJovanke_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/JovanoJovanke_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/JovanoJovanke_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/JovanoJovanke_D.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Tin Kardia m'tin Klidomeni [Gm]
+R: Zonaradikos
+O: Thrace
+M: 6/8
+L: 1/8
+K: Gm
+P: Inst.:
+|: "Gm"d2c Bcd | B2A GAF | G2G "F"FGA | "Bb"BcA B2F \
+|  "(Gm)"d2c Bcd | B2A GAF | "Gm"G2G "F"FGc | "Gb"GGc !fine!G2z :|
+P: Vocal:
+|: "Gm"G3 d3 | d3- d2c | "(F)"c3 B3 | "Bb"dd2- d3 \
+|  "Cm"c3 B2A | G2A B2c | B2A G2A | "Gm"GG2 z3 :|
+|: "F"F3 B3 | B2A G2F | "Gm"G3 (B2c) | GG2 z3 \
+|  "F"F3 B3 | B2A G2F | "Gm"G3 (B2c) | GG2 z3 :|
+S:https://www.folktunefinder.com/tunes/19754
+S:http://trillian.mit.edu/~jc/music/abc/tune/TinKardiaMTinKlidomeni_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/tune/TinKardiaMTinKlidomeni_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/TinKardiaMTinKlidomeni_Gm.abc
+% Rhythm Zonaradikos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

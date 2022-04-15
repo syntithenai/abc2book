@@ -1,0 +1,26 @@
+X:1
+T:I Courted a Wee Girl
+S:Dervish, At the End of the Day (Kells KM 9507), 12
+Z:Jerome Colburn <jscolbur@prairienet.org>
+R:song air
+M:3/4
+K:A
+F,G, \
+| A,4 F, G, | A, B,3-B, C | C C A G A2 | FE3 E F \
+| E3 E EF | C A,3 z B, | C3 A, G,A, | F,4 z A, |
+| A,2 z2 F, G, | A, B,3 A,B, | C,2 A G A2 | F2 E2 EF \
+| E3 E EF | C2 A,3 E, | F, A,3-A2 | z4 :|
+S:https://www.folktunefinder.com/tunes/13205
+S:http://trillian.mit.edu/~jc/music/abc/air/ICourtedAWeeGirl.abc
+S:http://www.folkwiki.se/pub/cache/I_Courted_a_Wee_Girl_d223dc.abc
+S:http://www.folkwiki.se/pub/cache/I_Courted_a_Wee_Girl_d223dc.abcm.abc
+S:http://www.folkwiki.se/pub/cache/I_Courted_a_Wee_Girl_d223dc.latin.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

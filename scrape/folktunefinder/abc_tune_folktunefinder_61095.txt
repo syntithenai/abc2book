@@ -1,0 +1,42 @@
+X:9062
+T:La Rosina nel Rosal (CT 274)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 274
+M:2/4
+L:1/8
+Q:1/4=160
+W:La rosina en el rosal
+W:siempre est coloreando;
+W:como yes tan buena moza,
+W:ya me vas enamorando.
+W:
+W:ntrala y no temas,
+W:soldadito veterano;
+W:ntrala y no temas,
+W:que yo te dar la mano.
+K:Gm
+|G3 B|d3 d|e3 c|d4|
+c3 A|B3 G|A3 ^F|G2 G2|
+G3 B|d3 d|e3 c|d2 d2|
+c3 A|B3 G|A3 ^F|G2 G2|
+cc BA|BB AG|AA G^F|G2 G2|
+cc BA|BB AG|AA G^F|G2 G2||
+S:https://www.folktunefinder.com/tunes/61095
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Gaelic Waltz
+O: Trad
+R: waltz
+M: 3/4
+L: 1/4
+K: G
+|: D \
+| "G"G2d  |    B>AG | "A7"F>GA | "D7"F>ED |  "G"G2d  | "Em"B>AG | "Am"A3- | "D7"ABc |
+| "G"d>ed |    B>AG |     d>BG | "D7"F>ED |  "C"c>de | "D7"d<BA |  "G"G3  |     G2D |
+| "G"G2G  | "Em"B2B | "A7"A>BA | "D7"F>ED |  "G"G2G  |     d>BG | "Am"A3- | "D7"ABc |
+| "G"d>ed |     G2G |     dBG  | "D7"F>ED | "Am"c>de | "D7"d<BA |  "G"G3  |     G2 |]
+S:https://www.folktunefinder.com/tunes/19930
+S:http://trillian.mit.edu/~jc/music/abc/waltz/GaelicWaltz1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/GaelicWaltz1_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

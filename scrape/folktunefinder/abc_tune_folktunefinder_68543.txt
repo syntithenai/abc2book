@@ -1,0 +1,33 @@
+X: 08002
+T: ADAM'S JIG
+C: Bob McQuillen  10 Apr 91
+B: Bob's Note Book 8 #2
+N: Adam Bluhm lives over in Fitzwilliam, where his dad, fiddler Carey and nice
+N: mom  Dancy are trying hard to re-establish contra dancing in the beautiiful
+N: old hall that Duke Miller called in for so many years.  Adam's  working  at
+N: the  piano,  and  perhaps  someday  before long he'll be backing up his dad
+N: while Dancy collects the ticket money!
+R: jig
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B \
+| ABA FAd | fef d2A | BAB AFA | GAB AFG |
+| ABA FAd | faf dBA | GAB AFA | Bdc d2 :|
+|: c \
+| Bcd cde | fef d2B | cde def | gfe fdc |
+| Bcd cde | dfa gfe | dfd ecA | BcB B2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/68543
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book08.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

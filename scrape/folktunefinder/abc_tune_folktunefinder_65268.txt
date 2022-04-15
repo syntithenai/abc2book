@@ -1,0 +1,26 @@
+X: 180
+T:Little Burnt Potato
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:6/8
+K:D
+f/2g/2|"D"a2a "A7"ba^g|"D"a2A d2e|"D"f2f "G"g2f|"Em"e2B Bcd|"Em"e2f e2c|
+"A7"Ace a3|"A7"a^ga ba=g|"D"f3 "A7"f2g|"D"a2a "A7"ba^g|"D"a2A d2e|\
+"D"f2f "G"g2f|
+"Em"e2B Bcd|"Em"e2f e2c|"A7"Ace a3|"A7"a^ga b2c|"D"d3 "A7"d2e|"D"f2A f2A|
+"D"f3 f2e|"D"def agf|"Em"g3 gef|"Em"gba gfe|"A7"dcB A2a|
+"A7"a^ga ba=g|"D"f3 "A7"fde|"D"f2A f2A|"D"f3 f2e|"D"def agf|
+"Em"g3 gef|"Em"gba gfe|"A7"dcB A2a|"A7"a^ga b2c|"D"d3 d2||
+S:https://www.folktunefinder.com/tunes/65268
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

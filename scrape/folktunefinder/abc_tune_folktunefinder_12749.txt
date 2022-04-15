@@ -1,0 +1,31 @@
+X: 1
+T: Oot be est da vong
+C: trad Shetland
+R: reel
+B: Tom Anderson "Ringing Strings" 1983
+N: Learned in 1985 from Pam Swing
+N: Tom Anderson's notes:
+N: From the playing of Henry Thomson of Vidlin.
+N: The title refers to a fishing place, or meathe.
+M: C|
+L: 1/8
+K: D
+(dB) \
+| "D"AFAB ABd2 | (fd)fd "G"e(dBd) | "D"AFAB ABde | "A7"(fa)ef "D"d2 :| ef |
+| "G"{f}g2ge "D"f2fd | "Em"edef edB2 | "G"g2ge "D"f2fd | "Em"edef "A7"a2a2 |
+| "G"g2ge "D"f2fd | "Em"edef e(dBd) | "D"AFAB (AB)de | "A7"(fa)ef "D"d2 |]
+S:https://www.folktunefinder.com/tunes/12749
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/OotBeEstDaVong.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OotBeEstDaVong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OotBeEstDaVong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/OotBeEstDaVong.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

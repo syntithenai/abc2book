@@ -1,0 +1,25 @@
+X:20
+T:Menuet
+M:3
+L:1/8
+K:C
+%%staves [1 3]
+V:1
+cdefg2 | c'2bagf | efg2a2 | !!d4c2 | f2!!e2d2 | f2!!e2d2 | c2d2!!B2 | c6 :: 
+edcdef | gfedec | agfgab | c'6 | c'd bd ad | c'd bd ad | g2a2!!^f2 | g3gab | 
+c'2bagf | efg2a2 | def2e2 | !!d4c2 | fG eG dG | fG eG dG | c2d2!!B2 | c6 :|
+V:2
+C,4B,2 | A,2B,4 | C2E,2F,2 | G,4C2 | A,B,C2G,2 | A,B,C2G,2 | A,2F,2G,2 | C,6 :: C6 | C,4C2 | F,4F,2 |
+E,F,E,D,C,2 | E,^F,G,2D,2 | E,^F,G,2D,2 | E,2C,2D,2 | G,,2G,2F,2 | E,3F,E,D, | C,D,E,2F,2 | G,2B,,2C,2 | G,,2G,2C2 | A,B,C2G,2 | A,B,C2G,2 | A,2F,2G,2 | C,6 :|
+V:3
+c4b2 | a2b4 | c'2e2f2 | g4c'2 | abc'2g2 | abc'2g2 | a2f2g2 | c6 :: c'6 | c4c'2 | f4f2 |
+efedc2 | e^fg2d2 | e^fg2d2 | e2c2d2 | G2g2f2 | e3fed | cde2f2 | g2B2c2 | G2g2c'2 | abc'2g2 | abc'2g2 | a2f2g2 | c6 :|
+S:https://www.folktunefinder.com/tunes/40194
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

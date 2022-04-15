@@ -1,0 +1,28 @@
+X: 1
+T: Nkosi Sikelel' iAfrika
+T: God Bless Africa
+C: Enoch Sontanga 1897
+R: march
+N: 8-bar version
+Z: John Chambers <jc:trillian.mit.edu>
+N: Enoch Sontanga was a teacher at a methodist mission school in Johannesburg SA.
+N: The first two (almost identical) stanzas are the original.  Seven additional
+N: Xhosa verses were written in 1927 by poet Samuel Mqhayi.  There are versions
+N: in all the southern African languages.
+M: 4/4
+L: 1/8
+K: Bb
+|: "Bb"BA Bc d2 d2 | "F7"c2 c2 "Bb"B4 | "Bb"dd cd "F7"e2 e2 | "Bb"dd d2 "F7"c4 |
+| "Bb"BA Bc d2 d2 | "F7"c2 e2 "Bb"d4 | "Cm"c4 "Bb"B4 | "F7"AB c2 "Bb"B4 :|
+S:https://www.folktunefinder.com/tunes/13286
+S:http://trillian.mit.edu/~jc/music/abc/air/NkosiSikeleliAfrika_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/NkosiSikeleliAfrika_8.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

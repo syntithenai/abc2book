@@ -1,0 +1,29 @@
+X: 1
+T: HARRY BLOODGOOD'S FAMOUS JIG
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd p.43 #389 c.1880
+M: C|
+L: 1/8
+K: Bb
+   F2 \
+| BzB2- B>Ac>B | dzB2- B>Ac>B | A>Bc>d e>dc>B | c>BA>G F>ED>E |
+| FzB2- B>Ac>B | dzB2- B>AB>c | d4- d>ec>d | B>cA>B G2 :|
+|: F2 \
+| (3BcB F>B d>FB>d | (3cdc G>c e>dc>B | (3ABA E>B (3ABA E>A | G>F=E>F D>FG>A |
+| (3BcB F>B d>FB>d | (3cdc G>c e>dc>B | A>gf2 F>ed>c | B2[d2F2] [B2D2] :|
+S:https://www.folktunefinder.com/tunes/13572
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HarryBloodgoodsFamousJ_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/HarryBloodgoodsFamousJ_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/HarryBloodgoodsFamousJ_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/HarryBloodgoodsFamousJ_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HarryBloodgoodsFamousJ_Bb.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

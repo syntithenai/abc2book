@@ -1,0 +1,25 @@
+X:2230
+T:Hambo efter Boda Spelmanslag
+D:CD
+L:1/8
+M:3/4
+O:Sweden
+P:AABA ABA ABA
+R:Hambo
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ba2.html
+%%ID:00000ba2
+K:A
+e2 e>f ed| d<c c2A>c| c>B B2 G>B | B>A A>B cd |\
+e2 e>f ed| d<c c2A>c| c>B BE G>B|B>A A4:| \
+c>d e2c2| d>e f2d2 | d>c d>e fg | ag e4 | \
+c>d e2c2| d>e f2d2|d>c d>e fg| ag e4|]
+S:https://www.folktunefinder.com/tunes/36525
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

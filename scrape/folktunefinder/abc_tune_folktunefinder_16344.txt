@@ -1,0 +1,30 @@
+X: 1
+T: Hambo med bakmes fr\aan Hede
+O: Sweden
+R: polska
+S: handwritten MS of unknown origin, labelled "A-8 pink"
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"f2gf e4 d4 | "A7"^c2Ac d4 (e2g2) | "Dm"(fe)fg (a2f2) e2d2 | "A7"(^cd)ec A4 |
+|  "Dm"f2gf e4 d4 | "A7"^c2Ac d4 (e2g2) | "Dm"(fe)fg (a2f2) "A7"e2d2 | (^cd)ec "Dm"d4 :|
+|: "F"a4 c4 a2ba | "C7"g2ag B4 "A7"g4 | "Dm"f2af "A7"e2ge "Dm"d2ef | "A7"(eg)(e^c) "Dm"d2A2 F2E2 |
+| "Dm/F"[F2D2]a2 "F"c4 a4 | "C7"g2ag B4 "A7"g4 | "Dm"f2af "A7"e2ge "Dm"d2ef | "A7"(eg)(e^c) "Dm"d8 :|
+S:https://www.folktunefinder.com/tunes/16344
+S:http://trillian.mit.edu/~jc/music/abc/pols/HamboMedBakmedFrHede_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/HamboMedBakmedFrHede_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/HamboMedBakmedFrHede_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/HamboMedBakmedFrHede_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/HamboMedBakmedFrHede_Dm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

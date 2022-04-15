@@ -1,0 +1,27 @@
+X:2
+T:Millenium Jig # 2, The
+M:6/8
+L:1/8
+C:Philippe Varlet (c 1999)
+R:jig
+K:G
+BdB ~G3 | DB,D GBd | ~c3  AFD | {a}fed ABc |
+BdB ~G3 | ECE {d}cBc | A/B/A{c}A {a}fed | ABc BGG :||
+K:D
+ABA FAd | ~f3  agf | ~g3  ecA | ABG EFG |
+FDF Ade | ~f3  agf | {a}gef {a}gea | {a}gec ~d3 |
+ABA FAd | ~f3  agf | ~g3  ecA | ABG EFG |
+AFA ~d3 | BGB ~g3 | aed cAG | EAG FDD ||
+S:https://www.folktunefinder.com/tunes/14643
+S:http://trillian.mit.edu/~jc/music/abc/jig/MilleniumJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MilleniumJig2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

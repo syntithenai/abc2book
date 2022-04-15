@@ -1,0 +1,26 @@
+X:111
+T: AUFM BERG STEHT A SCHLOSS
+N: Z0111
+O: Europa, Mitteleuropa, Deutschland, Mitteleuropa, Schweiz
+R: Sagen - Lied, Romanze
+M: 3/4
+L: 1/16
+K: G
+D3D | D4B6AG | F6z2
+D3D | D4c6BA | d6z2
+D3D | D4B6AG | E4g6
+e2 | e2d2F4B2A2 | G6z4
+d2 | d6a2f2d2 | g6d2B2G2
+e2d2e2d2c2A2 | e2d2B2G2D2
+d2 | d6a2f2d2 | b6g2d2B2
+e2d2e2d2F2A2 | G6z2
+S:https://www.folktunefinder.com/tunes/68970
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

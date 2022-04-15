@@ -1,0 +1,36 @@
+X: 1
+T: \,Sehnah Longa
+C: Ethem Efendi
+M: 2/4
+L: 1/16
+P: AB CB DB
+K: G_/e_/B^f^c
+"A"\
+|: .d4 .d4 | d2d2 =f=ed2 | cdcd cdcB | c2d2 =e2=fe | d2=ed c2dc |
+| BAG2 AGF2 |1 GFGA BABc | d=edc BAG2 :|2 G2B2 d2B2 | G2cd cBAG ||
+"B"[|]!Segno!\
+|: (3D2D2D2 (3F2F2F2 | (3A2A2A2 .d4 | (3D2D2D2 (3F2F2F2 | (3A2A2A2 .=c4 |
+| d=c_Bd cBAc | _BAGB AGFA | GFEG FED2 | CEDC B,A,G,2 ||
+|| DFAF DFAF | DFAF .d4 | DFAF DFAF | DFAF .=c4 |
+| d=c_Bd cBAc | _BAGB AGF2 | G3B d2B2 |1 G2AB AGFE :|2 G2F2 G4 |]
+"C"\
+|: z2d2 c2d2 | e6 d2 | d3c B2c2 | dedc BAG2 |
+| z2 =c4 c2 | z2 _B4 B2 | A_BAG FGAB | =c_BAG FED2 ||
+|| z2d2 c2d2 | g6 f2 | e3d c2e2 | dedc BAG2 |
+| z2e2 d2c2 | B2A2 G2F2 | G3B d2B2 | G2AB AGFE !Segno!:|
+"D"\
+|: D2AG F2G2 | A6 B2 | c3e d2c2 | B3A G4 |
+| z2 g4 f2 | e2d2 c2d2 | ABcd cBAG | FGAB AGFE ||
+|| D2AG F2G2 | A6 B2 | c3e d2c2 | B3A G4 |
+| z2e2 d2c2 | B2A2 G2F2 | G3B d2B2 | G2AB AGFE !Segno!:|
+S:https://www.folktunefinder.com/tunes/13062
+S:http://trillian.mit.edu/~jc/music/abc/Turkey/SehnazLongaG.abc
+S:http://trillian.mit.edu/~jc/music/abc/Turkey/tune/SehnazLonga_EE_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X:68
+T:7) Kruzifunger
+S:Cathy Goss
+O:Germany
+N:MMVM x 4 || MMMVV MMMMMVM x 2
+M:2/4
+I:speed 420
+A:Bavaria
+K:Am
+M:2/4
+c4B4 |\
+M:3/8
+A4E2 |\
+M:5/8
+G3EG2 A4 |\
+M:2/4
+c4B4 |\
+M:3/8
+A4E2 |\
+M:5/8
+G3EG2 A4 ::
+M:3/4
+c2d2 e2 |\
+M:3/8
+f3ed2 | e3dc2 |\
+M:2/4
+d2B2 G2B2|\
+M:3/4
+c2d2 e2|\
+M:5/8
+f3ed2 c4 :|
+S:https://www.folktunefinder.com/tunes/702
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 5/8
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

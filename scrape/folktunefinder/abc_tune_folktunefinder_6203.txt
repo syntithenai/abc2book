@@ -1,0 +1,29 @@
+X: 2
+T: Irish Lamentation
+T: King James' March to Limerick
+O: England c.1735
+C:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compare O'Neill's 275 ("The Forlorn Lover")
+N: Barnes (dates c.1735)
+M: 3/4
+L: 1/8
+K: A
+|: AB \
+| "A"c2 c2 cd | "(F#m)"c3 B A2 | "Bm"{a}b2 B2 Bc | "E"B4 AB \
+| "A"c2 dc BA | "D"F3 AGF | "E7"EF A2 {A}B2 | "A"A4 :|
+|: AB \
+| "A"c2 e2 e2 | ef ec Bc | "D"A2 a2 a2 | "E7"a3 gfe \
+| "A"c2 e2 e2 | ef ec Bc | "D"A2 a2 a2 | "E7"a4 ef |
+| "G"=g>f ga ga | "D"f>e fa fa | "A"e2 fe dc | "E7"B4 AB \
+| "A"c2 dc BA | "D"F3 AGF | "E7"EF A2 {A}B2 | "A"A4 :|
+S:https://www.folktunefinder.com/tunes/6203
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_IrishLamentation.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

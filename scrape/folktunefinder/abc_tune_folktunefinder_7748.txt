@@ -1,0 +1,28 @@
+X: 1
+T: Bublichki
+T: Pretzels
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+zA, DE \
+| "Dm"F2 ED- | DG FE | F2 ED- | DD FA \
+| d2 ^cd- | df ed | A4 | zA B=B |
+| "F"c2 BA- | Ad cB | A2 GF- | FA cB \
+| "Dm"A2 GF- | FG "A7"FE | "Dm"D4 ||
+|| "C7"zC FG \
+| "F"A2 GF- | Fc _cB | A2 GF- | FC FA \
+| c2 =Bc- | cf ed | "Dm"A4 | "A7"zA de |
+| "Dm"f2 ed- | dA cB | A2 GF- | "Dm"FA cB \
+| "Dm"A2 GF- |1 FG "A7"FE | "Dm"D4 :|2 FA "A7"^cA | "Dm"d4 |]
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7748
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Bublichki.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

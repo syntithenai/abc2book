@@ -1,0 +1,24 @@
+X:520
+%%topmargin 3cm
+T:Miss Stewart's Reel
+C:Robt. McIntosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F
+c | f2 fc AFFA | G/G/G g>f dffa | f2 fc AFcA | BdcA F/F/F F:| c | f2 a/g/f eggb | afba g/g/g g>a |
+f2 (a/g/f) egga | fage f/f/f fc | f2 a>f eggb | afba g/g/g ge | fdBg ecAf | BdcA F/F/F F |]
+S:https://www.folktunefinder.com/tunes/71549
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Stewarts_Reel.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0520.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

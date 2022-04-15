@@ -1,0 +1,28 @@
+X:840
+T:John Anderson my Jo  for the Violin or Fife
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000170.html
+%%ID:00000170
+K:E min
+D|\
+B,EEF| G2GA| FDD>E| D3E/D/|\
+B,EEF| GFGA| BAGA| B3||\
+c|\
+BAGA| BcdB|
+AGFG| A2GA| BGAF| GEFB| B,EE^D| E3||\
+d|\
+Beef| g2ga| fdde| d2ed|
+Beef| g2fe| fdBB| B3 d/c/|\
+BGdG| gGdG| DEFG| A2GA| BGAF| GEFB| B,EE^D| E3|]
+S:https://www.folktunefinder.com/tunes/30477
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

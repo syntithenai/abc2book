@@ -1,0 +1,30 @@
+X:1
+T:Cooley's Waltz #1
+R:waltz
+M:3/4
+L:1/8
+D:"Crossroads Ceili", Brendan Begley on accordion
+Z:Han Speek <Han.Speek@HETNET.NL> irtrad-l 2001-10-3
+P:ABA
+K:D
+P:A
+e2|:f6|fa-a4|f3 (3afdB|~A2 F2 D2|B6|B3 A ~G2|F6|-F4 e2|
+f4 (3afe|fa-a4|f3 (3afdB|~d2 B2 A2|c6|c6|e3 fgf|eg cg BA|
+f4 (3afe|fa-a4|{=f}f3 (3afdB|~A2 F2 D2|B6|B3 A ~G2|F6|-F4 (3ABc|
+d4 cd|e4 (3ffg|a2 ~f2 d2|g4 ag|fA-A4 |f4 (3ege|d2  {f}dAFA|D6||
+P:B
+D2 F2 A2|~d2 c2 d2|~e2 d2 g2|g4 cB|A2 c2 e2|a3 ^gag|ag eg fe|f4 AF|
+D2 F2 A2|~d2 c2 d2|~e2 d2 g2|g4 (3BcB|A2 c2 e2|a3 ^gag|abagfe|[1 d4 AF:|2 d6|
+S:https://www.folktunefinder.com/tunes/19857
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CooleysWaltz1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/CooleysWaltz1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CooleysWaltz1_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/waltz/CooleysWaltz1_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

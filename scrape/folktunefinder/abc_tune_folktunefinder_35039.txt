@@ -1,0 +1,29 @@
+X: 7822
+T:Sl\"angpolska
+R:Polska
+R:Sl\"angpolska
+O:Sweden
+M:3/4
+L:1/16
+A:Sk\aa{}ne
+K:Bm
+D2DF E2EG F2D2 | DEFG ABcA d4 |\
+f2fa g2f2 e2d2 |
+|1 cdef edcB AGFE :|2 cdec d8 :: \
+f2fa g2gb a2c2| d2f2 efge f2d2| \
+f2fa g2gb a2c2 |
+d2f2 efge d4 |\
+D2DF E2EG F2D2 | DEFG ABcA d4 |\
+f2fa g2f2 e2d2 |cdec d8 :|
+S:https://www.folktunefinder.com/tunes/35039
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

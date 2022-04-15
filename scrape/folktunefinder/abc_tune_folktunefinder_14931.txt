@@ -1,0 +1,30 @@
+X: 1
+T:Plyarteation,The. WCl.26
+M:6/8
+L:1/8
+Q:60
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+N:Name of tune is clearly written in MS...
+Z:vmp.Barry Callaghan
+K:G
+D2|"as writ"GAG FED|ABA AAB/2c/2|dBG GdB|B2 A2::!
+B/2c/2|dcB dcB|gfe dcB|AFD AFD|"tr"c3B2 B/2c/2|dBG GdB|"tr"A2 G2:||
+S:https://www.folktunefinder.com/tunes/14931
+S:http://trillian.mit.edu/~jc/music/abc/jig/Plyarteation_The_WCl_26_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Plyarteation_WCl_26_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Plyarteation_The_WCl_26_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Plyarteation_WCl_26_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Plyarteation_The_WCl_26_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

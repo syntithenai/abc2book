@@ -1,0 +1,32 @@
+X: 1
+T: Pulp on the Bottom
+C: Cal Howard (1980)
+R: jig
+N: Cal writes:
+N: Susan Worland and I were trying to come up with a title while at a  party
+N: sipping punch with pulp at the bottom of the glass. We decided to call it
+N: that.  She recorded it on her album with Duncan Smith, I think.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"E2F GAB | "D"AFD AFD | "Em"E2F G2A | BAB "A7"e2e \
+| "D"def "G"edB | "D"ABA FED | "Em"E2F GAB | "D"AFD "Em"E2 :|
+|: e \
+| "Em"eBe g2g | "D"fag fed | "Em"eBe gfe | "D"fdf "Em"e2f \
+| "G"gab "C"age | "G"ded BAG | "Am"A2B cBA | "Em"BGE E2 :|
+S:https://www.folktunefinder.com/tunes/14946
+S:http://trillian.mit.edu/~jc/music/abc/jig/PulpOnTheBottom_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PulpOnTheBottom_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/CalHoward/PulpOnTheBottom_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

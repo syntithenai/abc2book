@@ -1,0 +1,31 @@
+X: 112
+T: Rollstone Mountain
+C: R-53
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+%%staffsep 42.0pt
+K: D
+F2G2| "D"A3B A2F2| A2d2 f2d2| "G"G3A "D"G2F2| "Em"E4 "Em7"E2F2|
+      "A"G3A c2B2| A2B2 "A7"G2A2| "D"F8-| F4 F2G2|
+      "D"A3B A2F2| A2d2 f2d2| "G"B3^A B2e2| "Em"g4 B2d2|
+      "A"c3d c2B2| "A7"A2c2 e2c2| "D"d4 d4| d4 |]
+\
+f2g2| "D"a4 a2^ga| b2a2 g2f2| "Em"g4 B4| e4 "E7"e2d2|
+      "A"c3d c2B2| A2c2 "A7"d2e2| "D"f8-| f4 f2g2|
+      "D"a4 "D7"a2^ga| "B7"b2a2 g2f2| "Em"g4 B4| e4 "E7"e2d2|
+      "A"c3d c2B2| A2c2 "A7"e2c2| "D"d4 "G"d4| "D"d4 |]
+%%text 8/25/99
+S:https://www.folktunefinder.com/tunes/57449
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

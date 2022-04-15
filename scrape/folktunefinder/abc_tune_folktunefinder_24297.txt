@@ -1,0 +1,27 @@
+X:3845
+T:Luck Penny, The
+O:england
+M:6/8
+L:1/8
+R:jig
+K:G
+BAG AFD|~G3 FGA|BAG B/2c/2dB|cAG FGA|
+~B3 AFD|GBd ~g3|def gdB|1cAF G2A:|2cAF G2A||
+Bdg gfg|a2g fga|bag agf|def ~g2a|
+bag afd|~g3 fd^c|def gdB|1cAF G2A:|2cAF GBc||
+dBG GFG|dBG GAB|cA=F FEF|cA=F ABc|
+dBG GBd|gag fd^c|def gdB|cAF G (3ABc|
+dBG ~G3|DGB DGB|cA=F FEF|C=FA cBA|
+dBG GBd|~g3 fd^c|def gdB|cAF G2A||
+S:https://www.folktunefinder.com/tunes/24297
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

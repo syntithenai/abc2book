@@ -1,0 +1,28 @@
+X: 1
+T:Sweet Willy O. WCl.27
+M:6/8
+L:1/8
+Q:70
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+D|G>AG B,DG|Bcd dcB|c>dc EGc|efg gfe|!
+d>ed d>Bd|eEE E2F|G>AG Bcd|eAA A2D|!
+G>AG B>dB|G>AG B>dB|G>AG BdB|d=ff f2d|!
+ecA dBF|GAG G2d|ecA dBF|GAG G2||
+S:https://www.folktunefinder.com/tunes/15131
+S:http://trillian.mit.edu/~jc/music/abc/jig/Sweet_Willy_O_WCl_27_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Sweet_Willy_O_WCl_27_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Sweet_Willy_O_WCl_27_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

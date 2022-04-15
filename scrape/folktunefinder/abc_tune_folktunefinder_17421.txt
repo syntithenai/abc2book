@@ -1,0 +1,26 @@
+X: 1
+T: Jaybird
+M: C|
+L: 1/8
+F: http://home.insightbb.com/~otter256/dance/fullmoon.abc 2006-10-30 16:14:40 UT
+K: D
+ag \
+| "D"f2d2 f2d2 | fefg a2gf | "A"e2c2    e2c2 |    ecef g2ag \
+| "D"f2d2 f2d2 | fefg a2gf | "G"efed "A"cAag | "D"f2d2 d2  :|
+|: z2 \
+| "G"B3=c B2A2 | "D"G2F2 E4   | "E"e3f     e2d2 | "A"c2c2 B2A2 \
+| "G"B3=c B2A2 | "D"G2F2 E2cd | "G"efed "A"cAag | "D"f2d2 d2  :|
+S:https://www.folktunefinder.com/tunes/17421
+S:http://home.insightbb.com/~otter256/dance/fullmoon.abc
+S:http://home.insightbb.com/~otter256/dance/fullmoon.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Jaybird2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Jaybird2_D.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

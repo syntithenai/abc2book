@@ -1,0 +1,23 @@
+X: 1
+T: the World Turned Upside Down
+T: When the King Receives His Own Again
+O: England late 1600s
+M: C|
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: C
+   BA \
+| "C"G2 G2 c2 c2 | "G7"defg "C"e2 de | "F"f2 A2 B2 e2 | "G7"d3 B G4 \
+| "C"G2 G2 c2 c2 | "G7"defg "Am"e2 de | "Dm"f2 A2 "G7"B2 e2 | "G7"d3 c "C"c2 :|
+|: c2 \
+| "G"d2 Bc d2 G2 | "G"dcde d2 G2 | "G"dcde d2 cB | "D7"A3 G "G"G4 \
+| "C"g2 gf e2 dc | "Dm"defg "Am"e2 de | "Dm"f2 A2 "G7"B2 e2 | "G7"d3 c "C"c2 :|
+S:https://www.folktunefinder.com/tunes/15719
+S:http://trillian.mit.edu/~jc/music/abc/march/WorldTurnedUpsideDown_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/WorldTurnedUpsideDown_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

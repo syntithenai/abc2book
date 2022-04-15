@@ -1,0 +1,31 @@
+X: 1
+T: Miss Murphy
+C: Turlough Carolan
+B: "Complete Collection ... of CAROLAN ..." by Ossian Publications
+B: Carolan by Donal O'Sullivan, no. 105
+B: "The Hibernian Muse", S., A. and P. Thompson, London c.1786.
+S: Deirdre Sullivan & Paul de Grae 
+N: In the absence of any words or other information, it is not
+N: possible to say who this Miss Murphy was [D. O'S]
+N: Allegretto
+M: 4/4
+L: 1/8
+K: C
+gf | e2 g2 d2 g2 | c2 g2 B2 g2 | fedc B2 d2 | cB~AG G2 cB |
+| A2 c2 G2 c2 | F2 d2 cBAG | FG A2 D2 G2 | {F}E2 ~DC C2 z2 ||
+| GAGF E2 C2 | EF G2 G2 c2 | Bc d2 dedc | ~B2 G2 G4 |
+| ~g2 f2 ~g2 f2 | efge de B2 | a2 a2 ~g2 f2 | fgfe d2 g2 |
+| {f}e2 dc c'2 c2 | f2 a2 a2 gf | edec {e}d2 cB | c2 c2 c2 |]
+S:https://www.folktunefinder.com/tunes/13265
+S:http://trillian.mit.edu/~jc/music/abc/air/MissMurphy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/MissMurphy.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/MissMurphy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

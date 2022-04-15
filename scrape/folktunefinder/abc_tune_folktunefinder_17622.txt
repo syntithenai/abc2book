@@ -1,0 +1,35 @@
+X: 1
+T: Marylou's Reel
+C: J Duncan Keppie
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+|: "D"BA^GA F2F2 \
+| BA^GA F2F2 \
+| "A7"AGFG E2E2 \
+| AGFG E2FE \
+| "D"DCDF A,2A,2 \
+| "Em"E^DEG B,2B,2 |
+| "A7"CDEF GABc \
+| "D"d2D2 D2A2 :|\
+|: "D"^GABA FADA \
+| FADA B,AA,A \
+| "A6"^GABA =GAEA \
+| GAEA CAA,A |
+| "D"^GABA FADA \
+| "A6"^GABA =GAEA \
+| cBAG FEDC \
+| D2F2 D4 :|
+S:https://www.folktunefinder.com/tunes/17622
+S:http://trillian.mit.edu/~jc/music/abc/reel/MarylousReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/J_Duncan_Keppie/MarylousReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MarylousReel_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

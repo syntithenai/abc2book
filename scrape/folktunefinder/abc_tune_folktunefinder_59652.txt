@@ -1,0 +1,37 @@
+X:765
+T:Xiraldilla (CT 075)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por el presbtero D. Plcido Tun, de setenta y dos aos, de Llanuces, ayuntamiento de Quirs, quien dice que esta meloda se cantaba siendo l nio, y ya entonces era considerada como muy antigua.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 075
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+GBB|d2 cc|A2 A2|G2 BB|d2 AA|G2 G2-|Gz Bc|
+d2 ee|d2 d2|c2 BA|(Bc) d2-|d2 Bc|d2 ee|d2 d2|c2 dd|
+A2 A2|G2 BB|d2 cc|A2 A2|G2 BB|d2 AA|G2 G2-|G2 z2||
+W:Retrate, dueo mo,
+W:retrate del peligro,
+W:que si no te retiras
+W:de la ventana,
+W:prenderante los guardias,
+W:prenda del alma.
+W:Retrate, dueo mo,
+W:retrate del peligro.
+W:
+S:https://www.folktunefinder.com/tunes/59652
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

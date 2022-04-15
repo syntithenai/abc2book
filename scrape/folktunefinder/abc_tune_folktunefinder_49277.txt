@@ -1,0 +1,25 @@
+X:3
+T:3. Lachrim\ae Gementes
+T:Quintus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+N:Original clef C on fourth line
+K:Amin -8va
+%%MIDI transpose -12
+E6 A B c > d e2 A4 B4 z A2 A G2 E2 F2 G2 A > c B A B4 z2 G F > G A/ F/ G > F E D E C z2 D2 D8 ||
+d G B A A > A G2 A2 F2 c2 C2 E2 z2 G C C E2 z2 z G A > c B G c A c d/ c/ B/ A/ G c > B A A > G F E > F G F D z G c d c B/ A/ e2 E2 E4 ||
+%^G6 e3 B B > A ^G2 z ^F B2 z ^F ^G2 z c B G B > C d2 G G A2 F2 G4 z2 E2 E4 D G E2 A G/ F/ "(3)"G/ A/ e3 E HE8 |]
+%N:(3) These next two notes are quarters in the original (my guess)
+^G6 e3 B B > A ^G2 z ^F B2 z ^F ^G2 z c B G B > C d2 G G A2 F2 G4 z2 E2 E4 D G E2 A G/ F/ "(3)"G A e3 E HE8 |]
+S:https://www.folktunefinder.com/tunes/49277
+S:http://www.laymusic.org/music/dowland/gementes/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

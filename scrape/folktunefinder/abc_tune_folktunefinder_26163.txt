@@ -1,0 +1,25 @@
+X:5711
+T: Rustic Dance
+O:england
+L:1/8
+M:6/8
+K:G
+B,/C/^C/ |: "G"DB/GE/ "G"DD/_D=D/ |\
+"C"Ec/Ac/ "C"EE/A/G/_G/ |
+"D"Fc/Ec/ "D"DD/D/E/F/ \
+|1 "G"G/B/A/G/F/E/ "G"DD/B,/C/^C/ :|2\
+"G"G z/2  D z/2  "G"G ||
+d/^c/d/ |: "G"ed/BG/ "G"DG/FG/ |\
+"C"AG/FG/ "C"EE/AG/ |
+"D"Fc/Ec/ "D"DD/D/E/F/ \
+|1 "G"G/B/A/G/F/E/ "G"D z/2  d/^c/d/ :|2\
+"G"G z/2  D z/2  "G"G ||
+S:https://www.folktunefinder.com/tunes/26163
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

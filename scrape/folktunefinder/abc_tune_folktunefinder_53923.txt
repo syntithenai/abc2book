@@ -1,0 +1,27 @@
+X: 55
+T:Kelloholm Jig, the
+M:6/8
+L:1/8
+C:Peter Hyssett
+S:RSCDS Leaflet 32
+R:Jig
+K:G
+G|"G"D2 B B^AB|d^cd BGE|D2 B B^AB|"D7"dcB c3|!
+D2 A A^GA|cBc AFE|D2 A A^GA|1"G"ed^c d2 G:|2cBA "G"G3||!
+DGB d2 d|ed^c dBG|DGB dcB|"D7"c2 A A3|!
+DFA c2 c|dcB cAF|DFA c2 c|"G"ed^cd3|!
+DGB d2 d|ed^c dBG|DGB dBG|"C"F2 E E3|!
+"Am"EAc ecA|"G"DGB dBG|"D7"FAc e2 F|"G"G3-G2||
+% <A name="D1X056">
+S:https://www.folktunefinder.com/tunes/53923
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

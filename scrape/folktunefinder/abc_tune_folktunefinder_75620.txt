@@ -1,0 +1,30 @@
+X:57
+T:The Keel Row
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:G
+P:Verse
+c| B2   G> B|c2 A> c| B2    G> B|(AF) D
+c| B2   G> B|c2 A> c| B> G  A> F| G3   ||
+P:Chorus
+z|(B>d) d> g|e2 d> c| B2    G> B|(AF) D2|
+  (B>d) d> g|e2 d> c|(B>`G) A> F| G3   ||
+c| B2   G> B|c2 A> c| B2    G> B|(AF) D2|
+   B2   G> B|c2 A> c|(B>`G) A> F| G3   |]
+% ---- Pipe tunes ------------------------------------------------------
+% I've laid these out somewhat like the songs, putting phrases on
+% single lines.  In some cases I've already put the continuation
+% marks in, or split lines, to get them on A4 paper in portrait
+% format at a size I can read easily myself.
+S:https://www.folktunefinder.com/tunes/75620
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

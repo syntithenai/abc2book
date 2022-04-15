@@ -1,0 +1,24 @@
+X:62
+T: St. Odilien
+N: D0065
+O: Europa, Mitteleuropa, Lothringen, Woelflingen
+N: In Zeile 261 und 263 rhythmisch korrigiert
+N: Grundton in der kleinen Oktave
+R: Legenden - Lied
+M: 3/8
+L: 1/16
+K: G
+d2 | d4d2 | d2d2d2 | g2=f2g2 | d6- | d4
+=f2 | =f3ff2 | =f2g2f2 | _e2d2c2 | _B6- | B4
+d2 | c2d2_e2 | d4c2 | _B4A2 | G6- | G4
+S:https://www.folktunefinder.com/tunes/72519
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

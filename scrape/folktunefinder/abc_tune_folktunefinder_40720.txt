@@ -1,0 +1,31 @@
+X: 37
+T:Cassino. WCl.37
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+N:march/jig/country dance....
+Z:vmp.Barry Callaghan
+K:G
+c|"tr"BA2 "tr"BA2|G2G G2B|"tr"c2B "tr"c2B|A2A A2B|!
+c2c  cde|edc B2d|dcB AGA|G2G "cr"G3::!
+d2d dBG|e2e e3|c2c cAF|d2d d3|!
+G2G B2G|d2G g2e|edc BAG|FGA D2A|!
+"tr"B2A "tr"B2A|G2G G2B|c2B c2B|A2A A2B|!
+c2c cde|edc B2d|dcB AGA|G2G G2:||
+S:https://www.folktunefinder.com/tunes/40720
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

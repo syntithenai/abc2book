@@ -1,0 +1,25 @@
+X: 1
+T: Thieving Jimmy
+M: 6/8
+L: 1/8
+Q: 3/8=104
+P: A5(AB)CDCA
+K: D
+A, "A"| "D"D2D FED | FAd AFD | "G"GAB "D"AFD |1 "Em"EEE "A7"E2 :|2 "A7"EDE "D"D2 ||
+A "B"| "D"d2d "A7"cBA | "G"Bcd "D"AFD | "G"GAB "D"AFD |1 "Em"EEE "A7"E2 :|2 "A7"EDE "D"D2 |]
+Q: 1/4=100
+M: 2/4
+L: 1/8
+A, \
+"C"|: "D"DD/D/ FF | AA dc/d/ |1 "G"ed BG | "A7"BG EC :|2 "G"B>G "A7"EC | "D"ED D2 ||[K:A]
+"D"|: "A"[AE]A AG/F/ | Ee ec | "D"dd "E7"FG |1"A"A/G/A/B/ cA :|2 "A"Az "A7"=G2 |]
+S:https://www.folktunefinder.com/tunes/4022
+S:http://trillian.mit.edu/~jc/music/abc/England/RG_ThievingJimmy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

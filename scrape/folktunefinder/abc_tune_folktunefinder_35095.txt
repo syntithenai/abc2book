@@ -1,0 +1,27 @@
+X: 7878
+T:Staten Island
+R:Reel
+R:Hornpipe
+O:Scotland
+O:Ireland
+M:4/4
+K:D
+AG|\
+FDFG A2A2|dfed dcBA|B2GB A2FA|G2E2 E2AG|\
+FDFG A2A2|dfed dcBA|
+d2dd efge|f2d2 d2::\
+fg|\
+a2fa g2eg|f2df ecA2|
+=c2c2 efge|=c2c2 efge|\
+a2fa g2eg|f2df ecA2|d2dd efge|f2d2 d2:|
+S:https://www.folktunefinder.com/tunes/35095
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 255
+T:Red Stocking
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:G
+P:A
+(3D/2E/2F/2|"G"GBA G2B|"G"def "D7"gdB|"G"GBA G2B|"D7"AFD AFD|
+"G"GBA G2B|"G"def gfg|"C"ecA "G"dBG|"D7"FEF "G"G2:|
+P:B
+B/2d/2|"Em"efe edB|"Em"def gfg|"Em"efe edB|"D"dBA A2d|
+"Em"efe edB|"Em"def gfg|"C"ecA "G"dBG|"D7"FEF "G"G2:|
+S:https://www.folktunefinder.com/tunes/65343
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

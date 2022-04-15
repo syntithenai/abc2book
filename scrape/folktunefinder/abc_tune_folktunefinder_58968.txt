@@ -1,0 +1,53 @@
+X:81
+T:Baille a lo pesao
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:transcrito a Ceferino Traviesas, (Caliu-Casu)
+A:Asturies
+O:Caliu (Casu)
+Z:E. Zamora
+M:3/8
+L:1/8
+Q:3/8=80
+K:Gm
+|: A>cB|AGF|G F/E/ D|D D2 :|
+|: D>FF|FFF|A2 G-|G3|
+|A>cB|AGF|G F/E/ D|D D2 :|
+|DDF|A2 F|FAc|c =B/A/ G|
+[K:C]
+|G3|G3|G2 D|ddd|
+|d c/B/A/A/|AGB|d e/d/c/B/|AFA|A d/d/d/d/|
+|: BGB|d e/d/c/B/|AFA|A c/c/c/c/|
+|BGB|d e/d/c/B/|AFA|A d/d/d/d/ :|
+|: BGB|B d/d/d/d/|AFA|A c/c/c/c/ :|
+|BGB|B d/d/d/d/|AFA|Adc|
+|BAA|Adc|BAG|Adc|
+|BAG|Adc|BAG|Adc|
+|BAG|A G/F/_E/D/|D3|
+[K:Gm]
+|: D>FA|cBA|G F/E/ D|[1 D D2|D D2 :|[2 D D2|
+|: F>FF|FFF|A2 G-|G3|
+|A>cB|AGF|G F/E/ D|[1 D D2|D D2 :|[2 DDF|
+|A2 F-|FAc|c =B/A/ G|G3|G z2|
+[K:C]
+|d d/d/d/d/|d e/d/c/B/|A A/A/ G|GBB|B d/d/d/d/|
+|: BGB|d e/d/c/B/|AFA|A d/d/d/d/|
+|BGB|d e/d/c/B/|AFA|A d/d/d/d/ :|
+|: BGB|d B/d/B/d/|AFA|Acc|
+|BGB|Bc{d}c|AFA|Add|
+|BGB|Bd{e}d|AFA|A c/B/ A|G2 A|
+|: A d/d/d/d/|dAG|A d/d/d/d/|dAG :|
+|: Adc|BAG|Adc|BAG :|A G/F/_E/D/|D3|D3|D3|
+S:https://www.folktunefinder.com/tunes/58968
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

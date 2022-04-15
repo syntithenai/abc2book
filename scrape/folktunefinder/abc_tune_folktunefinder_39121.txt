@@ -1,0 +1,23 @@
+X:17750
+T:Trip to Athlone, The
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+B|ABA ~D3|d=cA AGE|ABA ABc|dAB cde|\
+ABA ~D3|d=cA AGE|GFG Ade|fdc d2:|*
+e|fed edc|AdB cde|fed edc|ABc def|\
+~g3 age|ed=c AGE|GFG Ade|fdc d2:|**
+S:https://www.folktunefinder.com/tunes/39121
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

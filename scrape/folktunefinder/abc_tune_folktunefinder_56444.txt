@@ -1,0 +1,36 @@
+X:1505
+T:Black Ey'd Susan. JC.215
+M:3/4
+L:1/4
+Q:80
+C:words,John Gay,tune, R Leveridge
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Air
+O:England215
+A:Northamptonshire
+N:
+Z:P Headford
+K:Eb
+Gc"tr"d|edc|=Bcd/e/|Gc/G/E/C/|F/A/D/F/=B,/D/|C/E/G/c/e/g/|\
+d/e/4f/4[ce][=Be]|[E3G3c3]|!
+Gc"tr"d|(ed)c|(c=B/c/)d|[=B,3D3G3]|AGF|(ED3/2)C/|
+(E3/4F/4)G"tr"F|[B,3D3G3]|!
+Gc"tr"d|(ed)c|(e3/4f/4)gf{^f/}|[B3e3g3]|gfe|B2e|
+{g}fe"tr"d{c/4d/4}|[G3c3e3]|!
+gf"tr"e|(fe)d|(ed)c|(=Bc)d|[=B,3D3A3]|EG=A|
+B=AG|Gcd|!
+ed[=Bdg]|[=B,2D2G2][EGc]|{e}[FAd][EGc][DF=B]|[E3G3c3]|
+Gc"tr"d|edc|=Bcd/e/|Gc/G/E/C/|!
+F/A/D/F/=B,/D/|C/E/G/c/e/g/|(3d/e/f/[ce]"tr"[=Bd]|c3||
+W:Song text exists. See Deacon.
+S:https://www.folktunefinder.com/tunes/56444
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

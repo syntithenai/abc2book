@@ -1,0 +1,33 @@
+X:2502
+T:Cancin popular
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Transcrita a Antonio Villar Garca Ancadeira (Santalla d'Ozcos)
+O:Santalla d'Ozcos
+A:Asturies
+Z:E. Zamora
+M:2/4
+L:1/8
+Q:1/4=150
+K:F
+c
+|c2 Bc|A(FF)c|c2 Bc|(A2A)B|
+|c2 Bc|A/G/(FF)G|AA GG|F4|
+|FG AB|c3 c|B2 A2|c3 c|B2 A2|G2 F2|F4|
+|F>G AB|c3 B|d2 c2|Bc cd|B3 A|G2 F2|
+|z3 c|
+|c2 Bc|A(FF)c|c2 Bc|(A2A)B|
+|c2 Bc|A(FF)G|AA GG|F4|
+S:https://www.folktunefinder.com/tunes/28782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

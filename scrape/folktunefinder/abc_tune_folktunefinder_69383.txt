@@ -1,0 +1,27 @@
+X:524
+T: "Liebeslied"
+N: Z1204
+O: Europa, Mitteleuropa, Deutschland, Bayern; Tirol
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: F
+F2 | F3ff4z2d2 | c3Ac4z2
+A2 | B3Gc6E2 | F4z6
+F2 | F3ff4z2d2 | c3af4z2
+A2 | B3Gc6E2 | F4z6
+c2 | B3AG4z2d2 | c3BA4z2
+c2 | B3AG2A2B2d2 | c4z6
+F2 | F3ff4z2d2 | c3af4z2
+A2 | B3Gc6E2 | F4z6
+S:https://www.folktunefinder.com/tunes/69383
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

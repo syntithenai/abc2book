@@ -1,0 +1,29 @@
+X:142
+T:La sauteuse
+O:France
+A:Provence
+C:Anonyme
+R:Polka
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+%%MIDI program 74
+ccA2 | ff c2 | c/d/e/f/ cA | c/B/A/G/ AF | ccA2 | ffc2 | c/d/e/f/ ce | fffz ::
+AA F/A/c/d/ | cFA2 | cFG2 | BG AF | AA F/A/c/d/ | cFA2 | cF G/B/A/G/ | FAFz :|
+c/c/c/c/ A2 | f/f/f/f/ c2 | c/d/e/f/ cA | c/B/A/G/ AF | c/c/c/c/ A2 | f/f/f/f/ c2 | c/d/e/f/ ce | ffHfz !fine! |: 
+K:Bb
+FBB>B | dBcF | Fcc>c | ecdf | FBB>B | dBcF | Fcc>A | BdBz ::
+f/d/B/d/ FB | dffd | g/f/f/e/ dc | d/e/d/c/ BF | f/d/B/d/ fB | dffd | g/f/f/e/ d/e/c/d/ | BBBzS :|
+%%footer $D   Galouvielle-MBe 2008 \nPolka (France)
+S:https://www.folktunefinder.com/tunes/600
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

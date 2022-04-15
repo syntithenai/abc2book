@@ -1,0 +1,27 @@
+X:5298
+T:Pumpherston hornpipe, The
+O:england
+C:Big Jim Sutherland
+S:Gerald Trimble, First Flight
+I:speed 400
+M:6/8l
+K:Dm
+A,=B,^C|D^CD A,2F E2D ^C2G |FGA f2e d2c B2A|^G2A ^G2A E2F D3 | EFG FED ^C2A A,=B,^C |
+D^CD A,2F E2D ^C2G | FGA f2e d2c B2A |^G2A EF=G FGA D2F | ED^C A2A, D5e ||
+fed fed e2a4 | fed fed e2a4 | fed edc dcB cBA |BAG ^GAF E2D ^C3 |
+DEF DEF ^G2A ^G2A | DEF DEF ^G2A ^G2A|DEF ^CDE FGA GFE | FED A2A, D5e |
+fed fed e2a4 | fed fed e2a4 | fed edc dcB cBA |BAG ^GAF E2D ^C2A, |
+D^CD A,2F E2D ^C2G | FGA f2e d2c B2A |^G2A EF=G FGA D2F | ED^C A2A, D3 A,=B,^C |
+S:https://www.folktunefinder.com/tunes/25750
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

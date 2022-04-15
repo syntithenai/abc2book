@@ -1,0 +1,27 @@
+X:376
+T: GRUEN IST DIE FARBE DER HOFFNUNG
+N: F0666
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Jaeger - Lied
+M: 6/8
+L: 1/16
+K: G
+d2 | d4B2B3AB2 | c6A4
+A2 | B4G2G3AB2 | A8z2
+D2 | G4A2B3AG2 | A6D4
+A2 | B4A2G3AB2 | A6D4
+d2 | d6B6 | c4A2A4
+c2 | B4G2A2B2A2 | G8z4 | z4
+B2A2B2A2 | G6z4
+S:https://www.folktunefinder.com/tunes/69936
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Staende -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

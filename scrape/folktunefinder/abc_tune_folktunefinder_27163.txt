@@ -1,0 +1,30 @@
+X:6711
+T:The Downfall of Paris
+O:england
+M:2/4
+L:1/16
+S:Armitt MS
+K:D Major
+.d2(de) .d2(de)|.d2(de) (gfed)|.e2(ef) .e2(ef)|.e2(ef) (agfe)|.f2(fg) .f
+2(fg)|.f2(fg) (bagf)|.e2(ef)"pp" e2e2|
+e4(dcBA)|.d2(de) .d2(de)|.d2(de) (gfed)|.e2(ef) .e2(ef)|.e2(ef) (agfe)|.
+f2(fg) a2g2|.f2(fg) a2g2|.f2(fd) .e2(e"ff"c)|
+d4d2z2:||:a8|a2g2b2a2|.g2(gf) .g2(gf)|.g2(gf)g4|g2 g2g2|g2e2a2g2|.f2(fe)
+.f2(fe)|.f2(fe)"p dol"f4|
+.d2(de) .d2(de)|.d2(de) (gfed)|.e2(ef) .e2(ef)|.e2(ef) agfe|.f(fg) a2g2|
+.f(fg) aa2g2|.f2(fe) .e2(ed)|d2d2d2"pp"z2:||:
+(abc'd' c'bag)|(fgab agfe)|d2dd e2ee|f2ff e4|(abc'd' c'bag)|
+(fgab aggg)|d2de f2e2|d2d2d4:||:c2d2e2f2|g2f2e2d2|c2d2e2f2|g2f2e2z2|(abc
+'d' c'bag)|"
+(fgab agfe)|d2ee f2e2|d2d2d2||
+S:https://www.folktunefinder.com/tunes/27163
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

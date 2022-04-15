@@ -1,0 +1,25 @@
+X: 3
+P: Tsamiko
+O: Greece
+M: 3/4
+F: http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc 2007-03-10 22:10:51 UT
+K: Dm
+"A"|: a2 gf ed | e3    d ef |  ag fe d^c | d3 d' d'd' | d'c' =ba ^gf | e3 d ef | ag fe d^c | d4 z2 :|
+"B"|: d2 d2 d2 | d^c =B2 A2 | ^cd e^f ec | d4    z2  :| y6 y6 y6 y6 y6 y6 y6 y6 
+"B"|: g2 G2 g2 | fg   fe d2 |  a2 A2  g2 | fe d2 D2   | ef g2 G2 | af ed ef | a2 A2 g2 | fe d2 D2 :|
+S:https://www.folktunefinder.com/tunes/6107
+S:http://www.novosaires.com/Partituras
+S:http://www.novosaires.com/Partituras
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TSAM01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Tsamikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Tsamikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Tsamikos.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Tsamikos
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

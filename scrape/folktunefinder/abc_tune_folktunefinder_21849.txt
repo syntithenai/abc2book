@@ -1,0 +1,36 @@
+X:1400
+T:Cynthia,La. CJF.065
+T:La Cynthia. CJF.065
+O:england
+M:6/8
+L:1/8
+Q:120
+C:Berbiguier
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The asterisk note is e2 in the MS. - PJH.
+K:D
+"$"d/f/|a2a (ba).^g|(a3f2)d|e2e {e/f/}gfe|(d3-dd'c'|\
+b2g gab|(a3f2)a|(eb).a (gf).e|d3-d2h||e|(e3a2)""e|
+(e3c'2)c'|b2b {a}(^gf).g|a3-abc'|d'2d' d'c'd'|\
+d'2c' c'd'c'|b^ab d'b^g|a3"   $"a2||\
+K:G
+z|b3"~"g3{f/g/}|d3-d.B.c|
+(de).f (gd).B|(d3c)(ab)|.c' (fg) .a (AB)|c3-cc'b|(ab).c' " D Capo    $"(
+de).f|(a3g2)||
+S:https://www.folktunefinder.com/tunes/21849
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:170
+T: Kriegers Abschied (3-8), S. 22f
+N: K1145
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Kriegs-, Soldaten-, Abschiedslied]
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2AG | A2A2
+GA | Bcd2cB | A4
+de | dcA2BA | Bcd2
+de | dcA2BA | Bcd2
+ec | Bdd2cA | G4
+S:https://www.folktunefinder.com/tunes/70300
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Kriegs-, soldaten-, abschiedslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

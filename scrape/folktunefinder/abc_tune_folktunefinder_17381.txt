@@ -1,0 +1,25 @@
+X: 1
+T: the Tulla Reel
+T: the Humors of Tulla
+R: Reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed page of unknown origin
+M: C|
+L: 1/8
+K: D
+   fe | d2Ad  BdAB  | d2fd  edBc | d2Ad  BdAd | (3Bcd ef g2 :|
+|: fg | af~f2 df~f2 | af~f2 gee2 | af~f2 dfed | (3Bcd ef g2 :|
+S:https://www.folktunefinder.com/tunes/17381
+S:http://trillian.mit.edu/~jc/music/abc/reel/HumorsOfTulla_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HumorsOfTulla_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/HumorsOfTulla_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HumorsOfTulla_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

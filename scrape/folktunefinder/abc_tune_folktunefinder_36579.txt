@@ -1,0 +1,23 @@
+X:2500
+T:the Humours of Whiskey
+M:9/8
+O:Ireland
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000081c.html
+%%ID:0000081c
+K:B min
+"Bm"gfe fBB fBB|gfe fBB "F#m"fga|\
+"Bm"gfe fBB fBB|"D"agf efd "A"cBA::\
+"D"d2e fdf "A7"ecA|"D"dde fed "A7"gfe|\
+"D"d2e fdf efg|"A7"agf efd cBA:|
+S:https://www.folktunefinder.com/tunes/36579
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

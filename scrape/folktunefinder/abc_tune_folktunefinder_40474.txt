@@ -1,0 +1,22 @@
+X:2
+T:Whelan's Reel
+R:reel
+M:C
+L:1/8
+Q:1/4=180
+K:Edor
+|:"Em"~E3B "Bm"BAFD|"Bm"FEFB "D"AFDF|"Em"~E3B "Bm"BAFD|"Bm"dBAF "Bm"FEED|
+|"Em"~E3B "Bm"BAFD |"Bm"FFEB "D"AFDA|"Bm"BcdB "Bm"BAFD|"Bm"dBAF "Bm"FEED:|
+|:"Bm"B2cd "Em"B~e3|"Bm"fedB "Em"~e3d|"Bm"BABd "Em"~g3e|"Bm"~f3d "Bm"BAFA|
+|"Bm"~B3d "Bm"fede  |"Bm"fedB "Em"~e3f|"Em"gbag "D"fagf|"Em"edBG "D"AGFD:|
+S:https://www.folktunefinder.com/tunes/40474
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:12
+T:Aires de Pontevedra
+S:Leeds Session
+R:Other
+O:Spain
+M:C
+A:Galicia
+K:Em
+EF|"G"GFGE "D"FDEF|"G"GFGF "D"D2EF| \
+"G"GFGE "D"FDEF|                    \
+M:6/4
+"G"GFGE "D"D6AB| \
+M:2/4
+L:1/8
+"C"c2 ce|dc BA|GF GA|"A"G2 G>e|             \
+dc BA| GF GA|"D"F2 F>e|dc BA|GF GA|"A"E2E2| \
+"D"FA FD|FA FD|"A"EG EG|"D"E4::             \
+M:C
+K:D
+A2|                           \
+"D"d2A2 F2GA|"G"BAGF "A"E3A|  \
+"G"BAGF E2FG|"A"AGFE "D"D2A2| \
+"D"d2A2 F2GA|"G"BAGF "A"E3F|  \
+"G"GFGA BAFD|"A"AGFE "D"D2 :|
+S:https://www.folktunefinder.com/tunes/49405
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

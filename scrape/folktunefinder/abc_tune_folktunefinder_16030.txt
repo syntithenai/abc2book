@@ -1,0 +1,31 @@
+X: 1
+T: Whistling Rufus
+C: Kerry Mills (c.1900)
+R: reel, cakewalk
+S: http://www.traditionalmusic.co.uk/songs-tab/Whistling_Rufus.htm
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| CCC2 E2GG | c2cc A2G2 | C3C EDC2 | G4 z4 \
+| CCC2 E2GG | c2cc AG3 | d2dd dBAA | D4 z4 |
+| CCC2 E2GG | c2cc A2G2 | C3C EDC2 | G4 GG \
+| A3c  c2A2 | A2AA GECD | E2EE D2D2 | C4 zece ||
+| g2g2- gagf | B2B2- Bdef | a2a2- abag | e2e2 zece \
+| g2g2- ga/a/ gc | f2f2 z3f | eeed A2B2 | c6 |]
+S:https://www.folktunefinder.com/tunes/16030
+S:http://trillian.mit.edu/~jc/music/abc/new/WhistlingRufus_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/WhistlingRufus_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WhistlingRufus_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/new/WhistlingRufus_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/WhistlingRufus_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/WhistlingRufus_C.abc
+% Rhythm Reel, cakewalk
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

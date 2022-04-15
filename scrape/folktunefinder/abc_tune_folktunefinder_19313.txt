@@ -1,0 +1,33 @@
+X: 1
+T: The Duchess of Bedford's Strathspey
+C: William Marshall
+R: strathspey
+B:
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+M: C
+L: 1/16
+K: Bb
+[| "Bb" B,B3 B3c "Gm"B4 F2B2 | "Cm"cc3 c3d "F7"e4 F2e2 \
+| "Bb"d2f2 g2f2 "Eb"e2d2 c2B2 | "F"A3B c3d "C7"cBAG "F7"F2E2 |
+| "Bb"DB3 B3c "Gm"B4 F2B2 | "Cm"cc3 c3d "F7"e4 F2e2 \
+| "Bb"d2f2 g2f2 "Eb"e2d2 c2B2 | "Bb"F3B "F7"ABcA "Bb"B4 B2 ||
+e2 \
+| "Bb"defg f2f2 b4 "F7"f2a2 | "Bb"bagf gfed "Eb"edcB "F7"c3d \
+| "Cm"cdef g3f "Eb"e2d2 c2B2 | "F"A2B2 c3d " C7"cBAG "F7"F3E |
+| "Bb"D2B2 F2B2 "F7"F2c2 A2c2 | "Bb"F2d2 "Gm"B2d2 "Eb"E2g2 e2g2 \
+| "Bb"dfga b3f "Eb"gfed edcB | "Bb"F3B "F7"ABcA "Bb"B4 B2 |]
+S:https://www.folktunefinder.com/tunes/19313
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DuchessOfBedfordsS_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/DuchessOfBedfordsS_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DuchessOfBedfordsS_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DuchessOfBedfordsS_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

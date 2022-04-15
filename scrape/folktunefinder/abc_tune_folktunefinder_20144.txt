@@ -1,0 +1,29 @@
+X: 1
+T: Peggy's Cove
+C: Bill Guest (1988)
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: D
+FE \
+| "D"D2 F2 A2 | A4- AF | "A7"E2 F2 GA | "D"F4 FE \
+| "D"D2 F2 A2 | d2 A2 F=F | "E7"E2 A2 ^G2 | "A7"A4 FE |
+| "D"D2 F2 A2 | A4- AF | "A7"E2 F2 G2 | "D"F6 \
+| "G"B2 c2 d2 | "D"d2 A3 A, | "A7"F2 F2 E2 | "D"D4 |]
+AA \
+| "D"ff f3 e | ed d4 | Ad e2 dB | "A7"c6 \
+| "G"gg g2 "B7"^d2 | "E7"fe e2 d2 | "A7"dc c2 G2 | "D"BA A4 |
+| "D"ff f2 e2 | ed d4 | "G"gg g2 "B7"f2 | "Em"fe e4 \
+| "A"ce fe az | "D"A2 "Baug"g3 f | "E7"fe "A7"B^B c2 | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/20144
+S:http://trillian.mit.edu/~jc/music/abc/waltz/PeggysCove_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/PeggysCove_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/PeggysCove_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

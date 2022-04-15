@@ -1,0 +1,24 @@
+X:255
+T:Sailors Delight
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dd5.html
+%%ID:00000dd5
+K:D
+e | f2a g2e | f2d (ege) | c3    c2e | f2a g2e | f2d (ege) | d3 d2 ::
+e | f2d c2B | A2g f2e   | (faf) c2c | c2e f2d | c2B A2g   | f2e (faf) | d3 d2 :|
+% page 25
+S:https://www.folktunefinder.com/tunes/43614
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

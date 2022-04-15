@@ -1,0 +1,24 @@
+X: 1
+T: Karjalan poikia
+T: The Boys of Karelia
+T: L\"oyly\"a liss\"a\"a
+R: polka
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+|: "G"D2ED B,2D2 | G6 A2 | B2cB A2B2 | "C"c2z2 "G"B4 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+w: | | | |~ Hej!
+S:https://www.folktunefinder.com/tunes/16131
+S:http://trillian.mit.edu/~jc/music/abc/polka/KarjalanPoikkia_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/KarjalanPoikkia_G.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

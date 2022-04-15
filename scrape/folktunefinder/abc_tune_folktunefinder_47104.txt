@@ -1,0 +1,52 @@
+X:15829
+T:SPINNNING JENNY
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:Bb
+P:1
+B2 G4 A2 B2 d2 | c2 f4 ed c2 BA |\
+B2 G4 A2 B2 d2 | d2 g4 f2 d4    ||
+P:2
+g3 a g2 f2 d2 cB | f3 g f2 ed c4 |\
+g3 a g2 f2 d2 c2 | g3 a g2 f2 d4 ||
+P:3
+G2 B2 A2 c2 B2 d2 | c2 f4 ed c2 BA |\
+G2 B2 A2 c2 B2 d2 | d2 g4 f2 d4    ||
+P:4
+GABG ABcA BcdB | c2 f4 ed cdec |\
+GABG ABcA BcdB | d2 g2 g2 fe d4 ||
+P:5
+g2 B2 d2 B2 g2 B2 | c2 f4 ed c2 BA |\
+g2 B2 d2 B2 g2 B2 | d2 g4 fe d4    ||
+P:6
+gfga g2 fe d2 cB | f=efg fgfd cdcA |\
+gfga gagf  _edcB | gfga g2 fe dcBA ||
+P:7
+G2 B2 A2 c2 B2 g2 | F2 f4 ed c2 BA |\
+G2 B2 A2 g2 B2 g2 | G2 f4 f2 dcBA  ||
+P:8
+B2 G2 D2 g2 B2 d2 | c2 f4 ed c2 BA |\
+B2 G2 D2 g2 BcdB  | d2 g4 f2 d4    ||
+P:9
+b3 a gagf d2 cB | A2 f4 ed c2 BA |\
+b3 a gagf d2 cB | d2 g4 f2 d4    ||
+P:10
+bagf gfed edcB | A2 f4 d2 c2 BA |\
+bagf gfed edcB | d2 g4 f2 d4    ||
+P:11
+gdBc dBgd BcdB  | c2 f4 ed c2 Bc |\
+dBcd ecde fd=ef | B2 g4 f2 d4    |]
+S:https://www.folktunefinder.com/tunes/47104
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

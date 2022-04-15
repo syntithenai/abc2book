@@ -1,0 +1,27 @@
+X: 1
+T: The Breakdown (with third part)
+R: hornpipe, reel
+Z: 2002 by Helen Ross (h.e.ross@stir.ac.uk) from sessions in Stirling, Scotland
+M: C|
+L: 1/8
+K: A
+|: ((3efg) \
+| "A"a2A2 AcBA | E2A2 AcBA | "Bm"F2B2 BcBA | "E7"GABc defg \
+| "A"a2A2 AcBA | E2A2 AcBA | "E7"GABc defg | "A"a2a2  a2 :|
+|: cB \
+| "A"A2{g}a2 A2{g}a2 | A2AB cBA2 | "E7"E2{^d}e2 E2{d}e2 |    E2Bc dcB2 \
+| "A"A2{g}a2 A2{g}a2 | A2AB cBA2 | "E7"E2Bc     dcB2    | "A"A2c2 A2 :|
+|: z2 \
+| "A"ceee ceee | "D"dfff dfff | "A"ceee     ceee | "E7"d2B2 B2e2 \
+| "A"ceee ceee | "D"dfff dfff | "A"eagf "E7"edcB |  "A"A2a2 A2 :|
+S:https://www.folktunefinder.com/tunes/13494
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/BreakdownHornpipe_3Part.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BreakdownHornpipe_3Part.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/HelenRoss/BreakdownHornpipe_3Part.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

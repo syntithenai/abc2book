@@ -1,0 +1,32 @@
+X: 1
+T: Valerie Farr's Reel
+C: Frank Reid
+S: Ron Wallace from Frank Reid/London Jubilee
+Z: Steve Wyrick 10-22-06
+N: Currie Mountain Reel - Lead Tune
+L: 1/8
+M: C|
+R: Reel
+K: A
+ed \
+| "A"c2e2"A7"e2 dc | "D"d2f2 "B7"B3A  | "E"G2e2 "E7"edcB | "A"AGAB "E7"c2ed \
+| "A"c2e2"A7"e2 dc | "D"d2f2 "B7"B3A  | "E"G2e2 "E7"edcB | "A"A4       A2  :|
+|: BA \
+| "E"G2GA "E7"B2AG | "A"ABcd "A7"e2de | "D"f2e2 "Bm"d2c2 | "B7"c4   "E7"B2ed \
+| "A"c2e2"A7"e2 dc | "D"d2f2 "B7"B3A  | "E"G2e2 "E7"edcB |  "A"A4 "(A7)"A2  :|
+S:https://www.folktunefinder.com/tunes/18268
+S:http://trillian.mit.edu/~jc/music/abc/reel/ValerieFarrsReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ValerieFarrsReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ValerieFarrsReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ValerieFarrsReel_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

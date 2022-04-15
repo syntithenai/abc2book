@@ -1,0 +1,22 @@
+X: 6
+T: the Cork March
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: EDor
+[| "Em"G2 GF | E2 EF | G2 G2 | "D"A2 GA | "G"B2 B2 | BA GA | B2 D2 | "D"D2 BA |
+|| "Em"G2 GF | "C"E2 EF | "G"G2 GB | "D"A2 GA | "Em"B2 e2 | "D"dB AB | "Em"G2 E2 | E2 Bc |]
+[| "G"d2 de | d2 Bd | "C"ed Bc | "G"d2 ed | "C"c2 B | "Am"A2 GA | "G"B2 D2 | "D"D2 BA |
+|| "Em"G2 GF | "C"E2 EF | "G"G2 GB | "D"A2 GA | "Em"B2 e2 | "D"dB AB | "Em"G2 E2 | E4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12928
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

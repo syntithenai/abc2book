@@ -1,0 +1,30 @@
+X: 1
+T:New Lincoln. WCl.29
+M:C|
+L:1/8
+Q:180
+S:William Clarke MS,Lincoln,1770.
+R:Country Dance.
+O:Lincoln
+A:England
+N:Great tune!..Country Dance veering off towards Hornpipe..CGP..
+Z:vmp.Barry Callaghan
+K:D
+D4 FG A2|F2A2d4|B4 e2 B2|cd e2 c2 BA|!
+d4 de f2|efed c2 BA|FG A2E2 AG|F2D2D4::!
+F2D2D2 AG|F2D2D2A,2|G2E2E2 ed|cd e2e2A2|!
+defd cdec|defd cdec|dcBA FG A2|F2D2D4:||
+S:https://www.folktunefinder.com/tunes/17774
+S:http://trillian.mit.edu/~jc/music/abc/reel/New_Lincoln_WCl_29_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/New_Lincoln_WCl_29_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/New_Lincoln_WCl_29_1.abc
+% Rhythm Country dance.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

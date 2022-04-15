@@ -1,0 +1,26 @@
+X:318
+T: DER SCHEFFER VON NUWEN STAT
+N: E0933
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Tanz - Lied, Reigen
+M: 3/4
+L: 1/8
+K: F
+F2 | F4F2 | c4c2 | d4d2 | c4
+F2 | c4f2 | e2e2c2 | d6 | c4
+F2 | F4F2 | c4c2 | d4d2 | c4
+F2 | c4f2 | e2e2c2 | d6 | c4
+A2 | c3BAG | A2F2
+A2 | c3BAG | A2F2
+G2 | A2A2d2 | c4A2 | G6 | F4
+S:https://www.folktunefinder.com/tunes/76803
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

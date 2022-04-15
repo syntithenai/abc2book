@@ -1,0 +1,28 @@
+X:509
+T: WER HAT LUST MIT MIR ZU ZIEHEN
+N: E1766
+O: Europa, Mitteleuropa, Deutschland, Schlesien; Brandenburg; Sachsen
+R: Luegen - Lied, Schlaraffenland
+M: 2/4
+L: 1/16
+K: F
+ | F2G2A2B2 | c4f4 | d4c4
+d2cBA2B2 | c4G4 | F4z4
+F2G2A2B2 | c4f4 | d4c4
+d2cBA2B2 | c4G4 | F4z4
+E2F2G2A2 | B2A2G2F2
+E2F2G2A2 | B4A4 | G8
+F2G2A2B2 | c4f4 | d4c4
+d2cBA2B2 | c4G4 | F4z4
+S:https://www.folktunefinder.com/tunes/79613
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Luegen - lied, schlaraffenland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 26
+T: Fortune
+S:Karl Moore - Peach Bottom String Band
+C:
+M:4/4
+L:1/4
+K:D
+f/2g/2|\
+"D"fff/2e/2d|\
+"A"e/2d/2c"D"df/2g/2|\
+fff/2e/2d|\
+"A"e2-ef/2g/2|\
+"D"fff/2e/2d|\
+"G"g[Bg]g[Bg]|\
+"D"a/2f/2e/2d/2"A"c/2A/2B/2c/2|\
+"D"d/2A/2F/2E/2D::\
+f/2g/2|\
+"D"aaf/2e/2d|\
+"A"e/2d/2c"D"df/2g/2|\
+"D"aaf/2e/2d|\
+"A"e2-ef/2g/2|\
+"D"aaf/2e/2d|\
+"G"g/2f/2g/2a/2bb|\
+"D"a/2f/2e/2d/2"A"A/2B/2c|\
+"D"d/2A/2F/2E/2D:|\
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7629
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

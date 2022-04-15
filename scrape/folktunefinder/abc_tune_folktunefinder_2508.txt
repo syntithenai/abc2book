@@ -1,0 +1,38 @@
+X:1
+T:Riches Denied
+N:in memory of Peter Milne (The Tarland Minstrel)
+C:J. Murdoch Henderson
+S:NLS Acc.10389/8, papers of J.F. Dickie, xerox of programme for
+S:a Buchan Heritage Society memorial concert for John Murdoch
+N:Henderson, 21st August, no year given.
+N:Some details (straight slurs, dynamics) left out
+N:since ABC can't handle them; bowings also omitted
+M:C
+L:1/8
+Q:1/4=63
+R:pastoral
+K:Eb
+     B,>EG>c         B<(G   G2)     |   (e>d)(e>c)       B<G  G2   |\
+     B,>EG>c         B<G    G2      |    F>[Bd]    D<B   F<B  D<A, |
+     G,>E  G>c       B<G    G2      |({E}e).d/.e/ (A>c)  B<(G G>)(B|\
+{E}(3e>de) A,e/c/ (3(B>=AB) G,.B/.G/|  (3B,>D(B  (3A,>DB E2-  E)  ||
+((3B/c/d/|[G2e2]   B>)G (3E>GB   [B2g2]| [Ge]>d   e>c    B<G    [B,2G2] |\
+      ({DB}f2)     d>B  (3F>fg    a>g  |(3f>ga  (3d>ef (3FDF   (3a>gf   |
+    ({Bcd}[G2e2]) (B>G) (3EG(B    g>f) |(e>d)    (e>c    B<)G-  (G>E)   |\
+         (3C>EA   (c>e) (3G,>B,E (G>B) |(3B,>DF H[dF]>B [G,2E2]-[G,2E2]|]
+S:https://www.folktunefinder.com/tunes/2508
+S:http://trillian.mit.edu/~jc/music/abc/test/RichesDenied.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/RichesDenied.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RichesDenied.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/RichesDenied.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/RichesDenied.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/RichesDenied.abc
+% Rhythm Pastoral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

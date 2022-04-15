@@ -1,0 +1,33 @@
+X: 212
+T:Untitled Quadrille. JaW.211
+M:6/8
+Q:120
+S:James Winder Ms, Lancashire, 1835-41
+R:Quadrille
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+G|cdc c2e|g2e g2e|cdc c2e|gfe d3|!
+ded d2e|f2g abc'|gfe dcd|c2c c2||!
+g|e2d c3z2z z2g|f2e d2z|z2z z2g|!
+e2d c2g|f2e d2g|g^fa de=f|!
+gag fed|c2c c2::A|ABA A2B|c2d e2f|!
+e2f e2f|e2d c2B|ABA A2B|!
+c2d e2f|e2f e2^d|"DC"e3|]
+W:Funny number of bars
+S:https://www.folktunefinder.com/tunes/47749
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

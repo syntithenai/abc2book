@@ -1,0 +1,24 @@
+X:825
+T:Reavey's
+R:reel
+D:Traditional Music On Fiddle, Banjo, And Harp
+D:Oisin MacDiarmada, Brian Fitzgerald, and Michael O Ruanaigh
+Z:transcribed by Dave Marshall
+M:C|
+K:G
+|| GBd^c d=ccA | =F3A dccB | Add^c dgeg | fdcA BdcA |
+GBd^c d=ccA | =F3A dBcB | Add^c dgeg | fdcA BGBd |
+~g3f fede | fgag fdef | ~g2ag fdeg | fdcA BGBd |
+~g3f fede | fgag fdef  | ~g3f ~g2ag | fdcA dccA ||
+S:https://www.folktunefinder.com/tunes/63246
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/fiddletech/abcproj.abc
+S:http://www2.redhawk.org:8080/irish/fiddletech/abcproj.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X: 1
+T: Pravo Trakijsko horo
+C: Ivan \vSibilev
+B: Narodni Hora i R\ua\vcenici za Akordeon (D\uar\vzavno Izdatelstvo "Muzika", Sofija, 1976)
+Z: John Chambers <jc@trillian.mit.edu>
+R: pravo (fast)
+N: Typically played with a 2/4 accompaniment.
+M: 6/16
+L: 1/16
+K: Em
+"A"\
+|: "Em"ABB, B2B, | BAG A2G |     ABB, B2A | "Dm"G2=F "Em"E2D \
+|  "Em"ABB, B2A  | A2G GAB | "Dm"A2G G2=F | "Em"E3 E3 :|
+"B"\
+|: "Em"ABB, B2A | A2G GAB | "D"A2G GFD |1,3 DEF "G"G2D \
+                                      :|2,4 "Em"E3 E3 :|
+"C"\
+|: "Em"EB,A AGB | "Dm"G=FD "Em"E2B, | EB,G "Dm"G=FD |1,3 "Em"E2B, ABB, \
+                                                   :|2,4 "Em"E2B, E3 :|
+"D"\
+|: "Em"EB,G "Dm"G=FD | "Em"EB,A "Dm"AG=F | "Em"EB,G "Dm"G=FD |1,3 "Em"E2B, ABB, \
+                                                            :|2,4 "Em"E2B, E3 :|
+[| {^c}d6- | d6 | {^G}A6- | A6 \
+"E"\
+|: "D"EFD "G"G2D | "D"F2D "A"A2D | "D"EFD "G"G2D | "D"F2D "A"E2D :|
+"F"\
+|: "G"GAB G2D | "D"F2D A2D | "G"GAB G2D | "D"F2D "A"E2D :|
+K:E
+"G"\
+|: "E"EB,B G2B, | A2G GFG | EB,B F2B, | EAG GFG :|
+"H"\
+|::: "E"E2B, AB,G | "(B)"F2E AB,A | E2B, AB,G | "B7"F2D "E"E2B, :::|
+K: Em
+"I"\
+|: "Em"E2{FG}A A2G | (2G2E2 "D"(2F2D2 | "Em"E3- E3 |1,3 "Am"Bc2 BA2 | "Em"AG2- G2F \
+                                               :|2,4 "D"(2E2D2 E3 | "Em"E3- E3 :|
+"J"\
+|: "Am"ABc "Em"G2E | "D"F2D "Em"E2D | G2E "D"F2D |1,3 "Em"E2E A2G \
+                                                :|2,4 "Em"E2A E3 :|
+S:https://www.folktunefinder.com/tunes/5942
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Pravo_TrakijskoHoro2.abc
+% Rhythm Pravo (fast)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Time_signature 6/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

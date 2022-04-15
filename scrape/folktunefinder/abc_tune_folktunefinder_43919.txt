@@ -1,0 +1,28 @@
+X:270
+T:Moominmazurka
+C:Fiona Durance
+M:3/4
+N:"Dumpily"
+O:England
+R:Mazurka
+Z:Richard Robinson 
+%%Copyright:Fiona Durance
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c6a.html
+%%ID:00000c6a
+K:G
+d^c de d=c | B2 BA G2 | A2 AF D2 | B2 BA G2 |\
+d^c de d=c | B2 BA G2 | A2 AB AF |1 G6 :|2 G3G FG |:
+A2 AF DF | B2 BG DG | cB cd ^ce | f2 fd Ad |\
+A2 AF DF | B2 BG DG | cB cd ^cg |1 f6 :|2 f3 e d=c |:
+B2 Bc BA | GB DG BA | B2 Bc BG | AB AF D2 |\
+B2 Bc BA | GB DG BA | Bc d2 D2 |1 G2 GF GA :|2 G6 |]
+S:https://www.folktunefinder.com/tunes/43919
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

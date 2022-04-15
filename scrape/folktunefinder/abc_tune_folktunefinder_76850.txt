@@ -1,0 +1,29 @@
+X:365
+T: SYV SPRING
+N: E0992C
+O: Europa, Mitteleuropa, Daenemark, Vendsyssel
+R: Tanz - Lied, Reigen, Siebensprung
+M: 2/4
+L: 1/8
+K: G
+D | GABc | d2B
+d | c2Ac | B2B
+A | GABc | d2B
+d | cAFA | G2z2
+A2A2 | A2
+AB | AGFE | DEFG
+A2A2 | A2
+AB | AGFE | D4
+d4 | G4 | d4 | G2z
+S:https://www.folktunefinder.com/tunes/76850
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, siebensprung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

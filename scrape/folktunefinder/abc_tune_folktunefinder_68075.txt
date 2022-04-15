@@ -1,0 +1,20 @@
+X: 189
+T: Kortans
+O: Hungary
+M: 4/4
+L: 1/8
+K: Am
+Q: 1/4=72
+%%MIDI program 40
+A2 d2 cB A2 |e2 a2 ga e2   |g2 a2 ed e2    |
+c2 BA ^GA B2|AA/A/ cBA^G A2| AA/A/ cBA^G A2|
+S:https://www.folktunefinder.com/tunes/68075
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

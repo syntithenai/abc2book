@@ -1,0 +1,26 @@
+X:327
+T: "Die Luetzelburg"
+N: Z1007
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Melusina - Sage
+M: 3/8
+L: 1/16
+K: Bb
+F2 | B4B2 | c2B2A2 | B2A2G2 | F4
+ce | d2c2dc | B3dcF | F2B2A2 | B4
+Bd | e4d2 | c2B2c2 | d4c2 | B4
+B2 | c2d2c2 | B2G2c2 | B3cBA | G4
+cF | B4A2 | B2c2d2 | c2B2A2 | B4
+S:https://www.folktunefinder.com/tunes/69186
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, melusina - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

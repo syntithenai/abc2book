@@ -1,0 +1,19 @@
+X: 1
+T: le Bal de Jugon
+O: France
+M: 2/4
+L: 1/8
+K: D
+|: "D"F2 F>E | ED D2 | DF FA | "Em"AG G2 | "A7"G2G>F | FE E2 | ED CD | FE "D"D2 :|
+|: "D"DE F2- | FF AA | DE F2- | FF AA | DE F2 | D2 "A7"E>E |1 DC "D"D2 :|2 DC "D"D2 | "A7".C2 "D".D2 |]
+S:https://www.folktunefinder.com/tunes/2998
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/BalDeJugon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BalDeJugon.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/le/le_Bal_de_Jugon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/BalDeJugon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

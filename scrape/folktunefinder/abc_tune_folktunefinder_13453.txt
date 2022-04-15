@@ -1,0 +1,30 @@
+X: 1
+T: Yesh lanu tayish (#2)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"[A4F4D4] | [A4F4D4] \
+| "A7"[A2E2C2] [A2E2C2] | [A2E2C2] [A2E2C2] \
+[| "D"A2 AA | "A7"BA- AF \
+| "A7"GG FE | A3 F |
+| "D"AA AA | "A7"BA- AF \
+| "A7"GG FE | "D"D4 \
+|| "D"FA D2 | "D"FA D2 \
+| "G"dd cB | "D"A4 |
+|: "D"AF A2 | "Em"GF E2 \
+| "A7"EG FE | "D"A4 \
+| "D"AF A2 | "Em"GF E2 \
+| "A7"EG FE | "D"D4 :|
+S:https://www.folktunefinder.com/tunes/13453
+S:http://trillian.mit.edu/~jc/music/abc/folk/YeshLanuTayish2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/YeshLanuTayish2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/YeshLanuTayish2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/YeshLanuTayish2_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

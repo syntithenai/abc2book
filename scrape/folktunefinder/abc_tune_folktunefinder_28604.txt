@@ -1,0 +1,24 @@
+X:8152
+T:WMNSWRK- A Woman's work will never be done [Black Eagle]
+O:england
+S: Leyden MS, c 1692
+Q:1/4=120
+L:1/4
+M:C
+K:Em
+B,DD3/2E/|D/E/D/B,/D3/2D/|B,EE(G/A/)|B(A/G/) D3/2D/|\
+B,DD3/2E/|D/E/D/B,/D3/2G/|G/E/D/E/G(A/B/)|(c/B/)(A/G/)E2||\
+G(A/B/)d3/2e/|d/B/A/B/d2|A(B/d/)e3/2f/|e/d/g/f/e3/2d/|\
+d(e/f/)g3/2e/|d/c/B/A/G3/2G/|A/B/d/e/ d/B/A/B/|A3/2G/E2|]
+S:https://www.folktunefinder.com/tunes/28604
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

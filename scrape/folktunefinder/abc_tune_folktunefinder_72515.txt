@@ -1,0 +1,23 @@
+X:58
+T: Arme Seele
+N: D0062
+O: Europa, Mitteleuropa, Lothringen, Woelflingen
+N: Inzipit = Variante zum Lied ( siehe folgendes Beispiel )
+R: geistliches Lied
+M: 3/8
+L: 1/16
+K: A
+D2 | A2A2A2 | =G2F2E2 | =c2B2A2 | B2z2
+=G2 | B2=c2dd | =c2B2A2 | =G2A2B2 | A2z2
+S:https://www.folktunefinder.com/tunes/72515
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

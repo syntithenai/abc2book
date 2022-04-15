@@ -1,0 +1,32 @@
+X:15
+T:Lou gai roussignau sauvagi
+R:Air
+C:Provence
+N:Air
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2008-01-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+%%continueall 1
+V:1
+G2||c2c2 c2e2|g4g2g2|f2f2 f2gf|edef e2g2|g2d2 d2e2|
+f4f2f2|e4 (3c2d2e2|d6g2|g4 (3d2e2f2|e4d4|c8-|c4z4|]
+V:2
+G2||G2G2 G2c2|e4cedc|B2B2 d2ed|c2c2 GFGA|G2B2 B2c2|
+d4d2G2|c2G2 G2G2|G8|z2B2 B4|c4G2F2|E4G2F2|E4z4|]
+V:3
+z2||z4z2G2|c2c2 c2e2|d2dd GGAB|c2 z2z4|G4G2G2|G2B2 B2d2|
+c4e2c2|BABc d4|z2G2 G2G2|c2de d2G2|c8-|c4z4|]
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/474
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 165
+T:Within a Furlong of Edenborrow Town. HA.164
+M:C
+L:1/8
+Q:1/4=120
+C:H.Purcell
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:In line 4, bar 1, two of the 3 F notes are sharpened. It is likely that
+N:l 3 are
+N:intended to be F#. NBr This is not the same tune as "Within a Mile
+N:of..."
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:Gmin
+(GA)|B3c d2(cB)|(cA) (B/2c/2)d G2(GA)|\
+B>cd>e f2 ed|(cB)fd B2(de)|!
+(fe)(fg) f2 (ed)|ed)c>B c2 (Bc)|\
+(d<B)c<A (B<G)(A<G)|(^FD)(^FA) d2||!
+(de)|f3 g f2 (ed)|(ed)c>B c2 (BA)|\
+(BA)(Bc) d2 (cB)|(AG)(^FG) A2 (A/2B/2c)|!
+(BA)(BG) c2 (de)|(^fe)(fg) f2 (gf)|\
+(g<d)(e<c) (d<B)(c<A)|(B<G)(D^F) G2|]
+S:https://www.folktunefinder.com/tunes/72414
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

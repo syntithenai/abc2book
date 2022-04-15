@@ -1,0 +1,25 @@
+X:4625
+T:Polska
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ac8.html
+%%ID:00000ac8
+K:C
+E>FD3E|^C>ED3 e|f>ga2f>a|g2e4::\
+f>ga2f>a|g>e^c2e>g|
+f>ed2B>d|^c2A3 e|\
+f>ga2f>a|g>e^c2 a2|gf d>e|^c2d4|]
+S:https://www.folktunefinder.com/tunes/37004
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:87
+T:The International Reel
+R:reel
+Z:Jeff Lindqvist <jeff_lindqvist@SPRAY.SE>  irtrad-l 2001-9-2
+S:Jennikel Andersson, who got it from a session MD with Colm Gannon (B/C box)
+S:and Tina Lech (fiddle) in Drumshanbo (Aug 31, -01)
+D:Brian Conway 1981 "The Apple in Winter"
+D:Sean McGuire 1968
+Z:Jeff Lindqvist
+M:C|
+L:1/8
+K:C
+C~E3 Gceg|fedB {d}cB{d}cA|(3GAG EG AcGc|ecAG ECA,B,|
+C~E3 Gceg|fedB {d}cB{d}cA|(3GAG EG AcGE|1 FEDF (3EFE DE:|2 FEDF EGAB||
+c{B}cec gceg|ad (3ddd ecGE|CEGc A~F3|EGcd ecdB|
+c{B}cec gceg|ad (3ddd ecGE|CEGc AFdc|1 Bdgf ecAB:|2 Bdgf ecc2||
+S:https://www.folktunefinder.com/tunes/17403
+S:http://trillian.mit.edu/~jc/music/abc/reel/InternationalReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/InternationalReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/InternationalReel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

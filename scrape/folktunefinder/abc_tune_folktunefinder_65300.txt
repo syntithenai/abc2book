@@ -1,0 +1,27 @@
+X: 212
+T:The Naughty 'Noochie
+% Nottingham Music Database
+S:Bob McQuillen Feb 1974, via Phil Rowe
+M:6/8
+K:G
+d|"G"g2g dBd|"G"g2g "D7"d2c|"G"Bcd "D7"cBA|"G"BG2 -G2d|"G"g2g dBd|
+"G"gab "D"a2g|"D"aba "A7"gfe|"D"fd2 -"G7"d2d|"C"e2e "G"d2d|"Am"cdc "G"B2B|\
+"D7"cBA "G"BAG|
+"D7"A2F D2d|"G"g2g d2d|"C"cde "G"d2d|"G"gab "D7"aga|"G"bg2 -g2B||
+"Em"e2e "Bm"d2d|"Am"cdc "Em"B2B|"Em"BcB "Bm7"AGF|"Em"GE2 -E2B|"Em"e2e "Bm"d2d|
+"Am"cdc "Em"B2B|"Em"BcB "Am"AGA|"B7"cB2 -B2B|"C"c2c "Bm"B2B|"C"ccc "Bm"B2B|\
+"Am"cBA "Em"BAG|
+"Am"A2G "B7"F2B|"Em"e2e "Bm"d2d|"Am"cdc "Em"B2B|"Bm"BcB "B7"AGF|"Em"GE2 -E2||
+S:https://www.folktunefinder.com/tunes/65300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

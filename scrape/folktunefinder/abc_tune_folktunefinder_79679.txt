@@ -1,0 +1,27 @@
+X:575
+T: KRANE KRANE SCHWICKLE SCHWANE
+N: E1880
+O: Europa, Mitteleuropa, Deutschland, Bergisches Land, Barmen; Elberfeld
+R: Kinder - Lied, Tanz, Ringelreihen, Bruecken - Spiel
+M: 2/4
+L: 1/8
+K: F
+ | cBAB | cBAB
+cccd | cBAB
+cccd | c2AB
+cccd | c2AB
+cccd | cBA
+d | cBAd | cBAz
+dcBA | GGFz
+S:https://www.folktunefinder.com/tunes/79679
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, tanz, ringelreihen, bruecken - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

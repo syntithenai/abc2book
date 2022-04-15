@@ -1,0 +1,22 @@
+X:0
+T:A Man's a Man for A' That
+G:song in march tempo taken from a pipe arrangement
+M:2/4
+L:1/8
+Q:1/4=72
+K:AMix
+% mixolydian/dorian hexatonic; A-final C-gap
+A|d>e dA|Bd e>g|f>e dA|B2 B>A|
+  d>e dA|Bd e>g|f>e dB|A2 A :|
+g|f>g af|gf e>g|f>g aA|B2 B>d|
+  f>g af|gf e>g|f>e dB|A2 A :|
+S:https://www.folktunefinder.com/tunes/30072
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

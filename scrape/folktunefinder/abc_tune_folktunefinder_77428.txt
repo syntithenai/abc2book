@@ -1,0 +1,30 @@
+X:5036
+T:Gwynn's Fancy
+M:6/8
+L:1/8
+Q:180
+C:Aidan Crossey
+R:Jig
+K:D
+|:F2G|ABG ABG|A2F F2G|ABG ABG|A3 F2G|
+ABG ABG|A2F F2G|ABG c2E|D3:||
+|:F2G|ABG B2c|d2F F2G|ABG B2c|d3 F2G|
+ABG B2c|dcd g2f|efd c2A|d3:||
+F2G|ABG F2E|D2E F2G|ABG B2c|d3 c2d|
+efd c2B|ABG F2E|DEF A2B|A3 ABc|
+dcd f2e|efd c2B|ABG F2A|d3 c2d|
+eAA fAA|gAA fAA|efd c2A|d3 z3||
+S:https://www.folktunefinder.com/tunes/77428
+S:http://trillian.mit.edu/~jc/music/abc/by/AidanCrossey/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/aidananita:se13.freeserve.co.uk/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RoadHome.abc
+S:http://paythereckoning.com/crosseyabc.txt
+S:http://www.paythereckoning.com/crosseyabc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

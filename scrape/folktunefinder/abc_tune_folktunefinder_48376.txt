@@ -1,0 +1,24 @@
+X:1500
+T:Fiona's Waltz
+M:3/4
+L:1/8
+Q:140
+C:Leo McCann
+R:waltz
+D:Leo McCann: If Anyone Can
+Z:Devin McCabe
+K:A
+c2 c>E F>A|B2 B>E F>A|c2 c>E F>A|f>A e>A (3dcB|
+!c2 c>E F>A|B2 B>E F>A|c2 c>E F>A|1f>A e>A (3dcB:|2f>A e>A d>f|
+!:e>f e>c B>A|d>e d>F A>d|e>f e>c B>A|f>A e>A d>f|
+!e>f e>c B>A|d>e d>F A>d|e>f e>c B>A|1f>A e>A d>f:|2f>A e>A (3dcB||
+S:https://www.folktunefinder.com/tunes/48376
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

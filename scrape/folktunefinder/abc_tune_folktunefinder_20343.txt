@@ -1,0 +1,26 @@
+X: 1
+T: The Wood Duck
+C: Fried Herman 1978
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+| "Gm"G4G2 | B3AG2 | d4d2 | d4 d2 \
+| "Bb"f3ed2 | "Cm"c2d2c2 | "D7"B4 A2 | "Gm"G4 GB |
+| "Gm"d2e2 "A7"^c2 | "D"d4 d2 | "Bb"d2e2 "A7"^c2 | "D"d4 d2 \
+| "Bb"f3ed2 | "Cm"c2d2c2 | "D7"B4 A2 | "Gm"G4 |]
+G2 \
+| "Cm"g4g2 | e3fg2 | e4c2 | c4"F7"F2 \
+| "Bb"f4f2 | "(Dm)"d3ef2 | "(Gm)"d4 B2 | B4E2 |
+| "Cm"e4e2 | c3de2 | "Am"c4A2 | "D"A4d2 \
+| "Cm"e3cA2 | "D7"B2c2^F2 | "Gm"G4"D"^f2 | "Gm"g4 |]
+S:https://www.folktunefinder.com/tunes/20343
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Wood_Duck_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Wood_Duck_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

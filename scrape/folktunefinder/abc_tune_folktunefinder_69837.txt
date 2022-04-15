@@ -1,0 +1,25 @@
+X:277
+T: DER BURSCH VON ECHTEM SCHROT UND KORN
+N: F0488
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -,  Burschenschafts - Lied
+M: 4/4
+L: 1/16
+K: C
+G,4 | G,4E,3F,G,6C2 | C2B,2A,2G,2F,6
+F,2 | E,2G,2G,2C2C2G,2E,2C,2 | G,4G,3G,G,4
+G,2B,2 | D6B,2D2C2B,2A,2 | G,4D3B,G,4
+G,4 | A,6A,2B,6B,2 | C4D4E4z2
+C2 | A,4F2D2C4B,4 | C4E3EF4
+D3D | E4C4D3DB,3B, | C4C3CC4
+S:https://www.folktunefinder.com/tunes/69837
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten -,  burschenschafts - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

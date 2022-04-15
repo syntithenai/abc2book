@@ -1,0 +1,26 @@
+X:50
+T:The Sailors are All at the Bar
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+N:the words are not printed as an underlay
+N:and the tune doesn't quite fit
+M:9/8
+L:1/8
+K:G
+BGB AFA  G2B|AcA FAF AcA |
+BGB AFA  G2c|def gdc BAG||
+F2f ege Tf3 |cde fcB AGF |
+G2g ege Tg3 |def gdc BAG|]
+S:https://www.folktunefinder.com/tunes/75613
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

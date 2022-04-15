@@ -1,0 +1,23 @@
+X:370
+T: ES WAR EIN ARME MUTTER
+N: E0209A
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Mahn -, Moral - Lied, Strafe; Geiz
+M: 6/8
+L: 1/8
+K: E
+=D | =G2=DG2A | BBz3
+B | =d2BB2A | B3z2
+B | =d2BB2A | B=Gz3
+A | B2F=G2F | E2z3
+S:https://www.folktunefinder.com/tunes/78811
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, mahn -, moral - lied, strafe; geiz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 3
+P: Hopsa efter Grytthyttans Polskegille
+R: hopsa
+O: Denmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+B2 \
+|: "G"d3 B | dB dg | b4 | g4 | DG Bd | "D7"c2 AF |1,3 AG GA | "G"B2 G2 \
+                                                :|2,4 A2 G2 | "G fine"G4 :|
+K: D
+|: "D"F3 G | AB AF | [AD]F Ad | f3 f | "A7"fe ef | ge ce |1,3 ~e2 de | "D"f2 d2 \
+                                                        :|2,4 ~e2 d2 | "D"d4 :|
+S:https://www.folktunefinder.com/tunes/8108
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hopsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hopsa1.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

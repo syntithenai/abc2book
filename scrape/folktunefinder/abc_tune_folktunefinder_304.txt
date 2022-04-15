@@ -1,0 +1,21 @@
+X: 1
+T: Jeg gikk meg over sj og land
+O: Denmark
+M: 2/4
+L: 1/8
+K: C
+G \
+| "C"[GE]G [GE]G | "F"[AF]A "C"[GE]G | "G7"[FD]F "C"[EC]E | "G7"[DB,]D "C"CC |
+| "C"[GE]G [GE]G | "F"[AF]B "Dm"[cA]A | "G7"[GB,]>F [EB,]D | "G7"[D2B,2] "C"Cz ||
+| "C"[GE]G/G/ [GE]G |  "F"[AF]A "C"[GE]G | "G7"[FD]F "C"[EC]E | "G7"[DB,]D "C"C>C |
+| "C"[GE]G [GE]G | "F"[AF]B "Dm"[cA]>A | "G7"[GB,]>F [EB,]D | "G7"DC "C"C |]
+S:https://www.folktunefinder.com/tunes/304
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/JegGikkMegOver_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Denmark/JegGikkMegOver_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

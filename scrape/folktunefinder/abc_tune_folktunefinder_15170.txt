@@ -1,0 +1,25 @@
+X:1
+T: Timmy Clifford's Slide
+R: jig, slide
+S: Gary Chapin <gchapin:CTEL.NET> irtrad-l 2000-02-14
+M: 12/8
+L: 1/8
+R: slide
+K: G
+|: GBd  e2d dBd g3  | GBd  ceb agf g3 | GBd  e2d dBd gab | d'3 b3 agf g3 :|
+|: e=fe d2c BAG ABc | e=fe d2c BAG A3 | e=fe d2c BAG ABc |  c3 B3 AGF G3 :|
+S:https://www.folktunefinder.com/tunes/15170
+S:http://trillian.mit.edu/~jc/music/abc/jig/TimmyCliffordsSlide.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TimmyCliffordsSlide.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TimmyCliffordsSlide.abc
+% Rhythm Jig, slide
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

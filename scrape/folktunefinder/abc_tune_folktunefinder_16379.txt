@@ -1,0 +1,26 @@
+X: 1
+T: Karis Pers Polska
+O: trad
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+N: Possibly the best-known hambo-polska tune.  The first part is sometimes not repeated.
+M: 3/4
+L: 1/8
+K: D
+|: "D"A2 AB A>G | G2 FD F>A | d2 de d>c | "G"c2 BG B2 | "A7"e2 ef e>d | d2 cA c>e | a2 ag f>e | "D"d>e fg a2 ||
+|| "D"A2 AB A>G | G2 FD F>A | d2 de d>c | "G"c2 BG B2 | "A7"e2 ef e>d | d2 cA c>e | "A7"a2 af g>e | "D"dz d4 :|
+|: "G"g2 eg e>g | "D"f>e dc d>f | "A7"e>d cA B>c | "D"d>e fg a2 | "G"g2 eg e>g | "D"f>e dc d>f | "A7"e>d cA B>c | "D"dz d4 :|
+S:https://www.folktunefinder.com/tunes/16379
+S:http://trillian.mit.edu/~jc/music/abc/pols/KarisPersP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/KarisPersP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/KarisPersP.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/hambo/KarisPersP.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

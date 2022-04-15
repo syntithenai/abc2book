@@ -1,0 +1,27 @@
+X:484
+T: ICH HAB EIN BAECHLEIN FUNDEN
+N: F0919
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: F
+A2 | B2G2G2AB | B2A2A2
+c2 | cBA2G2GA | F2z4
+A2 | B2G2G2AB | B2A2A2
+c2 | cBA2G2GA | F2z4
+A2 | G2G2G2G2 | G2c2c2
+B2 | A2^c2d2=c2 | =B4z2
+G2 | c2c2G2A2 | B2c2A2
+F2 | G2G2E2E2 | F2z4
+S:https://www.folktunefinder.com/tunes/70044
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Slavjanka
+O: Srbija
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: C
+|: "C"[e4G4] | [dF][cE] [e2G2] \
+| [dF][cE] [e2G2] | [dF][cE] [e2G2] \
+| [c/E/][d/F/][eG] "G"[B/G/][c/A/][dB] | "D7"[cA][A^F] "G"[B2G2] \
+| "A7"[cA][d/B/][c/A/] [BG][GE] | "D"[A2^F2] [A2F2] :|
+|: c3 B | BA AG \
+| G^F FE | ED D2 \
+| "D7"D[E^C] [^FD][GE] | [A^F][BG] [c2A2] \
+| "A7"[c/A/][B/G/][A^F] [BG][GE] | "D"[A2^F2] [A2F2] :|
+|: "C"[e4G4] | [dF][cE] [e2G2] | [dF][cE] [e2G2] | [dF][cE] [e2G2] \
+S:https://www.folktunefinder.com/tunes/2935
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Slavjanka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Slavjanka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Slavjanka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Slavjanka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Lass o' Gowrie
+T: the Lakes of Sligo
+R: march
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: [AF][GE] \
+| "D"[F2D2][A2F2] [A2F2][BG][cE] | [d3F3][eG] [d2F2][c2A2] \
+| "G"B3A B2d2 | "A"e3f e2 AG \
+| "D"F2A2 A2[BG]c | "Bm"[d3F3][eG] [f3A4]e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 :|
+|: ag \
+| "D"f2a2 d3e | fefg "(B7)"a2gf \
+| "Em"g2b2 e3f | "A7"gfga b2ag \
+| "D"f2a2 "A7"e3f | "Bm"dcde f3e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 :|
+S:https://www.folktunefinder.com/tunes/15532
+S:http://trillian.mit.edu/~jc/music/abc/march/LassOGowrie_4D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LassOGowrie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LassOGowrie_4D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LassOGowrie_4D.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

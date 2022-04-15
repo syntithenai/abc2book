@@ -1,0 +1,28 @@
+X: 1
+T: Lady Susan Stewart's Reel
+R: reel
+B: RSCDS 5-9(a)
+N: From Caledonian Country Dances, circa 1754
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: "Am"Aeeg fdec | Aeeg "G"BGdB | "Am"Aeeg fdeg | "G"f>edg BGdB :|
+|: "Am"Ag f/g/a fdec | Ag f/g/a "G"BGdB | "Am"Ag f/g/a fdeg | "G"f>edg BGdB :|
+S:https://www.folktunefinder.com/tunes/17523
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadySusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadySusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadySusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadySusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LadySusanStewartsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SusanStewartsR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/LadySusanStewartsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Norman & Helen Robson
+C: George Meikle
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+d<B \
+| "D"A<d d2 d<f f>d | "Em"e>d c>B "A7"A3 A |  "D"A<d d2 d<f f>d | "E7"e>d e>f "A7"e2 d>B |
+| "D"A<d d2 "Bm"d<f f>d | "Em"e>d c>B "A7"A3 A |  "G"B>G B<d "A7"c>A c<e | "D"f2 d2 d2 :|
+|: "(A7)"f>g \
+| "D"a>f d<f a2 g>f | "A7"g>e c<e g2 f>e | "D"d>c d>e "Bm"f>e d<f |
+|1 "Em"g2 e2 "A7"e2 f>g | "D"a>f d<f a2 g>f | "A7"g>e c<e g2 f>e | "D"f>e d>f "A7"g>e a<g | "D"f2 d2 d2 :|
+|2 "E(m)"e>d e>f "A7"e2 d>B | "D"A<d d2 "Bm"d<f f>d | "E(m)"e>d c>B "A7"A3 A |  "G"B>G B<d "A7"c>A c<e | "D"f2 d2 d2 |]
+S:https://www.folktunefinder.com/tunes/19610
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Norman_and_Helen_Robson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/George_Meikle/Norman_and_Helen_Robson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Norman_and_Helen_Robson_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

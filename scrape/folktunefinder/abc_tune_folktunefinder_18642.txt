@@ -1,0 +1,41 @@
+X:1
+% Transcribed from Wayne Shorter - "Speak no evil"
+T:Dance Cadaverous
+M:3/4
+L:1/4
+C:Wayne Shorter
+Q:1/4=80
+%%staves (chords melody)
+K:Bm
+%%text (jazz waltz)
+%%vskip 20
+P:intro
+V:chords
+"Abmaj7"x x x | x x x | x x x | x x x |\
+"A7"x x x | x x x | x x x | x x x ||
+V:melody
+[G=C][=F/_E/][G/C/]z | z3 | [G=C][=F/_E/][G/C/]z | z3 |\
+[GB,][A/^C/][G/B,/]z | z3 | [_B_D][A/=F/][G/_E/]z | z3 ||
+P:A
+V:chords
+"Bmmaj7"x x x | x x x | "Cmaj7(#5)"x x x | x x x |\
+"C#m7b5"x x x | x x x | "-/F#"x x x | x x x |
+"Bmmaj7"x x x | x x x | "Cmaj7(#5)"x x x | x x x |\
+"C#m7b5"x x x | x x x | "-/F#"x x x | "B7(b9,#11,13)"x x x ||
+V:melody
+^A3- | (4:3:3A2F^A | B3- | (4:3:2B3A | (4:3:2F2F2- | F3- | F3- | F3 |
+S:https://www.folktunefinder.com/tunes/18642
+S:http://trillian.mit.edu/~jc/music/abc/song/Dance_Cadaverous.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Dance_Cadaverous.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/dance_cadaverous.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/dance_cadaverous.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/Dance_Cadaverous.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/dance_cadaverous.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/dance_cadaverous.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

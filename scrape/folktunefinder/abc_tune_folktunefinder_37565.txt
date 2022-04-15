@@ -1,0 +1,35 @@
+X: 32
+T:Lord Hardwickes March. TLY.031
+M:4/4
+L:1/8
+Q:160
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+N:Sign at start of first bar ofA. Pause at end of A part. Sign at end of
+N:B part and at end of D par
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+a>g|:f2 f>f f2f2|(~f3a) d'agf|e2 e>e e2e2|(~e3f) (gb).a.g|!
+f2 f>f f2f2|(~f3a) d'agf|(eb).a.g (fe).d.c|d2 d>d d2:|!
+|:A>A|A2 A>A A2A>A|F2 D2 A2 a>a|a2 a>a a2 a>a|f2 d2 a2 a>a|!
+a2 A>A A2 a>a|a2A>A A2 a>a|.a.a.a.a .a.a(.a^g)| a2 a>a (ab).a.g||!
+d4 A3 d|f4 d3 f|a2 d'>a f2 a>f| d2 f>d A2 g2|!
+f2 (d/2e/2f/2g/2) aagg|f2 (d/2e/2f/2g/2) aagg|\
+f2 a>a f2 d2|a2 A>AA2 z2:|!
+|:AA/2A/2 AA AAAA|(g4e2) z2|AA/2A/2 AA AAAA|(a4f2) z2|!
+AA/2A/2 AA AAAA|g3f g3f|.g2.f2.e2.d2|.c2.b2.a2.g2:|]
+S:https://www.folktunefinder.com/tunes/37565
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

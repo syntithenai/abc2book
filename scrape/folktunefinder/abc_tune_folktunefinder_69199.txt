@@ -1,0 +1,29 @@
+X:340
+T: "Das Pathengeschenk"
+N: Z1020
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: A
+E2 | A4=c2B4cB | A4BAG2z2
+AB | =c4c2d2c2d2 | e6z4
+E2 | A4=c2B4cB | A4BAG2z2
+AB | =c4c2d2c2d2 | e6z4
+e2 | e4d2=f2e2d2 | =c4edc4
+c2 | d4d2e2d2=c2 | B4d=cB4
+e2 | d4=c2B4A2 | G6-G4
+E2 | A4ed=c3dBc | A4z6
+S:https://www.folktunefinder.com/tunes/69199
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

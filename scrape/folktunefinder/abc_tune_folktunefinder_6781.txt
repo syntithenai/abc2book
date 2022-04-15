@@ -1,0 +1,46 @@
+X: 1
+T: Epstein Bulgar (v.2)
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+S: Rob Mendel <rammsw:email.msn.COM>
+M: 4/4
+L: 1/8
+K: Cm
+G^FG \
+"A"\
+| "Cm"A2 G2 F2 E2 | "G7"D4- DG,=B,D \
+| ^F G2 ^F G/F/E E/D/C | "Cm"^F G3- GG ^FG |
+| "Cm"e2 d2 c2 "C7"B2 | "Fm"A2 G2 F3 A \
+| "G7"^FG2F G/F/E E/D/C | "Cm"C4 z :|
+"B"\
+|: GAG \
+| "G"=B3c dGAG | "Cm"c3d eGce \
+| "G7"^FG2F (3GFE (3EDC |1 "Cm"^FG3 z :|2"Cm"C4 z || [K:=B=e=A][K:C]
+"C"\
+|: z zG \
+| "C"cz zE Gz zF | (3EFG FED CG _GF \
+| EG AG cE GC | EG, CD EF/E/ DC | "G7"D>E FG EC DC |
+| "C"^FG3- G3G | EG e_e d_d cB \
+| _BA _AG _GF E_E | "G7"D>E FG EC DC |1 "C"^FG3 z:|2 "C"C4 z |]
+S:https://www.folktunefinder.com/tunes/6781
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Epstein2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/EpsteinBulgar_2_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/EpsteinBulgar2_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EpsteinBulg_2_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EpsteinBulgar_2_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EpsteinBulgar2_Cm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/klezmer/EpsteinBulgar_2_Cm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/C/EpsteinBulgar2_Cm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/tune/EpsteinBulg_2_Cm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/tune/EpsteinBulgar_2_Cm.abc
+% Rhythm Bulgar, freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

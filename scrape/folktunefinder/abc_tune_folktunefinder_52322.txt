@@ -1,0 +1,22 @@
+X:117
+T:Scan Tester's Schottische No. 2
+M:4/4
+L:1/8
+K:G
+(3DEF|G2g2G2g2|e3/2g/2 f3/2e/2 d7/2B/2|c3/2e/2 d3/2c/2 B3/2A/2 G3/2G/2|
+A3/2B/2 A3/2G/2 F3/2E/2  (3cAF|
+G2g2G2g2|e3/2g/2 f3/2e/2 d7/2B/2|c3/2e/2 d3/2c/2 B3/2A/2  (3GAB|A2F2G2:|
+|:d3/2c/2| (3BdB G2A2F2|G3/2A/2 B3/2G/2 D2G3/2F/2|
+E2A2A3/2B/2 A3/2G/2|F3/2G/2  (3AFD d2d3/2c/2|
+(3BdB G2A2F2|G3/2A/2 B3/2G/2 D2G3/2F/2|
+E3/2c/2 B3/2A/2 E3/2F/2 G3/2A/2|G2g2g2:|
+S:https://www.folktunefinder.com/tunes/52322
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:42
+T: Hopp Marjennchen, S. 10
+N: L0003
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: Kinderlied, Reigenlied, Tanzlied]
+M: 3/4
+L: 1/4
+K: G
+ | BzG | GFG | BzG | GFG
+A2A | ddd | B3 | G2z
+BzG | GFG | BzG | GFG
+A2A | FEF | G3 | G2z
+S:https://www.folktunefinder.com/tunes/70172
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Kinderlied, reigenlied, tanzlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

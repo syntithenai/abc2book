@@ -1,0 +1,30 @@
+X: 3
+P: Sechsundrei\ssiger (C)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: C
+%%indent 300
+"Intro"\
+| "C"[g4e4] [f2d2] | [e4c4] [c2c2] \
+| "G7"[d2B2] [AG][BF] | "C"[c2E2] z2 ||
+"A"\
+|:"C"[g4e4] [f2d2] | [e4c4] [c2G2] \
+| "G7"[g2e2] [f2d2] | "C"[e2c2] [c2G2] :| \
+"B"\
+[|]"G7"[B4D4] [c2E2] | [d4F4] [B2D2] | "C"[c2E2] "F"[f2A2] |
+| "C"[e4G4] | "C"[c2E2] "F"[f2A2] | "C"[e4G4] \
+"C"\
+|:"F"[f2A2] [fA][fA] [dF][fA] | "C"[e4G4] [c2E2] \
+| "G7"[d2F2] [AG][BF] | "C"[c2E2] z2 :|
+S:https://www.folktunefinder.com/tunes/4987
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Sechsundreissiger_BbEb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Sechsundreissiger_A.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

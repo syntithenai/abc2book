@@ -1,0 +1,26 @@
+X:115
+T: DAS JAHR IST GUT
+N: E1169
+O: Europa, Mitteleuropa, Deutschland, Bayern
+R: Trink -, Zech - Lied; Studenten - Lied
+M: 3/8
+L: 1/16
+K: A
+E2 | E2A2A2 | A4A2 | A2G2F2 | F2E2
+E2 | F2F2F2 | A2G2F2 | F2E2D2 | D2C2
+A2 | E2E2D2 | D2C2A2 | E2E2D2 | C4
+EE | E2A2AA | A2c2cc | d2B2B2 | e4
+cc | d2B2G2 | A4
+EE | E2A2AA | A2c2cc | d2B2B2 | e4
+cc | d2B2G2 | A4
+S:https://www.folktunefinder.com/tunes/79219
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Trink -, zech - lied; studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

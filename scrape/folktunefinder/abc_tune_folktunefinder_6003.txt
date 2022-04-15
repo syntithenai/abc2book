@@ -1,0 +1,52 @@
+X: 1
+T: Schneider
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 23/4
+L: 1/4
+P: (PWPW)((PWPW)
+K: C
+P: in C:
+|: "C"[cGE] [GEC] | [ecG] [cGE] | "G7"[dBG] [BGG] [dBG] | "C"[ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[dBG] [fdB] [dBG] | "C"[e2c2G2] z :|2 "G7"[gdB] [fBG] [dBF] | "C"[c2E2] z ||
+|: "F"[cAF] [fcA] | [afc] [fcA] | [cAF] [fcA] [afc] | "C"[gec] z | [ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[gdB] [fdB] [dBG] | "C"[e2c2G2] z :|2 "G7"[gdB] [fBG] [dBF] | "C"[c2E2] z |]
+%%sep 5 5 200
+P: in F:
+K: F
+|: "F"[fcA] [cAF] | [afc] [fcA] | "C7"[gec] [ecc] [gec] | "F"[afc] [fcA] | [c'af] [afc] \
+|1 "C7"[gec] [bge] [gec] | "F"[a2f2c2] z :|2 "C7"[c'ge] [bec] [geB] | "F"[f2A2] z ||
+|: "B"[fdB] [bfd] | [d'bf] [bfd] | [fdB] [bfd] [d'bf] | "F"[c'af] z | [afc] [fcA] | [c'af] [afc] \
+|1 "C7"[c'ge] [bge] [gec] | "F"[a2f2c2] z :|2 "C7"[c'ge] [bec] [geB] | "F"[f2A2] z |]
+%%sep 5 5 200
+P: Bb instruments:
+P: in D:
+K: D
+|: "D"[dAF] [AFD] | [fdA] [dAF] | "A7"[ecA] [cAA] [ecA] | "D"[fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[ecA] [gec] [ecA] | "D"[f2d2A2] z :|2 "A7"[aec] [gcA] [ecG] | "D"[d2F2] z ||
+|: "G"[dBG] [gdB] | [bgd] [gdB] | [dBG] [gdB] [bgd] | "D"[afd] z | [fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[aec] [gec] [ecA] | "D"[f2d2A2] z :|2 "A7"[aec] [gcA] [ecG] | "D"[d2F2] z |]
+%%sep 5 5 200
+P: in G:
+K: G
+|: "G"[gdB] [dBG] | [bgd] [gdB] | "D7"[afd] [fdd] [afd] | "G"[bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[afd] [c'af] [afd] | "G"[b2g2d2] z :|2 "D7"[d'af] [c'fd] [afc] | "G"[g2B2] z ||
+|: "C"[gec] [c'ge] | [e'c'g] [c'ge] | [gec] [c'ge] [e'c'g] | "G"[d'bg] z | [bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[d'af] [c'af] [afd] | "G"[b2g2d2] z :|2 "D7"[d'af] [c'fd] [afc] | "G"[g2B2] z |]
+P:
+W: Transcription 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+S:https://www.folktunefinder.com/tunes/6003
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Schneider.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 23/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

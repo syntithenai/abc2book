@@ -1,0 +1,31 @@
+X:232
+T: Das Schlo in streich (13a), S. 57f
+N: T0120
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: DIEKIRCH; gesungen von dem Schulknaben Andreas Hut im Jahre 1921;
+N: weitere Melodie (13c) ESCH/ALZETTE  von dem Schulknaben Nikolaus Weis
+N: (1921); weitere Melodie (13d) GREVENMACHER von Frau Wilhelm Weins
+N: (1915); weitere Melodie (13e) KNTZIG von Frau Wachtmeister
+N: J. Kaiser (1933)
+R: "erzhlende Lieder"]
+M: 3/4
+L: 1/16
+K: C
+G2 | G2A2E6E2 | E2G2D6
+G2 | G2A2A6F2 | F2E2z6
+G2 | G2B2d6F2 | E2G2c4
+e4 | dcBAG6F2 | A2G2z6
+G2 | G2B2d6F2 | E2G2c4
+e4 | dcBAG6F2 | F2E2z6
+S:https://www.folktunefinder.com/tunes/70362
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

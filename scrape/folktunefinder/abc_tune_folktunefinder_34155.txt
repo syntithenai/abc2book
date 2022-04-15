@@ -1,0 +1,43 @@
+X: 6244
+T:3 Wet Moose
+O:England
+M:11/8
+Q:1/8=400
+C:Alan Dawson
+A:Leeds
+K:D
+d2 cd ee=f aeae|d2 d2 g=fe dcdA|\
+d2 d2 c_BA BABA|d2 d2 g=fe {d}f2 f2|
+M:13/8
+dc_BA =c2c c2c BAG |\
+M:7/8
+A2 A2 _BAG | A2 A2 A_Bc:|
+M:11/8
+dc_BA BcB A2 A2|\
+M:7/8
+=cde =f2 f2|g=fg e2 e2|\
+a^ga e2 e2|\
+M:11/8
+d^c_BA BcB A2 A2|\
+M:7/8
+| =ccc A2 A2 |
+M:11/8
+dc_BA BcB A2 A2|\
+M:7/8
+=cde =f2 f2|g=fg e2 e2|\
+a^ga e2 e2|\
+M:11/8
+d^c_BA BcB A2 A2|]
+W:Copyright (C) Alan Dawson
+S:https://www.folktunefinder.com/tunes/34155
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 13/8
+% Time_signature 11/8
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Curdle Water
+C: Barbara McOwen (Oct 1990)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by B.McOwen dates Jan 1991
+M: 6/8
+L: 1/8
+K: D
+|: "D"AddA "A"c2cd | "Em"efge "A"aAA2 | "D"AddA "A"c2cd | "A7"efge   "D"d2dz :|
+[| "Em"e2ef   gfe2 | "Em"Beed "A"cAA2 | "Em"e2ef   gfe2 | "A"aAAA       gAfA ||
+|| "Em"e2ef   gfe2 | "Em"Beed "A"cAA2 | "G"BGGB "A"cAeA | "D"fd"A"ec "D"d2dz |]
+S:https://www.folktunefinder.com/tunes/14064
+S:http://trillian.mit.edu/~jc/music/abc/jig/CurdleWater_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/CurdleWater_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CurdleWater_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/j16/CurdleWater_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CurdleWater_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:6740
+T:Waltz from Norrbotten
+M:3/4
+O:Sweden
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000822.html
+%%ID:00000822
+K:D min
+A,2 D2 F2|A4 A2|B2 A2 G2|F3E D2|\
+A,2 ^C2 E2|G4 G2|AG F2E2|F3E D2|\
+A,2 D2 F2|A4 A2|B2 A2 G2|F3E D2|
+A,2 ^C2 E2|A4 A2|=BA ^GA B^c|d4 (A,2::\
+K:D
+A,)D FA FD|A,D FA FD|A,D FA GF|G3F E2|\
+A,C EG EC|A,C EG EC\
+|1 A,C EG FE|F3E D2 :|2 A,C EG FE| D4|\
+K:Dm
+|:a2|\
+ab ag fe|dA FD FA|
+e^c Ac ea|a^g g=b bg|a4 a2|\
+ab ag fe|dA FD FA|e^c Ac ec|d4:|
+S:https://www.folktunefinder.com/tunes/37427
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

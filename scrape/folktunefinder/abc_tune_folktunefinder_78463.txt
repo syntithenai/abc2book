@@ -1,0 +1,28 @@
+X:22
+T: ES GEHT EIN BU BA BUTZEMANN
+N: E0005
+O: Europa, Mitteleuropa, Deutschland, Thueringen; Sachsen
+R: Sage, Maerchen -, Zauber - Lied, Kinder - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | C4E4 | G4c4 | A3AA2
+A2 | G2F2E2D2 | C3EG2
+G,2 | C4E4 | G4c4 | A3AA2
+A2 | G2F2E2D2 | C4z2
+E2 | D2E2F2D2 | E2F2G2
+E2 | D2E2F2D2 | E2F2G2
+G,2 | C4E4 | G4c4 | A3AA2
+A2 | G2F2E2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/78463
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied, kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

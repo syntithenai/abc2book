@@ -1,0 +1,30 @@
+X:15608
+T:Slippery Jig
+R:Slip Jig
+O:New Zealand
+M:9/8
+I:speed 420
+C:Mark Fitzsimons
+A:Auckland
+K: A min
+|:EFG AcA GFG|EFG A2G A3|EFG AcA GFE|dcB cBA BAG|
+EFG AcA GFE|DCB, C2_B, A,3|A,_B,C DEF GA=B|c2A G2A A3:|
+|:e2A cAB cAB|d2A _BGA BGA|cAB _BGA ^GEF|E^CD E2F E3|
+e2A cAB cAB|d2A _BGA BGA|1cAB _BGA ^GEF|EFD CDB, A,3:|
+|2 c2A B2A G2A|C2A, B,2A, G,3:|
+W:
+W:
+W:Copyright Mark Fitzsimons February 1998
+W:markf@ihug.co.nz
+S:https://www.folktunefinder.com/tunes/46883
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

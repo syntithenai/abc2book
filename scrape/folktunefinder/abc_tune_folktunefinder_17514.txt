@@ -1,0 +1,23 @@
+X:1
+T:Lady Dumfries
+R:Reel
+B:The Athole Collection
+M:C|
+L:1/8
+K:F
+   A | "F"F2AB     cAag | "(Bb)"fdcA "C7"GFGA | "F"F2AB     cAag | "F"fcba "C7"g2 "F"f :|
+|: g | "F"fgaf "Bb"gefd |  "F"  cAFA "C7"GFDg | "F"fgaf "Bb"gefd | "F"cAba "C7"g2 "F"f :|
+S:https://www.folktunefinder.com/tunes/17514
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyDumfries_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyDumfries_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadyDumfries_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

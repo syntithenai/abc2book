@@ -1,0 +1,52 @@
+X:1
+T:Satelite
+T:(How high the moon)
+M:4/4
+L:1/4
+C:John Coltrane
+Q:1/4=180
+%%staves (chords melody)
+K:G
+%%text (medium up)
+%%vskip 20
+P:A
+V:chords
+"Gmaj7"x2 "Bb7"x2 | "Ebmaj7"x2 "F#7"x2 | "Bmaj7"x2 "D7"x2 | "Gmaj7"x2 "C7"x2 |
+"Fmaj7"x2 "Ab7"x2 | "Dbmaj7"x2 "E7"x2 | "Amaj7"x2 "C7"x2 | "Fmaj7"x2 "Bb7"x2 ||
+V:melody
+D2D2 | D2_E2 | _E2F2 | A>Gz2 |
+C2C2 | C2D2 | _D2E2 | G2=F>G- |
+P:B
+V:chords
+"Ebmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 | "Am7b5"x2 "D7"x2 |
+"Gmaj7"x2 x2 | x2 "Bb7"x2 | "Ebmaj7"x2 "F#7"x2 | "Bmaj7"x2 "D7"x2 ||
+V:melody
+G2z2 | z/AG/ AG/_B/ | z<_Bz2 | z2z/AG/ |
+=B2>>G2 | d>cd.c | _B2 (3_ABA | F>EFE ||
+P:A
+V:chords
+"Gmaj7"x2 "Bb7"x2 | "Ebmaj7"x2 "F#7"x2 | "Bmaj7"x2 "D7"x2 | "Gmaj7"x2 "C7"x2 |
+"Fmaj7"x2 "Ab7"x2 | "Dbmaj7"x2 "E7"x2 | "Amaj7"x2 "C7"x2 | "Fmaj7"x2 "Bb7"x2 ||
+V:melody
+D2D2 | D2_E2 | _E2F2 | A>Gz2 |
+C2C2 | C2D2 | _D2E2 | G2=F>G- |
+P:C
+V:chords
+"Ebmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gmaj7"x2 x2 | "Cmaj7"x2 x2 |
+"G/D"x2 x2 | "Am/D"x2 x2 | "G/D"x2 x2 | "Am/D"x2 x2 |
+"G/D"x2 x2 | "Am/D"x2 x2 | "G/D"x2 x2 | "Am/D"x2 x2 |]
+V:melody
+G2z2 | z/AG/ AG/B/- | B2>>G2 | d>cd.c |
+d2B>G | A>Bc.e | d2BG/A/ | z2z/fe/ |
+d2BG/A/- | A>ce<g | d2BG/F/ | z4 |]
+S:https://www.folktunefinder.com/tunes/18955
+S:http://trillian.mit.edu/~jc/music/abc/song/Satelite.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/satelite.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Satelite.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/satelite.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

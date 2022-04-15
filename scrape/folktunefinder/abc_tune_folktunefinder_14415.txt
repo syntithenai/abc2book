@@ -1,0 +1,25 @@
+X:1
+T: the Jig of Clonmore
+R:jig
+S:Juergen Gier <Juergen.Gier:post.rwth-aachen.de> irtrad-l 2000-02-02
+M:6/8
+K:G
+| GED ~D3 | GEG c2e | dBG GAB | AGE ~E3 \
+| GED ~D3 | GEG c2e | dBG GAB | AGF G3 :|
+| gdB GBd | gdB c2e | dBG GAB | AGE ~E3 \
+| gdB GBd | gdB c2e | dBG GAB | AGF G2d |
+| gdd edd | gdB c2e | dBG GAB | AGE ~E3 \
+| GED ~D3 | GEG c2e | dBG GAB | AGF G3 |]
+S:https://www.folktunefinder.com/tunes/14415
+S:http://trillian.mit.edu/~jc/music/abc/jig/JigOfClonmore.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JigOfClonmore.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JigOfClonmore.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

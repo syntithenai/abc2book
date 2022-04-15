@@ -1,0 +1,25 @@
+X:142
+T: So manchet leewe, lange Johr,
+N: D0226
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein, Kiel -
+N: moduliert in die Dominanttonart ; mehrstimmig notiert
+N: Inzipit = Variante zum Lied
+R: Staende - Lied, Seemannslied
+M: 3/4
+L: 1/4
+K: C
+G | E2F | G2A | G2^F | F2G | e2d | A2B | c3- | cz
+G | E2F | G2A | B2c | B2B | B2^F | A2G | E3- | Ez
+E | F2G | A2f | f2e | e2e | e2B | d2c | A3- | Az
+c | d2c | B2A | A2G | c2G | G2F | B2A | G3- | Gz
+e | e2d | e2f | f2e | c2G | e2G | d2G | c3- | cz
+S:https://www.folktunefinder.com/tunes/72599
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, seemannslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

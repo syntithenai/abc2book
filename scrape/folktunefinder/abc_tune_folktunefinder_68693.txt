@@ -1,0 +1,26 @@
+X:147
+T: Espen - Zweiglein
+N: A0178B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. 1646 S. 1446.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: F
+F2F2F2 | B2F2G2A2 | B4z2
+B2 | A2B2c2d2 | c4B4 | z2
+B2A2B2 | c2d2c2BA | G2G2F4 | z2
+c2B2A2 | G2F2G4 | F8 | z2
+S:https://www.folktunefinder.com/tunes/68693
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

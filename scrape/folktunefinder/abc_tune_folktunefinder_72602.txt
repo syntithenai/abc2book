@@ -1,0 +1,25 @@
+X:145
+T: Ich will dir mein Schicksal erzaehlen,
+N: D0230
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein
+N: moduliert in die Dominanttonart; Inzipit = Variante zum Lied
+R: Staende - Lied, Dirne
+M: 4/4
+L: 1/8
+K: C
+ |  | G2 | C2EGA2G^F | A2G2z2
+G2 | C2EGA2Gc | B4z2
+GG | E2Gce2dc | c2A2z2
+dd | c2GcB2AB | c4z2
+GG | E2Gce2dc | cff2z2
+dd | c2GcB2AB | c4z2
+S:https://www.folktunefinder.com/tunes/72602
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, dirne
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

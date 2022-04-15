@@ -1,0 +1,29 @@
+X: 1
+T: Accord for Pinewoods
+C: Tom Siess
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+Q: 3/8=106
+M: 6/8
+L: 1/8
+K: C
+G \
+| "G7"d2e f2e | d2B G2G | d2e fed | "C"g2a g2g \
+| "F"a2f "Dm"d2e | "G7"f2g "C"edc |1 "Dm"A2d e2f | "G7"d3- d2 :|2 "Dm"e2f "G7"d2B | "C"c3- c2 |]
+|: c \
+| "F"a2a f2a | "C"g2g efg | "Dm"f2e d2c | "G"B2c d2g \
+| "F"a2a fga | "C"g2g e2g | "D7"=f2g a2b | "G"g3- g2g |
+| "Am"c'2c' "Em"bag | "F"a2a "C"gfe | "Dm"f2e "D7"d2c | "G7"B2c d2G \
+| "C"c2d e2f | "Em"g2e "Am"c2G | "Dm"e2f "G7"dcB | "C"c3- c2 :|
+S:https://www.folktunefinder.com/tunes/13765
+S:http://trillian.mit.edu/~jc/music/abc/jig/AccordForPinewoods_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/AccordForPinewoods_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

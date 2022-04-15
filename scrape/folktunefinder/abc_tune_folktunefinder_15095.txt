@@ -1,0 +1,27 @@
+X: 1
+T: Southbrae
+C: Jimmy Blair
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+zD \
+| "G"B2G D2G | "C"EFG "G"D2G |  "C"E2G  "G"D2G | "D7"FAA     Adc \
+| "G"B2G D2G | "C"EFG "G"D2G | "D7"Fed     cBA |  "G"G3      G  :|
+Bc \
+| "G"d2d dBd | "D7"c2c   cAc | "Em"B2B     BGB | "A7"ABG "D7"FED \
+| "G"d2d dBd | "D7"c2c   cAc |  "G"BAG "D7"AGF |  "G"G3      G  ||
+Bc \
+| "G"d2d dBd | "D7"c2c   cAc | "Em"B2B     BGB | "A7"ABG "D7"FED \
+| "G"B2G D2G | "C"EFG "G"D2G | "D7"Fed     cBA |  "G"G3      G  |]
+S:https://www.folktunefinder.com/tunes/15095
+S:http://trillian.mit.edu/~jc/music/abc/jig/Southbrae_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Southbrae_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

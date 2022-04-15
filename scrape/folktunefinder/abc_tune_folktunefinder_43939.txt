@@ -1,0 +1,33 @@
+X:370
+T:Richards Welcome to Lancaster
+A:Lancaster
+C:Andy Hornby & John Mabson
+M:4/4
+O:England
+Z:Richard Robinson 
+%%Copyright:A. Hornby / J. Mabson
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000079c.html
+%%ID:0000079c
+K:C
+E2A2 BcBA| BcBA BcBA| E2A2 BcBA| BcBA e4|\
+E2A2 BcBA| BcBA BcBA|
+BcBA dcBA| ^GABc A4::\
+e2dc B2A2| BcBA BcBA|
+e2dc BA^GA| BcBA B4|\
+e2dc B2A2| BcBA Bcdf| efed edcB| AcB^G A4::
+E2A^G A2AB| c2BA ^GABc| E2AG A2AB| cBcA e4|\
+E2A^G A2AB| cded cBcA|
+Bcdc BA^GA| BcB^G A4::\
+e2a2 g2f2| edef e2c2|
+dcde dcBc| dedB c2A2|\
+e2a2 gfed| edef e2c2| dedc BA^GA| BcB^G A4:|
+S:https://www.folktunefinder.com/tunes/43939
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

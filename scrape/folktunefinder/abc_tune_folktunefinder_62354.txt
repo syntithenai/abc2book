@@ -1,0 +1,34 @@
+X:23
+T:\"Ostg\"otasverpen
+T:Sverpa-dansa
+R:sl-polska
+H:efter "Lasse i Svarven", V\"astervik (Lars-Johan Sundell) (1874-1923).
+H:F\"odd i Ydre. Lasse i Svarven hade den efter Anders Gustav Johansson,
+H:L\"ov{\aa}sa, Sund, Ydre.
+H:St\"amning A,EAe
+A:\"Osterg\"otland
+Z:id:hn-sp-23
+M:3/4
+L:1/16
+K:A
+[e4A4E4A,4] [e2A2E2A,2]fe [dE4]cBA | (GA).B.c .d.e.f.g [.a2.A2][.a2.A2] |
+[A2E2A,2]ce ([aA4]gae) ([dE4]cBA-) | [A2E12](d2 B2)e2 (dcBA) |
+([E2A,2][e2A2]) [e2A2E2A,2]fe [dE4]cBA | (GA).B.c .d.e.f.g [.a2.A2][.a2.A2] |
+[A2E2A,2]ce ([aA4]gae) ([dE4]cBA) | ([cE4]B).A.G ([G2A2][.A2.A2]) [A4A4] :|
+|: [e4A4E4] [c2E2]([c2E2] [dE4])cBc | [d4E4] [B2E2]([B2E2] ([cE4])BAB) |
+[c4E4] [A2E2]([A2E2] [BE4]AGA) | .B.c.d.c .B.A.G.F E4 |
+[e4A4E4] [E2A,2]([c2E2] ([dE4])cBc) | [d4E4] [E2A,2]([B2E2] [cE4])BAB |
+(cA).B.c .d.e.f.g .a2.c2 | (cB).A.G ([G2A2][.A2.A2]) [A4A4] :|
+|: ([e4A4E4A,4] [e2A2E2A,2])fe (dc).B.A | .E.B.G.B .E.B.G.B .E.B.G.B |
+([d4E4A,4] [d2E2A,2])ed (cB).A.G | .A,.E.C.E .A,.E.C.E .A,.E.C.E |
+([e4A4E4A,4] [e2A2E2A,2])fe (dc).B.A | .E.B.G.B .E.B.G.B .E.B.G.B |
+([d4E4A,4] [d2E2A,2])ed (cB).A.G | .A,.E.C.E .A,.E.C.E A,4 :|
+S:https://www.folktunefinder.com/tunes/62354
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

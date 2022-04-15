@@ -1,0 +1,21 @@
+X: 1
+P: Winster Gallop
+R:polka
+Z:id:hn-polka-17
+M:2/4
+L:1/8
+K:G
+|: "G"GB GB | GB d2 | "Am"AB/c/ "D7"BA | "G"GB d2 \
+| "C"ce g>e | "G"dB d>B | "Am"AB/c/ "D7"BA | "G"GB G2 :|
+|: "G"gf ed | gf ed | "(Em)"gf ed | "Am"cB A2 \
+| "D7"fe d2 | fe d2 | d2 A>c | "G"BG G2 :|
+S:https://www.folktunefinder.com/tunes/3414
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR45.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

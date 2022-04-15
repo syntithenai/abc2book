@@ -1,0 +1,40 @@
+X: 1
+T: Jeg gikk meg over sj\o og land
+O: Trad Scandinavia
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: Translated by Mike Sevig
+M: 2/4
+L: 1/8
+K: C
+G | "C"GG GG | "F"AA "C"GG | "G7"FF "C"EE | "G7"DD "C"CC |
+w: 1.~Jeg gikk meg o-ver sj\o og land, da m\ot-te jeg en gam-mel mann. Han
+  | "C"GG GG | "F"AB "Dm"cA | "G7"G>F ED | D2 "C"Cz |
+w: sag-de s\aa, han spur-te s\aa: "Hvor h\or-er du vel hjem-me"
+  | "C"GG/G/ GG | "F"AA "C"GG | "G7"FF "C"EE | "G7"DD "C"C>C |
+w: Jeg h\or-er hjem' i Tram-pe-land, i Tram-pe-land, i Tram-pe-land. Og
+  | "C"GG GG | "F"AB "Dm"c>A | "G7"G>F ED | DC "C"C |]
+w: al-le de som tram-pe kan, de h\or-er hjemm' i Tram-pe-land.
+%
+W: 2. Jeg h\orer hjemm i Pekeland ...
+W: 3. Jeg h\orer hjemm i Hinkeland ...
+W: 4. Jeg h\orer hjemm i Hoppeland ...
+W: 5. Jeg h\orer hjemm i Klappeland ...
+%
+W: 1. I traveled over sea and land, and there I met an old, old man.
+W:    He said to me, he asked of me, "O where, o where can your home be"
+W:    I belong in Stamping Land, in Stamping Land, in Stamping Land,
+W:    and all of you who stamp, stamp can, you all belong in Stamping Land.
+W: 2. I belong in Pointing Land ...
+W: 3. I belong in Limping Land ...
+W: 4. I belong in Hopping Land ...
+W: 5. I belong in Clapping Land ...
+S:https://www.folktunefinder.com/tunes/18803
+S:http://trillian.mit.edu/~jc/music/abc/song/JegGikkMegOverSjoOgLand_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/JegGikkMegOverSjoOgLand_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

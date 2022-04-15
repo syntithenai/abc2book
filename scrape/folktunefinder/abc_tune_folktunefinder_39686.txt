@@ -1,0 +1,22 @@
+X:93
+T:Hunt Camp Hornpipe
+R:hp
+C:Bruce Osborne  --  Nov. 1992
+Z:abc by bosborne@kos.net
+M:4/4
+L:1/8
+K:G
+(3DEF|G2 GF GDB,D|G2 GF GABd|e2 ef gedB|cBAG FDEF|\
+G2 GF GDB,D|G2 GF GABd|e2 ef gedB|(3cBA FD G2:|
+|:(3DEF|G2 GF GABd|B2 BA B2 (3DEF|G2 GF GABd|E6 (3DEF|\
+G2 GF GABd|e2 ef gedB|cBAG FDEF|G2 GF G2:|
+S:https://www.folktunefinder.com/tunes/39686
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

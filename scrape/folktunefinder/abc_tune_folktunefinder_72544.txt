@@ -1,0 +1,26 @@
+X:87
+T: Die Nachtpatrouille
+N: D0100
+O: Europa, Mitteleuropa, Deutschland, Baden, Freiburg i. Brsg.
+N: Pause in der vierten Zeile eingefuegt; Inzipit = Variante zum Lied
+R: Soldaten - Lied
+M: 4/4
+L: 1/8
+K: G
+D3C | B,2D2G2B2 | B4A4 | z4z4
+A6G2 | F2E2D2F2 | G4
+D3C | B,2D2G2B2 | B2A2A4 | z4z4
+A6G2 | F2E2D2F2 | G2A2B2z2 | z4
+G2Bd | d4B4 | d2c2B2c2 | B4
+G2Bd | d4B4 | d2c2B2c2 | B4
+S:https://www.folktunefinder.com/tunes/72544
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

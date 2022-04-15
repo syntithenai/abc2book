@@ -1,0 +1,38 @@
+X: 34
+T:Det var en l\ordag aften
+M:3/4
+L:1/4
+Q:160
+C:anon.
+R:Waltz
+O:Denmark / Norway
+N:This is the "Norwegian" version in 3/4 time. The original Danish tune
+N:is
+N:n 2/4 time.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:D
+%http://www.musicaviva.com/abc/norway.abc
+%This songs is certainly Danish of orign, although it's also very well
+%known in Norway where it's often played as a waltz
+A|"D"d2d|"D"A2A|"D"f3|"D"d2f|"A7"e2c|"A7"A2c|"D"d3|"D"zzA|
+"D"d2d|"D"A2A|"D"f3|"D"d2f|"A7"e2c|"A7"A2c|"D"d3|"D"zzf|
+"D"f2f|"D""D"a2f|"A7"e2e|"A7"a2e|"G"d2d|"G"b2b|"A7"a3|"A7"zzg|
+"D"f2f|"D"a2f|"Em"f2e|"Em"g2e|"A7"d2c|"A7"B2c|"D"d3|"D"zz|]
+W:
+W::/: Det var en l\ordag aften jeg satt og ventet dig. :/:
+W::/: Du lovet mig at komme visst, men kom dog ei til mig. :/:
+W:
+W::/: Jeg lagde mig p\aa s\aengen og gr\aet s\aa bitterligt :/:
+W::/: Og hver en gang at d\oren gik, jeg trodde det var dig.
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/81246
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/scandi.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

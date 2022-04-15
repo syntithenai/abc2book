@@ -1,0 +1,25 @@
+X:1
+T:The Roaring Barmaid
+R:jig
+C:Tony O'Sullivan
+Z:Translated to abc by Debbie Knight
+M:6/8
+L:1/8
+K:G
+|: "G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB \
+|  "G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|: "G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg \
+|  "G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :|
+S:https://www.folktunefinder.com/tunes/14968
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoaringBarmaid_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RoaringBarmaid_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/RoaringBarmaid_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RoaringBarmaid_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

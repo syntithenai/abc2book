@@ -1,0 +1,26 @@
+X:280
+T: Beim Herumtrinken
+N: A0321
+O: Europa, Mitteleuropa, Deutschland
+N: Forster Lieder 4. Theil 1556
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/2
+K: G
+GGG | dd_ee | c2
+d_e | =fg_e2 | d2z
+d | gg_ee | =ffd2 | cAG2
+_Bcd2 | _Bcd2 | GA_Bc | A2G2
+_Bcd2 | _Bcd2 | GA_Bc | A2G2
+GA_Bc | A2G2 | z
+S:https://www.folktunefinder.com/tunes/68826
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

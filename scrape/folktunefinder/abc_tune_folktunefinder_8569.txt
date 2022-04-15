@@ -1,0 +1,22 @@
+X: 26
+P: Vals efter Blind Ulovs
+B: 10 l\aatar i \"Alvdalstradition efter Einar Britt (Traditionsv\"agen till svensk folkmusik 2), Kristina St\aahl Cedervall
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+|: D2 \
+| "Gm"G3 ABc | {c}d4 B2 | "D7"B2 A2 ^F2 | A2 G^F GD \
+| "Gm"G3 ABc | {c}d4 B2 | "D7"~B2 A-G ^F-A | "Gm"G4 :|
+|: d \
+| "Gm"{^f}g2 g-^f "D7"df |"Gm"{^f}g2 g-^f "D7"df | "Gm"{^f}g2 g-^f d2 | "Cm"c3 d=e^f | "Gm"{^f}g2 g-^f "D7"df |
+|"Gm"{^f}g2 g-^f "D7"df | "Gm"{^f}g2 g-^f d2 | "Bb(Eb)"B3 ABc | "D7"d2 c-A ^F-A | "Gm"{^F}G4 :|
+S:https://www.folktunefinder.com/tunes/8569
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Vals.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

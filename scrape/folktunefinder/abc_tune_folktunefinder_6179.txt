@@ -1,0 +1,22 @@
+X: 1
+T: Ve David [in D]
+O: Israel
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc
+K:C
+M: 4/4
+L: 1/8
+K: Ddor
+|: "Dm"D2 D2 "C"C2 (DE) | "Dm"F2 G2 (FG) (FE) | D2 D2 "C"CC B,C | "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/6179
+S:http://trillian.mit.edu/~jc/music/abc/Intl/VeDavid_DH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/VeDavid_DH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/VeDavid_DH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/VeDavid_DH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

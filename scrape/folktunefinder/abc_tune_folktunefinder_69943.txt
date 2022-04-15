@@ -1,0 +1,27 @@
+X:383
+T: FREUNDE TRINKT EINMAL
+N: F0681
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied
+M: 4/4
+L: 1/8
+K: F
+ | A4cBAG | F2F2F2
+G2 | A4cBAG | G4Fz
+F2 | d2d2d2d2 | c2c2f2
+Ac | c2B2B2A2 | A4G2z2
+G3GG2G2 | A2AGF2z2
+A3GA2B2 | c2cBA2z2
+c3dc2B2 | A4G2z2
+A2A2cBAG | G4Fz3
+S:https://www.folktunefinder.com/tunes/69943
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

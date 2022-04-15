@@ -1,0 +1,24 @@
+X: 2
+T: Hatov [Dm]
+S: Printed MS of unknown origin
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+|: "Dm"(D A2 G A2 D2) | A6 z2 | "Bb"d2 c2 "Gm"(BA) (GA) | B2 A2 G2 D2 \
+|  "Gm"z (G2 D) G2 D2 | "C"G4 G4 | z c2 B A2 G2 |1 "Dm"A2 G2 F2 E2 :|2 "A7"AG (FE) "Dm"D4 ||
+|: "Dm"z d2 e f2 d2 | "C"c2 d2 c2 "F"A2 | "Dm"z (d2 e) (f2 {gf}e)d | "C"(e4 c4) \
+|  "Gm"z B2 c d2 B2 |"Dm"A2 B2 A2 d2 | "Gm"z (f2 e) (fe "A7"d)^c | "Dm"d6 z2 :|
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7063
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Hatov.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

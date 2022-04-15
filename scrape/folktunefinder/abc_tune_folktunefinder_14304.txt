@@ -1,0 +1,28 @@
+X: 1
+T: Herb's Jig
+R: jig
+S: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2009.pdf
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"E2A ABc | "A"B2A A2f | "A"e2c     cBA | "E7"B3 z2E \
+| "A"E2A ABc | "A"B2A A2f | "A"e2c "E7"BcB |  "A"A3 z2 :|
+|: A \
+| "A"A2A cde| "D"a3 a2f | "A"ecB     ABc | "E7"B3 z2A \
+| "A"A2A cde| "D"a3 f3  | "A"efe "E7"dcB |  "A"A3 z2 :|
+S:https://www.folktunefinder.com/tunes/14304
+S:http://trillian.mit.edu/~jc/music/abc/jig/HerbsJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/HerbsJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HerbsJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/HerbsJig_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

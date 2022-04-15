@@ -1,0 +1,87 @@
+X:969
+T:Xota del Centru (MG 32)
+T:Jota del Centru (MG 32)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Centru d'Asturies
+Z:Mtodu de Gaita 32
+M:3/8
+L:1/8
+Q:3/8=80
+E:Nivel 3
+K:C
+{A}G6 c/G/~E4 D C2 G/C/B,/C/~D2 B, C4 ~DCB,CD~EC DEFD ~E2 DCB,~D {B,}C4
+DEFD EGcd e2 f4 ~e2 ~d2 c4 BABcB~AG cB~AG cB~AGF ~AGFE ~GFED ~E2 cB~AGF 
+~AGFE ~GFED F~EDC ~EDCB, ~DB,D~EC DEFD EFGcG F~EDCB, ~E2 C4|
+[M:3/8]
+|{F}~ECC|~E C/E/C/E/|~A F/~E/D/C/|~D B,/D/B,/D/|
+|F G/F/~E/D/|~E C/E/C/E/|~A F/~E/D/C/|~D/C/B,/D/B,/D/|
+|F/E/D/E/F/D/|~E C/E/C/E/|~A F/~E/D/C/|~D/C/B,/D/B,/D/|
+|F {C}G/F/~E/D/|C2 ~G|c/B/A/B/A/B/|A/B/A/B/A/B/|
+|c/B/A/B/A/B/|cGG|c/B/A/B/A/B/|c/B/A/B/A/B/|
+|c/B/A/B/A/B/|c~GG|c~e>d|c2 G|
+|c~e>d|~AFA|c B/A/G/F/|~E C/E/C/E/|~A F/E/D/C/|
+|~D B,/D/B,/D/|F G/F/E/D/|~E C/E/C/E/|~A F/E/D/C/|
+|D/C/B,/D/B,/D/|F/E/D/E/F/D/|E C/E/C/E/|A F/~E/D/C/|
+|~D/C/B,/D/B,/D/|F G/F/E/D/|C2 A/B/|
+|c~ec|~A>GF|~AF~A|~G>FE|
+|~GEG|~F>ED|F~EF|{A}G2 A/B/|
+|c~ec|~A2 {G}F|~AFA|~G2 {F}E|
+|~GE~G|~F2 {E}D|F~ED|C2 ~G|
+|CDE|~A>GE|GFD|~E>DC|
+|CDE|~A>GE|GF~D|C2 G|
+|ce>c|~AFA|c~e>c|~GEG|
+|c~ec|~ecG|c~e>c|~AFA|
+|c B/A/G/F/|~E C/E/C/E/|~A F/E/D/C/|~D B,/C/B,/C/|
+|.F G/F/~E/D/|~E C/E/C/E/|~A F/~E/D/C/|~D/C/B,/D/B,/D/|
+|.F G/F/~E/D/|~E C/E/C/E/|A F/E/D/C/|~D/C/B,/D/B,/D/|
+|F {C}G/F/E/D/|C2 G|
+|.EE~G|.EE~G|~EDE|F2 ~A|
+|.EEG|.DDE|B,CD|~E2 G|
+|.EE~G|.EEG|~EDE|F2 A|
+|.EE~G|.DD~G|F~ED|C2 G|
+|G~EC|~DCG|G~EC|~DCG|
+|G~EC|~E C/E/C/E/|~G E/F/ G|G E/F/E/F/|
+|~A E/F/ A|A E/F/E/F/|~G E/F/ G|G E/F/E/F/|
+|A E/F/ A|A E/F/E/F/|G/F/E/F/ G|G E/F/E/F/|
+|A/F/E/F/ A|A E/F/E/F/|G/F/E/F/ G|G c/G/c/A/|
+|~D B,/D/B,/D/|.F G/F/E/D/|E ~C/E/C/E/|~A F/E/~D/C/|
+|~D B,/D/B,/D/|.F G/F/E/D/|~E C/E/C/E/|A F/~E/D/C/|
+|~D/C/B,/D/B,/D/|.F G/F/E/D/|~E C/E/C/E/|A F/~E/D/C/|
+|~D/C/B,/D/B,/D/|.F G/F/E/D/|C2 A/B/|
+|: c~ec|~A2 A|AGF|_B2 A|_B c/B/A/B/|G2 ~A|GFG|~A2 A/_B/ :|
+|c2 A|B2 G|~A>GE|~GFD|F~ED|
+|c2 A|B>AG|A>GE|~GFD|F~ED|C2 G|
+|G c/B/A/G/|A/B/A/F/ A|A c/B/A/B/|G/A/G/E/ G|
+|G c/B/A/G/|A/B/A/F/ A|A c/B/A/B/|G/A/G/E/ G|
+|G c/B/A/G/|A/B/A/G/ A|A c/B/A/B/|G/A/G/E/ C|
+|~ECC|~E C/E/C/E/|~A F/E/D/C/|~D B,/D/B,/D/|
+|.F G/F/E/D/|~E C/E/C/E/|A F/E/~D/C/|~D/C/B,/D/B,/D/|
+|.F G/F/E/D/|~E C/E/C/E/|A F/E/D/C/|D/C/B,/D/B,/D/|.F G/F/E/D/|C3|
+|: G>EG|cBc|~e>dc-|c3|G>EG|cBc|[1 e>cA-|A3 :|[2 ~e>cA|
+|c~ec|BAG|{A}G c/B/A/B/|G/A/G/F/ E-|E3|G>EG|cBc|e>cB|
+|c~ec|BAG|{A}G c/B/A/B/|G/A/G/F/ E|
+|: GcB|~A2 G|ABA|~G2 F|GBA|G ~AF|Gc/B/A/B/|[1 G/A/G/F/ E :|[2 G/A/G/E/ C|
+|c~e>c|AFA|cf>c|GEG|cec|ecG|ce>c|~AFA|d B/A/G/F/|
+~E2 DC B,CDEGc e2 f4 ~edcB~AG cB~AG cBcB cBAGF ~AGFE 
+GF~E FE~DC ~EDCB, DB,CDEF DEFGcG FEDCB, ~D2 {C}C4 G2 c/4
+W:{A}G6 c/G/~E4 D C2 G/C/B,/C/~D2 B, C4 ~DCB,CD~EC DEFD ~E2 DCB,~D {B,}C4
+W:DEFD EGcd e2 f4 ~e2 ~d2 c4 BABcB~AG cB~AG cB~AGF ~AGFE ~GFED ~E2 cB~AGF 
+W:~AGFE ~GFED F~EDC ~EDCB, ~DB,D~EC DEFD EFGcG F~EDCB, ~E2 C4
+W:
+W:~E2 DC B,CDEGc e2 f4 ~edcB~AG cB~AG cBcB cBAGF ~AGFE 
+W:GF~E FE~DC ~EDCB, DB,CDEF DEFGcG FEDCB, ~D2 {C}C4 G2 c/4
+W:
+S:https://www.folktunefinder.com/tunes/59856
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

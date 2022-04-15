@@ -1,0 +1,27 @@
+X:21
+T:Cercle croul (2) *
+R:Hanter Dro
+N:tagafolk.abc
+O:France
+D:Bleizi-Ruz Hanter droiou
+Z:<anamnese@laposte.net>
+M:6/8
+L:1/16
+Q:1/4=95
+K:F
+|: GABGA2 d2 cBAB | GABGA2 d2 cBAB | AGFGA2  d2 cBA2 :| 
+|: dfdcB2 AG c4   | ABAGF2 GA B2 z2 | [M:1/4] z4| [M:6/8] dfdcB2 AG A4 | dffcd2BAG4 :|
+S:https://www.folktunefinder.com/tunes/39891
+S:http://anamnese.online.fr/abc/gallia.abc
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Hanter dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Time_signature 1/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

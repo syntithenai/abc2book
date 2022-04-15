@@ -1,0 +1,37 @@
+X:1
+T:Her golden hair hung down in ringlets
+T:Her golden hair was curling down
+T:Her lovely hair was curling down
+T:By the Old Fairy Fort
+S:Paul de Grae  irtrad-l 2001-5-24
+D:Connie O'Connell, Ceol Chill na Martra
+D:Jackie Daly, Domhnach is Da/lach
+D:John Brosnan, The Cook in the Kitchen
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+(3ABc \
+| dfde BAFA | dfed B2de | fAdf edBd | ~e2df edBA |
+  ~d3A BAFA | dfed B2de | faaf edBA | ~d2dc d2 :|
+|: dB \
+  ABde ~f3e | dedB ADFA | ~G3A Bdef |  e2df edBA |
+  dfed BAFA | dfed B2de | faaf edBA | ~d2dc d2 :||
+S:https://www.folktunefinder.com/tunes/13579
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HerGoldenHairHungDownInRinglets_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HerGoldenHairHungDownInRinglets_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/HerGoldenHairHungDownInRinglets_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HerGoldenHairHungDownInRinglets_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ByTheOldFairyFort_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HerGoldenHairHungDownInRinglets_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HerGoldenHairWasCurlingDown_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HerLovelyHairWasCurlingDown_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

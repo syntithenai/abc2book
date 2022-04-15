@@ -1,0 +1,32 @@
+X:5
+T:Lady Coventry's Minuet. BC.05
+M:3/4
+L:1/8
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+N:Maria(1733-1760),Countess of Coventry,was noted  in her time for her
+N:great beauty.Once she was mobbed in Hyde Park and the King hearing of
+N:it said she must be protected.The next evening out she paraded up and
+N:down for two hours proudly escorted by two Sergeants in front  and a
+N:dozen Privates in file behind, all in full dress uniform. Unfortunately
+N:she was also known for her remarkable silliness. She died of
+N:consumption at the age of 27,having borne 5 children. CGP.
+Z:vmp.John Bagnall
+K:G
+G2 GG ((3GAB)) | {B}A4 G2 | B2 B>B ((3Bcd) | {d}c4 B2 | {e}d4 ge | d4 ge| e<dd<cc<B | {B}A6 |
+|: ddddcc | B2 c2  d2 | ddddcc | B2 c2 d2 | g2 f2 e2 | d2 gf g2 | ((3edc) B2A2 | G6 :|]
+S:https://www.folktunefinder.com/tunes/4113
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

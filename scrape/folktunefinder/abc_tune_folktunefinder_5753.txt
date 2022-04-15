@@ -1,0 +1,24 @@
+X: 19
+T:Kol Dodi
+M:2/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien:crc.doc.ca
+K:Dm
+|: "Dm" dd/2c/2 "G" d2 | dd/2c/2 "Dm" d2 | de/2f/2 "C" gf/2e/2 | "Bb" fe "G" d2 :|
+|: "Dm" da aa | "Gm" gg f/2e/2d | "C" ef "Bb" gf/2e/2 |1 "G7" fg "A7" a2 :|2 "Am" fe "D" d2 |
+S:https://www.folktunefinder.com/tunes/5753
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KolDodi.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/KolDodi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/KolDodi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/KolDodi_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/KolDodi_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

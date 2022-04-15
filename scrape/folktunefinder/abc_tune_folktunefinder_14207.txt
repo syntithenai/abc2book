@@ -1,0 +1,29 @@
+X: 1
+T: Funeral March of a Marionette
+C: Charles Gounod
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+[| "Dm"DzD D^C=B, | "A7"^CzD Ezz | "Dm"DzD D^C=B, | "A7"^CzD Ezz \
+|  "Dm"DzF "A7"A2G | "Dm"FzA "C7"c2B | "F"Azc "E7"e2d | "A7"^cBA GFE ||
+[| "Dm"DzD D^C=B, | "A7"^CzD Ezz | "Dm"DzD D^C=B, | "A7"^CzD Ez^C \
+|  "Dm"DzA "C7"=c2B | "F"AGF "Eb"_EGB | "Dm"D^CD "A7"EzF | E3 "Dm"Dzz |]
+[| "A"AzA A^GA | "Dm"^cz=B Az^G | "A"AzA A^GA | "Dm"^cz=B Az^G \
+|  "A"AzA "Dm"B>cd | "A"ezA "Gm"B>cd | "A7"ezA "Dm"AGF | "Em"GAG "A7"FzE ||
+[| "Dm"DzD D^C=B, | "A7"^CzD Ezz | "Dm"DzD D^C=B, | "A7"^CzD Ez^C \
+|  "Dm"DzA "C7"=c2B | "F"AGF "Eb"_EGB | "Dm"D^CD "A7"EzF | E3 "Dm"Dzz |]
+S:https://www.folktunefinder.com/tunes/14207
+S:http://trillian.mit.edu/~jc/music/abc/jig/FuneralMarchOfAMarionette_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FuneralMarchOfAMarionette_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/FuneralMarchOfAMarionette_Dm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

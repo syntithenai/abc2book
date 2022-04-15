@@ -1,0 +1,24 @@
+X:4260
+T:Donegal Jig
+M:6/8
+R:jig
+L:1/8
+Z:added by Alf warnock@magma.ca
+K:G
+B2 c|"G"d^cd b2 f|agf ged|Bcd edB|"Am" c3 c2 B||1 "D7"ABA DFA|
+fgf f2 e|d^cd edc|"G" B3 B2 c:|2 "D7"ABA f2 e|"G" d^cd g2 e|
+"D7"ded cBA|"G" G3 G2 E|]"G"GBd edB|d3 d2 D|
+GBd edB|"Am" c3 c2 B||1 "D7"ABA DFA|fgf f2 e|d^cd edc|
+"G" B3 B2 D:|2 "D7"ABA f2 e|"G" d^cd g2 e|"D7"ded cBA|"G" G3 G2|
+S:https://www.folktunefinder.com/tunes/60449
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

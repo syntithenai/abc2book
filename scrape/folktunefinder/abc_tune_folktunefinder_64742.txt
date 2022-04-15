@@ -1,0 +1,23 @@
+X:30
+T: Scottish du camion
+R:Scottish
+C: Daniel Marinelli
+M: C|
+L: 1/8
+K: Am
+V: 1
+"Am"A2 cA eA cA|"Dm"d2 de fe df|"E7"e2 ef ed cB|[1 "Am"dc Bd c2 B2:|[2 "Am"A4 A4|:
+"Am"A2 AB cB Ac|"Em"BE EE B2 c2|"Am"A2 AB cB AG|"C"E2 C2 C4|"Dm"D2 DE FD EF|
+"Am"ED EF E2 DC|[1 "Em"ED CB, DC B,D|"Am"CB, CD C2 A,2:|[2 "Em"ED CB, DC B,G,|"Am"A,2 A,G, A,4|]
+%%footer $D   Galouvielle-MBe 2006 \njig (England)
+S:https://www.folktunefinder.com/tunes/64742
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 2
+T: Tino Mori
+O: Macedonia
+S: Deborah Jones ,1982 Vancouver Folk Dance Club
+Z: Chords modified by John Chambers
+M: 7/4
+L: 1/8
+K: D
+|: "D"d3-d2 [d2a2] | [d2a2] [Bg] [A2f2] [A2e2] | "G"[B3g3]  "D"[A4f4] | "A7"[G3e3] "D"[F4d4] \
+| "D"[A2f2] [Bg]  ([c2a2] [Bg][Af]) | "A7"[G3-e3-][G2e2] [A2f2]| ([G2e2] [Fd]) "D"[F2-d2-][F2d2] | [F3d3] [F4d4]|
+| "G"[B3g3]  "D"[A4f4] | "A7"[G3e3]  "D"[F4d4] | [A2f2] [Bg] [c2a2] [Bg][Af] | "A7"[G3-e3-][G3e3] [A2f2] \
+| "A7"([G2e2] [Fd]) "D"[F4d4]| [A3f3] "A7"([Ge][Af] [Ge][Gd]) | "D"[F3-d3-][F2-d2-][F2-d2-] | [F3-d3-] [F2d2] z2 :|
+|: "D"dAd  "A7"e2 ed | "D"f2 e "A7"e2 ed| "D"fga "A7"f2 ed | "D"dAd "A7"e2 ed | "D"f2 e "A7"e2 ed | "D"d3 d2 z2 :|
+S:https://www.folktunefinder.com/tunes/6141
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TinoMori_CD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

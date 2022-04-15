@@ -1,0 +1,25 @@
+X: 1
+T: the Lakes of Sligo
+T: the Lass o' Gowrie
+O: Trad
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: "C"EG GA/B/ | "Am"c>d cB | "F"A>G   Ac | "G7"d>c   de \
+ | "C"EG GA/B/ | "Am"c>d ed | "F"cA "C"Ge | "G7"d2 "C"c2 :|
+|: "C"eg        c>d   |     eg gf/e/ | "Dm"fa   d>e |     fa "G7"ag/f/ \
+ | "C"eg/e/ "G7"de/d/ | "Am"cd ee/d/ |  "F"cA "C"Ge | "G7"d2  "C"c2 :|
+S:https://www.folktunefinder.com/tunes/15523
+S:http://trillian.mit.edu/~jc/music/abc/march/LakesOfSligo_2C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LakesOfSligo_2C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LakesOfSligo_2C.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

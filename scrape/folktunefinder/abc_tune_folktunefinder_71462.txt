@@ -1,0 +1,29 @@
+X:433
+%%topmargin 3cm
+T:Mr. Marshall's Compliment's to Niel Gow
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:"Compliment's" and "Niel" as in original.
+R:Air
+M:C
+L:1/8
+K:A
+E |[CEA]c AE Ac [C2E2A2] | (A/B/)c/B/ AE Fd |
+(c/d/)e/f/ (e/d/)c/B/ cA-A :| f/g/ | acec ac e2 | (a/g/)f/e/ (d/c/)B/A/ (G/A/)B/c/ Bf/g/ |
+acec ac e2 | (f/e/)d/c/ (B/c/)d/e/ cAA f/g/ | acec ac e2 |
+(a/g/)f/e/ (d/c/)B/A/ (G/A/)B/c/ Bc | A>cAE Fc H[Fd]>f | [A/f/]e/d/c/ (B/c/)d/e/ cA/-[C/E/A/] |]
+S:https://www.folktunefinder.com/tunes/71462
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_Marshalls_Compliments_to_Niel_Gow.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0433.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

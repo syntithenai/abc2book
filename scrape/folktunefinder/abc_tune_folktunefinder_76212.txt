@@ -1,0 +1,26 @@
+X:232
+T: O Soldat (3-35), S. 110
+N: P1007
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Soldatenlied]
+M: 2/4
+L: 1/8
+K: D
+ | D2F2 | A3B | A4 | GAB2 | A2AG | F4 | z2
+FE | D2F2 | A3B | A4 | GAB2 | A2AG | F4 | z2
+FE | D4 | G2B2 | d2d2 | ccB2 | A3F | A4
+d4 | c2B2 | E4 | B4 | A2AG | F4
+S:https://www.folktunefinder.com/tunes/76212
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

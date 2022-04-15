@@ -1,0 +1,25 @@
+X:34
+T: Es reist ein Knab (Band 1), S. 107
+N: P0808
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Standesunterschied, Mord]
+M: 3/8
+L: 1/16
+K: D
+DF | A4FD | F4FA | F2D2A,2 | B,3
+A,CE | D4FA | A4E2 | D4
+DF | A4FD | F4FB | A4FD | E2z
+A,CE | D4E2 | DDD2F2 | A4C2 | D4
+S:https://www.folktunefinder.com/tunes/76014
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Standesunterschied, mord]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

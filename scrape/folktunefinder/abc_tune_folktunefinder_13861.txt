@@ -1,0 +1,28 @@
+X: 1
+T: Betsy Hooper's Jig
+C: Terry Traub 1995
+R: jig
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: by Terry Traub 
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"def fed | "G"BdB "D"AFD | A,DF AFD | "A7"FEE E2A \
+| "D"def fed | "G"BdB "D"AFD | A,DF "A7"G2E | "D"FDD D2 :|
+[| A \
+| "D"Ade fAf | aAf fed | Ade fAf | "Em"fed "A7"e2A \
+| "D"Ade fAf | aAf fed | "G"BdB "A7"AFE | "D"FDD D2A |
+| "D"Ade fAf | aAf fed | Ade fAf | "Em"fed "A7"e2A \
+| "D"def fed | "G"BdB "D"AFD | A,DF "A7"G2E | "D"FDD D2 |]
+S:https://www.folktunefinder.com/tunes/13861
+S:http://trillian.mit.edu/~jc/music/abc/jig/BetsyHoopersJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BetsyHoopersJ_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 60
+T:Piocris,La. CJF.060
+T:La Piocris. CJF.060
+M:6/8
+L:1/8
+Q:120
+C:C Nicholson
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+d2dd2d|(f2e)d2z|gfa({d'}c'2b)|(b2ag3)|!
+d2dd2d|(f2e)d3|(a3b2)^c|(e3d3)||!
+.d.e.f .g.a.b|(c'2a)(b2g)|(fe).d .g.a.b|^g3a2d|!
+(de).f (ga).b|.e.f.g .a.b.c'|(d'b).g (de).f|(a3g3)h||!
+(g3^d3)|e3.f.g.a|(gf).e (ba).g|(g3f3)|g3^d3)|!
+(ef).g (ab).c'|(ba).g (fa).g|(f3" D.C."e3)|]
+S:https://www.folktunefinder.com/tunes/49615
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

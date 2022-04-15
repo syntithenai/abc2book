@@ -1,0 +1,28 @@
+X:81
+T:La sauteparello (roundelet)
+O:France
+A:Provence
+C:Trad.
+R:Marche
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+d | edcB | ff/f/ fb | fedc | BB/B/ Bf | edcB | cc/c/ ca |1 gfec | BB/B/ B :|2 gfga |
+bb/b/ B !fine! |: B | gdBG | ee/e/ e c | AFec | dd/d/ dd | fedc | gg/g/ g b | fedc |1 BB/B/ B :|2
+BB/B/ B2 | d2d2 | d3c/d/ | fedc | d2B2 | c2c2 | c3c/d/ | edcd | BB/B/ B2 | g2g2 | f3d/e/ |
+fedc | d2B2 | g2a>g | f3c/d/ | fedc | B3 !D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40280
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -167,76 +167,6 @@ function scrollTo(id) {
 }
 
 
-function getTextFromSongline(songline) {
-    if (!songline) return
-    var last = songline.lastIndexOf(']')
-    if (last !== -1) {
-        return songline.slice(last + 1)
-    } else {
-        return songline
-    }
-}
-
-function getMetaValueFromTune(key,abc) {
-    try {
-        var parts = abc.split("\n"+key+":")
-        var isFirst = abc.indexOf(key + ":") === 0
-        if (isFirst || parts.length > 1) {
-            return parts[1].split("\n")[0]
-        } else {
-            return ''
-        }
-    } catch (e) {
-        return ''
-    }
-}
-
-function getCommentFromAbc(key,abc) {
-    if (!abc) return
-    var first = abc.indexOf('\n% abc-'+key)
-    if (first !== -1) {
-        var parts = abc.slice(first + 8 + key.length).split("\n")
-        return parts[0]
-    } else {
-        return null
-    }
-}
-
-function getAliasesFromAbc(abc) {
-    if (!abc) return
-    var aliases=[]
-    var first = abc.indexOf('N: AKA:')
-    while (first !== -1) {
-        var parts = abc.slice(first + 7).split("\n")
-        var aliasParts = parts[0].split(",")
-        aliasParts.forEach(function(aliasPart) {
-          aliases.push(aliasPart)
-        })
-        first = abc.indexOf('N: AKA:', first + 1)
-    } 
-    return aliases
-}
-
-function timeSignatureFromTuneType(type) {
-  var types = {
-    'jig': '6/8',
-    'reel':  '4/4',
-    'slip jig':  '9/8',
-    'hornpipe':  '4/4',
-    'polka':  '2/4',
-    'slide':  '12/8',
-    'waltz':  '3/4',
-    'barndance':  '4/4',
-    'strathspey':  '4/4',
-    'three-two':  '3/2',
-    'mazurka':  '3/4'
-  }
-  if (types.hasOwnProperty(type)) {
-    return types[type]
-  } else {
-    return ''
-  }
-}
 
 
 function download(filename, text) {
@@ -334,6 +264,7 @@ function showContentSection(contentId) {
 function setStopNow(val) {
    $("#stopbuttonvalue").val("true")
    $("#stopbutton").hide()
+   $("#generatebutton").show()
 }
 
 
@@ -382,21 +313,20 @@ function isChord(chord) {
 
 function progressUp(songNumber) {
     var tunes = loadLocalObject('abc2book_tunes')
-    if (tunes.length > songNumber && tunes[songNumber]) {
+    if (Object.keys(tunes).length > songNumber) {
       var tune = tunes[songNumber]
-      var boost = tune.boost
+      var boost = tune ? tune.boost : 0
       boost = boost > 0 ? boost : 0
-      var newBoost = boost + 1
-      tune.boost = newBoost
+      tune.boost = boost + 1
       tunes[songNumber] = tune
       saveLocalObject('abc2book_tunes',tunes)
-      $('#tune_boost_'+songNumber).text(newBoost)
+      $('#tune_boost_'+songNumber).text(tune.boost)
     }
 }
 
 function progressDown(songNumber) {
     var tunes = loadLocalObject('abc2book_tunes')
-    if (tunes.length > songNumber && tunes[songNumber]) {
+    if (Object.keys(tunes).length > songNumber && tunes[songNumber]) {
       var tune = tunes[songNumber]
       var boost = tune.boost
       boost = boost > 0 ? boost : 0
@@ -424,21 +354,6 @@ function parseAbc() {
   return tunes
 }
 
-function extractAbcMeta(abc) {
-  var parts = abc.split("\n")
-  var meta = {}
-  var tune = []
-  parts.map(function(part) {
-    if (part[1] === ":" && part[0] !== "|" ) {
-       meta[part[0]] = part.slice(2)
-    } else {
-      tune.push(part)
-    }
-  })
-  meta.cleanAbc = tune.join("\n")
-  return meta
-  
-}
 /*
 function parseMeasures() {
   

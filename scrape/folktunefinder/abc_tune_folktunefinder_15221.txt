@@ -1,0 +1,34 @@
+X: 1
+T: Up the Sides and Down the Middle
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: copy of printed page with the notation:
+N: Tune colected by Miss Marjorie Mayne & Peter Kennedy in 1950
+N: from Bert Pidgeon (Melodeon) and Alfie Tuck (Tambourine) of
+N: Bridport[sic].  Transcribed by Pat Shaw.
+M: 6/8
+L: 1/8
+K: D
+cB \
+| "D"ABA ABA | "G"dcB "D"ABA | "Bm"dcd "A7"efe | "D"fed "G"B3 \
+| "D"A2d "G"dcB | "D"ABA ABA | "Bm"dcd "A7"efg | "D"fdd    d :|
+M: 4/4
+|: zf \
+| "D"a2f2 d3c | "G"c2B2 B3c | "Em"g2e2 "A7"c3B  | "D"B2A2 "A7"A3f \
+| "D"a2f2 d3d | "G"c2B2 B3e | "Em"g2e2 "A7"c2B2 | "D"c2d2     d2 :|
+S:https://www.folktunefinder.com/tunes/15221
+S:http://trillian.mit.edu/~jc/music/abc/jig/UpTheSidesAndDownTheMiddle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/tune/UpTheSidesAndDownTheMiddle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/UpTheSidesAndDownTheMiddle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/UpTheSidesAndDownTheMiddle_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

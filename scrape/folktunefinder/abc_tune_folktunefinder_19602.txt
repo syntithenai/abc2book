@@ -1,0 +1,21 @@
+X: 3
+T:Munlochy Bridge
+M:4/4
+L:1/8
+R:Strathspey
+Z:Toby A. Rider <darkrider1@earthlink.NET>
+K:G
+g |: e>d B>A B>G G>B | d>e d>B d2 dg | e>d B>A B>G G>f |1 g>e f>d e2 eg |2 g>e f>d e2 e e/g/ ||
+  |  d>e g>a b>g a>b | d<e d>B d2 de | d>e g>a b>g a>b | a>g e>d e2 eg |
+  |  d>e g>a b>g a>b | d<e d>B d2 dg | e>d B>A B>G G>B | g>e f>d e2 e2 |]
+S:https://www.folktunefinder.com/tunes/19602
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MunlochyBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MunlochyBridge.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

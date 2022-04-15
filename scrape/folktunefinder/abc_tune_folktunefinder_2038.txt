@@ -1,0 +1,39 @@
+X: 101
+T:Snofields Tune  Hymn. JMP.101
+M:C
+L:1/8
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hymn
+O:Scotland
+A:Perth
+N:Time signature is shown as C followed by 3/2 - and that is exactly what
+N:it is - alternate bars of 4/4 and 3/2
+N:Words "Be it my only wisdom here To serve the Lord with filial fear
+N:With loving Gratitude Supperior sense may I display  By shunning every
+N:evil way
+N:and walking in the  " (Must rhyme with 'here' and 'fear')
+H:1799
+Z:vmp.C.  Graebe
+K:G Major
+"See note" (B2A2) | G8 A2 B>c | (B4c2d2) d4 | (e3fg2e2)(d2c2) | B8 ||\
+(B2c2) | d8 (d2cB) |!
+A4 Bc) (B2A2) | G8B4 | A8 ||\
+(B2A2) | G8 (A2Bc) | (B4cd)(d2cB) | A8 ||!
+ (B2A2) | G8 (A2Bc) |\
+(B4cd)d4 | (e3fg2e2)c2B2 | B8 ||(B2c2) | d8 (d2cB) |!
+ (A4 Bc) (B2A2) | G8 (G2AB) A8 ||\
+D4 | (G4A2B2) A4 | (B4c2d2)(c2de) | B8A4 | G8 |]
+S:https://www.folktunefinder.com/tunes/2038
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hymn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

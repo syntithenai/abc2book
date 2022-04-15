@@ -1,0 +1,34 @@
+X:1
+T:Tam Lin
+T:Howling Wind
+R:reel
+S:bil  irtrad-l 2001-5-02
+N:First played in Dm a few times round, then in Am a few times round
+Z:id:hn-reel-234
+M:C|
+K:Dm
+|: A,2DA, FA,DA, | B,2DB, FB,DB, | C2EC   GCEC  | FEDC  A,DDC  |
+|  A,2DA, FA,DA, | B,2DB, FB,DB, | C2EC   GCEC  | FEDC  A,DD2 :|
+|: dA~A2  FADA   | dA~A2  FADA   | cG~G2  EG~G2 | cG~G2 cdec   |
+|  dA~A2  FADA   | dA~A2  FADA,  | ~B,3A, B,CDE | FDEC  A,DD2 :|
+K:Am
+|: E2AE  cEAE | F2AF  cFAF | G2BG  dGBG  | cBAG  EAAG  |
+|  E2AE  cEAE | F2AF  cFAF | G2BG  dGBG  | cBAG  EAA2 :|
+|: ae~e2 ceAe | ae~e2 ceAe | gd~d2 Bd~d2 | gd~d2 gabg  |
+|  ae~e2 ceAe | ae~e2 ceAE | ~F3E  FGAB  | cABG  EAA2 :|
+S:https://www.folktunefinder.com/tunes/17369
+S:http://trillian.mit.edu/~jc/music/abc/reel/HowlingWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TamLin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HowlingWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TamLin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HowlingWind.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TamLin.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

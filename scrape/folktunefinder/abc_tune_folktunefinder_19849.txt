@@ -1,0 +1,38 @@
+X: 1
+T: Torna a Sorrento
+T: Come Back To Sorrento
+R: waltz
+O: Italy
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"DE FG AF | A2 A4 \
+| "Gm"GA BG BG | "Dm"d2 d4 \
+| "Bb"de fe de | "Dm"A2 A4 \
+| "A7"GA GF EF | "Dm"D4 z2 :| [K: D]
+|| "D"dc AB cA | "Em"B2 B4 \
+| "A7"cB AB cA | "D"B2 B4 \
+| FG AF ED | "Em"G2 G4 \
+| "A7"AB cB Ac | "D"F4 z2 |
+| "D"dc AB cA | "Em"B2 B4 \
+| "A7"ed cd ec | "Bb"d2 d4 \
+| "Gm"de =fe de | "Dm"A2 A4 \
+| "A7"GA G=F EF | "Dm"D4 z2 |
+| "D"de c3 B | "Em"d6 \
+| "A7"zc de cB | "D"A2 A4 \
+| "Gm"G2 _B2 d2 | "Dm"=f3 e d2- \
+| "A7"de ^c3 d | "Dm"d4 z2 |]
+S:https://www.folktunefinder.com/tunes/19849
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ComeBackToSorrento_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TornaASorrento_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/waltz/TornaASorrento_Dm.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

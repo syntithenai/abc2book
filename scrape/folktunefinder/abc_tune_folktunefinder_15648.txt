@@ -1,0 +1,26 @@
+X: 1
+T: Pullen Bracken
+T: Tha mi sgith
+O: Trad
+R: march, air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Em
+|: "Em"EE     e2 | "G"dB d2 | "Bm"B>A "A"FE | "D"DE FD | "Em"EE     e2 | "G"dB d2 | "Bm"B>A FB | "Em"E2 E2 :|
+|: "Em"B>A "A"FE | "D"DE FD | "Em"B>A "A"FE | "D"F2 A2 | "Em"B>A "A"FE | "D"DE FD | "Bm"B>A FB | "Em"E2 E2 :|
+S:https://www.folktunefinder.com/tunes/15648
+S:http://trillian.mit.edu/~jc/music/abc/march/PullenBracken.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/PullenBracken_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/PullenBracken.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/PullenBracken.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/PullenBracken.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/PullenBracken.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/PullenBracken_Em.abc
+% Rhythm March, air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:1
+T:Rough Molly
+R:highland
+C:trad.
+S:Packie Byrne playing the whistle
+Z:Transcribed by Larry Sanger <larry@nupedia.com> irtrad-l 2000-11-20
+Z:Chords by Jeff Lindqvist <jeff_lindqvist@spray.se>
+M:4/4
+K:Ador
+|: "Am"EAAB "Dm7"cBce \
+| "Dm7"dB (3gab "Em7"(3agf g<{a}g \
+| "F"EAAB "F"cBce \
+|1 "G"dBgB "Am"{d}BAAG \
+:|2 "G"dBgB "Am"{d}BAAg ||
+|: "Am"a{g}a (3gab "Am"a<{g}aba \
+| "Em"g<b gd "Em"g<b gd \
+| "Fmaj7"e<a g<b "Fmaj7"a{b}aba \
+| "G"{ga}gfgd "Am"Ba a2 |
+| "Am"a{g}a (3gab "Am"(3aba (3gag \
+| "Em"(3efe (3ded "Em"(3cdc {Bc}BG \
+| "Fmaj7"EAAB "G"cBce \
+|1 "Em7"dBgB "Am"{d}BAa2 \
+:|2 "Em7"dBgB "Am"{d}BAAG |]
+S:https://www.folktunefinder.com/tunes/18050
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoughMolly.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/RoughMolly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/highland/RoughMolly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/RoughMolly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RoughMolly.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RoughMolly.abc
+% Rhythm Highland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

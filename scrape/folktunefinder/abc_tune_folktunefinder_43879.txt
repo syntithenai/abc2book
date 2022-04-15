@@ -1,0 +1,27 @@
+X:70
+T:the Castle O'Trim
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:Dec '96
+O:England
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000077d.html
+%%ID:0000077d
+K:G
+d2e(c c2)d2| B2c(A A2)c2| BAG(A A)GFE| D3(D D4)|\
+d2e(c c2)d2| B2c(A A2)c2| BAG(A A2)F2| G3(G G4):|
+|:B2G(c c2)A2|BAG(A A2)F2|D3(D D4)|\
+B2G(c c2)A2|BAG(A A2)F2|G3(G G4):|
+|:g2d(e e)cdB|c2A(B B)GAF|D3(D D4)|\
+g2d(e e)cdB|c2A(B B)GAF|G3(G G4):|
+S:https://www.folktunefinder.com/tunes/43879
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:475
+T: DEN EDELSTEN RITTER
+N: F0897
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade, Ritter
+M: 4/4
+L: 1/8
+K: G
+G2 | G2GAB2AB | c2BAB2
+B2 | B2Bcd2cB | A2G2z2
+G2 | G2GAB2AB | c2BAB2
+B2 | B2Bcd2cB | A2G2z2
+B2 | B2BAGFGA | B2BAG2
+B2 | d2dcBABc | d2dcB2
+B2 | B4G2F2 | E4
+F2G2 | A2F2E2A2 | A4z2
+B2 | B4B2B2 | c4B2
+B2 | A2G2c2B2 | A6
+A2 | c4A2A2 | d4G2
+A2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/70035
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade, ritter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

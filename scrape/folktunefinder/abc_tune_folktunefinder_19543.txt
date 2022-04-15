@@ -1,0 +1,40 @@
+X:1
+T:Miss Crawford's Strathspey
+B:Kerr
+M:4/4
+L:1/8
+R:Highland
+S:Tommy Peoples - Workshop 7/19/01
+Z:AK/Fiddler's Companion irtrad-l 2001-7-24
+K:A
+|: A2 {c/d/} c>A e>ce>a \
+| A>B {c/d/}c>A B<E G>B \
+| A2 {c/d/}c>A e>ce>a \
+| (3gfe (3dcB (3AcB (3AFE |
+| A2 {c/d/}c>A e>ce>a \
+| A>B {c/d/}c>A B<E G>B \
+| A2 {c/d/}c>A e>ce>=g \
+| f>ag>b a3 ||
+ A \
+| a>Ac'>A d'>Ac'>A \
+| a>Ac'>A {b/c'/}b>a b<c' \
+| a>Ac'>A d'>Ac'>A \
+| (3ded (3cdc ~B2 A2 |
+| a>Ac'>A d'>Ac'>A \
+| a>Ac'>A {b/c'/}b>a b<c' \
+| (3Ace (3ecA (3Adf (3fdA \
+| g>eb>g a>f e/c/B \
+:| A4 |]
+S:https://www.folktunefinder.com/tunes/19543
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissCrawfordsStr_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissCrawfordsStrathspey_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissCrawfordsStr_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MissCrawfordsStrathspey_1.abc
+% Rhythm Highland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

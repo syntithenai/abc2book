@@ -1,0 +1,29 @@
+X:156
+T:Schottisch n1
+R:Scottish
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+M:C|
+L:1/4
+K:Bb
+fd B2 | d_d c2 | F/>A/c F/>A/c | c=B B2 |  fd B2 | d_d c2 | F/>A/c F/>A/c | BB Bz ::
+bc c2 | ac c2 | G/A/G/A/ BB | F/G/F/G/ AA | bc c2 | ac c2 | G/A/G/A/ B=e | ff fz ::
+fd B2 | d_d c2 | F/>A/c F/>A/c | c=B B2 |  fd B2 | d_d c2 | F/>A/c F/>A/c | BB Bz !fine!::
+K:F
+B/B/B/B/ Be | dc c2 | f/f/f/f/ BB | e/e/e/e/ AA | B/B/B/B/ Be | dc c2 | f/f/f/f/ de | ff fz !D.C.!:|
+%%footer $D   Galouvielle-MBe 2008 \nScottish (France)
+S:https://www.folktunefinder.com/tunes/614
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

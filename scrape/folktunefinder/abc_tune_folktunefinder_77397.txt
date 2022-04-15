@@ -1,0 +1,27 @@
+X:5005
+T:Beef To The Heel
+M:6/8
+Q:180
+C:Aidan Crossey
+R:Double Jig
+K:D
+|:Adf fdf|Ace ece|Bcd efe|dcB A3|
+Adf fdf|Ace ece|Bcd efe|d2c d3:||
+|:fed fed|ecA ecA|Bcd efe|dcB A3|
+fed fed|ecA ecA|Bcd efe|d2c d3:||
+|:Adf a^ga|gec gec|Adf a^g^g|gec Ace|
+Adf a^ga|gec gec|Bcd efe|d2c d3:||
+S:https://www.folktunefinder.com/tunes/77397
+S:http://trillian.mit.edu/~jc/music/abc/by/AidanCrossey/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/aidananita:se13.freeserve.co.uk/RoadHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RoadHome.abc
+S:http://paythereckoning.com/crosseyabc.txt
+S:http://www.paythereckoning.com/crosseyabc.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

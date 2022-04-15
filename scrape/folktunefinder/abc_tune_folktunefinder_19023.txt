@@ -1,0 +1,28 @@
+X:1
+T:They say it's wonderful
+M:4/4
+L:1/4
+C:Irving Berlin
+Q:1/4=160
+%%staves (chords melody)
+K:Eb
+%%text (ballad/medium)
+%%vskip 20
+P:A
+V:chords
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Gm7"x2 x2 | "Gbdim7"x2 x2 |
+"Fm7b5"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 "Ab7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+zCDE | (3AGA GF | B>BD2- | D3C |
+S:https://www.folktunefinder.com/tunes/19023
+S:http://trillian.mit.edu/~jc/music/abc/song/They_say_its_wonderful.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/they_say_its_wonderful.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/They_say_its_wonderful.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/they_say_its_wonderful.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

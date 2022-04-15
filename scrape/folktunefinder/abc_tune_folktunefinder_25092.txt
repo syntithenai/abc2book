@@ -1,0 +1,25 @@
+X:4640
+T:Niven's Scots Measure, or Mary's Dream
+O:england
+M:C|
+K:Gmin
+"tr"dc|\
+B2G2 G2Bc| dcdf dcBc| \
+(B/c/d)G2 G2Bc| dcBG F2dc| \
+B2G2 G2FG| B3c d2cB|
+cdfg dgcd| B2G2 G2::\
+df|\
+g3f d2cB| c2d2 g3a| \
+bgfd fdcB| cBcd F3B|
+G>FG>A B>AB>G| c>Bc>d edcB| cdfg dfcd| {c}B2{A}G2 G2:|
+S:https://www.folktunefinder.com/tunes/25092
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

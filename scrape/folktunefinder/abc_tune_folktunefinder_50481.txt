@@ -1,0 +1,28 @@
+X:32
+T:Blarney Pilgrim, The
+S:Session
+R:Jig
+O:Ireland
+M:6/8
+K:DMix
+P:A
+DED DEG|A2G ABc|BAG AGE|GEA GED|\
+DED DEG|A2G ABc|BAG AGE|GED D3::
+P:B
+d2e dBG|AGA BGE|d2e dBG|AGA G3|\
+g2e dBG|AGA BGE|AGA BGE|GED D3::
+P:C
+A2D B2D|A2D ABc|BAG AGE|GEA GED|\
+A2D B2D|A2D ABc|BAG AGE|GED D3:|
+S:https://www.folktunefinder.com/tunes/50481
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set03.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

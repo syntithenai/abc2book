@@ -1,0 +1,25 @@
+X:100
+T:Bourr\'ee de Lanhyar
+R:Bourr\'ee d'Auvergne
+N:original url: www.wolfram.claranet.de
+D:Trio Violon: Concordance 5-2; T\'enar\`eze: Aus\'eths 14-1
+M:3/8
+L:1/16
+Q:3/8=78
+K:Gm
+BcBABc| BAG2-[G2D2]| BcBABc| d=edcBA| BcBABc| BAG2-[G2D2]| BcBABc| d4-d2:|
+|:BcBAGF| EFD4| EFEDEF| G2{A}B2{A}G2| BcBAGF| EFD4| EFEDEF|1 G4-[G2D2]:|2 (G3FG2)||
+S:https://www.folktunefinder.com/tunes/53158
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Rhythm Bourre?e d%27auvergne
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

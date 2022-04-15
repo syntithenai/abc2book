@@ -1,0 +1,22 @@
+X:3010
+T:Jig (Welch Family) 87 STB
+O:england
+M:6/8
+L:1/8
+K:G
+D|G2G GFG|d2c A2c|BdG GFG|
+A2F D2D|G2G GFG|d2c A2c|BdG AGF|
+G2G G2:|
+|D|D3DEF|G2G GFG|
+A2A AGA|B2G GFE|D3DEF|G2B d3|
+cBA GFE|D2D D2:|
+S:https://www.folktunefinder.com/tunes/23461
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

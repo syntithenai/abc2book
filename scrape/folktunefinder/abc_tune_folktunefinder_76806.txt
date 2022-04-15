@@ -1,0 +1,23 @@
+X:321
+T: WILL NIEMAND SINGEN
+N: E0935
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Reigen, Liebe, Brautwerbung
+M: 4/4
+L: 1/8
+K: F
+ | A4A2A2 | c4B2B2 | A4G2G2 | F4
+G4 | A4A4 | c4B2B2 | A4G2G2 | F8 | z4
+B4 | A3GF2E2 | D4C4 | G4G4 | A4
+B4 | A3GF2E2 | D4C4 | G4G4 | F8
+S:https://www.folktunefinder.com/tunes/76806
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, liebe, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

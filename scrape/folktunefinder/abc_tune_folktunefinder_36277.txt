@@ -1,0 +1,30 @@
+X:990
+T:Carolan's draught
+C:Turlough O'Carolan
+M:C
+O:Ireland
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000af4.html
+%%ID:00000af4
+K:G
+D2|\
+GA Bc de fd|g2fe d2d2|e2E2 d2D2|c2Bc AB cA|\
+GA Bc de fd|gf ed ^cb ag|gf ed A2^c2|d6::\
+fg|\
+af ga ba gf|eg fe e^d cB|\
+e^d ef gf ga|ba gf ef ga|
+bB bB aB aB|gB gB fB fB|\
+e^d ef gf e=d|e6 f2|\
+gf ed cB AG|e2d2 d2D2|
+c2B2 A2G2|FG AF D2z2|\
+EF GE FG AF|GA BG AB cA|d2g2 ba gf|g6:|
+S:https://www.folktunefinder.com/tunes/36277
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

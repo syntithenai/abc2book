@@ -1,0 +1,36 @@
+X: 142
+T: Sommermichl (Bb)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 23/4
+L: 1/8
+K: Bb
+%%indent 350
+"Intro"[|]\
+F2 | "Bb"B4 | "F7"A4 | "Eb"G4 | "Bb"F4 | "F7"A2 e2 dc | "Bb"B2 z2 ||
+|: "F7"F2 \
+| "Bb"B4 | "F7"A4 | "Eb"G4 | "Bb"F4 \
+|1 "F7"A2 e2 A2 | "Bb"B2 d2 \
+:|2 "F7"A2 e2 dc | "Bb"B2 z2 \
+ cd | "F7"e2 c2 d2 | e2 c2 d2 | e2 c2 d2 | e4 | \
+|: "F7"F2 \
+| "Bb"B4 | "F7"A4 |
+| "Eb"G4 | "Bb"F4 \
+|1 "F7"A2 e2 A2 | "Bb"B2 d2 \
+:|2 "F7"A2 e2 dc | "Bb"B4 \
+ DE \
+|: "Bb"F2 dc BA | "Eb"G2 e2 | "F7"c4 | A2 G2 A2 \
+|1 "Bb"B2 F2 | G2 F2 \
+:|2 "Bb"B2 z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5189
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

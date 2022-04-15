@@ -1,0 +1,29 @@
+X:5145
+T:Richer's Hornpipe
+A:North-West
+M:C|
+N:P32 1/1
+O:England
+R:Hornpipe
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000599.html
+%%ID:00000599
+K:C
+fg|\
+afaf d2ef |ecec A2GF |GABc defg |ecAc e2fg |\
+afaf d2ef |ecec A2GF |
+G2b2 afge |d2d2d2 ::\
+de|\
+fdec B2ga |b2e2e2cd  |
+ececA2fg  |a2d2d2A2 |\
+BcdB AFAF |BcdB AFAF |E2b2 afge |d2ded3:|
+S:https://www.folktunefinder.com/tunes/37108
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

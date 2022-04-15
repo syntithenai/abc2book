@@ -1,0 +1,26 @@
+X:6
+T:Scottis fr Sk\aa{}ne
+R:Schottische
+O:Sweden
+M:4/4
+A:Sk\aa{}ne
+Z:Richard Robinson <richard@beulah.demon.co.uk>
+%%RR_OriginalCollection: 
+%%ID:00/00/07/c2
+K:D
+D2DF  D2DF|E>DCE D4 |1\
+C>DEF GECE|DEFG AGFE :|2 \
+ CDEF GABc|d2{e}dc d4::
+d>fed dcc2|B>dcB BAAG|F>AFD E>GEC |1 \
+ D2d2 A4 :|2 D2{E}DC D4 :|
+S:https://www.folktunefinder.com/tunes/51822
+S:http://www.kennaquhair.com/tunes/tradtunes3.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

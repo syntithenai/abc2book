@@ -1,0 +1,27 @@
+X:0
+T:Curlews on the Pentlands
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+N:Named by GS's son George MacLennan
+C:Pipe Major George S. McLennan
+S:Gordon Highlanders Pipe Music Collection volume II
+B:NLS Mus.D.s.19
+R:Reel
+M:C|
+L:1/8
+Q:1/2=96
+K:Hp
+a|{fg}fd{g}Ad     {e}G{d}A{g}df|   af{gef}ed  {gfg}fe{A}ea|\
+  {fg}fd{g}Ad     {e}G{d}A{g}df|   af{gef}ed  {gfg}fd{c}d:|
+g|{ag}af{gef}ed {gfg}fd{g}Ad   |{g}efgf       {gef}eB{G}Bg|\
+  {ag}af{gef}ed {gfg}fd{g}Ad   |{g}c{d}A{a}ge {gfg}fd{c}d:|
+S:https://www.folktunefinder.com/tunes/66351
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

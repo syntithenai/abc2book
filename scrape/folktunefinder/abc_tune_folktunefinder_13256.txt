@@ -1,0 +1,27 @@
+X: 1
+T: Marni Swanson of the Grey Coast
+C: Andy Thorburn 1995
+O: Evanton
+R: air, waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: "G"GBdBBG | "Em"AGGEED |  "G"GBdBBG | "C"edefg2 \
+|  "G"GBdBBG | "Em"AGGEED |  "C"G2F"D"G2A | "G"G6 :|
+| "Bm"Bddffg |  "C"fddeBA |  "Bm"Bddffg | "C"fdBe2d \
+| "Bm"Bddffg |  "C"fddeBA |  "C"e2d"Bm"B2A | "Am"e2dB2A |
+| "Bm"Bdfffg |  "C"fdBeBA | "Bm"Bdfffg | "C"fdBe2d \
+| "Bm"Bddffg |  "C"fdBeBA |  "C"e2d"Bm"B2A | "Am"G2E"Bm"E2D | "C"E6 | "D"D6 |]
+S:https://www.folktunefinder.com/tunes/13256
+S:http://trillian.mit.edu/~jc/music/abc/air/Marni_Swanson_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Marni_Swanson_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Marni_Swanson_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/Marni_Swanson_G.abc
+% Rhythm Air, waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 128
+T:Sally Ann
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+S:Approximated from Mark O'Connor version by S.C.
+R:Breakdown
+K:G
+de|:g-fga g-fed|[e2e2][ee][ef][e2e2]ef|g-aba g2((4fgfe|d2)de d2eg|!
+e-dBA G-DEG|[A2A2][AA][AB][A2A2]AB|c-BAG F-DEF|[G2B2][GB][GB][G2B2]AB|!
+|:d-edB G-DEG|[A2A2][AA][AB][A2A2] AB|c-BAG F-DEF|[G2B2][GB][GB][G2B2] A
+B:|]
+% Output from ABC2Win  Version 2.1 i on 10/1/2002
+S:https://www.folktunefinder.com/tunes/77321
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

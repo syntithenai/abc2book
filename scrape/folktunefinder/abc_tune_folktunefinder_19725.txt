@@ -1,0 +1,51 @@
+X: 1
+T: Satumaa
+C: Unto Mononen 1952
+Z: John Chambers <jc@trillian.mit.edu>
+R: tango
+M: C
+L: 1/4
+K: Dm
+| "Dm"A>B A"Gm"G \
+| "Dm"F>G F"A7"E \
+| "Dm"D>E D"D7"C \
+| "Gm"B,3 z \
+| "A7"A,>=B, ^CA, \
+| "Dm"D>E FD \
+| "Gm"G>A "C7"BG \
+| "F"A2- "A7"A2 ||
+|| "Dm"A>B A"Gm"G \
+| "Dm"F>G F"A7"E \
+| "Dm"D>E D"D7"C \
+| "Gm"B,3 z \
+| "A7"A,>=B, ^CA, \
+| "Dm"D>E F"Gm"G \
+| "Dm"A>F "A7"EA, \
+| "Dm"D3 "A7"A, ||
+|| "Dm"A,>D DF \
+| F>A AF \
+| "Gm"A>G G"E7"F \
+| "A"E3 A, \
+| "A7"A,>^C CE \
+| E>G "Gm"GB \
+| "A7"B>A AG \
+| "Dm"F3 A, ||
+|| "Dm"A,>D DF \
+| F>A Ac \
+| "Cm"c>B "D7"BA \
+| "Gm"G3 D \
+| "Gm"D>G GB \
+| "Dm"A>F FD \
+| "Gm"G>F "A7"FE \
+| "Dm"HD2 "A7"{DEFG}A2 |]
+S:https://www.folktunefinder.com/tunes/19725
+S:http://trillian.mit.edu/~jc/music/abc/tango/Satumaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/Satumaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/Satumaa.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

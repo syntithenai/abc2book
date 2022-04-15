@@ -1,0 +1,37 @@
+X:3815
+T:Danza (CT 286)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en La Pola L.lena.
+N:Segn las personas que tomaba parte en la diversin, esta danza es moderna en relacin con la sealada como CT 078, la cual, segn ellas, es muy antigua. 
+N:Intervienen en esta danza personas de ambos sexos.
+O:La Pola L.lena (L.lena)
+A:Asturies
+Z:Cancioneru de Torner 286
+M:6/8
+L:1/8
+Q:3/8=88
+W:Si por beber nuna fuente (bis)
+W:dejaste secar l otra (bis)
+W:amar para aborrecer
+W:es una inorancia loca.
+K:G
+"Solo"d2d|B2c d2e|d2c c2B|A2B c2d|c3 B3-|B2z
+"Coro"B2B|G2A B2c|B2A A2G|F2G A2B|A3 G3-|
+[1G2z d2d:|[2 G2 z4||
+S:https://www.folktunefinder.com/tunes/60004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

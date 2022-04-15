@@ -1,0 +1,26 @@
+X: 1
+T: Morecambe Bay
+C: dance by Pat Shaw (1972)
+M: 6/8
+L: 1/8
+K: D
+A, \
+| "D"D2D "A7"EDE | "D"F2F "G"GFG | "D"A2d dcd | "G"edB "A7"AFE \
+| "D"D2D "A7"EDE | "D"F2F "G"GAB | "D"ABc def | "A7"gec "D"d2 :|
+f/g/ \
+| "D"a2a def | "C"g2g =cde | "D"f2d "G"g2f | "Em"edB "A7"Afg \
+| "D"a2a def | "C"g2g =cde | "D"f2d "G"g2f | "A7"ecA "D"d2 ||
+f/g/ \
+| "D"a2a def | "C"g2g =cde | "D"f2d "G"g2f | "Em"edB "A7"AFE \
+| "D"D2D "A7"EDE | "D"F2F "G"GAB | "D"ABc def | "A7"gec "D"d2 |]
+S:https://www.folktunefinder.com/tunes/3935
+S:http://trillian.mit.edu/~jc/music/abc/England/MorecambeBay.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/MorecambeBay_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

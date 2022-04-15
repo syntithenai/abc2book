@@ -1,0 +1,27 @@
+X: 2
+T: The Market Lass
+M: 2/4
+L: 1/16
+K: D
+ag \
+| "D"f2d2 dcdf | "A7"e2c2 A2Bc | "D"dcde fefg | f4 "A7"e2ag | "D"f2d2 dcdf |
+|"A7"e2c2 A2d2 | "A7"cdef gedc | "D"d2d2 d2 :: FG | "D"AGAB ABcd | "A7"ecec A2EF |
+|"A7"GFGA Gced | "A7"cBAG "D"F2FG | "D"AGAB Adcd | "G"BABc "Em"Be"(#)"de | "A7"cdef gedc | "D"d2d2 d2 :|
+%%sep 1 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3922
+S:http://trillian.mit.edu/~jc/music/abc/England/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MarketLass.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MarketLass.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/MarketLass
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

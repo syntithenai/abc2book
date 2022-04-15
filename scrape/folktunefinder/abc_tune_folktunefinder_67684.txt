@@ -1,0 +1,61 @@
+X:1
+T:Plevensko Daichovo Horo
+T:(ABCDABEFGHF)AB
+O:Bulgaria
+C:Trad.
+D:FDB LP-B 4000
+R:daichovo
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:(ABCDABEFGHF)AB
+Q:1/4=180
+L:1/8
+M:9/8
+K:Bb
+P:A
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 21
+%%MIDI bassprog 32
+%%MIDI gchord f2c2c2c3
+|:"Bb"f2-fg fe ~d3 |"F"eF ef ed ~c3 |"Bb"dF Bc dF dcB |1"F"~c2 cB =ef f3 :|2"F"c2 cf c2 cz2 ||
+P:B
+|:"F"eF ef ed cec |"Bb"dF Bc dF dcB |"F"eF ef ed cec |"Bb"dF Bd "F"c2 cz2 :|
+P:C
+|:"Bb"AB ed/e/ dF Bcd |eFdFdF "F"~c2B |"Bb"AB ed/e/ dF Bcd |ef ~d2 dB "F"c3 :|
+P:D
+|:"Bb"ef ~d2 eF dcB |eFdFcF ~d2F |ef ~d2 eF dcB |eFdFcF B3 :|\
+K:Ab
+P:E
+K:Ab
+"C"{f}g-g8-|g-g8 |
+P:F
+|:"C"fg ~=e2 dc BcG | fG ~=e2 dc BcG |fg ~=e2 dc BcG | fG ~=e2 dc BcG :|
+P:G
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 21
+%%MIDI bassprog 32
+%%MIDI gchord f2c2c2c3
+|:"C"fG ~=e2 dc ~e2G | fG ~=e2 dc BcG |fG ~=e2 dc ~e2G | fG ~=e2 dc Bcz :|
+P:H
+|:"Bbm"ba ~g2 ba ~g2f |"C"ga gf =ef ~g2c |"Db"ba ~g2 ba ~g2f |"C"fg ~=e2 dc Bcz :|
+W:
+W:
+W:Arrangement Copyright (C) 2005 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/67684
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/PlevenskoDaichovo.abc
+S:http://people.csail.mit.edu/jaffer/Music/PlevenskoDaichovo.abc
+S:http://voluntocracy.org/Music/PlevenskoDaichovo.abc
+S:http://www.voluntocracy.org/Music/PlevenskoDaichovo.abc
+% Rhythm Daichovo
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Key G-sharp
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

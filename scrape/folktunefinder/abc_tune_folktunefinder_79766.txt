@@ -1,0 +1,26 @@
+X:662
+T: ICH WEISS EIN MAGET SCHONE
+N: E2045
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Marien - Lied
+M: 6/4
+L: 1/4
+K: C
+C | A,2A,B,2B, | C3C2
+C | D2CC2B, | A,3G,2
+G, | G,2A,B,2B, | C3C2
+C | C2G,G,2F, | E,4z
+E, | E,2E,G,2F, | E,3C,2
+C, | G,2G,A,2B, | C3E2
+D | C2CA,2B, | C4z
+S:https://www.folktunefinder.com/tunes/79766
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, marien - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

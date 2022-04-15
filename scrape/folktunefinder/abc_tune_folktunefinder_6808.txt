@@ -1,0 +1,28 @@
+X: 2
+T: Bulgar, Frailach
+O: Kammen 9 #17
+B: Kammen 9 #17
+R: jig, bulgar
+Z: John Chambers <jc:trillian.mit.edu>
+N: Original in 2/4, but with mostly triplets in melody.
+M: 6/8
+L: 1/8
+K: EDor
+|: B,C^D \
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | cd2- d2d | cde dcB | ^AB2- B2A | B^AG GFE |
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | ^ABc dcB | B^AG GFE | E6- | E3 :|
+|: B,EG \
+| "Em"B2B B2B | B2c dcB | ^AcB- B3- | B6 | ^ABc dcB | B^AG GFE | ^AcB- B3- | B6 |
+| "Em" ^ABc dcB | B^AG GFE | F=AG- G3- | G6 | FG^A BAG | B^AG GFE | FGE- E3- | E3 :|
+S:https://www.folktunefinder.com/tunes/6808
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Kam9-17.abc
+% Rhythm Jig, bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

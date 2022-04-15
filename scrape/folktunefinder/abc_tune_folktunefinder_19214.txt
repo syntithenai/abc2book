@@ -1,0 +1,40 @@
+X: 1
+T: the Braes of Mar
+C: John Coutis of Deeside
+R: strathspey
+B: RSCDS Leaflet
+N: H&C 86
+N: Skye p.63 and 64
+N: OTDT p.71
+N: BSFC I-45 and VIII-2
+N: Hunter 90
+N: Allan's p.39
+N: Kerr's 2nd p.17
+D: Alastair Fraser on The Driven Bow, cut 3A
+D: Harvey Tolman on his tape
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+G \
+| "D"FA3 A3B "Bm"d3e f3e | "G"dB3 B3A "A7"Bd3 B3A \
+| "D"FA3 A3B "Bm"d3e f3d | "Em"eg3 "D"fa3 "A7"e4 "D"d3 :|
+G \
+| "D"FA3 A3D F3D A3F | "Em"GB3 B3E "A7"G3E B3G \
+| "D"FA3 A3D F3D A3F | "Em"GB3 "D"FA3 "A7"E4 "D"D3 |]
+g \
+| "D"fa3 a3d f3d a3f | "Em"gb3 b3e "A7"g3e b3g \
+| "D"fa3 a3d f3d a3f |  "G"(3g2b2g2 "D"(3f2a2f2 "A7"e4 "D"d3 |]
+S:https://www.folktunefinder.com/tunes/19214
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOMar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOMar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOMar.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

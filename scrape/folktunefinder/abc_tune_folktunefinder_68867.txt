@@ -1,0 +1,24 @@
+X:8
+T: HERR OLOFF REITET SPAET UND WEIT
+N: Z0009
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Sagen - Lied, Romanze, Tod
+M: 2/4
+L: 1/8
+K: F
+ | c4 | B2c2 | _d2B2 | G2c2 | F4
+c4 | B2c2 | _d2BB | G2c2 | F4
+_A4 | _A2AA | B2BB | B2B2 | c4
+_A4 | _A2B2 | c2_AA | G2_A2 | F4
+c4 | B2cc | _d2BB | G2c2 | _A4
+c4 | B2cc | _d2BB | G2c2 | F4
+S:https://www.folktunefinder.com/tunes/68867
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

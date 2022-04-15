@@ -1,0 +1,25 @@
+X: 1
+T: Ciocarlanul
+O: Romania
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS
+M: 4/4
+L: 1/8
+K: C
+|: "G7"g2gf "C"e2c2 | "G7"g2gf "C"e4 \
+|  "G7"g2gf "C"ecgf |1 "C"ec"G"dB "C"cdef :|2 "C"ec"G"dB "C"c2"E7"B2 ||
+|: "Am"c2de "Dm"fedB | "Am"cA"E7"B^G "Am"ABcd \
+|  "Am"e2de "Dm"fedB | "Am"cA"E7"B^G "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/7733
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Ciocarlanul_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Ciocarlanul_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/Ciocarlanul_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

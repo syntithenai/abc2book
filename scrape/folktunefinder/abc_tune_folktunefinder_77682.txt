@@ -1,0 +1,23 @@
+X:240
+T: Ardfinnan Bridge
+C: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=175
+K: Bm
+F|"Bm"B2 FB DBFA|"F#m"cdef "A"ecAc|"Bm"B2 FB DBFA|"D"dcBA "F#m"FAcA|
+"Bm"B2 FB DBFA|"F#m"cdef "A"ecAc|"Bm"Bd ~F2 "F#m"EFAc|"Bm"BdAF B3:|
+A|"D"dF ~F2 defa|"G"b2 gb "F#m"afec|"Bm"B2 dB fBdB|"A"A2 cA eAcA|
+"Bm"FB ~B2 "A"EA ~A2|"D"FAde "F#m"fecA|"Bm"B2 FB AFEF|"D"DF"A"EC "Bm"B,3:|
+S:https://www.folktunefinder.com/tunes/77682
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/a.abc
+S:http://www2.redhawk.org:8080/irish/zouki/a.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:342
+T: Der Kaminfeger (4-41), S. 56
+N: P0602
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Arbeitslied]
+M: 2/4
+L: 1/16
+K: G
+G2E2 | D2D2G2GB | A4
+F2G2 | AGFED2^C2 | D4
+G2G2 | B2BBA2B2 | c4
+d3c | B2A2G2F2 | G4
+G2EE | D2D2G2GB | A2A2
+F2G2 | AGFED2^C2 | D4
+G2G2 | B2BBA2B2 | c4
+d3c | B2A2G2F2 | G4
+S:https://www.folktunefinder.com/tunes/76322
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Arbeitslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

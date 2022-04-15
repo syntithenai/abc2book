@@ -1,0 +1,33 @@
+X:534
+T:Mueira de Batribn (XA 52)
+T:Mulieira de Batribn (XA 52)
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Batribn (Os Ozcos)
+Z:Mtodu de Xuacu Amieva 52
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+CEE
+|: C2 ~E CDE|F2 ~D B,DD|B,2 ~D B,DD|~A2 G CEE|
+|C2 ~E CDE|FED CB,D|~A2 G FEF|~A2 G cB~A|
+|GA~G F~ED|[1 C3 CEE:|[2 C3 cdc|
+|: BAG ABA|GFE .G2 G|GAG FEF|~A2 G cdc|
+|BAG ABA|GFE .G2 G|GAG FED|[1 C3 cdc :|[2 C3 CDE|
+|: FFF FGF|~EDC CEF|~EDC B,CD|~A2 G CDE|
+|FFF FGF|~EDC CEF|~EDC B,CD|[1 C3 CDE :|[2 C3 z3||
+S:https://www.folktunefinder.com/tunes/59421
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

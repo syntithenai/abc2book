@@ -1,0 +1,23 @@
+X:198
+T: GRAF FRIEDRICH WOLLT AUSREITEN
+N: E0107A
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Hainau, Conradsdorf
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 3/4
+L: 1/8
+K: F
+C2 | FGA2A2 | G2F2z
+F | ABc2c2 | B2A
+AAA | c2BGGG | B2A
+FFG | A2c2GG | F4
+S:https://www.folktunefinder.com/tunes/78639
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

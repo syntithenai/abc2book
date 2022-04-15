@@ -1,0 +1,31 @@
+X: 2
+P: Circle of Fifths
+C: Gary Roodman
+N: for Stockport Assembly
+R: march
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A7"Acde \
+| "D"f3d f2d2 | "G"B2 g4 B2 \
+| "A7"cde2 c2A2 | "D"F3F "(A/C#)"GABc \
+| "Bm"d3B d2F2 | "Em"G2B2 d2B2 |
+|1 "E"^G2B2 e2G2 | "A7"A4 \
+:|2 "A"c2e2 A2c2 | "D"d4 "F#"c2^A2 \
+|: "Bm"B3d f2b2 | "Em"g2e2 B2e2 \
+| "A"A3c e2a2 |
+| "D"f2d2 A2d2 \
+| "G"B2d2 g2d2 | "Em"e2g2 c'2 g2 \
+|1 "F#"^a2fe c2a2 | "Bm"b2fe "(F#7)"d2c2 \
+:|2 "F#"^a2fe c2^A2 | "Bm"B4 |]
+S:https://www.folktunefinder.com/tunes/4076
+S:http://trillian.mit.edu/~jc/music/abc/England/StockportAssembly.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

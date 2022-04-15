@@ -1,0 +1,25 @@
+X:4730
+T:Polska  Lngdans 
+A:Jmtland
+M:3/4
+O:Sweden
+R:Lngdans
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007bd.html
+%%ID:000007bd
+K:A
+A2 |\
+Ac e2 B2 | Bd e2 g2 |1 a2 fd fa | g2 e2 :|2 a2 fd (3cBc | Bc A2 ::
+e2|\
+ed c2 cA | dc B2 g2 |1 a2 fd fa | g2 e2 :|2 a2 fd (3cBc | Bc A2 :|
+S:https://www.folktunefinder.com/tunes/37025
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Rhythm Lngdans
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

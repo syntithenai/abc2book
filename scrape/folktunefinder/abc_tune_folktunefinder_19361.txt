@@ -1,0 +1,23 @@
+X: 1
+T: Ghoid iad mo bhean uam an raoir
+T: They stole my wife from me last night
+R: strathspey
+B: Patrick MacDonald Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|:"Am"e>d c>d "F"cA  A2 | "F"c>A    "G"G>A  "C"GE  E2 \
+| "Am"e>d c>d "F"cA  A2 | "G"G>D "(Em)"E>G "Am"A2  A2 :|
+|:"Am"A<A A>G "F"A<A A2 | "G"G>E       D>E  "C"C>D E2 \
+| "Am"A<A A>G "F"A<A A2 | "G"G>D "(Em)"E>G "Am"A2  A2 :|
+S:https://www.folktunefinder.com/tunes/19361
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GhoidIadMoBheanUamAnRaoir.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GhoidIadMoBheanUamAnRaoir.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

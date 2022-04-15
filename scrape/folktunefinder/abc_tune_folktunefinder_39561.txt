@@ -1,0 +1,37 @@
+X: 6
+T:Badine
+O:France
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-01
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:"Allegro"
+K:C
+V:1 name=G
+e2 (dc) | e2 (dc) g2 fe | g4 a2 a2 | gffe feed | e2c2 e2dc | e2dc g2fe |
+g4 a2a2 | gfed e2!!d2 | c4 :: Gcdc | c2Bc de fd | e2 c2 eg ec |
+dg dB ce dc | c2 B2 g2 g2 | (Bcde) f2 e2 | f2 ed edef | gfga gfga | 
+Tf4 e2dc | e2dc g2fe | g4 a2a2 | gffe feed | e2c2 e2dc | e2dc g2fe |
+g4 a2a2 | gfed e2!!d2 | c4 !fine! :: [K:Eb] d2ef | e2fg c2de |
+d2G2 ed cd | !!=B2 c2 d2 e2 | e2 d2 e2fg | a2a2 d2ef | g2g2 c=Bcd | G2cd e2d2 |
+c4:| gfga | g2f=e f2g2 | {g2}a4 fefg | f2ed e2f2 | {f2}g4 cd=Bd |
+c2G2 efdf | e2d2 edef | g6 fe |d4 !D.C.! ||
+V:2 name=V
+z4 | z4 e2dc | e2dc f4 | c4 g2g2 | c'2c2 z4 | z4 e2dc | e2dc f4 | e2c2 g2G2 | c4 ::
+z4 | g4g2g2 | c2c'2 c'2c'2 | b2g2 a2^f2 | g2G2 z4 | g2g2 B2c2 | d2g2 c2c2 | c2c'2 c'2c'2 | 
+b4 c'2c2 | z4 e2dc | e2dc f4 | c4 g2g2 | c'2c2 z4 | z4 e2dc | e2dc f4 | e2c2 g2G2 | c4 | 
+[K:Eb] c'2c'2 | c'4 a2f2 | g2G2 c2c2 | f2e2 d2c2 | g4 c'2c'2 | f2ga b2b2 | e4 a2a2 | gfef g2G2 | c4 ::
+c'2c'2 | c'3b a2g2 | f4 b2b2 | b3a g2f2 | e4 z4 | z4 (c'd')(=bd') | c'2g2 c2cd | edef e2f2 | g4 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/39561
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: da Shaalds o' Foula
+O: Shetland
+R: jig
+B: RSCDS 4-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "The Rock and the wee pickle Tow" "Daft Donald".
+M: 6/8
+L: 1/8
+K: Em
+D \
+|: "Em"E2G G2e | edB BAB | "G"G2B A2B | "C"G2A "D"GED \
+|  "Em"E2G G2e | edB BAB | "G"G2B A2B | "D"d3 D3 :|
+|: "Em"edB ABd | edB BAG | "G"g2B A2B | "C"G2A "D"GED \
+|  "Em"edB ABd | edB BAG | "G"g2B A2B | "D"d3 D3 :|
+S:https://www.folktunefinder.com/tunes/12752
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/jig/ShaaldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/rscds/ShaaldsOFoula.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

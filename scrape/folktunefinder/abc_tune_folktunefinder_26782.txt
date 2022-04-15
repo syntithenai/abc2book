@@ -1,0 +1,27 @@
+X:6330
+T: Suite sudarmoricaine
+C: trad. breton (arrangements Matthieu Quinquet)
+O:England
+K: C
+M: 2/4
+V:1 clef=treble name="Voix I"      sname="V. I"
+V:2 clef=treble name="Voix II"     sname="V. II"  space=10
+%
+%
+[V:1] |:"Dm"a2ag "F"f3a | "C"g2f2 "Dm"d4 :| "Dm"d2cd "Bb"f3d | "C"c2d2 "F"f4 | "C"g2fg "Dm"a3d | "C"d2c2 "Dm"d4 |]
+[V:2] |:f2fe d3f | e2c2 d4 :| A2GA c3A | G2A2 d4 | e2de f3A | A2G2 A4 |]
+%
+%
+[V:1] z2 "Dm"A2 | d3e  f3d | "C"c3A  "Bb"d3A | "Dm"d3e f3d | "C"c3A "Bb"d3f |
+S:https://www.folktunefinder.com/tunes/26782
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

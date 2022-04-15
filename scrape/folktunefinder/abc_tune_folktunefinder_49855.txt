@@ -1,0 +1,27 @@
+X:18407
+T:Waltz fr J\"amtland
+R:Waltz
+O:Sweden
+M:3/4
+A:J\"amtland
+K:D
+A2|\
+d4 d2|e4 e2|f3e f2|g3f ed\
+|1 cd cB AG|G2 F2 :|2\
+ce ag fe|dc df ec|d4 ::
+de|\
+fd f2 df|fd f2 df|a2g2f2|e3d ef|\
+ge g2 eg|ge g2 eg|b2a2g2|f3e fe|
+fd f2 df|fd f2 df|a2g2f2|e3d ef|\
+gf ed cB|A2 B2 c2|1 d3 A :|2 (d6|d6) ||
+S:https://www.folktunefinder.com/tunes/49855
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:315
+T:Belfast Hornpipe
+T:Millicent's Favourite
+L:1/8
+M:4/4
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005d5.html
+%%ID:000005d5
+K:D
+a>g | \
+f>a d>f A>d F>A | D>F A>d f2 e>f | \
+g>b e>g c>e A>c | G>A B>G E2 a>g |
+f>a d>f A>d F>A | D>F A>d f2 e>f |  \
+(3gbg e>d c>A B>c | d2 f2 d2 ::
+D2 |\
+G>F G>A B>c d>e | f>g f>e d>c (3dcB | \
+A2 f2 f>A f>A | G2 e2 e2 D2 |
+G>F G>A B>c d>e | f>g f>e d>c (3dcB | \
+A>f e>d c>A B>c | d2 f2 d2 ::
+a>g | \
+(3fgf (3efe (3ded (3cdc | (3BcB (3ABA G2 b>a | \
+(3gag (3fgf (3efe (3ded | (3cdc (3BcB A2 a>g |
+(3fgf (3efe (3ded (3cdc | (3BcB (3ABA (3GAG (3FGF |\
+E>f e>d c>A B>c | d2 f2 d2 :|
+S:https://www.folktunefinder.com/tunes/36142
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

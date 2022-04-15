@@ -1,0 +1,36 @@
+X:2
+T: TEST: Tzadik Katamar  % -----
+%%indent 0
+C: from Israel
+M: C|
+L: 1/4
+K: C
+V:1  brk=2
+C | "C"E<GG>A | "Am"E<DC>E | "Dm7"FFF<G | "G"D4 | "C"E<GG>A | "Em"B<EE>E |
+ "F"FGAE | "Dm"FGA<B | "C"G4 |
+ "Dm"DEFD | "Em"E<G B2 | "F"ABcA | "G7"B3 G || "C"c3 c | "E7"B3 B |
+ "F"AAAE | "Dm"FFFD | "G"G<A B>G |
+ "C"c3 c | "E7"B3 B | "F"AAAB | "C"G2 "Am"E2 | "Dm7"FFFG | "C"E<D "Am"C>E |\
+      "Dm"DF "G"A<B | "C"c4 ||
+V:2 gch=0
+C | "C"C<EE>E | "Am"E<FE>E | "Dm7"D2A,2 | "G"B,> G,A,B, |\
+   "C"C<EE>E | "Em"EB, |
+"F"C4 | "G"B,>G,A,B, | "F"FGGF | "Em"E<GG>G | "Dm"FGGF | "C"E4 |
+"Dm"A2FD | "Em"G2E2 | "F"C2F2 | "G7"D2ED || "C"E4 | "E7"D4 |
+"F"C2B,A, | "C"G,2 "Am"C2 | "F"A,C2C | "C"G, "     Am"C2C |\
+   "Dm"A,C2C | "G"B,2 CD |
+"C"E4 | "E7"D4 | "F"C2B,A, | "C"G,2 "Am"C2 | "Dm7"A,C2C |\
+   "C"G, "    Am"C2C |"Dm"A,2 "G"B,D | "C"E4 ||
+S:https://www.folktunefinder.com/tunes/2576
+S:http://trillian.mit.edu/~jc/music/abc/test/V_TzadikKatamar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/TzadikKatamar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/TzadikKatamar.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_TzadikKatamar.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_TzadikKatamar.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_TzadikKatamar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

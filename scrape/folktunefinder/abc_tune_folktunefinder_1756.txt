@@ -1,0 +1,30 @@
+X:401
+T:Four Provinces Flings #2
+T:Duncan Davidson (Kerr's MM Bk1p17)
+S:Moloney/O'Donnell/Egan
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:D
+z | D>FA>B A<F d2 | D>FA>B A<F E2  |\
+    D>FA>B A<Fd>e |1 f>de>g f>dA>D :|
+                   2 f>de>g f>dd   ||
+e | f2 f2 g>f>e>d | c>AA>B c>de>g |\
+    f2 f2 g>f>e>d | c>ea>g f>dd>e |
+    f2 f2 g>f>e>d | c>AA>B c>de>g |
+    (3fed (3edc d>BA>F | G>BA>F G>FE>F |]
+S:https://www.folktunefinder.com/tunes/1756
+S:http://www.nigelgatherer.com/tunes/abc/tb09.abc
+S:http://nigelgatherer.com/tunes/abc/tb09.abc
+S:http://nigelgatherer.com/tunes/abc/abc5/duncd2.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc5/duncd2.abc
+S:http://nigelgatherer.com/tunes/abc/abc5/fourpr.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc5/fourpr.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

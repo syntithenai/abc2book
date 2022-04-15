@@ -1,0 +1,30 @@
+X: 1
+T: Miss Marston's Strathspey
+O: Middleton's Selection
+R: strathspey
+B: RSCDS __-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: F \
+| "D"D<D F>A "G"B>A B<d | "D"A>B d>f "A7"e>d e<f \
+| "D"D<D F>A "G"B>A B<d | "A7"A>B d>e "D"f<d d :|
+|| f \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A B<d "A7"e>d e<g \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A "A7"[BG2]<c "D"[dF]<D D> ||
+|| g \
+| "D"(3fga "G"(3bge "D"(3afd (3dcd | "G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA \
+| "D7"F<A d>c "G"B>A B<d | "A7"A>B [dG2]>e "D"f<d [dF] |]
+S:https://www.folktunefinder.com/tunes/19557
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissMarstonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissMarstonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissMarstonsS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

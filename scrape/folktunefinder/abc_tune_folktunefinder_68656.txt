@@ -1,0 +1,28 @@
+X:110
+T: Liebeshoffnung
+N: A0128C
+O: Europa, Mitteleuropa, Deutschland
+N: Boehm. Bruedergsgb. 1531 Bl. 9 "Gott sah zu seiner Zeit"
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F2A2GF | E2D2
+C2 | FF2AG2 | F4
+F2A2GF | E2D2
+C2 | FF2AG2 | F3
+F | AABB | c2c2
+d2 | cB2AG2 | F2z
+F | AABB | c2F2
+AAGF | E2D2
+C2 | FF2AG2 | F4
+S:https://www.folktunefinder.com/tunes/68656
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

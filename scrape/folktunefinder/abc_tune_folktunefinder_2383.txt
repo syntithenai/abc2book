@@ -1,0 +1,28 @@
+X: 1
+T: Cliffs of Moher (bad ABC example)
+N: Demo of how to really mess up ABC if you don't care about readability.
+N: This is similar in style to the output of many commercial web-site editors.
+R: Jig
+M: 6/8
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: ADor
+[e]|: ""[a][e][a] [|] [b][a][g]| ""[e][a][f] [|] [g][e][d]| ""[c2][A] [|] [B][A][G]| ""[E][F][G] [|] [A][B][d]| ""[e][a][a] [|] [b][a][g]| ""[e][a][f] [|] [g][e][d] |
+| ""[c2][A] [|] [B][A][G]| ""[E][F][G] [|] [A2][e] :||: ""[g][e2][e] [|] [d][B][A]| ""[e2][e] [|] [d][B][A]| ""[G][A][B] [|] [d][B][A]| ""[G][A][B] [|] [d][B][d] |
+|1 ""[e2][e] [d][B][A]| ""[e2][e] [|] [d][B][A]| ""[G][A][B] [|] [d][B][G]| ""[E][F][G] [|] [A3]:|2 ""[e2][e] [d][e][e]| ""[c][e][e] [|] [B][e][e]| ""[E][F][G] [|] [B][A][G]| ""[e][d][B] [|] [A2] |]
+S:https://www.folktunefinder.com/tunes/2383
+S:http://trillian.mit.edu/~jc/music/abc/test/CliffsPerverse.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/CliffsPerverse.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/CliffsPerverse.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/CliffsPerverse.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/jcabc2ps/abc/CliffsPerverse.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

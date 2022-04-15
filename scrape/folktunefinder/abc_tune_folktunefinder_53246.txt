@@ -1,0 +1,26 @@
+X:80
+T:Daichovo horo
+D:Maartin Allcock OX15 (ANDCD38)
+M:9/8
+O:Bulgaria
+Q:1/8=240
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000067e.html
+%%ID:0000067e
+K:A dorian
+e d e ~d3/2|d c/d/ e ~c3/2|\
+c B/c/ d ~B3/2|G A ~A A3/2:|
+|:F/G/ A/D/ F/G/ ~AG/| \
+A/B/ c/B/ c/d/ ~BG/|\
+F/G/ A/D/ F/G/ ~AG/|\
+c c/B/ ~B/A/ A3/2:|
+S:https://www.folktunefinder.com/tunes/53246
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

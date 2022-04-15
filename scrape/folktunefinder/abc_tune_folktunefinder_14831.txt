@@ -1,0 +1,26 @@
+X: 1
+T: Pammella, Pam\`ela, Pam Ella
+C: Cammy Kaynor
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "C"E2G "D"F2A | "G"GAB d2D |  "C"E2G "D"FED | "G"G3-  G2D \
+| "C"E2G "D"F2A | "G"GAB d2d | "A7"e2A   AB^c | "D"d^cd ed :|
+|: B \
+| "D7"cdc A2c | "G"BdB G2G | "Em"e2f gfe | "Em"B3- B2B \
+| "D7"cdc A2c | "G"BdB G2G | "D7"A2G F2E |  "D"D3- D2 :|
+S:https://www.folktunefinder.com/tunes/14831
+S:http://trillian.mit.edu/~jc/music/abc/jig/Pammella_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Pammella_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

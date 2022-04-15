@@ -1,0 +1,20 @@
+X:254
+T:New-Mown Meadow
+Z: id:dc-reel-242
+M:C
+L:1/8
+K:G Major
+B|ADD2 D3G|AcBG AGEG|ADD2 EDEF|G2AG EGGB|!
+ADD2 D3G|AcBG AGEG|c3A B2BA|GBAG EGG:|!
+B|d2Bd edBd|dedB AGEG|d2Bd edBA|GBAG EDDB|!
+d2Bd edBd|dedB AGEG|c3A B2BA|GBAG EGG:|!
+S:https://www.folktunefinder.com/tunes/65807
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

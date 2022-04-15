@@ -1,0 +1,35 @@
+X:61
+T:Aada (JHM 003) (Arrg.)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 003
+M:6/8
+L:1/8
+Q:3/8=55
+K:G
+|"G"GGG GBB|"D"(cd/4c/4B/4A/4) "G"B-B3|"D"c(c/>B/)A Bcc|"G"B6|
+"Am7"cBA "G"GBG|"D"(A3/2(3B/4A/4G/4) F-F3|"G"GGA "D7"cBA|"G"G2 z BAG|
+"C"G3 "G"BAG|"D"F6|"Am7"GGA "D7"cBA|"G"G6||
+W:Durmete nin del alma,
+W:duerme, que te velo yo.
+W:Dios te de mucha ventura
+W:nesti mundu engaador. 
+W:Non llores, nn, non llores, non; 
+W:duerme, que te velo yo.
+W:
+S:https://www.folktunefinder.com/tunes/58948
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

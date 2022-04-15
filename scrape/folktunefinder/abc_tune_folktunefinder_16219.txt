@@ -1,0 +1,30 @@
+X: 1
+T: Roy's Reel
+C: Muriel Rimmer
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2DG BGFG | e2d2 d4 | d^cde d2B2 | "Am"B2c2 c4 \
+| "D7"F2DF AFDF | e2d2 d4 | d^cde d2^A2 | "G"^A2B2 B4 ||
+| "G"G2DG BGFG | e2d2 d4 | d^cde d2G2 | "C"f2e2 e4 \
+| e^def "A/C#"e2^c2 | "D"d^cde "E7"d2B2 | "Am"cBcd "D7"B2A2 | "G"G4 "D7"D4 |]
+[| "G"B4 G3D | E2D2 D4 | GDGB d2B2 | "Am"B2c2 c4 \
+| "D7"c4 A3D | E2D2 D4 | "D7"EDEF G2A2 | "G"^A2B2 B4 ||
+|  "G"B4 G3D | E2D2 D4 | GDGB d2^d2 | "C"^d2e2 e4 \
+| e^def "A/C#"e2^c2 | "D"d^cde "E7"d2B2 | "Am"cBcd "D7"B2A2 | "G"G4 z2 |]
+S:https://www.folktunefinder.com/tunes/16219
+S:http://trillian.mit.edu/~jc/music/abc/polka/RoysReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoysReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Rimmer/RoysReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/RoysReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RoysReel_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

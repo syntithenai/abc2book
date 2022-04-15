@@ -1,0 +1,37 @@
+X:20
+T:Miss Barrett's Waltz
+H:1799
+M:3/4
+L:1/4
+K:Gm
+%
+P:- A -
+F | "Bb" B/c/ d d | d/e/ f f | "Eb" e/f/ g e | "F" c2 F | "Bb" B A B | "F" c B c | "Bb" d f/"F"e/d/c/ | "Bb" B2 :|
+%
+P:- B -
+|: f | "F" f/e/ c c | c/A/ F F | "Bb" d/B/ F F | B/d/ f f | "F" f/e/ c c | c/A/ F F | "Bb" B/d/ "F" f f | "Bb" B2 :|
+%
+P:- C -
+|: f | "Bb" f =e f | d ^c d | B A B | "F" A/B/ c F | "Bb" B B B | f2 d/B/ | "Eb" c "F" c/B/c/d/ | "Bb" B2 :|
+%
+P:- C Alternative -
+|: d/c/ | "Bb" B d f | f/g/f/e/ d | "F" c B c | "Bb" d B F | B d f | f/g/f/e d | "F" c B c | "Bb" B2 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49299
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:443
+T: ES WAR EIN KOENIG VON THULE
+N: F0826
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade
+M: 4/4
+L: 1/8
+K: G
+D2 | _B2B2AAA2 | c4_B2
+A2 | d2G2F2G2 | A4z2
+A2 | _B2B2_e2d2 | d4^c2
+de | =f2d2e2^c2 | d4z2
+d2 | d2d2_e2A2 | c4F2
+A2 | _B2^C2C2C2 | D4z2
+D2 | _E2E2c2_BA | G3FF2
+GA | _B2G2GAF2 | G4z2
+S:https://www.folktunefinder.com/tunes/70003
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

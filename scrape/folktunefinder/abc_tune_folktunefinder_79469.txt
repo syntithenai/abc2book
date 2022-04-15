@@ -1,0 +1,27 @@
+X:365
+T: EINS BAUREN SOHN HAT SICH VERMESSN
+N: E1542
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Bauern - Lied, Spott
+M: 4/4
+L: 1/8
+K: F
+A2 | A2A2A2A2 | A2B2c4 | z2
+A2A2c2 | BGBcdcdc | d2d2d4 | G4z2
+c2 | cBAGF2B2 | AGFED2
+A2 | AGFED2A2 | B6G2 | AGABc2
+A2 | BABcd2d2 | cBAGF2
+d2 | cBAGF2
+S:https://www.folktunefinder.com/tunes/79469
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, bauern - lied, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

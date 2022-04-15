@@ -1,0 +1,44 @@
+X:560
+T:Nun hai carretera ensin barru (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Asturias, canciones
+M:3/8
+L:1/8
+Q:3/8=100
+K:C
+A|:"D"A2 ^F|"D"D^FA|"D"A2 A/ _B/4 A/4|"Gm"G2 A|
+"Gm"_B2 _B|"D"d~d2|"D"A2^F|[1 "D"D2 A :|[2 "D"D3|
+|"D"D^FA|"D"A2 ^F|"D"D^FA|"D"A2^F|
+"D"D^FA|"D"A2 ^F|"D"D^FA|"D"A2 A/ _B/4 A/4|"Gm"G2 A|
+|:"Gm"_B2 _B|"D"d~d2|"D"A3/2G/^F|"D"A~A2|"Gm"G3/2^F/E|
+"Gm"G~G2|"D"^F2 (3E/F/E/-|[1 "D"D2 A:|[2 "D"D3-|"D"D2 z||
+W:Nun hai carretera ensin barru,
+W:nin prau que nun tenga yerba,
+W:nin mociquina d'a quince
+W:que nun sea guapa, fea.
+W:
+W:Adios, Rosina,
+W:y adis, clavel
+W:que te vengo a ver
+W:de maana y tarde;
+W:
+W:de noche nun puede ser,
+W:que me rinde l'amor,
+W:que me pega'l to padre. (bis)
+W:
+S:https://www.folktunefinder.com/tunes/59447
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

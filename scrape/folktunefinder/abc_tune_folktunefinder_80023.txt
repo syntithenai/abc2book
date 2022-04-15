@@ -1,0 +1,29 @@
+X:24
+T: Het waren twe konigs kinderen
+N: L0085
+O: Europa, Mitteleuropa, Deutschland
+N: Coussemaker Nr. 49
+R: Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G2B2c2 | d4e2 | dcB2
+d2 | d2c2B2 | A2B2c2 | B4
+D2 | G2B2c2 | d4e2 | dcB2
+d2 | d2c2B2 | A2B2c2 | B6
+A6 | d2c2B2 | A2B2A2 | G2D2
+G2 | G2A2B2 | c2B2A2 | B4z2
+A6 | d2c2B2 | A2B2A2 | G2D2
+G2 | G2A2B2 | c2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/80023
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

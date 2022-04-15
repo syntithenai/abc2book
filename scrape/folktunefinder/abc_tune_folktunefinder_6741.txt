@@ -1,0 +1,21 @@
+X: 1
+T: Belzer Nigun
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+O: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"B>A GG | GG GG | "Cm"Gc "D7"cB/A/ | "Gm"B2 B2 | "Bb"d>c BB | BB BB | "Cm"Gc "D7"cB/A/ | "Gm"G2 G2 :|
+|: "Cm"dc dc | "Gm"cB/A/ B2 | "Cm"BA Gc | "Gm"cB/A/ B2 | "Cm"dc dc | "Gm"cB/A/ B2 |1 "Cm"B/A/G "F7"ee | "Bb"d4 :|2 "Eb"B/A/G "F"AF | "Gm"G4 |]
+S:https://www.folktunefinder.com/tunes/6741
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BelzerNigun.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BelzerNigun_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/BelzerNigun_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/BelzerNigun_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BelzerNigun_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

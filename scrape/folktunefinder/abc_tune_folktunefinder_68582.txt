@@ -1,0 +1,25 @@
+X:36
+T: Die Frau von Luxemburg
+N: A0035
+O: Europa, Mitteleuropa, Deutschland, Niederlande
+N: Melodie: Souterliedekens 1540 ad Ps. 137 (vgl. A0034), vereinfacht.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+G2G2G2 | A4A2_B2 | G4=F4 | z2
+=F2_B3c | d3cd2c_B | A2
+d2d2d2 | c2d4cA | =F6
+G2 | A2_B2c4 | c2_B2A3G | G8 | z2
+S:https://www.folktunefinder.com/tunes/68582
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

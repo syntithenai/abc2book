@@ -1,0 +1,29 @@
+X:242
+T: SO WILLST DU WIEDER EINSAM MICH VERLASSEN
+N: E1381
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass, Lembach
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 2/4
+L: 1/16
+K: D
+A2A2G2 | F6F2 | A2G2F2E2 | E4F4 | z2
+D2E2F2 | G6A2 | F4A3F | E4z4 | z2
+A2A2G2 | F6F2 | A2G2F2E2 | E4F4 | z2
+d2c2B2 | A6A2 | ^G2B2d2G2 | A4z4 | z2
+A2A2c2 | e6d2 | c2B2A2G2 | B2A2F4 | z2
+A2A2c2 | e6d2 | c2B2A2G2 | B2A2F4 | z2
+A2B2c2 | d6d2 | f3ed2c2 | B4z4 | z2
+B2c2d2 | A6A2 | c2B2A2G2 | F4z4 | z2
+S:https://www.folktunefinder.com/tunes/79346
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

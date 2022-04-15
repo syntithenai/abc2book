@@ -1,0 +1,31 @@
+X: 45
+T:Push around the gorom. JMP.045
+T:Push around the jorum,aka. JMP.045
+M:2/4
+L:1/8
+Q:300
+C:"50"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Reel
+O:Scotland
+A:Perth
+N:2 - no final bar lines - D Capo written at end of
+N:tune.
+N:'The Right Honourable' written under the tune.
+H:1799
+Z:vmp.C.  Graebe
+K:G Major
+BGGG | FAAc | BGBd | g2 fe |dGBG | FAAB | EGFA | G2G :|!
+|:d | (g>g)fg | agfd | g2 fg | "cr"a3 d  |(g>g)fg | agfd |\
+ egfa | g2 "2"g:|]
+S:https://www.folktunefinder.com/tunes/1982
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

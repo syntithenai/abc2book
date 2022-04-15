@@ -1,0 +1,29 @@
+X:183
+T: O DU DEUTSCHLAND, ICH MUSS MARSCHIEREN
+N: Z0182
+O: Europa, Mitteleuropa, Deutschland
+N: "Soldatenlied vom Jahre 1813"
+R: Soldaten - Lied
+M: 3/4
+L: 1/8
+K: G
+GA | B3BcA | edd2
+Bd | c2AAdc | B2z2
+GA | B3BcA | edd2
+Bd | c2AAdc | B2z2
+dB | BAA2ec | c2B2
+dB | B2A2ec | cBB2
+GA | B3BcA | e2d2
+Bd | c2c2dc | B2z2
+S:https://www.folktunefinder.com/tunes/69042
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

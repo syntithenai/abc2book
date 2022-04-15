@@ -1,0 +1,26 @@
+X:596
+T: "Faschingslied"
+N: Z1276
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Natur und Welt, Brauchtums - Lied, Fastnahct
+M: 2/4
+L: 1/8
+K: A
+AGAG | AEEE
+AGAG | AEEE
+FGA2 | FGA2
+=cBAG | EGA2
+FGA2 | FGA2
+=cBAc | BGA2
+S:https://www.folktunefinder.com/tunes/69455
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt, brauchtums - lied, fastnahct
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

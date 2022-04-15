@@ -1,0 +1,38 @@
+X:2345
+T:the Hens march
+C:Donald MacLeod
+M:6/8
+O:Scotland
+R:Pipe march
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009f2.html
+%%ID:000009f2
+K:E dorian
+e| \
+dBB B2A | BGG G2B | BAA A2B | BGG G2B |\
+dBB B2A | BGG G2B | AAA ABd |1e3g2:|2e3e2|: !\
+f|\
+gee a2g | fdd d2f | gee efg | fdd d2f |\
+gee a2g | fdd def | g2e fed |1 e2e :|2 e3g2|: !\
+e |\
+dBB ABB | GBB ABB | GBB ABB | e3 g2e |\
+dBB ABB | GBB ABB | AAA ABd | e3 e2:: !\
+d |\
+eaa a2a | g2e fdd | eaa afd |1 \
+e3e2d | eaa a2a | g2e fdd | edB ABd | e3e2d :|! \
+%%multicol start
+%%leftmargin 7.3cm
+|2\
+e3g2e | dBB ABB | GBB ABB | AAA ABd | e3e2 |]
+%%multicol end
+S:https://www.folktunefinder.com/tunes/36548
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

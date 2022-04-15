@@ -1,0 +1,27 @@
+X: 1
+T: TOP OF CORK ROAD
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.88
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: D
+f/e/ \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"efg | "D"fdf "A"ece \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"efg | "D"fdd    d2 :|
+|: g \
+| "D"fdf fga | "A"ecd efg | "E7"dcd     fed | "A"cAA A2c \
+| "G"BGB Bcd | "D"AFA ABc |  "D"dcd "A7"efg | "D"fdd d2 :|
+S:https://www.folktunefinder.com/tunes/15183
+S:http://trillian.mit.edu/~jc/music/abc/jig/TopOfCorkRoad_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TopOfCorkRoad_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/TopOfCorkRoad_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

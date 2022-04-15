@@ -1,0 +1,23 @@
+X: 1
+T: The Duran Rangers
+O: Trad
+B: RSCDS 13-__
+M: 4/4
+L: 1/8
+K: D
+AG | "D"FDFA d2ef | "G"gefd "A7"c2BA | "G"BcdB [1,3 "D/F#"ABAF | "Em"G2E2 "A7"E2 :|\
+                                               [2,4 "A7"ABAG | "D"F2D2 D2 :|
+|: fg | "D"afaf d2ga | "G"bgbg "A7"e2fg | "D"afaf "Bm"abaf | "Em"g2e2 "A7"e2 ||
+   AG | "D"FDFA d2ef | "G"gefd "A7"c2BA | "G"BcdB "A7"ABAG | "D"F2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/13537
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/DuranRangers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/DuranRangers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DuranRangers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

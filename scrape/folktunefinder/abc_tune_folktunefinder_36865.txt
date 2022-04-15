@@ -1,0 +1,25 @@
+X:3930
+T:a Northern Frisk
+A:North-West
+M:C
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000051e.html
+%%ID:0000051e
+K:G
+ef|\
+gfed g2B2| f2A2 e2A2| f2ef g2G2| F2A4 ef|\
+gfed g2d2| f2A2 e2A2| d2D2 c2D2| D2G4 ::\
+AB|\
+cBAG F2d2| E2c2 D2B2| B2AB cBAG| F2D4 ef|\
+gfed c2a2| B2g2 A2f2| f2ef g2dc| B2g4 :|
+S:https://www.folktunefinder.com/tunes/36865
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

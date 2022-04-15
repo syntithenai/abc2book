@@ -1,0 +1,27 @@
+X: 1
+T: Glen Rinnes
+S: Jerry Holland, who learned it from Winston Fitzgerald
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ador
+|:  ea3 Tc3B {G}A4 ABc2 | Bg3 Td3c BG3 G3B \
+|1  ea3 Tc3B {G}A4 A3b  | agfe g3B A4 A3B \
+:|2 A3c B3d    c3e d3f  | ea3 Tg3B A4 A3 ||
+|: G \
+| EA,3 {E}A2G2 E4  E2F2 | GG,3 D3G, TB,3A, G,3A \
+| EA,3 {E}A2G2 E4  E3F  | GFED {D}G3B, | A,4 A,3 :|
+S:https://www.folktunefinder.com/tunes/19366
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Glen_Rinnes_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Glen_Rinnes_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

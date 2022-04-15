@@ -1,0 +1,20 @@
+X: 1
+T: K\"ay neitoa kaksi
+O: Suomalainen kansanlaulu
+M: C
+L: 1/8
+K: Bm
+B, \
+| "Bm"B,2 DE F2 DD | "Em"EG "D"FD "A"E3 E | "Em"EF GA "Bm"B2 "Em"AG | "Bm"DF "F#"F4 z |]
+|: F \
+| "G"B2 GF "A7"EF GB | "D"A>G FF "G"D2- "Edim"DC | "Bm"B,B, DE "F#7"FF "Bm"DD | "F#7"C2 "Bm"B,4 z :|
+S:https://www.folktunefinder.com/tunes/18818
+S:http://trillian.mit.edu/~jc/music/abc/song/Kay_neitoa_kaksi_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/Kay_neitoa_kaksi_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/Kay_neitoa_kaksi_Bm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

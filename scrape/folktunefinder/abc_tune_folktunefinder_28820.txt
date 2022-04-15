@@ -1,0 +1,32 @@
+X:2540
+T:Cantar de Ronda (CT 028)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Llanuces, ayuntamiento de Quirs.
+O:Llanuces (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 028
+M:3/8
+L:1/8
+Q:3/8=58
+W:El cortejar es de majos, si, si,
+W:y el lograr de fortunosos;
+W:cuidado no te la quiten, si, si,
+W:la nia de ente los ojos.
+K:C
+|GAA|ddd|^cA=c|c3|ddd|^cA=c|{A}(B-B/c//B//A/G//A//)|G2 z|
+GAA|ddd|^cA=c|c3|ddd|^cA=c|{A}(B-B/c//B//A/G//A//)|G2 z||
+S:https://www.folktunefinder.com/tunes/28820
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

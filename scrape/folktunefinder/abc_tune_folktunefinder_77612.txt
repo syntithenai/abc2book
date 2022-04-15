@@ -1,0 +1,20 @@
+X:22
+T:Allluia, Jsus ressuscit - I18-39
+C:J. Akepsimas
+M:C
+L:1/8
+%%staves [(1 2) (3 4)]
+K:F
+V:1
+CD ||F3F GGGF |A6 FG |A2AA B2AB |G4 zGAB |
+V:2
+CC ||C3C DDDD |E6 FF |F2FE (DE)FF |E4 zEEE |
+S:https://www.folktunefinder.com/tunes/77612
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

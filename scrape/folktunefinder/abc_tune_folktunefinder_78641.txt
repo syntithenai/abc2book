@@ -1,0 +1,23 @@
+X:200
+T: DIE GASSEN SEIN SO ENGE
+N: E0107C
+O: Europa, Mitteleuropa, Deutschland, Insel Ruegen
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 6/8
+L: 1/8
+K: G
+D | DGGFcA | FDz3
+D | DGGFcA | FDz3
+D | B2GB2G | c2BA2
+B | GFEDGG | AGFG2
+S:https://www.folktunefinder.com/tunes/78641
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

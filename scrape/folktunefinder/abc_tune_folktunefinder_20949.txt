@@ -1,0 +1,22 @@
+X:500
+T:Ben Hill
+O:england
+R:hornpipe
+M:C|
+K:G
+(3DEF|:GFGA ~B3c|dgge dBGB|cedc BGAB|cBAG FDEF|
+GFGA ~B3c|dgge dBGB|cedc BAFG|1 AGGF G2 (3DEF:|2 AGGF GBdc||
+|:~B3d gfed|c2cB c2cB|AFAf fedc|(3BcB Ac B2 (3DEF|
+GFGA ~B3c|dgge dBGB|cedc BAFG|1 AGGF GBdc:|2 AGGF G2||
+S:https://www.folktunefinder.com/tunes/20949
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:365
+T: "Der Plauderer"
+N: Z1045
+O: Europa, Mitteleuropa, Deutschland, Odenwald
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: Bb
+BB | dcBAB2F2 | D2F2B2
+BB | dcBAB2F2 | D2F2B2
+BB | c2c2c2d2 | e2dcd2
+B2 | dcBAB2F2 | D2F2B2
+B2 | dcBAB2F2 | D2F2B2
+BB | dcBAB2F2 | D2F2B2
+BB | dcBAB2BB | dcBAB2
+BB | dcBAB2BB | dcBAB2
+B2 | ccccc2cc | c2c2c2d2 | e2dcd2
+S:https://www.folktunefinder.com/tunes/69224
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 4
+T: Finnish Schottische
+T: Jack in the Green
+M: C
+L: 1/8
+K: D
+|: "D"D2 F2 A>G F<E | D>F A<d f2 ef | "A7"g2 ec A>c e<f | e>d cG F<E |
+   "D"D2 F2 A>G F<E | D>F A<d f2 ef | "A7"g2 ec A>c e<c \
+  |1 "D"d2 d2 d2 AF :|2 "D"d2 d2 d2 A2 ||
+K: Gm
+|: "Gm"d2 d2 d2 =c2 | _B>c B<A G2 FG | "D7"A>B A<G F>_E F<E | D2 DE D2 CB, |
+   "Cm"C2 CD E>G =F<E | "Gm"D2 DG B>d cB A<G ^F>D =E<F \
+  |1 G2 G2 G2 B2 :|2 G2 G2 G2 "D"^FE ||
+S:https://www.folktunefinder.com/tunes/18363
+S:http://trillian.mit.edu/~jc/music/abc/shottish/FinnishSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/FinnishSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/JackInTheGreen.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

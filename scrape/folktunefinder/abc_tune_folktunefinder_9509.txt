@@ -1,0 +1,20 @@
+X: 1
+P: The Shetland Fiddler
+Z: John Chambers <jc:trillian.mit.edu>
+N: A version of "The Hawk", a hornpipe by James Hill.
+M: C|
+L: 1/8
+K: D
+A \
+| "D"d2fd A2fe | defg afdf | "Em"e2ge B2ed | "A"cdef gece | "D"d2fd A2fe |
+| defg afdf | fafd fafd | "G"Bg"A7"ec "D"d2 |: cd | "A7"eAfA gAaA | "D"faaf gfed |
+| "A7"AaBa cada | "(E7)"efed "A7"cBAc | "D"dAeA fAgA | faaf "A7"gfeg | "D"fafd fafd | "G"Bg"A7"ec "D"d2 :|
+S:https://www.folktunefinder.com/tunes/9509
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGH01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

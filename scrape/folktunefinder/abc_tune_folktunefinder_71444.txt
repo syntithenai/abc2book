@@ -1,0 +1,25 @@
+X:415
+%%topmargin 3cm
+T:Miss Ann Stewart
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G minor
+F | DGG<A Bcdf | AFcA FGAc | BAGA Bcdf | AFc>A BGG :| A | Bcde fdcB | AFcF dFcF |
+Bcde fdcB | AFc>A BGGA | Bfdf BfdB | FcAc FcAF | Bfdf BfdB | AFc>A BGG|]
+S:https://www.folktunefinder.com/tunes/71444
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Ann_Stewart.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0415.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

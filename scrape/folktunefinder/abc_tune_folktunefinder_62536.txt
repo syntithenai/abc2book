@@ -1,0 +1,25 @@
+X:5
+T:Polska fr\aan Norsj\"o (Hambo)
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach  8/11/02, from Fiddles & Feet 2001 tunebook
+N:"From Peter Westerlund; Printed by Karen Myers"
+M:3/4
+L:1/8
+K:G %clef=bass middle=D
+P:A
+vB2(3(BcB) (3A(BA)|G2(GD) GB|{B}vd2(dc) Ac|B2(B/c/B/A/) GA|
+vB2(3(BcB) (3A(BA)|G2(GD) GB|{B}vd2(dc) AF|{F}G2G4:|
+P:B
+vC2(EG) EG|G,2(B,D) GB|vA2(AD) FA|G2(Bd)g2|
+uC2(EG) EG|G,2(B,D) (GB)|vA2(AD) FA|G2G4:|
+S:https://www.folktunefinder.com/tunes/62536
+S:http://www.nordicfiddlesandfeet.org/music/NFF.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

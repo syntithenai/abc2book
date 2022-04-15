@@ -1,0 +1,29 @@
+X:22
+T:Morrisons Jig
+O:Ireland
+M:6/8
+K:EDor
+%
+|: E2E BAB | E2B AFD | EDE BAB | dcB AFD |
+E2E BAB | EBE AFD | G3 FGA |  dAG FED  :|
+|: B2e fee | aee fed | Bee fee |fag fed |
+Bee fee | aee fee | gfe d2A | BAG FED |
+Bee fee | aee fed | Bee fee | faf def |
+g2f g2e | def g2d | edc d2A | BAG FED :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49301
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

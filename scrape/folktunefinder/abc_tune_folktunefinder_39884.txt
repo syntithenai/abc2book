@@ -1,0 +1,27 @@
+X:15
+T:Avant-deux Mardi-Gras (vers 0)
+R:
+N:
+O:France
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+V:1
+%%MIDI program 20
+A/B/c/d/ ee dg dB | GB A/B/c/d/eee2 | A/B/c/d/ ee dg dB | GB A/B/c/B/A2 A2 :||:
+A/E/C/B,/ A,A, cB G2 | G/E/C/B,/ G,G, CE A2
+V:2
+%%MIDI program 20
+A,2 A,2 G,2 G,2 | G,2 G,2 A,2 E,2 | A,2 A,2 G,2 G,2 |G,2 G,2 A,2 A,2 :||: 
+A,2 A,2 A,2 .C,2 | C,2 C,2 C,2 A,2 | A,2 A,2 A,2 C,2 | C,2 C,2 C,2 A,2 |
+S:https://www.folktunefinder.com/tunes/39884
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

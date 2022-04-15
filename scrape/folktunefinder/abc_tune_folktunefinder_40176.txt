@@ -1,0 +1,24 @@
+X:13
+T:A l'ombre de ce vert Bocage
+M:2
+L:1/4
+K:C
+%%staves [1 2]
+V:1
+ed/e/ | cg !!g>f | !!ed ef/g/ | de !!B>c | d2 ed/e/ | cg !!g>f | !!ed ef/g/ |
+d>g !!^f>g | g2 :: G!!B/c/ | d>e !!d>c | dG cd/e/ | c(d/e//f//) !!e>f |
+d2 g>a | gf/e/ !!d>c | ud{c}B de/B/ | uc>d !!d>c | c2 :|
+V:2
+C,2 | C2B,G, | CG,C,2 | B,,C,G,A, | (G,/F,/E,/D,/) C,2 | C2B,G, | CG,C,2 |
+B,,G,,D,D,, | G,,2 :: z2 | G,2z2 | G,,G,/F,/ E,D,/C,/ | E,D, C,C,, |
+G,,G,/F,/ E,F, | E,F,G,A, | G,3E, | A,F,!!G,G,, | C,2 :|
+S:https://www.folktunefinder.com/tunes/40176
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

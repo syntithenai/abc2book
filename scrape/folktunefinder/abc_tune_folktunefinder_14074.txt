@@ -1,0 +1,25 @@
+X: 1
+T: Danse de chez nous
+O: Philippe Bruneau
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:  G
+d \
+|: "G"g2B d2G | B3- B2G | DEF GAB | "Am"c3- c2d | "D7"e2A c2G | F3- F2d | fed  cBA |1 "G"B3- B2 :|2 "G"G6 ||
+|: "G"DGB d2B | e2B dBG | DGB d2B | e2B "D7"cAF | DFA c2A | d2A cAF | DFA cBA |1 "G"G3{Be}d3 :|2 "G"G3{Bd}g3 |]
+S:https://www.folktunefinder.com/tunes/14074
+S:http://trillian.mit.edu/~jc/music/abc/jig/DanseDeChezNous.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/DanseDeChezNous.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/DanseDeChezNous.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/DanseDeChezNous.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DanseDeChezNous.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

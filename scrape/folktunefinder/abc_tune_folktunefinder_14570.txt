@@ -1,0 +1,35 @@
+X: 1
+T: MacLeod of Mull
+R: jig
+C: Donald MacLeod
+S: arr. Matt Petrie, mods. by T. Traub 6-27-03
+M:6/8
+L: 1/8
+K: Bm
+   e \
+| "Bm"f2B  BcA | "Bm"B>ce f2a | "A"e>ce    fec | "F#m"A>Bc     e2f \
+| "Bm"a>cc BcA | "Bm"B>ce f2e | "D"f>aa "A"fae | "F#m"f>ec "Bm"B2 :|
+|: f \
+| "D"a2f a>ff | "A"e>fa    "E"f2c | "A"e>ce    f>ec | "A"A>Bc       e2f \
+| "D"a2f a>ff | "F#m"e>fa "Bm"f2e | "D"f>aa "A"f<ae | "F#m"f>ec "Bm"B2 :|
+|: f \
+| "Bm"B>cA B3 | "Bm"B>ce "E"f>ga | "A"c<AB "E7"c2B |   "A"c>AA   c<ef \
+| "Bm"B>cA B3 | "Bm"B>ce    f2e  | "D"f>aa "A"f<ae | "F#m"f>ec "Bm"B2 :|
+|: f \
+|   "D"a>ff eff | "Bm"B>ff "E"f2e | "A"f>aa    eff |   "A"A>ee  "E"e2f \
+| "F#m"a>ff eff | "Bm"B>ff    f2e | "D"f>aa "A"fae | "F#m"f>ec "Bm"B2 :|
+S:https://www.folktunefinder.com/tunes/14570
+S:http://trillian.mit.edu/~jc/music/abc/jig/MacLeodOfMull_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/MacLeodOfMull_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MacLeodOfMull_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MacLeodOfMull_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MacLeodOfMull_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

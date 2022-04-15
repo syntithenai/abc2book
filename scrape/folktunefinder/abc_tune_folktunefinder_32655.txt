@@ -1,0 +1,24 @@
+X: 2194
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+E: lw 400
+K: G
+|: DC \
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | FDAD c2DC |
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | "G"GFGA G2 :|
+|: DC \
+| "G"~B,2GB, DGB,D | GB,DG- GB,DG | "C"~C2GC EGCE | "(Am)"GCEG- GCEG |
+| "D7"~D2AD FADF | cDFB- BDAD | "G"GFGB "D7"AGFA | "G"GFGA G2 :|
+S:https://www.folktunefinder.com/tunes/32655
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

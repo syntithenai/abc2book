@@ -1,0 +1,22 @@
+X: 3
+P: Ol\'ahos
+O: Hungary
+B: Geisler
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: Ddor
+|: "Dm"M[AD][d/F/][e/G/] [f/A/][e/G/][dF] | M[AD][d/F/][e/G/] [f/A/][e/G/][dF] \
+| [af][af] [^ge][fd] | "A7"[e2A2] [e2A2] :|
+|: "F"[af]>[bg] [c'a][c'a] | [d'f][c'f] [bg][af] \
+| [bd][ad] [^ge][fd] | "A7"[e2^c2] [e2c2] \
+|  "F"[af]>[bg] [c'a][c'a] | [d'f][c'f] [bg][af] \
+| "A7"[bg][af] [fd][ec] | "Dm"[d2A2] [d2A2] :|
+S:https://www.folktunefinder.com/tunes/5873
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Olahos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

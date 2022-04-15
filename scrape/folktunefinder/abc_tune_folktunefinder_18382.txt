@@ -1,0 +1,26 @@
+X: 1
+T:The Idle Schottische
+M:4/4
+L:1/8
+Q:160
+C: Andy Turner 24/3/98
+S:Andy Turner <andyturner:britishlibrary.net> tradtunes 2002-9-13
+R:Schottishe
+N:The idea for the title came from someone mishearing me call the dance
+N:"The Ideal Schottische" at Kilve Concertina Weekend, March 1998
+K:Em
+A2 A2 edcB|c2 A2 AcBA | G2 A2 BGAB |ABcd e2 E2 | A2 A2 edcB | c2 A2 AcBA
+ | G2 d2 c2 B2 | A8 :|: G2 G2 BcdB | G2 G2  Bc d2 | A2 A2 cd e2 | AGAB
+cBAF | G2 G2 BcdB | G2 A2 BGBd | e2 E2 F2 ^G2| A8:||
+S:https://www.folktunefinder.com/tunes/18382
+S:http://trillian.mit.edu/~jc/music/abc/shottish/IdleSchottische_1.abc
+% Rhythm Schottishe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

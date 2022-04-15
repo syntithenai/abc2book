@@ -1,0 +1,26 @@
+X:207
+T: Ich fahr dahin
+N: A0252
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Liederbuch Ausgabe 1867 No. 8
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+E | F2F | C2B | A2G | F2
+F | E2F | G2C | E2D | C2
+C | F2G | A2G | B2A | F2
+F | A2B | c2d | c2A | F2
+G | FEF | B2A | FAG | F2
+S:https://www.folktunefinder.com/tunes/68753
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 2
+T:Jack of the Green
+M:9/8
+L:1/8
+B:Oswald's Caledonian Pocket Companion Book XI
+S:pete stewart  2005-6-16
+K:D
+   C2E D/E/FD     E2 |  A3 E2A F2D |    C2E D/E/FD  E3 |  d3 D2A F2D |
+   def    efg    fed |  e3 E2A F2D |    def    efg fef |  d3 D2A F2D |
+C/D/EC D/E/FD E/F/GE | F2A AEG FED | C/D/EC D/E/FD E2c | d3d  AG FED |
+   afd    afd    afd |  g3 B2e c2A |    afd    egf edc |  d3 D2A F2D |]
+S:https://www.folktunefinder.com/tunes/18532
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/Jack_of_the_Green_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/Jack_of_the_Green_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/Jack_of_the_Green_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/Jack_of_the_Green_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Jack_of_the_Green_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

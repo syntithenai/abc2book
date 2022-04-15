@@ -1,0 +1,36 @@
+X:753
+T:Xiraldilla (CT 040)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Alfredo Garca Muiz, de diez y ocho aos, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 040
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|GGG|GcB|(cB)A|AAA|ddc|d2c-|c2z|
+|GGG|GcB|(cB)A|AAA|ddc|d2c||
+GcB|(cB)A|GAA|(BA)G|GcB|(cB)A|GAA|(BA)G-|G2z|
+W:Yo si voi a Cuadonga
+W:nun voi por ninguna cosa;
+W:voi por ver la mio morena
+W:que tien cara de rosa.
+W:
+W:Y a Cuadonga marcho maana,
+W:y a Cuadonga prenda del alma.
+W:
+S:https://www.folktunefinder.com/tunes/59640
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

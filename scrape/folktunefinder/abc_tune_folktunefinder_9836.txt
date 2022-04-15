@@ -1,0 +1,21 @@
+X: 2
+P: Green Mountain Petronella
+R:reel
+Z: John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:G
+|: "G"D2 G2 GFGE  | D2 B2 BGAB | "Am"c2 cB ABcd | "D7"e2 d2 d4 |
+|  "G"D2 G2 GFGE  | D2 B2 BGAB | "Am"cdcB AGFG | "D7"A2 G2 "G"G2 z2 :|
+|: Bd || "G"g2 g2 "D7"f2 f2 | "C"efge "G"d4 | "C"edef "G"g2 B2 | "D7"B2 A2 A4 |
+| "Em"g2 g2 "D"f2 f2 | "C"efge "G"d4 | "C"edef "G"g2 B2 | "D7"B2 A2 "G"G2 z2 :|
+S:https://www.folktunefinder.com/tunes/9836
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AdmiralNelson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

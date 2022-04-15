@@ -1,0 +1,36 @@
+X: 1
+T: the Flowers of Edinburgh
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: A
+|: AF \
+| "A"E2EF A2AB | cAce dcBA | "E7"GAGF EFGA | BGeG F2AF |
+| "A"E2EF A2AB | cAce "D"fgaf | "A"edcB "E7"AGAB | "A"c2A2 A2 :|
+|: e2 \
+| "A"a2ae ac'ba | "E7"g2ge gbag | "F#m"~f2fg agfe | c2f2 "(D)"f2af |
+| "A"ecAc e2e2 | "D"fefg a2gf | "A"edcB "E7"AGAB | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/17178
+S:http://trillian.mit.edu/~jc/music/abc/reel/FlowersOfEdinburgh1_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FlowersOfEdinburgh1_A4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

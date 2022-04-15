@@ -1,0 +1,23 @@
+X:211
+T:Ross's Reel #4 
+T:with Harmony
+M:4/4
+K:F
+[V:1]|:a2|"C"g3 f e2 d2|"F"cdcB A2 GF|"C7"ECEG c2 cB|"F"AFAc f2 a2|
+[V:2]|:f2|e3 d c2 B2|ABAG F4|CG,CE G2 AG|FCFA c2 f2|
+%
+[V:1]"C7"g3 f e2 d2|"F"cdcB A2 GF|"C7"EFGA Bcde|"F"f2 a2 f2 :|
+[V:2]e3 d c2 B2|ABAG F4|EDEF GABc|A2 c2 A2 :|
+%
+[V:1]|:cB|"F"Accc dccc|AcLfc LacLfc|"F"Accc dccc|AcLfc LacLfc|
+[V:2]|:AG|FAAA BAAA|FAcA fAcA|FAAA BAAA|FAcA fAcA|
+%
+[V:1]"C7"Accc dccc|=BcLec LgcL_bc|"C7"=BcLec LgcL_bc|"C7"LacLgc "F"f2:|
+[V:2]FBBB cBBB|GBcB eBcB|GBcB eBcB|BAGB A2:|
+S:https://www.folktunefinder.com/tunes/55814
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

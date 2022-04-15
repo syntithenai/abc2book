@@ -1,0 +1,27 @@
+X:99
+T: Die Schreiber (Studenten)
+N: A0457
+O: Europa, Mitteleuropa, Deutschland
+N: Rotenbucher Bergkreyen 1551 Bo. 21.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: C
+C | CCEC | GG
+c2 | B2GA2G | E2z
+C | GABG | c2B2
+AG2E | FDC2z
+C | GGFE | F2E2
+C2 | E2AG2F | D2
+A2 | GGFE | C2E2
+A2 | G2EFD2 | C3
+S:https://www.folktunefinder.com/tunes/80158
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

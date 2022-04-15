@@ -1,0 +1,23 @@
+X: 7273
+T:Jack is Yet Alive
+R:Reel
+O:Shetland
+M:4/4
+K:G
+[G,D][G,E] [G,G]B {B}[A2D2] ac | bdbG AGEG | \
+DEGB A2 ce |1 BG AF G3E :|2
+BG AF G2 GB ::\
+[B2g2] ge f2ff | efge agfd |
+[B2g2] ge f2fd | efag f2d2 | \
+g2ge f2fd | [A2(e2] e)f edB2 | \
+g2fg {f}[e2A2] dc | BG AF G2G2 :|
+S:https://www.folktunefinder.com/tunes/34490
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

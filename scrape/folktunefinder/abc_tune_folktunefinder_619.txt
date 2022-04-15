@@ -1,0 +1,28 @@
+X: 161
+T:Adios Muchachos
+C:J.-C. Sanders
+R:Tango
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+Q:1/4=120
+K:Fmaj
+P:A
+c/2c/2c/2 S || a/2f/2f/2f/2 g/2e/2e/2e/2 | fd z/2g/2g/2f/2 | f e z/2f/2f/2e/2 |
+dc zc/2=B/2c/2 | f/2c/2=B/2c/2 e/2c/2=B/2c/2 | d_B z/2c/2=B/2c/2 | e/2c/2=B/2c/2 d_B/2A/2B/2 | 
+cA z/2c/2c/2c/2 | a/2f/2f/2f/2 g/2e/2e/2e/2 | fd z/2g/2g/2f/2 | fe z/2f/2f/2e/2 |
+dc zf/2f/2c/2 | c/2B/2B/2A/2 A/2G/2G/2F/2 | cB z/2d/2B/2G/2 | G/2F/2E/2F/2 AG | fineF z/2A/2 B/2A/2^G/2A/2|:
+P:B
+f/2eA/2 B/2A/2^G/2A/2 | e/2breathdc/2 d/2c/2=B/2c/2 | f/2ec d/2e/2f/2g/2 | breatha>f g/2f/2e/2f/2 | a/2gf/2 _d>B |
+g/2breathfc/2 =B/2c/2e/2=d/2 |1 d/2cc/2 =B/2c/2e/2d/2 | cz/2A/2 B/2A/2^G/2A/2 :|2 c/2_Bd/2 AG | Fz z/2c/2c/2c/2 S ||
+%%footer $D   Galouvielle-MBe 2008 \nTango (--)
+S:https://www.folktunefinder.com/tunes/619
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

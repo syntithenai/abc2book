@@ -1,0 +1,38 @@
+X:163
+T:Le tango du rve
+R:Tango
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:J. Ginas
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=60
+K:Bb
+V:1
+z2 z/d/^c/d/ | ed z/d/^c/d/ | ed z/d/^c/d/ | e>d AB | G2 z/^F/G/^G/ | A2 c2 | B2- B/ G/A/B/ | cd ef |
+d2 z/d/^c/d/ | ed z/d/^c/d/ | ed z/d/^c/d/ | gf ce | d4 | F/G/A/B/ (G/c/)d/e/ | f/e/d/^c/ d2 | d/e/d/c/ BA | G2z2 ||
+zf ed |: d2c2- | cB GA | d4- | d B cd | g2 e2- | e c de | f4- | fd d=e | ^f>e d2- | d^c/d/ =e^f | 
+a2 g2 | zg fe | d/Bc/ de | c/AB/ cd |1 B4- | Bf ed :|2 [B4b4] |2 [B2b2] S |]
+V:2 clef=perc stafflines=0 staffscale=0.7
+K:none
+z2 z2 | B B B z | B B B z | B>B BB | B2 z2 | B>B BB | B2 z2 | B2 B2 | 
+B>B BB | BB Bz | BB Bz | B2 B2 | B>B BB | B2 B2 | B2 BB | B2 BB | B>B BB ||
+B2x2 |: B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | B>B BB | 
+B>B BB | B2z2 | B>B BB | B>B BB | B>B BB | B2 z2 :| B>B BB | B2 |]
+%%footer $D   Galouvielle-MBe 2008 \nTarantella (Italy)
+S:https://www.folktunefinder.com/tunes/621
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

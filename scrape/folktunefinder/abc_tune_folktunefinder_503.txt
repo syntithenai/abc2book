@@ -1,0 +1,27 @@
+X: 44
+T:L'arlequine
+C:Trad. militaire
+R:Danse de caractre
+O:France
+A:Provence
+A:Sarthe
+Q:1/2=100
+I:abc2nwc
+M:2/2
+L:1/8
+K:Bbmaj
+B2d2B2d2|c3/2d/2e3/2f/2 e3/2d/2c3/2B/2|A2c2A2c2|A3/2B/2c3/2d/2 e3/2d/2c3/2B/2|
+d2f2d2f2|g3/2f/2 g3/2a/2 b2g2|f3/2b/2 a3/2g/2 f3/2e/2 d3/2c/2|B2d2B2z2|f2f2f3g/2a/2|b3/2a/2g3/2f/2 b2f2|
+e2e3/2c/2 d2d3/2B/2|c3/2B/2c3/2d/2 c4|f2f2f3g/2a/2|b3/2a/2g3/2f/2 b2f2|e2e3/2c/2 d2d3/2B/2|c3/2B/2c3/2d/2 B4|]
+%%footer $D   Galouvielle-MBe 2008 \nDanse de caractre (France)
+S:https://www.folktunefinder.com/tunes/503
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

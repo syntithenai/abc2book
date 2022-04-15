@@ -1,0 +1,27 @@
+X:552
+T: DES ABENDS WENN ICH SCHLAFEN GEH
+N: E0527B
+O: Europa, Mitteleuropa, Deutschland, Siebengebirge; Hessen, Darmstadt
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | F3GA2B2 | c3dc2
+A2 | B2A2B2c2 | A4z2
+c2 | c3AB2G2 | A3BA2
+F2 | G3AB2G2 | A2d2c2
+c2 | c3AB2G2 | A3BA2
+F2 | G3AB2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/78993
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 2
+T: Freilach - Ear Band #3
+Z: John Chambers <jc:trillian.mit.edu>
+R: freylach
+M: 2/4
+L: 1/16
+Q: 1/4=120
+K: Edor^A
+z2 \
+| "Em"B2e2 B2e2 | B2e2 gfe2 | gfe2 f2g2 | a2 b6 \
+| B2e2 B2e2 | B2e2 gfe2 | gfe2 "B7"^defd | "Em"e6 :|
+B2 \
+| "Em"A2B2 c2d2 | c2 B6 | B2 A6 | A2 G6 \
+| dcB2 BAG2 | BAG2 GFE2 | A2 B6- | B6 B2 |
+| "Em"A2B2 c2d2 | c2 f6 | e2d2 c2B2 | A2 G6 \
+| dcB2 BAG2 | BAG2 GFE2 | E8- | E6 z2 ||
+|| "Em"B2E2 F2G2 | =A2G2 F2E2 | G2F2 G2=A2 | B8 \
+| d2c2 B2^A2 | B2A2 B2c2 | d2c2 B2A2 | B6 B2 |
+| "Em"A2B2 c2d2 | c2 f6 | e2d2 c2B2 | A2 G6 \
+| dcB2 BAG2 | BAG2 GFE2 | E8- | E6 |]
+S:https://www.folktunefinder.com/tunes/6978
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_EarBand3.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:442
+T: UND ALS DER ERSTE SCHUSS
+N: E0359A
+O: Europa, Mitteleuropa, Deutschland, Berlin
+R: historisches Lied, Krieg gegen Napoleon (1815)
+M: 4/4
+L: 1/8
+K: C
+G,2 | C3G,E,2C,2 | G,4z2
+B,C | D2C2B,A,G,F, | E,4z2
+C2 | D2DDD2CD | E2D2C2
+C2 | D2DDD2CD | E2D2C2
+G,2 | C2CCEDCB, | A,4z2
+A,2 | G,2G,2G,2A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/78883
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen napoleon (1815)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

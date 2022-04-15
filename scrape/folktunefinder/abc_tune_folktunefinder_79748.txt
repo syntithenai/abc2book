@@ -1,0 +1,27 @@
+X:644
+T: ICH TRAU AUF GOTT
+N: E2017
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Paderborn
+R: geistlich, Gebet, Jesus - Lied
+M: 2/4
+L: 1/8
+K: G
+GA | _B2cB | A2d2 | c2_B2 | A4
+_B2AG | F2G_B | A4 | D2
+GA | _B2cB | A2d2 | c2_B2 | A4
+_B2AG | F2G_B | A4 | D2z2
+d2c_B | c2=F2 | d2c_B | c2=F2
+GA_Bc | d2GA | _B2A2 | G2
+S:https://www.folktunefinder.com/tunes/79748
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, gebet, jesus - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

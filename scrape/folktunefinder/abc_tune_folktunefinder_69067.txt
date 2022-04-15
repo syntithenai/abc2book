@@ -1,0 +1,27 @@
+X:208
+T: HORCH HORCH WELCHE WIRBELNDE TOENE
+N: Z0207
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied
+M: 4/4
+L: 1/16
+K: Bb
+F4 | B4B2B2c2B2A2G2 | F6E2D4
+F4 | B4B3Bc4c3c | d12
+d2c2 | c2B2B2B2c2B2c2d2 | B8F4
+f3e | d4c2B2e4d2d2 | c8z4
+F4 | c4e3cd4f3d | c2A2F4z4
+F4 | d4d4d4d3d | B8z4
+F4 | e4e3ec4c3c | f6d2
+B6F2 | d3Bf3dc3Bc3d | B8z4
+S:https://www.folktunefinder.com/tunes/69067
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

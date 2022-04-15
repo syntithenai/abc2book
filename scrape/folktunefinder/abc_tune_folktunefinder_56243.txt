@@ -1,0 +1,31 @@
+X:1304
+T:Bedfordshire March. JC.061
+M:C
+L:1/8
+Q:110
+S:John Clare,Poet,Helpston. (1793-1864)
+R:March
+O:England
+A:Northamptonshire
+N:MR. Bars 7,15.17.18.19, the 3over the triple qu's missing.Except for
+N:bar 17 there are slurs over in the MS at each 3 note Phrase.
+Z:P Headford
+K:G
+d2d>dd2c2|B2B>BB2A2|(G3A/)B/A3.B/c/|B2B>BB2A>B|!
+c2B2d2cB|c3d/e/d2c2|((3BAB)((3cBA)G2~A2|G.GG>GG2:|!
+|:d2A>AA2B2|A>GA>BA2B2|c2B2A2G2|A2A>AA2B>c|!
+d2Bcd2ec|d2Bcd2ec|d>Bc>A ((3BAG)((3dcB)|B2A>AA2D2|!
+G2((3GAB)A2((3ABc)|B2((3Bcd)c2((3cde)|((3dgf)((3gec)B2~A2|G2G>GG2:|]
+S:https://www.folktunefinder.com/tunes/56243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:530
+T:Quick March 15th Regt.
+B:Aird's Airs and Melodies vol 2
+M:2/4
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000132.html
+%%ID:00000132
+K:D
+a4 a4| a6g2| f2ed e2dc| d2A2 F2D2| \
+a4 a4| a6 g2| f2ed e2dc| d4 d4::
+f2ag f2ed| g2ba g2fe| f2gf e2fe| dcBA GFED|\
+f2ag f2ed| g2ba g2fe| fafd egec| d4 d4::
+f2f2e2f2| g2g2f2g2| a2g2f2e2| d2A2 A4|\
+f2f2e2f2| g2g2f2g2| a2g2f2e2| d4 d4:|
+S:https://www.folktunefinder.com/tunes/30415
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

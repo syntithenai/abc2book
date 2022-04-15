@@ -1,0 +1,24 @@
+X: 4
+P: The Lass o' Patie's Mill
+O: Trad
+M: C|
+L: 1/8
+B: BSFC XI-5
+R: march/reel
+Z: John Chambers <jc@trillian.mit.edu>
+K: D
+|: A2 | "D"GFED F2A2 | d3e f2A2 | "G"Bcdc BAGF | "Em"F4 "A7"E2AG \
+      | "D"GFED F2A2 | d3e f2A2 | "G"BcdB "A7"cdef | "D"d6 :|
+|: f2 | "Em"gfed "A7"dcBA | d3e f2A2 | "G"Bcdc BAGF | "Em"F4 "A7"E2AG \
+      | "D"GFED F2A2 | d3e f2A2 | "G"BcdB "A7"cdef | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/58400
+S:http://trillian.mit.edu/~jc/music/book/500/DukeOfPerth2.abc
+% Rhythm March/reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

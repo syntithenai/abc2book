@@ -1,0 +1,29 @@
+X: 1
+T: Suomisen V\"ain\"on polkka
+R: polka
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: G
+|: "G"GBcd edcB | "D7"A2F2 d2F2 |1,3 FABc dcBA | "G"B2G2 e2G2 \
+                               :|2,4 f2e2 dcBA | A2G2 "G"G4 :|
+|: "Em"b2g2 e4 | "D"f2e2 d4 | f2e2 dcBA |1,3 "G"GBcd e2g2 \
+                                       :|2,4 A2G2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/4408
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Polka5.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/SuomisenVainonP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/polka/SuomisenVainonP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/SuomisenVainonP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/SuomisenVainonP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

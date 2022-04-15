@@ -1,0 +1,33 @@
+X: 1
+T: Country Lasses
+B: Kerr's Third p.20
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+F \
+|: "Bb"B2df     bfdf \
+|  "Eb"gabg "Bb"fdBd \
+|  "Eb"efge "Bb"defd \
+|1 "C7"cdcB  "F"AFGA \
+:|2"F7"cBcd "Bb"B3   |
+|: f \
+|  "Bb"b2ba     bfdf \
+|      b2ba     bfdf \
+|  "Eb"efge "Bb"defd \
+|1 "C7"cdcB  "F"Acc  \
+:|2"F7"cBcd "Bb"B3  |]
+S:https://www.folktunefinder.com/tunes/16971
+S:http://trillian.mit.edu/~jc/music/abc/reel/CountryLassesR_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CountryLassesR_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/CountryLassesR_Bb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

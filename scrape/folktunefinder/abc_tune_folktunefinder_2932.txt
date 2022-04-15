@@ -1,0 +1,57 @@
+X: 1
+T: \vSetnja
+O: Srbija
+Z: 1997 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Play the first part 6 or 8 times, then speed up for the second part.
+N: Sometimes the second part is played like the first part, but faster.
+M: 2/4
+L: 1/8
+K: F
+P: Slowly:
+|: "F"[c2A] [cA][cA] | [cA][BG] [BG][AF] | "C7"[AF][GE] [GE][AF] | [B2-G-] [BG][AF] \
+| [GE][AF] [BG][AF] | "G7"[BG][AF] [GE][FD] | "C"[G2E] [GE][GE] | [G4E] :|
+[FD] |: "C7"[G3E] [AF] | [B2-G2-] [BG][AF] | [AF][GE] [GE][AF] | [B2-G2-] [BG][AF] \
+| [GE][AF] [BG][AF] | "G7"[BG][AF] [GE][FD] | "C"[G2EC2] [GEC][GEC] | [G4E4C4] :|
+P: Faster:
+K: C
+|: "C"[g2e] [ge][ge] | [ge][fd] [ge][ec] | "G7"[f2d] [fd][fd] | [fd][ec] [dB][ec] \
+| [f2d] [fd][fd] | "D7"[ec][dB] [ec][cA] |1 "G7"[d2B] [e2c] | [f2d] [^f2^d] :|2 "G"[d2B] [dB][BG] | [d4B] ||
+[cA] |: "G7"[d3B] [ec] | [f3d] [ec] | [ec][dB] [dB][ec] | [f3d] [ec] \
+| [dB][ec] [fd][ec] | "D7"[fd][ec] [dB][cA] | "G"[d2B2G2] [dBG][BGD] | [d4B4G4] :|
+P: Last time:
+[cA] || "G7" [d3B] [ec] | [f3d] [ec] | [ec][dB] [dB][ec] | [fd]z3 [f/d][e/c][d/B][c/A] | "D7"[d8c8A8^F8] | "G"[d8-B8-G8-] | H[d8B8G8] |]
+%%sep 5 5 300
+P: Bb instruments:
+P: Slowly:
+K: G
+|: "G"[d2B] [dB][dB] | [dB][cA] [cA][BG] | "D7"[BG][AF] [AF][BG] | [c2-A2-] [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2F] [AF][AF] | [A4F] :|
+[GE] |: "D7"[A3F] [BG] | [c2-A2-] [cA][BG] | [BG][AF] [AF][BG] | [c2-A2-] [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2FD2] [AFD][AFD] | [A4F4D4] :|
+P: Faster:
+K: D
+|: "D"[a2f] [af][af] | [af][ge] [af][fd] | "A7"[g2e] [ge][ge] | [ge][fd] [ec][fd] \
+| [g2e] [ge][ge] | "E7"[fd][ec] [fd][dB] |1 "A7"[e2c] [f2d] | [g2e] [^g2^e] :|2 "A"[e2c] [ec][cA] | [e4c] ||
+[dB] |: "A7" [e3c] [fd] | [g3e] [fd] | [fd][ec] [ec][fd] | [g3e] [fd] \
+| [ec][fd] [ge][fd] | "E7"[ge][fd] [ec][dB] | "A"[e2c2A2] [ecA][cAE] | [e4c4A4] :|
+P: Last time:
+[dB] || "A7" [e3c] [fd] | [g3e] [fd] | [fd][ec] [ec][fd] | [ge]z3 [g/e][f/d][e/c][d/B] | "E7"[e8d8B8^G8] | "A"[e8-c8-A8-] | H[e8c8A8] |]
+S:https://www.folktunefinder.com/tunes/2932
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Shetnja.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Shetnja.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Shetnja
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

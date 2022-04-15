@@ -1,0 +1,19 @@
+X: 1
+T: Polska efter Ossian Eklund
+D: Mats & Ulf Andersson "L\aatar fr\aan F\"ollingetrakten i J\"amtland"
+M: 9/16
+L: 1/16
+%%slurgraces 1
+K: D
+|: "D"D2F A2d f2a | "A7"a2g efg "D"f3 | "A7"efg f2d e2c |1,3 ABc "D"d2A FAF :|2,4 ABc "D"d6 :|
+|: "G"{c}B2A Bd2 c2B | "D"A2a faf dfd | "A7"A2g ege cec |1,3 "D"A2a fdf d2c :|2,4 ABc "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16470
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_OssianEklund_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_OssianEklund_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

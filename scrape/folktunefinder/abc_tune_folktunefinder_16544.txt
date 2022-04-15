@@ -1,0 +1,28 @@
+X: 1
+T: Sl\angpolska
+R: sl\angpolska
+S: Janet Gage, Oct 1998
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: G
+|: GG/A/ Bd gd | ec Ad BG | G>A Bc A>B | GF/G/ TBA FD |
+|  GG/A/ Bd gd | ec Ad BG | A>B ce dc | B/c/A/F/ G4 :|
+|: {A}a>a fd d2 | b>a ge cd/e/ | T=fe dc BA/B/ | cd/e/ =fd d2 |
+|  a>a fd d2 | b>a ge cd/e/ | T=fe dc Bd/B/ | AG/F/ G4 :|
+S:https://www.folktunefinder.com/tunes/16544
+S:http://trillian.mit.edu/~jc/music/abc/pols/SlangPolska4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SlangPolska4.abc
+% Rhythm Sl\angpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Andy de Jarlis' Jig
+S: Jerry Holland, who learned it from Mike MacDougall
+R: jig
+M: 6/8
+L: 1/8
+K: E
+|: "E"EGB EGB | EGB "A"c2B | "E"EGB EGB | "D"=DFA B2A \
+|  "E"EGB EGB | EGB "A"c2a | "B7"g2f Bcd | "E"e6 :|
+f- \
+|: "E"gbg efg | "F#m"gba c3 | "B7"f2g f2e | dcB c2B \
+|  "E"gbg efg | "F#m"gba c2a | "B7"g2f Bcd | "E"e6 :|
+S:https://www.folktunefinder.com/tunes/13789
+S:http://trillian.mit.edu/~jc/music/abc/jig/AndyDeJarlisJ_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/AndyDeJarlisJ_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/AndyDeJarlisJ_E.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:395
+T: UND DO ICH SASS IN MEINER ZELL
+N: E1584
+O: Europa, Mitteleuropa, Deutschland
+R: Staende - Lied, Bettel - Moench
+M: 4/4
+L: 1/4
+K: F
+F | F2A2 | c2z
+c | dccB | A2z
+A | AAAA | B2A
+G | AGGF | G2z
+G | DDE2 | F2z
+F | AAAA | F2z
+F | BBBB | B2A
+G | AAGF | G2z
+G | DDEE | F2F
+F | AABG | F3
+S:https://www.folktunefinder.com/tunes/79499
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, bettel - moench
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

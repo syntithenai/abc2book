@@ -1,0 +1,44 @@
+X:2
+T:Overture to the sun
+C:Walter Carlos - (Terry Tucker )
+D:Clockwork Orange
+Z:transcription : anamnese@laposte.net
+M:2/4
+L:1/4
+Q:1/4=185
+K:C
+V:1
+^dgfd c=d ^d2 | _BdcB c2c2|\
+^dgfd c=d ^d2 | _BdcB c2c2|!
+c_B^G=G B2B2  | Gdc_B c2c2|\
+c_B^G=G B2B2  | Gdc_B c2c2|!
+^dgfd c=d ^d2 | _BdcB c2c2|\
+^dgfd c=d ^d2 | _BdcB c2c2|!
+c_B^G=G B2B2  | Gdc_B c2c2|\
+c_B^G=G B2B2  | Gdc_B c2c2|!
+egegf/g/ag2 | f/g/aged2d2|
+egegf/g/ag2 | f/g/aged2d2|\
+c2c3/c/c4 ||
+V:2
+[G3^D3C3]C[D3C3^G,3]G, | [F3D3_B,3]B,[G2C2][G2C2]|\
+[G3^D3C3]C[D3C3^G,3]G, | [F3D3_B,3]B,[G2C2][G2C2]|!
+[^D3C3^G,3]G,[F3=D3_B,3]B,|[D3_B,3G,3]G,[G3^D3C3]C|\
+[^D3C3^G,3]G,[F3=D3_B,3]B,|[D3_B,3G,3]G,[G3^D3C3]C|!
+[G3^D3C3]C[D3C3^G,3]G, | [D3_B,3F3]B,[G2C2][G2C2]|\
+[G3^D3C3]C[D3C3^G,3]G, | [D3_B,3F3]B,[G2C2][G2C2]|!
+[^D3C3^G,3]G,[=D3_B,3F3]B, | [D3_B,3G,3]G,[G3^D3C3]C|\
+[^D3C3^G,3]G,[=D3_B,3F3]B, | [D3_B,3G,3]G,[G3^D3C3]C|!
+[G2E2C2]C2[c3A3F3]C | [c3A3F3]C[A2^F2D2][A2F2D2]|
+[G2E2C2]C2[c3A3F3]C | [c3A3F3]C[A2D2^F2][A2D2F2]|\
+C2C3/2C/2C4 ||
+% Compositions personnelles
+S:https://www.folktunefinder.com/tunes/45826
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

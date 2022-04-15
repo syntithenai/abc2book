@@ -1,0 +1,26 @@
+X:400
+T: LASST DIE POLITIKER NUR SPRECHEN
+N: F0732
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied
+M: 3/4
+L: 1/8
+K: C
+ | C2C2C2 | C2B,2C2 | A,2C2A,2 | A,2G,2z2
+C2C2C2 | C2B,2C2 | G,2F2E2 | E2D2z2
+C2C2C2 | C2B,2C2 | A,2C2A,2 | A,2G,2z2
+C2C2C2 | C2B,2C2 | G,2F2E2 | E2D2z2
+D2D2D2 | D3CB,2 | C2A,2^F,2 | G,4z2
+E2E2E2 | G3FE2 | D2C2B,2 | C4z2
+D2D2D2 | D3CB,2 | C2A,2^F,2 | G,4z2
+E2E2E2 | G3FE2 | D2C2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/69960
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

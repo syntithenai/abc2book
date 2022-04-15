@@ -1,0 +1,26 @@
+X:5070
+T:Red Wing
+L:1/8
+M:2/4
+O:USA
+O:England
+Q:1/8=280
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c8c.html
+%%ID:00000c8c
+K:G
+D|:\
+GG/G/ GB  | d2 dG     |  ce g/f/e | d3       B | \
+c3/2B/ Ac | B3/2A/ GB |1 AE FG    | A/B/A/F/ ED :|2 AE FD | G2 gf |:
+e2 e3/2e/ | eg fe |  d2 B2 | Bd ed  | \
+d2 A2     | Ad ed |1 d2 B2 | B2 gf :|2 Ac BA | G4 |]
+S:https://www.folktunefinder.com/tunes/37093
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

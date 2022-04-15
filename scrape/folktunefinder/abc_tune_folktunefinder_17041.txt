@@ -1,0 +1,20 @@
+X: 1
+T: Double Lead Through
+O: English
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"{def}g2d2 "D7"c2A2 | "G"G2G2 GABG | "C"E2E2 "D7"F2D2 | "G"G8 :: "D"A3d ^c2d2 | A2d2 ^c2d2 | A2d2 "A7"e2A2 |
+| "D"f8 | "D"A3d ^c2d2 | A2d2 ^c2d2 | "A7"A2g2 f2e2 | "D7"d2c2 B2A2 |: "G"G2G2 GABG | "D7"A2A2 ABcA |
+| "G"Bcd2 "C"cde2 | "D7"e2d2 d2ef | "C"g2g2 gfe2 | "D7"d2d2 "G"dcB2 | "C"ABc2 "G"Bcd2 |1 "C"egfe "D7"dcBA :|2 "C"e2"D7"f2 "G"g4 |]
+S:https://www.folktunefinder.com/tunes/17041
+S:http://trillian.mit.edu/~jc/music/abc/reel/DoubleLeadThrough_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/DoubleLeadThrough_G3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

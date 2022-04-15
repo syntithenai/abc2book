@@ -1,0 +1,34 @@
+X: 1
+T: Polska spelad av J.Norrman i jaren, Strm
+R: tabaks-polska
+C: Arr. Gran Olsson-Fllinger
+Z: John Chambers <jc@trillian.mit.edu>
+N: Original in 3/4; converted to 9/16 by John Chambers
+M: 9/16
+L: 1/16
+K: Dm
+V: 1 stv=2
+|: A2B A2G F2E | D(^CD) E(FE) D3- | D2F A2d ^c2d |1,3 e(fe) d(^ce) e2c :|2,4 e(fe) d6 :|
+|: d2b ba2 a3- | a2e g(ag) f3- | f2e d2^c d2f | e(fe) d2^c A3- |
+|  d2b ba2 a3- | a2e g(ag) f3- | f2e d2^c d2f | e(fe) d6 :|
+|: d2^c d2e f2g | a2g b(ag) a3- | a2g f2e d2f | ezd ^c(dc) A3- |
+|  A2^c d2e f2g | a2g b(ag) a3- | a2g f2e d2f | e(^ce) d6 :|
+V: 2
+|: F3 E3 A,3 | B,3 A,6 | A3 F3 E2F |1,3 G3 B3 G3 :|2,4 G3 F3 D3 :|
+|: F2E D3 ^C2A, | ^C3 E3 D3 | G3 E3 F2D | ^C3 A,3 C3 |
+|  A,3 F3  E2A, | ^C3 E3 D3 | G3 E3 F2D | ^C2A, [F6D6] :|
+|: F3- F2E D2E | F2E D2E ^C2A, | A3- A2G B2A | GzF E3 ^C3 |
+|  A,3 F2G (DzE) | F2E D2E ^C2A, | A3- A2G B2A | G3 F6 :|
+S:https://www.folktunefinder.com/tunes/16484
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_avJNorrman_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_avJNorrman_2V.abc
+% Rhythm Tabaks-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 9/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

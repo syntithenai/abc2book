@@ -1,0 +1,26 @@
+X:169
+T: Ihr lustige Brueder, stimmt das schoene Lied a,
+N: D0298
+O: Europa, Mitteleuropa, Deutschland, Baden, Alpirsbach
+N: Inzipit = Variante zum Lied
+R: Staende - Lied, Floesserlied
+M: 3/4
+L: 1/8
+K: D
+A,2 | D2D3E | F2F2
+DF | A2A2BA | A2z2
+AA | B2G3B | BAF2z
+F | A3EA2 | F2z2
+AA | B2G3B | BAF2z
+A | c2B2G2 | F2z2
+S:https://www.folktunefinder.com/tunes/72626
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, floesserlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

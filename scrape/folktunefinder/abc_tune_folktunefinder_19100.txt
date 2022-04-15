@@ -1,0 +1,30 @@
+X:1
+%% Copyright 1940 The Peter Maurice Music Co. Ltd
+T:A nightingale sang in Berkeley Square
+M:4/4
+L:1/4
+C:Manning Sherwin & Weic Maschwitz
+Q:1/4=100
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x || "Ebmaj7"x2 "Cm7"x2 | "Gm7"x2 "Eb7"x2 | "Abmaj7"x2 "G7"x2 | "Cm7"x2 "Fm7b5"x2 |
+"Ebmaj7"x2 "Fm7"x2 | "Eb7"x2 "Db7"x2 | "Eb/Bb"x2 "Cm7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+B, || GG E>E | BB GE/E/ | (3ccc (3ddd | e3 e/e/ |
+S:https://www.folktunefinder.com/tunes/19100
+S:http://trillian.mit.edu/~jc/music/abc/song/nightingale_sang_in_Berkeley_Square.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/nightingale_sang_in_berkley_square.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/nightingale_sang_in_Berkeley_Square.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/nightingale_sang_in_berkley_square.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

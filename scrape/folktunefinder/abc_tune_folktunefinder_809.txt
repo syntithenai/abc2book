@@ -1,0 +1,42 @@
+X:175
+T:A onde vas dar agua (CT 227)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Fernando Menndez lvarez, de treinta y cinco aos, de Llanuces, ayuntamiento de Quirs.
+O:Llanuces (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 227
+M:3/8
+L:1/8
+Q:3/8=88
+W:A onde vas dar agua,
+W:mozu de mulas,
+W:que desde mi cama siento
+W:las herraduras.
+W:
+W:Si sientes las herraduras
+W:de mi parexa,
+W:levntate de la cama,
+W:ponte a la rexa.
+K:G
+B
+|:d2 B|cBA|G F2|GAB|(c3/4d/8c/8) B2-|B z B|
+|d2 B|cBA|G F2|GAB|(c/2d/4c/4 B/2c/4B/4 A/2B/4A/4)|
+G3-|[1 G2B:|[2 G2||
+S:https://www.folktunefinder.com/tunes/809
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

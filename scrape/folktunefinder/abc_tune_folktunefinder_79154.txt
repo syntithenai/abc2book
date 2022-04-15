@@ -1,0 +1,27 @@
+X:50
+T: ICH BIN SO LANG NICHT BEI DIR GEWESN
+N: E1046
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Tanz - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G2A2B2c2 | d2cBA2
+GA | B2A2G2F2 | G4z2
+d2 | c2B2A2G2 | F2E2D2
+d2 | c2B2A2G2 | F2E2D2
+D2 | G2A2B2c2 | d2cBA2
+GA | B2A2G2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/79154
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

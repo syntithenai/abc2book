@@ -1,0 +1,29 @@
+X: 1
+T: Miss Wilma McKay's Wedding March
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea f>ea>A | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2 A2 :|
+|: a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea f>ea>A | "E7"c2B2B2 a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea "E7"f>ea>B | "A"c2A2A2 a2 |
+| "D"f>ga>f "A"eacB | ABcd e2a2 | "D"f2"A"ea feaA | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2A2 :|
+S:https://www.folktunefinder.com/tunes/14674
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissWilmaMcKaysWeddingMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/MissWilmaMcKaysWeddingMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissWilmaMcKaysWeddingMarch.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

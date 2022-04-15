@@ -1,0 +1,57 @@
+X: 1
+T: Abi gezint
+M: 2/4
+L: 1/8
+K: Dm
+|: A, \
+"A1"\
+| "Dm"DF A>A \
+| "Gm"cB "A7"A<G \
+| "Dm"DE F>G \
+| "Gm"AG "A7"F<E \
+| "Cm"A,D F2 \
+| "E7"FE "A7"D^C \
+|1"Dm"D2 c2 \
+| "A7"{=B}A3 \
+:|2 "Dm"D4- \
+| DD EF ||
+"B"\
+||"Gm"G4 \
+| zE/G/ F/E/D \
+| "Dm"A4 \
+| zD EF \
+| "Gm"G>D G>D \
+| G>A "C7"c/B/A/G/ \
+| "F"A2 "Gm"G2 \
+| "E7"F2 "A7"E>A, \
+"A2"\
+||"Dm"DF A>A \
+| "Gm"cB "A7"A<G |
+| "Dm"DE F>G \
+| "Gm"AG "A7"F<E \
+| "Cm"A,D F2 \
+| "E7"FE "A7"D^C \
+| "Dm"D4- \
+| "fine"D3 z \
+"C"\
+|:"Dm"d/d/d/d/ "D7"Ac \
+| "Gm"B/B/B/B/ EB \
+| "A7"A/A/A/A/ EF |
+| "Dm"D3 D \
+|1"A7"EF GE \
+| "Dm"FG A>A \
+| "E7"^GA =B^c \
+| "A7"A4 \
+:|2"A"EE "B7"^FF \
+| "E7"^GG "A"AA \
+| "Bm"=BB "E7"^cc \
+| "A7"A3 "d.C."z|]
+S:https://www.folktunefinder.com/tunes/75170
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/AbiGezint_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AbiGezint_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 2
+T: Karusellen
+T: The Carousel
+M: C
+L: 1/8
+K: A
+z \
+| "A" E2 E2 E2 E2 | A>E CD E2 z2 | "D"F>E DC "E7"D2 D2 | E>D CB, "A"C2 C2 |
+w: Jung-fru, jung-fru, jung-fru, jung-fru sk\"on, h\"ar \"ar ka-ru-sel-len, som ska g\aa till kv\"al-len
+| "A"E>E EE E2 EE | A2 C>D E2 E>E | "D"F2 F>F "E7"G2 G>G | "A"A>A AA A3 |
+w: Ti-o f\"or de sto-ra och fem f\"or de sm\aa. Skyn-da p\aa, skyn-da p\aa, nu ska ka-ru-sel-len g\aa.
+|: C |"A"E2 E2 E2 zE | "D"F2 F>F F2 zF | "E7"G>G G>G G>E FG | "A"A2 A>A A2 z :|
+w: F\"or ha, ha, ha, nu g\aar det s\aa bra, f\"or An-ders-son och Pet-ters-son och Lund-str\"om och ja'.
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/9462
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_w.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

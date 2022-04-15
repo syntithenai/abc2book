@@ -1,0 +1,29 @@
+X:6
+T:6. Pastorale
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-11-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:12/8
+L:1/8
+Q:"Largo"
+K:G
+V:Alto clef=treble
+D3) z3 !p![G6G,6] | [G6G,6](C3D3) | G,3z3 !p![d6D6] | [d6D6] [d6D6] |
+(G,3A,3)"r"D,3z3 | !f![G6G,6][G6G,6] | [G6G,6]C3D3 | G,3!p!G6F3- | F3E6D3- |
+D3C6(B,2E) | (^CB,A,) D2!f!D (D2F) (A2.A) | F3z2!p!DD3D3 | D3z2!mf!GG3G3 | G3z2!f!GG3z2D |
+E3z2B,C3D3 | x3x2B (cde)(A2d)&D3z2!p!GE3F3 | B3x3x6&G3z3z6 | z12 | z3z2!f!G(A2B)(E2D) |
+D3z2!mf!GG3z2A | A3z2BB3z2D | D2!p!GF3E3D3 | C3B,3A,3z2!f!"poco largamente"G | (G2B,)(D2D)D2zC3 |
+Hz3!p!G,3Hz6 | !f!(A,2B,)(D2D)B,3z2"a tempo"!mf!E | (^D2B,)("mi"E,2.E)(D2B,)z2A, | E3z2A,E3z2B, | F3z2B,F3z3 |
+z12 | z3z2!p!G^C3B,3 | F3F3F3z3 | z6z3z2!mf!B | B3z2B^C3z2F |
+F3F3F6 | !p![G6G,6][G6G,6] | [G6G,6](C3D3) | G,3z3!p![d6D6] | [d6D6][d6D6] |
+(G,3A,3)"r"D,3z3 | !f![G6G,6][G6G,6] | [G6G,6]C3D3 | G,3!p!G6F3- |
+F3E6D3- | D3C6(B,2E) | (^CB,A,) (D2!f!D)(D2F)(A2.A) | F3z2!p!Gd3D3 |
+D3z2Gd3D3 | D3z2DG3z2D | D3z2B,C3z2C | D3z2G(E2D)D3 |
+D3z2!f!GG3G3 | G3z2GG3G3 |G3z2B,C3z2D |D3D3D3z2!p!D | D3z3D3z3 | D3z3z6 |]
+S:https://www.folktunefinder.com/tunes/45768
+S:http://michel.bellon.free.fr/Musique/abc/Corelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

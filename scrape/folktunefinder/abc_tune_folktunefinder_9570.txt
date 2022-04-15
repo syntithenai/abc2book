@@ -1,0 +1,21 @@
+X: 5
+P: Steamboat Quickstep
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"a2e c2A | "E7"efg "A"a3 | "D"agf "A"edc | "E7"Bed  "A"cBA \
+|  "A"a2e c2A | "E7"efg "A"a3 | "D"agf "A"edc | "E7"edB  "A"A2 :|
+|: "A"c2e efe |     efe   c2A | "D"d2f    fgf |     fga "E7"e2d \
+|  "A"c2e efe |     efe   c2A | "D"agf "A"edc | "E7"edB  "A"A2 :|
+S:https://www.folktunefinder.com/tunes/9570
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ14.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

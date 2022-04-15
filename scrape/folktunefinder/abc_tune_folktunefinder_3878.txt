@@ -1,0 +1,30 @@
+X: 1
+P: Levi Jackson Rag
+C: Pat Shaw (1975)
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+"C7"c2[d2=B2][e2=B2] \
+|| "F"[f4A4] c4 | dcAc- "C7"cAG2 | "F"F8 | C8 \
+| "Ab"_E4 _A4 | c_efe- ecB2 | "C"c8 | "C7"d4 e4 |
+| "F"f4 c4 | dcAc- cAG2 | "Bb"F8 | D6 _D2 \
+| "F"C4 "D7"c4 | "G7"AFG_A- "C7"AFG2 | "F"F4- "(Bb)"F4- | "F"F2 F2E2_E2 ||
+|| "Bb"DFGB, DFDF | GB,DF DFGB | "Gm"d2dd- dcB2 | G8 \
+| "D"^FA=BD FAFA | =BD^FA FABd | "Bm"^f2ff- fed2 | =B8 |
+| "D7"^f2ff- fed2 | "G7"=f2ff- fed2 | "C"e2ee- edcd | "C7"eged cdeg \
+| "F"aged- "D7"dcA2 | "G7"dcAG- "C7"GFD2 | "F"F8- "Bb"F8- | "F"F2 |]
+S:https://www.folktunefinder.com/tunes/3878
+S:http://trillian.mit.edu/~jc/music/abc/England/LeviJacksonRag.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/LeviJacksonRag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

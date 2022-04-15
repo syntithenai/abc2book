@@ -1,0 +1,29 @@
+X:529
+T: DES JAHRES LETZTE STUNDE
+N: F1021
+O: Europa, Mitteleuropa, Deutschland
+R: Erbauungs - Lied, religioes, Fest, Neujahr
+M: 4/4
+L: 1/8
+K: Eb
+B,2 | E2G2B2B2 | B4G2
+FE | F2F2F2B,2 | G4z2
+E2 | G2B2e2e2 | e4c2
+BA | B2B2d2c2 | B4z2
+F2 | B2c2_d2d2 | _d4c2
+B2 | A2G2F2E2 | G4F2
+B,2 | E2G2B2B2 | e3ee2
+E2 | F2G2A2G2 | C4D4 | E4z2
+E2 | G2E2B2G2 | e6e2 | e6
+E2 | F2G2A2G2 | c4D4 | E4z2
+S:https://www.folktunefinder.com/tunes/70089
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erbauungs - lied, religioes, fest, neujahr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

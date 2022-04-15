@@ -1,0 +1,29 @@
+X:1160
+T:Cook in the Kitchen
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000aa2.html
+%%ID:00000aa2
+K:G
+E|\
+DGG GAG|=FDE F2E|DGG GFG|Add cAG|\
+DGG GAG|FDE =F2d|cAG FGA|BGG G2::
+A|\
+BcB BAG|ABA AGF|GAG GFG|A2d cAG|\
+BcB BAG|ABA A2d|cAG FGA|BGG G2::
+d|\
+d2e f2g|a2g fed|cAG FGA|BGB AFD|\
+d2e f2g|a2g fed|cAG FGA|BGG G2:|
+S:https://www.folktunefinder.com/tunes/36311
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

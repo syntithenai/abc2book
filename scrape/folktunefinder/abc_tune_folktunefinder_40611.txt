@@ -1,0 +1,37 @@
+X:30
+T:Koekeboe
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:(AABBCC)x2
+L:1/8
+M:C|
+K:C
+P:Voorspel
+G^FGF G2 e2 | e2 d2 d2 BA | G2 ^G2 A2 B2 | c4 c2 z2 |]
+P:A
+G^FGF G2 e2 | e2 d2 d4 | =FEFE F2 d2 | d2 c2 c4 |
+G^FGF G2 g2 | g2 =f2 f4 | edce dcBd | c2 c2 c4 :|
+P:B
+K:F
+A^GAG A2 c2 | d2 c2 A2 F2 | G^FGF G2 B2 | c2 B2 A4 |
+A^GAG A2 c2 | e2 d2 c2 =B2 | _BA^GA dcB=G |1 F2 F2 F2 z2 :|2 F2 F2 F2 HG2 |]
+P:C
+K:C
+M:6/8
+L:1/8
+EFE DED | C2 E G2 c | BAG FEF | A2 G2 | EFE DED |
+|1 C2 E G2 c | BAG GAB | (c3 c) z z :|2 C2 E HG2 c | BAG GAB | (c3 c) z z |]
+S:https://www.folktunefinder.com/tunes/40611
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

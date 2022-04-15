@@ -1,0 +1,26 @@
+X:3950
+T:Northern Nanny
+A:North-West
+M:C|
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000050d.html
+%%ID:0000050d
+K:D
+g2|\
+d2B2 ABAG| G4 D4| E2G2 GABG| A4 A2g2|\
+d2B2 ABAG| GABG D3D| EFG2 A2B2| e6||
+B2|\
+c3d ede=f| =f4 efge| dedB ABAG| A6 g2|\
+d2B2 ABAG| G4 D2D2| EFG2 B2d2| g6|]
+S:https://www.folktunefinder.com/tunes/36869
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

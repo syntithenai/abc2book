@@ -1,0 +1,27 @@
+X:170
+T: RAEDCHEN RAEDCHEN GEHE GEHE
+N: B0659
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied
+M: 3/8
+L: 1/8
+K: D
+ | A2F | D2D | EDE | F2D
+D2F | A2d | cBc | d2A
+dcd | cde | dcB | A3
+A2A | B2A | A^GA | e2c
+A^GA | d2d | ede | f2d
+dcd | A^GA | FEF | B2z
+dcB | ABA | GFE | D2z
+S:https://www.folktunefinder.com/tunes/62193
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

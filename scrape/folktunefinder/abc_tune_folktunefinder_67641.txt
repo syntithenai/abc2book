@@ -1,0 +1,24 @@
+X: 28
+T:Sweet Jenny Jones
+% Nottingham Music Database
+S:Adderbury
+M:3/4
+L:1/4
+P:ABA
+K:C
+P:A
+G|cGE|C3/2D/2E|FAd|BGB|cGE|F3/2G/2A|GcB|c3:|
+P:B
+c/2d/2|ece|dBG|cAc|BGc/2d/2|ece|dBG|cBA|G2A/2\
+P:To A
+B/2||
+S:https://www.folktunefinder.com/tunes/67641
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

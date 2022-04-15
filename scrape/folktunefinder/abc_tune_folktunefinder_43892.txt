@@ -1,0 +1,32 @@
+X:135
+T:2 Francs Worth
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:July 94
+O:England
+R:Reel
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000767.html
+%%ID:00000767
+K:D
+Ac|\
+e2ef ecAB|cAaf e2AB|c2ef ecAc|dcBA B2AB|\
+ceef ecAB|cAaf e2AB|
+c2ef ecAB|c2A2A2 :|\
+|:e2 |\
+fdAf dAaf|ecAc eAce|
+fdAf dAaf|ecAc B2AB|\
+ceef ecAB|cAaf e2AB|ceef ecAB|c2A2A2:|
+S:https://www.folktunefinder.com/tunes/43892
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

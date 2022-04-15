@@ -1,0 +1,24 @@
+X:32
+T:Polska fr{\aa}n Vetlanda
+R:sl-polska
+H:jfr nr 120
+A:Sm{\aa}land
+Z:id:hn-sp-32
+M:3/4
+L:1/16
+K:Dm
+A3^c d2c2 d2e2 | gfef d2d2 ^c4 | A2f2 fed=c dcAc | c_BGB B2A2 A4 :|
+|: A2ff fefg a2a2 | gagf efef g2g2 | f2ff fefg a2a2 | gagf efef g2g2 |
+f3e d3f e2d2 | ^cA=Bc c2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/62363
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

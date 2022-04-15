@@ -1,0 +1,21 @@
+X: 4
+P: Minnesota valsen
+R: Waltz
+O: Scand-American
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 \
+|: "G"G2 BG Bd | G2 BG Bc | d2 ed cB | "D7"A6 | D2 FD FA | D2 FD FA | d2 dc BA | "G"G6 :|
+|| "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | d3 edc | "G"B3 cBA |
+| "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | "D7"de dc BA | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/9335
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals03.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

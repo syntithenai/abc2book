@@ -1,0 +1,27 @@
+X: 1
+T: Corimonie's Rant
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: BSFC VIII-22
+M: C
+L: 1/16
+K: D
+A \
+| "D"DDD2 A3F {c}d3B A3F | "D"DDD2 A3F "Em"E3F "A7"G3B \
+| "D"DDD2 A3F {c}d3B A3B | "D"{c}d3f "A7"e3g "D"f2d2 d2 :|
+g2 \
+| "D"fd3 d3f "A7"{f}g3e "D"f3d | "A"eee2 "D"f3d "C"{f}g3e =c3e \
+| "D"fd3 d3f "A7"{f}g3e "D"f3d | "A"eee2 eee2 "D"fd3 d3g |
+| "D"fd3 d3f "A7"{f}g3e "D"f3d | "A"e3d "D"f3d  "C"{f}g3e =c3e \
+| "D"fa3 "A"ef3 "G"{c}d3e "D"f3d | "A7"AF3 A3g | "D"f2d2 d2 |]
+S:https://www.folktunefinder.com/tunes/19275
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Corimonies_Rant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Corimonies_Rant_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/Corimonies_Rant_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

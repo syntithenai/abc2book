@@ -1,0 +1,27 @@
+X:380
+T: WEIT IN NEBELGRAUER FERNE
+N: B0454
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: D
+F,2G,2 | A,2B,CEDCB, | A,G,F,2
+E,2^D,2 | E,2F,2G,A,B,D, | D,2C2
+A,2A,2 | A,FEDDCB,A, | A,G,F,2
+E,2E,2 | E,F,^G,A,B,=CF,G, | A,2z2
+A,2A,2 | D2C_B,B,A,A,G, | G,2F,2
+G,2A,2 | B,CDEFGEC | D4
+S:https://www.folktunefinder.com/tunes/78401
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

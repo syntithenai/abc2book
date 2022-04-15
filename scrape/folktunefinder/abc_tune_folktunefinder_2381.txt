@@ -1,0 +1,26 @@
+X: 1
+T: TEST: B4 (Cliffs of Moher)
+M: 6/8
+L: 1/8
+R: Jig
+B: Matt Cranitch, The Irish Fiddle Book
+K: ADor
+d \
+|  eaa bag | eaf ged | c2A BAG | EFG ABd | eaa bag | eaf ged | c2A BAG | EFGA2 :|\
+d \
+| e2e dBA | e2e dBA | GAB dBA | GAB dBd | e2e dBA | e2e dBA | GAB dBG | EFGA2 ||\
+| e2e dBA | e2e dBA | GAB dBA | GAB dBd | e2e dee | cee Bee | EFG BAG | edB A3 |]\
+S:https://www.folktunefinder.com/tunes/2381
+S:http://trillian.mit.edu/~jc/music/abc/test/CliffsOfMoher+B4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/CliffsOfMoher+B4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/CliffsOfMoher+B4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/CliffsOfMoher+B4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

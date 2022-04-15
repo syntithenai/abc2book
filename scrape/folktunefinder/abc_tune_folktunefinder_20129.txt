@@ -1,0 +1,29 @@
+X: 1
+T: One Bottle More
+C: Turlough O'Carolan
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+S: Printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+|:"G"G2 B2 d2 |"G7"d3  B G2 | "C"c2 e2 e2 |"A7"e4   dc \
+| "G"B2 d2 g2 |"Em"d2 B2 G2 |"A7"AF A2 A2 | "D"d4   A2 :|
+[|"G"G3  F G2 | "C"E2 F2 G2 |"D7"AB cd ef | "G"g4   fe \
+|    d2 e2 g2 |"D7"ag fe dc | "G"B2 G2 G2 |    G3 B dB ||
+||"D"AF A2 A2 |    D4    FG |    AB cd ef | "G"g4   fe \
+|    d2 g2 fg |"D7"ag fe dc | "G"B2 G2 G2 |    G4   z2 |]
+S:https://www.folktunefinder.com/tunes/20129
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OneBottleMore_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/OneBottleMore_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/OneBottleMore_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/OneBottleMore_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/OneBottleMore_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

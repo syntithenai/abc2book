@@ -1,0 +1,20 @@
+X: 2
+P: Draper's Maggot (C)
+O: 1721
+M: 3/4
+L: 1/8
+K: C
+|: "C"C2 CD EF | "C"G2 c2 G2 |  "F"A2 AG F2  | "C"G2 GF E2 \
+| "G7(Dm)"F2 FE D2 | "C(Am)"E2 ED C2 | "G7"EF G2 G,2 | "C"C6 :|
+|: "C(Am)"c2 cd ef | "(Em)"g2 gf e2 | "Dm"f2 fe "G"d2 | "C"e4 "G"d2 \
+|  "C"ef g2 fe | "Dm"de f2 ed | "G7"cd Td3 c | "C"c6 :|
+S:https://www.folktunefinder.com/tunes/3729
+S:http://trillian.mit.edu/~jc/music/abc/England/DrapersMaggot.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

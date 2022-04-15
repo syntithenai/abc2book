@@ -1,0 +1,28 @@
+X: 1
+T: Highland Cathedral
+C: Michael Korb, Ulrich R\"ove
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+D: "Proud Heritage" - Military Band of the Royal Highland Fusiliers (Lismor LICS 5146)
+D: "Songs & Music of Scotland" by Bill Clement & Bobby Crowe
+N: Words by Ben Kelly
+N: MCA Music Ltd/(GEMA)
+M: 4/4
+L: 1/8
+K: D
+[| "D"d2- de/f/ "/F#"ed Ad | "A7"e2- ef "D"f4 | "Bm"f2- fg/a/ "(Em)"gf ed | "E7"e2- ef "A"A4 | "G"B2- Bc/d/ "D/F#"dA cd |
+| "A7"a2- ag "Bm"f4 | "A7/C#"e2 ef/g/ "D"fd Ad | "A7"e2- ed "D"Hd4 |] [K:A] [| "A"c2- cA "/G#"e2- ec | "F#m"f2- fc "/E"c2-cB |
+| "D"A2- A/B/c "E7"B4 | "A"c2- c/d/e "E7"B4 | "A"c2- cA "/G#"e2- ec | "F#m"f2- fc "/E"c2- cB | "D"A2- A/B/c "E7"B2- BA | "A"A4- "A7"A2z2 |]
+S:https://www.folktunefinder.com/tunes/13199
+S:http://trillian.mit.edu/~jc/music/abc/air/HighlandCathedral_DA3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/HighlandCathedral_DA3.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

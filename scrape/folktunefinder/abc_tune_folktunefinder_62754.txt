@@ -1,0 +1,20 @@
+X: 32
+T:Heave And Go
+M:2/4
+L:1/8
+Q:200
+K:G
+AB|:"G"D2 D>-E|DG, "C"G>E|"G"DG, B,D|.B-G G-B:|
+"G"d>c .Bd|dB "C"gz|"G"d>c .Bd|dB "C"gf/2e/2|
+"G"d-g "D"fd|"C".ed "G"dB|"C"c>c "D"BA|"G"G2||
+S:https://www.folktunefinder.com/tunes/62754
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

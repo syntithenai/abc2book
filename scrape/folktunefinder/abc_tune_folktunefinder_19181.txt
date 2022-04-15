@@ -1,0 +1,31 @@
+X: 1
+T: Auld Luckie
+R: strathspey
+B: Kerr's 3rd.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G \
+| "C"c<c e>c g>c e>c | "G7"G>A G>F "C"E<G G2 \
+| "C"c<c e>c "Am"g>c e>c | "Dm"d>e d>c "G7"B<d d2 |
+y2 \
+| "C"c<c e>c g>c e>c | "G7"G>A G>F "C"E<G G>c \
+| "F"A>B c>d "C"e>f g>a | "G7"(3gfe (3def "C"e<c c ||
+e \
+| "C"g<g e>g a>g e>c | "G7"G>A G>F "C"E<G G2 \
+| "C"g<g e>g "Am"a>g e>c | "Dm"d>e d>c "G7"B<d d2 |
+y2 \
+| "C"g<g e>g a>g e>c | "G7"G>A G>F "C"E<G G>c \
+| "F"(3agf "C"(3gfe "Dm"(3fed "C"(3edc | "G7"B<d g>f "C"e<c c2 |]
+S:https://www.folktunefinder.com/tunes/19181
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AuldLuckie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AuldLuckie.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

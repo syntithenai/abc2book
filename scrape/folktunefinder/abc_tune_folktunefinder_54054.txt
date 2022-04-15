@@ -1,0 +1,24 @@
+X:186
+T:Joanie's Jig
+R:Jig
+C:Nancy  Martin
+M:6/8
+L:1/8
+K:D % 2 sharps
+"D"DEF "A"EFG|"D"FAd 2ff|"A"gec ABc|"D"dAG FED|\
+"D"DEF "A"EFG|"D"FAd 2ff|"A"gec ABc|"D"3d 2dz:||\
+||:"D"3F "G"|"D"afd def|"A"gec ABc|"D"dAG FED|\
+"D"3f "G"3g|"D"afd def|"A"gec ABc|"D"3d 2dz:||
+%  <A name="D1X187">
+S:https://www.folktunefinder.com/tunes/54054
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

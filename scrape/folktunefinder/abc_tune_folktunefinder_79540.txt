@@ -1,0 +1,25 @@
+X:436
+T: ES WOLLT EIN SCHNEIDER WANDERN
+N: E1632
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+R: Staende -, Handwerker - Lied, Schneider; Wanderschaft
+M: 4/4
+L: 1/8
+K: G
+D2 | G3DB,2D2 | G2B2B2
+d2 | A3GF2G2 | A4z2
+GA | B2B2BBdd | c2A2A2
+AB | ccccccee | d2B2B2
+d2 | e2c2c2e2 | d4
+B4 | c2c2d2dc | B4z2
+S:https://www.folktunefinder.com/tunes/79540
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende%20-,%20handwerker%20-%20lied,%20schneider;%20wanderschaft
+% Titles One%20title
+% Transcriptions Only%201%20transcription
+% Mode major
+% Key G
+% Time%20signature 4/4
+% Text Has%20notes%20text
+% Has%20accompaniment%20chords No%20chords

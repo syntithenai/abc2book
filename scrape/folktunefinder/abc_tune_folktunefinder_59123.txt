@@ -1,0 +1,35 @@
+X:236
+T:D'un colexal (CT 437)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en La Pola Siero.
+A:Asturies
+O:La Pola Siero (Siero)
+Z:Cancioneru de Torner 437
+M:3/8
+L:1/8
+Q:3/8=80
+K:Cm
+|G>GG|(c B2-)|BBc|B2 c|B2 A|(G/A/4G/4 F2-)|FFF|
+B2 c|B2 A|(A/B/4A/4 G2-)|G/z/GG|
+c B2-|BBc|B2 c|B2 A|(G/A/4G/4 F2-)|FFF|
+B2 c|B2 A|(A/B/4A/4 G2-)|G z2||
+W:De un colegial,
+W:amores de un colegial,
+W:pude tener y no quise,
+W:y no quise,
+W:que los colegiales son
+W:amigos de diverstirse.
+W:
+S:https://www.folktunefinder.com/tunes/59123
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

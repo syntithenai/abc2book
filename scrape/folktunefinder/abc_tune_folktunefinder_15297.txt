@@ -1,0 +1,33 @@
+X: 1
+T: the 72nd's Farewell to Aberdeen
+T: the Boy's Lament For His Dragon
+C: William MacKay
+N: The title is said to refer to a kite.
+R: march
+S: http://www.thesession.org/tunes/display/6970
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Hp
+|: e |\
+{g}A{Gdc}d{gdc}d{g}e3/4f/4 | g3/4f/4{g}e3/4d/4{g}f2 |\
+{gf}gB{GdGe}B{g}c3/4d/4 | {g}e3/4f/4{g}e3/4c/4{g}A2 | 
+{g}A{Gdc}d{gdc}d{g}e3/4f/4 | g3/4f/4{g}e3/4d/4{g}f2 |\
+{gf}gB/4{G}B3/4{g}f3/4e/4{g}d3/4c/4 | {Gdc}d2{gdc}d :| 
+|: {gf}g |\
+{ag}aA{GdGe}A{d}c | {gBd}B{e}G{g}A2 |\
+{g}A{Gdc}d{g}A{Gdc}d | {g}e3/4d/4{gcd}c3/4B/4{g}A{gf}g | 
+{ag}aA{GdGe}A{d}c | {gBd}B{e}G{g}A2 |\
+{g}A{Gdc}d{g}f3/4e/4{g}d3/4c/4 | {Gdc}d2{gdc}d :|
+S:https://www.folktunefinder.com/tunes/15297
+S:http://trillian.mit.edu/~jc/music/abc/march/72ndsFarewellToAberdeen_Hp.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/72ndsFarewellToAberdeen_Hp.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/72ndsFarewellToAberdeen_Hp.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

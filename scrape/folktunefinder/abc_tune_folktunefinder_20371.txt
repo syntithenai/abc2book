@@ -1,0 +1,30 @@
+X: 1
+T: Ding Dong! Merrily on High
+C: Anonymous 16th c. French tune
+H: Harmonized by Charles Wood, Words by G.R. Woodward
+B: From Carols for Choirs, v.1, Oxford, 1960, ed. by Reginald Jacques and David Willcocks
+R: march, reel
+M:4/4
+L:1/4
+F:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc 2007-01-26 21:28:22 UT
+K:Bb
+V:1
+|: "Bb"B B "Cm"c/B/ A/G/ | "F"F3 F | "Eb"GB "F7"BA | "Bb"B2 B2 :|
+[| "Bb"f> e d/e/ f/d/ | "Cm"e> d c/d/ e/c/ | "F"d> c "Gm"B/c/ d/B/ | "Am"c> B A/B/ c/A/ |
+| "Gm"B> A "Eb"G/A/ B/G/ | "F"A> G F F |  "Eb"G B "F7"B A |  "Bb"B2 B2 |]
+S:https://www.folktunefinder.com/tunes/20371
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DingDongMerrilyOnHigh_Bb_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/DingDongMerrilyOnHigh_Bb_16.abc
+% Rhythm March, reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

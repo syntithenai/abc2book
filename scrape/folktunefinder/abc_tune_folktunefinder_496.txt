@@ -1,0 +1,29 @@
+X:37
+T:Vieio cansoun limousino
+O:France
+A:Provence
+C:Anonyme
+R:Chanson
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+%%continueall 1
+%%MIDI program 74
+zFGA | B2B2 | (B>d f)d | B2c2 | (cA F)A | c2c2 | (c>d e)f | d2c2 | B2z2!fine! |:
+(B2 cd | e3c | d2 BF | B2d2 | c4 |B2) (cd | e3c | d2 B)d | f3d | c>e dc | BFGA | B2B2 | (B>d f)d | 
+B2c2 | (c>A F)A | c2c2 | (c>d e)f | d2c2 |1 B4 :|2 HB4 |]
+%%footer $D   Galouvielle-MBe 2008 \nChanson (Pays d'Oc)
+S:https://www.folktunefinder.com/tunes/496
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

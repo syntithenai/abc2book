@@ -1,0 +1,39 @@
+X:2180
+T:Gnglt from Dala Jrna
+A:Dalarna
+L:1/16
+M:C
+O:Sweden
+R:Gnglt
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a5d.html
+%%ID:00000a5d
+K:D
+D/F/ | \
+A2AG B2AG F2A2 d2f2|e3d c2Bc d2AF D2DF | \
+A2AG B2AG F2A2 d2f2 | e3d c2Bc d6 :|
+M:5/4
+L:1/16
+|:A2 |\
+d3e f2ed e>ae<c (A4 A2)F | \
+G3A B2AG A>dA<F (D4 D2)DF | \
+M:C
+L:1/16
+A2AG B2AG F2A2 d2f2 | e3d c2Bc d6 :|
+|:\
+f>af<d f>af<d e>ae<c A4 | \
+B>dB<G B>dB<G A>dA<F D4 |\
+f>af<d f>af<d e>ae<c A4 |
+B>dB<G B>dB<G A>dA<F D4 | \
+d3c d2e2 f4 a3f | g>ag<e c2a>c d6 :|
+S:https://www.folktunefinder.com/tunes/36515
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

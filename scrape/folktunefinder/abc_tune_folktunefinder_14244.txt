@@ -1,0 +1,24 @@
+X:1
+T:Gleannt\'an Frolics
+M:12/8
+L:1/8
+R:slide
+D:The Smoky Chimney, track 1(b)
+K:D
+ABA AFA d2 A d2 A|def g2 e fed B2 A|
+d2 B AFA d2 c d2 e|1f2 b afd e3 d2 B:|2f2 b afd e3 def||
+gfg b2 g fef a2 f|e2 f a2 f efd B2 A|
+d2 B AFA d2 c d2 e|1f2 b afd e3 def:|2f2 b afd e3 d3||
+S:https://www.folktunefinder.com/tunes/14244
+S:http://trillian.mit.edu/~jc/music/abc/jig/GleanntanFrolics.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GleanntanFrolics.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/GleanntanFrolics.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

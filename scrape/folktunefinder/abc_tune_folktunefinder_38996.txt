@@ -1,0 +1,29 @@
+X:17625
+T:Ton simple gavotte
+%T:TS1
+G:Kazimodal (autre lettre)
+R:Gavotte des montagnes
+C:Traditionnel
+Q:C3=156
+P:A4
+M:12/8
+S:TS94
+K:C
+P:A
+\large
+"C"c2 d "Em"e2 e e2 d "F"c3|B2 c "G"d2 B c3 "C"c3::\
+"C"c2 d "D"e2 e e2 d "F"c3|"G"B2 d "Em"c2 B "Am"A3 A3:|
+\bigskip
+S:https://www.folktunefinder.com/tunes/38996
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Gavotte des montagnes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

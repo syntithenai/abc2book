@@ -1,0 +1,26 @@
+X:216
+T:Amateur Hornpipe. GHW.079
+O:england
+M:2/4
+L:1/8
+Q:300
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+A:Norfolk
+K:B_
+F2|(3BBB) F>B D>FB>c|(3ddd) B>d F>Bd>B|(3eee) A>c F>ce>c|\
+(3aaa) a>g f>ed>c|
+(3BBB) F>B D>FB>d|(3eee) A>c F>ce>c|A>ca>g f>ec>A|BbB:|
+|:(cB)|Acec BdFB|Acec BdFB|Acec agf=e|f=efg f2 (f_e)|
+(db)(ca) (Bg)(Af)|(Ge)(Fd) (Ec)(DB)|Acag fecA|B2b2B2:|
+S:https://www.folktunefinder.com/tunes/20665
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

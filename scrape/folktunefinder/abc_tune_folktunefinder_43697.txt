@@ -1,0 +1,20 @@
+X:30
+T:Big Red
+C:Phillipe Barlow, via Sam Amidon
+K:F#m
+A,3 B, |: CF (3FEF BAFA | ceef ecAc | ~B2 fB ~B2 fB | \
+~B2 fB cBAG | FAcB BAFA | ceef ecAc | ~B2 fB ~B2 fB \
+|1 cBAG F2 A,B, :|2 cBAG FGAB |
+|: cf (3fef df (3fef | edcB AGAB | ceef ecAB | c2 BA GBEB | \
+ cf (3fef df (3fef | edcB AGAB | ceag fecA |1 B2 AG FGAB \
+:|2 B2 AG F4 ||
+S:https://www.folktunefinder.com/tunes/43697
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/BigRed_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

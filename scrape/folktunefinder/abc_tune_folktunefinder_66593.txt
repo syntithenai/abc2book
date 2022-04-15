@@ -1,0 +1,32 @@
+X: 168
+T:Cruel Father, The
+T:Kilfodda Reel, The
+T:Walsh's Fancy
+R:reel
+C:Larry Redican (1908-1975)
+N:Played in G or in F. Originally in F.
+Z:id:hn-reel-280
+M:C|
+K:G
+BedB A2 BA|GBAG E2 GE|DB,~B,2 DEGA|BGdB  A2 GA|
+BedB A2 BA|GBAG E2 GE|DB,~B,2 DEGA| BGAB ~G3A:|
+|:~d3B cBAB|~G3B AGEG|DG~G2 eGdG|cBAG EAAB|
+~c3e dBAB|~e3f gdBG|GAGE DGBe|1 dBAB ~G3B:|2 dBAB ~G3A||
+K:F
+AdcA GcAG|FAGF DGFD|CA,~A,2 CDFG|AF~F2 GAAG|
+AdcA GcAG|FAGF DGFD|CA,~A,2 CDFG|1 AFGE ~F3G:|2 AFGE ~F3A||
+~c3A BAGA|~F3A GFDF|CF~F2 dFcF|BAGF DGGA|
+~B3d cAGA|~d3e fcAF|FGFD CFAd|1 cAGA ~F3A:|2 cAGA ~F3G||
+S:https://www.folktunefinder.com/tunes/66593
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

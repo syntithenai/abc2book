@@ -1,0 +1,41 @@
+X:1
+T:Spleed the Pough
+T:Speed The Plough (Interesting notation remix version)
+M:4/4
+L:1/8
+N:God help anyone who
+N:tries to play this from sight ...
+N:Last time through inspired by the Bollywood Brass Band
+N:(Who then emailed and said "What on earth are we doing in your tutorial"
+N:If they are ever in your neck of the woods GO SEE THEM -
+N:Bhangramuffin street-band music :-)
+H:Illustrative file for abc tutorial
+F:http://www.lesession.co.uk/abc/abc_extensions.htm
+% R =!roll!
+R:Polka
+P:(2A2B) ad infinitum then 'Last time' to finish
+Z:Steve Mansfield 6/6/2000
+K:G
+P:A
+"G" (GAB)c dedB | "G" dedB dedB |
+"Am" c2ec "D7" B2 dB | "D" A2 "Dm" A2 "Am" A2 BA |
+"G"(GABc d)edB | "G" dedB dedB |
+"C"{d}c2ec "G" {c}B2dB- | "D7" BA A2 "G" RG4 ::
+P:B
+"C"y "@Brass section stand up and do that Glenn Miller thing at this point" g2 g2 {GABcdef} g4 ||
+"G" g2fe dBGB | "Am" (3cde (3cde "Bm"(3Bcd dB | "F#m" A2 A2 "D" A4 |
+S:https://www.folktunefinder.com/tunes/15986
+S:http://www.lesession.co.uk/abc/abc_extensions.htm
+S:http://www.lesession.co.uk/abc/abc_extensions.htm
+S:http://trillian.mit.edu/~jc/music/abc/misc/SpeedThePlough_andVariations.abc
+% Rhythm Polka
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

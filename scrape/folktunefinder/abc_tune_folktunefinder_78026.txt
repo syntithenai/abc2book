@@ -1,0 +1,28 @@
+X:5
+T: ES BRAUST EIN RUF WIE DONNERHALL
+N: B0003
+O: Europa, Mitteleuropa, Deutschland
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/16
+K: C
+C,4 | C,6E,2G,4G,4 | E,6G,2C4
+C4 | D4E4F4D4 | C6B,2B,4
+G,4 | E6E2D3D^C3C | D8z4
+B,4 | A,3A,B,3CB,4A,4 | G,8z4
+G,4 | D6C2B,4B,4 | C6G,2G,4
+G,4 | F6E2D4D4 | E6D2C4z4
+G,8G,4^G,4 | A,6B,2C4
+C4 | C8D8 | E12z4
+C8C4C4 | C6E2G4
+F4 | E8D8 | C12
+S:https://www.folktunefinder.com/tunes/78026
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

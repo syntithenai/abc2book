@@ -1,0 +1,26 @@
+X: 9770
+T:Soldier's Joy
+R:hornpipe
+N:http://home1.swipnet.se/~w-11382/hnhp0.abc
+M:2/4
+L:1/16
+K:D
+dB|"D"AFDF AFDF|A2d2 d2cB|AFDF AFDF|"A7"G2E2 E2FG|!
+"D"AFDF AFDF|A2d2 d3e|fafd "A7"egec|"D"d2dc d2:|!
+|:de|"D"f2fe fagf|"A7"edcd egfe|"D"f2fe fagf|"A7"edcB A2de|!
+"D"f2fd fagf|"A7"edcd egfe|"D"fafd "A7"egec|"D"d2dc d2:|!
+|:dA|"D"defg a2gf|"A7"ecef g2fe|"D"defg a2af|"A7"edcB A2Ac|!
+"D"defg a2gf|"A7"ecef g2fe|"D"fafd "A7"egec|"D"d2dc d2:|]
+S:https://www.folktunefinder.com/tunes/35670
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

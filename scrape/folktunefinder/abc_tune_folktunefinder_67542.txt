@@ -1,0 +1,51 @@
+X:24
+T:Kerfunten Jig, The
+C:Hammy Hamilton
+R:jig
+D:A Celebration Of 50 Years by The Tulla Ceili Band
+D:Lunasa by Lunasa
+D:Ready For The Storm by Deanta
+D:The Lonesome Touch by Martin Hayes
+D:The Moneymusk by Hammy Hamilton
+D:Three Shouts From A Hill by Cian
+D:Traditional Music From East Clare by Mary MacNamara
+D:When The Party's Over by Brian Finnegan
+M:6/8
+K:G
+~B3 BAG|dBd efg|~d3 gdB|BAG ABc|~B3 BAG|dBd efg|~d3 gdB|1 AGF G2A:|2 
+AGF GBd||
+~g3 gab|~e3 edB|~g3 gab|bag a3|~g3 gab|~e3 edB|dBd gdB|1 AGF GBd:|2 AGF 
+G2c||
+B2B BAG|dBd efg|ded edB|~A3 ABc|
+~B3 BAG|dBd efg|ded gdB|AGF G3:||
+~g3 gab|~e3 edB|~g3 gab|bag ~a3|
+~g3 gab|~e3 edB|dBd gdB|1 AGF GBd:|2 AGF G2c||
+~B3 BAG|dBd efg|dBd edB|~A3 DFA|
+~B3 BAG|dBd efg|dBd edB|1 ~A3 G2A:|2 AGF GBd||
+~g3 gab|~e3 edB|~g3 gab|bag ~a3|
+~g3 gab|~e3 efg|dBd edB|1 AGF GBd:|2 AGF G2c||
+~B3 BAG|dBd efg|~d3 gdB|BAG ABc|
+~B3 BAG|dBd efg|~d3 gdB|1 AGF G2A:|2 AGF GBd||
+~g3 gab|~e3 edB|~g3 gab|bag a2b|
+~g3 gab|~e3 edB|dBd gdB|1 AGF GBd:|2 AGF G2c||
+~B3 BAG|Bdd efg|dBd edB|~A3 DGA|
+~B3 BAG|Bdd efg|dBd edB|1 AGF G2A:|2 AGF GBd||
+~g3 gab|efe edB|~g3 gab|bag a2d|
+~g3 gab|efe edB|dBd edB|1 AGF GBd:|2 AGF G2c||
+K: Dmaj %Transposed from Gmaj (version Martin Hayes)
+|:F3 FED|FGA B(3Bcd)|A2 B BAF|~E3 EDE|
+|~F3 FED|FGA B(3Bcd)| |A2 B BAF|1 EFE D2 E:|2 EFE DFA|
+|:d3 def|B3 BAB|d3 def|fed efe|
+|d3 def|B3 BAB|A2 d dAF|1EFE DFA:|2 EFE D2 E|
+S:https://www.folktunefinder.com/tunes/67542
+S:http://domren.free.fr/VCB.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

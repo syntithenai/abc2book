@@ -1,0 +1,30 @@
+X:756
+T:Bremen Waltz,The. CJF.216
+O:england
+M:3/4
+L:1/8
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:C
+"p"G2|c2c2c2|(ce)G2G2|(df)G2G2|(eg)G2G2|c2c2c2|\
+(cd)(ef.g.e|(ag)(fe).d.c|.B2.d2:||:(^fg)|
+G2G2(=fg)|G2G2de|(fe)(dc(BA)|G2g2(^fg)|G2G2(=fg)|\
+G2G2de|fefdcB|c4:||:G2|
+"f".G.c.e.gc'2|.e'.c'.g.ec2|(fe).f.d.B.G|.c2.e2"~"G2|\
+.G.c.e.gc'2|.e'.c'.g.ec2|(df) (Bd) (GB)|"Fine"c4:||:
+"f  Minore"a2|(AB).c.de2|(fe).d.cB2|(ed)cBA2|.B2.E2e2|\
+"f"(AB).c.de2|(fe).d.cB2|(dc).B.A^G2|" D.C."A4:||
+S:https://www.folktunefinder.com/tunes/21205
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

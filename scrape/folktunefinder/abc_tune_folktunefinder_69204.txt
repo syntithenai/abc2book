@@ -1,0 +1,25 @@
+X:345
+T: "Zwei Frauen"
+N: Z1025
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Maria, geistlich, Sage
+M: 6/8
+L: 1/16
+K: E
+e2 | e3fe2=d4=c2 | B4B2=c3BA2 | B4A2=G4
+B=c | =d4=G2A6 | =G4z6
+B2 | B3=cB2A4=G2 | F4F2=G3FE2 | D4E2F4
+F=G | A4=G2F6 | E4z6
+S:https://www.folktunefinder.com/tunes/69204
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, maria, geistlich, sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

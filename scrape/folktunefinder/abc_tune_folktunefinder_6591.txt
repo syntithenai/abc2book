@@ -1,0 +1,35 @@
+X: 1
+T: R\`aggio di Sole
+C: Giorgio Volpi
+M: 4/4
+L: 1/8
+K: Dm
+y8 y8 y8 y8 y8 y8 \
+"intro"\
+|"Dm"(3D2E2F2 "C7"(3G2F2E2 | "F"(3F2G2A2 "Gm"(3B2A2G2 \
+| "A7"(3[A2F2][G2E2][F2D2] (3[E2^C2][F2D2][G2E2] | [A6^C6] A2 ||
+"verse"\
+|| "Dm"(3d2e2f2 (3e2d2c2 | "Gm"(3B2B2A2 e3d \
+| "C7"c2c2 (3c2B2A2 | "F"(3^G2A2A2 A3A \
+| "A"(3A2G2F2 (3E2F2G2 | "Dm"(3G2F2E2 F3F |
+| "Gm"F>E E2- E/E/E/F/ G>E | "A"A8 \
+"chorus"\
+|: "Dm"d6 c=B | A8- \
+| A2AA A3G | "Gm"B8 \
+| "C7"(3e2d2c2 B3B | B2 e6 |
+| "F"(3d2c2B2 (3A2A2^G2 | A8 \
+| "A7"A4 =B^cde | "Dm"f3e d4 \
+|1 "Gm"zd (3ddd ^c3d | "A7"e8 :|
+|2 "C7"c4 defg | "Fm"_a3g f4 \
+| "Bbm"f3f _e2_d2 | "Fm"c3_A c4 \
+| "C7"(3c2c2c2 efg_a | "Fm"gf- f4 z2 |]
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/6591
+S:http://trillian.mit.edu/~jc/music/abc/Italy/RaggioDiSole.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

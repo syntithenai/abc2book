@@ -1,0 +1,25 @@
+X:75
+T:A sov'leg
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000925.html
+%%ID:00000925
+K:G
+B2 cB/c/ | d2 g2 | G2 AA | Bc/B/ A2 |\
+B2 cB/c/ | d2 g2 | GB AF | G2 z2 :|
+|:\
+dd BA/B/ | cc/d/ BG | dd BA/B/ | cc/d/ Bd |\
+ed ge | dB g>e | d>e d/c/B/A/ | G2 z2 :|
+S:https://www.folktunefinder.com/tunes/36094
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

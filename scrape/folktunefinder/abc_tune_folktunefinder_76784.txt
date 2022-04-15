@@ -1,0 +1,32 @@
+X:299
+T: ALS ICH NUN NACH HAUSE KAM
+N: E0900
+O: Europa, Mitteleuropa, Deutschland, Rheinland; Unter - Taunus
+R: Ehestands - Lied, betrogener Ehemann
+M: 2/4
+L: 1/16
+K: G
+AA | A2B2A2B2 | A6
+D2 | c2c2A2A2 | B2B2G2
+G2 | A2A2A2A2 | d6
+D2 | c2c2A2A2 | B2B2G2
+G2 | A2A2d2d2 | B4z2
+A2 | A2B2A2B2 | A4z2
+A2 | A2B2A2B2 | A4z2
+A2 | A2B2A2B2 | A4z2
+A2 | A2B2A2B2 | A4z2
+D2 | c2c2A2A2 | B2B2G2
+G2 | A2A2A2A2 | d6
+D2 | c2c2A2A2 | B2B2G2
+G2 | A2A2d2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/76784
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied, betrogener ehemann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1781
+T:Ace and Deuce of Pipering, The
+T:Aon 's Do Na Pipbaireacda
+C:"collected by Cronin"
+S:1781 O'Neill's Music of Ireland
+N::1st Setting
+B:O'Neill's 1781
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:C|
+L:1/8
+K:G
+d-c|B2 cA B-GcA|BdcA B2 A-G|d2 ec d2 ec|dfec dcBA|
+|e2 fd e-dcA|Adde dcBA|BGcA B2 A-G|FGAB cBcA|
+|G2 g-e =fdcA|FGAB {d}-cAFG|.AG{A}G-F G2 F-G|.AG{A}G-F G2:|
+|:G-F|G2 =f2 e2 f2|G2 =f-g fdcA|G2 g2 f2 g2|d2 g-a gfdc|
+A2 =f2 e2 f2|d^cde fefg|agfa gfdc|BGcA B2 A-G|
+|G2 g-e =fdcA|FGAB {d}cAFG|.AG{A}GF G2 F-G|.A G{A}GF G2:|
+S:https://www.folktunefinder.com/tunes/77960
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1781_rt.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

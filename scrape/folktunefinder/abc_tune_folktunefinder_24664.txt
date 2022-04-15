@@ -1,0 +1,24 @@
+X:4212
+T:Minuet 1
+O:england
+R:Minuet
+M:3/4
+L:1/8
+K:G
+B2 cB AG | A2 D2 G2 | B2 GA Bc | A4 D2 | \
+d2 cB AG | g2 fe dc | B2 c2 A2 | G6 :|
+|:B2 cB AG | A2 d4 | B2 cB AG | A6 |\
+d2 =fe dc | B2 g4 | d2 cB AF | G6:|
+S:https://www.folktunefinder.com/tunes/24664
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

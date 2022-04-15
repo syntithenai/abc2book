@@ -1,0 +1,31 @@
+X: 1
+T:Soldier's Joy
+M:2/4
+L:1/8
+S:Remembered from the playing of Katie Howson 25th Jan. 2003
+S:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2003-1-27
+R:reel
+A:East Anglia UK
+N:This is the bare bones. Listen to the East Anglian style to flesh it
+N:out appropriately
+Z:Johnny Adams
+K:D
+A>G F>G| A>G F>G | A>d c>d | B2 A2 | A>G F>G | A>G F>A | (3GAG (3FGF | E4 |
+A>G F>G| A>G F>G | A>d d>c | d3 e | f2 d>f | e>c  B>c | d3 e||
+f2 d2 | f2 d2 | e>d c>B | A4 | f2 d2 | f2 d2 | e>d c>d | e4 |
+f2 d2 | f2 d2 | e>d c>B | A2 d>e | f2 d>f | e>d B>c | d3 z||
+S:https://www.folktunefinder.com/tunes/18137
+S:http://trillian.mit.edu/~jc/music/abc/reel/SoldiersJoy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/SoldiersJoy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SoldiersJoy_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

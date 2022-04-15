@@ -1,0 +1,24 @@
+X:260
+T: DEM LAND WO MEINE WIEGE STAND
+N: F0457
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | A3AG2A2 | B3cB2
+B2 | c2c2^d3d | e4z2
+E2 | E3EF2E2 | c3BA2
+A2 | B2B2d3d | c4c2
+c2 | B2f2e3G | A6
+S:https://www.folktunefinder.com/tunes/69820
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

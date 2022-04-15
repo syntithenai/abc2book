@@ -1,0 +1,26 @@
+X:4470
+T:Polkett e. Rost Pe
+A:Jmtland
+M:4/4
+O:Sweden
+R:Polkett
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008e2.html
+%%ID:000008e2
+K:D
+A2BA G2FE | D2DF Ad f2 \
+|1 A2Ac ef g2 | f2ed fedB :|2\
+A2Ac efga | abag a4 :: de |\
+f4 f2ed | cded cdef | g2g2 f2ed | cded cdef |\
+g2a2 a2^ga | b2g2 gfga | b2 c2 c2Bc | e2d2d4:|
+S:https://www.folktunefinder.com/tunes/36973
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

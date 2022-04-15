@@ -1,0 +1,30 @@
+X: 1
+T: Lasses Trust in Providence
+O: Shetland
+S: via B. McOwen, arr. T. Traub 4-26-2004
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"d2 de fdef | "G"d2 df "A7"ecBA \
+| "D"d2 de "Bm"fdef | "G"dBAF "A7"E2 EA \
+|| "D"d2 de fdef |
+| "E7"d2 df "A7"ecBA | "D"d2 de "Bm"fdef | "G"dBAF "A"E2 E2 \
+|[| "D"A2 AB ADFA | "G"d2 d2 BABd |
+| "D"A A2 B ADFA | "A7"GFEC "D"DEFG | "D"A2 AB "D7"ADFA \
+| "G"d2 d2 "A"BABd | "D"A A2 B ADFA | "A7"GFEC "D"D2 |]
+S:https://www.folktunefinder.com/tunes/17546
+S:http://trillian.mit.edu/~jc/music/abc/reel/LassesTrustInProvidence_D3_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LassesTrustInProvidence_D3_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LassesTrustInProvidence_D3_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LassesTrustInProvidence_D3_16.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

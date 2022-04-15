@@ -1,0 +1,23 @@
+X:4
+T:Laigo
+Z:midi2abc
+M:2/2
+L:1/8
+R:Schottische
+Q:1/4=100
+K:C
+c2 de f2 d2|gf ga gf ed|c2 de f2 d2|gf ga g4:|
+de fd g2 fe|de dc B2 G2|de fd g2 fe|de dB c4:|
+S:https://www.folktunefinder.com/tunes/51966
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

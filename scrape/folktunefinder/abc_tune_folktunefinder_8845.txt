@@ -1,0 +1,59 @@
+X: 1
+T: M\"olja
+R: hambo-polska
+C: Grop Olle (24 okt 1985)
+Z: from T\"app Nils Nilsson, Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: D \
+| "G"G>B d3 B \
+| "Am"c/d/c/B/ A3 D \
+| "D7"F>A c2 A2 \
+| "G"B/c/B/A/ G3 D \
+| "G"G>B d2 B2 |
+| "C"c/B/c/d/e3 g \
+| "D7"f>e d>c A>F \
+| "G"{F}G2 G3 :: c \
+| "C"e2 c>e d>c \
+|"G"B2 d2 c>B |
+| "D7"A>G F>E (3DEF \
+| "G"G>A B>c d2 \
+| "C"e2 c>e d>c \
+|"G"B2 d2 c>B \
+| "D7"A>G F>E D>D \
+| (3DEF "G"G3 :|
+% Harmony for M\"olya
+V: 2
+S: Nancy Kalinski, Aug 1996
+|: D \
+| D>G B3 G \
+| (A/B/)A/G/ F3 (A, \
+| D)>F A2 F2 \
+| (G/A/)G/D/ B,3 A, \
+| D>G B2 G2 |
+| A/G/A/G/ c3 (e \
+| d)>c B>A F>D \
+| A,2 [D3B,3] :|\
+|: B \
+| c2 A>c B>A \
+| G2 B2 A>G |
+| F>E D>A, (3A,CD \
+| B,>D G>A B>B \
+| c2 A>c B>A \
+| G2 B2 A>G \
+| F>E D>A, A,>A, \
+| (3A,CD [D3B,3] :|
+S:https://www.folktunefinder.com/tunes/8845
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Molja.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

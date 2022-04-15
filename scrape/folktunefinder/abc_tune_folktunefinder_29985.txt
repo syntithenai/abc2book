@@ -1,0 +1,28 @@
+X:0
+T:The 12 Diatonic Pitch Sets
+M:7/4
+L:1/4
+K:C
+"^-5"_A _B  c _d _e  f _g||\
+"^-4"_A _B  c _d _e  f  g||\
+"^-3"_A _B  c  d _e  f  g||
+"^-2" A _B  c  d _e  f  g||\
+"^-1" A _B  c  d  e  f  g||\
+"^0"  A  B  c  d  e  f  g||
+"^1" A  B  c  d  e ^f  g||\     
+"^2" A  B ^c  d  e ^f  g||\
+"^3" A  B ^c  d  e ^f ^g||
+"^4" A  B ^c ^d  e ^f ^g||\
+"^5"^A  B ^c ^d  e ^f ^g||\
+"^6"^A  B ^c ^d ^e ^f ^g|]
+S:https://www.folktunefinder.com/tunes/29985
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

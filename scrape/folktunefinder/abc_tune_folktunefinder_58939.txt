@@ -1,0 +1,37 @@
+X:52
+T:Aada (CT 266)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de cuna (Aada), transcrita en Grau.
+A:Asturies
+O:Grau
+Z:Cancioneru de Torner 266
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+|GGG GBB|(cd/4c/4B/4A/4B) B3|d(c3/4B/4)A Bcc|
+B6|cBA GBG|(A3/2(3B/4A/4G/4 F) F3|GGG cBA|
+G2z BAG|G3 BAG|F6|GGA cBA|G3- G2z||
+W:Durmite, nin de l'alma,
+W:durmi que te velo yo;
+W:Dios te d muncha ventura
+W:nesti mundu engaador.
+W:Nun llores, nin,
+W:nun llores, non;
+W:duermi, que te velo yo.
+W:
+S:https://www.folktunefinder.com/tunes/58939
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

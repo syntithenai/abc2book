@@ -1,0 +1,20 @@
+X:1005
+T:Maids of Castlebar
+Z: id:dc-reel-190
+M:C
+L:1/8
+K:D Major
+c|dDD2 EDB,E|D2FA BAFA|dBcA BGAF|EGFD EB,B,2|!
+FGFD EDB,E|DEFA B3c|dgfe dBAF|GBAG FDD:|!
+^g|a2ga fdde|fdad fddf|gebe geef|gebe geeg|!
+f3a g3e|faec dBAF|GBed cBAG|FA,CE D3:|!
+S:https://www.folktunefinder.com/tunes/66133
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

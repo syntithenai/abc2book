@@ -1,0 +1,25 @@
+X: 57
+T: Leit, leit, leitl m\"ua\ssts lusti sein
+M: none
+K: F
+|: CFA \
+|[M:2/4][L:1/8]"F"c4 | c4 \
+|[M:3/4][L:1/8]c2 A2 F2 | "C7"E2 G2 c2 | E2 G2 c2 \
+|[M:2/4][L:1/8]"C7"c4 | c4 \
+|[M:3/4][L:1/8]c2 B2 G2 | "F"F2 A2 c2 |
+| F2 A2 c2 \
+|[M:2/4][L:1/8]"F"c4 | c4 \
+|[M:3/4][L:1/8]c2 A2 F2 | "C7"E2 G2 c2 | E2 G2 c2 \
+|[M:2/4][L:1/8]"C7"c4 | c4 \
+|[M:3/4][L:1/8]c2 B2 G2 | "F"F2 z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5104
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

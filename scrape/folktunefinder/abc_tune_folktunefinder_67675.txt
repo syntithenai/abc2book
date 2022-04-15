@@ -1,0 +1,27 @@
+X: 10
+T:Jenny the duck (a.k.a. Duck the chick)
+M:4/4
+L:1/8
+C:Mits Ota
+K:D
+F2 A(E E) A2 (F|F) A2 D EDB,A, | F2 AD EDB,A, | B,DD=F EDB,A, |
+F2 A(E E) A2 (F|F) A2 D EDB,A, | FAD(E E)DB,A, |1 B,D (3DDD D2 DE :|2 B,
+D (3DDD D2 DC ||
+B,2 D(B, B,) D2 E | FAAF A2 FA | G2 BG A2 FD |  B,DD=F EDB,A, |
+B,2 DB, (3DDD DE | (3FFF AF (3AAA FA | G2 EG F2 DB, | A,DDE D2 DC |
+B,2 D(B, B,) D2 E | FAAF (3AAA FA | (3GGG BG A2 FD |  B,DD=F EDB,A,|
+DEFD B2d(A|A)FDE (3FFF ED |B,2 DB,  =FEDB, | A,D (3DD(D D)EFA|
+d2 fd e2 cA | BcdB A2 FA | G2 BG A2 FD| B,DD=F EDEA  |
+(3ddd fd e2 cA | BcdB A2 FA | (3GGG BG A2 FD| EDEF DEFA |
+d2 fd e2 cA | BcdB A2 FA | G2 BG A2 FD| B,DD=F EDE^F |
+DEFD  _B=Bcd |edcF d2 cB| A2 FD B,DED | (3=FFF EF  D2 z2||
+% Output from ABC2Win  Version 2.1 i on 12/23/2003
+S:https://www.folktunefinder.com/tunes/67675
+S:http://www.ling.ed.ac.uk/~mits/mytunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

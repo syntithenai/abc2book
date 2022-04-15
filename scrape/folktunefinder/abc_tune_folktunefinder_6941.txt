@@ -1,0 +1,23 @@
+X: 2
+P: Fanfara Suceava [Em]
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+D: "Veretski Pass" by Veretski Pass (Cookie Segelstein, Joshua Horowitz, Stuart Brotman)
+M: 2/4
+L: 1/8
+K: Em
+|::: "C"d e2 d | "D7"dc cB \
+| "G"BA AG | B/A/G D2 |
+| "B7"F/G/A- AG | BA GF \
+|1,3 "Em"EF GA | B4 \
+:|2,4 "Em"E4- | E4 :|
+|::: "Em"G/F/E B,E | "B7"F/G/A- AG \
+| BA GF |1,3 "Em"EG Be :|2,4 "Em"E4 :|
+S:https://www.folktunefinder.com/tunes/6941
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/FanfaraSuceava.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:69
+T: Nachtfahrt
+N: A0073
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie aus Schmeltzels Quodlibet 8.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: D
+D | =FFGG | A3
+A | AAGG | =F2z
+F | =FFAA | EEG
+G | =FFEE | D3
+S:https://www.folktunefinder.com/tunes/68615
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

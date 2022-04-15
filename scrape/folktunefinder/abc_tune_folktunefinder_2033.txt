@@ -1,0 +1,37 @@
+X: 96
+T:Rule Britania. JMP.096
+M:C
+L:1/8
+Q:125
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:1 - unclear what first beat is
+N:2 - there is dash here that could be part of  a badly drawn or
+N:photocopied rest
+N:3 - shown as crochet
+N:4 - shown as demisemiquavers
+H:1799
+Z:vmp.C. Graebe
+K:D Major
+"Key shown as G major"A2 |  d2 d2 d/e/f/g/ ad |\
+e2 e(f/g/) f3 e | (ed)(ed) (fg)(fg) aefc |\
+de/f/ ed {d}c z2 | "1"z Aec (ag/f/) (e/d/c/B/) | A2B2A2 :||:\
+d2 dA BG z f | g/f/e/d/ {d}c2 (d/e/f/g/) |\
+a2g2 f/d/g/e/ a/f/e/d/ | A2 e2 d2 :||:\
+f2f gg"2"z f | gfed A "2"z "4"d/e/f/g/ |\
+a2g2 f/d/g/e/ a/f/e/d/ | "3"A2 c2 d2 :|]
+S:https://www.folktunefinder.com/tunes/2033
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

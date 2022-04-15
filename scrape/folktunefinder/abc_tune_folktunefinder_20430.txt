@@ -1,0 +1,42 @@
+X:1
+T:Twelve Days of Christmas
+Z:Dave Barnert <DavBarnert@aol.com> abcusers 2001-12-20
+N:A Christmas challenge: find the shortest abc for the music to
+N:the Twelve Days of Christmas. (all verses, & all extensions
+N:suggested in this thread are welcome, of course.)
+M:none
+P:AEBFECGFECGGFECKECHKEBIHKECHIHKECHHIHKECHHHIHKEDIHHHIHKECJIHHHIHKE
+K:G
+P:A % First day
+DD|D2GGG2FG|ABcAB3c|
+P:B % 2nd, 7th days
+DD|DDGGG2FG|ABcAB4|
+P:C % days 3, 4, 5, 6, 8, 9, 10, 12
+DD|D2GGG2FG|ABcAB4|
+P:D % 11th day
+(3DDD|DDGGG2FG|ABcAB2>>d2|
+P:E % Partridge in a pear tree
+d2ec BGA2|G6|
+P:F % 2 Turtle doves and a
+d2ABc2Bc|
+P:G % Calling birds, French hens
+d2ABc2|
+P:H % 6, 8, 9, 10 Xers Xing (or X a-Y-ing)
+d2AB cA|
+P:I % Seven and (e)-leven Xers Xing (or X a-Y-ing)
+dd AB cA|
+P:J % 12 Lords a-leaping, e-(leven)
+d2AB cA/d/|
+P:K % 5 Gold rings, ... and a
+d4e2^c2|d8|dcBAG2|c2E2G2|AGFED2Bc|
+S:https://www.folktunefinder.com/tunes/20430
+S:http://trillian.mit.edu/~jc/music/abc/xmas/TwelveDaysOfChristmas_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/TwelveDaysOfChristmas_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 75
+T:Cornish Quickstep
+% Nottingham Music Database
+S:Geoff Bocking, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+f/2^e/2|"D"fd/2c/2 dA/2^G/2|"D"Ad f3/2f/2|"G"gf ed|"A7"cB Af/2^e/2|
+"D"fd/2c/2 dA/2^G/2|"D"Ad f3/2f/2|"A7"eA Bc|"D"d2 d:|
+P:B
+A|"D"FA/2A/2 AA|"G"GB/2B/2 BB|"A7"Ac/2c/2 cc|"D"d/2e/2f/2e/2 "G"d/2c/2B/2A/2|
+"D"FA/2A/2 AA|"G"GB/2B/2 BB|"A7"Ac/2c/2 ce|"D"d2 d:|
+S:https://www.folktunefinder.com/tunes/43530
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsA-C.txt
+S:http://www.guitarnut.com/nmd/reelsA-C.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X:2495
+T:Cancioneiro de Casto Sampedro: N\'umero 446
+T:A pasacorredoiras tal como tocou o gaiteiro Joaquin de Vilar de Enfesta en Redondela
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=140
+K:C % 0 sharps
+G3/2A<GA<GA<GA/2|G3/2F<ED<CB,<CD/2|E3/2C<DE<DF<AG/2|E2 C2 E2 G3/2A/2|
+G3/2A<GA<GA<GF/2|E3/2D<CB,<CD<EC/2|D3/2E<DF<AG/2 C2-|C2 E2 G3/2A<GA/2|
+G3/2A<GA<GF<ED/2|C3/2B,<CD<EC<DE/2|D3/2F<AG/2 E2 C2|E2 G3/2A<GA<GA/2|
+G3/2A<GF<ED<CB,/2|C3/2D<EC<DE<DF/2|A3/2G/2 C4 C2|F3/2A<FA<FA<FA/2|
+F3/2A<GF<EF<GA/2|^A3/2G/2 =A2 F2 C2|F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|
+^A3/2G/2 F4 C2|F3/2=A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 =A2 F2 C2|
+F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 F4 =A2|G3/2A<GA<GA<GA/2|
+G3/2F<ED<CB,<CD/2|E3/2C<DE<DF<AG/2|E2 C2 E2 G3/2A/2|G3/2A<GA<GA<GF/2|
+E3/2D<CB,<CD<EC/2|D3/2E<DF<AG/2 C2-|C2 E2 G3/2A<GA/2|G3/2A<GA<GF<ED/2|
+C3/2B,<CD<EC<DE/2|D3/2F<AG/2 E2 C2|E2 G3/2A<GA<GA/2|G3/2A<GF<ED<CB,/2|
+C3/2D<EC<DE<DF/2|A3/2G/2 C4 C2|F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|
+^A3/2G/2 =A2 F2 C2|F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 F4 C2|
+F3/2=A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 =A2 F2 C2|F3/2A<FA<FA<FA/2|
+F3/2A<GF<EF<GA/2|^A3/2G/2 F4 =A2|G3/2A<GA<GA<GA/2|G3/2F<ED<CB,<CD/2|
+E3/2C<DE<DF<AG/2|E2 C2 E2 G3/2A/2|G3/2A<GA<GA<GF/2|E3/2D<CB,<CD<EC/2|
+D3/2E<DF<AG/2 C2-|C2 E2 G3/2A<GA/2|G3/2A<GA<GF<ED/2|C3/2B,<CD<EC<DE/2|
+D3/2F<AG/2 E2 C2|E2 G3/2A<GA<GA/2|G3/2A<GF<ED<CB,/2|C3/2D<EC<DE<DF/2|
+A3/2G/2 C4 C2|F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 =A2 F2 C2|
+F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|^A3/2G/2 F4 C2|F3/2=A<FA<FA<FA/2|
+F3/2A<GF<EF<GA/2|^A3/2G/2 =A2 F2 C2|F3/2A<FA<FA<FA/2|F3/2A<GF<EF<GA/2|
+^A3/2G/2 F4 =A2|G3/2A<GA<GA<GA/2|G3/2F<ED<CB,<CD/2|E3/2C<DE<DF<AG/2|
+E2 C2 E2 G3/2A/2|G3/2A<GA<GA<GF/2|E3/2D<CB,<CD<EC/2|D3/2E<DF<AG/2 C2-|
+C2 E2 G3/2A<GA/2|G3/2A<GA<GF<ED/2|C3/2B,<CD<EC<DE/2|D3/2F<AG/2 E2 C2|
+E2 G3/2A<GA<GA/2|G3/2A<GF<ED<CB,/2|C3/2D<EC<DE<DF/2|A3/2G/2 C6|
+S:https://www.folktunefinder.com/tunes/28775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

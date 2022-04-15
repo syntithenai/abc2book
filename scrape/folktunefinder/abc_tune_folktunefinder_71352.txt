@@ -1,0 +1,26 @@
+X:323
+%%topmargin 3cm
+T:Miss Drummond of Perth
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+a S| AAe>d ~B>d Te2 | dgB>g d<gB<G | AAe>d ~B<de>a | {/^f}g>e {/f}g>B {cB}A2 A{/^g}a |
+AAe>d ~B<d Te2 | {/^c}d<gB>g d<gB>G | AAe>d ~B>de>a | {/f}g>e{/f}g>B {cB}A2 A ||
+^g| {^fg}a2 e>a c<a e>f | ~g2 d>g B>g d>g | {/^g}a2 e>a c>a e>a | {/^f}g>e{/f}g>B {cB}A2 A>^g|
+Ta2 e>a c>a e>^f | ~g2 d>g B>g d>g | aae>a bbe>g | {/^g}ae{e^f}gB (A/B/)c/d/ e>a S|]
+S:https://www.folktunefinder.com/tunes/71352
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Drummond_of_Perth.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0323.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

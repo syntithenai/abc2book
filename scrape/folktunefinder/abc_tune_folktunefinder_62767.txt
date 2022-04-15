@@ -1,0 +1,22 @@
+X: 45
+T:Pet of the Pipers
+M:6/8
+L:1/8
+Q:120
+K:A
+E|"A"A2A cBA|ecA aec|A2A cBA|"E"BGE dBG|
+"A"A2A cBA|ecA aec|"D"fga "A"ecA|"E"dBG "A"A2::
+e|"A"aga "D"fga|"E"gba gfe|"D"aga fga|"E"bag "A"a2{ef}g|
+"D"agf "A"edc|"D".fed "A"cBA|"D"fga "A"ecA|"E"dBG "A"A2:||
+S:https://www.folktunefinder.com/tunes/62767
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

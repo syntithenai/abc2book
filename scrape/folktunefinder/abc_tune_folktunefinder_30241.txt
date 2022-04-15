@@ -1,0 +1,20 @@
+X:0
+T:When Johnny Comes Marching Home
+G:marching song
+M:6/8
+L:1/8
+Q:3/8=112
+K:EMin
+% dorian/minor hexatonic
+e|Bee e2f|g2f g2e|d3- d2B|d3- d2e|
+  Bee e2f|g2f g2a|b3- b2a|b3- b2a|
+  b2b bag|a2a a2f|g2g gfe|f2f fga|
+  b2b a2a|g2g f3 |Bee e2d|e3  e2|]
+S:https://www.folktunefinder.com/tunes/30241
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

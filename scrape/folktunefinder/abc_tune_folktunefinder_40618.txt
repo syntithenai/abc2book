@@ -1,0 +1,28 @@
+X:37
+T:Lansierskadril4
+T:4de figuur
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:AB x2 A
+L:1/8
+M:6/8
+K:C
+P:Voorspel
+z AB | "F"cAF FEF | (f3 f)ed | "Gmin"dcB "C7"cBG | "F" F3 |]
+P:A
+z AB | "F" cAF FEF | "Bb"[d3B3] [dB]ef | "F" cAF FEF | "C7"GBA G AB |
+"F" cAF FEF | ([f3A3] [fA])ed | "Gmin" dcB "C7"cBG | "F" F3 |]
+P:B
+c=Bc | "F"[f2A2] [fA] A^GA | [c2A2] [cA] fc^c| "Gmin" dGA BDG | "C" F2 E c=Bc |
+"F" [f2A2] [fA] A^GA | [c2A2] [cA] fc^c | "C7"dBG F2 E |"F" F2 z G2 G |
+"C"GFE c2 c | c=BA f2 f| "G7"fed dc=B | =BAG F2 F |
+FED =B2 B | =BAF f2 f | fed dc=B | "C" c2 [cGE] |]
+S:https://www.folktunefinder.com/tunes/40618
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

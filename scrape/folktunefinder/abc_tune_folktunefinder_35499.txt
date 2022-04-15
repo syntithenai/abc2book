@@ -1,0 +1,25 @@
+X: 9599
+T:Gan Ainm
+R:Reel
+S:Seamus Tansey (flute)
+D:Clare FM broadcast. From the Miltown Malbay flute recital.
+H:The transcription here is *very* rationalised.
+M:4/4
+Z:Bernie Stocks
+K:G
+|: dg~g2 ~g3z | dg~g2 egdB | dg~g2 ~g2de | gedB ~A3z :| dg~g2 ~b3g | egdg egdg |
+dg~g2 b2ag | egdB ~A3z | ~g3d ~g3d | egdg egdg | bgaf gede | gedB ~A3z || G
+S:https://www.folktunefinder.com/tunes/35499
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:3
+T: Neujahrslied (Band 1), S. 15
+N: P0777
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: geistliche, religise Lieder]
+M: 4/4
+L: 1/16
+K: D
+F2G2 | A2A2G2F2E4F2G2 | A4G2F2E4z2
+F2 | A2A2G2F2E4F2G2 | A4G2F2E4z4
+D4A4F6E2 | D3EF2G2A4z2
+d2 | A4A2B2A3GF2E2 | A2A2G2E2D4
+S:https://www.folktunefinder.com/tunes/75983
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliche, religise lieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

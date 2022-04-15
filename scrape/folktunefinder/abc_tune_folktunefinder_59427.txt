@@ -1,0 +1,30 @@
+X:540
+T:Mueira de Grandas (MG 17)
+T:Muieira de Grandas (MG 17)
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Grandas
+Z:Mtodu de Gaita 17
+M:6/8
+L:1/8
+Q:3/8=88
+E:Nivel 2
+K:C
+cec|: G2 E F2 A|G2 E CDE|F2 D E2 F|G2 G cec|G2 E F2 A|
+G2 E CDE|F2 D B,2 D|[1 C3 cdc :|[2 C3 CEC|
+|: E2 E CEC|D2 D B,DD|F2 F DFD|EDC CEC|
+E2 E CEC|D2 D B,DD|GAG FED|C3 CEC :|
+|: A2 F DFD|G2 E CEC|F2 E B,DD|G2 G CEC|
+A2 F DFD|G2 E CEC|F3 B,CD|[1 C3 CEC :|[2 C6-||C6-|C2 z4|
+S:https://www.folktunefinder.com/tunes/59427
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

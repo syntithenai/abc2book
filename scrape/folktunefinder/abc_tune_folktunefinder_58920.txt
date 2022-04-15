@@ -1,0 +1,50 @@
+X:33
+T:Alborada (MQ 002)
+R:Alborada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Esta pieza la recoge Baldomero Fernndez en su cancionero (n 38), dicen que en ella se bas el citado  R. Korsakoff para desarrollar la parte de la alborada de su Capricho, la verdad es que se parecen bastante.
+N:B.F. la transcribi en la tonalidad de La mayor, para poder tocarla con la gaita yo la transport a Do mayor.
+A:Asturies
+B:Cancioneru de Baldomero Fernndez 38
+Z:Manolo Quirs 002
+M:2/4
+L:1/8
+Q:1/4=110
+K:C
+|: c>d c/d/c/d/|c>d c/d/c/d/|c/B/A/G/ A/G/F/D/|EC/E/ EC/E/|
+EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|EC/E/ EC/E/|
+EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|[1 C3 E/G/ :|[2 CC/E/C/E/C/E/||
+DB,/D/ B,/D/B,/D/|CC/E/ C/E/C/E/|DB,/D/ B,/D/B,/D/|CE/G/ cc|
+GE/G/ cc|AF/A/ cc|GE/G/ cc|AF/A/ cc|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|FD/F/ FD/F/|FD/F/ D/F/D/F/|
+EC/E/ EC/E/|EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|AF/A/ AF/A/|AF/A/ F/A/F/A/|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|FD/F/ FD/F/|FD/F/ D/F/D/F/|
+EC/E/ EC/E/|EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|
+CE/G/ cc|GE/G/ cc|BG/B/ dd|cG/G/ cc|
+BG/B/ dd|cG/G/ cc|d/c/B/c/ d/c/B/A/|GE/G/ cc|
+d/c/B/c/ d/c/B/A/|GE/G/ cc|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|FD/F/ FD/F/|FD/F/ D/F/D/F/|
+EC/E/ EC/E/|EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|AF/A/ AF/A/|AF/A/ F/A/F/A/|
+GE/G/ GE/G/|GE/G/ E/G/E/G/|FD/F/ FD/F/|FD/F/ D/F/D/F/|
+EC/E/ EC/E/|EC/E/ C/E/C/E/|DB,/D/ DB,/D/|DB,/D/ B,/D/B,/D/|
+|: CE/G/ cc|GE/G/ F/E/F/D/|EC/G/ cc|GE/G/ F/E/F/D/ :|
+|: C/D/C/B,/ C/D/E/F/|G/A/G/F/ G/A/G/F/|E/D/C/B,/ C/D/E/F/|G/A/G/F/G/F/E/D/ :|
+C2-CE/G/|c>d c/d/c/d/|c>d c/d/c/d/|c/G/E/G/ c>d|
+c/d/c/d/ c>d|c/d/c/d/ c/G/E/G/|c>d c/d/c/d/|c>d c/d/c/d/|
+c/B/A/G/ A/G/F/D/|C4-|C4||
+S:https://www.folktunefinder.com/tunes/58920
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

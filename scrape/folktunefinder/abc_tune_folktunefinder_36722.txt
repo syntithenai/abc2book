@@ -1,0 +1,28 @@
+X:3215
+T:Lord Mayo
+T:Tiarna Mhaigh Eo
+C:David Murphy
+M:2/4
+O:Ireland
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000862.html
+%%ID:00000862
+K:D dorian
+A2|\
+D2C2 D2E2|A4 AGEG|A4 D2ED|CDCB, A,3A,|\
+D2C2 D2E2|A4 c3B|A4 AGED |1 D6 A,2 :|2 D8 ||
+d2d2 cAcd|e4 edc2|A2G2 GAc2|C3D E2D2|\
+d2d2 cAcd|e4 e2dc|A2G2 GAc2|d6 c2|
+d2d2 cAcd|e4 edc2|A2G2 GAc2|C3D C2A,2|\
+DCDE G2E2|D2C2 c3A|G4 EGED|D6|]
+S:https://www.folktunefinder.com/tunes/36722
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

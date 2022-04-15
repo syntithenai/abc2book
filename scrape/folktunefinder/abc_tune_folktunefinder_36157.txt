@@ -1,0 +1,25 @@
+X:390
+T:the Blue Goat
+A:Dalarna 
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bec.html
+%%ID:00000bec
+K:A dorian
+A>B A2 B2 | c2 d2 B>G| A2 A4|\
+e>f e2 f2| g2 a2 f>d| e2 e4 :|
+e2 a2 e>f| e2 d/e/d/B/ c>A| c2 B4|\
+A>B A2 B2 | c/B/c/e/ d2 B2| cc/e/ d2 B>G| A2 A4:|
+S:https://www.folktunefinder.com/tunes/36157
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

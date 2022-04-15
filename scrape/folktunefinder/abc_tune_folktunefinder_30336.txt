@@ -1,0 +1,25 @@
+X:135
+T:Drops of Drink
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000e3.html
+%%ID:000000e3
+K:E min
+E|\
+G2G G2g| dBG G2B| A2B c2d| ecA A2B| \
+G2G G2g| gfg dBG| A2B c2A| BGE E2::
+f|\
+e2f g2e| fed (.d2.f)| e2f g2a| bge e2g/a/|\
+bgb afa| geg dBG| A2B c2A| BGE E2:|
+S:https://www.folktunefinder.com/tunes/30336
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

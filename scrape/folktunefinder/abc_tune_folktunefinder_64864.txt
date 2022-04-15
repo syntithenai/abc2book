@@ -1,0 +1,23 @@
+X:580
+T:Happy Meeting
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:6/8
+K:G
+P:A
+d|"G"dBG GBd|"C"efg g2e|"G"dBG GAB|"Am"A3 -"D7"A2d|
+"G"dBG GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3 -G2:|
+P:B
+B/2c/2|"G"d2g gfg|"C"e2g gfg|"G"dBG GAB|"Am"A3 -"D7"A2d|
+"G"dBG GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/64864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

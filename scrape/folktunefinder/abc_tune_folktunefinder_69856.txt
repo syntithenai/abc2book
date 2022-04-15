@@ -1,0 +1,27 @@
+X:296
+T: WENN EINST DER ALTE KNOCHENHAUER
+N: F0518
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, Trink - Spruch
+M: 4/4
+L: 1/8
+K: G
+D2 | G3GAAAA | B2G2z
+BBB | A2BGF2E2 | D4z2
+D2 | G3GAAAA | B2G2z
+BBB | A2BGF2E2 | D4z3
+d | d3Be3d | dccz4
+c | c3Ad3c | cBBz4
+d | d3dg3B | dcAz2
+cBA | d2G2B2A2 | G2z4
+S:https://www.folktunefinder.com/tunes/69856
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied, trink - spruch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

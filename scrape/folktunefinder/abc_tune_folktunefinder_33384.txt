@@ -1,0 +1,19 @@
+X: 3616
+T:New Rigged Ship, The
+T:Miss Finlay's Delight
+M:6/8
+L:1/8
+K:G
+|:DEF|GFG G2B|GFG G2B|AFD {A}DEF|AFD {A}DEF|!
+GFG G2B|GFG G2B|AFD {A}DEF|G3:|!
+|:GBc|d2B d2B|~G3 GBd|e2c e2c|~A3 ABc|!
+d2B d2B|~G3 GAB|AFD {A}DEF|G3:|!
+S:https://www.folktunefinder.com/tunes/33384
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

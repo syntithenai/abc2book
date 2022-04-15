@@ -1,0 +1,29 @@
+X:027
+%%topmargin 3cm
+T:Fhear nan casun caola
+T:(The Rejected Lover)*
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+d | ceAa (gf)(fa) | efeA cAAd | ceAa (gf)(fa) | B<BcA BGGd |
+ceAa (gf)(fa) | efeA cAAB | d2 u(fd) c2 (ac) | B<BcA BG G ||
+B | efed c2 u(Ae) | fAeA cAAc | [1 efed c2 (Aa) | B<BcA BGG :|
+[2 d2 (fd) c2 (ac) | B<BcA BGG |: B | A<A a2 (ge) a2 | efeA cAAB |
+[1 A<A a2 (ge) g2 | B<BcA BGG :| [2 dfdf cece | Bgdg BGG ||
+g | faea c2 (Ae) | fAeA cAAg | faea c2 (Ac) | Bgdg BGGg |
+faea c2 (Ae) | fAeA cAAB | dfdf cece | Bgdg BGG |]
+W:*Literally on account of his small legs
+S:https://www.folktunefinder.com/tunes/70772
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

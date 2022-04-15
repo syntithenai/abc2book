@@ -1,0 +1,25 @@
+X: 96
+T:Mirkovo Kolo
+O:Serbia
+M:6/8
+L:1/8
+Q:1/4=240
+K:GDor
+%%MIDI gchord fzzfzz
+|:"G"fef "G"g2f|"C"gfe "G"d2c|"F"f2c c2c|"F"cBA "G"G3|
+"G"BAB "F"c2B|"F"cBA "G"G3| "G"B2A "F"AFA| "G"G2z G2z:|
+|:"G"BAB "F"c2B| "F"cBA "G"G3| "F"f2c c2c|"F"cBA "G"G3|
+"G"BAB "F"c2B|"F"cBA "G"G3|"G"B2A "F"AFA| "G"G2z G2z:|
+|: "G"d2c d2c|Bcd B3|d2c d2c|BAd B3|d2c d2c |Bcd B3|B3 "F"A3| "C"G2c "G"G3:|
+|:"G"F3 "F"A3| "G"B2A G3| "G"F3 "F"A3| "G"B2A G3|\
+d2c d2c|B2c "F"A3|"G"B3 "F"A3|"G"G6:|
+S:https://www.folktunefinder.com/tunes/54107
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

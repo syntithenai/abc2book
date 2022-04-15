@@ -1,0 +1,27 @@
+X:21
+T: Ach Elslein
+N: L0083B
+O: Europa, Mitteleuropa, Deutschland
+N: Judenkunig, Lautentabulatur 1523
+R: Lied
+M: 3/4
+L: 1/8
+K: A
+A2 | A4=c2 | B4A2 | B3=cd2 | e2z2
+e2 | d4B2 | =c2A4 | =G4
+G2 | B4=c2 | d4=c2 | A3B=c2 | B2z2
+A2 | =G2E4 | B4G2 | A4
+A2 | =G2E4 | B4G2 | A4
+S:https://www.folktunefinder.com/tunes/80020
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

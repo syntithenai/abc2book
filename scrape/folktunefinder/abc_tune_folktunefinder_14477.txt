@@ -1,0 +1,25 @@
+X: 1
+T: Killimor Jig
+C: Sean Ryan
+M:6/8
+L:1/8
+R:Jig
+D:Sean Ryan and PJ Moloney LP
+Z:Stephen Jones  irtrad-l 2001-3-22
+K:Em
+gfg edB | BAB EFG | FEF DFA | dAF AFD  |
+gfg edB | BAB EGA | BdB AGF | GEE E3  :|
+e3 Beg  | bge gfe | ded Adf | afd fed  |
+e3 Beg  | bge gfe | BdB AGF | GEE E2  :|
+S:https://www.folktunefinder.com/tunes/14477
+S:http://trillian.mit.edu/~jc/music/abc/jig/KillimorJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/KillimorJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KillimorJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

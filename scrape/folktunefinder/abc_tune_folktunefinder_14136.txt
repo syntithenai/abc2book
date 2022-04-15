@@ -1,0 +1,34 @@
+X: 1
+T: Dusty Windowsills
+T: the Dusty Windowsill
+T: the Barracks
+T: Dusting the Windows
+T: the Trip to the Highlands
+C: Sean "Johnny" Harling
+M: 6/8
+L: 1/8
+Z: Richard Robinson 
+N: Anybody got any more names for this  ;-) (thanks to Lawrence Mallette for some of these)
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007c8.abc
+O: Ireland
+R: Jig
+K: Ador
+|: A2B cBA | eAB cBA | G2G EGG | DGG EGG \
+|  A2B cBA | e2d efg | age dBG | BAG A3 :| 
+|: a2a age | dBd g3  | gag gfe | dBA GAG \
+|  EGG DGG | EGG ABc | Bed BAG | BAG A3 :| 
+|: ABA gAf | ABA gAf | GAG eGd | GAG eGd \
+|  ABA gAf | ABA efg | age dBG | BAG A3 :|
+S:https://www.folktunefinder.com/tunes/14136
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007c8.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/DustyWindowsills2_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DustyWindowsills2_Am.abc
+% Rhythm Jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

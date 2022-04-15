@@ -1,0 +1,30 @@
+X:33
+T:Paddy McMahon's #1
+T:Kilmovee Jig
+T:Pauline O'Neill's Fancy
+R:Jig
+C:Paddy McMahon
+D:Mike Rafferty, Barra MacNeil's Christmas Album #2
+S:Clare FM
+Z:psc -  http://www.cranfordpub.com
+M:6/8
+L:1/8
+K:G
+D|~G3 ~B3|GAB AGE|DEG Bdg|(e/f/g)e dBA|
+~G3 ~B3|ded BGE|DEG Bdg|edB G2:|
+|:f|~g3 dBG|DGE GED|GBd ~g2 f|eag fed|
+B2 e dBA|GAB AGE|DEG Bdg|edB G2:|
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/66677
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

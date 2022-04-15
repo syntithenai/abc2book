@@ -1,0 +1,30 @@
+X: 1
+T: Harvest Home
+R: strathspey
+B: RSCDS 8-4
+B: Lowe's Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N: Alternative tune for The Lover's Knot
+M: C
+L: 1/8
+K: F
+|: A \
+| "F"F<F A>F c>F A>F | "C7"C<C E>C G>C E>C \
+| "F"F<F A>F c>F A>F | "Bb"(3def "C7"(3gab "F"a<f f :|
+a \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"df "C7"e>d c>e \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"de "F"f2 F>c |
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"df "C7"e>d c>e \
+| "F"(3fga "C7"gab "F"(3agf "Am"edc | "Bb"(3Bcd "C7"cde "F"(3fcB (3AGF |]
+S:https://www.folktunefinder.com/tunes/19388
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HarvestHome_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HarvestHome_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HarvestHome_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:184
+T:Snow Leopard
+M:4/4
+L:1/8
+C:Diarmaid Moynihan
+S:Calico Songdogs
+R:Reel
+K:Em
+(E | F)~B3 FADE | F ~B3 edcA | F ~B3 FBcd |fBdf edce |
+f ~B3 FADE | F ~B3 edcA | ~B2 FE F ~B3| edcd B3 z :||
+|ABfe f ~B3 | edcB  A ~E3 | ABfe f ~B3 | ceAc e4 |
+ABfe f ~B3 | edcB A ~E3 | B2 FE F ~B3 | edcd B4 :||
+S:https://www.folktunefinder.com/tunes/66610
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

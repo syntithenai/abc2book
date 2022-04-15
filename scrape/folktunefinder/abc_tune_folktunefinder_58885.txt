@@ -1,0 +1,20 @@
+X:74
+T:Bonnie at Morn
+M:3/4
+L:1/4
+Z:scot2.abc #40 (melody)
+K:Am
+A|"Am"e>f e/d/|eA B/c/|"G"d>c B/A/|G>AB|
+S:https://www.folktunefinder.com/tunes/58885
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

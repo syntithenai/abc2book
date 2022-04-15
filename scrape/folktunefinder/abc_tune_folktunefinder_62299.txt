@@ -1,0 +1,24 @@
+X:276
+T: HABT IHR ES NOCH NIE ERFAHREN
+N: B0753
+O: Europa, Mitteleuropa, Deutschland
+R: religioes
+M: 4/4
+L: 1/4
+K: Eb
+ | G,A,B,E | DCB,G, | ECB,G,
+F,A,G,C | B,2=A,2 | B,3z
+DEFD | EB,A,F,
+G,A,B,E | E2D2 | E3z
+S:https://www.folktunefinder.com/tunes/62299
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

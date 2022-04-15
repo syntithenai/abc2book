@@ -1,0 +1,30 @@
+X: 153
+T:Quadrille. CJF.153
+M:2/4
+L:1/16
+Q:50
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The notes marked ** were cd in the MS, not c2d2. - PJH.
+Z:vmp.P J Headford 2000
+K:A
+cd|f<ec2 e<dB2|d<cA2A4|(GABc) (dc)(fe)|e>dc2 "**"c2d2|!
+f<ec2 e<dc2|d<cA2A4|(GABc) dBAG|B4A2h||!
+GA|B<GE2 A<F^D2|EFGA Bc^de|fe^dc BAGF|G6F2|!
+B<GE2 e<^dB2 b<ge2|c<BB<A A<FF<E|^D4" D.C."E2|]
+S:https://www.folktunefinder.com/tunes/49708
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Major Graham
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: RSCDS 25-12
+M: C
+L: 1/8
+K: D
+|: D>B, \
+| "D"A,>B, D2 "G"D2 d>B | "D"A>F E<D "A7"E2 D>B, \
+| "D"A,>B, D2 "G"D2 d>B | "A7"A>F E<F "D"D2 :|
+(3ABc \
+| "D"d>e d>c "G"B>A B<d | "D"A>F E<D "A7"E2 (3ABc \
+| "D"d>e d>c "G"B>A B<d | "A7"A>F E<F "D"D2 ||
+(3ABc \
+| "D"d>e d>c "G"B>A B<d | "D"A>F E<D "A7"E2 D>B, \
+| "D"A,>B, D2 "G"D2 d>B | "A7"A>F E<F "D"D2 |]
+S:https://www.folktunefinder.com/tunes/19504
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MajorGraham_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MajorGraham_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MajorGraham_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

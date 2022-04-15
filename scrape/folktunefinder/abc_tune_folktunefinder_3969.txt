@@ -1,0 +1,31 @@
+X: 1
+T: Orleans Baffled [Bb]
+O: Playford 1721
+M: 3/2
+L: 1/4
+B: The Round Band Book of Playford
+B: Barnes "English Country Dace Tunes" p.93
+K: Bb
+[|"Bb"B2 f2 d2 | "Eb"eg2 G "F7"AF \
+| "Bb"BA/B/ "F7"cB/c/ "Bb"dc/d/ | "Eb"ed/e/ "F7"cf "Bb"dB |
+| "F"F2 c2 A2 | "Bb"Bd2 D "C7"=EC \
+| "F"F=E/F/ "C7"GF/G/ "F"AG/A/ | "Bb"BA/B/ "C7"Gc "F"AF |
+| "Bb"FB "B7"B_A "Eb"GE | "C"Gc "C7"cB "F"AF \
+| "Bb"BA/B/ "F7"cF "Bb"dF | "Eb"eG "F7"cA "Bb"B2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3969
+S:http://trillian.mit.edu/~jc/music/abc/England/OrleansBaffled.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/OrleansBaffled.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/OrleansBaffled.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/OrleansBaffled.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/OrleansBaffled.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/OrleansBaffled.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/OrleansBaffled.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/OrleansBaffled.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/OrleansBaffled
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

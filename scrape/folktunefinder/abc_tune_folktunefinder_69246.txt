@@ -1,0 +1,25 @@
+X:387
+T: "Der Lohn"
+N: Z1067
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 3/8
+L: 1/16
+K: G
+D2 | =F4^F2 | G4A_B | c4_B2 | A4
+A2 | _B4c2 | d2A2d2 | c4_B2 | A4
+G2 | d2c2_e2 | d2A2_B2 | G2A2G_E | D4
+A_B | c2_B2A2 | G4
+S:https://www.folktunefinder.com/tunes/69246
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:12
+T: WIE WIRD MIR SO BANG
+N: B0500
+O: Europa, Mitteleuropa, Deutschland, Wetzlar; Dillkreis
+R: Abschieds - Lied
+M: 6/8
+L: 1/16
+K: D
+A,2 | A,3A,A,2A,2A,2A,2 | A,2D2A,2A,4
+A,2 | G,3G,G,2B,2A,2G,2 | F,8z2
+F,2 | E,3E,E,2E,2^G,2B,2 | D4C2A,4
+C2 | B,2B,2E,2C2C2B,2 | A,8z2
+A,2 | B,4A,2G,2F,2G,2 | A,4G,2F,4
+A,2 | B,4A,2G,2F,2G,2 | A,4G,2F,4
+A,2 | D2D2A,2D2D2A,2 | F6-F4
+A,2 | D6-D4=C2 | B,8z2
+G,2 | G,2G,2E,2C2B,2C2 | D8z2
+S:https://www.folktunefinder.com/tunes/62035
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

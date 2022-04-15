@@ -1,0 +1,27 @@
+X: 1
+T: Alexandrovsky [Em]
+O: Russia
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em
+B, \
+|| "Em"EE>G | BG>F | E^D>E | "B7"F3 || FF>G | AG>F | "Em"EE>G | B3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez"D7"D ||
+|| "G"GG>B | dB>A | GF>G | "D7"A3 || AA>c | ec>A | "G"GG>B | d3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez2 |]
+S:https://www.folktunefinder.com/tunes/19771
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Alexandrovsky_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/Alexandrovsky_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/Alexandrovsky_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/Alexandrovsky_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/Alexandrovsky_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/waltz/Alexandrovsky_Em.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

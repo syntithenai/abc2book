@@ -1,0 +1,45 @@
+X: 1
+T: Firn di Mekhutonim aheym
+R: horra
+O: Naftule Brandwein
+D: Naftule Brandwein 1923
+B: The Compleat Klezmer p.44
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+K: DPhr^F
+|: DD \
+| "D"^F4 "Cm"(3EDC | "D"D6- | D2B2A2 | "Gm"G6 \
+| G4 (3EDC | "Cm"C6 | C2A2G2 | "D"F4 "Cm"(3EDC |
+| "D"D3F AG | F3A cB | A3c ed | "Cm"c3B AG \
+| "D"F3G AG | F3E "Cm"DC | "D"D3d AF | D2z2 :|
+|: DD \
+| "Gm"D2B2"D7"A2 | "Gm"G3D GD | G6- | G6 \
+| "Cm"G2e2d2 | c3G cG | c6- | c3B BA |
+| "D"AccB BA | AccB BA | A6- | A3B AG \
+| FAAG GF | FAAG GF | F6- | F3E "Cm"DC |
+| "D"D3F AG | F3A cB | A3c ed | "Cm"c3B AG \
+| "D"F3G AG | F3E "Cm"DC | "D"D3d AF | D2z2 :|
+|: DD \
+| "Gm"d6- | d6- | d6- | d4 "F7"c2 \
+| "Bb"B6- | B4 "D7"A2 | "Gm"G6- | G4 "Bb7"F2 |
+| "Eb"E6- | E4 "G7"D2 | "Cm"C6- | C6 \
+| "D"A4 A2 | A4 (3BAG | F4 F2 | F4 "Cm"(3EDC |
+| "D"D3F AG | F3A cB | A3c ed | "Cm"c3B AG \
+| "D"F3G AG | F3E "Cm"DC | "D"D3d AF | D2z2 :|
+S:https://www.folktunefinder.com/tunes/6945
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/FirnDiMekhutonimAheym.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/FirnDiMekhutonimAheym_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/horra/FirnDiMekhutonimAheym_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/FirnDiMekhutonimAheym_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/C/FirnDiMekhutonimAheym_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/horra/FirnDiMekhutonimAheym_D.abc
+% Rhythm Horra
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

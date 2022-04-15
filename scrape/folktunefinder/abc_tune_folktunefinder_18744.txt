@@ -1,0 +1,32 @@
+X: 1
+T: Heili Karjalasta
+T: Sweetheart from Karelia
+M: C|
+L: 1/4
+K: Dm
+[| "Dm"AA BA/F/- | F4 | "Gm"GG AG/E/- | "A7"E4 \
+| "Dm"FF GA/G/- | G/G/F ED | "A7"E3 ^C | A,4 |
+| "Dm"AA BA/F/- | F4 | "Gm"GG AG/E/- | "A7"E4 \
+| "Dm"FF ED | "Bb7"^GG =FE | "A7"A4- | Az A2 |]
+[|"Dm"d>A ^GA | "Gm"cB AG | "Dm"F2 D2- | D2 DE \
+| F2 F2 | "Gm"GF ED | "A7"E4- | Ez A2 |
+| "Dm"d>A ^GA | "Gm"cB AG | "Dm"F2 D2- | D2 DE \
+| "Gm"F2 ED | "A7"ED ^CD- | "Dm"D4- | Dz ^CD |
+[|"A7"E>E FG | AA=B^c | "D7"d>^c d=c | "Gm"BA G2 \
+| "C7"c>=B c_B | AG FG | "F"A4- | Az "A7"A2 |
+| "Dm"d>A ^GA | "Gm"cB AG | "Dm"F2 D2- | D2 DE \
+| "Bb"F2 ED |  "A7"ED ^CD- | "Dm"D4- | D z3 |]
+S:https://www.folktunefinder.com/tunes/18744
+S:http://trillian.mit.edu/~jc/music/abc/song/HeiliKarjalasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/humppa/HeiliKarjalasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/HeiliKarjalasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/humppa/HeiliKarjalasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/HeiliKarjalasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/HeiliKarjalasta_Dm.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

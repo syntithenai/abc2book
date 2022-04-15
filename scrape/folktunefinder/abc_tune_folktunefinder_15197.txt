@@ -1,0 +1,28 @@
+X: 1
+T: Trent Waters
+R: jig, slow march
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+A \
+| "Em"B2E EFE | "D"DEF GFE | "Em"B2E EFE | "D"DEF "G"G2A \
+| "Em"B2E EFE | "D"DEF GFE | "G"BcB "D"AGF | "Em"GEE E2 :|
+|: A \
+| "Em"ABe e2f | "D"gfe fed | "Am"ABe e2f | "D"gfe f2e \
+| "Em"gag "D"fgf | "C"efe "Am"dBA | "B7"BcB AGF | "Em"GEE E2 :|
+S:https://www.folktunefinder.com/tunes/15197
+S:http://trillian.mit.edu/~jc/music/abc/jig/TrentWaters_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TrentWaters_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TrentWaters_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TrentWaters_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/TrentWaters_Em.abc
+% Rhythm Jig, slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

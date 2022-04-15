@@ -1,0 +1,32 @@
+X:2496
+T:Cancioneiro de Casto Sampedro: N\'umero 462
+T:A marcha de profesion de chimirias da Catedral de Santiago
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+N:http://www.multimania.com/galicia/terraes.htm
+Z:formatado por Xurxo-Adrian Ente
+Z:Covertido de Midi a abc por Antonio-Nil
+M: 4/4
+L: 1/8
+Q:1/4=60
+K:C % 0 sharps
+V:1
+z8|z6 [ge]z/2[f/2d/2]|[e3/2c3/2]z/2 [e3/2c3/2]z/2 [g/2e/2][f/2d/2][e/2c/2][f/2d/2] [g3/2e3/2]z/2|[e3/2c3/2]z/2 [ec]z/2[g/2e/2] [ge][f/2d/2][e/2c/2] [d3/2B3/2]z/2|
+[d3/2B3/2]z/2 [f3/2d3/2]z/2 [e3/2c3/2]z/2 [ge]z/2[f/2d/2]|[e3/2c3/2]z/2 [a3/2f3/2]z/2 [g3/2e3/2]z/2 [f3/2d3/2]z/2|[d3/2B3/2]z/2 [f3/2d3/2]z/2 [e3/2c3/2]z/2 [af][ge]|[fd][ec] [e3/2c3/2]z/2 [d3/2B3/2]z2z/2|
+[dB]z/2[e/2c/2] [fd][fd] [fd][fd] [ec]z/2[f/2d/2]|[ge][ge] [ge][ge] [a3/2f3/2]z/2 [g3/2e3/2]z/2|[^f3/2^d3/2]z/2 [g/2e/2][a/2=f/2][g/2e/2][f/2=d/2] [e3/2c3/2]z/2 [d3/2B3/2]z/2|[f4-d4-B4-] [fdB]z [e2-c2-]|
+[e6-c6-] [e/2c/2]
+V:2
+G,3/2z/2 A,3/2z/2 B,3/2z/2 C2-|C4- Cz G,A,/2B,/2|C3/2z/2 C,3/2z/2 C/2G,/2E,/2G,/2 C3/2z/2|C,3/2z/2 C3/2z/2 G,3/2z/2 G,,3/2z/2|
+G,3/2z/2 B,3/2z/2 C3/2z/2 Cz/2^G,/2|A,3/2z/2 A,,3/2z/2 ^C,3/2z/2 D,3/2z/2|G,,3/2z/2 B,,3/2z/2 =C,3/2z/2 F,2-|F,^F, =G,3/2z/2 G,,3/2z/2 G,/2D,/2B,,/2D,/2|
+G,,3G, G,G, C,2-|C,C CC C,C C,C|C,C C,=F, G,3/2z/2 G,,3/2z/2|G,,4- G,,z C,2-|
+C,6- C,/2
+S:https://www.folktunefinder.com/tunes/28776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

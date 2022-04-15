@@ -1,0 +1,26 @@
+X:47
+T:Hoffed ap Hywel
+T:Powell's Fancy
+C:Traditional
+O:Cymru
+B:Blodau'r Grug: Cant o Alawon Dawnsio Poblogaidd Cymru
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:9/8
+L:1/8
+Q:3/8=120
+K:F
+"F"f2d cAF cAF|"Bb"f2d "F"cAF "C"B2G|"F"f2d cAF cAF|"Bb"GAB "G7"AGF "C"EDC:|
+|:"F"f2a afa afa|"F"f2a afa "C"gec|"F"f2a afa afa|"Bb"gab "G"agf "C"edc:|
+T:Breuddwyd y Wrach (neu: Gyrru'r Byd o'Mlaen)
+T:The Witch's Dream (or: Kick the World Before Me)
+K:C
+|:"C"cec e2f gec|"C"cec e2c "G"dBG|"C"cec e2f gec|"C"ege "G"fdB "C"c3:|
+|:"G"GBG B2c dBG|"G"ede B2c dBG|"G"GBG B2c dBG|"C"ege "G"fdB "C"c3:|
+S:https://www.folktunefinder.com/tunes/75743
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

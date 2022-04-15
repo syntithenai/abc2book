@@ -1,0 +1,22 @@
+X:125
+T: HOERT IHR WIE SCHOEN HEUT DER POSTILLON BLAESET
+N: B0615
+O: Europa, Mitteleuropa, Deutschland
+R: Staende - Lied, Postillon
+M: 3/8
+L: 1/16
+K: C
+ | C2E2G2 | c2G2E2 | G3GG2 | c2G2
+E2 | C2E2G2 | c2G2E2 | G3GG2 | c4z2 | G3GG2 | c4z2
+c3cc2 | G3GG2 | E3EE2 | C4z2
+C6 | C6 | C6
+S:https://www.folktunefinder.com/tunes/62148
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Staende - lied, postillon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

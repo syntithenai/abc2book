@@ -1,0 +1,22 @@
+X: 1
+T: Thug me gaol do'n ghille tuadh
+T: I fell in love with a red-haired lad
+C: Elke Baker \2511999
+R: air, waltz
+M: 3/4
+L: 1/8
+K: G
+|:"G"d4d2 | B3AG2 | "C"e4e2 | "G"dB3-B2 | g4a2 | b6 | "C"e4e2 | "G"dB3-B2 |
+| "G"d4d2 | B3AG2 | "G/D"AB3-B2 | "C"e6 | "G"d3BG2 | "D"A2"G/D"B2D2 | "Em"E6- | "C"E6 :|
+|:"G"G4D2 | "C"EG3-G2 | "D"A3D"Am"E2 | A6 | "C"e4e2 | "G"dB3-B2 | g4a2 | b6 |
+| "Em"e4B2 | "D"d4A2 | "G"B4G2 | "D"A2"G/D"B2d2 | "G"B3AG2 | "D"A2"G/D"B2D2 | "Em"E6- | "C"E6 :|
+S:https://www.folktunefinder.com/tunes/20251
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ThugMiGaol_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ThugMiGaol_G.abc
+% Rhythm Air, waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

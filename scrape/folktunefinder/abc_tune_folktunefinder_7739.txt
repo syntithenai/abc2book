@@ -1,0 +1,33 @@
+X: 1
+T: Invirtita (Yves')
+O: Romania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%MIDI channel 1
+%%MIDI program 1 15
+% %MIDI beat 120 100 60 2
+%%MIDI gchord f3czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 7/8
+L: 1/8
+Q: 2/8=170
+K: C
+|:"Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Dm" ^GA^c de f^g |"Am" a^gf ed cz |
+  "Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Am" cdc d2 B^G |"Am" A3-A2-A2 :|
+|:"Dm" ^GA^c de f^g | a^gf ed cz |"Dm" a3 a2 ^gf |"Am"a^gf ed cB |
+  "Dm" ^GA^c de f^g | a^gf ef ab |"Am" c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+|:"G" gab d'e' d'c' | bgb "C"c'b c'^c' |"G"d'2c' bg ac' |"C"c'2d' e'b c'2 |
+  "G" gab d'e' d'b | c'bc' "C"e'g ab |"Am"c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+S:https://www.folktunefinder.com/tunes/7739
+S:http://trillian.mit.edu/~jc/music/abc/Romania/InvirtitaYves.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

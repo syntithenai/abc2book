@@ -1,0 +1,40 @@
+X:1
+T:tetris theme
+M: 4/4
+L: 1/8
+Q:1/4=140
+K:A
+EB eB =cA B=G|AF =GE F^D EF|EB, ^DF EB, F^D|EB eB =cA B=G|
+AF =GE F^D EF|EB, ^DF EB, F^D|E6 F^D|E6 F2|
+=G2 AF =G2 AF|=G6 A2|B2 =cA B2 =cA|B6 ^c2|
+=d4 ed2c|d4 ed2c|d4 c4|=c3A F=G A=D|
+A=G E=G2E/2A/2 =GE|A=G E=G2A/2A/2 =GF|D8|z8|
+z8|z8|EB eB =cA B=G|AF =GE F^D EF|
+EB, ^DF EB, F^D|EB eB =cA B=G|AF =GE F^D EF|EB, ^DF EB, F^D|
+E6 F^D|E6 F2|=G2 AF =G2 AF|=G6 A2|
+B2 =cA B2 =cA|B6 ^c2|d4 ed2c|d4 ed2c|
+d4 c4|=c3A F=G A=D|A=G E=G2E/2A/2 =GE|A=G E=G2A/2A/2 =GF|
+D8|
+EB eB/2B/2 =cA B=G/2=G/2|AF =GE/2E/2 F^D EF/2F/2|EB, ^DF EB, F^D|EE eB/2B/2 =cA B=G/2=G/2|
+AF =GE/2E/2 F^D EF/2F/2|EB, ^DF EB, F^D|E6 F^D|E6 F2|
+=G=G/2=G/2 AF =G=G/2=G/2 AF|=G6 A2|BB/2B/2 =cA BB/2B/2 =cA|B6 ^c2|
+dd/2d/2 dd ed dc|dd/2d/2 dd ed dc|dd/2d/2 dd cc/2c/2 cc|=c=c/2=c/2 =cA F=G A=D|
+A=G E=G2E/2A/2 =GE|A=G E=G2A/2A/2 =GF|D8|z8|
+z8|z8|EE eB/2B/2 =cA B=G/2=G/2|AF =GE/2E/2 F^D EF/2F/2|
+EB, ^DF EB, F^D|EE eB/2B/2 =cA B=G/2=G/2|AF =GE/2E/2 F^D EF/2F/2|EB, ^DF EB, F^D|
+E6 F^D|E6 F2|=G=G/2=G/2 AF =G=G/2=G/2 AF|=G6 A2|
+BB/2B/2 =cA BB/2B/2 =cA|B6 ^c2|dd/2d/2 dd ed dc|dd/2d/2 dd ed dc|
+dd/2d/2 dd cc/2c/2 cc|=c=c/2=c/2 =cA F=G A=D|A=G E=G2E/2A/2 =GE|A=G E=G2A/2A/2 =GF|
+D8|
+S:https://www.folktunefinder.com/tunes/25
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://community.codemasters.com/forum/showthread.php?t=193662
+S:http://www.lotro-abc.com/abc/tetris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

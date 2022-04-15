@@ -1,0 +1,30 @@
+X:50
+T:the Bug Dream
+C:Fiona Durance
+M:4/4
+N:09/05/01
+N:For Andy Hornby
+O:England
+Z:Richard Robinson 
+%%Copyright:Fiona Durance
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c67.html
+%%ID:00000c67
+K:C dorian
+C2 z2 G3E | DC D2 C4 | z2 GF G3G | ^F=E F2 G4 |\
+C2 z2 G3 E | DC D2 C4 |
+GABG cBAG | AG A2 G2 GA |\
+B2 AG c2 B2 | AG A2 G2 GA | Bcde fedc | dc d2 c2 cd
+|1 e2dc d2 c2 - | c2 =B2 c4 :|2 e2 dc d2 c2 - | c2 =B2 c2cd |:
+e2 dc e2 dc | e2 dc =B2 cd | e2 dc d2 c2 - | c2 =B2 c2 cd |
+e2 dc d2 c2 - | c2 d2 e2 ze | cdef g=agf |1 ec d2 c2 cd :|2 ec d2 c4 :|
+S:https://www.folktunefinder.com/tunes/43875
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

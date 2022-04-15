@@ -1,0 +1,30 @@
+X: 1
+T: Calum Donaldson
+C: R.Cooper
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"EAAG ABcd | eAcA eAcA | "Bm"Bffe f3g | "D"afec "E7"BdcB |
+| "A"EAAG ABcd | eAcA eAcA | "F#m"cffe "D"fgaf | "E7"ecBc "A"A2 :|
+|| e2 \
+| "A"agab agfe | fedc dcBA | "Bm"Bffe f3g | "D"afec "E7"Befg |
+| "A"agab agfe | fedc dcBA | "F#m"cffe "D"fgaf | "E7"ecBc "A"A2 ||
+|| e2 \
+| "A"agab agfe | fedc dcBA | "Bm"Bffe f3g | "D"afec "E7"BdcB |
+| "A"EAAG ABcd | eAcA eAcA | "F#m"cffe "D"fgaf | "E7"ecBc "A"A2 |]
+S:https://www.folktunefinder.com/tunes/16877
+S:http://trillian.mit.edu/~jc/music/abc/reel/CalumDonaldson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/CalumDonaldson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/CalumDonaldson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CalumDonaldson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

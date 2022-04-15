@@ -1,0 +1,39 @@
+X:7
+T:Ronde
+R:Ronde 
+C:Anamnese
+N:(andro bancal)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=140
+K:Bb
+P:A
+        G>F G>A G2 | [M:4/4] B/A/B c>B A2 F2 | 
+[M:3/4] G>F G>A G2 | [M:4/4] B/A/B c>B A2 G2 |
+P:B
+Gdd2 c/d/e d2 | B/c/d BA Bc A2 |
+Gdd2 c/d/e d2 | B/c/d cB AB G2 || 
+%var G>dd2 c/d/e d2 | B/c/d BA Bc A2 |
+%var G>dd2 c/d/e d2 | B/c/d cB AB G2 ||
+K:Eb
+z2 G>F dd c2 | FG B>A GF G2 | 
+ G>F dd c2 | FG B>A GF G2 | 
+FG B>A GF G2 |
+FG A>G cc B2 | FG B>A GF G2 |
+S:https://www.folktunefinder.com/tunes/30278
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

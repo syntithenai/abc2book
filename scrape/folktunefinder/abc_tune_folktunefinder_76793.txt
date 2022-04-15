@@ -1,0 +1,29 @@
+X:308
+T: BAEURIN DU SOLLST HEIMEGEHN
+N: E0910D
+O: Europa, Mitteleuropa, Deutschland
+N: Modulierend
+R: Ehestands - Lied
+M: 6/8
+L: 1/8
+K: F
+ | C2CEDC | AG^FG2
+G | AG^FG2G | AG^FG2
+G | AGGedc | c=BBdc
+c | dcFEGc | dcEFAz
+CCEF2F | GFGA2z
+BAGF2F | EDEF2
+c | dcFEGc | dcEFAz
+CCEF2F | GFGA2z
+BAGF2F | EDEF2z
+S:https://www.folktunefinder.com/tunes/76793
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

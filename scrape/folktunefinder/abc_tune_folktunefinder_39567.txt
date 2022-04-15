@@ -1,0 +1,32 @@
+X:12
+T:Branle (4me sonate)
+C:Chedeville
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-13
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+P:AABBCCDD A B 
+K:C
+V:1 name=G
+cc/d/ ee dcBG | ee/f/ gg gfed | cc/d/ ee dcBG | ee/f/ gg gf e2 ::
+dd/e/ fe dcdc/B/ | ee/d/ cc/B/ Ad G2 | ga/b/ c'b agag | c'b/a/ gf ed c2 ::
+[K:Cm] cc/d/ ef gagc' | gfed c=BcG | cc/d/ ef gagc' | gfed ef g2 ::
+dd/e/ =Bc deBc | defg gfed | dd/e/ =Bc deBc | defe dec2 :|
+V:2 name=V
+z8 | cc/d/ ee edcG | z8 | cc/d/ ee ed c2 |
+BB/c/ dc BcG2 | cc/B/ AG A2G2 | cf/d/ eg fefe | ed/f/ ed cB c2 |
+[K:Cm]
+ce/d/ cd efec | efgf eded | ee/d/ cd efec | edc=B cd B2 |
+=BB/c/ dc BcG=A | =Bcde BGc2 | =BB/c/ dc BcG=A | =Bcdc Bcc2 |
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+S:https://www.folktunefinder.com/tunes/39567
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

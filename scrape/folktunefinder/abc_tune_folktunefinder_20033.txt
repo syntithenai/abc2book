@@ -1,0 +1,23 @@
+X: 1
+T: Leaving Lismore
+W: air, waltz
+S: Gaelic song
+S: Hand-written MS from Highland Whisky collection
+M: 6/8
+L: 1/8
+K: D
+[| "D"D>EF    A2d | "G"B>AF "A7"A3 | "D"D>EF "Bm"A2d | "G"B>AF     "A7"E3 |
+|  "D"D>EF    A2d | "G"B>AF  "D"A3 | "G"A>Bd "A7"F2E | "D"F/E/D"G"D "D"D3 |]
+[|"Bm"d>cd "G"B2d | "G"B>AF  "A"A3 |"Bm"d>cd  "G"B2d | "G"B>AF     "A7"E3 |
+|  "D"D>EF    A2d | "G"B>AF  "D"A3 | "G"A>Bd "A7"F2E | "D"F/E/D"G"D "D"D3 |]
+S:https://www.folktunefinder.com/tunes/20033
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LeavingLismore_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/LeavingLismore_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

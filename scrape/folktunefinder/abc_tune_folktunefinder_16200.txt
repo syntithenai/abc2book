@@ -1,0 +1,43 @@
+X: 1
+T: Polkett av Oscar Eriksson, Sve
+%: G\aangl\aat efter Anders Frisell
+R: polka, g\aangl\aat
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS labelled "1A8"
+S: another handwritten MS for 3 voices, "arr. Olof Lindgren", from Janet Gabites
+M: 2/4
+L: 1/16
+K: D
+|: DD \
+| "D"D2D2 F2A2 | d6 d2 \
+| d2ed c2B2 | "A7"c6 A,A, \
+| A,2A,2 C2E2 | c6 c2 \
+| c2dc B2cB | "D"A6 DD |
+| "D"D2D2 F2A2 | d6 cd \
+| edcd edcd | "G"B6 cd \
+| edcd edcB | "D"A4 f2ef \
+| "G"g2g2 "A7"B2c2 | "D"d6 :|
+|: z2 \
+| "D"D4 F2G2 | A6 G2 \
+| F2A2 A3A | "A7"d2c2 c4 \
+| A4 c2d2 | e6 d2 \
+| c2dc B2cB | A2G2 F2E2 \
+| "D"D4 F3G | A6 G2 |
+| F2A2 A3A | "A"d2c2 c4 \
+| "G"ggg2 B3c | "D"B2A2 d4 \
+| "A7"d2cd e3e | "D"e2d2 f4 \
+| "G"ggg2 B3c | "D"B2A2 d4 \
+| "A7"d2cd f2e2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16200
+S:http://trillian.mit.edu/~jc/music/abc/polka/Polkett_OscarEriksson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/GanglatEfterAndersFrisell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Polkett_OscarEriksson_D.abc
+% Rhythm Polka, g%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

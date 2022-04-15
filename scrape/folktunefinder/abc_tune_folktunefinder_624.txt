@@ -1,0 +1,36 @@
+X: 166
+T:Sstpankki valssi
+R:Valse
+N:frn Finland
+O:Finlande
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:Gm
+V:1
+d |:"Gm"g d B|"D7"c B A|"Gm"G>G G|G A B|"Cm"c>c c|\
+ [1"F7"c B c|"Bb"d>d d|"D"d2d :| [2"F7"c f e|"Bb"d>d d|"D7"d B c|:
+"Gm"d>d d|"G7"d g f|"Cm"e>e e|e d c|\
+"Gm"B d>B|"D7"A G ^F|"Gm"G>G G| [1G B c:| [2G2|]
+V:2
+z|:vGu[Bd]u[Bd]|vDu[^FA]u[^FA]|vGu[Bd]u[Bd]|vGu[Bd]u[Bd]|\
+"atc"C[EG][EG] | F[FA][FA]|D[DB][DB]|D[^FA][^FA]:| F[FA][FA]|D[DB][DB]|D[^FA][^FA]::\
+G[Bd][Bd]|G[=Bd][=Bd]|C[EG][EG]|C[EG][EG]|\
+G[Bd][Bd]|D[^FA][^FA]|G[Bd][Bd]|[B3d3]:|[B2d2]|]
+T:Komp\
+|:vGu[Bd]u[Bd]|vDu[^FA]u[^FA]|vGu[Bd]u[Bd]|vGu[Bd]u[Bd]|\
+"atc"C[EG][EG]|F[FA][FA]|D[DB][DB]|D[^FA][^FA]::\
+G[Bd][Bd]|G[=Bd][=Bd]|C[EG][EG]|C[EG][EG]|\
+G[Bd][Bd]|D[^FA][^FA]|G[Bd][Bd]|[B3d3]:|
+%%footer $D   Galouvielle-MBe 2008 \nValse (France)
+S:https://www.folktunefinder.com/tunes/624
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

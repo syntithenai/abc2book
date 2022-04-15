@@ -1,0 +1,25 @@
+X:215
+%%topmargin 3cm
+T:The Duchess' Slipper
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C|
+L:1/8
+K:G
+B | D<G(B>G) (d>G)B>G | (D<G)B>G E<A TA2 | D<GB>G (d>G)B<g | (Td>c)TB>A G<G TG2 :|
+(d<g) ~g2 (d>g)b>g | (Ta>g)b>g (e<a) ~a2 | (d<g) ~g2 (d>g)b>g | T(a>g)b>g (d<g) ~g2 |
+(d<g) ~g2 (d>g)b>g | T(a>g)b>g (e<a) ~a2 | (g>b)(e>g) (d>g)B>g | T(d>c)TB>A G<G [B,G] |]
+S:https://www.folktunefinder.com/tunes/71244
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Duchess_Slipper.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0215.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

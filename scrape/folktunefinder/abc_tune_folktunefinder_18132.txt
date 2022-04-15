@@ -1,0 +1,31 @@
+X: 1
+T: Society Piper
+C: Nancy Dickson
+R: reel
+D: Society Piper (Johnstone, Muriel's Band) tune 1
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fg \
+| "D"a2d2 f2A2 | "D"d2de f2fg | "D"a2d2 "E7"gfed | "A7"e6 fg \
+| "D"a2d2 f2A2 | "G"B2g2 "Em"g2ag | "D"fede "A7"A2c2 | "D-G-D"d6y2 |]
+de \
+| "D"d2f2 f2ef | "Em"g2e2 e2de | "A7"A2e2 e2fg | "D"afdf "E7"edcB \
+| "D"A2d2 "D7"d2cd | "G"B2g2 "Em"g2ag | "D"fede "A7"A2c2 | "D-G-D"d6y2 |]
+fg \
+| "D"afdf A2fg | "D"afdf A2fg | "D"agfe "Em"gfed | "E7"edef "A7"e2fg \
+| "D"afdf "D7"Adfd | "G"gfed "Em"B2eg | "D"fede "A7"A2c2 | "D-G-D"d6y2 |]
+dB \
+| "D"AAAF d2A2 | "G"BBBG d2G2 | "D"AAAF d2f2 | "E7"edef "A7"e2fg \
+| "D"a2d2 f2A2 | "G"B2g2 "Em"g2ag | "D"fede "A7"A2c2 | "D-G-D"d6y2 |]
+S:https://www.folktunefinder.com/tunes/18132
+S:http://trillian.mit.edu/~jc/music/abc/reel/SocietyPiper_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SocietyPiper_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

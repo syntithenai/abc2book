@@ -1,0 +1,24 @@
+X:99
+T: HERR DIETHER TRAUN IST EIN GESELL
+N: Z0099
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze, Anti - Pfaeffisch, Spott, Parodie (Latein)
+M: 2/4
+L: 1/16
+K: C
+G,2 | C3CB,3B, | A,3A,G,4
+F,2F,F,E,2C2 | D2CB,C2
+G,2 | C3CB,3B, | A,3A,G,4
+F,2F,F,E,2C2 | D2CB,C4
+E2EEE4 | D2DDD4
+C2CCA,2B,2 | D2CB,C2
+S:https://www.folktunefinder.com/tunes/68958
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, anti - pfaeffisch, spott, parodie (latein)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

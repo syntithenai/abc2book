@@ -1,0 +1,61 @@
+X: 1
+T: My Wild Irish Rose
+C: Music and Lyrics by Chauncey Olcott (1898)
+N: Irish-American, composed for the New York theater show "A Romance of Athlone".
+M: 3/4
+L: 1/4
+%%staffsep 35
+K: D
+F/G/ "A"\
+| "D"ABc | "D"df>e | "G"edB | "D"d2F/G/ | "D"ABd | "E7"ef>e |"A7"e3- | e2 F/G/ |
+| "D"ABc | "D"df>e | "G"edB | "D"d2F/G/ | "D"ABd | "A7"ed>c | "D"d3- | d2f     |
+|"A7"efg |   g2f/e/ | "D"def |    f2f    |"E7"fed |     Bcd  |"A7"e3- | e2F/G/  |
+| "D"ABc | "D"df>e | "G"edB | "D"d2F/G/ | "D"ABd | "A7"ed>c | "D"d3- | d2     |]
+|: "A7"A "B"\
+| "D"f3 | "A7"f3e | "D"d3- | "D7"d2d \
+| "G"dd2 | "A7"c2B | "D"A3- | A2 F/F/ |
+| "G"GAB | "D"A2F | "G"GAB | "D"A2c/d/ \
+|1 "E7"B3 | f2e | "A7"e3- | e2 :|
+|2 "E7"Bcd | "A7"edc | "D"d3- | d2 \
+:|["Coda" "E7"Bcd | "A7"dHe3/d/ | "D"d3- | d2 |]
+W:If you listen, I'll sing you a sweet little song
+W:Of a flower that's now drooped and dead,
+W:Yet dearer to me, yes, than all of its mates,
+W:Tho' each holds aloft its proud head.
+W:T'was given to me by a girl that I know;
+W:Since we've met, faith, I've no repose.
+W:She is dearer by far than the world's brightest star
+W:And I call her my Wild Irish Rose.
+W:      My Wild Irish Rose, The sweetest flow'r that grows.
+W:      You may search ev'ry where, but none can compare
+W:            with my Wild Irish Rose.
+W:      My Wild Irish Rose, The dearest flow'r that grows
+W:      And some day for my sake, she may let me take
+W:            the bloom from my wild Irish Rose.
+W:They may sing of their roses which, by other names,
+W:Would smell just as sweetly, they say,
+W:But I know that my Rose would never consent
+W:To have that sweet name taken away.
+W:Her glances are shy when e'er I pass by
+W:The bower, where my true love grows;
+W:And my one wish has been that some day I may win
+W:The heart of my wild Irish Rose.
+S:https://www.folktunefinder.com/tunes/12791
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/MyWildIrishRose.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MyWildIrishRose_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/song/MyWildIrishRose_DW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

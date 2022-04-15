@@ -1,0 +1,32 @@
+X: 74
+T:Nightingale,The. CJF.074
+M:2/4
+L:1/8
+Q:160
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+D|"p"G>B AF|GBd2|G>B (B/A/).G/.F/|(G/A/).B/.c/d2|\
+BBc2|BBc2|BdcB|AAA:|!
+|:d|d3A|d3A|df (a/g/).f/.e/|ddd f|g3d|B3d|BGBd|ggg:|!
+|:c|.B.c.d.e|d^cdB|\
+ABcd|.c.B.c.A|.B.c.d.e|d^cdB|=ccAA|Ggg:|!
+|:(d/e/)|.d(d/e/) .d(d/e/)|.d(d/e/) .d(d/e/)|.d.d.d.d|\
+"~"d4|!
+(G/B/).d/.B/ (G/B/).d/.B/|(G/B/).d/.B/ (G/B/).d/.B/|\
+(c/A/).F/.A/ (c/A/).F/.A/|Ggg:|]
+S:https://www.folktunefinder.com/tunes/49629
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

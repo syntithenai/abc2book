@@ -1,0 +1,29 @@
+X:15681
+T:Soldier's Joy
+M:2/4
+L:1/16
+R:hornpipe
+N:http://home1.swipnet.se/~w-11382/hnhp0.abc
+N:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:D
+dB|"D"AFDF AFDF|A2d2 d2cB|AFDF AFDF|"A7"G2E2 E2FG|!
+"D"AFDF AFDF|A2d2 d3e|fafd "A7"egec|"D"d2dc d2:|!
+|:de|"D"f2fe fagf|"A7"edcd egfe|"D"f2fe fagf|"A7"edcB A2de|!
+"D"f2fd fagf|"A7"edcd egfe|"D"fafd "A7"egec|"D"d2dc d2:|!
+P:alt.B
+|:dA|"D"defg a2gf|"A7"ecef g2fe|"D"defg a2af|"A7"edcB A2Ac|!
+"D"defg a2gf|"A7"ecef g2fe|"D"fafd "A7"egec|"D"d2dc d2:|]
+% Output from ABC2Win  Version 2.1 f on 12/9/97
+S:https://www.folktunefinder.com/tunes/46956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

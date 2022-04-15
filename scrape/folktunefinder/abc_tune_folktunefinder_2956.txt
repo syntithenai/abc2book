@@ -1,0 +1,25 @@
+X: 1
+T: Turopoljski Drmes
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"[G2D2] [B2G2] | [d2B2] [B2G2] \
+| [dB][dB] [dB][BG] | "D7"[c2A2] [A2F2] \
+| [A2F2] [B2G2] | [c2A2] [A2F2] \
+| [dB][dB] [dB][cA] | "G"[B2G2] [G2D2] :|
+|: "C"[e3c3] [dB] | [cA][dB] [e2c2] \
+| "G"[d3B3] [cA] | [BG][cA] [d2B2] \
+| "D7"[c3A3] [BG] | [A2F2] [dB][cA] \
+|1 "G"[B2G2] [c2A2] | [d2B2] [B2G2] \
+:|2 "G"[B2G2] "D7"[A2F2] | "G"[G2D2] z2 :|
+S:https://www.folktunefinder.com/tunes/2956
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/TuropoljskiDrmes_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/TuropoljskiDrmes_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

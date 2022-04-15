@@ -1,0 +1,24 @@
+X:208
+T: NACHT UND STILL ISTS UM MICH HER
+N: B0246
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Abend
+M: 3/4
+L: 1/4
+K: G
+ | G2G | B2B | AGA | G2z
+B2B | d2d | cBc | B2z
+A2A | c2c | ABc | d3
+cBA | G2G | FEF | G2z
+S:https://www.folktunefinder.com/tunes/78229
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Tageszeiten - lied, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

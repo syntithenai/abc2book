@@ -1,0 +1,26 @@
+X:745
+T:Branles de villages 1
+D:UGB
+M:4/4
+O:France
+R:Branle
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000aa5.html
+%%ID:00000aa5
+K:G
+dd|\
+ge dc|B2c2|d2dd|BG dd|ge dc|B2c2|B2Ad|G2::
+GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|A2GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|G2:|
+S:https://www.folktunefinder.com/tunes/36228
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:40
+T: AN DER SAALE HELLEM STRANDE
+N: B0527
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2AG | A2A2
+GA | Bcd2cB | A2z2
+de | dcA2AA | B2d2
+de | dcA2AA | B2d2
+ec | BdB2A2 | G2z2
+S:https://www.folktunefinder.com/tunes/62063
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

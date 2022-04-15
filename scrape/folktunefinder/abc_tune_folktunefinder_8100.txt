@@ -1,0 +1,26 @@
+X: 1
+P: Hamburska fr\aan N\"arke
+O: David Bastviken 97/1
+R: Hamburska
+N: Learned from David Bastviken, Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: D \
+| "G"G>B {c}d2 d2 | "C"e>f {f}g2 "(D7)"~f2 | "G"e>e d2 "D7"A>B | (3cdc "G"B2 G>D |
+| "G"G>B {c}d2 d2 | "C"e>f g<f a>g | "G"e>e dc | A<F "G"{F}G3 :|
+|: A- \
+| "D7"A2 A<F A>c | "G"c>B Gc A<F A>c | "G"c>B Gc A<F D>F | (3ABA "G"G3 :|
+S:https://www.folktunefinder.com/tunes/8100
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hamburska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hamburska1.abc
+% Rhythm Hamburska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

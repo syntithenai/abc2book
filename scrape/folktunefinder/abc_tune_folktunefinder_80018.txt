@@ -1,0 +1,26 @@
+X:19
+T: Daer was een edel Pfalzgravin
+N: L0082
+O: Europa, Mitteleuropa, Deutschland
+N: Coussemaker Nr. 62
+R: Lied
+M: 2/4
+L: 1/16
+K: D
+A | A3dd2d2 | d3=cc2z
+c | d3AA2A2 | A3GGAz
+A | =c3cc2d2 | =c3_BA2z
+A | d3AA3A | G3=FE2z
+D | D3E=F2G2 | A3GA3
+A | A3=cc2c2 | d3=cd2z
+S:https://www.folktunefinder.com/tunes/80018
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

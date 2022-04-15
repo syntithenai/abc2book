@@ -1,0 +1,21 @@
+X:5660
+T:Rosin The Beau
+O:england
+S:EF
+M:6/8
+K:G
+P:A
+D|"G"G2G BAG|"G"d3 "C"efg|"G"dBG GAB|"Em"E3 "D7"E2D|
+"G"G2G BAG|"G"d3 "C"efg|"G"dBG "D7"ABA|"G"G3 G2:|
+P:B
+d|"G"dBd def|"C"g2e g2e|"G"dBG GAB|"Em"E3 "D7"E2D|
+"G"G2G BAG|"G"d3 "C"efg|"G"dBG "D7"ABA|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/26112
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:5105
+T:Picking up Sticks
+T:to the tune of Lavena
+O:england
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:F
+d | "Dm"d2d "A7"^c>=Bc | "Dm"d2d A2A | \
+"Bb"d2d "A7"^c>=Bc |"Dm"d3 A2_B | \
+"Gm"B>dc "C7"B>cB | "F"A>BA "C"G>FE | \
+"Dm"F>GA "Gm"G>AF | "Am"E3 "Dm"D2 :|
+S:https://www.folktunefinder.com/tunes/25557
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:497
+T: WO FIND ICH DANN DEINS VATERS HAUS
+N: E0460
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2G2A2 | B2^c2d4
+e3d=c2B2 | A4B2z2
+d2c2B2A2 | B3BA2
+A2 | d2c2B2A2 | B3BA2
+B2 | c4z2e2 | d4z2
+d2 | d2B2A2G2 | A4A4 | B6
+S:https://www.folktunefinder.com/tunes/78938
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

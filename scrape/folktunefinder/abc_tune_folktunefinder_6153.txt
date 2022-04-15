@@ -1,0 +1,32 @@
+X: 2
+T: Tropanka Silistrenska
+O: Bulgaria
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"A"\
+|: "A"deee edde | ~c3B "G"BcBA \
+| "A"~A3G ABc2 | cddc "G"B2ed \
+|  "A"~c3B "Em"BcBA | "A"~A3E A2A2 :|
+"B"\
+|: "A"cddc "Em"B2ed | "A"~c3B "G"BcBA \
+| "A"~A3G ABc2 | "A"cddc "G"B2ed \
+| "A"~c3B "Em"BcBA | "A"A3E A2A2 :|
+"C"\
+|: "A"AB~c2 dB~c2 | dB~c2 BAAE | "A"AB~c2 cBBA \
+|1,3 cdde "G"~c3B :|2 "A"A2de ~ede2 :|4 "A"A2"Em"de "A"A2z2 ||
+"D"\
+|: "-"~c2"G"BA "A"A2z2 | "-"AB"G"BA "A"A2 z2 \
+| "A"ABcd ~c2BA | ~A3G "G"ABBA | "A"~A3e A2Az :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/6153
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TropankaSilistrenska.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

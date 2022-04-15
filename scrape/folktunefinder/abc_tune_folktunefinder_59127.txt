@@ -1,0 +1,25 @@
+X:240
+T:Danza
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Cadavu (Valds)
+Z:ByD IDEA
+M:3/8
+L:1/8
+Q:3/8=96
+K:Dm
+|: D2 D|E2 F|A2 G|F3|E3-|E3 :|
+|: D2 D|D2 D|F2 D|F2 E|G2 G|G2 A|F2 F|E3|D3-|D3 :|
+S:https://www.folktunefinder.com/tunes/59127
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

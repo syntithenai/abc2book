@@ -1,0 +1,29 @@
+X: 1
+T: Donal' Don
+S: handwritten MS by Barbara McOwen (Feb 1995)
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FG \
+| "D"A3A A2F2 | A2d2 d2c2 | "G"B3B B2A2 | "Em"B2e2 "A7"e2c2 \
+| "D"A3A A2F2 | A2d2 "G"d2e2 | "D"fa3 "A7"e2fe | "D"d4 d2 |]
+A2 \
+| "D"f3f f2a2 | "D"fed2 "G"B4 | "Em"e3e e2f2 | "E7"ed B2 "A7"A4 \
+| "D"f3f f2a2 | "D"fed2 "G"B2de | "D"f2af "A7"edB2 | "D"d4 d2 |]
+S:https://www.folktunefinder.com/tunes/17030
+S:http://trillian.mit.edu/~jc/music/abc/reel/Donal_Don_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/Donal_Don_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Donal_Don_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r16/Donal_Don_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/Donal_Don_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

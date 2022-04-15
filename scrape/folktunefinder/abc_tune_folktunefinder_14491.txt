@@ -1,0 +1,26 @@
+X:1
+T: the Lad at the Bar
+R:Jig
+C:Bracha Ben Avraham
+Z:Bracha Ben Avraham computav:netvision.net.il>
+M:6/8
+L:1/8
+K:Em
+S:"Israeli Ceilidh"
+|: BEE cEE | BEE BAG | ADD BDD | ADD AGF \
+|  BEE cEE | BEE BAG | BcB AFD |1 FGF EGA :|2 FGF E3 ||
+|: B2G AB^c | dAG FED | BEE cEE | BEE BAG \
+|  B2G AB^c | DAG FED | BcB AFD | FGF E3 :|
+|: eBB fBB | gBB efe | dAA eAA | fAA fed \
+|  eBB fBB | gBB gfe | BcB AFD | FGF E3 :|
+S:https://www.folktunefinder.com/tunes/14491
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadAtTheBarJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadAtTheBarJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

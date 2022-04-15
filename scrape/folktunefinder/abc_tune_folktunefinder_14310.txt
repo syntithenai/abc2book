@@ -1,0 +1,25 @@
+X: 1
+T: High Part of the Road
+S: Susan Songer & Clyde Curley "The Portland Collection" v.1 p.95 1997
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"B3  "C"cBc | "G"d2d cAG | "D"F2D DED | A,DG    FGA \
+|  "G"~B3 "C"cBc | "G"dcd d2e | "D"fed cAF |1 AGF "G"G3 :|2 AGF "G"GBd ||
+|: "G"gfg    def |    gfg bag | "D"f3  dfa |  afd    cAF \
+|  "G"g3     def |    gfg bag | "D"fed cAF |1 AGF "G"GBd :|2 AGF "G"G3 |]
+S:https://www.folktunefinder.com/tunes/14310
+S:http://trillian.mit.edu/~jc/music/abc/jig/HighPartOfTheRoad3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/HighPartOfTheRoad3_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

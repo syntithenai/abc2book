@@ -1,0 +1,20 @@
+X:0
+T:Hughie the Graeme
+S:Scottish Folksinger
+M:4/4
+L:1/4
+Q:1/2=80
+K:DDor
+% mixolydian/dorian hexatonic
+c|cc    dd|ec d2|cc    dd|ec d>G|
+  cB    AG|cB Ac|Bd    cA|GE D2||
+  GG/G/ GD|EG Ad|cA/A/ AA|GE D2|]
+S:https://www.folktunefinder.com/tunes/30074
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

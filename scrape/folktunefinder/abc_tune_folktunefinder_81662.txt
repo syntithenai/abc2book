@@ -1,0 +1,87 @@
+X: 23
+T: Rakes Polka
+M: 2/4
+L: 1/16
+Q:1/4=125
+% Last note suggests Dorian mode tune
+K:G % 1 sharps
+% Rakes Polka
+% (c) SSF February 2006
+V:1
+A3G E2 A2| \
+A2 GA B2 d2| \
+e3f g2 fg| \
+ag fe d2 G2|
+A2 G2 E2 A2| \
+A2 GA B2 d2| \
+e3f g2 e2| \
+d2 B2 A4|
+A3G E2 A2| \
+A2 GA B2 d2| \
+e3f g2 fg| \
+ag fe d2 G2|
+A2 G2 E2 A2| \
+A2 GA B2 d2| \
+e3f g2 e2| \
+d2 B2 A4|
+A4 a4| \
+a2 ga b2 e2| \
+e3f g2 fg| \
+ag fe d2 G2|
+G4 a4| \
+a2 ga b2 e2| \
+e3f g2 e2| \
+d2 B2 A4|
+A4 a4| \
+a2 ga b2 e2| \
+e3f g2 fg| \
+ag fe d2 G2|
+G4 E2 A2| \
+A2 GA B2 d2| \
+e3f g2 e2| \
+d2 B2 A4|
+A4
+V:2
+z4 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 E,2 z2|
+[B2G2E2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 A,,2 z2|
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 E,2 z2|
+[B2G2E2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 A,,2 z2|
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 E,2 z2|
+[B2G2E2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 A,,2 z2|
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 E,2 z2|
+[B2G2E2] z2 A,,2 z2| \
+[E2C2A,2] z2 A,,2 z2| \
+[E2C2A,2] z2 G,2 z2| \
+[d2B2G2] z2 A,,2 z2|
+[E2C2A,2]
+S:https://www.folktunefinder.com/tunes/81662
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

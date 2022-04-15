@@ -1,0 +1,25 @@
+X:156
+T: Gerstebinden
+N: A0192
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 34. Tons. von L. Senfl.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2G2G2 | A2A2A4
+e4=f3e | d4c4 | d8 | z2
+d2e4 | e2e4e2 | =f4e4
+d4c4 | A4B2c2 | d4z4
+d2d2c2B2 | G4z2G2 | A3Bc2d2- | d2e2d2c2- | c2B2A4 | G6
+S:https://www.folktunefinder.com/tunes/68702
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

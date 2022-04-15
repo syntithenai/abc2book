@@ -1,0 +1,32 @@
+X: 1
+T: Angus Campbell
+T: the Laird o' Drumblair
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: C
+L: 1/8
+K: A
+   E2 \
+| "A"~A2cA EAce | {g}a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GBEG |
+| "A"~A2cA EAce | {g}a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+|: (3efg \
+| "A"{g}a2ea caAa | cAeA aAca | "Bm"{^a}b2fb dbBb | dBfB "E7"bBdg |
+| "A"{g}a2ea caAa | cAeA aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/16712
+S:http://trillian.mit.edu/~jc/music/abc/reel/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/AngusCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AngusCampbell.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

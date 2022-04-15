@@ -1,0 +1,25 @@
+X: 1
+T: Bonny Laddie
+O: Trad
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+DE \
+| "G"G3A B2d2 | "D7"cBAG "G"B2GA | "D7"B2A2 A2GA | B2A2 A2DE \
+| "G"GFGA B2d2 | "D7"cBAG "B7"BcAB | "Em"G2E2 E2DE | G2E2 E2 :|
+|: Bd \
+| "C"e2eg "G"d2dB | "D7"cBAG "G"B2GA | "D7"B2A2 A2GA | B2A2 A2d2 \
+| "C"e2eg "G"d2dB | "D7"cBAG "B7"BcAB | "Em"G2E2 E2DE | G2E2 E2 :|
+S:https://www.folktunefinder.com/tunes/15350
+S:http://trillian.mit.edu/~jc/music/abc/march/BonnyLaddie.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

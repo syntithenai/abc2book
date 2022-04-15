@@ -1,0 +1,60 @@
+X:6164
+T:Sonatina
+O:england
+C:Ludwig van Beethoven
+%http://www.musicaviva.com/beethoven-ludwig-van.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:C
+L:1/8
+K:G
+V:1
+G4 {B}AGAB|G2gd dBBG|c4 {c}BABc|A2de dBcA|
+V:2
+[G,4B,4][F,4C4]|[G,2B,2]z2z4|[D,4A,4][D,4G,4]|[D,2F,2]z2 z4|
+%
+V:1
+G4 {B}AGAB|c4 {f}edef|gdec BdcA|A4G2z2|
+V:2
+G,DB,D G,=FDF|G,ECE G,CA,C|B,2C2D2D,2|G,2D,2G,,2z2|
+%
+V:1
+|:A4cBAB|dcag fedc|B4dcBc|edba gfed|
+V:2
+|:F,D,F,D, G,D,G,D,|A,2z2z4|G,D,G,D, A,D,A,D,|B,2 z2z4|
+%
+V:1
+c2ag fedc|B2gf edcB|A2DE FGAB|c2Bc dcAB|
+V:2
+[D,2A,2]z2z2[D,2F,2]|[D,2G,2]z2z2[D,2E,2]|[D,2F,2]z2z4|z8|
+%
+V:1
+G4 {B}AGAB|G2gd dBBG|c4 {c}BABc|A2de dBcA|
+V:2
+[G,4B,4][F,4C4]|[G,2B,2]z2z4|[D,4A,4][D,4G,4]|[D,2F,2]z2 z4|
+%
+V:1
+G4 {B}AGAB|c4 {f}edef|gdec BdcA|A4G2z2:|
+V:2
+G,DB,D G,=FDF|G,ECE G,CA,C|B,2C2D2D,2|G,2D,2G,,2z2:|
+%
+V:1
+d4 d2d2|d4g2b2|d'4d'2d'2|b4z4|d4d2d2|
+V:2
+D,A,CA, D,A,CA,|D,G,B,G, D,G,B,G,|D,F,A,F, D,F,A,F,|D,G,B,G, D,G,B,G,|D,A,CA, D,A,CA,|
+%
+V:1
+d4g2b2|d'2z2f2z2|g2z2[B,2G2][B,2G2]|[B,4G4][B,4G4]|[B,8G8]|]
+V:2
+D,G,B,G, D,G,B,G,|D,F,A,F, D,A,CA,|[G,2B,2]z2G,,2G,,2|G,,2G,2D,2B,,2|G,,8|]
+S:https://www.folktunefinder.com/tunes/26616
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

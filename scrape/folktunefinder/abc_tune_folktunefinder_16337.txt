@@ -1,0 +1,59 @@
+X: 1
+T: Gryningspolskan
+O: Sweden
+D: Filarfolket "utan tvekan" 1982 (Amalthea AM29)
+D: Filarfolket "Smuggel" 1988
+M: 3/4
+L: 1/16
+S: http://www.artkitchen.com/Photos/Scand/Filarfolket_Gryningspolskan.jpg
+%%staffsep 45
+K: Am
+|: A,4 A,B,CD E2C2 \
+| B,4 B,CDE DCB,C \
+| A,4 A,B,CD E2A2 \
+| ^G4 GAB2 BAG2 \
+| A4 A,B,CD E2C2 |
+|1 B,4 B,CDE DCB,C \
+| A,4 A,B,CD E2A2 \
+| ^G2EG A8 \
+:|2 B,2CB, [E8E,8] \
+| A,B,CD E2A2 ^G2EG \
+| B2A^G A8 \
+|: A,B,CD E2A2 A4 \
+| A2^GA c4 B4 |
+| A,B,CD EA2 A4 \
+| A2^GA F4 E4 \
+| CDEF G2c2 c4 \
+| c2Bc A4 B4 \
+|1 ABcd e2dc B2A^G \
+| E^GBG A8 :|
+|2 ABcd GABc FGAB \
+| E^GBG Aedc "fine"A4 \
+|::: A3B c4 B2A2 \
+| B3c A8 \
+| A3B c2dc B2A2 \
+| A3B G8 \
+| D3E F2G2 A2c2 \
+| B3G B8 |
+| B3c d2ed c2B2 \
+| B4 A8 :::| A3B c2dc B2A2 \
+| A4 ^G4 E^GBG \
+|1 A12- \
+| A12 \
+:|[" " A12- \
+| A12- \
+| A12- \
+| "D.C al Fine"A12 |]
+S:https://www.folktunefinder.com/tunes/16337
+S:http://trillian.mit.edu/~jc/music/abc/pols/Gryningspolskan_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Gryningspolskan_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/Gryningspolskan_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:205
+T:the Merry Ploughman
+B:Aird's Airs and Melodies vol 2
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000f1.html
+%%ID:000000f1
+K:G
+G2|\
+B2d2d2e2| d2B2A2G2| B2d2d2e2| d4 G3A|\
+B2d2d2e2| d2B2A2G2| (Bc)d2 efge| d4 G2::
+ef|\
+(gfed) (edcB)| c2B2 A2(ef)| gfed BcdB| g4 d2ef|\
+(gf)(ed) (ed)(cB)| g2B2A2c2| Bcd2 efge| d4 G2:|
+S:https://www.folktunefinder.com/tunes/30350
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

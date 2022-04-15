@@ -1,0 +1,32 @@
+X:3375
+T:the Marquis of Huntly's Farewell
+C:William Marshall
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d80.html
+%%ID:00000d80
+K:A
+A|\
+A,3C E/E/E (~EF/G/) | A>B {AB}cB {B}A2 (Ac) | \
+A,3C E/E/E (Ec) | B>c d/c/B/A/ {A}F2(FA) |
+A,3C E/E/E (~EF/G/) | A>B {AB}cB {B}A2 (Ac) | \
+d3f eccA | B>c (d/c/)(B/A/) {E}F2 F ||
+f |\
+(f/e/)d/c/ ac bc a2 | (f/e/)d/c/ ac (fe)dc | \
+f(bb).f (b/a/)g/f/ b2 | f(bb).f (ag)(fa) |
+(f/e/)d/c/ ac bc a2 | (f/e/)d/c/ ac (fe)dc |\
+d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/ | TB>c d/c/B/A/ {E}F2 F |]
+x |\
+A2A2A2A2 | A2e2a2a2 | A2A2c2A2 | G2A2d2d2 |\
+A2A2c2e2 |a2e2A2=g2 | f2d2c2A2 | G2A2 d2d ||\
+x|\
+a2a2a2a2 | a2c'2 d'c'b^a | b2B2b2B2| B2^d2e2=d2 |\
+A2a2a2a2| A2a2d'c'ba| d2d'2c'2a2| g2a2 d2d |]
+S:https://www.folktunefinder.com/tunes/36754
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

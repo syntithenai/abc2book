@@ -1,0 +1,23 @@
+X: 1
+T: Mack the Knife
+C: Kurt Weil
+O: The Threepenny Opera
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+FA \
+|| "D" .B2 .B2 | z2 FA | "Em".B2 .B2 | z2 EG | "A".B2 .B2 | z2 EG | "D"B2- B2- |
+B2 Ac \
+|| "D"e2 d2- | d2 cB | "Em"d2 E2- | E2 FG | "Em"d2 E2- | "A7"E2 dc | "D"B2- B2- | B2 :|
+S:https://www.folktunefinder.com/tunes/19749
+S:http://trillian.mit.edu/~jc/music/abc/tune/MackTheKnife_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/tune/MackTheKnife_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/MackTheKnife_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/tune/MackTheKnife_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

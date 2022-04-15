@@ -1,0 +1,31 @@
+X: 1
+T: Wandering Willie
+R: waltz
+B: Gow's Collection
+B: RSCDS 12-7
+N: Alternative tune for The Yellow Haired Laddie
+M: 3/4
+L: 1/8
+K: F
+|: "C7"c3BAG | "F"F3GF2 \
+| "C7"G3FG2 | "F"A2"Bb"d4 \
+|  "C7"c3BAG | "F"F3GA2 \
+| "A"A3^GA2 | "Dm"D6 \
+:: "Dm"A2d2"A7"^c2 | "Dm"d3ef2 |
+| "C7"c3dcB | "F"A3Bc2 \
+|1  "Dm"A2d2"A7"^c2 | "Dm"d3ef2 | "A"A2^G2A2 | "Dm"D6 \
+:|2"Dm"A2d2e2 | f3ga2 | "A"A3^GA2 | "Dm"D6 |]
+S:https://www.folktunefinder.com/tunes/20322
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WanderingWillie_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/WanderingWillie_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/WanderingWillie_F.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

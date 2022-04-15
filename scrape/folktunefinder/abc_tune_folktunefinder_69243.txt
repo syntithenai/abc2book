@@ -1,0 +1,21 @@
+X:384
+T: "Der Odenwalder"
+N: Z1064
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: Ab
+E2 | A2E2C2E2 | A2E2C2E2 | A2A2B2B2 | c2z2
+c4 | c2ccc2e2 | B4B2e2 | c2c2B2B2 | A4z4
+c4c3c | c2c2c2e2 | d2d2B2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/69243
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

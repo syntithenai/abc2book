@@ -1,0 +1,26 @@
+X: 16
+T:AUX QUATRE COINS DU BAL
+M:3/4
+L:1/8
+Q:190
+C:trad. Bresse / Jura
+R:bourre/valse
+K:C
+G2|c2cdef|g2e2e2|1f2d2d2e2c2:|2f2d2B2|c4||
+|:g2|e2c2g2|e2c2de|1f2d2d2e2c2:|2f2d2B2|c4||
+W:
+W:
+W:
+W:Cette "valse" est de toute vidence une bourre qui a migr dans une
+W:rgion qui ne l'a jamais danse.
+ W:Il en existe de nombreuses versions dans le centre de la France.
+S:https://www.folktunefinder.com/tunes/39973
+S:http://membres.lycos.fr/michelplatre/RBv1.1/rbbook.abc
+% Rhythm Bourre/valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

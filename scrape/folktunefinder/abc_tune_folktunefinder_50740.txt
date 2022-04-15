@@ -1,0 +1,28 @@
+X:85
+T:Newfoundland set tunes
+R:Polka
+S:Ryan's Fancy record
+Z:Added by alf.warnock@nrc.ca
+M:2/4
+L:1/16
+K:D
+|:"1st tune"D2F2 E2FE|D2d2 B2dB|A2F2 E2DE|F2D2 B,2A,2|
+D2F2 E2FE|D2d2 B2dB|A2F2 E2DE|F2D2 D4:|
+A2|F2A2 d3A|F2A2 d3A|F2A2 d2B2|c4 c3d|
+efed c2B2|ABAG E2FG|A2F2 E2FE|D4 D2:|
+"2nd tune"F2A2 G2B2|F2A2 f4|f2ef gfe2|e2de fedA|
+F2A2 G2B2|F2A2 f4|f2ef gec2|e2d2 d4:|
+AB|d4 cdcB|A2d2 F3G|A2G2 E2G2|B2A2 F2AB|
+d4 cdcB|A2d2 F3G|A2G2 E2FE|D4 D2:|
+S:https://www.folktunefinder.com/tunes/50740
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfpolk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

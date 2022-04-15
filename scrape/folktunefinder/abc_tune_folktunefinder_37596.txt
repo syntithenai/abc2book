@@ -1,0 +1,30 @@
+X: 63
+T:Jim Crow Quadrilles (4). TLY.062
+M:2/4
+L:1/8
+Q:200
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Quadrille
+O:England.
+A:Lancashire.
+N:Pause mark at end of A. DC at end of
+H:1860.
+Z:vmp.Taz Tarry.
+K:C
+cGEG| cee2| Adfd| c2 BG| cG EG| ccc z||!
+e(3c/d/c/ Ge|d(3B/c/B/ GG| cBAG| ^F>GAA|\
+ B3B| dcBA| G2 B>A| G2 zE|!
+ .F.A.D.B|ce EG| FADB| c2  zg|\
+ .e.c.A.f| dBGe| cAdB| c3 z|]
+S:https://www.folktunefinder.com/tunes/37596
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

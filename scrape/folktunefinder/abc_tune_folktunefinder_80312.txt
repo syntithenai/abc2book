@@ -1,0 +1,26 @@
+X:253
+T: Geistliche Lieder im Jacobston
+N: A0611C
+O: Europa, Mitteleuropa, Deutschland
+N: M Praetorius Mus. Sion. Vii. No. 187
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: A
+ |  |  | A2=cB | =cdee | e2
+e2 | de=fe | dcd2
+d2ed | =ccA2 | =G4
+e2=cc | AAdc | d2
+e2 | =cBAc | B2A2
+S:https://www.folktunefinder.com/tunes/80312
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

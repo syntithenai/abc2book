@@ -1,0 +1,27 @@
+X:350
+T: ET GIENG EN PATF[ERK2E
+N: E0977
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Tanz - Lied, Reigen
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2E2D2C2 | B,2A,2G,4
+A,3G,A,2B,2 | C4z2
+G,2 | C2E2D2C2 | B,2A,2G,4
+A,3G,A,2B,2 | C4z2
+C2 | D2D2D2E2 | F2E2D4
+E2C2CB,C2 | D2B,2G,4
+A,3G,A,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/76835
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

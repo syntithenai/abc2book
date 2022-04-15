@@ -1,0 +1,24 @@
+X:9
+T:Bal in de straat
+N:Amerikaanse vorm van gemeenschapsdans, samengesteld door het echtpaar D. Foster (Decatur, IL).
+O:USA
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/2
+L:1/4
+Q:1/2=120
+K:D
+DCB,|A, e2 ^d|eg fe|(d2 ^c2|d)D CB,|A, e2 ^d|eg fe|(d4|d)f ed||
+|:f2 (d2|d)f ed|(f4|f)d ef|g2 d2|B2 g2|(f4|f)d cd|
+z e2 ^d|eA de|z f2 e|dd cd|z e2 ^d|eg fe|(d4|d)(F G^G||
+(A4|A))(F GA|(B4|B))(GAB|(c4|c))BAg|f>^e f=e|d(F G^G|
+(A4|A))(F GA|(B4|B))GAB|c2 c>B|Ag fe|(d4|d)f ed:|
+S:https://www.folktunefinder.com/tunes/75705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

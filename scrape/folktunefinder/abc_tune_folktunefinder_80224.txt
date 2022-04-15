@@ -1,0 +1,26 @@
+X:165
+T: Neujahrslied
+N: A0529B
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Gsgb. 1586 fol 8b.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+ |  |  | G4d4 | A2_B2c2d2 | _B4A4 | G4z2
+G2 | d2d2e4 | =f4e4 | d4^c4 | d4z2
+d2 | g4e4 | =f4d4 | c4_B4 | A4z2
+A2 | G4d2d2 | A2_B2c2d2 | _B4A4 | G4z2
+G2 | F4G2G2 | A2d2c2_BA | G4z2
+d2 | d4c2d2 | _B4A4 | G8
+S:https://www.folktunefinder.com/tunes/80224
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

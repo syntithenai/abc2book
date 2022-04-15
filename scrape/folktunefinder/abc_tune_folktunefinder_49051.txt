@@ -1,0 +1,21 @@
+X: 22
+T:Frederic Paris'
+M:2/4
+L:1/8
+C:Frederic Paris
+R:Bourree
+K:C
+c>def | g>fed | c>dec | g2a_b | c>def | g>fed |
+c>dec |1 d4 :|2 d3g |: g>efg | a>fga | _b>ga_b |
+c'_ba_b | g>efg | a>fga | _b>agf |1 e3g :|2 e4 ||
+S:https://www.folktunefinder.com/tunes/49051
+S:http://www.lesession.co.uk/music/lgsdmweb.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

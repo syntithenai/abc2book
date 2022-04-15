@@ -1,0 +1,27 @@
+X: 1
+T: The Handsome Plowboy
+C: Trad
+O: England, Scotland
+M: C|
+L: 1/8
+R: hornpipe, reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: A
+E2 \
+| "A"A2A2 AcBA | "E7"G2B2 BdcB | "A"A2A2 Acea | "E7"gfed cBAG | "A"A2A2 AcBA | "E7"G2B2 BdcB |
+| "A"Acea "E7"gfed | "A"c2A2 A2 :: e2 | "A"aece aece | "D"afdf afdf | "E7"bgeg bgeg |
+| "A"agfe "E7"dcBA | "A"ceAe ceAe | "Bm"dfBf dfBf | "E7"cegf edcB | "A"A2c2 A2y2 :|
+S:https://www.folktunefinder.com/tunes/13569
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HandsomePloughboy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HandsomePloughboy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/HandsomePloughboy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/HandsomePloughboy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HandsomePloughboy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/HandsomePloughboy_A.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

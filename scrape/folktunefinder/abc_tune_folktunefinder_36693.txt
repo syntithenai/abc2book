@@ -1,0 +1,33 @@
+X:3070
+T:Lappkungens polska
+A:Jmtland
+C:Lapp-Nils
+L:1/16
+M:3/4
+N:Yes, the B's are all natural
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007a8.html
+%%ID:000007a8
+K:D min
+A2=B^c c2d2 d4| d2c=B B2c2 c4|\
+A2=B^c d2e2 f2d2|^cdc=B ABAG F2E2|\
+D2de/d/ ^c2d2 d4| d2c=B B2c2 c4|
+A2=B^c d2e2 f2d2 |^cdec d8::\
+D2a2 a2g2 e2g2| D2f2 gfed ^c2ec|
+A2=B^c d2e2 f2d2|^cdc=B ABAG F2E2|\
+D2a2 a2g2 e2g2|D2f2 gfed ^c2ec|\
+A2=B^c d2e2 f2d2|^cdec d8:|
+S:https://www.folktunefinder.com/tunes/36693
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

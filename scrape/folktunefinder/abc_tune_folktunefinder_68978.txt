@@ -1,0 +1,29 @@
+X:119
+T: SPINN SPINNE MEINE LIEBE TOCHTER
+N: Z0119
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/16
+K: D
+A,4 | B,3A,G,3A,B,3C | D4A,4
+A,4 | B,3A,G,3A,B,3C | D4z4
+F4 | E2D2C2B,2A,2^G,2 | A,4A,4
+F4 | E2D2C2B,2A,2^G,2 | A,4z4
+E,4 | F,3E,D,3E,F,3^G, | A,4E,4
+E,4 | F,3E,D,3E,F,3^G, | A,4E,4
+A,4 | B,3A,G,3A,B,3B, | D3A,D3E
+F3G | A3GF4E4 | D4z4
+S:https://www.folktunefinder.com/tunes/68978
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

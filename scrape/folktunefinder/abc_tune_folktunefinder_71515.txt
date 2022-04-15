@@ -1,0 +1,26 @@
+X:486
+%%topmargin 3cm
+T:The Drovers Lads
+T:Gillean an Drover
+C:Highland Jig
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:A dorian
+B | GBd g3 | agf (g2 e) | dBB (B2 e) | dBB (B2 A) | GBd g3 | agf (g2 e) | dBA A2 e | dBA A2 :: GBd dBd | ege dBG |
+dBB (B2 e) | dBB (B2 A) | GBd dBd | ege dBG | dBA (A2 e) | dBA A2 :: B | GBB gBB | aBB bBB | dBB (B2 e) | dBB (B2 A) | GBB gBB |
+aBB bBB | dBA (A2 e) | dBA A2 :: g | bag agf | gfe efg | dBB (B2 e) | dBB (B2 g) | bag agf | gfe efg | dBA (A2 e) | dBA A2 :|
+S:https://www.folktunefinder.com/tunes/71515
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Drovers_Lads.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Gillean_an_Drover.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0486.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

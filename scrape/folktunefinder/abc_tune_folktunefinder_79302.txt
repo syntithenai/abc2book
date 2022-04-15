@@ -1,0 +1,29 @@
+X:198
+T: DES MORGENS ZWISCHEN DREIN UND VIEREN
+N: E1339
+O: Europa, Mitteleuropa, Deutschland, Hessen, Ober- Lahn- und Dillkreis
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: D
+D,4 | A,4A,4A,2A,2A,2A,2 | D4A,4z4
+A,4 | B,2B,2B,2B,2D4C2B,2 | B,4A,4z4
+D4 | C4E,4G,4B,4 | A,4D,2D,D,D,4
+A,4 | A,4G,4E,4G,4 | F,4D,2D,D,D,4
+A,4 | D4F4F4E4 | D12
+C2B,2 | A,6A,2C2B,2A,2G,2 | F,4D,2D,D,D,4
+F,3G, | A,12B,3C | D12
+E3D | C4C4C4D3B, | A,8z4
+F,3G, | A,12B,3C | D12
+D4 | E4E4B,4C4 | D8z4
+S:https://www.folktunefinder.com/tunes/79302
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

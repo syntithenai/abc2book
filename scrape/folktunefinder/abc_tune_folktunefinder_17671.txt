@@ -1,0 +1,28 @@
+X: 1
+T: Miss Condie's Reel
+C: D.McKercher
+R: reel
+B: RSCDS 17-7(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+B \
+| "G"G2B,D "Em"EFGB | "D7"AD"(G)"BD "(D7)"cDBD | "G"GDB,D "Em"EFGB | "D7"ADFA "G"G2GB |
+| "G"G2B,D "Em"EFGB | "D7"AD"(G)"BD "(D7)"cD"(G)"Bd | "C"ecc2 "G"dBGB | "D7"ADFA "G"G2G ||
+|| B \
+| "G"d2dB "C"g2ge | "G"dBgB dBBg | "Em"gbge "D"afdf | "A7"eA^cA "D"d2dg |
+| "D"fadf "G"BcdB | "C"ecc2 "G"dBGB | G2B,D "Em"EFGB | "D7"ADFA "G"G2G |]
+S:https://www.folktunefinder.com/tunes/17671
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissCondiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MissCondiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MissCondiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissCondiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissCondiesR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

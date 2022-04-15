@@ -1,0 +1,25 @@
+X: 01001
+T: SCOTTY O'NEIL
+R: reel
+C: Bob McQuillen '73
+B: Bob's Note Book 1&2 #1
+Z: 1997 John Chambers
+M: C|
+L: 1/8
+K: D
+|: AG | F2D2 A2F2 | dedc BABc | d2A2 G2F2 | F2E4 AG |
+      | F2D2 A2F2 | dedc BABc | d2A2 ABAG | F2D4 :|
+|: AG | F2A2 f3e  | d2c2 B3c  | d2A2 G2F2 | F2E4 AG |
+      | F2A2 f3e  | decc BABc | d2A2 ABAG | F2D4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/58600
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book01.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:160
+T:Un ange comme a
+R:Slow
+O:France
+C:-
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+Q:"Tempo de slow" 1/4=90
+K:F
+%%MIDI program 74
+z2 (3Aca | g2 (3fef e2 (3dcF | A2-Az z2 (3Aca |
+g2 (3fef e2 (3dcF | G2-Gz z2 (3GGA | B2 (3ABA G2 (3GAB |
+c2 (3BcB A2 (3cde | f2 (3efe d2 (3def | g2-z z2 (3Aca |
+g2 (3fef e2 (3dcF | A2-Azz2 (3Aca | g2 (3fef g2 (3faf |
+g2z2 z2(3fga | g2 (3fef e2 (3d^cd | fedc dz (3ABc |
+d2 (3Bdf e2 (3ceg |1 (f4 e)z (3cag :|2 c8 || [P:Rcitatif] [M:C|] fc ag fc ag |
+f2z2 zc gf | ec gf ec gf | e2-ez zd ag |
+gd ba gd ba | g2z2 zd ag | fd ag fd ef |
+g4- gz (3Aca | [M:C] g2 (3fef e2 (3dcF | A2az z2(3Aca |
+g2(3fef g2(3faf | g2z2 z2(3fga | g2(3fef e2 (3d^cd |
+fe dc dz (3ABc | d2(3Bdf e2(3ceg | f4-fz (3Aca S |]
+%%footer $D   Galouvielle-MBe 2008 \nTango (--)
+S:https://www.folktunefinder.com/tunes/618
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Slow
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

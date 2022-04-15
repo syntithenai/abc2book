@@ -1,0 +1,23 @@
+X:5358
+T:Quick March 42d. Regt.
+O:england
+N:Seems to be a distant relative of The Flowers of the Forest.
+N:"GB" in bars 2 and 6 written with two sets of beams, a 2-note
+N:one upwards and a downward beam for the whole 4-note bar; I've
+N:got no idea what this means.
+M:2/4
+L:1/8
+K:G
+G2B2|GBBg|dBAG| AFED|G2B2|GBBg|dBAG|TA2G2::
+gfed|efga|gfed|Te2d2|gfed|efge|dBAG|TA2G2||
+S:https://www.folktunefinder.com/tunes/25810
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

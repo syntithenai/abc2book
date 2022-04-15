@@ -1,0 +1,32 @@
+X:120
+T:Hebridean Milking Song
+M:4/4
+L:1/8
+Q:212
+K:G
+d2G3GG2|G2d2 ddB2|d2GG GGD2|DDE2 G2B2|A2
+W: G G G C D7
+G3GG2|G2d2 ddB2|d2GG GGD2|G2B2 A2G2|B2
+W: G G G D6 G
+dd ddG2|GGB2 d2e2|d2dd dde2|dde2 d2B2|AB
+W: G G C G G C G C G D6 B
+G3GG2|GGd2 ddB2|d2GG GGD2|G2B2 A2G2|B2
+W: Em G G D6 G
+%Different Harmonies
+d2 G3G|G2G2 d2dd|B2d2 GGGG|D2DD E2G2|B2A2
+W: G Em Bm C G C D6
+G3G|G2G2 d2dd|B2d2 GGGG|D2G2 B2A2|G2B2
+W: Em G Em7 Bm C G D6 G
+dddd|G2GG B2d2|e2d2 dddd|e2dd e2d2|B2AB
+W: G Em Bm C Bm Bm C G C G B
+G3G|G2GG d2dd|B2d2 GGGG|D2G2 B2A2|G2B2
+W: Em G C9 G C G D6 G
+S:https://www.folktunefinder.com/tunes/58780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/strath.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/strath.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

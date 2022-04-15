@@ -1,0 +1,30 @@
+X:653
+T:Andy McGann's
+R:jig
+S:Unknown band
+H:
+N:
+D:Radio 
+Z:Adrian Scahill
+M:6/8
+L:1/8
+K:D
+D2F EDB,|DFA d3|edB AFD|FAF ECA,|\
+D2F EDB,|DFA d3|edB AFE|FDC D3:||\
+d2f ede|fdB AFA|1 (3Bcd B AFD|FED EFA|\
+d2f ede|fdB AFA|(3Bcd B AFE|FDC D3:|2 dcB AFD|CEC A,CE|\
+ABc d2f| edB AFE|F3 DEF|EDC D3||
+S:https://www.folktunefinder.com/tunes/1287
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

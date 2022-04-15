@@ -1,0 +1,33 @@
+X:2725
+T:the Jig of Slurs
+C:P.M. G.S. McLennan
+M:6/8
+O:Scotland
+R:Jig
+R:Pipe march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007f7.html
+%%ID:000007f7
+K:D
+B|\
+A2d dcd|Bdd Add|Bdd Add|Bee efe|\
+A2d dcd|Bdd Add|Bdd cde|fdd d2::
+B|\
+A2f fef|aff fed|B2e ede fee edB|\
+A2f fef|aff fed|Bdd cde|fdd d2::
+[K:Edor]G|\
+G2g gfg|aee gdB|G2g gfg aee g2G|\
+G2g gfg aee gdB|Bee egg|fed e2::
+G|\
+G2B Bdd|dee edB|G2B Bdd|dee egg|\
+G2B Bdd|dee edB|Bee egg|fed e2:|
+S:https://www.folktunefinder.com/tunes/36624
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

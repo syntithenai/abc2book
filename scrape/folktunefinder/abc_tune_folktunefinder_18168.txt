@@ -1,0 +1,26 @@
+X: 1
+T: Struan Robertson's  Reel
+R: reel
+B: RSCDS 16-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: e \
+| "G"dega bgea | gedg BGdB | dega b/a/g a/g/e | "D"fd"G"gB "Am"A2A :|
+|: d \
+| "Am"ceAe cAec | "G"Bgdg BGdB | "Am"ceAe cAae | "D"fd"G"gB "Am"A2A :|
+S:https://www.folktunefinder.com/tunes/18168
+S:http://trillian.mit.edu/~jc/music/abc/reel/StruanRobertsonsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/StruanRobertsonsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/StruanRobertsonsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/StruanRobertsonsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/StruanRobertsonsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/StruanRobertsonsReelR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

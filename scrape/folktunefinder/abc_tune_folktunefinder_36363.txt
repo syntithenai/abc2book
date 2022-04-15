@@ -1,0 +1,24 @@
+X:1420
+T:Donald Blue
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009be.html
+%%ID:000009be
+K:D
+dB AF AF AB | dB AF E2 D2 |\
+dB AF AF Ad | BB2A B2 d2 :|
+|:AB de fa fd | fa fd ed B2 |\
+AB de fa fd | BB2A B2d2:|
+S:https://www.folktunefinder.com/tunes/36363
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

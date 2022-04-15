@@ -1,0 +1,25 @@
+X:81
+T:Goodbye Miss Goodavich
+R:reel
+M:4/4
+L:1/8
+Q:1/4=200
+K:Emin
+"Em"e~B3 "C"cBAG|"Am"AEGA "G"DEGA|"G"Bded "G"~g3a|"D"f2af "D"gfed|
+"Em"e~B3 "C"cBAG|"Am"AEGA "G"DEGA|"Em"GeBG "D"FdAF|1 "Em"GEBA "Em"GEGB:|2 "Em"GEED "Em"EFGA||
+"G"BDGB cBAG|"D"A~F3 D~F3|"D"Adde fagf|"Em"geed efga|
+"Em"b2bg ef(3gfe|"D"adfa bagf|"G"gdBG FdAF|1 "Em"GEED EFGA:|2 "Em"GEBA GEGB||
+e~B3 cBAG|AEGA DEGA|GeBG FdAF|1 GEBA GEGB:|2 GEBA GEGA||
+BDGB cBAG|A~F3 D~F3|Adde fagf|geed efga|
+b2bg ef(3gfe|adfa bagf|gdBG FdAF|GEED EFGA:||
+S:https://www.folktunefinder.com/tunes/40479
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

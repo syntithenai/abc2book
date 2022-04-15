@@ -1,0 +1,40 @@
+X:1021
+T:Celtic Colours # 1
+R:reel
+C:Brenda Stubbert
+S:Tune of the Month. September,1998.
+B:previously unpublished
+D:Celtic Colours Festival 1998 - The Second Wave
+A: <http://www.capebretonet.com/Music/Stubbert>
+N:Contacts ...
+N:Recordings and bookings
+N:..... 
+N:Tune books and related recordings
+N:..... Cranford Publications <http://www.cranfordpub.com>
+H:Copyrights:Published by Stubbert Music (SOCAN)
+Q:333
+O:England
+L:1/8
+M:C|
+K:Ddor
+"D minor: (dorian)"|:B|AB c2 dcAG|FEFD EccB|AB c2 dcAG|FDEC Dddc|
+AB c2 dcAG|FEFD EccB|AGAc d2 ed|AcGE EDD:|
+K:Dmix
+"D major (mixolydian)"|:g|fd^cd Adfa|gecd efge|fd^cd Adfa|gecd edde|
+fd^cd Adfa|gecd efge|(3(aba) ge d=fed|cAGc Add:|
+S:https://www.folktunefinder.com/tunes/21470
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:322
+%%topmargin 3cm
+T:Muileann Dubh
+T:The Black Mill
+C:Very old
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A minor
+a | {/^f}ede^f {ef}g2 T(fe) | {/^c}dGdB dGdg | {/^f}ede^f g2 (fe) | {/^c}dGdB {cB}A2 A>a |
+{/^f}ede^f {/f}g2 T(fe) | {/^c}dGdB {/c}dGdg | {/^f}ede^f gage | {/^c}dBgB {cB}A2 A |
+a | eA{/^f}ed eAAB | {/^c}dGdB {/c}dGGg | eA{/^f}ed eAAB | {/^c}dGdB {cB}A2 (A>a) |
+eA{/^f}ed eAAB | {/^c}dGdB {/c}dGGg | {/^f}ede^f gbge | dgBg {cB}A2 A |]
+S:https://www.folktunefinder.com/tunes/71351
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Black_Mill.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Muileann_Dubh.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0322.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

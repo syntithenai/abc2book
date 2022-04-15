@@ -1,0 +1,21 @@
+X: 1
+T: 'Et dodim kala
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: EPhr
+|: "E"EB2B B2B2 | "Am"cBcB cBA2 | "Dm"dccB BA^GA | "E"B8 :|
+|: "E"BAA^G GFEF | ^G8 |1 BBAA^G GFFE | (EB7) :|2 "Dm"BBAA^G GFFE | "E"E8 |]
+S:https://www.folktunefinder.com/tunes/6458
+S:http://trillian.mit.edu/~jc/music/abc/Israel/EtDodimKala_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/EtDodimKala_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/EtDodimKala_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/EtDodimKala_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Israel/tune/EtDodimKala_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

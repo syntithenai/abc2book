@@ -1,0 +1,25 @@
+X:3754
+T:Dancing Tailor
+% Nottingham Music Database
+S:Alastair A, via EF
+M:6/8
+K:D
+P:A
+A/2G/2|"D"FGF "G"GAB|"A7"ABc "D"dcd|"G"Bcd "D/f"efd|"Em"cdB "A7"ABG|
+"D"FGF "G"GAB|"A7"ABc "D"dcd|"G"Bcd "D"Adf|"A7"edc "D"d2:|
+P:B
+A|"D"ded fed|"Em"efd "A7"cBA|"D"ded fed|"G"Bcd "A7"efg|
+"D"afa fed|"Em"ged "A"cBA|"G"Bcd "D"Aaf|"A7"edc "D"d2:|
+S:https://www.folktunefinder.com/tunes/59943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

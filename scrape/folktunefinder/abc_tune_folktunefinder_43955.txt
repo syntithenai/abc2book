@@ -1,0 +1,32 @@
+X:450
+T:The Caribou
+C:Andy Hornby
+L:1/8
+M:4/4
+O:England
+Q:1/4=173
+R:Polka
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c8d.html
+%%ID:00000c8d
+K:G
+dc |\
+B2AB GABG | c2E2E2AG  | \
+F2EF DFAc | BGBd A2dc |\
+B2AB GABG | c2E2E2AG  |\
+F2EF DcAF | G4-G2 ::
+AB|\
+c2E2EcBA | B2D2DBAG | \
+F2DF ADFA | GBDG BDGB |\
+c2E2EcBA | B2D2DBAG | \
+F2EF DcAF | G4-G2:|
+S:https://www.folktunefinder.com/tunes/43955
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

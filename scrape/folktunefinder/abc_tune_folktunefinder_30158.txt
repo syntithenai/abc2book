@@ -1,0 +1,22 @@
+X:0
+T:Watson's Class
+G:strathspey
+C:Niel Gow
+M:C
+L:1/8
+Q:1/4=120
+K:EMin
+   G/F/| EBGB              EB        e>^c    |d>B       A/d/A/G/  G/F/E/D/ D
+   G/F/| ABGB              EB        e>b     |a/g/f/e/  g/f/e/^d/ eE       E  :|
+   g/f/|:e>fg>e            g/a/b/g/  e>f     |d>fad               f/g/e/f/ d
+[1 f   | e>fge             g/a/b/g/  ea      |g/a/b/g/  f/g/a/f/  ge       e>B:|
+[2 a   | g/a/b/g/ f/g/a/f/ e/f/g/e/ ^d/e/f/d/|B/^c/d/B/ e/c/d/F/  GE       E  |]
+S:https://www.folktunefinder.com/tunes/30158
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

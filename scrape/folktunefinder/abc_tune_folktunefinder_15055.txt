@@ -1,0 +1,35 @@
+X: 113
+T:Seton's Ceilidh Band
+K:A
+C:Bruce Fordyce
+M:6/8
+L:1/8
+R:Jig
+E \
+| "A"A2 A A2 G | "D"F2 F AGF | "A"E2 E A2 B | "A"E3-c2z \
+| "E"d2 d dcB | "A"c2 c cBA | "Bm"B2 F B2 A | "E7"G3 GFE |
+| "A"A2 A A2 G | "D"F2 F AGF | "A"E2 E A2 B | "A"c3-c2 d \
+| "A"e2 e ecA | "A"ecA "E7"BcB | "A"A2 A "D"A2 A | "A"A3 z Bc |
+| "E"d2 d dcB | "E"d2 d dcB | "A"c2 B A2 B | "A"c3-c2 z \
+| "Bm"B2 B B2 F | "Bm"D2 F B2 c | "Bm"dDF BcA | "E7"G3 GFE |
+| "A"A2 A A2 G | "D"F2 F AGF | "A"E2 E A2B | "A"c3-c z d \
+| "A"e2 e ecA | "A"ecA "E7"BcB | "A"AzA "D"A2 A | "A"A3-Azc |]
+[|"A"e2 e c2 A | "A"e2 e c2 A | "D"F2 F D2 F | "A"E3-E2 z \
+| "D"F2 F D2 F | "A"E2 E A2 c | "B7"B2B B2 c | "E7"B3 Bz c |
+| "A"e2 e c2 A | "A"Ace "A7"ecA | "D"F2 F D2 F | "A"E3-E2 z \
+| "D"FDF AGF | "A"E2 E A2 c | "E7"B2 B c2 B | "A"A3-Azc |
+| "A"e2 e c2 A | "A"Aca e2 d | "D"dfa Adf | "A"e3-e zc \
+| "E"d2 d B2 d | "A"c2 c A2 c | "Bm"B2 F B2A | "E7"G3 GFE |
+| "A"e2 e c2 A | "D"Aca f2d | "D"dfa Adf | "A"e3-e z c \
+| "E"d2 d B2 d | "A"cec A2 A | "A"cec "E7"B2 B | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/15055
+S:http://trillian.mit.edu/~jc/music/abc/jig/SetonsCeilidhBand_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SetonsCeilidhBand_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

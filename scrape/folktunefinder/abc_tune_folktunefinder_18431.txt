@@ -1,0 +1,52 @@
+X: 1
+T: Rapukestit
+T: Crayfish party
+C: Konsta Jylh\"a
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+|: "G7"G2 \
+| "Cm"c2 cd ed c=B \
+| dc GE C2 CD \
+| ED EG F2 ~E2 \
+| "G7"D6 DE \
+| "Fm"F2FG AGAB \
+| "Bb7"Bdd2 d3e \
+| fe dc B2 ~A2 \
+| "Eb"G6 "G7"G2 |
+| "Cm"c2 cd ed c=B \
+| dc GE C2 CD \
+| "C7"=E2 EF G2 B2 \
+| "Fm"A4 A4 \
+| "G7"de fe dc =BG \
+| "Cm"cd ed cG EC \
+| "Fm"FG AF "G7"G2 =B2 \
+| "Cm"c6 :|
+|: GA \
+| "Eb"B2 Be gf ec \
+| Bc BG E2 EG \
+| ~B2 GB ed d2 \
+| "Fm"A6 FG \
+| "Bb7"A2 Ac D2 FG \
+| AG Ac D2 FG \
+| AG Ac d2 ~c2 \
+| "Eb"G6 GA |
+| "Eb"B2 Be gf ec \
+| Bc BG E2 EG \
+| ~B2 GB ed f2 \
+| "Ab"c6 fg \
+| "Fm"ag fe "Bb7"d2 B2 \
+| "Eb"ba gf ecB2 \
+| "Fm"c=B ce "Bb7"d2 _B2 \
+| "Eb"e6 :|
+S:https://www.folktunefinder.com/tunes/18431
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Rapukestit_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/Rapukestit_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Rapukestit_Cm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

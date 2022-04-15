@@ -1,0 +1,31 @@
+X: 1
+T: Long Pond
+C: Pat Shaw
+R: rag, reel
+M: 2/4
+L: 1/16
+K: G
+GA \
+| "G"B2d4 b2 | "C"ageg- "G"gedg | "C"edBA- "D7"AGED | "G"G6 GA \
+| "G"B2d4 b2 | "C"agab- "G"bag2 | "A7"a2a2- abge | "D7"a6 ga |
+| "G"b2g2 "C"ageg- | "G"g2d2 "Em"edBd- | "G"d2B2 "C"AGEG | "Am"A6 "D7"DE \
+| "G"GB2G "C"AGE2 | "G"GB2G "C"A2e2 | "G"dBAG- "C"GE"D7"D2 | "G"G6 |]
+G,A, \
+| "G"B,2D2 "C"EDEF | "G"GB2G "C"AGE2 | "G"GAGE- "Em"EDB,2 | "Bm"D6 "D7"G,A, \
+| "G"B,2D2 "C"EDEF | "G"GB2G "C"A2e2 | "G"dBAG- "Em"GEG2 | "Am"A6 "D7"de |
+| "G7"=fede- "C"edc2 | "G"dedB "Em"AGAB | "G"dBGB- BAG2 | "C"E6 "D7"DE \
+| "G"GB2G "C"A2e2 | "G"dg2d "Em"e2b2 | "Am"agea "D7"gedB | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/17578
+S:http://trillian.mit.edu/~jc/music/abc/reel/LongPond_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/LongPond_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/LongPond_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/LongPond_G.abc
+% Rhythm Rag, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,62 @@
+X:15
+T:IJswals                           %title
+C:                           %composer
+O:                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/4                           % length of shortest note
+Q:                           %tempo  Q:1/4=80
+I:cleff=bass
+K:F     % transposed from F
+P:Intro
+a/g/ f/e/|"Dm" fg/f/ "A" e/f/|"Dm"  d2|]\
+P:deel 1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B|
+"Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D||
+|:"A"EE/D/ E/F/ |"Gm" GFE|"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |
+"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:| |: "Dm"DA"C"E|"Dm" FD"F"A|
+"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z
+:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|
+A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/|1 "Dm" dd/e/ f/g/:|2 d2||\
+T:deel 2
+V:1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B| "Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|
+"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D|||:"A"EE/D/ E/F/ |"Gm" GFE|
+"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:|
+|: "Dm"DA"C"E|"Dm" FD"F"A|"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|
+"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |
+"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/ \
+|1 "Dm" dd/e/ f/g/:|2 d2||
+V:2
+D/E/|:  FFG|AG/A/  B| A G/A/ B/G/|A/G/ F/E/ D/E/|FF G|
+A G/A/ B|AG/A/ B/G/|1 A2D/E/:|2  A2D|||:EE/D/ E/F/ | GFE|
+AG/F/  E/D/| ^C/>E/ A3/2D/|E E/F/ G/E/ |FDA|GF/E/  D/^C/|  D2z:|
+|:z3|z3| BB/^c/ d/B/|^c/z/ eg|fdc|
+B2A|GB2|1 A2z :|2 A2(3^c/d/e/|| |:f f/e/ d/^c/ |
+d/4e/4d/ ^c/d/ (3B/c/d/| e e/f/ g/e/|f2(E|E) A2|A f/e/ d/^c/| d e/d/ ^c/d/ \
+|1 Az2 :|2 d2||\
+T:deel 3
+V:1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B| "Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|
+"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D|]|:"A"EE/D/ E/F/ |"Gm" GFE|
+"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:|
+|: "Dm"DA"C"E|"Dm" FD"F"A|"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|
+"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |
+"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/ \
+|1 "Dm" dd/e/ f/g/:|2 d3||
+V:2
+z |:DDE| F E/F/ G|FE/F/ G/E/|F/E/ D/^C/ B/C/|DDE|
+F E/F/ G|F E/F/ G/E/ |1^C2z:|2 ^C2 z|||:^C BC|BAG |
+C2B|A3|^C C/D/ E/C/ |DEF|BAG| F2z:|
+|:z3|z3| BB/^c/ d/B/|^c/z/ eg|fdc|
+B2A|GB2|1 A2z :|2 A2(3^c/d/e/|| |:f f/e/ d/^c/ | d/4e/4d/ ^c/d/ (3B/c/d/|\
+e e/f/ g/e/|f2(E|E) A2|A f/e/ d/^c/| d e/d/ ^c/d/|1 Az2
+:|2 d3||
+S:https://www.folktunefinder.com/tunes/45819
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

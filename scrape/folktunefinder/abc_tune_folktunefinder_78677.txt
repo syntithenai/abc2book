@@ -1,0 +1,25 @@
+X:236
+T: ES WAR EIN WACKER MAEGDLEIN
+N: E0118
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe
+M: 3/4
+L: 1/8
+K: A
+A2 | A4A2 | e4d2 | e4=c2 | B4
+B2 | e4d2 | =c4B2 | A4=c2 | B4
+B2 | A2G2A2 | E4
+B2 | =c4c2 | A4B2 | =c3de2 | e4
+d2 | =c2e2d2 | =c2B4 | A6 | A2z2
+S:https://www.folktunefinder.com/tunes/78677
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

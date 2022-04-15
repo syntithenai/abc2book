@@ -1,0 +1,51 @@
+X:694
+T:Tonada (CT 317)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:Suele cantarse con acompaamiento de gaita.
+N:El ltimo perodo de la frase, en sta y otras canciones anlogas, lo transporta una octava alta el cantador cuando quiere hacer alarde de una voz potente.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 317
+M:3/4
+L:1/8
+Q:1/4=60
+K:G
+(3def
+|:[M:3/4]g2 (f3/4g/4 (3f/2e/2d/2 c)d|
+[M:2/4]
+[L:1/8]
+(e3/2f/4e/4) (d3/2(3e/4d/4c/4|
+[M:3/4]
+[L:1/8]
+B4) (3def|
+g2 (f3/4g/4 (3f/2e/2d/2 c) d|
+(e3/2f/4e/4) (d3/2(3e/4d/4c/4 B3/2(3c/4B/4A/4|
+G2) z2 (3ABc|
+[M:2/4]
+[L:1/8]
+d3/2 (c/4B/4 A) d|d3/2 ((3e/4f/4e/4 d3/2(3e/4d/4c/4|
+B3/2 (3c/4A/4B/4 G(5A/4B/4A/4G/4F/4|[1 G2) z2 (3def:|[2 G2) z4||
+W:Sub El Puertu de Payares, (bis)
+W:sublu con muncha pena, (bis)
+W:porque dex los amores
+W:xunto La Pola L.lena.
+W:
+S:https://www.folktunefinder.com/tunes/59581
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

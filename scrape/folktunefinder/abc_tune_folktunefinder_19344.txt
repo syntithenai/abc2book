@@ -1,0 +1,28 @@
+X: 1
+T: Finlay Stewart Skinner
+C: Muriel Johnstone
+R: strathspey
+B: Allenton Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: D
+B \
+|: "D"AB/c/ d>D F<A A2 | "Em"E>F G>A "A7"B>A B/c/d \
+| "D"AB/c/ d>D F<A A2 | "G"Bd "A7"A>G "D"F<D D2 :|
+|| "D"(3agf e>d "Em"B<e e2 | "D"(3dcB A>F "G"E<D "A"F<E \
+| "D"(3agf e>d "Em"B<e e2 | "G"dG "D"F<D D2 |
+| "D"ag/f/ e>d "Em"B<e e2 | "D"dc/B/ A>F "G"E<D "A"F<E \
+| "D"(3DEF "G"(3GAB "A"(3ABc "Bm"(3def | "Em"gg "D"f<d d2 |]
+S:https://www.folktunefinder.com/tunes/19344
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FinlayStewartSkinner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FinlayStewartSkinner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

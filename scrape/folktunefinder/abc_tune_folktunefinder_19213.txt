@@ -1,0 +1,35 @@
+X: 1
+T: the Border Crossing
+C: Paul S. Cranford
+R: strathspey (originally reel)
+O: Cape Breton Island
+S: http://www.cranfordpub.com
+D: currently unrecorded
+B: currently unpublished in book form
+Z: psc, (re-formatted,updated 9/17/04)
+N: converted to strathspey by John Chambers
+H: copyrights Cranford Publications, SOCAN
+L: 1/8
+M: C|
+F: http://cranfordpub.com/tunes/abcs/cranford_tunes1-100.abc 2007-05-14 18:53:07 UT
+K: C
+B |  "C"c2     A>c    G>c E>G | "C"c>G    A<c  "G7"d2    c>d |  "C"e<g  e>c "G7"d>B  "C"c>G |  "F"A<c "G7"G>E "C"~C2 C ||
+B |  "C"c2     A>c    G>c E>G | "C"c>G    A<c  "G7"d2    c>d |  "C"e<g  e>c "G7"d>B "Am"c>e | "G7"d<G     A>B "C"~c2 c |]
+e |  "C"g2 "F"c'>a "C"~g2 c>e | "F"a<c "C"g>c "G7"~d2 "C"c>e | "C"g<c'  e>g  "F"a>c  "C"g>c | "G7"d<c     e>d "C"~c2 c ||
+e | "C"g>e "F"c'>a "C"~g2 c>e | "F"a<c "C"g>c "G7"~d2 "C"e>g |  "F"a>g c'>a  "C"g>e     c>e | "G7"d<c     e>d "C"~c2 c |]
+S:https://www.folktunefinder.com/tunes/19213
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes1-100.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes1-100.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BorderCrossingS_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BorderCrossingS_C.abc
+% Rhythm Strathspey (originally reel)
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1
+T: Santiago Jig
+C: Stuart Hardy
+S: Noel Jackson <noelbats:onetel.net.uk> tradtunes 2002-7-20
+M: 6/8
+L: 1/8
+H: Written during a stay in Gallicia
+K: G
+| E3 FEF| G2 B AB^c|dDD ^cDB | A2A FED | E3 FEF| G2 B AB^c|dDD ^cDB | AFD E3 :|
+| gfe c3 | gfe B3 | B2B DBG | FAF DFA | gfe c3 | gfe B3 | B2B DBG | FAF E3:|
+| b3 abb | gbb fbb | gbb efg | fBB B^cd | ^c2a ab^c |d2b b^CD |1 e2^c d2B | ^cde fga :|2 e^cd B^cA| BAG FED ||
+S:https://www.folktunefinder.com/tunes/15020
+S:http://trillian.mit.edu/~jc/music/abc/jig/SantiagoJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SantiagoJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SantiagoJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SantiagoJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 39
+T:A Jigg
+M:6/4
+L:1/4
+S:Wright 1713
+N:strain 1, bar 1 as printd: might better be read f>ed e/f/gc :bar 5
+N:strain 2 has only 5 beats-note 3 (g) added here
+Z:p
+K:G
+g|f>ede/f/cg|B>AGF2G|A3D2G|E>DCB,CD|G/A/BB,A,2F|G3G,2||
+D|B,>CDEFG|E>DCB,CD|A,3A2B|c>Bce>dc|e/f/gBA2f|g3G2||
+S:https://www.folktunefinder.com/tunes/49245
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

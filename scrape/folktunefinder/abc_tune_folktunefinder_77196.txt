@@ -1,0 +1,27 @@
+X: 3
+T:Andy
+M:6/8
+L:1/8
+Q:90
+C:Traditional
+S:Arr: S. Cruzen
+R:Jig
+K:C
+"C"EDE CEG|"F"FGF Ddc|"G"BdB GAB|"C"cBA G2 D|!
+EDE CEG|"F"FEF Ddc|"G"B
+dB GAB|"C"c3 c2:|!
+|:"C"g^fa g2 e|cBA G2 G|cBc ABc|"D"ed^c "G"d2 e|!
+"C"g^fa g2 e|cBA G2 A"G"BdB GAB|[1"C"c3 c2 e:||[2"C"c3 c3||
+S:https://www.folktunefinder.com/tunes/77196
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

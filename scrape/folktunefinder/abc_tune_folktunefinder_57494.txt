@@ -1,0 +1,33 @@
+X: 157
+T: Spootiskerry
+C: R-78
+C: Ian Burns \2511980
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+DE| "G"G2DE GDEG| DEGA "D"B2AB| "G"G2DE "Em"GABd| "C"eged "D"B2AB|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2:|
+\
+ef| "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "C"eged| "D"B2G2 "G"G2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2DE|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2 |]
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-78, "Disarmament Waltz", moved to W-37
+%%textfont       Times-Roman 9.0
+% ---------- page 82 ----------
+S:https://www.folktunefinder.com/tunes/57494
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

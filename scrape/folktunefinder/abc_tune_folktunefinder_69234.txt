@@ -1,0 +1,22 @@
+X:375
+T: "Die Versuchung"
+N: Z1055
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Romanze, Ballade
+M: 2/4
+L: 1/8
+K: A
+E | EAAG | A2AB | =c=GG2 | =G2
+AB | =c2EE | =F2ED | E3D | =C2z2
+=G2GE | =G2z2 | A2=cB | =c2
+ce | d2=cc | B2AA | E3G | A2z
+S:https://www.folktunefinder.com/tunes/69234
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Tome's Highland Fling
+R: strathspey
+B: RSCDS 17-8(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Here from Lowe"
+M: 4/4
+L: 1/8
+K: F
+|: C \
+| "F"F<F f>c "Bb"d>c d>f | "F"F<F f>c "Bb"d/c/B/A/ "C7"G>A \
+| "F"F<F f>c "Bb"d>c d<f | "F"c>f "C7"e>g "F"f<f f :|
+|: F \
+| "F"C>F A>F "C7"C<G B>G | "F"C>F A>F "G7"D>G "C"E<C \
+| "F"C>F A>F "Bb"G>A B>d | "C7"c>B A>G "F"F<F F |]
+S:https://www.folktunefinder.com/tunes/19689
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/TomsHighlandFling.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TomsHighlandFling.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/TomsHighlandFling.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: The Drunken Parson
+R: jig
+B: Burke Thumoth's "12 Scottish and 12 Irish Airs" mid 1850s
+B: Runterford "Country Dances" v.1
+B: "Riley's Flute Melodies" 1814
+D: Ryan "Mammoth Collection" 1883
+D: Jimmy Greenan, The Jeenius of Jim
+Z: Nigel Gatherer, chords T. Traub 10-16-02
+L: 1/8
+M: 6/8
+F: http://terrytraub.org/abc/DrunkenParsonJ.abc 2008-03-30
+K: A
+   E \
+| "A"Acc "E7"Bdd | "A"cee  "D"d2f | "A"ecc "E7"dBB | "A"cAA "E"BGE \
+| "A"Acc "E7"Bdd | "A"cee  "D"d2f | "A"ecc "E7"dBe | "A"cAA A2 :|
+|: B \
+| "A"Ace     aga | "D"fdd     d2c |"B7"B^df    bab | "E"gee e2c \
+| "A"Ace     aga | "D"fdd "Bm"d2f | "A"ecc "E7"dBe | "A"cAA A2 :|
+S:https://www.folktunefinder.com/tunes/14124
+S:http://terrytraub.org/abc/DrunkenParsonJ.abc
+S:http://terrytraub.org/abc/DrunkenParsonJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/DrunkenParson_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DrunkenParson_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DrunkenParson_A.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

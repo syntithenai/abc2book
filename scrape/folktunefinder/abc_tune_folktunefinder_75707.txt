@@ -1,0 +1,30 @@
+X:11
+T:Bezemdans
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/8
+N:Voorspel (ABB) x3 A
+K:C
+P:Voorspel
+|:GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB |[1 cc/c/ BA GF ED :|[2 c2 G2 c2 ||
+P:A
+GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB|cc/c/ BA GF ED |
+GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB|c2 G2 c || c Bc |:
+P:B
+M:2/4
+L:1/8
+d2 c2|B2 A>B|AG (G2|G) e ee|e>d (d2|d) f ff| f>e (e2|e) c Bc |
+d2 c2|B2 A>B|AG (G2|G) ^FG|A2 A2|B2 c2|d>c Bc |[1 d c Bc :|[2 (d2 d z |]
+S:https://www.folktunefinder.com/tunes/75707
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

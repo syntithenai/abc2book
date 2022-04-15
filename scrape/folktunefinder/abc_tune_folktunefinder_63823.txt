@@ -1,0 +1,33 @@
+X:280
+T:Thunderhead
+M:7/8
+L:1/8
+D:Lunasa: Lunasa
+O:Canada
+C:Grey Larsen
+B:Published Sleepy Creek Music, BMI
+Z:Michael Abraham Shulman
+P:AAABBCCBBCCBBCCA
+N:The last time through the `C' part, the `A' part mixes in as harmony
+N:and gradually comes to the fore.
+K:B Phrygian
+|:B2A F2D2|E2G F2F2|B2A F2D2|E2F B2B2|
+B2A F2D2|E2G F2F2|E2G F2D2|E2F f2e2:|
+|:dGG AGGE|DEG F2F2|EFF E~F3|GFE F2F2|
+dGG AGGE|DEG F2GA|1 BdB ceeg|gaf g2g2:|2 Bde fgfe|[M:6/8]dBA GGc|[M:7/8]
+|:~B3 fBBg/f/|eBB dBBA|~B3 fggf|edB AGGc|
+~B3 fBBg/f/|eBB dBef|gfe fddB|ADF ABBc:|
+%%text Final time
+B2A F2D2|E2G F2F2|B2A F2D2|E2F B2B2|
+B2A F2D2|E2G F2F2|E2G F2D2|E2F d2^c2|B3 z4||
+S:https://www.folktunefinder.com/tunes/63823
+S:http://www.ellwood.org/slow/mas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

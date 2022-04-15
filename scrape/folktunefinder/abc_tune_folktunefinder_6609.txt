@@ -1,0 +1,26 @@
+X: 1
+T: Vieni sul mar
+O: trad Italy
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: F
+"Intro"[|]\
+ EF | "Bb"GD2 | "(C7)"zFG | "F"AA2 | zAB | "C7"dc=B | cGA | "F"Fz"C7"c | "F"f |]
+"Verse"[|\
+ FG | "F"Adc | "C7"AFG | "F"AF2 | zFG | ABc | "Bb"de>d | "C7"G3 |
+S:https://www.folktunefinder.com/tunes/6609
+S:http://trillian.mit.edu/~jc/music/abc/Italy/VieniSulMarSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/VieniSulMarSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/waltz/VieniSulMar_F_W.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

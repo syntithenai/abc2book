@@ -1,0 +1,42 @@
+X: 2
+P: Julestemning [F] (Sikken voldsom tr\aengsel og alarm)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+| "F"FG Ac "C7"BG \
+| "F"c2 A2 f2 \
+| FG Ac "C7"BG \
+| "F"A2 "C"G2 "F"F2 \
+| "F"FG Ac "C7"BG \
+| "F"c2 A2 "Dm"f2 \
+| "C"ed cG "G7"=BG \
+| "C"c2 G2 C2 ||
+|| "C7"BA Gd cB \
+| "F"A2 f2 c2 \
+| "C7"BA Gd cB \
+| "F"A2 f2 c2 \
+| "F7"Ac BA GF \
+| "Bb"B2 c2 d2 \
+| "F"cf Ac FA \
+| "C7"c2 G>A "F"F2 ||
+|| "F".F2 .A2 .c2 \
+| "Dm".f2 "Am".e2 "Bb"d2 \
+| "F"cc "Bb"dd "Gm"BB \
+| "C7"A2 B2 G2 \
+| "F".F2 .A2 .c2 \
+| "Dm".f2 "Am".e2 "Bb"d2 \
+| "F"cc "Bb"dd "Gm"BB \
+| "C7"A2 B2 G2 \
+| "F"F2 A2 c2 \
+| f6 |]
+S:https://www.folktunefinder.com/tunes/340
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/XmasDansk2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/XmasDansk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

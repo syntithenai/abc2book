@@ -1,0 +1,27 @@
+X: 1
+T: Josiah Chowning's Strathspey
+C: John Turner
+R: strathspey
+S: handwritten MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 \
+| "D"F3A d3A "G"Bd3 "D/F#"A3F | "G"G3B "D"A3F  "A7"E6 A2 \
+| "D"F3A d3A "G"Bd3 "D/F#"A3F | "G"G3B "A7"A3F "D"D6 :|
+|: A2 \
+| "D"d3A F3A "G"B3G E3B | "D"A3F GFED "A7"CE3 E3A \
+| "D"d3A F3A "Em"B3G "A7"E3B | "D"A3F "A7"GFED "D"A,D3 D2 :|
+S:https://www.folktunefinder.com/tunes/19433
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JosiahChowningsStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JosiahChowningsStr_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

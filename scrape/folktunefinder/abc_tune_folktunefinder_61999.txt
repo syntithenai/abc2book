@@ -1,0 +1,28 @@
+X:9966
+T:Lucy Campbell
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+dB|AD~D2 A2 dB|ADFA BE~E2|AD~D2 fgfe|dBAF AD~D2|\
+AD~D2 A2 dB|(3ABA FA BE~E2|ADFA fgfe|dBAF AD~D2||*
+dBAB defe|d2cA BE~E2|dBAB defe|dBAF AD~D2|\
+dBAB defe|dB~B2 gB~B2|dBAB defe|dBAF AD~D2||*
+~a3f defg|afaf bgeg|faaf defe|dBAF AD~D2|\
+~a3f defg|a3f bgef|~g3e ~f3e|dBAF AD~D2||*
+df~f2 dfef|df~f2 afef|dffe ~f3e|dBAF AD~D2|\
+df~f2 dfef|df~f2 afef|~g3e ~f3e|dBAF AD~D2||**
+S:https://www.folktunefinder.com/tunes/61999
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 2
+P: Gustafs Sk\aal (in D)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+K: D
+L: 1/8
+|: A | "D"d2 d2 d3 f | ed cB "A"BA Ac | e2 e2 e3 c | "D"de fe d3 :|
+M:2/4
+L: 1/8
+|: z | "D"ff/f/ ff/f/ | fA df | "A7"ee/e/ ee/e/ | eA ce |
+|      "D"ff/f/ ff/f/ | fA df | "A7"e2 c2 | "D"d3 :|
+S:https://www.folktunefinder.com/tunes/5583
+S:http://trillian.mit.edu/~jc/music/abc/Intl/GustafsSkoal.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/GustafsSkoal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+P: Bingsj\"o storpolska
+O:
+R: Bingsj\"opolska, 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2- \
+| A3A d2d2 fafd | cdec A6 A2- | ABcd e2ce ~f2ef | gage d2fd c3d | efec {c}d6 A2- |
+| A3A d2d2 ~f2ef | {f}g2g2 fgfe d2c2 | ~c3B [B6E6] B2- | ~B3A A2d2 ~f2ed | c3e {e}a2a2 c3d | efec ~d6 :|
+|: A2- | f3d d2d2 f2fa | efed cBcd e2f2 | [D4B4g4] gagf efed | cdcB ABAG FDFA | d2fd c2ec d2fd |
+| efed cBcd e2f2 | [D4B4g4] {b}abag ~f2ef | gage d2fd c3d | efec ~d6 :: A2- | A3A {ABc}[d4D4] [d4D4] | F2F2 A4 [A4D4] |
+| EFED E2F2 ~G4- | G2B2- ~B2AG A3A | A3A d2d2 efed | c2dc B4- B2Bd | cdef g2ag ~f2ed | cdec d6 :|
+S:https://www.folktunefinder.com/tunes/16292
+S:http://trillian.mit.edu/~jc/music/abc/pols/BingsjoPolska2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BingsjoPolska2.abc
+% Rhythm Bingsjo?polska, 16th-note polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

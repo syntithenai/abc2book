@@ -1,0 +1,26 @@
+X: 1
+T: North of the Grampians
+T: Taobh Tuath nan Garbh Bheann
+C: Capt.S.Fraser
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+F \
+|: "C"E>F G>A G<E E<c | E/F/G G<c c<e "G"d2 \
+|  "C"E>F G>A "(Am)"G<E E<G | "Dm"F>D B,>G, "G7"B,/C/D F2 :|
+|| "C"e>c e/f/g e<c c>f | e<c e>f (3efg "F"fga \
+|  "C"e>c e/f/g "Am"e<c c>e | "Dm"f>d B<G "G7"B/c/d f2 ||
+|| "C"e>c e/f/g e<c c>f | e<c e>f (3efg "F"fga \
+| "C"(3gfe "(G)"(3dcB "Am"(3cBA (3GFE | "Dm"F>D B,>G, "G7"B,/C/D F2 |]
+S:https://www.folktunefinder.com/tunes/19611
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/NorthOfTheGrampians.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/NorthOfTheGrampians.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

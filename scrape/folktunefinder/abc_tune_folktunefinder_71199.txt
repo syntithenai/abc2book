@@ -1,0 +1,27 @@
+X:169
+%%topmargin 3cm
+T:Mrs. MacInroy of Lude
+C:Joseph Lowe
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:B Aeolian
+c2 | B>bb>^a b<ff>^g | {/g}a>fe>a c<A f/e/d/c/ | B^a b<fff{/f}e>c B/B/B ~B :|
+f | dB b>Bf>B | c<Ae>c a>A f/e/d/c/ | dB b>Bff{/f}e<c B/B/B B>f |
+dB b>Bf>B | c<Ae>c a>Ae>c | (3Bcd (3cde (3def (3efg | (3fed (3edc d<BB |]
+W:"These splendid tunes [Mrs. MacInroy of Lude, Strathspey and Reel] possess a great deal of fire
+W:and require light and spirited bowing. Would be particularly suitable for a band."
+W:"These 3 tunes [Mrs. MacInroy of Lude Strathspey ; Mrs. MacInroy of Lude Reel ; North Bridge of Edinburgh]
+W:go well together."
+S:https://www.folktunefinder.com/tunes/71199
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

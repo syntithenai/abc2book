@@ -1,0 +1,22 @@
+X:3739
+T:Dan the Cobbler
+T:Cobbler, The
+R:jig
+Z:id:hn-jig-258
+M:6/8
+K:D
+DFA B2A|def g2e|fdf ecA|BdB AFE|
+DFA B2A|def g2e|fdf ecA|1 Bdc dAF:|2 Bdc d2e||
+|:fad fad|faa agf|eg=c eg=c|egg gfe|
+fef gfg|agf efg|fed =cAG|1 Ad^c d2e:|2 Ad^c dAF||
+S:https://www.folktunefinder.com/tunes/59928
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

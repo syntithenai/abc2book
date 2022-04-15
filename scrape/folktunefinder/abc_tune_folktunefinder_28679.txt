@@ -1,0 +1,19 @@
+X:2399
+T:Caerketton
+T:AA BB
+R:strathspey
+C:Iain Robertson
+M:4/4
+L:1/16
+K:Dm
+"A"|:"Dm"A,4 D2>E2 F2>G2 A4 | "C"G2<C2 C4 G2<C2 C4 | "Dm"A,4 D2>E2 F2>G2 A4 | "Am7"{d}f4 A,3B,/C/ "Dm"D8 :|
+"B"|:"F"F4 F2>G2 A2<c2 f4 | "C7" c2<C2 C4 c2<C2 C4 | "Dm"D4 F2>G2 A4 d2<d2 | "Am7"{d}a4 A,3B,/C/ "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/28679
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

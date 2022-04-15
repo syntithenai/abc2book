@@ -1,0 +1,36 @@
+X: 104
+T:95th Psalm,To the. JMP.104
+M:C
+L:1/8
+S:John  Miller his book of music
+R:psalm
+O:Scotland
+A:Perth
+N:O come loud Anthems Let us sing.  Halllelejah.
+N:Sound thanks to our Almighty King. Hallellujah.
+N:For we our voices high will raise.  Hallellujah.
+N:When our salvations rock we praise.  Hallellujah
+N:
+N:Written upside down above the tune is what may be
+N:'londen Dul'  - Dulwich Barracks
+H:1799
+Z:vmp.C.  Graebe
+K:D Major
+"See abc for words"D2F2GAD2 | G2 (G/A/ B2) (B2A4) || \
+(FGAD G2) (FGAB) F2E2 D4 ||\
+D2G2 A/ B AB | G2 (FG)(F2E4) | (FGAD G2) (F>G) (F2E2) D4 ||\
+A/ c d2 e2 A2 d2 e2 (f2e4)  (cdeA d2) cd  | (c2B2) A4 || \
+F2 (AB) (cA) DF | G2 B2 (B2A4) | (dcdA Bcd) e2 (cd) d4 |]
+S:https://www.folktunefinder.com/tunes/2041
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Psalm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

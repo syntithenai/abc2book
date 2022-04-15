@@ -1,0 +1,24 @@
+X: 50
+T:Harvest Home, The
+M:2/4
+L:1/8
+Q:300
+R:Hornpipe
+K:D
+AF|"D"DA FA|DA FA|de fe|dc BA|"A"eA fA|gA fA|(3efe (3dcB|AG FE|!
+"D"DA FA DA FA|de fe dc BA|"A"eA fA ge ce|"D"d2f2d2::cd|!
+"A"eA (3AAA|fA (3AAA|gA (3AAA|fA (3AAA|
+eA fA|gA fA|(3efe (3dcB|(3ABA (3GFE|!
+"D"DA FA|DA FA|de fe|dc BA|"A"eA fA|ge ce|"D"d2f2d2:|
+S:https://www.folktunefinder.com/tunes/62772
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

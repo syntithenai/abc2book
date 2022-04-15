@@ -1,0 +1,31 @@
+X: 3400
+T:Goban, The
+R:Jig
+C:Maire Breathnach
+S:Maire Breathnach
+D:Angels' Candles
+M:6/8
+L:1/8
+K:G
+B|:cAB AGE|DEG ddB|cAB AGA|EFG A2B|!
+cAB AGE|DEG ddB|cAB AGA|EFG A2B:|!
+|:ccc ddd|ecA BGE|ABA AGE|DEF GAB|!
+ccc dcd|eaf ged|BcA BAG|1EFG A2B:|!
+2 EFG Acd||eab age|def g2a|gec =fed|!
+cAE GBd|eab age|def g2a|gec =fed|!
+cAG Acd|eab age|def g2a|gec =fed|!
+cAE GBd|eab c'2b|age g2b|age dBG|!
+EFG A2B||
+S:https://www.folktunefinder.com/tunes/33313
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 1
+T: If You Knew Susie
+I: If You Knew SusieS-IAsquare
+%C: S-I
+C: B.G. DeSylva, Joseph Meyer  \2511925
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+%%staffsep 30
+K: G
+D2| "G"G4 A4| A2 G4 E2| F4 G4| G2 F6| E8| "G#o"E8| "D7"E2D2 F2E2-|
+w: If| you knew| Sus-ie, Like| I know| Sus-ie| Oh,| Oh,| Oh what a girl!|
+w:   |         |             |       |       |    |    |                |
+      E6 D2|\
+     "D7"F4 "Am7"G4| "D7"G2 F4 D2| E4 F4| F2 E6| D8| D8| "G"B,2C2 ^C2D2|
+w: ~ There's| none so| clas-sy As| this fair| las-sie| Oh,| Oh!| Ho-ly Mo-ses|
+w:* She| wears long| tres-ses And| nice tight| dress-s| Oh,| Oh!| What a fut-ure|
+     "Am7"=E2=E2 "D7"=F2^F2|\
+     "G7"G4 A4| A2 G6| "C"A2G2 A2G2-| G8| "A7"A4 B4| B2 A6|
+w: what a chas-sis!| We went| rid-ing| She did-n't balk|_ | Back from| Yon-kers|
+w: she po-ses-ses!| Out in| pub-lic| How she can yawn|_ | In a | par-lor|
+     "D7"B2A2 B2A2| B2A2 F2D2|\
+     "G"G4 A4| A2 G4 E2| "A7"A4 B4| B2 A6|
+w: I'm the one who| had to walk! If | you knew| Sus-ie, Like| I know| Sus-ie|
+w: You would think the| war was on!  If | you knew| Sus-ie, Like| I know| Sus-ie|
+      "Am7-5"c8| "D7"B2=B2 =B2G2-| "G"G8- | G2z2 z3 :|
+w: Oh,| oh what a girl!|_
+w: Oh,| oh what a girl!|_
+S:https://www.folktunefinder.com/tunes/19131
+S:http://trillian.mit.edu/~jc/music/abc/square/If_You_Knew_Susie_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/If_You_Knew_Susie_G.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

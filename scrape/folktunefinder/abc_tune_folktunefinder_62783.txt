@@ -1,0 +1,23 @@
+X: 61
+T:Kilavel Jig
+M:6/8
+L:1/8
+Q:120
+K:Em
+"Em"B2E GFE|BAB edB|"D"AFF DFF|AFA dBA|
+"Em"B2E GFE|BAB edB|"D"AFA dAF|"Em"EFE E3::
+"Em"Bef g2e|"D"f2d "Em"edB|"D"AFF DFF|AFA dBA|
+"Em"Bef g2e|"D"faf "Em"edB|"D"AFA dAF|"Em"EFE E3:||
+% Output from ABC2Win  Version 2.1 h on 1/5/99
+S:https://www.folktunefinder.com/tunes/62783
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

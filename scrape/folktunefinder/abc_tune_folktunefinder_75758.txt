@@ -1,0 +1,23 @@
+X:62
+T:Karnavalsdans
+T:L'Ordinaire des Dames
+Z:Bert Van Vreckem, 2004-03-24 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=110
+P:(ABC)3 A
+K:G
+P:A
+|:"G"BB AG|"C"cc BA|"G"BB AG|"Am"A2 "D7"d2|"G"BB AG|"C"cc BA|"G"B/c/d "C"e/f/g|"G"BG G2:|
+P:B
+|:"Em"gg fe|"Bm"ff ed|"G"B/c/d "C"e/f/g|"G"BG G2|"Em"gg fe|"Bm"ff ed|"G"B/c/d "D"e/f/g|"G"BG G2:|
+P:C
+|:"G"BG "C"ec|"G"dB "D7"cA|"G"BG "Am"cA|"D7"FA A2|"G"BG "C"ec|"G"dB "D7"cA|"G"B/c/d "C"e/f/g|"G"BG G2:|
+S:https://www.folktunefinder.com/tunes/75758
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

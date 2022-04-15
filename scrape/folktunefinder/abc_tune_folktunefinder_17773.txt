@@ -1,0 +1,29 @@
+X: 1
+T: The (New) King's Reel
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: C|
+L: 1/8
+K: Amix=g
+  B, \
+| "Am"G,A,EA, FA,EA, | "Am"G,A,ED CA,A,B, | "Am"G,A,EA, FA,EF | "G"G2D=C B,G,G, :|
+  d \
+| "A"(3cBA eA aeed | "A"(3cBA eA cAAd | "A"(3cBA eA "(G)"agef | "G"gdd=c BGGB |
+| "A"(3cBA eA aeed | "A"(3cBA eA cAAB | "C"=c2dc "G"B2Gc | "G"Bgdg BGG |]
+|:B, \
+| "Am"G,A,EA, FA,EA, | "Am"G,A,ED CA,A,B, | "Am"G,A,EA, FA,EF | "G"G2D=C B,G,G, :|
+|:d \
+| "A"cA~A2 eaed | "A"cAeA cAAd | "A"cA~A2 "(G)"agef | "G"gedg BGGB |
+| "A"cA~A2 eaed | "A"cAeA cAAc | "D"dfed "A"c2Ac | "G"Bgdg BGG |]
+S:https://www.folktunefinder.com/tunes/17773
+S:http://trillian.mit.edu/~jc/music/abc/reel/New_Kings_Reel_AmA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/New_Kings_Reel_AmA.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Miss L. Johnston's Compliments to Niel Gow
+C: Lucy Johnston Oswald
+R: strathspey
+B: Gow Collection
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+G2 \
+| "C"c6 GE "G7"F3G BAGF | "C"E3F AGFE "G7"F2D2 D2G2 \
+| "C"c6 GE "F"F3G A2GF | "C"EFGE "G7"DEFD "C"E2C2 C2 :|
+G2 \
+| "C"c4 g3e "F"a3f "C"g3e | "C"c3e agfe "G7"d2dc B2G2 \
+| "C"c4 g3e "F"a3f "C"g3c | "F"A3f "G7"edcB "C"c4 c2 |]
+G2 \
+| "C"c3e g2c'2 c'bab c'3g | "F"f3d "C"e3c "F"dcBA "G7"GFED \
+| "C"E2c2 "G7"F2d2 "C"G2e2 "F"A2f2 | "C"fedc "G7"EFGF "C"E2C2 C2 |]
+S:https://www.folktunefinder.com/tunes/19552
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissLJohnstonsComplimentsToNielGow_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissLJohnstonsComplimentsToNielGow_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:1
+T:Scarborough Fair
+O:Yorkshire
+C:Collected and arranged by Cecil Sharp
+%%Copyright: 1916, Oliver Ditson Company
+S:A Selection of Some Less Well Known Folk-Songs vol. 2
+S:compiled by Cyril Winn
+S:London: Novello and Company, Limited
+Z:Jack Campin 2003 <http://www.purr.demon.co.uk/jack/>
+M:6/8
+L:1/8
+Q:3/8=60 "Andante"
+P:ABABABC
+K:G Dorian
+P:A
+    G`````A```G   F``````G````A   |B>````c`````B     A2
+S:https://www.folktunefinder.com/tunes/18957
+S:http://trillian.mit.edu/~jc/music/abc/song/ScarboroughFair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/song/ScarboroughFair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ScarboroughFair_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

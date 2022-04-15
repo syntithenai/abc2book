@@ -1,0 +1,45 @@
+X: 1
+T: Bu\vcimi\vs
+O: Bulgaria
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: 87/8
+L: 1/8
+K: ADor
+"A" \
+|::: "Am"A2 ^de eA eA | ~e2d dc de | cE BE cE BE | "G"GFG "Am"~A2 AE :::|
+"B" \
+|::: "Am"cE BE cE BE | "G"GFG "Am"AB cd | cE BE cE BE | "G"GFG "Am"~A2 "fine"AE :::|
+"C" \
+|: "Am"cd dB cA BG | A2B ~c2 cE | cd dB cA BG | ~A2e ~A2 A2 :|
+"D" \
+|: "Am"FG AB cE BE | ~A2G ~c2 BA | cE BE cE BE | "G"GAd "Am"~A2 A2 :|
+K: A_B^c
+"E" \
+|: "A"[ge][fd] [ec][dB] [ec][cA] [dB][BE] \
+| [cA][dB][ec] ~[c2A2] [cA][BE] \
+| [AE][BG] [cA][dB] [ec][fd] ~[e2c2] \
+| "Gm"[dB][cA][BG] "A"~[c2A2] [cA][AE] :|
+"F" \
+|: "A"[cA][dB] ~[e2c2] [ec][dB] ~[e2c2]  \
+| "Gm"[dB][cA][BG] "A"~[c2A2] [cA][BE] \
+| [AE][BG] [cA][dB] [ec][fd] ~[e2c2] \
+| "Gm"[dB][cA][BG] "A"~[c2A2] [cA][AE] :|
+"G" \
+|: "A"[dB][ec] [ec][AE] [dB][ec] [ec][AE] \
+| "Gm"[fd][ec][dB] "A"~[c2A2] [BG][AE] \
+| [dB][ec] [ec][AE] [dB][ec] [ec][AE] \
+| "Gm"[fd][ec][dB] "A"~[e2c2] [ec][AE] :|
+K: A
+"H" \
+|: "A"dE ~c2 dE ~c2 | AGA "E7"Bc de | "A"dE ~c2 dE ~c2 | "B7"AcA "E"B2 B2 :|
+S:https://www.folktunefinder.com/tunes/2789
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Bucimis.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Bucimis.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Bucimis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 87/8
+% Has_accompaniment_chords Has chords

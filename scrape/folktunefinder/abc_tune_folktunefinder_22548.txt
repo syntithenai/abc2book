@@ -1,0 +1,29 @@
+X:2097
+T:Froggies First Jump
+O:england
+M:4/4
+C:Dave Whetstone
+S:Over the Water
+N:
+A:Bampton
+R:Reel
+K:G
+P:A
+dedc  BGBd  | c2 B2 A3 c | BcBA G2 B2 | A2 FG A4    |\
+dedc  BGBd  | c2 B2 A3 c | BcBG E2 F2 | G4    G4    ||\
+P:B
+AFGA  B2 A2 | G3  A G3 A | BGAB c2 e2 | d6       Bc |\
+d2 d2 c2 c2 | B2 B2 A3 c | BcBG E2 F2 | G4    G4    ||
+S:https://www.folktunefinder.com/tunes/22548
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

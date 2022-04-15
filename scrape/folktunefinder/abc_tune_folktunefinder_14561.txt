@@ -1,0 +1,30 @@
+X: 1
+T: Lord Dreghorn's Quickstep
+C: Robert Mackintosh
+O: Skye Collection
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d3 "A7"ABc | "D"dAG FED | "D"d3 "Bm"Bcd | "Em"efd "A7"cBA \
+| "D"d3 "A7"Adc | "G"BAG "D"FED | "Em"GFG "A7"EAG | "D"FDD D2 :|
+A \
+| "D"F>ED AFD | "G"GBd dBG | "D"F>ED AGF | "A7"E3 A,2G \
+| "D"F>ED AFD | "G"GBd dBG | "A7"Ace gfe | "D"fdd d2 ||
+A \
+| "D"F>ED AFD | "G"GBd dBG | "D"F>ED AGF | "A7"E3 A,2G \
+| "D"FED "Em"GFE | "D"AGF "G"BAG | "A7"Aag fge | "D"fdd d2 |]
+S:https://www.folktunefinder.com/tunes/14561
+S:http://trillian.mit.edu/~jc/music/abc/jig/LordDreghornsQuickstep_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/LordDreghornsQuickstep_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LordDreghornsQuickstep_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

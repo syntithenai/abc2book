@@ -1,0 +1,31 @@
+X:325
+T: The Lodge road
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 964
+R: Long dance, set dance
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0964.abc
+M: 2/4
+L: 1/16
+K: D
+A2 "^segno" |d2df edcB|A2A2A2F2|DFAF DFAF|G2FG E2A2|d2df edcB|A2A2A2F2|
+DFAF G2EF|D2D2D2::A2|defg agfe|defg a2af|g2eg f2df|edcB ABcA|f2f2g2g2|
+e2e2 f2(fe)|dfaf dfaf|g2fg e2 z2|f2f2g2g2|e2e2 f2fe|dfaf bgec|d2de dcBA "
+^segno" :|
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/77822
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-0964.abc
+S:http://www2.redhawk.org:8080/irish/oneill/1001/F/09.abc
+% Rhythm Long dance, set dance
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

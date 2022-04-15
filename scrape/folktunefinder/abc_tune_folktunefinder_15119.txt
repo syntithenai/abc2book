@@ -1,0 +1,22 @@
+X:1
+T:Stony Point
+M:6/8
+L:1/8
+K:D
+R:Colonial jig
+F/G/ |\
+"D"AdA FDF | dcd AFD | DFA def | "A"e3A2F | \
+"D"FDF AFA | "G"BGB | "A"efg | "D"fed "A"Adc | "D"d3d2 :|
+|: d/c/ |\
+"G"BcA "D"def | "G"gfe "D"agf | "A"edc "D"def | "A"A3G3 | \
+"D"FAd dAF | "Em"GBe "A"efg | "D"fed "A"Adc | "D"d3d2 :|
+S:https://www.folktunefinder.com/tunes/15119
+S:http://trillian.mit.edu/~jc/music/abc/jig/StonyPoint_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/StonyPoint_D.abc
+% Rhythm Colonial jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:590
+T:Bourre
+M:3/4
+O:France
+Q:1/4=240
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006b5.html
+%%ID:000006b5
+K:G
+D2|GFG2A2|G2F2G2|ABc2B2|A4D2|\
+GFG2A2|G2F2G2|ABA2F2|G4:|
+Bc|d2B2A2|G2F2G2|ABc2B2|A4Bc|\
+d2B2A2|G2F2G2|ABA2F2|G4:|
+S:https://www.folktunefinder.com/tunes/36197
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

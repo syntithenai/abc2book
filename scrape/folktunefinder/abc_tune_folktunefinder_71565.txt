@@ -1,0 +1,24 @@
+X:536
+%%topmargin 3cm
+T:Brown's Reel
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:Bb
+B,DFB AFcF | Bdce dfBd | B,DCE DFBd | [1 cAFA B2 B2 :| [2 cAFA B2 || de | fdBd bagf |
+edcB AFcF | BFdF cFec | AFGA Bcde | fdBd bagf | edcB AFcF | Bdce dfeg | fFGA B2 B2 |]
+S:https://www.folktunefinder.com/tunes/71565
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Browns_Reel.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0536.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

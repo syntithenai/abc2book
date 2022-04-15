@@ -1,0 +1,27 @@
+X: 2
+P: Abbots Bromley Horn Dance (Robinson's Tune)
+Z: Anahata
+S: Anahata <anahata:treewind.co.uk> tradtunes 2002-8-29
+M: 6/8
+K: Gm
+  g \
+| d2g B2g | d2g G2B | ABc Bcd |1 cBA B2 \
+                             :|2 cBA G2 \
+|: g \
+| e2g efg| c2e cde | ABc BAG | FGA D2b |
+| g2b gab | e2g efg | fed cBA | G3-G2 :| \
+|: c \
+| ded e3 | ded g3 | ded cBA |1,3 B3-B2 \
+                           :|2,4 G3-G2:|
+S:https://www.folktunefinder.com/tunes/3608
+S:http://trillian.mit.edu/~jc/music/abc/England/AbbotsBromleyHornDance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

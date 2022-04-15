@@ -1,0 +1,32 @@
+X:25
+T:Rights of Man
+W:Note: Play as a hornpipe.
+M:4/4
+L:1/8
+K:E Aeolian
+%P:
+%Q:
+GA |: "Em" (3 (BcB) (3 (ABA) (3 (GAG) (3 (FGF) | EFGA B2 (ef) | gfed edcB |
+"Am" cBAG "B" F2 GA | "Em" (3 (BcB) (3 (ABA) (3 (GAG) (3 (FGF) | EFGA B2 (ef) |
+gfed Bg "B" (3 fgf | [1 "Em" e2 B2 E2 GA :| [2 "Em" e2 B2 E2 ga ||
+|: "Em" bgbg efga | bagf egfe | "D" d^cde gegf | afdf a2 (gf) |
+"Em" eBeg "D" fdfa | "Em" gfga bgef | gfed Bg "B" (3 fgf | [1 "Em" e2 B2 E2 ga :| [2 "Em" e2 B2 E2 |]
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49304
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

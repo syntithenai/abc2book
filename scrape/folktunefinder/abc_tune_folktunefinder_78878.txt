@@ -1,0 +1,26 @@
+X:437
+T: FRUEHMORGENS ALS DER TAG ANBRACH
+N: E0358
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Breslau
+R: historisches Lied, Krieg gegen Napoleon (1814)
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2A2A2 | B2BAG2
+A2 | B2B2c2c2 | d2dcB2
+d2 | e2d2c4 | B4z2
+B2 | d2d2e2d2 | dccBA2
+A2 | B2B2d2B2 | BAA2A2
+B2 | d2B2A4 | G4z2
+S:https://www.folktunefinder.com/tunes/78878
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen napoleon (1814)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

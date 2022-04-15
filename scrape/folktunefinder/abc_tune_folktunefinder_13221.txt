@@ -1,0 +1,27 @@
+X: 1
+T:King of the Fairies, The
+R:set dance
+Z:id:hn-setdance-2
+M:C|
+K:Edor
+B,2|EDEF GFGA|B=cBA GFGA|B2E2 EF (3GFE|FGFE D2B,2|
+EDEF GFGA|BAGB d3=c|B2E2 GFED|E2ED E2:|
+|:B2|efed Bdef|gagf efed|e2B2 BABc|dedc Bc (3dcB|
+e2B2 Bdef|gagf efed|Bd (3efg fedf|e2ed e3f|
+g3e f3d|edBc d3e|dBAF GABc|dBAF GFED|
+B,2E2 EFGA|B2e2 edef|e2B2 BAGF|E2ED E2:|
+S:https://www.folktunefinder.com/tunes/13221
+S:http://trillian.mit.edu/~jc/music/abc/air/KingoftheFairies.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/KingoftheFairies.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/set/KingoftheFairies.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/air/KingoftheFairies.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ki/King_of_the_Fairies_The_1.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

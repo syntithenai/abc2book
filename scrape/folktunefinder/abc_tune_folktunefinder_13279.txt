@@ -1,0 +1,40 @@
+X: 1
+T: My Lily
+T: Mo Shuil ad Dheigh
+T: My Eyes at Your Back
+C: Trad., Phil Cunningham
+R: air
+D: Phil Cunningham & Aly Bain "Another Gem"
+N: Attributed to Joan McDonald Boes
+N: Found in Jerry Holland's Collection as "My Lily", the air to a Gaelic song.
+F: http://www.bardstown.com/~mtipton/scottish/moshuil.html
+F: http://www.tastysoftware.com/abc/MyLilyW.abc
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| "G"G3 G G2 | "Em"G4      AB |  "C"G3 F E2 | "D7"D4 c2 \
+| "G"B4   AG | "Em"B4      AG | "Am"A2 B3 c |  "D"d4 d2 |
+| "C"e3 d c2 | "Bm"B2     d3B | "Am"c4   E2 |  "D"D4 EF \
+| "C"G3 F E2 |  "G"D2 {C}B,3c |  "D"B2 B3 A |  "G"G4   |]
+S:https://www.folktunefinder.com/tunes/13279
+S:http://www.tastysoftware.com/abc/MyLilyW.abc
+S:http://www.tastysoftware.com/abc/MyLilyW.abc
+S:http://www.bardstown.com/~mtipton/scottish/moshuil.html
+S:http://www.bardstown.com/~mtipton/scottish/moshuil.html
+S:http://trillian.mit.edu/~jc/music/abc/air/My_Lily_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/My_Lily_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/My_Lily_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/My_Lily_G.abc
+% Rhythm Air
+% Link Link to ABC
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 93
+T:Sarona
+M:4/4
+L:1/8
+S:Scottish Violinist
+R:Strathspey
+K:D
+A2|"D"F3 E "A"D2 F2|"D"A3 G "C#"F2 A2|"Bm"d3 c "G"B2 A2|"D/F#"dAGF "A"F2
+ E2|
+"D"F3 E "A"D2 F2|!
+"D"A3 G"C#"F2 A2|"Bm"d3 c "G"dAGF|"A"F2 E2 "D"D2||A2|"D"A2d2 c2 de|"D"d3
+ A "G"G2 F2|"A"EFGA "Bm"BcdA|!
+"G"Bc/d/ "A"GF F2 E2|"D"F3 E "A" D2 F2|"D"A3 G "C#"F2 A2|"Bm"d3 c "G"dAG
+F|"A"F2 E2 "D"D2||
+% <A name="D1X094">
+S:https://www.folktunefinder.com/tunes/53961
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

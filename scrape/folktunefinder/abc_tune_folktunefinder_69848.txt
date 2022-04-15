@@ -1,0 +1,27 @@
+X:288
+T: AUF SCHWAERMT UND TRINKT
+N: F0507
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 4/4
+L: 1/8
+K: D
+A,F,G, | A,3A,F3D | C2D2z
+DCD | E3CB,A,B,C | A,4z
+A,E,F, | G,3G,G,B,A,G, | G,F,F,2z
+F,E,F, | G,3G,G,B,A,G, | G,2F,2z
+A,A,A, | F3DE3C | D4z
+DCB, | A,3A,A,2B,C | D4z
+A,A,A, | F3DE3C | D4z
+DCB, | A,3A,A,2B,C | D4z
+S:https://www.folktunefinder.com/tunes/69848
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Lord Byron's Favourite Strathspey
+R: strathspey
+B: Ryan's Mammoth Collection, 1883, p.164
+B: Cole "1000 Fiddle Tunes", 1940 p.126
+M: 4/4
+L: 1/8
+K: Em
+e \
+| "Em"B<E B>A G<E E>e | B<E B>d e2 e>g \
+| "Em"B<E B>A G>A B>e | "G"d>B G<B "D"A2- A :|
+c \
+| "Em"B<e e>f "G"gA | "Em"B<e e>f "G"g2 "D"f>e \
+| "Em"B<e e>f g>e B>e | "G"d>B G<B "D"A2- A |]
+c \
+| "Em"B<e e>f "G"gA | "Em"B<e e>f "G"g2 "D"f>a \
+| "C"e>g f>e "G"d>B G>B | dB "D"A2- A |]
+S:https://www.folktunefinder.com/tunes/19486
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordByronsFavS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordByronsFavS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

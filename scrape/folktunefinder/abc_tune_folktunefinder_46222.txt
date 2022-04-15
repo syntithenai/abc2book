@@ -1,0 +1,40 @@
+X:14947
+T:Schottis e. Elon Eliasson, F\"ollinge
+S:Hester
+R:Schottische
+O:Sweden
+M:4/4
+A:J\"amtland
+K:G
+P:Voice 1
+{A}B>d B>G A>c A>F|G2 (D>B,) G,2 (3BAB|\
+c2 (3BcB A2 f2| g2 b>g d4 |\
+{A}B>d B>G A>c A>F| G2 (D>B,) G,2 (3BAB|
+c2 (3BcB A2 f2| g2 g2 g4:|\
+|:\
+{e}d>c B>d g2 (3gfg | a2 (a>B) c4 |\
+{d}c>B A>c a2 (g>f) | e2 d>^c d4|
+{e}d>c B>d g2 (3gfg| a2 (a>B) c3 d|\
+c>B (A>e) d2 F2|G2G2G4:|
+P:Voice 2
+G>B d>B F>A c>A|B2 G2 D>B, G,2| \
+E2 C>E F2 D2|G2 D>B, G,4|\
+G>B d>B F>A c>A|B2G2 D>B, G,2|
+E2 C>E F>D d>c| [B2D2] [B2D2] [B4D4] ::\
+B>A G>A B>G D>B, | A,2 C>E A4|
+D>F A>F d2 c>A| c2 B>^A B4 |\
+B>A G>A B>G D>B, | A,2 C>E A3 G|\
+[F3/A3/][A/G/] [A3/F3/][A/E/] [A2D2] [C2D2]|\
+[B,2D2] [B,2D2] [B,4D4] :|
+S:https://www.folktunefinder.com/tunes/46222
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

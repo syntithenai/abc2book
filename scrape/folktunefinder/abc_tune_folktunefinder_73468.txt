@@ -1,0 +1,25 @@
+X:309
+T: My Dear Darling
+T: Sa mhuirnin dhileas
+B: O'Neill's 309
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Tenderly"
+K:D
+A \
+| d2(d>e) dc(c>d) | B>A B(d/c/) BAFB | A>G(FE) (D>E)FA | B2 (c3/2B//c//) d3A|
+| d2f>d (dc)(c>d) | (BA)(B=c) BAFB | A>GFE D>EFA | B2 {d}c>c {c}d3 ||
+|| A \
+| d2(d>e) f2f>a | g2(f>e) fd B>c | d2(f>d) dccd | BAB=c BAFf |
+| (a>g)fe (dc)c>d | BA (Bd/c/) BAFB | A>GFE D>EFA | B2 {d}c>c {c}d3 ||
+S:https://www.folktunefinder.com/tunes/73468
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

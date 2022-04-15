@@ -1,0 +1,38 @@
+X: 53
+T: Zwiefacher Sommermichl
+O: Germany
+M: 2/4
+L: 1/8
+Q: 1/4=200
+K: C
+%%MIDI program 57
+  [GE]                      |[c3A3]z                    |\
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                   | [M:3/4] [B2G2][f3d3]z     |
+  [ec][dB][cA]z3            | [M:2/4] z2[G2E2]          |\
+  [c3A3]z                   |[B3G3]z                    |\
+  [A3F3]z                   |[G3E3]z                    |\
+  [B2G2][f2d2]              | [M:3/4] [B2G2][c2A2][e2c2]|
+  [M:2/4] z2[G2E2]          |[c3A3]z                    |\
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                   | [M:3/4] [B2G2][f4d4]      |\
+  [B2G2][c4A4]              |[M:2/4] z2[dB][ec]         |
+  [M:3/4] [f2d2][d2B2][e2c2]| [f2d2][d2B2][e2c2]        |\
+  [f2d2][d2B2][e2c2]        |[M:2/4] [f2d2]z2           |\
+  z2[G2E2]                  |[c3A3]z                    | 
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                    | [M:3/4] [B2G2][f4d4]     |\
+  [B2G2][c4A4]              | [M:2/4]\
+|:z2EF                      | [M:3/4] G2edcB            | 
+  A2f2d2-                   |d2B2A2                     |\
+  [M:2/4] [1B2c2            |A2G2                       :|B2c2|
+S:https://www.folktunefinder.com/tunes/81324
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

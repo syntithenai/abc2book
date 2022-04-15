@@ -1,0 +1,24 @@
+X: 1
+T: Batuta (Marty's)
+O: Romania
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: Handwritten MS
+M: C|
+L: 1/8
+K: G
+%%indent 300
+"A"|: "G"^cdef g2fa | g2fa g=fed :|
+"B"|: "G"^cdec "D"d2=cB | ABcA  "G"BGFG | "G"^cdec "D"d2=cB | ABcA  "G"G2z2 :|
+"C"|: "G"cGFG B3G  | "D"cBAG "G"B3G | "D"ABce dcBA |    AGFG    "G"B3G |
+   |  "D"ABce dcBA |    AGFG "G"B3G | "D"cBAG ADEF | "G"GB"D"AF "G"G2z2 :|
+S:https://www.folktunefinder.com/tunes/5320
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Batuta_Martys.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

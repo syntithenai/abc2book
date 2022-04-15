@@ -1,0 +1,21 @@
+X:16391
+T:Tenpenny Bit
+% Nottingham Music Database
+S:EF
+M:6/8
+K:Am
+P:A
+c/2d/2|"Am"eAA eAA|"G"BAB GBd|"Am"eAA eAA|"G"de^f gfg|
+"Am"eAA eAA|"G"BAB GBd|"C""Am"de^f "G/b""G"gBB|"Am""F"BAA A2:|
+P:B
+B|"Am"A2a aga|"G"bge dBG|"Am""F"A2a aga|"G"bge g3|
+"Am"A2a aga|"G"bge dBd|"C""F"edB "G/b""F"gBB|"Am""G"BAA A2:|
+S:https://www.folktunefinder.com/tunes/37762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

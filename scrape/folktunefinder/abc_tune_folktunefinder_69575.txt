@@ -1,0 +1,26 @@
+X:15
+T: EIN HERZ DAS SICH MIT SORGEN QUAELT
+N: F0053
+O: Europa, Mitteleuropa, Deutschland
+R: Moral - Lied, Optimismus
+M: 6/8
+L: 1/16
+K: D
+A,2 | A,4D2F,4F,2 | F,2E,2F,2D,4
+A,2 | A,4G,2G,4F,2 | F,2E,2z6
+A,2 | A,4D2F,4F,2 | F,2E,2F,2D,4
+A,2 | A,4G,2G,4F,2 | F,2E,2z6
+A,2 | ^G,4E,2A,2C2E2 | D2B,2G,2A,4
+A,2 | ^G,4E,2A,2C2E2 | D2B,2^G,2A,4=G,2
+F,2F,2F,2A,2G,2z2 | E,2E,2E,2B,2A,2z2
+D2D2D2E4E2 | A,3B,C2D4
+S:https://www.folktunefinder.com/tunes/69575
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Moral - lied, optimismus
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

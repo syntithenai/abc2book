@@ -1,0 +1,35 @@
+X: 1
+T: the Controversial Reel
+C:Billy McComisky
+R:Reel
+M:4/4
+L:1/8
+S:Billy McComisky, from Cotter's with 'corrections'
+K:G
+P: 1st setting (from Frank R. Claudy)
+Z: Frank R. Claudy <fclaudy@juno.com>)
+G2 A \
+| BABe dB~B2 | gfgb abge | d2 (3Bcd gedB | AdBG AGEG |
+| ~B3 e dB~B2 | ~g2 bg abge | d2 (3Bcd gedB | GBAF G3 A :||
+| ~B3 G ~A2 BA | GEDE GA (3Bcd | g2 ba gedB | AdBG AGEG |
+| ~B2 dB ABBA | GEDE GABd | g2 ba gedb | GBAF G3 A :||
+P: 2nd setting (from Bill Black)
+Z: Bill Black <Zouki@AOL.COM>)
+GA \
+| B3 e dBAG | gfgb a2 ge | d2 Bd gedB | A2 BG AGEG |
+| B3 e dBAG | gfgb a2 ge | d2 Bd gedB | GBAF G2 :|
+|: GA \
+| B3 d A2  BA | GEDE GABd | gaba gedB | A2 BG A2 GA |
+| B3 d A2  BA | GEDE GABd | gaba gedB | GBAF G2 :|
+S:https://www.folktunefinder.com/tunes/16959
+S:http://trillian.mit.edu/~jc/music/abc/reel/ControversialR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

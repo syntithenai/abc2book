@@ -1,0 +1,34 @@
+X: 1
+T: Karapyet
+O: Russia
+M: 2/4
+L: 1/8
+K: Am
+[| "Am"EA- AA | "E7"^G>F E2 | EB- BB | "Am"c>B A2 \
+| "Am"EA- AA | "E7"^G>F E2 | ed cB | "Am"A4 |]
+|: "Am"Ae- ee | "Dm"f>e d2 | df- ff | "Am"e>c e2 \
+| ce- ee | "E7"d>c B2 | ed cB | "Am"A4 :| [K:A]
+[| "E7"Bz dz | "A"c3 A | "E7"Bc de | "A"c>B A2 \
+| "E7"Bz dz | "A"c3 A | "E7"ed FG | "A"A4 |]
+|: "D"df- fa- | "A"ae- ec | "E7"ed Bd | "A"fe c2 \
+| "D"df- fa- | "A"ae- ec | "E7"ed FG | "A"A4 :|
+%%sep 5 5 200
+K: Dm
+[| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 \
+| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 |]
+|: "Dm"da- aa | "Gm"b>a g2 | "C7"gb- bb | "F"a2 f2 \
+| fa- aa | "A7"g>f e2 | ag fe | "Dm"d4 :| [K:D]
+[| "A7"ez gz | "D"f3 d | "A7"ef ga | "D"f/g/f/e/ dA \
+| "A7"ez gz | "D"f3 d | "A7"ag Bc | "D"d2 d2 |]
+|: "G"GB- BB | "D"dA- AA | "A7"AG EG | "D"BA FD \
+| "G"GB- BB | "D"dA- AF | "A7"A/B/A/G/ F/G/F/E/ | "D"D2 D2 :|
+S:https://www.folktunefinder.com/tunes/5739
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Karapyet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

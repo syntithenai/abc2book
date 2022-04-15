@@ -1,0 +1,27 @@
+X:277
+T: Vater unser
+N: A0630B
+O: Europa, Mitteleuropa, Deutschland
+N: Babsts Gsgb 1545 II No. 26
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: D
+A | A2=F | G2A | =F2E | D2
+A | A2G | =c2A | =F2G | A2
+A | c2d | =f2e | d2c | d2
+d | eed | =c2_B | A2G | A2
+d | =c2B | =c2A | A2G | =F2
+A | _B2A | =F2G | =F2E | D2
+S:https://www.folktunefinder.com/tunes/80336
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

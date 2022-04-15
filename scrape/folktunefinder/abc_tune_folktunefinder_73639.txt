@@ -1,0 +1,24 @@
+X:480
+T: The Goat's Song
+N:"Moderate"
+N:Irish title: cronan go.bair
+B:O'Neill's 480
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:6/8
+L:1/8
+K:Dm
+c | A>cd cAF | (A/B/c).A cGc | A>cd cAF | Tf2 e Td2 c |
+A>cd cAF | (A/B/c)A cGc | A>GF AfHa | gfe {e}d2 :|
+f | {d}cAA {g}fAA | {g}aAA {d}cGG | {d}cAA {g}fAA | {g}af^c d2 f |
+[1 {d}cAA {g}fAA | {g}aAA cGc | A>GF AfHa | gfe {e}d2 :|
+[2 cde fga | gfe {g}fed | c>AF AfHa | gfe {e}d2 ||
+S:https://www.folktunefinder.com/tunes/73639
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 1
+T: Anderson's Jig
+C: Carol Cook
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+zG \
+| "C"c2e "G7"dcB \
+| "C"cGE "C7"CEG \
+| "F"AGF "C"GFE \
+| "Dm"DEF "G7"GAB \
+| "C"cde "G7"dcB \
+| "C"cGE CEG \
+| "F"A<fe "G7"d<gB \
+| "C"c3- c :|
+|: ef \
+| "C"gec "F"afc \
+| "C"gec cde \
+| "Dm"fed "D7"edc \
+| "G"dBG "G7"GAB \
+| "C"cde "G7"dcB \
+| "C"cGE CEG \
+| "F"A<fe "G7"d<gB \
+| "C"c3- c :|
+S:https://www.folktunefinder.com/tunes/13784
+S:http://trillian.mit.edu/~jc/music/abc/jig/AndersonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/AndersonsJ_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AndersonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AndersonsJ_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

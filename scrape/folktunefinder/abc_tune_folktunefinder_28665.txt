@@ -1,0 +1,20 @@
+X:2385
+T:Ca the Yowes to the Knowes
+G:slow air
+M:2/4
+L:1/8
+K:BMin
+% B minor/dorian hexatonic
+z|E>F B2 |A>F A2|F>E D>d|c>d e2 |f>B B>B|Ad    F2 |E2  F>A|B2 B
+F|E>F B>B|A>F A2|F>E D>d|c>d e>e|f>B BB |A/B/d F>D|E>E F>A|B2 B
+z|E>F B2 |A>F A2|F>E D>d|c>d e2 |f>B B>B|Ad    F2 |E2  F>A|B2 B|]
+S:https://www.folktunefinder.com/tunes/28665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:300
+T: Der grimme Tod
+N: A0649
+O: Europa, Mitteleuropa, Deutschland
+N: Paderborner Gsgb 1617 S. 328
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: D
+ |  |  | A2AA | GA=FE | D2
+A2 | =cdAB | =c2A2
+A2AA | GA=FE | D2
+A2 | =cdAB | =c2A2
+c2cc | A2=F2 | GG=F2 | z2
+A2 | AAGA | =FED2
+A2AG | A2B2 | =cAG2 | z2
+d2 | edA=c | B2A2
+S:https://www.folktunefinder.com/tunes/80359
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

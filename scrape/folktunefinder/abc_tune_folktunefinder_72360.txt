@@ -1,0 +1,29 @@
+X: 111
+T:Ur Hornpipe,The,aka. HA.110
+M:C
+Q:180
+C:Untitled in MS
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Is this the earliest true hornpipe Hence the name.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:A
+AB|c2(BA0 e2A2|cdef ecAc|defe dcBA|G2B4 cd|!
+ecde fdef|geac dfed|cABG AceB|c2A4:|!
+|:fg|abae cAec|dfBA GBeB|cAec afbf|g2e4fg|!
+aecf ecAc|dBFB GEFG|ABcd edeB c2A4:|]
+S:https://www.folktunefinder.com/tunes/72360
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

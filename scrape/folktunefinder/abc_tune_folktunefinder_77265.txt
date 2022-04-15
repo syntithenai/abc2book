@@ -1,0 +1,33 @@
+X: 72
+T:Ragtime Annie
+M:4/4
+L:1/8
+Q:90
+C:Old Time
+R:Rag
+K:D
+FE|:"D"DFBF AFBF|DFBF A2 F-E|DEFG ABAF|"A"A2c2c2c-B|ABcA B2 c-B|!
+ABcA BAcB|ABcd egfe|[1"D"d2 dc d2 FE:|[2"D"d2 dc d2 (3efg||"D"a2 g2 (3fg
+f e2|!
+[d2f2][df][df][d2f2] (3efg|a2 g2 (3fgf e2|
+"G"[g2B2][gB][gB][g2B2]ef|"A"(3gag ef g2 ef|gfef g2 ef|!
+gfed cBAG|"D"[F2A2][FA][FA][F2A2] (3efg|a3 g (3fgf e2|
+[d2f2][df][df][d2f2] (3efg|a3 g (3fgf e2|!
+"G"[g2B2][gB][gB][g2B2]ef|gb2
+ bb2b2|"D"fa2 aa2a2|"A" (3fgf ed cBAc|"D"[d2F2][dF][dF][d2F2] z2|!
+"Alt. B:"
+(3efg|:"D"a^gab a^gfe|dedB ABAG|FAde fgaf|"G"gfga gfef|"A"gfga gfed|!
+cBcd edcB|[1cdcA BdAG|"D"[F2A2][FA][FA][F2A2](3efg:|[2"A"ABcd egfe|"D"[d
+2f2][df][df][d2f2]|]
+S:https://www.folktunefinder.com/tunes/77265
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

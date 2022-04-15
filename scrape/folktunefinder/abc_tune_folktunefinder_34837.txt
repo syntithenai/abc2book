@@ -1,0 +1,29 @@
+X: 7620
+T:Polska
+D:Filarfolket Live
+R:Polska
+O:Norway
+M:3/4
+D:Filarfolket Live
+C:e. Hans W. Brimi
+K:Gm
+G>B B<A A>G | (3AcA AA | \
+G>A (3BGB (3A^FA | G>B B<A A>G | \
+A>A c<d d>B |
+G>A (3BGB (3AG^F | ^F<G G4 ::\
+d2 cA B>c | d>e (3fdf (3ece |
+d2 cA B>d | (3cde d>c (3ABB | \
+A2 a2 g>f | d>f (3egf d>d |\
+c>A (3BGB (3AG^F | ^F<G G4:|
+S:https://www.folktunefinder.com/tunes/34837
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

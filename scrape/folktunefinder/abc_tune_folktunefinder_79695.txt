@@ -1,0 +1,24 @@
+X:591
+T: KOMM WIR WOLLEN WANDERN
+N: E1901A
+O: Europa, Mitteleuropa, Deutschland, Niederrhein, Wesel
+N: modulierend
+R: Kinder - Lied, Wander - Spiel
+M: 2/4
+L: 1/16
+K: C
+G2 | G2c2c2c2 | c2A2G2z2
+B2c2B4 | c4z2
+G2 | c2c2c2c2 | c2BAG2z2
+A2z2A2z2 | A2GFE2z2
+G2c2B2A^G | A6
+S:https://www.folktunefinder.com/tunes/79695
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, wander - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

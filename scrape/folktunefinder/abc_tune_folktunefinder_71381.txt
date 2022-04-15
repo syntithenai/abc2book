@@ -1,0 +1,28 @@
+X:352
+%%topmargin 3cm
+T:Mrs. Adie
+C:Major Logan
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:The Bb grace to the Bb 16th note in the third full measure is as found in my copy of the manuscript. rp.
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+d | BAF<A | BB) (A<F)TF>B | {/^F}G<AT(B>G) {/G}F>D{/B,}B,<D | (E<G)TF>E D<B,TB, :|
+f | d>Bf>B b>Bf>B | (A/B/c) Tc>BA<F TF2 | {/^F}G<ATB>G } {/G}F>DB,>D | (E<G){/G}F>E DB | d>Bf>B b>Bf>B |
+(A/B/c) (Tc>B) A<F~F>_A || (G<E)D>G (F<D)D>F | E<CC>F D<B,B, || ["last time" (3GEE (3EFG (3FDD (3DEF | (3ECC (3CDF (3DB,B, B, |]
+S:https://www.folktunefinder.com/tunes/71381
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Adie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0352.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

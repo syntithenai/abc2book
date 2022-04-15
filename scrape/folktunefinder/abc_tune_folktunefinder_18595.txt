@@ -1,0 +1,28 @@
+X:3
+T:Auld lang Syne
+M:C
+L:1/8
+R:Air
+N:Slow
+S:McGibbon  Scots Tunes, Book 1 (c. 1762)
+Z:AK/Fiddlers Companion
+K:F
+cd | f3g (fg) a2 | c2A2 trG2F2 | f2d2 (fg/a/) tr(g>f) | d3f d2 :: fg | a2F2 (Ac)dF | A2(GA) G3A | c3d (cd)cA |
+(cA)(cd) f2 (cB) | A2 (GF) A>BcA | (dc)tr(BA) G(BAB) | (cA)(cd) (fc)(dA) | c3d c2 :: cd | fcfg (f>ga)A |
+(cA)cd (cA)tr(GF) | fcfg (f/g/a) tr(g>f) | d3f d2 :: fg | (a/g/f/g/ a)F Acdf | A2 (GA) G3A | (c/B/A/B/ c)d (f/d/c) (d/c/A) |
+cAcd f2 (cB) | Ac (B/A/)(G/F/) (A/G/A/B/) (A/B/c/A/) | (dc/)d (BA/)B (GB)(AB) | (c/A/G/A/) cd (f/d/c) (d/c/A) | c3d c2 :|
+S:https://www.folktunefinder.com/tunes/18595
+S:http://trillian.mit.edu/~jc/music/abc/song/AuldLangSyne_FC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/song/AuldLangSyne_FC.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 5
+T:Bob and Joan. TLY.005
+T:Bobbing Joan. TLY.005
+M:3/4
+L:1/8
+Q:150
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Misc.
+O:England.
+A:Lancashire.
+N:First bar missing quaver in ms. Could be same as second bar, or d note
+N:could be a crotche
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+GB dc"qu"B2|GB dc Bd|ed cB A2|BG GD EG:|!
+|:BG EF G2|BG EF GA|BG EF G2|AB cB FD:|]
+S:https://www.folktunefinder.com/tunes/37538
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

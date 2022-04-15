@@ -1,0 +1,33 @@
+X: 1
+T: Miss Cathrine Chalmers
+C: Nathaniel Gow
+B: BSFC VI-13
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+c \
+| "G"B/c/d c>B "C"c/d/e d>c | "Em"B<E A>G "D7"F2 ED \
+| "G"BG DB, "Am"CE Ac | "G"B>G "D7"A>F "G"G3 :|
+d \
+| "Em"gb ge "B"^df bd | "C"eg ed "A"^ce ac \
+| "D"d>e fd "Em"Bg eg | "D"fd "A7"e^c "D"d2 D2 ||
+| "Bm"(3dcB bB "Am"ca Ac | "G"Bg GB "D7"AF ED \
+| "G"dB Bd "D7"cA Ac | "Em"B>G "D7"A>F "G"G3 |]
+S:https://www.folktunefinder.com/tunes/13151
+S:http://trillian.mit.edu/~jc/music/abc/air/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CathrineChalmersS_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CathrineChalmersS_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/CathrineChalmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/CathrineChalmers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

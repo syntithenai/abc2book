@@ -1,0 +1,28 @@
+X: 1
+T: Johnnie Wilmot's Fiddle
+T: Elmer Briand (1922-1992)
+M: 4/4
+L: 1/8
+F: http://www.thesession.org/tunes/display/3643/
+R: reel
+K: Ador
+|: BEED EDB,E | DB,A,B, DEFd | AD (3DDD FEDF |1,3 ABdA BdAF :|2,4 ABdF E3B :|
+|: Be2f gfeg | fedf edBA | B/^c/dAd FDDF | ABdA BdAF |
+[1 Ee2f gfeg | fedf edBA | B/^c/dAd FDDF | ABdF E3B :|
+[2 BEED EDB,E | DB,A,B, DEFd | AD (3DDD FEDF | ABdF HE3A |]
+S:https://www.folktunefinder.com/tunes/17458
+S:http://www.thesession.org/tunes/display/3643/
+S:http://trillian.mit.edu/~jc/music/abc/reel/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Elmer_Briand/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/JohnnieWilmotsFiddle_Am4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/JohnnieWilmotsFiddle_Am4.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

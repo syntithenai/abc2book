@@ -1,0 +1,27 @@
+X: 4
+P: The Druid (Y Derwydd)
+O: Wales
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   AG \
+| "D"FGA AFA | "G"BGB "D"A3 | "G"Bcd "A7"efg | "D"fed "A7"cBA \
+| "D"FGA AFA | "G"BGB "D"A3 | "G"Bcd "A7"efg | ABc "D"d :|
+|: fg \
+| "D"afa afa | "A7"geg geg | "D"fag "G"fed | "A7"ced cBA \
+| "D"afa afa | "A7"geg geg | "G"fed "A7"cde | "D"dAF D :|
+S:https://www.folktunefinder.com/tunes/3213
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ03.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Rapper3.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/Rapper3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

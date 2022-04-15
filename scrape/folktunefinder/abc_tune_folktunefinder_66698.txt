@@ -1,0 +1,22 @@
+X:14
+T:The Flogging Reel
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:Dmix
+dc |: "G" BG ~G2 BGdG | BG     ~G2      Bdgd | BG   ~G2   BdcB | "D" AGFG ABcA :|
+      "G" ~g2 gd BGBd | "G" {a}gfge "D" fgaf | "G" ~g2 gd BcdB | "D" AGFG ABcA |
+      "G" ~g2 gd BGBd | "G" ~g2 ge  "D" fgaf | "G" bgaf   gedB | "D" AGFG ABcA |]
+      "G" Bdgd   Bdgd | Bdgd            BGGB | "F" Ac=fc Ac=fc | Ac=fc    AFFc |
+      "G" Bdgd   Bdgd | Bdef     g2       ga | (3bag  af  gedB | "D" AGFG ABcA |]
+S:https://www.folktunefinder.com/tunes/66698
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

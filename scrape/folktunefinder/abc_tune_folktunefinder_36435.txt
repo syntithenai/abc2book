@@ -1,0 +1,32 @@
+X:1780
+T:Fiona's Reel
+A:Leeds
+C:Fiona Durance
+M:4/4
+O:England
+R:Reel
+Z:Richard Robinson 
+%%Copyright:Fiona Durance
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000938.html
+%%ID:00000938
+K:G
+EG FD E3F | AB GB FB EG | \
+Bd eg f3g | ec dB Ac AF |\
+EG FD E3F | cA Fc BE GB |
+EG FG EG FG | cA GF EF GB:: \
+eg fg eg fg | bg eb ab gf | \
+ab gb fb ef |
+ec Ae cA GF | \
+EG Be gb ge | cA ec ae ba | \
+ge cA BA BG |1 Ae BG EF GB :|2 Ae BG BG AF :|
+S:https://www.folktunefinder.com/tunes/36435
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

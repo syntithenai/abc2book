@@ -1,0 +1,25 @@
+X:1
+T:The Legacy -- Jig
+R:jig
+B:Ryan's Mammoth Collection.
+Z:Contributed by Ray Davies. ray(at)davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:D
+|: A \
+| d2d dAF | a2a afd | d2e {g}fef | B2c d2A \
+| d2d dAF | a2a afd | d2e {g}fef | B2c d2 :|
+|: A \
+| dfa d'2d' | c'ba baf | dfa d'2d' | c'ba b2c' \
+| d'2d' c'ba | b2b afd | d2e {g}fef | B2c d2 :|
+S:https://www.folktunefinder.com/tunes/14526
+S:http://trillian.mit.edu/~jc/music/abc/jig/LegacyJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LegacyJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LegacyJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

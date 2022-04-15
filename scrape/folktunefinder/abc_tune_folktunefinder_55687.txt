@@ -1,0 +1,23 @@
+X:84
+T:Galway Hornpipe
+R:hornpipe
+O:Ireland
+M:4/4
+L:1/8
+K:D
+A,2|"D" D2 FA dAFD | "A" CDEF "G" G2 FE | "D" D2  FA   d3f | "G" edcB "A" (3(ABA) (3(GFE) |
+     "D" D2 FA dAFD | "A" CDEF "G" GE FG | "A" AdcB AGFE | "D" (3(DED)  CE   D2 :|
+|:ag| "D" f3g  fedc | "G" B^ABc      Bcd^d | "E7" e3f edcB | "A" (3Ace (3aecA4   |
+     "D" dcde  fdAF | "G" GFGA  BdcB |"A" AdcB  AGFE | "D" (3(DED)   CE  D2 :|
+S:https://www.folktunefinder.com/tunes/55687
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

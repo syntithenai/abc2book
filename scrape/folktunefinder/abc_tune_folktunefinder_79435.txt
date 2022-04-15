@@ -1,0 +1,27 @@
+X:331
+T: GEN ALMA GEH I AUFI
+N: E1483A
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Hirten -, Alpen - Lied
+M: 2/4
+L: 1/16
+K: G
+B2 | d3Bd3B | G3BG2z
+B | A3cF3A | G4z2
+B2 | d3Bd3B | G3BG2z
+B | A3cF3A | G4z2
+E2 | E3EE3E | c3cc2z
+A | A2A2A2A2 | d4z2
+d2 | g3dg3d | B3dG3
+B | A3cF3A | G4z2
+S:https://www.folktunefinder.com/tunes/79435
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, hirten -, alpen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

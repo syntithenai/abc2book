@@ -1,0 +1,25 @@
+X: 1
+T:Coilsfield House
+M:4/4
+L:1/8
+C:Nath. Gow
+Z:Toby A. Rider <darkrider1@earthlink.NET>
+R:Slow Air
+K:G
+(G/A/)| BD GB, G,3 (A/B/)| c>A BG F<A D>c| c/B/A/G/ G/F/E/D/ G2 EC| B,G A,F GG, G,:|!
+(B/c/)|d>B dB {cd}e2 AB/c/| dGFG A/G/F/E/ DB/c/| d>edB (c/d/e) (e/f/g)| f/g/a/g/ f/d/e/f/ g2 G g/a/|!
+bgdB (c/d/e) AB/c/|dGFG A/G/F/E/ Dc| BGDB, CD/E/ A, D/C/| B,G A,F GG, G,||
+S:https://www.folktunefinder.com/tunes/13156
+S:http://trillian.mit.edu/~jc/music/abc/air/CoilsfieldHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/CoilsfieldHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/CoilsfieldHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/CoilsfieldHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/CoilsfieldHouse.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:20
+T:Lou cant do soulu
+O:France
+A:Provence
+C:Musico de Auzias Jouvau
+R:Chanson
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-03
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+%%staves (Gal1 Gal2) Gal3
+K:Bb
+V:Gal1
+F>F | B2A2B2c2 | A3GF2A>B | c2=B2c2d>c | B6 B>A | G2G2A2B2 |
+c2>d2 c2c>B | A2G2A2>G2 | F4-F Hz f>e | d4 d>dc>d | e4-e2 c>c |
+ A4- AABc | d4-d2f>e | d4-d>dc>d | (g4f2)c>B | A4 AA Bc | B2 d>c BHz |]
+V:Gal2
+x2 | x8 | x8 | x8 |  x8 | x8 |  x8 | x8 | x6 d>c | B4 B>B A>B | G4-G2G>G | F4-FFGA | B4-B2d>c |
+B4-B>BA>B | (G4G2) G>G | F4 FF GA | B2d>c B x |]
+V:Gal3
+x2 | x8 | x8 | x8 |  x8 | x8 |  x8 | x8 | x8 | z2 d>F B>B A>d | E>G c>G E2 E>E | F2A2c2F2 | B2d>F B2z2 |
+z2d>f B>B F>d | E>G c>G E2E>E | F2A2c2F2 | B2F>F BHz |
+%%footer $D   Galouvielle-MBe 2005 \nChanson France
+S:https://www.folktunefinder.com/tunes/40219
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

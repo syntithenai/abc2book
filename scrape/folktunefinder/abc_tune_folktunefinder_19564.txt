@@ -1,0 +1,32 @@
+X: 1
+T: Miss Susan Inglis
+C: Muriel Johnstone
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C
+L: 1/16
+K: Bb
+a \
+| "Bb"b3f dB3 "Eb"a3B g3B | "Bb"f3d B3F "Ab"(3G2A2B2 "F7"F3D \
+| "Cm"E3G ce3 "Bb"(3D2F2B2 (3d2f2b2 | "Eb"gfed "Cm"edcB "F7"Ac3 c3 ||
+a \
+| "Bb"b3f dB3 "Eb"a3B g3B | "Bb"f3d B3F "Ab"(3G2A2B2 "F7"F3D \
+| "Cm"E3G ce3 "Bb"F3B d3f | "Eb"b3g "F7"f3e "Bb"dB3 B3 |]
+d \
+| "Gm"g3d BG3 gb3 "C7"a3g | "F"f3c AF3  fa3 "D7"b3a \
+| "Gm"g3d BG3 "F7"fF3 e3F | "Bb"d3B A3G "D7"^FA3 A3 ||
+d \
+| "Gm"g3d BG3 "F7"fF3 e3F | "Bb"d3B F3D "Eb"(3E2F2G2 "F7"F3D \
+| "Cm"E3G ce3 "Bb"F3B df3 | "Eb"b3g "F7"f3e "Bb"dB3 B3 |]
+S:https://www.folktunefinder.com/tunes/19564
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissSusanInglis_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissSusanInglis_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

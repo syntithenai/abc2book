@@ -1,0 +1,36 @@
+X:61
+T: WER IST DER RITTER HOCHGEEHRT
+N: B0082
+O: Europa, Mitteleuropa, Deutschland
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: C
+G,F, | E,2G,2C2D2 | E2D2C2
+G,F, | E,3G,C3C | B,6
+G,F, | E,2G,2C2D2 | E2D2C2
+G,F, | E,3G,C3C | B,6
+B,A, | G,3G,G,3G, | B,A,G,A,B,2
+B,C | D2A,B,C2G,A, | B,6
+A,G, | G,2^F,2G,2C2 | D2B,2G,2
+G,F, | E,2G,2C2B,C | D6
+G,F, | E,2G,2C2D2 | E2D2C2
+G,F, | E,2G,2C2D2 | E2D2C2
+G,2 | E4C2C2 | C4B,2
+A,2 | G,2E2D2B,2 | C4z2
+G,F, | E,2G,2C2D2 | E2D2C2
+G,F, | E,2G,2C2D2 | E2D2C2
+G,2 | E4C2C2 | C4B,2
+A,2 | G,2E2D2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/78082
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

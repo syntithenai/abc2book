@@ -1,0 +1,25 @@
+X:248
+T: EST CE MAI
+N: B0730D
+O: Europa, Mitteleuropa, Deutschland; Frankreich
+R: 
+M: 4/4
+L: 1/8
+K: C
+ | G,2G,2G,2A,B, | C2E,F,G,2
+C,2 | C4D4 | E8
+G,2G,2G,2A,B, | C2E,F,G,2
+C,2 | C4D4 | E8
+E2E2E4 | A,2A,2A,2B,C
+D3CB,2A,2 | G,2CDE2D2 | C8
+E2E2E4 | A,2A,2A,2B,C
+D3CB,2A,2 | G,2CDE2D2 | C8
+S:https://www.folktunefinder.com/tunes/62271
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

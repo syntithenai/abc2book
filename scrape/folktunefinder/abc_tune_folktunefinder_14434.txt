@@ -1,0 +1,25 @@
+X: 1
+T: John Donald Cameron
+C: John Campbell
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|:"G"G,B,D GBd | B2G GFG | "C"E2c cBc | "D7"D2d dcd \
+| "G"DB,D GBd | "(Em)"B2G GFG | "Am"EcB "D7"AFD | "G"G3 G2 :|
+a \
+| "G"gdB BAB | gBB "D7"agf | "G"gdB BAB | "D7"d3 d2a \
+| "G"gdB BAB | gBB "D7"agf | "G"gdB "D7"cAF | "G"G3 G2 |]
+a \
+| "G"gdB BAB | gBB "D7"agf | "G"gdB BAB | "D7"d3 d2f \
+| "G"gfa gdB | "A7"d^ce dBG | "D7"AFD | DBA | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14434
+S:http://trillian.mit.edu/~jc/music/abc/jig/JohnDonaldCameron_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JohnDonaldCameron_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

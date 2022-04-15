@@ -1,0 +1,26 @@
+X: 1
+T: Saw Ye My Wee Thing
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A3 cBA | ecA "D"fga | "A"ecA "F#m"AGA | "E7"BGE EFG \
+| "A"A3 cBA | ecA "D"fga | "A"fge "E7"cdB | "A"A3 A2 :|
+|: c \
+| "E7"BGE EFG | "A"ABc "F#m"FGA | "D"FGA "Bm"Bcd | "B7"FBA "E7"GFE \
+| "E7"BGE EFG | "A"ABc "F#m"FGA | "E7"Efd eEG | B3 "A"A2 :|
+S:https://www.folktunefinder.com/tunes/15024
+S:http://trillian.mit.edu/~jc/music/abc/jig/SawYeMyWeeThingJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SawYeMyWeeThingJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SawYeMyWeeThingJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SawYeMyWeeThingJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

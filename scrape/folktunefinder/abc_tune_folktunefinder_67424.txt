@@ -1,0 +1,24 @@
+X:610
+T:Snug in a Blanket
+C:Dave Swarbrick
+R:jig
+N:
+Z:
+M:6/8
+K:Ador
+"D"A2B cBc|DED "C"c2c|"G"B2 G "D"AFD|"G"GFG "C"cAG|
+"D"A2B cBc|DED "C"c2c|"G"BdB "D"cAF|1"G"G2G GFG:|2"G"G2G GFE||
+"D"FGA AFD|DED c2A|FGA AFD|"C"E2F "(G)"GFE|
+"D"FGA AFD|"D"DED c2A|"G"BdB "D"cAF|1"G"G2G GFE:|2"G"G2G GFG||
+S:https://www.folktunefinder.com/tunes/67424
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

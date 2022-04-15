@@ -1,0 +1,35 @@
+X: 1
+P: Grav-Ellas Hambo
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+R: hambo
+M: 3/4
+L: 1/8
+K: G
+|: "G"D2 G>A B>G | "Am"E2 A>B c>A | "D7"FA d>e d>B | "G"GB d>e d>B \
+|  "G"D2 G>A B>G | "Am"E2 A>B c>A | "D7"FA d>e d>F | "G"G2 " fine"G4 :|
+K: C
+|: "C"e2 ed c>A | G2 EF G>c | "G7"B2 BG B>d | "C"c2 EF G>c \
+|  "C"e2 ed c>A | G2 EF G>c | "G7"B2 BG B>d | "C"c2 c4 :|
+|: "Am"c2 cB A>c | "E7"B2 B^G E2 | "Am"c2 cB A>c | "E7"e2 e4 \
+|  "F"c2 cB A>A | "C"G>A GF E>E | "G7"D>E F>G A>B | "C"c2 c4 :|
+S:https://www.folktunefinder.com/tunes/5615
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hambo6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2005NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2007NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Hambo.txt
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2007NEFFA/2007NEFFA_Hambo.txt
+S:http://terrytraub.org/abc/2005NEFFA_Hambo.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

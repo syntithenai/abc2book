@@ -1,0 +1,27 @@
+X:770
+T:Genl. Carleton's Quick March
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:March
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000162.html
+%%ID:00000162
+K:D
+a/f/|\
+d2d efe| cBc d3| e2g fad| dcd eag|\
+d2d efe| cBc d3| efe cBc| d3 d2::
+A|\
+A2A A2A| Ace e3| afd def| ecA A3|\
+AAA AAA| Ace e3| afd def| "da Capo"f3 e2|]
+S:https://www.folktunefinder.com/tunes/30463
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm March
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

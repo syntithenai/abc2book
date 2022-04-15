@@ -1,0 +1,36 @@
+X: 33
+T:Slow March,1. TLY.032
+M:4/4
+L:1/8
+Q:160
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+N:In ms, grace note in 8th. bar is a crotchet, grace note in 17th. bar is
+N:a semi-quaver, slurred with following crotchet D. Couldn't get ABC2WIN
+N:to do these. TT.
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+A2|d2d2 (d<f) (e<g)|f2f2 (f<a) (g<b)|a2d'2 (ag)(fe)|f2d2d2A2|!
+d2d2 (d<f)(e<g)|f2f2 (f<a) (g<b)|a2 (gf) (ba)(gf)|{f2}e6:|!
+|:A2|e2e2(ef)(ed)|(cB)(A^G) A2 z A|a2a2 (ab)(ag)|(fe)(dc) d2 z2|!
+f2 ff e2b2|d2ddc2f2|e2 (dc) (dB)(A^G)|A2A2 AGFE|!
+{D}d2d2 (d<f) (e<g)|f2f2 (f<a) (g<b)|a2d'2 (ag)(fe)|f2d2d2A2|!
+d2d2 (d<f) (e<g)|f2f2 (f<a) (g<b)|a2d2 (fe)(dc)|\
+(d<f) (e<g) (f<a) (g<b)|!
+a2d2 (fe)(dc)|(d<f) (e<g) (f<a) (g<b)|a2d2(fe)(dc)|d2 z fd2 z f|!
+d2 d'2 a2 f2|d2 dd d2d2|d2 z2 d2 z2|d6:|]
+S:https://www.folktunefinder.com/tunes/37566
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

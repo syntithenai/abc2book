@@ -1,0 +1,39 @@
+X:171
+T:Royal Boston
+T:Valse
+R:Valse
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-16
+%%continueall 1
+M:3/4
+L:1/4
+Q:1/2=160
+K:Bb
+P:1
+B3 | A3 | (FG>A | G3) | (dcB | d2f) | a3- | a3 | c3 | B3 | (GA>B | A3) | (cde | GB>A) | 
+d3- | d3 | B3 | A3 | (FG>A | G3) | (F=EF | _A2G) | (f3 | e3) | G3 | (A2B) | f3- | f/z/ fd | G3 | AGF | B3 bzz !fine! ||
+K:F
+P:2
+(AB>c | A3) | (GF>d | A3) | (cde | FGA | cd>)A | c2B | (Bc>d | B3) | 
+(AG>^F | B3) | (def | GAB | de>f) | (d2c) | (AB>c | A3) | (GF>d | A3) | (cde | fga | 
+cd>A | f3) | (Bc>d | B3) | AG>F | _d3 | (cde | fga | c2)A | G_GF ||
+P:3
+K:Bb
+d3 | d3 | d3- | (dfb | ag>a) | (g3 | e3) | B3 | (G2B) | AGA | F3 | g3 | (f2d) | fed | cBc | d3 | d3 | d3- | dAB | 
+(dfb | ag>a) | d3 | d3 | G3 | A2B | fdB | fed | f3 | c2d | B3- | Bzz !D.C.! ||
+%%footer $D   Galouvielle-MBe 2008 \nValse (France)
+S:https://www.folktunefinder.com/tunes/629
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

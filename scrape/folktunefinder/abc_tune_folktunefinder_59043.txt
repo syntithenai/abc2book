@@ -1,0 +1,39 @@
+X:156
+T:Cantar de Ronda (CT 030)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 030
+M:3/4
+L:1/8
+Q:1/4=78
+K:C
+G/ G>A
+|(c3 B) d>d|B3/2(3c//d//c// B4-|B2 z3/2 G/ G>A|
+(c3 B) d>d|B3/2(3c//d//c// B z/ G/ G>A|
+(c3 B) d>B|G3/2(3A//B//A// G4-|G2 z3/2 G/ G>A|
+(c3 B) d>d|B3/2(3c//d//c// B4-|B2 z3/2 G/ G>A|
+(c3 B) d>d|B3/2(3c//d//c// B z/ G/ G>A|
+(c3 B) d>B|G3/2(3A//B//A// G4-|G2 z6||
+W:Voy a la fuente por agua, (bis)
+W:voy al molino contigo, (bis)
+W:por ver el agua correr
+W:y no por otro motivo.
+W:
+S:https://www.folktunefinder.com/tunes/59043
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

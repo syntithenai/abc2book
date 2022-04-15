@@ -1,0 +1,30 @@
+X:23
+T:zilvervloot                           %title
+C:                           %composer
+O:                           %origin
+M:2/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:                           %tempo  Q:1/4=80
+K:C     % transposed from Eb
+"C" C/ D/ E/ F/ G G/ G/ |G G/ A/ G G |"F" A A/ B/ c A |"C" A G z G|
+"G7" F E/ F/ D F |"C" A G/ F/ E E|"G" D G/ A/ "D" B A|"G" A G z G|
+G3 G |"C" G3 G |c G E C | "G" G2 z G|
+"C" C/ >D/ E/ >F/ G C| "F" F/ >E/ F/ >G/ A/ >B/ c/ >A/| "C" G E/ E/ "G7" F D/ D/| "C" C C E G
+| c2 c c |"F" c2 A d | "C" c2 "G" B2 |"C" c GEG |
+| c2 c c |"F" c2 A d | "C" c2 "G" B2 | "C" c2 z2||
+W:
+W:Heb je van de zilverenvloot wel gehoord, de zilverenvloot van Spanje
+W:die hadden veel spaanse matten aan boord, en appeltjes van oranje
+W:Piet Hein, Piet Hein, Piet Hein zijn naam is klein
+W:zijn daden bennne groot, zijn daden benne groot
+W:hij heeft gewonnen de zilverenvloot,
+W:hij heeft gewonnen, gewonnen de zilvervloot.
+S:https://www.folktunefinder.com/tunes/45817
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

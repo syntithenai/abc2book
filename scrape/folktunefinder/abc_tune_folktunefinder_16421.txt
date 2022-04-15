@@ -1,0 +1,23 @@
+X: 1
+T: Polska efter fadern (80a)
+O: Klarlvsdalen
+Z: John Chambers <jc@trillian.mit.edu>
+R: polska
+M: 3/4
+L: 1/8
+K: A
+A>c e>d c>B | (3AGA a(>g f)>e | ((3fgf) e(d (3c)Ac |1,3 (3BGB e2 E2 \
+                                                  :|2,4 ((3BGB) A2 z2 :|
+|: [EA,]d ce ce | [EA,]c df df | [BE]b ba (3gbg | (3efg b>a g>f |
+| e>d ce ce | Ac df df | Bb ba (3gbg | (3efg a2 A2 :|
+S:https://www.folktunefinder.com/tunes/16421
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_80a_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_80a_A.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

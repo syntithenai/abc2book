@@ -1,0 +1,27 @@
+X:70
+T: Atlantic Wave
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: reel
+K: G
+(3DEF | G2 BG dGBG | cBcd efge | d2 BG DGBG |\
+(3FED AD BDAF |
+G2 BG dGBG | cBcd efge | dgfg ecAF |\
+G2 GF G2 :|
+(3def | g2 fg ed^ce | dfab afdf | bagf gdBG |\
+(3FED AD BDAF |
+G2 BG dGBG | cBcd efge | dgfg ecAF |\
+G2 GF G2 :|
+S:https://www.folktunefinder.com/tunes/77648
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/a.abc
+S:http://www2.redhawk.org:8080/irish/zouki/a.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

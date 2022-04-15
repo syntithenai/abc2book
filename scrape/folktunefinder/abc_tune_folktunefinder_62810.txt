@@ -1,0 +1,25 @@
+X: 27
+T: S\"a\"ast\"opankki valssi
+T: Sparbanksvalsen
+R: Waltz
+O: Finland
+N: Sv. "Sparbanksvalsen"
+M: 3/4
+L: 1/4
+K: Dm
+A |\
+"Dm"d A F | "A7"G F E | "Dm"D>D D | D E F | "Gm"G>G G \
+|1"C7"G F G |"F"A>A A |"A"A2 \
+:|2"C7"G c B |"F"A>A A |"A7"A F G |:
+"Dm"A>A A |"D7"A d c|"Gm"B>B B | B A G |\
+"Dm"F A>F |"A7"E D ^C |"Dm"D>D D |1,3 D F G :|2,4 D2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/62810
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

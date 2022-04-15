@@ -1,0 +1,29 @@
+X:530
+T: BEFIEHL DU MEINE WEGE
+N: F1031
+O: Europa, Mitteleuropa, Deutschland
+R: Erbauungs - Lied, religioes, Choral
+M: 4/4
+L: 1/8
+K: D
+F2 | B2A2G2F2 | E4F2
+c2 | d2d2cBc2 | B6
+F2 | B2A2G2F2 | E4F2
+c2 | d2d2cBc2 | B6
+d2 | cBA2B2c2 | d4d2
+A2 | B2A2GFG2 | F6
+d2 | cde2d2c2 | B4c2
+F2 | G2F2E2A2 | F6
+S:https://www.folktunefinder.com/tunes/70090
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erbauungs - lied, religioes, choral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

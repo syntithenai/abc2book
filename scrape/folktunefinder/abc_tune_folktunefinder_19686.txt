@@ -1,0 +1,26 @@
+X: 1
+T: Timour the Tartar
+R: strathspey, shottish, hornpipe
+N: Usually played as a reel; strathspey form for the dance Ship O' Grace
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|: E2 \
+| "A"A2 (3cBA e>A (3cBA | e>A a>A g>A f>A | e>A (3cBA e>A (3cBA | "E7"B>E d>E c>E B>E |
+| "A"A2 (3cBA e>A (3cBA | e>A a>A g>A f>A | e>f e>c e>a e>c | "E7"B>A B<c "A"A2 :|
+|: (3AGF \
+| "E7"E2 (3GFE B>E (3GFE | B>E d>E c>E B>E | "A"A2 (3cBA e>A (3cBA | e>A a>A g>A f>A |
+| "A"e>f e>c "D"a>g a>f | "A"e>f e>c "D"a>g a>f | "A"e>c a>g "D"f>e d>c | "E7"B>A B<c "A"A2 :|
+S:https://www.folktunefinder.com/tunes/19686
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/TimourTheTartarRS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/TimourTheTartarRS.abc
+% Rhythm Strathspey, shottish, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

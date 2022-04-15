@@ -1,0 +1,31 @@
+X: 9182
+T:Schottisch
+C:nach Mathias Koller
+B: "3. Spielheft fr Okarina", V. Derschmidt, Obersterreichisches Volksliedwerk, Linz 1994
+S:Obersterreichisches Volksliedarchiv M I/D2 - 581
+A:Esternberg 1920
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+N:in the book in C(1.part), G(2.part) & F(3.part)
+M:2/4
+L:1/16
+K:G
+dg|dff2 cee2|Bdd2 G2B2|cdd2 A2c2|Bdd2 G2B2|
+dff2 cee2|Bdd2 G2B2|cdd2 Acd2|G2G2G2:|
+|:ED|D2EF G2A2|B2D2 D2B2|c2D2 D2c2|B2AG G2FE|
+D2EF G2A2|B2D2 D2B2|c2F2 c2BA|G4G2:|
+|:GG|G2B2 e2d2|G6B2|e3d e3d|F6G2|
+A2c2f2e2|F6A2|e3d e3d|e2dBF2G2|
+G2B2e2d2|G6B2|B2d2A2G2|F4E4|
+EFGAA2e2|d2d2G2Bd|c2c2D2FA|G2G2G2:|
+S:https://www.folktunefinder.com/tunes/35421
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

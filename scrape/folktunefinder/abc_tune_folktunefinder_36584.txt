@@ -1,0 +1,29 @@
+X:2525
+T:Huntingtone Castle
+M:6/8
+O:Scotland
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000082a.html
+%%ID:0000082a
+K:E min
+B,|\
+E>FE {F}G2A|B2A F>ED|E>FE {F}G2A|"tr"B>AB d2e|\
+"tr"f>ed B>dB|A>BA FED|
+E>FE {F}GAB|{B}A>GF E2::\
+d|\
+e>fe d>cB|A>BA F>ED|
+Eee e>fg|fe^d e2f|\
+g>af e>fd|BdA F>ED|E>FE {F}GAB|{B}AGF E2:|
+S:https://www.folktunefinder.com/tunes/36584
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

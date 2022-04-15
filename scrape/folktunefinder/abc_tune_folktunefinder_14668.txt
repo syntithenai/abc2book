@@ -1,0 +1,30 @@
+X: 1
+T: Miss Reay of Killingworth's Favourite Jig
+C: Abr.Mackintosh
+R: jig
+B: RSCDS __-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+| "G"g3 "D"f3 | "G"g2b "D7"def | "Em"gfe "(G)"dcB | "A7"ABG "D7"FED \
+| "G"g2g "D"f2f | "G"g2b "D7"def | "Em"gfe "(D)"agf | "A7"ed^c "D"d3 ||
+|: "G"d3 "E7"b2d | "Am"{d}cBc "D7"a2c | "G"Bdg dcB | "A7"ABG "D7"FED \
+| "G"d2b "E7"dcB | "Am"c2a "D7"cBA | "G"Bdg "D7"agf | "G"g3 G3 :|
+|| "G"gfg "Em"efg | "A7"abg "D"fed | "C"efg "G"dcB | "A7"ABG "D7"FED \
+| "C"EFG "D"FGA | "Em"GAB "D7"ABc | "G"d2b "D7"agf | "G"g3 G3 |]
+S:https://www.folktunefinder.com/tunes/14668
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissReayOfKillingworthsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MissReayOfKillingworthsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MissReayOfKillingworthsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissReayOfKillingworthsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissReayOfKillingworthsFav.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

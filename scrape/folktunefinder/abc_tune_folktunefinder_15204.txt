@@ -1,0 +1,30 @@
+X: 1
+T: A Trip to Saint Andrews
+C: Nathaniel Gow
+R: jig
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:  A
+|: "A"A2A Ace |  "D"agf "A"ecA |  "A"A2A    Ace | "E7"BGE "A"ECA, \
+|  "A"A2A Ace |  "D"agf "A"ecA |  "D"dfd "A"ecA | "E7"EBG "A"A3  :|
+|: "A"E2A AcA | "E7"BdB    BGE |  "A"E2A    AcA | "E7"dBG "A"A3   \
+|  "A"E2A AcA | "E7"BdB    BGE | "E7"BdB "A"AcA | "E7"dBG "A"A3  :|
+S:https://www.folktunefinder.com/tunes/15204
+S:http://trillian.mit.edu/~jc/music/abc/jig/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/TripToStAndrews.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/TripToStAndrews.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

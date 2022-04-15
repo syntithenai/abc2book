@@ -1,0 +1,38 @@
+X:29
+T:Steyrer Tanz in C, nr. 12
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in C
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:C
+V:1
+%violino 1mo
+"3"g"4"e' c'2 ge | fbbd' b2 | fd' b2 gf | ec'c'e' c'2 |\
+ge' c'2 ge | fbbd' b2 | f'd' b2 gb | c'6 :|
+ge'c'egc' | fd'bgbg | fd'bgfd' | ee'c'ec'e |\
+ge'c'egc' | fd'bgbg | fd'bgfd' | c'4 :|
+V:2
+%violino 2do
+ec' Tg2 ec | dggb g2 | db g2 fd | eggc' g2 |\
+ec' g2 ec | dggb g2 | af Td2 Gd | e6 :|
+ec'gceg | dbgdgd | dbgdfg | ec'gege |\
+ec'gceg | dbgdgd | dbgdfg | e4 :|
+S:https://www.folktunefinder.com/tunes/45463
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

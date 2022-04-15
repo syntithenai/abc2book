@@ -1,0 +1,30 @@
+X: 1
+T: Abbots Bromley Horn Dance [Em]
+N: From the Nottingham Music Database
+S: EFDSS
+M: 6/8
+K: Em
+e \
+| "Em"B2e G2e | "Em"B2e E2G | "Am"FGA "Em"GAB \
+|1,3 "B7"AGF "Em"G2 :|2,4 "B7"AGF "Em"E2 :| \
+e \
+| "Am"c2e cde | "Am"A2c ABc \
+| "D"FGA "(Em)"GFE | DEF "Bm"B,2g |
+| "Em"e2g efg | "Am"c2e cde \
+| "G"dcB "D"AGF | "Em"E3 E2 |: \
+A \
+"Em"BcB "Am"c3 | "Em"BcB "Am"e3 | "Em"BcB "B7"AGF \
+|1 "Em"G3 "B7"G2 :|2 "Em"E3 E2 |]
+S:https://www.folktunefinder.com/tunes/13756
+S:http://trillian.mit.edu/~jc/music/abc/jig/AbbotsBromleyHornDance1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/misc/AbbotsBromleyHornDance1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AbbotsBromleyHornDance1_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

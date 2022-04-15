@@ -1,0 +1,23 @@
+X:266
+T: Von den zehn Geboten
+N: A0621A
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Cod 14. Jh.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: C
+ |  | G2G2A2G2 | E2F2G2zC | D2E2F2E2 | G4D2F2 | E2D2C2z
+C | D2D2G2F2 | E2D2C2D2 | B,G,A,2G,2z
+C | D2E2C2E2 | G2F2G2zE | F2D2C2B,2 | C8
+S:https://www.folktunefinder.com/tunes/80325
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Text Has notes text
+% Has_accompaniment_chords No chords

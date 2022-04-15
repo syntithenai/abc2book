@@ -1,0 +1,23 @@
+X:106
+T: ES GIENG EIN MUELLER UEBER FELD
+N: E0058
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 4/4
+L: 1/8
+K: G
+D2 | G2_B2A2d2 | c2_B2A2z
+D | G2_B2A2d2 | c2_B2A2z
+d | d2c2d2_BA | _B2G2z2
+S:https://www.folktunefinder.com/tunes/78547
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:238
+T: Maria zart
+N: A0596
+O: Europa, Mitteleuropa, Deutschland
+N: Leisentrit 1567 II fol. 15.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: E
+E4=G2=F2 | E2=F2=D2D2 | =C4z2
+=G2 | =G2G2A2G2 | =F4E4
+E4=G2F2 | E2=F2=D2D2 | =C4z2
+=G2 | =G2G2A2G2 | =F4E4
+z2E2A2=G2 | A2=c2BAB2 | A4z2
+=G2 | =c2A2B2c2 | A4=G4
+z2G2E2=F2 | =G2=F2E4 | =D4z2
+=G2 | =G2A2B4 | z2=d2=c2B2 | A4z2
+B2 | =c2A2=G4 | z2A2=G2=F2 | E4z2
+E2 | =D2=C2=F2E2 | =D4=C4
+z2c2A2B2 | =c4z2B2 | A=GA2G4
+z2A2E2=D2 | =G2A2=F4 | E8
+S:https://www.folktunefinder.com/tunes/80297
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Text Has notes text
+% Has_accompaniment_chords No chords

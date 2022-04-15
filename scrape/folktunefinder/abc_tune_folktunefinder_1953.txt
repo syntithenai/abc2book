@@ -1,0 +1,31 @@
+X: 16
+T:Boyne Watter.JMP.016
+T:Boyne Water,aka. JMP.016
+M:C|
+L:1/8
+Q:150
+C:"18"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:1 - bar line here
+H:1799
+Z:vmp.C. Graebe
+K:G major
+E2e2 efgf | dcBA G2 AB | c2 B2 edcB |  A3G E4 :|!
+|:d2 | e2 ef g2 fg | agfe "1" d2 cd |  e2 a2 a3 b |a3 g e2 ef |!
+ gfga g2 fe | dcBA G2 AB | c2 B2 edBA | A3 G E4 :|]
+S:https://www.folktunefinder.com/tunes/1953
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

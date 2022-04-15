@@ -1,0 +1,29 @@
+X: 1
+T: Tll Pohjanthden alla
+C: Sv: Petri Laaksonen
+C: San: Turkka Mali
+M: 6/8
+L: 1/8
+K: Am
+Ac \
+| "Am"e2e d2c | B2A Zee \
+| "Dm"f2f f2e | "G"e2d "G7"zcB \
+| "E"[e2A2]e "E7"[d2^G2]e | "Am"[d2A2]c zBA |
+|1 "D"dd2 c2d | "E"B3 z \
+:|2 "E"[e2A2]e "E7"[e^G]e2 | "Am"A3 z2 \
+|: e \
+| "Dm"f2f "G"g2f | "Am"e2A zAe |
+| "Dm"dd2 "E7"zcB | "Am"B2A "C"z[eG][eG] \
+| "F"[a2c2][ac] [g2c2][ac] | "C"[g2e2][ec] zcd \
+| "E"[e2A2]e "E7"[e2^G2]e | "Am"A3-Az :|
+S:https://www.folktunefinder.com/tunes/19009
+S:http://trillian.mit.edu/~jc/music/abc/song/TaallaPohjantahdenAlla2_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/TaallaPohjantahdenAlla2_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/TaallaPohjantahdenAlla2_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/TaallaPohjantahdenAlla2_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

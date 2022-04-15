@@ -1,0 +1,25 @@
+X:360
+T: The Road to Lisdoonvarna
+P: The Road to Lisdoonvarna
+R: jig
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+D: Chieftains 3; Swallowtail "Flights of Fancy"; Grey Larsen and Malcolm Dalglish Banish Misfortune".
+M: 6/8
+L: 1/8
+K: EDor
+|: E2B B2A | B2c d3 | F2A ABA | D2E FED |
+E2B B2A | B2c d3 |cdc B2A | B2E E3 :|
+|: e2f gfe | d2B Bcd | c2A ABc | d2B B3 |
+e2f gfe | d2B Bcd | cdc B2A | B2E E3 :|
+S:https://www.folktunefinder.com/tunes/67374
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

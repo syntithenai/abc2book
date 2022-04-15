@@ -1,0 +1,32 @@
+X: 1
+T: Olde Tyme Quadrille
+C: Bob McQuillen (June 1975)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+EF \
+| "C"GAcd c2G2 | A2G2 G2EF | GAcd e2c2 | "G7"B6 DE \
+| FGFE D2c2 | B2D2 D2DE | FGAc B2A2 | "C"A4 G2EF |
+| "C"GAcd c2G2 | A2G2 G2EF | GAcd e2c2 | "F"B2A2 A2Bc \
+| "Dm"dedc "D7"B2AB | "C"cdec "A7"G2EG | "Dm"A2c2 "G7"BcdB | "C"c6 ||
+|| cB \
+| "Am"ABAB c2e2 | f2e2 edcB | ABcd e2c2 | e6 de \
+| "Dm"fgfe d2f2 | "Am"efec A2c2 | "B7"B2A2 ^G2A2 | "E7"B4 c3B |
+| "Am"ABAB c2e2 | f2e2 edcB | ABcB A2e2 | "Dm"d6 fe \
+| d2A2 A2ed | "Am"c2A2 A2Bc | "E7"B2f2 edcB | "Am"A4 "(G7)"G2 :|
+S:https://www.folktunefinder.com/tunes/15629
+S:http://trillian.mit.edu/~jc/music/abc/march/OldeTymeQuadrille_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldeTymeQuadrille_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/OldeTymeQuadrille_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/OldeTymeQuadrille_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OldeTymeQuadrille_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/OldeTymeQuadrille_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

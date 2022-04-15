@@ -1,0 +1,23 @@
+X:81
+T: Jodler
+N: D0090
+O: Europa, Mitteleuropa, Schweiz, Kt. Wallis, Brigersberg
+N: erste Zeile rhythmisch korrigiert
+N: Notentext vollstaendig   Sonderzeichen in der Notation
+R: Jodler
+M: 3/4
+L: 1/16
+K: G
+D2E2F2 | G4d4B4 | g6e2d2B2 | G4F4d4 | c6
+D2E2F2 | A2d2c2e2d2Fd | G4e4d4 | B12
+S:https://www.folktunefinder.com/tunes/72538
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

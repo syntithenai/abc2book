@@ -1,0 +1,24 @@
+X:60
+T: ICH STAND AUF HOHEM BERGE
+N: Z0061
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/16
+K: D
+DF | A2AdAFGE | F4E2
+E2 | F2FA^G2GB | A4z2
+ABc | d2d2dcBA | B4A4 | G4F2
+A2 | B2AGF2E2 | D4z2
+S:https://www.folktunefinder.com/tunes/68919
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

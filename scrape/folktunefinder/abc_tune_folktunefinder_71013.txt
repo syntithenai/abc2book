@@ -1,0 +1,24 @@
+X:266
+%%topmargin 3cm
+T:The Duchess of Hamilton
+C:John Bowie
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+c | B<(GG)>A TF>GA<c | B<(GG)>D B,DG,c | B<(GG)>A TF>GA<c | B>d A/B/c/A/ B(GG) :|
+d | g>d B/c/d/B/ g<(dd)>e | g>d (g/a/b) a<(ee)>f | g>d B/c/d/B/ g>de>B | c<aA<c B<(GG)>d |
+g>d B/c/d/B/ g<(dd)>e | g>d (g/a/b) a<(ee)>f | gd A/B/c/A/ B(GG) |]
+S:https://www.folktunefinder.com/tunes/71013
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

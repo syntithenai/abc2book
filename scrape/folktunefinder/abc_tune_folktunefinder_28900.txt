@@ -1,0 +1,20 @@
+X:2620
+T:Captain Horne
+G:pipe strathspey
+M:C
+L:1/8
+K:D
+% major/mixolydian hexatonic, D-final in the C-gap hexatonic pitch set
+e|f>AA2  B<Gg2 |f>AA2  Bd|
+  f>AA2  B<Gg2 |f<ae>d B<dd :|
+e|f2 f>d f2 f<a|f2 f>d e2 f<a|
+  f2 f>d e>dg>e|a>fe>d B<dd :|
+S:https://www.folktunefinder.com/tunes/28900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

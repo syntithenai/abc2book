@@ -1,0 +1,28 @@
+X:68
+T: ALS DER SANDWIRTH VON PASSEIER
+N: B0092
+O: Europa, Mitteleuropa, Deutschland
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: A
+EE | A2A2A2A2 | =cBAz
+c3B | A3=cB3A | =GFE2z2
+EE | A2A2A2A2 | =cBAz
+c3B | A3=cB3A | =GFE2z2
+EF | =G2G2G2GA | BA=G2
+B3c | d2d2d2d2 | =fed2
+d3d | d2d2d2d2 | =fed2
+f3f | =f2e2d2=c2 | B8 | A4z2
+S:https://www.folktunefinder.com/tunes/78089
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

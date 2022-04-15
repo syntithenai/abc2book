@@ -1,0 +1,27 @@
+X: 1
+T: Muirland Willie
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|: D \
+| "Gm"G2A "Eb"B2c | "Bb"d>ed f3 | "F"cAc "Bb"f2d | "Gm"dcB "D7"AG^F \
+| "Gm"G2A "Eb"B2c | "Bb"d>ed "(Eb)"b2b | "F"a>ga "D7"d<g^f | "G"g3 G2 :|
+|: d \
+| "Eb"g2a "Bb"b2b |  "C7"d2=e "F"f3 | "F7"cAc "Bb"f2d | "Gm"dcB "D7"AG^F \
+| "Gm"G2A "Eb"B2c | "Bb"d>ed "(Eb)"b2b | "F"a>ga "D7"d<g^f | "G"g3 G2 :|
+S:https://www.folktunefinder.com/tunes/14725
+S:http://trillian.mit.edu/~jc/music/abc/jig/MuirlandWillieJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MuirlandWillieJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MuirlandWillieJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MuirlandWillieJ_Gm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:535
+T: "Die Versucherin"
+N: Z1215
+O: Europa, Mitteleuropa, Schweiz
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: Ab
+A2 | A3cBA | GEE2
+A2 | c2Acec | B4
+A2 | A3cBA | GEE2
+A2 | c2Acec | B4
+cd | e2c2ec | d2B2
+cd | e2c2ec | d2B2
+df | e3cdB | A4
+S:https://www.folktunefinder.com/tunes/69394
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

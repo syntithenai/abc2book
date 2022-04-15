@@ -1,0 +1,46 @@
+X: 1
+T: Jingle Bells [F]
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+| "F"CA GF \
+| C3 C/-C/ \
+| CA GF \
+| "Bb"D4 \
+| "Gm"DB AG \
+| "C7"E3 c \
+| dc BG \
+| "F"A4 |
+| "F"CA GF \
+| C3 C/-C/ \
+| CA GF \
+| "Bb"D3 D \
+| "Gm"DB AG \
+| "F"cc cc \
+| "C7"dc BG \
+| "F"F2 z2 |
+|: "F"AA A2 \
+| AA A2 \
+| Ac F>G \
+| "F7"A4 \
+| "Bb"BB B>B \
+| "F"BA AA/A/ \
+|1 "G7"AG GA \
+| "C7"G2 c2 \
+:|2 "C7"cc BG \
+| "F"F4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/16624
+S:http://trillian.mit.edu/~jc/music/abc/program/JingleBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/JingleBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/JingleBells.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/JingleBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/JingleBells.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/JingleBells
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

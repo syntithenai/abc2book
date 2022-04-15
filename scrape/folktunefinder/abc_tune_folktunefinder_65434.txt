@@ -1,0 +1,25 @@
+X: 1
+T:A and D
+% Nottingham Music Database
+S:EF
+M:4/4
+K:A
+M:6/8
+P:A
+f|"A"ecc c2f|"A"ecc c2f|"A"ecc c2f|"Bm"BcB "E7"B2f|
+"A"ecc c2f|"A"ecc c2c/2d/2|"D"efe "E7"dcB| [1"A"Ace a2:|
+ [2"A"Ace ag=g||\
+K:D
+P:B
+"D"f2f Fdd|"D"AFA f2e/2f/2|"G"g2g ecd|"Em"efd "A7"cBA|
+"D"f^ef dcd|"D"AFA f=ef|"G"gfg "A7"ABc |1"D"d3 d2e:|2"D"d3 d2||
+S:https://www.folktunefinder.com/tunes/65434
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: Tiene
+O: Russia
+M: 2/4
+L: 1/8
+N: From handwritten MS.
+N: (Transliteration somewhat nonstandard.)
+K: Dm
+|: "Dm"DA A2- | AG F2 :: "C"GG GG "Dm"FE D2 :|
+w: 1.~A ja po* lu-gu | Ja po lu-gu gu-lja-la.
+w: 2.~Ja ska-ma-*ri-kom | Ska-ma-ri-kon plja-sa-la.
+w: 3.~Ka-mar hoz-*ku mnje | Ka-mar hoz-ku og-da-vil.
+w: 4.~Vsje su-stav-*ci-ki | Su-stav-ci-ki roz-dra-bil.
+w: 5.~A ja ma-*tus-kje | Ma-tus-kje kri-ca-la ja.
+w: 6.~Ti pa-daj* ka mnje | Ti po-daj mnje ka-sa-rja.
+w: 7.~Mnje kaz-njit-*\-ru-bit | Kaz-njit-\-ru-bit ka-ma-ra.
+w: 8.~Po-ka-ti-*la-sja | Po-ka-til-las go-la-ja.
+w: 9.~Vsjo za no-*vo-je | Za no-vo-je vo-ra-ta.
+S:https://www.folktunefinder.com/tunes/19027
+S:http://trillian.mit.edu/~jc/music/abc/song/Tiene_Dm_Song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/Tiene_Dm_Song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/song/Tiene_Dm_Song.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

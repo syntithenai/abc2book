@@ -1,0 +1,32 @@
+X:1
+T:Sonata 6
+T:1. Affetuoso
+C:Telemann
+M:C
+L:1/16
+K:C
+V:1
+G2|cdef g2c2 a2g2 z2 g2|Bcde f2f2 f2e2 z2 d2|ecBc g_BAG ABAG FAce|fd ^cd a=cBA BcBA GBd^f|
+g2GA Bcde fe f4 ed|edcd B3c cde4dc|BAG2 z2 B2 c2B2 z4|z4 z2 A2 D2G2 z2 ^F2|G2G2G2G2 G2C2 z2 E2|
+A2A2A2A2 A2D2 z2 ^FE|DE^FG A2FG AGFE DFEF|G2C2 D2dc BcdB GABG|=FEFd dFGF FDEG C2B2|c4 z2 c2 E2E2E2E2|
+F4 z2 a2 ga_ba gfef|efgA ^cAeA d2D2 z2 d2|efgA ^cAeA fede c3d|d2D2 z2 ^F2 A2c2 z2 F2|A2D2 E2^F2 G3A Bcdc|
+Bdcd GBdf Bdcd GBdg|fefa gfef edc2 z2 G2|cdef g2c2 a2g2 z2 c2|Bcde f2f2 f2e2 z2 d2|ecBc g_BAG ABAG FAce|
+fd^cd a=cBA BcBA GBd^f|g2GA Bcde fef4ed|edcd B3c c4 z2 G2|AFEF AFcF z2 d2G2B2|cA^GA cAeA z2 f2B2d2|
+efge fdec defG BGdG|e2C2 z2c2 defG BGdG|edcd B3c cBAG F2F2|FDEF G2G2 C4 z4|]
+V:2
+z2|z4 z2 e2 f2e2 z4|z4 z2 d2 G2c2 z2B2|c2c2 c2c2 c2F2 z2 A2|d2d2 d2d2 d2G2 z2 BA|
+GABc d2Bc dcBA GBAB|c2F2 G2F2 E2C2 ^F2D2|
+GABc d2G2 e2d2 z2 G2|^FGAB c2c2 c2B2 z2 A2|BG^FG d=FED EFED CEGB|
+cA^GA e=G^FE FGFE DFA^c|d2DE ^FGAB cBc2- c2BA|BAGA ^F3G G4 z2 G2|B,2B,2B,2B,2 C4 z2 gf|efge cdec _BABg gBcB|
+_BGAc F2f2 efgf ed^cd|^c2A2 z2 c2 defA dAfA|^c2A2 z2 c2 d2G2 A2AG|^FAGA DFAc FAGA DFAd|cBce dcBc BAG2 z2 ^f2|
+g2G2 z2 B2 d2=f2 z2 B2|d2G2 A2B2 c3d efgf|edc2 z2 e2 f2e2 z4|z4 z2 d2 G2c2 z2 B2|c2c2c2c2 c2F2 z2 A2|
+d2d2d2d2 d2G2 z2 BA|GABc d2Bc dcBA GBAB|c2F2 G2F2 E2D2C2E2|z2 c2 F2A2 BG^FG BGdG|z2 e2 A2c2 dBAB dBfB|
+cdec dBcA B2G2 z2 B2|cdeG cGeG B2G2 z2 B2|c2F2 G2E2 A4 z Bcd|GBcf d3c c4 z4|]
+S:https://www.folktunefinder.com/tunes/40090
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_6_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

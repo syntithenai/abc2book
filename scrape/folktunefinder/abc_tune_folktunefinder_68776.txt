@@ -1,0 +1,25 @@
+X:230
+T: Alter Reihentanz um das erste Veilchen
+N: A0279
+O: Europa, Mitteleuropa, Deutschland
+N: Klieber Vier geistliche Reyenlieder  Nuernberg 1530.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | c4c2F2 | c4c2
+_e2 | d2c2B2A2 | BcdBc2
+A2 | A2A2B2B2 | c4A2
+A2 | B2B2c2c2 | A4F2
+F2 | B2B2G2G2 | F6
+S:https://www.folktunefinder.com/tunes/68776
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

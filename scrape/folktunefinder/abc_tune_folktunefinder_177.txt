@@ -1,0 +1,30 @@
+X: 5
+T: Reel \`a p\'ep\'e
+T: Reel du grand-p\`ere
+N: From the playing of Louis Beaudoin
+O: Qu\'ebec
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+B: Danse ce soir!
+N: With a few modifications for accordion based on playing it for a while
+M: 6/8
+L: 1/8
+K: D
+{B}AG \
+| "D"FAAA ABAG | FAde "D#dim7"f3f | "Em"g2eg "(D)"fedf | "A7"edcB ABAG | "D"FAAA ABAG |
+| FA"(C7)"de "B7"f3f | "Em"g2eg "(D)"fedf | "A7"egec "D"d2 :|[K:=c][K: G] |:"D7"(3DEF | "G"G2FG "/F#"~E2DF | "/E"GABc "E7/^G"d3d |
+| "Am(C)"ef (3gfe "G/B"dBGB | "Am7"ABAG "D7"FDEF | "G"G2FG "/F#"~E2DF | "G"GA"/F#"Bc "/E"d3"D"d | "C"ef (3gfe "Am"dBGB | "D7"AcAF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/177
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJnew.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

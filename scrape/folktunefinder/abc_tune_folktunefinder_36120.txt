@@ -1,0 +1,24 @@
+X:205
+T:Argyle Bowling Green
+M:4/4
+N:I think I originally found a version of this somewhere on the 'net,
+N: but I've no idea where and suspect my playing has changed it by now.
+O:USA
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d7c.html
+%%ID:00000d7c
+K:D
+|:F | \
+DF d2 defe | dABd AdAF | DFd2 defe | dBAF E2 E:|
+d | \
+AFdF AFFB | AFdF A2 AB | AFdF AFFG | ABAF E2 Eb |
+afd'f affb | afd'f a2 ab | afd'f affg | abaf e2 e ||
+S:https://www.folktunefinder.com/tunes/36120
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

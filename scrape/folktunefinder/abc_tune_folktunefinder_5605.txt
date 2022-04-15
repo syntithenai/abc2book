@@ -1,0 +1,26 @@
+X: 1
+P: Hambo p\aa Logen (Hambo in the Barn)
+Z: John Chambers <jc@trillian.mit.edu>
+C: Karl Salomonsson
+R: hambo-polska
+M: 3/4
+L: 1/8
+K: G
+|: "G"D2 D<E D>C | B,2 D>G B2 | G2 G<A G>E | "D7"G2 F4 \
+| "D7"D2 D<F E>F | D2 F>A d2 | d2 d<e d>c | c2 "G"B4 |
+| "G"D2 D<E D>C | B,2 D>G B2 | G2 G<A G>F | "C"F2 E4 \
+| "D7"c2 cc | "G"B2 B<A G>B | "D7"A2 A<F D>F | "G"G2 G4 :|
+|: "G"B>c d2- d>B | GA B4 | G>A B2 A>G | "D7" G2 F4 \
+| A>B c2- c>B | AG F4 | F>G F2 E>F | "G"E2 D4 |
+| "G"B,>C D2- D>C | B,D G4 | "D7"F>G A2- A>F | "G"G2 A2 B2 \
+| "C"c>d e2 c2 | "G"B>c d2 B2 | "D7"A>B c<A F>A | A2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/5605
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hambo4.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

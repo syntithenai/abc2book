@@ -1,0 +1,29 @@
+X:270
+T:Banister Hornpipe
+A:North-West
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f1.html
+%%ID:000004f1
+K:Bb
+dc|\
+BABF DEFD| EFGE C2ed| \
+cBcd egfB| A2f2 f2dc| \
+BABF DEFD| EFGE C2ed|
+cBcd egfA| B2b2 b2:: \
+dc|\
+Bg g2 Bgeg| egg2 egec|
+Aff2 Afcf| dff2 dfdB| \
+GBB2 edcB| Acf2 fedc| \
+Bdfd egfA| B2b2 b2:|
+S:https://www.folktunefinder.com/tunes/36133
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 208
+T: The Lough Carra Fisherman
+B: O'Neill's 208
+N: "Lively"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:A
+E \
+| E.A.A.A | .A.A.A.A | cded | dcBA \
+| GBBB | BBBB | efed | dcBA |
+| cAAA | AAAA | EAAB | cAAc \
+| dfff | aeee | dfed | cA A ||
+|| (c/d/) \
+| eaaa | aeee | fbbb | geeg \
+| agfe | fedc | dfed | cAcd |
+| eaaa | aeee | fbbb | geeg \
+| agfe | (f/g/a) ec | dfed | cA A ||
+S:https://www.folktunefinder.com/tunes/80486
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0208_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

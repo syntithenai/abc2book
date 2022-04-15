@@ -1,0 +1,26 @@
+X:84
+T: ES IST BESTIMMT IN GOTTES RATH
+N: F0191
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 4/4
+L: 1/8
+K: D
+A,2 | G,3F,F,2D2 | C3B,B,2
+B,2 | E,2F,2G,2B,2 | A,3G,F,2
+A,2 | E,3G,F,2
+F,2 | D2C2B,3A, | A,3^G,G,2
+D,2 | C2B,2A,3G, | ^G,3F,F,2
+A,2 | E,3G,F,2A,2 | E,6G,2 | F,6
+S:https://www.folktunefinder.com/tunes/69644
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

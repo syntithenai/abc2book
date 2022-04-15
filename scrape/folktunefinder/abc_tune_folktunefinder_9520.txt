@@ -1,0 +1,32 @@
+X: 4
+P: The Church of Dromore
+O: O'Neill's #270
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+G \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | BAB GED \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | "Am"BAA A2 :|
+|: d \
+| "C"gfg "G"edB | "Am"BAA A2d | "C"gfg edc | "G"BAB GED \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | "Am"BAA A2 :|
+S:https://www.folktunefinder.com/tunes/9520
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ02.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/EuansJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/HollinBuss1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/LambSkinnet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/PubCrawl.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/EuansJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2008DECDF/EuansJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/EuansJig
+S:http://trillian.mit.edu/~jc/music/abc/program/2008DECDF/EuansJig.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

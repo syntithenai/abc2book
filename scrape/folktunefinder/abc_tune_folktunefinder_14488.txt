@@ -1,0 +1,28 @@
+X: 1
+T: Knuds anden trekant
+C: Knud Laursen
+O: Denmark
+S: efter Jacob Dahl og AndersAndersen/Thorkild Knudsen
+R: jig
+B: "Foklemusikhus Spillebog"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"B2B G2G |    "D7"c2c     A2A |     f2f d2d | "G"b2b g2g \
+|     B2B G2G |    "D7"c2c     A2A |     a2a def | "G"g2g g3 :|
+|: "G"B2B d2d |    "D7"c2A     AFA |     c2c e2e | "G"d2B BGB \
+|     d2d g2g | {gf}"C"e2e {fg}a2a | "D7"f2f def | "G"g2g g3 :|
+S:https://www.folktunefinder.com/tunes/14488
+S:http://trillian.mit.edu/~jc/music/abc/jig/KnudsAndenTrekant_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/KnudsAndenTrekant_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/KnudsAndenTrekant_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KnudsAndenTrekant_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

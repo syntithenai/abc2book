@@ -1,0 +1,44 @@
+X: 1
+T: the Inverness Gathering
+T: Culloden Day
+R: march, strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: 3rd and 4th parts by J.S.Skinner
+B: BSFD VII-22
+M: C
+L: 1/16
+K: Amix=g
+e3c "A"\
+| "A"d3c B3c A3B c3A | "A"a4 e4 e4 (3d2e2f2 \
+| "G"g4 B3A G4 (3B2A2G2 | "G"g4 d4 d4 e3c |
+| "A"d3c B3c A3B c3A | "A"a4 e4 e4 a4 \
+| "G"g3e d3B G3B d3B | "A"e4 A4 A4 :|
+|: (3e2f2g2 "B"\
+| "A"a3e c3e a3e c3A | "A"a4 e4 e4 f4 \
+| "G"g3a g3f g3a g3e | "G"d3c B3A G3A B3d |
+| "A"cBA2 e2A2 cBA2 a3A | "A"a4 e4 e4 a4 \
+| "G"g3e d3B G3B d3B | "A"e4 A4 A4 :|
+|: e3c "C"\
+| "A"d3c B3c A3B c3A | "A"a3g a3f e3a A3a \
+| "G"g4 B3A G4 (3B2A2G2 | "G"g4 d4 d4 e3c |
+| "A"d3c B3c A3B c3A | "A"a3g a3f e3a A3a \
+| "G"g3e d3B G3B d3B | "A"e4 A4 A4 :|
+|: c3B "D"\
+| "A"AAA2 a4 ageg a4 | "A"AAA2 a3g e4 d3B \
+| "G"GGG2 g4 gfef g4 | "G"GGG2 g3e d4 B2G2 |
+| "A"AAA2 a4 ageg a4 | "A"AAA2 a3g e4 a4 \
+| "G"g3e d3B G3B d3B | "A"e4 A4 A4 :|
+S:https://www.folktunefinder.com/tunes/15485
+S:http://trillian.mit.edu/~jc/music/abc/march/InvernessGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/InvernessGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/InvernessGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/InvernessGathering_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/InvernessGathering_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/InvernessGathering_A.abc
+% Rhythm March, strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

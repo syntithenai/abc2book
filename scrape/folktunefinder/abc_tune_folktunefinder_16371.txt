@@ -1,0 +1,21 @@
+X: 1
+T: Jann-Mor Polska
+O: Boda
+R: Bodapolska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"A2 d2 f>e | "A7"c2 dg f>e | "D"d2 fa g>e | "A7"c2 A4 :|
+g- |: "G"b2 gd  g>b | "D"a2 fd f>a | "A7"g2 ec A>c | "D"d2 df a>a |
+| "G"b2 gd  g>b | "D"a2 fd f>a | "A7"g2 ec A>c | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16371
+S:http://trillian.mit.edu/~jc/music/abc/pols/JannMorPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/JannMorPolska.abc
+% Rhythm Bodapolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

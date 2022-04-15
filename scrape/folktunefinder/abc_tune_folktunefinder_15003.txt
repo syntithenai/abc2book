@@ -1,0 +1,35 @@
+X: 1
+T: the Royal Scottish Country Dance Society
+C: William Clement (Aug 1967)
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: email from Atsukoclement@aol.com 2009-1-29
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"f>ga     f>ed |  "G"B<GB     g3 | "A"A>ce e>cA |  A>ce "D"f3 \
+| "D"f>ga     f>ed |  "G"B<GB     g3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"f>ed     d>cB |  "G"B<GB     B3 | "A"A>cc c>BA |  A>ce "D"f3 \
+| "D"f>ed     d>cB |  "G"B<GB "Em"B3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"f>ga "Bm"d>cB | "Em"e>fg  "A"c3 | "A"A>ce e>cA |  A>ce "D"f3 \
+| "D"f>ga "Bm"d>cB | "Em"e>fg  "A"c3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"d>ed     d>cB |  "G"B<GB     B3 | "A"A>cc c>BA |  A>ce "D"f3 \
+| "D"d>ed     d>cB |  "G"B<GB "Em"B3 | "A"A>ce a>ec | "D"d3    d2 :|
+S:https://www.folktunefinder.com/tunes/15003
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoyalScottishCountryDanceSociety_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RoyalScottishCountryDanceSociety_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoyalScottishCountryDanceSociety_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/pipe/RoyalScottishCountryDanceSociety_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/RoyalScottishCountryDanceSociety_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

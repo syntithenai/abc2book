@@ -1,0 +1,32 @@
+X: 3298
+T:Frieze Britches
+T:Gallagher's Jig
+R:Jig
+S:Bruce's 250
+M:6/8
+L:1/8
+K:D
+FED EFG|AdB =cAG|A2A BAG|FAF GFE|!
+FED EFG|AdB =cAG|FAF GEA|DED D3:|!
+|:d2e fed|e2d cAG|A2A BAG|FAF GFE|!
+d2e fed|e2d cAG|FAF GEA|DED D3:|!
+|:DED =c3|AdB =cAG|AB^c d3|ded cAG|!
+DED ~=c3|AdB =cAG|FAF GEA|DED D3:|!
+|:d2e fdd|add fdd|c2d eAA|fAA eAA|!
+d2e fdd|add fdd|faf gec|1 edc d3:|2 edc d2g|!
+fed edc|ded cAG|A^GA BA=G|FAF GFE|!
+fed edc|ded cAG|FAF GEA|DED D2g|!
+fed edc|ded cAG|A^GA BA=G|FAF GFE|!
+fed efg|afd cAG|FAF GEA|DED D3||!
+S:https://www.folktunefinder.com/tunes/33211
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

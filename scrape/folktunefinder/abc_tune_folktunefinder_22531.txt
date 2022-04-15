@@ -1,0 +1,25 @@
+X:2080
+T:Freds Frolics
+O:england
+P:AAB
+S:EF
+M:6/8
+K:G
+P:A
+B/2A/2|"G"G2G GAB|"D7"A2A ABc|"G"d2B "D7/a"c2A|"G/b"B2G "C"AGE|
+"G"G2G "Em"GAB|"Am"A2A "D7"ABc|"G"dcB "D7"cBA|"G"G3 G2:|
+P:B
+d|"G"g2g gag|"D"f2f fgf|"C"e2d efg|"D7"a2g fed|"G"g2g gag|
+"D"f2f fgf|"Em"efg "D7/f"fga|"G"g3 "D7"g2d|"G"g2g gag|"D"f2f fgf|
+"C"e2d efg|"D7"a2g fed|"G"g3 "G7"Bcd|"C"e3 "Am"ABc|"D7"dcB AGF|"G"G3 G2||
+S:https://www.folktunefinder.com/tunes/22531
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

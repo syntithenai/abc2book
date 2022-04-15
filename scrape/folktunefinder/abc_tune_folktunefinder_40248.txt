@@ -1,0 +1,22 @@
+X:49
+T:Bon voyage Monsieur Dumollet
+O:France
+A:Provence 
+C:Trad.
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Fmajor
+f2c|:A2c cde|f3 fed|[1 cdc BAG|A2F f2c:|[2 cdc cde|f3 ||
+F2A ccc cdc|A2F ddd|dcd fed|c3 F2A|ccc cdc|A2F fed|cdc BAG|F3 f2c|]
+%%footer $D   Galouvielle-MBe 2005 \nFarandole France
+S:https://www.folktunefinder.com/tunes/40248
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

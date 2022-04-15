@@ -1,0 +1,20 @@
+X: 2
+T: The Concertina Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: D
+   FG | "D"A2FA BAFA |    (3ABA FA BAFA | "Em"B2cA    BAcA | "A7"BAcA    BAFA |
+   y4 | "D"A2FA BAFA | "D"(3ABA FA BAFE |     FABc "G"d3B  | "A7"AFEF "D"D2  :|
+|: zd | "D"Add2 Add2 |      Add2   BAFA | "Em"B2cA    BAcA | "A7"BAcA    BAFA |
+   y4 | "D"Add2 Add2 |      Add2   BAFE |     FABc "G"d3B  | "A7"AFEF "D"D2  :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6360
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

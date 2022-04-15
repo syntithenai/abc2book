@@ -1,0 +1,19 @@
+X: 1
+T: Vla\vsko Oro
+M: 4/4
+L: 1/8
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+W: Alternate playing slowly with drone and fast with chords.
+K: Am_B^c
+|: "A"ABcd eEdE | cEdE ~c2BA | ABcd eEdE | cEdE ~c3B |
+|     ABcd eEdE | cEdE ~c2BA | AEdE cEdE | "Gm"~c2BA "A"Az3 :|
+|: "A"AEdE cEdE | ~c2BA AEeE | AEdE cEdE | "Gm"~c2BA "A"Az3 :|
+|: "A"(GA)AE AEdE | ~c2BA AEeE | (GA)AE AEdE | "Gm"~c2BA "A"Az3 :|
+S:https://www.folktunefinder.com/tunes/6187
+S:http://trillian.mit.edu/~jc/music/abc/Intl/VlaskoOro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

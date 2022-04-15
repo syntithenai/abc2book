@@ -1,0 +1,47 @@
+X: 4
+T: Matt Molloy's Jig
+T: Coughlan's
+T: Charlie Mulvihill's Jig
+T: Burke's
+R: jig
+S: Lesl Harker <lmh:RCONS.COM> irtrad-l 2001-11-13
+S: Mike Rafferty
+H: Brendan Mulvihill found the manuscript in  a  certain  Charlie  Mulvihill's
+H: attic  (as  part  of  Charlie's  estate,  not  related, as Alan Ng recalls:
+H: "Brendan taught this tune at  the  1993  Milwaukee  summer  school,  and  I
+H: transcribed  it  for  the  occasion of the Great IRTRAD 1994 Milwaukee Tune
+H: Swap.  Only some of the ornaments that Brendan taught us are included."
+N: id:ng-jigs-4
+B: Bulmer & Sharpley, as "Burke's"
+Z: lesl for Mike's version
+M: 6/8
+K: D
+dAF AGF | dAF AGF | BEF GFE | BEF GFE |
+DFA DGB | Adc d2e | fed cBA | GFE d3 :||
+gfd faa | fdc def | ~e3 ~g3 | e2d cde |
+fdf geg | a2a bag | fed cBA | Gfe d3 :||
+%
+S:https://www.folktunefinder.com/tunes/13957
+S:http://trillian.mit.edu/~jc/music/abc/jig/Burkes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/CharlieMulvihillsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Coughlans_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MattMolloysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Burkes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/CharlieMulvihillsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Coughlans_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MattMolloysJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Burkes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CharlieMulvihillsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Coughlans_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MattMolloysJig_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

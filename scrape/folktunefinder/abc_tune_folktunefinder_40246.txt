@@ -1,0 +1,28 @@
+X: 47
+T:Estampie
+T:Trotto
+O:France
+R:Estampie
+C:XIVe sicle
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=126
+K:F
+G2G dGd | d2c BAB | GFG AGA | F3 G2A | BAG A2E | A3 z2z | G2G dGd | d2c BAB |
+GFG AGA | F3 G2A | c2d c2B | AGA FG2 !fine! || (c/2B/2A)B c2d | (c/2B/2A)B GFG | (B/2A/2G)A B2c | (c/2B/2A)B GFG |
+(c/2B/2A)B c2d | (c/2B/2A)B GFG | g2f e3 | (g/2f/2e)f d2G | dGd d3 | G2G dGd | d2c BAB | GFG AGA |
+F3 G2A | BAG A2E | A3z2z | G2G dGd | d2c BAB | GFG AGA | F3G2A | c2d c2B | AGA FG2 |
+(g2f/2e/2 d2e/2f/2 | g2f/2e/2 d3) | g2f e3 | (g/2f/2e)f d2G | dGd d3 !D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nFarandole France
+S:https://www.folktunefinder.com/tunes/40246
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Estampie
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

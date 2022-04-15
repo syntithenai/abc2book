@@ -1,0 +1,29 @@
+X: 1
+T: Mrs Maurice Cramb
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+|| "G"D>EG G>AB | G>BG A2B | G>AB A>BG | B<dG e2d \
+|  "G"d>eg B>AG | A>BG E2D | D>EC D>dB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2B/c/ \
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>cB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2D \
+| "C"E>CE G>FE | "G"D>BA G>FE | D>EC D>dB | "D7"A3 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/14709
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrsMauriceCrambJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/MrsMauriceCrambJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrsMauriceCrambJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

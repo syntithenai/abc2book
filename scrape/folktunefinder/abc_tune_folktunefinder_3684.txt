@@ -1,0 +1,31 @@
+X: 3
+T: Chestnut (Gm)
+T: Doves Figary
+O: Playford 1651
+B: Barnes "English Country Dance Tunes" p.19
+B: Playford v.2 1651
+M: C|
+L: 1/8
+%Q: 180
+H: The tune is reminiscent today of the first phrase of "God rest ye
+H: merry, gentlemen", and is a folk tune of widest distribution, the "tune
+H: of luck-visit songs, wassails, harvest suppers, may carols and their
+H: parodies, 'chestnut' having feminine symbolism.  The second title may
+H: be expalined by Deloney's ballad of 1600 on Dove's roguery with the
+H: women.  Although it is an awkward fit, repeating the last words of some
+H: lines might make it work.
+K: Gm
+|: "Gm"G2d2c2B2 | "D7"A3G ^F2D2 | "Gm"G2A2B2B2 | "Cm"c2Bc "D7"d4 :|
+|: "Bb"d2de f2ed | "F7"c2cd e2dc | "Bb"d2d2 "Gm"d2cB | "F7"c3e "Bb"B4 |
+|  "Bb"d2ed "Eb"edcB | "Cm"c2dc "D7"dcBA | "Gm"B2G2 "Cm"G2c2  | "D7"A3B "Gm"G4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3684
+S:http://trillian.mit.edu/~jc/music/abc/England/Chestnut.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

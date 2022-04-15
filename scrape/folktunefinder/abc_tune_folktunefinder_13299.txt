@@ -1,0 +1,27 @@
+X:1
+T:Peggy Bawn
+B:O'Neill's 207
+N:"Slow"
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:D
+A2 \
+| d2 (fd) (ec) | d>B AG FE | D2 FA Bc | d4 A2 |
+| d2 fd ec | d>B G2 FE | D>E FA Bc | d4 ||
+|| d>e \
+| f2 f2 ge | fd B2 c>d | eB gf ed | d2 c2 (AB/c/) |
+| d2 fd ec | d>B (AG FE) | HD2 FA Bc | Hd4 |]
+S:https://www.folktunefinder.com/tunes/13299
+S:http://trillian.mit.edu/~jc/music/abc/air/PeggyBawn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/PeggyBawn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/PeggyBawn_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: the Piper O' Dundee
+R: strathspey
+O:
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 4/4
+L: 1/8
+K: Am
+|: E2 \
+| "Am"A>B c>A E2 E>^F |  "G"G>A B>c d>B G>B \
+| "Am"A>B c>A E2 e>f  | "E7"e>d c>B A2 :|
+|| B2 \
+| "C"c2 c>e "G"d2 d>e | "C"c2 c>e "G"d>B G>B \
+| "C"c2 c>e "Dm"d2 d>f | "E7"e>d c>B "Am"A2 A>B |
+| "C"c>G c>e "G"d>G d>e | "C"c>G c>e "G"d>B G>B \
+| "C"c>G c>e "Dm"d2 d>f | "E7"e>d c>B "Am"A2 |]
+S:https://www.folktunefinder.com/tunes/19632
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PiperODundee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PiperODundee.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

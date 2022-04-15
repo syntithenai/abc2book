@@ -1,0 +1,28 @@
+X:699
+T: EIN SULTAN HATT EIN TOECHTERLEIN
+N: E2127A
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Glatz
+R: geistlich, Heiligen - Lied, Legende
+M: 3/4
+L: 1/8
+K: G
+D | GGG2A2 | cBB3
+c | Bdc2B2 | A2G2z
+D | GGG2A2 | cBB3
+c | Bdc2B2 | A2G2z
+d | ddB2d2 | dBc3
+c | BAG2A2 | D2G2z
+d | ddB2d2 | dBc3
+c | BAG2A2 | D2G2z
+S:https://www.folktunefinder.com/tunes/79803
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, heiligen - lied, legende
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

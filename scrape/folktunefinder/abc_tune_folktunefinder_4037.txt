@@ -1,0 +1,25 @@
+X: 4
+P: Fiddle Hill Jig
+C: Ralph Page
+M: 6/8
+K: G
+"D7"BA \
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D7"d3- dAB \
+|    c2d c2d | cAF  DFA | ded cdc  |  "G"B3- B2A |]
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D7"d3- dAB \
+|    c2d c2d | cAF  DFA | ded cBA  |  "G"G3- G |] [K:D]
+|: FG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c | "G"BA^G "A7"AFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed |[1 "A7"cBA ABc | "D"d3 z :|
+|[2 "A7"cBA gfe | "D"d6  |]
+S:https://www.folktunefinder.com/tunes/4037
+S:http://trillian.mit.edu/~jc/music/abc/England/Rapper1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

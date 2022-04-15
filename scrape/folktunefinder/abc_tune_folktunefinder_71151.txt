@@ -1,0 +1,25 @@
+X:121
+%%topmargin 3cm
+T:Sandy Macdonald's Favourite
+C:Arranged by K.N. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+B | Ad d/2d/2d A>GF>E | Dd d/2d/2d F>E E2 | A>d d/2d/2d A>G FD | [1 EC C/2C/2C D2 D:|
+[2 cB AB c/2c/2c d || g | fd d/2d/2d Ad d>g | fd d/2d/2d ee g2 | fd d/2d/2d Ad d2 | cB AB c/2c/2c d>d |
+fd d/2d/2d Ad d>f | fd d/2d/2d e2 eg | (3agf (3gfe (3fed (3edc | B<A Bc/2c/2 cdd |]
+S:https://www.folktunefinder.com/tunes/71151
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Sandy_Macdonalds_Favourite.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0121.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

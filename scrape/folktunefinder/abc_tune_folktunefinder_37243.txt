@@ -1,0 +1,23 @@
+X:5820
+T:the Song of the Chanter
+M:4/4
+O:Ireland
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000803.html
+%%ID:00000803
+K:A mixolydian
+A2A2 e2dB|A2A2 g2fg|a2e2 e2dB|g2fg edBd|\
+A2A2 e2dB|A2A2 g2fg|a2e2 ecdB|A4 A4::
+e2ef g2fg|edef g2fg|a2e2 e2dB|g2fg edBd|\
+A2A2 e2dB|A2A2 g2fg|a2e2 ecdB|A4 A4:|
+S:https://www.folktunefinder.com/tunes/37243
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

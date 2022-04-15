@@ -1,0 +1,50 @@
+X: 108
+T: Saulocker
+R: Zwiefacher
+P: (P4W2)
+M: 34/4
+L: 1/8
+K: Eb
+|: (3Bcd \
+| "Eb"{cd}e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG A2 | "Eb"c2 B=A B2 \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG AB |1 "Eb"G4 :|2 "Eb"G4 ||
+|: G2 \
+| "Bb7"G2 F=E F4 | "Eb"A2 G^F G4 | "Bb7" B2 AG AB | "Eb"c2 BA (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 |1 "Bb7"B2 AG AB | "Eb"G4 :|2 "Bb7"B2 =AB cd | "Eb"e4 |]
+%%sep 5 5 200
+K: Bb
+|: (3fga \
+| "Bb"{ga}b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed e2 | "Bb"g2 f=e f2 \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed ef |1 "Bb"d4 :|2 "Bb"d4 ||
+|: d2 \
+| "F7"d2 c=B c4 | "Bb"e2 d^c d4 | "F7" f2 ed ef | "Bb"g2 fe (3fga \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 |1 "F7"f2 ed ef | "Bb"d4 :|2 "F7"f2 =ef ga | "Bb"b4 |]
+%%sep 5 5 200
+P: Bb instruments:
+K: F
+|: (3cde \
+| "F"{de}f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA B2 | "F"d2 c=B c2 \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA Bc |1 "F"A4 :|2 "F"A4 ||
+|: A2 \
+| "C7"A2 G=F G4 | "F"B2 A^G A4 | "C7" c2 BA Bc | "F"d2 cB (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 |1 "C7"c2 BA Bc | "F"A4 :|2 "C7"c2 =Bc de | "F"f4 |]
+%%sep 5 5 200
+K: C
+|: (3gab \
+| "C"{ab}c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe f2 | "C"a2 g=f g2 \
+| "C"c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe fg |1 "C"e4 :|2 "C"e4 ||
+|: e2 \
+| "G7"e2 d=c d4 | "C"f2 e^d e4 | "G7" g2 fe fg | "C"a2 gf (3gab \
+| "C"c'2e2 e2e2 | c2e2 e2e2 |1 "G7"g2 fe fg | "C"e4 :|2 "G7"g2 =fg ab | "C"c'4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5155
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 34/4
+% Has_accompaniment_chords Has chords

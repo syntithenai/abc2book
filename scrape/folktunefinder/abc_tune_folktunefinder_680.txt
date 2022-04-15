@@ -1,0 +1,31 @@
+X:46
+T:3 Str\"omningar
+S:Andrea Hoag/Felicity Patterson
+R:Polska
+O:Sweden
+N:3 Herrings (and a piece of bread)
+M:3/4
+K:D
+A| \
+(3d2^F2G2 E>G | (3^F2D2^F2 A2- |\
+A2 d^c/d/ e>d | B^c dB ^c>A | \
+(3d2^F2G2 E>G | (3^F2D2^F2 A2- | \
+A2 d^c/d/ e>d | B<^G A4 ::\
+A2 d^c de | (3d2B2A2 B2- | \
+B2 GF/G/ A>G | E<F GE F>D | \
+A2 d^c de | (3d2B2A2 B2- |\
+B2 GF/G/ A>G | E<C D3 :|
+S:https://www.folktunefinder.com/tunes/680
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:3
+T: Als ich noch jung war und klein, S. 66
+N: S0066
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: Brautlied, Brutigam, Jugend]
+M: 3/4
+L: 1/16
+K: F
+A2G2 | F4A2F2c2d2 | c4z4
+B2A2 | G4c2B2A2GA | F4
+A2G2 | F4A2F2c2d2 | c4z4
+B2A2 | G4c2B2A2GA | F4z4
+B4A4G4z4 | c4=B4c4z4
+d4e2f2c4_B2A2 | G4c3cc2z6
+B4A2B2G4z4 | c4=B2d2c4z2
+c2 | f4e2d2c4A2B2 | c2B2A2G2F4
+S:https://www.folktunefinder.com/tunes/70133
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Brautlied, brutigam, jugend]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

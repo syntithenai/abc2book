@@ -1,0 +1,29 @@
+X: 1
+T: Beatrice Hill's Reel
+O: trad England
+B: Hardcore English p.28
+N: Originally in D
+N: Recorded in 1954 by Russell Wortley from the Forest of Dean melodion  player,
+N: and also turns up in Norfolk (Walter Geary), Shropshire (Dennis Crowther) and
+N: Australia (Charlie Bachelor).
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A2 | "D"B2AF DFAd | "G"c2BA    B2ed | "A7"cdef gece |1,3 edcB  AGFA :|2,4 e2dc "D"d2 :|
+|: a2 | "D"b2af dfa2 |    a2gf "G"g2ef | "A7"gfed cdef |1,3 g2fe "D"f2 :|2,4 e2dc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/16777
+S:http://trillian.mit.edu/~jc/music/abc/reel/BeatriceHillsR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BeatriceHillsR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/BeatriceHillsR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

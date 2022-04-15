@@ -1,0 +1,23 @@
+X:47
+T: N' MONTA HATS GREGNET
+N: E1043
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Laendler
+M: 3/4
+L: 1/8
+K: G
+D2 | DBB2AG | GFFE
+F2 | Fcc2BA | AGGF
+G2 | Gdd2cB | BAA^G
+A2 | Aed2de | B4
+S:https://www.folktunefinder.com/tunes/79151
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, laendler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

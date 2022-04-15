@@ -1,0 +1,25 @@
+X: 1
+T: Rantakoivun alla
+C: Sav. Onni Laihanen (1916-1956)
+C: San. M. Maja
+M: 3/4
+L: 1/4
+K: Cm
+%%staffsep 45
+G, \
+| "Cm"C2=B, | C2D | E2D | E2F | GB=A | "Fm"_A2B | "Cm"G3- | "C7"GGA |
+w: 1.~M\"a vie-l\"a muis-tan ran-ta-koi-vun vih-re-\"an kau-noi-sen.* Sii-t\"a
+w: 2.~Vain sul-le us-kon, ran-ta-koi-vu, su-ru-ni kai-puu-ni.* Et-h\"an
+| "Fm"FDE | "G7"F2G | "Cm"E3- | ECD | ECD | "Ab"E2F | "G7"D3- | DzG, |
+S:https://www.folktunefinder.com/tunes/9162
+S:http://trillian.mit.edu/~jc/music/abc/Scand/RantakoivunAlla.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/RantakoivunAlla_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/RantakoivunAlla_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

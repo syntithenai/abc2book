@@ -1,0 +1,47 @@
+X:782
+T:Xiraldilla (CT 124) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+G:Arrg.
+O:Uviu
+Z:Cancioneru de Torner 124
+M:2/4
+L:1/8
+Q:1/4=168
+K:G
+|"G"dd dB|"D"A2 AB|"Am"c2 BA|"G"G2 G2|
+"G"dd dB|"D"A2 AB|"Am"c2 BA|"G"G2 G2|"G"z2 dd|
+"G"g2 fg|"C"e2 c2|"Em"e2 gf|"G"d2 B2-|"G"B2 dd|
+"G"g2 fg|"C"e2 c2|"Em"e2 gf|"G"d2 B2|
+"G"dd dB|"D"A2 AB|"Am"c2 BA|"G"G2 G2|
+"G"dd dB|"D"A2 AB|"Am"c2 BA|"G"G2 G2-|"G"G2 z2||
+W:No le daba el sol,
+W:ni le daba la luna;
+W:no le daba el sol
+W:de la buena fortuna.
+W:
+W:De la buena fortuna
+W:traigo el sombrero,
+W:como la mi morena
+W:la cinta al pelo.
+W:
+W:No le daba el sol,
+W:ni le daba la luna;
+W:no le daba el sol
+W:de la buena fortuna.
+W:
+S:https://www.folktunefinder.com/tunes/59669
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

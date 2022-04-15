@@ -1,0 +1,19 @@
+X:80
+T:Oude steltendans
+O:Kempen (Vlaanderen)
+Z:Bert Van Vreckem, 2004-04-03 <http://flanders.blackmill.net/music/>
+C:Traditioneel
+M:C|
+L:1/4
+K:Ddor
+(A|"Dm"d)d "C"ec|"Dm"dd "Am"Ad|"F""C"cc "G"BG|"Am"A2 z(A|"F""C"c)c "G"GF|"Am"AA "Eb""C"Gc|"F""Am"AA "G"GG|"Am"A2 z(c|
+"Dm"d)e "F"fe|"Bb""Dm"dd "Am"Ad|"G"cG "F"FA|"Em""Am"A2z (A|"Dm"D)D "Am"AA|"G"BB Gd|"C"ec "G"Bc|"Dm"d2z2|]
+%%scale .75
+S:https://www.folktunefinder.com/tunes/75776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

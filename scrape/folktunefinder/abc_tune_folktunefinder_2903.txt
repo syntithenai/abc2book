@@ -1,0 +1,56 @@
+X: 1
+T: Sva Nok le, Nado
+C:
+O: Makedonija
+M: 4/4
+R: slow pravo
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L: 1/8
+K: F
+P: Instr.
+[| "C"[c3e] [df] [ce][Bd] [Bd][Ac] | "F"[Ac][G2B] [Ac] [GB][FA] [FA][FC] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[FA][GB] [FA][CG] [FA][GB] [Ac][Bd] |
+| "C"[dB][ce] [ce][df] [ce][Bd] [Bd][Ac] | "C7"[Ac][B2G] [Ac] "F"[GB][FA] [F2A] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[F8A] |]
+P: Vocal
+[| "F"([F3A] [GC]) [F2A] ([FA][GB]) | ([A3c] [GB]) ([GB][FA][F2A]) \
+| ([FA][GB]) [A2c] "C7"([GB][Ac]) ([GB][FA]) | "F"([F3A] [CG] [FA][GB] [A2c]) |
+w: 1.~Sva*  nok le,*  Na-*   do,  | sva*    nok ne*   spi-* jam,
+w: 2.~Iz*   le- zi*   Na-*   do,  | ba-*rem do* por-* ti
+w: 3.~Ne*   mo- \vzam* Gjor-* gji, | ne*     mo- \vzam* li-*  be.
+w: 4.~Maj-* ka  ti*   Na-*   do,  | ta*     i   tat-* ko*   ti,
+| "F"[F2A] ([FA][CG]) [F2A] ([FA][GB]) | ([A3c] [GB]) ([GB][FA] [F2A]) \
+| ([FA][GB]) [A2c] "C7"([GB][Ac]) ([GB][FA]) | "F"[F8A] |]
+w: Pred   por-* ti   ti*  sto-* jam, |    za*  da   te*  gle-* dam.
+w: da-**  ti    go*  vi-* dam   |    be-* lo-  to*  li-* ce.
+w: ne     mo-*  \vzam na*  por-* ti   |    da** iz-* le-* zam.
+w: bog-** ti    gi*  u-*  bil,  |    o-*  ganj is-* go-* rel.
+[| "C"[c4e] ([ce][Bd]) ([Bd][Ac]) | "F"([A3c] [GB]) ([GB][FA] [F2A]) \
+| ([FA][GB]) [A2c] "C7"([GB][Ac]) ([GB][FA]) | "F"([F3A] [CG] [FA][GB] [A2c]) |
+w: O-   \vci* mi*  sol-*  zat** | sr-*  ce    ta-* gu*   va,
+w: Be-  lo-* to*  li-*   ce,   | cr-*  ni-   te*  o-*   \vci,
+w: Por- ti*  mi*  Gjor-* gji,  | maj-* ka    za-* tvo-* ri
+w: Por- ti*  kje* tur-*  nem,  | pen-* d\vze- ri*  ur-*  nam-
+| "C"[c4e] ([ce][Bd]) ([Bd][Ac]) | "C7"([Ac][B2G]) [Ac] "F"([GB][FA]) [F2A] \
+| ([FA][GB]) [A2c] "C7"([GB][Ac]) ([GB][FA]) | "F"[F8A] |]
+w: za   na\vs-* ta,* Na-*   do, mo-* ri, | pus-* ta  raz-*  del-*          ba.
+w: i    ti-*   ja*  Na-*   do  mo-* ri, | gaj-* tan ve-*** gji.
+w: pen- d\vze-* ri*  Gjor-* gji mo-* re, | tat-* ko  so-*   dzi*           da.
+w: i    te-*   be*  Na-*   do, mo-* ri, | jas*  kje te*    ze-*           mam.
+S:https://www.folktunefinder.com/tunes/2903
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Pravo_SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Prav_SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Prav_SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Pravo_SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/SvaNokLeNado.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Pravo_SvaNokLeNado.abc
+% Rhythm Slow pravo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

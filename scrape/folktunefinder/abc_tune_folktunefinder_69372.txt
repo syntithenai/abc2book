@@ -1,0 +1,27 @@
+X:513
+T: "Abschied"
+N: Z1193
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Liebes - Lied, Abschieds - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G3AB2c2 | d4B2
+B2 | c2e2A2A2 | B2B2B2
+D2 | G3AB2c2 | d4B2
+B2 | c2c2A2A2 | B4z2
+d2 | c3cA2A2 | B2B2B2
+d2 | d3cA2A2 | B2B2B2
+D2 | G3AB2c2 | d4B2
+B2 | c2c2A2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/69372
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

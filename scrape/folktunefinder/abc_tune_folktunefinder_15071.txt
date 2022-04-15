@@ -1,0 +1,26 @@
+X: 1
+T: SMASH THE WINDOWS
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.80
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: D
+|: "D"DED F2A | "D"d2f "A"ecA | "A7"G2B  "D"F2A | "A7"E2F GFE \
+|  "D"DED F2A | "D"d2f "A"ecA |  "G"Bgf "A7"edc |  "D"d3- d2 :|
+|: f \
+|  "D"a2f f2d | "D"A2a    agf | "A7"g2e     e2c | "A7"A2g gfe \
+|  "D"f2d "A7"g2e | "D"a2g "G"g/a/bg | "D"f/g/af "A7"edc | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/15071
+S:http://trillian.mit.edu/~jc/music/abc/jig/SmashTheWindows_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SmashTheWindows_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/SmashTheWindows_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

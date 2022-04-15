@@ -1,0 +1,31 @@
+X: 1
+T: Uppland vals
+O: efter G\aas Anders
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+S: handwritten MS of unknown origin labelled "NEFFA '93 2,A-6"
+P: ABAB.CBCB.ABCB
+M: 3/4
+L: 1/8
+K: G
+"A"\
+|: [D2G,2] GG   G2  | (AG) =FE  D2 |  D2  BB  B2  | ~cB AB G2 \
+|  (Gc)   (ec) (ec) | (GE)  Gc (e2 | ~ed) d2 (gd) |1 d4    D2- :|2 d2 c2 d2 ||
+"B"
+|: (Gc) (ec) (ec) | (GE)  Gc Te2 |     (GB) (dB) (dB) | (GD) GB d2 \
+|  TA2   AA   AA  | (AB) (cd) ef |1 ({f}gd)  d2  (gd) |  d2 (c2 d2) :|2 (gd) (Bd) cA | G4 |]
+"C"\
+|: (Te2 \
+|   d2) (dg) dB | G4   (Te2  |   dB) (dg) dB | G4 g2 \
+|  (g2   b2) f2 | g2 (g2 d2) |1 (gd) (Bd) cA | G4 :|2 (gd) (Bd) gd | B2 A2 G2 |]
+S:https://www.folktunefinder.com/tunes/20267
+S:http://trillian.mit.edu/~jc/music/abc/waltz/UpplandVals_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/UpplandVals_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

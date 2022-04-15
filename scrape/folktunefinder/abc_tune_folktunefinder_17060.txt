@@ -1,0 +1,31 @@
+X: 1
+T: the Drunken Piper
+T: Highland Rory
+B: RSDS-13
+B: Scots Guards
+Z: John Chambers <jc:trillian.mit.edu>
+N: Can also be accompanied by A major chords without changing the melody.
+M: 4/4
+L: 1/8
+K: BDor
+|: "Bm"~B2Bc f3g | fece f2a2 | "A"~A2Ac e3f | ecAc "F7"e2f2 |
+|  "Bm"~B2Bc f3g | fece f2b2 | "A"~a2fa fafe | "Bm"c2B2 B4 :|
+f2 \
+[| "Bm"b4 f2b2 | fefg "(E)"a2b2 | "A"~A2Ac e3f | ecAc "F7"e2f2 |
+|  "Bm"b4 f2b2 | fefg "(E)"a2b2 | "A"a2fa fafe | "Bm"c2B2 B2f2 ||
+|| "Bm"b4 f2b2 | fefg "(E)"a2b2 | "A"~A2Ac e3f | ecAc "F7"e2f2 |
+|  "Bm"~B2Bc f3g | fece f2b2 | "A"~a2fa fafe | "Bm"c2B2 B4 |]
+S:https://www.folktunefinder.com/tunes/17060
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrunkenPiper_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/DrunkenPiper_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/DrunkenPiper_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/DrunkenPiper_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/DrunkenPiper_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/DrunkenPiper_Bm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

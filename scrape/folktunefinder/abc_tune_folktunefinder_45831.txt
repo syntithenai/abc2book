@@ -1,0 +1,36 @@
+X:19
+T:Est il conclud (Pavane)
+R:Pavane
+C:Claude Gervaise
+N:
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/4
+Q:1/4=120
+K:C
+V:1
+G2 GG | A/G/F/E/ D E | FE G3/2 F/ | E4 | G2 GG |\
+ A2 A G-|G/F/ D E2 | F4 :|
+|: A2 AA | G2 G E | FE G3/2 F/ | E4 |
+  AAA | G2 F E G3/2 F/ |
+|: E2 E E F3/2 E/ | D2 D E F3/2 E/ | D2 D C G3/2 F/ :| E2 E z6 |]
+V:2
+c2 cc | AA d G | A G/F/ G2 | G4 |c2 cc | A/G/A/B/ c3/2 _B/ | A _B A2 |\
+A4 :|
+|: c2 cc | c2 c G | A G/F/ G2 | G4 |
+ G ccc |
+V:3
+eee | f/e/d/c/ B c2 B | c2 c eee | f2 e d2 ^c |\
+d2 d fff | e2 d c2 B | c2 c fff e2 d c2 B |%/.../x
+S:https://www.folktunefinder.com/tunes/45831
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Rhythm Pavane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

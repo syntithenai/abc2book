@@ -1,0 +1,18 @@
+X: 1
+T:The Fiery Clock Fyece
+M:6/8
+L:1/16
+K:D
+d2|A4A2D4E2|F4G2A4B2|=c4c2E4F2|(G4A2)B4d2|A4A2D4E2|F4G2A4B2|B3cd2e4c2|d3
+d4||d2|f4f2d4f2|g4f2e4d2|c4c2A4B2|c4d2e4e2|f3ff2d4f2|g4f2e4d2|c3de2A4c2|
+d6d4||
+% Output from ABC2Win  Version 2.1 i on 3/5/2000
+S:https://www.folktunefinder.com/tunes/75461
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

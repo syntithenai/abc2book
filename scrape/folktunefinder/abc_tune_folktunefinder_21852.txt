@@ -1,0 +1,19 @@
+X:1403
+T:D/G Instruments
+O:england
+M:3/4
+L:1/4
+K:G major
+|:DG2|G/2B/2 G/D/2G|EAB-|B/2A/2 G/2F/2 E/2D/2|CED-|DB/2c/2B|AED|CEF|
+DG2|G/2B/2 G/2D/2G|EAB-|B/2A/2  G/2F/2 E/2D/2|CED-|DB/2c/2B|DEF|G3:|
+|:G>FG|AE2|ADC|EG/2A/2G|G>FG|GE2|A2D|1G2D:|2G3||
+% Output from ABC2Win  Version 2.1 f on 20/01/98
+S:https://www.folktunefinder.com/tunes/21852
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

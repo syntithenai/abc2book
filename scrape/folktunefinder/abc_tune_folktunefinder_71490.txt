@@ -1,0 +1,27 @@
+X:461
+%%topmargin 3cm
+T:Kenmore Lads
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+N:Country Dance
+M:6/8
+L:1/8
+K:G
+B/A/ | {/F}G>Bd gdB | {Bc}d2 d d2 B | {/F}GBd gdB | {cB}A2 A A2 B | {/F}G>Bd gdc | {/^c}def gfe | {/^c}d>cB c>BA | {/F}G2 G G2 ::
+b/a/ | {/f}g2 d edB | {/^c}d2 d (dba) | {/f}g2 d edB | {cB}A2 A (Aba) | {/f}g2 d edB | {/^c}def gfe | {/^c}dec BcA | {/F}G2 G G2 :|
+S:https://www.folktunefinder.com/tunes/71490
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Kenmore_Lads.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0461.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:155
+T: Marias Wiegenlied und das Resonet
+N: A0521B
+O: Europa, Mitteleuropa, Deutschland
+N: J. Walthers Gsgb. 1544 No. 40.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/4
+L: 1/4
+K: F
+ |  | c2AF2A | c2dc3
+c2AF2A | c2dc3
+B2BB2c | B2AG2
+A | c2AF2A | G2FG2A | F2EF3
+c3A3 | c3A3 | F2GA2B | A2GA3
+F2GA2B | A2GA2A | F2EF3
+c2cc2c | f2ed2
+c | f2ed2c | c2=Bc3
+F2GA2_B | c2BA2
+G | A2GF2E | F3-F3
+S:https://www.folktunefinder.com/tunes/80214
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

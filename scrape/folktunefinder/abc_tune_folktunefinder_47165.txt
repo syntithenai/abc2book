@@ -1,0 +1,20 @@
+X:15890
+T:St. Lawrence Jig
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+A|"D"ABA FAd|f2d A2d|"A"c2B G2B|"D"B2A F3|
+ABA FAd|"D"f2d A2d|"A"c2e ABc|"D"d3 -d2::
+f|"G"a2g B3|"D"g2f A3|"A"d2c cBc|"D"edB "D7"A3|"G"a2g B3|"D"g2f A3|"A7"d2c cBc\
+|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/47165
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

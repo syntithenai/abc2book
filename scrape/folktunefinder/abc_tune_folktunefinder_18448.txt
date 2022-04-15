@@ -1,0 +1,32 @@
+X:5
+T:Schottis (from Falu)
+R:schottis
+Z:2000 Brian Wilson
+M:4/4
+L:1/8
+K:D
+A2
+P:A
+|: "D"dcde fef^g | "D"abaf d2f2 | "A"efge cABc | "D"dAGF "A"E2 c2
+|  "D"dcde fef^g | "D"abaf d2a2 | "G"gab/a/g "D"fedf
+|[1 "A"edce "D"d2 A2 :|[2 "A"edce "D"d2 f2 |
+P:B
+|: "G"gagf "A"e2 a2- | "D"abag (3fef (3def
+| "G"ga (3bag "D"fe df | "E"e^gbg "A"a2 f2
+|  "G"gagf "A"e2 a2 | "D"d'2 ag (3fef (3def
+| "G"ga (3bag "D"fe df
+|[1 "A"edce "D"d2 f2 :|[2 "A"edce "D"d2 A2 |
+S:https://www.folktunefinder.com/tunes/18448
+S:http://trillian.mit.edu/~jc/music/abc/shottish/SchottisFromFalu.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/SchottisFromFalu.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

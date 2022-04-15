@@ -1,0 +1,34 @@
+X: 1
+T: Sellenger's Round
+T: the Beginning of the World
+O: England
+R: jig
+N: This tune has changed considerably since Playford's time.
+N: Playford, 3rd edition (1657)
+N: Karpeles & Schofield p.17 (in C), p.50 (in D)
+N: Barnes (in C)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: Play 5 times.
+K: C
+z \
+| "G7"G3 G>AB | "C"c3 c>de | "F"d2c "G7"B>AB | "C"c3- c>BA \
+| "G7"G3 G>AB | "C"c3 c>de | "F"d2c "G7"B>AB | "C"c3- c3 ||
+|: d \
+| "C(Am)"e3 e>dc | "G(Dm)"d3- d2c | "G"B>cd d>cB | "F"A3 "G7"d2B \
+| "F"c>dc "G7"B2G | "F"A>Bc "G7"B2G | "Am"A2G "D7"^F>EF | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/15050
+S:http://trillian.mit.edu/~jc/music/abc/jig/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SellengersRound_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SellengersRound_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SellengersRound.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

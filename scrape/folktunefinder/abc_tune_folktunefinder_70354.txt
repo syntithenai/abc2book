@@ -1,0 +1,25 @@
+X:224
+T: Schfer und Edelmann (7d), S. 47
+N: T0112
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: STRASSEN; BONNEWEG; gesungen von Kindern beim Spiele
+R: "erzhlende Lieder"]
+M: 2/4
+L: 1/8
+K: C
+G2 | c2c2 | B2AA | A2GG | G2
+AA | G2EE | E2AA | G2EE | E2
+G2 | c2cc | d2d2 | e2ee | c2
+cc | d2dd | B2BB | c2
+S:https://www.folktunefinder.com/tunes/70354
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

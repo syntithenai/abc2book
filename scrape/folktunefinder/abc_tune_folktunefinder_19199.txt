@@ -1,0 +1,32 @@
+X: 1
+T: Belladrum House
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+C: J.S.Skinner
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems tape
+N: Belladrum House is near Kiltarlity, Inverness.
+B: First printed in Captain Simon Fraser's "Airs and Melodies peculiar the the Highlands of Scotland and the Isles" (1816)
+M: 4/4
+R: strathspey
+L: 1/8
+K: D
+A, \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | A-<F FE/D/ "A7"E2- E>F \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | "A7"A-<F F>E "D"D3 :|
+f \
+| "A"e>A f>A g>A f>A | e>A g>f e2- e>f \
+| e>A f>A g>A f>A | (3fga (3gfe "D"d>A F>A |
+| "D"d>f A-<f d>f A-<f | d>f A-<f "A7"e2- e>g \
+| "D"(3fga (3gfe "Bm"(3dcB (3AGF | "G"G>B "A7"A-<F "D"D3 |]
+S:https://www.folktunefinder.com/tunes/19199
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BelladrumHouseS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/BelladrumHouseS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BelladrumHouseS_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

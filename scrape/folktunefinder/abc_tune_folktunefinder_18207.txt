@@ -1,0 +1,26 @@
+X:1
+T: the Ten Pound Fiddle
+M:C
+L:1/8
+%Q:240
+C:J. S. Skinner
+Z:Warren Armstrong <warrenarmstrong@eaton.com>
+R:Reel
+A:Scotland
+B:The Fiddle Music of Scotland", James Hunter, ISBN 946868 04 2,
+K:A
+E | A2 (ED) CEAf | eAfA GBBG | {G}A2 (EC) DFBA | GBeg aAAE |
+| A/A/A (ED) CEAf | eAaA GBBG | A/A/A (EC) DFBA | GBeg aA A ||
+g | a/a/a (ea)caAg | aeca fBBg | a/a/a (ec)f/f/f (dB) | GBeg aAA(a |
+| ga)ea caAa | caAa fBBc | {G}A2 (EC) DFBA | GBeg aA A ||
+S:https://www.folktunefinder.com/tunes/18207
+S:http://trillian.mit.edu/~jc/music/abc/reel/TenPoundFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/TenPoundFiddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TenPoundFiddleR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

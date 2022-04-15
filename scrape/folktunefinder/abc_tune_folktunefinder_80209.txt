@@ -1,0 +1,27 @@
+X:150
+T: Himmelsrose
+N: A0516
+O: Europa, Mitteleuropa, Deutschland
+N: Speiersches Gsgb. 1617 fol. 31.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: D
+A2 | _B2G2B2=c2 | d2d=cd2
+A2 | G2d2=c2_B2 | A4z2
+d2 | d2dd=c2d2 | =c2_BAG2
+cc | A2=F2G2FE | D4z2
+_B2 | AG=FED2=C2 | =F2G2A2FE | D6
+S:https://www.folktunefinder.com/tunes/80209
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

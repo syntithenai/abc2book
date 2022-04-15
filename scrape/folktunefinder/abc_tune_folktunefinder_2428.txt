@@ -1,0 +1,21 @@
+X: 1
+T: TEST: Keysig: D minor, freygish
+K: Dm
+[| DEFG ABcd | cBAG FECD |]
+K: D^f_B_e
+[| DEFG ABcd | cBAG FECD |]
+S:https://www.folktunefinder.com/tunes/2428
+S:http://trillian.mit.edu/~jc/music/abc/test/K_D_MinFrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_D_MinFrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_D_MinFrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_D_MinFrey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

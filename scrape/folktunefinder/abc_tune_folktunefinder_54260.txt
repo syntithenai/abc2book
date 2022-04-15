@@ -1,0 +1,24 @@
+X: 277
+T: Preumblata de Femie
+O: Romania
+M: 4/4
+L: 1/8
+Q: 1/4=132
+K: G
+%%MIDI program 48
+|:G2 A2 A2 A2|B4 A2GF  |E3D A3G    |G6 (3DEF|\
+  G2 A2 A2 A2|B4 A4    |GF E6-     |E8      :|
+%%MIDI program 75
+|:G3 A B2 c2 |dcBA B4  | G3 A B2 c2|dcBA B4 |\
+  G2 AA3 G2  |B2-B3 ABA|G8-        |G8      :|
+S:https://www.folktunefinder.com/tunes/54260
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

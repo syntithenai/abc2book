@@ -1,0 +1,23 @@
+X:76
+T: Schenkenbachs Reuterlied
+N: A0426B
+O: Europa, Mitteleuropa, Deutschland
+N: Schmeltzel 1544 Quodl. 20.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/2
+L: 1/2
+K: F
+F | FFcc | d2c2
+f2 | ccBAG2 | F2z
+f | f2ffff | e2c2z
+c | A2AB2B | c2z
+S:https://www.folktunefinder.com/tunes/80135
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

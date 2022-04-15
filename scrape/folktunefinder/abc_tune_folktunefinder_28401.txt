@@ -1,0 +1,35 @@
+X:7949
+T:Waltz. CJF.227
+O:england
+M:3/4
+L:1/8
+Q:160
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:On the stave, at the end of the tune is "Charles James Fox 1832". The
+N:tune does not scan because of the lead notes to 2nd, 3rd & 4th
+N:sections. I have added the f# at mark 1. - PJH.
+K:C
+G2G2G2|G2G2G2|G3AG2|c2z2G2|G3AG2|d2z2G2|G3AG2|\
+e4e2|(d4c2)|B4G2|G3AG2|c2e2G2|G3AG2|
+(d2f2)G2|c3de2|f3ga2|"1"^fg_a=a_b=b|c'6:||:\
+"f"(eg)|c'2(eg)c'2|(c'bd'b)g2|d'2(gb)d'2|(d'c'e'c')g2|c'2(eg)c'2|
+(c'bd'b)g2|^fg=fedB|c6:||:"p"ed|(cE).G.ce2|(eG).c.eg2|\
+(^fgag=fe)|ed^cded|(cE).G.ce2|
+(eG).c.eg2|^fgagfd|c6:||:"P"g2|^fgag=fd|(^fgagec)|\
+"for"(GfedcB)|cdecGE|"p"^fgag=fd|
+(^fgagec)|G(fedc)B|c6:||
+S:https://www.folktunefinder.com/tunes/28401
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

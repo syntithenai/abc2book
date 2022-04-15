@@ -1,0 +1,27 @@
+X: 38
+T: Havre
+O: 
+R: reel
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+N: handwritten MS from Paul Milde
+M: C|
+L: 1/8
+K: D
+e2 \
+| fgfe d2ef | gagf e3f | a2a2 a2fg | abag f2d2 \
+| fgfe d2ef | gagf e3f | a2a2 a2cd | eddc d2 :|
+|: (3BAG \
+| F2A2 A2AG | F2B2B4 | Acec AceA | d2fe dcBA \
+| F2A2 A2AG | F2B2B4 | Acec AceA | d2 d4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7641
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

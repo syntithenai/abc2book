@@ -1,0 +1,25 @@
+X:9677
+T:Little Burnt Potato, The
+M:6/8
+L:1/8
+C:Collin Boyd
+R:Jig
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:D
+(3(f/2g/2^g/2)|:"D"a^ga ba^g|afd A2 d/2e/2|fdf g2f|\
+"Em"e3 B2 c/2d/2|"A7"e2f e2d|!
+cAc a2a|1a^ga ba=g|"D"f3-f2 (3(f/2g/2^g/2):|2a^ga bac|"D"d3 a2g||!
+|:"D"f2A f2A|f3 f2e|def agf|"Em"g3 g2 e/2f/2|"A7"gba gfe|!
+dcB A3|1a^ga bag|"D"f3 a2g:|2a^ga bac|"D"d3-d2|]
+S:https://www.folktunefinder.com/tunes/61710
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

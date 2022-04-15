@@ -1,0 +1,32 @@
+X:230
+T:Juliet's Mazurka
+A:Lancaster
+C:Andy Hornby
+M:3/4
+N:Jan 95
+O:England
+R:Mazurka
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000776.html
+%%ID:00000776
+K:D
+AG|\
+FG AF Dd|cd ec Ag|fe fg af|e4 AG|\
+FG AF Dd|cd ec Aa|fe fg ec|d4:|
+|:fa|\
+ga bg eg|fg af df|ef gf ed|c4 A2|\
+Bc dB GB|AG FG AF|GF Ee ce|d4:|
+S:https://www.folktunefinder.com/tunes/43911
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

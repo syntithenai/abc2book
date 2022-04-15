@@ -1,0 +1,29 @@
+X: 1
+T: the Scholar
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+|: "D"dfaf "A7"gfeg | "D"fdAG FGA=c | "G"BG~G2 "Em"EFGg | "A7"fdec dcBA |
+|  "D"dfaf "A7"gfeg | "D"fdAG FGA=c | "G"BG~G2 "Em"EFGg | "A7"fdec "D"d4 :|
+efg |: "D"a2af dfaf | cfaf bagf | "C"~g2ge =cege | Bege "A7"agfg |
+|  "D"a2af dfaf | cfaf bagf | "G"gfef gbag | "A7"fgef "D"d4 :|
+S:https://www.folktunefinder.com/tunes/18081
+S:http://trillian.mit.edu/~jc/music/abc/reel/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/Scholar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Scholar.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

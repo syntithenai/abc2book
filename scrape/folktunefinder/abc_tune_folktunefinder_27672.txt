@@ -1,0 +1,21 @@
+X:7220
+T:the Polygon
+O:england
+M:6/8
+L:1/8
+K:D
+(f/g/)|afd ecA|dBG {G}F2E|DFA Bgf|efd {d}c2
+(f/g/)|afd ecA|dBG    F2E|DFA Bgd|edc    d2::
+Ace gec|Adf    afd|Ace gec|Bed    c3 |\
+Ace gec|Adf    afd|AcA Bgf|edc    d3:|
+S:https://www.folktunefinder.com/tunes/27672
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

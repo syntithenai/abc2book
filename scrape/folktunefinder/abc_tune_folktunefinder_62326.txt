@@ -1,0 +1,26 @@
+X:303
+T: AUFERSTEHN JA AUFERSTEHN
+N: B0779
+O: Europa, Mitteleuropa, Deutschland
+R: Trost - Lied, Tod, Auferstehung, religioes
+M: 3/4
+L: 1/16
+K: C
+ | G,4C4A,4 | G,4B,4C4 | D3FE4D4 | C4B,4
+C4 | A,4G,4C4 | A,4G,4F,4 | E,8z4
+E,4C4B,2A,2 | G,4^F,4G,4
+G,4A,4B,4 | C3B,D4C4 | C4B,4z2
+C2 | D4C4B,4 | C3DE4z2
+C2 | D4C4B,4 | C8z4
+S:https://www.folktunefinder.com/tunes/62326
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Trost - lied, tod, auferstehung, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

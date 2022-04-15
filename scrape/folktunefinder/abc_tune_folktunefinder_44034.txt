@@ -1,0 +1,34 @@
+X: 40
+T:Jinglin Johnnie
+% Nottingham Music Database
+S:Athole p 144, via EF
+M:4/4
+L:1/4
+K:A
+E|:"A"AA/2c/2 "E7"BB/2c/2|"A"AA/2c/2 "E7"BB/2c/2|"A"Aa/2g/2 "D"f/2e/2d/2c/2|\
+"E7"B/2c/2d/2e/2 "A"cA|
+"A"AA/2c/2 "E7"BB/2c/2|"A"AA/2c/2 "E7"BB/2c/2|"A"Aa/2g/2 "D"f/2e/2d/2c/2|\
+"E7"B/2c/2d/2e/2 "A"cA|
+"A"ee/2f/2 e/2d/2c/2d/2|"A"ea ec/2d/2|"A"ee/2f/2 e/2d/2c/2d/2|\
+"A"ea/2g/2 f/2e/2d/2c/2|
+"D"dd/2e/2 "A"cc/2d/2|"Bm"BB/2c/2 "E7"e/2d/2c/2B/2|"A"Aa/2g/2 "D"f/2e/2d/2c/2|\
+"E7"B/2c/2d/2e/2 "A"cA:|
+P:Variation
+"A"A/2E/2A/2c/2 "E7"B/2E/2G/2B/2|"A"A/2E/2A/2c/2 "E7"B/2E/2G/2B/2|\
+"A"Aa/2g/2 "D"f/2e/2d/2c/2|"E7"Bg/2f/2 e/2d/2c/2B/2|
+"A"A/2E/2A/2c/2 "E7"B/2E/2G/2B/2|"A"A/2E/2A/2c/2 "E7"B/2E/2G/2B/2|\
+"A"Aa/2g/2 "D"f/2e/2d/2c/2|"E7"B/2A/2G/2B/2 A/2B/2c/2d/2|
+"A"e/2^d/2e/2f/2 e/2c/2a/2c/2|"A"ea/2f/2 e/2c/2A/2c/2|\
+"A"e/2^d/2e/2f/2 e/2c/2a/2c/2|"A"ea/2g/2 f/2e/2d/2c/2|
+"D"db/2d/2 "A"ca/2c/2|"Bm"BB/2c/2 "E7"dc/2B/2|"A"Aa/2g/2 "D"f/2e/2d/2c/2|\
+"E7"B/2c/2d/2e/2 "A"cA||
+S:https://www.folktunefinder.com/tunes/44034
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

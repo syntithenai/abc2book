@@ -1,0 +1,25 @@
+X:211
+T: My Johnny Dear
+B: O'Neill's 211
+N: "Moderate"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:D
+"mf"(D/E/) \
+| FF F(E/D/) | A>F AB | AA .A(F/D/) | E3 (D/E/) |
+| FF .F(E/D/) | (A>F) "p"(AB) | (A/F/)(E/>F/) D"pp"D | D3 ||
+|| A/B//c// \
+| (d>e) dc | (B>A) Bc | BA .A(F/D/) | E3 (D/E/) |
+| FF .F(E/D/) | (A>F) "p"(AB) | (A/F/)(E/>F/) D"pp"D | D3 ||
+S:https://www.folktunefinder.com/tunes/73370
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

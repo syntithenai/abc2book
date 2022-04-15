@@ -1,0 +1,30 @@
+X:7462
+T:The Wheatley Processional
+O:england
+M:4/4
+C:
+S:Bacon (MDT)
+N:
+A:Wheatley
+R:Reel
+%P:A.(AB)$^{\infty}$
+P:A.(AB)8
+K:G
+I:speed 400
+P:A
+e2  | d2 B2 A3 E | E2 E2 D3 D | G2 B2 A2 G2 | A4 e4 |\
+d2 B2 A3 G | A2 E2 D3 D | G2 B2 A2 G2 | d4 G2 ||\
+P:B
+z B | B2 d2 g3 e | d2 B2 A3 G | B2 d2 g3 d  | e4 g3 \
+e | d2 B2 A3 E | E2 E2 D3 D | G2 B2 A2 G2 | d4 G2 ||
+S:https://www.folktunefinder.com/tunes/27914
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:21
+T:Rodney's Glory
+R:hornpipe
+M:4/4
+L:1/8
+K:Ador
+ed | c2 Bc ABcA | BGEF G2 cd | e=fed cde^f | gfge d=fed |
+c2 Bc ABcA | BGEF G2 ed | c2 BA GABG | A2 AG A2 :|
+|: cd | eaab aged | e=fed c2 A2 | g2 fg agec | dcAF G2 E2 |
+AGAB cBcd | edeg a2 ab | aged cdef | gfge d=fed |
+c2 Bc ABcA | BGEF G2 ed | c2 BA GABG | A2 AG A2 :|
+W:Variation from slainte
+K: Ador
+|:ed|cdBc AB (3cBA|BGEF G2 (3Bcd|eged cdef|g2ge dged|
+c2cB AB (3cBA|BGEF G3B|c2BA GA (3BAG|A2AG A2:|
+|:(3Bcd|eaag a2ab|aged cA~A2|g2 (3efg agec|dcAF G2(3EFG|
+AGAB c2cd|ed (3efg a2ab|aged cdef|g2ge dged|
+cdBc AB (3cBA|BGEF G3B|c2BA GA (3BAG|A2AG A2:|
+S:https://www.folktunefinder.com/tunes/40431
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

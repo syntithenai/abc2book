@@ -1,0 +1,26 @@
+X:216
+T: Dessous ces rosiers blancs (3), S. 34
+N: T0104
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: ESCH/ALZETTE; gesungen von Frau Jules Meder 1922
+R: "erzhlende Lieder"]
+M: 3/4
+L: 1/8
+K: D
+DDD | DFA3A | BA^GAFE | D2z
+DDD | DFA3A | BA^GAFE | D2z2
+AG | F3Add | c2z2
+GF | E3EBB | AAz2
+FE | DFAFEE | d2AFGE | D2z
+S:https://www.folktunefinder.com/tunes/70346
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

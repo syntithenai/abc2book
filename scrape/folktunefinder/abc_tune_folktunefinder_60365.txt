@@ -1,0 +1,33 @@
+X:4176
+T:Dinky Dorrian's
+T:Dinky's
+A:Ireland 
+C:Francie Dearg Byrne
+R:reel
+D:Altan: Horse with a Heart.
+D:De Dannan: .
+Z:Played both in Dmix and Amix. .
+Z:id:hn-reel-97
+M:C|
+K:Amix
+P:Irish (Donegal) version
+ed|:cdBc ABcd|egfd edBd|gB~B2 gBaB|gB~B2 gfed|
+cdBc ABcd|egfd edBd|g2ge f2ed|1 cdBc A2ed:|2 cdBc A2eg||
+|:aA~A2 aAbA|aA~A2 agef|gB~B2 gBaB|gB~B2 gefg|
+[1 aA~A2 aAbA|aA~A2 agef|g2ge f2ed|cdBc A2eg:|
+[2 a2af g2ge|f2fd edef|g2ge f2ed|cdBc A2||
+P:Cape Breton version
+ed|:c2Bc ABcd|egfd edBd|gB B/B/B gBaB|gB B/B/B {a}gfed|
+c2Bc ABcd|egfd edBd|gfge dfed|1 cdBc Afed:|2 cdBc A2||
+(3ef^g |aA A/A/A aAbA|aA A/A/A {b}agef|gB B/B/B gBaB|gB B/B/B gfeg|
+[1 aA A/A/A aAbA|aA A/A/A {b}agef|gfge dfed|cdBc A2 :|
+[2 aA A/A/A gA A/A/A | fA A/A/A eA A/A/A | gfge dfed | cdBc A2 ||
+S:https://www.folktunefinder.com/tunes/60365
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

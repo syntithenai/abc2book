@@ -1,0 +1,27 @@
+X:36
+T: ES ZIEHN NACH FERNEN LANDEN
+N: B0523
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 6/8
+L: 1/8
+K: C
+E, | E,2G,G,2C | C3B,2
+B, | A,2A,G,2F, | E,3-E,2
+E, | E,2G,G,2C | C3B,2
+A, | G,2B,B,2A, | G,4z
+G, | A,2A,A,2A, | A,3D2
+D | B,2B,CB,C | G,3-G,2
+D | E2EC2C | F3E2
+D | C2CB,A,B, | C4z
+S:https://www.folktunefinder.com/tunes/62059
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,68 @@
+X: 1
+T: Boiereasca
+O: Romanian klezmer
+S: Dick Crum, Ron Wixman
+M: 2/4
+L: 1/16
+K: A^f=c^d
+|: E2 \
+| "Am"A3B c2e2 \
+| d2c2 e4 \
+| defg agfe \
+| fedc dcBA \
+| defg agfe |
+| d3c dcBA \
+| deae agfe \
+| d2e2 z2E2 \
+|| "Am"A3B c2e \
+| d2c2 e4 \
+| defg agfe |
+| fedc dcBA \
+| A^GAE cBcA \
+| edec g4 \
+"\=>Coda"\
+| "B7"fedc "E7"dcBA \
+| BcA2 z2 :|
+|: e2 \
+| "Am"a3e agfe \
+| aeae agfe \
+| c'bag fedc \
+| d3c dcBA \
+| BcAc dece \
+| gfed "E7"e4 ||
+|| "Am"a3e agfe \
+| aeae agfe \
+| c'bag fedc \
+| B2c2- c2ce \
+| "B7"d3c "E7"cBBA \
+| "Am"A4 z2 :|
+K:Amix=g
+|: e2 \
+| "A"c8- \
+| c8 \
+| {^d}e8- \
+| e8 \
+| cdef gfed \
+| dccB BAe2 \
+| ^deee eeee |
+| agfe ^d2e2 \
+| ^defg agfe \
+| =c'bag fedc \
+| "B7"^defe "E7"=d3c \
+| "A"^BcA2 z2 :|
+"Coda"\
+[| "E7"ze^de =f^f=g^g \
+| "A"a2z2 "E7"e2z2 "Am"HA4 |] \
+S:https://www.folktunefinder.com/tunes/5336
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Boiereasca_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Boiereasca_8.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,52 @@
+X:17631
+T:Tonada (CT 117)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+N:Segn la dictadora, era corriente en Asturies esta cancin hace unos cuarenta aos, y se cantaba, generalmente, en las romeras, con acompaamiento de gaita.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 117
+M:Llibre
+L:1/8
+Q:1/4=44
+W:Dieron les cuatro la tarde, (bis)
+W:subiendo por La Ribera. (bis)
+W:
+W:y les cinco en Castandiellu
+W:y les seis en La Piera
+W:Dieron les siete en La Vara
+W:y en Caballos dio la media.
+W:
+W:De noche cruc L'Aramu
+W:por ver a la mi morena,
+W:que vive en l'alto del puertu
+W:entre la nieve y la niebla.
+K:C
+(d4{_edc})(3d2_e2f2 g4 (f3/2(3g/4f/4_e/4 d3/2_e/4d/4) 
+(3cz_e2f2 (g4 fg/4f/4_e/4d/4) (_ef/4e/4d/4c/4 d) d-d2 z2
+(d4{_edc})(3d2_e2f2 g4 (f3/2(3g/4f/4_e/4 d3/2_e/4d/4) 
+(3cz_e2f2 (g4 f3/2(3g/4f/4_e/4 d_e/4d/4c/4B/4 cd/4c/4B/4A/4 Bc/4B/4A/4G/4 A) A-A2 
+zA (d2 c3/2d/4c/4 A) dd c (B3/2(3c/4B/4A/4 G) G-G8 z4 :||
+(c3/2(3B/4c/4B/4 A>G) A2-A Adc (B3/2(3c/4B/4A/4 G) G-G4 
+(c3/2(3B/4c/4B/4 A>G) A2-A Adc (B3/2(3c/4B/4A/4 G) G-G4 
+zd (g4 ^f3/2(3g/4f/4=e/4 d3/2=e/4d/4) cz (3c2_e2=f2) (g4 fg/4f/4_e/4d/4 _ef/4e/4d/4c/4 d) d-d2 z2
+=e3 d (c3/2(3d/4c/4B/4) A2-A Adc (B3/2(3c/4B/4A/4 G) G-G2 zd (g4 ^f3/2(3g/4f/4=e/4 d3/2=e/4d/4) cz
+(3c2_e2=f2 (g4 f3/2(3g/4f/4_e/4 d_e/4d/4c/4B/4 cd/4c/4B/4A/4 Bc/4B/4A/4G/4 A) A-A2 
+zA d2 (c3/2d/4c/4 A) ddc (B3/2(3c/4B/4A/4 G) G-G8 ||
+S:https://www.folktunefinder.com/tunes/39002
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

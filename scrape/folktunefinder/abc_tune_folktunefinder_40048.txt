@@ -1,0 +1,32 @@
+X:35
+T:The Addison Tree
+R:jig
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:currently unpublished in book form
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:300
+M:6/8
+K:D
+add fed|cec B2 A|add fed|gab a2 b|
+add fed|cec B2 A|adf edc|[1d3  d2 f:|[2d2 A dcB||
+|:Aaa Aba|fed BGB|Aaa Aba|fed edB|
+Aaa Aba|fed BGB|Aaf edc|[1d2 A dcB:|[2  d2 A dfb|]
+S:https://www.folktunefinder.com/tunes/40048
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

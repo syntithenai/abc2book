@@ -1,0 +1,39 @@
+X: 1
+T: Kandel's hora
+R: horra
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+P: Play ABCB
+K: DPhr^F
+"A"\
+|: "D"D3F AG | TF3E "Cm"DC | "D"D4 D2 | D6 \
+| "Cm"E2D2C2 | "G7"=B,3C DE | "Cm"C6- | C6 |
+| "D"D3F AG | TF3E "Cm"DC | "D"D4 D2 | {D}A6 \
+| "D"TA3G FE | TF3E "Cm"DC | "D"D6- | D4 D2 :|
+"B"\
+|: "Gm"G2G2G2 | G4 F2 | "D"TA3G FE | D4 D2 \
+| "Cm"G2F2E2 | "D"D3E FG | F6- | F4 D2 |
+| "Gm"G2G2G2 | G3A B=B | "Cm"c3_B AG | "D"F4 F2 \
+| "Cm"G2C2 DE | F2G2 FE | "D"D6- | D4 "^fine"D2 :|
+|| "Gm"G6- | G4 AB | G6- | G4 AB \
+| G4 AB | G4 AB | G6- | G4 D2 ||
+"C"\
+|: "Gm"G2A2B2 | B4 B2 | B6- | B4 B2 \
+| "Gm"TB3A/B/ AG | TB3A/B/ AG | "Cm"c3B AG | "D"A4 G2 |
+| "D"F2G2A2 | A3d Ad | A6- | A4 D2 \
+| "Gm"B3A AG | "D"F3G AB | "Gm"G6- | G4 "_to B"D2 :|
+S:https://www.folktunefinder.com/tunes/7131
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/KandelsHora.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/KandelsHora_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/horra/KandelsHora_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/KandelsHora_D.abc
+% Rhythm Horra
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

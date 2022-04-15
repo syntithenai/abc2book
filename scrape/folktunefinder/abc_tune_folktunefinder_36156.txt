@@ -1,0 +1,25 @@
+X:385
+T:the Blarney Pilgrim
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007be.html
+%%ID:000007be
+K:D mixolydian
+D3  DEG | A3  ABc | BAG AGE | GEA GED |\
+D2D DEG | A2G ABc | BAG AGE | GED D3 ::
+d2d dBG | AGA BGE | d2d dBG | AGA GBd | \
+g2e dBG | AGA BGE | B2G AGE | DED D3 ::
+ADD BDD | ADD ABc | BAG AGE | GEA GED |\
+ADD BDD | ADD ABc | BAG AGE | GED D3:|
+S:https://www.folktunefinder.com/tunes/36156
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

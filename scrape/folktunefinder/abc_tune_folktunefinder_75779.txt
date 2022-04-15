@@ -1,0 +1,24 @@
+X:83
+T:Polka d\`el Grawi\`ete
+C:Traditional
+O:Wallonie
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:F
+P:A
+FG|AA BA|Gz/E/ EF|Gz/c/ cB|Az FG|AA BA|Gz/E/ EF|G2c2|F2||
+P:B
+FG|AF GA|B2 GA|BA Bc|BA FG|AA BA|G2 EF|GG AG|G C||
+S:https://www.folktunefinder.com/tunes/75779
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

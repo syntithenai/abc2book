@@ -1,0 +1,27 @@
+X:3620
+T:Miss Spence's Reel
+B:Tom Anderson
+C:J. Anderson
+M:4/4
+N:Made in 1759
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000094c.html
+%%ID:0000094c
+K:D
+A | d2AG F2DF | E=C3 c3A | \
+B2AG FE [A,2(D2] | [D)A,] d2c d3 :|
+|: e |\
+fafd fafd | egec egec | fafd fafd | egec d3 :|
+S:https://www.folktunefinder.com/tunes/36803
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

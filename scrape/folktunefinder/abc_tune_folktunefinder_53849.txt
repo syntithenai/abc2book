@@ -1,0 +1,22 @@
+X:192
+T:Le Galant
+C:Richard Fort
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:C
+gg |: g2f e2d | c3 cBc | d3 d^cd | ede cef |
+g2f e2d | c3 cBc | d2g GAB |1 c3 cgg :|2 c3 B3 |: 
+AEE CEE | AGA cBA | B3 BAB | efe dcB | 
+c2A d2B | e2c fed | cBA ^GAB | A3 AcB :|
+S:https://www.folktunefinder.com/tunes/53849
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

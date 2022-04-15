@@ -1,0 +1,27 @@
+X:3
+T:Merry Christmas, A
+R:jig
+S:O'Neill's
+Z:John Walsh Dec 99
+S:John Walsh <walsh:math.ubc.ca> irtrad-l 2001-12-7
+M:6/8
+K:G
+D|GAB AGE|ceg dBG|GAB AGE|FDD DEF|
+GAB AGE|ceg dBG|EFG Adc|BGG G2:|
+B|d^ce def|gfe dBG|Bcd efg|gbg afd|
+(4gaba gfe|dBg dBG|EFG Adc|BGG G2:|
+S:https://www.folktunefinder.com/tunes/14628
+S:http://trillian.mit.edu/~jc/music/abc/jig/MerryChristmasA_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/MerryChristmasA_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MerryChristmasA_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/xmas/MerryChristmasA_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MerryChristmasA_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

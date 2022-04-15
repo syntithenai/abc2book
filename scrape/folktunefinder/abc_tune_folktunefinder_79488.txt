@@ -1,0 +1,24 @@
+X:384
+T: HAT MIR MEIN VATER VIERZIG GULDEN
+N: E1575
+O: Europa, Mitteleuropa, Deutschland, Hessen, Giessen, Neiskirchen
+R: Staende - Lied, Fuhrmann
+M: 3/8
+L: 1/16
+K: F
+ | F3FF2 | A3AA2 | d3cc2
+c2f2A2 | c3BB2 | A6
+c2f2A2 | c3BB2
+B2d2G2 | B3AA2
+A2A2A2 | c3AB2 | c2f2A2
+A3AA2 | d3cc2 | A6
+S:https://www.folktunefinder.com/tunes/79488
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, fuhrmann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

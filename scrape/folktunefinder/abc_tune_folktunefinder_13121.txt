@@ -1,0 +1,27 @@
+X: 1
+T: Back to the Hills
+T: To Tom Fraser
+C: J.Scott Skinner
+R: air
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+"(A7)"A \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"AF {F}ED | "Dm"D2 "A7"{ED}^CA, \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+"(A7)"A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"A[fF] [eE][dD] | "Dm"[d2D2] "A7"{ed}[^c^C]A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+S:https://www.folktunefinder.com/tunes/13121
+S:http://trillian.mit.edu/~jc/music/abc/air/BackToTheHills_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BackToTheHills_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/BackToTheHills_Dm.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

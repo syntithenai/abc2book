@@ -1,0 +1,25 @@
+X:14176
+T:Reelin Bridge
+M:4/4
+L:1/8
+Q:200
+C:Copyright 1995 Michael Robinson
+R:Reel
+N:Reelin Bridge is in the Blue Stack mountains of Donegal.
+K:ADor
+"Am"ABcd efga|"G"bgdg BGGB|"Am"ABcd efga|"G"bgdB "Am"A2A2:|
+"Am"aece "G"dBGB|"Am"cAEA "Em"GEE2|"Am"aece "G"dBGB|"F"c/2B/2A "G"BG "Am
+"A2A2|
+"Am"aece "G"dBGB|"Am"cAEA "Em"GEE2|"Am"A,B,CD EFGA|"G"BGDB, "Am"A,4||
+% Output from ABC2Win  Version 2.0  on 17/06/96
+S:https://www.folktunefinder.com/tunes/64186
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

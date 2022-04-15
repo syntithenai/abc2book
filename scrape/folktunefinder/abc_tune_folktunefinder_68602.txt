@@ -1,0 +1,26 @@
+X:56
+T: Laemmerweide
+N: A0056C
+O: Europa, Mitteleuropa, Deutschland
+N: "Herr Jesu Christe starcker Gott" Melodie: Wolfenbuettler Hs vom Jahr
+N: 1596 (Cod.Aug. 76.13. fol. Bl. 185), vgl. Kommentar zu A0056B!
+R: Romanze, Ballade, Lied
+M: 4/1
+L: 1/2
+K: D
+A4 | _B2A2B2d2 | =c2_B2A2
+A2 | d2d2=c2A2 | _B2G2=F4 | =c4z2
+A2 | =c2_BA2G | =FED2 | =C4z2
+c2 | A2A2_B2=c2 | d4A4
+z2d2=c2_B2 | A2G2=FDE2 | D4
+S:https://www.folktunefinder.com/tunes/68602
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

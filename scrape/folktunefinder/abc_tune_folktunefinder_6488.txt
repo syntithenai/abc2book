@@ -1,0 +1,24 @@
+X: 1
+T: Ki Tina'am
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P:
+K: ADorian
+[| "Am"A2A2 "F"c3d | "Am"cBAB "G"G4 | "Am"A2A2 "Em"e2g2 | "D"feed "Em"e2ce |
+| "D"d3e "Dm"dAd2 | "Am"c3d "G"BAG2 | "Am"A2c2 "G"BAAG | "Am"A2 "G"(3BAG "Am"A4 |
+| "Am"e>f ed e4 |  egfd e4 | a3g gffe | "Em"egfe "D"d2A2 |
+|: "Am"c3e "Dm"dcdA | "Am"c3e "Dm"dcd2 | "G"B2cd BAAG | "Am"A2 "G"(3BAG "Am"A4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/6488
+S:http://trillian.mit.edu/~jc/music/abc/Israel/KiTinaam.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

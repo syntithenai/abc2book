@@ -1,0 +1,25 @@
+X:148
+T:Surgeon's Call - Regulation Fife Calls 1776-1856, #2 *
+B:American Veteran Fifer, Regulation Fife Calls 1776-1856, #2
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/4
+%%MIDI ratio 2 1
+d2ed B2B2|AGAB GABc|d2ed B2B2|AGAB G4"_Fine.":||:d2ef g2g2|agfe dcBc|d2ef g2g2|"_D.C. to Fine."agfe d4:|!D.C.!
+% the "D.C. to Fine" text should appear OK in printout but the abc tool I am using does 
+% not properly repeat the last strain in response to the !D.C.!
+S:https://www.folktunefinder.com/tunes/39544
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

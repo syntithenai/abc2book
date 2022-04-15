@@ -1,0 +1,24 @@
+X:177
+T:Tobin's Favourite
+Z:robin.beech@mcgill.ca
+R:jig
+S:Laurence Beaudry
+M:6/8
+L:1/8
+K:D
+DFA dcd | ecA cde | fef gfg | ecA GFE |
+DFA dcd | ecA cde | f/g/af gec | edc d3 ::
+dfa agf | efg gfe | f>ff g>gg | ecA GFE |
+DFA dcd | ecA cde | f/g/af gec | edc d3 :|
+S:https://www.folktunefinder.com/tunes/53834
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

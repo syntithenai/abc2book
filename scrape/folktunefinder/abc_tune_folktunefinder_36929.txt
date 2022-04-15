@@ -1,0 +1,23 @@
+X:4250
+T:un Pied dans l'Eau
+M:2/4
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b96.html
+%%ID:00000b96
+K:G
+A2d2 c2de| d2cB A2G2| A2d2 c2de| d2cB A3G ::
+A2B2 G2AB| A2GF E2D2| A2B2 G2AB| A2GF G4 :|
+S:https://www.folktunefinder.com/tunes/36929
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

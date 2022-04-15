@@ -1,0 +1,26 @@
+X: 2
+T: The Pleasures of Providence
+T: The Pleasures of the Town
+B: Hendrickson's "John Griffiths Dancing Master."
+R: jig
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: 3/8=104
+K: G
+D2 \
+|:"G"GBd GBd | GBd dcB | "C"cdc "G"BcB | "A7"ABG "D7"FED \
+| "G"GBd GBd | GBd dcB | "C"cdc "G"BcB | "D7"AGA "G"G3 :|
+|:"G"gbg "D7"def | "G"gbg "D7"def | "G"gbg "C"agf | "D7"edc "G"B3 \
+| "G"gbg "D7"def | "G"gbg     dBG | "C"cdc "G"BdB | "D7"AGA "G"G3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/2743
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/PleasuresOfProvidence.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/PleasuresOfProvidence.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

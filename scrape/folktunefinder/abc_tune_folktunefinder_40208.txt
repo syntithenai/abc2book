@@ -1,0 +1,24 @@
+X:9
+T:L'enlvement
+R:---
+T:Complainte populaire
+O:Provence
+C:Trad.
+M:2/4
+L:1/8
+K:Gm
+V:1
+GG|dd dd |dd ga|f2 e2|d2 dd|dd dd|
+BA Bc|d2 cB|A2 GA|B3 c|dd/e/ d/d/f/d/|B2 A2|G4|]
+V:2
+GG|BB dB|GB Bc|A2 c2|B2 dB|GB dB|
+Gc BA|G2 AB|c2 BA|G3A|BG BA|G2 F2|G4|]
+%%footer $D   Galouvielle-MBe 2005 \nAir --
+S:https://www.folktunefinder.com/tunes/40208
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm ---
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

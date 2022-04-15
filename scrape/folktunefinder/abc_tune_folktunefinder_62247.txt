@@ -1,0 +1,35 @@
+X:224
+T: ZU MEINER ZEIT BESTAND NOCH RECHT UND BILLIGKEIT
+N: B0711
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 2/4
+L: 1/16
+K: G
+G2 | d4e4 | d4z2
+g2 | f2e2d2c2 | B3AG2
+G2 | F6G2 | F6
+G2 | cBcdc2A2 | B4A2
+G2 | F6G2 | F6
+G2 | cBcdc2A2 | B4A2
+D2 | B6dB | A4
+d4 | d4^c4 | d4z2
+de | =f4A4 | ^G6
+A2 | ^GABcd2B2 | c4B2
+cd | e4G4 | =F6
+G2 | FGABc2A2 | B4A2
+Bc | d2d2d2Bc | d2d2d2
+g2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/62247
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

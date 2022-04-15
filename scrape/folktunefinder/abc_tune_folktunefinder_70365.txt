@@ -1,0 +1,30 @@
+X:235
+T: Graserin und Schreiber (14a), S62f
+N: T0123
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Straen, Frau Witry, 13.1.1933
+R: "erzhlende Lieder"]
+M: 2/4
+L: 1/16
+K: F
+C2 | F2G2A2B2 | c2c2c2
+c2 | d2e2f2d2 | c4z2
+c2 | f2c2d2c2 | A2F2F4
+G2GAB2GG | A2B2c2
+f2 | e2d2c2=B2 | c4z2
+c2 | f2c2d2c2 | A2F2F4
+G2GAB2GG | A2B2c2
+f2 | e2d2c2=B2 | c4z2
+S:https://www.folktunefinder.com/tunes/70365
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

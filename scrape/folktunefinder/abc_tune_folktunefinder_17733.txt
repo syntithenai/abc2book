@@ -1,0 +1,28 @@
+X: 1
+T: Mrs. Jean Cameron
+C: Angus Cameron
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+cB \
+| A2c2 f2af | "Gm"g2G2 G2gf | "C7"e3f g2e2 | "F"fagf "C7"edcB \
+| A2c2 f2af | "Gm"g2G2 G2gf | "C7"e2dc BGcB | "F"A2F2 F2 :|
+AB \
+| "F"c2=Bc f2c2 | "Gm"B2G2 G2GA | "C7"B2AB e2de | "F"d2c2 c2AB \
+| "F"c2=Bc f2c2 | "Bb"e2d2 "G7"d2gf | "C7"e2dc BGcB | "F"A2F2 F2 |]
+AB \
+| "F"c2=Bc f2c2 | "Gm"B2G2 G2GA | "C7"B2AB e2de | "F"d2c2 c2AB \
+| "F"c2=Bc f2c2 | "Bb"e2d2 "G7"g3f | "C7"e2c2 BGcB | "F"A2F2 F2 |]
+S:https://www.folktunefinder.com/tunes/17733
+S:http://trillian.mit.edu/~jc/music/abc/reel/Mrs_Jean_Cameron_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Mrs_Jean_Cameron_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

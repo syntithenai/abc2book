@@ -1,0 +1,28 @@
+X:195
+T:Hotchpotishe
+C:Andy Hornby
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Copyright:Andy Hornby 1986
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c90.html
+%%ID:00000c90
+K:F
+DEFG A2^c2 | d6 A2 | B2AG A2F2 | G2E2 A2F2 |\
+DEFG A2^c2 |1 d6e2 | f2ed A2^c2 | d8 :|2\
+d2e2 f2a2 | gfed A2^c2|d6e2 || \
+f3e f2d2 | efed ^c2A2 | B3A B2d2 | A8 | \
+G3F G2E2 | FGFE D2F2 | E2D2 ^C2D2 | E4E4 |\
+^c2cd e2^c2 | d2de f2d2 | ^c3d e2^c2 | d6 A2 |\
+BcBA G2B2 | A3G F2D2 | f2e2 d2^c2 | d8 |]
+S:https://www.folktunefinder.com/tunes/43904
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

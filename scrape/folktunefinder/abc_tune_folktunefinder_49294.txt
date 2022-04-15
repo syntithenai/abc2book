@@ -1,0 +1,31 @@
+X:15
+T:Geloxia
+W:Domenico (1450). After D'Aurillac
+M:6/4
+L:1/4
+K:G
+G2 A B2 c | d3 d2 d/e/ | =f2 e/f/ d2 c/d/ | B2 A/B/ G2 A |
+B2 A B2 c | d3 d2 e/d/ | c2 B/c/ B2 A | G2 G G2 G |
+g f e d | g =f e d | g =f e f | d2 Hd2 |
+B > A B c | d2 d>c | B A/B/ A> A | G2 HG2 |
+B>A B c | d3/2 d/4e/4 =f > f | =f e/f/ d c | B2 d2 |]
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49294
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

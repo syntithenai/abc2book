@@ -1,0 +1,38 @@
+X:3836
+T:Danza d'Arcos (MQ 041)
+T:Danza de La Gua (MQ 041)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza de la zona de Llanes.
+N:Se llama as porque los que bailan llevan una especien de arcos cogidos con ambas manos.
+N:Tambin se llama Danza de la Gua.
+N:Yo la aprend de Graciano Lafuente, un gaitero que tocaba en los coros del Centro Asturiano de Madrid.
+O:Llanes
+A:Asturies
+Z:Manolo Quirs 041
+M:2/4
+L:1/8
+Q:1/4=72
+K:C
+|G>F EF|G>F E2|G>F EG|F4|
+F>E DE|F>E D2|G>F EF|G4|
+Gc dc|BA G2|EG FD|C2-C>D|
+F>E DC|FF FA|G C2 A|G C2 C|
+F>E DC|FF F>A|GC DE|F4|
+F>E DE|F>E D2|G>F EF|G2 G2|
+Gc dc|BA G2|E>G FD|C4|
+S:https://www.folktunefinder.com/tunes/60025
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

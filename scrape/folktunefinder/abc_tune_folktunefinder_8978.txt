@@ -1,0 +1,38 @@
+X: 1
+P: Hj\"ort Anders' 60 years birthday polska
+C: August Slumbae
+O: Hj\"ort Anders' version
+N: Learned from Magnus Gustafsson Aug 15 1993
+N: The first part may be repeated.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: F
+A2B2 \
+"A"\
+|: "F"cdcB A2B2 c4   |     cdcB  A2c2    f4   \
+|     cdcB AFAc fgfe | "Gm"d4    B3{cB}A B2G2 |
+| "C7"BcBA G2A2 B4   |     BcBA  G2f2    e3f  \
+|     gagf efed cdcB |  "F"ABcA  F4 [A2F2]A2  |
+|  "F"cdcB A2B2 c4   |      cdcB A2c2    f4   \
+|     abag fgfe dedc | "Bb"{c}d4 B3{cB}A B2G2 |
+|:"Bb"BcBA B2d2 f2d2 |  "F"cdcB  AFAc    f2a2 \
+| "C7"g2bg e2ge c2de |1 "F"f2c2  cdcB    A2c2 :|2 "F"f4 f8 :|
+"B"\
+|:"Dm"fefg  abag fgfe |     d^cde fgfe ded=c \
+| "Bb"BABc d_edc BcBA | "Gm"{A}B4 G6   D2   |
+|     GAG^F G2B2 d4   |  "F"cdcB  AFAc f2a2 \
+| "C7"g2bg  e2ge c2de |  "F"f2c2  cdcA F2A2 |
+| "Gm"BcBA  B2d2 g2d2 |  "F"cdcB  AFAc f2a2 \
+| "C7"g2bg  e2ge c2de |  "F"f4    f8       :|
+S:https://www.folktunefinder.com/tunes/8978
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Bingsjo4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

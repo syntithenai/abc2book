@@ -1,0 +1,25 @@
+X: 1
+T: the Banks of Lough Gowna
+M: 6/8
+L: 1/8
+R: Jig
+B: O'Neill (Music of Ireland: 1850 Melodies) 1903 #1060
+B: O'Neill (Dance Music of Ireland: 1001 Gems) 1907; #264
+Z: AK/Fiddler's Companion
+K: A Minor
+|: ABA AGE | EDE G3  | ABA AGE | c2d ecA | ABA AGE | EDE G3  | cde ged | cAA A2 :|
+|: cde g2a | gea ged | cde g2a | geg a3  | cde g2a | gea ged | cde fed | ecA A2 :|
+S:https://www.folktunefinder.com/tunes/13829
+S:http://trillian.mit.edu/~jc/music/abc/jig/BanksOfLoughGowna_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BanksOfLoughGowna_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BanksOfLoughGowna_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BanksOfLoughGowna_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

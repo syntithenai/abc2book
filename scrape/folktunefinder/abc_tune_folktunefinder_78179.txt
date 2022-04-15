@@ -1,0 +1,25 @@
+X:158
+T: WILL RUHEN UNTER DEN BAEUMEN HIER
+N: B0189
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied
+M: 3/8
+L: 1/16
+K: F
+C2 | F4F2 | F2E2F2 | G2A2G2 | F2z2
+A2 | A2F2c2 | c2A2f2 | f6 | c2z2
+c2 | d3^cd2 | f2e2d2 | c4A2 | F4
+A2 | G2A2=B2 | c2e2e2 | g2f2d2 | c4
+c2 | c2d2e2 | f2c2A2 | c6 | A2z2
+S:https://www.folktunefinder.com/tunes/78179
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

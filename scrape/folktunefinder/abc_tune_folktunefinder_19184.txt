@@ -1,0 +1,31 @@
+X: 1
+T: Ayrshire Lassies
+R: strathspey
+B: RSCDS 8-7
+B: Lowe's Collection
+N: Alternative tune for Braes of Atholl
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   c \
+| "C"G>c E>c "G7"d>c d<e | "C"c<c e>d "F"c<A A>c \
+| "C"G>c E>c "G7"d>c d<e | "F"c>A "G7"G>c "C"E<C C :|
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e c>e d<f e>d | "F"c>A "G7"G>F "C"E<C C ||
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e "Dm"f>d "Am"e>c "G7"d>B | "F"c>A "G7"G<c "C"E<C C |]
+S:https://www.folktunefinder.com/tunes/19184
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AyrshireLassies_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AyrshireLassies_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AyrshireLassies_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

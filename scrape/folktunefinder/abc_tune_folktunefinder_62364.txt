@@ -1,0 +1,28 @@
+X:33
+T:Polska fr{\aa}n Uppland
+R:sl-polska
+A:Uppland
+Z:id:hn-sp-33
+M:3/4
+L:1/16
+K:Dm
+a2a2 b2b2 a2a2 | g2g2 a4 e4 | fefa gbge fafd | ege^c d2dA F2D2 |
+a2a2 b2b2 a2a2 | g2g2 a4 e4 | fefa gbge fafd |1 ege^c d4 d4 :|2
+ege^c d4 d2e2 |: f2f2 (3e2e2^c2 e2A2 | d3e fefg a2a2 | f2f2 (3e2e2^c2 e2A2 |
+d3e fefg a2a2 | b3a gagf efed |1 ^c2e^c d4- d2e2 :|2 ^c2e^c ^c2d2 d4 ||
+K:Gm
+d2d2 e2e2 d2d2 | c2c2 d4 A4 | BABd cecA BdBG | AcA^F G2GD B,2G,2 |
+d2d2 e2e2 d2d2 | c2c2 d4 A4 | BABd cecA BdBG |1 AcA^F G4 G4 :|2
+AcA^F G4 G2A2 |: B2B2 (3A2A2^F2 A2D2 | G3A BABc d2d2 | B2B2 (3A2A2^F2 A2D2 |
+G3A BABc d2d2 | e3d cdcB ABAG |1 ^F2AF G4- G2A2 :|2 ^F2AF F2G2 G4 ||
+S:https://www.folktunefinder.com/tunes/62364
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Corsican Fairy,The. BF11.67
+M:6/8
+L:1/8
+C:Browne A hand
+S:MS11,c1800.,Browne Coll.,Lakes
+R:Quadrille
+O:England
+A:Lakes
+N:
+Z:vmp.Chris Partington.
+K:C
+|:"Am"A2c     e2c | "Dm"d2A f2d | "Am"ecA     aec | "Em"BGE E3 \
+| "Am"A2c     e2c | "Dm"dBd fga | "Am"edc  "G"BAG | "Am"A3  A3 :|
+|:"Em"EGB     dBG | "Am"Aed cBA | "Dm"Dag "Am"ecA | "Em"BGE E3 \
+| "Am"AEG "A7"FDE | "Dm"DFA dfa | "Am"edc  "G"BAG | "Am"A3  A3 :|]
+S:https://www.folktunefinder.com/tunes/14049
+S:http://trillian.mit.edu/~jc/music/abc/jig/Corsican_Fairy_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Corsican_Fairy_Am.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

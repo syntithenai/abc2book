@@ -1,0 +1,38 @@
+X: 1
+T: Captain Rock's Farewell
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+[D2G,2] \
+| "G"[G3B,3][AD][B2G2] \
+| [d3G3][BG][A2D2] \
+| "C"[G3C3][EE][C2C2] \
+| "G"[DB,][G3G,][D2G,2] \
+| "G"[G3B,3][AD][B2G2] \
+| [d3G3][BG][A2D2] |
+|1 [BD][d3D3][B2E2] \
+| "D"[A4D4] \
+:|2 [AD][B3D3][A2D2] \
+| "G"[G4G,4] "fine"y \
+[d2G2] \
+| "G"[d3G3][BD][d2D2] \
+| "C"[g3C3][eE][g2C2] |
+| "G"[d3G3][BD][G2G2] \
+| [BG][d3G3][d2G2] \
+| "G"[d3G3][BD][d2D2] \
+| "C"[g3C3][eE][g2C2] \
+| "G"[d3G3][BD][G2G2] \
+| "D"[A4D4] "d.C"y|]
+S:https://www.folktunefinder.com/tunes/19838
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CaptainRocksFarewell_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/CaptainRocksFarewell_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/CaptainRocksFarewell_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

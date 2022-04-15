@@ -1,0 +1,53 @@
+X:0
+T:Dorian/Minor (6-gap, re/la) Hexatonic Scales
+L:1/4
+M:9/4
+K:BbDor
+"^B flat"  B2 cd efa b2|b2 af edc B2||
+M:9/4
+K:FDor
+"^F"       F2 GA Bce f2|f2 ec BAG F2||
+M:9/4
+K:CDor
+"^C"       C2 DE FGB c2|c2 BG FED C2||
+M:9/4
+K:GDor
+"^G"       G2 AB cdf g2|g2 fd cBA G2||
+M:9/4
+K:DDor
+"^D"       D2 EF GAc d2|d2 cA GFE D2||
+M:9/4
+K:AMin
+"^A"       A2 Bc deg a2|a2 ge dcB A2||
+M:9/4
+K:EMin
+"^E"       E2 FG ABd e2|e2 dB AGF E2||
+M:9/4
+K:BMin
+"^B"       B2 cd efa b2|b2 af edc B2||
+M:9/4
+K:F#Min
+"^F sharp" F2 GA Bce f2|f2 ec BAG F2||
+M:9/4
+K:C#Min
+"^C sharp" C2 DE FGB c2|c2 BG FED C2|]
+S:https://www.folktunefinder.com/tunes/30065
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C-sharp
+% Key F-sharp
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key B
+% Key A
+% Key A-sharp
+% Key G-sharp
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

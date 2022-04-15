@@ -1,0 +1,27 @@
+X:12129
+T:O Regondixo
+C:Trad.
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+G2 G|G2 G B2 B|c3 c3-|c6-|c3 G2 G|
+|G2 G B2 B|c3 c3-|c6-|c3 G2 G|
+|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3-|G3 z3|
+|: z3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3 :|
+Q:3/8=176
+|z3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|z3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|
+Q:3/8=80
+|G3/2G/G GBB|c3 B3|G3/2G/G GBB|c3 B3|G3/2G/G GBB|c2 c BBB|G2 G G2 G-|G3 z3|z6|z6|z3 G2 G|
+Q:3/8=176
+|z3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c3 B3-|B3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|z3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|
+|z3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|z3 G2 G|G2 G B2 B|c2 c B2 B|G2 G G2 G|G3 G3|
+S:https://www.folktunefinder.com/tunes/54878
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

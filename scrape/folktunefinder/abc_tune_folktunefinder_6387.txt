@@ -1,0 +1,23 @@
+X: 6
+T: Willie Coleman's Jig
+T: Mice In The Cupboard
+M: 6/8
+L: 1/8
+R: jig
+K: G
+|: "G"B2G "C"AGE | "D7"GED "G"GBd |  "C"edB  "G"dgb | "Am"age "D7"dBA \
+|  "G"B2G "C"AGE | "D7"GED "G"GBd | "Em"edB "Am"dBA | "D7"BGF "G"G3 :|
+:  "G"~g3 edB | dgb age | ~g3 edB | GBd e3  \
+|  "G"~g3 edB | dgb age | "G"dBd "C"gdB | "D7"AGF "G"G3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6387
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

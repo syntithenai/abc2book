@@ -1,0 +1,29 @@
+X:18511
+T:Wanton Widow,The. GS.115
+M:2/4
+L:1/8
+Q:230
+S:George Spencer m/s, Leeds,1831
+R:Misc.
+O:England
+A:Leeds
+N:1- the two groups in this bar are marked as triplets in the MS.
+H:1831
+Z:vmp.Cherri Graebe
+K:D  major
+a | {g} fedf | gbeg | fadf | e/d/c/B/ Aa | {g} fedf | gbeg | "1"f/g/a A/
+B/c | d3 :||:
+A| FAdf | eAgA | fadf | e/d/c/B/ AA | FAdf | eAgA | faAc | d3 :||
+S:https://www.folktunefinder.com/tunes/49959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

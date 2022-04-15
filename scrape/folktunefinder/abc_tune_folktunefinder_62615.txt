@@ -1,0 +1,25 @@
+X:38
+T:Minnesota Valsen
+R:Waltz
+%O:Scand-American
+Z:John Chambers <jc@trillian.mit.edu>
+N:Modified by Bob Wyttenbach to match Buffalo Gap tunebook
+M:3/4
+L:1/8
+K:A %Transposed from G
+P:A
+E2| "G"A2 (cA) ce | A2 (cA) cd | e2 (fe)dc | "D7"B4B2 |
+ E2 (GE) GB | E2 (GE) GB | e2 (ed)cB |[1"G"A4 :|[2"G"A3||
+P:B
+(dcB)| "G"A2 (cA) ce | a4a2 | (3(aba) (ga) ba | "C"f4f2 |
+ "D7"(BG) (BG) Be | g3 (agf) | (ef e)dcB |[1"G"c3:|[2"G"A4 ||
+S:https://www.folktunefinder.com/tunes/62615
+S:http://www.nordicfiddlesandfeet.org/music/NFFBb.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

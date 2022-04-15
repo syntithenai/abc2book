@@ -1,0 +1,30 @@
+X:1
+T:Reel du Semeur
+M:4/4
+L:1/8
+C:Trad
+S:Phillippe Bruneau (Richard Smith in UK)
+Z:Alison Ellacott <aliellacott:hotmail.com> tradtunes 2002-1-31
+R:Polka
+O:Quebec
+K:D
+|:FG|ABAGF2A2|f4d4|ABAGF2A2|f2f2d2f2|e2efg2fe|d2de fafd|c2cd egec|d2:|
+|:fg|a2g2e2ce|g2f2d4|f2e2 B2c2|dcde fefg|a2g2e2ce|g2f2d2c2|B2g2e2c2|d2:|
+S:https://www.folktunefinder.com/tunes/16213
+S:http://trillian.mit.edu/~jc/music/abc/polka/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/polka/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDuSemeur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ReelDuSemeur_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

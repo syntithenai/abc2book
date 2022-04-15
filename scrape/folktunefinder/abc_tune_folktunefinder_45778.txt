@@ -1,0 +1,26 @@
+X:10
+T:3 Valses
+O:France
+A:Alsace
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:C
+T:1.
+E2E | G2G | FFF | E/F/ G/A/ G | E2E | G2G | FFF | E3 :|
+T:2.
+E2G | E2G | FED | A2G | E2G | E2G | FED | C3 :|
+T:3.
+G2E | G2E | AAc | G3 | cBA | GAG | FED | G3 | cBA | GAG | FED | C3 :|
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/45778
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

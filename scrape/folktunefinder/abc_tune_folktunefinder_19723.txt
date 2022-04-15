@@ -1,0 +1,37 @@
+X: 1
+T: S\"a kuulut p\"aiv\"a\"an jokaiseen
+C: Reino markkula
+R: tango
+M: C
+L: 1/8
+%%staffsep 40
+K: Am
+"I"\
+[| "Dm"(3A^GA (3FEF DE FD | "Am"(3A^GA (3E^DE C=D EC | "Dm"(3FEF (3B,^A,B, "E7"ED {ED}CB, \
+|1 "Am"A,F {GF}E^D "A7"E4 :|2 "Am"A,2 y "F"F2 y "E7"E2 |]
+E2 "A1"\
+| "Am"c3 B c2 A2 | "B7"B2 c2 B3 A | "E7"^G3 A B2 AG | "Am"A2 E4 "A7"E2 \
+| "Dm"A3 ^G "G7"A2 F2 | "C"G3 ^F "A/C#"G2 E2 | "Dm"F3 G "B7/D#"A2 BA | "E7"^G6 |]
+E2 "A1"\
+| "Am"c3 B c2 A2 | "B7"B2 c2 B3 A | "E7"^G3 A B2 AG | "Am"A2 E4 "A7"E2 \
+| "Dm"A3^G "Dm6"A2F2 | "Am"E2 A2 B2 c2 | "B7"B3 ^F "E7"(3^G2 A2 B2 | "Am"A6 |]
+A2 "B"\
+| "Dm"F2 DE F2 GF | "Am"A2 E4 "A7"A2 | "Dm7"(3F2 D2 E2 "G7"(3F2 E2 F2 | "C"G6 "Dm"F2 \
+| "E7"E2 B,C D2 EF | "Am"E2 C2- "/G"C2C2 | "B7/F#"(3B,2 ^D2 ^F2 "B7-5/F"B2 AB | "E7"^G6 |]
+E2 "A3"\
+| "Am"c3 B c2 A2 | "B7"B2 c2 B3 A | "E7"^G3 A B2 AG | "Am"A2 E4 "A7"E2 \
+| "Dm"A3 ^G "G7"A2 F2 | "Am"E2 A2 B2 c2 | "B7"B3 ^F "E7"(3^G2 A2 B2 | "Am"A2 "E7"E2 "Am"A2 "fine"z2 |]
+S:https://www.folktunefinder.com/tunes/19723
+S:http://trillian.mit.edu/~jc/music/abc/tango/Sa_kuulut_paivaan_jokaiseen_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango/Sa_kuulut_paivaan_jokaiseen_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/Sa_kuulut_paivaan_jokaiseen_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/Sa_kuulut_paivaan_jokaiseen_Am.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

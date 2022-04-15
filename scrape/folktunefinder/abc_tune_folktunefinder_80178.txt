@@ -1,0 +1,26 @@
+X:119
+T: Moench und Naehterin
+N: A0481
+O: Europa, Mitteleuropa, Deutschland
+N: Schmeltzel 1544 Quodl 20.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: F
+F | F2GA2A | B2GA2
+A | B2cd2d | c3B2
+c | c2cc2A | BdcA2
+A | G2ABAB | G3F2
+S:https://www.folktunefinder.com/tunes/80178
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

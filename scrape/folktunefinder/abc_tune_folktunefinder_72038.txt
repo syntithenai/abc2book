@@ -1,0 +1,49 @@
+X:11
+T:The Morgan Rattler
+C:Trad., Irish
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 6/4/04
+N:Petrie's First Collection, page 5
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:D
+[V:1] B|:AGF EFG|TFEF D2B|AGF EFA|TB2A Bcd |
+[V:2] z|:d3  A3 | D3  dfg|f2d c2A| G3  g3  |
+[V:1] AGF EFG|TFEF D2A|def edc|TB2A Bcd:|
+[V:2] d3  A3 | D3  d3 |f3  a2A| g2f d3 :|
+[V:1] |:d2e fed |c2d edc|d2e fed |Tf2e fga|
+[V:2] |:dfa d'2d|Ace a2A|dfa d'2d| a3  d3 |
+[V:1] d2e fed |c2d efg|afd ecA|TB2A Bcd:|
+[V:2] dfa d'2d|Ace a2A|d2f a2A| g2f d3 :|
+[V:1] |:D2d Tdcd|E2e Tede|D2d Tdcd|TB2A Bcd|
+[V:2] |:f3   d3 |c3   A3 |F3   D3 | G2f g2d|
+[V:1] D2d Tdcd|E2e efg|afd ecA|TB2A Bcd:|
+[V:2] f3   d3 |c3  A3 |D3  A3 | G2f g2d:|
+[V:1] |:TF3 AFD|TEFE TEDE|TF3 AFD|B2A Bcd|
+[V:2] |: D3 d3 | A3   c3 | d3 D3 |G2f g2d|
+[V:1] TFEF AFD|EFE E2c|dfd cec|TB2A Bcd:||
+[V:2]  d3  D3 |c3  Ace|d3  A3 | G2f g2d:||
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72038
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MorganRattler.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Morgan_Rattler.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

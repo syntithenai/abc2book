@@ -1,0 +1,22 @@
+X: 1
+T:Hearts Ease     %Tune name
+Q:1/4=153     %Tempo
+M:6/8     %Meter
+L:1/8     %
+K:F
+D |"Gm"G3/2A/B A2 G |"D"^F2 G A2 D |"Gm"G2 A B/c3/2-c |
+"D"d3-d2 ::d |"F"ABc c3/2d/c |"F"f2 c c2 A |
+"Bb"B2 A "F"B2 c |"Bb"d3-d2 d |"Cm"c2 B "D"A3/2B/c |"Gm"B2 A "(F)"dAB |
+"Cm"A2 G "D"^F3/2E/F |"Gm"G2-G3 :|
+S:https://www.folktunefinder.com/tunes/14300
+S:http://trillian.mit.edu/~jc/music/abc/jig/Hearts_Ease_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Hearts_Ease_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Hearts_Ease_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

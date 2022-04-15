@@ -1,0 +1,24 @@
+X:7729
+T:Tuttle
+O:england
+R:Reel
+M:4/4
+L:1/8
+K:C
+A,2 DE (F3 G) | (3AcA Gc AcGc | A,2 DE FAdB | cAGE (3FED EC |
+A,2 DE ~F3 G | (3AcA Gc Adde | fd{e}dc dcAB | cAGE ED{E}D2 :|
+d3A ~c3 A | ~d3 A cAGA | d2{e}dA cedc | {d}cAGE {F}EDFA |
+A(dcd) A(cBc) | A(dcd) cAGA | fd{e}dc dcAB | cAGE EDFD|
+d2D A c2 DA | ~d3 A cAGA | d2{e}dA cedc | {d}cAGE {F}EDFA |
+d2 (3DDD c2 (3DDD | d2 (3DDD cAGA | fd{e}dA dcAB | {d}cAGE EDD2 ||
+S:https://www.folktunefinder.com/tunes/28181
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

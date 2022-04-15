@@ -1,0 +1,19 @@
+X:7485
+T:the Wonder
+O:england
+M:2/4
+L:1/16
+K:G
+G2G2 G2(GA)| B2B2   B2(Bc)| d2(Bd)   c2(Ac) | B2(GB) AFD2 |\
+G2G2 G2(GA)| B2B2   B2(Bc)|(dgfe)   (dcBA)  | G2G2   G4  ::
+d3e  dBG2  |(AGAB) (AFD2) | d3e     (dB)G2  |(D2AB) (cBAB)|\
+G2G2 G2(GA)| B2B2   B2(Bc)|(dB)(dB) (ec)ec  |(dcBA)  G4  :|
+S:https://www.folktunefinder.com/tunes/27937
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

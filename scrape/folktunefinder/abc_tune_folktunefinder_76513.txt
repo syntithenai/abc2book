@@ -1,0 +1,29 @@
+X:28
+T: ICH HAB ZU DIR GESAGT
+N: E0643A
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Muenster; Hildesheim
+R: Liebes - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GABc | BAz
+B | cAGF | G2z
+D | GABc | BAz
+B | cAGF | G2z
+B | dcBd | dcz
+B | cdec | cBz
+D | GABc | BAz
+B | cAGF | G2z
+S:https://www.folktunefinder.com/tunes/76513
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

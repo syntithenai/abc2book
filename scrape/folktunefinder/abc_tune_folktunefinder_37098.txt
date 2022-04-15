@@ -1,0 +1,31 @@
+X:5095
+T:Reinlnder
+M:4/4
+O:Norway
+R:Reinlnder
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007f3.html
+%%ID:000007f3
+K:D
+D2d2 A2f2 | f2ed e2GF | \
+EFGA B2cd | edcB AGFE | \
+D2d2 A2f2 | f2ed e2GF |
+EFGA BAfe | d2d2 d4::\
+[K:Am] \
+e3d cBA2 | e3d cBA2 |
+E2^GB A2cA | B2e2 e4| \
+e3d cBA2 | e3d cBA2 | \
+E2^GB cBAG | A2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/37098
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reinlnder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

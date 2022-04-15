@@ -1,0 +1,26 @@
+X:84
+T: Fuenf Soehne
+N: A0095
+O: Europa, Mitteleuropa, Deutschland
+N: Mitgetheilt aus Westfalen durch Freih. W. v. Haxthausen in None's
+N: Anz. 1838 Sp.34, aus einer Hs. des 16. Jahrh.
+R: Romanze, Ballade, Lied
+M: 3/4
+L: 1/8
+K: D
+A,2 | D2D2D2 | D2E2=F2 | G2E2E2 | E4
+A,2 | D4D2 | =F2E2DD | A4A2 | A4
+A2 | G2G2G2 | =F2F2ED | A6 | A,4
+A2 | A2G2A2 | A2G2A2 | =c2_B2A2 | G2A2G2 | =F4
+FF | =F2F2F2 | =F2E2D2 | A6 | D4
+S:https://www.folktunefinder.com/tunes/68630
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

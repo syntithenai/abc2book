@@ -1,0 +1,40 @@
+X: 2
+T: Portland Fancy
+C: J-42
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+   "E7"GF \
+| "A"E2A E2A | EAB c2c | "D"dcd "E7"Bcd | "D"f2e "E"cAF \
+| "A"E2A E2A | EAB c2c | "D"dcd "E7"EFG | "A"AcB A |]
+   ce \
+| "A"a2a "E"gag | "D"fdf "A"e2c | "D"dcd "E7"Bcd | "A"cde "D"f2"E7"e \
+| "A"a2a "E"gag | "D"fdf "A"e2c | "D"dcd "E7"EFG | "A"AcB A |]
+K: D
+   "A7"F=G \
+| "D"ABc d2e | f2g a3 | "Em"efg "A7"Ade | "D"f2d "A7"AFG \
+| "D"ABc d2e | f2g a3 | "Em"efg "A7"ABc | "D"d2f d |]
+   zA \
+| "D"F2A F2A | FAd f3 | "A7"ece gec | "D"dfe "A7"dAG \
+| "D"F2A F2A | FAd f3 | "A7"ece gec | "D"d3 d |]
+S:https://www.folktunefinder.com/tunes/3987
+S:http://trillian.mit.edu/~jc/music/abc/England/PortlandFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/PortlandFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/PortlandFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/PortlandFancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/PortlandFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/PortlandFancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/PortlandFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/PortlandFancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/PortlandFancy
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

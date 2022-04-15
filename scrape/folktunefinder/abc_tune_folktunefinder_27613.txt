@@ -1,0 +1,42 @@
+X:7161
+T:the Old Spand Hornpipe
+O:england
+M:9/4
+L:1/8
+K:C
+G2 D2 F2 E2 C2 E2 D2 B,2 D2 | F2 C2 F2 F2 C2 F2 E4 F2 |\
+G2 D2 F2 E2 C2 E2 D2 B,2 D2 | G2 D2 G2 G2 D2 F2 E4 F2 ||
+G2 D2 F2 E2 C2 E2 D2 B,2 D2 | C6 F4 AB c4 BA |\
+d2 D2 F2 E2 C2 E2 D2 B,2 D2 |G,6 G4 AB c4 BA ||
+B2 d4 A2 c4 G2 B4 | A6 F4 AB c4 BA |\
+B2 d4 A2 c4 G2 B4 | BABc d2 G3 A B2 c3 B A2 ||
+B3 cdB A3 BcA G3 ABG | A3 BcA F3 GAF A3 BcA |\
+B3 cdB A3 BcA G3 ABG | B3 cdB G3 ABG A3 BcA ||
+BABc d2 edef g2 fefg a2 | f6 F4 AB c4 BA |\
+BABc d2 edef g2 fefg a2 | g6 G4 AB c2 BA ||
+B2 d4 e2 g4 f2 a4 |       f6 F4 AB c4 BA |\
+BABc d2 edef g2 fefg a2 | g6 G4 AB c4 BA ||
+f3 e d2 g3 f e2 f3 e d2 | c3 BAG F3 GAB c3 d e2 |\
+f3 e d2 g3 f e2 a3 g f2 | g6 G4 AB c4 de ||
+f2 d2 B2 c2 A2 F2 G2 D2 B,2 | C6 F4 AB c4 de |\
+f2 d2 B2 c2 A2 F2 G2 D2 B,2 | D6 G4 AB c4 Bc ||
+D4 G2 C4 G2 B,4 D2 | A,4 F2 F2 C2 F2 E4 G2 |\
+D4 G2 C4 G2 B,4 D2 | G,4 G2 G2 D2 F2 E4 F2 ||
+GDGDGD E2 C2 E2 D2 B,2 D2 | F2 C2 F2 F2 C2 F2 E4 F2 |\
+GDGDGD E2 C2 E2 D2 B,2 D2 | GDGDGD   GDGDGD   E4 F2 ||
+GDGDGD E2 C2 E2 D2 B,2 D2 | C6 F4 AB c4 BA |\
+d4 cB c4 BA G A2 B G2 |     D6 G4 AB c4 BA ||
+d2 B2 G2 c2 A2 F2 G A2 B G2 | c2 A2 F4 A2 B2 c2 B2 A2 |\
+d2 B2 G2 c2 A2 F2 G A2 B G2 | BAAc d2 d2 G2 d2 c4 BA ||
+BABc d2 A3 B c2 BABc d2 | A3 B c2 c2 F2 d2 c3 B A2 |\
+d4 cB c4 BA G2 D2 B,2 | G,6 G4 AB c4 BA |]
+S:https://www.folktunefinder.com/tunes/27613
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

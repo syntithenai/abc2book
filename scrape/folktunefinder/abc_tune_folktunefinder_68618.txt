@@ -1,0 +1,28 @@
+X:72
+T: Der Rheinschiffer
+N: A0080
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie aus den Souterliedekens 1540 ad Ps. 130.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: F
+F2 | F3GA2 | B4
+A2 | F2A4 | G6 | z4
+F2 | F3GA2 | B4
+A2 | F2A4 | G6 | z2
+F2E2F2 | G4F2E2 | D4C4 | c6BA | G2
+c2B2B2 | A3GF2
+A2 | G4F4 | z4
+S:https://www.folktunefinder.com/tunes/68618
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

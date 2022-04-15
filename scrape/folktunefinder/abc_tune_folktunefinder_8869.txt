@@ -1,0 +1,22 @@
+X: 5
+T: Steffaleken
+O: etter Annar Gjelten
+R: R\orospols
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A \
+|: "D" d2 d<c A>e | f2 f<d e>f | "A7"(3geg (3fdf e>c |1 (3def d<c A>c :|2 "D"{c}d2 d4 :|
+f/g/ \
+|: "A7"a2 a<f g>e | "D"f2 f<d e>f | "A7"(3geg (3fdf e>c |1 "(D)"(3def d<c A>g :|2 "D"{c}d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8869
+S:http://trillian.mit.edu/~jc/music/abc/Scand/N2K_rpol.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

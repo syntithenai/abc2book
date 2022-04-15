@@ -1,0 +1,33 @@
+X: 1
+T: Chief O'Neil's Favourite
+R: hornpipe
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: G
+G>A \
+| "G"B>A B>c d>B c>A | (3BcB A>F "D"G>F D>C \
+| "G"B,>G, (3G,G,G, G,>B, D>E | "F"=F>D G>^F "D"D2 G>A |
+y2 \
+| "G"B>A B>c d>B c>A | (3BcB A>F "D"G>F D>C \
+| "G"B,>G, A,>B, "C"C>E D>C | "Am"(3B,CB, G,2 "G"G,2 :|
+|: G,>A, \
+| "Bb"_B,2 B,>C D2 D>E | "F"=F>E F>G F>E D>C \
+| "G"D2 (3GGG B>G A>G | "F"=F>D G>^F "D"D2 G>A |
+y2 \
+| "G"B>A B>c (3dcB (3cBA | "G"B>G A>F "D"G>F D>C \
+| "G"B,>G, A,>B, "C"C>E D>C | "Am"(3B,CB, G,2 "G"G,2 :|
+S:https://www.folktunefinder.com/tunes/13506
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ChiefONeilsFav_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/ChiefONeilsFav_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:518
+T: ICH BIN DER LUMPENMANN
+N: E1792
+O: Europa, Mitteleuropa, Deutschland, Kreis Usingen
+R: Scherz - Lied, Lumpenmann
+M: 2/4
+L: 1/16
+K: D
+A2 | F3DE2C2 | D4z2
+A2 | A2D2B2B2 | E4z2
+E2 | E3FG2E2 | F2BAF2E2
+E3FG2E2 | F2BAAGFE
+D2D2E2F2 | G2A2B2
+B2 | E2E2A2G2 | F2E2D2z2
+A4F2z2 | A4F2
+S:https://www.folktunefinder.com/tunes/79622
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied, lumpenmann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

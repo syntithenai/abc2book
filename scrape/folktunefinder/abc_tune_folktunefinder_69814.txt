@@ -1,0 +1,23 @@
+X:254
+T: WAS SINGT DAS VOEGLEIN KLEINE
+N: F0446
+O: Europa, Mitteleuropa, Deutschland
+R: Heimat -, Wander - Lied
+M: 2/4
+L: 1/8
+K: D
+A, | A,F,DA, | F2D
+B, | A,F,E,G, | F,3
+F, | F,CDC | C2B,z
+C2B,A, | F4- | F4- | F2z2
+A,2F,D | A,4- | A,2z2 | z3
+S:https://www.folktunefinder.com/tunes/69814
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Heimat -, wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:636
+T:Boarischer
+O:england
+C:Bad Ischl
+M:2/4
+L:1/16
+K:G
+d2gBd4|B2dGB4|AGAB cdef|g2fed4|d2gBd4|\
+B2dGB4|AGAB cdef|g2b2g4:|
+K:C
+|:cBcd c2BA|G2c2e4|g2f2 dcd2|f2e2c4|\
+cBcd c2BA|G2c2e4|g2f2 dfed|c2e2c4:|
+S:https://www.folktunefinder.com/tunes/21085
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

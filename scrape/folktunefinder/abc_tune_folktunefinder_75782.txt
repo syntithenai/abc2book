@@ -1,0 +1,30 @@
+X:86
+T:La Polka Noire
+O:Wallonie
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/16
+N:(ABB) ad lib.
+K:G
+P:A
+G8|F8|(E3F) (G3E)|D6 z2|c>ed>c B>dc>B|A>cB>A B2G2|
+G8|F8|(E3F) (G3E)|D6 z2|c>ed>c B>dc>B|\
+M:3/4
+L:1/16
+A>cB>A G2z2 B2d2||
+M:2/4
+P:B
+G4 B2d2|G4 B2d2|c2cc c2e2|G2z2 c2e2|A4 c2e2|A4 c2e2|d3c B2A2|[1 B4 B2d2:|[2 G4 z2|]
+S:https://www.folktunefinder.com/tunes/75782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

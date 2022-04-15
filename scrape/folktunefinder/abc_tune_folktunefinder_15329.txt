@@ -1,0 +1,29 @@
+X: 1
+T: Benjamin's Birth Day
+C: Gary Roodman
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+Q: 1/2=108
+K: A
+   ed \
+|   "A"c4      e4 | "D"f2d2  "E"B2G2 |   "A"c2e2 "F#m"c2ag |    "D"f2e2  "E"e4 \
+| "F#m"f4 "C#m"c4 | "A"e2c2 "Bm"B2G2 | "F#m"F2A2   "E"G2cB |1 "F#m"A2F2 "E7"F2 :|2 "F#m"A2F2 F2 |]
+|: AG \
+| "D"F4      A2B2 | "A"c2B2     c2AG | "D"F4       A2B2 |  "A"c2e2 "E7"e2E2 \
+| "A"A2c2 "C#m"e4 | "D"d2c2 "E7"B2d2 | "A"c2A2 "E7"E2G2 |1 "A"A2A2 "A7"=G2 :|2 "A"A6 |]
+S:https://www.folktunefinder.com/tunes/15329
+S:http://trillian.mit.edu/~jc/music/abc/march/BenjaminsBirthDay_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BenjaminsBirthDay_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/BenjaminsBirthDay_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/BenjaminsBirthDay_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

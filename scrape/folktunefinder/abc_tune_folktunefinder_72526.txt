@@ -1,0 +1,29 @@
+X:69
+T: Ja grueass di God, Frual vo da Au
+N: D0072
+O: Europa, Mitteleuropa, Deutschland, Niederbayern
+N: Pentatonik (Grundton ) , Unterstimme in Terzparallelen (ergaenzt
+N: die Skala zur Heptatonik - Ionisch) ; Grundton in der
+N: zweigetrichenen Oktave; Inzipit = Transposition zum Lied
+R: historisches Lied, bayrische Erbfolgekriege
+M: 3/4
+L: 1/8
+K: C
+G,2 | E3EE2 | G3EEE | F2z2z2 | z2z2
+G,2 | F2F2G2 | A2G2F2 | E2z2z2 | z2z2
+G,2 | E3EE2 | G3EE2 | F2z2z2 | z2z2
+G,2 | F2F2G2 | A2G2F2 | E2z2
+E2 | F3FG2 | A2G2F2 | EEE2F2 | G2F2
+E2 | D3DD2 | F2E2D2 | E2z2
+E2 | D2E2F2 | G2G2F2 | E2z2
+S:https://www.folktunefinder.com/tunes/72526
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Historisches lied, bayrische erbfolgekriege
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

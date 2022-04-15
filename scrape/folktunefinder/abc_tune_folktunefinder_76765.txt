@@ -1,0 +1,28 @@
+X:280
+T: EM KUST MER UG EN MANTEL
+N: E0875
+O: Europa, Mitteleuropa, Deutschland; Rumaenien, Siebenbuergen
+R: Hochzeits -, Ehestands - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GABc | ded2
+cBcd | B2z2
+GABc | dedc
+GABc | dedc
+BABc | d2c2
+BABA | G2z
+S:https://www.folktunefinder.com/tunes/76765
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:8
+T:Decorations on two voices
+T:(look also the 'd:' lines)
+%%infoline 1
+C:Composer
+O:Origin
+R:Rhythm
+M:C
+%%staves (1 2)
+K:C
+V:1
+  ~c.dJeNf cdef|aabc' gabc'|!coda!cdef gfec||
+d: * * * * HRTu|!mf!       |!sfz!  *** ***!D.S.!
+V:2
+   CDEF    CDEF|ffga   efga|C  D  EF   [EG]FEC||
+d: ~.JN    HRTu|~.JN   HRTu|!5!!4!M*   !5! M
+d:             |           |*  P  !3!  !4!
+S:https://www.folktunefinder.com/tunes/45422
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Rhythm Rhythm
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

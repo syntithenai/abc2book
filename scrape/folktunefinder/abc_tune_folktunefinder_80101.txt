@@ -1,0 +1,28 @@
+X:42
+T: Frisch auf, in Gottes Namen!
+N: A0398B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin (Hs. von 1646) S. 2951. Entstanden 1540
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/4
+K: G
+d | dddd | A2A
+d | cBAA | G2z
+d | dddd | A2A
+d | cBAA | G2z
+d | ddec | d2B
+e | dcBB | A2z
+A | ddBB | c2A
+A | ddBB | c2Ad | cBAA | G2z
+S:https://www.folktunefinder.com/tunes/80101
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

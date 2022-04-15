@@ -1,0 +1,38 @@
+X:406
+T: IN DEM HIMMEL RUHT DIE ERDE
+N: F0746
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Tageszeiten - Lied, Abend; Staendchen
+M: 3/4
+L: 1/16
+K: D
+ | D8E4 | F8A4 | A4G4F4 | F8E4
+D8E4 | F8A4 | A4G4F4 | E8
+E2E2 | E6E2^E2E2 | F4C4z4
+F3FF2F2F3F | F12
+F8E4 | D8G4
+F8F2E2 | D8
+B,2=C2 | D6D2E2F2 | G4D4
+D2D2 | D6D2D2D2 | D8
+D2B,2 | A,6B,2=C2E2 | E3DD4
+D2G2 | G2F4E2D2=C2 | B,8D4
+E8G4 | D12
+D8D4 | D12- | D8z4
+D8E4 | F8A4 | A4G4F4 | F8E4
+D8E4 | F8A4 | A4G4F4 | E8
+E2E2 | E6E2^E2E2 | F4C4
+F2F2 | F6F2F3F | F12
+F8E4 | D8G4
+F8F2E2 | D8
+A3A, | D8
+F3A, | D12- | D4z8
+S:https://www.folktunefinder.com/tunes/69966
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, tageszeiten - lied, abend; staendchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

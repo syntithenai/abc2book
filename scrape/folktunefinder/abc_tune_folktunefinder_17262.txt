@@ -1,0 +1,26 @@
+X: 1
+T: the Glendale Festival
+C: Dan R. MacDonald
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: C|
+L: 1/8
+K: Em
+E \
+| "Em"B,E~E2 GEB,E | "D"DB,A,B,  DEFD | "Em"B,E~E2 GEB,d |  "D"BGAF  "Em"E2E2 |
+| "Em"B,E~E2 GEB,E | "D"DB,A,B,  DEFD | "Em"BGAF   GEFD  | "Bm"B,BAF "Em"E3  :|
+|: c \
+| "Em"Be~e2  bgeg  | "D"afdf "Bm"Bfdb | "Em"Be~e2  bgeg  |  "D"afdb  "Em"geec |
+| "Em"Be~e2  bgeg  | "D"afdf "Bm"Bfdb | "Em"gefd   eBGB  | "Bm"B,BAF "Em"GEE :|
+S:https://www.folktunefinder.com/tunes/17262
+S:http://trillian.mit.edu/~jc/music/abc/reel/GlendaleFestival_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GlendaleFestival_Em.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

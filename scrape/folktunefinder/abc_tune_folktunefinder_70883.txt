@@ -1,0 +1,25 @@
+X:136
+%%topmargin 3cm
+T:Lochiel's Awa' to France
+C:Old set.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:E aeolian
+g | eA A/2A/2A e2 dc | B>G G/2G/2G (B<d)d<g | e>A A/2A/2A e2 dc | BGAB gee :| g | (de)ga (bg)ab | gd d/2d/2d (gd)dg |
+dega bgab | ge e/2e/2e {/a}(ge)eg | dfga bgab | gd d/2d/2d (gd)dg | .b.g.a.e degB | BA A/2A/2A (ge)e |]
+W:Modern set by Neil Gow not so playable.
+S:https://www.folktunefinder.com/tunes/70883
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lochiels_Awa_to_France.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

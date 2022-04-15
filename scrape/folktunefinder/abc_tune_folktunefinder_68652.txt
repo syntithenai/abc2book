@@ -1,0 +1,26 @@
+X:106
+T: Parodie einer unbekannten Tageweise
+N: A0123
+O: Europa, Mitteleuropa, Deutschland
+N: Haym v. Themar. Augsburg 1590 No. 8. Mixol. mit dor. Schluss.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: D
+G2B2A2 | d2=cB^c2d2 | d2B2G4 | z2
+G2A2B2 | =c2A2d2d2 | =c2B2A2G3AG2 | D4z2
+B2 | A2B=cd2c2 | d2B2G4 | z2
+G2G2B2 | B2A2G2D2 | z2E2=F2G2 | _B2G2=F2z2
+E3DEFG2z2B2 | A4=F2G2 | A4=F3E | D8 | z2
+S:https://www.folktunefinder.com/tunes/68652
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

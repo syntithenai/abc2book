@@ -1,0 +1,27 @@
+X:418
+%%topmargin 3cm
+T:John of Badenyon
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G minor
+B | G>FD>F G>FD>B |B>cB>G F3 B | G<GB>c d>cB<d | B<GB>c d3 f | g>df>c d>Bc>G |
+B>GF>D B3 c | d>Bc>G B>GF>D | C<CD>^F G3 :: f | g>fd>f g>fd>g | f>dc>d f3 b |
+g>fd>f g>fd>c | B<GB>c d3 f | g>df>c d>Bc>G | B>GF>D B3 c | d>Bc>G B>G F>D | C<CD>^F G3 |]
+S:https://www.folktunefinder.com/tunes/71447
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/John_of_Badenyon.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0418.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X:1
+T:Rezijanka
+C:Trad.
+O:Slovenia
+Z:http://swissnet.ai.mit.edu/~jaffer/Music
+T:I
+Q:1/4=120
+M:2/4
+L:1/8
+K:D
+d>d\
+|: "D"e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2 d2-d3/2G/2 ||
+K:G
+|: "G" A>B B>c | A>G A>B | A>A G>F |1 G2 G>G :|2 G>A ||
+K:D
+d>d \
+|: "D"e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2 d>f d>d|
+|: e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2 d2 z2 |] "G"HG4 |]**
+%
+T:II
+M:2/4
+L:1/8
+K:D
+A>A \
+|: "D"d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2 d2 ||
+K:G
+| G>G \
+|: "G"G2B2 | A>G F>F | A>A A2 | B>c A>F |1 G>B G>G :|2 G>B ||
+K:D
+A>A \
+|: "D"d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2 d>f d>d |*
+|: d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2 d2 z2 |] "G"HG4 |]**
+N:
+N:
+N:Arrangement Copyright 1999 Voluntocracy.
+N:
+N:Permission is granted to copy and distribute modified or unmodified versions of this music
+N:provided the copyright notice and this permission notice are preserved on all copies and the
+N:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/2913
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Rezijanka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rezijanka.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

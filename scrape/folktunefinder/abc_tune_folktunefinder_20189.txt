@@ -1,0 +1,26 @@
+X: 1
+T: The Shepherd's Wife
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G2A | B2c | d2g | g>fd | "C"e>fg | "G"dcB | "A(m)"A>BG | "D7"FED |
+y2| "G"G2A | B2c | d2g | g>fd | "C"e>fg | "D7"agf | "G"g3- | g2 ||
+g/a/ \
+| "G"b2b | "D"a>gf | "Em"g2g | "Bm"f>ed | "C"e>fg | "G"dcB | "A7"ABG | "D7"FED |
+y2| "G"b2b | "D"a>gf | "Em"g>ag | "Bm"f>ed | "C"e>fg | "D7"agf | "G"g3- | g2 |]
+S:https://www.folktunefinder.com/tunes/20189
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ShepherdsWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/ShepherdsWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ShepherdsWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/ShepherdsWife.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Ned Coleman's Jig
+T: Carolan's Fancy
+M: 2/2
+L: 1/8
+R: Double Jig
+Z: Rob Greenway <rgreenwa:NAS.EDU> IRTRAD-L 2000-11-06
+K: G
+|: EDE G2A | ~B3 dBd | edB GAB | ABA AGF |
+   EDE G2A | ~B3 dBd | edB GAB | AGF G3 :|
+|: dBd def | g2e fdB | ~A3 ABd | egf e2f |
+   gfe fed | edB g3  | edB ABc | BGF G3 :|
+S:https://www.folktunefinder.com/tunes/14750
+S:http://trillian.mit.edu/~jc/music/abc/jig/NedColemansJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/NedColemansJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/NedColemansJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NedColemansJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/NedColemansJig2.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

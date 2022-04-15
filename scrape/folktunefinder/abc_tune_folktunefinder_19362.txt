@@ -1,0 +1,30 @@
+X: 1
+T: the Giftie
+C: Barbara McOwen (1/92)
+N: Written for Muriel Johnstone at Marjorie McLaughlin's wedding
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C
+L: 1/16
+K: Bb
+e2 \
+| "Bb"dB3 B4 "F7"A3B c3A | "Bb"BF3 F3D "Eb"EFG2 "F7"C3E | "Gm"DB,3 B,3C "Dm"D3E F3D | "Cm"EG3 c3B "F7"Ac3 f3e |
+| "Bb"dB3 B4 "F7"A3B c3A | "Bb"BF3 F3D "Eb"EFG2 "F7"C3E | "Bb"DB,3 B,3A, "Eb"G,3B, EG3 | "Bb"FB3 "F7"B3A "Bb"B6 |]
+a \
+| "Bb"bB3 B4 "Bb7"dB3 B3d | "Eb"e3d c3B "F7"ABc2 F3A | "Gm"B3A GB3 "Cm"c3B Ac3 | "C7"d3c Bd3 "F7"cf3 fa3 |
+| "Bb"bB3 B4 "Bb7"dB3 B3d | "Eb"e3d c3B "F7"ABc2 F3E | "Gm"D3C B,3A, "Eb"G,3B, EG3 | "Bb"FB3 "F7"B3A "Bb"B6 |]
+S:https://www.folktunefinder.com/tunes/19362
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Giftie_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Giftie_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/Giftie_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

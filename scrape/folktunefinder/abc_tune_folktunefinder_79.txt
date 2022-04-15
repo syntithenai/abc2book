@@ -1,0 +1,23 @@
+X: 101
+T:10. WAVES OF TORY (48 bar jigs)
+T:Bonnets So Blue (A2, BC, BC)
+M:6/8
+K:G
+P:A
+D|"G"GAG GAB|"D7"DED DEF|"G"GBe dBG|"D7"ABA A2D|\
+"G"GAG GAB|"D7"DED D2e|"Em"dcB "D7"dcA|"G"(G3 G2) ::
+P:B
+A/2G/2|\
+|"D"FGA "A7"ABA|"D"(D3 D2)G|"D"FGA "D7"ABc|"G"d3 "D7"d2c|"G"B2A G2F|\
+"Em"E2F G2A|"Em"BcB "B7"AGF|"Em"(E3 E2)||
+P:C
+D|"G"GAB GAB|"G"GAB G2D|"G"GBe dcB|\
+"Am"AcB "D7"A2D|"G"GAB GAB|"Em"GAB G2e|"Am"dcB "D7"dcA|"G"(G3 G2):|
+S:https://www.folktunefinder.com/tunes/79
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set10.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

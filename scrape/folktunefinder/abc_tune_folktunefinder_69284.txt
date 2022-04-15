@@ -1,0 +1,27 @@
+X:425
+T: "Der Schlemmer"
+N: Z1105
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Romanze, Ballade
+M: 4/4
+L: 1/8
+K: G
+D2 | D3GG3B | B4d2
+d2 | d2c2A2A2 | B2BAB2
+D2 | D3GG3B | B4d2
+d2 | d2c2A2F2 | G4z2
+d2 | d2c2A2F2 | G2B2d2
+d2 | d2c2A2F2 | G2B2d2
+G2 | G3BB3d | d4B2
+d2 | d2c2A2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/69284
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

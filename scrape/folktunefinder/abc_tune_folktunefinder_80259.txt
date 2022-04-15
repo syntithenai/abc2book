@@ -1,0 +1,25 @@
+X:200
+T: Osterlied des 15. Jahrhunderts
+N: A0553C
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 No. 26
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/4
+K: D
+D2 | D4A4E4G4 | =F4E4D4z2
+D2 | A4B4=c4B4 | A4G4A4z2
+A2 | d4B4=c4A4 | G4=F4E4z2
+F2 | D4A4E4G4 | =F4E4D4E4
+=C3DE2D2 | G3EA3G | =F4E4
+S:https://www.folktunefinder.com/tunes/80259
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

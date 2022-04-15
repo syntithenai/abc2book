@@ -1,0 +1,25 @@
+X:4
+T:Angl
+N:From Salomon Carlstedt's manuscript, Blekinge county, 1813, M167
+M:2/4
+R:Engelska
+S:jonas_liljestrom <consolamentum@spray.se> tradtunes 2005-6-15
+K:G
+dc|:Bdg2 Bdg2|fac'2 c'afd|Bdg2 ec'ag|gfaf dedc|Bdg2 Bdg2|fac'2
+c'afd|Bdg2 bgaf|[1g2g2 g2dc:|[2g2g2 g2b2|:ad'af age^c|d^cd^c
+d2b2|ad'af age^c|d^cd^c d^de=c|Bdg2 Bdg2|fac'2 c'afd|Bdg2 bgaf|[1g2g2
+g2b2:|[2g2g2 g2z2||
+S:https://www.folktunefinder.com/tunes/15921
+S:http://trillian.mit.edu/~jc/music/abc/misc/Angl_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Angl_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Angl_1.abc
+% Rhythm Engelska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

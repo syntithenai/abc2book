@@ -1,0 +1,35 @@
+X: 1
+T: Bonnets o' Blue
+R: jig
+B: RSCDS 10-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Ross's Collection of Pipe Music.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"ded "Bm"fga | "A7"ABA ABc | "D"d2f afd | "A7"e3- e2f/e/ \
+| "D"ded "Bm"fga | "A7"ABA Afg | "D"agf "A7"ede | "D"d3- d2 :|
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"efg | "A"a3- "A7"a2g \
+| "D"fed "A7"cBc | "D"d2e "Bm"f2g | "F#m"agf "F7"edc | "Bm"B3- "E7"B2 ||
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"efg | "A"a3- "A7"a2g \
+| "D"fed "A7"cBc | "D"d2e "Bm"f2g | "Em"agf "A7"ede | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/13920
+S:http://trillian.mit.edu/~jc/music/abc/jig/BonnetsOBlue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/BonnetsOBlue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/BonnetsOBlue.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BonnetsOBlue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BonnetsOBlue.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BonnetsOBlue.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

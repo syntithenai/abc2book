@@ -1,0 +1,43 @@
+X:1
+T:Le vieillard et la vieille dame
+T:Le Bonhomme et la bonne femme
+C:Trad
+S:Dominique Renaudin <domren:free.fr> 2003-5-29 QueTrad
+O:Qubec
+Q:1/4=120
+R:reel
+M:2/4
+L:1/16
+K:D
+FG \
+|: ABAF DFAF | GFGB E2ed | cdcB ABcA | dedB A2FG | ABAF DFAF | 
+| GFGB E2ed | cdcB ABcA | dfec d2FG :: AddA d2cB | AccA c2BA | GBBG B2AG | 
+| FGAB F2FG | AddA d2cB | AccA c2BA | GBBG B2AG | Acec d2FG :|
+S:https://www.folktunefinder.com/tunes/16821
+S:http://trillian.mit.edu/~jc/music/abc/reel/BonhommeEtBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LeBonhommeEtLaBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LeVieillardEtLaVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/VieillardEtVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LeBonhommeEtLaBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LeVieillardEtLaVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/LeBonhommeEtLaBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BonhommeEtBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/VieillardEtVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/BonhommeEtBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/VieillardEtVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/BonhommeEtBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/LeBonhommeEtLaBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/LeVieillardEtLaVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/VieillardEtVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LeVieillardEtLaVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BonhommeEtBonneFemme_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/VieillardEtVieilleDame_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LeBonhommeEtLaBonneFemme_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

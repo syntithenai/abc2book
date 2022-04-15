@@ -1,0 +1,28 @@
+X: 1
+T: Ladies of Pleasure
+R: Morris jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: ABCBCB
+K: G
+P: A
+d \
+| "G"g2g B2c | d2B G2D | G>GG ABc | "D7"B2A A2d \
+| "G"g2g B2c | d2B G2D | G>GG ABc | "D7"B2A "G"G3 ||
+P: B
+|| "Am(D7)"A>AA cBc | A>AA cBc | "D7"ABc def | "(A7)"gfe "D7"d2d \
+| "G"g2g B2c | d2B G2D | G>GG ABc | "D7"B2A "G"G3 ||
+P: C
+|: "G"d3 g3 | g3 B3 | "C"c3 "D7"d3 | B3 "G"G2D | G>GG ABc |1 "D7"B2A A3 :|2 "D7"B2A "G"G3 |]
+S:https://www.folktunefinder.com/tunes/14492
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadiesOfPleasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LadiesOfPleasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadiesOfPleasure.abc
+% Rhythm Morris jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Kangaroo Jig
+C: Donna H\'ebert
+S: July 2007 tune from FiddlingDemystified.com
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces 1
+K: Dm
+|: "Dm"DFA DFA | "Dm"D(FA) "C"GF(E | "Dm"D)FA DFA | "C"{d}c=Bc GE(C- \
+|  "Dm"D)FA DFA | "Dm"DFA GFE | "C"{d}cGE CEG | "Am"{c}AGE "Dm"D2z :|
+|: "Dm"Add ({e}dcd | "C"e)d(c d)c(=B | "Dm"A)dd ({e}dcd) | "C"ef(g [aA])zA- \
+|  "Dm"Add ({e}dc)(d | e)d(c d)c(=B | "Am"c)GE "C"CEG | "Am"{c}AGE "Dm"z[AD] :|
+S:https://www.folktunefinder.com/tunes/14460
+S:http://trillian.mit.edu/~jc/music/abc/jig/KangarooJig_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/KangarooJig_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/KangarooJig_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KangarooJig_Dm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

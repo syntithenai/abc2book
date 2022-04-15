@@ -1,0 +1,28 @@
+X: 41
+T:Scale of F Major. HS.41
+M:C
+L:1/8
+S:Henry Stables MS,Cumbria,late19thC
+R:misc
+O:Walthwaite,nr.Ambleside.
+A:England
+N:Little crosses of uncertain meaning and position hereabouts.My guess is
+N:that they might be a teaching aid to show what else would have to be
+N:flattened to make Eb()..CGP
+Z:vmp.Chris Partington
+K:F
+F2G2"NB"A2B2c2d2""e2f2|f2""e2d2c2B2""A2G2F2|\
+FAGB AcBd cedf egfa gbaf gef2||
+S:https://www.folktunefinder.com/tunes/52744
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Misc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

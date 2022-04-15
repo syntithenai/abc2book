@@ -1,0 +1,27 @@
+X:249
+%%topmargin 3cm
+T:Bog an Lochan
+T:The Bog, or Small Lake
+T:Athole Cummers
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Stathspey
+M:C
+L:1/8
+K:D mixolydian
+F |: E/E/E ~E2 E>FB>F | E/E/E ~E2 {/G}(F<D)A>F | E/E/E ~E2 D>FB>A | [1 (B<{/c}d)A>d {/G}F>DA>F :|
+[2 B<dA<d (F<D)D>d |: B<ET(B>A) B<EE>e | B<ET(B>A) {/G}(F<D)D>d | B<ETB>A {/c}d>eT(f>e) | [1 {/^c}(d/^c/).B/.A/ {/c}d>A {/G}(F<D)D>d :|
+[2 {/^c}(d/^c/).B/.A/ {/c}d>A {/G}Ff || e/e/e {/f}e2 (e>f)(b>f) | e/e/e {/f}e2 f>da>f | e/e/e {/f}e2 (e>f)b>f | {/f}(g<e)b>e {/^c}(df/g/) a>f |
+{/f}(g>e)(b>e) {/f}(g<e)(b>e) | {/f}(g<e)(b>e) {/^c}(df/g/) a<f | {/f}(g<e)(b<e) {/^c}d>eT(f>e) | {/^c}(d/^c/).B/.A/ {/c}d>A {/G}(F<D)D>{/^c}d ||
+B<ET(B>A) (B<E)E>e | B<ET(B>A) {/G}(F<D)D>d | B<ET(B>A) {/^c}d>eT(f>e) | {/^c}(d/^c/).B/.A/ {/c}d>A {/G}Fd |
+B<ET(B>A) (B<E)E>e | B<ET(B>A) {/G}(F<D)D>d | B<ET(B>A) {/^c}d>eT(f>e) | {/^c}(d/^c/).B/.A/ {/c}(dA) {/G}F>DD |]
+S:https://www.folktunefinder.com/tunes/70996
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Stathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

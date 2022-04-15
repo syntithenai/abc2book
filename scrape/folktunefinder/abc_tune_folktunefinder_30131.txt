@@ -1,0 +1,20 @@
+X:0
+T:Jock Wilson's Ball
+G:reel
+M:C|
+L:1/8
+Q:1/2=100
+K:AMix
+% mixolydian/dorian hexatonic, A-final G-gap (one inconspicuous g)
+B|d2c2 B2f2 |Bcde  f>BB>c|d2 c2  B2f2 |A2e>A c<AA :|
+B|d2a2 f2e<f|d2f>e f>BB>c|d2 a2  f2e<f|A2e>A c<AA>B|
+  d2a2 f2e<f|d2f>e f>BB>c|d>ef>g a2a>f|e2e>d c<ee |]
+An E-final dorian mode pipe march ending on B:
+S:https://www.folktunefinder.com/tunes/30131
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

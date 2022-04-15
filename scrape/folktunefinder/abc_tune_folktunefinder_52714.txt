@@ -1,0 +1,28 @@
+X: 11
+T:La Elizabeth. HS.11
+T:Elizabeth,La. HS.11
+M:2/4
+Q:60
+C:"Set of Quadrilles,No5"
+S:Henry Stables MS,Cumbria,late19thC
+R:Quadrille
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+"Finale"d|f>f f>f|ff g/f/e/f/|age2|age2|\
+f>f f>f|ff b/f/e/d/|!
+cee2|cee2|\
+f>f f>f|ff g/f/e/f/|gab2|!
+ga bg|ff/f/ ff|ee/e/ ee|dd/d/ dd|d3::!
+d'/d'/|d'a3/4a/4 af3/4f/4|fd3/4d/4 df|age2|ba fa|!
+d'a3/4a/4 af3/4f/4|fd3/4d/4 df|ag ec|e2d||
+S:https://www.folktunefinder.com/tunes/52714
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

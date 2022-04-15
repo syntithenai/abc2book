@@ -1,0 +1,38 @@
+X: 1
+T: Ut\uar\vcinska R\ua\vcenica
+R: rachenica
+O: Bulgaria
+N: From handwritten Mandala ms labelled "jm 11.8.79"
+M: 7/16
+L: 1/16
+%%staffsep 50
+K: APhr^c
+"A"
+|: "Gm"gafe dcd | ~e2dc BAG | "A"AE~c2 BAG |1,3 ABcd efg :|2,4 A2z2 z3 :|
+K: Amix
+"B"
+|: "A"AEdE cde | ~c2BA ~e2A | AEdE cde |1,3 ~c2BA AEA :|2,4  ~c2BA ~A3 :|
+"C"
+|: "A"eE~c2- cde | ~c2BA ~e2E | eE~c2- cde |1,3 ~c2BA AEA :|2,4  ~c2BA ~A3 :|
+"D"
+|: "A"z2 ag feg | "D"fAdf edc | "E7"BcdE dcB |1,3 cA~B2 "A"Ace :|2,4 "A"~c2BA A3 :|
+"E"
+|: "E7"Bcd2- dcB | "A"cEeE ABc | "E7"Bcd2- dcB |1,3 cA~B2 "A"Ace :|2,4 "A"~c2BA A3 :|
+"C"
+|: "A"eE~c2- cde | ~c2BA ~e2E | eE~c2- cde |1,3 ~c2BA AEA :|2,4  ~c2BA ~A3 :|
+S:https://www.folktunefinder.com/tunes/3153
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/UtarchinskaRachenica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RACH5.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rach_5.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rach_Utarchin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/UtarchinskaRachenica.abc
+% Rhythm Rachenica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 7/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

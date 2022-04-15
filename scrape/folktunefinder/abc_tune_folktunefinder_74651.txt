@@ -1,0 +1,22 @@
+X:1492
+T: The Bashful Bachelor
+M:C|
+L:1/8
+N:"collected by J. O'Neill"
+B:O'Neill's 1443
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+Z:Ornament (~) is a mordant.
+K:D
+D2 FA     d2 AF  | d2 (fd)  ecAc | d2 (Ad)   BAGF   | EFGE (~FD) D2  |
+D2 FA     d2 AF  | d2 (fd)  ecAc | defg     a2 (af) | bgeg  (fd) d2  ||
+d2 dg ((3fga) fd | g2  bg  e2 cA | d2 dg ((3fga) fd | ecAc   d2 (FA) |
+d2 dg ((3fga) fd | g2  bg  e2 fg | afge      fdec   | dBAG  (FD) D2  |]
+S:https://www.folktunefinder.com/tunes/74651
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

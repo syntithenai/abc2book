@@ -1,0 +1,28 @@
+X: 1
+T: Gillian's Air
+C: Muriel Johnstone
+R: air
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: E2 \
+| "A"A4 "E"ed cB | "F#m"A2 (3ABc "D"dc BA | "Bm"F3 A "A"EA ce | "Bm"f2 B2 "E7"B2 E2 |
+| "A"A2- (3AGA "E"ed cB | "F#m"A2 (3ABc "D"dc BA | "Bm"F3 A "E7"GF EG | "A"A2- "D"AB "A"A2 :|
+|: (3ABc \
+| "Bm"dc BA "E7"E2 e>d | "A"cB AE "D"F3 E | "Bm"D2 f2 "A"EA ce | "Bm"Bc de "E7"f3 g |
+| "A"a2 (3agf "E7"ed "C#"cB | "F#m"A2 (3ABc "D"dc BA | "Bm"F2 A<F "E7"G>F E<G | "A"A2- "D"AB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/13186
+S:http://trillian.mit.edu/~jc/music/abc/air/GilliansAir_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/GilliansAir_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/GilliansAir_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/GilliansAir_A.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Santa Lucia [G]
+O: Italy
+Z: John Chambers <jc@trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: G
+[| "G"D2 D3 G | "D7"GF F4 | "C"C2 C3 E | "G"E2 {D}D4 \
+| "E7"B,2 E2 D2 | "Am"D_DC4 | "D7"C2 B,2 A,2 | "G"E2 D4 |]
+|: "G"B2 A2 G2 | "Am"FE A4 | "C"A2 G2 E2 | "G"^CD G4 \
+| "G"(BG) (GD) (DB,) | "Am"(CA) A4 |1 "D7"A2 E3 F | A2 "G"G4 :|2 "D7"A2 B3 A | A2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/20425
+S:http://trillian.mit.edu/~jc/music/abc/xmas/SantaLucia_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/SantaLucia_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/SantaLucia_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/xmas/SantaLucia_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

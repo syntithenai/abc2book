@@ -1,0 +1,67 @@
+X: 1
+T: Padstow May Song
+O: Trad
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: For Mayday rituals.
+M: 2/4
+L: 1/8
+K: G
+P: Fast
+D \
+| "G"D2 "D7"EF | "G"G2 "D7"A2 | "G"G>F GF | G2 D2 | "C"EE "D7"FF | "G"G2 DB, | "D7"A,3 D |
+| ED GA | "G"G2 "D7"FD | "G"G>D GA | d2 cB | "C"AB c2 | "D7"B2 AF | "G"G4- | G2 z :|
+P: Slow
+M: 3/4
+L: 1/4
+|: D | "G"GGG | G2D | GAB | "D7"A2B | "C"EFG | "(Am)"AHE ","A | "D7"ABc | BAF | "G"G2 |]
+W: Unite and unite and let us all unite
+W: For summer is a-come unto day
+W: And whither we are going, we will all unite
+W: In the merry morning of May
+W:
+W: With a merry ring and
+W: Now the joyful spring
+W: O give us a cup of ale
+W: And the merrier we will sing
+W:
+W: The young men of Padstow,
+W: They might if they would
+W: They might have built a ship
+W: And gilded it all in gold
+W:
+W: The young women of Padstow,
+W: They might if they would
+W: They might have built a garland
+W: Of the white rose and the red 
+W:
+W: Where are those young men
+W: That now here should dance
+W: For some they are in England
+W: And some they are in France
+W:
+W: O where is St. George
+W: O where is he o 
+W: He's out in his longboat
+W: All on the salt sea-o
+W:
+W: Up flies the kite
+W: Down falls the lark-o
+W: And Ursula Birdhood, she had an old ewe
+W: And she died in her own park-o
+W:
+W: With a merry ring
+W: And now the joyful spring
+W: So happy are those little birds
+W: And the merrier we will sing
+S:https://www.folktunefinder.com/tunes/18912
+S:http://trillian.mit.edu/~jc/music/abc/song/PadstowMaySong.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/song/PadstowMaySong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

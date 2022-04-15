@@ -1,0 +1,31 @@
+X:90
+T: Garden of Daisies, The
+T: Gort Na Noininead
+C: "collected by Tuohy"
+S: 1798 O'Neill's Music of Ireland
+N: :2nd Setting
+N: Notation for last 2 notes of the first ending of the first part don't account for the
+N: 2 note lead-in. Endings 1 and 2 in second part seem to be reversed.
+B: O'Neill's 1798
+Z: Transcribed by Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: C|
+L: 1/8
+K: D
+f-g|a2 a-f gbag|fefa gfef|dcde fdec|dedc AGFG|
+ABcA dcAG|FEFG ABcA|dcdf edce|1 d2 dd defg:|2 d2 dd d2||
+A2|dcde fefg|a2 a-f defg|a2 a-f ggag|f2 f-e defg|
+a2 a-f gbag|fefa gfef|dcde fdec|dedc A2 f-g|
+a2 a-f gbag|fefa gfef|dcde fdec|dedc AGFG|
+ABcA dcAG|FEFG ABcA|dcdf edce|1 d2 dd d2:|2 d2 dd defg||
+S:https://www.folktunefinder.com/tunes/78017
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1781-1800_rt.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

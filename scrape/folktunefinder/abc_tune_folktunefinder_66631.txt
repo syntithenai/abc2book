@@ -1,0 +1,31 @@
+X:3
+T:The Cliffs of Moher
+C:Traditional
+N:Play last 8 bars,
+N:then 3 times through
+N:The Corofin Plain Set, Figure 2, Tune 1 of 1
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+L:1/8
+M:6/8
+K:Ador
+eaa bag | eae ged | c2 A BAG | EAA Bcd |
+eaa bag | eae ged | c2 A BAG | EGG A3 :||
+~e3 dBA | ~e3 dBA | GAB dBA | GAB dcd |
+[1 ~e3 dBA | ~e3 dBA | GAB dBA | DEG A3 :|| 
+[2 ~e3 ~d3 | ~c3 ~B3 | ~A3 AGE | DEG A3 ||
+S:https://www.folktunefinder.com/tunes/66631
+S:http://theflow.org.uk/text/flow_corofin.txt
+S:http://www.theflow.org.uk/text/flow_corofin.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

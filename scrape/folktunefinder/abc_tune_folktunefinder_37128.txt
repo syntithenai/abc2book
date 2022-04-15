@@ -1,0 +1,25 @@
+X:5245
+T:Saddle The Pony
+M:6/8
+O:Scotland
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bb8.html
+%%ID:00000bb8
+K:G
+GBA G2B| def gdB| GBA G2B| AFD AFD|\
+GBA G2B| def gfg| ege dBA| BGG G3::\
+efe edB| def gfg| efe edB| dBA ABd|\
+efe edB| def geg| ege dBA| BGG G3:|
+S:https://www.folktunefinder.com/tunes/37128
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

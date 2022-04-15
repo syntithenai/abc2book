@@ -1,0 +1,26 @@
+X: 44
+T: 2. Tam's Hunting Horn
+M: 6/8
+L: 1/8
+% Q: 1330
+R: JIG
+K: D
+|: A |\
+"D" dfA d2 A | dfA d2 f | "D" a2 f "Bm" fed | "E" e>fe "A" ecA |
+"D" dfA d2 A | dfA d2 f | "D" a2 f "A"  efe | "D" d3       d2 :|
+|: e|\
+"D" f3 "G" gfg | "D" a3 f2 g | "D" a>gf "Bm" fed | "E" efe "A" ecA |
+"D" f3 "G" gfg | "D" a3 f2 g | "D" a>gf "A"  efe | "D" d3      d2 :|
+%%newpage
+%
+%%textfont Times-Roman 8
+%%text November 2005 Dance page page 25 of 31
+S:https://www.folktunefinder.com/tunes/40147
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

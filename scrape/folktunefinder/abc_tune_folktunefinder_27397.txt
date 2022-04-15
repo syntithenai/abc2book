@@ -1,0 +1,22 @@
+X:6945
+T:The Indian Princess
+O:England
+M:4/4
+L:1/8
+Q:1/4=
+K:D
+V:1
+f2 "A7" g2  ||"D" aa/f/ df "A" e2 A2 |"D" FA Af "A" e3 f/g/|"D" a a/f/"Bm" d f"A" e2 A2 |
+|1 "D" FA "A7" Af "D" d3 f/g/:|2 "D" F A"A7" A f"D" d3 c/d/||  |:"A" e/d/ c/B/A e"F#7" f c"Bm" d B|"Bm" f/g/ a"E7" b ^g"A" a3 e/f/|
+"G" g/f/ e/d/"A" c a"G" B g"D" A f/g/|1 "Em" e d"A7" e c"D" d3 c/d/:|2 "Em" e d"A7" e c"D" d3 f/g/||"Em" e d"A7" e c"D" d2 Hz2 |
+[Hd4F4 A,4]z4 ||
+S:https://www.folktunefinder.com/tunes/27397
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

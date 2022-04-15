@@ -1,0 +1,85 @@
+X: 6
+T: Punter's Graveyard
+M: 4/4
+L: 1/8
+Q:1/4=200
+% Last note suggests Mixolydian mode tune
+K:D % 2 sharps
+% Punter's Graveyard
+% (c) Daniel Compton
+V:1
+% Midi 1
+% C:Daniel Compton
+B3c dB B/2 (3c/2B/2A/2B/2| \
+fg fe dc dB| \
+AB cd2<c2B| \
+AB cd cA  (3AAA|
+B2 Bc dB B/2 (3c/2B/2A/2B/2| \
+fg fe de fg| \
+aA  (3AAA c2 cd| \
+ed cA2<B2A|
+B3c dB B/2 (3c/2B/2A/2B/2| \
+fg fe dc dB| \
+AB cd2<c2B| \
+AB cd cA  (3AAA|
+B2 Bc dB B/2 (3c/2B/2A/2B/2| \
+fg fe de fg| \
+aA  (3AAA c2 cd| \
+ed cA2<B2A|
+BF  (3FFF GB dB| \
+Ac ac bc ac| \
+bf f/2 (3g/2f/2e/2f/2 bf af| \
+ec  (3ccc eg fd|
+BF  (3FFF GB dB| \
+Ac ac bc ac| \
+bf f/2 (3g/2f/2e/2f/2 bf af| \
+eg fd2<B2A|
+BF  (3FFF GB dB| \
+Ac ac bc ac| \
+bf f/2 (3g/2f/2e/2f/2 bf af| \
+ec  (3ccc eg fd|
+BF  (3FFF GB dB| \
+Ac ac bc ac| \
+bf f/2 (3g/2f/2e/2f/2 bf af| \
+eg fd2<B2A|
+V:2
+B,,z [FDB,]z B,,z [FDB,]z| \
+D,,z [A,F,D,]z D,,z [A,F,D,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+F,,z [CA,F,]z F,,z [CA,F,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+D,,z [A,F,D,]z D,,z [A,F,D,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+A,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+D,,z [A,F,D,]z D,,z [A,F,D,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+F,,z [CA,F,]z F,,z [CA,F,]z|
+B,,z [FDB,]z B,,z [FDB,]z| \
+D,,z [A,F,D,]z D,,z [A,F,D,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+A,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z G,,z [DB,G,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+B,,z [FDB,]z G,,z [DB,G,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z B,,z [FDB,]z|
+B,,z [FDB,]z G,,z [DB,G,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+B,,z [FDB,]z G,,z [DB,G,]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+B,,z [FDB,]z B,,z [FDB,]z| \
+A,,z [ECA,]z B,,z [FDB,]
+S:https://www.folktunefinder.com/tunes/81645
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

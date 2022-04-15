@@ -1,0 +1,33 @@
+X: 6
+T: Ajdza Milim Ajdza Dragim
+O: Croatia
+M: 2/4
+L: 1/16
+Q: 1/4=180
+P: AAB2
+K: BDor
+%%MIDI gchord fzfz
+%%MIDI program 25
+%%MIDI bassprog 32
+%%MIDI bassvol 70
+P:A
+  "B"bbbba2a2|"F"a2g2f2f2|"E"bbbbg4  |"E"g2f2e4   |\
+  "F#"f2g2a4 |a2g2f4     |"E"ggggg4  |"B"bbbbb4   |
+  "B"bbbba2a2|"F"a2g2f2f2|"B"bbbbg4  |"C#"g2f2e4  |\
+  "F#"f2g2a4 |a2g2f4     |"E"ggggg4  |z8          |
+P:B
+K: F#m
+%%MIDI gchord fzzz
+|:"B"bbbbb2z2|b2b2b4     |"A"a2b2g2a2|a2a2a4      |\
+  "E" e6g2   |a2ggg4     |"F#"e4ffff-|f4z4        :|
+S:https://www.folktunefinder.com/tunes/67892
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

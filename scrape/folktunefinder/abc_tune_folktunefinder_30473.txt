@@ -1,0 +1,23 @@
+X:820
+T:On dit qu ia quinze ans
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000016c.html
+%%ID:0000016c
+K:D
+d2f e2f| {e}d2e d2c| BAB B2c| d3 A3|\
+d2f e2f|  {e}d2e d2c| B2A B2c| d3 d3::
+f2f fef| g3 g2e| fga agf| f3 e3|\
+f2f fef| g3 g2e| fga agf| f3 e3:|
+S:https://www.folktunefinder.com/tunes/30473
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

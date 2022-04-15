@@ -1,0 +1,27 @@
+X:235
+T: Adje, jetzt mu ich fort (3-38), S. 117
+N: P1010
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Abschiedslied]
+M: 2/4
+L: 1/16
+K: G
+D3G | G4A4_B2d2c2_e2 | d8z4
+d4 | _e4d4c2d2c2A2 | _B8z4
+B4 | d4_B2c2 | d4d4c2_B2A2
+c2 | c6d2A2_B2c2A2 | _B2G2A4G4
+d2c2 | d4_B2A2 | G8z4
+S:https://www.folktunefinder.com/tunes/76215
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Abschiedslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:191
+%%topmargin 3cm
+T:Miss Stewart's Strathspey
+T:Pittyvaich
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+G>DG<(B G,>)B,G,>(B | c>)ATB>G E<A-[DA3/2]B/ | G>DG<(B G,>)B,G,~g | d>BTA>G DG G2 :|
+G<g Tg2 (d>g)b>g | a>gb>g Aa- ~a2 | d<g Tg2 (d>g)b>a | g<e~d>B DG- G2 |
+G<g Tg2 (d>g)b>g | a>gb>g Aa- ~a2 | g<db>a g>de<g | dG DG G2 |]
+S:https://www.folktunefinder.com/tunes/71221
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Stewarts_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Pittyvaich.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0191.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

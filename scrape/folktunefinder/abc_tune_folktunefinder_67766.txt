@@ -1,0 +1,30 @@
+X: 63
+T:Ivanovo Oro
+O:Macedonia
+S:Ciga/Ivon Despotovic
+L:1/8
+M:11/8
+Q:1/4=160
+I:Percussive instrument recommended for bass
+%%MIDI gchord f2f2f3f2f2
+%%MIDI beatstring fpmpmppmpmp
+K:Dm
+|:"d" AB c2  c3 cBAG  |AB c2 c3 c2 z2 :|\
+|: AB c2  c3 f2 c2 |AB c2 c3 c2 z2 :|
+|: AB c2  c3 f2 c2 |AB c2 c3 c2 z2 :|\
+fg f2 fe2 d4| fg f2 fe2 d4|
+ fe f2 f3 f2 g2| fe f2 fe2 d4|\
+Ac dz d3 f2 g2| fe f2 f3 fed2|
+Ac dz d3 f2 g2| fe f2 f3 fed2|\
+|: c2 f2 _e2d c2 f2| c2 f2 _e2d  ed c2:|
+|: AB c2 c3 d2 c2| AB c2 c3 c2 z2 :|
+S:https://www.folktunefinder.com/tunes/67766
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 11/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

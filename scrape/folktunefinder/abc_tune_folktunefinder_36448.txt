@@ -1,0 +1,24 @@
+X:1845
+T:French Schottis #1
+M:4/4
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000706.html
+%%ID:00000706
+K:G
+Bd cA B2 GB|Bd cA B2 GD|EF (G2 G)A BG\
+|1 cB Ac B2 GB :|2 cA FA G4::
+ef ef e3f|ef ef d3e|ed (c2 c)B AB\
+|1 cB Ac B2Ge :|2 cA FA G4 :|
+S:https://www.folktunefinder.com/tunes/36448
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

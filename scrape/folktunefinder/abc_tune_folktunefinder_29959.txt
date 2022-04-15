@@ -1,0 +1,31 @@
+X: 1
+T: Once I Caught A Fish Alive
+M: 2/4
+L: 1/8
+R: polka
+K: Dmaj
+|: f2 f2 | ed d2 | cd ef | ag g2 |
+g2 g2 | fe e2 | dc Bc |[1 BA A2 :|[2 ed d2 ||
+|: af f2 | af f2 | af bf | ag g2 |
+ge e2 | ge e2 |[1 ge ag | gf f2 :|[2 ag fe | d2 d2 ||
+K: Gmaj
+B2 B>B | AG G>G | FG AB | dc c2 |
+c2 c>c | BA A>A | GF EF | ED B,/C/D |
+B2 Bc/B/ | A/B/A/G/ F>G | E/F/G AA/B/ | dc c/d/c/B/ |
+c2 cd/c/ | BA- AB/A/ | G/A/G/F/ EF | AG G2 ||
+dB B>c | dB- B>c | dB eB | dc- c>B |
+cA A>B | cA- A>B | cA dc | cB B/c/B/c/ |
+dB BB/c/ | dB B/c/B/c/ | dB e/f/e/B/ | dc cA/B/ |
+cA- A>B | cA F/G/A/B/ | dc B/c/B/A/ | GF E/F/E/D |]
+S:https://www.folktunefinder.com/tunes/29959
+S:http://www.thesession.org/tunes/display/8629
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:4960
+T:Portabelo
+A:North-West
+M:4/4
+N:Play in a pair with Brighams, 00000bfc
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bfb.html
+%%ID:00000bfb
+K:G
+(3DEF|\
+G2GA G2de | dcBA GABG | A2AB A2GA | BABG EDEF |
+G2GA G2de | dcBA GABc | dBGB cAFA | A2G2 G2  :|
+|:Bc\
+d2de d2ef | gfed     (e2e)f | edcB cBAG | FGAB A2AB |
+c2ec BcdB | cA (3BAG A2Bc   | dBGB cAFA | A2G2 G2  :|
+S:https://www.folktunefinder.com/tunes/37071
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

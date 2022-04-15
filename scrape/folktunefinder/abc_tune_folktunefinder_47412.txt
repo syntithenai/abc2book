@@ -1,0 +1,27 @@
+X:16137
+T: Sva Nok le, Nado
+C:
+O: Makedonija
+M: 4/4
+R: slow pravo
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+L: 1/8
+K: F
+P: Instr.
+[| "C"[c3e] [df] [ce][Bd] [Bd][Ac] | "F"[Ac][G2B] [Ac] [GB][FA] [FA][FC] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[FA][GB] [FA][CG] [FA][GB] [Ac][Bd] |
+| "C"[dB][ce] [ce][df] [ce][Bd] [Bd][Ac] | "C7"[Ac][B2G] [Ac] "F"[GB][FA] [F2A] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[F8A] |]
+P: Vocal
+[| "F"([F3A] [GC]) [F2A] ([FA][GB]) | ([A3c] [GB]) ([GB][FA][F2A]) \
+S:https://www.folktunefinder.com/tunes/47412
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Slow pravo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

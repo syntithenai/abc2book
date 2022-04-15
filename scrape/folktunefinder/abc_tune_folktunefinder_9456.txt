@@ -1,0 +1,17 @@
+X: 11
+T: Sju vackra flickor i en ring
+T: Seven pretty girls in a ring
+M: 3/4
+L: 1/8
+K: D
+[| "D"A2 AB AG | F2 A2 D2 |     A2 AB AG  | F2    A2 D2 |
+|  "A"E2 EE EE | C2 E2 A2 | "E7"c2 cB A^G | B2 "A"A2 z2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/9456
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_t.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

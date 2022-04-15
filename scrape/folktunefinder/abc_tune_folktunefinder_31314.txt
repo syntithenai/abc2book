@@ -1,0 +1,26 @@
+X: 807
+T:My Mother says I manna
+M:6/8
+R:Jig
+K:D
+"Allegretto"D|\
+FGA "tr"B2A| d2c "tr"B2A| \
+GAF "tr"E2D| Dd2 z2D|\
+FGA "tr"B2A| d2c "tr"B2A|
+GAF "tr"E2D| Dd2 z2::\
+d|\
+c2d edc| d2c B2A| \
+"tr"c2d e2E| E/F/GF "tr"E2D|
+c2d edc| d2c B2d| AGF "tr"E2D| DdD DdB| AGF E2D| Dd2 z2:|
+S:https://www.folktunefinder.com/tunes/31314
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

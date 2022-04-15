@@ -1,0 +1,59 @@
+X:120
+T:Quadrille toulonnais : La noce  Fricotto
+%%continueall 1
+O:France
+A:Provence
+C:
+R:Quadrille
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+T:1re figure : Pantalon
+FA |cFA cFA | c3- ced | ced BAG | A3 FFA | cAc cAc | c3-ced | cdc BAG | F2zF2z ||
+ecd ecd | egf edc | dfe dgf | e3 cAc | ecd ecd | egf edc | =BAG fed | c3- cAc | cFA cFA |
+c3- ced | cdc BcB | A3 FFA | cFA cFA | c3-ced | cdc BAG | F2zF2z || [K:Eb] d3f3 | e3- eAB | c3e3 | d3-ddd | d3f3 |
+g3 gce | d3c3 | B3- BFA !D.C.! |]
+T:2me figure : L't
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+K:Bb
+M:2/4
+GB || B2dc | B3A/B/ | cedc | d2FB | B2dc | B3A/B/ | cedc | B3B!fine! ||
+FdFd | B2d2 | cABc | d2B2 | FdFd | B2d2 | cBcG | FF/F/ FF | eecc | d2B2 | ccAA | B2F2 | eecc | d2B2 | cAFc | B2 |]
+T:3me figure : Poule
+M:6/8
+K:F
+AB || c3- cfA | c3cBA | GAB cdc | A3 FAB | c3- cfA | c3- cBA | GAB cdc | F3 fef | d2d _edc | B3 BcB | ABc d_ec | d3 fef | d2d _edc |
+B3 BcB | ABc dec | B3- BAB | c3- cfA | c3 cBA | GAB cdc | A3 FAB | c3-cfA | c3-cBA | GAB cde | [K:Bb] f2dd2f | f2dd2f | e2e edc |
+d3 B2f | f2dd2f | f2dd2f | e2e edc | B3-BAB !D.C.! |
+T:4me figure : Pastourelle
+M:2/4
+K:Bb
+F/B/ | dd/d/ dd/c/ | BB/B/ Bc/B/ | AA/A/ AB/c/ | d2 BF/B/ | dd/d/ dd/c/ | BB/B/ Bc/B/ | AA/A/ AG/A/ | B>z z2 ||
+B4 | Fd F>B | d4 | BF B>d | c4 | AF A>c | e4 | dF G>A | B4 | Fd F>B | d4 | BF B>d | c4 | AF A>c | B4- | BF FF |
+c3A | FA G>F | d4 | Bd dd | c3d | =e3d | cB A>G | FF zF/B/ ||
+T:5me figure : Finale
+M:2/4
+K:F
+FF/A/ | cdcd | c2 FF/A/ | cdcA | B2 BB/c/ | B2 BB/c/ | B2 cB/c/ | edcG | A2 FF/A/ | cdcd | cFFA | cdcA |
+ B2 BB/c/ | BcBc | B2 BB/c/ | ee/d/ c/B/A/G/ | fz || ff | cc/d/ cB | A2 FF | cc/d/ cB | A2 cc | BAGF | EFGA | B2G2 | A2FF |
+cc/d/ cB | A2 FF | cc/d/ cB | A2 cc | BAGF | GABd | c2c2 |G3 || [K:Bb] F | d2d2 |d>c B>c | d2B2 | c3F | c2c2 | c>e d>c |
+B2c2 | d3F | d2d2 | d>c B>c | d2B2 | c3F | c2c2 | c>e d>c | d2c2 | B2 !D.C.! ||
+%%begintext
+S:https://www.folktunefinder.com/tunes/40318
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Quadrille
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

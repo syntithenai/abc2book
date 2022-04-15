@@ -1,0 +1,26 @@
+X:238
+T: ES GING EIN MAEDCHEN GRASEN
+N: Z0237
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Jaeger - Lied (Maedchen will als Knabe geboren sein, um Jaeger werden
+M: 4/4
+L: 1/8
+K: G
+D2 | G3ABcd2 | e2c2z2
+d2 | e2f2g2fe | d2z4
+dd | g2d2dcBc | e2d2z2
+dc | BBBBcBcA | B2c2d2
+ef | g2dcB3A | G2z4
+S:https://www.folktunefinder.com/tunes/69097
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied (maedchen will als knabe geboren sein, um jaeger werden
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

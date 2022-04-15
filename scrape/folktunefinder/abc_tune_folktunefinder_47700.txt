@@ -1,0 +1,30 @@
+X: 163
+T:Prussian Grand Waltz. JaW.163
+M:3/4
+L:1/8
+Q:120
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+(ABc)|"$".d2.d2.d2|d4d'c'|(bagfed)|c2e2(Ac)|!
+.e2.e2.e2|e4(ag)|(fedcBA|d4:|!
+|:{e}(dc)|dfgabc'|d'4a2|(a2g2e2)|(g2f2d2)|!
+(dfgabc')|d'4a2|abagfe|d4:|!
+|:de|.f2.f2 (fg)|.e2.e2 (ef)|.d2.d2 (df)|(ecA2) (de)|!
+.f2.f2 (fg)|.e2.e2 (ef)|(dA)(df)ed|d4:|]
+S:https://www.folktunefinder.com/tunes/47700
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

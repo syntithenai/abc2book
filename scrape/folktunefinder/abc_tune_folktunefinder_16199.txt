@@ -1,0 +1,32 @@
+X: 1
+T: Polkett Dal-Jonke
+O: Sweden
+O: arr. Olof Lindgren
+R: polkett
+Z: 2007 by John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 2/4
+L: 1/8
+K: G
+V: 1
+|: dg/d/ Bd/B/ | GB DG | Bd gf/g/ | ba a2 \
+| ce/c/ Ac/A/ | FA DF | Ad fe/f/ | ag gz :|
+|: a2 ag/a/ | ba fd | dg gf/g/ | bg e2 \
+| c2 c>B | Ad f>e | dg b>a | gg gz :|
+V: 2
+|: "G"BD GD | B,D CB, | G,B BA/B/ | "Am"dc cA/F/ \
+| "D7"Ac/A/ FA/F/ | DF DC | CB, A,/A/G/A/ | "G"cB BD/G/ :|
+|: "D7"c/B/A/G/ F/A/B/c/ | d/e/f/e/ d/D/F/A/ | "G"B/c/B/A/ BA/B/ | dB "C"G2 \
+| "Am"A/B/A/F/ D/E/F/G/ | "D7"F/E/F/A/ d/D/F/A/ | "G"B/c/B/A/ "D7"G/F/G/A/ | "G"[BD][BD] [BD]z :|
+S:https://www.folktunefinder.com/tunes/16199
+S:http://trillian.mit.edu/~jc/music/abc/polka/Polkett_Dal-Jonke_G_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Polkett_Dal-Jonke_G_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polka/Polkett_Dal-Jonke_G_2V.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

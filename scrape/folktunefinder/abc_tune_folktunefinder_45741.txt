@@ -1,0 +1,23 @@
+X:3
+T:Kdyz jsem jel do Prahy
+O:Tjechie
+M:3/4
+L:1/8
+Q:1/4=121
+K:F
+V:1
+|:"F" ~F2 A2 A2 |~A2 A2 A2 |c2 B4 |~A2 "C" G4 |
+E2 G2 G2 |G2 G2 G2 |B2 A4 |GE "F" F4 :|
+M:4/8
+|:"F" [F3/2C3/2][A/F/][AF][AF]|[AF][AF][A2F2]|[cA][cA][B2G2]|"C" [AF][AF][G2E2]|
+[E3/2C3/2][G/E/][GE][GE]|[GE][GE][G2E2]|[BG][BG][A2F2]|"F" [GE][EC]F2 :|
+S:https://www.folktunefinder.com/tunes/45741
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/8
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

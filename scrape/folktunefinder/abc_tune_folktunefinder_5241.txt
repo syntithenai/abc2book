@@ -1,0 +1,36 @@
+X: 1
+T: Ikariatikos
+T: Dance from Ikaria
+R:
+O: Ikaria, Greece
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K:  Bm
+P: Intro
+|: A2 Bc dc de | Tc2- cd cd TB2 \
+ | A2 Bc dc de | Tc2- cd cd TB2 :| \
+|: "4"z2 "bars"[Bdf][Bdf] [B2d2f2] [B2d2f2] :|
+P: A
+|: B2 ff f2 f2 | ef ed cd e2 \
+ | B2 ff f2 f2 | ef ed cd e2 |
+ | B2 ff f2 f2 | ef ed cd e2 \
+ | B2 ff f2 f2 | ef ed cd B2 ||
+P: B
+|| A2 Bc dc de | c2- cd cd B2 \
+ | A2 Bc dc de | c2- cd cd B2 |
+ | A2 Bc dz de | c2- cd cd B2 \
+ | A2 Bc dc de | c2- cd cd B2 :|
+P: Coda
+z2 [Bdf][Bdf] [B2d2f2] [B2d2f2] | z2 [Bdf][Bdf] [B2d2f2] [B2d2f2] | .[Bdf] z3 z4 |]
+S:https://www.folktunefinder.com/tunes/5241
+S:http://trillian.mit.edu/~jc/music/abc/Greece/Ikariatikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ikariatikos.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

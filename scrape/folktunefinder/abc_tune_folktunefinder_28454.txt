@@ -1,0 +1,26 @@
+X:8002
+T:Wee Highland Laddie
+O:england
+R:March
+C:Trad., arr. Hamish Moore
+S:Hamish Moore's School of Piping
+M:4/4
+L:1/8
+K:D
+{g}B2{GdGe}B{d}c {g}f2{g}ed|{gBd}B2{g}A>B {GdG}cB{gBd}B{d}c|{g}e>f{g}ec {gef}e2{gcd}cB|{gAd}A2{gcd}cB {gcd}BA{gAd}A{d}g|
+{g}A2{GdGe}A{GAG}A a2{g}ag|{a}f>e{g}fa {fg}fe{gcd}ce|{g}f>gag {a}f2{gef}ec|{gBd}B2{g}f>e c{gBd}B{gBd}Bf|
+|:{ag}a>g{a}fa {fg}f2{gef}ef|{ag}a>g{a}fa {fg}fe{gc}cf|{g}e>f{g}ec {gef}e2{gcd}cB|{gAd}A2{gcd}cB {gcd}BA{gad}A{d}g|
+{g}A2{GdGe}A{GAG}A a2{g}ag|{a}f>e{g}fa {fg}fe{gcd}ce|{g}f>gag {a}f2{gef}ec|{gBd}B2{g}f>e c{gBd}B{gBd}Bf:|
+S:https://www.folktunefinder.com/tunes/28454
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

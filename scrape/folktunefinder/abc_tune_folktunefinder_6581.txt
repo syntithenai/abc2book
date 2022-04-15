@@ -1,0 +1,48 @@
+X: 1
+T: Marechiare
+C: Francesco Paolo Tosti
+M: 2/4
+L: 1/8
+K: Dm
+| z4 | z2 AA \
+| "Dm"d2 de | "Gm"fe d>^c \
+| "Dm"d2 dd | dd ed \
+| "Gm"cB AB | "A7"A>G F>E \
+| "Dm"D4- | Dz3 |
+| z4 | z2 AA \
+| "Dm"d2 de | "Gm"fe d>^c \
+| "Dm"d2 dd | dd ed \
+| "F"c>=B cd | "C7"c>B A>G |
+| "F"Fz AA | "A7"A2 AA \
+| "Dm"A^G AB | "A7"A>G F>E \
+| "Dm"D4- | Dz3 \
+| z4 | z2A A>A | [K:D]
+| "D"d2 de | f2 e>d \
+| "G"B2 BB | B2 cd \
+| "A7"cB A>B | B2 A2 \
+| "D"F2 dd | "D7"d2 ef |
+| "G"e2 d2 | "D7"d2 ef \
+| "G"dd dd | e2 de \
+| "D"dc B>A | "A7"c2 A2 \
+| "D"FA AA | "A7" A2 AA | [K:Dm]
+| "Dm"A>^G A_B | "A7"A>G F>E \
+| "Dm"D4- | Dz d2 \
+| "A7"^c3 _B | A{A^c}B A{Ac}B \
+| "Dm"A4- | Az d2 \
+| "A7"^c3 _B | A{A^c}B A{Ac}B |
+| "Dm"A4- | Af ff \
+| "Eb"_e3 B | G.e .e.e \
+| "Dm"d3 A | F2 A2 \
+| "Dm"A>^G A_B | "A7"A>G F>E \
+| "Dm"D4- | Dz z2 |]
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/6581
+S:http://trillian.mit.edu/~jc/music/abc/Italy/Marechiare.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

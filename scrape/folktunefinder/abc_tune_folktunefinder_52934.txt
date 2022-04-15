@@ -1,0 +1,27 @@
+X: 45
+T:Morpeth Rant. JMT.045
+M:4/4
+L:1/8
+Q:224
+S:J,Moore,Tyneside,1841.(33)
+R:Rant
+O:England
+A:Northumbria
+H:184
+Z:vmp.J.Adam
+K:G
+(DF)|G2 DC B,G,B,D|ECEG FDFA|BGcA dBAG|F2 A2 A(cBA)|!
+ G2 .D.C B,G,B,D|ECEG FDFA| BGcA dBAG| D2 G2 G2:| !
+ |:df| gdBG FAce|dBAG GFED| cecA BdBG| F2 D2 D2 (GF)|!
+ ECEG cBAG| FDFA dcBA| Bgfe dcBA| B2 G2 G2 :||
+S:https://www.folktunefinder.com/tunes/52934
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Rant
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

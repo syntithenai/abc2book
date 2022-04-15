@@ -1,0 +1,28 @@
+X: 1
+T: the Jimmy Harris Jig
+C: Angus Fitchet
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+c \
+| "G"B2d dcB | "Am"c2e A2g | "D7"f2d a2f | "G"gfe "D7"d2c \
+| "G"B2d dcB | "Am"c2e A2G | "D7"F2e edB | "G"G3 G2 :|
+g \
+| "D"f2g agf | "G"g2d "B"d2^d | "C"e2c gfe | "G"d2B B2d \
+| "C"e2c c2e | "G"d2B B2d | "A7"^c2e ABc | "D"d3 "D7"d2 |]
+d \
+| "C"ece "D7"gfe | "G"g2d d2B | "C"cBc "D7"edc | "G"B2c d2d \
+| "C"ece "D7"agf | "G"g2d B2G | "Am"F2e "D7"edB | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14421
+S:http://trillian.mit.edu/~jc/music/abc/jig/JimmyHarrisJig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JimmyHarrisJig_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

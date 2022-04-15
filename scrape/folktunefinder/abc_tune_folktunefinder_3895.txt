@@ -1,0 +1,39 @@
+X: 1
+T: Lilypad Island [G]
+C: Leslie Lassetter
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "not too fast"
+K: G
+"A"[|]\
+GG \
+| "G"d  B3 GG | d d4  B | "Am7"A6    | "G"G4 GG \
+| "G"d  B3 GG | d d4  d | "Am7"e4 g2 | "D"d4 GG |
+| "G"d  B3 GG | d d3 d2 | "C"  e4 f2 |    g4 e2 \
+| "G"d2 d2 G2 | "Am7"c c3 B2  | "D7"A6 | "G"G6 !fine!|]
+"B"\
+[|"G"B4- Bc/B/ | "Am7"A4- AB/A/ | "D7"G2 E2 F2 | "G"G6 \
+| "C"E4 E2 | "G"D4 G2 | "D7"A6 | "G"B6 |
+| "G"B4- Bc/B/ | "D7"A4 d2 | "C"e4 "(D)"f2 | "G"g4 d2 \
+| "C"c3 B A2 | "G"B2 G4 | "D7"F6 | "G"G4 !d.C.![|]|]
+%
+"A'"[|]\
+G2 \
+| "G"d2 B2 G2 | d4 B2 | "Am7"A2 G2 A2 | "G"G4 G2 \
+| "G"d2 B2 G2 | d2 d2 d2 | "Am7" e2 e2 g2 | "D7"d4 G2 |
+| "G"d4 BG | d4 d2 | "C"e4 f2 | g4 e2 \
+| "G"d d3 G2 | "Am7"c2 c2 B2 | "D7"A4 G2 | "G"G6 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3895
+S:http://trillian.mit.edu/~jc/music/abc/England/LilypadIsland.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/LilypadIsland.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/LilypadIsland.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:90
+T: The Dawning of the Day
+C: O'Carolan
+B: O'Neill's 643
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+M: C
+L: 1/8
+K: G
+D \
+| (G>AGF) (~E2D2) | ({B}d>edc) B2(AB/A/) | GDGA B2(ge/c/) | B2A2 G2zD |
+| (GAGF) (~E2D2) | ({B}d>edc) B2(A(B/A/)) | GDGA B2(ge/c/) | B2~A2 G2z ||
+(g/f/) \
+| (edef) (g2fg) | (a>bgf) ed2(g/f/) | (edef) (g2fg) | (a2gf) e2ze |
+| (fdef) (g2-g/f/e/d/) | (BgBg) cBAz | GDGA B2(ge/c/) | B2~A2 G2z |]
+S:https://www.folktunefinder.com/tunes/73102
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

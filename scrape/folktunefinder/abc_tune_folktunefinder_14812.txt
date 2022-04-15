@@ -1,0 +1,25 @@
+X: 0003
+T: The Onion Two-step
+N: named when a band member misheard "un-named twostep".
+C: Noel Jackson
+Z: Noel Jackson <noel.bats:btopenworld.com> tradtunes 2002-5-7
+M: 6/8
+R: two-step
+L: 1/8
+K: G
+d | G2d dcA | B^df agf | g2e cde | d3 dcA | G2d BAD | EGB edB | A^ce age | f2d dec|
+  | G2d dcA | B^df agf | gfg efg | d3 d^cd| e2g gfg | d2g gfg | fge dcA | GBd g2 ||
+d | e2B BAG | e2B GFE | cEF GA_B | B3 B2^d | e2B BAG | edB GFE | DEF Ga^c | d3 d^cd |
+  | e2g gfg | d2g gfg | d2g gfg | fed cBA | G5 ||
+S:https://www.folktunefinder.com/tunes/14812
+S:http://trillian.mit.edu/~jc/music/abc/jig/OnionTwoStep_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/OnionTwoStep_1.abc
+% Rhythm Two-step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+%%staffsep 40
+T: Tino Mori
+O: Macedonia
+S: Deborah Jones ,1982 Vancouver Folk Dance Club
+Z: Chords modified by John Chambers
+M: 7/4
+L: 1/8
+K: A
+|: "A"A3-A2 [A2e2] | [A2e2] [Fd] [E2c2] [E2B2] | "D"[F3d3]  "A"[E4c4] | "E7"[D3B3] "A"[C4A4] |
+| [E2c2] [Fd]  [G2e2] [Fd][Ec] | "E7"[D3-B3-][D2B2] [E2c2]| [D2B2] [CA] "A"[C2-A2-][C2A2] | [C3A3] [C4A4]|
+| "D"[F3d3]  "A"[E4c4] | "E7"[D3B3]  "A"[C4A4] | [E2c2] [Fd] [G2e2] [Fd][Ec] | "E7"[D3-B3-][D3B3] [E2c2]|
+| [D2B2] [CA] "A"[C4A4]| [E3c3] "E7"[DB][Ec] [DB][DA] | [C3-A3-][C2-A2-][C2-A2-] | [C3-A3-] [C2A2] z2 :|
+|: "A"AEA  "E7"B2 BA | "A"c2 B "E7"B2 BA| cde "E7"c2 BA | "A"AEA "E7"B2 BA | c2 B "E7"B2 BA | "A"A3 A2 z2 :|
+S:https://www.folktunefinder.com/tunes/7567
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/TinoMori_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Bb/TinoMori_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/TinoMori_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 7/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

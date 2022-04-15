@@ -1,0 +1,25 @@
+X:403
+T: VON HAUSE MUSS ICH FORT
+N: E1596
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt, Lerheim
+R: Staende -, Handwerker -, Gesellen - Lied; Abschied, Wanderschaft
+M: 4/4
+L: 1/8
+K: C
+G,2 | C2B,A,G,2F,2 | E,2A,2G,2
+G,2 | E3CE2DC | C4z2
+CD | E2C2C2G2 | DB,G,2z2
+D2 | C3B,A,2C2 | B,A,G,2z2
+C2 | B,3A,G,2F,2 | E,2A,2G,2
+G,2 | E3CE2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/79507
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, handwerker -, gesellen - lied; abschied, wanderschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

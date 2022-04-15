@@ -1,0 +1,25 @@
+X:3216
+T:Colonel Frazier
+Z: id:dc-reel-359
+M:C
+L:1/8
+K:G Major
+A|BGG2 DGG2|ADD2 d2cA|BGGF D2eg|fdcA BGGA|!
+BGG2 DGG2|ADD2 d2cA|BGGF D2eg|fdcA BGG:|!
+B|dggf g2ag|fddc ABcA|dgg2 bgag|fdcA BGGB|!
+dgfe dedc|BdBG AcAF|GBAc Bdeg|fdcA BGG:|!
+A|Bcdc BGG2|ABcB A=FF2|Bcdc BGGB|cAFA BGGA|!
+Bcdc BGG2|ABcB A=FF2|GBAc Bdeg|fdcA BGG:|!
+A|B2GB B2GB|A2FA A2FA|B2GB B2GB|cAFA BGG|!
+B2GB GBGB|A2FA FAFA|GBAc Bdeg|fdcA BGG:|!
+A|Bdgd Bdgd|Ac=fc Acfc|Bdgd Bdgd|cAFA BGG2|!
+Bdgd gdgd|Ac=fc fcfc|GBAc Bdeg|fdcA BGG:|!
+S:https://www.folktunefinder.com/tunes/29496
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

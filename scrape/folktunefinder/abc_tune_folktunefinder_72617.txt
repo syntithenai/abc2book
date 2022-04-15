@@ -1,0 +1,26 @@
+X:160
+T: Die zwoelf heiligen Zahlen
+N: D0268
+O: Europa, Mitteleuropa, Deutschland, Eifel
+R: geistliches Lied, Curiosa geistlicher Lieder des Mittelalters
+M: 4/4
+L: 1/8
+K: G
+G3AB2B2 | A2A2G2z2
+B3cd2d2 | c2c2B2z2
+d3BdcB2 | A2BcB2z2
+B2BAB2B2 | B2BAB2z2
+A2B2A4 | A2B2A2
+GB | d2B2ABc2 | c4B2z2
+S:https://www.folktunefinder.com/tunes/72617
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Geistliches lied, curiosa geistlicher lieder des mittelalters
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

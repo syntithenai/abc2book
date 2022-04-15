@@ -1,0 +1,22 @@
+X: 4
+P: Shoemaker's Dance (C)
+O: Denmark, N.Germany
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: "C"gg g/e/c/e/ | gg g/e/c/e/ | "F"f>f "C"e>e | "G7"dd "C"c2 :|
+|: "G7"dd GG | "C"ce g2 | "F"f>f "C"e>e | "G7"dd "C"c2 :|
+S:https://www.folktunefinder.com/tunes/4792
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc/ShoemakersDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/ShoemakersDance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 1
+T: Joys of Quebec
+T: Joies de Qu\'ebec
+O: French Canadian
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: A
+e/e/ \
+| "A"e/c/c/c/ ce/e/ \
+| e/c/c/c/ ce/e/ \
+| "A"f/A/e/A/ d/A/c/A/ \
+| "E7"d/B/B/B/ Bd/d/ \
+|| "E7"d/B/B/B/ Bd/d/ \
+| d/B/B/B/ Bd/d/ |
+|1 "E7"ee g/f/e/g/ \
+| "A"f/e/^d/f/ "E7"e \
+:|2 "E7"ee/e/ "D"f/e/f/g/ \
+| "A"a3 |: c/d/ \
+| "A"Mez"D"Mfz \
+| "A"e3/2f/ eA/B/ \
+| "A"cc "D"df |
+| "A"c3/2d/ cA/c/ \
+|| BA GA \
+| "E7"B3/2c/ BB/c/ \
+|1"E7"de fg \
+| "A"f/e/^d/f/ "E7"e \
+:|2 "E7"de f/e/f/g/ \
+| "A"a/f/e/c/ A |]
+S:https://www.folktunefinder.com/tunes/17468
+S:http://trillian.mit.edu/~jc/music/abc/reel/JoysOfQuebec_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/reel/JoysOfQuebec_D3.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

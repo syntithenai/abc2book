@@ -1,0 +1,21 @@
+X: 403
+T:Quick Step 37th Regt.
+M:6/8
+L:1/8
+N:final d's in first three parts are left undotted in the book
+K:D
+ dfa   g2e | f2d   ceA |dfa geg|fac d3:|
+ BdB   Ace | dfd   cea |BdB Afa|gec d3:|
+ a2g   dfa | g2e   cAc |BdB Afa|gec d3:|
+.B.Bd .A.Ad|.e.eg .f.fa|BdB Afa|gec d3:|
+S:https://www.folktunefinder.com/tunes/30910
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

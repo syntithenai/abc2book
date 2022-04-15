@@ -1,0 +1,37 @@
+X: 90
+T: Tom And Jerry
+S:Collected from Fiona Maurice-Smith
+C:
+M:2/4
+L:1/4
+K:A
+c/2|\
+"A"e/2c/4B/4A/4c/4B/4A/4|\
+"A"c/4B/4A/4c/4"E7"B/4A/4B/4c/4|\
+"A"e/4f/4e/4f/4a/4f/4e/4d/4|\
+"E7"c/4d/4e/4f/4e/4d/4c/4B/4|\
+"A"e/2c/4B/4A/4c/4B/4A/4|\
+"A"c/4B/4A/4c/4"E7"B/4A/4B/4c/4|\
+"A"e/4f/4e/4f/4a/4f/4e/4d/4|\
+"E7"c/4A/4B/2"A"A/2::\
+E/4D/4|\
+"A"C/4E/4A/4E/4C/4E/4A/4E/4|\
+"D"D/4F/4A/4F/4D/4F/4A/4F/4|\
+"A"A/2A/4c/4"F#m"B/4c/4A/4B/4|\
+"Bm"c/4A/4B/4c/4"E7"B/4A/4F/4E/4|\
+"A"C/4E/4A/4E/4C/4E/4A/4E/4|\
+"D"D/4F/4A/4F/4D/4F/4A/4F/4|\
+"A"A/2A/4c/4"F#m"B/4c/4A/4B/4|\
+"E7"c/4A/4B/2"A"A/2:|\
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7693
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

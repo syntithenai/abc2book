@@ -1,0 +1,28 @@
+X: 1
+T: Lady Lucy Ramsay
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Carlin #99
+M: 4/4
+L: 1/8
+K: C
+f \
+| "C"e-<g g>a g>e c>a | g>c a>c "G7"e-<d d>f \
+| "C"e-<g g>a "Am"g>a g>e | "Dm"f>d "G7"g>f "C"e-<c c :|
+c \
+| "C"G>c E>c "G/B"d>c d>e | "Am"c-<c e>d "F"c-<A A>c \
+| "C"G>c E>c "G"d>c d>e | "F"c-<A "G7"G>F "C"E-<C C |]
+c \
+| "C"G>c E>c "G/B"d>c d>e | "Am"c-<c e>d "F"c-<A A>c \
+| "C"G-<c E-<c "Dm"F-<d "C"E-<c | "Dm"D>a "G7"g>f "C" e-<c c |]
+S:https://www.folktunefinder.com/tunes/19448
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyLucyRamsayS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyLucyRamsayS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

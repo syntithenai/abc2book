@@ -1,0 +1,28 @@
+X: 1
+T:The Darling Waltz (Resolving Variation)
+C:Johnny Cunningham
+I:abc2nwc
+M:3/4
+L:1/8
+F:http://members.aol.com/lewesarmsfolk/Vol7.abc 2006-10-13 15:20:07 UT
+Z: Contributed 2006-10-13 16:05:54 by anon test@test.com
+K:G
+B,2D3D|E2G2G2|A3B AG|E2D2DC|B,2D2D2|E2G2G2|A2B2G2|A4DC|
+B,2D2D2|E2G2G2|A3B AG|E2D2B2|c3B A2|B2A2G2|D2G2F2|G6:|
+|:B2d3c|B2A2G2|E2c3E|E2D4|B2d3c|B2A2G2|A2B2d2|e4f2|
+gf ef ge|f2d2B2|ed cd ec|d2B2G2|cB AB cA|B3AG2|D2G2F2|G6:|
+S:https://www.folktunefinder.com/tunes/19869
+S:http://members.aol.com/lewesarmsfolk/Vol7.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/DarlingWaltzResolvingVariation.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Johnny_Cunningham/DarlingWaltzResolvingVariation.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/test:test.com/DarlingWaltzResolvingVariation.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/DarlingWaltzResolvingVariation.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

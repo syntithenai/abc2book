@@ -1,0 +1,26 @@
+X: 3
+P: 'S Bachm\"uhlerl (F)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+|: "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] | "F"F2[d2F2] [c4A4] \
+| "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] |1 "F"F2 z2 z2 :|2 "F"F2 z2 [cA][dB] ||
+|: "C7"[c2E2] [GE][GE] [GE][GE] |[G2E2] z2 [cE][dB] \
+| "F"[c2A2] [AF][AF] [AF][AF] | [A2F2] z2 [cA][dB] \
+| "C7"[c2E2][G2E2] [G4E4] | "F"[c2F2][A2F2] [A4F4] \
+|1 "C7"[c2E2] [BG][AF] [GE][BG] | "F"[A2F2] z2 [cA][dB] \
+:|2 "C7"[dB][cA] [=B^G][cA] [d_B][ec] | "F"[f2A2] z2 z2 |]
+S:https://www.folktunefinder.com/tunes/4865
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_BachMuhlerl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_BachMuhlerl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_SBachMuhlerl.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

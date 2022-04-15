@@ -1,0 +1,30 @@
+X:255
+T:Marsascala
+A:Lancaster
+C:Andy Hornby
+M:C
+N:Dec 93
+O:England
+R:Reel
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000761.html
+%%ID:00000761
+K:A dorian
+Bd|\
+eAAG A2EA | GAEA GAcd | eAAB cAeA | BGdG edBd |
+eAAG A2EA | GAEA GAcd | e2ag efge | dBGB A2 :|
+|: Bd |\
+eaag abgb | a2ba aged | eaab agef | g2af gfed |
+eaag abgb | a2ba agef | g2af gedB | GABG A2 :|
+S:https://www.folktunefinder.com/tunes/43916
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

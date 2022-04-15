@@ -1,0 +1,23 @@
+X: 107
+T:George's Corkscrew
+% Nottingham Music Database
+S:Chris Dewhurst 1982, via Phil Rowe
+M:6/8
+K:C
+(3G/2A/2B/2|"C"c2G e2G|"C/dim"AG^F "C"G3|"G""d"F2G "C""e"E2G|"F"Ddc "G"BAG|
+"C"c2G e2G|"C/dim"AG^F "C"G3|"G"f2d Bcd|"C"c3 -c3::
+"C"e2c "C/dim"_e2c|"C"egf edc|"G"B2G d2G|"G"fGA Bcd|
+"C"e2c "C/dim"_e2c|"C"egf edc|"G"BAG fed|"C"c3 -c3:|
+S:https://www.folktunefinder.com/tunes/65195
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

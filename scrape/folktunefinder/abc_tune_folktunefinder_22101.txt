@@ -1,0 +1,26 @@
+X:1652
+T:Drops Of Brandy. JMT089
+O:england
+M:9/8
+L:1/8
+S:J.Moore,Tyneside,1841.(64b)
+R:Slip Jig
+A:Northumbria
+N:MS had a time signature of 2/4. However, the tune was actually entered
+N:with all the "correct" notes in the standard fashion for a slip jig
+N:except for the bar lines being entered as if it were a 6/8 tune
+K:G
+GAB BAB BAB|GAB BAB d2g|GAB BAB BAB|A2A ABG FED:|
+|:GBd gdB gdB|GBdgdBd2g|GBd gdB gdB|A2A ABG FED:|]
+S:https://www.folktunefinder.com/tunes/22101
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

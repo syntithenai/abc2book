@@ -1,0 +1,27 @@
+X:107
+%%topmargin 3cm
+T:Lassie, Look before You
+T:Miss Ross (in Marshall's Collection)
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+F |:D>AF>A DAFA | E<=cc>G E2 (=CE) | D>AF>A DAF>A |
+D<d{/e}d>A {/G}F2 E>D :: {/c}dfAf {/c}d>fA>f | =c>de>f {ef}g2 f>e | [1 {/c}d>fA>f d>fA>f |
+{/c}d>ef>g Ta2 f>e :| [2a>f{/f}g>e f>de>c | {/c}d>B{cB}A>G {/G}F2 E>D |]
+%I don't trust the comments in 106, 107, and 109. rp
+S:https://www.folktunefinder.com/tunes/70854
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lassie_Look_before_You.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Miss_Ross_in_Marshalls_Collection_.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

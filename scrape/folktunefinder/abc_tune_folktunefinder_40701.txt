@@ -1,0 +1,26 @@
+X: 18
+T:Ballance a Straw. WCl.18
+M:C|
+L:1/8
+Q:140
+S:William Clarke MS,Lincoln,1770.
+R:Country Dance.
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+"No time sig."GA|B2BB Bc dB|A2 AA A2 Bc|d2 cB c2 BA|G2 GG G2::!
+gf|e2 dd d2 GA|B2 BB B2gf|e2 dd d2 cA|AGFE D2 GA|!
+B2 BB B2 gB|A2 AA A2 Bc|dgdB c2 BA|G2 GG G2:||
+S:https://www.folktunefinder.com/tunes/40701
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Country dance.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

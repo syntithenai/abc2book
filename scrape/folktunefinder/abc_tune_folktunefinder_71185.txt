@@ -1,0 +1,27 @@
+X:155
+%%topmargin 3cm
+T:Stirling Castle
+C:According to Doig.
+C:Arranged by Mr. Armit.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+A, | D<D F>D A>D F>D |A,<A, C>A, E>A, C<E | D<D F>D A>D F>A | ((3Bcd) ((3efg) ((3fed) ((3cBA) |
+D<D F>D A>D F>D | A,<A, C>A, E>A, C<E | D<D F>D A>D F>A | ((3Bcd) ((3efg) f>d d |]
+A | d<d f>d g>e f>d | ((3Bcd) ((3efg) ((3fed) ((3cBA) | d<d f>d g>d g>b | ((3agf) ((3gfe) ((3dcB) ((3AGF) |
+d<d f>d g>e f>d | ((3Bcd) ((3efg) ((3ged) ((3cBA) | ((3fga) ((3gfe) ((3dcB) ((3AGF) | ((3GAB) ((3ABc) ((3dAG) ((3FED) |]
+S:https://www.folktunefinder.com/tunes/71185
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Stirling_Castle.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0155.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

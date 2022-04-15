@@ -1,0 +1,27 @@
+X:142
+T:Steirischer, "Erzherzog Johann Zeit"
+A:Steiermark
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Steirisches Volksliedwerk, Graz, undatet
+S:im buch mit der angabe: Handschrift Zischek und Rosmann, St.VLA 7/86.
+N:im buch in F in der quelle in C
+M:3/4
+L:1/8
+K:G
+V:1
+|: GB |\
+d2 cDAD | d2 BDGD | d2 cDDB | G2 BDGB |\
+d2 cDAD | d2 BDGD | d2 cDDB | G4 :|
+V:2
+|: G2 |\
+B2 AccA | B2 GBBG | B2 AccA | B2 GBBG |\
+B2 AccA | B2 GBBG | B2 AccA | B4 :|
+S:https://www.folktunefinder.com/tunes/45576
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

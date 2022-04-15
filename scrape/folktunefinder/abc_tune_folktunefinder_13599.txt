@@ -1,0 +1,28 @@
+X: 1
+T: Jolly Tars
+O: Kerr's 4th
+B: Kerr's 4th
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+cB \
+| "F"AF Ac "Bb"dB df | "C7"ec eg "F"f2 fe | "Bb"df ed  "F"cA fe | "Bb"dc BA "C7"G2 cB |
+| "F"AF Ac "Bb"dB df | "C7"ec eg "F"f2 fe | "Bb"db ag "C7"fe de |  "F"g2 f2     f2   :|
+|: gf \
+| "C"ec eg "C7"b2 ag | "F"fc fa [c'2f2] ba | "Bb"g^f ga "G(m)"ba g=f | "C"e2 c2 c2 cB |
+| "F"AF Ac "Bb"dB df | "C7"ec eg "F"f2 fe | "Bb"db ag  "C7"  fe de  | "F"g2 f2 f2   :|
+S:https://www.folktunefinder.com/tunes/13599
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/JollyTars_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/JollyTars_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/JollyTars_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/JollyTars_F.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:5680
+T: Row Well Ye Mariners
+O:england
+M:6/8
+L:1/8
+Q:160
+S:Playford
+A:English
+K:A
+A|G2 F G2 A|B3 B2 e|ded cBc|B2 A A2 A|G2 F G2 A|B3 B2 c|ded cBc| B3 A A2
+::\
+e|efe B2 c|dec B2 e|efe B2 c|dec B2::A|ABA G2 F|BGE A2 A ABA G2 A|BGE A2
+::\
+e3 d3|e3 d3|e2 f e2 d|c B2 A2 z:|
+S:https://www.folktunefinder.com/tunes/26132
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

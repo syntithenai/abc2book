@@ -1,0 +1,28 @@
+X:1318
+T:Courenta
+O:england
+C:Gian Renzo Dutto
+C:Valle Vermenagna
+M:6/8
+L:1/8
+K:G
+B,|DB,D GDG|B3-BzB|ABA DEF|G3-G2B,|\
+DB,D GDG|B3-BzB|ABA DEF|G3GFG||
+A2D A2D|B2G GFG|A2A AGA|BAG G2B,|\
+DB,D GDG|B3-BzB|ABA DEF|1 G3 GFG:|2 G2G G3||
+K:C
+|:a2g ega|e3 cde|fed fed|d2c c3|\
+a2g ega|e3 cde|fed fed|c3-c2e||
+d2d def|e2e e2g|gfe d2f|f2e e3|\
+a2g ega|e3 cde|fed fed|1 c3-c2e:|2 c3-c2||
+S:https://www.folktunefinder.com/tunes/21767
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:43
+T:Audi loquacem vulturem, qui ne utiquam te decipit
+T:Hear the garrulous vulture who in no way deceives you
+T:Fuga XLIII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 56      % Atalanta
+V:2 program 1 56      % Golden Apple
+V:3 program 1 56 bass % Hippomenes
+M:none % C|
+L:1/4
+Q:1/2=80
+K:G dorian
+[V:1]  d2  =B2  c3  _B  A2  B2   z2  B2  G2  c2  A2  ^F2  G2    E2  A3    G =F2   G2   G^F G2    ||
+[V:2]  d2   d2  c2  d2  c2  B2   c2  d2  B2  c2  d2   A2  G2    A2  c2   B2  A2   B2   A2  G2    ||
+[V:3]  z2   G,2 E,2 F,3 _E, D,2 _E,2 z2 _E,2 C,2 F,2  D,2 =B,,2 C,2 A,,2 D,3  C, _B,,2 C,2 C,=B,,||
+%
+[V:1]  d2  =B2  c3  _B  A2  B2   z2  B2  G2  c2  A2  ^F2   G2   E2  A3    G =F2   G2   G^F G2-   G8 |]
+[V:2]  d2   d2  c2  d2  c2  B2   c2  d2  B2  c2  d2   A2   G2   A2  c2   B2  A2   B2   A2  G2-   G8 |]
+[V:3] =B,,2 G,2 E,2 F,3 _E, D,2 _E,2 z2 _E,2 C,2 F,2  D,2 =B,,2 C,2 A,,2 D,3  C, _B,,2 C,2 C,=B,,C,8|]
+S:https://www.folktunefinder.com/tunes/77581
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

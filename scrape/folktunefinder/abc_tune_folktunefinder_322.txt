@@ -1,0 +1,27 @@
+X: 1
+T: Sm groderna
+T: Sm grisarna
+T: Little frogs, little pigs
+O: Denmark
+M: 2/4
+L: 1/8
+K: F
+   c | "F"A>A Ac | A>A Ac | dc BA | "C7"G2 zB | G>G GB | G>G GB | cB AG | "F"F2 z :|
+K: G
+|: d | "G"B>B Bd | B>B Bd | ed cB | "D7"A2 zc | A>A Ac | A>A Ac | dc BA | "G"G2 z :|
+K: C
+|: g | "C"e>e eg | e>e eg | ag fe | "G7"d2 zf | d>d df | d>d df | gf ed | "C"c2 z :|
+S:https://www.folktunefinder.com/tunes/322
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/SmaaGroderna_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/Sma_Groderna_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc/Sma_Groderna_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Denmark/SmaaGroderna_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Sma_Groderna_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

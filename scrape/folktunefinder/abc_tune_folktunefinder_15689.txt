@@ -1,0 +1,26 @@
+X: 1
+T: Terribus
+B: BSFC V-22
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+A \
+|: "D"dA d>e | fa fd | "Em"g>f e>d | "A7"ce cA \
+|  "D"dA d>e | fa fd | "Em"g>f e>a |1 "D"fd d :|2 "D"fd d/e/f/g/ |]
+[| "D"a2 a>g | fa fd | "Em"g>f e>d | "A7"ce cA \
+|  "D"a2 a>g | fa fd | "Em"g>f e>a | "D"fd d/e/f/g/ ||
+|| "D"a2 a>g | fa fd | "Em"g>f e>d | "A7"ce cA \
+|  "D"dA d>e | fa fd | "Em"g>f e>a | "D"fd d2 |]
+S:https://www.folktunefinder.com/tunes/15689
+S:http://trillian.mit.edu/~jc/music/abc/march/Terribus.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/Terribus.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/Terribus.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Terribus.abc
+S:http://trillian.mit.edu/~jc/music/book/500/Terribus.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

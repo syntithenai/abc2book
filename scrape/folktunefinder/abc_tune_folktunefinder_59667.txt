@@ -1,0 +1,36 @@
+X:780
+T:Xiraldilla (CT 121)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 121
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+|d2 d|gfg|ece|gfe|d3 :|
+|G2 B|ded|(cB)A|G3 :||
+W:Si se va la paloma,
+W:ella volver,
+W:que dej los pichones
+W:a medio criar.
+W:No se va la paloma,
+W:no, no se va,
+W:que la traigo yo.
+W:
+S:https://www.folktunefinder.com/tunes/59667
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

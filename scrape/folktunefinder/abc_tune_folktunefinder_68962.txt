@@ -1,0 +1,29 @@
+X:103
+T: ARM SEELCHEN WAS WEINEST DU SO SEHR
+N: Z0103
+O: Europa, Mitteleuropa, Deutschland, Nieder - Deutsch
+R: Sagen - Lied, Romanze
+M: 3/8
+L: 1/16
+K: F
+FA | c3dcB | A3G
+A2 | BBB2A2 | G2z2
+FA | c3dcB | A3G
+A2 | BBB2A2 | G2z2
+AF | F3GAB | G2G2
+cB | A2A2G2 | A2z2
+AG | F3GAB | G2G2
+cB | A2A2G2 | F4
+S:https://www.folktunefinder.com/tunes/68962
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

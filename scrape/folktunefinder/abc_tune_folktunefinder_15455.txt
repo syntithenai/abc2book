@@ -1,0 +1,27 @@
+X: 1
+T: Hebridean Milking Song
+R: march
+B: RSCDS __-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: d2 \
+| "G"G3G G2G2 | d2dd B2d2 | GGGG D2DD | "C"E2G2 "D"B2A2 \
+| "G"G3G G2GG | d2dd B2d2 | GGGG D2G2 | "D7"B2A2 "G"G2 :|
+|: B2 \
+| "G"dddd G2GG | B2d2 "C"e2"G"d2 | "G"dddd "C"e2"G"dd | "C"e2"G"d2 "B7"B2AB \
+| "Em"G3G G2GG | "G"d2dd B2d2 | "G"GGGG D2G2 | "D7"B2A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/15455
+S:http://trillian.mit.edu/~jc/music/abc/march/HebrideanMilkingSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/HebrideanMilkingSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/HebrideanMilkingSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/HebrideanMilkingSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HebrideanMilkingSong.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

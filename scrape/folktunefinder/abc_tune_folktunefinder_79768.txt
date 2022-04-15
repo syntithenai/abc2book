@@ -1,0 +1,25 @@
+X:664
+T: DER GULDNE ROSENKRANZ
+N: E2049
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Marien - Lied
+M: 4/4
+L: 1/8
+K: F
+c2 | cBA2GFE2 | F4z2
+A2 | Bcd2cBA2 | G4z2
+F2 | ABc2FGA2 | Bcd2G2
+c2 | cBA2GFE2 | F4z2
+S:https://www.folktunefinder.com/tunes/79768
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, marien - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

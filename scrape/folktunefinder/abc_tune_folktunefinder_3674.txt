@@ -1,0 +1,23 @@
+X: 1
+T: Bury Fair
+T: Betty Fair
+O: 1698
+M: 2/2
+L: 1/8
+K: F
+|: d2 | "F"c2A2 A2F2 | "C"G4   C3d  | "F"c2A2 "C"A2GF | "F"F6 :|
+|: f2 | "F"c2f2 e2f2 | "C"g2G2 G2f2 | "F"c2f2 "C"efge | "F"f6 :|
+|: c2 |"Bb"dcBA BAGF | "C"GFED C2c2 |"Bb"dcBA "C"BAGF | "F"F6 :|
+   f2 | "F"c2f2 e2f2 | "C"g2G2 G2f2 | "F"c2f2 "C"efge | "F"f6 ||
+   c2 |"Bb"dcBA BAGF | "C"GFED C2c2 |"Bb"dcBA "C"BAGF | "F"F6 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/3674
+S:http://trillian.mit.edu/~jc/music/abc/England/BuryFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/BuryFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/BuryFair.txt
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

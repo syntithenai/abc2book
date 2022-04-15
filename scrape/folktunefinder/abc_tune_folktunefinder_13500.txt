@@ -1,0 +1,26 @@
+X: 1
+T: the Cambridge Hornpipe
+S: "Where's the Crack v/1" (DJ Taylor)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: A
+|: (3EFG \
+| "A"A2 AG "E7"Ac eg | "A"a2 ag ae c{d}e | "D"fd {c}BA "E7"GA Bd | "B7"(3cBA BA "E7"GA FG |
+| "A"EA AG "E7"Ac eg | "A"a2 ag ae c{d}e | "D"fd {c}BA "E7"GA Bd |     c{B}A BG  "A"A2   :|
+| : (3Bcd \
+| "A"e2  a2  ec A2 | "D"d2 b2 "Bm"Bc d{c}B |   "E7"gb eg    be gb | "A"ac' ea   c'e ac' |
+| "A"e'2 c'2 a2 e2 | "D"f2 df  "A"eA cA    | "B(m)"Ba ga "E"ec Bc | "E7"dB GB "A"A2    :|
+S:https://www.folktunefinder.com/tunes/13500
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/CambridgeH_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/CambridgeH_A4.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Bo' Dodi
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P:
+K: Bm
+|: "Bm"B2BA B2BA | B2c2 d2"A7"e2 |  "D"f2fe "Bm"f2fe | "Em"g2gf "A7"e4 |
+| "D"fgfe "Bm"f2de | "Em"fge2 "F7"e2f2 | "Bm"B2BA B2BA | "F7"d2dc "Bm"B4 :|
+%%sep 5 5 200
+P:
+K: Em
+|: "Em"e2ed e2ed | e2f2 g2"D7"a2 |  "G"b2ba "Em"b2ba | "Am"c'2c'b "D7"a4 |
+| "G"bc'ba "Em"b2ga | "Am"bc'a2 "B7"a2b2 | "Em"e2ed e2ed | "B7"g2gf "Em"e4 :|
+S:https://www.folktunefinder.com/tunes/13376
+S:http://trillian.mit.edu/~jc/music/abc/folk/BoDodi_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/BoDodi_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/BoDodi_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/BoDodi_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/BoDodi_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

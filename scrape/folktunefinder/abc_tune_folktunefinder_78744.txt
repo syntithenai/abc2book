@@ -1,0 +1,24 @@
+X:303
+T: ES WOLLT EIN MAEDL ZUM TANZE GEHN
+N: E0174
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: erzaehlendes Volks - Lied, Sage, Pflanzen - Maerchen, Moral - Lied
+M: 3/4
+L: 1/8
+K: G
+D | DGG2G2 | FGA3
+A | GGG2A2 | B2A2z
+G | BAB2d2 | cBA2
+A2 | GGc2B2 | A2G2z
+S:https://www.folktunefinder.com/tunes/78744
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, pflanzen - maerchen, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

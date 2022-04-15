@@ -1,0 +1,22 @@
+X: 1
+T: Sarajevko Kolo
+O: Bosnia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+P: slow:
+"A"|: "D"F2A2 A^GA2 | "A7"EFG2 GFED |1 EFG2 "E7"FEFD | "A"E4 "A7"A4 :|2 "G"{GA}B2A2 "E7"GFED | "A"E8 ||
+P: faster:
+"B"|: "A"A2"E"B2 "A"c4 | "A"cd"E"Bc "A"A4 | "Am"e2^de "B"d=cBA |1 "E"B8 :|2 "E"B4 "A"c4 ||
+"C"|: "G"d3e d=cBA | BG"D"A2 GFED |1 "A"EFG2 "D"FEFD | "A"E4 "C"e4 :|2 "A"EFG2 "E7"FEFD | "A"E2E2 E2Hz2 |]
+S:https://www.folktunefinder.com/tunes/5998
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SarajevkoKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Dumfries House
+O: Athole
+S: arr. T. Traub 11-25-98, mods 8-29-03
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G3 G2 g | "G"dBG     GAB | "C"cde "G"dcB | "D"AFD DEF \
+| "G"G3 G2 g | "G"dBG "Em"GAB |"Am"cEA "D"FEF | "G"G3  G2 :|
+|: B/c/ \
+| "G"dBd dBd | "C"gag     gfe | "G"dBd    dcB | "D"AFD D2B/c/ \
+| "G"dBd dBd |"Em"gag  "C"gfe | "G"dcB "D"AGF | "G"G3  G2 :|
+S:https://www.folktunefinder.com/tunes/14130
+S:http://trillian.mit.edu/~jc/music/abc/jig/DumfriesHouse1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/DumfriesHouse_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DumfriesHouse1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DumfriesHouse_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DumfriesHouse1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DumfriesHouse_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

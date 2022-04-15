@@ -1,0 +1,29 @@
+X:58
+T: DER VOGELFAENGER
+N: F0151
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz -, Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+BA | G2G2AGFG | A2B2A2
+AF | D2D2d3d | B2A2G2
+B2 | AGFGAGFG | A2B2A2z
+A | d3dA3A | F2E2D2
+DF | A2A2BAGA | B2A2G2
+d2 | dF2FAGFG | A2B2A2
+GA | B3BcBAB | c2d2e2
+cA | F3FGFEF | GBAFG2
+S:https://www.folktunefinder.com/tunes/69618
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Scherz -, liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

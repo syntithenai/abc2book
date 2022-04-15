@@ -1,0 +1,27 @@
+X:5
+T:French Stick
+C:Paddy Butcher
+R:Bourree
+S:Paddy Butcher
+Z:Dave Holland
+M:2/4
+L:1/8
+K:G
+G2 A2|:"G"B>c BA|G>A Bc|B>c BG|"D"A3 B|"D7"c>d cB|
+A>B cd|"G"B>c "D"AB|1"G"G3 A:|2"G"G4|:"G"d>e dc|B>c de|"C"c>d "G"Bc|
+"D"A3 B|"D7"c>d cB|A>B cd|1"G"B>c "D"AB|"G"G4:|2"G"B2 "D"A2|"G"G4|]
+S:https://www.folktunefinder.com/tunes/51979
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:14279
+T:Rigadoon 1
+R:Rigadoon
+O:England
+M:6/4
+L:1/4
+N:should be 'rigaudon'
+A:Lancashire
+B:Winder
+K:C
+G | c>B cdec | d3 G2 c/d/ | e>cA fdB | c3-c2 :|*
+|:G/4A/4B/ | c>BAGcG | AcA G2c | dfd AdA |\
+BdB G2 c/d/ | e>cd GcB | c3-c2:|**
+S:https://www.folktunefinder.com/tunes/64289
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

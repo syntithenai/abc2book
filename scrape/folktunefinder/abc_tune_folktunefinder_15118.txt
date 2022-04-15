@@ -1,0 +1,25 @@
+X: 1
+T: the Stone Court
+C: M. Rae
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2d "A"edc | "D"d2A F2A | "D"d2d "A"edc | d3 d2d \
+| "A"e2A ABA | "D"f2A ABA | "A"c2e "E7"B2e | "A"A3 "A7"ABc |
+| "D"d2d "A"edc | "D"d2A F2A | "D"d2d "A"edc | "Bm"d3 d2f \
+| "Em"g2e Beg | "D"f2d A2F | "A7"ABA GFE | "D"D3 "A7"A3 ||
+|| "D"AFA d2F | "Em"GFG "A7"E2G | "D"FAd f2F | A3 A2A \
+| "G"B2B Bcd | "D"A2F d2F | "A"E2A "E7"^GAB | "A"A3 "A7"A3 |
+| "D"AFA d2F | "Em"GFG "A7"E2G | "D"F2A d2e | "Bm"f3 f2f \
+| "Em"g2e Beg | "D"f2d A2F | "A7"ABA ABc | "D"d3 D2 |]
+S:https://www.folktunefinder.com/tunes/15118
+S:http://trillian.mit.edu/~jc/music/abc/jig/StoneCourt_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

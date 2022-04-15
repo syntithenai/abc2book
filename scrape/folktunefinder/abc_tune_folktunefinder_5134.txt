@@ -1,0 +1,23 @@
+X: 87
+T: Die Nomadin (C)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: C
+c ef \
+|:"C"g2 c'2 c'2 | "F"a4 f2 | "G7"d2 g2 g2 | "C"e4 c2 \
+| "C"g2 c'2 c'2 | "F"a4 f2 | "G7"d2 g2 g2 | "C"c2 zc ef |
+| "C"g2 c'2 | "F"a2 f2 | "G7"d2 g2 | "Am"e2 c2 \
+| "G7"d2 g2 g2 | "C"e2 c2 ef | "C"g2 c'2 | "F"a2 f2 \
+| "G7"d2 g2 | "Am"e2 c2 | "G7"d2 g2 g2 |1 "C"c3 zef :|2 "C"c2 z |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5134
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

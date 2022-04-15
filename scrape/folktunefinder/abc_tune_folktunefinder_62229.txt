@@ -1,0 +1,33 @@
+X:206
+T: EIN LUSTGER MUSIKANTE MARSCHIERTE
+N: B0691
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | A3AA2B2 | A2G2F2
+E2 | A3AA2c2 | B6
+E2 | A6G2 | F4B4 | A4G4 | A4z2
+E2 | A3AA2B2 | A2G2F2
+E2 | A3AA2c2 | B6
+E2 | A6G2 | F4B4 | A4G4 | A4z2
+E2 | c3cc2c2 | d2d4
+c2 | B3BB2B2 | e6
+E2 | c4c2c2 | d6
+c2 | B3BB2B2 | e6
+E2 | A3AA2G2 | F2d2c2
+B2 | c4B4 | A4z2
+E2 | A3AA2G2 | F2d2c2
+B2 | c4B4 | A4z2
+S:https://www.folktunefinder.com/tunes/62229
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

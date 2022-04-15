@@ -1,0 +1,23 @@
+X: 1
+T: Polska efter Lars i Kontere
+C: Trad. Sweden - V\"armland, Gr\"asmark
+S: after Bert Deivert (http://www.deivert.com/kontere.html)
+M: 3/4
+L: 1/8
+%Q: 1/4=130
+K: A
+|: "A"A<c e2 "Bm"B2 |     B<d "E7"e2   f>g |1,3 "D"(3a2f2d2 f>a | "E7"g2 e4 :|2,4 "D"(3a2f2d2 "E7"(3cAc | B<G "A"A4 :|
+|: "A"e>d c2    c>e | "E7"d<c     B2 (3efg |1,3 "D"(3a2f2d2 f>a | "E7"g2 e4 :|2,4 "D"(3a2f2d2 "E7"(3cAc | B<G "A"A4 :|
+S:https://www.folktunefinder.com/tunes/16457
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Lars_i_Kontere_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Lars_i_Kontere_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/P_Lars_i_Kontere_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/P_Lars_i_Kontere_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

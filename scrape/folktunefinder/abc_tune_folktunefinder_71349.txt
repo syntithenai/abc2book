@@ -1,0 +1,23 @@
+X:320
+%%topmargin 3cm
+T:Miss Nisbet of Dirleton
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A minor
+e | AAec BGGB | AAeA {/B}cde^f | {/^f}gdec BGGB | AAeB cAA :| ^g | {/^g}aee=g BGG^g | {/^g}aee^f =gbaf |
+{/^f}gdec BGGB | AAeB cAA^g | {/^g}aee=g BGG^g | aee^f =gbaf | {/f}gdec BdGB | AaeB cAA |]
+W:Same tune on a different Key page 26 of this collection.
+S:https://www.folktunefinder.com/tunes/71349
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:243
+T: Scherzlied
+N: A0289
+O: Europa, Mitteleuropa, Deutschland
+N: Schmeltzel Quodl. 9
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/2
+K: F
+F | c2cc2F | c2cc2
+c | B2cd2d | c3A2
+A | A2AA2A | c2cG2
+G | G2BA2G | F3F2
+S:https://www.folktunefinder.com/tunes/68789
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

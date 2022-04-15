@@ -1,0 +1,24 @@
+X: 1
+T: Miss Elizabeth Purcells Favorite
+C: Ian MacPhail
+R: polka
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+|:"Bb"dddd ^c2d2 | B2d2 F4 |  F2B2 D2B2 | F2B2 d4 \
+| "F7"cccc =B2c2 | e2c2 A4 |1 FFFF A2c2 | g2f2 =e2_e2 |
+                          :|2 FFFF g2f2 | d2c2 "Bb"B4 \
+|:"Bb"FFFF B2d2 | g2f2 g2f2 | FFFF B2d2 | "F7"g2f2 e4 |
+|     FFFF A2c2 | g2f2 g2f2 |1 FFFF A2c2 | "Bb"g2f2 d4 \
+                           :|2 "F7"FFFF g2f2 | d2c2 "Bb"B4 |]
+S:https://www.folktunefinder.com/tunes/16166
+S:http://trillian.mit.edu/~jc/music/abc/polka/MissElizabethPurcellsFav_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MissElizabethPurcellsFav_Bb.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

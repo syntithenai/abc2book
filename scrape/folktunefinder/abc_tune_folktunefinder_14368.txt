@@ -1,0 +1,25 @@
+X: 1
+T:If All the World Were Paper
+M:6/8
+L:1/8
+%Q:110
+R:Jig
+K:D
+A \
+| "G"B2A "A7"B2c | "D"d3 D3 | F2E F2G | A3-A2F \
+| "G"G2F G2A | "Em"B2G E2d | "A7"e2A B2c | "D"d3-d2 :|
+|: d \
+| "A"c2B c2d | e3 A2A | "D"d2c d2e | f3- f2f \
+| "G"g2f e2d | "A7"c2B A2e | a2A B2c | "D"d3-d2 :|
+S:https://www.folktunefinder.com/tunes/14368
+S:http://trillian.mit.edu/~jc/music/abc/jig/IfAllTheWorldWerePaper2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/IfAllTheWorldWerePaper2_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

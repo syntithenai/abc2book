@@ -1,0 +1,29 @@
+X: 1
+T: Highland Schottische, or Strathspey
+C: J.Scott Skinner
+R: shottish, strathspey
+B: H&C p.77
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,4 \
+| "D"{c}d3A A4 "G"d3B B3d | "E7"(cBA2) E3^G "A"A4- A2z2 |
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,3A \
+| "D"{c}d3A A4 "G"d3-B "D"A3-G | "A7"(FED2) A,3C "D"{C}D4- D2 ||
+g2 \
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "D"(fed2) a3c' {c'}d'3a f3d' | "E7"(c'ba2) e3^g "A"{g}a4- a3=g |
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "Bm".d.c.B2 "A".A.B.c2 "Em".d.c.B2 "A7"A2zG | "D"FED2 "A7"A,3C "D"{C}D4- D2 |]
+S:https://www.folktunefinder.com/tunes/18379
+S:http://trillian.mit.edu/~jc/music/abc/shottish/HighlandSchottische_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/HighlandSchottische_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/HighlandSchottische_D.abc
+% Rhythm Shottish, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

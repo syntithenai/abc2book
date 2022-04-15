@@ -1,0 +1,25 @@
+X:1
+T:Shottish
+C:Belgium
+Z:Erik Ronstrm <kvarken@yahoo.com> abcusers 2003-4-21
+R:schottis
+L:1/8
+M:2/2
+K:Ddor
+f3a  fedc|A3a  fedc|edef gedc|BABc dcde|
+f3a  fedc|A3a  fedc|edef gedc|Afef d3e::
+f2cB cfcB|e2cB cecB|d2cB cdcB|AAz2 zB3|
+f2cB cfcB|e2cB cecB|d2cB cdcB|Afef d3e:|
+S:https://www.folktunefinder.com/tunes/18481
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Shottish_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Shottish_1.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

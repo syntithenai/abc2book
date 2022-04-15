@@ -1,0 +1,29 @@
+X:129
+T:The Hen's March
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+N:the printed key signature is G
+K:C
+G|c>d``````e>f     |g>f``````e>d|c>d      c/d/e   |G2       G2 | 
+  c>d``````e>f     |g>f``````e>f|g>f``````e>f     |g2       g>g|
+  g>f``````e>g     |f>e``````d>f|e>d      c/d/e   |G2       G2 | 
+  c>B``````c>e     |ef```````gf |ed```````cB      |c3         :|
+G|Gc```````cc      |cc```````cc |cc```````cc      |cc```````eg | 
+  Gc```````cc      |cc```````cc |cc```````cc      |cc```````eg | 
+  cc```````eg      |cc```````eg |c/d/c/d/ c/d/c/d/|c/d/c/d/ eg | 
+  c/d/c/d/ c/d/c/d/|c/d/c/d/ eg |c/d/c/d/ eg      |c/d/c/d/ eg | 
+  g>f``````e>g     |f>e``````d>f|e>d      c/d/e   |G2       G2 | 
+  c>B``````cd      |ef```````gf |ed```````cB      |c3         :|
+S:https://www.folktunefinder.com/tunes/75692
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

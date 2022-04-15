@@ -1,0 +1,44 @@
+X:14726
+T:Saghoni Waltz,The. GS.114
+T:Green Hills of Tyrol,aka. GS.114
+M:3/4
+L:1/8
+Q:90
+S:George Spencer m/s, Leeds,1831
+R:Waltz
+O:England
+A:Leeds
+N:  > -shown under the note - diminuendoGeorge Spencer Book Leeds
+N:September 5, 1831 written on stave after
+N:music.  A fairly close relative of "Green Hills of Tyrol"
+H:183
+Z:vmp.Cherri Graebe
+K:G major
+"p"DGA  |  (B2 B)(GBc) | (d2 d)(eBe) | (dcAFAe) | (dBG) "f"(DGA) |
+(B2  B)(GBc) | (d2  d)(eBe) | (dcA) (DFA) | G2 z2G2 | ">"g4 (fe) | ed dz
+">"e2 | 
+dc cz ">"d2 | cB Bz G2 | "p"g4  (fe) | (ed) d z e2 | (d^c) c z BA | d3 A
+fA | (e2 e)A^cA) |
+(d2 d)(AfA) | (e2 e)(A^cA) | (de)(^cede) | =cdBdAd | G2 z "p"(DGA) | (B2
+B
+)(GBc) | (d2d)(eBe) |
+(dcA) (FAe) | (dBG) (DGA) | (B2 B)(GBc) | (d2 d)(eBe) | dcA DFA | "f"G2
+z FGA |
+(B2 B)F^dF | (B2 B)cBA | (G2 G)DBD | G2 z "p"FGA |(B2 B)F^dF | (B2 B)cBA
+ | 
+ (G2 G)DBD | G2 G z G2 | g4 fe | (ed) dz">"e2 | (dc) c z ">"d2 | cB Bz2G
+ | g4 fe | ed d z e |
+dc c z    (3(A/B/c/) "pause"f2 |  (3(G/B/d/)"pause"g2 f2 z ||
+W:"George Spencer Book Leeds September 5 1831"
+S:https://www.folktunefinder.com/tunes/46001
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 317
+T: Srbijanka
+O: Serbia
+M: 2/4
+L: 1/16
+Q: 1/4=132
+K: F
+%%MIDI program 25
+|:ccccccdc |BBBBc2B2|AAFFGGAA |
+  ccccccdc |BBBBc2B2|AAFFGGGG :|
+|:G2G2cBAG |F2F4GF  |E2C2D2E2 |
+  G2G2cBAG |F2F4GF  |E2C2D4   :|
+|:G4D4     |D4C2D2  |G4D4     |D4C2D2 :|
+S:https://www.folktunefinder.com/tunes/54300
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

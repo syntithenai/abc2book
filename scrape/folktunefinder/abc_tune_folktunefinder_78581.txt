@@ -1,0 +1,25 @@
+X:140
+T: ES GIENG EIN MAEDCHEN GRAS SCHNEIDEN
+N: E0071E
+O: Europa, Mitteleuropa, Italien, Tirol, Meran,
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 6/8
+L: 1/8
+K: G
+D | G2GBBd | G2BB2
+d | d2dc2c | B3A2
+d | c2cedc | B2Bdc
+B | A2AcBA | G3B2
+d | c2cedc | B2Bdc
+B | A2AcBA | G3z2
+S:https://www.folktunefinder.com/tunes/78581
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

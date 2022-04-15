@@ -1,0 +1,25 @@
+X:84
+T: ES HET E BAUR E TOECHTERLI
+N: Z0084
+O: Europa, Mitteleuropa, Schweiz
+R: Sagen - Lied, Romanze, Juengling zieht in den Krieg; Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2A2 | B4A4 | G4z2
+d2 | d2A2A2d2 | e4^c4 | d4z2
+B2 | c3de2ed | c2ced2z
+c | B3AG2A2 | B4A4 | G4g2
+S:https://www.folktunefinder.com/tunes/68943
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, juengling zieht in den krieg; liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

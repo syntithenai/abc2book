@@ -1,0 +1,24 @@
+X:123
+T:Mrs. Moray of Abercairnie
+R:Strathspey
+C:Neil Gow
+S:MacDonald - Skye Collection
+N:pg.131
+M:C
+L:1/8
+K:G Minor
+D|G<G B>G d<GB<g|F>FA>F c<FA<f|G<G B>G d<GB<g|f>dc>A B<GG:|
+d|gfc>f A<F F>A|ggd>g B<G G>d|
+gb c<aB<g|A>fc>f A<F F>A|G<G B>G d<GB>g|f>d c<A BGG||
+S:https://www.folktunefinder.com/tunes/72204
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

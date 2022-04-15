@@ -1,0 +1,29 @@
+X:2850
+T:Katrinevalsen
+D:Spaelimenninir
+M:3/4
+O:Denmark
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000924.html
+%%ID:00000924
+K:G
+D2 | \
+G3 G G2 | B,2 D2 G2 | B3 B B2 | B2 G2 B2 |\
+d3 e d2 | c2  B2 A2 | G4   A2 | B4  A2 |\
+G3 G G2 | B,2 D2 G2 | B3 B B2 | B2 G2 B2 |
+d3 e d2 | c2  B2 A2 | A2 c2B2|1 G4:|2 G2B2c2 ::\
+d4 d2 | e4 f2 | g2 zg g2 | g2 f2 e2 |
+d3 d d3 | c2 B2 A2 |G4 A2 | B4 c2 |\
+d4 d2 | e4 f2 | g2 zg g2 | g2 f2 e2 |\
+d3 e d2 | c2 B2 A2 | G3 G G2 \
+|1 G2 B2 c2 :|2 G2z2:|
+S:https://www.folktunefinder.com/tunes/36649
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:70
+T:Minuet -- Play Slow
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:3/4
+N:It's upside down on the page
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dbe.html
+%%ID:00000dbe
+K:D min
+AB A2 A2 | de d2 e2 | f2 e2 d2 | e2 c4 |\
+B2 A2 G2 | A2 (GF)(ED) | (G/F/E) E4 | D6 ::
+AB A2 G2 | F2 d4 | GA G2 F2 | E2 c4 | \
+F2 E2 D2 | c2 B2 A2 | f2 e2 d2 | (fe) c4 !D.C.! :|
+% page 8
+S:https://www.folktunefinder.com/tunes/43577
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

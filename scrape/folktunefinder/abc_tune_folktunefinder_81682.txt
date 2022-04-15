@@ -1,0 +1,86 @@
+X: 8
+T: Sea Shells Schottische
+M: 4/4
+L: 1/8
+Q:1/4=180
+K:D % 2 sharps
+% Sea Shells Schottische
+% (c) SSF February 2006
+% Collected by Dave deHugard from Ernie Wells
+V:1
+d2 d3/2f<fa<af/2| \
+g2 g3/2g/2 B2 B3/2A/2| \
+d2 d3/2 (3ddfa<af/2| \
+e2 e2 e2 A3/2A/2|
+d2 d3/2 (3efgf<ef/2| \
+g2 g2 B2 B3/2B/2| \
+c2  (3cdB A2 c3/2e/2| \
+d2 d2 d2 A3/2A/2|
+d2 d3/2f/2 a2 b3/2a/2| \
+g2 g2 B2 B3/2A/2| \
+d2 d3/2f/2 a2 a3/2f/2| \
+e2 e2 e2 A3/2A/2|
+d2 d3/2 (3efgf<ef/2| \
+g2 g2 B2 B3/2A/2| \
+c2 c3/2B/2 A2 c<A| \
+d2 d2 d2 c3/2d/2|
+e3/2e<ee<ee<ag/2| \
+f2 f3/2e/2 d2 d3/2c/2| \
+B3/2B<BB<gf<ed/2| \
+c2 c2 c2  (3cBA|
+d2 d3/2f<fa<af/2| \
+g2 g2 B2 B3/2B/2| \
+c2 c3/2
+B/2 A2 c<e| \
+d2 d2 d2 c3/2d/2|
+e3/2e<ee<ee<ag/2| \
+f2 f3/2e/2 d2 d3/2c/2| \
+B3/2B<BB<gf<ed/2| \
+c2 c2 c2  (3cBA|
+d2 d3/2f<fa<af/2| \
+g2 g2 B2 B3/2B/2| \
+c2 c3/2
+B/2 A2 c<e| \
+d2 d2 d2 
+V:2
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [GECA,]z A,,z [GECA,]z| \
+D,z [dBG]z D,z [AFD]z|
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+D,z [AFD]z D,z [AFD]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+D,z [dBG]z D,z [AFD]z|
+A,,z [ECA,]z A,,z [ECA,]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [GECA,]z| \
+D,z [dBG]z D,z [AFD]z|
+A,,z [ECA,]z A,,z [ECA,]z| \
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+D,z [AFD]z D,z [AFD]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [GECA,]z| \
+D,z [dBG]z D,z [AFD]
+%  <A name="D1X09">
+S:https://www.folktunefinder.com/tunes/81682
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

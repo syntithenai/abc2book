@@ -1,0 +1,24 @@
+X:31
+T:The Athole Highlanders
+M:6/8
+L:1/8
+K:A
+"A" e2 e ecA|ecA Bcd|e2 e ecA|"E" Bcd cBA|"A" e2 e ecA|
+ecA Bcd|eae "D" fed|"E" cdB "A" A3:||:"A" Ace Ace|"D" Adf Adf|
+"A" Ace Ace|"E" Bcd cBA|"A" Ace Ace|"D" Adf Adf|\
+"A" eae "D" fed|"E" cdB "A" A3:|
+|:"A" a2 e edc|a2 e edc|a2 e edc|"E" Bcd cBA|"A" a2 e edc|
+a2 e edc|e2 e "D" fed|"E" cdB "A" A3:||:"A" cAc cAc|"G" dBd dBd|
+"A" cAc cAc|"E" BGB BGB|"A" cAc cAc|"G" dBd dBd|"A" eae "D" fed|\
+"E" cdB "A" A3:|
+S:https://www.folktunefinder.com/tunes/51443
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t31.abc
+S:http://www.arcelts.com/bbot1/t31.txt
+S:http://www.arcelts.com/bbot1/t31.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

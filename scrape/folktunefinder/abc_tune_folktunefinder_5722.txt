@@ -1,0 +1,36 @@
+X: 1
+T: Joc de Batransec de la Niculitel
+O: Theodor Vasilescu
+C: Dobrogea
+Z:
+P: I(AB)x5
+%%MIDI grace 1/8
+M: 4/4
+L: 1/8
+K: C
+P: I
+%%MIDI gchord c64
+ "Am" ~HA8 | ~HA,8 |
+Q: 1/4=112
+P: A
+%%MIDI gchord fzczfzcz
+ "Am" ~A,3G, "G7" ~A,3G, | "C" C3D "G"DC~B,G, |\
+  "C"    C3D  "D7"  ~E3D  | "G" D3C   ~CB,A,/2B,/2G, |
+  "F"  ~A,3G, "G7" ~A,3G, | "C" C3D "G"DC~B,G, | "Am" A,8-| A,8 |
+ "Am" ~A3G "G7" ~A3G | "C" c3d "G"dc~BG |\
+  "C"    c3d  "D7"  ~e3d  | "G" d3c   ~cBA/2B/2G |
+  "F"  ~A3G "G7" ~A3G | "C" c3d "G"dc~BG | "Am" A8-| A8 |
+P: B
+ |: "G" g4 "F"~a3g | "G"g3f  "C"~eddc | "D7" e4 "G"~g3f | "C"e3d  "G"dc~BG |
+    "F" ~A3G ~A3G  | "C"~c3d "G"dc~BG | "Am" A8-|1 "D7" A8 :|2 "Am" A8 ||
+S:https://www.folktunefinder.com/tunes/5722
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Joc_de_Batransec_de_la_Niculitel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Joc_de_Batransec_de_la_Niculitel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

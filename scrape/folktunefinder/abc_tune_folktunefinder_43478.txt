@@ -1,0 +1,22 @@
+X: 23
+T:La Bastringue
+% Nottingham Music Database
+S:French Canadian, via PR
+M:4/4
+L:1/4
+K:D
+d/2e/2|:"D"ff/2f/2 fg/2f/2|"A"ec "D"d3/2d/2|"A"cd e/2f/2e/2c/2|"D"de fd|
+"D"ff/2f/2 fg/2f/2|"A"ec "D"d3/2d/2|"G"g(3f/2g/2f/2 ed| [1"A"Bc "D"dA:|
+ [2"A"Bc "D"d(3A/2B/2c/2|:"D"df/2d/2 a/2d/2f/2d/2|"C"=ce/2c/2 g/2c/2e/2c/2|\
+"D"df/2d/2 a/2d/2f/2a/2|"G"b/2g/2e/2c/2 "A"d/2c/2B/2A/2|
+"D"df/2d/2 a/2d/2f/2d/2|"C"=ce/2c/2 g/2c/2e/2c/2|\
+"D"A/2d/2f/2a/2 "G"b/2g/2e/2c/2| [1"D"d/2f/2"A"e/2c/2 "D"d(3A/2B/2c/2:|[2"D"d/2f/2"A"e/2c/2 "D"d2||
+S:https://www.folktunefinder.com/tunes/43478
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:4375
+T:Polka
+M:2/4
+O:France
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006db.html
+%%ID:000006db
+K:D
+D2E2 F2EF|D2E2F4|A2F2 D2F2|E4E4|\
+D2E2 F2EF|D2E2F4|A2F2 D2F2|E4D4::
+A2Bc d2cB|A2B2 B2A2|A2Bc d2cB|A2G2 F2G2|\
+A4B3A|G2F2 E2FG|A2F2 D2F2|E4D4:|
+S:https://www.folktunefinder.com/tunes/36954
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

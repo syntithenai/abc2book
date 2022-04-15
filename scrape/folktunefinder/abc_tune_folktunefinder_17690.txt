@@ -1,0 +1,25 @@
+X:1
+T:Molloy's Favourite Reel
+M:4/4
+L:1/8
+Q:200
+S:Larry Reynolds
+Z:Philippe Varlet  irtrad-l 2000-12-06
+R:Reel
+K:D
+|: d2Ad fdAF | GFEF GABc | d2Ad fdAF | GBAG FD D2 :|
+| fg{a}gf g2ag | fg{a}gf gfeg | fg{a}gf gbag | faeg fddA |
+| dfaf g2ag | fg{a}gf gfeg | fedc dcBA | ^GABc defe ||
+S:https://www.folktunefinder.com/tunes/17690
+S:http://trillian.mit.edu/~jc/music/abc/reel/MolloysFavouriteR_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MolloysFavouriteR_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MolloysFavouriteR_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

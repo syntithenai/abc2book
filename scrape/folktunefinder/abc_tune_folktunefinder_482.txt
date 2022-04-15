@@ -1,0 +1,41 @@
+X:23
+T:Pensado piouso
+T:(Duo pour 2 galoubets mme ton)
+O:France
+A:Provence
+C:J. Ginas (1927)
+C:A Raspaut
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+%%continueall 1
+L:1/8
+Q:"Foro lent" 1/4=60
+K:Bb
+V:1
+%%MIDI program 74
+S (d/e/ | f)d ec B3 (g/a/ | b)gec f3 (f/e/ | d)G AB c3 (e/d/ | G)c GA B4 !fine! |: [Q:"Largo"] d4 e2c2 | f4 e2d2 | c4 G2A2 |
+B4 F2z2 | d4e2c2 | f4 g2B2 | d4 c2F2 | B6z2 | c4e2A2 | c4B2A2 | G4 =e2d2 |
+(c4A2)z2 | A4 c2e2 | e4 A2(df) | f4 =ed cB | A4 G2z2 | (Ad f=e d^c dB) | (GA df =eA d_e) | (dc Bf ) Ge dc | B6z2 S  :|
+V:2 clef=perc stafflines=0 staffscale=0.7
+%%MIDI program 116
+x | B2z2B2z2 |B2z2B2z2 |B2z2B2z2 | B2B2B4 |: B2B2B2BB | B2B2B2BB | B2B2B2BB | 
+BBBB B2z2 | B2B2B2BB | B2B2B2BB | B2B2B2BB | BBBB B2z2 | B2B2B2BB | B2B2B2BB | B2B2B2BB | 
+BBBB B2z2 | B2B2B2BB | B2B2B2BB | B2B2B2BB | BBBBB2z2 | BB BB BB BB | BB BB BB BB | BB BB BB BB | BBBB B2z2 :|
+V:3
+x | d2A2d2G2 | (BceA Bc)d2 | d2A2c2G2 | (cF dc B4) |: (Bd)G2 (Ac) e2 | d4 cA BG | e2 (cA) G2 (Ac) |
+d2B2d2z2 | (dcBA) G2 FA | Bc d2e2G2 | B2AG F2c2 | FGAB B2z2 | A2BG c2A2 | FGAc e>d d2 | cBAG =e2d2 |
+(c4A2)z2 | FAcf ecec | AcAc FA Bd | fdBG cd =ed | (AcAc) G2z2 | (AB d^c BA BG) | (GF Bd ^cA BG) | BF Ge dF GA | B6z2 :|
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/482
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

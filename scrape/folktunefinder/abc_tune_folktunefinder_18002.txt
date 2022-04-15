@@ -1,0 +1,28 @@
+X: 1
+T: Reel St-Antoine
+T: Reel \`a Karine
+C: French Canadian
+Z: Transcribed to abc by Mary Lou Knack
+S: printed page from Debby Knight
+N: Slightly twisted
+R: reel
+M: C|
+K: A
+(3efg \
+| a2ag aece | agab aece | agfe dcBA | BAGB B3 B3 (3efg |
+| a2ag aece | agab aece | agfe dcBA | GABG [1 A3A A2 :|[2 A4 :|
+|:c2cc cABc | dcBA GABc | d3d dfed | c2B2 AGAB |
+| c2cc cABc | dcBA GABc | defg a2ed | ccAc BAGB |1 A3A :|2 A2AA A2 :|
+S:https://www.folktunefinder.com/tunes/18002
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelStAntoine2_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelStAntoine2_A4.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

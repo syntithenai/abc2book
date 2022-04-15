@@ -1,0 +1,29 @@
+X: 6247
+T:Young Andrew's Gallop
+O:England
+M:5/4
+C:Andy Hornby
+A:Lancaster
+K:G
+d2 cB A2 G3D| GAB2 G2 A4|\
+d2 cBA2 G3D|1 GAB2 A2 G4 :|2 GAB2 A2 G3::
+M:7/4
+D|\
+GA B2A2 GAB2 A3D| GAB2 A2 GA F2G3D|\
+GAB2 A2 GAB2 A4|\
+M:5/4
+d2 cB A2G3D| GAB2 A2G3 :|
+W:Copyright (C) Andy Hornby July 1997
+S:https://www.folktunefinder.com/tunes/34158
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 5/4
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

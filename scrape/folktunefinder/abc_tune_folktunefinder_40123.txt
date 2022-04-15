@@ -1,0 +1,27 @@
+X: 19
+T: 1. Lady Glasgow
+Z: Earl of Eglintoun
+M: C
+L: 1/8
+R: Strathspey
+Z: Ceolas Fiddlers Companion
+S: Glen Collection, 1895
+Z: ABC Notation and chords by Robin Shaylor, August 2005
+% Q: 220
+K: A
+E2 |:\
+"A" Ac/d/ e>c    f>de>c | Ac/d/ ed "(F#m)" cA "(E7)" e2 | "A" Ac/d/ e>c "F#m" f>de>c | "Bm" d<fc<e "E7" B>c d2 |
+"A" Ac/d/ e>c    f>de>c | Ac/d/ ed "(F#m)" cA "(E7)" e2 | "A" Ac/d/ e>c "F#m" f>de>c | "Bm" d<fc<e "E7" B>c d2 |
+"A" a>e ce a/g/f/e/ c>e | a>e ce A>ce2 | "A"   a>e ce "A/C#" a/g/f/e/ ce| "Bm" d<fc<e "E7" B>cd2 |
+"A" a>e ce a/g/f/e/ c>e | a>e ce Ace2  | "F#m" f<a "F#m7/E'" e<a "D" d<f "A/C#" c<e | "D6" B>cB>c "E7" d>e f2  :|
+S:https://www.folktunefinder.com/tunes/40123
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

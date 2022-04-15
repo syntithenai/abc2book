@@ -1,0 +1,20 @@
+X: 2
+T: Shottish i B-moll och D
+O: Sweden
+M: 4/4
+L: 1/8
+K: Bm
+|::: F2 \
+| "Bm"B>c de f2 f2 | f2{gf}ed B4 |1 "F#m"c>d cA c2 c2 | "Bm"B>c dc B2 \
+                                :|2 "F#m"c>d cA F>A cA | "Bm"B2 B2 B2 :|
+|::: FG \
+| "D"A2 fe d2 AF | "G"G2 B2 B2 ed |1 "A7"c2 c2 c>A Bc | "D"d2 d2 dA \
+                                 :|2 "A7"c2 c2 c>A fe | "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/8680
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_shot5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

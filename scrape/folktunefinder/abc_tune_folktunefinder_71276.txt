@@ -1,0 +1,25 @@
+X:247
+%%topmargin 3cm
+T:The Black Shepherdess
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A dorian
+AA ag f2 ef | ef g2 dBBd | a>ba>g f2 ef | gedB AA A2 ::
+g/ | f2 A2 f>e de | g2 dB GB d>g | f2 A>f e2 de | gedB AA A>g :|
+S:https://www.folktunefinder.com/tunes/71276
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Black_Shepherdess.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0247.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

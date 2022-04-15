@@ -1,0 +1,29 @@
+X: 1
+T: G\aangl\aat fr\an R\"attvik (old form)
+S: Paul Dahlin, Ed Johnson
+R: ganglat, snoa
+M: 2/4
+L: 1/16
+K: D
+|: "D"a2aa a2g2 | f2ff fgfe | d2ef g2f2 | "A7"e2ee efed \
+| c2ef g2f2 | e3d c2B2 |1,3 A2BA G2BG | "D"F4 :|2,4 "A7"A2g2 B2c2 | "D"d4 :|
+|: "D"A2AA "G"{A}B2BB | "D"A2d2 F3A | "A7"A2BA GECE | "D"D2DD FED2 \
+| A2AA "G"{A}B2BB | "D"A2d2 F3A | "A7"A2BA GECE | "D"D2D2 D4 :|
+|: "D"f2ff f2g2 | f3e d2c2 | "G"B3A G2F2 | "Em"G6 cd \
+| "A7"e2fe d2ed | c2dc B2cB | A3G F2G2 | "D"A6 A2 |
+| "d"f2ff f2g2 | f3e d2c2 | "G"B3G B2d2 | "Em"b6 b2 \
+| "A7"a2ba g2ag | f2gf e2ed | c2e2 a2c2 | "D"d8 :|
+S:https://www.folktunefinder.com/tunes/15658
+S:http://trillian.mit.edu/~jc/music/abc/march/RattvikG1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/march/RattvikG1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/march/RattvikG1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/RattvikG1.abc
+% Rhythm Ganglat, snoa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

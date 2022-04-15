@@ -1,0 +1,19 @@
+X:1
+T:Unknown jig
+S: "BOTTURA Thierry ROSI/SIPROD"  2004-4-26
+M:6/8
+L:1/8
+K:D
+|: ADD BDD | AFF FED | ADD BDD | AFD E2D | ADD BDD | AFF FED | E2F GAB | AFD E2D :|
+|: dAA BAd | AFF FED | dAA BAd | AFD E2D | dAA BAd | AFF FED | E2F GAB | AFD E2D :|
+S:https://www.folktunefinder.com/tunes/2554
+S:http://trillian.mit.edu/~jc/music/abc/test/Unknown_jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Unknown_jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/Unknown_jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

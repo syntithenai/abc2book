@@ -1,0 +1,21 @@
+X: 1
+P: Debka Rafiach
+O: Israel
+M: 2/4
+L: 1/16
+K: DPhrygian
+|: "Gm"GFGE "F"FEF2 | "Eb"EDE2 "Dm"DCDE | "F"FEF2 "Eb"EDE2 | "Dm"D4- D4 :|
+|: "Gm"DCDE "F"FEF2 | "Eb"EDE2 "Dm"D2GF | "Gm"G2G2 "F"FEF2 \
+| "Eb"EDE2 "Dm"DCDE | "F"FEF2 "Eb"EDE2 | "Dm"D4- D4 :|
+|| "Gm"G3A/G/ "F"F4 | "Gm"G3A/G/ "F"F4 | "Gm"G3A/G/ "F"F2F2 \
+| "Gm"G2G2 "F"F2F2 | "Gm"G2G2 "F"FEF2 | "Dm"D4- D4 |]
+S:https://www.folktunefinder.com/tunes/5478
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DebkaRafiach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

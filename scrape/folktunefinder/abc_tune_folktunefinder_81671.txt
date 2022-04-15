@@ -1,0 +1,84 @@
+X: 33
+T: Kohler's Hornpipe
+M: 2/2
+L: 1/8
+Q:1/4=175
+K:C % 0 sharps
+% Kohler's Hornpipe
+% (c) SSF February 2006
+V:1
+z6 zG| \
+c2 cB cd ef| \
+g^f ga ge dc| \
+AG AB cd cA|
+GE cA GE CE| \
+=FE FG AG AB| \
+cB cd eg ag| \
+fe dc Ac Bd|
+ec cB c2 G2| \
+c2 cB cd ef| \
+g^f ga ge dc| \
+AG AB cd cA|
+GE cA GE CE| \
+=FE FG AG AB| \
+cB cd eg ag| \
+fe dc Ac Bd|
+ec cB c2 zg/2f/2| \
+eg cg eg cg| \
+dg Bg dg Bg| \
+ce Ae ce Ae|
+Gc Ec Gc Ec| \
+zE FG AG AB| \
+cB cd eg ag| \
+fe dc Ac Bd|
+ec cB c2 zg/2f/2| \
+eg cg eg cg| \
+dg Bg dg Bg| \
+ce Ae ce Ae|
+Gc Ec Gc Ec| \
+zE FG AG AB| \
+cB cd eg ag| \
+fe dc Ac Bd|
+ec cB c2
+V:2
+z8| C,z [GEC]z C,z [GEC]z| \
+G,z [dBG]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z|
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z| \
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z G,z [dBG]z|
+C,z [GEC]z C,z [GEC]z| \
+C,z [GEC]z C,z [GEC]z| \
+G,z [dBG]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z|
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z| \
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z G,z [dBG]z|
+C,z [GEC]z C,z [GEC]z| \
+C,z [GEC]z C,z [GEC]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z| \
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z G,z [fdBG]z|
+C,z [GEC]z C,z [GEC]z| \
+C,z [GEC]z C,z [GEC]z| \
+G,z [dBG]z G,z [dBG]z| \
+A,,z [ECA,]z A,,z [ECA,]z|
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z F,z [cAF]z| \
+C,z [GEC]z C,z [GEC]z| \
+F,z [cAF]z G,z [fdBG]z|
+C,z [GEC]z C,z [GEC]
+S:https://www.folktunefinder.com/tunes/81671
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

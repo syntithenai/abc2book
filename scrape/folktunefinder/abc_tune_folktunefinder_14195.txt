@@ -1,0 +1,28 @@
+X: 1
+T: Follow Me Up To Carlow
+O: Ireland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: A well-known Irish rebel tune.
+R: jig
+M: 6/8
+L: 1/8
+K: ADor
+|: "Am"A>AA A2G |     E2F G3   |    A>AA    c2d | "(E)"e2d c2B \
+|  "Am"A>AA A2G |     E2F G3   |    A>AA "G"B2G |  "Am"A3- A2z :|
+|: "Em"e2f  g2f |     e2f g3   | "G"B>BB    B2A |      G2A B3 \
+|  "Em"e2f  g2f |     e2f g3   | "G"B>BB    B2G |  "Am"A3- Az2 :|
+S:https://www.folktunefinder.com/tunes/14195
+S:http://trillian.mit.edu/~jc/music/abc/jig/FollowMeUpToCarlow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/FollowMeUpToCarlow.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FollowMeUpToCarlow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/jig/FollowMeUpToCarlow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/FollowMeUpToCarlow.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

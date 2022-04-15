@@ -1,0 +1,30 @@
+X: 1433
+T:The Boys Of Ballysodare
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+H:Initial 'd' and 'g' of parts 1 and 2 slid dramatically.
+M:4/4
+K:G
+dG(3.G.G.G dGeG | dG(3.G.G.G A2Bc | dG(3.G.G.G dedB | AcBA GEDG |
+dG(3.G.G.G dGeG | dG(3.G.G.G BABc | d^cdB eBdB | (3ABc BA GEDf ||
+g3a {b}ag(3agf | (3.g.g.f ga bgef | gzdg bgaf | {a}gfed ^cdef |
+(3.g.g.f ga bg(3.a.g.f | gfga bgdg | bgag {a}gedB | (3ABc BA GEDc ||
+Bd(3.d.d.d Bdad | Bdgd BAAc | Bd(3.d.d.d BcdB | (3ABc BA GEDc |
+Bd(3.d.d.d Bdad | Bdgd BAAd | eB{d}BA ~B3B | AcBA GEDE || G4
+S:https://www.folktunefinder.com/tunes/31940
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 3
+T: High Part of the Road
+M:6/8
+L:1/8
+R:Jig
+S:Fiddler's Companion
+K:G
+   GA \
+| "G"~B3 "C"~c3 | "G"ded "C"cAG | "D7"F2D DED | FED FGA \
+| "G"BAB "C"cBc | "G"ded d2e | "D7"fed cAF | AGF "G"G :|
+|: Bd \
+| "G"~g3 "D7"def | "G"g2a bag | "D7"~f3 dfg | afd cAF \
+| "G"~g3 "D7"def | "G"g2a bag | "D7"fed cAF | AGF "G"G :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/228
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

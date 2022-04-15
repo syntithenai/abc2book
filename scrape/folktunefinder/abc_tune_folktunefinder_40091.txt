@@ -1,0 +1,56 @@
+X:2
+T:Sonata 6
+T:2. Presto
+C:Telemann
+M:C
+L:1/4
+K:C
+V:1
+z4|z4|z4|z4|z4|z4|z4|z4|
+G2c2|edec|d2g2|cBcA|Bedc|Bg^fe|d^fgG|B2A2|
+GBd2|z Gc2|z ^ce2|z Ad2|z dg2|z fed|^cAe2|D2A2|
+_BABG|A2d2|GFGE|F_BAG|Fdc_B|A^cdD|F2E2|D2 z2|
+z AFA|f2 z2|z cBA|GFED|CGEG|c2 z2|z GEG|c2 z B|
+A2 z c|B2 z f|edcB|Acf2|z edc|BAdc|fedc|
+B2 z d|cBA2|z2 d2-|dBcA|BG^F^G|A2a2-|afed|cBcf|ead^g|
+aABc|^F2 z F|A2 z A|c2 z ^F|G2d2|edec|d2g2|cBcA|
+Bedc|Bg^fe|d^fgG|B2A2|G2 z2|z GC2|z cE2|z dc_B|
+AGF2|z2 _b2-|bgaf|gcde|F2f2-|fdc_B|AGAd|cf_Be|
+fdef|B2 z B|d2 z d|f2 z B|C2G2|AGAF|G2c2|FEFD|
+EAGF|EcBA|GBcC|E2D2|C2 z2|z GEG|e2 z2|z fed|
+c_BAG|FcAc|f2 z2|z cAc|c'3_b|agfe|dcfe|agfe|
+d2 z F|EDC2|z2 f2-|fdec|dGAB|C2c2-|cAGF|EDEA|
+GcFB|c2 z E|FGAE|F_BAE|FC z A|dcB^F|GcB^f|gAB^F|
+GD z d|BdGB|dgGB|dfBd|e2c2|c2c2|ccBc|GcFc|
+E2c2|c2c2|ccBc|GcFc|ECEA|GcFG|CEFG|AEF_B|
+AEFC|z Adc|B^FGc|B^fgA|B^FGD|z dBd|GBdg|GBdf|
+BdGB|ccBc|AcGc|F2c2|c2c2|ccBc|AcGc|F2c2|
+c2c2|cGcf|e2d2|c4|]
+V:2
+C2G2|AGAF|G2c2|FEFD|EAGF|EcBA|GBcC|E2D2|
+C2 z2|z2 c2-|cABG|ADE^F|G2g2-|gedc|BABe|dgc^f|
+g2 z F|E2 z _B|A2 z G|F2 z c|_B2 z f|ed^c=B|A2 z G|FED2|
+z2 g2-|gefd|eAB^c|D2d2-|d_BAG|FEF_B|AdG^c|dAFA|
+c2 z2|z AFA|d2 z c|BAGF|E2 z2|z GEG|e2 z2|z BAG|
+^FAd2|z dg2|z fed|c2 z e|dcBA|dcfe|dcBA|^GEB2|
+A2e2|fefd|e2a2|dcdB|cfed|cagf|e^gaA|c2B2|
+A2 z2|z  AD2|z d^F2|z edc|BAG2|z2 c2-|cABG|ADE^F|
+G2g2-|gedc|BABe|dgc^f|gGA_B|E2 z E|G2 z G|_B2 z E|
+F2c2|dcd_B|c2f2|_BABG|Adc_B|Afed|cefF|A2G2|
+F2 z2|z dG2|z gB2|z AGF|EDC2|z2 f2-|fdec|dGAB|
+C2c2-|cAGF|EDEA|GcFB|cGEG|c2 z2|z GEG|g2 z f|
+edc_B|A2 z2|z cAc|a2 z2|z_bag|fedc|feag|fedc|
+BGd2|C2G2|AGAF|G2c2|FEFD|EAGF|EcBA|GBcC|
+E2D2|CEFG|AEF_B|AEFC|z Adc|B^FGc|B^fgA|B^FGD|
+z dBd|GBdg|GBdf|BdGB|ccBc|AcGc|F2c2|c2c2|
+ccBc|AcGc|F2c2|c2c2|cGcf|e2d2|c2 z E|FGAE|
+F_BAE|FC z A|dcB^F|GcB^f|gAB^F|GD z d|BdGB|dgGB|
+dfBd|e2c2|c2c2|ccBc|GcFc|E2c2|c2c2|ccBc|
+GcFc|ECEA|GcFG|C4|]
+S:https://www.folktunefinder.com/tunes/40091
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_6_C.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

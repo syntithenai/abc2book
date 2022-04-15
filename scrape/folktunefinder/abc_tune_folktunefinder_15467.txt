@@ -1,0 +1,24 @@
+X:1
+T:Highland Laddie
+R:Reel
+O:Scotland
+M:4/4
+L:1/8
+K:Em
+D2 \
+| "G"G3A B2B2 | cBAG B4 | "D7"B2A2 A2GA | B2A2 A2B2 \
+| "G"G3A B2B2 | cBAG "B7"B3A | "Em"G2E2 E2DE | G2E2 E2 :|
+|: d2 | \
+| "C"e2g2 "G"d3B | cBAG B4 | "D7"B2A2 A2GA | B2A2 A3d \
+| "C"e2g2 "G"d2B2 | cBAG "B7"B3A | "Em"G2E2 E2DE | G2E2 E2 :|
+S:https://www.folktunefinder.com/tunes/15467
+S:http://trillian.mit.edu/~jc/music/abc/march/HighlandLaddie_4G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

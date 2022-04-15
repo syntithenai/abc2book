@@ -1,0 +1,26 @@
+X:1
+T: Promoroaca
+C: Romania
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+%Q: 1/8=140
+K: Am
+|: "Am"ae ae "D"ae a2 \
+| "G"gd de "C"dc c2 \
+:: "E7"B/c/d dd "Am"e>d c/B/A |
+| "Dm"A/>f/e/d/ "E7"c/B/c/d/ "Am"e>d c/B/A \
+| "E7"B/c/d dd "Am"e>d c/B/A \
+| "Dm"c/B/d/B/ "E7"c/A/B/^G/ "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/2904
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Promoroaca.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Promoroaca.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Promoroaca_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

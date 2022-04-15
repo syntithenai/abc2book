@@ -1,0 +1,31 @@
+X:1
+T:The Braes of Auchtermuchty
+T:Madelina Sinclairs
+R:strathspey
+N:bar 15 has dots on both the first A and the first e
+S:NLS Acc.11516/6
+N:book of pipe tunes dated 1863 written by John Clyde and R. McKenzie
+N:from the papers of G.S. MacLennan
+Z: Jack Campin <jc@purr.demon.co.uk> scots-l 2001-10-18
+M:C
+L:1/8
+K:Hp
+f|e>Ac>A c>ef2 |e>Ae>c B>BB>f|e>Ac>A c<ea2 |A<Ac>B A>AA>f|
+  e>Ac>A c<ef2 |e>Ae>c c>BB>c|A<ef<e A<ea<e|A<Ac>B A>AA ||
+g|a>gf>e f>ga>f|e>ca>c B>BB>g|a>gf>e f>ga>e|A<Ac>B A>AA>g|
+  a>gf>e f>ga>f|e>ca>c B>BB>c|A>ef>e A<ea<e|A<Ac>B A>AA |]
+S:https://www.folktunefinder.com/tunes/19216
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfAuchtermuchty_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MadelinaSinclairs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfAuchtermuchty_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MadelinaSinclairs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/BraesOfAuchtermuchty_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MadelinaSinclairs_1.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

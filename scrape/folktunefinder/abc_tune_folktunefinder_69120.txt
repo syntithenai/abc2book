@@ -1,0 +1,25 @@
+X:261
+T: AUF MEINEM GRAB DA LIEGT EIN STEIN
+N: Z0259
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: lyrisches Lied, Romanze, Tod
+M: 2/4
+L: 1/8
+K: G
+DGA | B2d2 | BBAA | G
+DGB | d2ge | cBcB | c
+BAB | c2dc | BABA | B
+AGA | BBdd | BBAA | G
+S:https://www.folktunefinder.com/tunes/69120
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

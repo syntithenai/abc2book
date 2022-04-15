@@ -1,0 +1,25 @@
+X:76
+T: ES KAMEN DREI SCHWARZE RABEN
+N: E0045
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 3/8
+L: 1/16
+K: F
+C2 | F3FF2 | A2F2A2 | c4B2 | A4
+c2 | d2f2d2 | c2A2FA | c4B2 | A4
+FA | c3AcA | G4
+FA | c3AcA | G4
+FA | c3dc2 | F2A2c2 | c2B2G2 | F4
+S:https://www.folktunefinder.com/tunes/78517
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 4746
+T:Minuet
+T:k 2
+C:Wolfgang Amadeus Mozart
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0
+V:2 Program 1 0 bass
+M:3/4
+L:1/8
+Q:1/4=132
+K:F
+V:1
+fac2c2|dfB2B2|AcF2E2|E4F2|CEG2G2|CFA2A2|
+V:2
+F,4A,2|B,4B,2|C4C,2|F,2C,2F,,2|C,6|C,6|
+V:1
+(3CEGB2A2|A4G2:|c_eA2A2|BdG2G2|Ac^F2F2|^F4G2|
+V:2
+C,2E,2F,2|C2G,2C,2:|^F,6|G,6|C2D2D,2|G,2D,2G,,2|
+V:1
+BdG2G2|AcF2F2|BGE2E2|E4F2|fac2c2|dfB2B2|
+V:2
+E,6|F,6|B,2C2C,2|F,2C,2F,,2|A,6|B,6|
+V:1
+AcF2E2|E4HF2|fac2c2|dfB2B2|AcF2E2|E4F2|]
+V:2
+C4C,2|HD,6|A,6|B,6|C4C,2|F,2C,2F,,2|]
+S:https://www.folktunefinder.com/tunes/33903
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Minuet
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

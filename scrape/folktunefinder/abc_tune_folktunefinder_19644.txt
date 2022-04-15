@@ -1,0 +1,22 @@
+X: 1
+T: 'S ann an Ile bhoidhich
+O: Scotland
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: C
+L: 1/8
+K: G
+|: "G"G>A B>G "D7"c>A "G"B>G |  "C"E<E A>G "D7"F<D D2 | "G"G>A B>G "D7"c>A "G"B>G | "D7"E>A F>D "G"G2 G2 :|
+|: "D"D>D D>D   (3DDD    D>D | "Bm"d>B A>B  "C"G<E E2 | "D"D>D D>D   (3DDD    D>D | "D7"d>B A>B "G"G2 G2 :|
+S:https://www.folktunefinder.com/tunes/19644
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SAnnAnIleBhoidhich_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SAnnAnIleBhoidhich_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

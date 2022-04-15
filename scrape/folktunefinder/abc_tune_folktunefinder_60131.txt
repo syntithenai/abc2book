@@ -1,0 +1,24 @@
+X:3942
+T:Dawn, The
+R:reel
+H:There are two different versions of this reel, see also #732
+H:Both versions are also sometimes played in G, see #42, #731
+Z:id:hn-reel-733
+M:C|
+K:G
+G,2B,D C2EC|D2FA GcBG|AD~D2 BD~D2|AcBA GEDB,|
+G,2B,D C2EC|D2FA GABd|edBd gdBd|cBAc BGG2:|
+|:g2gd edBd|eaag fdde|(3fed ad fdad|gbdg bdgb|
+g2gd edBd|cBAB cdef|1 (3gfe fd e2dB|cBAc BGG2:|2 gedB c2Bc|dBcA BGG2||
+S:https://www.folktunefinder.com/tunes/60131
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

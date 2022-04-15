@@ -1,0 +1,36 @@
+X: 64
+T:Pythia,La. CJF.064
+T:La Pythia. CJF.064
+M:2/4
+L:1/16
+Q:100
+C:Berbiguier
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Last bar of 1st-time repeat - a2 was a4 in MS. All the bars between
+N:the
+N:asterisks have been added, according to instructions in the MS, from
+N:bars added at the end of the tune - "Play these notes at the beginning
+N:of the second part." - PJH.
+Z:vmp.P J Headford 2000
+K:D
+"$".f2.f2 (edcd)|e2e2a4|(gfed) (B2e2)|(d4{ed}c)(cde)|!
+.f2.f2 (edcd)|e2e2d'4|1c'2c'2 babc'|b4a2z2:|2\
+f2f2 {f/}(edef)|e4d2"*"z2||!
+(^defe)c4|(^gaba)f4|g3ef3d|{f/}e>de>fe4"*"|!
+(^defe) c2e2|(^gaba) e2a2|c'bac' ba^gb|a^gab a=gf" $"e|]
+S:https://www.folktunefinder.com/tunes/49619
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:29
+T:Rumanian tune
+C:from Ruthie Dornfeld
+M:4/4
+K:Am ^c _b
+|: g4 g4 | f4 f4 | cd e3 d cd | e3 dcB A2 | \
+g4 g4 | f4 f4 | G^FGA BcdB | cdBc A4 :| \
+z dcd
+|: e2 e2 e2 e2 | (e2 e3) dcd | f2 f2 f2 f2 | \
+(f2 f3) dcd | e2 e2 e2 e2 | e4 G^FGA | BcdB cdBc | A4 z4 :|
+S:https://www.folktunefinder.com/tunes/43696
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/RumanianTune_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

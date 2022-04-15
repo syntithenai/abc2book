@@ -1,0 +1,27 @@
+X:200
+T: Der Holderstrauch (3-42), S. 111
+N: K1175
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Treue, Trennung]
+M: 3/4
+L: 1/16
+K: F
+C4 | A3GF6c2 | c3BA4c4 | B2A2G4F2G2 | A6z2
+F4 | d3cB6d2 | c3BA4c4 | B3A2G3F2G2 | A6z2
+F4 | d3cB6d2 | c3BA4c4 | B3AG4A2G2 | F6z2
+S:https://www.folktunefinder.com/tunes/70330
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Treue, trennung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

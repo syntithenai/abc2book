@@ -1,0 +1,31 @@
+X: 78
+T: Skin the Peeler
+C: J-30
+M: 9/8
+Z: Transcribed to abc by Mary Lou Knack
+R: slipjig
+% %staffwidth 14cm
+K: G
+A|: B2d e2f g3| A2B d2f dBA| B2d e2f g2a| b2a g2e dBA:|
+ |:B2A B2A G2A| B2A B2e dBA| B2A B2A G2A| B2d e2f dBA:|
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-30, "Dusty Bob's", same as J-28
+%%textfont       Times-Roman 9.0
+% ---------- page 40 ----------
+S:https://www.folktunefinder.com/tunes/1900
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

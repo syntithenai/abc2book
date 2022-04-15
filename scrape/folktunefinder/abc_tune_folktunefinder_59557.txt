@@ -1,0 +1,35 @@
+X:670
+T:Soled (CT 089)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, variante de CT 89, dictada por Jos Antonio Larriba, de cuarenta y un aos, de Xixn.
+A:Asturies
+O:Xixn
+Z:Cancioneru de Torner 089
+M:2/4
+L:1/8
+Q:1/4=138
+K:C
+Bd|:d2 Ac|B2 G2-|Ge ee|
+ed Bd|d2 Ac|B2 G2-|GB Bd|dc AB|G4-|[1 G4 Bd :|[2 G4||
+W:soled de mi vida,
+W:quin te da ms pena
+W:
+W:Las campanas del alba,
+W:que me desvelan.
+W:
+W:Soled!
+W:
+S:https://www.folktunefinder.com/tunes/59557
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

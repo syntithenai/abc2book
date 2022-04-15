@@ -1,0 +1,33 @@
+X:1
+T:lord of the dance 3
+M:2/4
+L:1/16
+R:polka
+K:Eminor
+|:E2GE A2B2|EEGE c2B2|DDED FDGD|ADGD FDEF|
+|E2GE A2B2|EEGE c2B2|DDED FDGD|AGFD E4:|
+K:Bminor
+|:B2eB fBgB|B2eB fBgB|A2dA eAfA|(3gfe fe edBA| 
+|B2eB fBgB|B2eB fBgB|A2dA eAfA|(3gfe dB e4:|
+K:G 
+|:d4 B3A| BcBA G4|B2Bc d2cB|A2D2 D4|
+|G2GF GDBD| GDGB d2cB|A2AA AcBA|1G2GG G4:|2G2GG G3D||
+K:G
+[|G2GG B2BB |d2d2 B4|A2AA A3B|cBAG F3D|
+|G2GG B2BB |d2d2 B4|A2AA AcBA| G2GF G4|]
+K:A
+|:e4 c3B| cdcB A4|c2cd e2dc|B2E2 E4|
+|A2AA A3B| cBcd e2dc|B2BB BdcB|1 A2A2 A4:|2A2e2 a4||
+S:https://www.folktunefinder.com/tunes/45762
+S:http://www.thesession.org/tunes/display/7844
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key B
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

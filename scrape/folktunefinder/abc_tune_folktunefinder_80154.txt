@@ -1,0 +1,28 @@
+X:95
+T: Bauernkalender
+N: A0452
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 51.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+G | GG_BB | AFG
+A | _BBAA | G2z
+G | GG_BB | AFG
+A | _BBAA | G2z
+_B | AAA_B | Ad2
+d | dc_BB | A2z
+A | _BcAd | d2_B
+d | ddcc | d2dG | c_BAA | G3
+S:https://www.folktunefinder.com/tunes/80154
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

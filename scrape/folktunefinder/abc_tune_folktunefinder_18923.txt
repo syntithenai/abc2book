@@ -1,0 +1,19 @@
+X: 1
+T: Pod Moskovniye Vechera
+T: Moscow Evenings
+M: 2/4
+L: 1/8
+K: Am
+| "Am"Ac ec | "Dm"d2 cB | "E7"e2 d2 | "Am"A4 \
+| "C"ce gg | "F"a2 "G7"gf | "C"e4 |: "B7"^f2 "E7"^g2 |
+| "Am"ba e2- | e B2A | "Dm"ed f2- | f2 gf \
+| "Am"e2 dc | "E7"e2 d2 |1 "Am"A2 e2 :|2 "Am"[a4-c2-] | [ac]z3 |]
+S:https://www.folktunefinder.com/tunes/18923
+S:http://trillian.mit.edu/~jc/music/abc/song/PodMoskovniyeVechera_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/song/PodMoskovniyeVechera_Am.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

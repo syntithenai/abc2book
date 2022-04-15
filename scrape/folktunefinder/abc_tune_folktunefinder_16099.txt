@@ -1,0 +1,21 @@
+X: 1
+T: Vanha polkka Hattulasta
+O: Trad
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"f2fe f2a2 | "A7"e2e^c e2g2 | "Dm"gfef d2f2 | "A7"fed^c "Dm"d4 :|
+|: "Dm"agfe "Bb"fefd | "Gm"ede^c "A7"A2A2 | "Dm"A2d2 "Gm"f2ed | "A7"^cdec "Dm"d4 :|
+|: "F"f2gf "A7"e2fe | "Bb"d2ed "A7"^c2A2 | "Dm"A2a2 "Gm"a2g2 |1"A7"gfef "Dm"d2"C7"e2 :|2 "A7"gfef "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/16099
+S:http://trillian.mit.edu/~jc/music/abc/polka/Hattulasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/Hattulasta_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Hattulasta_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

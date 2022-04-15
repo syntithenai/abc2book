@@ -1,0 +1,31 @@
+X: 206
+P: Sl\"angpolska fr\aan Torp
+O: efter Mandis Nilsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd fa \
+| "G"ag (g<b) d2- \
+| d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+|: "G"ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"a(g f)d fa \
+| "G"ag (g<b) b2- \
+| ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+S:https://www.folktunefinder.com/tunes/8411
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

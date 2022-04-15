@@ -1,0 +1,21 @@
+X: 2
+T: Star\vceska R\ua\vcenica
+Z: 2003 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/16
+K: G
+L: 1/16
+|: "Am"ABcd ~c2G | cB{c}BG c2G | "(G)"cB{c}BG "G"ABG |1,3."Am"A2cd {e}dcB :|2,4."Am"A2AE A2z :|
+|: "Am"cB{c}BG AEE | FG~A2 AGA | cB{c}BG AEE |1,3 FG~A2 Ad{e}d :|2,4 FGA2 "fine"A2z :|
+K:A
+|: "A"ed~c2 AEE | "G(E7)"AB{c}BA "A"ABc | dBc2 AEE |1,3."E7"AB{c}BA "A"Ade :|2,4."E7"AB{c}BA "A"A2z :|
+|: "A"~A2z2 "D"d2z | "A"~c2z2 "E7"edc | "A"~A2z2 "D"d2z |1,3 "A"~c2 ze "E7"~B3 :|2,4 "A"~c2z2 "E7"~B2A :|
+S:https://www.folktunefinder.com/tunes/5953
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RACH4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rach_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 7/16
+% Has_accompaniment_chords Has chords

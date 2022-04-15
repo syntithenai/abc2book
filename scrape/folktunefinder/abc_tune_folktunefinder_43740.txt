@@ -1,0 +1,25 @@
+X:11
+T:The Pogo Stick
+C:Andy Hornby 1989
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+D EF|G2dB AB|G2dB GB|AB cD EF|GF GD EF|
+G2dB AB|G2dB GB|AB cD EF|G4:|
+|:B AG|F2DF Ac|B2GB dB|AG FE FD|GF GB AG|
+F2DF Ac|B2GB dB|AG FE FD|G3:|
+|:d Bd|cd Bd Ad|Bd Ad GB|AG FE FD|GF Gd Bd|
+cd Bd Ad|Bd Ad GB|AG FE FD|G3:|
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43740
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

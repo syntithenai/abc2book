@@ -1,0 +1,27 @@
+X:825
+T:Asturies, Patria Querida (Versin 2)
+S:
+M:3/4
+L:1/8
+Q:1/4=80
+K:HP
+|:{g}A|
+{gcd}c2{g}c2{Gdc}dc/2d/2|
+{g}ef{gef}e3{g}e|
+{gfg}f2{Gdc}d2{g}fe/2d/2|
+{gef}e{g}e/2d/2{gcd}c3{G}A:|
+|:{gfg}f{g}f/2e/2{gfg}f{g}f{gf}g{f}g/2f/2|
+{g}ec/2d/2{gef}e2{gfg}f{g}f/2e/2|
+{Gdc}d{g}B/2c/2{g}d{e}d{gef}e{g}e/2{g}e/2
+|[1{gfg}fe/2d/2{gcd}c2A{GdGe}A:|
+|[2 {gef}f4{gef}e2|e2-{Gdc}d4|{gcd}c6||
+S:https://www.folktunefinder.com/tunes/1459
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

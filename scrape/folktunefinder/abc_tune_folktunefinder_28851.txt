@@ -1,0 +1,41 @@
+X:2571
+T:Cantar de Ronda (CT 430)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Severino Martnez Iglesias, de cuarenta y un aos, de Llanuces, ayuntamiento de Quirs.
+O:Llanuces (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 430
+M:6/8
+L:1/8
+Q:3/8=60
+W:Bien lo sabes,
+W:que te quiero,
+W:bien lo sabes,
+W:que te olvido
+W:no lo inores;
+W:no lo inores;
+W:si tus culpas lo merecen,
+W:qu se me d que t llores
+K:Cm
+GG
+|c2 c-c3-|c2 z2 cd|
+e2 c d2 B|G-G/4A/4G/4A/4 B-B3-|B2 z2 Bc|
+d2 B c2 A|G2 G-G3-|G2 z2 GG|
+c2 c-c3-|c2 z2 cd|
+e2 c d2 B|G-G/4A/4G/4A/4 B-B3-|B2 z2 Bc|
+d2 B c2 A|G2 G-G3-|G2 ||
+S:https://www.folktunefinder.com/tunes/28851
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

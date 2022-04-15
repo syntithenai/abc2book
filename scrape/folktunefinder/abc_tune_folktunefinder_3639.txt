@@ -1,0 +1,23 @@
+X: 2
+P: Auretti's Dutch Skipper
+O: England c.1756
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"cGc edc | "G7"dBG f3 | "C"edc "G7"BdB | "C" cGE C2G \
+| "C"cGc edc | "G7"dBG def | "C"edc "G7"GcB | "C"c3- c2 :|
+|: G \
+| "C"ceg gec | "F"dfa a2G | "C"ceg gec | "G7"Bdd d2G \
+| "C"ceg gec | "F"dc'b c'2f | "C"edc "G7"GcB | "C"c3- c2 :|
+S:https://www.folktunefinder.com/tunes/3639
+S:http://trillian.mit.edu/~jc/music/abc/England/AurettisDutchSkipper.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

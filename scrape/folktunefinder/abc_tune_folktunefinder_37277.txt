@@ -1,0 +1,33 @@
+X:5990
+T:Svensk Anna's Vals
+A:Dalarna, Boda
+M:3/4
+N:Also played in Orkney
+O:Sweden
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a0b.html
+%%ID:00000a0b
+K:D
+FG|\
+A2f2e2 | d2c2B2 | A2F2G2 | A4 FG | \
+A2f2e2 | d2c2d2 | e3f ed | e4 FG |
+A2f2e2 | d2c2B2 | A2F2G2 | A4 AA |\
+B2g2f2 | e2B2c2 | d3e dc | d4 ::
+FG |\
+A4 f2 | A4 A2 |  B4 g2 | B4 B2 | \
+c3d cB | E2F2G2 |  B2A2G2 | F4 FG |
+A4 f2 | A4 AA | B4 g2 | B4 BB |\
+c3d cB | A2 f2 e2 | d3e dc | d4 :|
+S:https://www.folktunefinder.com/tunes/37277
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

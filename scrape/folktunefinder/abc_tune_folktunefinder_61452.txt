@@ -1,0 +1,61 @@
+X:9419
+T:Le pommier doux 
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n58
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+G>A B c |\ 
+M:3/4
+d d d e c e |\
+M:2/4
+d2-d z | G>A B c |\
+M:3/4
+d d d e c e |!
+M:2/4
+d2-d z | d>B B B | (dc) A z | G G B B | (dc) A z |!
+d>B B B | (dc) A G | B d c A | G2 z B |\
+M:3/4
+B c d2 e2 |!
+M:2/4
+d d/ d/ d B |\
+M:3/4
+B c d2 e2 |\
+M:2/4
+d2 z B |\
+M:3/4
+B c d2 e2 |!
+M:2/4
+d d/ d/ d B |\
+M:3/4
+B c d2 e2 | Hd6 ||
+W:Derrire chez mon pre, y a un pommier doux (2x)
+W:D'argent sont les branches,
+W:   Vole mon coeur, vole
+W:D'argent sont les branches, et les feuilles itou.
+W:et les feuilles itou, lou re lou et les feuilles itou. (2x)
+W:
+W:Trois jeunes princesses sont endormies dessous :
+W:"Tiens, dit la plus vieille, voici que vient le jour.
+W:- Tiens, dit la seconde, entendez le tambour.
+W:- Non, dit la plus jeune, ce n'est pas ci le jour :
+W:C'est son pe claire de mon ami doux.
+W:- Il part en campagne combattre pour nous.
+W:- S'il gagne bataille, il aura mes amours.
+W:- Qu'il perde ou qu'il gagne (dit la plus jeune) il les aura toujours."
+W:Derrire chez mon pre il y a un pommier doux.
+S:https://www.folktunefinder.com/tunes/61452
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

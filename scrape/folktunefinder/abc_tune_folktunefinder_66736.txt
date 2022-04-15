@@ -1,0 +1,17 @@
+X:52
+T:Tam Lin - Bm
+M:4/4
+L:1/8
+K:Bm
+E | "Bm" F2  BF dFBF | "G"   G2  BG dGBG | "A" A2  cA eAcA   |  "G"  dcBA "A" FBBA  |
+    "Bm" F2  BF dFBF | "G"   G2  BG dGBG | "A" A2  cA eAcA   |1 "Bm" dcBA     FBB  :|2 "Bm" dcBA FB B2 ||
+    "Bm" bf ~f2 dfBf |       bf ~f2 dfBf | "A" ae ~e2 ce ~e2 | "F#m" ae ~e2   abc'a |
+    "Bm" bf ~f2 dfBf | "(A)" bf ~f2 dfBF | "G" G2  GF GABc   |1 "A"  dBcA    FB B2 :|2 "A" dBcA "(Bm)" FBB ||
+S:https://www.folktunefinder.com/tunes/66736
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

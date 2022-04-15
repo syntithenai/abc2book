@@ -1,0 +1,24 @@
+X: 15
+T: Midsommardr\"om
+R: Polska
+O: Sweden
+M: 3/4
+L: 1/16
+Z: Richard Robinson 
+K: G
+E2 \
+| B2Ac B2G2 F2E2 | B3^d f2g2 e3e | d2ed cBcd e2d2 | A2Bc B6 gf | g2ab f2ga g2f2 |
+| efg2 f2ed B4 | {F}G2AB F3A  G2FE | FEDF E6 :: D2 | B2Ac B2AG D3B | d2g2 e2ce d3B |
+| c2cd cBAG B2A2 | E3F G2B2 A2 D2 | B2Ac B2AG D3B | d2g2 e2ce d3B | cde2 A2Bc B2dB | AGFA G6 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8050
+S:http://trillian.mit.edu/~jc/music/abc/Scand/BingsjoPolska.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

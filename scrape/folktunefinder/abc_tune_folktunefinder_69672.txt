@@ -1,0 +1,25 @@
+X:112
+T: MEIN MAEDCHEN WOHNT IM UNTERLAND
+N: F0231
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: C
+G2 | G2E2A6G2 | G3DD6
+E2 | F2E2D4A4 | G8z2
+G2 | G2E2c6c2 | B3Ad6
+c2 | B6G2B3A | G8z2
+G2 | G3ce2d2c2B2 | B3Ad2c2B2
+A2 | G6D2F3E | C8z2
+S:https://www.folktunefinder.com/tunes/69672
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+P: Schellen-Neuner [Eb]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Eb
+   [EG,][FB,] \
+| "Eb"[G2E2][E2]  [G4E4] | [B2G2][G2E2] [B4G4] \
+| "Bb7"[A2F2]   [DF][cA] [BG][AF] | "Eb"[GE][AF] [GE][FD] [EC][FD] \
+"I"\
+| "Eb"[G2E2][E2]  [G4E4] | [B2G2][G2E2] [B4G4] \
+| "Bb7"[AF][GE] [FD][cA] [BG][AF] | "Eb"[G2E2] z2 :|
+|: EG \
+| "Eb"[B2G2][G2E2] [B4G4] | "Bb7"[A2F2][F2D2] [A4F4] \
+| "Eb"[G2E2] E2    [G4E4] | "Bb7"[F2D2][D2B,2] [F4D4] \
+| "Eb"[G2E2][E2]   [G4E4] | [B2G2][G2E2] [B4G4] \
+|1 "Bb7"[AF][GE]  [FD][cA] [BG][AF] | "Eb"[G2E2] z2 \
+:|2 "Bb7"[cA][BG] [=A^F][BG] [c_A][dB] | "Eb"[e2G2] z2 :|
+S:https://www.folktunefinder.com/tunes/4967
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_SchellenNeuner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_SchellenNeuner_EbAb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_SchellenNeuner.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

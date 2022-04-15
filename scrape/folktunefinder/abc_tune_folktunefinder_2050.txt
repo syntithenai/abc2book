@@ -1,0 +1,28 @@
+X: 113
+T:St Davids. JMP.113
+M:2/2
+L:1/2
+S:John Miller MS. Perth, 1799.(for the fife)
+R:sacred
+O:Scotland
+A:Perth
+N:These two bars very unclea
+H:1799
+Z:vmp.C. Graebe
+K:C Major
+G | dg | Bd | cB | A2 ||\
+G2 | dG | ce | d2 ||\
+d2 | "1" eB | dG | cB | A2 ||\
+d | Gc | BA | G2 |]
+S:https://www.folktunefinder.com/tunes/2050
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Sacred
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

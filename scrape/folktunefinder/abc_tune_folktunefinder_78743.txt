@@ -1,0 +1,23 @@
+X:302
+T: ET SAS E KLI WAELTFIJELTCHEN
+N: E0173A
+O: Europa, Mitteleuropa, Deutschland; Rumaenien, Siebenbuergen, Muhlbach
+R: erzaehlendes Volks - Lied, Sage, Tier - Maerchen
+M: 3/4
+L: 1/16
+K: G
+D2 | G3GG4A4 | _B3AG6
+G2 | d2d2D2D2 | G4G4z2
+d2 | d3c_B6d2 | c3_BA4z2
+A2 | G3A_B6F2 | G4G4z2
+S:https://www.folktunefinder.com/tunes/78743
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, tier - maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

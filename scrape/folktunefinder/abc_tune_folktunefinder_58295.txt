@@ -1,0 +1,25 @@
+X:1
+T:Song for a guy
+C:Elton John
+M:C
+L:1/8
+Q:1/4=128
+%%staves {RH LH}
+K:C
+% most of piano tunes have only 2 voices ..
+V:RH
+[C8E8]|zE FG- GEC2|[B,3E3][B,D]- [B,4D4]|zD EF- FED2|D8|
+V:LH
+[C,3G,3][C,G,]- [C,4G,4]|[C,3G,3][C,G,]- [C,4G,4]|[B,,3G,3][B,,G,]- [B,,4G,4]|\
+[B,,3G,3][B,,G,]- [B,,4G,4]|[_B,,3F,3][B,,F,]- [B,,4F,4]|
+S:https://www.folktunefinder.com/tunes/58295
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/voices.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/voices.abc
+S:http://abcplus.sf.net/abcm2ps_7.8.14-1_i386.deb
+S:http://abcplus.sf.net/abcm2ps_6.6.22-1_i386.deb
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

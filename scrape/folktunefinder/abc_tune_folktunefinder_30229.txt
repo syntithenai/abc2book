@@ -1,0 +1,27 @@
+X:0
+T:Johnnie Cope
+G:march
+S:Allan: 110 Songs of Scotland without Words
+M:4/4
+L:1/8
+Q:1/2=72
+K:AMin
+EG|A2A2 A2Bd|e2A2 A2GE|\
+   G2G2 GABc|dedc B2AG|
+   c2c2 d3d |e2g2 B2AG|\
+   E2g2 edcB|A4   A2 ||
+AB|c2cc cGEG|cdef g2dc|\
+   B2AG d2G2|Bcde d2cB|
+   cBcd edea|gedc B2AG|\
+   E2g2 edcB|A4   A2 |]
+S:https://www.folktunefinder.com/tunes/30229
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

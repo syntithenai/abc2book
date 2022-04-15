@@ -1,0 +1,32 @@
+X: 1
+T: Irish Lamentation
+T: King James' March to Limerick
+O: England c.1735
+C:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compare O'Neill's 275 ("The Forlorn Lover")
+N: Barnes (dates c.1735)
+M: 3/4
+L: 1/8
+K: G
+|: GA \
+| "G"B2 B2 Bc | "(Em)"B3 A G2 | "Am"{g}a2 A2 AB | "D"A4 GA \
+| "G"B2 cB AG | "C"E3 GFE | "D7"DE G2 {G}A2 | "G"G4 :|
+|: GA \
+| "G"B2 d2 d2 | de dB AB | "C"G2 g2 g2 | "D7"g3 fed \
+| "G"B2 d2 d2 | de dB AB | "C"G2 g2 g2 | "D7"g4 de |
+| "F"=f>e fg fg | "C"e>d eg eg | "G"d2 ed cB | "D7"A4 GA \
+| "G"B2 cB AG | "C"E3 GFE | "D7"DE G2 {G}A2 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/19994
+S:http://trillian.mit.edu/~jc/music/abc/waltz/IrishLamentation_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/IrishLamentation_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/IrishLamentation_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/IrishLamentation_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

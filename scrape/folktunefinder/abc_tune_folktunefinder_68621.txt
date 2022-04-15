@@ -1,0 +1,25 @@
+X:75
+T: Der schelmische Bauer
+N: A0082B
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 86.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: D
+D2 | D4D2 | A4A2 | =F4G2 | A4
+A2 | A4A2 | =c4A2 | =F4E2 | =F4z2 | z2
+=F2F2F2 | E2D2ED=F2 | =FED4C2 | D4z4 | z4
+D2 | A2A2A2 | =c2c2A2 | =F4E2 | =F4z2 | z2
+=F2F2F2 | E2D2ED=F2 | =FED4C2 | D4z4 | z4
+S:https://www.folktunefinder.com/tunes/68621
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:602
+T: IN DULCI JUBILO
+N: E1929
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Fest - Lied, Weihnachten
+M: 3/4
+L: 1/4
+K: F
+F | F2F | A2B | c2d | c2
+c | F2F | A2B | c2d | c3
+c2d | c2B | A3 | F2
+F | G2G | A2G | F2G | A2
+A | c2d | c2B | A3 | F2
+F | G2G | A2G | F2G | A3
+D2D | E2E | F3 | c3
+A2A | G2G | F3 | z2
+S:https://www.folktunefinder.com/tunes/79706
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, fest - lied, weihnachten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

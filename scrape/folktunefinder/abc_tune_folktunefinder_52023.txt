@@ -1,0 +1,26 @@
+X:1
+T:C Polka (2)
+M:2/4
+L:1/8
+R:Polka
+D:Panic at the Caf
+Z:Dave Holland <dave@biff.org.uk>
+K:C
+c2 ec/e/|g3 a/b/|c'/b/a/g/ f/e/d/c/|B/A/B- BG|\
+BG/B/ dB/d/|f3 a|
+g>f ed|1e/f/e/d/ c/B/A/B/:|2ce e/e/d/e/||\
+ge cd/e/|fd Bf|ec Ac|
+B/c/d/c/ B/A/G|\
+ge cd/e/|fd Bf|ec d/c/B|1ce e/e/d/e/:|2c2 c2|]
+S:https://www.folktunefinder.com/tunes/52023
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Princess Margaret
+C: Angus Fitchett
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From ms by Silvia Miskoe
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F2G AGF | "C7"E2G B2d | "F"c2A fef | "C7"age c2c \
+| "Bb"d2B fed | "F"c2f A2c |1 "Gm"B2A "G7"G2F | "C7"E2G c2 :|2 "Gm"B2G "C7"cde | "F"f6 ||
+f \
+| "C7"e2f gec | "F"f2g a3 | "Gm"b2g "G7"a2f | "C7"g2f edc \
+| "Bb"B2c dcB | "F"A2B c3 | "G7"=B2G g2f | "C7"efe dcB |
+| "F"A2B cAF | "Bb"B2c d3 | "G7"=B2c dBG | "C7"c2d e3 \
+| "F"fef cBA | "Bb"d^cd "Gm"BAG | "C7"CEG BGE | "F"F6 |]
+S:https://www.folktunefinder.com/tunes/14943
+S:http://trillian.mit.edu/~jc/music/abc/jig/PrincessMargaretJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PrincessMargaretJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

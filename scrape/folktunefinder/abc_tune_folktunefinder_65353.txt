@@ -1,0 +1,23 @@
+X: 265
+T:Rosin The Beau
+% Nottingham Music Database
+S:EF
+M:6/8
+K:G
+P:A
+D|"G"G2G BAG|"G"d3 "C"efg|"G"dBG GAB|"Em"E3 "D7"E2D|
+"G"G2G BAG|"G"d3 "C"efg|"G"dBG "D7"ABA|"G"G3 G2:|
+P:B
+d|"G"dBd def|"C"g2e g2e|"G"dBG GAB|"Em"E3 "D7"E2D|
+"G"G2G BAG|"G"d3 "C"efg|"G"dBG "D7"ABA|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/65353
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

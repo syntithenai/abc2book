@@ -1,0 +1,26 @@
+X:415
+T:Old French
+T:The Rambler's Hornpipe
+S:Donna Hind's notebooks
+Z:Nigel Gatherer <gatherer:argonet.co.uk> tradtunes 2002-9-1
+M:4/4
+L:1/8
+K:D
+(3ABc | d2 cd BdAF  | DFAd f2 ed | cdef gecA | defd  A2
+(3ABc | d2 cd BdAF  | DFAd f2 ed | cdef gecA | d2 f2 d2 :|
+cd    | efed  c2 A2 | AEAc e2 dc | BGBd gfed | cAce  a2
+cd    | efed  c2 A2 | AEAc e2 dc | BGBd gfed | c2 A2 A2 :|]
+S:https://www.folktunefinder.com/tunes/13659
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/OldFrench_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RamblersHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldFrench_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RamblersHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/OldFrench_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/RamblersHornpipe_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

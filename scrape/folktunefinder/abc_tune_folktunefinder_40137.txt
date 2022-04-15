@@ -1,0 +1,25 @@
+X: 34
+T: 3. Dunie Mains  2X
+C: James Stewart Robertson
+B: Athole Collection 1884 p.159
+R: strathspey
+Z: Chords by Robin Shaylor, August 2004
+M: C
+L: 1/8
+% Q: 220
+K: G
+|: f |\
+"G" g<d d>c "Em" B<G G>B | "Am" A<a a>g "D7" f/g/a/f/ de/f/ |\
+"G" g<d d>c "Em" B<G G>B | "Am" E>A "D7" G/F/E/D/ "G" G3   :|
+|: D |\
+"G" GG B>G "D7/F#" F<A A>B | "Em" GG B>d "G7" g>dB>d           |\
+"C" c>A c/B/A/G/ "D7" F<A A>B | "Am" E>A "D7" G/F/E/D/ "G" G3 :|
+S:https://www.folktunefinder.com/tunes/40137
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

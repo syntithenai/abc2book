@@ -1,0 +1,26 @@
+X:420
+T: "Der Kuckuck"
+N: Z1100
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Romanze, Ballade
+M: 6/8
+L: 1/8
+K: G
+D | DGGGFG | BAAA2
+A | B2BdcA | G2z3
+D | G2GGFG | B2AA2
+A | B2BdcA | B2z3
+d | ^c2AABc | eddd2
+d | ^c2AABc | eddd2
+d | B2dA2d | G2z3
+S:https://www.folktunefinder.com/tunes/69279
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

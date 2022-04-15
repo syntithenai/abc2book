@@ -1,0 +1,34 @@
+X:722
+T:Vaqueirada (CT 045)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Somiedu.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 045
+M:6/8
+L:1/8
+Q:3/8=88
+K:C
+|GGG GcB|(c2 B/2c/4B/4) A3|A3/2B/2c cdc|B2A B2z|
+B3/2A/2G GAB|c2A B3|B3/2A/2G GAB|(A3/2B/4A/4) G- G2 z||
+W:Cmu quies que yo vaya
+W:a los arndanos, nia,
+W:si nun s l'arandanera
+W:que t ties elexida.
+W:
+S:https://www.folktunefinder.com/tunes/59609
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

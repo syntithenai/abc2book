@@ -1,0 +1,23 @@
+X:10
+T:Young Andrew's Morris
+C:Andy Hornby 1998
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+A|dcB A2G|FGE D2D|FGA Bcd|efd c2A|
+dcB A2G|FGE D2D|FGA Bed|cBc d2:|
+|:A|dcd fed|Bcd A2d|Bcd AGF|AGF E2A|
+FDF ABc|dcB A2A|dcB ABc|dec d2:|
+%%vskip 3cm
+S:https://www.folktunefinder.com/tunes/43768
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

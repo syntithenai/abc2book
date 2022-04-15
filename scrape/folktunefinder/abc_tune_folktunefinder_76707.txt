@@ -1,0 +1,26 @@
+X:222
+T: ALS DER WAECHTER AUF DEM THURME SASS
+N: E0812B
+O: Europa, Mitteleuropa, Deutschland, Taunus, Niederreifenberg
+R: Tage - Lied, Waechter - Lied
+M: 2/4
+L: 1/16
+K: G
+D3D | D4G4 | A4A2c2 | B4A4 | G4z4
+d4d2d2 | d4d4 | c4d4 | B4z2
+B2 | B2c2d3e | d2B2c2
+dc | B2A2B2d2 | c2B2A2
+BA | G2A2B2c2 | d4ed
+cB | A4G4 | z4
+S:https://www.folktunefinder.com/tunes/76707
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tage - lied, waechter - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

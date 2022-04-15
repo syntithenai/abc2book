@@ -1,0 +1,35 @@
+X: 1
+T: Da Rain Dancin'
+C: Muriel Johnstone
+R: reel
+B: The Whiteadder Collection, 1993
+D: Dancing Fingers Vol.III
+N:
+N: Muriel Johnstone and Bill Zobel   Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+g \
+|: "D"fedc "Bm"dBfB | dBfB "A"eAce | "D"fedc "Bm"dBb2- | "G"bafa "A7"gfeg :|
+[| "D"fA~A2 aAfA | "Bm"dB~B2 bB"A7"ag | "D"fAdc "Bm"dBfe | "G"fagf "A7"edce |
+|  "D"fA~A2 aAfA | "Bm"dB~B2 bB"A7"ag | "D"fagf "G"edcB |1 "A"cAeA fA"d.C."eA :|2 "A7"AGFE "D"HD3 |]
+S:https://www.folktunefinder.com/tunes/17928
+S:http://trillian.mit.edu/~jc/music/abc/reel/RainDancinR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RainDancinR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RainDancinR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/RainDancinR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/RainDancinR_D16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RainDancinR.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RainDancinR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

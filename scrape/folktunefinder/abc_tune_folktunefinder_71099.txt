@@ -1,0 +1,25 @@
+X:069
+%%topmargin 3cm
+T:The Falls of Divach
+C:Jeanie Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+(utA>u.D) F>D (A<D) D2 | E>A,C>A, (E<A,) A,2 | (utA>u.D) F>D (A<D) D2 | (E<A,) A,>C D2-D :|
+!f!g | f<a d>a f<a d>d | c<eA>e c<eA>g | f<a d>a f<a d>d | e<A A>c {/c}d2-d>g |
+!ff!f<ad>a f<a d>d | c<eA>e c<eA>c | (3d!crescendo(!ef (3efg (3fga (3g!crescendo)!fe | (3dcB (3ABc {/c}d2 d |]
+S:https://www.folktunefinder.com/tunes/71099
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Falls_of_Divach.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0069.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

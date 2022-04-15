@@ -1,0 +1,33 @@
+X: 39
+T:Scotch Air. TLY.038
+M:4/4
+L:1/8
+Q:120
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+(f>g)|a3 b (a>f)(ed)|(e>d)(ef)B3 d|\
+(A>B)(AF) A2 (dA)|F2 (A>B)A2 (d/e/f/g/)|!
+a3 b (a>f)(ed)|(gf)(ed) {c}B2 (f>e)|\
+(de)|{de}f2 (~e>d)d2||!
+|AG|F3 A (~B>A)(B>d)|~e>def B3 b|\
+a>b(af) (gf)(ed)|g>b (b/a/g/f/) e2 (a>g)|!
+(ga)(bc') d'2 (c'>b)|(af)(ed) B2 (f>e)|\
+(de)|(d/e/f) (~e>d) d2|]
+S:https://www.folktunefinder.com/tunes/37572
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

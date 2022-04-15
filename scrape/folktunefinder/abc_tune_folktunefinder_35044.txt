@@ -1,0 +1,29 @@
+X: 7827
+T:Sl\"angpolska (L\aa{}ngdans ) fr Sk\aa{}ne
+R:Polska
+R:Longdans
+R:Sl\"angpolska
+O:Sweden
+M:3/4
+A:Sk\aa{}ne
+K:G
+g2 gd ef|g2 ga gf|ef gd ef|1g2 dc B2:|2g4 G2 ::\
+G2ABc2|cB AB G2|
+DG AB c2 | cB AB G2| \
+cB AG FE | DE FG A2 | \
+cB AG FE | DE FG A2| \
+Bd BG AF | G2 G4 :|
+S:https://www.folktunefinder.com/tunes/35044
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Longdans
+% Rhythm Polska
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

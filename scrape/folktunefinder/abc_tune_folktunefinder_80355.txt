@@ -1,0 +1,26 @@
+X:296
+T: Der Morgenstern
+N: A0645
+O: Europa, Mitteleuropa, Deutschland
+N: Ph. Nicolai 1599
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: F
+F2 | c2A2 | F2c2 | ddc2 | zcde | fedd | c2z
+A | d2cB2A | G2F2
+F2 | c2A2 | F2c2 | ddc2 | zcde | fedd | c2z
+A | d2cB2A | G2F2z2
+c2A2 | c2A2 | AAGG | AAGG | AAG2 | F2
+f2 | c2d2 | c2BA | G2F2
+S:https://www.folktunefinder.com/tunes/80355
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

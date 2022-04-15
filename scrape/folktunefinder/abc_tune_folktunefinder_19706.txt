@@ -1,0 +1,22 @@
+X: 1
+T: Wild Roses
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|: c-<c A>F D>E F2 | C>F D-<F C>F D-<F | c-<c A>F D>E F>G | A>d f/e/d/^c/ d2 d2 :|
+|  c>d f>g a>g f>c | d>f c-<f d-<f c>A | c>d f>g a>g f>c | d>f d/c/B/A/ G2 G2 |
+|  c>d f>g a>g f>c | d>f c-<f d-<f c>a | b>g a>f g>f d-<f | d>f e/f/g/e/ f2 f2 |]
+S:https://www.folktunefinder.com/tunes/19706
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WildRoses_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WildRoses_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

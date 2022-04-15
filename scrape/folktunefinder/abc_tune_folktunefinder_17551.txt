@@ -1,0 +1,28 @@
+X: 1
+T: Laura
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: The Musical Heritabe of Thomas Hardy
+N: from Elke Baker
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"GFGA G2B2 | d^cde d2g2 | "C"edcB "Am"cBAG | "D7"FGAB A2D2 \
+| "G"GFGA G2B2 | d^cde d2g2 | "Am"edcB "D7"AGAB | "G"G2B2 G2 :|
+|: D2 \
+| "D7"FEFG A2F2 | "G"GFGA B2d2 | "C"c2e2 "G"B2d2 | "A7"AGAB "D"A2D2 \
+| "D7"FEFG A2F2 | "G"GFGA B2d2 | "C"c2e2 "D7"d2F2 | "G"G4 G2 :|
+S:https://www.folktunefinder.com/tunes/17551
+S:http://trillian.mit.edu/~jc/music/abc/reel/Laura_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Laura_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:18
+T:Back to Kennebec Waltz
+R:waltz
+C:Bruce Osborne  --  July 22 1986
+Z:abc by bosborne@kos.net
+M:3/4
+L:1/8
+K:A
+AB|[c2 e2] [B2 e2] [A2 e2]|[E4 A4] (3[EA][FA2/3][E2/3 A2/3]|[D3 A3] z [FA]A|[E4 A4] [E2 A2]|\
+CE [A2 e2] [Ae][B e]|[c2 e2] [B2 e2] [A2 e2]|[B3 e3] [A e] [Be][c e]|[B4 e4] [Ae][B e]|\
+[c2 e2] [B2 e2] [A2 e2]|[E4 A4] (3[EA][FA2/3][E2/3 A2/3]|[D3 A3] z [FA]A|[E4 A4] [E2 A2]|\
+CE [A2 e2] [Ae][B e]|[c2 e2] (3[Be][ce2/3][B2/3 e2/3] [A2 e2]|[B2 e2] [c2 e2] [B2 e2]|[A4 e4] AB||\
+[c2 e2] (3[Be][ce2/3][B2/3 e2/3] [A2 e2]|[c2 e2] (3[Be][ce2/3][B2/3 e2/3] [A2 e2]|[F2 d2] [F2 d2] [D2 A2]|[E3 c3] [E c] [E2 c2]|[C3 A3] [C A] [C2 A2]|\
+[C4 A4] [Ec][E c]|[E2 c2] [D2 B2] [C2 A2]|[E4 B4] [Ae][B e]|[c2 e2] (3[Be][ce2/3][B2/3 e2/3] [A2 e2]|\
+[c2 e2] (3[Be][ce2/3][B2/3 e2/3] [A2 e2]|[F2 d2] [F2 d2] [D2 A2]|[E3 c3] [E c] [E2 c2]|[C3 A3] [C A] [C2 A2]|[C2 A2] [F2 d2] [D2 A2]|\
+[E2 c2] [E2 c2] [D2 B2]|[C4 A4]||
+S:https://www.folktunefinder.com/tunes/39611
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

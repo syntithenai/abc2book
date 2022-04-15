@@ -1,0 +1,24 @@
+X: 1
+T:Danny Boy Melody Flute
+M:4/4
+L:1/8
+Q:1/4=27
+K:Eb
+V:1 
+%Danny Boy
+z
+D, E,F, G,3/2F,/2<G,/2C/2<B,/2G,/2|F,/2E,<C,E,/2<G,/2A,/2 B,3/2C/2<B,/2G,/2<E,/2G,/2|F,2- F,/2D,/2<E,/2F,/2 G,3/2F,/2<G,/2C/2<B,/2G,/2|F,/2E,<C,D,/2<E,/2F,/2 G,3/2A,/2<G,/2F,/2<E,/2F,/2|
+E,2 z/2B,/2<C/2D/2 E3/2D/2<D/2C/2<B,/2C/2|B,/2G,<E,B,/2<C/2D/2 E3/2D/2<D/2C/2<B,/2G,/2|F,2 z/2B,/2<B,/2B,/2 G3/2F/2<F/2E/2<C/2E/2|B,/2G,<E,D,/2<E,/2F,/2<G,/2C/2B,/2G,/2 F,/2E,/2C,/2D,/2|
+E,2 z2 G,2 G,2|A,2 A,B,/2A,/2 G,2 G,C|C2 B,2 G,2 G,B,|A,2 A,2 G,2 B,A,|
+G,2 G,/2B,/2A,/2F,/2 G,2 A,2|G,2 G,/2B,/2A,/2F,/2 G,2 CE|F2 F2 G2 A2|GG/2F/2 EE/2C/2 B,E FA|
+G4 B,E F2|A2 B2 [g4-B4-]|[g3B3]
+S:https://www.folktunefinder.com/tunes/53082
+S:http://community.codemasters.com/forum/archive/index.php/t-194110.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

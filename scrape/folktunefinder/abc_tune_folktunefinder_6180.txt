@@ -1,0 +1,31 @@
+X: 1
+T: Ve David
+O: I Samuel 18:7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: Ephr
+M: 4/4
+L: 1/8
+K: Ddor
+"Intro"\
+|: "Dm"D2 D2 "C"C2 (DE) | "Dm"F2 G2 (FG) (FE) | D2 D2 "C"CC B,C | "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/6180
+S:http://trillian.mit.edu/~jc/music/abc/Intl/VeDavid_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/VeDavid_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/VeDavid.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/VeDavid_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/VeDavid_D.abc
+S:http://trillian.mit.edu/~jc/doc/abc/tune/VeDavid.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/VeDavid_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/VeDavid_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/VeDavid_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/VeDavid_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/VeDavid_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/doc/tune/VeDavid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

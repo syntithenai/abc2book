@@ -1,0 +1,22 @@
+X: 1
+T: TEST: treble->bass clef
+N: Second and third staves should have bass clef.
+K: C
+| CDEF GABc | cdef gabc' |
+K:clef=bass
+| CDEF GABc | cdef gabc' |
+| CDEF GABc | cdef gabc' |
+S:https://www.folktunefinder.com/tunes/2355
+S:http://trillian.mit.edu/~jc/music/abc/test/Clef_T2B.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Clef_T2B.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Clef_T2B.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Clef_T2B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

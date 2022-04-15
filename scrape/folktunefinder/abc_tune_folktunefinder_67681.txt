@@ -1,0 +1,31 @@
+X: 11103
+T: WILSON'S HORNPIPE
+C: Bob McQuillen  12 Jan 98
+B: Bob's Note Book 11 #103
+N: Our good friend, Wilson Langlois, lives down in Nashua, New Hampsire's  "Gate
+N: City". Wilson is a great fiddler, with a huge repertoire of tunes from French
+N: Canada that he has generaously shared with us.  Merci beaucoup, Wilson!
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+dc \
+| B2BG DGBd | B2GF G2cB | ABcA Fedc | BdBG D2GA |
+| B2BG DGBd | B2GF GBcB | ABcA dcAF | G2B2 G2  :|[K:D]
+|: FG \
+| A2AF ABAF | DFAd f2df | efge cAfg | agfg e2dB |
+| ABAF D2fe | dfed B2gf | edBd ceag | f2d2 d2  :|
+S:https://www.folktunefinder.com/tunes/67681
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book11.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book11/11103_WilsonsHornpipe.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

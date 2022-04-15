@@ -1,0 +1,34 @@
+X:459
+T:La Panderetera (MG 67) (Arrg.)
+C:Versin de Jos Remis Ovalle
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 67
+M:2/4
+L:1/8
+Q:1/4=100
+E:Comp.
+K:C
+EG|:"C"c3B|"F"c2 B~A|"C"G3A|"F"c2 "G"B~A|
+"C"G4 -|"C"GA EF|"C"G3~A|"Dm"F2 ~ED|"C"C3D|"F"F2 "G"~ED|
+"C"C4 -|[1 "C"C2 EG:|[2 "C"GG GG|"C"G3E|"F"F~F/E/ DC|"F"FG FE|"F"F3G|"C"~ED C2:|
+|:"G"D>E "F"FD|"Em"E>D CE|"G"D2 "Em"B,2|"C"C4:|
+|:"C"{G}CE Gc|"Em"B2 GA|"Em"B4|"F"AA AB|"C"G4|"C"{G}CE Gc|
+"F"A2 FD|"G"B,3D|"F"F2 "G"~ED|[1 "C"C4:|[2 "C"{G}C3E/G/|
+|:"F"c/B/A/B/ "C"c/B/c/B/|"F"A/B/A/G/ FA|"F"c/B/A/B/ "G"c/B/c/B/|
+"C"G/A/G/E/ CE/F/|"C"GE/G/ "F"A/F/E/F/|"G"~D{ED}C B,D|
+"F"~F2 "G"ED|"C"~E>D CE/F/|"C"GE/F/ A/F/E/F/|
+"G"D{ED}C B,D|"F"~F2 "G"ED|[1 "C"C3E/G/:|[2 "C"C4||
+S:https://www.folktunefinder.com/tunes/59346
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

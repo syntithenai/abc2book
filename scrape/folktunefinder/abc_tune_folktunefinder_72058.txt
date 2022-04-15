@@ -1,0 +1,40 @@
+X:31
+T:Miss Grant of Monymusk's Jigg
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 2/27/04
+N:Petrie's First Collection, page 14
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:C
+[V:1] G|c2c Bcd|cGE CEG|c2c Bcd|c2c c2G|
+[V:2] z|cec g3 |e3  c3 |cec f3 |ece cde|
+[V:1] A2A AGF|G2G GFE|AGF EDC|B,2G G,2:|
+[V:2] f3  F3 |e3  c3 |f3 ^f3 |gdB  G2 :|
+[V:1] |:G|d2d def|gec TcBc|d2d def|g2f e2g|
+[V:2] |:z|gbg b3 |c'3  e3 |BAG B2G|B3  cde|
+[V:1] a2a agf|efg gfe|dfe dcB|c2c c2:|
+[V:2] f3  b3 |c'3 c3 |f3  g2G|ceg c2:|
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72058
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MissGrantOfMonymusksJigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Grant_of_Monymusks_Jigg.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

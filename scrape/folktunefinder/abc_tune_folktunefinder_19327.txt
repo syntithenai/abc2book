@@ -1,0 +1,35 @@
+X: 1
+T: Dunkeld Bridge
+C: Neil Gow
+R: strathspey
+B: RSCDS 10-6
+N: A similar tune, later called "The Shepherd's Crook" was published by Bremner in 1757 as "Don Side".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c \
+| "F"f2 a>f "C7"e>g c<e | "F"f2 a>f "C7"g>b e<g \
+| "F"f2 a>f "C7"e>g cf "C7"g>e "F"f2 f :|
+|| c \
+| "F"A>F c>A f<c "Bb"dc "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A f>c "Bb"d>B | "F"A<F "C7"G<E "F"F2 F> ||
+|| B \
+| "F"A>F c>A f<c "Bb"dc "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A "Bb"db | "F"a<f "C7"g<e "F"f2 f |]
+S:https://www.folktunefinder.com/tunes/19327
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Gow/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/DunkeldBridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilGow/DunkeldBridge.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

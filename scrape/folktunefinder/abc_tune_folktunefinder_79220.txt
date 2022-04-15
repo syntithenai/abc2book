@@ -1,0 +1,28 @@
+X:116
+T: WER HOFFAHRT TREIBT MIT FREMDEN GUT
+N: E1176
+O: Europa, Mitteleuropa, Deutschland
+R: Zech -, Spott - Lied
+M: 4/4
+L: 1/4
+K: F
+cdd | cABG | F2z
+f | edcB | c2d2 | c4 | z
+cdd | cABG | F2z
+f | edcB | c2d2 | c4 | z
+cff | ecdB | A2z
+c | ABcF | G2F2 | z
+FAB | cBde | f2z
+F | FcAF | c2d2 | c4 | z
+S:https://www.folktunefinder.com/tunes/79220
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Zech -, spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

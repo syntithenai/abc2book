@@ -1,0 +1,28 @@
+X:512
+T: BISTU DES GOLDSCHMIEDS TOECHTERLEIN
+N: E0487
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | A2B2=c2A2 | G2B2A2
+=c2 | B2A2=G2F2 | E4^D4 | E6
+E2 | A2B2=c2A2 | G2B2A2
+=c2 | B2A2=G2F2 | E4^D4 | E6
+B2 | =c2B2c2A2 | =G2F2E4
+=c4d4 | e6d=c | B2A2G2
+A2 | B2A2A2G2 | A6
+A2 | E2E2F2G2 | A6
+S:https://www.folktunefinder.com/tunes/78953
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

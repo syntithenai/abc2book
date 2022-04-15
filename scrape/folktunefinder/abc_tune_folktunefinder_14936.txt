@@ -1,0 +1,33 @@
+X: 1
+T: Portland Fancy
+C: J-42
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+   "D7"FE \
+| "G"D2G D2G | DGA B2B | "C"cBc "D7"ABc | "C"e2d "D"BGE \
+| "G"D2G D2G | DGA B2B | "C"cBc "D7"DEF | "G"GBA Gy |]
+   Bd \
+| "G"g2g "D"fgf | "C"ece "G"d2B | "C"cBc "D7"ABc | "G"Bcd "C"e2"D7"d \
+| "G"g2g "D"fgf | "C"ece "G"d2B | "C"cBc "D7"DEF | "G"GBA Gy |]
+K: C
+   "G7"E=F \
+| "C"GAB c2d | e2f g3 | "Dm"def "G7"Gcd | "C"e2c "G7"GEF \
+| "C"GAB c2d | e2f g3 | "Dm"def "G7"GAB | "C"c2e cy |]
+   zA \
+| "C"E2G E2G | EGc e3 | "G7"dBd fdB | "C"ced "G7"cGF \
+| "C"E2G E2G | EGc e3 | "G7"dBd fdB | "C"c3 cy |]
+S:https://www.folktunefinder.com/tunes/14936
+S:http://trillian.mit.edu/~jc/music/abc/jig/Portland_Fancy2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Portland_Fancy2_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

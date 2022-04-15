@@ -1,0 +1,56 @@
+X:12
+T:air 
+C:Eric Forgeot
+N:20mars00
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+N:
+M:3/4
+L:1/8
+Q:1/4=100
+K:C
+%%staves [ (1 | 2) | 3 | 4]
+V:1
+%%MIDI channel 1
+%%MIDI program 20 % reed organ
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+|: z2 E<zE2 | z2 EzE2 | z2 E<zE2 | z2 2E<zE2 |1 D2 CDE2 :|2 [M:5/4] z10 |
+z10 | z10 | z4 E4 GF | E8de ||
+V:2
+K:C
+%%MIDI channel 2
+%%MIDI program 20 %  organ
+%%MIDI transpose 0
+%%MIDI control 7 90 %volume
+%%MIDI control 10 30 %pan
+|: A,6 | A,6 | A,6| A,6-|1 A,6 :|2 [M:5/4] E2 CDE6 |
+B,10 | CB, A,2 G,2 A,2 B,2 | A,8 B,2-|B,10 ||
+V:3
+K:C bass
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+|: A,,6-| A,,6-| A,,6-| A,,6-|1 A,,6 :|2 [M:5/4] A,,10 | 
+G,,10-| G,,10 | A,,10 | G,,6 A,,2 ||
+V:4
+K:C bass
+%%MIDI channel 3
+%%MIDI program 73       % flte
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+C2 EzE2 | C2 EzE2 | C2 A,4 | G,2 A,4 | D2 EF G2 | E4 D2 | CD C4 | A,2 G,2 A,2-|A,2
+S:https://www.folktunefinder.com/tunes/30289
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 5/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

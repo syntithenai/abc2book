@@ -1,0 +1,25 @@
+X: 1
+T: the Cork March
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: C|
+L: 1/8
+K: Em
+BA \
+| "Em"G2GF    E2EF |    G2G2 "D"A2GA |  "G"B2B2    BAGA |     B2D2 "D"D2BA \
+| "Em"G2GF "C"E2EF | "G"G2GB "D"A2GA | "Em"B2e2 "D"dBAB | "Em"G2E2    E2 :|
+|: Bc \
+|  "G"d2de    d2Bd | "C"edBc "G"d2ed |  "C"c2B2 "Am"A2GA |  "G"B2D2 "D"D2BA \
+| "Em"G2GF "C"E2EF | "G"G2GB "D"A2GA | "Em"B2e2  "D"dBAB | "Em"G2E2    E4 :|
+S:https://www.folktunefinder.com/tunes/15390
+S:http://trillian.mit.edu/~jc/music/abc/march/CorkMarch_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/CorkMarch_Em.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/CorkMarch_Em.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

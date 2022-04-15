@@ -1,0 +1,50 @@
+X: 1
+T: The Rose of Tralee
+C: Music by Charles W. Glover
+C: Words by C. Mordaunt Spencer
+N: Published in London in 1845
+R: waltz
+M: 3/4
+L: 1/4
+%%staffsep 30
+K: G
+D \
+| "G"DED | B>AG | "C"GCE | "G"ED>D \
+| "D7"DED | "G"DG>G | "A7"G>FG | "D7"A2D |
+| "G"DED | B>AG | "C"GCE | "G"ED>D \
+| "D7"Dcc | "G"B>GE | "D7"DEG | "G"G2G/A/ |
+| "B7"BB>A | "Em"G2G/F/ | "C"EE/^D/E/F/ | "B7"^DB,B \
+| "Em"BE"D7"c | "G"BB>A | "B7"G>AF | "Em"E2"D7"D |
+| "G"DE>D | B>AG | "C"GCE | "G"ED>D \
+| "D7"Dcc | "G"BG>E | "D7"DB>A | "G"G2 |]
+%
+W: The pale moon was rising above the green mountain;
+W: the sun was declining beneath the blue sea
+W: when I strayed with my love to the pure crystal fountain
+W: that stands in the beautiful vale of Tralee.
+W:
+W: She was lovely and fair as the rose of the summer
+W: yet 'twas not her beauty alone the won me
+W: Oh, no! 'twas the truth in her eye ever dawning
+W: that made me love Mary, the Rose of Tralee
+W:
+W: The cool shades of evening their mantle was spreading,
+W: and Mary, all smiling, was listening to me,
+W: The moon through the valley, her pale rays was shedding
+W: when I won the heart of the rose of Tralee
+W:
+W: Though lovely and fair as the rose of the summer
+W: yet 'twas not her beauty alone the won me
+W: Oh, no! 'twas the truth in her eye ever dawning
+W: that made me love Mary, the Rose of Tralee
+%%sep 5 5 1
+S:https://www.folktunefinder.com/tunes/12797
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/RoseOfTralee.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

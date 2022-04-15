@@ -1,0 +1,26 @@
+X: 1
+T: Randy Miller's Reel
+C: Bob McQuillen 1977
+B: Bob's Note Book 9 #74
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+cB \
+| "Am"A2ag    edcd |     eAAG    A2cB |     A2ag    edcd |  "G"egga g2cB |
+| "Am"A2Ac "G"B2Bd | "Am"cdec "G"d2ef | "Am"eaag "G"edcB | "Am"c2A2 A2 :|
+|: cd \
+| "Am"eAAe eagf | eAAG ABcd | eAAe eagf |  "G"efga   gecd |
+| "Am"eAAe eagf | eAAG ABcd | eagf edcA | "Em"EAAG "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/17932
+S:http://trillian.mit.edu/~jc/music/abc/reel/RandyMillersReel_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RandyMillersReel_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RandyMillersReel_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/RandyMillersReel_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

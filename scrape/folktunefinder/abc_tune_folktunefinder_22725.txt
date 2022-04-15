@@ -1,0 +1,37 @@
+X:2274
+T:Glorisher (Leapfrog)
+O:england
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Field Town (Finstock)
+R:Jig
+%P:A.(AB)$^2$.(AC)$^2$
+P:A.(AB)2.(AC)2
+K:G
+Q:C3=100
+P:A
+d/2c/2 | BAG GFG  | ABA  D2 (3E/2F/2G/2    | ABA  Adc  | BcA  GAB |\
+cde de=f | def  g2 (3g/4a/4g/4f/2 | edc  BcA  | G>AG G2  ||\
+P:B
+z      | e2 d dAB | cdc  cAB               | cde  edc  | GAG  FED |\
+G2 g gfg | G2 g g2 g/2f/2         | edc  B>cA | G>AG G2  ||\
+P:C
+z      | e3   d3  | d A2 B3                | c2 d c3   | c A2 B3  | c2 d
+e3 |\
+(2ed(2cB | (2AB G3 | (2FE D3 | G3   g3 | (2gf g3 |\
+G3   g3  | g3-  g2 (3g/4a/4g/4f/2 | edc  B>cA | G>AG G2  ||
+S:https://www.folktunefinder.com/tunes/22725
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

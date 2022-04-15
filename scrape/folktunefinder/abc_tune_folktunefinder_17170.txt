@@ -1,0 +1,26 @@
+X: 5
+T: The flood on the holm
+C: johnny doherty
+B: Other
+M: 4/4
+L: 1/4
+Z: Contributed 20010625212417 by Martin Tourish anceoltoir@hotmail.com
+K: D
+FD D2 FGAd | cdAd BE E2 | FD D2 FGAd | cdAG FD D2 :|
+| fdcd ABcd | efgf e E2 g | fdcd ABcA | GAEF Ddde |
+| fdcd ABcd | efgf eE2F | DFEG FAGB | AFGE FDFA ||
+| d2 AG FDFA | Beed cABc | d2 AG FGAg | fdec dfec |
+| d2AGF AdAB | eedc ABcd | cdAB GBdA | FGEF D2 ||
+| fgaf dAFA | GBed cA A2 | fgaf dAFA | GBEc dD D2 |
+| fgaf dAFA | GBed cA A2 | gfeg fagb | gAce g fd2 ||
+| d2 AGFD A,D | B,DA,D B,E EC | d2 AGFG Ag | fdec dD D2 |
+| d2 AGFA dA | Beed cABC | dcdA BGBd | AFGE FD D2 |]
+S:https://www.folktunefinder.com/tunes/17170
+S:http://trillian.mit.edu/~jc/music/abc/reel/FloodOnTheHolm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FloodOnTheHolm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 91
+T:Bell-sids-Minuet. JaW.091
+M:3/4
+Q:1/4=70
+S:James Winder Ms, Lancashire, 1835-41
+R:Minuet
+O:England
+A:Wyresdale,Lancashire
+N:( = ) and (  ) mysterious ornaments in MS.
+H:1/4
+Z:vmp.Chris Partington, Aug 2004
+K:G
+G2A|B2d/e/|dcB|A2B|ce/c/A/c/|Bd/B/G/B/|!
+c/d/ e/c/A/c/|B/c/ d/B/G/B/|AGF|G3|!
+|dgf|gab|agf|e2f|gb/g/e/g/|!
+f"g in MS"a/f/d/f/|g/a/ b/g/e/g/|f/g/ a/f/d/f/|ed"nat. in MS"^c|d3|!
+dg2|c/d/ e/c/A/c/|B/c/ d/B/G/B/|A"="D2|!
+G2""A|B/A/ B/c/d/B/|G2""A|B/A/ B/c/d/B/|gBA|G3||
+S:https://www.folktunefinder.com/tunes/47628
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

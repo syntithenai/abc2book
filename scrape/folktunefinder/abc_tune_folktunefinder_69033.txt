@@ -1,0 +1,21 @@
+X:174
+T: MAEDCHEN STEH AUF UND LASS MICH EIN
+N: Z0173
+O: Europa, Mitteleuropa, Deutschland, Juelich, Kleve
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/4
+K: D
+ | D,F,A, | D2B, | B,A,A, | B,A,A,
+F,F,F, | A,2E, | G,F,F, | G,F,F,
+D,F,A, | D2F | E2C | D2z
+S:https://www.folktunefinder.com/tunes/69033
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

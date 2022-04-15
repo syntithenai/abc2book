@@ -1,0 +1,24 @@
+X: 8
+T:8.  Counting on Hanna (eaea tuning)
+C:c 1999 Harry Bolick  
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:250
+K:A
+A BA |: "A" c2 cd cA | "E" B2 Bc BA | "D" F>F A>F ED | "A" A,2 A,B, C>E |
+ "D" F2 A2 (3(FED) | "A" A,2 A,B, C>E | "D" F2 AA BA  :|
+|: "A" c2 cB Ac| a2 af ef | c'2 c'a ef | a2 af ef| c'2 c'a ed |
+"D" f2 ff ed | f2 ff ed  |"A"  c2 cd cB | c3 A BA  :|
+S:https://www.folktunefinder.com/tunes/1701
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

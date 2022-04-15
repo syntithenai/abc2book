@@ -1,0 +1,24 @@
+X: 1
+T: On the Green
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G BAG | "C"cde "G"d2D | "G"G2G "D7"ABc | "G"BcB "D7"A2D\
+| "G"G2G BAG | "C"cBc "D7"def | "G"gfe dcB | "D7"ABA "G"G2 :|
+|: D \
+| "G"G2G BAG | d2d "G7"d2d | "C"e2e edc | "D7"f2f f3 \
+| "G"g2g d2d | B2B G2G | "C"ABc "G"dBG | "D7"DEF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14808
+S:http://trillian.mit.edu/~jc/music/abc/jig/OnTheGreen.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/OnTheGreen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OnTheGreen.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

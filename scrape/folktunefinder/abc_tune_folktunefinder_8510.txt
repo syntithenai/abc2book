@@ -1,0 +1,26 @@
+X: 27
+P: G\aangl\aat
+O: somewhere around Lake Siljan
+N: Learned from Bruce Sagan, Buffalo Gap, 1987
+N: Learned from Bertil Ferneborg, August 1985, at Ashokan, New York.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+df \
+| "D"a4 f2df | a4 f2df | a2a2 bagf | "Em"g4- g2gf \
+| "A7"e4 c2Ac | e4 c2Ac | e2g2 f2e2 | "D"d6 :|
+|: d2 \
+| "G"B4 B3A | B2d2 c2B2 | "D7"B3A ABA^G | A6 A2 \
+| "A7"A3B c2d2 | e2f2 g2e2 | "D"d4 "A7"c2Bc | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/8510
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Snoa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

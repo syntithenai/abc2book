@@ -1,0 +1,29 @@
+X:8
+T:La fourmi et la sauterelle
+R:
+A:
+N:p 209
+D:
+O:France
+Z: <anamnese@laposte.net>
+M:3/4
+L:1/4
+Q:1/4=130
+K:F
+V:1
+F>G E | F3 | F A B | c2 d | c2 B | A2 G | 
+F>G E | F3 | A A B | G c2 | =B2 c | c3 | 
+c d e | f2 c | (dc) B | (c>B) A | c B A | G A2 | E2 F | G2 C | F>G E | F3 ||
+V:2
+F>G E | F3 | C F G | A2 B |
+S:https://www.folktunefinder.com/tunes/39949
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

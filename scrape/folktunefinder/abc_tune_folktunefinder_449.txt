@@ -1,0 +1,32 @@
+X: 1
+T: the 10th Brigade Highland Light Infantry Crossing the Rhine
+C: P.M. Donald Shaw
+R: jig/march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d>fA d2f | f>ga f>ed | "A"c>de Ace | e>fg "(D)"fed \
+| "D"d>fA d2f | f>ga f>ed | "A"c>de Ace | "D"d3 z2 :|
+|: g \
+| "D"a2f d2f | f<af f>ed | "A"c>de A>ce | e>fg "(D)"fed \
+| "D"a2f d2f | f<af f>ed | "A"c>de Ace | "D"d3 z2 :|
+|: A \
+| "D"d3 A>df | f<af f>ed | "A"c3 A>ce | e>fg "(D)"fed \
+| "D"d3 A>df | f<af f>ed | "A"c>de Ace | "D"d3 z2 :|
+|: g \
+| "D"a>Aa A>df | f<af fed | "A"c2e A>ce | e>fg "(D)"fed \
+| "D"a>Aa A>df | f<af fed | "A"c>de Ace | "D"d3 z2 :|
+S:https://www.folktunefinder.com/tunes/449
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/10thBrigadeCrossingTheRhine.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/10thBrigadeCrossingTheRhine.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/10thBrigadeCrossingTheRhine.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/10thBrigadeCrossingTheRhine.abc
+% Rhythm Jig/march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

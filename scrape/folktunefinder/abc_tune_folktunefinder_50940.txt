@@ -1,0 +1,23 @@
+X:4008
+T:Devil among the Tailors, The
+T:De'il amang the Tailors, The
+R:Reel
+C:Trad.
+O:Scottish
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+|:df|"G"g2df g2df|g2dg edcB|"C"ceAe ceAe|ceag fdef|
+"G"g2df g2df|g2dg edcB|"C"cdec dBGE|"G"DGFA G2:|
+|:dc|"G"BdGd BdGd|Bdgf edcB|"C"ceAe ceAe|ceag fedc|
+"G"BdGd BdGd|Bdgf edcB|"C"cdec dBGE|"G"DGFA G2:|
+S:https://www.folktunefinder.com/tunes/50940
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

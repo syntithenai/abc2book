@@ -1,0 +1,22 @@
+X:32
+T:The Newrigged Ship
+R:reel
+O:Shetland
+M:C
+L:1/8
+K:Amix
+   eg | "Am/A" a2  ab ageg | a2 ab              agef | "G" g2 g2      fgag | "D" f2  d2 d2 :|
+|: eg | "A" cAcA "G" B2 ed | "A" cAcA    "(E)" E2 ed | "A" cAcA  "G" B2 ed | "A" c2  A2 A2 :|
+[K:Ador]
+|: AB | "Am" cdec "G" BcdB | "Am" ABAF "(EM)"  GF E2 | "Am" cdec  "G" BcdB | "Am" c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/66716
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

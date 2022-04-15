@@ -1,0 +1,23 @@
+X:4077
+T:Derry
+Z: id:dc-hornpipe-17
+M:C|
+L:1/8
+K:D Major
+AG|F2Ad fdAF|G2Bd gdBG|F2Ad fdAF|E2Ac ecAG|!
+F2Ad fdAF|G2Bd gbag|fafd egec|d2f2 d2:|!
+fg|a2fd Adfa|g2ec Aceg|a2fd Adgf|(3efe (3dcB A2fg|!
+a2fd Adfa|gfef gbag|fafd egec|d2f2 d2:|!
+fg|a^gab afdf|gfga gece|a^gab afdf|(3efe (3dcB A2fg|!
+a^gab afdf|gfef gbag|fafd egec|d2f2 d2:|!
+S:https://www.folktunefinder.com/tunes/60266
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

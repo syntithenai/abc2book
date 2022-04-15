@@ -1,0 +1,41 @@
+X:2
+T:Balter Svens Parapolkett
+S:Eliza Carthy \&Nancy Kerr
+D:Shape of Scrape
+Z:Juergen.Gier@post.rwth-aachen.de
+L:1/8
+M:3/4
+K:Dm 0&2
+z4&A3^c|:(F4F)E & d3efa|~E3FED&g2gefd|\
+^C2E2E2&^c2A2A2|E4A2&A4F2|G2&G2&&A2&GF&&A2&GA|\
+A3AAD&B3dcB|E3FED&(A6|DDE2&A4)&&A2&^c2|\
+F3&d3&&FFD&efa|DE&g2&&EFED&gefg|A2AGFE&a3gfe|\
+EF2&d3&&ED^C&cBA|FGG2AG&B3dcB|AGF2E2&cBA2G2|1\
+(D6&(F6|D4)&F4)&&E2&A2:|2D4E2&F6|A6&A4A^c|:\
+A4(A2&e3e(3eee|A2)&e^c&&A2(A2&defg|\
+A2)A2A2&a2afdf|A4&e2^c2&&A2&A2|A2A2(A2&e3~eed|\
+A3)AAA&e^cdefg|A2A4&a2afdf|A4A2&e2e^cAG|\
+D3FFD&F2dAFD|E2cAFD&E2ecA2|F2dAF2&F2afd2|\
+A3EDE&A3GFG|A2FEDA&A2AGFB|A2FEDE&A2AGFE|\
+F2FAGF&D2DFED|1A2A4&D4A^c:|2A3zA2&D3ED2|]
+A4E2&D4A2|:D3^cdf&d3efa|e2e^cdA&g2gefd|\
+A2E2(3AB^c&^c2A2A2|E4D2&A4F2|A2AGBc&G2GFGA|\
+G4G2&B3dcB|A2E3F&(A6|EDE2&A4)&&(D2&A2|D3)cdf&d3efa|\
+e2e^cde&g2gefg|d6&a2agfe|[D3A3]AGF&d3cBA|\
+D3BAG&B3dcB|AGF2A2&cBA2G2|1c6&F6|c4E2&F4A2:|2\
+c6&F6|c4E2&E4A^c|:A3A(3AAA&e3ge^c|\
+^cADAde&e^cdefg|A2A2dA&a2afdf|\
+^c2A2G2&e2^c2A2|E3^ccA&e3~eed|\
+^cADAde & e^cdefg|A2A2dA&a2afdf|\
+A2AGFE&e2e^cAG|D2A2D2&F2dAFD|E2A2&E2ec&&E2&A2|\
+D2A4&F2afd2|c4A2&A3GFG|ABAGAB&A2AGFB|ABABAG&A2AGFE|\
+A3BAG&D3FED|1A4E2&D4A2:|2A3zA2&D3ED2|]A4E2&D4A2|]
+S:https://www.folktunefinder.com/tunes/16043
+S:http://trillian.mit.edu/~jc/music/abc/polka/BalterSvensParapolkett.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

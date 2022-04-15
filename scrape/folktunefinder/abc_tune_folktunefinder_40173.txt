@@ -1,0 +1,22 @@
+X:10
+T:Le Vielleux
+M:2
+L:1/4
+K:C
+%%staves [1 2]
+V:1
+cg | ga gf | !!e2 fe | !!dc fe | !!dc :: Gc | !!BA Bc |
+d2 dg | fe de | c2 c/d/e | c/d/e c/d/e/f/ | g2 c'>g | a/g/f/e/ !!d>c | c2 :|
+V:2
+C(C,/D,/) | E,F, E,D, | C,C B,C | F,E, D,C, | G,C, :: E,C, | G,^F, G,C, |
+G,,(G, F,)E, | D,C, G,G,, | C,2 z2 | C2 z2 | (C,/B,,/C,/D,/) E,C, | F,/E,/D,/C,/ G,G,, | C,2 :|
+S:https://www.folktunefinder.com/tunes/40173
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

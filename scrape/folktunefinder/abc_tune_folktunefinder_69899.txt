@@ -1,0 +1,27 @@
+X:339
+T: WOHLAN DIE ZEIT IST KOMMEN
+N: F0582
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Liebe, Scherz
+M: 2/4
+L: 1/16
+K: A
+Ac | e2e2e2a2 | e4c2
+c2 | d2d2B2B2 | c2c2c2
+Ac | e2e2e2a2 | e4c2
+c2 | d2d2B2B2 | c2z2
+e4 | d2d2B2B2 | c2c2e2
+e2 | d2d2B2B2 | c2c2e2
+cd | e2e2e2a2 | e4c2
+cc | d2d2B2B2 | c4z2
+S:https://www.folktunefinder.com/tunes/69899
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, liebe, scherz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

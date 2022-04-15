@@ -1,0 +1,32 @@
+X:265
+T:Banish Misfortune
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000805.html
+%%ID:00000805
+K:D mixolydian
+fed cAG | A2d cAG | \
+F2D DED | FEF GFG | \
+A3 cAG  | AGA cde |
+fed cAG | Add d3 :: \
+f2d d^cd | f2g agf | \
+e2c cBc | e2f gfe |
+f2g agf | e2f gfe | \
+fed cAG | Add d3 ::\
+fgf efe | ded cdc |
+A2A BAG | FAF GED | \
+c3 cAG  | AGA cde | \
+fed cAG | Add d3 :|
+S:https://www.folktunefinder.com/tunes/36132
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

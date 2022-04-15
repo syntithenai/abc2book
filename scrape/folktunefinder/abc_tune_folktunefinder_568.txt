@@ -1,0 +1,36 @@
+X:109
+T:Marche de Colinette  la Cour
+R:Marche
+O:France
+A:Provence
+C:Grtry
+C:XVIIIe
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Fmajor
+V:1
+({cde}f2)f>ff2(g/f/e/d/)|c2 c>c c2 (c/B/A/G/)|.F2 .A2 .G2 .c2|(B2>A2) G4|
+B3 (c/B/) A2A2|G3(A/G/) !breath!F2 f2|.e2.f2.b2.a2|g>fe>d c>BA>G|
+f2)f>ff2(g/f/e/d/)|c2 c>c c2 (c/B/A/G/)|.F2 .A2 .G2 .c2|(B2>A2) G4|
+B3 (c/B/) A2A2|G3(A/G/) !breath!F2 f2|(ed)bg f2e2|f2 f>f f4"FIN"||
+cfcf cfcf|dfdf c2A2|cfcf cfcf|.B2.A2 (A2G2)|
+cfcf cfcf|dfdf c2A2|cfcf cfcf|B2A2 G4|| 
+V:2
+A2 A>A A2 (e/d/c/B/)|A2 A>A A2 (A/G/F/E/)|.F2.F2.E2.G2|(G2>F2) E4|
+G3 (A/G/) F2F2|E3 (F/E/) F2A2|.G2 .A2 .d2 .c2|B>dc>B A>GF>E|
+A2 A>A A2 (e/d/c/B/)|A2 A>A A2 (A/G/F/E/)|.F2.F2.E2.G2|(G2>F2) E4|
+G3 (A/G/) F2F2|E3 (F/E/) F2A2|(cB).d.B A2G2|A2A>A A4||
+A2A2 A2A2|B2B2 A4|A2A2 A2A2|.G2.F2 (F2E2)|
+A2A2 A2A2|B2B2 A4|A2A2 A2A2|.G2.F2 E4|
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/568
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 9
+P: Tredje Brujstyk'
+O: trad S\onderho
+R: S\onderhoning
+N: Bridal tune
+M: 2/4
+L: 1/16
+K: D
+|: "D"d3d d2A2 \
+| d2ed "A7"cBA2 \
+| "D"d2d2 "A7"e2eg \
+| "D"f2f2 f2ed \
+| "A7"e2e2 e4 \
+:: "D"f2g2 a2b2 |
+| "D"a2ag f2fe \
+| d2ef "G"g2g2 \
+| "D"f2ed "A7"cBA2 \
+| "D"d2d2 "A7"e2eg \
+| "D"f2a2 "A7"agec \
+| "D"d8 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/8529
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Sonderhoning.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

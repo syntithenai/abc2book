@@ -1,0 +1,31 @@
+X:2
+T:37r. Ilz ont en mesme temps
+T:Seconde partie.
+T:Alto.
+C:Andr Pevernage
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z: Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+M:C
+L:1/4
+N:Original clef, C on third line
+K:F -8va
+%%MIDI transpose -12
+f2 z2 f e d c B2 z2 F2 F G A B c2 z c d/ c/ d/ e/ f3 e/ d/ e f d c c2 z c e/ d/ e/ f/
+w:Ilz ont en mes- me temps, ilz ont en mes- me temps, \'e- gal * * * * * * * con- ten- te ment, \'e- gal * * *
+g3 f/ e/ f g _e d d4 z2 f4 _e2 e4 z2 "A"e4 d2 d4 z2 d4 c2 c4 z2 c4 B2 B4 z A B c z B c d z f2 c2 _e2 d/ c/
+S:https://www.folktunefinder.com/tunes/48902
+S:http://www.laymusic.org/music/bicinia/temps/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

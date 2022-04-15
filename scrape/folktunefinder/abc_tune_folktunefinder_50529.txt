@@ -1,0 +1,27 @@
+X: 21
+T:Rakes of Mallow, The
+M:2/4
+L:1/8
+Q:240
+R:polka
+Z:id:hn-polka-85
+K:G
+"G".G.B .G.B|.G.B c/B/A/G/|"D".F.A .F.A|.F.A d/c/B/A/|
+"G".G.B .G.B|.G.B d>B|"C"c/B/A/G/ "D"F/G/A/c/|"G".BG G2::!
+"G"gf/e/ dc|Bc d2|gf/e/ dc|Bc "D"A2|
+"G"gf/e/ dc|Bc d>B|"C"c/B/A/G/ "D"F/G/A/c/|"G".BG G2:|
+|
+S:https://www.folktunefinder.com/tunes/50529
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

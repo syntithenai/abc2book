@@ -1,0 +1,21 @@
+X: 1
+T: Patch Tanz
+O: Hassidic
+M: 2/4
+L: 1/16
+P: Bb instruments
+K: F#m
+ | "F#m"A4 ABBA | ABBA "C7"AGGF | "F#m"A4 ABBA | "C7"AGGF "F#m"F4 \
+ | [A4c] [Ac][Bd][Bd][Ac] | [Ac][Bd][Bd][Ac] "C7"[Ac][GB][GB][FA] | "F#m"[A4c] [Ac][Bd][Bd][Ac] | "C7"[Ac][GB][GB][FA] "F#m"[F4A] ||
+|| "E7"BcdB "A"c4 | .[c2A] .[c2A] .[c2A] z2 | "E7"GABA B4 | "E".[G2E] "B7".[A2F] "E".[B2G] z2 \
+ | "E7"edcB "A"c4 | .[c2A] .[c2A] .[c2A] z2 | "E7"GABA B4 | "E".[G2E] "B7".[A2F] "E".[B2G] z2 ||
+|| "E7"EFG2 "A"ABc2 | "C7"BAG2 "F#m"F4 | "A"AEEA "G"A=GGF | "F#m"F8 \
+ | "E7"EFG2 "A"ABc2 | edc2 "Bm"B4 | "A"AEEA "G"A=GGF | "F#m"F8 |]
+S:https://www.folktunefinder.com/tunes/5898
+S:http://trillian.mit.edu/~jc/music/abc/Intl/PatchTanz_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

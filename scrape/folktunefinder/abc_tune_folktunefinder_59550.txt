@@ -1,0 +1,44 @@
+X:663
+T:Si quies que te cortexe (CT 429)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Joaqun Garca Paredes, de treinta aos, de Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 429
+M:3/4
+L:1/8
+Q:1/4=72
+K:Cm
+G|c2 ce dB|(G3/2(3A/4G/4F/4) G2 zG|c2 ce dB|(G3/2(3A/4G/4F/4) G2-Ge|
+g2 gg f>e|(d3/2e/8d/8c/8=B/8) c2 zG|c2 ce dB|(G3/2(3A/4G/4F/4) G2 ze|
+g2 gg f>e|(d3/2e/8d/8c/8=B/8) c2 f=e|
+f4 e2|(d3/2(3e/4d/4c/4)=B2 cd|e4 d2|c4 zG|
+|c2 ce dB|(G3/2(3A/4G/4F/4) G2-Ge|g2 gg f>e|(d3/2e/8d/8c/8=B/8 c2) f=e|
+f4 e2|(d3/2(3e/4d/4c/4) =B2 cd|e4 d2|c4 z||
+W:Si quieres que te corteje, (bis)
+W:molinera de Santianes,
+W:Si quieres que te corteje,
+W:has de olvidar a quien ames.
+W:
+W:Ya se va la nia,
+W:pronto ha de volver.
+W:A la fuente va por agua,
+W:por agua para beber.
+W:
+W:Ya se va la nia
+W:pronto ha de volver.
+W:
+S:https://www.folktunefinder.com/tunes/59550
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:449
+T: BRUEDER STELLT DAS JAUCHZEN EIN
+N: E1688A
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Studenten - Lied
+M: 3/4
+L: 1/16
+K: D
+ | A,3A,A,4D4 | =C3_B,A,8
+=F,3E,F,4G,4 | A,4A,8
+A,3A,A,4D4 | =C3_B,A,8
+=F,3E,F,4G,4 | A,4A,8
+=C3CC4=F4 | E3EE8
+D3E=F4E4 | C3EA,6
+A,2 | D3E=F4E4 | C4D8
+=C3CC4=F4 | E3EE8
+D3E=F4E4 | C3EA,6
+A,2 | D3E=F4E4 | C4D8
+S:https://www.folktunefinder.com/tunes/79553
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:314
+%%topmargin 3cm
+T:Fight about the Fireside
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+c S| GcEc Ad(dc) | GcEc GcEc | FcEc Ed(dB) | {AB}cGAF ECC :|
+f | ecgc eddf | ecgc acgc | fage {/^c}d=cde | {/^F}GA{/B}cd Te2 (df) |
+ecgc eddf | ecgc acge | fage {/^c}d=cde | {/^F}GA{/B}cd {/f}e2 (dc) S |]
+S:https://www.folktunefinder.com/tunes/71343
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Fight_about_the_Fireside.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0314.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

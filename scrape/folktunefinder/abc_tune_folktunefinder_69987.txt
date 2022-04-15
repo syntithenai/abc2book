@@ -1,0 +1,22 @@
+X:427
+T: UNSER LEBEN SAGEN WEISE
+N: F0792
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Moral - Lied
+M: 3/8
+L: 1/8
+K: D
+ | A2A | A2F | D2E | F2D
+A2c | ecA | ^GFG | A2z
+A2A | B2B | cBc | d2A
+gfe | A2A | ABc | d2z
+S:https://www.folktunefinder.com/tunes/69987
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

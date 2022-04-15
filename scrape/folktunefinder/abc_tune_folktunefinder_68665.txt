@@ -1,0 +1,28 @@
+X:119
+T: Rosengarten
+N: A0136
+O: Europa, Mitteleuropa, Deutschland
+N: A0135B von Boehme in modernen Noten notiert.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: F
+C | F2FA2A | c2cA2
+c | c2cB2A | G3F2
+C | F2FA2A | c2cA2
+c | c2cB2A | G3F2
+c | d2cc2B | A3G2
+A | B2BcAB | G3-Gz
+c | d2cc2A | F2cA2
+c | c2cABG | F3-Fz
+S:https://www.folktunefinder.com/tunes/68665
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

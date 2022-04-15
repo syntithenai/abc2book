@@ -1,0 +1,27 @@
+X:281
+T: BURGUNDER HER BURGUNDER HER
+N: B0333
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 2/4
+L: 1/16
+K: C
+EF | G2C2C2C2 | c2G2G2
+G2 | e2dcB2c2 | dBG2z2
+EF | G2C2C2C2 | c2G2G2
+G2 | e2dcB2c2 | dBG2z2
+GA | B2G2G2G2 | d2G2G2
+G2 | G2D2D2EF | E2DEC2
+E2 | F2E2D2C2 | ^F4G2
+c2 | c4E2F2 | G4C2
+S:https://www.folktunefinder.com/tunes/78302
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

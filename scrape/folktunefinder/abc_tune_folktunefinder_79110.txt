@@ -1,0 +1,24 @@
+X:6
+T: GANG MER NIT UEBER MIS MAETTELI
+N: E1005
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass; Schweiz
+R: Tanz - Lied
+M: 3/8
+L: 1/16
+K: G
+ | B3AB2 | c3Bc2 | d3ed2
+B3AB2 | c3Bc2 | d4z2
+B3cB2 | A3BA2 | G2GBD2
+B3dB2 | A3BA2 | G4z2
+S:https://www.folktunefinder.com/tunes/79110
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

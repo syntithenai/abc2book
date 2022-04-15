@@ -1,0 +1,25 @@
+X: 1
+T: Metelitsa
+T: Snowstorm
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+| "Gm"E4 E4 | "Dm"F2 F2 E2 D2 \
+| "A7"^C2 A,2 =B,2 C2 | "Dm"D6 z2 |
+| "Gm"E2 G2 F2 E2 | "Dm"A2 F2 E2 D2 \
+| "A7"^C2 A,2 =B,2 C2 | "Dm"D4 "C7"C4 ||
+|: "F"F2 A2 Hc2 A2 | "C7"G2 AB A2 "A7"G2 \
+| "Dm"F2 GF E2 D2 | "A7"^C4 A,4 |
+| "Dm"D2 A2 G2 F2 | "Gm"F4 E4 \
+| "A7"A,2 A,2 =B,2 ^C2 |1 "Dm"D4 "C7"C4 :|2 "Dm"D6 z2 |]
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/7798
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Metelitsa.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

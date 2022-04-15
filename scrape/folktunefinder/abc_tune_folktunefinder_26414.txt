@@ -1,0 +1,25 @@
+X:5962
+% The song with calculated Accords
+T:Shannon Breezes, The
+O:england
+""E:7
+I:speed 350
+R:reel
+M:C|
+K:D
+|"D"A2AF DFAF|"G"G2BG dGBG|"D"ABAF DFAF|"G"GBAF EFDF|
+"D"A2AF DFAF|"G"G2BG dGBG|"D"~A3 F DFAF|"G"GBAF E2D2||
+|"D"ABde ~f3d|"G"~g3e fedB|"D"ABde fefg|"D"afdf e2d2|
+"D"ABde fAdf|"G"~g3e fedB|"D"ABde fefg|"D"afdf e2d2||
+S:https://www.folktunefinder.com/tunes/26414
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

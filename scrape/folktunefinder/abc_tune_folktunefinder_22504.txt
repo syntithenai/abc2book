@@ -1,0 +1,24 @@
+X:2053
+T:Fourpence, Halfpenny, Farthing
+T:or The Jockey
+O:england
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Bb
+"Gm"B2d dBd | "F"A2c cAc | \
+"Gm"B2d "Bb"dBd | "F"f3 "Gm"b3 | \
+"Bb"B2d dBd | "F"A2c cAF | \
+"Gm"G/2A/2BG "F"A/2B/2cA | "Eb"G3 "Bb"B3 :: \
+"F"{c}f2g "Bb"fdB | "Gm"{d}b2g "Bb"fdB | \
+"C"e2g "Bb"fdB | "F"A3 c3 | \
+"Bb"D2F FDF | "Gm"B2d "F"cAF | \
+"Eb"G/2A/2BG "C"A/2B/2cA | "Gm"G3 B3 :|
+S:https://www.folktunefinder.com/tunes/22504
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

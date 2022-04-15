@@ -1,0 +1,29 @@
+X: 1
+T: Shottish fr\aan Boda
+O: Sweden
+R: shottish
+B:
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin "uppt. Bruce Sagan 7/86"
+M: C|
+L: 1/8
+K: D
+|: "D"f>g fe d2 ef | "G"g2 g2 B3 (d | "A7"c2) .e2 .A2 Bc |1,3 "D"d2 AG FE D2 \
+                                                        :|2,4 "D"d2 {e}dc d4 :|
+|: "D"a2 ag f2 ga | "G"b2 ba ga gf | "A7"ef ed cA ce | "D"ab ag f2 d2 \
+|  "D"f>g fe d2 ef | "G"g2 g2 B3 (d | "A7"c2) .e2 .A2 Bc | "D"d2 {e}dc d4 :|
+S:https://www.folktunefinder.com/tunes/18471
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Shot_Boda_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Shottish_Boda_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/old/Shot_Boda_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/shottish/Shot_Boda_D.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

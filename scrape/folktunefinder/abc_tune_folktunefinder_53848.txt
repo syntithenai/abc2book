@@ -1,0 +1,22 @@
+X:191
+T:Marche pour Anne-Marie
+C:Richard Fort
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:Dm
+A |: dfa fdA | BAB FAB | cag agf | gfe fef |
+dfa fdA | BAB FAB | cag fed |1 cfe f2A :|2 cfe f2g |:
+afc Acf | gec Gce | fef agf | ecA ABc | 
+dcB def | cAc fag | fed A=B^c |1 d3 dfg :|2 d3 d2 |]
+S:https://www.folktunefinder.com/tunes/53848
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

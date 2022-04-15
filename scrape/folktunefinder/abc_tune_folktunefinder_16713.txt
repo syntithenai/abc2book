@@ -1,0 +1,25 @@
+X: 1
+T: Angus Grant's Reel
+C: Douglas Keir
+R: reel
+B: RSCDS 40-1
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "D"dcdB     ABAF | "Em"G2E2 "A7"E2A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "G"BcdB "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+|: AG \
+| "D"F2D2 A2D2 | "G"B2G2 "D"A2F2 | "Em"G2B2  "D"ABAF | "Em"G2E2 "A7"E2AG \
+| "D"F2D2 A2D2 | "G"B2d2 "D"A2F2 | "Em"G2B2 "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+S:https://www.folktunefinder.com/tunes/16713
+S:http://trillian.mit.edu/~jc/music/abc/reel/AngusGrantsR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AngusGrantsR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

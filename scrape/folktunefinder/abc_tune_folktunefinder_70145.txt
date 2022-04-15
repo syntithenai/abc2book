@@ -1,0 +1,27 @@
+X:15
+T: Das ist ein harte Bu, S. 67
+N: S0078
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: sp\^ittisches Abschiedslied]
+M: 4/4
+L: 1/8
+K: A
+ | =c4B4 | A2A2E2=G2 | A2B2=cBAB | =c6z2
+c4B4 | A2A2E2=G2 | A2B2=cBAB | =c6
+AB | =c2cBc2dc | =cBBAB2
+cB | AAAAA2AA | G2G2E2
+=G2 | A2B2=cBAB | =c2e2d2c2 | B8 | A2z6
+S:https://www.folktunefinder.com/tunes/70145
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Sp%C3%AEttisches abschiedslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

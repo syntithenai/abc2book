@@ -1,0 +1,31 @@
+X:552
+T:N'Uviu nun me caso (MG 01) (Arrg.)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 01
+M:3/8
+L:1/8
+Q:1/4=150
+E:Nivel 1
+K:C
+"Dm"DED|"C"C3|"Dm"DED|"C"C3|"Dm"DEF|
+"C"G2F|"C"G2F|[1 "C"E3:|[2 "C"EDE||"F"F2E|"Dm"DEF|
+"C"E2D|"C"CDE|"F"F2E|"Dm"DGF|"C"E2D|"C"C3|
+S:https://www.folktunefinder.com/tunes/59439
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

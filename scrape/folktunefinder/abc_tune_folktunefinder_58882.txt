@@ -1,0 +1,64 @@
+X:71
+T:Ragtime Annie
+S:Nottingham Music Database
+C:
+M:2/4
+L:1/4
+K:D
+A/2|\
+"D"D/4F/4A/4F/4B/2A/4F/4|\
+D/4F/4A/4F/4B/2A/4F/4|\
+"D"D/4F/4A/4F/4B/2A/4F/4|\
+"A7"A/4c/2A/4c/2B/2|\
+A/4B/4c/4A/4B/4c/4B/4A/4|\
+"A7"A/4B/4c/4A/4B/4c/4B/4A/4|\
+"A7"A/4B/4c/4d/4e/4g/4f/4e/4|\
+"D"d3/2:|\
+f/4g/4|\
+"D"a/2a/4b/4a/4f/4d/4B/4|\
+A/2A/2A/2f/4g/4|\
+"D"a/2a/2g/2f/2|\
+"G"B3/2e/4f/4|\
+"Em"g/4f/4e/4f/4g/4f/4e/4d/4|\
+"A7"c/2A/2c/2c/4A/4|\
+"Em"B/2B/2"A7"A/2G/2|\
+"D"F3/2"A7"f/4g/4|\
+"D"a/2a/4b/4a/4f/4d/4B/4|\
+A/2A/2A/2f/4g/4|\
+"D"a/2a/2g/2f/2|\
+"G"B3/2g/4a/4|\
+"G"b/2b/2b/4a/4f/4g/4|\
+"D"a/2a/4b/4a/4f/4d/4B/4|\
+"A7"A/4B/4c/4d/4e/4g/4f/4e/4|\
+"D"d3/2|:\
+G/4A/4|\
+"G"B/2B/2B/4G/4A/4B/4|\
+"Am"c/4B/4c/4d/4c/2d/4e/4|\
+"D7"f/2f/2f/4d/4e/4f/4|\
+"G"g/4f/4g/4a/4g/2G/4A/4|\
+"Em"B/2B/2B/4G/4A/4B/4|\
+"Am"c/4B/4c/4d/4c/2d/4e/4|\
+"D7"f/2f/2f/4d/4e/4f/4|\
+"G"\
+|1 \
+g/4f/4g/4a/4g:|\
+"G"\
+:|2 \
+g2||\
+% ----------------------------------------------------------------------------
+%
+% Part 5 - Songs (I found words & music on the net and put them together)
+%
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58882
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

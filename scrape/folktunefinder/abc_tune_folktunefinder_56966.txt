@@ -1,0 +1,29 @@
+X:2027
+T:Boys on the Hilltop, The
+T:Hilltop, The
+S:as recorded by piper Jimmy O'Brien-Moran, first time through
+N:transcribed by Alan Ng with cuts fingered for fiddle (otherwise as recorded). A dot indicates a stop AFTER the note
+D:on his solo album, Sen Reid's Favourite (Piping Pig PPPCD001, 1996), track 1, tune 1
+Z: id:ng-reels-43 transcribed by Alan Ng alan@alan-ng.net 5 Feb. 2001
+R:reel
+M:C|
+K:ADor
+E:11
+"roll 2nd time"A3B {c}BA B/2A/2G|EG{A}GF G{A}GAG|.EA{d}A{B}A BA{d}A{B}A|e/2f/2e .dB-B{d}BdB|*
+E:13
+.~A3d BG{B}AG|EG{A}GF G{A}GAB|"slide"c2{d}cA G~B3|dBGA BA{d}Az:|*
+{B}A{d}A B/2^c/2.d e/2f/2e dB|G~B3 .d.efg|[aA]G{f}e.d egdB|GB.dG BA{d}Ag|\
+{b}ag~ed e{a}edB|G~B3 .d.efg|{b}a.f .f/2.e/2d f.d.ef|g{a}g[aA]F gedB|]**
+S:https://www.folktunefinder.com/tunes/56966
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

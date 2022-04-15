@@ -1,0 +1,30 @@
+X: 1
+P: Bannielou Lambaol (F)
+O: Brittany
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: F
+[| "C7"CC DE | "F"F2 F2 \
+| "C7"CC DE | "F"F4 \
+| "Dm"AG AG | "Bb"FD D2 \
+| "C7"CG GE | "F"F2 F2 ||
+|| "F"CF FF | "C7"GF/E/ "F"FF \
+| CF FF | "C7"GF/E/ "F"F2 \
+| A2Ac | "Bb"cB AG \
+| "C7"GB AG | "F"F2 F2 | z2 |]
+S:https://www.folktunefinder.com/tunes/3017
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/Ridee.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/Ridee.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Ridee
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:16
+T:G\aangl\aat fr\aan \"Appelbo
+C:efter \"Artbergs Kalle
+O:Dalarna
+%A:Dalarna
+%O:Sweden
+R:snoa, g\aangl\aat
+Z:John Chambers <jc@trillian.mit.edu>
+N:modified by Bob Wyttenbach to match Buffalo Gap tunebook
+M:2/4
+L:1/16
+%Q:1/4=76
+K:A %Transposed from G
+P:A
+uE2 | "G"A2(AE) A2c2 | e6(cd) | e2(ec) e2(ef) | "Am"d2(dc) B2(Bc) |
+ "D7"d2(de) f2(ed) | "G"(cd)(cB) A2(GA) | "D7"(Bc)(BG) E2(FG) | "G"A6 :|
+P:B
+(uce) | "G"a2a2 a2(gf) | "D7"g2g2 g2(ag) | "C"f2f2 (fa)(gf) | "G"f2(e^d) e2(=dc) |
+ "D7"d2(dc) B2(AB) | "G"(cd)(cB) A2(GA) | "D7"(Bc)(BG) E2(FG) | "G"A6 :|
+S:https://www.folktunefinder.com/tunes/62593
+S:http://www.nordicfiddlesandfeet.org/music/NFFBb.abc
+% Rhythm Snoa, g%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

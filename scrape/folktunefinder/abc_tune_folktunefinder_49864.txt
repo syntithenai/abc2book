@@ -1,0 +1,38 @@
+X:18416
+T:Waltz Mozart,4. TLY.048
+M:3/4
+L:1/4
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Waltz
+O:England.
+A:Lancashire.
+N:Start of B music is marked f. Start of C music is marked p. Last beat
+N:of 8th. bar of D music is marked p
+H:1860.
+Z:vmp.Taz Tarry.
+K:C
+G|GGG| GGG| G3-|c z G|GGG | GGG| G3-| d z G|!
+eee| fdB|ccc |{Bd}cBA| Gce| gfd|d3 c z||!
+|:g|(c'/b/c'/b/c'/b/)| (c'/b/c'/b/c'/d'/)| e'2 c'| g2 g| f2 d|
+c/B/A/G/A/B/| cce| c z:|!
+|:c/-e/|g/^f/g/a/b/c'/| c2 d/-c/|B/c/d/e/f/g/| f-e c/-
+e/|g/^f/g/a/b/c'/|c2 d/-c/|G/A/B/c/d/e/|c2:|!
+|:E|e e3/4e/4e| e2 d| cBA| GBE| e e3/4e/4e| e2 d| cBA|e2 c/e/|!|g/^f/g/
+a/b/c'/| c2 d/-c/|B/c/d/e/f/g/| f-e c/e/|g/^f/g/a/b/
+c'/|c2 d/-c/|.G/.A/.B/.c/.d/.e/|c2:|!
+|:~G|e-c .G|c-G .E| F-d .B| c-e ~.G|e-c .G|c-G .E|FdB| c z:|!
+d|dcB| BAG| c/B/ cd| e2 c| dcB|BAG| c/d/ed| c2:|
+S:https://www.folktunefinder.com/tunes/49864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

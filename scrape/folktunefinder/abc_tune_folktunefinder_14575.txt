@@ -1,0 +1,25 @@
+X: 1
+T: the Maid at the Spinning Wheel
+T: the Hag at the Spinning Wheel
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D | "G"~G3     B2G | BcA    B2D |    ~G3    BAG | "D7"EFG AFD | "G"~G3     B2G | BcA    Bge | "D7"fed cAF | "G"~G3 z2 :|
+|: c | "G"BAG "D7"AFD | ~D3    AFD |    ~D3    AFD | "D7"EFG ABc | "G"BAG "D7"AFD | ~D3    AFD | "D7"ded cAF | "G"~G3 z2 :|
+|: D | "G"GBd     gba | gdB "C"ecA | "G"dBG "C"cAG | "D7"F2G AFD | "G"GBd     gba | gdB "C"ecA | "D7"fed cAF | "G"~G3 z2 :|
+|: c | "G"BAG "D7"Afd | Bfd    Afd |    Bfd    AFD |     EFG ABc | "G"BAG "D7"AFD | ~D3    AFD | "D7"ded cAF | "G"~G3 z2 :|
+S:https://www.folktunefinder.com/tunes/14575
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidAtTheSpinningWheel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MaidAtTheSpinningWheel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MaidAtTheSpinningWheel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MaidAtTheSpinningWheel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidAtTheSpinningWheel.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

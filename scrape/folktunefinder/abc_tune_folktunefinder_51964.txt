@@ -1,0 +1,24 @@
+X:2
+T:The Duellists
+C:Nigel Eaton
+R:Schottische
+B:"Here's one we made earlier" MADE 1997 tune book
+M:2/4
+L:1/16
+K:D
+"D"A2A^G ABG2|"Dmaj7"A^GAB F4|"E"A^GAB FBAG|"Gmaj7"E2E2 F4|
+"F#m7"A2A^G ABAB|"Am7"=c2BA "D"F4|"E7"FA^G2 E=GF2|"G"D8:|
+|:"D"d2dc dec2|dcde A2ce|"A"cBA2 FA^G2|EGF2 E4|
+"Bm7"d2dc dede|f2ed A4|"E7"FA^G2 E=GF2|"G/A(G)"D8:|
+S:https://www.folktunefinder.com/tunes/51964
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

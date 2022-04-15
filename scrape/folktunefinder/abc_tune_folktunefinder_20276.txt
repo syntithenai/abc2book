@@ -1,0 +1,28 @@
+X: 1
+T: Vals fr\aan H\"allefors efter G\"oran H\aakansson
+M: 3/4
+L: 1/8
+K: D
+A2 \
+| "D"d3 Adf | d3 Adf | "A7"e3 Ace | ~g2 b2 af \
+|  "D"d3 Adf | d3 Adf | "A7"e>f gA Bc | "D"d4 :|
+|: FG \
+| "D"[A3D3] gfe | "D"dF Ad FA | dF Ad FA | dF Ad FG \
+| "D"[A3D3] gfe | "D"dF Ad FA | dF Ad "A7"Ec | "D fine"d4 :|
+|: A2 \
+| "D"[f3A3] ddf | "A7"ba ge c2 | A2 B2 c2 | "D"d2 e2 f2 \
+| "Em"g3 eeg | "A7"ba ge c2 | A2 B2 c2 | "D"d4 :|
+|: A2 \
+| "A7"A3 ceg | "D"gf f2 df | "A7"ge e2 ce | "D"d2 f2 A2 \
+| "A7"A3 ceg | "D"gf f2 df | "A7"ge e2 ce | "D"d2 f2 A2 |
+| "G"B3 ggb | "D"ba af fa | "A7"ag ge ce | "D"d2 f2 A2 \
+| "G"B3 ggb | "D"ba af fa | "A7"ag ge ce | "D"d4 :|
+S:https://www.folktunefinder.com/tunes/20276
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_Hallefors.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_Hallefors.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

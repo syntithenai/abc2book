@@ -1,0 +1,27 @@
+X:8
+T:Changing Time or Key Signatures, Guitar Chords
+M: 6/8
+K: G
+ ABc def |\
+M: 9/8
+A,CC DFF GBB |[M:4/4]a,2b,2c2d2 ||[L:1/4][K:Bb]\e4|
+K: Gb
+M: 6/8
+| -ede edc | def fed |1 efg gfe | e6 :|2 gag fed | c6 |]
+S:https://www.folktunefinder.com/tunes/2347
+S:http://trillian.mit.edu/~jc/music/abc/test/ChangingTime.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/ChangingTime.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/ChangingTime.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/ChangingTime.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F-sharp
+% Key G
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:2
+T:8r. Fulgebunt justi sicut lilium
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:G mix bass
+%%MIDI transpose -24
+T:Bassus
+N: Original clef bass
+%1
+z8 g4 e2 e2 g f e d c d e f e4 A2 c4 B2 c2 c2 G8 z2 g2 e2 e2 g f e d
+S:https://www.folktunefinder.com/tunes/58292
+S:http://www.laymusic.org/music/bicinia/fulgebunt/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

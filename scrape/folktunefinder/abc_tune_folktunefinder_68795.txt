@@ -1,0 +1,24 @@
+X:249
+T: Lied zum langen Tanz der Ditmarsen
+N: A0294
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie wie A0293,nur im Tripeltakt.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: C
+C | C2CG2G | G2GG2
+G | F2GA2G | G2FE2z
+F2EG2E | F2EG2
+E | F2FG2E | D3C2
+S:https://www.folktunefinder.com/tunes/68795
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

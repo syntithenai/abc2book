@@ -1,0 +1,45 @@
+X:7
+T:A la mar fui por naranxes (MG 14)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 14
+P:AAB
+M:2/4
+L:1/8
+Q:1/4=120
+E:Nivel 2
+K:C
+P:A
+G|:C3/2D/2 EF|G3 F|~A2 G2|EG GA|
+F3 E|[1 ~D2 CG:|[2 ~D2 C2||D3/2E/2 DC|B,4|
+DD DE|F3 E|~D2 C2|D3/2E/2 DC|B,4|
+DD DE|F3 E|G3/2F/2 ~ED|[1 C3 G:|[2 C4||
+P:B
+|:c3 ~d|cG AB|c2 G2|A3 E|G3/2F/2 ED|
+[1 C4:|[2 C3 G||C3/2D/2 EF|G2 GE|G3/2F/2 ~ED|
+~E2 EG|C3/2D/2 EF|G2 GE|G3/2F/2 ~ED|
+[1 C3 G:|[2 C4||
+W:A la mar fui por naranxes,
+W:cosa que la mar nun tien;
+W:toa vini moyadina
+W:de foles que van y vienen.
+W:Ay, mi dulce amor!
+W:esa mar que ves tan bello
+W:Ay, mi dulce amor!
+W:esa mar que ves tan bello, es un traidor.
+W:
+S:https://www.folktunefinder.com/tunes/58894
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X: 3
+T: Die Gedanken sind frei
+M: 3/4
+L: 1/8
+K: A
+e2 | "A"a2 a2 c'a |    e4     e2 | "E7"d2  B2 e2 | "A"c2 A2  e2 \
+   | "A"a2 a2 c'a |    e4     e2 | "E7"d2  B2 e2 | "A"c2 A2  a2 |
+   |"E7"g2 b2 e2  | "A"a2 c'2 a2 | "E7"g2  b2 e2 | "A"a2 c'2 a2 \
+   | "D"f2 f2 af  | "A"e4     ec'| "E7"c'b a2 g2 | "A"a4       |]
+S:https://www.folktunefinder.com/tunes/4735
+S:http://trillian.mit.edu/~jc/music/abc/Germany/GedankenSindFrei.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

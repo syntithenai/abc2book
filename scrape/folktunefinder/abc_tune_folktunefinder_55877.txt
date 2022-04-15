@@ -1,0 +1,25 @@
+X:1
+T:6v. Qui sequitur me,
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:A phrygian
+T: Superius
+N: Original clef, C on first line
+%1
+E6 F3 F G4 E2 z2 c4 A3 A F4 D2 z2 G4 E3 E F2 G3 F E D C2 z2 c2 A6 B2 A4
+S:https://www.folktunefinder.com/tunes/55877
+S:http://www.laymusic.org/music/bicinia/quisequitur/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

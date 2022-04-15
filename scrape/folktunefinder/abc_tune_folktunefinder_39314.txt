@@ -1,0 +1,29 @@
+X:17943
+T:Two-Step
+T:Karapyet
+Z:H. Tantsyur
+S:A. Humenyuk
+Q:120
+O:Probably Caucasian
+M:2/4
+L:1/8
+A:village of Zyatkivtsi, Vinnyts'kiy, Ukraine
+K:AMin
+E A2 A | ^G2 {^F}E2 | E B2 d | c>B A2 |: \
+c/2d/2eee | fe d2 | d/2e/2fff | gf e2 | \
+c/2B/2c c/2B/2c | d>c B2 | e>dcB | A2 A2 :|
+P:Ending Variation
+|: c/2d/2e c/2d/2e | de f2 | \
+B/2c/2d B/2c/2d | cd e2 | \
+A/2B/2c A/2B/2c | Bc d2 | e>dcB | a2 A2 :|
+S:https://www.folktunefinder.com/tunes/39314
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

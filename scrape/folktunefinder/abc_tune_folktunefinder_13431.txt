@@ -1,0 +1,22 @@
+X: 1
+T: Ruha
+O: Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: DGA \
+|| "G"Bd dB | "D7"Ac BA | "G"G4- | G DGA | "G"Bd dB | "D7"Ac BA | "G"G3 G |
+| G2 B2 || "D7"A3 B | AG FE | D2 d2 | d2 B2 | "D7"A3 B | "A7"AG FE | "D"D4- | D :|
+S:https://www.folktunefinder.com/tunes/13431
+S:http://trillian.mit.edu/~jc/music/abc/folk/Ruha_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/Ruha_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/Ruha_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

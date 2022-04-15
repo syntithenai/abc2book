@@ -1,0 +1,29 @@
+X:89
+T: D' Baarnertracht
+N: D0103
+O: Europa, Mitteleuropa, Schweiz, Bern
+N: Siebentonskala (Ionisch mit Auslassung und Modulation in
+N: die Dominanttonart) ; Inzipit = Variante zum Lied
+R: Jodel - Lied, Heimat - Lied, Liebes - Lied
+M: 4/4
+L: 1/16
+K: F
+A2G2 | F2F2F2C2F4G4 | A8z4
+A2G2 | F2F2F2C2F4G4 | A8z4
+F2G2 | A2A2c6A2B2A2 | G8C4
+F2G2 | A2A2c6A2B2A2 | G8C4
+A4 | c6A2d3cB2A2G2 | A8z4
+A4 | F4G4A4=B4 | c8C4
+F2A2 | c6d2c2B2 | A6G2F4 | G8A4 | F8
+F2A2 | c6d2c2B2 | A6G2F4 | G8A4 | F8z4
+S:https://www.folktunefinder.com/tunes/72546
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Jodel - lied, heimat - lied, liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

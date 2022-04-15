@@ -1,0 +1,27 @@
+X: 4
+P: Schellen-Neuner [C]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: C
+   [cE][dG] \
+| "C"[e2c2][c2G2]  [e4c4] | [g2e2][e2c2] [g4e4] \
+| "G7"[f2d2]   [Bd][af] [ge][fd] | "C"[ec][fd] [ec][dB] [cA][dB] \
+"I"\
+| "C"[e2c2][c2G2]  [e4c4] | [g2e2][e2c2] [g4e4] \
+| "G7"[fd][ec] [dB][cA] [BG][dB] | "C"[c2c2] z2 :|
+|: [cG][ec] \
+| "C"[g2e2][e2c2] [g4e4] | "G7"[f2d2][d2B2] [f4d4] \
+| "C"[e2c2][c2G2] [e4c4] | "G7"[d2B2][B2G2] [d4B4] \
+| "C"[e2c2][c2G2]   [e4c4] | [g2e2][e2c2] [g4e4] \
+|1"G7"[fd][ec] [dB][cA] [BG][dF] | "C"[c2E2] z2 \
+:|2 "G7"[af][ge] [^f^d][ge] [=f=d][dB] | "C"[c2c2] z2 :|
+S:https://www.folktunefinder.com/tunes/4974
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_SchellenNeuner_FBb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

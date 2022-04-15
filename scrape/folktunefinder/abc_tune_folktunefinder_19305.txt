@@ -1,0 +1,30 @@
+X: 1
+T: Double Eighty
+C: Chris Dewhurst
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-2
+M: C
+L: 1/8
+K: D
+f>e \
+| "D"d>c "G"d>B   "D"A<F F>E | "D7"D>F     A<d  "G"B2 "A7"A>G \
+| "D"F>A    d>e  "Bm"f<d d>A | "E7"B<e     e>f "A7"e2     f>e |
+| "D"d>c "G"d>B "F#m"A<F F>E | "Bm"D>F     A<d "Em"B>c    d>e \
+|"F#m"f>A   A>A  "Em"g>f e>d |  "G"B<d "A7"d>e  "D"[d2F2]    |]
+[fA]>e  \
+|  "D"d<A A>A     f>A "A"e>A |  "D"d<A     A>A  "Em"g3     f \
+|  "A"e<A A>A     g>A    f>A | "E7"(3efd (3cdB  "A7"A>g  f>e |
+|  "D"d<A A>A "A7"f>A    e>A |  "D"d<A     A>A "G(m)"g2  f>g \
+|"F#m"a>A f<a "Em"g>f    e>d |  "G"B<d "A7"d>e    "D"d2     :]
+S:https://www.folktunefinder.com/tunes/19305
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Double_Eighty_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Double_Eighty_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/Double_Eighty_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:210
+T: Osterjubel
+N: A0564A
+O: Europa, Mitteleuropa, Deutschland
+N: Gsgb der boehm. Brueder 1544.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: F
+F | F2A | c2c | cAB | c2
+e | f2d | f2c | cdB | A2
+F | G2G | G2A | FG2 | F2
+S:https://www.folktunefinder.com/tunes/80269
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:7815
+T:Up Ya Boya
+O:england
+R:jig
+D:Arcady
+M:6/8
+L:1/8
+K:Bdor
+dcd ~B3|FBd f2g|aec ~A3|EAc edc|
+dcd ~B3|FBd f2e|~f3 afe|1 dBA B2c:|2 dBA B2f||
+|:bfd ~B3|FBd f2g|aec ABA|EAc edc|[1 bfd ~B3|
+FBd f2e|~f3 afe|dBA B2f:|[2 ~B3 dcd|fed cde|
+fdB AFE|FBA B2c||
+S:https://www.folktunefinder.com/tunes/28267
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:639
+T: "Das Lehen"
+N: Z1320
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Zech -, Schalks - Lied
+M: 4/4
+L: 1/8
+K: G
+A2F2 | G4A2F2 | G4
+A4 | G4A4 | G4F2E2 | D4z2
+D2 | G3FE2AG | F3ED3
+D | G3AB2B2 | BAA2G4
+F3AB2d2 | e4d4
+e4d4 | e3dc2B2 | A4G2z2 | z4
+S:https://www.folktunefinder.com/tunes/69498
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

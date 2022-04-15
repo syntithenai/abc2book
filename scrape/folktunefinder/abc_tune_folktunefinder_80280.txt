@@ -1,0 +1,26 @@
+X:221
+T: Lied auf Franz von Assisi
+N: A0574
+O: Europa, Mitteleuropa, Deutschland
+N: Werlins Hs. 1646 S. 2981.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/8
+K: D
+D2 | D2D2=F2F2 | D4=C2C2 | =F2F2G2G2 | A4z2
+A2 | A2A2A2A2 | =c4A2A2 | _B2A2G2G2 | =F4z2
+F2 | _B2B2A2=F2 | G4D2G2 | =F2_E2D2=C2 | B,4z2
+B,2 | =F2G2A_B=c2 | _B4A2G2 | =F2E2D2=C2 | GA_B=cA4 | G4
+=F2F2 | E4D4
+S:https://www.folktunefinder.com/tunes/80280
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

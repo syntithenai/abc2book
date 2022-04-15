@@ -1,0 +1,24 @@
+X:132
+%%topmargin 3cm
+T:Lord Kinneard
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+A S| {/c}d2 d2 {/c}dA{/G}FD | {/c}d2 (Ad) TB2 (AB) | {/c}dABF AF{/c}dF | E/2E/2E (FA) TB2 A :: g | fdad feeg |
+fdad f2 (eg) | [1 fdad ec{/c}dF | E/2E/2E (FA) TB2 A :| [2 {/^g}aefd ec{/c}dF | EFGA BdAd S|]
+S:https://www.folktunefinder.com/tunes/71162
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lord_Kinneard.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0132.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

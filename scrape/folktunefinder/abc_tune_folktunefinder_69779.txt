@@ -1,0 +1,28 @@
+X:219
+T: ICH BIN EIN DEUTSCHER KNABE
+N: F0373
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, patriotisch, national
+M: 4/4
+L: 1/8
+K: Bb
+F2 | B2B2c2c2 | d3cB2
+F2 | G2ecB2A2 | B4z2
+d2 | c3BA2B2 | c3dc2
+B2 | A2A2G^FGA | F4z2
+F2 | c2c2d2d2 | e3dc2
+c2 | d2d2e2e2 | f3ed2
+F2 | d2c2B2A2 | G3BF2
+B2 | c2ecB2A2 | B4z2
+S:https://www.folktunefinder.com/tunes/69779
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, patriotisch, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

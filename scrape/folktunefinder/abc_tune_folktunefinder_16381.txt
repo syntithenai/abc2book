@@ -1,0 +1,29 @@
+X: 2
+T: Karis Pers Polska
+O: trad
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+N: Possibly the best-known hambo-polska tune.  The first part is sometimes not repeated.
+M: 3/4
+L: 1/8
+K: E
+|: "E"B2 Bc B>A | A2 GE G>B | e2 ef e>d | "A"d2 cA c2 | "B7"f2 fg f>e | e2 dB d>f | b2 ba g>f | "E"e>f ga b2 ||
+|| "E"B2 Bc B>A | A2 GE G>B | e2 ef e>d | "A"d2 cA c2 | "B7"f2 fg f>e | e2 dB d>f | "B7"b2 bg a>f | "E"ez e4 :|
+|: "A"a2 fa f>a | "E"g>f ed e>g | "B7"f>e dB c>d | "E"e>f ga b2 | "A"a2 fa f>a | "E"g>f ed e>g | "B7"f>e dB c>d | "E"ez e4 :|
+S:https://www.folktunefinder.com/tunes/16381
+S:http://trillian.mit.edu/~jc/music/abc/pols/KarisPersP_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/KarisPersPolska_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hambo/KarisPersP_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/KarisPersP_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/KarisPersPolska_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/KarisPersP_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/KarisPersPolska_E.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

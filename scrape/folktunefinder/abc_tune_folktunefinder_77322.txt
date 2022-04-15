@@ -1,0 +1,23 @@
+X: 1
+T:Cowboy's Jig - G
+M:6/8
+L:1/8
+C:Traditional
+R:Jig
+K:G
+BA| "G"GDE G2A|"G"Bgf gdB|"C"ABc BGA|"C"BcA BGE|"G"GDE G2 A|"G"Bgf gdB|"
+C"ABc BcA|"G"BGG G3:|
+|:Bd|"Em"e2 e e2 e|"Em"egf edB|"Bm"d2 d d2 d|"Bm"dge dBG|"C"c2 d"Em"e2 f
+|"G"gdB "D"A2 d|"G"BGA BcA|"D"BGF "G"G3:|
+% Output from ABC2Win  Version 2.1 i on 10/1/2002
+S:https://www.folktunefinder.com/tunes/77322
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

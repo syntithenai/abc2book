@@ -1,0 +1,29 @@
+X: 1
+T: Quigley's Reel
+C: Al Quigley
+N: Collected by Ralph Page
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d2fd "A"cdec "D"d2A2 z2A2 | "G"BAGF "D"GFED | "Em"CDEF "A7"GABc | "D"d2fd "A7"cdec |
+| "D"d2A2 z2AA | "G"BAGF GFED | "A7"CDEC "D"D2 :: AG | "D"F2AF FAAF | "G"G2BG GBBG |
+| "D"F2AF FAAF | "A7"GFED CDEF | "D"F2AF FAAF | "G"G2BG GBBG | "D"FAdf "A7"gece | "D"d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/172
+S:http://trillian.mit.edu/~jc/music/abc/Contra/QuigleysReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/QuigleysReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/QuigleysReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/QuigleysReel_D.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

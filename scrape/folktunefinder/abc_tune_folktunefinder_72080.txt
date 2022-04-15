@@ -1,0 +1,41 @@
+X:53
+T:Captain Patrick McKenzie's Strathspey (standard tuning)
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 17
+%transposed from scordatura by Steve Wyrick
+%Petrie's original is in scordatura (tuning: A,EAe); see X:37 -SW
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Strathspey
+K:A
+%Original was in scordatura tuning: A,EAe; see X:37 -SW
+[V:1] A|A,<A,A,>C (EF/G/)TA>G|TF>EF<A B/A/B/c/ B<c|A,<A,A,>C (EF/G/) Af|(3(ef)d (3(cd)B c<AA:|
+[V:2] z|A2   c2    A2     c2 | d2 D2  e2       z2 |a2   c2    A2     c2|   e2      E2   A2A :|
+[V:1] (e/f/4g/4)|Ta>ga<e c<ea<c|dA (GBBd)|c<ae<a f<aB<d|ceEd  cAA (e/f/4g/4)|
+[V:2]  z        | a2 c'2 a2 a2 |b2 c'2  d'2e2|a2 c'2 d'2z2 |e'2e2 a2z2          |
+[V:1] Ta>ga<e c<ea>c|dA       GE|F<AE<A D<AC>A|B,C/D/ E/C/C/B,/ CA,A,|]
+[V:2]  A2 c2  A2 a2 |[g2b2][a2c'2]e'2z2 |d2 c2  B2 A2 |E2     E2        A2A  |]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72080
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Captain_Patrick_McKenzies_Strathspey_standard_tuning_.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/CaptainPatrickMcKenziesStrathspeyStandardTuning.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

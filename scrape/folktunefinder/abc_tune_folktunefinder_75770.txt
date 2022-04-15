@@ -1,0 +1,36 @@
+X:74
+T:Molenmazurka
+C:Traditioneel (Vlaanderen)
+O:Achtel
+R:Mazurka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+P:Voorspel
+"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"G"G A B| "C"c c z||
+P:A
+!segno!|:"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"C"G A c/>d/|"G"c B z|\
+"G"D/C/ D/E/ F|"G7"F/E/ F/G/ A|"G"B B A/>B/|"C"A G z|
+"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"C"c B c|"Dm"d A2|\
+"Dm"d>c B/A/|"Am"c>B A/G/|[1"G"B>A G/F/|"C"E2z:|[2"G"B>A G/A/4B/4|"C"c c G|
+P:B
+|:"C"c/B/ A/G/ E/G/|"F"A/G/ F/E/ F/G/|"G"B/A/ G/F/ E/F/|"C"A/G/ E/G/ E/G/|\
+"C"c/B/ A/G/ E/G/|"F"A/G/ F/E/ F/G/|[1"G"B/A/ G/F/ E/D/|"C"C z G:|[2"G"B/A/ G/G/ A/B/|"C"c c z||
+P:C
+|:"C"e>e d/e/|"G7"f2 z|"G"d>d c/d/|"C"e2 g|\
+c>B d/c/|"G"B>A G/A/|B>A G/F/|"C"E2 z|
+"C"E>E D/E/|"G7"F2 z|"G"D>D C/D/|"C"E2 G|\
+c>B d/c/|"G"B>A G/A/|[1B>A G/A/4B/4|"C"c c z:|[2B>A G/B/|"C"c c z !D.S.!|]
+S:https://www.folktunefinder.com/tunes/75770
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

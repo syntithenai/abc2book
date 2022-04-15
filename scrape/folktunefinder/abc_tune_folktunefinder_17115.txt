@@ -1,0 +1,27 @@
+X: 1
+T: FAIRY REEL
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.50
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: D
+de \
+| "D"f2fd   f2fd | "A"gfed    cdeg | "D"f2fa "A7"gfed | "A7"cABc "D"d2 :::|
+|: fg \
+| "D"a2a2 "B"b3f | "Em"g2g2 "A"a3g | "D"f2fa "A7"gfed | "A7"cABc "D"defg |
+  "D"a2a2 "B"b3f | "Em"g2g2 "A"a3g | "D"f2fa "A7"gfed | "A7"cABc "D"d2  :|
+S:https://www.folktunefinder.com/tunes/17115
+S:http://trillian.mit.edu/~jc/music/abc/reel/FairyReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FairyReel_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/FairyReel_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

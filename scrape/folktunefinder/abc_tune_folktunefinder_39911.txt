@@ -1,0 +1,45 @@
+X:1
+T:Elle a demand  sa mre
+R:
+O:France
+S:Chansons populaires du Morvan et du Nivernais - Achille Millien, Penavaire, Delerue
+A:Morvan / Nivernais
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=115
+K:Eb
+|: F A G B A G F E | F A G B A G F2 | F A G B A G F2 :|
+|: [M:3/4] G c B A G2 | G c B A G2 :|
+|: [M:4/4] F G A G/ F/ B A G F | F G A G/ F/ A G F2 :| 
+W:Elle a demand  sa mre 
+W:Quand marie elle serait (2x)
+W:Sa mre lui a fait rponse :
+W:"Dans dix ans si vous voulez... (2x)
+W:Dix ans, c'est bien long ! Dix ans, c'est trop long ! (2x)
+W:Dans dix ans, je n'attendrai gure ! Dans dix ans je n'attendrai pas ! (2x)
+W:
+W:Elle a demand  son pre
+W:(...)
+W:Dans cinq ans si vous voulez...(2x)
+W:(...)
+W:
+W:Elle a demand  sa tante
+W:Dans deux ans si vous voulez...
+W:
+W:Elle a demand  son oncle
+W:Dans un an si vous voulez...
+W:
+W:/.../ (soeur/1 mois) (frre/1 jour) (M'sieur l'maire / 1 heure)
+S:https://www.folktunefinder.com/tunes/39911
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

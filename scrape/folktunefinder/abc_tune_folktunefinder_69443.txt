@@ -1,0 +1,27 @@
+X:584
+T: "Aelplers Fruehlingslied"
+N: Z1264
+O: Europa, Mitteleuropa, Tirol
+R: Natur und Welt
+M: 2/4
+L: 1/16
+K: D
+A,2 | A,3A,G,2E,2 | F,2A,2D2
+A,2 | A,2G2E2C2 | D4
+B,4 | A,4C4 | D,4z4
+A,2A,2G,2E,2 | F,2A,2D2A,2 | A,2F2E2C2 | D4
+B,4 | A,4C4 | D,4z4
+E4A,4 | D2F2A4
+E2A,2E4 | F2A,2D4
+E4A,4 | D2F2A4
+G2A,2E4 | D4z2
+S:https://www.folktunefinder.com/tunes/69443
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Niel Gow's Style
+C: Simon Fraser
+R: strathspey
+S: printed MS in Highland Whisky arrangement
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bdor
+a2 \
+| "Bm"fB3 f3e f3B Ba3 | fB3 f3d "A"{fg}a3A Aa3 \
+| "Bm"fB3 f3e "A"{cd}e3c "G"d3B | "A"A3F EA3 CA,3 A,2 :|
+C2 \
+| "Bm"B,3B DB3 FB,3 B,3D | B,3B DB3 "A"AA,3 A,3C \
+| "Bm"B,3B DB3 FB3 {c}d3B | "A"A3F EA3 CA,3 A,2 |]
+C2 \
+| "Bm"B,FB2 DB3 FB,3 B,3D | B,FB2 DB3 "A"AA,3 A,3C \
+| "Bm"B,FB2 D3B F3B {c}d3f | "A"agfe {g}a3e cA3 A2 |]
+S:https://www.folktunefinder.com/tunes/19609
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/NielGowsStyle_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/NielGowsStyle_Bm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

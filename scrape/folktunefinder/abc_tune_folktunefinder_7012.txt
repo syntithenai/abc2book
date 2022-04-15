@@ -1,0 +1,33 @@
+X: 7
+T: Freylachs
+O: German Goldenshteyn v.1#3
+Q: 1/4=142
+M: 2/4
+L: 1/8
+K: Gm
+D/D/ \
+| "D"DE^FG | ABcd | "Cm"e4- | e4 \
+| "D"(^c/=e/)d- dc | ((3d^cB) (3BAG | "Gm"G3 d | ((3d^cB) ((3BAG) |
+| "D"DE^FG | ABcB | A4- | A4 \
+| "D"(^c/=e/)d- dc | ((3d^cB) (3BAG | "Gm"G4- | G3 :|
+d \
+| "Gm"((3^cd=e) ((3dcB) | ((3ABc) ((3BAG) | "Cm"E4- | E3 D/D/ \
+| "D"DE^FG | A4 | "Gm"((3G^FG) ((3BAB) | ((3d^cd) g2 |
+| "Gm"((3^cd=e) ((3dcB) | ((3ABc) ((3BAG) | "Cm"E4- | E3 D/D/ \
+| "D"DE^FG | AB ^FA | "Gm"G4- | G ||
+|: B,C^C \
+| "Gm"D4- | D(D^C=C) | "G7"=B,4- | =B,(B,CD) \
+| "Cm"E4- | EED^C | =C4- | C(C=B,_B,) |
+| "D"A,B,CD | E^FG^G | A4- | A3 d \
+| "D"(^c/=e/)d- dc | ((3d^cB) (3BAG | "Gm"G4- | G :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7012
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GGbook1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

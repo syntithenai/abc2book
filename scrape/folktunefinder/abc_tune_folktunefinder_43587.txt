@@ -1,0 +1,26 @@
+X:120
+T:White Cock-aide
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc4.html
+%%ID:00000dc4
+K:G
+g2|\
+d2(cB) cBAG | B2B2 B2g2 | d2(cB) cBAG | B2A2 A2(GA) |\
+B2B2 cBAG | G2G2 g2(fg) | a2(gf) g2(fe) | d2B2 B2 ::
+(Bc) |\
+d2B2 g2(Bc) | d2B2 B2g2 | d2B2 g2(fg) | a2A2 A2(GA) |\
+B2B2 cBAB | G2G2 g2(fg) | a2(gf) g2(fe) | d2B2 B2 :|
+S:https://www.folktunefinder.com/tunes/43587
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

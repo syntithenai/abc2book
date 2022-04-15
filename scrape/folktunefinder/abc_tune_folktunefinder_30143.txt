@@ -1,0 +1,23 @@
+X:0
+T:The Kilt is My Delight
+G:reel
+S:Logan's Collection
+M:C|
+L:1/8
+Q:1/2=108
+K:D
+% major/mixolydian/dorian pentatonic, D-final CG-gap
+e|A>AA>B A>Bd>f|e>de>f d>BB<e|A>AA>B A>Bd>f|ede>f  d2d:|
+% major/mixolydian hexatonic, D-final C-gap
+e|g2 a>g f2 a>f|e>de>f d>BB<e|g2 a>g f2 a>f|ede>f  d2de|
+  g2 a>g f2 a>f|e>de>f d>BB<e|A>AA>B A>Bd>f|e>de>f d2d|]
+S:https://www.folktunefinder.com/tunes/30143
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

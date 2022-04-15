@@ -1,0 +1,29 @@
+X:46
+T:NEDHILL- Yemon O Knock (Ned of the Hill)
+S:Oswald's Caledonian Pocket Companion, bk. 11, c 1760
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+G|Gd~(c/2B/2)|ce(d/2B/2)|A(c/2B/2) ~A/2G/2|G2G|\
+(G/2B/2)d(c/2B/2)|(E/2c/2)e(d/2B/2)|A(c/2B/2)(A/2G/2)|G2::\
+d|g(f/2e/2)a/2g/2|~f(e/2d/2)(g/2f/2)|~e3/2 d/2 B/2d/2|\
+e3/2 f/2 g|G/2B/2d(c/2B/2)|ce(d/2B/2)|A{c/2}B(A/2G/2|G2::\
+G|(e/2d/2)B(A/2G/2)|c(g/2e/2)(d/2c/2)|A(c/2B/2)(A/2G/2)|\
+A2(b/2a/2)|(g/2e/2)d(b/2a/2)|(g/2e/2)(d/2B/2)(d/2B/2)|\
+A(c/2B/2)(A/2G/2)|G2:|]
+S:https://www.folktunefinder.com/tunes/75435
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/S1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/S1.ABC
+S:http://www.csufresno.edu/folklore/Olson/S1.ABC
+S:http://www.mudcat.org/olson/S1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/S1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

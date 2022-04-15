@@ -1,0 +1,37 @@
+X:851
+T:Atkins Menagerie (Air from). CJF.129
+T:Air from Atkins Menagerie. CJF.129
+M:2/4
+L:1/16
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:I have added the leading d2 to allow the tune to play correctly. The
+N:asterisked note is g2 in MS. - PJH.
+Z:P J Headford 200
+K:G
+d2|">"g4">"^g4|">"a4">"^a4|b2a2g2f2|g2g2g2 Bc|\
+dedc d2g2|b4a4|!^gaga =gfed|g2d'2d'2 Bc|dedc d2g2|
+">"b4">"^g4|a2a2 gfef|g4z2:||:!d'd'|d'2f2g2^g2|\
+aba^g a2 d'd'|d'2f2g2^g2|aba^g a2 d'd'|d'2f2g2^g2|
+a2f2a4|g2g2 e2e2|f4z4|!agfe a2a2|f4.b2(ge)|\
+.a2(fd) .A2(Bc)|dedc d2g2|b4g4|^gaga =gfed|
+g2b2d'2 Bc|dedc d2g2|!b4g4|fac'a gfef|"*"g4z2h:||:\
+"Trio"d2|c'2b2a2g2|!{g}f2e2f2d2|.g2.a2.b2.c'2|d'2c'e' d'2b2|
+.c'2b2a2g2|f2(eg) f2d2|g2(fa) g2(fa)|g4" Da Capo"z2:||
+S:https://www.folktunefinder.com/tunes/1485
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

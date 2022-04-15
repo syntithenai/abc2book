@@ -1,0 +1,26 @@
+X:5530
+T:Scottish  Malochet
+M:C
+N:variation of 38
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006e4.html
+%%ID:000006e4
+K:G
+B2d2D2EF|AGFED4|DEFGA2AB\
+|1 c2BAB2G2:|2 c2BAG4::
+B2BA GFGA|dcBcA4|DEFG A2AB\
+|1c2BAB2G2:|2 c2BAG4:|
+S:https://www.folktunefinder.com/tunes/37185
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

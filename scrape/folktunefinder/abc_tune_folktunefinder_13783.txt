@@ -1,0 +1,25 @@
+X: 1
+T: An' thou wert my only dear
+C:
+R: jig
+B: RSCDS 21-4(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|: "Gm"GDG BGB | dBd g3 |d2e dcB |1 "D7"ABG ^F=ED :|2 "D7"AG^F "B`Gm"G3 ||
+|: "Gm"gfg "Cm"efg | abg "D7"^fed |1 "Cm"efg "Gm"dcB | "D7"ABG ^FED :|2 "Cm"cea "Gm"Bdg | "D7"AG^F "Gm"G3 |]
+S:https://www.folktunefinder.com/tunes/13783
+S:http://trillian.mit.edu/~jc/music/abc/jig/AnThouWertMyOnlyDearJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AnThouWertMyOnlyDearJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AnThouWertMyOnlyDearJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

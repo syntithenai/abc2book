@@ -1,0 +1,28 @@
+X:5050
+T:Rattlin' Roarin' Willie
+M:9/8
+O:Scotland
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a2c.html
+%%ID:00000a2c
+K:A mixolydian
+f|\
+ecA ABA cef| {ef}g2d BGB d2f|\
+ecA ABA ceg| aga c2d e2f/g/|
+aga ecA cef| {ef}g2d BGB d2f|\
+ece f2e fae | cAc B2G A2 :|
+|:f |\
+ecA acA ecA|BGB gdB d2f|\
+ecA acA ecA| {b}agf ecA e2f/g/ |
+{b}agf ecA cef|gfg BGB d2B|\
+ABA c2A cea|cAc BGB A2 |]
+S:https://www.folktunefinder.com/tunes/37089
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

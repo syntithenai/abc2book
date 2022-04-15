@@ -1,0 +1,30 @@
+X: 1
+T: Heilani kotiin
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[| "G"BB GG GG FG \
+| "C"A2 E2 E2 E2 \
+| "Am"AA GG "D7"FF EF \
+| "G"G2 D2 D2 D2 |
+| "G"D2 DD "D7"EE FF \
+| "G"G2 A2 B2 B2 \
+| "G7/F"B2 AB "E7"c2 B2 \
+| "Am"A4 A4 \
+| "D7"A2 GA B2 A2 \
+| "G"G4 G4 |]
+S:https://www.folktunefinder.com/tunes/4299
+S:http://trillian.mit.edu/~jc/music/abc/Finland/HeilaniKotiin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/HeilaniKotiin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/HeilaniKotiin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/HeilaniKotiin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/HeilaniKotiin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/HeilaniKotiin_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

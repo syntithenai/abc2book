@@ -1,0 +1,35 @@
+X: 1
+T: R\^a\^cenica
+%%continueall
+L: 1/8
+M: 7/8
+K: G
+"A"\
+|: "G"D2 G2 G3 | "D"Bc d2- d3 | cd c2 ~B3 | "G"A2 G2- G3 \
+| "C"Bc cd "G"B3 | A2 G2- G3 | GA AB "D"A3 | "G"GF G2- G3 :|
+"B"\
+|: "C"Bc {d}cG edc | "G"~B2 Bd "D"cBA | "G"~B2 Bd "D"cBA | "G"cB AB GAB \
+| "C"~c2 cG edc | "G"~B2 Bd "D"cBA | "G"~B2 Bd "D"cBA | "G"~G2 GD "fine"Gz2 :|
+"C"\
+|: "G"de fg gfe | "D"~f2 ed cdz | ~d2 cd cBA | "G"Bc ~d2 ~d2G \
+|  "G"de fg gfe | "D"~f2 ed cdz | Bc ~d2 cBA |1"G"~B2 BG BBG :|2"G"~B2 BG Bz2 |]
+"D"\
+|::: "D"~d2 cd cBA | Bc d_e ~d2c |  Bc d_e ~d2c | "G"dc BA ~B2G \
+|1-3 "G"dc BA ~B2G :|4"G"dc BA ~Bz2 |]
+   {c}d4- d3- | d4- d3 \
+"E"\
+|: "G"FG cB {c}BAB | cD ~B2 BAG | FG cB {c}BAB | cD ~B2 ~B3 \
+|     FG cB {c}BAB | cD ~B2 BAG | cD ~B2 BAG | ~G2 GD Gz2 :|
+"F"\
+|: "G"cd ~B2 BAG | ~G2 GD GAB | cd ~B2 BAG | "(D)"cd dD dDD \
+|  "G"cd ~B2 BAG | ~G2 GD GAB | cd ~B2 BAG |1 ~G2 GD GDD :|2 ~G2 GD "d.C."Gz2 |]
+S:https://www.folktunefinder.com/tunes/2906
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Rach_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

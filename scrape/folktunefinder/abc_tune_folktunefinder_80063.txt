@@ -1,0 +1,25 @@
+X:4
+T: Herr von Sain
+N: A0367
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie aus einer Pap. Hs. der Stadtbibl. zu Aachen. 16. Jh.
+N: fol. 49. Abgedruckt Dr. L. Lerch, Niederrhein. Jahrb. f. Gesch.
+N: und Kunst. Bonn 1844. II. Bd. S. 341.
+R: Romanze, Ballade, Lied, Personenlied
+M: 2/2
+L: 1/8
+K: D
+D2 | D6D2 | G6A2 | B4A4 | G4z2
+A2 | B6c2 | d6c2 | B3AB2G2 | A4z2
+A2 | A4A4 | B4A4 | G3FD2F2E4 | D4z2
+S:https://www.folktunefinder.com/tunes/80063
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

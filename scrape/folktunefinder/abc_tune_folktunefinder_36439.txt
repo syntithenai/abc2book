@@ -1,0 +1,28 @@
+X:1800
+T:Flat Cap
+A:North-West
+M:3/2
+O:England
+R:Triple Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004ec.html
+%%ID:000004ec
+K:D min
+DEFG A2F2 A4| c2G4C2 EFGE| DEFG ABAF A4| d2A4GF E2D2::
+f2d2 g2e2 f2d2| g2(f2 e2)(d2 c2)A2| f2d2 g2e2 f3e| d2A4GF E2D2::
+fgaf efge fgaf| g2e2 e2c2 efge| defd efge agfe| d2A4GF EFGE::
+F2A2 G2B2 F2A2| c2G4C2 EFGE| F2A2 G2B2 F2A2| d2A4GF EFGE::
+DEFG ABAF ABcd| c2G2 G2C2 EFGE| DEFG ABAF ABAF| ABAF ABAF EFGE::
+DEFG ABcB ABcd| c2G2 G2C2 EFGE| DEFG ABAF ABAF| ABAF ABAF EFGE::
+F2A2 G2B2 F2A2| E2c2 G2C2 EFGE| D2F2 E2G2 F2A2| A,2d2 cAGF EFGE:|
+S:https://www.folktunefinder.com/tunes/36439
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

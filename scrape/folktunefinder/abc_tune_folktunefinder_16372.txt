@@ -1,0 +1,29 @@
+X: 1
+T: Je skull f\^ol ut \aa fria
+R: Boda-polska
+O: efter R\"ojas Jonas, Bruce Sagan
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+W: Je skull f\^ol ut \aa fria i natt bar int je l\aag s\aa ill\^a,
+W: |: \"An l\aag je brett \a \"an l\aag je snett \aa \"an l\aag je mill emill\^a. :|
+M: 3/4
+L: 1/8
+K: DDor
+|: A- \
+|  A>d- "(1)"d-^c d>e | {e}f>a- a-g e2 | {B}~c>e- "(2)"e-c d>B | "(3)"B2 A3 :|
+|: e- \
+|  {fe}f>f- ~f-e f>g | {g}a>a- ~a^c d>e | {e}f>f- ~fe ^c>d | e-f d>-^c A2- |
+|  A>{e}f- f/-g/f/e/ {e}f>g | {g}a>a- ~a^c d>e | {e}f>f- f/-g/f/e/ d>e | ~^c2 {dc}d3 :|
+P:
+|| "(1)"{^c}d/-e/d/c/ || "(2)"e/-g/e/c/ || "(3)"B<-G ||
+S:https://www.folktunefinder.com/tunes/16372
+S:http://trillian.mit.edu/~jc/music/abc/pols/JeSkullFolUtAFria.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/JeSkullFolUtAFria.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

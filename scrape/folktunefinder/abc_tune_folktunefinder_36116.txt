@@ -1,0 +1,25 @@
+X:185
+T:Another Jig Will Do
+M:9/8
+O:Ireland
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000897.html
+%%ID:00000897
+K:D
+ABA A2G F2G | ABA AGF G2E | \
+ABA A2G F2G | A2d d2c d3 :: \
+A2g f2d e2c | A2B =c2B c2B | \
+A2g f2d e2^c | A2d d2c d3 | \
+A2g f2d e2c | A2B =c2B c2^c | \
+d2A A2G F2G | A2d d2c d3 :|
+S:https://www.folktunefinder.com/tunes/36116
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

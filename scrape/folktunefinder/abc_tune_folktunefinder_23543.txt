@@ -1,0 +1,21 @@
+X:3092
+T:John Stetson's #2
+O:england
+M:C
+L:1/8
+K:A
+|: cB | ABcA B2 cB | ABcA BAFA | ABcA B2 ef | edcA BAFA |
+ABcA B2 Bc | ABcA BAFA | d2 dc dfed | cABc A2 :|
+|: cd | edcd edcd | edcA BAFA | edcd edcA | B2 cA BAFA |
+edcd edcd | edcA BAFA | d2 dc dfed | cABc A2 :|
+S:https://www.folktunefinder.com/tunes/23543
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

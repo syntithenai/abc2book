@@ -1,0 +1,26 @@
+X:332
+T: DU BIST WIE EINE BLUME
+N: B0390
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 4/4
+L: 1/8
+K: C
+G,2 | G,3G,G,A,B,C | C4B,2
+B,C | D3B,G,2F,2 | F,2E,2z2
+G,2 | G,3CC2B,2 | ^G,4A,4
+=G,2G,G,B,A,G,F, | E,4z2
+G,2 | G,3G,G,A,B,C | C4B,2
+B,C | D3B,G,2F,2 | F,2E,2z4
+G,2G,G,G,CCB, | ^G,2A,2z2
+ED | G,3G,E2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/78353
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

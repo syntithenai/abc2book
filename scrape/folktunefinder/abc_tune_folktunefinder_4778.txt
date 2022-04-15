@@ -1,0 +1,59 @@
+X: 1
+T: Zigeuner Polka
+R: polka
+O: North Germany
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2/4
+L: 1/16
+K: F
+P: in F:
+|| "F"FGAB c2c=B | c2c=B c2c2 | "Bb"f2f2 e2d2 | "F"d2c2 c4 \
+|| "C7"G2GA B2BA | B2BA B2B2 | d2d2 c2B2 | "F"B2A2 A4 ||
+|| "Bb"f2f2 e2d2 | "F"c8 | "C7"d2d2 c2B2 | "F"A4 \
+||  "Bb"f2f2 e2d2 | "F"c6 Ac | "Bb"d2d2 "C7"c2B2 | "F"A4 ||
+|| {EFG}"F".A2z2  .c2z2 | .A2z2  .c2z2 | "C7"B3A B2c2 | "F"d2c2 c4 \
+|| .A2z2  .c2z2 | .A2z2  .c2z2 | "C7"B3A B2G2 | "F"F8 |]
+P: in Bb:
+K: Bb
+|| "Bb"Bcde f2f=e | f2f=e f2f2 | "Eb"b2b2 a2g2 | "Bb"g2f2 f4 \
+|| "F7"c2cd e2ed | e2ed e2e2 | g2g2 f2e2 | "Bb"e2d2 d4 ||
+|| "Eb"b2b2 a2g2 | "Bb"f8 | "F7"g2g2 f2e2 | "Bb"d4 \
+||  "Eb"b2b2 a2g2 | "Bb"f6 df | "Eb"g2g2 "F7"f2e2 | "Bb"d4 ||
+|| {ABc}"Bb".d2z2  .f2z2 | .d2z2  .f2z2 | "F7"e3d e2f2 | "Bb"g2f2 f4 \
+|| .d2z2  .f2z2 | .d2z2  .f2z2 | "F7"e3d e2c2 | "Bb"B8 |]
+P: Bb instruments:
+P: in G:
+K: G
+|| "G"GABc d2d^c | d2d^c d2d2 | "C"g2g2 f2e2 | "G"e2d2 d4 \
+|| "D7"A2AB c2cB | c2cB c2c2 | e2e2 d2c2 | "G"c2B2 B4 ||
+|| "C"g2g2 f2e2 | "G"d8 | "D7"e2e2 d2c2 | "G"B4 \
+||  "C"g2g2 f2e2 | "G"d6 Bd | "C"e2e2 "D7"d2c2 | "G"B4 ||
+|| {FGA}"G".B2z2  .d2z2 | .B2z2  .d2z2 | "D7"c3B c2d2 | "G"e2d2 d4 \
+|| .B2z2  .d2z2 | .B2z2  .d2z2 | "D7"c3B c2A2 | "G"G8 |]
+P: in C:
+K: C
+|| "C"cdef g2g^f | g2g^f g2g2 | "F"c'2c'2 b2a2 | "C"a2g2 g4 \
+|| "G7"d2de f2fe | f2fe f2f2 | a2a2 g2f2 | "C"f2e2 e4 ||
+|| "F"c'2c'2 b2a2 | "C"g8 | "G7"a2a2 g2f2 | "C"e4 \
+||  "F"c'2c'2 b2a2 | "C"g6 eg | "F"a2a2 "G7"g2f2 | "C"e4 ||
+|| {Bcd}"C".e2z2  .g2z2 | .e2z2  .g2z2 | "G7"f3e f2g2 | "C"a2g2 g4 \
+|| .e2z2  .g2z2 | .e2z2  .g2z2 | "G7"f3e f2d2 | "C"c8 |]
+S:https://www.folktunefinder.com/tunes/4778
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Polka_Zigeuner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZigeunerPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/ZigeunerPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/polka/ZigeunerPolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

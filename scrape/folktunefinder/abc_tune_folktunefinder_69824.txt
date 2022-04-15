@@ -1,0 +1,26 @@
+X:264
+T: IN DER HEIMATH IST ES SCHOEN
+N: F0463
+O: Europa, Mitteleuropa, Deutschland
+R: Heimat - Lied
+M: 3/4
+L: 1/16
+K: G
+B,3C | D6B,2G3F | E8
+E3D | C6B,2C3E | D8
+B,3C | D6B,2G3D | F2E2E4
+E2G2 | F6D2^C2D2E2 | E2D2D3C
+B,3C | D6E2F2G2 | E8
+G3E | E6D2F3A | G8
+G2F2E2 | E3DD4D2F2A2 | G4z4
+S:https://www.folktunefinder.com/tunes/69824
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:425
+T:Earl's Chair
+Z: id:dc-reel-81
+M:C
+L:1/8
+K:D Major
+A|B2dA BAFA|B2dA BAFB|AFF2 DFF2|BAdA BDFA|!
+B2dA BAFA|B2dA BAFB|A3B defd|edef d3:|!
+f|e3f d3f|edef dBA2|e3f d3e|fedB ADFA|!
+e2df eBB2|gBB2 defg|afbf afde|fedB ADF:|!
+S:https://www.folktunefinder.com/tunes/66017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

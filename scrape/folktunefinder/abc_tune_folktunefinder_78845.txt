@@ -1,0 +1,25 @@
+X:404
+T: DER KOENIG VON PREUSSEN HAT LEUT
+N: E0332
+O: Europa, Mitteleuropa, Deutschland, Schweinfurt
+R: historisches Lied, Krieg, Breslau (1760)
+M: 2/4
+L: 1/16
+K: G
+d4 | B2A2G2A2G2F2 | G4z2
+A2 | B2d2c2B2 | A2G2F2E2 | D2E2D2C2 | B,8
+A3AA2A2A2B2 | c8z4
+B3BB2B2B2c2 | d8z4
+A4A3AA2A2 | B8z4
+d4A3AA2A2 | B8
+S:https://www.folktunefinder.com/tunes/78845
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg, breslau (1760)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

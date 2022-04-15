@@ -1,0 +1,27 @@
+X: 51
+T:Eisteddfod Caerfyrddin
+T:Carmarthen Eisteddfod
+M:6/8
+L:1/8
+Q:130
+S:Various sources
+R:Jig
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:G
+GBAG2D|G3GBd|ded dBG|BAAA3|B2AG2D|G3GBd|ded dBG|AGAG3:||!
+G2DG2B|d3def|gfe dcB|BAA ABA|G2DG2B|d3def|gfe dcB|ded cBA:||
+S:https://www.folktunefinder.com/tunes/71868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/CarmarthenEisteddfod_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EisteddfodCaerfyrddin_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/CarmarthenEisteddfod_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EisteddfodCaerfyrddin_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X:862
+T:Xiraldilla (CT 356)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 356
+M:3/8
+L:1/8
+Q:3/8=88
+K:Gm
+|: G G/G/G/G/|G G2|ddd|c c/B/ A|
+ccc|B B/A/ G|BBB|A A/G/F/E/|D3|
+G^FG|(A-A3/2B/4A/4)|G3-|G z2 :||
+W:Debajo del molino,
+W:naci un romero, ler,
+W:naci un romero, ler,
+W:naci un romero, ler, ler,
+W:naci un romero;
+W:
+W:quin fuera enamorada
+W:del molinero, ler,
+W:del molinero, ler,
+W:del molinero, ler, ler,
+W:del molinero.
+W:
+S:https://www.folktunefinder.com/tunes/59749
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

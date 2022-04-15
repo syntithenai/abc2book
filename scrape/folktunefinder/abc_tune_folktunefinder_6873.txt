@@ -1,0 +1,20 @@
+X: 4
+T: Cherkessiya
+O: Ukraine
+Z: John Chambers <jc:trillian.mit.edu>
+N: The chords in parens may be played during the repeats.
+N: Use the G/C lines for C instruments, the A/D for Bb instruments.
+M: 4/4
+L: 1/8
+K: A
+|: "A"[c2A][c2A] "D"[d2A]"A(Fm)"[c2A] | "E(Bm)"[BG][B2G][AE] "E"[BG][cA]"A"[A2E] :|\
+|: "A"[cA][dB][e2c] "E"[BG][B2G][AE] | "E"[BG][cA][d2B] "A"[cA][BG][A2E] :| \
+S:https://www.folktunefinder.com/tunes/6873
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Cherkessiya.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

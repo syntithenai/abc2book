@@ -1,0 +1,24 @@
+X: 1
+T: Killiecrankie
+R: slow march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: DE FG \
+|| "D"A2 AB | A2 AB | AG FG | A2 AB | AG FE | DE FG | A2 AB A2 dc |
+|| "Bm"B2 Bc | B2 Bc | "G"BA FA | B2 Bc | "D"BA FE | DE FA | "G"B2 Bc | B2 b2 |
+|| "G"ba fb | "D"af eg | fe df | "A"e2 de | "Bm"fe dB | BA dF | "D"A2 AB | A2 FA |
+|| "G"B2 AB | d2 Bd | "A"e2 de | "D"f2 fe | dB AF | d2 F2 | "A"E4 :| "D"D4 |]
+S:https://www.folktunefinder.com/tunes/15509
+S:http://trillian.mit.edu/~jc/music/abc/march/Killiecrankie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/Killiecrankie.abc
+% Rhythm Slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

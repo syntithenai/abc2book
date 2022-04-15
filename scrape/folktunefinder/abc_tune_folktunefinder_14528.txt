@@ -1,0 +1,35 @@
+X:1
+T:Old Tipperary
+T:Port Liadroma
+T:Leitrim Jig
+T:The Jolly Banger
+S:Philippe Varlet  irtrad-l 2001-12-3
+B:Breathnach v.1
+N:Jack Coen said that it was named after the _other_ Leitrim,
+N:the parishin Galway where Joe Burke and others played.
+R:Jig
+Z:Gerry Strong
+M:6/8
+L:1/8
+K:G
+d |: cAF ~G3 | ABA ~G3 | cAG GFG | ADE FGd | cAF ~G3 | ABA GBd | fdd edd |1 fdd cAd :|2 fdd cAF |
+|: GBd ~g3 | gaf ~g3 | dgg dgg | a2 g fga | bag agf | gfe f2 e | dcA d2 e |1 fed cAF :|2 fed cAd || "Last Time"fed cAF | G3 ||
+S:https://www.folktunefinder.com/tunes/14528
+S:http://trillian.mit.edu/~jc/music/abc/jig/LeitrimJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldTipperary_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/LeitrimJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OldTipperary_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/JollyBanger_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LeitrimJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/OldTipperary_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PortLiadroma_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

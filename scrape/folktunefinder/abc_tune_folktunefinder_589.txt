@@ -1,0 +1,31 @@
+X: 131
+T:La cambo me fai mau
+T:Li a proun de gent
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:France
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-09-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=100
+K:Bbmaj
+(G2 A^F | G2 zB | AB cA | B2 breathA) |
+(G2 A^F | G2 zB | AB cA | B2) z2 | (d2 cB | 
+c2 zB | AB GA | ^F2 breathD2) | (d2 cB | c2 zB |
+AG ^FG | D2) zz/2(D/2 | G>^F GA | B2 AB | cc BA |
+B2 breathA)(d | G>^F GA | B2 AB | cc BA | G4) |]
+%%footer $D   Galouvielle-MBe 2008 \nNol (France)
+S:https://www.folktunefinder.com/tunes/589
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Nol
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

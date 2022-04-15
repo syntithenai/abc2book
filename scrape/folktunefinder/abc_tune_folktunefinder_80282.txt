@@ -1,0 +1,28 @@
+X:223
+T: Fronleichnam - Gesang
+N: A0576
+O: Europa, Mitteleuropa, Deutschland
+N: Leisentrit I 1567 fol. 207.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: D
+d2 | d2d2=f2f2 | e4d4
+=f4 | e2d4=c2B4 | A4z2
+e2 | =f2f2d2d2 | =c4A4
+c4 | A2G4=F2E4 | D4z2
+D2 | =F2E2F2G2 | A4D4
+d4 | =c3de2=f2e2d2 | =c3BA4
+c4 | A2G4=F2E4 | D6
+S:https://www.folktunefinder.com/tunes/80282
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

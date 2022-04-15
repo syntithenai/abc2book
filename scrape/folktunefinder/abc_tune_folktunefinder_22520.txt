@@ -1,0 +1,27 @@
+X:2069
+T:Frainc a'Phoill's
+T:King of the Pipers, The
+O:england
+R:jig
+D:Paddy Glackin: In Full Spate
+M:6/8
+L:1/8
+K:Dmix
+|:A2D B2D|ABG FED|A2D B2D|GAG GFG|
+A2D B2D|ABG FDB,|CEG cBA|1 GAG GFG:|2 GAG GFE||
+|:dfa afd|ded cAG|FGA cAF|GAG GFE|
+dfa afa|geg fdf|e^cA DFA|GAG GFE:|
+|:~d3 dfd|dAG FED|dfd dAF|GEF GFE|1 dfd ^cec|
+BdB AFD|CEG cBA|GAG GFE:|2 d/e/fd e^cA|B/^c/dB AFD|
+=C/D/EG cBA|GAG GFE|||:dDD cDD|BDD ADD|
+dDD cDD|GAG GFE|dDD cDD|BDD AFD|
+CEG cBA|1 GAG GFE:|2 GAG GFG||
+S:https://www.folktunefinder.com/tunes/22520
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

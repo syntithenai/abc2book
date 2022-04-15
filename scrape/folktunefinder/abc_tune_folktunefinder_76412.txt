@@ -1,0 +1,28 @@
+X:432
+T: Als ich bei meinen Schafen wacht (5-28), S. 48
+N: P0702
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+R: geistliches, religises Lied]
+M: 4/4
+L: 1/8
+K: Bb
+d2 | _d2=d2_c2A2 | _c2_d2=d2
+=e2 | d2_d2_c2A2 | _c2_d2=d2
+_d=d | =ed_d2_c4 | d2_d2_c2B2 | _c4z4
+d4=e4 | _g8 | =e2d2_g2e2 | g4_g4
+g4=e2d2 | _d4=e4 | d2_d2_c2
+S:https://www.folktunefinder.com/tunes/76412
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliches, religises lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

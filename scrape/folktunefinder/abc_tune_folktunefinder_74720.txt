@@ -1,0 +1,25 @@
+X:1561
+T: The Cameronian Reel
+R:reel
+N:"collected from F. O'Neill"
+B:"O'Neill's Dance Music of Ireland, 1512"
+T: siesd camerona.c.
+Z:transcribed by John B. Walsh, walsh@math.ubc.ca 8/23/96
+M:C|
+L:1/8
+K:D
+(dB) "Segno"|{B}A2 FA DAFA|GFEF GBdB|TBAFA DAFA|GBAG FDdB|
+{B}A2 FA DAFA|GFEF GBdB|TBAFA DAFA GBAG FD D2 Hx||
+Addc d2 (cd)|edef gfed|((3cBA) (eA) fAeA|fdef gfed|
+fgaf bage|dfec defg|((3agf) (ge) fdec|dABG FAdB "Segno"||
+S:https://www.folktunefinder.com/tunes/74720
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

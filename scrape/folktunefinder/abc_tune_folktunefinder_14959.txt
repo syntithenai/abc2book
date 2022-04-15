@@ -1,0 +1,30 @@
+X: 1
+T: Red Stockings
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: O'Neill's 1850 #774
+S: handwritten MS (with chords)
+N: First part identical to Saddle the Pony, second part different
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GBA G2B | "D7"def "G"gdB | "G"GBA "Em"G2B | "D7"AFD AFD \
+| "G"GBA G2B | "D7"def "G"gdB | "C"ecA "G"dBG | "D7"cAF "G"G2 :|
+|: c \
+| "G"B/c/de dcB | "D7"def "G"gdc | "G"B/c/de "Em"dBG | "A7"ABG "D7"AFD \
+| "G"B/c/de dcB | "D7"def "G"gdB | "C"ecA "G"dBG | "D7"cAF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14959
+S:http://trillian.mit.edu/~jc/music/abc/jig/RedStockings_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RedStockings_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

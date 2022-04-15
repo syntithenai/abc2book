@@ -1,0 +1,23 @@
+X: 1
+T: 93 Not Out
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:A|d2 d cBA|BdB AFD|GFG AFD|EFG ABC|
+d2 d cBA|BdB AFD|GFG EFG|ABc d2:|
+|c|d2 d fed| cBc ecA|B2 B dcB|AdA FED|
+G2 G BAG|F2 A d3|BAB e2 d|cBA gfe|
+d2 d fed| cBc ecA|B2 B dcB|AdA FED|
+G2 G BAG|Fad fag|fed edc|d5||
+S:https://www.folktunefinder.com/tunes/58577
+S:http://www.thesession.org/tunes/display/4239
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

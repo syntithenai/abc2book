@@ -1,0 +1,25 @@
+X: 1
+T: WIND THAT SHAKES THE BARLEY
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.120
+M: 2/4
+L: 1/8
+Q: 1/4=112
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1,3 "G"gfed B2d2 \
+                                             :|2,4 "G"gfed Bcd2 :|
+|: "D"f2fd "A"g2ge | "D"f2fd "A"ecBA | "D"f2fd "A"g2ge | "D"afed "G"B2"D"d2 \
+   "D"f2fd "A"g2ge | "D"f2fd "A"edcA | "D"defg afba | "D"gfed "G"B2"D"d2 :|
+S:https://www.folktunefinder.com/tunes/18317
+S:http://trillian.mit.edu/~jc/music/abc/reel/WindThatShakesTheBarley_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/WindThatShakesTheBarley_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WindThatShakesTheBarley_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

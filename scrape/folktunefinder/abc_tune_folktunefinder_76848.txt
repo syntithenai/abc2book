@@ -1,0 +1,23 @@
+X:363
+T: SPIELT MIR MAL DIE SIEBEN SPRUENGE
+N: E0992A
+O: Europa, Mitteleuropa, Deutschland, Uckermark, Grenzow
+R: Tanz - Lied, Reigen, Siebensprung
+M: 2/4
+L: 1/8
+K: G
+ | GBdB | cABG
+GBdB | cAG2
+AAAA | AFD2
+AAAA | AFD
+d | B3d | B4
+S:https://www.folktunefinder.com/tunes/76848
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, siebensprung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

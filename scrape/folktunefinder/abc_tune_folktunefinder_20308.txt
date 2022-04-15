@@ -1,0 +1,27 @@
+X: 1
+T: Vieni sul mar
+O: trad Italy
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+D2 \
+| "D"F2 F2 F2 | "A7"E2 D2 E2 | "D"D6- | D2 z2 z2 \
+| "G"d4 d2 | B2 G2 B2 | "D"A6- | A2 z2 z2 |
+| "Bm"d2 B2 d2 | "Fm"c2 A2 c2 | "G"B2 G2 B2 | "D"A4 D2 \
+| "E7"F2 F2 F2 | "A7"G2 E2 C2 | "D"D6- | D2 z3 F ||
+|| "D"FE DC DE | FE DC DE | FF B3 A | "A7"G2 C2 C2 \
+| E3 DCD  | E3 DCD | EE A3 G | "D"F2 D2 D2 |
+| "D"FE DC DE | FE DC DE | FF B3 A | "A7"G2 C2 A2 \
+| [c4G4] B2 | A2 G2 E2 | "D"D2 [d3F3] [dF] | [d2F2] z2 |]
+S:https://www.folktunefinder.com/tunes/20308
+S:http://trillian.mit.edu/~jc/music/abc/waltz/VieniSulMar_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/waltz/VieniSulMar_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

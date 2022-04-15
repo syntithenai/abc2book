@@ -1,0 +1,30 @@
+X:0
+T:The Hexatonic Scales based on A
+L:1/4
+M:9/4
+K:A
+"^Lydian/Major Hexatonic"       A2 Bc efg a2|a2 gf ecB A2||
+M:9/4
+K:A
+"^Major/Mixolydian Hexatonic"   A2 Bc def a2|a2 fe dcB A2||
+M:9/4
+K:ADor
+"^Mixolydian/Dorian Hexatonic"  A2 Bd efg a2|a2 gf edB A2||
+M:9/4
+K:AMin
+"^Dorian/Minor Hexatonic"       A2 Bc deg a2|a2 ge dcB A2||
+M:9/4
+K:AMin
+"^Minor/Phrygian Hexatonic"     A2 cd efg a2|a2 gf edc A2|]
+S:https://www.folktunefinder.com/tunes/30093
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: DA WATTLE O'T
+O: trad Shetland
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+B: Tom Anderson "Ringing Strings" p.53
+M: C|
+L: 1/8
+K: D
+de \
+|  f2fd g2ge | f(ffd) fa-a2 | gefd e(cd2) |1A(FDF) Ad :|2 A(FDF) Ad-d2 ||
+[| A(ddc) d2(df) | efed efg2 | fedc d2(FG) | A(GFG) Ad-d2 |
+| [e2A2][e2A2] [D3G,3]f | e(dcd) efg2 | (fe)dc d2(FG) | A(GFG) Ad |]
+S:https://www.folktunefinder.com/tunes/16992
+S:http://trillian.mit.edu/~jc/music/abc/reel/DaWattleOt_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DaWattleOt_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/DaWattleOt_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Unger Polka
+C: Barbara McOwen (Feb 1988)
+R: polka
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2g2 g2fg | "D"a2A2 A3B \
+| "D"cBcd e^def | "G"e2d2 d2Bc \
+| "G"d2g2 g2fg | "C"c2a2 "A7"a2g |
+|1 "D7"fede fdfa | "G"g4 g2 \
+:|2"D7"fede dcBA | "G"G6 \
+|: z2 \
+| "G"DGBG ADA2 | "G"DGBD "D7"c4 \
+| "D7"DFAD GDA2 |
+| DFAD "G"B4 \
+| "G"DGBD ADB2 | "C"cBcd "A7"e3g \
+|1 "D7"fede dcBA | "G"G6 \
+:|2"D7"fede fdfa | "G"g6 |]
+S:https://www.folktunefinder.com/tunes/16254
+S:http://trillian.mit.edu/~jc/music/abc/polka/UngerPolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/UngerPolka_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

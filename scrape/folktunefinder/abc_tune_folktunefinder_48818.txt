@@ -1,0 +1,26 @@
+X:70
+T:Ballet 268
+C:Michael Praetorius
+L:1/8
+M:4/4
+O:Germany
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d91.html
+%%ID:00000d91
+K:G
+B2|B3c B2A2|G3F G2AB|c2B2A2G2|A6Bc|
+d4d2c2|B2AB G2AB|c2B2AG A2|G6:|
+K:F
+|:d2|d3c Bc d2|c3B AB c2|B3A GABG|AG^FE D2d2|
+d3_e dcBd|c3d cB Ac|B2cB AG A2|G6:|
+S:https://www.folktunefinder.com/tunes/48818
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

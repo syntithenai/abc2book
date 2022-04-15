@@ -1,0 +1,25 @@
+X:139
+T: Alte Kuckukslieder (Kuckuks Noth)
+N: A0170C
+O: Europa, Mitteleuropa, Deutschland
+N: Aus Fragmenten in Schmeltzels neuntem Quodlibet (1544) von mir
+N: zusammengefuegt. Anders und ohne alle musikalische Ruecksicht
+N: von Uhland No. 14 zusammengesetzt.
+R: Romanze, Ballade, Lied
+M: 3/4
+L: 1/4
+K: F
+F | GGG | D2F | ED2 | C2z
+C | FCFG | A2GG | AAGG | A2G
+G | F2A2 | cAcA | cAcA | B2G2 | F3
+S:https://www.folktunefinder.com/tunes/68685
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

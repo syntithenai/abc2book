@@ -1,0 +1,262 @@
+X: 1
+T: Scand Hambos p.1
+K: C
+%
+[K:G]\
+[L:1/8]\
+[|"\AA Jenta \aa ja"B2 A>B G2 | B2 A>B G2 | A2 A>G F>G |]\
+[K:G]\
+[L:1/8]\
+[|"Algot och Beda"d2 d2 d2 | d/c/B/c/ d3 d | d>g B>d G>B |]\
+[K:G]\
+[L:1/8]\
+[|"Alla lopper ..."B>c d2 e>d | ((3BcB) G4 | B>c d2 e>d |]\
+[K:Dm]\
+[L:1/8]\
+[|"\"Appelbost\"amma polska"f>e d^c d>f | e>^c A4 |  A>G FE D>^C |]
+P:
+[K:G]\
+[L:1/8]\
+[|"B\aatsman D\"ack"D>G B>G D>G | .B2 B4 | c>B A>G F>G |]\
+[K:G]\
+[L:1/8]\
+[|"B\aatsman D\"ack"D>G B>G D>G | Bz B4 | c>B A>G F>G |]\
+[K:G]\
+[L:1/8]\
+[|"B\aatsman D\"ack"D>G B>G D>G | Bz B4 | c>B A>G F>G |]\
+[K:D]\
+[L:1/8]\
+[|"Hambo efter Bengt Jonsson"a>b a2- a>g | f>e d>A F>A |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Hambo efter Bengt Jonsson"z2  (B>d) g>(B d)>c | (B>d) g>(B d)>B |]\
+[K:D]\
+[L:1/8]\
+[|"Byt om fot - Hambopolska"D2 E2 F2 | A>B A<G F>A | D2 G2 A2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Du r s vacker fr mina gon"A, A,>A, | E2 E>E c>B | A2 E>F G>F |]\
+[K:Am]\
+[L:1/8]\
+[|"Du r s vacker fr mina gon"A, A,>A, | E2 E>E c>B | A2 E>F G>F |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Furuboms polska"A2 A>B c>d | e4 c2 | B2 B>d c>B |]\
+[K:G]\
+[L:1/8]\
+[|"Grav-Ellas Hambo"D2 G>A B>G | E2 A>B c>A | FA d>e d>B |]\
+[K:A]\
+[L:1/8]\
+[|"H\aarga dur"e2 ef e>d | d>c c2 A>c | c>B B>E G>B |]\
+[K:A]\
+[L:1/8]\
+[|"H\aarga dur"[e2c2] [ec][fd] [ec]>[dB] | [dB]>[cA] [c2A2] [AE]>[cA] | [cA]>[BG] [BG]>E [GE]>[BD] |]
+P:
+[K:Gm]\
+[L:1/8]\
+[|"H\aargal\aaten"d2 d>e d>c | c>B B>D G>B |]\
+[K:Am]\
+[L:1/8]\
+[|"H\aargal\aaten"e2 e>f e>d | d>c c>E A>c |]\
+[K:Gm]\
+[L:1/8]\
+[|"H\aargal\aaten"d2 d>e d>c | c>B B>D G>B |]\
+[K:F]\
+[L:1/8]\
+[|"H\aalln\"aspolskan"C | F>A c2 A>F | E>G c2 c2 |1,3 E>G c2 G>A |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Hambo efter Kalle Alml\"of"f2 f>e d>B | A>B A>G F>A |]\
+[K:D]\
+[L:1/8]\
+[|"Hambo efter Tomas Andersson"e | f2 fd e>f | g2 gd c>B |]\
+[K:G]\
+[L:1/8]\
+[|"Hambo i G"(D | G)>B d2- dB | (c/d/)c/B/ A2- A(D |]\
+[K:Dm]\
+[L:1/16]\
+[|"Hambo med bakmes fr\aan Hede"f2gf e4 d4 | ^c2Ac d4 (e2g2) |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Hambo med bakmes fr\aan Hede"fg/f/ e2 d2 | ^cA/c/ d2 (eg) |]\
+[K:Dm]\
+[L:1/8]\
+[|"Hambo med bakmes fr\aan Hede"fg/f/ e2 d2 | ^cA/c/ d2 (eg) |]\
+[K:G]\
+[L:1/8]\
+[|"Hambo p Logen"D2 D<E D>C | B,2 D>G B2 | G2 G<A G>E |]\
+[K:G]\
+[L:1/8]\
+[|"Hambo p\aa Logen"D2 D<E D>C | B,2 D>G B2 | G2 G<A G>E |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Hambo efter Kalle Alml\"of"f2 f>e d>B | A>B A>G F>A |]\
+[K:D]\
+[L:1/8]\
+[|"Hambopolska fran Hede"a2 (f>g) e>f | d2 A>f e2 | a2 A2 c>e |]\
+[K:D]\
+[L:1/8]\
+[|"Polska fran Hede"a2 (f>g) e>f | d2 A>f e2 | a2 A2 c>e |]\
+[K:D]\
+[L:1/8]\
+[|"Polska fran Hede"a>(f- f>g) e>f | d>A- A>f e2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Ingrid Dardels polska"F>G A2>>G2 | F>G A4 | G>A B2>>A2 |]\
+[K:D]\
+[L:1/8]\
+[|"JC's Hambo"D2 D>E F>G | A2 A>G F>G | A>G A>B c>d |]\
+[K:D]\
+[L:1/8]\
+[|"JC's Hambo"D2 D>E F>G | A2 A>G F>G | A>G A>B c>d |]\
+[K:D]\
+[L:1/8]\
+[|"Karis Pers Polska"A2 AB A>G | G2 FD F>A | d2 de d>c |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Karis Pers Polska"A2 AB A>G | G2 FD F>A | d2 de d>c |]\
+[K:D]\
+[L:1/8]\
+[|"Karis Pers Polska"A2 AB A>G | G2 FD F>A | d2 de d>c |]\
+[K:D]\
+[L:1/8]\
+[|"Karis Pers Polska"A2 AB A>G | G2 FD F>A | d2 de d>c |]\
+[K:E]\
+[L:1/8]\
+[|"Karis Pers Polska"B2 Bc B>A | A2 GE G>B | e2 ef e>d |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Karis Pers Polska"A2 AB A>G | G2 FD F>A | d2 de d>c |]\
+[K:E]\
+[L:1/8]\
+[|"Karis Pers Polska"B2 Bc B>A | A2 GE G>B | e2 ef e>d |]\
+[K:G]\
+[L:1/8]\
+[|"Kristian Oskarssons hambo-masurka"(3dBd gB d2 | (3cBc ec A>G |]\
+[K:D]\
+[L:1/8]\
+[|"Hambo-masurka"D>F A2 A>G | F>A d4 | f>e d>c B>_B |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Hambo-masurka"A2 | D>F A2 A>G | F>A d4 | f>e d>c B>_B |]\
+[K:D]\
+[L:1/8]\
+[|"Leap Year Hambo"A>F D>F A>d | ~B2 A>F D>F |]\
+[K:D]\
+[L:1/8]\
+[|"Leap Year Hambo"A>F D>F A>d | ~B2 A>F D>F |]\
+[K:G]\
+[L:1/8]\
+[|"M\"alar\"opojken - Hambo fr\aan Arbr\aa"d/^c/d/ ed/ BG/ | DB,/ G,B, DG/ |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Marknads hambo-masurka"d>g b2 a2 | ae c2 A2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Midnight Sun"[dA]>D- D>E F>A | B>A B>f e>d |]\
+[K:G]\
+[L:1/8]\
+[|"M\"olja"D | G>B d3 B | c/d/c/B/ A3 D |]\
+[K:Dm]\
+[L:1/8]\
+[|"Mora polskan"A2 A^G A>^c | d2 d^c d>e |[1,3 f2 fe d^c/d/ |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Polska efter Bagg Lars Johansson, J\"arna"B>c d>B G>B | A>B c>A F2 |]\
+[K:G]\
+[L:1/8]\
+[|"Polska efter Bagg Lars Johansson, J\"arna"B>c d>B G>B | A>B c>A F2 |]\
+[K:G]\
+[L:1/16]\
+[|"Polska efter Johan August Andersson"d3c B3c d3g | b3g d3c B3c |]\
+[K:Gdor]\
+[L:1/8]\
+[|"Skunk on a Roll"G>A B2 B2 | A/B/A/G/ ^F2- F(E |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Spel-Gulles polska"d2 d^c d>e | f2 fe (3d^cd |]\
+[K:C]\
+[L:1/8]\
+[|"Spelvilles Hambo"e2 e>d c>A | G2 G<E G>c | e2 e>d c>B |]\
+[K:Dm]\
+[L:1/8]\
+[|"Starkens Polska"D2 D>E F>G | A>^c d2 f2 | f>e e<^c A>c |]\
+[K:Dm]\
+[L:1/16]\
+[|"Starkens Polska"[D4D] [D3D][E^C] [F3D][GE] | [A3F][^cG] [d4A] [f4d] | [f3d][e^c] [e2c][c2A] [A3E][cA] |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Tierpspolskan"G2 (BD) G>B | c2 (ec) A>G | F2 (AD) F>A |]\
+[K:C]\
+[L:1/8]\
+[|"Tiveds Hambo"G2 | g>g ^f>a g2 | e>e ^d>f e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Tiveds Hambo"A2 | a>a ^g>b a2 | f>f ^e>g f2 |]\
+[K:F]\
+[L:1/8]\
+[|"Tobogubben"(c>a) (ac) f>g | f2 (eB) d>d |]
+P:
+[K:F]\
+[L:1/8]\
+[|"Tobogubben"c>(a- a>c) f>g | f>e- e>B d2 |]\
+[K:F]\
+[L:1/8]\
+[|"Tobogubben - Hambopolska"(c>a) (ac) f>g | f2 (eB) d>d |]\
+[K:Dm]\
+[L:1/8]\
+[|"Tr\onderpolska"a2 | a>g e>f g>e | f>e d>e f>d |]\
+[K:D]\
+[L:1/8]\
+[|"Uppsalapolskan"(a>b) (ag) f>e | (3(dcd) e2>>f2 |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"V\aarvindar friska"D2 D>-E D>E | F2 F>-G F>G | A2 A>-G E>F |]\
+[K:G]\
+[L:1/8]\
+[|"Vendelspolskan"B2 G>B d>B | d>c A>c e>d |]\
+[K:A]\
+[L:1/8]\
+[|"Vendelspolskan"c2 A>c e>c | e>d B>d f>e |]\
+[K:G]\
+[L:1/8]\
+[|"Vendelspolskan"B2 G>B d>B | d>c A>c e>d |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Vendelspolskan"c2 A>c e>c | e>d B>d f>e |]\
+[K:G]\
+[L:1/8]\
+[|"Vendelspolskan"B2 G>B d>B | d>c A>c e>d |]\
+[K:G]\
+[L:1/8]\
+[|"Wiggerts polska"g2 B2 c>A | G>F G>B d2 | c>B c>g e>c |]\
+y8 y8 y8 y8 y8 y8\
+S:https://www.folktunefinder.com/tunes/9478
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo_incip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key F
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

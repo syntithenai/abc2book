@@ -1,0 +1,24 @@
+X:676
+T: "Das Wunder"
+N: Z1357
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Kinder - Lied
+M: 2/4
+L: 1/16
+K: C
+ | c2G2G2G2 | G3FE2
+G2 | A2B2c2A2 | A4G4
+c2G2G2G2 | G3FE2
+G2 | A2G2F2E2 | E4D4
+G2G2G4 | c2c2c4
+A2ddc2B2 | B4c4
+S:https://www.folktunefinder.com/tunes/69535
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

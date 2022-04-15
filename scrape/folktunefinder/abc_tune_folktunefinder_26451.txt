@@ -1,0 +1,28 @@
+X:5999
+T:Sherwood_Forest-N
+O:England
+M: 3/4
+L: 1/8
+Q:1/4=180
+K:F
+V:1
+%Accordion
+%%MIDI program 21
+%%MIDI program 21
+[d-D,D,,]d|[d/2-F,/2D,/2A,,/2]d3/2-[d/2-F,/2D,/2A,,/2]d/2 c[e-A,A,,]e-|[e/2-E/2A,/2]e3/2-[e/2-E/2A,/2]e3/2[d-D,D,,]d|[d/2-F,/2D,/2A,,/2]d3/2-[d/2-F,/2D,/2A,,/2]d/2 c[A-A,A,,]A-|[A/2-E/2A,/2]A3/2-[A/2-E/2A,/2]A3/2[d-D,D,,]d|
+[d/2-F,/2D,/2A,,/2]d3/2-[d/2-F,/2D,/2A,,/2]d/2 c[e-A,A,,]e-|[e/2-E/2A,/2]e3/2-[e/2-E/2A,/2]e3/2[d-D,D,,]d|[d/2-F,/2D,/2A,,/2]d3/2-[d/2-F,/2D,/2A,,/2]d/2 c[A-A,A,,]A-|[A/2-E/2A,/2]A3/2-[A/2-E/2A,/2]A3/2[A-A,A,,]A|
+[d/2-F,/2D,/2A,,/2]d3/2[e/2-F,/2D,/2A,,/2]e3/2[f-F,F,,]f-|[f/2-F,/2C,/2]f3/2[f/2-F,/2C,/2]f3/2[e-C,C,,]e-|[e/2-C,/2G,,/2]e/2d[e/2-C,/2G,,/2]e/2 f[e-A,A,,]e-|[e/2-E/2A,/2]e3/2-[e/2-E/2A,/2]e3/2[f-D,D,,]f|
+[f/2-F,/2D,/2A,,/2]f3/2-[fC,C,,] f[f-B,B,,]f-|[f/2-F/2B,/2]f3/2[d/2-F/2B,/2]d3/2[c-C,C,,]c-|[c/2-C,/2G,,/2]c3/2[e/2-C,/2G,,/2]e3/2[d-D,D,,]d-|[d/2-F,/2D,/2A,,/2]d3/2-[d/2-F,/2D,/2A,,/2]
+%\0xc0 Nantes, \0xe0 Nantes - Chanson de Marin - Michel Tonnerre
+% input file Sherwood_Forest-N[1].mid
+% format 1 file 3 tracks
+S:https://www.folktunefinder.com/tunes/26451
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:368
+T: ICH GEH AUF DIE KIRCHMESS
+N: E0995
+O: Europa, Mitteleuropa, Deutschland, Meiningerland, Vachdorf
+R: Tanz - Lied, Reigen, Kirmes
+M: 6/8
+L: 1/8
+K: C
+G, | CCCDDD | EEED2
+G, | G,G,A,B,2D | CA,^F,G,2
+G, | G,G,A,B,B,C | DDED2
+G, | G,G,A,B,B,C | DDED2
+G | EzEDzD | C2EG2
+G | EzEDzD | Cz4
+S:https://www.folktunefinder.com/tunes/76853
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, kirmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

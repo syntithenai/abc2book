@@ -1,0 +1,23 @@
+X:1409
+T:Da Ferry Reel
+O:England
+M:4/4
+L:1/8
+Q:1/4=
+K:D
+V:1
+A|"D" d2 d(A d2) d2 |"A" ef ed c2 A2 |"G" (Bc) dB "D" (AB) A(F |
+"Em" G2) E2 E3 (A|"D" d2) d(A d2) d2 |"A" ef ed c2 A2 |"G" (Bc) dB "A" (AG) FE |
+"D" D2 d2 d2 z:| |:(e |"D" f2) f(d fa f)(d |fg) a(g fe) d(f |
+"A" e2) e(c e2) e(c |ef) e(d cA) A(g |"D" f2) f(d fa) f(d |fg) a(g fe) d(f |
+"Em" ef) g(f "A" ed) cB |"D" A2 d2 d2 z:|
+S:https://www.folktunefinder.com/tunes/21858
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

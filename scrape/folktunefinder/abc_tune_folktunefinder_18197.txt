@@ -1,0 +1,21 @@
+X:1
+T:The Tarbolton Reel
+M:4/4
+L:1/8
+K:EDor
+D \
+| "Em"Eeed e2BA | "Em"GBAF "A7"GFEF | "D"Dddc d2AF | "A7"GBAG "D"FDDF | 
+| "Em"Eeed efge | "D"fedf edBA | "G"GABG "D"FGA=c | "B7"BGAF "Em"GEE :| 
+z \
+| "Em"g2ef    gebe | "Em"gebe "A7"gfef | "D"d2fd    Adfd | "A7"ABAG  "D"FDDF | 
+|  "G"G2BG "D"FGAF | "Em"Eeef     gfed | "G"B2dB "D"AGFA | "B7"BGAF "Em"GEE :|
+S:https://www.folktunefinder.com/tunes/18197
+S:http://trillian.mit.edu/~jc/music/abc/reel/TarboltonReel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TarboltonReel_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

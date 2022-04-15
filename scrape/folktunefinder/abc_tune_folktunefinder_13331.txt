@@ -1,0 +1,25 @@
+X: 1
+T: Skye Boat Song
+T: Over the Sea to Skye
+T: Arran Boat Song
+L: 1/8
+M: 3/4
+K: G
+|: "G"D>ED | G2G | "Am"A>BA | "D7"d3 \
+| "G"B>AB | "C"E2E | "G"D3- | "D7"D3 :|
+|: "Em"B>GB | B3 | "Am"A>EA | A3 \
+| "Em"G>EG | "Am"G2G | "Em"E3- |1 E3 :|2 "D7"F2E ||
+"Last time"\
+|: "G"D>ED | G2G | "Am"A>BA | "D7"d3 | "G"B>AB \
+|1 "C"E2E | "G"D3- | "D7"D3 \
+:|2 "C"E2"D"F | "G"G3- | G3 |]
+S:https://www.folktunefinder.com/tunes/13331
+S:http://trillian.mit.edu/~jc/music/abc/air/SkyeBoatSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/SkyeBoatSong_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/SkyeBoatSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/SkyeBoatSong_G.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+P: John Anderson's Reel
+C: Bobby Frew
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+   E2 \
+| "A"A2Ac "E7"B2Bd | "A"ceag aece | "D"d2fd "A"c2ec | "B7"Be^df "E7"e=dcB |
+| "A"A2Ac "E7"B2Bd | "A"ceag aece | "D"dfed "A"cedc | "E7"BdcB "A"A2 :|
+|: cd \
+| "A"e2ef edcB | "A"ABcd e2dc | "D"d2de "Bm"dcBA | "E7"GABc d2cd |
+| "A"e2ef edcB | "F#m"ABcd e2cA | "Bm"dfed "A"cedc | "E7"BdcB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/9875
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AndersonsRant0.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AndersonsRant1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

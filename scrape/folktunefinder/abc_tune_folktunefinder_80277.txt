@@ -1,0 +1,34 @@
+X:218
+T: Gesang zu Bittfahrten
+N: A0569A
+O: Europa, Mitteleuropa, Deutschland
+N: Behe Kath. Gsgb 1537 fol. 47.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: F
+ |  | c2c2d2e2 | f2f2e2
+d2 | f2c2A2B2 | A4G4F4
+c2c2d2e2 | f2f2e2
+d2 | f2c2A2B2 | A4G4F4
+A2c2A2F2 | A2B2c2z
+c | c2f2e2d2 | e4d4c2z
+c | c2f2e2d2 | edcBA2z
+A | G2A2c3B | A4G4F4
+A2c2A2F2 | A2B2c2z
+c | c2f2e2d2 | e4d4c2z
+c | c2f2e2d2 | edcBA2z
+A | G2A2c3B | A4G4F4
+FFG2A4 | FFG2A2z
+A | c3BA2B2 | A2G2F4
+S:https://www.folktunefinder.com/tunes/80277
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

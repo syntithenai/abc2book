@@ -1,0 +1,30 @@
+X: 1
+T: Mrs. Jean Austin
+C: Muriel Johnstone
+R: reel
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: F2 \
+| "D"A,DFA "A7"f3e | "G"d2cB "D"A2D2 | "G"B2G,2 "D"A,DFA | "Em"GFED "A7"E2F2 |
+| "D"A,DFA "A7"f3e | "G"d2cB "D"A2D2 | "G"B2G,2 "A7"A,2B,C | "G"D4 "D"D2 :|
+fg \
+| "D"afba "A7"gecA | "D"dD D>E "D7"F2ED | "G"B2G,2 "D"A,DFA | "Em"GFED "A7"E2 ||
+fg \
+| "D"afba "A7"gecA | "D"dD D>E "D7"F2ED | "G"B2G,2 "A7"A,2B,C | "G"D4 "D"D2 ||
+fg \
+| "D"afba "A7"gecA | "D"dD D>E "D7"F2ED | "G"B3d "D/F#"A3d | "Em"G2FE "A7"DCB,A, |
+| "D"A,DFA "F#7"f3e | "Bm"d2cB "D"A2D2 | "G"B2g2 "A7"fage | "G"d4 "D"d2 |]
+S:https://www.folktunefinder.com/tunes/17728
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrsJeanAustin_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MrsJeanAustin_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MrsJeanAustin_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

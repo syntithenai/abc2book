@@ -1,0 +1,24 @@
+X:1945
+% The song with calculated Accords
+T:Paidin O'Raifearta's
+O:ireland
+R:jig
+D:Sharon Shannon
+Z:id:hn-jig-273
+M:6/8
+K:A
+"E"EAc EAd|"E"EAc BAF|"E"EAc EAd|"A"cBA ~F3|
+"E"EAc EAd|"A"~c3 efg|"A"aec BAB|1"A" cAA AGF:|2"A" cAA Acd||
+|:"E"~e3 fdf|"E"~e3 ecd|"E"~e3 fga|"A"~A3 AFE|
+"E"~e3 fdf|"E"~e3 efg|"A"aec BAB|1"A" cAA Acd:|2"A" cAA AGF||
+S:https://www.folktunefinder.com/tunes/42534
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

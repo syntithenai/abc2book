@@ -1,0 +1,26 @@
+X:68
+T: Der Schreiber im Garten
+N: A0071
+O: Europa, Mitteleuropa, Deutschland
+N: Jonisch, Anfang dorisch. Melodie aus dem 15. Jh., mitgeteilt in
+N: durch None im Anzeiger VI(1837) Beilage II No. 5.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+D2 | F2F2G2G2 | A2A2A2
+A2 | G2A2B2B2 | A2A2G2
+G2 | A2A2F2F2 | E2D2C4
+E2F2E2D2 | G2A2B2
+B2 | A2GFE2G2 | BAG2F2
+S:https://www.folktunefinder.com/tunes/68614
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

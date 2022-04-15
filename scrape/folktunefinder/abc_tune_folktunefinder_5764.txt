@@ -1,0 +1,24 @@
+X: 2
+M: 4/4
+L: 1/16
+P: Koster Choad #1 (in D)
+Z: John Chambers <jc@trillian.mit.edu>
+Z: from Steve Gruverman's revision of Tom Pixton's transcription
+K: D
+|: "^D/A drone"FF \
+| F3E D3F E3D E3F | G3F E3D A6 FF \
+| F3E D3F E3D E3F | G3F E3F D6 :|
+|: dd \
+| d4 B3c B3A E4 | F3G A3B A3G F3D \
+| E3F GAGF E3D F4 | E3D F3E D6 :|
+%%sep 3 1 400
+S:https://www.folktunefinder.com/tunes/5764
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KosterChoad1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

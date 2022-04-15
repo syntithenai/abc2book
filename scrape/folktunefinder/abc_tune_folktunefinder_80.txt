@@ -1,0 +1,19 @@
+X:102
+T:Shandon Bells (A2, B2, AB)
+O:Ireland
+M:6/8
+K:D
+%P:A
+B|"D"AFD DFA|"D"ded "A"cBA|"Em"BGE EGA|"Em"B2A "A7"Bcd|"D"AFD DFA|
+"D"ded "A"cBA|"Em"Bcd "A7"ecA|"D"(d3 d2)::\
+%P:B
+g|"D"f2(d d)ed|"D"faa afd|
+"A"cAA eAA|"A"cBc "A7"efg|"D"f2(d d)ed|"D"faa afd|"G"Bcd "A7"ecA|"D"(d3 d2):|
+S:https://www.folktunefinder.com/tunes/80
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

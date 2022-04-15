@@ -1,0 +1,30 @@
+X:270
+T: KOMM DU BLANKER WEIHEDEGEN
+N: F0469A
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Burschenschafts - Lied
+M: 2/4
+L: 1/16
+K: C
+ | C6DB, | C6DB, | DCB,A,G,2F,2 | E,4z2
+E,C, | G,2G,2G,B,B,D | D2C2z2
+A,C | CB,CA,G,2B,A, | G,4z4
+C6DB, | C6DB, | DCB,A,G,2F,2 | E,4z2
+E,C, | G,2G,2G,B,B,D | D2C2z2
+A,C | CB,CA,G,2B,A, | G,4z2
+G,G, | C3G,F,E,D,C, | C,A,A,2z2
+A,A, | D3A,G,^F,E,D, | B,4z2
+G,G, | C3G,F,E,D,C, | A,2
+A,B,CA,G,F, | E,4D,4 | C,2
+EEEEEE | D8 | E2
+EEEEEE | D8 | C4z4
+S:https://www.folktunefinder.com/tunes/69830
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, burschenschafts - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

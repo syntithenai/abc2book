@@ -1,0 +1,20 @@
+X: 17
+T:Dummy Head
+M:6/8
+L:1/8
+K:G
+"G"Bc^c "D"def | "G"gdb g3 | "D"aba e2 f | "G"gba g2 d | "G"Bc^c  "D"def
+ | "G"gdb g3 | "D"aba e2 f
+|"G" g6 :||
+"C"e3 c'3 | "G"bgd Bdg | "D"a2 f fef |"G"gbg g3 | "C"e3 c'3 | "G"bgd Bdg
+ | "D"a2 f fef |"G"bgb
+ g3 :||
+S:https://www.folktunefinder.com/tunes/51952
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

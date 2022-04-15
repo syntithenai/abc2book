@@ -1,0 +1,26 @@
+X:194
+%%topmargin 3cm
+T:Lady MacKenzie of Seaforth
+C:Pipe tune
+O:Scotland
+N:I broke apart the (dotted 8th / 16th)  (32nd / dotted 16th / 8th) in the fifth, sixth and seventh measures, for readability in my version of abc2mps. (rp)
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A mix
+(a/f/) | e<Ae>c e>Ag>e | d>Gd>B d<Gf>d | e<Ae>c e<Ag>e | d>Bg>B BAA :| a | e>a c/<c/a e>ag>e | d>g B/gf>d |
+[1 e>a c/<c/a e<Ag>e | d>Bg>B BAA :| [2 (e/f/g) a<g f>de>c | d>Bg>B BAA || a | e>Ac>A eAg>e | d>GB>G d>Gf>d |
+e>Ac>A e<Ag>e | d>Bg>B B>AA :: a | e>Ac>A eA (g/f/e) | d>G B>G dG (f/e/d) | e>Ac>A eA (g/f/e) | dG (d/c/B) cAA ::
+a | e>ac>a ea (g/f/e) | d>gB>g dg (f/e/d) | [1 e>ac>a ea (g/f/e) | dG (d/c/B) cAA :| [2 (e/f/g) a/g/f eA (g/f/e) | dG (d/c/B) cAA|]
+S:https://www.folktunefinder.com/tunes/70941
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X: 2
+T: Sommermichl
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 23/4
+L: 1/8
+K: C
+x4 x4 x4 x4 x4 x4 "Intro"[|] \
+G2 | "C"c4 | "G7"B4 | "F"A4 | "C"G4 | "G7"B2 f2 ed | "C"c2 z2 ||
+|: "G7"G2 \
+| "C"c4 | "G7"B4 | "F"A4 | "C"G4 |1 "G7"B2 f2 B2 | "C"c2 e2 \
+                                :|2 "G7"B2 f2 ed | "C"c2 z2 ||
+|| de | "G7"f2 d2 e2 | f2 d2 e2 | f2 d2 e2 | f2 z2 |
+|: "G7"G2 \
+| "C"c4 | "G7"B4 | "F"A4 | "C"G4 |1 "G7"B2 f2 B2 | "C"c2 e2 \
+                                :|2 "G7"B2 f2 ed | "C"c2 z2 ||
+|: EF \
+| "C"G2 ed cB | "F"A2 f2 | "G7"d4 | B2 A2 B2 |1 "C"c2 G2 | A2 G2 \
+                                            :|2 "C"c2 z2 |]
+%%sep 10 10 200
+K: G
+|: "D7"d2 \
+| "G"g4 | "D7"f4 | "C"e4 | "G"d4 |1 "D7"f2 c'2 f2 | "G"g2 b2 \
+                                :|2 "D7"f2 c'2 ba | "G"g2 z2 ||
+|| ab | "D7"c'2 a2 b2 | c'2 a2 b2 | c'2 a2 b2 | c'2 z2 |
+|: "D7"d2 \
+| "G"g4 | "D7"f4 | "C"e4 | "G"d4 |1 "D7"f2 c'2 f2 | "G"g2 b2 \
+                                :|2 "D7"f2 c'2 ba | "G"g2 z2 ||
+|: Bc \
+| "G"d2 ba gf | "C"e2 c'2 | "D7"a4 | f2 e2 f2 |1 "G"g2 d2 | e2 d2 \
+                                            :|2 "G"g2 z2 |]
+S:https://www.folktunefinder.com/tunes/6071
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sommermichl.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

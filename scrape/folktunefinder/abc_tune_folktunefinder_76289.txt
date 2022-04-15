@@ -1,0 +1,28 @@
+X:309
+T: Neujahrslied (4-10), S. 12
+N: P0571
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Neujahrslied]
+M: 4/4
+L: 1/8
+K: A
+E2 | A3EA2B2 | c2cBA2
+d2 | ccccB2cB | A4z2
+d2 | ccccB2cB | A4z2
+E2 | A2E2A2BB | c2cBAA
+E2 | A2E2A2Bd | ccB2AA
+d2 | ccccB2cB | A4z2
+d2 | ccccB2cB | A4z2
+S:https://www.folktunefinder.com/tunes/76289
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Neujahrslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

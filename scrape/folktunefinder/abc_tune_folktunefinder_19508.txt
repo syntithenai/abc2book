@@ -1,0 +1,25 @@
+X: 1
+T: The Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"E7"[c2G2E2] \
+| "A"A<A A>c E>c A<c | "E7"e>dc>B "A"c<A A>c | "E"E<E E>G E>FG>A | "B7"B>AG>F "E7"GE (3EFG ||
+| "A"A2 A>B c>B A<a | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> g ||
+| "A"a2 a>g a>Ac>A | "E7"e>dc>B "A"c<A A>^a | "Bm"b2 b>^a b<f d>B | Fc d>e "E7"f>g |
+| "A"a2 (3bag a>Ac>A | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A2 |]
+S:https://www.folktunefinder.com/tunes/19508
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ManchesterCaledoniansS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/ManchesterCaledoniansS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ManchesterCaledoniansS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

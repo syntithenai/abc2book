@@ -1,0 +1,35 @@
+X: 15
+T:London March.TLY.015
+M:4/4
+L:1/8
+Q:160
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+N:%I have removed the D>E from the end of the A strain to the
+N:beginning.CG
+N:%P.
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+"*"D>E|F2 F>F F2E2| DFAd B2A2|BdAd GdFd|E2 E>E E2 D>E|!
+F2 F>F F2 E2|D/2E/2F/2G/2 A/2B/2c/2d/2 B2 A2|\
+ BdAd Gc (3efg)|f2~e2d2:|!
+|:f>g|a>gf>g g>agf|e>fg>g f2 e2|\
+ dd/2/d/2 de ff/2f/2 fg|ab>a b/2a/2g/2f/2f2 e2:|!
+|:f2 f>f f2 e2|dfAd B2 A2|BdAd GdAd|E2 E>E E2 D>E|!
+F2 F>F F2 E2|DFAd B2A2|\
+BdAd (3Bcd) (3efg)|f2~e2d4:|]
+S:https://www.folktunefinder.com/tunes/37548
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

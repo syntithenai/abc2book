@@ -1,0 +1,26 @@
+X:5200
+T:the Rose Tree
+A:North-West
+M:C
+N:P11() 3/3
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000573.html
+%%ID:00000573
+K:D
+f>e|d2c2 A2F2|A3B A2Bc|d4 e2de|f2e2 e2fe|\
+d2c2 A2F2|A3B A2Bc|d4 e2de|f2d2 d2:|
+|:e2|f2e2 f2g2|a4 g2f2|e2b2 b2a2|b2e2 e2fe|\
+d2c2 A2F2|A3B A2Bc|d4 e2de|f2d2d2:|
+S:https://www.folktunefinder.com/tunes/37119
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

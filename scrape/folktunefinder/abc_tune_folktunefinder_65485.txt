@@ -1,0 +1,21 @@
+X: 133
+T:Humours of Donnybrook
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:A
+P:A
+e|"A"a2A AGA|"D"FAA "E"EAA|"A"a2A AGA|"Bm"FBA "E7"GFE|
+"A""F#m"a2A AGA|"D"FAA "E"EAA|"D/f"FAA "E7/g"GAB|"A"cBA A2:|
+P:B
+e|"A"Ace ecA|"A"Ace "E7"e2E|"A"Ace edc|"Bm"dcd "E7"B2B|
+"A"Ace ecA|"A"Ace "E7"efg|"A"agf edc| [1"E7"BcB "A"A2:|[2"Bm"Bcd "E7"efg||
+S:https://www.folktunefinder.com/tunes/65485
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

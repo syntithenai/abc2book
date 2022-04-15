@@ -1,0 +1,25 @@
+X:5582
+T:Road to Youghal
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+B|~d2 Bd ABGE|DGBG AE ~E2|GEDE GABd|gbaf gedB|\
+GB ~B2 eBdB|AcBG AGEG|gfgd (3efg dB|DEGA BGG:|\
+d|gfge ~d2BG|ABcd eAAB|dg~g2 dcBG|FGAc BcBA|\
+GB~B2 GBdB|cBcd eAAf|gfgd (3efg dB|DEGA BGG:|
+S:https://www.folktunefinder.com/tunes/26034
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:12
+T:horlepiep                           %title
+C:                           %composer
+O:                           %origin
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=136                           %tempo  Q:1/4=80
+K:F                           %key C  Cm
+"F"ba gf "C7"ef ge|"F"f2f2f||
+CDE|:"F" F2 F2F2 GF|"Gm" G2G2G2GA|1 "C7" BA GF EF GF |E2C2 CC DE:|2"C7" BA GF EF GE|"F"F2F2F2cB||
+|:"F" Af cf af cf |"Bb" Bf df bf df|1 "F" Af cf af cf|"C7"B2 G2G2cB :|2 "F"ba gf "C7"ef ge|"F"f2f2f||
+S:https://www.folktunefinder.com/tunes/45805
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:4
+T: WIR SIND DIE KOENIGE DER WELT
+N: F0020
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 4/4
+L: 1/16
+K: G
+G2B2 | d6d2c3Bc2d2 | B8z4
+G4 | A6A2A2e2d2c2 | c3BB4z4
+G2B2 | d6d2c3Bc2d2 | B8z4
+G4 | A6A2A2e2d2c2 | c3BB4z4
+B4 | A6A2B2A2B2^c2 | d8z4
+A4 | f6d2^c2d2e2c2 | d8z4
+d4 | d6c2B2A2G2=F2 | E2G2c2d2e2z2
+e4 | d6B2d2c2B2A2 | G8z4
+S:https://www.folktunefinder.com/tunes/69564
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 20
+T: Pigeon on the Gate
+M: C|
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: EDor
+dc \
+|"Em"BEE2 BEdE |"Em"BEE2 dBAF | "D"D2FD ADFD | "D"D2FA BAdc | "Em"BEE2 BEdE |
+|"Em"BEE2 dBAF | "D"D2FA dfec | "(Bm)"dBAF "Em"E2 :: FA | "Em"Beed efed | Bdef gfed |
+| "D"Add2 dedB | "D"ABde fded | "Em"Beed efed | Bdef g2fg | "D"afge fdec | "(Bm)"dBAF "Em"E2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6401
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

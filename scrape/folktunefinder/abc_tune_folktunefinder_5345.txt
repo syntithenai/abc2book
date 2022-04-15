@@ -1,0 +1,29 @@
+X: 3
+T: Childgrove (Em)
+S: Playford 1701
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+B: Karpeles & Schofield p.22,52; Playford Ball; Raven p.23; Barlow #426
+L: 1/8
+N: Sometimes played in dorian rather than minor.
+K: Em
+|: B \
+| "Em"Be ef | g2 fe | "Am"ag fe | "Bm"f>e d/c/B \
+| "Em"Be ef | g2 fb | "Am"a>g "B7"f/g/f/e/ | "Em"e3 :|
+|: g/a/ \
+| "G"bg gb | "D"af fa | "Em"ge e/f/g/e/ | "Bm"fB Bg/a/ \
+| "G"b>a g/a/b/g/ | "D"a>g f/g/a/f/ | "Em"gf/e/ "B7"fe/^d/ | "Em"e3 :|
+S:https://www.folktunefinder.com/tunes/5345
+S:http://trillian.mit.edu/~jc/music/abc/Intl/CHI1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

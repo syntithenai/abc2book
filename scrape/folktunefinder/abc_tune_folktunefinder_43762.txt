@@ -1,0 +1,22 @@
+X:2
+T:Ashton's Jig
+C:Andy Hornby 2006
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:C
+G|e2f edc|A2B G2c|F2c E2c|Ddc BAG|
+ecf edc|dGe dBG|cAF GcB|c3c2:|
+|:g|c'gf efg|afd d2f|gec fdc|Bcd d2g|
+c'bc' gec|afa g2e|fdB GcB|c3c2:|
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43762
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

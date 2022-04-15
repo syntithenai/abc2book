@@ -1,0 +1,24 @@
+X: 125
+T:L'erbo de San Jan
+R:Scottish
+C:Provence
+N:Scottish
+I:abc2nwc
+M:2/4
+L:1/16
+K:Bb
+"^Scottish"b2f2 g2fe|dcde fdcB|b2f2 g2fe|dcde f4:|
+|:f2fg f4|edef d4|BcBc dcdf| [1edcf d2B2:| [2edcd B4|]
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+S:https://www.folktunefinder.com/tunes/40323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

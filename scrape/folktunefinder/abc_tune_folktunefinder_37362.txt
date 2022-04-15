@@ -1,0 +1,24 @@
+X:6415
+T:Trommelvalsen
+M:3/4
+O:Denmark
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000091f.html
+%%ID:0000091f
+K:G
+dc |\
+Bd gB gB | bB gB gB | Ad fA fA | aA fA fA |\
+Bd gB gB | bB gB gB | Ad fA df | g4 :|
+|: d2 |\
+ed Bd ge | ed Bd cd | Ad Bd cd | Ad Bd cd |\
+ed Bd ge | ed Bd cd | Ad ed ef | g4 :|
+S:https://www.folktunefinder.com/tunes/37362
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1728
+T:Gypsy Princess
+S:Jeffrey Myers[SMTP:jmyers@GOUCHER.EDU], Irtrad-L, 11/97
+R:Barndance
+M:4/4
+L:1/8
+K:G
+GA|B2 B2 B2 B2|ABAG E2 D2|G3 B d3 B|dedB AGGA|B2 BB B2 BB|
+ABAG E2 D2|G3 B dedB|1 A2 G2 G2 :|2 A2 G2 G2 Bc||
+d3 e g3 e|dedB AGBc|d3 e g3 e|dedB A2 Bc|d3 e g3 e|
+dedB A2 G2|G3 B dedB|1 A2 G2 G2 Bc:|2 A2 G2 G4||
+K:A
+c2 c2 c2 c2|BcBA F2 E2|A3 c e3 c|efec BAAB|
+c2 cc c2 cc|BcBA F2 E2|A3 c efec|1 B2 A2 A2 AB:|2 B2 A2 A2 cd||
+e3 f a3 f|efec BAcd|e3 f a3 f|efec B2 cd|e3 f a3 f|
+efec B2 A2|A3 c efec|1 B2 A2 A2 cd:|2 B2 A2 A2 AB||
+S:https://www.folktunefinder.com/tunes/32220
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

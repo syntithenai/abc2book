@@ -1,0 +1,23 @@
+X: 1
+T: Taivas on sininen ja valkoinen
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Cm
+|: "Cm"C2 CE | "Fm"GG GF | "G7"ED C=B, | "Cm"C2 EF \
+|  "Cm"G2 G2 | "Fm(Bb)"A2 GF | "G7(Eb)"G4 | "G7"G2z2 :|
+|: "Cm"G2 G2 | "Fm(Ab)"d2 c2 | "Bb7"BA GF | "Eb"G2 CD \
+|  "Fm"EF GF | "G7"E2 DD | "Cm"C4 | C2 z2 :|
+S:https://www.folktunefinder.com/tunes/4639
+S:http://trillian.mit.edu/~jc/music/abc/Finland/TaivasOnSininenJaValkoinen_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/TaivasOnSininenJaValkoinen_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/TaivasOnSininenJaValkoinen_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/TaivasOnSininenJaValkoinen_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

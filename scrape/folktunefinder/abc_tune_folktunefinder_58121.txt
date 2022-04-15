@@ -1,0 +1,25 @@
+X:1440
+T:Kail an Knockit Coarn
+S:Possibly from the "Tocher" periodical (can't remember)
+N:A shetland version of the Scots reel The
+N:Bob of Fettercairn
+O:Shetland
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:G
+g|:G2 BG dGBG|Gz G,z g2 fg|(3AAA ^cA eAcA|edef g2 fg|
+G<GBG dGBG|Gz G,z g2 fg|aefd edBG|AcBA G2 g2:|
+dgBg dgBg|dBdg f2 ed|e^cac ecac|edef g2 fg|
+dgBg dgBg|dBdg f2 ef|gefd edBG|A<ABd e2 g2:|
+S:https://www.folktunefinder.com/tunes/58121
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/nige.abc
+S:http://www2.redhawk.org:8080/irish/other/nige.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

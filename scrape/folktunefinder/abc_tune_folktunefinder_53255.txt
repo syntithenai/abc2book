@@ -1,0 +1,41 @@
+X:125
+T:Geamparaua de la Murfatlar
+M:7/8
+N:Dobrogea region (Bulgarian influence). So says Daniel200235, by email.
+N:I have this from Alistair Cochrane in the middle of Sweden, who says :-
+N: I got it from an old vinyl LP by a band called Vargavinter, Stockholm
+N: experimental folkies from the seventies. Marie Selander, Tuomo Haapala,
+N: Kjell Westling... can't remember who else. The name is maybe suspect.
+N: Geampara, though, is a kind of dance that turns up now and then with
+N: the 43 rhythm
+O:Rumania
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c65.html
+%%ID:00000c65
+K:A min ^c_B
+"A" cAcA cde | "Dm" d2 dc BAG |  \
+"A" cAcA cde | "Dm" d2 dc BAG |1 \
+"A" cAcA cde | "Dm" d2 dc def |  \
+"Bb" gffe dcd | "A" e2 eA eAA :|2
+"Gm" gffe ded | "A" c2 cA BAG |  \
+"Bb" ABBA GFG | "A" A2 A2 Ace |: \
+"A" a2 a2 Aca | "A7" g2 g2 Acg  |  \
+"Dm" f2 fe ded | "A" c2 cA BAG  |
+"Dm" f2 fe ded | "A" c2 cA BAG  |1 \
+"Bb" f2 fe dcd | "A2" e2 e2 Ace :|2\
+"Bb" ABBA GFG  | "A" A2AE AEE |:
+"A" e2 dc def | "Gm" gfga gfe |  \
+"Dm" gffe ded |"A" c2 cA BAG  |
+"Dm" effe ded | "A" c2 cA BAG |1 \
+"Bb" effe dcd | "A" e2 eA eAA :|2\
+"Bb" ABBA GFG | "A" A2 AE AEE |]
+S:https://www.folktunefinder.com/tunes/53255
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

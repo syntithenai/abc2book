@@ -1,0 +1,29 @@
+X:9010
+T:La Panderetera (Arrg. D)
+C:Versin de Jos Remis Ovalle
+Z:Mtodu de Gaita
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+FA|:"D"d3c|"G"d2 c~B|"D"A3B|"G"d2 "A"c~B|
+"D"A4 -|"D"AB FG|"D"A3~B|"Em"G2 ~FE|"D"D3E|"G"G2 "A"~FE|
+"D"D4 -|[1 "D"D2 FA:|[2 "D"AA AA|"D"A3F|"G"G~G/F/ ED|"G"GA GF|"G"G3A|"D"~FE D2:|
+|:"A"E>F "G"GE|"F#m"F>E DF|"A"E2 "F#m"C2|"D"D4:|
+|:"D"{A}DF Ad|"F#m"c2 AB|"F#m"c4|"G"BB Bc|"D"A4|"D"{A}DF Ad|
+"G"B2 GE|"A"C3E|"G"G2 "A"~FE|[1 "D"D4:|[2 "D"{A}D3F/A/|
+|:"G"d/c/B/c/ "D"d/c/d/c/|"G"B/c/B/A/ GB|"G"d/c/B/c/ "A"d/c/d/c/|
+"D"A/B/A/F/ DF/G/|"D"AF/A/ "G"B/G/F/G/|"A"~E{FE}D CE|
+"G"~G2 "A"FE|"D"~F>E DF/G/|"D"AF/G/ B/G/F/G/|
+"A"E{FE}D CE|"G"~G2 "A"FE|[1 "D"D3F/A/:|[2 "D"D4||
+S:https://www.folktunefinder.com/tunes/61043
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:163
+T:The Mouth of the Tobique
+M:4/4
+L:1/8
+R:reel
+D:Patrick Street: All in Good Time
+D:Sharon Shannon: Each Little Thing
+D:Sharon Shannon: Spellbound
+D:Celtic Fiddle Festival
+N:Learned from Kira Ott
+Z:Michael Abraham Shulman
+N:Sharon Shannon plays Lad O'Beirne's - Dowd's Favorite - ~.
+N:(She plays the C part, then the B part, leaving out the A part.)
+N:Patrick Street plays ~ - Billy Wilson.
+N:Celtic Fiddle Festival plays The Dionne Reel - ~.
+K:G
+(3DEF|:GFGA (3B^cd ed|BABG DGBG|ABAF DFAF|GABc d2(3DEF|
+GFGA (3B^cd ed|BABG DGBG|ABAF DFAF|1 GBAF G2(3DEF:|2 GBAF G2ef|
+|:gfga gdBg|fdAd f2gf|e^cAG FDEF|GABc d2ef|
+gfga gdBg|fdAd f2gf|e^cAG FDEF|1 GBAF G2ef:|2 GBAF G2(3DEF|
+%%text The C part is swung in a way that I can't really notate.  You kind of have to hear it.
+%%text There are lots of variations; everyone plays it differently.
+|:G4 kBGGkc|GkBGG kcGkBG|FGAB cAFD|GABc d2(3DEF|
+G4 kBGGkc|GkBGG kcGkBG|FGAB cAFD|GBAF G2(3DEF:|
+S:https://www.folktunefinder.com/tunes/63710
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

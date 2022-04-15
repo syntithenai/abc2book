@@ -1,0 +1,27 @@
+X: 28
+T:Julia Clifford's Polka
+M:2/4
+L:1/8
+R:Polka
+K:G
+Bd de|dB BA/2B/2|
+dB AB|dB G>A|!
+Bd de|dB BA/2B/2|
+dG BA|AG G>A:|!
+|:Bd g>g|fe e>f|
+ed Bd|ed BA|!
+Bd g>g|fe e/2f/2g/2e/2|
+dG BA|AG G>A:|]!
+% Output from ABC2Win  Version 2.1 i on 1/20/2004
+S:https://www.folktunefinder.com/tunes/55602
+S:http://www.geocities.com/novairishsession/bw/bwpolkas.txt
+S:http://www.novasession.com/bw/bwpolkas.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

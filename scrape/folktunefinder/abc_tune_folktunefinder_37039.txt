@@ -1,0 +1,29 @@
+X:4800
+T:Polska fr Bjrkede
+A:Jmtland
+B:Ltar e. Kristian Oskarsson i Bjrkede (Christina Eketorp)
+C:e. Kristian Oskarsson
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c19.html
+%%ID:00000c19
+K:D
+A|\
+d>c A>A A>A| (3ABc d2 d2| c>A A>G (3EFE| (3DED C>D (3EDC| D2 [E3A3] A|
+d>c A>A A>A| (3ABc d2 d2| c>A A>G (3EFE| (3DED C>D (3EDC|1 D3 zz :|2 D4 z2||
+|:\
+(3ABc d>a f>d| d>c e>c A2| (3ABc d>a f>d| d>c e>c A2|
+(3ABc d>f (3afa| b>a a>f e>f| (3geg f>e d>f| (3geg (3fed (3cBc\
+|1 d2 d3 A :|2 d2 d3|]
+S:https://www.folktunefinder.com/tunes/37039
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

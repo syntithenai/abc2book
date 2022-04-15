@@ -1,0 +1,29 @@
+X: 1
+T: Miss Wilma Miller
+C: Murial A. Johnstone
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+| "D"d2 a>g f<d d>B | A<F F>E D3 C \
+| "G"B,>D GD F<A | "Em"G<E G>F "A7"E2[A2G2E2] |
+| "D"d2 a>g f<d d>B | A<F F>E "(D7)"D3 C \
+| "G"B,>D Ge "D"d2- d |]
+ e \
+| "D"f>d "A(Em)"g>e "D"a>f "G"b>g | "D"(3afd A>f "A7"e4 \
+| "D"f>d "A(Em)"(3gfe "D"a2 "G"b>d | "D"A<d "A7"f>e d3 |
+ g \
+| "D"f>d "A(Em)"g>e "D"a2 fd | "Em"B<e e>d "A7"c>B A>G \
+| "D"(3FAd a>g f<d A>F | "Em"G<g "A7"f>e "D"d2 |]
+S:https://www.folktunefinder.com/tunes/19709
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WilmaMiller.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WilmaMiller.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

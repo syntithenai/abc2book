@@ -1,0 +1,29 @@
+X: 223
+T:Spanish Waltz. CJF.223
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:D
+A2|dcdefg|e4AA|dcdefg|(fa^ga=ge)|!
+dcdefg|e4cA|(defg)(ef)"Fine"|d4:|!
+|:{b}a2|e2c2 {b}a2|e2c2 {b}a2|f2d2 {b}a2|f2d2 {b}a2|\
+e2c2 {b}a2|e2c2 {b}a2|defgef|d4:|!
+|:(de/f/)|gdBdgb|afdfa=c'|=c'afdef|gfgaba|!
+gdBdgb|afdfa=c'|=c'afdef|" D.C."g4|]
+S:https://www.folktunefinder.com/tunes/49778
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

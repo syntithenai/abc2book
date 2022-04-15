@@ -1,0 +1,73 @@
+X:1
+T:Macedonska Sedenka
+T:ABC2D2EFG3H2I2JKLMABC2
+O:Macedonia
+C:Trad.
+R:kopanica
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:ABC2D2EFG3H2I2JKLMABC2
+Q:1/4=220
+M:11/8
+L:1/8
+K:C
+%%MIDI gracedivider 2
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 71
+%%MIDI chordvol 40
+%%MIDI bassprog 58
+%%MIDI gchord f2c2c3f2c2
+%%MIDI drumon
+%%MIDI drum d2d2d2dd2d2 43 43 41 37 43 43
+P:A
+|:"G"dz ^fg gfa ~g2 =fe | ef df ~e2 d ^cd dG |
+^cd ef dfd ~e2 ed |1 "D"^cd Bd ~=c2 B "G"BG dG :|2 "D"^cd Bd ~=c2 B "G"B2 z2 ||
+P:B
+|:"G"^cd ef dfd ~e2 ed | ^cd e^f gfa ~g2 gG |
+^cd ef dfd ~e2 ed |1 "D"^cd Bd ~=c2 B "G"BG dG :|2 "D"^cd Bd ~=c2 B "G"B2 z2 ||
+P:C
+|:"G"^cd Bd ~=c2B BG dG |1 "D"^cd Bd ~=c2 B "G"B^A BG :|2 "D"^cd Bd ~=c2 B "G"B2 z2 ||
+P:D
+|:"A"AE ~^c2 cE_B ~A2 AE | eE ^c2 cE_B ~A2 AE :|
+P:E
+|:"A"eE ^cE dEc eE cE | dE ^cE cE_B AE AE :|
+P:F
+|:"A"eE ^cE dEc eE cE |1 dE ^cE cE_B AE AE :|2 dE ^cE cE_B A2 (G^F ||"G"G8-G3 | d8-d3 ||
+P:G
+"G"dG fg ~e2d dG fg | dG fg ~e2d dc BG |
+P:H
+|:"G"dG fg ~e2d dc BG |1"D"Bc Ac ~B2A "G"Bc dG :|2 "D"Bc Ac ~B2A "G"Bz z2 |
+T:Macedonska Sedenka
+T:Macedonska Sedenka (page 2)
+T:ABC2D2EFG3H2I2JKLMABC2
+P:I
+|:"D"Bc Ac ~B2A "G"Bc dG |1 "D"Bc Ac ~B2A "G"GD GD :|2 "D"Bc Ac ~B2A "G"G2 z2 ||
+P:J
+K:Bb
+|:"F"AB c_d c/d/Bc ~A2 _GF | BE ~A2 A_GF FG AE |AB c_d c/d/Bc ~A2 _GF | BE ~A2 A_GF Fz z2 :|
+P:K
+|:"F"BE ~A2 _GFE FG AB | c_d Bc ~A2_G FG AE | BE ~A2 A_GF FG AB | c_d Bc ~A2_G Fz z2 :|
+P:L
+|:"Eb"BE GA Bc/d/c BA GA | BE GE _dc/d/B cA BE |
+ BE GA Bc/d/c BA GA |1 BE GE _dc/d/B AB BE :|2 BE GE _dc/d/B Bz z2 ||
+P:M
+|:"Eb"AB BG ~_A2G GE BE | AB BG ~_A2G GE GE |
+ AB BG ~_A2G GE BE |1 AB BG ~_A2G GE BE :|2 AB BG ~_A2G G2 z2 ||
+W:
+W:Arrangement Copyright (C) 2005 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/67682
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/MacedonskaSedenka.abc
+S:http://people.csail.mit.edu/jaffer/Music/MacedonskaSedenka.abc
+S:http://voluntocracy.org/Music/MacedonskaSedenka.abc
+S:http://www.voluntocracy.org/Music/MacedonskaSedenka.abc
+% Rhythm Kopanica
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 11/8
+% Has_accompaniment_chords Has chords

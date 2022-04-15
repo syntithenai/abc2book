@@ -1,0 +1,29 @@
+X:16
+T: Tageweis von der Koenigstochter und dem jungen Grafen
+N: A0020B
+O: Europa, Mitteleuropa, Deutschland
+N: Dieselbe Melodie etwas umgeformt. (1607 bei Praetorius)
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G4 | A2G2=F2D2 | =F4G4z2
+G2 | _B4B2c4B2 | A4G4
+G4 | A2G2=F2D2 | =F4G4z2
+G2 | _B4B2c4B2 | A4G4
+z2G2A2A2 | d2c2_B2A2
+B6AG | =F4z2
+G2 | _B2A2B2c2 | d4c2_B4AG | =F4z2
+G2 | _B4B2c4B2 | A4G4
+S:https://www.folktunefinder.com/tunes/68562
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

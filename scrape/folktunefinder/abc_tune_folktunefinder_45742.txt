@@ -1,0 +1,28 @@
+X:4
+T:Slovcky arda
+O:Tjechie
+M:2/4
+L:1/8
+Q:1/4=80
+K:Am
+V:1
+"Am" A cB A|"E7" B E3 |"Am" (A2 "D7" A2) |"G" (G2 "G7" G2) |{_e/}"C" ee _ee |
+"G7" fd3 |{_e/}"C" e4 |e4 |{_e/}"C" ee _ee |"G7" fd3 |
+"C" (e2 "E7" e2) |"Am" c4 |"Dm" dc "D#" BA |"E7" BE3 |"Am" (A2 "D7" A2) |
+"G" (G2 "G7" G2)|{_e/}"C" ee _ee |"G7" fd3 |"C" (e2 "E7" e2) |"Am" c4 |
+"Dm" dc "D#" BA |"E7" BE3 |"Am" A4 |A4 |]
+V:2          %Kopie
+ce dc |dG3 |A/G/F/E/ D/C/B,/C/ |D/E/F/G/ A/B/c/d/ |{_e/}cc Bc |
+dB3 |e/d/c/B/ A/G/F/E/ |D/E/F/G/ A/B/c/d/ |{_e/}cc Bc |dB3 |
+e/d/c/B/ A/G/F/E/ |D/C/D/E/ F/G/A/B/ |fe dc |dG3 |A/G/F/E/ D/C/B,/C/ |
+D/E/F/G/ A/B/c/d/ |{_e/}cc Bc |dB3 |e/d/c/B/ A/G/F/E/ |D/C/D/E/ F/G/A/B/ |
+dc BA |BE3 |A4 |A4 |]
+S:https://www.folktunefinder.com/tunes/45742
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:201
+T:Duchess of Gordon, The
+R:Strathspey
+B:The Athole Collection
+M:C
+L:1/8
+K:G Minor
+A|G/G/G d2 d>=cA>g|G/G/G G2 A>GF>A|G/G/G d2 d>=cd>g|
+f<d c>A G2G:|
+^f|g<ab<a g<d d>=e|f>gf>c A<F F>^f|g>a b<a g<d d>g|f>dc>A G2 G>f|
+g>ab>a g<d d>=e|f>gf>c A>GF>f|g>ab>a g<f a>g|f>dc>A G2G||
+S:https://www.folktunefinder.com/tunes/71798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/athol-ad.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/athol-ad.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

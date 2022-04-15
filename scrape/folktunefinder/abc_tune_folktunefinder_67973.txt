@@ -1,0 +1,25 @@
+X: 87
+T: De Strigat
+O: Hungary
+M: 4/4
+L: 1/8
+Q:1/4=200
+K: Eb 
+%%MIDI drum zdzd 35 35 
+%%MIDI drumon
+de          |: f2fe fedc      |B2B=A Bcde|f2fe fedc|e8     :|
+B8-         |B8               |B2A2A2G2  |A2G2A4   |F2F2E2F2| B4 A2B2|
+B2A2A2G2    |A2G2A4           |F2F2E2D2  | E4 E4   |
+B,2D2E2F2   |A2G2A4           |A2A2G2F2  |B4 B4    |
+B,2D2E2F2   |A2G2A4           |F2F2E2D2  |E4 E4    |
+S:https://www.folktunefinder.com/tunes/67973
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

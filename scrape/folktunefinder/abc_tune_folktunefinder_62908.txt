@@ -1,0 +1,22 @@
+X:60
+T:Ger the Rigger
+M:2/4
+L:1/8
+Q:120
+R:Polka (Key of G)
+K:Gmaj
+"G" dG dG | d/e/d/c/ BG | "C" c2 c/d/e/f/ |"D" gd ed |
+"G"dG dG | d/e/d/c/ BG | "C" ce/c/ "G" Bd/B/ | "D" A/G/A/B/ G2 :|:
+"G" gd e/d/B/d/ | gd e/d/B/d/ | "C" c2 c/d/e/f/ | "D" gd ed |
+"G" gd e/d/B/d/ | gd e/d/B/d/ | "C" ce/c/ "G" Bd/B/ |"D" A/G/A/B/ "G" G2:|]
+S:https://www.folktunefinder.com/tunes/62908
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Polka (key of g)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

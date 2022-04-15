@@ -1,0 +1,22 @@
+X: 192
+P: Huggaremamma (Wood-chopping momma)
+O: David Bastviken Oct 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+E2 \
+|: "Am"c2Ac "E"B2^GB "Am"A2=g2 | "B"^fe^df "E"e2e2 B3B | "Am"cBcd e2fe dcBc | A^GAB "(E)"cABG "E"E4 |
+|  "Am"c2Ac "E"B2^GB "Am"A2=g2 | "B"^fe^df "E"e2e2 B3B | "Am"cBcd e2c2 "E"B3A | ^GABc "Am"A8 :|
+|: "Am(F)"a2ba "C"g2c'g e2c2 | "E"e2fe dcBc "(Am)"A2^G2 | "Am"A3B cBcd e2g2 | "B"^fe^df "E"e4 e3e |
+|  "Am(F)"a2ba "C"g2c'g e2c2 | "E"e2fe dcBc "(Am)"A2^G2 | "Am"A3B cBcd e2c2 | "E"BA^GB "Am"A8 :|
+S:https://www.folktunefinder.com/tunes/8397
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

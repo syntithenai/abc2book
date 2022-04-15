@@ -1,0 +1,27 @@
+X:431
+T:Mad Moll of the Cheshire Hunt
+M:4/4
+L:1/8
+K:G
+(3DEF|:"G"G2 g3/2f/ e3/2d/c3/2B/|"D"A3/2B/c3/2A/ B2 A2|\
+"G"G2 g3/2f/ e3/2d/c3/2B/|"D"d3/2c/A3/2F/ G2 (3DEF|\
+"G"G2 g3/2f/ e3/2d/c3/2B/|
+"D"A3/2B/c3/2A/ B2 A2|"C"e2 d2 c2\
+B2|1 "D"c3/2A/F3/2A/ "G"G2 (3DEF:|2 "D"c3/2A/F3/2A/ "G"G4|:"G"D3/2G/B3/2G/ \
+D3/2G/B3/2G/|D3/2G/B3/2d/ "D"c2 A2|
+D3/2F/A3/2F/ D3/2F/A3/2F/|D3/2F/A3/2c/ "G"B2 G2| \
+D3/2G/B3/2G/ D3/2G/B3/2G/|D3/2G/B3/2d/ "D"c2 A2| \
+"C"e2 d2 c2 B2|"D"cA/F3/2A/ "G"G4:|
+S:https://www.folktunefinder.com/tunes/51545
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t431.abc
+S:http://www.arcelts.com/bbot1/t431.txt
+S:http://www.arcelts.com/bbot1/t431.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

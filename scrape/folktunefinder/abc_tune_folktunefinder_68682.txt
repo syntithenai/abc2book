@@ -1,0 +1,24 @@
+X:136
+T: Kuckuks Fall
+N: A0168
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott III 1544 No. 30
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: G
+G | G2G | G2A | _B2B | _B2
+B | _B2B | dc2 | _B3 | _B2
+B | _B2B | _B2B | A2G | =F2
+G | A2_B | c2_B | GA2 | G2
+S:https://www.folktunefinder.com/tunes/68682
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

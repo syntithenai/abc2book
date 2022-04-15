@@ -1,0 +1,30 @@
+X:263
+T: Kate Kearnel
+B: O'Neill's 263
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:G
+D2 \
+| D2 E2 G2 | G2 A2 B2 | A2 G2 G2 | G4 D2 \
+| G2 B2 d2 | (edcBAG) | B2 A2 A2 | A4 (Bd) |
+| e2 c2 e2 | d2 B2 d2 | c2 A2 c2 | B4 (G/A/) \
+| (TB2 A2) .B2 | (TG2 E2) .D2 | (E2 G2) .G2 | G4 ||
+|| D2 \
+| D2 B,2 D2 | D2 B,2 D2 | G6 | G4 D2 \
+| D2 B,2 D2 | D2 B,2 D2 | A6 A4 (Bd) |
+| e3 c e2 | d2 B2 d2 | c3 A c2 | B2 G2 A2 \
+| (TB2 A2) .B2 | (TG2 E2) .D2 | E6 | G4 ||
+S:https://www.folktunefinder.com/tunes/73422
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

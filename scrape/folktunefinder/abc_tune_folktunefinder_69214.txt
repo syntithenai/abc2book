@@ -1,0 +1,24 @@
+X:355
+T: "Der Strassburger Sohn"
+N: Z1035
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade
+M: 4/4
+L: 1/16
+K: G
+G4 | G2d2d2d2d4e2g2 | =f4e4d4z2
+e2 | =f4d2d2d4A2B2 | c4B4A4z2
+d2 | d4d2B2G6B2 | d2c2c2B2A6
+B2 | c2B2A2G2F4G4 | A6BAG4
+S:https://www.folktunefinder.com/tunes/69214
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

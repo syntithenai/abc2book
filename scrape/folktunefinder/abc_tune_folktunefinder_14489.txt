@@ -1,0 +1,28 @@
+X: 1
+T: Knuds f\orste trekant
+C: Knud Laursen
+O: Denmark
+S: efter Jacob Dahl og AndersAndersen/Thorkild Knudsen
+R: jig
+B: "Foklemusikhus Spillebog"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+      z | {fg}"D"a2f d2d |    dfd A2F | "A7"G2E c2A | "D"d2A f2d \
+        | {fg}"D"a2f d2d | "D"dfd A2F | "A7"G2E c2A | "D"ddd d2 :|
+|: {e}f | "G"g2g     b2b | "D"a2f d2f | "A7"gec ece | "D"f2a def \
+        | "G"g2g     b2b | "D"a2f d2f | "A7"gec ece | "D"d2d d2 :|
+S:https://www.folktunefinder.com/tunes/14489
+S:http://trillian.mit.edu/~jc/music/abc/jig/KnudsForsteTrekant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/KnudsForsteTrekant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/KnudsForsteTrekant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KnudsForsteTrekant_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:261
+T:AR EIREANN NE NEOSIN CE HI
+O:england
+M:3/4
+L:1/8
+Q:90
+R:AIR
+K:G
+G>A|"G"B D3 D2|"Em"E G3 "D"A2|"G"B4 (3A/2B/2A/2 G|"G"{c}B D3 DD
+|
+"Em"E G3 "G"BG|"D"A3 B/2A/2 "G"G>A|"G"BG D2 D2|"C"Ec c3/2d/2"Am
+"c/2 BA|
+"G"{Bd}B3 G "D"AG|"Em"E2 "G"D2 CD|"Em"E G2 F "D"AF|"G"G4 B>c|
+"G"d2 {Bd}B2 "D"AF|"G"G2 B2 d2|"Em"e4 g>e|"G"d2 B3 {cB}A
+|
+"G"G3 A BG|"D"A4 "G"G>A|"G"BG D2 D2|"Em"E G3 "Am"Ac|
+"G"B3 G "D"AG|"Em"E2 "G"{DF}D2 CD|"Em"E G2 F "D"AF|"G"G4 "D"(3FGA|
+"G"B D3 "Bm"FD|"Em"E G3 "D"A2|"G"{Bd}B3 G BA|"G"B D3 "Bm"(3DFD|
+"Em"E G3 "G"BG|"D"A4 "G"(3GGA|"G"B D3 "D"(3AGF|"C"E c3 "Am"Ac|
+"G"B3 c "D"AG|"Em"E2 "G"D2 CD|"Em"E G2 F "D"(3AGF|"G"G4 Bc|
+"G"d2 B2 "Am"(3cBA|"G"G2 B2 d2|"Em"{eg}e4 "Bm"(3fgf|"G"d2 B3
+B|
+"G"GD GB dG|"D"A4 "C"(3cdc|"G"BG D2 CD|"Em"E B3 "Am"(3ABc|
+"G"B4 "D"A/2B/2A/2G/2|"Em"E2 "G"D2 (3B,CD|"Em"E G2 F "D"AF|"G"G4|
+S:https://www.folktunefinder.com/tunes/20710
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

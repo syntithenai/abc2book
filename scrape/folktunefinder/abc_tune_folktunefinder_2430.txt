@@ -1,0 +1,30 @@
+X: 1
+T: TEST: Keysig: D minor, freygish, misheberach, major
+%%staffwidth 12cm
+K: Dm
+%%text K: Dm
+[| DEFG ABcd | cBAG FEDC | D2A2 d2z2 |]
+%%text K: ^f_B_eD
+K: ^f_B_eD
+[| DEFG ABcd | cBAG FEDC | D2A2 d2z2 |]
+%%text K: ^GD
+K: ^GD
+[| DEFG ABcd | cBAG FEDC | D2A2 d2z2 |]
+%%text K: D
+K: D
+[| DEFG ABcd | cBAG FEDC | D2A2 d2z2 |]
+S:https://www.folktunefinder.com/tunes/2430
+S:http://trillian.mit.edu/~jc/music/abc/test/K_D_MinFreyMishMaj.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_D_MinFreyMishMaj.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_D_MinFreyMishMaj.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_D_MinFreyMishMaj.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

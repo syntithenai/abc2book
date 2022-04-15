@@ -1,0 +1,38 @@
+X:1
+T: the Unlicensed Session
+T: Mike Dugger's
+R: Hornpipe
+C: Larry Sanger
+Z: Dedicated to Mike Dugger, Frank Claudy, Jim Coogan, and other opinionated members of
+N: Irtrad-L. Larry writes: By the way, this tune is donated freely and unless you try to
+N: register it yourself and demand that other people pay you for it (ha ha), please play,
+N: perform, and record it all you  like.  I won't be registering it myself.
+M: 4/4
+K: G
+|: (3ABc \
+| dgbg dBGB | cdec AGEG | FGAB cAFD | GFGB edBc | dgbg dBGB |
+| cdec GECE |1 FGAB cAFG | AGGF G2 :|2 FGAB cdef | (3gag fa g2 ||
+|: (3def \
+| gdBd gdfd | ecAc ecgc | fdAd fdad | (3efe cd ag (3def |
+| gdBd gdfd | ecAc Gcec | fdAd Fdfd | (3gag fa g2 |]
+S:https://www.folktunefinder.com/tunes/13631
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MikeDuggers.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/UnlicensedSession.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MikeDuggers.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/UnlicensedSession.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/MikeDuggers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/UnlicensedSession.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MikeDuggers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/UnlicensedSession.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MikeDuggers.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/UnlicensedSession.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/hornpipe/UnlicensedSession.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/MikeDuggers.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

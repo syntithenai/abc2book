@@ -1,0 +1,45 @@
+X:855
+T:Xiraldilla (CT 341)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Catalina Muiz Llano, de cincuenta aos, de Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 341
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|: G2 A|B>AB|c2 B|A3|F2 G|A2 A|[1 DDD|G2 z :|[2 DDG|G2 z|
+GGA|BBA|GGA|BBA|GGA|BBA|BcB|A3|
+|: F2 G|AAA|DDB|B2 A|G3 :|
+F2 G|AAA|DDB|B2 A|G2 z||
+W:Algn da tena yo
+W:buena silla y buen caballo,
+W:y ahora me encuentro aqu
+W:que si no me arimo me caigo.
+W:
+W:Ro, rigelo,
+W:que vas por el suelo,
+W:que vas recogiendo
+W:la hoja y la flor:
+W:anda, vete corriendo
+W:a la habitacin
+W:donde duerme y descansa
+W:mi dulce amor,
+W:donde descansa y duerme
+W:mi corazn.
+W:
+S:https://www.folktunefinder.com/tunes/59742
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

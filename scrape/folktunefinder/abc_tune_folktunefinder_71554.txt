@@ -1,0 +1,25 @@
+X:525
+%%topmargin 3cm
+T:Bothwell Castle
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+"Slow." z | "_pomposo"[B,D]>[CE] [DF]>[CE] [B,D]B ~Bd | [B,D]>[CE] [DF]>[B,D] (A,/C/F/A/) (cd) | [B,D]>[CE] ([D/F/]>[C/E/])([D/F/]>[C/E/]) [B,D]BFd | (e/d/)Tc/B/ (A/g/).f/.e/ dBB :|
+!p! ~f | d'>c'/nb// (3a/g/pf/ n(3e/d/pc/ B~fd~b | f/>d/b/>f/ d'/>b/ (3f/d/B/ Acc~f | d'>c' {/c'}b/a/b/g/ {/g}(f/=e/)f/g/ a/f/g/a/ | (b/g/).a/.b/ (c'/a/)(b/g/) fbb Tb/>c'/ |
+!sfz!d'/(b/a/)b/ !sfz!c'/(a/g/)a/ !sfz!b/(a/^f/)g/ !sfz!a/(=f/^e/)f/ | g/(e/d/)e/ (f/B/)(g/B/) Acc (f//g//a/) | [d2b2] [e2g2] [Ac][Af] Hd (B//c//d/) | e>d (c/d/)B/ (A/B/)G/ (FB)[DFB] |]
+S:https://www.folktunefinder.com/tunes/71554
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bothwell_Castle.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0525.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

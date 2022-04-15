@@ -1,0 +1,22 @@
+X:145
+T:Quick Scotch - Camp Duties #6 *
+B:American Veteran Fifer - Camp Duties #5
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 20
+%%MIDI grace 1/8
+%%MIDI ratio 2 1
+de|f2fd f2fd|gfed cdef|f2fd gfed|cded d2:||:fg|a2af b2 b2|
+gfge a2a2| f2fd gfed|cdec d2:||"^Drum Roll." c8 | c8 |c4 z4||
+S:https://www.folktunefinder.com/tunes/39541
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

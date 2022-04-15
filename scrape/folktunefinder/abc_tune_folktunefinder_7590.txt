@@ -1,0 +1,32 @@
+X: 5
+T: the Squirrel Hunters
+M: 4/4
+L: 1/8
+Q: 175
+S: John Hartford's "Wild Hog in the Redbrush" transcribed by Llarry Brandon
+K: AMix
+|: "4"e3d .B2 Bd | efed .B2 BA | GABc d2 dc | dBcA BcBA |
+| "4"e3d .B2 Bd | efed .B2 BA | GABc d2 B2 | "4" A8 :|
+|: Bded eg a2 | ag edef g2 | BA GABcd2 | dcdB cABc |
+| BAed egab | aged ef g2 | BAGA Bcd2 | B2 "4"A6 :|
+S:https://www.folktunefinder.com/tunes/7590
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SquirrelHunters.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SquirrelHunters_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/LlarryBrandon/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/SquirrelHunters.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/SquirrelHunters_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/tmp/LlarryBrandon.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/SquirrelHunters_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

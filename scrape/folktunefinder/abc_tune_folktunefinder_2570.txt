@@ -1,0 +1,50 @@
+X: 1
+T: TEST: H\"okpers vals
+C: Lars H\"okper
+O: Sv\"ardsj\"o, Sweden
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Harmony by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+V: 1
+|: A2 \
+| d3 efa | g3 fed | ^c2 A3G | F4 D2 \
+| F2 EF AG | E4 c2 | =B2 GA Bd | A4 ^c2 |
+V: 2
+|: z2 \
+| "Dm"F3 GA2 | "Gm"B3 AGF | "A7"E4 ^c2 | "Dm"d4 A2 \
+| "Dm"d2 A2 F2 | "C"c2 G2 E2 | "G"D4 D2 | "A7"^C2 D2 E2|
+V: 1
+| d3 efa | g3 fed | ^c2 A3G | F4 E2 \
+| D2 ^CD EF | AG G3E | F2 E2 D^C | D4 :|
+V: 2
+| "Dm"F3 GA2 | "Gm"B3 AGF | "A7"E4 ^c2 | "Dm"d4 A2 \
+| "Dm"F4 A2 | "Gm"d4 B2 | "A7"A4 AG | "Dm"F4 :|
+V: 1
+|: A2 \
+| AF FD FA | AF FD FA | A2 G2 zF | E4 G2 \
+| GE E^C  EG | GE E^C  EG | G2 A2 zE | "Dm"F4 A2 |
+V: 2
+|: f2 \
+| "Dm"fd AF Ad | fd AF Ad | f2 e2 zd | "A7"^c4 e2  \
+| e^c AE Ac | e^c AE Ac | e2 f2 zg | "Dm"a4 f2 |
+V: 1
+| AF FD FA | AF FD FA | A2 d3c | B4 B2 \
+| B2 c2 zB | A4 F2 | GF E2 D^C | D4 :|
+V: 2
+| "Dm"fd AF Ad | fd AF Ad | "D7"^f2 g3 a | "Gm"g4 g2 \
+| g2 a2 zg | "Dm"f4 d2 | "A7"^c2 AB AG | "Dm"F4 :|
+S:https://www.folktunefinder.com/tunes/2570
+S:http://trillian.mit.edu/~jc/music/abc/test/V_HokpersV2x4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_HokpersV2x4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_HokpersV2x4.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_HokpersV2x4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

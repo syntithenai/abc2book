@@ -1,0 +1,19 @@
+X: 94
+T:Captain Pugwash
+Z:
+M:4/4
+L:1/8
+Q:1/8=170
+K:G
+D2|(3GGG G2 (3GGG G2|B>GB>d g>dB>G|(3DDD D2 (3DDD D2|F>DF>A c>AF>A|
+(3GGG G2 (3GGG G2|B>GB>d g3 g|f>ag>f e>gf>e|d2 f2 d2:|]
+B>c|(3ddd d2 (3ddd d2|e>fg>f e>dc>B|c>de>d c>BA>G|F>GA>G F>DE>F|
+(3GGG G2 (3BBB B2|(3ccc c2 (3^ccc c2|d>gf>ed>cB>A|G2 B2 G2:|]
+S:https://www.folktunefinder.com/tunes/52166
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

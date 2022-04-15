@@ -1,0 +1,22 @@
+X: 3288
+T:Fiddlers Three
+R:Jig
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+M:6/8
+L:1/8
+K:D
+A|"D"F2A dcB|AFA f2e|dAF DFA|"Em"BEE "A7"E2A|!
+"D"F2A dcB|AFA g2f|"A7"ecA Ace|"D"f[df][df] [d2f2]:|!
+|:f/g/|"D"a2f b2f|"A7"agf gfe|c2e a2g|"D"gfe f2g|!
+a2f b2f|"A7"agf gfe|c2e gfe|"D"f[df][df] [d2f2]:|!
+S:https://www.folktunefinder.com/tunes/33201
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

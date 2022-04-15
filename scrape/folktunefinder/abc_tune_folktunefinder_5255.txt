@@ -1,0 +1,28 @@
+X: 1
+T: Circle Cs\'ard\'as
+R: csardas
+O: Hungary
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Dm
+((3A/=B/^c/ \
+|| "Dm"d2)A2 "Gm"A2G2 | "Dm"FFAG "A7"FE3 | "Dm"D2"A7"{E}D^C "Dm"D2z2 ||
+|| "F"f2a2 "C7"a2eg | "Dm"f3d "F"dc3 | "Gm"d4 "A7"A4 ||
+|| "F"f2a2 "C7"a2eg | "Dm"f3d "F"dc3 | "Bb"d4 "A7"AA=B^c ||
+|| "Dm"d2A2 "Gm"A2G2 | "Dm"FFAG "A7"FE3 | "Dm"D2"A7"{E}D^C "Dm"D2z2 |]
+S:https://www.folktunefinder.com/tunes/5255
+S:http://trillian.mit.edu/~jc/music/abc/Hungary/CircleCsardas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/CircleCsardas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Csardas_Circle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/circle_csardas.abc
+S:http://terrytraub.org/abc/circle_csardas.abc
+% Rhythm Csardas
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

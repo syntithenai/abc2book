@@ -1,0 +1,37 @@
+X:0
+T:Alick C. McGregor
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+M:1/2=88 % can be played much faster, this used as a competition speed by Fred Morrison
+K:Hp
+a|    ec{g}B{d}c    {g}A2{dAe}A>a   | {eg}ec{g}B{d}A {g}c2{dce}c>a |\
+      ec{g}B{d}c    {g}A2{dAe}A>f   | {gef}ecac      {g}B2{dBe}B>a |
+      ec{g}B{d}c    {g}A2{dAe}A>a   | {eg}ec{g}B{d}A {g}c2{dce}c>f |\
+   {g}efae          {g}faef         |  {g}ce{g}B{d}c {g}A2{dAe}A3/||
+a|{fg}f2ef          {g}ecae         |{gfg}f2ef       {g}c2{dce}c>a |\
+  {fg}f2{g}ef     {gef}ecae         |{gfg}f2{g}ec    {g}B2{dBe}B>a |
+  {fg}f2ef          {g}ecae         |{gfg}f2ef       {g}c2{dce}c>f |\
+   {g}efae          {g}faef         |  {g}ce{g}B{d}c {g}A2{dAe}A3/||
+a|    A2{dAe}A>{d}c {g}A2{dAe}A>{d}c|  {g}A{d}c{e}Bd {g}ce{g}ca    |\
+      A2{dAe}A>{d}c {g}A2{dAe}A>{d}f|{gef}ecac       {g}B2{dBe}B>a |
+      A2{dAe}A>{d}c {g}A2{dAe}A>{d}c|  {g}A{d}c{e}Bd {g}ce{g}ca    |\
+      faef          {g}efce         |  {g}ce{g}B{d}c {g}A2{dAe}A3/||
+a|{eg}e2{cG}c>e   {gfg}f2{dc}d>f    |{gef}ecae       {g}c2{dce}c>a |\
+  {eg}e2{cG}c>e   {gfg}f2{dc}d>f    |{gef}ecac       {g}B2{dBe}B>a |
+  {eg}e2{cG}c>e   {gfg}f2{dc}d>f    |{gef}ecae       {g}c2{dce}c>f |\
+   {g}efae          {g}faef         |  {g}ce{g}B{d}c {g}A2{dAe}A3/|]
+S:https://www.folktunefinder.com/tunes/66334
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 1/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:3015
+T:Lancaster Hornpipe
+A:North-West
+M:C
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000631.html
+%%ID:00000631
+K:D
+AG | \
+FA d2 d2 cB | cdef e2 dc | \
+defd gfed | ec A2ABAG |
+FA d2 d2 cB | cdef e2 de | \
+fdec dBAG | F2 D2 D2::
+(3ABc |\
+dAFA DFAf | edcB A2 gf |\
+ecAG FAdf | edcB A2AA |
+BG G/F/G gfed | edcB A2AA |\
+BGAF GEAG | F2 D2 D2 :|
+S:https://www.folktunefinder.com/tunes/36682
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

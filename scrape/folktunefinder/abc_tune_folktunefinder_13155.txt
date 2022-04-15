@@ -1,0 +1,61 @@
+X: 1
+T: Cock up your Beaver
+R: Air
+M: 3/4
+L: 1/16
+N: The English language has changed since the 18th century.  The title
+N: originally meant to position one's beaver top-hat at a rakish angle.
+S: McGibbon - Scots Tunes, book II, p.49 (c.1746)
+Z: AK/Fiddler's Companion
+K: G
+%%indent 100
+g2 \
+| d4G2 B3AG2 \
+| A3BA2 c4e2 \
+| d4G2 (TB3AB2) \
+| G2g2d2 B3cd2 \
+| e3def g2d2B2 \
+| A3BA2 c4g2 |
+| d4c2 (BcdcBA) \
+| G2g2d2 B4 :: D2 \
+| G2g2d2 (Bcd2)B2 \
+| A2a2A2 Tc4BA \
+| G2g2d2 (Bcd2)B2 |
+| G2g2d2 (BABc)dB \
+| (cBc)(def) g2G2B2 \
+| A2a2A2 cBcdef \
+| g2(agfe) d2(Bcd)B \
+| G2g2d2B4 :|
+|: D2 \
+| G2(Bcd2) d2(Bcd2) \
+| A2ABcA Tc4e2 \
+| (dcBAB)G (BAB)cdB \
+| G2g2d2B ABcdB \
+| (cBc)def g2d2B2 \
+| A3BA2 Tc4e2 |
+| dcdedc BcdcBA \
+| G2g2d2B4 :: D2 \
+| G2g2d2 BABcdB \
+| A2a2A2 Tc4(BA) \
+| G2g2d2 BABcdB |
+| G2(efg)d BABcdB \
+| cBcdef gfefgB \
+| A2a2A2 cBcdef \
+| gfefge dcBcdB \
+| G2g2d2 B4 :|
+S:https://www.folktunefinder.com/tunes/13155
+S:http://trillian.mit.edu/~jc/music/abc/air/CockUpYourBeaver2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/CockUpYourBeaver2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/CockUpYourBeaver2_G.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

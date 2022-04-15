@@ -1,0 +1,31 @@
+X: 1
+T: It's bonnie o'er the hill the night
+O: Lowe
+R: strathspey
+B: Lowe
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+f \
+| "D"ddd2 d3A "G"B3d e3g | "D"f3d g3d "G"B4 B3e \
+| "D"ddd2 d3A "G"B3d e3g | "D"f3e "G"d3B "A7"A4 A3 :|
+g \
+| "D"f3g a3f "Em"ge3 e3g | "D"f3g a3d "G"B4 "A7"B3g \
+| "D"f3g a3f "Em"ge3 a3g | "D"f3e "G"d3B "A"A4 A3 ||
+g \
+| "D"f3g a3f "Em"ge3 e3g | "D"f3d a3d "G"B4 "A7"B3g \
+| "D"f3g a3f "Em"be3 e2fg | "D"f3e "G"d3B "A7"A4 A3 |]
+S:https://www.folktunefinder.com/tunes/19417
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ItsBonnieOerTheHill_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ItsBonnieOerTheHill_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

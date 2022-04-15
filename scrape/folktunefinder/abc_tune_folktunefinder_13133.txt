@@ -1,0 +1,27 @@
+X:386
+T:Bonnie Banks of Ayr, The
+C:Robert Burns
+B:The Gesto Collection
+N:"Robert Burns composed this beautiful air after dining with a few friends
+N:the day before his intended voyage to the West Indies. His heart having been
+N:always in the Highlands, I have much pleasure in placing this to his memory."
+Z:Nigel Gatherer <gatherer@argonet.co.uk> 2002-5-12
+M:4/4
+L:1/8
+K:C
+G2| FEDC GEGA | c>de>d c3 B    | A>BA>c GA/B/ cA | G<E DC D2 G2 |
+    FEDC GEGA | c>de>d c3 B/A/ | GEDC   A,3    A | G>AGE  C2|]
+S:https://www.folktunefinder.com/tunes/13133
+S:http://trillian.mit.edu/~jc/music/abc/air/BonnieBanksOfAyrThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BonnieBanksOfAyrThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/BonnieBanksOfAyrThe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1271
+T:Coolea Jig, The
+T:Cuil Aodha Jig
+O:england
+R:jig
+H:Played in A or in G
+D:Danta
+D:Tommy Keane and Jacqueline McCarthy: Wind among the Reeds
+M:6/8
+L:1/8
+K:A
+age dBe|ABA c2d|edc dBA|GFE dcB|
+~A3 AGA|~B3 gab|age dBe|1 ABA A2a:|2 ABA A2e||
+e2a aga|bef gab|age dBe|dBA GAB|
+A2a aga|bef gab|age dBe|1 ABA A2e:|2 ABA A2a|
+K:G
+|gfd cAd|GAG B2c|dcB cAG|FED cBA|
+~G3 GFG|~A3 fga|gfd cAd|1 GAG G2g:|2 GAG G2d||
+d2g gfg|ade fga|gfd cAd|cAG FGA|
+G2g gfg|ade fga|gfd cAd|1 GAG G2d:|2 GAG G2g||
+S:https://www.folktunefinder.com/tunes/21720
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

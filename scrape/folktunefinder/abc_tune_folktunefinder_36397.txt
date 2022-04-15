@@ -1,0 +1,23 @@
+X:1590
+T:Ecosse
+M:4/4
+R:Branle
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b72.html
+%%ID:00000b72
+K:G dorian
+"Gm"GA BG "F"AB c2 | "Eb"cB AG "Dm"Bc d2 | "B"df ed "Am"cB AG| \
+"Gm"GA BG "F"AB c2 | "Eb"cB AG "Dm"Bc d2 | "Eb"cB AG "F"AF "Gm"G2 :|\
+"Gm"d2 de "F"fg fe "Gm"d2 d2 "Am"cB A2 | "Gm"d2 "Am"cB "B"A2 "C"G2 |\
+"Gm"d2 de "F"fg fe "Gm"d2 "Dm"d2 "Eb"cB AG "F"AF "G"G2 |]
+S:https://www.folktunefinder.com/tunes/36397
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

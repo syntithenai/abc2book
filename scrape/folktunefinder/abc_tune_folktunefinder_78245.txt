@@ -1,0 +1,24 @@
+X:224
+T: VOEGLEIN EINSAM IN DEM BAUER
+N: B0267
+O: Europa, Mitteleuropa, Deutschland
+R: Stimmungs - Lied, Trauer
+M: 6/8
+L: 1/16
+K: G
+ | D4G2_B4B2 | _B4A2G4D2
+G4A2B4GA | _B4c2d6
+c2d2c2B4B2 | A2_B2A2G4D2
+_E4C2D2G2B2 | _B4A2G6
+S:https://www.folktunefinder.com/tunes/78245
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, trauer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

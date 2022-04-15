@@ -1,0 +1,30 @@
+X: 207
+T:Rugged Saylor,The. HA.206
+M:9/4
+L:1/4
+Q:160
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Double slashes on notes marked "=" are marked below note in MS.
+N:Elsewhere in MS slashes are on note stems. NB
+H:1/4
+Z:vmp.Neil Brookes, Jan.2004
+K:C
+"Barred 6/4 in MS"D|G3/2A/2B gde eBG|ABd e2A A2B|!
+"cr"G3/2A/2B gde dBG|ABd "="B2G G2||!
+g|ece dBd ece|dBG "="B2A A2g|!
+ece dBd ece|dAc "="B2G G2g|!
+ece dBd ece|dBG B2A A2B|!
+G3/2A/2B gde dBG| ABd "="B2G G2|]
+S:https://www.folktunefinder.com/tunes/72456
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

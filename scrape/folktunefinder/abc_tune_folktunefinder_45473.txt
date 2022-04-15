@@ -1,0 +1,29 @@
+X:39
+T:Steyrer Tanz - Clarinetto - in C, nr. 1
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in C
+N:um1800
+N:in der Handschrift keine 2 .Stimme
+M:3/4
+L:1/8
+K:C
+ed |\
+c2 Bdc'b | a2 eggc | c2 BGfB | BdcG ed |\
+c2 Bdc'b | a2 eggc | c2 BGfB | c4 :|
+P:Ausgang
+z2 g2 g2 | g2 a2 b2 | c'4 bc' | c'4 |
+S:https://www.folktunefinder.com/tunes/45473
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: Dunnottar Castle
+O: Middleton Collection
+R: strathspey
+B: RSCDS 38-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+|: D2 \
+| "G"GG3 Bd3 "Em"g3a b3a | "C"gfed cBAG "D"FGAG FD3 \
+| "G"GG3 Bd3 "Em"g3a b3a | "C"gfed "D7"ec'ba "G"bg3 g2 :|
+|| B2  \
+| "G"d3e dB3 "Em"g3f e2d2 | "Am"c3B A3G "D"FGAG FD3 \
+| "G"d3e dB3 "Em"g3f e2d2 | "C"gfed "D7"ef3 "G"g4 G2 ||
+|| (3def \
+| "Em"g3G "D"f3G "C"e3G "G/B"d3B | "Am"c3B A3G "D"FGAG FD3 \
+| "G"BG3 d3B "Am"c3B A3a | "D7"gfed ef3 "G"g4 G2 |]
+S:https://www.folktunefinder.com/tunes/19328
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DunnottarCastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DunnottarCastle_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DunnottarCastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DunnottarCastle_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:5951
+T:Seville Waltz. HSJJ.070
+O:england
+M:3/4
+L:1/4
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Waltz
+A:Lancashire
+H:1823
+K:D
+d/c/|d.F/.A/d|f(A/d/f)|e(A/c/e)|d.F/.A/.d/.c/|d(F/A/d)|f(A/d/f)|e(G/c/e)
+|d2:|
+|:f/a/|{a}ge/g/A|f(d/f/a)|{f}ec/e/A|d.f/.d/.f/.a/|ge/g/A|fd/f/a|ec/e/A|d
+2:|]
+S:https://www.folktunefinder.com/tunes/26403
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

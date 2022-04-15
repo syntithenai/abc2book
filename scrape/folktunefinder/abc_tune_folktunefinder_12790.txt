@@ -1,0 +1,22 @@
+X: 1
+T: Kilgary Mountain
+O: Ireland
+N: There's no such mountain, at least not in Ireland
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G | "C"G2GA GEEG | "Am"A2AB AE2A | "F"AAAB ccBA |
+S:https://www.folktunefinder.com/tunes/12790
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/KilgaryMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/KilgaryMountain_CWw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/KilgaryMountain_CWw.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/song/KilgaryMountain_CWw.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/StPatsDay/song/KilgaryMountain_CWw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

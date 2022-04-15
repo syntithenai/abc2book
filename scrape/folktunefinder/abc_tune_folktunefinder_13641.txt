@@ -1,0 +1,28 @@
+X: 1
+T: Mr. Wilson's Hornpipe
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 16-10(I)
+M: C|
+L: 1/8
+K: G
+d2 \
+| "G"gfge "C"decd | "G"Bcdc "D"BcAB | "G"GFGA "Em"BcdB | "A(m)"AGFE "D"D3d |
+| "G"gfge "C"decd | "G"Bcdc "D"BcAB | "G"GFGA "D7"BcAB | "G"G2B2 G2 :|
+|: dc \
+| "G"BcAB "Em"G3A | "B7"BcAB "Em"G3A | "G"BcdB "Em"edcB | "A(m)"A^GAB "D7"A3d |
+| "G"BcAB "Em"G3A | "B7"BcAB "Em"G3A | "G"BcdB "D7"AGAB | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/13641
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MrWilsonsH_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/MrWilsonsH_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MrWilsonsH_G4.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

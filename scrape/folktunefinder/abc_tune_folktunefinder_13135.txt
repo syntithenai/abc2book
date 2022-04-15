@@ -1,0 +1,29 @@
+X: 1
+T: the Bonnie Lass o' Bon Accord
+C: James Scott Skinner
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ "(E7)"E \
+| "A"A>B "E7"c>B "A"AA, CE | "A"A/G/A/f/ e/c/B/A/ "E7"B3 E \
+| "A"A>B "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 :|
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 e \
+| "A"a>c "D"df "A"eA a=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 c \
+| "A"A,/C/E/A/ "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+S:https://www.folktunefinder.com/tunes/13135
+S:http://trillian.mit.edu/~jc/music/abc/air/BonnieLassOBonAccordA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BonnieLassOBonAccordA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/BonnieLassOBonAccordA.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 30
+T: Tipsy Sailor, The
+C: J-10
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 13cm
+K: Gm
+"Gm"gdB  gdB| gdB g2a| bag g^fg| "D"a^fd dcd|
+"Gm"gdB  gdB| gdB g2a| bag "D"^fga|1 "Gm"g3 g2 z :|2 "Gm"g2 z "F"=f3 |]
+|:\
+"Bb"fdB BAB| fBB "Eb"gBB| "Bb"fdB BAB| "F"cAF FAc|
+"Bb"fdB BAB| fBB "Eb"gBB| "Bb"fba gfe|1 dcB "F"AGF:|2 "Gm"dcB "D"A^Fd|]
+%%text 10/27/99
+S:https://www.folktunefinder.com/tunes/1852
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

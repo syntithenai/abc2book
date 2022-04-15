@@ -1,0 +1,27 @@
+X: 1
+T: Viscount Reidhaven
+C: William Marshall
+R: reel
+B: RSCDS 38-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|: "F"c2AB c2AB | cagf "C"ecc2 | "Bb"d2Bd "F"c2Ac | "C7"GdcB "F"AFF2 :|
+|| "F"aff2 cfAf | "Bb"defg "F"aff2 | "Gm"bgg2 "G7"dg=Bg | "C"efga "C7"bgg2 |
+| "F"aff2 cfAf | "Bb"defg "F"afcA | "Gm"BdBd "F"AcAc | "C7"GdcB "F"AFF2 |]
+S:https://www.folktunefinder.com/tunes/18274
+S:http://trillian.mit.edu/~jc/music/abc/reel/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ViscountReidhaven.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ViscountReidhaven.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:2559
+T:Hewitson's Hornpipe
+O:england
+C:S.W.
+M:4/4
+A:North-West
+R:Hornpipe
+K:F
+(3cde|\
+gfcB ABcA| BcdB G2GF| EFGE CDEC| FGAB =Bcde|\
+fcag fedc| dBba gfed| cfdB AFGE| [F2A,2][F2A,2][F2A,2] :: AB|\
+{d}c=BcA Fafc| d^cdB Gbge| fcag fedc| BAGF ECDE| \
+FEFE Fafc| dBba gfed| cfdB AFGE| [F2A,2][F2A,2][F2A,2] :|
+S:https://www.folktunefinder.com/tunes/23010
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

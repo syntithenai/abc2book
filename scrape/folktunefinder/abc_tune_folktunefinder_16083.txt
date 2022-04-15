@@ -1,0 +1,24 @@
+X: 1
+T: Elegant Esther Gray
+C: L.Ross
+R: polka
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"d4 cdcA | B2F2 F2A2 | B3A B3F | "G"A2G2 G2B2 \
+| "A7"e4 dedB | d2c2 c3G |1 "A7"B3A c3A | B2A2 B2c2 \
+                        :|2 "A7"A4 GFE2 | "D"D8 |]
+|: "G"D2G2 G2B2 | "D"D2F2 F2A2 | "G"D2G2 G2B2 | "D"d2B2 A4 \
+| "Em"G2B2 B2e2 | "D"F2A2 A2d2 |1 "A7"c4 BAG2 | "D"F2E2 D4 \
+                              :|2 "A7"c3B A2A2 | B2c2 "D"d4 |]
+S:https://www.folktunefinder.com/tunes/16083
+S:http://trillian.mit.edu/~jc/music/abc/polka/ElegantEstherGray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/ElegantEstherGray_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

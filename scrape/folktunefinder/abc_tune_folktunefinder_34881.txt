@@ -1,0 +1,31 @@
+X: 7664
+T:Polska fr Falu Spelmanslag record (1)
+D:Tune \#3 from "i st\"otten", Falu Spelmanslag, Tong\aa{}ng AWCD-18
+R:Polska
+Q:1/4=92
+O:Sweden
+M:3/4
+C:e. Petters Erik Eriksson
+B:L\aa{}tar fr Dalarna, Paul B\"ackstrom 1974
+A:Dalarna
+K:G
+D2 G2 A>B| c2 BG (E2| \
+E2) cB A>G| F<G AF (D2| \
+D2) G2 A>B| c2 BG(E2|
+E2) cB A>G| FE/F/ G4::\
+G>B dc B>A| G<c ed c>B|\
+A>B c/d/c/A/ B>G| F<G AF (D2|
+D2) dc B>A| G<c ed c>B|\
+A>B c/d/c/A/ B>G| FE/F/ G2:|
+S:https://www.folktunefinder.com/tunes/34881
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

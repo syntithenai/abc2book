@@ -1,0 +1,28 @@
+X:9
+T:The Heathery Cruach
+R:reel
+D:i.James Kelly ii.John Doherty iii.Altan
+B: The Northern Fiddler
+S:Clare FM
+Z:composite setting psc -  http://www.cranfordpub.com
+L:1/8
+Q:333
+M:C|
+K:D
+(3(ABc)|d2  AG FDGE|FDGF E2 (3ABc|d2 AG (3(FED) GE|FDEC D2 (3(ABc)|
+d2  AG FDGE|FDGF EGFG|ABAG (3(FED) GE|FDEC D2:| 
+|: ((3Bcd)|cA A/A/A cAGE|cBcd efed|cA ((3Bcd) cAGE|FAGE D2 (3(Bcd)|
+cA A/A/A cA ((3Bcd)|cBcd efga|fged ceAG|EFGE D2:|
+S:https://www.folktunefinder.com/tunes/66653
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

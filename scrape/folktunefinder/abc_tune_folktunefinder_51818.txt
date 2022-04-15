@@ -1,0 +1,24 @@
+X:2
+T:RedStockings [2]
+M:9/8
+L:1/8
+R:SlipJig
+S:Ryan\'isMammoth Collection (1883)
+Z:AK/Fiddler\'isCompanion
+K:D
+A |FGA D2B AFD | FGA D2=c (B2.A) | FGA D2B AFD | =cBc E2F (G2A) | 
+FGAD2B AFD | FGA D2=c (B2A) | FGA D2B AFD | =cBc E2F G2 || A | 
+dcd D2BAFD | dcd A2g (f2e) | dcd D2B AFD | =cBc E2F (G2.A) | dcd D2B AFD | 
+dcdA2g gfe | def efd cBA | BdB AGA B2 ||
+S:https://www.folktunefinder.com/tunes/51818
+S:http://www.kennaquhair.com/tunes/tradtunes3.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

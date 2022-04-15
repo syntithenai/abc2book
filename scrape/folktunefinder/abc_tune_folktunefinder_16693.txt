@@ -1,0 +1,31 @@
+X:1
+T:Moving In Decency
+T:Ag Bogadh Linn go Measu/il
+B:Breathnach, Ceol Rince na hE/ireann II, no. 252
+S:Jim Conroy, flute, Clonco, Graigue, County Galway, VII, 1969
+Z:Paul de Grae  irtrad-l 2001-10-5
+R:Reel
+M:4/4
+L:1/8
+K:Edor
+FA \
+| Beed B2 ed | Beed BcAG | FADA FADF | AFDF A2 FA \
+| Be (3ede B2 ed | Beed BcAF | G{A}G{F}GA BGdB |1 AGFG E2 :|2 AGFG E3 z ||
+|: e3 f edBA | (3Bcd ef g2 fe | d3 e dAFA | dcde f2 {gf}ed \
+| e{a}e{d}ef edBA | Bdef gedB | G{A}G{F}GA BGdB | AGFG E3 z :|
+S:https://www.folktunefinder.com/tunes/16693
+S:http://trillian.mit.edu/~jc/music/abc/reel/AgBogadhLinnGoMeasuIl_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MovingInDecency_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/AgBogadhLinnGoMeasuIl_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MovingInDecency_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/AgBogadhLinnGoMeasuIl_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MovingInDecency_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

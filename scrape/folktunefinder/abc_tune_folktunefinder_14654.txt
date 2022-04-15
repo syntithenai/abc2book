@@ -1,0 +1,23 @@
+X: 1
+T: Miss Betty Hunter
+O: Charles Duff
+B: RSCDS 20-3a
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2A F>AF | D2D D2F | "Em"G2F E2D | "A7"DCB, A,2A \
+| "D"d2A F>AF | "Bm"D2D D2A | "Em"B2G "A7"E2C | "D"D2D D2 :|
+|: A \
+| "D"A2A A>B=c | "G"=cBB B3 | "E7"B2B Bcd | "A7"dcc c2A \
+| "D"d2A f2d | "F#m"aaf "Bm"d2A | "Em"BBG "A7"E2C | "D"D2D D2 :|
+S:https://www.folktunefinder.com/tunes/14654
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissBettyHunter_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissBettyHunter_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissBettyHunter_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

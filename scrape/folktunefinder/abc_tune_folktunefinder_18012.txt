@@ -1,0 +1,25 @@
+X: 1
+T: Reel des vieux
+T: Old Folks' Reel
+C: trad Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: D
+|: [A3D3]B AFDF | defe dBAF | AD[A2D2] [D4A,4] \
+|  A2AB AFDF |1 GEED EFGB :|2 GEED E3A ||
+|: Acde fdec | Acde fe(3eee | Acde fdec | BdAF EEFE :|
+[| Acde fdec | Acde fefg | affe fefg | affe fedf |[M:3/4] edAF E2ED EFGB |]
+S:https://www.folktunefinder.com/tunes/18012
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_des_vieux_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Reel_des_vieux_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Reel_des_vieux_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

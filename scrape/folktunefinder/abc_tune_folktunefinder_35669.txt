@@ -1,0 +1,22 @@
+X: 9769
+T:Jenny's Bawbee
+R:Hornpipe
+N:http://diana.ecs.soton.ac.uk/~jra/NMD/hpps.txt
+M:2/4
+L:1/16
+K:D
+fg|"D"abag f<d(3def|"G"gBed "A7"c<AA2|\
+"D"abag f<ddf|"G"B<d"A7"c<e "D"d2:|!
+|:de|"D"fd"G"ge "D"f<d(3def|"G"gBed "A7"c<AA2|\
+"D"fd"G"ge "D"f<ddf|"G"B<d"A7"c<e "D"d2:|]
+S:https://www.folktunefinder.com/tunes/35669
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

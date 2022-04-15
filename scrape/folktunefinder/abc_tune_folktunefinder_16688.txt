@@ -1,0 +1,24 @@
+X: 1
+T: Aandowin at da Bow
+O: Shetland
+M: C|
+L: 1/8
+K: G
+(A | "G"B)GAG "C"E2"D"D2 | "G"(BG)(AG) "D"BGAd | "G"BGAG "C"E2(DE) | "D7"GABA "G"G3 :|
+(g | "G"eg)dB "C"AGE2 | "G"(eg)dg "D"egd(g | "G"eg)dB "C"AGE(e | "G"g3)(g "D"a)(f"G"g2) |
+   | "G"egdg "D"egd(g | "G"eg)dB "C"A(GED) | "G"GABG "C"E2(DE) | "D7"GABA "G"G3 |]
+S:https://www.folktunefinder.com/tunes/16688
+S:http://trillian.mit.edu/~jc/music/abc/reel/Aandowin_at_da_Bow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/Aandowin_at_da_Bow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Aandowin_at_da_Bow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/r16/Aandowin_at_da_Bow_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/Aandowin_at_da_Bow_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

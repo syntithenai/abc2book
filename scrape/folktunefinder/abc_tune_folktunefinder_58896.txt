@@ -1,0 +1,29 @@
+X:9
+T:A la sombra d'un pinu (MQ 100)
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Este romance es muy popular en Quirs y Teberga.
+N:Siendo yo un cro era muy frecuente escucharlo cantar en las fiestas y bailes de la zona.
+A:Asturies
+Z:Manolo Quirs 100
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+|: G2 G|FGF|E2 E|G2 G|FGF|E3|F2 E|DED|C2 D|F2 E|DED|C3 :|
+|: E2 E|DED|C2 C|F2 F|EFE|D3|D2 D|CDC|B,2 D|G2 F|EDE|C3 :|
+S:https://www.folktunefinder.com/tunes/58896
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

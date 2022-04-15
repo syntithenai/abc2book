@@ -1,0 +1,23 @@
+X:6509
+T: The Basque Jig
+O:england
+C: Marin Marais (1656-1728) French Composer and Bass Viol Player
+D: "Barn Dance" by the English Country Dance Band
+M: 6/8
+L: 1/8
+Q:1/4=167
+K:G
+d|:"C"g2d"C"g2d|"G"Bcd"G"G3|"D"ABc "G"def|"C"gfe"G"d2d|
+"C"g2d"C"g2d|"G"Bcd"G"G3|"D"ABc "G"def|1 "G"g3 "D"z2d :|2 "G"g3 "D"f3|:
+"C".e.ee "D"f2e|"G".d.dd "C"e2d|"C".c2c "D"d2c|"G"B2c"C"d3|
+"C".e.ee "D"f2e|"G".d.dd "C"e2d|"C"c2A "D"FGA|"G"G4 z2 :|
+S:https://www.folktunefinder.com/tunes/26961
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

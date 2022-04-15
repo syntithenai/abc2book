@@ -1,0 +1,19 @@
+X: 1
+T: Seven-Step Polka
+O: Trad Shetland
+M: C
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K: D
+A \
+| "D"dd dd | "A7"cdec "D"d2A2 | "D"ff ff | "A7"efge "D"f2d2 |
+|: "G"bb "D"a3f | "A7"gg "D"f3d | "G"B2e2 "Em"e3d |1 "A7"cABc defa :|2 "A7"cABc d2 |]
+S:https://www.folktunefinder.com/tunes/16226
+S:http://trillian.mit.edu/~jc/music/abc/polka/SevenStepPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/SevenStepPolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:13895
+T:Railside Clog
+R:Clog
+C:Bruce Osborne  --  May 14 1991
+M:2/4
+L:1/8
+K:G
+(3DEF|G>D B,>D|G,>B, D>G|E>C E>G|c>c B>A|!
+G>D B,>D|G>B d>g|f>e f>g|a2 (3DEF|!
+G>D B,>D|G,>B, D>G|E>C E>G|c>c B>A|!
+G>D B,>D|G>B d>B|(3cBA F>D|G2:|!
+|:B>c|d>g f>g|b>g f>g|(3ege c>A|E2 F>E|!
+D>F A>B|(3cBA F>D|(3GBA (3GFE|D2 G>A|!
+B>g f>g|b>g f>g|(3ege c>A|E2 F>E|!
+D>F A>B|(3cBA F>D|G>B A>F|G2:|!
+S:https://www.folktunefinder.com/tunes/63905
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

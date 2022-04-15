@@ -1,0 +1,27 @@
+X: 1
+T: LITTLE PEGGY'S -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: 2001 by John Chambers jmchambers:rcn.net
+K: G
+G \
+| "G"GBd     gfg | "C"edc "D7"cBA | "G"GBd  "C"efg |"D7"fdd d2f \
+| "G"gbg "D7"afd | "C"cde  "G"dBG |"Em"GAB "D7"cAd | "G"BGG G2 :|
+|: c \
+| "G"BGB  "C"cde | "G"dBG "D7"A2G | "G"GBd "A7"efg |"D7"fdd d2f \
+| "G"gbg "D7"afd | "C"cde  "G"dBG |"Em"GAB "D7"cAd |"D7"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/14549
+S:http://trillian.mit.edu/~jc/music/abc/jig/LittlePeggysJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LittlePeggysJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/LittlePeggysJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LittlePeggysJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LittlePeggysJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

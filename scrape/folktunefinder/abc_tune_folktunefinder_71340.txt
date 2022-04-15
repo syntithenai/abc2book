@@ -1,0 +1,25 @@
+X:311
+%%topmargin 3cm
+T:Cawdor Fair
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+G | {AB}c>BA>G A{/B}c TE2 | {/^F}G>A{/F}G>E {/F}TG2 GA/B/ | {AB}c>B{cB}A>G A>{/B}c TE2 | DDE>G A2 Az :|
+E | {/^F}G<cc>d c>d{/d}c>B | (A<d)Td>c d2 {AB}c>d | e>d{AB}c>B {/B}c>B{cB}A>G | (3ABc (3Bcd {AB}c2 c :|
+W:These three tunes should be played in succession. (Cawdor Fair, An gabh Thu Bean a Dho'll bhig, and The Drummer \~n rp)
+S:https://www.folktunefinder.com/tunes/71340
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

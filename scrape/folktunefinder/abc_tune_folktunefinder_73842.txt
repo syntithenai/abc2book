@@ -1,0 +1,28 @@
+X:683
+T: Planxty Toby Peyton
+C:Turlough O'Carolan
+B:O'Neill's 679
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Lively"
+N:"2nd Setting"
+N:collected by F.O'Neill.
+M:6/8
+L:1/8
+K:Gm
+d \
+| cA^F GA>G | FDE F>GF | DG^F (GA).c | (dg)=e f2g |
+| a>ba gag | fed edc | Af.d (cA)^F | (Gg).=e f2g |
+| (af)d (cA)^F | G3 G2 :: F | (DF).F (CF).F | (A,F).F (CF).F |
+| (Dd).d (Dc).c | (DB).B (DA).A | a>ba gag | fed edc |
+| (Af).d (cA).^F | (Gg).=e f2g | (af)d (cA)^F | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/73842
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

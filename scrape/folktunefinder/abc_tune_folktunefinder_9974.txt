@@ -1,0 +1,25 @@
+X: 1
+M:6/8
+L:1/8
+P: Bargenny
+C:Barbara McOwen
+Z:Ian.Brockbank:edo.mts.dec.com
+N:Dance instructions at
+D:Capercaillie as the first tune in the "Maggie's Megaset" set on their album "Cascade"
+R:Jig
+K:D minor
+ |: A | "Dm"DED D2 c | "C"GEC C2 E | "Dm"DED D2 e | f2 d "Am"ecA | "F"fgf "C"{f}e2 d | "F"cAc "C"C2 E | "Dm"DED D2 f | "C"(e/2f/2g)e "Dm"d2 :|
+ |: A | "Dm"ded d2 a | "C"gec c2 e | "Dm"ded d2 a | "C"g2 e "Dm"fdA | "F"fgf "C"{f}e2 d | "F"cAc "C"C2 E | "Dm"DED D2 f | "C"(e/2f/2g)e "Dm"d2 :|
+ |: A | "Dm"dAd "Am"cAc | "C"GEC C2 c | "Dm"dAd "Am"cAc | "Dm"dAd "Am"cAc | "Dm"fed cAF | "C"GEC C2 E | "Dm"DED D2 f | "C"(e/2f/2g)e "Dm"d2 :|
+ |: f/2g/2 | "Dm"afd afd | "C"gec efg | "Dm"afd afd | "Dm"~afd d2 e | "F"fgf "C"{f}e2 d | "F"cAc "C"C2 E | "Dm"DED D2 f | "C"(e/2f/2g)e "Dm"d2 :|
+S:https://www.folktunefinder.com/tunes/9974
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BargennyTwasome.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

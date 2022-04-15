@@ -1,0 +1,23 @@
+X: 111
+T:Entertainer
+M:4/4
+L:1/8
+Q:1/8=140
+K:C
+D^D | E c2 E c2 Ec- | c4- ccd^d | ecde- eB d2 | c6 D^D | E c2 E c2 Ec- |
+ c6 AG |
+^FAce- edcA | d6 D^D | E c2 E c2 Ec- |  c4- ccd^d | e c de- eB d2 |
+c6 cd | ecde- ecdc | ecde- ecdc | ecde- eB d2 | c4 z ||
+EF^F | G2 AG- GEF^F |G2 AG- GecG | ABcd edcd | G2 z GEF | G2 AG- GEF^F |
+ G2 AG- GGA^A |
+B B2 B- BA^FD | G4 z EF^F | G2 AG- GEF^F | G2 AG- GecG |
+ABcd edcd | c4 cG^FG | c2 Ac- cAcA | Gceg- gecG | A2 c2 e d3 |  c4 z ||
+S:https://www.folktunefinder.com/tunes/52182
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

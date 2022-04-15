@@ -1,0 +1,45 @@
+X: 55
+T:Kellie Cranky. JMP.055
+T:Killicrankie,aka. JMP.055
+M:2/4
+L:1/16
+Q:100
+C:"60...a Favourite Scotsh tune"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:1 - wrong number of beat in a  bar
+N:2 - not shown as triplets
+N:3 - letter 'd' written over the not
+H:1799
+Z:vmp.C. Graebe
+K:D major
+(DF) | A3B A2F2 | (AF)(AB) A3d | AGFE DEFG | A4 A2 (dc) |\
+B3cB2A2 |  BABc B3c | (dc)(de) (fe)(dc) | "tr"B6 a2 |\
+b2(ag) a2(gf) | g2(fe) f2(ed) |  e2(dc) (ge)(dB) | d6 (fe) |\
+dcde fefg | afba gfed | "1" ((3Bcd) ((3cde) d3F |\
+"tr" E6 D :||: (df) | a3ba2f2 | (af)(ab) abc'd' | agfe defg |\
+a^gab a3 b | b3c' b2a2 | babc' a3d' | (ba)(gf) (ed)(ga) |\
+b4d'4 | "1"(bc'b) (gb) |"1" (ac'a) (fa) | "1" (gbg) (eg) |\
+"1" (faf) (df) | (gf)(ge) dcdF | A3B A2 dc | (BA)(Bc) (dc)(de) |\
+(fe)(ba) gfed | dcBA d2F2 | "tr"E4 D2 z :||: FG |\
+ AFAB (Ad)(cd) | AFAB (Ad)(cd) | {B}AGFE DEFG |\
+A^GAB (Ad)(cd) | BAB"3"d (Bd)(cd) |  BABc (Bd)(cd) |\
+Bcde fedc | (Bb)(^ab) B2a2 | .b.a(fb) .a.g(ea) |\
+.f.e(df) .e.d(ce) | dcdB ABdF | (A^G)(AB)  (Ad)(cd) |\
+{c} "tr"BABc (dc)de | {g}febe (fe)(dc) |\
+ "2"((3Bcd) ((3cde) d2F2 | "tr" E4 D2 :|]
+S:https://www.folktunefinder.com/tunes/1992
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

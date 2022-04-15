@@ -1,0 +1,26 @@
+X: 23
+T: The Silver Spear
+O: Trad Ireland
+M: C|
+L: 1/8
+K: D
+|: "D"FA ~A2 BAFA | dfed "G"Bc"A7"dA \
+|  "D"FA ~A2 BAFA | dfed "G"B2"A7"A2 |
+|  "D"FA ~A2 BAFA | dfed "G"Bdef \
+| "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :|
+|: "D"f2af bfaf | "G"gfed Bcde \
+|  "D"f2af bfaf | "Em"gfed "G"B2 "A7"A2 |
+|  "D"f2af bfaf | "G"gfed Bdef \
+| "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6404
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

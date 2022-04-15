@@ -1,0 +1,35 @@
+X:2826
+T:In the Quest of the Holy Grail
+C:M. Wilson
+O:England
+M:4/4
+L:1/8
+Q:1/4=120
+K:Ab
+V:1
+E E|^G2 ^G^G G2 E2 |(F2 G2 E2) ^GB |c2 cc (B^G) B2 |
+^G6 c^c |e2 cB (^GG) (FE) |(^G2 B2 c2) ^c2 |c2 c2 (B^G) B2 |
+^G6 ||fine^G^G |G2 G2 z2 G2 |F2 F2 z2 FF |
+(G2 c4) G2 |G6 GG |F2 F2 z2 FF |(E2 F2 E2) E2 |
+(E2 c4) E2 |E6 ||
+V:2          %alt
+EE |C2 CC C2 C2 |(B,2 E^C C2) C^C |E2 ^GG F2 (E^C) |
+(E2 F2 E2) ^G^G |(GF) E^C C2 (^CE) |(F2 G2 ^G2) (^GG) |^G2 E2 F2 G2 |
+E6 ||fineEE |E2 E2 z2 E2 |^C2 ^C2 z2 ^C^C |
+E6 E2 |E6 EE |^C2 ^C2 z2 ^C^C |C6 C2 |
+C6 C2 |(C4 ^C2) ||
+V:3          %tenor
+EE |E2 EE E2 G2 |(F2 E2 ^G2) ^GB |(cB) ^GG ^c2 (cB) |
+(c2 ^c2 c2) ff |e2 gg f2 (^cc) |(Bc ^c2 e2) f2 |e2 ^G2 (^cc) B2 |
+c6 ||finecc |c2 c2 z2 c2 |B2 B2 z2 BB |
+c6 c2 |c6 cc |B2 B2 z2 BB |^G6 ^G2 |
+^G6 ^G2 |(^G4 G2) ||
+S:https://www.folktunefinder.com/tunes/23277
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

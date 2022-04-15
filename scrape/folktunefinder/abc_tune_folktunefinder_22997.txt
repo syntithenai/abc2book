@@ -1,0 +1,35 @@
+X:2546
+T:Henry Ford's Old Barn Dance
+O:england
+S:Dave MacIsaac, "From the Archives" Pickin' Productions 02 50400
+M:4/4
+L:1/8
+Q:1/4=170
+K:D
+z F-F2 G2 ^G2 |: "D" .A2 .D2 .B2 .d2 | "D" f2 a2 afdB | "D" A^GAd fefd |
+"A" c6-cF | "A" GGAA ccee | "A" z a-aa ge =cB | "A" A^G A2 =gf b2 |
+"D" f4-fF G^G | "D" .A2 .D2 .B2 .d2 | "D" f2 a2 afdB | "D7" .=c2 .B2 bag
+f |
+"G" a b/a/ g2-gB _B=B | "G" (3aaa g z "Gm" z B_B=B | "D" (3ggg .f z2 A ^
+GA |
+"E7" (3BBB B2 "A7" (3ccc c2 | [1 "D" d4-dF G^G :|[2 "D" d8 |
+"D" (3F=F^F (3A^GA (3dcd (3f=f^f | "D" b2 ba z4 |
+"D" (3F=F^F (3A^GA (3dcd (3f=f^f | "A" a2 _a.g z2 =A2 |
+"A" B2 =c.^c z c'2 c' | "A" b2 a2 a2 z2 | "A" (3EFG A>a (3gfe (3dcB |
+"D" A8 | "D" (3F=F^F (3A^GA (3dcd (3f=f^f | "D" b2 ba z4 |
+"D" (3F=F^F (3A^GA (3dcd (3f=f^f | "A" a2 _a.g z=A3 | "A" B2 =c^c z c'2
+c' |
+"A" b2 a2 z A ^GA |[1 "E7" (3BBB B2 "A7" (3ccc c2 |
+"D" d4-dF G^G :|[2 "E7" .B2 z2 "A7" .c2 z2 |
+z2 "Db" c'2_a2=f2 "D" d'4=a4^f4 ||
+S:https://www.folktunefinder.com/tunes/22997
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

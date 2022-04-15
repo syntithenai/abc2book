@@ -1,0 +1,26 @@
+X:1
+T:River of Ponds
+R:Jig
+Z:From Rufus Guinchard
+Z:by Gerry Strong <gerry.strong:nf.sympatico.ca> irtrad-l 2001-01-04
+M:6/8
+L:1/8
+K:D
+|: d2c B2A | Bcd ~A3 | ABA A2 G | F2 G A3 \
+| d2 c B2 A | Bcd A2 A | Bcd f2 e |1 d3 d3 :|2 d3 d2 e |
+|: ~f3 fef | agf e2 A | Bcd e2 f | e2 d cBA \
+| ~f3 fef | agf e2 A | Bcd e2 c |1 d3 d2 e :|2 d3 d3 |]
+S:https://www.folktunefinder.com/tunes/14963
+S:http://trillian.mit.edu/~jc/music/abc/jig/RiverOfPonds.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/RiverOfPonds.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/RiverOfPonds.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RiverOfPonds.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

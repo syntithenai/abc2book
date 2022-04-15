@@ -1,0 +1,22 @@
+X: 1
+T: Lotte gik
+N: Same tune as Finnish "Raatikkoon", but with parts reversed
+O: Denmark
+M: 2/4
+L: 1/8
+K: G
+|:"G"g2 g2 |"D7"f2 f2 |  "C"e2 e2 | "G"Hd4 \
+| "C"ce dc | "G"Bd cB | "D7"Ac BA | "G"G2 z2 :|
+|:"G"Bd G2 |    Bd G2 |  "C"e2 e/f/g/e/ | e2 "G"d2 \
+| "G"Bd G2 |    Bd G2 | "D7"A2 A/B/c/A/ | A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/310
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/LotteGik_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Denmark/LotteGik_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

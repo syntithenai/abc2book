@@ -1,0 +1,26 @@
+X:1
+T: SO LEB DENN WOHL
+N: B0489
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 3/4
+L: 1/8
+K: Eb
+B=AB | c3FAD | E2z
+B=AB | d3cBA | G2z
+B=AB | d3Bcd | e3
+GFG | c3BAF | E2z
+S:https://www.folktunefinder.com/tunes/62024
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

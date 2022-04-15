@@ -1,0 +1,22 @@
+X:34
+T: HOLZAEPFELBAEUMCHE
+N: E1029
+O: Europa, Mitteleuropa, Deutschland, Hessen, Frankfurt; Wetzlar
+R: Tanz - Lied
+M: 2/4
+L: 1/8
+K: F
+ | c2cf | c2A
+c | ccBG | A2z
+F | cccf | ccA
+c | ccBB | F2z2
+S:https://www.folktunefinder.com/tunes/79138
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

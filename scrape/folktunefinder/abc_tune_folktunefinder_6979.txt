@@ -1,0 +1,20 @@
+X: 1
+T: German's Freilachs
+C: German Goldenshteyn
+M: C
+L: 1/8
+K: Dm^c
+|: "Dm"Afed "A"c2BA | "Dm"d8 | "Dm"Afed "A"c2BA | "Gm"G8 | "Gm"zG^FG ABAG | "Gm"zBAB cdcB |
+| "A"e2d2 c2"Gm"Bc |1 "A"A8 :|2 "A"A4 zABc |: "A"e8 | "A"a8 | "A"~e>d d<c ~e>d d<c | "A"~e>d d<c cBBA |
+| "Gm"G8 | "Gm"zG^FG ABAG | "Gm"zBAB cdcB | "A"e2d2 c2"Gm"Bc |1"A"A4 zABc :|2 "A"A8  |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/6979
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_Germans.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

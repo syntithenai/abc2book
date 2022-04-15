@@ -1,0 +1,32 @@
+X:8
+T:A la mar fui por naranxes (MQ 030)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin popularsima en toda Asturias.
+N:Es muy corriente que la mayora de los gaiteros la toquen en modo mayor a pesar de estar escrita en menor.
+N:Tocndola tal como est escrita sirve muy bien para practicar el Lab y el Mib.
+A:Asturies
+Z:Manolo Quirs 030
+M:2/4
+L:1/8
+Q:1/4=100
+K:Cm
+|: CD EF|G3 F|A2 G2|GG GG|F3 E|D2 C2|
+CD EF|G3 F|A2 G2|GG GG|F3 E|D2 C2|
+DE DC|=B,4|DD DE|F3 E|D2 C2|
+DE DC|=B,4|DD DE|F3 D|GF ED|C4 :|
+S:https://www.folktunefinder.com/tunes/58895
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

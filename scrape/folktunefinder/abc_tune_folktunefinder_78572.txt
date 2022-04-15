@@ -1,0 +1,25 @@
+X:131
+T: ES WOLLT EIN MAEDCHEN INS KLOSTER GEHN
+N: E0068A
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2GA | B2B2A2
+B2 | c2B2A2G2 | A4z2
+d2 | d2d2d2ed | d2c2z2
+AB | c2c2c2dc | B2A2B2
+GA | B2dcB2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/78572
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

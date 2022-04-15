@@ -1,0 +1,31 @@
+X: 1
+P: Maria Pentayiotissa
+R: tsamikos
+O: Greece
+N: From printed arr. by A Eptamenitis
+M: 3/4
+L: 1/16
+K: Gdor
+"A"[|]\
+z2A2B2 \
+| "Gm"e3{fe}d ~^c2B2 ~A2G2 | "D"A4- A2G2 A2B2 | d3^c B2A2 G2^F2 | "Gm"G3g g2g2 g2a2 | "Gm"g3{ag}f ~e2d2 ~^c2B2 |
+| "D"A4- A2G2 A2B2 | d3^c BABc d4 | "Gm"G6 "B"|: z4G2 | "A"A2B2 ^c2d2 e2c2 | "Dm"d12 | "Gdim"^c3d c2d2 e2f2 |
+| "Gm"{a}g3f e2d2 ^c2B2 | "A"T^c4- c2B2 A2B2 | e3d ^c2B2 A2G2 | "D"A8 A4 | D3E ^F2G2 A2B2 | ^c3d cBAB c2d2 |
+| "C"G3=c c2c2 c2^c2 | "D"{e}d3^c BABc d4 | "Gm"G6 "C":: d2^c2B2 | "D"A4- A2G2 ^F2G2 | "A"A2B2 ^c8 |
+| "D"{e}d3^c BABc d4 | "Gm"G3f e2d2 ^c2B2 | "D"A4- A2G2 ^F2G2 | "A"A2B2 ^c8 | "D"{e}d3^c BABc d4 | "Gm"G6 :|
+S:https://www.folktunefinder.com/tunes/6105
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TSAM01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Tsamikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Tsamikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Tsamikos.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Tsamikos
+% Rhythm Tsamikos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

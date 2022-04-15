@@ -1,0 +1,43 @@
+X:20
+T:Alleluia "du Jubil" - U27-30
+C:J.P. Lcot
+%%staves {(1 2) (3 4)}
+M:12/4
+L:1/2
+Q:"Joyeux" 3/4=63
+K:F
+V:1
+(DA/)(A=B/)(c=B/)|A3/(FA/)(GF/)(ED/)|E3/(DA/)(A=B/)(c=B/)|A3/F3/G3/A3/|HD3/||
+V:2
+(A,D/)E3/(EG/)|E3/D3/D3/B,3/|C3/(A,D/)E3/E3/|C3/B,3/_E3/^C3/|A,3/||
+V:3
+F,3/(A,G,/)(A,=B,/)|C3/(A,F,/)(G,A,/)G,3/|G,3/F,3/(A,G,/)(A,G,/)|F,3/G,3/A,3/E,3/|F,3/||
+V:4
+D,3/(C,=B,,/)(A,,E,/)|A,3/D,3/=B,,3/G,,3/|C,3/D,3/(C,=B,,/)(A,,E,/)|F,3/D,3/C,3/A,,3/|D,3/||
+V:1
+"Soliste"F4G4A4G/"Tous"|[M:9/4](FA/) (GF/) (ED/)|E3/|
+V:2
+D4E4F4D/|D3/D3/=B,3/|C3/|
+V:3
+A,4=B,4A,4B,/|(A,F,/) (G,A,/) G,3/|G,3/|
+V:4
+D,4-D,4-D,4G,/|D,3/B,,3/G,,3/|C,3/|
+V:1
+"Soliste"D4G4F4E/"Tous"|[M:9/4]F3/ G3/ A3/|HD3/:|
+V:2
+A,4=B,4_B,4G,/|B,3/_E3/^C3/|A,3/:|
+V:3
+F,4D,4D,4C,/|G,3/A,3/E,3/|F,3/:|
+V:4
+D,4G,,4B,,4C,/|D,3/C,3/A,,3/|D,3/:|
+S:https://www.folktunefinder.com/tunes/77610
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 12/4
+% Time_signature 9/4
+% Has_accompaniment_chords Has chords

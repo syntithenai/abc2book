@@ -1,0 +1,32 @@
+X:7
+T:MacLeod's Farewell
+R:reel
+C:Donald Shaw
+O:20 century Scotland
+H:apparently written in E major
+D:i.Seamus Butler, The Luck Penny,ii. Lunasa, Merry Sisters of Fate 
+N:circulating as "The Wedding Reel", without composer credit
+S:Clare FM
+Z:psc -  http://www.cranfordpub.com
+L:1/8
+Q:333
+M:C|
+K:D
+DE|F2 BF AFEF|D/D/D DE FABd|e2 fd efed|B2 eB dBAG|
+F2 BF AFEF|D2 DE FABd|edfd efdB|ABde d2:|
+|:dB|A/A/A  fd edfd|A/A/A fd efed|B2 dA BdAB|dBAF EDB,D|
+F2 BF AFEF|D2 DE FABd|edfd efdB|ABde d2:|
+S:https://www.folktunefinder.com/tunes/66651
+S:http://cranfordpub.com/tunes/abcs/ClareFM.abc
+S:http://www.cranfordpub.com/tunes/abcs/ClareFM.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

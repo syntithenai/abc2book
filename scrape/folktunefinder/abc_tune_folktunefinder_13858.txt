@@ -1,0 +1,27 @@
+X: 1
+T: Bessie Bell and Mary Gray
+C: McGlashan
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from B.McOwen, labelled "via Petrov" [N.B.: no repeats]
+M: 6/8
+L: 1/8
+K: Dmix=c
+G \
+| "D"FGA ABc | "G"BAB     G3  | "D"FGA     ABA | "D"d3  "G"gfg \
+| "D"aAA ABc | "G"BAG "Em"gfg | "D"agf "A7"gfe | "D"d3     d2 :|
+|: g \
+| "D"afd dfd | "C"gec "A7"efg | "D"afd     ded | "D"f3 "A7"gfg \
+| "D"afd faf | "C"gec "A7"efg | "D"agf "A7"gfe | "D"d3     d2 :|
+S:https://www.folktunefinder.com/tunes/13858
+S:http://trillian.mit.edu/~jc/music/abc/jig/BessieBell_MaryGray_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BessieBell_MaryGray_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

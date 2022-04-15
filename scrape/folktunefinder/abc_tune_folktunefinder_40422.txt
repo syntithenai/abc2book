@@ -1,0 +1,74 @@
+X:2
+T:1 Palm Set Total
+R:jig
+M:6/8
+L:1/8
+Q:3/8=132
+K:Ador
+A3 A3|A3 A3|A3 A3|A3 A3|
+|:AGE G2E|G2E G2E|A2B c2d|e2d efg|
+~e3 dBA|BAG Bcd|edc BAG|B2A A2B:|
+|:~a3 efg|aga bge|gfg gfe|dBA [GG][GB][Gd]|
+[Ee][fA][gA] [Dd][Ae][Ad]|BAG Bcd|edc BAG|B2A A2B:|
+|:AGE G2E|G2E G2E|A2B c2d|e2d efg|
+~e3 dBA|BAG Bcd|edc BAG|B2A A2B:|
+|:~a3 efg|aga bge|gfg gfe|dBA [GG][GB][Gd]|
+[Ee][fA][gA] [Dd][Ae][Ad]|BAG Bcd|edc BAG|B2A A2B:|
+|:AGE G2E|G2E G2E|A2B c2d|e2d efg|
+~e3 dBA|BAG Bcd|edc BAG|B2A A2B:|
+|:~a3 efg|aga bge|gfg gfe|dBA [GG][GB][Gd]|
+[Ee][fA][gA] [Dd][Ae][Ad]|BAG Bcd|edc BAG|B2A A2z:|
+P:2 Windy Gap or Tuttles
+R:reel
+M:4/4
+L:1/8
+K:Ddor
+Q: 1/4=225
+A,D DE FE FG|Ac Gc Ad d2|A,D DE FE FG|AF GE FD D2|
+A,D DE FE FG|Ac Gc Ad de|fd ec dc AB|cA GE ED D2:|
+d2 dA c2 cA|d2 dA cA GA|d2 dA cd cA|EF GE ED D2|
+d2 dA c2 cA|d2 dA cA GA|fd ec dc AB|cA GE ED D2:||
+Q: 1/4=225
+A,D DE FE FG|Ac Gc Ad d2|A,D DE FE FG|AF GE FD D2|
+A,D DE FE FG|Ac Gc Ad de|fd ec dc AB|cA GE ED D2:|
+d2 dA c2 cA|d2 dA cA GA|d2 dA cd cA|EF GE ED D2|
+d2 dA c2 cA|d2 dA cA GA|fd ec dc AB|cA GE ED D2:||
+Q: 1/4=228
+A,D DE FE FG|Ac Gc Ad d2|A,D DE FE FG|AF GE FD D2|
+A,D DE FE FG|Ac Gc Ad de|fd ec dc AB|cA GE ED D2:|
+d2 dA c2 cA|d2 dA cA GA|d2 dA cd cA|EF GE ED D2|
+d2 dA c2 cA|d2 dA cA GA|fd ec dc AB|cA GE ED D2:||
+P:3 Frankenstein
+M: 4/4
+L: 1/8
+R: reel
+K: Edor
+Q: 1/4=233
+|:E2BE GBEG|BEGB AGFE|D2AG FADF|ADFA BAGF|
+E2BE GBEG|BEGA B3c|d2cd B2AF|GBAF G~E3:|
+|:Beef e3f|g2fg edBc|dA~A2 eA~A2|f2fe dcBA|
+Beef e3f|g2fg edBc|d2cd B2AF|GBAF G~E3:|
+Q: 1/4=235
+|:E2BE GBEG|BEGB AGFE|D2AG FADF|ADFA BAGF|
+E2BE GBEG|BEGA B3c|d2cd B2AF|GBAF G~E3:|
+|:Beef e3f|g2fg edBc|dA~A2 eA~A2|f2fe dcBA|
+Beef e3f|g2fg edBc|d2cd B2AF|GBAF G~E3:|
+Q: 1/4=236
+|:E2BE GBEG|BEGB AGFE|D2AG FADF|ADFA BAGF|
+E2BE GBEG|BEGA B3c|d2cd B2AF|GBAF G~E3:|
+|:Beef e3f|g2fg edBc|dA~A2 eA~A2|f2fe dcBA|
+Beef e3f|g2fg edBc|d2cd B2AF|GBAF G~E3:|
+S:https://www.folktunefinder.com/tunes/40422
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Jig
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

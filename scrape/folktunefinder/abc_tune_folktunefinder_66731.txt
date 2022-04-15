@@ -1,0 +1,23 @@
+X:47
+T:The Silver Spear
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:D
+"D" FA ~A2 "A" BAFA | "G" dfed "(A)" BcdA | "D" FA ~A2 "A" BAFA | "G" dfed "(A)" B2 A2 |
+"D" FA ~A2 "A" BAFA | "G" dfed "(A)" Bdef | "G" ~g3 e "D" ~f3 e | "G" dfed "A"   B2 A2 :|
+"D" faaf  "A"  bfaf | "G" gfed "(A)" Bcde | "D" faaf  "A"  bfaf | "G" gfed "(A)" B2 A2 |
+"D" faaf  "A"  bfaf | "G" gfed "(A)" Bdef | "G" ~g3 e "D" ~f3 e | "G" dfed "A"   B2 A2 :|
+S:https://www.folktunefinder.com/tunes/66731
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

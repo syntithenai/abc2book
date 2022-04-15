@@ -1,0 +1,30 @@
+X:247
+T: DER MENSCH HAT NICHTS SO EIGEN
+N: B0295
+O: Europa, Mitteleuropa, Deutschland
+R: Stimmungs - Lied, Freude, Geselligkeit, Freundschaft
+M: 6/8
+L: 1/8
+K: G
+D | G2AB2c | d3A2
+B | c2BA2G | d3-d2
+D | G2AB2c | d3A2
+B | c2BA2G | d3-d2
+B | A2Bc2d | e3A2
+d | B2GA2F | G3-G2
+B | A2Bc2d | e3A2
+d | B2GA2F | G3-G2
+S:https://www.folktunefinder.com/tunes/78268
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Stimmungs - lied, freude, geselligkeit, freundschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

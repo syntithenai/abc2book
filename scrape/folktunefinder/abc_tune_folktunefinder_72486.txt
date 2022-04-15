@@ -1,0 +1,26 @@
+X:29
+T: Ich stand mal auf hohem Berge,
+N: D0030
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Achttonskala (aeolisch mit fehlender Septime, in die Dominanttonart
+N: (Ionisch) modulierend ); Inzipit = Variante zum Lied
+R: Liebes - Klage
+M: 3/4
+L: 1/8
+K: G
+D2 | G3GG2 | A2B2^c2 | d3^cd2 | A2_B2
+AB | d3_ed2 | c3Bd2 | A2_B2z2
+d6 | ^c2d2A2 | _B2A2G2 | c4_e2 | d4
+d2 | G3A_B2 | c2_B2A2 | G4
+S:https://www.folktunefinder.com/tunes/72486
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

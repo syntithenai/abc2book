@@ -1,0 +1,25 @@
+X:46
+T: Nun adje, Schatz, und ich muss fort,
+N: D0049
+O: Europa, Mitteleuropa, Lothringen, Breisdorf ( Kr. Diedenhofen )
+R: Ballade
+M: 3/8
+L: 1/8
+K: G
+G | D2G | _B2A | G2F | G3- | G2
+G | _B2c | d2_e | d_Bc | d3- | d2
+d | =f2d | _edc | d2c | _B3- | B2
+d | d2c | c_BA | G2F | G3- | G2
+S:https://www.folktunefinder.com/tunes/72503
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

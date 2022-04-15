@@ -1,0 +1,29 @@
+X:440
+T: Die Reise nach Jtland (157a), S. 342f
+N: T0328
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Rodershausen,  M. Clesen, 1930,
+N: mitgeteilt, hhh Josef Bour (Lehrer)
+R: historische, Kriegs- und Soldatenlieder, Liebeslied]
+M: 3/4
+L: 1/8
+K: G
+G2 | G2D2B2 | B2G2
+GA | B3AcB | A2z2
+AB | c3cde | d2c2
+B2 | c2B2A2 | d2z2
+dd | e3eee | d2c2
+B2 | c2B2A2 | G2z2
+S:https://www.folktunefinder.com/tunes/70570
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

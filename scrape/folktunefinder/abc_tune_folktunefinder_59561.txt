@@ -1,0 +1,32 @@
+X:674
+T:Son d'Arriba (XA 31)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Ye'l baille ms representativu del conceyu de Cangas del Narcea.
+N:Conozse tamin n'otres fasteres d'Asturies y nel norte de Llen con distintos nomes: baille'l pas, baille de las castauelas, garrucha...
+N:Lo que ms llama l'atencin ye lo gayaspero del so canciu, asinamesmu que l'allargamientu de les notes finales de cada cuarteta.
+N:P'acompaalu sense panderos cuadraos y castaueles grandes, que son esclusives d'esti baille.
+A:Asturies
+O:Cangas del Narcea
+Z:Mtodu de Xuacu Amieva 31
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+|: EFG|D2 ~D|B,CD|.E2 ~E|CEG|.D2 ~D|B,C~D|C3 :|
+|: DEF|G2 {AGF}G|EFG|A2 {BAG}A :|
+|D E/F/E/F/|G2 {AGF}G|E F/G/F/G/|A2 {BAG}A|D E/F/E/F/|G2 {AGF}G|
+|: ~E D/E/F/E/|.D2 ~D|B,CD|E2 {FED}E|C D/E/F/E/|.D2 ~D|B,CD|C3- :|C3-|C3|
+S:https://www.folktunefinder.com/tunes/59561
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

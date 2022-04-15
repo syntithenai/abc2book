@@ -1,0 +1,30 @@
+X:17497
+T: Tino Mori
+L:1/8
+O: Macedonia 
+S: Deborah Jones ,1982 Vancouver Folk Dance Club
+M:7/4
+Q:1/4=144
+K:G
+%%MIDI gchord f3f2f2
+|: "G" G3-G2 [G2d2] | [G2d2] [Ec] [D2B2] [D2A2] |\
+ "C" [E3c3]  "G" [D4B4] | "D7" [C3A3] "G" [B,4G4] |
+[D2B2] [Ec]  [F2d2] [Ec][DB] |\
+ "D7"  [C3-A3-][C2A2] [D2B2]|\
+ [C2A2] [B,2G2] "G" [B,2-G2-][B,2G2] | [B,3G3] [B,4G4]| 
+"C" [E3c3]  "G" [D4B4] | "D7" [C3A3]  "G" [B,4G4] |\
+ [D2B2] [Ec] [F2d2] [Ec][DB] | "D7" [C3-A3-][C3A3] [D2B2]|
+[C2A2] [B,G] "G" [B,4G4]| [D3B3] [CA][CB] [CA][CG] |\
+ [B,3-G3-][B,2-G2-][B,2G2] | [B,3-G3-] [B,2G2] z2 :|
+|: "G" GDG  A2 "D7" AG | "G" B2 A A2 AG| Bcd B2 AG |\
+ "G" GDG A2 AG | B2 A "D7" A2 AG | "G" G3 G2 z2 :|
+S:https://www.folktunefinder.com/tunes/38868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

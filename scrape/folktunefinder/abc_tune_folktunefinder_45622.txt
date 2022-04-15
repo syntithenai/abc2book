@@ -1,0 +1,36 @@
+X:188
+T:Steirische aus Altaussee (2.)
+C:traditionell
+R:Steirer
+A:Altaussee, Salzkammergut
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+S:im buch mit der angabe: aus einem alten Notenheft 1927 abgeschrieben
+N:im buch ganz in G, nr.15/2, zweistimmig, erster ton 1. stimme d'', erster ton 2. stimme h'
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+P:2
+(dc) |\
+Bz Az Bz | (ABcBAB) | cz Bz cz | (BcdcBc) |\
+dz gz bz | (abc'bag | f2) (afdc "&"| B2) z2 :|
+V:2
+(BA) |\
+Gz Fz Gz | (FGAG FG) | Az Gz Az | (GABAGA) |\
+Bz dz gz | (fgagfe | d2) (FAdA "&"| G2) z2 :|
+S:https://www.folktunefinder.com/tunes/45622
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

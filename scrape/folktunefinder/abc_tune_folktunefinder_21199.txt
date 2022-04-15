@@ -1,0 +1,24 @@
+X:750
+T:Break the Windows
+O:england
+R:Jig
+M:6/8
+A:Westmorland
+N:P9 3/3
+K:D
+A,2E F2A|d2f ecA|G2B F2A|E2d AFD|\
+A,2E F2A|d2f ecA|B2g edc|d3 D3:|
+|:a2f d2A|F2f a2f|g2e c2A|E2f gfe|\
+a2f d2A|F2A d2A|B2g edc|d3 D3:|
+S:https://www.folktunefinder.com/tunes/21199
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X: 1
+T:D Major
+T:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:D
+  D E F  G | A B c  d | d e f  g | a b c' d' || D F  A d | d f  a d' |]
+S:https://www.folktunefinder.com/tunes/2060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/Scales-Tab.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/Scales-Tab.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/Scales-Tab.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

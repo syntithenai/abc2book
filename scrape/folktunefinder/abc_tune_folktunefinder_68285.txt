@@ -1,0 +1,25 @@
+X:198
+T:The Handy Bandy Barque
+M:C|
+L:1/16
+K:C
+P:A%Intro
+z4 G8 G4|\
+G3DD2 D3D D3z2F|F3F EED E3z2 C2E2|G3AG3A G3AB3c|D8 C4z4||
+P:B%Chorus
+z4 G8 G4|\
+GGC3c d3c B3z2E|FFF3F B3AG4z2|E3DC3D E3FG3A|B3cA2d2 G2z2G3G|
+(3c2c2c2 d3c B2z2E2E2|F3FBB AG3 z2C2D2|G3AG3A G3AB3c|D8 C4z4||
+P:C%Verse
+z4 G8 G4|\
+G3DD3D D2z2F3F|F3EE3D E2z2E3F|G2G2G2G2 G3AG2E2|D8 G4z2G2|
+G3DD3D D2z2F3F|FFE2E2 DE3z2C2E2|G3AG3A G3AB3c|D8 C4||
+S:https://www.folktunefinder.com/tunes/68285
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

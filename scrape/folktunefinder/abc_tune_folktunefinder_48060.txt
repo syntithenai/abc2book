@@ -1,0 +1,30 @@
+X:835
+T:Cleek
+M:6/8
+L:1/8
+C:Brendan Callahan
+S:Cleek Schrey
+R:jig
+Z:Devin McCabe
+K:EMin
+^c |: dBE BAG | FAd AGF | GEB, EDB, | A,CE EDF |M:5/8 L:1/8\
+!CDE EC | M:6/8 L:1/8\
+B,2E GAB | cAE ABc |1 GAF E2^c :|2 GAF E2A |:
+!Bcc cBd- | d2B BAG | FGA AFB- | B2G GFE |
+!Bcc cBd- | d2B BAG |1 FAd fge- | e3 e2d :|2 FAd fge-|e2B deg ||
+!a2f fed | e2B BAG | A2F FED | FAd fg^g |
+!a2f fed | e2B BAG | Bcd fge | e2B deg |
+!z2 a fed | z2 e BAG | z2 A FED | FAd fg^g |
+!a2f fed | e2B BAG | Bcd fge- | e3 e3 ||
+S:https://www.folktunefinder.com/tunes/48060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

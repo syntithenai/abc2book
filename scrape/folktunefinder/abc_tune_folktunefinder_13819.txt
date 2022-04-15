@@ -1,0 +1,35 @@
+X: 1
+T: Balance the Straw
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+P: A(AB)3A
+N:
+N: This tune goes with one of the best-known Morris dances.  It is also a good jig
+N: for other dances, usually in AABB form.  The B phrase bears a strong resemblance
+N: to a certain Christmas carol, and at Morris dances you will hear words like:
+N: __ Hark! the herald angels sing, __
+N: __ Glory to the Morris Ring. __
+N: Sometimes assorted other things are praised by the angels.
+N:
+M: 6/8
+L: 1/8
+K: G
+D \
+|: "G"G2B B>AB | "C"c2A A>ce | "D7"d>ed cAc | "G"G2B B2D \
+|  "G"G2B B>AB | "C"c2A A>ce | "D7"d>ed cEF | "G"G4 z2 :|
+B/c/ \
+|: "G"dz d dz G | "(D7)"c2B "D7"B2A  |  "G"dz d dz G | "D7"B2A A2D \
+|  "G"G2B  B>AB |    "C"c2A     A>ce | "D7"d>ed cEF  | "G"G4 z2 :|
+S:https://www.folktunefinder.com/tunes/13819
+S:http://trillian.mit.edu/~jc/music/abc/jig/BalanceTheStraw.abc
+S:http://trillian.mit.edu/~jc/doc/abc/tune/BalanceTheStraw.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BalanceTheStraw.abc
+S:http://trillian.mit.edu/~jc/music/abc/doc/tune/BalanceTheStraw.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

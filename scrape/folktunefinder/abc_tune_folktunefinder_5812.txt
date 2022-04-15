@@ -1,0 +1,42 @@
+X: 1
+T: Ludo Kopano
+O: Bulgaria
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+P: (AB)2(CD)2E(FGFD)(HB)2
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI gchord f2c2c3f2c2
+M: 11/16
+M: 11/16
+L: 1/16
+Q: 1/8=220
+K: Am
+"A"\
+[|"G"B,C "D"DC "G"~D2D GA AG | "Dm"GF GA F~G2 D2 DC | "C"GF GA F~G2 FE DE | FD "A"EC "Dm"D3 D2 DG, |
+| "G"B,C "D"DC "G"~D2D GA AG | "Dm"GF GA F~G2 D2 DC | "C"GF GA F~G2 FE DE | FD "A"EC "Dm"D3 D2 z2 ||
+"B"\
+|: "Gm"FG GF F~G2 FE DC | FG GF "Dm"A~G2 FE D2 | "Gm"FG GF F~G2 FE DE | "Dm"FD "A"EC "Dm"D3 D2 z2 :|
+"C"\
+|: "Am"c2 Bc dcB ~A2 AG | "D"G2 AB cBc d2 z2 | "Am"c2 Bc dcB ~A2 AG | "Dm"FE "Am"DC "Dm"CDE D2 z2 :|
+"D"\
+|: "Dm"~F2 ~E2 CD2 ~G2 GA | ~F2 ~E2 CD2 AG FG | ~F2 ~E2 CD2 ~G2 GA | ~F2 ~E2 CDE D2 z2 :|
+"E"\
+| "Dm"{G}A4-A3-A4- | A8 z3| y16 y16 y16 y16
+"F"\
+|: GA AF AGF ED EF | GA AF AGF ED AD | GA AF AGF ED EF | GA AF AGF EC D2 :|
+"G"\
+|: dc BA cBA BG AF | GA AF AGF ED A2 | dc BA cBA BG AF | GA AF AGF EC D2 :|
+"H"\
+[| "C"^FG AB cBd c_B AG | GF FE C3 A_B AG | GF FE C3 EF FE | ED EF EDE C2 z2 |
+|  ^FG AB cBd c_B AG | GF FE C3 A_B AG | GF FE C3 EF FE | ED EC "Dm"D3 z2 z2 |]
+S:https://www.folktunefinder.com/tunes/5812
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LudoKopano.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LudoKopano_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 11/16
+% Has_accompaniment_chords Has chords

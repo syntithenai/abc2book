@@ -1,0 +1,25 @@
+X: 1
+T: Woo'd an' Married an' a'
+M: 9/8
+L: 1/8
+R: slipjig
+S: Glen Collection, Vol. 1 (1891)
+Z: AK/Fiddler's Companion
+K: F
+f | c2B ABG  F3   | c2c cdA c2f | dcB (A>GA) FGA | D2d d>ec d2 :|
+f | cde f>gf e>dc | A2c cdA c2d | cde  f>gf e>dc | A2d dec  d2 ||
+f | cde f>ga efg  | ABc fcA c2f | cdB  ABG   FGA | D2d dec  d2 |]
+S:https://www.folktunefinder.com/tunes/18553
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/WoodAndMarriedAndA_SJ_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/WoodAndMarriedAndA_SJ_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/WoodAndMarriedAndA_SJ_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/WoodAndMarriedAndA_SJ_F.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

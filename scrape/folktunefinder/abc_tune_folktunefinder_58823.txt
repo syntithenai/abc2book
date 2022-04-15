@@ -1,0 +1,27 @@
+X:12
+T:Sally in the Garden
+S:Bob Mills
+Z:Tom Novelli
+N:way different from Fiddler's Fakebook version
+M:4/4
+L:1/8
+K:Am
+Ac|dedc Acde|f2e2 f2e2|dedc AGAB|c2e2 f2e2|
+dedc Acde|f2g2 a4|aga_b age2|fefg fec2|d6:|
+|:de|fede fede|fAgA a2 de|fede fede|agef d2 de|
+fede fede|fAgA a4|aga_b age2|fefg fec2|d6:|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58823
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

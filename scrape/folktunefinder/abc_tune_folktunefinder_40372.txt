@@ -1,0 +1,25 @@
+X:1
+T:MIDI program 17
+C:Hudson Lacerda
+M:12/8
+L:1/8
+Q:1/4=120
+K:C
+%MIDI
+C,^C,D,^D,E,F,^F,G,^G,A,^A,B, |
+C^CD^DEF^FG^GA^AB |
+c^cd^def^fg^ga^ab |
+c'^c'd'^d'e'f'^f'g'^g'a'^a'b' |
+S:https://www.folktunefinder.com/tunes/40372
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

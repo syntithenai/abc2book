@@ -1,0 +1,28 @@
+X:4163
+T:Dingle Regatta
+% Nottingham Music Database
+P:AABBCC
+S:Folk Camp, via EF
+M:6/8
+K:G
+P:A
+B/2c/2|"G"d^cd e2d|"G"B^AB d2B|"Am"A2A "D7"AGA|"G"B2A "D7"GBc|
+"G"d^cd e2d|"Em"B^AB d2B|"Am"ABc "D7"B2A|"G"G3 -G2:|
+P:B
+d|"G"d3 "D7"def|"G"g3 "Em"gfg|"Am"a3 "D7"aga|"G"b2a "D7"gfe|"G"d3 "D7"def|\
+"G"g3 "Em"gfg|"Am"a2g "D7"f2e|"D7"def "G"g2:|
+P:C
+d|"G"gbg dgd|"G"BdB GBG|"D7"FGA DEF|"G"G2B "D7"def|
+"G"gbg dgd|"G"BdB GBG|"D7"FGA DEF|"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/60352
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

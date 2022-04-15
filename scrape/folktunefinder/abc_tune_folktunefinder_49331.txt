@@ -1,0 +1,27 @@
+X:16
+% The song with calculated Accords
+T:Evenesdalingen
+O:norway
+C:anon.
+A:Saltdal
+R:Reinlender
+Z:After Emil and \Oystein Ingvaldsen. Org. transcription: Rolf Monsen
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+"D"ag|"D"f2ef A2gf|"A"e2ec A2gf|"A"e2ed cABc|"D"dAdf a2ag|\
+"D"f2ef A2gf|"A"e2ec A2gf|"A"e2ed cABc|"D".d2.d2 d2 :: a2|\
+"D"d2(3efe d2(3BcB|"D"AFDF A2BA|"G"GFEF G2(3BcB|"D"AFDF A2A2|\
+"D"d2(3efe d2(3BcB|"D"AFDF A2BA|"G"GFEF GABc|"D".d2.d2 d2:|
+S:https://www.folktunefinder.com/tunes/49331
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Rhythm Reinlender
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

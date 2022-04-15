@@ -1,0 +1,30 @@
+X:44
+T: Die schoene Muellerin
+N: A0044
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei Joh. Ott III. 1544 No. 18.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+C2 | C2E2D2C2 | B,2B,2A,2
+B,2 | C2G,2A,2B,2 | C4z2
+C2 | C2E2D2C2 | B,2B,2A,2
+B,2 | C2G,2A,2B,2 | C3DE2
+C2 | D2C2B,2A,2 | G,4z2
+B,2 | C2B,2C2A,2 | G,4E,2
+B,2 | C2C2D2D2 | E4D2
+F2 | E2C2D2B,2 | C6
+S:https://www.folktunefinder.com/tunes/68590
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: the Butcher's Apron
+C: J.O'Neill
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: RSCDS Cincinnati music for holiday 2008
+M: C|
+L: 1/8
+K: D
+|: "D"d2AF d2AF | "G"Efed "A7"cABc \
+|  "D"defe "G"dcdB |1 "D"AdAF "A7"EFGE :|2 "A7"ABAG "D"FDD2 |]
+|: "D"a2fa dafa | "Em"b2gb ebgb \
+|1 "D"a2fa dafa | "G"ge"D"fd "A7"ceef \
+:|2"D"agfe "G"dcdB | "A 7"ABAG "D"FDD2 |]
+S:https://www.folktunefinder.com/tunes/16008
+S:http://trillian.mit.edu/~jc/music/abc/new/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/new/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/new/ButchersApron_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/ButchersApron_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

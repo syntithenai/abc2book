@@ -1,0 +1,28 @@
+X:77
+T:Polska efter Pelle Fors
+R:sl-polska
+S:Variant 1: Anselm & Allan Hellstr\"om, Vikbolandet
+A:\"Osterg\"otland
+B:Variant 2: SvL \"Ogl 365, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+B:Variant 3: SvL Sml 9, efter Anders Fredrik Andersson, Tryserum
+B:Variant 4: Bagge 3
+Z:id:hn-sp-77
+M:3/4
+L:1/16
+K:G
+d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g4 | d4 c4 (B/c/B/A/B2) |
+G2AB (cB)AF G2D2 | d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g2(g2 |
+d2)(d2 c2)(c2 B2)(B2 | G2)AB (cB)AF F2G2 :||: D2f2 d2f2 (fg)af |
+d2g2 D2g2 (ga)bg | d2f2 D2f2 (fg)af | d2g2 D2g2 (ga)bg |
+d2ef (ga)ge (ed)dB | (dc)AF A2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/62408
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

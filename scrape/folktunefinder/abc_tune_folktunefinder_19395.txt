@@ -1,0 +1,38 @@
+X: 1
+T: Highland Whisky
+C: Neil Gow
+R: strathspey
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-A "E7"^G-e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-A "E7"^G-e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+S:https://www.folktunefinder.com/tunes/19395
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HighlandWhiskey2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Gow/HighlandWhiskey2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HighlandWhiskey2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HighlandWhiskey2.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/HighlandWhiskey2.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilGow/HighlandWhiskey2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

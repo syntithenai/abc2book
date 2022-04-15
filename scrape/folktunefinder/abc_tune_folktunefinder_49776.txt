@@ -1,0 +1,31 @@
+X: 221
+T:Woburn Waltz,The. CJF.221
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+D2|.g2(bg)d2|(d2c2).A2|.B2(dB)G2|D4A2|.B2(BA).B.G|\
+.^c2(cB).c.A|(d^c).d.f.e.c|d4:|!
+|:d2|"f"(d'c').b.f(dc)|B2dgb2|(d'c').a.f(dc)|B4^d2|.e2(e2f2)|\
+.g2(g2a2)|.b2(^d2f2)|e4fg|!
+.d2(BG).g2|.e2(cA).g2|.d2(BG).g2|(f2a2) .c2|\
+(Bc).de.(fg)|(ba).g.f(ed)|.e2(eg)(fa)|g4"p"Bd|!
+.c2.A2.F2|.d2.B2.G2|.c2.A2.F2|G4Bd"Cres:"|\
+c2A2F2|d2B2G2|c2A2F2|G4:|]
+S:https://www.folktunefinder.com/tunes/49776
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

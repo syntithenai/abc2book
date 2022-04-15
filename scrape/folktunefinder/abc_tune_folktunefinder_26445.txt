@@ -1,0 +1,21 @@
+X:5993
+T:Shepherds' Hey
+O:england
+M:2/2
+K:G
+P:AABB
+P:A
+D|"G"BcdB "C"c2 (3cdc|"G"BcdB "D7"A2 D2|"G"BcdB "C"c2 Bc|"D7"d2 D2 "G"G2>:|
+P:B
+|:A2|"G"B2 G2 "C(D7)"c2>A2|"G"B2 "D7"G2 A2>A2|"G"BcdB "C"c2 Bc|"D7"d2 D2 "G"G2:|
+S:https://www.folktunefinder.com/tunes/26445
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

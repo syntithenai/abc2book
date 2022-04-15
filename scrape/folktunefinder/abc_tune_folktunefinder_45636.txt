@@ -1,0 +1,51 @@
+X:202
+T:Pfeiferltanz
+C:traditionell
+R:Steirer
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+S:im buch mit der angabe: Im Jodlerbuch von Dr. Max Haager und bei Konrad Mautner zu finden. Der Saarstein ist ein Bergruecken oestlich des Hallstaettersees
+N:im buch ganz in G dreistimmig
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G %Transposed from D
+V:1
+(""G4 B2) | (""d4 B2) | G6 ||
+V:2
+K:G %Transposed from D
+(""G4 B2) | (""d4 B2) | G6 ||
+V:1
+|:\
+(Bd)(gBdg) | Mf2 (Ad) f2 | (Ad)(fAdf) | Mg2 (Bd) g2 |\
+(Bd)(gBdg) | Mf2 (Ad) f2 | (Ad)(fAdf) |1 g2 z2 B2 :|\
+######################################[2 g6 ||
+V:2
+|:\
+(DG)(BdGB) | MA2 (DF) A2 | (DF)(AdAd) | (Bd)(Dd) B2 |\
+(DG)(BDGB) | MA2 (DF) A2 | (DF)(AdAd) |1 B2 z2 D2 :|\
+######################################[2 B6 ||
+W:2.stimme des 1. teils nach unten oktaviert
+V:1
+K:C
+|:\
+(GBdg)(Bg) | Me2 (Gceg) | Md2(GBdg) | Me2 (Gcec) |\
+(GBdg)(Bg) | Me2 (Gceg) | Md2(GBdg) |1 e2 z2 G2 :|\
+####################################[2 e6 ||
+V:2
+K:C
+|:\
+(DGBD)(GB) | Mc2 (EGcG) | MB2(DGBG) | Mc2 (EGcG) |\
+(DGBD)(GB) | Mc2 (EGcG) | MB2(DGBG) |1 c2 z2 D2 :|\
+####################################[2 c6 ||
+S:https://www.folktunefinder.com/tunes/45636
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

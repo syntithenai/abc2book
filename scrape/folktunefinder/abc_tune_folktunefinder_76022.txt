@@ -1,0 +1,25 @@
+X:42
+T: Der Bettelmann (Band 1), S. 129
+N: P0816
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Standesunterschied, Beischlaf]
+M: 2/4
+L: 1/8
+K: F
+C | C2F2 | FFFF | EGGG | G3
+G | F2c2 | CCCG | E2D2 | C3
+c | c2B2 | Acdc | B2A2 | G3
+c | c2c2 | cBAG | F2FF | F3
+S:https://www.folktunefinder.com/tunes/76022
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Standesunterschied, beischlaf]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

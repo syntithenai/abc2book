@@ -1,0 +1,24 @@
+X:3442
+T:La Russe
+O:England
+M:4/4
+L:1/8
+Q:1/4=120
+K:F             %transposed from G
+V:1
+A G |:"F" F2 AA A2 cc |"F" c2 f2 f2 ef |"Bb" g2 f2 d2 B2 |"Gm" d2 cd "C7" cB AG |
+"F" F2 AA A2 cc |"F" c2 f2 f2 ef |"Bb" d2 c2 "C7" c2 EF ||1 "F" G2 F2 F2 AG :|2\
+K:C
+"F" G2 F2 F2 G2 ||
+|:"C" G2 c2 c2 BA |"C" G2 g2 g2 fe |"G7" f2 e2 f2 d2 |"C" ef gf "G7" e2 c2 |
+"C" G2 c2 c2 BA |"C" G2 g2 g2 fe |"G7" f2 e2 f2 d2 |1 "C" c6 G2 :|2 c6 ||
+S:https://www.folktunefinder.com/tunes/23893
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

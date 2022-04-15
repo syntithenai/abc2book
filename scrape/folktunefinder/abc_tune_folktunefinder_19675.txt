@@ -1,0 +1,21 @@
+X: 1
+T: Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: A
+   d | "A"ce3 a4     agfe a4  |    ce3 a4  "Bm"bB3 "E7"B3d | "A"ce3 a4     agfe a4  |    ce3 "E7"B3d "A"cA3 A3 :|
+|: B | "A"ce3 e3c "D"df3  f3d | "A"ce3 e3c "Bm"cB3 "E7"B3d | "A"ce3 e3c "D"df3  f3d | "A"ca3 "E7"B3d "A"cA3 A3 :|
+S:https://www.folktunefinder.com/tunes/19675
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/StumpieS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/StumpieS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/StumpieS.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

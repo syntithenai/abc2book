@@ -1,0 +1,23 @@
+X:26
+T: DA DRUNTEN IM GARTEN
+N: E0009
+O: Europa, Mitteleuropa, Deutschland, Giessen
+R: Sage, Maerchen -, Zauber - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2B2B2A2 | G6z4
+A2 | A4B2c4B2 | A6z4
+G2 | B2B2B2dccBA2 | A2A2d2BABAG2
+G2G2A2B2B2dc | B4A2G4
+S:https://www.folktunefinder.com/tunes/78467
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

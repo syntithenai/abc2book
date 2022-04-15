@@ -1,0 +1,32 @@
+X: 12
+T:John of the Greeny Cheshire Way
+M:3/2
+L:1/8
+Q:300
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+K:D
+"A"
+C3 E   DEFD E4    |ef e2 E3 A F2 ED |C3 E DEFD E4      | dc d2 D2 A2F2 E
+D :||
+"B"
+d3 f e2 dc BA Bd|dc e2 E3 A F2 ED|d3 f e2 dc BA Bc|d
+c
+d2 D3 A F2 ED :||
+"C"
+GE G2 FD F2 EC E2 |ef e2 E3 A F2 ED |GE G2 FD F2 EC E2 | dc d2 D3 A F2 E
+D :||
+"D"
+afd gec fdB ecA   |ef e2 E3 A F2 ED |afd gec fdB edc  | dc d2 D3 A F2 E
+D :|]
+S:https://www.folktunefinder.com/tunes/51947
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

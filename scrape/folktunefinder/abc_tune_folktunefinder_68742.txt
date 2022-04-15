@@ -1,0 +1,31 @@
+X:196
+T: Brautwerbung
+N: A0233
+O: Europa, Mitteleuropa, Deutschland
+N: O. Siegf. Harnisch, Newe lustige Teutsche Liedlein. Helmstedt
+N: 1591 No. 12. Die Melodie hat Boehme vereinfacht.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: C
+c | cBAG | ccG
+G | AAGG | AAG2
+FFGF | EDC
+c | ccGG | AAG
+G | ccGG | AAG2
+FFGF | EDC
+c | ccB2 | AAG2
+AAGG | FFGF | EDC2
+cBAG | c2G
+G | AAGG | AAGG
+AADD | E3
+S:https://www.folktunefinder.com/tunes/68742
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

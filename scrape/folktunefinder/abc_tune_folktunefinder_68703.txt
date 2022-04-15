@@ -1,0 +1,24 @@
+X:157
+T: Goldringlein
+N: A0195
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott III 1544 No. 4 und Forster V. 1556 No. 6 und 9.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: F
+F2 | A4B2 | c4f2 | c2A2B2 | c6 | z4
+c2 | f4e2 | d2c2g2 | f2ecd2 | c4z2 | z4
+c2 | f4c2 | c2A2c2 | B2AFG2 | F6 | z4
+A2 | c4F2 | G2F2c2 | B2AFG2 | F4
+S:https://www.folktunefinder.com/tunes/68703
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

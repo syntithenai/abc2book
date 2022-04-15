@@ -1,0 +1,31 @@
+X:193
+T: SO ZIEHN WIR PREUSSEN IN DAS FELD
+N: Z0192
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Kriegs - Lied (Preussen 1813 - 1815)
+M: 4/4
+L: 1/8
+K: G
+D | G2D2D2G2 | E2C2C2
+A2 | F2D2E2F2 | G4z2
+D2 | G2D2D2G2 | E2C2C2
+A2 | F2D2E2F2 | G4z2
+GA | B2BBcBAG | ADDDD2
+DF | A2AAdcBA | G2A2B
+DEF | G4BAGF | E3cc
+ccc | B2B2A2A2 | G6
+d2 | B2d2B2d2 | edcBc2
+c2 | A2c2A2c2 | dcBAB
+DEF | G4BAGF | E3cc
+BAG | B2B2A2A2 | G4z3
+S:https://www.folktunefinder.com/tunes/69052
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten -, kriegs - lied (preussen 1813 - 1815)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

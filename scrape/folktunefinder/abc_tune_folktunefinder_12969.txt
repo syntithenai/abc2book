@@ -1,0 +1,24 @@
+X: 19
+T: the Mason's Apron
+O: Trad
+N: In most old collections.
+R: reel
+M: C|
+L: 1/8
+Z: 1996 by John Chambers <jc:trillian.mit.edu>
+K: A
+|: ed | "A"c2A2 ABAF | EFAB dcBA | "Bm"d2B2 BcBA | Bcde "E7"gfed || "A"c2A2 ABAF |
+| "A"EFAB dcBA | "D"Bcde fefa | "E7"edcB "A"A2 :: ed | "A"cAeA fAeA | cAeA fedc |
+| "Bm"dBfB gBfB | dBfB "E7"gfed || "A"cAeA fAeA | cAeA fedc | "D"Bcde fefa | "E7"edcB "A"A2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12969
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

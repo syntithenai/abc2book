@@ -1,0 +1,37 @@
+X: 67
+T:Quadrill. CJF.067
+M:2/4
+L:1/16
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:ABC2Win does not cope with beaming triplets with a preceding note, but
+N:the ABC for this tune has been written as if it could. - PJ
+Z:vmp.P J Headford 2000
+K:G
+((3ded)|B2((3ded) B2g2|b4g2 ((3cdc)|A2((3cdc) A2f2|\
+a4fdef|!
+gabc' d'bgd|fegf agfe|dBcA BGAF|G2B2G2||!
+((3ded)|c2((3ABA) F2d2|B4G2 ((3ded)|c2((3ABA) F2d2|\
+B4G2 ((3ded)|!
+g2((3ded) a2((3ded)|bagf agfe|d^cAc eage|d4z2((3ded)|!
+c2((3ABA) F2d2|B4G2 ((3ded)|c2((3ABA) F2d2|\
+B4G2 ((3ded)|!
+g2((3ded) a2((3ded)|bagf agfe|d^cAc eage|d4z2|]
+S:https://www.folktunefinder.com/tunes/49622
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

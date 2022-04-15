@@ -1,0 +1,32 @@
+X: 1
+P: Karapyet
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+[| "Am"EA- AA | "E7"^G>F E2 |     EB- BB | "Am"c>B A2 \
+|  "Am"EA- AA | "E7"^G>F E2 |     ed  cB | "Am"A4     |]
+|: "Am"Ae- ee | "Dm"f>e  d2 | "G7"df- ff | "C"e>c  e2 \
+| " Am"ce- ee | "E7"d>c  B2 |     ed  cB | "Am"A4    :|[K:A]
+[| "E7"Bz  dz | "A"c3    A  | "E7"Bc  de | "A"c>B  A2 \
+|  "E7"Bz  dz | "A"c3    A  | "E7"ed  FG | "A"A4     |]
+|: "D"df- fa- | "A"ae-   ec | "E7"ed  Bd | "A"fe  c2 \
+|  "D"df- fa- | "A"ae-   ec | "E7"ed  FG | "A"A4    :|
+S:https://www.folktunefinder.com/tunes/7140
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Karapyet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/Karapyet_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Karapyet_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

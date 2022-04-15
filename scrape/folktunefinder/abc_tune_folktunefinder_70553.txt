@@ -1,0 +1,26 @@
+X:423
+T: Der gefangene Husar (142), S. 317
+N: T0311
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Rammeldingen, hhh J.P. Gloden, 26.12.1932
+R: historische, Kriegs- und Soldatenlieder]
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | G2zB | B2zB | A3B | cBz
+D | GGGG | G2zB | B2zB | A3B | cBz
+d | dBBB | B2zd | edcd | A2z
+D | EFGG | G2e2 | dedc | B2z
+S:https://www.folktunefinder.com/tunes/70553
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

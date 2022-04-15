@@ -1,0 +1,22 @@
+X:30
+T: Das Schloss in Oesterreich
+N: A0027B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin 1646 S. 1754
+M: 3/2
+L: 1/4
+K: F
+F2F2G2 | A4B2 | c4A2 | F6
+F2A2B2 | c4G2 | F3ED2 | C6
+c2c2c2 | d4c2 | c4B2 | A6
+d2c2G2 | A4F2 | E2F2G2 | A3FG2 | F6
+S:https://www.folktunefinder.com/tunes/68576
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

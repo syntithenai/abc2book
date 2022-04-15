@@ -1,0 +1,29 @@
+X:308
+T: Still, still, still, wer Gott erkennen will (4-9), S. 12
+N: P0570
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: geistliches, religises Lied]
+M: 4/4
+L: 1/8
+K: F
+ | c4B4 | A4z2
+cB | AcA2GFG2 | F4z2
+FG | A2c2AGF2 | GABAG2
+FG | A2c2AGF2 | GABAG2z2
+c4B4 | A4z2
+cB | AcA2GFG2 | F4z4
+S:https://www.folktunefinder.com/tunes/76288
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliches, religises lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

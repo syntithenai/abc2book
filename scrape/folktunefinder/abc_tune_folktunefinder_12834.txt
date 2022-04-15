@@ -1,0 +1,25 @@
+X: 1
+T: Bouchard's Hornpipe
+C: Mike Springer
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: D
+   FE \
+| "D"DFAd "G"BcdB | "A"cdec "D"d2ef | "Em"gfga   gfed | "A"edcB A2dc |
+| "G"B2BA    BcdB | "D"AGFG A2(3ABc | "G"dcdf "A"edc2 | "D"d4   d2 :|
+|: fg \
+| "D"a2ab     agfa | "Em"gfef   g2ag | "Bm"f2fd   gfed | "F#m"cdec A2dc |
+| "G"B2BA "Em"BcdB | "D"AGFG A2(3ABc | "G"dcdf "A"edc2 | "D"d4     d2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12834
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

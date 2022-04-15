@@ -1,0 +1,49 @@
+X:0
+T:Minor/Phrygian (2-gap, la/mi) Hexatonic Scales
+L:1/4
+M:9/4
+K:FMin
+"^F"       F2 AB cde f2|f2 ed cBA F2||
+M:9/4
+K:CMin
+"^C"       C2 EF GAB c2|c2 BA GFE C2||
+M:9/4
+K:GMin
+"^G"       G2 Bc def g2|g2 fe dcB G2||
+M:9/4
+K:DMin
+"^D"       D2 FG ABc d2|d2 cB AGF D2||
+M:9/4
+K:AMin
+"^A"       A2 cd efg a2|a2 gf edc A2||
+M:9/4
+K:EPhr
+"^E"       E2 GA Bcd e2|e2 dc BAG E2||
+M:9/4
+K:BPhr
+"^B"       B2 de fga b2|b2 ag fed B2||
+M:9/4
+K:F#Phr
+"^F sharp" F2 AB cde f2|f2 ed cBA F2||
+M:9/4
+K:C#Phr
+"^C sharp" C2 EF GAB c2|c2 BA GFE C2||
+M:9/4
+K:G#Phr
+"^G sharp" G2 Bc def g2|g2 fe dcB G2|]
+S:https://www.folktunefinder.com/tunes/30092
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key F
+% Key A
+% Key D
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

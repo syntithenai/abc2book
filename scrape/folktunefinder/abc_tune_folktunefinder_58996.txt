@@ -1,0 +1,42 @@
+X:109
+T:Baxaben cuatro ayeranos (CT 428)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Cenera, ayuntamiento de Mieres.
+A:Asturies
+O:Cenera (Mieres)
+Z:Cancioneru de Torner 428
+M:3/8
+L:1/8
+Q:3/8=88
+K:Cm
+G
+|c2 c|edc|(B>A) G-|G2 e|g2 g|agf|(e>d) c-|c z G|
+c2 c|edc|(B>A) G-|G2 e|g2 g|agf|gg g|
+agf|g3|c2 e|ggg|agf|(g>f)e|fed|(e>d)c|dc=B|c3-|c ||
+W:Baxaben cuatro ayeranos,
+W:todos xuntos de madrees,
+W:y en Santulln pidieron
+W:fabes, tocn y morcielles.
+W:
+W:Que dixo Melchor,
+W:que tan vaina yes
+W:t como yo
+W:y yo como t
+W:y somos los dos.
+W:
+S:https://www.folktunefinder.com/tunes/58996
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

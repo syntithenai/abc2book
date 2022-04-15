@@ -1,0 +1,31 @@
+X: 3337
+T:Gan Ainm
+R:Jig
+S:Paddy Cronin, Kerry (fiddle)
+H:The rolls in this tune are 'lifted.'
+N:As played
+D:Session tape
+Z:Bernie Stocks
+M:6/8
+L:1/8
+K:G
+~G3 ~B3|~d3 efg|G2B dBG|ABG AFD|!
+~G3 ~B3|~d3 efg|age dBA|1 BGF GzD:|2 BGF GBd||!
+~g3 efg|~a3 bge|~g3 ege|dBG AFD|!
+~g3 efg|~a3 bge|~g2e dBA|1 BGF GBd:|2 BGF G3||!
+S:https://www.folktunefinder.com/tunes/33250
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

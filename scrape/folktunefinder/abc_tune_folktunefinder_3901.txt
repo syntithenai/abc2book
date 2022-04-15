@@ -1,0 +1,32 @@
+X: 1
+T: Mad Robin (Bb)
+O: 1686
+M: C|
+L: 1/8
+K: Bb
+|: f2 \
+| "Bb"f2 d4 "(Eb)"g2 | "Bb"f2 B4 c2 | "Bb"d2ed "(Gm)"c2B2 | "F7(Cm)"cBAG "F7"F4 \
+| "Bb"f2 d4 "(Eb)"g2 | "Bb"f2 B4 c2 | "Bb"d2ed "F7"c3B | "Bb"B6 :|
+|: f2 \
+| "Gm"b3a "(Dm)"g2f2 | "Gm"g2 d4 =e2 | "D7"d2g2 g3^f | "Gm"g6 f2 \
+| "Eb"f2 e2- "F7"e2d2 | "Bb"f2 d4 cB | "F7"A2G2 c3B | "Bb"B6 :|
+S:https://www.folktunefinder.com/tunes/3901
+S:http://trillian.mit.edu/~jc/music/abc/England/MadRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/MadRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Mad_Robin_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MadRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MadRobin.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/MadRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Engl/MadRobin.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MadRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MadRobin.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/MadRobin
+S:http://trillian.mit.edu/%7Ejc/music/abc/program/CillasWedding/MadRobin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

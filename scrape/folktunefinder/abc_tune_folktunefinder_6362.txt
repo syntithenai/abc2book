@@ -1,0 +1,28 @@
+X: 4
+T: FLOGGING REEL
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.12
+M: C
+L: 1/8
+%Q: 1/4=112
+K: G
+dc \
+"A"\
+|: "G"BG~G2 BGdG | "G"BG~G2 Bdgd | "G"BG~G2 BGdG | "D7"AGFG ABcA :|
+"B"\
+|: "G"~g3d BGBd | ~g2ge "D7"fgaf | "G"~g3d BcdB | "Am"AGFG "D7"ABcA :|
+"C"\
+[| "G"B{c}dgB B{c}dgB | B{c}dgB BGGB | "F"A{B}c=fc A{B}cfc | A{B}c=fc A=FFc |
+   "G"B{c}dgB B{c}dgB | Bdef g2{f}ga | "Em"bgaf gedB | "Am"AGFG "D7"ABcA |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6362
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

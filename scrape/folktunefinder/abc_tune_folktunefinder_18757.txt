@@ -1,0 +1,20 @@
+X: 1
+T: I Love a Lassie
+M: C|
+L: 1/4
+K: A
+[| "A"c2 "E7"de | "A"c A2 B | c>d "E7"ed | "A"cA ce \
+|  "A"a2 aa | "B7"gf e^d | "E"e4- | "E7"ez fg |]
+[| "A"a2 a>g | f e2 f | af ef | "E7"c B3 \
+|  "A"c e2 f | "(E)"c2 "E7"B2 | "A"A4- | A z3 |]
+S:https://www.folktunefinder.com/tunes/18757
+S:http://trillian.mit.edu/~jc/music/abc/song/ILoveALassie_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/song/ILoveALassie_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

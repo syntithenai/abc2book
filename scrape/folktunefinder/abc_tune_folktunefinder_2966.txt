@@ -1,0 +1,31 @@
+X: 1
+T: Za Pojas
+Z: 2003 John Chambers <jc@trillian.mit.edu> from two different handwritten mss.
+M: 6/16
+L: 1/16
+K: Ador
+%%indent 150
+"A"
+|: "Am"GAA AEA | A2A A3 | GAA AEA |1 Az2 A3 :|2 A3 z3 ||
+"B"
+|: GAA AGc | BGc ~B3 | GAA AGc | BGc ~B3 | GAA AGc | BGc ~B3 | GAA AEA | Az2 A3 :|
+"C"
+|::: de2 edc | cd2 dcB | GFG ABG |1,3 ~A2E ~A2E :|2 A3 A2G :|4 A3 z3 :::|
+"D"
+|::: GFG ABG | Bcd ~c2B | GFG ABG |1,3 ~A2E ~A2E :|2 A3 A3 :|4 A3 z3 :::|
+"E"
+|::: BGc ~B2G | AGB ~A2G | BGc ~B2G |1,3 A2G d2G :|2,4 A3 A2G :::|
+"F"
+|::: GBc BcG | BGc B2G | AGB ABG |1,3 A2G d2G :|2 A3 A2G :|4 A3 "fine"z3 :::|
+"G"
+|| {F}G6- | G6- |G6- |G3 z3 \
+|:::::: "6 times"g=fe d^cd | B2G d2G | g=fe d^cd | B2G !_daCapo!A2G ::::::|
+S:https://www.folktunefinder.com/tunes/2966
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/ZaPojas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZaPojas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/16
+% Has_accompaniment_chords Has chords

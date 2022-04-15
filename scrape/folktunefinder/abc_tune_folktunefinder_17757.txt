@@ -1,0 +1,33 @@
+X: 1
+T: the Nairobi Reel
+C: Freddy G Hutton
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: 1950 booklet "The City of Nairobi Reel" from the Scottish Country Dance Association of East Africa
+M: C|
+L: 1/8
+K: G
+"A"[|]\
+D \
+| "G"G>FGA B2B2 | "D7"d>Bce "G"d2d2 | "D7"c>Bce "G"dcBA | "A7"ABAG "D"FAAF |
+| "G"G>FGA B2B2 | "D7"d>Bce "G"d2d2 | "C"edeg "D7"d2dc | "G"BG"D7"AF "G"G3 :|
+"B"\
+|: A \
+| "G"BddB "C"ceec | "G"BddB "D7"cAAc | "G"BddB "C"ceec | "D7"fgaf "G"ggg :|
+"C"\
+|: d \
+| "G"BGBc d3d | "C"ecef "G"g3g | "D7"fefg a2a2 | "G"gfga b2b2 |
+| "Em"bggb "D"affa | "A7"gfe^c "D7"dAA=c | "G"BddB "C"ceec | "D7"fgaf "G"g2g :|
+S:https://www.folktunefinder.com/tunes/17757
+S:http://trillian.mit.edu/~jc/music/abc/reel/NairobiReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NairobiReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/NairobiReel_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

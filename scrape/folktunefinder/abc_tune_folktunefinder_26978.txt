@@ -1,0 +1,33 @@
+X:6526
+T:The Bell
+O:england
+M:4/4
+C:
+S:Seabright
+N:
+A:Adderbury
+R:Reel
+%P:A(AB$^3$)$^4$
+P:A(AB3)4
+K:G
+I:speed 400
+L:1/8
+P:A
+|:\
+D2 | G3 A  cBAG  | B2 d2 g2 fg | e2 d2 BcdB  | A4   G2 :|\
+P:B
+d2 | g2 f2 e2 fg | f2 e2 d3 d  | e2 B2 B2 d2 | e3 f e2 \
+d2 | G3 A  cBAG  | B2 d2 g2 fg | e2 d2 BcdB  | A4   G2 ||
+S:https://www.folktunefinder.com/tunes/26978
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Mrs Ramsay of Barton
+C: 
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS labelled "from Barbara McOwen"
+M: C
+L: 1/16
+K: Edor
+F \
+| "Em"E3F G3A Be3 e4 | "D"d3B A3G FD3 D3F \
+| "Em"E3F G3A "C"Be3 e3f | "Em"g3e "B7"B3^d | "Em"eee2 e3 ||
+f \
+| "Em"g3e "B"f3^d "Em"eB3 B3c | "D"d3B "A"A3G "D"FD3 D3F \
+| "Em"EG3 "D"F3A "Em"GB3 e3g | "D"fd3 a3f "Em"ge3 e3 |]
+f \
+| "Em"g3e "B"f3^d "Em"eB3 B3c | "D"d3B "A"A3G "D"FD3 D3 f \
+| "Em"g3e "B"f3^d "Em"eB3 B3e | "Em"B3e "B"^d3f "Em"eee2 e3 ||
+f \
+| "Em"g3e B3g "B"f^d3 "A"e3c | "D"d3B Ad3 F3D A3F \
+| "Em"EG3 "D"F3A "C"GB3 e3g | "B7"bB3 g3f "Em"e4 e3 |]
+S:https://www.folktunefinder.com/tunes/19595
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsRamsayOfBarton_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsRamsayOfBarton_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

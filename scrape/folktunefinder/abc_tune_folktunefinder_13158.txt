@@ -1,0 +1,31 @@
+X: 1
+T: Corgarff Castle
+C: J.S.Skinner
+R: Pastoral
+N: Skinner SV p.39
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+| "Gm"{D=E^F}[G2G,2] DG B,D G,G | "F"{=E}F2 CF A,F {=B}AF \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G2 |
+| "Gm"{D=E^F}G2 DG B,D G,G | "F"{=E}F2 CF A,/C/F/A/ {=B}cA \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G ||
+{^f}g \
+| "Gm"(ba/g/) dg Bd Gg | "F"(ag/f/) cf Ac Ff \
+| "Gm"(ba/g/) dg Bd Ge | "D7"({e}dc/B/) (Ad) "Gm"(DG) Gg |
+| "Gm"(ba/g/) dg Bg G,b | "F"(ag/f/) cf Ac Ff \
+| "Gm"(b/a/g/b/) "D7"(a/g/^f/a/) "Gm"g/d/B/G/ D/B,/G,/B,/ | "D7"A,E (D/C/)B,/A,/ "Gm"B,G, G,2 |]
+S:https://www.folktunefinder.com/tunes/13158
+S:http://trillian.mit.edu/~jc/music/abc/air/CorgarffCastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/CorgarffCastle.abc
+S:http://trillian.mit.edu/~jc/music/book/500/CorgarffCastle.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/CorgarffCastle.abc
+% Rhythm Pastoral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

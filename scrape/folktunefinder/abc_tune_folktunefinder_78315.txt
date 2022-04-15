@@ -1,0 +1,31 @@
+X:294
+T: GRAD AUS DEM WIRTSHAUS NUN KOMM ICH HERAUS
+N: B0346
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 3/8
+L: 1/16
+K: G
+ | G2GFGA | B2G2D2
+D2E3B, | D4C2
+A2A^GAB | c2A2F2
+D2E3A, | C4B,2
+G2GFGA | B2G2D2
+D2E3B, | D4C2
+A2A^GAB | c2A2F2
+D2E2F2 | G6
+B2B3A | c2B4
+G2B2d2 | ^c2d3
+B | A2A3^G | B2A4
+c2A2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/78315
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

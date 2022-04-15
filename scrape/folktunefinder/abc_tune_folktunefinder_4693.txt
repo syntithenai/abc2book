@@ -1,0 +1,33 @@
+X:1
+T:Le Ma\^itre de la Maison
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+P:Dm
+   D || "Dm"AA AG | A2 F2 | A2 GF | "A7"E3 D | "Dm"AA AG | A2 F2 | A2 GF | "A7"E3 ||
+E/E/ || "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"D2 F2 | "A7"G2 [A2E] | "Dm"D3 |]
+P:Am
+K:Am
+   A || "Am"ee ed | e2 c2 | e2 dc | "E7"B3 A | "Am"ee ed | e2 c2 | e2 dc | "E7"B3 ||
+B/B/ || "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"A2 c2 | "E7"d2 [e2B] | "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/4693
+S:http://trillian.mit.edu/~jc/music/abc/France/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/xmas/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/MaitreDeMaison.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/MaitreDeMaison.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/MaitreDeMaison.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/MaitreDeMaison.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/MaitreDeMaison
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

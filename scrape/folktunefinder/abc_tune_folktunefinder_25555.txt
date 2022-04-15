@@ -1,0 +1,29 @@
+X:5103
+T:Physiognomist,The. HSJJ.085
+O:england
+M:2/4
+L:1/16
+Q:100
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Misc.
+A:Lancashire
+H:1823
+K:Bb
+de|.f2.f2.f2.f2|f2(gf edcB)|.A2.A2.A2B2|c2.F2.F2 de|
+.f2.f2.f2.f2|f2(gf edcB)|A2B2c2f2|d2B2B2|
+|c2|fcac fcac|bagf =e2c2|fcac fcac|gfed c2d2|
+fcac fcac|bagf =e2c2|"crotchets in MS"fcac fcac|g2e2f2|
+|f2|b2d'2b2d'2|d'2c'2c'2b2|b2d'2b2d'2|c'2b2b2 f2|
+b2d'2b2d'2|d'2c'2c'2b2|b2d'2b2d'2|c'2b2b2|]
+S:https://www.folktunefinder.com/tunes/25555
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

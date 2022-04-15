@@ -1,0 +1,20 @@
+X:5
+T:40. Galliard
+T: Bassus
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:3/2
+%%MIDI transpose -24
+K:G mix bass
+|: g2 a2 d2 g4 G2 B2 c2 d2 G6 g f e2 d2 c2 G2 A2 G2 d4 G6  :|
+|: g4 d2 g6 ^f2 e4 d6 c2 B4 A3 B c2 d2 e4 A6 :|
+|: c2 c2 g2 c6 G2 G2 d2 G6 d2 A2 e2 A2 B2 c2 e2 d4 G6 :|
+S:https://www.folktunefinder.com/tunes/50508
+S:http://www.laymusic.org/music/holborne/galliard40/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

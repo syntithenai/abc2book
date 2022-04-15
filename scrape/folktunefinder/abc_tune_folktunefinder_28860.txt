@@ -1,0 +1,34 @@
+X:2580
+T:Cantar de Trabayu (CT 265)
+R:Trabayu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Emplean esta cancin los campesinos de Cenera, ayuntamiento de Mieres, acompaando la faena de la recoleccin del trigo.
+N:Cuando varios vecinos se renen para recolectar el trigo de una familia pobre, lo hacen siempre sin cobrar el trabajo.
+N:Despus de cantar uno de los concurrentes los dos versos puestos al pie de la meloda, continan con cuartetas octosilbicas, sin relacin unas con otras y sin hacer referencia, generalmente, a la faena que se ejecuta.
+O:Cenera (Mieres)
+A:Asturies
+Z:Cancioneru de Torner 265
+M:3/4
+L:1/8
+Q:1/4=76
+W:Coy-ylo bien, coyedores,
+W:que los amos son mui probes.
+K:G
+GFA|(c3/2d/4c/4 B2) AA|(G3/2A/4G/4) F2 GB|
+Bc- c2 BB|(AB/4A/4G/4A/4 G)G- G2-|G2 z4||
+S:https://www.folktunefinder.com/tunes/28860
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Trabayu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

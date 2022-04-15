@@ -1,0 +1,27 @@
+X: 1
+T: Miss Hutton
+C: J.Bowie
+B: RSCDS 19-11(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+|: A \
+| "Bb"B<F F>E D<F F2 | "Gm"D<G G>A B>c d>g \
+| "Bb"f<d c>B "F"A/B/c A>F | "Gm"D<G "D7"d>c "Gm"B<G G :|
+F \
+| "Bb"BB f>d c>B | "F"A/B/c f>d c<f A<F \
+| "Gm"G>A B>d g/^f/g/a/ gd | "D7"b>a g>^f "Gm"g/g/g g>a |
+| "Gm"g/a/b g>d "Cm"e/f/g e>c | "Gm"d/c/B/A/ B>G "D7"^F<A D>d \
+| "Gm"B>c d>B "Cm"c<e d>c | "Gm"B>G "D7"B/A/G/^F/ "Gm"D<G G |]
+S:https://www.folktunefinder.com/tunes/19549
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissHuttonS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissHuttonS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissHuttonS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 1
+T: Smoke on the Water
+I: Smoke on the WaterS-SGsquare
+%C: S-S
+C: Zeke Clements
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+%%indent 500
+"Intro"|\
+B2d2 d2e2| d2B2 G2A2| B2G2 A2F2| G2z2|
+|: D2E2| "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D7"D4 D2E2|
+      "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 D2E2|
+      "G"G2 G4 A2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D"D4 D2E2|
+      "G"G2z2 G2z2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 :|
+S:https://www.folktunefinder.com/tunes/19152
+S:http://trillian.mit.edu/~jc/music/abc/square/Smoke_on_the_Water.abc
+S:http://roaringjelly.org/music/square/Sq_S_Smoke_on_the_Water.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_S_Smoke_on_the_Water.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Smoke_on_the_Water.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_S_Smoke_on_the_Water.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Ca' the stirk frae out the corn
+R: strathspey
+B: Lowe V
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen dated July 1983
+M: C
+L: 1/16
+K: Am
+a2 | "Am"AAA2 B3A "D"Bd3 e4 | "G"d3g B3g "Am"A3G E4  |  "G"DG3 B3G     A3G    B3G | "Em"DDD2   E3G "Am"BA3 A2 :|
+g2 | "Am"a3b  a3g    ba3 a4 | "G"g3a b3a     ge3 d4  | "Am"a3b a3g     ba3 "G"a3g | "Em"e3g    d3g "Am"BA3 A4 ||
+y2 | "Am"a3b  a3g    ba3 a4 | "G"g3a b3a     g3e d3e |  "G"g3a g3e "Em"de3    g4  | "Am"e3g "G"d3g "Am"BA3 A2 |]
+S:https://www.folktunefinder.com/tunes/19243
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CaTheStirkFraeOutTheCorn_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CaTheStirkFraeOutTheCorn_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CaTheStirkFraeOutTheCorn_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

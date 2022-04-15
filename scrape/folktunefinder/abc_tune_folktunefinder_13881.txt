@@ -1,0 +1,27 @@
+X: 1
+T: Black Jack
+T: Black Joke
+O: Cecil Sharp Mss
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D- \
+| "G"D2G GFG | "C"ABA- "D7"AGA | "G"BcB BAG | "C"ABA "D7"AFD | "G"G2B "C"EFG | "D7"DEF "G"G2 :|
+"B"[|]\
+G \
+| "G"B2d- dcB | "C"dee "D7"d2c | "G"B2d- dcB | "C"dee "D7"d2c | "Em"B2B- BAG |
+| "Am"ABA "D7"AGA |  "G"BcB  BAG |  "C"ABA "D7"AGF | "G"G2B "C"EFG | "D7"DEF "G"G2 |]
+S:https://www.folktunefinder.com/tunes/13881
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlackJack_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BlackJack_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/BlackJack_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/jig/BlackJack_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

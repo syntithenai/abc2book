@@ -1,0 +1,29 @@
+X: 1
+T: the Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+[| e2 \
+| "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+S:https://www.folktunefinder.com/tunes/13236
+S:http://trillian.mit.edu/~jc/music/abc/air/LeaRig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/LeaRig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LeaRig_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/LeaRig_2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

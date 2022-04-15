@@ -1,0 +1,15 @@
+X: 6
+M: 3/4
+L: 1/8
+P: Pappani talo, kivinen talo
+K: Dm
+|: "Dm"A2 DD DF | "Dm"A2 DD DF | "Gm"B2 GG GA | B2 "A7"A4 :| \
+|: "Gm"B2 GG GB | "Dm"A2 DD DE | "Gm"F2 EF "A7"GF | E2 "Dm"D4 :|
+S:https://www.folktunefinder.com/tunes/4381
+S:http://trillian.mit.edu/~jc/music/abc/Finland/New.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

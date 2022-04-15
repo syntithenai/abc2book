@@ -1,0 +1,26 @@
+X: 19
+T: Skibreen
+Q:1/4=96
+M:4/4
+Z: Bernard <chiff:dingoblue.net.au> tradtunes 2001-03-24
+K:D
+z6 B2 |A3 G A2 B2 |e2 d2 B2 G2 |
+A2 G2 E2 D2 |E6 B2 |e3 f g2 f2 |e B3 d2 =c2 |
+B2 A2 G2 A2 |B6 B2 |e3 f g3 f |e B3 d2 e2 |
+B3 A G2 A2 |B6 B2 |A3 G A2 B2 |e2 d2 B2 G2 |
+A2 G2 E2 D2 |E8 |z6 B2 |A3 G A2 B2 |
+e2 d2 B2 G2 |A2 G2 E2 D2 |E6 BB |e2 f2 g2 f2 |
+e B3 d2 =c2 |B2 A2 G A3 |B6 B2 |e3 f g3 f |
+e B3 d2 e2 |B3 A G2 A2 |B6 B2 |A3 G A2 B2 |
+e2 d2 B2 G2 |A2 G2 E2 D2 |E8 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12828
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/air.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

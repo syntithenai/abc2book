@@ -1,0 +1,30 @@
+X: 15
+T:Rowland Hornpipe. JWDM.15
+M:4/4
+L:1/8
+Q:200
+S:J.Winder MS,Wyresdale,Lancs.,1789
+R:Hornpipe
+O:England
+A:Lancashire
+N:cf.Kershaw MS
+Z:vmp.Taz Tarry
+K:D
+AFDF EDCE|D2 EF GFED|C2 E2 DEFD|AFDF EDCE|D2d2AGFE|D2A2EFGE:||!
+:ABcA BcdB|c2 SBAS GFED|C2 E2 DEFD|ABcA fedc|d2 c-B AGFE|D2F2EFGE:||!
+:fgaf efge|c2 c-f efge|c2 c-f efge|fgaf efge|d2 c-B AGFE|D2 F2 EFGE:||!
+:AFAF BGBG|AcBA GFED|CDEC|EFGE|AFAF BGBG|BdcB AGFE|DEFD EFGE:|]
+S:https://www.folktunefinder.com/tunes/43631
+S:http://www.andyhornby.net/Music/John%20Winder%20MS.abc
+S:http://www.village-music-project.org.uk/abc/johnwinder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

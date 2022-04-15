@@ -1,0 +1,29 @@
+X: 71
+T:Morning Stare(!),The. JMP.071
+M:C|
+L:1/8
+Q:180
+C:"76"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+GA | BABG E2 FG | AGAF D2 GA | BABG EFGE | D2 G2 G2 :|!
+|:GA | B2 d2 d2 ef | gfed cBAG | B2 d2 efge | f2 d2d2 dc |!
+B2 e2 d3 c | BdBA GFGA | BABG EFGE | D2 G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/2008
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

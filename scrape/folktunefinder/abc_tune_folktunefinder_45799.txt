@@ -1,0 +1,23 @@
+X:5
+T:Spaanse wals                           %title
+O:Terschellling
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=198                           %tempo  Q:1/4=80
+K:F                         %key C  Cm
+V:1
+"C"G2A2 | "Bb"B2 BB BB| "Bb"B2 G2 A2 | "Bb"B2 BB BB |"Bb"B2A2B2 |"C"c2 cc cc | "C"c2 d2 c2 |"Bb"B2 BB BB |"Bb"B2c2B2|
+"F"A2 AA AA |"F"A2B2A2 |"C"G2 GG GG |"C"G2 A2 G2 |"F"F6 | "Bb"B6|"C"E6 | "Bb"D3 DED |
+"C"G4 A2| "C"G2F2E2 | "C"G6 | "F"F4 [Ad][Ad] | "F"F4 G2 | "F"F2E2D2|"F"A6 |"C"G3 DB,D|
+"Bb"B2B2B2 |"Bb"B2A2B2 | "Bb"d2d2d2 | "F"F3 GAB | "C"c2c2c2 |"C"c2B2c2| "Bb"d2d2d2 | "Bb"de dc BA|
+"C"G4 A |"C"G2F2E2| "C"G6 | "F"F4 [AD][AD]| "F"F4 G |"F"F2E2D2 |"F"A6| "C"G3 DB,D|
+"Bb"B2B2B2| "Bb"B2A2B2|"Bb"d6 | "C"(c4 c) D | "Bb"(B4 B) D| "F" (A4 A) D|"C"(G6| "C"G2)||
+S:https://www.folktunefinder.com/tunes/45799
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Caledonian Laddie
+R: reel
+O:
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D2DE FDFA | "G"BABd "Em"e2"A7"fe | "D"dcBA BdAF | "Em"GBE2 "A7"EGFE |
+| "D"D2DE FDFA | "G"BABd "Em"e2"A7"fe | "D"dcBA "G"Bd"A7"AG | "(D)"FAD2 "D"D2 :|
+|: de \
+| "D"f2fd "Em"gfed | "A7"cdec "(D)"A2dc | "Bm"B2Bc dcde | fedc "G"B2dB |
+| "D"A2AB "A7"AFGE | "D"D2d2 d2cB | A2AF BAGF | "Em"GBE2 "A7"EGFE |
+| "D"D2DE FDFA | dcde fed2 | "Em"E2EF G2B2 | e2ef g2ef |
+| "Em"gfed eBed | "A7"cAce ABcA | "D"d2F2 "A7"EFGA | "(D)"F2D2 "D"D2 :|
+S:https://www.folktunefinder.com/tunes/16876
+S:http://trillian.mit.edu/~jc/music/abc/reel/CaledonianLaddieR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CaledonianLaddieR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:291
+T:Danza de Las Tabiernas (Arrg.)
+R:Danza Prima
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Esta pieza recoyla'l grupu "Los Concetsones" de Tinu nes braes vaqueires de Las Tabiernas y Silvallana en 1984 de boca de Manuel Gayo Bueno, "Franqun", (71 aos) y el matrimoniu formu por Aurora Gayo Garca (71 aos ) ya Manuel Garca Alvarez (60 aos).
+N:La danza de Las Tabiernas ye una danza prima de les ms antigues qu'atopamos na zona. rmase en corru y los danzantes agarrnse de les manes.
+N:El ritmu acelrase cada segunda estrofa, faciendo les veces d'estribillu.
+A:Asturies
+D:Muyeres
+G:Arrg.
+O:Las Tabiernas (Tinu)
+Z:G. Eguren
+M:3/8
+L:1/8
+Q:1/4=150
+K:Dm
+|:"Dm"AAA|"Am"A3|"Bb"B2 A|"Gm"GGF|
+"C"E3|"Gm"GGG|"Gm"G3|"Dm"A2 G|
+"Dm"FFE|[1 "Dm"D3:|[2 "Dm"D3-||"Dm"D2 D|
+"Dm"FG/F/E/D/|"Am"ECD|"Am"EF/E/D/C/|"Dm"D2 A|
+"Dm"AB/A/G/F/|"Gm"GEG|"C"GA/G/F/E/|"Gm"D2 E|
+|:"Dm"FGF|"Am"ECD|"Am"EFE|[1 "Dm"D2 E:|[2 "Dm"D3-|"Dm"D z2||
+S:https://www.folktunefinder.com/tunes/59178
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza prima
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

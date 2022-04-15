@@ -1,0 +1,25 @@
+X:477
+T: "Gedenke mein"
+N: Z1157
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Abschieds - Lied
+M: 4/4
+L: 1/16
+K: F
+c4 | f4c4c2B2A2G2 | F6G2A4
+A4 | A4G4c2B2A2G2 | F8z4
+F2G2 | A4A4G4G4 | G6ABc4
+c2B2 | A4A4G4G4 | G6ABc4
+c2B2 | A4A4c2B2G4 | F8z4
+S:https://www.folktunefinder.com/tunes/69336
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

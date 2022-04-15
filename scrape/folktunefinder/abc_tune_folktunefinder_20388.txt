@@ -1,0 +1,29 @@
+X: 1
+T: In Dulci Jubilo
+C: Heinrich Suso 1537
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G \
+| "G"G2G "(D)"B2c | "G"d2e "D"d2d \
+| "G"G2G B2c | "D"d2e d2d \
+| "G"d2e "D"d2c | "Em"B2A G2G \
+| "Am"A2A "D"B2A | "Em"G2A B2 |]
+B \
+| "G"d2e "D"d2c | "Em"B2A G2G \
+| "C"A2A "D"B2A | "Em"G2A "Bm"B2B \
+| "C"E2E "D"FEF | "Em"G3 "D"d3 \
+| "G"B2B "D7"AGA | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/20388
+S:http://trillian.mit.edu/~jc/music/abc/xmas/InDulciJubilo_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/InDulciJubilo_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

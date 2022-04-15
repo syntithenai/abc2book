@@ -1,0 +1,30 @@
+X: 1
+T: Barbara Magone's Visit
+C: Brenda Stubbert
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin with handwritten chords
+M: C
+L: 1/16
+K: Am
+B \
+| "Am"Tc3B AG3 A3e efg2 | "G"TB3A BG3 "C"Tc3A "G"BG3 \
+| "Am"Tc3B A3G A3e efg2 | "G"dB3 Tg3B "Am"AAA2 A3 :|
+b \
+| "Am"a3g ed3 e3f ga3 | "G"Tg3e d3B G3A BG3 \
+| "Am"a3g ed3 e3f g3a | "Em"Tg3f ed3 "Am"Te4 (3e2f2g2 |
+| "Am"a3g ed3 e3f ga3 | "G"Tg3e d3B G3A BG3 \
+| "Am"Tc3A "G"BG3 "F"A3B c3e | "Em"dB3 Tg3B "Am"AAA2 A3 |]
+S:https://www.folktunefinder.com/tunes/19190
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BarbaraMagonesVisit_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BarbaraMagonesVisit_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

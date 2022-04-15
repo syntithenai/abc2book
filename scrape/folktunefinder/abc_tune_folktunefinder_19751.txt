@@ -1,0 +1,46 @@
+X: 1
+T: \,Sehnaz Longa
+O: Turkey
+S: http://www.youtube.com/watchv=qAVNpzjJYsQ
+S: http://www.youtube.com/watchv=eGZZxKQAKaw
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+P: A1 A2 B1 B2 C1 C2 B2 B2
+M: 2/4|
+L: 1/16
+%%slurgraces 1
+K: G_B^c
+"A"\
+|: "Gm"{c}.d2 z2 {c}.d2 z2 | {c}.d2 z2 fed2 | cdcd cdcB \
+| c2d2 e2fe | dfed cedc |
+| BAGc "(D)"BAG^F  \
+|1 "Gm"G3A B2c2 | "D"dedc "Gm"BAG2 \
+:|2 "Gm"G3B d2B2 | "Gm"G2D2 G2z2 |]
+K: Gm^F
+"B1"\
+[| "D"DED2 FGF2 | ABA2 d2z2 | "D"DED2 FGF2 | ABA2 c2z2 |
+| "Gm"dcBd "D"cBAc | "Gm"BAGB "D"AGFA | "Cm"GFEG FEDC | "D"DEDC "Gm"B,A,G,2 |]
+"B2"\
+[| "D"DFAF DFAF | DFAF d2d2 | "D"DFAF DFAF | DFAF c2c2 |
+| "Gm"dcBd "F"cBAc | "Eb"BAGB "D"AGFA | "Gm"G3B "D"d2B2 | "Gm"G2D2 G2z2 |]
+"C1"\
+[| "Gm"z2G2{AG} ^F2G2 | "D"A6 B2 | "Gm"d4- de^ce | d2B2 G2 z2 \
+| "Gm"g6 ag | "Cm"e6 c2 | "Gm"d4 de^ce | de^ce d2z2 ||
+"C2"\
+|| "Gm"z2G2{AG} ^F2G2 | "D"A6 B2 | "Gm"d4- de^ce | d2B2 G2 z2 \
+| "Cm"e=fde cdBc | ABGA FGEF | "Gm"G3B "D"d2B2 | "Gm"G2D2 G2"->B1"z2 |]
+S:https://www.folktunefinder.com/tunes/19751
+S:http://trillian.mit.edu/~jc/music/abc/tune/SehnazLonga_3GB_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SehnazLonga_3GB_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/tune/SehnazLonga_3GB_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SehnazLonga_3GB_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Turkey/tune/SehnazLonga_3GB_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

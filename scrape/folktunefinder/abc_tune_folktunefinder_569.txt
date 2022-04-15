@@ -1,0 +1,29 @@
+X:110
+T:Marche des Rois
+O:France
+A:Provence
+C:Trad.
+R:Marche
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+d2A2 | d2>>e2 | f>e f>d |a2>>f2 | g2a2 | b>a g>f | e2a2 | g>f e>f | d2A2 | d2>>e2 | 
+f>e f>d | a>>f | g2a2 | b>a g>f | f2e2 | d2ze | e2e2 | e2>>d2 | e2f2 | g2>>f2 | g2a2 | d2ef | 
+gf ed | d2^cz/e/ | e2e2 | e2>>d2 | e2f2 | g2>>f2 | g2a2 | ba gf | f2e2 | d2z2 |]
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/569
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

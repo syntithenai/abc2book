@@ -1,0 +1,16 @@
+X:1
+T:Tuplets
+M:C
+K:C
+(2AB (3ABA (4ABAB (5ABABA (6ABABAB (7ABABABA|]
+S:https://www.folktunefinder.com/tunes/77381
+S:http://www2.redhawk.org:8080/irish/abc/examples/
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

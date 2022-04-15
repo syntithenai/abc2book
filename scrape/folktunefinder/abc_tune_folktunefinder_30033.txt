@@ -1,0 +1,48 @@
+X:0
+T:Minor (la) Scales
+L:1/4
+M:10/4
+K:FMin
+"^F"       F2 GA Bc de f2|f2 ed cB AG F2||
+M:10/4
+K:CMin
+"^C"       C2 DE FG AB c2|c2 BA GF ED C2||
+M:10/4
+K:GMin
+"^G"       G2 AB cd ef g2|g2 fe dc BA G2||
+M:10/4
+K:DMin
+"^D"       D2 EF GA Bc d2|d2 cB AG FE D2||
+M:10/4
+K:AMin
+"^A"       A2 Bc de fg a2|a2 gf ed cB A2||
+M:10/4
+K:EMin
+"^E"       E2 FG AB cd e2|e2 dc BA GF E2||
+M:10/4
+K:BMin
+"^B"       B2 cd ef ga b2|b2 ag fe dc B2||
+M:10/4
+K:F#Min
+"^F sharp" F2 GA Bc de f2|f2 ed cB AG F2||
+M:10/4
+K:C#Min
+"^C sharp" C2 DE FG AB c2|c2 BA GF ED C2|]
+S:https://www.folktunefinder.com/tunes/30033
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C-sharp
+% Key F-sharp
+% Key G
+% Key E
+% Key C
+% Key F
+% Key B
+% Key A
+% Key D
+% Time_signature 10/4
+% Has_accompaniment_chords No chords

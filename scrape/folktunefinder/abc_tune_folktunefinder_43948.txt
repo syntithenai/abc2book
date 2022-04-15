@@ -1,0 +1,31 @@
+X:415
+T:Spanish Dream
+A:Lancaster
+C:Andy Hornby
+M:6/8
+N:Nov '95
+O:England
+Q:1/8=348
+R:Jig
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000783.html
+%%ID:00000783
+K:D
+A|\
+def gfg|a2f dcd|e2A f2d|gfg e2A|\
+def gfe|fga A2d|Bcd ecA|d3 d2::
+a|\
+fga def|Bcd G2e|cde Ace|dcB A2a|\
+fga def|Bcd GAB|Ace gec|d3 d2:|
+S:https://www.folktunefinder.com/tunes/43948
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

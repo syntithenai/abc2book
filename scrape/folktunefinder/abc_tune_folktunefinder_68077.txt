@@ -1,0 +1,34 @@
+X: 191
+T: Krajdunavsko Horo
+M: 2/4
+L: 1/8
+K: Em
+Q:1/4=240
+|:GFE_E     |EFG^G|ABcB          |ABcA            |
+  B4        |_e2f2|gfe_e         |e2z2            :|
+Q:1/4=180
+|:G2GG      |D2GG |B,2GG         |G,2GG           |
+  G<FF=F    |=FEED|D^CDB,        |B,DGz           |
+  G2GG      |D2GG |B,2GG         |G,2GG           |
+  DFGA      |BABd |BAGF          |Gzzz            :|
+|:G=FFE     |EDD^C|D^CDB,        |B,DGz           |
+  G,_B,=B,^C|DE=FE|D^CDB,        |B,DGz           |
+  G=FFE     |EDD^C|D^CDB,        |B,DGz           |
+  G,_B,=B,^C|DCDG,|B,A,G,F,      |G,zzz           :|
+|:GFE2-     |EFGA |cBA2          |^GA_B2          |
+  B4        |_e2f2|gfe_e         |eBGE            |
+  GFE2-     |EFGA |cBA2          |^GA_B2          |
+  B4        |_e2f2|gfe_e         |e2z2            :|
+Q:1/4=210
+|:GD2G      |B,2D2|GD2G          |B,2D2           |
+  GD2G      |B,2D2|=F/F/E/D/ED/C/|D/D/_B,/A,/ G,2 :|
+S:https://www.folktunefinder.com/tunes/68077
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

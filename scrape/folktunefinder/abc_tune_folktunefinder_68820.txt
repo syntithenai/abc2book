@@ -1,0 +1,31 @@
+X:274
+T: Der Schwanendreher
+N: A0315
+O: Europa, Mitteleuropa, Deutschland
+N: Hainhofer, Lautenbuch II. 1603. Bl. 13b Hs. in Wolfenbuettel.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: A
+BAGFE2F2 | G2G2F2F2
+G2A2B2B2 | c3BA2Bc
+d2B2c2c2 | B3EB4
+d4d2c2 | B2A=GF4
+d4d2c2 | B2A=GF2
+F2 | B4A4 | G3FE2
+B2 | c2B2c2d2 | e2dcB2
+A2 | G2F2G2A2 | B2AGF2
+B2 | c4B4 | G3FE2
+E2 | c4B4 | A3FA4
+S:https://www.folktunefinder.com/tunes/68820
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:0
+T:Bide Ye Yet
+S:Kerr's Merry Melodies book 1
+N:originally known as "Hit Her on the Bum"
+M:6/8
+L:1/8
+Q:3/8=116
+K:EMin
+% minor/phrygian hexatonic
+d|BAB G2A|Bcd cBA|BAB G2A|B2e e2d|
+  BAB G2A|Bcd cBA|BAB G2A|B2e e2:|
+d|B2g g2d|B2d d2A|B2g gab|B2e e2d|
+  B2g gab|Bcd cBA|BAG G2A|B2e e2:|
+S:https://www.folktunefinder.com/tunes/30090
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 30
+T:Dennis Murphy's Polka
+M:4/4
+L:1/8
+Q:120
+S:Dennis Murphy
+R:Polka
+K:D
+|:"D"fgfe d3 B|A2 D2 F2 A2|"G"G2 E2 e3 d|"A"c2 B2 ((3BcB A2)|!
+"D"fgfe d3B|A2 D2 F2 A2|"G"G2 E2 "Em"e3 f|[1"A"e2 d2 "D"d4:|[2"A"2e2 d2
+"D"d2 B2||!
+|:"D"A2 [f2A2] [fA][eA] [f2A2]|"G"B2 [g2B2] [gB][fB] [g2B2]|"D"A2 [f2A2]
+ [fA][eA] d2|"A"efed B2 A2|"D"A2 [f2A2] [fA][eA] [f2A2]|!
+"G"B2 [g2B2] [g2B2] a2|"A"b2 a2 g3 c|[1"D"e2 d2 d2 B2:|[2"D" e2 d2 d4||
+S:https://www.folktunefinder.com/tunes/77223
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

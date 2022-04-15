@@ -1,0 +1,25 @@
+X: 5
+T: the Battle of the Somme
+C: Pipe Major William Laurie (1882-1916)
+B: "Army Manual of Bagpipe Tunes and Drum Beatings. Music for Massed Pipes and Drums, Book 2" 1934
+M: 9/8
+O: Scotland
+R: Pipe march
+Z: Richard Robinson 
+K: D
+A faf |\
+d3 d>cd edG | B3  A3 B>GB | A3 d3 faf  | (e3 e2)A faf |\
+d3 d>cd edG | B3  A3 B>GB | A3 f3 e>fe | (d3 d2) ||
+|: d d>cd |\
+e3 A2e e>fg | fa2 d3 d>ef | g3 A3 faf  | (e3 e2)A faf |\
+d3 d>cd edG | B3  A3 B>GB | A3 f3 e>fe | (d3 d2) :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/9985
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BattleOfTheSomme.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

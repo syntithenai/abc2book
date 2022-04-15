@@ -1,0 +1,33 @@
+X: 1
+P: The Braemar Gathering
+R: jig
+C: George MacLennon
+C: arr. Matt Petrie, mods. by T. Traub 2-24-2004
+M: 6/8
+L: 1/8
+K: Amix
+   e \
+| "A"A>AA A>Bc | A>ce f>ec | "Bm"B>BB    B>cA | "Bm"B>ce "D"f>ga \
+| "A"A>AA A>Bc | A>ce f>ec |  "D"f<af "E"e>Bc |  "A"A>AA    A2 :|
+|: e \
+| "F#m"f2f f>ga | "D"f2f "E"f2c  | "A"e2e     f>ga |    e2e  e2B \
+| "F#m"c2c c>BA  | "A"A>AA   B>ce | "D"f<af "E"e>Bc  | "A"A>AA A2 :|
+|: e \
+| "A"A>AA c>BA | c<eA c>BA | "Bm"B>BB    B>ce | "D"f>ga "E"f>ec \
+| "A"A>AA c>BA | c<eA c2e  |  "D"f<af "E"e>Bc | "A"A>AA     A2 :|
+|: g \
+| "F#m"a>ff f>ef |  "D"f<af "E"f>ec | "A"f>ee    e>ce | "D"f>ec "E"e>cB \
+|   "A"c>BA A>AA | "Bm"B>ce    f2e  | "D"f<af "E"e>Bc | "A"A>AA    A2 :|
+S:https://www.folktunefinder.com/tunes/13933
+S:http://trillian.mit.edu/~jc/music/abc/jig/BraemarGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/BraemarGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BraemarGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BraemarGathering_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BraemarGathering_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

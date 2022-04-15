@@ -1,0 +1,33 @@
+X:4502
+T:My First Step Polka. GHW.016
+O:england
+M:2/4
+L:1/16
+Q:110
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+A:Norfolk
+N:DC marked at end of tun
+K:C
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|e2g2 gage|c2e2e4|d2g2 fga2|g2g2g2 z f
+|
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|e2g2 gage|c2e2e4|d2g2 fdB2|c2c2c2z2:|
+d2g2 fdBG|c2c2 agec|d2g2 fdBG|c2g2 g2g2|d2g2 fdBG|c2c2 agec|GABc defB|c2
+e2 c4:|
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|e2g2 gage|c2e2e4|d2g2 fdB2|c2c2c2||
+K:G
+D2|B6 A2|G6F2|A2G2 D3G|F4E4|c6B2|A6G2|F2C2 F3E|D4 EFGA|
+B6A2|G6F2|A2G2 g3f|f4e4|f6 e2|d2B2 G3E|D2B2 B3A|G2G2G2:|
+S:https://www.folktunefinder.com/tunes/24954
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

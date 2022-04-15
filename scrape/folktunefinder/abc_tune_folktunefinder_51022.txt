@@ -1,0 +1,24 @@
+X:14001
+T:Nellie The Elephant
+R:Jig
+C:Butler/Hart 1957
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+"G"Bcd BAG|B2B d2d|"C"e2e gfe|"G"d3 B3|
+"D7"c2c AAA|"G"ddd B3|1"D/A"f3 "A"e3|"D"d3 "D7"cBA:|2"C"e3 "D"F3|"G"G3-G2G||
+"C"Gce g2e|"G"g3 d3|"C"e3 d2c|"G"B3-B2B|
+"A"A2B ^cBA|"D"d2e ffg|"A"a2g f2e|"D7"d3 cBA|
+"G"Bcd BAG|B2B d2d|"C"e2e gfe|"G"d3 B3|
+"D7"c2c AAA|"G"ddd B3|"C"e3 "D"F3|"G"G3-G2G||
+S:https://www.folktunefinder.com/tunes/51022
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

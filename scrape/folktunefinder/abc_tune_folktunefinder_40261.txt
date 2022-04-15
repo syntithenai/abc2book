@@ -1,0 +1,26 @@
+X:62
+T:La Goumberteso
+O:France
+A:Provence
+C:Maurice Marchal
+C:1960
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Fmajor
+!mf!cdc||f3 ced|(d2c) cdc|edc BAG|(d2!breath!c) cdc|f3 ced|(d2c) cdc|edc BAG|F2z AGA|
+B2G GAB|c3 ded|(d2c) dgd|(d2c) AGA|Bdc BAB|!breath!c3 Ged|Ggf ede|f2z!fine!||[K:Bbmajor]!f!dBc|
+d2d d2f|B3- B2F|B2d fdf|(e3 c3)|c2c cec|A3- A2f|gfe dec|(d3 !breath!B) FB|
+d2d d2f|B3- B2F|B2d fdf|g3- g2z|g3- gec|f3- fdB|ecA FAc|B2z ||[K:Fmajor] cdc|]
+%%footer $D   Galouvielle-MBe 2005 \nFarandole France
+S:https://www.folktunefinder.com/tunes/40261
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

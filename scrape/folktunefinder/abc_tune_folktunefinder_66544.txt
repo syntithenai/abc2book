@@ -1,0 +1,24 @@
+X: 119
+T:Abbey Leix
+M:4/4
+L:1/8
+S:Brendan McGlinchey
+C:Brendan McGlinchey
+K:AMin
+[| D2 ED CA, (3A,A,A, | FEFG ABcA | d2 ed cAdc | AcGE EDDC|
+D2 ED CA, (3A,A,A, |FEFG ABcA | d2 ed cAdc | AcGE ED D2 |]
+K:D
+[| d2 fd adfd | vg2 u(fg e)v(ABc |d)u(DcD BDAF | G)EFD EA,A,A|
+d2 fd adfd | vg2 u(fg e)vABc | du(DcD BDAF | G)BAG FD D2 |]
+S:https://www.folktunefinder.com/tunes/66544
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 1
+T: Polska fr\aan Mattmar
+R: \AAtabakspolska
+B: Svenska l\aatar 323
+N: Uppt. av Erik Olsson "\"Acke", M\"arsil (1860-1916)
+N: Arr. av G\"oran O:n F\"ollinger
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+|: D>B, G,B, Dc | (3{Bc}B(AG) FG (3A(Bc) | Bd ef gd | (3B(dB) (3A(Bd) BG |
+V:2
+|: d>d g3     e | dz         ve3      A  | GF ED EF | G2      F2      GB |
+V: 1
+| D>B, G,B, Dc | {Bc}(3B(AG) FG (3A(Bc) | Bd (3c(Ac) (3B(AG) | (3F(EF) G3 z   :|
+V: 2
+| d>d g3     e | dz         ve3      A  | GF   E2      DE    | DC     B,2 G,2 :|
+V: 1
+|: (3vd(ef) gg {g}B2- | (3B(cd) (3c(de)    A2- | AB (3c(Ac) (3B(AG) | (3F(DF) (3E(D^C) ED |
+V: 2
+|:    BD    F2   (GD) |   G,B,  (3A,(B,C) ^CA, | D2  .E(F     G.)B, |   D2      A,4       |
+V: 1
+| (3d(ef) gg {g}B2- | (3B(cd) (3c(de)    A2- | AB (3c(Ac) (3B(AG) | (3F(EF) G3 z :|
+V: 2
+|   B,D   E2   (GD) |   G,B,  (3A,(B,C) ^CA, | D2  .E(F     G.)B, | .C2    (B,2 G,)z :|
+S:https://www.folktunefinder.com/tunes/16465
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Mattmar_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Mattmar_2V.abc
+% Rhythm %C3%85tabakspolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

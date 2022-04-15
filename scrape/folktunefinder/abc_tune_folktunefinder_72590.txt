@@ -1,0 +1,31 @@
+X:133
+T: Der maechtigste Koenig im Luftrevier
+N: D0203
+O: Europa, Mitteleuropa, Deutschland, Hessen, Hof
+N: Inzipit = Variante zum Lied
+R: Wandervogel - Lied
+M: 4/4
+L: 1/16
+K: F
+ |  | C4 | F4F3FF4F2G2 | A4A3GF4
+A3A | G4C3cG4A3G | F8z4
+C4 | F4F3FF4F2G2 | A4A3GF4
+A4 | G4C3CG4A2G2 | F8z4
+A2B2 | c4A4A4F2A2 | c4A4A4
+F2A2 | c4A2F2c4A2F2 | c8z4
+C3C | A6E2G4F2D2 | C8z4
+C4 | D4G2F2E4A2G2 | F8z2
+F2F2A2 | c4-c6B2A2G2 | F4-F6
+A2G2F2 | G4-G6B2A2G2 | A4d4c4
+C4 | A6E2G4F2D2 | C8z4
+C4 | D4G2F2E4A2G2 | F12
+S:https://www.folktunefinder.com/tunes/72590
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Wandervogel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X:28
+T:Schottis fr\aan R\"od\"on
+C:efter Rickard N\"aslin
+M:2/4
+%Q:1/4=75
+L:1/16
+R:Schottis
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook
+K:E %Transposed from D
+P:A
+V:1
+G>FGA GFGA|F>EFG E2E2|G>FGA B2(GE)|F2B2 B2>B2|
+V:2
+E>DEF E>DEF|D>CEF B,2B,2|E>DEF G2(EB,)|D2F2 F2>F2|
+V:1
+c>Bcd e>def|g>fga b2>b2|a>gfe dBdf|[1e2e2 e2>E2:|[2e2e2 e2>e2||
+V:2
+A>GAB c>Bcd|e>def g2>g2|f>edc BAFA|[1G2G2  G2>B,2:|[2G2G2 G2>G2||
+P:B
+V:1
+g>fga b2(ge)|f2b2 b2>b2|a>gab g2(eg)|f>edc B2>B2|
+V:2
+e>def g2(eB)|F2d2 d2>d2|c>Bcd B2(GB)|A>GFE D2>E2|
+V:1
+c>Ace c>Ace|B>GBe g2>g2|a>gfe dBdf|[1e2e2 e2>e2:|[2e2e2e4|]
+V:2
+A>EAc A>EAc|G>EGB e2>e2|f>edc BAFA|[1G2G2 G2>G2:|[2G2G2G4|]
+S:https://www.folktunefinder.com/tunes/62605
+S:http://www.nordicfiddlesandfeet.org/music/NFFBb.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

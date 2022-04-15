@@ -1,0 +1,23 @@
+X:52
+T:Murphy's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-52
+M:C|
+K:G
+(3DEF|GABG EFGE|ABcA FGAF|GBdg ecAG|FGAF DEFD|
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|
+|:Bc|dedc Bcd2|efed ^cdef|~g3d ecAG|FGAF DEFD|
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|
+S:https://www.folktunefinder.com/tunes/50604
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnhp0.abc
+S:http://www.norbeck.nu/abc/i/hnhp0.abc
+S:http://www.firepowr.com/abc/Norbeck_hnhp0.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

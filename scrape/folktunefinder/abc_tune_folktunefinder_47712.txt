@@ -1,0 +1,30 @@
+X: 175
+T:Jack Upon The Green. JaW.174
+M:6/8
+Q:100
+S:James Winder Ms, Lancashire, 1835-41
+R:Misc.
+O:England
+A:Wyresdale,Lancashire
+N:Same tune appears twice in JWDM. I can't get the repeat bars in the
+N:middle of the tune to work (in abc2win) ..CGP..
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+DG2GA2|A (B/c/d B)G2|GA2AB2|AG2GA2|!
+"cr"A (B/c/d B)g2|dB2cd2:||: eg2gg2|fe2da2|!
+aa2gf2|(e/f/)g2gg2|fe2fg2|dd2cB2:|]
+S:https://www.folktunefinder.com/tunes/47712
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

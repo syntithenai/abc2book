@@ -1,0 +1,25 @@
+X:184
+T: Venus, du und dein Kind
+N: A0219C
+O: Europa, Mitteleuropa, Deutschland
+N: Als Choral. Zuerst bei H. Schein 1627.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: D
+D | DE=FG | A2z
+A | AG=FF | E2z
+E | =FGAA | G2A
+A | =FGAA | G2=F2
+AdA2 | AAG2
+GGAG | =FGE2 | D3
+S:https://www.folktunefinder.com/tunes/68730
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

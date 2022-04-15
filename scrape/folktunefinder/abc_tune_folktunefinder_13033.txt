@@ -1,0 +1,23 @@
+X: 22
+T: Peggy O'Neil
+C: Harre Pease, Ed Newson, Gilbert Dodge
+R: waltz
+M: 6/8
+L: 1/8
+K: C
+[| "C"E2G A2c | E2G A3 | G3 "D7"AGA | "G7"B3- B3 \
+| "G7"F2  A2B | F2G A3 | A3     BAB |  "C"E3- E3 |
+| "C"czc "D7"cBA | "G7"BdB  G3  | "C"czc "D7"cBA | "G7"BdB G3 \
+| "C"EGG "A7"AGE | "D7"^FAc dcA |    c3  "G7"Bcd |  "C"c3- c3 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13033
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

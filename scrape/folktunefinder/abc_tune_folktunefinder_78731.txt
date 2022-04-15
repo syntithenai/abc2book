@@ -1,0 +1,28 @@
+X:290
+T: DER SPERLING DER GIBT DER BRAUT DEN TRAURING
+N: E0163C
+O: Europa, Mitteleuropa, Deutschland, Danzig, Neuhof
+R: erzaehlendes Volks - Lied, Sage, Tier - Maerchen
+M: 2/4
+L: 1/8
+K: C
+G | G2AB | c2E
+A | GFED | E2C
+C | G2AB | c2E
+A | GEFD | CCC
+C | D2E^F | G2G
+G | dcBA | GFE
+C | GGAA | BBc
+A | GEFD | CCC
+S:https://www.folktunefinder.com/tunes/78731
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, tier - maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5370
+T:Schottis fr Haver
+M:4/4
+O:Sweden
+R:Schottis
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000094e.html
+%%ID:0000094e
+K:D min
+D2DE FGFE | D2A2 A4 |\
+d^cde f2f2 |1efe^c A2A2 :|2 e2 {g}e^c d3 :|
+|:f |\
+a2a^g a2a2 | fg (3f/g/f/e f2f2 |1\
+e2{f}e^c A2A2 | {G}FGFE (3E/F/E/D D2 :|2\
+e2 {g}e^c Acec | d2d2d2:|
+S:https://www.folktunefinder.com/tunes/37153
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

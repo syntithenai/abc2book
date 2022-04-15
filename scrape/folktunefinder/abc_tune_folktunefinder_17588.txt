@@ -1,0 +1,30 @@
+X: 1
+T: LOW ROAD TO GLIN, THE
+N: The Fiddler's Companion provides the following info (for both tunes):
+N: Irish, Reel. E Dorian. Standard. AB. Composed by
+N: Bronx, N.Y., fiddler Martin Mulvihill in 1971. Glin is located in north
+N: Limerick, on the south bank of the river Shannon, where Mulvihill was born.
+N: Black (Music's the Very Best Thing), 1996; No., 326, pg. 174.
+M:4/4
+L:1/8
+O:e
+Z:transcribed by Caroline Foty
+S: Jeff Lindqvist <jeff_lindqvist@SPRAY.SE> irtrad-l 2000-10-24
+K:E Dor
+|: B2 Ad BEEA | B2Ad Bded | B2Ad BEEG | FADA FDDA |
+| B2 Ad BEEA | B2Ad Bded | fdec BABc |1 dBAG FDDA :|2 dBAG FDDf |
+|: e2Be geBg | edef gfec | d2 Ad fdec | BABc dBAf |
+| e2Be geBg | edef gfga | bgaf gfed |1 Bcde fgeg :|2 Bcde fged |]
+S:https://www.folktunefinder.com/tunes/17588
+S:http://trillian.mit.edu/~jc/music/abc/reel/LowRoadToGlin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LowRoadToGlin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LowRoadToGlin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

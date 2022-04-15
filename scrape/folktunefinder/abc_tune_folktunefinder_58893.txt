@@ -1,0 +1,38 @@
+X:6
+T:A la mar fui por naranxes (JHM 009) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 009
+M:2/4
+L:1/8
+Q:1/4=120
+K:Gm
+|"Gm"GA Bc|"D7"d3 c|"Gm"e2 d2|dd dd|"D7"c3 B|"Gm"A2 G2|
+GA Bc|"D7"d3 c|"Gm"e2 d2|dd dd|"D7"c3 B|"Gm"A2 G2|
+|: AA AG|"D7"^F4|AA AB|c3 B|[1 "Gm"A2 G2 :|[2 dc BA|"Gm"G4||
+W:A la mar fui por naranjas,
+W:cosa que la mar no tiene;
+W:toda vine mojadita
+W:de olas que van y vienen.
+W:
+W:Ay! mi dulce amor,
+W:ese mar que ves tan bello,
+W:ay! mi dulce amor,
+W:ese mar que ves tan bello, es un traidor.
+W:
+S:https://www.folktunefinder.com/tunes/58893
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

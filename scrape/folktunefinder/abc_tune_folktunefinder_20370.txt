@@ -1,0 +1,35 @@
+X: 1
+T: Det kimer nu til Julefest [C]
+O: Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+E \
+| "C"E2 E \
+| C2 E \
+| "G7"G>A G \
+| "C"E2 E \
+| "F"F2 "G7"D \
+| "C"E2 C/D/ \
+| E>F E \
+| "G7"D2 D |
+| DE F \
+| "C"E2 E \
+| "G7"DE F \
+| "C"E2 "G7"G \
+| "Am"c2 E \
+| "Dm"D>E F \
+| "G7"C2 B,/D/ \
+| "C"C2 |]
+S:https://www.folktunefinder.com/tunes/20370
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DetKimerNuTilJulefest_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/xmas/DetKimerNuTilJulefest_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/DetKimerNuTilJulefest_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

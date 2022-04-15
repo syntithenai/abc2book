@@ -1,0 +1,24 @@
+X:360
+T: ICH GING WOL IN DIE SCHENKE
+N: E0203E
+O: Europa, Mitteleuropa, Deutschland, Halle, Loebejuen
+R: erzaehlendes Volks - Lied, Todes - Ahnung; betrogene Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2B2 | d4B2
+d2 | d2c2A2F2 | G4z2
+G2 | e4e2e2 | e2d2d2
+B2 | d4c4 | B4z2
+S:https://www.folktunefinder.com/tunes/78801
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, todes - ahnung; betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

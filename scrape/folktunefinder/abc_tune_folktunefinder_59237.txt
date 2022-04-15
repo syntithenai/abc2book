@@ -1,0 +1,63 @@
+X:350
+T:El Perlindango (CT 130)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille, transcrita en Cuideiru.
+N:Se conoce este baile con el nombre de El Perlindango, y acerca de l nos ha comunicado D. Agustn Bravo, de Cuideiru, lo siguiente:
+N:El Perlindango es un baile local antiqusimo.
+N:Su nombre se deriva del de una clase delantales que antao formaba parte de la indumentaria de lujo de las aldeanas de estos contornos.
+N:Que por qu se llama aqu perlindangos a estos delantales Nadie me lo explica.
+N:El Perlindango es una especia de xiraldilla lenta, que bailan casi siempre las mujeres viejas, y sus coplas suelen ser un tanto atrevidas.
+N:Bailan agarradas por las manos mientras dura la estrofa, formando una rueda que gira hacia la derecha, soltndose al cantar el estribillo para coger el delantal y moverlo hacia los lados rtmicamente.
+A:Asturies
+O:Cuideiru
+Z:Cancioneru de Torner 130
+M:3/4
+L:1/8
+Q:1/4=116
+K:Gm
+dd dd
+|g2 d4-|d2 gg gg|d2 c4-|c2 dd dd|c2 A4-|A2 dd dd|B2 G4-|
+G2 GA Bc|d2 A4-|A2 dd dd|B2 G4-|
+G2 GA Bc|d2 G4-|G2 gg gg|[M:2/4]d2 c2|[M:3/4]d2 c4-|
+c2 ff fe|[M:2/4]d3 c|[M:3/4]e2 d4-|d2 dd dd|B2 G4-|G2 :||
+W:Probes marieirus,
+W:tristes y aflixidus:
+W:las vuestras muyeres,
+W:con otros maridus,
+W:las vuestras muyeres
+W:con otros maridus,
+W:
+W:Perlindango, perlindango,
+W:dango, dingo,
+W:ese perlindango,
+W:dango dango,
+W:trxolo el mio Mingo.
+W:
+W:Unas colus curas,
+W:otras colus frailes
+W:y las ms hermosas,
+W:colus capellanes,
+W:y las ms hermosas,
+W:colus capellanes.
+W:
+W:Perlindango, perlindango,
+W:dango, dingo,
+W:ese perlindango,
+W:dango dango,
+W:trxolo el mio Mingo.
+W:
+S:https://www.folktunefinder.com/tunes/59237
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

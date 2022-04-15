@@ -1,0 +1,24 @@
+X: 1
+T: Hull's Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+R: reel
+K: D
+   dB | "D"AD~D2 A2"G"GB | "D"AD~D2 "G"BABd | "D"AD~D2  A2GA | "G"BABd "A7"edef |
+   y6 | "D"AD~D2 A2"G"GB | "D"AD~D2 "G"BABd | "Em"efed  B2AB | "A7"dedB    AB  :|
+|: de | "D"fA~A2    f2ef | "G"eB~B2    B2AB | "Em"eB~B2 B2AB | "A7"dA~A2   ABde |
+   y6 | "D"fA~A2    f2ef | "G"eB~B2    B2AB | "Em"efed  B2AB | "A7"dedB    AB  :|
+S:https://www.folktunefinder.com/tunes/17377
+S:http://trillian.mit.edu/~jc/music/abc/reel/HullsReel2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HullsReel2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HullsReel2_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

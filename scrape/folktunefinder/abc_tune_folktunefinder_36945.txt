@@ -1,0 +1,26 @@
+X:4330
+T:Polka
+L:1/8
+M:2/4
+O:Ireland
+R:48-bar Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001142.html
+%%ID:00001142
+K:G
+D |\
+G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AD | G2 G>A | Bd de/f/ | gB AB/A/ | G3 ::
+D|\
+GB/d/ g>g | fe e/f/g/e/ | dB B/A/G/A/ | BA AD | GB/d/ g>g | fe e/f/g/e/ | dB AB/A/ | G3 ::
+d |\
+g2 a2 | b3 d | gg aa | b2b/c'/b/a/ | ge e/f/g/e/ | dB g>e | dB AB/A/ | G3 :|
+S:https://www.folktunefinder.com/tunes/36945
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

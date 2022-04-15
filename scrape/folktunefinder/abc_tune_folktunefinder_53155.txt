@@ -1,0 +1,25 @@
+X:76
+T:Indische Bourr\'ees
+C:Rag Bhairar/trad/Wim Claeys
+N:original url: www.wolfram.claranet.de
+D:Ambrozijn
+M:6/8
+L:1/8
+Q:1/8=250
+K:C
+P:A
+G,DG, [F3/2G,3/2][E3/2G,3/2]| D/E/D/C/B, B,CD| G,DG, [F3/2G,3/2][E3/2G,3/2]|1 D/E/D/C/B, {CB,}C2 G,:|2 D/E/D/C/B, C2F|
+|:(ED)F (ED)F| {F}G3/2F/E/F/ (ED)F| (ED)F| E/F/E/D/C/B,/ C2C C2F:|
+P:B
+BGG BGG| f3/2_e3/2 d2d| _e3/2G/A/_B/ =Bc_d|1 =d3/2B/A/G/ FGA:|2 d>c{BA}G/ def|
+|:g>ag ^fde| =f2f ecd| _e>c_B AFA|1 _B2G def:|2 _BA=B {cd}c2c||
+S:https://www.folktunefinder.com/tunes/53155
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1273
+T:Cooley's Hornpipe
+O:england
+M:4/4
+L:1/8
+C:Paddy O'Brien of Tipperary
+S:Seamus Connolly
+K:G
+(3def) |: g2 ~G2 (3EFG) DC | B,G, B,D GB dg | ~e2 ce ~d2 Bd | (3cBA) BG
+A2
+(3def) | g2 ~G2 (3EFG) DC | B,G, B,D GB dg | ec AG FA dc | 1 B2 G2 G2
+(3def):| 2 B2 G2 G3A ||:~B2Bd ed Bd | g2 bg eg (3def) | gf ge dB GB | (3
+cBA)
+BG Ad ^c=c | BG DC (3B,CD) GF | EG cE DG, B,D | Gg fe dB cA | 1 B2 G2 G3
+A :|
+2 B2 G2 G4 :|
+S:https://www.folktunefinder.com/tunes/21722
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

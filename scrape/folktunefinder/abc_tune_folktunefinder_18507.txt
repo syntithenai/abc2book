@@ -1,0 +1,26 @@
+X:11
+T:Vralkada
+R:schottis
+C:Roger Talroth
+S:V\"asen, Spirit
+S:Harry Seaman <hseaman@execpc.com> scand 2002-3-21
+M:4/4
+L:1/8
+K:G
+|: c2c>B A2A>c | B2B>^G E2 E2 | c2c>B A2A>c | B2 ^d2 e4 \
+| c2c>B A2A>c | B2B>^G E2 E>=G | F>E D2  E2 E>C | B,>A, G,2 A,2 :|
+|: A,>C B,2 B,4 | B,>DC2 C4 | C>EG>A G>EF>A | F>DE2 E4 \
+| A,>C B,2 B,4 | B,>D C>D E>G F>E | D2 E4-E>C | B,>A, G,2 A,4 :|
+S:https://www.folktunefinder.com/tunes/18507
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Vralkada_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Vralkada_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scand/Vralkada_1.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

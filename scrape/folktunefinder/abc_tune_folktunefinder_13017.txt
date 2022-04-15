@@ -1,0 +1,26 @@
+X: 6
+T: The Bold Fenian Men
+M:3/4
+L:1/8
+C:Traditional
+S:Terry Moylan <terrym@IOL.IE> irtrad-l 2001-9-16
+R:Freely
+K:G
+B2 \
+| B2 E3 F | E2 D3 E | G3 A B2 | d B4 A \
+| B2 E3 F | E D4 E | G3 A B2 | d B4 A |
+| B2 e3 f | e2 E3 F | G3 A G2 | F D3 E F \
+| G4 A B | d4 B A | B2 E2 D2 | E4 z2 ||
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13017
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Rhythm Freely
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

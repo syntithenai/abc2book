@@ -1,0 +1,24 @@
+X:131
+T: Frau Nachtigall
+N: A0158A
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 6.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: D
+ |  |  | D2D2D2 | A4A2 | =c4c2 | =F4
+G2 | A2_B4 | A4G2 | A6 | A4z2
+A2=c2B2 | A2G2_B2 | A4A2 | D4
+A2 | =c4_BA | _B4A2 | G2E2=F2 | G2E4 | D6
+S:https://www.folktunefinder.com/tunes/68677
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

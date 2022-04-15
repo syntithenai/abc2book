@@ -1,0 +1,24 @@
+X: 7844
+T:Sonderh\o{}ning
+R:Sonderh\o{}ning
+O:Denmark
+M:2/4
+L:1/8
+A:Fan\o{}
+K:D
+A>G FA | d/c/d/e/ d2 | c>d ec | d/c/d/e/ fd |\
+A>G FA | d/c/d/e/ d2 | c/d/e/f/ g[ce] | d2d2 ::\
+gg/a/ ge | ff/g/ fd | ee/f/ ec | d/e/f/g/ af |\
+gg/a/ ge | ff/g/ fe/d/ | c/d/e/f/ g[ce] | d2 d2:|
+S:https://www.folktunefinder.com/tunes/35061
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Sonderh%C3%B8{}ning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

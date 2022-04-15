@@ -1,0 +1,25 @@
+X:2
+T:40v. La vita fugge
+T:Basso.
+C:Andr Feuernage
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+M:C
+L:1/4
+K:A min bass
+%%MIDI transpose -24
+a4 e6 ^f2 g3 e/ f/ g/ e/ f/ d/ e/ c/ d/ e/ f/ g/ a2 ^g "A"a4 z f e f a3 f f/ e/ d/ c/ d2 A2
+S:https://www.folktunefinder.com/tunes/50674
+S:http://www.laymusic.org/music/bicinia/vita/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

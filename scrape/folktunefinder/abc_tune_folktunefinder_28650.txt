@@ -1,0 +1,24 @@
+X:8198
+T:Yorkshire Lasses
+O:england
+M:6/8
+A:North-West
+R:Jig
+K:D
+A|\
+d2A FGA| Bed cBA| def efg| fdf edc| \
+e2A FGA| Bed cBA| dcd efg| fdd d2::\
+e|\
+fdf faf| ece eac| dcd Bed| cAA A2A|\
+BGB BdB| AFA ABc| dcd efg| fdd d2:|
+S:https://www.folktunefinder.com/tunes/28650
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:581
+T: "Fruehlingslied"
+N: Z1261
+O: Europa, Mitteleuropa, Steiermark
+R: Natur und Welt
+M: 3/4
+L: 1/8
+K: D
+A,3G, | F,G,A,B,CD | B,E
+GFED | CBA3G | FD
+A,3G, | F,G,A,B,CD | B,E
+GFED | CBA2GC | D2z2
+A,D | CGA,3C | DFA,3
+D | CGA,3C | DFA,DCB,
+A,2CE,A,C | F3
+EDC | B,DG,B,CE, | D,2
+S:https://www.folktunefinder.com/tunes/69440
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

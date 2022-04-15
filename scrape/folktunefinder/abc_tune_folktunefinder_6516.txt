@@ -1,0 +1,21 @@
+X: 1
+T: Patch Tanz
+O: Hassidic
+M: 2/4
+L: 1/16
+K: Dm
+ | "Dm"F4 FGGF | FGGF "A7"FEED | "Dm"F4 FGGF | "A7"FEED "Dm"D4 \
+ | "Dm"[F4A] [FA][GB][GB][FA] | [FA][GB][GB][FA] "A7"[FA][EG][EG][DF] | "Dm"[F4A] [FA][GB][GB][FA] | "A7"[FA][EG][EG][DF] "Dm"[D4F] ||
+|| "C7"GABG "F"A4 | .[A2F] .[A2F] .[A2F] z2 | "C7"EFGF G4 | "C".[E2C] "G7".[F2D] "C".[G2E] z2 \
+ | "C7"cBAG "F"A4 | .[A2F] .[A2F] .[A2F] z2 | "C7"EFGF G4 | "C".[E2C] "G7".[F2D] "C".[G2E] z2 ||
+|| "C7"CDE2 "F"FGA2 | "A7"GFE2 "Dm"D4 | "F"FCCF "Eb"F_EED | "Dm"D8 \
+ | "C7"CDE2 "F"FGA2 | cBA2 "Gm"G4 | "F"FCCF "Eb"F_EED | "Dm"D8 |]
+S:https://www.folktunefinder.com/tunes/6516
+S:http://trillian.mit.edu/~jc/music/abc/Israel/PatchTanz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/PatchTanz_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Robertson's Reel
+M: 4/4
+L: 1/8
+R: Reel
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/Robertsons.abc 2004-11-08
+K: A
+AB \
+| "A"c2 Bc e2 cB | "D"ABAF "A"E2 AB | c2 Bc ecAc | "E"B6 AB \
+| "A"c2 Bc e2 cB | "D"ABAF "A"E2 AB | cBce "E"BABe | "A"A6 :|
+|: cd \
+| "A"e2 ce a2 ga | "D"fecd "A"e2 cd | e2 cea2 ga | "F#m"f6 ef \
+| "A"a2 A2 A2 cB | "D"ABAF "A"E2 AB | cBce "E"BABe | "A"A6 :|
+S:https://www.folktunefinder.com/tunes/18036
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/Robertsons.abc
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/Robertsons.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Robertsons_Reel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Robertsons_Reel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/Robertsons_Reel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Robertsons_Reel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/Robertsons_Reel_A.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

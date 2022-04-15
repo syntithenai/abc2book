@@ -1,0 +1,26 @@
+X:30
+T:Reinl\aender
+C:Brimi, Barthelemy, Faukstad
+%O:Norway
+R:Reinl\aender
+Z:Bob Wyttenbach 8/14/02 from NFF 2001 tunebook "SLG 1-84"
+M:2/4
+L:1/16
+%Q:1/4=80
+K:D bass
+P:A
+"D"A,G,F,A, D2DF|"A"FECE "D"DFA,2|"G"{F}G2G2 "D"F2F2|"A"EDCE "D"DFA,2|
+"D"A,G,F,A, D2DF|"A"FECE "D"DFA,2|"G"{F}G2G2 "D"F2F2|"A"EDCE "D"D4:|
+P:B
+"A"EDCD E2EA|"D"F2FD "A"E4|"E7"EDB,D "A"CB,A,C|"E7"B,A,^G,A, B,2B,2|
+"A"EDCD E2EA|"D"F2FD "A"E4|"E7"EDB,D "A"CB,A,C|"E7"B,A,^G,B, A,4:|
+S:https://www.folktunefinder.com/tunes/62652
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Reinl%C3%A6nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

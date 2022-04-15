@@ -1,0 +1,22 @@
+X: 3002
+T:Thornhill Road
+M:9/8
+L:1/8
+C:Brian Finnegan
+R:slip jig
+K:A
+F2A d2e d2c|A3-A2B AGF|G3 E3 EFA|(3d-dc- cAF G2c|
+!F2A d2e d2c|A3-A2B AGF|G3 A3 c3|c6- c2 A:|
+!:F3 d3 BcA|F3 d3 cBA|G3 e3 e2d|c2B B2A G2F|
+!F3 d3 BcA|F3 d3 BcA|c3 c2B d3|cB8:|
+S:https://www.folktunefinder.com/tunes/33173
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

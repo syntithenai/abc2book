@@ -1,0 +1,27 @@
+X:135
+T:Our Highland Queen
+R:Strathspey
+C:J. Scott Skinner
+S:MacDonald - The Skye Collection
+N:pg.156
+M:C
+L:1/8
+K:D
+{A,/B,/C/}D>AF>A D>AF>A|(3[DAf]ed (3c{e}dB A3 F/(D/|C>A) G>A F>A D>A|
+(3FED (3C{E}DB, A,2 A, (3A,/B,/C/|D>A F>A D>AF>A|(3[DAf]ed (3c{c}dB A2 G/F/|
+(3GBe E>G (3FAd [D3/2A3/2][A,/G/]|(3F>ED (3C<FE D2D||
+{ABc}d>f (3Adf (3afd (3AFD|(3A,DF (3AFd A2 (AB/^c/^d/|e>)g (3Beg (3bge (3BGE|
+(3CEG (3CEA [D2F2] [DF] (3A/B/c/|(d>f) (3Adf (3afd (3AFD|(3A,DF (3AFd A2 A G/F/|
+(3GBe E>G (3FAd [D3/2A3/2]G/|(3F>ED (3C<FE D2D||
+S:https://www.folktunefinder.com/tunes/72216
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

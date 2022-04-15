@@ -1,0 +1,28 @@
+X:1
+T:Sicilian Circle
+M:6/8
+L:1/8
+N:Jig-time version of Rickett's Hornpipe
+S:Ford "Traditional Music in America" (1940)
+Z:AK/Fiddler's Companion
+K:D
+(3A/B/c/ \
+| dcd Adf | e^de Ace | fba gfe | dcB A2 (3A/B/c \
+| dcd Adf | e^de Beg | fba gfe | dAf d2 :|
+|: d/f/ \
+| a^ga dfa | b^ab dgb | bag fed | cBA gfe \
+| dcd  Adf | e^de Beg | fba gfe | dAf d2 :|
+S:https://www.folktunefinder.com/tunes/15063
+S:http://trillian.mit.edu/~jc/music/abc/jig/SicilianCircle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SicilianCircle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SicilianCircle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SicilianCircle_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

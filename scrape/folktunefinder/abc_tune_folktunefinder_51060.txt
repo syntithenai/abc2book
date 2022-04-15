@@ -1,0 +1,26 @@
+X:19006
+T:Scan Tester's No 1
+R:Reel
+C:Scan Tester
+O:England
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+BA|"G"G2G2GABc|d4d2B2|"Am"c2d2e2f2|"G"g4g2b2|
+"Am"a2g2f2e2|"G"e2d2B3d|"Am"e2d2c2B2|"D"A4ABAG|
+"G"G2G2GABc|d4d2B2|"Am"c2d2e2f2|"G"g4g2b2|
+"Am"a2g2f2e2|"Em"e2d2B3A|"G"G2B2cB A2|G6
+|:BA|"G"G3A B2c2|"Em"e2d2B2B2|"Am"A3B cBAc|"Em"e2d2B2A2|
+"G"G3A B2c2|"Em"e2d2B2g2|"G"fedc B2A2|G6:|
+S:https://www.folktunefinder.com/tunes/51060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

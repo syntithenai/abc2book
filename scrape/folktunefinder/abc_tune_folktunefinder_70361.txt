@@ -1,0 +1,26 @@
+X:231
+T: Die verkaufte Mllerin (12b), S. 55
+N: T0119
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: RAMMELDINGEN; gesungen von Frau M. Wagener am 17.2.1934
+R: "erzhlende Lieder"]
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2A2A2 | B2A2G2
+B2 | B2A2B2ce | d2dcB2
+d2 | e2d2c2A2 | A2B2z2
+B2 | c2B2B2A2 | A2G2z2
+S:https://www.folktunefinder.com/tunes/70361
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

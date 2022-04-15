@@ -1,0 +1,23 @@
+X:270
+T: Tandernack
+N: A0311A
+O: Europa, Mitteleuropa, Deutschland
+N: Ott 1534 No. 98
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: C
+ |  | E2E | E2F | EDD | C2
+C | E2E | A2A | GFF | E2
+E | G2G | A2A | E2E | C2
+C | D2D | E2D | CB,B, | A,3
+S:https://www.folktunefinder.com/tunes/68816
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

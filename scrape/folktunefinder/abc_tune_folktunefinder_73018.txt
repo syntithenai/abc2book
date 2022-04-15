@@ -1,0 +1,30 @@
+X: 634
+T: O'Carolan's Receipt for Drinking
+B: O'Neill's 634
+Z: 1999 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N: "With spirit"
+M: 2/4
+L: 1/16
+K:G
+g>f \
+| edcB cBAG | E2G>A G2g>f | edcB cBcd | e2AB A2(Bc) |
+| dBde d2(Bd) | egfa g2(fg) | edcB cBAG | E2G>A G ||
+|| (Bc) \
+| d>Bd>e dFG>A G2(Bc) | dBde {e}d2(Bd) | egfa g2z2 |
+| G3B A3c | BABd e3f | gfed BABd | egfa g2ga |
+| babg agae | gfgd edcB | cBcd efgf | edgB A2(ge) |
+| dcBA G2(ge) | dBAG E2(GA) | BAGE AGED | E2GA G2 |]
+S:https://www.folktunefinder.com/tunes/73018
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0626-0700_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0634_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

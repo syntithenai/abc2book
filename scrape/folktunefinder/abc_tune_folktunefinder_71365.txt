@@ -1,0 +1,28 @@
+X:336
+%%topmargin 3cm
+T:Chuir i gl\`un air \`a bhodach
+T:She put her knee on the old man
+C:Very old.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A minor
+A>B {/^c}d2 (Bd) e2 | A>B {/^c}d2 e>dBG | ABd<d B>d {/^f}e2 | {/^c}dB TB2 A>BAG :|
+e>^f {/f}g2 f>g {fg}a2 | e>^f {/f}g2 agfd | (e>^f) {/f}g2 (f>g) a2 | e>d B2 (A>B)A>G |
+(e>^f) {/f}g2 (f>g) {/g}a2 | (e>^f) {/f}g2 agfd | e^fge fd {/f}e2 | {/^c}d>B TB2 A>BAG |]
+S:https://www.folktunefinder.com/tunes/71365
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Chuir_i_glun_air_a_bhodach.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/She_put_her_knee_on_the_old_man.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0336.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

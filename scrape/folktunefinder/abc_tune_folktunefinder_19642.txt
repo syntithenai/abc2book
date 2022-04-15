@@ -1,0 +1,32 @@
+X: 1
+T: Ruffians Rant
+R: strathspey
+B: William Litten's Fiddle Tunes (1800-1802)
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+B \
+| "D"AF3 F3D FE3 FB3 | "D"AF3 F3D "A7"E3D EB3 \
+| "D"AF3 E3D d3e f3e | "G"dB3 "D"A3F "Em"E2D2 "A7"E3 :|
+|: B \
+| "D"AF3 d3A "Bm"B3A d3B | "D"AF3 d3A "G"B3A Bd3 \
+| "D"AF3 E3D "Bm"d3e f3e | "G"d3B "D"d3F "Em"E2D2 "A7"E3 :|
+|: b \
+| "D"af3 f3e "/C#"f3e fb3 | "Bm"af3 f3d "A7"e3d eb3 \
+| "D"af3 "A"g3e "Bm"d3e f3e | "G"dcBA "D"d3F "Em"E2D2 "A7"E3 :|
+|: B \
+| "D"AF3 d3A B3A d3A | "D"B3A d3A "G"B3A Bd3 \
+| "D"AF3 "/C#"E3D "Bm"d3e "A"f3e | "G"d3B "D"A3F "Em"E2D2 "A7"E3 :|
+S:https://www.folktunefinder.com/tunes/19642
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RuffiansRand_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RuffiansRand_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

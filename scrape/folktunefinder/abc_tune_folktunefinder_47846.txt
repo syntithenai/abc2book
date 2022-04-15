@@ -1,0 +1,29 @@
+X: 309
+T:Trip To Plymouth,A. JaW.308
+M:6/8
+Q:100
+S:James Winder Ms, Lancashire, 1835-41
+R:Cotillion
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+A|d2f ecA|B2d AFD|FGA Bcd|efd {d}cBA|!
+d2g ecA|B2d AFD|FGA Bcd|{f}edc d2:|!
+|:A|e2f ecA|f2g fdA|Bcd|efg|Bed {d}c2A|!
+d2f ecA|f2d AFD|FGA Bcd|{f}edc d2:|]
+S:https://www.folktunefinder.com/tunes/47846
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Cotillion
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

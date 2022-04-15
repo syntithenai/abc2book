@@ -1,0 +1,26 @@
+X: 1
+T: Miss Ross
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+G \
+| "Bb"F2 F>G F>G B>d | "Eb"c>B d>B "F7"c>B (G<B) \
+|  "Bb"F2 F>G "Gm"F>G B>g | "Bb"(fd "F7"c2 "Bb"B :|
+e \
+| "Bb"(d<f) f>g "Gm"(3fga b>d | "Cm"c>B d>B "F7"c>B (G<e) \
+| "Bb"(d<f) f>g "Gm"(3fga b>d | "Cm"c>B e>d "F7"c2 "Bb"B>e |
+| "Bb"(d<f) f>g "Gm"(3fga b>d | "Cm"c>B d>B "F7"c>B (G<e) \
+| "Bb"F>B D>B "Gm"F>G B>g | "Bb"(fd "F7"c2 "Bb"B |]
+S:https://www.folktunefinder.com/tunes/19562
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissRossS_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissRossS_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

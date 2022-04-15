@@ -1,0 +1,24 @@
+X:8
+T:La fille  la rivire
+R:Ronde
+A:Bretagne
+N:
+D:
+O:France
+Z: <anamnese@laposte.net>
+M:6/8
+L:1/8
+Q:1/4=160
+K:F
+c | c2 d A2 B | c3 c2 c | c2 d A2 B | c3-c z c | c2 d A2 B | c3-c z z |
+F3 G2 G | c2 c A2 A | G A B A2 G | F3 C z z | F3 G2 G | c2 c A2 A | G A B A2 G | F3-F zz ||
+W:Quand j'tais chez mon pre, Petite  la maison
+S:https://www.folktunefinder.com/tunes/39948
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

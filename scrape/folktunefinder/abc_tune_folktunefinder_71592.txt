@@ -1,0 +1,29 @@
+X:10
+T:Lady Carmichael of Castle Craig
+R:Strathspey
+C:John Gow
+O:Scotland
+A:Inver (Perth)
+B:(n84) Gow Collection of Scottish Dance Music - Oak Publications
+Z:transcription (livre) : <anamnese@laposte.net>
+M:C
+L:1/8
+Q:1/4=130 %tempo exact non connu
+K:C
+ ~c>dec A<c G2 | A<cG>e ~d>cde |\
+ ~c>dec A<c G2 | A<cG>e {e}d2 c2 :|
+ ~c>def g<c e2 | f>de>c ~d>cAd |\
+ ~c>def g<c e2 | f>de>c ~d2 c2 |
+ ~c>def g<c e2 | f<ae<g ~d>cde |\
+ c<ed<f e<gf<a | g<ef>e {e}d2 c2 |]
+S:https://www.folktunefinder.com/tunes/71592
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

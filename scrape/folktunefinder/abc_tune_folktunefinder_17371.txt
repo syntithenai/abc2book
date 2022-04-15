@@ -1,0 +1,29 @@
+X: 1
+T: Hugh Shortie's Reel
+C: John Wilmot
+O: Cape Breton
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: BSFC X-7
+K: G
+|: "G"~G2BG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~DGBG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 :|
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "D7"cAFA "G"G4 ||
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "C"G,CEC "G"B,DGB | "D7"cdef "G"g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 |]
+S:https://www.folktunefinder.com/tunes/17371
+S:http://trillian.mit.edu/~jc/music/abc/reel/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Wilmot/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HughShortiesR.abc
+S:http://trillian.mit.edu/~jc/music/book/500/HughShortiesR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

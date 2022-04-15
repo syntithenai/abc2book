@@ -1,0 +1,44 @@
+X: 1
+T: Miss Clementina Loughnan
+T: Miss Clementina Loughman
+T: Miss Clementina Loughlan
+T: Miss Clementina Longham
+C: Nathaniel Gow
+R: march, air
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+B: Carlin "The Gow Collection" (AABCCD) 1986; No.141
+B: Hunter "Fiddle Music of Scotland" (AAB) 1988; No.161
+B: Anne Shand "Old Scottish Music"
+N: Peter Hastings located the following information:
+N: Sir Sydney Beckwith (1772-1831) married Miss Clementina Loughnan who was  the
+N: third  daughter  of  Thomas Loughnan (a merchant in Madeira) and Philadelphia
+N: Fergusson.  Thomas and Philadelphia were married on the 5th of April 1770  in
+N: the Church of St Clement Danes in London.  It seems likely that Nathaniel Gow
+N: (1766-1831) was captivated by Clementina on one of his many visits to  London
+N: and wrote a tune in her honour.  But people often misspell her last name.
+S: Some data from the Fiddler's Companion web site
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+Bc \
+| "G"d2z2 "C"g3e   | "G"d2cB "D7"d2ef | "G"g3e "Em"d2B2 | "Am"A4 "D7"A2Bc \
+| "G"d2z2 "C"g3e   | "G"d2cB     d2ba | "C"g3e "D7"d2B2 |  "G"G4     G2  :|
+|: c2 \
+| "G"B3c     d2d2  | "C"e2c2     c2e2 |  "G"d2B2   g2d2 | "Am"edcB "D7"A2dc \
+| "G"B3d "G7"g2=f2 | "C"e2c2 "Am"a2g2 | "D7"fgaf   d2f2 |  "G"g4       g2  :|
+S:https://www.folktunefinder.com/tunes/15588
+S:http://trillian.mit.edu/~jc/music/abc/march/MissClementinaLongham.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/MissClementinaLoughnan_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissClementinaLongham.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissClementinaLoughnan_G.abc
+% Rhythm March, air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

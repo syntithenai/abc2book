@@ -1,0 +1,27 @@
+X: 1
+T: An thou wert my ain thing
+O: Gow Vocal I
+R: air
+M: C
+L: 1/8
+K: A
+F2 \
+| "A"E3 F AB cd | "D"{c}B3 A "Bm"F2 c>B | "A"A2 E2 A2 c>d | "E7"ed cB "A"A2 c/d/e |
+| "A"E3 F "F#m"A2 Bc | "Bm"dc BA "D"{G}F2 f>e | "A"e3 c "E7"dc BA | "A"A3 B A/B/c ||
+c>d \
+| "A"e2 E2 "F#m"E3 c | "D"B>c BA "E7"F2 EF | "A"A2 e2 "/C#"~e3 f | "D"e>f ed "A/C#"dc BA |
+| "D"d>e fd "A"c>d ec | "Bm"dc BA "D"F2 f/g/a | "A"e>f ec "E7"dc TB>A | "A"A3 B A/B/c |]
+S:https://www.folktunefinder.com/tunes/13112
+S:http://trillian.mit.edu/~jc/music/abc/air/AnThouWertMyAinThing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AnThouWertMyAinThing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/AnThouWertMyAinThing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AnThouWertMyAinThing_A.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

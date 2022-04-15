@@ -1,0 +1,34 @@
+X: 1
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 2003 by John Chambers <jc:trillian.mit.edu>
+N: Chords from Barbara McOwen's transcription
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "(C7)"GAB | "F7"cAF FGA \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "F7"FGA | "Bb"B3 B2 :|
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "(F7)"efg | "Bb"fdB B2f \
+| "Gm"b2b gab | "Dm"afd d2b | "F"agf "C7"gf=e | "F"f3- "F7"f2 ||
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "F7"efg | "Bb"fdB "Bb7"B2f \
+| "Eb"gfg "F7"aga | "Gm"bag fed | "Cm"ced "F7"cBA | "Bb"B3- B2 |]
+S:https://www.folktunefinder.com/tunes/14260
+S:http://trillian.mit.edu/~jc/music/abc/jig/GowsQuickstep_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/GowsQuickstep_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/GowsQuickstep_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GowsQuickstep_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GowsQuickstep_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

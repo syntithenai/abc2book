@@ -1,0 +1,17 @@
+X: 1
+T:Sandhill Corner
+M:6/8
+L:1/8
+K:G
+c|B2DB2d|efgfd|g2edBG|A2AA2c|B2DB2D|efgg2D|g2edBG|G2GG2:||e|g2gf2d|efgd2
+f|g2edBG|A2AA2c|g2Gf2d|efgd2f|g2edBG|G2GG2d|g2gf2d|efgd2f|g2edBG|A2AA2c|
+B2dc2e|d2fe2F|g2edBG|G2G2||
+% Output from ABC2Win  Version 2.1 i on 3/12/2000
+S:https://www.folktunefinder.com/tunes/75483
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

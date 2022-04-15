@@ -1,0 +1,26 @@
+X:227
+T: AUF ERDEN ZU ALLER STUND
+N: E0114
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe
+M: 4/4
+L: 1/8
+K: G
+D2 | G4F2G2 | A4G2
+A2 | B2d2c2B2 | A4z2
+GA | B2B2B2AB | c3dc2
+cB | A2A2A2Bc | d3ed2
+d2 | G6B2 | A6GA | B2B2dcA2 | G4z2
+S:https://www.folktunefinder.com/tunes/78668
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

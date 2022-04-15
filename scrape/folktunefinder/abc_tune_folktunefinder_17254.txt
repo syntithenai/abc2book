@@ -1,0 +1,26 @@
+X:1
+T:The Glass of Beer
+R:reel
+D:Oisin: Over the Moor to Maggie.
+D:Frankie Gavin: Up and Away
+Z:id:hn-reel-77
+M:C|
+K:Bm
+|: "Bm"fBB2 fBaB | fBB2 "A"e2de | "Bm"fBB2 f3e |1 "D"dfaf "A"e2de :|2 "D"dfaf "A7"e2fe ||
+|:  "D"d3e  f3e  | defd "A"eAA2 |  "D"d3e fgfe |1 "D"dfaf "A"e2fe :|2 "D"dfaf "A"e2de |]
+S:https://www.folktunefinder.com/tunes/17254
+S:http://trillian.mit.edu/~jc/music/abc/reel/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/GlassOfBeer_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r16/GlassOfBeer_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

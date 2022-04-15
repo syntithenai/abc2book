@@ -1,0 +1,45 @@
+X:1
+T:La rose et le rosier
+R:Rond d'Argenton
+O:France
+A:Bretagne
+S:Emile Barbillat / Laurian Touraine
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=150
+K:F
+B>A | G>A B>c | A>A B>A | G>A B>c | A2 B>A | 
+      G>A B>c | A>A B>A | G>A B>c | A2 B>A |
+      G>B A>G | F>F D>E | F>G A>B | 
+      G>B A>B | (3GAB A>G | F>F D>E | F>G A>B | 
+      G>B A>B | (3GAB A>G | F>F D>E | F>G A>B | G2 z2 ||
+W:Y'a un long voyage  faire je ne sais qui le fera 
+W:rossignol du vert bocage m'a promis qu'il le fera
+W: 
+W:  tenez la belle voil la rose mais le rosier n'y est pas (2x)
+W: 
+W:Rossignol y prend son vol au chteau d'amour s'en va
+W:Il trouva la porte ferme par la fentre il entra
+W:Il trouva trois dames  table poliment les salua
+W:Bonjour l'une l'une et bonjour l'autre bonjour mamzelle que voil
+W:Votre amant m'envoie vous dire que vous ne l'oubliez pas
+W:J'en ai bien oubli d'autres j'oublierai bien celui l
+W:S'il tait venu lui-mme il aurait gagn ses pas
+W:Nous aurions soup ensemble mais nous n'y souperons pas
+W:Nous aurions bien fait des choses que je ne vous dirai pas
+W:
+W:  tenez la belle voil la rose mais le rosier n'y est pas (2x)
+S:https://www.folktunefinder.com/tunes/39914
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rond d%27argenton
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

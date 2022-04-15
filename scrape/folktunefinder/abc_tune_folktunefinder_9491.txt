@@ -1,0 +1,213 @@
+X: 2
+T: Scand Waltzs p.2
+K: C
+%
+[K:D]\
+[L:1/8]\
+[|"Sensommarvals av Hultkvist"ab ag fe | d2 AF D2 |DF Ad c=c |]\
+[K:D]\
+[L:1/8]\
+[|"Setesvalsen"A,2 | F3 GFE | F3 GFE | F2 E2 C2 |]\
+[K:G]\
+[L:1/8]\
+[|"Setesvalsen"D2 | [B3D] [cE][BD][AC] | [B3D] [cE][BD][AC] | [B2D] [A2C] [F2C] |]\
+[K:Gm]\
+[L:1/8]\
+[|"Silkesvalsen fr\aan Enviken"(D2 | G2) B2 d2 | g3 g g2 | (fg) (fe) dc |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Sjijnymyra-valsen"F2 AF A2 | G2 BG B2 | A2 c2 e2 |]\
+[K:A]\
+[L:1/8]\
+[|"Vals fr\aan Sk\aane"e2 | c2A2 E2 | A,C EA ce | d2B2 G2 |]\
+[K:D]\
+[L:1/8]\
+[|"Smed-Jens vals"A2 | f4 a2 | d4 (3fgf | e2 d2 e2 | f3 edc |]\
+[K:D]\
+[L:1/4]\
+[|"Sofia vals"A | ABA- | ABA | Af/f/f |]
+P:
+[K:Em]\
+[L:1/4]\
+[|"Soling-Anders Vals"B3c BA|B3c BA|B4 e2|B4 ef|]\
+[K:G]\
+[L:1/4]\
+[|"Sommarvals"dc | B>AG | A2F | G3 | E>FE |]\
+[K:G]\
+[L:1/4]\
+[|"Sommarvals"dc | B>AG | A2F | G3 | E>FE |]\
+[K:D]\
+[L:1/8]\
+[|"Spelmansvals"A2 | d2 cd ec | d2 A2 d2 | f2 ef ge |]
+P:
+[K:Dm]\
+[L:1/4]\
+[|"S\"a\"ast\"opankki valssi"A | d A F | G F E | D>D D | D E F |]\
+[K:C]\
+[L:1/4]\
+[|"Spel-Nisses Vals"CEF | G>ED | CFG | A>FD |]\
+[K:D]\
+[L:1/8]\
+[|"Stenvalsen"AG | F2 FE FG | A2 F2 D2 | G2 GF GA |]\
+[K:ADorian]\
+[L:1/8]\
+[|"Sten\aalders vals"zAA | A2 cA cd | e3 eee |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Stigvals fr\aan V\"astra H\"alsingland"E2 | AB A^G AB | cd cB A^G |]\
+[K:Am]\
+[L:1/8]\
+[|"Stigvals fr\aan V\"astra H\"alsingland"E2 | AB A^G AB | cd cB A^G |]\
+[K:G]\
+[L:1/8]\
+[|"St\odt kanel"D2 | G2 B2 G2 | F2 A2 D2 | G2 B2 G2 | A4 D2 |]\
+[K:Em]\
+[L:1/8]\
+[|"Suvi valssi"B,C | B,2E2G2 | B2G3A | G2F4- | F2z2B,C |]
+P:
+[K:D]\
+[L:1/4]\
+[|"Svensk Annas Vals"[F/D][G/E] | [AF] [fA]> e | [dB] [cA] [BG] | [AF] [FD] [GE] |]\
+[K:D]\
+[L:1/4]\
+[|"Svensk Anna's Vals"FG | A2f2e2 | d2c2B2 | A2F2G2 |]\
+[K:D]\
+[L:1/8]\
+[|"Tammerkosken sillalla"D>F A2 A2 | F>A d2 d2 | e>d c2 Bc |]\
+[K:Dm]\
+[L:1/8]\
+[|"Tosa valsen"A,DE | F2 FG FE | D2 ^CD FA |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Tosa valsen"A,DE | F2 FG FE | D2 ^CD FA |]\
+[K:A]\
+[L:1/8]\
+[|"Trippevals "353""A2 Ac Ac | e2 ec A2 | A2 Ac BA |]\
+[K:G]\
+[L:1/8]\
+[|"Troskari Valsen - vals efter Troskari Mats"Bdg | b2 ba gf | a2 af ge |]\
+[K:A]\
+[L:1/8]\
+[|"Uppland vals"[E2A,2] AA A2 | (BA) =GF E2 | E2 cc c2 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Uppland vals"[D2G,2] GG G2 | (AG) =FE D2 | D2 BB B2 |]\
+[K:G]\
+[L:1/8]\
+[|"Vals av Allan och Anselm Hellstr\"om"D2 B,2 D2 | B2 BA G2 | E2 C2 E2 | c2 cB A2 |]\
+[K:D]\
+[L:1/8]\
+[|"Vals etter Bruce Sagan"(uAd) | (vdA) (uAd) (vdf) | (ufA) (vAd) (udf) |]\
+[K:D]\
+[L:1/8]\
+[|"Vals efter Ekor Anders"zDF | A3 A A2 | BA ^GA Bc |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Vals fr\aan H\"allefors efter G\"oran H\aakansson"A2 | d3 Adf | d3 Adf | e3 Ace |]\
+[K:Am]\
+[L:1/8]\
+[|"Vals etter Johannes Johansen"E2 | E2 C2 D2 | E4 E2 | A2 A^G AB |]\
+[K:Ador]\
+[L:1/8]\
+[|"Vals e. Roligs Per - Leksand"AB | c2 cB AB | c2 cB Ac |]\
+[K:Ador]\
+[L:1/8]\
+[|"Vals e. Roligs Per - Leksand"AB | c2 cB AB | c2 cB Ac |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Vals fr\aan Seglora"e>e e2 e2 | c>d cB A2- | A>A d2 d2 |]\
+[K:A]\
+[L:1/8]\
+[|"Vals fr\aan J\"arna"e2 | ea ae Ac | e2 ef e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Vals "P\aa F\"abodvallen""A2 | f3 gfe | d2 A2 F2 | G4 B2 | d3 dcB |]\
+[K:Bb]\
+[L:1/8]\
+[|"Vals (Sk\aane SvL 1325)"((3dfa) | b2 bb b2 | b2 a2 b2 | f6 |]
+P:
+[K:Bb]\
+[L:1/8]\
+[|"Vals (Sk\aane SvL 1336)"((3gfe) | d4 f2 | c4 f2 | B4 f2 | B2 A2 B2 |]\
+[K:A]\
+[L:1/8]\
+[|"Vals i A (irregular)"E2 | E2 A2 c2 | e3 d c2 | E2 A2 c2 | fg fe d2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Vals i Am"B2 | A2 c2 e2 | a4 eg | f2 e2 d2 | c3 dcB |]\
+[K:D]\
+[L:1/8]\
+[|"Vals etter Bruce Sagan"(uAd) | (vdA) (uAd) (vdf) | (ufA) (vAd) (udf) |]
+P:
+[K:Gm]\
+[L:1/8]\
+[|"Vals i Gm fr\aan Enviken"d2 | ga g^f ga | g4 d2 | Bc BA Bd |]\
+[K:Gm]\
+[L:1/8]\
+[|"Vals i Gm"d2 | g2 ~g2 ga | g4 d2 | B2 ~B2 Bd |]\
+[K:A]\
+[L:1/8]\
+[|"Vals efter Johan Petter Ragvals, \"Overmark"Ac | e2 e2 ce | a2 g2 a2 | fd fa ga |]\
+[K:A]\
+[L:1/8]\
+[|"Vals fr\aan J\"arna"e2 | ea ae Ac | e2 ef e2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Valssi Karjaalta"D2 DF AF | D2 DF AF | G2 B2 B2 |]\
+[K:A]\
+[L:1/8]\
+[|"Vid f\"arjestaden"E2 | A4 c2 | e4 A2 | G2-G2 A2 | B4 EE |]\
+[K:A]\
+[L:1/8]\
+[|"Vid f\"arjestaden"E2 | A4 c2 | e4 A2 | G2-G2 A2 | B4 EE |]\
+[K:Dm]\
+[L:1/8]\
+[|"Vals efter Vilhelm Hedlund"A,2 | A,2 D2 F2 | A4 d2 | (3ded ^c2 d2 |]
+P:
+[K:Dm]\
+[L:1/4]\
+[|"Villiruusu (The Wild Rose)"A | d2d | e2f | d3 | A2d | e2f | g2f |]\
+[K:Dm]\
+[L:1/4]\
+[|"Villiruusu (The Wild Rose)"A | d2d | e2f | d3 | A2d | e2f | g2f |]\
+[K:Dm]\
+[L:1/4]\
+[|"Villiruusu (The Wild Rose)"A | d2d | e2f | d3 | A2d | e2f | g2f |]\
+[K:D]\
+[L:1/4]\
+[|"Waltz fr J\"amtland"f>ga2 a2|a2 ^ga ba|f>g a2a2|]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Waltz from Finland"a2 ^gaba|f2 efgf|d2 ^cded|]\
+[K:D]\
+[L:1/8]\
+[|"Waltz Pizz."a2 g2 ~f2 | d2 ez z2 | a2 g2 f2 | d2 ez ez |]\
+[K:G]\
+[L:1/4]\
+[|"Wilssonin Valssi"D | B2c | d2d | (Ac)B | A2D | DBc |]\
+[K:Dm]\
+[L:1/4]\
+[|"Y\"olintu"A,  | D2E | F2G | A2d | ^c2d | A2G |]
+P:
+S:https://www.folktunefinder.com/tunes/9491
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz_incip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key A
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:949
+T:Aada (CT 140)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de cuna (Aada), transcrita en Navia.
+O:Navia
+A:Asturies
+Z:Cancioneru de Torner 140
+M:2/4
+L:1/8
+Q:1/4=86
+W:Durmete, el mi neu,
+W:durmete, el mi sol,
+W:durmete, pedazos
+W:del mi corazn.
+W:
+W:Al roro
+W:que te arruyo yo.
+K:G
+|cc cA|B2 B2|cc cA|B4|GA AG|B2 B2|GA GF|G4|A2 A2|B2 BA|G2 A2|G4||
+S:https://www.folktunefinder.com/tunes/1583
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

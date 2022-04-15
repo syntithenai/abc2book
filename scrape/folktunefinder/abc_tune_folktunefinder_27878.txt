@@ -1,0 +1,22 @@
+X:7426
+T:the Trip to Plymouth
+O:england
+R:Jig
+M:6/8
+K:D
+A | d2f ecA | Bcd AFD | FGA Bcd | efd cBA | \
+d2f ecA | B2d AFD | FGA Bcd | edc d2 :|
+|:A | e2f ecA | f2g fdA | Bcd efg | Bed c2A | \
+e2f ecA | f2d AFD | FGA Bcd | edc d2 :|
+S:https://www.folktunefinder.com/tunes/27878
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

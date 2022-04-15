@@ -1,0 +1,32 @@
+X: 1
+T: Jack Campbell
+C: Anselm Lingnau
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A3G \
+| "D"FA3 A3F  "G"GB3 B3d | "A7"cA3  A3c "D"defg a4 \
+| "D"FA3 A3F  "G"GB3 B3d | "A7"cA3  B3c "D"d4     ||
+d3A \
+| "D"FA3 A3F  "G"GB3 B3d | "A7"cA3  A3c "D"defg a4 \
+| "D"fd3 d3f "Em"ge3 e3d | "A7"dcBA B3c "D"d4     |]
+a3g \
+| "D"fa3 a3f     agfe d4 | "A7"ce3      e3f      gfed cA3 \
+| "D"fa3 a3f     agfe d4 | "Em"gfed "A7"fedc  "D"d4      ||
+a3g \
+| "D"fa3 a3f     agfe d4 | "Em"e3B      edcB "A7"cA3  A3G \
+| "D"FA3 d3f "Em"ge3 e3d | "A7"dcBA     B3c   "D"d4      |]
+S:https://www.folktunefinder.com/tunes/19421
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JackCampbell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JackCampbell_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

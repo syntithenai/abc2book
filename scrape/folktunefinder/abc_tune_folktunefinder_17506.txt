@@ -1,0 +1,36 @@
+X: 1
+T: Sir Adam Ferguson's Reel
+T: Lads of Leith, The
+T: Sic a Wife as I hae Gotten
+B: Riddell's Collection (via Murdoch Henderson)
+Z: Nigel Gatherer irtrad-l 2001-02-14
+B: Kerr's Merry Melodies Bk 4 (1880s) as "The Lads of Leith",
+B: Riddell's Collection (18th century) as "Sir Adam Ferguson's Reel"
+B: Lowe's Collection (1844) as "Sic a Wife as I hae Gotten".
+M: 4/4
+L: 1/8
+K: Em
+B,EEF E/F/G FE | A,DDE D/E/F ED | GFED EFGA | Bedc B2 E2 :|
+eB BA/B/ gfed | Adfa gfed | eB BA/B/ gfed | g>bag f2 ed |
+eB BA/B/ gfed | Adfa gfed | g>bge fafd | gfed e2 E2 |]
+S:https://www.folktunefinder.com/tunes/17506
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadsOfLeithThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadsOfLeith_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SicAWifeAsIHaeGotten.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SirAdamFergusonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LadsOfLeithThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SicAWifeAsIHaeGotten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SirAdamFergusonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadsOfLeithThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadsOfLeith_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SicAWifeAsIHaeGotten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SirAdamFergusonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LadsOfLeithThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SicAWifeAsIHaeGotten.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SirAdamFergusonsReel.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

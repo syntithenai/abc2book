@@ -1,0 +1,29 @@
+X: 27
+T:Athol Highlanders, The
+M:6/8
+L:1/8
+R:Jig
+K:A
+{c}{d}"A"e3 ecA|ecA "E"Bcd|"A"e3 ecA|"E"Bcd "A"cBA|
+{c}{d}"A"e3 ecA|ecA "E"Bcd|"A"eae "D"fed|"E"cdB "A"A3::
+"A"Ace Ace|"D"Adf Adf|"A"Ace Ace|"E"Bcd c2B|
+"A"Ace Ace|"D"Adf Adf|"A"eae "D"fed|"E"cdB "A"A3::
+{c}{e}"A"aze edc|{c}{e}"A"aze edc|
+{c}{e}"A"aze edc|"E"Bcd "A"cBA|
+{c}{e}"A"aze edc|{c}{e}"A"aze edc|
+"A"eae "D"fed|"E"cdB "A"A3::
+"A"cAc cAc|"Bm"dBd dBd|"A"cAc cAc|
+"G"BGB BGB|"A"cAc cAc|"Bm"dBd dBd|
+"A"eae "D"fed|"E"cdB "A"A3:|
+S:https://www.folktunefinder.com/tunes/50535
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

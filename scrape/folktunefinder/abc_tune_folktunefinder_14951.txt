@@ -1,0 +1,22 @@
+X: 1
+T: Quesnay (F)
+R: jig
+M: 6/8
+L: 1/8
+K: F
+F \
+| "F"F2f "C7"e2d | "F"c3 A3 | "Gm"BcB "C7"A2G | "F"AFF F2C \
+| "Bb"DFF F2A | "C7"BGG G2g | "G7"fed d2c | "C"c3- c2 :|
+|: c \
+| "C"efg g2g | g3 e3 | "Dm"faf e2d | "A7"^cde Aae \
+| "Dm"fed "A7"d2^c | "Dm"d3 c3 | "Gm"BcB "C7"A2G | "F"AFF F2 :|
+S:https://www.folktunefinder.com/tunes/14951
+S:http://trillian.mit.edu/~jc/music/abc/jig/Quesnay_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Quesnay_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

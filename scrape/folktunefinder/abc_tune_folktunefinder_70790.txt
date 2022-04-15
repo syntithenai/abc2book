@@ -1,0 +1,24 @@
+X:043
+%%topmargin 3cm
+T:Perthshire Volunteers
+C:Miss Stirling
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+A | E>A c/2d/2e {/d}c2 Ac | {Bc}d>B d/2c/2B/2A/2 Gd | {/d}c>A c/2d/2e {/d}c2 A<c | ed c<AA ::
+g | {/g}a>e a/2g/2f/2e/2 {/g}a2 (e<c) | {/c}d>B d/2c/2B/2A/2 Gg | a>e a/2g/2f/2e/2 {/g}a2 e<c | d>c d/2c/2B/2A/2 E<AA>d |
+c>eG>e F>dE>c | d>B d/2c/2B/2A/2 Gd | c>ed>f e<age {/d}cAA |]
+S:https://www.folktunefinder.com/tunes/70790
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

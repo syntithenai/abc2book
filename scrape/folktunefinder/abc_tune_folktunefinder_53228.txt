@@ -1,0 +1,218 @@
+X:1
+T:5th concerto for organ
+C:G.F. Haendel
+C:Trans. by M. Dupr
+M:3/4
+L:1/4
+%%header "5th concerto for organ$P / 7"
+%%newpage 1
+% %titlespace 0.0cm
+%%sysstaffsep 1cm
+%%continueall 1
+%%maxshrink 0.7
+%%staves {1 2 3} 4
+%%indent 1.5cm
+K:F
+V:1
+%%MIDI program 17
+[Q:"Larghetto" 1/4=84]z"^Tutti"AB|c3-|ccd|e2f|gaf|bgc'|a3/g/f|z/d/GA3//B//|A"^Org."AB|
+V:2
+%%MIDI program 17
+xFG|A2B|AAG|GcB|c2d|ffe|fAA|FFE|FFG|
+V:3
+%%MIDI program 17
+!p!z3|zFE|FFF|EGF|BAB|DGG|AEF|DCC|Czz|
+V:4
+%%MIDI program 17
+F,,2z|zF,,G,,|A,,A,,B,,|C,C,D,|E,F,B,|G,CC,|F,C,D,|B,,C,C,,|F,,2z|
+V:1
+c3-|ccd|e2f|gaf|d2e|fd3/c/|c"@-5,30Tutti"AB|c"@-5,25Org."ag|e3//d//"@-5,30Tutti"ef|g"@-5,25Org."c'a|
+V:2
+A3-|AAG|c2=B|c2d|=B2c|A=B2|cFE|Fcd|Gcd|cx2|
+V:3
+zF,G,|A,A,B,|CC,D,|E,F,D,|G,2C,|F,,G,,2|C,CB,|A,[A,F][B,D]|[CE]GF|EC,F,|
+V:4
+z3|z3|z3|z3|z3|z3|zF,G,|A,zz|zC,D,|E,zz|
+V:1
+b3/a/b/g/|a3/g/a/f/|g3/f/g/e/|f"@-5,10Tutti"ba|gfe|f/g/Te3/d/|d"@-5,30Org."Pb3//a//b|cPa3//g//a|B3//a//g3//f//f3//e//|
+V:2
+x3|x3|x3|x3|x3|d2^c|Fx2|x3|x3|
+V:3
+G,D,E,|F,A,,A,,|=B,,^C,A,,|D,DE|GAB|A2G|Fzz|z3|z3|
+V:4
+z3|z3|z3|zDC|B,A,G,|A,2A,,|D,G,F,|E,F,E,|D,B,,G,,|
+% (2)
+V:1
+e"@-5,30Tutti"cc|cd/c/B/A/|G"^Org."aa|a3-|a3//g//fb|b3/g/a|g/f/e3/f/|fAc|
+V:2
+zAB|AB/A/G/F/|Ex2|x3|x3|x3|x3|x3|
+V:3
+zFE|FFD|Eff|f3-|f3//e//dg|ec2|dG2|AFF|
+V:4
+C,F,G,|A,A,,B,,|C,F,E,|D,C,B,,|A,,B,,G,,|C,E,F,|B,CC,|F,F,E,|
+V:1
+fAd|c3/d/B|A/G/G3/F/|FfTe3//d//|c3-|c"^Tutti"ag3//c//|f3//A//[Q:"Adagio"]T=B3/c/|c3|]
+V:2
+x3|x3|x3|x3|zFE|AcG|A3//F//-F2|G3|]
+V:3
+FFG-|GFE|FFE|A,2z|zA,G,|F,CC|xD2|E3|]
+V:4
+D,C,B,,|A,,2G,,|F,,C,C,,|F,,2z|z3|zF,E,|D,3|C,3|]
+T:
+%%maxshrink 0.65
+V:1
+[M:C][L:1/8][Q:"Allegro" 1/4=100]"^Tutti".c|.f.c.c.c Td.c z.c|.g.c.c.g Ta.g z.g|.a.e.f.g e3//d//c z.g|.a.e.f.g .ef/g/ .c.b|.ag/f/ Te3/f/f2|
+V:2
+[M:C][L:1/8]x|x8|x8|x8|x8|x6|
+V:3
+[M:C][L:1/8]z|z.A.F.[FA] .[FB].[FA] z.[FA]|.[Gc].[EG].[EG].[Ec] .[cf].[ce] z.[ce]|.c.B.[Ad].[Bd] [Gc]z z.[Gc]|.[Fc].[GB].[FA].[Bd] .[Gc].[GB].F.[Gc]|.[Fc][B/d/]A/ .[Gc].[CB][C2A2]|
+V:4
+[M:C][L:1/8]z|z.F,.A,.F, .B,.F,.A,.F,|.E,.C,.E,.C, .F,.C,.E,.C,|.F,.C,.D,.B,, .C,.G,.A,.E,|.F,.C.D.B, .C.G,.A,.E,|.F,.B,,.C,.C,,F,,2|
+V:1
+|:"^Org."z.c|.f.c.c.c Td.c z.c|.g.c.c.c Ta.g z.g|.a.e.f.g Te3//d//c z.g|.a.e.f.g .ef/g/ .c.b|.ag/f/ Te3/f/f2za|
+V:2
+|:x2|x8|x8|x8|x8|x8|
+V:3
+|:z2|z.F,.A,.F, .B,.F,.A,.F,|.E,.C,.E,.C, .F,.C,.E,.C,|.F,.C,.D,.B,, .C,.G,.A,.E,|.F,.C.D.B, .C.G,.A,.E,|.F,.B,,.C,.C,, .F,,!legato!F,A,F,|
+V:4
+|:z2|z8|z8|z8|z8|z8|
+% (3)
+V:1
+g/c'/b/c'/ g/c'/b/c'/ f/d'/c'/d'/ =b/c'/a/b/|c'/g/c'/=b/ a/g/f/e/d2zd|e/c/d/e/ f/d/e/f/ g/e/f/g/ c/g/f/g/|a/f/g/a/ d/a/g/a/ =b/g/f/g/ e/g/a/b/|
+V:2
+x8|x8|x8|x8|
+V:3
+E,D,E,C, D,F,G,F,|E,C,F,D, G,A,=B,G,|CC,D,D EDEC|F,2zD,G,2zE,|
+V:4
+z8|z8|z8|z8|
+V:1
+c'/a/=b/g/ a/f/g/e/f3[fd']|e[gc'] d/c'/=b/c'/f3g|[ce][A/d/]c/ [G=B]cF3"^Tutti"[df]|[ce][A/d/]c/ [G=B][f=b] [ec']b/a/ [dg][df]|[ce][A/d/]c/ G=Bc2:|
+V:2
+x8|x4c2=Bd|x4C2=B,x|x8|x6:|
+V:3
+A,2zA,, .D,.D.=B,.G,|.C.E,.F,.G, .A,.D.G,.=B,|.C.F,.G,.G,, .A,,.D,.G,, .G|.GF/E/ .D.dc2.=B.G|.GF/E/ .D.[FG][E2G2]:|
+V:4
+z8|z8|z4z2z.=B,,|.C,.F,.G,.G,, .A,,.A,.=B,.=B,,|.C,.F,.G,.G,,C,2:|
+V:1
+|:"^Org."z.g|.c'.[eg].[cg].[eg] T[fa].[eg] z.[_ea]|.[db].[c^f].[dg].[_ea] .[d^f].[^Fd] .G.[da]|.[db].[d^f].[cg].[Gd] .[G_e].[ec'].[cd].[ca]|.[Bgb][_e/a/]g/ T^f3/g/[B2g2]z/g/a/b/|c'/e/f/g/ c/g/a/b/ a/c/d/e/ f/e/f/c/|
+V:2
+|:x2|x8|x8|x8|x2dzx4|x8|
+V:3
+|:z2|z.C,.E,.C, .F,.C,.E,.C,|.G,,.A,,.B,,.C, .D,.A,.B,.^F,|.G,.D._E.B, .C.A,.^F,.D,|.G,.C .D.D, .G, !legato!A,B,G,|E,D,E,C,F,2zA,,|
+V:4
+|:z2|z8|z8|z8|z8|z8|
+% (4)
+V:1
+d/f/g/a/ b/a/g/f/ e/d/c z/f/e/f/|d/B/A/B/ G/g/f/g/ e/c/B/c/ A/a/g/a/|f/d/c/d/ B/b/a/b/ [c/g/]e/d/e/ c/c'/b/c'/|a/g/a/f/ d'/c'/d'/f/ [d/g/]f/g/e/ c'/b/c'/e/|
+V:2
+x8|x8|x8|x8|
+V:3
+B,,A,,G,,B,, C,CA,F,|B,2zB,,C,2zA,,|D,2zG,E,2zC,|F,2zD,E,2zA,|
+V:4
+z8|z8|z8|z8|
+V:1
+f/e/f/c/ d[db]b3[e/a/]g/|.[fa][d/g/]f/ .[ce].f B3.g|.A.[cf].[FG].[Ee]b3"^Tutti"a/g/|ag/f/ ed/c/ fe/d/ .c.B|.A.f.G.ef2z:|
+V:2
+x4e2zx|x4(F2.E).B|x4fe/d/ex|x8|x4x3:|
+V:3
+DA,B,G, C,D,E,C,|F,B,CC, D,G,.C,.E,|.F,.A,,.B,,.C, .D,.G,.C,.[EGc]|.[Ac][D/B/]A/ .[EG].[EA][F2B2].G.E|.[CF].[CF].[DF].[CE][C2A2]z:|
+V:4
+z8|z8|z4z2z.E,|.F,.B,.C.C, .D,.F,.E,.C,|.F,.A,,.B,,.C,F,,2z:|
+T:
+%%maxshrink 0.8
+V:1
+[M:12/8][L:1/8][Q:"Alla siciliana" 1/8=88]"^Tutti"d>eda2dd2^cz2b|a>gf [df]>[eg][^ce]d2BA2"^Org."A|d>eda2dd2^cc2e|f>gfc'2ff2ee2a|
+V:2
+[M:12/8][L:1/8]x12|x12|x12|A2Bx3x6|
+V:3
+[M:12/8][L:1/8][F2A2][FA-][A2d2][GB][E2A2][EA][E2^c2][Ec]|[A2d2][Bd]A2GF2GF2[EG]|[D2F2][DG][D2A2][GB][E2A2]-!pp![EA][E2A2][EB]|C3[F2c2][Bd][G2c2]-[Gc][G2c2][Ac]|
+V:4
+[M:12/8][L:1/8]D,2DF,2G,A,2A,,G,,2G,|F,2G,A,2A,,D,3z3|!pp!D,2E,F,2G,A,2A,,A,2G,|F,2G,A,2B,C2C,C2F,|
+% (5)
+V:1
+d2^c d>fe^c3d2e|feg f>edd2zz2g|ag[fb] [fa]>g[ef]f3z3|g>agA2[eg]([e2g2][df])z2a|
+V:2
+x12|x12|A zDx3x6|x12|
+V:3
+[A2-B2][EA][D2G2-][GB][E2A2-][A-e][D2A2][G^c]|[F2A2][Gd][A2d2][G^c][F2A2][Ad][G2d2][Gc]|FCB,[C2A2][CB][C2A2][CFc][C2F2-A2-][FA]|[E2G2][EG][E2G2][^CA][D2A2][DA] [FAd] z[F-A]|
+V:4
+B,2A,B,2G,A,2G,F,2E,|D,2B,A,2A,,D,2DB,2C|F,E,D,C,2C,,F,,2A,F,2D,|E,2D,^C,2A,,D,2A,D2F,|
+V:1
+b3-b2ea3-a2d'|g3-g>ba f>ed z2a|efg f>edd2[dg-] [=cg]^f-[fc'-]|[gc']bd- [Ad]^c-[ca][Q:"Adagio"]d'2fTg3|[^c12a12]|]
+V:2
+x12|x12|x12|x6d6|x12|]
+V:3
+[D2F2B2][FB][E2G2c2][Gc-][A2c2][Ac][F2B2][FB]|[G2B2d2][GBd][E2A2][EA][F2A2][GA][F2A2][FA]|[E2B2][EG][F2A2]G[F2A2][DG][_E2A2][Cc]|[G2d2][B,DG] [A,F][^CE-][EA][D3-A3][D2G2][DD]|[A,12E12]|]
+V:4
+G,2G,,C,2C,F,2F,B,2B,|E,2E,A,2^C,D,2E, F,>E,D,|G,A,B,A,2A,,B,,3A,,3|G,,3A,,3B,,6|A,,12|]
+T:
+%%maxshrink 0.75
+V:1
+[M:12/8][L:1/8][Q:"Presto" 3/8=112]"^Tutti"!tenuto![A3f3]!tenuto![G3c3][A3f3]z2c|d2BG2cA2GF3|"^Org."faf cAc faf cAc|gbg ece agfz2a|
+V:2
+[M:12/8][L:1/8]x12|x6F2zx3|x12|x12|
+V:3
+[M:12/8][L:1/8]!tenuto!C3!tenuto!C3F3z2[CF]|[B,2F2][DF]E2[EG]C3-[A,3C3]|F,3E,3D,3A,3|B,3C3FCA, F,CF|
+V:4
+[M:12/8][L:1/8]F,3E,3D,3z2A,|B,2G,C2C,F,3F,,3|z12|z12|
+% (6)
+V:1
+gab c'bc'f3z2f|efg agad3z2g|cde fga bag agf|gfe fed edc gfe|agf edc =bag c'ba|
+V:2
+x12|x12|x12|x12|x12|
+V:3
+F2FE2E DA,F, D,A,D|D2DC2C B,F,D, B,,F,B,|B,2B,A,2A,G,2EF,2D|E,2CD,2=B,C2C, E,D,C,|F,3A,3G,3E,2F,|
+V:4
+z12|z12|z12|z12|z12|
+V:1
+gfe fedc3"^Tutti"[d3g3-]|[c2g2]xf2ff2ag2f|e3Td3c3z3::"^Org."ceg ecG ceg c'ge|afd =Bdg ecGz3|
+V:2
+x12|x2c- c=BAB2ac3|x12::x12|x12|
+V:3
+G,2C,G,2G,,C,3G3|E3D3-D2DG2[Ac]|[G3c3][F3=B3]E3z3::C3=B,3A,3E,3|F,3G,3C,2C _B,A,G,|
+V:4
+z6z3=B,3|A,3D3G,2F,E,2F,|G,3G,,3C,3z3::z12|z12|
+V:1
+faf cAc faf cAc|gbg ece agf z2a|bag [df]ed ^c2ba3-|a2g//a//b/a3-a2g//a//b/a2g|fed Ad^cd3z2d'|
+V:2
+x12|x12|x12|x12|x12|
+V:3
+F,3E,3D,3A,3|B,3C3FCA, F,A,D|G,3B,,3A,,3z2D|^C3z2DC3z2A,|D2G,A,2A,, D, D=C =B,CD|
+V:4
+z12|z12|z12|z12|z12|
+% (7)
+V:1
+e2d'd'2d' d'c'=bc'2c'|d2c'c'2c' c'_bab2b|c2bb2b bag abc'|gab agfe3z2c|def gab cde fga|
+V:2
+x12|x12|x12|x12|x12|
+V:3
+^G,A,=B, E,^F,G, A,E,C, A,,E,A,|^F,G,A, D,E,F, G,D,_B,, G,,D,G,|E,F,G, C,D,E, F,C,A,,F,,2A,|B,3D3CG,E, C,G,C|C2CB,2B,B,2B,A,2A,|
+V:4
+z12|z12|z12|z12|z12|
+V:1
+bc'd' c'd'ba3z2a|gab c'bc'f3z2f|efg agad3z2g|cde fga bag agf|gfe fed edc fga|
+V:2
+x12|x12|x12|x12|x12|
+V:3
+G,2G,E2E FCA, F,CF|F2FE2E DA,F, D,A,D|D2DC2C B,F,D, B,,F,B,|B,2B,A,2A,G,2EF,2D|E,2CD,2B,C,2B, A,G,F,|
+V:4
+z12|z12|z12|z12|z12|
+V:1
+def cfef3-fge|f3-fga bag agf|gef cfef3"^Tutti"[G3c3]|f2AB2BB2GA2B|TG3-G2FF3z3:|
+V:2
+x12|x12|x12|F3-FEDG2EF2F|F3E3F3x3:|
+V:3
+B,2G,C2C, F,A,CC,3|D,F,A,A,,2F,G,2E,F,2A,,|B,,2D,C,2C,,F,,3C2z|C3B,2B,E2CC2D|C3B,3A,3z3:|
+V:4
+z12|z12|z6z3E,3|D,3G,3C,2C,F,2B,,|C,3C,,3F,,3z3:|
+S:https://www.folktunefinder.com/tunes/53228
+S:http://moinejf.free.fr/abc/haendel-concV.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

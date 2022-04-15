@@ -1,0 +1,23 @@
+X: 1
+T: Shalom Aleichem
+C: words: prayer book
+C: tune: trad Ashkenazi
+D: Andy Statman & David Grisman "Songs of our Fathers"
+B: Harvard Hillel Sabbath Songbook
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Am
+[|"Am"E2 cB A2 AA | "E7"^GA BA (GF E2) | ^GG G2 "Am"(AG Ac) | "E7"B4 z4 |
+w: Sha-lom a-le-chem mal'\-a che_ ha-sha-ret__ mal'-a-che el___ yon.
+| "Am"(E2 cB) A2 AA | "E7"(^GA) BA (GF E2) | "Dm"DD A2 ^G2 (F{E}D) | "E7"E4 z4 |
+S:https://www.folktunefinder.com/tunes/18962
+S:http://trillian.mit.edu/~jc/music/abc/song/ShalomAleichem1_Am_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/ShalomAleichem1_Am_w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 86
+%%topspace .3cm
+T: Rose Bush
+C: J-31
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| GAB AGE| ceg dBG| GAB AGE| FDD DEF|
+   GAB AGE| ceg dBG| cAc BGB| AEF G2:|
+|:\
+B| d^ce def| gfe dBG| gfg eag| fdd def|
+   gbg faf| ege def| gdB AGA| BGG G2:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/1908
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

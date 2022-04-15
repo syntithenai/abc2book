@@ -1,0 +1,51 @@
+X:146
+T:Cantar de Navid (CT 347)
+R:Navid
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Navidad, transcrita en Cabaaquinta, ayuntamiento de Ayer.
+N:La hemos odo a un grupo de nios disfrazados de pastores.
+N:cantaban la primera parte de la meloda y bailaban la segunda.
+A:Asturies
+O:Cabaaquinta (Ayer)
+Z:Cancioneru de Torner 347
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+D
+|: G2 B|GGB|(B2 A)|B2 G|GGG|F2 A|AGD :|
+G2 A|B2 A|B3|G2 D|
+G2 A|B2 A|(BG)D|G2 B|
+G2 B|(B2 A)|B2 G|GGG|F2 A|(A G2-)|Gz[Q:3/8=88]G|
+_BAG|_BAG|_BAG|d2 d|
+d_ed|c_Bc|cdc|_BAB|
+c_BA|G3-|Gz||
+W:Los pastores y pastoras,
+W:toditos se reunieron
+W:y juntando sus ganados
+W:todos marcharon corriendo.
+W:
+W:Todo ser alegra,
+W:todo ser placer,
+W:todo ser alabanzas
+W:al hojo de San Jos.
+W:
+W:Corred, pastorcillos,
+W:corred a adorar
+W:al Rei de Los Cielos,
+W:al Rei de Los Cielos
+W:que hanacido ya.
+W:
+S:https://www.folktunefinder.com/tunes/59033
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Navid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

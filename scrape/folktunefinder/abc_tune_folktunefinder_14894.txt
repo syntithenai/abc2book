@@ -1,0 +1,30 @@
+X: 686
+T: Planxty Lady Athenry
+C: O'Carolan
+B: O'Neill's 686
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Lively"
+M: 6/8
+L: 1/8
+K: G
+B3 G2B | d2D GFE | A2G {G}F2E | D2d ded |
+| BcB A2G | F2A d2A | B3 G2B | A2F D3 |
+| B,2C D2E | D2G FGA | B2D A2F | G2E CGE |
+| d2e dBG | c2D A2F | D2G G2F | G3 G2 ||
+|| (B/c/) \
+| d2B G2e | d2c B2c | d2g gbg | f2d a2f |
+| d2g gbg | faf e2d | d2f faf | gfe dcB |
+| c3 c2d | efg efg | f2d d2e | fga fga |
+| gfe dcB | cBA ABc | d2D A2F | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14894
+S:http://trillian.mit.edu/~jc/music/abc/jig/PlanxtyLadyAthenry_0.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PlanxtyLadyAthenry_0.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/PlanxtyLadyAthenry.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

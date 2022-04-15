@@ -1,0 +1,29 @@
+X:426
+T: MAEDCHEN MIT DEM GRUENEN KRANZE
+N: F0791
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Tanz -, Soldaten - Lied
+M: 2/4
+L: 1/8
+K: E
+ | B,3E | FEDE | F3G | E2z2
+B,3E | FEDE | F3G | E2z2
+EEDE | F2G2 | F4 | D2z2
+EEFE | D2C2 | B,4- | B,2z2
+FFFF | F2G2 | A4 | E2z2
+EEEE | E2F2 | G4 | D2z2
+E2E2 | F3B, | E2E2 | F2z2
+E2FG | A2G2 | F2D2 | E2z2
+E2E2 | F3B, | E2E2 | F2z2
+E2FG | A2G2 | F2D2 | E2z2
+S:https://www.folktunefinder.com/tunes/69986
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, tanz -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

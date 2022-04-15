@@ -1,0 +1,30 @@
+X: 1
+T: Dumfries House
+O: Athole
+S: from Susie Petrov
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G3 G2g | "G"dBG GAB | "C"cGE "G"EFG | "D"AFD DEF \
+| "G"G3 G2g | "G"dBG GAB |"Am"cEA "D"FEF | "G"G3  G2 :|
+B/c/ \
+| "G"dBd dBd | "C"gag    f2e | "G"dBd "Em"dcB | "D"AFD D2B/c/ \
+| "G"dBd dBd | "C"gag "D"f2e | "G"dcB  "D"AGF | "G"G3  G2 |]
+B/c/ \
+| "G"dBd dBd | "C"gag    f2e | "G"dBd "Em"dcB | "D"AFD D2B/c/ \
+| "G"dBd "C"ece | "Bm"fdf "Em"gfe | "G"dcB "D"Agf | "G"gdB G2 |]
+S:https://www.folktunefinder.com/tunes/14131
+S:http://trillian.mit.edu/~jc/music/abc/jig/DumfriesHouse2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DumfriesHouse2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DumfriesHouse2_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

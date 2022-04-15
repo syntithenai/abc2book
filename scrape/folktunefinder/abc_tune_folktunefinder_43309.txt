@@ -1,0 +1,21 @@
+X: 77
+T:Pachelbel's frolics
+M:4/4
+L:1/8
+Q:140
+S:John Wynne
+Z:Andrew Pickering
+K:C
+GAB|c2 cB cdef|g2 ga gedB|A2 AB c2 cA|G2 GA GEcE|
+F2 FG A2 AB|c2 cd (3efg ag|fedc BG (3Bcd|eccB c:||
+g^fg|egcg egcg|dgBg dgBg|ceAe ceAe|GBEB GBEB|
+F2 FGA2 AB|c2 cd (3efg ag|fedc BG (3Bcd|eccB c:||
+S:https://www.folktunefinder.com/tunes/43309
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

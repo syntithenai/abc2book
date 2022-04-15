@@ -1,0 +1,51 @@
+X:17641
+T:Tonada (CT 318)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Llangru.
+N:Se canta generalmente con acompaamiento de gaita, en cuyo caso la voz guarda silencio en los estribillos sealados con comillas en la letra que acompaa a la transcipcin meldica.
+O:Llangru
+A:Asturies
+Z:Cancioneru de Torner 318
+M:Llibre
+L:1/8
+Q:1/4=72
+W:Non visti la felpeyona
+W:de guantes y mandilln
+W:"Tiru, liru liru, liru liru,
+W:liru, tiru, liru liru, liru liruln".
+W:Llevaba ms fleco en la saya
+W:que en la gaita Ramonzn.
+W:"Tiru, liru liru, liru liru,
+W:liru, tiru, liru liru, liru liruln".
+W:Lleva ms fleco en la saya
+W:que en la gaita Ramonzn.
+K:G
+B>c d (d3/2c/4B/4 c/d/8c/8B/8A/8B/) z/
+B>c d (d3/2c/4B/4 c/d/8c/8B/8A/8 B/4c/8B/8 A/4G/8F/8 G) z
+FG AB ((c3/2d/4c/4)B/4c/8B/8 (5A/8B/8A/8G/8F/8 G) G z
+A/>G/ F/G/ A/G/ F/G/ AB AG A/>G/ F/G/ A/G/ F/G/ AB G2 z2
+B>c d (d3/2c/4B/4 c/d/8c/8B/8A/8B/) z/
+B>c d (d3/2c/4B/4 c/d/8c/8B/8A/8 B/4c/8B/8 A/4G/8F/8 G) z
+FG AB ((c3/2d/4c/4)B/4c/8B/8 (5A/8B/8A/8G/8F/8 G) G z
+A/>G/ F/G/ A/G/ F/G/ AB AG A/>G/ F/G/ A/G/ F/G/ AB G2 z2
+dg g2 fe (d/e/8f/8e/8d/8c)(de) (e3/2f/4e/4) (d/(3e/4d/4c/4 B/(3c/4B/4A/4 G) z
+FG Ad d3/2 (c/4B/4 c/B/4A/4 B/(5A/8B/8A/8G/8F/8 G2) z2
+A/>G/ F/G/ A/G/ F/G/ AB AG A/>G/ F/G/ A/G/ F/G/ AB G2 z2 ||
+S:https://www.folktunefinder.com/tunes/39012
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

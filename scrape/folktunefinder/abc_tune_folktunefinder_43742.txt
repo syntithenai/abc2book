@@ -1,0 +1,30 @@
+X:2
+T:Menez Hom
+C:Andy Hornby 2004
+Q:1/4=190
+I:abc2nwc
+M:3/4
+L:1/8
+K:F
+D2GF G2|D2BA B2|cB AB cA|B2AG F2|[1D2GF G2|D2BA B2|
+|AG F2G2|A6:|[2d2cB A2|B2cB AG|A2G2F2|G6|
+|:d2f3e|d2g3f|d2e2c2|dc BA G2|[1d2f3e|d2g3f|
+d2 (3cdc B2|A6:|[2GA BG Bc|d2cB A2|B2AG F2|G6|
+|:d2cd Bc|AB GA FG|[1A2FG A2|B2GA Bc|
+d2cd Bc|AB GA FG|DF- F2G2|A6:|[2D2AG A2|
+D2BA B2|D2BA Bc|d2B2G2|AB A2F2|G6|
+|:G2g2f2|d3c B2|cd- d2f2|AB AG F2|[1G2g2f2|d3c B2|
+cd- d2B2|A3D FD:|[2G3B2d|c2Bc d2|df- fd f2|g6|:
+%%textfont Timesbold 25
+%%center  HORNPIPES & HOP STEPS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43742
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

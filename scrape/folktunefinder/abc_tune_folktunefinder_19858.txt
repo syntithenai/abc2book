@@ -1,0 +1,33 @@
+X:2
+T:Tom Bhetty's Waltz
+T:Cooley's Waltz #2
+R:waltz
+M:3/4
+L:1/8
+D:"Crossroads Ceili", Brendan Begley on accordion
+Z:Han Speek <Han.Speek@HETNET.NL> irtrad-l 2001-10-3
+K:G
+|:G3B d2|G3B d2|g b3 a2|~g2 f2 e2|G3B d2|G3B d2|D3 F AB|c2 B2 A2|
+G3B d2|G3B d2|g b3 ~a2|g2 ~f2 e2|dg2 B(3Bc^c|d3 c AF|G3B AF|[1 G4 (3DEF:|2 G4 fg|
+|:~a2 ~f2 ~d2|~A2 ~F2 ~D2|C2 b2 a2|g2 ~f2 e2|d4 ed|{_B}B4 AB| D3 FGA|c2 B2 A2|
+d4 (3Bcd|{_b}b2 a2 g2|gb3 a2|g3 ~f2e|d2 g2 (3Bc^c|d3 cAF|G3B AF|[1 G4 efg:|2 G3 DEF:|
+S:https://www.folktunefinder.com/tunes/19858
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CooleysWaltz2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TomBhettysWaltz_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/CooleysWaltz2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/TomBhettysWaltz_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/TomBhettysWaltz_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CooleysWaltz2_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TomBhettysWaltz_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/waltz/CooleysWaltz2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/waltz/TomBhettysWaltz_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/CooleysWaltz2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/TomBhettysWaltz_1.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

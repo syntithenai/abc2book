@@ -1,0 +1,48 @@
+X: 1
+T: Arnold's Circle
+C:
+M: 6/8
+L: 1/8
+K: D
+P: Little Burnt Potato
+f2g "A1"\
+| "D"a2a ba^g | a2f d2e | f2f g2f | "Em"e2B Bcd \
+| "A7"e2f e2c | Ace a3 | a^ga b2a | "D"f3 f2g |
+"A2"\
+| "D"a2a ba^g | a2f d2e | f2f g2f | "Em"e2B Bcd \
+| "A7"e2f e2c | Ace a3 | "A7"a^ga b2c | "D"d3 d2e ||
+"B1"\
+| "D"f2A f2A | f3 f2e | def agf | "Em"g3- gef \
+| gba gfe | "A7"dcB A3 | a^ga b2a | "D"f3 d2e |
+"B2"\
+| "D"f2A f2A | f3 f2e | def agf | "Em"g3- gef \
+| gba gfe | "A7"dcB A3 | "A7"a^ga b2c | "D"d3 |]
+P: Tune 2
+K: G
+d2=c "C1"\
+| "G"B2B BAG | d2d d3 | "Am"c2c cBA | e3- e3 \
+| "D7"f2e f2g | a2f e2d | "G"g2f g2a | bag edc |
+"C2"\
+| "G"B2B BAG | d2d d3 | "Am"c2c cBA | e3- e3 \
+| "C"g3- gfe | "G"d3 gfe | "D7"d3 def | g3- gga ||
+"D1"\
+|| "G"b2d b2d | bag d3 | ~gfg a2g | "C"f3 e3 \
+| "Am"c'2e c'2e | c'ba e3 | "D7"f2g ^g2a | b2a f2d |
+"D2"\
+| "G"b3 b3 | bag d3 | ~gfg a2g | "C"f3 e3 \
+| "Am"c'3- c'ba | "G"g3- gfe | "D7"dz2 f3 |1 "G"gz2 :|[" ""G"gz2 Hg3 |]
+%%text
+%%text AB 2x
+%%text CD 2x (i.e. as written)
+%%text AB 1x
+%%text CD 1x (i.e. omit repeat)
+S:https://www.folktunefinder.com/tunes/5297
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ArnoldsCircle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,86 @@
+X: 30
+T: Across the Sea to Erin
+M: 6/8
+L: 1/8
+Q:1/4=160
+K:G % 1 sharps
+% Across the Sea to Erin
+% (c) SSF February 2006
+V:1
+z3 B2B| \
+BAB d2B| \
+BAB c2e| \
+g2e d2B|
+BAB c2A| \
+AGA B2G| \
+GFG A2e| \
+d2c BAF|
+G3 B2B| \
+BAB d2B| \
+BAB c2e| \
+g2e d2B|
+BAB c2A| \
+AGA B2G| \
+GFG A2e| \
+d2c BAF|
+G3 d2c| \
+Bcd e2f| \
+g2a b2a| \
+gfe d2c|
+Bcd e2e| \
+ecA d2d| \
+dBG2<c2| \
+B3 A2G|
+FED d2c| \
+Bcd e2f| \
+g2a b2a| \
+gfe d2c|
+Bcd e2e| \
+ecA d2d| \
+dBG A2e| \
+d2c BAF|
+G3
+V:2
+z3 G,z[dBG]| \
+G,z[dBG] G,z[dBG]| \
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]|
+G,z[dBG] D,z[cAFD]| \
+D,z[cAFD] G,z[dBG]| \
+G,z[dBG] D,z[cAFD]| \
+D,z[cAFD] D,z[cAFD]|
+G,z[dBG] G,z[dBG]| \
+G,z[dBG] G,z[dBG]| \
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]|
+G,z[dBG] D,z[cAFD]| \
+D,z[cAFD] G,z[dBG]| \
+G,z[dBG] D,z[cAFD]| \
+D,z[cAFD] D,z[cAFD]|
+G,z[dBG] G,z[dBG]| \
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]| \
+G,z[dBG] G,z[dBG]|
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]| \
+G,z[dBG] A,,z[ECA,]| \
+G,z[dBG] D,z[cAFD]|
+D,z[cAFD] G,z[dBG]| \
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]| \
+G,z[dBG] G,z[dBG]|
+G,z[dBG] C,z[GEC]| \
+C,z[GEC] G,z[dBG]| \
+G,z[dBG] D,z[cAFD]| \
+D,z[cAFD] D,z[cAFD]|
+G,z[dBG]
+S:https://www.folktunefinder.com/tunes/81668
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

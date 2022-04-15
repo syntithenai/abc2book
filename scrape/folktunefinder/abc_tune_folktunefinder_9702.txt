@@ -1,0 +1,34 @@
+X: 1
+P: Sir George Clerk of Pennycuik
+C: Nathaniel Gow
+N: Hunter 85, BSFC III-22 and I-1 and IV-4 and I-54
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+[| g/a/ \
+| "G"b-<g g2 d-A B>G "D7"G/F/E/D/ D g/a/ |
+| "G"b-<g g2 d-G | "D7"G/F/E/D/ DE/F/ "G"G3 |]
+[| d/c/ \
+| "G"B-<d d2 d-a | "C"g-<e e>d "D7"d3 c | "G"B-<d d2 "C"e>Bc2 | "G"d>A B>G "D7"G/F/E/D/ DE/F/ |
+| "G"G-d "C"e>d "D7"d4 | "G"d'-c | "G"B>G "D7"A>F "G"G3 |]
+S:https://www.folktunefinder.com/tunes/9702
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS03.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/UpInTheAir.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/UpInTheAir0.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/UpInTheAir1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090209/UpInTheAir1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Gramachie.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Gramachie.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Gramachie
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

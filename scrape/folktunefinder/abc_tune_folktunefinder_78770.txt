@@ -1,0 +1,23 @@
+X:329
+T: ES FUHR EIN FUHRKNECHT UEBERN RHEIN
+N: E0186A
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte, Mord
+M: 2/4
+L: 1/8
+K: G
+D | G2_B2 | A2d2 | c_BA
+D | G2_B2 | A2d2 | c_BA
+A | cccd | _BAG
+D | G2_B2 | A2d2 | _BAG
+S:https://www.folktunefinder.com/tunes/78770
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

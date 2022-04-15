@@ -1,0 +1,26 @@
+X:265
+T: Finnegan's Wake
+B: O'Neill's 265
+N: "Lively"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:C
+G/F/ \
+| EG GA/B/ | cc cd/e/ | fd ed/c/ | AG GG/F/ \
+| EG GA/B/ | cc cd/e/ | fd ed/c/ | AG G ||
+|| (c/d/) \
+| eg ge | dc Ac | eg ge | dc dc/d/ \
+| eg ge | dc cd/e/ | fd ed/c/ | AG G ||
+S:https://www.folktunefinder.com/tunes/73424
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

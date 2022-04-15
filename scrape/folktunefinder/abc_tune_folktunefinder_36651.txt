@@ -1,0 +1,22 @@
+X:2860
+T:the Keel Row
+M:4/4
+O:Scotland
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a1e.html
+%%ID:00000a1e
+K:A mixolydian
+e>d| c2 A>c d2 B>d|c2 A>c B<G E>d|\
+c2 A>c d2 B>d | c>A B>G A2 :|
+|: e>d | c<e e<a f2 e>d | c2 A>c B<G E>d |\
+c<e e<a f2 e>d | c>A B>G A2 :|
+S:https://www.folktunefinder.com/tunes/36651
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:310
+%%topmargin 3cm
+T:The Oyster Wives' Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A minor
+B | e2 {/f}ed eAAB | {/^c}de{/c}dB {/^F}GABd | e2 {/^f}ed e^f{/f}ge | {/^c}dB{/^f}gB A/A/A A ::
+B | {/^f}edef {ef}g2 (^fe) | {/^c}de{/c}dB {/c}de{/c}dB | {/^f}edef {ef}g>age | {/^c}dB{/^f}gc A/A/A {cB}A :|
+S:https://www.folktunefinder.com/tunes/71339
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Oyster_Wives_Rant.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0310.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

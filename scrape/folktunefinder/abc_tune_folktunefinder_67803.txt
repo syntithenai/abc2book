@@ -1,0 +1,20 @@
+X: 16
+T:Cetvorno Horo 2
+O:Serbia
+L:1/8
+M:7/8
+K:Gm
+Q:1/4=240
+%%MIDI gchord fzzfzfz
+|:"Dm"BBB BAAG|AAA AGGF|"Bb"F2E DB,DE|"Dm"F2E D2D2:|
+|:"Eb"GGG GFFE|"Dm"D2B, DEFz|"Eb"GGG GFFE|"Dm"D2B, D2z2:|
+|:"Eb"GGG GFFE|"Dm"D2B, DEFz|F2F FEED|CDE D4:|
+|:"Eb"GGG GFFE|"Dm"D2B, DEFz|F2F FEED|CDE D4:|
+S:https://www.folktunefinder.com/tunes/67803
+S:http://jjaquier.free.fr/midifiles/abc/balk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

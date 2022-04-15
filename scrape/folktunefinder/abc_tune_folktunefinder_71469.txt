@@ -1,0 +1,24 @@
+X:440
+%%topmargin 3cm
+T:Strathglass House
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A mixolydian
+"Slow" B | D/D/D D>E FAAB | A<Fd>F [A,3E3] F | D/D/D D>E (FA).A.B | A<Fd>F A3 :: B | A/A/A d>A B>Ad<F | E/E/E F>D [A,3E3] F |
+A/A/A d>A TB>Ad>F | A/A/A dF A3 B | A/A/A d>A B>Ad<F | E/E/E F>D TE>FGB | A>FGE F>DDF A3 |]
+S:https://www.folktunefinder.com/tunes/71469
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Strathglass_House.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0440.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

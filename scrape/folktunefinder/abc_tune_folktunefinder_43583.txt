@@ -1,0 +1,26 @@
+X:100
+T:the Green ship
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000612.html
+%%ID:00000612
+K:F
+A|\
+A2d2 efed | A2d2 f4 | A2(AB) c2c2 | BABd c4 |\
+A2d2 efed | A2d2 f4 | fagf egfe | f2(d2 d2) ::
+(c>B) | \
+A2(.F2 .F2)C2 | A2F2 AcBA | B2(.G2 .G2.G2) | B2G2 BdcB |\
+A2(.F2 .F2)C2 | A2F2 f4 | fagf egfe | f2(.d2 .d2) :|
+% page 11
+S:https://www.folktunefinder.com/tunes/43583
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+S:https://www.folktunefinder.com/tunes/19490
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordOfTheIsles.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LordOfTheIsles.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordOfTheIsles.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

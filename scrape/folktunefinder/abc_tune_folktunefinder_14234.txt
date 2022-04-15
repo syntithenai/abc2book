@@ -1,0 +1,33 @@
+X: 1
+T: Gigue Bourassa
+O: trad Qu\'ebec
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+F: http://mustrad.udenap.org/partitions/TQ086.jpg [2008-12-1]
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"BAB "C"cBc | "G"dgf "C"edc | "G"BAG DGB | "C"cBc "D7"AFD \
+| "G"BAB "C"cBc | "G"dgf "C"edc | "G"BAG DGB | "D7"cAF "G"G2 :|
+|: F \
+| "Em"GEE EFE | "C"CEE GFE | "D"DA,D FDF | AFA dAF \
+| "Em"GEE EFE | "C"CEE GFE | "D"DFA  dAF | "Em"GEE E2 :|
+S:https://www.folktunefinder.com/tunes/14234
+S:http://mustrad.udenap.org/partitions/TQ086.jpg
+S:http://mustrad.udenap.org/partitions/TQ086.jpg
+S:http://trillian.mit.edu/~jc/music/abc/jig/Gigue_Bourassa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Gigue_Bourassa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/GigueBourassa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GigueBourassa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/GigueBourassa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Gigue_Bourassa_G.abc
+% Rhythm Jig
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

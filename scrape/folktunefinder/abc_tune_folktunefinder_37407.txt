@@ -1,0 +1,25 @@
+X:6640
+T:Var det du eller var det jag (Lngdans)
+A:Dalarna
+M:3/4
+O:Sweden
+R:Lngdans
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007b2.html
+%%ID:000007b2
+K:A dorian
+AB|\
+c2cdBc|A2ABcd|e2g2f2 |e4::\
+e2|\
+e2c2ec|c2eceg|
+f2d2fd|d2fdfg|\
+ef ed cB|A2c2cc|B2G2G2|A4:|
+S:https://www.folktunefinder.com/tunes/37407
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Lngdans
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

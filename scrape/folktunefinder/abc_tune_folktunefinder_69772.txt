@@ -1,0 +1,26 @@
+X:212
+T: DER LENZ IST ANGEKOMMEN
+N: F0360
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Fruehling
+M: 6/8
+L: 1/8
+K: Bb
+F | B2cd2e | f3d2
+f | f2ed2c | d3Bz
+c | c2ccBG | A2dc2
+c | c2ccBG | A2dc2
+F | B2cd2e | f2f
+fed | c3cdc | B2z3
+S:https://www.folktunefinder.com/tunes/69772
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

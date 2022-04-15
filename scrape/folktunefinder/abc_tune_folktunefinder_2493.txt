@@ -1,0 +1,19 @@
+X: 1
+T: TEST: Q inline
+Q: 1/4=80 "slow"
+K: C
+[| CDEF GABc |[Q:"faster"] cBAG FEDC [Q:1/4=136]| CDEF GABc |]
+S:https://www.folktunefinder.com/tunes/2493
+S:http://trillian.mit.edu/~jc/music/abc/test/Q_inline2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Q_inline2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Q_inline2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Q_inline2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

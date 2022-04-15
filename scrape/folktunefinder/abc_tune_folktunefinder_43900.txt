@@ -1,0 +1,32 @@
+X:175
+T:Henry's Cat
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:Jan '96
+O:England
+Q:1/8=320
+R:Hornpipe
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000780.html
+%%ID:00000780
+K:G
+(3Bc^c|\
+dedB cAFD|GABG DGF=F|EGcE DGBG|cBAG A2(3Bc^c|\
+dedB cAFD|GABG DGF=F|EGce dcAF|G4 G2::\
+AG|\
+FAcA FDEF|GBdc BGAB|ceag fde^c|de^ce d2(3B=c^c|\
+dedB cAFD|GABG DGF=F|EGBe dBGF|G4 G2:|
+S:https://www.folktunefinder.com/tunes/43900
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

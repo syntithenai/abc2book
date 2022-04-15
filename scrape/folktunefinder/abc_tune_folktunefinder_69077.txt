@@ -1,0 +1,25 @@
+X:218
+T: WIR WAREN UNSER EINS, WIR WAREN UNSER ZWEI
+N: Z0217
+O: Europa, Mitteleuropa, Deutschland, Halle
+R: Romanze, Handwerks - Burschen - Lied
+M: 2/4
+L: 1/8
+K: F
+C | FFFF | F2z
+G | AAAA | A2z2
+c2c2 | dcBA | G2G2 | G4
+c2fc | cBBB | AFcA | G4
+c2fc | cBBB | AFcA | G3
+C | F3G | A2B2 | G4
+B4 | BAGF | c2c2 | F2z
+S:https://www.folktunefinder.com/tunes/69077
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, handwerks - burschen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

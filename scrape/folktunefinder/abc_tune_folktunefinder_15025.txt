@@ -1,0 +1,37 @@
+X: 1
+T: the Scamp
+C: Muriel Johnstone
+B: The Whiteaddr Collection, 1993
+D: Dancing Fingers Vol.III
+N:
+N: Muriel Johnstone and Bill Zobel   Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "E7"E \
+| "A"A>GF ECE | A,CE "D"F2E | "A"E>FA "E7"Bcd | "F#m"cAF "D"F2"E7"E \
+| "A"A>GF ECE | A,CE "D"F2E | "A"e>dc "E7"BAB | "F#m"cAF "D"F2 :|
+A \
+| "A"E2A "D"F2A | "A"E>FA "E7"Bcd | "F#m"cAF F2c | "F#m"cAF "D"F2"E7"E \
+| "A"EA2 "D"FA2 | "A"ece "D"f>ga | "A"e>dc "E7"BAB | "F#m"cAF "D"F2A ||
+|| "A"EA2 "D"F2A | "A"E>FA "E7"Bcd | "F#m"cAF F2c | "F#m"cfe "D"f2g \
+| "A"a>gf ece | "A"Ace "D"f2e | "A"e>dc "E7"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/15025
+S:http://trillian.mit.edu/~jc/music/abc/jig/ScampJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/ScampJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ScampJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/ScampJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ScampJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ScampJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

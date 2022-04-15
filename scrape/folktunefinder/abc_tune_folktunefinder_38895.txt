@@ -1,0 +1,32 @@
+X:17524
+T:Toicevo Kolo 
+O:Serbia
+S:from record: Sixteen Yugoslaian Dances created Ciga/Ivon Despotovic
+L:1/8
+M:2/4
+K:F#m
+Q:1/4=96
+|:"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+"A"[G,/E/][E,/C/][F,/D/][G,/E/] [G,E][CA]|"E"^G/F/E/D/ "A"CB,:|
+|:"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+"A"[G,/E/][E,/C/][F,/D/][G,/E/] [G,E][CA]|"E"^G/F/E/D/ "A"CB,:|
+|:"A"e/c/d/e/ea|"E"^g/f/e/d/ "A"cB|\
+"E"[Ge][Ge] "Bm"[Fd][Fd]| "A"[Ec][Ec] "E"[DB][DB]:| 
+|:"A"[Ec][CA] [Ec][Ge]|"Bm"[Fd][Ge] "F#m"[A2f2]|\
+"E"[Ce][Ce] "Bm"[Fd][Fd]|[1 "E"[D4B4]:|[2 "E"[D3B3] E|
+|:"E"GAGB|"A"ABc2|\
+"E"BB"A"AA|"E"G/F/G"F#m"F2:|
+|:"E"GAGB|"A"ABc2|\
+"E"BB"A"AA|"E"G/F/G"F#m"F2:|
+S:https://www.folktunefinder.com/tunes/38895
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

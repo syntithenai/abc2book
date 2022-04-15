@@ -1,0 +1,25 @@
+X: 1
+T: Mrs Muir McKenzie's Delight
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Wighton Collection
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D"FED | "G"G2G G2A | "G"B2G "D7"c2A | "G"B2G "D7"c2A \
+| "G"Bcd "C"E2E | "D7"ABG FED | "C"EFG "D7"AFD | "G"G3 G2 :|
+|: c \
+| "G"Bcd "(D/F#)"def | "Em"g2g g3 | "G/D"B2B Bcd | "C"e2e e3 \
+| "G"dcB "C"cde | "G"dcd D2D | "C"EFG "D7"AFD | "G"G3 G2 :|
+S:https://www.folktunefinder.com/tunes/14711
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrsMuirMcKenziesDelight_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrsMuirMcKenziesDelight_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X:890
+T:Xiraldilla (CT 397)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Pilar Garca Martnez, de veintiocho aos, de Teberga.
+A:Asturies
+O:Teberga
+Z:Cancioneru de Torner 397
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|: d2 d|ddd|e2 f|e3|c2 B|Add|d2 c|B2 z :|
+|: d2 d|ddd|e2 f|e3|c2 B|Add|d2 (c|B2) z :|
+|d2 d|ddd|e2 f|e3|c2 B|Add|d2 c|B2 z|
+|: d2 d|ddd|e2 f|e3|c2 B|Add|d2 (c|B2) z :|
+|d2 d|ddd|e2 f|eee|e2 d|cee|d2 c|B2 z||
+W:Estrella que vienes tarde,
+W:a la luna que te aguarde;
+W:el que espera desespera,
+W:pronto le parece tarde.
+W:A un hermanito que tengo,
+W:le voi a desengaar:
+W:no te cases con hermosa,
+W:mira que te ha de pesar,
+W:que yo me cas con una
+W:y me voi a deseparar.
+W:Cuando vengo al medioda,
+W:cansado de trabajar,
+W:no alcuentro la sopa hecha:
+W:falta la sal por echar.
+W:Hermanito, como hermano,
+W:ninguna hermosa te d la mano.
+W:
+S:https://www.folktunefinder.com/tunes/59777
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

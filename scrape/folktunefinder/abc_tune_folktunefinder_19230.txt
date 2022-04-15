@@ -1,0 +1,29 @@
+X: 1
+T: the Braes of Tulliemet [Am]
+T: the Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d gd g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' (3eab (3c'ba | "G"g>d g<b (3dga (3bag \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+S:https://www.folktunefinder.com/tunes/19230
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Braes_of_Tulliemet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Braes_of_Tulliemet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Braes_of_Tulliemet_Am.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

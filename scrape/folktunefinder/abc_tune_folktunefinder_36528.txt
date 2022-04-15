@@ -1,0 +1,23 @@
+X:2245
+T:Hamburger fr Dalsland
+L:1/8
+M:2/4
+O:Sweden
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a79.html
+%%ID:00000a79
+K:D mixolydian
+Ad c>B|Ad f2|fe/f/ ge|ed/e/ f/d/A|\
+Ad c>B|Ad f2|fe/f/ ge/g/|fd d3/2:|
+|: e/ |\
+fa g>f|ed f2|fe/f/ gf/g/|ba a>g|\
+f>a g>f|ed f2|fe/f/ ge/g/|fd d3/2:|
+S:https://www.folktunefinder.com/tunes/36528
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

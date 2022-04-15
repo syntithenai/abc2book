@@ -1,0 +1,35 @@
+X: 2
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rgu\'i
+%T: 
+%C: melody: Ti Zho-Mi (\'a\'e)
+%C: lyrics: Sh B-W (\~n)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (\'a\'e)
+K: A
+%%staffsep 45
+[| "A"CE3- EE2E | "D"FA3- A2z2 | "A"EE2F E2C2 | "E7"B,6 z2 \
+|  "A"CE3- EE2E | "D"FA3  F2zF | "A"E3C "E7"B,3A, | "A"A,6 z2 |
+|  "A"A3A  A2B2 |    c4   E4    | "D"FA2A "(F#m)"A2(GA) | "E7"B6 z2 \
+|  "A"cc2d c2B2 | "D"zA2B A2{G}F2 | "A"z2 E4 E2 | "E7"c2 B4 (AG) | "A"A8- | A4 z4 |]
+%
+%W: \`a\"e\`e\,c\^a
+%W:\^a\'a\"e \`a\"e\`e
+%W:\`a\'e\'e \'e\`a\"e\`i
+%W:\`i\`a\"e \`a \`a
+%W:%
+%W: \`a\"e
+%W: \`a\"e\'e
+%W:\'e \'e\`a\"e\`i
+%W:\`i\`a\"e \`a \`a\^i
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3180
+S:http://trillian.mit.edu/~jc/music/abc/China/Ruguo.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

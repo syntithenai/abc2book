@@ -1,0 +1,23 @@
+X:120
+T:the Steward's Lodge Song
+B:Aird's Airs and Melodies vol 2
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000e0.html
+%%ID:000000e0
+K:D
+de|\
+f2(d2 d2)D2| F2(A2 A2)dc| B2A2 G2F2| E2 e2 e3f| \
+g2f2 e2d2| cdec A3A| BcdB cdeg| f2d2 d2::
+de|\
+f3g g4| e3f g4| B2g2 f2ed| cdec A4|\
+d3c B4| e3d"tr"c4| a2gf efge| f2d2 d2:|
+S:https://www.folktunefinder.com/tunes/30333
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:806
+T:Abraham Brown
+T:Bidford
+C:anon.
+O:England
+A:Withington
+S:Bacon
+R:Jig
+F:http://abc.musicaviva.com/tunes/england/abraham-brown.abc
+%Posted 05 Apr 1999 at ABC-users by Bruce Rosen during a discussion
+%about the P:field
+P:A(AB3)2(AC3)2A
+M:6/8
+K:D
+P:A
+A|"D"dcB A2 d|"G"g2 f "A"e3|"D"fga A2 A|"G"B3 "D"d2:|
+P:B
+A|"D"d2 f a2 f|"G"b2 g "A"a2 f|"D"d2 f a2 f|"G"b3 "A"a2 a|\
+"Em"b2 g "A"efg|"D"a2 f d2 A|def A2 A|"G"B3 "D"d2|]
+P:C
+A|"D"d2 f a2 f|"G"b2 g "A"a2 f|"D"d2 f a2 f|"G"b3 "A"a2 a|\
+"Em"b3 g3|"A"(2ef g3|"D"a3 f3|d3 d2 A|def A2 A|"G"B3 "D"d2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/75811
+S:http://abc.musicaviva.com/tunes/england/abraham-brown.abc
+S:http://abc.musicaviva.com/tunes/england/abraham-brown.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/abraham-brown.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/england/abraham-brown.abc
+% Rhythm Jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

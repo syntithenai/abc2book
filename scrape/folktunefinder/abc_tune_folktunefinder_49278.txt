@@ -1,0 +1,28 @@
+X:4
+T:3. Lachrim\ae Gementes
+T:Tenor
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+N:Original clef, C on third line
+K:Amin -8va
+%%MIDI transpose -12
+A4 A6 B2 c2 B A2 ^G/ ^F/ ^G2 A2 e2 e > f g G A > B c3 A d3 B e > d c > B c/ d/ e2 B d c > d e d3 c B > B A8 ||
+B3 d2 c/ d/ e c d4 z2 G2 B > c d B c A B B > A A z e c d2 e2 a > g f/ e/ d e2 c2 f > e d/ c/ B c > B G d > c B e A4 B8 ||
+%B4 e3 B B > A ^G2 z2 z B ^F2 z B B2 z e d3 G A B c3 c B2 "(4)" c G A E > F G "(5)"A/ B/ c/ d/ e B2 B > B A2 B c d > d c2 B2 HA8 |]
+%N:(4) Original has a quarter note rest here (my guess)
+%N:(5) Original has the next two notes as quarter notes (my guess)
+B4 e3 B B > A ^G2 z2 z B ^F2 z B B2 z e d3 G A B c3 c B2 z c G A E > F G A B c/ d/ e B2 B > B A2 B c d > d "(4)"c B2 HA8 |]
+N:(4) original is half note (eh guess)
+S:https://www.folktunefinder.com/tunes/49278
+S:http://www.laymusic.org/music/dowland/gementes/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

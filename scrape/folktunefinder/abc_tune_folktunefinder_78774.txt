@@ -1,0 +1,22 @@
+X:333
+T: ES WOLLTE EIN KUECHENJUNG
+N: E0186E
+O: Europa, Mitteleuropa, Deutschland, Magdeburg, Genthin
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte, Mord
+M: 3/8
+L: 1/8
+K: C
+G, | CCG, | CDE | DB,D | B,G,
+C | A,B,C | G,G,E, | A,B,C | G,2
+G, | CCG, | CDE | G,A,G, | C2
+S:https://www.folktunefinder.com/tunes/78774
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

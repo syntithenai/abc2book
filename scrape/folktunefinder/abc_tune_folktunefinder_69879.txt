@@ -1,0 +1,33 @@
+X:319
+T: ES LEBEN DIE STUDENTEN
+N: F0550
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied, Geselligkeit
+M: 6/8
+L: 1/8
+K: F
+A | A2AA2A | A3Az
+A | ^G2Ad2c | c3B2
+A | G2GG2G | G3Gz
+G | G2AB2c | d3c2
+F | d3dzd | c3cz
+c | B2AB2c | A3Az
+F | d3dzd | c3cz
+c | e2dB2G | FzAAz
+A | AzAcBA | GzGGz
+G | GzGBAG | A2z3
+F | d3dzd | c3cz
+c | B2AB2c | A4z
+F | d3dzd | c3cz
+c | edcBAG | F2z3
+S:https://www.folktunefinder.com/tunes/69879
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied, geselligkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

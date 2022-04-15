@@ -1,0 +1,21 @@
+X:11
+T:Cat Scratch Reel
+R:reel
+M:4/4
+L:1/8
+K:D
+dB |: AFD2 DEFG | AFAc d2Ac | BGE2 EFGA | BEE2 EFGB |
+AFD2 DEFG | AFAc d2ef | g2(3fgf edc2 |1 d6 dB  :|2 d6 e2 |:
+f2fg fede | faab afdf | ecA2 ABcd | edcB A2e2 |
+f3g fede | faab afdf | g2(3fgf edc2 |1 d6 e2  :|2 d6 dB |]
+S:https://www.folktunefinder.com/tunes/41088
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

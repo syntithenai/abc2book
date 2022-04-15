@@ -1,0 +1,25 @@
+X: 1
+T: Myra's Jig
+C: Ian Lowthian
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"cBA AfA | "A"eAf ecA | "A"cBA    ECE | "D"F3 "E7"F2e \
+| "A"cBA AfA | "A"eAf ade | "A"cBA "D"FEF | "A"A3     A2 :|
+|: f \
+| "A"e3/f3/- "(D)"fa2- | "A"afe cBA | "A"e2f "F#m"afe | "Bm"cBB "E7"B2f \
+| "A"e3/f3/- "(D)"fa2- | "A"afe cBA | "D"BAc  "E7"BAF | "A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/14746
+S:http://trillian.mit.edu/~jc/music/abc/jig/Myras_Jig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Myras_Jig_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

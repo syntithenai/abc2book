@@ -1,0 +1,33 @@
+X: 38
+T:O Dear what can the matter be. JMP.038
+M:6/8
+L:1/8
+Q:90
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:1 - this note shown as a minim, which doesn't add up either when
+N:repeating A music or
+N:going on to B.  2 - this bar difficult to read - almost looks like two
+N:minim
+H:1799
+Z:vmp.C. Graebe
+K:G major
+d3 d3 | dBg dBG | c3c3 | cAB cBA|!
+d3 d3 | dBg dBG | EGc BcA | "1"G6 :|!
+|:d | dBc dBc | dBg dBG | cAB cAB | cAB  cAF |!
+dBc dBc | dBg dBG | EGd BcA | "2"G6 :|]
+S:https://www.folktunefinder.com/tunes/1975
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

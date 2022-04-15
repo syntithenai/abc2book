@@ -1,0 +1,21 @@
+X: 2
+P: A Fig for a Kiss
+R: slipjig
+D: "Dance Across the Sea: Dances and Airs from the Celtic Highlands" North Star Records NS 0031
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Ddor
+E | "Dm"F2A D2A AGF | "C"E2G C2E GFE | "Dm"F2A    D2F   AG[AF] | "F"AcA  "C" GFE "Dm"D2 :|
+e | "Dm"f2d f2d dcA | "C"e2c cBc edc | "Dm"f2d    f2d     dcA  | "F"cAF "(C)"FAc "Dm"d2 |]
+e | "Dm"f2d f2d dcA | "C"e2c cBc edc | "Dm"fed "C"edc "Bb"dc_B | "F"AcA  "C" GFE "Dm"D2 |]
+S:https://www.folktunefinder.com/tunes/3758
+S:http://trillian.mit.edu/~jc/music/abc/England/FineLadyOfHomewood.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

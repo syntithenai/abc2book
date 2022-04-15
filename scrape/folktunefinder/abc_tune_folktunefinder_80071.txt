@@ -1,0 +1,31 @@
+X:12
+T: Das Dollerlied
+N: A0374E
+O: Europa, Mitteleuropa, Deutschland
+N: J. Ott 1534 No. 20.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/4
+K: D
+d4 | d2d2=c2B2 | G4A4z2
+B2 | =c2BAA2d2 | =c2BAB2B2 | A4
+d4 | d2d2=c2B2 | G4A4z2
+B2 | =c2BAA2d2 | =c2BAB2B2 | A4z2
+A2 | A2G2A2B2 | =c4c4z2
+B2 | A2G=FE2F2 | D2D2=C4z2
+c2 | =c2A2c2d2 | =cAB2A4z2
+c2 | d3d=c2A2 | B4A4z2
+=c2 | B2A2G2=FE | =F2G2E4 | D4
+S:https://www.folktunefinder.com/tunes/80071
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

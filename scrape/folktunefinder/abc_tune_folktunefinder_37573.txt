@@ -1,0 +1,32 @@
+X: 40
+T:Quadrille. TLY.039
+M:6/8
+L:1/8
+Q:110
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Quadrille
+O:England.
+A:Lancashire.
+N:There is a 'signo' at start of first bar and at the end of the tune,
+N:with a DC sign at the end also. Second note of 7th. bar is assumed to
+N:be b as in third bar (ledger line missing
+H:1860.
+Z:vmp.Taz Tarry.
+K:D
+d/2e/2|f2f fef|a3f3| gbg edc|!
+ dfd A2 d/2e/2|f2f fef|a3f3| gbg edc|d2e d2:||!
+c/2d/2|ecA ecA| g3 e3| fga agf| ecA A2 f/2g/2|!
+ afd afd| d'3 b3|c'd'e' d'c'b|aba"DC" gfe|]
+S:https://www.folktunefinder.com/tunes/37573
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+T: Savitaipaleen polkka
+T: Ievan polkka
+R: polka
+D: Kevin Burke: Up Close
+O: South Karelia
+Z: id:hn-polka-41
+M: 2/4
+L: 1/8
+K: Bm
+|: "Bm"B>B Bc | dB Bd | "F#7"cA Ac | "Bm"d/c/B/A/ BF \
+|      B>B Bc | dB B2 | "F#7"ef/e/ dc | "Bm"B2 B2 :|
+|: "Bm"f>d df | "F#7"ec cd | ef/e/ dc | "Bm"Bc de \
+|      f>d df | "F#7"ec cd | ef/e/ dc | "Bm"B2 B2 :|
+S:https://www.folktunefinder.com/tunes/8650
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_polk4.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

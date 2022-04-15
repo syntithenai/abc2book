@@ -1,0 +1,27 @@
+X:5515
+T:Scottis
+C:e. Georg Brobacken
+M:4/4
+O:Norway
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007c3.html
+%%ID:000007c3
+K:A mixolydian
+(~E2 E)>F (E2 E)>D|E>B c>B A4|1\
+(c2 c)>B (G2 G)>F|G>B e>c B<A A>F :|2\
+(c2 c)>B G>B e>c|B<A A>B A4 :|
+|:\
+(~a2 a)>b (g2 g)>f|e>f e>c B<A A2 |1\
+(c2 c)>B (G2 G)>F|G>B e>c B<A A2 :|2\
+(c2 c)>B G>B e>c|B<A A>B A4 :|
+S:https://www.folktunefinder.com/tunes/37182
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

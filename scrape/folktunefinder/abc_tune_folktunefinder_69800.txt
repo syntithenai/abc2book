@@ -1,0 +1,29 @@
+X:240
+T: ES KLINGT EIN RUF IM MAECHTGEN DONNERTONE
+N: F0417
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch, Krieg
+M: 4/4
+L: 1/16
+K: A
+E2E2E2 | c6A2G3AB3G | A4E4z2
+E2F2E2 | d6B2A3GA3c | B8z2
+B2^A2B2 | c6B2B3AG3F | E4E4z2
+G2F2E2 | B6GEB,3AG3F | E8z4
+E4 | B6G2A6c2 | B2G2E4z4
+E4 | B6G2A6=c2 | B4E4z2
+E2E2E2 | A6A2c3BA2B2 | c8z2
+c2c2c2 | e3dc2B2c4B4 | A8z2
+E2E2E2 | A6A2c3BA2B2 | c8z2
+c2c2c2 | e3dc2B2c4B4 | A8z2
+S:https://www.folktunefinder.com/tunes/69800
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch, krieg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

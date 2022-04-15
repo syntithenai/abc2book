@@ -1,0 +1,26 @@
+X:443
+T: Auf der Wildbahn (159), S. 347
+N: T0331
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Reuland, hhh Johann Frank, 1907
+R: historische, Kriegs- und Soldatenlieder, Liebeslied]
+M: 3/4
+L: 1/8
+K: G
+DG | GBB3B | dBABc
+c | dcBBdB | A2z2
+AA | ceeedc | Bdd2
+BA | A2d2cc | B2z2
+S:https://www.folktunefinder.com/tunes/70573
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

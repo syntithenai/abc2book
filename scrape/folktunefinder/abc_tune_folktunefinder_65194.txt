@@ -1,0 +1,28 @@
+X: 106
+T:The General Gathering 1745
+% Nottingham Music Database
+P:AAB
+S:Athole p 136, via EF
+M:6/8
+K:D
+P:A
+f|"D"d2F FGF|"A7"ABc "D"def|"G"edc "D"dcB|"Em"A2E "A7"E2f|
+"D"d2F FGF|"A7"ABc "D"def|"G"edc "D"dcB|"D"A2F F2:|
+P:B
+d|"D"AGF AGF|"D"AGF "A7"ABc|"G"dcB "D"AGF|"Em"A2E "A7"E2B|
+"D"AGF AGF|"A7"ABc "D"def|"G"edc "D"dcB|"A7"A2E E2d|
+"D"AGF AGF|"D"AGF "A7"ABc|"G"dcB "D"AGF|"Em"A2E "A7"E2B|
+"D"AGF "A7"ABc|"D"def "A7"efg|"D"agf "A7"edc|"D"dAF D2||
+S:https://www.folktunefinder.com/tunes/65194
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

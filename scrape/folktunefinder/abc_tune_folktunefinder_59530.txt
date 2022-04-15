@@ -1,0 +1,32 @@
+X:643
+T:Rueda de la Fortuna
+T:Luz Eterna
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Romancero vulgar usado para el corro.
+A:Asturies
+Z:DyC en Teberga
+M:3/8
+L:1/8
+Q:3/8=56
+K:Fm
+|c c/c/c/d/|cFG|A2 B|c c2|B B/=A/c/B/|BAG|BAG|F2 c|
+|c2 d|cFG|A2 B|c c2|B B/=A/c/B/|BAG|BAG|F2 z|
+|G G/A/G/F/|=EG2|=EGE|(GF2)|B B/A/G/F/|c c2|dcB|(AF) c|
+|: c2 d|cFG|A2 B|c c2|B B/=A/c/B/|BAG|BAG|[1 F2 c :|[2F2 z|
+|G G/A/G/F/|=EG2|=EGE|(GF2)|B B/A/G/F/|c c2|dcB|(AF) c|
+|c2 d|cFG|A2 B|c c2|z B/=A/c/B/|BAG|BAG|F2 z|
+S:https://www.folktunefinder.com/tunes/59530
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

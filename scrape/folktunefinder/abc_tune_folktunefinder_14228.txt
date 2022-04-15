@@ -1,0 +1,32 @@
+X: 1
+T: Gigue \`a Am\'ed\'ee
+C: Alexandre B Caron
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://mustrad.udenap.org/partitions/TQ165.jpg
+M: 6/8
+L: 1/8
+K: G
+  d \
+| "G"gfg d2B | g2B d3 | gfg d2B | g2B "Am"c3  \
+| cdc A2f | "D7"d2f c3 | ddd dcA | "G"GGG GB :|
+  d \
+| "G"d3  "C"e3  | "G"dBd g3 | "Em"ggg gfe | "Am"dcc ccc \
+| "D7"c3  d3  | cAc f3 | e2d c2d | "G"B2G G3  |
+| "G"d3  "C"e3  | "G"dBd g3 | "Em"ggg gfg | "Am"aee e3  \
+| ede "D7"f2e | "G"dBd g3 | "D7"ddd def | "G"g3  g2 |]
+S:https://www.folktunefinder.com/tunes/14228
+S:http://mustrad.udenap.org/partitions/TQ165.jpg
+S:http://mustrad.udenap.org/partitions/TQ165.jpg
+S:http://trillian.mit.edu/~jc/music/abc/jig/GigueAAmedee_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GigueAAmedee_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/GigueAAmedee_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GigueAAmedee_G.abc
+% Rhythm Jig
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

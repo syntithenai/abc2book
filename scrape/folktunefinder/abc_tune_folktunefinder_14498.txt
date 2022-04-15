@@ -1,0 +1,23 @@
+X: 1
+T: Lady Home's Jig
+R: jig
+M: 6/8
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K: C
+d \
+|: "C"c2g- geg | gea g2e | ceg {a}gfe | "Dm"ded "G7"f2d \
+|  "C"c2g- geg | gea g2e | "F"f>ga "C"gfe | "Dm"ded "G7"f2d :|
+|: "C"c>dc cGc | cGc "G7"{cd}e2d | "C"cdc cGE | "Dm"DED "G7"e2d \
+|  "C"c>dc cGE | CDE cGE | "G7"FdF "C"EcE | "Dm"DED "G7"e2d :|
+S:https://www.folktunefinder.com/tunes/14498
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyHomesJ_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyHomesJ_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

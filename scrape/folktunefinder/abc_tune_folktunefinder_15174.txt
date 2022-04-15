@@ -1,0 +1,25 @@
+X: 1
+T: Todlen Hame
+B: RSCDS 16-6(I)
+M: 6/8
+L: 1/8
+K: D
+d/e/ \
+| "D"f>ed "G"B>cd | "D"A>Bd "A7"ede \
+| "D"f>ed "G"B>cd | "A7"A>Bd "D"d2 :|
+|: f \
+| "G"g>ag "D"f2f | "Em"e{f}gf "A7"e>de \
+| "D"f>ed "G"B>cd | "A7"A>Bd "D"d2 :|
+S:https://www.folktunefinder.com/tunes/15174
+S:http://trillian.mit.edu/~jc/music/abc/jig/TodlenHameJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/TodlenHameJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TodlenHameJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TodlenHameJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

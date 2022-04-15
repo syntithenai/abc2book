@@ -1,0 +1,25 @@
+X:213
+T: NUR LANGSAM VORAN
+N: Z0212
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied (1813 - 1815) , Landsturm
+M: 4/4
+L: 1/8
+K: C
+EF | G2GGG2c2 | cAAAA2
+FE | D2DDG2G2 | EFDEC2
+FE | D2D2D2EF | G2G2G2
+FE | D2D2D2EF | G2G2G2
+EF | G2GGG2c2 | cAAAA2
+FE | D2DDG2G2 | EFDEC2
+S:https://www.folktunefinder.com/tunes/69072
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten - lied (1813 - 1815) , landsturm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

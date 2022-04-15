@@ -1,0 +1,35 @@
+X:88
+T:Baille de Los Pollos (CT 366)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Los Pollos, transcrita en Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 366
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|GA Bc|d2 cB|A2 dd|
+d3 B|c2 BA|G2 AA|
+A3 F|G2 FE|D2 GG|
+G3 B|A2 GG|G2 z2||
+W:Las ventanas de mi cuarto,
+W:todas las cierra mi padre;
+W:tengo el amor carpintero:
+W:con facilidad las abre.
+W:
+S:https://www.folktunefinder.com/tunes/58975
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

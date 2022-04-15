@@ -1,0 +1,25 @@
+X:678
+T: Planxty O'Kelly
+C:Turlough O'Carolan
+B:O'Neill's 674
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Lively"
+N:First phrase is 10 bars.
+M:6/8
+L:1/8
+K:G
+| G2G G2A | B2c d2B | d2e f2g | {b}a2g {g}fed | b2a {a}g2f |
+| {a}g2f {f}e2d | e2f {a}g2e | dec BcA | G2g gaf | g3 g3 :|
+|: (G2g) g2z | (G2g) g2a | (g/a/b).a {a}g2f | {a}g2f {f}e2d |
+| e2f {a}g2e | dec BcA | G2g gaf | g3 g2z |]
+S:https://www.folktunefinder.com/tunes/73837
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

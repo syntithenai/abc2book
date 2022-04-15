@@ -1,0 +1,26 @@
+X:19
+T: FRISCH AUF MEINE KNAPPEN
+N: Z0020
+O: Europa, Mitteleuropa, Deutschland; Niederlande
+R: Sagen - Lied, Romanze, Ballade
+M: 4/4
+L: 1/16
+K: G
+G4 | _B4B4c4c4 | d8G4
+d4 | _e4d2d2c4A4 | _B2c2d2cBA6
+A2 | _B2d2d4c4A2A2 | G4=F2_E2D6
+D2 | =F2F2F4G4A4 | _B4c4
+G6A2 | _B2A2B2c2d4
+S:https://www.folktunefinder.com/tunes/68878
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

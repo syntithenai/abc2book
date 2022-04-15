@@ -1,0 +1,19 @@
+X:4
+T:Exemple (Nva)
+M:none
+L:1/8
+Q:1/4=120
+K:F
+%%MIDI program 111
+!koron!E/!=!/F/!koron!E/!=!F/!koron!E/!=!F/ G2 F<G F<G cc G z ||
+S:https://www.folktunefinder.com/tunes/53100
+S:http://anamnese.online.fr/iran/persianm.abc
+S:http://anamnese.online.fr/abc/persia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

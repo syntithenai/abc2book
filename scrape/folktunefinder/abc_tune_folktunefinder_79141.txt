@@ -1,0 +1,29 @@
+X:37
+T: HERR SCHMIDT WAS KRIEGT DENN ROESCHEN MIT
+N: E1033
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Tanz - Lied, Galopp - Walzer
+M: 2/4
+L: 1/16
+K: G
+B2 | d4z2B2 | d4z2
+Bc | d2B2e2d2 | c4z2
+A2 | c4z2A2 | c4z2
+AB | c2A2d2c2 | B4z2
+Bc | d2B2e2d2 | d2c2c2
+AB | c2A2d2c2 | c2B2B2
+Bc | d2B2e2d2 | d2c2c2
+AB | c2A2d2c2 | c2B2B2
+S:https://www.folktunefinder.com/tunes/79141
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, galopp - walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

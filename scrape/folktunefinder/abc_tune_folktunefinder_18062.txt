@@ -1,0 +1,27 @@
+X:2
+T:Sailor's Set On Shore
+O:John Taggart - New Hampshire Fiddlers' Union
+B:Stacy Phillips - Collection of Traditional American Fiddle Tunes, Vol. 1
+D:Front Hall Records FHR-204C (1992)
+R:Reel
+M:C|
+L:1/8
+K:Gm
+|: GA ||\
+ "Gm"BAGF DGGB | "F"AFcA "Bb"dF"F"cc | "Gm"BAGF DFGA | "F"BABc "Gm"dgga |
+ "Gm"bg"D"a^f gdd=e  | "F"fdcB AFFA  | "Gm"BAGF DFGA | Bd"D7"cA "Gm"BG :|
+|: GF ||\
+ "Gm"G2gd gagf | "F"F2fc fgfd | "Eb"E2g2 E2ga | "Gm"bg"F"af "Gm"d2ga |
+ "Gm"bg"D"a^f gdd=e  | "F"fdcB AFF2  | "Gm"BAGF DFGA | (3Bcd "D7"cA "Gm"BG :|
+S:https://www.folktunefinder.com/tunes/18062
+S:http://trillian.mit.edu/~jc/music/abc/reel/SailorsSetOnShore_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/SailorsSetOnShore_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

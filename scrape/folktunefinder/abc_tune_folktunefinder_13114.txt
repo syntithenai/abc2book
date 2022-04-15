@@ -1,0 +1,25 @@
+X: 1
+T: As Tears Go By
+C: Sir Mick Jagger, Keith Richards
+M: 4/4
+L: 1/8
+%%staffsep 45pt
+K: D
+|: "D"z2d2 e2f2 | "E"e2e2 B2d2 | "G"d4- dBd2 | "A"c8 \
+|  "D"z2d2 e2f2 | "E"e3e  B2d2 | "G"d4- dBd2 | "A"c8 |
+|1 "G"z2gg g2f2 | "A"e3e de3 | "D"z2f2 f2e2 | "Bm"d B7 \
+|  "G"z2b2 b2b2 | b3B c2d2 | "A"e4- eded | c4 z4 :|
+|2 "G"z2gg g2f2 | "A"e3e de3 | "D"z2f2 f2ed | "Bm"f3f ed3 \
+|  "G"z2b2 b2b2 | b3B c2d2 | "A"e4- eded | c4 z4 |]
+S:https://www.folktunefinder.com/tunes/13114
+S:http://trillian.mit.edu/~jc/music/abc/air/AsTearsGoBy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/AsTearsToBy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/AsTearsGoBy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/AsTearsToBy_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

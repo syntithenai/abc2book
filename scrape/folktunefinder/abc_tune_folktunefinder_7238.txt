@@ -1,0 +1,21 @@
+X: 1
+T: Od Yishoma #3
+O: Trad
+M: 2/4
+L: 1/8
+K: Gm
+| "Gm"(GFG)A | "Gm"B2 B>B | "D7"(BA)Bc | "Gm"(BA) G2 | "Gm"(GFG)A | "Gm"B2 B>B |
+S:https://www.folktunefinder.com/tunes/7238
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/OdYishoma3.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/OdYishoma3_w_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/OdYishoma3_w_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/OdYishoma3_w_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/OdYishoma3_w_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

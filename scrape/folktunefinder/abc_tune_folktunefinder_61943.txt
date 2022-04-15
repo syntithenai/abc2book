@@ -1,0 +1,53 @@
+X:9910
+T:Lothian Scottish
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:F
+C|"F"F\
+P:3
+E/2F/2 "C"GF/2G/2|"F"AG/2A/2 "Bb"BA/2B/2|"F"cc c/2d/2c/2A/2|\
+"Gm"BG "C7"G/2B/2A/2G/2|
+"F"FE/2F/2 "C"GF/2G/2|"F"AG/2A/2 "Bb"BA/2B/2|"F"cc "C7"c/2d/2c/2B/2|1\
+"F"AF "C7"F/2C/2D/2E/2:|2"F"AF "C7"F/2A/2
+P:3
+B/2=B/2||"F"\
+P:3
+c=B/2c/2 "Bb"dc|"F"A^G/2\
+P:3
+A/2 "Gm"BA|"C"G
+P:3
+^F/2G/2 AG|"G7"\
+P:3
+E^D/2E/2 "C7"=DC|"F"\
+P:3
+c=B/2c/2 "Bb"dc|"A7"A^G/2A/2 "D7"
+P:3
+BA|"G7"G^F/2G/2 "C7"c/2B/2A/2G/2|"F"AF F/2A/2\
+P:3
+B/2=B/2|"F"
+P:3
+c=B/2c/2 "Bb"d/2c/2B/2c/2|"F"A^G/2\
+P:3
+A/2 "Gm"B/2A/2G/2A/2|"C"G
+P:3
+^F/2G/2 A/2G/2F/2G/2|"G7"\
+P:3
+E^D/2E/2 "C7"=D/2E/2D/2C/2|\
+%  Couldn't find expected triplet here
+"F"c=B/2c/2 "Bb"d/2c/2B/2c/2|"A7"A^G/2
+P:3
+A/2 "D7"B/2A/2G/2A/2|"G7"G^F/2G/2 "C7"c/2B/2A/2G/2|"F"AF F||
+S:https://www.folktunefinder.com/tunes/61943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

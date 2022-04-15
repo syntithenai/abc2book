@@ -1,0 +1,25 @@
+X: 51
+T: Steamboat Quickstep
+C: J-28
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"g2d B2G| def g3| gfe dcB| "D7"Adc "G"BAG|
+   g2d B2G| def g3| gfe "E7"dcB| "D7"dcA "G"G3:|
+|:\
+"G"B2d ded| ded B2G| "C"c2e efe| efg "D7"d3|
+"G"B2d ded| ded B2G| gfe "E7"dcB| "D7"dcA "G"G3:|
+%%text 9/1/98.  Also known as "Washington Quickstep".
+S:https://www.folktunefinder.com/tunes/1873
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

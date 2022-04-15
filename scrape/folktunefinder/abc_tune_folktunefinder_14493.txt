@@ -1,0 +1,38 @@
+X:25
+T:the Lad's Dance
+T:the Land We Live In
+M:6/8
+A:North-West
+S:1760 Danish manuscript (Bast brothers)
+R:Jig
+Z:Richard Robinson <richard:beulah.demon.co.uk> tradtunes 2002-6-19
+%%RR_OriginalCollection: 
+%%RR_Export:Yes
+O:England
+%%ID:00/00/04/d7
+K:D
+B|\
+AFD DFD| DFA B2A| Bcd AGF| GEE E2B| \
+AFD DFD| DFA B2A| Bcd edc| d3 d2::
+g|\
+faf d2g| faf d2A| Bcd AGF| GEE E2g|\
+faf d2g| faf d2A| Bcd edc| d3 d2:|
+S:https://www.folktunefinder.com/tunes/14493
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadsDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/LandWeLiveIn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/LadsDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/LandWeLiveIn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LadsDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/LandWeLiveIn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadsDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LandWeLiveIn_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LadsDance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LandWeLiveIn_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

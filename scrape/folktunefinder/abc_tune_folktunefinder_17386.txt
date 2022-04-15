@@ -1,0 +1,30 @@
+X:1
+T:Shores of Loughrea
+T:Humours of Loughrea
+S:my version of Mike Rafferty's
+R:reel
+H:Loughrea is the town he is from.
+Z:Lesl
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+DE|G2GA BA~a2|bgag ezdB|G~G2A BAGE|ABAG EzDE|
+G~G2A BAaz|bgag egdB|G~G2A BAGE|ABag ezde||
+g{a}geg fdB/c/d|gzef gaba|ge~e2 edBd|egfd ~e3z|
+gbeg fdBd|gzef gaba|g~g2e az{b}ag|ea{b}ag egdB|G8||
+S:https://www.folktunefinder.com/tunes/17386
+S:http://trillian.mit.edu/~jc/music/abc/reel/HumoursOfLoughrea.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ShoresOfLoughrea.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HumoursOfLoughrea.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ShoresOfLoughrea.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

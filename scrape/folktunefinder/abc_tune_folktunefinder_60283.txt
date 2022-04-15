@@ -1,0 +1,31 @@
+X:4094
+T:deux amis,Les. CJF.088
+T:Les deux amis. CJF.088
+M:6/8
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:P J Headford 2000
+K:D
+"  $"A|d3-dec|d3-dec|(a2^g)(a2g)|(ba).g (ag).e|!\
+d3-dec|d3-dec|(ba).f (ag).e|d2" Fine"fd2h||!c/d/|e2ac'2a|
+a2^gb2b|ba^g fed|(d3c).A.A|!ABc def|\
+ea^g baf|eac edB|B3A||!\
+K:F
+b/a/|a2f age|d3Adf|
+(ag).g (gf).f|(fe).ee2a|!a2^c'd'2f|(ag).g bag|\
+fag fed|a3A/c/=B/d/^c/"  $"e/||
+S:https://www.folktunefinder.com/tunes/60283
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

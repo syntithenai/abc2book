@@ -1,0 +1,23 @@
+X: 1
+P: Hambopolska fran Hede
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"a2 (f>g) "(A)"e>f | "D"d2 A>f "(A)"e2 | "A7"a2 A2 c>e | "D"(gf) d2 (3(e/f/)g/ \
+|  "D"a2 (f>g) "(A)"e>f | "D"d2 A>f "(A)"e2 | "A7"a2 A2 c>e | gf "D"d4 :|
+|: "D"D2 F>A D>F | "G"G2 B>A "Em"G>B | "A7"A2 c>e A>c | "D"d2 f>e d>A \
+|  "D"D2 F>A D>F | "G"G2 B>A "Em"G>B | "A7"A2 c>e A>c | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8768
+S:http://trillian.mit.edu/~jc/music/abc/Scand/HedeP.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/HedeP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/HedeP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/HedeP.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

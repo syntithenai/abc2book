@@ -1,0 +1,23 @@
+X:012
+%%topmargin 3cm
+T:Neil Gow's
+C:D. Macintyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+.f | e<c{/g}ae {/g}fTf | e<c{/g}a>e {/g}f2 (fg) | a/2g/2f/2e/2 {/g}a>e fTg | {fg}a>fe<c A2A ::
+E | A<A {AB}c>A B<F~F>B | A<A c>e a>ef<a | e>ac<a B<F~F>g | a/2g/2f/2e/2 a<c A2 A :]
+S:https://www.folktunefinder.com/tunes/70757
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5002
+T:Earl's Chair, The
+R:Reel
+C:Trad.
+S:O'Neill's
+O:Ireland
+M:4/4
+L:1/8
+Q:1/8=260
+K:D
+A|"Bm"B2 dB BAFA|B2 dB BAFB|"D"AF F2 DF F2|AFdB ADFA|
+"Bm"B2Bd BAFA|B2 dB BAFB|"D"AFAB dcdf|"Em"edef "D"d3:|
+f|:"Em"e2e f "Bm"d2 (3Bcd|"Em"edef "Bm"dBAB|"Em"e2ef "D"d3e|"Bm"fedB "D"ADFA|
+"Em"e2e f "Bm"dBB2|"Em"gB B2 "D"defg|"Bm"afbf "D"afeg|"Bm"fedB "D"ADFA:|
+S:https://www.folktunefinder.com/tunes/50949
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

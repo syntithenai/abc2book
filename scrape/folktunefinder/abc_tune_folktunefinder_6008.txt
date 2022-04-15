@@ -1,0 +1,24 @@
+X: 1
+T: Seven Jumps
+Z: John Chambers <jc@trillian.mit.edu>
+W: Repeat the last bar one more time each round.
+M: 4/4
+L: 1/8
+K: G
+[| "D7"HD4 \
+|| "G"GABc d2Bd | "D7"c2Ac "G"B2BA | "G"GABc d2Bd | "D7"cAFA "G"G2z2 ||
+|| "D".A2 .A2 A2- AB | "A7"AGFE "D"DEFG | "D".A2 .A2 A2- AB | "A7"AGFE "D"D2z2 ||
+[| "D7"Hd3 "G".B2 |]
+S:https://www.folktunefinder.com/tunes/6008
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SevenJumps.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/SevenJumps.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/SevenJumps.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/SevenJumps.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+S:https://www.folktunefinder.com/tunes/19520
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MayYarkersStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MayYarkersStrathspey_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MayYarkersStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MayYarkersStrathspey_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MayYarkersStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MayYarkersStrathspey_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MayYarkersStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MayYarkersStrathspey_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

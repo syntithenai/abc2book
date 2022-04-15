@@ -1,0 +1,17 @@
+X: 3
+P: The Dala March
+O: 
+M: 2/4
+L: 1/16
+K: C
+|: "C"G2E2 CEGc | e2c2 ~c2Bc | "G7"d2dB G2AB |1,3 "C"c2BA "G7"GFED :|2,4 "C"cd"G7"cB "C"Hc4 :|[K:F]
+|: "F"F2AA F2AA | F2d2 c2=Bc | "C7"d2E2 c2E2 |1,3 "F"FEFG A2F2 :|2 "F"F2F2 F4 :|4 "F"F2"D7"^F2 "G7"G4 |]
+S:https://www.folktunefinder.com/tunes/9266
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Snoa01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

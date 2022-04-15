@@ -1,0 +1,25 @@
+X:321
+%%topmargin 3cm
+T:Ca' the Stirks frae out the Corn
+C:Very old.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+a | A/A/A B>A Bd {/^f}e2 | d>gB>g A>G TE2 | (D<G)B>G A>GB>G | D/D/D (E>G) TB>AA ::
+g | (Ta>b)a<g (b>a) Ta2 | {/^f}g>a{/a}b>a {/f}g>e{/^c}d>e | {/^f}g>age {/^c}d>e {/f}g2 | e>gd>g B>AA :|
+S:https://www.folktunefinder.com/tunes/71350
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Ca_the_Stirks_frae_out_the_Corn.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0321.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

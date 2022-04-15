@@ -1,0 +1,28 @@
+X:1910
+T:Galician Jig
+A:Galicia
+M:6/8
+O:Spain
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d24.html
+%%ID:00000d24
+K:A
+agf efg | aga f2e | fed cde | dcB c2A |
+agf efg | aga f2e | fed cde | dcB A3 ::
+cdc ABc | c2B- B2 c|  ded Bcd | f2e-e2 d|
+cdc ABc | c2B- B2 e| efe dcB | A3-A2 ::
+K:Am
+e| \
+edc Bcd | f2e-e2 e| e2c d2c | B3-B2B|
+BcB ABc | f2e-e2 e| efe dcB | A3-A2 :|
+S:https://www.folktunefinder.com/tunes/36461
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:503
+T: GUT GSELL UND DU MUSST WANDERN
+N: E0473
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+d2 | d2B2c2d2 | e2dec2
+e2 | d2B2c2A2 | BcBAG2
+B2 | A2F2G2E2 | FGFED2
+B2 | A2G2G2F2 | G6
+B2 | c2ABc2B2 | A3GA2
+B2 | c2A2A3^G | A6
+AG | FGFED2dc | BcBAG2
+B2 | A2G2G2F2 | G6
+S:https://www.folktunefinder.com/tunes/78944
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

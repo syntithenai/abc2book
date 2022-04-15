@@ -1,0 +1,27 @@
+X: 23
+T: Polska mot tr\"otthet
+R: Bingsj\"o-polska
+O: efter Hj\"ort Anders & Viksta Lasse
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: "D"D2(DF) (AF)(DF) A2(AG) | "Em"E2(EG) (BG)(EG) B2~B2 \
+| "A7"A2(Ac) (ec)(Ac) e2(ec) | "D"A2(Ad) (fe)(dB) "(A7)"(AG)(FE) |
+|  "D"D3F A2F2 A2~B2 | "G"[G4G,4] (Bd)BG B2{c}d2 \
+| "A7"A2(Ac) e2(eg) ~f2(ed) | (cd)ec "D"~d8 :|
+|: "D"a3f d2(df) a2b2 | "A7"~g3e ~c2e2 ~g2a2 \
+| "D"{A}~f3e d2e2 (~f2a2) | "A7"(ef)ed (cd)ec A4 |
+| "D"~a3f d2f2 a2{a}b2 | "A7"g3f e2(ef) ~g2a2 \
+| "D"{A}~f3e d2de (fa)fd | "A7"egec "D"d8 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8058
+S:http://trillian.mit.edu/~jc/music/abc/Scand/BingsjoPolska.abc
+% Rhythm Bingsjo?-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

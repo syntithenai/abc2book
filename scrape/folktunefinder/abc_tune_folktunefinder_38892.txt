@@ -1,0 +1,25 @@
+X:17521
+T:Tobin's Favourite
+R:jig
+C:Trad, arr Phil Rowe
+S:Nottingham Music Database
+M:6/8
+L:1/8
+K:D
+|:"D"DFA dcd|"A7"ecA cde|"D"fef "G"gfg|"A"ecA "A7"GFE|
+"D"DFA dcd|"A7"ecA cde|"D" (4fgaf "A7"gec|1 edc "D"dFE:|2 edc "D"dfe|
+|:dfa agf|"A" (4efge "A7"efg|"D"fef "G"gfg|"A"ecA "A7"GFE|
+"D"DFA dcd|"A7"ecA cde|"D"fga "A7"gec|edc "D"d2z:|
+S:https://www.folktunefinder.com/tunes/38892
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

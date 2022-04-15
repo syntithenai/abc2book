@@ -1,0 +1,23 @@
+X:6192
+T:Spaniard     %Tune name
+C:1777     %Tune composer
+Q:1/4=120     %Tempo
+O:England
+M:6/8     %Meter
+L:1/8     %
+K:G
+"G"G3 D3 | "Em"B3 G3 | "G"BAB "D"c2 A | "Em"B3 G3 | "Bm"d3 "C"c3 |
+"G"B3 "D"A3 | "C"G3 "D"A2 F | "G"G3 G3 :: "Em"b3 bag | "Am"a2 f "Em"g2 e |
+"G"d3 dcB | "D"c2 A "Em"B2 G | "Bm"b3 bag | "Am"a2 f "Em"g2 e | "G"d3 dcB |
+"D"c2 A "G"G3 :|
+S:https://www.folktunefinder.com/tunes/26644
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

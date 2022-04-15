@@ -1,0 +1,21 @@
+X:2
+T:spanish jig
+Z:Neil Brookes <neil:brookes36.freeserve.co.uk> tradtunes 2004-6-30
+M:6/8
+K:G
+ABc d2 d|cBA G3|ABcd2e|c2d B2G|ABc d2 d|cBA GAB|c2B ABc|BAB G3:||
+Bcd e2 e|edc B3| e2d c2B|ABc d3|Bcd e2 e|edc B3| e2d c2B|ABA G3:||
+def g2 B|BAG A3|def g2 B|AGA B2 G|def g2 B|BAG A3|def g2 B|ABA G3:||
+S:https://www.folktunefinder.com/tunes/15099
+S:http://trillian.mit.edu/~jc/music/abc/jig/SpanishJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Spanish_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SpanishJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Spanish_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

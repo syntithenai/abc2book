@@ -1,0 +1,25 @@
+X:273
+%%topmargin 3cm
+T:Dunie Mains
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+(e/f/) | {/f}g<dTd>c B<GG>B | A<aTa>g (f/g/)(a/f/) {/^c}d(e/f/) | {/f}g<dTd>c B<GG>B | E>A (G/F/)(E/D/) {/F}G2 G ::
+D | GGB>G F<AA>B | GGB>d {/f}g>dB>d | {/B}c>A (c/B/)(A/G/) (F<A)A>B | E>A (G/F/)(E/D/) {/F}G2 G :|
+S:https://www.folktunefinder.com/tunes/71302
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Dunie_Mains.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0273.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

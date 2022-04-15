@@ -1,0 +1,31 @@
+X:607
+T:Pasucis del Xarreru (MG 11) (Arrg.)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 11
+M:6/8
+L:1/8
+Q:1/4=120
+E:Nivel 1
+K:C
+C2 D|:"C"~E2E "C"~EDE|"F"F3- "F"FB,C|"G"~DB,C "Dm"~DCD|
+"C"~E2E "C"C2D|"C"~E2E "C"EDE|"F"F3 "Dm"DEF|"C"G~AG "Dm"FE~D|
+[1 "C"C3 "C"C2D:|[2 "C"C3- "C"C2G||:"C"~GEG "C"~GEG|"F"~A2F "Dm"~DEF|
+"Dm"~DEF "Dm"~DEF|"C"~G2E "C"~G2E|"C"~G2E "C"~GEG|"F"~A2F "Dm"~DEF|
+"C"G~AG "Dm"FED|[1 "C"C3-"C"C2G:|[2 "C"C3
+S:https://www.folktunefinder.com/tunes/59494
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Pasucis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

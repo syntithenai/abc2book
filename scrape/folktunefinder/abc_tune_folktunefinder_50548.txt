@@ -1,0 +1,45 @@
+X: 40
+T:Flying Pieman
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:Em
+T:Morrison's Jig
+"Em"E2E B2B|E2E "D"AFD|
+"Em"E2B E2B|"G"dcB "D"AFD|
+"Em"E2E B2B|E2E "D"AFD|
+"G"GAG "D"FGA|"G"d3z2||
+T:Irish Washerwoman
+K:G
+d/2c/2|"G"BGG DGG|BGB dcB|"Am"cAA DAA|cAc edc|
+"G"BGG DGG|BGB dcB|"Am"cBc "D"Adc|"G"BGG G2::
+d|"G"gfg GBd|gfg bag|"D"fef FAd|fef agf|
+"C"egg "D"dgg|"C"cgg "G"Bgg|"C"cBc "D"Adc|
+1 "G"BGG G2:|2 "G"BGG Gz2||
+T:Morrison's Jig
+K:Em
+"Em"E2E B2B|E2E "D"AFD|
+"Em"E2B E2B|"G"dcB "D"AFD|
+"Em"E2E B2B|E2E "D"AFD|
+"G"GAG "D"FGA|"G"d2z "D"Az||
+T:Haste to the Wedding
+K:D
+A|"D"AFA Agf|"G"ede "D"fdB|AFA AFD|"A"EFE E2A|
+"D"AFA Agf|"G"ede "D"fdB|A2g "A"faf|ded d2::
+a|"D"afa afa|"G"bgb bgb|"D"afa agf|"A"gfg efg|
+"D"a3 ~f3|"G"ede "D"fdB|A2g "A"faf|ded d2:|
+S:https://www.folktunefinder.com/tunes/50548
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

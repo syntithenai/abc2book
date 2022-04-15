@@ -1,0 +1,24 @@
+X:1805
+T:Flitter Dance
+L:1/8
+M:2/4
+O:Isle of Man
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000070b.html
+%%ID:0000070b
+K:A dorian
+cA Ae | cA AB/c/ | d>c BA | GB E2 |\
+cA Ae | cA AB/c/ | d>c BG | A4 A4 :|
+|:\
+ce ef/g/ | ae ef/g/ | ae ed | ce B2 |\
+ce ef/g/ | ae ef/g/ | ae dc B2A2 :|
+S:https://www.folktunefinder.com/tunes/36440
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

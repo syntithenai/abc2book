@@ -1,0 +1,36 @@
+X: 3
+T: Glenn Towle
+R: march
+C: Dudley Laufman
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Dudley & Jacqueline Laufman <laufman@totalnetnh.net>
+B: Published in HERE'S TO EVERY COUNTRY DANCER, available from CDS or Dudley.
+M: 2/4
+L: 1/8
+K: G
+|: "G"G>A BB | "C"c/B/A "G"G2 | "D7"F>G AB | c2 BA \
+|  "G"G>A BB | "C"c/B/A "G"G2 | "D7"FG AF | "G"G2 D2 :|
+|: "G"B>c dd | "C"ed cB/c/ | "D7"dc BA/B/ | "D7"cB AD \
+|  "G"B>c dd | "C"ed cB/c/ | "D7"dc BA | "G"G2 G2 :|
+|: "G"B3 c | "D7"d2 c2 | "G"B2 "D7"A2 | "G"G4 \
+|  "G"B3 c | "D7"d2 c2 | "G"B4 | "D7"A4 |
+|  "G"B3 c | "D7"d2 c2 | "G"B2 "D/F#"A2 | "Em"G2 AB \
+|  "Am"c2 "G"B2 | "Am"A2 "G"G2 | "D7"F4 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/3923
+S:http://trillian.mit.edu/~jc/music/abc/England/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/MarketLass.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MarketLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/MarketLass.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/MarketLass
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

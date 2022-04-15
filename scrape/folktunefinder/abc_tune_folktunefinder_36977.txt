@@ -1,0 +1,33 @@
+X:4490
+T:Poll Ha'penny
+B:O'Neil
+M:4/4
+N:This version interestingly different from O'N
+O:Ireland
+R:Set Dance
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c79.html
+%%ID:00000c79
+K:A mixolydian
+AB|\
+=cA AG A2 (3ABc | (3dcB (3AGF G2 cd | \
+ed cA dc AG | A2 AG A2 de | \
+f3d e3c | d2 cd ef (3gfe |
+ag fd cA (3GAB | A2 AG A2 :: \
+ef |\
+g2 ga gf ef | gf ga (3gfe fd |
+ef ag a2 ag | ef ag a2 ag |\
+f3d e3c | d2 cd ef (3gfe | \
+ag fd cA (3GAB | A2 AG A2 :|
+S:https://www.folktunefinder.com/tunes/36977
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

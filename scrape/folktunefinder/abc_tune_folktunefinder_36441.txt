@@ -1,0 +1,26 @@
+X:1810
+T:Flowers of Edinburgh
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000845.html
+%%ID:00000845
+K:G
+GE|\
+D2DE G2GA | BGBd cBAG    | FGFE DEFG | AFcF E2GE |
+D2DE G2GA | BABd ef(3gfe | dcBA GFGA | B2G2 G2::
+Bd|\
+g2g2 gbag | f2fe fagf | edef gfed | B2ed e2ge |
+dBGB d3d  | edef g2fe | dcBA GFGA | B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/36441
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

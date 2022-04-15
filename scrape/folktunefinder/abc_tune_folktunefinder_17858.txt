@@ -1,0 +1,24 @@
+X: 1
+T: PETER STREET
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.18
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: A
+|: "A"A2((3cBA) eA((3cBA) | eAaA "D"gAfA | "A"eA((3cBA) eAfA | "E7"BEcE    dEBE |
+   "A"A2((3cBA) ec((3cBA) | eAaA "D"gAfA | "A"efec      eaec | "E7"BABc "A"A4  :|
+|: "E"E2((3GFE) BE((3GFE) |    BEdE    cEBE | "A"A2((3cBA) eA((3cBA) |     eAaA "D"gAfA  |
+   "A"edec   "D"agaf      | "A"edec "D"agaf | "A"ecag      fedc      | "E7"BAGF    EFGE :|
+S:https://www.folktunefinder.com/tunes/17858
+S:http://trillian.mit.edu/~jc/music/abc/reel/PeterStreet_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PeterStreet_A.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/PeterStreet_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

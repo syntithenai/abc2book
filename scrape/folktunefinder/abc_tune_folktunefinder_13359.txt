@@ -1,0 +1,19 @@
+X: 1
+T: America the Beautiful
+C: S.A.Ward
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+G2 | "C"G3 E E2 G2 | "G"G3 D D2 E2 | "G7"F2  G2     A2 B2 |  "C"G4 "G7"z2 ||
+G2 | "C"G3 E E2 G2 | "G"G3 D D2 d2 | "A7"^c2 d2     e2 A2 | "D7"d4 "G7"z2 ||
+G2 | "C"e3 e d2 c2 | "G"c3 B B2 c2 | "G7"d2  B2     A2 G2 |  "C"c4 "C7"z2 ||
+c2 | "F"c3 A A2 c2 | "C"c3 G G2 G2 | "Dm"A2  c2 "G7"G2 d2 |  "C"c4     y2 |]
+S:https://www.folktunefinder.com/tunes/13359
+S:http://trillian.mit.edu/~jc/music/abc/anthem/AmericaTheBeautiful_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

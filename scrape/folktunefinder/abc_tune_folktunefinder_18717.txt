@@ -1,0 +1,24 @@
+X: 1
+T: Flickan i Havana
+O: Sweden
+M: 2/4
+L: 1/8
+K: D
+| "D"D>E FF | "Em"(EF) G2 | "A7"C>D EE | "D"DE F2 \
+| "D"D>E FF | "Em"(EF) G2 | "A7"C>D EF | "D"D3 z ||
+|: "D7"F>G AA | "Em"GA B2 | "A7"E>F GG | "D"FG A2 \
+| "Bm"D>E FF | "Em"EF  G2 | "A7"C>D EF | "D"D3 z :|
+S:https://www.folktunefinder.com/tunes/18717
+S:http://trillian.mit.edu/~jc/music/abc/song/FlickanIHavana_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/FlickanIHavana_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/song/FlickanIHavana_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/song/FlickanIHavana_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Sweden/song/FlickanIHavana_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

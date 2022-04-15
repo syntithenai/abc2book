@@ -1,0 +1,28 @@
+X: 100
+T:Small Coals. JMT.096
+M:4/4
+L:1/8
+Q:200
+S:J.Moore,Tyneside,1841.(68a)
+R:Reel
+O:England
+A:Northumbria
+N:"....and little money"
+Z:vmp.Chris Partington
+K:G
+E2BE GABd|D2AD FGAc|E2BE GABd|gfed eEE2:|!
+||edefg2fe|"sic"cdef fafd|edefg2f-e|efed eEE2|!
+edefg2fe|defg fafd|"*"gbfe fafd|efed eEE2|]
+%extra g,b,f,d here in MS, presumed error.
+S:https://www.folktunefinder.com/tunes/52862
+S:http://www.village-music-project.org.uk/abc/jmooret.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:Portsmouth Winder
+M:2/4
+L:1/8
+S:Ray Hilt (Rounder Heritage 1166-11592-2)
+Z:AK/Fiddler's Companion (tradtunes 2002-9-3)
+K:D
+| [df].d [df].d | [d/f/]d/B/A/ FA | Ae [Ae]>f | ge c/B/A \
+| [df].d [df].d | [d/f/]d/B/A/ FA | [A,E][A,/E/][A,/E/] CE | D>E D2 :|
+|: AF AF | A/A/d/B/ AF | .A,.E .C.E | A>B AF/G/ \
+| AF AF | A/A/d/B/ AF | .A,.E .C.E | D4 :|
+S:https://www.folktunefinder.com/tunes/17888
+S:http://trillian.mit.edu/~jc/music/abc/reel/PortsmouthWinder_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/PortsmouthWinder_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/PortsmouthWinder_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/PortsmouthWinder_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 2
+P: Timmy Clifford's
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+|: DB, \
+| "G"G,>B,D "C"E2D | "D7"EGF "G"GDB, | "G"G,>B,D "C"C2B | "D"AGF "G"G3 | "G"G,>B,D "C"E2D |
+| "D7"EGF "G"GAB | "G"d3 B3 | "D"AGF "G"G :: Bd | "C"e>fe "G"d2B | BAG GBd | "C"e>fe "G"d2B |
+| BAG "D"A>gf | "C"e>fe "G"d2B | BAG GAB | "C"c3 "G"B3 | "D"AGF "G"G |]
+S:https://www.folktunefinder.com/tunes/3784
+S:http://trillian.mit.edu/~jc/music/abc/England/HasteToTheWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/HasteToTheWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/HasteToTheWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/HasteToTheWedding.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/HasteToTheWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/HasteToTheWedding.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/HasteToTheWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/HasteToTheWedding.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/HasteToTheWedding
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

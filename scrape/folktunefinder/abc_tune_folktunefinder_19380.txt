@@ -1,0 +1,27 @@
+X: 1
+T: Greig's Pipes
+C: Neil Stewart (1761)
+R: strathspey
+N: Also played as a reel
+M: 4/4
+L: 1/8
+S: O'Farrell's Pocket Companion 1804-10
+R: Reel
+K: D
+f/g/ | "D"a>d f>d a>d f>b | a>d f>d "Em"ed f>d a<d f>d | "Em"e/e/e f>d "A7"e<B B2 :|
+|: e | "D"f>d f>d f<d d>e | f>d f>d "Em"ee   | "D"f>d f>d A<d f>d | "Em"e/e/e f>d "A7"e<B B2 :|
+|: d | "D"A>D F>D A<D D>d | A>D F>D "Em"B<E "A7"E>d      | "D"A>D F>D A<D   F>D | "G"G>B "D"F>A "Em"G<E "A7"E :|
+|: c | "D"d>e d>A F<D D>c | d/c/B/A/ d>A "Em"B<E "A7"E>c | "D"d>e d>A F/G/A F>D | "G"G>B "D"F>A "Em"B<E "A7"E :|
+S:https://www.folktunefinder.com/tunes/19380
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Greigs_Pipes_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Greigs_Pipes_D.abc
+% Rhythm Strathspey
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

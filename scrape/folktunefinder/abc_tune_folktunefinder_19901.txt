@@ -1,0 +1,27 @@
+X:1
+T:Exile of Cork
+R:waltz
+S:From the playing of Jim Coogan
+B:Jim Coogan's Session Tunes
+Z:Music: Jean Lewis
+Z:abc's: Michael Hogan <MHogan2001@AOL.COM> itrad-l 2000-08-13
+M:3/4
+L:1/4
+K:D
+|: D/F/ A/ | ded | cE>F | G>A c/B/ | A2 D/F/ | ABA/D/ | F2 E/F/ | AGF | E>D F/A/ |
+ded | c2 B/c/ | dcB | A2 D/F/ | AB A/D/ | F2 E/D/ | F2E | D>D F/A/ ||
+ded | c>c B/c/ | dcB | A2 D/F/ | AB A/D/ | F2 E/F/ | A2G | F>D F/A/ |
+ded | c>c B/c/ | dcB | A2 D/F/ | AB A/D/ | F2 E/D/ | F2E | D3 ||
+S:https://www.folktunefinder.com/tunes/19901
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ExileOfCork.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/ExileOfCork.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/waltz/ExileOfCork.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

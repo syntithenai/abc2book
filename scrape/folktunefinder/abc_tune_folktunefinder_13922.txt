@@ -1,0 +1,31 @@
+X: 1
+T: Bonnets So Blue
+O: England
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Karpeles & Schofield p.4 (in C), p.41 (in D)
+B: Barnes II p.14 (in C)
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"c>dc efg | "(G)"G>AG "G7"GAB | "C"c>eg gec | "G7"d2e gfd \
+| "C"c>dc efg | "G7"G>AG G2g | g>fe dcB | "C"c3- c2 ||
+|| c \
+| "G"B>cd ded | G3- G2c | "G7"B>cd def | "(C)"g3- g2f \
+| "C"e2d c2B | "Am"A2B c2d | "E7"e>fe dcB | "Am"A3- "(G7)"A2 ||
+|| G \
+| "C"c>dc efg | c2c "G7"GAB | "C"c>eg "Am"gec | "Dm"d>ed "G7"d2G \
+| "C"c>dc efg | "G7"G>AG G2g | "(C)"g>fe "G7"dcB | "C"c3- c2 |]
+S:https://www.folktunefinder.com/tunes/13922
+S:http://trillian.mit.edu/~jc/music/abc/jig/Bonnets_So_Blue_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Bonnets_So_Blue_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

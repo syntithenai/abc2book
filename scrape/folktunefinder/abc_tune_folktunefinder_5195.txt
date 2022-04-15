@@ -1,0 +1,20 @@
+X: 148
+T: Das Sternlein (Eb)
+C: David Schonfeld
+N: Yet another variant of Twinkle Twinkle Little Star
+M: 23/44
+L: 1/4
+K: Eb
+|: "Eb"E E |     B2 B | "Ab"c c | "Eb"B2 B |"Bb7"A A | "Eb"G "Cm"G | "Fm"F "Bb7"F | "Eb"E2 z :|
+[| "Eb"B B |"Bb7"A2 A | "Eb"G G |"Bb7"F2 F | "Eb"B B |"Bb7"A     A | "Eb"G      G |"Bb7"F2 F ||
+|| "Eb"E E | "E7"B2 B | "Ab"c c | "Eb"B2 B |"Bb7"A A | "Eb"G "Cm"G | "Fm"F "Bb7"F | "Eb"E2 z |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5195
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

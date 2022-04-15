@@ -1,0 +1,26 @@
+X:2
+T: Mach auf mein Schatz, mein goldne Pfort,
+N: D0002
+O: Europa, Mitteleuropa, Lothringen, Altripp
+N: Inzipit = Variante zum Lied
+R: Tage - Lied, Kiltlied
+M: 4/4
+L: 1/16
+K: G
+D2 | D2G2G2F2G6A2 | _B2A2G4A6
+G2 | =F4A2A2G4D2E2 | =F4E4D4z2
+d2 | d2c2d2dc_B6c2 | d2_e2d2c_BA6
+G2 | G2=F2G2A2_B2c2d2c2 | _B4A4G4z2
+S:https://www.folktunefinder.com/tunes/72459
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Tage - lied, kiltlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

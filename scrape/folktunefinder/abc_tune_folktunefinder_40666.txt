@@ -1,0 +1,24 @@
+X:54
+T:Rhif Wyth 
+R:hornpipe
+D:Cilmeri
+Z:Lesl
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+(3DEF|G2d2 cBAG|cBcd c2BA|G2d2 cBAG|ded^c dGBA|
+G2d2 cBAG|edef g2fe|dBGB cAFA|G2GF G2:||
+|:(3DEF|gdBd gfed|cege cege| ae^ce ae^ce|(3ded (3cdc (3BcB A2|
+gdBd gfed|edef g2fe|dBGB cAFA|G2GF G2:||
+S:https://www.folktunefinder.com/tunes/40666
+S:http://jodeejames.home.att.net/desertwelsh2HY.htm
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

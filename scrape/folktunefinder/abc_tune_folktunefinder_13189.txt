@@ -1,0 +1,33 @@
+X:678
+T:Great Is the Cause of My Sorrow
+T:Murt Ghlinne Comhann
+T:The Lament for Glencoe
+D:Whistlebinkies 2, 1980
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+K:Cm
+   c2c c>Bc | e3 e3   |    f2f        f>ec | c>BG B3  |
+   a2a g>fg | b3 g2c  |    cf2        f2 e | c3   c2c |
+{c}a2a g>fg | b3 g2f  |    g>fe       f<gd | c3-  c2d |
+   e2c c>BA | G3 E2g  | {a}b>gf       e2 d | c3-  c3 ||
+   c2c c>Bc | e3 e3   |    f2f        f>ec | c>BG B3  |
+   A2A G>FG | B3 B,2C | {C}F3         F2 E | C3   C3  |
+   A2A G>FG | B3 G2F  | {F}G2 F/E/ {F}G2 B,| C3   C2d |
+   e2c c>BA | G3 E2G  |    B>GF       E2 D | C3   C3 |]
+S:https://www.folktunefinder.com/tunes/13189
+S:http://trillian.mit.edu/~jc/music/abc/air/GreatIstheCauseofMySorrow_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/LamentforGlencoe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/MurtGhlinneComhann_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/GreatIstheCauseofMySorrow_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/LamentforGlencoe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MurtGhlinneComhann_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/GreatIstheCauseofMySorrow_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/LamentforGlencoe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MurtGhlinneComhann_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

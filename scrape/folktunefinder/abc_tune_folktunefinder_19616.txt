@@ -1,0 +1,27 @@
+X: 1
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"D>B G>d B>g "C"e>c | "D7"dd "G"G2- G ||
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"(3DGD "C"C>G "G"B,>G "Am"A,>e | "D7"dd "G"G2- G |]
+f | "G"g>e "D7"f>d "C"e>d "G"B>e |    dG "C"E3  f  \
+  | "G"g>d  "C"e>c "G"d>B "C"g>e | "G"dd "G"G2- G ||
+f | "G"(3gfe "D7"(3fed "C"(3edc  "G"B>e  |     dG "C"E2- EG \
+  | "G"(3DGD  "C"(3CGC "G"B,GB, "Am"A,>e | "D7"dd "G"G2- G |]
+S:https://www.folktunefinder.com/tunes/19616
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/OorAuldGuidmanIsNooAwa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/OorAuldGuidmanIsNooAwa_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/OorAuldGuidmanIsNooAwa_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

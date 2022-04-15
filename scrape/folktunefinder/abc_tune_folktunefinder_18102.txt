@@ -1,0 +1,29 @@
+X: 1
+T: Sheepskin and Beeswax
+O: Qu\'ebec
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed page from Debby Knight
+N: Debby wrote: This tune comes from the community of Valcartier, a bit northwest of
+N: the city of Quebec. That area is populated by many families of Irish descent, and
+N: this piece is a well-known part of the repertoire from the Corrigan family.
+M: 2/4
+L: 1/16
+K: Ador
+|: EAA(A BG)GB | AFA(a gf)ef | gefd efed | Bee(d (3BdB) A2 :|
+|: aAa(b af)ga | bagf  edef  | gefd efed | Bee(d (3BdB) A2 :|
+S:https://www.folktunefinder.com/tunes/18102
+S:http://trillian.mit.edu/~jc/music/abc/reel/SheepskinAndBeeswax_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/r16/SheepskinAndBeeswax_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/SheepskinAndBeeswax_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

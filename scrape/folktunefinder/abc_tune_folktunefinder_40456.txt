@@ -1,0 +1,20 @@
+X:100
+T:Mason's Apron, The
+R:reel
+M:4/4
+Q:1/4=220
+K:A
+aAAA ABAF|EFAB cABc|dBBB BcBA|Bcde fefg|
+aAAA ABAF|EFAB cABc|dcde fefg|1 afec Bc A2 :|2 afed cB A2|
+|:c2ec fcec|c2ec fcec|d2fd gdfd|d2fd gdfd|
+c2ec fcec|c2ec fcec|dcde fefg|1 afec Bc A2 :|2 afed cB A2|
+S:https://www.folktunefinder.com/tunes/40456
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:25
+T:Sunny Banks, The
+S:John Walsh <walsh@MATH.UBC.CA>, irtrad-l, 4/94
+E:8
+R:reel
+I:speed 350
+M:C|
+K:D
+B|AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA|BdAG FDDB|AF~F2 d2 cA|
+(3Bcd AF~G3 B|AF~F2 d2 cA BdAF D3 ||
+e|f2 ed cA ~A2|fdef g2 ag|f2 ed cA~A2|(3Bcd AG FD ~D2|f2 ed cA ~A2|
+fdef g2ag|fded cA~A2|BdAG FD ~D2||
+S:https://www.folktunefinder.com/tunes/45874
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/oneil/celt3.abc
+S:http://www2.redhawk.org:8080/irish/oneil/celt3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

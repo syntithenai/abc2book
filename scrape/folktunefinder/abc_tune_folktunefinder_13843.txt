@@ -1,0 +1,36 @@
+X:1
+T:Beauties of the Ballroom
+C:Trad.
+S:Jerry Holland's First Collection
+Z:Steve Wyrick  2004-10-31 scots-l
+M:6/8
+R:Jig
+N:from Master Cape Breton Fiddler, 1982
+K:Am
+|: efe edc | BcA ^G2E \
+| ABc TdBG |1 A3 Acd \
+:|2 A3 A2 |: B | c2 c' c'ba |
+| gea Tg2e | TcBc age \
+| dec TB2 G | TcBc dcd \
+| edc BAG | Afe dcB \
+|1 A3 A2 :|2 A3 {e}"o"a3 ||
+|: A,B,A, A,B,D | E3 {E^F}G3 \
+| G,A,G, G,2B, | {B,C}D3 {D}E3 \
+| A,B,A, A,B,D | E3 {^FG}A3 \
+| (4G^FED {F}G2B, |1 A,3 {^FG}A3 :|2 A,3 A,2 |]
+S:https://www.folktunefinder.com/tunes/13843
+S:http://trillian.mit.edu/~jc/music/abc/jig/Beauties_of_the_Ballroom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Beauties_of_the_Ballroom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Beauties_of_the_Ballroom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Beauties_of_the_Ballroom_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

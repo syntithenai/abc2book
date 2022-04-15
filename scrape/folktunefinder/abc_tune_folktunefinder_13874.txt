@@ -1,0 +1,30 @@
+X: 1
+T: the Binghamton Bounce
+C: Mike Briggs, 2006
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+B \
+| "C"c2E e2c | "G7"Bcd "C"c2e \
+| "Dm"f2e "D7"d2c | "G7"Bcd G2B \
+| "C"c2E e2c | "G7"Bcd "C"c2e \
+| "Dm"fed "G7"Bcd | "C"c2e c2 |]
+|: g \
+| "C"gec "C7/Bb"Gce | "F/A"fga "G7"d2f \
+| "C"gec Gce | "D7/F#"dcA "G"G2G \
+| "F"A2F cBA | "C"G2E edc |
+| "G"B2G "D7"edc | "G"BAG "C7"G2G \
+| "F"A2F cBA | "C/E"G2E "C"edc \
+| "G"B2G "G7/B"d2B | "C"c2e c2 :|
+S:https://www.folktunefinder.com/tunes/13874
+S:http://trillian.mit.edu/~jc/music/abc/jig/BinghamtonBounce_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BinghamtonBounce_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

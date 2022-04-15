@@ -1,0 +1,27 @@
+X:75
+T: Seckauer Jodler
+N: D0079A
+O: Europa, Mitteleuropa, Deutschland, Niederbayern
+N: Unterstimme notiert, ergaenzt die Skala zu Pentatonik; Inzipit =
+N: Transposition zum Lied; DVA - Signatur 79A; KEINE Variante zum
+N: vorhergehenden Lied !
+R: Jodler
+M: 3/4
+L: 1/16
+K: C
+G3E | G3ed2d2G3G | E2G2c4z3
+E | G3ed2d2G3G | E2G2c4z3
+E | G3ed2d2G3G | c3ge2e2
+c3c | G3ed2d2G3G | c3ge2e2
+c3c | G3ed2d2G3G | E3Gc3de3d | c8
+S:https://www.folktunefinder.com/tunes/72532
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

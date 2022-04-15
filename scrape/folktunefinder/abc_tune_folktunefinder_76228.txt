@@ -1,0 +1,26 @@
+X:248
+T: Fuhrmannslied (3-51), S. 149
+N: P1023
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Berufslied, Brautwerbung]
+M: 2/4
+L: 1/4
+K: G
+DGB | AG | FED2
+AG | A2d2 | ^cd | A2z2
+BG | A2d2 | ec | ded2
+dA | BAGB | AG | FED2
+AG | A2d2 | ^cd | A
+S:https://www.folktunefinder.com/tunes/76228
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Berufslied, brautwerbung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

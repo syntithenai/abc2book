@@ -1,0 +1,29 @@
+X: 2
+P: Senpolska fran J\"amtland (Kristina Mobergs Polska)
+R: Sen-polska
+D: Bengt Jonssons '87 tape, A-13
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A \
+|: "Dm"d>^c  Ac de | f(e/d/) "A7"(^c/d/)e/g/ "Dm"f2 \
+| "Gm"fe/f/ ag/f/ "A"ed | "A7"(^c/d/)e/g/ "Dm"~fe/d/ "A7"^cA |
+| "Dm"d>^c  Ac de | fe/d/ "A7"^c/d/e/g/ "Dm"f2 \
+| "Gm"fe/f/ ag/f/ "A"ed | "A7"^c2 "Dm"d3 :|
+a \
+|: "Dm"a>f df af- | "Gm"g>a- ba/b/ g2 \
+| "C7"g>e ce ge- | "F"f>g- ag/a/ f2 |
+| "Dm"d>^c  Ac de | f(e/d/) "A7"(^c/d/)e/g/ "Dm"f2 \
+| "Gm"fe/f/ ag/f/ "A"ed | "A7"^c2 "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/9133
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Sen2.abc
+% Rhythm Sen-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

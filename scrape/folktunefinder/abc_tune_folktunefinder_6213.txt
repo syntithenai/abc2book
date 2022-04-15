@@ -1,0 +1,61 @@
+X: 1
+T: Over the Waves
+T: Sobre las olas
+C: Juventino Rosas (1888)
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: Note the hemiola throughout part C.
+H: Mexican composer Juventino Rosas (1868-1894) was an Otomi Indian. This tune
+H: was  composed  in  1888 as one of a set of six waltzes.  In Mexico the city
+H: where he was born is renamed after him: Santa Cruz de Juventino Rosas.   He
+H: only  wrote  the tune; words in Spanish were written a few years later, and
+H: since then, many more lyrics have been written for this tune.  It has  also
+H: been used in a number of movies.
+M: 6/8
+L: 1/8
+P: AABBACCDDA
+K: G
+"A"\
+|: z2 \
+| "G"B,3 ^A,B,D | G3- GFG | AGF GB,D | "D7"F3 z3 \
+| "Am"C3 B,CD | "D7"F3- F^EF | GF^E FCF | "G"B,3 z3 |
+| "G"B,3 ^A,B,D | G3- GFG | AGF GB,D | "C"E3 z3 \
+| "Am"E3 Ace | "G"d3- dcB | "D7"AGF EFA | "G"G3 z :|
+"B"\
+|: zB \
+| "G"{Bc}B^AB gf>e | g3- gfe | {Bc}B^AB ed>c | "D7"F3 z3 \
+| {FG}F^EF ed>^c | e3- edc | {FG}F^EF cBA | "G"G3 z3 |
+| "G"{Bc}B^AB gf>e | g3- gfe | "E7"{Bc}B^AB ed>c | "Am"E3 z3 \
+| {EF}E^DE cBA | "G"G3- GF^E | "D7"FAc e2d | "G"G3 "d.C."Hz :|
+K: D
+"C"\
+|: z2 \
+| "D"F2 A2 B2 | c2 d2 B2 | c2 d2 B2 | "A7"c3 z3 \
+| c2 d2 ^d2 | f2 e2 =d2 | cB B2 c2 | "D"A3 z3 |
+| "D"F2 A2 B2 | c2 d2 B2 | c2 d2 B2 | "A"c3 z3 \
+| c2 e2 a2 | a2 e2 c2 | "E7"c2 B2 E2 | "A"A3 z :|
+K: F
+"D"\
+|: ^GA \
+| "F"f3- fef | f3- f^GA | f3- fef | "Gm"B3- BAB \
+| "C7"e3- e^de | e3- eAB | e3- e^de | "F"A3- A^GA |
+| "F"f3- fef | f3- f^GA | "D7"d3- d^cd | "Gm"D3- D^CD \
+| d3- dcB | "F"A3- AGF | "C7"E3- EDE | "F"F3 z :|
+S:https://www.folktunefinder.com/tunes/6213
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_OverTheWaves.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OverTheWaves_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/OverTheWaves_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/OverTheWaves_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Mexico/waltz/OverTheWaves_G.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

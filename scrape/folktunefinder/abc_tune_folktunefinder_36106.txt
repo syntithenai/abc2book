@@ -1,0 +1,37 @@
+X:135
+T:Alistairs Half-Remembered Polka
+M:4/4
+O:England
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009bb.html
+%%ID:000009bb
+K:A
+AB|\
+c2A2 Ac ef|e2(E2 E2)AB|\
+M:6/4
+c2A2 Ac ef e2ef|\
+M:4/4
+g2g2 g2g2|fe dc B4|
+|1 f2f2 f2f2|\
+M:6/4
+ed cd e2 (E2 E2) :|2\
+M:4/4
+e2 ee fe fg|"Fine"a2(A2 A2)\
+|:Ac|\
+e2e2 e3f|e2(G2 G2)Bc|
+d2f2 g2fg|e6 (3efg|\
+a2a2 a3a|g2(B2 B2)Bc|d2d<d c<(B B2)\
+|1 e6 :|2\
+M:6/4
+A6(E2 E2):|
+S:https://www.folktunefinder.com/tunes/36106
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:12
+T: SIST NO NIT LANG
+N: E1008A
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Liebe, Klage
+M: 2/4
+L: 1/16
+K: F
+FA | c3AB3G | AGABA2
+FA | c3AB3G | A4z2
+A2 | A3GG2B2 | B3AA2
+c2 | fcAFGBAG | F4z2
+S:https://www.folktunefinder.com/tunes/79116
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:34
+T:The Northumberland Bagpipes
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:G
+ d|B2  G2   G2  G2  | D2    D D  A3 \
+ d|B2  G G  G2  G G |(G`A)  B G  c3
+ c|c2  d c  B2  c B | A2    B A  F3 \
+ F|G3    G  E3    F | F3      G  G3||
+ g|g2  G2   g2  G2  |(g`f) (e`d) g2 \
+G2|G2  A G  F2 (G`F)| E E   E2   c3
+ c|c2  d c  B2 (c`B)| A2   (B`G) F3 \
+ F|G3    G  E2  E F | F3      G  G3||
+ g|g2  G2   g2  G G | g f  (e`d) g2 \
+G2|G2 (A`G) F2  G F | E E   E2   c3
+ c|c2  d c  B2 (c`B)| A2   (B`G) F3 \
+ F|G3    G  E2  E F | F3      G  G3|]
+S:https://www.folktunefinder.com/tunes/75597
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

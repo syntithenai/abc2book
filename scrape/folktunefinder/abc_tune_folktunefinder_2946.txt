@@ -1,0 +1,56 @@
+X: 1
+T: Trava Trava
+C: Greece
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C
+K: G
+L: 1/8
+R: Hasapikos
+[| "G"[^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][=c=A] "D7"[BG][cA] [BG][AF] \
+|  "G"[G2D] [DG][AF] [BG][cA] [d2B] |
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [dB][ec] [dB][cA] "D7"[cA][dB] [BG][AF] \
+|  "G"[G2G] "D7"[D2D] "G"[G2G] z2 |]
+[| "G"[dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] [d2B] \
+| "F#"[^c4^A] "G"[d4B] |
+|  "G"[dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] "->Coda"[dB][=fd] \
+| "D7"[=fd][ec] [dB][BG] [cA][BG] [AF][BD] \
+| "G"[G2G] "D7"[D2D] "G"[G2G] z2 |]
+[| "G"[^A2F] [B2G] [A2F] [B2G] \
+|     [^c2^A] [d6B] \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [c2A] [B6G] \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [^c2^A] [d6B] |
+|     [g2e] [=f2d] [e2c] [d2B] \
+|     [c2A] [B6G] | \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [^c^A][e=c] [d3B] [dB][ec][=fd] \
+|     [g2e] [=f2d] [e2c] [d2B] \
+|     [c2A] [B3G] [cA][dB][ec] |
+| "G7"([=f8d] \
+|     [=f6d]) [ge][fd] \
+|  "C"([e8c] \
+|     [e8c]) \
+|  "G"([d8B] \
+|     [d8B]) |] \
+y8"Coda"\
+[|"D7"[d2d] [dd][dd] [e2^c] [f2=c] \
+| "G"[gB]z "D7"[dd]z "G"[gG]z z2 |]
+S:https://www.folktunefinder.com/tunes/2946
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/TravaTrava2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/TravaTrava2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TravaTrava2.abc
+% Rhythm Hasapikos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

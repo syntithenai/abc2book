@@ -1,0 +1,36 @@
+X: 105
+T:Bugle Waltz No.2. CJF.105
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:See note on Bugle Waltz No. 1. CJF.056
+Z:vmp.P J Headford 2000
+K:D
+((3ABc)|d2d2d2|f4d2|g4e2|c2A2 cd|e2e2e2|\
+g4b2|bagfge|d4:|!
+|:A2|g2Aceg|f2dfa2|gfgabc'|d'c'bagf|!
+g2Aceg|f2dfa2|b^abgec|d4:|!
+" Bugle Solo"A2|\
+|:A2F2d2|d2A2f2|f2e2d2|d2c2d2|B2^d2e2|g2f2e2|d6{ed}|c4A2|!
+A2F2d2|d2A2 df|a3gfe|dcB AGF|G4B2|A3Bc2|c6|d4:|!
+|:a2|^gaba=ge|c3ABc|dcdefg|a4a2|!
+d'c'bagf|bagfed|cdecdB|A4((3ABc)|!
+d2{e}(dc)d2|\
+e2{f}(ed)e2|f2fdba|a4g2|f2fgf2|e2efe2|d2dfe2|d4:|]
+S:https://www.folktunefinder.com/tunes/49660
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

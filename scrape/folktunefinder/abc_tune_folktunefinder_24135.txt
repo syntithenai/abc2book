@@ -1,0 +1,26 @@
+X:3684
+T:Lindisfarne
+O:england
+M:3/4
+L:1/8
+Q:120
+C:Matt Seattle 1990
+R:Waltz
+K:D
+A2 | d3 efg | a3 fdA | B2 g2 e2 | d2 c2 A2 | d3 e fg |a3 fdA | B2 g2 f2
+| e4  fg |  a3 fdA| B3 Bgf  | e3 dcB | A3  efg |a3 fdA
+| B2 g2 e2 |A2 d2  c2| d4 :|
+|:f2 | e3 fge | a3 fed |B2g2e2 | d2c2A2 | e3 fge | a3 gfe | B2g2f2 | e3
+efg |a3 fed |
+B3 Bgf  | e3 dcB | A3  efg |  a3  fdA| B2 g2 e2 |A2 d2 c2| d4 :|
+S:https://www.folktunefinder.com/tunes/24135
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

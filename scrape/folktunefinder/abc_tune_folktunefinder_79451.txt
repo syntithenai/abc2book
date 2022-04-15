@@ -1,0 +1,25 @@
+X:347
+T: HANS NABER ICH HEBB
+N: E1503
+O: Europa, Mitteleuropa, Deutschland, Insel Ruegen, Insel Hiddensee
+R: Staende -, Seemanns - Lied; Trink - Lied
+M: 3/8
+L: 1/16
+K: A
+E2 | A3=GA2 | A3B=c2 | B4G2 | E4
+E2 | B3AB2 | B3=cd2 | d4B2 | A4
+e2 | =f2e2^d2 | e2z2e2 | =f2e2^d2 | e2z2
+e2 | =c3BA2 | =f3ed2 | B3AG2 | A4
+S:https://www.folktunefinder.com/tunes/79451
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, seemanns - lied; trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

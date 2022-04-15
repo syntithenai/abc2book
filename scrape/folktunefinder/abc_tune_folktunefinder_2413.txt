@@ -1,0 +1,22 @@
+X:3
+T:Test: Keyclef changes within line
+K:C
+| CDEF GABc | [K:F bass] FGAB cdef | [K:G alto] GABc defg | [K:D treble] DEFG ABcd |
+S:https://www.folktunefinder.com/tunes/2413
+S:http://trillian.mit.edu/~jc/music/abc/test/Inline_KeyClef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Inline_KeyClef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Inline_KeyClef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Inline_KeyClef.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

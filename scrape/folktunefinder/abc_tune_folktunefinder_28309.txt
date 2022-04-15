@@ -1,0 +1,25 @@
+X:7857
+T:Voulez-vous Danser Mademoiselle
+T:the Portuguese dance
+O:england
+R:Jig
+M:6/8
+N:Version of 'La Bastringue'. also in MR \& KM
+K:G
+B2B B2B | ABA G2G | F2G A2F | G2A B2G |\
+B2B B2B | ABA GAB | c2B ABG | GAF G3 :|
+|:A2A F2D | GAB A2D | A2A F2D | GAB A2d |\
+d2d d^cc | ^cBB BAA | AGG FAG | F2E D3 :|
+|:d2d d2d | cBc B2B | A2B c2A | B2c d2B |\
+d2d d2d | cBc Bcd | e2d cdB | BcA G3 :|
+S:https://www.folktunefinder.com/tunes/28309
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

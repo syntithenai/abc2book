@@ -1,0 +1,30 @@
+X: 1
+P: Polca
+O: Galicia, Spain
+M: C|
+L: 1/8
+K: C
+"G"\
+|: z2 \
+| "C"eded edef | "C"g2e2 e2de |1,3 "G7"f2d2 d2cd | "C"e2c2 c2 :|2,4 "G7"f2e2 d2g2 | "C"c6 :|
+"A"\
+|: G2 | "F"A3F A2c2 | "Eb"G4 _E2G2 | "F"A3F A2c2 |1 "Eb"G6 :|2 "G7"B6 ||
+"B"\
+|: AB | "C"c2G2 "F"A2F2 | "G7"D2C2 "C"C2DE |1,3 "G7"F2D2 D2EF | "C"G2E2 E2 :|2,4 "G7"F2D2 D2G2 | "C"C6 :|
+"C"\
+|: C2 \
+| "C"G6 ed | "F"c4- cFAc | "C"G2e2 "G7"fede | "G7"g2f2 e2d2 \
+| "C"G6 ed | "F"c4- cFAc | "C"G2e2 "G7"d3c | "C"c6 :|
+K: G
+"D"\
+|: Bc | "G"d2B2 "C"e2ce | "C"dedB G2d2 | "D7"cdcB A2F2 |1,3 "G"GFGA B2 :|2,4 "G"G6 :|
+S:https://www.folktunefinder.com/tunes/5908
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Polk_Galician.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

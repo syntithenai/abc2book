@@ -1,0 +1,30 @@
+X: 132
+T:William Thompson's Allegro. JaW.132
+M:2/4
+Q:1/4=60
+S:James Winder Ms, Lancashire, 1835-41
+R:March
+O:England
+A:Wyresdale,Lancashire
+N:"Allegro" at head of tune,"William Thompson " at foot.
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+G|c>de>f|g3g|afaf|eceg|afaf|gedf|e2d2|c4:|!
+|:d2e2|d3c|d2e2|d3c|defd|gagf|e2d2|c4|!
+a2ge|c'2ge|f2df|egec|d'2ge|c'2ge|dcde|c4:|]
+S:https://www.folktunefinder.com/tunes/47669
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

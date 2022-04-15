@@ -1,0 +1,21 @@
+X:76
+T:Farandole de Narbonne
+O:France
+A:Provence
+C:Trad.
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Bbmajor
+b2b f2f|d2f B3|BAB c2c|cde f2d|b2b f2f|d2f B3|BAB c2d|edc B3|:
+fff f2d|fff f2d|fff g2f|e2d e3|eee e2c|eee e2c|eee f2e|[1 d2c d3:|[2 d2c B3|]
+%%footer $D   Galouvielle-MBe 2008 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/535
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

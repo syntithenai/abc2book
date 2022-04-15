@@ -1,0 +1,23 @@
+X: 3
+T: Hoppvals fra Feragen
+O: Norway
+R: polka, Busserull
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: F \
+| "D"AA/A/ AG | FA/A/ dc | "G"BB/B/ BA | "Em"GB/B/ ed \
+| "A7"cc/c/ cc | cA Bc |1 "D"dd/d/ dB | "A7"A3 :|2 "D"d2 {e}dc | d3 :|
+|: f \
+| "D"aa/a/ ^ga | ba gf | "A7"gg/g/ gf | e3 f \
+|1 gg/g/ gf | ez A2 | "D"ff/f/ fe | d3 :|2 "A7"gg/g/ ge | cA Bc | "D"d2 {e}dc | d3 :|
+S:https://www.folktunefinder.com/tunes/8857
+S:http://trillian.mit.edu/~jc/music/abc/Scand/N2K_polk.abc
+% Rhythm Polka, busserull
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

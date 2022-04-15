@@ -1,0 +1,37 @@
+X:215
+T:the Jocular Constable
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:1986
+O:England
+R:Schottische
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000751.html
+%%ID:00000751
+K:A min
+E>^GA>B c>BA>c | B>A^G>F E2-E>e | \
+e>^de>f e>=dc>B | A>Bc>d eze2 |
+E^GAB cBAc |B>A^GF E2-E>e | \
+e^def e=dcB |1 Az^G2A4 :|2 Az^G2A2-A>e:|
+|:f>ef>d A>df>d | e>fe>^c A3E | \
+FE^DE =cBA^G | A>EA>B c>de>g |
+f>ef>d A>df>d | e>fe>^c A3E | \
+F>E^D>E =cBA^G |1Az^G2A>e :|2 Az^G2A2 (3e^f^g ||
+|:a2=g2f2e2 | d2c2B2A2 |\
+^G>AB>c B>E^F>^G | A>Bc>d e>e^f>^g |
+a2=g2f2e2 | d2c2B2A2 | \
+^G>AB>c B>E^F>^G |1 Az^G2A2 (3e^f^g :|2Az^G2A4 |]
+S:https://www.folktunefinder.com/tunes/43908
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

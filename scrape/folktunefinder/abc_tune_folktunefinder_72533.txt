@@ -1,0 +1,24 @@
+X:76
+T: Weil i's Deandl net wegbring;
+N: D0080
+O: Europa, Mitteleuropa, Deutschland, Bayerischer Wald
+N: Grundton in der kleinen Oktave
+R: Jodel - Lied
+M: 3/4
+L: 1/8
+K: G
+BB | d2g3a | g2d2
+B2 | cdf3d | c4z
+c | cdf3f | f3d
+c2 | Bdg3d | B4
+S:https://www.folktunefinder.com/tunes/72533
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Jodel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

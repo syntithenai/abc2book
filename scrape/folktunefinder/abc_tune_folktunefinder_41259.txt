@@ -1,0 +1,24 @@
+X:182
+T:Unknown Montreal Reel 1
+S:Cafe Utopik, Montreal
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Aphrygian
+|: A3A B2A2 | GABG A3_d | B2A2 GABG | A2d2 _d2=d2 |
+A3A B2A2 | GABG A3_d | B2A2 GABG | A4A4 ::
+AB_d=d e2f2 | d2e2 _d3B | A2a2 gfed | efgf ed_dB |
+AB_d=d e2f2 | d2e2 _d3B | A2BA GABG | A4A4 :|
+S:https://www.folktunefinder.com/tunes/41259
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

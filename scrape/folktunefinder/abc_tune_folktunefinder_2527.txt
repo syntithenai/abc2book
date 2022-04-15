@@ -1,0 +1,31 @@
+X:1
+T:Shuffle and Cut
+S:McFarlan MS, 1740
+Z:Jack Campin 1998
+M:9/8
+L:1/8
+K:D
+ dBG      AGF      G2(B    |B)GE E2(B A)FD |\
+ dBG      AGF      G2(B    |A)FD D2(B A)FD:|
+ afd      edc      d2(B    |B)GE E2(B A)FD |\
+ afd      edc      d2(B    |A)FD D2(B A)FD:|
+(E/F/G)E (D/E/F)D (E/F/G)(B|B)GE E2(B A)FD |\
+(E/F/G)E (D/E/F)D (E/F/G)(B|A)FD D2(B A)FD:|
+(d/e/f)d (c/d/e)c (B/c/d)(B|B)GE E2(B A)FD |\
+(d/e/f)d (c/d/e)c (B/c/d)(B|A)FD D2(B A)FD:|
+ B,2E    (E/F/G)E  E2(B    |B)GE E2(B A)FD |\
+ B,2E    (E/F/G)E  E2(B    |A)FD D2(B A)FD:|
+ G2d      F2d      E2(d    |B)GE E2(B A)FD |\
+ G2d      F2d      E2(d    |A)FD D2(B A)FD:|
+S:https://www.folktunefinder.com/tunes/2527
+S:http://trillian.mit.edu/~jc/music/abc/test/ShuffleAndCut_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/ShuffleAndCut_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ShuffleAndCut_1.abc
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg03254.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

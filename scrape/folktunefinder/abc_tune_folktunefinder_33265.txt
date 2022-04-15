@@ -1,0 +1,21 @@
+X: 3352
+T:Gan Ainm
+R:jig
+M:6/8
+L:1/8
+K:D
+DFA d2e|fdB BAF|AFA dAF|~E3 GFE|!
+DFA d2e|fdB BAF|AFA dAF|DED D3:|!
+|:dfa afd|gfg fef|dfa afd|cde ecA|!
+dfa afd|gfg fef|BdB AFA|DED D3:|!
+S:https://www.folktunefinder.com/tunes/33265
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

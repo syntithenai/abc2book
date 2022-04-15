@@ -1,0 +1,19 @@
+X: 2
+P: Calu\,sari Reel
+M: 2/4|
+L: 1/16
+K: A^c^f^B^d
+|: "A"A2.e2 A2.e2 | cBAB cd.e2 | A2.e2 A2.e2 | cBAB cAE2  |
+|     A2.e2 A2.e2 | cBAB cdef  | g2fe  f2.e2 | cdec A2z2 :|
+|: "A"g2fe  f2.e2 | cBAB cdef  | g2fe  f2.e2 | .a2 .a2a4  |
+|     g2fe  f2.e2 | cBAB cdef  | g2fe  f2.e2 | cdec A2z2 :|
+S:https://www.folktunefinder.com/tunes/154
+S:http://trillian.mit.edu/~jc/music/abc/Contra/NomadSet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

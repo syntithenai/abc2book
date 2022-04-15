@@ -1,0 +1,26 @@
+X:12
+T:The Thrush in the Thistle
+F:http://www.hiico.com/.abc/thrush_thistle.abc
+O:Scotland
+K:F
+M:9/8
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 26 August, 2004
+d \
+|: "G" g3 fge dcB | g3 fge "D" afd | "C" g2g gfe "G" dcB |[1 "C" edc "D" BcA "G" G2d :|[2 "C" edc "D" BcA "G" G2B/c/ |
+| "G" dBG dBG "C" ece | "G" dBG dBG "D" AFD | "G" dBG dBG "C" ece | "G" dgd "D" cBA "G" G2B/c/ |
+| "G" dBG dBG "C" ecg | "G" dBG dBG "D" AFD | "C" EFG "Am" ABc "G7" de=f | "C" ec'b "D" agf "G" g3 |]
+S:https://www.folktunefinder.com/tunes/18548
+S:http://www.hiico.com/.abc/thrush_thistle.abc
+S:http://www.hiico.com/.abc/thrush_thistle.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/Thrush_in_the_Thistle_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/Thrush_in_the_Thistle_G.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

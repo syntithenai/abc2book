@@ -1,0 +1,27 @@
+X:574
+T: ES LEUCHTET SCHON
+N: E0538
+O: Europa, Mitteleuropa, Deutschland, Uckermark, Gramzow
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: C
+EF | G2EGcd | e2G2
+AB | c3dcBA | G4
+EF | G2c2BA | G2EG
+cE | G3FDE | C4
+EF | G2c2BA | G2EG
+cE | G3FDE | C4
+S:https://www.folktunefinder.com/tunes/79015
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

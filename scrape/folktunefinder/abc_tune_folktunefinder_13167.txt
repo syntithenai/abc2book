@@ -1,0 +1,30 @@
+X: 1
+T: Diane Kathleen
+C: Liz Donaldson
+R: air
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+| "F" F2 F2 "C"E2 DC | "F"F3 A c4 \
+| "Bb"d2 d2 "F"cA GF | "Dm"D6  "C"C2 \
+||"F" F2 F2 "C"E2 DC | "F"F3 A c4 |
+| "Bb" Bc dA "C7"BG FE | "F"F6 c2 \
+|[|"Bb"d2 f2 "F/A"c2 f2 | "Gm"BA GF "F"A4 \
+| "G"G2 G2 G3 F | "C"EF GA B3 c |
+||"Bb"de fd "F/A"ce fc | "Gm"BA GF "C7"D3 E \
+|1 "F"F2 F2 "C7"G2 c2 | "F"F6 \
+:|2 "F"F2 A2 "C7"c2 de | "F"f6 |]
+S:https://www.folktunefinder.com/tunes/13167
+S:http://trillian.mit.edu/~jc/music/abc/air/DianeKathleen_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/DianeKathleen_F.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

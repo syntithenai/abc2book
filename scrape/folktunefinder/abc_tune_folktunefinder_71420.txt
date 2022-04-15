@@ -1,0 +1,27 @@
+X:391
+%%topmargin 3cm
+T:Lamberton Races
+T:Col. Renton's Favourite
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F
+F | (FA).c.f afTge | .f(dcA) BGGA | (FA).c.f afTge | f(dTc)>B AFFF | (FA).c.f afTge |
+.f(dcA) BGGA | (FA).c.f afTge | f(dTc)>B AFF || B | AcFc AcFc | TB>c (d/c/).B/.A/ BGGA |
+(FA)cf afTge | f(dTc)>B AFFB | AcFc AcFc | TB>c (d/c/).B/.A/ BGGA | (FA)cf afTge | f(dTc)>B AFF |]
+S:https://www.folktunefinder.com/tunes/71420
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Col_Rentons_Favourite.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lamberton_Races.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0391.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

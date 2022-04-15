@@ -1,0 +1,33 @@
+X:1
+T:Tommy Bhetty's Waltz
+R:waltz
+D:Altan: The Red Crow
+Z:id:hn-waltz-5
+M:3/4
+S:michael hogan irtrad-l 2001-02-09
+K:G
+D2 \
+|: G3  B dB | G3  B dB | d2 b3 a  |  ga   fg  ef  \
+|  G3  B dB | G3  B dB | D2 F2 A2 |  c2 (3BcB A2  |
+|  G3  B dB | G3  B dB | d2 b3  a |  ga   fg  ef  \
+|  d  g3 Bc | d3  c AF | G2 B2 BA |1 G4       D2 :|2 G3 g fg ||
+|: a2 f2 d2 | A2 F2 D2 | C2 b3  a |  ga   fg  ef  \
+|  d3  e d2 | B3  A B2 | D2 F2 A2 |  c2 (3BcB A2  |
+|  d2 Bc dB | d  b3 af | g2 b3  a |  ga   fg  ef  \
+|  d  g3 Bc | d3  c AF | G2 B2 BA |1 G3    g  fg :|2 G4 |]
+S:https://www.folktunefinder.com/tunes/20254
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TommyBhettysWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/TommyBhettysWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/TommyBhettysWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz/TommyBhettysWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TommyBhettysWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

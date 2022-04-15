@@ -1,0 +1,33 @@
+X: 1
+T: Coffee
+M: 6/8
+L: 1/8
+C: Gary Haggerty
+S: Portland Collection
+R: Jig
+B: Portland Collection
+F: http://internet.cybermesa.com/~keating/music_abc/col-coff.abc 2006-07-28 17:44:50 UT
+N: Higher notes in B part for instruments without the low A.
+K: Ador
+|:"Am"EAA GAA | cBA eAA | EAA GAA | "Em"cBA ABA \
+| "Am"EAA GAA | cBA eAA | "F"cBA "Em"ABA | GED "Am"A3 :|
+|:"Am"[E2A,2][AC] EGA | "(F)" cBA GED | "Am (D)"[E2A,2][AC] EGA | "(F)"cBA A3 \
+| "Am"[E2A,2][AC] EGA | "G"d2 c- "Am"cAG | "G"d2 c- "Am"cAG | "Em"EDE "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/14027
+S:http://internet.cybermesa.com/~keating/music_abc/col-coff.abc
+S:http://internet.cybermesa.com/~keating/music_abc/col-coff.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Coffee_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Coffee_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Coffee_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/Coffee_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Coffee_Am.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

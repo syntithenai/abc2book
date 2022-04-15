@@ -1,0 +1,28 @@
+X:468
+T: Ein Jngling wollte wandern (5.64), S. 105
+N: P0738
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+R: Liebe, Abschied, Tod]
+M: 3/4
+L: 1/16
+K: C
+C2D2 | E4D4G3G | F4D4
+D2E2 | F4G4D4 | E8
+G2G2 | c4B4A4 | G2E2G4
+E2G2 | G4F4G4 | E8
+G2G2 | c4B4A4 | G2E2G4
+E2G2 | G4F4G4 | E8
+S:https://www.folktunefinder.com/tunes/76448
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Liebe, abschied, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

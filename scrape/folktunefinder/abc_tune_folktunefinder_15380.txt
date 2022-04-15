@@ -1,0 +1,29 @@
+X: 1
+T: Captain Taylor's March
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+DE/F/ |: "G"G>F GA | B2 gf | "C"eg/e/ dB | "D7"AB/A/ GA | "G"B>A B/A/G/F/ | "C"EG "D7"FA | "G"G2 ~G>F | G2 :|
+de/f/ [| "C"g2 f2 | "Am"e2 fg | "D7"a>g fe | "G"d2 Bd | "C"e>d ef | g>f ed | "(D7)"e>d eg | "D7"ed |]
+BA    [| "G"G>F GA | B2 gf | "C"eg/e/ dB | "D7"AB/A/ GA | "G"B>A B/A/G/F/ | "C"EG "D7"FA | "G"G2 ~G>F | G2 |]
+S:https://www.folktunefinder.com/tunes/15380
+S:http://trillian.mit.edu/~jc/music/abc/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/march/CaptTaylorsM_4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/march/CaptTaylorsM_4.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

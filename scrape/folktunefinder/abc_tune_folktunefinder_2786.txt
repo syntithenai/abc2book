@@ -1,0 +1,36 @@
+X: 1
+T: Bolen le\vzi mlad Stojan
+R: lesnoto
+O: Bulgaria
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: Bb
+P: Instruments:
+|: "F7"[ge][af][af] [af][ge] "Bb"[f2d2] | "Eb"[fd][ge][ge] [ge][fd] "F7"[e2c2] \
+|1 "Bb"[ec][fd][fd] [fd][ec] [dB][ec] | [f7d7] \
+:|2 "F7"[ec][fd][fd] [ec][dB] [ec][fd] | "Bb"[ec]-[d2B2]- [d4B4]- | [d7B7] ||
+P: Vocal:
+|: "Bb"[BF][d2B2] [d2B2] [d2B2] | "F7"[e3c3] [ec][fd] [ec][dB] \
+| "Bb"[d7B7]- | [d7B7] :: "F7"[a3f3]- [a2f2] [b2g2] | [a2f2][ge] "Bb"[f4d4] |
+| "Eb"[g3e3]- [g2e2] [g2e2] | "Bb"[f2d2][ec] [d4B4] \
+| "F7"[e2c2][ec] [e2c2] [g2e2] | [f3d3] [ec][fd] [ec][dB] | "Bb"[d7B7]- | [d7B7] :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/2786
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/BolenLeziMladStojan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/BolenLeziMladStojan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Les_BolenLezhi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Les_BolenLeziMladStojan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BolenLeziMladStojan.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Les_BolenLezhi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/Les_BolenLezhi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/Les_BolenLezhi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_BolenLeziMladStojan.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

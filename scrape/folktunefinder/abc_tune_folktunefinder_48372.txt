@@ -1,0 +1,24 @@
+X:1480
+T:Harris Dance Tune
+M:C|
+L:1/8
+R:reel
+D:John Williams: Steam
+Z:Devin McCabe
+K:G
+B~d3 egdB|dedB ABGA|B~d3 egdB|dedB G2AG|
+!B~d3 egdB|dedB A2fA|fgfd cedB1|cAdB G4:|2cAdB G3f|
+!:g2fd cedB|c2de cedB|fgfd cedB|1cAdB G3f:|2cAdB G4||
+S:https://www.folktunefinder.com/tunes/48372
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

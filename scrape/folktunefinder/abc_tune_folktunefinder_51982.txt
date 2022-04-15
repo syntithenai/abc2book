@@ -1,0 +1,25 @@
+X:60
+T:Beanfield
+M:2/4
+L:1/8
+Q:1/4=170
+C:Jon Swayne
+R:Bourree
+%F:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc 2003-07-02 09:35:44 UT
+K:C
+GddG | eeGf | g>fe_B | a>gf_B | GddG | eeGf | g>fe_B | A4 :|
+K:G
+dBBe | ccfd | dgee | a>gfA | dBBe | ccfd | dge>d | c4 :|
+S:https://www.folktunefinder.com/tunes/51982
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

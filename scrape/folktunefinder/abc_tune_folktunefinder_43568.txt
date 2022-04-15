@@ -1,0 +1,24 @@
+X:25
+T:a Rigadown
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:There was a corner missing from the paper, the bracketed notes are where I've filled the gap.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004bc.html
+%%ID:000004bc
+K:D
+B | AFD G2B | AG"<("">)"F "<("">)"F"<("">)"E"<("">)"D | E3 E2B | AFD G2B | A2f  ece | d3 D2::
+e | fga efg | fga  fed  | e3 A3  | fga efg | fga "<("">)"f"<("">)"e"<("">)"d | "<("">)"d3 "<("">)"D2:|
+% page 4
+S:https://www.folktunefinder.com/tunes/43568
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

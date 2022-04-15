@@ -1,0 +1,28 @@
+X: 1
+T:Polka de Ch\^ateau Chervix
+R:Polka
+C:Gilles Chabenat
+M:C|
+O:France
+%F:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polka_de_Chateau_Chervix_1.abc 2007-06-29 10:01:31 UT
+K:D
+DEFG A2Bc|d2cBA4|\
+BGEF G2A2-|AFDEF2E2|\
+DEFG A2Bc|d2cBA4|BGEFG2A2|F2E2D4:|
+|:d2cBA2Bc|d2FBA4|\
+BGEF G2A2-|AFDEF2E2|\
+DEFG A2Bc|d2cBA4|BGEFG2A2|F2E2D4:|
+S:https://www.folktunefinder.com/tunes/52074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polka_de_Chateau_Chervix_1.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Polka
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

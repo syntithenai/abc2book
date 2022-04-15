@@ -1,0 +1,38 @@
+X:897
+T:Xiraldilla (CT 419)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Rafael Martnez Oria, de veintisis aos, de Avils.
+A:Asturies
+O:Avils.
+Z:Cancioneru de Torner 419
+M:2/4
+L:1/8
+Q:1/4=160
+K:Cm
+GG
+|: c2 c=B|c2 c2|cd ed|[1 c2 GG :|[2 c2 z2|
+|: B2 (AG)|F2 GA|B2 A2|[1 G4 :|[2 G2 ||
+W:Yo no soi marinero,
+W:que si lo fuera,
+W:en el barco llevara
+W:la mi morena.
+W:
+W:Yo no soi marinero,
+W:yo no soi cadena de amor.
+W:
+S:https://www.folktunefinder.com/tunes/59784
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

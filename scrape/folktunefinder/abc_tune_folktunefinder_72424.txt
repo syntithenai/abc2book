@@ -1,0 +1,30 @@
+X: 175
+T:Shores Trumpett Tune or Maggott. HA.174
+M:C
+L:1/8
+Q:1/4=120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Signs above notes in MS seem to denote trills.
+N:Rests denoted by "r" in MS. NBr....cf Playford DM eds 9C(1698).CGP..
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:C
+"tr"TE2 (E/2F/2G) GEEC|c2 (c/2d/2e) eddG|\
+"tr"TE2 (E/2F/2G) GEEC|(e/2f/2g) e>dc2 z2||!
+"tr"Tde dGd2z2|dedG d2z2|gagc gagc|gagc g2z2|!
+"tr"TE2 (E/2F/2G) GEEC| c2(c/2d/2e) eddG|\
+"tr"TE2 (E/2F/2G) GEEC|(e/2f/2g) (e>d) c2z2|]
+S:https://www.folktunefinder.com/tunes/72424
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

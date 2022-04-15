@@ -1,0 +1,26 @@
+X:1
+T:Dinny O'Brian's
+S:Planxty
+Z:Juergen.Gier@post.rwth-aachen.de
+R:Hornpipe
+L:1/8
+M:4/4
+K:G
+DE|GABG ABcA|defa gfdc|BGBd (3ABc AF|GFGF DEFD|\
+G2BG ABcA|defa gfdc|BGBd cAFG|(3ABA GFG2::Bd|\
+g2ga gfdf|g2bg afde|dffg afge|fdec dcAF|\
+G2BG ABcA|defa gfdc|BGBd cAFG|(3ABA GFG2:|
+S:https://www.folktunefinder.com/tunes/13534
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/DinnyOBrians.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/DinnyOBrians.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/hornpipe/DinnyOBrians.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

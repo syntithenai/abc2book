@@ -1,0 +1,31 @@
+X:3752
+T:London Hornpipe
+O:england
+R:Hornpipe
+M:4/4
+L:1/8
+N:Dance Music, 1820-1850
+A:Yorkshire
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+K:G
+|Bc[|\
+"G"dcBA G2 Bd|"Em"g2 eg "Bm"f2 dB|\
+"Am"c2 ac "G"B2 gB|"Am"cBAG "D"GFED|
+"C"EDEF GFGA|"G"BABcd2 g2|"G"dBGB "D7"cAGF|"G"G2 G2 G2:|
+|:d2|\
+"G"g2 bg "D"f2 af|"Em"g2eg "Bm"f2 d2|\
+"Am"c2 ac "G"B2 gB|"Am"cBAG "D"FFED|
+"C"EDEF GFGA|"G"BABc d2 g2|"G"dBGB "D7"cAGF|"G"G2 G2 G2:|
+S:https://www.folktunefinder.com/tunes/24203
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

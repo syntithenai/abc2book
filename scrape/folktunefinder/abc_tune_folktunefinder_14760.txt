@@ -1,0 +1,28 @@
+X: 1
+T: the New May Moon
+C: George Collingwood/D.Smith
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Paddledoo Collection
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dcB     AFA |  "G"B2A  "D"AFA | "D"d2d "A7"ede | "D"f2d     def \
+| "Em"g2e "D"f2d | "Em"e2d "A7"cBA | "D"dcB     AFA | "G"B2A "A7"A2 :|
+|: f \
+| "D"aba     fdf |  "D"aba     fdf | "Em"g2e "D"efg | "Em"b3 "A7"a3  \
+| "D"afa "A7"geg | "Bm"fdf "A7"cBA |  "G"dcB "D"AFA | "G"B2A "A7"A2 :|
+S:https://www.folktunefinder.com/tunes/14760
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewMayMoon_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NewMayMoon_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:445
+T: Rekrutenlied  (161), S. 350
+N: T0333
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Rammeldingen, J.P. Gloden, 26.12.1932
+R: historische, Kriegs- und Soldatenlieder, Abschiedslied, Trauer]
+M: 4/4
+L: 1/16
+K: G
+ | G4G2G2B4G2B2 | d4d4d4
+d4 | e2c2c2c2c4c2e2 | d4B4B4
+B4 | d3AA2A2A4B2c2 | d3GG2G2G4
+G2G2 | e2e2e2e2e2d2c2B2 | d4d2d2d2c2
+B2A2 | G3GG3GG4z4 | e3ee2e2d4B2d2 | d4c4B4z4
+S:https://www.folktunefinder.com/tunes/70575
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder, abschiedslied, trauer]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

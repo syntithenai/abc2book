@@ -1,0 +1,24 @@
+X:1
+T:Bourr\'ee d'Egletons
+R:Bourr\'ee \`a 3 temps
+O:France
+A:Corr\`aze
+F:http://trad.org/tablatures/abc/index_abc/document_view
+M:3/8
+K:F
+|: C F G | A2 A | B/2A/2 G F | A G2 | C F G | A2 A | B/2A/2 G F |1 G3 :|2 G2C ||
+|: F2 G | F/2E/2 D C | D2 E | D CC | F2G | F/2E/2 D C | DEC |1 F2C :|2 F3 |]
+S:https://www.folktunefinder.com/tunes/2707
+S:http://trad.org/tablatures/abc/index_abc/document_view
+S:http://trillian.mit.edu/~jc/music/bot/Bourree_dEgletons_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/Bourree_dEgletons_F.abc
+% Rhythm Bourre?e a? 3 temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

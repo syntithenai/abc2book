@@ -1,0 +1,29 @@
+X: 4
+T:Untitled. HA.005
+M:C
+Q:150
+C:Same as #HA.017
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Same as #017.
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+"No Key Sig in MS"d2^c2(de)f2|g2e2^c2A2|f2e2(fg)a2|b2g2e4||!
+"cr"e3d (ef)g2|"cr"g3f gagf|edec fefg|"cr"g3ff4|!
+c2(cB) ABcA|f2d2B4|"Music runs out, but see #HA.017"g2(gf) efge|zzzzz|]
+W:cr=crotchet in MS.
+S:https://www.folktunefinder.com/tunes/72253
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

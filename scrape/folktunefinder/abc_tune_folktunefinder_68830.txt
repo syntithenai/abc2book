@@ -1,0 +1,28 @@
+X:284
+T: Trinklied
+N: A0328
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II (1540) No. 54.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: G
+G4G2G2 | G2G2A4 | =F4z4
+c4 | d4c4c4 | _B4A8 | G12 | z2
+G2G2G2 | G2G2A4 | =F4z4
+F4 | G4E4E4 | D8C4 | D2
+G2GGGG | A2A2=F4 | D4z4
+A4 | _B4A8 | G8F4 | G4z4
+_B4 | c4c2 | d2d2d2 | c2c2c2 | c8
+c4 | d8d4 | _B8c4 | _B4G8 | =F4E8 | D4z2
+F2 | G4F2F2 | G4A8 | _B8c4 | d4c8 | _B4A8 | G8z4
+S:https://www.folktunefinder.com/tunes/68830
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

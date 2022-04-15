@@ -1,0 +1,27 @@
+X:60
+T:Cawder Fair
+M:4/4
+L:1/8
+Q:150
+K:G
+g3/2f/e3/2d/ g2B2|d3/2e/d3/2B/ d4|g3/2f/e3/2d/ g2B2|A3/2B/c3/2d/ e3e|
+W: G G D7 G Em Am
+d3/2g/g3/2a/ g3/2a/g3/2f/|e3/2a/a3/2b/ a2g3/2a/|b3/2a/g3/2f/ g3/2f/e3/2d
+/|e/g3/2f/a3/2 g3g|
+W: G Am G C D7 G
+g3/2f/e3/2d/ g2B2|d3/2e/d3/2B/ d4|g3/2f/e3/2d/ g2B2|A3/2B/c3/2d/ e3e|
+W: G G D7 G Em Am
+d3/2g/g3/2a/ g3/2a/g3/2f/|e3/2a/a3/2b/ a2g3/2a/|b3/2a/g3/2f/ g3/2f/e3/2d
+/|e/g3/2f/a3/2 g2a2|
+W: G Am G C D7 G A7
+S:https://www.folktunefinder.com/tunes/58768
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/strath.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/strath.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

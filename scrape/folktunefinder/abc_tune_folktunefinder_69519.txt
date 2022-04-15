@@ -1,0 +1,27 @@
+X:660
+T: "Die Kirchweihe"
+N: Z1341
+O: Europa, Mitteleuropa, Oesterreich
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/8
+K: F
+A,B, | A,CF2F2 | Fdc3
+F | Eee2e2 | Fffc
+F2 | A,CF2F2 | Fdc3
+F | Edd2cE | F2z2
+F2 | EGG2G2 | ceb3
+e | fac2cB | AcF2
+F2 | EGG2G2 | ceb3
+e | fac2BE | F2Acfa | F2z2
+S:https://www.folktunefinder.com/tunes/69519
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

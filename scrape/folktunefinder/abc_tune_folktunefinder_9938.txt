@@ -1,0 +1,25 @@
+X: 1
+P: Avis Harrison's Strathspey
+C: \2511993 John Renton
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+D>E \
+| F3 D A,2 D2 | F>E F<G E2- E>D | C2 c2 c>B A>^G | B2 A2 A>F G<E |
+| F3 D A,2 D2 | F>E F<G E2  E>D | C2 c>B A>F G<E | D4 D2 |]
+d>c \
+| B3 G D>d c>B | B2 A2 A2 F>D | C2 A>_A G>E C<E | G2 F2 F2 d>c |
+| B3 G D>d c>B | B2 A2 A>F D_A G>C F<E | D4 D2 |]
+S:https://www.folktunefinder.com/tunes/9938
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AvisHarrisonsStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AvisHarrisonsStrathspey.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

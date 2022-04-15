@@ -1,0 +1,26 @@
+X: 1
+T: Allan Water
+O: Trad
+N: Highland Whisky handwritten ms.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+{f}g2 \
+| "G"G3A B2ge | "C"dEGA "Em"B>ABd | "C"eBdA "D"B2 :|
+g>a \
+| "G"b>age d2ba | "C"gedB "D"A2GE | "G"g>age "Em"da |
+| "Em"(3bag (3age "G/D"(3ged ba | "C"g>edB "D"A2g2 | "G"dG "Em"DEGA | "D7"B3A "G"G2 |]
+S:https://www.folktunefinder.com/tunes/13109
+S:http://trillian.mit.edu/~jc/music/abc/air/AllanWater_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/AllanWater_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

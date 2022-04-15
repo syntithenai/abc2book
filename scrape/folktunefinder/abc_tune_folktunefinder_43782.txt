@@ -1,0 +1,22 @@
+X:1
+T:The Castle of Trim
+C:Andy Hornby 1995
+Q:1/4=180
+I:abc2nwc
+M:7/8
+L:1/8
+K:G
+d2e c2d2|B2c A2c2|BAG A2F2|D3D4|d2e c2d2|B2c A2c2|BAG A2F2|G3G4:|
+|:BAG c2A2|d2B c2A2|B2G A2F2|D3D4|BAG c2A2|d2B c2A2|BAG A2F2|G3G4:|
+|:g2d ec dB|c3A2cd|c2A BG AF|D3D4|g2d ec dB|c3A2cd|c2A BG AF|G3G4:|
+|:g2f e2d2|f2e d2c2|e2d c2B2|d3d4|efg d2g2|c2g B2g2|BAG A2F2|G3G4:|
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43782
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

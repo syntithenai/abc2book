@@ -1,0 +1,24 @@
+X: 4
+P: The Ferry Jig
+O: Trad
+B: SCD-20
+B: Kerr (Merry Melodies) v.4 #264, p.28
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: A
+   ed || "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "F#m"cBA | "Bm"cBB "E7"Bed \
+       | "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "E7" BAB |  "A"A3      z :|
+|: ed || "A"cea aga | "D"fdf    agf | "A"e2c "F#m"cBA | "Bm"cBB "E7"Bed \
+       | "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "E7" BAB |  "A"A3      z :|
+S:https://www.folktunefinder.com/tunes/9972
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BannocksAndBrose2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

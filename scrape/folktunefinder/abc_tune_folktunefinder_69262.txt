@@ -1,0 +1,24 @@
+X:403
+T: "Gute Lehre"
+N: Z1083
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: G
+d2 | _B3AG2A3GF2 | G6-G4
+A2 | _B2B2B2c2c2c2 | d6-d4
+d2 | d4=f2f4d2 | d4c2c4z2
+_B2B2B2A3GF2 | d4d2d4
+c2 | _B3AG2A4F2 | G4z6
+S:https://www.folktunefinder.com/tunes/69262
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 2
+T: die Mame is gegangen in Markt areyn
+M: 2/4
+L: 1/8
+D: Kapelye "Future and Past" (Flying Fish 249)
+K: Ador
+E \
+| "Am"AE Ac | ^de dc | ^de ee | e3 f \
+| g>f (3gfe | e>^d (3edc | "B"B^d dd | d4 |
+| "Am"e>^d (3edc | c>B (3cBA | "E"AB BB | e3- (3efe \
+| (3^def (3edc | (3e^dc (3cBA | "Am"A4- | A3 :|
+|: (3cef \
+| "Am"g3 f | g3 f | g>f e^d | e3 f \
+| g>f ga | ~ba ~gf | gf e^d | e2 e2 |
+| "Am"e2 e2 | "B"^d3 c | "Am"(3e^dc (3cBA | "E"B3 ~e \
+| "(B7)"(3^def (3edc | "E7"(3e^dc (3cBA | "Am"A4- | A3 :|
+K: A
+|: B \
+| "A"c3 B | A2 Bc | "Bm"d2 c2 | B4 \
+| "E7"B>c de | ~cA ~BG |1 Aa gf | ed c :|2 "A"A4- | A3 :|
+S:https://www.folktunefinder.com/tunes/7188
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/MameIsGegangenInMarktAreyn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

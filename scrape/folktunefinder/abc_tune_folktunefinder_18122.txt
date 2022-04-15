@@ -1,0 +1,22 @@
+X: 1
+T: Sir Reginald MacDonald
+B: Susie Petrov Her Book of Musick
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+%%staffsep 35
+f2 | "A"edcB A2Ac | "Bm"B2Bc "E7"defa | "A"edcB "F#m"A2Ac | "E7"BEGB "A"A2 :|
+f2 | "A"eAcA eAcA | "Bm"B2Bc "E7"defa | "A"eAcA      eAcA | "E7"BEGB "A"A2 |]
+f2 | "A"eAcA eAcA | "Bm"B2Bc "E7"defg | "A(D)"aefd   cAAc | "E7"BEGB "A"A2 |]
+S:https://www.folktunefinder.com/tunes/18122
+S:http://trillian.mit.edu/~jc/music/abc/reel/Sir_Reginald_MacDonals_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Sir_Reginald_MacDonals_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

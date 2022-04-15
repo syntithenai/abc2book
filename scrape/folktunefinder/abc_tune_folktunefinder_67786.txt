@@ -1,0 +1,26 @@
+X: 83
+T:Kulka
+O:Bulgaria
+L:1/8
+M:2/4
+Q:1/4=140
+K:F
+|:"Dm"D4| A4| "G"GF "C"ED| "Dm"D4:|
+|:"Dm"~D2D2| A4| "G"GF "C"ED| "Dm"D4:|
+|: "G"GF "C"ED| "Dm"A4| "G"GF "C"ED| "Dm"D4|\
+ "G"GF "C"ED| "Dm"A2 A2| "G"GF "C"ED| "Dm"D2 D2 :|
+|:"Dm"D2 D2| "Dm"A2 A2| "G"GF "C"ED| "Dm"D2 D2:|
+|:"Dm"D2 D2| "Dm"A2 A2| "G"GF "C"ED| "Dm"D2 D2:|
+|:"C"EF "G"G2| "G"G2 G2| "Fm"^G2 G2| "G"G4| "C"EF "G"G2| "Fm"^G2 "C"c2 |"E"=B_A"G"GF | G4:|
+|: "G"GF"C"ED| "Dm"D4| | "G"GF"C"ED| "Dm"D4| | "G"GF"C"ED| "Dm"D4|  "G"GF"C"ED| "Dm"D4:|
+|:"C"CD E2| E2 E2| "Dm"F2 F2| "C"E2 "Dm"DC| D2 D2| D2 "C"C2| "Dm"D2 "C"E2 | C4
+:|
+S:https://www.folktunefinder.com/tunes/67786
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 13
+T:Quick March. JMP.013
+M:6/8
+L:1/8
+Q:110
+C:"16"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:E minor
+d | gag fed | efe dBG |  ABA ABd | ecA A2d |!
+gag fed | efe dBG |  ABA ABc | BGE E2 :|!
+|:D | G3 BAG | d2G BAG | ABA ABd | ecA A2D |!
+G3 BAG | d2G BAG | ABA ABc | BGE E2E |!
+G3 dBG | G3 dBG | ABA ABd | ecA A2d |!
+gag fed | efe dBG | ABA ABc | BGE E2 :|]
+S:https://www.folktunefinder.com/tunes/1950
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Christine's Strathspey
+C: Pat Clark (1999)
+N: Title tune for the dance Getting to Know You, devised by Shelagh Dempsey
+N: and the First Fortnight Prelim Class at Summer School in July 1999
+N: for their teacher Christine Mair.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"E7"c>B \
+| "Am"A>B ce "Dm"d>e (3fga | "Am"ec "Bm"d>B "E7"c/e/d/c/ B2 \
+| "Am"A>E AB c>d (3edc | "E7"B/c/B/A/ ^G/A/G/^F/ E2 c>B |
+| "Am"A>B ce "Dm"d>e (3fga | "Am"ec' b>a "E7"^ge dc/B/ \
+| "Am"cA c/d/e "Dm"fd (3fga | "E7"^g>a g/a/b/g/ "Am"a2 ||
+"G7"(3GAB \
+| "C"cc dc "G"BG "E7"G>^G | "Am"Aa ed/c/ "E7"BE ^F>^G \
+| "Am"AA Bc "Dm"d/c/d/e/ f/d/e/f/ | "E7"e>d ef e^g ab |
+| "Am"c'>e ce "Dm"d>e f/g/a | "Am"ec' b>a "E7"^ge dc/B/ \
+| "Am"cA c/d/e "Dm"fd (3fga | "E7"^g>a g/a/b/g/ "Am"a2 |]
+S:https://www.folktunefinder.com/tunes/19267
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ChristinesS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ChristinesS.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/ChristinesS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

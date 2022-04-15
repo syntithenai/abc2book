@@ -1,0 +1,26 @@
+X:64
+T: ES GING EIN MAIDLEIN ZARTE
+N: Z0065
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze, Tod
+M: 6/4
+L: 1/4
+K: E
+E | =c2BA2B | =F3E2
+B | e2=g=f2e | B3-B2
+E | =c2BA2B | =F3E2
+B | e2=g=f2e | B3-B2
+B | =d2AB2d | B2A=G2
+B | e2=g=f2e | d3B2
+B | =G2B=F2E | E3-E2
+S:https://www.folktunefinder.com/tunes/68923
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

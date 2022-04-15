@@ -1,0 +1,24 @@
+X:29
+T:Miss Monaghan's
+R:Reel
+O:Ireland
+M:4/4
+L:1/8
+K:D
+(D | "D" D2) ED FAAd | "G" B2 {d}BA "A" FAAB | "D" d2 (dB) ABd(e | f/e/f) de   "A" fee(D |
+     "D" D2) ED FAAd | "G" B2 {d}BA "A" FAAB | "D" d2 (dB)  ABdB | "A" A(FEG)  "D" FD D2 |
+    (3DD(D ED)  FAAd | "G" B2 {d}BA "A" FAAB | "D" d2 (dB) ABd(e | f/e/f) de   "A" fee(D |
+     "D" D2) ED FAAd | "G" B2 {d}BA "A" FAAB | "D" d2 (dB)  ABdB | "A" A(FEG)   "D" FDDf ||
+  |: "D" a3 b   afdf | "G" gefd    "A" e(dBc) | "D" d2 (dB) ABd(e | f/e/f) de "A" (fe) e2 |
+     "D" a3 b   afdf | "G" gefd    "A" e(dBc) | "D" d2 (dB)  ABdB |1 "A" A(FEG)  "D" Fdfg :|2 "A" A(FEG) "D" FD D2 |]
+S:https://www.folktunefinder.com/tunes/66713
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:281
+T: Lasst uns fahrn nach Engelland zu!
+N: A0322
+O: Europa, Mitteleuropa, Deutschland
+N: Ammerbach Tablaturbuch 1571
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/4
+L: 1/8
+K: G
+d2d2d2 | d2d2_e2e2 | c4
+d2_e2 | =f2g2_e4 | d4z2
+d2 | g2g2_e2e2 | =f2f2d4 | c2A2G4
+_B2c2d4 | A2_B2c4
+G2A2B2c2 | A3AG4
+_B2c2d4 | A2_B2c4
+G2A2B2c2 | A3AG4
+G2A2_B2c2 | A3AG4 | z2
+S:https://www.folktunefinder.com/tunes/68827
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

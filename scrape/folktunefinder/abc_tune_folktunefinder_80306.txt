@@ -1,0 +1,28 @@
+X:247
+T: Litanei von den heil. Aposteln, Martyrern und Beichtigern
+N: A0606
+O: Europa, Mitteleuropa, Deutschland
+N: Haym v. Themar Schoene Christenliche Cath. Weinaecht... 1590 No. 17.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: F
+F | FGAB | c2cc | dcAB | c3
+F | FGAB | c2cc | dcAB | c4
+f2d2 | e2c2 | dcAB | c4
+f2d2 | e2c2 | dcAB | c4
+zcdc | ABc2 | zcdc | ABc2
+f2d2 | e2c2 | dcBA | G2c2 | AAG2 | F2
+AA | AAGG | F2A2 | BAGG | F3
+S:https://www.folktunefinder.com/tunes/80306
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

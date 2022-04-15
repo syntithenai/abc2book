@@ -1,0 +1,24 @@
+X:303
+T: Martinslied des 14. Jahrhunderts
+N: A0349
+O: Europa, Mitteleuropa, Deutschland
+N: Lambacher Hs. (15. Jh.) fol 169.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: E
+E2 | =FEFF | =D2E=F | E2=D2 | =FFAA | =GG=FF | E2
+e2 | =cBc=d | e2=de | =d=cBc | =dddd | =c2A2 | =c2A2 | =F2
+A=G | =FE=D2 | =FFF=G | AA=G=F | E2=D2
+=FFFF | =FFE2 | A=cA2 | =G2=F2 | E2
+S:https://www.folktunefinder.com/tunes/68849
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

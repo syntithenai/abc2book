@@ -1,0 +1,25 @@
+X:85
+T: DIE DONAU IST INS WASSER GFALLN
+N: E1113A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Kreis Wetzlar; Taunus
+R: Luegen - Lied, Maerchen
+M: 2/4
+L: 1/8
+K: G
+D | GGGA | BBB
+B | ABcF | G2z
+A | AGFG | AFF
+A | AGFG | AFF
+D | GGGB | d3
+c | BBAA | G2z
+S:https://www.folktunefinder.com/tunes/79189
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Luegen - lied, maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

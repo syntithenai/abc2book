@@ -1,0 +1,36 @@
+X: 1
+T: Bruramarsj fr\aa Innherad
+T: Bride's march from Innherad
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+V: 1
+B \
+|: "G"d3 e | "D7"d>B c>A | "G"G4 | D4 \
+| G>F GA | BG (3dcB | "D7"B>A A>^G | Ae dc |
+| "G"c>B B>B | Bd "D7"ef | "Em"g4 | "D7"f4 \
+| "A7"e>f ge | d^c/d/ e^c | "D"d2 d>d |1 dc Bc :|2 dD "G"GB ||
+|: "G"d2 d>e | d^c/d/ ed | "D7"c3 B | AD FA \
+| c2 c>d | cB/c/ dc | "G"B3 A | G3 G | "C"e2 ed/e/ | "D7"f2 fe/f/ |
+| "G"g2 g>g | g3 e | dg dc | BA/B/ "D7"cA \
+| "G"GF/G/ "D7"AF |  "G"G2 G>G |1 GD GB :|2  G3 |]
+V:2
+G \
+|: B3 G | F>G F>F | D4 | d4 \
+| B>A GF | GD (3BAG | G>F F>^E | Fc BA |
+| A>G G>G | GB cA | B4 | d4 \
+| ^c>A c2 | A2 ^c>A | F2 F>F |1 FF FA :|2 F2 DG ||
+|: B2 B>c | B^A/B/ cB | F3 G | D3 F \
+| A2 A>F | AG/A/ FA | D3 F | G3 G | c2 cB/c/ | d2 c2 |
+| B2 B>B | B3 G | GB BA | dc/d/ ec \
+| BA/B/ cc | B2 B>B |1 B2 DG :|2 B3 |]
+S:https://www.folktunefinder.com/tunes/15371
+S:http://trillian.mit.edu/~jc/music/abc/march/Bruramarsj_Innherad.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Bruramarsj_Innherad.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

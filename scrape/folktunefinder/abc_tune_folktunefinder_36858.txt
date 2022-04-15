@@ -1,0 +1,30 @@
+X:3895
+T:Newcastle hornpipe
+C:James Hill
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a2d.html
+%%ID:00000a2d
+K:C
+(3dcB|\
+c2C2 (3edc (3BAG|F2a4 g>f|\
+e>g c>e d>f B>d|c>c' b>a g>f e>d|
+c2C2 (3fed (3BAG|F2A4 g>f|\
+e>g c>e d>f B>d|(3ceg (3c'ge c2||
+(3DCB,|\
+C>E G>c e>g c'>b|b>a a>^g a2C2|\
+B,>D G>B B>g b>a|a>g g>f g2 (3DCB,|
+C>E G>c e>g c'>b|b>a a>^g a2 c'2|\
+b>a g>f e>d c>B|(3ceg (3c'ge c2|]
+S:https://www.folktunefinder.com/tunes/36858
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

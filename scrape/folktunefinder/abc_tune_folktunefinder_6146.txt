@@ -1,0 +1,27 @@
+X: 1
+T: Triti P\^uti
+Z: John Chambers <jc@trillian.mit.edu>
+D: 
+M: C|
+L: 1/8
+K: G_A
+"A"\
+|: "G"FGAG  GDcd | "Fm"FGAG "G"G2GD | FGAG  GDcd | "Fm"FGAG "G"G2z2 :|
+"B"\
+|: "G"FGGG "Cm"cBcd | "Fm"BccB "G"BA~G2 | "G"FGGG "Cm"cBcd | "Fm"FGAG "G"GD~G2 :|[K:G]
+"C"\
+|: "G"GAAD "D7"~B2AA | "G"AG~B2 AGGD | "G"GAAD "D7"~B2AA |1 "G"AGGD G2GD :|2 "G"AGGD G2z2 ||
+"D"\
+|: "C"eddc "G"~B2cd | "D7"A2GG "G"GDGG | "C"cd~d2 "G"dcBG |1 "D7"~A2GG "G"~G2cd :|2 "D7"~A2GG "G"G2z2 ||
+"E"\
+|: "D"~d2ef ga~f2 | "Am"cd~e2 cBBA | "D"d2ef ga~f2 | "Am"cded "D"d2z2  :|
+"F"\
+|: "Am"cd~e2 cBBA | "D"^cdef ga~f2 | "Am"cd~e2 cBBA | "D"^cded "D"d2z2 :|
+S:https://www.folktunefinder.com/tunes/6146
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TritiPuti2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

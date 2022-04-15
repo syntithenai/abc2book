@@ -1,0 +1,54 @@
+X:1
+T:Tripping Up Stairs
+C:Air Trad, Harmony Laurie Griffiths (distribute freely)
+L:1/8
+M:6/8
+K:D
+V:1
+Q:368
+"D"FAA "G"GBB |\
+"D"Ade fed |\
+"A"cBc ABc |\
+"D"dfe dAG |\
+"D"FAA "G"GBB |\
+"D"Ade fed |\
+"A"cBc ABc |\
+"D"dfe d3 :|
+|: "Bm"dBB fBB |\
+"Bm"dBB fed |\
+"A"cAA eAA |\
+"A"cAc edc |\
+"Bm"dBB fBB |\
+"Bm"dBd fed |\
+"A"cBc ABc |\
+"D"dfe d3 :|
+V:2
+L:1/8
+M:6/8
+K:D
+Q:368
+D2 D G2 G |\
+A2 A dcB |\
+A2 A FGA |\
+FAG F2 E |\
+D2 D G2 G |\
+A2 A dcB |\
+A2 A FGA |\
+ABA A3 :|
+|: F2 F F2 F |\
+F2 F AGF |\
+E2 E E2 E |\
+E2 E GFE |\
+F2 F F2 F |\
+F2 F AGF |\
+E2 E E2 E |\
+FAG F3 :|
+S:https://www.folktunefinder.com/tunes/15996
+S:http://trillian.mit.edu/~jc/music/abc/misc/TrippingUpStairs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

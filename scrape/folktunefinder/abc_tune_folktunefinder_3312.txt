@@ -1,0 +1,21 @@
+X: 2
+M: 6/8
+P: Morrisson's Jig
+R: jig
+K: EDor
+|: "Em"~E3 BEB | EBE "D"AFD | "Em"~E3 BEB | "D"dcB AFD \
+|  "Em"~E3 BEB | EBE "D"AFD | "G"~G3 "D"FGA | "(G)"dAG "D"FED :|
+|| "Em"Bee fee | aee "(D)"fed | "Em"Bee fee | "D"a2g fed \
+|  "Em"Bee fee | aee "D"fef | "Em"gfe "D"d2A | "(G)"BAG FED ||
+|| "Em"Bee fee | aee "(D)"fed | "Em"Bee fee | "D"faf def \
+|  "G"~g3 gfe | "D"def "G"g2d | "(A)"edc "D"d2 A | "(G)"BAG "D"FED |]
+S:https://www.folktunefinder.com/tunes/3312
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ63.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

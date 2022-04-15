@@ -1,0 +1,25 @@
+X: 1
+T: the Cock o' the North
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+dc \
+|: "G"B2B BAG | Bcd "C"e2c | "G"B2B BAG | "D7"A3- Adc \
+|  "G"B2B BAG | Bcd "C"e2c | "G"BGB "F"A=FA | "G"G3- G2 :|
+|: "G"{f}g2d "C"e2d | "G"g2d "C"e2d | "G"B2B BAG | "D7"A3- A2f \
+|  "G"g2d "C"e2d | "G"g2d "C"e2d | "G"BGB "F"A=FA | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/14021
+S:http://trillian.mit.edu/~jc/music/abc/jig/CockOfTheNorth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/CockOfTheNorth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CockOfTheNorth.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/CockOfTheNorth.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CockOfTheNorth.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

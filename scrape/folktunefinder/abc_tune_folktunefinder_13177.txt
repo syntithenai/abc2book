@@ -1,0 +1,29 @@
+X: 1
+T: Ettrick Banks
+O: Trad
+S: from D.Smith
+N: Highland Whisky handwritten ms.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+(3FGA \
+| "Dm"F3E D2Ac | "Bb"d>c Ac "C"d3 f | "Bb"dc BA "F"f3 A | "Gm"BA GF "C"G2 A>G |
+| "Dm"F3E D2Ac | "Bb"d>c Ac "C"d3 e | "Dm"fg fe "Bb"d>e fd | "C"c2 A>B "F"A2 ||
+(3cde \
+| "F"f3g f2F2 | "Bb"A>B cd "C"c2 BA | "F"F3 g gfed | "Bb"e>f ga "C"g2 f>g |
+| "F"a3g f2F2 | "Am"A2 c2 "Bb"a3 g | "Dm"f>g fe "Bb"d>e fd | "C"c2 AB "F"A2 |]
+S:https://www.folktunefinder.com/tunes/13177
+S:http://trillian.mit.edu/~jc/music/abc/air/EttrickBanks_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/EttrickBanks_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/EttrickBanks_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

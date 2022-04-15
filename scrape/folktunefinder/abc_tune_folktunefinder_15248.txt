@@ -1,0 +1,31 @@
+X: 1
+T: West Kirkton
+C: John MacGregor
+R: jig
+B: Hamilton Leaflet
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+|| "F"F3 C3 | A3 F3 | c3 AFA | f2e d2c \
+ | "Gm"B3 D^CD | d3 G^FG | "C7"bag fed | cdc BAG |
+ | "F"F3 C3 | A3 F3 | c3 AFA | f2e d2c \
+ | "Gm"B2B Bcd | "C7"G2G GAB | g<bg ece | "F"f3- f2 ||
+C \
+|| "F"FCF AFA | cAc fef | FAc fef | "Gm"b2b d3 \
+ | "C7"bge cBG | BGE C3 | bag fed | cdc BAG |
+ | "F"FCF AFA | cAc fef | FAc fef | "Gm"b2b d3 \
+ | "(Bb)"B2B Bcd | "C7"G2G GAB | g<bg ece | "F"f3- f2 ||
+S:https://www.folktunefinder.com/tunes/15248
+S:http://trillian.mit.edu/~jc/music/abc/jig/WestKirkton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WestKirkton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/WestKirkton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WestKirkton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

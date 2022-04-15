@@ -1,0 +1,28 @@
+X:16864
+T:The Humours of Ballyloughlin
+M:6/8
+A:Ireland
+R:Jig
+K:G
+"Am"ABA AGE|"G"GED EGD|"Am"c2c cAd|"G"dcA GED|
+"Am"ABA AGE|"G"~G3 cGE|"D" DED DFA|[1DED D3:|[2DED D2B||
+"Am"Bcc cAB|cAG ABc|"D"ded ded|dcA DFA|
+"Am" c2A dcB|cAG FGE|"D"DED DFA|[1DED D2B:|[2DED D2e||
+K:D
+"D"~f2d ged|~f2d ged|"A"cde ged|cde ged|
+"D"~f2d ged|faf ged|"A"cde "Em"gag|[1"A"edc "D"d2e:|[2"A"edc "D"d2B||
+A2D ABG|FAF GED|"C"~E3 EFD|"A"EFD EFG|
+"D"ABA dAG|FAF GEA|DED DFA|[1DED D2B:|[2DED D3||
+S:https://www.folktunefinder.com/tunes/38235
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

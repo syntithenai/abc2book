@@ -1,0 +1,26 @@
+X:236
+T: As I Roved Out One Morning
+B: O'Neill's 236
+N: "With spirit"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:G
+D \
+| GG A(B/c/) | d(d/c/) A(B/c/) | d(B/G/) FG | F3 D \
+| GG A(B/c/) | d(d/c/) A(B/c/) | d(c/A/) GG | G3 ||
+|| (B/c/) \
+| (dg d)(c/B/) | (cd c)(D/E/) | FG (A/B/c/A/) | F3 (d/c/) \
+| (BA/).B/ (cB/).c/ | d(d/c/) A(B/c/) | d(c/A/) GG | G3 ||
+S:https://www.folktunefinder.com/tunes/73395
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

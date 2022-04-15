@@ -1,0 +1,28 @@
+X: 3
+P: Schubkarrn (F)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+"A"\
+|: "F"[AF][BG] [cA][dB] [c2A2] | [AF][BG] [cA][dB] [c2A2] \
+| "C7"[B2G2] [G2E2] | "F"[A2F2] [F2C2] \
+|  "F"[AF][BG] [cA][dB] [c2A2] | [AF][BG] [cA][dB] [c2A2] \
+| "C7"[B2G2] [G2E2] |  "F"[F2F2] z2 :|
+"B"\
+|:"Bb"[d2B2] [^cA][dB] | "F"[c2A2] [=B^G][cA] \
+| "C7"[B2G2] [A^F][BG] | "F"[A2F2] [^GE][AF] \
+"I"\
+| "Bb"[d2B2] [^cA][dB] | "F"[c2A2] [=B^G][cA] \
+|1 "C7"[B2G2] [A^F][BG] | "F"[A2F2] z2 \
+:|2  "C7"[e2B2] [dc][eB] | "F"[f2A2] z2 |]
+S:https://www.folktunefinder.com/tunes/4982
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Schubkarrn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Schubkarrn.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

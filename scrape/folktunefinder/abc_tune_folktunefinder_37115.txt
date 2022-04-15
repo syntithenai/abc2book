@@ -1,0 +1,24 @@
+X:5180
+T:Rona's Voe
+L:1/4
+M:3/4
+O:Scotland
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009dd.html
+%%ID:000009dd
+K:G
+B,C|\
+D3 |B2 F|A G2|D2 G|E2 G|A2 G|(B3|B) B,C|\
+D3 |B2 F|A G2|G2 B|A3  |A2 E|(A3|A) B,C|
+D3 |B2 F|A G2|D2 G|E2 G|A2 G|(B3|B2) D|\
+E3 |F3  |G3  |c3  |B2 D|B2 A|(G3|G)|]
+S:https://www.folktunefinder.com/tunes/37115
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

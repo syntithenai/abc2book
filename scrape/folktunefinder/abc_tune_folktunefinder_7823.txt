@@ -1,0 +1,30 @@
+X: 1
+T: Yamshchik, ne goni loshadey
+O: Russia
+C: Ya.L.Feldman
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: Dm
+A \
+| "Dm"A2 DE | F2{GF}ED | "Gm6"E4- | E2 zB \
+| "A7"A2 EF | G2 FE | "Dm"F4- | F2 zd |
+| "C7"c2 GG | d2 cB | "F"A2- "A7"A2- | "Dm"A2 "A7"zA \
+| "Dm"A2 "Gm"GD | "Dm"F2{GF}ED | "A7"A4- | A2 z ||
+|: A, \
+| "Dm"F2 ED | "A7"^C2 DE | "Dm"D4- | D2 zD \
+| "Gm"B2 AG | "D7"^F2 GA | "Gm"G4- | G2 zF |
+| "A7"E2 FG | B2 A^G | "Dm"A4- | "Gm"A2 zA, \
+| "Dm"HF2 ^CD | "E#7"HE2 "A7"=B,^C | "Dm"D2- "Gm"D2- | "Dm"D z2 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7823
+S:http://trillian.mit.edu/~jc/music/abc/Russia/YamshchikNeGoniLoshadey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

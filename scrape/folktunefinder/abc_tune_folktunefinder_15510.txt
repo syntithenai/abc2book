@@ -1,0 +1,37 @@
+X: 1
+T: Killicrankie
+O: Kerr v.1
+M: 2/4
+L: 1/8
+R: Slow March
+B: Kerr - Merry Melodies, v.1, 23
+S: AK/Fiddler's Companion
+F: http://www.ibiblio.org/fiddlers/KIC_KISI.htm 2008-2-23
+K: D
+(F/G/) \
+| A>BAF | A/F/A/B/ A>F | A/G/F/E/ D/E/F/G/ | A2 AF/A/ \
+| B>dB (A/B/) | dBB (3A/B/c/ | d>e f(e/d/) | B2 B ||
+f/a/ \
+| ba/f/ af/e/ | fe/d/ ef | d>B A/B/d/F/ | A2 Ad/c/ \
+| BA/B/ dB/d/ | ee f>e | d>B A/B/d/F/ | E2 D |]
+(f/g/) \
+| a>baf | a/f/a/b/ a>f | a/g/f/e/ d/e/f/g/ | a2 af/a/ \
+| b>d'ba | b/a/b/d'/ ba | ba/f/ ef/a/ | b2 b ||
+f/a/ \
+| b/a/f/b/ a/f/e/a/ | g/f/e/d/ ef | d>B A/B/d/F/ | A2 Ad/c/ \
+| BA/B/ dB/d/ | ee f>e | d>B A/B/d/F/ | E2 D |]
+S:https://www.folktunefinder.com/tunes/15510
+S:http://www.ibiblio.org/fiddlers/KIC_KISI.htm
+S:http://trillian.mit.edu/~jc/music/abc/march/Killiecrankie0_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Killiecrankie0_D.abc
+% Rhythm Slow march
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

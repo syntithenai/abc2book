@@ -1,0 +1,34 @@
+X:189
+T:Cantar de Ronda (CT 432)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en L.leitariegos.
+A:Asturies
+O:L.leitariegos
+Z:Cancioneru de Torner 432
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+|Gcc|cBc|(d3/2(3_e/4d/4c/4) B-|B3|
+d>dd|Bc(c/>A/)|(B3/2(3c/4B/4A/4) G|AAF|G3|AAF|G3-|G2 z|
+Gcc|ddc|(B-B/c/4B/4 A/B/4A/4|G)G2-|G2 ||
+W:Dicen que no nos queremos
+W:por que no nos ven hablare;
+W:a tu corazn y al mo
+W:se lo pueden preguntare.
+W:
+S:https://www.folktunefinder.com/tunes/59076
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

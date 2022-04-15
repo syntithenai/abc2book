@@ -1,0 +1,29 @@
+X: 49
+T:Sweet Girl
+S:from record Folkdance Underground vol. 3 F.U.3
+O:Armenia
+L:1/8
+M:2/4
+Q:1/4=144
+K:GDor
+%%MIDI gchord fzfz
+|: "F"z2 AB|c2 c2| "Gm"d2 dB| "F"c4| "F"cB "Gm"dB|"Gm"BA "F"cA| AG "Gm"BA| "C"G4 :|
+|: "F"z2 "Am"ef| "C"g2 g2| "F"f2 "Am"ef| "Gm"d4| "F"c2 AB| c2 c2 | "Gm"B2 "F"AB| "C"G4 :|
+S:https://www.folktunefinder.com/tunes/2761
+S:http://trillian.mit.edu/~jc/music/abc/Armenia/SirunAkhChik1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Armenia/SweetGirl1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SirunAkhChik1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SweetGirl1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/SirunAkhchik1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/SirunAkhChik1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/SweetGirl1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/SirunAkhchik1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:593
+T: Der Tausendknstler (291), S. 605
+N: T0481
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Mllertal, hhh "St\^iffelchen", 6.3.1916
+R: ]
+M: 2/4
+L: 1/8
+K: G
+DD | G2FE | D2DD | EEEE | D2DD | EEEE | D2
+DD | G2G2 | A2A2 | B2cA | G2G2 | F2EF | G2z2
+DDDD | EDD2 | z2
+ED | DD2D | DDDD | EDD2 | z2
+B_B | B_B=B2 | z2B_B | B_B=B2 | z2
+_B2 | B2D2 | F2D2 | G2
+BA | D2D2 | F2EF | G2
+S:https://www.folktunefinder.com/tunes/70723
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

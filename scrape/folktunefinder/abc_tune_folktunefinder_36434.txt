@@ -1,0 +1,30 @@
+X:1775
+T:Finn Jenta
+M:3/4
+O:Norway
+O:USA
+R:Waltz Bakmes
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000957.html
+%%ID:00000957
+K:G dorian
+D^F |\
+G2 G<^F G>A | {A}B2 BA B>c | \
+c<d dc d>e | f2 fe gf |\
+d2 dc Ac | B2 {c}BA G2 |
+^FG A2 F2 |1 D4 :|2 ^F<(G G2) ::\
+Bc |\
+[D2d2] c2B2 | [F4A4] AB | \
+c2 (3BcB A2 | [B,3G3] ^F GA |
+[D2B2] A2 ^F2 | D2A2 ^F2 \
+|1 G2 d2 ^c2 | ^c<(d d2) d2 :|2 G3G G2 |[B,2G2]:|
+S:https://www.folktunefinder.com/tunes/36434
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz bakmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

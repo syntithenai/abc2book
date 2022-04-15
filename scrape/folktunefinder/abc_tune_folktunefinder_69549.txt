@@ -1,0 +1,27 @@
+X:690
+T: "Der wunderliche Kittel"
+N: Z1371
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Kinder - Lied
+M: 6/8
+L: 1/8
+K: G
+D | D2GGAB | B2DD2
+D | B2GGFG | A2FD2
+D | D2GGAB | BAAA2
+c | BABBcd | dcBA2z
+B2GGFG | A2FD2z
+DGGG2z
+G2BdcB | AAFG3
+DGGGGG | GGGGGG
+G2BdcB | AAFG2
+S:https://www.folktunefinder.com/tunes/69549
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Hopak
+T: Kasatske
+O: trad Russia
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: "A"a4 c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"dcdB c2A2 | "A"aga2  c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"edcB "A"A4 :| [K:D]
+|: "D"A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"f2d2 | A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"d4 :|
+S:https://www.folktunefinder.com/tunes/13405
+S:http://trillian.mit.edu/~jc/music/abc/folk/Kasatske_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Kasatske_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/Kasatske_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/Kasatske_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/Kasatske_Bb.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

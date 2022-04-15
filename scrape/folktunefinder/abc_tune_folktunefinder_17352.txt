@@ -1,0 +1,27 @@
+X: 1
+T: Highland Rory
+T: Drunken Piper variation
+B: Gesto Collection
+S: handwritten MS by Barbara McOwen
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+e2 | "Am"AAAB eAcA | "Am"efed "G"BgdG | "G"GGGB dGBG | "G"Bdge "E7"dedB |
+y2 | "Am"AAAB eAcA | "Am"efed e2a2 | "G"g2eg "E7"efed | "Am"B2AA A2 :|
+e2 | "A"aeea "G"gedB | "Am"e2fd e2g2 | "G"GGGB d2de | "G"dBGB "E7"d2e2 |
+y2 | "A"aeea "G"gedB | "Am"e2fd e2a2 | "G"g2eg "E7"efed | "A"B2AA A2 |]
+e2 | "A"aeea "G"gedB | "Am"e2fd e2g2 | "G"GGGB d2de | "G"dBGB "E7"d2e2 |
+y2 | "Am"AAAB eAcA | "Am"efed e2a2 | "G"g2eg "E7"efed | "Am"B2AA A2 |]
+S:https://www.folktunefinder.com/tunes/17352
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighlandRory_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HighlandRory_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/HighlandRory_Am.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

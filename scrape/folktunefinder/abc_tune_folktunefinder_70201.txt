@@ -1,0 +1,24 @@
+X:71
+T: D'Fullenhochzeit, S. 38
+N: L0031
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: Hochzeitslied]
+M: 2/4
+L: 1/8
+K: G
+d | d_Bcd | _BAG
+d | d_Bcd | _BAG
+B | A2Dd | d2_B
+d | _edcd | _BAG
+S:https://www.folktunefinder.com/tunes/70201
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Hochzeitslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

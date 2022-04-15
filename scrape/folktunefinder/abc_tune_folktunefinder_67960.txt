@@ -1,0 +1,41 @@
+X: 74
+T:Daichovo Horo
+O:Bulgaria
+S:from record Folkdance Underground F.U.1
+L:1/8
+M:9/8
+Q:1/4=240
+P:ABBCDEFG
+%%MIDI beatstring fpmpmpmpp
+%%MIDI drum d2d2d2d3 41 41 41 41
+K:Bm
+%%MIDI drumon
+P: A
+|: A2 e2 c2 A2 z| A2 =c2 B2 A2 z| A2 e2 c2 A2 z| A2 =c2 B2 A2 z :|
+P: B
+%%MIDI drum d2d2d2d3 35 35 35 35
+|: A2 A2 AB c3  | dcB2 ABc3     | dcB2 ABc3    | dcB2 A2 A3     :|
+P: C
+|: cdefg2f3     | e2 g2 f2 e3   | cdefg2f3     | e2 g2 f2 e2 z  :|
+P:D
+|: gfed c2B3    | c2 e2 c2 B3   | gfed c2B3    | c2 e2 c2 B2 z  :|
+P:E
+|: a^g a2 ag f3 | e3f ed c2z    | a^g a2 ag f3 | e3f ed c3 z    |
+   a^g a2 ag f3 | e3f ed c2z    | d2 d2 dcB3   |A4 z4 z1        :|
+P:F
+|: d4 f2 f2 z   | e3 e fed c2   |[1 d4 f2 f2 z | e6 z3          :|\
+   [2 d4 dcB3|A6 z3|
+P:G
+|: dcd2 dcB2 z  | A2AB cd3 z1   | dcd2 dcB2 z  | BA6 z2         :|
+S:https://www.folktunefinder.com/tunes/67960
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

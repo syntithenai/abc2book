@@ -1,0 +1,27 @@
+X: 1
+T: Bedstefars rheinl\aenderpolka nr #5
+T: Grandfather's Polka #5
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2g2 d2b2 | g2fe d2ed |1,3 "D7"c2A2 A2dc | "G"B2G2 G2 :|2 "D7"cBAB cdef | "G"g2g2 g2 :|
+K: D
+|::: "D"A2FA d2Ad | f2f2 fagf |1,3 "A7"e2e2 egfe | "D"d2cB A4 :|2 "A7"e2b2 a2c2 | "D"d4 z2 :|
+K: G
+|: BA \
+| "G"B2B2 BdcB | "D7"A4 z2AB | c2c2 cedc | "G"B4 z2d2 \
+|    b2g2 d2B2 | "Am"A6   e2 |1 "D7"d6 c2 | "G"B4 z2 :|2 "D7"d6 F2 | "G"G4 z2 |]
+S:https://www.folktunefinder.com/tunes/16047
+S:http://trillian.mit.edu/~jc/music/abc/polka/BedstefarsRheinlaenderPolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka/BedstefarsRheinlaenderPolka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/BedstefarsRheinlaenderPolka_G.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

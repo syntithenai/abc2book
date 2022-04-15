@@ -1,0 +1,23 @@
+X:6410
+T:Tailor's Thimble, The
+O:england
+M:4/4
+L:1/8
+R:reel
+K:BMin
+dBcA BAFA|:dcde f2 ec|d ~B3 BAFA|BdcA B3 c|
+dBBA ~F3A|dcde fdec|dBBA BAFA|BdcA B3 c|
+d2 Bc dcde|f2 bf afea|fdBc ~d3 e|fbaf e^deg|
+fdBc ~d3|f2 bf aefa|b ~f3 aefa|bfaf e^deg|fedc BAFA:|
+S:https://www.folktunefinder.com/tunes/26862
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

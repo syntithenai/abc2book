@@ -1,0 +1,32 @@
+X:265
+T:Danza (CT 180)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, dictada por Manuela y Josefa Martnez Martnez, de ochenta y ochenta y dos aos, respectivamente, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 180
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+G|GGc c2A|B2B- B2d|ddB c2B|
+G2A- A2c|ccA B2G|F2G- G2:|
+W:Si por beber nuna fuente (bis)
+W:dejaste secar l otra (bis)
+W:amar para aborrecer
+W:es una inorancia loca.
+W:
+S:https://www.folktunefinder.com/tunes/59152
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

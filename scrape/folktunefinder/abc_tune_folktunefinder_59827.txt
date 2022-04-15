@@ -1,0 +1,43 @@
+X:940
+T:Xiringelu (MG 43)
+R:Saltn
+C:Versin de Jos Remis Ovalle
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 43
+M:2/4
+L:1/8
+Q:1/4=200
+E:Nivel 4
+K:C
+~G
+|: CDEF|{CG}FECE|{CF}EDB,D|GcG~E|CDEF|{CG}FECE|{CF}EDB,D|C3 G :|
+|: c~ecB|GAFA|GEFD|cGEG|c~ecB|GAFA|[1 ~GFED|{B,}C2 G2 :|[2 GEFD|B,2 ED|{B,}C3 G|
+|: CDEA|~AGEG|GFDF|~AGEG|EFGA|~AGEG|GFDG|.EG.EG|
+|EFGA|~AGEG|GFDA|~AGEG|EFGA|AGEA|[1 GF~ED|{B,}C3 G :|[2 GEFD|B,2 E~D|{B,}C3 G|
+|CDEF|{CG}FECE|{CF}EDB,D|GcA~E|CDEF|{CG}FECE|{CF}EDB,D|{B,}C4|
+|: G2 AB|c2 ~dc|B3 c|A2 AB|G4|{A}G2 AB|c2 ~dc|B3 c|
+|A2 AB|G3 A|F2 FG|E4|A2 AB|G2 GA|F2 FG|E4|A2 AB|G2 GF|G2 AB|[1 c4 :|[2 c2 e2|c4|
+|: {f}ec{f}ec|~e3 c|{f}ec{f}ec|f3 c|e2 dc|[1 dedB|dBde|c4 :|[2 ~d3 B|dBde|c3 G|
+|: cecB|GAFA|GEFD|cGEG|cecB|GAFA|[1 GFED|C3 G :|[2 GEFD|B,2 ED|C3 G|
+|: CDEA|~AGEG|GFDA|~AGEG|EFGA|~AGEG|GFDG|.EG.EG|
+|EFGA|~AGEG|GFDA|~AGEG|EFGA|AGEA|[1 GF~ED|{B,}C3 G :|[2 GEFD|B,2 E~D|{B,}C3 G|
+|CDEF|{CG}FECE|EDB,D|GcGE|CDEF|{CG}FECE|EDB,D|C4|
+|: G2 GF|.E2 EF|~G2 E2|GcGF|.E2 EF|~G2 E2|EFDE|C2 ~DC|
+|B,4|EFDE|C2 ~DB,|C4|EFDE|C2 ~DC|B,4|EFDE|C2 ~DB,|[1 C4 :|[2 C3 ~G|
+|CDEF|{CG}FECE|{CF}EDB,D|GcG~E|CDEF|{CG}FECE|{CF}EDB,D|C3 G|
+|: CDEA|~AGEG|GFDA|~AGEG|EFGA|~AGEG|GFDG|.EG.EG|
+|EFGA|~AGEG|GFDA|~AGEG|EFGA|AGEA|[1 GF~ED|{B,}C3 G :|[2 GEFD|B,2 E~D|{B,}C3 G|
+|CDEF|{CG}FECE|EDB,D|GcGE|CDEF|{CG}FECE|EDB,D|C4|
+S:https://www.folktunefinder.com/tunes/59827
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

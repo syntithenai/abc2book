@@ -1,0 +1,39 @@
+X:180
+T:Cantar de Ronda (CT 290)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Murias, ayuntamiento de Quirs.
+A:Asturies
+O:Murias (Quiros)
+Z:Cancioneru de Torner 290
+M:9/8
+L:1/8
+Q:3/8=72
+K:G
+BBc
+|d3 e2 c (d>cB|c3-)c2 z BBc|d3 e2 c (dc)A|B2 G A>BA BAF|G3-G2 z BBc|
+d3 e2 c (d>cB)|c3-c2 z BBc|d3 e2 c dcA|B2 G A>BA BGF|G3-G2 z||
+W:Desde la ltima vez
+W:desde la ltima vez
+W:que estuve en tu compaa
+W:y anda!
+W:que estuve en tu compaa,
+W:mis ojos no descansaron
+W:ni vieron ms alegra
+W:y anda!
+W:
+S:https://www.folktunefinder.com/tunes/59067
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

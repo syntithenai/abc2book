@@ -1,0 +1,23 @@
+X:2195
+T:Halling
+M:2/4
+O:Norway
+R:Halling
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a6c.html
+%%ID:00000a6c
+K:D dorian
+DE |\
+F2d2 E2e2|d2~c2 A2DE|F2d2 E2e2|d2^c2 d2:|
+|: DE|\
+F2FD C2CA,|B,2B,^C D2DE|F2FD C2CA,|B,^C3 D4:|
+S:https://www.folktunefinder.com/tunes/36518
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

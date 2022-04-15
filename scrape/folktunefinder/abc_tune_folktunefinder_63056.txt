@@ -1,0 +1,21 @@
+X:375
+T:New Custom House
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of Dmix)
+K:Dmix
+"D"AD ~D2 FGAB | "Am"cAGE CEGB | "D"ADdD EGAB | "C"c2ec dcAG |
+"D"AD ~D2 FGAB | "Am"cAGE CEGB | "D"ADdD EGAB | "C"cAGE "D"EDDB :|:
+"D"Ad ~d2 Ad ~d2 |"A"eAfA efge | "D"Ad ~d2 Ad ~d2 | "C"eage eddB |
+"D"Ad ~d2 Ad ~d2 | "A"eAfA efge | "C"a2ge fdBd | "A"eage "D"eddB :|]
+S:https://www.folktunefinder.com/tunes/63056
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of dmix)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

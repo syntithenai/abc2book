@@ -1,0 +1,22 @@
+X:1
+T:2 Francs Worth
+C:Andy Hornby 1995
+N:July 1994
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+GB|d2de|dB GA|BG ge|d2GA|Bd de|dB GA|[1B2A2|A2:|[2B2G2|G2
+[|Bd|ec Ge|cG ge|dB GB|d2Bd|ec Ge|cG ge|dB GB|A2GB||
+d2de|dB GA|BG ge|d2GA|Bd de|dB GA|B2G2|G2|]
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43751
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

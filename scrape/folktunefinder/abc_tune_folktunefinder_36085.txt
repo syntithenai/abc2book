@@ -1,0 +1,22 @@
+X:30
+T:3/4
+B:Rasmus Storm's Notebook
+D:Rasmus Storm's Notebook
+M:3/4
+O:Denmark
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b5f.html
+%%ID:00000b5f
+K:D dorian
+B2 B2 c2|B>B Bd cB|\
+B2 B2 c2|B>B Bd cB|B>A AF D2::
+d>e fg af|b>a af ga|(3fgf (3ece A2|\
+d>e fg af|b>a af ga|(3fgf (3ece d2:|
+S:https://www.folktunefinder.com/tunes/36085
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

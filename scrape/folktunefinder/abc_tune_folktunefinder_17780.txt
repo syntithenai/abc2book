@@ -1,0 +1,29 @@
+X: 1
+T: Nine-Pint Coggie
+N: Skye Collection p.184, Kerr's 3rd p.9, Little p.6
+N: See also "Davie Work" in Skinner's "The Scottish Violinist"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+S: John Doherty
+R: Reel
+N: from The Northern Fiddler p. 72
+K: A
+E \
+| [C2E2A2] cA GABc | dcBA GEGB | (3AAA cA Bcdf | ecdB {d}cAAa |
+| (3AAA cA GABc | dcBA GEFG | AcEc ABcd | ecdB cA A :|
+|: a \
+| (3aaa Aa fddf | (3bbb Bb geeg | (3aaa Aa fdfa | ecdB {d}cAAa |
+| (3aaa Aa fddf | (3bbb Bb gefg | agae fdfa | ecdB cA  [CE] :|
+S:https://www.folktunefinder.com/tunes/17780
+S:http://trillian.mit.edu/~jc/music/abc/reel/NinePintCoggie2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NinePintCoggie2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

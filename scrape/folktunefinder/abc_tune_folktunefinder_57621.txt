@@ -1,0 +1,34 @@
+X:140
+T:Our Highland Queen
+C:James Scott Skinner
+B:The Scottish Violinist, n.d.
+Z:Nigel Gatherer
+N:This is a simplified version, not as written in the book
+M:4/4
+L:1/8
+K:D
+(3A,B,C|D>AF>A D>AF>A|(3fed (3cdB A2 AF/D/|C>AG>A F>AD>A|\
+(3FED (3CDB, A,3 (3A,/B,/C/|
+D>AF>A D>AF>A|(3fed (3cdB A2 AG/F/|(3GBe E>G (3FAd A>G|\
+FE/D/ C/FE/ D3||
+(3A/B/c/|d>f (3Adf (3afd (3AFD|(3A,DF (3AFd A3 (3B/c/^d/|\
+e>g (3Beg (3bge (3BGE|(3CEG (3CEA F3 (3A/B/c/|
+d>f (3Adf (3afd (3AFD|(3A,DF (3AFd A2 AG/F/|\
+(3GBe E>G (3FAd A>G|FE/D/ C/FE/ D3||
+S:https://www.folktunefinder.com/tunes/57621
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+S:http://nigelgatherer.com/tunes/abc/tb03.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb03.abc
+S:http://nigelgatherer.com/tunes/abc/abc2/ourh.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abc2/ourh.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc2/ourh.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abc2/ourh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

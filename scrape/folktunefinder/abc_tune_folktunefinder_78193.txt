@@ -1,0 +1,27 @@
+X:172
+T: WIE REIZEND WIE WONNIG IST ALLES UMHER
+N: B0206
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling, Natur
+M: 2/4
+L: 1/8
+K: G
+d | d2Bd | d2B
+d | c2AA | B2z
+d | d2Bd | d2B
+d | c2AA | B2z
+B | A2AA | c2c
+c | B2BB | e2z
+e | d2dd | g2d
+B | c2AF | G2z
+S:https://www.folktunefinder.com/tunes/78193
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling, natur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

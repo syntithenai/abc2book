@@ -1,0 +1,25 @@
+X: 22
+T:Old Woman Tossed Up, Shakespeare MM version or transposition of CJS JG
+M:6/8
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:G
+P:A
+|:DEF GAB|cdc BAG|cBA Adc|1BAG FED:|2BAG G3||
+P:B
+  ABc ABc|ABc d3 |ded ded| g2d B2A|
+  DEF GAB|cdc BAG|cBA Adc| BAG G3||
+S:https://www.folktunefinder.com/tunes/75834
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

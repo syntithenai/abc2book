@@ -1,0 +1,26 @@
+X:212
+T: Ostergesang
+N: A0565
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Gsgb 1586 fol. 108
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: C
+c | c2c | ced | cBc | G2
+B | c2B | A2G | A2c | B2
+G | EFG | AGG | GGE | C2
+D | EED | E2A | AGF | E2
+D | CCD | E2A | AGF | E2
+S:https://www.folktunefinder.com/tunes/80271
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

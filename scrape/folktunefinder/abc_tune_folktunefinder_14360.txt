@@ -1,0 +1,29 @@
+X: 1
+T: I HA'E LAID A HERRIN' IN SA'T
+O: Kerr's 2nd
+R: jig
+N: "Scotch Jig"
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd (c.1880) p.211 #316
+M: 6/8
+L: 1/8
+K: A
+|: CE2 E2A | FAE F3  | EFG A2B | c2d e3  \
+|  C2E E2A | FAE F2d | cec dcB | AFE E3 :|
+|: cBc d2d | ede f3  | F2B Bcd | cBA GFE \
+|  CEE E2A | FAE F2d | cfe dcB | AFE E3 :|
+S:https://www.folktunefinder.com/tunes/14360
+S:http://trillian.mit.edu/~jc/music/abc/jig/IHaeLaidAHerrinInAat_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/IHaeLaidAHerrinInSat_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IHaeLaidAHerrinInAat_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IHaeLaidAHerrinInSat_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 18
+T:Three Piece Suite
+M:3/4
+L:1/8
+Q:150
+K:G
+bagf | g2 BcdB | G2 bagf | e2 cdcB | A2 c'bag | fd da ag | fd da ag |  f
+d da ag | bd' ba gf | g2 BcdB | G2 bagf | e2 cdcB |A2 c'bag | fd da af |
+ fd da af | f d' d'c'  ef | g2 ||
+K:C
+GABG | c2 cG dG e2 | eGeG | f2 fg fe | d4 dc | Bg fg fg | dg Bg Gg | cG
+ed cA | G2 GABG | c2 cG dG | e2 eG eG | f2 fg fe | d2 de dc | Bg fg fg |
+ dg Bg Gg | cG ec ge | c'2 |
+S:https://www.folktunefinder.com/tunes/51953
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

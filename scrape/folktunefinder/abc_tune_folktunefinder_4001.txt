@@ -1,0 +1,34 @@
+X: 1
+T: Abram Circle Dance
+R: reel
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+Q: 1/2=84
+K: G
+D2 \
+"A"|::: "G"G2Bc "D7"d2ef | "G"g2a2 b4 | "G"g2d2 "D7"dedc | "G"B4 G4 :::| \
+"B"|: "C"e2c2 e2ge | "G"d2B2 d4 | "D7"A2d2 dedc | "G"B4 G4 :|
+M: 6/8
+"C"|: "D7"d2c "G"BAG | "D7"d2c "G"BAG | "C"e2d cBc | "C"e3 g3 \
+"D":| "C"e2d cBc | e3 g3 | "Am"e2d cBc | "Em"e3 g3 |]
+"E"|: "D7"d2e f2g | a2g fed | "C"e2g "D7"f2a |1 "G"g6 :|2 "G"g3 |]
+M: C|
+"F"|: D2 \
+| "G"G2GG B2B2 | d2d2 g4 | d2B2 "C"dcAB | "Am"c2A2 "D7"GFED \
+| "G"G2GG B2B2 | d2d2 g4 | d2B2 "D7"dcAF | "G"G4 G2 :|
+"G"|: dc \
+| "G"B2G2 B2d2 | "D7"A4 d2dc | "G"B2G2 B2d2 | "D7"A4 d2dc \
+| "G"B2G2 B2d2 | "D7"A4 d2Bc | "G"d2Bc "D7"dcBA | "G"G4 G2 :|
+S:https://www.folktunefinder.com/tunes/4001
+S:http://trillian.mit.edu/~jc/music/abc/England/RG_AbramCircleDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/AbramCircleDance_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

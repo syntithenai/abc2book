@@ -1,0 +1,18 @@
+X: 1
+T: \'Ciro Kolo
+O: Croatia
+M: 2/4
+L: 1/8
+P: G
+K: G
+|: "G"[GD][BG] [dB][dB] | [dB][ec] [dB][BG] | [dB][dB] "D7"[cA][cA] | "G"[BG][BG] [AF][GD] :| \
+|: "G"[B2G] "D7"[cA][AF] | "G"[B2G] "D7"[cA][AF] | "G"[BG][BG] "D7"[AF][AF] |1 "G"[G3D][AF] :|2 "G"[G3D]z |]
+S:https://www.folktunefinder.com/tunes/255
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/CiroKolo_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/CiroKolo_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

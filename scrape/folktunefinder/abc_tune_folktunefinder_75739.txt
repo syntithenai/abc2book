@@ -1,0 +1,26 @@
+X:43
+T:Hal- en Bergenkermis
+C:Traditioneel
+O:Minderhout (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+N:(Voorspel AABB) x3 Voorspel
+K:C
+P:Voorspel
+"C"EE E E/F/|ED CG|"F"A2 "G7"B2|"C"c3 z ||
+P:A
+|:"C"EE E E/F/|ED C2|GG G G/A/|GD C2|G3 c |
+ "G"B3 d |[1 "Am"A z "D7"B z|"G"AG "G7"G2 :|[2 "Dm"A z "G7"B z|"C"cccz ||
+P:B
+|: "C"GG c>A|"F"AG "C"Gz|"Dm"FF "G7"A>F|"C"FE Ez|"C"GGc B/c/ |
+"Dm"dA Az |[1 "G"BB "D7"A>B|"G"AG "G7"Gz :|[2 "Dm"d>c "G7"Bd|"C"cc cz |]
+S:https://www.folktunefinder.com/tunes/75739
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Rugen
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+Q: 1/4=84
+M: 2/4
+L: 1/16
+K: F
+[| "F"F2F2 F2F2 \
+| "C"E>F"G7"G>E "C"C4 \
+| G2G2 "C7"G2G2 \
+| "F"A>B"C7"c>A "F"F3 c \
+|: "Bb"B>cd>B "Gm"G3B |
+| "F"A>Bc>A "(Dm)"F3A \
+| "Gm"G>AB>G "C7"E>CD>E \
+|1,3 "F"F2A>B "F7"c3c \
+:|2,4 "F"F2F>F F.z2 |]
+S:https://www.folktunefinder.com/tunes/18446
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Rugen_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Rugen_F.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

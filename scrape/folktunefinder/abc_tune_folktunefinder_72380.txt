@@ -1,0 +1,26 @@
+X: 131
+T:Scotch Tune,A. HA.130
+M:C|
+L:1/8
+Q:140
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:G
+"3 sharps in MS"G2B>c d3e/f/|gdcB A3B|c2c>d Bddg|B2(AG) G4||!
+B2d2 g3f|e2a2 f3f|(g/f/g/e/ g/f/g/e/) (g/f/g/e/ g/f/a/e/)|\
+e3d d3g|!
+egdg cgBg|egdg cgBg|e2d>c B2(B/c/d)|B2(AG) G4|]
+S:https://www.folktunefinder.com/tunes/72380
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

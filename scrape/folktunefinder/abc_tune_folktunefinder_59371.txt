@@ -1,0 +1,32 @@
+X:484
+T:Las Dancitas (MG 52) (Arrg.)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 52
+M:3/8
+L:1/8
+Q:1/4=160
+E:Comp.
+K:C
+"C"G2 G|"F"F2 E|"C/G"GAF|"F"F2 E|
+"C"G2 G|"F"F2 G|"Dm"FED|
+[1 "C"C3:|[2 "C"C2 C|
+|:"F"FED|"C"EDC|"Dm"DEF|"C"G2 C|
+"F"FED|"C"EDC|"Dm"DCB,|
+[1 "C"C2 C:|[2 "C"C3||
+S:https://www.folktunefinder.com/tunes/59371
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

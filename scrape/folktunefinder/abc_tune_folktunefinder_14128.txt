@@ -1,0 +1,37 @@
+X: 1
+T: the Duke of Atholl's Jig
+C: Ron Gonella
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2d "A7"efg | "D"a2a fed | "A7"gfe  "D"fdA | "A7"e3- e2A \
+| "D"d2d "A7"efg | "D"a2a fed | "Em"e2e "A7"cAc |  "D"d3- d2 :|
+z \
+| "A7"cAA Ace | "D"fAA Adf |  "G"gag  "D"fed | "Em"e3- e3 \
+| "A7"cAA Ace | "D"fAA Adf | "Em"g2e "A7"cAc |  "D"d3- d2 ||
+z \
+| "A7"cAA     Ace | "D"fAA Adf |  "G"gag  "D"fed | "Em"e3- "A7"e2A \
+|  "D"dcd "A7"efg | "D"a2a fed | "Em"e2e "A7"cAc |  "D"d3-     d2 |]
+|: c \
+| "Bm"B2B Bde | f2f fed | fed    dcB |  "A"c3- c2A \
+| "Bm"B2B Bde | f2f fed | fed "A"cAc | "Bm"B3- B2 :|
+z \
+| "Bm"dBB fBB | dBB fBB | f^ga "E7"fed |  "A"e3- e3 \
+| "Bm"dBB fBB | dBB fBB | fed   "A"cAc | "Bm"B3- B2 ||
+z \
+| "Bm"dBB    fBB |    dBB fBB |    f^ga "E7"fed | "A7"e3- e2A \
+| "D"dcd "A7"efg | "D"a2a fed | "Em"e2e "A7"cAc |  "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/14128
+S:http://trillian.mit.edu/~jc/music/abc/jig/DukeOfAthollsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DukeOfAthollsJ.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DukeOfAthollsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

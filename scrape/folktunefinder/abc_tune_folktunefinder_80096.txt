@@ -1,0 +1,28 @@
+X:37
+T: Lobt Gott ihr Christen alle
+N: A0395
+O: Europa, Mitteleuropa, Deutschland
+N: J. Ott 1544 III No. 5.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+d | ddde | =f2f
+f | gdee | d2z
+d | dddd | c2c
+d | _BGAA | G2z
+G | AAAA | _B2A
+A | dddc | A2z
+d | ddee | =f2f
+e | d_BcA | G3
+S:https://www.folktunefinder.com/tunes/80096
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

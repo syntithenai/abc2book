@@ -1,0 +1,28 @@
+X:2
+T:3v. Beatus homo
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original printed in Antwerp by Petrum Phalesium, 1609
+C:Orlando Lassusio
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+N: original clef: C on third line
+K:D dor -8va
+%%MIDI transpose -12
+T: Altus.
+M:C|
+L:1/4
+%1
+d8 f4 d4 z2 A2 f2 d2 f3 e d A _B2 G2 d3 e f d e2 f2 d2 A2
+S:https://www.folktunefinder.com/tunes/50484
+S:http://www.laymusic.org/music/bicinia/beatushomo/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

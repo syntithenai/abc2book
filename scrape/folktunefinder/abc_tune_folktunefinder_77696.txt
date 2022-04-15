@@ -1,0 +1,21 @@
+X:3
+T:Blackthorn Stick
+Z: id:dc-setdance-3
+M:6/8
+L:1/8
+K:G Major
+d|BAG E2G|D2D EGF|G2D GAB|c2c BAG|BdB A2D|!
+GAB c2c|BAG Bdd|edc BAG|EGE DB,D|EGF G2D|!
+GAB c2c|BAG Bdd|edc BAG|EGE DB,D|EGF G2|]!
+S:https://www.folktunefinder.com/tunes/77696
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Setdance.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Setdance.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Setdance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

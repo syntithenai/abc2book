@@ -1,0 +1,27 @@
+X:50
+T: Iwer Herrgottsblieschen, S. 14f
+N: L0011
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+N: die letzten drei Zeilen sind Sprechgesang (Kinderlied-Terno)
+R: Kinderlied, Heischelied, Kinderliedterno]
+M: 2/4
+L: 1/16
+K: A
+ | =c2c2d2d2 | =c4A4 | =c2c2d2d2 | =c2_B2A2d2 | =c2_B2A2z2
+c4A2z2 | =c4A2A2 | =c2c2d2d2 | =cc_B2A2d2 | =cc_B2A2z2
+c2c2d2d2 | =c4=F2z2 | =c2c2d2d2 | =c4A2z2
+c2c2c2c2z2c2 | =c2c2c2c2z
+c | =c2c2c2c2z^c | =c2c2c2c2z2
+c2c2c2c2z^c | =c2c2c2c2z2
+S:https://www.folktunefinder.com/tunes/70180
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Kinderlied, heischelied, kinderliedterno]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

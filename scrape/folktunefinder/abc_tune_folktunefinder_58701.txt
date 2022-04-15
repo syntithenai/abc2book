@@ -1,0 +1,33 @@
+X:13
+T:Apples in Winter
+C:Trad
+S:O'Neill's
+I:speed 280
+M:6/8
+K:G
+M:6/8l
+|:dc | 
+M:6/8
+BEE dEE | BAG FGE | DED FDF | AB^c ddd |
+BEE BAB | def gfe | fdB AGF | GEE E2:|
+|:B | efe edB |\
+M:6/8l
+efg2e2 f2d2B2 |\ 
+M:6/8
+ded dAF | DFA dBA |
+[1 efe edB | def g2a | bgb afa | gee e2 :|
+[2edB def | gba ggg | fdB AGF | GEE E2|
+S:https://www.folktunefinder.com/tunes/58701
+S:http://ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/moreTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/xij
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xij
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1384
+T:Berri,La. CJF.093
+T:La Berri. CJF.093
+M:2/4
+L:1/16
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Misc.
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:P J Headford 2000
+K:D
+((3AAA)|A2Bc defg|a4f2f2|g2e2f2d2|\
+(3efe (3dcB A2A2|!(B3A)(B3A)|(c3B)(d3c)|\
+edfe gfed|(f4e2)h||!(3AAA|
+A2Bc defg|a4f2f2|g2e2f2d2|\
+(3efe (3dcB A2A2|!f4fedc|Bcd^d efgb|\
+dfba ^ga=ge|e4d2||!(3AAA|A2(3fg^g a2 (3AAA|
+A2 (3^def g2 (AAA|Afed bfge|(d4c2) (3AAA|!\
+A2 (3fg^g a2 (3AAA|A2 (3^def g2 (3AAA|\
+(3cBA (3edc (3gfe (3bge|(e4" $"d2)||
+S:https://www.folktunefinder.com/tunes/56323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

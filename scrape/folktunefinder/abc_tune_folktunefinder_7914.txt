@@ -1,0 +1,42 @@
+X: 3
+P: Girl with the Blue Dress On
+O: Denmark, England
+R: shottish, reel
+N: This is a Danish version of a well-known reel in the UK
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+Ac \
+| "A"e2 ec "E7"d2 dB | "A"c2 A2 Ac ec \
+| "E7"B2E2 EG Bd | "A"c2 A2 A2 Ac \
+| "A"e2 ec "E7"d2 dB | "A"c2 A2 Ac ec \
+| "E7"B2E2 EG BG | "A"A2 {B}c2 A2 :|
+|: z2 \
+| "A"AB ce a3 g | "D"g2 f2 fe f2 \
+| "E7"Bc de f3 e | "A"d2 c2 cB cB \
+| "A"AB ce a3 g | "D"g2 f2 fe fe \
+| "E7"d2 cB e3 G | B2 A2 "A"A2 :|
+S:https://www.folktunefinder.com/tunes/7914
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Shottish.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish09.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SH1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Shottish_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Shottish.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Shottish.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Shottish_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Shottish_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Shottish_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Shottish_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Shottish_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Shottish_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Shottish_Scand01
+S:http://trillian.mit.edu/%7Ejc/music/abc/program/CillasWedding/Shottish_Scand01.abc
+% Rhythm Shottish, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

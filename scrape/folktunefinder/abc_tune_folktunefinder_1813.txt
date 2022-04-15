@@ -1,0 +1,19 @@
+X:5
+T:5 Quis est homo
+T: due
+M:C
+L:1/8
+%%staves s | a | {1 2 3}
+Q:"Largo"
+K:Cm
+% (19)
+V:s name=Sopran dyn=up
+c3e d/c/{c}d2z|d2g2=e{e}f3|f3a{c}=B3c|
+S:https://www.folktunefinder.com/tunes/1813
+S:http://moinejf.free.fr/abc/stabat.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

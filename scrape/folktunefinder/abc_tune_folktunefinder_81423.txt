@@ -1,0 +1,43 @@
+X: 25
+T:Gardeby Laten
+M:4/4
+L:1/8
+R:Ganglat
+C:Hjort Anders
+N:Posted to tradtunes list 06/09/2003
+Z:Steve Mansfield 26 May 2001
+K:D
+V:1
+FG |: ABAF ABAF | A2 fe d2 c2 | BdBG BdBG | B2 gf e2 d2 |
+V:2
+DE |: FGFD FGFD | F2 dc B2 A2 | GBGD GBGD | G2 ed c2 B2 |
+V:1
+{B}c3 d cdcB | A2 eg ~f2 ec |1 dcde fefg | {g}a6 FG :|2 d2fd Acec |
+V:2
+A3 G ABAG | E2 ce c2 AE |1 FEFA dcde | {B}[c6e6] DE :|2 F2 AF EGAG
+|
+V:1
+{c}d3 c defg |: {g}a4 (a2 {ba}^g)a | {a}b2 a2 g2 f2 |
+V:2
+F3 {GF}E FAce |:  {e}f4 {g}f2 _f^f | {f}g2 ~f2 e2 d2 |
+V:1
+{f}g2 gd BGBd | g2 ~f2 e2 d2 | {B}c3 {dc}B cdcB |
+V:2
+B2 BG DB,DG | B2 A2 G2 F2 | E3 D EFED |
+V:1
+A2 eg ~f2 ec |1 dcde fefg | {g}a6 fg :|2 f2 fd Acec | {c}d3 {ed}c d2 ||
+V:2
+E2 ce c2 AE |1 FEFA dcde | {B}[c6e6] de :|2 F2 AF DGAG | {E}[F3A3]
+{GF}E [F2A2] ||
+S:https://www.folktunefinder.com/tunes/81423
+S:http://www.lesession.co.uk/music/posts.abc
+% Rhythm Ganglat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

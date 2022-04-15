@@ -1,0 +1,28 @@
+X: 3
+P: Invercauld
+R: march
+B: Logan's Book 1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: dB \
+| "D"A2d2 f2ed | f2a2 f2ed | A2d2 "Bm"f2ed | "Em"B2e2 "A7"e2dB \
+| "D"A2d2 f2ed | "Bm"f2a2 f2ed | "Em"B2e2 "A7"dcBA | "D"d4- d2 :|
+fg \
+| "D"a2d2 "Bm"f2ed | "Em"edcB "A7"A2fg | "D"a2d2 "Bm"f2ed | "Em"B2e2 "A7"e2fg \
+| "D"a2d2 "Bm"f2ed | "Em"edcB "A7"A2c2 | "G"B2e2 "A7"dcBA | "D"d4- d2 ||
+fg \
+| "D"aAdA "Bm"f2ed | "Em"edcB "A7"A2fg | "D"aAdA "Bm"f2ed | "Em"B2e2 "A7"dcBA \
+| "G"BGBc d2cB | "D"A2d2 "Bm"f2ed | "Em"B2e2 "A7"dcBA | "D"d4- d2 |]
+S:https://www.folktunefinder.com/tunes/9933
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AustralianLadies1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MemoryLane.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

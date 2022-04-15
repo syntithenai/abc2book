@@ -1,0 +1,24 @@
+X: 2
+T: Perpetual Motion
+C:John Stapledon
+S: Clare Maher <Clarecello@aol.com> 2004-5-20
+M:6/8
+R:Jig
+L:1/8
+K:C
+G |: "C"c3 G3 | "G"d2f "C" edc | "G"def "C"g2c | "Dm"cdc "G7"BAG |
+     "C"c3 G3 | "G"d2f "Am"edc | "F"def "Dm"g2c | "G7"cdB "C"c2c :|
+|: "G"def "C"g2c | "F"f2a "G"ged | "Am"cde "F"f2e | "Dm"dec "G7"BAG |
+   "F"ABc "C"c2G | "Dm"ABc "G7"def | "C7"egc "F"f2e |["1-N" "Dm"dec "G7"BAG :|["last time" "G7"dcB "C"c2 |]
+S:https://www.folktunefinder.com/tunes/3977
+S:http://trillian.mit.edu/~jc/music/abc/England/PerpetualMotion.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

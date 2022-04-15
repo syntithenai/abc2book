@@ -1,0 +1,28 @@
+X:136
+T: DIE PINSGAUER WOLLTEN WALLFAHREN GEHN
+N: Z0135
+O: Europa, Mitteleuropa, Deutschland, Mitteleuropa, Tirol
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/8
+K: C
+G,2 | C2C2CB,A,G, | C2CED4
+C4A,2D2 | C2B,2C2
+G,2 | C2C2CB,A,G, | C2CED4
+C4A,2D2 | C2B,2C2
+G,2 | C2C2CB,A,G, | C2CED4
+C4A,2D2 | C2B,2C2
+C2 | EEEEF2FF | DDDDG4
+E2E2F3F | DDDDG3
+G, | CDCB,A,B,CD | C2B,2C2z
+C | EDCB,A,B,CD | E2D2C2
+S:https://www.folktunefinder.com/tunes/68995
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

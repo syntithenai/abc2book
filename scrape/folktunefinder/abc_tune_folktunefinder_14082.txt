@@ -1,0 +1,24 @@
+X: 1
+T: Denis Murphy's Slide
+R: jig, slide
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"A2D FED | F2A A2f | "G"g2e "D"f2d | "G"e2d "A7"Bcd \
+|  "D"A2D FED | F2A A2f | "A7"a2f efe |1 "D"d3 dcB :|1 "D"d3 z3 |]
+A \
+|: "D"d2e f2f | "G"gfe "D"f2f | "G"gfe "D"fed | "G"e2d "A7"BAB \
+|  "D"d2e f2f | "G"gfe "D"f2f | | "A7"a2f efe |1 "D"d3 dcB :|1 "D"d3 z3 |]
+S:https://www.folktunefinder.com/tunes/14082
+S:http://trillian.mit.edu/~jc/music/abc/jig/DenisMurphysSlide.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DenisMurphysSlide.abc
+% Rhythm Jig, slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

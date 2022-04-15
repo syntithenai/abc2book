@@ -1,0 +1,26 @@
+X:16759
+T:The Girl With the Blue Dress on
+% Nottingham Music Database
+S:FTB, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2c/2|"G"dB/2d/2 "D7/a"cA/2c/2|"G/b"BG G/2F/2G/2B/2|"D7"AF F/2E/2F/2G/2|\
+"G"AG "D7"GB/2c/2|
+"G"dB/2d/2 "D7/a"cA/2c/2|"G/b"BG G/2F/2G/2B/2|"D7"AF F/2E/2F/2G/2|"G"AG G:|
+K:G
+P:B
+d|"G"GB/2d/2 g3/2f/2|"C"fe e2|"D7"DF/2A/2 f3/2e/2|"G"ed "D"d2|\
+"G""Em"GB/2d/2 g3/2f/2|"C""Am"fe eg|"D7"fa ef|"G"g3:|
+S:https://www.folktunefinder.com/tunes/38130
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

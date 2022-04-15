@@ -1,0 +1,26 @@
+X:63
+T: Der verlorene Rosenkranz
+N: A0066A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie zusammengefuegt aus zwei Fragmenten: Schmeltzel Quodlibet
+N: No. 19 (vgl A0054 und A0065, diese Angabe kann nicht stimmen!) und
+N: Forster II. No. 60.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: F
+F2 | F3FF2 | G3GA2 | B3BB2 | B4
+B2 | B3BB2 | A4B2 | c6 | A4
+c2 | f4f2 | e4d2 | c4c2 | A4
+A2 | c3BA2 | c4c2 | d6 | A4
+d2 | c2F2G2 | F4
+S:https://www.folktunefinder.com/tunes/68609
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

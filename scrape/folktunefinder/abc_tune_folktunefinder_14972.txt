@@ -1,0 +1,25 @@
+X: 1
+T: Robin's Bodhr\'an
+C: Bob McQuillen 1977
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B,D \
+| "Em"E2B, E2F | GFG EFG | "Am"ABc "Em"BGE | "D"FEF "(Bm)"DB,D | "Em"E2B, E2F |
+| GFG EFG | "Am"ABc "Em"BGE | "D"DEF "Em"E :: Bd | "C"e3 e3 | ede "D7"dBA |
+| "G"GAB AGA | Bde dBd | "C"e3 e3 | efg "D"fed | "Em"BcB "D"AGF | "Em"GEE E :|
+S:https://www.folktunefinder.com/tunes/14972
+S:http://trillian.mit.edu/~jc/music/abc/jig/RobinsBodhran_3_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RobinsBodhran_3_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/RobinsBodhran_3_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:Princess Nancy
+R:Double Jig
+C:Liz Carroll
+S:Harry Seaman <hseaman:EXECPC.COM> irtrad-l 2001-8-24
+M:6/8
+L:1/8
+K:G
+B2A BGE|EDE G2A|BAB deg|abg eag|
+ede ~g2a|ged e2d|dBA BGE|EDE G2A:|
+B2g edB|BAB d2B|AGA Add|AGA BGE|
+B2g edB|BAB d2B|AGA BGE|EDE G2A|
+B2g edB|BAB d2B|ABA ABd|egd ega|
+bag age|egd e2d|dBA BGE|EDE G2A||
+S:https://www.folktunefinder.com/tunes/14944
+S:http://trillian.mit.edu/~jc/music/abc/jig/PrincessNancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PrincessNancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PrincessNancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PrincessNancy_1.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

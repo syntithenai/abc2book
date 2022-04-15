@@ -1,0 +1,27 @@
+X:3175
+T:Juliette
+O:england
+M:3/4
+L:1/8
+Q:1/4=150
+C:Trad() French
+S:Variation from Jo Downie
+B:Massif Central Tune Book Vol1
+K:G
+GA|"G"BABdGA|"G"BABdGB|"D"AGAcFA|"G"B2 G2 GA|
+"G"BABdGA|"G"BABdGB|"D"AGAcFA|"G"G4:|
+(3FEF|"D"A2 DFdc|"C"c2 B2 EF|"G"GEFGcB|"D"A4 (3FEF|
+"D"A2 DFdc|"C"c2 B2 EF|"G"GFGABc|"D"d4:|
+Bd|"G"GBDGBd|"C"d2 c2 Ac|"D"FADFAc|"G"c2 B2 Bd|
+"G"GBDGBd|"C"d2 c2 Ac|"D"FADFAF|"G"G4:|
+S:https://www.folktunefinder.com/tunes/23626
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

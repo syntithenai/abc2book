@@ -1,0 +1,24 @@
+X:145
+T: WIE LIEBLICH SCHALLT IM GRUENEN WALD
+N: B0174
+O: Europa, Mitteleuropa, Deutschland
+R: Natur -, Wander -, Kinder - Lied, Wald
+M: 6/8
+L: 1/8
+K: G
+D | GABA2D | ABcB2
+B | d2BdcB | A4z
+D | c2cB2G | e2ed2
+d | B2BA2A | G4z
+d | B2BA2A | G4z
+S:https://www.folktunefinder.com/tunes/78166
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur -, wander -, kinder - lied, wald
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:135
+T: HIER TRETEN WIR HER
+N: E1201A
+O: Europa, Mitteleuropa, Deutschland, West - Holstein, Ditmarschen
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Heilige drei Koenige
+M: 3/4
+L: 1/8
+K: C
+G,2 | C3B,CE | D3C
+B,C | D3B,CA, | G,2z2
+F2 | E2G2C2 | F4
+D2 | C2C2B,2 | C4
+S:https://www.folktunefinder.com/tunes/79239
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, heilige drei koenige
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

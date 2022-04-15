@@ -1,0 +1,25 @@
+X:4035
+T:Old French
+M:4/4
+O:Canada
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000966.html
+%%ID:00000966
+K:D
+(3ABc|\
+d2cd Bd AF|DF Ad f2ed|cd ef ge cA\
+|1 df ed A2 :|2 d2dc d2 ::
+(e2|\
+e)f ed c2A2|AE Ac e2dc|BG Bd gf ed\
+|1 cA ce a2 :|2 c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/36886
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

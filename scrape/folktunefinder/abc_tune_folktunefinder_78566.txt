@@ -1,0 +1,24 @@
+X:125
+T: EEN KIND EN EEN KLEYNE KIND
+N: E0064
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 2/4
+L: 1/8
+K: G
+D | G2GB | G2Bd | dcBA | G2
+Bd | dcBA | G2B2 | A2z
+A | A2B2 | c2BA | GABG | E2
+FG | A2d2 | cBAG | F2A2 | G2z
+S:https://www.folktunefinder.com/tunes/78566
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

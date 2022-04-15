@@ -1,0 +1,26 @@
+X:37
+T:Song of Goldmoon
+N:
+D:
+O:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=105
+K:G
+%%staves (1 2)
+V:1
+B, | E>B, E | GBG | AFD | D2 B | d>Bd | ded | dBG | B2B | d>A d |
+dfd | dBG | AFD | E>B,E | GBG | AFD |1 E2 B, :|2 E2 G | c>dc | BAG |
+(A(F(D|[A2F2D2]))) B | c>dc | BAG |
+V:2
+x | "Em"x3 | "Em"x2 "Em"x | "D"x3 | "Em"x3 | "G"x3 | "Em"x3 |
+ "G"x3 | "Bm"x3 | "G"x3 | "Em"x3 | "G"x3 | "D"x3 |
+S:https://www.folktunefinder.com/tunes/45846
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

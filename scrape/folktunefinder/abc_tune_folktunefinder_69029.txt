@@ -1,0 +1,22 @@
+X:170
+T: S MAHL A MUELLER IN ANER MUEHL
+N: Z0169
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/16
+K: C
+G,4 | C2G,2E,2G,2C4D3D | C4z2
+C2C2E2E2CC | B,2D2D2D2B,2B,2C2A,2 | A,2G,2G,2
+G,2C2G,2E,2G,2 | C4D4C4
+S:https://www.folktunefinder.com/tunes/69029
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

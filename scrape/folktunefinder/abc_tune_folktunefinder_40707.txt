@@ -1,0 +1,26 @@
+X: 24
+T:Daniel Cooper. WCl.24
+M:2/4
+L:1/8
+Q:350
+S:William Clarke MS,Lincoln,1770.
+R:reel
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+d2 ((3efg)|fedf|ecBc|d2d2::
+BGGB|cAAc|!
+BGGB|d2d2|BGGB|cAAc|BGAF|G2 G2:||
+S:https://www.folktunefinder.com/tunes/40707
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

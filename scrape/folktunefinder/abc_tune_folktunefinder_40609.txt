@@ -1,0 +1,35 @@
+X:28
+T:Kattenpolka
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:6/8
+K:G
+"G"B2 B B2 A | B2 c d3 | "G"B2 B B2 A | B2 c d3 |
+"D"A2 A A2 B | "G"d2 c B2 c | "D"d2 e d2 c | B2 A "G"G3 :|
+|: "G"B2 c d2 G | "D"AGA "G"B2 G | "G"B2 c d2 B | "D"ABA "G" G3 :|X:1
+T:Kegelaar
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:A (BC)x4 A
+L:1/8
+M:6/8
+K:C
+P:A
+G | "C"c2 G c2 G | cde "F"fed | "C"c2 G c2 G | cde "G7"d2 G | "C"c2 G "B"c2 G | "Bb"cde "A"f3 | "G"efe ded | "C"cGE C3 :|]
+P:B
+"C"c3 "G7"B3 | "C"cGE C3 | "G7"G^FG ^GAB | "C"cGE C3 | "G"G3 B3 | d3 B3 | "D"c3 A3 | "G"G3 z3 :|]
+P:C
+"C"e2 e e2 e | ede "G"fed | "C"e2 e e2 e | ede "F"f3 | "C"e2 e e2 e | ede "G"f3 | "C"efe "G"ded | "C"cGE C3 :|]
+S:https://www.folktunefinder.com/tunes/40609
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

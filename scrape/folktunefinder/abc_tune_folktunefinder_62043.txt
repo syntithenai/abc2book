@@ -1,0 +1,39 @@
+X:20
+T: WOHL AUF NOCH GETRUNKEN
+N: B0506
+O: Europa, Mitteleuropa, Deutschland
+R: Wander - Lied
+M: 3/4
+L: 1/16
+K: C
+C,2E,2 | G,4G,4A,2G,2 | E,2G,2C6
+E,2 | G,2F,2F,2E,2F,2G,2 | E,8
+C,2E,2 | G,4G,4A,2G,2 | E,2G,2C6
+E,2 | G,2F,2F,2E,2F,2G,2 | E,8
+E,4 | D,2B,2B,6B,2 | B,2A,2A,6
+A,2 | A,2B,2C4^F,4 | G,8
+E,4 | D,2B,2B,6B,2 | B,2A,2A,6
+A,2 | A,2B,2C4^F,4 | G,8
+G,4 | A,2G,2F,6D,2 | E,2G,2C6
+E,2 | G,2F,2F,2D,2F,2G,2 | E,8
+G,4 | G,2E2E6E2 | E2D2D6
+D2 | D2E2F4B,4 | C8z2G,2 | G,2E2C4
+G,3G, | C3CC4C3B, | A,3A,A,4
+G,3G, | F,3E,F,3E,F,3A, | G,8
+G,3G, | E3EE4D3D | C3CC4
+E2E2 | D3CD3CD3E | C8
+G,3G, | C3CC4C3B, | A,3A,A,4
+G,3G, | F,3E,F,3E,F,3A, | G,8
+G,3G, | E3EE4D3D | C3CC4
+E2E2 | D3CD3CD3E | C8
+S:https://www.folktunefinder.com/tunes/62043
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

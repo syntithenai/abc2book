@@ -1,0 +1,23 @@
+X: 10
+T:Rondeau de Casteljaloux
+R:Rondeau
+C:Gascogne
+N:Rondeau
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d||B2G B2d|cBc A2d|B2G B2d|c3A2d|B2G B2d|cBc A2d|B2G B2d|c3B3||
+d2d d2d|cdc B3|G2A B2d|cBA B2G|d2d d2d|cdc B3|G2A B2d|cBA G3|]
+%%footer $D   Galouvielle-MBe 2005 \nRondeau France
+S:https://www.folktunefinder.com/tunes/53309
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

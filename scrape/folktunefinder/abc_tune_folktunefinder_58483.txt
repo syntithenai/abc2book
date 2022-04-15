@@ -1,0 +1,27 @@
+X: 1
+T:Petronella
+T:8x32R
+M:4/4
+L:1/8
+R:Reel
+O:Trad
+P:Petronella
+N:Introduced by Nathaniel Gow at his Annual Ball, in Edinburgh, 1820.
+H:Described in "The Ballroom, 1827".
+K:D
+|: dA \
+| "D"F2AF "A7"E2AF | "D"D2D2 D2FA | d2cd e2d2 | "A7"cdec ABAG |
+| "D"F2AF "A7"E2AF | "D"D2D2 D2FA | d2cd "A7"e2c2 | "D"d4- d2 :|
+|: dA \
+| "D"F2fd A2af | "Em"g2gf edcB | "A7"A2ec Aceg | "D"f2fd AdAF |
+| "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2 :|
+S:https://www.folktunefinder.com/tunes/58483
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Petronella_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

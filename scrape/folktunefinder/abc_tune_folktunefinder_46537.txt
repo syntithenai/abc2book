@@ -1,0 +1,19 @@
+X:15262
+T:Shandon Bells
+Z: id:dc-jig-116
+M:6/8
+L:1/8
+K:D Major
+B|AFD DFA|ded cBA|BGE EFA|B2A Bcd|!
+AFD DFA|ded cBA|Bcd ecA|dfe d2:|!
+g|fdd Add|faa afd|cAA EAA|cAc efg|!
+fdd Add|faa afd|Bcd ecA|dfe d2:|!
+S:https://www.folktunefinder.com/tunes/46537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

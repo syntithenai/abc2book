@@ -1,0 +1,34 @@
+X:1870
+T:Funen March
+B:Rasmus Storm's Notebook
+D:Rasmus Storm's Notebook
+M:4/4
+O:Denmark
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b5c.html
+%%ID:00000b5c
+K:D
+FG|\
+A2A2 A2Bc |d6 A2|\
+B2d2 A2d2 |G2AG F2A2|\
+Bdcd Adcd |A2(3GAG F2d2|
+c2cd e2ef |g6 fe|\
+f2ed (c3d)|d6 ::\
+de |\
+f2f2 f2ed  |e2f^g a2Bc|\
+d2d2 d2cB  |A2f2 e2dc|
+B2B2 B2cd  |A2A2 G2FA|\
+B2B2 B2cd  |A2A=G F2A2|\
+B2d2 A2d2  |G2AG F2A2|
+Bdcd Adcd  |A2GA F2d2|\
+c2cd e2ef  |g6 fe|\
+f2ed (c3d) |d6 :|
+S:https://www.folktunefinder.com/tunes/36453
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

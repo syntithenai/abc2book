@@ -1,0 +1,26 @@
+X: 10
+T:-Donnybrook Fair
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:G
+D|"G"G2 G AGA|"Em"Bee "D"dBA|"G"BAB GAB|"Em"AGE "D"E2 D|
+"G"GFG AGA|"Em"Bee "D"dBA|"G"BAB GAB|"D"AGF "G"G2::
+f|gfe fed|ege dBA|Bee dBA|Bee e2f|
+1gfe fed|e/2f/2ge dBA|BAB GAB|AGF G2:|
+2gfg aga|bge dBA|BAB GAB|AGF G2||
+S:https://www.folktunefinder.com/tunes/62732
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

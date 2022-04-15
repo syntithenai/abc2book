@@ -1,0 +1,28 @@
+X: 1
+T: Maudabawn Chapel
+M: 2/2
+L: 1/8
+C: Ed Reavy
+R: Reel
+N: The local chapel in Ed's parish where he first learned the simple ways of faith.
+Z: Joe Reavy
+K: Edor
+EF \
+[| G{F}EF{E}D ECDB,      | G,A,B,D ECEB, | G,A,B,D GABd | gabg    eaaf  |
+|  gabg       efge       | dfed    Bcd2  | e{f}gfa gbec | dBA=c   BEEF  |]
+[| G{F}EF{E}D ECDB,      | G,A,B,D ECDB, | G,A,B,D GABd | gabg    eaaf  |
+|  gfga       b{a}ga{g}f | gfed    efge  | dfe=c   BcdB | A=cBA   GEED  |]
+|: E2BE       dEBE       | GABG    AFDF  | EDEF    GFGB | A2F{E}D A,DFD |
+|  E2BE       dEBE       | BAFA    Bcde  | f2a{g}f gfec | dBA=c   BEED  :|
+S:https://www.folktunefinder.com/tunes/17629
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaudabawnChapel0_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MaudabawnChapel0_Em.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

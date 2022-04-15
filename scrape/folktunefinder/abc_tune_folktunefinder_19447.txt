@@ -1,0 +1,32 @@
+X: 1
+T: Lady Kinloch of Gilmerton's Strathspey
+R: strathspey
+B: RSCDS 29-1
+O: Petrie's 4th Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Goulding: Twenty Scottish Country Dances 1793
+N: "Oh soldiers, for you ain dear sakes
+N: For Scotland's love, the Land o' Cakes" (Robert Fergusson)
+M: C
+L: 1/8
+K: D
+| "D"D<D F>A d>c d>e | f>e f>b a>f e>d \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"E>e e>d "A"c<e "A7"cA |
+| "D"D<D F>A d>c d>e | f>e f>b a>f e>d \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"[BG]>e "A"[dA]>c "D"d2 Dz ||
+|| "Bm"f2 fb f<d c>B | "A"e2 ea e<c B>A \
+| "E"^G<e A<e B<e B<e | "Bm"d<f "E7"e>^G "A7"A>=G F>E |
+| "D"D<D F>A d>c d>f | "Em"e>d e>f "A"e>c B>A \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"B<e "A"d>c "D"d2 Dz ||
+S:https://www.folktunefinder.com/tunes/19447
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyKinlochOfGilmertonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyKinlochOfGilmertonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyKinlochOfGilmertonsS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:91
+T:Polska fr{\aa}n \"Osterg\"otland
+R:sl-polska
+A:\"Osterg\"otland
+B:Bagge 12
+Z:id:hn-sp-91
+M:3/4
+L:1/16
+K:Dm
+a3f d2d2 ^c2c2 | d2d2 e2e2 fefg | a3f d2d2 ^c2c2 | (A4 .d4) z4 :|
+fefg a4 f2 z2 | gfga b4 g2 z2 | gfef g2e2 g2e2 | fefg a4 f2 z2 |
+a3f d2d2 ^c2c2 | d2d2 e2e2 fefg | a3f d2d2 ^c2c2 | (A4 .d4) z4 ||
+S:https://www.folktunefinder.com/tunes/62422
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: HEM FR\AAN GESUNDA efter Olov
+O: Sweden 1992
+R: hambl-polska
+N: handwritten MS labelled "2B20"
+M: 3/4
+L: 1/16
+K: Am
+"A"\
+|: [E4C4] ([E3A,3]E) [A3E3]c | (B^G3) (E3G) B3d | ~d4 (e3c) A3B | Tc4 (B^G3) E3E |
+|  (C3E)  ([E3A,3]E) [A3E3]c | (B^G3) (E3G) B3d | ~d4 (e3c) A3B | ^G4 [A8E8] :|
+"B"\
+|: (a2~g2) (eA3) [d3D3]d | (Tc2A2) [B6E6] ((3EF^G | A3)(B cBcd) e3c | TB4 A^G3 [A3E3]a |
+|  (a2~g2) (eA3) [d3D3]d | (cd)cA  [B6E6] ((3EF^G | A3)(B cBcd) e3c |1 B^G3 [A8E8] :|2 (Bc)B^G [A6E6] ((3BcB ||
+"C"\
+|: A^G3) (E3F) D3E | (CD3) (B,2G,2) A,4- | [E4A,4] (A3c) e3c | Tc4 (Be)B^G E2 ((3BcB |
+|  A^G3) (E3F) D3E | (CD3) (B,2G,2) A,4- | [E4A,4] (A3c) e3c |1 TB2A^G [A6E6] ((3BcB :|2 TB2A^G [A8E8] |]
+S:https://www.folktunefinder.com/tunes/16356
+S:http://trillian.mit.edu/~jc/music/abc/pols/HemFrGesunda_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/HemFrGesunda_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/HemFrGesunda_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/HemFrGesunda_Am.abc
+% Rhythm Hambl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

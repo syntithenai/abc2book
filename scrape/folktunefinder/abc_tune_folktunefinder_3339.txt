@@ -1,0 +1,26 @@
+X: 2
+P: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+K: D
+|: dcB  \
+| "D"A>AA A<FA | d2e f2a | "A7"g2e "D"f2d | "G"efd B2d \
+| "D"A>AA A<FA | d2e f2g | afd "A7"e2f | "D"d3 :|
+|: def \
+| "G"gdg "(A)"gag | "D"fdf "(Bm)"fgf | "Em"ede "A7"efg | "D"fed "G"B2d \
+| "D"A>AA A<FA | d2e f2g | afd "A7"e2f | "D"d3 :|
+S:https://www.folktunefinder.com/tunes/3339
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

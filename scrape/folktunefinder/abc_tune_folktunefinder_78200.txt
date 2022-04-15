@@ -1,0 +1,25 @@
+X:179
+T: MAIENBLUEMLEIN SO SCHOEN
+N: B0213
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling
+M: 3/8
+L: 1/16
+K: C
+ | C,2E,2^F,2 | G,2A,B,C2
+C2A,2D2 | B,CA,B,G,2
+G,2B,2C2 | ^C4D2
+G,2B,2=C2 | ^C4D2
+=C,2E,2G,2 | ^G,2^F,2G,2 | A,4B,2 | C4z2
+E3DC2 | B,2A,2G,2 | G,6 | C4z2
+S:https://www.folktunefinder.com/tunes/78200
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1
+T:An Comhra Donn
+T:The Brown Coffin
+T:An Cofra Donn
+T:The Brown Chest
+C:Traditional
+R:Hornpipe
+B:Music for the Sets  The Blue Book, David J Taylor
+S:Paul de Grae  irtrad-l 2001-3-12
+N:Compare "John Brown's Body" and "The Battle of the Republic"
+Z:Gordon Turnbull
+M:C
+K:D
+|: A>BA>G F>Ad>e | f>gf>e d>cd>A | B>Gd>B A>FD>E | F>EE>D E2 F>G |
+|  A>BA>G F>Ad>e | f>gf>e d>cd>A | B>cd>B A>FE>G |[1 F2 D2 D2 F>G \
+                                                :|[2 F2 D2 D2 f>g ||
+|: a>fe>d g>fe>c | d>cd>e f>dA>F | G>AB>G F>Ad>e | (3fed g>f e2 f>g |
+|  a>g (3fed g>fe>c | d>cd>e f>dA>F | G>AB>G F>AE>G |[1 F2 D2 D2 f>g \
+                                                   :|[2 F2 D2 D2 F>G |]
+S:https://www.folktunefinder.com/tunes/13517
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ComhraDonn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/ComhraDonn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ComhraDonn_D.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

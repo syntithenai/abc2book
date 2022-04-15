@@ -1,0 +1,28 @@
+X:78
+T: SO GEHT ES IN SCHNUETZELPUTZ HAEUSEL
+N: E1098
+O: Europa, Mitteleuropa, Deutschland
+N: modulierend
+R: Maerchen - Lied, Luegen - Maerchen
+M: 6/8
+L: 1/8
+K: D
+A | AGFFEF | G2FE2
+A | AGFFEF | G2FE2
+A | AFDBGE | F2ED2
+E | EF^GABc | Bcdc2
+E | EF^GABc | Bcdc2
+e | ecAfdB | F3^G3 | A3z2
+S:https://www.folktunefinder.com/tunes/79182
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Maerchen - lied, luegen - maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

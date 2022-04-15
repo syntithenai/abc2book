@@ -1,0 +1,227 @@
+X: 1
+T: Old-Timey Reels p.1
+K: C
+%
+[K:C]\
+[L:1/8]\
+[|"Billy in the Lowground"G,A,CD EGAB | cBcd cGEG |]\
+[K:C]\
+[L:1/8]\
+[|"Billy In the Low Ground II"C3 D EGAB | cBcd cA G2 |]\
+[K:G]\
+[L:1/8]\
+[|"Bostony"de |  gfgb a2 f2 | gega g2 dc |]\
+[K:Ador]\
+[L:1/8]\
+[|"Cold Frosty Morning"a4 a4 | a>b a>g e>d c>d | e>d e>f g>a g>f |]
+P:
+[K:G]\
+[L:1/16]\
+[|"Colored Aristocracy"E2F2 |G2GA GED2 | G6 GA |]\
+[K:G]\
+[L:1/8]\
+[|"Dance All Night with a Gal with a Hole in Her Stocking"BB B/A/B/c/ | dB B>A | c/B/A F/G/A/F/ |]\
+[K:Bb]\
+[L:1/4]\
+[|"Done Gone"B/c/ | d/B/F/D/ B,/D/F/G/ | B/c/d/f/ gf |]\
+[K:A]\
+[L:1/8]\
+[|"Double File"e4g4|B3cB4|ccef(a2a2)|]
+P:
+[K:D]\
+[L:1/8]\
+[|"Down at the Mouth of Old Stinson"a2d2 a/f/a/a/ ba| [L:1/8] [M:5/4] f/ab/ ag/e/ f/d/e/d/ B(A A2)|]\
+[K:D]\
+[L:1/4]\
+[|"Dubuque"A,/B,/D/E/ DD/E/ | FB/F/ A2 |]\
+[K:Ador]\
+[L:1/8]\
+[|"Ducks on the Pond"[A4E4] [e4A4] | edef g4 | B2Bc BAGA |]\
+[K:C]\
+[L:1/4]\
+[|"East Hill Breakdown"G| c/2c/2c/2c/2cd| e/2e/2e/2e/2ef|]
+P:
+[K:D]\
+[L:1/8]\
+[|"Fishin' the Kettle Hole"DE | F2D2 D2ED | EFA2 B3 B |]\
+[K:D]\
+[L:1/4]\
+[|"Forked Deer"d-| d/2e/2f/2g/2aa/2f/2| g/2a/2g/2e/2f/2d/2e|]\
+[K:D]\
+[L:1/4]\
+[|"Fortune"f/2g/2| fff/2e/2d| e/2d/2cdf/2g/2|]\
+[K:Em]\
+[L:1/4]\
+[|"Frosty Morning"G| E/2G/2A/2B/2A3/2G/2| A/2c/2de2|]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Frosty Morning"a4 a4|abag edcd|ede^f gagf|]\
+[K:A]\
+[L:1/4]\
+[|"George Booker"A,2C/2A,/2C/2E/2| A/2A/2c/2A/2B/2A/2c|]\
+[K:A]\
+[L:1/4]\
+[|"Georgia Railroad"B| c3/2c/2cA/2B/2| cBAF| B3/2B/2BA/2B/2|]\
+[K:D]\
+[L:1/8]\
+[|"Good-Bye, Girls"ABcA E3 D | CEDC A,4 |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Grandmammy Look at Uncle Sam".vA,2 vA,B,CA, CD | vEDEF v(AB)u.c2 |]\
+[K:G]\
+[L:1/8]\
+[|"Greasy String"D2ED G2A2 | B2d2 B4 | A2G2 EDEG |]\
+[K:D]\
+[L:1/8]\
+[|"Green Willis"(3ABc | d2dc d2fe | dAdA d2gf |]\
+[K:D]\
+[L:1/8]\
+[|"Havre"e2 | fgfe d2ef | gagf e3f |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Hut on Staffin Island"zB, | A,B,DE D2-DE | FEFA d[dD][cA][dD] |]\
+[K:G]\
+[L:1/8]\
+[|"Jimmy in the Swamp"GE | DEGA BAGA | Bded ef .g2 |]\
+[K:D]\
+[L:1/4]\
+[|"June Apple"e/2g/2| a/2g/2e/2g/2a/2g/2e/2g/2| a/2g/2e/2d/2ce/2f/2|]\
+[K:Amix]\
+[L:1/8]\
+[|"Kitchen Girl"(3efg | [a4c4] [g4B4] | efed c2cd |]
+P:
+[K:Em]\
+[L:1/8]\
+[|"Lady of the Lake"A2 B2 c2 d2 | egfa g2 .dc |]\
+[K:D]\
+[L:1/8]\
+[|"Liberty"f2A2 f2A2 | fgfe d2ef |]\
+[K:G]\
+[L:1/4]\
+[|"Lost Indian"d/2B/4B/4d/2B/4B/4| d/2B/4B/4G/2B/2|]\
+[K:A]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"cd | e2 e>f | ed cB | c2 c>d |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"Bc | d2 d>e | dc BA | B2 B>c |]\
+[K:A]\
+[L:1/8]\
+[|"Old Horse and Buggy"EF  | A2A2 cBAA | c2e2- e2EF |]\
+[K:A]\
+[L:1/8]\
+[|"Old Mother Flanagan"a2a2 fecd | efec BAFG |]\
+[K:Bm]\
+[L:1/8]\
+[|"Peas Breakdown"b2a2 f2e2 | d2B2 B2Bd | cAFA fedc |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Portsmouth Winder"[df].d [df].d | [d/f/]d/B/A/ FA | Ae [Ae]>f |]\
+[K:Am]\
+[L:1/4]\
+[|"Pretty Little Dog"AEGA/2G/2| E/2D/2CA,G,| A,/2G,/2A,/2B,/2CD|]\
+[K:D]\
+[L:1/4]\
+[|"Pretty Little Widder"f/4g/4| a/2a/4b/4a/4f/4e/4d/4| g/2g/4a/4g/4e/4d/2|]\
+[K:D]\
+[L:1/4]\
+[|"Ragtime Annie"A/2| D/4F/4A/4F/4B/2A/4F/4| D/4F/4A/4F/4B/2A/4F/4|]
+P:
+[K:D]\
+[L:1/4]\
+[|"Richmond Cotillion"[DA]ff/g/f/e/| dFA3/d/| cBAB|]\
+[K:A]\
+[L:1/8]\
+[|"Robertson's Reel"AB | c2 Bc e2 cB | ABAF E2 AB |]\
+[K:D]\
+[L:1/8]\
+[|"Sadie at the Back Door"agfe d4 | ag f/2e/2d=c2e2 |]\
+[K:Amix]\
+[L:1/8]\
+[|"Sandy Boys Reel"ag eg | e/d/c Aa- | ag eg |]
+P:
+[K:D]\
+[L:1/4]\
+[|"Sandy River Belles"E| A,/2B,/2D/2E/2F2| EDBA| A,/2B,/2D/2E/2F2|]\
+[K:G]\
+[L:1/4]\
+[|"Sandy River Belles"F/2E/2| D/2E/2G/2A/2BB/2B/2| AGed|]\
+[K:G]\
+[L:1/4]\
+[|"Sheep's In The Meadow"A2d2 BAGB|A2d2 G3G|A2d2 BAGB|]\
+[K:G]\
+[L:1/8]\
+[|"Shove that Pig's Foot a Little Farther in the Fire"z(B|B)cBA G2 EF|GAGE D3 D|]
+P:
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]\
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]\
+[K:AMix]\
+[L:1/8]\
+[|"the Squirrel Hunters"e3d .B2 Bd | efed .B2 BA |]\
+[K:A]\
+[L:1/4]\
+[|"Sugar in the Gourd"A/2B/2| c/2B/2A/2F/2E/2F/2A/2B/2| c/2B/2c/2A/2B3/2B/2|]
+P:
+[K:G]\
+[L:1/8]\
+[|"Sugar in the Gourd [6]"g2 ga gded | e g2 a [d3g3]A |]\
+[K:A]\
+[L:1/4]\
+[|"Tom And Jerry"c/2| e/2c/4B/4A/4c/4B/4A/4| c/4B/4A/4c/4B/4A/4B/4c/4|]\
+[K:A]\
+[L:1/4]\
+[|"Up Jumped The Devil"e| ee/2e/2ff| aafe| eafe|]\
+[K:D]\
+[L:1/8]\
+[|"Wait for the Waggon"A2|d2d2D2D2|F2G2A4|B2B2G2B2|]
+P:
+[K:D]\
+[L:1/4]\
+[|"Waiting For Nancy"A/2A/2| B/2A/2A/2A/2B/2A/2A/2A/2| B/2A/2A/2A/2EE/2F/2|]\
+[K:G]\
+[L:1/8]\
+[|"Waiting for the Federals"DG | B4 B2AB | d2B2 BAG2 |]\
+[K:G]\
+[L:1/4]\
+[|"Walking In My Sleep"G,/2A,/2B,/2C/2D/2G/2B/2d/2| B2-B/2d/2B/2A/2|]\
+[K:D]\
+[L:1/4]\
+[|"West Fork Gals"d/2e/2| f/2g/2f/2e/2de/2f/2| g/2f/2gBf|]
+P:
+[K:D]\
+[L:1/4]\
+[|"Whisky Before Breakfast"F/2E/2| D/2E/2F/2G/2AA| A/2B/2A/2G/2F/2E/2D|]\
+[K:G]\
+[L:1/8]\
+[|"Wooden Ended Reel"DEGA G2 D2 | G2 cd c2 G2 |]\
+[K:D]\
+[L:1/8]\
+[|"Yellow Barber"A,/B,/D/E/DD/D/|A,/B,/D/E/ F/E/D|]\
+[K:D]\
+[L:1/8]\
+[|"Yellow Barber"D/>=C/ | A,/G,/A,/=C/ D/E/D/C/ |A,/=C/D/E/ F/D/E/^C/ |]
+P:
+S:https://www.folktunefinder.com/tunes/7711
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel_incip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key B
+% Key A
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

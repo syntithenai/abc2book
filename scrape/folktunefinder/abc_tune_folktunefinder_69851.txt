@@ -1,0 +1,36 @@
+X:291
+T: PROSALUTE HORUM AMICORUM
+N: F0510
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied, Trinkspruch
+M: 2/4
+L: 1/16
+K: G
+ | G6B2 | A6c2 | d2c2B2A2 | B4A2z2
+G6B2 | A6c2 | d2c2B2A2 | B4z4
+G6B2 | A6c2 | d2c2B2A2 | B4A2z2
+G6B2 | A6c2 | d2c2B2A2 | B4z4
+d2d2d2d2 | e4e4 | c2c2c4 | e2d2d4
+G2A2B2c2 | d6c2 | B4A4 | G4z4
+d2d2d2d2 | e4e4 | c2c2c4 | e2d2d4
+G2A2B2c2 | d6c2 | B4A4 | G4z2
+D2 | G3GG2G2 | F2E2D4
+G3GG2G2 | F2A2D2
+D2 | G4G2G2 | F2A2d2
+D2 | G4G2G2 | F2A2d4
+B2A2B2c2 | d6c2 | B4A4 | G4z4
+G3GG2G2 | F2A2D4
+d4B2z2 | d3BB2z2 | d8 | B6z2
+G2A2B2c2 | d6c2 | B4A4 | G4z4
+g2fed2^c2 | d6c2 | B4A4 | G4z4
+S:https://www.folktunefinder.com/tunes/69851
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied, trinkspruch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

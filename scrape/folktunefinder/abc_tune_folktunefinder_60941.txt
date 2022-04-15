@@ -1,0 +1,29 @@
+X:8908
+T:La Dansomanic. JC.206
+M:2/4
+L:1/8
+Q:240
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Misc.
+O:England206
+A:Northamptonshire
+N:MR.Bars 1,2,5,6,10,12,13,14,15, a slur and a 3 has been added to the 3
+N:qu's, making them equal to a crotchet.
+Z:P Headford
+K:C
+e>c {d}((3cBc)|e>c {d}((3cBc)|d>d g>g|e2c2|!
+e>c {d}((3cBc)|e>c {d}((3cBc)|d>d g>g|e2c2:|:!
+d>d g>g|e2 ((3cBc)|d>d g>g|e2((3efg)|!a>f {g}((3fef)|
+g>e {f}((3ede)|f>d {e}((3dcd)|e2c2:|]
+S:https://www.folktunefinder.com/tunes/60941
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

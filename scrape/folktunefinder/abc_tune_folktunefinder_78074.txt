@@ -1,0 +1,36 @@
+X:53
+T: AHNDUNGSGRAUEND TODESMUTHIG BRICHT DER GROSSE MORGEN AN
+N: B0064
+O: Europa, Mitteleuropa, Deutschland
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 4/4
+L: 1/8
+K: Eb
+BG | E2G2B2e2 | dcc2z2
+AG | F3FB3A | G4z2
+BG | E2G2B2e2 | dcc2z2
+AG | F3FB3A | G4z2
+F=A | B2B2c2c2 | dcB2z2
+cd | e2d2c2d2 | B4z2
+BB | e3BAGFE | c2c2z2
+ec | B3GB2AF | E4z2
+G2G2G2 | B3AG2
+F3EF2 | G4E2
+G2G2G2 | B3AG2
+F3EF2 | G4E2
+B2G2B2 | e2B2G2
+B2A2F2 | E4z2
+e2e2e2 | f2f2f2
+d3cd2 | e4z2
+S:https://www.folktunefinder.com/tunes/78074
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

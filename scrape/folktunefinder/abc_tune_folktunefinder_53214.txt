@@ -1,0 +1,30 @@
+X:51
+T:5. HORSE'S BRANLE (or BRAWL)
+M:4/4
+L:1/8
+Q:1/4=127
+O:France
+K:G
+P:A
+G>A BB cBAc|BAGF E2D2|G>A BB cBAc|B/2A/2G AF G2 G2 ::
+P:B
+d>c BB cBAc|BAGF E2 D2|\
+d>c BB cBAc|B/2A/2G A/2G/2F G2 G2 ::
+P:C
+BA/2G/2 BA/2G/2 FG A2|DEFG AcBA|\
+BA/2G/2 BA/2G/2 FG A2|DEF(G G)F G2:|
+P:Alternative C
+K:F
+B/2A/2 G B/2A/2 G FG A2|DEFG ABAG | \
+B/2A/2 G B/2A/2 G FG A2|DEFG GF G2 :|
+S:https://www.folktunefinder.com/tunes/53214
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set05.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

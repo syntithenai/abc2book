@@ -1,0 +1,29 @@
+X: 1
+T: Polska fr\aan R\"attvik
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: even beats
+N: handwritten MS labelled "Buffalo Gap 1991"
+M: 3/4
+L: 1/16
+K: A
+E- \
+| E2E2 A4 c3(c | B3)(c de)dc B3(c \
+| d2)(cd) B4 a3(g | g3)~f (ef)ed c2B2 \
+| A2E2 A4 c3c |
+| B3c dedc B3c \
+| d2cd Tf2e2 c2c2 | cdBG A7 \
+:: e- \
+| e2fe ~c2A2 A3A | A2EA {A}c2Ac e3e |
+| d2ed B2G2 G3E | G2EG B2GB {B}d3d \
+| d2cd ~f2e2 c3c | e2fe d2B2 G2e2 | edBG A7 :|
+S:https://www.folktunefinder.com/tunes/16514
+S:http://trillian.mit.edu/~jc/music/abc/pols/RattviksP6_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/RattviksP6_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

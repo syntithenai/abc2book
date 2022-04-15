@@ -1,0 +1,21 @@
+X: 3
+T: Saimaanrannan Laulu
+C: Raimo Turunen
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A, D F | A2 A | B A> G | "D"F2 D | "A7"A, C E |
+| G2 E | G F> E | "D"D3 :| "D"d c d | "G"B2 G \
+| d c B | "D"A3 | F ^E F | "Bm"B2 F |
+| "Em"A G F | "A7"E3 || "D"A, D F | A2 A | B A> G \
+| "D"F2 D "Intro"| "A7"A, C E | G2 E | G F> E | "D"D3 |]
+S:https://www.folktunefinder.com/tunes/9165
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Rev19000331.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

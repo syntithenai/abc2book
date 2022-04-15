@@ -1,0 +1,25 @@
+X: 1
+T: Anneli Walzer
+O: Germany
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Bb
+   g | "Bb"f2B | d2g | "F7"f2c | e2f |     a2g |1 f2e | "Bb"dfb | "(F7)"f2 :|2 "F7"fga | "Bb"b3- | Hbz |
+|: b | "F7"a3  | ceg | "Bb"f3  | Bdg | "F7"f2e |1 d2c | "Bb"Bdg | f2 :|2 "F7"d2c | "Bb"B3- | Bz |
+K:Eb
+|: g | "Eb"e3  | B3  |     G3  | B2e |"Bb7"d2B |1 f2d | "Eb"e2f | g2 :|2"Bb7"g2f | "Eb"e3- | ez :|
+S:https://www.folktunefinder.com/tunes/19785
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Anneli_Walzer_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/Anneli_Walzer_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/Anneli_Walzer_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/waltz/Anneli_Walzer_Bb.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

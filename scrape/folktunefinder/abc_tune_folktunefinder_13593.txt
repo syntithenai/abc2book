@@ -1,0 +1,25 @@
+X:9
+T:In Memory of Mozart (with chords)
+R:hornpipe
+C:Fredrik Jakobsson
+S:Jeff Lindqvist <jeff_lindqvist@SPRAY.SE> irtrad-l 2001-10-26
+Z:Anders Clarhall
+M:C|
+K:D
+AG|:"D"FA,DF "A/#C"EA,CE|"Bm"DCDF "D/A"ADFA|"G"B2Bc "Bm"(3ded cB|"D"(3ABA GF "A"E2AG|
+"D"FA,DF "A/#C"EA,CE|"Bm"DCDF "D/A"ADGF|"Em"EDEF "G"GG,FE|1 "D"(3DED CE "D"D2AG:|2 "D"(3DEDCE "D"D2(3ABc||
+"Bm"d2cd "G"BAFB|"D"Adfd "D/G"ed"D/#F"Ad|"D"f~d3 "D/E"g~d3|"D/#F"abaf "A"edde|
+"D"f~A3 "D/E"gBdB|"D/#F"Adfd "G"edBd|"D/#F"A2FB "D/#F"ADFD|1"A"EDCE "D"D2 (3ABc:|2 "A"EDCE "D"D2AG||
+S:https://www.folktunefinder.com/tunes/13593
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/InMemoryOfMozartWithChords_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/InMemoryOfMozartWithChords_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/InMemoryOfMozartWithChords_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

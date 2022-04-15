@@ -1,0 +1,30 @@
+X:128
+T: Es droehnet der Marsch der Kolonne,
+N: D0195
+O: Europa, Mitteleuropa, Deutschland, Brandenburg, Berlin
+N: Inzipit = Transposition zum Lied
+R: Soldaten - Lied
+M: 4/4
+L: 1/16
+K: E
+B,4 | E4E3F=G4F3E | F4F8
+B4 | B4E4A6=G2 | F8z4
+B,4 | E4E3F=G4F3E | F4F8
+B4 | B4A2=G2A4G2F2 | =G8z4
+B4 | B4=G3GG4A2B2 | A4=D3DD4
+E2F2 | =G4E4E4F2G2 | F4B,4B,4
+E3F | =G4E4F4d4 | E8z4
+B4 | B4=G3GG4A2B2 | A4=D3DD4
+E2F2 | =G4E4E4F2G2 | F4B,4B,4
+E3F | =G4E4F4d4 | E8z4
+S:https://www.folktunefinder.com/tunes/72585
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

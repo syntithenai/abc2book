@@ -1,0 +1,16 @@
+X: 1
+T:Fenwick o' Bywell
+M:6/8
+L:1/8
+K:G
+g|edcBAB|GBGB2g|edcBAG|AfAc2g|edcBAB|GBGB2G|c>de/2f/2gdB|AgAc2:|:e|GGBGG
+g|GGdB2g|GGdBBg|AgAc2e|GGdBBg|GGdB2G|c>de/2f/2gdB|AgAc2:||
+% Output from ABC2Win  Version 2.1 i on 3/12/2000
+S:https://www.folktunefinder.com/tunes/75480
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

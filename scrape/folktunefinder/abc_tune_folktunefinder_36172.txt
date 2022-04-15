@@ -1,0 +1,26 @@
+X:465
+T:Bonny Ann
+M:2/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000933.html
+%%ID:00000933
+K:A mixolydian
+e2|\
+A2a2 a3f | efed c2BA | G2g2 g3e | dedc B2AG |\
+A2a2 a3f | efed c2e2 | dcBA GABd | c2A2 A2 :|
+|: e2 |\
+edcB ABcd | e2A2 c4 | dcBA GABc | d2G2 B2cd |\
+edcB ABcd | e2a2 c2e2 | dcBA GABd | c2A2A2 :|
+S:https://www.folktunefinder.com/tunes/36172
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T:An t-Iarla Di\`urach
+T:Earl of Jura, The
+M:3/4
+L:1/8
+R:Slow Air
+B:Fiddle Music of the Scottish Highlands Vol 5/6 P 9
+Z:Ted Hastings <ted@hastings.nu> scots-l 2000-11-26
+K:Dm
+uA A>G|A2 D>F(E>D)|(D3 D) "," (FG)|!
+A2 (GF)GA|f2 (e>f) dA|c2 (dG) G>F|F3 "," G A>G|!
+A2 DF (E>D)|D4 "," (A>c)|d2 (Af) f>e|d2 F2 Ac|!
+d2 A2 G>F|E2 D2 "," FG|A2 (GF)GA|f2 (ef)dA|!
+c2 (dG) G>F|F3 "," A A>G|A2 D>F(E>D)|(D3 D)||
+S:https://www.folktunefinder.com/tunes/13173
+S:http://trillian.mit.edu/~jc/music/abc/air/EarlOfJura.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/EarlOfJura.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/EarlOfJura.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/EarlOfJura_1.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

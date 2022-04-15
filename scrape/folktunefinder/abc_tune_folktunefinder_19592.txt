@@ -1,0 +1,32 @@
+X: 1
+T: Mrs Oswald of Auchincruive
+C: Robert Mackintosh
+R: strathspey
+B: Glen Collection
+N: There are also strathspeys names for Miss and Mr Oswald of Auchincruive.
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C
+L: 1/16
+K: F
+AB \
+| "F"cF3 A3G F4 F2AB | "F"cF3 A3c "Bb"dcBA "C7"Gd3 \
+| "F"cF3 A3F DF3 CF3 | "C7"EFG2 C3B "F"AF3 F2 :|
+c2 \
+| "F"fc3 a3g "Bb"f4 f2ed | "F"cF3 A3f "Bb"dcBA "C7"G3e \
+| "F"fc3 af3 "Bb"df3 "D"cf3 | "C7"Bcd2 c3B "F"A2F2 F2 |]
+c2 \
+| "F"fc3 a3g "Bb"f4 f2ed | "F"cF3 A3f "Bb"dcBA "C7"G3B \
+| "F"Af3 "Bb"Bf3 "F"cf3 "Bb"df3 | "C7"e3g c3e "F"f4 f2 |]
+S:https://www.folktunefinder.com/tunes/19592
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsOswaldOfAuchincruive_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsOswaldOfAuchincruive_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

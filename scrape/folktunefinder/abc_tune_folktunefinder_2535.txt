@@ -1,0 +1,27 @@
+X:9
+T:Strange tuplet cases
+M:C
+K:C
+L: 1/8
+ (3cde c(3d/e/f/ |(3zcd (3z/c/d/ (3czc c(4d/e/f/z/ d2-(3def | \
+   (3::2 c4d2  (3::4 cde/f/ (3gfe |
+ (3z2G,2A,2 (3C2E2G2 |e-(5e//f//g//f//g// de- (5e//f//g//f//g// |\
+  (6z/c/e/g/e/c/ (6z/c/e/g/e/c/  | (3d/e/f/g-(3g/f/e/d ||
+S:https://www.folktunefinder.com/tunes/2535
+S:http://trillian.mit.edu/~jc/music/abc/test/StrangeTupletCases.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/StrangeTupletCases.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/StrangeTupletCases.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/StrangeTupletCases.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

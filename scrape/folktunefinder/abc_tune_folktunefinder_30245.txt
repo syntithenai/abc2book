@@ -1,0 +1,22 @@
+X:0
+T:no title (number 96)
+G:dance song
+S:Bartok & Kodaly, Transylvanian Hungarian Folksongs
+N:used by Dohnanyi in his suite "Ruralia Hungarica"
+M:4/4
+L:1/4
+Q:1/2=120
+K:GDor
+% dorian/minor/phrygian pentatonic
+g>gfg|fdcd|g>fdc|cdBB |
+g>fdc|dcBd|d>dcd|GGGG|]
+S:https://www.folktunefinder.com/tunes/30245
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

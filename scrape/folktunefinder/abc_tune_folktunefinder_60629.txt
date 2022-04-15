@@ -1,0 +1,20 @@
+X:4440
+T:Drummond Castle
+M:6/8
+L:1/8
+K:AMin
+% dorian/minor hexatonic
+E|ABA a3 |age g3 |c2c  edc|Bdg dBG|\
+  ABA a3 |age g3 |e>ge deg|edB A2:|
+B|c2c cec|d2d ded|c2c  edc|Bdg dBG|\
+  c2c edc|deg a2g|ege  deg|edB A2:|
+S:https://www.folktunefinder.com/tunes/60629
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

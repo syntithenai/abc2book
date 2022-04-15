@@ -1,0 +1,23 @@
+X:101
+T: ES STEHT EIN BAUM IM ODENWALD
+N: E0700A
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: D
+A, | A,3A,F,2D,2 | E,2E,2E,2z
+A, | A,2A,2F,2D,2 | E,6z
+E | E3EC2A,2 | D2D2D2z
+D | E3EC2A,2 | D4z3
+S:https://www.folktunefinder.com/tunes/76586
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

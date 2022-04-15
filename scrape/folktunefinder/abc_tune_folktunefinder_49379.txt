@@ -1,0 +1,21 @@
+X:69
+T: En Sang Til Deg
+O:norway
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Em
+%%MIDI gchord zf
+"D"z2"Em"B,2|E2E^D    |E2"Bm"d2|B2B2    |\
+F3A         |G2"G"GF  |E2"Em"E2|FE"B"F^D|B,3B,|
+E2"B"E^D    |E2"Bm"d2 |B2B2    |F3A     |\
+"C"G2GE     |F2"Bm"F^D|"E"E4-  |E4      |
+S:https://www.folktunefinder.com/tunes/49379
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

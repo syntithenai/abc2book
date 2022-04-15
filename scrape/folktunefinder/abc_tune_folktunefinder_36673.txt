@@ -1,0 +1,29 @@
+X:2970
+T:Krn Gaades firetur
+M:2/4
+O:Denmark
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000090c.html
+%%ID:0000090c
+K:G
+G2Bd g2d2 | cBAG cBAG | G2Bd g2d2 | e2f2 g4 ::\
+K:D
+f3g aaaa | eeee eeee |
+ffff gggg | eeee d4 ::\
+K:G
+B3A A2G2 | c3B B2A2 | \
+GBd2 GBd2 | cBA2 G4 :|
+|:\
+M:3/4
+BA | A2G2G2 | G4 FG | A2A2A2 | A4 ce |\
+d2d2d2 | e4 d^c | d2e2f2 | g2 z2 :|
+S:https://www.folktunefinder.com/tunes/36673
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

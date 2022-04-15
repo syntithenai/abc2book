@@ -1,0 +1,27 @@
+X:595
+T: KLOPFER KLOPFER RINGELCHEN
+N: E1910
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Kinder - Lied, Tanz, Reigen
+M: 2/4
+L: 1/8
+K: F
+ | FFGG | AGF
+C | FFGG | AGFz
+GGFA | GGF
+C | FFGG | AGF
+C | FFGG | A2Fz
+FFGG | AGF2
+FFGG | AGF2
+GGF2 | GGF2
+cFFF | FFF2
+S:https://www.folktunefinder.com/tunes/79699
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, tanz, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

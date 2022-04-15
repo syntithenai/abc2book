@@ -1,0 +1,23 @@
+X:45
+T:East at Glendart
+R:jig
+D:Planxty: After the Break
+M:6/8
+L:1/8
+K:D
+BAF AFD | ~F3 DFA | BAF AFD | FED EFA |
+BAF FAD  | F2 F DFA | dcB AFE | EDC D3 :||
+def d2 B | ABA AFA | def dAd | ede fdB |
+def d2 B | ABA ABc | dcB AFE | EDC D3 :||
+S:https://www.folktunefinder.com/tunes/58652
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

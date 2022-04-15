@@ -1,0 +1,30 @@
+X: 11
+T: 1. Castle Wynd
+C: Moira Reekie
+R: Strathspey
+M: C
+L: 1/8
+Z: Notated by Robin Shaylor, November 2004
+% Q: 220
+K: A
+|: e>d |\
+"A"  c>A E<C  "A/C#" E2 (3ABc | "Bm" {c}d>B "A/C#" c>A "E7" B2 e>d  |\
+"A"  c>A E<C  "A/C#" E2   A>G | "D"    F<d "E" TB>G "A" A2 "E7" e>d  |
+"A" Tc>A E<C  "A/C#" E2 (3ABc | "D"   (3dcB "B7/D#" (3cBA "E7'" B>f e>d  |\
+"A" (3cde A2  "D"   (3FGA D2  | "E7"   E<d TB>G "A" A2 E>D  |
+"A"  C<E  A2  "D"    D<F A2   | "A/C#" E<c "B7" TB>A "E7" B2 TE>D  |\
+"A" (3CDE A2  "D"   (3DEF A2  | "E7"   E<e c>B "A"   A2  TE>D  |
+"A" (3CDE A>c "D"    D<F A2   | "A/C#" E<c     "B7" TB>A "E7" B>f  e>d  |\
+"A"  c>A  E<C "A/C#" E2   A>G | "D"    F<d     "E"  TB>G "A  (D7)" A2 :| [K:G] |
+S:https://www.folktunefinder.com/tunes/40115
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

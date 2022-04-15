@@ -1,0 +1,27 @@
+X:445
+T: "Engellied zu Weihnachten"
+N: Z1125
+O: Europa, Mitteleuropa, Deutschland, Sued - Deutschland
+R: religioeses Lied, Weihnachts - Lied
+M: 2/4
+L: 1/16
+K: F
+c4 | f4d2d2 | c3dc2
+B2 | A4A2G2 | F4
+G4 | A3Bc2B2 | ABc4
+B2 | A3Bc2B2 | ABc4
+c2 | f4d3c | c3dc2
+B2 | A4A2G2 | F4
+S:https://www.folktunefinder.com/tunes/69304
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied, weihnachts - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

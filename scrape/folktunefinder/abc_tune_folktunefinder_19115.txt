@@ -1,0 +1,26 @@
+X: 9
+T: Crooked Stovepipe #2, The
+I: Crooked Stovepipe, TheS-CGsquare
+%C: S-C
+M: C|
+%Q: 1/2=100
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+(3DEF \
+| "G"G2B2 BcdB | G2B2 BcdB | G2B2 e2B2 | "D7"d2c2 c2BA \
+| F2A2 ABcA | F2A2 A2Bc | d2d2 e2f2 | "G"g6 :| 
+|: a2 \
+| "G"b6 a2 | g6 f2 | "C"e2e2 f2g2 | "A"a6 b2 \
+| "D7"c'6 a2 | f6 e2 | d2d2 e2d2 |1 "G"ggg2 a2^a2 :|2 "G"g6 |]
+S:https://www.folktunefinder.com/tunes/19115
+S:http://trillian.mit.edu/~jc/music/abc/square/CrookedStovepipe2The.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

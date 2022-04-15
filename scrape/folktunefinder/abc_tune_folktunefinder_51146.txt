@@ -1,0 +1,27 @@
+X:3004
+T:Carolan's Concerto
+R:March
+C:Turlough O'Carolan (1670-1738)
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+(3ABc|"D"d2 dd d2 cB|"A"ABGA "D"F2 A2|"A"E2 A2 "D"D2 A2|"E"Bcde "A"dcBA|
+"D"d2 a2 fgaf|"A"efge "D"fgaf|"G"g2bg "D"fdfa|"Em"gfed "A"dcBA|
+"G"BdBd gdgd|"D"AdAd fAfA|"Em"GBGB efed|"A"c2 Bc A3 G|
+"D"FGAF "A"EFGE|"D"FGAF "G"GABG|"D"A2 d2 "A"fedc|"D"d6:|
+|:(3ABc|"D"d2 b2 "A"agfe|"D"d2 a2 "A"c2 a2|"G"B2 gB "D"ABcd|"A"ecBA "D"d3 f|
+"A"edcB ca a/a/a|"G"Bg g/g/g "D"Af f/f/f|"A"edcB ca a/a/a|"G"Bg g/g/g bgbg|
+"D"afaf "A"edcB|cABG AFGE|"D"DAFA DAFA|"Em"GEBE GEBE|
+"D"FAdc BAGF|"G"GABc "A"defg|"D"A2 d2 "A"fedc|"D"d6:|
+S:https://www.folktunefinder.com/tunes/51146
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

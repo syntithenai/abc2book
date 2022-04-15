@@ -1,0 +1,23 @@
+X: 19
+T:Dark Island
+M:3/4
+L:1/8
+Q:1/8=180
+K:Em
+E |"Am" A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 A G2 | "G"B d3 D2 | "G"B3 d B2 | "Am"A4 DE |
+"Am"A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 DdB | "Am"A3 DBA | "G"G6 | "G"G4 |]
+Bc | "G"d3 D D2 | "G"B3 A G2 | "Am"E C3 E2 | "G"D4 GA |
+"G"B3 A G2 | "G"B d3 D2 | "G"B3 d B2 | "Am"A4 DE |
+"Am"A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 DdB | "Am"A3 DBA | "G"G6 | G4 |]
+S:https://www.folktunefinder.com/tunes/52096
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

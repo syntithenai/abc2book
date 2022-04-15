@@ -1,0 +1,42 @@
+X:13
+T:Forneth House
+C:Robert Petrie ()
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/20/04
+N:Petrie's First Collection, page 7
+N:Slow
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Strathspey
+K:D
+[V:1] "^Slow"A|F<AA>B A<FA>B|d/c/d/e/ f>e dd|F<AA>B A<Fd>B|(B/A/)(G/F/) (A/G/)(F/E/) D2D:|
+[V:2] z|[d2f2a2][d2f2a2][d2f2a2][d2f2a2]|[d2f2a2][d2f2a2][d2g2b2][d2g2b2]|\
+[V:2] [d2f2a2][d2f2a2][d2f2a2][d2g2b2]|a2 A2 dAD:|
+[V:1] f|a>ba<f d<Ad>f|e>f g/f/e/d/ B2 B>f|a>ba<f d<Ad<f|e>f (a/g/)(f/e/) d2 (d/e/f/g/)|
+[V:2] z|[f2a2d'2][f2a2d'2][f2a2d'2][f2a2d'2]|g2 e2 g2 Gz|\
+[V:2] [f2a2d'2][f2a2d'2][f2a2d'2][f2a2d'2]|g2 a2 f2 d2|
+[V:1] a>ba<f d>Ad<f|(e/f/e/f/) (g/f/e/d/) B2 (B/c/d/B/)|A2 B/A/G/F/ F>dA<F|TE>DEF D2 D|]
+[V:2] [f2a2d'2][f2a2d'2][f2a2d'2][f2a2d'2]|g2 e2 g2 G2|F2 d2 f2 d2|a2 A2 d2 d|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72040
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/FornethHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Forneth_House.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

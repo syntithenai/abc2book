@@ -1,0 +1,22 @@
+X: 1
+T: gchords
+M:4/4
+L:1/4
+K:C
+"C" CCCC|CCCC|
+%%MIDI gchord czcz
+FFFF|FFFF|
+%%MIDI gchord fzzz
+ GGGG|GGGG|
+%%MIDI  gchord fcfz
+ CCCC|CCCC|
+S:https://www.folktunefinder.com/tunes/40343
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Spends a lot of time on the same note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 14
+T: Neat, Mr. John
+M:4/4
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:A
+|:"A"e4"D"fga2|"E"g2e4dc|"D"B4A4|"E"G2B6|"A"e4"D"fga2|
+"E"g2e4 dc|"E"B4"D"A4|"A"E2A6::"A"c3B"Bm"c2d2|"F#m"efed cBcA|
+"Bm"d2c2d2e2|"E"fgfe dcdB|"A"c2B2"Bm"c2d2|"A/C#"efed cBcA|
+"D"aedc B2A2|"E"G2B6|"A"c3B"E"c2d2|"F#m"efed cBcA|"Bm"d2c2d2e2|
+"E"fgfe dcdB|"A"e4"D"fga2|"E"g2e4dc|"E"B4"D"A4|"A"E2A6:|
+% C:\aaa\EnglishCountry\ECD02.abc
+S:https://www.folktunefinder.com/tunes/39340
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:455
+%%topmargin 3cm
+T:Lord Moira
+C:Duncan McIntyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A phrygian
+C S|| F<F~F>F A<c ~c2 | {/c}B>GA<F {EF}G>FE<C | F<F~F>F A<c ~c2 | d>f e/f/g/e/ f/g/a/g/ f<a :|
+f<f{fg}a>f {/a}g>fe<c | d<d{/g}f>d {/d}c>BA<F | f<f {fg}a>f {/a}g>fe<c | d>f e/f/g/e/ f2 fa | {ga}b>ga>f {/a}g>fd<f |
+d/c/B/A/ f>A B/A/G/F/ G<A | F<FF<F B<d ~d2 | c>f e/f/g/e/ f/g/a/g/ f<a !fine!H|| A>Fc>F d/c/B/A/ c<f | A<Fc<F G>AB<d |
+A>Fc>F d/c/B/A/ c<f | d>f e/f/g/e/ f2 f<a | f<af<a e<g ~c2 | d>ef<d {/d}c>BA<F | (3fga (3fga (3efg ~c2 |
+d>f e/f/g/e/ f2 fd | dBA<F {EF}G>FE<C | (3FGA (3GAB (3ABc (3Bcd | "_cres."c>f a/g/f/e/ g/f/e/d/ c/B/A/G/!D.C.!S |]
+S:https://www.folktunefinder.com/tunes/71484
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lord_Moira.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0455.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:848
+T:Xiraldilla (CT 306)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Rosario Muiz Martnez, de veinticinco aos, de Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 306
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|d2 dd|e2 fe|d3 d|e2 fe|d2 z2|
+B2 BA|B2 dc|B3 A|G2 GF|G2 z2|
+d2 dd|e2 fe|d3 d|e2 fe|d2 z2|
+B2 BA|B2 dc|B3 A|G2 GF|G2 z2||
+W:Madre quiero caserme,
+W:no encuentro novia
+W:y ahora encontr
+W:una muy guapetona.
+W:
+W:Calza rico zapato;
+W:viste a la moda;
+W:gasta medias de seda
+W:como seora.
+W:
+S:https://www.folktunefinder.com/tunes/59735
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

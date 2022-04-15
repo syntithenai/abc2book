@@ -1,0 +1,22 @@
+X:1
+T:Yuletide Polska 
+C:Andy Hornby 1998
+I:abc2nwc
+M:3/4
+L:1/8
+K:F
+D3/2f/2 e/2^c3/2 d3/2A/2|B3/2A/2- A^G A3/2F/2|D3/2^C/2 D3/2E/2 F/2G3/2|A3/2^G/2- ^GA ^c3/2A/2|
+d3/2f/2 e/2^c3/2 d3/2A/2|B3/2A/2- A^G A3/2F/2|D3/2^C/2 D3/2E/2 F/2G3/2|A3/2A,/2- A,^C D2:|
+|:D3/2A,/2- A,F  (3EGE|F3/2D/2- DA  (3GAB|A3/2F/2- FA G3/2E/2|F3/2D/2- DF  (3ED^C|
+D3/2A,/2- A,F  (3EGE|F3/2D/2- DA  (3GAB|A3/2F/2- FA G3/2A/2|^c2d4:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43732
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

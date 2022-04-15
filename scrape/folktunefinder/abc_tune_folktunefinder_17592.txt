@@ -1,0 +1,26 @@
+X: 1
+T: MacArthur Road
+C: Dave Richardson
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen)
+K: E
+e \
+| "E"BG~G2 Bcef | g3e "E7"fece | "A"f2ge fece | "F#m"aege "B7"fece \
+| "E"BG~G2 Bcef | g3e "E7"fece | "A"f2ge "F#m"fcec | "B7"Bcef "E"e3 :|
+|: z \
+| "E"be~e2 bec'e | be~e2 "E7"fece | "A"f2ge fece | "F#m"aege "B7"fece \
+| "E"be~e2 bec'e | be~e2 "E7"fece | "A"f2ge "F#m"fcec | "B7"Bcef "E"e3 :|
+S:https://www.folktunefinder.com/tunes/17592
+S:http://trillian.mit.edu/~jc/music/abc/reel/MacArthurRoad_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MacArthurRoad_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Dave_Richardson/MacArthurRoad_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MacArthurRoad_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

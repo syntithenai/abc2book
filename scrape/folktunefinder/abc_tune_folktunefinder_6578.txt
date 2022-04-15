@@ -1,0 +1,28 @@
+X: 1
+T: Mama
+O: Italy
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: Cm
+ef \
+| "Cm"g2g2 g3e | "Fm"f6 de | f2f2 "G7"e3d | "Cm"c6 =Bc \
+| "Fm"d2d2 d2ef | "Cm"e6 e2 | "D7"d2d2 e3d | "Dm"d4- "G7"d4 || [K:C]
+|: "C"e4 c4- | cGAB cdef | "C#dim"g3e "G7"g2d2- | d8 \
+| "G7"z2d2 B4- | BGAB "Dm"cd"G7"ef | "C"a3g "Dm"(3fgfe2- | "C"e8 |
+| "C"zggg a3g | (e/g/e/d/ c6) | "Gm"zggg "A7"ag2f | "Dm"e2 d6 \
+| "Fm"ff2f f2g_a | "Cm"g_eg2- g3z | "Fm"f2(3fff f_a2c' | "G7"b4- bc'"Dm"c'2 |
+| "F"c'4 "Fmaj7"a4- | "F"afga bc'ba | "C"c'b2a g4- | "Cmaj7"g4- "C7"g2z2 \
+| "F"a4 f2a2 | "C"gfe2- "C7"ecde | "Dm"fgfe "G7"gf2d | "C"c6 z2 :|
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/6578
+S:http://trillian.mit.edu/~jc/music/abc/Italy/Mama.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

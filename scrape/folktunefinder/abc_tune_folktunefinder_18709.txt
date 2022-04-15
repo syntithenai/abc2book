@@ -1,0 +1,22 @@
+X: 1
+T: Eshes Chayil
+M: C
+L: 1/16
+K: A_B^c
+|: "A"A2A2 c2cA "Dm"e2 d4 d2 | "A"c2c2 "Gm"BAG2 "A"c2c2 "Gm"BAG2 \
+|  "A"A2A2 c2cA "Dm"e2 d4 d2 | "A"c2c2 "Gm"BAG2 "A"A8 :|
+[| "Dm"f2ff ffff "A"g2e2- e3A | "A"e2ee eeee "Dm"efd2- d3A \
+|  "Bb"d2dd e3d "A"dc3- c2cc | "Dm"d2A2 "Gm"B2"A"c2 "Dm"d2"A"c2"Dm"d2"A"e2 |
+[| "Dm"f2ff ffff "A"g2e2- e3A | "A"e4 e3e "Dm"efd2- d4 \
+|  "Gm"d2dd e3d "A"d2 c4 cc | "A"c2A2 "Gm"B2G2 "A"A8 |]
+S:https://www.folktunefinder.com/tunes/18709
+S:http://trillian.mit.edu/~jc/music/abc/song/EshesChayil_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/EshesChayil_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/EshesChayil_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EshesChayil_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

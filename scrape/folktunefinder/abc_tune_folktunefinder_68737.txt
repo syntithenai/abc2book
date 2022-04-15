@@ -1,0 +1,28 @@
+X:191
+T: Keinen Schreiber
+N: A0224
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott III 1544 No. 39
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: D
+d4d4d4 | d4d4A4A4 | A12
+A4 | e6d2=c4B4 | A8z8
+d6d2d4d4 | =c8A8
+c6_B2A4G4 | =F8z8
+F4F4G4G4 | A8D8 | z4
+d4=c4d4 | e8d6=cB | A8z4
+d4 | d4d4d4d4 | =c6_B2A8
+d4d4d4d4 | =c6_B2A4
+G4 | A4=F4E8 | D4G4A4=F4 | E8D8 | z4
+S:https://www.folktunefinder.com/tunes/68737
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

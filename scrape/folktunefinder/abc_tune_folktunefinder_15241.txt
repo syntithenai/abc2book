@@ -1,0 +1,30 @@
+X: 1
+T: the Weaver and His Wife
+N: Nottingham Music Database
+C: Andrew Rankine
+M: 6/8
+K: A
+E \
+| "A"E2E E>AB | c3 A3 | c3 A2c | e>dc "Bm"B3 \
+| "E7"E2E E>Bc | d3 B2G | E2e d>cB |1 "A"c3- c2 :|2 "A"A3 -A2 ||
+|: "(E)"G/F/ \
+| "A"E>Ac e3 | E>Ae c3 | E>Ac edc | "Bm"d3 -d>Bc \
+| "E7"d>ed B>dB | G3 F3 | E2e d>cB |1 "A"c3 -c2 :|2 "A"A3 -A2 |]
+S:https://www.folktunefinder.com/tunes/15241
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeaverAndHisWife_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WeaverAndHisWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WeaverAndHisWife_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/WeaverAndHisWife.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

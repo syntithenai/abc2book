@@ -1,0 +1,28 @@
+X: 1
+T: Sean Ryan's Jig #1
+C: Sean Ryan
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+B \
+| "Am"c3 "G"BAG | "Am"AGE "G"DB,G, | "Am"A,3 EDB, | "G"DEG AGE \
+| "Am"cBA "G"BAG | "Am"AGE "G"DB,G, | "Am"A,2E EDE | "G"DB,G, "Am"A,2 :|
+|: B \
+| "Am"cBA ~a3 | bag edB | "G"GBd gfg | GBd cBA \
+| "Am"cBc "G"dcd | "C"ede "G"gab | "Am"age "G"dBG | "Em"EFG "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/15045
+S:http://trillian.mit.edu/~jc/music/abc/jig/SeanRyansJig1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SeanRyansJig1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SeanRyansJig1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SeanRyansJig1_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

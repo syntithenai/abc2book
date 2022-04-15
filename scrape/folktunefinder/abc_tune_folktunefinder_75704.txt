@@ -1,0 +1,37 @@
+X:8
+T:Bakmes fr\aan Kall
+C:Efter J.Jonsson (Joute i Byom)
+C:Arr. Alm Nils Ersson/Dissonant
+R:Bakmes
+M:3/4
+L:1/4
+Q:"l\aangsamt"
+%%staves [1 2]
+K:Am
+V:1
+|:E|"Am"E c/B/ (A/^G/)|(A c) e|a ^g/b/ (a/g/)|\
+V:2
+|:E|C E D|C A/B/ c/d/|f/e/ d B|\
+V:1
+"C"e ((3d/e/d/) "G"B|"Am"c A (A/c/)|("E7"B {B}[^GB]) {B}[GB]|"Am"A c/B/ ("E7"A/^G/)|"Am"A2:|
+V:2
+((3c/d/c/) B E/G/|A A A- & x G F-|A E D & F xx |C E D|C2:|
+V:1
+|:("Am"A/B/)|c2 c|"E7"(3c/d/c/ B c|"A(V)"e2c|c2 B/c/|"Dm(V)"d2 d|"G7(III)"((3d/e/d/) B/G/ (B/d/)|
+V:2
+|:E|A, E/^G/ A|A (3^G/^F/G/ A|c/B/ A E-|E F G|F/E/ D c|B G D/B/|
+V:1
+"F"f2 f|"C"e>d c|"E7"e>(d B/d/)|("Am"c A) A/c/|("E7"B {B}[^GB]) {B}[GB]|"Am"A2:|
+V:2
+d/c/ B G-|G (3B/c/B/ A|C E/^F/ ^G|A G F-|FED|C2:|
+S:https://www.folktunefinder.com/tunes/75704
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Bakmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

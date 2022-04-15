@@ -1,0 +1,24 @@
+X:288
+T:Seamus O'Shanahan's
+R:jig
+M:6/8
+L:1/8
+D:Altan: Harvest Storm
+C:Paul O'Shaughnessy
+K:Am
+"Am"EAA ABc | "G"BGG GBd | "C"edc Bcd | c3 "Em"BGF |
+"Am"~E3 ABc | "G"BGG GBd | "F"edc "E"Bcd|1 "G"cAG "Am"A3 :|2 "G"cAG "Am"ABc||
+"Dm"d2f faf | "Am"ecA Adc | "E"B2d dcB | "Am"cee ecA |
+"Dm"dff faf | "Am"ecA Adc | "E"Bcd cBG | "Am"ABA ABc |
+"Dm"d2f faf | "Am"ecA Adc | "E"B3 d3 | "Am"cee ecA |
+"Dm"dfg agf | "Am"ecA Adc | "E"Bcd cBG | "F"AcA "G"BGF|]
+S:https://www.folktunefinder.com/tunes/63831
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

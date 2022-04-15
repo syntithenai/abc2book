@@ -1,0 +1,25 @@
+X: 223
+T:Metounicanka
+O:Serbia
+M:2/4
+L:1/8
+Q:1/4=192
+K:C
+%%MIDI gchord fzzz
+%%MIDI drum  zzdz 44
+%%MIDI drumon
+|:"C"  G,2E2|G,2D2|G,2C2     |CB,CA,   |\
+  G,2E2     |G,2D2|G,2C2     |C4       :|
+|:"C"C2E2   |G2E2 |"G"D2C2   |"C"CB,CA,|\
+  C2E2      |G2E2 |"G"D2"C"C2|"C"C4    :|
+|:"C"G2G2   |GFFE |GFFE      |EDC2     |\
+  GFFE      |GFFE |DCCB,     |C4       :|
+S:https://www.folktunefinder.com/tunes/54206
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

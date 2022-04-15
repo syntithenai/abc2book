@@ -1,0 +1,28 @@
+X: 1
+T: the Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 | "A"c2 B>A E2 E2 |
+| "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 || E2 | "E7"d2 d>c B2 E2 | "A"e2 e>d c2 de |
+| "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d | "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+S:https://www.folktunefinder.com/tunes/13271
+S:http://trillian.mit.edu/~jc/music/abc/air/MusicOSpey_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MusicOSpey_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MusicOSpey_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MusicOSpey_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MusicOSpey_3.abc
+% Rhythm Air, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

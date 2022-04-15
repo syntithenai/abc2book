@@ -1,0 +1,25 @@
+X:150
+T: Sichelein - Rauschen
+N: A0180B
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. 1646 S. 1564.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: G
+G | G_BAG | d2d
+G | ddc_B | A2z
+d | c_BAG | d2_B
+G | A_BcA | G2z
+S:https://www.folktunefinder.com/tunes/68696
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

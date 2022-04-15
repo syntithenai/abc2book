@@ -1,0 +1,28 @@
+X:448
+T: DER MAI TRITT EIN MIT FREUDEN
+N: E0381
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Jahreszeiten, Fruehling
+M: 3/4
+L: 1/8
+K: D
+A,2 | D3EFD | A,2F,2
+A,2 | B,3CDB, | A,4
+F,2 | G,2B,2A,G, | F,2A,2
+D2 | FED2C2 | D4
+DE | F2D2A2 | E3D
+C2 | D2B,2E2 | C2A,2z
+A, | B,3CDB, | A,2D2
+F2 | FED2C2 | D4
+S:https://www.folktunefinder.com/tunes/78889
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied, jahreszeiten, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

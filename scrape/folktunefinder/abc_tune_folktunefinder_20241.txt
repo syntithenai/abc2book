@@ -1,0 +1,27 @@
+X: 1
+T: Tamo daleko
+%T: 
+O: Serbia %()
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu> 
+N: There is a lot of variation in the lyrics.
+M: 3/4
+L: 1/4
+K: Gm
+[|"Gm"DGB | dcB | d3- | "D7"d3 | "Gm"DGB | dcB | "Cm6"A3- | A3 |
+w: O zar je mo-ra-la do\'c',* ta tu\vz-na ne-sre\'c-na no\'c,
+| "Cm"ccc | cBA | c3- | "Ebdim"e3 | "Gm"ded | "D7"cBA | "Gm"G3- | HG3 |]
+w: Ka-da si dra-ga-ne moj,* o-ti-\vs'o u lju-ti boj.
+[|"Gm"G3  | D2G | (B2A) | G2"F7"F | "Bb"d2d | "F7"(cd)e | "Bb"d3- | "D7"d3 |
+S:https://www.folktunefinder.com/tunes/20241
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TamoDaleko_Gm_W.utf8.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/TamoDaleko_Gm_W.utf8.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/waltz/TamoDaleko_Gm_W.utf8.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

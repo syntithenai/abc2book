@@ -1,0 +1,30 @@
+X:6253
+T:Staines Morris
+C:trad. Engeland
+O:England
+M:4/4
+L:1/8
+Q:1/4=120
+K:F
+V:1
+a2 d'2 b2 ^c'2 |d'2 c'b a2 zb |(c'd') c'b a2 gf |(ed) ef d4 |
+(fg ab) a2 (gf) |(ed ef) d4 |(fg ab) a2 (gf) |1 (e)d ef) d4 :|2
+(ed ef) d2 e2 || |:f2 .f.f c2 c2 |(de) .f.g a3 .b|(c' d').c' .ba2 gf |
+|1 (ed) e2 d2 e2 :|2 (ed) e2 d4 ||
+V:2          %2
+"Fm" d2 f2 "Bb" g2 "C7" a2 |"Db" b2 "Eb" e2 "Ab" f2 z2 |"Ab" a2 "Eb" e2 "Ab" f2 "Bb" B2 |"C" ^c2 A2 "Fm" d4 |
+"Ab" c4 "Fm" d2 A2 |"Eb" (c3 d)"Bb" B2 G2 |"Fm" A2 d2 "Ab" f2 B2 |1 "C7" ^c2 A2 "Fm" d4 :|2
+"C7" A2 ^c2 "Fm" d2 "Eb7" .c.B || |:"Ab" A3 A"Eb" G2 .G.A |"Db" B3 c"Fm" (d e).f .g|"Ab" (a b)"Eb" .a .g"Ab" f2 "Bb" B2 |
+|1 "C7" A2 ^c2 "Fm" d2 "Eb7" .c.B :|2 "C7" A2 ^c2 "Fm" d4 ||
+S:https://www.folktunefinder.com/tunes/26705
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

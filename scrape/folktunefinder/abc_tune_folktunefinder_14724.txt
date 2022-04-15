@@ -1,0 +1,30 @@
+X: 1
+T: Muirland Willie
+R: jig
+B: RSCDS 21-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: from Surenne
+M: 6/8
+L: 1/8
+K: Em
+   B \
+| "Em"E2F G2A | "G"B2c d2B |       G2G      d2B   | "D"AFA  D2F \
+| "Em"E2F G2A |    BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B \
+| "Em"e2f  g2e  | "G"d2B d2B |       G>AG     d2B   | "D"AFA  D2^D \
+| "Em"E>FE G>AG |   B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+S:https://www.folktunefinder.com/tunes/14724
+S:http://trillian.mit.edu/~jc/music/abc/jig/MuirlandWillieJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MuirlandWillieJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MuirlandWillieJ_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MuirlandWillieJ_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:19
+T:Bulgarian () 8
+S:Ian McArdle
+R:Other
+Q:1/4=120
+O:Bulgaria 
+N:the turn symbol is not a trill here, it's a mordant
+M:2/4
+K:Dm
+"D"D2"Dm"D2 "D"E2"Dm"F2| ~E2D2 A2A2|\
+D2D2 E2F2|~E2D2 A4 | \
+D2D2 E2F2|"G"G2"Gm"A2 "G"B2"Gm"A2|\
+"A"G2"A7"F2 "A"E2"A7"A2| "D"D4 D4 ::
+"F"A4 "Bb"(cB)(BA)|"C"(AG)(GA) "F"F2F2\
+|1 "Bb"(cB)(BA) "C"(AG)(GA)| "F".F4 .c4 \
+:|2 "G"(AG)"Gm"(GF) "A"(FE)"A7"(ED)|"D"D4 D4||
+S:https://www.folktunefinder.com/tunes/40528
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Exotic.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Exotic.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

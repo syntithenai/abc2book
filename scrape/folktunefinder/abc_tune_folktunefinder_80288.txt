@@ -1,0 +1,26 @@
+X:229
+T: Die geistliche Weinbeer
+N: A0587A
+O: Europa, Mitteleuropa, Deutschland
+N: Corners Gsgb 1631 S. 902
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | _B2B2cBc2 | d3cd2z
+_B | c2d2_edc2 | _B4z2
+B2 | _B2c2d2d2 | c2_BAG2
+=F2 | GA_B2c2BA | G6
+S:https://www.folktunefinder.com/tunes/80288
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Le bedeau de l'enfer
+T: the Devil's Beadle
+O: trad/qu\^eteux Pomerleau
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: Gdor
+A \
+| =BE (3EEE BEdE | =BE (3EEE BEdE | =BEBE [c4F4] \
+| AF (3FFF AFcF | AF (3FFF AFcF |
+|1[M:3/4] AdcA BcBA [G3G,3] :|2 AdcA BcBA G^FGA \
+|2[M:2/4] B2BA Bded |[M:3/4] cdcA BcBA G3 ||
+|: G \
+| G2ga g^fga gd3 | f2fe fa=ba gagA |[M:2/4] GcBA G^FGA |
+| B2BA Bded \
+|1[M:3/4] cdcA BcBA G3 :|2 cdcA BcBA G3 |]
+S:https://www.folktunefinder.com/tunes/16782
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bedeau_de_lenfer_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Bedeau_de_lenfer_Gm.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

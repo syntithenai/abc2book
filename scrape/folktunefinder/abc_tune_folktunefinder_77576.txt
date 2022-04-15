@@ -1,0 +1,29 @@
+X:38
+T:Rebis, et Hermaphroditus, nascitur ex duobus montibus, Mercurii et Veneris
+T:The Rebis, like a Hermaphrodite, is born from two mountains, of Mercury and of Venus
+T:Fuga XXXVIII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 11               % Golden Apple
+V:2 program 1 56               % Hippomenes
+V:3 program 1 56 transpose -12 % Atalanta
+M:none
+L:1/4
+Q:1/2=120
+K:G dorian
+[V:1] d4    d2 d2 c4  d4    c4    B2 B2 c4    d4     B4    c2 c2 d2 d2|
+[V:2] z4    z2 G2 E3E F4    z2 G2 D2 CD E3  E A>G FE D2 D2 E4    z2 A2|
+[V:3] z2 B2 G3  G A4  z2 B2 F2 EF G3  G c>BAG F2  F2 G4    z2 c2 F4   |
+%
+[V:1] A4    G2 G2    A4       c2 c2 B4    A4    B2 B2 A4      G2   G2  G8|]
+[V:2] D4    D2 D2    E3  F/G/ A2 A2 D2 D2 z2 E2 DE F2 zA =Bc  d>c =B2 =B8|]
+[V:3] F2 F2 G3  A/B/ c2 c2    F2 F2 z2 G2 FG A2 zc de f>e dc =B2   G2  G8|]
+S:https://www.folktunefinder.com/tunes/77576
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

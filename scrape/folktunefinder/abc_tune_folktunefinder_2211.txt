@@ -1,0 +1,33 @@
+X:130
+T:Folka Polka
+T: Gan Ainm
+M: 2/4
+L: 1/8
+R: polka
+K:Gmaj
+d>c |: BG GA | Bc d2 | ec dB | ce d>c |
+BG GA | Bc d2 | ec dB | cd/c/ BA :|
+|: GA/G/ FD | EC CE | DE F/E/D | GB dB |
+GA/G/ FD | EC- CE | DE F/E/D |[1 G2 GD :|[2 G2 GA |]
+T: Terry 'Cuz' Teahan's Polka
+K:Cmaj
+|: EG EG | c2 c2 | E/F/G EG | ED DC |
+E/F/G E/F/G | c2 c>d | cA GE | DC C2 :|
+|: ed dc | Ac G2 | ed dc | ed d2 |
+c>d ec | Ac G2 | ED/E/ GE | DE/D/ C2 :|
+T: Jimmy Doyle's
+K:Gmaj
+Bd de|dB BA/B/|dB AB|dB G>A|
+Bd de|dB BA/B/|dG BA|1 AG G>A:|2 AG G2||
+|:dg ga/g/|fe e>f|ed Bd|ed BA|
+dg ga/g/|fe e/f/g/e/|dG BA|1 AG G2:|2 AG G>A||
+S:https://www.folktunefinder.com/tunes/2211
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

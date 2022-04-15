@@ -1,0 +1,26 @@
+X: 1
+T: The 72nd Highlanders' Farewell to Aberdeen
+C: N.Mathieson
+R: march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Queen's Own
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"A2d2 d2ef | "A7"gfed "D"f4 | "G"g2B2 B2cd | "E7"efed "A7"c2A2 \
+| "D"A2d2 d2ef | "A7"gfed "D"f4 | "G"g2B2 "A7"cdec | "D"d4 d2 :|
+|: fg \
+| "D"a2A2 "D7"A2=c2 | "G"B2G2 "A7"A4 | "D"A2d2 "Bm"ABde | "E7"f2e2 "A7"e2fg \
+| "D"a2A2 "D7"A2=c2 | "G"B2G2 "A7"A4 | "D"A2d2 "A7"fedc | "D"d4 d2 :|
+S:https://www.folktunefinder.com/tunes/15295
+S:http://trillian.mit.edu/~jc/music/abc/march/72ndHighlandersFarewell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/72ndHighlandersFarewell_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

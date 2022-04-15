@@ -1,0 +1,34 @@
+X:953
+T:Xota de Bual (MQ 073)
+T:Jota de Bual (MQ 073)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Jota originaria de la zona de Bual.
+A:Asturies
+O:Bual
+Z:Manolo Quirs 073
+M:3/8
+L:1/8
+Q:3/8=80
+K:C
+E/D/E/F/
+|: G/F/E/D/ C|{B,}C E/D/E/F/|G F/E/ D|{C}D B,/C/B,/C/|
+D B,/C/B,/C/|D G/F/E/D/|F E/D/ C|[1 {B,}C E/D/E/F/ :|[2 C2 F|
+|: A2 G|EGG|c2 B|A2 G|F2 E|DEF|A2 G|[1 E2 G :|[2 EGG|
+|A2 G|EGG|c2 B|A2 G|F2 E|DEF|A2 G|E2 G|
+|: G E/G/A/G/|E2 G|F E/F/G/F/|D2 F|F E/F/G/F/|[1 E2 G :|:[2 D2 G|
+A G/F/E/D/|[1 C E/D/E/F/ :|[2 C3||
+S:https://www.folktunefinder.com/tunes/59840
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Lady Spencer Chichester
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+C \
+| "F"F3G F3C "Bb"DF3 F4 | "F"F3G A3C "Gm"DG3 "C7"G4 \
+| "F"F3G A3c "Bb"d3f "F"c3f | "C7"c3A B3G "F"AF3 F2 :|
+c2 \
+| "F"f3g f3c "Bb"df3 f4 | "F"fefg f3c "Gm"dg3 "C7"g4 \
+| "F"f3g f3c "Bb"df3 "F"cf3 | "C7"c3A B3G "F"AF3 F2 |]
+c2 \
+| "F"f3g f3c "Bb"df3 f4 | "F"fefg f3c "Gm"dg3 "C7"g4 \
+| "Dm"f3a d3f "F"c3f A3f | "C7"c3A B3G "F"AF3 F2 |]
+S:https://www.folktunefinder.com/tunes/19457
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Lady_Spencer_Chichester_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Lady_Spencer_Chichester_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

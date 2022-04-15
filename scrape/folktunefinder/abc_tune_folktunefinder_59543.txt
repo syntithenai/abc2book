@@ -1,0 +1,33 @@
+X:656
+T:Santa Brbara (MQ 037)
+R:Danza Prima
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Es la cancin ms representativa de la asturias minera.
+N:Se canta en toda la regin siendo una de las piezas ms queridas.
+N:Es  una especie de segundo himno de asturias.
+A:Asturies
+Z:Manolo Quirs 037
+M:2/4
+L:1/8
+Q:1/4=35
+K:Cm
+G/G/
+|c>=B cd|c2 G2|G/A/G/F/ GE/F/|G2-GG/G/|
+c>=B cd|c2 G2|G/A/G/F/ GE/F/|G2-G c/d/|
+e>e ee|dB/c/ d>d|de/d/ cA/B/|c>c cd/c/|
+BA G2-|G3 c/d/|e>e ee|dB/c/ d>d|
+de/d/ c A/B/|c>c cd/c/|BA G2-|[1 G3 G/G/ :|[2 G4||
+S:https://www.folktunefinder.com/tunes/59543
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza prima
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

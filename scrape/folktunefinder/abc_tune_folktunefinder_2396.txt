@@ -1,0 +1,15 @@
+X: 1
+T: Two single and one multiple endings.
+K: C
+|: CD EF |1,3 GA B2 :|2 G2 AB :|4 GA Bc :|
+S:https://www.folktunefinder.com/tunes/2396
+S:http://trillian.mit.edu/~jc/music/abc/test/Ending211.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

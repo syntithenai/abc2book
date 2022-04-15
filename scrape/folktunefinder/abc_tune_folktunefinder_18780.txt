@@ -1,0 +1,31 @@
+X:1
+%% Copyright 1944 Grand Music Corporation, USA,
+%% Cambell, Connelly & Company Limited, 8-9 Frith Street, London W1
+T:I'm beginning to see the light
+M:4/4
+L:1/4
+C:Harry James, Duke Ellington,
+C:Johnny Hodges & Don George
+Q:1/4=150
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x/ || "G6"x2 "(Eb7)"x "D7"x | "G6"x2 x2 | "G6"x2 "Eb7"x"D7"x | "Eb7"x2 x2 |
+"G6"x2 x2 | "Bm7b5"x2 "E7"x2 | "A7"x2 "D7"x2 | "G6"x2 "D7"x2 ||
+V:melody
+^D/ || E/G/EGA | B/EE/-E>^D | E/G/EGA | _B/_EE/-E>^D |
+S:https://www.folktunefinder.com/tunes/18780
+S:http://trillian.mit.edu/~jc/music/abc/song/Im_beginning_to_see_the_light.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/im_begining_to_see_the_light.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Im_beginning_to_see_the_light.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/im_begining_to_see_the_light.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,48 @@
+X:93
+T:Schottisch Gersoise
+T:Mijmering
+C:Traditioneel
+O:Wallonie
+R:Schottisch
+Z:Bert Van Vreckem, 2004-08-22 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+% M 1-4
+V:1
+"G"Bc "D7"de/f/|"Em"gB "Bm"d>d |"C"e/d/c/B/ "Am"AA/B/|"D7"c/d/e/f/ "G"ed|\
+V:2
+G2    A2       |B2     B/A/G/F/|E3          F/G/     |FG/A/        B2   |\
+V:3
+g2    f2       |e2     d2      |c3          A        |dd           g2   |
+% M 5-8
+V:1
+"G"Bc "D7"de/f/|"Em"gB "Bm"d>d |"C"e/d/c/B/ "D7"A/c/B/A/|"G"GB G2 :|
+V:2
+D2    A2       |B2-    B/A/G/F/|EF/G/       FD/C/       |B,D   B,2:|
+V:3
+g2    f2       |e2     d2      |c2          d2          |G2    z2 :|
+% M 9-12
+V:1
+|:"G"gg "D"ff|"Em"ee "G"d>d  |"C"e/d/c/B/ "Am"AA/B/|"D7"c/d/e/f/ "G"ed|\
+V:2
+|:B2    A2   |G2     B/A/G/F/|E3          F/G/     |FG/A/        B2   |\
+V:3
+|:G2    d2   |e2     B2      |c3          A        |d2           g2   |\
+% M 13-16
+V:1
+"G"gg "D"ff|"Em"ee "G"d>d  |"C"e/d/c/B/ "D7"A/c/B/A/|"G"GB G2 :|
+V:2
+B3    A    |G2-    G/A/G/F/|EF/G/       FD/C/       |B,D   B,2:|
+V:3
+G2    d2   |e2     B2      |c2          d2          |G2    z2 :|
+S:https://www.folktunefinder.com/tunes/75789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Schottisch
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

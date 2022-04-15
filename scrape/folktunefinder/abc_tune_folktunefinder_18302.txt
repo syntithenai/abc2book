@@ -1,0 +1,21 @@
+X:1
+T:Whinham's Reel
+B:Northumbrian Pipers' Tune Book volume 1
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2001-7-3
+M:2/4
+L:1/16
+K:G
+  D2 |GABA G2D2|E2G2 D4  |E2G2 E2G2|B2A2 A2B2|\
+      GABA G2E2|E2G2 D4  |E2G2 D2d2|B2G2 G2 :|
+(3def|g2G2 B2g2|f2G2 c2e2|d2D2 G2B2|cBAB cdef|\
+      g2G2 B2g2|f2G2 c2e2|d2D2 F2d2|B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/18302
+S:http://trillian.mit.edu/~jc/music/abc/reel/WhinhamsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WhinhamsReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/WhinhamsReel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

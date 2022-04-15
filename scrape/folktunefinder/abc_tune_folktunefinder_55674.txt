@@ -1,0 +1,20 @@
+X:71
+T:Fairbanks
+C:John Goodin
+R:Reel
+M:C
+K:G
+"G"G2 =FG FD C2 |  "C"[Gc] z2 "G"[GB] z4 | "G"G2 =FG FD C2 | "Bb"_B, z2 "C"C z4 | "G"G2 =FG FD C2 |
+"C"[Gc] z2 "G"[GB] z4 |1 "no chord" G,2_B,2C2D2 | C2 _B,2 G,2 z2 :|2"no chord"G,2_B,2C2D2 | C2 _B,2 G,A A2 || 
+|:"Dm" AA A2 G2 =F2 | G2 =F2 GA A2 | "Bb"AA A2 c2 A2 | G2 =F2 GA A2 | "C" AA A2 G2 =F2 |
+G2 =F2 GA A2 |1 "no chord" D2 =F2 G2 A2 | G2 =F2 DA A2 :|2 "no chord" D2 =F2 G2 A2 | G2 =F2 D2 z2 |]
+S:https://www.folktunefinder.com/tunes/55674
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

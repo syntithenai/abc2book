@@ -1,0 +1,25 @@
+X:175
+T: ES WAR EINMAL EIN BRAVER HUSAR
+N: E0093D
+O: Europa, Mitteleuropa, Deutschland, Kreis Hofgeismar
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 3/4
+L: 1/16
+K: G
+D2 | G3GG6A2 | B2B2B6
+B2 | A2e2d6A2 | A2c2B4z2
+G2 | G2e2e4d2c2 | B2ded6
+B2 | A2e2d6A2 | c2d2B4z2
+G2 | G2e2e4d2c2 | B2ded6
+B2 | A2e2d6A2 | c2d2B4z2
+S:https://www.folktunefinder.com/tunes/78616
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

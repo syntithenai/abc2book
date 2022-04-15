@@ -1,0 +1,23 @@
+X: 4
+P: Reinlender i D
+Z: John Chambers <jc@trillian.mit.edu>
+R: shottish
+M: 4/4
+L: 1/8
+K: D
+|: FG \
+| "D"A>B AG GF FD | "Em"E>F GF FE E-E | "A7"E2 c>c cB cB | "D"B2 AG GF [F2D2] |
+| "D"A>B AG GF FD | "Em"E>F GF FE E-E | "A7"E2 c>c cA Bc | "D"d>e dc d2 :|
+|: de \
+| "D"f2 d>d dA FA | "G"d>c BA "Em"B4 | "A7"E2 c>c cB cB | "D"B2 AG GF [F2D2] |
+| "D"f2 d>d dA FA | "G"d>c BA "Em"B4 | "A7"E2 c>c cA Bc | "D"d>e dc d2 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8417
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

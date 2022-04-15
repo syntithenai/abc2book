@@ -1,0 +1,39 @@
+X:1
+T:Christmas Day in the Morning
+T:Paddy Haverty's
+T:Munster Buttermilk
+R:jig
+S:Paddy Haverty
+Z:Paddy Haverty is a fiddler from Killimor, Co. Galway.
+Z:He called it Munster Buttermilk, but I have a different tune by that name, so
+Z:I call it after him.
+Z:John Walsh Dec 99
+S:John Walsh <walsh:math.ubc.ca> irtrad-l 2001-12-7
+M:6/8
+K:G
+|g2g age|d2 B BAB|d2 B BAB|dBA GBd|\
+g2g age|d2 B BAB|dBA GAB|ABA G3:|
+|d2 e g2 a|b2 b bag|a2a age|g2 g age|\
+d2 e g2a|b2 b bag|age deg|aba g3:|
+S:https://www.folktunefinder.com/tunes/14006
+S:http://trillian.mit.edu/~jc/music/abc/jig/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/xmas/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MunsterButtermilk_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PaddyHavertys_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/xmas/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/ChristmasDayInTheMorning_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/MunsterButtermilk_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/PaddyHavertys_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

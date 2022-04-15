@@ -1,0 +1,32 @@
+X: 61
+T:Tally Ho. WCl.61
+M:3/8
+L:1/8
+Q:35
+C:"- Sung by Mrs. Wrighten at Vauxhall"
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+G|BGB|dBd|gdd|d2e3/4c/4|dBd|cAc|B3|g2e|
+d2B3/4d/2|(d/2c/2)BA|G2G|BGB|d>ef|gBe|{d}^c2A|dfd|!
+ege|(f/2e/2f/2g/2f/2g/2|a2)d|d^cd|(e/2g/2)fe|d2d|d"Pa"Af|f"Pa"dd|!
+e<gf|g2g|{g}f(e/2d/2)(^c/2B/)|^c/-e/d/-B/c/-^A/|B2d|deB|c2c/2c/2|!
+cdA|B2d/2d/2|g/2g/2zd|a2g/b/|aaa|a2d/2c/2|BGB|dBd|!
+gd/2g/2b/2g/2|a2d|d'/2d'/2zg|a2g/2a/2|ggg|g2g/2d/2|g2b/2a/2|!
+b2b/2a/2|d'2b/2g/2|"Pa"d'2b/2g/2|d'd'd'|d'2d|g<bg|a2g/2a/2|ggg|g2||
+W:Pa=pause
+S:https://www.folktunefinder.com/tunes/40744
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

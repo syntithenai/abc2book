@@ -1,0 +1,24 @@
+X: 1
+T: Transposing
+L: 1/8
+M: NONE
+% This plays the same note expressed in different ways
+% appearance on staff changes, played pitch doesn't
+% (this does not correspond to any known musical instrument!!)
+K: C [K: transpose=1]B,[K: transpose=2]_B,^A,[K: transpose=3]=A,[K: transpose=4]_A, ^G,
+[K: transpose=5]=G,[K: transpose=6]_G,^F,[K: transpose=7]=F,[K: transpose=8]=E,
+[K: transpose=9]_E,^D,[K: transpose=10]=D,[K: transpose=11]_D,^C,[K: transpose=12]=C,
+[K: transpose=-1]^C_D[K: transpose=-2]=D[K: transpose=-3]^D_E[K: transpose=-4]=E
+[K: transpose=-5]=F[K: transpose=-6]^F_G[K: transpose=-7]=G[K: transpose=-8]^G_A
+[K: transpose=-9]=A[K: transpose=-10]^A_B[K: transpose=-11]=B[K: transpose=-12]=c
+[K: transpose=24]C,,
+[K: transpose=-24]c'
+S:https://www.folktunefinder.com/tunes/2551
+S:http://trillian.mit.edu/~jc/music/abc/test/Transposing.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

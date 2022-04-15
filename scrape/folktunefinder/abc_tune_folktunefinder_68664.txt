@@ -1,0 +1,28 @@
+X:118
+T: Herzens Schluessel
+N: A0135B
+O: Europa, Mitteleuropa, Deutschland
+N: Forster IV. 1556 No. 15.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F | FFAF | c2c2 | A2z
+c | c2cB- | BAG2 | F2
+F2 | FFAF | c2c2 | A2z
+c | c2cB- | BAG2 | F2z
+c | cccB | A2G
+G | A2BcAB | G2z
+c | cccA | F2cA2
+c | c2c2 | ABG2 | F3
+S:https://www.folktunefinder.com/tunes/68664
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:the Thrush in the Straw
+T:the Thrush on the Strand
+T:the Woeful Widow
+T:the Humors of Lisheen
+M:6/8
+L:1/8
+R:Jig
+Z: Philippe Varlet  irtrad-l 2001-02-23
+K:G
+efg edB | cBA BGE | ~G3 BdB | BAG ABd |
+efg edB | cBA BGE | ~G3 BdB |1 AGF GBd :|2 AGF G2D ||
+GBd ~g3 | agf g2e | fed edB | cBA BGE |
+GBd ~g3 | agf g2e | fed edB |1 AGF G2D :|2 AGF GBd |]
+S:https://www.folktunefinder.com/tunes/15165
+S:http://trillian.mit.edu/~jc/music/abc/jig/ThrushInTheStraw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ThrushInTheStraw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/ThrushInTheStraw.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ThrushInTheStraw.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

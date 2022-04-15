@@ -1,0 +1,25 @@
+X:364
+T: "Der Rattenfaenger von Hameln"
+N: Z1044
+O: Europa, Mitteleuropa, Deutschland, Westerwald
+R: Romanze, Ballade, Tod
+M: 2/4
+L: 1/16
+K: G
+G2G2F2G2 | A2BAG4
+A2A2B2d2 | c2B2A4
+B2A2G2G2 | c2e2d4
+c2A2B2G2 | BAA2G4
+B3AG2G2 | c2e2d4
+c2A2B2G2 | BAA2G4
+S:https://www.folktunefinder.com/tunes/69223
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

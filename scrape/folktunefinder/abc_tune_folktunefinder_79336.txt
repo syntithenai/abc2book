@@ -1,0 +1,24 @@
+X:232
+T: ICH BIN JA EIN DEUTSCHER
+N: E1371
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt; Giessen,
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | B,2D2D2C2E2E2 | D4B2B4
+B2 | A3GF2A2G2E2 | D6z4
+D2 | c3AG2F2E2D2 | B6G4
+D2 | E3EE2F2F2F2 | B6c2B2
+A2 | G3GG2B2B2A2 | G6z4
+S:https://www.folktunefinder.com/tunes/79336
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

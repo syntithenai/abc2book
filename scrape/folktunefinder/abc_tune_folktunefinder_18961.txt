@@ -1,0 +1,38 @@
+X: 1
+T: Semmonen T\"amm\"onen
+O: Finland
+R: shottish
+D: Nilsbyn Pelimannit "Semmonen T\"amm\"onen"
+M: 4/4
+L: 1/8
+K: Dm
+|:"Dm"A2 A[dA] f2 f2 | "A7" ee e^c A2 A2 | "A7"e2 ef g2 g2 | "Dm"ff ag "(A7)"f2 e2 |
+| "Dm"d2 dd f2 f2 | "A7"ee e^c A2 A2 | "A7"a2 aa a2 ^c2 | "Dm"d4 d2 z2 :|
+|: "C"c2 ce g2 g2 | "F"fe fg a2 a2 | "A7"A2 A^c e2 e2 | "Dm"d^c de f2 "D7"^f2 |
+| "Gm"g^f ga b2 b2 | "Dm"fe fg a2 a2 | "A7" ab ab a2 ^c2 | "Dm"d4 d2 z2 :|
+W:
+W: Semmonen tmmnen, mik min olen, hampula pimpum pili ali lei
+W: Semmonen tmmnen, mik min olen, alus-housuil-la-ni.
+W: Mimmonen piru toi poika mahtas olla, hampula pimpum pili ali lei
+W: Mimmonen piru toi poika mahtas olla, paljaalla paidallansa
+W:
+W: Riihen takana on sala-peluu-koppi, hampula pimpum pili ali lei
+W: Riihen takana on sala-peluu-koppi, ja saunan takana on ko-ta.
+W: Tn kyln mmien kiusalla, min hampula pimpum pili ali lei
+W: Tn kyln mmien kiusalla, min heila-lantun otan.
+W:
+W: Kaini se tappeli Aapelin kanssa, hampula pimpum pili ali lei
+W: Kaini se tappeli Aapelin kanssa, mutta Eeva oli paidallansa.
+W: Niin lk surko te hummerjtkt, hampula pimpum pili ali lei
+W: lk surko te hummerjtkt, kun taivas on paikal-lan-sa!
+S:https://www.folktunefinder.com/tunes/18961
+S:http://trillian.mit.edu/~jc/music/abc/song/Semmonen_Tammonen_Dm_W.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song/Semmonen_Tammonen_Dm_W.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/Semmonen_Tammonen_Dm_W.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

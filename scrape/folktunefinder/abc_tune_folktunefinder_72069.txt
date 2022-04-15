@@ -1,0 +1,40 @@
+X:42
+T:Master McDonald St. Martin's Strathspey
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 6/4/04
+N:Petrie's First Collection, page 19
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Strathspey
+K:Gm
+[V:1] F|D(GG)B/c/ d>GB<G|C(FF)A/B/ c>FA>F|DGG B/c/ d>GB<g|fd c/d/f/A/ BGG:|
+[V:2] z|G2 g2     b2 g2 |a2 f2     a2 f2 |g2G2     B2 G2 |d2 D2       G2G:|
+[V:1] d|(b/4a/4g3/2) g>d B<d (Tgf/g/)|(a/4g/4f3/2) fc Ac (Tf=e/2f/2)|\
+[V:1] (b/4a/4g3/2) g>d B>dG<g|f>d c/d/f/A/ {A}G2Gg|
+[V:2] z|g2           b2  g2    b2    | f2          a2 f2   a2       |\
+[V:2]  g2          b2  g2 B2 |d2  D2          G2B2|
+[V:1] (b/4a/4g3/2) g>d B<d (Tgf/g/)|(a/4g/4f3/2) f>c A<c (Tf=e/f/)|gg|fd c/d/f/d/ {A}G2G2|]
+%The original notated the next to last measure like this: |g<bd<g Bd3/2Gg/| which appears to be an error -SW
+[V:2]  G2          B2  g2    B2    | F2          A2  f2    a2     |g2 b2  g2B2 |d2 D2          G2G2|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72069
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MasterMcDonaldStMartinsStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Master_McDonald_St_Martins_Strathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

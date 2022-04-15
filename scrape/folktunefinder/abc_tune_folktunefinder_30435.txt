@@ -1,0 +1,24 @@
+X:630
+T:the Bucket
+B:Aird's Airs and Melodies vol 2
+M:9/8
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000146.html
+%%ID:00000146
+K:D mixolydian
+c|\
+Bcd dBG G2d| (e/f/g)e dBG G2c|\
+Bcd dBG G2B| ABA AFD D2::
+c|\
+B2E EFE E2c| B2E EFE D2c|\
+B2E EFE EFG| ABA AFD D2:|
+S:https://www.folktunefinder.com/tunes/30435
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

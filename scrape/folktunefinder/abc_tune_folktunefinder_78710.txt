@@ -1,0 +1,28 @@
+X:269
+T: ES FUHR EIN MANN DEN RHEIN AUS
+N: E0148
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Scherz, Schwank
+M: 4/4
+L: 1/8
+K: D
+D2 | A2A2B2B2 | A4A2
+G2 | F2D2E4 | D4z2
+D2 | A2A2B2c2 | d2Bcd2
+c2 | B2A2B4 | A4z2
+A2 | d3cB2A2 | d3cB2
+A2 | A2A2A2G2 | F4F2
+G2 | FEFDE4 | D3EF2
+G2 | F2D2E4 | D4z2
+S:https://www.folktunefinder.com/tunes/78710
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, scherz, schwank
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

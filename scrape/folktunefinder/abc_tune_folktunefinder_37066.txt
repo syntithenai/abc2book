@@ -1,0 +1,31 @@
+X:4935
+T:Polska fr re
+A:Jmtland
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b1c.html
+%%ID:00000b1c
+K:G
+D|\
+E>F GA B>G|A>B (3GAG F>D| \
+(3FAF (3GBG (3EGE| (3D^CB, A,A F>D|\
+E>F GA B>G|A>B (3GAG F>D|
+(3FAF (3GBG (3EGE|E<G G3 ::\
+g|\
+f<a g2 d>B|c>d (3ege (3dcB |
+A>G F<G A>B |(3cdc (3BAG A>F |\
+D>g f<g d>B|c>d (3ege (3dcB|\
+A>G F<G (3ABc |c<B G3:|
+S:https://www.folktunefinder.com/tunes/37066
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

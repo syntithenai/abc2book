@@ -1,0 +1,24 @@
+X: 1
+T: The Merry Oddfellows
+R: jig
+Z: John Chambers <jc:trillian.mit.edu> (from handwritten MS by Cal Howard)
+M: 6/8
+L: 1/8
+K: G
+B/c/\
+| "G"dBG "D7"ABc | "G"dBG "C"g2e | "G"dBd "Am"cAc | "A7"BGB "D7"ABc \
+| "G"dBG "D7"ABc | "G"dBG "C"g2e | "G"dBd "D7"cAF | "G"G3 z2 :|
+|: F/E/\
+| "G"DGG GBG | "D7"DAA AcA | "G"DGG "Em"GBG | "A7"ABG | "D7"FE_E \
+| "G"DGG GBG | "D7"DAA AcA | "G"BdB "D7"cAF | "D7"DEF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14633
+S:http://trillian.mit.edu/~jc/music/abc/jig/MerryOddfellows_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MerryOddfellows_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

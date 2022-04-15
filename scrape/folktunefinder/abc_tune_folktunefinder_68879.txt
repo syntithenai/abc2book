@@ -1,0 +1,33 @@
+X:20
+T: ACH HAMELN DU WUNDERSCHOENE STADT
+N: Z0021
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2B,2C2D2 | C2B,2C2
+D2 | E2F2D2E2 | C4z2
+D2 | E2D2E2F2 | G4F2
+E2 | D2C2D2E2 | D4z2
+G,2 | C2B,2C2D2 | C2B,2C2
+D2 | E2F2D2E2 | C4z2
+D2 | E2D2E2F2 | G4F2
+E2 | D2C2D2E2 | D4z2
+EF | G2G2G2G2 | A6
+G2 | F2E2F2D2 | G6
+F2 | E2D2E2G2 | G2F2F2
+E2 | D2C2D2E2 | C4z2
+S:https://www.folktunefinder.com/tunes/68879
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

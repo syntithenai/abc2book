@@ -1,0 +1,44 @@
+X: 1
+T: Tiveds Hambo
+T: ABBA's Hambo
+C: Stikkan Anderson (1951)
+N: From two 1986 ABBA recordings.  One performance was in a TV show honoring Anderson
+N: (their manager) on his 55th birthday. It was sung with Benny on accordion, Bj\"orn
+N: on guitar, Anni-Frid and Agnetha singing (with the men joining in on  the  chorus.
+N: They  also recorded the tune as an instrumental on a CD that was handed out at the
+N: party, but never released to the public. Both were on youtube in August 2008. and,
+N: needless to say, the two versions had different repeat patterns and ornamentation.
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+F:http://www.youtube.com/watchv=2GSbkOwyZO0
+F:http://www.youtube.com/watchv=NEbW9RE8HfE
+M: 3/4
+L: 1/8
+K: C
+"G7"G2 \
+| "C"g>g ^f>a g2 | {G}e>e ^d>f e2 | c>{d}c B>c d>A |"G7"c2 B4 \
+| f>f e>g f2 | {G}d>d ^c>e d2 | G>A B>G B>A | "C"A2 G4 |
+| "C"g>g ^f>a g2 | {G}e>e ^d>f e2 | c>{d}c B>c d>c | "F"B2 A4 \
+| "Dm"d>e f>g "(E7)"e>d | "A(m)"^c>d e>f "D7"d>=c | "G7"B>c d>G A>B | "C"c2 "fine"c2 y:|[K:_B]
+K: F
+|: "C7"(3c=B_B \
+| "F"A2 B2 =B2 | c>f f4 | a>g f>e d>A |"Gm"c2 B4 \
+| "C7"G2 A2 B2 | c>e e4 | e>d c>B A>G | "F"d2 c4 |
+| "F"A2 B2 =B2 | c>f f4 | f>{g}f e>f g>f | "Bb"e2 d4 \
+| d>^c d2 d>_d | "F"c>f a4 | "Gm"d>^c d>f "C7"e>g | "F"f2 f2 "d.C."y:|
+S:https://www.folktunefinder.com/tunes/65550
+S:http://www.youtube.com/watchv=NEbW9RE8HfE
+S:http://www.youtube.com/watchv=2GSbkOwyZO0
+S:http://www.youtube.com/watchv=NEbW9RE8HfE
+S:http://www.youtube.com/watchv=2GSbkOwyZO0
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/TivedsHambo_CF.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/TivedsHambo_CF.abc
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

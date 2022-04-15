@@ -1,0 +1,28 @@
+X: 1
+T: Mrs. Stewart's Fancy
+C: Abraham Mackintosh
+R: jig
+B: RSCDS 17-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+f \
+| "A"e2c ca=g | "Bm"fdB "E7"B2f | "A"ecA Ace | "D"f3 "E7"f2g \
+| "A"agf edc | "Bm"fdB "E7"B2f/g/ | "A"aec "E7"dcB | "A"A3 A2 ||
+|| E \
+| "A"A2A AcB | "D"AFF "E7"F2E | "A"AcB Ace | "D"f3 "E7"f2g \
+| "A"agf "F#m"edc | "Bm"fdB "E7"B2f/g/ | "A"aec "E7"dBg | "A"a3 a2 |]
+S:https://www.folktunefinder.com/tunes/15114
+S:http://trillian.mit.edu/~jc/music/abc/jig/StewartsFancy_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/StewartsFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/StewartsFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/StewartsFancy_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/StewartsFancy_16.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

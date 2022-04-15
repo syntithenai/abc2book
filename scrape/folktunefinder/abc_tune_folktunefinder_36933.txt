@@ -1,0 +1,31 @@
+X:4270
+T:Pindsvine Reinlnder
+M:4/4
+O:Norway
+O:Denmark
+Q:1/4=200
+R:Reinlnder
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000905.html
+%%ID:00000905
+K:G
+D2| \
+G2G2 G2AG | GFFE F2DF | A4   Addc | B2G2 G2GF |\
+E2E2 EGFE | E2D2 D4   | D2FA dAFD | G2G2 G2 :|
+|:Bc|\
+d4 d2ed | dccB c2AB | c4 c2dc | cBBA B2GF |\
+E2E2 EGFE | E2D2 D4 | D2FA dAFD | G2G2 G4 :|
+K:C
+|:\
+e4 e3d | cdcA G2E2 | FGFD B2A2 | GAGE c2c2 |\
+e4 e3d | cdcA G2E2 | FEDE FGAB | c2c2 c4 :|
+S:https://www.folktunefinder.com/tunes/36933
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reinlnder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Edradynate Medley
+R: polka, reel
+O:
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: C
+|: g2 \
+| "C"c2c2 "G"BcdB | "C"G2G2 "(B)"e3d | "Am"c2cB cdef | "Dm"dcde "G7"d2G2 \
+| "C"c2c2 "G"BcdB | "C"G2G2 "(E)"e3d | "F"c2cd "G7"Bcde | "C"c2e2 "fine"c2 :|
+|| ^c2 \
+| "G"d2d^c d2g2 | B2d2 G2B2 | "Am"A2c2 "D7"^F2A2 | "G"G^FGA GABc \
+| "G"d2d^c d2g2 | B2d2 G2B2 | "Am"A2c2 "D7"^F2A2 | "G"G2g=f "daCapo"edcB ||
+S:https://www.folktunefinder.com/tunes/16080
+S:http://trillian.mit.edu/~jc/music/abc/polka/EdradynateMedley.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/EdradynateMedley.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/EdradynateMedley.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/polka/EdradynateMedley.abc
+% Rhythm Polka, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

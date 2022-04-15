@@ -1,0 +1,29 @@
+X:6000
+T:Swan's Hornpipe
+A:North-West
+L:1/16
+M:C|
+N:P3 2/2
+O:England
+R:Hornpipe
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000560.html
+%%ID:00000560
+K:D
+F2d2 d2cB c2e2 e2dc |d2f2 fgaf edcB AGFE |\
+F2d2 d2cB c2e2 e2ag |
+f2ed Adce d2d2 d4 :: \
+Bc|\
+dAFc dfed edcB A2fa |
+gfed edef edcB A2Ac |\
+BGGG dGGG AFFF A2eg |f2ed Adce d2D2 D4:|
+S:https://www.folktunefinder.com/tunes/37279
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:159
+%%topmargin 3cm
+T:The Honourable Mrs. Drummond of Perth
+C:John Bowie
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+F | D>GF>A (D<d)dB | A<DF>D TEE | D<AF>A D<gf>e | {/c}d>BA>F D/2D/2D D :: f | {/c}d/2e/2f/2g/2 a<d f>da>d |
+(A/2B/2c/2d/2) e>A {/d}c>Ae>A | [2 (d/2e/2f/2g/2) a>d f>d a>d | A<gTf>e ffe>g f>de<f | {/c}d>BA>F D/2D/2D D |]
+S:https://www.folktunefinder.com/tunes/71189
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Honourable_Mrs_Drummond_of_Perth.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0159.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

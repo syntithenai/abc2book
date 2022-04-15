@@ -1,0 +1,25 @@
+X:3
+T:Glenlivet
+S:Kerr's
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2002-2-18
+M:C|
+L:1/8
+K:A Min
+B|A2ae cBAc|BAGB gdBG|   A2ae cBAc|BGdB cAA:|\
+B|ABcd ecBA|
+            GdBd gdBG|[1 ABcd ecBA|BGdB cAA:|\
+                      [2 AcBd cedf|edcB cAA|]
+S:https://www.folktunefinder.com/tunes/17263
+S:http://trillian.mit.edu/~jc/music/abc/reel/Glenl%03
+S:http://trillian.mit.edu/~jc/music/abc/reel/Glenlivet_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Glenl%03
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Glenlivet_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Glenlivet_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

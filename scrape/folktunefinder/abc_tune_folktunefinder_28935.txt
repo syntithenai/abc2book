@@ -1,0 +1,59 @@
+X:2655
+T:Careu (CT 368) (Arrg.)
+R:Cariu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile, transcrita en Tapia.
+N:Se conoce este baile con el nombre de El Careu, e intervienen personas de ambos sexos, colocadas frente a frente en dos respectivas hileras.
+N:Cantan a un tiempo todos los bailadores.
+N:Durante la primera parte de la meloda se imprime al cuerpo un movimiento rtmico hacia ambos lados,
+N:conservando los brazos en su posicin natural, y al comenzar la segunda parte,
+N:se levantan los brazos y se baila de manera anloga a las xiraldillas, sealando la medida con las castauelas.
+O:Tapia de Casariego
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 368
+M:3/8
+L:1/8
+Q:3/8=88
+W:Me tirastes un limn,
+W:me distes en la cara;
+W:todo lo vence el amor,
+W:morena, resalada.
+W:
+W:Me tirastes un limn,
+W:me distes en la frente;
+W:todo lo vence el amor,
+W:l'amor todo lo vence.
+W:
+W:Don Antonio esl el remo,
+W:yo soi la nave;
+W:anda y dile a Juanito
+W:que por Dios calle.
+W:
+W:Ai! don Antonio,
+W:don Juan y Don Diego,
+W:ai! don Antonio,
+W:don Juan, que me muero.
+K:G
+|: "G"G>AB|"Am"cBA|"G"G>AB|"Am"cBA|"C"G3|"Am"A2 z|
+"Am"A>BA|"C"GFE|"D"D>EF|"C"GFE|"G"D3|"G"G2 z :|
+|"C"c2 c|"C"cBc|"G"d B2|"G"dcB|"C"d c2-|"C"c2 z|
+"C"c2 c|"C"cBc|"G"d B2|"G"dcB|"C"d c2|
+"Am"cBA|"C"GE=F|"G"GAB|"C"A G2|
+"Am"cBA|"C"GE=F|"G"GAB|"C"A G2-|"C"G||
+S:https://www.folktunefinder.com/tunes/28935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Cariu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

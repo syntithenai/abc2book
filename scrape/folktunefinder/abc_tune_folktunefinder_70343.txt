@@ -1,0 +1,31 @@
+X:213
+T: Der Jger und das Mgdelein (2a), S. 30
+N: T0101
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: STRASSEN, gesungen von Fau Witry am 3.1.1933;
+N: die gleiche Melodie (2b) aus HEFFINGEN, gesungen von
+N: Frau Ewen am 10.3.1933
+R: "erzhlende Lieder"]
+M: 4/4
+L: 1/8
+K: G
+Gc | d3ed2cA | B3cB2
+d2 | e2d2c2Ac | B4z2
+Bc | d2d2d2g2 | e3de2
+cd | d4c2Ac | B4z2
+Bc | d2d2d2g2 | e3de2
+cd | d4c2Ac | B4z2
+S:https://www.folktunefinder.com/tunes/70343
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

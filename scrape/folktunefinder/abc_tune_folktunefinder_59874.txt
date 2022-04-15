@@ -1,0 +1,24 @@
+X:3685
+T:Da Brigg
+% Nottingham Music Database
+S:Mrs Foxley's Fancy, via EF
+M:6/8
+K:D
+P:A
+(3A/2B/2c/2|:"D"d3 "A7"A2G|"D"FED "A7"DFA|"D"d3 A2F|"Em"E2e "A7"cBc|
+"D"d3 "A7"A2G|"D"FED DEF|"Em"E2F G2A|"Em"B3 "A7"ABc:|
+P:B
+"D"d2e f2d|"A7"c2d ecA|"D"d2e "D7/c"f2d|"G/b"g3 "A7"f2g|"D"a2f "A/c"g2e|\
+"Bm"f2d "A7"e2c|"D"d2A F2A|"Em"B3 "A7"ABc:|
+S:https://www.folktunefinder.com/tunes/59874
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

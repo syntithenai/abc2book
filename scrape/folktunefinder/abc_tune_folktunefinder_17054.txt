@@ -1,0 +1,29 @@
+X:1
+T:Drowsy Maggie
+S:Michael (Master) McDermott, Tyrone
+B:Ceol Rince na hE/ireann 4, Breathnach/Small
+Z: Paul de Grae  irtrad-l 2000-08-28
+M:4/4
+L:1/8
+R:reel
+K: Edor
+~E2 BE dEBE | ~E2 Bc dAFD | ~E2 BE dEBB | BABc dAFD |
+~E2 BE dEBE | ~E2 Bc dAFD | ~E2 BE dEBB | BABc dAFA ||
+d2 fd c2 ec | d2 fd fa{b}af | d2 fd c2 ec | BABc dAFA |
+d2 fd c2 ec | d2 fd fa {b}a2 | (3bag af {a}gfed | BABc dAFA ||
+dBfB dBfB | cAeA cAeA | dBfB ~B2 fB | defg aecA |
+dBfB ~B2 fB | cAeA cAeA | (3Bcd (3efg aecA | ~B2 Bc dAFA ||
+dff{gf}e dfBf | ce e2 {fe}ceAe | dff{gf}e defg | a{ba}gfg aece |
+dff{gf}e dfBf | ce e2 {fe}ceAe | afge fded | B{cB}ABc dAFD ||
+S:https://www.folktunefinder.com/tunes/17054
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrowsyMaggie4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DrowsyMaggie4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DrowsyMaggie4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

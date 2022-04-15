@@ -1,0 +1,27 @@
+X:6100
+T:Snderhoning
+M:4/4
+N:Or maybe from Skne 
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a50.html
+%%ID:00000a50
+K:G
+B2d2 A2B2 | G2AG F3D | \
+G2G2 A2A2 | B2GB (A4 | A2) B2A2B2 | G2AG F2D2 |\
+GABc d2F2 | G2G2 G4 :|
+|:\
+A2B2A2c2 | d2B2B4 | A2B2ABc2 | d2B2 B3d |\
+c2B2A2B2 | G2G2 F3D | GA Bc d2F2 | G2G2G2 :|
+S:https://www.folktunefinder.com/tunes/37299
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

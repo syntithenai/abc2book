@@ -1,0 +1,25 @@
+X: 1
+T: Highland Harry
+S: Jean Redpath recording
+S: handwritten MS by Barbara McOwen
+R: air
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: Am
+e \
+| "Am"A2 Ae | A<A Ae | "G"g>e dB | GA B>>e \
+| "Am"ed e<g | a>b ag | "G"ed gB | "Am"BA A2 ||
+| "Am"a2 ag | ba a2 | "G"g2 ge | dB G>>e \
+| "Am"ed e>g | ab a>g | "Gb"ed gB | "Am"BA A2 |]
+S:https://www.folktunefinder.com/tunes/13201
+S:http://trillian.mit.edu/~jc/music/abc/air/HighlandHarry_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/HighlandHarry_Am.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

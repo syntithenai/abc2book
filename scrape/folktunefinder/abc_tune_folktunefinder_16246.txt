@@ -1,0 +1,21 @@
+X: 1
+T: This Old Man [A]
+O: Trad
+R: polka
+M: 2/4
+L: 1/16
+K: A
+|: "A"e2c2 e4   | e2c2 e4 |  "D"f2e2 d2c2 |  "E7"B2c2    d2cd  |
+|  "A"e2A2 A2A2 | ABcd e4 | "E7"e2B2 B2d2 | "(A)"c2B2 "A"A4   :|
+S:https://www.folktunefinder.com/tunes/16246
+S:http://trillian.mit.edu/~jc/music/abc/polka/ThisOldMan_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/polka/ThisOldMan_A.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X:383
+T:Fandangu (CT 134)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita (Fandangu), transcrito en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 134
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+[M:5/4](G2 G/B/d/) (g/f/4e/4d/4c/4B/4A/4) G4-|
+[L:1/8]
+[M:3/8]
+[L:1/8]
+G2 A|
+|:BcA|BGB|BcA|G2 A|BcA|BGA|BcA|G2 A|
+BcA|BGA|BcA|G2 A|BcA|BGA|BcA|G2 d|
+gfe|d2 e|def|g2 f|gfe|d2 e|def|g2 a|
+gfe|d2 e|def|g2 f|gfe|d2 e|def|ggf|
+gfe|dde|def|gga|gfe|dde|def|ggf|
+gfe|d2 c|Bce|d2 c|Bce|d2 c|Bce|ddc|
+Bce|d2 c|BcA|[1 G2 A:|[2 (G3|d/2)||
+S:https://www.folktunefinder.com/tunes/59270
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Time_signature 5/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

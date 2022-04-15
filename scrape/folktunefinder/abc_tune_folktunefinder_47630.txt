@@ -1,0 +1,32 @@
+X: 93
+T:Spanish Jig. JaW.093
+M:6/8
+Q:110
+S:James Winder Ms, Lancashire, 1835-41
+R:Jig
+O:England
+A:Wyresdale,Lancashire
+N:"=" - underscored with an equals sign, presumably means ornament that
+N:note.
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+"="D3 "="F3|(AF)A d2A|Bcd AGF|EFE CB,A,|!
+"D in MS"D3 F3|(AF)A d2A|Bcd edc|dec d3:|!
+|:d3f3|efe cBA|BcB AGF|EFE CB,A,|!
+g3 f3|efe cBA|Bcd edc|dec d3:|]
+S:https://www.folktunefinder.com/tunes/47630
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:17008
+T:The Mentalpiece
+M:4/4
+L:1/8
+Q:200
+C:me
+R:reel
+N:I play this on my border pipes with the drones tuned up a tone. Sounds
+N:mental
+K:Bm
+|:BBfB BgBB|fBBg fedc|BBfB BgBB|fedc defd|!
+BBfB BgBB|fBBg fedc|dddB eeec|fdcf dcfc:|!
+|:dBBd BBeB|fBBd BBfB|eccc ecfc|eccc ecfc|!
+dBBd BBeB|fBBd BBfB|eccc eccc|fdcf dcfc:|!
+|:(3Bcd fB df (3Bcd|fBdf gfed|(3Bcd fB df (3Bcd|fedc defd|!
+(3Bcd fB df (3Bcd|fBdf gfec|dddB eeec|fdcf dcfc:|!
+|:(3dcB (3dcB fB (3dcB|(3dcB fB (3dcB fB|cdef gcde|fgcd efge|!
+(3dcB (3dcB fB (3dcB|(3dcB fB (3dcB fB|cdef gccc|fdcf dcfc:|!
+S:https://www.folktunefinder.com/tunes/38379
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

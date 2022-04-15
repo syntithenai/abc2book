@@ -1,0 +1,33 @@
+X:113
+T: Siehst du dort die Wolken eilen! (1-39), S. 102f
+N: K1087
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Trennungsschmerz, Treueschwur]
+M: 3/4
+L: 1/8
+K: F
+AC | F3Adc | A2A2
+cB | G3BAG | F4
+AC | F3Adc | A2A2
+cB | G3BAG | F4
+GG | G3GA=B | cde2
+fe | d3Ged | c4
+dc | B3AGF | EGC2
+dd | c4FG | A4G2 | F4
+dc | B3AGF | E2C2
+dd | c4FG | A4G2 | F4
+S:https://www.folktunefinder.com/tunes/70243
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Trennungsschmerz, treueschwur]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:0
+T:The Two Whole-Tone Scales
+M:9/4
+L:1/4
+K:C
+ C2  D  E ^F ^G ^A  c2| c2 ^A ^G ^F  E  D  C2||
+^C2 ^D  F  G  A  B ^c2|^c2  B  A  G  F ^D ^C2|]
+S:https://www.folktunefinder.com/tunes/29993
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

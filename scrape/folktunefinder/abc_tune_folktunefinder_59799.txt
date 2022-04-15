@@ -1,0 +1,42 @@
+X:912
+T:Xiraldilla (CT 449)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 449
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+GG|e3|edc|d2 d-|def|g3|gfe|d3-|dgg|
+|: f3|edc|f2 e-|edc|d2 c|B2 A|G3-|[1 Ggg :|[2 GGG|
+e3|edc|d2 d-|def|g3|gfe|d2 d-|dgg|
+f3|edc|f2 e-|edc|d2 c|B2 A|G2 G-|G||
+W:Ya no hai amor imposible,
+W:tuya he sido y tuya soi;
+W:para vernos cada da,
+W:no ha de faltar ocasin,
+W:para vernos cada da,
+W:Rei de Espaa, luna y sol.
+W:Dame el fuego de tus ojos
+W:y la luz de tus miradas,
+W:que siento fro en el cuerpo
+W:y oscuridad en el alma.
+W:
+S:https://www.folktunefinder.com/tunes/59799
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

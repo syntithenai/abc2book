@@ -1,0 +1,30 @@
+X: 1
+T: Miss Hannah's Jig
+C: William Marshall
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G B{c}dB | "(Em)"GAG B{c}dB | "Am"A2a "(A7)"abg | "D7"f3 d2f \
+| "G"g2g bag | "D7"fgf agf | "Am"eag "D7"fef | "G"g3 G2 :|
+g \
+| "G"b2g "D7"agf | "Em"gfe "Bm"def | "Em"gfg "A7"efg | "D7"a3 A2a \
+| "G"b2g "D7"agf | "Em"gfe "Bm"def | "Am"gfe "D7"def | "G"g3 G2 |]
+g \
+| "G"bag "D7"agf | "Em"gfe "Bm"def | "Em"gfg "A7"efg | "D7"a3 A2g \
+| "G"gbg bag | "D7"faf agf | "Am"eag "D7"fef | "G"g3 G2 |]
+S:https://www.folktunefinder.com/tunes/14676
+S:http://trillian.mit.edu/~jc/music/abc/jig/Miss_Hannahs_Jig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/Miss_Hannahs_Jig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Miss_Hannahs_Jig_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

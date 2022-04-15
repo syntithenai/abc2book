@@ -1,0 +1,29 @@
+X:30
+T:Albania
+T:L'Adltera
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Versin 2
+A:Asturies
+O:Teberga
+Z:DyC en Teberga
+M:2/4
+L:1/8
+Q:1/4=72
+K:D
+A/A/|: AA dc|B2{cB} A2|D D/D/ EF|E2 z A/A/|AA dc|B2{cB} A2|D D/D/ EF|
+[M:3/4] E E/F/ G2 A/A/A/A/|F D/E/ F2 G/G/F/G/|
+[M:2/4] A3 A/B/|AE GF|A2 D2-|D2 z A/A/ :|
+S:https://www.folktunefinder.com/tunes/58917
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

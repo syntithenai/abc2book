@@ -1,0 +1,23 @@
+X: 1
+T: Guy Bouchard en C
+C: trad/Guy Bouchard
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: C|
+L: 1/8
+K: C
+|: c2CD EG(3GGG | Add^c dfed | c2Gc AdcA | GECE DA,A,A, |
+|  G,C(3CCC EG(3GGG | Add^c dfed | c2Gc AdcA | GEDF ECC2 :|
+|: c2cc gcca | gedg ecAB | d2cc gcca | gedg ecAc |
+|  d2Ac Gcea | gedg ecAc | eg(3ggg ea(3aaa | gedg ecAB :|
+S:https://www.folktunefinder.com/tunes/17313
+S:http://trillian.mit.edu/~jc/music/abc/reel/Guy_Bouchard_C4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Guy_Bouchard_C4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Guy_Bouchard_C4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

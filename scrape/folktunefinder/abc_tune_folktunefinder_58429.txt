@@ -1,0 +1,22 @@
+X: 1
+P: Silver Star Hornpipe
+C: Ryan's Mammoth Collection
+C: arr. T. Traub 11-1-98
+R: Hornpipe
+M: 4/4
+L: 1/8
+K: G
+|: D2|"G"GBAF GDB,D |"G"GBe^c d2 ef|"G"gfed "Em"cBAG|"Am"FGAB "D"ADEF|"G"GBAF GDB,D|"D"GBe^c d2 ef|"G"gfgd "D"ecAF|"G"G2 B2 G2 :|
+|: Bc|"G"d2 dB "G7"g2 gd|"C"e2 ec "A"a2 ag|"D"f2 fe dcBA|"G"Bed^c "D"d2 B=c|"G"d2 dB "G7"g2 gd|"C"e2 ec "C#dim"a2 ag|"D"fgfe dcBA | "G"G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/58429
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PinewoodsReelSet.abc
+S:http://terrytraub.org/abc/SilverStarHornpipeH.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/SilverStarHornpipeH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

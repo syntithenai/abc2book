@@ -1,0 +1,31 @@
+X:11679
+T:Nel campu acen flores (MQ 021)
+R:Pasudoble
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Otra cancin popularsima.
+N:La suelen cantar los coros y tambin la tienen muchas bandas en su repertorio.
+A:Asturies
+Z:Manolo Quirs 021
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+E/F/
+|GG AA|G2 G2-|G3 E/F/|GG AA|GG EE|CC DD|E2 E2-|E3 E/F/|
+ GG AA|G2 G2-|G3 E/F/|GG AA|GG EE|CC DD|C2 C2-|C4|
+G>F G>F|G/A/G/F/ EC|DD E2|E4|G>F G>F|G/A/G/F/ EC|DD C2|C4|
+S:https://www.folktunefinder.com/tunes/54428
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Pasudoble
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

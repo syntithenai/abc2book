@@ -1,0 +1,36 @@
+X:2584
+T:Cantar Relixosu (CT 168)
+R:Relixosu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Canto religioso, propio para oir Misa, transcrito en San Esteban de Relamiego, ayuntamiento de Tinu.
+N:Lo entonan los fieles al entrar en la iglesia.
+N:Est relacionado con el CT 169.
+O:San Esteban de Relamiego (Tinu)
+A:Asturies
+Z:Cancioneru de Torner 168
+M:6/8
+L:1/8
+Q:3/8=72
+W:Por las puertas de Dios entro
+W:a adorar a Dios y al templo
+W:y a los santos que estn dentro.
+W:Alabado seya el Santsimo Sacramento.
+K:G
+GG
+|c3 (B/c/4B/4)AG|B B2-Bcd|c2 c B2 G|AG2-GGG|
+c3 (B/c/4B/4)AG|B B2-Bcd|c2 c BBc|ddc B2 G|A G2-G||
+S:https://www.folktunefinder.com/tunes/28864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Relixosu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

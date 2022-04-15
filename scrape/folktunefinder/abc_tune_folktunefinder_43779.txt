@@ -1,0 +1,24 @@
+X:7
+T:Young Andrew's Gallop
+C:Andy Hornby 1998
+Q:1/4=200
+I:abc2nwc
+M:5/4
+L:1/8
+K:F
+d2cB A2G3D|GA B2G2A4|d2cB A2G3D|[1GA B2A2G4:|[2GA B2A2G3D
+|:[M:7/4]GA B2A2GA B2A3D|GA B2A2GA F2G3D|GA B2A2GA B2A4|
+[M:5/4]d2cB A2G3D|[1GA B2A2G3D:|[2GA B2A2G4|]
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43779
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 5/4
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

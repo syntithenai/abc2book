@@ -1,0 +1,26 @@
+X:291
+T: Z NACHT WENN DER MOND SCHEINT
+N: E0885
+O: Europa, Mitteleuropa, Deutschland, Frankreich, Elsass
+R: Hochzeits -, Ehestands - Lied, Scherz - Lied, Bettelhochzeit
+M: 2/4
+L: 1/16
+K: G
+ | G4A2B2 | A4D4
+G2A2B2G2 | A4A4
+c3cc2A2 | B2B2B4
+A2A2F2F2 | G4G4
+d2B2B4 | c2A2A4
+G2B2d2dd | B4B4
+d2B2B2B2 | c2AAA4
+G2BBd2d2 | G4G4
+S:https://www.folktunefinder.com/tunes/76776
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied, scherz - lied, bettelhochzeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

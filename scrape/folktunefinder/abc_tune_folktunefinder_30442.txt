@@ -1,0 +1,26 @@
+X:665
+T:Lovely Mally
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000014d.html
+%%ID:0000014d
+K:D
+F|\
+DED dcd| AGF EFG| FED dcd| AGF E2F|\
+DED dcd| AGF EFG| FAF GEA| FDD D2::
+A|\
+d2g fga| bgb afa| gag fgf| bge e2f|\
+ded fga| bag fed| BAB d2B| AFD D2:|
+S:https://www.folktunefinder.com/tunes/30442
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

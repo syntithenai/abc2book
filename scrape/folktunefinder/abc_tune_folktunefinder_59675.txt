@@ -1,0 +1,41 @@
+X:788
+T:Xiraldilla (CT 137)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Valentina Fernndez Garca, de cincuenta y ocho aos, de Lebinco, ayuntamiento de Ayer.
+N:Los dos ltimos versos de la segunda cuarteta se cantan con el segundo perodo de la frase meldica.
+N:Es muy general en Asturies, sobre todo en las canciones de xiraldilla, agregar dos versos a la cuarteta, de los cuales el primero suele ser igual al tercero de aqulla.
+N:Estos nuevos versos se ajustan a la meloda del mismo modo que los sealados en la presente nota.
+A:Asturies
+O:Lebinco (Ayer)
+Z:Cancioneru de Torner 137
+M:2/4
+L:1/8
+Q:1/4=152
+K:G
+G|:GB BB|B2 GG|GB AB|c3 B|AB BB|A2 GG|FG GG|[1 G2 zG :|[2 G2 z||
+W:Si pasas por mi calle,
+W:repara en mi balcn:
+W:all vers la jaula,
+W:que el pjaro vol.
+W:
+W:El pjaro era verde,
+W:las alas de color;
+W:cmo llora la nia
+W:qu pena y qu dolor!
+W:cmo llora la nia
+W:la ausencia de su amor.
+W:
+S:https://www.folktunefinder.com/tunes/59675
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

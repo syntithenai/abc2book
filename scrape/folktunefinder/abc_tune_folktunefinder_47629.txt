@@ -1,0 +1,32 @@
+X: 92
+T:Peggy & Nancy Hornpipe. JaW.092
+T:Pegg & Nan's Hornpipe. JaW.092
+M:3/2
+L:1/8
+Q:400
+S:James Winder Ms, Lancashire, 1835-41
+R:Triple Hp
+O:England
+A:Wyresdale,Lancashire
+N:Time Sig 6/4 in MS.
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+g3e g3d (ge)(dB)|B4 D3G B3d|c3A B3G (cA)(GF)|G4 D3G B3d:|!
+|:(ge)(dc) defe (gf)(ed|B4 D3G B3d|(cA)(GF) GABG (cA)(GF)|G4 D3G B3d:|!
+|:(ga)b2 (ag)f2 efed|B4 D3G B3d|(cd)e2 (dc)B2 ABcA|G4D3G B3d:|!
+|:gece afdf (ge)(dc)|B4 D3G B3d|cAFA dBGB cAFA|G4 D3G B3H"H"d:|]
+S:https://www.folktunefinder.com/tunes/47629
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Triple hp
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

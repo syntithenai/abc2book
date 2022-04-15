@@ -1,0 +1,23 @@
+X:1261
+T:Baz and Joy
+M:2/4
+L:1/8
+C:Taz Tarry
+S:Copyright B.Tarry 19th. July 1997
+R:Schottische
+K:G
+d2g>d|e2d2|(3Bcd) d>B|A2G2|F>G A>B|c>B A>G|F>G A>B|c>A F>D|!
+d2g>d|e2d2|(3Bcd) d>B|A2G2|F>G A>B|c>B A>G|F>D E>F|G2G2||!
+G>D E>D|F>D G>D|B>G A>B|c>B A>G|G>D E>D|F>D G>D|(3BAG) A>F|G2G2:|
+S:https://www.folktunefinder.com/tunes/56200
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

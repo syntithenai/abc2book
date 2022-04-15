@@ -1,0 +1,28 @@
+X:1
+T:Double Kisses
+R:reel
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 1H51H2H 1H52H2 (1512 1522)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+K:C
+e \
+| c2 GE c2 de | c2 GE dDDe | c2 GE cdec | eagf ecc :|
+(e/f/ \
+| g)cge g(c c)(e/f/ | g)cge a(d d)(e/f/ | g)cge gcge | f(aTgf) e(c c)(e/f/ |
+| g)cge g(c c)(e/f/ | g)cge a(dd)g      | aegd  ecdB | Aa(Tgf) e(cc) |]
+S:https://www.folktunefinder.com/tunes/17039
+S:http://trillian.mit.edu/~jc/music/abc/reel/DoubleKisses_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DoubleKisses_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DoubleKisses_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

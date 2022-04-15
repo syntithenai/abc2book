@@ -1,0 +1,36 @@
+X:22
+T:Polka du Pre Franois
+R:Polka
+O:France
+A:Limousin
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-05
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+Ge d>c | Bcd2 | de fg/f/ | ed ec |Ge d>c | Bcd2 | de fg/f/ | ed c2 ::
+eg ea | gf ed/e/ | fd de/d/ | cd ec |eg ea | gf ed/e/ | fd de/d/ | cBc2 |]
+T:Polka du Pre Juille
+R:Polka
+O:France
+A:Limousin
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-05
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+GA/B/ cc | B/c/d/B/ c2 | d/e/f/d/ ec |1 B/c/d/e/ d2 :|2 B/c/d/B/ c2 ::
+de/f/ ga/g/ | fe d>e | fd ec |1 B/c/d/e/ d2 :|2 B/c/d/B/ c2 :|
+%%footer $D   Galouvielle-MBe 2005 \nRondeau --
+S:https://www.folktunefinder.com/tunes/53319
+S:http://michel.bellon.free.fr/Musique/abc/BalBoulogne.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

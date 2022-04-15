@@ -1,0 +1,31 @@
+X:943
+T:Xota
+T:Jota
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:puede ser tempo: 3/8=100 en el penltimo comps.
+A:Asturies
+Z:Danzas y Bailes I
+M:3/8
+L:1/8
+Q:3/8=80
+K:Bb
+|: d3/2d/d|dcB|cBe-|e d2|dBA-|A G2|B2 A-|A3 :|
+Q:3/8=72
+|def|fef|g2 f|e3-|e3-|e3|g3/2g/g|gfe|fde-|e c2|dBc-|c A2|B2 A|F3-|F3|
+|def|fef|g2 f|e3-|e3-|e3|g3/2g/g|gfe|fde-|e c2|dBc-|c d2|f2 e|z e/d/c/B/|
+|: cBc|BcB|d c2|z d/c/B/A/|BAB|ABA|c B2|z e/d/c/B/|
+|  cBe|gde|g c2-|cf/e/d/c/|BeG|BAF|EGB|[1 ee/d/c/B/ :|[2 e z2||
+S:https://www.folktunefinder.com/tunes/59830
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

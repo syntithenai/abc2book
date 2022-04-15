@@ -1,0 +1,21 @@
+X:6
+T:Paddy Fahy's reel (number 6)
+C:Paddy Fahy
+M:4/4
+L:1/8
+K:Gdor
+GA |: BG~G2 BGdc | BG~G2 AFFA | BGGA Bcde | fdcB AFFA |
+      BG~G2 BGdc | BdGB AFFA | BGGA Bcde | fdcB AFFA :|
+|: B2fB gBfB | BBfB cAFA | B2fB gBfB | c_edc BGFG |
+  ~B2fB gBfB | B2f2 cAFA | B2fB gBfB | c_edc BGFG :||
+S:https://www.folktunefinder.com/tunes/17830
+S:http://trillian.mit.edu/~jc/music/abc/reel/PaddyFahysReelNumber6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PaddyFahysReelNumber6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Paddy_Fahy/PaddyFahysReelNumber6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PaddyFahysReelNumber6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

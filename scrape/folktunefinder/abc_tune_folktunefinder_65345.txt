@@ -1,0 +1,24 @@
+X: 257
+T:Reg's Cigar
+% Nottingham Music Database
+S:Ralph Page, via Phil Rowe
+M:6/8
+K:G
+D|"G"GFG BAG|dBd g3|"D"d2e "G"dcB|"A7"ABG "D"FED|
+"G"GFG BAG|"G"dBd "Em"g3|"Am"d2e dcB|"D7"AGF "G"G2::
+B/2d/2|"G"g3 "D"f3|"C"efg "G"dBG|"G"G2A Bdc|"Am"BAG "D7"A2d|
+"Em"g3 "Bm"f3|"C"efg "G"dBG|"C"cde "G"dcB|"D7"AGF "G"G2:|
+S:https://www.folktunefinder.com/tunes/65345
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

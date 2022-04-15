@@ -1,0 +1,24 @@
+X:9
+T: Halewyn
+N: A0015A
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Lied
+M: 3/4
+L: 1/4
+K: C
+CA,_B, | C2C | DC_B, | A,3
+C_B,A, | G,F,G, | A,_B,C | D3
+D_ED | C2D | CA,_B, | C3
+S:https://www.folktunefinder.com/tunes/68555
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

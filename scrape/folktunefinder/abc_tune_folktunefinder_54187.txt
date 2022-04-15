@@ -1,0 +1,35 @@
+X: 204
+T: Lebedushka
+O: Russia
+S: Barinya Russian Folk Dances
+M: 2/4
+L: 1/32
+K:G
+Q:1/4=72
+%%MIDI gchord ff
+%%MIDI program 25
+%%MIDI bassprog 32
+|:"g" dddd dddz "d" BBBB BBBz|"f#" cccc cccz "a" AAAA AAAz|
+  "d" BBBBBBBz GGGGGGGz      |"c" cccccccc cccccccc        |
+  "d" dddddddz dddddddz      |dddz cccz BBBz AAAz          |
+  "g"BBBBBBBzGGGGGGGz        |[1Gzzz Azzz Bzzz czzz        :|[2 "g" GGGGGGGG z8|
+Q:1/4=144
+L:1/8
+|:"g".d2 "d" .B2             |"f#".c2 "a".A2               |\
+  "d".B2.G2                  |"c" .c2.c2                   |"d".d2.d2         |
+  dcBA                       |"g" .B2.G2                   |G4                 :|
+Q:1/4=180
+|:"g".d2.B2                  |"f#".c2 "a" .A2              |\
+  "d".B2.G2                  |"c".c2.c2                    |
+  "d".d2.d2                  |dcBA                         |\
+  "g".B2.G2                  |G4                           :|
+S:https://www.folktunefinder.com/tunes/54187
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:537
+T: Die sch\^ine Buerin (238a), S. 510f
+N: T0425
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Straen, hhh Johann Schmit, Liederheft, 1855-65
+R: Berufslied, Liebeslied]
+M: 4/4
+L: 1/16
+K: D
+D4 | D2FAA6A2B2d2 | d2F2F4z4
+F4 | E2FBB6A2G2C2 | D4z8
+D4 | D2FAA6A2B2d2 | d2F2F4z4
+F4 | E2FBB6A2G2C2 | D4z8
+A4 | B2A2G2E2E6c2 | c2c2d2A2A6
+A2 | B2A2G2E2E6c2 | A2c2d8z2
+D2 | D2FAA6A2A2d2 | c8z6
+d2 | c2B2A4B2A2G2C2 | D4z8
+A4 | B4A4G2G2G2G2 | D4z8
+d4 | d4d4d2d2d2e2 | f4z8
+A4 | B4A4G2G2G2G2 | D4
+d4A4c4 | d4z8
+A4 | B4A4G2G2G2G2 | D4z8
+d4 | d4d4d2d2d2e2 | f4z8
+A4 | B4A4G2G2G2G2 | D4
+d4A4c4 | d4z8
+S:https://www.folktunefinder.com/tunes/70667
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Berufslied, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

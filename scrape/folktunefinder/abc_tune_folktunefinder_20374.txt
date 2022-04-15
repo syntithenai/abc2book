@@ -1,0 +1,28 @@
+X: 1
+T: Es is ein Ros' entsprungen
+T: Lo, How a Rose E're Blooming
+M: 2/4
+L: 1/4
+K: F
+|: "F"c2 | cc \
+| "Bb"d"F"c | "C"c2 \
+| "Dm"A2 | "Bb"B2 \
+| "F"A"C"G | "Dm"GF- \
+| "Bb"F"C"E | "F"F2 :| \
+| "F"zA | "Em"GE |
+| "F"F"G"D | "C"C/D/E \
+| zc | c"F"c \
+| "Bb"d"F"c | "C"c2 \
+| "D"A2 | "Gm"B2 \
+| "Am"A"Gm"G | "C"G"Dm"F \
+| "Bb"F"C"E | "F"F2 |]
+S:https://www.folktunefinder.com/tunes/20374
+S:http://trillian.mit.edu/~jc/music/abc/xmas/EsIstEinRosEntsprungen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/xmas/EsIstEinRosEntsprungen.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/xmas/EsIstEinRosEntsprungen.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

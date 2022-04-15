@@ -1,0 +1,28 @@
+X: 9584
+T:Ballinasloe Fair
+R:Reel
+S:Paddy Canny, Clare (fiddle).
+D:Clare FM broadcast.
+N:As played
+M:4/4
+Z:Bernie Stocks
+K:G
+A3B {d}cBcA | GE~E2 GECG | AGAB {d}cBca | gedB (3.c.c.A dc |
+{B}A3B {d}cBcA | ~G3A GECG | AGAB {d}cBca | gedB cdef ||
+gc(3.c.c.c gcac | gc(3.c.c.c Bcde | gc~c2 a^ga=g | {a}gedB cdef |
+gc(3.c.c.c gcac | gc(3.c.c.c ~B3c | A3B (3.c.c.B ca | gedB cdef ||
+| ~g2{a}gf {a}gz{a}gf | gc~c2 Bcdf | gc~c2 a^ga=g | {a}gedB cdef |
+gc(3.c.c.c gcac | gc(3.c.c.c ~B3c | A3B (3.c.c.B ca | gedB (3.c.c.A dc ||
+S:https://www.folktunefinder.com/tunes/35484
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

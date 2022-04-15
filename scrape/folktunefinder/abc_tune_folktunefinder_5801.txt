@@ -1,0 +1,30 @@
+X: 2
+P: Levi Jackson Rag
+C: Pat Shaw (1975)
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+"D7"d2[e2^c2][f2=c2] \
+|| "G"[g4B4] d4 | edBd- "D7"dBA2 | "G"G8 | D8 \
+| "Bb"=F4 _B4 | d=fgf- fdc2 | "D"d8 | "D7"e4 f4 |
+| "G"g4 d4 | edBd- dBA2 | "C"G8 | E6 _E2 \
+| "G"D4 "E7"d4 | "A7"BGA_B- "D7"BGA2 | "G"G4- "(C)"G4- | "G"G2 G2F2=F2 ||
+|| "C"EGAC EGEG | ACEG EGAc | "Am"e2ee- edc2 | A8 \
+| "E"^GB^cE GBGB | ^cE^GB GBce | "C#m"^g2gg- gfe2 | ^c8 |
+| "E7"^g2gg- gfe2 | "A7"=g2gg- gfe2 | "D"f2ff- fede | "D7"fafe defa \
+| "G"bafe- "E7"edB2 | "A7"edBA- "D7"AGE2 | "G"G8- "C"G8- | "G"G2 |]
+%%sep 3 1 400
+S:https://www.folktunefinder.com/tunes/5801
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LeviJacksonRag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

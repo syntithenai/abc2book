@@ -1,0 +1,37 @@
+X: 1
+T: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+S:https://www.folktunefinder.com/tunes/19204
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Blinkbonny_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/George_Meikle/Blinkbonny_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Blinkbonny_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 1
+T: Shuter's Hornpipe
+O: Trad
+B: Kohler's Violin Repository
+M: C|
+L: 1/8
+K: G
+|: "G"G2G2 GABc | dcBA GABG | "Am"A2A2 A2ed | cBAG "D7"FAFD | "G"G2G2 GABc |
+| dcBA G2g2 | "D"fafd "A7"ege^c | "D"d2d2 d2z2 ::"D7"A2A2 A2Bc | dBAG FAFD | "G"d2d2 "D7"d2ef |
+| "Em"gedc "G"BdBG | "C"e2c2 c2ge | "G"d2B2 B2g2 | "C"ecec "D7"BAGF | "G"G2B2 G2z2 :|
+S:https://www.folktunefinder.com/tunes/13685
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ShutersHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/ShutersHp_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

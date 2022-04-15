@@ -1,0 +1,36 @@
+X: 1
+T: Light and Airy
+R: jig
+M: 6/8
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+O: Niel Gow's Collection
+N: Hunter #306 (if F; 3 parts, each repeated)
+N: Cole p.69 (if G; 3 parts, each repeated)
+N: S.C.D.4
+K: G
+e \
+[| "G"d3 BdB | GBd gdB | d3 BdB | "Am"A2B "D7"c2 e \
+|  "G"d3 BdB | GBd gdB | "C"cac "G"BgB | "Am"A2B "D7"c2e |]
+[| "G"gag gdB | "(C)"gag "D7"[b2f]a | "G"gag gdB | "Am"A2B "D7"c2 e \
+|  "G"gbg "D7"ac'a | "G"gbg "D7"faf | "G"gfe dcB | "Am"A2B "D7"c2 e |]
+[| "G"dBG G2B | dBG Bdg | "G"dBG G2B |"Am"A2B "D7"c2 e \
+|  "G"dBG GBd | "G"gfe dcB | "C"cac "G"BgB | "Am"A2B "D7"c2e |]
+[| "G"gag gdB | "(C)"gag "D7"[b2f]a | "G"gag gdB | "Am"A2B "D7"c2 e \
+|  "G"gbg "D7"ac'a | "G"gbg "D7"faf | "G"gfe dcB | "Am"A2B "D7"c2 |]
+S:https://www.folktunefinder.com/tunes/14533
+S:http://trillian.mit.edu/~jc/music/abc/jig/LightAndAiryJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LightAndAiryJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LightAndAiryJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j32/LightAndAiryJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LightAndAiryJ.abc
+S:http://trillian.mit.edu/~jc/music/book/500/LightAndAiryJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

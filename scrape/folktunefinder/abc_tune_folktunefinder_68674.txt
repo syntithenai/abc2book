@@ -1,0 +1,23 @@
+X:128
+T: Winter
+N: A0154
+O: Europa, Mitteleuropa, Deutschland
+N: Aus Pater Werlins Liederhandschrift c. 1640 S. 1326.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: A
+A2A2A2 | =c3de2 | A2=c2d2 | e6
+A2A2A2 | =c3de2 | A2=c2d2 | e6
+=c2c2c2 | =c4e2 | =f4e2 | d4=c2 | B6 | A6
+S:https://www.folktunefinder.com/tunes/68674
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

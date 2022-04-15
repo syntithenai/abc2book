@@ -1,0 +1,32 @@
+X:59
+T:Aada (JHM 001) (Arrg.)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 001
+M:2/4
+L:1/8
+Q:1/4=85
+K:G
+|"Am"cc "Am6"cA|"B"B2 B2|
+"Am"cc "B7"cA|"Em"B4|
+"C"GA AG|"G"B2 B2|"D7"GA GF|"G"G4|
+"Am7"A2 A2|"G"B2 BA|G2 "D7"A2|"G"G4||
+W:Durtmete, mi neu,
+W:durmete, mi sol,
+W:durmete pedazos del mi corazn.
+W:Al roro, que te arrullo yo
+W:
+S:https://www.folktunefinder.com/tunes/58946
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

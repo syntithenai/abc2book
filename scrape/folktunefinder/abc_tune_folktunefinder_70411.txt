@@ -1,0 +1,29 @@
+X:281
+T: Die Mllerin (41b), S. 134
+N: T0170
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Heffingen, hhh Georg Olinger, 10.3.1933
+R: Liebeslieder]
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2AA | B2B2B2
+B2 | A2c2B2A2 | G4z2
+B2 | d2B2d2B2 | c2e2e2
+dB | c2A2c2A2 | c2e2d2
+c2 | B3AB2c2 | d4
+e4 | d3ed2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/70411
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

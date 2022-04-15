@@ -1,0 +1,33 @@
+X:206
+T:Allice Gray. CJF.188
+O:england
+M:2/4
+L:1/16
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Misc.
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the bar mrked 'ritard', the trplet is beamed with the F2 quaver. -
+N:PJH
+K:G
+"(Moderato)"Bc|d3Bg3e|d2B2 B2B2|A2ag fedc|\
+c4B2 dB|G3A B3c|d2g4g2|f2e2 d2^c2|d4z2||
+d2|d3e d3c|B3ce3f|g3B {B2}A3G|"ritard"G4F2(3(dcA)|\
+G3A B3c|dd3z2cB|A2ag fedc|c4B2dd|
+efge fgaf|ghb3 g2g2|a3ga3b|g4z2"Sym:"dd|\
+efge fgaf|g3ab3d'|b2b2 {b}a2b2|gdBdG4||
+S:https://www.folktunefinder.com/tunes/20655
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

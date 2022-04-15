@@ -1,0 +1,28 @@
+X:1
+T:The Sun from the East
+M:3/4
+L:1/4
+C:Unk
+S:The Dorchester Hornpipe pub 1977 Dorset County Museum
+Z:Dougie McCallum <mccallum.rupert:which.net> tradtunes 2003-1-21
+R:Waltz
+K:D major
+A | dAd | f2e/d/ | eAe | g2f/e/ | f(d/e/)(f/e/) | a(g/f/)(e/d/) | e/c/AG |
+(GF)A | dfe/d/ | {f}e(d/c/)(B/A/) | d3/(f/e/d/) | {d}c2A/A/ | B/c/d c/B/ | c/d/ef/^g/ |
+a(e/d/)(c/B/) | A2e/e/ | e(d/c/)(B/A/) | e3/f/g | f(e/d/) (c/B/) | f2f) | b(f/e/)(d/c/) |
+d/c/B/c/d/B/ | e/f/g/f/e/d/ | c/B/A/B/c/A/ | d/c/d/e/ f/ g/ | a3/g/f | gfe | d2 |
+S:https://www.folktunefinder.com/tunes/20224
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SunFromTheEast_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/SunFromTheEast_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/SunFromTheEast_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SunFromTheEast_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:Donald Stewart the Piper
+R:reel
+C:J. Scott Skinner (1843-1927)
+Z:Andrew Kuntz <AIKuntz@aol.com>
+N:DONALD STEWART THE PIPER. Scottish, Reel. D Major. Standard. ABB'. Composed
+N:by Scottish virtuoso performer and composer J. Scott Skinner (1843-1927),
+N:although only first published in J. Murdoch Henderson's Scottish Music Maker
+N:(1957), some thirty years after Skinner's death. Hardie (Caledonian Companion)
+N:, 1986; pg. 19. Green Linnet GLCD 3105, Aly Bain - "Lonely Bird" (1996).
+N:Rounder 7004, Joe Cormier - "The Dances Down Home" (1977).
+L:1/8
+M:4/4
+K:D
+| (3DDD FA d3 A |  dcBA  GFED | (3CCC A,C ECA,C | edcB AGFE |
+| (3DDD FA d3 A |  defa  gfed | BcdB Aagf |1 edcB AG FE :|2 edcB AG Ac ||
+|:(3ddd fd Adfa | ^gaba =gfed | (3ccc Ac EDCB, | Acea ^ga=ge |
+| (3ddd fd Adfa | ^gaba =gfed | BcdB AdcB | AGFE DAFE :|
+S:https://www.folktunefinder.com/tunes/17032
+S:http://trillian.mit.edu/~jc/music/abc/reel/DonaldStewartThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DonaldStewartThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/DonaldStewartThePiper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DonaldStewartThePiper.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

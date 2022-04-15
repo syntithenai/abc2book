@@ -1,0 +1,29 @@
+X:116
+T: MEIN SCHIFF GEHT AUF DER SEE
+N: B0604
+O: Europa, Mitteleuropa, Deutschland, Hochwald, Hellertshausen
+R: Staende -, Seemanns - Lied, Tod
+M: 4/4
+L: 1/8
+K: D
+DF | A2F2AGEG | F4z2
+EF | G2A2FDAF | E4z2
+DF | A2F2AGEG | F4z2
+EF | G2A2FDAF | E4z2
+A2 | FAdFEFGE | DFAAA2
+A2 | FAdFEFGE | DFAAA2
+A2 | B2BBA2A2 | GEAGF2
+A2 | BdcBA2F2 | A2ced2
+S:https://www.folktunefinder.com/tunes/62139
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, seemanns - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

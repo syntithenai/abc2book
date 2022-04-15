@@ -1,0 +1,30 @@
+X:108
+T:Lei Pastouru
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:France
+A:Provence
+M:2/4
+L:1/8
+Q:1/4=108
+K:D
+d2 cB | A2> A2 | B>A Bc | d2 A2 |
+d2 cB | A2> A2 | B>A Bc | d4 |
+d2 ef | g2> f2 | e>d cd | f2 e2 |
+d2 ef | g2> f2 | e>d cd | ee zf |
+A2> f2 | A2> A2 | B>A Bc | A2 zf |
+A2> f2 | A2> A2 | B>A Bc | Hd4 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/40306
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Nol
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

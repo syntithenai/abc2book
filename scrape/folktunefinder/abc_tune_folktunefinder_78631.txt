@@ -1,0 +1,26 @@
+X:190
+T: ES WAR EINE STOLZE JUEDIN
+N: E0098C
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid
+M: 3/4
+L: 1/8
+K: F
+C | FGA2B2 | c2c2z
+f | edc2=B2 | c4z
+c | fAc2de | f2c2z
+c | def2ed | c2A2z
+c | dBA2G2 | F4z
+S:https://www.folktunefinder.com/tunes/78631
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

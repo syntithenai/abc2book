@@ -1,0 +1,38 @@
+X: 2
+T: Fecuresc Fecuresc
+O: Romania
+C: Trad.
+Z: Transcription from Susan Worland
+%%titlespace 0.0cm
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 0 100
+%%MIDI gchord ff2czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 10/16
+L: 1/16
+Q: 4/16=128
+K: D
+ "D"(^gafd) ((2Ad f3) |(^gafd) (A2d e2f) |"A"(gfeg) (f2d e2c) |"D" (def^g) (a2g a3) |
+ "D"(^gafd) ((2Ad f3) |(^gafd) (A2d e2f) |"A"(gfeg) (f2d e2c) |"D" d2z2 z6 :|
+|:"G"(cdef) (g3- g2f) |(gagf) (e2d e2f) |(3g2(g2f2) (g2a) (g2f) |"A" (e3d) (c2B) A3 |
+  "G"(d2ef) (g3- g2f) |(gagf) (e3 a3) |"A"(^gaba) (g2a b2c') |"D" d'2 z2 z6 :|
+|:"D"(f^gab) (c'2g a3) |(b^gac') (b2c' a3) |"A"(bagf) (e2d A2c) |"D" (def^g) (a2g a3) |
+  "D"(f^gab) (c'2g a3) |(b^gac') (b2c' a3) |"A"(bagf) (e2d A2c) |"D" d2z2 z6 :|
+|:"D"(Acde) (f2c d3) |(Acde) (f2c d3) |"G"(3g2(g2f2) (g2a) (g2f) |"A"(e3d) c2B A3 |
+  "D"(Acde) (f2c d3) |(Acde) (f2c d3) |"A"(3a2(a2e2) (f2^g a2c) |"D"d2 z2 z6 :|
+S:https://www.folktunefinder.com/tunes/5700
+S:http://trillian.mit.edu/~jc/music/abc/Intl/INV2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/InvirtitaDinLunaTurda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/INV2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 10/16
+% Has_accompaniment_chords Has chords

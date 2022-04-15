@@ -1,0 +1,29 @@
+X:286
+T: BRINGT MIR BLUT DER EDLEN REBEN
+N: F0500
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 4/4
+L: 1/8
+K: D
+ | A,2A,2D3A, | F,2F,2A,3F,
+D,4E,4 | F,4z4
+D2C2B,2A,2 | B,3A,G,2F,2
+E,2F,2G,2E,2 | A,3G,F,2E,2
+D4E4 | F2D6
+A,4C4 | D4z4
+D2C2B,2A,2 | B,3A,G,2F,2
+E,2F,2G,2E,2 | A,3G,F,2E,2
+D4E4 | F2D6
+A,4C4 | D4z4
+S:https://www.folktunefinder.com/tunes/69846
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

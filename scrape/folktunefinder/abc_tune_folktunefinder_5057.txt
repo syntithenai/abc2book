@@ -1,0 +1,25 @@
+X: 10
+T: die Alte Kathe (G)
+R:zwiefacher
+O:Bavaria
+Z:John Chambers <jc@trillian.mit.edu>
+N:From handwritten MS and transcription by Tom Pixton
+M:3/4
+K:G
+|:      "G"[d3B3] [cA][BG][cA] | [d2B2] z2 [g2B2] |[M:2/4]"D7"[f2A2] [a2c2] | "G"[g2B2] [b2d2] \
+|[M:3/4]"G"[d3B3] [cA][BG][cA] | [d2B2] z2 [g2B2] |[M:2/4]"D7"[f2A2] [a2c2] | "G"[g2B2] z2 :|
+M:3/4
+|:      "C"[e2c2] [c'e][bd] [c'2e2] | "G"[d2B2] [bd][^a^c] [b2d2] |[M:2/4]"D7"[f2d2] [a2c2] | "G"[g2B2] [b2d2] \
+|[M:3/4]"C"[e2c2] [c'e][bd] [c'2e2] | "G"[d2B2] [bd][^a^c] [b2d2] |[M:2/4]"D7"[f2d2] [a2c2] | "G"[g2B2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5057
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

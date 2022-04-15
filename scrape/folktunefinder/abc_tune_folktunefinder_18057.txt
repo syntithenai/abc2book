@@ -1,0 +1,26 @@
+X: 1
+T:La Russe
+T:Fergus MacIver
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+B:Kennedy
+M:C|
+L:1/4
+K:G
+"C"\
+| "G"GB/B/ Bd/d/ | "G"dg gf/g/ | "C"ag ec | "D7"ed/e/ d/c/B/A/ \
+| "G"GB/B/ Bd/d/ | "G"dg gf/g/ | "C"ed "D7"dF | "G"AG "fine"G2 |] [K:D]
+"D"\
+| "D"Ad/d/ dc/B/ | "D"Aa/a/ ag/f/ | "A7"gf ge | "D"f/g/a/g/ fd \
+| "D"Ad/d/ dc/B/ | "D"Aa/a/ ag/f/ | "A7"gf ge | "D"d2 "D7"=c2 |]
+S:https://www.folktunefinder.com/tunes/18057
+S:http://trillian.mit.edu/~jc/music/abc/reel/Russe_G16CD.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Russe_G16CD.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/Russe_G16CD.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

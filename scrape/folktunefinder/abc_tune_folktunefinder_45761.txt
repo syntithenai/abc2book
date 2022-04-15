@@ -1,0 +1,27 @@
+X:1
+T:lord of the dance 2
+M:2/4
+L:1/16
+R:polka
+K:D
+|:a4 f3e| fgfe d4|f2fg a2gf|e2A2 A4|
+|d2dc dAFA| dAdf a2gf|e2ee egfe| d2dc d4:|
+K:G
+|:d4 B3A| BcBA G4|B2Bc d2cB|A2D2 D4|
+|G2GF GDBD| GDGB d2cB|A2AA AcBA|1 G2GF G4:|2G2GF G3A||
+K:D
+[|d2dd f2ff |a2a2 f4|e2ee e3f|gfed c3A|
+|d2dd f2ff |a2a2 f4|e2ee egfe| d2dc d4|]
+K:G
+[|d4 B3A| BcBA G4|B2Bc d2cB|A2D2 D4|
+|G2GF GDBD| GDGB d2cB|A2AA AcBA|G2GG G4|]
+S:https://www.folktunefinder.com/tunes/45761
+S:http://www.thesession.org/tunes/display/7844
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

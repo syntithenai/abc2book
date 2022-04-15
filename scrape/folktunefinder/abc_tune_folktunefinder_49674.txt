@@ -1,0 +1,34 @@
+X: 119
+T:Beethoven Waltz. CJF.119
+M:3/4
+L:1/4
+Q:90
+C:"Beethoven"
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Just "Waltz" in MS...but "Beethoven" is in the Title line. The
+N:asterisked notes were 2 1/4's in
+N:the MS. The repeat marks are as in the MS. - PJH.
+Z:vmp.P J Headford 2000
+K:G
+G3|g3|fed|cBA|Gg/g/g|ee/e/e|d/B/G/B/A/F/|G3:|!
+|:dd/d/d|def|gg/g/g|dBG|ee/e/e|\
+dBG|A/B/c/d/e/f/|"*"g3h:|!
+|:GBd|g2f|e3|d2z|FAc|e2d|BdB|GBG|\
+Bdg|bag|gfe|edc|B>cd|dcA|A3|G2z:||!
+EGB|e2d|c3|A3|DFA|\
+d2c|B3|G3|Bdg|bag|gfe|edc|B>cd|dcA|A3|"*"G3|]
+S:https://www.folktunefinder.com/tunes/49674
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

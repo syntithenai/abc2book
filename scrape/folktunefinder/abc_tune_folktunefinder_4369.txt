@@ -1,0 +1,24 @@
+X: 2
+P: Polska fr\aan \"Overmark
+N: trad, \"Overmark, \"Osterbotten
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: "D"A3d "(A7)"d2eg "D"f2d2 | "D"fefg "A7"abag "D"a2f2 | "D"a2fa "A7"ageg "D"gfdf |
+|1,3 "A7"fece "D"d2d2 "A7"A2A2 :|2,4 "A7"fece "D"d2z2 d4 |: "D"f2df "A7"feec e2fg |
+| "D"gfdf "A7"feec e2fg |  "D"a2fa "A7"ageg "D"gfdf |1,3 "A7"fece "D"d2d2 "A7"A4 :|2,4 "A7"fece "D"d2z2 d4 |]
+S:https://www.folktunefinder.com/tunes/4369
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Menuett1.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/OravaisMenuetPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/OravaisMenuetPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/folk/OravaisMenuetPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/OravaisMenuetPolska.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

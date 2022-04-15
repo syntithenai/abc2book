@@ -1,0 +1,24 @@
+X:60
+T: Schneider - Verschwoerung
+N: D0063
+O: Europa, Mitteleuropa, Lothringen, Woelflingen
+N: rezitativisch, Vortragsbezeichnung: lustig, schalkhaft
+N: Verzierung; Inzipt = Variante zum Lied
+R: Spott - Lied
+M: 3/4
+L: 1/16
+K: A
+D4 | D4A4A4 | A2AAA4B4 | A4=G4G4 | =G4G4
+G4 | =G8=c4 | =c4c4c4 | =c12 | =c8
+c3c | B6B2B4 | A4A4A4 | A8
+S:https://www.folktunefinder.com/tunes/72517
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

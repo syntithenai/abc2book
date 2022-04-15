@@ -1,0 +1,27 @@
+X:311
+T:31. Si Beag and Si Mor (tune)
+C:Carolan, harmony by Ian Hall
+O:Ireland/Cumbria
+M:3/4
+K:D
+V:1
+(de) |\
+"D"f2 (fe) d2 |"D" d2 (de) d2 |"G" B4 A2 |"D" F4 A2 |"G" (BA) (Bc) d2 |"A" e4 (de) |
+"D"f4 "A"e2 |"D" d4 f2 |"G" B4 e2 |"A" A4 d2 |"F#m"F4 E2 |"Bm" D4 f2 |
+"G"B4 e2 |"A" A4 (dc) |"D" (d6 | d4) de  |"D" f2 (fe) d2 |"D" (ed) (ef) a2 |
+"G"b4 "A"a2 |"D" f4 (ed) |"A" e4 ag |"F#m"f4 (ed) |"D" d4 B2 |"Bm" B4 (BA) |"D" F4 "A"E2 |
+"D"D4 f2 |"G" B4 e2 |"A" A4 a2 |"G" (bagfed) |"A" e4 dc |"D" (d6 | d4) ||
+V:2
+FE| D4 ED| F4 GF| G4 AB| A6 | G4 BG|E4 AF| D4 AG|F4 dA|G4 BG|
+E4 FG|A4 FD|B6|G4 BG|F4 AF|(D6 | D4) FE| D4 ED| F4 GA|B4 c2|
+d4 cB|A4 F2|c4 FG|A4 GB|F6|A4 A2|d4 A2|G4 EE|c4 A2|
+GABcde|A4 FA|(D6 |D4) ||
+S:https://www.folktunefinder.com/tunes/48804
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set31.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

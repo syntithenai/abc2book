@@ -1,0 +1,26 @@
+X:42
+T:Ave Maria (Chartres) - V238
+C:M. Dazin
+M:4/4
+L:1/4
+K:C
+"Do"c2"Mim"B2|"Fa"Ac "Do"G3/E/|"Sol"G2F2|"Do"E3z|"Do"c2"Mim"B2|"Fa"Ac "Do"G3/C/|"Sol"E2D2|"Do"C2||
+L:1/8
+P:1
+zE EE|"Do"G3G "Fa"AA GF|("Sol"G3F) "Lam"E2 EE|"Rem"F2 E2 "Fa"D2 C2|
+"Sol"D4 zG AB|"Lam"c3c "Mim"BB AG|"Fa"A2 (GF) "Do"E2 EG|"Rem"F3E FE DC|"Mim"G4 D2 E2|"Sol"F8||
+P:2
+C2 "Do"B,C "Rem"D2 (EF)|"Sol"G2 D2 "Do"E4|"Lam"zA (Bc) "Re"BA G^F|"Sol"G6 EG|
+[M:2/4]"Rem"F2 FE|[M:3/4]"Fa"D2 DD EF|[M:4/4]"Sol"G6 z2||
+S:https://www.folktunefinder.com/tunes/77632
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

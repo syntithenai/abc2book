@@ -1,0 +1,36 @@
+X: 368
+T:Zborenka
+O:Bulgaria
+L:1/8
+M:2/4
+K: AMix
+Q:1/4=160
+%%MIDI gchord fzfz
+|: "A"G2AB      |B2BG         |B2BG     |B2BG       |\
+   cded         |c2Bc         |A2B2     |A4         :|
+|: A2e2         |edcd         |edcd     |c4         |cded|\
+   c2Bc         |A2B2         |A4       :|
+|: cde2         |e2fg         |f4       |edc2       |cde2|\
+   e2fg         |f4           |e4       :|
+Q:1/4=180
+K:F
+%%MIDI gchord fzfz
+|: "F"C2 c2     | C2c2        | cBAG    | A2 GF     |\
+   C2 c2        | cBAG        | AF "C"G2| "F"F2 z2  :|
+|: "F"A2 F2     | "C"G2 "F"FG | A2 "C"G2| "F"FGAB   |\
+   A2 F2        | "C"G2 "F"FG | A2 "C"G2| "F"F2 z2  :|
+|: "F"C2 "Dm" DE| "F"F3 G     | AF "C"G2| "F"F2 z G |\
+   "F"AF "C"G2  | "F"FE "Dm"D2| D2 D2   | D2 "F"z2  :|
+|: "F"C2 "Dm"DE | "F"F3 G     | AF "C"G2| "F"F2 z G |\
+   AF "C"G2     | "F"FE "Dm"D2| D2 D2   | D2 "F"z2  :|
+S:https://www.folktunefinder.com/tunes/54351
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

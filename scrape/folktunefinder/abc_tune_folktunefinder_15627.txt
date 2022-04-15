@@ -1,0 +1,31 @@
+X: 45
+T:Ymdaith yr Hen Gymry
+T:The Old Welsh March
+M:2/4
+L:1/8
+Q:220
+C:Trad
+S:Blodau'r Grug Collection Vol. 3
+R:March
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:Am
+E|A>A AA|E>^F ^GE|AA ^G/A/B/c/|dd/d/ de/d/|cA AA|!
+E>^F ^GE|AA ^G/A/B/d/|cA A:||
+c/d/|ee ec/d/|ee eB/c/|dd dB/c/|!dd e/d/c/B/|cA AA|
+E>^F ^GE|AA ^G/A/B/d/|cA A:||
+S:https://www.folktunefinder.com/tunes/15627
+S:http://trillian.mit.edu/~jc/music/abc/march/OldWelshMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/YmdaithYrHenGymry.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/march/OldWelshMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/march/YmdaithYrHenGymry.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/OldWelshMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/YmdaithYrHenGymry.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

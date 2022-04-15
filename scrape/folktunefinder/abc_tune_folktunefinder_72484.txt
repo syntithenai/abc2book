@@ -1,0 +1,25 @@
+X:27
+T: Eleisonlied
+N: D0029
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Im Original mit der Bemerkung "ohne Taktakzente" ueberschrieben,
+N: aber mit Taktstrichen notiert; Inzipit = entfernte Variante
+R: Legenden - Lied
+M: 4/4
+L: 1/8
+K: F#
+EEEE | 4=A2F2 | =G2F2E2- | E4
+EE | 62 | =A22F4- | F3
+FFFFF | 4F2 | F2E2=D2- | D2
+E=G | F2CE | =D2C2 | 4
+S:https://www.folktunefinder.com/tunes/72484
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

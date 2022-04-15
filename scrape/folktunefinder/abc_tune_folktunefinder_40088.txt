@@ -1,0 +1,33 @@
+X:75
+T:The Finucane's Visit
+R:jig
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:The Cape Breton Fiddlers Collection
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:300
+M:6/8
+K:Gdor
+G2 D F2 D|GDC B,2 G,|G,GB d2 g|fdc A2 G|
+dBG c2 A|AGD C2 F|DGG dc=B|cA^F G2 z:|
+|:gfd g2 b|afd g3|dgg c=Bc|[1AFA cfa|
+gfd g2 b|afd g3|dgg dc=B|cA^F G2 z:|
+[2AFC A,G,A,|G,GB d2 b|ag^f g3|dgg dc=B|cA^F G2 z|]
+S:https://www.folktunefinder.com/tunes/40088
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

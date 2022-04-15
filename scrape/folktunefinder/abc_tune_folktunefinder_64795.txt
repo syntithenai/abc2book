@@ -1,0 +1,21 @@
+X:235
+T:Chelmsford Races
+% Nottingham Music Database
+S:Thomas Hardy Collection, via Phil Rowe
+M:6/8
+K:Bb
+F|"Bb"B2B BAB|"F"c2c f2f|"Bb"d2d B2B|"F"ABc FGA|
+"Bb"B2B BAB|"F"c2c f2f|"Eb"egf "F"edc|"Bb"B2B B2::
+f|"Bb"fef def|"Eb"g2g g3|"F"aga fga|"Bb"b2b b3|
+"Bb"fef def|"Eb"g2a bag|"Bb"fgf "F7"edc|"Bb"B2B B2:|
+S:https://www.folktunefinder.com/tunes/64795
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

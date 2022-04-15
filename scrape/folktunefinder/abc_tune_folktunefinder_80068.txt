@@ -1,0 +1,29 @@
+X:9
+T: Das Dollerlied
+N: A0374A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie 1611 im Goerlitzer Gsgb. S. 552.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/2
+K: D
+d2 | d=cBA | G2A2
+B2 | =c2cd2B | A2
+d2 | d=cBA | G2A2
+B2 | =c2cd2B | A2
+A2 | AGAB | =c2c2
+A2 | A2AA2G | =F2
+=c2 | =cccA | =c2A2
+A2 | =ccdB | A2A2
+A2 | A2=FG2E | D2
+S:https://www.folktunefinder.com/tunes/80068
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

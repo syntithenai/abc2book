@@ -1,0 +1,34 @@
+X:725
+T:Vaqueirada (CT 153)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Panderu.
+N:Es propia de los vaqueiros que habitan las braas de Somiedu.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 153
+M:6/8
+L:1/8
+Q:3/8=88
+K:G
+|GGG GBB|c c2-c3|BBc cBc|c B2-B2 z|
+GGG GAA|GFB Bcc|A2 B A G2|{A}G6-|G2 z4||
+W:Morri el Obispu d'Uviu,
+W:morri nuestro capitanni (sic)
+W:morrise el cabritu muchu,
+W:morri el burro el tu Xuani.
+W:Ei!
+W:
+S:https://www.folktunefinder.com/tunes/59612
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

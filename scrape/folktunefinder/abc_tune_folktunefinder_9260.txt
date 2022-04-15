@@ -1,0 +1,34 @@
+X: 2
+T: Mamsell L\"ov, polska
+R: polska
+S: eft. J-P.Ragvals, \"Overmark
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://www.spelmansforbundet.fi/musik/ovriga_latar/
+M: 3/4
+L: 1/16
+K: Ddor
+%%slurgraces 1
+|: A2f2 fed^c defg \
+| g2a2 a2A2 {AB}A2G2 \
+|  GFGB B2A2 A2F2 \
+| FED^C (C2D2) D4 :|
+|:(DE)FG AG(Ac) (Bd)BG \
+| (AG)(Ac) (Bd)(BG) Ac(AF) \
+| (DE)FG AG(Ac) (Bd)BG |
+| (AG)Ac (Bd)BG A2A2 \
+| (Ad)^cd AGFE D2g2 \
+| ^Fge^c d8 y4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/9260
+S:http://www.spelmansforbundet.fi/musik/ovriga_latar/
+S:http://trillian.mit.edu/~jc/music/abc/Scand/SkarikursSydIBarosund2008.abc
+% Rhythm Polska
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

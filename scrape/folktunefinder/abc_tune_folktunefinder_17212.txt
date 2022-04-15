@@ -1,0 +1,26 @@
+X: 1
+T: Galen's Arrival
+C: Alasdair Fraser
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+zGA \
+| "G"B3A BGdB | "Am"c3B cAec | "G"Bdgd "C"ecAG | "D7"FGAB cDBA \
+| "G"B3A BGdB | "Am"c3B cAec | "G"Bdgd "D7"ecAF | "G"G2GF Gy :|
+|: ABd \
+| "Em"g2gf gbag | "D"f2fe fddB | "Am"c2cB cedc |  "G"Bdgd "D"fgaf \
+| "Em"g2gf gbag | "D"f2fe fddB |  "C"c2cB cedc | "D7"BGAF "G"Gy :|
+S:https://www.folktunefinder.com/tunes/17212
+S:http://trillian.mit.edu/~jc/music/abc/reel/Galens_Arrival_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Galens_Arrival_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/Galens_Arrival_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

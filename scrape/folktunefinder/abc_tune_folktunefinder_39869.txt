@@ -1,0 +1,25 @@
+X:22
+T:Cercle Circassien
+R:
+N:tagafolk.abc
+O:France
+Z:<anamnese@laposte.net>
+M:6/8
+L:1/8
+Q:3/8=130
+K:C
+"Am"E2 A A2 "G"G | "Am"E2 E "G"DCD | "Am"E2 AA2 B | "F"cAc "G" BGB |\
+"Am"E2 A A2 "G"G | "Am"E2 E "G"DCD | "Am"EAB "F"cdc | "G"BcB "Am"A3 ::
+"Am"e2 e efe | "G" dcB "F"A2 B | cAA ABc | "G"dBB Bcd |\
+"Am"e2 e efe | "G" dcB "F"A2 B | cdc "G"BcB | "Am"A2 A A3 :|
+S:https://www.folktunefinder.com/tunes/39869
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

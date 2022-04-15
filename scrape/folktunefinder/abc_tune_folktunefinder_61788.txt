@@ -1,0 +1,40 @@
+X:9755
+T:Lochiel's Away to France
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:set by Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=84
+N:bar 5 in last part printed as |{Gdc}defg {gg}a3g/{a}f/|
+K:Hp
+ a|     eA {gAGAG}A2 {gef}e3{g}d/g/|{a}B{d}G   {dGe}G2   {g}B<d{c}d>f  |\
+     {g}eA {gAGAG}A2 {gef}e3{g}d/g/|{a}B{d}A {gAGAG}A2      a2{eA}e>a  |
+        eA {gAGAG}A2 {gef}e3{g}d/g/|{a}B{d}G   {dGe}G2   {g}B<d{c}d>f  |\
+     {g}egag         {aeg}e3{g}d/g/|{a}B{d}A {gAGAG}A2      a2{eA}e3/ ||
+f/|{Gdc}defg          {ag}a3g/{a}f/|   gd      {gdc}d2   {a}g2{dc}d>e  |\
+   {Gdc}defg          {ag}a3g/{a}f/|{a}ge{g}ce              a2{eA}e>f  |
+   {Gdc}defg          {ag}a3g/{a}f/|{a}ge{gde}dc       {Gdc}de{g}fg    |\
+        ag{afg}fd    {gef}e3{g}d/g/|{a}B{d}A {gAGAG}A2      a2{eA}e3/ ||
+f/|{gef}eA {gAGAG}A2 {gef}eA{gde}dA|{d}B{e}G   {dGe}G2   {g}B<d{c}d>f  |\
+   {gef}eA {gAGAG}A2 {gef}eA{gde}dA|{g}B{d}A {gAGAG}A2      a2{eA}e>f  |
+   {gef}eA {gAGAG}A2 {gef}eA{gde}dA|{d}B{e}G   {dGe}G2   {g}B<d{c}d>f  |\
+     {g}egag           {a}eg{a}dg  |{a}B{d}A {gAGAG}A2      a2{eA}e3/ ||
+f/|{Gdc}defg              af{a}ge  |{g}fd      {gdc}d2 {gfg}f2{dc}d>e  |\
+   {Gdc}defg              ag{a}fa  |   ge{gfg}fe             a2{eA}e>f |
+   {Gdc}defg          {ag}a3g/{a}f/|{a}ge{gde}dc        {Gdc}de{g}fg   |\
+        ag{a}fg        {a}ef{g}de  |{g}B{d}A {gAGAG}A2       a2{eA}e3/|]
+S:https://www.folktunefinder.com/tunes/61788
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

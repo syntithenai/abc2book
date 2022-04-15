@@ -1,0 +1,27 @@
+X: 1
+T: Miss Anderson's Jig
+O: Trad
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+B: Brenda Stubbert Tunebook
+M: 6/8
+L: 1/8
+K: C
+a \
+| "C"gec cBc | "F"dcA A2B | "C"cGE EDE | "G7"GAG G2a \
+| "C"gec cBc | "Dm"def "A"A2B | "G7"GAB GAB | "C"c3 c2 :|
+|: a \
+| "C"gec ceg | "F"c'3 c'2a | "C"gec "Am"cBc | "G7"d3 def \
+| "C"gec ceg | "F"c'3 "D7"c'2a | "G"gag "G7"fed | "C"c3 c2 :|
+S:https://www.folktunefinder.com/tunes/14652
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissAndersonsJig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissAndersonsJig_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

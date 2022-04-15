@@ -1,0 +1,29 @@
+X:1
+T:Bonaparte Crossing the Rhine
+R:hornpipe
+M:4/4
+L:1/8
+K:Ador
+E(G | "Am" A2)   AB    A(GEG) | "C" cde(c "G" d2)     eg | "Am" age(d          cd)ed  | "Am" cAG(E "G" G2) c(B |
+      "Am" A2)   AB    A(GEG) | "C" cde(c "G" d2) (3ef(g | "Am" a)ge(d  "F" cA)"G"G(E | "Am" A2) A{d}(B    A2) :|
+e(g | "Am" a2) ag (3ef(g e)(d | ^cd)e(f g2)           eg | age(d                cd)ed | "Am" cAG(E "G" G2) c(B |
+      "Am" A2)   AB    A(GEG) | "C" cde(c "G" d2) (3ef(g | "Am" a)ge(d  "F" cA)"G"G(E | "Am" A2) A{d}(B    A2) :|
+\end{abc}
+\medskip
+\renewcommand{\abcwidth}{\linewidth}
+The next tune has a \texttt{\%\%scale 0.5} command:
+\begin{center}
+\addcontentsline{toc}{subsection}{The Boys of Bluehill}
+\begin{abc}[name=bluehill]
+%%scale 0.5
+S:https://www.folktunefinder.com/tunes/66620
+S:http://abcplus.sourceforge.net/tunebook-sample.tex
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

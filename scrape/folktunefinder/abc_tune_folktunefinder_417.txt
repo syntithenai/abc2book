@@ -1,0 +1,39 @@
+X: 10
+T: Rheinl\aender Polka Nr.  7
+O: trad Danmark
+R: polka
+Z: 2007 by John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+P: AABBACCA
+M: 2/4
+L: 1/16
+K: F
+"A"[|]\
+AB \
+| "F"c2a2 f3d | c2c2 "D7"[A3^F3]c | "Gm"B2B2 "C7"G3B | "F"AGAB c2AB \
+| "F"c2a2 f3d | c2c2 "D7"[A3^F3]c | "Gm"BAGA "C7"Bcde | "F"f2f2 "fine"f2 :|
+K: C
+"B"\
+|: z2 \
+| "G7"G2B2 d3f | "C"e2c2 c3e | "G7"d2G2 G2AB | "C"c2e2 g4 \
+| "G7"G2B2 d3f | "C"e2c2 c3e | "G7"d2G2 G2AB | "C"c2c2 c2 :|
+K: Bb
+"C"\
+|: z2 \
+| "Bb"B,2D2 F2B2 | d6 c2 | "Gm"B2A2 G2D2 | "F7"F4 E4 \
+| "F7"A,2C2 E2A2 | c6 B2 | A2G2 F2E2 | "Bb"G2F2 D4 |
+y4 \
+| "Bb"B,2D2 F2B2 | d6 c2 | B2A2 c2B2 | "Cm"A4 G4 \
+| "Cm"[eG][eG][e2G2] [d2F2][c2E2] | "Bb"[dF][dF][d2F2] [c2E2][B2D2] | "F7"[A2C2]CD EFGA | "Bb"[B2D2][B2D2] [B2D2] :|
+S:https://www.folktunefinder.com/tunes/417
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

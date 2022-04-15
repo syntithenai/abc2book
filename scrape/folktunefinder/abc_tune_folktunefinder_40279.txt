@@ -1,0 +1,47 @@
+X:80
+% M = !tenuto!% abcm2ps default M is lowermordent
+T:La glenado
+C:Trad.
+C:Harm. Maurice Marchal
+O:France
+A:Provence
+R:Marche
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Bb
+V:1
+F2 | B2Bc d2ef | e2cc !breath!c2e2 | dfed cecA | B2FF !breath!F2f2 |
+d2Bd !breath!c2f2 | d2Bd !breath!c2f2 | =edcB A2G2 | F2F>F F2z2 || Lff/e/ df Bdfd |
+Lee/d/ ce Acec | Ldd/c/ Bd FBdf | c(c/B/) A(A/G/) !breath!F c de | Lff/e/ df Bdfd | Lee/d/ ce Acec |
+MB>B Mc>c Md>d M=e>e | MfMf/Mf/ MfMf Mf2 z2 || g2 g>f e2 f2 | f>g f>e d2 f2 | e>f e>d c2 B2 |
+(d4c) z/F/ B>c | d>B B>B !breath!B> d B>d | f>d d>d !breath!d2 f>d | B2 f>d .B.B .c.d | (e2>f2 !breath!g2) e>d |
+c2 c>c .c.c.d.e | !breath!f2>(.f2 .g.f.e.c) | B2 (c/B/A/G/) F2 A2 | B2 (c/B/A/G/) F2 A2 | MB2 MB>MB MB2 |]
+V:2 clef=perc stafflines=1 staffscale=0.5
+K:C
+"Tamb." z2 | B2BB B2BB | B2BB B2BB | B2BB B2BB | B2BB B2BB |
+B2BB B2BB | B2BB B2BB | B2BB B2BB | B2B>B B2z2 || BB/B/ BB BB BB |
+BB/B/ BB BB BB | BB/B/ BB BB BB | BB/B/ BB/B/ BB BB | BB/B/ BB BB BB | BB/B/ BB BB BB |
+B>B B>B B>B B>B | BB/B/ BB B2 z2 || B2 B>B B2 B2 | B>B B>B B2 B2 | B>B B>B B2 B2 |
+B>B B>B B2 B2 | B>B B>B B2 B2 | B>B B>B B2 B>B | B2 B>B BB BB | BB/B/ BB B2 B>B |
+B2 B>B BB BB | BB/B/ BB BB BB | B2 z2 B2 B2 | B2 z2 B2 B2 | B2 B>B B2 ||
+V:3
+F2 | d2 de f2 cd | c2 FF !breath! F2 c2 | BdcB AcAF | d2 df !breath!d2 d2 |
+B2 GB !breath!A2 d2 | B2 GB !breath!A2 d2 | cBAG F2 c2 | A2 A>c A2 z2 | Ldd/c/ BF dBFB |
+Lcc/B/ AF cAFA | LBB/A/ GB AdBA | A(A/G/) c(c/B/) !breath!A A Bc | Ldd/c/ BF dBFB | Lcc/B/ AF cAFA |
+MG>G MA>A MB>B MG>G | MAMA/MA/ MAMA MA2 z2 || e2 e>d c>G c>e | d>e d>c B>F B>d | c>d c>B A>F G>G |
+(FB) (FB) Az/F/ G>A | B>d d>d !breath!d> B F>B | d>B B>B !breath!B2 d>B | d2 d>B .d.d .A.B | (c2>d2 !breath!e2) c>B |
+A2 A>A .A.A.B.c |!breath!d2> (.A2 .B.A.c.e) | d2 (e/d/c/B/) c2 c2 | d2 (e/d/c/B/) c2 F2 | MB2 Md>Md Md2 |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40279
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: Eklundapolska #2
+C: Viksta Lasse (Leonard Larsson)
+S: Dala Spelmanslag
+M: 3/4
+L: 1/16
+F: http://www.v-dalaspelmanslag.se/pdf/vdala026.pdf
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: F
+|: A2c2 c2Ac  a2g2 |  gage fgfc A2B2  \
+|  B2d2 d2^cd b2a2 |  a2ga g4   d4    |
+|  f2ef g2d2  fafd |  fafd e2c2 e2B2  \
+|  B2d2 d2cd  e2d2 |  d2c2 cdcA F2A2  |
+|  c2c2 c2Ac  a2g2 |  gage fgfc A2B2  \
+|  B2d2 d2^cd b2a2 |  a2ga g4   d4    |
+|  f2ef gagf  d2f2 |  cdcA F2A2 c2f2  \
+|  efed c2b2  a2f2 |  efge f8         |
+|: A2Ac fcfc  acac |  A2Ac fcfc acac  \
+|  B2Bd fdfd  bdbd |  B2Bd fdfd bdbd  |
+|  A2Ac fcfc  acac |  F2FA c2f2 a2ag  \
+|  b2ba gagf  efed |1 c2eg f2fc A2F2 :|2 c2eg f6 |]
+S:https://www.folktunefinder.com/tunes/16438
+S:http://www.v-dalaspelmanslag.se/pdf/vdala026.pdf
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Eklunda2v1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Eklunda2v1_F.abc
+% Link Link to PDF
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Lapp-nils' Klarinett-polska
+R:Polska
+O:Sweden
+A:J\"amtland
+Z:Richard Robinson <richard@beulah.demon.co.uk> tradtunes 2001-01-31
+D:Legstulaget
+M:3/4
+K:GDor
+g2 (3^fgf d2 | B2 (3BAG A2- | Ad (3cec (3cec| c>e (3dfd (3dfd|\
+d>c B2- B>G| (3cdc (3BAG ^F>A| G2 G4::
+d>g g2 (3{ga}g^fg| a>^f d2 (3{de}dcd| g2 (5gag^fg a>f| d>e (3c=Bc d>c|
+B2 (3BAG A2- | Ad (3cec (3cec| c>e (3dfd (3dfd|\
+d>c B2- B>G| (3cdc (3BAG ^F>A| G2 G4 :|
+S:https://www.folktunefinder.com/tunes/16388
+S:http://trillian.mit.edu/~jc/music/abc/pols/LappNilsKlarinettPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/LappNilsKlarinettPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/LappNilsKlarinettPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/LappNilsKlarinettPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LappNilsKlarinettPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/LappNilsKlarinettPolska_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

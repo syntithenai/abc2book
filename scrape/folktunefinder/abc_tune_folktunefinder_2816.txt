@@ -1,0 +1,60 @@
+X: 2
+T: Gankino
+T: Kopanica
+R: kopanica, gankino
+O: Bulgaria
+S: Adapted from Deborah Jones, Vancouver Int'l Folk Dance Music Book
+%Q: 1/4=160
+L: 1/16
+M: 11/16
+P: AB.CD.CD.EF.AB.CD.CD
+K: D
+"^A"\
+|:"D"A2[fd][fd] [f2d2][fd] [f2d2][f2d2] \
+| "A7"[af][c'a][bg][af] [ge][fd][ge] "D"[af][ge][f2d2]\
+| "D"A2[fd][fd] [f2d2][fd] [f2d2][f2d2] \
+| "A7"[af][c'a][bg][af] [ge][fd][ge] "D"[af][ge][f2d2] :|
+"^B"\
+|: "D"dAde ~f2e "Bm"dcB2|"E7"c2d2 "A7"~e2d "D"cddA\
+|  "D"dAde ~f2e "Bm"dcB2|"E7"c2d2 "A7"~edc "D"{c}d2d2 :|
+"^C"\
+|:"G"[af][bg][b2g2] [bg][c'a][bg] "D"[a2f][af][fd]\
+| [af][fd]"A7"[ge][ec] "D"[f2d2][ge] [a2f2][af][fd]\
+| "G"[af][bg][b2g2] [bg][c'a][bg] "D"[a2f][af][fd]\
+| [af][fd]"A7"[ge][ec] "D"[f2d2][dA] "ginf"[f2d2]z2 :|
+"^D"\
+|: "D"[af][fd]"A7"[ge][ec] "D"[f2d2][ge] [a2f2][af][fd]\
+| [af][fd]"A7"[ge][ec] "D"[f2d2][dA] [fd][dA][fd][dA]\
+|  "D"[af][fd]"A7"[ge][ec] "D"[f2d2][ge] [a2f2][af][fd]\
+| [af][fd]"A7"[ge][ec] "D"[f2d2][dA] [f2d2]z2 :|
+K: E^g
+"^#"\
+|: "E"[c'a][d'b][b2g2] [af][ge][fd] [g2e2][ge][eB] \
+| [c'a][d'b][b2g2] [af][ge][fd] [g2e2][ge][eB] \
+| [c'a][d'b][b2g2] [c'a][d'b][bg] [c'a][d'b][b2g2]\
+| [c'a][d'b][b2g2] [af][ge][fd] [g2e2][ge][eB] |
+| [c'a][d'b][b2g2] [af][ge][fd] [g2e2][ge][eB] \
+| [c'a][d'b][b2g2] [af][ge][fd] [g2e2][ge][eB] \
+| [c'a][d'b][b2g2] [c'a][d'b][bg] [c'a][d'b][b2g2]\
+| [c'a][d'b][b2g2] [af][ge][fd] [g2e2][g2e2] :|
+K: D
+"^$"\
+|: "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] \
+| [ec][fd]"A7"[g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] \
+| "A7"[ec][fd] [g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] \
+| "E7"edcd "A7"e2d ~e2ed|
+| [ec][fd]"A7"[g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] \
+| [ec][fd]"A7"[g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] \
+| "A7"edcd e2A e2z2:|
+S:https://www.folktunefinder.com/tunes/2816
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Gankino1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Gankino1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Gankino1.abc
+% Rhythm Kopanica, gankino
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Key D
+% Time_signature 11/16
+% Text Has source text
+% Has_accompaniment_chords Has chords

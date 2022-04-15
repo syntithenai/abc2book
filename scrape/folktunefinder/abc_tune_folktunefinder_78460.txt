@@ -1,0 +1,25 @@
+X:19
+T: ES WAR A MOL A MADEL
+N: E0003
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Sage, Maerchen -, Zauber - Lied, Ruebezahl; Gebirgs - Hirten - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2B,2C2D2 | C2B,2B,2
+G,2 | C2B,2C2_E2 | D4z2
+D2 | _E2D2E2F2 | _E2D2D2
+B,2 | CD_E2DCB,2 | C4z2
+S:https://www.folktunefinder.com/tunes/78460
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Sage, maerchen -, zauber - lied, ruebezahl; gebirgs - hirten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

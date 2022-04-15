@@ -1,0 +1,34 @@
+X: 4
+P: Poul Peisen
+R: S\onderhoning
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: "D"A3d "A7"cdec "D"d2A2 \
+| "D"f3f "A7"efge "D"f2d2 \
+| "D"a3a "Em"g3g "D"f2f2 \
+| "A7"efec "D"d2A2 F2A2 |
+| "D"d3d "A7"cdec "D"d2A2 \
+| "D"f3f "A7"efge "D"f2d2 \
+| "D"a3a "Em"g3g "D"f2f2 \
+| "A7"efec "D"d4- d4 :|
+|: "A7"a3g "D"f2f2 f2f2 \
+| "D"fagf f2ef "A7"e4 \
+| "F#7"f3e "Bm"d2d2 d2d2 \
+| "E7"e3d "A"c2Bc "A7"c2A2 |
+| "D"d3d "A7"cdec "D"d2A2 \
+| "D"f3f "A7"efge "D"f2d2 \
+| "D"a3a "Em"g3g "D"f2f2 \
+| "A7"efec "D"d4- d4 :|
+S:https://www.folktunefinder.com/tunes/8524
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Sonderhoning.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Sonderhoning1.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

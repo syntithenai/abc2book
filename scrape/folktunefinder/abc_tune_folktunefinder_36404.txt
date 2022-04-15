@@ -1,0 +1,27 @@
+X:1625
+T:Elterwater Quickstep
+A:North-West
+C:Wm. Irwin
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004da.html
+%%ID:000004da
+K:G
+B/c/|\
+dBG dBG| c2e efg| dBG dBG| FAA A2B/c/|\
+dBG dBG| c2e efg| dBG cAF| G3 G2::\
+g/a/|\
+bag agf| {a}gfe dcB| cde dBG| B3 A2 g/a/| \
+bag agf| {a}gfe dcB| c2e dcB| A3 G2:|
+S:https://www.folktunefinder.com/tunes/36404
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:342
+T: "Liebesprobe "
+N: Z1022
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Romanze, Ballade
+M: 2/4
+L: 1/16
+K: G
+G2 | G2A2_B2c2 | d2g_ed4
+g4_B2c2 | d6
+_e2 | _e2c2g2=fe | d2_B2G4
+B4_e2c2 | _B2A2G2
+g2 | f2d2_e2^c2 | d4z2
+c2 | _B2G2BAF2 | A2G4
+d2 | d2d2d2c_B | dcA2A2
+_Bc | c2c2_e3c | c_BB2G4
+g4B2c2 | d4z2
+_e2 | _e2c2g2fe | d2_B2G2z
+G | c2c2_e2c2 | c_BA2G3
+g | f2d2_e2^c2 | d4z2
+c2 | _B2G2BAF2 | G4z2
+_Bc | d2d2d2c_B | dcA2A2
+cc | c2c2_e2cc | c_BG2G2
+D2 | G2A2_B2c2 | d2g_ed2
+g2 | f2d2_e2^c2 | d6
+c2 | _B2G2BAF2 | A2G4
+S:https://www.folktunefinder.com/tunes/69201
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

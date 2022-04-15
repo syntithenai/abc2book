@@ -1,0 +1,25 @@
+X:1633
+T:Miss MacLeod's (Irish version)
+O:ireland
+R:Reel
+M:4/4
+K:G
+G2 BG dG BG|B2 BA Bc BA|\
+G2 BG dG BG|A2 AG Ac BA|\
+G2 BG dG BG|B2 BA B3 f|\
+gc cB cd ef| ge dB Ac BA:|\
+|:G2 gf ef gd|B2 BA Bc BA| \
+G2 gf ef ge|ag fe dc BA| \
+G2 gf ef gd|B2 BA B3 f| \
+gc cB cd ef|ge dB Ac BA :|
+S:https://www.folktunefinder.com/tunes/42372
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

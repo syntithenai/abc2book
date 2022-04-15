@@ -1,0 +1,30 @@
+X:225
+T:Coloradina (CT 499)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Antonio Garca Garca, "El Cordu", de setenta y tres aos, de Tinu.
+A:Asturies
+O:Tinu
+Z:Cancioneru de Torner 499
+M:2/4
+L:1/8
+Q:1/4=100
+K:Gm
+dd|de dc|BG GG|GG GA|B2 B2-|Bz dd|
+de dc|BG FF|FB AG|G2 G2-|Gz||
+W:Coloradina, en tu tierra
+W:vale la plata barata;
+W:no se cuenta en hora y media
+W:lo que traes a la garganta.
+W:
+S:https://www.folktunefinder.com/tunes/59112
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

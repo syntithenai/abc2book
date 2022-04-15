@@ -1,0 +1,23 @@
+X: 1
+T: Highlander's Jig
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Kerr's 3rd
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+M: 6/8
+L: 1/8
+K: Amix
+|: "A"c2e ece | "D"fdf "A"ecA | c2e "D"efg | "G"BGB "(E7)"B2d \
+|  "A"c2e ece | "D"fdf "A"ecA | cec "G"dBG | "A"ABA A3 :|
+|: "A"{^g}a2f "E"^g2e | "D"fdf "A"ecA | "D"a2f "G"=g2d | BGB "E7"B2^g \
+|  "A"a2f "E"^g2e | "D"fdf "A"ecA | cec "G"dBG | "A"ABA A3 :|
+S:https://www.folktunefinder.com/tunes/14311
+S:http://trillian.mit.edu/~jc/music/abc/jig/HighlandersJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HighlandersJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

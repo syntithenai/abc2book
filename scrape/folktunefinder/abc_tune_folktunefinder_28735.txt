@@ -1,0 +1,24 @@
+X:2455
+T:Cameronian Reel
+R:Reel
+Z:added by Alf Warnock
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+dB|:A2FA DAFA|GE~E2 G2dB|A2FA DAFA|GBAG FDdB|
+AF~F2 AF~F2|GE~E2 G2dB|A2FA DAFA|GBAG FDD2:|
+A|Bddc d2dA|(3Bcd ef gfed|(3cBA eA fAeA|cdef gfed|
+faeg fdeg|faeg fdef|afge fdec|dBAG FDD:|
+S:https://www.folktunefinder.com/tunes/28735
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

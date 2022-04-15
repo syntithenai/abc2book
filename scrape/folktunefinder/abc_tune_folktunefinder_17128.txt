@@ -1,0 +1,30 @@
+X:92
+T:Farewell to Ireland
+M:4/4
+L:1/8
+Z:Zeek <wosikae:sbcglobal.net> 2004-7-17
+K:ADor
+"Am"A,3 C E3 F| "G"GEDB, G,B,DB,|  "Am"A,3 C E3 F| "G"GEDF "Am"EA,A,G,|
+A,3 C E3 F| "G"GEDB, D2 g2| "Am"edeg a2 ba| "G"gedB "Am"BA A2:|
+"Am"a2 ag agef| "G"g2 ga gede| "Am"a2  ag agef| "G"gedB BA A2|
+"Am"agef gage| "G"d3 B GABd| "Am"(3cBA BA (3Bcd ef| "G"gedB BA "Am"A2  :|
+"Am"eABA eABA| "G"d3 B GABd| "Am"eABA eAAa| "G"gedB BA "Am"A2|
+eABA eABA| "G"d3 B GABd| "Am"(3cBA BA "G"(3Bcd ef| gedB BA "Am"A2:|
+K:AMix
+"A"aece aece| "G"gdBd gdBd| "A"aece a3 f| gedB "G"BAAe|
+"A"agef "G"g3 e| dedB GABd| "Am"(3=cBA BA "G"(3Bcd ef| gedB BA "Am"A2 :|
+"A"aece aece| "G"gdBd gdBd| "A"aece a3f| "G"gedB "A"BAAe|
+agef "G"gage| d2dB GABd| "Am"(3=cBA BA "G"(3B^cd ef| gedB BA "Am"A2:||
+S:https://www.folktunefinder.com/tunes/17128
+S:http://trillian.mit.edu/~jc/music/abc/reel/Farewell_to_Ireland_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Farewell_to_Ireland_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Farewell_to_Ireland_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

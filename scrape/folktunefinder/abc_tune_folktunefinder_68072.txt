@@ -1,0 +1,24 @@
+X: 186
+T: Kolo Zita
+O: Croatia
+M: 2/8
+L: 1/16
+Q: 1/4=160
+K: Cdor
+%%MIDI program 1
+%%MIDI bassprog 6
+%%MIDI bassvol 90
+%%MIDI gchord fz
+|:"Bb"F2B2|A2B2| "F"c2d2|e4|"Bb"f2d2|"Bb"e2d2|e2d2|"F"c4:|
+|:"Bb"ffff|ffd2|"F"e2d2|c4|"Bb"e2d2|e2d2|e2d2|"F"c4:|
+S:https://www.folktunefinder.com/tunes/68072
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/8
+% Has_accompaniment_chords Has chords

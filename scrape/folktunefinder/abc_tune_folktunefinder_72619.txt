@@ -1,0 +1,29 @@
+X:162
+T: Von der hohen Alm auf die Niederalm,
+N: D0285
+O: Europa, Mitteleuropa, Deutschland, Bayern
+N: Dreistimmig notiert; Inzipit = Variante zum Lied
+R: Hirten - Lied, Bauern - Lied, Kiltlied, Jodler
+M: 3/4
+L: 1/16
+K: D
+ |  |  | D3E | F2D2B4A3G | G2C2E4
+E2F2 | G2E2c4B4 | A2D2F4
+F2G2 | A2d2f4e3d | c2A2c4
+B2A2G2 | G2E2G2A2B2G2 | F8
+F2G2 | A2d2f4e3d | c2A2c4
+B2A2G2 | G2E2G2A2B2G2 | F8
+A3F | G2e2c2e2G3A | d2f2d2f2d3
+A | c2g2e2g2c3d | d2f2d2f2d3
+d | d2b2^a2b2e3d | d2f2d2f2d3
+d | c2g2e2g2c2e2 | D4z4
+S:https://www.folktunefinder.com/tunes/72619
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Hirten - lied, bauern - lied, kiltlied, jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,16 @@
+X: 1
+T:The Water of Tyne
+M:6/8
+L:1/8
+K:D
+|A|AFFAFE|DDD/2D2E/2F/2|GGFEFA|BBB/2A2 F/2E/2|Ddd/2def/2|DAB/2B2 c/2d/2|
+AFAAF/2E|DDD/2D2|
+% Output from ABC2Win  Version 2.1 i on 3/2/2000
+S:https://www.folktunefinder.com/tunes/75477
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

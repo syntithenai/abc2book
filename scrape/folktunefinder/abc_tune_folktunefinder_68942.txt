@@ -1,0 +1,26 @@
+X:83
+T: WELLE GROSS WUNDER SCHAUEN WILL
+N: Z0083
+O: Europa, Mitteleuropa, Schweiz
+R: Sagen - Lied, Romanze
+M: 3/4
+L: 1/8
+K: C
+G, | CB,C3D | B,^F,G,3
+B, | FGFEC2 | C3D2
+G, | CB,C3D | B,^F,G,3
+B, | FGFEC2 | C3D2
+C | EFG3C | DEF3
+C | ECD2C2 | B,3C2
+S:https://www.folktunefinder.com/tunes/68942
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

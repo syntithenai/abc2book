@@ -1,0 +1,32 @@
+X:2077
+T:Richard Twomey's
+O:ireland
+C:Richard Twomey
+S:irtrad-l, 8/94
+Z:From John Walsh
+Z:Richard Twomey is a fiddler from Seattle. Conor
+Z:Byrnes calls it "Twomey's #9"
+Z:"Y" means "pop the following note"
+Z:You'll have to delete the Y's to get it to play with playabc.
+I:speed 350
+R:reel
+E:7
+M:C|
+K:G
+gedg edBA|GEED ~E3 F|~G3 A ~B3 c|d2 eB dB ~B2|\
+gedg edBA|GEED ~E3 F|~G3 A ~B3 c|dBAc BG ~G2:|
+gBBA ~B2 YgB|B2 YgB YgB~B2|~c3 d ~e3 f|g2 ba ge ~e2|\
+gBBA ~B2 YgB|B2 YgB YgB~B2|~c3 d ~e3 f|gedc BG ~G2:|
+S:https://www.folktunefinder.com/tunes/42602
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Edelweiss
+C: Richard Rodgers
+R: waltz
+M: 3/4
+L: 1/4
+K: Bb
+|: "Bb"D2F | "F7"c3 | "Bb"B2F | "Eb"E3 \
+| "Bb"D2D | DEF | "Cm"G3 | "F7"F3 |
+| "Bb"D2F | "F7"c3 | "Bb"B2F | "Eb"E3 \
+| "Bb"D2F | "F7"FGA | "Bb"B3- | B3 ||
+||"F7"c z/F/ F | AGF | "Bb"D2F | B3 \
+| "Eb"G2B | "C"c2B | "F"A3 | F3 |
+| "Bb"D2F | "F7"c3 | "Bb"B2F | "Eb"E3 \
+| "Bb"D2F | "F7"FGA "Bb"B3 | B3 |]
+S:https://www.folktunefinder.com/tunes/18688
+S:http://trillian.mit.edu/~jc/music/abc/song/Edelweiss_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Edelweiss_Bb.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

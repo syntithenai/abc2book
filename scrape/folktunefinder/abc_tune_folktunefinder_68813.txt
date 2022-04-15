@@ -1,0 +1,26 @@
+X:267
+T: Tanzlied
+N: A0310A
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 133
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: A
+A2 | =G3GA3A | B4B3
+B | B3B=c3c | B4A2
+A2 | =G3GA3A | B4B3
+B | B3B=c3c | B4A4
+A4e4 | d3=cB3B | =c4B3
+B | A3AB3B | E4
+B4 | d3d=c3B | A6
+S:https://www.folktunefinder.com/tunes/68813
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

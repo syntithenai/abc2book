@@ -1,0 +1,33 @@
+X: 22
+T:Jigg,A. HA.023
+M:6/4
+Q:300
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Jigg
+O:England
+A:Hartburn,Northumberland
+N:Two random sharps in MS, but see edited version.
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:D
+F2A2F2 c2A2c2|f2d2g2 e2f2g2|c2A2d2 B2G2c2|d2B4c4||!
+(ef)|g2e2c2 f2d2g2|g2e2a2 g2a2b2|a2g2a2 d2e2f2|g2e4f4||!
+K:F
+zzzz|zzz|zzz||!
+"Edited By CGP"\
+F2A2F2 c2A2c2|f2d2g2 e2f2g2|c2A2d2 =B2G2c2|d2=B4c4||!
+(ef)|g2e2c2 f2d2g2|g2e2a2 g2a2b2|a2g2a2 d2e2f2|g2e4f4|]
+S:https://www.folktunefinder.com/tunes/72271
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:185
+T:The Miller o' Hirn
+C:James Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+(D>E) (FE G/F/E/D/ C<A, ~A,>C | (D>E) (FD (C<A) F<D D2 :|
+(A>G) (F<d) B<G-~G2 | (B>A) (^G<e) c<AA>B | (A>G) (F<d) B>A (GB) A<a f<d~d>B |
+(A>G) (F<d) B<G-~G2 | (B>A) (^G<e) c<AA>c | (3dAB (3cde (3fde (3fga | (3bag (3fed (3cBA (3GF"DC"E |] xx "last" H[F4A4d4] |]
+S:https://www.folktunefinder.com/tunes/19529
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Miller_o_Hirn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Miller_o_Hirn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Miller_o_Hirn_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

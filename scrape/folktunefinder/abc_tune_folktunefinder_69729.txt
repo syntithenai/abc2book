@@ -1,0 +1,31 @@
+X:169
+T: VOEGLEIN IM HAIN
+N: F0305
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung
+M: 3/8
+L: 1/16
+K: G
+ | D2G2A2 | B6
+G2B2c2 | d6
+e2A2B2 | cBcdc2
+d2G2A2 | BABcB2
+d2c2B2 | A2F2D2
+d2c2B2 | A2F2D2
+c2c2c2 | e3dc2
+d2A2B2 | cBcdc2
+e2c2A2 | F6
+D2G2A2 | B6
+G2B2c2 | d6
+d6- | d2D2B2 | G6
+S:https://www.folktunefinder.com/tunes/69729
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

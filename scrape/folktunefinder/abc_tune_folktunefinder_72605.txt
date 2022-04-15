@@ -1,0 +1,29 @@
+X:148
+T: Johannistagslied
+N: D0235
+O: Europa, Mitteleuropa, Deutschland, Harz, St. Andreasberg
+N: moduliert in die Dominanttonart; Sonderzeichen in der Notation
+N: (Glissandi) ; metrisch freie Zeile 262 durch "laut gerufenen" Ton
+N: mit Fermate; Inzipit = Variante zum Lied
+N: Keine Variante zu den beiden folgenden Liedern !! (DVA-Signatur 235c)
+R: Ansinge - Lied
+M: 6/8
+L: 1/8
+K: G
+D | G2GGAB | BAAA2d | B2BAGA | G3z2
+D | G2GGAB | BAAA2d | B2BAGA | G3z2
+B | A2AA2A | AB^cd2
+B | A2AA2A | AB^cd3- | d2zz2
+D | G2BB2d | d3B2d | e2dc2F | A3G2
+D | G2BB2d | d3B2d | e2dc2F | A3G2
+S:https://www.folktunefinder.com/tunes/72605
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ansinge - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

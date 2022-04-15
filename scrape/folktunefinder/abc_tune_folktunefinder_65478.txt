@@ -1,0 +1,42 @@
+X: 111
+T:Goat on the Hill
+% Nottingham Music Database
+S:Neil Campbell (MacBeat), via EF
+P:ABC
+M:6/8
+K:Am
+%%MIDI program 110
+%%MIDI chordprog 68
+%%MIDI bassprog 115
+%%MIDI chordvol 100
+%%MIDI bassvol 110
+P:A
+|:c/2d/2|"Am"eAA c2d|"Am"eag e2d|"Am"eAA "D7"c2d|"G"BGG "Em"Gcd|
+"Am"eAA c2d|"Am"eag e2d|"F"eA"G"A BGG|[1"Am"A3 A2:|[2"Am" A3 A3|
+P:B
+|:"Am"EAA "F"Acc|"G"GBB "Em"Bee|"Am"EAA "D7"ABc|"G"BGG G3|
+"Am"EAA "F"Acc|"G"GBB "Em"Bee|"F"cAA "G"BGG|"Am"A3 A3:|
+P:C
+V:1 descant
+%%MIDI program 74
+|:E/2G/2|AEE A2B|ced c2B|AEE A2B|dBB dAB|
+AEE A2B|ced c2B|AEE GDD|E3 E2:|
+V:2 descant
+%%MIDI program 74
+|:A/2B/2|ccc e2G|AcB A2G|ccc e2G|Gdd BeG|
+ccc e2G|AcB A2G|ccc dBB|c3 c2:|
+V:1
+|:A|Acc cee|Bdd dgg|Acc def|gBB B3|
+Acc cFF|Bdd dBB|AFF GDD|E3 E2:|
+V:2 
+|:A|cee eAA|dGG GBB|cee FGA|Bdd d3|
+cee eAA|dGG GBB|Fcc dBB|c3 c2:|
+S:https://www.folktunefinder.com/tunes/65478
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

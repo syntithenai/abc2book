@@ -1,0 +1,29 @@
+X: 289
+T:Maid Of Lodi,The. JaW.288
+M:6/8
+Q:90
+C:"January 19th, 1836"
+S:James Winder Ms, Lancashire, 1835-41
+R:Air
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:C
+G|c2c e2c|(BA2)z2f|(eg).c (dg).B|c3-c2G|!
+c2c (e/d/)(f/e/d/c/)|BA2z2f|(eg).c (dg)>B|c3-c2||!
+c|B2Gg2B|dc2z2c|B2Gg2B|c3c2(e/f/)|!
+g2g (a/g/f/e/d/c/)|BA2a3|gec dgB|c3-c2e/f/|!
+g2g (a/g/f/e/d/c/)|BA2a3{fga}|gec dgB|c3-c2|]
+S:https://www.folktunefinder.com/tunes/47826
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

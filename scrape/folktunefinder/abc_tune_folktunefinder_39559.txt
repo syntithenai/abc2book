@@ -1,0 +1,32 @@
+X: 4
+T:a ira
+T:1790
+C:Paroles de Ladr
+C:Musique de Bcourt
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+V:1 name=V
+GG/2A/2 GG/2A/2 |GG/2A/2 G2 | G/2A/2B/2c/2 de/2d/2 | cB AA | GG/2A/2 GG/2A/2 |
+GG/2A/2 G2 | G/2A/2B/2c/2 (d/2B/2)e/2c/2 | BA G2 !fine! || Bd/2B/2 (c/2B/2)A/2G/2 | (F/2G/2)(A/2F/2) (G/2D/2)B,/2G,/2 |
+B(d/2B/2) (c/2B/2)A/2G/2 | (F/2A/2)B/2^c/2 !breath!d2 | DD/2E/2 DD/2E/2 | DD/2E/2 D2 | D/2E/2F/2G/2 AB/2A/2 | GF !breath!E2 |
+DD/2E/2 DD/2E/2 | DD/2E/2 !breath!D2 | (D/2E/2)F/2G/2 (A/2F/2)B/2G/2 | (FE)D2 | (d/2c/2)(B/2A/2) ^GG | ^GG A2|
+(c/2B/2)A/2G/2 FF | FF GG | AB cB | (cd) BG | AB cB | (A/2G/2)(F/2E/2) D2 S |]
+V:2 name=G
+DG/2A/2 DG/2A/2 | DG/2A/2 B2 | G/2F/2G/2A/2 BB | AG FF | DG/2A/2 DG/2A/2 | 
+DG/2A/2 B2 | G/2F/2G/2A/2 B/2G/2c/2A/2 | GF G2 || BB c/2B/2A/2G/2 | F/2G/2A/2F/2 D/2D/2B,/2G,/2 |
+BB c/2B/2A/2G/2 | D/2A/2d/2^c/2 d2 | AD/2E/2 AD/2E/2 | AD/2E/2 [A,2D2] | D/2^C/2D/2E/2 FG/2F/2 | ED ^C2 |
+AD/2E/2 AD/2E/2 | AD/2E/2 [A,2D2] | D/2^C/2D/2E/2 F/2D/2G/2E/2 | D^C D2 | z2 =f/2e/2d/2c/2 | BB c2 |
+z2 ^d/2=d/2c/2B/2 | AA B2 | FG AG | AF GB | F^G AB | c^c d/2=c/2B/2A/2 |
+%%begintext
+S:https://www.folktunefinder.com/tunes/39559
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

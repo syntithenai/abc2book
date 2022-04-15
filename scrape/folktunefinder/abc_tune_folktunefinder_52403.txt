@@ -1,0 +1,30 @@
+X:232
+T:Padstow May Song
+N: For Mayday rituals.
+O:Trad
+F:http://trillian.mit.edu/~jc/music/abc/England/tune/PadstowMaySong.abc  2006-05-01 17:51:30 UT
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:2/4
+L:1/8
+K:G
+P: Fast
+D \
+| D2 EF | G2 A2 | G>F GF | G2 DD | EE FF | G2 DB, | A,3 F |
+| ED GA | G2 FD | G>D GB | d2 cB | AB c2 | B2 AF | G4- | G2 z :|
+P: Slow
+M: 3/4
+L: 1/4
+|: D | GGG | G2D | GAB | A2B | EFG | AE A | ABc | BAF | G2 :|
+S:https://www.folktunefinder.com/tunes/52403
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/PadstowMaySong.abc
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

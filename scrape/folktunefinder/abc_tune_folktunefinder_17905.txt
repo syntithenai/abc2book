@@ -1,0 +1,33 @@
+X: 1
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 :|
+|: fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 :|
+S:https://www.folktunefinder.com/tunes/17905
+S:http://trillian.mit.edu/~jc/music/abc/reel/PrinceCharlesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/PrinceCharlesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PrinceCharlesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Robertson/PrinceCharlesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PrinceCharlesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/PrinceCharlesOfEdinburghR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

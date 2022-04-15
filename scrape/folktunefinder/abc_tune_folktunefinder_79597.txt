@@ -1,0 +1,30 @@
+X:493
+T: REIM DICH ODR ICH FRESS DICH
+N: E1749
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Goldberg, Neukirch
+R: Scherz -, Spiel - Lied, Reimspiel
+M: 2/4
+L: 1/8
+K: C
+ | CCG,G, | A,2A,
+A, | B,G,A,B, | C2z2
+CCG,G, | A,2A,
+A, | B,G,A,B, | C2z2
+EEEE | F2F
+F | DDDD | E2E2
+CCCC | D2D
+D | B,G,A,B, | C2z2
+EEEE | F2F
+F | DDDD | E2E2
+CCCC | D2D
+D | B,G,A,B, | C2z2
+S:https://www.folktunefinder.com/tunes/79597
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz -, spiel - lied, reimspiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

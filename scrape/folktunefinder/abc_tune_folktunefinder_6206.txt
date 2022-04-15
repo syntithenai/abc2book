@@ -1,0 +1,29 @@
+X: 2
+P: LeMa'an Achai [Em]
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/4
+K: Em
+|: B \
+| "Em"B ^A B | g f e | "Am"c6- | c4 c \
+| c B A | g f e | "Em"B3- | B2 B |
+| "Em"B ^A B | g f e | "Am"d c B | A3 \
+| "B7"B3 | f2 g | "Em"e3- | ez :|
+|: e/f/\
+| "Em"g2 g | g f e | g2 g | g f e \
+| "Am"a2 a | b2 a | "Em"g3- | g2 e/f/|
+| "Em"g2 g | g f e | g2 g | g f e \
+| "B7"f2 a | g2 {fef}f | "Em"e3- | ez :|
+S:https://www.folktunefinder.com/tunes/6206
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_LeMaanAchai.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/LeMaanAchai.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:126
+T: Die Mutter ist das groesste Glueck auf Erden,
+N: D0192
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Gleiwitz
+N: Sonderzeichen in der Notation; Inzipit = Variante zum Lied
+R: Mutter - Lied
+M: 4/4
+L: 1/16
+K: G
+ |  | d2d2c2 | B6d2g2f2e2B2 | d4c4z2
+c2c2B2 | A6d2d2d2e2d2 | B8z2
+g2g2g2 | e6f2a3gf2e2 | e4d4z2
+g2g2b2 | A4d4f3ed2c2 | B8z2
+S:https://www.folktunefinder.com/tunes/72583
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Mutter - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

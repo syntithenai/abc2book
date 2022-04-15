@@ -1,0 +1,40 @@
+X:3791
+T:Danza (CT 018)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, dictada por Prudencia X. la caona, de 54 aos, de Cabaaquinta, ayuntamiento de Ayer.
+N:Segn la dictadora, pueden tomar parte en esta danza hombres y mujeres.
+N:Se canta por todos los danzadores a la vez.
+O:Cabaaquinta (Ayer)
+A:Asturies
+Z:Cancioneru de Torner 018
+M:6/8
+L:1/8
+Q:3/8=80
+W:Ai! del mio capotillo,
+W:qu'ayer tarde lo moj.
+W:Ea, ea, resalada,
+W:dnde lo tender.
+W:
+W:Si lo tiendo en l'arena
+W:mojadito quedar,
+W:si lo tiendo en l'arena
+W:todo se manchar.
+K:C
+d2 d|
+d3 c2 c|B2 B d2 d|d2 d c2 c|B3 c2 c|c2 c B2 A|G2 G c2 c|c3 B2 A|G6-|G2 z d2 d|
+d3 c2 c|B2 B d2 d|d2 d c2 c|B3 c2 c|c3 B2 A|G2 G c2 c|c2 c B2 A|G6-|G2 z4 ||
+S:https://www.folktunefinder.com/tunes/59980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

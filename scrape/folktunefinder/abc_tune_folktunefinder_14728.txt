@@ -1,0 +1,30 @@
+X: 1
+T: Munster Buttermilk
+T: Behind the Haystack
+D: Boys of the Lough
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+A \
+|: d2e fdB | d2e fdB | AFE E2B | AFE E2B | d2e fdB | d2e fdB | AFD D2B | AFD D2A :|
+|: ~B3 BAF | ABc d2B | AFE E2B | AFE E2A | ~B3 BAF | ABc d2B | AFD D2B | AFD D2f :|
+|: ~g3 fgf | ede fdB | AFE E2B | AFE E2f | ~g3 fgf | ede fdB | AFD D2B | AFD D3  :|
+S:https://www.folktunefinder.com/tunes/14728
+S:http://trillian.mit.edu/~jc/music/abc/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MunsterButtermilk_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/MunsterButtermilk.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MunsterButtermilk_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

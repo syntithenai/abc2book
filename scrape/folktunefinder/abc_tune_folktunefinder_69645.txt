@@ -1,0 +1,25 @@
+X:85
+T: NUR MUSST DU MICH AUCH RECHT VERSTEHN
+N: F0191A
+O: Europa, Mitteleuropa, Deutschland
+N: Strohenvariante zu F0191
+R: Abschieds - Lied
+M: 4/4
+L: 1/8
+K: C
+G,2 | F,3E,E,2C2 | B,3A,A,2A,2 | G,3F,E,2
+D,2 | C2B,2A,3G, | G,3^F,F,2
+A,2 | D2C2B,2zA, | A,3G,G,2
+G,2 | D,3F,E,2G,2 | D,6F,2 | E,6
+S:https://www.folktunefinder.com/tunes/69645
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Fati\vse Kolo (in F)
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%: 2322
+M: 9/16
+L: 1/16
+K: F
+|: "C"C2 "F"A2A A2A2 | "C"GA BAG GA "F"F2 :| \
+|: "C"c2 cBA "A7"GA "Dm"FE | DE "Gm"F2G "A7"E2 "Dm"D2 :|
+|: "C"C2 "F"AGF "C"cB "F"AF | "C"C2 "F"AGF "C"cB "F"A2 \
+|  "C"C2 "F"AGF "C"cB "F"AF | "Gm"GF GAG "A7"FE "Dm"D2 :|
+S:https://www.folktunefinder.com/tunes/12705
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/FatisheKolo_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/FatisheKolo_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

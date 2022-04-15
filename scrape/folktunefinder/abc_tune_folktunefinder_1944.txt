@@ -1,0 +1,32 @@
+X: 7
+T:Quick Step. JMP.007
+M:2/4
+L:1/16
+Q:90
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1..dotted in MS..
+H:1799
+Z:vmp.C. Graebe
+K:A minor
+"key G in MS"e4 | (ed)(cB) c2B2 | (cB)(cd) c2e2 | (dc)(BA) G2a2 |\
+ e4 e2d2 |!
+ e2[e2a2]e3d | (dc)(Bc) A2E2 | (AB)(cd) e2E2 | "1"A4 :|!
+|:(4(AcBA)| GFGA G2(AB) |  (cB)(cd) c2e2 | (dc)(BA) G2a2 |\
+e4 e2d2 |!
+ e2a2e2d2 | (dc)(Bc) A2E2 | (AB)(cd) e2E2 | "1"A4 :|]
+S:https://www.folktunefinder.com/tunes/1944
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

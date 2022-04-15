@@ -1,0 +1,23 @@
+X:28
+T: Eleisonlied
+N: D0029A
+O: Europa, Mitteleuropa, Lothringen, Weiler
+N: Taktart veraendert ( siehe Lied D0029) ; Variante zu Lied D0029
+R: Legenden - Lied
+M: none
+L: 1/32
+K: G
+c4c4c4 | g12=f4d4 | _e4d4c8
+d4 | g8=f4g4d8z4
+d4d3dd3d | g8=f4_e8c4 | _B8
+c4d4_e4 | d8G4c4 | _B2A2G8
+S:https://www.folktunefinder.com/tunes/72485
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Legenden - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

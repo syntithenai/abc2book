@@ -1,0 +1,22 @@
+X: 1
+T: East Side, West Side
+C: James W Blake
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/4
+K: D
+[| "D"a3 | f3 | "A"e3 | "D"d3 | "G"e2d | B2c | "D"d3- | dzd |
+|  "G"d2d | edB | "D"Ad2 | "B7"g2f | "E7"fe2 | e2B | "A7"e3- | ez2 |
+|  "D"f2a | "A7"e2f | "D"df2- | f3 | "G"d2d | edB | "D"d3- | dz2  |
+|  "G"d2d | "E7/G#"edB | "D"Ad2 | "B7"g2f | "E7"fe2 | "A7"B2c | "D"d3- | dz2 |]
+S:https://www.folktunefinder.com/tunes/19893
+S:http://trillian.mit.edu/~jc/music/abc/waltz/EastSideWestSide_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/waltz/EastSideWestSide_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

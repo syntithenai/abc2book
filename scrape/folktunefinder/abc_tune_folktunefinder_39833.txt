@@ -1,0 +1,21 @@
+X:240
+T:The Shingle Maker's Jig
+R:jig
+C:Bruce Osborne - Feb. 2005
+Z:abc by bosborne@kos.net
+M:6/8
+L:1/8
+K:Dmaj
+D|FEF DFA|BAF A2 d|cde fec|edB A2 D|\
+FEF DFA|BAF A2 d|cde fec|edc d2:|
+|:f|aff dAA|FDE F2 d|cAA eAA|fAA e2 f|\
+aff dAA|FDE F2 d|cAA eAA|fec d2:|
+S:https://www.folktunefinder.com/tunes/39833
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

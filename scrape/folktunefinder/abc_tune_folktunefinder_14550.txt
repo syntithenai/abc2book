@@ -1,0 +1,29 @@
+X: 1
+T: Little Pickle
+C: Joseph Lowe
+B: Lowe's 4th Collection
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+S: Handwritten MS from Barbara McOwen (set for Blue Bonnets)
+R: jig
+M: 6/8
+L: 1/8
+K: A
+E |: "A"A3 cBA | EAB cBA | "Bm"dcB fdB | "E7"bge efg \
+  |  "A"a3 cBA | EAB cBA | "D"dcd "E7"efg | "A"aec A2 :|
+B |: "A"A2a aga | Ace edc | "G"B2=g gfg | B=GB dcB \
+  |  "A"A2a aga | Ace edc | "D"dcd "E7"efg | "A"aec A2 :|
+S:https://www.folktunefinder.com/tunes/14550
+S:http://trillian.mit.edu/~jc/music/abc/jig/LittlePickleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LittlePickleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LittlePickleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LittlePickleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LittlePickleJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

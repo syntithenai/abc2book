@@ -1,0 +1,26 @@
+X:48
+T: STOLZ SYBURG WOLLTE FREIEN GEHN
+N: E0040A
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: erzaehlendes Volks - Lied, Ritter - Sage
+M: 2/4
+L: 1/16
+K: A
+E2 | A3B=c2B2 | A2G2A2
+B2 | =c3de2d2 | =c4z2
+c2 | B3=cd2B2 | =c2e2e4
+A3cB2A2 | G2F2E2
+B2 | =c2c2B2B2 | =c3de2
+d2 | =c2A2B3B | A4z2
+S:https://www.folktunefinder.com/tunes/78489
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

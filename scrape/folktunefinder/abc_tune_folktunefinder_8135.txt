@@ -1,0 +1,30 @@
+X: 25
+P: Klezmer mazurka
+O: all of Eastern Europe
+R: mazurka
+M: 3/4
+L: 1/8
+K: Dm
+"A"
+|: "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"D>^C DE FG \
+|  "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"Dz "fine"D4 :|
+"B"
+|: "Dm"~F2 GF ED | "A7"D2 ^C4 | A>B AG FE | "Dm"D>^C DE FG \
+|   "Dm"~F2 GF ED | "Gdim"^C2 B4 | "A7"A>B AG FE | "Dm"Dz D4 :|
+"A"
+[| "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"D>^C DE FG \
+|  "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"Dz D4 |]
+"C"
+|: "F"[AF]>[BG] [=B^G][cA] [d_B][cA] | [A2F2] [F4C4] \
+| "C7"[ec]>[dB] [B2G2] [B2G2] | "F"[dB]>[cA] [A4F4] \
+| "F"[AF]>[BG] [=B^G][cA] [d_B][cA] | [A2F2] [f4A4] \
+| "C7"[ec]>[dB] [cA][BG] [AF][GE] |1 "F"[FF]z [F4F4] :|2 "F"[FF]z "A7"[G4E4] |]
+S:https://www.folktunefinder.com/tunes/8135
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

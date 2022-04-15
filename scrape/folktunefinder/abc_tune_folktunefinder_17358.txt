@@ -1,0 +1,29 @@
+X: 2
+T: Hogtie's Reel
+C: Phil Cunningham
+R: Reel
+S: Francis Lynne
+H:
+N:
+D: Milltown Session
+Z: Adrian Scahill
+M: 4/4
+L: 1/8
+K: G
+edeg A2gf | edef g2fg | edeg A2ag | egdB BAA2 |
+edeg A2gf | edef g2fg | eage degd | egdB BAA2 :|
+aAA2 a2ge | dBde g2fg | aAA2 a2ge | dBeg BAA2 |
+aAA2 a2ge | dBde g2fg | eage degd | egdB BAA2 :|
+S:https://www.folktunefinder.com/tunes/17358
+S:http://trillian.mit.edu/~jc/music/abc/reel/HogtiesReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HogtiesReel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HogtiesReel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

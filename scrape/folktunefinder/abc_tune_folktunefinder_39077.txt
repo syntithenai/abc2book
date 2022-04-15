@@ -1,0 +1,35 @@
+X:17706
+T:Tr\ae{}dballehus polka
+R:Polka
+O:Denmark
+M:4/4
+L:1/16
+C:Frederik Iverson
+K:A
+ed|\
+ccec ddfd ccec AAcA | BBBG EGBd f2e2 e2fe |\
+ccec ddfd ccec AAcA |
+BBBG EGBc A8 :| \
+K:E
+|:B3B G2B2 edef e4 | ff2e d2f2 f2e2 e4 |
+B3B G2B2 edef e4 | f2e2 d2f2 (3fgfe2 e2 :|\
+K:A
+d2 |\
+ccec ddfd ccec AAcA |
+BBBG EGBd f2e2 e2ed |\
+ccec ddfd ccec AAcA | BBBG EGBc A2=G2 F2E2 ||
+K:D
+DFAd fdAF G2E2 e3d | cdef gecA defg a4 |
+DFAd fdAF G2E2 e3d | cdef gecA d4 :|**
+S:https://www.folktunefinder.com/tunes/39077
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

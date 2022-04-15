@@ -1,0 +1,30 @@
+X:485
+T:Les Stires (CT 301)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Cuna (Aada), dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+N:Se conoce con el nombre de "Les Stires", y se supone que la canta una mujer mientras adormece a su hijo, la cual, celosa de su marido, zahiere con esta cancin a una vecina por suponerla sosteniendo relaciones ilcitas con alquel.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 301
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+|ddd e2 c|d3 d3|eed cBA|G3 GFG|(c2 (3d/c/B/) A3-|A3 Adc|
+{A}(B2(3c/B/A/) G3|AAc cBA|G6-|G2 z BAG|A6|
+Add dee|(d2 (3e/d/c/ B2 c/4B/4A/4G/4|A) A2-A3|Add cBA|G6-|G2 z4 :||
+S:https://www.folktunefinder.com/tunes/59372
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

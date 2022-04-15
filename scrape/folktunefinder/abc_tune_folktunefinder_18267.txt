@@ -1,0 +1,51 @@
+X: 18
+T:Up Jumped The Devil
+S:Nottingham Music Database
+C:
+M:4/4
+L:1/4
+K:A
+e|\
+"A"ee/2e/2ff|\
+aafe|\
+"A"eafe|\
+"E7"g3e|\
+e/2g/2b/2e/2g/2b/2e/2g/2|\
+"E7"b/2e/2g/2b/2ge|\
+g/2f/2e/2g/2f/2e/2f/2c/2|\
+"A"e3e|\
+e/2c/2e/2c/2f/2c/2f/2c/2|\
+a/2c/2a/2c/2fe|\
+"A"eaea|\
+"D"f3a|\
+"D"a3/2b/2af|\
+"A"e3/2f/2ee/2f/2|\
+"E7"g/2f/2e/2d/2c/2A/2B|\
+"A"A2-A2||\
+"A"EA/2A/2EA/2A/2|\
+"D"FA/2A/2"A"EE|\
+EA/2A/2EE|\
+"E7"Be2e|\
+B/2B/2e/2e/2B/2e/2B/2B/2|\
+"E7"e/2B/2B/2e/2ef|\
+g/2f/2e/2g/2f/2e/2d/2B/2|\
+"A"A/2B/2A/2F/2"E7"EE|\
+"A"EA/2A/2EA/2A/2|\
+"D"FA/2A/2"A"EE|\
+EA/2A/2EA/2A/2|\
+"D"FF2a|\
+"D"a3/2b/2af|\
+"A"e3/2f/2ee/2f/2|\
+"E7"g/2f/2e/2d/2c/2A/2B|\
+"A"A2-A2||\
+S:https://www.folktunefinder.com/tunes/18267
+S:http://trillian.mit.edu/~jc/music/abc/reel/UpJumpedTheDevil.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/UpJumpedTheDevil.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/UpJumpedTheDevil.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X: 1
+T: Walpole Cottage
+C: Pat Shaw
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+P: N*(I A B C)  I
+K: C
+"A"\
+|: G/F/ \
+| "C"EGEG | EGc>B | "F"A>cBA | "C"G3G | "F"A>cBA | "C"Gceg | "Dm"gf2e | "G7"d3G/F/ |
+| "C"EGEG | EGc>B | "F"A>cBA | "C"G3G | "F"A>cBA | "C"Gceg | "C"ec"G7"dB | "C"c3E ||
+"B"\
+|| "Am"A>BcBA | "E7"Be2d | "Am"cA"E7"B^G | "Am"A3A | "G"B>cdc | BG"Am"Ac | "G"BG"D7"A^F | "G"G3G |
+| "F"A>BcB/A/ | "C"GE2G | "F"A>Bcd | "E7"e3d | "Am"c>ded/c/ | "G"dg"C"ec | "G"BG"D7"A^F | "G"G2g>f ||
+"C"\
+|| "C"e>dec | "G7"dBGA/B/ | "Am"c>BcA | "Em"G3G | "F"A>GAF | "C"EGcd | egfe | "G7"d3G |
+| "C"e>dec | "G7"dBGA/B/ | "Am"c>BcA | "Em"G3G | "F"ABcA "C"Gceg | "C"ec"G7"dB | "C"c3e ||
+"I"\
+|| "Dm"d>efe | dcBA |["1-N" "G"Gz"D7"dz | "G"gzz :|["Coda""G7"GzBz | "C"c"fine"z2 |]
+S:https://www.folktunefinder.com/tunes/4176
+S:http://trillian.mit.edu/~jc/music/abc/England/WalpoleCottage.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/WalpoleCottage.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/WalpoleCottage_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/WalpoleCottage_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/WalpoleCottage_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/WalpoleCottage_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/WalpoleCottage.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

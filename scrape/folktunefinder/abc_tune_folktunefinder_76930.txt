@@ -1,0 +1,26 @@
+X: 755
+T: The Templehouse Jig
+M:6/8
+L:1/8
+B:O'Neill's 755
+R:Jig
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+N:"1st Setting" "Collected by F. O'Neill"
+K:Em
+       EFE G2 A | B2 F G2 E | DED F2 D | A2 D F2 D |
+       EFE G2 A | B2 F G2 A | BcB AGF  | BGE  E2  :|
+|: f | (g2 f) (e2 f) | (g2 f) (e2 g) | faf d2 f | faf d2 f
+|1 g2 f e2 f | g2 f e2 d | BcB AGF | BGE E2 :|
+|2 b2 g a2 f | g2 e f2 d | BcB AGF | BGE E2 |]
+S:https://www.folktunefinder.com/tunes/76930
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0732-0758_bs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

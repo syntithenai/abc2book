@@ -1,0 +1,63 @@
+X: 1
+T: Alte Kameraden
+T: Old Comrades March
+C: C. Teike
+M: C|
+L: 1/8
+K: D
+| "D"[d2AF] z A^GAd | [f2dA] z dcdf \
+| "A7"[a2ec] [ae2c][ae2c] [a2ec] [a2ec] | [a2ecA] G2 F2 E2 \
+|: "D"[f2dA] z2 [f2dA] z2 | [f2dA] z2 f^efg \
+| [d2fa] z2 [d2fa] z2 | [d2fa] z2 a^gac' \
+| [f2d'] z2 [f2c'] z2 | [f2b] za ^g2 za |
+| "A7"[g8ac']- | [g2ac'] z2 z4 \
+|| "A7"[e2cG] z2 [e2cG] z2 | [e2cG] z2 e^def \
+| [c2eg] z2 [c2eg] z2 | [c2eg] z2 gfga \
+| [g2c'] z2 [g2b] z2 | [c2a] ze ^d2 ze \
+| "D"[A8df]- | [A2df] C2 B,2 A,2 \
+|| "D"[A2df] z2 [A2df] z2 | [A2df] z2 f^efg |
+| [d2fa] z2 [d2fa] z2 | [d2fa] z2 a^gac' \
+| [f2d'] z2 [f2c'] z2 | [f2b] za f2 zd \
+| "A7"[c8e]- | [c2e] z2 z4 \
+|| "E7"{e^gb}e'2 z e^de^g | [^g2b] z2 [e2g] \
+| "A"{eac'}e'2 z2 e^dea | [e2c'] z2 [c2a] z2 |
+| "E7"e^de^e fefg | ^g2 z2 [g2e'] z2 \
+|1 "A"[c8ea]- | [c2ea] G2 F2 E2 :|2 "A"[c8ea]- | [c2ea] z2 A3 A :| \
+|: "A7"A4 G4 | F4 E4 | ^D2 zE F2 zE | A2 z2 A3 A | "D"A4 F4 |
+| E4 D4 | C2 zD E2 zD | A2 z2 A3 A \
+| "A7"[e2G] z2 [A4G]- | [A2G] z2 A3 A \
+| "D"[A2df] z2 [A4F]- | [A2F] z2 A3 A \
+| "A7"A^GAB c^Bcd | e^def gfg^g | [c2a] AB c2 B2 |
+| A2 G2 F2 E2 | "D"dcdz dcdz | dcdz dcde \
+| "A7"d2 [Gc][Gc] [c2G] [c2G] | [c4G] z7 \
+| "A7"B^ABz B^ABz | B^ABz B^ABc | "D"B2 [AF][AF] [A2F] [A2F] |
+| [A2F] ^GA "A7"^AB^Bc | "D"dcdz dcdz | dcdz dcd^d | "G"e2 [BG][BG] [B2G] [B2G] \
+| [B4G] z4 | B^ABz Bcde | "D"fAdf a4 | "A7"gfgz cBcz |
+|1 "D"[A2df] z2 z4 :|2 "D"[A2df] z2 d^def |] [K:G] \
+| "G"[g2dB] z2 z4 | "TRIO"z4 D3 D |: "G"D4 E4 | F4 G4 \
+| ([G8B] | [G2B]) z2 A3 A | G2 B,2 ^A,2 B,2 | E4 D4 \
+| "D7"[F8C]- | [F2C] z2 D3 D |
+| D4 E4 | F4 G4 | ([C8A] | [A2C]) z2 G3 G | F2 A,2 ^G,2 A,2 \
+| E4 D4 | "G"B,2 G2 F2 E2 | D2 C2 [B3d] [Bd] \
+| [B4d] [B4e] | [B4df] [B4dg] | ([B8dgb] | [B2dgb]) z2 [B3dgb] [Bdgb] \
+| [B2dgb] [B2dg] [B2df] [B2dg] | "G7"[B4_fa] [B4_fg] |
+| "C"([c4e] | [c2e]) z2 [c3e]_e | "D7"([F8cd] | [F2cd]) f2 a2 e'2 \
+| "G"([g4bd'] | [g2bd']) b2 g2 e2 | "D7"d2 c2 d2 f2 | [d4fb] [c4fa] \
+|1 "G"([B8dg] | [B2dg]) z2 D3 C:|2 "F"([A8cf] | [A2cf]) cc c2 c2 \
+|: "D7"[d2fc'] z2 [d2fc'] z2 | [d2fc'] z2 [d2fc'] z2 |
+| [d6fc'] f2 | [d6fa] z2 | "G"[d2gb] z2 [d2gb] z2 | [d2gb] z2 [d2gb] z2 | [d6gb] d2 | [B6dg] z2 \
+| "D7"D3 E F3 G | A3 B c3 g | f6 e2 | c2 A2 F2 E2 | "G"D3 F G3 A | B3 F G3 e |
+| d6 c2 | f2 d2 B2 G2 | "D7"[d2fc'] z2 [d2fc'] z2 | [d2fc'] z2 [d2fc'] z2 \
+| [d6fc'] f2 | [d6fa] z2 | "G"[d2gb] z2 [d2gb] z2 | [d2gb] z2 [d2gb] z2 | [d6gb] d2 | [B6dg] z2 |
+| "C"e3 ^g a3 b | c'3 ^g a3 e' | "G"d'2 zb b2 zb | b2 (3gag f2 e2 | "D7"d4 [c4^d] | [c4e] [c4f] \
+|1 "G"([B8dg] | [B2dg]) dd d2 d2 :|2 "G"([B8dg] | [B2dg]) z2 [B2dg] z2 |]
+S:https://www.folktunefinder.com/tunes/4712
+S:http://trillian.mit.edu/~jc/music/abc/Germany/AlteKameraden_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/AlteKameraden_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/march/AlteKameraden_D.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

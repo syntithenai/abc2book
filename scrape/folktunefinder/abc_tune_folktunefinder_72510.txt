@@ -1,0 +1,31 @@
+X:53
+T: Dreikoenigslied
+N: D0057
+O: Europa, Mitteleuropa, Lothringen, Hambach
+N: Achttonskala (Ionisch mit Modulation in die Dominanttonart)
+N: Verzierungen; Inzipit = Variante zum Lied
+R:  Brauchtums - Lied, Dreikoenigs - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | GFE2F2G2 | A3BA2
+FD | G2G2c2B2 | A4z2
+D2 | GFE2F2G2 | A3BA2
+FD | G2G2c2B2 | A4z2
+FG | A3BAGFE | D3^CD2
+D2 | G3AG2F2 | E4D2
+D2 | GFE2F2G2 | A3BG2
+c2 | B2B2AGA2 | G4z2
+S:https://www.folktunefinder.com/tunes/72510
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Brauchtums - lied, dreikoenigs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

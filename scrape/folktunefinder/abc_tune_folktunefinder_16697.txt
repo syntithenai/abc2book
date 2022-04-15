@@ -1,0 +1,36 @@
+X: 1
+T: Alasdair's Reel [A]
+T: Tinker Tyke
+C: James Gray
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+N: Notes from Margaret Lambourne:
+N: James is Alex Gray's son and a fantastic pianist and composer. Alasdair is
+N: his brother. The dance is to be found in The Tweeddale Collection volume 2
+N: devised by Alex. Alex will be the new RSCDS chairman in 2008.
+S: Printed page from Margaret Lambourne, with "Tinker Tyke" at the upper left
+M: C|
+L: 1/8
+K: A
+[| "A"a2a2 ABcA | "E7"Bcde fefg \
+|  "A"a2a2 ABcA | "E7"BcdB "A"A2ef/g/ |
+|  "A"a2a2 "F#m"ABcA | "Bm"Bcde "E7"fefg \
+|  "A"a2a2 "F#m"ABcA | "E7"BcdB "A"A2e2 |]
+[| "A"a2a2 ac'ba | "E7"gfga b2e2 \
+|  "A"a2a2 "F#m"ac'ba | "Bm"gfga "E7"bgfe |
+|  "D"dfed "A"cedc | "Bm"BABc "E7"defg \
+|  "A"a2a2 "F#m"ABcA | "E7"BcdB "A"A4 |]
+S:https://www.folktunefinder.com/tunes/16697
+S:http://trillian.mit.edu/~jc/music/abc/reel/AlasdairsReel_A4_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AlasdairsReel_A4_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AlasdairsReel_A4_16.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

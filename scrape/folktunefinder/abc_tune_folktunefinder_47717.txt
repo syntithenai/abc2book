@@ -1,0 +1,34 @@
+X: 180
+T:Through The Wood Laddie,Old Way. JaW.179
+M:3/4
+Q:90
+C:"..an ould way of playing it"
+S:James Winder Ms, Lancashire, 1835-41
+R:Air
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+FC|D2F2G2|A4(fe)|d2(fd)(cA)|G4(FG)|!
+A3B AG|A2F2FG|AGABAG|A2F2C2|!
+D2F2G2|A4(fg)|(ag)(fd)(cA)|G4(Bc)|!
+d2fdcA|c2dcBA|B2D2E2|F4:|!
+|:(fe)|d2f2g2|a4(fg)|a2bagf|g4fg|!
+a3b ag|a2f2(fg)|agabag|a2f2c2|!
+d2f2g2|a4(fg)|agfdcA|G4Bc|!
+d2fdcA|c2dcBA|B2D2E2|F4:|]
+S:https://www.folktunefinder.com/tunes/47717
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

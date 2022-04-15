@@ -1,0 +1,22 @@
+X: 219
+T:North Skelton 2, v 2
+% Nottingham Music Database
+S:Trad, via EF
+M:6/8
+K:G
+"G"ded gdB|"D7"c2B A2F|"G"G2A B2c|"D7"d3 A3|"G"ded gbg|
+"C"f2e c2e|"G"ded "D7"e2f|"G"g3 G3|"G"BAB Bcd|"C"e3 E3|"D7"ABA ABc|
+"G"d3 "D7"D3|ded bgd|"C"f2e c2e|"G"ded "D7"e2f|"G"g3 G3||
+S:https://www.folktunefinder.com/tunes/65307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

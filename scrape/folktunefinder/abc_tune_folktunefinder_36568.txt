@@ -1,0 +1,42 @@
+X:2445
+T:Hoppvals
+A:Jmtland
+C:e. Kristian Oskarsson
+L:1/16
+M:2/4
+N:the ornament in bar 2 is a trill
+O:Sweden
+R:Polka
+R:Polkett
+R:Snoa
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b24.html
+%%ID:00000b24
+K:D
+FG |\
+A2BA A2[G2(B2] | "tr"[B2)G2][FA][FA] [F2A2][F2A2] | \
+D2FA fed2 | e2ee e2e2 |\
+[A,3E3][A,E] [A,2E2][A,2E2] | [A,3A3][A,A] [A,2A2][A,2A2] | \
+c2Ac e2A2 | [D6d6] :|
+|: ef |\
+g2ag f2d2 | f2af e2Ac | e2Ac e2c2 | g2ag fed2 |\
+f2(3gfe f2de | f2af e2e[fd] | [c2e2]Ac e2A2 | [D6d6] :|
+DE|\
+F2GF F2(G2 | G2)FF F2F2 | D2FA dcB2 | A2AA A2A2 |\
+[A3E3][AE] [A2E2][A2E2] | [A3E3][AE] [A2E2][A2E2] |\
+A2AG [F2A2][A2E2] | [A6F6] :|
+|: A2|\
+e2fe d2A2 | d2fd c2EA | c2EA c2A2 | e2fe dBA2 |\
+d2(3edc d2A2 | d2fd c2B2 | A2EA c2A2 | [F6A6] :|
+S:https://www.folktunefinder.com/tunes/36568
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Rhythm Snoa
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

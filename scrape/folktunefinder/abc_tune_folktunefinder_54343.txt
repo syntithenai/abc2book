@@ -1,0 +1,29 @@
+X: 360
+T: Vrni Se Vrni
+O: Macedonia
+Z: Deborah Jones
+M: 2/4
+L: 1/16
+Q: 1/4=120
+K: A
+|:"A" abba gabg          |"F#m" a2ag fgaf       |\
+  "C#m" g2gf efge        | "E7"f2ed cdez        |
+  "E7" B2 e4 d2          |c3B BABc              |\
+  "A" A2z2 "E7" edcB     |[1 "A" Az cd efga     :|[2 "A" A2 AE A2 z2|
+L: 1/8
+  "A" [A,C] [A,2C2] [A,D]|"D" [DF] [D2F2] [DF]  |\
+  "A" [CE][^B^D] [C2E2]  |[CE] [C2F2][CG]       |
+  "E7" [D2A2][D2B2]      |"A" [C4-A4-]          |\
+  [C4A4]                 |:"D" [DA] [D2B2] [DA] |
+  [D2G2][D2F2]           |"A" [CE][C2E2][B,D]   |\
+  [A,2C2] [A,B,]A,       |"E7"[G,B,][G,2E2][G,D]|\
+  [G,2C2][G,2B,2]        |"A" A,4-              |A,4                :|
+S:https://www.folktunefinder.com/tunes/54343
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

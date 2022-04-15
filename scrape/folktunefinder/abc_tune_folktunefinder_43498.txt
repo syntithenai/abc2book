@@ -1,0 +1,24 @@
+X: 43
+T:On The Road To Boston
+% Nottingham Music Database
+S:via PR
+M:2/4
+L:1/4
+K:D
+A/2|"D"f f/2e/4f/4|"G"g/2f/2 e/2d/2|"A7"c/2d/2 e/2f/2|"D"d/2A/2 F/2A/2|\
+"D"f f/2e/4f/4|"G"g/2f/2 e/2d/2|"A7"c/2d/2 e/2f/2|"D"d d/2::
+f/4g/4|"D"a a/2g/4a/4|"G"b/2a/2 g/2f/2|"A7"g g/2f/4g/4|"D"a/2g/2 f/2e/2|\
+"D""(Bm)"f f/2e/4f/4|"G""(Em)"g/2f/2 e/2d/2|"A7"c/2d/2 e/2f/2|"D"d d/2:|
+S:https://www.folktunefinder.com/tunes/43498
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsA-C.txt
+S:http://www.guitarnut.com/nmd/reelsA-C.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:6606
+T:The Cape Breton Fiddler's Welcome to the Shetland Isles.
+O:england
+R:Reel
+C:W. Hunter (1982)
+N:Play AABBAABB', where B' is B with the coda
+A:Cape Breton
+B:Sandy Macintyre's lesson book
+M:4/4
+K:A
+AF |: E>C C/C/C ~C2 B,C | A,B,CE ~FECE | F>B B/B/B BcBA |
+Bffe f2fg | a>c c/c/c e>A A/A/A | cBAF E>C C/C/C |
+FGAF Eaaf |1 ecBc A2AF :|2 ecBc A2fg |
+|: a>e e/e/e efed | c>e e/e/e fece | b>f f/f/f fgfe |
+defd B2"Last time to Coda []" fg | a>e e/e/e efed | c>e e/e/e fece |1
+fdge afed | cdBc A2fg :|2 fdec dBcA | Bagf eAGF |
+"[] Coda"ed | cdBc ABGA | FGEF DECD | B,CDE F^ABc | defg a4 ||
+S:https://www.folktunefinder.com/tunes/27058
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

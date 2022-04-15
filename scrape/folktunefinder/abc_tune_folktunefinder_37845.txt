@@ -1,0 +1,30 @@
+X:16474
+T:The Big One
+R:polka
+C:Composed by Gavin Atkin
+S:Copyright Gavin Atkin 1997
+M:2/4
+L:1/8
+Q:150
+K:D
+de |: "D" .f2 .f.d | "A" ec .A2 | "Bm" Bd "A" ce | "G" Bd "F^m7" ce | 
+"D" .f2 fd | "A" ec .A2 | "Bm" Bd "A" ce | "G" .d2 "D" de |
+"D" .f2 .f.d | "A" ec .A2 | "Bm" Bd "A" ce | "G" Bd "F^m7" ce | 
+"D" .f2 fd | "A" ec .A2 | "Bm" Bd "A" ce| "G" .d2 "D" de |
+| "D" .f2 .f.d | "A" .e2 ec | "A" .e2 "E7" ^g2 | "A" aAde | 
+"D" .f2 .f.d .| "A" e2 "E7" e^g | "Bm" .bb "A" a>.b | "G" a=g "A7" fe |
+"D" .f2 .f.d | "A" .e2 ec | "A" e2 "E7" ^g2 | "A" .aAde | 
+"D" .f2 .f.d | "A" .e2 "E7" e^g | "Bm" .bb "A" a>.b | "G" a=g "A7" fe :|
+% Output from ABC2Win  Version 2.1 f on 15/08/98
+S:https://www.folktunefinder.com/tunes/37845
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

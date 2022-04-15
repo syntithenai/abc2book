@@ -1,0 +1,25 @@
+X: 1
+T: the MacDonalds of Portree
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: AB \
+|| "D"defe d2A2 | "G"BABd "A7"A2de | "D"fgfe "Bm"dAaf | "Em"f2e2 "A7"e2AB |
+|  "D"defe d2A2 | "G"BABd "A7"A2de | "D"f2af "A7"eAef | "D"d6 :|
+|: fg \
+|| "D"a2a2 fade | "A7"feAe "D"f2fg | "D"a2a2 "Bm"fdaf | "Em"f2e2 "A7"e2fg |
+|  "D"a2a2 fade | "A7"feAe e2de    | "D"f2af "A7"eAef | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/15551
+S:http://trillian.mit.edu/~jc/music/abc/march/MacDonaldsOfPortree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MacDonaldsOfPortree.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MacDonaldsOfPortree.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

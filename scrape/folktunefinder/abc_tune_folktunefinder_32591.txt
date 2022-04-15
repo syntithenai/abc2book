@@ -1,0 +1,23 @@
+X: 2130
+T:Daichovo horo
+O:Bulgaria
+M:9/8
+Q:1/8=240
+K:ADor
+e d e ~d3/2|d c/d/ e ~c3/2|\
+c B/c/ d ~B3/2|G A ~A A3/2:|
+|:F/G/ A/D/ F/G/ ~AG/| \
+A/B/ c/B/ c/d/ ~BG/|\
+F/G/ A/D/ F/G/ ~AG/|\
+c c/B/ ~B/A/ A3/2:|
+S:https://www.folktunefinder.com/tunes/32591
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

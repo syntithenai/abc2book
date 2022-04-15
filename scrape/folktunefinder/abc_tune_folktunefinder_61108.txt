@@ -1,0 +1,35 @@
+X:9075
+T:La Soberana (CT 199)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Pedro Menndez, "El Manjoyu", de treinta y nueve aos, de San Esteban de Las Cruces, ayuntamiento de Uviu.
+O:San Esteban de Las Cruces (Uviu)
+A:Asturies
+Z:Cancioneru de Torner 199
+M:Llibre
+L:1/8
+Q:1/4=63
+W:La Soberana!
+W:La que va por la pradera,
+W:cmo ximielga la saya.
+W:La Soberana!
+W:y si yo fuera con ella
+W:mucho ms la ximielgaba.
+K:G
+z/ B/ (B>B) c/ (B/-(3B/4c/4B/4 A) z/ A/ (d-d/4c/4d/(c/4d/4c/4B/4A/4B/4) B2 
+z/ B/ (B>B) c/ (B/-(3B/4c/4B/4 A) z/ Ad cB (A>A) B/ (A-(6A/4B/4A/4G/4F/4G/4) G2 z2 :||
+S:https://www.folktunefinder.com/tunes/61108
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

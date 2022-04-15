@@ -1,0 +1,26 @@
+X:144
+T:AIR XXI. Tweed-side.
+O:england
+B:Joseph Mitchell: "The Highland Fair" (1731)
+M:3/4
+L:1/8
+K:G
+BA   |G2    D2    (E>F)|G3      A    G/A/B|TA4
+B>A  |G2    D2    (E>F)|G3      A    G/A/B| G4
+B>A  |G2    D2     E>F |G3      A    G/A/B|TA4
+(G>A) |B2   (dB)   (A>G)|A/B/c  B2   (AG)  | G6|\
+B2   (B/c/d) cB  |AG     e2    c>B  |TA4
+(B>c) |B/c/d c>B   (A>G)|F2    (G>A) (Bc)  | d4
+e/f/g|d2   (c>B)  (A>G)|c/d/e (d>c) (B>c) |TA4
+(G>A) |B2   (dB)   (AG) |A2    (AE)  (FD)  | G4|]
+S:https://www.folktunefinder.com/tunes/20593
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

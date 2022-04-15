@@ -1,0 +1,27 @@
+X:569
+T:Oigo sonar una gaita
+R:Pasudoble
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:2/4
+L:1/8
+Q:1/4=122
+K:C
+|: G3 F|ED EF|G2 G2|A3 G|FE DF|E4-|E4 :|
+|: F3 G|AG FG|A2 A2|B3 c|BA GF|G2 G2|
+|A3 B|AG FE|F2 F2|G3 A|BA GF|[1 E2 E2 :|[2 E2 E2-|E4|
+S:https://www.folktunefinder.com/tunes/59456
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Pasudoble
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

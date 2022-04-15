@@ -1,0 +1,27 @@
+X:131
+T: Haerzke, menj Haerzken, do faer iwerm Rech,
+N: D0198
+O: Europa, Suedosteuropa, Rumaenien, Siebenbuergen
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+ |  |  |  | d2B3c | B2A2z
+G | B2c2e2 | d4
+fg | a2g3e | g2d4
+c2A2c2 | B4
+fg | a2g3e | g2d4
+c2b2a2 | g6
+S:https://www.folktunefinder.com/tunes/72588
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

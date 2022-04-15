@@ -1,0 +1,25 @@
+X:0
+T:The Gloomy Night is Gathering Fast
+T:Hughie Graham
+T:Druimonn dubh (The Black Cow)
+S:G.F. Graham, The Popular Songs and Melodies of Scotland
+G:song: a Gaelic lament, later a nonsense song, later used by Burns
+M:3/4
+L:1/8
+Q:1/4=72
+K:F#Min
+% dorian/minor hexatonic
+FG|A4  G>F|F2 C2  FG|A4  G>F|F4
+EF|G4  F>E|E2 B,C EF|G4  F>E|E4
+FG|A4  G>F|F2 C2  FG|A3B G>F|F4
+G2|A3B ce |f4     e2|c3B G>F|F4|]
+S:https://www.folktunefinder.com/tunes/30060
+S:http://www.campin.me.uk/Music/Modes.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

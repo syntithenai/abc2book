@@ -1,0 +1,27 @@
+X:265
+T: AUF DEN SCHNEE
+N: B0744
+O: Europa, Mitteleuropa, Deutschland, Oberlausitz
+R: Moral - Lied, Trost, religioes
+M: 4/4
+L: 1/8
+K: F
+ | F2F2FGA2 | G2G2GAB2
+A3Bc2B2 | A2G2F2z2
+A3Bc2c2 | cBABB2A2
+A3Bc2c2 | cBABB2A2
+A2A2G2A2 | B2A2G4
+F2F2FGA2 | G2G2GAB2
+A3Bc2B2 | A2G2F4
+S:https://www.folktunefinder.com/tunes/62288
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied, trost, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

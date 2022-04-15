@@ -1,0 +1,25 @@
+X:378
+T: WIR SIND DIE FUESILIERE
+N: F0668
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten, Kriegs - Lied, national
+M: 4/4
+L: 1/8
+K: A
+E2 | A3EE2A2 | c4A2
+c2 | c3AA2c2 | e4c2
+c2 | B2e2^d2f2 | e4z2
+E2 | d3cd3c | d4B2
+E2 | e3^de3d | e4c2
+A2 | a4f4 | e6c2 | B3^AB2c2 | A2z4
+S:https://www.folktunefinder.com/tunes/69938
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten, kriegs - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

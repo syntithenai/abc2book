@@ -1,0 +1,33 @@
+X:846
+T:Xiraldilla (CT 282)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Castandiellu, ayuntamiento de Morcn.
+A:Asturies
+O:Castandiellu (Morcn)
+Z:Cancioneru de Torner 282
+M:3/8
+L:1/8
+Q:3/8=88
+K:Gm
+G
+|ddc|e2 d|(cA)G|ddc|e2 d|cAG|ccB|c2 A|^FGG|ccB|c2 A|^FG :||
+W:El marinero en el mar
+W:nunca me ha causado pena
+W:y ahora s me la causa
+W:porque mi amante navega.
+W:
+S:https://www.folktunefinder.com/tunes/59733
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

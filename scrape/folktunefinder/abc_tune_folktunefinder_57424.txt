@@ -1,0 +1,25 @@
+X:40
+T:Round the Horn
+C:Jay Ungar
+M:4/4
+R:reel
+Q:1/2=120
+L:1/8
+K:Em
+(3DEF|:"G"G2 G2 BAGA|"G"Bd-de d4|"C"cdef e2g2|"D"a6 ga|
+"Em"b2g2 "D"a2f2|"C"gfed BAGB |"Am"A2 d2 BAG2|1"Em"E4-EDEF:|2"Em"E8|
+|:"C"e3fe2d2|"G"B6 B2|"Am"A3A G2 A2|"Bm"B2d2 d4|
+"C"g3a g2e2|"G"dedc BAGB|"D"A2d2 BAG2 |1"Em"E4-EGBd:|2"Em"E6||
+%%newpage
+S:https://www.folktunefinder.com/tunes/57424
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/reels.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X:1
+T:Fitzmaurice's Polka
+C:John Kimmel (1929)
+B:Danse ce Soir
+Z:Moshe Braner 2001-9-28
+M:C|
+L:1/8
+R:Polka
+P:ABACA
+K:G
+P:A
+|: (3def |\
+"G"g2g2 "D"fgaf | "G"g2 g2 "C"eg-ge | "G"dedB "Em"GABG | "Am"ABAF "D"D2 \
+(3def |
+"G"g2g2 "D"fgaf | "G"gggg  "C"egge  | "G"dedB  "G"GABG | "Am"A2 "D"DF "G"G2 :|
+K:D
+P:B
+|: zB |\
+"D"A2FG ABcd | "Em"d2c2 "A"cccc | "Em"G2G2 "A7"B2G2 | "D"F3F F3B |
+"D"A2FG ABcd | "G"BBGA BA (3Bcd | "A7"gage (3cBA Bc | "D"dBAF D2 :|
+P:C
+|: "D"{A}f4-fedB | A8 | "G"B2 B2-Bc (3dcB | "D"A2 a2 f2 d2 |
+ "F#"c4-ccBc | "Bm"dd d4 c2 | "E7"B2 B2-Bc (3dcB | "A7"e2 c2 B2 A2 |
+ "D"f3f fedB | Aafd d'afd | "G"B2 B2-"Em"Bcde | "F#"f8 |
+ "G"{gf}g2 g2-gfe | "D"a2 a4 A2 | "G"B2 z2 "A"c2 z2 \
+ |1 "D"d2 aa a2 a2 :|2 "D"d2 dd d2 |]
+S:https://www.folktunefinder.com/tunes/16087
+S:http://trillian.mit.edu/~jc/music/abc/polka/FitzmauricesPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/FitzmauricesPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/polka/FitzmauricesPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/FitzmauricesPolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

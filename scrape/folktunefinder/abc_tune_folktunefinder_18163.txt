@@ -1,0 +1,28 @@
+X: 1
+T: Staten Island Hornpipe
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: There is a Staten Island in Scotland, as well as in the USA.
+N: Cole p.97
+M: 4/4
+L: 1/8
+K: E
+|: BA || "E"GEGA B2B2 | egfe edcB | "A"c2Ac "E"B2GB | "B7"A2F2 F2BA |
+       | "E"GEGA B2B2 | egfe edcB | e2e2 "B7"fgaf | "E"g2e2 e2z :|
+|: ga || "E"b2gb "B7"a2fa | "E"g2eg "B7"fdB2 | "D"=d2d2 fgaf | "D"=d2d2 fgaf |
+       | "E"b2gb "B7"a2fa | "E"g2eg "B7"fdB2 | "E"e2e2 "B7"fgaf | "E"g2e2 e2z :|
+S:https://www.folktunefinder.com/tunes/18163
+S:http://trillian.mit.edu/~jc/music/abc/reel/StatenIslandH_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/StatenIslandH_E4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/StatenIslandH_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/StatenIslandH_E.abc
+S:http://trillian.mit.edu/~jc/music/book/500/StatenIslandH_E.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

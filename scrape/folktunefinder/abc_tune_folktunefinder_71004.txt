@@ -1,0 +1,24 @@
+X:257
+%%topmargin 3cm
+T:Don Side
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+A | G/G/G B<G {/B}A>GE<A | G/G/G B>G A>GB>G | {/d}c>AB>G {/B}A>GE>e | d>c{/c}B>A BGG ::
+f | g>dgB {/B}A>GE>e | g>dg>B g>dg>a | b/a/g/f/ g>B {/B}A>GE>e | d>c{/c}B>A BGG ::
+a | g/g/g b>g {/b}a>ge>a | g/g/g b>g a>gb>g | a<gb>g a<ge>g | d>cB>A BGG ::
+(D/E/F) | G>DB,>D E<(A, A,)(E/F/) | G>DB,>D G,>DB,>D | C>EB,>D E<A,A,>F | G/F/E/D/ B,>A, B,G,G, :|
+S:https://www.folktunefinder.com/tunes/71004
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

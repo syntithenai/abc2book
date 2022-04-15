@@ -1,0 +1,29 @@
+X:16052
+T:Strayaway Child
+Z: id:dc-jig-120
+M:6/8
+L:1/8
+K:E Minor
+A|BEE GEE|B,EE G2A|BEE A2G|FDF Adc|!
+BEE GEE|B,EE G2A|BdB B2A|GEE E2:|!
+A|Bee BdB|dBG AGA|Bee BdB|dBG A2|!
+[1 A|Bee BdB|dBG AGA|BdB B2A|GEE E2:|!
+[2 f|gfe dcB|AGA BGE|AGE DB,D|E3 E2|]!
+D|EAG EDE|GFG BAG|AGE DB,D|E3 E2D|!
+EAG EDE|GFG BAG|AGE DB,D|E3 E2:|!
+B|efe ded|cBA BGE|GAB dBB|AGE D2c|!
+BAG EDE|GAB cBA|BAG EAG|E3 E2:|!
+A|Bee efg|fdf edA|Bee efg|fdf e2f|!
+gfe dcB|AGA BGE|AGE DB,D|E3 E2:|!
+e|edB edB|AGA BGE|edB edB|AGA B2e|!
+ede gfe|dcB AGA|BAG EAG|E3 E2:|!
+S:https://www.folktunefinder.com/tunes/47327
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

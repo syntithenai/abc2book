@@ -1,0 +1,37 @@
+X:1
+T:Yammil Abaya
+T:Lovely Maiden
+O:Iraq
+B:Charles Haywood, Folk Songs of the World (1966)
+Z:Jack Campin 2002
+N:BarFly doesn't display the second chord in line 5.
+N:The double bars mark text line breaks, but are
+N:really a workaround for BarFly's line-end bug.
+M:4/4
+L:1/8
+Q:1/4=90 % Andante; no metronome value in the book
+K:C
+   "G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |           (G3_   A     GF     G2)||\
+   "Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||
+   "Eb-3"_B2      (BA) ({B}(A)G)      GF  |"Bb-3"     (F E2  F     ED "Em"E2)||\
+   "C-3"  G2       F2   ({F}E)_D     (ED) |"C"         C8                    ||
+   "F-3"  c2       cB       c2        d_e |"G-3"({d_e}(d)c- c2- "C"c3)       ||\
+(B|"G-3"  d2)     (cB)     (B_A) ({c}(B)A)|"G"         G8                    ||
+   "Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||\
+   "G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |"G"         G6                 z2 ||\
+   "Bb-3" F2      (FE)      F2        G2  |"C"         G8                    ||
+   "Eb-3"_B2      (BA) ({B}(A)G)     (GF) |"C"        (E3    F     E_D    E2)||\
+   "Bb-3" G2      (GF) ({F}(E)_D)    (ED) |"C"         C8                    |]
+S:https://www.folktunefinder.com/tunes/6272
+S:http://trillian.mit.edu/~jc/music/abc/Iraq/LovelyMaiden_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Iraq/YammilAbaya_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/LovelyMaiden_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/YammilAbaya_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

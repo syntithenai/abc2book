@@ -1,0 +1,25 @@
+X:1
+T:Trip to Pakistan
+R:slow reel
+Z:Barney <G.Bahn-Koepke@t-online.de> irtrad-l 2001-11-12
+M:4/4
+L:1/8
+Q:170
+K:G
+EG BE ~G3 B|A2 AG FG AF|EG BE ~G3 B|AG FG E4:||
+EG BG c2 cA|BA GB AG FG|EG BG ~c3 A|BA GB A2 (3DEF|
+EG BG c2 cA|BA GB AG FG|EG BG ~c3 A|BA GB A4||
+FG BF GB FG|EF GE FG EF|DF AD FA DF|AG FG~E3z1:||
+S:https://www.folktunefinder.com/tunes/18252
+S:http://trillian.mit.edu/~jc/music/abc/reel/TripToPakistan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TripToPakistan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TripToPakistan_1.abc
+% Rhythm Slow reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

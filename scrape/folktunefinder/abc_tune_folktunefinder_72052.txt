@@ -1,0 +1,47 @@
+X:25
+T:Rattle the Bottles
+C:Trad., Irish
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/10/04
+N:Petrie's First Collection, page 12
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:D
+[V:1] (A/B/4c/4)|d2d cBA|BAG FED|d>ed cBA|BAF ABc|
+[V:2] z         |def a2a|g2c d2d|B2f  a2f|d3  g3 |
+[V:1] dfd cec|{c}BAG TFEF|D/D/DD D/D/DD|(TBAF) E2:|
+[V:2] f2B a2A|   g2e  d3 |dfa    dfa   |  g2d  A2:|
+[V:1] |:f|d2f a2f |b2g afd|d2 f/g/ afa|cea ecA|
+[V:2] |:z|dfa fad'|gbg f3 |dfa     f3 |a2A a2g|
+[V:1] d3/2(e/f/g/ a)fa|bgb afa|gbf efd|ABc d2:|
+[V:2] f3          d3  |g3  d3 |e2d g2g|a2A d2:|
+[V:1] |:A|FAD FAD|GBD GBD|FED AFD|EFD  ECA,|
+[V:2] |:z|D3  D3 |G3  G3 |d3  D3 |G2^G A3  |
+[V:1] FAD FAD|GBD GBd|cba gfe|ddd d2:|
+[V:2] d3  D3 |G3  g3 |a3  A3 |dfa d2:|
+[V:1] |:f/g/|afd afd|bag fge|dfg agf|edc BcA|
+[V:2] |:z   |d3  f3 |g3  a3 |d'3 f3 |a3  A3 |
+[V:1] FAd Ace|dfa dgb|agf gfe|d/d/dd d2:||
+[V:2] d3  A3 |f3  g3 |a3  A3 |dfa    d2:||
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72052
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/RattleTheBottles.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Rattle_the_Bottles.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

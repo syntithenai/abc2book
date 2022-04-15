@@ -1,0 +1,31 @@
+X: 1
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: A
+|: A \
+| "A"E<A A>B "F#m"c>B c<A | "Bm"Fc "E7"d2 de \
+| "D"f<a "A"e>c "Bm"B>A "E7"B<c | "A"E>A "E7"G>B "A"A2- "fine"A :|
+|| e \
+| "A"a>g a<c' "E7"a>g a<c' | "B7"a>b a>c' "E"b3 c' \
+| "A"a>e e>c "D"d>d' c'>b | "A"a>f e>c "E7"B2- "d.C."B |]
+S:https://www.folktunefinder.com/tunes/19477
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LittlePeggysLove_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/LittlePeggysLove_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/LittlePeggysLove_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LittlePeggysLove_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LittlePeggysLove_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

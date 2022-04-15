@@ -1,0 +1,45 @@
+X:796
+T:Xiraldilla (CT 185)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Navia.
+A:Asturies
+O:Navia
+Z:Cancioneru de Torner 185
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+c2d|cBA|BGA|BGA|B3|c2d|
+cBA|BGA|BAG|F2A|BAF|G3:|
+W:Cmo vienes tan tarde,
+W:majo, a rondarme
+W:si me estoy desvistiendo
+W:para acostarme(bis)
+W:
+W:Si te ests desvistiendo
+W:vulvete a vestir,
+W:que a pasar malas noches
+W:vengo yo por t.(bis)
+W:
+W:Si pasas malas noches,
+W:majo, perdona,
+W:que un da sers dueo
+W:de m persona.(bis)
+W:
+S:https://www.folktunefinder.com/tunes/59683
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Sten\aalders vals
+R: polska
+O: \"Alvdalen
+S: Anders Alml\"of
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Learned from Anders Alml\"of Aug 1998
+M: 3/4
+L: 1/8
+K: ADorian
+|: zAA \
+| A2 cA cd | e3 eee \
+| e2 f2 d2 | c3 Bcd \
+| c2 BG BG | A3 :: Acd \
+| ef e2 d2 | f2 ed cd |
+| (3efe- e2 d2 | f2 ed cd \
+| ef ed fd | e3 Acd \
+| e2 f2 d2 | c3 Bcd \
+| c2 BG BG | A3 :|
+S:https://www.folktunefinder.com/tunes/16568
+S:http://trillian.mit.edu/~jc/music/abc/pols/StenaaldersV.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/StenaaldersV.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/StenaaldersV.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

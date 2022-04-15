@@ -1,0 +1,28 @@
+X:1697
+T:1697  The Blue eyed Stranger
+C:From Winster Morris Dancers
+I:June 25th 1908
+Q:1/4=120
+V:1
+%!STAVE 0 '  '@
+%!INSTR '   ' 00 '
+K:G
+M:4/4
+z4 G2 BF||:G2 D4 D2|E3 F BA|G2 D2 D2 D2|E3 F G2 BF|G2 D4 D2|EDEF G2 A2|B2 d2 cBAF|
+M:3/2
+[1 E3 F G4 G2 BF:||[2 E3 F G4 G4:||
+M:4/4
+GABc d2 d2|B2 c2 d4|GABc d2 d2|B2 c2 d4|GABc d2 d2|edcB A2 GA|B2 d2 cBAG|
+M:3/2
+E3 F G4 G2 BF:||
+%
+S:https://www.folktunefinder.com/tunes/37626
+S:http://www.tradcap.com/winster.abc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

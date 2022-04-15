@@ -1,0 +1,28 @@
+X: 2
+T: Vaiennut viulu
+C: svelm: Konsta Jylh
+Z: John Chambers <jc@trillian.mit.edu>
+B: "Konstan parhaat", Edition Coda, Helsinki, 1970
+M: 3/4
+L: 1/4
+K: Am
+[| "Am"EAG | "Dm"F>ED \
+| "E7"B,ED | "Am"C>B,A, \
+| E"B7"^F"E7"^G | "Am"A>Bc \
+| "B7"B=G^F | "Em"E2"E7"z \
+| "Am"ABc | "Dm"B>AA |
+| "G7"GFB, | F>"C"EE \
+| "Am"AcB | "B7"^F2"E7"^G \
+| "Dm"dcB | "E7"e3 \
+| "C"cGE | "Dm"D2F \
+| "E7"E2[^GD] | "Am"[A3C3] |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/4651
+S:http://trillian.mit.edu/~jc/music/abc/Finland/VaiennutViulu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

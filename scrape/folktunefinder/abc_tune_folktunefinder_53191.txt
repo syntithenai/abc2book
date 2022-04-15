@@ -1,0 +1,26 @@
+X:754
+T:{\AA}nonschottis
+R:Schottis
+C:trad
+N:original url: www.wolfram.claranet.de
+D:Harv: T\"ost
+O:polka efter Tor Homleid fr{\aa}n Drangedal
+M:C
+L:1/8
+Q:1/4=138
+K:A
+|:c2 c>B c2 c>B | c2 cB B<A A>c | e>f e>d B>c d>B| c2 c>B B<A A2|
+c2 c>B c2 c>B | c2 cB B<A A>c | e>f e>d e>c B>G| A>c B>G A2[e2A2]:|
+|:a>g a2 b2 a2| c>d e>f {fg}f2 e2| B>A B>c {d}e>B G>B| A>B c>d e4|
+{a}b2 {b}a2 {a}b2 {b}a2| c>d e>f {fg}f2 e2| B>A B>c {d}e>B G>B| A>c B>G A2[e2A2]:|
+S:https://www.folktunefinder.com/tunes/53191
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

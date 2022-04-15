@@ -1,0 +1,23 @@
+X: 194
+T: Reel de Montreal
+O: Traditional
+R: reel
+M: 4/4
+L: 1/8
+K: G
+|:d2| "G"g2 fe dcBA | GBDG B2AG | "D7"FADF AcBA | "G"GBDG B2d2 |
+| "G"g2 fe dcBA | GBDG B2AG | "D7"FGAB cdef | "G"g2gf g2 z2 :|
+K: D
+|: "D"A2 FA d2Ad | f2df a2ab | "A7"a2g2 e2g2 | "D"b2a2 f2d2 |
+| "D"A2 FA d2Ad | f2df a2ab | "G"a2g2 "A7"e2c2 |1 "D"(d4 "A7"d4) :|2 "D"(d4d2) "D7" |]
+S:https://www.folktunefinder.com/tunes/55797
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

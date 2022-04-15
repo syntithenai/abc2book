@@ -1,0 +1,27 @@
+X: 8019
+T:Waltz fr Norway
+R:Waltz
+O:Norway
+M:3/4
+K:Dm
+D2|\
+G2 BG Bd|dc AB G2|BA FA cB|G2 B2 d2|\
+d2 fd fa|ag ef d2|fe ce gf|1 d4 :|2 d3 ||
+|:\
+K:G
+e dc|\
+B2 d2 g2|b2 a2 g2|gf e2 d2|g3f e2|\
+A2 B2 c2|e3 d cB|dc Bc Ad| G3 :|
+S:https://www.folktunefinder.com/tunes/35236
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

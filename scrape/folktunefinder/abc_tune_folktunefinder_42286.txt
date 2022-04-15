@@ -1,0 +1,28 @@
+X:1465
+T:l'Ord'nance
+O:ireland
+N:French
+N:NB the upper part for the Ger. Flute
+M:6/8
+K:A
+c3 {e}dcd| e2e e3| a2e a2e| {e}d2c B2A|\
+c3 {e}(dcd)| e2e e3| a2e a2e| edB A3::
+[c3C3] [d2D2][eE]| [f2F2][fF] [f3F3]|\
+[B2B,2][c2C2][dD]| [e2E2][eE] [e3E3]|\
+[e2E2][cC] [a2A2][aA]| [e2E2][cC] [a2A2][aA]| \
+[eE][fF][eE] [d2D2][cC]| [c3C3] [B2B,2]z|
+c3 de2| f2f f3| B3 c2d| e2e e3|\
+e2c a2a| e2c a2a| efe {e}d2c| c3 B2::
+c|\
+dcd Bcd| cBc A2c| B2A B2c| B2B B2c| \
+dcd Bcd| cBc Aec| B2A B2c| A2A A2:|
+S:https://www.folktunefinder.com/tunes/42286
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

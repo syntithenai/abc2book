@@ -1,0 +1,29 @@
+X:4759
+T:Og-Laoc na Rann
+O:england
+M:4/4
+L:1/4
+Q:50
+C:Traditional Celtic
+R:Slow/Bold
+B:FOUR WINDS MUSIC COLLECTION
+K:G
+D | G> A (c/2B/2A/2G/2) | B d g f/2g/2 | e d (B/2c/2d/2B/2) |
+A> G G>  D | G> A (c/2B/2A/2G/2) | B d g f/2g/2 |
+e d (B/2c/2d/2B/2) | A> G G2 z/2 | g f e f/2g/2 |
+f> e d> d | e> B B> d | e f g> g | G> A  (c/2B/2A/2G/2) |
+B d g f/2g/2 | e d B/2c/2d/2B/2 |1 A> G G :|2  A> G G2 | z3  |]
+W: Arrangement: Patrick O. Young, 1995.
+%  ABC2Win Version 2.1 1/27/99
+S:https://www.folktunefinder.com/tunes/25211
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Slow/bold
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

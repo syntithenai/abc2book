@@ -1,0 +1,59 @@
+X:697
+T:Tonada (CT 320)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+N:Suele cantarse con acompaamiento de gaita.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 320
+M:Llibre
+L:1/8
+Q:1/4=56
+K:G
+Bd dc (A3Bd dc (A3/2 B/4A/4G/4F/4 G) G (A3/2 B/4A/4G/4F/4 G2) BA G2 z
+GB d (c3/2(3B/4A/4G/4) (A3/2(3B/4A/4G/4)
+F/G/ Ac BA G2 z
+G/A/ Bd dc (d2-d/{d}c/4B/4c/>d/(3c/4B/4A/4 B2-B/c/4B/4A/B/4A/4 G) G2 z
+F/G/ Ac BA G2 z2
+Bd e (f3/2(3g/4f/4e/4 d) d2 ce g (d2-d3/2(3e/4d/4c/4 B3/2(3c/4B/4A/4 G) G2
+AB c (B3/2c/4B/4) Ac B (A/B/4A/4) G2 z
+Bd g (e3/2f/4e/4 d) Bd g (d2-d3/2(3e/4d/4c/4 B3/2(3c/4B/4A/4 G) G2 z
+AB c (B3/2c/4B/4) Ac B (AB/4A/4) G2 z2
+F/G/ Ac AF G/G/ F/G/ Ac AF G/G/ F/G/ Ac AF G/G/ F/G/ AB c (d/e/)
+(f2-f3/2(3g/4f/4e/4 de/8d/8c/8B/8 c/B/4A/4 B/(3c/4B/4A/4 G) G2 z
+F/G/ Ac AF G F/G/ Ac AF GA B/c eg
+(d2-d e/8d/8c/8B/8 c d/8c/8B/8A/8 B3/2(3c/4B/4A/4 G) G2 F/G/ Ac AF G2 z2 ||
+W:Por el monte abaxu va;
+W:si ser la mio morena
+W:la que va pa la ciod.
+W:La conozco pol ximielgu
+W:de la saya que ella-y da.
+W:La mio morena vase pa Uviu,
+W:y entuitecidu quedo yo ac.
+W:Si se entretien y acasu bien
+W:con algn otru de la ciod!
+W:Lleva botines parleres,
+W:mandiln de ringo-rango,
+W:pendientes de tres cades
+W:en les oreyes colgando.
+W:Si ser, si non ser
+W:la que va pa la ciod!
+W:Si vuelve con alg otru,
+W:no s qu asoceder.
+W:
+S:https://www.folktunefinder.com/tunes/59584
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

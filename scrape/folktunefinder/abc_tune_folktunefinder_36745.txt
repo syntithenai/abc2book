@@ -1,0 +1,29 @@
+X:3330
+T:Manchester Hornpipe (Rickett's Hornpipe)
+M:4/4
+O:England
+O:Ireland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000806.html
+%%ID:00000806
+K:D
+(3ABc|\
+dcdA FAdf|edcB A2g2|fgaf gfed|cdec A2(3ABc|\
+dcdA FAdf|edcB A2g2|
+fgaf bgec|d2f2 d2::\
+fg|\
+afaf d2ga|bgbg e2fg|
+afaf bagf|edcB A2(3ABc|\
+dcdA FAdf|edcB A2g2|fgaf bgec|d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/36745
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

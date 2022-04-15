@@ -1,0 +1,34 @@
+X:1
+T:Valse  Manu
+R:Valse
+C:Manuel Murcia
+H:
+N:
+B:Diatonisch Nieuwsblad n14 (fv 1988)
+Z:Forgeot Eric <eforgeot@yahoo.fr> abcusers 2002-4-15
+D:Maluzerne
+O:France
+A:
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:3/4x
+K:C
+P:[A]
+f/ a/f/ |: e2c | A>f a/f/ | e2c | A>c A/c/ | BdG |[1,3 B/G/ d/G/ g/d/ | [c2e2] A |
+A>f a/f/ :|[2 g/d/ B/g/ d/B/ | c2 A | A>f a/f/ :|[4 g/d/ B/g/ d/B/ | c2 A | A3
+P:[B]
+|: b2 a | aba |1,3 c'2b | bc'b :|2,4 e'2d' | e'd'd' :|
+P:[C]
+e b/e/ c'/e/ | d'e'c' |1-3 b2a | agf :|2 a3 | agf :|4 a2 g | a3 ||
+S:https://www.folktunefinder.com/tunes/20302
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValseManu_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/ValseManu_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ValseManu_1.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

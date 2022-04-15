@@ -1,0 +1,26 @@
+X: 1
+T: Highland Harry
+T: The Highlander's Farewell to Ireland
+B: Neil Stewart Collection p.27 (1761)
+B: Gillespie Manuscript of Perth (1768)
+B: Gow
+B: Skye
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ador
+|: "Am"A4 A3B AA3 A3B | "G"g3e d3B G4 G3g \
+|  "Am"e3d efg2 "D"a4 ag3 |1 "G"efg2 dB3 "Am"A4 Aa3 :|2 "G"efg2 dB3 "Am"A4 A2z2 :|
+|: "Am"a4 a3e aa3 a3e | "G"g3a gfe2 d3B G3g \
+|  "Am"e3d efg2 "D"a4 a3g | "G"efg2 d3B "Am"A4 A2z2 :|
+S:https://www.folktunefinder.com/tunes/19397
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HighlandersFarewellToIreland_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HighlandersFarewellToIreland_Am.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

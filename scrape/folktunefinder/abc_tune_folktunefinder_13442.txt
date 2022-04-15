@@ -1,0 +1,40 @@
+X: 1
+T: To Ting
+O: Danmark
+N: Vary the number of repeats to try to confuse the dancers.
+B: 358 danske Folkedansemelodier v.2 #634
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: To Ting in G:
+%Q: 3/4=60 "Vals"
+K: G
+D>G \
+| "G"B4 D>G | B4 B>c | d2 c2 B2 | "D7"A4 D>F \
+| A4 D>F | A4 A>B | c2 B2 A2 | "G"G4 :|
+%Q: 3/8=104 "Gangtrin"
+M: 6/8
+|: "G"DGB DGB | DGB dcB | "D7"DFA DFA | cBA "G"G3 :|
+P: To Ting in D:
+%Q: 3/4=60 "Vals"
+M: 3/4
+L: 1/8
+K: D
+A>d \
+| "D"f4 A>d | f4 f>g | a2 g2 f2 | "A7"e4 A>c \
+| e4 A>c | e4 e>f | g2 f2 e2 | "D"d4 :|
+%Q: 3/8=104 "Gangtrin"
+M: 6/8
+|: "D"Adf Adf | Adf agf | "A7"Ace Ace | gfe "D"d3 :|
+S:https://www.folktunefinder.com/tunes/13442
+S:http://trillian.mit.edu/~jc/music/abc/folk/ToTing2_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/ToTing2_GD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

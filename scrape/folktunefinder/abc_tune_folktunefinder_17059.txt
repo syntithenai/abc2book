@@ -1,0 +1,33 @@
+X: 1
+T: the Drunken Piper
+T: Highland Rory
+B: RSDS-13
+B: Scots Guards
+Z: John Chambers <jc:trillian.mit.edu>
+N: Can also be accompanied by A major chords without changing the melody.
+M: C|
+L: 1/8
+K: BbDor
+|: "Bbm"~B2Bc f3g | fece f2a2 \
+| "Ab"~A2Ac e3f | ecAc "F7"e2f2 \
+|  "Bbm"~B2Bc f3g | fece f2b2 |
+| "Ab"~a2fa fafe | "Bbm"c2B2 B4 :| \
+f2 \
+[| "Bbm"b4 f2b2 | fefg "(E)"a2b2 \
+| "Ab"~A2Ac e3f | ecAc "F7"e2f2 |
+|  "Bbm"b4 f2b2 | fefg "(E)"a2b2 \
+| "Ab"a2fa fafe | "Bbm"c2B2 B2f2 \
+|| "Bbm"b4 f2b2 | fefg "(E)"a2b2 |
+| "Ab"~A2Ac e3f | ecAc "F7"e2f2 \
+|  "Bbm"~B2Bc f3g | fece f2b2 \
+| "Ab"~a2fa fafe | "Bbm"c2B2 B4 |]
+S:https://www.folktunefinder.com/tunes/17059
+S:http://trillian.mit.edu/~jc/music/abc/reel/DrunkenPiper_Bbm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DrunkenPiper_Bbm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

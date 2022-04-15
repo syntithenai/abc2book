@@ -1,0 +1,29 @@
+X:84
+T: SOLDATENMUTH SIEGT UEBERALL
+N: B0571
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied
+M: 6/8
+L: 1/16
+K: F
+c2 | c4A2F4A2 | c4B2G4
+E2 | F4F2F2G2A2 | G6-G4
+c2 | c4A2F4f2 | f4d2=B4
+G2 | c3de2G3A=B2 | c6z4
+c2 | e4c2c3de2 | f4c2A4
+A2 | B4c2A4c2 | G8z2
+C2 | F4A2c4A2 | B4d2f4
+d2 | c4A2c2B2G2 | F4
+F2A4F2 | c4c2c4c2 | A4
+c2f4A2 | c4c2c4c2 | F6z4
+S:https://www.folktunefinder.com/tunes/62107
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:344
+T: ALLE DIE WILLEN NAER
+N: E1499
+O: Europa, Mitteleuropa, Niederlande, Flandern
+R: Staende -, Seemanns - Lied, Fischer
+M: 2/4
+L: 1/16
+K: A
+ | A4A3B | =c4c2d2 | e4d4 | =c4z2
+d2 | e3d=c2B2 | A3B
+=c3d | e3d=c3B | A2G2z2
+E2 | A3B=c3A | B3=cd3
+B | =c4d3d | e6
+=c2 | d3=cd3e | =f3ed3
+=c | =c4B4 | A4z4
+S:https://www.folktunefinder.com/tunes/79448
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, seemanns - lied, fischer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 2
+T: Hasapikos Horos
+C: A. Sakellariou, A. Eptamenitis
+B: From a 1936 publication by Apollo Music Co., New York.
+M: 2/4
+K: Am
+L: 1/8
+|: "E"Jb4 | ^g3 e | "Dm"(3^gab (3agf | "E"(3a^gf e2 | ^g2 a2 | b2 (3c'ba | "Dm"^g>f (3agf | "E"(e2 e)z :|
+|: "E"e2 (3c'ba | ^g>f (3gab | "Dm"(3a^gf (3a^gf | "E"e2 b2 | "E"e2 (3c'ba | ^g>f (3gab | "Dm"(3a^gf (3a^gf | "E"(e2 e)z :|
+|: "E"(3d^cd e2 | "Dm"(3fef ^g2 | (3^gab (3agf | "E"(3ede b2 | "E"d^cd e2 | "Dm"(3fef ^g2 | (3^gab (3agf | "E"(e2 e)z :|
+|: "E7"e>^c d>^c | e>^c d>^c | ed B^c | "A"d2 ^c2 | A>^c d>^c | A>^c d>^c | A>^c d>^c | "Bm"(B2 B)z :|
+|: "E"(3^gab bb | bb (3^gfe | (3^gab bb | bb e'2 | "E"(3^gab bb | bb (3^gfe | "Dm"e/f/g/a/ b/a/g/f/ | "E"eb ez :|
+S:https://www.folktunefinder.com/tunes/5645
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hasapikos1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:282
+T: Trinkreime
+N: A0323
+O: Europa, Mitteleuropa, Deutschland
+N: Franck, Fasc. quodl. No. 1
+R: Romanze, Ballade, Lied, Trinklied
+M: 3/2
+L: 1/2
+K: F
+c | c2c | d2d | c2c | A2
+F | c2c | d2d | c2c | A2
+c | BAG | A2c | BAG | F2
+S:https://www.folktunefinder.com/tunes/68828
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

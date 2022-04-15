@@ -1,0 +1,26 @@
+X:402
+%%topmargin 3cm
+T:Earl of Home
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+g S| c<FTc>A d<GB>d | (c<F)Tc>A d>Bc>A | (B<d)(A<c) {/^F}G>AB<d | c<FTc>A c<FA :| c | ~(f>g){fg}a<f e>fg<a | ~(f>g){fg}a>f g>ef>d |
+T(c<A)f>A {/^F}G>AB<d | c<FTc>A c<FA>c | T(f/e/)f/g/ a>f (e>f)g>a | (f>g){fg}a>f Tg>ef>d | c<Af>A {/^F}G>AB>d | {/d}c<A c(d/e/) fcd<f S|]
+S:https://www.folktunefinder.com/tunes/71431
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Earl_of_Home.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0402.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:434
+T: Liebesnot (153), S. 334
+N: T0322
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Straen, fff Witry, 21.2.1933
+R: historische, Kriegs- und Soldatenlieder, Liebeslied]
+M: 2/4
+L: 1/8
+K: G
+ | G3G | G2B2 | G3E | D2z2
+B3A | B2d2 | c3B | A2z2
+GAAA | A2AB | A2GA | BB
+Bc | B2AG | A2AB | A2GA | B2Bc | B2A
+G | A2e2 | d3d | dccc | B2z2
+S:https://www.folktunefinder.com/tunes/70564
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

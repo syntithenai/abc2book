@@ -1,0 +1,33 @@
+X:2715
+T:Humours of Tollykrine
+T:Bedlam I
+O:england
+M:4/4
+C:
+S:Bordering on the Absurd
+N:
+A:Border
+R:Reel
+%P:
+L:1/8
+K:Edor
+L:1/8
+P:A
+|:\
+E>DE>F G>FG>A|(3Bcd (3cde d>BA>F|G>FE>G F>E   D2|(3DEF A>B   A>FE>D|\
+E>DE>F G2  A2|(3Bcd (3cde d>BA>F|D>FE>G F>ED>F|G2 D2  E4:|\
+P:B
+|:e>de>f e>d B2|e>de>f      e>dB>c|d2 B>c d2    A2|(3Bcd (3cde d>BA>F|\
+E>DE>F G2  A2|(3Bcd (3cde d>BA>F|D>FE>G F>ED>F|G2 D2  E4:|
+S:https://www.folktunefinder.com/tunes/23166
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

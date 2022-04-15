@@ -1,0 +1,30 @@
+X:95
+T: Waechterlied
+N: A0111
+O: Europa, Mitteleuropa, Deutschland
+N: Forster III. 1549 No. 13.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: C
+C4A,2B,2 | C4z2C2 | D2D2C4 | z2
+C2E2F2 | G6F2 | E2G4FE | F2E2D4 | C8
+C4A,2B,2 | C4z2C2 | D2D2C4 | z2
+C2E2F2 | G6F2 | E2G4FE | F2E2D4 | C6
+G2 | E2D2C4 | z2C2D2D2 | A,4z2
+A,2 | G,2G,2D4 | C2C4B,A, | _B,A,G,F,G,4 | F,4z2
+C2 | A,2A,2D4 | C2C4B,A, | B,2B,2A,4 | z2
+G,2A,2B,2 | C4B,2A,2- | A,2G,F,G,2G,2 | F,4z2
+F2D2D2 | G4F2E2 | FFG3FE2- | E2EDCDC6
+S:https://www.folktunefinder.com/tunes/68641
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

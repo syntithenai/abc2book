@@ -1,0 +1,24 @@
+X:6400
+T:a Trip to Wigan
+A:North-West
+M:4/4
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000503.html
+%%ID:00000503
+K:G
+D|\
+GBdB Gcec| GBdB AFED| GBdB Gcec| dcBA B2G::
+f|\
+gfgd edeB| cBcA a2ef| gfgd edeB| cBAd B2G:|
+S:https://www.folktunefinder.com/tunes/37359
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

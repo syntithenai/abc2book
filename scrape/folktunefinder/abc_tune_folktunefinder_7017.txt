@@ -1,0 +1,26 @@
+X: 3
+T: Jewish Freilakhs
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" v.3 New York 2003
+M: 2/4
+L: 1/16
+Q: 1/4=96
+K: Em
+  EEGE BGeB | (BA)TA2- A3G | (FG)AG (BA)GF | (AG)TG2- G2(FE) |
+| B,GFE ^DEFG | (B,E)GB (TA3G) | (BA)(AG) (GF)(FE) | (FG)E2 z4 :|
+|:(DG)Bd (^cd)ed | (dc)(cB) (BA)(AG) | Ggfe (d^c)ed | (dc)(cB) (BA)(AG) |
+| (DG)FG (A_B)^cd | (ed)^c_B TA3G | (GD)(DG) (G=F)(FE) | E4 z4 :|
+|:(Te6 B2) | Te6 (Be) | (ed)(dc) (cB)(BA) | (Bc)A2 z4 |
+| (Td6 A2) | Td6 (Ad) | (dc)(cB) (BA)(AG) | (AB)G2 z4 |
+| (GD)(DG) (G=F)(FE) | (E=F)(DF) (TE3D) | (GD)(GD) (G=F)(ED) | (E=F)(DF) (TE3D) |
+| (de)=fe (dc)BA | (^de)cB TA3G | (GD)(DG) (G=F)(FE) | E4 z4 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7017
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GGbook3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

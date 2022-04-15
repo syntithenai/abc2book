@@ -1,0 +1,29 @@
+X:110
+T: HANS HAT HOSEN AN UND DIE SIND BUNT
+N: E1163
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Trink -, Zech - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G4d4 | B3AG2
+G2 | A4F4 | G4z4
+G4d4 | B3AA2
+G2 | A4^c4 | d4z2
+d2 | c3AA2d2 | B3AG2
+GF | E2G2c2e2 | d3cB2
+B2 | c4z2A2 | B4z2
+G2 | A2A2F2F2 | G4z2
+B2 | c4z2A2 | B4z2
+G2 | A2A2F2F2 | G4z4
+S:https://www.folktunefinder.com/tunes/79214
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Trink -, zech - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

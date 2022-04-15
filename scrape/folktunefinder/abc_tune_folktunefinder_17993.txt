@@ -1,0 +1,27 @@
+X: 1
+T: a Reel for Paul
+C: Bert Murray MCPS
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: F
+A \
+|: "F"FGAB "C7"=Bcde | "F"fcAF CFAF | "Gm"GABc    "D7"de=f^f | "Gm"gdBG "C7"DB,G,E |
+|  "F"FGAB "C7"=Bcde | "F"fcAF CFAc | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2   :|
+B \
+|: "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Gm"B>d .d/.d/.d  gbba | "C7"gfed    cBAG  |
+|  "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2 :|
+S:https://www.folktunefinder.com/tunes/17993
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelForPaul_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReelForPaul_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

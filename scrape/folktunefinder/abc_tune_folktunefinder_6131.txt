@@ -1,0 +1,30 @@
+X: 1
+T: Sicilian Tarantella
+R: tarantella
+O: Italy
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+P: A
+|: Ade || "Dm"f2g/f/ "A7"e2f/e/ | "Dm"d2a eaa | "A7"eaa eaa | "Dm"fed Ade | "Dm"f2g/f/ "A7"e2f/e/ | "Dm"d2a eaa | "A7"eaa eaa | "Dm"d2z :|
+P: B
+|: aba || "A7"gef  gag | "Dm"fde fgf | "A7"e^cd efg | "Dm"afd a2a | "A7"gef  gag | "Dm"fde fgf | "A7"eba gfe | "Dm"d2z :|
+P: C
+|: DFA || "Dm"dz2 "Gm"dz2 | "Dm"d3 zcB | "A7"ABA GFE | EAF "Dm"D2z | "Dm"dz2 "Gm"dz2 | "Dm"d3 zcB | "A7"ABA GFE | "Dm fine"D2z  :|
+P: D
+|: zAB | "F"cAF cAF | cAF cdc | "C7"BAG BAG | "F"cAF zAB | "F"cAF cAF | cAF c=Bc | "C7"edc BAG | "F"F3 :|
+P: E
+|: zFE || "Dm"DzD- DDF | AzA- AzA | "A7"GEF GAG | "Dm"FED zFE | "Dm"DzD- DDF | AzA- A^GA | "A7"cBA GFE | "Dm"D3 :|
+S:https://www.folktunefinder.com/tunes/6131
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Tarantella_Sicilian.abc
+% Rhythm Tarantella
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

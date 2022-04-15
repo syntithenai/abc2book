@@ -1,0 +1,25 @@
+X:5697
+T:Rufty Tufty
+O:england
+S:Playford
+M:4/4
+L:1/4
+K:D
+A|"D"d2 "A7"de|"D"f2 ef|"G"gg "A7"fe|"D"d3:|
+K:G
+e/2f/2|"C"gf ed|"G"dc BB/2c/2|"G"dd cB|"D7"A2 "G"G:|
+"G"B3/2c/2 dd|"C"ec "D7"d2|"G"B3/2c/2 dd|"G"ec "D7"dB/2c/2|"G"dd cB|\
+"D7"A2 "G"G:|
+S:https://www.folktunefinder.com/tunes/26149
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

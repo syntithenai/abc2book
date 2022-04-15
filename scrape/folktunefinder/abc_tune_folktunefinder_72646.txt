@@ -1,0 +1,26 @@
+X:189
+T: Muede kehrt ein Wandersmann zurueck
+N: D1020
+O: Europa, Mitteleuropa, Deutschland, Unter - Franken, Bamberg Ebern,
+N: Takt in 2/4 korrigiert, in der 3. und 4. Zeile Pause ergaenzt
+N: DVA-Signatur A 196 840
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+D2G2 | B6A2 | G2F2G2GF | D4z4 | z4
+D2F2 | A6G2 | F2A2c2B2 | G4z4 | z4
+G2A2 | B6d2 | d4c2B2 | A4z4 | z2
+A2c2A2 | G6G2 | B2A2D2F2 | G4z4 | z4
+S:https://www.folktunefinder.com/tunes/72646
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Khupa jig #2
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+F \
+| "Bm"FB^A "F#7"AcB | "Bm"Bdc "F#7"ced | "Bm"dfe "Em"egf | "Bm"f>ed/e/ f3 \
+| "Em"egc "(F#7)"cec | "Bm"dfB BdB | "F#7"f^Ae Td2c | "Bm"cdB- B2 :|
+(3A/B/c/ \
+| "D"Td3- dAf | Td3- dAf | dAf dAf | dAf g>fe/d/ \
+| "A7"Tc3- cAe | Tc3- c2a | agf fed | "D"efd- d2 |]
+F \
+| "Bm"f2d "F#7"e2c | "Bm"d2B "F#7"c2F | "Bm"B^AB dcB | "F#"c>B^A/G/ F3 \
+| "Em"gfe "Bm"fed | "F#7"edc "Bm"dcB | "F#7"fed  dcB | "Bm"cdB- B2 |]
+S:https://www.folktunefinder.com/tunes/14476
+S:http://trillian.mit.edu/~jc/music/abc/jig/KhupaJig2_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/KhupaJig2_Bm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

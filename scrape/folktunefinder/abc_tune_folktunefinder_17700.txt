@@ -1,0 +1,29 @@
+X: 1
+T: Morayshire Farmers
+C: Marshall
+R: reel
+B: RSCDS 17-11(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G2BG "D7"DAFD | "G"G2Bd gdBG | "Am"ce"G"dB "Am"EA"D7"FD | "Am"EC"D7"FD "G"G2G :|
+|| f \
+| "G"g2dg Bgdg | g2dg "Am"aAce | "G"g2dg Bgdg | "D7"EAFD "G"G2Gf |
+| "G"g2dg Bgdg | g2fg "Am"aAce | "G"gb"D7"af "G"gdBG | "D7"EAFD "G"G2G |]
+S:https://www.folktunefinder.com/tunes/17700
+S:http://trillian.mit.edu/~jc/music/abc/reel/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MorayshireFarmers.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MorayshireFarmers.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

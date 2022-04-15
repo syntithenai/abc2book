@@ -1,0 +1,26 @@
+X: 4
+P: Lassies of Dunse
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Hardie #292
+M: 6/8
+L: 1/8
+K: D
+   f/g/ \
+| "D"afd "A7"ecA | "D"d2A A2=c | "G"BGB "D"AGF | "Em"E3-y "A7"E2f/g/ \
+| "D"afd "A7"ecA | "D"d2A A2G | "G"FDF "A7"ECE | "D"D3- D2 :|
+|: F/G/ \
+| "D"AFA "G"BGB | "D"AFA d2A | "G"BGB "D"AGF | "Em"E3-y "A7"E2f/g/ \
+| "D"afa "A7"geg | "Bm"fdf "A7"ecA | "G"BdB "A7"cec | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/9851
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AlanJSmith1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090202/AlanJSmith1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

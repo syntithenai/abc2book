@@ -1,0 +1,25 @@
+X:1
+T:Margaret's Waltz
+M:3/4
+L:1/4
+Q:70
+C:Pat Shuldham Shaw
+Z:Steven Holland 
+R:waltz
+K:A
+|(A3/4F/4)|"A" (E>F) (A1/2>B1/2|{B}c2 (A3/4c1/4|"D" (B3/4A1/4) F A|"E7"B2 A3/4F1/4|
+"A" (E>F) (A3/4B1/4)|{B}c2 (e3/4A1/4)|"E7" {B}c2 B|"A" A2 :|
+|:(c3/4d1/4)|"A" e f g |"D" a g a |(f3/4e1/4) d f |"E7" e>A (c1/4B1/4A1/4)|
+"A" (A>B) (c1/2>D1/2)|"F#m" e2 (c3/4A1/4)|"Bm" (f3/4e1/4)(d3/4c1/4) (A3/4c1/4)|"E7" B2 (c3/4d1/4)|
+"A" e3/4A1/4 f3/4A1/4 g3/4A1/4|"D" a3/4A1/4 g3/4A1/4f3/4A1/4|"A" e3/4A1/4 d3/4A1/4 c3/4A1/4|"E7" B2 (A3/4F1/4)|
+"A" (E>F) (A1/2>B1/2)|{B}c2 (e1/2>A1/2)| "E7" {B}c2 B|"A" A2:|
+S:https://www.folktunefinder.com/tunes/20067
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MargaretsW2_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

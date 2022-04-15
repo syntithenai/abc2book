@@ -1,0 +1,30 @@
+X: 53
+T:Laz Bar
+O:Armenian
+S:from record Folkdance Underground F.U.1
+L:1/8
+M:7/8
+Q:1/4=210
+K:Dm
+%%MIDI gchord f2f2f3
+ A=Bc|:"Dm" d2 d2 dc=B|c2 c2 cBA| B2 B2 BAG| A2 A2 A3 :|
+|:G2 c2 c2 G| c2 c2 c2 G| c2 c2 c3| d e2 e2 d2 :|
+|:c2 d2 BAG| A2 A2 B3|c2 d2 BAG | A2 A2 A3 :|
+|:G2 c2 c2 G| c2 c2 c2 G| c2 c2 c3| d e2 e2 d2 :|
+|:  c2 d2 e3| e2 e2 edc | d2 d2 dc=B| c2 c2 c3 :|
+|: d2 d2 dc=B| c2 c2 cBA | B2 B2 BAG| A2 A2 A3 :|
+|:  c2 d2 e3| e2 e2 edc | d2 d2 dc=B| c2 c2 c3 :|
+|: d2 d2 dc=B| c2 c2 cBA | B2 B2 BAG| A2 A2 A3 :|
+|: d2 d2 c=BA| A=Bcd BG2| A2 A2 d3|d2 d2 c=BA| A=Bcd BG2| A2 A2 A3:|
+|: c2 d2 =B2G| A2 A2 d3| c2 d2 =B2 G| A2 A2 A3 :|
+|:  c2 d2 e3| e2 e2 edc | d2 d2 dc=B| c2 c2 c3 :|
+|: d2 d2 dc=B| c2 c2 cBA | B2 B2 BAG| A2 A2 A3 :|
+S:https://www.folktunefinder.com/tunes/67840
+S:http://jjaquier.free.fr/midifiles/abc/balk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

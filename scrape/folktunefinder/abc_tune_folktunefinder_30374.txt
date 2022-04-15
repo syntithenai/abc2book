@@ -1,0 +1,29 @@
+X:325
+T:the Merry Meeting
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000109.html
+%%ID:00000109
+K:G
+G2Bd| cBAG| e2fa| (gf)(ed)|\
+(ed).c.B| (cB).A.G| FGAB| (B2A2)|\
+G2Bd| cBAG| e2fa| (gf)ed|
+(ed)cB| cBAG| (FG)AF| G4::\
+GABc| dBec| dBec| dBG2| DEFG| AFBG|
+AFBG| AFD2| \
+G2Bd| cBAG| e2fa| (gf).e.d| \
+(ed).c.B| (cB)(AG)| FGAF| G4:|
+S:https://www.folktunefinder.com/tunes/30374
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

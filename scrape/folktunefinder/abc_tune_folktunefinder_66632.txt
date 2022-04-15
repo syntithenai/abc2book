@@ -1,0 +1,33 @@
+X:4
+T:The Bucks of Oranmore
+C:Traditional
+N:Play 2 times
+N:The Corofin Plain Set, Figure 2, Tune 1 of 1
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+L:1/8
+M:C
+K:Amix
+A2 FA A2 dA | A2 FA BE ~E2 | A2 FA ~A2 Bd | egfd ~e2  dB |
+A2 FA A2 dA | A2 FA BE ~E2 | DEFG AGAB | defd ~e2 dB ||
+AD~D2 ADBD | ADBA BE~E2 | AD~D2 A2 Bd | egfd ~e2 dB |
+AD~D2 ADBD | ADBA BE~E2 | DEFG AGAB  | defd ~e2 df ||
+a2 fd adfd | adfd edBA | a2 fd adfd  | egfd edBA |
+a2 fd adfd | adfd edBA | fa~a2 bfaf  | defd ~e2 df ||
+f2 df efde | f2 df edBd | f2 df efde | feed edBd |
+f2 df efde | f2 df edBd | fa~a2 bfaf  | defd ~e2 dB ||
+Adfd edfd | Adfd efBd | Adfd edef | gefd edBd |
+Adfd edfd | Adfd efBd | fa~a2 bfaf  | defd ~e2 dB ||
+S:https://www.folktunefinder.com/tunes/66632
+S:http://theflow.org.uk/text/flow_corofin.txt
+S:http://www.theflow.org.uk/text/flow_corofin.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

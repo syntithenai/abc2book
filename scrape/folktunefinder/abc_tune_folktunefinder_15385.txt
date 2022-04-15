@@ -1,0 +1,32 @@
+X: 1
+T: the Champion March
+C: J.S.Skinner
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+[| ec \
+|| "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"e2 "D"f2 "A"e2 cA | "G"d2 "C"e2 "G"d2 BG |
+|  "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+[| (3efg \
+|| "A"a2cA e2cA | aAcA e2cA | "G"g2BG d2BG | gGBG d2BG |
+|  "A"a2cA e2cA | "D"afdf "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/15385
+S:http://trillian.mit.edu/~jc/music/abc/march/ChampionMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/ChampionMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/ChampionMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/ChampionMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/ChampionMarch.abc
+S:http://trillian.mit.edu/~jc/music/book/500/ChampionMarch.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/march/ChampionMarch.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/march/ChampionMarch.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/ChampionMarch.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/ChampionMarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

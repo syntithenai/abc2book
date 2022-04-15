@@ -1,0 +1,30 @@
+X:6
+T:Old Maids of Galway (Original)
+T:Seascanaig Gaillim
+R:Reel
+N:O'Neill's n653
+N:corrections d'un fichier ABC  partir du livre O'Neill's Irish Music Collection
+B:O'Neill's
+O:Ireland
+Z:recopie : Eric Forgeot <anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:150
+K:G
+%tempo donn  titre d'exemple
+e>B {c}(3BAB e2dB | A2GA dBgf | \
+(3efg df e2dc | A2 GA BG G2 :| \
+g2 f-g egde | g2 b-g eaaf |
+g2fg egdB | A2 GA BG G2 |\
+g2fg egde | g2 bg eaag |\
+bgaf gedB | A2 GA BGG2 |]
+S:https://www.folktunefinder.com/tunes/71584
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:354
+T: "Pfaffenschlich"
+N: Z1034
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Babenberger Sage
+M: 6/8
+L: 1/16
+K: D
+A2 | d4c2d2A2e2 | =f2e2d2e4
+A2 | d4=c2_B2B2A2 | A4G2A4
+E2 | A2G2A2=F2D2d2 | =c2_B2AGA2=F2
+f2 | e4d2c2A2d2 | d4c2d4
+S:https://www.folktunefinder.com/tunes/69213
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, babenberger sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

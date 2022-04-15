@@ -1,0 +1,24 @@
+X:0
+T:The Bens of Jura
+C:John McLellan
+B:8th (The Argyllshire) Battalion Argyll and Sutherland Highlanders: A
+B:Collection of Pipe Tunes (Paterson's Publications Limited, July 1933)
+N:I suspect that more dotted figures were intended than were printed
+M:2/4
+L:1/16
+Q:1/4=80
+K:D
+   A>d|f4   agef|d2A2 A2dc|BGBc defa|e4 e2Ad    |
+       f4   agef|dedc B2ag|fafd Acec|d4 d2     :|
+   f>g|aAAA fAAA|dedc B2dc|BGBc defa|e4 e2 [1 fg|
+       aAAA fAAA|dedc B2ag|fafd Acec|d4 d2     :|
+[2 A>d|f4   agef|dedc B2ag|fafd Acec|d4 d2     |]
+S:https://www.folktunefinder.com/tunes/30000
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

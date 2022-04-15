@@ -1,0 +1,25 @@
+X: 1
+T: Miss Forbes' Farewell to Banff
+R: reel
+O: Athole Coll
+B: Athole Collection
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   GA | "G"B3d "D7"cBAG | "G"B2d2 "C"efge | "G"d3e "Em"dBAG | "Am"B2A2 "D7"A2 \
+   GA | "G"B3d "D7"cBAG | "G"B2d2 "C"efge | "G"d3e "D7"dBAG | "G"B2G2      G2 :|
+|: d2 | "G"g3a     gfed | "C"edef    g2b2 | "G"d3e "Em"dBAG | "Am"B2A2 "D7"A2 \
+   d2 | "G"gfga    gfed | "C"edef    g2fe | "G"d3e "D7"dBAG | "G"B2G2      G2 :|
+S:https://www.folktunefinder.com/tunes/17674
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissForbesFarewellToBanff_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissForbesFarewellToBanff_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

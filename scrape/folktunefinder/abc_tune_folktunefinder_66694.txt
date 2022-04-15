@@ -1,0 +1,20 @@
+X:10
+T:Drowsy Maggie
+R:reel
+O:Ireland, Scotland
+M:C
+L:1/8
+K:D
+"Em" E2       (BE dEBD) | E2  (BE "D" AFDF) | "Em" E2       (BE dEBE) |1 (BAB)c  "D" dBAF :|2 "G/C" ~BABc "D" dAFA ||
+"D" d2 (fd) "A" c2 (ec) | "D" defg "A" afge | "D" d2 (fd) "A" c2 (ec) | "G" (~BAB)c   dAFA |
+"D" d2 (fd) "A" c2 (ec) | "D" defg "A" afge | "G" afge           fdec | "A" (~BAB)c   dAFD |]
+S:https://www.folktunefinder.com/tunes/66694
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

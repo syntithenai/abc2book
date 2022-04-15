@@ -1,0 +1,24 @@
+X:160
+%%topmargin 3cm
+T:The Fairy Dance
+C:Nath Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+f2 (fd) f2 (fd) | Tf2 (fd) {/d}cAeA | Tf2 (fd) gfed |
+[1 cABc d2 (de) :| [2 cABc defg |: a2 (af) b2 (ba) | {/f}gfge a2 (ag) |
+[1 fefd TB2 e>d | cABc defg :| [2 fefd Bged | cABc d2 D2 :|
+S:https://www.folktunefinder.com/tunes/70907
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

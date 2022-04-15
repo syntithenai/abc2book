@@ -1,0 +1,27 @@
+X: 1
+T: WHITE COCKADE
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.112
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: G
+(GA) \
+| "G"B2B2 B2AG | B2B2 B2g2 | d2B2     cBAG | "D"B2A2 A2GA \
+| "G"B2B2 B2AG | B2d2 g3a  | bagf  "C"efge | "G"d2B2 B2 :|
+|: Bc \
+| "G"d2B2 g2B2 | d2B2 B2Bc | d2B2 "A7"g2fg | "D"a2AB A2GA \
+| "G"B2B2 cBAG | B2d2 g3a  | bagf  "C"efge | "G"d2B2 B2 :|
+S:https://www.folktunefinder.com/tunes/18308
+S:http://trillian.mit.edu/~jc/music/abc/reel/WhiteCockade_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/WhiteCockade_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WhiteCockade_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

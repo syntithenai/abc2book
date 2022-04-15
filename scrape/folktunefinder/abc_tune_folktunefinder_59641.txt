@@ -1,0 +1,54 @@
+X:754
+T:Xiraldilla (CT 041)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Catalina Muiz Llano, de cincuenta aos, de Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 041
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|d2d|B3|BAB|c3|d2d|A3|AGA|[1 B3:|
+[2 B2 B||:ddd|B2B|BAB|c2c|dcB|
+AAA|AGA|B2B|ddd|B2B|BAB|
+c2c|dcB|AAA|AGA|[1 B2B:|[2 B3||
+W:Adios villa d'Avils,
+W:nunca te podr olvidar;
+W:la vida y el corazn
+W:me los quisiste robar.
+W:
+W:Anoche so,
+W:que buena la vi,
+W:con alas de plata
+W:yo al cielo sub.
+W:
+W:Al cielo sub,
+W:al cielo sub,
+W:los ngeles bellos
+W:clamaban por t.
+W:
+W:Clamaban por t,
+W:clamaban por t,
+W:para coronarte,
+W:bello serafn.
+W:
+W:Bellos serafn,
+W:bellos serafn:
+W:valen ms tus ojos
+W:que Mayo y Abril
+W:
+S:https://www.folktunefinder.com/tunes/59641
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

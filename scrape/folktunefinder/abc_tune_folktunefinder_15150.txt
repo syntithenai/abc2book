@@ -1,0 +1,30 @@
+X: 1
+T: the Tenpenny Bit
+O: Trad
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: ADor
+|: e \
+| "Am"eAA eAA | "G"BAB GBd | "Am"eAA eAA | "G"def gfg \
+| "Am"eAA eAA | "G"BAB GBd | edB gBB | BAG "Am"A2 :|
+|: B \
+| "A"A2a aga | "G"bge dBG | "A"A2a aga | "G"bge g2d \
+| "A"e2a aga | "G"bge dBd | edB gBB | BAG "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/15150
+S:http://trillian.mit.edu/~jc/music/abc/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TenPennyBit.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/TenPennyBit.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

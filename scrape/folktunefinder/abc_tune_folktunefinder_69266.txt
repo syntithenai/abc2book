@@ -1,0 +1,25 @@
+X:407
+T: "Die Belagerung von Koeln"
+N: Z1087
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade
+M: 4/4
+L: 1/8
+K: A
+E2 | A2G2A2B2 | ccccz2
+B2 | cBcde2dc | cBBBz2
+Bc | efedc3c | fedcB3
+B | cBcde2dc | eeeee3
+E | E4z2
+S:https://www.folktunefinder.com/tunes/69266
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

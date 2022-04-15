@@ -1,0 +1,24 @@
+X:15
+T:A Few Notes for Nigel
+R:jig
+C:Manuel W. Balaguer-Cortes
+Z:Manuel Waldesco scots-l 2002-4-15
+M:6/8
+L:1/8
+K:G
+D2G BAG | E2D E2G | D2G BAG | A2B A3 | D2G BAG | E2D E2G | BAG ABA |1 G3 GEG :|2 G3 BAG |
+|: A2A EGE | A2A DEG | A2A BAG | A3 BAG | A2A EGE | A2A DEG |1 ABA GED | E3 BAG :|2 BAG ABA | G6 |]
+S:https://www.folktunefinder.com/tunes/14178
+S:http://trillian.mit.edu/~jc/music/abc/jig/FewNotesForNigel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FewNotesForNigel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/FewNotesForNigel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/FewNotesForNigel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/scots-l/FewNotesForNigel_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

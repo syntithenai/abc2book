@@ -1,0 +1,35 @@
+X:255
+T:Pinch of Snuff
+R:reel
+H:There are two other versions of this tune, #236 and #634.
+N:There is a different tune by the same name, #441.
+D:Chieftains Live.
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin.
+Z:id:hn-reel-36
+M:C|
+K:D
+F2DF E2DE|F2DF EFGE|F2DF E2DE|G2BG EFGE:|
+|:DFAF BFAF|DFAF EA,CE|DFAF BFAF|G2BG EFGE:|
+K:G
+|:B2GB A2GA|B2GB ABcA|B2GB A2GA|c2ec ABcA:|
+|:GBdB eBdB|GBdB ADFA|GBdB eBdB|c2ec ABcA:|
+K:A
+|:c2Ac B2AB|c2Ac BcdB|c2Ac B2AB|d2fd BcdB:|
+|:Acec fcec|Acec BEGB|Acec fcec|d2fd BcdB:|
+|:cdcB AGAF|ECC2 ECE=G|FDFA =GFGD|B,=G,G,2 B,G,B,D:|
+S:https://www.folktunefinder.com/tunes/67353
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

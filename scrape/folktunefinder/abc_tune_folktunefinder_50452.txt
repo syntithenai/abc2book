@@ -1,0 +1,27 @@
+X:1
+T:Mama's Fire
+M:4/4
+L:1/8
+Q:C4=110
+C:Paul Rosen
+S:Copyright 2006, Paul Rosen
+R:klezmer
+K:Dm
+(3ABA|:"Dm"d2^cd "A"e2 de|"Dm"fedf "A"e2 (3ABA|"Dm"d^cde fed^c|
+"Gm"B4G2(3ABA|"Dm"d2^cd "A"e2 de|"Dm"fedf e2fg|afdg "A"fe^ce|
+|1"Dm"d2A2 d2(3ABA:|2"Dm"d2A2 d2fg|:"Dm"a2f2 "Gm"g3e|"Dm"fed2 d2fg|
+agfa "Gm"g2e2|fedfe2 fg|"Dm"a2f2 "Gm"g3e|"Dm"fed2 f2fg|
+afdg "A"fe^ce|1"Dm"d2A2 d2fg:|2"Dm"d2A2 d2(3ABA|
+S:https://www.folktunefinder.com/tunes/50452
+S:http://paulrosen.net/tunes/original_tunes_abc.html
+S:http://www.paulrosen.net/tunes/original_tunes_abc.html
+% Rhythm Klezmer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

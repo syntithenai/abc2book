@@ -1,0 +1,25 @@
+X: 114
+T:Unnamed fragment. JMP.114
+M:4/4
+L:1/8
+S:John Miller MS. Perth, 1799.(for the fife)
+R:misc.
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graeb
+K:C major
+"No clef, key or time in MS"\
+AgAg AgAg AgAg AgAg AfAfA fAfA fAfAfA|]
+S:https://www.folktunefinder.com/tunes/2051
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

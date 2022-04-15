@@ -1,0 +1,23 @@
+X:2386
+T:Caber Feigh
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:C
+G2|:"C"c2ed c2GB|"C"c2GF E/2C3/2C2|"Dm"defe d2A^c|"Dm"d2AG F/2D3/2D2|
+"C"c2ed c2GB|"C"c2GF E/2C3/2CE|"Dm"DEFG ABcA|"Dm"d2AG F/2D3/2D2|
+"C"ecgc acgc|"C"ecgc e/2c3/2cd|"Dm"fdad bdad|"Dm"fgag f/2d3/2d2|
+"C"ecgc acgc|"C"GAcd e/2c3/2cg|"F"af"C"ge "G"fd"A"e^c|"Dm"d2AG F/2D3/2D2||
+S:https://www.folktunefinder.com/tunes/28666
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

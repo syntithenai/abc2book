@@ -1,0 +1,31 @@
+X:5
+T:Aberdeen Hunt
+C:Robert Petrie ()
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/5/04
+N:Petrie's First Collection, page 3
+L:1/8
+M:C
+R:Strathspey
+K:Bb
+D<GG>A      B>cd>=e   |f<dc>B          A<fA<F|\
+D<GG>A      B>cd<^f   |gd=fA        {a }G2Gd :|
+%The original doesn't have a repeat sign at the end of the above line -SW
+(g/a/b)     g>d B<dgc A>cf<a|\
+(g/a/b) g>d B<db>g    |f<df>A      G2Gd      |
+(g/a/b/a/) gd B<dgcf<a|\
+ ged>c     |dD d/c/B/A/     BGG  |]
+S:https://www.folktunefinder.com/tunes/71975
+S:http://nigelgatherer.com/tunes/abc/petrie/05.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/05.abc
+S:http://nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/petrie.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

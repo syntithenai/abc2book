@@ -1,0 +1,26 @@
+X: 1
+T: Loch Na Garr
+B: Joyce, P. W.; "Old Irish Folk Music and Songs"
+Z: Harry Burns <hburns@clara.NET>
+L: 1/8
+M: 3/4
+K: Dm
+A>d \
+| d2 c2 d2 | B2 AGFD | c2 d2 A2 | B2 A2 G2 \
+| F2 G2 A2 | B2 A2 G2 | A2 F2 D2 | d4 :|
+d>e \
+| f2 e2 f2 | g4 f>g | a2 f2 d2 | dc A3 A \
+| f2 e2 f2 | g2 f2 g2 | a2 f2 d2 | d4 fg |
+| a2 f2 a2 | g4 fe | d2 c2 d2 | de Hf2 AG \
+| F2 G2 A2 | {A}d3 c A2 | {F}GF D2 D2 | D4 |]
+S:https://www.folktunefinder.com/tunes/20042
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LochNaGarrW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/LochNaGarrW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

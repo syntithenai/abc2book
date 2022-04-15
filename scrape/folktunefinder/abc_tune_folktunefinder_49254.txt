@@ -1,0 +1,28 @@
+X: 48
+T:A Cheshire Hornpipe
+M:3/2
+L:1/4
+S:Wright 1713
+N:strain6, bar4, note 3 printed F; here corrected() to
+Z:p
+K:G
+G/A/B/c/dGFd|dA2dBA/G/|G/B/d/B/ F/A/d/A/ B/c/d|BG2dBA/G/||!
+afdafd|afdabg|afdafe/d/|eg2GBA/G/||!
+F/G/AB/c/dF/G/A|FAB/c/dBA/G/|FABdFA|dBGdBA/G/||!
+AFDAFD|AA,2DB,A,/G,/|AFDAFE/D/|B,G,2DB,A,/G,/||!
+AFDAFD|AFDABG|AFDAFD|dBGdBG||!
+L:1/8
+AGFE DEFG ABAF|A2A,4D2B,2A,G,|AGFE DEFG ABAF|G2G,4D2B,2A,G,||!
+AGFE DEFG ABAF|ABAF DEFD BcdB|ABAG DEFG ABAF|d2B2G2d2B2AG||
+S:https://www.folktunefinder.com/tunes/49254
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

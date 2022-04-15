@@ -1,0 +1,26 @@
+X:180
+T: Wiedersehn (2-84) S. 247
+N: P0955
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Liebe, Treue]
+M: 3/4
+L: 1/8
+K: G
+D2 | G3A_B2 | A2_B2A2 | G2F2G2 | D4
+D2 | G4A2 | d4d2 | c2B2A2- | A2z2
+BA | G2G2d^c | d2d2GG | G3FG2 | D4
+D2 | G2A2d2- | d4cB | A3BA2 | G4
+S:https://www.folktunefinder.com/tunes/76160
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Liebe, treue]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

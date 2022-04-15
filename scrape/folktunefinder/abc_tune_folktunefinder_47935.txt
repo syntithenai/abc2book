@@ -1,0 +1,29 @@
+X:210
+T:Seanamhac Tube Station
+R:jig
+C:John Carty
+D:At the Racket: At the Racket
+Z:Devin McCabe
+M:6/8
+L:1/8
+Q:120
+K:GMin
+GFD DFD|GAc ~d3|dcA cAF|GFD CDF|
+!GFD DFD|GAc ~d3|dcA cAF|1~G3 G2 A:|2~G3 GAc|
+!:~d3 dcA|~c3 cAc|dcA cAF|GFD CAc|
+!|1~d3 dcA|~c3 gfd|dcA cAF|~G3 GAc:||
+!2GFD DFD|GAc ~d3|dcA cAF|~G3 G2 A||
+S:https://www.folktunefinder.com/tunes/47935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

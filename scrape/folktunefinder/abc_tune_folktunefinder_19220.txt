@@ -1,0 +1,40 @@
+X: 1
+T: the Braes of Busby
+R: strathspey
+B: RSCDS 9-8
+O: Joseph MacFadyen's collection 1795
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow Strathspey"
+M: 4/4
+L: 1/8
+K: Gm
+|: F \
+| "Gm"D<G G>A B>A G>F | "F"C<F F>G Ac B/A/G/F/ \
+| "Gm"G>A B>c d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|: A \
+| "Bb"B>c d>B f>B d>B | "F"A>c f>d c>A F>A \
+| "Bb"B>c d>B f>B d>B | "F"c<A F>A "Gm"B<G G :|
+|: f \
+| "Gm"g2 B>g dg/a/ b>g | "F"f2 c>f cf/g/ a>f \
+| "Gm"g2 B>g d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|| A \
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Gm"B<d G>B GB/c/ d>B | "F"c<A F>A "Gm"B<G GA ||
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Bb"B>d fd | "F"c/B/A/G/ F>A "Gm"B<G G |]
+S:https://www.folktunefinder.com/tunes/19220
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfBusbyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfBusbyS_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOfBusbyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOfBusbyS_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfBusbyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfBusbyS_Gm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

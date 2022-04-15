@@ -1,0 +1,18 @@
+X: 1
+T: Heilani talo kivinen talo
+M: 3/4
+L: 1/8
+K: Dm
+[| "Dm"A2 DD DF | "Dm"A2 DD DF | "Gm"A2 GG GA | B2 "A7(Dm)"A2 z2 \
+|: "C7"c2 cc BB |  "F"A2 G2 FG | "A7"A2 GG FF | E2 "Dm"D2 z2 :|
+S:https://www.folktunefinder.com/tunes/18742
+S:http://trillian.mit.edu/~jc/music/abc/song/HeilaniTalo_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/HeilaniTalo_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/HeilaniTalo_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/HeilaniTalo_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

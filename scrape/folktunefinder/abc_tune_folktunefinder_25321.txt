@@ -1,0 +1,23 @@
+X:4869
+T:Orleans Baffled
+O:england
+M:3/2
+L:1/4
+Q:250
+B:The Round Band Book of Playford
+K:D
+"D"d2 a2 f2 | "Em"gb2 B "A7"cA | \
+"D"dc/2d/2 "A7"ed/2e/2 "D"fe/2f/2 | "G"gf/2g/2 "A7"ea "D"fd | \
+"A"A2 e2 c2 | "Bm"df2 F "E7"^GE | \
+"A"A^G/2A/2 "E7"BA/2B/2 "A"cB/2c/2 | "D"dB/2c/2 "E7"Be "A"cA | \
+"D"Ad "D7"d=c "G"BG | "E"Be "E7"ed "A"cA | \
+"Bm"dc/2d/2 "A7"eA "D"fA | "Em"gB "A7"ec "D"d2 ||
+S:https://www.folktunefinder.com/tunes/25321
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

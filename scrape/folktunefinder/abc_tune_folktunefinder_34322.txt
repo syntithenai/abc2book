@@ -1,0 +1,26 @@
+X: 6416
+T:Atholl Highlanders
+M:6/8
+L:1/8
+C:Trad
+R:Pipe March
+K:A
+|: e3 ecA | ecA Bcd | e3 ecA | Bcd cBA | e3 ecA | ecA Bcd | eae fed | cd
+B A3 :|
+|: Ace Ace | Adf Adf | Ace Ace | Bcd cBA | Ace Ace | Adf Adf | eae fed |
+ cdB A3 :|
+|: a2 e edc | a2 e edc | a2 e edc | Bcd cBA | a2 e edc | a2 e edc | eae
+fed | cdB A3 :|
+|: cAc cAc | dBd dBd | cAc cAc | B=GB B=GB | cAc cAc | dBd dBd | eae fed
+ |
+ cdB A3 :|
+S:https://www.folktunefinder.com/tunes/34322
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

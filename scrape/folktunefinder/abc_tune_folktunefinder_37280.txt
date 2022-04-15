@@ -1,0 +1,30 @@
+X:6005
+T:Swan's March
+A:North-West
+M:C
+N:P25(2nd), 1/2
+O:England
+R:March
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000594.html
+%%ID:00000594
+K:D
+d>c |\
+d2DDD2f>e        |f2DDD2A2 |\
+B2 (3gfe d2c2    |d2ddd2e2 |\
+f4g4             |a2eee2d2 |
+(3cde (3ged c2B2 |A2AAA2  ::\
+ee|\
+e2AA Aceg        |agfe gedc |
+dd AA FF DD      |A2AAA2dc  |\
+d2DDD2a2         |b4a3f     |\
+(3gef (3gfe d2c2 |d2ddd2:|
+S:https://www.folktunefinder.com/tunes/37280
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

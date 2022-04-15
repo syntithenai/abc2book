@@ -1,0 +1,43 @@
+X: 1
+T: Dorogoy Dal'noyu #1
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+| "A7"AAAA f2e2 \
+| gfe2 "Dm"d4 \
+| AABc "D7"d3A \
+| "Gm"BA G6 \
+| "Dm"ddef g3f \
+| edf2 d4 \
+| ddef "Ddim"aa^gf \
+| "A7"e6 A |
+| "A7"Hf4 He4 \
+|: "Dm"e3d d4- \
+| d2d2 "D7"d2c2 \
+| "Gm"c3B B4- \
+| B2G2 A2B2 \
+| "C7"c6 d2 \
+| e3d c2B2 \
+| "F"A8- |
+| A2=F2 "D7"G2A2 \
+| "Gm"c3B B4- \
+| B2d2 d2B2 \
+| "Dm"A3A A4- \
+| A2d2 e2f2 \
+| "A7"a6 g2 \
+| f2e2 d2^c2 \
+|1 "Dm"d3 A \
+| "A7"Hf4 He4 \
+:|2 "Dm"d8 :|
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/7752
+S:http://trillian.mit.edu/~jc/music/abc/Russia/DorogoyDalnoyu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

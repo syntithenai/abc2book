@@ -1,0 +1,40 @@
+X: 10
+T:La Montreuil
+T:Contredanse
+R:Contredanse
+O:France
+C:Anonyme
+C:Harm. J.-B. Giai
+S:Carnet de E. Magaud (coll. La Capouliero)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+V:1 name=V
+(gf)g | G2G GAB |c3 ABc | ded dcB | A2G (gf)g | G2G GAB |
+c3 e3 | dcB AGF | G3 ::  d2c | (cB)A (AG)F | d2c (BA)G | g2d (dc)B |
+B2A d2c | (cB)A (AG)F | d2d de=f | eag ^fed | ^cBA a2f | d2d def |
+g3 efg | aba agf | f2e a2f | d2d def | g3 efg | agf ed^c |
+d3 gfe | .d.d.d edc | .B.B.B gfe | ded dcB | A3 (gf)g | G2G GAB |
+c3 ABc | ded dcB | A2G (gf)g | G2G GAB | c3 ABc | dc'b agf | g3 :|
+V:2 name=G
+B2B | G2G ^f2f | e3 FGA | F2F fed | c2B BdB | BAB GFG |
+e3 cBc | fed cBA | B3 :: F2A | (AG)F F2F | FGA G2B | B2B (BA)G | 
+G2F F2A | (AG)F F2F | FAG Bcd |ccB AGF | AGF d^cd | F2F FAd |
+B3 GAB | ^cdc ceA | A2A d^cd | F2F FAd |B3 GAB | ^cBA GFA |
+F3 ed=c | .B.B.B cBA | .G.G.G edc | BcB BAG |F3 B2B | G2G =f2f |
+e3 FGA | BcB BAG | F2G B2B | BcB GFG | e3 FGA |Bed cBd | B3 :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/39565
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Contredanse
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,117 @@
+X:186
+T:Dreier-Steirer
+C:traditionell
+R:Steirer
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+S:im buch mit der angabe: Aufzeichnung von Oberbergmeister Leopold Khals, Bad Aussee
+N:im buch ganz in G, dreistimmig
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+P:Eingang
+d2 |\
+(b4 g2) | (d4 g2) | b4 ||
+V:2
+d2 |\
+(g4 d2) | (B4 d2) | g4 ||
+V:3
+d2 |\
+(d4 B2) | (G4 B2) | d4 ||
+V:1
+P:1
+(bg) |\
+(gd) d2 (Bd) | (Ad) d2 (c'f) | (fd) d2 (cd) | (Bd) d2 (bg) |\
+(gd) d2 (Bd) | (Ad) d2 (c'f) | (fd) d2 ef "&"| g2 z2 :|
+V:2
+(gd) |\
+(dB) B2 (GB) | (FA) A2 (fd) | (dA) A2 (FA) | (GB) B2 (gd) |\
+(dB) B2 (GB) | (FA) A2 (fd) | (dA) A2 (FA) "&"| B2 z2 :|
+V:3
+(d'b) |\
+(bg) g2 (dg) | (cf) f2 (e'c') | (c'f) f2 (df) | (dg) g2 (d'b) |\
+(bg) g2 (dg) | (cf) f2 (e'c') | (c'f) f2 (dd') "&"| b2 z2 :|
+V:1
+P:2
+(dg) |\
+bz gz d2 | (cdfc) d2 | (cdf)(c df) | (Bdg)(B dg) |\
+bz gz d2 | (cdfc) d2 | (cdf)(c df) "&"| g2 z2 :|
+V:2
+(Bd) |\
+gz dz B2 | (FAdF) A2 | (FAd)(F Ad) | (GBd)(G Bd) |\
+gz dz B2 | (FAdF) A2 | (FAd)(F Ad) "&"| B2 z2 :|
+V:3
+(gb) |\
+d'z bz g2 | (dfad) f2 | (dfa)(d fa) | (dgb)(d gb) |\
+d'z bz g2 | (dfad) f2 | (dfad' f'd') "&"| b2 z2 :|
+V:1
+P:3
+(GB) |\
+.d2 (.d3B) | (c2 a2 f2) | .d2 (.d3c) | (B2 b2 g2) |\
+.d2 (.d3B) | (c2 a2 f2) | (cdf)(c df) "&"| g2 z2 :|
+V:2
+(DG) |\
+.B2 (.B3G) | (A2 f2 d2) | .c2 (.c3A) | (B2 g2 d2) |\
+.B2 (.B3G) | (A2 f2 d2) | (Acd)(A cd) "&"| B2 z2 :|
+V:3
+(Bd) |\
+.g2 (.g3d) | (e2 c'2 a2) | .f2 (.f3e) | (d2 d'2 b2) |\
+.g2 (.g3d) | (e2 c'2 a2) | (fad')(f ad') "&"| b2 z2 :|
+V:1
+P:4
+D2 |\
+.g2 .a2 "^_"b2 | c'2 f2 d2 | c'2 f2 d2 | b2 g2 d2 |\
+.g2 .a2 "^_"b2 | c'2 f2 d2 | c'2 f2 d2 "&"| g2 z2 :|
+V:2
+GG |\
+.B2 .d2 "^_"g2 | f2 d2 c2 | f2 d2 c2 | g2 d2 B2 |\
+.B2 .d2 "^_"g2 | f2 d2 c2 | f2 d2 c2 "&"| B2 z2 :|
+V:3
+gg |\
+.b2 .c'2 "^_"d'2 | e'2 c'2 f2 | e'2 c'2 f2 | d'2 b2 g2 |\
+.b2 .c'2 "^_"d'2 | e'2 c'2 f2 | e'2 c'2 f2 "&"| b2 z2 :|
+V:1
+P:5
+(df) |\
+(gB) d3 g | (fA)(df) a2 | (fA) d3 f | (gB)(dg) b2 |\
+(gB) d3 g | (fA)(df) a2 | (fA) (dfAf) "&"| g2 z2 :|
+V:2
+(Bc) |\
+(dG) B3 e | (dF)(cd) f2 | (dF) c3 e | (dG)(Bd) g2 |\
+(dG) B3 e | (dFcd) f2 | (dF) (cdFd) "&"| B2 z2 :|
+V:3
+(ga) |\
+(bd) g3 b | (ad)(fa) "^"c'2 | (ad) f3 d' | (bd)(gb) d'>c' |\
+(bd) g3 b | (ad)(fa) "^"c'2 | (ad) (fadd') "&"| b2 z2 :|
+V:1
+P:6
+(df) |\
+.g(dB)(d g)d | .f(dc)(d f2) | .f(dc)(d f)d | .f(dB)(d g2) |\
+.g(dB)(d g)d | .f(dc)(d f2) | .f(dc)(d f)a "&"| g2 z2 :|
+V:2
+(Bc) |\
+.d(BG)(B d)B | .d(cF)(c d2) | .d(cF)(c d)c | .d(BG)(B d2) |\
+.d(BG)(B d)B | .d(cF)(c d2) | .d(cF)(c d)c "&"| B2 z2 :|
+V:3
+(ga) |\
+.b(gd)(g b)g | .a(fd)(f a2) | .a(fd)(f a)d' | .b(gd)(g b2) |\
+.b(gd)(g b)g | .a(fd)(f a2) | .a(fd)(f a)d' "&"| b2 z2 :|
+V:1
+P:Ausgang
+.gz "&" (BA) B2 | (BGBd) (gd) | (cfdc) (fd) | Bz (Bd) (Gd) | B4 |]
+V:2
+.dz (gf) g2 | (gBDG) (bB) | (fd'c'f) (d'f) | gz (gb) (db) | g4 |]
+V:3
+.bz (ba) b2 | (bdgb) (d'b) | (af'd'a) (f'd') | bz (bd') (gd') | b4 |]
+S:https://www.folktunefinder.com/tunes/45620
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

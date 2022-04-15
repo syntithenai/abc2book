@@ -1,0 +1,34 @@
+X: 1
+T: the Soldier's Joy
+O: Joshua Campbell's Collection 1778
+R: reel
+B: RSCDS 2-6
+N: Suitable Pipe Tunes "The East Neuk of Fife" "Portee men".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]cB | [AD]FDF [AD]FDF | "A7"G2[E2C2] [E2C2]FG |
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]de | fafd "A7"egec | "D"[d2A2][d2A2] [d2A2] :|
+|: de \
+| "D"[f2A2][f2A2] [fA2]agf | "A7"edcd efge | "D"[f2A2][f2A2] [fA2]agf | "A7"edcB A2g2 |
+| "D"f2fe fagf | "A7"edcd efge | fafd "A7"egec | "D"d2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/18135
+S:http://trillian.mit.edu/~jc/music/abc/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel/SoldiersJoyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/reel/SoldiersJoyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

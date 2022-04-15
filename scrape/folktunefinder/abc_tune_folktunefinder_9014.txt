@@ -1,0 +1,30 @@
+X: 1
+P: F\"ollingers sista komposition
+R: \AAtabaks-polska
+C: G\"oran Olsson-F\"ollinger
+S: Arrangement by Mats Andersson, plus handwritten annotations
+D: Mats & Ulf Andersson "L\aatar fr\aan F\"ollingetrakten i J\"amtland"
+Z: 2000 John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: G
+|: "G"G,2(B, D2)(G B2)d | "D"c(Ac) "G"B(AG) "D"A(GF) \
+|  "G"G2(B d2)(f g2)b | "D"a(fa) "G"g(fe) "D"f(ed-) |
+|  "G"d2(F G2)(A B2)(d | "D"c)(Ac) "G"B(AG) "D"A(GF) \
+| "G"F2(G B2)(d "(D)"g2)b | "D"a(fa) "G"g6 "fine"[|]:|
+|: "G"{G,DB}g2f g2a b2g | "C"{fg}f(ef) g(fe) "G"d3- \
+| "C"d2(B c2)(d e2)c | "G"{Bc}B(AB) "D"c(BA) "G"G3- |
+| "G"G,2(f g2)(a b2)g | "C"{fg}f(ef) g(fe) "G"d3- \
+| "D"d2(^c d2)(e "(A)"f2)a | "A7"{ga}g(e^c) "D"d6 :|
+S:https://www.folktunefinder.com/tunes/9014
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Follinge1.abc
+% Rhythm %C3%85tabaks-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/16
+% Text Has source text
+% Has_accompaniment_chords Has chords

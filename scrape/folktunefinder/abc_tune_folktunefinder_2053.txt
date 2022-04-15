@@ -1,0 +1,28 @@
+X: 116
+T:Elgin. JMP.116
+M:2/2
+L:1/2
+S:John Miller MS. Perth, 1799.(for the fife)
+R:sacred
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:A minor
+c2 | BA | Be | dc | B2 ||\
+A2 | dc | BA | B ||\
+e | ce | dB | cd | B2 ||\
+A2 | dc | BB | A2 ||
+S:https://www.folktunefinder.com/tunes/2053
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Sacred
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

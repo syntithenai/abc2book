@@ -1,0 +1,31 @@
+X:243
+T: Marienlied des 15. Jahrhunderts
+N: A0602
+O: Europa, Mitteleuropa, Deutschland
+N: Hs Muenchner Bibl. 1506
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/2
+L: 1/2
+K: F
+F2 | A2AB2c | c2B2z
+A | G2FF2G | A2G2
+F2 | A2AB2c | c2B2z
+A | G2FF2G | A2G2
+A2 | GB2AG2 | E2C2
+C2 | F2EF2G | A2G2
+F2 | A2AB2c | c2B2
+A2 | B2AG2F | E2C2z
+C | F2EF2B | AGF2
+S:https://www.folktunefinder.com/tunes/80302
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

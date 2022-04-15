@@ -1,0 +1,25 @@
+X:2
+T:Tyson's Commodious Box
+C:Andy Hornby 1992
+I:abc2nwc
+L:1/8
+K:C
+G|c2de d/2c/2B/2c/2 d/2c/2B/2A/2 BG|B2cd c/2B/2A/2B/2 c/2B/2A/2B/2 cG|
+e2fg f/2e/2d/2e/2 f/2e/2d/2c/2 BG|f2f/2e/2d/2c/2 d/2c/2B/2A/2 G/2c/2c/2B/2 c:|
+E|A2Bc B/2A/2d/2B/2 c/2B/2A/2B/2 ^GE|
+^G2AB d/2c/2B/2A/2 ^G/2A/2B/2G/2 AE|
+e2ce d/2e/2c/2e/2 d/2c/2B/2A/2 ^GB|
+f/2e/2d/2c/2 B/2A/2^G/2A/2 B/2c/2B/2G/2 A:|
+%%textfont Timesbold 25
+%%center  MISCELLANY
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43784
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

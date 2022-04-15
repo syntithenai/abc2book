@@ -1,0 +1,27 @@
+X:11
+T:Pretty Little Dog
+Z:abc from someone else; modified by Tom Novelli
+B:Fiddler's Fakebook (in a useless layout)
+L:1/8
+K:Am
+"Am"A2E2 G2AG |     EDC2 A,2G,2 | "Am"A,G,A,B,   C2D2 |  "G"DE2G  EDC2    |
+"Am"A3A  E2D2 | "Am"EDC2 A,2G,2 | "Am"A,2A,A, "G"C2C2 | "Am"A,3A, A,2A,B, ||
+"Am"C2A,B, C2D2 | "C"ED (3CB,A, "G"G,2G,2 | "Am"A,G,A,G, C2D2 | "E"DE2G EDC2 |
+"Am"A3A E2D2 | "C"EDCG, "G"A,2G,2 | "Am"A,G,A,G, "G"C2C2 | "Am"A,3G, A,2(3efg ||
+"Am"a2g2   edcd | "Am"eged "G"cAG2 | "Am"AGAB    c2d2 |  "E"e3g  e2e2  |
+"Am"a2g2   edcd | "Am"eged "G"cAG2 | "Am"AGAB "E"c2c2 | "Am"A3B  A4    ||
+"Am"cBAB   c2d2 |  "C"edcA "G"G2A2 | "Am"AGAB    c2d2 |  "E"e2eg e2a2- |
+"Am"a2g2   edcd | "Am"eged "G"cAG2 | "Am"AGAB "E"c2c2 | "Am"A4 A4      ||
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58822
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

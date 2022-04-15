@@ -1,0 +1,25 @@
+X:68
+T: SAGT MIR AN WAS SCHMUNZELT IHR
+N: F0167
+O: Europa, Mitteleuropa, Deutschland
+R: Tanz - Lied, Reigen
+M: 4/4
+L: 1/8
+K: D
+ | D2D2C2C2 | B,2B,2A,4
+B,2A,2B,2A,2 | G,2F,2E,4
+F,2F,2E,2E,2 | F,2F,2E,2E,2
+F,2F,2E,2E,2 | F,2F,2E,2E,2
+F,2E,2F,2G,2 | A,4D2z2
+G,F,E,D,A,2A,2 | D,4z4
+S:https://www.folktunefinder.com/tunes/69628
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

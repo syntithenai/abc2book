@@ -1,0 +1,23 @@
+X:236
+T: Abendreihen
+N: A0283A
+O: Europa, Mitteleuropa, Deutschland
+N: Babst Gsgb 1545 II Bl. 37
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+G4 | B2A2 | B2c2 | d2ze | d2B2 | G4
+G4 | B2A2 | B2c2 | d2ze | d2B2 | G2
+d2 | B2A2 | G2D2 | ABcB | G4
+S:https://www.folktunefinder.com/tunes/68782
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

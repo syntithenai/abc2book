@@ -1,0 +1,26 @@
+X:422
+%%topmargin 3cm
+T:Miss Stewart Robertson of Edradynate
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+B | AFAc Tf2 (cf) | dfcA BGGB | [1 (AF)Ac Tf2 (cf) | dfcf AFF :|
+[2 (AF)cA Bcde | fcdB AFF || f| afge Tf2 (cB) | AcfA BGGf | afge Tf2 (cB) |
+Acfc AFFf | afge Tf2 (cB) | AcfA BGGB | (AF)cA Bcde | fcdB AFF |]
+W:
+W:From Stewart Robertson's Collection.
+S:https://www.folktunefinder.com/tunes/71451
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

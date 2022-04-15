@@ -1,0 +1,30 @@
+X:190
+T:Saint Patrick's Day
+M:6/8
+L:1/8
+R:set dance
+R:jig
+N:This version is more interesting than that usually played at Feises.
+K:G
+~G3 GBd|gfe dBG|cBc AFD|EFE E2D|
+~G3 GBd|gfe dBG|1 cBc AFD|E2F G2D:|2 cde dBG|E2F G2B||
+|:def gag|fed e2B|def gag|fed e2B|def gbg|fed efg|
+GAG GBd|gfe dBG|cBc AFD|EFE EFD|
+GAG GBd|gfe dBG|cde dBG|1 E2F G2B:|2 E2F G2D||
+%%text other version
+G3 GAB|d3 dBG|AGA BGD|E3 E2D|G3 GAB|d3 dBG|AGA BGD|E2F G3:|
+def g2e|fed edB|def g2e|fed e3|def g2e|fed edB|
+G3 GAB|d3 dBG|AGA BGD|E3 E2D|G3 GAB|d3 dBG|AGA BGD|E2F G3:|
+S:https://www.folktunefinder.com/tunes/63737
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Set dance
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

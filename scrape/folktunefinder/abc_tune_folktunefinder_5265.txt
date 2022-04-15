@@ -1,0 +1,24 @@
+X: 1
+T: Ahavat hadassah
+C: S.Shabazi
+O: Yemeni Jewish
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+Q: "Slowly and sadly"
+%%staffsep 35
+W: The love of Zion is bound securely to my heart, but alas I am in the diaspora.
+K: C
+|: "C"G2 c2 c2 c2 | (de cd) e3 e | "Dm"g2 (fe) "G7"d2 f2 |1 "C"(e3 d c4) :|2 "C"e6 z2 ||
+w: Aha-vat ha-das-sah___ al l'- va-vi*  nik-sh'-ra,__ \-ra,
+|: "Dm"f3 e f3 e | "G7"(de) (cd) "C"e3 d | "F"c2 e2 [1 "G7"d2 c2 | "C"g8 :|2 "G7"(dc) (Bd) | "C"c8 |]
+S:https://www.folktunefinder.com/tunes/5265
+S:http://trillian.mit.edu/~jc/music/abc/Intl/AhavatHadassah.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:4195
+T:Pasodobre de Viascon
+A:Galicia
+L:1/8
+M:2/4
+O:Spain
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000819.html
+%%ID:00000819
+K:D
+dc|                                \
+dB BA|[F2D2] dc|dB BA|[G2E2] cB|   \
+cA AG|[E2C2] cB|AA BA|[F2D2] dc|   \
+dB BA|[F2D2] dc|dB BA|[G2E2] cB|   \
+cA AG|[E2C2] cB|AA Bc              \
+|1 [D4(d4]|[d2)D2] :|2             \
+(d4|d4)| c/d/c/B/ (A2|A)d cB|      \
+A/B/A/G/ (F2|F2) AF||
+|:(A4|A)[FD] [AF][FD]|             \
+[G/E/][A/F/][G/E/][F/D/] [C2(E2]|  \
+[E2)C2] [BG][GE]|                  \
+(B4|[B)G][GE] [BG][GE]|            \
+[A/F/][B/G/][A/F/][G/E/] [F2(D2]   |\
+[D2)F2] [AF][FD]                   |
+(A4|[A)F][FD] [AF][BG]             |\
+[c/A/][d/B/][c/A/][B/G/] [c2(A2]   |\
+[A)c][BG] [cA][dB]                 |\
+[c/A/][d/B/][c/A/][B/G/] [A2(F2]   |\
+[F)A][GE] [AF][BG]                 |\
+[A/F/][B/G/][A/F/][G/E/] [F2D2]     \
+|1 [F2D2] [AF][FD] :|2 [F2D2] FA|dz3||
+S:https://www.folktunefinder.com/tunes/36918
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

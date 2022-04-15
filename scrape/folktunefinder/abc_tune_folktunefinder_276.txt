@@ -1,0 +1,39 @@
+X: 1
+T: Rokoko Kolo
+O: Croatia
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+N: From a transcription by Cal Howard.
+M: C|
+L: 1/8
+K: C
+P: C
+|: "C"c2c2 c2c2 | dcdc "E"B4 | "Am"A2A2 A2A2 | "E"BcBA ^G3E |
+|  "Dm"F2F2 F2F2 | ^GABA "E"G4 | "Dm"BA^GA GFED | "E"E2E2 E2z2 :|
+P:
+K: D
+|: "D"F2GA BAGF | "A7"G6 AG | "D"F2GA BAGF | "A7"G6 AG |
+|  "D"F2GA BAGF | "A7"BAGF G2^GA | "Dm"BA^GA "E"GFED | "A"E2E2 E2z2 :|
+P: G
+K: G
+|: "G"g2g2 g2g2 | agag "B"f4 | "Em"e2e2 e2e2 | "B"fgfe ^d3B |
+|  "Am"c2c2 c2c2 | ^defe "B"d4 | "Am"fe^de dcBA | "B"B2B2 B2z2 :|
+P:
+K: A
+|: "A"c2de fedc | "E7"d6 ed | "A"c2de fedc | "E7"d6 ed |
+|  "A"c2de fedc | "E7"fedc d2^de | "Am"fe^de "B"dcBA | "E"B2B2 B2z2 :|
+S:https://www.folktunefinder.com/tunes/276
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/RokokoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/RokokoKolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RokokoKolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key A
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

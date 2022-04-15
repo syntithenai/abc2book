@@ -1,0 +1,32 @@
+X: 30
+T: Maurice O'Keeffe's (3)
+T: Rob Roy's March
+T: McGregor's March
+S: Maurice O'Keeffe
+Z: Paul de Grae  irtrad-l 2000-09-06 (reformatted by John Chambers)
+N: Paul writes:
+N: Maurice came to our session last night and I asked him  where  he  got  the
+N: tune  from  (from where he got the tune, if you insist).  He said he got it
+N: from his"master" (first music teacher) Johnny  Linehan,  and  that  Linehan
+N: called it "The Drunken Peeler".  Maurice regards it as a very old tune.
+R: polka
+M: 2/4
+L: 1/8
+K: D
+|: A>B A>B | Ad dc | B>c B>c      |  Be Bd \
+|  A>B A>B | Ad dc | BA  B/A/B/c/ |1 d2 dB :|2 d2 de ||
+|: f2  fe  | fB BA | Be  e>f      |  ed BA \
+|  f>g fe  | fB BA | Be  B/A/B/c/ |1 d2 de :|2 d2 d2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6335
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

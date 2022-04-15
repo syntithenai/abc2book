@@ -1,0 +1,59 @@
+X: 1
+T: Y saaristossa
+T: Night in the Islands
+C: Zbigniev Korepta 1959
+R: tango
+M: C
+L: 1/8
+%%staffsep 40
+K: Em
+CC \
+| "B7"B,2B,2 "F9"[G2_E2G,2][G2_E2G,2] \
+| "Em"[E4-G,4-] [EG,]B,^C^D \
+|: "Em"E2E2 "D"D2DD \
+| "G"B,2B,2- "B7"B,B,^C^D \
+| "Em"E2E2 "D"(3F2E2D2 \
+| "G"B,4- "B7"B,B,B,B, |
+| "Em"B,2B,2 "E7"E2EE \
+| "Am"A,2A,2- A,A,A,A, \
+| "Em"G,2G,2 "Am"(3A,2C2E2 \
+| "B7"^D4- DB,^C^D \
+| "Em"E2E2 "D"D2DD \
+| "G"B,2B,2- "B7"B,B,^C^D |
+| "Em"E2E2 "D"(3F2E2D2 \
+| "G"B,4- "B7"B,B,B,B, \
+| "Em"B,2B,2 "E7"E2EE \
+| "Am"A,2A,2- A,A,A,A, \
+| "Em"G,2G,2 "Am"A,2"F#7"^A,2 \
+| "B7"B,6 B,2 \
+|| "Em"G4 G2E2 |
+| "Am"C4 (3C2D2E2 \
+| "D"(3F2F2F2 (3F2E2D2 \
+| "G"B,4 (3B,2C2D2 \
+| "C"E2E2 (3E2C2B,2 \
+| "F#7"^A,4 A,2 A,2 \
+| "B7"B,3 B, B,2 "F#7"^C2 \
+| "B7"^D6 B,2 \
+| "Em"G4 (3[B2E2][G2E2]E2 \
+| "Am"C4 (3C2D2E2 |
+| "D"(3F2F2F2 "Bm7"(3[A2D2][F2D2]D2 \
+| "G"B,4 (3B,2C2D2 \
+| "C"(3E2E2E2 "Am7"(3[G2C2][E2C2]C2 \
+| "F#7"^A,4 A,2A,2 \
+| "B7"B,2B,2 "F9"[G2_E2][G2_E2] \
+|1 "Em"[=E4-G,4-] [EG,]B,^C^D \
+:|2 "Em"=E4 {EFGA}"F9"[B4G2_E4A,4] |]
+S:https://www.folktunefinder.com/tunes/4681
+S:http://trillian.mit.edu/~jc/music/abc/Finland/YoSaaristossa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/YoSaaristossa.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/YoSaaristossa_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango/YoSaaristossa_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/YoSaaristossa_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/YoSaaristossa_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/YoSaaristossa_Em.abc
+% Rhythm Tango
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 322
+T:Cock Step, The
+M:4/4
+L:1/8
+C:Zo Conway
+R:reel
+D:Zo Conway: Zo Conway
+Z:Devin McCabe
+K:DDor
+D2-|:DEFG AD D/2D/2D|AcBG cGcB|M:6/4 AFFD CGGE FE|
+!M:4/4 DEFG AD D/2D/2D|AcBG cGcB|AFFD CGGE|1M:2/4 FEDA,:|2FEDA|
+!:M:4/4  ~d3A fedA|cdef ~g2ec|M:6/4 dA A/2A/2A fdaf gfec|
+!M:4/4 ~d3A fedB|cAGE CDEG|AFFD CGGE|1M:2/4 FEDA:|2FEDF|
+!:M:4/4 G3D DFGc|AcGA FDCF|D~G3 GAGF|M;3/4 D/2E/2F ECDF|
+!G3D DFGc|AcGA cAGc|AFFD CGGE|1M:2/4 FEDF:|2FED2-||
+S:https://www.folktunefinder.com/tunes/48753
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irishtunes.net/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

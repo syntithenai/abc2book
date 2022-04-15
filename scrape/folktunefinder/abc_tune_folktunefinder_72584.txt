@@ -1,0 +1,28 @@
+X:127
+T: Jetzt muessen wir marschieren,
+N: D0194
+O: Europa, Mitteleuropa, Deutschland, Brandenburg, Berlin
+N: Inzipit = Transposition zum Lied, Sequenzen
+R: Soldaten - Lied
+M: 4/4
+L: 1/16
+K: A
+E4 | A4A4B4d4 | c8B8
+c4B2A2A4G4 | A4z4z4
+E4 | A4A4B4d4 | c8B8
+c4B2A2A4G4 | A4z4z4
+c2d2 | e4e4e3ed2c2 | d4z4z4
+B2c2 | d4d4d3dc2B2 | c4z4z4
+E4 | A4A4B4d4 | c8B8
+c4B2A2A4G4 | A4z4z4
+S:https://www.folktunefinder.com/tunes/72584
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

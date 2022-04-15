@@ -1,0 +1,29 @@
+X: 1
+T: Trekantet sl\ojfe fra Thy
+O: Denmark
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+F: http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksthy
+M: 6/8
+L: 1/8
+K: A
+|: {efg}"A"a2c c2c | "A"cde f2e | "A"a2c    f2e |1 "E7"dcB "A"c2A :|2 "E7"dcB "A"A2z ||
+|:      "A"Ace efe |"E7"Bcd dcB | "D"agf "A"efe |1 "E7"dcB "A"c2A :|2 "E7"dcB "A"A2z ||[K:=g]
+K: D
+|:     "A7"A2A ABc | "D"d2d dcd |"A7"e2f    ABc |1  "D"d2f    a3  :|2 "D"d2f d2z |]
+S:https://www.folktunefinder.com/tunes/15196
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksthy
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treksthy
+S:http://trillian.mit.edu/~jc/music/abc/jig/TrekantetSlojfeFraThy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/TrekantetSlojfeFraThy_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/TrekantetSlojfeFraThy_A.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

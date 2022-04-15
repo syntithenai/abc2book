@@ -1,0 +1,20 @@
+X: 113
+T: Bastringue, La
+O: trad Qu\'ebec
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: D
+|: "D"f2ff f2gf | "A7"e2c2 "D"d4 |1 "A7"c2d2 efec | "D"d2e2 f2d2 :|2 "G"g3f e2d2 | "A7"B2c2 d4 :|
+|: "D"~d2fd adfd | "C"~=c2ec gcec | "D"~d2fd adfa |1 "A7"bgec "D"dcBA :|2 "A7"bgec "D"d4 :|
+S:https://www.folktunefinder.com/tunes/30622
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

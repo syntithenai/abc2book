@@ -1,0 +1,22 @@
+X: 3737
+T:Sean Ryan's Jig
+R:double jig
+M:6/8
+L:1/8
+K:D
+|:A|dcd AFE|FED ECA,|DFA dfa|ged cBA|!
+dcd AFE|FED ECA,|DFA dfa|gec d2:|!
+|:g|fed faf|ged cde|fdB gec|dcB A2A|!
+d3 afd|B3 gec|1 dcd AFD|A,CE D2:|2 dcd ABG|FGE D3||!
+S:https://www.folktunefinder.com/tunes/33505
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

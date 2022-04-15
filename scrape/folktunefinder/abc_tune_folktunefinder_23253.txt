@@ -1,0 +1,42 @@
+X:2802
+T:i.k.a. Upton on Severn
+O:england
+C:
+S:Chingford MM
+N:
+A:Chingford
+R:
+P:A.(AB)$^2$.(AC)$^2$.A
+K:D
+I:speed 300
+P:A
+z |\
+D2 A AFA | Bcd AFD | DFA AFA | B2 c d3   |\
+D2 A AFA | Bcd AFD | dfd ecA | B2 c d2   ||
+W:play 3 times \& repeat last 4 bars
+P:B
+G |\
+dfd  ecA | Bcd AFD | dfd ecA | B2 c d2 G |
+dfd  ecA | Bcd AFD | DFA AFA | B2 c d2   ||
+M:2/4
+L:1/8
+P:C
+G |\
+df d2 | ec A2 | Bc d2 | AF D2 | df d2 | ec A2 | B2 c2 | d2 G2 |
+df d2 | ec A2 | Bc d2 | AF D2 | DF A2 | AF A2 | B2 c2 | d2-d
+G |\
+df d2 | ec A2 | Bc d2 | AF D2 | df d2 | ec A2 | B2 c2 | d2 G2 |
+M:6/8
+dfd  ecA | Bcd AFD | DFA AFA | B2 c d2 ||
+M:4/4
+S:https://www.folktunefinder.com/tunes/23253
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

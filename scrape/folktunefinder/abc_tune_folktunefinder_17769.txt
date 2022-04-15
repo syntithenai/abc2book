@@ -1,0 +1,29 @@
+X: 1
+T: the New Virginia Reel
+C: Muriel Johnstone
+R: reel
+B: RSCDS 39-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: d2 \
+| "G"G2Bd g2d2 | "D"bagf "G"g2d2 | "C"ecge "G"dBgd | "Am"cBAG "D7"AcBA |
+| "G"G2Bd g2d2 | "D"bagf "G"g3=f | "C"eceg "D7"fdfa | "G"g2b2 g2 :|
+|: f2 \
+| "G"g2dB GdBG | "Am"cBAG "D"A2f2 | "G"g2GA BGdc | "D"B2A2 A3 d |
+| "C"ecge "G"dBgd | "Am"cBAG "D"GFED | "C"ECEG "D7"FDFA | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/17769
+S:http://trillian.mit.edu/~jc/music/abc/reel/NewVirginiaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/NewVirginiaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/NewVirginiaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/NewVirginiaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NewVirginiaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/NewVirginiaR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

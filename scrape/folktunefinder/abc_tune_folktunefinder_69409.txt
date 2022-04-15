@@ -1,0 +1,25 @@
+X:550
+T: "Zum letztenmal"
+N: Z1230
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+BBcdcBAG | B2cdcBAG
+G2BdG2Bd | edcBB2A2
+B2ccd2B2 | dcBAB2G2
+A2BBc2A2 | dcBAB2G2
+G4A4 | B2deB2A2 | G8
+S:https://www.folktunefinder.com/tunes/69409
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

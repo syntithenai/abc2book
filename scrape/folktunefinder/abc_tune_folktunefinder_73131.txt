@@ -1,0 +1,26 @@
+X:235
+T: Planxty Miss Burke
+C: O'Carolan
+B: O'Neill's 672
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Lively"
+N: The second section has a repeat at the end but not at the beginning.
+M: 6/8
+L: 1/8
+K: D
+d2d ded | (c<e)z efg | {g}fed fed | (f<a)z z3 |
+| a2f {a}gfe | dcB ABc | dFA dFA | d3 d2 :|
+||A \
+| (fa/b/).a {a}gfe | d2A d2A | bag fed | (c<e)z z2e |
+| .a(f/g/a) .b(g/a/b) | .a(f/g/a) geg | {g}fed {B}cAc | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/73131
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Old Nick's Lumber Room
+T:the Pawnbroker's Warehouse
+S:Edinburgh Public Library "Musical Scraps" v2 p116
+Z:Jack Campin 1998
+N:press cutting in 19th century style
+N:anybody know where it comes from
+M:6/8
+L:1/8
+K:A
+A3 (cAc)|eae  cAc|E3 (GEG)|B^dB GEG|A3   cAc|eae cAc|faf ^dBd|e3- [e3E3] :|
+E3  GEG |B^dB GEG|A3  cAc |eae  cAc|faf ^dBd|eae cAc|B^dB GEG|A3  [A3A,3]:|
+S:https://www.folktunefinder.com/tunes/14802
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldNicksLumberRoom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/PawnbrokersWarehouse_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/OldNicksLumberRoom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/PawnbrokersWarehouse_1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

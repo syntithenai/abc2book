@@ -1,0 +1,24 @@
+X:3400
+T:Cooley's
+R:Reel
+D:Dubliners: 25 Years Celebration.
+Z:id:hn-reel-48
+M:C|
+L:1/8
+Q:1/4=200
+K:D % E dorian 2 sharps
+|:EBBA B2EB|~B2AB dBAG|(3FED AD BDAD|FDFA dAFD|
+EBBA B2EB|~B2AB defg|afef dBAF|1 DEFD E2ED:|2 DEFD E2gf||
+|:eB~B2 eBgB|eB~B2 gedB|A2FA DAFA|~A2FA defg|
+eB~B2 eBgB|eB~B2 defg|afef dBAF|1 DEFD E2gf:|2 DEFD E2ED|]
+S:https://www.folktunefinder.com/tunes/29680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

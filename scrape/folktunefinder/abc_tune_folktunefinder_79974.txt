@@ -1,0 +1,24 @@
+X:150
+T:Sleep on till day
+R:Slow Air
+S:Gow - 3rd Repository
+O:Scottish
+M:3/4
+L:1/8
+Q:1/4=120
+K:C Minor
+A2|(G2D2)E2|c3de2|G2E2 D>C|C4A2|G2(D2E2)|~c3d e2|E2A2~^G2|A4 c>A|
+G2(D2E2)|c3~d e2|G2E2D2|C4||
+c>d|{cd}e3dc2|(c2G2)GA|_B2A2 A>c|{=B}(c2G2)G2|{G}e2edc2|(c2G2)Ac|
+G2E2D2|{D}E4 A2|G2(D2E2)|c3~de2|G>A E2 D>C|C4||
+S:https://www.folktunefinder.com/tunes/79974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

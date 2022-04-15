@@ -1,0 +1,28 @@
+X:112
+T: Lieblich gesellet
+N: A0131
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder. Nuernberg gedr. von Berg und Newber (c. 1542) No. 29.
+N: Und Forster II. 1540 No. 14.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+F | A2A | A2F | c2d | cd2 | c3- | c2
+d | c2B | AG2 | F2
+F | A2A | A2F | c2d | cd2 | c3- | c2
+d | c2B | AG2 | F2
+f | ffe | efd | c2f | egf | ed2 | c3- | c2
+d | c2B | AG2 | F2
+S:https://www.folktunefinder.com/tunes/68658
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

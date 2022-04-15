@@ -1,0 +1,26 @@
+X: 117
+T:Fete du Village
+R:polka
+Z:
+Z:<URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact
+Z:tml>
+M:2/4
+L:1/8
+Q:1/8=500
+K:G
+"G"d3 c "G"B2 AB | "G"c2 B2 "D"A4 | "G"B2 G2 "G"GFGB | "D"AGFE "G"D2 Bc
+|
+"G"d3 c "G"B2 AB | "G"c2 B2 "D"A4 | "G"B2 d2 "Am"cBAF | "G"G4 "G"G4 :||
+"G"DGBG "D"DFAF | "G"DGBG "D"DFAF | "G"G2 d2 "G"c2 B2 | "D"AGAB "D"A2 D2
+ |
+"G"DGBG "D"DFAF | "G"DGBG "D"DFAF | "G"D2 d2 "Am"cBAF | "G"G4 "G"G4:|
+S:https://www.folktunefinder.com/tunes/52188
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:8
+T:Mazurka Du Lally
+C:Andy Hornby 1997
+Q:1/4=170
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+A Bc|d2dB cd|e2ec BA|f2fd ef|gf ed ce|
+d2dB cd|e2eA de|[1fd gf ed|e3:|[2fd gf ec|d3
+|:a ^ga|g2ec eg|f2dA df|e2ge ce|de fa ^ga|
+g2ec eg|f2dA df|ef ge ce|[1d3:|[2d2A2F2
+|:DF Ad cd|BA GA Bd|cB Ac eg|fd fa fd|
+D2FA dA|BG Bd BG|AB cd ec|[1d2A2F2:|[2d3
+[|e fd|g2bg- ge|fg af df|e2ge- ec|d2f2a2|
+ga bg eg|fg af df|ef gA Bc|de fg af|
+g2bg- ge|fg af df|ef ge- ec|d2f2a2|
+gb- bg bg|fa- af af|ef gA Bc|d4|]
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43741
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

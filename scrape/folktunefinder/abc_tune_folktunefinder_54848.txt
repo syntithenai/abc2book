@@ -1,0 +1,34 @@
+X:12099
+T: Novoselsko Kopanica
+O: Bulgaria
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 11/16
+L: 1/16
+K: DDor
+P: A
+|: "Dm"^gaa2 aga ~b3a | aba^g fed ^cddA | ^cdd2 dcd ~e3d | "A"eddA "E"~B3 B4 :|
+P: B
+|: "Dm"^cdd2 dcd ~e3d | aba^g fed ^cddA | ^cdd2 dcd ~e3d | "A"eddA "E"~B3 B4 :|
+P: C
+K: A \
+|: "A"dE~c2  AGA "E"Bcde | dE~c2  AGA "E"~B2BE | "A"dE~c2  AGA "E"Bcde | dE~c2  AGA "E"~B2B2 :|
+P: D
+|: "D"de~f2 Ade ~f2fA |de~f "A"edc "Bm"~B2BF | "D"de~f2 Ade ~f2fA |de~f "A"edc "Bm"~B2BF |
+|  "A"cd~e2 Acd ~e2eA | cd~e2 "Dm"=fgf "A"~e2eA | cd~e2 Acd ~e2eA | cd~e2 edc "Bm"~B2BF :|
+P: E
+[| "A"dE~c2  AGA "E"Bcde | dE~c2  AGA "E"~B2BE | "A"dE~c2  AGA "E"Bcde | dE~c2  AGA "E"~B2B2 |]
+|: "A"{G}A4- A3- A4 :|
+P: F
+|: "A"edcB ~c2A "E"~B2BA | ~B2BA "A"cde c2cA | edcB ~c2A "E"~B2BA | "A"~c2BA AEA A2z2 :|
+P: G
+|: "A"~c2BA AEA ~c2BA | ~c2BA cde ~c2BA | ~c2BA AEA ~c2BA | ~c2BA AEA A2z2 :|
+S:https://www.folktunefinder.com/tunes/54848
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key A
+% Time_signature 11/16
+% Has_accompaniment_chords Has chords

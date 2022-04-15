@@ -1,0 +1,26 @@
+X: 1
+T: \vSumadisko kolo
+T: U \vsest
+O: Serbia
+M: 4/4
+L: 1/16
+K: G
+|: "D7"DFAd c2cd | "G"B2BG ^cdef | "C"g2gf e2ed \
+|1 "D7"c2cd "G"B2BG :|2 "D7"c2cd "G"B4 :|
+|: "C"g2gf e2ed | "D7"c2cd "G"BGAB | "Am"c2cd "A7"B2BG \
+|1 "D"A2AG ^cdef :|2 "D"A2z2 z4 :|
+K:DDor^c^G
+|: "Dm"A2AD GABA | "E7"G2GD EFGA, | "Dm"D2DA, "E7"EFGF \
+|1 "A"E2ED EFGB :|2 "A"E2z2 z4 :|
+|: "Dm"D2DA, "E7"EFGF | "A"E2ED EFGA | "Dm"BAGF "E7"GFED \
+|1 "A"EFED CA,B,C :|2 "A"E2z2 z4 :|
+S:https://www.folktunefinder.com/tunes/12728
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/ShumadiskoKolo_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ShumadiskoKolo_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

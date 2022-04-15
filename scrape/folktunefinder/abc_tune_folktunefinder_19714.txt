@@ -1,0 +1,25 @@
+X: 1
+T: Young Sandy Tulloch - strathspey
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+d \
+| "G"g>d "C"(3efg "G"d<G "D7"B>A | "G"G>A "D7"B>A "Em"G<E- ED | "C"E>D (3EFG "G"D>E G>e | d>G "C"e>G "D7"F<A A>d |
+| "G"g>d "C"(3efg "G"d<G "D7"B>A | "G"G>A "D7"B>A "Em"G<E- ED | "C"E<G "G"D>E G>A B>e | d>B "D7"(3ABc "G"B<G Gc  ||
+| "G"B>G d>c B>G D>c | B>G d>B "Am"c/B/A/G/ "D7"A>c | "G"B>G d>c B>G D>G | "Am"E>A "D7"c/B/A/G/ "G"D<G G>c |
+| "G"B>G d>c B>G D>c | B>G d>B "Am"e/d/c/B/ "D7"A>d | "G"g>d "C"(3efg "G"d<G B>e | "G"d>B "D7"(3ABc "G"B<G G |]
+S:https://www.folktunefinder.com/tunes/19714
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/YoungSandyTullochS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/YoungSandyTullochS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/YoungSandyTullochS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

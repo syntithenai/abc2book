@@ -1,0 +1,26 @@
+X:1
+T: the Gold Ring
+M:6/8
+R:jig
+D:Conal O'Grada "Top of Coom" 1990 (Claddagh CCF 27 CD)
+K:G
+|: d | cAG GFG | cAG G2 d | cAG GFG | cAG F2 d | cAG GFG | cAG A2G | FGA fed | cAF G2 :|
+|: d | cAd cAd | cAG G2 d | cAd cAd | cAG F2 d | cAd cAd | cAG A2 G | FGA fed | cAF G2 :|
+|: (3def | gag gdc | BGG G2 d/e/ | =fgf fcB | A=FF F2d | gag gdc | BGG G2 d | =fgf fed |  cAF G2 :|
+|: (3def | gdd fdd | gdd fdd | gdd fdd | cAG G2 def | gdd fdd | gdd fdd |  f/g/ag fed | cAF G2 :|
+|: D | Gdd Gdd | cAG G2A | B2G A2G | cAG F2A |  B2G A2G | B2G A2G | FGG fed | cAF G2 :|
+|: G/A/ | BGB AGA | DED FED |  Add fed | cAG FGA | BGB AGA | DED FED | Add fed | cAF G2 :|
+|: G/A/ | BAB DED |  AFA DED | Add fed | cAG FGA | BAB DED | AFA DED | Add fed | cAF G2 :|
+S:https://www.folktunefinder.com/tunes/14252
+S:http://trillian.mit.edu/~jc/music/abc/jig/GoldRing_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GoldRing_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GoldRing_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GoldRing_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

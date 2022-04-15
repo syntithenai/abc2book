@@ -1,0 +1,35 @@
+X:254
+T: Tanzlied des 15. Jahrhunderts
+N: A0299
+O: Europa, Mitteleuropa, Deutschland
+N: Pet. Schoeffer 1513 No. 11.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: F
+A4 | c6c2c4c4 | d6d2d4
+e4 | f6edc4e4 | d6cBA4
+A4 | c6c2c4c4 | d6d2d4
+e4 | f6edc4e4 | d6cBA4
+A4 | d4d4d4d4 | c4A4F4
+F4 | c4A4B4c4 | d8c4
+f4 | e6d2c4B4 | A8z4
+A4 | c4c4c4 | c8c4 | d8d4 | d8
+e4 | f4f4c4c4 | d6c2B4 | A8
+A4 | c4c4c4 | c8c4 | d8d4 | d8
+e4 | f4f4c4c4 | d6c2B4 | A8
+A4 | d8d4 | d8d4 | c8A4 | F8
+F4 | c4A4B2c2 | d4c4f4 | e6d2c2B2 | A8
+A4 | d8d4 | d8d4 | c8A4 | F8
+F4 | c4A4B2c2 | d4c4f4 | e6d2c2B2 | A8
+S:https://www.folktunefinder.com/tunes/68800
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

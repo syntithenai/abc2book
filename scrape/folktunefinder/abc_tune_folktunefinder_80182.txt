@@ -1,0 +1,25 @@
+X:123
+T: Am Bodensee
+N: A0485A
+O: Europa, Mitteleuropa, Deutschland
+N: Ott, 1534 No. 88.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F2 | FGA2d2 | cBG2
+d2 | c2cA2F | GAB2z
+c | BAGF | G2C2z
+C | FGA2d2 | cAF2z
+A | Bdc2BA | G2F2
+S:https://www.folktunefinder.com/tunes/80182
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

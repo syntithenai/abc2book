@@ -1,0 +1,32 @@
+X: 1
+T: Old Country Bumpkin
+R: jig
+B: First published in the "Gobblers Opera" 1729
+N: In Aird's Collection 1782 as "Bab at the Bowster"
+B: RSCDS 2-2
+B: Gow I
+B: Paddledoo
+B: Pinewoods Alternates
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "D7"c3 "G"TB3 | "D7"ABG FED | "G"GAG BAB | GAG BAB \
+|  "D7"c3 "G"TB3 | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 GAB :|
+[| "C"c>de/f/ "G"gdB | "D7"ABG F2D | "G"G2c B/c/dB | G2c B/c/dB \
+|  "G"GAB gdB | "D7"A>BA fef | "G"g2d "C"edc | "G"TB3 G2B ||
+|| "D7"cAc "G"BGB | "D7"ABG FED | "G"GDG BAB | GDG BAB \
+|  "D7"cAc "G"BGB | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 G3 |]
+S:https://www.folktunefinder.com/tunes/14796
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldCountryBumpkin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OldCountryBumpkin_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

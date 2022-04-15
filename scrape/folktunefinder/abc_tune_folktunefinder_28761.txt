@@ -1,0 +1,33 @@
+X:2481
+T:Cancioneiro de Casto Sampedro: N\'umero 325
+T:Muieira de Cangas
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=180
+K:C % 0 sharps
+z4 zc' c'2|ba2g2<c'2g-|gc' c'2 ba2b|g/2e/2c4c' c'2|
+ba2g2<c'2g-|gc' c'2 ba2b|g3e3/2d/2c f/2[g/2f/2-]f|dB3/2d/2c e/2[f/2e/2-]e cd-|
+d/2f/2e g/2[a/2g/2-]g ea/2[b/2a/2-] af|g/2e/2c2e3/2d/2c f/2[g/2f/2-]f|dB3/2d/2c e/2[f/2e/2-]e cd-|d/2f/2e g/2[a/2g/2-]g ea3/2f/2d|
+c3g/2c3/2-[c/2B/2-]B/2 B/2[c/2B/2-]B-|Bd/2[e/2d/2-] dc c/2[d/2c/2-]c2e-|ec d/2[e/2d/2-]d2f/2[g/2f/2-] fe|e/2[f/2e/2-]e2g/2[a/2g/2-] gf f/2[g/2f/2-]f-|
+fa/2[b/2a/2-] ag g/2[a/2g/2-]g2^a-|^a=a a3/2c'/2 bb3/2d'/2c'|c'6 ^a2|=a2 bc' g/2f/2-[f/2e/2-]e/2 fg/2f/2-|
+[f/2e/2-]e/2d a2 g2 bc'|f/2e/2-[e/2-e/2]e/2 ee dc g2|f3a de dd|ef g/2f/2-[f/2e/2-]e/2 fa2f|
+f/2e/2-[e/2d/2-]d/2 cc2c' c'2|ba2g2<c'2g-|gc' c'2 ba2b|g/2e/2c4c' c'2|
+ba2g2<c'2g-|gc' c'2 ba2b|g3e3/2d/2c f/2[g/2f/2-]f|dB3/2d/2c e/2[f/2e/2-]e cd-|
+d/2f/2e g/2[a/2g/2-]g ea/2[b/2a/2-] af|g/2e/2c2e3/2d/2c f/2[g/2f/2-]f|dB3/2d/2c e/2[f/2e/2-]e cd-|d/2f/2e g/2[a/2g/2-]g ea3/2f/2d|
+c3g/2c3/2-[c/2B/2-]B/2 B/2[c/2B/2-]B-|Bd/2[e/2d/2-] dc c/2[d/2c/2-]c2e-|ec d/2[e/2d/2-]d2f/2[g/2f/2-] fe|e/2[f/2e/2-]e2g/2[a/2g/2-] gf f/2[g/2f/2-]f-|
+fa/2[b/2a/2-] ag g/2[a/2g/2-]g2^a-|^a=a a3/2c'/2 bb3/2d'/2c'|c'6
+S:https://www.folktunefinder.com/tunes/28761
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

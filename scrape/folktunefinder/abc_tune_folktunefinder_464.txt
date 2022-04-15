@@ -1,0 +1,75 @@
+X:5
+T:Les Folies d'Espagne
+C:N. Chdeville le cadet
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+Q:"Un peu gracieusement"
+K:Cm
+c2c3c | !!=B2B2B2 | c2!!c3c | {c}ud2d2d2 | e2e3f |{e}!!d4 de | {d}!!c=B {B}uc3d | !!=B4B2 | 
+c2c3d | !!=B2B2B2 | c2!!c3c | {c}d2d2d2 | e2e3f |!!d4de | {d}c2!!c3=B |{=B}uc6 ||
+P:Var 1
+(c=B)(cd)(cd) | (!!=B=A)(Bc)(!!B{A}G) | c2 {dc=Bc}!!c3c | {c}ud2d2d2 | (ed)(ef)(ef) | (!!dc)(de)(de) | !!c=B {B}uc3d | !!=B2 G=ABG |
+(c=B)(cd)(cd) | (!!=B=A)(Bc)(!!B{A}G) | c2 {dc=Bc}!!c3c | {c}ud2d2d2 | (ed)(ef)(ef) |  (!!dc)(de)(de) | c2 {dc=Bc}!!c3=B | uc6 ||
+P:Var 2
+Q:"Un peu lgrement"
+c/=B/c/d/ .c.c.c.c | !!=B/=A/B/c/ .B.B.B.B | c/=B/c/d/ .c.c.c.c | 
+d/c/d/e/ .d.d.d.d | e/d/e/f/ e/d/e/f/ e/d/e/f/ | !!d2 d/c/d/e/ d/c/d/e/ | !!c=B {B}uc3d | =B/=A/G/A/ Bc !!Bd |
+c/=B/c/d/ .c.c.c.c | !!=B/=A/B/c/ .B.B.B.B | c/=B/c/d/ .c.c.c.c | d/c/d/e/ .d.d.d.d | 
+e/d/e/f/ e/d/e/f/ e/d/e/f/  | !!d2 d/c/d/e/ d/c/d/e/ | c2!!c3=B | {=B}uc6 ||
+P:Var 3
+eGcege | dG=Bdgd | eGcege | fBdfbf | gBegbg | fBdfgd |
+eGcedc | !!=B=AGABG | cGcege | dG=Bdgd | eGcege |
+fBdfbf | gBegbg | fBdagf | e=BcdG!!B | c6 ||
+P:Var 4
+.c/.G/.c/.G/  .c/.G/.c/.G/  .c/.G/.c/.G/  | .=B/.G/.B/.G/   .=B/.G/.B/.G/   .=B/.G/.B/.G/   | .c/.G/.c/.G/   .c/.G/.c/.G/   .c/.G/.c/.G/   | .d/.G/.d/.G/   .d/.G/.d/.G/   .d/.G/.d/.G/   |  
+(e/d/e/)g/   (e/d/e/)g/   (e/d/e/)g/   |  (d/c/d/)g/   (d/c/d/)g/   (d/c/d/)g/   | (c/=B/c/)g/   (c/=B/c/)g/   (c/=B/c/)g/   | !!=B2 G/=A/B/A/ G/A/B/G/ | 
+.c/.G/.c/.G/  .c/.G/.c/.G/  .c/.G/.c/.G/  | .=B/.G/.B/.G/   .=B/.G/.B/.G/   .=B/.G/.B/.G/   | .c/.G/.c/.G/   .c/.G/.c/.G/   .c/.G/.c/.G/  | .d/.G/.d/.G/   .d/.G/.d/.G/   .d/.G/.d/.G/   |  
+(e/d/e/)g/   (e/d/e/)g/   (e/d/e/)g/   |  (d/c/d/)g/   (d/c/d/)g/   (d/c/d/)g/   | (c/=B/c/)g/   (c/=B/c/)g/   (c/=B/c/)g/   | =Bc !!c3B | c6 ||
+P:Var 5
+c2 .c.d.e.c | !!=B2 .G.=A.B.G | uc2.c.d.e.c | {c}ud2 .d.e.f.d | {d}ue2 .e.f.e.f | ud2 .d.e.d.e |
+!!c=B uc3d | !!=B6 | c=Bcdec | !!=B=AGABG | c2 cdec | {c}ud2 defd |
+{d}ue2 efef | !!d2 dede | c2 {dc=Bc} !!c3 =B//c//d//B// | {=B}uc6 ||
+P:Var 6
+c/=B/c/d/ c/=B/c/d/ c/=B/c/d/ | !!=B/=A/B/B/c/ !!=B/=A/B/B/c/ B/A/B/G/ | c/=B/c/d/ e/d/e/f/ e/d/e/f/ | d/c/d/e/ f/e/f/g/ f/e/f/g/ |
+e/d/e/f/ e/d/e/f/ e/d/e/f/ | d/c/d/e/ d/c/d/e/ d/c/d/e/ | c/=B/c/d/ c/=B/c/d/ c/=B/c/d/ | !!=B2 G/ =A/4B/4c/4d/4e/4f/4 g2 | 
+c/=B/c/d/ c/=B/c/d/ c/=B/c/d/ | =B/=A/G/A/ =B/=A/G/A/ =B/=A/B/G/ | c/=B/c/d/ e/d/e/f/ e/d/e/f/ | d/c/d/e/ f/e/f/g/ f/e/f/g/  |
+e/d/e/f/ e/d/e/f/ e/d/e/f/  | d/c/d/e/ d/c/d/e/ d/c/d/e/ | c2!!c3=B | {=B}uc6 ||
+P:Var 7
+(c>e)g2c2 | (!!=B>d) g2B2 | (c>e) g2e2 | (d>f)d2f2 | e>ec2e2 | d>d =B2d2 | .c.=B.c.d.e.c | !!=B.=A.G.A.B.G |
+cegegc | =BGBdgB | cegege | dfafdf | egbgeg |fBdagf | egcdG=B | c6 ||
+P:Var 8
+z2(c/d/).e (c/d/).e | !!=B2 B(=A/G/) B(A/G/) | c2 (c/d/).e (c/d/).e | !!d2 (d/e/).f (d/e/).f | e2 (e/f/).g (e/f/).g | !!d2 (d/e/).f (d/e/).f |
+c/=B/c/d/ c/=B/c/d/ c/=B/c/d/ | !!=B(B/=A/) G(B/A/)!breath!G2 | c2 (c/d/).e (c/d/).e | !!=B(B/=A/) G(B/A/) G2 |
+c2 (c/d/).e (c/d/).e | !!d2 (d/e/).f (d/e/).f  | e2 (e/f/).g (e/f/).g | !! (d/e/).f (d/e/).f | c2 !!c3 =B | c6 ||
+P:Var 9
+(c/e/)(g/e/) (c/e/)(g/e/) (c/e/)(g/c/)  | =B/d/g/d/ B/d/g/d/ B/d/g/B/ | c/e/g/e/ c/e/g/e/ c/e/g/e/ | 
+f/B/d/f/ b/a/g/a/ b/a/g/f/ | g/B/c/d/ e/f/g/a/ g/f/e/f/ | d/e/f/d/ d/e/f/d/ d/c/=B/G/ | c/=B/c/d/ c/=B/c/d/ e/f/g/e/ |
+=B/=A/G/A/ B/A/G/A/ B/c/d/B/ | c/e/g/e/ c/e/g/e/ c/e/g/c/ | =B/d/g/d/ B/d/g/d/ B/d/g/B/ | c/e/g/e/ c/e/g/e/ c/e/g/e/ |
+d/f/a/f/ d/f/a/f/ d/f/a/f/ | e/g/b/g/ e/g/b/g/ e/g/b/g/ | d/f/a/f/ d/f/a/g/ f/e/d/e/ | ce !!c3=B | Mc6 || 
+P:Var 10
+c/d/e/f/ gggg | =Bd/e/f/ gggg | c/d/e/f/ gggg | B/c/d/e/ ffff | G/c/=B/c/ d/c/B/c/ e/c/B/c/ |
+ffff g/f/e/d/ | e/(c/=B/c/) e/(c/=B/c/) d/e/d/c/ | =B/=A/G/A/ =B/=A/G/A/ B/A/G/B/ | c/d/e/f/ gggg |
+=Bd/e/f/ gggg | c/d/e/f/ gggg | B/c/d/e/ ffff | G/=A/=B/c/ d/(c/B/c/) e/(c/B/c/) |
+f/(c/=B/c/) a/(c/B/c/) g/f/e/d/ | e/d/e/f/ e/d/e/f/ e/d/c/=B/ | c2!!c3=B | c6 ||
+P:Var 11
+ce ee !!ed/c/ | !!=B=A/G/ !!BA/G/ !!BA/G/ | ce ee !!ed/c/ | ff ff !!fe/d/ | gg gg gf/e/ |
+ff ff !!fe/d/ | e/c/e/c/ e/c/e/c/ e/c/e/c/ | =B/G/B/d/ =B/G/B/d/ =B/G/B/d/ !breath! | ce ee !!ed/c/ | !!=B=A/G/ BA/G/ BA/G/  | 
+ce ee ed/c/ | g/(c/=B/c/) g/(c/B/c/) g/(c/B/c/) | g/(c/=B/c/) d/c/b/a/ g/f/e/d/ | c/(e/d/e/) c/(e/d/e/)  c!!=B | uc6 ||
+P:Var 12
+c/(g/f/g/) c/(g/f/g/) c/(g/f/g/) | =B/(g/f/g/) =B/(g/f/g/) =B/(g/f/g/) | c/(g/f/g/) c/(g/f/g/) c/(g/f/g/) | d/(g/f/g/) d/(g/f/g/) d/(g/f/g/) | 
+e/(g/f/g/) e/(g/f/g/) e/(g/f/g/) | d/g/d/g/ d/g/d/g/ d/g/d/g/           | c/g/c/g/ c/g/c/g/ c/g/c/g/    | !!=B=A/B/ G/B/A/c/ G/B/A/c/ |
+c/(g/f/g/) c/(g/f/g/) c/(g/f/g/) | =B/(g/f/g/) =B/(g/f/g/) =B/(g/f/g/) | c/(g/f/g/) c/(g/f/g/) c/(g/f/g/) | d/(g/f/g/) d/(g/f/g/) d/(g/f/g/) | 
+e/(g/f/g/) e/(g/f/g/) e/(g/f/g/) | a/(g/f/g/) a/(g/f/g/) a/g/f/4e/4d/4c/4 | f2 !!d4 | c6 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (France)
+S:https://www.folktunefinder.com/tunes/464
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

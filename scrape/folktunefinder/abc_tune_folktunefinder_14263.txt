@@ -1,0 +1,30 @@
+X:1
+T:Greatham Sword Dance
+M:6/8
+L:1/8
+S:Redcar Sword
+C:Trad
+O:Yorkshire/County Durham
+S:http://web.ukonline.co.uk/cmesser/saxons/greatham/greatham.abc
+S:http://web.ukonline.co.uk/cmesser/saxons/kirkby/kirkby.abc
+Q:180
+R:Jig
+Z:Colin Messer 14-Sep-2001
+P:ABCB
+K:G
+"A"|: g2b B2G | A2e e2d | G2B B2G | A2e e2g | f3  d3  | cBc B3  | G2B B2G |  A3 G3  :|
+"B"[| d2z dcB | A3  G3  | E2A A2G | F2E D3  | d2z dcB | A3  G3  | E2A G2F |1 G6     :|2 G3 G2A |]
+"C"[| B2A GFE | D3  DEF | G3  GAB | A3  AGA | B2A GFE | D3  DEF | G2B A2F |1 G3 G2A :|2 G6 |]
+S:https://www.folktunefinder.com/tunes/14263
+S:http://trillian.mit.edu/~jc/music/abc/jig/Greatham_Sword_Dance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Greatham_Sword_Dance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Greatham_Sword_Dance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/sword/Greatham_Sword_Dance_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

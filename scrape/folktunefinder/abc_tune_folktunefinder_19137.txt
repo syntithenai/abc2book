@@ -1,0 +1,26 @@
+X: 1
+T: Just Because
+R: polka
+M: 2/4
+L: 1/8
+K: G
+%%indent 500
+"intro"D=E | "A7"E4 | "D7"F2 B2 | "G"G4- | G |: "D7"DEF |
+|  "G"GG GG |    G2 ED  |    G G3- | G DEF \
+|     GG GG |    G2 ED  |"D7"F4-   | F3  D |
+| "D7"FF FF |    F2 ED  |    F F3- | F3  F \
+|     E2 EE |    F2 E2  | "G"D4-   | D DEF |
+|  "G"GG GG |    G2 ED  |    G G3- | G DEF \
+|     G2 GG |"G7"A2 G=F | "C"E4-   | E3  E |
+|  "C"G2 GG |"C"A2 GA  | "G"B2 GF | "E7"E3 D \
+| "A7"E4    |"D7"F2 B2  | "G"G4-   | G  y :|
+S:https://www.folktunefinder.com/tunes/19137
+S:http://trillian.mit.edu/~jc/music/abc/square/Just_Because_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Just_Because_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

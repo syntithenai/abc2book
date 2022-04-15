@@ -1,0 +1,25 @@
+X:1
+T:La Corne
+M:4/4
+R:Bourree
+L:1/8
+Z:midi file from Ruth Bramley -> midi2abc -> Dave Holland <dave@biff.org.uk>
+D:"Transept", Patrick Bouffard
+%Q:1/4=100
+K:G
+d2 Be d>c B2|A>B cd A>B ce|d2 Be d>c B2|AB/c/ BA G3z|
+d2 Be d/e/d/c/ B2|A>B cd A>B c/A/c/e/|d2 Be d/e/d/c/ B2|AB/c/ BA G3z|
+A/B/c/d/ ed Bz/A/ B2|A/B/c/d/ ed B3z|A/B/c/d/ ed Bz/A/ Bd|dc/B/ AB G3z|
+A/B/c/d/ ed B/c/B/A/ B2|A/B/c/d/ ed B3z|A/B/c/d/ ed B/c/B/A/ Bd|dc/B/ AB G3z|]
+S:https://www.folktunefinder.com/tunes/51981
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

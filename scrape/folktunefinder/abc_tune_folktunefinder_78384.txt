@@ -1,0 +1,28 @@
+X:363
+T: IM FLIEDERBUSCH EIN VOEGLEIN SASS
+N: B0432
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 2/4
+L: 1/16
+K: D
+A2 | A2d2F2A2 | A2GFG2
+BB | B2A2B3A | AGFGA2
+A2 | A2F2F2A2 | A2GFG2
+BB | B2G2e3d | dcBcd2z
+d | d3cB2^G2 | A3Bc2
+c2 | dcdcB2^G2 | A^GABc2
+A2 | G3GF2F2 | A3AG2
+G2 | d6B2 | A6F2 | A4G2G2 | G4z2
+S:https://www.folktunefinder.com/tunes/78384
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

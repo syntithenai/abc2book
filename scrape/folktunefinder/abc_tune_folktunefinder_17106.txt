@@ -1,0 +1,27 @@
+X: 1
+T: Mrs. Ella Wilson
+C: Muriel A. Johnstone
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d4 "A7"f3e | "D"d2fg afd2 | "E"e2ef ^gabc' | a3b a2a2 |
+| "D"d'2af d2fd | "Em"B2ed "A"c2A2 | "G"B4 "A7"f3e | "D"d4- d2 :|
+|: g2 \
+| "D"f2fg a2f2 | "G"b2b2 bagf | "A7"e2ef g2e2 | "D"a2a2 agfe |
+| "Bm"d2de f2d2 | "Em"g2gf edcB | "A"A4 "A7"f3e | "D"d4- d2 :|
+S:https://www.folktunefinder.com/tunes/17106
+S:http://trillian.mit.edu/~jc/music/abc/reel/EllaWilson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EllaWilson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/EllaWilson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EllaWilson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

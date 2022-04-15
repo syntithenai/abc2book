@@ -1,0 +1,24 @@
+X:125
+T: HOPP HOPP HOPP PFERDCHEN
+N: F0245
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Kinder, Spiel
+M: 2/4
+L: 1/8
+K: G
+ | G2B2 | d2z2
+dcBA | G2z2
+AAFD | ddBG
+AAFD | ddBG
+GABc | d2z2
+dcBA | G2z2
+S:https://www.folktunefinder.com/tunes/69685
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, kinder, spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

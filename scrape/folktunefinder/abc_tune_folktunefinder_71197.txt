@@ -1,0 +1,27 @@
+X:167
+%%topmargin 3cm
+T:The Lorn Strathspey
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+(g | f)>de>c d>FD(F | E)>=CC<E G2 G>(g | f)>de>c d>FDF | A>FDF A2 A>(=c |
+B)>GA>F d>FD>F | (G/F/).E/.D/ =C<E G<cG<E | F>DG>E A>FB>G | (d/c/).B/.A/ d>F D2 D :| g | Tf2 d<a f<da>f |
+g>e=c>e g2 g>a | f2 d<a Tf>ga<f | a<fd<a f<da>d | Tf2 d<a f>ga<f | g>e=c<g e<cg<e |
+a>fg<e f>de>c | (d/c/B/A/) d>F D2 D<g | Tf2 d<a f<da>f | g>e=c>e Tg2 g>a | Tf2 d<a f>ga<f |
+a<fd<f ~a>ba<f | ge f>af<d | e<ge<d Tc>de<g | a>fg>e f>de>c | (d/c/B/A/) d>F D2 D |]
+S:https://www.folktunefinder.com/tunes/71197
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lorn_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0167.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

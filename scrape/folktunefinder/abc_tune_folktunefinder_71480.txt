@@ -1,0 +1,28 @@
+X:451
+%%topmargin 3cm
+T:The Shakins o' the Pocky
+C:J. Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+~t(B,>.D)t(F>.G) F<D B,>A | B>A k.G/.A/.B/.c/ d3 md | (te>.c)d>B c<A B>G | F<D {/D}(tB>.D) {/D}E2 C>D |
+(tB,>.D)(tF>.G) F<D B,>A | B>A .G/.A/.B/.c/ d3 d | (te>.c)(td>.B) (tc>.A){/A}(tB>.G) | (G/F/).E/.D/ (F/E/)D/.C/ B,2- B, ||
+f | {/a}Lb>f da | {/a}b>f e/d/c/B/ Lf3 a | b>f dB | (tA>.B) (c<f) [D2B2] [DB]>a |
+b>f da | {/a}(b>f) (e/d/).c/.B/ f2- f>e | (d>B)(e>c) d/c/B/A/ {/A}(tB>.G) | (G/F/).E/.D/ (F/E/).D/.C/ B,2- B, |]
+S:https://www.folktunefinder.com/tunes/71480
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Shakins_o_the_Pocky.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0451.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

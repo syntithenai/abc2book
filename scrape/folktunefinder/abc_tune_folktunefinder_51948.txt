@@ -1,0 +1,19 @@
+X: 13
+T:The Black Stallion
+M:4/4
+L:1/8
+K:G
+"A"
+GA | B2 BB A2 G2 | d6 dc |  B2 BB A2 G2 | AGAB A2 GA
+ | B2 BB A2 G2 | d6 dc |  B2 BB A2 G2 | G6 ||
+"B"
+Bc | d4 d4 |  d6 dc | B2 d2 B2 G2 | d2 dd dcBc |   d4 d4 |  d6 dc |
+B2 AG A2 A2 | G6 ||
+S:https://www.folktunefinder.com/tunes/51948
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

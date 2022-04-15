@@ -1,0 +1,29 @@
+X: 105
+T:149th Psalm. JMP.105
+M:3/4
+L:1/4
+S:John Miller MS. Perth, 1799.(for the fife)
+R:psalm
+O:Scotland
+A:Perth
+N:Tune today used for 'Oh worship the king/all glorious above'.  If I
+N:possessed 'Hymns A & M' I could look it up.   But I don't
+H:1799
+Z:vmp.C. Graeb
+K:G major
+D | GGA | B2d "Bar line missing" | GA{G}F | G2 || A |\
+BAG | F2 G | A (G/F/) (E.D) "Bar line missing" | D2 ||!
+F | GAB | GEB | BAG | d2 ||D | EFG | ADB | EAF | G2 |]
+S:https://www.folktunefinder.com/tunes/2042
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Psalm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

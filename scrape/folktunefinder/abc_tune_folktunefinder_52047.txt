@@ -1,0 +1,31 @@
+X:151
+T:Branle de L'Officiel
+T:Officials Branle
+S:"Orchesography", Arbeau
+M:C|
+N:A circle for as many couples as will, woman on the man's right.
+N:A1,A2: double to the left, double to the right
+N:B1,B2: 6 singles to the left, man lifts partner from RH side to LH side
+L:1/4
+K:C
+P:A
+"C"cc "F"d/c/B/A/ | "G"G3G | "F"Ac"G"cB | "C"c2c2 :|
+P:B
+"C"g>f e/f/g/e/ | "G"f>e d/e/f/d/  | "Am"e>d c/d/e/c/ | "E"d>c B/c/d/B/ |
+"F"c>B A/B/c/A/ | "G"B>A "C"GG | "F"Ac "G"cB | "C"c2c2 :|
+T:Harmony part
+ee f/e/d/c/ | B/c/B/A/ GG | FA GA/B/ | c/d/c/B/ c2:|
+e>d c/d/e/c/ | d>c B/c/d/B/ | c>B A/B/c/A/ | B>A ^G/A/B/G/ |
+A>=G F/G/A/F/ | G/A/G/F/ EE | F/G/A GF | E2 E2:|
+S:https://www.folktunefinder.com/tunes/52047
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

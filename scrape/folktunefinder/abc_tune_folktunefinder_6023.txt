@@ -1,0 +1,25 @@
+X: 3
+P: S\"okkeret er s\"ott san
+O: etter Toby Weinberg
+Z: John Chambers <jc@trillian.mit.edu>
+R: shottish
+M: 4/4
+L: 1/8
+K: D
+|: "D"D>F FE D2 DF | A>A dF A2 A2 \
+|1,3 "A7"c2 cB G2 GB | B>B BA "D"F2 F2 \
+:|2,4 "A7"c2 cB A>G FE | "D"D2 "A7"{E}DC "D"D4 :|
+|: "D"A,>F FF A,>F FF | A>A GF "Em"G2 G2 \
+| "A7"A,>E EE A,>E EE | G>G FE "D"F2 F2 |
+| "D"D>F FE D>F F[AD] |  d2 cB "G"G3 B \
+| "D"B>A FA "A7"A>G EC | "D"D2 "A7"{E}DC "D"D4 :|
+S:https://www.folktunefinder.com/tunes/6023
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish04.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

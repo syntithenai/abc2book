@@ -1,0 +1,24 @@
+X:20
+T:3/4
+B:Rasmus Storm's Notebook
+D:Rasmus Storm's Notebook
+M:3/4
+O:Denmark
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b5b.html
+%%ID:00000b5b
+K:D
+a2 b2 a2 | g2 fe fd | e2 [A4e4]|\
+a2 ba gf | ed cd ec | d2 d4 ::
+d2 e2 f2 | g2 fe fd | e2 A4 |\
+d2 e2 f2 | g2 fe fd | c2 d4 :|
+S:https://www.folktunefinder.com/tunes/36083
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:59
+T: Spottlied auf den 1574 aus Krakau entflohenen Polenkoenig
+N: A0412
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin 1646 S. 2292.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/4
+L: 1/4
+K: G
+D | GGAA | B2A
+A | BGGF | G2z
+D | GGAA | B2A
+A | BGGF | G2z
+B | BBAA | BBA
+A | BBAA | BBA2 | zABG | GFG
+S:https://www.folktunefinder.com/tunes/80118
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

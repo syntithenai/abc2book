@@ -1,0 +1,32 @@
+X: 1
+T:Britons Strike Home. WCl.43
+M:3/4
+L:1/4
+Q:60
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+N:Good setting...
+Z:vmp.Barry Callaghan
+W:No words given in MS
+K:D
+dde|"tr"(f>g)a|def|efg|agf|"tr"e3::!
+"tr"e3|eef|"tr"e3|"tr"f3|ffg|fga|agf|!
+"tr"(f>g)e|"tr"f3|"tr"a3|a (b/2a/2)(g/2f/2)|"tr"g3|"tr"a3|!
+efg|fga|bag|fga|(g/2f/2) "tr"e>d|d3:||
+S:https://www.folktunefinder.com/tunes/19827
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Britons_Strike_Home_WCl_43_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Britons_Strike_Home_WCl_43_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Britons_Strike_Home_WCl_43_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

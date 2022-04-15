@@ -1,0 +1,26 @@
+X: 3
+P: Captain Gillan
+C: Wm.Christie
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+D2 \
+|: "A"CE3 E3F E3F A3B | "E7"ce3 Bc3 "A"A3B AE3 \
+| "D"F3G F3E F3A {c2}d3f | "Bm"fedc dcBA "E7"F4 FA3 :|
+|| "A"ce3 e3f e3f a3e | "D"fgaf "A"ec3 A3B AE3 \
+| "D"Ff3 f3g "A"a3g f3e | "D"fefg agfe "E7"f6 ga |
+| "A"fa3 "E"ef3 "A"ce3 "E"B3c | "F#m"A3c Bc3 "A"A3B AE3 \
+| "D"Ff3 f3g "A"a3g f3e | "Bm"dcBA BdcB "D"AF3 "(E7)"A2 |]
+S:https://www.folktunefinder.com/tunes/9718
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS07.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

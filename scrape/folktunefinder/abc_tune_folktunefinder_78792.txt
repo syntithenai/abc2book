@@ -1,0 +1,25 @@
+X:351
+T: ES WOLLT EIN HERR AUSREITEN
+N: E0199
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Kreis Neisse
+R: erzaehlendes Volks - Lied, Tod, Toten - Sage, Grabesstimme
+M: 6/8
+L: 1/16
+K: Eb
+B,2 | E4F2G4A2 | G4F2E4
+B,2 | E4F2G4A2 | G4F2E4
+E2 | A4G2G2F2E2 | F2F2E2D4
+E2 | G4GAG2F2E2 | G4F2E4
+S:https://www.folktunefinder.com/tunes/78792
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, tod, toten - sage, grabesstimme
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

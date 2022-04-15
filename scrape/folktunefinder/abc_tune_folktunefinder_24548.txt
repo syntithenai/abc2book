@@ -1,0 +1,28 @@
+X:4096
+T:Mazurka de Limousin
+O:england
+C:Chanteurs et Musiciens en Limousin
+M:3/4
+L:1/8
+K:C
+c4 ed|:c2 cd cB|A4 Bc|1 d2 dc BA|\
+B2c2{d}ed:|2 de dc BA|G3B cd||\
+e2 ed cd|e2 ed cB|A4 Bc|d2 dc Bc|\
+d2 dc BA|B2 GB cd|e2 ed cd|e2 ed cB|\
+A4 Bc|de dc BA|G3B cd|ed cB cd|ed cd cB|\
+A4 Bc|d2 dc Bc|d2 dc BA|B2 GB cd|\
+ed cd cd|ed cd cB|A4Bc|de dc BA|G4 {d}ed||\
+c2 cd cB|A4 dc|B2 dc BA|1 B2G2{d}ed:|2 G3 B cd||\
+e2 ed cd|e2 ed cB|A4 Bc|d2 dc Bc|\
+d2 dc BA|B2 GB cd|
+S:https://www.folktunefinder.com/tunes/24548
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

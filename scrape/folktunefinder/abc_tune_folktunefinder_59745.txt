@@ -1,0 +1,42 @@
+X:858
+T:Xiraldilla (CT 345)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Mara Fernndez Argelles, de diez y nueve aos, de Cabaaquinta, ayuntamiento de Ayer.
+A:Asturies
+O:Cabaaquinta (Ayer)
+Z:Cancioneru de Torner 345
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|d3 e|dc BA|GG FA|G2 FA|G2 FG|Ac BA|G2 zD|
+(3B-BB (3BAB|c2 (3ccB|(3AAA (3AGA|B2 GD|
+(3B-BB (3BAB|c2 ce|dc BA|G2 zD|
+(3BBB (3BAB|c2 (3ccB|(3AAA (3AGA|B2 GD|
+(3BBB (3BAB|c2 ce|dc BA|G2 z2||
+W:Ai! qu bellas hijas tienes,
+W:Periqun, Periqun,
+W:so la puente del moln.
+W:-Que me han robado una hija,
+W:Periqun, Periqun, Pericuando,
+W:que me han robado una hija
+W:al fondo del jardn.
+W:-Aqu te la traigo llorando,
+W:Periqun, Periqun, Pericuando,
+W:aqu te la traigo llorando,
+W:del fondo del jardn.
+W:
+S:https://www.folktunefinder.com/tunes/59745
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:6195
+T:Spanish Dream
+O:england
+R:Jig
+N:Nov '95
+M:6/8
+Q:1/8=348
+C:Andy Hornby
+A:Lancaster
+K:D
+A|\
+def gfg|a2f dcd|e2A f2d|gfg e2A|\
+def gfe|fga A2d|Bcd ecA|d3 d2::
+a|\
+fga def|Bcd G2e|cde Ace|dcB A2a|\
+fga def|Bcd GAB|Ace gec|d3 d2:|
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/26647
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

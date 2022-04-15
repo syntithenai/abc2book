@@ -1,0 +1,26 @@
+X:4685
+T:Polska
+A:Orust
+M:3/4
+N:Accent strongly on the offbeats ...
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ced.html
+%%ID:00000ced
+K:G
+B,>C A,B, G,A, | B,C DB, G,A, | B,C A,B, G,A, | B,C D2 D2 ::
+B>c AB GA      | Bc dB GA     | Bc AB GA      | Bc d2 d2 :|
+|::fg ef de | (3cAc d2fa | ag (3egf (3dfe | (3cAc d4 ::|
+S:https://www.folktunefinder.com/tunes/37016
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

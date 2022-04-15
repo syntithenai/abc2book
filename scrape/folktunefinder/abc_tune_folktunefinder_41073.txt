@@ -1,0 +1,25 @@
+X:1
+T:beambr test C|
+C:
+M:C|
+L:1/8
+K:HP
+%%text halfbeam discontinued and beambr1 and beambr2 
+%%text implemented in 4.12.0
+%%vskip 1cm
+%%text with no beambr1:
+AAAA A>AA>A | A<AAA A>AAA | A<AA>A &quot;wrong&quot;A>AA<A | &quot;wrong&quot;A<AA<A AAAA |
+%%text corrected with beambr1:
+AAAA A>AA>A | A<AAA A>AAA | A<AA>A A>A!beambr1!A<A | A<Abeambr1A<A 
+AAAA |
+%%text corrected with ~ defined as beambr1:
+AAAA A>AA>A | A<AAA A>AAA | A<AA>A A>A~A<A | A<A~A<A AAAA |
+S:https://www.folktunefinder.com/tunes/41073
+S:http://www.mail-archive.com/abcusers@yahoogroups.com/msg00091.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Spends a lot of time on the same note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

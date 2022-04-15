@@ -1,0 +1,29 @@
+X: 1
+T: Valerie Farr's Reel
+C: Frank Reid
+N: Suggested tune for Cramond Bridge and Currie Mountain Reel
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+fe \
+| "Bb"d2f2 "Bb7"f2ed | "Eb"e2g2 "C7"c3B | "F"A2f2 "F7"fedc | "Bb"BABc "F7"d2fe \
+| "Bb"d2f2 "Bb7"f2ed | "Eb"e2g2 "C7"c3B | "F"A2f2 "F7"fedc | "Bb"B6 :|
+|: cB \
+| "F"A2AB "F7"c2BA | "Bb"Bcde "Bb7"f2ef | "Eb"g2f2 "Cm"e2d2 | "C7"d4 "F7"c2fe \
+| "Bb"d2f2 "Bb7"f2ed | "Eb"e2g2 "C7"c3B | "F"A2f2 "F7"fedc | "Bb"B6 :|
+S:https://www.folktunefinder.com/tunes/18269
+S:http://trillian.mit.edu/~jc/music/abc/reel/ValerieFarrsReel_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ValerieFarrsReel_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ValerieFarrsReel_Bb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

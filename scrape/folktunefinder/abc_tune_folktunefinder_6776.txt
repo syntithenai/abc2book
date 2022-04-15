@@ -1,0 +1,48 @@
+X: 2
+T: Boiereasca
+O: Romanian klezmer
+R: bulgar, sher
+S: Dick Crum, Ron Wixman
+M: 2/4
+L: 1/16
+K: Ador=c^d
+E2 \
+| "Am"A3B c2e | d2c2 e4 \
+| defg agfe | fedc dcBA \
+| defg agfe | d3c dcBA |
+| deae agfe | d2e2 z2E2 \
+|| "Am"A3B c2e | d2c2 e4 \
+| defg agfe | fedc dcBA |
+| A^GAE cBcA | edec g4 \
+"\=>Coda"\
+| "B7"fedc "E7"dcBA | "Am"BcA2 z2 \
+:: e2 \
+| "Am"a3e agfe | aeae agfe |
+| c'bag fedc | d3c dcBA \
+| BcAc dece | gfed "E7"e4 \
+|| "Am"a3e agfe | aeae agfe |
+| c'bag fedc | B2c2- c2ce \
+| "B7"d3c "E7"cBBA | "Am"A4 z2 :|[K:Amix=g]\
+|: [e2c2] \
+| "A"[c8-A3-] | [c8A3] \
+| {^d}[e8-c8-] | [e8c8] |
+| cdef gfed | dccB BAe2 \
+| ^deee eeee | agfe ^d2e2 \
+| ^defg agfe |
+| =c'bag fedc \
+| "B7"^defe "E7"=d3c | "A"^BcA2 z2 :|\
+"Coda"\
+[| "E7"ze^de =f^f=g^g | "A"a2z2 "E7"e2z2 "Am"HA4 |]
+S:https://www.folktunefinder.com/tunes/6776
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Boiereasca_C.abc
+% Rhythm Bulgar, sher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

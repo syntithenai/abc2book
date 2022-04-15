@@ -1,0 +1,23 @@
+X:755
+T:la Rochelle
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000015f.html
+%%ID:0000015f
+K:D mixolydian
+a|\
+affa| affa| bgec| d/c/d/e/ da| \
+affa| affa| bgec| d2 d::
+(e/d/)|\
+cccc| dd de/f/| gggg| f/e/f/g/ ff| \
+cccc| dd de/f/| gedc| d2d:|
+S:https://www.folktunefinder.com/tunes/30460
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

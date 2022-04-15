@@ -1,0 +1,33 @@
+X:230
+T: SIE SOLLEN IHN NICHT HABEN
+N: F0399
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch
+M: 4/4
+L: 1/8
+K: F
+cA | F2E2F2G2 | A3GF2
+GA | B2A2G2F2 | c6
+^c2 | d3_ed2c2 | B3AG2
+AB | c2c2E2E2 | F4z2
+AG | G2c2=B2d2 | c3GG2
+c=B | A2c2=B2A2 | E4z2
+e2 | f3ed2c2 | =B2A2G2
+cB | A3dc2=B2 | c4z2
+cA | F2E2F2G2 | A3GF2
+GA | B2A2G2F2 | c6
+^c2 | d3_ed2c2 | B3AG2
+AB | c2c2E2E2 | F6
+S:https://www.folktunefinder.com/tunes/69790
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

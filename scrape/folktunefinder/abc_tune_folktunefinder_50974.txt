@@ -1,0 +1,24 @@
+X:8001
+T:Harvest Home
+R:Reel
+C:Trad.
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+A>F|:"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"G"e2 f2 g2 f2|"A7"(3efe (3dcB (3ABA (3GFE|
+"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"G"e2 f2 "A7"g>ec>e|1 "D"d2 "G"d2 "D"d2 A>F:|2 "D"d2 "G"f2 "D"d2 c>d|
+|:"A7"e>AA2 f>AA2|g>AA2 e>AA2|e2 "G"f2 g2 f2|"A7"(3efe (3dcB (3ABA (3GFE|
+"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"G"e2 f2 "A7"g>ec>e|1 "D"d2d2 d2cd:|2 "D"d2f2 d4||
+S:https://www.folktunefinder.com/tunes/50974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

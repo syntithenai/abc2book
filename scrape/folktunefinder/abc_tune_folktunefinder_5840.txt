@@ -1,0 +1,56 @@
+X: 1
+P: Jesucita en Chihuahua
+O: Mexico
+R: Polka
+Z: John Chambers <jc@trillian.mit.edu>
+C: Trad
+M: 2/4
+L: 1/8
+K: G
+"A1"\
+|: "G"B2 ce | d2 ^cd | g>d ^cd | "D7"fe ^de \
+| "D7"a2 ge | g2 fc | f>c Bc | ed _dc |
+|  "G"B2 ce | d^c/d/ e/f/g/a/ | bg fg | "C"ae ^de \
+|     ag fe | "G"gd ^cd | "A"eg "D7"fa | "G"g2 g2 :|
+K:D
+"B1"\
+|: "A7"a2 g2 | "D"fe/f/ gf | "A7"ed/e/ fe | "D"e/d/c/B/A2 \
+|  "A7"a2 g2 | "D"fe/f/ gf | "A7"ed/e/ fe |1 "D"d[fd] d2 :|2 "D"dd "D7"_dc |]
+K:G
+"A2"\
+[| "G"B2 ce | d2 ^cd | g>d ^cd | "D7"fe ^de \
+| "D7"a2 ge | g2 fc | f>c Bc | ed _dc |
+|  "G"B2 ce | d^c/d/ e/f/g/a/ | bg fg | "C"ae ^de \
+|     ag fe | "G"gd ^cd | "A"eg "D7"fa | "G"g2 g2 |]
+K:C
+"C1"\
+|: "C"([g4e] | [ge])[ec] [fd][ge] | "F"([a4f] |[af])[fd] [ge][af] \
+| "G7"[b4g] | [a2^f] [b2=f] |1 "C"[a2f] ([g2e]| [ge])[ec] [fd][^f^d] :|2 "C"([c'4e] | [c'e]) z :|
+L:1/16
+K:G
+"D1"\
+|: "D7"DEFG ABcd | "G"edBG D2g2 |2 "D7"fecA F2f2 | "G"edBG D4 \
+                               :|2 "D7"fedc BdcA | "G"G4 G4 :|
+L: 1/8
+K:C
+"C2"\
+[| "C"([g4e] | [ge])[ec] [fd][ge] | "F"([a4f] |[af])[fd] [ge][af] \
+| "G7"[b4g] | [a2^f] [b2=f] |1 "C"[a2f] ([g2e]| [ge])[ec] [fd][^f^d] :|2 "C"([c'4e] | [c'e]) z |]
+K:G
+"A3"\
+[| "G"B2 ce | d2 ^cd | g>d ^cd | "D7"fe ^de \
+| "D7"a2 ge | g2 fc | f>c Bc | ed _dc |
+|  "G"B2 ce | d^c/d/ e/f/g/a/ | bg fg | "C"ae ^de \
+|     ag fe | "G"gd ^cd | "A"eg "D7"fa | "G"g2 g2 |]
+S:https://www.folktunefinder.com/tunes/5840
+S:http://trillian.mit.edu/~jc/music/abc/Intl/MexicanMixer1_C.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

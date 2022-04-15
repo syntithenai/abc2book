@@ -1,0 +1,35 @@
+X:18493
+T:Waltz. CJF.234
+M:3/4
+L:1/8
+Q:160
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"C J Fox" is in the stave, after the tune. At the asterisk position, it
+N:seems an extra bar is needed. I suggest g4f2| - PJH
+Z:P J Headford 2000
+K:G
+d2|B2"p"c2B2|A2d^cd=c|B2c2B2|A2z2g"f"b|!\
+bagfge|d4gb|baagaf|g4:||:!d2|
+(gf).g.d.B.G|{B}A2AGA2|(d^c).d.=c.B.A|{A}G2GFG2|!\
+(gf).g.d.B.G|{B}A2AGA2|d^cd=cBA|G4:||:!d2|
+gdBgba|{a}gfedcB|Adfac'a"*"|gbagfa|!gfedcB|\
+Acfac'a|g4:||:!b2|^a2b2=a2|
+g2g2b2|^a2b2=a2|g2z2d2|!gdBgba|gfedcB|Adfac'a|g4:||
+S:https://www.folktunefinder.com/tunes/49941
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

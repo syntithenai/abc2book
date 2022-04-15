@@ -1,0 +1,27 @@
+X: 1
+T: Mrs. Oswald of Auchincruive's Favourite Reel
+C: Robert Mackintosh 1997
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"B3 "D7"cAd | "Em"G3 "G7"GAB | "C"EFG "Am"ABc | "A7"BAG "D"FED \
+|  "G"B3 "D7"cAd | "Em"G3 "G7"GAB | "Am"EcB "D7"AGF | "G"G3 G3 :|
+|| "G"g3 "D7"gaf | "G"gdc BAG | "C"ABc "G"Bcd | "Am"EFG "D7"FED \
+|  "G"g3 "D7"gaf | "G"gdc BAG | "Am"Aed "D7"cBA | "G"GGG G2d ||
+||"G"gba "D7"gaf | "G"gdc BAG | "C"ABc "G"Bcd | "A7"EAG "D"FED \
+| "C"EFG  "F#dim"ABc | "D"FGA "G"Bcd | "Am"efg "D7"afd | "G"ggg g3 |]
+S:https://www.folktunefinder.com/tunes/14715
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrsOswaldOfAuchincruivesFavR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/MrsOswaldOfAuchincruivesFavR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrsOswaldOfAuchincruivesFavR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

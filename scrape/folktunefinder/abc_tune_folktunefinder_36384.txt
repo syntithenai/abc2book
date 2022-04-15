@@ -1,0 +1,31 @@
+X:1525
+T:Duke of York New March
+A:North-West
+M:C
+N:P43 1/1
+O:England
+R:March
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000059c.html
+%%ID:0000059c
+K:G
+D/E/F | \
+G2GG G2B/A/G  | d2dd d2f/e/d | \
+.g2.d2.B2.G2  | [aA][gG][fF][eE] [dD][cC][BB,][AA,] |\
+G2GG G2 B/A/G | d2dd d2g2|\
+f/g/a b/a/g f2e2| d2ddd2 ::
+Bc | \
+dcde d2cB | A2g2a4 | cAcd c2BA | G2g2g4 |\
+dcde d2cB | AGAB A2AB | cBcd c2BA | G^FGA G2FE |
+(3DEF (3EFG (3FGA (3GAB|(3ABc (3Bcd (3cde (3def|\
+(3gbg (3edc B2A2|G2GG G2:|
+S:https://www.folktunefinder.com/tunes/36384
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

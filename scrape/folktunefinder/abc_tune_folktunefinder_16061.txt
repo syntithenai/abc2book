@@ -1,0 +1,21 @@
+X:10
+T:Catflap Polka
+C:Katherine Tickell
+D:Katherine Tickell
+R:polka
+M:4/4
+K:Am
+"Am"A3B c2A2 | "G"B2G4 B2 | "Fm"A2F4 A2 | "E"G2 E4 D2 | "Am"A3B c2A2 | "G"B2G4 B2 | "Fm"A2 F2 "Em"E2 ^G2 | "Am"A8 :|
+"Am"e2 E2 A2 e2 | "G"d2 F2 A2 d2 | "Fm"c2 E2 A2 c2 | "Em"B2 E2 ^G2 B2 | "E"e2 E2 A2 e2 | "D"d2 ^F2 A2 d2 | "E"c3 B A2 ^G2 | "A"A8 :|
+S:https://www.folktunefinder.com/tunes/16061
+S:http://trillian.mit.edu/~jc/music/abc/polka/CatflapPolka_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/CatflapPolka_BB.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

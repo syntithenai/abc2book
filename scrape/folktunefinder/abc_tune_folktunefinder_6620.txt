@@ -1,0 +1,46 @@
+X: 1
+T: Dror Yikra
+S: H.Kirsch : Songs and Folk Dances bk 10 (c) 1969 NEGEN
+O: Israel
+I: choreographer Moshiko, E. Gamliel
+M: 2/4
+L: 1/8
+Q: 1/4=80
+K: C
+D \
+| "Em" EE/D/ EF/E/ \
+| "Am" A>B "Em" G2 \
+| "Dm" F/E/F "Em" ED \
+| EE/D/ EF/E/ \
+| [M:3/4] "Am" A/G/A/B/ "Em" G2 "Dm" F/E/F/E/ \
+| "Em" E4-E D |
+| [M:2/4][L:1/8] "Em" EE/D/ EF/E/ \
+| "Am" A>B "Em" G2 \
+| "Dm" F/E/F "Em" ED \
+| EE/D/ EF/E/ \
+| [M:3/4] "Am" A/G/A/B/ "Em" G2 "Dm" F/E/F/E/ \
+| [M:2/4][L:1/8] "Em" E4 |
+| "Em"zE/B/  BB \
+| B2 B/A/c/B/ \
+| "Am" A2 "Em" G>A \
+| BA GF \
+| E>F ED |
+| "Em"EE/D/ EF/E/ \
+| "Am" A2 "Em" G2 \
+| "Dm" F/E/F "Em" ED \
+| EE/D/ EF/E/ \
+| [M:3/4] "Am" A/G/A/B/ "Em" G2 "Dm" F/E/F/E/ \
+| [M:2/4][L:1/8] "Em" E4- \
+| E3 |]
+S:https://www.folktunefinder.com/tunes/6620
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/20031220I.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

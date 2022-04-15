@@ -1,0 +1,64 @@
+X: 6
+T:Arthur Darley
+% Nottingham Music Database
+S:Formally, but with lift, via Phil Rowe
+M:6/8
+K:D
+dc/2B/2|\
+P:\>
+A2D AGF|EDC D3|
+P:\>
+d2e fgf|edc d2A|\
+P:\>
+d2e fgf|\
+M:9/8
+edc d2A BAG|\
+M:6/8
+FED EDC|DA,B, CDE|
+P:\>
+Ddd \
+P:\>
+Aee|\
+P:\>
+Aff \
+P:\>
+Agg|fed edc|d3 dcB||
+P:\>
+P:segno
+A2D AGF|EDC D3|d2e fgf|edc d2A|d2e fgf|
+M:9/8
+edc d2A BAG|\
+M:6/8
+FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d3 d=c_B
+|:\
+K:F
+A2f fef|A2f fef|\
+P:\>
+Aff
+P:\>
+Agg|\
+P:\>
+Aaa \
+P:\>
+Abb|A2f fef|A2f f2g|fed ed^c|1d3 dcB:|2d3 d2e||
+K:D
+fgf edc|d2A BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|
+P:Fine.
+d3 dc\
+P:D.S.
+B||
+S:https://www.folktunefinder.com/tunes/65094
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

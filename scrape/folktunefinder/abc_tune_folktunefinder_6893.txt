@@ -1,0 +1,34 @@
+X: 1
+T: dos Tsigayner
+T: the Gypsy
+M: 2/4
+L: 1/16
+K: C
+|: "C"^F2G2 G2G2 | A2B2 A2G2 | "G7"G2 F4 E2 | "C"^FG E6 :| \
+K: Cm
+|: "Cm"D2_E2 E2E2 | ^F2G2 F2_E2 | "G7"_E2 D4 C2 | "Cm"_E2D2 C4 :|
+|: "Cm"D2E2 E2D2 | D2 C6 | D2E2 E2D2 | D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"=ABc2 B3_A | A2 G4 FE | "G7"DEF2 E2D2 | "Cm"D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "C"c4 B=ABc | "F"=A8 | "Bb"B2B2 _AGAB | "Eb"G8 \
+| "C"GABA AGGF | "Fm"F2F2 A4 | "G7"G2G2 F=EFG | "C"=E8 :|
+K: C
+|: "G7"G2F2 F2F2 | F8 | G2G2 F2ED | "C"EF G6 \
+| "G7"G2F2 F2F2 | "Fm"F4 _A4 | "Bbm"G2FE _DC_B,D | "C"C8 :|
+S:https://www.folktunefinder.com/tunes/6893
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/DosTsigayner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/DosTsigayner_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/DosTsigayner_Cm.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

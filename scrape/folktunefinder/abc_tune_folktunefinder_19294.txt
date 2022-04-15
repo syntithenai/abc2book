@@ -1,0 +1,30 @@
+X: 1
+T: Delnabo
+C: J.S.Skinner
+N: Skinner writes that this tune is named after the residence of the late
+N: Colonel Smith near 'Macpherson's cave'. Skinner suggests that his reel
+N: 'Mains of Gartly', from the Logie Collection, should follow it.
+R: strathspey
+B: J.S.Skinner "Harp & Claymore" 1904
+F: http://www.abdn.ac.uk/scottskinner/display.phpID=JSS0110&Creator=1&Creator_Manuscript=1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Em
+B,2 | E4 G3E B3E G3E | {G}[A4A4] =G3E F3D D4 | {F}G4 G3G d3G B3G | ABc2 B3^d e3E E2 :|
+f2  | gfe2 B3^d e3f g3e | d3f A3f F3A D3f | gfe2 B3^d e3f g3e | fc'3 b3a g2e2 e3 |]
+f   | gfe2 B3^d e3f gfe2 | f3a A3f | F3A D3F | (3G2F2E2 (3A2G2F2 (3B2A2G2 (3c2B2A2 | B8 ge3 e2 |]
+S:https://www.folktunefinder.com/tunes/19294
+S:http://www.abdn.ac.uk/scottskinner/display.phpID=JSS0110&Creator=1&Creator_Manuscript=1
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Delnabo_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Delnabo_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Delnabo_Em.abc
+% Rhythm Strathspey
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

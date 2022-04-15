@@ -1,0 +1,28 @@
+X:30
+T: Das Pavierlied
+N: A0389
+O: Europa, Mitteleuropa, Deutschland
+N: Fliegendes Blatt von 1525.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: D
+A2 | AAGA | =FED2
+A2 | =cdAB | =c2A2
+A2 | AAGA | =FED2
+A2 | =cdAB | =c2A2
+c2 | =ccA2=F2 | GG=F2z
+A | AAG2A2 | =FED2z
+A | AGA2B2 | =cAG2z
+d | e2d2A=c | B2A2
+S:https://www.folktunefinder.com/tunes/80089
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

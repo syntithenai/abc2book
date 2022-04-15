@@ -1,0 +1,27 @@
+X:18
+T: HINAUS IN DAS LAND UND WEITER
+N: F0064A
+O: Europa, Mitteleuropa, Deutschland
+N: Strophenvariante zu F0064
+R: Liebe, Schmerz, Schaefer - Lied
+M: 4/4
+L: 1/8
+K: Bb
+F | B2BB_d2cB | f3cc2z
+c | _d3de3e | f6z
+f | f3BB2cd | e2e2z3
+e | e2FFF2GA | B6z
+F | f2BB_a2_gf | _g2g2z3
+g | f2fff3A | B2b4_a
+_g | f2fff3A | B6z
+S:https://www.folktunefinder.com/tunes/69578
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebe, schmerz, schaefer - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

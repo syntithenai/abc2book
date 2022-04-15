@@ -1,0 +1,29 @@
+X: 1
+T: Maailman Matti
+O: trad Finland
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+C>E | "C"G2 (GA) GF ED | C2 E2 GG cc | "G7"BB G>G A2 B2 | c2 z2 z2 ||
+w: Mi-n\"a Mat-ti* o-len t\"as-s\"a maa-il-mas-sa, vaik-ka var-rel-ta-ni ma-ta-la.
+C>E | "C"GG GA GF ED | C2 E2 G2 cc | "G7"B2 G>G A2 B2 | c2 z2 z2 ||
+w: Ei-k\"a i-lo-ja-ni mu-re-hik-si muut-taa voi t\"a-m\"a maa-il-ma ka-ta-la.
+c2 | "F"AA FF A2 c2 | "C"G4 z2 G>G | "G7"FF DE F2 A2 | "C"G4 z2 ||
+w: En luo-tu o-le it-ke-m\"a\"an, en-k\"a oh-dak-kei-ta kit-ke-m\"a\"an.
+|: GG | "C"c2 c2 e2 cB | "F"(AB) cA "C"G2 EF | "G7"G2 AF E2 D2 | "C"C4 z2 :|
+w: Hu-raa, hur-raa hoi, mi-nun lau-*lu-ni soi n\"ail-l\"a maa-il-man mark-ki-noill'.
+%
+W: Ja jo pienest\"a pojast' olen iskenyt min\"a kortilla nakkia.
+W: Vaikka pappa ja mamma ne toivoivat t\"ast\"a pojasta pappia.
+W: Sit\"a mammani suri, hei, kun pappia tullut ei.
+W: Huraa - - -
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/8809
+S:http://trillian.mit.edu/~jc/music/abc/Scand/MaailmanMatti.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

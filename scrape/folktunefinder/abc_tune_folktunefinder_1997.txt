@@ -1,0 +1,37 @@
+X: 60
+T:Carolan's Recpt for drinking Whiskey. JMP.060
+M:4/4
+L:1/8
+Q:140
+C:"65"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:1 - bar line missing..2 - MS has 3 E', possibly for 1st & 2nd time..
+H:1799
+Z:vmp.C. Graebe
+K:G major
+G2 | edcB cBAG | "tr"E2 G2 G2 "tr"g2 | e>dcB cBcd | e2 A2A2 Bc |!
+dBde d2 (ef) | gfga g2 (fg) | edcB cBA"1"G| "tr" E2 GA "tr"G2 :|!
+|:B>c | d2 (de) dBAG | E2 G2 G2 (B>c) | dBde dB (AB/d/) |\
+e2 g2g2 g>a |!
+ babg afad | gfgd e^deB | cBAG "tr" G2 (Bd) |e2 g2 g2 "tr" ge |!
+ dBAG G2 ge | dBAG "tr"E2 GA | BAGE AGED |E2 GA G2 :|! 
+|:B, | A,G,A,B, DB,DE | GEGA BABd | efge dBAB | G2E2E2 B2,|!
+A,G,A,B, DB,DE | GFGA BABd | efge dBAB | \
+G2"1st/2nd time" E2E2 GA G2 :|]
+S:https://www.folktunefinder.com/tunes/1997
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

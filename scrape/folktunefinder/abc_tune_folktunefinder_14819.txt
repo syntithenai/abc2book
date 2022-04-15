@@ -1,0 +1,25 @@
+X: 1
+T: Over the Causeway
+C: Susan Conger
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+|: "A"AAA ABc | e2A B2A | "Bm"B3 BcA | "D"FAG "E7"F2E \
+|  "A"AAA ABc | e2A B2A | "F#m"F2F "E7"GFE |1 "D"F3 "E7"E3 :|2 "D"F3- F2"E"G ||
+|: "A"A2a- "D"a2f- | "A"f2e c2e | f2e c2B | "F#m"cBA F2A \
+|  "A"E2a- "D"a2f- | "A"f2e c2B | c2e "E7"cBA |1 "A"A3- A2 "E"B :|2 "A"A3- A2 |]
+S:https://www.folktunefinder.com/tunes/14819
+S:http://trillian.mit.edu/~jc/music/abc/jig/OverTheCauseway_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OverTheCauseway_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:184
+T: ICH BIN VOM BERG DER HIRTENKNAB
+N: F0321
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Natur
+M: 4/4
+L: 1/8
+K: C
+G,G,G, | E3ED3D | C2z3
+_B,B,B, | A,G,F,E,D,2C,2 | G,2z3
+G,G,G, | C3CC2C2 | B,2z3
+G,G,G, | _E3EE2E2 | D2z2
+F2DB, | C2E,2G,4 | C,2z3
+S:https://www.folktunefinder.com/tunes/69744
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, natur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

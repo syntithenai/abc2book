@@ -1,0 +1,24 @@
+X: 9
+T:Ali Pasha
+L:1/8
+O:Turkey
+S:adapted from Richard Geisler, 1983
+M:5/4
+Q:1/4=140
+K:Am
+%%MIDI beatstring fppmp
+|: "C" [G2E2] [G2E2] [c2G2] [G4c4]         |"G7"  cB BA cB B4       |\
+   "F"  [B2G2]  [A2F2] GA [A3F3] A         |"C" BG GF FG G4         :|
+|: "F"  F2 [A2F2] [A2F2] "G7" [A2F2] GF    |\
+   "C" [E2C2] [G2E2] "A7" [G2D2] [G2^C2] FE|\
+   "Dm" D2 F2 F2 "C" ED C2                 | "G7" D2 ED CB, "C" C4  :|
+S:https://www.folktunefinder.com/tunes/67895
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 5/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

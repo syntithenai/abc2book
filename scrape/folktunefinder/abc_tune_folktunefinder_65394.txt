@@ -1,0 +1,24 @@
+X: 306
+T:Swallowtail
+% Nottingham Music Database
+S:EF
+M:6/8
+K:Em
+P:A
+E/2F/2|"Em"GEE BEE|"Em"GEE BAG|"D"FDD ADD|"D"d^cd AGF|
+"Em"GEE BEE|"Em"GEE B2^c|"D"d^cd AGF|"Em"GEE E2:|
+P:B
+B|"Bm"B^cd "Em"e2f|"Em"e2f edB|"Bm"B^cd "Em"e2f|"Em"edB "D"d3|
+"Bm"B^cd "Em"e2f|"Em"e2f edB|"D"d^cd AGF|"Em"GEE E2:|
+S:https://www.folktunefinder.com/tunes/65394
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

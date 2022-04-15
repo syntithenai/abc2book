@@ -1,0 +1,33 @@
+X:3
+T:Carmen (Havanaise)
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Georges Bizet, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:E2
+M:4/4
+K:Dm
+P:E
+%%MIDI gchord f2czf2cf3cf2zcf
+%%MIDI bassprog 43
+%%MIDI bassvol 127
+%%MIDI chordprog 42
+%%MIDI program 40
+|: "Dm"d_d c>c _c_B A>A | _AG "Gm"FE/2F/2 GF "A"E2 |
+"Dm"d_d c>c _c_B A>A |1 "Gm"GF "A"ED/2E/2 FE "Dm"D2 :|2\
+"Gm"GF "A"ED/2E/2 FE "Dm"D>A ||
+K:D
+|: "D"DE F>A FE "Bm"D>E | FG "F#m"A/2A/2A/2A/2 BA "Em"G>B |\
+EF "C"G>B GF "Em"E>F | GA "G"B/2B/2B/2B/2 cB "A"A>A :|
+S:https://www.folktunefinder.com/tunes/2057
+S:http://kazimodal.trad.org/partitions/rond_saint-vincent/anneaux_d_or/anneaux_d_or.abc
+% Rhythm Rond de saint-vincent
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

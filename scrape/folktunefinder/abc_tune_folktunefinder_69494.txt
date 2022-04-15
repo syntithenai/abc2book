@@ -1,0 +1,30 @@
+X:635
+T: "Das Raethsel"
+N: Z1316
+O: Europa, Mitteleuropa, Deutschland, Mittelrhein
+R: Zech -, Schalks - Lied
+M: 4/4
+L: 1/16
+K: D
+A4 | d3AF3AD4F4 | E3EA2A2F2E2D2
+A2 | d3AF3AD4F3F | E4F2^G2A4z4
+F4F2F2A4A4 | G2F2G2A2F4z4
+D4D2D2F4F4 | E2D2E2F2D4z4
+F4F2F2A4A4 | G2F2G2A2F4z4
+D4D2D2F2F2F4 | E2D2E2F2D4z2
+A2 | d3AF2A2D4F4 | E4A4F4z2
+A2 | d3AF2A2D4F4 | E4A3AF4z2
+A2 | d3AF3AD4F4 | E4A2A2F4z2
+A2 | d3AF2A2D4F4 | E4A4F4z2
+A2 | A2AAA2AAA2AAA2A
+A | A2f2c2d6AFB2A2C2 | D4z8
+S:https://www.folktunefinder.com/tunes/69494
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

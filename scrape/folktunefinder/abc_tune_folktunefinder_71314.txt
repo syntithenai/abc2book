@@ -1,0 +1,26 @@
+X:285
+%%topmargin 3cm
+T:Wee Willie's Strathspey
+C:James Porteous
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+D<GG>A B<G G2 | E<AA>G {/G}F2 (ED) | D<GG>A B<G G2 | E>A (G/F/)(E/D/) {/F}(G2G,2) :|
+D<G(G>c) B(c/d/) d>B | c>AB>G {/G}F2 (E>D) | D<G(Gc) B(c/d/) dg | B>G (B/A/)(G/F/) G2 GD |
+GBde/f/ .g.f.e.d | .c.B.A.G {/G}G2 ED | (3GBG (3AcA (3Bcd (3efg | {/a}(3gfe (3def g2 (3gab |]
+W:Composed by the Authors son (James Porteous) only 9 years of age.
+W:
+W:Second measure of B part : grace note g, then quarter note f (rp)
+S:https://www.folktunefinder.com/tunes/71314
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

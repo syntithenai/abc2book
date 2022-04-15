@@ -1,0 +1,32 @@
+X:1
+T:5. Greensleeves to a ground
+C:anon.
+Q:&quot;Andante&quot;
+L:1/4
+M:6/4
+K:Amin
+&quot;C&quot;c2de2e | &quot;G&quot;d2BG3 |&quot;am&quot;A>Bc dec | &quot;E&quot;B2^GE3 |
+&quot;C&quot;c2de>dc | &quot;G&quot;d2BG>AB | &quot;am&quot;c>BA&quot;E&quot;~B>A^G | &quot;am&quot;A3-A3 |]
+&quot;var. 1&quot;c>dee>fe | d>edB>cd | c>BcA>Bc | B>AB^G>AB |
+c>dee>fg | d>edB>cd | cBA~^G>^FG | A3-A3 |]
+&quot;var. 2&quot;g2ggfe | d2dBcd | c2cABc | B2B^GAB |
+g2ggfe | d2dBcd | edcd~B2 |A3-A3 |]
+&quot;var. 3&quot;e.c.A e.c.A | d.B.G d.B.G | e.c.A e.c.A | B.^G.E B.G.E |
+g.e.cg.e.c | d.B.G d.B.G | e.c.A B.^G.E | A3-A3 |]
+&quot;var. 4&quot;gca~g>fe | dBGdDF/G/ | AABcBA | ^GEB~ee>f |
+gca~g>fe | dBGdDe/d/ | cBAB^GE | A3-A3 |]
+&quot;var. 5&quot;A/B/cAc/d/eA| G/A/BGB/c/dG | A/B/cAc/d/eA | E/^F/^GEG/A/BE |
+c/d/ece/f/gc | G/A/BGB/c/dG | A/B/cA^G/A/BG | A3-A3 |]
+&quot;var. 6&quot;c.c.cc.c.c | g.g.gG>AB | a.a.aA>B c/d/ | e.e.e~^G.E.E |
+C.C.CC>D E/F/ | GGA~B>AG |cBA^G>^FG | A3-A3 |]
+&quot;var. 7&quot;cABcde | BGABcd | cABcde | B2^GE3 |
+ecdefg | BGABcd | ~cAc~B^GE | A3-A3 |]
+S:https://www.folktunefinder.com/tunes/48884
+S:http://www.thesession.org/tunes/display/1598
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

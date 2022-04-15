@@ -1,0 +1,24 @@
+X: 15
+T: Goteborgsk Mazurka
+O: Scandinavia
+M: 3/4
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI program 41
+%%MIDI chordprog 24
+%%MIDI bassprog 26
+  "G" B,DD GGB|Bc/B/AGA2|"D"AddcBA  |"G"G2 G2 z2       |
+|:"G"B,DD GGB |Bc/B/AGA2|"D"Add cAF |"G"G2 A2 B2       |
+  "G"B,DD GGB |Bc/B/AGA2|"D"Add cAF |"G"G2 G2 z2       :|
+|:"G"Bd g2d2  |B2 GDGB  |"D"A2 Ad dc|"G"B>A B/c/B/A/ G2|
+  Bd g2d2     |B2 GDGB  |"D"A2 Ad dc|"D"G2 G2 z2       :|
+S:https://www.folktunefinder.com/tunes/81286
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

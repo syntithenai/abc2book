@@ -1,0 +1,25 @@
+X:2390
+T:Highland Laddie
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a1a.html
+%%ID:00000a1a
+K:E min
+G3A B2B2|cBAG B4|B2A2 A2GA|B2A2 A2GE|\
+G3A B2B2|cBAG B3A|G2E2 E2DE|G2E2 E4::
+d2|\
+e2g2 d3B|cBAG B4|B2A2 A2GA|B2A2 A3d|\
+e2g2 d2B2|cBAG B3A|G2E2 E2DE|G2E2 E4:|
+S:https://www.folktunefinder.com/tunes/36557
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

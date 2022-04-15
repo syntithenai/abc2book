@@ -1,0 +1,27 @@
+X:137
+T: Alte Kuckukslieder (Kuckuks Ausflug)
+N: A0170A
+O: Europa, Mitteleuropa, Deutschland
+N: Aus Fragmenten in Schmeltzels neuntem Quodlibet (1544) von mir
+N: zusammengefuegt. Anders und ohne alle musikalische Ruecksicht
+N: von Uhland No. 14 zusammengesetzt.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F | FccA | c2c
+B | AGAB | G2F
+F | AGAB | c2G
+G | AGAB | c2GA | F3
+S:https://www.folktunefinder.com/tunes/68683
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 2
+P: Gigue des sucres
+O: Trad Qu\'ebec
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+F: http://tradquebec.over-blog.com/article-4344084.html
+M: 6/8
+L: 1/8
+K: G
+|: FE \
+| "G"D2G D2G | DGA B3 | "Am"cBc "D7"ABc | "G"e2d B2G \
+| "G"D2G D2G | DGA B3 | "Am"cBc "D7"DFA | "G"GBA G :|
+|: Bc \
+| "G"g3  "D"f3  | "C"efe "G"d3 | "Am"cBc "D7"ABc | "G"e2d B2G \
+| "G"gbg "D"faf | "C"ege "G"d3 | "Am"cBc "D7"DFA | "G"GBA G :|
+S:https://www.folktunefinder.com/tunes/3293
+S:http://tradquebec.over-blog.com/article-4344084.html
+S:http://tradquebec.over-blog.com/article-4344084.html
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ52.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X: 1
+T: Josefins dopvals [F]
+T: Josefin's baptism waltz
+C: Roger Tallroth
+N: Josefin is Roger's niece.
+Z: John Chambers <jc:trillian.mit.edu>
+D: V\"asen, "Spirit"
+D: Dervish, "At the End of the Day"
+M: 3/4
+L: 1/4
+K: F
+z"C7"C \
+| "F"CFG | AcB | AGF | C2D \
+| "Bb"B,>B,B, |1,3 DFE | "Gm"D3 | "C7"C3 \
+:|2,4 "Bb"[DB,]EF | "C7"G3- | G :|
+|: AB | "F"cAc | f2e | "Bb"d3 | "F"c3 \
+| "Bb"Bdc | BFG | "F"A>BA | "C7"GAB \
+| "F"cAc | f2e | "Bb"d3 | "F"c3 |
+| "Bb"Bdc | "C7"BAG | "F"A>BA | "C7"GAB \
+| "F"AGF | "C7"E2F | "Bb"F3 | B,>CB, \
+| "F"A,CF | "C7"EDE | "F"F3- | F :|
+S:https://www.folktunefinder.com/tunes/20003
+S:http://trillian.mit.edu/~jc/music/abc/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/JosefinsVals1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/JosefinsVals1_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

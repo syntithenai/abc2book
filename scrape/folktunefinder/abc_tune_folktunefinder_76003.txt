@@ -1,0 +1,23 @@
+X:23
+T: Es hat ein Bauer ein T\^ichterlein (Band 1), S. 68
+N: P0897
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Liebe, Werbung, Tod]
+M: 3/8
+L: 1/8
+K: F
+C | FFG | AAF | G2G | D2
+G | DDE | FED | D2C | C2
+C | FFG | AGG | GFE | F2
+S:https://www.folktunefinder.com/tunes/76003
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Liebe, werbung, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

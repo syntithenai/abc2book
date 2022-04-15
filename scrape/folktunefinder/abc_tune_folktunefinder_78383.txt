@@ -1,0 +1,27 @@
+X:362
+T: HERZ MEIN HERZ WAS SOLL DAS GEBEN
+N: B0429
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 4/4
+L: 1/16
+K: C
+G,4z2G,2 | G,4z2G,2C4E,4 | G,2F,2F,2z2
+_B,4B,4 | A,2B,2C2G,2G,4F,4 | E,4z4
+G,4G,4 | G,2^F,2F,4C4C4 | C2B,2B,2z2
+D4D4 | D2E,2C2A,2G,4B,2A,2 | G,8
+D,4D,4 | _E,4E,4=E,4E,4 | F,4F,4
+^F,4F,4 | G,4G,4C4C4 | C12CB,A,G, | G,8
+C4z2G,2 | A,6A,2D2C2B,2A,2 | B,4z4
+C4G,4 | A,2F2E2D2C4B,4 | C8
+S:https://www.folktunefinder.com/tunes/78383
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

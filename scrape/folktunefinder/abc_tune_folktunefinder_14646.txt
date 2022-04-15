@@ -1,0 +1,25 @@
+X: 1
+T: The Milltimber Jig
+C: Ian Crichton
+R: jig
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"AFD A,DF | "D"Adf aAa | "Em"gfe "E7"dcB | "A"ABA "A7"GFE \
+| "D"AFD A,DF | "D"Adf aAa | "Em"gfe "A7"cAa | "D"fdd     d2 :|
+|: e \
+| "D"f2e fga | "Em"gfg gef | "Em"gfe "E7"dcB | "A"AaA "A7"a2g \
+| "D"f2e fga | "Em"gfg gef | "A7"gfe     cAa | "D"fdd     d2 :|
+S:https://www.folktunefinder.com/tunes/14646
+S:http://trillian.mit.edu/~jc/music/abc/jig/MilltimberJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MilltimberJ_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

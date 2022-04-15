@@ -1,0 +1,28 @@
+X:43
+T: BIN AUF UND ABGANGE
+N: E1040
+O: Europa, Mitteleuropa, Deutschland, Hessen, Unter - Lahn- u. Dillkreis
+R: Tanz - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | B3AG2 | G2F2
+G2 | A2d2c2 | B2z2
+D2 | B2A2G2 | F2E2
+EE | D2c3F | G2z2
+GG | A3BA2 | B2A2
+AA | A2e2d2 | B4
+GA | B3AB2 | d3c
+BA | GDB2A2 | G4
+S:https://www.folktunefinder.com/tunes/79147
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

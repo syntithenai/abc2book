@@ -1,0 +1,25 @@
+X:180
+%%topmargin 3cm
+T:Lady Gwyder
+C:John Bowie
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+F | D>AF>A DdTd>B | ADTF>D EB,B,E | D>AF>A DgTf>e | d>BA>F D/D/D D:|
+f | (d/e/f/g/) ad fdad | (A/B/c/d/) eA cAeA | (d/e/f/g/) ad fdad | Agf>e fddf |
+(d/e/f/g/) ad fdad | (A/B/c/d/) eA cAec | d>fe>g f>de<f | d>BA>F D/D/D D |]
+S:https://www.folktunefinder.com/tunes/71210
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Gwyder.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0180.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: le Papillon
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:  G
+D \
+| "G"GAG GdB | "D7"ABA Adc | "G"BAG "D7"cAF | "G"Gdc BAG \
+| "G"GAG GdB | "D"ABA Aag | fed "A7"Ad^c | "D"dAF D2 :|
+|: B \
+| "C"cdc caA | "G"BcB BgG | "C"edc "(A7)"BAG | "D7"FGA D2B \
+| "Am"cdc edc | "G"BcB dcB | "C"cBA "D7"DGF | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/14832
+S:http://trillian.mit.edu/~jc/music/abc/jig/PapillonJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Papillon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/PapillonJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PapillonJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PapillonJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Papillon_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

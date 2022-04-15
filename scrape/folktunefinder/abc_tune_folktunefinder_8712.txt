@@ -1,0 +1,23 @@
+X: 3
+T: Fj\"askern (F)
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+|: "F"CF A2 | "C7"GA B2 | "F"AA "C7"GG | "F"FA c2 \
+|  "F"CF A2 | "C7"GA B2 | "F"AA "C7"GG | "F"F3 z :|
+M: 6/8
+L: 1/8
+|: "F"c2B A2B | c2f A2c | "C7"c2B G2B | "B"dz2 "F"c2 \
+|  "F"c2B A2B | c2f A2c | "C7"c2B G2E | Gz2 "F"F3 :|
+S:https://www.folktunefinder.com/tunes/8712
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Fjaskern.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

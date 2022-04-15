@@ -1,0 +1,62 @@
+X:1
+T:Star crossed lovers
+M:4/4
+L:1/4
+C:Billy Strayhorn
+Q:1/2=72
+%%staves (chords melody)
+K:Db
+%%text (Ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x2 ||"Gbmaj7"x2 x2 | "G7"x2 x2 | "Db/Ab"x2 x2 | "Bbm7"x2 x2 |
+"Ebm7"x2 x2 | "Ab7"x2 x2 | "Dbmaj7"x2 x2 | "Db7"x2 x2 ||
+V:melody
+DE || F4 | =A2FE | F4 | B2FE |
+F2B2 | A2FE | F4 | z2DE ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gbmaj7"x2 x2 | "G7"x2 x2 | "Db/Ab"x2 x2 | "Bbm7"x2 "-/Ab"x2 |
+"Gm7b5"x2 x2 | "C7"x2 x2 | "Fm"x2 x2 | "(Bb7)"x2 x2 ||
+V:melody
+F4 | =A2FE | F4 | B2FE |
+F4 | BdAG | c4 | z2GA ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Ebm7/Ab"x2 x2 | "Db/Ab"x2 x2 | "Ebm7/Ab"x2 x2 | "Db/Ab"x2 x2 |
+"Ebm7b5/Ab"x2 x2 | "Db/Ab"x2 x2 | "Ebm7b5/Ab"x2 x2 | "Db/Ab"x2 x2 ||
+V:melody
+B2de | c2A2 | B2de | c2A2 |
+__B2de | c2A2 | __B2e2 | A4 ||
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Abm7b5"x2 x2 | x2 x2 | "Db7"x2 x2 | x2 x2 |
+"Gbmaj7"x2 x2 | "Gbm6"x2 x2 | "Ebm7"x2 "(A7)"x2 | "Ab7"x2 x2 ||
+V:melody
+__e4 | (3d2c2_c2 | B2d2 | B3D |
+A4- | A2F2 | (3AGAF2- | F2DE ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Dbmaj7"x2 x2 | "G7"x2 x2 | "Gbmaj7"x2 x2 | "Eb7"x2 x2 |
+"Ebm7"x2 x2 | "Ab7"x2 x2 | "Dbmaj7"x2 x2 | "(Db7)"x2 x2 |]
+V:melody
+F4 | =A2FE | F4 | B2FE |
+F2- (3FG=G | A2A2 | A4 | z4 |]
+S:https://www.folktunefinder.com/tunes/18989
+S:http://trillian.mit.edu/~jc/music/abc/song/Star_crossed_lovers.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Star_crossed_lovers.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/star_crossed_lovers.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/star_crossed_lovers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

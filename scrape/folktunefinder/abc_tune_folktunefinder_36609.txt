@@ -1,0 +1,33 @@
+X:2650
+T:James Porteous' Farewell to old Dr. Clapperton
+A:North-West
+M:6/8
+O:England
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004c3.html
+%%ID:000004c3
+K:G min
+d|\
+{c}B>AG FDF| Bcd {e}dcd| \
+B>AG GDB| [AF]Bc FBd|\
+{c}B>AG G,B,D| GBd ~gab|
+{b}agf {e}dcA| G3 G,3 :|\
+^f|\
+gdg g>ab/a/| g>dg/a/ bag| \
+fcf f>ga/g/| fdf d/c/B/A/G/F/|
+gdg g>ab/a/| gdg/a/ bag| \
+{b}agf {e}dcA| G3 G,2^f|\
+gdg g>ab/a/| g>dg/a/ bag|
+fcf f>ga/g/ fcf d/c/B/A/G/F/|\
+{c}B>AG {G}FDG| B>cd gab| {b}agf dcA| G3 G,2 |]
+S:https://www.folktunefinder.com/tunes/36609
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

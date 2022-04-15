@@ -1,0 +1,32 @@
+X: 25
+T: The Mainhattan Jig
+C: Anselm Lingnau
+N: The title comes from a local nickname for Frankfurt am Main, where Anselm lives.
+N: The downtown has so many skyscrapers that it reminds people of Manhattan.
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2B dBG | "C"efg "G"dBG | "Am"cec "G"BdB | "D"A2G FED \
+| "G"GBd dBG | "C"efg "G"dBG | "Am"cec "G"BdB | "D"AGF "G"G2 :|
+|: d \
+| "G"g2G "D"fed | "C"e2G "Bm"dcB | "Am"cec "D"def | "Em"g2a "D"fed \
+| "G"g2G "D"fed | "C"e2G "Bm"dcB | "Am"cec "G"BdB | "D"AGF "G"G2 :|
+|: d \
+| "G"gdB "C"Gec | "Bm"d2c "G"BAG | "Am"cec "D"def | "Em"gea "D"fed \
+| "G"gdB "C"Gec | "Bm"d2c "G"BAG | "Am"cec "G"BdB | "D"AGF "G"G2 :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12678
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

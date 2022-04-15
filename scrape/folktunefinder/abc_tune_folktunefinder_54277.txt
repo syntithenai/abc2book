@@ -1,0 +1,27 @@
+X: 294
+T: Sepo
+O: Armenia
+M: 2/4
+L: 1/8
+Q: 1/4=88
+K: Dm
+%%MIDI program 66
+%%MIDI drum d2dd 54 54 54
+%%MIDI drumon
+  E2 F/E/D            |E2 F/E/D |\
+  ^C/D/E F/E/D/C/     |[1D4     :|\
+  [2 D2-D/A,/=B,/^C/  |
+|:D/E/F/E/ D/^C/=B,/C/|=B,>A,B,2|\
+  D/E/F/E/ D/^C/=B,/C/|D4       :|
+S:https://www.folktunefinder.com/tunes/54277
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

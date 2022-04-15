@@ -1,0 +1,26 @@
+X: 80
+T:Donald Ian Rankine
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+"D7"d2c |"G"Bdd GBB|DGG B,DD|"G"B,DD GBB|"D"GFF F3|
+"D"DFF FAA|"D"Acc cdd|dff fdd|"G"cBB B3|
+"G"Bdd GBB|DGG B,DD|"G"B,DD GBB|"D"GFF F3|
+"D"DFF FAA|"D"Acc cdd|dff fef|"G"agg g3||
+"G"bgg dgg|bgg edd|"G"bgg dgg|"D"gff f3|
+aff dff|"D"aff fed|aff dff|"G"edd "D"d3|
+"G"bgg dgg|bgg edd|"G"bgg dgg|"C"gee e3|
+ecc Gcc|"G"DGG Bdd|"D"dff fef|"G"agg g3||
+S:https://www.folktunefinder.com/tunes/65168
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

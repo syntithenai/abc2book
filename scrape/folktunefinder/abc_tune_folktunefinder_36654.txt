@@ -1,0 +1,30 @@
+X:2875
+T:Kershaw's Hornpipe
+A:North-West
+C:Joseph Kershaw
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004f8.html
+%%ID:000004f8
+K:D
+(3ABc|\
+dfdf ecAc| dBGB AFDF| \
+GBAc Bged| c2A2 A2(3ABc|\
+dA A2 eAA2| fefg aAA=c|
+BdGB AFGE| D2D2 D2::\
+(3ABc|\
+dAdA FDFA| BGEG BGdB|
+gefd ecdB| Afed cBAG| \
+Fdd2 Gee2| Aff2 Bee2| \
+fafd Bgec| d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/36654
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:621
+T: "Der Bauernstand"
+N: Z1301
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Handwerker -, Bauern - Lied
+M: 6/8
+L: 1/8
+K: A
+ | A2cB2d | c2de3
+d2Bc2A | B2GA2
+A | G2AB2A | G2FE3
+A2ce2e | f2fe2e
+A2ce2e | f2fe2e
+A2cB2d | c2fe3
+d2Bc2B | A2GA2z
+S:https://www.folktunefinder.com/tunes/69480
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

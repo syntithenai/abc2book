@@ -1,0 +1,23 @@
+X: 1
+T: Polkett Dal-Jonke
+O: arr. Olof Lindgren
+R: polkett
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 2/4
+K: G
+|: "G"dg/d/ Bd/B/ | GB DG | Bd gf/g/ | "Am"ba a2 \
+| "D7"ce/c/ Ac/A/ | FA DF | Ad fe/f/ | "G"ag gz :|
+|: "D7"a2 ag/a/ | ba fd | "G"dg gf/g/ | bg "C"e2 \
+| "Am"c2 c>B | "D7"Ad f>e | "G"dg "D7"b>a | "G"gg gz :|
+S:https://www.folktunefinder.com/tunes/16198
+S:http://trillian.mit.edu/~jc/music/abc/polka/Polkett_Dal-Jonke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Polkett_Dal-Jonke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Polkett_Dal-Jonke_G.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

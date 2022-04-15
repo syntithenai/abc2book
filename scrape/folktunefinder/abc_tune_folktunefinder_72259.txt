@@ -1,0 +1,34 @@
+X: 10
+T:Roger The Cavalaye. HA.011
+T:Roger De Coverley,aka. HA.011
+T:Sir Roger De Coverley,aka. HA.011
+M:9/4
+L:1/4
+Q:150
+C:Sir Roger De Coverley,aka.
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Scordatura, ADAE, tune bottom string up a tone, though it doesn't say
+N:so. All I've done is put in a couple of barlines which you may find
+N:useful. see Playford eds 9(1695) .CGP
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:C
+"As Writ, No Key in MS Sig"G,A,B,CCB(AF)D|E2EEF/DB,2 |\
+"Scordatura ADAE"\
+G,A,B,CCB(AF)A|d2 DDECB,2G,||!
+(AF)A (BG)B (AF)C|E2E "cr"E>FD B,2G,|\
+(AF)A (BG)B (AF)A|d2D "cr"D>EC B,2G,||!
+a(ba) (gf) g(ag) (fe) f(gf) e(de)|EEF/EB,2G,|\
+a(ba) (gf) g(ag) (fe) f(gf) (ed) d2|]
+S:https://www.folktunefinder.com/tunes/72259
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

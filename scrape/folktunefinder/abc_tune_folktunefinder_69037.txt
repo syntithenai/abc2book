@@ -1,0 +1,26 @@
+X:178
+T: ACH HAETT ICH HUNDERTTAUSEND GULDEN
+N: Z0177
+O: Europa, Mitteleuropa, Deutschland, Ober - Deutschand
+R: Soldaten -, Jaeger - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GDB,D | G2B2 | AG2
+B | AGFE | G2E2 | D3
+D | GDB,D | G2B2 | AG2
+B | AGFE | G2E2 | D3
+D | AAAB | c2B2 | A3
+G | FEDc | B2A2 | G3
+S:https://www.folktunefinder.com/tunes/69037
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Soldaten -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:5520
+T:Scottis fr Skne
+A:Skne
+M:4/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007c2.html
+%%ID:000007c2
+K:D
+D2DF  D2DF|E>DCE D4 |1\
+C>DEF GECE|DEFG AGFE :|2 \
+CDEF GABc|d2{e}dc d4::
+d>fed dcc2|B>dcB BAAG|F>AFD E>GEC |1 \
+D2d2 A4 :|2 D2{E}DC D4 :|
+S:https://www.folktunefinder.com/tunes/37183
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

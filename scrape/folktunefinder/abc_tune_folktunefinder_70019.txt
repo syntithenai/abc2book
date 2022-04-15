@@ -1,0 +1,25 @@
+X:459
+T: EIN MAEDCHEN VON ACHTZEHN JAHREN
+N: F0864
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade
+M: 4/4
+L: 1/8
+K: G
+D2 | G2BBB2d2 | B2d2B2
+d2 | d3cc2B2 | A4z2
+B2 | c2e2c2A2 | B2d2B2
+G2 | A2ccA2F2 | e2d2d2
+B2 | c2e2c2A2 | B2d2B2
+G2 | A2AAd2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/70019
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

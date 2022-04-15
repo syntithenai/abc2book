@@ -1,0 +1,23 @@
+X: 1
+T: Michelle's Waltz
+S: Paul Milde
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| G3 Bde | d2 B2 G2 | A3 BAG | FA D2 EF | G3 Bde | d2 g2 e2 | c3 AFD | G4 :|
+|: ef \
+| g3 efg | ab d2 g2- | g2 f2 e2 | d2 A2 ef | g3 efg | a2 fd A2 | c2 B2 A2 | G4 :|
+S:https://www.folktunefinder.com/tunes/20082
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MichellesWaltz_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/MichellesWaltz_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

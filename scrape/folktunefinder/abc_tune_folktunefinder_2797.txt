@@ -1,0 +1,25 @@
+X: 2
+T: Ekremov \vco\vcek
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M:7/8
+L:1/8
+R:Cocek
+K:Ephr=F^G
+|: "Am"[Bd][ce][ce] [ce][Bd] [c2e2] | "E"[Ac][Bd][Bd] [Bd][Ac] [B2d2] \
+|  "Am"[GB][Ac][Ac] [Ac][GB] [Ac][GB] | "Dm"[FA][EG][FA] "E"[G2B2] zE | "Am"[A3c3] [B2d2] [c2e2] |
+|  "Dm"[d2f2][ce] [B2d2] [A2c2] | "E"[GB][Bd][Ac] "Dm"[GB][FA] [FA][EG] | "E"[E3-G3-] [E2G2] z2 :: "E"[E3G3] "Dm"[F4A4] \
+|  "E"[G/B/][A/c/][G/B/][F/A/][EG] "Dm"[F2A2] z2 | "Am"[c2e2][ce] [B2d2] [A2c2] |
+|  "E"[G2B2] [Ac] [B2d2] z2 | "Am"[c2e2][ce] [B2d2] [A2c2] | "E"[G2B2][Ac] "Dm"[B2d2] [A2c2] \
+|  "E"[GB][Bd][Ac] "Dm"[GB][FA] [FA][EG] |1,3 "E"[E3-G3-] [E2G2] z2 :|2,4 "E"[E3G3] AB cd :|
+|: "E"[G3B3] "Am"[c4e4] | "E"[G3B3] [B4d4] | "Dm"[FA][FA][FA] "(Am)"[A2c2] [Ac][GB] \
+|  "Dm"[FA][EG][FA] "E"[G2B2] z2 | "E"[GB][Bd][Ac] "Dm"[GB][FA] [FA][EG] | "E"[E3-G3-] [E4G4] | z7 :|
+S:https://www.folktunefinder.com/tunes/2797
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Cocek_Ekremov.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Cocek_Ekremov.abc
+% Rhythm Cocek
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

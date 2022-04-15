@@ -1,0 +1,22 @@
+X: 1
+T: Scale of the "Montgomerie" 18th century smallpipe
+N: See Julian Goodacre's website for details
+N: K:AMix=G^g
+K:AMix=G^g
+|: AGA Bcd | efg a3 :|
+S:https://www.folktunefinder.com/tunes/2422
+S:http://trillian.mit.edu/~jc/music/abc/test/K_Amont.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_Amont.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_Amont.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_Amont.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:93
+T: Eng Hellecht um Dueref (1-17), S. 46f
+N: K0093
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+R: Brautwerbung]
+M: 6/8
+L: 1/16
+K: G
+D2 | D2E2F2G2A2B2 | c6E4
+c2 | B4G2A4FF | G6z4
+D2 | D2E2F2G2A2B2 | c6E4
+c2 | B4G2A4FF | G6z4
+A2 | A4A2A2B2^c2 | d6A4
+F2 | A4A2G2F2E2 | D6z4
+D2 | B4B2B4B2 | c6E4
+c2 | B4G2A4F2 | G6z4
+B2 | d2c2B2A2G2F2 | E6c4
+c2 | B2e2d2A2c2B2 | G6z4
+S:https://www.folktunefinder.com/tunes/70223
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Brautwerbung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

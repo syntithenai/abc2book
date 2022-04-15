@@ -1,0 +1,19 @@
+X: 1
+T: Tuonne taakse metsmaan
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Cm
+|: "Cm"E2ED C2C=B, | C2E2 "(G7)"G4 | "Cm"c2c2 "Fm"A2AG | F4 "Eb"G4 :|
+|: "Cm"G2c2 "Bb"B3A | "Eb"G3F "G7"G3F | "Cm"E2E2 "G7"D2D2 | "Cm"C4 C4 :|
+S:https://www.folktunefinder.com/tunes/4649
+S:http://trillian.mit.edu/~jc/music/abc/Finland/TuonneTaakseMetsamaan_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/TuonneTaakseMetsamaan_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/TuonneTaakseMetsamaan_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Jenny Pluck Pears
+R: jig
+M: 6/8
+L: 1/8
+B: Karpeles&Schofield p.10 (Ador); Hunt p.10 #28
+Q: 3/8=120
+K: Gdor
+|: "Gm"G2G "F"A>Bc | "Gm"B>AG "Dm"F2D \
+|  "Gm"G2G "F"A>Bc | "Gm"B>AG "Dm"F2D \
+|  "Bb"d2d "F"c2A | "Gm"B>AG "Dm"F2D \
+|  "C"E>FG "Dm"F>EF | "Gm"G3 G3 :|
+[M:3/4][L:1/4][Q:1/4=100]"slowly"
+|| "Gm"Gd"F"c | "Gm"B2"F"A | "Gm"Gd"F"c | "Gm"B2"F"A \
+|  "Gm"Gd"F"c | "Gm"B>AG | "Dm"F>EF | "Gm"G3 ||
+S:https://www.folktunefinder.com/tunes/14409
+S:http://trillian.mit.edu/~jc/music/abc/jig/JennyPluckPears_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/JennyPluckPears_Gm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

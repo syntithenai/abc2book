@@ -1,0 +1,28 @@
+X:3345
+T:a March
+A:North-West
+M:C|
+N:P 1/1
+O:England
+R:March
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000596.html
+%%ID:00000596
+K:D
+A/2B/2c|d2D2 F2A2|d2dd d3f|e2Ag f2Ag|fagf eABc|\
+d2D2 F2A2|d2dd d3f|e2a2 ^gbag|a2AA A2||\
+A/2B/2c/2d/2|e2ee e2de|f2ff f2dc|\
+B2cd edcB|^A2FF F2A2|BFdB cFec|dFfd eFge|\
+(3gab (3gfe d2c2|B2BB B2A/2B/2c|\
+d2DD D2d/2e/2f|e2EE E2e/2f/2g|\
+fdec dBed|c2AA A2GF|GBed cBAG|FAdc BAGF|\
+(3Edc (3BAG F2E2|D2DD D2|]
+S:https://www.folktunefinder.com/tunes/36748
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

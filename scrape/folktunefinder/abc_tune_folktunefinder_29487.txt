@@ -1,0 +1,21 @@
+X:3207
+T:Collier's
+Z: id:dc-jig-21
+M:6/8
+L:1/8
+K:D Mixolydian
+A|FDF A2B|cAd cAG|Ad^c d2e|fed cAG|!
+FDF A2B|cAd cAG|Ade fge|ed^c d2:|!
+g|fdg fdc|Adc Ade|f3 fed|AB^c dfg|!
+a3 g3|fed cAG|Ade fge|ed^c d2:|!
+S:https://www.folktunefinder.com/tunes/29487
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

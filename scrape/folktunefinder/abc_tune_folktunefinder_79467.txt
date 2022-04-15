@@ -1,0 +1,29 @@
+X:363
+T: ES GIENG EIN WOLGEZOGNER KNECHT
+N: E1540
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Bauern - Lied
+M: 6/4
+L: 1/4
+K: A
+A | A2AA2B | =c2cc2
+c | AAA=c2c | A3=G2
+A | A2AA2B | =c2cc2
+c | AAA=c2c | A3=G2
+G | =c2de2e | e2ee2
+e | e2ee2e | B3d2
+d | =c2AB2A | A2GA2
+=G | =c2de2e | e2ee2
+e | e2ee2e | B3d2
+d | =c2AB2A | A2GA2
+S:https://www.folktunefinder.com/tunes/79467
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

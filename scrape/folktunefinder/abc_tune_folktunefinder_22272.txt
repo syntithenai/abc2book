@@ -1,0 +1,28 @@
+X:1822
+T:Etrangre,L'. CJF.073
+T:L' Etrangre. CJF.073
+O:england
+M:6/8
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:F
+c|(ca).a (ag).g|gff fga|(c'g).g (ba).f|a3g2c|\
+caa c'ee|gff fag|egf dfe|c3c2|:
+c|cbg {f/}edc|(c'2a) .f(fa)|.g(g_b) (af).c'|c'3g2c|\
+(cbg) {f/}edc|(c'2_a) ffg|_agf _d'c'=b|c'3c'2:|c|
+.caa agg|(gf).g fga|(c'b).g (ba).f|(a3g2)c|\
+(dgf ec'e)|g3 {g/}fed|.c(fa b).d.e|(e3f2)h||
+S:https://www.folktunefinder.com/tunes/22272
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

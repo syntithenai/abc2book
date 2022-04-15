@@ -1,0 +1,25 @@
+X:137
+T: ES GIENG EIN MAEDCHEN GRASEN
+N: E0071B
+O: Europa, Mitteleuropa, Deutschland, Frankfurt a.M., Darmstadt
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G2B2B2d2 | G2B2B2
+d2 | d2c2c2B2 | B4A2
+GB | d2e2d2cA | G2B2B2
+BB | B2AAA2cc | e2d2d2
+GB | d2e2d2cA | G2B2B2
+B2 | A2A2d2dc | B6
+S:https://www.folktunefinder.com/tunes/78578
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

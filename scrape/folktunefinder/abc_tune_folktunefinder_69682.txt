@@ -1,0 +1,24 @@
+X:122
+T: NICHT SCHLIEF DIE MUTTER DIE LANGE NACHT
+N: F0241A
+O: Europa, Mitteleuropa, Deutschland
+N: Strophenvariante zu F0241
+R: Jugend - Lied, erzaehlend; Tod
+M: 6/8
+L: 1/16
+K: F
+A2 | A2z2A2A3AA2 | B2z2B2B2z2
+B2 | B3cB2B3cB2 | A4z6
+AB | c2z2c2c3cc2 | d3ef2f2e2
+d2 | c3dc2B2A2G2 | F4z6
+S:https://www.folktunefinder.com/tunes/69682
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, erzaehlend; tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

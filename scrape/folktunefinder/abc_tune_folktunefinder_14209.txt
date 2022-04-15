@@ -1,0 +1,28 @@
+X: 1
+T: den Gamle mand
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"B2B G2B | "C"c2e g2e | "G"d2B G2B | "D7"A2F D3 \
+|  "G"B2B G2B | "C"c2e g2e | "G"ded "D7"cBA | "G"G3 G3 :|
+K: D
+|: "D"d2d dfa | d2d dfa | "A7"e2e gfe | Tf2e Tf2e \
+|  "D"d2d dfa | d2d dfa | "A7"e2e gfe |1 "D"D3 D3 :|2 "D"d3 "G"[g3B3] |]
+S:https://www.folktunefinder.com/tunes/14209
+S:http://trillian.mit.edu/~jc/music/abc/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Denmark/jig/GamleMand_GD.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/GamleMand_GD.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

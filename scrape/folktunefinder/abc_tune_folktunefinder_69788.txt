@@ -1,0 +1,37 @@
+X:228
+T: WIE WIR SO FEST ZUSAMMEN STEHN
+N: F0396
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch
+M: 6/8
+L: 1/8
+K: C
+G, | E,2E,F,E,F, | G,A,B,C2
+B, | A,2G,G,F,E, | D,2z3
+G, | E,2E,F,E,F, | G,A,B,C2
+B, | D2B,A,G,A, | G,2z3
+B, | B,2G,D,2D | D2B,G,2
+G, | G,F,F,E,F,G, | D,2z3
+G, | E,2G,C2E, | F,2A,C2
+A, | G,2G,G,A,B, | C3
+E3 | EDCG,A,B, | C2z3
+C, | _E,2E,D,2D, | C,2_E,G,2
+G, | _E,2E,D,C,D, | C,2z3
+C, | _A,2A,G,2G, | F,2F,_E,2
+E, | D,2D,G,2G, | C,2z3
+G, | C2G,G,2E | E2CC2
+G, | A,2A,B,A,B, | C2z3
+G, | D2DD2E | C2CC2
+G, | D2DDED | C3
+D3 | E2CG,A,B, | C3z2
+S:https://www.folktunefinder.com/tunes/69788
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

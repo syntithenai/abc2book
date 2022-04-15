@@ -1,0 +1,43 @@
+X: 3
+P: Stenvalsen
+O: trad
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AG \
+|: "D"F2 FE FG | A2 F2 D2 | "G"G2 GF GA | "Em"B4 d2 \
+| "A7"c2 cB cd | e2 c2 A2 |1,3 "D"d2 dc de | fe dc BA :|2,4 "D"d3 edc | d3 :|
+|: efg \
+| "D"a4 ag | f2 g2 a2 | "G"b4 ba | "Em"g3 agf \
+| "A7"f2 e2 e2 | e2 f2 g2 | b2 a2 ^g2 | "(D)"a3 bag |
+| "D"f2 d2 d2 | d3 edc | "G"B2 G2 G2 | "Em"B3 dcB \
+| "A7"A^G AB cd | ef ge ce | "D"d3 edc | d3 :|
+S:https://www.folktunefinder.com/tunes/210
+S:http://trillian.mit.edu/~jc/music/abc/Contra/Vals01.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Waltz_Scand01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Waltz_Scand01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_Scand01
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

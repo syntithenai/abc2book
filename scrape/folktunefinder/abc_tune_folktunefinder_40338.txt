@@ -1,0 +1,26 @@
+X:2
+T:Smash the Windows (Roaring Jelly)
+R:Jig
+O:Ireland
+M:6/8
+K:D
+P:A
+A,|\
+DED F2A|d2f ecA|G2B F2A|E2F GFE|\
+DED F2A|d2f ecA|Bgf edc|d3 d2::
+P:B
+a|\
+a2f d2f|A2a agf|g2e c2e|A2g gfe|\
+f2d g2e|a2f bag|fed edc|d3 d2a|
+agf fed|Adf agf|gfe ecA|Ace gfe|\
+fed gfe|agf bag|fed edc|d3 d2||
+S:https://www.folktunefinder.com/tunes/40338
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set01.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

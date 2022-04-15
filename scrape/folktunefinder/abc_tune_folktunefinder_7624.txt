@@ -1,0 +1,31 @@
+X: 21
+T: Ed's Waltz
+C: Mike Mahar (Dec 2006)
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| "G"G2 F2 G2 | D4 G2 | "Am"A2 B2 c2 | E4 E2 \
+| "D7"A2 B2 c2 | F2 E2 D2 |1 "D7"D2 E2 D2 | "G"B,4 :|2 "D7" c2 B2 F2 | "G"G4 ||
+|: D2 \
+| "G"G3 F G3 | D4 G2 | "Am"A3 B c2 | E4 E2 \
+| "D7"A3 B c2 | F3 E D2 |1 "D7"D3 E D2 | "G"B,4 :|2 "D7" c2 B2 F2 | "G"G4 ||
+|: "G7"D2 \
+| "C"E3 D E2 | "D7"A4 F2 | "G"D3 B, D2 | "(Em)"G4 G2 \
+|1,3 "Am"A3 B c2 | "D7"F3 E D2 | D3 E D2 | "G"B,4 \
+:|2,4 "Am"AB c2 A2 | "D7"FE D2 D2 | dc A2 F2 | "G"G4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7624
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

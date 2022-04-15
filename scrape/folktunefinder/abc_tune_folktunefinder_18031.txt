@@ -1,0 +1,29 @@
+X: 1
+T: Road to Cashel, The
+T: the Cabin Hunter
+T: the Chestnut Tree
+M: C|
+L: 1/8
+C: Charlie Lennon
+R: reel
+D: Charlie Lennon: Musical Memories
+Z: Lorna LaVerne
+K: Edor
+| "Em"(FE)ED E2-~E2 | (FE)(3EEE"Bm" (dE)(Bd) \
+| "Em"(FE)ED E2(BA) | "D"(FDd)A "Bm"(Bd)(AB) |
+| "Em"(FE)ED E2-~E2 | (FE)(3EEE"Bm" (dE)(Bd) \
+| "Em"(FE)(ED) E2(BA) | "D"(FDdD) "Bm"(Bd)(Ad) |
+| (BAB)d (fd)(ef) | "D"(dfab) afed \
+| "G"((3B^cd g)e "D"~f2 (fe) | "Bm"(dB)(Ad) "Em"(BE)(FA) |
+| "Bm"(BAB)d (fd)(ef) | "D"(df)(ab) (afe)f \
+| "Bm"(bf)~f2 "F#m"(afe)f | "Bm"(bf)(af) "D"(edBA) :|
+| "Em"(FE)(ED) E4 ||
+S:https://www.folktunefinder.com/tunes/18031
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoadToCashel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

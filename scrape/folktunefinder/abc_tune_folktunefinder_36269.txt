@@ -1,0 +1,26 @@
+X:950
+T:Carlisle Races
+A:North-West
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004d2.html
+%%ID:000004d2
+K:G
+D|\
+G2B d2e| dBd g2d| c2e dBG| FAA A2D|\
+G2B d2e| dBd g2B| c2e DEF| FGG G2::\
+d|\
+gab agf| efg dcB| cde dBG| FAA A2d|\
+gab agf| efg dcB| c2e DEF| FGG G2:|
+S:https://www.folktunefinder.com/tunes/36269
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

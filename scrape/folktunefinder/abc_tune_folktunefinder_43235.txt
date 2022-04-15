@@ -1,0 +1,22 @@
+X: 3
+T:Breton Number 1
+M:4/4
+L:1/8
+S:Calico
+D:Calico:Celanova Square, Breton Set (i)
+Z: Richard Moon
+K:D
+A|ABcd eAce|fedc B2 AA|ABcd eAce|1fedc B3 A:||2fedc B3 B||!
+c2 BA B2 e2|c/2B/2A dc BAAB|c2 BA B2 e2|1c/2B/2A dc A3 B:||2c/2B/2A dc A
+4||
+S:https://www.folktunefinder.com/tunes/43235
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

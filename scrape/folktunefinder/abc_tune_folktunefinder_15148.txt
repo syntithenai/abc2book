@@ -1,0 +1,34 @@
+X: 1
+T: Tekeli Quick Step
+C: James Hook (c.1800)
+N: Used in the opera Tekeli by Theodore Hook (1806),
+N: and widely played in the UK during the 1800s.
+M: 6/8
+L: 1/8
+R: jig,march
+B: Howe - Complete Preceptor for the Accordeon (1843) p.25
+B: The Joseph Kershaw Manuscript (1993) #20.
+Z: AK/Fiddler's Companion
+S: http://www.ibiblio.org/fiddlers/TE.htm
+K: C
+GAB \
+|: c2c cBc | A2c G2G | GAB cde | f2d B2G \
+|  c2c cBc | A2c G2G | GAB cde | fdB c3 :|
+|: c2d e3  | efe edc | edc edc | d2c d2e \
+|  c2d e3  | efe d2c | d2c d2e | c3  c3 :|
+S:https://www.folktunefinder.com/tunes/15148
+S:http://trillian.mit.edu/~jc/music/abc/jig/TekeliQuickStep_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TekeliQuickStep_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/TekeliQuickStep_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TekeliQuickStep_C.abc
+% Rhythm Jig,march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

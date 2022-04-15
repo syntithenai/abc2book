@@ -1,0 +1,22 @@
+X: 73
+T: Nagelschmied (G)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G>GG | "D7"FAd | F>FF | "G"GBd \
+| "G"G>GG | "D7"FAd | F/F/FF | "G"GzD |
+| "G"G>GG | "D7"FAd | F/F/FF | "G"Gz  \
+|:["N times" D |[M:2/4] "G"GD | BG |[M:3/4]"D7"dz/F/F | "G"Gz :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5120
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

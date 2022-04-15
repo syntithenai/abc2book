@@ -1,0 +1,24 @@
+X:82
+T: Die verkaufte Muellerin
+N: A0093
+O: Europa, Mitteleuropa, Deutschland
+N: Aus Reichardts Musikal. Kunstmagazin I. Bd. Berlin 1782 S. 100.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2_B2AAd2 | c2_B2A2
+D2 | G2_B2AAd2 | c2_B2A3
+d | d2c2d2_BA | _B2G2z2
+S:https://www.folktunefinder.com/tunes/68628
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

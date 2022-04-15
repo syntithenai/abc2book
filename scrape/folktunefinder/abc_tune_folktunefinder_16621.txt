@@ -1,0 +1,28 @@
+X: 1
+T: Get me to the church on time [G]
+N: From the Musical Production "My Fair Lady"
+C: Words: Alan Jay Lerner
+C: Music: Frederick Loewe
+M: C|
+L: 1/8
+K: G
+|: "G"D4 E3D | ^C2D2 C2D2 | G4 G4-  | G2z2 z4 \
+| "G"D4 E3D | B,2D2 G2A2 |
+S:https://www.folktunefinder.com/tunes/16621
+S:http://trillian.mit.edu/~jc/music/abc/program/GetMeToTheChurchOnTime.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/GetMeToTheChurchOnTime_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/GetMeToTheChurchOnTime_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/GetMeToTheChurchOnTime.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/GetMeToTheChurchOnTime.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/song/GetMeToTheChurchOnTime_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/GetMeToTheChurchOnTime
+S:http://trillian.mit.edu/%7Ejc/music/abc/program/song/GetMeToTheChurchOnTime_Gw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

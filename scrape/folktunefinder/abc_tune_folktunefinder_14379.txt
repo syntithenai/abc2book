@@ -1,0 +1,24 @@
+X: 1
+T: Jack Kelly's Slide
+R: jig, slide
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+e \
+|: "D"f2A ABA | "A7"B2A "D"d2{e}d | "G"c2B BAB | "A7"g3 f2e \
+|  "D"f2A ABA | "A7"B2A "D"d2{e}d | "A7"c2{d}c cBc | "D"d3 z3 :|
+ef \
+|: "G"g2g gfe | "D"f2f fed | "Em"Bee efe | d2B BAB \
+|  "G"g2g gfe | "D"f2f fed | "Em"Bee efa | "G"b3 "A7"a3 :|
+S:https://www.folktunefinder.com/tunes/14379
+S:http://trillian.mit.edu/~jc/music/abc/jig/JackKellysSlide.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JackKellysSlide.abc
+% Rhythm Jig, slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

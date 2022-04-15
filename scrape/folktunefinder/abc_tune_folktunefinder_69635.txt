@@ -1,0 +1,28 @@
+X:75
+T: WIR WINDEN DIR DEN JUNGFERNKRANZ
+N: F0179
+O: Europa, Mitteleuropa, Deutschland
+R: Hochzeits - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | CB,CDE2G,2 | CB,CDE2z
+E | D3EDCB,A, | G,F,E,4
+G,2 | CB,CDE2G,2 | CB,CDE2z
+E | D3EDCB,A, | G,2B,A,G,2z2
+C4E4 | G4E4
+DCB,CD2E2 | C8
+DG,G,2DG,G,2 | CDE6
+G2FEDCB,A, | G,F,E,4
+S:https://www.folktunefinder.com/tunes/69635
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Hochzeits - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

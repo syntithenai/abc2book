@@ -1,0 +1,26 @@
+X:306
+T:Air de la gaillarde appellee Si i'ayme ou non.
+R:Gaillarde
+C:Trad.
+S:Thoinot Arbeau
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/2
+L:1/2
+Q:1/2=150
+K:F
+A A A z A A | F G A z B B | A G A F z G | F F E F z F |
+A G A F z F | D E F G z G | A G A F z G | F F E F z F ||
+S:https://www.folktunefinder.com/tunes/940
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: Pretty Peggy
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C|
+L: 1/8
+K: D
+A \
+| "D"{c}d2fd  AFDF |  "D"d2fd "A7"e{f}gfe \
+| "D"d2fd "Bm"AFDF | "Em"GEFD "A7"CEE :|
+A \
+| "D"F{E}DAD "G"BDAD | "D"G{F}EFD "A7"CEEG \
+| "D"F{E}DAD "G"BDAD | "A7"G{F}EFD "D"A,DD ||
+A \
+| "D"F{E}DdD cDBD | "D"ADF{E}D "A7"CEEG \
+| "D"FAdf "Em"ecdB | "A7"AFGE "D"FDD |]
+S:https://www.folktunefinder.com/tunes/17901
+S:http://trillian.mit.edu/~jc/music/abc/reel/PrettyPeggy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/PrettyPeggy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PrettyPeggy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/PrettyPeggy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/PrettyPeggy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/PrettyPeggy_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

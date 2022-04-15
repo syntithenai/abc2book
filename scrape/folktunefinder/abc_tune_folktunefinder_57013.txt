@@ -1,0 +1,27 @@
+X:2074
+T:Branle simple
+R:branle simple
+C:Jacques Moderne
+H:XVI eme siecle
+O:France
+Z:S. Piron
+M:4/4
+L:1/4
+Q:1/4=140
+K:F
+cd/2e/2fe/2f/2|g/2f/2e/2d/2ec|d/2e/2f/2e/4d/4c2:|
+|:cc/2c/2cd/2f/2|e/2d/2c/2B/2AF|G/2A/2B/2A/4G/4F2:|
+% Output from ABC2Win  Version 2.1 f on 09/02/99
+S:https://www.folktunefinder.com/tunes/57013
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Branle simple
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 158
+T:Skidoo
+M:C
+L:1/8
+Q:200
+S:guido
+R:reel
+K:EMinor
+EB, B,2 G2 AB | GE E2 BEAG | FdAF D2 B,A, | B,FED GB,FB, |
+GE E2 BEAB | GBef gfed | dAde f2 fa |1 fedB AaBA :|2fedB Adef ||
+|ge e2 Be e2 | geBe cedc | BEGA BEGA | BEGA B^cdf |
+efed ebba | ge e2 eAAB | cAEA BGEG |1 ADFA B,Eef :|2 ADFA B,EGF |
+S:https://www.folktunefinder.com/tunes/66583
+S:http://home.ivx.de/601438/tunes/rhreel2.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

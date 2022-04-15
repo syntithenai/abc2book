@@ -1,0 +1,24 @@
+X: 1
+T: Welcome to Tyneside
+C: David Findlay
+M: 4/4
+L: 1/8
+K: A
+F \
+| "A"E2A2 A2GF | "E7"G2B2 BdcB | "A"A2e2 e2ce | "E7"d2dc BAGF \
+| "A"E2A2 A2GF | "E7"G2B2 BdcB | "A"A2e2 "E7"edBG | "A"A6 ||
+B2 \
+| "A"c2e2 e2dc | "D"d2f2 fafd | "A"c2e2 a2ga | "E7"b2ba gfed \
+| "A"c2e2 e2dc | "D"d2f2 fafd | "A"e2a2 "E7"gabg | "A"a3 |]
+S:https://www.folktunefinder.com/tunes/15707
+S:http://trillian.mit.edu/~jc/music/abc/march/WelcomeToTyneside.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/WelcomeToTyneside.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/WelcomeToTyneside.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

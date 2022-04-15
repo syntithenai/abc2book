@@ -1,0 +1,33 @@
+X: 1
+T: Colored Aristocracy
+R: reel
+O:
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: G
+D \
+|: "G"G2 ED | G3 A | "Em"B2 AG | E4 | "C"ef gf/e/ | "G"d>e d/B/A/G/ \
+|1 "A7"A2 B^c | "D7"[dd4]c BA :|2 "G"B/A/B/d/- "D7"d/B/A | "G"G4 :|
+d \
+|: "G"g2 ed | "Em"e3 d | "C"e>g ed | "G"B3 d | "C"ef gf/e/ | "G"d>e d/B/A/G/ \
+|1 "A7"AB c^c | "D7"d^d ef :|2 "G"B/A/B/d/- "D7"d/B/A | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/16945
+S:http://trillian.mit.edu/~jc/music/abc/reel/ColoredAristocracy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ColoredAristocracy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ColoredAristocracy1_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/ColoredAristocracy.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/ColoredAristocracy1_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 3
+T: Aino Kchume
+O: Assyria
+M: 4/4
+L: 1/8
+Q: 1/4=180
+K:Am
+%%MIDI gchord f2fff2f2
+"A" z8| z8 |\
+G2 A2 G2 c2|cABG A2 c2|cABG A4|
+G2 A2 G2 c2|cABG A2 c2|cABG A4|\
+G2 A2 G2 d2| cB BA A2 d2|cB BA A4|
+S:https://www.folktunefinder.com/tunes/67706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 42
+T: Briul Drept
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=270
+K: EDor
+%%MIDI gchord fz
+%%MIDI program 110
+%%MIDI bassprog 117
+|:"a"A3B |"d"c3B |"a"c3A |"e"F2E2 |\
+  "a"A3B |"d"c3B |"a"c3A |"e"F2E2 :|
+|:"a"z2A2|"d"A2A2|"a"A2A2|"e"A2A2 |A2z2 :|
+|:"a"ABcd|"d"efga|"a"gfed|"e"a2a2 |\
+  "a"ABcd|"d"efga|"a"gfed|"e"A2A2 :|
+S:https://www.folktunefinder.com/tunes/67928
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

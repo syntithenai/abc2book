@@ -1,0 +1,119 @@
+X: 1
+T:Now is the Month of Maying
+C:Thomas Morley
+M:2/2
+K:C
+%
+V:1 name="Cantus"
+|:G2|\
+G2G2A2A2 |\
+B4B2G2 |\
+B3AB2^c2 |\
+d4d2AB |\
+c2c2B2G2 |\
+A2^F2D2dc |\
+B2c2A2A2 |\
+G4z2 :|
+|:B2|\
+A2d2d2^c2 |\
+d4z2A2 |\
+c2c2B2B2 |\
+A4z2dc |\
+B2G2
+d4 |\
+DE^FGABc2 |\
+B3cB2A2 |\
+G4z2 :|
+%
+V:2 name="Altus"
+|:D2|\
+E2G2G2^F2 |\
+G4G2G2 |\
+G3^FG2G2 |\
+^F4F2=FF |\
+E3^FG2G2 |\
+^F2DEF2FF |\
+G2G2G2^F2 |\
+G4z2 :|
+|:D2|\
+F2A2A3G |\
+^F4z2=F2 |\
+E2E2E2E2 |\
+E4AG^F2 |\
+D2G4DE |\
+^FGA2z2EF |\
+G2G2G2^F2 |\
+G4z2 :|
+%
+V:3 name="quintus"
+|:B2|\
+c2c2c2c2 |\
+d4d2d2 |\
+d3dd2G2 |\
+d4d2dd |\
+A2c2d2e2 |\
+A6dd
+|\
+d2e2d3c |\
+B4z2 :|
+|: G2|\
+A2f2e2e2 |\
+d4z2F2 |\
+G2A2B2B2 |\
+^c2=cBA2A2 |\
+G3AB2B2 |\
+A2AG^F2E2 |\
+D2G2d3c |\
+B4z2 :|
+%
+V:4 name="Tenor"
+|:G2|\
+G2G2C2C2 |\
+G4G2G2 |\
+G3dB2e2 |\
+A4A2AA |\
+E2A2D2G2 |\
+d6AA |\
+B2E2A2d2 |\
+d4z2 :|
+|: d2 |\
+d2d2e2A2 |\
+A4z2A2 |\
+E2A2A2^G2 |\
+A4z4 |\
+dcB2G2d2- |\
+d2DE^FGA2 |\
+G4z2d2 |\
+d4z2 :|
+%
+V:5 name="Bassus" clef=bass
+K:C
+|:G,2|\
+C2C2A,2A,2 |\
+G,4G,2G,2 |\
+G3DG2E2 |\
+D4D2DD |\
+C2A,2B,2E2 |\
+D6DD |\
+G2C2D2D2 |\
+G,4z2 :|
+|: G2 |\
+F2D2A2A2 |\
+D4z2D2 |\
+C2A,2E2E2 |\
+A,2AG^F2D2 |\
+G2G2G,A,B,C |\
+D6A,2 |\
+B,2E2D2D2 |\
+G,4z2 :|
+S:https://www.folktunefinder.com/tunes/2482
+S:http://trillian.mit.edu/~jc/music/abc/test/NowIsTheMonthOfMaying.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/NowIsTheMonthOfMaying.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/NowIsTheMonthOfMaying.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/NowIsTheMonthOfMaying.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

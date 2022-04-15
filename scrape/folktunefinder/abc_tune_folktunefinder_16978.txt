@@ -1,0 +1,23 @@
+X: 1
+T: the crooked road to Dublin
+M: C|
+K:G
+|: G2G2 FGAF | G2FG AdcA | G2AG FGAg | fdcA dBcA | G2G2 FGAF |
+|  G2FG AdcA | G2AG FGAg | fdcA dBcA :: dgg2 fgaf | dgg2 agfe |
+| dgg2 fgag | fdcA dBcA | dgg2 fgaf |  dgg2 a2ga | aggf gaag | fdcA dBcA :|
+S:https://www.folktunefinder.com/tunes/16978
+S:http://trillian.mit.edu/~jc/music/abc/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/CrookedRoadToDublin.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/CrookedRoadToDublin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

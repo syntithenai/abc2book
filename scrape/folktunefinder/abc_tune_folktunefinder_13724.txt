@@ -1,0 +1,26 @@
+X: 1
+T: WHIDDON'S HORNPIPE
+O: Kerr's 2nd
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd p.43 #386 c.1880
+M: C|
+L: 1/8
+K: Bb
+F2 \
+| B2(BA) BFDF | Bcde fgab | BFcF dFeF | dcBd cBAc |
+| B2(BA) BFDF | Bcde fgab | {g}f=efg f_ecA | Bbfd B2 ||
+(FD) \
+| B,DFB dBFD | EGcd ecAc | Bbab fdBd | (3cdc (3BAG (3FGF (3EDC |
+| B,DFB dBFD | EGcd ecAc | Bbab gecA | (3Bdf (3bfd B2 |]
+S:https://www.folktunefinder.com/tunes/13724
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/WhiddonsHp_Bb_Kerr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/WhiddonsHp_Bb_Kerr.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

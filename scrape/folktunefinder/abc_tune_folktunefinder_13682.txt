@@ -1,0 +1,23 @@
+X: 1
+T: Sheryl's Hornpipe
+C: Dave Wiesler (March 1998)
+N: For Sheryl Griffith
+M: 4/4
+L: 1/8
+K: G
+(3DEF | "G"G2FG BGGB | d2^cd gddg | "C"edcB "Am"cBAG |1,3 "D7"F2A2 A2 \
+                                                    :|2,4 "D7"FDEF "G"G2 :|
+|: fg | "D"a2ga fddf | "G"g2fg bggd | "C"edcB "Am"cBAG |1,3 "D7"F2A2 A2 ||
+[1 fg  | "D"a2ga fddf | "G"g2fg bgdB | "C"cBAG "D7"FDEF | "G"G2B2 G2 :|
+[2 (3DEF | "G"G2FG BGGB | d2^cd gddB | "C"cBAG "D7"FDEF | "G"G2B2 G2 |]
+S:https://www.folktunefinder.com/tunes/13682
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/SherylsHornpipe_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/SherylsHornpipe_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

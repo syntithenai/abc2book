@@ -1,0 +1,27 @@
+X:6
+T: Roland und Godelinde
+N: A0008
+O: Europa, Mitteleuropa, Flamen
+R: 310Romanze, Ballade, Lied
+M: 3/4
+L: 1/16
+K: A
+A3B | =c4A4E4 | A3BA4
+A3B | =c4A4E4 | A3BA4
+A3=c | B4=G4E4 | =G3AG4
+G3A | B4=G4F4 | E3FE2z2
+=C3D | E4E4=F4 | =G3AG4
+A3A | E4E4A4 | B3=cB4
+A3B | =c4A4E4 | A3BA4
+S:https://www.folktunefinder.com/tunes/68552
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm 310romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

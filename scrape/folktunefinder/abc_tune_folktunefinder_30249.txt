@@ -1,0 +1,22 @@
+X:0
+T:The East Is Red
+T:Northern Shensi Folk Song
+G:song
+S:Revolutionary Songs of China
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+% major/mixolydian hexatonic
+c2 cd|G4   |F2 FD|G4   |
+c2 cc|df dc|f2 FD|G4   |
+c2 G2|FF ED|C2 c2|G2 AG|
+F2 FD|GA GF|GF ED|C4-  |C2|]
+S:https://www.folktunefinder.com/tunes/30249
+S:http://www.campin.me.uk/Music/Modes.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:559
+T: "Der Blick"
+N: Z1239
+O: Europa, Mitteleuropa, Oesterreich
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+d2 | ^efc2A2 | fgB2G2
+BcF2D2 | G2
+B2d2 | ^efc2A2 | fg
+B2G2 | BcF2D2 | G4
+S:https://www.folktunefinder.com/tunes/69418
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

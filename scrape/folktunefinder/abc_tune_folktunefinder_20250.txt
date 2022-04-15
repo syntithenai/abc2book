@@ -1,0 +1,24 @@
+X: 1
+T: the Three Marys
+O: trad
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+D \
+| "D"F2E | "D7"DFA | "G"B3 | "D"A2D \
+| "D"F2F | "Bm"A2F | "Em"E3 | "A7"E2A |
+| "Bm"d2d | "A"c2A | "G"B2A | "Gm"D2E \
+| "D"FAF | "A7"E2D/E/ | "D"D3 | D3 |]
+S:https://www.folktunefinder.com/tunes/20250
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ThreeMarys_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ThreeMarys_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

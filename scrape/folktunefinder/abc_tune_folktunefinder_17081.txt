@@ -1,0 +1,28 @@
+X: 1
+T: Duntroon Castle
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: Amix
+f \
+[| "A"e2ce "D"f2df | "A"e2ce ~A2c2 | "A"e2ce "D"f2df | "G"d2Bd  ~G2B2 ||
+|| "A"e2ce "D"f2df | "A"fece ~A2c2 | "D"defd "A"cdec | "G"B=cdB ~G2B2 |]
+[| "A"eAcA ABcd | "A"efec ~A2c2 | "A"eAec ABcA | "G"B=cdB ~G2B2 ||
+|| "A"eAcA ABcd | "A"eaec ~A2c2 | "D"defd "A"cdec | "G"B=cdB ~G2B2 |]
+S:https://www.folktunefinder.com/tunes/17081
+S:http://trillian.mit.edu/~jc/music/abc/reel/DuntroonCastle_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/DuntroonCastle_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DuntroonCastle_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r16/DuntroonCastle_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DuntroonCastle_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

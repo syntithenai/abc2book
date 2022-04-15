@@ -1,0 +1,23 @@
+X: 111
+T: Saulocker (in Eb)
+R: Zwiefacher
+M: 34/4
+L: 1/8
+K: Eb
+|: (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG A2 | "Eb"c2 B=A B2 \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG AB | "Eb"G4 :|
+|: G2 \
+| "Bb7"G2 F=E F4 | "Eb"A2 G^F G4 | "Bb7" B2 AG AB | "Eb"c2 BA (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 |1 "Bb7"B2 AG AB | "Eb"G4 :|2 "Bb7"B2 =AB cd | "Eb"e4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5158
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 34/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:166
+T: NUN BRICHT AUS ALLEN ZWEIGEN
+N: B0198
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling
+M: 2/4
+L: 1/16
+K: A
+A2 | G2E2A2B2 | c4B2
+c2 | d2c2B2A2 | G3FE2
+A2 | G2E2A2B2 | c4B2
+c2 | d3cB2cB | A4z2
+c2 | c2c2c2c2 | B3BB2
+^d2 | e2^d2e2f2 | B3^de2
+A2 | G2E2A2B2 | c3cB2
+c2 | d2c2B2cB | A6
+S:https://www.folktunefinder.com/tunes/78187
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

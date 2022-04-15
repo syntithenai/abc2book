@@ -1,0 +1,21 @@
+X:1160
+T:Pat's Parlour
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+f/2e/2|"D"dAA A2d|"G"BdB "D"A2A|"D"dcd "Em"efg|"D"fed "A7"eag|
+"D"fAA A2d|"G"BdB "A7"A2g|"D"fed "A7"Adc|"D"d3 -d2::
+f/2g/2|"D"afd dcd|faf d2f|"A7"g2e "D"f2d|"A7"eAA ABc|
+"D"dAA A2d|"G"BdB "A7"A2g|"D"fed "A7"Adc|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/64980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

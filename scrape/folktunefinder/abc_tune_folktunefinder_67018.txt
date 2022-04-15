@@ -1,0 +1,23 @@
+X: 107
+T:Reel de Montral
+M:4/4
+L:1/8
+R:Reel [French-Canadian]
+K:G
+d2[|:g2fe dcBA|GBDG B2AG|FADF AcBA|GBDG Bdef|!
+g2fe dcBA|GBDG B2AG|FGAB cdef|1g2g2 g2d2:|2g2g2 g2z2|!
+K:D
+|:A2FA d2Ad|f2df a2ab|a2g2 e2g2|b2a2f2d2|!
+A2FA d2Ad|f2df a2ab|a2g2 e2c2|1d4 d2z2:|2d4 d2d2|]!
+S:https://www.folktunefinder.com/tunes/67018
+S:http://www.geocities.com/novairishsession/bw/bwreels.txt
+S:http://www.novasession.com/bw/bwreels.txt
+% Rhythm Reel [french-canadian]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

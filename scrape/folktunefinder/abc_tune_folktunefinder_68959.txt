@@ -1,0 +1,25 @@
+X:100
+T: ES ZOG EIN KNAB INS NIEDERLAND
+N: Z0100
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze, Tod
+M: 3/4
+L: 1/8
+K: G
+DD=F | G3A_BB | A2G
+A_Bc | d3dc_B | A2z
+GGG | d3dc_B | A3
+dc_B | d3c_BA | G2z
+S:https://www.folktunefinder.com/tunes/68959
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

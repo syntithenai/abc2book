@@ -1,0 +1,23 @@
+X:8
+T:Valse des roses
+O:France
+R:Valse
+M:3/4
+L:1/4
+Q:3/4=70
+K:C
+g2d | B>cd | g2d | B>cd | e2d | c2B | A3 | G3 ::
+B>cd | e2d | B>cd | e2d | e2d | c2B | A3 | G3 :|
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/45776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

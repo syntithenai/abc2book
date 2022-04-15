@@ -1,0 +1,27 @@
+X: 270
+T: The Church of Dromore
+B: O'Neill's 270
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:Am
+D \
+| (EA).A ABc | (TBAB) (G2A) | (Be).e dBA | (TBAB) GED \
+| (EA).A ABc | (TBAB) (G2A) | (Be).e dBG | (BA).A A2 ||
+|| d \
+| (g^fg) (edB) | (BA).A A2d | (Tg^fg) edc | (TBAB) GED \
+| (EA).A ABc | (TBAB) (G2A) | (Be).e dBG | BAA A2 ||
+S:https://www.folktunefinder.com/tunes/80548
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0270_jc.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/0270_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

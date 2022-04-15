@@ -1,0 +1,22 @@
+X: 1
+P: Skott-Sara leken
+R: R\orospols
+M: 3/4
+L: 1/8
+O: etter Annar Gjelten 95/10
+Z: John Chambers <jc@trillian.mit.edu>
+K: D
+A/ \
+|: "D"d>c A2>>d2 | "A7"d>c e4 | "D"d>e fd g>f | "A7"e>d cB B>A |
+|  "D"A>G FE F>A | "G"GB "A"A4 | D>E (3FDF (3ECE | "D"D2 D4 :|
+|: "D"f2 d2 f>a | "A7"a^g e2>>=g2 | "D"g>f d2 e>f | "A7"dc A2>>e2 |
+|  "D"f2 d2 f>a | "A7"a^g e2 =g>b | "D"bc d2 "A7"e>f | dc "D"d4 :|
+S:https://www.folktunefinder.com/tunes/5974
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Rorospols3.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

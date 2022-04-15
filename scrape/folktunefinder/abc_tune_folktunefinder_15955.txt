@@ -1,0 +1,25 @@
+X:2
+T:Holt-Rilen
+N:From the county of Agder, south-west Norway
+M:4/4
+R:Engelska
+S:jonas_liljestrom <consolamentum@spray.se> tradtunes 2005-6-15
+K:D
+|:D2FA d2d2|efed cBA2|(3BcBAG F2FG|ECEG FDDD|FDFA d2d2|efed cBAe|fdff
+gecc|[1d2f2 d4:|[2d2f2 d2fe|:d2de c2cd|BGBd cAA2|(3BcBAG F2FG|ECEG
+FDD2|FDFA d2d2|efed cBAe|fdff gecc|[1d2f2 d2fe:|[2d2f2 d4|||
+S:https://www.folktunefinder.com/tunes/15955
+S:http://trillian.mit.edu/~jc/music/abc/misc/Holt_Rilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/misc/Holt_Rilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Holt_Rilen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Holt_Rilen_1.abc
+% Rhythm Engelska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

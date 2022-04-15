@@ -1,0 +1,29 @@
+X: 1
+T: Scotch Mist
+O: Trad
+R: strathspey
+B: Kerr's ____
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+E>F "A1"| "C"G>E G<c "F"A>F A<c | "G7"B>c d>B "C"c2 e2 | "F"f>e f>a "C"g>e d>c | "Dm"A<A f>e "G"d2 ||
+E>F "A2"| "C"G>E G<c "F"A>F A<c | "G7"B>c d>B "Am"c2 e2 | "Dm"f>e f>a "C"g>e d>c | "Dm"A>f "G7"e/d/c/B/ "C"c2 ||
+e>f  "B"| "C"g>a g>e "Am"c>d e>c | "Dm"f/e/f/g/ a>f "G7"d2 e>f | "C"g>a g>e "C7"c>d e/d/c | "F"A<A f>e "G7"d2 ||
+E>F "A2"| "C"G>E G<c "F"A>F A<c | "G7"B>c d>B "Am"c2 e2 | "Dm"f>e f>a "C"g>e d>c | "Dm"A>f "G7"e/d/c/B/ "C"c2 |]
+S:https://www.folktunefinder.com/tunes/18455
+S:http://trillian.mit.edu/~jc/music/abc/shottish/ScotchMist.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ScotchMist.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ScotchMist_C4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/ScotchMist.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ScotchMist.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ScotchMist_C4.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

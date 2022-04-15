@@ -1,0 +1,35 @@
+X:338
+T:El Conde Olinos
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:DyC en Teberga
+M:3/4
+L:1/8
+Q:1/4=60
+K:Fm
+CC
+|: F3 =E FG|A2 F2 A2|
+[M:2/4]
+|G z cd|
+[M:3/4]
+|cd c2 B2|A2 Bc BB|
+[M:2/4]
+|A2 G2|
+[M:3/4]
+|[1 F2 CC :|[2 F2 z||
+S:https://www.folktunefinder.com/tunes/59225
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

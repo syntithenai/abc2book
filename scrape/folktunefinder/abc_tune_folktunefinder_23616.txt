@@ -1,0 +1,28 @@
+X:3165
+T:Jul polska '98
+O:england
+R:Polska
+M:3/4
+C:Andy Hornby
+A:Lancaster
+K:Dm
+A>f e<^c d>A| B>A- AG A>F| D>^C D>E F>G| A<^G A<E ^c2|\
+A>f e<^c d>A| B>A- AG A>F|
+D>^C D>E F>G| A>E- E^c d2::\
+D>F- FD E>G| F>A- AF G>B|
+A>F- FA G>E| F>D- DF (3ED^C|\
+D>F- FD E>G| F>A- AF G>B| A>F- FA G>A| ^c2 d2 z2 :|
+W:Copyright (C) A. Hornby
+S:https://www.folktunefinder.com/tunes/23616
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

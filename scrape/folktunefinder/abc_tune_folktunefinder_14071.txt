@@ -1,0 +1,27 @@
+X: 1
+T: Dan the Cobbler
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+B: Kerr's 1st
+M: 6/8
+L: 1/8
+K: D
+D \
+| "D"DFA "G"B2A | "D"def "A7"gfe |  "D"fdf "A"ecA |  "G"BGB "D"AFD \
+| "D"DFA "G"B2A | "D"def "A7"gfe | "Bm"fdf "A"ecA | "A7"Adc "D"d2 |]
+f \
+| "D"fad     fad | "D"faa "Bm"agf | "C"eg=c    egc |  "C"egg "A7"gfe \
+| "D"fef "Em"gfg | "D"agf "Em"efg | "Bm"fed "A"cBA | "A7"Adc  "D"d2 |]
+S:https://www.folktunefinder.com/tunes/14071
+S:http://trillian.mit.edu/~jc/music/abc/jig/DanTheCobbler_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DanTheCobbler_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DanTheCobbler_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1267
+T:Jolly Tinker
+O:ireland
+Z: id:dc-reel-158
+M:C
+L:1/8
+K:A Mixolydian
+dB|A3B G3B|A3f gedB|A3B G3B|dBGB d2:|!
+Bd|edef g2ef|g2af gedg|edeg a2bg|a2bg aged|!
+edef g2ef|g2af gedg|edeg a2bg|a2bg ag:|!
+ed|eaag edBd|eaag egdg|eaag efge|dBGB d2Bd|!
+eaag eaag|eaag egdg|eaag efge|dBGB d2|]!
+Bd|edgd edgd|edgd e2Bd|edef gage|dBGB d2:|!
+fg|eAA2 edBd|edef g2fg|eAA2 efge|dBGB d2fg|!
+eAA2 edBd|edef g2fg|eaag efge|dBGB d2|]!
+S:https://www.folktunefinder.com/tunes/42187
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:5
+T:The Jocular Constable
+C:Andy Hornby 1986
+Q:1/4=150
+I:abc2nwc
+M:4/4
+L:1/8
+K:C
+E3/2^G/2A3/2B/2 c3/2B/2A3/2c/2|B3/2A/2^G3/2F/2 E2E2|e3/2^d/2e3/2f/2 e3/2=d/2c3/2B/2|A3/2B/2c3/2d/2 e2e2|
+E3/2^G/2A3/2B/2 c3/2B/2A3/2c/2|B3/2A/2^G3/2F/2 E2-E3/2e/2|e3/2^d/2e3/2f/2 e3/2=d/2c3/2B/2|
+[1A2^G2A4:|[2A2^G2A2-A3/2|:e/2|f3/2e/2f3/2d/2 A3/2d/2f3/2d/2|
+e3/2f/2e3/2c/2 A2-A3/2E/2|F3/2E/2^D3/2E/2 c3/2B/2A3/2^G/2|A3/2B/2c3/2d/2 e2e2|f3/2e/2f3/2d/2 A3/2d/2f3/2d/2|
+e3/2f/2e3/2c/2 A2-A3/2E/2|F3/2E/2^D3/2E/2 c3/2B/2A3/2^G/2|[1A2^G2A2-A3/2:|[2A2^G2A2 (3e^fg||
+|:a2g2f2e2| (3ded c2B2A2|^G3/2A/2B3/2c/2 B3/2E/2^F3/2G/2|A3/2B/2c3/2d/2 e2e2|
+a2g2f2e2| (3ded c2B2A2|^G3/2A/2B3/2c/2 B3/2E/2^F3/2G/2|[1A2^G2A2 (3e^fg:|[2A2^G2A4|]
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43746
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

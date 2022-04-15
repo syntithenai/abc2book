@@ -1,0 +1,26 @@
+X:1
+T:Bakmes fr\aan Kall
+O:Alm Nils Ersson
+N:III Polka -- Bakmes
+N:ur Svenska L\aatar
+R:polka
+M:2/4
+L:1/16
+K:A
+N:l\aangsamt
+ce | "A"a2c2 c2ea | "E"g2B2 B2(e2 | g2)g2 g2b2 | "A"a2ec A2ce \
+| "A"a2c2 c2ea | "E"g2B2 B2(e2 | g2)g2 (gf)dB |  "A"A6 :|
+|: z2 \
+| "A"E3A c3{d}c | "Bm"B2c2 d4 | "E7"B2d2 f2g2 | "A"a2(gf e)^de2 \
+| "A"E3(A c2){d}c2 | "Bm"B2c2 d4 | "E7"B2d2 f2g2 | "A"g2a2 a2 :|
+S:https://www.folktunefinder.com/tunes/16041
+S:http://trillian.mit.edu/~jc/music/abc/polka/BakmesFranKall.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/BakmesFranKall.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:257
+T: EINER FARBE EINEM GLAUBEN
+N: F0451
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied
+M: 4/4
+L: 1/16
+K: G
+d3c | B4B4G4G4 | G6E2E4
+c3B | A4A4A4d4 | B4z8
+B3B | B4B4B4B4 | B6G2G4
+c3B | A4A4A4d4 | B4z8
+c2B2 | A4d4^c4e4 | d8A4
+F2G2 | A4d4f6e2 | d8z4
+d3c | B4B4d4B4 | c6B2c4
+c3B | A4A4A4G2A2 | B4z4
+d4B4 | e12c2A2 | G8B4A4 | G8z4
+S:https://www.folktunefinder.com/tunes/69817
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

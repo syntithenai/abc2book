@@ -1,0 +1,27 @@
+X:834
+T: Slattery's Fancy.
+C:M Casey
+B:O'Neill's Music of Ireland
+N:O'Neill's - 803
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+Z:Ornament (~) is a turn.
+R:Jig
+M:6/8
+K:A
+(A/B/)|~c3 c2 B|cec dBA|GAB BcB|Bec dBA|\
+cdc c2 B|cec dBA|GAB Bec|dBG A2:|
+||z|a3 gfe|dBA GAB|{d}cBc dcd|efg a2 z|\
+a2 a gfe|dBA GAB|{d}cBc cde|dBG A2:|
+S:https://www.folktunefinder.com/tunes/73993
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

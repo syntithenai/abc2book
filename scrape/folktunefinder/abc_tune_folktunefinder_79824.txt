@@ -1,0 +1,25 @@
+X:720
+T: ICH WEISS EIN SCHOENES ENGELSPIEL
+N: E2174
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Moral - Lied, Auferstehung
+M: 3/2
+L: 1/4
+K: F
+C2 | DEF2G2 | DEF2
+F2 | ABc2B2 | c2G2
+G2 | ABc2A2 | BAB2G2 | AGA2
+G2 | FFA2G2 | DEF2
+S:https://www.folktunefinder.com/tunes/79824
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, moral - lied, auferstehung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

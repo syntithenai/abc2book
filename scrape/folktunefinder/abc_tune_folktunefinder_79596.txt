@@ -1,0 +1,30 @@
+X:492
+T: ICH BIN EIN MUSIKANTE
+N: E1748A
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Thueringen
+R: Scherz -, Spiel - Lied, Musikantenspiel
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2B2B2 | d4B2
+B2 | c2c2A2A2 | G4z2
+D2 | G2G2B2B2 | d4B2
+B2 | c2c2A2A2 | G4z2
+B2 | c4A4 | B4G2
+B2 | c2c2A4 | B4G2z2
+c4A4 | B4G2z2
+c4A4 | B4G2
+D2 | G3GG2B2 | d3dd2
+B2 | c3cc2A2 | G4z2
+D2 | G3GG2B2 | d3dd2
+B2 | c3cc2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/79596
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Scherz -, spiel - lied, musikantenspiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

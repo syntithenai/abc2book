@@ -1,0 +1,30 @@
+X:1
+T:Swinging on the Gate
+C:Traditional
+D:Moher, "Out on the Ocean"
+N:Play 2 times
+N:The Corofin Plain Set, Figure 1, Tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:reel
+L:1/8
+M:C
+K:G
+gedB G2 AB | cABG AGEG | DGBd g2 fg  | egag fdef |
+gedB G2 AB | cABG AGEG | cABG AGEG | DGGF G2 Bd :||
+g2 ga b2 af | gfed B2 AG | EAAB cBAG | EGAB cdef |
+gfga b2 af | gfed B2 AB | cABG AGEG | DGGF G2 Bd:||
+S:https://www.folktunefinder.com/tunes/66629
+S:http://theflow.org.uk/text/flow_corofin.txt
+S:http://www.theflow.org.uk/text/flow_corofin.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

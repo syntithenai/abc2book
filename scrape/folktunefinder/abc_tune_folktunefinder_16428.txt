@@ -1,0 +1,30 @@
+X: 1
+T: Polska av Per Hans
+R: polska
+S: Erika Lystedt (1998/1/16)
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N: Played with early second beat; recommended for R\"attvikspolska
+M: 3/4
+L: 1/8
+K: A
+D- \
+|: "D"D2 DA f>d | "A"d<c ce a2- | "E"ag/a/ ba g>e | "D"g2 fd "A"e2 | "D"A2 fd "A"c>A |
+| "D"d2 df "A"e2 | "D"A2 fd "E"c>A | (3EGB "A"A4 :: "A"e2 dc B>A | "(E)"(3BAB cB "A"A2 |
+| "A"E2 EA c>A | "E"B2 Bd "A"c>[eA] | "D"f2 fe/d/ "A"c>[eA] \
+| a2 ae/d/ c>A | "E7"B2 Bd c>A | (3EGB "A"A4 :|
+S:https://www.folktunefinder.com/tunes/16428
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_AvPerHans.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_PerHans.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_AvPerHans.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_PerHans.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

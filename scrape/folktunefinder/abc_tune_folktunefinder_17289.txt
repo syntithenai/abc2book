@@ -1,0 +1,28 @@
+X: 1
+T: la Grandeuse
+O: Randy Miller
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: A,2 \
+| "D"D2FE DEFA | dcde fdAF | "G"G2BG "D"F2AF |1 "Em"EFGE "A7"DCB,A, :|2 "A7"ECA,C "D"D2 :|
+|: CB, \
+| "A7"A,B,CD EFGF | EDEF GABc | "D"dcdB ABde | fagf "A7"e2A2 |
+| "D"d2fd "A7"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"F2AF | "A7"ECA,C "D"D2 :|
+S:https://www.folktunefinder.com/tunes/17289
+S:http://trillian.mit.edu/~jc/music/abc/reel/Grandeuse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/Grandeuse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Grandeuse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Grandeuse.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

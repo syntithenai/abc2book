@@ -1,0 +1,25 @@
+X:5365
+T:Schottis fr Bingsj
+A:Dalarna, Bingsj
+M:2/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b2d.html
+%%ID:00000b2d
+K:D
+ABAF A2d2| fgfe f2a2| g2G2 G2Bc| B2AG F2D2|\
+ABAF A2d2| fgfe f2a2| gfed cABc| dedc d4|\
+f2d2 AFAd | f2d2 A3f| gfed cdeg| b2a^g a>ba=g|\
+f2d2 AFAd| f2d2 A3f| gfed cABc| dedc d4|]
+S:https://www.folktunefinder.com/tunes/37152
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

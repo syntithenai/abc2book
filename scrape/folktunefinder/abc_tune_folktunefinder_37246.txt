@@ -1,0 +1,24 @@
+X:5835
+T:Sov'st Gik
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000092a.html
+%%ID:0000092a
+K:D mixolydian
+fg a>g | fg a>b | aa/g/ fe | d2 d2 ::\
+e/f/e/d/ cd | ee/e/ ef | gg/g/ fe | d2 d2 :|
+S:https://www.folktunefinder.com/tunes/37246
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Cal Howard's Jig #2
+C: Cal Howard 1980
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"E2F    GAB | "D"AFD AFD | "Em"E2F G2A |     BAB "A7"e2e \
+|  "D"def "G"edB | "D"ABA FED | "Em"E2F GAB |  "D"AFD "Em"E2 :|
+|: e \
+| "Em"eBe    g2g | "D"fag fed | "Em"eBe gfe |  "D"fdf "Em"e2f \
+|  "G"gab "C"age | "G"ded BAG | "Am"A2B cBA | "Em"BGE     E2 :|
+S:https://www.folktunefinder.com/tunes/13965
+S:http://trillian.mit.edu/~jc/music/abc/jig/CalHowardsJig2_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CalHowardsJig2_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/CalHoward/CalHowardsJig2_Em.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:Imagination
+M:4/4
+L:1/4
+C:Johnny Burke & Jimmy Van Heusen
+Q:1/4=75
+%%staves (chords melody)
+K:Eb
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x/x ||"Ebmaj7"x2 "Edim7"x2 | "Fm7"x2 "( D7b5 )""Bb7"x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 | "( Db7""Ebmaj7"x2 "C7"" "x2 | "B7""Fm7"x2 "Bb7 )""Bb7"x2 ||
+V:melody
+D/E/F/ || GG2B | AA2c | BB(3Bc_d | BB3 |
+S:https://www.folktunefinder.com/tunes/18784
+S:http://trillian.mit.edu/~jc/music/abc/song/Imagination.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/imagination.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Imagination.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/imagination.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

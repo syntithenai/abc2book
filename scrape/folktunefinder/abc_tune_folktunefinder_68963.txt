@@ -1,0 +1,25 @@
+X:104
+T: EIN MAEDCHEN VON ACHTZEHN JAHREN
+N: Z0104
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Sagen - Lied, Romanze, Tod
+M: 3/4
+L: 1/8
+K: E
+E2 | E2B2B2 | B2A2=c2 | B4=G2 | F4
+F=G | A3=GFG | A2B2=G2 | F4
+EF | =G3FE2 | =G3FE2 | A4=c2 | B4
+A2 | =G3FE2 | F3=GF2 | E4
+S:https://www.folktunefinder.com/tunes/68963
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

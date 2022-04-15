@@ -1,0 +1,28 @@
+X: 1
+T: Grondeuse de Qu\'ebec
+C: trad/Guy Bouchard
+O: Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 3/4
+L: 1/16
+K: D
+A2AB \
+| AGFD EDCD E2AB | AGFD EDCE D2AB \
+| AGFD EDCD E2AB | AGFD EDCE D2DE |]
+M: 2/4
+|:: F3F E3G | FDFD E2EG | FDFD E2EF |1,2 EDCE D2DE :|3 EDCE D4 |]
+|: ABcd e2ef | edcB A2AA | ABcd eAef |1 geag fdd2 :|2 [M:3/4] geag fdd2 |]
+S:https://www.folktunefinder.com/tunes/17311
+S:http://trillian.mit.edu/~jc/music/abc/reel/Grondeuse_de_Quebec_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Grondeuse_de_Quebec_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Grondeuse_de_Quebec_D3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

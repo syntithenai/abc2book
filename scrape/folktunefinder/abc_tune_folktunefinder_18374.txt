@@ -1,0 +1,27 @@
+X: 1
+T: Harrin jenkka
+T: Harri's shottish
+C: Harri Timdal
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+D: "Halituli", Eero Turkka & Antti Paalaned, SEITACD-011
+M: 4/4
+L: 1/8
+K: Em
+%%slurgraces 1
+|: "Em"e4 B3 A | G>A GF E2 B,2 | E>F GA B2 GA | "B7"G2 F4 z2 \
+|  "Am"c4 A3 G | "B7"F>G AG F2 E2  | ^D>E FG A2 GA | "Em"c2 B4 B2 |
+|  "Em"{^d}e4 B3 A | G>A GF E2 B,2 | E>F GA "E7"B2 AB | "Am"c2 A4 AB \
+|  c>B AB c2 BA | "Em"Be Be B2 AG | "B7"F2 ^DF BA GF | "Em"E2 G2 E2 z2 :|
+|: "D7"D2 FA d3 c | "G"B>A GA B4 | "B7"B,2 ^DF B3 A | "Em"G>F EF G2 FE \
+|  "Am"c>B AB c2 BA | "Em"Be Be B2 AG | "B7"F2 ^DF BA GF | "Em"E2 G2 E2 z2 :|
+S:https://www.folktunefinder.com/tunes/18374
+S:http://trillian.mit.edu/~jc/music/abc/shottish/HarrinJenka_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/HarrinJenka_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/HarrinJenka_Em.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

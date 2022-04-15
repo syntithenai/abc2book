@@ -1,0 +1,18 @@
+X:1
+T:Duke of Gordon
+M:4/4
+L:1/8
+Q:128
+K:G
+G \
+|: "G"G3/D/ G/B3/ G3/D/ G/B3/ | "G"d3/B/ g3/B/ "D7"A/A3/ A3/B/ | "G"G3/D/ G/B3/ G3/D/ G/B3/ | "D7"d3/c/ B3/A/ "G"G/G3/ G2 :|
+|: "G"g3/a/ b3/g/ d/d3/ d2 | "G"g3/a/ b3/g/ e/e3/ e3/f/ | "G"g/b3/ "C"e/g3/ "G"d/g3/ "Em"B/g3/ | "D7"A3/G/ A3/B/ "G"G/G3/ G2 :|
+S:https://www.folktunefinder.com/tunes/19318
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DukeOfGordon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DukeOfGordon_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

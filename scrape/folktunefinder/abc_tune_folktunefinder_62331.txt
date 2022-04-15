@@ -1,0 +1,65 @@
+X:514
+T:\AA Guds martyrar, s\aele vitneskare
+C:Ludvig Mathias Lindeman
+O:Norway
+R:Hymn
+F:http://abc.musicaviva.com/tunes/lindeman-ludvig-mathias/aa-guds-martyrar/aa-guds-martyrar-01.abc
+V:1 Program 1 19 up %Church organ
+V:2 Program 1 19 merge down %Church organ
+V:3 Program 1 19 bass up %Church organ
+V:4 Program 1 19 bass merge down %Church organ
+M:4/4
+L:1/4
+K:Bm
+V:1
+F|DB,GF|E>EFC|DB,2B|A^GcF|
+V:2
+^A,|B,B,B,B,|B,>B,^A,C|B,B,2D|C^EFF|
+V:3
+F,|F,F,E,F,|G,>G,F,F,|F,F,2F,|A,CCA,|
+V:4
+F,|B,,D,E,D,|D,>C,F,,^A,,|B,,D,2B,,|F,C,A,,D,|
+%
+V:1
+^G>BAG|F3F|DB,GF|E>EFC|DB,2B|
+V:2
+D>DCB,|A,3A,|B,B,CD-|D>CC^A,|B,B,2D|
+V:3
+B,>^E,F,E,|F,G,E,D,|B,>A,F,F,|F,F,2^E,|
+V:4
+B,,>^G,, A,,/B,,/C,|F,,3D,|B,,G,,A,,B,,|G,,>A,,^A,,F,,|B,,D,2^G,,|
+%
+V:1
+A^GcF|^G>BAG|F3F|FGA>G|FEDC|
+V:2
+CDB,A,|D>B,CC|A,3A,|DDC>E|DCA,^A,|
+V:3
+F,F,^E,F,-|F,>F,F,^E,|F,3F,|D,D,E,>A,|A,G,F,F,|
+V:4
+A,,B,,C,,D,,|B,,>D,C,C,|F,3D,|B,,B,,A,,>C,|D,A,,D,E,|
+%
+V:1
+B,>CDE|FB^AB|d2c2|B3|]
+V:2
+B,>^A,B,B,|B,FED|F>GE2|D3|]
+V:3
+F,>F,F,F,|F,DCB,|B,3^A,|F,3|]
+V:4
+D,>F,B,,C,|D,B,,F,G,|D,>E,F,2|B,,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/62331
+S:http://abc.musicaviva.com/tunes/lindeman-ludvig-mathias/aa-guds-martyrar/aa-guds-martyrar-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/lindeman-ludvig-mathias/aa-guds-martyrar/aa-guds-martyrar-01.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 33
+T:Saint Patricks Day in ye Morning. WCl.33
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+N:Da Capo at end - no Segno marked..., but double barlines and repeat
+N:sign where I have put the segno.Daft way round...CGP
+Z:vmp.Barry Callaghan
+K:G
+GAG GAB|ded dBG|"$$"BAB BGE|EFE E2D|!
+GAG GAB|ded dBG|BAB BGE|E3 G2:|!
+|:def g2e|f2d ecA|def g2 e|f2 d e3|!
+def g2e|f2d (efg)|def g2 e|f2 d e3|!
+dBG GAB|ded "Al Segno.NB"dBG:|]
+S:https://www.folktunefinder.com/tunes/40789
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

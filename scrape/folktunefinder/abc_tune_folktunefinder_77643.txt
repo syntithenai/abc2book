@@ -1,0 +1,24 @@
+X:45
+T: After the Blizzard
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: D
+A|"D"ded "Bm"BAF | "D"ADD D2 A | "D"ded "A"cBA |"D"FAd "Bm"B2 A |
+"D"ded "A"cdc | "Bm"Bcd "A"ABc | "D"dAF "A"EDE | "D"FDD D2 :|
+A|"D"dff "G"dcB | "D"Add FED | DFA def | "Bm"baf "A"e2 A |
+z|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|
+"D"dff "G"dcB | "D"Add FED | DFA "Em"BGE |"D"FDD D2 :|
+D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|D,2[AFD] [A,2D,2F2] :|
+S:https://www.folktunefinder.com/tunes/77643
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/a.abc
+S:http://www2.redhawk.org:8080/irish/zouki/a.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

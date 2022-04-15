@@ -1,0 +1,31 @@
+X:157
+T:Sheebeg and Sheemore
+T:Sheebeg Sheemore
+T:S Beag S Mr
+C:Turlough O'Carolan
+S:Jim Coon to CoMandoList TOW
+H:Probably the first tune composed by O'Carolan. S Beag and S Mr
+H:are two hills in Co. Leitrim associated in the local folklore with two
+H:bands of fairies continually at war with each other.
+M:3/4
+L:1/8
+K:D
+de | "D"f2fed2 | d3ed2 | "Bm"B4A2 |"D" F4A2 |\
+ "G"BABcd2 | "A"e4de | "D"f2f2e2 | d4f2 |!
+"Bm"B4e2 | "D"A4d2 | F3GE2 | D4f2 | "Bm"B4e2 |\
+ "A7"A4dc | "D"d2dec2 | d4 :|!
+|: de | "D"f2fed2 | edega2 | "G"b2b2a2 | "D"f4ed |\
+"A7" e2e2a2 | "D"f4ed | "Bm"d4B2 | B4A2 |!
+"D"F2GFGE | D4f2 | "Bm"B4e2 |"D" A4a2 | "G"bagfed |\
+"A7" e2e/f/edc | "D"d2dedc | d4 :|
+S:https://www.folktunefinder.com/tunes/51776
+S:http://www.mandozine.com/music/TOW.txt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

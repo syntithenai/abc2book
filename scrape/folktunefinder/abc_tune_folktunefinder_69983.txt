@@ -1,0 +1,27 @@
+X:423
+T: O WIE LIEBLICH ISTS IM KREIS
+N: F0781
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Moral - Lied
+M: 4/4
+L: 1/8
+K: A
+ | A3EA2c2 | B2c2d4
+c3efedc | c3BB2z2
+A3EA2c2 | B2c2d4
+c3fe2^d2 | ^d3ee2z2
+B2cAB2cA | B2Bcd4
+c2dBc2dB | c2cde4
+f3ff2f2 | e4c2z2
+d3dc2B2 | B4A2z2
+S:https://www.folktunefinder.com/tunes/69983
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

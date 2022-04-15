@@ -1,0 +1,26 @@
+X:13
+T:Tourne d'Arnaud
+R:---
+O:France
+A:Provence
+C:Arnaud
+M:3
+K:Bbmajor
+V:1
+B2 BBBB|BFBdce|d2 dddd|dBdfeg|f2 fdec|B2 e2 d2|(e4c2)::
+f2 gfed|e2 fedc|d2edcB|c2 FFFF|f2 gfed|e2 fedc|d2 dBcB|B2 BBBB::
+F2 ffff|(f2 =e)fgg|(g2 f)gaa|(a2 g)cc^c|{^c}d3bg=e|=e2 fBc^c|{^c}d3bge|f2 FFF-F:|
+V:2
+d2 dddd|dBdBAc|B2 BBBB|BFBdce|d2 eBcA|d2 c2 B2|c4 A2::
+d2 edc=B|c2 dcBA|B2 cBAG|A2 AAAA|d2 edc=B|c2 dcBA|B2 fdec|d2 dddd::
+A2 AAAA|(A2 G)ABc|(B2 A)=eff|(f2 =e)AAA|{A}B3 dBG|B2 AAAA|{A}B3 dBG|BAAA A2:|
+%%footer $D   Galouvielle-MBe 2008 \nAir (--)
+S:https://www.folktunefinder.com/tunes/472
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

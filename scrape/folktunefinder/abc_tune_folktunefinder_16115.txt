@@ -1,0 +1,29 @@
+X:1
+T:John Brosnan's Polka
+B:An Pota St=F3ir: Set Dance Music of West Kerry
+R:polka
+N:John's source for this tune was Jer Collins, from
+N:the Knocknagoshel area (note on J.B.'s album)
+S:Paul de Grae  irtrad-l 2000-09-18
+M:2/4
+L:1/8
+K:G
+|: GA/G/ ED | GB d2 | ed BG | A/B/A/G/  ED |
+|  GA/G/ ED | GB d2 | ed BA | G2 G2 :|
+|: d2 d^c/d/ | ed BG | c2 cB/c/ | ed Bc |
+|  d2 d^c/d/ | ed BG | A/B/c BA | G2 G2 :|
+S:https://www.folktunefinder.com/tunes/16115
+S:http://trillian.mit.edu/~jc/music/abc/polka/JohnBrosnansPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/JohnBrosnansPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/JohnBrosnansPolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Sweetness of Mary, The
+C: Joan McDonald Boes
+S: Aly Bain (from a TV programme)
+S: Phil Cunningham, Aly Bain "Another Gem"
+Z: Nigel Gatherer, John Chambers
+R: air
+M: 12/16
+L: 1/16
+K: A
+   AB \
+| "A"c3 cBA "D"F3 FAB | "A"ce2 "D"df2 "E"e3 efg | "D"a2g f2e "A"e2d c2d \
+|1 "Bm"ea2 cA2 "E7"B4 :|2 "A"ea2 "E7"cB2 "A"A4 ||
+|: ab \
+| "A"c'2e ac'2 "E"b2e gb2 | "D"a2g fa2 "A"e3- e3 | "D(Bm)"f2e d2f "A"e2d c2d \
+|1 "Bm"ea2 cA2 "E7"B4 :|2 "A"ea2 "E7"cB2 "A"A4 |]
+S:https://www.folktunefinder.com/tunes/13337
+S:http://trillian.mit.edu/~jc/music/abc/air/Sweetness_of_Mary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/Sweetness_of_Mary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Sweetness_of_Mary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/air/Sweetness_of_Mary_A.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 12/16
+% Text Has source text
+% Has_accompaniment_chords Has chords

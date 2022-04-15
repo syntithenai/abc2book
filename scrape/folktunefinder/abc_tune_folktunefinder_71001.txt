@@ -1,0 +1,22 @@
+X:254
+%%topmargin 3cm
+T:Miss Margaret MacKeracher
+C:D. McKeracher
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A dorian
+D S| G>AB>c dBB>g | Bdd>B cee>g | GABc dB{/f}g>e | dG{Bc}c>B {/B}A2 G:| f/g/ | abea g2 d>g | bgfg dgBg |
+bgd>g ec{ef}g>e | dG{B2AB}cB {/B}A2 G(f/g/) | abea g2 dg | bgfg dgBg | b>gd>B ec{ef}g>e | (3gfe (3dcB (3ced (3cBA S|]
+S:https://www.folktunefinder.com/tunes/71001
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

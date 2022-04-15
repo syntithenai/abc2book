@@ -1,0 +1,30 @@
+X:29
+T: AUF IHR BRUEDER LASST UNS WALLEN
+N: B0034
+O: Europa, Mitteleuropa, Deutschland
+R: politisch, national, Vaterlands - Lied
+M: 4/4
+L: 1/16
+K: C
+C,3E, | G,6G,2G,4A,3B, | C8G,4
+E3D | C6B,2C4A,4 | G,8z4
+G,3G, | B,6C2D4E4 | F8D4
+G,3G, | E6C2A,4B,4 | C8z4
+C3E | D4D4D4D4 | D6G2G4
+^C3C | D6B,2D3CB,3A, | G,8z4
+D3C | B,4G,4G,4E3D | C8G,4
+D3^C | B,4G,4G,4E3D | C8z4
+C3B, | A,6A,2A,4^C4 | D6E2F8
+G,3G,A,3B,C4D4 | E8z4
+E3E | F4E4D4C4 | G6F2E8 | E6D2C8
+G,3G,G,3CE4D4 | C8z4
+S:https://www.folktunefinder.com/tunes/78050
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Politisch, national, vaterlands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:192
+T: Rosengarten
+N: A0549
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner II 1602 No. 23. Variante von A0610.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 2/1
+L: 1/2
+K: G
+G | _B2B2 | c2c2 | d2dc | d2z
+c | _Bcd2 | d2d2 | c2B2 | c2z
+c | d2dc | _B2BA | GA_BG | A2z
+d | d2d2 | _B2d2 | c2_B2 | c2z
+d | _BAG2 | _BdcB | AGA2 | G3
+S:https://www.folktunefinder.com/tunes/80251
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

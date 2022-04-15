@@ -1,0 +1,30 @@
+X: 48
+T:Mackay's March. HA.047
+M:C
+L:1/4
+Q:80
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:G
+"Unedited"GEDE|GAB(A/G/)|AG/A>G|cGEG|EDEG|"sic"e2|deA/B/|cB2AG||!
+gede|gaba|gedB|AGE(D/E/)|G(A/B/)"sic"g3/2|de(A/B/)c|BAG2||!
+zzzz|zzzz|zzzz||!
+"Edited by CGP"\
+GEDE|GAB(A/G/)|A>GA>G|cGE2|GEDE|G2e2|deA/B/c|BAG2||!
+gede|gaba|gedB|AGE(D/E/)|G2(AB)|g2-g2|de(A/B/)c|BAG2|]
+S:https://www.folktunefinder.com/tunes/72297
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

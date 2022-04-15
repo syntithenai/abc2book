@@ -1,0 +1,32 @@
+X:13
+T:Chant de labour
+R:chanson
+S:Le Parler Poitevin - Emilien Traver
+N:p. 90
+O:France
+A:Poitou
+Z: <anamnese@laposte.net>
+M:6/8
+L:1/8
+Q:1/4=135
+K:G
+D2 | G3 A B G | B A2 z D2 | G3 G B G |  A3 z2 D | G3 A B G | B2 A2 z A | G3 A F E |
+D3 z D2 | G2 F G2 A |
+A2 E G2 A | G2 F E D D | E F G A2 A | G F E D2 z |
+B2 G c2 A | {B}A GF A2 z | B2 G c2 A | {B} A GF G2 |]
+W:O l'tait un bounhoumme, Un marchant de panais,
+W:Le vinguit a ma porte, Demander a coucher 
+W:Noblet, Berbet, Trouillet, Trouillet, Tournade et Cadet,
+W:Pigeau, Marcheau, Tartare et Dor
+W:J'aille, j'aille, mon valet, (bis)
+S:https://www.folktunefinder.com/tunes/39882
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

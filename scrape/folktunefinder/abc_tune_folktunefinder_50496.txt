@@ -1,0 +1,20 @@
+X:9
+T:Riepe garste
+O:holland
+M:4/4
+L:1/8
+Q:1/4=166
+K:F
+V:1
+"F" c2 c2 "Bb" d2 d2 |"F" c3/2 d/c3/2 B/A2 F2 |"C7" B2 B2 "F" A2 A2 |1 "C" G2 c2 c2 z2 |
+:|2 "C" G2 c2 "F" F2 z2 || |:"F" C2 F2 F2 A2 |"C" A2 G2 G4 |"F" F2 G2 A2 B2 |
+"G7" cB cd "C" c4 |"F" C2 F2 F2 A2 |"C" A2 G2 G4 |c2 c2 B2 G2 |"F" F8 :|
+S:https://www.folktunefinder.com/tunes/50496
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

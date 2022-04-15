@@ -1,0 +1,31 @@
+X: 1
+T: Reinlender efter Hilmar Alexandersen
+O: Trad
+N: Harmony by John Chambers
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V:1 stv=2
+ab \
+| "D"a2 fd A2 de | "A7"d2 c2 cd ef | g2 A2 e2 A2 | "D"de fg a2 ab \
+| "D"a2 fd A2 de | "A7"d2 c2 cd ef | g2 A2 eg fe | "D"d2 [f2d2] d2 :|
+K:G
+|: GB \
+| "G"d2-d2 Bcde | d2d2 B2GB | d2d2 Bdga | "D7"g2f2 f2AB \
+| c2c2 ABcd | c2c2 A2 | {de}f2f2 e2e2 | "G"dedc B2 GB |
+y8\
+| "G"d2-d2 Bcde | d2d2 B2GB | d2d2 Bdgf | "C"f2e2 e4 \
+| "(Am)"a2a2 agfe | "G"e2e2 "(Em)"dcB2 | "Am"A2{G}AB "D7"cdef | "G"g2g2 g2 :|
+S:https://www.folktunefinder.com/tunes/18437
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Reinl_HilmarAlexandersen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Reinl_HilmarAlexandersen_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

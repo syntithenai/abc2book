@@ -1,0 +1,41 @@
+X: 1
+T: the Duchess of Buccleugh
+C: Neil Gow
+R: reel
+B: RSCDS 26-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Play ABCBC
+M: 2/4
+L: 1/16
+K: F
+c2 \
+| "F"ABc2 F3c | A2F2 FGAB | ABc2 F3c | "Gm"dcBA "C7"G2c2 \
+| "F"ABc2 F3c | A2F2 FEDC | "Gm"D2F2 "C7"EFGE | "F"F4 F2 ||
+|: fg \
+| "F"a2A2 A2a2 | "Gm"b2d2 bagf | "C7"e2c2 d2e2 | "F"fefg a2fg |\
+|  "F"a2A2 A2a2 | "Gm"b2d2 g2f2 | "C"e2c2 "G7"edc=B | "C"c6 c2 ||
+|| "F"{FE}C2c2 B2A2 | "Bb"d2B2 "Gm"GFED | "C7"C2B2 A2G2 | "F"c2A2 FEDC \
+| "F"F3G A2F2 | "Gm"G2A2 B2d2 | "F"c2f2 "C7"efge | "F"f4 f2 :|
+S:https://www.folktunefinder.com/tunes/17069
+S:http://trillian.mit.edu/~jc/music/abc/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Gow/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilGow/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DuchessOfBuccleugh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/by/Gow/DuchessOfBuccleugh.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

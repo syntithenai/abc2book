@@ -1,0 +1,28 @@
+X: 2
+T: Easter Thursday
+O: England
+M: 3/2
+L: 1/8
+K: Em
+|: "Em"e4 efg2 f2e2 \
+| "Bm"f2B4 d2c2B2 \
+| "C"c4 cde2 d2c2 \
+| "G"d2G4 d2c2B2 |
+| "Am"ABc2 "Em"BAG2 "Am"AGF2 \
+| "Em"GFE2 "Bm"GAB2 "Em"E4 \
+:: "Em"bagf g2b2 e2b2 \
+| "Am"c'bag "D"f2a2 d2a2 |
+| "G"bagf "C"e2g2 c2g2 \
+| "B7"agfe ^d2f2 B2G2- \
+| "Em"G2A2- "Bm"A2B2- "Em"B2c2- \
+| "Am"c2B2- "Em"B2e2 "B7"f2^d2 :| "Em"He8 |]
+S:https://www.folktunefinder.com/tunes/5504
+S:http://trillian.mit.edu/~jc/music/abc/Intl/EasterThursday.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

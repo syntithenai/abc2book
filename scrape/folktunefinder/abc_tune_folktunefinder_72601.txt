@@ -1,0 +1,34 @@
+X:144
+T: La Paloma
+N: D0229
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein
+N: moduliert in die Dominanttonart; mit Klavierbegleitung;
+N: rhythmische Korrekturen in der zehnten Zeile und im Schlusstakt
+N: Inzipit = Variante zum Lied
+R: Staende - Lied, Seemannslied
+M: 2/4
+L: 1/16
+K: C
+ |  |  |  | G2 | G8 | GE2FG2A2 | Bc2AB2G2 | F8- | F4z2
+G2 | d8- | d2e2cdB2 | cB2AG2F2 | E8- | E4z2
+G2 | G8- | GE2FG2A2 | Bc2AB2G2 | F8- | F4z2
+G2 | d8- | de2cd2B2 | cB2AG2F2 | E8
+cc2cc2B2 | dd2cB2A2 | A2G6- | G8
+BB2BB2A2 | AG2GG2A2 | GFE6- | E8
+cc2cc2B2 | dd2cB2A2 | A2G6- | G8
+BB2BB2A2 | AG2GG2A2 | GFE6- | E2
+GGGA2^F | G8 | z2GGGG2A | B4
+d4- | de2cdB2c | AB2ce3d | DE2FA3G | E8 | z2
+GGGA2^F | G8 | z2GGGG2A | B4
+d4- | df2ede2c | dB2ce3d | DE2FA3G | c6
+S:https://www.folktunefinder.com/tunes/72601
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, seemannslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

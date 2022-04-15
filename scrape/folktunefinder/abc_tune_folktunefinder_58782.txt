@@ -1,0 +1,32 @@
+X:130
+T:H.M.S. Invincible and H.M.S. Berwick
+C:Muriel Johnstone
+M:4/4
+L:1/8
+Q:212
+K:D
+%H.M.S. Invincible
+|:z6Az|d3d A2d2|Bcd2 A4|Bcd2 A2d2|F2E2 E2A2|
+W:
+d3d A2d2|Bcd2 A4|GAB2 A2f2|e2d2 d2z2:|
+W:
+|:z6ez|f3f F2f2|e2dc d4|e3e B2d2|d2cB cABc|
+W:
+d3d c2e2|edcB A4|GAB2 A2f2|e2d2 d2z2:|
+W:
+K:G
+%H.M.S. Berwick
+z6dz|g3g d2g2|fgaf g2ab|c'2b2 a2g2|fgfe d2gf|
+W:
+%
+S:https://www.folktunefinder.com/tunes/58782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/strath.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/strath.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

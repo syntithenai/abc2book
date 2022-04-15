@@ -1,0 +1,25 @@
+X: 1
+T: Blackwood
+C: Jimmy Blair
+M: 6/8
+L: 1/8
+K: A
+ze \
+| "A"cBA "D"AGF | "A"E3 C2C | "D"DEF "A"EAc | "A"edc "E7"B2e \
+| "A"cBA "D"AGF | "A"E3 C2C | "D"DdF "E7"EeG | "A"A3 z :|
+cd \
+| "A"eae cAc | "D"dfd F2A | "E7"GBG EFG | "A"A2B c2d \
+| "A"eae cAc | "D"dfd F2A | "E7"GAB "B7"AGF | "E7"EGB e ||
+cd \
+| "A"eae cAc | "D"dfd F2A | "E7"GBG EFG | "A"A2B c2d \
+| "A"eae cAc | "D"dfd F2A | "E7"GAB dcB | "A"A3 z |]
+S:https://www.folktunefinder.com/tunes/13893
+S:http://trillian.mit.edu/~jc/music/abc/jig/Blackwood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Blackwood_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

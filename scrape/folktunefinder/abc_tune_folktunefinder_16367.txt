@@ -1,0 +1,27 @@
+X: 1
+T: Innerst\aafrid'n, senpolska fr\aan J\"amtland
+O: J\"amtland
+R: senpolska
+N: Learned from Bengt Jonsson,  1984
+M: 3/4
+L: 1/16
+K: Gm
+|: "Gm"g4 d6 c2 | "Cm"e3d d2c2 "D7"c2A2 | "Gm"BABc d4 B2cB | "D7"A2BA G2AG ^F2D2 |
+|  "Gm"g4 d6 c2 | "Cm"e3d d2c2 "D7"c2A2 | "Gm"BABc d4 "D7"B2cB | AcA^F "Gm"G8 :|
+|: "Gm"{A}BcBA G3A B2c2 | d3g ^f2g2 d4 | g3^f g2b2 a2g2 | "F7"f3g f2e2 "Bb"d4 |
+|  "Gm"g4 d6 c2 | "Cm"e3d d2c2 "D7"c2A2 | "Gm"BABc d4 "D7"B2cB | AcA^F "Gm"G8 :|
+S:https://www.folktunefinder.com/tunes/16367
+S:http://trillian.mit.edu/~jc/music/abc/pols/Innerstafridn.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/Innerstafridn1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Innerstafridn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Innerstafridn1.abc
+% Rhythm Senpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

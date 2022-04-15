@@ -1,0 +1,26 @@
+X: 1
+T: the Kid on the Mountain
+R: slipjig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+|: "Em"~E3 FEF G2F | "Em"E2B B"(#)"cA "(D)"BGD | "Em"~E3 FEF G2A | "Em"BAG "D"FAG FED :|
+|: "G"BGG "D"AFF "G"G2D | "G"GAB dge dBG | "G"BGG "D7"B2A "G"G2A | "G"BAG "D"FAG "D"FED :|
+|: "Em"~g3 eBe e2f | "Em"~g3 efg "D"afd | "Em"~g3 eBe ega | "Em"bag "D"fag fed :|
+|: "Em"eBB e2f g2f | "Em"eBB efg "D"afd | "Em"eBB e2f g2a | "Em"bag "D"fag fed :|
+|: "G"edB "D"dBA "G"G2D | "G"GAB dge "D"dBd | "G"edB "D"dBA "G"G2A | "G"BAG "D"FAG FED :|
+S:https://www.folktunefinder.com/tunes/18535
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/KidOnTheMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/KidOnTheMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/KidOnTheMountain.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/slipjig/KidOnTheMountain.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 32
+T: Widow Machree
+C: J-10
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+"D"AAB dcd| efd "G"b2 z| "D"a3 f3| "A"efd BdB|
+"D"AAB dcd| efd "G"b2 z| "D"a3 f3| "A"edd "D"d2 z:|
+|:\
+"G"gfg bag| "D"fef agf| "A"ede gfe| "Bm"fdB BdB|
+"D"AAB dcd| efd "G"b2 z| "D"a3 f3| "A"edd "D"d2 z:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/1854
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:6466
+T:Thames Hornpipe
+O:england
+S:BSDB, KCC p23
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+dc|"G"BgdB "D7"AecA|"G"GdBG "D7"FcAF|"G"GDEF GABc|"A7"^cded "D7"fed=c|
+"G"BgdB "D7"AecA|"G"GdBG "D7"FcAF|"G"GDEF GABc|"D7"^cdef "G"g2:|
+K:D
+P:B
+A2|"D"Adcd edcd|"Em"Be^de fede|"A7"gfed cBAG|"D"FA"E7"^GB "A7"A2A2|
+"D"Adcd edcd|"Em"Be^de fede|"A7"gfed cABc|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/26918
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

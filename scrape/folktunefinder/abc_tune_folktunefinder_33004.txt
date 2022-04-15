@@ -1,0 +1,34 @@
+X: 2696
+T:Sow's Tail to Geordie,The. HSJJ.143
+M:2/4
+L:1/16
+Q:1150
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Air
+O:England
+A:Lancashire
+H:1823
+Z:Chris Partington.
+K:D
+A3BA2G2|E2F2G2E2|A3BA2F2|A2B2d2e2|f2g2 fgaz|E2F2G2E2|DEFG A2E2|~F4D4:|!
+|:a3ba2f2|e2f2g2e2|a3ba2f2|d2e2f2d2|g2ag f2gf|e2fd dcBA|defg agfe|1f4d4:
+|2f4d2|!
+|e2|d2B2A2F2|E2F2G2E2|d3BA2F2|A3Bd2e2|edcB BAGF|E2F2G2E2|DEFG A2F2|~F4D4
+:|!
+|:a3fd2f2|e3f agfe|a3fd2f2|a3ba2f2|g2bg f2af|gfed cdec|defg a2e2|"HUZZA"
+~f4d4:|]
+S:https://www.folktunefinder.com/tunes/33004
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

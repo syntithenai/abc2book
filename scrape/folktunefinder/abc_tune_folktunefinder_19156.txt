@@ -1,0 +1,28 @@
+X: 1
+T: Solomon Levi #1
+I: Solomon LeviS-SGsquare
+%C: S-S
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+z2z2zd| "G"Hdzd dzd| dzd dzd| "C"eze eze| e4 ze|\
+        "D7"fzf fzf| fzf fze| "G"ezd dz^c| d4 zd|
+        "G"dzd dzd| dz d2 zd| "C"eze eze| e4 ze|\
+        "D7"fzf fzf| fzf fze| dzd ezf| "G"g4 "fine"z2 |]
+|:\
+"B7"b3 fga| "Em"g3 e3| "B7"bc'b agf| "Em"e4 z2|\
+"A7"a3 efg| "D"f3 d3| "A7"aba gfe| "D"ded cBA:|
+S:https://www.folktunefinder.com/tunes/19156
+S:http://trillian.mit.edu/~jc/music/abc/square/Solomon_Levi_1.abc
+S:http://roaringjelly.org/music/square/Sq_S_Solomon_Levi_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_S_Solomon_Levi_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Solomon_Levi_1.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_S_Solomon_Levi_1.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

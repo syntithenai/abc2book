@@ -1,0 +1,29 @@
+X:90
+T: Altes Jagdhorn - Stueckchen
+N: A0442
+O: Europa, Mitteleuropa, Deutschland
+N: Ott III 1544 No. 6.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 3/1
+L: 1/2
+K: F
+C2 | F4G2 | A2F2c2 | c4B2 | A2G4 | F6 | z4
+F2 | A4B2 | c4B2 | c6 | z4
+C2 | F4G2 | A2F2c2 | c4B2 | A2G4 | F6 | z4
+F2 | A4B2 | c4B2 | c6 | z4
+c2 | B2G4 | A3GAB | c4B2 | c3Bc2 | F4
+F2 | G4G2 | E2D4 | C6 | z4
+C2 | F4F2- | F2G2G2 | A3GA2 | F4z2
+A3Bc2 | A2F2G2 | F4z2 | z4
+F2 | c4c2 | G3AB2 | c2A4 | G4
+A2 | c4B2 | A4B2- | B2G4 | F6 | z4
+S:https://www.folktunefinder.com/tunes/80149
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

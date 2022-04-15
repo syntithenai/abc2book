@@ -1,0 +1,31 @@
+X: 1
+T: Lord Lovat's Lament
+R: air, march
+B: BSFC V-11
+M: C|
+L: 1/8
+K: G
+G2A2 | "G"B4  B2d2 | "D7"c2B2    A2G2 |  "Em" Bd3       d3e | "Bm"d4 \
+e2f2 | "G"g4  d2g2 | "Em"e2d2    B2G2 | "A(m)"BA3       A3B | "D7"A4 ||
+G2A2 | "G"B4  B2d2 | "D7"c2B2    A2G2 |   "Em"Bd3       d3e | "Bm"d4 \
+B2G2 | "C"c3d e2dc |  "G"Bd3 "D7"c3A  |    "C"AG3 "(D7)"G3A |  "G"G4 |]
+e2f2 | "G"g4  d2g2 | "Em"e2d2    B2G2 |    "G"B2d2      d3e | "D7"d4 \
+e2f2 | "G"g4  d2g2 | "Em"e2d2    B2G2 |   "A7"B2A2      A3B | "D7"A4 ||
+G2A2 | "G"B4  B2d2 | "D7"c2B2    A2G2 |   "Em"Bd3       d3e | "Bm"d4 \
+B2G2 | "C"c3d e2dc |  "G"Bd3 "D7"c3A  |    "C"AG3 "(D7)"G3A |  "G"G4 |]
+S:https://www.folktunefinder.com/tunes/13244
+S:http://trillian.mit.edu/~jc/music/abc/air/LordLovatsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LordLovatsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/march/LordLovatsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/LordLovatsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/LordLovatsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/march/LordLovatsLament.abc
+% Rhythm Air, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

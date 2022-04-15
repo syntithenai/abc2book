@@ -1,0 +1,33 @@
+X:1
+%% Copyright 1950 by Duchess Music Corp. New York
+T:The end of a love affair
+M:4/4
+L:1/4
+C:Edward C. Redding
+Q:1/4=180
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x |: "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Fm7"x2 "Bb7"x2 | "Ebmaj7"x2 x2 |
+"Ebm7"x2 "Ab7"x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 "C7"x2 |[1 "Fmaj7"x2 x2 :|[2 "Fmaj7"x2 x2 ||
+V:melody
+F/G/ |: A>A (3AGF | E2 zD/C/ | G>G (3GF_E | D2zC/B,/ |
+S:https://www.folktunefinder.com/tunes/19093
+S:http://trillian.mit.edu/~jc/music/abc/song/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/end_of_a_love_affair.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/end_of_a_love_affair.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

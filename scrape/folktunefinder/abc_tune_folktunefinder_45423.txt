@@ -1,0 +1,19 @@
+X:9
+T:Beams
+L:1/16
+M:4/4
+K:C
+(3CDE(3FGA B/c/d/e/d/c/B/A/ (3zDE(3FGz z/c/d/e/d/c/B/z/|(3CDz(3zGA B/c/d/z/z/c/B/A/ G8|
+S:https://www.folktunefinder.com/tunes/45423
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+S:http://abcplus.sf.net/abcm2ps_7.8.14-1_i386.deb
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

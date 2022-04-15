@@ -1,0 +1,31 @@
+X:3562
+T:Last Rose of Summer,The. CJF.175
+O:england
+M:3/4
+L:1/8
+Q:80
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The grace notes in the first and last bars interrupt beamed pairs in
+N:the MS. - PJH.
+K:G
+"(Andante)"(G3/2{A/G/F/G/}A/)|B2g2{f}(e>d)|(dB3)G>A|B2{d}(c>B) {B}\
+(A>G)|G4(G>A)|B2g2(e>d)|(dB3)G>A|B2{d}(c>B) {B}A>G|G2z:||:
+(d>B)|g2(g>f) {f}(e>d)|d2B2(d>B)|g2(gf) (e>^d)|e2( {f/e/^d/e/)}  ({fa)}\
+hg2(G>A)|B2g2(f>e)|(dB3)"~"G>A|B2{d/}(c>B) "tr"A{G/A/}G|G4:||
+S:https://www.folktunefinder.com/tunes/24013
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

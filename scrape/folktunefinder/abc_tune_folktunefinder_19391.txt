@@ -1,0 +1,31 @@
+X:24
+T:Hebridean Milking Song
+M:4/4
+L:1/8
+Q:212
+K:G
+d2G3GG2 | G2d2 ddB2 | d2GG GGD2 | DDE2 G2B2 | \
+A2G3GG2 | G2d2 ddB2 | d2GG GGD2 | G2B2 A2G2 |
+B2ddddG2 | GGB2 d2e2 | d2dd dde2 | dde2 d2B2 | \
+ABG3GG2 | GGd2 ddB2 | d2GG GGD2 | G2B2 A2G2 | B2
+% Different Harmonies
+d2G3GG2 | G2 d2dd | B2d2 GGGG | D2DD E2G2 | B2A2 \
+G3G | G2G2 d2dd | B2d2 GGGG | D2G2 B2A2 | G2B2
+dddd | G2GG B2d2 | e2d2 dddd | e2dd e2d2 | B2AB \
+G3G | G2GG d2dd | B2d2 GGGG | D2G2 B2A2 | G2B2 |]
+W: G G G C D7
+W: G G G D6 G
+W: G G C G G C G C G D6 B
+W: Em G G D6 G
+W: G Em Bm C G C D6
+W: Em G Em7 Bm C G D6 G
+W: G Em Bm C Bm Bm C G C G B
+W: Em G C9 G C G D6 G
+S:https://www.folktunefinder.com/tunes/19391
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Hebridean_Milking_Song_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

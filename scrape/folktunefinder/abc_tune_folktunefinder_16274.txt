@@ -1,0 +1,30 @@
+X:1
+T:Balkanpolskan
+M:3/4
+L:1/8
+R:polska
+C:Ola Bckstrm
+S:http://www.spelmanslaget.nu/rep.html
+S:"hs"<hseaman@execpc.com> scand 2003-8-14
+K:A
+"E"B^G2 E/2G/2 (3AGA|B^G2 E/2G/2 (3AGA|B d2 B/2d/2(3cBA|B^G2 E/2G/2 (3AGA|
+B ^G2 E/2^G/2 (3^FED|E2 E4:|
+|:"Am"cA2 ^G/2A/2 "E"(3BAB|"Am"cA2 ^G/2A/2 "E"(3BAB|"Am"(3cBc "G"(3dBd
+"F"(3cBA|
+"E"B^G2 E/2G/2 "Dm"(3A^GA| "E"B^G2 E/2G/2 "D"(3AGA|"E"(3BAB (3dcB (3Bcd|
+"Am"c c2 B/2c/2 (3dcB|"G"d d2 c/2B/2 (3dcB| "E7"B B2 A/2B/2 (3dcB|"Dm"F F2
+"E"E/2F/2 "Am"(3^GAB| A2 A4:||
+S:https://www.folktunefinder.com/tunes/16274
+S:http://trillian.mit.edu/~jc/music/abc/pols/BalkanPolskan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BalkanPolskan_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scand/BalkanPolskan_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

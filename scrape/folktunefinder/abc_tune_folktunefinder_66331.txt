@@ -1,0 +1,31 @@
+X:0
+T:The Braes o' Forbes
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Strathspey
+M:C
+L:1/8
+Q:1/4=112
+N:upbeats before each second repeat have been halved (printed as quavers in the book)
+K:Hp
+   a/| {AGAG}A2  {gcd}c>B {gBd}B{e}A {gAGAG}A>{d}c|  {g}e>f {gef}e>d {gde}d<c {GdG}c3/ |\
+[1 a/| {AGAG}A2  {gcd}c>B {gBd}B{e}A {gAGAG}A>{d}c|
+                                                   {gef}e>d {gde}d<c {gcd}c<B {GdG}B3/:|\
+[2 d/|    {g}e>f {gef}e>c   {g}A>{d}c  {gef}e>c   |{gfg}f>d {gef}e>c {gcd}c<B {GdG}B3/||
+{d}c/|{gAGAG}A>a  {eg}e>d {gcd}c{e}A   {gef}e>d   |  {g}c<e {gfg}f>e {gef}e>c {GdG}c3/ |\
+[1 B/|{gAGAG}A>a  {eg}e>d {gcd}c{e}A   {gef}e>f   |
+                                                   {gef}e>d {gde}d<c {gcd}c<B {GdG}B3/:|\
+[2 d/|    {g}e>f {gef}e>c   {g}A>{d}c  {gef}e>c   |{gfg}f>d {gef}e>c {gcd}c<B {GdG}B3/|]
+S:https://www.folktunefinder.com/tunes/66331
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

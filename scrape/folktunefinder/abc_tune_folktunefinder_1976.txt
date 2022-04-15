@@ -1,0 +1,33 @@
+X: 39
+T:Blanchards Hornpipe. JMP.039
+T:Fishers,aka. JMP.039
+T:Egg,aka. JMP.039
+M:C|
+L:1/8
+Q:160
+C:"38...or Fishers",Egg,aka.
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+N:'or Fishers', it says in smaller, possibly pencil, writing.
+H:1799
+Z:vmp.C. Graebe
+K:D major
+"key in MS shown as G major"dAFA GBAG |\
+FAFA GBAG | FDFD GEGE | AFED CECA, |!
+dAFA GBAG |FAFA GBAG | FdBg fedc | d2d2"minim"d2 :|!
+|:ecAc ecge | fdAd fdaf | ecAc ecge | fdcB A3 E |!
+BGEG BGdB | AFDF AFcA | Bdcg fedc | d2d2"minim"d2 :|]
+S:https://www.folktunefinder.com/tunes/1976
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:12
+T: Es taget minnecliche
+N: A0017
+O: Europa, Mitteleuropa, Deutschland, Niederdeutschland
+N: Melodie: Strassburger Hs.(1421),121 Bl. 128b
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | G4c2 | B4A2 | c2d2B2 | A4
+e2 | d4d2 | B4B2 | c2d2B2 | A4
+G2 | B4c2 | d4e2 | d2cBA2 | G4
+A2 | d4c2 | B4A2 | G4
+S:https://www.folktunefinder.com/tunes/68558
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

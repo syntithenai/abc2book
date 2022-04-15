@@ -1,0 +1,34 @@
+X: 51
+T:Miss Kay Rose
+% Nottingham Music Database
+S:I. MacPhail, via PR
+M:4/4
+L:1/4
+K:A
+A/2B/2|"A"c/2d/2c/2B/2 A/2G/2A/2B/2|c/2e/2c/2B/2 AA/2B/2|\
+"A"c/2A/2B/2c/2 d/2e/2f/2a/2|
+"Bm"g2 "E7"gB/2c/2|"Bm"d/2e/2d/2c/2 "E"B/2^A/2B/2c/2|\
+"Bm"d/2f/2d/2c/2 "E"BB/2c/2|"Bm"d/2c/2d/2e/2 "E7"g/2f/2e/2d/2|
+"A"c2 c"E7"A/2B/2|"A"c/2d/2c/2B/2 A/2G/2A/2B/2|c/2e/2c/2B/2 AA/2B/2|\
+"A"c/2A/2B/2c/2 "A7"d/2e/2f/2=g/2|
+"D"f2 f3/2g/2|"D"ag/2a/2 "A/dim"b/2a/2g/2f/2|"A"ea "F#m"A3/2B/2|\
+"Bm"c/2B/2c/2e/2 "E7"cB|"A"A2 A||
+(3e/2f/2g/2|"A"aA aA|a/2A/2g/2A/2 f/2A/2e/2A/2|"A"a2 A/2c/2e/2a/2|\
+"Bm"gf "E7"d2|
+"Bm"bB bB|"Bm"b/2B/2a/2B/2 g/2B/2f/2B/2|b/2B/2a/2B/2 g/2B/2f/2B/2|
+"E7"g/2f/2e "A7"c(3"E7"e/2f/2g/2|"A"aA aA|a/2A/2g/2A/2 f/2A/2e/2A/2|\
+"A"a2 A/2c/2e/2a/2|
+"A7"gb "D"f3/2g/2|"D"ag/2a/2 "A/dim"b/2a/2g/2f/2|"A"ea "F#m"A3/2B/2|\
+"Bm"c/2B/2c/2e/2 "E7"cB|"A"A2 A||
+S:https://www.folktunefinder.com/tunes/44045
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsH-L.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

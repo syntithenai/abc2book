@@ -1,0 +1,27 @@
+X:1045
+T:Chicago reel
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a8b.html
+%%ID:00000a8b
+K:A min
+AB|\
+cd ed cA GE|G2GE GA cd|ec gc ac gc|ea ag eg ed|\
+cd ed cA GE|G2GE GA cd|ea ag eg ed|cA BG A2::\
+AB|\
+cd e^f gf ga|ge dc BG GB|\
+cd e^f g2ed|ea ag ag ed|\
+cd e^f g2ge|a2 a^f g2ge|f2 fd eg ed|cA BG A2:|
+S:https://www.folktunefinder.com/tunes/36288
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

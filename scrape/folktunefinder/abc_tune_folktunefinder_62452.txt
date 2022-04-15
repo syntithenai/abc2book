@@ -1,0 +1,29 @@
+X:121
+T:Svanpolska efter M\"aster Plut
+R:sl-polska
+H:efter Skr\"addaren M\"aster Plut (Anders Magnus Andersson, 1812-1888), V\"astervik
+H:Jfr #18, #47.
+A:Sm{\aa}land
+B:SvL \"Ogl 344
+Z:id:hn-sp-121
+M:3/4
+L:1/16
+K:Dm
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG G2A2 | A2d2 {e}(3d2^c2d2 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG A2F2 | FED^C E2D2 D4 :|
+|: D3E {G}FEFG G2A2 | A2c2 cBGB B2A2 | D3E {G}FEFG G2A2 |
+A2c2 cBGB B2A2 | A2^c2 .d2.e2 .f2.d2 | {e}(3d2^c2d2 e4 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG G2A2 | A2d2 {e}(3d2^c2d2 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG A2F2 | FED^C E2D2 D4 :|
+S:https://www.folktunefinder.com/tunes/62452
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

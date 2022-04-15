@@ -1,0 +1,23 @@
+X:22
+T:La Valse des Bois
+C:Richard Forest
+K:Em
+M:3/4
+B,2 | E3 DE2 | F3 EF2 | G2 A2 G2 | F2 E2 D2 | E3 EE2 | D2 B,2 D2 | \
+(E6 | E4) B,2 | E3 DE2 | F3 EF2 | G2 A2 G2 | F2 E2 D2 | E3 EE2 | D2 B,2 D2 | \
+(E6 | E2) G2 A2  \
+|: B3 B B2 | B2 c2 B2 | A2 D2 D2 | D2 E2 F2 | G3 G G2 | G2 A2 G2 | \
+(F6 | F2) G2 A2 |1 B3 B B2 | B2 c2 B2 | A2 D2 D2 | D2 E2 F2 | \
+G3 F E2 | F2 E2 D2 | (E6 | E2) G2 A2 :|2 B2 A2 B2 | \
+c2 d2 e2 | B2 A2 G2 | A2 G2 F2 | G3 G G2 | F2 E2 D2  | (E6 | E6) :|
+S:https://www.folktunefinder.com/tunes/43690
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/LaValseDesBois_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:397
+T: MEI SCHATZERL IS GWANDERT
+N: B0470
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+R: Liebes - Lied, Leid, Klage
+M: 3/4
+L: 1/8
+K: G
+B2 | cBA2e2 | d3c
+B2 | c2EGFA | G3A
+B2 | cBA2e2 | d3c
+B2 | c2EGFA | G4
+S:https://www.folktunefinder.com/tunes/78418
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

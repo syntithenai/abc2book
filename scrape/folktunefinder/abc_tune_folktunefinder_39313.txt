@@ -1,0 +1,47 @@
+X:17942
+T:Two-Sharp Reel Set
+M:C|
+L:1/8
+K:AMix
+P:Kate Dalrymple
+% A mixolydian/major hexatonic
+A2Ac B2Bc|A2Ac B2Bc|A2a2 fedc|B2e2 c2A2:|
+e2ef edcd|e2a2 e2c2|e2a2 e2a2|e2a2 e2c2 |
+dddf ccce|BBBc edcB|A2a2 fedc|B2e2 c2A2|]
+P:Prince Charlie
+% E dorian 
+E2EF B2Bc|d2AG FDDF|[1 E2EF B2Bc|dBAF GEEF:|
+                    [2 EFGA B2Bg|fdBd e2eB||
+eBef geBg|fbag fddf|   eBef geBg|bgaf e2eB |
+eBef geBg|fdAG FEDe|   geBg AfGe|FdAF E4  |]
+P:Fairy dance
+% D major
+f2fd f2fd|f2fd cde2|f2fd gfed|cABc [1 d4  :|
+                                   [2 defg||
+a2af b2ba|gfge a2ag|f2fd gfed|cABc [1 defg:|
+                                   [2 d4  |]
+P:Hunter's Bog
+% B minor
+B2Bc d2ef|gfeg f2ed|c2BA e2dc|a3f  ecAc |
+B2Bc d2ef|gabg f2af|e3g  fece|d2B2 B2c2 |
+% D major
+dAFA defd|gfed ceAc|d2ba gfed|ceBc A2dc |
+B2gf edcB|Acdf a2gf|gbeg fadf|ceAc d2f2|]
+P:Tail Todle
+% D major
+d2fd g2fe|d2fd e2cA|d2fd g2fe|fgaf e2cA:|
+g2dB B2dB|g2dB e2cA|g2dB B2dB|A2af e2cA:|
+P:Short Coated Mary
+% E dorian/mixolydian hexatonic
+E2B2 BABc|d2AF DEFD|E2B2 BABc|d2AF E2E2:|
+d2dB e2e2|d2d2 FFFD|d2dB e2e2|d2AF E2E2 |
+d2dB e2e2|d2d2 FFFD|E2B2 BABc|d2AF E2E2|]
+S:https://www.folktunefinder.com/tunes/39313
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:787
+T:Xiraldilla (CT 136)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Prudencia X (sic), La Caona, de sesenta aos, de Cabaaquinta, ayuntamiento de Ayer.
+A:Asturies
+O:Cabaaquinta (Ayer)
+Z:Cancioneru de Torner 136
+M:2/4
+L:1/8
+Q:1/4=152
+K:G
+G
+|GG GA|B B2 A|c2 AF|G2 z G|
+GG GA|B B2 A|c2 AF|G2 z G|
+cc cc|c c2 c|c2 BA|B2 z2|
+|d2 dc|B3 A|c2 AF|G4|
+d2 dc|B3 A|c2 AF|G2 z2||
+W:Tengo de quererte a t
+W:aunque otro lo solicite;
+W:tengo de cortar la rama
+W:aunque la flor se marchite.
+W:
+W:Pas la barca de Orense,
+W:pasla de madrugada,
+W:pasla en el mes de enero
+W:cuando llova y nevaba.
+W:
+S:https://www.folktunefinder.com/tunes/59674
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

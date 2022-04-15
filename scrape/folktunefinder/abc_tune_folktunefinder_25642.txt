@@ -1,0 +1,30 @@
+X:5190
+T:Polska efter J\"ons Persson, Bergsj\"o
+O:england
+S:Sv.L.Medelpad nr 88
+R:Polska
+Q:32
+M:3/4
+L:1/16
+A:Medelpad
+K:Dm
+A2d2 d2ed cdcB | A2d2 d2^cd [e4e4] |\
+A2f2 "tr"f2ed f2e2 | d2^cd efed c2A2|\
+A2d2 d2ed cdcB | A2d2 d2^cd [e4e4] | \
+A2f2 "tr"f2ed f2af | ege^c d8 ::\
+D2a2 a2=ba gbge | fefg a^ga^c d2[e2e2] |\
+[e2e2]f2 "tr"f2ed f2e2 | d2^cdefed^c2A2|\
+A2a2 a2=ba gbge | fefg a^ga^c d2[e2e2] |\
+[e2e2]f2 "tr"f2ed f2af | ege^c [D8d8]:|
+S:https://www.folktunefinder.com/tunes/25642
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

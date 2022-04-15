@@ -1,0 +1,29 @@
+X: 1
+T: the Road to Boston
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+ef \
+| "E"g4 ~g2fg | a2g2 f2e2 | "B7"d2e2 f2g2 | "E"e2B2 G2B2 \
+| "E"g4 ~g2fg | a2g2 f2e2 | "B7"d2e2 f2d2 | "E"e6 :|
+|: ga \
+| "E"b4 ~b2^ab | "A"c'2b2 a2g2 | "Fm"a4 ~a2ga | "B7"b2a2 g2f2 \
+| "Cm"g4 ~g2fg | "Fm"a2g2 f2e2 | "B7"d2e2 f2d2 | "E"e6 :|
+S:https://www.folktunefinder.com/tunes/15663
+S:http://trillian.mit.edu/~jc/music/abc/march/RoadToBoston_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoadToBoston_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RoadToBoston_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/RoadToBoston_E.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

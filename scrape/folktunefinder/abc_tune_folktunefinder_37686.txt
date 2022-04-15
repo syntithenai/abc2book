@@ -1,0 +1,24 @@
+X:16315
+T:Tarantella
+C:Y. Dour: Accordons diatoniques
+M:6/8
+L:1/8
+K:G
+ded BGB|ded AFA|cdc AFA|cdc BGB|\
+ded BGB|ded AFA|ABc dcB|ABA G3:|
+|:G2d2 Gd G2B2 GB|G2d2 Gd F3A3|\
+F2c2 Fc F2A2 FA|F3d3 G3B3|\
+G2d2 Gd G2B2 GB|G2d2 Gd F3A3|\
+ABc dcB|ABA G3:|
+|:ded BGB|ded A3-f3-|A2f2 Af A3e3|\
+A3f3 B3-g3-|B2g2 Bg B3d3|\
+B3g3 A3-f3-|A2f2 e fed|cBA G3:|
+S:https://www.folktunefinder.com/tunes/37686
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

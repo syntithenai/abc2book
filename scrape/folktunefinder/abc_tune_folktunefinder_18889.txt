@@ -1,0 +1,30 @@
+X: 2
+M: C|
+L: 1/8
+P: A la Mode de France
+Q: 120
+H: The title was derived from a ballad probably written in 1642-3 while the Queen was in
+H: Holland raising money and troops to support Charles I. Called "The French Report", it
+H: is set in the conventionalized "foreigner's accent".
+W: Me have of late been in England
+W: Vere me have seen much sport
+W: De raising of de Parliament
+W: Have quite pull'd down de Court
+W: De King and Queen dey seperate
+W: And rule in ignorance
+W: Pray judge ye Gentlemen, if dis
+W: Be a la mode de France
+K: DMix
+"C"|: a | "D"af "A7"ga | "D"f>e da | af "A7"ga | "D"f3 \
+"D":: f | "A7"eA de | "D"f>e df |1 "A7"eA de | "D"f3 :|2 "A7"af ga | "D"f3 |]
+S:https://www.folktunefinder.com/tunes/18889
+S:http://trillian.mit.edu/~jc/music/abc/song/Nonesuch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

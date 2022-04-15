@@ -1,0 +1,26 @@
+X:3005
+T:Lamb Skinnet
+A:Northumberland
+M:6/8
+O:England
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000891.html
+%%ID:00000891
+K:G
+D|\
+GBd dBG|c2e efg|GBd dBG|F2A ABA|\
+GBd dBG|c2e efg|
+fed ed^c|1ded =cBA :|2 d3 def |:\
+gdB gdB|c2e efg|
+dBG dBG|F2A ABc|\
+dBG dBG|c2e efg|dBG cAF|1 G3 GBd :|2 G3 G2|]
+S:https://www.folktunefinder.com/tunes/36680
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

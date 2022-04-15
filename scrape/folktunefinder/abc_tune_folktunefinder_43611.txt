@@ -1,0 +1,27 @@
+X:240
+T:Barly Raking
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:"for a Jigg -- or Reel"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dd3.html
+%%ID:00000dd3
+K:G
+A |\
+D2F (ABA) | G2F E2F | D2(c B2A) | B2c d2 ::\
+e|\
+d2e f2d | g2f e2f |! d2e f2d | (dcB) A2A |\
+d2e f2d | g2f (efe) | d2A B2d | A2F D2 !D.C.! :|
+% page 23
+S:https://www.folktunefinder.com/tunes/43611
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

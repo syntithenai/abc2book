@@ -1,0 +1,32 @@
+X: 114
+T:Bugle March,The. JaW.114
+M:C
+Q:1/4=150
+C:"A Good Tune"
+S:James Winder Ms, Lancashire, 1835-41
+R:March
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+G2G>GG2Bc|d>B G2G>G c>d|(e<c) g2(d<B)g2|gfag fedc|!
+(B<c) (B<G) (A<c) (c<F)|GBcd efga|bgfg fed^c|d2d>dd2:|!
+|:a2a>a ac'ba|g2g>g gbag|fedg fedc|B2A>AA2z2|!
+G2G>G GBcd|(e<c) a2(f<d)g2|(B<c) (c<e) (A<c) (D<F)|G2G>G G2z2:|!
+|:B4A2A2|(G3A/G/) FGAB|(dc).c.c (cB).B.B|(BA).A.A A2z2|!
+d4c2c>c|B4ABcd|(e<c) (c<A) (A<G) (G<F)|(F4G2):|!
+|:f2a>af2z2|g2b>bg2z2|GBcd efga|g4e2e>e|!
+B4A2A>A|d2d>dc4|B2(3AcA "tr"G2F2|F4G2:|]
+S:https://www.folktunefinder.com/tunes/47651
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

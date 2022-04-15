@@ -1,0 +1,66 @@
+X: 1
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+C: lyrics: Sh\=i B\`i-W\'u
+%T: Rgu\'i
+%T: 
+%C: melody: T\'ai Zh\`ao-M\'ei (\'a\'e)
+%C: lyrics: Sh\=i B\`i-W\'u (\~n)
+%C: melody: Ti Zho-Mi (\'a\'e)
+%C: lyrics: Sh B-W (\~n)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (\'a\'e)
+%N: I found a claim online that the lyrics were written by Sou Bi-Wu (\~n).
+N: This is a 32-bar version, arranged for 32-bar dances. The original song uses the
+N: extra 2-bar delayed ending every time, plus assorted interludes between verses.
+D: Vienna Teng
+D: Tai2 Zhao4-Mei2
+K: A
+[| "A"CE3- EE2E | "D"FA3- A2z2 | "A"EE2F E2C2 | "E7"B,6 z2 |
+w: 1.~R\'u gu\vo* n\vi sh\`i zh\=ao l\`u,* w\vo yu\`an sh\`i n\`a xi\vao c\vao
+w: 2.~R\'u gu\vo* n\vi sh\`i n\`a h\vai,* w\vo yu\`an sh\`i n\`a sh\=a t\=an
+|  "A"CE3- EE2E | "D"FA3 F2zF | "A"E3C "E7"B,3A, | "A"A,6 z2 |
+w: 1.~R\'u gu\vo* n\vi sh\`i n\`a pi\`an y\'un, w\vo yu\`an sh\`i n\`a xi\vao y\vu
+w: 2.~R\'u gu\vo* n\vi sh\`i n\`a zh\`en y\=an, w\vo yu\`an sh\`i n\`a q\=ing f\=eng
+|  "A"A3A A2B2 | "A"c4 E4 | "D"FA2A A2(GA) | "E7"B6 z2 |
+w: 1.~Zh\=ong r\`i y\vu n\vi xi\'ang w\=ei~y\=i, y\'u sh\`i w\vo ji\=ang zh\=i* dao
+w: 2.~Y\vong yu\van y\vu n\vi ch\'an mi\'an, y\'u sh\`i w\vo ji\=ang zh\=i* dao
+|  "A"cc2d c2B2 | "D"zA2B A2{G}F2 | "A"z2 E4 E2 | "E7"c2 B4 (AG) |
+w: 1.~D\=ang w\vo b\`an zhe n\vi, sh\vou zhe n\vi sh\'i Hu\`i sh\`i du\=o mo q\vi*
+w: 2.~D\=ang w\vo b\`an zhe n\vi, sh\vou zhe n\vi sh\'i Hu\`i sh\`i du\=o mo ti\'an*
+| "A"A8- | A4 z4 |]
+w: 1.~l\`i
+w: 2.~m\`i
+%
+%W: \`a\"e\`e\,c\^a
+%W:\^a\'a\"e \`a\"e\`e
+%W:\`a\'e\'e \'e\`a\"e\`i
+%W:\`i\`a\"e \`a \`a
+%W:%
+%W: \`a\"e
+%W: \`a\"e\'e
+%W:\'e \'e\`a\"e\`i
+%W:\`i\`a\"e \`a \`a\^i
+%
+W:If you're the morning dew, I'd wish to be that tiny blade of grass.
+W:If you're that cloud, I'd wish to be that tiny rain drop.
+W:Being with you all day long, then I would know,
+W:The time when I'm next to you, waiting for you,
+W:How beautiful it would be.
+W:
+W:If you're that sea, I'd wish to be that sandy beach.
+W:If you're that puff of smoke, I'd wish to be that light wind.
+W:Finally embracing with you, then I would know,
+W:The time when I'm next to you, waiting for you,
+W:How Sweet it would be.
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3179
+S:http://trillian.mit.edu/~jc/music/abc/China/Ruguo.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

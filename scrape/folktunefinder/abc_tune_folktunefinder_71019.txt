@@ -1,0 +1,24 @@
+X:272
+%%topmargin 3cm
+T:Torry Burn
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A dorian
+D | {/F}G2 T(BG) (Bd)dB | {AB}c2 (ec) efgB | {/F}G2 TBG Bcdg | ed{AB}cB {cB}A2 {/F}G :|
+d | {/f}g2 (bg) Taf{gf}ed | {gf}edef {/f}gdBG | {ef}g2 (bg) Taf{ge}ed | {gf}edef {/f}g2 (ga) |
+(ba){/f}gf {/f}(gf){gf}ed | {/f}edef {/f}gdBG | {AB}cBcd ef{/f}ge | {/^c}dB{/F}GB {cB}A2 {/F}G |]
+S:https://www.folktunefinder.com/tunes/71019
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

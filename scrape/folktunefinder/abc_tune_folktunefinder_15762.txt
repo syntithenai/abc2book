@@ -1,0 +1,42 @@
+X:1
+T:Sean Mc Glynn's Mazurka
+R:Mazurka
+C:Eugene O'Donnell
+S:M. Moloney / E. O'Donnell: "Uncommon Bonds"
+N: Finish with part A
+Z: Stephan Steiner <a8702257@unet.univie.ac.at>
+S:Derek Bone irtrad-l 2001-4-28
+P:ABCD ABCD A
+M:3/4
+L:1/8
+K:D
+P: A
+ | AB AF DF | (3ABA FA dB | AB AF DF | E4 (3EFG |
+ | AB AF DF | (3ABA FA dB | AF DF A,E | D3 EFG ||
+ | AB AF DF | (3ABA FA (d2 | d)B AF DF | E4 (3EFG |
+ | AB AF DF | (3ABA FA dB | AF DF A,E | D4 {^g}ag ||
+P: B
+ ||: fd Ad fa | g2 {a}(3gfg ag | (3fdA Fd gf | c3e3 A ag |
+ | fd AF D=C | B,D GB dg | (3fga Ac ec |1 d4 ag :|2 d4 (3abc' ||
+P: C
+ ||: d'f ad fa | g2 g2 ag | (3fdf ad' af | e4 (3abc' |
+ | d'f ad fA | (3Bdg b2 ag | (3fad' Ag ec |1 d4 (3abc' :|2 d2 cB AG ||
+P: D
+ ||: (F2 F)G AB | Ad cd ef | ge c2 (3cde | df (A2 A)=c |
+ | BA GA (3Bcd | AG FA de | fd Bg ed | (3cdc (3BcB AG |
+ | (F2 F)G AB | Ad cd ef | ge c2 (3cde | df (A2 A)=c |
+ | BA GA (3Bcd | FA de (3fga | gb Bd ce |1 d2 cB AG :|2 d2 d'2 z2 |]
+S:https://www.folktunefinder.com/tunes/15762
+S:http://trillian.mit.edu/~jc/music/abc/mazurka/SeanMcGlynnsMazurka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/mazurka/SeanMcGlynnsMazurka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SeanMcGlynnsMazurka.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

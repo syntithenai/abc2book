@@ -1,0 +1,37 @@
+X:331
+T:Westport Chorus, The
+R:reel
+H:See also "O'Rourke's", #245
+D:Irish Dance Music (ed. Reg Hall)
+D:Frank Quinn & P. Crowley 1926
+S:Jean-Pierre 'Groink' MARTIN <jean-pierre.martin23@LIBERTYSURF.FR> irtrad-l 2001-11-1
+Z:id:hn-reel-331
+M:C|
+K:D  %GRK:47974757
+AG|:(3FED AD BDAG|FDAF G2AG|FDAD BA~A2|1 (3Bcd cA G2AG:|2 (3Bcd cA G2AB||
+|:(3cBA BG A2AB|(3cBA BG Ad~d2|cABG A2~A2|1 BdcA G2AB:|2 BdcA G2||
+%Version
+%S:Jim Mulqueeny, Clare (fiddle).
+%D:A mysterious tape
+%H:'c's and 'f's very mobile
+%Z:Bernie Stocks
+K:D  %GRK:47524757
+|: FDAF GFEG | FDAF GBAG | FDAF GFED |1 FdcA GBAG :|2 FdcA G2FG ||
+K:G
+|: A3B (3cBA GB | A3B cdec |1 A3B (3cBA cA | AdcA G2FG :|2 d2cA G2FG | Adde dcAG ||
+S:https://www.folktunefinder.com/tunes/18298
+S:http://trillian.mit.edu/~jc/music/abc/reel/WestportChorusThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WestportChorusThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WestportChorusThe_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

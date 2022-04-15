@@ -1,0 +1,26 @@
+X:1
+T: the Hawk
+C:James Hill
+S:"The Lads Like Beer" - The Fiddle Music of James Hill
+Z:Jack Campin <jc@purr.demon.co.uk> scots-l 2000-09-14
+N:Possibly an antecedent to Skinner's "The Spey in Spate"
+M:4/4
+L:1/8
+K:D
+(A/B/)c| d2  f>d (A>d)f>e|(d>f)e>g   (f>a)g>f| e2  g>e (B>e)g>f|(e>d)c>B (A>B)c>A|
+         d2  f>d (A>d)f>e|(d>f)e>g   (f>a)g>f|(e>d)e>f (g>A)B>c|(d>A)f>e  d2    :|
+ A>A   |(A>a)f>d (A>g)e>c| A(g/f/) ec dcBA   |(B>A)c>B (d>c)e>d|(f>e)g>f  e2  e>f|
+        (g>a)f>g (e>f)d>e| caBg       AfGe   |(c>d)e>f (g>A)B>c|(d>A)f>e  d2    :|
+S:https://www.folktunefinder.com/tunes/19390
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HawkS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HawkS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HawkS_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

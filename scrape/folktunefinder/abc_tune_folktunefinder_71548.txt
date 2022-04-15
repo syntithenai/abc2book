@@ -1,0 +1,24 @@
+X:519
+%%topmargin 3cm
+T:The Countess of Rothes
+C:Robt. McIntosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+A | F>cc>B A<ff>c | G>dd>c Bg | F>cc>B A<ff>c | d>eTf>g {fg}aff :| F | C>FA>F c>Fd>F | c>FA>F B>GG>A |
+(F/E/F/G/) A>F c>Fd>F | c<fA>G A<FF>A | C>FA>F c>Fd>F | c>FA>F B<GG>B | A<fc>A B<fd>B | (e/f/g) c>b aff |]
+S:https://www.folktunefinder.com/tunes/71548
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Countess_of_Rothes.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0519.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

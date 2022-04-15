@@ -1,0 +1,34 @@
+X: 3
+P: Hole in the Wall
+C: Henry Purcell
+R: minuet
+Z: John Chambers <jc@trillian.mit.edu>
+B: Playford Ball
+B: Douglas and Helen Kennedy, 1929
+M: 3/4
+L: 1/8
+N: Longways duple minor, (AAB)n
+K: A
+|: "A"c>d c/d/e "E7"Be | "F#m"A>B A/B/c "C#7"Gc | "D"F>G F/G/A "A"Ec | "E7"BA- AG "A"A2 :|
+[| "F#m"a>g f/g/a gf | "C#7"^e>f e/f/g cg | "F#m"a>g f/g/a gf | "C#7"gf- f^e "F#m"f2 |
+| "D"F>G F/G/A "E7"G/A/B | "A"A>B A/B/c "E7"B/c/d | "A"c>d c/d/e Ee | "E7"dc- cB/c/ "A"A2 |]
+S:https://www.folktunefinder.com/tunes/3803
+S:http://trillian.mit.edu/~jc/music/abc/England/HoleInTheWall.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoleInTheWall.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/HoleInTheWall.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/HoleInTheWall.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/HoleInTheWall.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/HoleInTheWall.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20070427/HoleInTheWall.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/HoleInTheWall
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

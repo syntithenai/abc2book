@@ -1,0 +1,36 @@
+X:7522
+T:Thorn,The. CJF.028
+O:england
+M:C
+L:1/8
+Q:120
+C:From J J
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The word "Andante" appears before the first clef. the asterisked note
+N:was a2 in the MS. Written in the stave at the end of the tune is "C J
+K:D
+"Sym:"FG|A2B>AA2Bc|d2A>G F<DzA|d2dc cBA^G|\
+A2a/e/a/e/ cAz""a|b2b/g/b/g/ eczc|
+a2a/f/a/f/ dBzB|g2e/c/e/c/ df AF|B/G/B/G/ E/C/E/C/D2||\
+"Song"F G|(A2{c})B> AA2B c|d2A> G F DzA|d2d c cB A ^G|
+A6F G|A2{c}B AA2B c|(df) A> G F DzA|(^Gd) d c cB A ^G|\
+A2a/e/a/e/ cAz2||c2zAd2A A|e2A A ff2d|
+"Tenderly-"cB A G FG A B|F2E> DD2z2|c2z{cB}Ad2A A|e2A a g fh (ad)|\
+(dc) e G FG A d|(d2f/e/) (d/c/)d2za|
+"Sym:"b2b/g/b/g/ eczc|a2a/f/a/f/ dBzB|g2e/c/e/c/ df AF|\
+B/G/B/G/ e/c/e/c/d2||
+S:https://www.folktunefinder.com/tunes/27974
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

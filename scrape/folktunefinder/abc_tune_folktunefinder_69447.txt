@@ -1,0 +1,27 @@
+X:588
+T: "Heimweh"
+N: Z1268
+O: Europa, Mitteleuropa, Steiermark
+R: Natur und Welt, Liebe
+M: 3/4
+L: 1/8
+K: Eb
+GE | B,3G,G,E, | DF,B,2
+AF | B,3A,A,F, | G,B,DE
+GE | B,3G,G,E, | DF,B,2
+AF | B,3A,A,D | E,2z2
+B,E | DB,C3A | GEB3
+G | CAFDB,D | EG,B,E
+GB | ADC3A | GEB3
+G | CAFDB,D | E2z2
+S:https://www.folktunefinder.com/tunes/69447
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

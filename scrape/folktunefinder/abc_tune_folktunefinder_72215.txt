@@ -1,0 +1,28 @@
+X:134
+T:Orchill House
+R:Slow Strathspey
+C:Nathaniel Gow
+S:MacDonald - Skye Collection
+N:pg.59
+M:C
+L:1/8
+Q:1/4=140
+K:A Minor
+(E/^F/)|(G<A,) E>B, DG, G,(E/^F/)|(G<A,) E>A, GA,A,A|G<A, E>B, DG G(E/^F/)|
+(G/^F/E/F/) GB, A,2 A,:|
+(e/^f/)|(aA) e>=g dG Ge/^g/|(aA) e^g aA Ae/g/|(aA) e>=g dG Ge/^g/|a>e g>B A2
+Ae/^g/|
+(aA) e=g dG G(e/^g/)|(aA) ~e>d egab|(g/a/)b/a/ (b/a/)g/e/ (g/e/)(d/B/) Gc/B/|
+(A/B/)d/e/ (g/e/)d/B/ A2A||
+S:https://www.folktunefinder.com/tunes/72215
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Slow strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

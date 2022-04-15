@@ -1,0 +1,21 @@
+X: 1
+T: Villiruusu (The Wild Rose)
+T: Inarin J\"arvi (Lake Inari)
+R: waltz
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+|: A | "Dm"d2d | "A7"e2f | "Dm"d3 | A2d | "Gm"e2f | g2f | "A7"e3- | e2a || "Dm"a2f | d2f | "Gm"f3 | "Gm"G2B | "A7"A2A | e2^c | "Dm"d3- | d2 :|
+|: a | "A7"a2g | "Dm"f2f | "Gm"g2f | "A7"e2e | "Dm"f2e | "Dm"d2d | "A7"e2^c | A2A || "Dm"d2d | f2d | "Gm"d3 | G2B | "A7"A2A | Ae^c | "Dm"d3- | d2 :|
+S:https://www.folktunefinder.com/tunes/20311
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Villiruusu_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz/Villiruusu_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Villiruusu_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Villiruusu_2.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

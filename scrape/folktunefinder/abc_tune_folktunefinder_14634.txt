@@ -1,0 +1,21 @@
+X: 1
+T: the Mickey Mouse Club March
+M: 6/8
+L: 1/8
+K: G
+|: DEF || "G"G2G G2G | "Em"G2G G2G | "A7"A2G F2E | "D7"D6 \
+| "G"G2G G3 | "C"G2G G3 | "G"B2G "D7"A2F | "G fine"G3 :|
+[| "G7"G2G || "C"E6- | E3 G2G | "G"D6- | D3 G2F \
+| "A7"E2E E2E | E2E F2G | "D7"A3- "daCapo"A3- | A3 |]
+S:https://www.folktunefinder.com/tunes/14634
+S:http://trillian.mit.edu/~jc/music/abc/jig/MickeyMouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MickeyMouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MickeyMouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MickeyMouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MickeyMouse.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

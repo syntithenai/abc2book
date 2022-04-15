@@ -1,0 +1,27 @@
+X:455
+T: "Abschied"
+N: Z1135
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Vaterland und Wehr
+M: 2/4
+L: 1/16
+K: G
+D2 | B4A2A2 | G2G2F2
+D2 | G2G2BAGA | B4z2
+D2 | B4A2A2 | G2G2F2
+D2 | G2G2BAGA | B4z2
+GA | B2B2c2B2 | B2A2A2
+A2 | G2G2A2G2 | G2F2F2
+EF | G2G2A2A2 | B4c2
+B2 | A8 | G4z2
+S:https://www.folktunefinder.com/tunes/69314
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:2
+T:Hornpipe D'Angleterre
+C:Composer : Guillaume de Morlaye (arranger)
+B:2nd book of songs, galiards, padanes, bransles, almandes, in tablature for the 'Guiterne', 1553
+S:pete stewart  tradtunes 2005-6-24
+M:3/4
+L:1/4
+K:D
+e>Bd | c>BA | d/c/ d/e/ f/g/ | f g/f/ e/d/ |
+e>Bd | c>BA | fag | f g/f/e/d/ |
+e>Bd | c>BA | d/c/ d/e/ d/e/ | d/f/ g/f/ e/d/ |
+e>Bd | c>BA | d/c/ d/e/ f/g/ | a g/f/ e/d/ | e3 ||
+S:https://www.folktunefinder.com/tunes/13587
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Hornpipe_DAngleterre_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Hornpipe_DAngleterre_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Hornpipe_DAngleterre_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Hornpipe_DAngleterre_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

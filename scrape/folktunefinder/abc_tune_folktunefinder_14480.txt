@@ -1,0 +1,29 @@
+X: 1
+T: THE KINNEGAD SLASHERS
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.131
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: D
+((3A/B/c) \
+| "D"e>ed dAF | "D"A>BA ABc | "D"d>ed dAF  | "A"Eee "A7"e2f \
+| "D"e>ed dAF | "D"A>BA Aag | "D"f>ef d<BA | "G"B<dd "D"d2 :|
+|: A \
+| "D"d>fa afd | "A7"e>de ecA | "D"d>fa afd  | "D"f<aa a2A \
+| "D"d>fa afd | "A7"c>de eag | "D"f>ef d<BA | "G"B<dd "D"d2 :|
+|: A \
+| "D"(dAF) (dAF) | "D"A>BA  ABc  | "D"(dAF) (dAF) | "A"Eee     e2f \
+| "D"(dAF) (dAF) | "D"A>BA (Aag) | "D"f>ef  d<BA  | "G"B<dd "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14480
+S:http://trillian.mit.edu/~jc/music/abc/jig/KinnegadSlashers_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/KinnegadSlashers_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/KinnegadSlashers_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

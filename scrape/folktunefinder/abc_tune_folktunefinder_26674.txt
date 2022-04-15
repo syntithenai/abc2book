@@ -1,0 +1,27 @@
+X:6222
+T:Sport
+O:england
+M:6/8
+L:1/8
+C:Sean O'Riada
+R:jig
+K:D
+AdF ~A3|GcE GAB|AdF AFA|GED B/2c/2de|
+AdF ~A3|GcE GAB|cdc A/2B/2AG|1EDD D2 B:|2EDD D2 d|
+|:~c3 dcd|cec A2|gfed ged|cec A2 g|
+~f3 gfg|f/2g/2af d2 e|fdA dFA|1GEA D2 d:|2GEA DE/2F/2G||
+AGG AEE|AGE EDE|AGG Bce|dcA AGE|
+AGG AEE|AGE EDE|cAA A/2B/2AG|EAE DE/2F/2G|
+AGG AEE|AGE EDE|AGG Bce|dcA AGE|
+AGG AEE|AGE EDE|dDD AFA|GEA D3|
+S:https://www.folktunefinder.com/tunes/26674
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

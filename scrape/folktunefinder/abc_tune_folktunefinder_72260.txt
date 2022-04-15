@@ -1,0 +1,37 @@
+X: 11
+T:Northern Nanny. HA.012
+T:Northern Nancy,aka. HA.012
+M:6/4
+L:1/8
+Q:300
+C:Northern Nancy,aka
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Jigg
+O:England
+A:Hartburn,Northumberland
+N:There is no Key Sig in the MS and only the F notes shown are
+N:sharpened,
+N:which makes editorial intervention tricky. However, Bb seems possible,
+N:and conforms with other versions. Other versions can be
+N:got,eg Northern Nancy, Playford/4th ed. 1670 and all subsequent
+N:eds..CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:Bb
+G2|"cr"G3"No Key Sig in MS"AG2 ^F4G2|\
+A4B2c4A2|B2c2d2  ^F4G2|A4F2 G4||!
+"cr"f3ed2 "cr"c3BA2|B4c2 d4A2|B2c2d2 F4G2|A6 G4|]
+W:cr=crotchet in MS
+S:https://www.folktunefinder.com/tunes/72260
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Jigg
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

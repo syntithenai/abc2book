@@ -1,0 +1,29 @@
+X:522
+T: SIND WIR GESCHIEDEN
+N: E0509
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/8
+K: G
+=F | _B2c2 | d2c
+d | _edc_B | c3
+=F | _B2c2 | d_e=f
+e | d_BcA | _B3
+c | c2c2 | AG=F
+d | d2d2 | _BAG
+G | _edc_B | A3
+c | _BGAF | G3
+S:https://www.folktunefinder.com/tunes/78963
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Anderson's Reel
+R: reel
+D: Conal O'Grada: The Top of Coom
+Z: id:hn-reel-247
+S: Jeff Lindqvist <jeff_lindqvist:SPRAY.SE> irtrad-l 2001-01-13
+M: C|
+K: D
+"D"ABdf "G"efdB | "D/F#"AF~F2 "D/A"EFDF | "D"ABdf "D/F#"efdf | "G"afeg "A"fd~d2 |
+"Bm"ABdf "Bm"efdB | "A"AF~F2 "A"EFDF | "G"ABdf "G"efdf | "A"afeg "D"fddf ||
+"D"a2fa "D"bafa | "D"~a2fd "A/C#"edBd | "Bm"a2fa "A"bafa | "G"afef "A"defg |
+"E7/G#"a2fa "A"bafa | "F#7/A#"~a2fd "Bm"edBd | "G"AF~F2 "G"ABdf | "A"afeg "D"fddB |]
+S:https://www.folktunefinder.com/tunes/16708
+S:http://trillian.mit.edu/~jc/music/abc/reel/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/AndersonsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/AndersonsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X: 1
+T: Pipe Major Donald MacLean, of Lewis
+C: P/M Donald MacLeod
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: SRSNH 6.20-A C-238 (Feb 1994)
+M: 6/8
+L: 1/8
+K: Am
+   e "A"\
+| "Am"ABG A3 | "Am"edg edB | "D7"ABA "G"G2B | "G"d2e "Em"edB \
+| "Am"ABG A3 | "Am"edg edB | "G"GBg "Em"edB | "Am"A3 A2 :|
+y2 g "B"\
+| "Am"a2e e2g | "Am"aee edB | "D7"ABA "G"G2B | "G"d2e "Em"edB \
+| "Am"a2e e2g | "Am"aee edB | "G"GBg "Em"edB | "Am"A3 A2 ||
+y2 g \
+| "Am"a2e e2g | "Am"aee edB | "D7"ABA "G"G2B | "G"d2e "Em"edB \
+| "Am"ABG A3 | "Am"edg edB | "G"GBg "Em"edB | "Am"A3 A2 |]
+|: e "C"\
+| "Am"Aee dee | "Am"Aee edB | "D7"ABA "G"G2B | "G"B<de "Em"edB \
+| "Am"Aee dee | "Am"Aee "D7"edB | "G"GBg "Em"edB | "Am"A3 A2 :|
+y2 e "D"\
+| "Am"A2a aga | "Am"gee edB | "D7"ABA "G"G2B | "G"d2e "Em"edB \
+| "Am"A2a aga | "Am"gee "D7"edB | "G"GBg "Em"edB | "Am"A3 A2 ||
+y2 e \
+| "Am"A2a aga | "Am"gee edB | "D7"ABA "G"G2B | "G"d2e "Em"edB \
+| "Am"ABG A3 | "Am"edg "D7"edB | "G"GBg "Em"edB | "Am"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14864
+S:http://trillian.mit.edu/~jc/music/abc/jig/Pipe_Major_Donald_MacLean_of_Lewis_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/Pipe_Major_Donald_MacLean_of_Lewis_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Pipe_Major_Donald_MacLean_of_Lewis_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Pipe_Major_Donald_MacLean_of_Lewis_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

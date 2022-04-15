@@ -1,0 +1,27 @@
+X:458
+%%topmargin 3cm
+T:Rory O' More
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+N:Country Dance
+M:6/8
+L:1/8
+K:A
+f | eAA {/d}cAA | eAA Aaf | edc {/d}cBA | GBB B2 f | eAA {/d}cAA |
+eAA Tf2 e/d/ | cde efg | aAA A2 :: a | Tagf fcc | {/c}dcB {cB}A2 G |
+FGA ABc | cfe e2 a | Tagf fcc | {/c}dcB {cB}A2 A/G/ | FGA ABc | cfe e2 |]
+S:https://www.folktunefinder.com/tunes/71487
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Rory_O_More.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0458.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

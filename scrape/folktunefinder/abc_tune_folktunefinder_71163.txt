@@ -1,0 +1,29 @@
+X:133
+%%topmargin 3cm
+T:Clach na c\`udain
+T:The Stone of the Tub
+T:Keystone of Inverness
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E dorian
+A, S| D<D{DE}F>E {FE}D2 D<A, | D<DF>A B>AF>d | D<D{DE}F>E {FE}D2 D>F | {/F}G>A,F>A, E>A,C<E :|
+{/c}d>fA>f d/2e/2f/2g/2 a>f | {/c}d>fA>f {/c}d>fA>f | {/c}d>fA>f {/c}(d/2e/2).f/2.g/2 a>f | {/f}g>Af>A e>Ac>e |
+{/c}dfAf {/c}d/2e/2f/2g/2 a>f | {/c}dfAf {/c}d>A{/c}d>f | B<gA<f G<eF<d | {/F}G>A,F>A, E<A,C<E S|]
+W:The Key stone of Inverness.
+S:https://www.folktunefinder.com/tunes/71163
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Clach_na_cudain.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Keystone_of_Inverness.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Stone_of_the_Tub.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0133.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:55
+T:Whiskey Before Breakfast
+R:reel
+O:USA
+M:C
+L:1/8
+K:D
+z  | "D" A,B,DE   D2  FG | ABAG         FDEF | "G" G2 BG "D" F2 AF | "A" EDEF    EDB,G, |
+     "D" A,B,DE   D2  FG | ABAG         FDEF | "G" G2 BG "D" F2 AF | "A" EDEF    "D" D2 :|
+dB | "D" A2  B2  d2   cd | "A" efed  cB   A2 | e2   ef    e2    ef | "G" gfed  "A" cABc |
+     "D" d2 fd "A" c2 ec | "G" BABc "D" dBAF | "G" G2  BG  F2   AF | "A" EDEF    "D" D2 :|
+S:https://www.folktunefinder.com/tunes/66739
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

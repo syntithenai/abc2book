@@ -1,0 +1,25 @@
+X: 33
+T: Good-bye Liza Jane (basic tune)
+M: C|
+L: 1/8
+B: Kuntz - Ragged but Right
+Z: AK/Fiddler's Companion
+F: http://www.ibiblio.org/fiddlers/GOO_GOW.htm
+K: G
+|: "G"G2G2 "D7"A2A2 | "G"B2B2 "C"c4 | "G"B2G2- G4  | "D7"F2D2- D4 \
+|  "G"G2G2 "D7"A2A2 | "G"B2B2 "C"c4 | "G"B2G2 "D7"A2F2 | "G"G6 z2 :|
+|: "G"d4 "C"e3d | "G"B2 d6 | "G"B2G2 A2G2 | "G"B6 z2 \
+|  "G"d4 "C"e3d | "G"B2 d6 | "G"B2G2 "D7"A2F2 | "G"G6 z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7636
+S:http://www.ibiblio.org/fiddlers/GOO_GOW.htm
+S:http://www.ibiblio.org/fiddlers/GOO_GOW.htm
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

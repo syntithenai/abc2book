@@ -1,0 +1,26 @@
+X: 1
+T: Ferry Reel
+R: reel
+D: Tom Anderson & Aly Bain "The Silver Bow"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A | "D"d2dA d2d2 | "Em"efed   "A7"c2A2 |1  "G"BcdB  "D"ABAF | "Em"G2E2 "A7"E3 \
+                                         :|2  "G"BcdB "A7"AGFE |  "D"D2d2     d3 :|
+|: e | "D"f2fd f2fd |     fgag "(Bm)"fedf |1 "A7"e2ec     e2ec |     efed     cBA \
+                                         :|2 "Em"efgf  "G"edcB | "A7"A2d2  "D"d3 :|
+S:https://www.folktunefinder.com/tunes/17144
+S:http://trillian.mit.edu/~jc/music/abc/reel/FerryR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/FerryR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FerryR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/FerryR.abc
+S:http://trillian.mit.edu/~jc/music/book/500/FerryR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

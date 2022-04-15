@@ -1,0 +1,24 @@
+X: 3
+P: Erev Ba (A)
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+[|"A"E2A2 G2Ac | "Bm"B8 | "E7"B2c2 dec2 | "A"c8 \
+| "A"E2A2 G2Ac | "Bm"B8 | "E7"B2c2 dec2 | "C#7"c8 |
+| "D"d2f2 a3a | gagf f4 | "Bm"B2d2 f3f | "E7"efed "C#7"[cc]BAG \
+| "F#m"A4 F4 | "Bm"B4 "E7"BcA2 | "A"A4- "D"A4- | "A"A8 |]
+S:https://www.folktunefinder.com/tunes/5529
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ErevBaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/ErevBaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/ErevBaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/ErevBaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/ErevBaTune.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ErevBaTune
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

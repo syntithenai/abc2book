@@ -1,0 +1,35 @@
+X:9536
+T:Les transformations
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n61
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+d | G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |\
+    G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |!
+d2 d g2 d |\
+M:9/8
+d2-c B3 B2-d |\
+M:6/8
+d3-c2 B | A3-A z c | c2 d e2 c |!
+M:9/8
+B3 B2 B A2 A |\ 
+M:6/8
+G3-G zz ||
+W:J'ai fait une matresse, y'a pas longtemps (2x)
+W:J'irais la voir dimanche sans plus tarder
+W:Je prendrai sur sa bouche un doux baiser.
+S:https://www.folktunefinder.com/tunes/61569
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

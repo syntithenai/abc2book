@@ -1,0 +1,28 @@
+X: 106
+T:St Mary's. JMP.106
+M:2/2
+L:1/2
+S:John Miller his book of music for th fife
+R:sacred
+O:Scotland
+A:Perth
+N:No  key signature apparent - dark photocopy.  Possibly a harmony line
+N:Looks like a tenor line, but that was often the air at that time
+H:1799
+Z:vmp.C. Graebe
+K:E minor
+"No key signature in MS"E2 | GF | Ee | dc | B2 ||\
+B2 | dG | BA | G2 ||B2 | de | fB | AG | d2 ||A2 | BE | GF | E2 |]
+S:https://www.folktunefinder.com/tunes/2043
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Sacred
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

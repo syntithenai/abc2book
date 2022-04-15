@@ -1,0 +1,42 @@
+X:2
+T:Adeste, fideles
+M:C
+L:1/4
+K:G
+V:1
+G|G2DG|A2Dz|BABc|B2AG|G2FE|FGAB/G/|
+%%staves {(1 2) (3 4)}
+V:1
+F2E3/D/|D3z|:d2cB|c2B2|ABGA|GF/E/DG|
+V:2
+x4|x4|:GBAG|EFG2|FFE/D/^C|D3/^C/Dz|
+V:3
+z4|z4|:D2DD|C2D2|D/C/B,B,A,|B,A,/G,/F,B,|
+V:4
+x4|x4|:B,G,F,G,|A,2G,2|D,^D,E,A,,|D,2D,z|
+V:1
+GFGA|G2DB|BABc|B2AB|
+V:2
+z4|z2zG|GFGA|G2FG/=F/|
+V:3
+B,A,B,C|B,A,B,G,|DCB,A,|D^CDD|
+V:4
+z4|z4|z4|z2zG,,|
+V:1
+cBAG|F2Gc|B2A3/G/|HG3||
+V:2
+EGEE|D=CB,E|DGF3/G/|G3||
+V:3
+=CDEA,|A,2G,2|G,/A,/B,/C/DC|B,3||
+V:4
+A,,B,,C,^C,|D,^D,E,A,,|D,2D,2|[G,,G,]3||
+S:https://www.folktunefinder.com/tunes/77592
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

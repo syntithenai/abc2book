@@ -1,0 +1,29 @@
+X:1
+T:the Phoenix Reel
+T:Hennessy's
+R:reel
+C:Dave Hennessy
+S:Serge Grando
+D:Arcady
+Z:id:hn-reel-188
+M:C|
+F:http://www.norbeck.nu/abc/i/hnr1.abc 2004-02-23 13:39:47 UT
+K:D
+ag |: f2df edcA | B2dB ABde | fd~d2 edcA | B2dB ABde |
+fedf edcA | BcdB AGFE | Dddc defd |1 edcA dfag :|2 edce dBcA ||
+|: FBBA Bcde | ~f3d edcA | FBBA Bcde | f2df edcA |
+B2FB ~B2GB | BcdB cBAc | BG~G2 Bcde |1 f2ec dBcA :|2 faec dfag |]
+S:https://www.folktunefinder.com/tunes/13575
+S:http://www.norbeck.nu/abc/i/hnr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HennesseysHp_3D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/HennesseysHp_3D.abc
+% Rhythm Reel
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

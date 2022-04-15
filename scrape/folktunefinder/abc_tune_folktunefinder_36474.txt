@@ -1,0 +1,22 @@
+X:1975
+T:Gigue
+M:4/4
+O:France
+R:Gigue
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006b2.html
+%%ID:000006b2
+K:G
+D2G2|B3A B2c2|B2A2 D2F2|A3G A2B2|G4::\
+M:6/8
+DGB DGB|DGB B2A|DFA DFA|DFAG3:|
+S:https://www.folktunefinder.com/tunes/36474
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Gigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:359
+%%topmargin 3cm
+T:Miss Sitwell
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+(D<C) S| B,>FD>F G<C C(D/C/) | B,>FD>B F>dB>f | d>c (B/c/)(d/B/) c<C C(D/C/) | B,>FD>B ~F2 (FE)(DC) | B,>FD>F G<C C(D/C/) |
+B,>FD>B F>dB>f | d>c (B/c/)(d/B/) c<C C(D/E/) | FF B2 ~B :| (d/e/) | ff g<c Tc(d/e/) | (f>b)d>e (f<g)d>b |
+f<db>f g<c Tc(d/e/) | (f>b)(d>e) Tf2 f(d/e/) | (f>b)d>f g<c Tc(d/e/) | f(g/a/) (b>a) (g>f) e>d {/d}c>B {Bc}d>B c<C C(D/E/) | F>B (TG/F/)(E/D/) ~F2 D>G S|]
+W:
+W:Slow Strathspey
+S:https://www.folktunefinder.com/tunes/71388
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

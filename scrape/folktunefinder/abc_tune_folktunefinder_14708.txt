@@ -1,0 +1,34 @@
+X: 1
+T: Mr Morison of Bognic
+C: William Marshall
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2G A2G | "A"ABc "D"d2B | "A"c2A ecA | "D"F3 "E7"F2E \
+| "A"A2G A2G | "A"ABc "D"d2B | "A"c2e "G7"ef^d | "E7"e3 e2 ||
+c \
+| "Bm"dfd "E7"B2d | "A"cec "F#m"A2c | "B7"d2c "A"BcA | "D"F3 "E7"F2E \
+| "A"A2G A2G | "A"ABc "D"d2B | "A"cBA "E7"EFG | "A"A3 A2 |]
+g \
+| "A"agf "(E)"efg | "A"agb a2e | "A"a2e edc | "D"c3 "E7"B2g \
+| "A"agf "(E)"efg | "A"agb "D"agf | "A"ecA "E7"EFG | "A"A3 A2 ||
+g \
+| "A"a2e cde | "D"f2d "E7"Bcd | "A"e2c "F#m"ABc | "Bm"F3 "E7"F2E \
+| "A"A2G A2G | "A"ABc "D"d2B | "A"cBA "E7"EFG | "A"A3 A2 |]
+S:https://www.folktunefinder.com/tunes/14708
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrMorisonOfBognic_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MrMorisonOfBognic_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

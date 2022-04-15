@@ -1,0 +1,27 @@
+X:6290
+T:Tobopolketten
+M:4/4
+O:Finland
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cb0.html
+%%ID:00000cb0
+K:C
+G2 |\
+c2Gc e2ce | g2 eg c'3g | agfe fBdB \
+|1,3 c2 ed cBAG :|2 c2 e2 c2 :|4 c2 e2 c4||
+[K:F]\
+|:F2 c2 d2 c2 | G2 d2 e2 d2 | CEGc eceg \
+|1 a2 f2 fe f2 :|2 f2 a2 f4 ::
+a2 g2 f2 e2 | d2 c2 B4 | CEGc eceg \
+|1 a2f2 fe f2 :|2 f2 a2 f4 :|
+S:https://www.folktunefinder.com/tunes/37337
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

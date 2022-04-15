@@ -1,0 +1,41 @@
+X: 1
+T: Amazing Grace
+C: Words: John Newton (1725-1807)
+N: Early 18th-C. American
+M: 3/4
+L: 1/8
+K: G
+D2 \
+| "G"G4 BG | B4 "G7"A2 | "C"G2 E2 | "G"D4 "D7"D2 \
+| "G"G4 BG | B2 A2 | "D7"d6- | d2 z2 ||
+B2 \
+| "G"d3 B dB | G4 D2 | "C"E3G GE | "G"D4 D2 \
+| "Em"G4 BG | "D7"B2 A2 | "G(C)"G6- | "G"G2 z2 |]
+%
+W: 1. Amazing grace! How sweet the sound That saved a wretch like me.
+W:     I once was lost but now am found, Was blind but now I see.
+W: 
+W: 2. 'Twas grace that taught my heart to fear, And grace my fears relieved,
+W:     How precious did that grace appear, The hour I first believed.
+W: 
+W: 3. Through many dangers, toils and snares I have already come.
+W:     'Tis grace hath brought me safe thus far, And grace will lead me home.
+W: 
+W: 4. When we've been there ten thousand years, Bright shining as the sun,
+W:     We've no less days to sing God's praise Than when we'd first begun.
+W: 
+W: 5. Yea, when this heart and flesh shall fail, And mortal life shall cease,
+W:     I shall possess within the vail, A life of joy and peace.
+W: 
+W: 6. The world shall soon dissolve like snow, The sun refuse to shine;
+W:     But God, who called me here below, Shall be forever mine.
+S:https://www.folktunefinder.com/tunes/13729
+S:http://trillian.mit.edu/~jc/music/abc/hymn/AmazingGrace_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/AmazingGrace_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

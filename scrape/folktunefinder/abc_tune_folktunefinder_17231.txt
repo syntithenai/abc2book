@@ -1,0 +1,27 @@
+X: 3
+T: Gan Ainm
+R: Reel
+S: Francis Lynne
+D: Milltown Session
+Z: Adrian Scahill
+M: 4/4
+L: 1/8
+K: G
+ABAG EGAB | c2ed cAGc | ABAG EFGB |1 Add^c d2d2 :|2 Add^c d3B ||
+cdeg gagf | ecgc ecce | cdeg gagg | fdad fddB |
+cdeg gagg | ecgc ecc2 | afge fde^c | Add^c d2d2 |]
+S:https://www.folktunefinder.com/tunes/17231
+S:http://trillian.mit.edu/~jc/music/abc/reel/GanAinm_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GanAinm_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GanAinm_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/GanAinm_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/GanAinm_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

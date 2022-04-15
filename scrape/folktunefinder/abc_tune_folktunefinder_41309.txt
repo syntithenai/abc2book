@@ -1,0 +1,22 @@
+X:3
+T:26. Galliard: Hermoza
+T:Quintus
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:3/2
+N:Original clef, C on third line
+%%MIDI transpose -12
+K:G dor -8va
+|: d4 d2 c4 c2 c3 A B c d6 _e3 B c d G2 d2 A2 d2 d3 c =B6 :|
+|: d6 d4 d2 c2 d4 d6 d2 B G c A d g e2 d2 d2 G4 d6 :|
+|: f4 _e2 f4 f2 f2 _e f g2 g4 g2 f2 f2 f2 f4 d2 c2 d2 d2 =B6 :|
+S:https://www.folktunefinder.com/tunes/41309
+S:http://www.laymusic.org/music/holborne/hermoza/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

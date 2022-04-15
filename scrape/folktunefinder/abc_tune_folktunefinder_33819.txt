@@ -1,0 +1,25 @@
+X: 4662
+T:King of the Fairies
+M:C|
+L:1/8
+K:E Minor
+B,|EDEF GFGA|BcBA G3A|B2E2 EFGE|FGFE D2B,2|!
+EDEF GFGA|BAGB d3c|B2E2 GFED|E6-E:|!
+K:E Dorian
+B|e2e2 Bdef|gagf e3f|e2B2 BABc|dedc BcdB|!
+e2B2 Bdef|gagf efed|Bdeg fedf|e6ef|!
+g3e f3d|edBc d3e|dBAF GABc|dBAF GFED|!
+B,2E2 EFGA|B2e2 edef|e2B2 BAGF|E6-E:|!
+S:https://www.folktunefinder.com/tunes/33819
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

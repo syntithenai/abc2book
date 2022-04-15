@@ -1,0 +1,38 @@
+X: 63
+T:Hertfordshire March. WCl.63
+T:March in the Desertore. WCl.63
+M:2/4
+L:1/8
+Q:200
+C:"March in the Desertore or -"
+S:William Clarke MS,Lincoln,1770.
+R:March
+O:Lincoln
+A:England
+N:Grace notes from bar 4 of B section are slurred to main note, with the
+N:exception of the one in Bar 10 of B: programme does not permit this.
+N:There is a Da Capo at the end of section B
+Z:vmp.Barry Callaghan
+K:D
+A|d>efe|dA{c}"tr"BA|d>efe|d2ef|{a}g(f/2e/2) {g}f(e/2d/2)|!
+{d}c(B/2A/2) ef|{a}g(f/2e/2) {g}f(e/2d/2)|(d2e)A|\
+d>efe|dA{c}BA|d>efe|!
+d2ef|{a}g(f/2e/2) {g}f(e/2d/2)|{d}c(B/2A/2) df|Bg/2e/2 d"tr"c|d2||!
+"P"Bc|dd {e}d(c/2B/2)|A2Bc|dd {e}d(c/2B/2)|\
+"F"A2{c}B{d}c|{e}d{e}d {e}d(c/2B/2)|!
+AA {c}B{d}c|{e}d{e}d {e}d(c/2B/2)|\
+A2 e>d|{d}c(B/2A/2) GG|{A}"tr"GF f>e|!
+{e}d(c/2B/2) AA|{B}A^G Bd|{d}c2 Bd|\
+{d}c2 Bd|(c/2A/2)(d/2B/2) c~B|A2z2|]
+S:https://www.folktunefinder.com/tunes/40819
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

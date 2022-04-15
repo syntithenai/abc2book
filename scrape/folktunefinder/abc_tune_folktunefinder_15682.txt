@@ -1,0 +1,32 @@
+X: 1
+T: Stars and Stripes 
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+[|"D"f>f "F#7"ff | "Bm"f>f "Em"gg | "A"e/^d/e/f/ "E7"e=d | "A"cB "A7"cA \
+| "D"a>a "A7"aa | "D"a>a "F#"^aa |"Bm"b/^a/b/d'/ c'b | "F#"^a2 z=A |
+| "D"A>A d>B | A^G AF | "A7"EA,/^G,/ A,/G,/A, | EA,/^G,/ A,/G,/A, \
+| "D"A>A d>B | A^G "Dm"A=F | "E7"E^G/^F/ G/F/G | "A"Az A>G |
+| "D"F2 B>A | "A7"C2 B,2 | A,2 G2 | "D"F2 E>F \
+| "G"G B2 d | "E7"e2 d2 | "D"F4 | "A7"E2 A>G |
+|  "D"F2 B>A | "A7"C2 B,2 | A,2 G2 | "D"F2 E>F \
+| "G"GB "Gm"e>d | "D"FA D>F | "A7"E4 | "D"Dz d2 |] [K:=c]
+K: G
+[|"G"d2 cB | B2 ^AB | B4- | B2 ^AB | B2 ^AB | d2 B>d | "D7"c4 A3 A |
+| "D7"A2 ^GA | A2 ^GA | c4- | c2 BA | "G"B d3 | "C"e3 e | "D7"A4- | A2 d2 ||
+||"G"d2 cB | B2 ^AB | B4- | B2 ^AB | "B7"B2 ^AB | cB A>F | "Em"A4 | G3 G |
+| "Cm"G2 FG | "Eb"_B2 AG | "G"g4 | zG AB | .dG AB | .dD EB | "D7"A4 | "G"Gz |]
+S:https://www.folktunefinder.com/tunes/15682
+S:http://trillian.mit.edu/~jc/music/abc/march/StarsAndStripesForever_DG.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/StarsAndStripesForever_DG.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

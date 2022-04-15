@@ -1,0 +1,29 @@
+X:323
+T: The Deception
+T: An cluaineorachd
+B: O'Neill's 323
+M:  6/8
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow with feeling"
+N: "Collected by J.O'Neill"
+K:D
+(A/G/) \
+| (">"FED) (">"A,CE) | D3- D2E | (">"F3/G/A/B/) cAc | d3- d2e |
+| (cBA) (GED) | C3- C2(D/E/) | FED A,CE | D3- D2 ||
+|| A \
+| (">"d2e) (f2e) | (dA2-) A2B | ">"c3 (G2F) | (EC2-) C2A |
+| (">"d2e) (f2e) | (dA2-) A2F | (G2F) (.D2.D) | D3 D2 ||
+|| (D/E/) \
+| (">"F3/E/F/A/) cAc | (">"d3/e/f/e/) d2(d/e/) | .f.e.d .c.A.c | d3- d2f |
+| (cAF) (GFD) | C3- C2(D/E/) | FED A,CE | D3- D2 ||
+S:https://www.folktunefinder.com/tunes/73482
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

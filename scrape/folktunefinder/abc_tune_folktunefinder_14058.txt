@@ -1,0 +1,24 @@
+X:3
+T:Cowgate gigue
+M:6/4
+L:1/4
+Q:3/4=100
+Z: Jack Campin abc:purr.demon.co.uk abcusers 2003-8-16
+N: Scottish tablature MS from about 1680.  Jack comments: The title is
+N: the thing about the tune that caught my attention - it's the oldest
+N: tune to be named after an Edinburgh street by about thirty years.
+K:G Minor
+BAG dcB|e2d       gEE|B2A G2e   |Afe d2d:|
+ABc dGG|AG/F/G/A/ FDD|ABc dGG   |dec d3  |
+ABc dGG|AF/G/A    FDD|def gB/c/d|DBA G2G|]
+S:https://www.folktunefinder.com/tunes/14058
+S:http://trillian.mit.edu/~jc/music/abc/jig/CowgateGigue_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/CowgateGigue_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/CowgateGigue_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

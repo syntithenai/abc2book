@@ -1,0 +1,23 @@
+X:430
+T:Old Bush, The
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of Dmix)
+K:Dmix
+"Am"A2GA cA~A2 | "D"d^cde fde=c | "Am"A2GA cA~A2 | "D"dfed cAdc |
+"Am"A2GA cA~A2 | "D"d^cde ~f3g | "Am"afge fde^c |1 "D"dfed cAdc :|2 "D"dfed cA~A2 |:
+"C"eg~g2 edcd | efge "Am"c3d | "C"eg~g2 afge | "D"dfed cA~A2 |
+e"C"g~g2 ag~g2 | "D"fgfe defg | "Am"afge fde^c |1 "D"dfed cA~A2 :|2 "D"dfed cAdc |]
+S:https://www.folktunefinder.com/tunes/63067
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of dmix)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

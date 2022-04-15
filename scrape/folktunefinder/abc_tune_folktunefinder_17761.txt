@@ -1,0 +1,20 @@
+X: 1
+T: Navvy on the Line
+R: reel, hornpipe
+M: 4/4
+L: 1/8
+K: G
+Bc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GBDG B2Bc | "G"dgfe "D7"dcBA |
+| "G"GBDG B2AG | "D7"FGAB cdef | "G"g2G2 G2 :: AG | "D7"FADF A2GF | "G"GBDG B2AG |
+| "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FGAB cdef | "G"g2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/17761
+S:http://trillian.mit.edu/~jc/music/abc/reel/NavvyOnTheLine_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NavvyOnTheLine_G3.abc
+% Rhythm Reel, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

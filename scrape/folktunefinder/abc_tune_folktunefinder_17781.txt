@@ -1,0 +1,27 @@
+X: 1
+T: the Nine Pint Coggie
+O: Trad
+N: Skinner SV p.27
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+c \
+| "G"B>G G/G/G ~G2 DE | "F"=F2cF "D7"Accd \
+| "G"B>G G/G/G ~G2 DF | "G"G2gd "D7"Bd3 :|
+f \
+| "G"gagd Bcde | "F"=fgfc "D7"ABc^f \
+| "G"gagd "(D7)"Bcdf | "G"g/f/e/f/ gd "D7"Bd2f |
+| "G"gagd Bcde | "F"=fgfc "D7"ABce \
+| (3dcB (3cBA "G"{F}G2 DF | "G"G2gd "D7"Bd3 |]
+S:https://www.folktunefinder.com/tunes/17781
+S:http://trillian.mit.edu/~jc/music/abc/reel/NinePintCoggie3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/NinePintCoggie3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

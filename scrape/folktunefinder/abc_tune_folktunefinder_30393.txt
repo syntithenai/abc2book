@@ -1,0 +1,21 @@
+X:420
+T:Notingham Castle
+B:Aird's Airs and Melodies vol 2
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000011c.html
+%%ID:0000011c
+K:G
+gfga b2g2| dedc {c}B2AG| G2G2 AGAB| c2B2B2A2|\
+gfga b2g2| d2dc {c}B2AG| D2G2 Bedc| B2G2 G4::
+B2AG c2c2| B2AG A2D2| g2g2 fafd| egec d2D2|\
+BdBG c2c2| BdBG A2D2| g2g2 fafd| egec d4 :|
+S:https://www.folktunefinder.com/tunes/30393
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

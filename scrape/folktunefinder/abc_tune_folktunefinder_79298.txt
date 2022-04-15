@@ -1,0 +1,27 @@
+X:194
+T: JETZT GEHT DER MARSCH INS FELD
+N: E1336
+O: Europa, Mitteleuropa, Deutschland, Westerwald
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G3ABABc | d3
+ed3B | ddccB2AA | B4z2
+GB | d2ddc2cc | B2dBA2
+GB | d2ddc2cc | B2dBA2
+BA | G3ABABc | d6
+ee | dedcB2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/79298
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

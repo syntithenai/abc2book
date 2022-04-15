@@ -1,0 +1,40 @@
+X: 109
+T:136 Psalm. JMP.109
+T:Trumpet Tune. JMP.109
+M:4/4
+L:1/8
+Q:180
+C:"or Trumpet Tune."
+S:John Miller MS. Perth, 1799.(for the fife)
+O:Scotland
+A:Perth
+N:''  indicates a pause over this note
+N:The three five-note slurs have the number 5
+N:written in the slur.
+N:Words:  To  God the mighty Lord
+N:Your joyful thanks repeat.
+N:To him due praise aford (2)
+N:As good as he is great (2)
+N:For God does prove our constant Lord
+N:Boundles love shal never end(2
+H:1799
+Z:vmp.C, Graebe
+K:A major
+E2 | C2E2A2E2 | (A>GA>B c2) A2 | d2c2B2A2 | ""B6 |e2 |!
+ c2 d2 A2 E2 |  (A>GA>B ""c2) e |c2d2A2E2 |\
+  (B>AB>c ""d2) c2 |f2e2d2c2 | |!
+ e2 | (cA) (ce)G2F2 | E4 z2E2 | A2A2A3B | c2c2c3B |\
+c3B (ce) (cA) |!
+ B2B2""B3e | c3d A2E2 | (B>AB) c ""d2 zB |\
+c2eA2 (fed) | c2 (BA) A3 |]
+S:https://www.folktunefinder.com/tunes/2046
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

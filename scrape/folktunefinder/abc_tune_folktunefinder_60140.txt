@@ -1,0 +1,27 @@
+X:3951
+T:De colores
+R:Habanera
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:2/4
+L:1/8
+Q:1/4=56
+K:C
+|G3 F|F<E-EE/F/|G/GG/ GF/E/|G/GG/ GF/E/|G<F-F2|
+|A3 G|G<F-FF/G/|A/AA/ AG/F/|A/AA/ AG/F/|A<G-G2|
+|G3 F|F<E-EE/F/|G/GG/ GF/E/|G/GG/(3_BBB|A3 F/G/|A/AA/ (3ABA|
+|A/GG/ (3GAG|G/FG/ A/G^F/|G3 F/G/|A/AA/ (3ABA|A/GG/ (3GAG|G/FG/ A/GF/|E4|
+S:https://www.folktunefinder.com/tunes/60140
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Habanera
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

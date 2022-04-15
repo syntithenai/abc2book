@@ -1,0 +1,26 @@
+X:849
+T:Bunch of Roses Schottische. GHW.036
+O:england
+M:4/4
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottische
+A:Norfolk
+K:G
+D>G|B2B2 c>Bc>B|e2d2 z2 d>c|B>dB>G A>cA>F|G2B2G2 D>G|
+B2B2 c>Bc>B|e2d2 z2 d>c|B>gd>B A>cB>A|G2B2G2||
+z2|a2 a>^g b2 d'2|c'2 b2 g2 z2|cdef g3 b|b2a2f2 z2|
+a2 a>^g b2 d'2|b2 a2 g2 z2|cdef g3 c'|d'2d'2c'2 ||
+S:https://www.folktunefinder.com/tunes/21298
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

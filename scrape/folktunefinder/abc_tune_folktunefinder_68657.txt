@@ -1,0 +1,28 @@
+X:111
+T: Minnelied
+N: A0130
+O: Europa, Mitteleuropa, Deutschland
+N: Pet. Schoeffer 1513 No. 7.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: F
+f8e4d4 | c12B4 | A6G2F2G2E4 | D8z4
+d4 | c4d4e8 | z4e4f4d4 | c8z4
+c4 | d4e4A4A4 | c6B2A2B2G4 | F8z4
+F4 | G4A4D8 | z4A4B4c4 | A8z4
+A4 | d4d4c4f4 | e4d4A4A4 | c4c4d4
+f4 | e3dc2B2A2GFG4 | F8z8
+S:https://www.folktunefinder.com/tunes/68657
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

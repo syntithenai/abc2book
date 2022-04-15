@@ -1,0 +1,32 @@
+X: 42
+T: The Royal Scottish Country Dance Society
+C: Willian Clement (Aug 1967)
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: email from Atsukoclement@aol.com 2009-1-29
+N: Bill's wife Atsuko wrote: John Wilkinson made up a dance called 'Bill Clement MBE' (32 bar Jig x 8) to mark Bill's
+N: award.  John started to dance with Bill with Gowrie Group in Perth.  The tune is 'The Royal Scottish Country Dance
+N: Society', a 64 bar jig which was composed by Bill some years ago, when he was the piper to the Society.
+M: 6/8
+L: 1/8
+K: Hp
+   A | "D"{g}f>ga       {fg}f>ed | "G"{g}B<{d}G{e}B      {gf}g3 | "A"{a}A>{d}ce    {gef}e>{g}c{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{g}f>ga       {fg}f>ed | "G"{g}B<{d}G{e}B      {gf}g3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{gfg}f>ed    {gde}d>cB | "G"{g}B<{d}G{d}B     {gBG}B3 | "A"{g}A>{d}c{A}c {gcd}c>{g}B{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{gfg}f>ed    {gde}d>cB | "G"{g}B<{d}G{d}B "Em"{gBG}B3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{g}f>ga  "Bm"{Gdc}d>cB |"Em"{g}e>fg         "A"{cd}c3 | "A"{a}A>{d}ce    {gef}e>{g}c{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{g}f>ga  "Bm"{Gdc}d>cB |"Em"{g}e>fg         "A"{cd}c3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{Gdc}d>e{g}d {gde}d>cB | "G"{g}B<{d}G{d}B     {gBG}B3 | "A"{g}A>{d}c{A}c {gcd}c>{g}B{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{Gdc}d>e{g}d {gde}d>cB | "G"{g}B<{d}G{d}B "Em"{gBG}B3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12695
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

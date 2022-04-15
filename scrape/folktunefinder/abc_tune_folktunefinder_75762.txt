@@ -1,0 +1,22 @@
+X:66
+T:De Kolom
+C:Traditioneel
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:bert: getransponeerd naar G (vanuit C), C-muziek toegevoegd
+L:1/8
+M:4/4
+K:G
+D|:G2 G2 G3 D|GB dB G3 B|BA Ac cB Bd|1d>c BA B2 G D:|2d>c BA G2 A>B||
+cc Bc dd A>B|cc BA BG A>B|cc Bc dd A>B|cc BA G2 z2||
+B2 B2 B/A/B/c/ d2|cB Ad B2 G2|B2 B2 B/A/B/c/ d2|cB Ad G2 z||
+S:https://www.folktunefinder.com/tunes/75762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

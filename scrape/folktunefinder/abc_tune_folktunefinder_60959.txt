@@ -1,0 +1,27 @@
+X:8926
+T:La fleur de l'olivier
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n33
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Bb
+F | B2 d f2 d | {ed}B3-B z z | B c d f-e d | {ed}c3-c2 c | c2-d d2 {c}B |!
+d-c3 zz | d e d c-B c | B A B c A B | c3-c z c | e2 c d2 A | {c}B3-B zz ||
+W:La fleur de l'olivier que vous avez aime, 
+W:Charmante beaut, Et vos beaux yeux charmants, 
+W:Que mon coeur aime tant, les faudra-t-il quitter  /.../
+S:https://www.folktunefinder.com/tunes/60959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

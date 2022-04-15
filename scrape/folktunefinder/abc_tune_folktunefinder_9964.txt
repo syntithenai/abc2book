@@ -1,0 +1,26 @@
+X: 3
+P: Jeanie's Blue E'en
+S: Kerr's 4th
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: Pinewoods Collection
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dcd AFA | "G"dcd "A7"e2g | "D"fed agf | "G"efd "A"c2A \
+| "D"dcd AFA | "G"dcd "A7"e2g | "D"fed "A7"Adc | "D"d3- d2 :|
+|: A \
+| "D"f2f fef | "G"g2g g3 | "A7"e2e ede | "D"f2f f3 \
+| "G"d2d dcd | "A7"e2e efg | "D"fed "A7"Adc | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/9964
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BannocksAndBrose0.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:191
+T:Cantar de Ronda (CT 479)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Fernando Menndez lvarez, de treinta y cinco aos, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 479
+M:2/4
+L:1/8
+Q:1/4=72
+K:C
+(3FGA|B2 dd|(c/B/4A/4B) B2-|Bz (3FGA|
+B2 dc|Bd Bc|{AB}A/G/4A/4G-G2-|Gz (3FGA|
+B3 d|(c/B/4A/4B) B2-|Bz (3FGA|
+BB dc|Bd Bc|{AB}A/G/4A/4G-G2-|Gz ||
+W:Corren, corren
+W:las estrellas,
+W:corren, corren
+W:la luna se va a esconder,
+W:se va a esconder:
+W:qudate con dios, madama,
+W:que me voi a recoger.
+W:
+S:https://www.folktunefinder.com/tunes/59078
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

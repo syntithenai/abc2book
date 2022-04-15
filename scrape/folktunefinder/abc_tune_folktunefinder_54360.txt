@@ -1,0 +1,100 @@
+X:11611
+T:N'esta triste montaa (CT 184)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu, quien dice que esta cancin se la ense una anciana mendiga de Sigencu, ayuntamiento de Cangas d'Ons, segn la cual, se cantaba en tiempos de su juventud.
+O:Sigencu (Cangas d'Ons)
+A:Asturies
+Z:Cancioneru de Torner 184
+M:6/8
+L:1/8
+Q:1/8=120
+W:En esta triste montaa,
+W:Ai, de m! perd el camino,
+W:Ai, de m! perd el camino
+W:en esta triste montaa,
+W:en esta triste montaa;
+W:dxame met'l rebau,
+W:por Dios, en la to cabaa.
+W:
+W:Non s que puede tener.
+W:Pastora, la to cabaa,
+W:non s que puede tener,
+W:non s que puede tener
+W:que se me escapen les cabres
+W:y all se quieren meter.
+W:
+W:Perd el camino,
+W:entre la espesa nublina
+W:ai, de m! perd el camino,
+W:perd el camino;
+W:dxame pasar la noche
+W:en la cabaa contigo.
+W:
+W:----------------------------
+W:
+W:Ai, de m! perd el camino,
+W:en esta triste montaa,
+W:dxame met'l rebau,
+W:por Dios, en la to cabaa.
+W:
+W:Pastora, la to cabaa,
+W:non s que puede tener,
+W:que se me escapen les cabres
+W:y all se quieren meter.
+W:
+W:Entre la espesa nublina
+W:ai, de m! perd el camino,
+W:dxame pasar la noche
+W:en la cabaa contigo.
+W:
+W:
+W:Si con la espesa nublina
+W:equivocaste el senderu,
+W:la mio cabaa no alberga
+W:cabres de cualquier cabreru.
+W:
+W:Aunque pastora me ves
+W:y en un disiertu morar,
+W:xuro que en la mio cabaa
+W:el to rebau no ha entrar.
+W:
+W:Anque ta espesa la niebla,
+W:bien sabes la to cabaa;
+W:anda sigue el to camino
+W:que aqu non topes posada.
+K:G
+GBd
+|(c2-c/d/4c/4)A2 G|(A3/2B/4A/4)G G3-|G2 z GBd|
+(c2-c/d/4c/4)A2 G|(c3/2d/4c/4) B-B3-|B3 GBd|
+(c2-c/d/4c/4)A2 G|(A3/2B/4A/4)G-G3-|G2 z GBd|
+(c2-c/d/4c/4)A2 G|(c3/2d/4c/4) B-B3-|B3 GBd|
+(c2-c/d/4c/4)A2 G|(A3/2B/4A/4)G-G3-|G2 z GBd|
+(c2-c/d/4c/4)A2 G|(c3/2d/4c/4) B-B3-|B3 GBd|
+(c2-c/d/4c/4)A2 G|(A3/2B/4A/4)G-G3-|G2 z dcd|
+(B2-B/(3c/4B/4A/4 G)dB|(c3/2d/4c/4 B-)B3-|B3 dcd|
+(B2-B/(3c/4B/4A/4 G)Bc|(A3/2B/4A/4)G-G3-|G2 z cBc|
+(A2-A/(3B/4A/4G/4 F) B(A/>G/)|G6-|G2 z dcd|
+(B2-B/(3c/4B/4A/4 G)dB|(c3/2d/4c/4 B-)B3-|B3 dcd|
+(B2-B/(3c/4B/4A/4 G)Bc|(A3/2B/4A/4)G-G3-|G2 z cBc|
+(A2-A/(3B/4A/4G/4 F) B(A/>G/)|G6-|G2 z GFG|
+(c3/2d/4c/4) B-B3|Bdc Bdc|(A3/2B/4A/4) (G-G2-G/A/4G/4)|
+FGA Bdc|(A3/2B/4A/4)G-G3-|G2 z GFG|
+(c3/2d/4c/4) B-B3|Bdc Bdc|(A3/2B/4A/4) (G-G2-G/A/4G/4)|
+FGA Bdc|(A3/2B/4A/4)G-G3-|G2||
+S:https://www.folktunefinder.com/tunes/54360
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

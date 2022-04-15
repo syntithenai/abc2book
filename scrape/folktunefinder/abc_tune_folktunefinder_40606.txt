@@ -1,0 +1,38 @@
+X:23
+T:Kadril van Putte
+T:1ste figuur
+O:vlaanderen
+C:Trad.
+A:Putte
+Z:Bart Vanhaverbeke 
+P:(ABCD)x4
+L:1/8
+M:2/4
+K:C
+P:Voorspel
+K:C
+"C"cc/c/ cc | cBAG | "G7"G^GAB | "C"c GAB ||
+P:Inleiding
+"C"cc/c/ cc | cBAG | "G7"BB/B/ BB | BAGB | dd/d/ | dcBA | G^GAB | "C"c z c z ||
+P:A
+K:G
+"G"Bd G>A | B3 B | "Amin"cA E>A | c3 c | "D7"fedc | cBAB | ed c>A | "G"G "G7"GAB ||
+P:B
+K:C
+"C"cc/c/ cc | cBAG | "G7"BB/B/ BB | BAGB | dd/d/ | dcBA | G^GAB | "C"c z c z ||
+P:C
+K:F
+"F"A3 c | FAcf | "C7"e3 d | B4 | B3 G | edcB | AG D>E | "F"F z F z ||
+P:D
+K:C
+"C"cc/c/ cc | cBAG | "G7"BB/B/ BB | BAGB | dd/d/ | dcBA | G^GAB | c z c z ||
+S:https://www.folktunefinder.com/tunes/40606
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

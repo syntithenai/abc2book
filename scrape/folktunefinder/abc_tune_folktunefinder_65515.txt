@@ -1,0 +1,19 @@
+X: 211
+T:Nantwich Fair
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+|:d|"D"d2A A2d|"A"e2A A2e|"D"fgf efd|"A"e3 -e2A|
+"G"B2B BAG|"D"A2A AGF|"G"GAG "D"FED|"A"E3 -E2::
+A|"A"A2E EFG|"D"F2D D2d|"D7"d2A AB=c|"G"B3 -B2f|
+"Em"g2f efd|"A"cde "D"A2A|"G"Bcd "A"ecA|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/65515
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

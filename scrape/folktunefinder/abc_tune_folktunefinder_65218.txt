@@ -1,0 +1,35 @@
+X: 130
+T:Hugh's Happy
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:Am
+"Am"e2e EAc|"Dm"d2d "E7"B3|"Am"c2c EA^A|"Dm6"B2B "E7"^G3|"F"A2A CFA|"C"G2G c2B\
+|
+"F"ABc "Dm"def|"E7"e3 e3|"Am"e2e EAc|"Dm"d2d "E7"B3|"Am"c2c EA^A|
+"Dm6"B2B "E7"^G3|"F"A2A CFA|"C"G2G c2B|"F"ABc "E7"dcB|"Am"A3 zBA||
+"G7"G2G Ggf|"C"e2d "Am"cde|"Dm"d2e "G7"fgf|"C"e3 c3|"G7"G2G Ggf|
+"Cm"_e2d c2d|"D7/b9"_eee edc|"G"d3 "G7"d3|"G7"G2G Ggf|"C"e2d "Am"cde|
+"Dm"d2e "G7"fgf|"C"e3 c3|"G7"G2G Ggf|"Cm"_e2d c2d|"D7"_edc "G7"dcB|\
+"C"c3 "D7"d3||
+K:G
+"G"B2B Bc^c|"E7"d2B e2d|"Am"c2c cBA|"D7"d3 -def|"G"g2d B2d|
+"E7/b9"=f2e d2B|"Am"c2B c2e|"D7"d3 d2c|"G""g"B2B " ""f/="Bc^c|"E7"d2B e2d|
+"Am""a"c2c " ""g"cBA|"D7""f/"d3 -def|"G"g3 dBd|"E7/b9"=f3 edB|"Am"c3 "D7"cBA|\
+ [1"G"G3 "E7"e3:|
+ [2"G"G3 "A7"e3||
+S:https://www.folktunefinder.com/tunes/65218
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

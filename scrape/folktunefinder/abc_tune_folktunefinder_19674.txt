@@ -1,0 +1,32 @@
+X: 1
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+B: RSCDS 39-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+e \
+|: "Em"E<E G>A B>A B<d | "D"D<D F>E D/E/F/G/ A<F \
+| "Em"E<E G>A B>A B<e | "D"d>B d>F "Em"E<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E<E E :|
+|: F \
+| "Em"G>B E>B GG | "D"F>A D>A F<A D>A \
+| "Em"G>B E>B Gg | "D"f>d a>f "Em" e2 e :|
+|: f \
+| "Em"gb g>e b>g | "D"f<a d>a f<a d>a \
+| "Em"gg "D"f<a d>e | "Bm"d/c/B/A/ d>F "Em"E<E E :|
+S:https://www.folktunefinder.com/tunes/19674
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/StruanRobertsonsRant.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/StruanRobertsonsRant.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/StruanRobertsonsRant.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

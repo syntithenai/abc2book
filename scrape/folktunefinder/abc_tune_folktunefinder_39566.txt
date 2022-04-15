@@ -1,0 +1,28 @@
+X:11
+T:Branle
+C:Campra
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-13
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+P:AABA ABA puis AABA pour finir
+K:Cm
+V:1 name=G
+P:A
+cd ec | ef g2 |1 gf/e/ de | fd ec :|2 gf/e/ dc | d=B c2 ||
+P:B
+gg/a/ bb | bb b2 | ba/g/ fg | agfe | g/f/ g/a/ g2 | f2 e2 |]
+V:2 name=V
+c=B cG | cd ec |ef g2 | a/g/ f/e/ g/f/ e/d/ | ef a/g/ f/e/ | g/f/e/d/ c2 |
+gg/f/ ee | ed e2 | ed/e/ fe | fe =Bc | e/d/ e/f/ e2- | ed e2 |
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+S:https://www.folktunefinder.com/tunes/39566
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

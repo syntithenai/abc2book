@@ -1,0 +1,29 @@
+X:1024
+T:Cendrillon,La. CJF.052
+T:La Cendrillon. CJF.052
+O:england
+M:2/4
+L:1/8
+Q:180
+C:Caraffa
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Misc.
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:G
+"$"b2ag|fed2|g2ab|bc'a2|c'2ba|gfe2|d2ef|\
+a2gzh:|"tr"a2^ga|c'^ga2|b2=gb|a2d'2|a2^ga|
+c'^ga2|b2=gb|a2d'2|a2^ga|c'^ga2|_b2a_b|\
+(ad').d'.d'|a2^ga|c'^ga2|_b2gb|ad'^c'"$"=c'|]
+S:https://www.folktunefinder.com/tunes/21473
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

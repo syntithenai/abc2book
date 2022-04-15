@@ -1,0 +1,24 @@
+X:59
+T: UFM BERGLI BIN I GESESSE
+N: F0152
+O: Europa, Mitteleuropa, Deutschland; Schweiz
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: C
+E,F, | G,EC2E,F, | G,EC2
+G,G, | G,F,D2F,F, | E,3z
+E,F, | G,ED2F,F, | E,CB,2
+F,D, | B,A,G,2F,D, | C,3z
+E,B,C | E2D2G,B,D | F2E2
+CEG | A3GDE | C4
+S:https://www.folktunefinder.com/tunes/69619
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

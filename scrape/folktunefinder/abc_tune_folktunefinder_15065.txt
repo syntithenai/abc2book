@@ -1,0 +1,28 @@
+X: 65
+T:Sir Watkins' Jig
+M:6/8
+L:1/8
+Q:200
+C:Trad
+S:Blodau'r Grug Collection Vol. 2
+R:Jig
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:G
+DGA B2G|DGA B2G|Bcd c2B|A3-A2d|efg afd|g3d3|!ecc dBB|cAAG3:||
+FGA AFD|A3d3|AFF GEE|D3zG/A/B/c/|!d3 GA/B/c/d/|e3 AB/c/d/e/|
+f3 Bc/d/e/f/|g3d2c|BGG cAA|G6:||
+S:https://www.folktunefinder.com/tunes/15065
+S:http://trillian.mit.edu/~jc/music/abc/jig/SirWatkinsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/SirWatkinsJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/SirWatkinsJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

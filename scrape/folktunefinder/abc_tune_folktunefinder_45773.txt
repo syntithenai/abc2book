@@ -1,0 +1,28 @@
+X:5
+T:Branle "Le joli mai"
+O:France
+A:Alsace
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-10-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:5/4
+L:1/8
+K:Am
+P:A
+A | cd e2 c2 dB AA | cd e2 c2 dB A2 ||
+P:B
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-10-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+BB/c/ dc BA GG | AA GA c2 B2 | cc/d/ ee fe dB | cd ed cB A |]
+%%footer $D   Galouvielle-MBe 2006 \nBranle (France)
+S:https://www.folktunefinder.com/tunes/45773
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

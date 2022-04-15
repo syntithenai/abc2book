@@ -1,0 +1,24 @@
+X:429
+T:La Barca Marinera
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Asturias, canciones
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+|A3 B|c2 cc|B3 A|^GA BB|A4|
+A3 B|c2 cc|B3 A|^GA BB|A2 z G|
+FA AA|G2 GF|EE EE|E3 E|
+AA AA|G2 GF|EE EE|E2 z2||
+S:https://www.folktunefinder.com/tunes/59316
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

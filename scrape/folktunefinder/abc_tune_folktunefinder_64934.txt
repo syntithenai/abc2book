@@ -1,0 +1,23 @@
+X:930
+T:Love, Port and Sherry
+% Nottingham Music Database
+S:John Jones, via EF
+M:6/8
+K:D
+P:A
+A|"D"d3 fed|"A7"cea age|"D"d3 fed|"Em"cdB "A7"ABc|
+"D""Bm"d3 fed|"A"cea abg|"Em"fed "A7"cBc|"D"dAF D2:|
+P:B
+A/2G/2|"D"FFF FAF|"G"GGG GBG|"D"AAA fed|"A7"cea ade|
+"D"fed "A7/e"gfe|"D/f"agf "G"bag|"D/a"fed "A7"cBc|"D"dAF D2:|
+S:https://www.folktunefinder.com/tunes/64934
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

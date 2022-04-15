@@ -1,0 +1,25 @@
+X:242
+T: Die sieben Freuden der Maria
+N: A0601
+O: Europa, Mitteleuropa, Deutschland
+N: Corners Gsgb 1625 No. 242.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+G | G2d2 | A2c2 | _B2AA | G2z
+G | G2dd | A2c2 | _B2A2 | G2z
+G | =F2_B2 | A2A2 | =FDE2 | D2z
+D | =F2G2 | A2d2 | dc_BA | G2
+DE | =F2_B2 | A_Bcd | _B2A2 | G3
+S:https://www.folktunefinder.com/tunes/80301
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

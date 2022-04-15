@@ -1,0 +1,23 @@
+X:14298
+T:Ringlnder efter Nille Henningsgrd (Brekken)
+A:Rros (Brekken)
+O:Norway
+M:4/4
+L:1/8
+Q:C4=80
+K:D
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|d>cd>f a2a2|\
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|[1d>edc d4:|\
+[2d>edc d3(f|:\
+g2)g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>efg a2a2|\
+g2g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>edc d4:|]
+S:https://www.folktunefinder.com/tunes/64308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

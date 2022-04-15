@@ -1,0 +1,27 @@
+X:139
+T: SEHT JI HERRENS SEHT
+N: Z0138
+O: Europa, Mitteleuropa, Deutschland, Niedersachsen
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/8
+K: F
+ | FGAB | c3
+A | BGBA | F4
+BAGF | BAGF
+BAGF | BAG2
+BAGF | BAGF
+BAGF | BAGE | F4
+S:https://www.folktunefinder.com/tunes/68998
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

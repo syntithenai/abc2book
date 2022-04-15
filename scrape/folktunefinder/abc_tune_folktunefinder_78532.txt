@@ -1,0 +1,25 @@
+X:91
+T: ES HATT EIN GASTWIRTH EINEN SOHN
+N: E0050F
+O: Europa, Mitteleuropa, Deutschland, Goettingen
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 3/4
+L: 1/16
+K: G
+D2 | G2F2G4B4 | A2G2A4z2
+D2 | A2G2A4c4 | B2A2B4z2
+d2 | B2dBG4B4 | A4G4z2
+S:https://www.folktunefinder.com/tunes/78532
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

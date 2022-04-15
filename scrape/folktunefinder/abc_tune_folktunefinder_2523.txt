@@ -1,0 +1,37 @@
+X:1
+T: TEST: Sarah MacArthur's
+B:Dunlay & Greenberg, Traditional Celtic Violin Music of Cape Breton
+N:p.132, version as played by Mary MacDonald
+R:strathspey
+M:4/4
+L:1/8
+Q:1/4=192 % god that's fast!
+% I'm only noting transposed pitches that occur in the tune
+K:AMix scordatura [A,2E2A2e2] G,:A, C:D D:E E:^F F:G G:A
+% the usual Cape Breton "high bass" tuning
+[A,2E2A2e2]|]\
+F|  E<AA>F         E<AA>G     |    F>D - (3DDF  G>EF>D      |
+    E<AA>G         F>GA>e     |({f}g>)fe>d      c<AB       :|
+F|:[EA,]>a - (3aag f>(g (3a)af|({f}g>)fe>d      c<AB>F      |
+[1 [EA,]>a - (3aag f>(g (3a)af|({f}g>)fe>d      c<A({B}A>)F:|
+[2  E<AA>F         E<AA>e     |({f}g>)fe>d ({cd}c>)BA      |]
+% as written in the book...
+E|D<GG>E D<GG>F|E>C - (3CCE F>DE>C|D<GG>F E>FA>e|({f}g>)fe>d c<AB:|
+E|[DG,]>a - (3aag f>(g (3a)af|({f}g>)fe>d c<AB>E     |
+  [DG,]>a - (3aag f>(g (3a)af|({f}g>)fe>d c<A({B}A>)E|
+  [DG,]>a - (3aag f>(g (3a)af|({f}g>)fe>d c<AB>E     |
+  D<GG>E          D<GG>e     |({f}g>)fe>d ({cd}c>)BA|]
+S:https://www.folktunefinder.com/tunes/2523
+S:http://trillian.mit.edu/~jc/music/abc/test/Scordatura_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Scordatura_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Scordatura_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Scordatura_1.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

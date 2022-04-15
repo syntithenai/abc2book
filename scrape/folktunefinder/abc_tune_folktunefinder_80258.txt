@@ -1,0 +1,25 @@
+X:199
+T: Osterlied des 15. Jahrhunderts
+N: A0553B
+O: Europa, Mitteleuropa, Deutschland
+N:  Triller 1555
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: D
+D | D2A2E2G2 | =F2E2D2z
+D | A2B2=c2B2 | A2G2A2z
+A | d2B2=c2A2 | G2=F2E2z
+E | D2A2E2G2 | =F2E2D4
+=C2D2E2D2 | G2A2=FDE2 | D8
+S:https://www.folktunefinder.com/tunes/80258
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

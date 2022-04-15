@@ -1,0 +1,23 @@
+X: 1
+T: Blaydon Races
+R: jig
+O: England
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G G2G | "G"G2G G2G | "D7"A2A A2A | "G"B3 G3  | "C"c2c c2c | "G"B2B B2B | "A7"A2B A2G | "D7"F3  D3  ||
+| "G"G2G G2G | "G"G2G G2G | "D7"A2A A2A | "G"B3 G3  | "C"c2c c2c | "G"B2B d2d | "D7"d2c B2A |  "G"G2A B2c ||
+| "G"d3- d2B |    G3- G2B | "D7"A2A AGA | "G"B3 G2B | "C"c2c c2c | "G"B2B B2B | "A7"A2B A2G | "D7"F3  D3  ||
+| "G"G2G G2G | "G"G2G G2G | "D7"A2A A2A | "G"B3 G3  | "C"c2c c2c | "G"B2B d2d | "D7"d2c B2A |  "G"G3  z2  |]
+S:https://www.folktunefinder.com/tunes/13897
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlaydonRaces_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BlaydonRaces_G4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

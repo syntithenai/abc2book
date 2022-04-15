@@ -1,0 +1,38 @@
+X: 49
+T:Waltz Mozart,4. TLY.048
+T:Mozart Waltz,4. TLY.048
+M:3/4
+L:1/4
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Waltz
+O:England.
+A:Lancashire.
+N:Start of B music is marked f. Start of C music is marked p. Last beat
+N:of 8th. bar of D music is marked p
+H:1860.
+Z:vmp.Taz Tarry.
+K:C
+G|GGG| GGG| (G3|c) z G|GGG | GGG| (G3|d) z G|!
+eee| fdB|ccc |{Bd}cBA| Gce| gfd|d3 c z||!
+|:g|(c'/b/c'/b/c'/b/)| (c'/b/c'/b/c'/d'/)| e'2 c'| g2 g|!
+ f2 d|c/B/A/G/A/B/| cce| c z:|!
+|:(c/e/)|g/^f/g/a/b/c'/| c2 (d/c/)|B/c/d/e/f/g/| (fe) (c/e/)|!
+g/^f/g/a/b/c'/|c2 (d/c/)|G/A/B/c/d/e/|c2:|!
+|:E|e e3/4e/4e| e2 d| cBA| GBE| e e3/4e/4e| e2 d| cBA|e2 c/e/|!
+|g/^f/g/a/b/c'/| c2 (d/c/)|B/c/d/e/f/g/|!
+ (fe) c/e/|g/^f/g/a/b/c'/|c2 (d/c/)|.G/.A/.B/.c/.d/.e/|c2:|!
+|:~G|(ec) .G|(cG) .E| (Fd) .B| (ce) ~.G|(ec) .G|\
+(cG) .E|FdB| c z:|!
+d|dcB| BAG| c/B/ cd| e2 c| dcB|BAG| c/d/ed| c2:|]
+S:https://www.folktunefinder.com/tunes/37582
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

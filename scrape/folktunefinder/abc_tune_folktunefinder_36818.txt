@@ -1,0 +1,22 @@
+X:3695
+T:Mortons Polka
+M:4/4
+O:Denmark
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008fe.html
+%%ID:000008fe
+K:G
+D2D2 | G2B2 BAGB | B2d2 dBGB | A2c2 cAFA \
+|1   G2B2d2 :|2 G2B2G2 :|
+|:B2|c2e2 ecAc | B2d2 dBGB | A2c2 cAFA \
+|1   G2B2 d2 :|2 G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/36818
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

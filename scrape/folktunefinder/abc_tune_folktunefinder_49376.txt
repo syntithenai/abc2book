@@ -1,0 +1,27 @@
+X:66
+T:Waltz fr Norway
+O:norway
+R:Waltz
+M:3/4
+K:Dm
+D2|\
+G2 BG Bd|dc AB G2|BA FA cB|G2 B2 d2|\
+d2 fd fa|ag ef d2|fe ce gf|1 d4 :|2 d3 ||
+|:\
+K:G
+e dc|\
+B2 d2 g2|b2 a2 g2|gf e2 d2|g3f e2|\
+A2 B2 c2|e3 d cB|dc Bc Ad| G3 :|
+S:https://www.folktunefinder.com/tunes/49376
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

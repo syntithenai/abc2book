@@ -1,0 +1,28 @@
+X:331
+T: ALS DER SANDWIRTH VON PASSEIER
+N: F0568
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied
+M: 3/4
+L: 1/16
+K: F
+C2C2 | F4F4F2G2 | _A3GF4
+F2G2 | _A2B2c4A2F2 | _E4C4
+E2E2 | _A4A4A2B2 | c3B_A4
+A2B2 | c2_d2_e4c2_A2 | G4_E4
+e2e2 | _e4_d4d2d2 | _d4c4
+c2c2 | f6_e2_d2c2 | _d4B4
+C2C2 | F6E2F2G2 | _A2G2F4
+F2G2 | _A2B2c4A2F2 | _A2G2F4
+S:https://www.folktunefinder.com/tunes/69891
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

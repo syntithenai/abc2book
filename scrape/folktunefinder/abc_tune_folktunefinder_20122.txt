@@ -1,0 +1,53 @@
+X: 1
+T: O Maria, Mari
+C: Eduardo di Capua (1865-1917)
+O: Italy
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+"Intro"[|]A/B/cd \
+| "Gm"Bd2 "D7"A/B/cd \
+| "Gm"Bd2 "D7"^f/g/ab \
+| "Gm"gd2 "D7"A/B/cd \
+| "Gm"G3 z3 \
+|  z3 z3 ||
+|: "Gm"b3- "D7"ba/g/^f/a/ \
+|  "Gm"g/^f/g2- g2z \
+|  "Cm"g3- gg/^f/g/e/ \
+|  "Gm"d/^c/d2- d2z \
+|  "D7"c3- cc/=B/c/d/ \
+|  "Gm"_B3 B2z |
+|  "Cm"A3- "D7"AA/^G/A/B/ \
+|1 "Gm"G3 z3 \
+:|2 [K:G] "G"G3 \
+|: z[GB,][AC] \
+| "G"[G3-B,3-] [GB,][EC][FD] \
+| [B,3-D3-] [B,D][B,D][B,D] \
+| [EB,][EB,][FB,] [FB,][FB,][DB,] \
+| "Am"[E3-C3-] [E3C3] |
+| "D7"[F3D3] [G2D2][AD] \
+| (3[F/D][G/E][F/D] [E2-C2-] [EC][EC][EC] \
+| [FD][FD][FD] [FD][GE]>[AF] \
+| "G"(3[E/C][F/D][E/C] [D2-B,2-] [DB,][GB,][AC] \
+| "G"[G3-B,3-] [GB,][EC][FD] \
+| [B,3-D3-] [B,D][GB,][AC] |
+| "E7"[BD][BD][^A^C] [BD][cE][d=F] \
+| "Am"(3[B/D][c/E][B/D][A2-C2-] [AC][AC][BD] \
+| "C"[c3E3] "Cm"[A2_E2C2][BEC] \
+| "G"[G3-B,3D3-] [GB,D][EC][FD] \
+| "D7"[D3-C3-] [DC][AFC][BFC] \
+| "G"[G3B,3D3] :|
+S:https://www.folktunefinder.com/tunes/20122
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OMaria_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/OMaria_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Italy/waltz/OMaria_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

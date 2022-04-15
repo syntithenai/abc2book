@@ -1,0 +1,29 @@
+X: 1
+T: the Reel of the Royal Scots
+C: Pipe Mjor C.T.Clark
+R: reel
+B: RSCDS Leaflet (1983)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Devised by Roy Goldring to celebrate the 350th Anniversary of The Royal Scots (The Royal Regiment) in 1983.
+M: C|
+L: 1/8
+K: D
+   f2 | "D"Adde def2 | Aafd "A7"e2cA |1 "D"d2de "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg | "D"afAd f2A2 | defd "A7"cecA |1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fe | "D"d2dB A2AB | A2af "A7"egfe |1 "D"d2de "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg | "D"a2af Aaf2 | Aaaf "A7"egfe |1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 |]
+S:https://www.folktunefinder.com/tunes/18054
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoyalScotsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RoyalScotsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RoyalScotsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RoyalScotsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RoyalScotsR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

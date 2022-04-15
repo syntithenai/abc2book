@@ -1,0 +1,36 @@
+X:63
+T:Klapschottisch
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+R:Schottisch
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:(Voorspel A B C) x2 Voorspel
+M:C|
+L:1/8
+K:G
+P:Voorspel
+D2 !segno!|"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"G z D2||
+P:A
+|:"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB c^c|ed ^ce dz D2|
+"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB cA|[1"G"G2 G2 Gz D2:|[2"G"G2 G2 G2 z2||
+P:B
+K:D
+|:"A7"AB AB AB AB|"D"f2 d2 AF Ad|"A7"c2 B2 GG FG|"D"B2 A2 F4|
+"A7"AB AB AB AB|"D"f2 d2 AF Ad|"A7"cB AA gg fe|[1"D"dz f2 dz z2:|[2"D"dz f2 dz D2||
+P:C
+K:G
+|:"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB c^c|ed ^ce dz D2|
+"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB cA|[1"G"G2 G2 Gz D2:|[2"G"G2 G2 G2 z2!segno!||
+S:https://www.folktunefinder.com/tunes/75759
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

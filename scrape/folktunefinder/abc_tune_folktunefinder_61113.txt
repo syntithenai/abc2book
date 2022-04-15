@@ -1,0 +1,23 @@
+X:9080
+T:La stonique - bourree
+C:Stephan Steiner
+R:Bourree a deux temps
+Z:abc transcription Helmut Eberl
+M:3/8
+L:1/8
+K:Gmix
+BGd|cB/G/B/c/|dGe|AfF|
+BGd|cB/G/B/c/|FdG|cFd:|
+Gef|g>fe/g/|f/e/de|Fcd|
+Gef|g>BA/G/|FdG|cFd:|
+S:https://www.folktunefinder.com/tunes/61113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Bourree a deux temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

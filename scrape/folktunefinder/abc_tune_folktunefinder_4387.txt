@@ -1,0 +1,27 @@
+X: 1
+T: Piiripolkka
+O: Trad Finland
+Z: 2002 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+| "G"G2G2 GAB2 | G2G2 GAB2 | "D7"A4 F2EF |1,3 "G"G2E2 "(D7)"D4 :|2,4 "G"G2G2 G4 :|
+|: "G"{B}d2B2 d2B2 |     G2G2 G4 | "C"{c}e2c2 e2c2 | "D7"A2A2 A4 |
+|  "G"{B}d2B2 d2B2 | "Em"G2G2 G4 | "D7"A2F2   D2EF |  "G"G2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/4387
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/folk/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Revontulet/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Piiripolkka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/Piiripolkka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

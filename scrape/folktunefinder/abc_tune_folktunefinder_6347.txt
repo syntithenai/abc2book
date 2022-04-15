@@ -1,0 +1,27 @@
+X: 42
+T: Saintt Columb's Sword
+T: Sword of  Columcille
+C: Trad
+S: Martin Nail <martin.nail:ukonline.co.uk> 2007-6-18
+N: Columcille is what (Saint) Columba of Iona called himself before he
+N: gave up being a warrior and took to religion.
+M: 4/4
+L: 1/8
+Q: 1/4=180
+K: G
+G2B c d2e f | g2g2f e d2 | D E F G A2B2 | c4B2A2 |
+G2B c d2e f | g2g2f e d2 | D E F G A2B2 |[1 A4G4 :|[2 A4G3A ||
+|: B2G2A2G2 | B d2B A2G2 | D E F G A2B2 | c4B2A2 |
+B2G2A2G2 | B d2B A2G2 | D E F G A2B2 |[1 A4G3A :|[2 A4G4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6347
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

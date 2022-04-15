@@ -1,0 +1,28 @@
+X:1
+T:Gan ainm
+R:reel
+Z:Andy Roubtsov <andrey@sklad1.kiev.ua> 2001-11-6
+M:4/4
+L:1/8
+K:Em (G)
+|:EDBG E2FG|DFBG D2EF|EGBG BE(3FED|GEBG E2BG:|
+|:~e3g (3fedfd|eged g2fd|g3e defd|~e3g (3fedfd|BdBA GEBG:|
+P: variation 1
+|:EDBG (3FEDFG|DFBG (3FEDEF|EGBG BEFD|GEBG ~E3G:| 
+|:efeg (3fedfd|~e3d g2fd|gbge defd|~e3g (3fedfd|BdBA GEBG:|
+P: variation 2
+|:EDBG EDFG|DFBG EDEF|EGBG BE(3FED|GEDG ~E2BG:|
+|:~e3g e2fd|~e3d g2fd|gbge defg|~e3g (3fedfd|BdBA GEBG:|
+S:https://www.folktunefinder.com/tunes/17227
+S:http://trillian.mit.edu/~jc/music/abc/reel/GanAinm_12.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GanAinm_12.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GanAinm_12.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

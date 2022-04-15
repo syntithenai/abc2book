@@ -1,0 +1,25 @@
+X:50
+T: DER HIMMEL UNSER HORT DIE FREIHEIT UNSER WORT
+N: B0061
+O: Europa, Mitteleuropa, Deutschland
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 2/2
+L: 1/16
+K: D
+D,4 | F,6F,2A,6A,2 | D8z4
+D3C | B,4C3^A,B,4C3A, | B,8z4
+C2D2 | E6D2C3B,A,3G, | F,8
+A,8 | B,6E2D4C4 | D8z4
+S:https://www.folktunefinder.com/tunes/78071
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

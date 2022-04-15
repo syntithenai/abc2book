@@ -1,0 +1,28 @@
+X:97
+T: HELFT LEUTCHEN MIR VOM WAGEN DOCH
+N: B0584
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Ballade
+M: 3/4
+L: 1/16
+K: G
+D2 | A3GG6B2 | e3dd4z2
+d2 | e6c2A2B2 | G4z6
+D2 | A3GG6B2 | e3dd4z2
+d2 | e6c2A2B2 | G4z6
+d2 | d2c2A6c2 | e2d2B6
+d2 | g6A2B2^c2 | d8z2
+D2 | A3GG6B2 | e3dd4z2
+d2 | e6c2A2B2 | G4z4
+G2g2 | g8^c4 | d8A2B2 | G8z2
+S:https://www.folktunefinder.com/tunes/62120
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Soldaten - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

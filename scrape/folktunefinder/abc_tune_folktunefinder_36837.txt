@@ -1,0 +1,27 @@
+X:3790
+T:the Musical Priest
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000086b.html
+%%ID:0000086b
+K:B min
+BA|\
+FB BA B2Bd|cB Af ec BA|FB BA BA Bd|cB Ac B2::
+Bc|\
+d2 dc df ed|(3cBA eA fA eA|\
+dc Bc de fb|af ec B2::
+Bc|\
+dB (3BBB ba fb|af ec AB ce|\
+dB (3BBB ba fb|af ec B2:|
+S:https://www.folktunefinder.com/tunes/36837
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

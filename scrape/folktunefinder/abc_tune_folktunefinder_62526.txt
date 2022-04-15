@@ -1,0 +1,30 @@
+X:39
+T:Hultkl\"appens Vals
+C:Fosmark III
+%O:Norway
+R:Waltz
+N:Transcribed by Andrea Hoag 11/87
+Z:Bob Wyttenbach, 8/11/02 from NFF 2001 tunebook
+M:3/4
+L:1/8
+N:Problem is that ABC doesn't recognize endings 3 & 4 as such...
+K:A  bass %clef=bass middle=d
+P:A
+A,,>C,E,2D,2|C,3B,,A,,2|A,,C,E,2D,C,|B,,3B,,B,,2|B,,C,D,E,F,E,|G,3G, (G,A,)|
+G,F,E,D,C,B,,|[1A,,3A,,A,,2:|[2A,,3A,A,2|A,4A,,2:|"3"A,,3A,,A,,2:|"4"A,,3A,A,2|A,3||
+P:B
+B,A,G,|F,2D,2D,2|D,3F,A,F,|E,2[A,,2E,2][A,,2E,2]|[C,3E,3]E,F,E,|G,2B,,2B,,2|
+B,,C,D,E,F,E,|G,F,E,D,C,B,,|A,,3A,A,G,|F,2D,2D,2|D,3F,A,F,|
+E,2[A,,2E,2][A,,2E,2]|[C,3E,3]E,F,E,|G,2B,,2B,,2|B,,C,D,E,F,E,|G,F,E,D,C,B,,|A,,3A,A,2|A,3:|
+S:https://www.folktunefinder.com/tunes/62526
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003bass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001bass.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

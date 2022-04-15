@@ -1,0 +1,29 @@
+X:1
+%%staffsep        2.0cm
+T:Nobody else but me
+M:4/4
+L:1/4
+C:Jerome Kern
+Q:1/4=190
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"C6"x2 "(F7"x2 | "C/E"x2 "Ebdim7)"x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Dm7"x2 "G7"x2 | "C#m7"x2 "F#7"x2 | "Bmaj7"x3 "Gdim7"x | "F#m7"x2 "B7"x2 ||
+V:melody
+AA2A | C4 | AA2A | B,4 |
+S:https://www.folktunefinder.com/tunes/18886
+S:http://trillian.mit.edu/~jc/music/abc/song/Nobody_else_but_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Nobody_else_but_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/nobody_else_but_me.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/nobody_else_but_me.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

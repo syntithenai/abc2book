@@ -1,0 +1,47 @@
+X:35
+T:6. Allemaingne
+C:Tielman Susato
+O:Holland
+B:Tielman Susato: Danserye (1551) no. 35
+R:Allemande
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-35/susato-1551-35-4m.abc
+V:1 Program 1 68 %Oboe
+V:2 Program 1 69 %English horn
+V:3 Program 3 70 alto %Bassoon
+V:4 Program 4 43 bass %Double bass
+M:C|
+L:1/1
+Q:1/1=112
+K:Ddor
+V:1
+DD/D/EE/E/F/E/DEE:|
+V:2
+A,A,/A,/CC/C/C/C/A,A,A,:|
+V:3
+F,F,/F,/G,G,/G,/A,/G,/F,E,E,:|
+V:4
+D,D,/D,/C,C,/C,/F,,/C,/D,A,,A,,:|
+%
+V:1
+|:FF/F/EE/F/E/D/D/^C/Dz:|
+V:2
+|:CC/C/CC/A,/A,/G,/A,^F,z:|
+V:3
+|:A,F,/A,/G,/>F,/E,/D,/C,/D,/E,D,z:|
+V:4
+|:F,,F,,/F,,/C,C,/D,/A,,/B,,/A,,D,z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/55863
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-35/susato-1551-35-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-35/susato-1551-35-4m.abc
+% Rhythm Allemande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

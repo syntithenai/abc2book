@@ -1,0 +1,35 @@
+X: 3
+T: Freilach: The Silver Wedding #2 [Gm]
+O: Naftule's Dream
+R: Freilach
+N: From transcription by Glenn Dickson
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dphr^F
+DGA "A"\
+| "Gm"B4- BDGA | B4- BDGA \
+| B2 (3BAG A2 (3AGF | "D7"F4- FDFG \
+| "D"A4- ADFG | A4- ADFG |
+| A2 c2 (3cBA (3BAG |1 "Cm"(3FGA (3GFE "D"D :|2 "Cm"(3FGA (3GFE "D"D4 :|\
+"B"\
+|:"D"DE FG AB cd  | "Cm"e4- eedc | "Gm"d4- ddcB |
+| "D"c4- ccBA | "Eb"B8 \
+| "D"ADFA "Gm"G2z2 | "D"ADFA "Gm"GGAB \
+| "D"(3cBA "Gm"(3BAG "D"(3AGF "Cm"(3GFE | "D"D8 :|
+"C"\
+|:"D"(3FGA (3GFE DE F2 | zD FG (3AGF GFE \
+| "D"(3FGA (3GFE DE F2 |1 (3AGF GFE D2 {c}d2 :|2 (3AGF GFE D |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/6995
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_SilverWedding.abc
+% Rhythm Freilach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

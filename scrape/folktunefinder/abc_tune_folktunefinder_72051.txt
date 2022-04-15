@@ -1,0 +1,52 @@
+X:24
+T:Money in Both Pockets
+C:Trad., Irish
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/10/04
+N:Petrie's First Collection, page 11
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:D
+[V:1] A|d2F FEF|ABA AGF|d2F TFEF|ABA gfe|
+[V:2] z|d3  D3 |D3  d3 |d3   d'3|f3  a3 |
+[V:1] d2F    FEF|ABA AGF|EFE EFA|BcTB B2:|
+[V:2] [d3f3] D3 |D3  d3 |A3  a3 |g3   G2:|
+[V:1] |:A|dfa afd|cea ecA|dfa afd|g3  f2g|
+[V:2] |:z|d3  f3 |a3  A3 |d3  f3 |e2A d2e|
+[V:1] agf bag|agf ede|fdB AFA|BcB B2:|
+[V:2] f3  g3 |d3  a3 |d'3 d3 |g3  G2:|
+[V:1] z|:dcd dAF|ABA AGF|Tdcd dAF|Aaf gfe|
+[V:2] z|:f3  d3 |d3  D3 | F3  d3 |f2d a3 |
+%Petrie omitted the 8th rest at the beginning of the above line
+[V:1] dcd dAF|ABA AGF|E2E EFA|BcB B2z:|
+[V:2] f3  B3 |D3  d3 |A3  a3 |g3  G3 :|
+%Petrie omitted the 8th rest at the end of the above line
+[V:1] |:Tdcd afd|cea ecA|Tdcd afd|Tgfg f2g|
+[V:2] |: f3  d3 |a3  A3 | f3  d3 | e2A d2e|
+[V:1] (f/g/af) (g/a/bg)|(f/g/af) ede|fdB AFA|BcB B2z:|
+[V:2]  d3       g3     | d'3     a3 |d3  D3 |G3  g2z:|
+%Petrie omitted the 8th rest at the end of the above line
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72051
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MoneyInBothPockets.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Money_in_Both_Pockets.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:26
+T:Sailor's Hornpipe
+M:4/4
+L:1/8
+K:G
+gf |: "G" g2 G2 G2 d-c | Bdgf g2 f-g | "A" a2 a2 a2 a-g | "D" fgfe d2 e-f |
+"G" gfed "(E)" edcB | "C" cBAG "A" AGFE | "D (G)" DGFG "(D)" AcBA | [1 "G" B2 G2 G2 g-f :| [2 "G" B2 G2 G2 d-c ||
+|: "G" BdgB dgBd | "C" e=fed cdcB | "A" A^cac eace | "D" fgfe d2 e-f |
+"G" gfed "(E)"ed=cB | "C" cBAG "A" AGFE | "D (G)" DGFG "(D)" AcBA | [1 "G" B2 G2 G2 d-c :| [2 "G" B2 G2 G2 |]
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49305
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

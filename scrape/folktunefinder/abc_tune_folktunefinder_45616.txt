@@ -1,0 +1,31 @@
+X:182
+T:Steirer
+C:traditionell
+R:Steirer
+A:Bad Ischl, Salzkammergut
+B:"Pfeifermusik aus Bad Ischl", Lois Blamberger, 3. Auflage, Bad Ischl 1990
+S:im buch mit der Angabe: aus der Sammlung vom Blamberger Lois
+N:im buch in G, nr. 20/1
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+(Bc) |\
+(db) b3 g | (faad) f2 | (da) a3 f | (gbbd) g2 |\
+(db) b3 g | (faad) f2 | (da) a2 (fd) | Hg2 z2 :|
+V:2
+(GA) |\
+(Bg) g3 B | (AffA) d2 | (Af) f3 A | (BggB) d2 |\
+(Bg) g3 B | (AffA) d2 | (Af) f2 (dc) | HB2 z2 :|
+S:https://www.folktunefinder.com/tunes/45616
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

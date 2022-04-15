@@ -1,0 +1,22 @@
+X:1101
+T:Humours of Westport
+O:ireland
+Z: id:dc-reel-140
+M:C
+L:1/8
+K:F Major
+dcB|AFcF dFcF|AFcA BdcB|AFcF dFcA|BAGA BdcB|!
+AFcF dFcF|AFcA BdcB|Acfa gefc|BAGA B:|!
+cde|f3e fcAc|f3e fage|fage fcAc|BAGA Bcde|!
+f3e fcAc|f3e fagb|afge fcAc|BAGA B:|!
+S:https://www.folktunefinder.com/tunes/42100
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

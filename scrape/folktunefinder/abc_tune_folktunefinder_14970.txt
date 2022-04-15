@@ -1,0 +1,32 @@
+X: 1
+T: Roaring Jelly
+O: trad
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Smash the Windows, which has a B1 and a B2 part.
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+   f/g/ \
+| "D"a2f d2e | f2g agf | "A7"g2e c2d | e2f gfe \
+| "D"f2d "A7"g2e | "D"a2f "G"b2g | "D"fed "A7"cde | "D"fdd d2 |]
+   f/g/ \
+| "D"aff dff | [fA]df agf | "A7"gee cee | [eA]ce gfe \
+| "D"fed "A7"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 |]
+S:https://www.folktunefinder.com/tunes/14970
+S:http://trillian.mit.edu/~jc/music/abc/jig/RoaringJelly_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RoaringJelly_D3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

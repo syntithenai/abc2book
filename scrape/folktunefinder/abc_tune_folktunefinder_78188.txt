@@ -1,0 +1,28 @@
+X:167
+T: DER LENZ IST ANGEKOMMEN
+N: B0200
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling
+M: 2/4
+L: 1/16
+K: G
+D2 | G3AB2c2 | d4e4 | d4z2
+D2 | G3AB2c2 | d4e4 | d4z2
+B2 | A3BA2G2 | F3BA2
+d2 | A3BA2G2 | F3BA2
+D2 | G4z2A2 | B4z2c2 | d3ed2
+B2 | c4d4 | B4z2
+S:https://www.folktunefinder.com/tunes/78188
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

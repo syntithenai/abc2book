@@ -1,0 +1,29 @@
+X:94
+T: ROSENSTOCK HOLDERBLUETH
+N: F0203A
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Tanz - Lied, Liebe
+M: 3/4
+L: 1/8
+K: C
+ | E3DCE, | A,2G,F,D,2
+A,2G,F,D,2 | A,2G,E,C,2
+E3DCE, | A,2G,F,D,2
+G,2A,2B,2 | C4z2
+FED4 | EDC4
+G,2A,2B,2 | CB,CDE2
+FED4 | EDC4
+G,2A,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/69654
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Tanz - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

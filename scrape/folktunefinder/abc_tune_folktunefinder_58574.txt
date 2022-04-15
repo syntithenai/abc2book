@@ -1,0 +1,26 @@
+X: 1
+T: 91st At Modder River March, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Bmin
+|: f2 | B2 B<c B2 c<e | f2 a<e f2 e<c | A2 A<B A2 c<e | f2 a<e c2 B<^A |
+B>BB<c B2 c<e | f>^ga>e f2 e>c | B>^AB<c B<fe>c | c2 B2 B2 :|
+|: c<e | f4 f2 a2 | f>ec<e f2 e>c | A>AA<B A2 c<e | f<aAa c2 B>A |
+[1 f4 f>^g a2 | f>ec<e f2 e>c | B>^AB<c B<fe>c | c2 B>^A B2 :|
+[2 B>BB<c B2 c<e | f>^ga>e f2 e>c | B>^AB<c B<fe>c | c2 B>^A B2 ||
+|: c<f | B2 B<c f>Bc<e | f>B (3BBB f2 e>c | A>AA<c e>Ac<e | f>^gaA f2 e<c |
+B>BB<c f<Bc>e | f<BB>c f2 e>c | B>^AB<c B<fe>c | c2 B2 B2 :|
+|: c<e | f2 f<a f>ec<e | f>a^g<a f2 e>c | (3AAA A<c e>Ac<e | f<aA<a f2 e>c |
+[1 f>ef<a f>ec<e | f>a^g<a f2 e>c | B>^AB<c B<fe>c | c2 B>^A B2 :|
+[2 B2 B<c f<Bc>e | f<BB>c f2 e>c | B>^AB<c B<fe>c | c2 B2 B2 |]
+S:https://www.folktunefinder.com/tunes/58574
+S:http://www.thesession.org/tunes/display/8114
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

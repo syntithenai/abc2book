@@ -1,0 +1,24 @@
+X: 1
+T: the Bonnie Hoose of Airlie
+R: march
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: http://cityofoaks.home.netcom.com/tunes/tunescores.html
+M: 4/4
+L: 1/8
+K: D
+G | A2 AB d2 dc | BA Bd e2 (3def | A3  B df ed | B4      A3 :|
+d | e2 ef a3  f | gf ef d4       | e2 ef a3  g | f3 g/f/ e3 ||
+d | e2 ef a3  f | gf ed e3 (3def | A3  B df ed | B4      A3 |]
+S:https://www.folktunefinder.com/tunes/15347
+S:http://trillian.mit.edu/~jc/music/abc/march/BonnieHooseOfAirlie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BonnieHooseOfAirlie_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

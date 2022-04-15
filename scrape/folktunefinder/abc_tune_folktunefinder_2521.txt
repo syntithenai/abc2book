@@ -1,0 +1,23 @@
+X:1
+T:Scale with alto clef
+M:C
+K:C clef=alto
+L: 1/4
+| "C,"C,"D,"D,"E,"E,"F,"F, "G,"G,"A,"A,"B,"B,\
+| "C"C"D"D"E"E"F"F "G"G"A"A"B"B \
+| "c"c"d"d"e"e"f"f "g"g"a"a"b"b"c'"c' |
+S:https://www.folktunefinder.com/tunes/2521
+S:http://trillian.mit.edu/~jc/music/abc/test/Scale_Alto.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Scale_Alto.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Scale_Alto.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Scale_Alto.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:6080
+T:Skkijrven polka
+M:4/4
+O:Finland
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000072d.html
+%%ID:0000072d
+K:A min
+az ze d2c2|c2B2 BE^GB|eeed c2B2 \
+|1 ABcB ABce :|2 ABcB A2z2 ::
+AB^cd e2a2|a2^gf gab2|e^f^ga b2c'2|b2a2 abc'2|\
+AB^cd e2a2|a2^gf gab2|e^de^f ^gefg|a4 a2::
+A^GAB cBc^c|d^cde fedf|eE^GB edcB|cdcB AE^F^G|
+A^GAB cBc^c|d^cde fedf|eE^GB edcB|A2a2 A2z2:|
+K:Dm
+a2af dAdf|a2af dAdf|a2a2b3a|gbgf e3f|\
+g2gf e2ef|g2gf e2ef|g2^g2 a3=g|fgfe d4|
+a2af d2df|a2af d2df|a2d'2 c'2b2|bc'ba g3a|\
+b4 a2g2|fgfe dA^ce|abag f2e2|d2a2 d2|]
+S:https://www.folktunefinder.com/tunes/37295
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

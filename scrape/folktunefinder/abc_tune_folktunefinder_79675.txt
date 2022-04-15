@@ -1,0 +1,26 @@
+X:571
+T: ES REGNET AUF DER BRUECKE
+N: E1877
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Kinder - Lied, Tanz, Ringelreihen
+M: 2/4
+L: 1/8
+K: F
+C | FGAB | c2c
+c | d2f2 | c2z
+c | cBBB | Acf
+A | c2c2 | F2z2
+FGAB | ccc
+c | ddfd | dccz
+cBBB | Acf2
+ecde | f2F
+S:https://www.folktunefinder.com/tunes/79675
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, tanz, ringelreihen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

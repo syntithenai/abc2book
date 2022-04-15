@@ -1,0 +1,28 @@
+X:90
+T: DER KAISER STREIT'T FUERS LAENDELEIN
+N: B0577
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Scherz -, Trink - Lied
+M: 4/4
+L: 1/8
+K: C
+E,F, | G,2C2A,2C2 | G,3F,E,2
+G,2 | G,2F,E,F,2A,2 | A,2G,2G,2
+E,F, | G,2C2A,2C2 | G,3F,E,2
+E2 | E2D2A,2B,2 | C4z2
+E,F, | G,2C2A,2C2 | G,3F,E,2
+G,G, | G,2F,E,F,2A,A, | A,2G,F,G,2
+E,F, | G,2C2A,2C2 | G,3F,E,2
+EE | E2D2F2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/62113
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Soldaten -, scherz -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

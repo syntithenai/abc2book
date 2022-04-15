@@ -1,0 +1,26 @@
+X:158
+T: ICH HABE DEN FRUEHLING GESEHEN
+N: E0739A
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Liebes - Lied, Leid, Klage, Tod
+M: 6/8
+L: 1/16
+K: F
+C2 | A3GF2F2E2F2 | A2G2z6
+C2 | B3AB2c2B2B2 | A6z4
+AB | c2B2A2A2B2c2 | d6d4
+dd | c3dc2c2B2B2 | A6z4
+AB | c2B2A2A2B2c2 | d6d4
+dd | c3dc2c2B2B2 | A6z4
+S:https://www.folktunefinder.com/tunes/76643
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

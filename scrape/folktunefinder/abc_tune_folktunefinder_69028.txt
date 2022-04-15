@@ -1,0 +1,26 @@
+X:169
+T: AUS ENGLAND KAM EIN BETTLER HERAUS
+N: Z0168
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Erzaehlung, lustige Romanze
+M: 4/4
+L: 1/8
+K: F
+FA | c2AAABcd | cBGGG2
+AB | dcBAcBAG | d2c2A2
+FA | c2AAGBcd | cBGGG2
+AB | BAAAABcd | cBGGG2
+AB | dcBAcBAG | F2c2A2
+S:https://www.folktunefinder.com/tunes/69028
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

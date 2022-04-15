@@ -1,0 +1,25 @@
+X:415
+T: "Der verstellte Raeuber"
+N: Z1095
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Romanze, Ballade, Tod
+M: 4/4
+L: 1/16
+K: G
+G2G2A2 | B4A4B4c2B2 | A8z4
+B2A2 | G4G2F2G4B4 | A4B2A2G4
+A4 | F2E2F2D2E2F2 | G3AB2A4
+B2 | E4E2D2G2G2 | A4G2
+S:https://www.folktunefinder.com/tunes/69274
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

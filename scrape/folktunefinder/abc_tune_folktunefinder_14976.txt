@@ -1,0 +1,26 @@
+X: 1
+T: Rocks of Targil
+C: Tom Anderson
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c/B/ \
+| "A"A2E "D"FGA | "E7"EFG "A"A3 | "A"Ace "F#m"cef | "B7"ecA "E7"B2c/B/ \
+| "A"A2E "D"FGA | "E7"EFG "A"A2B | "F#m"cea "E7"cdB | "A"A3-A2 :|
+|: c/d/ \
+| "A"e2a "A7"c2a | "D"f<da "A"e3 | "A"Ace "F#m"cef | "B7"ecA "E7"B2c/d/ \
+| "A"e2a "A7"c2a | "D"f<da "A"e2d | "F#m"cef "E7"ecB | "A"A3-A2 :|
+S:https://www.folktunefinder.com/tunes/14976
+S:http://trillian.mit.edu/~jc/music/abc/jig/RocksOfGargil_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Tom_Anderson/RocksOfGargil_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RocksOfGargil_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

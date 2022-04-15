@@ -1,0 +1,18 @@
+X:1
+T:Absalom (round)
+M:2/4
+L:1/8
+K:F
+ d2 _d=B| B4| =B2 AG| _G2 _d2| B2=B-_d| d4| _d2 dd| _e4| _g4| _g2 e2|\
+ _g3 e| d2d-e| _g4| _d2 =dB| =B3 B| =B2 _B2| =B2 B2| =B4| A3 G| _G2 G2|\
+ G2 _GE| _E2 =E2| _G4| D2 =B,2| _G3 G| =B,4-| =B,2 z2|
+S:https://www.folktunefinder.com/tunes/76485
+S:http://back.numachi.com:8000/dtrad/abc/ABSALSON.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ABSALSON.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:33
+T:Garrett Barry's Jig
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of Dmix)
+K:Dmix
+"Am7"DEF ~G3 | "C"AGE c2A | "D"dcA d2e | fed cAG |
+~F3 GFG | AGA cde | "C"dcA GEA |1 "D"~D3 D2 A :|2 "D"~D3 D2d ||: 
+"D"dcA d2e | fed efe | "Am7"dcA c2d | egc edc |
+"D"dcA d2e | fed efe | "C"dcA GEA |1 "D"~D3 D2d :|2 "D"~D3 D2A |]
+S:https://www.folktunefinder.com/tunes/62900
+S:http://www.irishtradmusic.org/100moretunes.abc
+% Rhythm Jig (key of dmix)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

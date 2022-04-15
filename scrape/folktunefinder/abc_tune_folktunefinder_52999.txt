@@ -1,0 +1,30 @@
+X: 110
+T:Philips's Hornpipe,aka. JMT.106
+M:4/4
+L:1/8
+Q:180
+C:untitled
+S:J.Moore,Tyneside,1841.(75a)
+R:Hornpipe
+O:England
+A:Northumbria
+N:Untittled in this collection, but "Philips's HP" in J.Moore of
+N:Shropshire
+Z:vmp.Chris Partington
+K:D
+Ac|d2fd (cd)Bc|(AB)AG (FD)FA|(BG)Bd (cA)ce|(df)af (gf)ge|!
+d2fd (cd)Bc|(AB)AG (FD)FA|(BG)Bd (cA)ce|d2d2d2:|!
+|:ag|(fa)fd (fa)fd|(gb)ge (gb)ge|(fa)fd (fa)fd|edcBA2ag|!
+(fa)fd (fa)fd|(gb)ge (gb)ge|(fe)dc (Bg)ec|d2d2d2:||
+S:https://www.folktunefinder.com/tunes/52999
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

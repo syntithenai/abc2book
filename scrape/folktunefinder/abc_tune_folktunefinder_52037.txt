@@ -1,0 +1,25 @@
+X:1
+T:La Chapka
+R:Mazurka
+C:Vincent Leutreau
+B:Les Panards Dansants
+M:3/4
+L:1/8
+K:G
+"G"B2 BA AB|"Em"B3G GA|"C"A3B cB|"D"BA AG GA|\
+"G"B2 BA AB|"Em"B3G GA|"C"A2 AB cB|1"D"A6:|2"D"A3d BA|
+|:"G"G3A BD|"C"E3d BA|"G"G3B "Am"ce|"D"dF Ad BA|\
+"Em"G3A BD|"C"E3d BA|"Am"GF GB ce|1"D"d3d BA:|2"D"d6|]
+%%newpage
+%%center Jigs (for e.g. Chappelloise)
+S:https://www.folktunefinder.com/tunes/52037
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

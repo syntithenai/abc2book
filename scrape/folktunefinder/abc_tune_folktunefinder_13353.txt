@@ -1,0 +1,26 @@
+X:1
+T:Wee Hieland Laddie
+M:2/4
+L:1/8
+Q:210
+S:Derek Hoy  scots-l 2001-11-30
+R:March
+K:BMin
+| B2 ce | f2 ec | B2 A>B | cB Bc | e>f ec | e2 cB | A2 c>B | BA AG |
+  A2 AA | a3 ^g | f>e fa | fe ce | f>^g a^g | f2 ec | B2 f>e | cB B2 |
+| a>^g fa | f2 ef | a>^g fa | fe cf | e>f ec | e2 cB | A2 c>B | BA AG |
+  A2 AA | a3 ^g | f>e fa | fe ce | f>^g a^g | f2 ec | B2 f>e | cB B2 ||
+S:https://www.folktunefinder.com/tunes/13353
+S:http://trillian.mit.edu/~jc/music/abc/air/WeeHielandLaddie_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/WeeHielandLaddie_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/WeeHielandLaddie_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

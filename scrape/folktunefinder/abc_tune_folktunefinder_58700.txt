@@ -1,0 +1,31 @@
+X:12
+T:Gillan's Apples
+C:Trad
+S:O'Neill's
+I:speed 280
+M:6/8
+K:G
+M:6/8l
+|:ef | 
+M:6/8
+ggg B2A | GAG GBd | efe edB | dBA A3 |
+GBd gdB | GBd g2 a | bag fge | ed^c d2:|
+M:6/8l
+|:eg | 
+M:6/8
+faa faa | faa afd | gbb gbb | gbb bag | 
+faa faa | faa afa | bag fge | ed^c d2:|
+S:https://www.folktunefinder.com/tunes/58700
+S:http://ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/moreTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/moreTunes.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/xij
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xij
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

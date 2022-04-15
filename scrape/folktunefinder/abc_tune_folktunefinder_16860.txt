@@ -1,0 +1,28 @@
+X: 1
+T: Bubbling Wine
+C: Paddy O'Brien
+R: reel
+Z: id:hn-reel-337 (Henrik Norbeck, slightly edited by John Chambers)
+M: C |
+K: Edor
+|: BE~E2 d2^cd | BE~E2 ADFA | GBEF  GABd  | g2fg  edBA |
+|  B=cBA GBdB  | A2^GB ADFA | BE~E2 GBe^c | dBA=c BE~E2 :|
+|: Be~e2 gebe  | Ad~d2 fdad | Beed  efge  | fgaf  gfef |
+|  g2fg edB^c  | defe dBA=c | BE~E2 GBe^c | dBA=c BE~E2 :|
+P: Variations
+|: BE~E2 d2d^c | BE~E2 ADFA | GBEF  GAef | g2fg  egd=c |
+|  B=cBA GBdB  | BAGB  AGFA | BE~E2 GBeB | dBA=c BE~E2 :|
+|: Be~e2 gebe  | ad~d2 fdad | be~e2 efge | fgaf  gfed |
+|  g2fg  edB^c | d2fe  dBAF | BE~E2 GBeB | dBA=c BE~E2 :|
+S:https://www.folktunefinder.com/tunes/16860
+S:http://trillian.mit.edu/~jc/music/abc/reel/BubblingWine.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BubblingWine.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

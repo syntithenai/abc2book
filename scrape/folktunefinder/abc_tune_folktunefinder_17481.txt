@@ -1,0 +1,31 @@
+X: 1
+T: Kate Dalrymple
+T: Jinglin' Johnnie
+S: Atholl
+C: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: C|
+R: Reel
+K: A
+|: "A"A2 Ac "E7"B2 Bc |"A"A2 Ac "E7"B2 Bc | "A"A2 ag "D"fedc | "E7"B2 e2 "A"c2 A2 :|
+[| "A"e2 ef edcd | "A"e2 a2 e2 cd | "A"e2 ef edcd | "A"e2 ag fedc |
+| "D"d2 fd "A"c2 ec | "E7"B2 Bc ~d2 cB | "A"A2 ag "D"fedc | "E7"B2 e2 "A"c2 A2 |]
+S:https://www.folktunefinder.com/tunes/17481
+S:http://trillian.mit.edu/~jc/music/abc/reel/KateDalrymple.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/KateDalrymple_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/KateDalrymple.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/KateDalrymple_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/KateDalrymple.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/KateDalrymple_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/KateDalrymple_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/KateDalrymple_A.abc
+S:http://trillian.mit.edu/~jc/music/book/500/KateDalrymple.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

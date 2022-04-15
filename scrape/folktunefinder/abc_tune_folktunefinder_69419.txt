@@ -1,0 +1,23 @@
+X:560
+T: "Das Stelldichein"
+N: Z1240
+O: Europa, Mitteleuropa, Oesterreich
+R: Liebes - Lied
+M: 3/8
+L: 1/8
+K: D
+FFF | GFG | A3
+AdF | AGE | D3
+AdF | AGD | GBD | GFD
+FFF | GFG | A3
+AdF | AGE | D3
+S:https://www.folktunefinder.com/tunes/69419
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

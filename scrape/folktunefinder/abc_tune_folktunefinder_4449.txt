@@ -1,0 +1,30 @@
+X: 6
+T: Raatikkon
+O: Trad Finland
+M: 2/4
+L: 1/8
+P: C2 G2 ...
+K: C
+P: C:
+[| "C"EG C2 | EG C2 | "G7"DE FG | "F"A2 "G7"G2 \
+|  "C"EG C2 | EG C2 | "G7"DE FB,| "G7"D2 "C"C2 ||
+|: "C(Am)"c2 c2 | "G7(Em)"B2 B2 | "F"AA/c/ BA | "C"G3 z \
+"I"\
+|  "F"FA GF | "C"EG FE | "G7"DF ED | "C"C3 z :|
+P: C:
+K: G
+[| "G"Bd G2 | Bd G2 | "D7"AB cd | "C"e2 "D7"d2 \
+|  "G"Bd G2 | Bd G2 | "D7"AB cF| "D7"A2 "G"G2 ||
+|: "G(Em)"g2 g2 | "d7(Bm)"f2 f2 | "C"ee/g/ fe | "G"d3 z \
+|  "C"ce dc | "G"Bd cB | "D7"Ac BA | "G"G3 z :|
+S:https://www.folktunefinder.com/tunes/4449
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Rev20070912.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:342
+T: OP DOE GROENE WESE
+N: E0966A
+O: Europa, Mitteleuropa, Deutschland; Russland, Litauen
+R: Tanz - Lied, Reigen, Mai - Tanz
+M: 2/4
+L: 1/8
+K: C
+ | G,CB,D | CCG,z
+A,2B,2 | C2z
+G, | G,CB,D | CCG,
+G, | A,F,F,A, | G,E,E,
+C | B,G,A,B, | C2z2
+S:https://www.folktunefinder.com/tunes/76827
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, mai - tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

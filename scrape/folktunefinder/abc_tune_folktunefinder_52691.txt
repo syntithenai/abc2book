@@ -1,0 +1,25 @@
+X:2
+T:4. Lachrim\ae Tristes
+T:Altus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+N:Original clef, C on second line
+K:Amin
+A3 G/ F/ E2 F3 E E3 ^F "(1)"G3 F/ E/ F > E D2 E ^D C E E > F G > A B c2 B A2 ^G3 G E A > A G2 F/ E/ F3 E2 D E4 E8 ||
+N: Originally dotted quarter eighth.  Also the ^D C seems unlikely
+^D6 ^D2 E2 E3 F/ G/ F E D2 D4 D2 D E2 E C > D E > F G4 A4 G4 G3 F E2 D2 C . A, C D C/ B,/ C/ D/ E3 E E2 E8 ||
+E2 ^G3 A2 ^G E4 E2 E2 F E/ D/ C D E3 D/ C/ G F/ E/ D E F3 E/ D/ E3 F ^G2 E2 E8 z E2 D E3 E H^C8 |]
+S:https://www.folktunefinder.com/tunes/52691
+S:http://www.laymusic.org/music/dowland/tristes/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

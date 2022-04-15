@@ -1,0 +1,29 @@
+X:83
+T:Lou Rei Rene
+O:France
+A:Provence
+C:Trad.
+R:Marche
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-02-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Bb
+V:Galoubet
+F | B2 B/c/d/c/ B3B/c/ | dd d/e/f/e/ d3d/d/ | f>f g>g f3d/e/ ff g/f/e/d/ | c3 :|
+d/e/ | f2g>d e2c>d | ee d/e/f/c/ d3B/c/ | d2 f>e d2 f/e/d/c/ | Bd c2 B3d/e/ |
+ f2g>d e3c/d/ | ee d/e/f/c/ d3B/c/ |  d2f>e d2f/e/d/c/ | Bd f/e/d/c/ B4 |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40282
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

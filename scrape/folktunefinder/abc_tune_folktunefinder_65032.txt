@@ -1,0 +1,22 @@
+X:1420
+T:Shandon Bells
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:D
+P:A
+B|"D"AFD DFA|"D"ded "A"cBA|"Em"BGE EGA|"Em"B2A "A7"Bcd|
+"D"AFD DFA|"D"ded "A"cBA|"Em"Bcd "A7"ecA|"D"d3 d2:|
+P:B
+g|"D"f2d ded|"D"faa afd|"A"cAA eAA|"A"cAc "A7"efg|
+"D"f2d ded|"D"faa afd|"G"Bcd "A7"ecA|"D"d3 d3/2:|
+S:https://www.folktunefinder.com/tunes/65032
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

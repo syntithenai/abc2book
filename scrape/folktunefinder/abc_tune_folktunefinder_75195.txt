@@ -1,0 +1,22 @@
+X: 23
+T: Apollo Club -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+(3(uEFG)|vA2A2 ABcd|ecea ecBA|fedc dcBA|GABc .B2((3EFG)|
+A2A2 ABcd|ecea ecBA|fedc BAGB|A2A2A2:|
+|:(ucd)|vecea ecea|fdfa fdfa|fedc dcBA|GABc B2(ucd)|
+ecea ecea|fdfa fdfa|fedc BAGB|A2A2A2:|
+S:https://www.folktunefinder.com/tunes/75195
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/AB.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

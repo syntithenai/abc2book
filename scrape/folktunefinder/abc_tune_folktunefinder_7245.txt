@@ -1,0 +1,17 @@
+X: 1
+T: Oseh Shalom
+C: N.Hirsch
+M: C
+L: 1/8
+P: ABBCBB
+%%continuous 1
+K: Cm
+CE "A"|| "Gm"G3 G "Ab"G2 GG | "Gm"G4- "Ab"G4 | "Ab"A2 AA "Fm"Ac BA | "Gm"G4 "Cm"G4 |
+S:https://www.folktunefinder.com/tunes/7245
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/OseShalom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

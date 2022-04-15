@@ -1,0 +1,24 @@
+X: 7
+T:Miss Caroline Heycock's Return from the Red Sea
+M:13/8
+L:1/8
+Q:180
+C:Mits Ota
+K:F# minor
+f2 dc BcB =f2 dc B2 | =f2 dc Bc Bdc^f =f2 c |
+f2 dc Bcd =f2 dcB2 | zdcf =fc f^f=fd c2 c |
+=F^FGA B2 G Bdcf =f2 | zf=fg ^f=f dcB=F G2 G|
+=F^FGA B2 G BA Bc dc | =f2 c d2 c f2 c f2 f2|
+^f2 fB BfB Bcd Bcf | =f2 fc cfc fdc Bcf|
+f2 fB BfB Bcd Bcd | =f^f=f dcB GAG ^F2 F2|
+f2 fB BfB Bcd Bcf | =f2 fc cfc =f^fg =f^fg|
+f2 fB BfB Bcd Bcd | z^f=f dcB GAG ^F2 F2||
+S:https://www.folktunefinder.com/tunes/67672
+S:http://www.ling.ed.ac.uk/~mits/mytunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 13/8
+% Has_accompaniment_chords No chords

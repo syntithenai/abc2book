@@ -1,0 +1,28 @@
+X:261
+T: Feierabend (3-63), S. 181
+N: P1036
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Liebe, Fenstergang, Verfhrung]
+M: 3/4
+L: 1/16
+K: G
+A3G | G4D4B3B | B4G4
+B2c2 | d4d4c2A2 | B8
+d2c2 | B4d4e2c2 | B2c2d4
+B2A2 | G2A2B4A3A | G8
+d2c2 | B4d4e2c2 | B2c2d4
+B2A2 | G2A2B4A3A | G8
+S:https://www.folktunefinder.com/tunes/76241
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Liebe, fenstergang, verfhrung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

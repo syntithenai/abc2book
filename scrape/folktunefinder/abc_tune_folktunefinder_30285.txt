@@ -1,0 +1,51 @@
+X:12
+T:31juillet00
+C:Eric Forgeot
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+N:il y a un petit pb avec la mise en place de la 3me partie...
+M:4/4
+L:1/8
+Q:1/4=120
+K:Bb
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+cc ed cd B2 | ef gc cB c2 | cc ed cd B2 |  ed dc cB c2 |
+(3c-cc (3e-ed (3c-cd B2 | ef (3g-gc cB c2 | c>c e>d c>d B2 |  e>d d>c c>B c2 |
+(3c-cd e4 f2-|f2 b2 a4 | (3c-cd e4 f2-|f2 G2 A4 |
+%premire partie
+[Gg][Gg] [G2c2] [G2g2] [Gg] [Ad] | [Bf][Bf] [A3a3] A GG | 
+C2F2 GB AB | c2 c2 GG C2 G2 
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+C>C G3E DE     | C4 B,>B,C2     | C>C G3E DE     | G3 FE>D C2     |
+C>C G3E DE     | C4 B,>B,C2 | C>C G3E DE     | G3 FE>D C2 |
+C>C E4 D2-|D2 E2 D4 | C>C E>F G4 | C>C D6 |
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+z8             |z8              | G,>G, C3-C/D/ B,2-| B,3 A, G,>F, G,2 |
+G,>G,(3EDE F4 | G,>G, C3-C/D/ B,2|z8       |z8             |
+G,>G, C,4 F,2-|F,z/F,/ (3G,F,E, D,4 | G,>G, C,4 F,2-|F,>F, (3G,F,E, D,4 |
+%1re partie
+G,G, C,2 G,2 F,G, | FE D2 DD GG | C2 F2 FG AF |  %repet
+S:https://www.folktunefinder.com/tunes/30285
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

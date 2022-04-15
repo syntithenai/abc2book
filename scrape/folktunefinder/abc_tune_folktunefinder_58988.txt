@@ -1,0 +1,32 @@
+X:101
+T:Baille de Panderu (CT 457)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Baille de Panderu, transcrita en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 457
+M:6/8
+L:1/8
+Q:3/8=88
+K:C
+|Gcc Bcc|_B B2-B3|F_AA FAA|G G2-G2 z|
+Gcc ccc|ccB BAA|G2 F-F3|F_BB ABB|_A2 G-G3-|G2 z4||
+W:Toca, pandereta, toca,
+W:que te tengo reventare;
+W:cuando mia amante bailaba, morenita ma,
+W:nun qusiste retumbare.
+W:
+S:https://www.folktunefinder.com/tunes/58988
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

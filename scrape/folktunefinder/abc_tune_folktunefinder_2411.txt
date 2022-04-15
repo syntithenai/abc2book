@@ -1,0 +1,23 @@
+X: 1
+T: Incipit Test 1 (keysigs and lengths)
+K: C
+[K:A][L:1/8]  [| "Barnyards of Delgaty"c>B AE | FA FE |] \
+[K:D][L:1/16] [| "Boys of Bluehill"B3A/2F3A/2 D4 F3A/2|B3A/2 (3Bcd |] \
+[K:G][L:1/8]  [| "Captain Taylor's March"G>F GA | B2 gf | eg/e/ dB | A2 |] \
+S:https://www.folktunefinder.com/tunes/2411
+S:http://trillian.mit.edu/~jc/music/abc/test/IncipitTest1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/IncipitTest1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/IncipitTest1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/IncipitTest1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

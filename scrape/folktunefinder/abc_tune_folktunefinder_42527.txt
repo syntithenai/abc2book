@@ -1,0 +1,23 @@
+X:1931
+T:Paddy O'Rafferty's
+O:ireland
+Z: id:dc-jig-98
+M:6/8
+L:1/8
+K:D Major
+dBA|dff cee|def gfe|dff cee|dfe dBA|!
+dff cee|def gfe|faf gfe|dfe:|!
+dcB|A3 B3|gfe fdB|A3 B3|dfe dcB|!
+A3 B3|gfe efg|faf gfe|dfe:|!
+dBA|fAA eAA|def gfe|fAA eAA|dfe dBA|!
+fAA eAA|def gfe|faf gfe|dfe:|!
+S:https://www.folktunefinder.com/tunes/42527
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

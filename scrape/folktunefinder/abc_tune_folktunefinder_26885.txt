@@ -1,0 +1,26 @@
+X:6433
+T:Tarnbrook rant
+O:england
+R:Triple Hornpipe
+M:3/2
+N:A hamlet on the edge of the Forest of Bowland
+L:1/8
+K:Dm
+FEA2 Bcd2 gfed | e2E4 c2cBAG |\
+FEA2 Bcd2 gfef | d2D4 c2cBAG :|
+|:gfed gfa2 gfed | e2E4 c2cBAG |\
+gfed gfa2 gfed | e2E4 c2cBAG :|
+|:BGA2 Bcd2 G2FG | c2E4 c2 cBAG |\
+GFA2 Bcd2 GFA2 | d2D4 c2cBAG:|
+S:https://www.folktunefinder.com/tunes/26885
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

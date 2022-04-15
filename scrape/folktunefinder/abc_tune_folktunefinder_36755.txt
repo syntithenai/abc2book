@@ -1,0 +1,27 @@
+X:3380
+T:Martins Begravning
+L:1/16
+M:3/4
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a7b.html
+%%ID:00000a7b
+K:G
+D2|\
+G3A B2Bc B2G2|BABc d2de d2B2|\
+d2ef [g2B2]z2 d3c|"tr"B2AG A6:|
+|:\
+D2|\
+B2BB BAAA A2A2|B2BB BdcB A2A2|\
+"tr"B2AB cdcA B3d|dcAF G6:|
+S:https://www.folktunefinder.com/tunes/36755
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

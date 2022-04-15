@@ -1,0 +1,36 @@
+X:126
+T:Steirer, Privatarchiv Hofer Sammelgut Heiderer Resi 18/3
+C:traditionell
+R:Steirer
+B:"Hundert Steirer aus dem Ausseerland", F .Hofer, Steirisches Volksliedwerk, Graz, undated,
+N:im buch in F, nr. 12
+S:Privatarchiv Hofer, Sammelgut Heiderer Resi 18/3, Aussee, 1886-1964
+A:Aussee, Salzkammergut
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:C
+V:1
+%violino 1mo
+G2 |\
+GABgfB | cegeca | g2 fBfB | ceGecE |\
+GABgfB | cegeca | g2 fAfB | c4 :|
+V:2
+%violino 2do
+B2 |\
+Bc db af | eg c'g ec' | b2 af af | eg Bg eG |\
+Bc db af | eg c'g ec' | b2 af af | e4 :|
+S:https://www.folktunefinder.com/tunes/45560
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X:69
+T:Asturies, Patria Querida (JHM 007) (Arrg.)
+R:Cancin
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 007
+M:3/4
+L:1/8
+Q:1/4=60
+K:F
+C2|"F"A2 A2 "C7"BA/B/|"F"c(d c2) zc|
+"Bb"d2 B2 dc/B/|"F"c(c/B/ A2) zC|
+A2 A2 "C7"BA/B/|"F"c(d c2) zc|
+"Bb"d2 B2 dc/B/|"F"c(c/B/ A2) FF/F/|
+|"Bb6"dd/^c/ dd "C7"ee/d/|"F"cA/B/ c2 dd/c/|
+"C7"BG/A/ BB cc/c/|"F"dc/B/ A2 FF/F/|
+"Bb6"dd/^c/ d2 "C7"ee/d/|"F"cA/B/ c2 dd/c/|
+"C7"BG/A/ BB cc/c/|"F"dc/B/ A4-|A2 z4||
+W:Asturias, patria querida,
+W:Asturias de mis amores,
+W:quien estuviera en Asturias
+W:en algunas ocasiones.
+W:
+W:Tengo de subir al rbol, 
+W:tengo de coger la flor
+W:y drsela a mi morena,
+W:que la ponga en el balcn,
+W:que la ponga en el balcn,
+W:que la deje de poner,
+W:tengo de subir al rbol
+W:y la flor he de coger.
+W:
+S:https://www.folktunefinder.com/tunes/58956
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Cancin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

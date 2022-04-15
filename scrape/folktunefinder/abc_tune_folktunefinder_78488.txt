@@ -1,0 +1,26 @@
+X:47
+T: STOLZ HEINRICH DER WOLLT FREIEN GEHN
+N: E0040
+O: Europa, Mitteleuropa, Deutschland, Niederrhein; Siebengebirge
+R: erzaehlendes Volks - Lied, Ritter - Sage
+M: 2/4
+L: 1/16
+K: A
+E2 | A2=c2B2A2 | A2G2G2
+E2 | A2B2=c2c2 | B4z2
+A2 | =c2B2c2A2 | =c4e4
+A3Bc2A2 | G2F2E2
+B2 | =c2B2c2A2 | =c4e2
+c2 | B2A2G2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/78488
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

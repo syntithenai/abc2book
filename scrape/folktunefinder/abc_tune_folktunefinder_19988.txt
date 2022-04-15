@@ -1,0 +1,25 @@
+X: 1
+T: In the Good Old Summer Time
+C: Gerge Evans
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/4
+K: F
+c/d/ \
+| "F"cA2 | c2f | a3- | agf | "Bb"fg2 | f2d | "F"c3- | "C7"cz2 |
+| "F"A2c | f2g | a2g | f3 | "G7"g2a | g2a | "C"g3- | "C7"gzc |
+| "F"A2c | f2g | a2g | f2f | "Bb"f2g | fdf | "F"c3- | "C7"czc |
+| "F"A2c | fg2 | "A7"a2g | "Dm"f2c | "G7"df2 | "C7"f2g | "F"f3- | fz |]
+S:https://www.folktunefinder.com/tunes/19988
+S:http://trillian.mit.edu/~jc/music/abc/waltz/InTheGoodOldSummerTime_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/waltz/InTheGoodOldSummerTime_F.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:448
+%%topmargin 3cm
+T:Blue Bonnets over the Border
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:6/8
+L:1/8
+K:Bb
+"Slow with Expression"B,3- B,C/D/ | B>cd TB2 F | BGG G2 f | ~g>fd {/d}Tc2 B | B,2 B, TB,>CD | B>cd/c/ {/c}BGF | !sfz![B,3G3] (FD)wF | (FBD) {/D}C2 B, :|
+(Bd).f (fd).B | g>fd {/d}Tc2 B | (Bd).f Tg>ab | B>cd/e/ {/d}Tc2 B | (Bd).f (fd).B | Tg>fd {/d}cBc | !sfz![B,3G3] (FD)wF | (FB).D {/D}C2 B, |
+(Bd).f (fd).B | ~g>fd {/d}Tc2 B | (Bd).f Tg>ab | B>cd/e/ {/d}Tc2 B | (Bd).f (fd).B | Tg>fd {/d}cBc | !sfz![B,3G3] (FD)wF | (FB).D {/D}C2 B, |]
+S:https://www.folktunefinder.com/tunes/71477
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Blue_Bonnets_over_the_Border_1.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0448.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

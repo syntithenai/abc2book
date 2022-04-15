@@ -1,0 +1,43 @@
+X:865
+T:Xiraldilla (CT 359)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Cabranes.
+A:Asturies
+O:Cabranes
+Z:Cancioneru de Torner 359
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|: BB AB|c2 B2|A2 G2|BB AB|c2 B2|A2 z2|
+GF EF|G2 F2|E2 D2|BB AB|c2 A2|G2 z2 :|
+GF EF|G2 F2|E2 D2|BB AB|c2 A2|G2 z2||
+W:Morenita, dame un beso,
+W:dame un abrazo tambin;
+W:morenita, dame un beso,
+W:que nunca te olvidar.
+W:
+W:Ella por su cobarda
+W:no me lo quera dar;
+W:vivan los cuerpos salados
+W:que tienen salero y sal,
+W:
+W:y los mozos de este pueblo
+W:que ahora salen a bailar.
+W:
+S:https://www.folktunefinder.com/tunes/59752
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

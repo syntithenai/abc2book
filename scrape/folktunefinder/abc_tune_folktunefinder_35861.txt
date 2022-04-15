@@ -1,0 +1,24 @@
+X: 10437
+T:Graham's Hornpipe
+M:2/4
+L:1/16
+C:Graham Townsend
+R:Hornpipe
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/CFtunes1.abc
+K:G
+dc|"G"BGDB, G,B,DB,|"C"CDGc e2eg|"D7"f2AB cBFD|"G"GABc d2 dc|!
+BGDB, G,B,DB,|"C"CEGc e2g2|"D7"f2AB cAFD|"G"[B,2G2][B,2G2][B,2G2]:|!
+K:D
+|:FG|"D"ABAG FDFA|d2d2 d2cd|"A7"efed cAce|[c2a2][c2a2][c2a2] FG|!
+"D"ABAG FDFA|"G"G2B2 B2ed|"A7"cdef ((3gfe) ce|"D"d2d2d2:|]
+S:https://www.folktunefinder.com/tunes/35861
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:109
+T:Per noun langui long dou camin
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:France
+R:Nol
+A:Provence
+M:6/8
+L:1/8
+Q:3/8=80
+K:F
+(d^cd | A2A f2f | e3 def | d2e d2^c |
+!breath!d3) (d^cd | A2A f2f | e3 def | d2e (d2^c) |
+!breath!d3) (=ccc | f2c c2c | A2A d2c | B2A G3 |
+!breath!A3) (ABG | A3) (ABG | A2)(A d2f | e2d d2^c |
+!breath!d3) (ABG | A3) (ABG | A2)(A d2f | e2d d2^c | d3) |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/40307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Nol
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

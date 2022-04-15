@@ -1,0 +1,29 @@
+X: 1
+T: Sadie's Waltz
+C: 
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu> from a handwritten MS.
+M: 3/4
+L: 1/8
+K: C
+(3GAB \
+| "C"c2 G2 c2 | "C/B"e2 c2 e2 | "Em"g2 e2 b2 | "Am"a4 e2 \
+| "Dm"d3 e f2 | "Dm/C#"g2 f2 e2 | "Dm/C"(3ded c2 A2 | "G"G4 (3GAB |
+| "C"c2 G2 c2 | "C/B"e2 c2 e2 | "Em"g2 e2 b2 | "Am"a4 e2 \
+| "F"d3 c A2 | "G"G2 (3efe d2 | "F"c3 B c>d | "C"c4 :|
+|: E>F \
+| "C"G2 E2 C2 | "C7"_B,4 d>c | "F"B2 c2 A2 | "C"G4 E>G \
+| "F"B2 c2 A2 | "C/E"G2 E2- (3EFE | "F"D2 E2 F2 | "G"G3 ^F G>A |
+| "C"G2 E2 G2 | "F"A4 d>c | "E7"B2 c2 d2 | "Am"e4 (3efe \
+| "Dm"d3 c A2 | "G"G2 e2 d2 | "F"c3 B c>d | "C"c4 :|
+S:https://www.folktunefinder.com/tunes/20174
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SadiesWaltz_C.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

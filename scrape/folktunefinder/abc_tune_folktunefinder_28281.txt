@@ -1,0 +1,49 @@
+X:7829
+T:Valse Clogue
+O:england
+C:Trad 2, 50
+C:Wood/Cutting: Sidmouth
+C:Pennec: Turbulences
+M:3/4
+L:1/8
+K:C
+E:12
+P:A
+f2|:e2 AB (3cBA|eA Bc BA|FF FA FA|A2 (3EGE (3CEC|\
+e2 AB cA|eA Bc BA|BB Be Be|(3BBB ee ed|
+e2 AB (3cBA|eA Bc BA|FF FA FA|A2 (3EGE (3CEC|\
+e2 f2 (3efe|(3ded (3cdc (3BcB|AF ED CE|1 A4 f2:|2 A4 GG||
+P:B
+|:GG ff AA|B2 dB (3ABA|GG ee GG|AA AG AG|\
+G2 f2 A2|B2 e2 B2|d2 (3cec (3ABA|Gg Gg GG|
+GG ff AA|B2 dB (3ABA|GG ee GG|AA AG AG|\
+G2 f2 A2|B2 e2 B2|(3cec Bc eg|1 c'g eg ce:|2 c'4||
+P:C
+G AB|:ce cB ce|d2 (3cec d2|eG gG (3ege|d2 (3cec d2|\
+e2 c'2 a2|
+(3gc'g (3ege (3cec|1 (3ddd de dc|\
+B2 (3ABA (3GAB:|2 fa gf AB|cc cG AB||\
+P:C'
+|:ce cB ce|dG cG dG|eG gG eG|dG cG dG|\
+eG c'G aG|
+gG eG cG|1 (3ddd de dc|\
+B2 (3ABA (3GAB:|2 fa gf AB|cc cG AB||
+P:D
+ce cd ef|g2 eg eg|c'2 b2 (3aba|g3 a ge|\
+f2 fg fd|
+ee ef ec|1 dd de dc|\
+B2 (3ABA (3GAB:|2 da gf AB cc cG AB||\
+P:D'
+ce cd ef|g2 eg eg|c'c bc ac|g3 a ge|\
+(3fff fg fd|ee ef ec|(3ddd de dc|B2 (3ABA (3GAB|
+ce cd ef|g2 eg eg|c'2 b2 (3aba|g3 a ge|\
+f2 fg fd|ee ef ec|(3dfa gf AB|c2||
+S:https://www.folktunefinder.com/tunes/28281
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

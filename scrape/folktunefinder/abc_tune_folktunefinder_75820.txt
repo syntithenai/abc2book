@@ -1,0 +1,26 @@
+X: 8
+T:Old Woman Tossed Up, CJS (JG's version is similar)
+M:6/8
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:Bb
+P:A
+  F>GA Bcd|efe dcB|edc cfe|dcB AGF|
+  F>GA Bcd|efe dcB|edc cfe|dcB B3|
+P:B
+  cde cde|cde f3|fgf fgf|b2d dcB|
+  F>GA Bcd|efe dcB|edc cfe|dcB B3||"@alt B4"c'2d dcB|
+S:https://www.folktunefinder.com/tunes/75820
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

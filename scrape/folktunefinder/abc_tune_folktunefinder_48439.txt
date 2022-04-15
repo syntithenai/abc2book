@@ -1,0 +1,25 @@
+X: 8
+T:Flavor of the Month, The
+M:C|
+L:1/8
+Q:230
+C:Brendan Callahan
+S:Cleek Schrey
+R:reel
+Z:Devin McCabe
+K:GMin
+DF|:G2 A BGGA|BGcG BGGF|DFFd cAFA|BGAF GFDC|
+!B,DGA BGGA|BGcG BGGF|DFFd cAFA|1BdcA G2 DF:|2BdcA G3 B|
+!:d ~g3 bgdg|fdce dBGB|AFcF dFcF|BdcF GFDc|
+!BGDB A^FDc|BGD=B cA^FA|d ~g3 fdcA|1BdA^F G3 B:|2BdA^F G2 DF|
+S:https://www.folktunefinder.com/tunes/48439
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irishtunes.net/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

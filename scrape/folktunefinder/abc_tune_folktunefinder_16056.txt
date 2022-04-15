@@ -1,0 +1,42 @@
+X: 1
+T: Buffalo Polka
+C: Walter Lob (Jan 1998)
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"A"
+|:"A"A3B c2f2 | e2c2 cdc2 | "E7"d2B2 BcB2 | "A"e2c2 cdc2 |\
+| "A"A3B c2f2 | e2c2 cdc2 | "E7"Bcde f2g2 | "A"a4 a4 :|
+K: E
+"B"
+|:"E"b4 a4 | g2b2 e3g | "B7"f2a2 B3d | "E"e2g2 b3g |\
+| "E"b4 a4 | g2b2 e3g | "B7"f2g2 a2d2 | "E"e4 e4 :|
+K: A
+"A"
+[|"A"A3B c2f2 | e2c2 cdc2 | "E7"d2B2 BcB2 | "A"e2c2 cdc2 |\
+| "A"A3B c2f2 | e2c2 cdc2 | "E7"Bcde f2g2 | "A"a4 "fine"a4 |]
+P: Trio
+K:D
+"C"
+|:"D"f6 a2 | d6 f2 | "A7"e2g2 A3c | "D"d2f2 a4 |\
+| "D"ffff f2a2 | dddd d2f2 | "A7"efg2 A2c2 | "C"d4 d4 :|
+K:A
+"D"
+[|"A"e3e a2a2 | "E7"a2g2 gag2 | e3e b2b2 | "A"b2a2 aba2 |\
+| "A"e3e a2a2 | "D"b2d2 fgf2 | "E7"g2a2 b2g2 | "A"a4 a4 |]
+K:D
+"C"
+[|"D"f6 a2 | d6 f2 | "A7"e2g2 A3c | "D"d2f2 a4 |\
+| "D"ffff f2a2 | dddd d2f2 | "A7"efg2 A2c2 | "D"d4 "d.C."d4 |]
+S:https://www.folktunefinder.com/tunes/16056
+S:http://trillian.mit.edu/~jc/music/abc/polka/Buffalo_Polka_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/Buffalo_Polka_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: M\'in an Erin
+T: the Plain of Ireland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+K: G
+L: 1/8
+g>f \
+|: "Am"eA BA | e2 dB | "G"d>e dB | G>A Bd | "Am"eA BA | e2 dB | "G"d>e dB | "Am"{B}A4 :|
+|| "Am"~e2 {fed}eg | a2 {ba}ge | "G"d>e dB | G>A Bd | "Am"~e2 {fed}eg | a2 {ba}ge | "G"dB    gB | "Am"{B}A4 |
+|  "Am"~e2 {fed}eg | a2 {ba}ge | "G"d>e dB | G>A Bd | "Am"~e2 {fed}ef | ge    a>g | "G"ed/B/ dB | "Am"{B}A4 |]
+S:https://www.folktunefinder.com/tunes/15581
+S:http://trillian.mit.edu/~jc/music/abc/march/MinAnErin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MinAnErin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MinAnErin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/march/MinAnErin.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

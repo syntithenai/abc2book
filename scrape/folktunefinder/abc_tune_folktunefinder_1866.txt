@@ -1,0 +1,30 @@
+X: 44
+T: Another Jig Will Do
+C: J-15
+C: Irish
+M: 9/8
+Z: Transcribed to abc by Mary Lou Knack
+R: slipjig
+% %staffwidth 14cm
+K: D
+"D"ABA A2G F2G| ABA AGF "C"GGG| "D"ABA A2G F2G| A2d "A"d2c "D"ddd:|
+|:\
+"D"A2g f2d "A"e2c| "C"A2B =c2d ccc| "D"A2g f2d "A"e2c| "D"A2d "A"d2c "D"ddd|
+"D"A2g f2d "A"e2c| "C"A2B =c2d ccc| "D"d2A A2G "A"F2G| "D"A2d "A"d2c "D"ddd:|
+%%text 9/1/98
+% ---------- page 22 ----------
+S:https://www.folktunefinder.com/tunes/1866
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/AnotherJigWillDo_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/AnotherJigWillDo_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/AnotherJigWillDo_1.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

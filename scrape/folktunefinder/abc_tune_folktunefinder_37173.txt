@@ -1,0 +1,26 @@
+X:5470
+T:Schottische fr Barsebck
+A:Skne
+M:4/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008f7.html
+%%ID:000008f7
+K:D
+AG|\
+F2AG E2AF | D2FA d2d2 |\
+cege cdec |1dfdB A2 :|2 d2d2d2 :|
+|:A2|\
+Affd A2AA | Affd B2B2 \
+|1 Bgge eccA | Aaaf fddA:|2 \
+Bgge cdef | d2d2d2 :|
+S:https://www.folktunefinder.com/tunes/37173
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

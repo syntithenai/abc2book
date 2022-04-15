@@ -1,0 +1,22 @@
+X: 1
+T: Another Jig Will Do
+C: Irish
+M: 9/8
+Z: Transcribed to abc by Mary Lou Knack
+R: slipjig
+K: D
+|: "D"ABA A2G "(A7)"F2G | "D"ABA AGF "G"~G3 | "D"ABA A2G "(A7)"F2G | "D"A2d "A7"d2c "D"d3 :|
+[| "D"A2g f2d "A7"e2c | "C"A2B =c2B c2B | "D"A2g f2d "A7"e2c | "D"A2d "A7"d2c "D"d3 ||
+|| "D"A2g f2d "A7"e2c | "C"A2B =c2B "(A7)"c2^c | "D"d>AA A2G "A7"F2G | "D"A2d "A7"d2c "D"d3 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13000
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/slipjig.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

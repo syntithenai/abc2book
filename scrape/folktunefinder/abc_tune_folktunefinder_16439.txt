@@ -1,0 +1,27 @@
+X: 1
+T: Eklundapolska #3
+C: Viksta Lasse (Leonard Larsson)
+M: 3/4
+L: 1/16
+K: G
+g2- \
+| g2b2 b2g2 d2B2 | cBcd egec A3c | ~B2AB cdcA BdBG |1,3 Ad3 {c}d6 :|2,4 AcAF {F}G6 :|
+[A2D2-] \
+| [B3D3]B c3c B3B | Ad3 {c}d6 A2 | B3B c3c B3B | ABAF D6 B2 |
+| B3B c3c B3B | Ad3 {c}d6 F2 | G2AB cdcA BdBG | AcAF {F}G6 |]
+[B2E2-] \
+| BEBE cEcE BE~B2 | Ad3 {c}d6 [B2E2] | BEBE cEcE BE~B2 | ABAF D6 B2 |
+| BEBE cEcE BE~B2 | Ad3 {c}d6  F2 | G2AB cdcA BdBG | AcAF {F}G6 |]
+S:https://www.folktunefinder.com/tunes/16439
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Eklunda3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_Eklunda3v2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Eklunda3_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_Eklunda3v2_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/pols/P_Eklunda3_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/pols/P_Eklunda3v2_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

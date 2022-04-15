@@ -1,0 +1,52 @@
+X: 1
+T: the Liberty Bell March
+T: Theme from Monty Python's Flying Circus
+C: J.P.Sousa
+R: jig/march
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d3 "A"\
+| "G"B2B  B^AB |     g2d d2B  | "D7"c2c  c2d | e3- e2c \
+| "D7"A2A A^GA |     f2c c2A  |  "G"B2B  B2c | d3- d2d |
+| "G"B2B  B^AB |     b2g g2d  | "A7"^c2a a2a | a3- a2g \
+| "D"f2a  a^ga | "A7"e2a a^ga |  "D"d2^c/e/ d2c/e/ | "D7"d2z c3 |]
+"B"\
+[|"G"B^AB e2d  |    B3     G3 |  "C"E3  "D7"A3  |  "G"G3- G2G \
+| "D7"ABc f2e  | "G"d3 "Em"g3 |  "D"f3  "A7"e3  |  "D"d3- d2d |
+| "C"e2e  e^de | "B"f3     f3 | "Em"g2g "B7"aga | "Em"b3- b2b \
+| "C"a2g  e2c  | "G"B3     G3 | "D7"A3      F3  |  "G"G3- G2=F |][K:=f]
+K: C
+"C"\
+[| "C"E3  F3 |   ^F3   G3  |     .e2e e2^d |     e3-  e2G \
+|  "D"E3  F3 |   ^F3   G3  | "G7".f2f f2e  |     f3-  f2e |
+| "G7"d3 ^c3 |   .d2G ^F2G |  "C" e3 ^d3   |    .e2G ^F2G \
+|  "G"B3  d3 | "D7"c3  A3  |  "G" B2c A2B  | "F7"G2A  F2G |]
+"D"\
+[| "C"E3  F3 |    ^F3   G3  |     .e2e e2^d |  e3-  e2G \
+|  "D"E3  F3 |    ^F3   G3  | "G7".f2f f2e  |  f3-  f2e |
+| "G7"d3 ^c3 |    .d2G ^F2G |  "C" e3 ^d3   | .e2G ^F2G \
+|  "F"A3  f3 | "G7"e2c  d2B |  "C" c2G AGE  | "fine"HC2C CB,A, |]
+"E"\
+[|"E7"^G,2F FED  | "Am"C2C     CB,A,| "E7"^G,2F FED  | "Am"C2C   CB,A, \
+| "E7"^G,2F FED  | "Am"C2C      DCD | "E"  E3   E3   |     z2E   EDC   |
+| "G7"B,2A  AGF  |  "C"E2E      EDC | "G7" B,2A AGF  |  "C"E2E   EDC   \
+| "G7"B,2A  AGF  |  "C"E2E "D7"^FEF | "G"  G3   G3   |     z2G,  G,G,G,|
+| "D7"_A,2F D2^F |  "G"G2^F     G2G,| "D7"_A,2F D2^F | "G" G2^F  G2G   \
+| "D7"^F3-  F3   |  "G"G3-      G3  | "Ab"_A3-  A3   | "G7"G3 "->C"F3 |]
+S:https://www.folktunefinder.com/tunes/14532
+S:http://trillian.mit.edu/~jc/music/abc/jig/LibertyBellMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/LibertyBellMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LibertyBellMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LibertyBellMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LibertyBellMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LibertyBellMarch_G.abc
+% Rhythm Jig/march
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

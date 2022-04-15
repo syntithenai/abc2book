@@ -1,0 +1,26 @@
+X: 1
+T: Austin White's Jig
+C: Jerry  Holland
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c \
+|: "A"EAB c3 | "D"d2f "A"ecA | "A"EAB "F#m"c2A | "D"Bdc "E7"BAF \
+|  "A"EAB c3 | "D"d2f "A"ecA | "E7"Edc BAG |1 "A"A3 "D"AGF  :|2 "A"A3 A2 ||
+|: g \
+| "A"a2c "D"d2f | "A"e2f ecA | "A"aec "D"d2f | "A"edc "E7"B2g \
+| "A"aec "D"d2f | "A"e2f "F#m"ecA | "Bm"Edc "E7"BAG | "A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/13817
+S:http://trillian.mit.edu/~jc/music/abc/jig/AustinWhitesJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/AustinWhitesJ_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AustinWhitesJ_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

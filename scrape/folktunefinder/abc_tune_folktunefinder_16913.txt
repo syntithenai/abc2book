@@ -1,0 +1,29 @@
+X: 1
+T: Charlie's Welcome
+O: Trad
+R: reel
+B: Scots Guard #344 p.189
+M: C|
+L: 1/8
+K: Amix
+   B \
+| "A"A2AB e2Aa | A2Ae "G"dBGB | "A"A2AB ABcd | "G"egdg BGG :|
+|: B \
+| "A"A2a2 gaAB | A2a2 "G"fgBG |1 "A"A2af defe | "G"dgfd g2G \
+                             :|2 "A"AaAa gaea | "G"geg2 gGd ||
+|: B \
+| "A"ABcd eAca | ABcd "G"dGBa |1 "A"ABcd edcd |"D"ecdA "G"BGG \
+                             :|2 "A"A2ec fdec | dBcA "G"BGG :|
+|: B \
+| "A"a2a2 gAec | a2a2 "G"gGdB | a2a2 gaea | "G"geg2 gGdB \
+| "A"a2ge a2Ae | a2ge "G"g2GB | "A"a2af (3efg a2 | (3efg fd "G"g2G |]
+S:https://www.folktunefinder.com/tunes/16913
+S:http://trillian.mit.edu/~jc/music/abc/reel/CharliesWelcome_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CharliesWelcome_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

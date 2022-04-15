@@ -1,0 +1,26 @@
+X:641
+T: "Schlemmhimmel"
+N: Z1322
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Zech -, Schalks - Lied
+M: 2/4
+L: 1/8
+K: C
+G,CCC | B,DDz
+ECFD | CB,Cz
+G,CCC | B,DD2
+ECFD | CB,C2
+CEDE | FEDz
+CEDE | FED2
+G,CCC | B,DD2
+ECFD | CB,C2
+S:https://www.folktunefinder.com/tunes/69500
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

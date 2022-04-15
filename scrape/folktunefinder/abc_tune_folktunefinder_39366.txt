@@ -1,0 +1,19 @@
+X: 40
+T:Hole in the Wall
+M:3/2
+L:1/4
+K:G
+|: "G" vB>-c (B/c/) d "D" A d | "Em" G>A (G/A/) B "D" F B | "C" E>-F (E/F/) G "G" D B | "C" G3 "D" F "G" G2 :|
+"Em" g>-f (e/f/) g "Am" f e | "B7" ^d>-e (d/e/) f B f | "Em" g>-f (e/f/) g "Am" f e | "Em" e3 "B7" ^d "Em" e2 |
+"C" E>-F (E/F/) "D"G (F/G/) A | "Em" G>-A (G/A/) B "D" (A/B/) "D7" c | "G" B>-c (B/c/) d "D" D d | "G" B3 (A/B/) G2 ||
+% C:\aaa\EnglishCountry\3lfpublic.abc
+S:https://www.folktunefinder.com/tunes/39366
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

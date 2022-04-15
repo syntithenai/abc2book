@@ -1,0 +1,26 @@
+X: 18
+T: Peat Fire Flame
+R: march
+B: Drewry, Bon Accord
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Em
+B \
+| "Em"E>F GF | ED "G"B2 | "D"BA AG/A/ | BA "B7"AB \
+| "Em"E>F GF | ED "B7"B>A | "Em"GE "D"FD | "Em"E3 :|
+|: "D7"F \
+| "G"G>A Bg/f/ | ed B2 | "D"BA AG/A/ | "D7"BA AB \
+| "G"G>A Bg/f/ | ed "B7"B>A | "Em"GE "D"FD | "Em"E3 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12940
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:71
+T: BRAUCHT WEITER SIE WAS
+N: F0169A
+O: Europa, Mitteleuropa, Deutschland
+N: Strophenvariante von F0169
+R: Liebes - Lied
+M: 3/8
+L: 1/16
+K: F
+F2 | F2GFEF | G2z2
+G2 | G2^FGA=B | c2z2
+F2 | F2GABc | d4
+dd | dcBABG | F4
+S:https://www.folktunefinder.com/tunes/69631
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

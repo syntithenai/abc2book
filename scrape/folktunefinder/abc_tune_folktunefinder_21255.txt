@@ -1,0 +1,27 @@
+X:806
+T:Brodericks
+O:england
+C:Vincent Broderick
+R:Jig
+S:Tony Smith, Cavan (fiddle)
+N:As played
+M:6/8
+K:G
+G |: {A}GED DED | GBd ege | dBA {B}AGA | BGE (3EGED |
+{A}GED DED | GBd ege | dBA AGA | BGG G,2G2A :|
+|: B2d edd | gdd edB | {d}BAG GAB | AGE (3EGEA
+|1 Bdd edd | gdd edB | {d}BAG GAB | AGE G2A :|
+|2 {A}GED DED | GBd ege | dBA AGA | BGG G,2G2A ||
+S:https://www.folktunefinder.com/tunes/21255
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

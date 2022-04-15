@@ -1,0 +1,48 @@
+X: 1
+T: Varnensko horo
+L: 1/16
+M: 9/16
+Z: John Chambers <jc@trillian.mit.edu>
+K: Bm
+"A"\
+| .f2 ~f2 .f2 f3 | .e2 z2 Bc d2e | .B2 ~e2- ec d3- | d=c B2 cA B^cd |
+| .e2 f2- f2 .f2f | .B2 z2 cd e2d | ef f2 ef d2=c | B2- BA =c2 .Bz2 ||
+"B"\
+|: de e2 ef d2=c | B2- Bc de d3 | B2 de ec d2e | d=c B2 cA B3 |
+| fe e2 ef d2=c | BA B=c de d2e | .f2 z2 de d2=c | B2- BA .=c2 Bz2 :|
+K:Bphr
+"C"\
+|: AB =c2 .B2 B2B | e2 d=c .B2 B2B | AB =ce .d2 d2c | B2 A=c .B2 ~B3 :|
+"D"\
+|: de e2 fg f2e | fg- gf .e2 ~e2e | de e2 ag ~f2e | ab gf .e2 e3 :|
+"E"\
+|: ab gf eB ~e2e | g2 fe gf ~e2e | ga a2 .a2 agf | e2 gf eB ~e2e :|
+K: Bmix
+"F"\
+|: de e2 .e2 edc | d2 cB Bc def- | fd e2-.ez edc | d2 cB B2 =AGF |
+| .B2 z2 de edc | d2 cB Bc def- | fd e2 df ed=c | B2- BA =cA B3 :|
+K:B=c^f^d
+"G"\
+|: B2- BA .=c2 B3 | F2 AA .B2 B3 | B2 A^G .F2 GAB | .=c2 AA .B2 B3 :|
+K:Ephr^g
+"H"\
+|: e2 ~a2 .az ^gab | ^g2 =f2e .e2 gab | .^g2 .a2 .a2 gab |1 .^g2 .a2 g=f e2e :|2 .^g2 z2 ag =f2e ||
+"I"\
+|: d2- d2 .=f2 e3 | de .=f2 .d2 e3 | ^ga ag .=f2 e3 |1 ba a^g .=f2 e3 :|2 .d2 =fd .e2 e2 ||
+K:B=c^f^d
+"J"\
+|: B2 B^d =cB dcB | AB B^d =cB BF{E}F | B2 B^d =cB dcB |1 AB B^d =cB B2B :|2 AB B^d =cB .Bz2 |]
+S:https://www.folktunefinder.com/tunes/3154
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/VarnenskoHoro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key B
+% Time_signature 9/16
+% Has_accompaniment_chords Has chords

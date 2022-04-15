@@ -1,0 +1,20 @@
+X: 4
+P: Saint Anne's Reel (Reel de Sainte Agathe)
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Many different versions exist.
+M: C|
+L: 1/8
+K: E
+ef |: "E"g2ga gfec | B2BG EGB2 |1,3. c2"A"cA EAc2 | "E"B2BG EGBe :|2,4. cA"A"ce "B7"dBdf | egfd "E"e4 :|
+ba |: "E"geBe gegb | "F#m"baag a2fg | "B7"afdc Bdfa |1,3. c'bb^a b2b=a :|2,4. gefd "E"e4 :|
+S:https://www.folktunefinder.com/tunes/3523
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR74_B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

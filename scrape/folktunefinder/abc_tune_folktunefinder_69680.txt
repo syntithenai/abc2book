@@ -1,0 +1,27 @@
+X:120
+T: O SEHT WIE RUND UND FEIN
+N: F0239
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Natur
+M: 2/4
+L: 1/16
+K: F
+c2 | A3GA3B | c6
+A2 | G3FG3A | B8
+A4c=BAB | c4z2
+c2 | d2c2B2A2 | B4z2
+B2 | c2B2A2G2 | A4z2
+A2 | G4FEDE | F4z2
+S:https://www.folktunefinder.com/tunes/69680
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, natur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

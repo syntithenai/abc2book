@@ -1,0 +1,24 @@
+X:1
+T:the Burnt Old Man
+R:jig
+Z:id:hn-jig-117
+M:6/8
+F:http://home.swipnet.se/hnorbeck/abc/hnj1.abc 2003-03-13 14:36:05 UT
+K:D
+|: "D"DFB AFD | ~F3 "(A7)"F2E | "D"DFB "Bm"AFD | "Em"~E3 "A7"E2F | "D"DFB AFD | F2A d2e | "Bm"fed "G"B2d | "D"ABA "A7"F2E :|
+|: "D"~d3 def | ABA AFA | "Em"~e3 ede | "Bm"fed "A7"B2A | "D"~d3 def | ABA d2e | "Bm"fed "G"B2d | "D"ABA "A7"F2E :|
+S:https://www.folktunefinder.com/tunes/13959
+S:http://home.swipnet.se/hnorbeck/abc/hnj1.abc
+S:http://home.swipnet.se/hnorbeck/abc/hnj1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/BurntOldMan_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BurntOldMan_D.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

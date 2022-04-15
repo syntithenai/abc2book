@@ -1,0 +1,27 @@
+X:21
+T:Litj-Brekkingen (Pols)
+C:\AAsmund Svenkerud
+R:Pols
+%O:Sweden
+Z:Bob Wyttenbach  8/7/02, from Fiddles & Feet 2002 tunebook
+N:rhythm here is an approximation; emphasis on 2 is very strong.
+M:3/4
+L:1/8
+K:D  bass %clef=bass middle=D
+P:A
+((3A,B,C)D2EF|D2(CA,) A,C|(CD) (B,G,) G,B,|B,C CA, (A,2|(3A,B,C)D2EF|
+D2(CA,) A,C|(CD) (B,G,) G,B,|[1(B,C)A,3A,-:|[2(B,C)A,3A-||
+P:B
+A(F GE) EG|(GE) (FD) DD|D2(CA,) CE|(EF) (FD) FA|A(F GE) EG|
+(GE) (FD) DD|D2(CA,) B,D|[1((3CB,C) D3A-:|[2((3CB,C)D4|]
+S:https://www.folktunefinder.com/tunes/62643
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

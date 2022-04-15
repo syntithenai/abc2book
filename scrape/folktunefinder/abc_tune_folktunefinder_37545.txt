@@ -1,0 +1,29 @@
+X: 12
+T:Persiand Ricado,The. TLY.012
+T:Gallopede,aka. TLY012
+M:2/4
+L:1/16
+Q:120
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Gallop
+O:England.
+A:Lancashire.
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+dc|B2Bc A2AB|G2G2G2 AB|c2cd B2Bc|A2A2A2 dc|!
+B2Bc A2AB|G2G2G2 AB|cBAG FGAB|G2G2G2:|!
+|:dc|B2gf e2ed|(dcBd) A2 dc|B2gf edcB|A2A2A2 dc|!
+B2gf e2ed|(dcBd) A2 dc|BdcB AcBA|G2G2G2:|!
+|:Bc|d2d2d2g2|d2d2d2g2|d2d2 edcB|c2A2A2 Bc|!
+d2d2d2g2|d2d2d2g2|d2Bc dcBA|G2G2G2:|]
+S:https://www.folktunefinder.com/tunes/37545
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Gallop
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

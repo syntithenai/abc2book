@@ -1,0 +1,43 @@
+X:1
+T:Dick Van Dyke Theme
+L:1/8
+M:4/4
+K:C
+Q:288
+^f \
+| ge z ^d ec z ^A \
+| BG z2 E2 F2 \
+| G3/A/G3/^F/ GE z ^F \
+| G3/A/G3/^F/ GE z ^F \
+| G3/A/G3/^F/ G3/=F/E3/G/ |
+| F2 c B2 D2 E \
+| F3/G/F3/E/ FD z E \
+| F3/G/F3/E/ FD z E \
+| F3/G/F3/E/ F3/E/D3/F/ \
+| E2 D C2 E2 F |
+| G3/A/G3/^F/ GE z ^F \
+| G3/A/G3/^F/ GE z ^F \
+| G3/A/G3/^F/ G3/E/=F3/G/ \
+| AFED -D4 \
+| z2 A^G A3/F/E3/D/ |
+| GEG _B3 G2 \
+| F3/D/F _A3 GE -| E2 ge -e4 \
+| F3/E/D3/C/ B3/G/A3/B/ \
+| CEGc -c4 \
+| z2 A^G A3/F/E3/D/ |
+| GEG _B3 G2 \
+| F3/D/F _A3 GE -| E2 ge -e4 \
+| f3/e/d3/e/ f3/g/a3/b/ \
+| c'2 _af/_d/ c2 _AF/_D/ \
+| C2 z2 z G3 |]
+S:https://www.folktunefinder.com/tunes/15936
+S:http://trillian.mit.edu/~jc/music/abc/misc/Dick_vanDyke_Theme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

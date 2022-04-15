@@ -1,0 +1,29 @@
+X: 50
+T:Jove Malaj Mome
+M:18/8
+L:1/8
+Q:250
+C:Trad (Bulgarian)
+S:lost in the mists of the past...
+N:The meter is actually:32222322/8, or you can thunk of it as 7/8
+N: 11/8 (in one measure)
+K:Am
+|: "Am"d3A4 cde2d/c/d2cBA2 | c/B/ c2A4B2"G"G2"Am"A2GABc \
+| cB2A4"G"B2G2"Am"A2G ABc2 | cB2A4"G"B2G2"Am Fine"A3A2z2 :|
+K:Em
+|: "Em"A3E4 A{G}A BA ~B2A GFED | G3E4"D"F2D2"Em"E2D EFGA \
+| G3E4"D"F2D2"Em"E2D GFED | G3E4"D"F2D2"Em"E3E2z2 :|
+S:https://www.folktunefinder.com/tunes/3094
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/JoveMalojMome2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/JoveMalojMome2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key A
+% Time_signature 18/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

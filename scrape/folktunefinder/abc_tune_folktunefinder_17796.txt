@@ -1,0 +1,26 @@
+X: 1
+T: Old French Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: ((3ABc) \
+| "D"d2cd BdAF | DFAd f2ed | "A7"cdef gece |1,3 "D"defd A2 :|2,4 "D"d2f2 d2 :|
+|: cd \
+| "A"efed c2A2 | AEAc e2dc | "G"BGBd gfed |1,3 "A"cAce a2 :|2,4 "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/17796
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldFrench.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldFrenchR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OldFrench_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/OldFrench.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OldFrench_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/OldFrench.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

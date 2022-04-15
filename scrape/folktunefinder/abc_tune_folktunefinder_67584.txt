@@ -1,0 +1,37 @@
+X:10
+T:Abram Circle
+% Nottingham Music Database
+S:Trad
+M:4/4
+L:1/4
+K:G
+D|:"G"GB/2c/2 "D7"de/2f/2|"G"g"f#"a "Em"b2|"G"gd "D7"d/2e/2d/2c/2|"G"B2 G2:|
+"C"ec eg/2e/2|"G"dB d2|"D7"Ad d/2e/2d/2c/2|1"G"B2 "G7"d2:|2"G"B2 G2
+|:\
+M:6/8
+"D7"d2c"G"BAG |\
+M:6/8
+"D7"d2c"G"BAG |"C"e2dcBc |"C"e3g3 :|
+"C"e2dcBc |"C"e3"b"g3 |"Am"e2dcBc |"Am"e3gfe
+|:"D"d2ef2g |"D"a2gfed |"C"e2g"D7"f2a |1"G"g3gfe :|2"G"g3G3
+|:\
+M:4/4
+L:1/4
+"G"GG/2G/2 BB|"G"dd g2|"G"dB "C"d/2c/2A/2B/2|"Am"cA "D7"G/2F/2E/2D/2|
+M:4/4
+L:1/4
+"G"GG/2G/2 BB|"G"dd g2|"G"dB "D7"d/2c/2A/2F/2|1"G"G2 GD:|2"G"G2 Gd/2c/2
+|:"G"BG Bd|"D7"A3d/2c/2|"G"BG Bd|"D7"A3d/2c/2|"G"BG Bd|
+"D7"A3/2B/2 AB/2c/2|"G"dB/2c/2 "D7"d/2c/2B/2A/2|1"G"G2 Gd/2c/2:|2"G"G3:|
+S:https://www.folktunefinder.com/tunes/67584
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/morris.abc
+S:http://www2.redhawk.org:8080/irish/nmd/morris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

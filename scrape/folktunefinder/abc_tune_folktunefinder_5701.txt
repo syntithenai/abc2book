@@ -1,0 +1,50 @@
+X: 1
+T: Robin ddiog
+T: Idle or Lazy Robin
+N:  42 tunes from Welsh fiddler
+R: jig
+O: Wales
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+P: 1st tune
+|: AB \
+| "Am"c2c "E7"B2B | "Am"A2A c2c | "G"B2B "F"A2A | "E7"[E2B][EB] "Am"A2E | "Am"A2A A2B | c2d e3 |
+| "Am"cBA "E7"B2c | "Am"A3- A2c | "Am"e3- e2c | "F"A3- A2c | "Am"e2f e2c | "Dm"Az2 d3 | "Am"cBA "E7"B2c | "Am"A3- A  :|
+%%sep 5 5 200
+P: 2nd tune
+K: Em
+|: ef \
+| "Em"g2g "B7"a2f | "Em"e3- e2f | g2g "B7"a2f | "Em"e3- e2f | g2g "B7"a2f | "Em"e2f g2e |
+| "D7"d2e d2c | "G"B6 | "Em"B>cB B2A | G2A B3 | B>cB B2A | G2A B2e | g2f "B7"e2^d | "Em"e3- e :|
+%%sep 5 5 200
+P: 3rd tune
+K: A
+|: z"E7"e \
+| "A"A2A A2c | e2-e- e2c | "E7"B2B B2B | "A"c3 A2E | "F#m"A2A ABc | "C#m"e2-e- e2c |
+| "E7"B2B B2B | "A"c3 A3 | "D"d2c def | "A"e2c e2e | "D"d2e f2f | "E7"e3- e2e | d2c B2c | "A"A3- A :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/5701
+S:http://trillian.mit.edu/~jc/music/abc/Intl/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/IdleRobin.txt
+S:http://trillian.mit.edu/~jc/music/book/500/IdleRobin.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/IdleRobin
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

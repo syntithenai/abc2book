@@ -1,0 +1,20 @@
+X:107
+T:Swallowtail
+R:jig
+M:6/8
+L:1/8
+K:Em
+F | GEE BEE | GEE BAG | FDD ADD | d^cd AGF |
+GEE BEE | GEE B2^c | d^cd AGF | GEE E2 ::
+B | B^cd e2f | e2f edB | B^cd e2f | edB d3 |
+B^cd e2f | e2f edB | d^cd AGF | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/53764
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X: 1
+T: Senpolska fr\aan Torp #1
+R: Polska
+O: efter Spel J"ons & Spel Erik
+M: 3/4
+L: 1/16
+B: Bygdedanser fr\aan Bohusl\"an, Dalanra, G\"astrikland, V\"armland och V\"asterg\"otland (1975)
+K: Dm
+|: {A}d4 (AB)AG F2E2 \
+| D2g2 f4 e4 \
+| (fe)fg g2a2 f2{gf}ed \
+| (^cd)ed c2a2 f2{gf}ed \
+| (^cd)ed c2A2 A4- |
+| A2d2 (AB)AG F2E2 \
+| D2g2 f4 e4 \
+| (fe)fg g2a2 f2{gf}ed \
+| (^cd)ec d8 \
+:: a4 A4 a2(ba) \
+| g2(ag) G4 g2ag |
+| f(gfe) d2e2 (fe)(fa) \
+| (gf)ed ^c2A2 A4- \
+| A2a2 A4 a2ba \
+| g2ag G4 g2ag \
+| f(gfe) d2e2 (fe)(fa) |
+| (gf)(ed) ^c2A2 A4 \
+| D2E2 (E2F2) D2E2 \
+| (FE)FG G2A2 A4- \
+| A2=B^c d2e2 (fe)fa \
+| (gf)ed ^c2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16526
+S:http://trillian.mit.edu/~jc/music/abc/pols/SenP_Torp1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SenP_Torp1_Dm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:775
+T:Xiraldilla (CT 108)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Estanislao Lana Lana, de veintin aos, de Somiedu.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 108
+M:2/4
+L:1/8
+Q:1/4=118
+K:C
+GB
+|dd GB|dd c/B/A/B/|c2 cd|ee cc|ff e/c/B/c/|d2 Bc|d (B/d/) cB|AB/>A/ G2-|G2 :||
+W:Mi abuelo tena un huerto,
+W:chiriviriv,
+W:que criaba muchos nabos,
+W:chiriviriv.
+W:Tambin tena un borrico
+W:pa llevarlos al mercado.
+W:En el medio del camino
+W:le salieron los gitanos.
+W:Le robaron el borrico
+W:y le dejaron sin nabos.
+W:
+S:https://www.folktunefinder.com/tunes/59662
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

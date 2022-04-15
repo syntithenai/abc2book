@@ -1,0 +1,21 @@
+X:120
+T:Gaida Tune
+M:2/4
+O:Bulgaria 
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000676.html
+%%ID:00000676
+K:E mixolydian
+g2Be g2Be|a2Be a2Be|g2Be f2Bf\
+|1 e2GB e2f2 :|2 e8 ||
+|:g2Be f2Bf|e2Be a2Be|g2Be f2Bf \
+|1 e2GB e2f2 :|2 e8 ||
+S:https://www.folktunefinder.com/tunes/53254
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

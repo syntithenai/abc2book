@@ -1,0 +1,25 @@
+X:265
+T: O TANNENBAUM O TANNENBAUM
+N: Z0263
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Weihnachts - Lied
+M: 3/4
+L: 1/8
+K: C
+G, | CCC3G, | DDD3
+G, | ECF2E2 | D2C2z
+G | GGG3A | FFF3
+F | EEE3E | DDD3
+G, | CCC3G, | DDD3
+G, | ECF2E2 | D2C2z
+S:https://www.folktunefinder.com/tunes/69124
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Weihnachts - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

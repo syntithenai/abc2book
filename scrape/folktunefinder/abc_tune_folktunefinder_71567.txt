@@ -1,0 +1,24 @@
+X:538
+%%topmargin 3cm
+T:Mr. John Shaw Stewarts
+C:Neil Gows collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Gm
+G | DG-G>c (B/c/d) Tc>B | A>Fc>F d>Fc>F | DG-G>c d>=efd | c<Af>A {/A}G2 G :| A | Gg-g>a {ga}b2 ag | f>ca>c f>ca>f |
+dgg>a {ga}b2 ag | {/g}f>d{/d}c>A {/A}G2 G>A | Gg-g>a b2 ag | fcf>g {fg}a>g fa | g>af>g d>fc>f | A>Fc>B {/A}G2 G |]
+S:https://www.folktunefinder.com/tunes/71567
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_John_Shaw_Stewarts.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0538.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

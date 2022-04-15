@@ -1,0 +1,25 @@
+X: 3
+P: Fisher's Hornpipe
+R: hornpipe, reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+(3c/d/e/ \
+| "F"fcAF "Bb"BdcB | "F"AFAF "Bb"BdcB | "F"AFAF "Bb"BGBG | "F"AFAF "C7"Gcde |
+| "F"fcAF "Bb"BdcB | "F"AFAF "Bb"BdcB | "F"ABcd "C7"efge | "F"f2f2 f2 :|
+|: ef \
+| "C"gece gbag | "F"afcf ac'ba | "C"gece gaba | "G7"gfed "C"c2c2 |
+| "Bb"dBFB dfed | "F"cAFA cAfc | "Bb"dfed "C7"cBAG | "F"F2F2 F2 :|
+S:https://www.folktunefinder.com/tunes/138
+S:http://trillian.mit.edu/~jc/music/abc/Contra/LadyWalpolesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LadyWalpolesReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LadyWalpolesReel
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:2
+T:39. Lungi da voi mia vita
+T:Alto.
+C:Cornello Verdouch.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+M:C
+L:1/4
+N:Original clef C on third line
+K:D dor -8va
+%%MIDI transpose -12
+d2 A a f/ e/ d/ c/ _B B f > e d/ c/ d2 G2 B c > d e/ f/ d2 ^c "A"d2
+S:https://www.folktunefinder.com/tunes/49192
+S:http://www.laymusic.org/music/bicinia/lungi/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

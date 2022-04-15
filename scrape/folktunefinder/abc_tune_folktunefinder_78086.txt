@@ -1,0 +1,28 @@
+X:65
+T: SCHWERIN DER HAT UNS KOMMANDIERT
+N: B0087
+O: Europa, Mitteleuropa, Deutschland, Preussen
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 2/4
+L: 1/16
+K: Eb
+B,2 | E2DCB,2B,2 | C2C2B,2
+B,2 | C2C2B,2
+E2 | B,3A,G,2A,2 | B,CB,A,G,2
+G,2 | F,E,F,G,A,A,A,A, | G,F,G,A,B,2
+G,G, | A,G,A,B,C2
+D2 | E2EEFFFE | D2D2E2
+G,B, | B,2B,2B,2A,G, | C2C2B,2
+B,2 | E2EEFFFE | D2D2E2
+S:https://www.folktunefinder.com/tunes/78086
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

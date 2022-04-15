@@ -1,0 +1,28 @@
+X: 1
+T: Blair Athole
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2002.pdf
+M: C|
+L: 1/8
+K: Ador
+E2 \
+| "Am"A2AB AGEG | ABcd edcB | A2AB AGEF | "G"G2BG dBGB |
+| "Am"A2AB AGEG | ABcd ecae | "G"gedB GABd | "Am"c2A2 A2 ||
+e^g \
+| "Am"a2ab agec | ABcd ecBA | "G"g2ga gedB | GABc dBG2 |
+| "Am"a2ab agec | ABcd ecae | "G"gedB GABd | "Am"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/16808
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlairAthol_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BlairAthol_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BlairAthol_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

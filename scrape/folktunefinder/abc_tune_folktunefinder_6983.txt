@@ -1,0 +1,35 @@
+X: 1
+T: Lebedich un Freilech
+R:
+O: Abe Schwartz
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: DDor
+A^G/A/ _BA =GF EA | \
+|: "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF |1 A>^G B>G A A,B,^C :|
+|2 D4- D || D FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AD FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AG FE |
+| "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF | D4- D || [K:D]
+|: D GA \
+| "G"B4- BA B>A | GD3 zDGA | "D7"B>"/"A B>"/"A B>"/"A B>"/"A | "G"GD3 zDGA |
+| "G"B4 "Gm"_B4 | "A"AG FE- EE FG | "D"A>F "A7"G>E "D"F>D "A7"E>C | "D"D4- D:|
+S:https://www.folktunefinder.com/tunes/6983
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_LebedichUnFr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/LebedichUnFreilech_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/LebedichUnFreilech_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/LebedichUnFreilech_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/LebedichUnFreilech_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

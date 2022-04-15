@@ -1,0 +1,28 @@
+X:296
+T: HAT UNS NICHT MAHOMET SCHAENDLICH BETROGEN
+N: B0348
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Trink - Lied, national, chauvinistisch
+M: 3/8
+L: 1/16
+K: G
+ | G3FG2 | d3cd2 | _e2c2d2 | _B4A2
+B3AG2 | _B2A2GA | _B2B2c2 | d6
+G3FG2 | d3cd2 | _e2c2d2 | _B4A2
+B3AG2 | _B2A2GA | _B2B2c2 | d4
+c2 | d3cd2 | d3_e=f2 | c3_Bc2 | c4
+d2 | _B3AB2 | _B3cd2 | A3GA2 | A4
+A2 | _B2A2z2 | z4A2 | _B2A2z2 | z4
+d2 | _e2d2c2 | _B2A2G2 | A3GA2 | G4z2
+S:https://www.folktunefinder.com/tunes/78317
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied, national, chauvinistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

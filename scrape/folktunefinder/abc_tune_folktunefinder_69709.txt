@@ -1,0 +1,26 @@
+X:149
+T: HORCH WER REITET SO
+N: F0279
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Spiel
+M: 4/4
+L: 1/8
+K: F
+ | F2zCFGAB | c4z4
+F2zCFGAB | c4z3
+c | =B2G2A2B2 | c2B2G3
+c | d2G2A2=B2 | d2c2c3
+c | f2f2e2e2 | d2d2c3
+c | d2d2c2c2 | B2B2A3
+A | G2A2B2=B2 | c4z3
+B | A2c2G2c2 | F4z4
+S:https://www.folktunefinder.com/tunes/69709
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

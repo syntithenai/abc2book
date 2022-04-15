@@ -1,0 +1,19 @@
+X: 4
+T: Ralli
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Am
+| "E7"E2E/E/ | E2B, | "Am"D2C | C2E | "G7"G2A | "Dm"B2A | "G7"G2D | "C"E3 ||
+|: "E7"E2^G | B2c | "Am"A2B | A2E | "D7"C2D | "Dm/B"EDC | "E7"B,2C | "Am"A,2z :|
+S:https://www.folktunefinder.com/tunes/4623
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_song4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T: The Deil Amang the Tailors (Pipes)
+T: 8x32R 3C (RSCDS Book 14)
+P: The Deil Amang the Tailors
+C: From Matt Petrie
+C: Arr. T. Traub 7-9-03
+R: reel
+M: 4/4
+K: A
+L: 1/8
+|: ef|"A"a2 ef a2 ef|"A"a2 ea fedc|"Bm"dfBf dfBf|"Bm"fef=g "E7"aefg|"A"a2 ef a2 ef|
+"A"a2 ea fedc|"D"defd "A"ecBA|"G" =G2 B2 "A"A2 :||: ed|"A"ceAe ceAe|"A"ceAa "F#m"fedc|
+"Bm"dfBf dfBf|"Bm"dfBa "E7"=gfed|"A"ceAe ceAe|"A"ceAa fedc|"D"defd "A"ecBA|"G"=G2 B2 "A"A2 :|
+S:https://www.folktunefinder.com/tunes/58458
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/DeilAmangTheTailorsPipesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/DeilAmangTheTailorsPipesSet.abc
+S:http://terrytraub.org/abc/DeilAmangTheTailorsPipesR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

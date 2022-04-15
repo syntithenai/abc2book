@@ -1,0 +1,25 @@
+X:54
+T:My Darling Asleep
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+e|fdd cAA|BAG A2G|FAA def|gfg eag|
+fdd cAA|BAG A2G|FAA def|gec d2:|*
+A|FAA ABA|FAA BAG|FAA def|gfg eag|
+fdd cAA|BAG A2G|FAA def|gec d2:|**
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58865
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

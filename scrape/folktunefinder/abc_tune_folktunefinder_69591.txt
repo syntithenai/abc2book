@@ -1,0 +1,25 @@
+X:31
+T: KAFFEECHEN KAFFEECHEN
+N: F0092
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz -, Loblied auf Kaffee
+M: 3/8
+L: 1/16
+K: F
+c2 | c2A2c2 | c2A2c2 | d2d2fd | c4
+A2 | B2B2B2 | A2B2c2 | c2B2A2 | G4
+G2 | G2E2G2 | A2A2A2 | B2A2G2 | c4
+c2 | d2defd | c2A2c2 | B2G2E2 | F4
+S:https://www.folktunefinder.com/tunes/69591
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Scherz -, loblied auf kaffee
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

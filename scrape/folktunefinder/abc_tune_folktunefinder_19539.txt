@@ -1,0 +1,21 @@
+X: 1
+T: Miss Annie Robertson
+R: strathspey, shottish
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+[| "D"F>A F>D F<A A2 | "G"G>B G>E "Em"Gd "G"Ge | "A7"c>A B>c "D"d2 d2 |
+| "D"F/G/A F>D F<A A2 | "E(m)"Gd "A7"c<A A2 | "D"F<A A>d "G"Ge | "A7"c>A B>c "D"d2 de |]
+[| "D"f<d dc/d/ "A"e<c c2 | "Bm"dd "A"c<A "D7"A>=c | "G"B<G d>B "D"A<F d>F | "G"G>F E>D "A7"C<E E>e |
+| "D"f<a d>f "A"e<a ce | "Bm"dd "A"c<A "D7"A>=c | "G"B<g d>B "D"A<f d>A | "Em"B<e "A7"A>c "D"d2 d |]
+S:https://www.folktunefinder.com/tunes/19539
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissAnnieRobertson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissAnnieRobertson_D.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

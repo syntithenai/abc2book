@@ -1,0 +1,23 @@
+X:29
+T:La moisson
+O:France
+A:Provence
+R:Danse de caractre
+C:Trad. militaire
+M:2/4
+L:1/8
+K:Bb
+F | Bf df | dB Bf | f/>e/d/>c/ B/>A/B/>d/ | cA FF | Bf df |
+dB Bf | | f/>e/d/>c/ B/>A/B/>d/ | cA B2 !fine!|| f/>=e/f/>d Bd | e/>d/e/>c/ A2 |
+f/>=e/f/>d B/>A/B/>d/ | cA F2 | f/>=e/f/>d Bd | e/>d/e/>c/ A2 | f/>=e/f/>d B/>A/B/>d/ | cA B ||
+%%footer $D   Galouvielle-MBe 2005 \nDanse de caractre France
+S:https://www.folktunefinder.com/tunes/40228
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

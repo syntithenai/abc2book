@@ -1,0 +1,28 @@
+X: 2
+T: Bulgar: Joe Kutcher's #2
+C: Joe Kutcher (Kammen 9#14)
+B: Kammen 9 #14
+Z: John Chambers <jc:trillian.mit.edu>
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Em
+EGB \
+|: "Em"e2 Be-           | eB (3d^cB        | ^A/^c/ B3-     | BE GB \
+|   "Em"e2 Be-          | eB (3d^cB        | ^A/^c/ B3-     | BD GB |
+|   "G"[d2B] [BG][dB]-  | [dB]B "D7"(3cBA  | "Am"^G/B/ A3-  | AF GA \
+|   "G"BG "D"AF         | "Em"GE "B7"F^D   | "Em"E4-        | E    :|
+"D7"d[e^c][f=c] \
+|: "G"[g2B] "D7"[a2c]   | "G"[b2d] [ac][gB]| [bd] [g3B]-    | [g3B] d \
+|  "G"[g2B] "D7"[a2c]   | "G"[b2d] ag      | ^c' d'3-        | d'3 d |
+|  "Gm"[g2_B] "D7"[a2c] | "Gm"[_b2d] ag    | d'^c'/e'/ (3d'^c'_b | "D"a4 \
+|  "Em"gf fg            | ge "Dm"(3=fed    | "Em"e4-        | e    :|
+S:https://www.folktunefinder.com/tunes/6804
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Kam9-14.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

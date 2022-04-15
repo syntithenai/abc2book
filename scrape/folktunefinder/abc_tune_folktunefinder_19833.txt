@@ -1,0 +1,25 @@
+X: 1
+T: Cairn on the Moor
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+%%slurgraces 1
+K: G
+|: "G"{D}B3 A B2 | "Em"{F}G3 F G2 | "D"{B}A3 G A2 | "G"{GA}B4 G2 \
+|1 "Em"B3 A B2 | "G"{A}G3 F G2 | "C"{d}g3 f e2 | "D7"{e}d4 g2 \
+|2 "C"e3 f g2 | "G"{c}d3 c B2 | "D7"c3 B A2 | "G"G4- G2 |]
+|: "C(Em)"{G}g3 f g2 | "G"d3 B G2 | "C"{G}e3 d B2 | "G"{G}d3 B G2 \
+|1 "Em"g3 f g2 | "G"g3 d B2 | "C"e3 d (3BcB | "D7"A4 d2 \
+|2  "C"{G}e3 f g2 | "G"d3 c (3BcB | "D7"c2 B2 A2 | "G"G4- G2 |]
+S:https://www.folktunefinder.com/tunes/19833
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CairnOnTheMoor1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/CairnOnTheMoor1_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

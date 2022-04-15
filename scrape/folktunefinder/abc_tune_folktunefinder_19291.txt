@@ -1,0 +1,37 @@
+X: 1
+T: Davie Taylor
+C: J.S.Skinner
+R: strathspey
+B: J.S>Skinner "The Scottish Violinist"
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 ||
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 |]
+c2 \
+| "B"Bcd2 G3g "C"e3g c3e | "A7"^cde2 A3a "D"fd3 "D7"d3=c \
+| "G"Bcd2 G3g "C"e3g c3e | "G"d3g "D7"A3d "G"BG3 G3 ||
+c \
+| "B"Bcd2 g3f "C"e3g c3e | "A7"^cde2 A3a "D"fd3 d3f \
+| "Em"(3g2f2e2 "D"(3d2e2f2 "G"(3g2d2c2 (3B2A2G2 |1 "Am"(3A2B2c2 "D7"(3c2B2A2 "G"BG3 G2 :|
+|2 "Am"(3F2E2D2 "D7"(3C2B,2A,2 | "G"B,G,3 HG,2 |]
+S:https://www.folktunefinder.com/tunes/19291
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DavieTaylor_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/DavieTaylor_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DavieTaylor_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DavieTaylor_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

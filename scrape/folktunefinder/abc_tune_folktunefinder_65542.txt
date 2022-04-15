@@ -1,0 +1,23 @@
+X: 327
+T:The Weaver and His Wife
+% Nottingham Music Database
+%P:AAB
+S:Andrew Rankine, via EF
+M:6/8
+K:A
+P:A
+|:E|"A"E2E EAB|"A"c3 A3|"A"c3 A2c|"F#m"edc "Bm"B3|"E7"E2E EBc|"E7"d3 B3|\
+"E7"E2e dcB| [1"A"A3 A2:|[2"A"A3 -A2G/2F/2|
+P:B
+|"A"EAc e3|"A"EAe c3|"A"EAc edc|"E"d3 -d2c/2d/2|"E"ded BdB|
+"E"G3 F3|"E"E2e dcB|"A"A3 -"E7"A2G/2F/2|"A"EAc e3|"A"EAe c3|"A"EAc edc|
+"E"d3 -d2c/2d/2|"E"ded BdB|"F#m"G3 "Bm"F3|"E7"E2e dcB|"A"A3 -A2||
+S:https://www.folktunefinder.com/tunes/65542
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

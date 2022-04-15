@@ -1,0 +1,43 @@
+X: 1
+T: Jingle Bells [F]
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+| "F"CA GF \
+| C3 C/-C/ \
+| CA GF \
+| "Bb"D4 \
+| "Gm"DB AG \
+| "C7"E3 c \
+| dc BG \
+| "F"A4 |
+| "F"CA GF \
+| C3 C/-C/ \
+| CA GF \
+| "Bb"D3 D \
+| "Gm"DB AG \
+| "F"cc cc \
+| "C7"dc BG \
+| "F"F2 z2 |
+|: "F"AA A2 \
+| AA A2 \
+| Ac F>G \
+| "F7"A4 \
+| "Bb"BB B>B \
+| "F"BA AA/A/ \
+|1 "G7"AG GA \
+| "C7"G2 c2 \
+:|2 "C7"cc BG \
+| "F"F4 |]
+S:https://www.folktunefinder.com/tunes/20398
+S:http://trillian.mit.edu/~jc/music/abc/xmas/JingleBells_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/xmas/JingleBells_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/JingleBells_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/xmas/JingleBells_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

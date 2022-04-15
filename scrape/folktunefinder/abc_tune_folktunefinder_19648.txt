@@ -1,0 +1,27 @@
+X: 1
+T: Schehallion
+T: Schichallion
+R: strathspey
+B: Kerr's 2nd
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: ADor
+G2 \
+| "Am"EA3 A3B c3A "E7"B4 | "G"BG3 G3c BcdB GB3 \
+| "Am"c2A "G"B3G "F"AAA2 {AB}c4 | "Em"g3e "E7"edcB "Am"cA3 A2 :|
+B2 \
+| "C"ccc2 c3d cdef g4 | "G7"GG3 d3c BcdB G3B \
+| "C"ccc2 c3d cdef g3a | "Em"g3e "E7"edcB "Am"cA3 A2 ||
+B2 \
+| "C"ccc2 c3d cdef g4 | "G7"GG3 d3c BcdB G3B \
+| "Am"c2A "G"B3G "F"AAA2 {AB}c4 | "Em"g3e "E7"edcB "Am"cA3 A2 |]
+S:https://www.folktunefinder.com/tunes/19648
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Schehallion_Am.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:949
+T:Xota (MQ 075)
+T:Jota (MQ 075)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Jota tpica de la zona del centro.
+A:Asturies
+Z:Manolo Quirs 075
+M:3/8
+L:1/8
+Q:3/8=72
+K:C
+|: G F/E/D/E/|DB,D|FED|G C2|G F/E/D/E/|DB,D|FED|C3 :|
+|: GFE|G2 G|AFA|G>FE|GFE|G2 G|ADF|E>DC :|
+|: cBc|A>GF|GGG|E>DC|cBc|A>GF|GGG|E>DC :|
+|: GcB|c>BA|Bcd|B>AG|ABc|A>GF|GGG|E>DC :|
+|: G F/E/D/E/|D B,D|FED|G C2|G F/E/D/E/|DB,D|FED|C3 :|
+S:https://www.folktunefinder.com/tunes/59836
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

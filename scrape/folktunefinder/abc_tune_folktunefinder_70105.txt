@@ -1,0 +1,27 @@
+X:545
+T: SELIG DIE TODTEN
+N: F1060
+O: Europa, Mitteleuropa, Deutschland
+R: Trauer -, Bregraebnis -, Trost - Lied
+M: 4/4
+L: 1/4
+K: C
+ | G,2E,E, | G,F,E,
+G, | G,CEC | CB,B,
+B, | D2F,F, | _A,2G,
+G, | C2^F,F, | G,2G,
+G, | D2B,B, | E2D
+D | C2_B,2 | A,2z
+D | D3D | C2A,
+A, | G,2A,B, | C3
+C | C2CC | ECB,D | C3z
+S:https://www.folktunefinder.com/tunes/70105
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Trauer -, bregraebnis -, trost - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

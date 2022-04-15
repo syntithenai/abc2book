@@ -1,0 +1,30 @@
+X:357
+%%topmargin 3cm
+T:Miss Dumbreck
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:See also #44, in A.
+R:Reel
+M:C|
+L:1/8
+K:Bb
+f | (ed)(cB) ~B2 (df) | Tgfdf gabf | (ed)(cB) ~B2 (dB) | cAFA cdef |
+(ed)(cB) ~B2 (df) | gfdf Tgfga | b2 b>f (ed)(cB) | AFcA dFcF ||
+~B2 (df) bfdf | bfdf bfdB | ~F2 (Ac) fg=eg | fg=eg fcAF |
+B2 (df) bfdf | bfdf bfdB | GeFd EcDB | (FG)(AB) cde |]
+S:https://www.folktunefinder.com/tunes/71386
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Dumbreck_1.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0357.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: THE GREEN SHADES OF GASK
+O: Kerr's 2nd
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd (c.1880) p.211 #321
+M: 6/8
+L: 1/8
+K: G
+B | GAG BGB | gag f2e | dgd BgB | aAA A2B \
+  | GAG BGB | gag f2e | dcB Adc | BGG G2 :|
+d | gag gfe | aba agf | gfg aga | bee e2f \
+  | gag gfe | aba agf | gfe dgd | BGG G2 ||
+d | gag gfe | aba agf | gfg aga | bee e2f \
+  | gbg ege | ded g2e | dcB Adc | BGG G2 |]
+S:https://www.folktunefinder.com/tunes/14264
+S:http://trillian.mit.edu/~jc/music/abc/jig/GreenShadesOfGask_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GreenShadesOfGask_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

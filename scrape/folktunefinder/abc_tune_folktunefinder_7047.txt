@@ -1,0 +1,21 @@
+X: 1
+T: Haida Haida
+O: Trad Jewish
+N: The words are meaningless
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"D G G G | "D7"A ^F/G/ A G | "D7"^F A z A | "Gm"B A G2 :|
+S:https://www.folktunefinder.com/tunes/7047
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/HaidaHaidaSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/HaidaHaida_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HaidaHaida_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

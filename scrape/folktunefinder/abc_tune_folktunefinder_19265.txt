@@ -1,0 +1,24 @@
+X: 1
+T: Charley Stuart
+O: 1817
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: Originally a reel
+M: 2/4
+L: 1/8
+K: D
+   B | "D"A>F E<D  "G"G3   B | "D"A>F E<D "A7"E3   B | "D"A>F E<D "G"G>A B>d | "D"A<F "A7"d>F "D"D3 :|
+|: f | "D"d>e f<d "A7"gf e<c | "D"d>e f<d "A7"ec B<A | "D"d>e f<d "G"g>f e>g | "D"f<a "A7"e>f "D"d3 :|
+S:https://www.folktunefinder.com/tunes/19265
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CharleyStuartStr_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CharleyStuartStr_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

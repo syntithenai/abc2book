@@ -1,0 +1,21 @@
+X: 1
+T: Walking The Floor
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|: "Am"AGA e2d | efg "D7"edB | "G"GFG d2B | Gge    dBG \
+|  "Am"AGA e2d | efg "D7"edB | "G"GFG edB | BAG "Am"A3 :|
+|: "Am"aga e2d | gee "D7"edB | "G"gfg d2B | Gge    dBG \
+|  "Am"aga e2d | gee "D7"edB | "G"GFG edB | BAG "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/15237
+S:http://trillian.mit.edu/~jc/music/abc/jig/WalkingTheFloor_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WalkingTheFloor_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,50 @@
+X:1
+T:Sz\'ekely Friss
+O:Hungary
+C:Trad.
+P:ABC
+Q:1/2=120
+M:2/2
+L:1/4
+K:G
+%%MIDI beat 120 100 60 1
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI channel 1
+P:A
+%%MIDI program 1 15
+"G"BB~BA/2B/2 |"D"dc"G"Bz |"D"dcBA |"G"B/2A/2G/2A/2  B/2A/2G/2A/2 |
+"G"BB~BA/2B/2 |"D"dc"G"Bz |"D"dcBA |"G"DGG2 |
+L:1/8
+|: "D"F2FGA2F2 |"G"GFGA B2G2 |"C"cBcd e^deg |"D"d2(d^c)"G"d2z2 |
+"D"F2FGA2F2 |"G"GFGA B2A2 |"Em"GFEG "B"FE^DF |1 "Em"E2(E^D)E2z2 :|2 "Em"E2GBe2z2 ||
+P:B
+L:1/4
+"G"bb~ba/2b/2 |"D"d'c'"G"bz |"D"d'c'ba |"G"b/2a/2g/2a/2  b/2a/2g/2a/2 |
+"G"bb~ba/2b/2 |"D"d'c'"G"bz |"D"d'c'ba |"G"dgg2 |
+L:1/8
+|: "D"f2fga2f2 |"G"gfga b2g2 |"C"c'bc'd' e'^d'e'g' |"D"d'2(d'^c')"G"d'2z2 |
+"D"f2fga2f2 |"G"gfga b2a2 |"Em"gfeg "B"fe^df |1 "Em"e2(e^d)e2z2 :|2 "Em"e2gbe'2z2 ||
+P:C
+L:1/4
+"G"BB~BA/2B/2 |"D"dc"G"Bz |"D"dcBA |"G"B/2A/2G/2A/2  B/2A/2G/2A/2 |
+"G"BB~BA/2B/2 |"D"d/2c/2B/2c/2 "G"d/2c/2B/2c/2 |"F"(d/2e/2)=f-"C"f/2e/2 d/2c/2 |"G"B/2c/2B/2A/2 G/2F/2G |
+L:1/8
+|: "D"F2DF Adfa |"G"gdBd GBDB, |"C"CG,CE Gceg |"D"d2(d^c)"G"d2z2 |
+"D"F2DF Adfa |"G"gdBd G2F2 |"Em"GBeG "B"FE^DF |1 "Em"E2(E^D)E2z2 :|2 "Em"E2GBe2z2 ||
+W:Arrangement Copyright 2002 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/6098
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SzekelyFriss.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

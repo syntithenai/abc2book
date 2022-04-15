@@ -1,0 +1,42 @@
+X: 1
+T: Tam Lin
+T: The Howling Wind
+T: The Glasgow Reel
+C: Davey Arthur
+S: Elke Baker's version
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+(G, \
+| "Dm"~A,2)DA,  FA,DA, \
+| "Bb"~B,2DB,   FB,DB, \
+| "C"~C2EC      GCEG   \
+|1 "Dm"FEDC   "C"DCA,  \
+:|2 "C" FEDC "Dm"D3   |]
+(^c \
+| "Dm"d)cAG    F2D(^c \
+| "Dm"d)cAG    F2D(=B \
+| "C"~c2)Gc    EcG=B  \
+|    ~c2Gc     EcG   :|
+(^c \
+| "Dm"d)cAG   F2D(^c \
+|     d)cAG   F2DC   \
+| "Bb"B,A,B,C DCDE   \
+| "C"FEDC "Dm"D3    |]
+S:https://www.folktunefinder.com/tunes/18193
+S:http://trillian.mit.edu/~jc/music/abc/reel/TamLin_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TamLin_Dm3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TamLin_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Davey_Arthur/TamLin_16_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Davey_Arthur/TamLin_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/TamLin_16_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TamLin_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TamLin_Dm3.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

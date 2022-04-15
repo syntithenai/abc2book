@@ -1,0 +1,37 @@
+X:6420
+T:Troskari Valsen - vals efter Troskari Mats
+D:Kalle Almlf, "Du Spelmn"
+M:3/4
+O:Sweden
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b1d.html
+%%ID:00000b1d
+K:G
+Bdg ||\
+"G"b2 ba gf | "C"a2 af ge | \
+"G"~e2 d2 ~B2 | G3 BeB |\
+"Am"d2 c2 A2 | "D7"F3 Ace | \
+d2 dc BA | "G"G3 Bdg |
+"G"b2 ba gf | "C"a2 af ge | \
+"G"~e2 d2 ~B2 | G3 BeB | \
+"Am"d2 c2 A2 | "D7"F2 DF AF | \
+"G"G3 G G2 | G3 ::
+zD2 || \
+"G"[D2B] BG Bd | B2 BA GF | \
+"Am"Ec cB ce | c4 e2 | \
+"D7"[F2d2] fd eg | f2  df af | \
+"G"[B2g2] e2 dc | BA G2 D2 |
+"G"[D2B] BG Bd | B2 BA GF | \
+"Am"Ec cB ce | c4 e2 | \
+"D7"[F2d] fd eg | f2 df af | \
+"G"[B3g] g g2 | [B3g] :|
+S:https://www.folktunefinder.com/tunes/37363
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 65
+T: Shandon Bells
+C: J-25
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12cm
+K: D
+B| "D"AFD DFA| ded cBA| "Em"BGE EFA| "A7"B2 A Bcd|
+   "D"AFD DFA| ded cBA| "G"Bcd "A7"ecA|1 "D"d3 dc :|2 "D"d3 d2|]
+|:\
+g| "D"f2d- ded| faa afd| "A"cAA eAA| "A7"cBc efg|
+   "D"f2d- ded| faa afd| "G"Bcd "A7"ecA| "D"d3 d2:|
+%%text 9/1/98.  From O'Neill.
+% ---------- page 33 ----------
+S:https://www.folktunefinder.com/tunes/1887
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

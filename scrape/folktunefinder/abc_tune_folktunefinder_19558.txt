@@ -1,0 +1,29 @@
+X: 1
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"dA a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"dA "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d cG "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+S:https://www.folktunefinder.com/tunes/19558
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissMilliganS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissMilliganS_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissMilliganS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissMilliganS_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

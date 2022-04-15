@@ -1,0 +1,41 @@
+X:1
+T:The Prince and the Princess
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:Music For Children, Op.65: The Waltz Of The Prince And Princess - Makarova/Rosenberger
+N:http://shopping.yahoo.com/shopd=product&id=1921061953
+M:6/8
+L:1/8
+Q:3/8=52
+K:G
+V:1
+(Bc | d>ed B>AG | B3-B) Bc | de/d/e/d/ c/B/c/B/A/G/ |
+B3 E EG | A>BA GFG | E3 G2 F | EFG A {BA}G>F | G3-G EF|
+A>BA F>ED | E3-E EG | AB/A/B/A/ G/F/G/F/E/D/ | E3-E FG |
+A>BA GFG | E>FD DED | CB,D CDC | B,^A,C B,B,D |
+_E^FG =F_E/F/E/D/ | D3 C2 B, | A,B,C B,A,>G, | G,3-G,2 G,|
+V:2
+z z | G,2- B,- [G,3B,3D3] | G,2- B,- [G,3B,3D3] |
+      G,2- B,- [G,3B,3^D3] | G,2- B,- [G,3B,3]  |
+     [G,6^C3E3] [=C3^D3] | [G,6B,6] | [G,6B,3-] [_E3B,3] | [G,3B,3D3] G, zz |
+     [C,6E,2] F A3 | C,2G [C,3C3] | [C,6E,2] F A3 | C,2G [C,C] z z|
+     [B,3^D3] [A,3C3] | [G,3B,2]_B, [F,3A,3] | [=F,3_A,3] [E,G,] zz | [_E,3G,3] [D,G,] zz |
+     !arpeggio![C,6G,6C6] | [D,6G,3B,3] [=F,3G,3] | [C,3E,3] [C,3_E,3] | [G,,2B,,2D,2] [B,,2D,2] z2 |
+V:2
+z z | G,3- B,2- [G,3B,3D3] | G,3- B,2- [G,3B,3D3] |
+      G,3- B,2- [G,3B,3^D3] | G,3- B,2- [G,3B,3]
+%%MIDI program 0
+%%MIDI channel 1
+%%MIDI transpose 0
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+S:https://www.folktunefinder.com/tunes/45862
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

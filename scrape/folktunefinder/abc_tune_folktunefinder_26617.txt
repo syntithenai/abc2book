@@ -1,0 +1,30 @@
+X:6165
+T:Song of the Chanter, The
+O:england
+R:march
+H:Played in Dmix or Amix
+M:2/4
+L:1/8
+K:Dmix
+DD AG/E/|DD cB/c/|dA AG/E/|cB/c/ AG/E/|
+DD AG/E/|DD cB/c/|dA AG/E/|D2 D2:|
+|:A>B cB/c/|A/G/A/B/ cB/c/|dA AG/E/|cB/c/ AG/E/|
+DD AG/E/|DD cB/c/|dA AG/E/|D2 D2:|
+K:Amix
+AA ed/B/|AA gf/g/|ae ed/B/|gf/g/ ed/B/|
+AA ed/B/|AA gf/g/|ae ed/B/|A2 A2:|
+|:e>f gf/g/|e/d/e/f/ gf/g/|ae ed/B/|gf/g/ ed/B/|
+AA ed/B/|AA gf/g/|ae ed/B/|A2 A2:|
+S:https://www.folktunefinder.com/tunes/26617
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

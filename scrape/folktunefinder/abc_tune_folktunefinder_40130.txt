@@ -1,0 +1,40 @@
+X: 26
+T: 4. The Pigeon on the Gate
+R: Reel
+L: 1/8
+M: C|
+C: arr. Jerry Holland
+% Q: 440
+R: Reel
+K: Gdor
+c |: \
+"Gm" dG (3GGG {e}dcAc | d2 de TdcAB | "F" cF (3FFF TcFAB |      c2cf     TdcBc  |
+"Gm" dG (3GGG {e}dcAc | d2 de TdcAG | "F" FAcf      afga | "Dm" fdcA "Gm" GABc :|
+|: \
+"Gm" dg (3ggg fagf | dgga bgTaf | "F" Tdcde fgfd |  cAf2 fgaf  |
+"Gm" dg (3ggg fagf | dgga bgTaf | "F"  dcde fgfd |1 "Dm" cAFA "Gm" GABc :|2 "Dm" cAFA "Gm" G2 G ||
+%%text
+%%text
+%%text Performance Note:
+%%text
+%%text Watch out for the 'cross winds' on 'final approach' to landing the 'Pigeon on the Gate'; the last note in 'Dougie' functions as
+%%text the first pickup noteto 'Pigeon'; accent this 'A', which is followed immediately by the C-natural which begins 'Pigeon'.
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 16 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center The Highland Fair
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 8x32 Jig    1 2 3 4 2 3 4 1
+S:https://www.folktunefinder.com/tunes/40130
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

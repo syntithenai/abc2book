@@ -1,0 +1,23 @@
+X: 1
+T: Scarce o' Tatties
+T: Cion a'Bhunta'ta
+C: Norman MacLean
+R: jig
+N: jig-time variant of the old tune "The Banks of the Devon"
+L: 1/8
+M: 6/8
+K: ADor
+|: "Am"A>ee e>fg | "G"e>dB d>BG | "Am"A>ee e>fg | "G"e>dB "Am"A3 | "Am"a>aa "C"g>ag |
+| "D"f>gf "Am"e>AA | "Am"A>ee e>fg | "G"e>dB "Am"A3 :: "Am"a>eg a2e | "G"g2f "Am"e>AA | "Am"a>eg a2e |
+| "D"g2f "E(m)"e3 | "Am"e>ee A>AA  | "D"d>ff "Am"f>ee | "Am"A>ee e>fg | "G"e>dB "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/15029
+S:http://trillian.mit.edu/~jc/music/abc/jig/ScarceOfTatties_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ScarceOfTatties_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/ScarceOfTatties_3.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:50
+T: MEIN HERZ IST IM HOCHLAND
+N: B0534A
+O: Europa, Mitteleuropa, Deutschland, Sueddeutschland
+R: Wander -, Heimat - Lied
+M: 3/4
+L: 1/8
+K: C
+Ge | d2c3E | D2B3
+A | G2F2DA | G4
+Ge | d2c3E | D2B3
+A | G2F2B,2 | C2z2
+C2 | D2^FAcB | A2G2
+D2 | D2^FAed | B3A
+Ge | d2c3E | D2B3
+A | G2f3B | c4
+S:https://www.folktunefinder.com/tunes/62073
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Wander -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

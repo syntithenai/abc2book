@@ -1,0 +1,27 @@
+X: 2
+P: Judy's Reel (The Maid Behind the Bar) (Kiss the Maid Behind the Barrel)
+%T: Indy's Favorite
+%T: the Green Mountain
+N: Scottish version of Maid Behind the Bar, enough different to have both
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+DE \
+|: "D"FAAB AFED | FAA[BF] ABde | "Bm"fBBA Bcde | f2ef "A7"edBA |
+|  "D"FAAB AFED | FAA[BF] ABde | "Bm"fBBA "G"BcdB | "A7"AFEF "D"D2z2 :|
+g \
+|: "D"fgab afde | fdad bdfd | "Em"efga bgef | gebe "A7"gfeg |
+|  "D"fgaf bfaf | defd efde | "Bm"fBBA "G"BcdB | "A7"AFEF "D"D2z2 :|
+S:https://www.folktunefinder.com/tunes/9910
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/ArthursSeat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090202/ArthursSeat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

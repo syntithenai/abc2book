@@ -1,0 +1,30 @@
+X: 1
+T: Linda Gaul
+C: Muriel A Johnstone
+R: strathspey
+B: 10 Social Dances (Roy Goldring) #6
+B: Two Score & More (Sctscores) #17
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d>A F<D "G"G2 "A7"F>E | "D"D2 F>D A>F (3dcd \
+| "G"B>g "D"A>f "Em"G>e "D"F>d | "E7"(3E^GB (3e^de "A7"cBA =gfe |
+| "D"d>A F<D "G"G2 "A7"F>E | "Bm"D2 "A7"E2 "D7"F>E F>A \
+| "G"B2 (3dcB "D"(3Ade (3fga | "A7"(3gfe a>c "D"d2 d |]
+A \
+| "D"d2 (3Adf a>f d>A | "G"(3BgB "D"(3AfA "Em"(3GeG "D"(3FdF \
+| "A"E2 (3A,CE "A7"A>G F>E | "D"(3FA,F "A7"(3GA,G "D"A>A "A7"(3GFE |
+| "D"d2 (3Adf a>f d>A | "G"(3BgB "D"(3AfA "Em"(3GeG "D"(3FdF \
+| "A7"E>F (3GFE "D"(3FGA "G"(3Bcd | "A7"(3cBA a>c "D"d2 d |]
+S:https://www.folktunefinder.com/tunes/19475
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Linda_Gaul_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Linda_Gaul_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:844
+T:Johnny Todd
+S:Ossian Record
+D:Ossian, Light On a Distant Shore
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:G
+(3DEF | G2 G>F G2 G>A | B2 B>A B>c d2 | e2 e2  d>BG>A | B>AG>F E2
+(3DEF | G2 G>F G2 G>A | B2 B>A B>c d2 | e2 e2  d>BG>B | AB/A/ G>F G2 ||
+z2    | e2 d2  g3   e | d2 d>e d>B G2 | B>c d2 B3   A | B>AG>F E2
+(3DEF | G2 G>F G2 G>A | B2 B>A B>c d2 | e2 e2  d>BG>B | AB/A/ G>F G2 |]
+S:https://www.folktunefinder.com/tunes/77369
+S:http://www.nigelgatherer.com/tunes/abc/tb17.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X:75
+T:Mie Katoen
+T:Boerencarr\'e
+T:I
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=120
+P:(ABCDA)2
+K:C
+[P:A](3G/c/e/|"C"gg/g/ g^f|g^f ga|"G7"fe fa|"C"ag e (3G/c/e/|\
+gg/g/ g^f|g^f ga|"G"fe "G7"fB|"C"czc'!fine!||G|
+[P:B]"G"d2 d^c|dd/B/  GG|"C"e2 e^d|ee/c/ GG|\
+"G"G^F/G/ B^A/B/|d^c/d/ fe/f/|"G7"aa/g/ f/e/d/c/|B z B (3G/c/e/|
+[P:C]"C"gg/g/ g^f|g^f ga|"G7"fe fa|"C"ag e (3G/c/e/|\
+gg/g/ g^f|g^f ga|"G"fe "G7"fB|"C"cz c'||C|
+[P:D][K:F]"F"c3 (=B/d/)|c3 (d/c/)|"C7"BC BC|"F"F/G/A/B/ cc|\
+c3 (=B/d/)|c3 (d/c/)|"C7"Bc de|"F"f z f !D.C.!|]
+T:II
+M:6/8
+Q:3/8=120
+P:(ABCDA)2
+K:F
+[P:A]C|"F"F2C A2F|(c3 A2)A|"C"G2F G2c|"F"A2G F2C|\
+F2C A2F|(c3 A2)A|"C"G2F G2c|"F"F2z f2!fine!||C|
+[P:B]"C"G2F G2B|"F"A2d c2f|"C"e2G B2d|"F"(dc)A F2A|\
+"C"G2F G2B|"F"A2d c2f|"C7"edc BAG|"F"Fc=B "C7"_BAG||
+[P:C]"F"F2C A2F|(c3 A2)A|"C"G2F G2c|"F"A2G F2C|\
+F2C A2F|(c3 A2)A|"C"G2F G2c|"F"F2z f2||[K:Bb]F|
+[P:D]"Bb"{G}F=EF (B2A)|"Eb"G^FG (c2B)|"F7"ABc F2F|"Bb"(GF)d B2F|\
+{G}F=EF (B2A)|"Eb"G^FG (c2B)|"F7"ABc Fdc|"Bb"B2z B2!D.C.!|]
+T:III
+M:2/4
+L:1/8
+Q:1/4=120
+P:(ABCA)2
+K:F
+[P:A]C|("F"C3 F/G/)|A3 G|F(d dc)|("C"cB) B2|\
+"Bb"D2 (D/E/)F/G/|"F"CF/A/ c2|"C7"cG/A/ BE|"F"Fz F c!fine!||
+[P:B]"F"fe dc|=Bc d>c|(c4|A2 F2)|"C"EG B2|B2 d>c|("F"c4|A2) c>c|
+[P:C]"F"fe dc|(=Bc) (d>c)|(c4|A2) F>F|\
+"C"EG c2|("C"c=B_BG)|"F"F2 C>A|Fz F!D.C.!|]
+S:https://www.folktunefinder.com/tunes/75771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

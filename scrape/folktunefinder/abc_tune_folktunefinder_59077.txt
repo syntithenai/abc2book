@@ -1,0 +1,37 @@
+X:190
+T:Cantar de Ronda (CT 478) (Arrg.)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Iluminada y Aurelia Martnez Viescas, de treinta y treinta y cinco aos, respectivamente, de Llanuces, ayuntamiento de Quirs.
+A:Asturies
+G:Arrg.
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 478
+M:2/4
+L:1/8
+Q:1/4=82
+K:C
+G/G/
+|"C"cc de|"F"f2 ed/c/|"G"Bc "Dm"de|"F/C"d/e/4d/4"F"c-cf|
+"C"e2 d2|"C"c2 GA|"Gm"(_BA/B/4A/4 G2-)|"Gm"G2 zd/d/|
+"Gm"de "Gsus4"gf|"Am"e(d/e/4d/4 "C"c2-)|"C"c2 z||
+W:Cuando bajes a la iglesia,
+W:mira la tierra sagrada,
+W:que a tierra se ha de volver
+W:la hermosura de tu cara.
+W:
+S:https://www.folktunefinder.com/tunes/59077
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

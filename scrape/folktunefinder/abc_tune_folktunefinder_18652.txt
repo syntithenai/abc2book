@@ -1,0 +1,33 @@
+X:2
+T:Day Dream
+M:4/4
+L:1/4
+C:Duke Ellington & Billy Strayhorn
+S:Ella Fitzgerald - , Ellington - , Tommy Flanagan -
+Q:1/4=70
+K:F
+%%staves (chords melody)
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Bbm7"x2 "A7"x2 | "Dm7"x"Db7"x "Cm7"x"B7"x | "Bbm6"x2 "C7"x2 |
+"Fm6"x2 "Dm7b5"x2 | "Db7"x2 x2 | "C7"x2 x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+C>c-c2 | (3BcB ^cA/F/-| F4 | (3FGF _A>A |
+S:https://www.folktunefinder.com/tunes/18652
+S:http://trillian.mit.edu/~jc/music/abc/song/Day_Dream_2.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Day_Dream_2.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/day_dream.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/day_dream.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/Day_Dream_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/day_dream.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/day_dream.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

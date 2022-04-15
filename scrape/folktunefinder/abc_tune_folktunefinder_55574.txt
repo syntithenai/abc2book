@@ -1,0 +1,36 @@
+X:691
+T:69. American patrol
+R:Hornpipe
+O:USA
+M:4/4
+K:G
+(3DEF |\
+G2G2 G>FG>A | BB2B- B>AB>c |\
+d2d>^c d>cd>g | d4 z2B2 |\
+cc2B A2c2 |
+BB2A G2B2 |\
+A2E2F2G2| A>^GA>B A2(3DEF |\
+G2G2 G>FG>A | BB2B- B>AB>c |
+d2d>^c d>cd>g | d4- d>Bc>d |\
+e2d2c2B2| A2G2F2G2| \
+A2B>c B2A2 | G2D>E F>GA>B||
+c2c2 c3B | c>Bc4^c2 |\
+d2d>e d>cB>c | d4e2d2 |\
+c2c>B c>Bc>B |
+c>Bc4^c2 |\
+d2d>e d>cB>c | d2G2 B2d2|\
+e2e2 g3e  | d2d>e d>cB2 |
+c2c2 F2c2 | BB2c B>AG2 |\
+e2e2 g3e  | d2d>e d>cB2 |\
+c2c2 F>DF>A | G>DF2G2|]
+S:https://www.folktunefinder.com/tunes/55574
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set69.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

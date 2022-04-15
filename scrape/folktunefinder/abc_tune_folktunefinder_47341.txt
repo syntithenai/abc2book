@@ -1,0 +1,25 @@
+X:16066
+T:Struan Robertson's Rant
+R:strathspey
+C:Trad.
+M:4/4
+L:1/8
+K:Em
+e "A"|\
+"Em"E<E G>A B>A B<d | "D"D<D F>E D/E/F/G/ A<F | "Em"E<E G>A B>A B<e | "Bm"d>B d>F "Em"E<E E ||
+g "B"|\
+"Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d<f | "Em"e>f g>e b>e g>e | "Bm"d>B A>F "Em"E<E E ||
+F "C"|\
+"Em"G>B E>B G>B E>B | "D"F>A D>A F>A D>A | "Em"G>B E>B G>B E>g | "Bm"f>d a>f "Em"e2 ||
+e>f "D"|\
+"Em"g<b e<b g<b e<b | "D"f<a d<a f<a d<a | "Em"g<b e<b  "D"f<a e<f | "Bm"d/^c/B/A/ d<F "Em"E<E E2 |]
+S:https://www.folktunefinder.com/tunes/47341
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

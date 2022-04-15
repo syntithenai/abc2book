@@ -1,0 +1,26 @@
+X:231
+T: EIN MEIDLIN AN DEM BODEN LAG
+N: E0116
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe
+M: 6/4
+L: 1/8
+K: G
+G2 | G4A2B4c2 | B4A2G4
+G2 | d4A2d4^c2 | d8z2
+d2 | c4A2B4c2 | d6c4
+BA | G4G2A3Bc2 | d6
+d2c2BA | G2ABcde2d3B | c2A4G4
+S:https://www.folktunefinder.com/tunes/78672
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

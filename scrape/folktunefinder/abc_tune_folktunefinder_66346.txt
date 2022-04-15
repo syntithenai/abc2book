@@ -1,0 +1,40 @@
+X:0
+T:King George V's Army
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Pipe Major G.S. McLennan
+S:Scots Guards Standard Settings of Pipe Tunes, 4th edition, 1960
+N:now in print as "Book 1"
+B:my copy
+R:March
+M:2/4
+L:1/16
+Q:1/4=80
+K:Hp
+{g}ed|{gcd}c2{e}A2 {gAGAG}A3B    |  {d}c{e}A{d}ce {g}fe{g}dc |\
+      {Gdc}d2{e}B2  {GdGe}B3c    |{Gdc}de{g}fa   {fg}f2{g}ed |
+      {gcd}c2{e}A2 {gAGAG}A3B    |  {d}c{e}A{d}ce {g}fe{g}dc |\
+      {Gdc}d2{g}fd   {gcd}c2{g}ec|{gcd}B4         {G}A2     :|
+{g}cd|{gef}e2a2        {g}a2gf   |{gef}e2c2     {gcA}c2{g}ec |\
+      {Gdc}d2{e}B2  {GdGe}B2{g}cd|{gcd}c2A2   {gAGAG}A2{g}cd |
+      {gef}e2a2        {g}a2gf   |{gef}e2c2     {gcA}c2{g}ec |\
+      {Adc}d2{g}fd   {gcd}c2{g}ec|{gcd}B4         {G}A2     :|
+{g}ed|{gcd}c2e2       {ag}a3e    |  {g}ceae       {g}faec    |\
+      {Gdc}d2{g}f2    {ag}a3f    |  {g}dfad       {g}fa{fg}fd|
+      {gcd}c2e2       {ag}a3e    |  {g}ceae       {g}faec    |\
+        {g}dfad       {g}ceac    |{gcd}B4         {G}A2     :|
+{g}ed|{gcd}c2e2       {A}e3d     |  {g}ce{A}ea   {fg}fe{g}dc |\
+      {Gdc}d3{g}f     {e}f3e     |  {g}df{e}fa       gf{g}ed |
+      {gcd}c2e2       {A}e3d     |  {g}ce{A}ea   {fg}fe{g}dc |\
+        {g}dfad       {g}ceac    |{gcd}B4         {G}A2     :|
+S:https://www.folktunefinder.com/tunes/66346
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

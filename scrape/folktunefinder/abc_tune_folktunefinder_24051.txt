@@ -1,0 +1,23 @@
+X:3600
+T:Leaping Jack
+O:england
+S:John Kirkpatrick, via Phil Rowe
+M:6/8
+K:A
+E|"A"A2E A2B|cBA e2c|"D"ded "A"c2B|"E7"ABA GFE|
+"A"A2E A2B|"A"cBA e2c|"Bm"ded "E7"c2B|"A"A3 -A2::
+c/2d/2|"A"efe cBA|"D"d2f a2f|"A"efe cBA|"Bm"d2c "E7"B2c/2d/2|
+"A"efe cBA|"D"d2f a2f|"E7"efe dcB|"A"A3 -A2:|
+S:https://www.folktunefinder.com/tunes/24051
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

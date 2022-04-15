@@ -1,0 +1,28 @@
+X:7346
+T:the Southwark Grenadiers trumpet tune
+O:england
+R:March
+M:4/4
+L:1/8
+K:D
+A2|\
+d4 e4 | f2d2 d2ag | f2d2 d2A2 | d2A2 F2ED |\
+d4 e4 | f2d2 d2ag | fgfg \
+P:tr
+e3d | d6 :|
+|:cd|\
+e4 f4 | e2c2 c2A2 | dede d2e2 | f4 a3g |\
+f2a2 e2a2 | d2A2 dcde | fgfg \
+P:tr
+e3d | d4 :|
+S:https://www.folktunefinder.com/tunes/27798
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

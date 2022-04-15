@@ -1,0 +1,26 @@
+X: 1
+T: Hine ma tov
+O: Trad Jewish
+M: 2/4
+L: 1/16
+W: How good and pleasant it is for brothers to live together as one.
+K: Dm
+"A"[|]\
+D2 | "Gm"G2G2 G2(AG) | "Dm"F2(FE) D4 | "Dm"F2ED "C"E2C2 | "Dm"D2 D4 :|
+S:https://www.folktunefinder.com/tunes/18747
+S:http://trillian.mit.edu/~jc/music/abc/song/HineMaTov1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/HineMaTov1_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/HineMaTov1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/HineMaTov1_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/HineMaTov1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/HineMaTov1_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/HineMaTov1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/HineMaTov1_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/HineMaTov1_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

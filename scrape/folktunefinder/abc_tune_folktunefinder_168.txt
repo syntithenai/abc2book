@@ -1,0 +1,32 @@
+X: 1
+P: Patience Quadrille, Figure 3 (Ouverture)
+C: Sir Arthur Sullivan
+M: 6/8
+L: 1/8
+K: D
+FGA "A1"\
+|:"A7"A2^D E2F | G2G GAB | "D"B2^E F2G | A2A Acd \
+| "C#7"d2c c2B | "F#m"A^GA c2B | A2C "C#7"A2^G | "F#m"F3 F3 ||[K:^g]
+[K:A] "B"\
+||"E7"B^AB dc^B | "A"c2A AGF | "E7"E^DE d2d | "A"c3 A3 \
+| "E7"e^AB dc^B | "A"c2A AGF | "E7"E^DE d2G | "A"A2F FGA ||[K:=g]
+[K:D] "A2"\
+||"A7"A2^D E2F | G2G GAB | "D"B2^E F2G | A2A AFD \
+| "G"B,2A, B,2D | B,2A, B,B,D | B3 "A7"A3 | "D"Dz2 "D7"D2D ||[K:=c]
+[K:G] "C"\
+||"G"BBB B2D | BBB B2D | BBB BcB | "C6"A3 e2E \
+| "C"ccc c2E | ccc c2B | "D7"ABc def | "G"g2F "D"FGA :|[K:^c]
+[K:D] "A3"\
+[|"A7"A2^D E2F | G2G GAB | "D"B2^E F2G | A2A AFD \
+| "G"B,2A, B,2D | B,2A, B,B,D | B3 "A7"A3 | "D"Dz2 D3 |]
+%%sep 10 10 200
+S:https://www.folktunefinder.com/tunes/168
+S:http://trillian.mit.edu/~jc/music/abc/Contra/PatienceQuadrille_P2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

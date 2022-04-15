@@ -1,0 +1,27 @@
+X: 1
+T: Killiecrankie
+O: Sharp (1909)
+M: 2/2
+L: 1/8
+B: Sharp - Country Dance Tunes (1909)
+Z: AK/Fiddler's Companion
+F: http://www.ibiblio.org/fiddlers/KIC_KISI.htm 2008-2-23
+K: C
+C2 \
+| G3A G2E2 | G3A G2E2 | D2C2 CDEF | G4 G2G2 | A3c A2G2 | A2 cB A2G2 | c3d e2c2 | A4 A2 cd |
+| e2g2d2e2 | c3d e2c2 | G3A c2E2 | G4 G2G2 | A3A c2c2 | d3d e3d | dcBA GAcE | D4 C2C2 ||
+| G3A G2E2 | G3A G2E2 | D2C2 CDEF | G4 G2G2 | A3c A2G2 | A2cB A2G2 | c3d e2c2 | A4 A2 cd |
+| e2g2d2e2 | c3d e2c2 | G3A c2E2 | G4 G2G2 | A3A c2c2 | d3d e3d | dcBA GAcE | D4 C2 |]
+S:https://www.folktunefinder.com/tunes/15512
+S:http://www.ibiblio.org/fiddlers/KIC_KISI.htm
+S:http://trillian.mit.edu/~jc/music/abc/march/Killiecrankie2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Killiecrankie2_D.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:240
+T: ES WAR EIN REICHER SCHLAECHTERSMANN
+N: E0120
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, Liebe
+M: 4/4
+L: 1/8
+K: A
+AB | =cdcBA2Bc | ded=cB2
+d2 | e2e2A2d2 | =c2B2A2
+A2 | e3de2=f2 | d3=cd2
+e2 | =c3BA2d2 | =c2B2A2
+A2 | e3de2=f2 | d3=cd2
+e2 | =c3BA2d2 | =c2B2A2
+S:https://www.folktunefinder.com/tunes/78681
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

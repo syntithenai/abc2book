@@ -1,0 +1,23 @@
+X: 1
+T: Let Me Call You Sweetheart [D]
+C: music: Leo Friedman [1910]
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/4
+K: D
+[| "D"F2A | d2e | fA2 | ^G2A | "G"B3 | "B7"B3 | "E7"B3- | B3 |
+| "A7"c2=c | ^c2d | ec2 | B2c | "D"A3 | "B7/D#"A3 | "Em"A3- | "A"A_AG |
+|  "D"F2A | d2e | fA2 | ^G2A | "G"B3 | "B7"B3 | "E7"e3- | e3 |
+|  "G"e2d | "(C#7)"c2d | "D"fA2 | "B7"g2f | "E7"B3 "A7"c3 | "D"d3- | d3 |]
+S:https://www.folktunefinder.com/tunes/18826
+S:http://trillian.mit.edu/~jc/music/abc/song/LetMeCallYouSweetheart_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/tune/LetMeCallYouSweetheart_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

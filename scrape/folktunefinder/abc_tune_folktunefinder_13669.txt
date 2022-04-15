@@ -1,0 +1,24 @@
+X:1
+T:Queen of May (The)
+M:2/4
+L:1/16
+Q:90
+C:Trad
+Z:dt king 
+R:Hornpipe
+K:G
+Bc | dBcA Ggfe | edce d2cB | Aced cBAG | FAGE D2Bc |
+| dBcA Ggfe | edce dgfe | dBcA BGAF | G2GG G2 :|
+cB | ADEA GBdg | edce dgdB | ADFA GBdg| edce dgba |
+| gbfa egdf | ceBd AcGB | A2cB ADFA | G2GG G2 :|
+S:https://www.folktunefinder.com/tunes/13669
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/QueenOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/QueenOfMay.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

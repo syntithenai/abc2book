@@ -1,0 +1,28 @@
+X: 147
+T:Joanie's Jig
+% Nottingham Music Database
+S:Bob McQuillen, via Phil Rowe
+M:6/8
+K:D
+DE|"D"FGF "A"EFE|"D"DA,A, DFG|"D"AFA "G"dcB|"D"A3 -AFA|
+"G"BGB "D"AFA|"A"GEG "D"FGA|"Em"B2A G2F|"E7"FED "A7"EDE|
+"D"FGF "A"EFE|"D"DA,A, DFG|"D"AFA "G"dcd|"A"e3 -ede|
+"Bm"fdd "A"e2c|"G"dcB "D"AFA|"G"Bcd "A7"edc|"D"d3 -dde||
+"D"fdd edd|"D"fdd "A"efe|"D"dcd "G"Bcd|"D"A3 -AFA|"G"Bdd "D"Add|
+"Em"GAB "D"AFA|"G"BGB "D"AFD|"Em"E3 -"A7"E2A|"D"fdd edd|"D"fdd "A"efe|
+"D"dcd "G"Bcd|"D7"A3 -AFA|"G"BGB "A"c2c|"Bm"dcd "A"e2g|"D"fed "A7"edc|\
+"D"d3 -d3||
+S:https://www.folktunefinder.com/tunes/65235
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

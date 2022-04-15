@@ -1,0 +1,31 @@
+X:250
+T:Sandansko Oro
+D:Maartin Allcock OX15 (ANDCD38)
+M:22/8
+N:9  13
+O:Macedonia
+P:ABABC
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000068f.html
+%%ID:0000068f
+K:Bb min
+P:A
+B2f2e2f3  e2 ed f2e3 dc cB\
+|1  Bcd2dce2d dc cB c2B3 Bc de\
+:|2 Bcd2dce2d dc cB c2B3 B2 B2||
+P:B
+|:  Bcd2ece2e dc cd dee2g ed cB |\
+Bcd2dce2d dc cB c2B3 B2B2  :|
+P:C
+|:  def2fee2d de f=g agf2e de ed|\
+=def2fee2d de f=g fe ded dd d2:|
+S:https://www.folktunefinder.com/tunes/53280
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A-sharp
+% Time_signature 22/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

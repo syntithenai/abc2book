@@ -1,0 +1,24 @@
+X: 1
+P: Karapyet
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+[| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 \
+| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 |]
+|: "Dm"da- aa | "Gm"b>a g2 | "C7"gb- bb | "F"a2 f2 \
+| fa- aa | "A7"g>f e2 | ag fe | "Dm"d4 :| [K:D]
+[| "A7"ez gz | "D"f3 d | "A7"ef ga | "D"f/g/f/e/ dA \
+| "A7"ez gz | "D"f3 d | "A7"ag Bc | "D"d2 d2 |]
+|: "G"GB- BB | "D"dA- AA | "A7"AG EG | "D"BA FD \
+| "G"GB- BB | "D"dA- AF | "A7"A/B/A/G/ F/G/F/E/ | "D"D2 D2 :|
+S:https://www.folktunefinder.com/tunes/5743
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Karapyet_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

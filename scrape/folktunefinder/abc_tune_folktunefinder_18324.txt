@@ -1,0 +1,42 @@
+X:1
+T:Wiston Lodge
+C:George Meikle
+R:reel
+Z:2007 John Chambers <jc@trillian.mit.edu>
+N:\251 George Meikle <george.meikle:btinternet.com>
+N:George wrote:
+N:The tune was written many years ago when I used to play  regularly  for  very
+N:popular  SCD weekends which were held at Wiston Lodge.  It was initially used
+N:as the original tune for WELCOME TO WISTON but has subsequently been used for
+N:the following dances also:-
+N:  BOUNCING BRAIDS
+N:  DEVIL'S ELBOW {1}
+N:  EDINBURGH EXILES, The
+N:  SQUIGGLY DANCE, The
+N:  TARTAN DAY REEL, The
+M:C|
+L:1/8
+K:A
+"E7"ed \
+| "A"cdec "A7"ABcA | "D"FGAF "Bm"D2F2 | "A"EAcA "(F#m)"ecBA | "Bm"B4 "E"B2 ||
+y"E7"ed \
+| "A"cdec "A7"ABcA | "D"FGAF "Bm"D2F2 | "A"EAcA "E7"BEGB | "A"A4 A2 :|
+|: "A7"AG \
+| "D"FGAF "Bm"DFAF | "A"EAc[AE] "F#m"e2dc | "Bm"BcdB "E7"edcB | "A"AEBE c2 ||
+y"A7"AG \
+| "D"FGAF "Bm"DFAF | "A"EAc[AE] "F#m"e2dc | "Bm"BcdB "E7"edcB | "A"A4 A2 :|
+S:https://www.folktunefinder.com/tunes/18324
+S:http://trillian.mit.edu/~jc/music/abc/reel/WistonLodge_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/WistonLodge_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WistonLodge_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/George_Meikle/WistonLodge_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/George_Meikle/WistonLodge_A4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

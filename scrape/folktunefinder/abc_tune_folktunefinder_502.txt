@@ -1,0 +1,23 @@
+X: 43
+T:Les filles de marbre
+C:Trad. militaire
+R:Danse de caractre
+A:Provence
+I:abc2nwc
+M:2/4
+L:1/16
+K:Bbmaj
+F2d2 d2c2|({cd}c2)B2 B4|F2d2 d2c2|({cd}c2)B2 A4|
+c2f2 f2=e2|({=ef}e2)d2 d2c2|=e2d2 c2B2|({AB}A2)G2 F4||
+f2f2 f2f2|gfed e2c2|e2e2 e2e2|fedc d2B2|
+f2f2 f2f2|gfed e2c2|e2e2 e2e2|fedc B4|]
+%%footer $D   Galouvielle-MBe 2008 \nDanse de caractre (France)
+S:https://www.folktunefinder.com/tunes/502
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:231
+T: WIE SOLLEN WIR EUCH DANKEN
+N: F0400
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch
+M: 4/4
+L: 1/8
+K: C
+G,2 | E,2C,2E,2G,2 | C4C2
+C2 | D2FDC2B,2 | C4z2
+C2 | E2C2G,2E2 | D4C2
+C2 | B,3B,A,3A, | G,4z2
+G,2 | D3DCB,A,B, | C4C2
+C2 | D3DCB,A,B, | C4z2
+G,2 | E3ED3D | C4D2
+FD | C3CB,2A,B, | C4z2
+G,2 | E3ED3D | C4D2
+FD | C3CB,2A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/69791
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

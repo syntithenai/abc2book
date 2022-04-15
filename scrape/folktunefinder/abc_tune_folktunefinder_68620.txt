@@ -1,0 +1,26 @@
+X:74
+T: Der Ackermann
+N: A0082A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei Pet. Schoeffer II. 1537 No. 55. Von Boehme rhythmisch
+N: "wieder hergestellt".
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/8
+K: G
+G4G4G4 | d8e4 | =f4e8 | d8z4
+c4d4=f4 | d8d4 | _B4c8 | _B8z4
+B4d4=f4 | _e8d4 | c6_BAG4 | =F8z4
+d4d4d4 | d8c4 | _B8A4 | _B8z4
+B4d4=f4 | _e8c4 | d6c_BA4 | G8z4
+S:https://www.folktunefinder.com/tunes/68620
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

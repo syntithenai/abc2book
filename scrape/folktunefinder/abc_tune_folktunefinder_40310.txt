@@ -1,0 +1,31 @@
+X:112
+T:One step n1
+R:One step
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:J. Ginas
+L:1/8
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+Q:1/4=160
+K:F
+S c | Ac de | dc zA | c2f2 | e2 zg | gffe | ed zd | e2d2 | c2 zc | =BAGe | dc2e |
+f2g2 | e2ze | dc=BA | cG^FG | A2d2 | c2zc | c2G2 | c2zc | c2d>e | cz F>G ||
+A4- | A2G>A | B4- | B2 c>d | ee ff | ee dd | c4- | c2F>G | A4- | A2 c>A |
+G4- | G2G>A | =BAGA | =Bfed | c4- | c2 F>G | A4-A2 G>A | B4- | B2 c>d | ee ff |
+ee dd | c4- | c2 F>G | A4- | A2 B>c | d4 | d2 e>d | c2 g>f | e2 a>g | f4- | f2z S |]
+%%footer $D   Galouvielle-MBe 2005 \nOne-step France
+S:https://www.folktunefinder.com/tunes/40310
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm One step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

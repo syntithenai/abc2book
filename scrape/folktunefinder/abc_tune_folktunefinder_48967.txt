@@ -1,0 +1,30 @@
+X: 61
+T:Hanter-dro 2
+G:Kazimodal
+R:Hanter-dro
+C:Traditionnel
+Q:C2=116
+P:B5
+M:3/4
+S:Tonio Breizh-Izel 1925 (Pleskob)
+K:Dm
+P:B
+(gf/2)e/2 df (e/2d/2)c | {de}dc/2B/2 Ad (d/2e/2)f |\
+(gf/2)e/2 df (e/2d/2)c | (dc/2)B/2 Ad d2
+|: (de/2)f/2 ge (f/2e/2)d | {de}de/2f/2 gf e2 :|
+(gf/2)e/2 df (e/2d/2)c | dc/2B/2 Ad (d/2e/2)f |\
+(gf/2)e/2 df (e/2d/2)c | {de}(dc/2)B/2 (Ad) d2 ||
+\bigskip
+S:https://www.folktunefinder.com/tunes/48967
+S:http://freespace.virgin.net/hurdy.gurdy/hurdygurdy%20soc.html
+S:http://homepage.virgin.net/hurdy.gurdy/hurdygurdy%20soc.html
+% Rhythm Hanter-dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

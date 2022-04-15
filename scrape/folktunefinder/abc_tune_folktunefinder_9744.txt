@@ -1,0 +1,46 @@
+X: 1
+P: The Iron Man
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hunter 128; Gathering of Clans p.40; BSFC III-10 and IV-9; Phillips p.31
+D: Winston Scotty Fitzgerald on Celtic 17
+D: Tommy Peoples on Iron Man tape
+L: 1/8
+M: 4/4
+K: A
+E \
+| "A"A2 c>A "E7"B>G "A"A>B \
+| c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e2 c>e \
+| "Bm"(3dcB (3cBA "E7"Gc |
+| "A"A2 c>A "E7"B>G "A"A>B \
+| c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e<a c>A \
+| "Bm"(3Bcd "E7"(3dcB "A"c<A A |]
+g \
+| "A"a>A g>A "(D)"f>A "A"e>A \
+| (3cBA e>g a>e c>A \
+| "E7"d>E c>E B>E c>E \
+| (3dcB (3cBA (3Bcd (3efg |
+| "A"a>A g>A "(D)"f>A "A"e>A \
+| (3cBA e>g a>e c>A \
+| "D"d2f>d "A"(3eag (3fed \
+| "E7"(3cBA (3GAB "A"c<A A |]
+S:https://www.folktunefinder.com/tunes/9744
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS14.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/CambridgeRoundabout.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Entertainer.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/FraminghamAssembly.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/HighlandLightSocietyTriumph.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Irongray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Irongray2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MissMcCluresStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MissMcCluresStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/VisitToBalfron.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

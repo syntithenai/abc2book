@@ -1,0 +1,25 @@
+X:0
+T:Miss Sally Hunter of Thurston
+S:The Beauties of Niel Gow
+C:Nathaniel Gow
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+A|DFA d2A|B2A d2A|Bcd efg|efd cBA |
+  DFA d2A|B2A Bcd|egf edc|d3  D2 :|
+g|fed g2e|a2f b2g|fef def|efd c>BA|
+  fed g2e|a2f g2B|fga Adc|d3  d2g |
+  fdf geg|afa bgb|afd Bcd|efd cBA |
+  DFA d2A|B2A Bcd|egf edc|d3  D2 |]
+S:https://www.folktunefinder.com/tunes/29997
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

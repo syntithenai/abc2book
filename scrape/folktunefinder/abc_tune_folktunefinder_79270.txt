@@ -1,0 +1,28 @@
+X:166
+T: ES SASSEN DREI GESELLEN
+N: E1303
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied, Reiter
+M: 4/4
+L: 1/8
+K: G
+D2 | G4B4 | d6
+c2 | B4A4 | G4z2
+D2 | G4B4 | d6
+c2 | B4A4 | G4z2
+G2 | B2B2B2B2 | B4A2
+G2 | B2d2c2B2 | A4z2
+D2 | G2A2B2c2 | d3ed2
+c2 | B2B2A2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/79270
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied, reiter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

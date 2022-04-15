@@ -1,0 +1,24 @@
+X: 1
+T: To Life!
+C: Jerry Bock
+N: From the musical "Fiddler on the Roof"
+N: There are different versions in the play and movie, and many sung variants.
+N: This is a "generic" version without the personal names used in the play and movie.
+M: 2/4
+L: 1/8
+K: Dm
+A \
+|: "E7"fz ze | "A7"dz z^c | "Dm"dA z2 | z3 A | "D"d _e2 d | c B2 A | "Gm"Bz z2 |
+S:https://www.folktunefinder.com/tunes/7365
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ToLife.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/ToLife_Dm_wW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/ToLife_Dm_wW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:7820
+T:Upton on Severn
+O:england
+M:6/8
+C:
+S:Bordering on the Absurd
+N:Stick Dance
+A:Border
+R:Jig
+%P:
+%:NoTeX
+L:1/8
+K:G
+B c
+P:A
+|:kd2 B BAG|AGA BGE|D2 G GBd|edB A2 \
+B/c/|d2 B BAG|AGA BGE|D2 G GAB|AGA G3:|\
+P:B
+|:GBd  g2 d|ede dBG|GBd  g2 d|edB A3|\
+GBd  g2 d|ede dBG|ege  dBG|ABA G3:|
+S:https://www.folktunefinder.com/tunes/28272
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

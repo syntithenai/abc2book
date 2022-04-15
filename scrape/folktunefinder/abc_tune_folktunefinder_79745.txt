@@ -1,0 +1,30 @@
+X:641
+T: EIN BLUM STEHT AUF DER HEIDE
+N: E2011
+O: Europa, Mitteleuropa, Deutschland
+R: geistlich, Gebet, Jesus - Lied
+M: 6/4
+L: 1/4
+K: G
+G | B2Bc2B | d3c2
+B | A2GG2A | B3A2
+G | B2Bc2B | d3c2
+B | A2GG2A | B3A2
+d | d2cB2A | G3D2
+D | G2FG2A | B3A2
+G | B2Bc2d | d3c2
+B | c2BA2G | F3D2
+D | G2AB2c | B2AG2
+S:https://www.folktunefinder.com/tunes/79745
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, gebet, jesus - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

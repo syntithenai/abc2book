@@ -1,0 +1,26 @@
+X:399
+T: Tanzweisen (4-99), S. 131
+N: P0669
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: Tanzweise]
+M: 2/4
+L: 1/8
+K: G
+D | Bz2D | Bz2A | BBAG | A2z
+D | Az2D | Az2A | BBAF | G2z2
+BBcB | BAA2
+AABA | AGG
+D | Bz2D | Bz2B | BBcB | A2z
+D | A2zD | A2zA | BBAF | Gz2
+S:https://www.folktunefinder.com/tunes/76379
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Tanzweise]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

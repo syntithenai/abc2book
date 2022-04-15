@@ -1,0 +1,27 @@
+X:1077
+T:Ballroom Reel, The
+R:reel
+D:Jean-Michel Veillon: E Koad Nizan
+Z:id:hn-reel-779
+M:C|
+K:D
+DF (3ABc d2Ac|df~f2 ecAc|dcBA {c}BAGF|{A}GDEF {A}GFEF|
+DF (3ABc d2Ac|df^ef =ecAc|dcBA {c}BAGF|GABc dAFA|
+DF (3ABc d2Ac|df~f2 ecAc|dcBA {c}BAGF|{c}BA{c}AG {A}GF{A}FE|
+DF (3ABc d2Ac|df^ef =ecAc|dcBA {c}BAGF|GABc d3A||
+defg {b}afdf|~g2fg ecAc|defg {b}afdf|{a}ge{b}ag {a}fddc|
+defg a2fd|gafd ecAc|dcBA {c}BAGF|GABc d3A|
+defg {b}afdf|~g2fg ecAc|defg a2{b}af|(3gab ag {a}fdce|
+defg ~a3f|g2{a}fd ecAc|dcBA {c}BAGF|GABc d2AF||
+S:https://www.folktunefinder.com/tunes/56016
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

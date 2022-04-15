@@ -1,0 +1,32 @@
+X:121
+T:Matelote
+R:Matelote
+C: (Provence)
+Q:1/4=80
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Bb
+P:Introduction
+=e/2f3/2g/2 | a3/2g/2f3/2e/2 f3/2e/2d3/2c/2| B2f2 b3/2F/2G3/2A/2 ||
+P:A
+[|B3/2A/2B3/2c/2 d3/2c/2d3/2e/2|f2b2 f3/2d/2f3/2g/2| e2a2 e3/2c/2d3/2e/2|d2g2 d3/2F/2G3/2A/2|
+B3/2A/2B3/2c/2 d3/2c/2d3/2e/2|f2b2 f3/2=e/2f3/2g/2| a3/2g/2f3/2=e/2 f3/2_e/2d3/2c/2|B2f2 b2 z2|:
+P:B
+c3/2A/2F3/2A/2 c3/2A/2c3/2f/2|d3/2B/2G3/2B/2 d3/2B/2d3/2g/2| =e3/2d/2c3/2d/2 e3/2f/2g3/2_a/2|=a3/2g/2f3/2d/2 c2 z2|
+c3/2A/2F3/2A/2 c3/2A/2c3/2f/2|d3/2B/2G3/2B/2 d3/2B/2d3/2g/2| =e3/2d/2c3/2d/2 e3/2g/2b3/2g/2|f2f2 f2 z2::
+P:C
+B3/2F/2d3/2F/2 B3/2F/2B3/2d/2|c2f2 f2 z2| B3/2F/2d3/2F/2 B3/2F/2B3/2d/2|c3/2B/2A3/2G/2 F2 z2| B3/2F/2d3/2F/2 B3/2F/2B3/2d/2 | 
+c2f2 f2 z2 |[1f3/2=e/2f3/2g/2 a3/2g/2f3/2e/2|f2f2 f2 z2:| [2f3/2=e/2f3/2g/2 f3/2_e/2d3/2c/2|B2f2 b3/2F/2G3/2A/2|]
+%%footer $D   Galouvielle-MBe 2008 \nMatelote (--)
+S:https://www.folktunefinder.com/tunes/579
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Matelote
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

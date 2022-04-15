@@ -1,0 +1,30 @@
+X:14993
+T:Schottische (Halling)
+R:Schottische
+P:AABAABCC
+O:Sweden
+O:Norway
+M:4/4
+K:DDor
+P:A
+A2 | A2f2f2ed | e3fe2A2 | A2d2d2cB | c3dc2 :|\
+P:B
+A2 | A2f2f2ed | g2ga gffg | a3_ba3b | \
+agfed2ag | f2ed e2c2 | d4 |: \
+P:C
+A2 | \
+f2ag f2ed | cdc_B ABAG | FGFD EFED | E6 A2 |\
+f2ag f2ed | cdc_B ABAG | FGFD EFED | E6 ag| \
+f2ed e2^c2 | d6 :|**
+S:https://www.folktunefinder.com/tunes/46268
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

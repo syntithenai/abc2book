@@ -1,0 +1,27 @@
+X: 2
+P: Nyingen
+R: shottish
+C: Per Hedlund
+D: Another Way RPMCD-001
+M: C
+L: 1/8
+K: Dm
+|: "Dm"DE FD "A7"EF GE | "Dm"FG A2 "(A7)"A3 B \
+| "Dm"AG FE D3 F |1,3 "A7"EF G2 ^C4 :|3,4 "C"ED =C2 "Dm"D4 :|
+|: "Dm"a3 b/a/ "Gm"g3 a/g/ | "Dm"f3 g/f/ "A7"e4 \
+| "Dm"de fd "Gm"e3 d |1,3 "A7"^cd e2 A4 \
+:|2 "A7"^cA c2 "Dm"d4 :|4[K:D] "A7"cA c2 "D"dd cB ||
+|: "D"AD FG Ad cB | "A7"AC EG A4 | "A7"ce Be AG FE \
+|1,3 "D"FG AB Ad cB :|2 "D"DF "A7"EC "D"Dd cB :|4 "D"DF "A7"EC "D"D4 |]
+S:https://www.folktunefinder.com/tunes/9255
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish15.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:2152
+T:Bride's Favourite
+Z: id:dc-jig-15
+M:6/8
+L:1/8
+K:G Major
+zD|G3 BAB|GBd gdB|AFA cBA|GBd gdB|!
+G3 BAB|GBd gdB|AFA cBA|AGF G:|!
+Bd|g2a f2a|gdB GBd|gfe fed|egf e2f|!
+g2a f2a|gdB GAB|AFA cBA|AGF G:|!
+zD|GBd gfg|edc BcA|GBd g3|faf g2a|!
+bgb afa|geg fdf|ed^c def|gaf g:|!
+S:https://www.folktunefinder.com/tunes/57091
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

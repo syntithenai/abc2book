@@ -1,0 +1,26 @@
+X:421
+%%topmargin 3cm
+T:Miss Susan Gordon
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D aeolian
+f | TF2 FB A(B/c/) (cf) | af{/d}cB ABcA | {/F}G2 GB B(c/d/) (dg) | (ba)Tgf efge |
+TF2 FB A(B/c/) (cf) | af{/d}cB ABcA | BdBd AcAc | GABc {Bc}d2 d ||
+f| cfAf cfAf cfaf {/d}cBAc | dg=Bg dgBg | dg(ba) T(gf)ef |
+cfAf cfAf | cfaf {/d}cBAc | BdBd AcAc | GABc {Bc}d2 d |]
+S:https://www.folktunefinder.com/tunes/71450
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Susan_Gordon.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0421.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

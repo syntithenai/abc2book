@@ -1,0 +1,31 @@
+X:192
+T: WIR LUSTGEN BRAUNSCHWEIGER
+N: E1334
+O: Europa, Mitteleuropa, Deutschland, Braunschweig
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 3/4
+L: 1/16
+K: G
+D4 | G4G2A2B2c2 | e2d2d4
+B2d2 | d4c4A2c2 | c4B4
+D4 | G4G2A2B2c2 | e2d2d4
+B2d2 | d4c4A2c2 | c4B4
+G2B2 | d4d4d4 | d6c2
+B4 | e4e4e4 | e6d2
+c4 | B4B4c2e2 | d4z4
+e3d | d2c2c2c2d2c2 | B4z4
+G2B2 | d4d4d4 | d6c2
+B4 | e4e4e4 | e6d2
+c4 | B4B4c2e2 | d4z4
+e3d | d2c2c2c2d2c2 | B4z4
+S:https://www.folktunefinder.com/tunes/79296
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

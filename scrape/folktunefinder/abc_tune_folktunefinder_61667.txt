@@ -1,0 +1,25 @@
+X:9634
+T:Limestone Rock
+R:reel
+N:There is also another reel by the same name. See also #4
+D:Chieftains 1.
+Z:id:hn-reel-90
+M:C|
+K:G
+Bc|dBGB ABGB|dBGB A2Bc|dBGB ABGB|cABG A2Bc|
+dBGB ABGB|dBGB A2df|~g3a bgaf|gedB ABcd||
+|:e2de gede|gedB A2Bd|1 e2de gedB|cABG A2Bd:|2 eaaf gedB|cABG A2Bc||
+S:https://www.folktunefinder.com/tunes/61667
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

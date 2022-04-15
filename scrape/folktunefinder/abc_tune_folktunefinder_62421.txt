@@ -1,0 +1,24 @@
+X:90
+T:Polska efter Ida i Rye
+R:sl-polska
+A:Sm{\aa}land
+B:SvL Sml 49, efter Ida-Sofia Jonsson-Erlandsson, B\"ackebo
+Z:id:hn-sp-90
+M:3/4
+L:1/16
+K:D
+(vA2 | !fz!Ld2).d.f .e.d.c.B A2(A2 | d2).d.f .e.d.c.B A2(A2 | 
+d2)(de) .=f.e.f.g a2(d2 | ^f2).e.c (e2d2) d2 :||: A2 |
+{[eA]}!fz![=f2A2].f.a .f.d.f.a (a2gf) | [e2A2].e.g .e.c.e.g (g2=fe) |
+{[eA]}!fz![=f2A2].f.a .f.d.f.a (a2gf) | [e2A2].e.g .e.c.e.g (g2=fe) |
+.d.c.d.e .=f.e.f.g a2(d2 | !fz!^f2).e.c (e2d2) d2 :|
+S:https://www.folktunefinder.com/tunes/62421
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

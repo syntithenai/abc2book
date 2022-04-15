@@ -1,0 +1,60 @@
+X: 46
+T: Bucimis
+O: Bulgaria
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://ecf-guest.mit.edu/~jc/m
+Z:ic/abc/
+Z: Adapted for abc2midi by Seymour Shlien
+Z: Some modifications of the tune from the middle. 
+L: 1/8
+M: 15/8
+Q:1/4=180
+P: ABBCCDEFGHCC 
+K: ADor
+%%MIDI program 23
+P: A
+%%MIDI drum d2d2d2d2dd2dd2d2 41 41 41 41 41 41 41 41 41 110 70 110 70 70 1100 70 90 70
+%%MIDI drumon
+z15|z15|
+%%MIDI drumoff
+P: B (4x)
+%%MIDI drum d2d2d2d2dd2dd2d2 41 41 41 41 41 41 41 41 41 60 40 60 40 40 60 40 60 40
+%%MIDI drumon
+|: "Am"A2 de eA eA   ~e2d dc de | cE BE cE BE   "G"GFG "Am"~A2 AE :|
+P: C (4x)
+|: "Am"cE BE cE BE   "G"GFG "Am"AB cd | cE BE cE BE   "G"GFG "Am"~A2 !fine!AE :|
+P: D
+|: "Am"cd dB cA BG   A2B ~c2 cE | cd dB cA BG   ~A2e ~A2 A2 :| 
+P: E 
+|: "Am"FG AB cE BE   ~A2G ~c2 BA | cE BE cE BE   "G"GAd "Am"~A2 A2 :|
+P: F
+%modified from here by Seymour Shlien
+%%MIDI drumoff
+K: Dm
+|: "A"gfed ed ^cB2 \
+  [cA][dB][ec] [^c2A2] [^cA][BE] \
+| [AE][BG] [^cA][dB] [ec][fd] [e2c2] \
+  "Gm"[dB][cA][BG] "A" [c2A2] [cA][AE] :|
+P: G
+|: "A"[^cA][dB] [e2c2] [ec][dB] [e2c2]  \
+  "Gm"[dB][^cA][BG] "A" [^c2A2] [^cA][BE] \
+| [AE][BG] [^cA][dB] [ec][fd] [e2c2] \
+  "Gm"[dB][^cA][BG] "A" [^c2A2] [^cA][AE] :|
+P: H
+|: "A"deeA deeA "Gm"fed "A" e2 A2 |
+   "A"deeA deeA "Gm"fed "A" e4   :|
+P: I
+K: A
+|: "A"dE ~c2 dE ~c2   AGA "E7"Bc de | "A"dE ~c2 dE ~c2   "B7"AcA "E"B2 B
+2 :|
+%%partsspace 0
+S:https://www.folktunefinder.com/tunes/67932
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 15/8
+% Has_accompaniment_chords Has chords

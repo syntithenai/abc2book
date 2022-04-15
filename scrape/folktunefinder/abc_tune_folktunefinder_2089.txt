@@ -1,0 +1,21 @@
+X:1
+T:Breaking the Saw
+R:Jig
+M:6/8
+L:1/8
+K:G
+|:dBG ~G3|dBG ABc|dBG ~G3| efg ed^c|
+dBG ~G3|dBG ABc|ded dcA| BGF G3:||
+|: ~e3 edB|def ~g3| ~e3 edB| dBG ~A3|
+d3 dcA |cAG ABc| ded dcA|BGF G3:||
+S:https://www.folktunefinder.com/tunes/2089
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

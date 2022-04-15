@@ -1,0 +1,28 @@
+X: 1
+T: Hugh O'Donnell
+C: Turlough O'Carolan
+B: Barnes "English Country Dance Tunes" v.2 p.138
+B: "Complete Collection ... of CAROLAN" Ossian
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"D2G GAG | "D"F2G A2c | "Em"B2E EGE | "D"A2D DFD \
+| "G"G2D "C"GFE | "D"D3 d3 | "G"BGB BGB | "C"c3 e3 |
+| "G"d>ed "Em"BGB | "Am"c>dc "D"AFA | "G"B>cB "Em"GEG | "C"A>BA "D"FDF \
+| "G"G2D "C"GFE | "D"D3 d3 | "C"cBA "D"GAF | "G"G3 G3 ||
+G \
+| "G"d2G d2G | "C"edc "G"BAG | "D"FAA ABA | FAA ABA \
+| "Em"GBB BcB | EFG "D"FED | "Em"EFG "D"FGA | "C"EFG "D"AFD |
+| "G"d2d "C"e2e | "D"f2f "G"g3 | "G"g2d "C"g2c | "G"g2B "D"Aag \
+| "D"fed ded | dcB Adc | "G"BAG "D"AGF | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14339
+S:http://trillian.mit.edu/~jc/music/abc/jig/HughODonnell_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/HughODonnell_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

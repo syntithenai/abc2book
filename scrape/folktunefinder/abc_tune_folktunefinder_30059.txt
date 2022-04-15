@@ -1,0 +1,22 @@
+X:0
+T:Born in St Johnstone and burn'd in Dundee
+S:Blaikie MS (1692), NLS MS.1578/Mf.Sec.MSS.295
+G:south-east Scottish ballad
+M:3/4
+L:1/4
+Q:1/4=120
+K:DDor
+% D dorian/minor hexatonic
+DAG   |F>GA|FED   |C>DE|DAG|F>GA|A   fe   |d3||
+Add/c/|A dc|FcA/G/|F>GA|AAG|F>GA|G/F/DC/E/|D3|]
+S:https://www.folktunefinder.com/tunes/30059
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

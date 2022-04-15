@@ -1,0 +1,36 @@
+X: 1
+T: Valle K\"or\,care
+O: Ramiz K. Islami
+%%textfont Helvetica-Bold 14
+%%slurgraces yes
+M: 4/4
+L: 1/8
+K: Cdor
+"A"\
+[| cB GB GB c2 | cB GB GB c2 | cB GB GB e2 |1 c8 :|2 c6 de |]
+"B"\
+[| f6 ~fe | c6 ~de | ~fe d/e/f/e/ Jg2 {ef}e2 | c6 ~de \
+| ~f6 f/g/f/e/ | c6 ~de | ~fe d/e/f/e/ ~g2 {ef}e2 | c8 |]
+"C"\
+|: ~g2 ~fe de f2 | ~g2 ~fe de f2 | ~g2 fe ~g2 e2 |1 c4 c/B/G/B/ c2 :|2 c6 ~de |]
+%%text  B   C   B   taxim   B
+"A1"\
+[| cB GB GB ~d2 | cB GB GB ~e2 | cB GB GB ~e2 | c8 \
+|  cB GB GB ~e2 | cB GB GB ~e2 | cB GB GB ~e2 | c6 ~de |]
+"B1"\
+[| f6 ~fe | c6 ~de | ~fe d/e/f/e/ Jg2 {ef}e2 | c6 ~de \
+| ~fe d/e/f/e/ ~g2 {ef}e2 | c6 ~de | ~fe d/e/f/e ~g2 {ef}e2 | c8 |]
+"C"\
+|: ~g2 ~fe de f2 | ~g2 ~fe de f2 | ~g2 fe ~g2 e2 |1 c4 c/B/G/B/ c2 :|2 c6 ~de |]
+"B2"\
+[| f6 ~fe | c6 ~de | f6 ~fe | c6 ~de | f6 ~fe | c6 ~de | ~fe d/e/f/e/ ~g2 {ef}e2 | c8 |]
+S:https://www.folktunefinder.com/tunes/6177
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ValleKorcare.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

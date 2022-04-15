@@ -1,0 +1,22 @@
+X: 1
+T: Reel du p\`ere Verret
+O: trad Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: D
+   de | fedf  edBc | dBBA  BAFD |   RD2FA  cBAG |1,3 FAde fe :|2,4 FAEA D2  :|
+|: AG | FDRD2 FDAF | EGEG =cBAG |1,3 FDRD2 FDAD |    BDcD d2 :|2,4 FAdf edce | dfec d2 :|
+S:https://www.folktunefinder.com/tunes/18014
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_du_pere_Verret_2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Reel_du_pere_Verret_2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Reel_du_pere_Verret_2_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

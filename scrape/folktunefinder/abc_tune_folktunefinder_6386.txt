@@ -1,0 +1,23 @@
+X: 5
+T: The Trip To Athlone
+T: The Newport Lasses
+T: O'Brien's Fancy
+T: Gearrchaile Bhaile U\'i BhFiach\'ain
+M: 6/8
+L: 1/8
+R: jig
+K: D
+|: ABA  D2d | {e}dcA AGF  |    ABG  ABc |  dAB =cde |  ABA D2d  | {e}dcA AGF |
+|  GFG  Ade |1   fdc d2d :|2   fdc  d2e |: fed  edc |  Adc Ade  |    fed efg |
+|  AB=c def |   ~g3  age  | {a}ed=c AGF | ~G3   Ade |1 fdc d2e :|2   fdc d2d |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6386
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

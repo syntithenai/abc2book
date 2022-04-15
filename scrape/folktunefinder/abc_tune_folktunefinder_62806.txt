@@ -1,0 +1,31 @@
+X: 23
+T: Paimen-plikan valssi
+R: waltz
+O: Polvianderin pelimannit, Huittinen
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D4 F2 | A4 F2 | "A7"G3 FEF | "Dm"D4 "C7"E2 \
+| "F"F4 A2 | c4 A2 | "C7"B3 AG2 | "F"A4 A2 |
+| "Dm"d3 ^cde | "Gm"d3 cB/A/G | "A"A3 GFE | "Bb"D4 F2 \
+| "Gm"E3 FAG | "A7"F3 EA,^C | "Dm"D6 | D2 z2 :|
+|: "C7"E2 \
+| "F".F2 zFF2 | F4 A2 | "C7".c2 zcc2 | "F"c4 A2 \
+| "A7".G2 zGG2 | G2 A2 G2 | "D.".F2 zFF2 | F4 E2 |
+| "Bb".D2 zDD2 | D4 F2 | "F".A2 zAA2 | A4 F2 \
+| "A7".E2 zEE2 | E2 F2 E2 | "D."D6 | D2 z2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/62806
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

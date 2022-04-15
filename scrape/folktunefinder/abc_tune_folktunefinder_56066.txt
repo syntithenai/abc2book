@@ -1,0 +1,27 @@
+X:1127
+T:Bank of Ireland
+R:Reel
+Z:id:hn-reel-26
+M:C|
+L:1/8
+Q:1/4=200
+K:Dmix
+|:c2AB cBAG|EGDG EGAB|c2AB cBAG|Add^c d=fed|
+cAAB cABG|~E3D EGAB|cAAB cABG|1 Add^c d2AB:|2 Add^c d3e|
+Q:1/4=200
+K:D
+|:~f3d e2fe|dfed cA~A2|~f3d e2fg|afge d2cd|
+ea~a2 efge|dfed =cAAG|Addc defg|1 afge d3e:|2 afge d2|]
+S:https://www.folktunefinder.com/tunes/56066
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

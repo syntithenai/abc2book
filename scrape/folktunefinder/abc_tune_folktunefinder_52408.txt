@@ -1,0 +1,23 @@
+X:239
+T:Double Lead Through
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+g4 d3B | G2 G2 GABG | E2 E2 F2 F2 | G3 A B2 d2 |
+g4 d3 B | G2 G2 GABG | E2 E2 F2 F2 | G4 G4 ||
+A3d  ^c2 d2 | A3 d ^c2 d2 | A2 d2 e2 e2 | f8 |
+A3 d ^c2 d2 | A3 d ^c2 d2 | A2 g2 f2 e2 | d2 c2 B2 A2 ||
+G2 G2 GABG | A2 A2ABcA | Bc d2 cd e2 | e2 d2 d2 ef |
+g2 g2 gf e2 | d2 d2 dc B2 | A3 B c2 d2 | egfe dcBA |
+G2 G2 GABG | A2 A2 ABcA | Bc d2 cd e2 | e2 d2 d2 ef |
+g2 g2 gf e2 | d2 d2 dc B2 | A3 B c2 d2 | e2 f2 g4 ||
+S:https://www.folktunefinder.com/tunes/52408
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

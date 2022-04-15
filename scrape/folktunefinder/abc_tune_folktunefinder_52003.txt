@@ -1,0 +1,28 @@
+X: 1
+T:Passade 1
+C:Gilles Chabenat
+N:abc transcription Simon Wascher
+N:if you find an error in this transcription please inform simon.wascher@chello.at
+R:Bourree
+M:3/8
+L:1/16
+%F:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc 2007-04-27 14:53:30 UT
+K:Dmixo
+G2EFGE|A3GAB|cBAGAB|A2GFEF| G2EFGE|A3GAB|cBAGAB|1D6:|2D2EFGA||
+|:B2GABd|A2F2d2|G2EFGB|A2GFED| B2GABd|A2F2d2|G2EFGB|1A4GA:|2A6||
+S:https://www.folktunefinder.com/tunes/52003
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

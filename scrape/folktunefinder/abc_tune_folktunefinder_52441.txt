@@ -1,0 +1,24 @@
+X:288
+T:Redesdale Hornpipe
+C:James Hill
+M:4/4
+L:1/8
+Q:150
+K:G
+(3def | g>d B>g G>B (3def |
+g>d B>g G2 A>B | c>A F>A D>F A>c |
+e>d ^c>d B2 de/2f/2 | g>d B>g G>B (3def |
+g>d B>g G2 A>B | c>A F>A D>F A>B | A2 G2 G2 :|
+G>A | B>G F>G D>G F>G |
+B>G F>G D2 A>B | c>A F>A D>F A>c |
+e>d ^c>d B2 G>A | B>G F>G D>G F>G |
+B>G F>G D2 A>B | c>A F>A D>F A>B | A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/52441
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:606
+T: St. Hubert (303), S.626
+N: T0493
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: mitgeteilt: hhh Heinrich Godefroid (Lehrer)
+R: geistliches Lied]
+M: 6/8
+L: 1/16
+K: G
+B2 | B4A2A4G2 | G6
+A6 | B2c2B2A2G2A2 | G8z2
+B2 | B4A2A4G2 | G6
+A6 | B2c2B2A2G2A2 | G8z2
+GA | B4d2B2c2d2 | A4A2A4
+GA | B4B2B2c2d2 | A4A2A4
+S:https://www.folktunefinder.com/tunes/70736
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Geistliches lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

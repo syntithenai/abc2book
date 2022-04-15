@@ -1,0 +1,28 @@
+X:313
+T:Air du branle coupp appell Charlotte.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:vrifier 3me mesure : cABc ou c3/2 ABc 
+N:0154.gif
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:8/2
+L:1/2
+Q:1/2=170
+K:F
+GGBB ccd2 | gz dz | cABc d2 G2 :: Gddd cdB2 | dz cz |
+GABc AG   | dz cz | GABc AG | dz ez | dcBB AA G2 ||
+S:https://www.folktunefinder.com/tunes/947
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

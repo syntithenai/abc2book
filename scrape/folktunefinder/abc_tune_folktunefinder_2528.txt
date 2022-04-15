@@ -1,0 +1,27 @@
+X:2
+T:Shuffle and Cut
+S:McFarlan MS, 1740
+Z:Jack Campin 2002
+M:9/8
+L:1/8
+P:(ABAC)2 (DBDC)2 (EBEC)2 (FBFC)2 (GBGC)2 (HBHC)2
+K:D
+[P:A]  dBG      AGF      G2(B    |
+[P:B]  B)GE     E2(B     A)FD    |
+[P:C]  A)FD     D2(B     A)FD    |
+[P:D]  afd      edc      d2(B    |
+[P:E] (E/F/G)E (D/E/F)D (E/F/G)(B|
+[P:F] (d/e/f)d (c/d/e)c (B/c/d)(B|
+[P:G]  B,2E    (E/F/G)E  E2(B    |
+[P:H]  G2d      F2d      E2(d    |
+S:https://www.folktunefinder.com/tunes/2528
+S:http://trillian.mit.edu/~jc/music/abc/test/ShuffleAndCut_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/ShuffleAndCut_2.abc
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg03254.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

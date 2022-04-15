@@ -1,0 +1,26 @@
+X:203
+T: MEISTER MUELLER THUT MAL SEHEN
+N: E0108A
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 4/4
+L: 1/8
+K: F
+CC | F2F2FAcA | A2G2z2
+GA | B2B2BdcB | B2A2z2
+AB | c2ABcfed | d2c2z
+ccd | c3dcBEG | G2F2z2
+AB | c2ABcfed | d2c2z
+ccd | c3dcBEG | G2F2z2
+S:https://www.folktunefinder.com/tunes/78644
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

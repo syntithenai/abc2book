@@ -1,0 +1,23 @@
+X:7754
+T:Une autre fois (F. Paris)
+O:england
+M:2/4
+L:1/16
+K:C
+ef|g3f fedc|a3g fedc|d2 de ~d2 cd|\
+e3f edcB|A3B ~c2Bc|
+d2de dced|1 c3d cdef:|2 c3d cBcd||\
+c3d ~c2Bc|d3e dced|
+c3d cBAG|c3d cBcd|c3d ~c2Bc|\
+d3e dcfe|d3e deef||
+S:https://www.folktunefinder.com/tunes/28206
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Lord Gregory
+B:Burns, Poems and Songs, OED collected edition
+Z: Jack Campin <jc@purr.demon.co.uk> scots-l 2001-7-3
+M:3/4
+L:1/8
+K:A Minor
+   A2  |    e4  A>B  |({A}^G4) E2 |    A4  B2 |    c4 ||\
+(3(ceg)| {f}e4  d>c  |     B4  c>A|    B4    ||
+   B2  |    e4  A2   | {A}^G4  E2 |    A4  B2 |    c4 ||\
+(3(ceg)|({f}e4) d>c  |     c4 TB2 |    A4    ||
+   A2  |    e4  e>e  |     f4  e2 |({e}d4) d2 |({d}e4)||\
+   e>d |    c4  cd/e/|  {e}d4  c2 | {c}B4    ||
+   B2  |    e4  A2   |    ^G4  F>E|   (A4  B2)|    c4 ||\
+(3(ceg)| {f}e4  d>c  |     c4 TB2 |    A4    |]
+S:https://www.folktunefinder.com/tunes/18836
+S:http://trillian.mit.edu/~jc/music/abc/song/LordGregory_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/song/LordGregory_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/LordGregory_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: McLean of Pennycross
+C: A.Ferguson
+B: The Fiddle Music of Scotland
+N: As played by Arthur Scott Robertson
+Z: Nigel Gatherer
+S: Nigel Gatherer scots_music 2005-6-21
+M: C|
+L: 1/8
+K: A
+   e>d "A"| "A"c>B   A<a    c<e     c<A | "A"c<e   a>e "D"f2 "E7"e>c | "A"A>B c<a "F#m"c<f e>c | "Bm"d>c B<A "E7"B2 ||
+y  e>d    | "A"c>B   A<a    c<e     c<A | "A"c<e   a>e "D"f2 "E7"e>c | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 :|
+|: c>d "B"| "A"e>c   A>c "D"a2      f<a | "D"f>e   d<f "A"e2     c<e | "A"A>B c<a "F#m"c<f e>c | "Bm"d>c B<A "E7"B2 ||
+[1 c>d    | "A"e>c   A>c "D"a2      f<a | "D"f>e   d<f "A"e2     c<e | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 |]
+[2 e>d    | "A"c>B   A<a    c<e     c<A | "A"c<e   a>e "D"f2 "E7"e>c | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 |]
+|: e2  "C"| "A"(3AAA c<A    e>A     c>B | "A"A>A   A<a "D"f2 "E7"e>c | "A"A>B c<a "F#m"c<f e>c | "Bm"d>c B<A "E7"B2 ||
+y2 a2     | "A"(3AAA c<A    e>A     c>B | "A"A>A   A<a "D"f2 "E7"e>c | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 :|
+|: f>g "D"| "A"a>g   a>e "D"f<a "E7"e>c | "A"(3eee a>e "D"f2 "E7"e>c | "A"A>B c<a "F#m"c<f e>c | "Bm"d>c B<A "E7"B2 ||
+[1 f>g    | "A"a>g   a>e "D"f<a "E7"e>c | "A"(3eee a>e "D"f2 "E7"e>c | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 |]
+[2 a2     | "A"(3AAA c<A    e>A     c>B | "A"A>A   A<a "D"f2 "E7"e>c | "A"A>B c<a "E7" c<e d>B | "A" c2  A2      A2 |]
+S:https://www.folktunefinder.com/tunes/15575
+S:http://trillian.mit.edu/~jc/music/abc/march/McLean_of_Pennycross_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/McLean_of_Pennycross_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:3443
+T:La Russe
+O:england
+C:Polka
+R:Intro
+M:4/4
+L:1/8
+K:G
+G G|G2B B B2d d|d2g2g2f g|a4f4|
+g6|:GG|G2BB B2dd|d2g2g2fg|a2g2e2c2|
+e2d2dcBA|G2BB B2dd|d2g2g2fg|e2d2d2F2|
+A2G2G2:|
+K:D
+zB|:A2d2d3B|A2a2a3f|g2f2g2e2|fgag f2d2|
+A2d2d3B|A2a2a3f|g2f2g2e2|[1d4d3B:|[2d3e d=cBA
+S:https://www.folktunefinder.com/tunes/23894
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Intro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

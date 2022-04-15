@@ -1,0 +1,38 @@
+X:22
+T:Daar was laatst een meisje loos
+C: beun2001                          %composer
+O:                           %origin
+M:3/8                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:                           %tempo  Q:1/4=80
+K:C     % transposed from C
+P: INTRO
+|EDE |"G7" GAG | FED | "C" C3||
+|"C" E2 D | C2 G, | E2 D | C3 | EDE | "G7" G2 F |FED | "C" E2 C|
+|"C" E2 D | C2 G, | E2 D| C3  |EDE |"G7" GAG | FED | "C" C3||
+W:
+W:Daar was laatst een meisje loos, die wou gaan varen, die wou gaan varen
+W:Daar was laatst een meisje loos, die wou gaan varen als licht matroos.
+W:
+W:zij moest klimmen in de mast, maken de zeilen, maken de zeilen
+W:zij moest klimmen in de mast, maken de zeilen met touwtjes vast
+W:
+W:Maar door storm en tegenweer, sloegen de zeilen, sloegen de zeilen
+W:Maar door storm en tegenweer, sloegen de zeilen van boven neer.
+W:
+W:Och kapteintje sla mij niet, ik ben uw liefje, ik ben uw liefje
+W:Och kapteintje sla mij niet, ik ben uw liefje zoals u ziet
+W:
+W:zij moest komen in de kajuit, kreeg een pak ransel, kreeg een pak ransel
+W:zij komen in de kajuiT, kreeg een pak ransel en toen was het uit
+S:https://www.folktunefinder.com/tunes/45816
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:655
+T: "Die schoene Joppe"
+N: Z1336
+O: Europa, Mitteleuropa, Oesterreich
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G2G2e2 | d4c2 | B2B2A2 | G4
+G2 | A2A2A2 | A2A2AG | F2F2E2 | D4
+D2 | G2G2A2 | B2B2cc | d2d2
+ee | d2d2cc | B2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/69514
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 39
+T:Flop Eared Mule
+M:4/4
+L:1/8
+Q:120
+C:American
+R:Reel
+K:G
+GA|:"G"[Bg][Bg][Bg][Bg] [GB][GB][GB][GB]|DEDC B,A, G,2|"D"A,DCD B,DA,D|"
+G"G,A,B,C DEFG|!
+"G"[Bg][Bg][Bg][Bg] [GB][GB][GB][GB]|DEDC B,A, G,2|"D"A,DCD B,DA,D|[1"G"
+[D2G,2][DG,][DG,][D2G,2] GA:|[2"G"[D2
+G,2][DG,][DG,][D2G,2]FG||!
+K:D
+"D"A2F2 D2 DE|FGAG FE D2|"A"EAGA FAEA|"D"DEFG A2 FG|!
+"D"A2F2D2DE|FGAG FE
+D2|"A"EAGA FAEA|[1"D"D2 DD D2 FG:|[2"D"D2 DD D2 z2|]
+S:https://www.folktunefinder.com/tunes/77232
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

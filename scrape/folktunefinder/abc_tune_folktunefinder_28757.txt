@@ -1,0 +1,36 @@
+X:2477
+T:Cancioneiro de Casto Sampedro: N\'umero 316
+T:Muieira de Cesures
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=190
+K:C % 0 sharps
+z4 zG A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|EC4G A/2G3/2-|
+[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|c2->c/2c2-c/2G A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|
+CG A/2G/2-[G/2F/2-]F/2 GA2G|EC4G A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|
+c2->c/2c2-c/2D D2|B,C2D E2 DF-|FE D2 DE2D|CB, D2<C2 D2|
+B,C2D E2 EF-|FE DE FG AB|c2->c/2c2-c/2D D2|B,C2D E2 DF-|
+FE D2 DE2D|CB, D2<C2 D2|B,C2D E2 EF-|FE DE FG AB|
+c2->c/2c2-c/2G A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|EC4G A/2G3/2-|
+[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|c2->c/2c2-c/2G A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|
+CG A/2G/2-[G/2F/2-]F/2 GA2G|EC4G A/2G3/2-|[G/2E/2-]E/2C2D F/2E/2-[E/2D/2-]D/2 EC-|CG A/2G/2-[G/2F/2-]F/2 GA2G|
+c2->c/2c2-c/2D D2|B,C2D E2 DF-|FE D2 DE2D|CB, D2<C2 D2|
+B,C2D E2 EF-|FE DE FG AB|c2->c/2c2-c/2D D2|B,C2D E2 DF-|
+FE D2 DE2D|CB, D2<C2 D2|B,C2D E2 EF-|FE DE FG AB|
+c3
+S:https://www.folktunefinder.com/tunes/28757
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

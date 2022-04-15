@@ -1,0 +1,24 @@
+X:1
+T:Born in St Johnstone and burn'd in Dundee
+S:Blaikie MS, NLS MS.1578/Mf.Sec.MSS.295
+Z:Jack Campin scots-l 2001-04-11
+M:3/4
+L:1/8
+K:Dmin
+D2 A2 G2 | F3  G A2 | F2 E2 D2 | C3  D E2 |
+D2 A2 G2 | F3  G A2 | A2 f2 e2 | d6 |]
+A2 d2 dc | A2 d2 c2 | F2 c2 AG | F3  G A2 |
+A2 A2 G2 | F3  G A2 | GF D2 CE | D6 |]
+S:https://www.folktunefinder.com/tunes/13141
+S:http://trillian.mit.edu/~jc/music/abc/air/BornInStJohnstoneAndBurndInDundee.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/BornInStJohnstoneAndBurndInDundee.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/BornInStJohnstoneAndBurndInDundee_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

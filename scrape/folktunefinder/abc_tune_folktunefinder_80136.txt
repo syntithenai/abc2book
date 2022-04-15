@@ -1,0 +1,32 @@
+X:77
+T: Reiterlied
+N: A0427
+O: Europa, Mitteleuropa, Deutschland
+N: Peter Schoeffer 1513 No. 55.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 6/2
+L: 1/4
+K: G
+G2 | _B4A2B4c2 | d6G4
+g2 | =f4ed^c4d2 | =f2e4d4
+G2 | _B4A2B4c2 | d6G4
+g2 | =f4ed^c4d2 | =f2e4d4
+c2 | d4_e2=f4g2 | =f4d2_B2c4 | _B4
+c2d4B2 | c2A4G4
+G2 | d4_B3AB2c2 | d4d2
+d4c2 | d4e2=f4
+a2 | g4=fed4^c2 | d4e2
+=f2g2e2 | d8z2
+S:https://www.folktunefinder.com/tunes/80136
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

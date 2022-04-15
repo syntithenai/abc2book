@@ -1,0 +1,35 @@
+X:148
+T: ACH SCHIFFMANN DU FEIN GUTER MANN
+N: E0078A
+O: Europa, Mitteleuropa, Deutschland, Halle
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/8
+K: F
+A | cAAA | AGG
+G | FAcd | dccA | cAA
+A | cAAA | AGG
+G | FAcd | dcc
+A | cAAA | AGG
+B | AFGA | F2z
+A | cAAA | AGG
+G | FAcd | dccA | cAA
+A | cAAA | AGG
+G | FAcd | dcc
+A | cAAA | AGG
+B | AFGA | F2z
+A | cAAA | AGG
+G | FAcd | dccA | cAA
+FFF | B2dddd | dcA
+fcc | AAAAAG | G2F2z
+S:https://www.folktunefinder.com/tunes/78589
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

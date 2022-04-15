@@ -1,0 +1,26 @@
+X:1
+T:MaDe Schottische
+C:Tilman Teuscher
+R:Schottische
+B:"Here's one we made earlier" MADE 1997 tune book
+N:reproduced with permission
+M:4/4
+L:1/8
+K:Cm
+"Cm"c3d e2dc|"B\b"BdB=A "Gm"GABG|"Cm"c2c2 "B\b"d2fd|"G7"e3d edc=B|
+"Cm(A\b maj7)"c3d e2dc|"B\b"BdB=A "Gm"GABG|"Cm(Fm)"c2c2 "B\b(Dm dim7)"d2fd|"G7"e3d "Cm"c2 z2:|
+|:"Cm"e3f g2g2|"E\b"edef g4|"Fm"g2fg a2g2|"Gm"f2e2 d2c2|
+"Cm"e3f g2g2|"E\b"edef g4|"Fm"g2fg agfe|"G7"dfed "Cm"c2z2:|
+S:https://www.folktunefinder.com/tunes/51963
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

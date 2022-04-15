@@ -1,0 +1,27 @@
+X:272
+T: Ein Lied vom Glauben
+N: A0625
+O: Europa, Mitteleuropa, Deutschland
+N: Erfurter Enchiridion I 1524
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/1
+L: 1/4
+K: D
+D2D2D2 | A4G2A2B4 | A4z2
+d2=c2d2 | e3=fg2f2e4 | d4z2
+d2 | =c2d2e3d | e4d2e2 | B4z2
+B2 | =c2d2B2A2 | =c2d2e4 | z2
+d2=c3d | e2=f2e2
+d4e2 | =f2g3fe2d3c | d8 | z2
+S:https://www.folktunefinder.com/tunes/80331
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

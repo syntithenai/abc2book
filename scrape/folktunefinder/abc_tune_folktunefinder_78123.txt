@@ -1,0 +1,26 @@
+X:102
+T: DER KOENIG ZOG WOHL UEBER DEN RHEIN
+N: B0131
+O: Europa, Mitteleuropa, Deutschland, Niederrhein ()
+R: Ballade, Romanze
+M: 6/8
+L: 1/16
+K: G
+D2 | G4_B2A4A2 | G2F2G2A4
+A2 | _B2cdcBA4
+Ad | d2c2_B2c2B2A2 | _B2cdcBA4
+A2 | G3FG_ED4
+G2 | F2G2_B2A4
+Bcd | c4c2d4c2 | _B4A2G4
+S:https://www.folktunefinder.com/tunes/78123
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

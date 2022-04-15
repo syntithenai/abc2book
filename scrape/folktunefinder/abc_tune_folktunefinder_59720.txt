@@ -1,0 +1,36 @@
+X:833
+T:Xiraldilla (CT 255)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 255
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+G|GA Bc|dd dB|G2 c2|cB AG|
+F2 B2|BB AG|F2 G2|[1 G2 zG :|[2 G2 z2||
+W:Las ovejitas, madre,
+W:pasan el ro
+W:y el pastor con las damas
+W:entretenido.
+W:Quin las cuidara, madre,
+W:quin las cuidara!
+W:Dale la vuelta, nia,
+W:la resalada.
+W:
+S:https://www.folktunefinder.com/tunes/59720
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

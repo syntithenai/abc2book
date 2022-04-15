@@ -1,0 +1,41 @@
+X:1
+T:Mikhm beram kouh
+T:I want to go to the mountain
+N:Shekr-e hou (deer hunt)
+C:Iranian folksong
+A:Iran
+S:Kaambiz Roshan Ravaan
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+L:1/8
+M:6/8
+Q:1/4=100
+K:Em
+K:G
+V:1
+%%MIDI program 0
+%%staves {1 2}
+%%EPS biche.eps
+%%vskip 1cm
+EE2 BBA | B6 | cc2 BAG | A6 |
+|: AA2 AGF | G2 G F E2 | F>AG FE^D |1 E3A3 :|2
+E6 | BB2 eed | e6 | dd2 edc |B6 |: 
+AA2 AGF | G2 G F E2 | F>AG FE^D |1 E3A3 :|2 E6 |]
+V:2
+%%MIDI program 0
+E,G,B, E,G,B, | E,G,B, ^D,F,B, | ^D,F,C =D,F,B, | ^C,E,A, =C,E,A, |
+|: A,,E,A, A,,E,A, | E,G,B, E,G,B, | ^D,F,B, D,F,B, |1 E,G,B, CB,A, :|2
+E,G,B, E,3 | E,G,B, E,G,B, | E,G,B, ^D,F,B, | =D,F,A, C,E,A, | B,,E,G, B,,E,G, |: 
+A,,E,A, A,,E,A, | E,G,B, E,G,B, | ^D,F,B, _E,F,B, |1 E,G,B, CB,A, :|2 E,G,B, E,3 |]
+S:https://www.folktunefinder.com/tunes/53109
+S:http://anamnese.online.fr/abc/persia.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:14960
+T:Schottis fr\aa{}n Hammarn\"aset
+R:Schottische
+O:Sweden
+M:4/4
+A:J\"amtland
+K:GDor
+D|\
+G>^FGA B>ABc | d>^cde f2a2 |\
+a>geg ^f2d2 |1d>cAc B2G2:|2d>cAB G4:|*
+d>c=Bd g2d2 | d>cAc =B2G2 |\
+A>G^FA d2d2 |1d>cAc B2G2:|2d>cAB G4:|**
+S:https://www.folktunefinder.com/tunes/46235
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

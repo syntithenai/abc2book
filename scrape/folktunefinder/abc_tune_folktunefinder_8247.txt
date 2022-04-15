@@ -1,0 +1,38 @@
+X: 42
+P: Polska fr\aan Boda
+O: Bengt Jonsson
+R: Boda-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A- \
+| "D"A2 (D>F) A>d \
+| (fg) {g}a2 f>f \
+| "A7"{f}a2 ({b}aTg) e>c \
+| d(e/d/ c/d/)c/B/ A2- \
+| "D"{B}TA2 (D>F) A>d |
+| (fg) {g}a2 f>f \
+| "A7"{f}a2 ({b}aTg) e>c \
+| "D"(cd) d3 :|\
+|:[K:G] (D \
+| "G"G)>(A {c}Bc/d/) e>d \
+| (dg) B3 (B |
+| "D7"d2) ({de}dTc) A>B \
+| c(d/c/ B/c/)B/A/ B>B \
+| "G"G>(A {c}Bc/d/) e>d \
+| (dg) B3 (B \
+| "D7"d)>(e dTc) A>F \
+| "G"(FG) G3 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8247
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

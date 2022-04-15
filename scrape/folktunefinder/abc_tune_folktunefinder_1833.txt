@@ -1,0 +1,33 @@
+X: 11
+T: Barrack Hill
+C: J-4
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+"Am"e2A AAA| "Em"e2d B3| "Am"e2A AAA| "G"G2A B3|
+"Am"e2A AAA| "Em"e2d B3| "G"d2B g2B| "Am"A3 A3 :|
+|:\
+"Am"e2d efg| a2f gfe| "G"d2B g2B| d2B d3|
+"Am"e2d efg| a2f gfe| "G"d2B g2B| "Am"A3 A3 :|
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-4, "The Man In the Moon", moved to R-126
+%%textfont       Times-Roman 9.0
+%%textfont       Times-Roman 13.0
+%%text J-5, "O The Breeches Full of Stitches", moved to R-126
+%%textfont       Times-Roman 9.0
+S:https://www.folktunefinder.com/tunes/1833
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

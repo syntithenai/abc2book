@@ -1,0 +1,26 @@
+X:602
+T: "Jagdgebrauch"
+N: Z1282
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Jaeger - Lied
+M: 4/4
+L: 1/8
+K: G
+ | G3AB2c2 | d2BAG4
+g2g2f2f2 | e2e2d4
+g3fe2ge | d3ccBB2
+e2d2c2B2 | A2dcBAG2
+G2A2B2c2 | d2efg4
+d2g2e2dc | B2A2G4
+S:https://www.folktunefinder.com/tunes/69461
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

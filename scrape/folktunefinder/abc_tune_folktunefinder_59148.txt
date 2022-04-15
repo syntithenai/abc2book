@@ -1,0 +1,48 @@
+X:261
+T:Danza (CT 161)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Lluarca.
+N:Intervienen solamente mujeres.
+A:Asturies
+O:Lluarca
+Z:Cancioneru de Torner 161
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+G|Bd dd|BG cc|B2 A2-|A2 zG|
+Bc cc|AF AA|G2 G2-|[1 G2 zG:|G2 z2||
+W:Cantan los pajarillos
+W:en la torre,
+W:cantan y vanse
+W:y no s para dnde.
+W:
+W:Ay, vida! Alonso,
+W:dnde la llevas
+W:Ay, vida! cuesta arriba,
+W:y todo arena
+W:
+W:Ay, vida! dnde
+W:la llevas, Alonso
+W:Ay, vida! cuesta arriba,
+W:y todo arenoso
+W:
+W:Ay, vida!bien cantaba
+W:la culuebra,
+W:Ay, vida! y tiene voces
+W:de doncella.
+W:
+S:https://www.folktunefinder.com/tunes/59148
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

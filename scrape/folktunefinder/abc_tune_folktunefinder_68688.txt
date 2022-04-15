@@ -1,0 +1,24 @@
+X:142
+T: Lindenlaub
+N: A0174
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 76.
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/2
+K: F
+F | F2FF2G | A3c3
+F2FF2E | D3C2
+c | c3A2A | c2cB2A | G3A2
+A | F2FB2B | GABc2
+c | c2BAG2 | F3-F2
+S:https://www.folktunefinder.com/tunes/68688
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

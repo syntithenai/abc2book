@@ -1,0 +1,50 @@
+X: 1
+T: Gsatzlig Polka
+R: polka
+O: Bayern
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[g2e2] "A"\
+| "D7".[f2d2][f2d2] .[e2c2][e2c2] \
+| "G".[d2B2][d2B2] [B3G3][gB] \
+| "D7"[f2d2][f2d2] [d2A2][c'd][fc] \
+| "G"[g2B2][gB][ac] [b3d3][gB] |
+|  "D7".[f2d2][f2d2] .[e2c2][e2c2] \
+| "G".[d2B2][d2B2] [B3G3][gB] \
+| "D7"[f2d2][f2d2] [d2A2][c'd][fc] \
+| "G"[g2B2][bd][ac] H[g4B4] :|
+K: D
+"B"\
+|: "D"[fd][af][a2f2] [b3g3][af] \
+| "A7"[g2e2][A2E2] [cA][BG][c2A2] \
+| [ec][AE][cA][ec] [a3f3][ge] \
+| "D"[f2d2][A2F2] [dA][cG][d2F2] |
+|  "D"[fd][af][a2f2] [b3g3][af] \
+| "A7"[g2e2][A2E2] [cA][BG][c2A2] \
+| [ec][AE][cA][ec] [a3c3][cA] \
+| "D"[d2F2][d2F2][d2F2] "d.C."z2 :|
+K:C
+"C"\
+|: "C"[e3G3][dF] [c2E2][c2E2] \
+| [cE][BD][cE][dF] [e4G4] \
+| "G7"[d3F3][gB] [^f2^A2][g2B2] \
+| "C"[ac][gA][eG][cE] [G4C4] |
+|  "C"[e3G3][dF] [c2E2][c2E2] \
+| [cE][BD][cE][dF] [e4G4] \
+| "G7"[d2B2][gB][eG] [f3G3][BF] \
+| "C"[c2E2][c2E2][c2E2] z2 :|
+S:https://www.folktunefinder.com/tunes/16096
+S:http://trillian.mit.edu/~jc/music/abc/polka/GsatzligPolka_GDC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/GsatzligPolka_GDC.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GsatzligPolka_GDC.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

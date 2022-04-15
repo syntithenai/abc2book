@@ -1,0 +1,28 @@
+X: 1
+P: The Band Played On
+C: C.B.Ward
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/4
+K: G
+[| "G"GBG |    FBF |     EG>E |  D2E/G/ | "D7"F3 | c3 | c3- | czE   |
+| "D7"FAF |    EDE |      FAF |    EDE  |  "G"D3 | B3  | B3-  | BzD/D/ |
+|  "G"GGG | "D"FFF | "G7"=FFF | "C"EE>E |    EEE | EAB | "Am"c3- | czE |
+|  "C"E^DE | "A7/C#"GF>E | "G"DEF | "Em"G2A/B/ | "A7"E3 | "D7"F3 | "G"G3- | G2z |]
+S:https://www.folktunefinder.com/tunes/16663
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_1890s.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_1890s.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_1890s
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:10
+T:Tomas Haards schottis
+R:schottis
+C:Tomas Haard
+Z:i Stoten, track 4; 2000 Brian Wilson
+M:2/4
+L:1/8
+K:D
+P:A
+|: d2 A2 B2 G2 | AG EG F2 D2
+|  A^G Ac d3 f | ed cd e2 A2
+|  d2 A2 B2 G2 | AG EG F2 D2
+|  Ad fa ag ec | e2 dc d4 :|
+P:B
+|: f2 f2 ec Ac | dB GB B2 A2
+|  AB AF G2 (E2 | A)(BA)G F2 D2
+|  f2 f2 ec Ac | dB GB B2 A2
+|  dc df ag ec | e2 dc d4 :|
+S:https://www.folktunefinder.com/tunes/18497
+S:http://trillian.mit.edu/~jc/music/abc/shottish/TomasHaardsSchottis.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/TomasHaardsSchottis.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 3
+T: El Harahat [Bm]
+M: 4/4
+L: 1/8
+K: Bm
+|: "A"e2e2 | cB BA | cB BA | "Bm"B3 z :: "A"ee ed/d/ | fe e2 | cB cA | "Bm"B3 z :|
+S:https://www.folktunefinder.com/tunes/6453
+S:http://trillian.mit.edu/~jc/music/abc/Israel/ElHarahat.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/ElHarahat_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/ElHarahat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/ElHarahat_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/ElHarahat_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/ElHarahat_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/ElHarahat.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20061203/ElHarahat.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ElHarahat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:Saint Patrick's Day
+S:Matt Cranitch's Irish Fiddle Book
+S:Matt Cranitch: The Irish Fiddle Book, p. 164, No. 95
+M:6/8
+K:G
+D \
+| GAG GAB | ded dBG | AGA BGD | EFE E2D \
+| GAG GAB | ded dBG | AGA BGD | E2F G2 :|
+B \
+| def gag | fed edB | def gag | fed e2d | def gag | fed efg |
+| dBG GAB | ded dBG | AGA BGD | EFE E2D | GAG GBd | gfe dBG | AGA BGD | E2F G2 :|
+S:https://www.folktunefinder.com/tunes/15017
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaintPatricksDay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SaintPatricksDay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SaintPatricksDay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SaintPatricksDay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SaintPatricksDay_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/SaintPatricksDay_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

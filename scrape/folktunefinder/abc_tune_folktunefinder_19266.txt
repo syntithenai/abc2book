@@ -1,0 +1,31 @@
+X: 1
+T: Charlotte Square
+C: Murial A. Johnstone
+R: strathspey
+B: Edinburgh Diamond Jubilee Dances 1984
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+| "F"F2 A<c "Bb"d>c d<f | "F"c>f (3agf "C7"e<c c2 \
+| "F"F2 A<c "Bb"d>c d<f | "G7"d<g g>f "C7"e<c c2 |
+| "F"F2 A<c "Bb"d>c d<f | "F"c>f a>g "Bb"f<d d>f \
+| "Gm"b2 b>a "G7"g>f e>d | "C7"(3cdc (3BAG "F"F2 ||
+|| c2 \
+| "F"f2 F>G "Am"A<c c2 | "Dm"f>d "A7"e<^c "Dm"d2 "Bb"df \
+| "F"c2 C>C "Bb"D<F (3FGA | "Gm"(3BAG "G7"(3AGF "C7"(3EFG (3cde |
+| "F"f2 F>G "Am"A<c c2 | "Dm"f>d "A7"e<^c "Dm"d2 df \
+| "Gm"b2 b>a "G7"g>f e>d | "C7"(3cdc (3BAG "F"F2 |]
+S:https://www.folktunefinder.com/tunes/19266
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CharlotteSquareS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CharlotteSquareS.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CharlotteSquareS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

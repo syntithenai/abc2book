@@ -1,0 +1,27 @@
+X:33
+T: Georg von Fronspergs Lied ueber Hofgunst
+N: A0391
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 39 und 40.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: A
+e4 | =f2f2 | e2e2 | =c2c2 | d2z
+e | =fed=c | e=fd2 | =c2z
+c | Be2d | e2ze | =g2=f2 | e2z
+e | =g2=f2 | e2zd | =f2e2 | d2z
+d | =c2d2 | e2z=c | dAB2 | A4
+S:https://www.folktunefinder.com/tunes/80092
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

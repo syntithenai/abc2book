@@ -1,0 +1,21 @@
+X: 60
+T:Lass O' Dallogill
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:C
+K:D
+|:d|"C"ede G2G|"F"A2A "G7"G2G|"C"ede G2G|"G7"A2B "C"c2:|
+d|"C"e2c "G"d2B|"C"c2c "G"BAG|"C"e2c "G"d2d|"C"e2f g3|
+"F"a2f "C"g2e|"G7"f2d "C"e3|"C"ede G2G|"G7"A2B "C"c2||
+S:https://www.folktunefinder.com/tunes/65457
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:2226
+T:Gilderoy
+O:england
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:Am
+P:A
+E2|"Am"A2AB cBcd|"Am"efec "G"d2cd|"Am"edcB ABcA|"E7"B^GE2 E2(3E^FG|
+"Am"A^GAB cBcd|"Am"efec "G"d2cd|"Am"ea^ga "E7"edcB|"Am"c2A2 A2:|
+P:B
+ef|"C"g2ga gfef|"C"gfec "G"d2cd|"Am"edcB ABcA|"E7"B^GE2 E2(3E^FG|
+"Am"A^GAB cBcd|"Am"efec "G"d2cd|"Am"ea^ga "E7"edcB|"Am"c2A2 A2:|
+S:https://www.folktunefinder.com/tunes/22677
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

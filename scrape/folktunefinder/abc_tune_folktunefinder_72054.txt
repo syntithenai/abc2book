@@ -1,0 +1,40 @@
+X:27
+T:The Marchioness
+C:Trad.
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/10/04
+N:Petrie's First Collection, page 13
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:A
+[V:1] E|A2A TAGA|B2B e2d|c2A TAGA |GBG EFG|
+[V:2] z|Ace  a3 |g2f g2e|a2f  c2^d|e3 =d3 |
+[V:1] A2A TAGA|B2B e2d|cBA BAG|A2A A2:|
+[V:2] cea  A3 |e2f g2e|a2c e2E|Ace a2:|
+[V:1] |:z|e2e  cde|f2f Tf3   |g2g efg|abg a3  |
+[V:2] |:z|c'2b a3 |d'3  bc'd'|e'3d'3|c'2b c'ba|
+[V:1] e2e cde|fga agf|edc BAG|A2A A2:|
+[V:2] c'3 a3 |d'3 d3 |a2A e2E|Ace A2:|
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72054
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Marchioness.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

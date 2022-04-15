@@ -1,0 +1,31 @@
+X:5176
+T:Polka. GHW.013
+O:england
+M:2/4
+L:1/8
+Q:220
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+A:Norfolk
+N:DC marked at end of each part in M
+K:D
+A|Adc>d|feB>e|dcB>A|BAF>A|Adc>d|feB>e|dcf>e|ddd:|
+K:A
+:c|cea>b|agB>c|ddg>f|fec>d|efd>c|cBF>B|ABc>B|AAA:|
+K:G
+z|d2Bg|g2f2|fcf>e|e2d2|d2gf|f2e2|e2ag|gfed|
+d2Bg|g2f2|fcf>e|e2d2|dgc>d|dc e2|dfb>a|g||
+S:https://www.folktunefinder.com/tunes/25628
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

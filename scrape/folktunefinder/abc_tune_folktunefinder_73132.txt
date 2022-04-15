@@ -1,0 +1,24 @@
+X:240
+T: Planxty Fanny Powers
+C: O'Carolan
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Lively"
+M: 6/8
+L: 1/8
+K: A
+A2E ABc | ">"(d2c) ">"(B2A) | ">"(G2F) EFE | ">"(G2A) ">"(B2d) |
+| cBA cde | ">"(f2B) B2A | {A}GFE EFG | A3 A2z :|
+|| .e(c/d/e) .e(c/d/e) | (.A2.A) (.A2.A) | .f(d/e/f) .f(d/e/f) | (.B2.B) (.B2.B) |
+| cde fga | gab efe | {d}cBA BcB | A3 A2z|]
+S:https://www.folktunefinder.com/tunes/73132
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0626-0700_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

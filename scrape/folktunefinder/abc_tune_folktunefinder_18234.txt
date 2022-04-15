@@ -1,0 +1,34 @@
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG     Bdd2 | "C"c2ec    egg2 |  "G"G2BG     Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG |  "G"g2bg "D7"afed |  "C"edef  "G"g2   ga ||
+|| "G"bagf "Em"gfed | "C"edef "G"gdBG | "Am"cBcd  "C"efge |  "G"dBGB "D7"A2"G"G2 |]
+S:https://www.folktunefinder.com/tunes/18234
+S:http://trillian.mit.edu/~jc/music/abc/reel/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TorryburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TorryburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TorryburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/TorryburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TorryburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TorrburnLassiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/TorryburnLassiesR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

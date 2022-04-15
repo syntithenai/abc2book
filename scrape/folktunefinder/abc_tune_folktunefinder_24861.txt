@@ -1,0 +1,37 @@
+X:4409
+T:Mozarts Military Waltz. CJF.007
+O:england
+M:3/4
+L:1/8
+Q:140
+C:Mozart
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:b 24,28,40,44 the beamed notes should perhaps be quintuplets. Repeats
+N:are as MS; playback is unpredicted.PJH.
+K:D
+"p"A2|A2A2A2|A2A2A2|"f"(A6|d2)z2"p"A2|A2A2A2|A2A2A2|\
+"f"(A6|e2)z2A2|f2f2f2|g2e2c2|d2d2d2|d2c2B2|
+A2d2f2|"f"a2g2e2|(e6|d2)z2||:A2|(dcdcdc)|(dcdcde)|\
+f4d2|A4A2|G4e2|dcBABc|d2d2f2|d2z2:||
+"p"(df)|a2^gabaf|d4(ed)|cdefga|(g2f2)(df)|g2^gabaf|\
+d4(ed)|ABcdef|d4||:"f"F2|f2(f>f)f2|f4e2|
+d2c2B2|^A2c2F2|f2(f>f)f2|f4e2|d2c2B2|f4(df)|\
+a2^gabaf|d4(ed)|cdefga|(g2f2)(df)|a2^gabaf|d4(ed)|
+ABcdef|d4||:A2|(f2d2).A2|(d2A2).F2|(G2e2).c2|(d2f2).A2|\
+(f2d2).A2|(G2e2).c2|d2z2|:e2|e2d2c2|
+c2B2A2|(dc)d2e2|f4d2|e2d2c2|c2B2A2|(de)f2e2|d4:||
+S:https://www.folktunefinder.com/tunes/24861
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T:Groupa Waltz
+S:Trevor Keates <tanda.keates@tesco.net> tradtunes 2001-10-16
+M:3/4
+L:1/8
+K:Bm
+"Bm"B2  gf fB|fg fB fB|"A"A2  dc cA|ef eA eA|
+"Bm"B2  gf fB|fg fB fB|"A"A2  dc cA|"Bm"B2  B4  |]
+"Bm"B2  gf fB|fg fB fB|"A"A2  dc cA|ef eA eA|
+"G"B2  gf fB|fg fB fB|"A"A2  dc cA|"Bm"B2  B4  |]
+"Bm"dF Fd Fd|"A"cE Ec Ec|"G"BG GB AG|"D"F2  E2  DE|
+"Bm"dF Fd Fd|"A"cE Ec Ec|"G"BA "  D"Bd cA|"Em"B6  |]
+"Bm"dF Fd Fd|"A"cE Ec Ec|"G"BG GB AG|"D"F2  E2  DE|
+"Bm"dF Fd Fd|"A"cE Ec Ec|"G"BA "  A"Bd cA|"Bm"B6  |]
+S:https://www.folktunefinder.com/tunes/19950
+S:http://trillian.mit.edu/~jc/music/abc/waltz/GroupaWaltz_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/GroupaWaltz_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/GroupaWaltz_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

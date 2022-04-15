@@ -1,0 +1,22 @@
+X:0
+T:The Lydian/Major (fa/ti) Hexatonic Scale
+M:9/4
+L:1/4
+K:FLyd
+P:fa -ti
+"_fa"F2 "_so"G "_la"A "_do"c "_re"d "_mi"e "_fa"f2 |\
+"_fa"f2 "_mi"e "_re"d "_do"c "_la"A "_so"G "_fa"F2|]
+P:do -fa
+K:C
+"_do"C2 "_re "D "_mi"E "_so"G "_la"A "_ti"B "_do"c2 |\
+"_do"c2 "_ti "B "_la"A "_so"G "_mi"E "_re"D "_do"C2|]
+S:https://www.folktunefinder.com/tunes/30079
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

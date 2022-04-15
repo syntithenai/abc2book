@@ -1,0 +1,27 @@
+X: 1
+T: Polska efter Erik Larsson "Larsa"
+N: Uppt: Ola Jonasson
+R: polska
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: D
+|: A(f/g/ f)e (cd- | d)(b b)a (ef- | f)g ef (cd- | d)c/d/ ec (AG) \
+|  F(f/g/ f)e (cd- | d)(b b)a (ef- | f)g ef  dc | ef/e/ (c<d- d2) :|
+|: Af/g/ a2 a2- | a>f e>d c>B | Af/g/ [b2B2] ([b2B2] | a)>g {fg}f>e d>c \
+|  de/f/ (fa) (a2- | a)f e>d c>d | e>f (3g(ag) (3f(af) | (3e(ge) (c<d- d2) :|
+S:https://www.folktunefinder.com/tunes/16502
+S:http://trillian.mit.edu/~jc/music/abc/pols/PolskaEfterErikLarsson_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/PolskaEfterErikLarsson_D.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:Breton Wedding March
+C:trad.
+D:Boys of the Lough, "Good Friends - Good Music"
+N:actually played by "friends" Tony McMahon and Barney McKenna,
+N:and (as is usual for Tony) a half-tone sharper than written.
+Z:Han Speek <H.Speek@el.utwente.nl>
+R:march
+Q:130
+M:2/4
+L:1/8
+K:A
+|: E2 A/G/A/B/ | A3 E | A/G/A/B/ cB/c/ | A3 (3A/B/c/ |
+| d>c de | d3 c | B>A Bc |1  B3 z/^D/ :|2  B3 c/d/ |
+| e>f ec | A4 | d/c/d/e/ d>c | B3 E |
+| A>c BA | E2 A>B | c2 B>A | A4 :|
+| E2 A>A | A3 E | A/G/A/B/ cB/c/ | A3 (3A/B/c/ |
+| d>c de | d3 c | B>A Bc |1  B3 z/^D/ :|2  B3 c/d/ |
+| e>f ec | A4 | d/c/d/e/ d>c | B3 E |
+| A>c BA | e2 A>B | c2 B/A/c/B/ | A4 :|
+S:https://www.folktunefinder.com/tunes/15360
+S:http://trillian.mit.edu/~jc/music/abc/march/BretonWeddingM.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

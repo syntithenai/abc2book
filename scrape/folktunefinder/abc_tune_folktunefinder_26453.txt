@@ -1,0 +1,24 @@
+X:6001
+T:Shetland Fiddler
+O:england
+M:4/4
+L:1/8
+S:Altan
+R:reel
+K:D
+d2fd Adfe|defg afdf|e2ge Beed|cdef {a}gece|d2fd Adfe|defg afde|(3fga fd
+(3fga fd|1 Bgec d2 Ac:|
+2 Bgec d2 cd||:eAfA gAaA|fa{b}af gfed|A2BA cAdA|efed cABc|dAeA fAgA|fa{b
+}af gefd|
+(3fga fd (3fga fd|1 Bgec d2 cd:|2 Bgec d2 Ac||
+S:https://www.folktunefinder.com/tunes/26453
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

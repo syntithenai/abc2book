@@ -1,0 +1,27 @@
+X:317
+T: HERR BRUDER DIR ZU EHREN
+N: F0546
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 3/8
+L: 1/16
+K: D
+D2 | D,4E,2 | F,4G,2 | A,2F,2
+D,2 | D4C2 | B,4A,2 | A,2G,2
+F,2 | E,4E,2 | D2B,2^G,2 | A,4z2
+z4A,2 | D4C2 | B,4A,2 | A,2G,2
+F,2 | B,4A,2 | A,4G,2 | G,2F,2
+A,2 | D,4D,2 | F,4A,2 | D4
+CB, | A,4A,2 | B,4A,G, | F,4F,2
+A,2B,2A,2 | A,2B,2C2 | D4
+S:https://www.folktunefinder.com/tunes/69877
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

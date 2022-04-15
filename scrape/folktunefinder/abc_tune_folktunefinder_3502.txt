@@ -1,0 +1,24 @@
+X: 3
+P: Auld Grey Cat
+N: Kerr #1, Roaring Jelly
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: EDorian
+|: "Em"{^d}e2e2 E3F | GFGA BABc | "D"{c}d2d2 D3E | FAdB AFED |
+|  "Em"{^d}e2e2 E3F | GFGA BABc | "D"{c}dcBA "B7"BAGF | "Em"E4 e2z2 :|
+ed \
+|: "Em"B2e2 e3d  | Bdef gfed | "D"A2d2 d3B | ABde fedf |
+| "Em"e2B2 "D"g2B2 | "C"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e6 z2 :|
+S:https://www.folktunefinder.com/tunes/3502
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR71.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/AGR01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

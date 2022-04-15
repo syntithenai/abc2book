@@ -1,0 +1,26 @@
+X:0
+T:Ye Banks and Braes of Bonnie Doon
+G:song
+S:G.F. Graham, Popular Songs and Melodies of Scotland
+N:this book also gives the story of how Burns got it
+M:6/8
+L:1/8
+Q:1/8=100
+K:G
+% lydian/major/mixolydian pentatonic
+D|G2G A>GA|BdB AGA |B>AG G<ED|DEG     A2B/A/|
+  G2G A>GA|BdB AGA |B>AG G<ED|DEG     G2   ||
+B|d2e dBG |d2e dBG |dBG  dBG |e>dB {B}A2B/A/|
+  G2G A>GA|BdB A>GA|B>AG G<ED|DEG     G2   |]
+S:https://www.folktunefinder.com/tunes/30251
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

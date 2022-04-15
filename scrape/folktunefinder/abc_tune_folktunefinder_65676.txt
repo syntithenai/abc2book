@@ -1,0 +1,18 @@
+X:123
+T:Golden Keyboard
+Z: id:dc-reel-116
+M:C
+L:1/8
+K:E Dorian
+D|EDEF GFGA|BBgB fBeB|BEEF GBAG|FDAD BDAF|!
+EDEF GFGA|BBgB fBec|dcde dBAF|DFAF FEE:|!
+A|Bee2 Bee2|Beef edBc|dAA2 fAA2|dcde dBAF|!
+EDEF GFGA|BBgB fBec|dcde dBAF|DFAF FEE:|!
+S:https://www.folktunefinder.com/tunes/65676
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

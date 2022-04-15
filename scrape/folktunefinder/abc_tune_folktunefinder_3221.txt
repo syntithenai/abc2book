@@ -1,0 +1,28 @@
+X: 2
+P: Mo's Peerie Boston
+C: Tom Anderson
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: A
+E \
+|| "A"A2A "E7"GAB | "A"A2c e2e | "D"f2d A2f | "A7"e2- e2c \
+| "Bm"d2c "E7"Bcd | "A"e2c "F#m"A2c | "E"B2e G2e | "E7"E3 EFG |
+|| "A" A2A "E7"GAB | "A"A2c e2e | "D"f2d a2f | "A7"e2- e2c \
+| "D"dff "Bm"fed | "A"cee "F#m"edc | "Bm"dcB "E7"e2G | "A"A3- A2 |]
+[| e \
+| "D"f2d a2f | "A"f2e- e2e | "D"f2e "E7"A2B | "A"c3 cBA \
+| "D"dff fed | "A"cee edc | "B7"B^df afd | "E"e3 E3 ||
+|| "D"f2d def | "A"e2c A2c | "Bm"B2c d2B | "E7"A2G F2E \
+| "A"A2A "E7"GAB | "A"A2c e2e | "D"f2d "E7"B2G | "A"A3- A2 |]
+S:https://www.folktunefinder.com/tunes/3221
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ10.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

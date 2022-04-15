@@ -1,0 +1,37 @@
+X:1334
+T:Beim Supp Walzerlied - Walzer/Waltz/Valse
+C:Josef Eischiel
+S:Oberoesterreichisches Volkslied Archiv MVIII 10
+A:Mauthausen
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+K:C
+e|eag|edc|e3|eze|
+eag|edc|g3|fzf|
+fba|fed|f3|fzf|
+fba|fed|a3|gge|
+eag|edc|e3|eze|
+eag|^fed|c'3|bzb|
+bag|^fge|e3|dzd|
+def|^fga|g3|gz:|
+|:e|g3|gza|e3|eze|
+d2c|B2c|g3|fzf|
+a3|azb|f3|fzf|
+e2d|c2d|geg|c'ge|
+g3|gza|e3|eze/e/|
+e2g|b2c'|c'3|dza|
+b3|bza|g3|gza|
+g2f|e2d|c3|c2:|
+S:https://www.folktunefinder.com/tunes/56273
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

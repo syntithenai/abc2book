@@ -1,0 +1,33 @@
+X:1
+T:the Flail
+T:Cathal's Favourite
+C:Vincent Broderick
+R:jig
+D:Cian: Three Shouts From A Hill
+Z: Jeff Lindqvist <jeff_lindqvist:SPRAY.SE> irtrad-l 2001-4-01
+M:6/8
+L:1/8
+K:G
+DEG GAB | deg gab | age ege | dBG AGE |
+DEG GAB | deg gab | age ege |1 dBG AGE :|2 dBG ABd ||
+|: ~e2a aga | ~e2a aga | ~d2g ged | ged BGE |
+DEG GAB | deg gab | age ege |1 dBG ABd :|2 dBG AGE ||
+S:https://www.folktunefinder.com/tunes/13984
+S:http://trillian.mit.edu/~jc/music/abc/jig/CathalsFavourite_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Flail_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/CathalsFavourite_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Flail_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CathalsFavourite_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Flail_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/CathalsFavourite_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/Flail_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/CathalsFavourite_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/Flail_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

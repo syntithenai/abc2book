@@ -1,0 +1,30 @@
+X: 3
+P: Mr Warwick's Mask
+C: Anon.
+N: Recommended for True Kit
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: MS of unknown origin
+M: C
+L: 1/8
+%Q: 1/4=100
+K: Bm
+|:"Bm"f3 f d3 d | "Em"cd Bc "F#"^AB cF \
+|  "D"f2 ef "Bm"de f2 | "Em"f2 e2 "F#"f4 :| \
+[| "D"f2 f2 "A"a3 g | "D"ff ed "A"e3 e |
+|  "D"fe dc/d/ "A"eB cd | "Em"ef "Bm"de "F#"c3 c \
+| "F#"^AB c2 F^G A2 | "Bm"Bc de "Fm"c3 c \
+|  "G"Bc d2 "Em"ef g2 | "Bm"de "F#"c>B "Bm"B4 |]
+S:https://www.folktunefinder.com/tunes/4100
+S:http://trillian.mit.edu/~jc/music/abc/England/TrueKit.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

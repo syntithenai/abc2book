@@ -1,0 +1,28 @@
+X: 1
+T: Hampshire March
+O: England 1770
+%Q: 140
+S: Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R: March
+O: England
+A: x
+Z: vmp.John Bagnall
+M: 2/4
+L: 1/8
+K: G
+|: "G"gg "D7"ff | "G"gg d2 | "C"cd/c/ "G"Bc/B/ | "D7"A2 "G"G2 \
+|  "G"gg "D"fg | "A7"aa g2 | "D"fe/d/ "A7"ed/^c/| "D"d4 :|
+|: "G"gg dd | "C"e/d/c/B/ c2 | "A7"aa gg | "D"f>e d2 \
+|  "G"gg "D7"ff | "G"gg "D7"dc | "G"BA/G/ "D7"AD | "G"G4 :|]
+S:https://www.folktunefinder.com/tunes/15454
+S:http://trillian.mit.edu/~jc/music/abc/march/HampshireMarch_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/HampshireMarch_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

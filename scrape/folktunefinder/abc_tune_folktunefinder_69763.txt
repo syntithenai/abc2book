@@ -1,0 +1,29 @@
+X:203
+T: BALD PRANGT DEN MORGEN ZU VERKUENDEN
+N: F0349
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Tageszeiten, Morgen
+M: 4/4
+L: 1/16
+K: Eb
+B,4 | B,6D2E3DC3F | E4D4z4
+E4 | E4C2F2F2E2E2D2 | D4E4z4
+E4 | E6C2D3CD3E | D4C4z4
+F4 | F2E2G2E2E2D2E2C2 | C4B,4z4
+B,4 | B,6C2D2E2F2E2 | E2D2D6
+EDC2B,2 | B,4E2B,2B,2A,2A,2G,2 | B,3G,F,4z4
+B,4 | B,6D2E3DC3F | E4D4z4
+E4 | C3DE3FE4D4 | F8z4
+F4 | G3DE3FE4D4 | E4z8
+S:https://www.folktunefinder.com/tunes/69763
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, tageszeiten, morgen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

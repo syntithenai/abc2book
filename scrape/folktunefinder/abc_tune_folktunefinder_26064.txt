@@ -1,0 +1,25 @@
+X:5612
+T:Roll out the Barrels
+O:england
+R:Reel
+H:From a recording of Paddy Canney and P.J. Hayes
+M:4/4
+L:1/8
+K:D
+E ~E3 G~E3 | B2AF DEFE | E~E3 G~E3 | (3BcB) AdBAFD |
+E ~E3 G~E3 | F~E3 DEFE | C~E3 BEDF | (3BcB) Ad BAFD |
+e2 {g}fe Befe | d3f a2 fd | e2 {g}fe Befe | dBAc BE{F}E D |
+e2 {g}fe Befe | dcdf a2 fd | (efg)e edec | {e}dBAc BE{F}E2 ||
+S:https://www.folktunefinder.com/tunes/26064
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

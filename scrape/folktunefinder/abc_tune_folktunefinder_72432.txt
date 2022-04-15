@@ -1,0 +1,31 @@
+X: 183
+T:Untitled. HA.182
+M:3/4
+L:1/8
+Q:1/4=200
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Two notes in MS are marked with fermata sign (upside down!)
+N:and may therefore be extended in length. NB
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:A
+"5 sharps in MS!"f4a2|e2 (dcBA)|d2c4|BABcde|!
+f4a2|e2 (dcBA)|(dc)B3A|A6||!
+BAGABc|B2E2E2|BAGABc|H"*"B4B2|!
+edcdef|e2A2A2|edcdef|H"*"|e6|]
+W: notes marked * are 'fermata' (extended) in MS|
+S:https://www.folktunefinder.com/tunes/72432
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:204
+T: A SCHLOSSER HAT AN GSELLEN GHOT
+N: B0689
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz -, Handwerker - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | E,2G,2C2B,2 | A,2F,2D2
+C2 | B,2G,2A,2B,2 | CB,CDE2
+G,2 | E,2G,2C2B,2 | A,2F,2D2
+C2 | B,2G,2A,2B,2 | C4z2
+D2 | D2C2A,2E2 | D2B,2G,2
+D2 | D2C2A,2B,2 | G,4z2
+G,2 | C2D2E2C2 | A,2F,2D2
+C2 | B,2G,2A,2B,2 | CB,CDE2
+G,2 | C2D2E2C2 | A,2F,2D2
+C2 | B,2G,2A,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/62227
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Scherz -, handwerker - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

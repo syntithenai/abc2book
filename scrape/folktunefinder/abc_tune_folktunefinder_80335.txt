@@ -1,0 +1,30 @@
+X:276
+T: Dr. Luthers Glaubens - und Heldenlied: Ein feste Burg
+N: A0629
+O: Europa, Mitteleuropa, Deutschland
+N: Strassburger Gsgb 1531
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: F
+f | f2f2 | c2df- | fed2 | c2z
+f | e2d2 | c2dB- | BAG2 | F2z
+f | f2f2 | c2df- | fed2 | c2z
+f | e2d2 | c2dB- | BAG2 | F2z
+F | ABcd- | dc2B | c2
+F2 | c2d2 | e2f2 | z2
+e2 | f2e2 | d2c2
+d2d2 | cd2c | A2z
+f | e2d2 | c2dB- | BAG2 | F3
+S:https://www.folktunefinder.com/tunes/80335
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,76 @@
+X: 1
+T: hotel california
+M: 4/4
+L: 1/8
+Q:1/4=144
+K: D
+z8|F/2B3/2 B,D B,F B,D|B4 D2 E2|^A,2 EF Ec FE|
+^A,8|=A,2 EA EB2A|A,2 EA E,2 EA|^G,2 FD FD B,^G,|
+A/2A/2A/2A/2 A/2A/2A/2A/2 A/2A/2A/2A/2 A/2A/2A/2A/2|A/2A/2A/2A/2 DB, GD B,=G,|B2 G,2 A,2 D2|D,2 AF Dd FD|
+F,2 DF D,2 DF|E,2 B,D B,G B,G|B,2 B,D B,2 B,D|F,2 ^A,E ^A,F E^A,|
+c8|D/2B3/2 B,D B,F B,D|E,4 F,2 E2|z2 EF Ec D,E|
+C,8|z2 EA EB2A|D,2 EA E,2 EA|zB, D,^G, D,B, ^G,D,|
+^D,/2^D,/2z3 ^D,/2^D,/2z3|^D,/2^D,/2z DB, GD B,=G,|C,2 G,2 =D,2 D2|z2 AF Dd FD|
+D/2F3/2 DF D,2 F,F|z2 G,B, EG, B,E|F,G, B,E G,G, B,E|z2 ^A,B, ^A,F, ^A,B,|
+^A,4 z2 z2|zB, zz zF zD|zB, zz z2 zz|zF, zz zc/2E/2 F,/2E/2E|
+zC, zz z2 zz|zA, zz zB zA|zA, zz z2 zA|zE,/2F/2 F,/2F/2z zD z^G,|
+zD zz z2 zz|zG, zz zD z=G,|zG, zz z2 zz|zD zz zd/2E/2 F,/2D/2D|
+zA, zz z2 zF|zD zz zG zG|zE, zz z2 zD|zE zz zF/2E/2 F,/2E/2^A,|
+zF zz z2 zz|FB, zz z2 zF|FB, zz F2 zz|FE zz z3/2E/2 F,/2E/2z|
+^AC, zz z2 zz|EA, zz zE zD|EA,/2E/2 F,/2E/2z EF zF|B,E,/2F/2 F,/2F/2z z3/2E/2 F,/2E/2z|
+ED zz E2 zz|DG, zz z3/2E/2 F,/2D/2z|DG, zz D2 zz|DD, zz z2 zD|
+FA, zz z2 zz|BE, zz zE zD|BE, zz B2 zz|FE zz z2 zz|
+^AE zz zz zz|BD, zz zz zz|BG Bz z2 zG|=AF zz zz zz|
+A2 zz A2 zF|^AE zz zz zz|^Ae zz ^A2 zE|BD zz zz zz|
+BD,/2D,/2 Bz zz zz|BG zz zz zz|B2 Bz z2 zG|=AG zz zz zz|
+AD zz A2 zF|BE zz zz zz|Be zz B2 zG|^AF zz zz zz|
+F/2^A/2D,/2D,/2 zz ^Az z2|zB, zz zF zD|zB, zz z2 zz|zF, zz zc/2E/2 F,/2E/2E|
+zC, zz z2 zz|zA, zz zB z=A|zA, zz z2 zA|zE, F,/2F/2z zD z^G,|
+zD zz z2 zz|zG, zz zD z=G,|zG, zz z2 zz|zD, zz zd/2E/2 F,/2D/2D|
+zA, zz z2 zF|zE, zz zG zG|zE, zz z2 zD|zF, zz zF/2E/2 F,/2E/2^A,|
+zF zz z2 zz|FB, zz z2 z^A|FB, zz F2 zz|FF, zz z^A/2E/2 F,/2E/2^A|
+^AC, zz zz zz|EA, zz zE z^G|EA,/2E/2 F,/2E/2z EF zF|B,E,/2F/2 F,/2F/2z z3/2E/2 F,/2E/2=G|
+ED zz E2 zz|DG, zz zF z=F|DE zz DE zz|DD, zz z2 zc|
+^FA, zz z2 zz|BE, zz zE zF|BE, zz B2 zz|FF, zz z2 zz|
+^AE zz zz zz|BD, zz zz zz|BG Bz z2 zG|=AF zz zz zz|
+A2 zz A2 zF|^AE zz zz zz|^Ae zz ^A2 zE|BD zz zz zz|
+BD,/2D,/2 Bz zz zz|BG zz zz zz|B2 Bz z2 zG|=AF zz zz zz|
+A2 zz A2 zF|BE zz zz zz|Be zz B2 zG|F/2^A/2F FF4-F|
+z8|B2 zz zF zz|z2 zF z2 z2|z^A, zz zc/2F/2 F,/2F/2E|
+zF4z3|zF zz zB z=A|z3/2E/2 F,/2E/2A zF zA|z2 zz zD z^G,|
+z8|zD zz zD z=G,|zE z2 z2 z2|z=A, zz zd/2E/2 F,/2E/2D|
+zD DF D,2 DF|zz zD zG zG|zD zD z2 zD|F,2 zE ^A,z E^A,|
+zF/2=C,/2 zz zz z2|FB, zz z2 z^A|FB, zz F2 zF,|FF, zz z^A/2E/2 F,/2E/2^A|
+^A^C, zz zz zz|EA, zz zE z^G|EA,/2E/2 F,/2E/2z E2 zF|B,E,/2F/2 F,/2F/2z z3/2E/2 F,/2E/2=G|
+ED zz E2 zz|DG, zz z3/2E/2 F,/2D/2=F|DG, zz D2 zz|DD, zz z2 zc|
+^FA, zz z2 zz|BE, zz zE zF|BE, zz B2 zz|F/2^A/2F zF, zF zC,|
+zz z2 F2 =A2|BB, zz zz zz|BB, zz B2 zD|^AF, zz zz zz|
+^A=C,/2=C,/2 zz ^A2 z3/2F,/2|=AA, zz zz zz|AA, zz A=A, zA,|BE, zz zz zz|
+Bz z2 Bz z2|BG, zz zz zz|Bd zz B/2z3/2 zz|AD, zz zz zz|
+AD, zz Az z2|BE, zz zz zz|BE,/2F/2 F,/2F/2z B2 zD|^AF zz zz z^A/2D/2|
+^A=C,/2=C,/2 =C,=C, ^AF =C,=C,|Bz zz zz zz|BF zz B3/2D/2 zD|^AF, zz zz zz|
+^A^C, zz ^Az z2|=Az zz zz zz|AA, zz A2 zD,|BE, zz zz zz|
+BA,/2A,/2 zz Bz zz|Bz zz zz zz|BG, zz Bd zd|Ag zz zz zz|
+AD, zz A2 ^A,/2e3/2|BE, zz zz zz|BE, zz B2 zE,|^AF, zz zz zz|
+^A=C,/2=C,/2 zz ^Az z2|Bz zz zz zz|Bd zz B3/2D/2 z^A,|^Az zz zz =C,z|
+^Az zz ^Az z3/2F,/2|=AA, zz zz zz|Ae zz A/2d3/2 zd|BE, zz zz zz|
+B=C,/2=C,/2 zz B2 zF|BF zz zz zz|BF, zz BD, zA,|AD, zz zz zz|
+Az z2 A=A, A,2|BE, zz zz zz|BB, zz B2 z2|^AF, zz zz zz|
+^AB,/2B,/2 zz ^A/2D,/2D,/2D,/2 z2|BB zz zz zz|Bd zz BB z2|^A^A zz zz zz|
+^AF, zz ^A2 z2|=AA zz zz zz|Az zz AA z2|Bz zz zz zz|
+Bz zz B2 z2|Bz zz zz zz|Bz zz BG z2|Az zz zz zz|
+Az zz A2 z2|Bz zz zz zz|Bz zz BE z2|^Az zz zz zz|
+^A/2=C,/2=C,/2=C,/2 =C,/2A,/2A,/2A,/2 ^A/2=C,/2=C,/2=C,/2 =C,/2A,/2A,/2A,/2|BB zz zz zz|Bz zz BB z2|^Az zz zz zz|
+^Az zz ^A2 z2|=Az zz zz zz|Az zz AA z2|Bz zz zz zz|
+Bz zz B2 z2|Bz zz zz zz|Bz zz BG z2|Az zz zz zz|
+Az zz A2 z2|Bz zz zz z
+S:https://www.folktunefinder.com/tunes/16
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://community.codemasters.com/forum/showthread.php?t=193662
+S:http://sites.google.com/site/lotroabc/f74.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

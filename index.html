@@ -176,7 +176,7 @@
 
       <button style="margin-right: 0.2em; float: left" id="editsonglistbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Import a list of tunes</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2zM4 5v14h16V7h-8.414l-2-2H4zm8 7V9l4 4-4 4v-3H8v-2h4z"/></svg></button>
 
-      <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><title>Select a curated list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
+      <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button"><title>Select a curated list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
       
       <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
        
@@ -390,9 +390,9 @@
   <p style='page-break-before: always'></p>
   <div id="welcometext" style="margin-bottom: 1em; font-size: 0.9em"  >
   <h3 style="" >Learn session tunes here !</h3> 
-  <div style="display: inline"  >Try one of our curated tunebooks <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
-  <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Import an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or just <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button></div>
-  <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along in order of confidence</div>
+  <div style="display: inline"  >Try one of our curated tunebooks. <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
+  <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Import an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button> and use the edit, link or search tools to find the music.</div>
+  <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along in order of confidence.</div>
   </div>
   <div style="width: 100%" id="musiclistbuttons"  >
     <input type="text" style="width: 60%" id="musicsearchfilter"  />
@@ -419,7 +419,7 @@
 <script src="abc2book.audio.js"></script>
 <script src="abc2book.tunelists.js"></script>
 <script src="abc2book.review.js"></script>
-
+<script src="abc2book.converters.js"></script>
 <script src="abc2book.indexes.js"></script>
 <script src="speakClient.js"></script>
 <script src="NoSleep.min.js"></script>
@@ -597,17 +597,30 @@ $(document).ready(function() {
     ns.enable();
   }, false);  
  
-  //$('#songlist').before()
-  //$('#songlistpicker').hide()
-  //generateAbcFromTunes()
-  ////loadShortAbc()
-  ////loadLongAbc()
-  //if ($('#shortabc').val().length > 0) {
-    //renderCheetsheetFromShortAbc()
-    //renderMusicFromLongAbc()
-  //}
-  //loadIndexes()
-  //generateMusic()  
+  const registerServiceWorker = async () => {
+    if ('serviceWorker' in navigator) {
+      try {
+        const registration = await navigator.serviceWorker.register(
+          '/sw.js',
+          {
+            scope: '/',
+          }
+        );
+        if (registration.installing) {
+          console.log('Service worker installing');
+        } else if (registration.waiting) {
+          console.log('Service worker installed');
+        } else if (registration.active) {
+          console.log('Service worker active');
+        }
+      } catch (error) {
+        console.error(`Registration failed with ${error}`);
+      }
+    }
+  };
+
+  
+  registerServiceWorker();
 })
 
 </script>

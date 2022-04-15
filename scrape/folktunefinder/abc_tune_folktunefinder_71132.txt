@@ -1,0 +1,28 @@
+X:102
+%%topmargin 3cm
+T:Miss Lucy Campbell
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+B | A>DTA>F A>DTA>F | A>DTA>F B<E(E>F) | A>DTA>F {/c}(d>e)(f>e) | {/c}d>B A/2B/2d/2F/2 A<D D ::
+f| {/c}d>BA>F {/c}d>ef>e | {/c}d>BA>F e<EE>e | {/c}d>BA>F {/c}d>ef>e | {/c}d>B (A/2B/2)(d/2F/2) A>D D ::
+B | A<D (TAG/2F/2) A<D (AG/2F/2) |A<D (AG/2F/2) B<EE>F | A<D (AG/2F/2) {/c}d>ef>e | {/c}d>B A/2B/2d/2F/2 A<D D::
+f | {/c}d>fA>f {/c}d>fA>f | {/c}d>fA>f e<EE>e | {/c}d>fA>f {/c}d>e(Tf>e) | {/c}d>B (A/2B/2)(d/2F/2) A>DD ::
+F | A,>D (TFE/2D/2) A>D FE/2D/2 | A,>D FE/2D/2 B<EE>F | A,>D (FE/2D/2) A>D (FE/2D/2) | {/c}d>B A/2B/2d/2F/2 A<D D::
+(e/2f/2) | a>ba>f {/c}d>eTf>d | e>f{/c}d>f e<EE>f | a>b (a/2b/2)(a/2f/2) {/c}d>ef>e | {/c}d>B (A/2B/2)(d/2F/2) A<D D:|
+S:https://www.folktunefinder.com/tunes/71132
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Lucy_Campbell.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0102.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

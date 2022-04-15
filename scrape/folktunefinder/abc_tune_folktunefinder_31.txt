@@ -1,0 +1,51 @@
+X: 1
+T: Moonlight Sonata
+Z:Giddily
+M: 2/4
+L: 1/16
+Q:1/4=30
+K:E
+G,CE G,CE G,CE G,CE|G,CE G,CE G,CE G,CE|
+A,CE A,CE A,=DF A,=DF|G,=CF G,^CE G,C^D F,=CD|
+E,G,^C G,/2zEG,CEGCG/2|GDF G,DF G,DF G/2DG/2|
+GCE G,CE ACF A,CF|GB,E G,/2zEFB,D/2 B3/2D/2|
+EB,E G,/2zEG,B,E/2 G,/2zE/2|=G,B,E =G,/2zE=G,B,E/2 =G3/2=G/2|
+=G=D=F =G,=D=F =G,=D=F =G/2=D=G/2|=G=CE =G,B,E =G,^CE ^FCE|
+FB,=D F,/2z=D=GB,=D/2 E3/2=D/2|FB,=D F,/2z=DF^A,CF,^A,C/2|
+B,=DF B,=DF B,^DF BDF|=cE=G B,E=G B,E=G ^AE=G|
+BDF B,DF B,DF BDF|=cE=G B,E=G B,E=G ^AE=G|
+BDF B,DF B=D=F B,=D=F|BC^G B,CG =AC^F =A,CF|
+=GB,=D =G,/2z=DFA,^D/2 F,/2zD/2|CF,A, C,F,A, CF,^G, C=F,G,|
+^F,^A,C ^A,/2zFCF^G^cFc/2|cGB CGB CGB c/2Gc/2|
+cFA CFA =cFA ^cFA|dFG DFG DFG dFG|
+e=Gc E=Gc dFA cD^A|=c=CD ^G=CD =A=CD F/2zD/2-|
+D/2=CDG,=CD=A,=CDF,=CD/2|E,EG ^cEG eEG c/2zG/2-|
+G/2E,G,^CE,G,EE,G,CE,G,/2|D,/2A,/2z =C/2zD=CFDAF=c/2|
+E,/2^C/2z ECG E/2^c/2z e/2c/2z|C/2=G/2z ^A=Gc ^A/2e/2z =ge^a|
+F/2=c/2z d=cf d/2=a/2z =c'ad|=c'fa d/2f/2z d=A=c F/2A/2z|
+F=CD A,/2=C/2z A,D,F, C,F,A,|=C,F,G, A,G,F, D,F,A, ^C,F,A,|
+=C,F,G, A,G,F, =D,F,A, ^C,F,A,|=C,F,G, A,G,F, ^C,E,^C C,/2zC/2|
+^D,A,C D,/2zCD,G,=C/2 D,/2z=C/2|E,G,^C G,/2zEG,CE^GCG/2|
+G,DF G,DF G,DF G/2DG/2|GCE G,CE ACF A,CF|
+GB,E G,/2zEFB,D/2 B3/2D/2|EB,E B,/2zGB,EGBEB/2|
+B,FA B,FA B,FA B/2FB/2|BEG B,EG =cFG ^cEG|
+dFG DFG eGc EGc|=dFA =DFA =cFG =CFG|
+^cEG ^CEG C=FG c=FG|=d^FA CFA CFA =cFA|
+^c=FG C=FG C=FG c=FG|=d^FA CFA CFA =cFA|
+^c=FG C=FG c^FA CFA|BFA B,FA B,FA BEG|
+AEG A^DF GDF GCE|FCD F,CD GCD ACD|
+GCE G,CE G=CD F,=CD|^CG,C G,/2zEG,CE/2 G,/2zE/2|
+G,DF G,DF G,DF G,/2zF/2|G,/2E/2z GEc G/2e/2z =g/2e/2z|
+=c/2f/2z =cFA D/2F/2z =C/2G,/2z|^C/2E/2z GE^c G/2e/2z ^g/2e/2z|
+=c/2^d/2z =cFA D/2F/2z =C/2G,/2z|^CG,C E/2C/2z C,E,G, C/2G,/2z|
+z/2C,E,G,E,/2z G,/2C3/2 E,/2G,3/2|C,4 C4|
+S:https://www.folktunefinder.com/tunes/31
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://community.codemasters.com/forum/showthread.php?t=193662
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

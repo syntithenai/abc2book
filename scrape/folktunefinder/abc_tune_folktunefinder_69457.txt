@@ -1,0 +1,25 @@
+X:598
+T: "Die Versuchung"
+N: Z1278
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Natur und Welt
+M: 6/8
+L: 1/8
+K: G
+G | G2dB2G | AGAB2
+d | c2BA3 | G2z3
+B | cccBBA | B2^cd2
+=c | B2AG2d | e2dc2
+B | AAAA2B | G2z3
+S:https://www.folktunefinder.com/tunes/69457
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

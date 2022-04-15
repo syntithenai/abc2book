@@ -1,0 +1,28 @@
+X:289
+T: Abendlust
+N: A0334A
+O: Europa, Mitteleuropa, Deutschland
+N: Hainhofer Lautenbuch II S. 32b. (1603)
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: A
+E2 | A2A2B2AB | c2BAB2
+d2 | c2A2G2FG | A4z2
+E2 | A2A2B2AB | c2BAB2
+d2 | c2A2G2FG | A4z2
+A2 | d2c2B2AB | c2BAB2
+c2 | d2c2B2AB | c2BAB2z2
+c2A2A2G2 | A4z2
+S:https://www.folktunefinder.com/tunes/68835
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

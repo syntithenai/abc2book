@@ -1,0 +1,28 @@
+X:516
+T: ALLERSCHOENSTER ENGEL
+N: E0505
+O: Europa, Mitteleuropa, Deutschland, Harz
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: C
+ | c2c2B2B2 | c2c2G4
+c2c2B2d2 | c4z4
+c2c2B2B2 | c2c2G4
+c2c2B2d2 | c4z2
+G2 | A2A2A2A2 | G2G2G2
+G2 | f4e4 | d6
+G2 | G4G2_B2 | A2c2F4
+A2A2A2c2 | _B2d2G2
+G2 | c3_Bc3B | c6
+E2 | F4G4 | C4z4
+S:https://www.folktunefinder.com/tunes/78957
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

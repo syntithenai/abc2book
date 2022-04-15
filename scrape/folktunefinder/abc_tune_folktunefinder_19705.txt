@@ -1,0 +1,19 @@
+X: 1
+T: Wha Wouldna Fecht For Charlie
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ e |: "A"~A2 A>B c>B c-<e | ~A2 A>f e-<c "E7"B2 | "A"~A2 A>B c>B c-<e | "D"f-<a "A"e-<a c-<a "E7"B2 :|
+ d |: "A"c-<e ef/g/ a>e f>e | c-<e ef/g/ a>c "E7"B>d | "A"c-<e ef/g/ a>e f>e | "D"f-<a "A"e-<a c-<a "E7"B2 :|
+S:https://www.folktunefinder.com/tunes/19705
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WhaWouldnaFechtForCharlie.abc
+S:http://trillian.mit.edu/~jc/music/book/500/WhaWouldnaFechtForCharlie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WhaWouldnaFechtForCharlie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

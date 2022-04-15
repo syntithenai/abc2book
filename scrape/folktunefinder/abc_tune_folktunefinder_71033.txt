@@ -1,0 +1,33 @@
+X:03
+%%topmargin 3cm
+T:Miller of Drone
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+%%staves [(1 2)]
+M:C
+L:1/8
+K:A
+V:1
+(c/2B/2) S| A<FF<A E>FE<C | u.nA,<.nA,{/c}d>c {dc}B2 Bc/2B/2 | [1 (A<F)F>A E>FE<C | D<FE>G A2 A :]
+V:2
+x | X | x x x x x x x "(2)"c/2d/2 | X | X :]
+V:1
+[2 (e>B)c>G A>EF>C | D>FE>G A2 A || (c/2d/2) | e<cc<a e>e (f/2e/2).d/2.c/2 | e<cc<a Tf2 (f>a) |
+e<cc>a e>e (f/2e/2).d/2.c/2 | {Bc}d>B{/d}c>A {/G}F2 F(c/2d/2) | e<cc<a | e>e (f/2e/2).d/2.c/2 |
+e>f{/g}a>g {ag}f2 f>g | (3agf (3efg (3aed (3cBA | (3dcB (3cBA (3Ffe (3dcB S|]
+S:https://www.folktunefinder.com/tunes/71033
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Miller_of_Drone.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miller_of_Drone.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0003.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

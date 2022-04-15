@@ -1,0 +1,20 @@
+X:220
+T:Staines Morris
+M:4/4
+L:1/8
+Q:1/8=120
+K:Emin
+"Em"B2 e2 ^c2 ^d2|"Em"e2 dc B3 c|"G"dedc B2 AG|"Em"FEFG E4:||
+"Em"GABc B2 AG|"Em"FEFG E4|"Em"GABc B2 AG|"Em"FEFG E4||
+"G"G2 GG D2 D2|"Em"EFGA B3 c|"G"dedc B2 AG|"Em"FEFG E4:||
+S:https://www.folktunefinder.com/tunes/52393
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

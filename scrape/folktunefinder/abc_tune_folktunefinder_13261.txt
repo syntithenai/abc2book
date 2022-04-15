@@ -1,0 +1,25 @@
+X: 1
+T: Mary Morison
+B: Songs of Scotland Without Words
+Z: Nigel Gatherer
+M: 4/4
+L: 1/8
+F: http://www.nigelgatherer.com/tunes/abc/abc9/mmori.abc 2007-01-11 20:32:09 UT
+K: G
+GA | B3c BAGF | E3F  G2A2 | B3c  d2cB | e3A A2 |
+GA | B3c BAGF | E3F  G2A2 | B2g2 f3g  | e3B B2 ||
+B2 | e3f g2d2 | Bcd2 G2B2 | A3B  c2d2 | e3A A2 |
+dc | B3c BAGF | E3F  G2A2 | B2g2 f3g  | e3B B2 |]
+S:https://www.folktunefinder.com/tunes/13261
+S:http://www.nigelgatherer.com/tunes/abc/abc9/mmori.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/MaryMorison2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MaryMorison2_G.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

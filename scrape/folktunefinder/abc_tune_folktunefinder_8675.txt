@@ -1,0 +1,28 @@
+X: 3
+T: Shottis
+R: shottish
+O:
+B:
+S: Janet Gage, Oct 1998
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|::: "D"D2DF AFDF | "G"GFGA "Em"B2-B2 \
+|1,3. A2"A7"Ac ecAc | "D"dcde f2-f2 \
+:|2,4. A2"A7"Ac egec | "D"d2d2 d4 :: "D"{f}afdf afdf |
+| "G"gagf "Em"e3f | "A7"gece gecA | "D"dcde f3g | "D"afdf afdf \
+| "G"gagf "Em"efed | "A7" cdcB AGEC | "D"D2D2 D4 :|
+S:https://www.folktunefinder.com/tunes/8675
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_shot4.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

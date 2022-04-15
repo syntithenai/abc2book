@@ -1,0 +1,23 @@
+X: 1
+T: The 51st Highland Division
+R: march
+M: 4/4
+L: 1/8
+K: A
+e/d/c/B/ \
+| A>A A>B cB ce | a>g fe f2 ef/g/ | a>g fe fa A>B | cf ec B2 e/d/c/B/ |
+| A>A A>B cB ce | a>g fe f2 ef/g/ | a>g fe fa cB | c2 A2 A2 ce ||
+|| f>e fa e2 ce | a>g fe f2 ef/g/ | a>g fe fa A>B | cf ec B2 e/d/c/B/ |
+| A>A A>B cB ce | a>g fe f2 ef/g/ | a>g fe fa cB | c2 A2 A2 ce |]
+S:https://www.folktunefinder.com/tunes/15294
+S:http://trillian.mit.edu/~jc/music/abc/march/51stHighlandDivision_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/51stHighlandDivision_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

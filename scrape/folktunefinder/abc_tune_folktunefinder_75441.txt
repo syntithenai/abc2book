@@ -1,0 +1,41 @@
+X:1
+T:The Beggar's Meal Pokes, Compos'd by King James th 6th
+S:J. Oswald Caledonian Pocket Companion, Bk 9, c 1758.
+Z:Bruce Olson
+Q:1/4=120
+L:1/8
+M:C
+K:G
+G|(GA)(Bc)d2 GG|Gggf e3/2 d|gbag (ed)eg|dB"tr"AG A3:|\
+(cB)cd e2 ef|(gf)ga {g/}f3/2 d|(ba)(gf) (e2 f)g|d(BA)B G3:|]
+S:https://www.folktunefinder.com/tunes/75441
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/S1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/S1.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040610235648/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040828021905/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040904111810/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040914074031/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040916075042/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040929080348/http://users.erols.com/olsonw/S1.ABC
+S:http://web.archive.org/web/20040930142027/http://users.erols.com/olsonw/S1.ABC
+S:http://www.csufresno.edu/folklore/Olson/S1.ABC
+S:http://www.mudcat.org/olson/S1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/S1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

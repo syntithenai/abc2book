@@ -1,0 +1,23 @@
+X:2
+T:Din Tarrant's
+D:Julia and Billy Clifford, "Ceol as Sliabh Luachra"
+R:polka
+M:2/4
+L:1/8
+K:D
+| a>f df | Ad e2 | e/f/e/d/ cA | Bc df |
+| a>f df | A/B/c/d/ ee/f/ | g/f/e/d/ cA |1 Bc d2 :|2  Bc dB/c/ |
+|: dB fB | dB fe/d/ | cA eA | BA ce |
+| fb ba | fb ba | f/g/f/e/ cA |1 Bc dB/c/ :|2  Bc d2 ||
+S:https://www.folktunefinder.com/tunes/16073
+S:http://trillian.mit.edu/~jc/music/abc/polka/DinTarrants.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/DinTarrants.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/polka/DinTarrants.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

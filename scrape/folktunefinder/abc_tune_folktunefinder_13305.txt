@@ -1,0 +1,28 @@
+X: 1
+T: Quendale Bay
+C: Phil Cunningham
+M: C
+L: 1/8
+S: http://home.ivx.de/601438/tunes/cunning.abc
+D: Aly Bain & Phil Cunningham "The Pearl"
+K: Bb
+DC \
+| "Bb"B,3 B "F/A"F3 G/2A/2 | "Gm"B2 B2 b3 a/2b/2 | "Eb"g3 a/2b/2  "Bb"f2 Bc/2d/2 | "Cm"e2 G2 "F7"F2 DC \
+| "Bb"B,3 B "F/A"F3 G/2A/2 | "Gm"B2 B2 b2 ab     | "Cm"g2 d3/2e/2 "F7"f2 d2      | "Bb"B6 :|
+Bc \
+| "Bb"d2 d2 "F/A"F3 G/2A/2 | "Gm"B2 B2 "Dm"D3 E/2F/2 | "Eb"G3 F/2E/2 "Bb"F2 D2 | "Cm"C4- "F7"C2Bc \
+| "Bb"d2 d2 "F/A"F3 G/2A/2 | "Gm"B2 B2 b2 ab | "Eb"g2 de "F7"f2 d2 | "Bb"B6 ||
+Bc \
+| "Bb"d3/2c/2 d/2f3/2 "F/A"F3 G/2A/2 | "Gm"B3/2A/2 B/2d3/2 "Dm"D3 E/2F/2 | "Eb"G3 F/2E/2 "Bb"F2 D2 | "C7"C4- "F7"C2DC \
+| "Bb"B,3 B "F/A"F3 G/2A/2 | "Gm"B2 B2 b3 a/2b/2 | "Cm"g2 d3/2e/2 "F7"f2 d2 | "Bb"B6 |]
+S:https://www.folktunefinder.com/tunes/13305
+S:http://trillian.mit.edu/~jc/music/abc/air/Quendale_Bay_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Quendale_Bay_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:430
+T:La Buena Vara (CT 166)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Mercedes Garca Garca, de treinta y cuatro aos, de Cabaaquinta, ayuntamiento de Ayer.
+A:Asturies
+O:Cabaaquinta (Ayer)
+Z:Cancioneru de Torner 166
+M:3/4
+L:1/8
+Q:1/4=80
+K:Gm
+GA
+|^F3 A Bd|(d3/2c/4d/4) c2 GA|
+^F3 A Bd|(d3/2c/4d/4) c2 BA|
+^F3 B {d}cB|(A3/2B/4A/4)G2 :||
+W:Si quieres la buena vara, (bis)
+W:crtala en el buen salguero, (bis)
+W:si quieres la buena moza,
+W:chai el geyu primeru.
+W:
+S:https://www.folktunefinder.com/tunes/59317
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

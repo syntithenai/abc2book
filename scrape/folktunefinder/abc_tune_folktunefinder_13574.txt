@@ -1,0 +1,31 @@
+X:813
+T:Hennessy's hornpipe
+C:anon.
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 813
+R:Hornpipe
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-081
+3.abc
+M:C|
+L:1/8
+K:G
+D2 \
+| GABc dBGB | g2(fg) edBA | GABc dedc | BGAF GFED |
+| GABc dBGB | g2(fg) edBA | dedc BGAF | G2GGG2 :|
+|: (Bc) \
+| d^cde gB (3.B.B.B | g2ag fddd | gfed eB (3.B.B.B | eddd d2(ef) |
+| gedc BAGB | ABAG FGAB | dedc BGAF | G2GGG2 :|
+S:https://www.folktunefinder.com/tunes/13574
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-081
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HennesseysHp_2G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/HennesseysHp_2G.abc
+% Rhythm Hornpipe
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

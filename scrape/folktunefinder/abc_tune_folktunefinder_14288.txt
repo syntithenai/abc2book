@@ -1,0 +1,29 @@
+X: 1
+T:Hark Hark The Joy Inspiring Horn. WCl.64
+M:6/8
+Q:80
+S:William Clarke MS, Lincoln,1770
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Chris Partington
+K:G
+G|G>-AGG2B|B>-cBB2d|d>-ed g-Bd|d-cB {B}A2A|!
+B>-^cd d>-ec|(d2 (3d/e/f/ e2) {ef}g|f>-ed d>e^c|"$"dDDD2d|!
+d>ed b-gd|c>-dc a-fc|B>cB g-Bd|d-cB{B}A2A|!
+B>-AB c-BA|(Bb/g/f/g/)"Pa"g2e|d>-Bd c-BA|"Sy"GGGG2|]
+S:https://www.folktunefinder.com/tunes/14288
+S:http://trillian.mit.edu/~jc/music/abc/jig/Hark_Hark_Joy_Inspiring_Horn_WCl_64_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Hark_Hark_The_Joy_Inspiring_Horn_WCl_64_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Hark_Hark_Joy_Inspiring_Horn_WCl_64_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Hark_Hark_The_Joy_Inspiring_Horn_WCl_64_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Hark_Hark_The_Joy_Inspiring_Horn_WCl_64_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

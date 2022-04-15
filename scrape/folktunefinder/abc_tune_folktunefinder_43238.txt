@@ -1,0 +1,25 @@
+X: 6
+T:Kiss the Maid behind the Barrel
+R:reel
+H:Similar to "Trim the Velvet", #2
+Z:id:hn-reel-549
+M:C|
+K:G
+DG~G2 AG~G2|DG~G2 cAFA|DG~G2 ADFA|defd cAFA:|
+dg~g2 aggf|dg~g2 agfe|df~f2 af~f2|defd cAFA|
+dg~g2 agfg|~a3g ~f3g|afge fde^c|d2eg fdcA||
+|:G2dG BGdG|~G2dB cAFA|1 G2dG BGBc|defd cAFA:|2 ~B3G ADFA|defd cAFA||
+|:~B3G ~A3G|BABd gedc|1 B2GB ADFA|defd cAFA:|2 BG~G2 ADFA|defd cAFA||
+S:https://www.folktunefinder.com/tunes/43238
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

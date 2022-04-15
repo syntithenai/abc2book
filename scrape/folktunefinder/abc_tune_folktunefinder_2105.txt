@@ -1,0 +1,18 @@
+X:9
+T:johnny scott
+M:4/4
+L:1/8
+Q:1/4=50
+K:C % 0 sharps
+% MIDI Key signature, sharp/flats=0  minor=0
+% Time signature=2/4  MIDI-clocks/click=24  32nd-notes/24-MIDI-clocks=8
+cA AG/2E/2 GG Gc/2d/2|eB A/2G/2E2<G2c/2c/2|AA AG c2 dc/2d/2|ed/2c/2 AG c2
+S:https://www.folktunefinder.com/tunes/2105
+S:http://www.slainte.ch/abc/own.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

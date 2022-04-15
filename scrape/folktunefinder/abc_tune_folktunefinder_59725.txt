@@ -1,0 +1,50 @@
+X:838
+T:Xiraldilla (CT 272)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 272
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+|d2 de|d2 cB|c4|d2 de|d2 cB|c2 z2|
+B2 Ac|B2 AG|^F2 G2|B2 Ac|B2 A^F|G2 z2|
+d2 de|d2 cB|c2 c2|d2 de|d2 cB|c2 z2|
+B2 Ac|B2 AG|^F2 G2|B2 Ac|B2 A^F|G2 z G|
+BB AB|cB AG|^F2 GG|BB AB|cB A^F|G2 z G|
+BB AB|cB AG|^F2 G2|B2 Ac|B2 A^F|G4||
+W:El lunes hay que barrer,
+W:el martes hay que fregar,
+W:el mircoles al molino
+W:para el jueves amasar,
+W:el viernes hacer colada
+W:para el sbado lavar,
+W:el domingo, como es fiesta,
+W:no se puede trabajar.
+W:
+W:Que cundo vas a hilar,
+W:hilar, Mara,
+W:que cuando vas a hilar,
+W:hilar, hilar;
+W:que cundo vas a hilar,
+W:hilar Mara!
+W:Maanita de San Juan.
+W:
+S:https://www.folktunefinder.com/tunes/59725
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

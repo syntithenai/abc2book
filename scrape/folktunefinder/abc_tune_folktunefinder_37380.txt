@@ -1,0 +1,31 @@
+X:6505
+T:Unst Bridal March
+M:3/4
+O:Shetland
+R:Wedding march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000949.html
+%%ID:00000949
+K:A
+a2|\
+%%%A2A2B2|c4 e2|fg {ag}a2{cd}c2|BA HB2 {gag}a>f|\
+A2A2B2|c4 e2|fg {ag}a2{cd}c2|BA B2 {gag}a>f|\
+e2A2 AB|c2e2Bd|{cd}c2A2A2|A4::
+{ag}a2|\
+f2e2 {ag}a2|f2e2 {ag}a2|f2e2 a2|f4 e2|\
+f>>g {ag}a2e2|f>>g {ag}a2e2|\
+f>>g {ag}a2a2|a4c2|
+{de}d2d2cB|c2e2e2|\
+%%%fg {ag}a2{cd}c2|BA HB2 {gag}a>f|\
+fg {ag}a2{cd}c2|BA B2 {gag}a>f|\
+e2A2 AB|c2e2Bd|c2A2A2|A4|]
+S:https://www.folktunefinder.com/tunes/37380
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Wedding march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:75
+T:Polska efter C A Lindblom
+R:sl-polska
+H:Spelades \"aven av Pelle Fors
+A:\"Osterg\"otland
+B:SvL \"Ogl 314
+Z:id:hn-sp-75
+M:3/4
+L:1/16
+K:D
+D2FA d4 d4 | d2cd e2de (fe)dc | d2b2 b2a2 a2g2 | g2f2 (ef)ed A2G2 |
+F2D2 D2F2 (FED2) | A,2{E}A2 A,2{E}A2 A,2{E}A2 | F2D2 D2F2 (FED2) |
+A,2{E}A2 A,2{E}A2 A,2{E}A2 | (DE)FG (AB)cd (ef)ga | (ba)ge (c2d2) d4 :|
+|: A2ce a4 a4- | a2^ga b2bg e4 | a2ba e4 c4 | d2f2 (ed)cB A2G2 |
+FAdA FAdA FAdA | B2G2 D2B2 D2d2 | (cd)ed (cd)ed (cd)ed |
+d2f2 (ed)cB A2G2 | F2D2 D2F2 (FED2) | A,2{E}A2 A,2{E}A2 A,2{E}A2 |
+F2D2 D2F2 (FED2) | A,2{E}A2 A,2{E}A2 A,2{E}A2 | (DE)FG (AB)cd (ef)ga |
+(ba)ge (c2d2) d4 :|
+S:https://www.folktunefinder.com/tunes/62406
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

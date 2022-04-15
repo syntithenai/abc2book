@@ -1,0 +1,34 @@
+X:100
+T:Baille de Panderu (CT 308)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Muriellos, ayuntamiento de Quirs.
+A:Asturies
+O:Muriellos (Quirs)
+Z:Cancioneru de Torner 308
+M:6/8
+L:1/8
+Q:3/8=88
+K:G
+G|ddd d2c|(dc2- c2)c|=ff_e d2c|_ed2- d2B|
+ddd d2c|(dc/2B/2)c d2B|(cB/2A/2)B A2G|FG2- G2z||
+W:Pretendisti cortexar
+W:en casa de corredores
+W:y agora ya nun te quieren
+W:nin las ricas nin las pobres.
+W:
+S:https://www.folktunefinder.com/tunes/58987
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

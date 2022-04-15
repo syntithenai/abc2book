@@ -1,0 +1,24 @@
+X:1
+T:Morning Mist, The
+C:Joe Burke
+B:Dance Music of Ireland, Pat McNulty
+R:Reel
+M: 4/4
+L: 1/8
+Z:Paul Kinder 
+K: G mix
+Bc \
+| d2BG dGBG | d2BG DGBd | c2A=F cFAF | c2A=F CFAc |
+| d2BG dGBG | d2BG DGBd | cBAB cedc | BdAF G2 :|
+|: Bd \
+| g2dc bd (3dcd | BGFG DGBd | ageg gbag | fdad bdad |
+| g2dc Bd (3dcd | BGFG DGBd | cBAB cedc | BdAF G2 :|
+S:https://www.folktunefinder.com/tunes/17701
+S:http://trillian.mit.edu/~jc/music/abc/reel/MorningMist.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

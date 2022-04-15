@@ -1,0 +1,30 @@
+X:1
+T:My Wife has scolded me
+T:Throd mo bhean a's throd i rium
+O:Scotland
+R:Slow Air
+B:Fraser (The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles), 1874 #63, p.22
+S:Skip McCabe <mccab42:attglobal.net> and Fiddler's Companion, scots-l 2002-5-3
+M:C
+L:1/8
+S:Fraser Collection
+K:G Minor
+D | G>^F GD F2 | GG G>A B>c dz/^f/ | g>d d>c B3/2c/4d/4 F>f | dD d>c BG G :|
+d | g>d gb f>d f2 | b>a g>B G/A/B/c/ dz/^f/ | g>d d>c B3/2c/4d/4 F>e |
+dD d>c BG G>d | g>d gb f>d f2 | b>a g>B G/A/B/c/ d>^f | g>d d>c B3/2c/4d/4 F>e | dD d>c BG G ||
+S:https://www.folktunefinder.com/tunes/13276
+S:http://trillian.mit.edu/~jc/music/abc/air/MyWifeHasScoldedMe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/ThrodMoBheanAsThrodIRium_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MyWifeHasScoldedMe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/ThrodMoBheanAsThrodIRium_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/MyWifeHasScoldedMe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/ThrodMoBheanAsThrodIRium_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/MyWifeHasScoldedMe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ThrodMoBheanAsThrodIRium_1.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

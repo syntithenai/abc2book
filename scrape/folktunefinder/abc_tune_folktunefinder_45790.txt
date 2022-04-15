@@ -1,0 +1,56 @@
+X:22
+%%scale 0.80
+T:Kas a barc'h : Mignonne
+C:Roger Ngaret (Aot 97)
+S:
+A:Bretagne
+R:Kas a-Barh
+Q:1/4=88
+M:2/4
+L:1/8
+K:G
+"Em"EG/2A/2 BB | cA BB | "Am"ed/2c/2 "Em"BB | cA B2 ::
+BA/2G/2 "D"F>A | "G"dc "Em"BG | BA/2G/2 "D"F>A |1
+"G"GA "Em"B2 :|2 "G"GF "Em"E2 |:
+E/2F/2G/2A/2 BE | GE B2 | "C"ge/2d/2 "G"BB | de "Em"B2 ::
+BA/2G/2 "Am"E>F | GA "G"B2 | "Em"EE/2F/2 "G"G>G | "D"AB "G"BA |
+"Em"BA/2G/2 "Am"E>B | BE "G"B2 | "Em"EE/2F/2 "G"G>A | "D"FG "Em"E2 :|
+%%rm
+%%rm 1. Mignonn' allons voir si la rose
+%%rm    Qui ce matin avait dclose,
+%%rm    Qui ce matin avait dclose,
+%%rm    Sa robe de pourpr' au soleil,
+%%rm    A point perdu cette vespre,
+%%rm    Les plis de sa robe pourpre,
+%%rm    A point perdu cette vespre,
+%%rm    Son teint au v-tre pareil.
+%%rm
+%%rm 2. Las! voyez comm' en peu d'espace,
+%%rm    Mignonn' elle a dessus la place,
+%%rm    Mignonn' elle a dessus la place,
+%%rm    Las! las! ses beauts laiss choir!
+%%rm     vraiment martre Nature,
+%%rm    Puisqu'une telle fleur ne dure,
+%%rm    Puisqu'une telle fleur ne dure,
+%%rm    Que du matin jusques au soir!
+%%rm
+%%rm 3. Donc si vous me croyez mignonne,
+%%rm    Tandis que votr' ge fleuronne,
+%%rm    Tandis que votr' ge fleuronne,
+%%rm    En sa plus verte nouveaut,
+%%rm    Cueillez, cueillez votre jeunesse,
+%%rm    Comm'  cette fleur la vieillesse,
+%%rm    Comm'  cette fleur la vieillesse,
+%%rm    Fera ternir votre beaut.
+%%rm
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/45790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Rhythm Kas a-barh
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

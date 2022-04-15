@@ -1,0 +1,37 @@
+X:52
+T:Miss Stewart Mitchell's Reel
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/20/04
+N:Petrie's First Collection, page 20
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Reel
+K:E
+[V:1] B|E2 G>B eBGE|AcGB cFFG|E2GB egbg|faTg>f gee:|
+[V:2] z|E2 e2  g2e2|f2e2 a2b2|g2e2 c2G2|A2 B2  E3 :|
+[V:1] g|bgeg f(dTcB)|ecBG AFFg|bgeg .f(dTcB)|c(aTgf) geeg |
+[V:2] z|g2e2 b2  e2 |a2e2 b2a2|g2e2  b2  z2 |a2  b2  e'2e2|
+[V:1] (b/a/g/f/ e).g f(dTcB)|cABG AFFG|EGAF GBeg|afba gee|]
+[V:2]  g2       e2   b2  e2 |f2e2 b2a2|g2f2 e2g2|b2B2 e2e|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MissStewartMitchellsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Stewart_Mitchells_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

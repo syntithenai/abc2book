@@ -1,0 +1,32 @@
+X:3
+T:Baltimore
+W:24-bar duple-minor longways; moderate
+W:Dance: Moore/Ridgeley, 1790s; Tune: Carroll MS.
+M:6/8
+L:1/8
+K:Bm
+%P:
+%Q:270
+V:1
+%
+V:1
+"G" B2 A B2 A | "Em" G2 G GAB | "C" c2 B c2 B  | "D" A2 A A2 B | "Am" c2 d ecA | "C" B2 c "Em" dBG | "C" A2 B "D" cBA | "G" G2 G G3 ||
+|: "D" d2 d dBG | "Em" e2 e e3 | "Am" c2 c cBA | "D" d2 d d3 | "G" G2 D B2 G | "C" d2 B "D" g2 d | "C" edc "D" BAG | "D" A2 D D3 :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49282
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

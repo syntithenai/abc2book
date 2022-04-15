@@ -1,0 +1,28 @@
+X: 1
+P: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+|: [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"[G2E2] z2 [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [B2G2] \
+| "Bb7"([A2F2][D2B,2]) | "Eb"[E2E2] z2 :|
+|: [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"[G2E2] z2 [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [G2E2] \
+| "Bb7"([F2D2][D2B,2]) | "Eb"[E2E2] z2 :|
+S:https://www.folktunefinder.com/tunes/4954
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_OanzigsHendl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_OanzigsHendl_EbAb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_AOanzigsHendl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_OanzigsHendl.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

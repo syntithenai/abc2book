@@ -1,0 +1,60 @@
+X: 2
+T: Freilechs von der Chuppe
+O: Harry Kandel's Orchestra (1917)
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K:Ddor^G
+|: A,2 \
+"A"\
+| "Dm"D4 EFGF \
+| G2A2- A2A2 \
+| cBA2 AGF2 \
+| AGF2 FEED \
+| D4 EFGF \
+| G2A2- A2A2 \
+| d6 A2 \
+| d2c2 B2A2 |
+| "Dm"D4 EFGF \
+| G2A2- A2A2 \
+| cBA2 AGF2 \
+| AGF2 FEED \
+| cBcB cBA2 \
+| (3d2c2B2 (3A2G2F2 \
+| "A7"(3B2A2G2 FEDC \
+| "Dm"D6 :|
+|: ~A2 \
+"B"\
+| "Dm"d6 ~A2 \
+| d6 ~A2 \
+| d3A d3A \
+| d3A d3A \
+| d2c2 B2A2 \
+| ~G3F GFED \
+| d2c2 B2A2 |
+| ~GBA4 A2 \
+| d2c2 B2A2 \
+| ~G3F GFED \
+| "A7"E2E2 FED=C \
+| "Dm"D6 ::[K:=G][K:D] z2 \
+"C"\
+| "D"F2A2 AGGF \
+| F2A2 AGGF |
+| A^GAB cBA=G \
+| A4 d4 \
+| F2A2 AGGF \
+| "Gm"G6 ^G2 \
+| "A7"BA^G=F GFEF \
+| "Dm"D6 :|
+S:https://www.folktunefinder.com/tunes/7000
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_VonDerChuppe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/VonDerChuppe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

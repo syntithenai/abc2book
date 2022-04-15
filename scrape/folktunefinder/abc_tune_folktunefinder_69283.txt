@@ -1,0 +1,23 @@
+X:424
+T: "Die Schlangenkoechin"
+N: Z1104
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland; Hessen
+R: Romanze, Ballade, Tod
+M: 3/8
+L: 1/16
+K: F
+F2 | F2F2c2 | c2c2B2 | c3B_A2 | G2G2
+_A2 | F2E2F2 | G4_A2 | F2E2F2 | G4
+c2 | c2c2G2 | _A2A2G2 | F4
+S:https://www.folktunefinder.com/tunes/69283
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

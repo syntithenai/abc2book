@@ -1,0 +1,30 @@
+X: 1
+T: H\"om\"or\"odi K\"ort\'anc
+O: Hungary
+Z: John Chambers <jc@trillian.mit.edu>
+P: AABAABACCCAABAABA
+M: 4/4
+L: 1/8
+K: Gm
+|: "D"d'>a bc' "Gm"ba g2 | "Edim"bc'/b/ ag "Eb"b2 b/a/b/c'/ \
+|  "D"d'>a bc' "Gm"ba g2 |  "D"{^c'}d' d- d^f "Gm"g2 [g2B2D2G2] :| [K:D^c]
+|: "Dm"d>e fg/e/ fe/c/ d2 d2 | "A7"fg/e/ fe/c/ "Dm"dA- AA \
+| "G"d>e fg/e/ "G#dim"fe/c/ d2 d2 | "A7"fg/e/ fe/c/ "Dm"d2 d2 :| [K:Bb]
+|: "Bb"B>d ff ff f2 | "F7"dd cc "Bb"B2 B2 \
+|  "Bb"B>d ff "Gm"ff f2 | "F7"dd cc "Bb"B2 B2 |
+|  "Eb"e2 ee "/D"ee e2 | "/C"e2 ee "/Bb"ee e2 \
+| "Cm"e2 ee ee "F"f2 | "Bb"dd "F7"cc "Bb"B2 B2 :|
+S:https://www.folktunefinder.com/tunes/2828
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/HomorodiKortanc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Hungary/HomorodiKortanc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HomorodiKortanc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/HomorodiKortanc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

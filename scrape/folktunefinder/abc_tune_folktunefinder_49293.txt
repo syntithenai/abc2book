@@ -1,0 +1,24 @@
+X:14
+T:La Gelosia
+W:Guglielme Ebreo, 1544. After Longwind & D'Aurillac
+M:C|
+L:1/4
+K:G
+%P:
+%Q:
+V:1
+%
+V:1
+B A B c | d2 d2 | =f e/f/ d c | B A/B/ G F | B A B c | d2 d2 | c B/c/ B A | G2 G2 ||
+|: g f e d | g f e d | g f e f | d2 d2 | B A B c | d2 d2 :| cBcA | G2 F2 |
+|: B A B c | d2 d2 | f2 f e | d2 d2 :: "3x" g2 f e | d2 d2 :: "3x" c B/c/ A G | B A/B/ A G | F2 F2 :|
+S:https://www.folktunefinder.com/tunes/49293
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

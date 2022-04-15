@@ -1,0 +1,27 @@
+X:20
+T: Der Benzenauer
+N: A0381A
+O: Europa, Mitteleuropa, Deutschland
+N: Nuernberg um 1530
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/4
+K: F
+F2 | c2c2d2e2 | f4f4
+f4 | c2f4e2d4 | c4z2
+F2 | c2c2d2e2 | f4f4
+f4 | c2f4e2d4 | c4z2
+f2 | f3ed2c2 | A4F4z2
+F2 | c3de2f2d4 | c4z2
+f2 | f3ed2c2 | A4F4
+c4 | d2c3AB2G4 | F6
+S:https://www.folktunefinder.com/tunes/80079
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

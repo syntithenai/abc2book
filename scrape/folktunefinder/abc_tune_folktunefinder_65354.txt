@@ -1,0 +1,26 @@
+X: 266
+T:Rushwick
+% Nottingham Music Database
+S:Pauline Wilson, via Phil Rowe
+M:6/8
+K:G
+"G"G2F G2A|B2A B2c|"G"ded BAG|"D7"A6|A2^G A2B|"D7"A2F D2B|
+"A7"ABA EFG|"D7"F6|"G"G2F G2A|B2A B2c|"G7"ded BAG|
+"C"e6|"G"g2d e2B|"Am"dcB A2e|"D7"dcB AGF|"G"G6||
+"Em"E2B B2c|"Bm"B2A G2F|"Em"G2A "A7"B2^c|"D"d3 -d2^d|"Em"e2f g2e|"D"f2d d2f|
+"Em"e2B "Bm"B2d|"Em"e3 -e2f|"G"g2f e2d|B2d G2B|"C"c2B c2e|
+"Am"g3 -g2d|"G"g2d e2B|"Am"dcB A2e|"D7"dcB AGF|"G"G6||
+S:https://www.folktunefinder.com/tunes/65354
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

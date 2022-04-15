@@ -1,0 +1,26 @@
+X: 1
+T: the Silver Spire
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "100 Essential Irish Session Tunes" 1995 Dave Mallinson, ed.
+R: Reel
+K: D
+   A, \
+| "D"D2FE DFAc | "D"dcde fdAF | "G"GABG "D"FADF | "Em"(3GFE FD "A7"CEA,C |
+| "D"D2FE DFAc | "D"dcde fdAF | "G"GABG "D"FADF | "A7"EA,CE "D"D3 :|
+|: A, \
+| "A"A,B,CD  EFGE | "D"FDEF GABc | "Bm"dcBA Bcde | "E7"fdgf "A7"ecAc |
+| "D"defd "A"cdec | "G"BcdB "D"AFDF | "G"GABG "D"FADF | "A7"EA,CE "D"D3 :|
+S:https://www.folktunefinder.com/tunes/18117
+S:http://trillian.mit.edu/~jc/music/abc/reel/SilverSpire2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SilverSpire2_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

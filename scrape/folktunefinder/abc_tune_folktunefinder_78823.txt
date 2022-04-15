@@ -1,0 +1,26 @@
+X:382
+T: WOL IN DER HAUPTSTADT DANZIG
+N: E0215A
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Hainau
+R: erzaehlendes Volks - Lied, Mahn -, Moral - Lied, Strafe
+M: 2/4
+L: 1/16
+K: D
+D2 | A2A2BAG2 | F4AG
+F2 | G2G2B2G2 | G4F2
+D2 | B2B2dcB2 | A4BA
+G2 | F2F2AGE2 | E4D2
+D2 | B2B2dcB2 | A4BA
+G2 | F2F2AGE2 | E4D2
+S:https://www.folktunefinder.com/tunes/78823
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, mahn -, moral - lied, strafe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X: 7397
+T:Major John MacLennan
+O:Scotland
+R:March
+C:P.M. G.S. McLennan
+M:6/8
+K:D
+{gfg}f3 a>fe| {Gdc}d>ef {g}A3| \
+{GdG}e3 {a}g>fe| {Gdc}d>ef {g}e>fg|
+{fg}f3 a>fe| {Gdc}d>ef {g}A3|\
+{GdG}e3 {g}A>{d}ce|1 {Gdc}d3 {gdc}d3 :|2 {Gdc}d3 {gdc}d2 |:
+{g}A|\
+{GdG}e3 {a}g>fe| {Gdc}d>ef {g}A3|\
+{gfg}f3 {g}e>fg| {ag}a3 {g}a>gf|\
+{gef}e3 {a}g>fe| {Gdc}d>ef {g}A3|
+{GdG}e3 {g}A>{d}ce| {Gdc}d3 {gdc}d2 {g}A|\
+{GdG}e3 {a}g>fe| {Gdc}d>ef {g}A3|
+{gfg}f3 {g}e>fg| {ag}a3 {g}a>gf|\
+{fg}f3 a>fe| {Gdc}d>ef {g}A3|\
+{GdG}e3 {g}A>{f}ce| {Gdc}d3 {gdc}d2|:
+A|\
+{Gdc}d3 {g}A>df| a>fd {g}A3|\
+{gcd}c3 {e}A2{d}c| {g}A>{d}ce {gfg}f2e|
+{Gdc}d3 {g}A>df| a>fd {g}A3|\
+{gcd}c3 {g}A>{d}ce| {Gdc}d3 {gdc}d2:|
+{gf}g|\
+{ag}a3 {fg}f>ed| a>fd {g}A3|\
+{gf}g3 {a}e<g{a}e| {g}c<{d}A{d}c {g}e>fg|\
+{ag}a3 {fg}f>ed| a>fd {g}A3|
+{gcd}c3 {g}A>{d}ce| {Gdc}d3 {gdc}d2 {gf}g|\
+{ag}a3 {fg}f>ed| a>fd {g}A3|
+{gf}g3 {a}e<g{a}e| {g}c<{d}A{d}c {g}e>fe|\
+{Gdc}d3 {g}A>df| a>fd {g}A3 |\
+{gcd}c3 {g}A>{d}ce| {Gdc}d3 {gdc}d2|]
+S:https://www.folktunefinder.com/tunes/34614
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: La Valse des Espoirs Fanes (faded hopes)
+C: J-F Belanger
+S: Clare Maher 2008-4-30 via email
+R: Waltz
+M: 3/4
+K: Em
+L: 1/8
+"Em" e3 f ge | "B" ^d3 e (3fe=d | "C" c3 d ec | "G"cd/c/B3^G \
+| "Am"A^G AB c^A | "B"B3^d ef | "C"g3f e^d | "B"b2 ba gf |
+| "Em" g3f ed | "C"e3d cB | "Am"c2 cB Ac | "Em"B2E3^G \
+| "Am" A^G AB c^A | "B"B3^d ef | "C"g3f "B"^df | "Em"e6 |]
+|: "Em"b2 bg eg | "B"a2 af ^df | "C" gf eg fe | "B"(3 fgf B4 \
+| "Am"cA ce dc |[1 "Em" cd/c/B2AB | "Am"c3B AG | "B"F2E2^D2 :|
+|[2 cd/c/B2 ^de | "B"f3g f^d | "Em"e6 |] y6 y6 y6 y6 y6 y6 y6
+S:https://www.folktunefinder.com/tunes/19900
+S:http://trillian.mit.edu/~jc/music/abc/waltz/EspoirsFanes_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/EspoirsFanes_Em.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

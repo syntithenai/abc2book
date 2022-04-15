@@ -1,0 +1,30 @@
+X: 1
+T: Jolly Seven
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: D
+c \
+|  "D"d2fd adfd |  "D"d2fd   "A"ecAc \
+|  "D"d2fd adfd | "E7"b^gaf "A7"ecAc |
+|  "D"d2fd adfd |  "D"d2fd   "A"ecAc \
+| "Bm"dcBA Bcde | "F#m"fbfe "Bm"dBB |]
+c \
+| "Bm"dfBf dfBf | "Bm"dfBf "A"ecAc \
+| "Bm"dfBf dfBf | "E7"b^gaf "A7"ecAc |
+| "Bm"dfBf dfBf | "Bm"dfBf "A"ecAc \
+| "Bm"dcBA Bcde | "F#m"fbfe "Bm"dBB |]
+S:https://www.folktunefinder.com/tunes/17463
+S:http://trillian.mit.edu/~jc/music/abc/reel/JollySeven_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/JollySeven_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JollySeven_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

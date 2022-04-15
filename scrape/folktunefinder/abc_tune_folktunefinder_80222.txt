@@ -1,0 +1,28 @@
+X:163
+T: In dulci jubilo
+N: A0528B
+O: Europa, Mitteleuropa, Deutschland
+N: M. Behe 1537.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/2
+L: 1/2
+K: F
+F | F2FA2B | c2dc2
+c | F2FA2B | c2dc3
+c2dc2B | A3F2
+F | G2GA2G | F2GA2
+A | c2dc2B | A3F2
+F | G2GA2G | F2GA3
+D2DE2E | F3c3
+A2AG2G | F3-F2
+S:https://www.folktunefinder.com/tunes/80222
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

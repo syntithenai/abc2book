@@ -1,0 +1,27 @@
+X:47AkNh
+T:Aiken Drum (Nots)
+S:Nottingham Music Database
+N:this sounds nothing like Captain Kidd
+M:4/4
+L:1/4
+K:A
+A/2B/2|&quot;A&quot;cc d/2c/2 B/2A/2|&quot;D&quot;F2 A3/2F/2|&quot;A&quot;E3/2F/2
+AE|
+&quot;B7&quot;cB &quot;E7&quot;BA/2B/2|\&quot;A&quot;cc d/2c/2
+B/2A/2|&quot;D&quot;F2 A3/2F/2|&quot;E7&quot;EE FG|&quot;A&quot;A3::
+A/2B/2|&quot;A&quot;cc cB/2A/2|&quot;D&quot;dd f3/2d/2|&quot;A&quot;ce
+cA|
+&quot;Bm&quot;cB &quot;E7&quot;BA/2B/2&quot;A&quot;|cc d/2c/2
+B/2A/2|&quot;D&quot;F2 A3/2F/2|&quot;E7&quot;EE FG|&quot;A&quot;A3:|
+S:https://www.folktunefinder.com/tunes/15841
+S:http://trillian.mit.edu/~jc/music/abc/mirror/13Kabc.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

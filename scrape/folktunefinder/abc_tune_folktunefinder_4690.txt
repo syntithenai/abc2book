@@ -1,0 +1,24 @@
+X: 1
+T: Bourre\'e des Moutons
+O: Rodney Miller Band
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C
+L: 1/4
+K: D
+|: "D"a>g fd | "Em"ef/g/ "A7"fg | "D"a>g fd | "Em"ef/g/ "A"e2 :|
+|: "Bm"f>g fe | fd B2 | "G"ed/c/ dB | "Em"ed/c/ "A"de |
+|  "Bm"f>g fe | fd B2 | "G"ed/c/ dg | "A7"ec "D"d2 :|
+S:https://www.folktunefinder.com/tunes/4690
+S:http://trillian.mit.edu/~jc/music/abc/France/BourreeDesMoutons.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BourreeDesMoutons.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/BourreeDesMoutons.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/xmas/BourreeDesMoutons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:1
+T:"En sup till, det behver jag" - vispolska efter August Strmberg
+M:3/4
+L:1/16
+Q:1/4=110
+R:Slngpolska
+O:Sweden
+A:Smland
+Z:L. Sohlman, lta, Sweden
+K:Gm
+|: G4 ^F4 G4 | A3G ^F2G2 A4 | B3d cB2 A2G2 | (^F2/G2/)A2/F2/ D6D2 | G3(G2 ^F3)(F2 G2)G2 |
+| A3G ^F2G2 A4 | B3d cB2 A2G2 |  [1 (^F2/G2/)A2/F2/ G6D2 :| [2 (^F2/G2/)A2/F2/ G6=B2 |
+K: G
+|: d2B2 (BG)(Bd) (BG)(Bd) | d2c2 (AF)(Ac) (AF)(Ac) | B2AB c2B2 A2G2 | (FG)AF D6 B2 | d2B2 (BG)(Bd) (BG)(Bd) |
+| d2c2 (AF)(Ac) (AF)(Ac) | B2AB c2B2 A2G2 | [1 (FG)AF G6 B2 :|  [2 (FG)AF G8 :|
+S:https://www.folktunefinder.com/tunes/16314
+S:http://trillian.mit.edu/~jc/music/abc/pols/Ensuptilldetbehoverjag.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Ensuptilldetbehoverjag.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/Ensuptilldetbehoverjag.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/Ensuptilldetbehoverjag.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

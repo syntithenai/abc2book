@@ -1,0 +1,23 @@
+X:5660
+T:Sir Roger de Coverley
+M:9/8
+O:England
+R:Slip Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000f03.html
+%%ID:00000f03
+K:G
+G2G G2e dBG| E2A ABG FED| G2G G2e def| g2G GAG FED::
+dBd ece dBG| E2A ABG FED| dBd ece def| g2G GAG FED::
+gag f2e dBG| E2A ABG FED| gag f2e def| g2G GAG FED::
+dcB cBA BAG| E2A ABG FED| dcB cBA Bcd| g2G GAG FED:|
+S:https://www.folktunefinder.com/tunes/37211
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

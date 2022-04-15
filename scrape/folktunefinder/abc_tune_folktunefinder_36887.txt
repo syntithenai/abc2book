@@ -1,0 +1,28 @@
+X:4040
+T:the Old Grey Cat
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ac1.html
+%%ID:00000ac1
+K:E min
+e2e2 E3F | GF GA BA B^c | \
+d2d2 D3E | FA dB AF ED  |\
+e2e2 E3F | EF GA BA B^c |
+d^c BA BA GF | E4 e2z2  | \
+B2e2 e3d | Bd ef gf ed  |
+A2d2 d3B | AB de fe df |\
+e2B2 g2B2 |a2B2 b3a|\
+gf ed BA B^d | e4 e2z2|]
+S:https://www.folktunefinder.com/tunes/36887
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:3040
+T:Lannigan's Ball
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000875.html
+%%ID:00000875
+K:E min
+EFE G2A|B2A Bcd|D2D F2G|AdB AFD|\
+E2E G2A|B2A|Bcd|e2B c2A|BGE E3::
+e2f g2e|fag fed|e2f g2e|fdB BAB|\
+e2f g2e|fag fed|e2B c2A|BGE E3:|
+S:https://www.folktunefinder.com/tunes/36687
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

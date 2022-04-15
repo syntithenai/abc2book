@@ -1,0 +1,37 @@
+X:151
+T: DIE MARIANDL IST SO SCHOEN
+N: Z0150
+O: Europa, Mitteleuropa, Oesterreich
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/16
+K: C
+G,2 | G,2G,2A,2B,2 | C4z2
+G,G, | G,2A,2B,2C2 | ^C4D2
+D2 | D2^C2D2E2 | F2E2D2
+C2 | B,2G,G,A,2B,2 | C4z2
+G,2 | G,2G,2A,2B,2 | C6
+G,2 | G,2A,2B,2C2 | ^C4D2
+D2 | D2^C2D2E2 | F2E2D2
+C2 | B,2G,G,A,2B,2 | C4z2
+C2 | C2B,2A,2G,G, | ^F,2G,2A,2
+F,2 | G,2A,2B,2C2 | ^C4D2
+D2 | C2B,2A,2G,2 | ^F,2G,2A,2
+F,2 | G,2B,2A,2D2 | G,4z2
+G,G, | G,2G,2A,2B,2 | C4z2
+G,G, | G,2A,2B,2C2 | ^C4D2
+D2 | D2^C2D2E2 | F2E2D2
+C2 | B,2G,G,A,2B,2 | C4z2
+G2 | G2B,B,B,2B,2 | C2z4
+S:https://www.folktunefinder.com/tunes/69010
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1833
+T:Bourree a Jenzat
+M:2/4
+L:1/8
+Q:240
+C:Traditional
+R:Bourree
+Z:Steve Mansfield
+K:D minor
+D|:G2 A2 |d3 c|A>B cA|B2  AD|G2 A2|
+d3 c|A>B cA|1B2  AD:|2B2  A2|| 
+K: Gmajor
+|:A>B cA|G>A BG|F>G AF|D2 D2|A>B cA|Bd BG|A>c AF|G4 :||
+S:https://www.folktunefinder.com/tunes/56772
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

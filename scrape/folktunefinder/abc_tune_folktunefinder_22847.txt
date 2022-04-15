@@ -1,0 +1,24 @@
+X:2396
+T:Grote Ronde
+O:england
+C:Trad.
+P:AB
+L:1/8
+M:6/8
+K:C
+P:A
+G3 G>AB | c3 c>de | d2 c B>AB |1 (c3 c2) z :| (c3 c2) d ||
+P:B
+e3 e>dc | d3 d2 d | B>cd d>cB | A3 d2 B |
+c>dc B2 G | A>Bc B2 G | A2 G ^F>EF |1 (G3 G2) d :|2 (G3 G) z ||
+S:https://www.folktunefinder.com/tunes/22847
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

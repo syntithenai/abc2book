@@ -1,0 +1,26 @@
+X:415
+T:Barkagan's Dobriden
+O:england
+M:3/4
+L:1/8
+Q:1/4=130
+K:Am
+V:1
+"Dm" A2 d2 AB |"Am" c3 A"Dm" d B|"Am" c2 "Dm" d2 "Am"  (3cBA |"Am" A4 e2 |
+"C" ef ga gf |ed "G" g2  (3fef |"Am" e2 e2 a2 |A4 e2 |
+"Dm" ef ga "G" gf |"C" e3 c"G"  (3dec |"G" G6 |"C" G4 G2 |
+"Am" c2 d2 "C" ge |"Dm" dd "C" c2 "E" B2 |"Am" A2 a2 ec |A6 :| |:
+"Am" a2 a2 a2 |a4 "Dm" g/f/e/f/ |"Am" e2 e2 a2 |A4 e2 |
+"F" a3 gg f|"G" g3 ff e|"Dm" d2 e2 fd |"Am" e6 |
+"C" ef ge "G" d2 |"Am" cd ec A2 |"G" G6 |g4 f2 |
+"Am" ef "E" ed cB |"Am" c2 "Gm" d2 _B2 |"Am" A2 a2 ec |A6 :|
+S:https://www.folktunefinder.com/tunes/20864
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

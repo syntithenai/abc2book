@@ -1,0 +1,25 @@
+X:282
+T: SIND WIR GESCHIEDEN
+N: Z0280
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, verlassene Liebe
+M: 2/4
+L: 1/8
+K: A
+=G | =c2d2 | e2de | =fed=c | ddd
+=G | =c2d2 | e=f=gf | e=cdB | =c3
+d | d2d2 | BA=Ge | e2e2 | =cBA
+A | =fed=c | B3d | =cABG | A3
+S:https://www.folktunefinder.com/tunes/69141
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, verlassene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

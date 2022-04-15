@@ -1,0 +1,26 @@
+X:1397
+T:La Russe
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+B A |:"G" G2 BB B2 dd |"G" d2 g2 g2 fg |"C" a2 g2 e2 c2 |
+"Am" e2 de "D7" dc BA |"G" G2 BB B2 dd |"G" d2 g2 g2 fg |"C" e2 d2 "D7" d2 FG |
+|1 "G" A2 G2 G2 BA :|2
+K:D
+"G" A2 G2 G2 A2 || |:"D" A2 d2 d2 cB |"D" A2 a2 a2 gf |"A7" g2 f2 g2 e2 |
+"D" fg ag "A7" f2 d2 |"D" A2 d2 d2 cB |"D" A2 a2 a2 gf |"A7" g2 f2 g2 e2 |
+|1 "D" d6 A2 :|2 d6 ||
+S:https://www.folktunefinder.com/tunes/42252
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

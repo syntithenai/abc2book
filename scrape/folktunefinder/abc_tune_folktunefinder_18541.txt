@@ -1,0 +1,24 @@
+X: 1
+T: the Old Dutch Churn
+T: Dever the Dancer
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 9/8
+L: 1/8
+K: Gm
+|: "Gm"B2d G2d dcB | "F"A2c F2c cBA | "Gm"B2d G2d dcB | "Dm"dfd "D7"cBA "Gm"G3 :|
+[| "Gm"b2g b2g gfd | "F"a2f fgf agf | "Gm"b2g b2g gfd | "Bb"fdB     Bdf "Gm"g3 |]
+|| "Gm"b2g b2g gfd | "F"a2f fgf agf | "Gm"b2g "D"a2^f "Gm"g=fd | "Dm"dfd "D7"cBA "Gm"G3 |]
+S:https://www.folktunefinder.com/tunes/18541
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/Old_Dutch_ChurnSJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/Old_Dutch_ChurnSJ_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/Old_Dutch_ChurnSJ_Gm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/slipjig/Old_Dutch_ChurnSJ_Gm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/slipjig/Old_Dutch_ChurnSJ_Gm.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

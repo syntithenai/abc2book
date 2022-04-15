@@ -1,0 +1,30 @@
+X: 1
+T: Miss Jeannie S. Grant's Favourite
+C: Charles Grant
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: RSCDS 19-10(I)
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A>GA "E7"B>GE | "A"A>GA "D"d2e \
+| "A"cAA "E7"B>Ec | "D"d>F"E"G "A"A2 :| \
+c/d/ \
+| "A"e>cA a>cA | e>cA "E7"B>GE |
+| "A"e>cA a>cA | "E7"b>ge "A"a2c/d/ \
+| "A"e>cA a>cA | e>cA "E7"B>GE \
+| "A"A>EC "(D)"A>EC | "E7"D>BG "A"A2 |]
+S:https://www.folktunefinder.com/tunes/14401
+S:http://trillian.mit.edu/~jc/music/abc/jig/JeannieSGrantsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JeannieSGrantsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JeannieSGrantsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JeannieSGrantsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JeannieSGrantsFav.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

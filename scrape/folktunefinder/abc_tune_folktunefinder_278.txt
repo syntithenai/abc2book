@@ -1,0 +1,22 @@
+X: 2
+T: Ruzmarin
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: D
+|: "D"[A2F] [^G^E][AF] | "G"[B3G] [AF] | [BG][AF] [GE][FD] | "A7"[G2E] "D"[F2D] \
+|     [A2F] [dG][=cA] | "G"[B3G] [AF] | [BG][AF] [GE][FD] | "A7"[G2E] "D"[F2D] ||
+|| "D"[A2F] [GE][FD] | "A7"[EC][FD] [G2E] | "D"[F/D][G/E][AF] [FD][DA,] | "A7"[EC][FD] [G2E] \
+|  "D"[A2F] [GE][FD] | "A7"[EC][FD] [G2E] | "D"[F/D][G/E][AF] "E7"[FD][DB,] | "A"[E2A,] [E2A,] :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/278
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/Ruzmarin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Ruzmarin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ruzmarin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Blaydon Races
+R: jig
+O: England
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F2F F2F | "F"F2F F2F | "C7"G2G G2G | "F"A3 F3 \
+| "Bb"B2B B2B |1 "F"A2A A2A | "G7"G2A G2F | "C7"E3 C2 :|2 "F"A2A c2c |
+| "C7"c2B A2G | "F"HF2 |] G A2B \
+| "F"c3- c2A | F3- F2A | "C7"G2G GFG | "F"A3 F2A \
+| "Bb"B2B B2B | "F"A2A A2A | "G7"G2A G2F | "C7"E3 "d.C."C2 |]
+S:https://www.folktunefinder.com/tunes/13896
+S:http://trillian.mit.edu/~jc/music/abc/jig/BlaydonRaces_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/BlaydonRaces_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

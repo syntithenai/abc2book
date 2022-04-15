@@ -1,0 +1,29 @@
+X:128
+T:Byggna'n
+R:sl\"angpolska
+C:Byss-Calle, \"Alvkarleby, Uppland
+A:Uppland
+Z:id:hn-sp-128
+M:3/4
+L:1/16
+K:D
+D2F2 A2d2 f2a2 | efed cdBc A2d2 | BGBd cAce dAdf |
+fece d2B2 AGFE | D2F2 A2d2 f2a2 | efed cdBc A2d2 |
+BGBd cAce dAdf | fece d8 :||: f2fd AFAd f2fd |
+e2ec AEAc eAeA | f2fd AFAd fAfA | e2ec AEAc e2ec |
+d2dB GDGB d2B2 | ABAG FGAB A2d2 | BGBd cAce dAdf |
+fece e2d2 d4 :||: DFAd d2F2 GFGA | B2BA GFGB E3G |
+F2A2 d2f2 efed | cdec d2B2 AGFE | DFAd d2F2 GFGA |
+B2BA GFGB E3G | F2A2 d2f2 efed | cdec d8 :|
+A<fdf A<fdf A<fdf | A<ece A<ece A<ece | A<fdf A<fdf A<fdf |
+A<ece A<ece A<ece | GdBd GdBd GdBd | ABAG FGAB A2d2 |
+BGBd cAce dAdf | fece d8 :|
+S:https://www.folktunefinder.com/tunes/62459
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

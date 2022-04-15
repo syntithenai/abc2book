@@ -1,0 +1,27 @@
+X:327
+T: WOHL AUF KAMERADEN
+N: F0561
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: C
+G,4 | C4C3CC3G,E,3C, | G,4G,3G,G,4
+E4 | E4D3EF4E3E | E4D4z4
+G,4 | C4C3CC3G,E,3C, | G,4G,3G,G,4
+E4 | E4D3EF4E3E | E4D4z4
+G,3B, | D4D4D4C3D | E4D3DC4
+G3G | G4G,4G,4A,2B,2 | C3ED3B,C4
+G,3B, | D4D4D4C3D | E4D3DC4
+G3G | G4G,4G,4A,2B,2 | C3ED3B,C4
+S:https://www.folktunefinder.com/tunes/69887
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

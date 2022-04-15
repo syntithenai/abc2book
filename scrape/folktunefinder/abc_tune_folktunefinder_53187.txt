@@ -1,0 +1,25 @@
+X:679
+T:Hjortingens Polska
+R:Bingsj\"opolska
+C:e. Hjort Anders
+N:original url: www.wolfram.claranet.de
+M:3/4
+L:1/8
+Q:1/4=110
+K:A
+"^[A]"E|:A>B cc/d/ cB|ce/c/ A2([A2E]|[AE])a ag fe/^d/|
+e(3e/f/g/ a(3a/b/a/ gf|e^d/e/- fd eB|1 GB/G/[B3E3]E:|2 GB/G/[B3E3]E/-D/|
+|:"^[B]"[AE]>[AE] [AA][AE]([A2F2]|[AF])>[AF] [BF][BF]([B2G2]|[BG])>[BG] [eG][eG]([e2c2]|[ec])>[fc] [fc][fc]([f2^d2]|
+[f^d])>[fd] [bd][fd]([g2B2]|g)f/e/ ^d/e/f/g/ ae/c/|AB/c/ df/e/ d/c/B/A/|1 GB/G/ A3[AE]:|2 GB/G/ "^Fin"[A3E3]||
+"^[C]"c|:ef/e/ d/c/B/A/ G/A/B/c/|df e3c|ef/e/ d/c/B/A/ G/A/B/c/|1 BAA3c:|2 BA"^Da [B] al fin"A3E|]
+S:https://www.folktunefinder.com/tunes/53187
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Rhythm Bingsjo?polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

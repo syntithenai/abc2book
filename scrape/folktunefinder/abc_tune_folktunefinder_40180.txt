@@ -1,0 +1,22 @@
+X:17
+T:Bourre provenalle
+M:2
+L:1/4
+K:C
+%%staves [1 2]
+V:1
+c | Gc!!Bc | d/c/d/e/ dg | !!e2d2 | c/B/c/d/ cc | Gc !!Bc | d/c/d/e/ dg | !!e2 d2 | c3 ::
+e | !!dc d/e/d | G2 cc/B/ | AA Bc | d/c/d/e/ de | !!dc d/e/d | G2 cc/B/ | AA d/e/d | c3 :|
+V:2
+C | C!6!E,!6!D,C, | G,2G,G,, | C,2G,,2 | C,,3C | CE,D,C, | G,2G,B,, | C,2G,2 | C,,3 ::
+C | B,C(G,B,) | C2E,2 | F,E,D,C, | G,2G,C | B,C(G,B,) | C2E,2 | (F,A,)G,G,, | C,3 :|
+S:https://www.folktunefinder.com/tunes/40180
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

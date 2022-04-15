@@ -1,0 +1,33 @@
+X: 156
+T: Joc de Zestre din Suceava
+O: Romania
+M: 7/8
+L: 1/8
+Q: 1/4=210
+K:Dm
+%%MIDI program 69
+%%MIDI bassprog 116
+%%MIDI gchord fzfzfz2
+|:"D"C2DE FEF|GFE2 FEF |\
+  GFGA BAG   |GFE2 FEF |
+  =B,CDE FEF |GFFE FEF |\
+  GFGA GFE   |D6z      :|
+|:"F"A2cB AGz| A2cB AGz|\
+  GFGA BAG   | GFAB c2z|
+  A2cB AGz   | A2cB AGz|\
+  GFGA BAG   |[1 F4z3  :|[2F4FEF|
+|:"D"G3AGFE  | DEFGA2z |\
+  AcBAG2z    | DEFGA2z |
+  G3AGFE     | DEFGA2z |\
+  AcBAG2z    | D4z3    :|
+S:https://www.folktunefinder.com/tunes/68042
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

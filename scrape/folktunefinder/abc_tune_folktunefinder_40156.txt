@@ -1,0 +1,37 @@
+X: 53
+T: 3. Starry Nights in Shetland 
+R: Waltz
+D: Phil Cunningham & Aly Bain 'The Ruby' GLCD 3123 Track 8
+Z: ABC Notation by Robin Shaylor, August 2005
+L: 1/4
+M: 3/4
+% Q: 154
+K: D
+|: A |\
+"D" f2Td | "D7/F#" AB>A | "G" G3 | "E7" c3/2 B3/2 | "A7" A2c   | e2A  | "D" f>g f/e/ | "A7" {B}d2 A  |
+"D" f2d  | "D7/C"  AB>A | "G" G3 | "E7" {d}c2B | "A7" A>Tce/f/ | gB>c | "D" d>e {e}d |1 "D  A7" d2  :|2 "D7" def ||
+|: \
+"G" gBg  | "A7" gBg  | "D" {g}fAf | "(A7)" {g}fAf | "D" {e}f>df | "B7" a>gf | "E7" e3-     | "A7" e>de |
+"D" f2Td | "D7" AB>A | "G" G3     | "E7" c2B | "A7" A>ce/f/ |      gB>c |1 "D" d>e {e}d | "D7" def :|2 "D  ret." d/f/A/d/F/A/ | [D3D3] ||
+%%text
+%%text
+%%text
+%%text
+%%text
+%%text
+%%text
+%%text Chord Performance Note:
+%%text
+%%text The second time through 'Sunset over Foula', play the Bm (shown in parenthesis) in place of leading D. 
+%%text All other chords shown in parenthesis are to be played during the repeats.
+%%newpage
+S:https://www.folktunefinder.com/tunes/40156
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

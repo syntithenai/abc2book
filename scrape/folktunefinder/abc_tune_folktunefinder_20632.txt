@@ -1,0 +1,32 @@
+X:183
+% The song with calculated Accords
+T:ALINE. CJF.003
+O:england
+M:2/4
+L:1/8
+Q:1/4=160
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+K:C
+"G"(G/F/)|"C"(EG).G.c|"G"{d/}(c/B/c/d/) ee/f/|"G"gceG|"F"(A2GG/F/)|"C"(EG)(Gc)|\
+"G"{d/}(c/B/c/d/) ee/f/|"G".g(cd)(B|"C"c2)z||
+"C"e|"G"dcBc|"C"{e/}d/^c/d/e/ dg|"F"^fac'c'|"G"b2ge|"G"dcBc|"G"d/^c/d/e/ dg|\
+"F"^fc'af|"G"g2z||
+"C"(e|"F"f)(^G=G)(e|"F"f)(^G=G)e|\
+"G"dd d/c/B/A/|"F"(A2G) (e|"F"f)(^G=G)(e|"F"f)(^G=G)e|"G"dd d/c/B/A/|
+"F"(A2G)(B/A/|"G"G)(d/c/ B)(f/e/|"C"e)a/g/ ff/(e/|"G"d)f/e/\
+"G"d/c/B/A/|"G"G/^F/G/F/ G/A/G/=F/||
+S:https://www.folktunefinder.com/tunes/20632
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

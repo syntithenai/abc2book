@@ -1,0 +1,23 @@
+X: 45
+T: 3. The Top of Cork Road
+M: 6/8
+L: 1/8
+R: Jig
+% Q: 330
+K: D
+|: A |\
+"D" dAF DFA | ded "A7" cBA | "D" dcd      efg | "Em" fdf "A7" ecA  |
+"D" dAF DFA | ded "A7" cBA | "G" dcd "A7" efg |1 "D" fdd      d2  :|2 "D" fdd d2 e || 
+|: \
+"D" f3 fga | "A7" ecA ABc | "G"  dcd      Bed | "A7" cAA      A2=c |
+"G" B3 BAG | "D"  AFD DFA | "Bm" dcd "A7" efg |1 "D" fdd      d2e :|2 "D" fdd d    ||
+S:https://www.folktunefinder.com/tunes/40148
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

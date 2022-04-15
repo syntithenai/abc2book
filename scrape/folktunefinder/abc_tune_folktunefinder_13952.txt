@@ -1,0 +1,27 @@
+X: 1
+T: THE BUNCH OF CURRANTS
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.129
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: G
+d/c/ \
+| "G"B2B B2d |  "D"c2A A2c | "G"B2G     G2B | "D"AFD D2D \
+| "G"B2B B2d | "Am"c2A A2c | "G"B2G "D7"AGF | "G"G3- G2 :|
+|: d/e/ \
+| "G7"=f2d   d2e | "G7"=f2d "Am"c2A | "G7"G2=f    f2g | "G7"a=fd d2e \
+| "G7"f2a "C"g2e | "G7"=f2d "Am"c2A |  "G"G2B "D7"AGF |  "G"G3-  G2 :|
+S:https://www.folktunefinder.com/tunes/13952
+S:http://trillian.mit.edu/~jc/music/abc/jig/BunchOfCurrants_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BunchOfCurrants_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/BunchOfCurrants_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

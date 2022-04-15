@@ -1,0 +1,47 @@
+X: 1
+T: the Man on the Flying Trapeze
+C: words: George Leybourne (1867)
+C: music: Gasto Lyle
+S: http://sniff.numachi.com/~rickheit/dtrad/abc/FLYTRAPZ.abc
+M: 3/4
+L: 1/4
+K: G
+[| "G"D  G A  | B B>B |  "C" c E E | "Am"A3       \
+| "D7"D  F G  | A B A |  "G" A G E | "D7"D3       |
+|  "G"D  G A  | B B>B |  "C" c E E | "Am"A2 d     \
+| "D7"d2 F/G/ | A B A |  "G" G3-   |     G2 E/F/  |]
+[|"Em"G  F E  | G F E | "B7"^D B2- |     B2 E/F/  \
+| "Em"G  F E  | G F E | "B7" B,3-  |    B,2 E/F/  |
+| "Em"G  F E  | G F E | "B7"^D B B |     B2 B/B/  \
+| "Em"B  B B  | B B B | "Am" B3    | "D7"[d2D2] D |]
+[| "G"D  G A  | B B>B |  "C" c E E | "Am"A2 D     \
+| "D7"D  F G  | A B A |  "G" A G>E | "D7"D2 z/D/  |
+|  "G"D  G A  | B B>B |  "C" c E E | "Am"A2 d/d/  \
+| "D7"d2 F/G/ | A B A |  "G" G3-   |     G z2     |]
+%
+W: Once I was happy, but now I'm forlorn,
+W: Like an old coat that is tattered and torn;
+W: Left in this wide world to weep and to mourn,
+W: Betrayed by a maid in her teens.
+W: 
+W: Now this girl that I loved, she was handsome,
+W: And I tried all I knew her to please,
+W: But I never could please her one quarter so well
+W: As the man on the flying trapeze.
+W: 
+W: Oh, he floats through the air with the greatest of ease,
+W: This daring young man on the flying trapeze;
+W: His actions are graceful, all girls he does please,
+W: My love he has purloined away.
+S:https://www.folktunefinder.com/tunes/13075
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/ManOnTheFlyingTrapeze_GW.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ManOnTheFlyingTrapeze_GW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/waltz/ManOnTheFlyingTrapeze_GW.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/waltz/ManOnTheFlyingTrapeze_GW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

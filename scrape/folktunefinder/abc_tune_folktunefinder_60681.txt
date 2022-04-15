@@ -1,0 +1,22 @@
+X:4492
+T:Duchess Hamilton
+R:Jig
+O:England
+M:6/8
+A:Lancashire
+B:Winder
+K:D
+f | ecA def | ecA d2f | ecA ecA | BGB d2f | \
+ecA def | ecA d2e | faf edc | BGB d2 :|*
+|:f | ecA acA | ecA d2f | ecA acA | BGB d2f | \
+ecA acA | ecA d2e | faf edc | d3 d2 :|**
+S:https://www.folktunefinder.com/tunes/60681
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

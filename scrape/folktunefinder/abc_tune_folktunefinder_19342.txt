@@ -1,0 +1,28 @@
+X: 1
+T: Fiddichside Lasses
+C: William Marshall
+N: Skye p.28
+M: C
+L: 1/8
+K: AMix
+c/d/ \
+| "A"e<A e>c eA Ac/d/ | e<A e>c "G"dG Gc/d/ \
+| "A"e<A e>c e<A e>c | "G"B>g d>g B<G G :|
+|: B \
+| "A"A>a "G"g/a/b "A"a>c e>c | "A"A>a "G"g/a/b "G"g>B d>B \
+| "A"A>a "G"g/a/b "A"a>f g>e | "D"f>d "C"e=c "G"d<G G :|
+S:https://www.folktunefinder.com/tunes/19342
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FiddichsideLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/FiddichsideLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/FiddichsideLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FiddichsideLasses.abc
+S:http://trillian.mit.edu/~jc/music/book/500/FiddichsideLasses.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/FiddichsideLasses.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/FiddichsideLasses.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

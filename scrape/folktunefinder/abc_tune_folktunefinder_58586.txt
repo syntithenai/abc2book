@@ -1,0 +1,71 @@
+X:1
+T:Plin, Tons doubles
+R:  
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret
+Q:1/4=150
+M:2/4
+L:1/8
+K:Bb
+T:A (94-95)
+K:F
+a | aa ba | "C"gg "F"fa | aa ba |1 "C"g2 "F"f :|2 
+"C"g2 "F"f2 | "Gm"g2 gg | fe "F"d2 |:
+de "Dm"fd | "C"ef "Eb"g2 | gb "F"ag |1 ff "Gm"d2 :|2 ff "Gm"d |]
+T:B (94-95)
+M:4/4
+L:1/8
+K:Eb
+ee d2 B2 c2 | ee de dB d2 :: ce dc de g2 |
+d2 dg gf ed | ce dc de g2 | ee d2 B2 c2 :|
+T:Plomeur A (S:Gildas Moal et Ren Chaplain)(Mars 99)
+K:Bb
+Bd Bd/d/ df f2 | ed ce ed B2 | Bd Bd/d/ de f2 | fe/d/ ce ed B2 |
+Bd Bd/d/ df f2 | fe/d/ cd ef d2 | (3def Bc de f2 | fe/d/ ce ed B2 |]
+T:Plomeur B (S:Gildas Moal et Ren Chaplain)(Mars 99)
+K:Bb
+Bd cd ec d2 | AB cA B2 B2 | Gf ff gf fe/d/ | cd ee fe d2 :|
+%%newpage
+%%rm
+T:Jean Og
+K:C
+"D"AB cB AG E2 | AB cA "C"G2 A2 ::
+"D"c2 Bc "C"dc B2 | "D"AB c2 cB AG |
+A2 Bc ec B2 | "C"Bd "F"c2 "C"B2 "D"A2 :| 
+Q:1/4=160
+K:Bb
+T:Herv Irvoas TD1
+B |: f>g fg fg f>e | de fg f2 fB ::
+f>g fg fe d2 | c>B AB cd c2 | d>e fg fe d2 | c>B AB c2 B2 :|
+T:Herv Irvoas TD2
+B>c de f2 fg | fe ec d2 B2 ::
+c>d ef ec e2 | dd cB c2 c2 | c>d ef ec e2 | dd cc B2 B2 :|
+T:Herv Irvoas TD3
+B>c de f2 fa | af ga f2 f2 ::
+a>a af gg g2 | f>f fe d2 B2 :|
+T:Herv Irvoas TD4
+cB cd ec cd/d/ | dB/B/ Bd/d/ dc c2 |: 
+BA Bc _dB c2 | f2 f2 e/f/e/_d/ cB | f z fe _d2 cB | AB c2 _d2 B2 :|
+T:Ton doubl Ambroise
+M:4/4
+L:1/8
+K:C
+D|G>A BA GA GD|GA BA G2 G :: d>d dB cB AB|
+cB AB/A/ G2 A2|d2 dB cB AB|cB AB/A/ G2 G2:|
+S:https://www.folktunefinder.com/tunes/58586
+S:http://termen.free.fr/danses/cornouaille/PlinTonsdoubles.abc
+% Titles Over ten titles
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

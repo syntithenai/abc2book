@@ -1,0 +1,30 @@
+X:7
+T:Waltz for PB\&J
+R:waltz
+C:Ben Bolker
+N:(Original, in G major, played down one 8ve on viola)
+M:3/4
+K:G
+"G"D3ED2 |  D2G2B2 | "C"A2G2E2 | "G(D)"D6 | "G"d3ed2 | "C"g3ede |
+"D"A6-|A2G2E2 | "G"D3ED2 |  D2G2B2 \
+| "C"A2G2E2 | "G"D6 | d>e d2 "C"[c2d2] | "G"[B3d3] "D"[cd][Bd][Ad] |
+"G"G6-|1 G3 BAG :|2 G3 GBd |: \
+ "Am(C)"e3 def | "C(Am)"g4 e2 | "G"d>e d2 "C"c2 | "G"BAG GBd | "C"e3 \
+ def | "Am"g3 fga | "Bm"b4 g2 | "Em"e4  ba | "C"g2 ga ge | "Bm"d2 B3 c \
+ | "G7"dg ed Bc | "Bm"d4 Bc |1 "G7"d2 de dB | "Am"A3 GED | \
+ "Em"E6-|E3 GBd :|2  "G"d>e d2 "C"[c2d2] | "G"[B3d3] "D"[cd][Bd][Ad] | \
+ "G"G6-| G4 E2 ||
+S:https://www.folktunefinder.com/tunes/20314
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WaltzForPbj_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/WaltzForPbj_BB.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:393
+T: FREUND ICH ACHTE NICHT DES MAHLES
+N: F0705
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied, Rundgesang
+M: 4/4
+L: 1/8
+K: D
+ | D2C2B,2A,2 | B,2A,2G,2F,2
+G,2F,2E,2D,2 | A,4
+D4- | D2C2B,2A,2 | ^G,2A,2B,2E,2
+A,2C2D,2E,2 | A,4z4
+A,3B,C2D2 | E3DC2B,2
+A,3G,F,2E,2 | A,3G,F,2E,2
+D,2F,2A,4 | F,2A,2D4
+F2E2D2A,2 | D2E2F2E2
+D4E4 | F4z4
+G2E2D2C2 | D4z4
+S:https://www.folktunefinder.com/tunes/69953
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied, rundgesang
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

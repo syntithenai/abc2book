@@ -1,0 +1,24 @@
+X: 3578
+T:McGurk's
+R:jig
+D:Music at Matt Molloy's
+M:6/8
+L:1/8
+K:D
+~f2d faa|gec Ace|dAA eAA|fAA efg|!
+~f2d faa|gec Ace|~d3 faf|gec d2e:|!
+K:A
+|:cea ece|dBG EGB|Aee Bee|cec Bcd|!
+cea ece|dBG EGB|~A3 cec|1 dBG A2B:|2 efg a2=g||!
+S:https://www.folktunefinder.com/tunes/33346
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

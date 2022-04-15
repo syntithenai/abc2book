@@ -1,0 +1,32 @@
+X: 42
+T:The Cambro Britons
+M:2/4
+L:1/8
+Q:240
+C:Trad
+S:Blodau'r Grug Collection Vol. 3
+R:Set Dance
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:G
+g2dB|Gd cA|Fc AF|GB/d/ g/d/B/d/|g2 dB|Gd cA|FA FD|G2G2:||
+Dc2A|Bd fg|Dc2A|Bd BG|Bd gb|ce ac'|ac' af|g2g2:||
+K:D
+dc/d/ dD|dc/d/ dD|dc/B/ AG/F/ EEEz|dc/d/ dD|dc/d/ dD|fg ef|d>edz||
+f3a|d3f|fe dc|d2D2|f3a|d3f|fe dc|dAD||]
+K:G
+d|Bd ce|dB AG|Gg dB|.A.A.A d|Bd ce|dB AG|Bd Ad|BGG:||
+d|g2 dB|g2 dB|Gg dB|.A.A.A d|g2 dB|g2 dB|Bd Ad|BGG:||
+S:https://www.folktunefinder.com/tunes/71942
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/set/CambroBritons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/CambroBritons.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

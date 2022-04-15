@@ -1,0 +1,39 @@
+X: 1
+T: Polska fr\aan Boda
+O: Bengt Jonsson
+R: Boda-polska
+Z: John Chambers <jc@trillian.mit.edu>
+N: The ~ ornament is an inverted mordent here.
+M: 3/4
+L: 1/8
+K: DDor
+(A \
+| d)>(^c A2) (~c>e \
+| {d^c}d)>(e ~f2) ({f}a2 \
+| Tg)>(e ~f2) e>d \
+| ~^c2 A3 (A \
+| d)>(^c A2) (~c>e |
+| {d^c}d)>(e ~f2) ({f}a2 \
+| ~g)>(e Tf2) e>d \
+| ~^c2 d3 :|\
+|: (A \
+| d)>(g b)>(a Tg>e) \
+| f>(a Tg>e) f>d |
+| ^c>(a Tg>e) f>d \
+| ~^c2 A3 (A \
+| d)>(g b)>(a Tg>e) \
+| f>(a g/>a/g/e/) f>d \
+| ^c>(a Tg>e) f>d \
+| ~^c2 d3 :|
+S:https://www.folktunefinder.com/tunes/16279
+S:http://trillian.mit.edu/~jc/music/abc/pols/BengtJ_BP3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BengtJ_BP3.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

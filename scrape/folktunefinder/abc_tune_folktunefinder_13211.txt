@@ -1,0 +1,27 @@
+X: 1
+T: the Irish Ho-Hoane
+M: 3/4
+L: 1/8
+Z: Paul de Grae 
+B: John Renbourn Guitar Pieces (Oak, 1972)
+N: This anonymous piece is from the Fitzwilliam Virginal book and I have transposed it down a fourth to
+N: suit the range of the guitar. Ho-Hoane is evidently Och-one, the Irish lament. [note by John Renbourn]
+K: DDor
+|: [D,4D4F4A4] [F2A2] | [C4A4c3] d c2 | [F3A6d6] E [F2d2] | [C4G3e4] A G2 |
+| [A,6A6c6e4] a2 | [E6B6^g4] a2 | [D2A2d2f2] [G,4B4d4g4] | [A,6E6^c6e6] :|
+|: z4 [D2A2d2] | [C4G4c4e4] [G,2B2d2] | [C4G4e4] [G,2B2d2] | [C2G4e4] E2 [D2A2d2^f2] |
+| [G,4B4d4g4] [C2c2e2g2] | [A,c4a4]B, CD [Ec2a2]^F| [GB4e4]^F GA [^G2B2e2] | [A6c6a3] b a2 |
+| [E6B6^g4] e2 | [A,6A6e6c'6] | [G,6G6d6a6] | [A,6c3a3] [db] [e2c'2] |
+| [D,6A,6D6f3a6d'6] e d2 | [C4G4c4g4] [E2A2d2f2] | [E4G4e4] [F2A2d2] | [E6B6e3] a g2 |
+| [B,6^G6e3] d [E,2B2] | [A,6-E6-^c6] | [A,4-E4A4] z2 :|
+S:https://www.folktunefinder.com/tunes/13211
+S:http://trillian.mit.edu/~jc/music/abc/air/IrishHoHoane.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/IrishHoHoane.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

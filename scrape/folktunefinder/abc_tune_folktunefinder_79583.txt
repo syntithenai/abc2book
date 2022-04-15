@@ -1,0 +1,24 @@
+X:479
+T: ICH BIN DER FUERST VON THOREN
+N: E1735
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz -, Spiel - Lied, Plumpsack
+M: 3/4
+L: 1/16
+K: G
+D2 | G3GG4A4 | G3FF4z2
+D2 | A3AA4B4 | A3GG4z2
+A2 | B3dd4e4 | d3cc4z2
+A2 | B3AG4F4 | A3GG4z2
+S:https://www.folktunefinder.com/tunes/79583
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Scherz -, spiel - lied, plumpsack
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

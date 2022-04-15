@@ -1,0 +1,32 @@
+X: 1
+T: the Bobby Harvey Strathspey
+C: Angus Fitchet
+B: Leeds #10
+Z: From the Newcastle Branch RSCDS
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+c \
+[| "G"B>d g>b "C"a-<e e2 | "D7"f>g a>f "G"g-<d d2 \
+|  "C"e>c g>e "G"d>B e>d | "Am"c>B A>G "D7"F-<A d2 |
+|  "G"B>d g>b "C"a-<e e2 | "D7"f>g a>f "G"g-<d d2 \
+|  "C"e>c g>e "G"d>B G>B | "Am"c/B/A/G/ "D7"F>d "G"B-<G G |]
+c \
+[| "G"B>c d>g "C"e-<c c2 | "A7"^c>A a>g "D7"f-<d d>=c \
+|  "G"B>c d>g "Em"e>d B>d | "Am"c/B/A/G/ "D7"F>d "G"B-<G G>c |
+|  "G"B>c d>g "C"e-<c c2 | "A7"^c>A a>g "D7"f-<d d2 \
+|  "G"g-<d d=c/d/ "Am"e>d "A7"B>G | "D7"F/G/A d>c "G"B-<G G |]
+S:https://www.folktunefinder.com/tunes/19207
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BobbyHarveyStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BobbyHarveyStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BobbyHarveyStr_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

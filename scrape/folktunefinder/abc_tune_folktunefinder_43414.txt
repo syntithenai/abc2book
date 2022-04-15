@@ -1,0 +1,23 @@
+X:200
+T:Bonny Lass of Fyfie
+% Nottingham Music Database
+S:Joy, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+D|"G"G3/2F/2 "C"GA|"G"G2 "D"D2|"G"G3/2F/2 "C"GA|"G"G3D|"G"G2 Bc|"G"d2 cB|\
+"Am"A2 D2|"D7"D2 dc|
+"G"B3/2A/2 Bc|"G7"d2 DD|"C"G3/2A/2 GE|"C"C2 EE|"G/d"D2 G2|"D7"AG FE|\
+"G"D2 "C"G2|"G"G3:|
+S:https://www.folktunefinder.com/tunes/43414
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsA-C.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsA-C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

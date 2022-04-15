@@ -1,0 +1,23 @@
+X:8
+T:Im Hasel am Rhein
+O:France
+A:Alsace
+C:Trad. Weissenburg 1910
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:G
+D | G>GG | BAG | A2D | D2D | A>AA | (cB)A | B2G |
+G2B | c>cc | edc | B>BB | dcB/B/ | A2A | c2F |
+(G2B | d2)B | c>cc | edc | B>BB | dcB/B/ | A2A | c2F | G3 |Gz |]
+%%text 2 fois, puis la premire de nouveau 2 fois
+%%footer $D   Galouvielle-MBe 2006 \n-- (Ecosse                           % origin.)
+S:https://www.folktunefinder.com/tunes/64721
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

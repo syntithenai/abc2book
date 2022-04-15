@@ -1,0 +1,27 @@
+X: 1
+T: Felton Lonnin
+C: Trad
+S: Northumbrian Minstrelsy
+M: 6/8
+F: http://www.ncf.carleton.ca/~dc920/min.txt 2006-03-09 21:26:44 UT
+K: G
+   d \
+| "C"e2c "G"dBG | "G"B2G GBd | "C"e2c "G"dBG | "Am"c2A "D7"Acd \
+| "C"e2c "G"dBG | "G"B2G GAB | "C"cec "G"BdB | "Am"cAA "D7"Ac :|
+|: d \
+| "C"efg    gfe | "G"dgB GBd | "C"efg    gfe | "Am"eaA "D7"Acd \
+| "C"efg    gfe | "G"def gdB | "C"cac "C"BgB | "Am"cAA "D7"Ac :|
+S:https://www.folktunefinder.com/tunes/14169
+S:http://www.ncf.carleton.ca/~dc920/min.txt
+S:http://www.ncf.carleton.ca/~dc920/min.txt
+S:http://trillian.mit.edu/~jc/music/abc/jig/FeltonLonnin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/FeltonLonnin_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FeltonLonnin_G.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:185
+T: EIN TRAUM IST ALLES NUR AUF ERDEN
+N: B0671
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Moral - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G3DDDEF | GEE2z2
+G2 | F3Addcd | B4z2
+D2 | G3DDDEF | GEE2z2
+G2 | F3Addcd | B4z2
+Bd | c3AAABc | dBB2z2
+Bd | A3AAAGA | B2G2D2
+DB | B3BBBAG | GEE2z2
+G2 | F3Addcd | B4z2
+S:https://www.folktunefinder.com/tunes/62208
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

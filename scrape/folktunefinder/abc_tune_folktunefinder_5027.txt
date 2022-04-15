@@ -1,0 +1,34 @@
+X: 2
+P: Der Wampertgust [Ab]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+      [AC][BE] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Eb7"[dB][cA] [dB][fd] [ec][dB] | "Ab"[c2A2] [a2c2] [e2A2] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Eb7"[dB][cA] [dB][fd] [ec][dB] | "Ab"[c2A2] z2 :|
+|:    [BG][AF] \
+| "Eb7"[G2E2] [GE][BG] | "Db"[A2F2] [AF][cA] \
+| "Eb7"[B2G2] [BG][dB] | "Ab"[c2A2] [cA][ec] \
+| "Eb7"[f2d2] [BG][dB] [dB][BG] \
+| "Ab"[e2c2] [AE][cA] [cA][AE] \
+| "Eb7"[G2E2] [GE][BG] | "Db"[A2F2] [AF][cA] \
+| "Eb7"[B2G2] [BG][dB] | "Ab"[c2A2] [cA][ec] \
+| "Eb7"[f2d2] [BG][dB] [dB][BG] \
+| "Ab"[A2E2] z2 :|
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5027
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Wampertgust_EbAb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Wampertgust_EbAb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

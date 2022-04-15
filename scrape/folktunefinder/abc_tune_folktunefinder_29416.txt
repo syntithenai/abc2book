@@ -1,0 +1,30 @@
+X:3136
+T:Coblers Hornpipe. JWDM.34
+M:3/2
+L:1/4
+Q:160
+S:J.Winder MS,Wyresdale,Lancs.,1789
+R:Double HP
+O:England
+A:Lancashire
+Z:vmp.Taz Tarry
+K:F
+F2 D E/-F/ G/-F/E/-D/|E C2"*"{C}  GFE|F>G A G/-F/ E/-F/G/-E/|A, D2{D}  F
+ED:
+|!
+d2 d/e/ fed|e c2{c} gfe|f>g a g/-f/ e/-f/ e/-d/|A d2{d} FED:|]
+%The grace notes should be slurred with the preceeding notes.ABC2Win doe
+%snt seem to handle this.
+S:https://www.folktunefinder.com/tunes/29416
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Double hp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

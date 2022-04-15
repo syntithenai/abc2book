@@ -1,0 +1,42 @@
+X:20
+T:La festo vierginenco
+T:Introducioun
+O:France
+A:Provence
+C:Anonyme
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+Q:"Moderato"
+K:Bb
+x>dA>B | f2d2 f>d A>B | [g2G2]e2 g>g e>g | c>B A>G f>d B>g | f2Ta2 b3/2 || [P:Chant] F/ B>c |
+d2B2 (3dcd e>d | c2 (3FAB c2F2 | (3c=Bc d>c _B3B | c>B c>d e3g | f>e B>c d3d | d>c A>B c3c |
+c>c d>c B3B | c>B c>d e3g | f>d B>c d3d | d>d A>B c3c | c>c d>c B3 |]
+T:La Ferro d'Arle
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+K:F
+FGA | BBB FGA | B3 ccc | cBA BAG | F3 FGA | BBB FGA | B3 ccc | cBA BAG | F2F f2f ||
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:9/8
+K:Bb
+e3d3 BBB | d2d c2c f2f | e3 d3 cdc | B2A B6 |]
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/479
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

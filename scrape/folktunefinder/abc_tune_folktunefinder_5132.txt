@@ -1,0 +1,31 @@
+X: 85
+T: Neun H\"auser [G]
+T: Nine Houses
+O: Bavaria
+M: none
+K: G
+|: [B,D][DG][GB] \
+| [M:3/4][L:1/8] \
+"G"[B2d2] z[Bd] [B2d2] | ~[B2d2] [G2B2] [D2G2] \
+| [M:2/4][L:1/8] \
+"D7"[D2F2] [F2A2] | [A2d2] [F2A2] | [D2F2][F2A2] \
+| [M:3/4][L:1/8] \
+"D7"[F2d2] z[Fd] [F2d2] | ~[F2d2] [D2c2] [C2F2] \
+| [M:2/4][L:1/8] \
+"G"[B,2G2] [D2B2] | [G2d2] [D2B2] | [B,2G2] [D2B2] |
+| [M:3/4][L:1/8] \
+"G"[B2d2] [Bd][Bd] [Bd][Bd] | ~[B2d2] [G2B2] [D2G2] \
+| [M:2/4][L:1/8] \
+"D7"[D2F2] [F2A2] | [A2d2] [F2A2] | [D2F2][F2A2] \
+| [M:3/4][L:1/8] \
+"D7"[A2d2] [Ad][Ad] [Ad][Ad] | ~[A2d2] [F2c2] [D2F2] | "G"[B,2G2] z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5132
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

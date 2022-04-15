@@ -1,0 +1,26 @@
+X:170
+T:a Trip to Clumber. For the Ger. Flute
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+N:Same as the previous, transp up to G
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000ea.html
+%%ID:000000ea
+K:G
+d2 dg| g2 fg| ec'/a/ gf| g/f/g/a/ gg|\
+d2 dg| g2 fg| ec'/a/ gf| g2 G2::
+d2 Bd| dcAF| GDEF|G/F/G/A/ GG|\
+d2 Bd| dcAF| GDEF| G2G2::
+b2 bg| c'2 c'2| affd| g/f/g/a/ gg|\
+b2bg c'2 c'2| ag f/g/a/f/| g2 g2:|
+S:https://www.folktunefinder.com/tunes/30343
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

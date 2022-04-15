@@ -1,0 +1,29 @@
+X:11
+T:Bog an Lochan
+T:Athole Cummers
+R:Strathspey
+S:MacDonald - Skye Collection
+N:pg.90
+M:C
+L:1/8
+K:E Minor
+F|:E/E/E ~E2 E>FB>F|E/E/E ~E2 F<D A>F|E/E/E ~E2 E>FB>A|1 B<d A>d F<DA>F:|2
+B<dA<d F<D D>d||
+|:B<E (B>A) B<E E>e|B<E (B>A) (F<D) D>d|B<E B>A d>e(f>e)|1
+(d/^c/)B/A/ d>A (F<D) D>d:|2 (d/^c/)B/A/ d>A F<D D>f||e/e/e e2 (e>f)(b>f)|
+e/e/e e2 f>da>f|e/e/e e2 (e>f)b>f|(g<e) b>e (df/g/) a>f|(g>e)(b>e) (g<e) (b>e)|
+(g<e) (b>e) (df/g/) a<f|(g<e)(b<e) d>e(f>e)|(d/^c/)B/A/ d>A F<D D>d||
+B<E (B>A) (B<E) E>e|B<E (B>A) (F<D) D>d|B<E (B>A) d>e(f>e)|
+(d/^c/)B/A/ d>A F<D D>d|B<E (B>A) (B<E) E>e|B<E (B>A) (F<D) D>d|
+B<E (B>A) d>e(f>e)|(d/^c/)B/A/ (dA) F>DD||
+S:https://www.folktunefinder.com/tunes/72092
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Skye.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Skye.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

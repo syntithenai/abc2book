@@ -1,0 +1,27 @@
+X: 7964
+T:Trumlond House
+R:Jig
+O:Scotland
+M:12/8
+A:Orkney
+K:D
+AG |\
+FGA AGF GAB BAG | FAd dcd eEE E2G | \
+FGA AFD GAB BGE | FAd cBc dDD D2G |
+FGA AFD GAB EFG | Add fed ecA G2E | \
+FED GFE AGF BAG | Add ede fdd d2e ||
+fdB Bde fdB Bcd | cBc ABc ecA Ace | \
+fdB Bcd fef aaf | ede fgf edc B2g |
+fef def efe cde | dcd Bcd AGF FED | \
+FGA AGF GAB BAG | Adf ede fdd d|]
+S:https://www.folktunefinder.com/tunes/35181
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

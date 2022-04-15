@@ -1,0 +1,26 @@
+X: 1
+T: Farewell to Cramond
+C: Muriel A. Johnstone
+R: strathspey
+B: "4 SCD" 1978
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+ED \
+| "A"CA,3 C3E A3B c3A | "Bm"dF3 F3A "E7"GABA GFED | "A"CA,3 C3E "F#m"A3B c3A | "D"ff3 "E7"e3d "A"cA3 A2 :|
+c2 \
+| "A"ee3 f3e "E"dc3 c3B | "F#m"AA3 c3A "E7"E4 E3A | "D"FF3 f3e "Bm"d2c2 B2A2 | "B7"BF3 B3A "E7"G4 F2E2 |
+| "A"ee2 a3g "E"f2e2 e2d2 | "F#m"cA3 f3e "E7"e6 E2 | "D"FD3 F3A "Bm"d3e f2e2 | "A"ec3 "E7"B3A "A"A6 |]
+S:https://www.folktunefinder.com/tunes/19341
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FarewellToCramond_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/FarewellToCramond_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FarewellToCramond_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/FarewellToCramond_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

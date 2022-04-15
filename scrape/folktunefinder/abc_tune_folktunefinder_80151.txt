@@ -1,0 +1,27 @@
+X:92
+T: Jaegers Beruf
+N: A0447
+O: Europa, Mitteleuropa, Deutschland
+N: 68 Lieder. Nuernberg bei Berg und Newber 1549 No. 12.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2A2B2G2 | d4c4 | B4z2
+B2 | c2B2f4 | f2d2f2g2 | e4d4 | z2
+d2d2d2 | f6d2 | g6fe | f2g2e4 | d4z2
+G2 | B2c2d4 | z2G2B2A2 | G4z2
+g2 | g2g2f4 | e2d2cBAG | A4G4 | z2
+g2g2g2 | f4e2d2 | cBAGA4 | G6
+S:https://www.folktunefinder.com/tunes/80151
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

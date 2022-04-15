@@ -1,0 +1,24 @@
+X:113
+T: SCHLUMMRE KINDCHEN SCHLUMMRE
+N: F0232
+O: Europa, Mitteleuropa, Deutschland
+R: Wiegen - Lied, religioes
+M: 3/4
+L: 1/16
+K: F
+ | A2^G2A6d2 | c2G2A4
+A2c2 | f8d4 | c2G2A4
+A3=B | c2=B2A6B2 | c4z4
+c2e2 | f2=B2c4G2^G2 | A4z4
+f2e2 | e2d2d4A4 | B4z4
+d2c2 | c6F2A2G2 | F8z4
+S:https://www.folktunefinder.com/tunes/69673
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Wiegen - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

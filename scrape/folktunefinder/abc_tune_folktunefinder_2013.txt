@@ -1,0 +1,31 @@
+X: 76
+T:Smack of the Whip,The. JMP.076
+M:9/8
+L:1/8
+Q:120
+C:"81...A Retreat"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Slip Jig
+O:Scotland
+A:Perth
+N:1 - What appear to be pause marks are written above and below the  last
+N:double ba
+H:1799
+Z:vmp.C.  Graebe
+K:D Major
+"No time sig given -key given as G..."g | f2d ecA A2g |\
+ f2d ecA d2 g|  f2d ecA Ag2 | faf gec d2 :|!
+|: g | f2d gec c2 g |faf gef g2 e | faf gec c2 g | faf gec"1"d2 :|]
+S:https://www.folktunefinder.com/tunes/2013
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

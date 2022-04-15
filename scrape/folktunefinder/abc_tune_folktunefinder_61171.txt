@@ -1,0 +1,25 @@
+X:9138
+T:Lady Danby's Minuet. BC.55
+M:3/4
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+Z:John Bagnall
+K:G
+((3def) | g2 g2 g2 |"*"(3gab g4 | af d2 c2 | c2 B4 | db b2 b2 | ba-ag-gf
+ |! (db a2)a2 | ag-gf-fe| Ag g2 g2 | ((3fga) ^c2 e2 | ((3bag) f2 e2 | d6
+:|
+S:https://www.folktunefinder.com/tunes/61171
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Tommy's Tarbuckus
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: Also in Gm
+S: handwritten MS
+M: C|
+L: 1/8
+K: Gm
+|: d2cd BGGB | AFcF dFcF | d2cd BGGB | AFcA  BGG2 \
+|  d2cd BGGB | AFcF dFcF | d2Bd AFFA | Ggdc  BGG2 :|
+|: DGBG EGcB | Acfe dbfd | DGBG EGcB | AfcA  BGGG \
+|  DGBG EGBc | Acfe dbfd | fdBe cAFE | DG^FA BGG2 :|
+S:https://www.folktunefinder.com/tunes/18232
+S:http://trillian.mit.edu/~jc/music/abc/reel/TommysTarbuckus_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TommysTarbuckus_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

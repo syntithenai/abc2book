@@ -1,0 +1,24 @@
+X:238
+%%topmargin 3cm
+T:Tigh Eachinn
+T:Hector's House
+T:The auld road to Towie
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+a | e/e/e (e>g) {/f}e2 {/^c}(d>=c) | TB>AA>G (TB>A)A>B | d/d/d (d>g) {/f}e2 {/^c}d>g | B<GG>A B<GG :|
+d | (g>a)b>g a>e{/f}g>B | T(B>A)A>G TB>AA>B | d/d/d (d>g) {/f}e2 {/^c}(d>g) | B<GG>A B<GG>d |
+(g>a)b>g a>e{/f}g>B | T(B>A)A>G TB>AA>B | d>e{/f}g>d e<gd<g | B<GG>A B<GG |]
+S:https://www.folktunefinder.com/tunes/70985
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

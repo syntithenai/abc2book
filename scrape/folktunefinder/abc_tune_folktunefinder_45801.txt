@@ -1,0 +1,26 @@
+X:8
+%Rozelaar
+T:rozelaar
+M:3/4
+L:1/4
+Q: 1/4=120
+K:C
+V:1
+"G"f/e/d2|"C"e/d/c2|"G"GAB|"C"cc2||
+"C" e3/2 d/ c/E/|"G7" A G/F/ D| A G/F/ D| "C"A G/E/ C|e3/2 d/ c/E/|"G7" AG/F/ D| "C"G"F"A"G7"B| "C" c1 c2|
+|:"G7" f/e/ d2|"C"e/d/c2|"G7"GAB| "C"c/B/ c/d/ e| "G7"f/e/ d2| "C"e/d/ c2|"G7" GAB| "C" c1c2:|
+V:2
+z1z2|z1z2|z1z2|z1z2||
+c3/2d/ e/g/|fg/a/g|gg/a/g|ff/g/f|c3/2d/ e/g/|fg/a/g|~g~g~f|ee2|
+|:GAB|c/B/ c/d/ e|f/e/ d2|e/d/ c/B/ c|GAB|c/B/ c/d/ e|gag|ee2:|
+S:https://www.folktunefinder.com/tunes/45801
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

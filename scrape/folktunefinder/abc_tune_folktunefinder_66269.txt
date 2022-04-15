@@ -1,0 +1,20 @@
+X:1685
+T:Steeplechase
+Z: id:dc-reel-321
+M:C
+L:1/8
+K:C Major
+B|c2C2 EGG2|Add^c dfed|cBcG AdcA|G2EC DCA,2|!
+G,CC2 EGG2|Add^c dfed|cBcG AdcA|GEDF ECC:|!
+B|c2ec gcea|gedf eGAB|c2ec gcea|gedc BGAB|!
+cdec Gcea|gedc ABcd|egg2 eaa2|[1 gedf eGA:|[2 gedf ecc|]!
+S:https://www.folktunefinder.com/tunes/66269
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

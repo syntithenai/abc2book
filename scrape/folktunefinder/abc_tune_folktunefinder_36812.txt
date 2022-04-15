@@ -1,0 +1,24 @@
+X:3665
+T:Morfars Schottis
+A:Norrbotten
+M:4/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000089c.html
+%%ID:0000089c
+K:C
+A,>B,CD E2E2|F2F2 E4|A,>B,CD E2E2|c2c2 A4|\
+A>Bcd e2e2|a2a2 g2B2|B>ggB B>ggB|c>dcB c4:|
+|:\
+g>agf e>fec|d2A2 A4|G2Bd g2g2|g>agf e2c2|\
+g>agf efec|d2AA A4|G2Bd g2Bd|c>dcB c4:|
+S:https://www.folktunefinder.com/tunes/36812
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

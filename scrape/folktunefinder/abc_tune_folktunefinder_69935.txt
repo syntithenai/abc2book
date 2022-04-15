@@ -1,0 +1,29 @@
+X:375
+T: ICH SCHIESS DEN HIRSCH IM WILDEN FORST
+N: F0665
+O: Europa, Mitteleuropa, Deutschland; Rumaenien, Siebenbuergen
+R: Staende -, Jaeger - Lied
+M: 2/4
+L: 1/16
+K: F
+A2 | A3DD3D | D3DD3
+A, | D3EF3E | D4z2
+A2 | A3DD3D | D3DD3
+D | C3CA3G | F4z3
+A | A3Dd3B | A3FD3
+A | A3Dd3B | A4z2
+C2 | F4G2A4B2 | d4c2A4
+A2 | A4G2B4A2 | D6
+C2 | F4G2A4B2 | d4c2A4
+A2 | A4G2B4A2 | F6z4
+S:https://www.folktunefinder.com/tunes/69935
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Staende -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

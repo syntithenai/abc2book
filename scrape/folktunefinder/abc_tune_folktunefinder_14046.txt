@@ -1,0 +1,25 @@
+X:1
+T:Constant Billy
+T:The Legacy
+T:None So Pretty
+O:English
+Z:John Chambers <jc:trillian.mit.edu>
+R:Jig
+M:6/8
+L:1/8
+K:A
+|:"A"A2e cAc | "D"dcB "E7"G2E | "A"cBA "D"F2A | "E7"EFG "A"A2E \
+| "A"A2e cAc | "D"dcB "E7"G2E | "A"cBA "D"F2A | "E7"EFG "A"A3 :|
+|:"A"cde "D"f3 | "E7"Bcd "A"e3 | "A"cde "D"f2f | "E7"Bcd efg \
+| "A"a2e cAc | "D"dcB "E7"G2E | "A"cBA "D"FGA | "E7"EFG "A"A3 :|
+S:https://www.folktunefinder.com/tunes/14046
+S:http://trillian.mit.edu/~jc/music/abc/jig/ConstantBilly_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ConstantBilly_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/ConstantBilly_A.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:550
+T:Central Line, The
+M:C|
+L:1/8
+C:Diarmaid Moynihan
+R:reel
+D:Flook: Flatfish
+Z:Devin McCabe
+K:BMin
+EGAd B2BF|GBAG G~A3|EGAd ~B3d-|deBA BAGF|
+!EGAd B2BF|GBAG G~A3|EGAd ~B3d-|deBA (3FGA Bd|
+!egag ~a3g|fAde fgfd|egag ~a3g|fAde ~f2zg|
+!egag ~a3g|fAde fg (3gga|bzga feed|eBde BAGF||
+S:https://www.folktunefinder.com/tunes/48003
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

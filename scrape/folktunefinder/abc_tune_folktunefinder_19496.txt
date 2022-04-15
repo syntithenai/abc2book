@@ -1,0 +1,34 @@
+X: 1
+T: MacVicar's Strathspey
+R: strathspey
+O: Athol Collection
+B: Athol Collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+c \
+| "C"G<E E>c G<E E>c \
+| G<E c>E "G7"D2- D>c \
+| "C"G<E E>G "Am"c>d e>d \
+| "F"c>A "C"G>E "G7"D3 :|
+e \
+| "C"ce/f/ g>e c<g "F"e<a \
+| "C"g<c g>e "G7"d3 e \
+| "C"ce/f/ g>e c<g e>d \
+| "F"c>A "C"c>E "G7"D3 ||
+e \
+| "C"ce/f/ g>e c<g "F"e<a \
+| "C"g<c g>e "G7"d3 e/f/ \
+| "C"g>e "G7"f>d "Am"e>c "G7"d>B \
+| "F"c>A "C"G>E "G7"D3 |]
+S:https://www.folktunefinder.com/tunes/19496
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MacVicarsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MacVicarsS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

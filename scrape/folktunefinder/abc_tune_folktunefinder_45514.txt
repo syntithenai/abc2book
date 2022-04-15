@@ -1,0 +1,37 @@
+X:80
+T:Steyrer Tanz in G, nr. 42
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in G
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:G
+V:1
+%violino 1mo
+P:h:Ap:
+Te2 Td2 Tc2 | B2 B,D G2 | FCFGAF | GABc d2 |\
+Te2 Td2 Tc2 | B2 B,D G2 | FCFGAF | "in D" G4 :|
+V:2
+%violino 2do
+Tc2 TB2 A2 | G2 G,B, D2 | C2 A,B,CA, | B,DGA B2 |\
+Tc2 TB2 A2 | G2 G,B, D2 | C2 A,B,CA, | B4 :|
+S:https://www.folktunefinder.com/tunes/45514
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

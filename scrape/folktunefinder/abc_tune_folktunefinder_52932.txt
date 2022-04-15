@@ -1,0 +1,28 @@
+X: 43
+T:Jack's Alive. JMT.043
+M:6/8
+L:1/8
+Q:110
+S:J.Moore,Tyneside,1841.(31)
+R:Jig
+O:England
+A:Northumbria
+Z:vmp.Chris Partington
+K:G
+D|G2G (GA)B|A2A (AB)c|d2Bc2A|B2G (FE)D|!
+G2G G2B|A2AA2c|BdB cAF|G3G2:|!
+|d|g2g gbg|f2f (fa).f|e2e (ef).g|a2g (fe).d|!
+g2g (gb).g|f2f (fa).f|ege faf|(g3g2)d|!
+gbg gbg|faf faf|efe efg|fag fed|!
+g3dBd|e3cAc|BdB cAF|G3G2||
+S:https://www.folktunefinder.com/tunes/52932
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

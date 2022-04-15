@@ -1,0 +1,25 @@
+X:88
+T: Der Waechter
+N: A0102
+O: Europa, Mitteleuropa, Deutschland
+N: Aus: 68 Lieder. Nuernberg J. Berg und Newber (1542) No. 55.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2A2_B2G2 | d2c_BA2A2 | G4z2
+G2 | d2e2=f2d2 | g2e2d4 | z4
+g4 | a2g2=f2d2 | =f2d2_B4
+z2f2f2d2 | g4d2d2 | c2_B2c2
+c2 | d4_B2G2 | =F4z4
+f4f2d2 | g4d2d2- | d2c_BA2A2 | G6
+S:https://www.folktunefinder.com/tunes/68634
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

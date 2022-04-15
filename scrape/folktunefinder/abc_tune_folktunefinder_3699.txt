@@ -1,0 +1,33 @@
+X: 2
+T: Constancy
+T: The Ton
+B: Hendrickson's "John Griffiths Dancing Master."
+R: march
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: 1/4=108
+K: A
+[| "A"A2 cA | "E"AG FE | "A"A2 cA | "E"e4 \
+| "Bm"d2 Bd | "A"c2 Ac | "B(m)7"B2 cA | "E"AG FE |
+|  "A"A2 cA | "E"AG FE | "A"A2 cA | "E"e4 \
+| "E"B2 "A"cA | "E"B2 "A"cA | "E"G2 "B7"F2 | "E"E4 ||
+|| "A"e2 ce | "E7"d2 Bd | "A"c2 Ac | "E7"B2 E2 \
+|  "A"Ac ea | "D"a2 fa | "B7"ba gf | "E"e4 |
+|  "A"e2 ce | "E7"d2 Bd | "A(F#m)"c2 Ac | "E7"[BB]G [EE]D \
+|  "A"CE Ac | "D"Fd cB | "A"cA "E7"BG | "A"A4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3699
+S:http://trillian.mit.edu/~jc/music/abc/England/Constancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Constancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Constancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/Constancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Constancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Constancy.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Constancy
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

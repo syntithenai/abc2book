@@ -1,0 +1,24 @@
+X:2497
+T:Cancioneiro de Casto Sampedro: N\'umero 472k
+T:Silbato de Castradores
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=100
+K:Eb % 3 flats
+z=e' f'/2g'/2a'/2b'/2>a'/2[a'/2-g'/2]a'3-|a'/2z/2=e' f'/2g'/2a'/2b'/2>a'/2[a'/2-g'/2]a' g'/2[g'/2-f'/2]g'-|g'/2z/2=e' f'/2g'/2a'/2b'/2>a'/2[a'/2g'/2]a'/2[g'/2f'/2] g'a'/2[f'/2=e'/2]|f'6 f'/2[a'/2g'/2][c''/2-b'/2]c''/2|
+S:https://www.folktunefinder.com/tunes/28777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

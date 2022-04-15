@@ -1,0 +1,25 @@
+X: 6425
+T:Dingle Regatta
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+d^cd e2 d | BAB d2 B | A2 A AGA | B2 A G2 d | d^cd e2 d | BAB d2 B | A2
+A ABA | G3 G2 :|
+|: d3 def | g2g gfg | a2 a aga | b2 a gfe | d2 d def | g2 g gfg | a2 g f
+2 e | def g3 :|
+|: g3 d3 | BdB G3 | ABA DEF | G2 B d3 | g3 d3 | BdB G2 d | ABA DEF | G3
+G3 :|
+S:https://www.folktunefinder.com/tunes/34331
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

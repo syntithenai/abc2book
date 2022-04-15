@@ -1,0 +1,26 @@
+X:6
+T:Dans Les Caves
+Z:midi2abc
+M:3/8
+L:1/16
+R:Bourree
+Q:1/4=100
+K:C
+"C"G2A2B2|"C"c2d2e2|"Dm"f2d2ef|"G"g2d2B2| \
+"C"G2A2B2|"C"c2d2e2|"F"fed2c2|"G"d6:|
+"F"f3gf2|"C"e2d2c2|"G"Bcd2B2|"C"c2d2e2| \
+"F"f3gf2|"C"e2d2c2|"G"Bcd2B2|"C"c6:|
+S:https://www.folktunefinder.com/tunes/51991
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

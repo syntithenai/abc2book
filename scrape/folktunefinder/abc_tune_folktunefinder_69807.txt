@@ -1,0 +1,31 @@
+X:247
+T: ICH KENN EIN WUNDERSCHOENES LAND
+N: F0428
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch; Sachsen - Lied
+M: 4/4
+L: 1/8
+K: E
+B,2 | E3EF2G2 | G3FE2
+E2 | C2D2E2GF | D3CB,2
+B,2 | E3ED2C2 | B,3A,G,2
+^A,2 | B,4C4 | D6FE | D4C4 | B,4z2
+B,2 | =D3DC2B,2 | A,3B,C2
+F2 | D3DE2C2 | B,3A,G,2z
+B, | E2zEF2zF | G6z
+E | A2G2F2E2 | D4E4 | F4z
+DEF | G6F2 | E6D2 | E2
+E2F2G2 | A6F2 | E4D4 | E4z2
+S:https://www.folktunefinder.com/tunes/69807
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch; sachsen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

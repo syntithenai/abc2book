@@ -1,0 +1,27 @@
+X:389
+T: IST EDEL GLEICH DAS REBENNASS
+N: F0698
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Bundes -, Trink - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | D2C2=B,2C2 | F3ED2
+C2 | B,2B,2A,2B,2 | G3EC2
+B,2 | A,2C2D2E2 | F4
+C2C2 | D3CB,2A,2 | G,8
+E4C2C2 | D3CD2E2 | C8
+E4C2C2 | D3CD2E2 | C2
+C2F3C | D2B,2A,2G,2 | A,2
+C2F3C | D2G2F2E2 | F4z2
+S:https://www.folktunefinder.com/tunes/69949
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, bundes -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:431
+%%topmargin 3cm
+T:Mac Griogair a Ruaro
+T:Lamentation for Mac Gregor of Roro
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Not in the index, as far as I can find.
+R:Air
+M:3/4
+L:1/8
+K:A
+E>F | A2 A2 TBA/B/ | (c2wE) z E>F | A2 ~A2 {/c}B(A/B/) | (c2 wE2) (A,/C/E) | c2 ~c2 !sfz!e>c | B2 A2 F2 | E2 C>B,CE | F2 A, z TE>F |
+A2 A2 TBA/B/ | (c2 E) ~E>F | A2 A2 TBA/B/ | c2 E2 (A,/C/F/A/) | c2 ~c2 {/c}!sfz!e>c | {/c}B2 A2 A>F | (E2 C2) E>C | TB,2 A,2 |]
+S:https://www.folktunefinder.com/tunes/71460
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lamentation_for_Mac_Gregor_of_Roro.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mac_Griogair_a_Ruaro.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0431.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:12
+T:Stoneleigh House
+C:Andy Hornby  2004
+Q:1/4=160
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+D|GF GA Bc|d2cB AG|c2Bc d2|A4-A D|
+GF GA Bc|d2BG c2|B3c A2|G4-G:|
+|:d|ed cd ef|g2GA B2|c2E3A|G2FE D2|
+GF GA Bc|d2BG c2|B3c A2|G4-G:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43735
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

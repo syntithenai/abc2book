@@ -1,0 +1,35 @@
+X:226
+T: Falsche Liebe (8a) Melodie II, S. 48
+N: T0114
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: 2. Melodie
+N: RAMMELDINGEN; gesungen von hhh Nikolaus Felten
+N: am 17.2.1934
+R: "erzhlende Lieder"]
+M: 6/8
+L: 1/8
+K: G
+d | BBdBBd | c2BA2
+d | dBddcc | B4z
+d | BBdBBd | c2BA2
+d | dBddcc | B4z
+d | dBdedc | c2BA2z
+c3cde | d2cB2
+d | dedcAd | B4z
+d | dBdedc | c2BA2z
+c3cde | d2cB2
+d | dedcAd | B4z
+S:https://www.folktunefinder.com/tunes/70356
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm %22erzhlende lieder%22]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

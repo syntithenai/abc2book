@@ -1,0 +1,30 @@
+X: 1
+T: Marshes of Mallow
+C: Cal Howard
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: Cal gave me a page with this tune
+M: 6/8
+L: 1/8
+K: D
+|: (3A/B/c/ \
+| "D"d2d dcd | "G"Bdd "D"Add |  "G"Bdd "D"Add | "E7"Bed "A7"cB_B \
+| "D"A2d dcd | "G"Bdd "D"Add |  "G"Bdd "A7"cde | "D"fdd d2 :|
+f/g/ \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg gec \
+| "D"a2a afd | dfa "D7"afd | "G"gfg "A7"eag | fdd dfg |
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg g2g \
+| "D"fef "A7"gfg | "D"agf "G"efg | "A7"fed cB_B | "D"Add d2 |]
+S:https://www.folktunefinder.com/tunes/14618
+S:http://trillian.mit.edu/~jc/music/abc/jig/MarshesOfMallow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MarshesOfMallow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MarshesOfMallow_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/CalHoward/MarshesOfMallow_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

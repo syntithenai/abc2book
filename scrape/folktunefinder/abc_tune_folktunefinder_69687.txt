@@ -1,0 +1,28 @@
+X:127
+T: ICH KENNE EIN BLUEMLEIN SO EINFACH
+N: F0247
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Natur, Pflanzen
+M: 3/4
+L: 1/8
+K: Bb
+B2 | B3Bc2 | e3d
+B2 | c2c2dc | c4
+c2 | c3cd2 | f3e
+d2 | dcB2A2 | B4
+d2 | c2c2cB | A2A2
+cB | A2A2G2 | F4
+c2 | c2c2d2 | f3e
+d2 | dcB2A2 | B4
+S:https://www.folktunefinder.com/tunes/69687
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, natur, pflanzen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

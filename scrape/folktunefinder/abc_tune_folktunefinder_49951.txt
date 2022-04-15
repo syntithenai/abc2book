@@ -1,0 +1,26 @@
+X:18503
+T:Walzer - Walzer/Waltz/Valse
+B: "Das Burgenlndische Notenbiachl, Die vierten 24", S.Gmasz, F.Pietsch, Eisenstadt 1986; 
+S:Sammlung M.Stoisits
+P:Stinatz
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+K:G
+DEF|GA^A|Bdg|dB>B|cdf|edc|Bdg|d2D|DEF|GA^A|Bdg|dB>B|cdf|edc|B3:|
+|:gd/d/d/d/|Bdg|fd/d/d|c3|
+fd/d/d|cdf|g>gd|B3|
+gd/d/d/d/|Bdg|fd/d/d|c3|
+fd/d/d|cdf|g>gg|g3:|
+S:https://www.folktunefinder.com/tunes/49951
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

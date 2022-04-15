@@ -1,0 +1,26 @@
+X:113
+%%topmargin 3cm
+T:Lady Mary Stopford
+C:M. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+B | AFdF TA2 (FA) | BGAF GEEG | FADF GBEd | ceAc dDD :|
+g | fdad Tf2 (df) | gfed ceAg | fdad Tf2 (df) | gbag fddg |
+fdad Tf2 (df) | gfed ceA=c | B2 GB ^ce Ac | {/c}dfeg Tfdd |]
+S:https://www.folktunefinder.com/tunes/70860
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lady_Mary_Stopford.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

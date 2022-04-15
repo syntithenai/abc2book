@@ -1,0 +1,20 @@
+X: 2
+T: Ochi chorniya
+T: Black Eyes
+O: Russia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+   z2 ^A2 B2 \
+| "B7"c3  B B2 | z2 ^A2 B2 | "Em"c3 B B2 | z2  B2 e2 \
+| "B7"e3 ^d d2 | z2  f2 g2 | "Em"f3 e e2 | z2  e2 g2 |
+| "Am"g3  f c2 | z2  g2 f2 | "Em"f3 e B2 | z2 ^A2 B2 \
+| "B7"c3  B B2 | z2  F2 G2 | "Em"F3 E E2 |]
+S:https://www.folktunefinder.com/tunes/7804
+S:http://trillian.mit.edu/~jc/music/abc/Russia/OchiChorniya.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

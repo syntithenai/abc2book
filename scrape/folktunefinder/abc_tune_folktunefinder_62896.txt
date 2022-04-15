@@ -1,0 +1,23 @@
+X:29
+T:Aaron's Key
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of Bm)
+K:Bmin
+"Bm"F2B Bcd | "A"c2A ABc | "G"d2B Bcd | "A"edc BAG |
+"Bm"F2B Bcd | "A"c2A ABc | "G"dcd "A"ede |1 "Bm"fdB B2A :|2 "Bm"fdB B2c |:
+"D"~d3 ded | "A"cBA a2g | "Bm"fef ged | "F#m"cec ABc |
+"G"~B3 ~c3 | "F#m"dcd efg | "G"fed "A"cBA |1 "Bm"B3 B2c :|2 "Bm"B3 BAG|]
+S:https://www.folktunefinder.com/tunes/62896
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Jig (key of bm)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:199
+T: ES THAET EIN KOENIG AUSREITEN
+N: E0107B
+O: Europa, Mitteleuropa, Deutschland, Altmark
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 3/8
+L: 1/8
+K: G
+D | G2G | GFG | AGz | z2
+D | G2G | GFG | AGz | z2
+B | d2A | cBA | GBB | A2
+A | DDF | D2F | AGF | G2
+S:https://www.folktunefinder.com/tunes/78640
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

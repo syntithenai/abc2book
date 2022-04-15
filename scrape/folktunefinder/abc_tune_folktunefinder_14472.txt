@@ -1,0 +1,38 @@
+X: 1
+T: Khasene Jig #1
+R: jig
+N: Originally in 2/4 but mostly triplets.
+D: Shanachie 21002 "Zev Feldman and Andy Statman"
+B: Mel Bay's Klezmer Collection (Stacy Phillips)
+M: 6/8
+L: 1/8
+K: Dm
+A d2f \
+| "Dm"a3- a2b | "E"^g3- g2a | "Dm"f3- f2a | "A7"e3- e2A \
+| "Dm"def "A7"efg | "Dm"fga "Gm"gab | "Dm"a6 | zac' b2a |
+| "Dm"d'^c'=c' =b_ba | "C"c'-b_b a_ag | "Bb"bag fed | "A7"efg "Dm"fed \
+| "Dm"egf- f2e | "A7"fed ^cde | "Dm"d6- | d2 :|
+|: c f2a \
+| "F"c'6- | c'ac' "C7"bag | "F"gba- a3 | zfa g{ag}fg \
+| fef gfg | aga "C7"c'2b | "F"a6 | zcfa |
+| "F"c'6- | c'2f' "C7"e'2d' | "F"c'6 | z3 "C7"b3 \
+| "F"abc' "C7"bag | "F"fed "C7"cde | "F"f6- | fz :|
+|: z "A7"e3 \
+| "Dm"d3 "Gm"bag | "Dm"a3- a2g | f3 agf | "A7"g3- g2f \
+| "Dm"fga agf | "A7"efg fed | "Gm"^cde dcB | "A7"A2- A2A |
+| "Dm"d3 "Gm"bag | "Dm"a3- a2g | f3 agf | "A7"g3- g2f \
+| "Gm"g3- g2f | a2g g2f | "A7"agf fed | "Dm"d6- | d2 :|
+S:https://www.folktunefinder.com/tunes/14472
+S:http://trillian.mit.edu/~jc/music/abc/jig/KhaseneJig1_dH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/KhaseneJig1_DmH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/KhaseneJig1_dH.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

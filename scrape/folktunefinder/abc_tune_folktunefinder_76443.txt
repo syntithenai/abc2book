@@ -1,0 +1,26 @@
+X:463
+T: Der Jger in dem grnen Wald (5-59), S. 98
+N: P0733
+O: Lothringen
+S: MERKELBACH-PINCK, Angelika: Verklingende Weisen, Bd 5, Kassel 1962]
+R: Jgerlied, Liebe]
+M: 4/4
+L: 1/8
+K: G
+D2 | G3FE2D2 | E3DB,2
+D2 | G2G2A2d2 | d4c2d2 | B4z2
+d2 | A2c2c2d2 | B2d2d2
+dd | A2c2c2d2 | B2d2d2
+DD | G3FE2DD | E3DB,2
+DD | G4A2d2 | d4c2d2 | B4z2
+S:https://www.folktunefinder.com/tunes/76443
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Jgerlied, liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

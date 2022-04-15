@@ -1,0 +1,24 @@
+X:2
+T:The Gentleman of the Road
+C:Andy Hornby June 2006
+Q:1/4=90
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+F|d3/2c/2B c3/2B/2A|FBA B2c|d3/2e/2f e2d|c3-c2d/2e/2|
+f2B d3/2e/2f|e2A c2d/2e/2|d3/2c/2B F/2B3/2A|B3-B2:|
+d/2e/2|f2B d3/2e/2f|e2A c2d/2e/2|d3/2c/2B c/2f/2- f2|
+f3-f2d/2e/2|f3/2e/2d e2c|d3/2c/2B c2F|d3/2c/2B F/2B3/2A|B3-B2|]
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43730
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

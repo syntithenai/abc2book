@@ -1,0 +1,87 @@
+X:6
+T:(renaissance )
+R:
+C:Anamnse
+H:1998
+N:
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/4
+L:1/8
+Q:1/4=140
+K:C 
+%%staves [1 | 2 | 3 | 4]
+%%measurenb 0
+%%measurebox 1
+%%staffsep 49pt
+%%sysstaffsep 30pt
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+%P:A
+|: DCA,2A,C .D2.D2.D2 | DCA,2 A,C .B,2.B,2.B,2 | 
+DCA,2A,C .D2.D2.D2 | DCA,2 F,G C2E2D2 :|
+%P:B
+|: D,2F,2 G,F, E,2G,F,E,2 | G,2A,2 CB, A,2 CB,A,2 :|
+%P:C
+|: EFD2 DC D2 B,2 A,2 | EFD2 DC D2 B,2 E2 :| 
+%P:D
+|: G2 C'2>B2 A2>B2AG | AB A2 G2 F2D2F2-|FE F2>D2 C2 F2E2 :| 
+V:2
+K:C
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+K:C bass
+%P:A
+|: agf2 fg .a2.a2.a2 | agf2 fg .e2.e2.e2 |
+agf2 fg .a2.a2.a2 | age2 fg d2a2d2 :|
+%P:B
+|: c'2a2d2 e2gfe2 | gfe2 g2 a2c'ba2 :|
+%P:C 
+|: a2c'2d'2 b2d'2e'2 | a2c'2d'2 b2d'2e'2 :|
+%P:D
+|: d2g2>f2 e2>d2 ef | e2 a2 dd d2 a2 d2 | c2 d2 gba2 g4 :| 
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+K:C bass
+%P:A
+|: z12 | z12 | z12 | z12 :|
+%P:B
+|: d2A2 cB A2 cBA2 | G2 F2 d2 F2 c2 A2 :| 
+%P:C
+|: d2f2 gf e2g2a2 | d2f2 gf e2g2a2 :|
+V:4
+K:C bass
+%%MIDI channel 4
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+%P:A
+|: z12 | z12 | z12 | z12 :|
+%P:B
+|: z12 | z12 :|  
+%P:C
+|: D2F2G2 E2G2A2 | D2F2G2 E2G2A2 :|
+S:https://www.folktunefinder.com/tunes/30277
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

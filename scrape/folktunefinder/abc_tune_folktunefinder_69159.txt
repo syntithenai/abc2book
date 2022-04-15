@@ -1,0 +1,29 @@
+X:300
+T: MEIN FEINES LIEB VERLIESS MIT MIR
+N: Z0298
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, verlassene Liebe
+M: 6/4
+L: 1/4
+K: B
+f | B2=dc2e | =d2cB2
+f | =g2fe2f | e2=dc2
+f | =g2fe2f | e2=dc2
+c | =d2cB2c | =d2ef2
+f | =a2=gf2e | =g2fe3 | =d3-^d2
+f | B2c=d2e | f3-f2
+f | B2c=d2e | f3-f2
+f | =g2ec2e | f2=dc3 | B3-B2
+S:https://www.folktunefinder.com/tunes/69159
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, verlassene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

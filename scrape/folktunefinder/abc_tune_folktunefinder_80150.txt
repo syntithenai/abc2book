@@ -1,0 +1,30 @@
+X:91
+T: Jagd - und Liebeslied des Herzogs Ulrich von Wuertemberg
+N: A0443
+O: Europa, Mitteleuropa, Deutschland
+N: Arnt von Aich 1519 und Forster IV 1556 No. 12.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 4/2
+L: 1/8
+K: F
+c4 | A4B4c4A4 | d4c4B8 | A8z4
+c4d4f4 | e4d2c4BAG4 | F12
+c4 | A4B4c4A4 | d4c4B8 | A8z4
+c4d4f4 | e4d2c4BAG4 | F16 | z4
+F4A4B4 | c8z4c4d4e4 | f8z4
+c4 | d4d4c4f4 | e2f2d4c4z2
+f2 | e4d4c4z2d2 | c4B4A8 | z4
+c4d4f4 | e4d2g4fed4 | c12
+S:https://www.folktunefinder.com/tunes/80150
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

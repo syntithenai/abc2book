@@ -1,0 +1,26 @@
+X:4
+T:Edith's waltz
+C:Andy Hornby 2006
+Q:1/4=140
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+D/2G3/2B/2|d3/2e/2 d2c2|B3-B/2D/2 G3/2A/2|B3/2c/2 B2A2|G3-G/2B/2 d3/2B/2|c2c3/2d/2 c3/2B/2|
+[1A2A3/2B/2 A3/2G/2|F3/2G/2 F2E2|D3-D/2:|[2A2f3-f/2e/2|d3/2c/2 A2F2|G3-G/2||
+|: (3Bcd|e2e3/2c/2 e3/2g/2|f2f3/2d/2 f3/2a/2|g2g3/2f/2 g3/2a/2|g3-g/2d/2 g3/2d/2|f2f3/2g/2 f3/2e/2|
+[1f3-f/2d/2 f3/2d/2|e2e3/2f/2 e3/2c/2|d3-d/2G/2:|[2d2f2a2|g3-g/2f/2 g3/2a/2|g2f2=f2|]
+e2c3/2B/2 c3/2d/2|e2c3-c/2e/2|d2B3/2A/2 B3/2c/2|d3-d/2G/2 B3/2d/2|c2A3/2G/2 A3/2B/2|
+[1c2A2F2|G3/2F/2 G3/2A/2 B3/2c/2|d3-d/2g/2 f3/2=f/2:|[2c2D2F2|G3-G/2F/2 G3/2A/2|G3-G/2|]|]
+%%newpage
+%%center  MAZURKAS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43738
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

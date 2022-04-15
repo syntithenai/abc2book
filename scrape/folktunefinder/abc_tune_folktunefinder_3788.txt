@@ -1,0 +1,27 @@
+X: 3
+P: This Old Man [A]
+O: Trad
+R: polka
+M: 2/4
+L: 1/16
+K: A
+|: "A"e2c2 e4   | e2c2 e4 |  "D"f2e2 d2c2 |  "E7"B2c2    d2cd  |
+|  "A"e2A2 A2A2 | ABcd e4 | "E7"e2B2 B2d2 | "(A)"c2B2 "A"A4   :|
+S:https://www.folktunefinder.com/tunes/3788
+S:http://trillian.mit.edu/~jc/music/abc/England/HeelAndToePolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Polka_HeelAndToe.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Polka_HeelAndToe.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/HeelAndToePolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/HeelAndToePolka.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Polka_HeelAndToe.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070213/Polka_HeelAndToe.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Polka_HeelAndToe
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

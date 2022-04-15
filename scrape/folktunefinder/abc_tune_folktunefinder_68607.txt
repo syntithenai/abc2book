@@ -1,0 +1,29 @@
+X:61
+T: Am Brunnen
+N: A0063
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei J. Ott 1534 No.59.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+GGG | ddcc | d2z
+d | GA_Bc | A2A2 | z
+GGG | ddcc | d2z
+d | GA_Bc | A2A2 | z
+A=FG | A_BcA | G
+GAA | =FFG2 | D2z
+D | =FGA_B | cAG
+G | _Bcdc | A2c_B | G2_BA | F2G2 | z
+S:https://www.folktunefinder.com/tunes/68607
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

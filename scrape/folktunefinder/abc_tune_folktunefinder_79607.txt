@@ -1,0 +1,28 @@
+X:503
+T: ALS DER LIEBE GOTT
+N: E1760
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Niederlausitz
+R: Scherz - Lied, biblischer Stoff
+M: 3/4
+L: 1/8
+K: D
+FE | DDDDCD | EEz2
+GF | EEEEAG | FFz2
+FF | EEEEF^G | A2z2
+AA | ^GABcdG | A2z2
+Ac | edcBAG | FAd2
+cd | edcBAG | FAd2
+AA | dFBAGC | D2z2
+FE | DDDDCD | E2z2
+GF | EEEEAC | D2z2
+S:https://www.folktunefinder.com/tunes/79607
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Scherz - lied, biblischer stoff
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

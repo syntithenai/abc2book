@@ -1,0 +1,33 @@
+X: 2
+T: Ukrainian waltz
+O: from Susan Worland
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bm
+"B"\
+|: "Bm"B4 F2 | d3 c B2 | f3 f f2 | Tf2 ed cB \
+|  "F#7"F2 ^A2 c2 | e2 d2 c2 | "Bm"B^A Bc de | fb fe dc |
+|  "Bm"B4 c2 | d3 c B2 | f3 f f2 | Tf2 ed cB \
+|  "F#7"c2 g2 f2 | e2 d2 c2 | "Bm"B4 F2 | B6 :|
+"C"\
+|: "F#7"F2 ^A2 c2 | F2 ^A2 c2 | "Bm"B3 c dc | B2 c2 d2 \
+|  "F#7"c3 d e2 | c2 d2 e2 | Tg2 f2 e2 | "Bm"f6 |
+|  "Em"e3 f gf | eg f2 e2 | "Bm"Tdc de fe | df e2 d2 \
+|  "F#7"c2 g2 f2 | e2 d2 c2 | "Bm"B4 F2 | B6 :|
+|:  "D"A6 | {c}d2 e2 g2 | f3 e Td2 | A6 \
+|  "A7"gf ed cB | A2 B2 A2 | A4 G2 | "D"F6 |
+|   "D"A6 | {c}d2 e2 g2 | f3 e Td2 | A6 \
+|  "A7"gf ed cB | A2 B2 c2 | "D"d2 A2 F2 | D6 :|
+S:https://www.folktunefinder.com/tunes/6217
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_Ukranian.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

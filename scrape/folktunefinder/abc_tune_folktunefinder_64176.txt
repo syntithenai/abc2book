@@ -1,0 +1,25 @@
+X:14166
+T:Reel St Sauveur
+M:4/4
+R:reel
+L:1/8
+S:from Nathan Curry manuscript
+Z:added by Alf warnock@magma.ca
+Z:The third part really has nine bars in it
+K:D
+|"D"A2FA ABcd|A2FA ABcd|"Bm"F2DF FEDE|"Em"FDEF "A7"E2DF|
+"D"A2FA ABcd|A2FA ABcd|"Em"efed "A7"cABc|1 "D"dfec d2FG:|2 "D"dfec dABc
+|:"D"d2fd adfd|adfd "A7"cABc|"D"d2fd adfd|adfd "A7"cABc:|
+"D"fgfe dedB|ABAG FAGF|"A11"EADA EADA|"A7"cABc BAAd|
+"D"fffe dddB|AAAG FAGF|"A7"EecB AAcA|eAcA eABc|1 "D"dfec ddAd:|2"D"dfec d2DF|
+S:https://www.folktunefinder.com/tunes/64176
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,58 @@
+X: 1
+T: Dena's Bulgar Tunes p.1
+K: C
+K:C\
+L:1/8\
+[|"der Shtiller Bulgar"GAB | c4- | cc/e/ dc | e4- | ef/e/ dc |]\
+K:C\
+L:1/8\
+[|"Noch a bissel"c2 d>c | ee2e | e2 f>e | gg2g |]\
+K:Cm\
+L:1/8\
+[|"Epstein Bulgar (v.2)"G^FG | A2 G2 F2 E2 | D4- DG,=B,D |]
+P:
+K:Cm\
+L:1/8\
+[|"Di Goldene khasene"zG,CE | G2c2 =Bc GA | F4 zA~GF |]\
+K:Dm\
+L:1/8\
+[|"Odessa Bulgar #1"d4- | dg fe | f4- | ff ed | d4 |]\
+K:Ddor^G\
+L:1/8\
+[|"Odessa Bulgar #2"A,DF  | A2 G2 | A2 B2 | c2 B2 | AG F2 |]
+P:
+K:Dm\
+L:1/8\
+[|"A Nacht in Gan Eydn"A,DE | F2 ED | F2 ED | EF D2 |]\
+K:Dm\
+L:1/8\
+[|"Bulgar: Henry Weinstein's"DFA | d^c dA- | A^G A2 | FE FD |]\
+K:D^G\
+L:1/8\
+[|"Varshaver Freylekhs"A, D2 F | AD BD | AD GD |]
+P:
+K:D^f_B_e\
+L:1/8\
+[|"Bulgar (Russian)"FE D2 | FE D2 | FE DE | DC C2 |]\
+K:D_B_e^F\
+L:1/8\
+[|"der Heyser Bulgar"DFG | AA A2 | (3ABc (3BAG |]\
+K:DPhr\
+L:1/8\
+[|"Nifty's freylekhs"zA,2 | D2 zD | E2 zE | ^F2 zA | G^F ED |]
+P:
+K:DPhr\
+L:1/8\
+[|"Moldavian tants"DA/A/ AA AG ^F>E | DE ^FG FE D2 |]\
+y8 y8 y8 y8 y8 y8\
+y8 y8 y8 y8 y8 y8\
+S:https://www.folktunefinder.com/tunes/7490
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/incipDenaBulg.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,48 @@
+X:21
+T:Wantoness for ever more
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/3/04
+N:Petrie's First Collection, page 10
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C
+R:Reel
+K:Bm
+[V:1] "^Slow"EFGA B2B2|BAFA {A}B4|E2FG A3d  |AFEF D3F |
+[V:2]        e2B2 GFGE|E2z2  gagf|g2de fd'af|d2A2 Ddfd|
+[V:1] EFGA B2Bd|BAFA B2 de|fdeB dBAF|{F2}B4 E4:|
+[V:2] e2b2 g2g2|f2d2 g2 z2|b2g2 b2B2|zeBG   E4:|
+[V:1] |:Tf3e d2f2|e2 de B3^c|d3B  A2d2|AFEF D2de|
+[V:2] |:d'4  d4  |G4    g4  |fdfg f2d2|a2A2 D2z2|
+[V:1] f3e d2f2|e2de B2de|fdeB dBAF|B4   E4:|
+[V:2] d4  d'4 |g2G2 g2z2|b2g2 b2B2|zegb e4:|
+[V:1] |:"^Var."(E/F/E/F/)(G/A/G/A/) BfeB|(B/c/B/A/)(F/E/F/A/) B4  |EB,GE AFdB|AB/A/ FE DdAF|
+[V:2] |:       e6                     g2|z4                   zgeB|E2 e2 d2g2|fgaA     F2D2|
+[V:1] (E/F/E/F/)(G/A/G/A/). B(bgf)|(efg).f (ed)(cB)|.A(cBA) BGAF|{A}B4 E4:|
+[V:2] E2        e2          g2  b2| g2e2    c2  e2 | f2 ga  b2B2| zeBG E4:|
+[V:1] |:(fgfe) dDdf|efed ^cABc|dfdB AB^cd|AGFE DAde|
+[V:2] |:d4     f2d2|a2A2  a2g2|f2g2 f2 d2|A2a2 f2bg|
+[V:1] (fgfe) d^cdf|efde B^cde|fd/f/ eB/e/  (d/^c/B/A/)(B/A/G/F/)|B4   E4:||
+[V:2] d4     a2 f2|g2e2 g2 f2|d2    g2      b2         B2       |zeBG E4:||
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72048
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/WantonessForEverMore.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Wantoness_for_ever_more.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

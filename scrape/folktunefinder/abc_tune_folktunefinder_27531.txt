@@ -1,0 +1,25 @@
+X:7079
+T:The Merry Merry Milk Maids
+O:england
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:C
+c | "C"c>dc G2g | "C"e3-e2 c | "C"cdc "C7"G2_B | "F"A3-A2 F | \
+"F"F>GA/2B/2 "C"c2A | "Dm"d>cB/2A/2 "G"G2g | \
+"C"e>fg "G7"d2c | "C"c3-c2 || \
+c | "C"e>fg g>ag | "C7"e>fg g>fe | "F"f2g "G7"a2b | "C"c'6 | \
+"C"c'2g e>fg | "F"a2f "G7"d>ef | "C"g2e c>de | "G"d2B G>AB | \
+"C"c2c "F"A>Bc | "D7"d2c "G"B>AG | "C"c>de "G7"d2c | "C"c3-c2 ||
+S:https://www.folktunefinder.com/tunes/27531
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

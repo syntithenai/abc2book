@@ -1,0 +1,24 @@
+X: 41
+T:Silver And Gold Two-Step
+M:4/4
+R:reel
+Q:1/2=120
+L:1/8
+K:D
+f2g2 | "D"a4 f2d2 | "D"A4 d2f2 | "Em"a2g4f2 | "Em"g4 e2f2 | "A7"g4 e2c2 |
+"A7"A4 c2e2 | "D"b2a4^g2 | "D"a4 f2g2 | "D"a4 f2d2 | "D"A4 d2f2 | "Em"a2g4f2 |
+"Em"g4 e2f2 | "A7"g4 e2c2 | "A7"A4 c2e2 | "D"d4-dedc | "D"d4 || F2G2 |
+"D"A2f2 A2f2 | "D"A2f2 f2g2 | "Em"f2e4 ^d2 | "Em"e4 E3F | "A7"G2e2 G2e2 | "A7"G2e2 e2f2 |
+"D"e2d4 c2 | "D"d4 F2G2 | "D"A2f2 A2f2 | "D"A2f2 f2g2 | "G"a4 g2e2 | "G"B4 c2d2 |
+"A7"f2e4c2 | "A7"A4 c2e2 | "D"d4-dedc | d4|]
+S:https://www.folktunefinder.com/tunes/57425
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/reels.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:19
+T:Horizonto
+C:Paul James
+N:original url: www.wolfram.claranet.de
+D:Blowzabella
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:12/8
+%%staves [1 (2 3)]
+L:1/8
+Q:3/8=132
+K:Dm
+V:1
+aba gaf gef dec| A2d def {ef}e2c cde| f2f fgf ede cde| fed edc A=Bc d3|
+aba gaf gef dec| A2d def {ef}e2c cde| f2f fgf ede cde| fed edc A=Bc d3||
+|: b2d def b2d def| a2d def a2d def| b2d def b2d def |1 aba gaf gef dec:|2
+ =b2d def b2d def| _b2a2 gf e3 efg| a2g2fe d2d def| Jg2f2 ed ^c3 cde| f2g2^g2 a6|
+"|C"b2c'2b2 e3 efg| a2b2a2 d3 def| g2f2ed ^c3 cde| f2d d2c d6||
+V:2 bass1 clef=bass
+    z12        | d2dd3 c2cc3| B2BB3 c2cc3| B2BB3 E2EE3|
+A6 A6|d2dd3 c2cc3| B2BB3 c2cc3| B2BB3 E2EE2z|
+|: B3Bz2 B3Bz2      | A3Az2 A3Az2      | B3Bz2  B3Bz2      |1 E6 E5z  :|2
+  G2GG2z G2GG2z  | G2G3E C6        |    F2F3G   B3-B2B | E2E3E A2AA3     | D3E3F3^F3 |
+G2G3G C2CC3      |F2F3G   B3-B2B  |  E2E3E A2AA3 | D2D D2D D6 ||
+V:3 bass2
+G3G2z A3A2z | B3B2z A3A2z| B3B2z A3A2z| B3B2z A3A2z|
+G3G2z A3A2z | B3B2z A3A2z| B3B2z A3A2z| B3B2z A3A2z|
+|:G3G2z G3G2z |  D3D2z D3D2z| G3G2z G3G2z |1 G3^G3A3A3:|2
+ G3F3 G3F3| G3G2z C3C2C |  F3F2z B,3B,2z| E3E2z A,3A,2z| D3E3F3^F3|
+G3G2z C3C2C| F3F2z B3B2z| E3E2z A3A2z| D2DD2D D6 ||
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/64732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

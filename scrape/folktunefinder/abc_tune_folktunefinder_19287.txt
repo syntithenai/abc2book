@@ -1,0 +1,29 @@
+X: 1
+T: Crowhillock
+R: strathspey
+B: Glen Collection II
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+|: E \
+| "A"A3B A3a ec3 c3e | "E7"E3F E3c dcBA G3B \
+| "A"A3B A3a "F#m"ec3 c3e | "Bm"dcBA "E7"G3B "A"AAA2 A3 :|
+f \
+|| "A"a3b a3e "F#m"c3d e3c | "Bm"d3e d3c "E7"B3c d3B \
+| "A"a3b a3e "F#m"c3d e3c | "Bm"dcBA "E7"G3B "A"AAA2 A3 ||
+f \
+|| "A"a3b a3e "F#m"c3d e3c | "Bm"d3e d3c "E7"B3c d3B \
+| "A"AE3 cA3 "F#m"ec3 a3c | "Bm"dcBA "E7"G3B "A"AAA2 A3 |]
+S:https://www.folktunefinder.com/tunes/19287
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Crowhillock.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Crowhillock.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/Crowhillock.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

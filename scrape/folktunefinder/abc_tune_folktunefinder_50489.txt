@@ -1,0 +1,27 @@
+X:2
+T:Zuiderzee Ballade
+L:1/8
+M:4/4
+K:G
+P:Intro
+B2c2B2 |"D7"A3 F(D4 |D2)c2 B2 A2|"G" G2B2"Cis"f2e2| "D"[F8A8d8]||
+"G"DDDD E2 D2|G2 G6|"C"[EG][EG][EG][EG]"Cm" [_E2A2] [E2G2]| "G"[G8B8]|"D7" [FA][FA][FA][FA] B2c2|
+"G"B2G4z2|"A" BAGF ^D2 E2|"D7" [A8F2]E2_E2D2| "G"DDDD E2D2|
+"G" G2 G6|"C"[EG][EG][EG][EG] [_E2A2] [E2G2]|"G"[G8B8]|BAGF ^D2 E2|
+"D"B2 A4 z2|"A7"AGFE "D" F2 G2| "D7" A2 D2 B,2 C2|: "G" D4(D4|"G" D2) "C".E2 .G2 "Cm"A2|
+"G"[G4B4] ([G4B4]| [G2B2])B2A2G2|"D7" [F3A3] F (D4|"G"D2) A2 G2A2|(B8|
+"G"B2) D2B,2C2| D4 (D4|"G" D2)"C" E2 [E2G2] "Cm" [_E2A2]| "G" [D4B4] ([D4B4]|[D2B2])[G2B2][F2A2]G2|
+"D7" A3 F (D4| D2) [E2c2][D2B2][C2A2] |([B,8G8]|[B,2G2]) G2 "D7" F2 "G7"=F2|
+"C" [C4E4][C2E2] "D7"[D2F2]|"C" [E4G4] "D7" [D2F2] "C" [C2D2]|"G" D4 G2A2 |"G" [G8B8]|"A7" [G3B3] [FA] [F2A2] [E2G2]|
+"A7"[G4D4] [D2F2]  [E2G2]|"D"([F8A8]|"D7"[F2A2])D2B,2C2| "G" D4 (D4|
+D2) "C" E2 [E2G2] "Cm"[_E2A2]| "G" [G4B4] ([G4B4]|[G2B2]) [D2B2] "C"[E2B2] "G"[D2B2]| "D7" [C3A3] [CF] ( [C4D4]|
+"D7"[C2D2]) [E2c2][D2B2] [C2A2] |"G" ([B,8G8] |1[C2G2]) D2 B,2 C2:|2 [B,6G6]||
+S:https://www.folktunefinder.com/tunes/50489
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

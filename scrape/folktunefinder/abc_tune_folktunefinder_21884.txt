@@ -1,0 +1,20 @@
+X:1435
+T:Dance in Queen Mab.
+O:england
+M:6/8
+L:1/8
+K:G
+A| B2c     ded| c2B     ABc| dBG      E2A    |FDF G2||
+A| B2G     c2A| B2G     A2g| dBG      E2A    |FDF G2::
+d| g2d     gdB| g2B     a2c| Bcd      E2A    |FDF G2::
+A|(B/c/dB) c2e|(A/B/cA) B2d|(G/A/cA) (A/B/cA)|FDF G2:|
+S:https://www.folktunefinder.com/tunes/21884
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

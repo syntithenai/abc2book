@@ -1,0 +1,28 @@
+X:106
+T: Floh - Hatz
+N: A0467
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No.37.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+g | gggg | =f2e
+d | eddc | d2z
+g | gggg | =f2e
+d | dBcA | G2z
+G | BBcc | d2d
+d | eddc | d2z
+G | de=fd | g2g
+g | dBcA | G3
+S:https://www.folktunefinder.com/tunes/80165
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

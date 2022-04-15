@@ -1,0 +1,28 @@
+X: 52
+T: 2. Isles of Gletness
+R: Waltz
+D: Phil Cunningham & Aly Bain 'The Ruby' GLCD 3123 Track 8
+Z: ABC Notation by Robin Shaylor, August 2005
+L: 1/4
+M: 3/4
+% Q: 154
+K: G
+B/c/|\
+"G" d>ed | "G7" B>AG | "C" E>FG | "G"   GD B/c/ | "Bm"  d>ed | "Em"  B>AG | "Am7" E>GB | "D7" A2 B/c/   |
+"G" d>ed | "G7" B>AG | "C" E>FG | "G/B" GD A/B/ | "Am7" c>de | "G/B" d>BG | "D7"  D>FA | "G" G3         |
+"C" E>Gc | "D7" e2 c | "G" D>GB | "Bm"  d2 B    | "Em"  G>FG | "Em7" G2 E | "A7"  E>GB | "D7" A2 B/c/   |
+"G" d>ed | "G7" B>AG | "C" E>FG | "G"   GD A/B/ | "C"   c>de | "G/B" d>BG | "D7"  D>FA | "G" G2 "(A7)" :|
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 29 of 31
+S:https://www.folktunefinder.com/tunes/40155
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

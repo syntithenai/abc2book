@@ -1,0 +1,27 @@
+X: 2
+P: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+|: [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"[d2F2] z2 [B2D2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [f2B2] \
+| "F7"([A2e2][E2A2]) | "Bb"[B2D2] z2 :|
+|: [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"[F2d2] z2 [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [F2d2] \
+| "F7"([E2c2][C2A2]) | "Bb"[B2D2] z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4959
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_OanzigsHendl_FBb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,44 @@
+X: 13
+T:Richmond Cotillion
+S:The Portland Collection
+C:The Portland Collection
+M:4/4
+L:1/4
+K:D
+"D"[DA]ff/g/f/e/|\
+dFA3/d/|\
+"A"cBAB|\
+A/B/A/G/F/G/F/E/|\
+dFA3/d/|\
+"D"dFA3/d/|\
+"A"cAB/A/c/A/|\
+"D"d4::\
+K:A
+"A"e/f/e/d/c/d/e/f/|\
+ace2|\
+"E"BcdB|\
+"A"c/d/c/B/A/B/c/d/|\
+K:A
+"A"e/f/e/d/c/d/e/f/|\
+ace3/a/|\
+"E"gef/e/g/e/|\
+"A"\
+|1 \
+a4:|\
+"A"\
+:|2 \
+a2"A7"g2:|\
+S:https://www.folktunefinder.com/tunes/18027
+S:http://trillian.mit.edu/~jc/music/abc/reel/RichmondCotillion.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/RichmondCotillion.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/RichmondCotillion.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

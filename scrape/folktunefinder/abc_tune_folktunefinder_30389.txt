@@ -1,0 +1,24 @@
+X:400
+T:la Counterfaitte
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000118.html
+%%ID:00000118
+K:G
+D|\
+G2G G2D| A2D B2d| c2B A2G| FGA D2D|\
+G2G G2D| A2D B2d| c2B BAG| AGF G2::
+B/d/|\
+e2G Gce| d2G GBd| c2B A2G| FGA D2B/d/|\
+e2G Gce| d2G GBd| c2B BAG| AGF G2:|
+S:https://www.folktunefinder.com/tunes/30389
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

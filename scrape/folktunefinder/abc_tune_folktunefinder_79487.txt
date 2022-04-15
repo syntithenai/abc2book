@@ -1,0 +1,25 @@
+X:383
+T: BIN I NET A LUSTIGERFUHRMANNSBUE
+N: E1574
+O: Europa, Mitteleuropa, Deutschland, Nieder - Bayern, Mittel - Franken
+R: Staende - Lied, Fuhrmann
+M: 3/8
+L: 1/16
+K: F
+ | fAc3d | c2B2B2 | A2ABc2
+fAc3d | c2B2B2 | A4z2
+G2G3A | B2BAG2
+A2A3B | d2c=Bc2
+fAc3d | c2B2B2 | A2ABc2
+fAc3d | c2B2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/79487
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, fuhrmann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

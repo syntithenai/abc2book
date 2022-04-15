@@ -1,0 +1,27 @@
+X:31
+T: IST DENN LIEBEN EIN VERBRECHEN
+N: E0645
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Elsass
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: C
+ | G,2C2E,2 | D,4F,2 | D,2B,2A,2 | G,2E,2z2
+G,2E2C2 | G,2E,2G,2 | B,3A,G,2 | E,4z2
+G,2C2E,2 | D,4F,2 | D,2B,2A,2 | G,2E,2z2
+G,2E2C2 | G,2E,2G,2 | B,3A,G,2 | E,4z2
+D,E, | F,2G,2B,3A, | G,CE4
+DC | B,2D,2F,2A,G, | E,4z2
+G,G, | A,2A,2DCB,A, | E,A,G,2z2
+G,G, | A,2G,2A,2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/76516
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

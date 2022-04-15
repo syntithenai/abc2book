@@ -1,0 +1,27 @@
+X: 62
+P: Bukken i B\aaten
+R: shottish (reinlendar)
+O: Norway
+B: Folklore Village booklet
+M: C
+L: 1/8
+K: D
+"A7"AG \
+| "D"F>A dA "A7"FG EC | "D"D2 FA d2 fa \
+|1,3 "E7"^g<b ed "A"c<e AG | "D"F<A "E7"^G<B "A"A2 \
+:|2,4 "E7"^g<b ed "A"c<e Bc | "D"d2 d2 d2 :|
+K:A
+|: "E"E2 GB "A"A2 ce | "D"a>g af "A"fe ec | "E7"d2 ef "A"~fe ce \
+|1,3"E7"e<d BG "A"A2 Ac \
+:|2,4 "E7"e<d BG "A"A2 z2 :|
+S:https://www.folktunefinder.com/tunes/8475
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Shottish.abc
+% Rhythm Shottish (reinlendar)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

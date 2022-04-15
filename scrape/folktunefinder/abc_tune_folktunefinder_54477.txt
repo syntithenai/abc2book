@@ -1,0 +1,30 @@
+X:11728
+T: New Figary
+M:4/4
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:Dm
+F|B>Bc>c d>efd|edc>B B3 F|B>Bc>c d>efd|g>f=e>f f3 F|\
+B>Bc>c d>efd|edc>B B3 F|B>Bc>c d>efd|g>f=e>f f3 F::\
+f>fg>a b2 ab|g>ga>g ^f2 de/2f/2|gggf =e2 cd/2e/2|fdc>B B4|\
+f>fg>a b2 ab|g>ga>g ^f2 de/2f/2|gggf =e2 cd/2e/2|fdc>B B4::\
+M:6/8
+dfd c>BA|B2 F B2 c |dfd c>BA|B3 d3|dfd c>BA|B2 F B2 c |dfd c>BA|B3 d3::\
+dfd f3 | dfd f3| g>ab d>ed| c2 B B3|dfd f3 | dfd f3| g>ab d>ed| c2 B B3:
+|
+S:https://www.folktunefinder.com/tunes/54477
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

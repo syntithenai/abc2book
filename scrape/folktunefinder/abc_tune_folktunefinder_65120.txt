@@ -1,0 +1,23 @@
+X: 32
+T:St. Bruno
+% Nottingham Music Database
+S:Chris Dewhurst, via Phil Rowe
+M:6/8
+K:Dm
+A|"Dm"d2e f2g|"Dm"a2d "G"def|"C"g2c cde|"Bb"fed "Am"c=BA|
+"Dm"d2e "A7"f2g|"Dm"afd "Gm"b2g|"Dm"fed "A"ed^c|"Dm"d3 -d2::
+a|"Dm"add "Gm"bdd|"Dm"add fef|"Gm"g2b d'c'b|"Dm"a3 d3|
+"Gm"g2a bag|"Dm"afd A2f|"A"e^cA f2e|"Dm"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/65120
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

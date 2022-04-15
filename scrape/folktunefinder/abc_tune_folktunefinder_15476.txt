@@ -1,0 +1,25 @@
+X: 1
+T: House of Parliament
+O: Kalle Alml\of
+R: g\aangl\aat
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: DDor
+|: A^c \
+|| "Dm"d2d^c d2e2 | f2gf e2d2 | "A7"^cdef ecec | A4 d3e | "Dm"(f2ff) fefg |
+| (a2a2) abag |1,3 "A7"e2g2 "Dm"fgfd | "A7"e6 :|2,4 "A7"e2g2 fgfe | "Dm"d6 :|
+|: A^c \
+|| "Dm"d2d^c d2"C7"=c2 | "F"A2A2 F3F |1,3 "A"EFED "G"DGBG | "A"A2AB A2 :|2,4 "A"EFED A^cec | "Dm"d2d^c d2 :|
+S:https://www.folktunefinder.com/tunes/15476
+S:http://trillian.mit.edu/~jc/music/abc/march/HouseOfParliamentG_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/HouseOfParliamentG_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/snoa/HouseOfParliamentG_3.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1
+T:Juanita's Jig
+M:6/8
+L:1/8
+C: Paul Gitlitz 1984
+S:"glitchless"  tradtunes 2002-8-23
+W:For an old friend and good caller.
+K:G
+"G"gfg "C"age | "G"dBG BdB | "D"DFA cAF | "G"DGB d^cd |
+"G"~g3 "C"age | "G"dBG BdB | "D"DFA cAF | 1"G"GDB, G,ef :|2 "G"G2G GFE ||
+|: "D"DFA cAF | "G"DGB d^cd | "D"DFA cBc | "G"d^cd edB |
+"*G"~g3 "C"age | "G"dBG BdB | "D"DFA cAF |1 "G"G2G GFE :|2 "G"G3 |]
+"*last time"g2(3ggg "C"age | "G"dBG .dzd | "D"ded cBA | "G"G2G,G,2z ||
+S:https://www.folktunefinder.com/tunes/14443
+S:http://trillian.mit.edu/~jc/music/abc/jig/JuanitasJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/JuanitasJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JuanitasJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/JuanitasJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

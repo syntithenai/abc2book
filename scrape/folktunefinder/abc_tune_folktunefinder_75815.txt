@@ -1,0 +1,29 @@
+X: 3
+T:Shepherds' Hey,  Ferris - 'Shepherds' Aid'
+M:4/4
+L:1/8
+Q:120
+S:Ferris - Shepherds' Aid
+R:Hornpipe
+A:Bidford
+P:A2(AB)6A
+K:G
+P:A
+c|B>cd>B c2c2  |B>cd>B A2A2|B>cd>B c2Bc|d2D2 G3A||
+P:B
+B2G2   c2>>A2|B2G2   A4  |B>cd>B c2Bc|d2D2 G3||
+S:https://www.folktunefinder.com/tunes/75815
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

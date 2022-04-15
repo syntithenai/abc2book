@@ -1,0 +1,25 @@
+X:1120
+T:Cockscomb bourre
+M:3/4
+O:France
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a9a.html
+%%ID:00000a9a
+K:C
+A FE |\
+D2 DF ED | A4 AB | cB Ad cB | cB AG FE |\
+D2 DF ED | A4 AB | cB Ad cB | A3 :|
+|: A de | \
+f2 Af Af | _B4 de | fd gf ed | ^c2 d2 e2 |\
+f2 Af Af | _B4 de | fd gf e^c | d3 :|
+S:https://www.folktunefinder.com/tunes/36303
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

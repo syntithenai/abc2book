@@ -1,0 +1,38 @@
+X:1
+T:6. Schuetzenmarsch aus Hall
+A:Tirol
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "Pfeifermusik aus Tirol", Karl Horak, Edition Helbling, Innsbruck, 1982
+N:im buch: s. 12 nr. 16, in D, zweistimmig
+S:mit der angabe: aufgezeichnet 1931 von Adalbert Koch bei Otto und Ludwig Leitner. DtVl 34(1932)
+N:im buch: s. 74f, Koch s. 13ff 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:D
+A |\
+(AF)A (AF)A | B2B TA3 | GAG F2F | AGF E2A |\
+(AF)A (AF)A | B2B TA3 | GAG F2F | "fine"EFE D2D ||
+K:G
+{E}Dz DG3 | {F}Ez EA3 | F2cF2c | B2GD3 |\
+{E}Dz D Gz G | {F}Ez EA2G | FED cBA | "dacapo al fine"G3z |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/55873
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/6._schuetzenmarsch_aus_hall.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1370
+T:the Devils Dream
+A:North-West
+M:C|
+N:P24 1/2
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000590.html
+%%ID:00000590
+K:A
+f |\
+eaga eaga | eaga fedc |   dfBf dfBf | dfBf edcB |\
+eaga eaga | eaga fedc | ! defg a2gf | edcB A4   ::\
+ceAe ceAe | ceAe fedc |   dfBf dfBf | dfBf edcB |
+ceAe ceAe | ceAe fedc |   defg a2gf | edcB A4   ::\
+g2 |\
+aece aece | aece agfe | ! bfdf bfdf | bfdf bagf |\
+aece aece | aece aedc |   defg a2gf | edcB A4   :|
+S:https://www.folktunefinder.com/tunes/36353
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

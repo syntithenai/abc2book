@@ -1,0 +1,27 @@
+X:114
+T:Off To California
+M:4/4
+L:1/8
+Q:140
+K:G
+|: (3DEF|G>F G>B  A>G E>D |
+G>B d>g  e2 (3def|g>f g>d  e>d B>G |
+A>B A>G  E2 (3DEF|
+G>F G>B  A>G E>D |G>B d>g  e2 (3def|
+g>f g>d  e>d B>G |A>B A>F  G2:|
+|: (3def|g>f e>g  f>e d>f |
+e>d e>f  e>d B>d |g>f g>d  e>d B>G |
+A>B A>G  E2 (3DEF|
+(3GAG B>G  A>G E>D |G>B d>g  e2 (3def|
+g>f g>d  e>d B>G |A>A E>F  G2:|
+S:https://www.folktunefinder.com/tunes/52320
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

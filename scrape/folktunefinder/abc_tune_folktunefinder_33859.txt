@@ -1,0 +1,25 @@
+X: 4702
+T:Deligurgh Two-step
+C:Trad
+S:Unknown, photocopy from John Wilson
+I:speed 280
+M:2/4
+K:D
+|: B3c B2A2 | Bcde f4 | e3f e2d2 | c2A2 A3e |
+B3c B2A2 | Bcde f4 | e2a2 a2ef | d2B2 B4:|
+|: f4 B3c | B2f2 f4 | e2f2 e2d2 | c2A2 A3e |
+|[1f4 B3f | B2f2 f4 | e2a2 f2ef | d2B2B4:|
+|[2B3c B2A2 | Bcde f4 | e2a2 f2ef | d2B2 B4|
+M:4/4
+S:https://www.folktunefinder.com/tunes/33859
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

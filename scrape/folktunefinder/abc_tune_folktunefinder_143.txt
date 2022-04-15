@@ -1,0 +1,19 @@
+X: 4
+M: 2/4
+L: 1/16
+P: The Market Lass
+K: D
+ag \
+| "D"f2d2 dcdf | "A7"e2c2 A2Bc | "D"dcde fefg | f4 "A7"e2ag | "D"f2d2 dcdf |
+|"A7"e2c2 A2d2 | "A7"cdef gedc | "D"d2d2 d2 :: FG | "D"AGAB ABcd | "A7"ecec A2EF |
+|"A7"GFGA Gced | "A7"cBAG "D"F2FG | "D"AGAB Adcd | "G"BABc "Em"Be"(#)"de | "A7"cdef gedc | "D"d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/143
+S:http://trillian.mit.edu/~jc/music/abc/Contra/MarketLass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

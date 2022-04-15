@@ -1,0 +1,25 @@
+X: 4811
+T:Jig of Slurs
+M:6/8
+L:1/8
+S:Boys of the Lough; Johnny Cunningham
+K:D
+Add dcd|Bdd Add|Bdd Add|Bee edB|!
+Add dcd|Bdd Add|Bdd cde|fdc d2B:|!
+|:A2f fef|a2f fed|B2e ede|f2f edB|!
+A2f fef|a2f fed|Bdd cde|fdc d2B:|!
+K:G |:G2g gfg|agf gdB|G2g gfg|agf gab|!
+G2g gfg|agf gdB|e2e efg|fed edB:|!
+|:GBB Bdd|dee edB|GBB Bdd|dee efg|!
+GBB Bdd|dee edB|e2e efg|fed edB:|!
+S:https://www.folktunefinder.com/tunes/33968
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

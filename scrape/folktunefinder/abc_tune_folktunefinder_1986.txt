@@ -1,0 +1,33 @@
+X: 49
+T:Queens March. JMP.49
+M:C
+L:1/8
+Q:175
+C:"54"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Most unusually for Mr. Miller, the key signature is given as D. At the
+N:end there is a $ = repeat to sign and the word 'end' and two dots but
+N:no bar lines.
+H:1799
+Z:vmp.C. Graebe
+K:D major
+A | "as writ"d3 A>BA>G z | F2D2F2A2 | d3f e3 f | g>fe>d d>cB>A |!
+d4 A>BA>G | F2D2F2A2 | d>fe>d a2 gf | e2 e>e e2 z :|!
+|:e>f | g3 e d>cB>A | .f2 .d2 .f2 .d2 | g3 e d>cB>A | .a2 .f2 .a2 .f2 |!
+ d3f e3 f |  d>cB>A a3g | f>ef>g f2 e2 | d2 d>d d :|]
+S:https://www.folktunefinder.com/tunes/1986
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

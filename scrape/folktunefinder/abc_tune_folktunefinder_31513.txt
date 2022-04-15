@@ -1,0 +1,26 @@
+X: 1006
+T:The  has got his wife again
+M:2/2
+L:1/8
+S:Armitt MS
+N:No key signature is given, but it is written on the same page as Lord
+N:Cornwallis's March, in a different handwriting, starting part way along
+N:a line which has the key signature and the last couple of bars of LCM,
+N:I think it is intended to follow on in the same key.  The lines of the
+N:stave in the B music are almost non-existent in places.  The second
+N:four quavers in the first full bar are dubious, and the four B's in the
+N:next bar might be C's
+K:D major
+B2|dABF A/2A/2A AB|dABF E/2E/2E Ee|dABF Agfe|dBAF D/2D/2D D2:||:g|fdaf f
+gfe|fdaf B/2B/2B Bg|fdafegfe|dBAF D/2D/2D D2:||
+S:https://www.folktunefinder.com/tunes/31513
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

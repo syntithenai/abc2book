@@ -1,0 +1,45 @@
+X:215
+T:Careu de Silvamayor (XA 28)
+R:Careu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baille del Oucidente asturianu.
+N:El ritmu ye tenrariu.
+N:Los bailladores dancien en rueda y van cambiando de parexa demientres van dando vueltes, dndose la cara "carendose".
+N:Nes braes de Silvamayor, Emberniegu, Busecu y Aristbanu cntase con payel.la.
+N:Nes de Tinu acompase de pandeiru redondu y payel.la.
+A:Asturies
+O:Silvamayor (Lluarca)
+Z:Mtodu de Xuacu Amieva 28
+M:3/8
+L:1/8
+Q:3/8=84
+K:C
+~G
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,E~D|C2 C :|
+|: C>DE|FGG|~A2 G|~FGG|~A2 G|~EGF|~E2 D|C3 :|
+|: GGG|F G/F/ E|DEE|F G/F/ E|GGG|F G/F/ E|D E/F/E/D/|[1 C2 C :|[2 C2 ~G|
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,E~D|[1 C2 C :|[2 C3-|C2 ~E|
+|: G2 ~E|G2 G|GA~G|FFG/A/|B2 ~A|GFG|~A G2-|G2 ~E|
+|G2 G|GA~G|F~EG|F~ED|C2 C/D/|EFG|F2 ~E|D C/B,/C/D/|[1 C3-|C2 ~E :|[2 C3-|C2 ~G|
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,E~D|[1 C2 C :|[2 C3-|C2 C|
+|: F~ED|C B,/C/D/E/|F G/F/E/D/|~GEC|F~ED|C B,/C/D/E/|F G/F/E/D/|[1 C2 C :|[2 C2 ~G|
+|: C>DE|F~ED|C>DE|F~ED|CF~E|D2 D|
+|B,>CD|E~DC|B,>CD|E~DC|B,E~D|[1 C2 C :|[2 C3-|C2 C|
+S:https://www.folktunefinder.com/tunes/59102
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Careu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

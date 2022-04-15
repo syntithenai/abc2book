@@ -1,0 +1,23 @@
+X:144
+%%topmargin 3cm
+T:The St. Kilda Wedding
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C|
+L:1/8
+K:A
+A/2A/2A {/B}A2 A>cec | B/2B/2B {/d}cA {/G}F2 (EF) | A/2A/2A {/B}A2 Acec | f/2f/2f Tfe fef{/a}g ::
+Ta(gab) aeea | fgag {ag}f2 (ed) | cefg agfa | daca B2 (AF) :|
+S:https://www.folktunefinder.com/tunes/70891
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

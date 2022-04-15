@@ -1,0 +1,29 @@
+X:35
+T:Lansierskadril2
+T:2de figuur
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:ABC x2 A
+L:1/8
+M:2/4
+K:F
+P:Voorspel
+C | "F" FF/F/ FF | F>C D/E/F/G/ |AA/A/ "C7"GE | "F"F2 z |]
+P:A
+C | "F" FF/F/ FF | F>C "C7"D/E/F/G/ | "F" [AF][A/F/][A/F/] [AF][AF] | [AF]>E "C7" F/G/A/B/ |
+"F" [cA][c/A/][c/A/] [cA][fA] | [cAF]A/B/ [cA][fA] | [cA]A/B/ "C7"[c/E/]B/A/G/ | "F"F z [FCA,] |]
+P:B
+C | "F"FF "C7"E/D/E/C/ | "F"FF "C7"E/D/E/C/ | "F"FG/A/ "C7"B/A/G/F/ | E/F/G/A/ G/C/D/E/ |
+"F" FF "C7" E/D/E/C/ | "F"FF "C7" E/D/E/C/ | "F" FF/A/ "C7"G/B/E/G/ | "F" F2 F |]
+P:C
+F | "C7"E[cE] [cE][cE] | "F" c/B/A/G/ FF | "C7"EC CD/E/ | "F" F/E/F/G/ A/G/A/F/ |
+"C7"E[cE] [cE][cE] | "F" c/B/A/G/ Ff | Ff "C7"c/B/A/G/ | "F" F2 [fcA] |]
+S:https://www.folktunefinder.com/tunes/40616
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

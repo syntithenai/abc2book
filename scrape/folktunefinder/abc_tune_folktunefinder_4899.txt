@@ -1,0 +1,23 @@
+X: 1
+M: 34/44
+L: 1/8
+P: Herz Siebner
+K: F
+[cA][BG] \
+| "F"[A4F4] [c2A2] | "C7"[G4E4] [c2E2] \
+| "F"[A4C4] [G2B,2] | [F6A,6] \
+| "C7"[G3B,3][AC][B2D2] | [A4C4][G2B,2] \
+| "F"[F6-A,6-] | [F4A,4] [AF][BG] |
+| "F"[c2A2][A2F2] [c2A2][A2F] | "C7"[c2A2][B2G2] [G4E4] \
+| [cB][cB] [c2B2] [e2c2] | "F"[cA][cA][c2A2] [f2c2] \
+| "F"[c2A2][A2F2] [c2A2][A2F2] | "C7"[c2A2][B2G2] [G4E4] \
+| [cB][cB] [c2B2] [e2c2] | "F"[f2A2] z2 :|
+S:https://www.folktunefinder.com/tunes/4899
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_HerzSiebner.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_HerzSiebner.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

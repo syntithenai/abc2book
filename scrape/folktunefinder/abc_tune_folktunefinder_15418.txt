@@ -1,0 +1,24 @@
+X:1
+T:Earl Grey
+C:Trad
+Z: SiGarb:aol.com tradtunes 2002-6-20
+N:from Pete Coe
+N:abc by Simon Garbutt
+N:originally a strathspey, apparently
+M:4/4
+K:G
+L:1/8
+G3 A G2 D2 | E2 G2 D2 B2 | c2 A2 cBAG | F2 A2 A2 BA | G3 A G2 D2 | E2 G2 D2 B2 |
+c2 e2 d2 ef |1 g2 G2 G4 :|2 g2 G2 G2 ef || g2 G2 f2 G2 | e2 G2 d2 G2 | c2 A2 cBAG |
+F2 A2 A2 ef | g2 G2 f2 G2 | e2 G2 d2 G2 | c2 e2 d2 ef |1 g2 G2 G2 ef:|2 g2 G2 G4 ||
+S:https://www.folktunefinder.com/tunes/15418
+S:http://trillian.mit.edu/~jc/music/abc/march/EarlGrey_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/EarlGrey_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/EarlGrey_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Miss Jessy Cumming
+R: strathspey
+B: Athole
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C
+L: 1/16
+K: D
+B \
+| "D"A3F d4 A3F "G"dB3 | "D"A3F "G"GFED "A7"E2e2 e2fg \
+| "D"af3 "A7"ge3 "Bm"fd3 "A"ec3 | "Em"d3B "A"AF3 "D"Ad3 d3 :|
+g \
+| "D"fa3 da3 "A7"ca3 Aa3 | "D"fa3 df3 "G"g2e2 "A7"e2fg \
+| "D"fa3 da3 "A7"ca3 Ag3 | "D"f3d "A7"fedc "D"dD3 D3 ||
+g \
+| "D"fa3 da3 "A7"ca3 Aa3 | "Bm"fa3 df3 "Em"g2e2 "A7"e2fg \
+| "D"fd3 "A"ec3 "Bm"d3B AF3 | "G"G3B "A7"AF3 "D"Dd3 d3 |]
+S:https://www.folktunefinder.com/tunes/19551
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissJessyCumming_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissJessyCumming_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

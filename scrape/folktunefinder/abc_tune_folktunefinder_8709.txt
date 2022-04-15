@@ -1,0 +1,30 @@
+X: 2
+P: Trondheimar
+O: Norway
+R: mixed
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"vals"\
+|: AB \
+| "F"c(c f)(f a)f | c4 ~c2 | "C7"dc c2 c2 | "F"c3 AFA \
+| c2 =Bc ed | Ac fa g"(#)"f | "C7"ga bc eg | "F"f4 :|
+M: 2/4
+L: 1/16
+"feiar"\
+|: A2 \
+| "Dm"d^cdf "A7"e^cA2 | "Dm"aefd "A7"e^cA2 | "Dm"FAEA DFAd | "A7"^ceAc "Dm"d2 :|
+"polka"\
+|: cB \
+| "F"A2f2 c2a2 | c2dc BAGF | "C7"E2g2 g2bg | efge "F"f2 :|
+S:https://www.folktunefinder.com/tunes/8709
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FeiarMedVals.abc
+% Rhythm Mixed
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

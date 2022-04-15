@@ -1,0 +1,25 @@
+X:6
+T: Es waren drei Schelmen
+N: L0057
+O: Europa, Mitteleuropa, Deutschland
+N: Aus dem Siebengebirge vor 1860
+R: Lied
+M: 4/4
+L: 1/8
+K: G
+B2 | E2FGA2GF | G2A2B4 | z2
+GAB2AG | F2E2z2
+G2 | A2ABdcBA | B2G2G2G2 | A2B2G2
+S:https://www.folktunefinder.com/tunes/80005
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

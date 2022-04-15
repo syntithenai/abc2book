@@ -1,0 +1,50 @@
+X:1
+T:All I Want For Christmas Is A Concertina
+Z:Martin_Dring <mdoering@comlineag.de>
+M:4/4
+L:1/4
+K:G % transposed from A
+D|[Bd] [Bd] [Bd] [ce]|[Bd] [Ac] [GB] [Bd]|[Ac] ([F3A3]|[F3A3]) [Bd]|\
+[df] [df] [cf] [eg]|[fa] [eg] [df] [ce]|[ce] ([B3d3]|[Bd]) d/e/ d D|
+[Bd] [Bd] [Bd] [ce]|[Bd] [Ac] [GB] [Bd]|[Ac] ([F3A3]|[F3A3]) [Bd]|\
+[df] [df] [df] [ce]|[Bd] [Ac] F [FA]|[FA] ([B,3G3]|[B,3G3]) D|
+[Bd] [Bd] [Bd] [ce]|[Bd] [Ac] [GB] [Bd]|z [A2c2] [Bd]|[Ac] [F2A2] [Bd]|\
+[df] [df] [df] [eg]|[fa] [eg] [df] [ce]|[ce] ([B3d3]|[B3d3]) D|
+[Bd] [Bd] [Bd] [ce]|[Bd] [Ac] [GB] [Bd]|z [E2c2] [Bd]|[c2e2] [eg] [eg]|\
+[df] [Bd] [ce] [Ac]|[Bd] [GB] [Ac] [FA]|([B4G4]|[B,3G3]) [Bd]|
+|:[ce] z [E2c2]|B/c/ d [G2B2]|A/G/ A/B/ c/F/ G/A/|G/F/ G/A/ B/G/ A/B/|
+[ce] z [E2c2]|B/c/ d [G2B2]|A/G/ A/B/ c/F/ G/A/|1 G B/d/ [Bg] [Bd]:|2 G B/d/ g |]
+%
+W:My father asked me what I want for Christmas.
+W:A bicycle, a baseball bat and glove.
+W:What I told him he found really quite surprising.
+W:Something to play the music that I love.
+W:
+W:Refrain:
+W:All I want for Christmas is a concertina.
+W:The people love to hear its happy sound.
+W:All I want for Christmas is a concertina,
+W:so I can play my polkas all year 'round.
+W:
+W:My mother asked about this concertina.
+W:Would it be played or would it lay around
+W:I said that if I got a concertina,
+W:I'd learn to play and never put it down.
+W:
+W:Refrain
+W:
+W:The years have come and gone now since that Christmas.
+W:I've played around this country far and wide.
+W:At times I think about that Christmas morning,
+W:and the gift that had my squeezebox stuck inside.
+W:
+W:Refrain
+S:https://www.folktunefinder.com/tunes/15918
+S:http://trillian.mit.edu/~jc/music/abc/misc/AllIWantForChristmasIsAConcertina.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/AllIWantForChristmasIsAConcertina.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

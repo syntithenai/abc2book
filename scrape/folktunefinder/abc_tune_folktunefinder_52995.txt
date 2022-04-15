@@ -1,0 +1,31 @@
+X: 106
+T:O'er The Hills And Far Away. JMT.103
+M:4/4
+L:1/8
+Q:210
+S:J.Moore,Tyneside,1841.(72)
+R:Reel
+O:England
+A:Northumbria
+Z:vmp.Chris Partington
+K:G
+DE|G3A GABA|G2E2E2DE|G3A GABG|B2A2A2DE|!
+G3A GABG|G2E2c4|E2D2DEGA|B2A2A2:|!
+|:Bc|d3e dcBA|G2E2E2Bc|d3e dBAG|B2A2A2Bc|!
+d3e dcBA|G2E2c4|E2D2 DEGA|B2A2A2:|!
+|:DE|GABA GABA|G2E2E2DE|GABA GABA|B2A2A2DE|!
+GABA GABA|AGFEc4|D2D2DEGA|B2A2A2:|!
+|:Bc|dgfe dBAB|G2E2E2Bc|dgfe dBAG|B2A2A2Bc|!
+dgfe dcBA|G2E2c4|E2D2DEGA|B2A2A2:||
+S:https://www.folktunefinder.com/tunes/52995
+S:http://www.village-music-project.org.uk/abc/j_mooret.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

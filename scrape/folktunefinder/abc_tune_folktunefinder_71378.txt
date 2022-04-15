@@ -1,0 +1,25 @@
+X:349
+%%topmargin 3cm
+T:Francis Sitwell
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+B | F>BD>B {/^F}G2 (E>G) | F>f (e/d/)(c/B/) (A<c) (Tcd/e/) | d>BF>D {/^F}G2 (E>G) | F>B (A/B/c) (ddg>e Tf2 (d>g) |
+f>d (e/d/)(c/B/) A<c (Tcd/e/) | [1 f>dg>d f>db>d | (e/d/)(c/B/) F>c ddB>F {/^F}G2 (E>G) | F>B (A/B/c) (d<B) ~B |]
+S:https://www.folktunefinder.com/tunes/71378
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Francis_Sitwell.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0349.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

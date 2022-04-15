@@ -1,0 +1,27 @@
+X:59
+T: ICH WILL ZU LAND AUSREITEN
+N: Z0060
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze, Ballade
+M: 4/4
+L: 1/8
+K: G
+G2 | _B2B2c2c2 | d4d4 | z2
+d4d2 | d2e2=f2d2 | d6
+d2 | d2e2=f2d2 | _e4d2
+d2 | c2_B2d2B2 | _B6
+B2 | _BBc2c2c2 | d4d2
+d2 | c2_B2B2B2 | =F6
+d2 | d3c_B2d2 | _e2d2d2_B2 | c4d2
+c2 | _BBG2G2E2 | =F6G2
+S:https://www.folktunefinder.com/tunes/68918
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

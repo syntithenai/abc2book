@@ -1,0 +1,27 @@
+X: 1
+T: Polska fr\aan Boda efter Anders Sparf
+O: Dalarna, Sweden
+R: Boda-polska
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+E2 \
+| "A"A4 (A3B) c3d | e4 (efed) c3e | a4 (a3e) A3c | "E7"e4 e6 (d2|
+| "A"c3B) (A3B) c3d | e4 (efed) c3e | a4 (a3e) A3c | "A7"e4 e6 ||
+|: (e2 \
+| "D"f3e) f4 d3e | f4 d6 f2 | "A"a4 (efec) A3c | e4 e6 (e2 |
+| "Bm"f3e) (d3c) (B4- | "E7"B3A) (B3c) d3e | "D"f4 (efec) "E7"d3B | G2B2 "A"A6 :|
+S:https://www.folktunefinder.com/tunes/16424
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_AndersSparf_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_AndersSparf_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/P_AndersSparf_A.abc
+% Rhythm Boda-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

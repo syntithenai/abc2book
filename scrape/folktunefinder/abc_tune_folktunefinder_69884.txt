@@ -1,0 +1,27 @@
+X:324
+T: DER LIEBSTE BUHLE
+N: F0556
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 6/8
+L: 1/8
+K: G
+B | B2BBcd | G2GG2
+B | A2AAB^c | e3d2
+B | B2BBcd | G2GG2
+B | A2AAB^c | e3d2
+d | d2B^G2E | A2Bc2
+c | c2AF2D | G2Bd2
+d | e3d3 | c3B2
+B | c3A3 | G3z2
+S:https://www.folktunefinder.com/tunes/69884
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

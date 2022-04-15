@@ -1,0 +1,29 @@
+X: 1
+T: Lord Duplin's Jig
+C: Bowie
+B: RSCDS 19-6(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/B/ \
+| "D"d2A FDF | ABA FDF | d2A BAF | "A7"E2E EFG \
+| "D"d2A FDF | ABA FGA | "G"BGB "A7"AFA | "D"D2D D2 :|
+|| A \
+| "D"d2d "A7"ABc | "D"d2d fed | d2d cBA | "E7"B2e e2f \
+| "D"d2d "A7"ABc | "D"d2d cBA | "G"B2G "A7"AFA | "D"D2D D2 ||
+|| A \
+| "D"d2d "A7"ABc | "D"d2d fed | d2d BAF | "A7"E2e e2f \
+| "D"d2A "G"B2G | "A7"BAG "D"FGA | "G"BGB "A7"AFA | "D"D2D D2 |]
+S:https://www.folktunefinder.com/tunes/14562
+S:http://trillian.mit.edu/~jc/music/abc/jig/LordDuplinsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LordDuplinsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LordDuplinsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LordDuplinsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LordDuplinsJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:522
+T:Mueira (MQ 087)
+R:Mueira
+C:Tradicional. Versin de Sergio Rivas
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Tpica mueira asturiana que aprend de Sergio Rivas, uno de los gaiteros del Centro A. de Madrid fallecido recientemente.
+A:Asturies
+Z:Manolo Quirs 087
+M:6/8
+L:1/8
+Q:3/8=88
+K:C
+GAB
+|cdc BAB|c3 GAB|cdc BAB|G3 GAB|
+cdc BAB|c3 GAB|cdc BAB|F3 DEF|
+GAG FED|E2 {G}E CDE|FGF DB,D|C3 {G}EDE|
+FGF EDE|FGF EDE|FGF DB,D|EDC {G}EDE|
+FGF EDE|FGF EDE|FGF DB,D|C3 {G}EDE|
+FGF DB,D|EDC {G}EDE|FGF DB,D|
+|: C3 cBA|GE{B,}E F2 A|GE{B,}E E2 G|FED EFG|
+A2 {BA}G cBA|GEE F2 A|GEE E2 G|[1 FFD CB,D :|[2 FED CB,D|
+C3 {G}ECE|{G}ECE {G}ECE|F2 D {G}DB,D|{G}DB,D {G}DED|
+|: C3 {G}EDC|B,2 D FEF|G2 {AG}E EDC|B,2 D FED :|
+C3 CEF|GcG GFG|FAF FDE|FGF FEF|
+A2 B/A/ GEF|FcG GFG|GcA ADE|EGF DB,D|C3-CEF|
+GEF GAB|c3-cde|fed cBA|A G2-GEF|
+GEF GAB|c3-cde|fed cBA|G3 cBA|
+|: {A}GEE F2 A|GEE E2 G|FED EFG|A2 {BA}G cBA :|
+FED CB,D|C3-C3|
+S:https://www.folktunefinder.com/tunes/59409
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

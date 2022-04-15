@@ -1,0 +1,32 @@
+X: 9545
+T:Gan Ainm
+R:Slip Jig
+S:Paddy Cronin, Kerry (fiddle)
+D:From RTE 'The Pure Drop'
+H:There's an extra note in the second part. Though here marked as a bar of
+H:10/8, the effect is of a 4/4 thrown in among 3/4s.
+N:As played
+M:9/8
+Z:Bernie Stocks
+K:G
+|: E2B {d}BGE BGE | AFA AdB AFD | EFG ABc BGE |1 BeB AGF EzB, :|2 BeB AGF Ezf ||
+eBe gfg bge | d^cd fdf {b}afd | eBe ~g3 bge |\
+M:10/8
+gfe Bed e3f |
+M:9/8
+eBe gfg bge | d^cd fdf {b}afd | (3efge {f}edB {d}BAG | BdB AFD E2B ||
+S:https://www.folktunefinder.com/tunes/35445
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Time_signature 10/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:288
+T: KOMM TROST DER NACHT
+N: B0766
+O: Europa, Mitteleuropa, Deutschland
+R: Trost -, Tageszeiten - Lied, Abend, religioes
+M: 4/4
+L: 1/4
+K: D
+D | AFDA | BBA
+A | Bcdc | BBA
+F | BAGF | E2D
+D | AFDA | BBA
+A | Bcdc | BBA
+F | BAGF | E2Dz
+A2F2 | A2F2
+GFEF | GFEF
+GFE2 | D2
+dc | BAGF | E2D
+S:https://www.folktunefinder.com/tunes/62311
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Trost -, tageszeiten - lied, abend, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

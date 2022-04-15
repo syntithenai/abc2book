@@ -1,0 +1,36 @@
+X: 1
+T: Polska efter August Nyholm, Delsbo
+R: slang-polska
+B: SvL H\"alsingland 255
+N: Arr Hans-Ers online PDF file
+M: 3/4
+L: 1/16
+K: G
+%%sysstaffsep 30
+V: 1
+|: d3B G2AB c2AB |  G2B2 d2Bd g4 \
+|  d3B G2AB c2AB |1,3 G2A2 F2AF D4 :|2,4 G2AF G8 :|
+|: g3f e2^de f2a2 | g2fg e2^de B4 \
+|  g2f2 e2f2 g2a2 | a2g2 g2f2 f4 |
+|  g3f e2^de f2a2 | g2fg e2^de B4 \
+|  B2c2 A2cB G2AB | c2AF G8 :|
+V: 2
+|: "G"B3G D2DE "F"=F2FD |  "G"B,2D2 G2DG B4 \
+|  "G"B3G D2DE "F"=F2FD |1,3 "G"B,2C2 "D7"D2DC B,4 :|2,4 "G"B,2"D7"DC "G"B,8 :|
+|: "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "Em"e2B2 G2B2 e2f2 | "Em"f2e2 e2d2 "D"d4 |
+|  "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "G"G2A2 "F"=F2FD "G"B,2B,D | "D7"=F2DC "G"B,8 :|
+S:https://www.folktunefinder.com/tunes/16427
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_AugustNyholm_G2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_AugustNyholm_G2V.abc
+% Rhythm Slang-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

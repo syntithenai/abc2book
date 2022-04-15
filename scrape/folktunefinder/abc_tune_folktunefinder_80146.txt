@@ -1,0 +1,27 @@
+X:87
+T: Liebesjagd (Jaeger und Nonne)
+N: A0439
+O: Europa, Mitteleuropa, Deutschland
+N: Hs. des 15. Jh. Mitgetheilt in None, Anzeiger IV, 454. Die
+N: Melodie das. VI. Jg Beil. II No. 4.
+R: Romanze, Ballade, Lied, Jaegerlied
+M: 4/2
+L: 1/4
+K: D
+A2 | A2A2=c2c2 | d4A2
+d2 | e4d2=c2B4 | A4z2
+d2 | =c2A2A2=F2 | A4=c2
+c2 | =c2A2A2=F2 | D4=F2
+F2 | =F2G2F2E2 | D4
+A4 | A3G=F2E2 | D6
+S:https://www.folktunefinder.com/tunes/80146
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, jaegerlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

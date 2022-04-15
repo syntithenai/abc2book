@@ -1,0 +1,31 @@
+X:87
+T: La jeune Indienne (1-11), S. 28
+N: K0087
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Liebe, Vaterland, ]
+M: 4/4
+L: 1/8
+K: G
+DGA | B3GDcBA | B2G2z
+BdG | A3BdcEF | G2z3
+DGA | B3GDcBA | B2G2z
+BdG | A3BdcEF | G2z3
+ed^c | d3BGed^c | d2B2z
+BdG | A3BdcEF | G2z3
+ed^c | d3BGed^c | d2B2z
+BdG | A3BdcEF | G2z3
+d^cd | f3eddcF | G2z3
+S:https://www.folktunefinder.com/tunes/70217
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Liebe, vaterland, ]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

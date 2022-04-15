@@ -1,0 +1,24 @@
+X:380
+T: "Der todte Gast"
+N: Z1060
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Romanze, Ballade, Tod
+M: 4/4
+L: 1/8
+K: G
+G2 | G2ddd2c_e | d2_B2A2
+BA | G2FGc2c_B | A4z2
+_B2 | A2AAA2FD | G2_B2A2
+d2 | c2_BBA2B2 | G4z2
+S:https://www.folktunefinder.com/tunes/69239
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

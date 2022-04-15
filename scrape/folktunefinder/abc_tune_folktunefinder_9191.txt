@@ -1,0 +1,46 @@
+X: 1
+T: S\aa g\aar vi rundt om en enerb\aerbusk [F]
+T: Circle Around the Christmas Tree
+O: Trad Norway
+M: 2/4
+L: 1/16
+K: F
+[| "F"c2cd c2cd | c2cB A2z2 | "C7"B2BA G2z2 | "F"c2cB A2z2 |
+w: S\aa g\aar vi rundt om en e-ner-b\aer-busk, e-ner-b\aer-busk, e-ner-b\aer-busk.
+| "F"c2cd c2cd | c2cB "(Dm)"A2z2 | "Gm"B2G2 "C"c2E2 | "C7"G4 "F"F4 |]
+w: S\aa g\aar vi rundt om en e-ner-b\aer-busk, tid-lig [man-dag] mor-gen.
+w: | | | ~ ~ [tirs-dag]
+w: | | | ~ ~ [etc.]
+[| "F"c2cd c2cd | c2cB A2z2 | "C7"B2BA G2z2 | "F"c2cB A2z2 |
+w: 1.~S\aa gj\or vi s\aa n\aar vi vas-ker v\aart t\oy, vas-ker v\aart t\oy, vas-ker v\aart t\oy.
+w: 2.~S\aa gj\or vi s\aa n\aar vi skyl-ler v\aart t\oy,skyl-ler v\aart t\oy,skyl-ler v\aart t\oy.
+| "F"c2cd c2cd | c2cB "(Dm)"A2z2 | "Gm"B2G2 "C"c2E2 | "C7"G4 "F"F4 ||
+w: 1.~S\aa gj\or vi s\aa n\aar vi vas-ker v\aart t\oy, tid-lig man-dag mor-gen.
+w: 2.~S\aa gj\or vi s\aa n\aar vi skyl-ler v\aart t\oy, tid-lig tirs-dag mor-gen.
+%
+W: 3. S\aa gj\or vi s\aa n\aar vi henger opp v\aart t\oy, ... tidlig onsdag morgen.
+W: 4. S\aa gj\or vi s\aa n\aar vi ruller v\aart t\oy, ... tidlig torsdag morgen.
+W: 5. S\aa gj\or vi s\aa n\aar vi stryker v\aart t\oy, ... tidlig fredag morgen.
+W: 6. S\aa gj\or vi s\aa n\aar vi skurer v\aart t\oy, ... tidlig l\ordag morgen.
+W: 7. S\aa gj\or vi s\aa n\aar til kirken vi g\aar, ... tidlig s\ondag morgen.
+W: 7. S\aa gj\or vi s\aa n\aar vi hjematt g\aar, ... tidlig s\ondag morgen.
+W:
+W: 1. This is the way we wash our clothes, wash our clothes, wash our clothes.
+W:     This is the way we wash our clothes, early Monday morning. [Refrain]
+W: 2. This is the way we rinse our clothes, ..., early Tuesday morning. [Refrain]
+W: 3. This is the way we hang up our clothes, ..., early Wednesday morning. [Refrain]
+W: 4. This is the way we roll out our clothes, ..., early Thursday morning. [Refrain]
+W: 5. This is the way we iron our clothes, ..., early Friday morning. [Refrain]
+W: 6. This is the way we scrub our clothes, ..., early Saturday morning. [Refrain]
+W: 7. This is the way we to to church, ..., early Sunday morning. [Refrain]
+W: 8. This is the way we homeward go, ..., early Sunday morning. [Refrain]
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/9191
+S:http://trillian.mit.edu/~jc/music/abc/Scand/SaaGaarViRundtOmEnEnerbaerbusk.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

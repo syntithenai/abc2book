@@ -1,0 +1,28 @@
+X:82
+T:Polska efter C G {\AA}strand
+R:sl-polska
+H:Han hade den efter en skr\"addarm\"astare Reinhold i Hycklinge
+A:\"Osterg\"otland
+B:SvL \"Ogl 468, efter C G {\AA}strand, Falla, Horn
+Z:id:hn-sp-82
+M:3/4
+L:1/16
+K:D
+A2Bc d2e2 f2g2 | (ag)fg a2a2 f2d2 | (gb)ge (fa)fd (eg)ec |
+(dc)Bc d2dA FDFA | A2Bc d2e2 f2g2 | (ag)fg a2a2 f2d2 | 
+(gb)ge (fa)fd (eg)ec | (dc)Bc c2d2 d4 :||: A2c2 egec egec |
+d2d2 fafd fafd | A2c2 egec egec | d2d2 fafd fafd | 
+gbge fafd egec | dcBc d2dA FDFA | A2c2 egec egec |
+d2d2 fafd fafd | A2c2 egec egec | d2d2 fafd fafd | 
+gbge fafd egec | dcBc c2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/62413
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

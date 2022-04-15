@@ -1,0 +1,21 @@
+X:577
+T:Dawn
+O:ireland
+Z: id:dc-reel-59
+M:C
+L:1/8
+K:G Major
+G,2B,D C2EG|D2FA GBdB|cdeg dBGB|A2BA AGEG|!
+G,2B,D C2EG|D2FA GBdB|cdeg dBGB|ABGA BGG2:|!
+B2dB eBdB|GABG AGEG|D2B,D GBdB|cdef gded|!
+B2dB eBdB|GABG AGEG|DGBd cdeg|dBAc BGG2:|!
+S:https://www.folktunefinder.com/tunes/41836
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

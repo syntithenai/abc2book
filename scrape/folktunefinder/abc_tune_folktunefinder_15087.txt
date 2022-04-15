@@ -1,0 +1,30 @@
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+|: d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+S:https://www.folktunefinder.com/tunes/15087
+S:http://trillian.mit.edu/~jc/music/abc/jig/SodgerLaddieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SodgerLaddieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SodgerLaddieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SodgerLaddieJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/SodgerLaddieJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

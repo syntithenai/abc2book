@@ -1,0 +1,27 @@
+X: 1
+T: the Pentland Jig
+C: Bobby Crowe
+M: 6/8
+L: 1/8
+K: D
+F/G/ \
+| "D"A2-A "A7"AFG | "D"A2f f2e | "G"dce dcB | "D"A2F "D7"F2A \
+| "G"B2G G2B | "D"A2F F2A | "E7"^G2B EGB | "A"cBA "A7"GFG |
+| "D"A2-A "A7"AFG | "D"A2f f2e | "G"dce dcB | "D"A2F "D7"F2A \
+| "G"B2G dcB | "D"Adf "B7"a2A | "Em"BGd "A7"cAe | "D"d3 d2 ||
+"F7"F \
+| "Bm"B2B B2F | Bcd "E7"dcB | "A"A2A A2E | ABc cBA \
+| "G"B2G G2B | "D"A2F F2A | "E7"^G2B EGB | "A"cBA "A7"GFG |
+| "D"A2-A "A7"AFG | "D"A2f f2e | "G"dce dcB | "D"A2F "D7"F2A \
+| "G"B2G dcB | "D"Adf "B7"a2A | "Em"BGd "A7"cAe | "D"d3 d2 ||
+S:https://www.folktunefinder.com/tunes/14843
+S:http://trillian.mit.edu/~jc/music/abc/jig/PentlandJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j32/PentlandJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PentlandJ_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

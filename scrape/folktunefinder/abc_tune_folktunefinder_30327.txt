@@ -1,0 +1,29 @@
+X:90
+T:Killycrankie
+B:Aird's Airs and Melodies vol 2
+M:C
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000da.html
+%%ID:000000da
+K:D
+(F/G/)|\
+A>BAF A>BAF| ED (D/E/)(F/G/) A2 A>d|\
+B>cBA B/A/B/d/ BA| d>efd B2Ba|\
+bfae fdef| A>BAF A2Ad|\
+BBdd eef>e| d/(B3/2 A3/2)F/ E2D||\
+f/g/|\
+a>baf a>baf| a/g/f/e/ d/e/f/g/ (a2 a)f/a/|\
+b>c'ba b/a/b/c'/ ba|fefa (b2 b)f/a/|\
+bfae fdef| A>BAF A2Ad| BBdd eef>e| d>BAF "tr"E2 D:|
+S:https://www.folktunefinder.com/tunes/30327
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

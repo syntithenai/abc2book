@@ -1,0 +1,26 @@
+X: 1
+T: the Ton
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: G
+   B/c/ \
+| "G"dg gB/c/ | Bd dB/A/ | GG "D7"AA | "G"B/A/B/c/ BB/c/ \
+| "G"dg gB/c/ | Bd dB/A/ | GG "D7"AA | "G"G3 :|
+|: B/c/ \
+| "G"dg "C"ec | "G"dg "C"ec | "G"d>B "Em"GB | "Am"A/G/A/B/ "D7"AB/c/ \
+| "G"dg "C"ec | "G"dg "C"ec | "G"B/d/B/G/ "D7"A/c/A/F/ | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/15694
+S:http://trillian.mit.edu/~jc/music/abc/march/Ton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/Ton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/Ton.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Ton.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

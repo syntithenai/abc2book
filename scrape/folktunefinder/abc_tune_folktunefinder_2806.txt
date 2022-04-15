@@ -1,0 +1,21 @@
+X: 2
+T: Devojce, devojce
+M: 9/8
+L: 1/8
+K: Edor
+"Vocal:"\
+|: ef g2a gf g2 | aa a2f gf e2 :|
+|: aa a2f gf e2 |1 ef gfe f2 f2 :|2 ef gfa e2 e2 :|
+"Instr:"\
+|: ef gfe dc BA | cd efd e2 e2 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/2806
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/DevojceDevojce.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

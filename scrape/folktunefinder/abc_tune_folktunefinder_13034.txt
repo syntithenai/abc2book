@@ -1,0 +1,33 @@
+X: 23
+T: Planxty Fanny Powers
+T: Fannuidh de Paor
+T: Mrs. Trench
+R: jig, waltz
+C: O'Carolan
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2E ABc | "D"d2c "E7"B2A | G2F EFE | G2A B2d |
+|  "A"cBA cde | "D"f2B "Bm"B2A | "E7"GFE EFG | "A"A3- A2 :|
+|: e \
+| "A"ec/d/e ec/d/e | "F#m"AcA AcA | "D"fd/e/f fd/e/f | "Bm"BdB BdB |
+| "A"cde "D"fga | "E7"gab "A"efe | cBA "E7"BcB | "A"A3- A2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13034
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Rhythm Jig, waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

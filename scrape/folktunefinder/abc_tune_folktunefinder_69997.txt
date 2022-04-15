@@ -1,0 +1,30 @@
+X:437
+T: AUF MUNTRE BRUEDER
+N: F0813
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink -, Moral - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G4G3G | B2G2G2B2
+d4A3A | B4z4
+A4B3^c | d4F2F2
+A2G2E2F2 | D4z4
+A4D3D | B4G2G2
+c4B3B | A4z4
+B4c2d2 | e4c2A2
+B4A3A | G4z4
+A4D3D | B4G2G2
+c4B3B | A4z4
+B4c2d2 | e4c2A2
+B4A3A | G4z4
+S:https://www.folktunefinder.com/tunes/69997
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink -, moral - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

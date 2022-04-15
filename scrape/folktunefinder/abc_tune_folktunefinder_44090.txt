@@ -1,0 +1,24 @@
+X:15
+T:Happy Day
+% Nottingham Music Database
+S:Bryon Bonnett, via PR
+M:4/4
+L:1/4
+K:G
+DG A|"G"Bd B2-|"D7"BD GA|"G"Bd B2-|"D7"BD GA|"G"Bd Bd|
+Bd2^c|"D7"c4-|cD FG|"D"A^G A2-|AD FG|"D"A^G A2-|AD FA|
+"D"dd ^cd|"D7"ed A^A|"G"B4-|"D7"BD GA|"G"Bd B2-|"D7"BD GA|
+"G"Bd B2-|BG Bd|"G7"=ff ef|g=f d^d|"C"e4-|e4|"C"gg fg|
+ag e_e|"G"dd ^cd|"E7"ed ^cd|"Am"ed cD|"D7"Bd BA|"G"G4-|G||
+S:https://www.folktunefinder.com/tunes/44090
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsH-L.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsH-L.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

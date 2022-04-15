@@ -1,0 +1,21 @@
+X: 274
+T: After the Ball
+R: waltz
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 3/4
+L: 1/4
+K: G
+[| "G"Bd>B | "C"G2E | "G"G3 | D3 | "G"Bd>B | "C"G2E | "D7"F3- | F3 |
+| "Am"ce>c | B2A | "Bdim"^G3 | "Am"A3 | "D7"AB>A | F2D | "G"d3- | d3 |
+| "G"Bd>B | "C"G2E | "G"G3 | D3 | "E7"E^GB | e2d | "A"^c3- | c3 |
+| "D7"dAA | ABc | "G"B3 | "E7"D3 | "A7"E3 | "D7"F2D | "G"G3- | G3 |]
+S:https://www.folktunefinder.com/tunes/30782
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

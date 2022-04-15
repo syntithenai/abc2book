@@ -1,0 +1,33 @@
+X: 1
+T: TEST: Helle Wasser   % --- we squeeze this onto one page
+%%continuous 1
+%%musicspace 0cm
+%%topmargin  0.5cm
+%%sysstaffsep    35.0pt
+%%systemsep      55.0pt
+%%titlefont    Helvetica 16
+%%subtitlefont Helvetica 12
+%%composerfont Helvetica 10
+%%scale 0.65
+O: Finnland
+M: 6/8
+L: 1/8
+K: Am
+%V:sop name="Sopran" sname="S." bracket=3
+V:sop nm="Sopran" snm="S." brk=3
+"Am"e3-e2 f|e2 c B2 c |"Dm"d3 d3- |d3z3|
+w: Hel - le Was-ser dun-kle W\"al-der
+"G7"d e2-e3|d-BG A2 B| \\ "Am"A6- |A3z3|
+S:https://www.folktunefinder.com/tunes/2568
+S:http://trillian.mit.edu/~jc/music/abc/test/V_HelleWasser.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_HelleWasser.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_HelleWasser.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_HelleWasser.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

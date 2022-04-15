@@ -1,0 +1,29 @@
+X:15769
+T:Southwark Grenadiers trumpet tune, The
+R:March
+O:England
+M:4/4
+A:Lancashire
+B:Winder
+K:D
+A2|\
+d4 e4 | f2d2 d2ag | f2d2 d2A2 | d2A2 F2ED |\
+d4 e4 | f2d2 d2ag | fgfg \
+P:tr
+e3d | d6 :|*
+|:cd|\
+e4 f4 | e2c2 c2A2 | dede d2e2 | f4 a3g |\
+f2a2 e2a2 | d2A2 dcde | fgfg \
+P:tr
+e3d | d4 :|**
+S:https://www.folktunefinder.com/tunes/47044
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

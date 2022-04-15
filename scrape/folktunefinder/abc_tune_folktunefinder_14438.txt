@@ -1,0 +1,27 @@
+X:1
+T:Johnny Dennehy's
+D:Jackie Daly, "Many's a Wild Night", track 2(c)
+Z:Paul de Grae 
+M:6/8
+L:1/8
+R:jig
+K:A
+E \
+| "A"A2B "(E7)"cBc | "A"Ace "D"a2f | "A"ecA "F#m"BAF | "Bm"BcB "E7"BAF \
+| "A"A2B "(E7)"cBc | "A"Ace "D"a2f | "A"ecA "E7" BAB |  "A"cAA     A2 :|
+|: f \
+| "A"ece  "D"  a2f | "A"ece "D"a2f | "A"ecA "F#m"BAF | "Bm"BcB "E7"BAF \
+| "A"A2B "(E7)"cBc | "A"Ace "D"a2f | "A"ecA "E7" BAB |  "A"cAA     A2 :|
+S:https://www.folktunefinder.com/tunes/14438
+S:http://trillian.mit.edu/~jc/music/abc/jig/JohnnyDennehys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JohnnyDennehys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JohnnyDennehys.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/JohnnyDennehys.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

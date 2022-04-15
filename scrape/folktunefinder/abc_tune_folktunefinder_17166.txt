@@ -1,0 +1,25 @@
+X:1
+T:Flapjack
+S:An idea from Lady Walpole's Reel
+M:4/4
+L:1/4
+K:F
+[ac]|"C"[g3/B3/][f/B/] [eB][dB]|"F"[c3/A3/][c/A/] [gA][cA]|\
+"C"[c3/B3/][c/B/] [gB][cB]|"F"[c3/A3/][c/A/] [fA][ac]|
+"C"[g3/B3/][f/B/] [eB][dB]|"F"[c3/A3/][c/A/] [gA][cA]|\
+"C"[c3/B3/][c/B/] [dB][eB]|[1 "F"[f2A2] [fA]:|[2 "F"[f2A2] [fA]c|
+|:"F"A/d/c/A/ d/c/A-|A/c/f/c/ a/c/f/A/|\
+"F"A/d/c/A/ d/c/A-|A/c/f/c/ a/c/f/A/|
+"F"A/d/c/A/ d/c/A|"C"=B/c/e/c/ g/c/_b/=B/|\
+"C"=B/c/e/c/ g/c/_b/=B/|"C"[ac][gB] "F"[f2A2]:|
+S:https://www.folktunefinder.com/tunes/17166
+S:http://trillian.mit.edu/~jc/music/abc/reel/Flapjack_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Flapjack_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/reel/Flapjack_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

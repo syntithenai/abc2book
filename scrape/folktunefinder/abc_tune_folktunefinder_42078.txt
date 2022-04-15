@@ -1,0 +1,32 @@
+X:1057
+T:Hornpipes
+C:- Engeland -
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=130
+K:G
+V:1
+d c |:"G" B GB dg dc B|"Am" A2 a2 a2 ag |"D7" fg fd cd cA |
+"G" GF GA B2 dc |BG Bd gd cB |"Am" A2 a2 ae dc |"G" Bd "D7" BG Ac AF |
+"G" G2 G2 G2 Bc |dc BA GB dg |"C" e2 c2 c2 cd |"A" ed ^cB A^c eg |
+"D" f2 d2 d2 ef |"G" ga ag "D" fg af |"C" ef ge "D" dc BA |"G" Bd dB "D7" Ac AF |
+|1 "G" G2 G2 G2 dc :|2 "G" G2 G2 G2 Bc || |:"G" d3 dd Bg e|d Bg ed cB d|
+"C" c3 ed "G" BG B|"Am" c BA G"D" F AD2 |"G" d3 ed Bg e|d Bg ed cB d|
+"C" c3 e"G" d BG B|"D7" c AF A"G" G4 |"D" DF A2 AF AF |"G" DG B2 BG BG |
+"D" FG AB cB cd |"C" ec AG "D" FA D2 |"G" GB d2 dB dB |"C" cd ef gf ge |
+"G" dB GB "D" cA FA |1 "G" G2 G2 G2 Bc :|2 "G" G2 G2 G2  (3DEF || |:"G" G2 G,2 G,2 AG |
+"Am" A2 A,2 A,2 AB |"D7" cB AG FG AG |F2 D2 D2  (3DEF |"G" G2 G,2 G,2 AG |
+"Am" A2 A,2 A,2 AB |"D7" cB AG FG AF |1 "G" G2 G2 G2  (3DEF :|2 "G" G2 G2 G2 DC || |:
+"G" B,G DG BG DG |"C" CG EG cG EG |"G" B,G DG BG DB, |"D7" C2 A,2 A,2 DC |
+"G" B,G DG BG DG |"C" CG EG cG EG |"G" cB AG "D7" FG AF |"G" G2 G2 G2 z2 :|
+S:https://www.folktunefinder.com/tunes/42078
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

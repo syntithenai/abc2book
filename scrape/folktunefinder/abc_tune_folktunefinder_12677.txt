@@ -1,0 +1,25 @@
+X: 24
+T: The Maid on the Green
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin (page 34)
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"gfg "C"e2d | "G"Bee dBA | "G"BGG dBG | "D7"FBA A2d \
+| "G"gfg "C"e2d | "Em"Bee "G"dBG | "Em"Bee "G"dBG | "D7"BAG "G"G2 "fine"y:|
+g \
+| "G"gfg "D"afd | "G"gfg "D"a2a | "G"bgg "D"aff | "D"gfa "G"g2a \
+| "G"bgg "D"aff | "Em"gfg e2d | "Em"Bee "G"dBG | "D"BGG "G"GB "d.C"y|]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12677
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

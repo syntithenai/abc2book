@@ -1,0 +1,22 @@
+X:1
+T:N\'ora Chr\'ionna
+M:6/8
+L:1/8
+R:slide
+D:The Smoky Chimney, track 1(c)
+K:D
+| DED D2E | F2D A2F | DED D2F |  E2F G2E |
+| DED D2E | F2D A2F | E2c cBc |1 E2F G2E :|2 E2F G2F ||
+| E2A A2G | F2D D2F | ABA A2G |  E2F G2F |
+| E2A A2G | F2D DEF | E2c cBc |1 E2F G2F :|2 E2F GFE |] D3-D3 |]
+S:https://www.folktunefinder.com/tunes/14776
+S:http://trillian.mit.edu/~jc/music/abc/jig/NoraChrionna.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NoraChrionna.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

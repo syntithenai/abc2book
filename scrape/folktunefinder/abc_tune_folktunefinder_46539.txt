@@ -1,0 +1,22 @@
+X:15264
+T:Shane's Fancy
+% Nottingham Music Database
+S:NPTB, via EF
+M:6/8
+K:G
+P:A
+d|"G"G2G d2d|"C"efg "D7"f2(3d/2e/2f/2|"G"g2g "C"c2e|"G"dBG "D7"FED|
+"G"G2G d2d|"C"efg "D7"f2(3d/2e/2f/2|"G"g2g "C"c2e|"G"dBG G2:|
+P:B
+g/2a/2|"G"b3 ga"c#"b|"D"a3 de"d#"f|"Em"g3 efg|"Bm"f3 Bcd|"C"e2g "G/b"d2g|\
+"D/a"c2g "G"B2g|"Em"BAG "C"DGE|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/46539
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:112
+T:Steirer, Privatarchiv Hofer, Sammelgut Loekher Franz 3 Loe 3 AB
+C:traditionell
+R:Steirer
+B:"Hundert Steirer aus dem Ausseerland", F .Hofer, Steirisches Volksliedwerk, Graz, undated,
+N:im buch in G, nr. 2
+C:Privatarchiv Hofer, Leihgabe an Museum, Sammelgut Loekher Franz 3 Loe 3 AB, Aussee, 1836-1908
+A:Aussee, Salzkammergut
+M:3/4
+L:1/8
+K:G
+V:1
+%violino 1mo
+gfe |\
+df Ac Fc | BD GB D2 | Ec dF CF | G2 Bg fe |\
+df Ac Fc | BD GB d2 | cC Dc FD | G3 :|
+|: zz2 |\
+cD Fc Dc | BD GB DB | cD Fc Dc | Bg dg fe |\
+df Ac Fc | BD GB D2 | cC Dc FD | G3 :|
+V:2
+%violino 2do
+edc |\
+Ad FA DA | GB, DG B,2 | CA CD A,D | B,2 G edc |\
+Ad FA DA | GB, DG B,2 | AA, CA DC | B,3 :|
+|: zz2 |\
+AC DA CA | GB, DG B,G | AC DA CA | Gd Be dc |\
+Ad FA DA | GB, DG B,2 | AA, CA DC | B,3 :|
+S:https://www.folktunefinder.com/tunes/45546
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

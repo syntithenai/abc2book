@@ -1,0 +1,29 @@
+X: 1
+T: Mamie's Jig
+C: 
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+fe \
+| "D"dcd A2d | "A7"e3 A2e | "Bm"fef "Em"g2e | "E7"d3 "A7"c2e \
+| "D"dcd A2d | "A7"e3 A2g |  "G"gfe "A7"Adc | "D"d3- d :|
+zc \
+| "Bm"d2c Bcd | "A"e2c A3 | "G"Bcd dcB | "F#"c2^A F2c \
+| "Bm"d2c Bcd | "A"e2c A2A | "E7"B^AB E2^G | "A"A2z "D7"d2c |
+y3 \
+| "G"BGB d2B | "D"A3 F2A | "Em"GFG "A7"EFG | "D"F3 D2d \
+| "A7"e2A gfe | "D"dcd AGF | "G"GAB "A7"Adc | "D"d3- d |]
+S:https://www.folktunefinder.com/tunes/14604
+S:http://trillian.mit.edu/~jc/music/abc/jig/MamiesJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MamiesJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

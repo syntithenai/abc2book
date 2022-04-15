@@ -1,0 +1,28 @@
+X:345
+T: DIE BLAUE FLAGGE
+N: E1497
+O: Europa, Mitteleuropa, Deutschland, Schleswig
+R: Staende -, Seemanns - Lied, Tanz
+M: 3/4
+L: 1/16
+K: G
+G3F | G4D4G3A | _B4=F4
+B2c2 | d4d2c2_e2d2 | d4_B4
+c2d2 | _e2d2c2_B2A2G2 | F2A2D4
+E2F2 | G2A2_B2c2d2F2 | G4z4
+_B2c2 | d4d2c2_e2d2 | d4_B4
+_e2d2 | d2c2c2_B2A2G2 | F2A2D4z4
+G2F2G2_B2A2F2 | G6
+_B2A2c2 | _B2d2c2_e2d2F2 | G4z4
+S:https://www.folktunefinder.com/tunes/79449
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende -, seemanns - lied, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

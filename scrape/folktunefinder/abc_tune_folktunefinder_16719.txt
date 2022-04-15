@@ -1,0 +1,24 @@
+X: 1
+T: APPLES IN WINTER
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.58
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: Am
+|: "Am"e2cA     e2cA    | "Em"G2GE    G2G2    | "Am"A2AB     {d}cBcd | "Am"eaag "G"edd2 :|
+|: "Em"eg{a}g^f eg{a}gf | "Am"ea{b}ag ea{b}ag | "Em"eg{a}g^f eg{a}gf | "Am"eaag "G"edd2  |
+   "Em"eg{a}g^f eg{a}gf | "Am"ea{b}ag ea{b}ag | "Am"eddc     c2cd    | "Am"eaag "G"edd2 :|
+S:https://www.folktunefinder.com/tunes/16719
+S:http://trillian.mit.edu/~jc/music/abc/reel/ApplesInWinter_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ApplesInWinter_Am.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/ApplesInWinter_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

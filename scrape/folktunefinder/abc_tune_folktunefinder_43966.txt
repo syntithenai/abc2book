@@ -1,0 +1,28 @@
+X:505
+T:Wendy's Waltz
+A:Lancaster
+C:Andy Hornby
+M:3/4
+O:England
+R:Waltz
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000076d.html
+%%ID:0000076d
+K:A dorian
+E2 A2 c2|e2 de c2|B2 AB A2|Bd cB AG| \
+E2 A2 c2|e2 de c2|BG Gd cB|1 A6 :|2 A4||
+|:ed|\
+e2 de c2|B2 AB G2|GA Bd cB|cB AG ed|\
+e2 de c2|e2 de c2|B2 AB G2|GA Bd cB|1A4 :|2 A6||
+S:https://www.folktunefinder.com/tunes/43966
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 4
+P: Lo Yissa Goy [Dm] (Vine and Fig Tree)
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+%%staffsep 40
+A,DE \
+| "Dm"F2 "A7"E-E "Dm"D2 "A7"E2 | "Dm"F2-F2 zA, DE \
+| "Dm"F2 "A7"E2 "Dm"D2 "A7"^C2 |1 "Dm"D4 z :|2 "Dm"D6 z2 ||
+|: "Dm"A2 AA A2 A2 | "Gm"B2 A2 G4 \
+| "C(A7)"G2 G-G G2 A2 |1 "F(Dm)"F2 G2 A4 :|2 "Dm"F2 "A7"E2 "Dm"D :|
+S:https://www.folktunefinder.com/tunes/6902
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/EE_SimTor1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

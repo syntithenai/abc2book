@@ -1,0 +1,26 @@
+X:138
+T: TRARIRO DER SOMMER DER IST DO
+N: E1219
+O: Europa, Mitteleuropa, Deutschland, Rheinpfalz
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Sommer - Tags - Lied
+M: 2/4
+L: 1/16
+K: F
+ | c4d4 | c4z2
+A2 | c2c2d2d2 | c4z2
+A2 | G2A2B2G2 | A3Bc2
+A2 | G2A2B2G2 | A3Bc4
+c4d4 | c4z2
+B2 | A2A2G2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/79242
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, sommer - tags - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: The 74th Highlanders Quickstep
+O: Kerr
+B: Kerr Collection
+R: march/reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+|: e2 | "A"a4 e2a2 | cAcd e2dc | "G"BBg2 ddg2 | BGB=c d2^cB |
+      | "A"a4 e2a2 | cAcd e2af  | e2dc "E7"Bcde | "A"c2A2 A2 :|
+|: e2 | "A"ABcd eAcA | eAaA c2BA | "G"GAB=c dBGB | dBgd B2AG |
+      | "A"ABcd eAcA | eAaA c2e2 | "G"dcBA GABd | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/58206
+S:http://trillian.mit.edu/~jc/music/book/500/74thHighlandersQS.abc
+% Rhythm March/reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

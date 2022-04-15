@@ -1,0 +1,26 @@
+X:336
+T: ALS ICH NOCH IM FLUEGELKLEIDE
+N: B0396
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 3/4
+L: 1/16
+K: C
+ | G,3G,G,2G,2G,2G,2 | G,3CG,4z4
+F,3F,F,2F,2F,2F,2 | F,4E,4z4
+^F,3F,F,2F,2F,2F,2 | G,3A,B,4z4
+C3A,A,2G,2G,2^F,2 | A,4G,4z4
+B,3B,B,2B,2B,2B,2 | C4G,4z4
+F,3F,F,2F,2F,2F,2 | E,3F,G,4z4
+A,3B,C2C2C2C2 | C3DE4z4
+F3DD2C2C2B,2 | D4C4z4
+S:https://www.folktunefinder.com/tunes/78357
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

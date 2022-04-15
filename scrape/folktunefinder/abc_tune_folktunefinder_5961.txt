@@ -1,0 +1,31 @@
+X: 2
+T: Road to the Isles
+O: Scotland
+C: Kenneth MacLeod
+M: 4/4
+Z: John Chambers <jc:trillian.mit.edu>
+N: Often played without repeats.
+L: 1/8
+K: D
+|: A>d \
+|| "D"f4 a>f e>f | "G"d>e d>c B2 d>c \
+| B<G B>c "D"d>e f<a | "Em"e4- "A7"e2A>d |
+| "D"f4 a>f e>f | "G"d>e d>c B2 g2 \
+|"D"f<a f>d "A7"A>c e>c | "D-G-D"d6 :|
+|: f>g \
+|| "D"a>A ~A2 f>A ~A2 | "G"d>e d>c B2 d>c \
+| B<G B>c "D"d>e f<a | "Em"e4- "A7"e2f>g |
+| "D"a>A ~A2 f>A ~A2 | "G"d>e d>c B2 g2 \
+|"D"f<a f>d "A7"A>c e>c | "D-G-D"d6 :|
+S:https://www.folktunefinder.com/tunes/5961
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RoadToIsles.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/misc/RoadToIsles.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

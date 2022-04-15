@@ -1,0 +1,26 @@
+X: 1
+T: the Claymore
+C: A. Cameron
+R: strathspey
+S: J. Hunter collection Fiddle Music of Scotland
+Z: John Erdman <jperdman@agate.NET>
+M: C
+%Q: 250
+L: 1/8
+K: G
+D | G>D C/B,/A,/G,/ B,<D {F}G2 | A,<A A>G F<D D>c | B>G A>F G>E F>D |  E<A A>G F/G/F/E/ D/C/B,/A,/ ||
+|| G,>D C/B,/A,/G,/ B,<D {F}G2 | A,<A A>G F<D D>c | (3BAG (3AGF (3GFE (3DCB, | C>E D>C B,<G, G, :|
+|: B/c/ | d>c B<g dB | c>a B>g a<A AB/c/ | d>c B>A G<g d>B | c>A d>c B<G GA/B/ ||
+|| d>c B<g dB | c>a B>g a<A AB/c/ | (3BAG (3AGF (3GFE (3DCB, | C>E D>C B,<G, G, :|
+S:https://www.folktunefinder.com/tunes/19268
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ClaymoreS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ClaymoreS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

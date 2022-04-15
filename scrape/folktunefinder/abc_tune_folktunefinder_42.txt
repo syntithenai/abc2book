@@ -1,0 +1,40 @@
+X: 1
+T:Evangaline Trail
+Z:Giddily
+M: 2/4
+L: 1/16
+Q:1/4=120
+K: G
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED B,2 BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED B,2 BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED B,2 ef|
+gb ag e=c Gc|dA df B2 ef|gd Bc dB GB|dD dF Ad ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|AD FA G2 ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|dD dF Ad ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|AD FA G2 GF|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED B,2 BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED B,2 ef|
+gb ag e=c Gc|dA df B2 ef|gd Bc dB GB|dD dF Ad ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|AD FA G2 ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|dD dF Ad ef|
+gb ag ec Gc|dA df B2 ef|gd Bc dB GB|AD FA G2 GF|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED E2 GF|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE E2 GE/2E/2 E2|AD DF A^c BA|
+GE E2 GE/2E/2 E2|BE EG A^c DF|GE/2E/2 EB ^cA FA|GF ED E4-|
+E8-|E8|
+S:https://www.folktunefinder.com/tunes/42
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://sites.google.com/site/lotroabc/ah.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Flagstone of Memories, The
+R: Reel
+C: Vincent Broderick
+Z: Jeffrey Myers <jmyers@GOUCHER.EDU>
+S: (Exact transcription of the version in the book, p.5)
+B: The Turoe Stone, p.5
+M: 4/4
+L: 1/8
+K: G
+|  B4   BAGA | BDDD EGGA | BDDD EGGA | BddB A2GA  |
+   B2BA BAGA | BDDD EGGA | Bdd2 egge | dBAB G2GA :|
+|: g2ge f2fd | e2ed BAGA | Bdef gfgd | Bdef gdBd  |
+   g2ge f2fd | e2ed BAGA | Bdd2 egge | dBAB G2z2 :|
+S:https://www.folktunefinder.com/tunes/17165
+S:http://trillian.mit.edu/~jc/music/abc/reel/FlagstoneOfMemoriesThe.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

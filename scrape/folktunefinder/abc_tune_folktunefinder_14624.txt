@@ -1,0 +1,31 @@
+X: 1
+T: Humours of Last Night
+T: Merrily Kiss the Quaker
+S: Petrie book
+R: Jig
+O: Ireland
+M: 6/8
+K: G
+D \
+| GAB DEG | c2A BGE | GAB DEG | A3 AGE \
+| GAB DEG | c2A BGE | GAB D2E | G3 G2 ||
+c \
+| BcB Bcd | edc BAG | BcB Bcd | e3 g3 \
+| BcB Bcd | ege dBG | GAB D2E | G3 G2 ||
+c \
+| BGG AGG | BGG AGE | GAB DEG | A3 A2 c \
+| BGG AGG | BGG AGE | GAB D2E | G3 G2 ||
+(3d/e/f \
+| g3 aga | bge DBD | g3 gab | a3 age \
+| gbg faf | ege dBG | GAB D2E | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14624
+S:http://trillian.mit.edu/~jc/music/abc/jig/MerrilyKissTheQuaker4_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MerrilyKissTheQuaker4_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

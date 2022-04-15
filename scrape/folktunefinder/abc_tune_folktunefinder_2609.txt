@@ -1,0 +1,22 @@
+X: 1
+T: Butcher's Fancy, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+B|:ded BAB|dBA A2B|ded BAB|dBA G2B|
+ded BAB|dBA A2g|faf g2e|1dBA G2B:|2dBA GBd||
+|:eAA fAA|e3 Acd|eAA g2e|dBA GBd|
+eAA fAA|e2A efg|faf g2e|1dBA GBd:|2dBA GAB||
+S:https://www.folktunefinder.com/tunes/2609
+S:http://trillian.mit.edu/~jc/music/bot/%251:BUTCHERSFANCY
+S:http://www.thesession.org/tunes/display/1003
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

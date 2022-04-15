@@ -1,0 +1,24 @@
+X: 28
+T: The Trip to Durrow
+R: reel
+D: Noel Hill: The Irish Concertina
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+K: D
+|: "D"D2FD ADFA | defd "G"B3c | dBBA dBBA | "D"FADE "A7"FEE2 |
+|  "D"D2FD ADFA | defd "G"B3c | dBBA "D"FAdB | "A7"AFGE "D"FDD2 :|
+|: "D"d2de fdfg | afdf "Em"gfed | "A7"cdef gebe | gebe gfec |
+|  "D"d2de fdfg | afdf "Em"gfed | "A7"cdef gbag | fdec "D"d2de ||
+|| "(A7)"fdec "D"d2de | fdec "G"B3c | dBBA dBBA | "D"FADE "A7"FEE2 |
+|  "D"D2FD ADFA | defd "G"B3c | dBBA "D"FAdB | "A7"AFGE "D"FDD2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6409
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:140
+T: Ick heff mol en Hamborger Veermaster sehn,
+N: D0224
+O: Europa, Mitteleuropa, Deutschland, Schleswig - Holstein, Kiel -
+N: Refrain zweistimmig notiert; Inzipit = Transposition zum Lied
+R: Staende - Lied, Seemannslied, Shanty
+M: 4/4
+L: 1/16
+K: C
+G4 | C4E3EG4c3c | A4G3GE4
+C3D | E4D4z4C3D | E4D4z4
+G4 | C4E3EG4c3c | A4G2G2E4
+C3D | E4D4E4D4 | C12z4
+C8E4G4 | c12B4 | A6B2c6A2 | G12
+c2c2 | A4A3AA6A2 | A4G4E4C2D2 | E6G2G4E4 | D4C4z8
+C8E4G4 | c12B4 | A6B2c6A2 | G12
+c2c2 | A4A3AA6A2 | A4G4E4C2D2 | E6G2G4E4 | D4C4z4
+S:https://www.folktunefinder.com/tunes/72597
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, seemannslied, shanty
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

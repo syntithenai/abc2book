@@ -1,0 +1,19 @@
+X: 1
+T: from /home/seymour/abc/triplets31.mid
+M: 3/4
+L: 1/8
+Q:1/4=120
+K:C % 0 sharps
+%%triplets
+C/2[c/2D/2]C/2[c/2D/2]F/2A/2 z/2c/2F/2A/2z/2c/2| \
+C/2[c/2D/2]C/2[c/2D/2]F/2A/2 z/2c/2F/2A/2z/2c/2|
+S:https://www.folktunefinder.com/tunes/40363
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

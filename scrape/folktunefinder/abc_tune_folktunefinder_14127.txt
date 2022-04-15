@@ -1,0 +1,24 @@
+X:204
+T:The Dublin Jig
+D:Jimmy Shand 78: Beltona BL 2229 (1935)
+Z:Nigel Gatherer <gatherer:ARGONET.CO.UK> irtrad-l 2000-12-24
+M:6/8
+L:1/8
+K:A
+c|EAA cAA|eAA cAA|fga ecA|BcB BAF|EAA cAA|eAA cAA|
+fga ecA|BcB A2::e|eaa c'aa|baa c'aa|eaa c'aa|
+bc'b baf|eaa c'aa|bab c'af|efe ded|cAA A2:|]
+S:https://www.folktunefinder.com/tunes/14127
+S:http://trillian.mit.edu/~jc/music/abc/jig/DublinJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DublinJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DublinJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DublinJig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/DublinJig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DublinJig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/DublinJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

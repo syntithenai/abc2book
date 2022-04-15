@@ -1,0 +1,36 @@
+X:60
+T:Aada (JHM 002) (Arrg.)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 002
+M:3/4
+L:1/4
+Q:1/4=120
+K:Dm
+|"Dm"d2 d|d^cd|"A7"e^cd|efe|"D"d3-|d2 z|
+d2 d|d^cd|"A7"e^cd|efe|"D"d2 z|
+"Am"(e3/4f/8e/8 c3/4d/8c/8) A|"Gm7"GAB|
+"F"c2 "C7"(B3/4c/8B/8)|"F"A3-|A2 z|
+"Am"(e3/4f/8e/8 c3/4d/8c/8) A|"Gm7"GAB|
+"F"c2 "C7"(B3/4c/8B/8)|"F"ABc|"Gm6"(d-d3/4e/8d/8) (c3/4(3d/8c/8B/8)|"A"A3-|A2 z||
+W:Durmete, neu hermosu, que tengo que hacer,
+W:tengo el maiz en fuelle y est por moler.
+W:Al ron, ron, duermete nin,
+W:al ron, ron, que voy a moler, que voy al moln.
+W:
+S:https://www.folktunefinder.com/tunes/58947
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

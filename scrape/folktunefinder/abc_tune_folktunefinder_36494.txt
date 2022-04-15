@@ -1,0 +1,28 @@
+X:2075
+T:Grannas flickor
+L:1/16
+M:3/4
+N:(the Neighbour's Girls)
+O:Sweden
+Q:1/8=348
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000baa.html
+%%ID:00000baa
+K:A dorian
+A2AB c2cB A2AB | cBcd e4 c4|\
+e2a2 a2f2 f2a2 |1 abag e4 c4 :|2 abag e8 |:\
+e2a2 a2f2 f2a2 | abag e4 c4 |\
+e2g2 g2e2 e2g2 | gagf d4 B4 |\
+cBcd e2ec A2Ac | ~B2A^G A8:|
+S:https://www.folktunefinder.com/tunes/36494
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

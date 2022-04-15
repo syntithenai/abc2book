@@ -1,0 +1,28 @@
+X: 1
+T: Sommarens Schlager
+T: Polska fr\aan R\"attvik
+R: R\"attvikspolska
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+|: "D"{A}A>(c d)>(e f>)a | "A7"(a/f/)g- ge "D"f2 \
+| "G"d>(d c/d/)c/A/ B>G | (G<B) "A7"A4 |
+| "D"{A}A>(c d)>(e f)a | "A7"(a/f/)g- ge "D"f2 \
+| "G"a>(a g/a/)g/e/ "Em"f>d | "A7"(e<c) "D"~d4 :|
+|: "D"{A}A>f- fd A>F | "G"G>B- (3BAG "A7"A2- \
+| A>E- EF "Em"G>A | BA/G/ "A7"A4 |
+| "D"{A}A>f- fd A>F | "G"G>B- (3BAG "A7"A2- \
+| A>(c "D"d)>(e f)>d | "A7"(e<c) "D"d4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/9292
+S:http://trillian.mit.edu/~jc/music/abc/Scand/SommarensSchlager.abc
+% Rhythm Ra?ttvikspolska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

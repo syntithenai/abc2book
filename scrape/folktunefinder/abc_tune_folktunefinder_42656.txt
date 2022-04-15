@@ -1,0 +1,22 @@
+X:2185
+T:See the Conquering Hero Comes
+O:ireland
+M:C
+H:repeats A::B||DC
+K:G
+d4 B3c| d4 G4| (AB)(cd) c2B2| B4 {AB}A4|\
+(Bc)(de) d2d2| g4d4| (cB)(AG) A4| {GA}G6:|
+(BA)(Bc) B2B2| A4 G2AB| c2B2 A2G2| G4 F4|\
+BABc B2B2| e4 "tr"^c4| {Bc}d2ed "tr"^c3B/c/| "Da Capo"d4|]
+S:https://www.folktunefinder.com/tunes/42656
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,57 @@
+X:1
+T:Pandalas
+T:ABC2D2EFGHA
+O:Bulgaria
+A:Dobrudja
+C:Trad.
+D:Balkanton (LP) BHA 734, side 2, band 1
+S:Folk Dance collected by Yves Moreau
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:ABC2D2EFGHA
+Q:1/4=180
+M:7/8
+L:1/8
+K:F
+P:A
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 21
+%%MIDI bassprog 21
+%%MIDI gchord f2c2c3
+%%MIDI drumon
+%%MIDI drum d2d2d2d 43 43 41 37
+|:"C"G2 F2 ~E2 C | DC ~C2 CGC | G2 F2 ~E2 C |1 DC ~C2 CG,C :|2 DC ~C2 C2z ||
+P:B
+|:"C"~E2 B,C DCC | ~C2 CG, EFG | ~E2 B,C DCC |1 ~C2 CF, G,2z :|2 ~C2 CG, C2z ||
+P:C
+|:"G7"DE FD "C"~E2C | DC ~C2 CGG, |"G7"DE FD "C"E2C |1 DC ~C2 B,A,G, :|2 DC ~C2 C2z ||
+P:D
+|:"C"~E2 CG, CB,C | ~D2 CG, CFG | ~E2 CG, CB,C |1 D2 CG, C2C :|2 D2 CG, C2z ||
+P:E
+|:"Gm"G,2 ~C2 DCC |"Cm"CC CB, B,A,G, |"Gm"G,2 ~C2 DCC |1"Cm" ~C2 CF, G,2z :|2"Cm" ~C2 CG, C2z ||\
+K:Bb
+P:F
+|:"F"F2 z2 FEF | C2 D2 ~E2D | FF FB, FEF | C2 D2 ~E2D :|
+P:G
+|:"F"F2 C2 "Bb"~D3 | B,2 ~C2 B,CD |"F" E2 C2 "Bb"~D3 |"C" B,2 C2 "F"C2z :|
+P:H
+|:"F"F2 C2 CB,A, |"C"G,2 ~C2 CB,C | D2 ~C2 CB,A, |"C"G,2 C2 C2z :|
+W:
+W:
+W:Arrangement Copyright (C) 2005 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/67683
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Pandalas.abc
+S:http://people.csail.mit.edu/jaffer/Music/Pandalas.abc
+S:http://voluntocracy.org/Music/Pandalas.abc
+S:http://www.voluntocracy.org/Music/Pandalas.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

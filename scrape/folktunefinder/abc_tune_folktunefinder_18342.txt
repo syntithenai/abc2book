@@ -1,0 +1,34 @@
+X: 1
+T: \AAhkerschottis
+C: Per Hedlund
+R: shottish
+D: Another Way RPMCD-001
+M: 4/4
+L: 1/8
+K: Gm
+D2 \
+| "Gm"G>A Bc d2 g2 \
+| "C"=e>d ce "Gm"d2 B2 \
+| "D7"c>B Ac "Gm"BA GB  \
+|1,3 "D7"A2 d2 d2 \
+:|2,4 "D7"A>D ^FA "Gm"G2 :|
+|: d2 \
+| "Gm"b3 a g2 gb \
+| "D7"a2 ag ^f2 fa \
+| "Cm"g2 c2 e2 g2 \
+| "D7"^f4- fe dc || "Gm"B2 BA GA Bc |
+| "Gm"d2 dg d3 c \
+|1 "Gm"B2 AB "F"c2 Bc | "Bb"d4- "D7"d2 \
+:|2 "Gm"B2 cB "D7"A2 ^FD | "Gm"G3 |]
+S:https://www.folktunefinder.com/tunes/18342
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Ahkerschottis_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Ahkerschottis_Gm.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

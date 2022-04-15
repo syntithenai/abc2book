@@ -1,0 +1,22 @@
+X:224
+T:Chin, chirn, chin
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Asturias, canciones
+M:3/8
+L:1/8
+Q:3/8=120
+K:G
+|: d2 d|B3|c3/2B/c|d2 d|c3/2B/c|d3-|d2 z|
+|c2 c|A3|B~B2|G2 G|B3/2B/B|D3/2D/D|G3/2G/G|A3|A3/2B/c|d2 B|c2 A|G3-|G2 z :|
+S:https://www.folktunefinder.com/tunes/59111
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:347
+%%topmargin 3cm
+T:The Marquis of Huntly
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G aeolian
+F | D<G~G>F D<GG>A | F>GA>B c/B/A/G/ F<A | D>G~G>F D<GG>g | f>c d/c/B/A/ B<GG :|
+d | ~g>ab<g d<gb>g | a/g/f/d/ c>=e f>Aa<f | ~g>ab<g d<gb>g | b/a/g/f/ d<^f g/g/g g<d |
+g>ab>g a<^fg>=e | f>dc<f c<Fc<A | F<GG>F D<G~G>g | f>c d/c/B/A/ B<GG |]
+S:https://www.folktunefinder.com/tunes/71376
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Marquis_of_Huntly.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0347.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

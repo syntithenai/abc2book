@@ -1,0 +1,26 @@
+X: 1
+P: De Colores
+O: Mexico
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+z2 \
+| "C"[G3-E3-] "G7"[G2E2][FD] | "C"[FD][E2C2] z[EC][FD] \
+|    [GE][GE]>[GE] [GE][FD][EC] | [GE][GE]>[GE] [GE][FD][EC] |"G7"[GE][F2-D2-] [F2D2]z |
+S:https://www.folktunefinder.com/tunes/16673
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_Misc02.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Misc02.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Waltz_Misc02.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_Misc02
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

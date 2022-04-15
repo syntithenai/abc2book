@@ -1,0 +1,29 @@
+X: 1
+T: James Baird's Favourite
+R: strathspey
+M: 4/4
+L: 1/16
+K: A
+"E7"c3B \
+| "A"AE3 E3C E4 c3B \
+| "D"AF3 F3E "E7"F6 A2 \
+| "A"E3F AA3 B3c e3f \
+| "D"ec3 B3A "E7"F4 :|
+|: c3d \
+| "A"e3f ec3 e4 e3a \
+| "D"f3g fgag "E7"f4 f3a \
+| "A"ec3 B3A "F#m"A3B c3B \
+|1 "Bm"AF3 F3E "E7"E4 \
+:|2 "Bm"AF3 "E7"F3E "A"A4 :|
+S:https://www.folktunefinder.com/tunes/19422
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JamesBairdsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JamesBairdsFav.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

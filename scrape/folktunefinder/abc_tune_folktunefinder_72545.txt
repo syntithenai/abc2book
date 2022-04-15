@@ -1,0 +1,24 @@
+X:88
+T: Echo - Jodel
+N: D0101
+O: Europa, Mitteleuropa, Schweiz, Bern
+N: vollstaendig 
+R: Jodler
+M: 3/4
+L: 1/16
+K: G
+G6A2B4 | g8G3e | d12
+B6g2B4 | c4f6e2 | d12
+A6B2c4 | f8-f3e | d12
+c6a2c4 | B4d4g4 | b8-b2a2 | g12
+S:https://www.folktunefinder.com/tunes/72545
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

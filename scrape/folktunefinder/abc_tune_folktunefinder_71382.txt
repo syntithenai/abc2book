@@ -1,0 +1,26 @@
+X:353
+%%topmargin 3cm
+T:The Bridge of Inver
+C:James Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bb
+d | ~B2 (FE) DB,B,D | ECCE DF~FA | ~B2 (FE) DFBF | BecA ~B2 B :|
+f | dBdf gBbB | fd{/d}cB (Ac)~cf | dBdf (gb)fg | dfcA ~B2 (Bf) |
+dBdf gBbB | gBfB (Ac)Tcd | (~BG)(FE) DFBF | GecA ~B2 B |]
+S:https://www.folktunefinder.com/tunes/71382
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bridge_of_Inver.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0353.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

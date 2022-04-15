@@ -1,0 +1,39 @@
+X: 1
+T: Miss Dow's Fancy [3]
+C: J.Reid
+N: Notated "WBM" (Winifred Bird-Mathew)
+R: shottish, strathspey
+F: http://www.amdmac.com/margaretdow/
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: a>g f>e d>e f2 | g>f e>d c2 A2 \
+|  d>e f>g a2 d'2 | b>a g>e e4 \
+|  a>g f>e d>e f2 | g>f e>d c2 A2 |
+|  d>e f>g ad' a>f | e2 d2 d4 \
+:| A4 B3 c | d>f e>d c>B A2 \
+|  d>e f>g a2 g2 | f>a g>f e4 |
+|  A4 B3 c | d>f e>d c>B A2 \
+|  a>g fe d>e f2 | e2 d2 d4 \
+|[| a3 b a2 d'2 | b>a g>f e>f g2 |
+|  c'3 b a2 f2 | f>e d>f e4 \
+| a3 b a2 d'2 | b>a g>f e>f g2 \
+| c'>b a>g f>e d>f | e2 d2 d4 |]
+S:https://www.folktunefinder.com/tunes/18408
+S:http://www.amdmac.com/margaretdow/
+S:http://trillian.mit.edu/~jc/music/abc/shottish/MissDowsFancy3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissDowsFancy3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/MissDowsFancy3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissDowsFancy3_D.abc
+% Rhythm Shottish, strathspey
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

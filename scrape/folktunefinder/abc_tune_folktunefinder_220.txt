@@ -1,0 +1,20 @@
+X: 1
+P: The Canadian Club
+C: Frank Ferrel
+M: 6/8
+L: 1/8
+K: A
+AB \
+| "A"c3 cBA | E3 zAB | c3 cBA | e3- e2c | "D"dfd dcB | "A"cec cBA | "B7"B3 g2f | "E7"efd cdB |
+| "A"c3 cBA | E3 zAB | c3 cBA | e3- e2c | "D"dfd dcB | "A"caf ecA | "E7"BcB EFG | "A"A3 z |]
+|: ag \
+| "D"faf dfa | "A"ecA AGA | "E7"BcB EFG | "A"AEA cBA | "D"fdf agf | "A"eaf ecA | "E7"BcB EFG | "A"A3 z :|
+S:https://www.folktunefinder.com/tunes/220
+S:http://trillian.mit.edu/~jc/music/abc/Contra/byFrankFerrel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

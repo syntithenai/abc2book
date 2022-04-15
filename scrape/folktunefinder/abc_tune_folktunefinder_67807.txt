@@ -1,0 +1,30 @@
+X: 20
+T:Daronee
+O:Armenia
+L:1/8
+I:accompaniment should be on percussions
+M:5/4
+Q:1/4=100
+%%MIDI gchord fzfzfffzfz
+K:Am
+| "A" F2 _G2 cB cA3| F2 _G2 cB cA3| A2 B2 cd BA3|A4-A6|
+|:d2 d2 d2 d4| d c2 d c2 B4|Bc2 Bd B4 A| A4-A6:|
+|:F2 _G2 cB cA3| F2 _G2 cB cA3| A2 B2 cd BA3|A4-A6:|
+L:1/8
+M:2/4
+K:Em
+Q:1/4=120
+|z4|G2 G2|G/A/B AG| G2 G2|G/A/B AG|
+|:G/F/E E>A| G/F/E E>A|
+G/F/E E>A| G/F/E E2:|
+S:https://www.folktunefinder.com/tunes/67807
+S:http://jjaquier.free.fr/midifiles/abc/balk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key A
+% Time_signature 2/4
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

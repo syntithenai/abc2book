@@ -1,0 +1,24 @@
+X:6112
+T:Slopes of Sliabh Luachra
+O:england
+R:Jig
+C:Traditional, arr. Roger Landes
+M:6/8
+L:1/8
+K:ADor
+{B,}A,A,A, {B,}A,G,E,|E,D,E, G,G,A,|{B,}A,A,A, {B,}A,G,E,|A,B,D EFG|
+{B,}A,A,A, {B,}A,G,E,|E,D,E, G,A,B,|CB,A, B,A,G,|1 {B,}A,A,A, A,2G,:|2 {
+B,}A,A,A, A,2D||
+E2A AGA|ABA {B}AGA|E2G GFG|GAG GED|
+E2A AGA|ABA {B}AGA|EFG EDB,|1 {C}B,A,G, A,2D:|2 {C}B,A,G, A,2G,||
+S:https://www.folktunefinder.com/tunes/26564
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

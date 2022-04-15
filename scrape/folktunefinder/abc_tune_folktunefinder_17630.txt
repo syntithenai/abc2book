@@ -1,0 +1,27 @@
+X: 1
+T: Maudabawn Chapel
+R: reel
+C: Ed Reavy
+N: The local chapel in Ed's parish.
+Z: Joe Reavy
+M: 4/4
+L: 1/8
+K: G
+|: G3D  E2DB, | G,A,B,D EGDB, | G,A,B,D GABd  | gabg  eaaf  |
+|  gbag efge  | dged    B^cde | g2fa    gedB  | AcBA  GEED :|
+|: E2BE dEBE  | Ed^cB   AFDF  | ~E3F    GFGB  | AF~F2 DFAF  |
+|  EBBA B3B   | BAGA    B^cde | f2af    gfe^c | dBAF  GEED :|
+S:https://www.folktunefinder.com/tunes/17630
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaudabawnChapel1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MaudabawnChapel1_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MaudabawnChapel1_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

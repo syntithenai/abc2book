@@ -1,0 +1,21 @@
+X: 2077
+T: Trilisestile
+O: Romania
+M: 4/4
+L: 1/8
+K: A
+|: "A"ABcd ef=ge | "D"a=gfe f3e | "E7"dcBA BcdB |1 "A"ABcd e^de2 :|2 "A"AEFG A2z2 ||
+|: "A"g-aae g-aae | "E7"dcBd "A"~c3A | g-aae "E7"dcBd | "A"~c3A BAGA |
+|  "A"g-aae g-aae | "E7"dcde f3e | "E7"dcBA BcdB | "A"AEFG A2z2 :|
+|: "A"EAGA BAGA | BAGA ~c3A | "E7"dcBA BcdB |1 "A"AGAB cde2 :|2 "A"AEFG A2z2 :| "Coda A".A2.E2 .A2 |]
+S:https://www.folktunefinder.com/tunes/32540
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

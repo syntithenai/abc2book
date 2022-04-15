@@ -1,0 +1,35 @@
+X:758
+T:Xiraldilla (CT 056)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Estribillo, transcrito en Navia.
+N:Se aplica como baile en las xiraldillas despus de una meloda propia para la rueda.
+A:Asturies
+D:Felpeyu: Tierra
+O:Navia
+Z:Cancioneru de Torner 056
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|GA Bc|d2 dd|ed dc|B2 G2|
+Bc de|ed dc|A2 d2|B2 B2|
+W:Por el aire van
+W:los suspiros de mi amante;
+W:por el aire van,
+W:van por el aire.
+W:
+S:https://www.folktunefinder.com/tunes/59645
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

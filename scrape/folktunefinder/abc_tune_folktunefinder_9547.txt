@@ -1,0 +1,32 @@
+X: 1
+P: Troy's Wedding
+C: C.Magee
+R: jig/march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: B \
+| "D"A>AA d2c | "G"B>BB "Em"e2d | "A"c>AA A>Bc | "D"d>cd f2d \
+| "D"A>AA d2c | "G"B>BB "Em"e2d | "A"c>aa g>ee | A>Bc "D"d2 :|
+   f \
+| "Em"g>ee "A"e>ge | "D"f>dd d>fd | "A"e>cA A>Bc | "D"d>cd f2d \
+| "Em"g>ee "A"e>ge | "D"f>dB A2d | "A"c>aa g>ee | A>Bc "D"d2 ||
+   f \
+| "Em"g>ee "A"e>ge | "D"f>dd d>fd | "A"e>cA A>Bc | "D"d>cd f2d \
+| "G"B>GG B>cd | "D"A>dd f>dd | "A"c>aa g>ee | A>Bc "D"d2 |]
+|: "A"A>aa B>ac | a>ad a>ea | "D"f>aa "A"g>ec | "D"d>cd f2d \
+|  "A"A>aa B>ac | a>ad a>ea | "A"c>aa g>ee | A>Bc "D"d2 :|
+[| "A"A>cc c>ee | "D"A>dd d>ff | "A"e>cA A>Bc | "D"d>cd f2d \
+|  "A"A>cA e>cA | "D"A>dA f2d | "A"c>aa g>ee | A>Bc "D"d2 ||
+|| "A"A>cA e>cA | "D"A>dA f>dA | "A"e>cA A>Bc | "D"d>cd f2d \
+| "G"B>GG B>cd | "D"A>dd f>dd | "A"c>aa g>ee | A>Bc "D"d2 |]
+S:https://www.folktunefinder.com/tunes/9547
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ09.abc
+% Rhythm Jig/march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

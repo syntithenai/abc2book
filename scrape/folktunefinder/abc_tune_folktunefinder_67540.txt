@@ -1,0 +1,33 @@
+X:22
+T:Music For A Found Harmonium
+M:4/4
+L:1/8
+R:reel
+D:Celtic Fiddle Festival by Celtic Fiddle Festival
+D:Irish Times by Patrick Street
+D:Live From Patrick Street by Patrick Street
+D:Maybe Tonight by Four Men And A Dog
+D:Sharon Shannon by Sharon Shannon
+D:The Music Of What Happened by Nollaig Casey
+K:Dmaj
+DE|:FDGD FD (3DDD|FDGD FD (3DDD|FDGD FD (3DDD|EDCD FDDD:|
+|:EDCD EDCD|FDCD FDCD|GDED CDGD|1 FDDD D2 DD:|2 FDDD D2 D=F||
+K: Cmaj
+|:cFEF {EF}GFEF|1 cFEF E-E2 F:|2 cFEF E-E2 D||
+K: Fmaj
+|BFDF GFDF|BFDF GFDF|BFEF GE-EG|BFEF GE-EG|
+|^cGEG CGGG|^cGEG CGGG|^cGEG CGGG|^cGEG CGGG|
+K: Dmaj
+|:FDGD FD (3DDD|FDGD FDGD|FDGD FDGD|EDCD FDDD:|
+|:EDCD EDCD|FD=CD FDCD|GDED CDED|1 FDDD D2 DD:|2 FDDD D4||
+S:https://www.folktunefinder.com/tunes/67540
+S:http://domren.free.fr/VCB.html
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

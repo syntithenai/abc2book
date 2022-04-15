@@ -1,0 +1,27 @@
+X:4021
+T:Marquis of Lorne
+O:england
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+ba|"G"gfge B2ed|"Am"cBcA E2AG|"D7"FGAB cdef|"G"(3gba(3gfe "D7"d2ba|
+"G"gfge "Em"B2ed|"Am"cBcA E2AG|"D7"FGAB cdef|"G"g2b2 g2:|
+P:B
+Bc|"G"dBgB dgBc|"G"(3dcBgB d2cB|"Am"cAfA cfAB|"Am"(3cBAfA "D7"c2Bc|
+"G"dBgB dgBc|"G"(3dcBgB "Em"d2cB|"Am"ceag "D7"fdef|"G"g2b2 g2:|
+S:https://www.folktunefinder.com/tunes/24473
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

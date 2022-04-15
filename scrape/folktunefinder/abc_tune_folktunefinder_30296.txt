@@ -1,0 +1,24 @@
+X:1
+T:13. Sir John Souch his Galiard
+T:Cantus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+L:1/4
+M:3/2
+K:A min
+N:Original clef, C on first line
+c2 B2 A2 ^G3 A B2 c2 A4 ^G6 e2 d2 c2 B4 G c2 B2 A2 ^G A6 ||
+G2 A2 G > F E > D E F G2 c4 B2 c6 A2 B2 c2 d4 c2 B2 A4 ^G6 ||
+z e c e2 d z c A c2 B c3 B A2 ^G4 z2 z d B G c A B4 A2 ^G3 A B2 HA6 |]
+S:https://www.folktunefinder.com/tunes/30296
+S:http://www.laymusic.org/music/dowland/souch/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

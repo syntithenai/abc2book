@@ -1,0 +1,27 @@
+X:2838
+T:Chapel Bell, The
+R:jig
+D:Masters of the Folk Violin
+Z:Devin McCabe
+M:6/8
+L:1/8
+K:D
+~F3 ~E3|DFA d2A|ded cAG|FAF GFE|
+!~F3 EFE|DFA def|gec ABc|1dfe dAG:|2 dfe deg||
+!fdA gfe|fdB AB=c|~B3 EFG|A2D FED|
+!~f3 ~g3|fdB AFA|~B3 ecA|dfe deg|
+!fdA gfe|fdB AB=c|~B3 BAG|AGF GFE|
+!Dba gfe|fdB AB=c|~B3 ecA|dfe dAG||
+S:https://www.folktunefinder.com/tunes/29118
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

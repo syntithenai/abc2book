@@ -1,0 +1,52 @@
+X:4083
+T:Derry hornpipe, The
+S:Charlie Saksena
+S:O'Neills
+R:Hornpipe
+O:Ireland
+N:More or less o'Neills version, I think
+M:4/4
+K:D
+AG|\
+F2Ad fdAF|G2Bd gdBG|\
+F2Ad fdAF|E2GB ecAG|\
+F2Ad fdAF|G2Bd g2ag|\
+fafd Bgec|d2f2 d2::\
+fg|\
+a2fd Adfa|g2ec Aceg|\
+a2fd Adgf|(3efd (3cdB A2fg|\
+a2fd Adfa|gfef g2ag|\
+fafd Bgec|d2f2 d2::\
+AG|\
+(3FED AD BDAD|dcdf ecAG|\
+(3FED AD BDAD|EGFA GBAG|\
+(3FED AD BDAD|dcdf eceg|\
+(3fgf df gece|df (3edc d2::
+(3efg|\
+a^gab afdf|gfga gece|\
+a^gab afdf|(3efd (3cdB A2 (3efg|\
+a^gab afdf|gfef gbag|\
+(3fgf df gece|df (3edc d2::\
+fg|\
+(3aaa fd Adfa|(3ggg ec Aceg|\
+fdge afbg|ecdB A2fg|\
+(3aaa fd Adfa|(3ggg ec A2ag|\
+fdAF Egec|d2f2 d2::\
+FG|\
+AFAd fedc|BGBe gfed|\
+cAce agfe|fcdB A2FG|\
+AFAd fedc|BGBd g2ag|\
+fafd Bgec|d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/60272
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

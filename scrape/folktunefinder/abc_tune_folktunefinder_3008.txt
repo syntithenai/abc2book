@@ -1,0 +1,26 @@
+X:1
+T:Kas ar barh
+R:andro
+S:Le F=E9on-L=E9hart
+D:Evit Dansal tradtunes 2001-01-24
+M:4/4
+L:1/8
+K:C
+|: EF/E/ GG/G/ A^c BG | EF E/B/^c/B/ EF/E/ GG/G/ \
+(|1 A^c BG EF E2 :|2 A^c BE/F/ G/E /F/G/ E2 ||
+BB/B/ GG/B/ AA/B/ GE | BB/B/ GG/B/ AG/F/ E2 \
+| B^c/B/ GG/B/ AA/B/ GE | B^c/B/ GG/B / AF/G/ EB |
+|: FE/F/ GG FE/F/ G>G | A^c BA G/A/G/E/ B/^c/B \
+| G/F/E/F/ GA FE/F/ G>G |1 A^c BG EF E2 :|2 A^c BE/F/ G/A/G/F/ E2 ||
+S:https://www.folktunefinder.com/tunes/3008
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/KasArBarh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/KasArBarh.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

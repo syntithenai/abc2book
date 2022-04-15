@@ -1,0 +1,27 @@
+X:3333
+T:Knick-Knack
+O:england
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|"G"G/2F/2G/2A/2 BB|"G"G/2F/2G/2A/2 BB|"Am"d/2c/2B/2c/2 AA|\
+"D7"d/2c/2B/2c/2 AA|
+"G"G/2F/2G/2A/2 "f#"BB|"Em""Em"G/2F/2G/2A/2 "D""Em/d"BB|\
+"C""Am/c"d/2c/2B/2c/2 "D7""D7"A/2c/2B/2A/2|"G"GB G:|
+FF F\
+P:B
+B/2c/2|"G"d3/2c/2 Bd|"G"gg d2|"Am"d/2c/2B/2c/2 AA|"D7"d/2c/2B/2c/2 AA|
+"G"d3/2c/2 Bd|"G""Em"gg d2|"C""Am"d/2c/2B/2c/2 "D7""D7"A/2c/2B/2A/2|"G"GB G:|
+S:https://www.folktunefinder.com/tunes/23784
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

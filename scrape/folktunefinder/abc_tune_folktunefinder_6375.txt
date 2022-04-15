@@ -1,0 +1,20 @@
+X: 17
+T: The Tarbolton Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: EDor
+D \
+| "Em"Eeed e2BA | "Em"GBAF "A7"GFEF | "D"Dddc d2AF | "A7"GBAG "D"FDDF | "Em"Eeed efge |
+| "D"fedf edBA | "G"GABG "D"FGA=c | "B7"BGAF "Em"GEE :: f | "Em"g2ef gebe | "Em"gebe "A7"gfef |
+| "D"d2fd Adfd | "A7"ABAG "D"FDDF | "G"G2BG "D"FGAF | "Em"Eeef gfed | "G"B2dB "D"AGFA | "B7"BGAF "Em"GEE :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6375
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

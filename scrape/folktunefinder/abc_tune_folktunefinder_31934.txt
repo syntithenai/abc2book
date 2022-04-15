@@ -1,0 +1,35 @@
+X: 1427
+T:Coppers And Brass
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+H:'f2' in bar 17 slid heavily
+M:6/8
+K:G
+{d}(3BABB GBd | ~c3 Adc | ~B3 GBd | (3cBAG FGA |
+~B3 ~G3 | (3.c.c.Bc ABc | dfd cAF | AGF G2A |
+{d}(3BABB GBd | ~c3 Adc | ~B3 GBd | (3cBAG FGA |
+(3.B.B.GG (3.B.B.GG | AFF (3.A.B.cA | BdB {d}cAF | AGF G(5ABcde ||
+f2f {g}fed | {e}dcA AGF | GBd ~g3 | afd {e}dcA |
+^cde fed | cAG FGA |  (3BcdB {d}cAF |1 AGF G2e :|2 AGF G2f ||
+gdB (3.g.g.dB | (3.e.e.cA ecA | gdB {d}BAB | {d}cAG FGA |
+(3.g.g.dB (3.g.g.dB | ecA ecA | ~B3 ~G3 |  (3.c.c.AF G2f |
+gdB (3.g.g.dB | (3efgf ecA | ~B3 ~G3 (3.c.c.AG FGA |
+(3BcdB GEG | cec ABc | dfd (3cBAF | AGF G3 ||
+S:https://www.folktunefinder.com/tunes/31934
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

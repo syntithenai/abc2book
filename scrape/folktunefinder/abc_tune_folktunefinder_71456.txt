@@ -1,0 +1,25 @@
+X:427
+%%topmargin 3cm
+T:Mrs. Dingwall of Brockly's Strathspey
+C:Rob't. Petrie
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+B | A>FC>F A,>FC>B | A>F A/B/c/A/ B<GG>B | A>FC>F A,>FC>A | B>dc>B A<FF :|
+A | F<ff>g f/g/a/g/ f>F | G<gg>a b/a/g/f/ g>a | F<ff>g f/g/a/g/ f>c | d>f Tc>B A<FF>A |
+F<ff>g f/g/a/g/ f>F | G<gg>a b/a/g/f/ g>a | b>g f/g/a/g/ f>dc>B | A>f a/g/f/e/ f<FF |]
+S:https://www.folktunefinder.com/tunes/71456
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Dingwall_of_Brocklys_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0427.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

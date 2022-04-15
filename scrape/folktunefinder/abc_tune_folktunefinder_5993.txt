@@ -1,0 +1,37 @@
+X: 1
+T: Salty Dog Rag
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+[e2c2] [e2B2] [e2_B2] \
+"I"\
+[| "A7"[eA][eA] [eB][eA] [e^c][eA] [eB][eA] | [e2^c2][eB][e-A] [e4A4] \
+|  "D7"[dA][dA] [dB][dA] [d=c][dA] [dB][dA] | [d2=c2][dB][d-A] [d4A4] |
+|  "G7"[dG][dG] [dA][dG] [dB][dG] [dA][dG] | [d2B3] [dA][d-G-] [dG][dG] [dA][dG] \
+|  "C"c_B- BG- GF EC | GF EC- C4 |]
+"A"\
+|: "A7"AA ^cc BB cc | AA ^cB- BA BA \
+|  "D7"dd ^ff ee ff | dd ^fe- ed ed |
+|  "G7"gg bb aa gg | gg ba- ag ag \
+|  "C"c'2 a2 g2 e2 | "C"cB ce- ec B_B :|2 "G7"gA Bc- "C"c4 ||
+"B"\
+|: "A7"a2 _a2 g4 | a2 _ag- ge- ee \
+|  "D7"e2 _e2 d2 c2 | e2 _ed- dg- g=e |
+|  "G7"g2  ed g2 ed | gd eg- gg ag \
+|  "C"c'2 a2 g2 e2 |1 "C"cB ce- "E"ea- a^g :|2 "G7"gA Bc- "C"c4 |]
+%%sep 1 1 8cm
+S:https://www.folktunefinder.com/tunes/5993
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SaltyDogRag.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/SaltyDogRag.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/SaltyDogRag.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/SaltyDogRag.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/SaltyDogRag.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/SaltyDogRag.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/SaltyDogRag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

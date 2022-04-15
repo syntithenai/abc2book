@@ -1,0 +1,32 @@
+X: 2
+T: Julen har bragt velsignet Bud [A]
+C: C.E.F.Weyse
+O: Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+| "A"[cA][AE][cA] [e2A2][cA] \
+| "D"[A2F2]"E"[BG] "A"[c2A2]A \
+| "D"[f2A2][fA] "A"[eA]>[dB][cA] \
+| "E"[B3G3] E2 ","[eG] \
+| "A"[cA][AE][cA] "C#m"[e2G2][cG] \
+| "F#m"[A2F2]"E"[BG] "A"[c2A2][eG] \
+| "E"[BE]>c[BE] "C#m"[eG]>^d[eG] \
+| "B7"[f3A3] "E"[e2G2]z |
+| "E"[BE]>[AF][BG] "A"[c2A2][c=G] \
+| "Bm"[d2F2]"E7"[B^G] "A"[c2A2]A \
+| "D"[d2F2][cE] "Bm"[BD]>[cE][BF] \
+| "E"[B3E3] E2 ","[eB] \
+| "A"[ec][cA][dB] [e2c2][cA] \
+| "E7"[BG][dB][cA] [B2G2][eB] \
+| "A"[cA]"D"[dA][fd] "A"[ec]>[dB][cA] \
+| "E7"[c2E2][BD] "A"[A2C2]z |]
+S:https://www.folktunefinder.com/tunes/8787
+S:http://trillian.mit.edu/~jc/music/abc/Scand/JulenHarBragtVelsignetBud.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

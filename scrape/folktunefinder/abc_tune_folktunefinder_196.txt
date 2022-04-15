@@ -1,0 +1,30 @@
+X: 1
+P: Trial by Jury Lancers, Figure 1
+C: Sir Arthur Sullivan
+M: C
+L: 1/16
+K: D
+((7:4ABcdefg) "A"\
+|  "D"a2A2 "A7"g2A2 "D"f2A2 {g}f^efg \
+| "A7"e2A2 {f}e^def "D"=d2A2 ((7:4ABcdefg) \
+|  "D"a2A2 "A7"g2A2 "D"f2A2 {g}f^efg |
+| "A7"e2A2 {f}e^def "D"=d4 "fine"d4 y\
+"B"\
+|]  "G"d3c     c2B2 "D"B2A2    G2F2 \
+|   "G"d3c     c2B2 "D"B2A2    G2F2 \
+|  "A7"A3G  "D"F2F2 "A7"A3G "D"F2F2 |
+|  "A"E2A2 "E7"^G2B2 "A"A4   A2B2 \
+|"E7"A2^G2 F2E2 "A"E2A2 A2B2 \
+|"E7"A2^G2 F2E2 "A"E2A2 A2A2 \
+|"A"^G2F2 G2A2 "A"E2A2 A2A2 \
+|  "E7"A2^G2 F2G2 "A"A4 "d.C.al fine"|]
+%%text Play 4x(AB)A
+S:https://www.folktunefinder.com/tunes/196
+S:http://trillian.mit.edu/~jc/music/abc/Contra/TrialByJuryLancers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

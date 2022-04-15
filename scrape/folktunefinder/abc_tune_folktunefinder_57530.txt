@@ -1,0 +1,28 @@
+X: 193
+T: Tam Lin
+%%musicspace 0
+%%topspace       0.00cm
+%%titlespace       0.00cm
+%%composerspace  0.00cm
+C: R-103
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Dm
+%%text Repeat part A 4 times
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+G,|: "Dm"A,2DA, FA,DA,| "Bb"B,2DB, FB,DB,| "C"C2EC GCEG|1 FEDC DCA,G, :|2 FEDC "Dm"D4 |]
+|:\
+"Dm"dcAG F2D2| dcAG F2D2| "C"Accc dccc| Accc eccc|
+"Dm"dcAG F2D2| dcAG F2D2| "Bb"B,2DB, FB,DF| "C"EDCE "Dm"D4 :|
+%%text 9/1/98.  transcribed by Aram Hollman, 8/
+S:https://www.folktunefinder.com/tunes/57530
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1
+T:Low Road to Glin
+Z:Gerry Strong <gstrong@THEZONE.NET> irtrad-l 2000-10-25
+M:4/4
+L:1/8
+Q:100
+K:D
+|:~F2 AF DFAF | ~F2 AF EA, ~A,2 | ~F2 AF DEFA | B2 AF EA,CE |
+~F2 AF DFAF | ~F2 AF EA, ~A,2 | ~F2 AF DEFA |1 B2 AF D3 E :|2 B2 AF D3 e |
+|:f2 df efdf | afdf eB ~B2 | ~f2 df af ~f2 | bfaf efde |
+fgaf {f}g2 fe | dfed BcdB | ~F2 AF DEFA |1 B2 AF D3 e :|2 B2 AF  D4 |]
+S:https://www.folktunefinder.com/tunes/17589
+S:http://trillian.mit.edu/~jc/music/abc/reel/LowRoadToGlin_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LowRoadToGlin_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LowRoadToGlin_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

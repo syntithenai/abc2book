@@ -1,0 +1,28 @@
+X: 102
+T:100 Psalm. JMP.102
+T:Old Hundredth. JMP.102
+M:2/2
+L:1/4
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Psalm
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+"No key signature shown" G4 | G2F2 | E2D2 | G2A2 | B4 ||\
+B4 | B2B2 | A2G2 | c2B2 | A4 ||!
+G4 | A2B2 | A2G2 | E2F2 | G4 ||\
+d4 | B2G2 | A2c2 | B2A2 | G4 |]
+S:https://www.folktunefinder.com/tunes/2039
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Psalm
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

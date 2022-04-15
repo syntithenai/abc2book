@@ -1,0 +1,25 @@
+X:1
+T: the Kilfodda
+C:Larry Redican
+M:C|
+N:Pipers & fluters usually play this in G.
+S:Juergen Gier <Juergen.Gier@POST.RWTH-AACHEN.DE>
+K:F
+G | AdcA GcAG | FDGF DGFD | CA, (3A,A,A, CDFG | AF (3FFF GABG |
+| AdcA GcAG | FAGF DCFD | CA, (3A,A,A, CDFG | AcGc F3::A |
+| ~c3A BAGA | F2AF GFDF | C~F3 C~F3 | BAGF DGGA |
+| ~B3c dc=Bc | dcde fcAF | C~F3 CFAd | cAGA F3 :|
+"var. 2. part"| ~c3A BAGA | F2AF GFDF | CFAF cFAF | BAGF DGGB |
+| AFcF dFcF | dcde fcAF | C~F3 CFAd | cAGA F3 :|
+S:https://www.folktunefinder.com/tunes/17491
+S:http://trillian.mit.edu/~jc/music/abc/reel/Kilfodda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Kilfodda.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

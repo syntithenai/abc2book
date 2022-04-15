@@ -1,0 +1,32 @@
+X: 90
+T:Cameronean Rant,The. JMP.090
+M:2/4
+L:1/8
+Q:200
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Reel
+O:Scotland
+A:Perth
+N:1 - there is a squiggle  over this group of notes, on the stave.  It
+N:looks like three slurs joined together, but is possibly a trill
+H:1799
+Z:vmp.C. Graebe
+K:G major
+(d/c/) | BG "1" (GF/G/) | BGdG |  BG "1" (GF/G/) | d2 cB |!
+ cA "1" (AB/A/) | cAeA |  cA "1" (AB/A/) | e2 dc :|!
+|:Bgga | gedB | Ggga | gedB |Aaab |!
+ agfg | Aaab| agfg | Ggga | gedB | !
+Ggga | gfeg | faea |faea gaba | agf"DC"e |]
+S:https://www.folktunefinder.com/tunes/2027
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

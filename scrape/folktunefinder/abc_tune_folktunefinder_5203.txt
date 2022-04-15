@@ -1,0 +1,32 @@
+X: 156
+T: Stille Nacht
+T: Silent Night
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: Bb
+| "Bb"[FD]>[GE][FD] |[D3B,3] | "Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] |[A2-E2-] | "Bb"[B2D2] |[F2D2] \
+|[M:3/4][L:1/4] "Eb"[G2E2][GE] |[BG]>[AF][GE] | "Bb"[FD]>[GE][FD] |[D3B,3] |
+|[M:2/4][L:1/4] "Eb"[G2E2] \
+|[M:3/4][L:1/4] [BG]>[AF][GE] |"Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] \
+|[M:3/4][L:1/4] [eA]>[cF][AE] \
+|[M:2/4][L:1/4] "Bb"[B2D2] \
+|[M:3/4][L:1/4] [d3F3] \
+|[M:2/4][L:1/4] [BD2][DB,] \
+|[M:3/4][L:1/4] "F7"[FA,2]>E[CA,] | "Bb"[B,3-B,3-] |[B,B,]zz |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5203
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

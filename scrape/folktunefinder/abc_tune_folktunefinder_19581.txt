@@ -1,0 +1,28 @@
+X: 1
+T: Mr Murray
+R:
+O: Trad - Wm.Martin
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 4/4
+L: 1/16
+K: A
+|: F \
+| "A"EA,3 C3F E3e dcBA | "D"FD3 A3F "A"E3d ce3 \
+| "A"EA,3 C3F E3e dcBA | "D"FA3 "E7"E3G "A"A4 A2 :|
+|| e \
+| "A"a3a "E"gabg "A"a3e c2e2 | "D"f2A2 "E7"g2A2 "A"a3e c2e2 \
+| "A"a3a "E"gabg "A"a3e c3e | "D"f3d (3a2g2f2 "E7"e4 e2g2 |
+| "A"a3a "E"gabg "A"a3e c2e2 | "D"f2A2 "E7"g2A2 "A"a3e c2e2 \
+| "F#m"(3a2g2f2 "E"e2d2c2 "D"f2e2d2 "A"c2B2A2 | "D"FA3 "E7"E3G "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/19581
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrMurrayS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrMurrayS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

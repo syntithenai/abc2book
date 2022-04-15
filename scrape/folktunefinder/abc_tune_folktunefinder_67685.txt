@@ -1,0 +1,57 @@
+X:1
+T:Radomirsko Horo
+T:ABCDCE
+O:Bulgaria
+S:Folk Dance collected by Yves Moreau
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:ABCDCE
+Q:1/2=120
+M:4/4
+L:1/4
+K:Gm
+P:A
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 21
+%%MIDI bassprog 32
+ |:"Eb"~G3/2F/G/F/E|"Bb"FD"Eb"E2|"F"E/D/C "C"DB,|"F"CD EF |
+   "Eb"~G3/2F/G/F/E|"Bb"FD"Eb"E2|"F"E/D/C "C"DB,|"F"C2 Cz:|
+P:B
+%%MIDI program 1 56
+ |:"Bb"B,CDD|"Bb7"DDDC/D/|"Cm"EEED/E/|"F7"FEED/C/|
+   "Gm"B,CDC|"Gm7"D2CB,|"Eb"CCCC|"F7"CCCz:|
+P:C
+%%MIDI program 1 21
+ |:"Bb"D>F, D/F,/D/F,/| D/F,/D/F,/DC/B,/|"F7" E>F, F/F,/E/F,/| F/F,/E/F,/ E D/C/|
+  "Bb"D/D/D/F,/ D/F,/D/F,/| D/F,/D/F,/DC/B,/|"F" A,/B,/C/C/ C/B,/A,/B,/\
+ |1 C/B,/A,/B,/ C/C/C/z/ :|2 C/B,/A,/B,/ Cz||
+P:D
+L:1/8
+%%MIDI program 1 56
+ |:"Bb"~B3F ABcd|"F7".e2.e2~e2dc|"Bb"d2d2d2d2 |d2d2~d2cB |
+   "Bb"~ABBF ABcd|"F7".e2.e2~e2dc |f2c2 cBAB |cBAB c2z2 :|
+P:E
+K:C
+%%MIDI program 1 71
+ |:"C"GFEE E_DCC| C_B,C_D EEED |GFEE E_DC_B,| Cz EFGFEz |
+  GFEE E_DCC| C_B,C_D EEED |GFEE E_DC_B,| CG,A,=B,C z3 :|
+W:
+W:
+W:Arrangement Copyright (C) 2000 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/67685
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Radomirsko.abc
+S:http://people.csail.mit.edu/jaffer/Music/Radomirsko.abc
+S:http://voluntocracy.org/Music/Radomirsko.abc
+S:http://www.voluntocracy.org/Music/Radomirsko.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

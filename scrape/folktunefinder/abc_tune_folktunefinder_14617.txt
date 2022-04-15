@@ -1,0 +1,33 @@
+X:1
+T:The Market Town
+B:O'Neill's 958
+Z:Transcribed by Dan G. Petersen, dangp:post6.tele.dk
+M:6/8
+L:1/8
+F:http://kendy.home/~jc/music/book/oneills/1850/X/0958_dp.abc 2004-01-05 17:07:03 UT
+K:A
+E \
+"A"\
+| "A"E>FE ECE | "(E7)"E>FA "A"A2f \
+| "A"e>dc "E7"Bcd | "A"c>BA "D"FGA \
+||"A"E>FE ECE | "(E7)"E>FA "A"A2f |
+| "A"edc "E7"BAB | "A"cAA A2 \
+|: (c/d/) \
+"B"\
+| "A"e>fe ece  | "D"f2g a2f | "A"e>dc "E7"Bcd | "F#m"c>BA "D"F2F |
+|1 "A"e>fe ece | "D"f2g a2f | "A"edc "E7"BAB | "A"cAA A2 \
+:|2 "A"Ace "D"def | "A"cde "D"fga | "A"edc "E7"BAB | "A"cAA A2 :|
+S:https://www.folktunefinder.com/tunes/14617
+S:http://kendy.home/~jc/music/book/oneills/1850/X/0958_dp.abc
+S:http://kendy.home/~jc/music/book/oneills/1850/X/0958_dp.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/MarketTown_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MarketTown_A.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

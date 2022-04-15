@@ -1,0 +1,20 @@
+X: 3657
+T:Paddy Fahy's No.1
+S:Fisherstreet
+M:6/8
+L:1/8
+K:D
+DFA dcA|AGE AGE|DFA dcA|AGE =~C2 C|!
+A,DD EFG|AdB =~c2 c|dfd AFF|GEA ~D2D:|!
+|:DFA fed|dcA AGE|AGE DdB|=~c2 cGE C|!
+A,DD EFG|AdB =~c2 c|dfd AFF|GEA ~D2D:|!
+S:https://www.folktunefinder.com/tunes/33425
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

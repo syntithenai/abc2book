@@ -1,0 +1,54 @@
+X:40
+T:La Mouche
+C:Traditioneel
+O:Gent, Vlaanderen
+B:Gentse Contradansen, Muziekmoza\"iek
+N:Originally in E. Slightly edited
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+Q:3/8=126
+%%staves [ 1 2 ]
+P:AABB
+K:C
+P:A
+% 1
+V:1
+G|"C"MG2c Mc2e|Me3 g2G|"F"A{/g}fe "G"dcB |"C"cGE C2G|\
+V:2 clef=bass middle=D
+z|    CGE  C2z|CGE C2E|   F2F        G2G,|   C3  z2z|\
+% 5
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"Afe "G"dcB |"C"c3    c2 ::d|
+V:2
+    CGE  C2z|CGE C2E|   F2F    G2G,|   CG,E, C,2::z|
+% 9
+P:B
+V:1
+"C"ecG C2e|"G"dBG    D2 d  |"C"edc BAG|"D"^FGA D2c|\
+V:2
+   CCC CCC|   B,B,B, B,B,B,|   CCC CCC|    DDD DDD|\
+% 13
+V:1
+!f!DFA "(G)"DGB|"D"DFA "(G)"DGB|"C"edc "D"PA3|"G"G3   G2G |
+V:2
+   DDD      DDD|   DDD      DDD|   CCC    DDD|   GDB, G,2z|
+%17
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"Afe "G"dcB |"C"cGE C2G|\
+V:2
+    CGE  C2z|CGE C2E|   F2F    G2G,|   C3  z2z|\
+%21
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"A{/g}fe "G"dcB |"C"c3    c2 :|
+V:2
+    CGE  C2z|CGE C2E|   F2F        G2G,|   CG,E, C,2:|
+S:https://www.folktunefinder.com/tunes/75736
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

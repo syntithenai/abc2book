@@ -1,0 +1,28 @@
+X:6010
+T:Swedish Bagpipe tune
+A:Dalarna
+D:Per Gudmundsen
+M:4/4
+O:Sweden
+R:March
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008b8.html
+%%ID:000008b8
+K:A
+A,2|\
+E4 A4|c2 Ac e3d|c2BA BA Bc|\
+d2 B2 FE FG|E6 :: EG|\
+B2 B2 BA Bd|c2 A2 AG Ac|
+B2 B2 BA Bc|e3d c2 BA|\
+G3A B3c|e3d c2 BA|GA Bc dB GE|A4:|
+S:https://www.folktunefinder.com/tunes/37281
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

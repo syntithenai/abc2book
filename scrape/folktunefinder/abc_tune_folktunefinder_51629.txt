@@ -1,0 +1,23 @@
+X:731
+T:Tobin's
+M:6/8
+L:1/8
+K:D
+|:F|"D"DFA dcd|"A"ecA efg|"D"fdf "G"gfg|"A"ecA GFE|"D"DFA dcd|\
+"A"ecA efg|"D"fdf "A"gec|edc "D"d2:|
+|:e|"D"fdf "G"gfg|"A"efg efg|"D"fdf "G"gfg|"A"ecA GFE|"D"DFA dcd|\
+"A"ecA efg|"D"fef "A"gec|edc "D"d2:|
+S:https://www.folktunefinder.com/tunes/51629
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t731.abc
+S:http://www.arcelts.com/bbot1/t731.txt
+S:http://www.arcelts.com/bbot1/t731.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

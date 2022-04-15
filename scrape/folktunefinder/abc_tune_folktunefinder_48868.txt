@@ -1,0 +1,23 @@
+X: 1
+P: Jim Anderson's Delight
+C: Ronnie Cooper
+C: arr. T. Traub 12-11-1997
+M: 6/8
+R: jig
+K: A
+L: 1/8
+|: a/f/|"A"eAA cBA|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 :|
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"e2 a c2 a|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 ||
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/48868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/SallyLightfootSet.abc
+S:http://terrytraub.org/abc/JimAndersonsDelightJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/JimAndersonsDelightJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:114
+%%topmargin 3cm
+T:Lads of Tain
+C:K. Clarke
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E dorian
+B | A<FF>A B<GG>B | A<FF>A d>AB<d | A<FF>A B<GG>B | d>A G/2F/2E/2D/2 C<EE :|
+c | d<fe<f d>AF>A | d<f (g/2f/2e/2d/2) (c<e)e>f | d>fe>f d>AF>A | {/F}G>E (G/2F/2E/2D/2) C<EE>c |
+d<fe>f d>AF>A | d<f (g/2f/2e/2d/2) (c<e)e>g | ((3fed) ((3edc) ((3dcB) ((3AGF) | {/F}G>E (G/2F/2E/2D/2) C<EE |]
+S:https://www.folktunefinder.com/tunes/71144
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lads_of_Tain.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0114.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

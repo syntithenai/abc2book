@@ -1,0 +1,32 @@
+X:17317
+T:The Waterloo Dance
+M:4/4
+L:1/8
+Q:1/4=137
+C:Trad
+K:D
+P:A
+ AG|: F2 dB A2 fe|d2 d2 d2 cd| \
+      e2 e2 dcBc|defd A2 AG|
+      F2 dB A2 fe|d2 d2 d2 cd| \
+      e2 e2 dcBc|1 d6 AG :|2 d4 d4
+P:B
+|: e2 ec a2 af|e2 ec A2 A2| \
+   ^GABc dBfe|d4 c4|
+   e2 ec a2 af|e2 ec A2 A2| \
+   ^GABc dB A^G|1 A8:|2 A6 fg
+P:C
+|: a2 aa a2 fa|b2 a2 g2 f2| \
+   e2 e2 ed ef|d2 e2 f2 g2|
+   a2 aa a2 fa|b2 a2 g2 f2| \
+   e2 e2 ed ef|1 d6 fg :|2 d6 z2||
+S:https://www.folktunefinder.com/tunes/38688
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

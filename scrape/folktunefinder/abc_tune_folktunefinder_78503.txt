@@ -1,0 +1,25 @@
+X:62
+T: ET FRAD DE KENENK GENZT DEM REIN
+N: E0042H
+O: Europa, Mitteleuropa, Deutschland; Rumaenien, Siebenbuergen
+R: erzaehlendes Volks - Lied, Ritter -, Raeuber - Sage
+M: 4/4
+L: 1/8
+K: G
+BBB | E3B,E2F2 | E4z
+BBB | A2A2B2A2 | G4z
+ddd | G3Gc2B2 | A4z
+EDD | BDG2B3A | G4z
+ddd | G3Gc2B2 | A4z
+EDD | B,DG2B3A | G4z
+S:https://www.folktunefinder.com/tunes/78503
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter -, raeuber - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

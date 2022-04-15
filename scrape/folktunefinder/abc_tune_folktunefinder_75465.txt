@@ -1,0 +1,19 @@
+X: 1
+T:The Lambton Worm
+M:2/4
+L:1/16
+K:G
+G2G2G2F2|D2G2G2F2|D2G2G2A2|B2G6|B2c2c2c2|
+c2B2B2B2|-BBA2G2F2|E2D6|D2G2G2F2|D2G2G2F2|
+D2G2G2A2|B2c6|c2d2B2A2|G2d2G2E2|GGD2D2E2|
+F2G6|-G2G4B2|-B2d2B2G2|F2E2A2A2|-AGF2E2F2|
+D2G4B2|-B2d2B2G2|F2E2AAG2|F2G6||
+% Output from ABC2Win  Version 2.1 i on 2/26/2000
+S:https://www.folktunefinder.com/tunes/75465
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

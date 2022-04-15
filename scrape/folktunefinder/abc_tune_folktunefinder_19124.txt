@@ -1,0 +1,34 @@
+X: 1
+% %staffwidth     14.50cm
+T: Grandfather's Clock
+I: Grandfather's ClockS-GGsquare
+%C: S-G
+C: Henry Clay Work
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"(D7)"D2| "G"G2FG "D7"A2GA| "G"B2cB "C"E2AA| "G"G2GG "D7"F2EF| "G"G4- Gz DD|
+          "G"G2FG "D7"A2GA| "G"B2cB "C"E2AA| "G"G2GG "D7"FEF2| "G"G4- Gz GB|
+          "G"d2B>A "(Em)"G2FG| "D7 (A7)"AGFE "G (D7)"D2GB| "(G)"d2B>A "A7"G2FG| "D7"A6 DD|
+          "G"Gzz2 "D"Azz2| "G"B/B/B c>B "C"E2AA| "G/D"G4 "D7"F4| "G"G6 DD|
+% %vskip .3cm
+%%center  Play following line twice last time through
+          "G"G2DD EDD2 | B,z Dz B,z DD| \
+          G2DD EDD2| B,z Dz B,z DD|
+% %vskip .3cm
+          "G"Gzz2 "D"Azz2| "G"B/B/B c>B "C"E2AA| "G/D"G4 "D7"F4| "G"G6|]
+S:https://www.folktunefinder.com/tunes/19124
+S:http://trillian.mit.edu/~jc/music/abc/square/Grandfathers_Clock.abc
+S:http://roaringjelly.org/music/square/Sq_G_Grandfathers_Clock.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_G_Grandfathers_Clock.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/square/Grandfathers_Clock.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_G_Grandfathers_Clock.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

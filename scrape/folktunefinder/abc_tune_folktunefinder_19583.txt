@@ -1,0 +1,29 @@
+X: 1
+T: Mrs Alice Anderson
+C: Muriel Johnstone
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E \
+| "A"A<A A>E "D"F<A "A"E2 | "Bm"FA "E7"(3GAB (3Bcd \
+| "A"c<e e>c "D"f>d "A"e2 | "Bm"d>B "A"c>A "E7"(3BGF (3EFG |
+| "A"A<A A>E "D"F<A "A"E2 | "Bm"FA "E7"(3GAB (3Bcd \
+| "A"c<e e>c "D"f>d B>A | "E7"(3GAB (3EFG "A"A<A, A,G ||
+||"F#m"F<F c>B "G7"(3AGF (3FGA | "E"G<E B>A "A7"(3GFE (3EF=G \
+| "D"F<D A>F "A"E<C A>E | "D"D<D B>A "E7"(3GAB (3Bcd |
+| "A"c<e e2 "D"f>d "A"e2 | "Bm"d>B "A"c>A "E7"(3BGF (3EFG \
+| "A"A<A A>E "D"F<A "A"E2 | "Bm"F>B "E7"G>E "A"A<A, A, |]
+S:https://www.folktunefinder.com/tunes/19583
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsAliceAnderson_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MrsAliceAnderson_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsAliceAnderson_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

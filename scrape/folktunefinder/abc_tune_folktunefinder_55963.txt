@@ -1,0 +1,34 @@
+X:1024
+T:Baille de Panderu (CT 474)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Cangas de Tinu.
+O:Cangas de Tinu (Tinu)
+A:Asturies
+Z:Cancioneru de Torner 474
+M:3/8
+L:1/8
+Q:3/8=88
+W:Sali, mozos, a bail.lare,
+W:y a los de mi pueblo digo,
+W:que los que vienen d'afuera
+W:gasten munchu seoro.
+K:F
+d|ffd|e2e|cAB|cdc|e2d|fe2-|
+ezd|ffd|e2e|cAB|cdc|e2c|dc2-|cz||
+S:https://www.folktunefinder.com/tunes/55963
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

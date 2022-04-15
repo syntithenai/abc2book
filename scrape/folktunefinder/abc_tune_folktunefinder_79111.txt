@@ -1,0 +1,24 @@
+X:7
+T: FAHR MER NET UEBER MEI ACKERLE
+N: E1005A
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Tanz - Lied
+M: 3/4
+L: 1/8
+K: G
+ | B3AA2 | c2B2c2 | d2d2d2
+B3AA2 | c2B2c2 | d4z2
+d3ed2 | c2d2c2 | B2B2B2
+d3ed2 | c2d2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/79111
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

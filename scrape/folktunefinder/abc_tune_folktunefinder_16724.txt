@@ -1,0 +1,34 @@
+X: 1
+T: Arthur's Seat
+R: reel
+O:
+B: Athole Collection
+D:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K:Bm
+|: dc \
+| "Bm"BFF2 d2de | "A"cAeA "F#7"fedc | "Bm"BFF2 d2cd | "F#7"fedc "Bm"dBBc |
+| "Bm"BFF2 d2de | "A"cAeA "F#7"fedc | "Bm"BFF2 d2cd | "F#7"fedc "Bm"B2 :|
+|: dc \
+| "Bm"Bb-ba "G"gfed | "A"caed cAAc | "Bm"Bb-ba "G"gfed | "A"caec "Bm"dBBc |
+| "Bm"Bb-ba "G"gfed | "A"caed cAAc | "Bm"B2Bc "G"dcde | "F#7"fedc "Bm"B2 :|
+S:https://www.folktunefinder.com/tunes/16724
+S:http://trillian.mit.edu/~jc/music/abc/reel/ArthursSeat.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ArthursSeatR_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ArthursSeat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ArthursSeatR_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ArthursSeat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ArthursSeatR_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ArthursSeat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ArthursSeatR_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

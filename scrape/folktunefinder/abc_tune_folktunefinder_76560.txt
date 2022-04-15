@@ -1,0 +1,24 @@
+X:75
+T: HIER UNTEN IM SCHATTE
+N: E0684
+O: Europa, Mitteleuropa, Schweiz
+R: Liebes - Lied, Leid, Klage
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2B,A,G,2E,G, | A,2G,F,E,2
+E,G, | G,F,F,E,F,2D,A, | G,A,G,F,E,2
+G,G, | G,CCCCE
+DC | B,DDDDFED | E2D2C2
+S:https://www.folktunefinder.com/tunes/76560
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

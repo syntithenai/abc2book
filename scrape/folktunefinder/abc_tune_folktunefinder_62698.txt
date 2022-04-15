@@ -1,0 +1,25 @@
+X:135
+T:High Reel, The
+T:Sandy Duff
+T:Duffy the Dancer
+R:reel
+H: Scottish reel
+Z:id:hn-reel-121
+M:C|
+K:Amix
+a2fa eA~A2|cAeA fAeA|a2fa eA~A2|Bcdc BG~G2|
+a2fa eA~A2|(3Bcd ef g2fg|afge fdec|Bcdc BG~G2:|
+|:(3cBA eA fAed|(3cBA af eA~A2|(3cBA eA fAec|Bcdc BG~G2|
+(3cBA eA fAeA|(3Bcd ef g2fg|afge fdec|Bcdc BG~G2:|
+S:https://www.folktunefinder.com/tunes/62698
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/reels.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/reels.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

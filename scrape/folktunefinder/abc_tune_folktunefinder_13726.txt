@@ -1,0 +1,34 @@
+X: 1
+T: Wonder Hornpipe
+L: 1/8
+M: 4/4
+N: sometimes attributed to James Hill of Newcastle
+B: Honeyman - Strathspey, Reel and Hornpipe Tutor (1898)
+B: Kerr's
+Z: Andrew Kuntz <AIKUNTZ@AOL.COM> IRTRAD-L 2000-11-03
+K: Bb
+(3FGA \
+| B>f d>B A>e c>A | B>c d>B F2 B>A | G>=B c>d e>d c>_B | A>c f>=e g>f _ec |
+| B>f d>B A>e c>A | B>c d>B F2 B>A | G>g  f>e d>c B>A  | c2 (B2   B2) :|
+|: (3dcB \
+| A>c f>=e f>d c>B | A>c f>=e f>a g>f | =e>f g>a b>g e>g | f>=e f>g f2 g>_e |
+| d>e d>c =B>d g2  | c>d c>B  A>c f2  | g>b  a>g f>e d>c | B2   b2  B2 :|
+S:https://www.folktunefinder.com/tunes/13726
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WonderHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WonderHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 157
+T:Easter Sunday Waltz,aka. JaW.157
+M:3/8
+L:1/16
+Q:50
+C:"Easter Sunday 1841"
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+N:Untitled in MS
+H:1/16
+Z:vmp.Chris Partington, Aug 2004
+K:C
+G2|cBcdef|g3ec2|f2g2a2|g4G2|!
+A3Bc2|B2f2e2|edfdBG|BdcBAG|!
+cBcdef|g2e2c2|f2g2a2|g4G2|!
+A3Bc2|B2f2e2|edfdBG|c4||!
+g2|g2e2g2|c'2b2a2|_a2=a2^f2|g4ef|!
+g2e2g2|c'2b2a2|g2e2c2|B4G2|!
+c2G2c2|e2c2e2|g2e2g2|c'2b2a2|!
+^g2a2f2|e2f2d2|G2A2B2|c4:|!
+|:G2|G2c2e2|G2d2f2|G2c2e2|e2d2G2|!
+G2c2e2|G2f2a2|gagfed|c4G2|!
+GcBcec|d2B2f2|d^d=defd|e2g2c'2|!
+GcBcec|d2f2a2|gagfed|c4:|]
+S:https://www.folktunefinder.com/tunes/47694
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

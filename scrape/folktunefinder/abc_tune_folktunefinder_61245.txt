@@ -1,0 +1,39 @@
+X:9212
+T:Lament for Malcolm
+M:4/4
+L:1/8
+C:Larry Mallette
+R:slow air
+P:P:ABABA
+N:Freely, not in meter.
+H:Malcolm Smith was a fine fiddler who played Irish music with gusto.
+H:He played several gigs with my wife's band at the Abbey Pub in
+H:Chicago and had shared many tunes with both Therese and myself.
+H:He had a quiet way of making all who knew him appreciate life a bit
+H:more than before. This tune came out of my whistle a few weeks after
+H:he died, in his early 40s, of a hereditary heart problem. He spent
+H:his entire last day among us playing his music for others. I can't
+H:think of a better way to say goodbye. You can hear his playing on
+H:recordings of the groups Cantiga and The New World Renaissance Band
+H:(available at megastores).
+K:G
+EF|G2F4G2|(3ABd e4 fg|f4-fgfd|e4-e edA|B6 AG|F7G|E6EF|
+G2F4G2|(3ABd e4 fg|f5gfd|e5 edB|c5 d(3BAG|F7D|E6||
+D2|G4-G B(3def|g4-g b(3bag|f4 fffd|e4 ed2B|c4-c d(3BAG|\
+F7G|E6D2|
+G4-G B(3def|g4-g a(3bag|f4-f gfd| e4 ed2A|B4-B B(3BAG|\
+F6GA|B2AG F3G|F3DE4||
+S:https://www.folktunefinder.com/tunes/61245
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,77 @@
+X: 3
+P: Berg Rosa
+C:Sven Nyhus (18/2 1972)
+N:Ornaments and slurs from Sven's booklet.
+A:Norway
+D:Sven Nyhus Kvartett (Polydor 2920105 - 3154 042)
+%%slurgraces 1
+B:A Little Couple-Dancemusik
+Z:John Chambers <jc@trillian.mit.edu>
+R:waltz
+M:3/4
+L:1/4
+K:Gm
+"D"{^F}uD2 \
+|: "Gm"({G^F}G>A G/^F/) \
+| ({G^F}GAB) \
+| ({B}d2c) \
+| ({BA}B2d) \
+| "Eb"vg>gg \
+| "Bb"({fg}fB[cd] \
+| "D7"{d^c}d)>vdud \
+| (d{cd}c)uA |
+| "Gm"({G^F}G>A G/^F/) \
+| ({G^F}GA{BA}B) \
+| ({B}d2c) \
+| ({BA}B2d) \
+| b>ag \
+| "D7"(^fdf) \
+| "Gm"{g^f}g>gg \
+|1,3 "Gm"g2{^F}D \
+:|2,4 "Gm"g2ud ||
+|: "Gm"{d}b({ab}ag) \
+| g2d \
+| g(dc) \
+| ({BA}B>AG) \
+| (uDdB) \
+| "Cm"({AB}A2G) \
+| "F"({=E}FBc) \
+| "Bb"{c}d2"D7"ud |
+| "Gm"b>bb \
+| "A"(a2=e) \
+| "D"{^f=e}^f>=ef \
+| "Gm"({g^f}g2d) \
+| ({d}vgB{cB}c) \
+| "D"({c}dA^F) \
+| "Gm"{G^F}G>GG \
+|1,3 "Gm"G2ud \
+:|2,4 "Gm"G2{^F}uD ||
+K:G
+|: "G"{d^c}vd>dd \
+| ({Bc}B G/B/) vd/ug/ \
+| ({g}b2a) \
+| ({gf}g2{ef}e) \
+| "C"({cB}c2e) \
+| ({ga}gec) \
+| "G"{BA}B>(c B/A/) \
+| {GF}G2 {^c}ud |
+| "D"D f/f/ f \
+| ({fg}fe)ud \
+| "G"{g^f}g>gg \
+| ({g}ub2d) \
+| {d}g (d/B/) G/B/ \
+| "D"({B}Ad)uF \
+| "G"{GF}G>GG \
+|1,3 "G"G2 {F}uD \
+:|2,4 "G"G |]
+S:https://www.folktunefinder.com/tunes/8035
+S:http://trillian.mit.edu/~jc/music/abc/Scand/BergRosa.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

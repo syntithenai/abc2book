@@ -1,0 +1,30 @@
+X:430
+T: "Die harrende Braut"
+N: Z1110
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade, verlassene Liebe
+M: 4/4
+L: 1/8
+K: F
+FG | A2A2A2cB | A2A2A2
+GA | B2B2B2cB | A4z2
+GA | B2BBBdcB | A2A2A2
+GA | B2B2BdcB | A2A2A2
+cB | A2cBA2cB | A2z4
+BA | G2BAG2BA | G2z4
+FA | c2cccfed | c2cBA2
+GA | B2B2c2BA | G4z2
+AG | F6GA | A2B2A2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/69289
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, verlassene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

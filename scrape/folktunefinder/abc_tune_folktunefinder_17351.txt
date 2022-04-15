@@ -1,0 +1,28 @@
+X: 1
+T: the Highland Rambler
+C: Muriel Johnstone
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A,2 \
+| "D"D2(3FED  "A7"EA,CE | "D"D2(3FED "D7"ADFA | "G"B2GB "D"ADFA | "Em"GFED "A7"EA,B,C |
+| "D"D2(3FED  "A7"EA,CE | "D"D2(3FED "D7"ADFA | "G"B2GB "D"AdFA | "A7"GECA, "D"D2 :|
+|: c2 \
+| "Bm"d2(3edc dBBd | "A"cAAB cAAc | "G"B2GB "D"ADFA | "Em"GFED "A7"EA,B,C |
+| "D"D2(3FED  "A7"EA,CE | "D"D2(3FED "D7"ADFA | "G"B2GB "D"AdFA | "A7"GECA, "D"D2 :|
+S:https://www.folktunefinder.com/tunes/17351
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighlandRambler.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/HighlandRambler.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HighlandRambler.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/HighlandRambler.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/HighlandRambler.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HighlandRambler.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

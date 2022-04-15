@@ -1,0 +1,39 @@
+X: 1
+T: Rannie MacLellan's Reel
+R: Reel
+C: Brenda Stubbert
+O: Cape Breton Island
+S: http://www.cranfordpub.com
+D: In Jig Time,1994; Fiddler's Choice, Jerry Holland; Natalie MacMaster Live
+B: Brenda Stubbert's Collection
+Z: psc, (re-formatted,updated 9/20/04)
+N: http://www.cranfordpub.com/stubbert
+H: copyrights Stubbert Music, SOCAN
+L: 1/8
+Q: 333
+M: C|
+F: http://cranfordpub.com/tunes/abcs/stubbertarchive.abc 2006-03-03 22:57:40 UT
+K: D
+|: fe \
+| dBAd BAFD | E2 FE DB,B,D | A,B,DE {E}F2 ED | EBBA B2 Bc |
+| defe dBAF | E2 FE DB,B,D | A,B,DE {E}F2 dB | AFEF D2 :|
+|: FG \
+| Ad{e}dc d2 cA | Beed e2 de | f2 af egfe | dBAd FEEF |
+| Dd{e}dc d2 cA | Beed e2 de | f2 af egfe | dBAF D2 :|
+S:https://www.folktunefinder.com/tunes/17934
+S:http://cranfordpub.com/tunes/abcs/stubbertarchive.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RannieMacLellansR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RannieMacLellansR_D.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

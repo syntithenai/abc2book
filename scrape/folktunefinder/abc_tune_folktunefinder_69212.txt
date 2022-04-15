@@ -1,0 +1,29 @@
+X:353
+T: "Die Ritterfahrt"
+N: Z1033
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Romanze, Ballade, Ernst - Sage
+M: 2/4
+L: 1/16
+K: A
+E2 | A2B2=c2B2 | A2B2=c2
+B2 | e2e2d2=c2 | B2B=cA2
+A2 | e2=f2=g2d2 | e2=c2B2
+=G2 | e2=f2=g2d2 | e2=c2B2
+=G2 | e2d2=c2B2 | A2B2G2
+=G2 | e2d2=c2B2 | A2B2G2
+E2 | A2B2=c2B2 | A2B2=c2
+B2 | e2e2d2=c2 | B2=cBA2
+S:https://www.folktunefinder.com/tunes/69212
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, ernst - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

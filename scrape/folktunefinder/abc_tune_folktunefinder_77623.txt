@@ -1,0 +1,40 @@
+X:33
+T:Aube nouvelle - E130
+C:J. Akepsimas
+M:4/4
+Q:1/4=104
+L:1/4
+%%staves [(1 2) (3 4)]
+K:Eb
+V:1
+"Mib"G2 GB|"Sib"F2 F2|"Dom"E2 EG|"Sol"D4|"Lab"CD EC|"Mib"B,2 E2|
+V:2
+E2 EE|E2 D2|C2 CC|C2 =B,2|CC CA,|G,2 B,2|
+V:3
+B,2 B,B,|B,2 A,2|G,2 G,E,|F,4|E,F, G,E,|E,2 G,2|
+V:4
+E,2 E,G,,|B,,2 B,,2|C,2 C,C,|G,,4|A,,F,, A,,A,,|E,2 C,2|
+V:1
+"Fa"G2 FE|"Sib"F4|"Fam"A2 "Sib"AB|"Mib"G2 "Dom"G2|"Fam"F2 "Sol"FG|"Dom"E3 "Mib"E|"Lab"c2 "Sib"BA|
+V:2
+E2 DC|D4|E2 DD|E2 E2|C2 =B,B,|C3 _D|C2 DD|
+V:3
+=A,2 A,A,|B,4|C2 B,B,|B,2 B,2|A,2 G,G,|G,3 G,|A,2 A,F,|
+V:4
+F,2 F,F,|B,,4|[F,,2F,2] B,,B,,|E,2 C,2|D,2 G,,G,,|C,3 B,,|A,,2 B,,B,,|
+V:1
+"Mib"G3 E|"Fam"F2 "Rem5-"GA|"Solm"B3 "Mib"E|"Lab"c2 "Sib"BA|"Mib"G3 E|"Fam"A2 "Sib"GF|"Mib"E4||
+V:2
+E3 C|C2 CC|B,3 _D|C2 DD|E3 C|E2 DC|B,4||
+V:3
+B,3 B,|A,2 A,F,|F,3 G,|A,2 G,F,|B,3 B,|C2 B,A,|G,4||
+V:4
+E,3 G,|E,2 D,D,|G,,3 B,,|A,,2 B,,B,,|E,3 G,|F,2 B,,B,,|[E,,4E,4]||
+S:https://www.folktunefinder.com/tunes/77623
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

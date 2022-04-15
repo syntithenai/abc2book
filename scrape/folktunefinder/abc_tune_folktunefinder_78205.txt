@@ -1,0 +1,26 @@
+X:184
+T: FELDEINWAERTS FLOG EIN VOEGELEIN
+N: B0219
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Herbst
+M: 3/4
+L: 1/16
+K: G
+D2D2EF | G4B4BAA2 | G4z2
+A2B2c2 | d3ed2B2c2d2 | B4z2
+D2G2B2 | d4e2d2c2B2 | A4z2
+d2B2A2 | B2d2c2B2A2G2 | A4z2
+D2G2B2 | d2e2d4c2d2 | B4z2
+S:https://www.folktunefinder.com/tunes/78205
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, herbst
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

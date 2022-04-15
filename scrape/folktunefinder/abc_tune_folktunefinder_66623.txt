@@ -1,0 +1,26 @@
+X:1
+T:The Abbey Reel
+R:reel
+O:Scotland, (Ireland)
+M:C|
+L:1/8
+K:Ador
+%%MIDI program 1 22
+~A3 B A2  GE | A2 GA BddB | ~A3B    AGEF |1 ~G3 A BedB :|2 ~G3 A Bd ~d2 ||
+eg ~g2 a2 ba | gabg  aged | eg ~g2 a2 ga | bgaf   gedg |
+eg ~g2  agbg | agbg  aged | eg ~g2 a2 ga | bgaf   gedB |
+\end{abc}
+\addcontentsline{toc}{subsection}{Anything for John Joe}
+\begin{abc}[name=anything]
+S:https://www.folktunefinder.com/tunes/66623
+S:http://abcplus.sourceforge.net/tunebook-sample.tex
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,62 @@
+X: 1
+T: Toska Waltz
+O: Russia
+C: M. Obytshaiko
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Cm
+"intro"\
+| G3 | ^F2G | e3 | c3 | c3 | A2c | G3 | GAG \
+| A=A=B | c3 | c3 | c3 | zz |
+"A"\
+|: G, \
+| "Cm"C3 | "G7"D3 \
+| "Cm"E3 | C3 \
+| "Fm"[c2A2]=B | [c2A2][AF] \
+| "Cm"[G3-E3-] | [G3E3] |
+| "G7"G3 | ^F2=F \
+| "Cm"E3 | D2C \
+| "Gm"B,=A,G, | "D7"D2^F \
+| "G7"GG/G/G | G=A=B |
+| "Cm"[c3G3E3] | "G7"[d3=B3F3] \
+| "Cm"[e3c3G3] | [c3G3E3] \
+| "Fm"[c'2a2][=bg] | [c'2a2][af] \
+| "Cm"[g3-e3-c3-] | [g3e3c3] |
+| "D7"[^f2d2]d' | "G7"[=f2d2]d' \
+| "Cm"[e2c2]c' | "Fm"daf \
+| "G7"d{ed}^cd | ag=B \
+| "Cm"[c3-G3-E3-] | [cGE]"fine"z :|
+ z \
+ "B"\
+|:"Bb7"[afd]z/[a/f/d][afd] | z[bd][ac] \
+| "Eb"[ae][ge]>^f | [g3e3] \
+| "G7"[fd=B]z[f/d/B/][fdB] | z[gd2B2]f \
+| "Cm"[fd][ec]>[d=B] | [e3c3] |
+| "Db"_d2a | a_d2 \
+| "Cm"c3- | c"G7"[d=B]"Cm"[ec] \
+|1 "Fm"[f3c3] | "D7-5"[^f3d3c3] \
+| "G"[gd=B]>[gdB][gdB] | z[fd][ge] :|
+|2 "Fm"fed | "G7"[g2d2=B2][BF] \
+| "Cm"[c3-G3-E3-] | [cGE]zz \
+"C"\
+|: "Eb"[gE][gB]>[^f=A] | [g2B2]d |
+| "Ab"[fA][eA]>=B | "Ab"[d2A]c \
+| "Bb7"B[bd]>[=a^c] | [b2d2][=bf] \
+| [d'_b][c'a][af] | "Eb"[g3e3] |
+| "G7"[=bd]z[=a/d/][bd] | "Cm"[c'e]z[=b/e/][c'e] \
+| "Fm"d'c'g | baf \
+| "G7"[a=B3]gd | "G7"{g}[e2G2][dF] \
+| [c3-G3-E3-] | [cGE]zz :|
+S:https://www.folktunefinder.com/tunes/7819
+S:http://trillian.mit.edu/~jc/music/abc/Russia/ToskaWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ToskaWaltz_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/waltz/ToskaWaltz_Cm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

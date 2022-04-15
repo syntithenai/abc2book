@@ -1,0 +1,40 @@
+X:115
+T:Cai la de Rivero (CT 493)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 493
+M:2/4
+L:1/8
+Q:1/4=84
+K:D
+A|AA Bc|d4|c4|d2 c>B|(BA) FG|(A3 B|G(3A/G/F/ GA|F2) z2|
+A2 AB|(BA) F>G|A4|(B>A) GF|G2 E>F|G3 G|A>G FE|F2 DE|F2 A2|E2 zA|
+AA Bc|d4|c4|d2 c>B|(BA) FG|(A3 B|G(3A/G/F/ GA|F2) z||
+W:Calle la de Rivero,
+W:camn del Cristo,
+W:que ai!
+W:Camn del Cristo
+W:la pasean los frailes:
+W:que a dnde va
+W:la mi morena,
+W:que a dnde va.
+W:La pasean los frailes
+W:de San Francisco,
+W:que ai!
+W:
+S:https://www.folktunefinder.com/tunes/59002
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

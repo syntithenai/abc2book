@@ -1,0 +1,30 @@
+X: 20
+T:Chorus Reel
+M:4/4
+L:1/8
+Q:100
+C:Traditional
+R:Reel
+K:D
+"D"D3F ABAG|FDFG A2 d2|D3 F ABAF|"A"EDEF G2 AG|!
+"D"(3FGF DF ABAG|FDFG A2 d2|D3 F ABAF|"A"EDEF G2 B=c||!
+K:G
+"G"dBcA BGFG|"D"Ad^cd A2 B=c|
+"G"dBcA BGFG|"D"AcBA "G"GABc|dBcA BGFG|!
+"C"ABcd efge|"G"dBcA BGFG|"D"AcBA "G"ag||
+K:D
+"D"fddd fddd|!
+fdfg abag|fddd fddd|[1"A"edef g2 ag:|[2"A"edef g2 B=c||
+S:https://www.folktunefinder.com/tunes/77213
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

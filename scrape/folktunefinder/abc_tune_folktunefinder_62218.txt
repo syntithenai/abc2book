@@ -1,0 +1,27 @@
+X:195
+T: KOMMT WIR WOLLEN UNS BEGEBEN
+N: B0680
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied, Maerchen
+M: 2/4
+L: 1/16
+K: C
+ | C3G,A,B,CD | C2B,2
+C3G, | A,B,CDB,4
+C3G,A,B,CD | C2B,2
+C3G, | A,B,CDB,4
+E3CF2E2 | D2C2B,A,G,2
+E3CF2E2 | D2^F,2G,4
+G,3G,D3G, | G,3G,D2G,2
+C2C2F3E | D2G,2E4
+C2C2F3E | D2B,2C4
+S:https://www.folktunefinder.com/tunes/62218
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied, maerchen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

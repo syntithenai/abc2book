@@ -1,0 +1,27 @@
+X:2070
+T:Granlten
+A:Hrjedalen
+C:e. Per Myhr
+D:Hrjedalespipen - Ale Mller etc.
+M:3/4
+N:See also the Hoven Droven version
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c01.html
+%%ID:00000c01
+K:D
+Ac d2 ef |de c4| f2 (3{g}fef g2| dc A4 ::
+F>G A2 Bc| (3cBA A2 F2 | FG E4| \
+D>F A2 Ac| (3BA^G A2 Bc| d2 d4:|
+S:https://www.folktunefinder.com/tunes/36493
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

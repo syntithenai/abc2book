@@ -1,0 +1,26 @@
+X:845
+T:The Lark In The Morning
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+"D"AFA AFA|"G"BGB BdB|"D"AFA Ade|"Bm"fed "G"BdB|
+"D"AFA AFA|"G"BGB BdB|"D"def afe|"Bm"fdB BdB::
+"D"def afa|"G"baf "D"afe|"D"def afe|"Bm"fdB "G"B2A|
+"D"def afa|"G"baf "D"a2f|"G"gag "D"fgf|"Em"edB "G"BdB::
+"D"d2f fef|fef fef|"Bm"d2f fef|"Em"edB "G"B2A|
+"D"d2f fef|"D"fef fef|"G"gag "D"fgf|"Em"edB "G"BAB::
+"D"Add fdd|edd fdB|"D"Add fdd|"Em"edB B2A|
+"D"Add fdd|ede f2f|"G"gag "D"fgf|"Em"edB "G"BdB:|
+S:https://www.folktunefinder.com/tunes/64917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

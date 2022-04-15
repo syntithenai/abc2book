@@ -1,0 +1,30 @@
+X:19
+T:Wantoness for evermore
+Z:Jack Campin <http://www.campin.me.uk/>
+S:Robert Petrie: A Collection of Strathspey Reels & Country Dances, Edin 1806
+N:via MH, MS.21690
+M:4/4
+L:1/8
+Q:1/4=80 "Slow"
+K:E Minor
+   EFGA B2B2|BAFA {A}B4  |E2FG A3 d|    AFEF D3
+F| EFGA B2Bd|BAFA    B2de|fdeB dBAF|({F}B4)  E4:|
+  Tf3 e d2f2|e2de    B3^c|d3 B A2d2|    AFEF D2
+de|f3 e d2f2|e2de    B2de|fdeB dBAF|    B4   E4:|
+P:Variation
+(E/F/E/F/) (G/A/G/A/) Bg`eB |(B/c/B/A/) (F/E/F/A/) B4     | EB, GE  AF dB|    AB/G/ FE Dd AF|
+(E/F/E/F/) (G/A/G/A/) B(bgf)|(efg).f              (ed)(cB)|.A(c`BA) BG`AF|({A}B4)      E4  :|
+(fgf)e dD  df|ef`ed ^cA`Bc|df````dB     AB`````````^cd       |AGFE DAde|
+(fgf)e d^c df|ef de  B^cde|fd/f/ eB/e/ (d/^c/B/A/) (B/A/G/F/)|B4   E4 :|
+S:https://www.folktunefinder.com/tunes/52675
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

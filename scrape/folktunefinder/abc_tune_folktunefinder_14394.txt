@@ -1,0 +1,25 @@
+X: 1
+T:Jacob Hall's Jig     %Tune name
+C:to the tune of Under and Over     %Tune composer
+N:Book : The Round Band Book of Playford     %Tune infos
+Q:1/4=130     %Tempo
+M:6/8     %Meter
+L:1/8     %
+K:Em
+"Em"E2 e d2 ^c |"G"B3 "D"A3 |"Em"G3/2A/B A2 G |"D"F3 D3 |
+"Em"E2 e d2 e |"Bm"f3 B2 B |"A"^c3/2d/e "Bm"e d2 |"Em"e3-e2 z :|
+|:"G"d2 d d3/2^c/B |"D"A2 A A2 F |"Em"G3/2A/B A2 G |"Bm"F3 D3 |
+"Em"E2 e d2 e |"Bm"f3 B2 B |"A"^c3/2d/e "Bm"e d2 |"Em"e3-e2 z :|
+S:https://www.folktunefinder.com/tunes/14394
+S:http://trillian.mit.edu/~jc/music/abc/jig/Jacob_Halls_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Jacob_Halls_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Jacob_Halls_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

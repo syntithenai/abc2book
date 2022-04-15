@@ -1,0 +1,26 @@
+X: 127
+T:Mazurka
+R:Mazurka
+C:Trad.
+O:France
+A:Provence
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-02-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+K:Bbmaj
+FBd||f2fdeg|f3dfd|edcBce|d2B FBd|f2fdeg|f3dfd|edcBcA|B4AB
+|:c2cBAB|d3Bdf|edcBce|d2B2AB|c2cBAB|d3Bdf|edcBcA| [1B4AB:| [2B4F2
+|:fFdFBF|fFdBdf|edcBce|d2B2F2|fFdFBF|fFdBdf|edcBcA| [1B4F2:| [2BFBdBd
+|:FBdfed|eAceAc|FAcedc|dBdfBd|FBdfed|eAceAc|FAcedc| [1BFBdBd:| [2B3|]
+%%footer $D   Galouvielle-MBe 2008 \nMazurka (France)
+S:https://www.folktunefinder.com/tunes/585
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

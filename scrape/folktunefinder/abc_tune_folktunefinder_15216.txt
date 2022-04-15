@@ -1,0 +1,25 @@
+X:1
+T:Unknown
+M:6/8
+L:1/8
+R:Jig
+D:Sean Ryan & PJ Moloney
+Z:michael hogan <Michael.Hogan:UNILEVER.COM> irtrad-l 2001-3-22
+Z:S
+K:G
+DEF G2 A | BAG AB^c | d^cd faf | ded cAF |
+DEF G2 A | BAG AB^c | d^cd fed | cAF G3 :|
+GBd g3   | dgb gdB  | GBd  g2e | fed cAF |
+GBd gbg  | dgb gdB  | GBd  fed | cAF G3 :|
+S:https://www.folktunefinder.com/tunes/15216
+S:http://trillian.mit.edu/~jc/music/abc/jig/UnknownJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/UnknownJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/UnknownJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

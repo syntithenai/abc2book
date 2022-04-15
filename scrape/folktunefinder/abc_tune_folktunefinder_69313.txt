@@ -1,0 +1,25 @@
+X:454
+T: "Bluechers Mahlzeit"
+N: Z1134
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Vaterland und Wehr
+M: 3/4
+L: 1/8
+K: Eb
+EEE | E3EFG | G2F
+FFG | A3FBA | A2G2
+GA | B3GcB | A2G2
+B2 | G2B2B2 | e2B2B2 | A2c2c2 | e2d2
+c2 | c2B2B2 | e2B2A2 | A2G2G2 | G2A2
+B2 | c4d2d2 | e4c3A | G4F4 | E4z
+S:https://www.folktunefinder.com/tunes/69313
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

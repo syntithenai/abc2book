@@ -1,0 +1,27 @@
+X:201
+T: LOBT FROH DEN HERRN
+N: F0346
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Lob - Lied, religioes
+M: 3/4
+L: 1/8
+K: D
+A,2 | D3CB,A, | A,2F,2
+A,2 | A,3G,F,E, | F,2D,2
+A,2 | B,2D2B,2 | A,2F,2
+A,2 | B,3CDB, | A,2F,2
+D2 | E3FG2 | F4
+D2 | C3DE2 | D4
+S:https://www.folktunefinder.com/tunes/69761
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, lob - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

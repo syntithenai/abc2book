@@ -1,0 +1,26 @@
+X: 1
+T: New Year's Day in the Morning.
+R: jig
+Z: Jack Campin <jc:purr.demon.co.UK>
+S: Musical Miscellanies, EPL qYML 288, p14
+M: 6/8
+L: 1/8
+K: A
+|: A2c d2f |  eca cBA | fdf ecA | GBA  GFE \
+|  A2c d2f |  eca cBA | gba gfe | Bc^d e3 :|
+|: Aed cBA | =GEG FED | dfe dcB | AFA  GFE \
+|  gba gfe |  dBd cBA | fdf ecA | EFG  A3 :|
+S:https://www.folktunefinder.com/tunes/14763
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewYearsDayInTheMorningJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NewYearsDayInTheMorningJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:241
+T: AUSBUENDIG SUESS
+N: Z0240
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Romanze; Tanz, Hochzeit
+M: 3/4
+L: 1/16
+K: A
+ | A2GFE4G2B2 | A4z8
+c2e2d4c4 | B2A2G2F2
+E2A2 | G2A2B2c2G2B2 | A8z4
+c2cBc4e4 | e2dcd6
+c2 | c2B2B4f4 | c2cBc4
+e4 | ^d2e2f2g2d2f2 | e4fg^dfe4
+S:https://www.folktunefinder.com/tunes/69100
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze; tanz, hochzeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

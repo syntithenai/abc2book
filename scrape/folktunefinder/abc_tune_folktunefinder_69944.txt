@@ -1,0 +1,23 @@
+X:384
+T: NIMM SIE BEI DER SCHNEEWEISSEN HAND
+N: F0682
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits - Lied, Reigen - Tanz
+M: 2/4
+L: 1/16
+K: D
+ | A2d2d2d2 | d2B2A2
+A2 | B2A2G2F2 | E2E2D4
+D2F2AAA2 | B2B2A4
+D2F2AAA2 | B2B2A4
+G2G2F2F2 | E4D2z2
+S:https://www.folktunefinder.com/tunes/69944
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits - lied, reigen - tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

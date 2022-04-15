@@ -1,0 +1,23 @@
+X: 2
+T:Morpeth Rant,Tom Hughes
+S:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2001-20-16
+M:4/4
+L:1/8
+S:Tom Hughes,Borders
+Z:C.G.P
+K:G
+BA | G2DD B,2DG | ECEE DB,DF | G2AB cBAG | F2A2AcBA | G2DD B,2DG | ECEE |
+DB,DF | G2AB  cBAF | D2G2 G2 :: ef | gfed B2GB | cBAG F2DF | ECEB |
+cBAG | F2D2D2F2 | ECEB cBAG | FDFA dcBA | Ggfg edBG | A2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/17710
+S:http://trillian.mit.edu/~jc/music/abc/reel/MorpethRantTomHughes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MorpethRantTomHughes_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/MorpethRantTomHughes_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

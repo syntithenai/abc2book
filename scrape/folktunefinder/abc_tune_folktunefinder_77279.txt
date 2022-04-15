@@ -1,0 +1,22 @@
+X: 86
+T:Westphalia Waltz
+M:3/4
+L:1/8
+Q:80
+R:Waltz
+K:G
+DEF|:"G"G4A2|Bd2-B[e2g2]|[d4g4][dg][eg]|[d3f3]B (3AGF|[G4B4]-A2|!
+(B/2d3/2d3) (B/2A/2)|[A3c3]_A/2G/2 [Ge][Fe]|[F4d4][Fd]F|[A,4A4][E2B2]|[E
+3c3][Ed] [db][cb]|!
+[c4a4] [ca][cb]|[c2a2] z g ag|[df][Ad] z f ag| [df] [^Ad] z f ag|[df][D4
+B4][Dd]|[1[DB][Dd][DB][Dd][Ed][Fd]:|
+S:https://www.folktunefinder.com/tunes/77279
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1
+T:[17] Quant je boy du vin claret tout tourne
+T:Cantus
+O: Transcribed from French Chansons for three voices (ca. 1550), 
+O: Part I: Three-Part Chansons Printed by Gardane (1541), 
+O: Edited by Courtney S. Adams, A-R Editions, Inc. Madison, Wisconsin
+C: Guillaume le heurteur
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+N:Original clef, C on second line
+M:C|
+L:1/4
+K:F
+z4 C > D E/ F/ G/ E/ F A G/ A/ B/ G/ A/ B/ c > B B/ A// G// A2 G c > B B/ A// G// A > G F
+S:https://www.folktunefinder.com/tunes/39584
+S:http://www.laymusic.org/music/gardane/vin/allparts.abc
+S:http://www.laymusic.org/music/heurteur/vin/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

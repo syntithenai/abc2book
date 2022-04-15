@@ -1,0 +1,23 @@
+X:9
+T:Valse du Dpart
+C:Thierry LAPLAUD
+B:Diatonisch Nieuwsblad No 11 (Mars 1987)
+Z:Dave Holland <dave@biff.org.uk>
+M:5/4
+L:1/4
+Q:1/4=212
+K:Am
+E|:"Am"ABc2c|"G"dB"Am"c2e|"F"dc"E"B2E|1cB"Am"A2E:|2"E"cB"Am"A2a||
+|:"G"gf"C"e2B|cd"E"e2d/c/|1,3B/c/d "Am"ece|"G"dg"Am"e2a:|
+[|]2"E"B/c/d "Am"ecA|"G"BG"Am"A2a:|4"E"B/c/d "Am"ecA|"G"BG"Am"A2|]
+S:https://www.folktunefinder.com/tunes/52010
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

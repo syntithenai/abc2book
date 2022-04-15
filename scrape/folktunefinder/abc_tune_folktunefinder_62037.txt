@@ -1,0 +1,27 @@
+X:14
+T: WENN SICH ZWEI HERZEN SCHEIDEN
+N: B0501
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 2/4
+L: 1/16
+K: E
+ | B2=GAB2A2 | =c4B2
+e2 | =d2=c2B2c2 | F6z
+B | B2=GAB2=d=c | B4A2
+=d2 | =d3=cc2e2 | A6
+A2 | A2B2=c2=d2 | =c3BB2
+B2 | c2=d2e2f2 | e3dd4
+B2=GAB2A2 | =c4B2
+e2 | B2=G2F3G | E4z4
+S:https://www.folktunefinder.com/tunes/62037
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

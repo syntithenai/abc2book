@@ -1,0 +1,22 @@
+X:380
+T:Liberty
+% Nottingham Music Database
+S:John Lagden, via EF
+M:4/4
+L:1/4
+K:D
+"D"D3/2E/2 Dd|"D"AF Ad|"D"D3/2E/2 Dd|"D"AF "A7"G/2F/2E/2D/2|"D"D3/2E/2 Dd|\
+"D"AF Ad|"A7"ed e/2g/2f/2e/2|"D"dd d2:|
+"D"fd de/2f/2|"G"gf ed|"Em"cA ec|"A7"cA eg|"D"fd de/2f/2|"G"gf ed|\
+"A7"cd e/2g/2f/2e/2|"D"d/2d/2d d2:|
+S:https://www.folktunefinder.com/tunes/44163
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsH-L.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsH-L.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:288
+T: GESUNDHEIT HERR NACHBAR MEIN GLAESCHEN IST LEER
+N: B0340
+O: Europa, Mitteleuropa, Deutschland
+R: Trink - Lied
+M: 3/8
+L: 1/16
+K: G
+D2 | G2G2D2 | G2G2D2 | G2G2D2 | G4
+A2 | B2B2A2 | B2B2A2 | B2B2A2 | B4
+d2 | d2g2B2 | d2c2c2 | c2e2A2 | c2B2
+d2 | d2g2B2 | d2c2c2 | c2e2A2 | c2B2
+A2 | B2B2B2 | A2A2A2 | ^c2c2c2 | d4
+D2 | G2GABG | E2E2E2 | c2A2F2 | G4
+Bd | dccBce | d2d2
+Bd | c2cBce | d2d2
+Bd | dcB2A2 | G4
+S:https://www.folktunefinder.com/tunes/78309
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

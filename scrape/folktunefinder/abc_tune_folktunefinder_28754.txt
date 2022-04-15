@@ -1,0 +1,31 @@
+X:2474
+T:Cancioneiro de Casto Sampedro: N\'umero 308
+T:Muieira do Morrazo
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=190
+K:C % 0 sharps
+z4 z/2G/2E C3/2B,/2|CD ED C2 EG/2[A/2G/2-]|GE F/2[G/2F/2-]F DF/2[G/2F/2-] FD|EC2C3/2G/2E CB,|
+CD ED C2 EG/2[A/2G/2-]|GE FD EG/2F/2- [F/2E/2-]E/2D|C3C3/2G/2E C3/2B,/2|CD ED C2 EG/2[A/2G/2-]|
+GE F/2[G/2F/2-]F DF/2[G/2F/2-] FD|EC2C3/2G/2E CB,|CD ED C2 EG/2[A/2G/2-]|GE FD EG/2F/2- [F/2E/2-]E/2D|
+C4- CE DE|FG/2F/2- [F/2E/2-]E/2D EG EC|EC D2 E/2D/2-[F/2-D/2]F/2 ED|EG EC2E D3/2E/2|
+FG/2F-[F/2E/2]D EG EC|DE F3/2E/2 GF3/2D/2B,|C4- CE C/2[D/2C/2-]C|EC/2[D/2C/2-] CE DF DG/2[E/2D/2]|
+D-[D/2-D/2]D/2 B,/2[C/2B,/2-]B, DB,/2[C/2B,/2-] B,D|FE DE GE C/2[D/2C/2-]C|EC/2[D/2C/2-] CE DF DE/2D/2-|D-[E/2-D/2]E/2 DE FG FD|
+C2->C/2C2-C/2E C/2[D/2C/2-]C|EC/2[D/2C/2-] CE DF DG/2[E/2D/2]|D-[D/2-D/2]D/2 B,/2[C/2B,/2-]B, DB,/2[C/2B,/2-] B,D|FE DE GE C/2[D/2C/2-]C|
+EC/2[D/2C/2-] CE DF DE/2D/2-|D-[E/2-D/2]E/2 DE FG FD|C4
+S:https://www.folktunefinder.com/tunes/28754
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

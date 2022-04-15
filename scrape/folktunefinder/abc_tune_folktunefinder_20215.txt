@@ -1,0 +1,36 @@
+X: 1
+T: Stigvals fr\aan V\"astra H\"alsingland
+O: Trad Sweden
+B: "Musik till Svensak Folkdanser" uppt. av Ingvar Norman 1971
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: Am
+V: 1
+E2 \
+| AB A^G AB | cd cB A^G | A2 B2 ^G2 | A4 c2 \
+| e^f e^d ef | ga g^f e^d | e2 ^f2 ^d2 |1 e4 :|2 e4 e2 ||
+|:c3 dcB | c2 d2 e2 | d3 ed^c | d2 e2 f2 \
+| e3 dcB | c3 BA^G | A2 B2 ^GB |1 A4 e2 :|2 A4 :|
+V: 2
+ED \
+| "Am"C2 DE FD | D2 F2 E2 | "E7"FE DF ED | "Am"CB, A,2 AB \
+| "Am"c2 AB cA | "Em"B2 E^F GB | "B7"cB A2 B2 |1 "E7"^G2 ^F2 :|2 "E7"^G^F E2 G2 ||
+|:"Am"A2 =GF ED | E2 FE DC | "Dm(G7)"B,2 AG FE | DC B,2 A,B, \
+| "Am(C)"CD E2 G2 | "Am(F)"AG F2 "(E)"E2 | "E7"F2 FE DB, |1 "Am"C4 A,2 :|2 "Am"C2 A,2 :|
+S:https://www.folktunefinder.com/tunes/20215
+S:http://trillian.mit.edu/~jc/music/abc/waltz/StigvalsFrVastraHalsingland_Am_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/StigvalsFrVastraHalsingland_Am_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/StigvalsFrVastraHalsingland_Am_2V.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

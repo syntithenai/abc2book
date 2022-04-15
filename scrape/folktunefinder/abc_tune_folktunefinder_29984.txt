@@ -1,0 +1,19 @@
+X:0
+T:The Chromatic Pitch Set and the Diatonic White-Note Pitch Set
+M:12/4
+L:1/4
+K:C
+     C ^C      D ^D      E      F ^F      G ^G      A ^A     B ||
+"_do"C  z "_re"D  z "_mi"E "_fa"F  z "_so"G  z "_la"A  z "_ti"B|]
+S:https://www.folktunefinder.com/tunes/29984
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 12/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:7476
+T:The Wild Rover
+O:england
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+G2 |"G" G3 AG2 |E2 D2 B2 |B2 A2 B2 |
+"C" (c6 |c4) Bc |"G" d2 B2 d2 |"D7" c2 A2 F2 |
+D2 B2 A2 |"G" G6 |z2 z2 G2 |G3 AG2 |
+E2 D2 B2 |B2 A2 B2 |"C" c6 |z4 Bc |
+"G" d2 B2 d2 |c2 A2 F2 |"D7" D2 B2 A2 |"G" G2 F2 G2
+|:"D7" .A6 |.A6 |F(D3 D2) |[D2z4]E2 F2 |
+[G2z2]B2 B2 |B2 A2 B2 |"C" c6 |z2 B2 c2 |
+"G" (d6 |d2) B2 G2 |"C" F2 (E4 |E4) E2 |
+"D7" D(B3 (B2) |B2) z2 A2 |1 "G" (G6 |G2) F2 G2 :|2
+(G6 |HG4) ||
+S:https://www.folktunefinder.com/tunes/27928
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

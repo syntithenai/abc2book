@@ -1,0 +1,27 @@
+X: 1
+T: REEL
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.46
+M: C
+L: 1/8
+Q: 1/4=112
+K: G
+D2 \
+| "G"G3A (BABd) | (gdeB) (cBAG) | "C"(EA)(AB)    A2(GE) | "C"(EA)(AB)    A2GE |
+  "G"G3A  BABd  |  gdeB   cBAG  | "C"(EG)(GA) "G"G2(ED) | "C"(EG)(GA) "G"G2    :|
+|: (ga) \
+| "G"b2(bg) "D7"a2(af) | "G"gfgd edBG |"Am"(ea)(ab)    a2(gd) |"Am"(ea)(ab)    a2ga |
+  "G"b2(bg) "D7"a2(af) | "G"gfgd edBG | "C"(EG)(GA) "G"G2(ED) | "C"(EG)(GA) "G"G2  :|
+S:https://www.folktunefinder.com/tunes/18015
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_p46_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Reel_p46_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/Reel_p46_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

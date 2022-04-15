@@ -1,0 +1,35 @@
+X:1
+T:Glenbeigh Hornpipe
+M:4/4
+L:1/8
+R:Hornpipe
+N:This is really a barn dance.
+N:"Hornpipe" noted above only to get the right lilt.
+S:ChristopherGeorge Partington <ChrisTheFiddlerPartington@Hotmail.com> tradtunes 2006-9-11
+D:John & James Kelly
+Z:Lorna LaVerne
+K:G
+(3DEF | GABc dg(3fga | g2B2 d3B | ceAB c2cA | BdGA BcBA |
+GABc dg(3fga | g2B2 d3B | ceAB cAFG | AGGF G2 (3DEF |
+GABc dg(3fga | g2B2 d3B | ceAB c2cA | BdGA BcBA |
+GABc dg(3fga | g2B2 d3B | ceAB cAFG | AGGF GA(3Bc^c |
+d2b2 c2a2 | Bggf gdBG | FGAB cAFA | GFGA BA(3Bc^c |
+d2b2 c2a2 | Bggf gdBG | FGAB cAFG | AGGF GA(3Bc^c |
+d2b2 c2a2 | Bggf gdBG | FGAB cAFA | GFGA BA(3Bc^c |
+d2b2 c2a2 | Bggf gdBG | FGAB cAFG | AGGF G2 |
+S:https://www.folktunefinder.com/tunes/13561
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Glenbeigh_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Glenbeigh_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Glenbeigh_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Glenbeigh_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

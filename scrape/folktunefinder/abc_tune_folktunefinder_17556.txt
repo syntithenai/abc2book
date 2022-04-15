@@ -1,0 +1,29 @@
+X: 1
+T: the Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This has the commonly-played final ending, which is different from Skinner's.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAA ||
+yd \
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAA ||
+yg \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"cA"E"dB "A"eagf | "E7"ecdB "A"cAA :|
+S:https://www.folktunefinder.com/tunes/17556
+S:http://trillian.mit.edu/~jc/music/abc/reel/LeftHandedFiddler2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LeftHandedFiddler2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/LeftHandedFiddler2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LeftHandedFiddler2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

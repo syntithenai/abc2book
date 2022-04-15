@@ -1,0 +1,29 @@
+X:1
+%% Copyright 1931, Metro Goldwyn Mayer corp, New York
+T:Sweet and lovely
+M:4/4
+L:1/8
+C:Gus Arnheim, Harry Tobias & Jules Lemare
+Q:1/4=160
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"C7"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"F7"x4 x4 | "Bbmaj7"x4 "Bbm6"x4 | "G7"x4 x4 | "C6"x4 x4 ||
+V:melody
+c6d2 | d2G6 | cccc c^cdG- | G8 |
+S:https://www.folktunefinder.com/tunes/19004
+S:http://trillian.mit.edu/~jc/music/abc/song/Sweet_and_lovely.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Sweet_and_lovely.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/sweet_and_lovely.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/sweet_and_lovely.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

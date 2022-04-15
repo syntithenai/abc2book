@@ -1,0 +1,25 @@
+X:7650
+T: Tree of Life
+O:england
+M:3/4
+L:1/8
+C:1988 James Garber
+K:Am
+|:E2|"Am"A2 ABcd|e2 c2 e2|"Dm"d2{ed}A2 d2|"Am"c2 cdBc|A2
+ABcd|e2 eceg|
+"D" ^f2 fdfa|"E7"B2^g2 c2a2 d2b2|"Am" c'bac' ba|"E7"b2
+^g2 e2|"Dm" fgfe df|
+"Am"ea A2 AB|"F"c2 cAcf|"E7"B2 B^GBe|"Am"Acea ec|1 A4:|2 A4 G2|
+|"C"e2 c2>e2|"G"dc B2 cd|"C"c3 ded|c2 cdcB|"Am"A2 A2 AB|
+"F"cB A4|"C"G3 FEF|"G"G4 cd|"C"edcd ec|"G"dcBc dB|"Am"A2 B2 c2|
+"F"F2 G2 A2|"C"GF E4|"G"B2>A2 B2|"Am"A6|"E7"B4||
+S:https://www.folktunefinder.com/tunes/28102
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

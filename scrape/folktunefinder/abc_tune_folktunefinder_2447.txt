@@ -1,0 +1,24 @@
+X: 1
+T: TEST: Inline key changes
+M: 2/4
+L: 1/16
+K: Dphr^F
+[| DEFG ABCD | \
+[K:C=B=e=F] \
+| DEFG ABCD | \
+[K:Dphr^F] \
+| DEFG ABCD |]
+S:https://www.folktunefinder.com/tunes/2447
+S:http://trillian.mit.edu/~jc/music/abc/test/K_inline3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_inline3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_inline3.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_inline3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

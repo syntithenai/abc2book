@@ -1,0 +1,22 @@
+X: 6424
+T:Chinese Breakdown
+M:2/4
+L:1/8
+Q:160
+C:Trad
+K:D
+A | dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A | dd B
+A | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc | d3 :|
+|:d | fa/2f/2 ed | f f3 | fa/2f/2 ed | c3 e | a a2 a | g g2 e | c cB | A
+-A | fa/2f/2 ed | f f2 e | d>d c=c | B-B | e e2 f/2e/2 | c c2 B | A>A Bc
+ | d3 :|
+S:https://www.folktunefinder.com/tunes/34330
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

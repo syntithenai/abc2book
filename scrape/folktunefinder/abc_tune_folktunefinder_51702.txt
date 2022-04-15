@@ -1,0 +1,24 @@
+X:33b
+T:Big Scioty 2
+S:Jim Coon to CoMandoList TOW
+M:6/8
+L:1/16
+Q:300
+K:G
+(3DEF|:"G" G2F# G2B "D"A2G A2c| "G"B2A G2B "D" A2G E2F|
+"G"G2F# G2B "D"A2G A2c | "G"B4 cB3 (3DEF|G2F# G2A B2c d2g |
+ "C"e4 ge3 g2e|"D"f2e d2B c2B A2F|1 "G"G4 AG3 (3DEF :|2"G"G4 AG3 e2f||!
+"G"g2f g2a b2a f2e| "D" f2a4 ba2 f3g| a2b a2g f2e d2f|
+"Am" d2e4 fe2 e2f|g2f e2d e2d B2A| e4 ge3 e2g|"D" f2e d2B "C" c2B\
+"D"A2G|"G"G4 (AG6)||
+S:https://www.folktunefinder.com/tunes/51702
+S:http://www.mandozine.com/music/TOW.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

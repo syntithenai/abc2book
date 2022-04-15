@@ -1,0 +1,27 @@
+X:81
+T: Zerbrochenes Muehlenrad
+N: Z0081
+O: Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze, Tod
+M: 4/4
+L: 1/4
+K: G
+D | GGGG | AAA
+G | FEFD | G2G
+D | GGGG | AAA
+G | FEFD | G2G
+G | BBBB | c2c
+B | AAAA | d3
+G | dddd | e2e
+d | cBcd | B3
+S:https://www.folktunefinder.com/tunes/68940
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

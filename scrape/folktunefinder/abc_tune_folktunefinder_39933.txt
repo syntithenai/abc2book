@@ -1,0 +1,31 @@
+X:7
+T:La chasse (transp.)
+R:Chanson
+N:
+D:(Malicorne)
+O:France
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=120
+K:C % transposed from G
+E | A2 (3Bcd (3e-ec B2|(3ABc (3BAG (3AG^F (3G^FE|
+    A2 (3Bcd (3e-ec B2|(3ABc (3BAG A2 B2|
+(3B-BB (3eee (3d-dc B2|(3cde (3g-g^f e2-e E|
+    A2 (3Bcd (3e-ec B2|(3ABc (3BAG A3. E|
+    A2 (3Bcd (3e-ec B2|(3ABc (3A-AG A3 E|
+    A2 (3Bcd (3e-ec B2|(3ABc (3A-AG A3 B|
+(3B-BB (3eee (3d-dc B2|(3cde (3g-g^f e2-e E|
+    A2 (3Bcd (3e-ec B2|(3ABc (3A-AG A3. z|
+W:Mmes paroles que le prcdent.
+S:https://www.folktunefinder.com/tunes/39933
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

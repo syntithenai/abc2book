@@ -1,0 +1,22 @@
+X:30
+T:Fred Finn's
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of D)
+K:Dmaj
+"D"~A3F ABde | fdec d2cA | "Em"BE~E2 "G"~G3B | "D"AF~F2 EFDF |
+~A3F ABde | fdec d2cA | "Em"BGGB "G"ABde |1 "D"f2"A"eg "D"fddB :|2 "D"f2"A"eg "D"fdde |:
+"D"fdad bdaf | dfaf fede | "Bm"fbba b2ba | "G"fbaf feeg | "D"fdad bdaf | dfaf fedB |
+~A3F "G"ABde |1 "A"f2eg "D"fdde :|2 "A"f2eg "D"fddB |]
+S:https://www.folktunefinder.com/tunes/62987
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

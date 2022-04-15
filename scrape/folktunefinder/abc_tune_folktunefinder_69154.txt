@@ -1,0 +1,33 @@
+X:295
+T: MEIN HERZLEIN THUT MIR GAR ZU WEH
+N: Z0293
+O: Europa, Mitteleuropa, Deutschland
+R: Lyrisches Lied, Romanze, Abschieds - Lied
+M: 2/4
+L: 1/16
+K: C
+C2 | _E4F4 | G6
+CD | _E2C2D2B,2 | C4z2
+C2 | _E4F4 | G6
+CD | _E2C2D2B,2 | C4z2
+_E2 | F2F2F2FG | F4z2
+_EF | G2G2F2_E2 | D4z2
+G2 | F2_E2D2C2 | C3B,C2
+D2 | _E2F2G3B, | C4z2
+_E2 | F2F2F2FG | F4z2
+_EF | G2G2F2_E2 | D4z2
+G2 | F2_E2D2C2 | C3B,C2
+D2 | _E2F2G3B, | C4z2
+S:https://www.folktunefinder.com/tunes/69154
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

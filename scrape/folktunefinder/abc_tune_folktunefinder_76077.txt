@@ -1,0 +1,27 @@
+X:97
+T: Der Achte (Band 1), S. 268
+N: P0872
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Soldatenlied]
+M: 3/8
+L: 1/16
+K: D
+F2 | A4G2 | B4G2 | G4F2 | A2A3
+F | F3FE2 | G2G2C2 | E2D2D2 | D2D2
+F2 | A4G2 | B4G2 | G4F2 | A2A3
+F | F3FE2 | G2G2C2 | E2D2D2 | D2D2
+FF | D3DD2 | B4GG | F2F2F2 | A4
+FF | F2E2E2 | G3EE2 | D2F2E2 | E4
+S:https://www.folktunefinder.com/tunes/76077
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

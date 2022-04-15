@@ -1,0 +1,34 @@
+X:723
+T:Vaqueirada (CT 051)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Lluarca.
+N:Con esta cancin, acompaada de pandero, o en su defecto, de una sartn golpeada con una llave, bailaban en otro tiempo los vaqueiros que, de las braas vecinas, bajaban a Lluarca en los das de fiesta.
+N:El rtimo del pandero o de la sartn era de una corchea en la primera parte del compas y dos semicorcheas en cada una de las restantes.
+A:Asturies
+O:Lluarca
+Z:Cancioneru de Torner 051
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|GGG|ABc|ddd|cd_e|d2B|GG2|
+GGG|ABc|ddd|ccc|B2A|GG2||
+W:Toos vienen a merare
+W:comu bail.lan las vaqueiras;
+W:son tan buenas pa bail.lare
+W:comu las perixileiras.
+W:
+S:https://www.folktunefinder.com/tunes/59610
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

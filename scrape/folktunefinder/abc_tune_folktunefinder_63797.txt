@@ -1,0 +1,25 @@
+X:250
+T:Unknown
+M:6/8
+L:1/8
+R:jig
+N:Learned from Kira Ott (who got it from Liz Carroll)
+N:Kira and I follow this with Feed the Ducks
+Z:Michael Abraham Shulman
+K:D
+~G3 E (3Bcd|fde BAG|~F3 DFA|dfe BAF|
+~G3 E (3Bcd|fde (3Bcd e|baf ~g2e|1 def BAF:|2 def Bef|
+~g2e edB|ABd =cBA|BGE ~E3|F2A DFA|
+~g2e edB|ABd =cBA|^cde baf|1 gfe ^def|2 gfe BAF||
+S:https://www.folktunefinder.com/tunes/63797
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 1
+T: Miss Jane Douglas
+R: jig
+B: RSCDS 27-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/14398
+S:http://trillian.mit.edu/~jc/music/abc/jig/JaneDouglas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/JaneDouglas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JaneDouglas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JaneDouglas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JaneDouglas.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/JaneDouglas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

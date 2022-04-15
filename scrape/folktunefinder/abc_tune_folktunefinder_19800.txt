@@ -1,0 +1,32 @@
+X:1
+T:Berg Rosa
+C:Sven Nyhus (Norway)
+A:Norway
+B:A Little Couple-Dancemusik
+Z:Moshe Braner <mbraner@usa.net> 2000-12-10 edited slightly by John Chambers
+R:waltz
+M:3/4
+L:1/4
+K:Gm
+  "D"D \
+| "Gm"G>A G/^F/ | GAB | "(D)"d2c | "Gm"B2d |   "Eb"g>gg | "Bb"fBc | "D"d>dd | dcA |
+| "Gm"G>A G/^F/ | GAB | "(D)"d2c | "Gm"B2d | "(Cm)"b>ag | "D"^fdf | "Gm"g>gg | g2 :|
+|: d \
+| "Gm"bag  |    g2d  |     gdc   |    B>AG | DdB | "Cm"A2G |  "F"FBc  | "Bb"d2"D"d |
+| "Gm"b>bb | "A"a2=e | "D"^f>=ef | "Gm"g2d | gBc | "D"dA^F | "Gm"G>GG | G2 :|
+K:G
+|: D \
+|  "G"d>dd  | B G/B/ d/g/ |    b2a  | g2e | "C"c2e      |    gec | "G"B>c B/A/ | G2d |
+| "D"Df/f/f | fed         | "G"g>gg | b2d | g d/B/ G/B/ | "D"AdF | "G"G>GG     | G :|
+S:https://www.folktunefinder.com/tunes/19800
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BergRosaV.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/waltz/BergRosaV.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/BergRosaV.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

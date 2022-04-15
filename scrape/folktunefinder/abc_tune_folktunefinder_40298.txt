@@ -1,0 +1,28 @@
+X:100
+T:Mataloto
+C:Trad.
+O:France
+A:Provence
+R:Matelote
+M:2/4
+L:1/16
+K:Bb
+"Refrin"F/G>A| B>AB>c d>cd>e| f2b2 f>df>g| e2a2 e>cd>e| d2b2 f>FG>A|
+B>AB>c d>cd>e| f2b2 f>=ef>g| a>gf>e d>cB>A| B2f2 b2z2||
+[K:Eb]B>GE>G B>GB>e| c>AF>A c>Ac>f| d>cB>c d>ef>^f| g>de>c B2z2|
+B>GE>G B>GB>e| c>AF>A c>Ac>f| d>cB>c d>ag>f| e2e2 e> FG>=A"Au refrin"||:
+[K:F]B>Fd>F B>FB>d| c2f2 f2z2| B>Fd>F B>FB>d| c>BA>G F2z2| B>Fd>F B>FB>d| c2f2 f2z2|
+[1 =e>dc>B e>fg>a| f2f2 f2z2 :|[2 a>gf>e d>cB>A| B2B2 B> FG>A"Au refrin"||
+W:2 fois pour finir
+%%footer $D   Galouvielle-MBe 2005 \nMatelote France
+S:https://www.folktunefinder.com/tunes/40298
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Matelote
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

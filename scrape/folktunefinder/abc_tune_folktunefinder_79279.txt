@@ -1,0 +1,32 @@
+X:175
+T: WIR PREUSSISCHE HUSAREN
+N: E1317
+O: Europa, Mitteleuropa, Deutschland, Bayern, Bayreuth
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | D2G2G2G2 | G4A2
+A2 | A2B2B2B2 | B4z2
+A2 | B2A2B2c2 | d4c2
+B2 | A4A4 | A4z2
+d2 | B2d2d2d2 | e4e2
+d2 | c2B2c2e2 | d6
+c2 | B3AB2c2 | d2c2c2
+c2 | B4A4 | G4z2
+d2 | B2d2d2d2 | e4e2
+d2 | c2B2c2e2 | d6
+c2 | B3AB2c2 | d2c2c2
+c2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/79279
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:464
+%%topmargin 3cm
+T:What's A' the Steer
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Country Dance
+R:Strathspey
+M:C
+L:1/8
+K:G
+G>A | B2 B>A B2 B<d | B2 B>A B2 B>c | d>e dB | d>e d<B A2 :|
+B>A | G>A G<E G2 B>A | G>A G<E G2 G>A | B>d e>f g2 f>e | dA G2 |]
+S:https://www.folktunefinder.com/tunes/71493
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Whats_A_the_Steer.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0464.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

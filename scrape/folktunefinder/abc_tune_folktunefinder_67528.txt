@@ -1,0 +1,38 @@
+X:10
+T:Green Hills of Tyrol, The
+T:Tripping down The Stairs
+D:Wild Blue by Eileen Ivers
+R:reel
+M:C|
+K:G
+BG~G2 BGAc|BGDC B,CDC|B,G,B,D ECEG|FDEF GFGA|
+BGGF ~G3A|BGDC B,CDC|~B,3D ~E3G|1 FDEF G2GA:|2 FDEF G2ga||
+|:bg~g2 egde|cdBc ABGA|FGEF DECD|B,CA,B, G,A,B,D|
+GABc dBGB|ABcA BGDC|B,G,B,D ECEG|1 FDEF G2ga:|2 FDEF G2GA||
+|:BGGF ~G3c|BGDC B,EDC|B,G,B,D ~E3G|FDAF GFGA|
+BGGF ~G3A|B2dB BAGD|~B,3D E2CE|1 FDEF G2GA:|2 FDEF G2ga||
+|:bg~g2 egdg|caBg AfGe|FdEc DBCA|B,GA,F G,A,B,D|
+GABc dBGB|ABcA BGDC|B,G,B,D ECEG|1 FDEF G2ga:|2 FDEF G2GA||
+|: BG~G2 BGcG | BGDC B,CDC | (3B,A,G, B,D ECEG | (3FED EF GFGA|
+BG~G2 BGcG | BGDC B,CDC | (3B,A,G, B,D ECEG |1 (3FED EF G2GA :|2 FDEF 
+G2ga ||
+|: bg~g2 egde | cdBc ABGA | FGEF DECD | B,CA,B, G,2 B,D |
+GABc dBGB | AB (3cBA BGDC | (3B,A,G, B,D ECEG |1 (3FED EF G2ga :|2 
+(3FED EF
+G2GA ||
+|: BG G/2G/2G BGAd | BGDC B,G,DC | B,/2B,/2B, B,D ECEG | FDEF GAdc |
+BG G/2G/2G BGAd | BGDC B,G,DC | B,/2B,/2B, B,D ECEG |1 FDEF G2GA :|2 
+FDEF
+G2ga ||
+|: bg~g2 egdb | caBg AfGe | FdEc DBCA | B,GA,F G,A,B,D |
+GABc dBGB | ABcA BGDC | B,/2B,/2B, B,D ECEG |1 FDEF G2ga :|2 FDEF G2GA 
+||
+S:https://www.folktunefinder.com/tunes/67528
+S:http://domren.free.fr/VCB.html
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

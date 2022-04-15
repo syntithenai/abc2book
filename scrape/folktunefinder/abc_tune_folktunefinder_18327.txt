@@ -1,0 +1,23 @@
+X: 1
+T: Woodchopper's Reel
+O: French-Canadian
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"af dB Ad FA | DF Ad f2 ef | "A7"(3gfe cB Ac e^g | a^g ab a2 f=g |
+|  "D"af dB Ad FA | DF Ad f2 ef | "A7"(3gfe cB Ac ec | "D"df "A7"ec "D"d4 :|
+|: "D"DF Ad (3BdB AF | DF Ad (3BdB A2 | "A7"A,C EA ce af | gf ed cB AF |
+|  "D"DF Ad (3BdB AF | DF Ad (3BdB A2 | "A7"A,C EA ce af | (3gfe cA "D"d4 :|
+S:https://www.folktunefinder.com/tunes/18327
+S:http://trillian.mit.edu/~jc/music/abc/reel/WoodchoppersR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/WoodchoppersR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/WoodchoppersR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

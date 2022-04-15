@@ -1,0 +1,26 @@
+X:160
+T: Kindelwiegenlied
+N: A0526
+O: Europa, Mitteleuropa, Deutschland
+N: Andernacher Gsgb. 1608 No. 26.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 2/2
+L: 1/4
+K: F
+A2c2 | d2c2 | cBA2
+A2c2 | d2c2 | cBA2
+G2A2 | B2A2 | GGF2 | z2
+F2 | G2A2 | A2A2 | F2G2 | A4 | z2
+FG | A2A2 | A4 | GABA | GGF2
+S:https://www.folktunefinder.com/tunes/80219
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

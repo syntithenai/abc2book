@@ -1,0 +1,24 @@
+X: 1
+M: 34/44
+L: 1/8
+P: Zimmermo [Bb]
+K: Bb
+|:"Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "Eb"[Ec][Ge][G2e2] "Bb"[DB][Fd][F2d2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "F7"[CA][Ec][E2c2] "Bb"[D2B2]z2 \
+::"F7"[A2C2] [AC][BD] [c2E2] | "Bb"[B2D2] [BD][cE] [d2F2] |
+| "F7"[A2C2] [AC][BD] [c2E2] | "Bb"[B2D2] [BD][cE] [d2F2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "Eb"[Ec][Ge][G2e2] "Bb"[DB][Fd][F2d2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "F7"[CA][Ec][E2c2] "Bb"[D2B2]z2 :|
+S:https://www.folktunefinder.com/tunes/5044
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Zimmermo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Zimmermo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

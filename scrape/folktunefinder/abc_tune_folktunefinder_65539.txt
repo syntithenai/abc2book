@@ -1,0 +1,20 @@
+X: 320
+T:Tripping Upstairs
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+A|:"D"FAA "G"GBB|"D"FAd fed|"A7"cBc ABc|"D"dfe "G"dcB|
+"D"FAA "G"GBB|"D"FAd fed|"A7"cBc ABc|"D"dfe d3::
+"Bm"dBB fBB|dBd fed|"A"cAA eAA|cBc edc|
+"Bm"dBB fBB|dBd fed|"A7"cBc ABc|"D"dfe d3:|
+S:https://www.folktunefinder.com/tunes/65539
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

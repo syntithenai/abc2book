@@ -1,0 +1,31 @@
+X: 2
+T:T (L'). CJF.002
+T:L'T. CJF.002
+M:2/4
+L:1/8
+Q:160
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Part of the Quadrille 1st set. CGP.
+Z:vmp.P J Headford 2000
+K:G
+dg|fd ee|d2ce|Bd Ac|BG dg|!
+fd ee|d2c/d/e/c/|Bd cA|G2||!
+Bd|e/^d/c/B/ e/f/g/a/|fB .b(b/g/)|.a(a/f/) .g(g/e/)|B2bb|!
+"tr"g2aa|"tr"f2a/g/f/g/|\eg f^d|e2:|!
+dg|fd ee|d2ce|Bd Ac|BG dg|!
+fd ee|d2c/d/e/c/|Bd cA|G2|]
+S:https://www.folktunefinder.com/tunes/49557
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

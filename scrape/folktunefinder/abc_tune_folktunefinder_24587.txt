@@ -1,0 +1,27 @@
+X:4135
+T:McKenna's
+O:england
+R:Jig
+S:Gerry O'Connor, Louth (fiddle)
+N:As played (sort of)
+D:From RTE 'The Pure Drop'
+M:6/8
+L:1/8
+K:D
+|:E2E {F}EDB,|{F}EDE GAB|edB {d}BAF|dAF AFD|
+~E3 {F}EDB,|EDE GAB|edB {d}BAF|1 AdF EDB,:|2 AdF Ecd
+|:efe {f}edB|baf edB|(3.A.A.A d AFd|AFd AFD|
+~E3 EB,E|DED DA,D|DED dAF|1 EFD Ecd:|2 EFD EB,D||
+S:https://www.folktunefinder.com/tunes/24587
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

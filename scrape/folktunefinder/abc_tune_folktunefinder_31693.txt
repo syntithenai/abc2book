@@ -1,0 +1,29 @@
+X: 1186
+T:McKenna's No 2
+M:4/4
+L:1/8
+S:Dermy Diamond, Belfast (fiddle)
+R:Reel
+D:Private tape - Belfast 198
+H:'e3' in bar a unison
+N:As played
+Z:Bernie Stocks
+K:G
+e3d B2{d}BA | GABc AD{F}ED | GDGA BgeB | dBAd BGBd :|\
+fa{b}af gfed |(3Bcdef B2g2fg | eB~B2 gedB | {d}BAGA BAAg |\
+fdaf gfed | (3Bcdeg {a}gfga | bg~g2 gfed | e3g {a}gfgf ||
+S:https://www.folktunefinder.com/tunes/31693
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

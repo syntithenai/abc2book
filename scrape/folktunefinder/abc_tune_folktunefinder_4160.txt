@@ -1,0 +1,32 @@
+X:52
+T:Slow Air,A,(Melody). BC.52
+M:C|
+L:1/8
+Q:80
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:x
+Z:vmp.John Bagnall
+K:D
+V:1
+de | f2 f2 f2 ed | abag f2 d'2 | a2 b2 abag | f6 ||
+fg | a2 a2 e2 ef | g2 g2 d2 de | f2 f2 gfed | edef e2 fg |
+     a2 a2 e2 ef | g2 g2 d2 de | f2 gf Te3 d | d6 |]
+V:2
+K:D
+A | d d d A | f/g/f/e/ d/c/d/e/ | f g f/g/f/e/ | d3 ||
+d/e/ | f f a g/f/ | e e g f/e/ | d d d f | A3 d/e/ |
+       f f a g/f/ | e e e/g/f/e/ | d Te A2| d3 |]
+S:https://www.folktunefinder.com/tunes/4160
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

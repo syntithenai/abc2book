@@ -1,0 +1,23 @@
+X: 2
+T: Proshchay
+O: Russian
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+z3d \
+| "G"d2 "C"e2 | "D7"dA cB | "G"A G3- | G2 zg \
+| "D7"f2 AB | cB/c/ ed | "G"B4 ||
+|: zg g=f \
+| "C"e3 g | ag fe | "G"gd Bc | [dd]=c/d/ ed \
+| "D7"fA2 B | cd ef | "G"g4 :|
+S:https://www.folktunefinder.com/tunes/7812
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Proshchay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1
+T:Lady MacKenzie of Coul
+M:C
+L:1/8
+R:Stathspey
+S:Surenne -- Dance Music of Scotland, pgs. 154-155  (1852)
+Z:AK/Fiddler's Companion
+K:C
+E/F/ | G>A G>c A<F F>d | B<G G>B c/d/e/f/ g2 | G>A G>c A<F F>c | B/c/d/B/ G>B c3 ||
+E/F/ | G>A G>c A<F F>d | B<G G>B c/d/e/f/ g2 | G>A G>c A<F F>c | B/c/d/B/ G>B c3 |]
+f | e<g g2 a>f d>f | e>g c>e d/c/B/A/ G>f | e<g g2 a>f d>f | e<g B/c/d/B/ c3 ||
+f | e<g g2 a>f d>f | e<g c<e d/c/B/A/ G2  | c2 G>E F>A D>f | f/e/d/c/ e/d/c/B/ c3 |]
+S:https://www.folktunefinder.com/tunes/19449
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyMacKenzieOfCoul_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyMaryMacKenzieOfCoul_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyMacKenzieOfCoul_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyMaryMacKenzieOfCoul_C.abc
+% Rhythm Stathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

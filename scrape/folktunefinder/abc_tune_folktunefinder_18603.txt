@@ -1,0 +1,54 @@
+X:1
+T:Bernies tune
+M:4/4
+L:1/8
+C:B. Miller, M. Stoller & J. Leiber
+Q:1/4=190
+%%staves (chords melody)
+K:Dm
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Dm6"x4 x4 | x4 x4 | "Bb7"x4 x4 | x4 x4 |
+"Em7b5"x4 x4 | "A7"x4 x4 | "Dm6"x4 x4 | "Em7b5"x4 "A7"x4 ||
+V:melody
+zA2^G A2zA- | A^GA2 A,DFA | _A6-AE- | E4z4 |
+zG2^FG2zG- | G^FG2 A,^CEG | F6-FD- | D4z4 ||
+P:A
+V:chords
+"Dm6"x4 x4 | x4 x4 | "Bb7"x4 x4 | x4 x4 |
+"Em7b5"x4 x4 | "A7"x4 x4 | "Dm6"x4 x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+zA2^G A2zA- | A^GA2 A,DFA | _A6-AE- | E4z4 |
+zG2^FG2zG- | G^FG2 A,^CEG | F6-FD- | D4z4 ||
+P:B
+V:chords
+"Bb6"x4 "(Bdim7)""Gm7"x4 | "Cm7"x4 "F7"x4 |\
+"Bb6"x4 "(Bdim7)""Gm7"x4 | "Cm7"x4 "F7"x4 |
+"Bb6"x4 "(Bdim7)""Gm7"x4 | "Cm7"x4 "F7"x4 |\
+"Em7b5"x4 x4 | "A7"x4 x4 ||
+V:melody
+B,2B,2 GFDC- | C3D-D4 |\
+B,2B,2 GFDC- | C8 |
+B,2B,2 GFDC- | C3D-D4 |\
+zA2AA4- | A8 ||
+P:A
+V:chords
+"Dm6"x4 x4 | x4 x4 | "Bb7"x4 x4 | x4 x4 |
+"Em7b5"x4 x4 | "A7"x4 x4 | "Dm6"x4 x4 | "Em7b5"x4 "A7"x4 |]
+V:melody
+zA2^G A2zA- | A^GA2 A,DFA | _A6-AE- | E4z4 |
+zG2^FG2zG- | G^FG2 A,^CEG | F6-FD- | D4z4 |]
+S:https://www.folktunefinder.com/tunes/18603
+S:http://trillian.mit.edu/~jc/music/abc/song/Bernies_tune.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Bernies_tune.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/bernies_tune.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/bernies_tune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

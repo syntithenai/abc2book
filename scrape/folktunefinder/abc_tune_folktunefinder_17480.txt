@@ -1,0 +1,24 @@
+X: 1
+T: Kansas City Reel
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: cB \
+| "A"AAkcB AAkcB | Acke(g a)ekga | "E7"bkg(eg ge)kcd |    ecke(f  ec)kBA |
+|    A2kcB A2kcB | Acke(g ae)kga | "E7"bg(keg ge)kcd | "A"e(ckBA) kA2 :|
+|: cd \
+| "A"[e3e4]e- e3(=g | fe)kcd e(cBA) | "G"B3(c B2)=g2- | =gfke(g fe)kcA |
+| "A"[e3e4](f e2)e(=g | fe)kcd e(ckBA) | "E7"Bekge fekfg | "A"(ga2)(g a2) :|
+S:https://www.folktunefinder.com/tunes/17480
+S:http://trillian.mit.edu/~jc/music/abc/reel/KansasCityR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/KansasCityR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

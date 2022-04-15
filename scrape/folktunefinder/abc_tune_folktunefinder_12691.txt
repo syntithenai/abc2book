@@ -1,0 +1,28 @@
+X: 38
+T: My Dearest Sally
+C: Bobby Brown
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B,C \
+| "G"D2DD "D7"D3D | "G"DGBd "C"d3c | "G"BcdB "Em"e3d | "Am"cBAE "D7"G2FE \
+| "G"D2DD "D7"D3D | "G"DGBd "C"d3c | "G"BcdB "Am"cE"D7"FD | "G"G2-"C"G2 "G"G2 :|
+Bc \
+| "G"d2d2 "D7"dcBA | "G"G2GA GFED | "C"E2FG "G"DGBd | "Am"cBAG "D7"A2Bc \
+| "G"d2d2 "D7"dcAF | "G"G2BA GFED | "C"E2AE "D7"GFEF | "G"G2-"C"G2 "G"G2 |]
+Bc \
+| "G"d2d2 "D7"dcAF | "G"G2BA GFED | "C"E2GE "G"DGBd | "Am"edcB "D7"AGFE \
+| "G"D2DD "D7"D3D | "G"DGBd "C"d3c | "G"BcdB "Am"cE"D7"FD | "G"G2-"C"G2 "G"G2 :|
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12691
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

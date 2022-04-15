@@ -1,0 +1,28 @@
+X:2153
+T:Sailor's Return
+O:ireland
+C:Traditional
+M:4/4
+Z: L:1/8
+E:11
+I:speed 350
+N:Tune from George Keith, ABC version from Dan Beimborn
+S:Kevin Burke's "Up Close", Gerald Trimble's "First Flight" (in G)
+K:F
+FA|BAGF DGGB|AFcF dFcF|BAGF DGGA|BABc dgga|(3bag a^f g=fde|
+fdcB AFFA|BAGF DGGA | [1 BdcA BGGA:|[2 BdcA BG G2||
+g2 g^f gbag|=f2 fe fgaf|dgg^f g2 ga|(3bag a^f g2 ga|
+(3bag a^f g=fde|fdcB AFFA|BAGF DFGA Bd| (3cBA BG G2:|
+S:https://www.folktunefinder.com/tunes/42640
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

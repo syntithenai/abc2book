@@ -1,0 +1,29 @@
+X:153
+T: HOERET WIE DIE WACHTEL IN FREUDEN DORT SCHLAEGT
+N: B0183
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Natur - Lied, Jahreslauf
+M: 3/4
+L: 1/16
+K: F
+ | c4c2A2f2d2 | c4c6
+d2 | c2B2A4G4 | F4z4
+F3A | F4z4F3A | F4z8
+F4A4c3d | c2B2A2G2F2E2 | F8z4
+A4c4A4 | G4B4G4 | F4c4A3G | G8z4
+A4c4A4 | G4B4G4 | F4c4A3G | G8z4
+c4c2A2B2d2 | d3cc6
+d2 | c2B2A4G4 | A8
+F3A | F4z4F3A | F4z8
+F4A4c3d | c4B4G4 | F8z4
+S:https://www.folktunefinder.com/tunes/78174
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied, jahreslauf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

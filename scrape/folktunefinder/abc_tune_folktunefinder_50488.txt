@@ -1,0 +1,22 @@
+X:1
+T:Beukenwals                 %titel
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/8                        % length of shortest note
+Q:1/4=160                           %tempo  Q:1/4=80
+K:C             %transposed from D
+V:1                          %voice 1
+P:INTRO
+"C"E2G,2 CE|"C"G4 AG|"G7" GF FE FD |"C"C6||
+|: "C"C2 C2 C2|"C"C2 C2 C2|CC CD EF |GA Bc de|"G7"f2 D2 D2|D2 D2 D2|fe fd dc|BA GF ED:|
+|:"C"C2 E2 ce|g4 ag|"G7"gf fe fg|"C"ag fg ec |C2 E2 ce|g4 ag|"G7"gf fe fd|"C"c4 G2:|]
+|:"G"d2 cB AG|"C"e2 dc BA|"G"Gf ed cB |"C"ce Gc EG|"G"d2 cB AG|"C"e2 dc cA |"G"Gf ed cB|"C"c2c4:|
+S:https://www.folktunefinder.com/tunes/50488
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

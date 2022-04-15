@@ -1,0 +1,21 @@
+X:670
+T:The Hundred Pipers
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:A
+A/2B/2|"A"c2E EFE|"D"F2A A2f|"A"e2c cBA|"Bm"c2B "E7"BAB|
+"A"c2E EFE|"D"F2A A2f|"A"e2c "E7"BAB|"A"A3 -A2::
+c/2d/2|"A"e2e ece|"D"f2a a2f|"A"e2c cBA|"Bm"c2B "E7"Bcd|
+"A"e2e efg|"D"a2a agf|"A"e2c "E"BAB|"A"A3 -A2:|
+S:https://www.folktunefinder.com/tunes/64882
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

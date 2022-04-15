@@ -1,0 +1,26 @@
+X:570
+T: "Die Nonne"
+N: Z1250
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Liebes - Lied
+M: 4/4
+L: 1/16
+K: F
+C4 | A4B2A2G4c4 | F2EFG2F2E2D2
+C4 | F4F4G4A4 | B4c2B2A4z2
+A2 | A4B2A2G4c4 | d4c2=B2c4z2
+c2 | c2B2A2G2F4F4 | G4c2B2A4z2
+F2 | G4c2B2A4
+S:https://www.folktunefinder.com/tunes/69429
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

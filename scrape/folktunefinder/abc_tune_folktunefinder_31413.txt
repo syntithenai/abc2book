@@ -1,0 +1,26 @@
+X: 906
+T:Pither in enough
+N:Irish
+M:6/8
+R:Jig
+K:AMix
+A/G/|\
+F>GF "tr"FED| B>cB Bcd| F>GF "tr"F>ED| A2A A2d|\
+FGF "tr"FED| B2B Bcd| cBA dAF| ABA A2::\
+d|\
+"tr"cBA cec| dBB "tr"B2d| "tr"cBA cec| ABA A2d|\
+"tr"cBA cec| dBB B2d| "tr"cBA dAF| A>BA A2::\
+G|\
+"tr"F2d "tr"F2d| B2B Bcd| "tr"F2d "tr"F2d| A2A A2G|\
+"tr"F2d "tr"F2d| B2B Bcd| "tr"cBA dAF| ABA A2:|
+S:https://www.folktunefinder.com/tunes/31413
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

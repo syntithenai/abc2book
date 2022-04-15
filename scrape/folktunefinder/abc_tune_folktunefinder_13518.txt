@@ -1,0 +1,24 @@
+X: 1
+T: the Concert Hornpipe
+T: Coutt's Concert Hornpipe
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd p.43 #384 c.1880
+M: C|
+L: 1/8
+K: F
+c2 \
+|: "F"Acac Acac | "C7"Bcgc "F"Aca2 | "Bb"b2ab "(Gm)"gafg |1,3 "C7"efde c2B2 :|2,4 "C7"ed (3cde "F"f2 :|
+A2 \
+|: "Dm"aAgA fAeA | dAdf af dA | "A7"^cAce aecA |1,3 "Dm"dAdf afdA :|2,4 "Dm"dAfe "Dm"d2 :|
+S:https://www.folktunefinder.com/tunes/13518
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ConcertHp_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/ConcertHp_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/ConcertHp_F.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

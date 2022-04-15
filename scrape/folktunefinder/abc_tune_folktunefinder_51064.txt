@@ -1,0 +1,24 @@
+X:19010
+T:Sheffield Hornpipe
+R:Hornpipe
+C:Trad.
+S:Lesley Dolman
+O:England
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+FE|"D"D2FA d2dc|"G"BGBd "D"A2Ad|"A"c2ce "D"d2df|"Em"ecdB "A7"AFGE|
+"D"D2FA d2dc|"G"BGBd "D"A2Ad|"G"BGBd "A7"cAce|"D"d2f2 d2:|
+cd|"A"ecAA A2de|"D"fdAA A2ef|"G"gefd ecdf|"Em"ecdB "A7"AFGE|
+"D"D2FA d2dc|"G"BGBd "D"A2Ad|"G"BGBd "A7"cAce|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/51064
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

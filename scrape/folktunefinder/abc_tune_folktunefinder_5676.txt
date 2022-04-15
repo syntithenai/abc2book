@@ -1,0 +1,27 @@
+X: 3
+P: Hora Agadati (Em)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"{F}DE ED | ED G{B}G | DE ED | ED {B}G2 | DE ED | EF G"(*)"A | "D"FG {A}F{E}D | "Em"{B}EF E2 :|
+|: "Am"zA2 A | {e}AG A2 | A>B cB | A2 "G"G2 | "D"Ad cB | "Am"{e}AG A2 |1 "G"Bc B/A/G | "Am"A3z :|
+"*Coda"|| Bc B{A}G | z2 "A"A"G"[BG] | "A"Az3 |] x4  x4  x4  x4  x4  x4 |
+S:https://www.folktunefinder.com/tunes/5676
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/HoraAgadati.txt
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/HoraAgadati
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

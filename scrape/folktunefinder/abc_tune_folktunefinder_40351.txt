@@ -1,0 +1,25 @@
+X: 1
+T: abc2mps incompatibility
+M: 2/4
+L: 1/8
+K: G
+%%staves [S A T]
+V: S
+cdcd|egeg| cdcd|egeg| cdcd|egeg|
+V: A
+AGAG|GBGB| AGAG|GBGB| AGAG|GBGB|
+V: T
+A,CA,C|FDFD| A,CA,C|FDFD| A,CA,C|FDFD|
+S:https://www.folktunefinder.com/tunes/40351
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 20
+T:The Bent Pin
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:D
+"A7"A|"D"D2F A2d| "G7"^A2B "D"=AFD|\
+"G7"^A2B "D"=AFD|"E7" =FDF "A7"EDB,|
+"D"D2^F A2d|\
+"G7"^A2B "D"=AFD|"E7"=FDF "A7"EDB,|"D"D3 -D2::
+d|"G7"B2d e2=f| "D"^fdB A2d|"G7"B=Fd e2=f|"D"fdB A2d|
+"G7"B=Fd e2=f\
+| "D"=fdB "Bm"ABA|\
+=FDF "A7"EDB,|"D"D3 -D2:|
+S:https://www.folktunefinder.com/tunes/65442
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

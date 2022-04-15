@@ -1,0 +1,28 @@
+X: 8
+T: Ajsino Oro
+O: Macedonia
+M: 4/4
+L: 1/8
+Q: 1/4=108
+K: EPhr
+%%MIDI program 111
+%%MIDI bassprog 45
+%%MIDI gchord ff
+"A"B2 c2 d2 cB|cdcB A2 ^GF|"E"EFEF ^G2 A2|B2 c2 B4|
+"A"B2 c2 d2 cB|cdcB A2 ^GF|"E"E2 D2 B2 A2|^GAGF E4|
+%%MIDI program 42
+"A"A2 A^G F2 FE|"D"F3E D4| ^G2 A2 Bc BA| B8|
+^G2 A2 B2 c2   |A3B ^G2 z2|"E"D2 EF^GAGF| E4 z4|
+|:"A"B4 e4     |dc B2 B4 |A2 Bc dc cB   |A4 z4| 
+"E"D3E F2^G2   |AB A^G F4|"E"D3E AB A^G |E8:|
+S:https://www.folktunefinder.com/tunes/67894
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

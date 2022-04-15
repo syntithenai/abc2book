@@ -1,0 +1,28 @@
+X: 1
+P: Ekeby Polska
+R: hambo-masurka
+Z: John Chambers <jc@trillian.mit.edu>
+N: From unattributed handwritten ms.
+M: 3/4
+L: 1/8
+K: G
+|: "G"D>G B2 B2 | G>B d2- d2 | g>f ed cB | "Am"(3BcB A2- A2 \
+| "D7"D>F A2 A2 | F>A d2- d2 | f>e dc BA | "G"G>A Be d2 |
+| "G"D>G B2 B2 | G>B d2- d2 | g>f ed cB | "Am"(3BcB A2- A2 \
+| "D7"(3fgf e2 c2 | (3ABA d2 d2 | D>^C DF BA | "G"G2 G4 :|[K:C]
+|: "C"c>c G2 E2 | C>E G2- G2 | c>B dc Bc | "F"(3BcB A2- A2 \
+| "G7"f>f d2 B2 | G>B d2 d2 | (3BcB A2 G2 | "C"(3FGF E2- E2 |
+| "C"c>c G2 E2 | C>E G2- G2 | c>B dc Bc | "F"(3BcB A2- A2 \
+| "G7"f>f d2 B2 | G>B d2 d2 | b>a gf de | "C"c2 c4 :|
+S:https://www.folktunefinder.com/tunes/8818
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Masurka2.abc
+% Rhythm Hambo-masurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:48
+T:La pasano
+O:France
+C:Trad.
+A:Provence
+S:Carnet du tambourinaire Ginas (1924)
+R:Danse de caractre
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+%%continueall 1
+K:Bb
+d3c |: B2B2 ABcA | B2B2 FABc | d2de cce | d4b4 | a2af g2g=e |1 f4 d3d :|2 f4 F2GA |:
+B2BA B2d2 | G4 G2AB | c2c2 cBAG | F4d4 | e2ed e2c2 | f4d4 | e4f4 |1 B4 F2GA :|2 B4 d3c !D.C.! |]
+%%footer $D   Galouvielle-MBe 2008 \nDanse de caractre (France)
+S:https://www.folktunefinder.com/tunes/507
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:233
+%%topmargin 3cm
+T:Therlaich! nan tigeadh tu
+T:Charlie! if you would only come
+T:Miss Flora MacDonald
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:E aeolian
+[B,F] S|x ~E2 (EF) BFEF | ~E2 (B^c) {/c}dBAF | ~E2 (EF) EFGA | BdAd {/G}FDDF | ~E2 (BG) BEEe |
+~E2 (B^c) {/c}dBAF | ~E2 (EF) EFGA | BdAG {/G}FDDF || (Ee)e^d BEEF | (Ee)e^c {/c}dBAF |
+(Ee)e^d B^cde | faef {/c}dBAF | (Ee)Be {/^c}dEBE | (Ee)Be {/^c}dBAF | EeBe {^c}deBe | faef {/^c}dBAF S|]
+S:https://www.folktunefinder.com/tunes/70980
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/The_rlaich_nan_tigeadh_tu.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

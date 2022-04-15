@@ -1,0 +1,25 @@
+X:63
+T:Bonnie Kate
+C:J.O'Neill.
+M:C|
+L:1/8
+K:D
+(dB)|"D" AFdB ABAF|DFAF "Em" E2 (EB)|"D" AFAd "G" BGBd|\
+"A" cABc "D" dedB|AFdB ABAF|DFAF "Em" E2 (EB)|\
+"D" AFAd "G" BGBd|"A" cABc "D" defg|
+||"D" a2 fd (fa)fd|((3fga) fd "A" e2 (ef)|"Em" {a}gfef gbag|\
+"D" fedc defg|a2 fd ((3fga) fd|((3fga) fd "A" e2 (ef)|\
+"Em" {a}gfef gbag|"A" fedc "D" d2|
+S:https://www.folktunefinder.com/tunes/51454
+S:http://www.arcelts.com/bbot1/bbot1.abc
+S:http://www.arcelts.com/bbot1/t63.abc
+S:http://www.arcelts.com/bbot1/t63.txt
+S:http://www.arcelts.com/bbot1/t63.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:309
+T: Der geistliche Vogelgesang
+N: A0655
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchen 1642
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/4
+K: G
+Bdc | cBBA | ABcB | BAG2 | z
+Bdc | cBBA | ABcB | BAG2 | z
+DEF | GAB2 | ABcB | AGA2 | z
+BdG | cBA2 | ABcB | BAG2 | z
+S:https://www.folktunefinder.com/tunes/80368
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

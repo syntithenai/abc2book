@@ -1,0 +1,40 @@
+X: 3
+P: Mist Over Tennessee (The Grand Mira Jig)
+C: Angus MacDougall & Mickey Gillis 1938
+O: Cape Breton
+N: Angus and Mickey lived in Grand Mira.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: jig
+K: G
+"D7"d2c \
+| "G"B2B BGE | DGB d3 | "C"~e3 "G"dBG | "Am"c3- cAB \
+| "D7"c2c cAF | DFA c3 | d2d d2c | "G"B3 "D7"d2c ||
+y4\
+| "G"B2B BGE | DGB d3 | "C"~e3 "G"dBG | "Am"c3- cAB \
+| "D7"c2c cAF | DFA cBc | ded cBA | "G"G3 |]
+"D7"g2a \
+| "G"bz2 g3 | ded B3 | DGB DGB | "Am"c3- cBA \
+| "D7"az2 f3 | ded dBc | ded cBA | "G"Bc^c "D7"d2g  ||
+y4\
+| "G"bza g2e | ded B3 | DGB DGB | "Am"c3- cBA \
+| "D7"az2 f2e | ded dBc | ded cBA | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/3350
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ85.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/HogmanayJig2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/MuirlandWillie1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Nurseryman2.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Nurseryman2.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Scot/Nurseryman2.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Scot/Nurseryman2.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Nurseryman2
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

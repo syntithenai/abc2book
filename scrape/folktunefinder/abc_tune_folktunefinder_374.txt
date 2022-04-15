@@ -1,0 +1,28 @@
+X: 49
+T: Sydvest
+O: Danmark
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| d2d f>ed | c2c c2B/c/ | e2e gec | dAF DFA \
+| d2d f>ed | c2c c2B/c/ | e2e gcc | d3  d3 ||
+[|g2g  bag | f3 d3 | e>ee AAA | d2f a>aa \
+| g>gg bag | f3 d3 | efg A>Bc | d3  d2 |]
+S:https://www.folktunefinder.com/tunes/374
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/Sydvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Sydvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/Sydvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/Sydvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/Sydvest_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Sydvest_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X: 1
+T: My Cape Breton Home
+R: air, waltz
+C: Jerry Holland \2511988
+Z: ABC by Mary Lou Knack
+N:
+N:Originally written for Jerry's dad; a man who had a tender spot in his heart for an air played
+N:with expression.  It was Jerry's father who introduced Jerry to Cape Breton music.  The tune
+N:"My Cape Breton Home" was given its title to express the love they had for Cape Breton, its
+N:music, and its people.
+M: 3/4
+L: 1/8
+K: G
+g2 \
+| "G"g3g fg | "D"a2 f2 d2 | "C"c3c Bc | "G"d2 B2 G2 \
+|    g3g fg | "D"a2 f2 d2 | "Am7"c3c Bc | "D7"d3 f2 [gB] |
+y2\
+|  "G"[g3B3] g fg | "D"a2 f2 d2 | "C"c3c Bc | "G"d2 B2 G2 \
+|  "Am7"Ec3 cB | "D"A3G F2 | "G"G6 | G4 |]
+D2 \
+| "G"D3G B2 | "C"c3c Bc | "G"d3B G2 | "Am"A2 G2 "D7"E2 \
+| "G"D3G B2 | "C"c3c Bc | "G"dg3 gf | "D7"d2 c2 A2 |
+y\
+| "G"D3G B2 | "C"c3c Bc | "G"d3B G2 | "Am"A2 G2 "D7"E2 \
+| "G"Dg3 fg | "Am7"d2 c2 "D7"A2 | "G"G6 | G4 |]
+S:https://www.folktunefinder.com/tunes/5849
+S:http://trillian.mit.edu/~jc/music/abc/Intl/MyCapeBretonHome_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_MyCapeBretonHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MyCapeBretonHome_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/MyCapeBretonHome_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/MyCapeBretonHome_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/MyCapeBretonHome_G.abc
+% Rhythm Air, waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

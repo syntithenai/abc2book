@@ -1,0 +1,27 @@
+X: 1
+T: Jaybird
+S: via PR
+M: 4/4
+L: 1/4
+F: http://mirror/kirby98.fsnet.co.uk/ja/Jaybird_1.abc 2006-10-30 16:08:35 UT
+K: D
+a/g/ \
+| "D"fd fd | f/af/ ag/f/ | "C"e=c ec | e/ge/ ga/g/ \
+| "D"fd fd | "D"f/af/ a(3A/B/c/ | "G"dd/B/ "A"A/B/A/G/ | "D"FD D :|
+|: E/F/ \
+| "G"GB BA/G/ | "D"F/AA/ Ac/d/ | "E"ee/f/ ed | "A"c/d/B/c/ AE/F/ \
+| "G"G/BB/ BA/G/ | "D"F/AA/ AB/c/ | "G"d/c/d/B/ "A"A/B/A/G/ | "D"FD D :|
+S:https://www.folktunefinder.com/tunes/17420
+S:http://mirror/kirby98.fsnet.co.uk/ja/Jaybird_1.abc
+S:http://mirror/kirby98.fsnet.co.uk/ja/Jaybird_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Jaybird1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Jaybird1_D.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

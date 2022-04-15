@@ -1,0 +1,30 @@
+X:298
+T: Media vita
+N: A0647A
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Cod. 15. Jh.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: E
+A | A2B2=G2A2 | B4=c4 | B4A2
+B2 | =c2B2c2A2 | =G2A2G2=F2 | E4z3
+A | A2B2=G2A2 | B4=c4 | B4A2
+B2 | =c2B2c2A2 | =G2A2G2=F2 | E4z4
+=D2E2=G2A2 | =F=DE2D2=C
+D | A2=G2A2B2 | =c2c2B2A2 | =G2E2=F2G2 | E8
+A4=G2E2 | =F2=G2E2z2
+A4G2E2 | =F2=G2E2z2
+A2G2A2B2 | =c4B2A2 | =G2E2=F2A2 | =F2E2=D2z2
+A2=G2A2B2 | =c4B2A2 | =G2E2=F2G2 | E4z3
+S:https://www.folktunefinder.com/tunes/80357
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Text Has notes text
+% Has_accompaniment_chords No chords

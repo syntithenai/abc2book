@@ -1,0 +1,35 @@
+X:129
+T:Steirische aus Mariazell (1.)
+C:traditionell
+R:Steirer
+A:Mariazell, Steiermark
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Steirisches Volksliedwerk, Graz, undatet
+S:Steirisches Volkslied-Archiv 25/61
+N:in der quelle in D, im buch in F, s. 23 nr. 1, quelle einstimmig
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:F
+P:1
+FA |\
+cBdcBE | F2 CAGF | EGCBAG | FEFGAB |\
+cBdcBE | F2 CAGF | EGdcBE | F4 :|
+|: AF |\
+EGBGcE| FAcAdc | BGdcBE | FEFGAB |\
+cBdcBE | F2 CAGF | EGdcBE | F4 :|
+S:https://www.folktunefinder.com/tunes/45563
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

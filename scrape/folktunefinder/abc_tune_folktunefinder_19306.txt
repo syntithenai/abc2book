@@ -1,0 +1,31 @@
+X: 1
+T: Doun the Burn, Davie, Love [Bb]
+C: James Hook (1746-1827)
+R: strathspey, air
+B: John Greig, "Scots Minstrelsie" v.4 (1893)
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+Bc \
+| "Bb"d3c "Eb"BG3 "Bb"FD3 C2B,2 | "Bb"DF3 FB3 B6 c2 \
+| "Bb"d3c df3 FB3 "Eb"e2d2 | "Bb"d8 "F"{ed}c4 B3c |
+| "Bb"d3c "Eb"BG3 "Bb"FD3 C2B,2 | "Bb"DF3 FB3 B6 c2 \
+| "Bb"d3c df3  FB3 d2c2 | "F7"c8 "Bb"{dc}B4 z2 |]
+d2 \
+| "Cm"c3B c2d2 G4 z2d2 | "F7"c3B c2d2 "Cm"G4 z2A2 \
+| "Bb"B3c "Eb"B2G2 "Bb"F2B2 "Eb"e3d | "Bb"d8 "F"{ed}c4 z2c2 |
+| "Bb"d3e dB3 "Eb"G3A B4 | "Cm"e3f ec3 "F"A3B c4 \
+| "Bb"f3g fd3 "Gm"B3c d2B2 | "Bb"F2B2 "F7"dc3 "Bb"B6 |]
+S:https://www.folktunefinder.com/tunes/19306
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DounTheBurnDavieLove_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/DounTheBurnDavieLove_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DounTheBurnDavieLove_Bb.abc
+% Rhythm Strathspey, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X: 1
+T: Danish Masquerade
+R: mixed
+O: Trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: 1/4=126
+K: A
+P: March
+|: E \
+| "A"A2 A>A A2 "E7"B>d | "A"c2 c>c c2 "D"d>f | "A"fece "E7"edBG |1 "A"A2A>A AEC :|2 "A"A2A>A A |]
+P: Waltz
+M: 3/4
+|: [cA]-[dB] \
+| "A"[e2c2]- [c2A2] "D"[af]-[fd] | "A"[e2c2]- [c2A2] [fd]-[ec] \
+| "E7"[d2B2]- [B2G2] [cA]-[BG] | "A"(AGA[BG]) [cA]-[dB] |
+| "A"[e2c2]- [c2A2] "D"[af]-[fd] | "A"[e2c2]- [c2A2] [fd]-[ec] \
+| "E7"[d2B2]- [B2G2] [g2B2] | "A"[a4c4] :|
+P: Hopsa
+M: 2/4
+L: 1/8
+|: e/e/ \
+| "A".e.c "D".a.f | "A".e.c .A.c | "E7".e.d .B.e | "A".f.e .c.e \
+| "A".e.c "D".a.f | "A".e.c .A.c | "E7".e.d .F.G | "A".A2 z :|
+S:https://www.folktunefinder.com/tunes/294
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/DanishMasquerade.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DanishMasquerade.abc
+S:http://trillian.mit.edu/~jc/music/abc/misc/DanishMasquerade.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/misc/DanishMasquerade.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho/DanishMasquerade.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/DanishMasquerade.abc
+% Rhythm Mixed
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

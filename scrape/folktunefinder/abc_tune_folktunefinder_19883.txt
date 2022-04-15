@@ -1,0 +1,31 @@
+X: 1
+T: Drink the Wine Slowly
+C: Dan Hocott (2004)
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+S: Printed page passed out at 2007 NOMAD festival, New Haven, CT
+M: 3/4
+L: 1/4
+K: G
+B/c/ \
+| "G"d2d | "D"def | "C"g2c | "G"Bcd \
+| "C"e>Ge | "G/B"d>cB | "Dsus4"A3- | "D"Az"B7"B/A/ |
+| "Em"G2e | "Dm"d2c/d/ | "C"e2"D"f | "Em"g2f \
+|1 "C"e<ge | "G/B"d>fg | "Dsus4"a3- | "D7"a2 \
+:|2 "C"e<gB | "D"A>GF | "G"G3- | G3 ||
+|: "D"[af]>[af][af] | [af][ge][fd] | "C"[ge][ge][af] | "G"[bg][gd][fB] \
+| "C"[ec]>[fd] [ge] | "G/B"[dB]>[fd][gd] | "Dsus4"[a3-g3] | "D7"[af]zB/c/ |
+| "G"d2d | "D"def | "C"g2c | "B"Bcd \
+| "C"e<gB | "D"A>GF | "G"G3- | G3 |]
+S:https://www.folktunefinder.com/tunes/19883
+S:http://trillian.mit.edu/~jc/music/abc/waltz/DrinkTheWineSlowly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/DrinkTheWineSlowly_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

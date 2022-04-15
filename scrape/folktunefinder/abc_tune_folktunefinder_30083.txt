@@ -1,0 +1,28 @@
+X:0
+T:Auld Swaara
+G:lament for fiddle
+N:the title refers to the sweater of a drowned fisherman
+B:Tom Anderson & Pam Swing: Haand Me Doon Da Fiddle
+M:2/4
+L:1/8
+Q:1/4=72
+K:G
+% lydian/major hexatonic
+D| GG        (3 D(B,G,)|(3 D(GD)   (3(B,A,B,    |G,2) {c}(3(BAF)|\
+   GG        (3 D(B,G,)|(3 D(GD)   (3(B,A,)B,   |DG         G  :|
+% major
+A|(G/F/E/D/) (3(CEC)   |(3(B,DB,)     A,>B,     |G,2  {c}(3(BAF)|\
+  (G/F/E/D/) (3(CEC)   |(3(B,DB,)     A,>B,     |DG         G  :|
+% lydian/major hexatonic
+D|(G/F/E/D/)    Gg     |   e(d/B/)    d/(e/f/g/)|a2  ({A}(3 B)AF|\
+  (G/F/E/D/)    Gg     |   e(d/B/) (3 d(gd)     |BG         G  :|
+S:https://www.folktunefinder.com/tunes/30083
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

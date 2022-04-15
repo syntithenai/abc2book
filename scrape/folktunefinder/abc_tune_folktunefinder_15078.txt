@@ -1,0 +1,26 @@
+X: 1
+T: the Snow Lay on the Ground
+O: Trad Ireland
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"f2e d2c | d3 A3 | "G"g3  "D"f3 | "A7"e3- e2e \
+|    d2c B2c | A3 g3 | "D"f3 "A7"e3 |  "D"d3- dz :|
+|: f \
+|  "D"  a2g f2e |     f2 a2 | "Em"g3 "B7"f3 | "Em"g3- g2g \
+| "(A7)"g2f e2d | "A7"e3 g2 |  "D"f3 "A7"e3 |  "D"d3- dz :|
+S:https://www.folktunefinder.com/tunes/15078
+S:http://trillian.mit.edu/~jc/music/abc/jig/SnowLayOnTheGround_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SnowLayOnTheGround_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

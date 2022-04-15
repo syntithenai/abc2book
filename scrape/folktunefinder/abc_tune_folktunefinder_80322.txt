@@ -1,0 +1,29 @@
+X:263
+T: St. Ursula, Koenigstochter von England
+N: A0619
+O: Europa, Mitteleuropa, Deutschland
+N:  F - Dur mit d - moll Schluss. Coelner Gsgb 1625 S. 1625
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: F
+FFG | A2G | FED | C3
+FFG | A2G | A3
+FFG | A2G | FED | C3
+FFG | A2G | A3
+AGF | B2A | G2F | G3
+AGF | B2A | G2F | G3
+EFG | A2F | E2D | E3
+cBA | G2F | E2E | D3
+S:https://www.folktunefinder.com/tunes/80322
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

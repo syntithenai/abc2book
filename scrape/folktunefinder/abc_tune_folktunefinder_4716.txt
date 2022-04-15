@@ -1,0 +1,27 @@
+X: 2
+P: Am Brunnen vor dem Tore
+C: Wilheml M\"uller (1794-1827)
+C: Melodie nach Franz Schubert (1797-1828)
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+[dB] \
+| "G"[d3B3] [GB] [GB][GB] | [B2G2] G2 zG \
+| "D7"[A3D3] [BG] [cA][AF] | "G"[B4G4] z[dB] \
+| "G"[d3B3] [GB] [GB][GB] | [B2G2] G2 zG |
+| "D7"[A3D3] [BG] ([d/B/][c/A/])[AF] | "G"G4 zG ||\
+  "D7"[A3D3] [AE] [AF][AD] | "G"[BG][cA] [d2B2] z[dB] \
+  | "C"[e3c3] [dB] [BG]G | "D7"[A4D4] z[AF] |
+  | "D7"[A3D3] [AE] [AF][AD] | "G"[BG][cA] [d2B2] z[dc] \
+  | ([g2B2-] [dB])[BG] "D7"[cA][AD] | "G"[d4B4] z[dc] \
+  | "G"([g2B2-] [dB])[BG] "D7"([d/B/][c/A/])[AF] | "G"G4 z |]
+S:https://www.folktunefinder.com/tunes/4716
+S:http://trillian.mit.edu/~jc/music/abc/Germany/AmBrunnenVorDemTore.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

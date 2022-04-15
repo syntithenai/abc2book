@@ -1,0 +1,415 @@
+X: 1
+T: Scand Shottishes p.1
+K: C
+%
+[K:DDor]\
+[L:1/8]\
+[|""Three-key" Shottis"d>e fg a2 a2 | a>b gb a2 f2 |]\
+[K:Gm]\
+[L:1/8]\
+[|"\AAhkerschottis"D2 | G>A Bc d2 g2 | =e>d ce d2 B2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"\"Algen"DE FG | AA DF BB AA |]\
+[K:Dm]\
+[L:1/16]\
+[|"Alpin sottiisi"fed^c d2A2 | BcBA G2G2 |]
+P:
+[K:Bm]\
+[L:1/8]\
+[|"Boll Olles schottis i B-moll och D"F2 | B>c de f2 f2 | f2ed B4 |]\
+[K:A]\
+[L:1/8]\
+[|"Bremsen, schottis av Stellan Meijer"fed | cA ce a2 ga | ba ag d4 |]\
+[K:F]\
+[L:1/8]\
+[|"Bruks-Calles Schottis"c2 | a2 a>g f>g f>d | c>d c>A F2 F2 |]\
+[K:D]\
+[L:1/8]\
+[|"Bukken i B\aaten"AG | F>A dA FG EC | D2 FA d2 fa |]
+P:
+[K:C]\
+[L:1/16]\
+[|"Ekkol\aaten"a/g>f  | e2eg G>GcB | A2Ac F>FBA |]\
+[K:D]\
+[L:1/8]\
+[|"En, to og tri (reinl\"ander)"A2 f2 (f>e) (f<g) | (e>d) (e<f) d3 f |]\
+[K:D]\
+[L:1/8]\
+[|"Even fr\aa Fron"D>F FE F2 FE | D>G GF G2 GF |]\
+[K:A]\
+[L:1/8]\
+[|"Fire Skilling"e>f ed c2 cd | B2 B^d e4 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Flop-Eared Mule"de | Jf2fe d2dB | ABAF D2D2 |]\
+[K:F]\
+[L:1/8]\
+[|"Fyrmanna shottis"(3cde | f2 A2 A>A Bc | d2 G2 G2 GF |]\
+[K:A]\
+[L:1/8]\
+[|"Girl with the Blue Dress On"Ac | e2 ec d2 dB | c2 A2 Ac ec |]\
+[K:A]\
+[L:1/16]\
+[|"Grittenfeldt"ABcd ee=ge | feec A2Ac |]
+P:
+[K:G]\
+[L:1/16]\
+[|"Halla-Viinen jenkka".g2G2 GBBd | eddc BGBd |]\
+[K:Em]\
+[L:1/8]\
+[|"Harrin jenkka"e4 B3 A | G>A GF E2 B,2 | E>F GA B2 GA |]\
+[K:Gm]\
+[L:1/8]\
+[|"Heilini sinisist\"a silmist\"a"D2 ^FA dA Bc | B2 G2 G2 ^FG |]\
+[K:G]\
+[L:1/8]\
+[|"Hejsan Grabbar"D>G BA G2 G2 | B>c dc B4 |]
+P:
+[K:Dm]\
+[L:1/16]\
+[|"Hintikan Matin jenkka"a2a>g f2f>e | d2c2 B4 |1,3 A2^ce a2ae |]\
+[K:C]\
+[L:1/8]\
+[|"Is\"a-Jussin sottiisi"C2EG c2Bc | e2cA GFED |]\
+[K:G]\
+[L:1/16]\
+[|"Jag har varit i H\"oja"DGBA G2G2 | DGBA G2G2 |]\
+[K:D]\
+[L:1/8]\
+[|"Shottish "Simple Gifts""d2 de f2 fg | a2 ag f4 | e2 ef g2 fe |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Juntusrannan muistoja"(3E^F^G  | A2 A>B c>B A>c | e2 e>c A2 c2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Juntusrannan muistoja"(3E^F^G  | A2 A>B c>B A>c | e2 e>c A2 c2 |]\
+[K:D]\
+[L:1/16]\
+[|"Kiikkuri kaakkuri"D2FA D2FA | AGFG E2E2 |]\
+[K:Ador]\
+[L:1/8]\
+[|"Konvulsionslten"A-|ABcA B2 B A-|ABcA B2 B A-|]
+P:
+[K:Ador]\
+[L:1/8]\
+[|"Konvulsionsl\aaten"ABcA B2BA- | ABcA B2B2 |]\
+[K:Ddor]\
+[L:1/8]\
+[|"Konvulsionsl\aaten"DEFD E2ED- | DEFD E2E2 |]\
+[K:G]\
+[L:1/8]\
+[|"Kukkuva kello"B>c BA G2 Bd | g2 gB d2 d2 |]\
+[K:G]\
+[L:1/16]\
+[|"Kv\aernengsreinlender"D2B2 BAB2 | D2B2 BAB2 | G2Bd g3f |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Kveld p\aa Sanness\aetra"f>d AF A2 A2 | G2 BB B2 A2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Schottisch fr\aan Norbotten"A,2 | D2 DE F2 FG | A2 AB A2 A2 |]\
+[K:G]\
+[L:1/8]\
+[|"M\"annik\"oss\"a"B>c | d2 e2 d2 g2 | d>e d>B G2 B>c |]\
+[K:G]\
+[L:1/8]\
+[|"M\"annik\"oss\"a"B>c | d2 e2 d2 g2 | d>e d>B G2 B>c |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Mantoliinityysk\"a"A,2 | DE FG A2 Bc | d2 cB A2 A2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Mobergs Schottis"D>B A<G ^F>d c<A | B>f _e<c d2 d2 |]\
+[K:D]\
+[L:1/8]\
+[|"Mooses-feedi"de | f>e dc e>d cB | A2 Ad f4 |]\
+[K:F]\
+[L:1/8]\
+[|"Nissen og rotterne"C | F>E F>G A>G A>B | d2 c2 c3 A |]
+P:
+[K:G]\
+[L:1/16]\
+[|"Norsk schottis"DGBd edBG | D2B2 B>^AB2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Nyingen"DE FD EF GE | FG A2 A3 B |]\
+[K:G]\
+[L:1/8]\
+[|"Pappilan pellolla"g2 fa g2 fe | e>d dB G2 Bd |]\
+[K:Em]\
+[L:1/8]\
+[|"Penttil\"an sillalla"e>f ge B2 B2 | G>A GE F4 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Pig Squeal Shottish"FG | A2 f2 f>e dF | G2 E4 ed |]\
+[K:A]\
+[L:1/16]\
+[|"Polka e. Tor Homleid (reinl\"ander)"c2cB c2cB | c2cB BAAc |]\
+[K:G]\
+[L:1/8]\
+[|"Reinlender efter Harald Andreasson"d>c B>c d2 g>d | B2 d>B G2 B2 |]\
+[K:Cm]\
+[L:1/8]\
+[|"Rapukestit"G2 | c2 cd ed c=B | dc GE C2 CD |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Rapukestit"A2 | d2 de fe d^c | ed AF D2 DE |]\
+[K:Am]\
+[L:1/8]\
+[|"Rasputin"A2 Ac e2 e2 | f2 fa e2 e2 | d2 d2 c2 c2 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlendar etter Ringnesen"DF ED A2 A2 | DF ED f2 f2 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender fra R\orostraktene"A- | d2 df A2 Ad | F>G AB A2 A2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Reinlendar med Turar"(3ABc | d2 F2 A2 B>A | G2 C2 E2 e>f |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender efter Hilmar Alexandersen"ab | a2 fd A2 de | d2 c2 cd ef |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender efter Hilmar Alexandersen"ab | a2 fd A2 de | d2 c2 cd ef |]\
+[K:A]\
+[L:1/8]\
+[|"Reinlendar etter Johannes [A]"c>d ~cB c>d ~cB | c>d ~cB c2 A2 |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Reinlendar etter Johannes [A]"c>d ~cB c>d ~cB | c>d ~cB c2 A2 |]\
+[K:A]\
+[L:1/8]\
+[|"Reinlendar etter Johannes"c>d ~cB c>d ~cB | c>d ~cB c2 A2 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlendar etter Johannes [D]"F>G ~FE F>G ~FE | F>G ~FE F2 D2 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender fra R\orostraktene"A- | d2 df A2 Ad | F>G AB A2 A2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Reinl\"ander i D"D2 d2 A2 f2 | f2 ed e2 GF |1,3 EF GA B2 cd |]\
+[K:Dm]\
+[L:1/8]\
+[|"Rendalsringlender 1"a>b ag e2 e2 | e>f ge f2 d2 |]\
+[K:G]\
+[L:1/8]\
+[|"Ringlender fra H\"arjedalen"Bc | d>b ba ag gf | f>e ed c2 cB |]\
+[K:G]\
+[L:1/8]\
+[|"Ringlender fra H\"arjedalen"Bc | d>b ba ag gf | f>e ed c2 cB |]
+P:
+[K:F]\
+[L:1/16]\
+[|"Ringlender etter Odin Oks\aas"F>Acf a2f2 | (3fef g>f e2d2 |]\
+[K:A]\
+[L:1/8]\
+[|"Ringlender fr\aa Hede"c>(e a)>(c d)>(e f)>(d | c)>(e a)e c>A |]\
+[K:F]\
+[L:1/16]\
+[|"Rugen"F2F2 F2F2 | E>FG>E C4 | G2G2 G2G2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Semmonen T\"amm\"onen"A2 A[dA] f2 f2 |  ee e^c A2 A2 |]
+P:
+[K:Gm]\
+[L:1/8]\
+[|"Semmonen T\"amm\"onen"D2 D[GD] B2 B2 |  AA A^F D2 D2 |]\
+[K:D]\
+[L:1/8]\
+[|"Seperatorl\aatten"A,C  | D2 DC | D2 DC | D2 DC |]\
+[K:Gm]\
+[L:1/8]\
+[|"Shottish av \AAker Erland Jonsson"g2ga g2d2 | dedc d2B2 |]\
+[K:D]\
+[L:1/8]\
+[|"Schottis efter Timas Hans"zA | d2 cd A2 FA | d2 cd B4 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Shottish i G"D2 | G2 BA G2 G2 | B>A AB c2- c2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Shottis fr\aan Kronoby"a2 aa e2 .ez | c>d cB c2 A2 |]\
+[K:G]\
+[L:1/8]\
+[|"Shottish i G"D2 | G2 BA G2 G2 | B>A AB c2- c2 |]\
+[K:G]\
+[L:1/8]\
+[|"Shottish i G"D2 | G2 BA G2 G2 | B>A AB c2- c2 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Shottish i G"D2 | G2 BA G2 G2 | B>A AB c2- c2 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender i D"FG | A>B AG GF FD | E>F GF FE E-E |]\
+[K:G]\
+[L:1/8]\
+[|"Reinlender i G"D | G>F GA B2 BA | AG Bd g4 |]\
+[K:D]\
+[L:1/8]\
+[|"Reinlender i D"f>edc d2F2 | B>AGF G2E2 |]
+P:
+[K:DDor]\
+[L:1/8]\
+[|"Shottish efter Anders Alml\"of"A>B ^cd e2 ef | d2 de ^c4 |]\
+[K:DDorian]\
+[L:1/8]\
+[|"Schottis efter Kalle Alml\"of"A>^c ed c2 A2 | A>a ag f2 d2 |]\
+[K:D]\
+[L:1/16]\
+[|"Shottis"D2DF AFDF | GFGA B2-B2 |]\
+[K:D]\
+[L:1/8]\
+[|"Schottis"AB AG F2 A2 | dc de f2 f2 |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Schottis"E2 E^D ED E^G | AB cd e4 |]\
+[K:D]\
+[L:1/16]\
+[|"Shottish"(3ABc | d2d2 d2ed | dccB cBAc |]\
+[K:D]\
+[L:1/16]\
+[|"Shottish"A2f2 fgfe | d2B2 B4 | A2AB cABc |]\
+[K:G]\
+[L:1/8]\
+[|"Shottish i G"D2 | G2 BA G2 G2 | B>A AB c2- c2 |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Shottis efter Myr Hans"(3A=B^c | d2 A2 B2 G2 | A>G FG A4 |]\
+[K:G]\
+[L:1/8]\
+[|"Shottish (efter Andrea Hoag)"D | G2Ac BGGD | G2Ac BGGB |]\
+[K:Bm]\
+[L:1/8]\
+[|"Boll Olles schottis i B-moll och D"F2 | B>c de f2 f2 | f2ed B4 |]\
+[K:D]\
+[L:1/8]\
+[|"Shottish fr\aan Boda"f>g fe d2 ef | g2 g2 B3 (d |]
+P:
+[K:F]\
+[L:1/8]\
+[|"Schottis fr\aan Enviken"F2 Ac f2 fe | ed dB G4 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Schottisch fr\aan Haver\"o"D2 DE F>G FE | D2 A2 A4 | d>^c de f2 f2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Schottisch fr\aan Idre I"aa ge f2ed | ^c2 A2 A4 |1,3 A=B ^cd e2 e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Schottisch fr\aan Idre II"D2 FA d2 d2 | D2 FA de dc |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Shottis fr\aan Kronoby"a2 aa e2 .ez | c>d cB c2 A2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Shottis efter Myr Hans"(3A=B^c | d2 A2 B2 G2 | A>G FG A4 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Schottisch fr\aan Norbotten"A,2 | D2 DE F2 FG | A2 AB A2 A2 |]\
+[K:G]\
+[L:1/8]\
+[|"Schottis fr\aan Norra V\aanga"D2 DC B,2 D2 | G2 GA B4 | A2 AF D2 FA |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Schottis fr\aan Bingsj\"o"f2d2 (AF)(Ad) | f2d2 A4 |1,3 g>fed (cd)eg |]\
+[K:D]\
+[L:1/8]\
+[|"Shottish "Simple Gifts""d2 de f2 fg | a2 ag f4 | e2 ef g2 fe |]\
+[K:D]\
+[L:1/8]\
+[|"Sk\aallm\aansarn"D2 FA d2 FA | A->B AF G2 E2 |]\
+[K:G]\
+[L:1/8]\
+[|"Sk\ojtel\oberdans (Skaters' Shottish)"D>G B>A G2 G2 | G>B dc B4 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Skuttungeshottis"Ad | f2 Ad f2 ed | dccc c4 |]\
+[K:D]\
+[L:1/8]\
+[|"S\"okkeret er s\"ott san"D>F FE D2 DF | A>A dF A2 A2 |]\
+[K:A]\
+[L:1/8]\
+[|"Stabberinglander"e>f ed c2 cd | B2 B^d e4 |]\
+[K:A]\
+[L:1/8]\
+[|"Stabberinglander"c>d ~cB c>d ~cB | c>d ~cB c2 A2 |]
+P:
+[K:F]\
+[L:1/8]\
+[|"Styggen p\aa l\aaven"C2 F>A c2 c2|B>A G>A B2 B2|]\
+[K:Dm]\
+[L:1/8]\
+[|"Tristrevs reinlender"a>^g a<b a2 g<e | f2 a<g f2 e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Tyska polskan"A>B AF A2 d2 | B>c BG B2 e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Tyskan lever"D2 FE D2 EF | G2 B2 G2 B2 | A2 cB A2 Bc |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Tyysk\"a"E2 | A>B cB A>B cd | e>a ae c2 c2 |]\
+[K:D]\
+[L:1/8]\
+[|"Vagns Skottish"f>a fd A>F Ad | c2 B2 B2 B2 |]\
+[K:D]\
+[L:1/8]\
+[|"V\aard\ol'n, reinlender etter Hans Brimi"D2F2 A,2F2 | EDCE D2D2 |1,3 CDEF GECE |]\
+[K:D]\
+[L:1/8]\
+[|"Vrldens Bsta Schottis"(3ABc | d2 F2 A>A (3ABA | G2 C2 E2 e>f |]
+P:
+[K:F]\
+[L:1/8]\
+[|"Vesivehmaan jenkka"AA AG FF FD | CC CA, C2 F2 |]\
+[K:F]\
+[L:1/8]\
+[|"Vesivehmaan jenkka"AA AG FF FD | CC CA, C2 F2 |]\
+[K:G]\
+[L:1/8]\
+[|"Viitalan Aarnen sottiisi"B2 | d2 dG B2 BG | B2 A2 AB cd |]\
+[K:G]\
+[L:1/8]\
+[|"Vralkada"c2c>B A2A>c | B2B>^G E2 E2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Westlands Reinlendar"f4 ~f2 ef | gf ee | e>d cd e2 ef |]\
+y8 y8 y8 y8 y8 y8\
+y8 y8 y8 y8 y8 y8\
+y8 y8 y8 y8 y8 y8\
+S:https://www.folktunefinder.com/tunes/9488
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish_incip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key F
+% Key B
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

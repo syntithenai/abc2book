@@ -1,0 +1,33 @@
+X:185
+T:Majsko Oro
+L:1/16
+M:18/16
+N:11  7
+O:Macedonia
+P:ABBABBCCDD
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000698.html
+%%ID:00000698
+K:Bb
+P:A
+de f2 f2e d4 def fe d2|\
+de f2 f2e d4 e2d d4||
+P:B
+Bc dc d2c B4 e2e d2d2|\
+Bc dc d2c B4 c2B B2B2||
+P:C
+f2e2 d2c cdc2 B2B Bc d2|\
+f2e2 d2c cdc2 B2B BB B2||
+P:D
+d2e2 d2c cdc2 B2B Bc d2|\
+d2e2 d2c cdc2 B2B BB B2||
+S:https://www.folktunefinder.com/tunes/53267
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 18/16
+% Text Has notes text
+% Has_accompaniment_chords No chords

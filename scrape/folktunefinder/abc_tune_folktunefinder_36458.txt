@@ -1,0 +1,24 @@
+X:1895
+T:Fringerdans (snderhoning)
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000916.html
+%%ID:00000916
+K:D
+df f/a/f/d/ | g2 ef/e/ | dd/d/ dd/d/ | e/d/c/B/ A2|\
+df a>a      | bg e2    | dd c/d/e/c/ | d2 d2 ::
+ee/f/ ee/f/ | e/d/c/B/ AA | ff/g/ ff/g/    | ff/g/ f2 |\
+df    a>a   | bg      e>e | dd    c/d/e/c/ | d2    d2 :|
+S:https://www.folktunefinder.com/tunes/36458
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

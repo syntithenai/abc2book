@@ -1,0 +1,19 @@
+X: 200
+T:Mid-Day Jig
+% Nottingham Music Database
+S:Chris Dewhurst 1979, via Phil Rowe
+M:6/8
+K:D
+"A7"d2e |"D"f2d Adf|"C"e2=c Gce|"G"d2B GBd|"D"A3 A2B|
+"C"=c2G EGc|"G"B2G DGB|"D"AFD "A"GEC|"D"D3 ::
+C2D |"A"E2E EDE|"D"F2F "Bm"FEF|"Em"G2G "A"GFG|"D"A3 "D7"a3|
+"G"g2f "Gm"efg|"D"f2d "Bm"A2F|"Em"Ged "A"cBc|"D"d3 :|
+S:https://www.folktunefinder.com/tunes/65510
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

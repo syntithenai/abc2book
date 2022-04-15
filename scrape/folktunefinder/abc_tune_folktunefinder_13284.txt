@@ -1,0 +1,43 @@
+X: 1
+T: Niel Gow's Lament for the Death of His Second Wife
+C: Niel Gow
+R: waltz, air
+Z: John Chambers <jc:trillian.mit.edu>
+N: By Niel Gow (1727-1807).  His second wife was Margaret Urquhart of Perth,  to
+N: whom  he  was  happily married for three decades.  A note in Gow's Collection
+N: reads "They lived together upwards of 30 years.  She died 2 years before him;
+N: she had no issue." [From the Fiddler's Companion]
+N: Similar to the Irish air Kitty Tyrrell (or Ketty Terrol).
+M: 6/8
+L: 1/8
+K: D
+|: vD/uB,/ \
+| "D"vA,>MB,-MD "Bm"D>E-D | "Em"E>F-A "G"{A}B2{c}d | "D"A>MF-MD "Em"E>MD-ME | "Bm"{DE}F>D-B, "G"vB,2 ||
+   uD/-B,/ \
+|  "D"A,>B,D "Bm"D>ED | "Em"EFA "G"{c}d2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 :|
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "D"{DE}FED | "Bm"{DE}F>DB, "G"B,2 ||
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "Bm"{DE}F>DB, | "D"A,<D"(G)"D "D"D2 |]
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | F/D/A/F/d/A/ "Bm"B/A/G/F/E/D/ | "Em"FEE "A7"E2 ||
+   D/B,/ \
+| "D"A,>B,D "Bm"D>ED | "Em"EFA "G"Hd2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 |]
+S:https://www.folktunefinder.com/tunes/13284
+S:http://trillian.mit.edu/~jc/music/abc/air/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/NielGowsLamentForTheDeathOfHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/NielGowsLamentForTheDeathOfHis2ndWife.abc
+% Rhythm Waltz, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:13983
+T: Ratevka
+O: Macedonia
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: EPhr
+%%MIDI drum dzzzdzzz 36 36 70 60
+!drum! {EFEF}E2 E/D/E/F/|^G/A/B/G/- G3/2F/|^G3 B/A/ |^GF/E/ D2| 
+E2 E/D/E/F/|^G/A/B/G/- ^G3/2F/|^G2 B/A/G-|^G2 Gz| 
+|:^G>A Bc|^G>A Bc|B3/2A/ ^GF|^G2 B/A/G/F/|^GF E2|
+F3 B/A/|^GFED|[1E2 ^G/A/B:|[2 E3 z|
+|:A>^GFF|FED2|A>^GFF|FED2|A>^GFF|FED2|E4|[1^GAB2:|[2E4|
+S:https://www.folktunefinder.com/tunes/63993
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

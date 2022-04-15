@@ -1,0 +1,34 @@
+X: 1
+T: Millbrae
+C: Ronald Cooper
+Z: John Chambers <jc:trillian.mit.edu>
+N: Do we need permission, Chambers, Pete Clark
+R: reel
+M: C|
+L: 1/8
+K: A
+|: af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"gbeg begb | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+| "E7"gbeg begb | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 a2 |
+| "E7"gbeg begb | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/17660
+S:http://trillian.mit.edu/~jc/music/abc/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Ronald_Cooper/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/MillBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MillBrae.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

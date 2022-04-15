@@ -1,0 +1,38 @@
+X: 1
+T: Nestinarsko oro
+O: Bulgaria
+I: bagpipes and percussion recommended
+P: I.ABAB.CDCD.EF.A'B'C'D'CDE
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Dm
+%%indent 400
+"I"[| !drum!A4- | A4       | D4-        | D4       | "Dm"z4     | 
+"A"|:"Dm"D2EF   | GAGA     | GFGA       | D4       | A2GA       | GFED     | D4       | D4      :| 
+"B"|:"Dm"A2GA   | "C"GFEC  | "Dm"D4     | DEFG     | A2GA       | "C"GFEC  | "Dm"D4   | D4      :| 
+"C"|:"Dm"FGAG   | A4       | FGAG       | A4       | FGAG       | A4       | "C"GFEC  | "Dm"D4  :| 
+"D"|:"Dm"G2FE   | DEDC     | "C"G2"Dm"FE| "Dm"DEDC | "C"G2"Dm"FE| DEDC     | D4       | D4      :| 
+"E"|:"Dm"D2EF   | GAA2     | GAA2       | D4       | A2GA       | "C"GFEC  | "Dm"D4   | D4      :| 
+"F"|:"Dm"A2AG   | FGD2     | A2AG       | FGD2     | A2AG       | FGD2     | FD"C"EC  | "Dm"D4  :| 
+%%sep 1 8 500
+K:Am
+"A'"|:"Am"A,2B,C| DEDE     | DCDE       | A,4      | E2DE       | DCB,A,   | A,4      | A,4     :| 
+"B'"|:"Am"E2DE  | "G"DCB,G,| "Am"A,4    | A,B,CD   | E2DE       | "G"DCB,G,| A,4      | A,4     :| 
+"C'"|:"Am"CDED  | E4       | CDED       | E4       | CDED       | E4       | "G"DCB,G,| A,4     :| 
+"D'"|:"Am"C2B,A,| A,B,A,G, | C2B,A,     | A,B,A,G, | C2B,A,     | A,B,A,G, | A,4      | A,4     :| 
+K:Dm
+"C"|:"Dm"FGAG   | A4       | FGAG       | A4       | FGAG       | A4       | "C"GFEC  | "Dm"D4  :| 
+"D"|:"Dm"G2FE   | DEDC     | "C"G2"Dm"FE| "Dm"DEDC | "C"G2"Dm"FE| DEDC     | D4       | D4      :| 
+"E"|:"Dm"D2EF   | GAA2     | GAA2       | D4       | A2GA       | "C"GFEC  | "Dm"D4   | D4      :|
+S:https://www.folktunefinder.com/tunes/5855
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Nestinarsko.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

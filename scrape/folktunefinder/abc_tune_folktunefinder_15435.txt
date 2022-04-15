@@ -1,0 +1,49 @@
+X: 1
+T: G\"ardebyl\aaten
+O: Hjort Anders Olsson
+R: g\aangl\aat
+Z: John Chambers <jc@trillian.mit.edu>
+N: From 1959 arrangement by W.S\"oderlund [AB Carl Gehrmans Musicf\"orlag, Stockholm]
+N: Attributed to Hjort Anders Olsson. (Did he compose it)
+M: C|
+L: 1/8
+K: G
+|: "G"(DEDB,) (DEDB,) \
+| D2BA G2F2 \
+| "C"(EGEC) (EGEC) \
+| E2cB A2G2 \
+| "D7"(F3G) F2E2 |
+| D2c2 B2A2 \
+|1 "G"(G3A) "Em"(BABc \
+| "Am"d6) "D7"z2 \
+:|2 "G"G4 "D7"(DFAF \
+| "G"G4) [B2G2][c2A2] ||
+|| "G"[d4B4] [d3B3][dB] \
+| [e2c2][d2B2] [c2A2][B2G2] \
+| "C"[c4E4] E3G \
+| c2B2 A2G2 \
+| "D7"(F3G) F2E2 |
+| D2c2 B2A2 \
+| "G"(G3A) "Em"(BABc \
+| "Am"d4) [B2G2][c2A2] \
+|| "G"[d4B4] [d3B3][dB] \
+| [e2c2][d2B2] [c2A2][B2G2] |
+| "C"[c4E4] E3G \
+| c2B2 A2G2 \
+| "D7"(F3G) F2E2 \
+| D2c2 B2A2 \
+| "G"(G4 "D7"DFAF) \
+| "G"G6 z2 |]
+S:https://www.folktunefinder.com/tunes/15435
+S:http://trillian.mit.edu/~jc/music/abc/march/Gardebylaten_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Gardebylaten_G.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:10002
+T:Jessie's Hornpipe
+R:Hornpipe
+C:Trad.
+O:England
+M:4/4
+L:1/4
+Q:1/4=140
+K:G
+B/2c/2|"G"dg gB/2c/2|Bd dB/2A/2|GG "D7"AA|B/2A/2B/2c/2 "D7"BB/2c/2|
+"G"dg gB/2c/2|"Em"Bd dB/2A/2|"Am"GG "D7"AG/2A/2|"G"G3:|
+B/2c/2|"G"dg "C"ec|"G"dg "C"ec|"G"d3/2B/2 GB|"Am"A/2G/2A/2B/2 "D7"AB/2c/2|
+"G"dg "C"ec|"G"dg "C"ec|"G"B/2d/2B/2G/2 "D7"A/2c/2A/2F/2|"G"G3:|
+S:https://www.folktunefinder.com/tunes/51222
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

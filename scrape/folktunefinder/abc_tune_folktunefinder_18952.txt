@@ -1,0 +1,27 @@
+X: 1
+T: Saisinko, saisinko
+R: waltz
+M: 3/4
+L: 1/8
+K: Am
+[| "Am"A2 c2 e2 | A2 c2 e2 \
+| "Dm"f2 f2-fe | d2-d4 \
+| "G7"G2 B2 d2 | G2 B2 d2 \
+| g2 g2-gf | "E7"e2-e4 \
+|: "Am"a4 e-e | c4 Bc \
+| "E7"d2 c2 B2 | "Am"A6 :|
+S:https://www.folktunefinder.com/tunes/18952
+S:http://trillian.mit.edu/~jc/music/abc/song/Saisinko_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Saisinko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/Saisinko_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/Saisinko_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/Saisinko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Saisinko.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Saisinko.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

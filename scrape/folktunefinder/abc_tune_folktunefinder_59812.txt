@@ -1,0 +1,36 @@
+X:925
+T:Xiraldilla (CT 465)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 465
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|: GcB|GAB|c2 B-|B3|GBA|GFG|[1 A2 G-|G2 z :|[2 A2 G|GFE|
+FAA|AGF|E3|GFE|DAA|AGF|E3-|E z2||
+W:Amores disimulados
+W:son como un mal encubierto
+W:que cuando el mdico llega,
+W:el enfermo ya est muerto.
+W:
+W:Vente conmigo a la orilla del mar
+W:vers las olas subir y bajar.
+W:
+S:https://www.folktunefinder.com/tunes/59812
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

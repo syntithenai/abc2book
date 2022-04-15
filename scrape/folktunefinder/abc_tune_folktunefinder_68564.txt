@@ -1,0 +1,26 @@
+X:18
+T: Tageweis von der Koenigstochter und dem jungen Grafen
+N: A0020D
+O: Europa, Mitteleuropa, Deutschland
+N: Dieselbe Melodie wenig anders (1611)
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F2 | AABB | c2c2z
+c | ccBA | G2F2
+F2 | AABB | c2c2z
+c | ccBA | G2F2
+A2 | AAGA | FGA2 | z2
+c2 | dccA | cB2A | G2F2 | z2
+C2 | FGAB | G2F2
+S:https://www.folktunefinder.com/tunes/68564
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

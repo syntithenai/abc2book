@@ -1,0 +1,17 @@
+X: 4
+T: Talikkalan markkinoilla
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+|: "D7"D | "Gm"B2GG GGDD | B2G2 G2DD | "Cm"E2CC C2E2 | "D7"D2 D :|
+|: "G7"D | "Cm"E2CC C2EE | "Gm"D2D2 G2A2 | "A7"BAGB "D7"A2^F2 | "Gm"G2 G :|
+S:https://www.folktunefinder.com/tunes/8688
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_song5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

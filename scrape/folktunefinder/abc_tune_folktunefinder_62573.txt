@@ -1,0 +1,30 @@
+X:42
+T:Vals fr\aan Alfta
+R:vals
+N:learned from Andrea Hoag, workshop 20jan92
+Z: 1998 Brian Wilson 
+M:3/4
+L:1/8
+K:G
+P:A
+"G"D4 (~BA) | "G"B4 "C"G2 | "G"D3 (c~BA) | "G"B4 G2 |\
+"D"FG AB cd | "C"e4 d2 | "C"c2 Bc "Am"dB | "C"c2 BA BG |
+"G"D4 (~BA) | "G"B4 "C"G2 | "G"D3 (c~BA) | "G"B4 G2 |\
+"D"FG AB cd | "C"e4 d2 | "D"de dc AF | [1 "G"G4 FE :| [2 "G"G3 ABc ||
+P:B
+"G"d4 g2 | "Am"(~f2 e2) e2 | "D"A4 f2 | "Am7/G"e2 d^c d2 |\
+"Am"A3 Bcd | "C"e4 d2 | "C"c2 Bc dB | "C"c2 BA "Am"Bc |
+"G"d4 g2 | "Am"(~f2 e2) e2 | "D"A4 f2 | "Am7/G"e2 d^c d2| \
+"Am"A3 Bcd | "C"e4 d2 | "D"de dc AF | [1 "G"G3 ABc :| [2 "G"G4 FE ||
+S:https://www.folktunefinder.com/tunes/62573
+S:http://www.nordicfiddlesandfeet.org/music/NFF.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

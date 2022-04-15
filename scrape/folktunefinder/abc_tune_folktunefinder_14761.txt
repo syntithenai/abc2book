@@ -1,0 +1,22 @@
+X:15
+T:The New Violin
+M:6/8
+R:jig
+C:Dan MacDonald via Ruthie Dornfeld
+K:A
+a | g2 e e^de | BGE EGB | =dcB AFD | A,CE Adf | \
+g2 e e^de | BGE EGB | =dcB AGF | E3 E2 a :: \
+gbe bge | Bba gfe | =cBc AFD | A,DF Adf | \
+|1 gbe bge | Bba gfe | dcB AGF E3 E2 a \
+:|2 gbe (3fga f | gba gfe | dcB AGF | E3 E3 ||
+S:https://www.folktunefinder.com/tunes/14761
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewViolin_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/NewViolin_BB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Planxty Mary O'Neill
+C: O'Carolan
+B: O'Neill's 662
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Animated"
+M: 6/8
+L: 1/8
+K: D
+A \
+| dAG F2D | (E/F/G).E F2D | dAG ~F2D | ECE GFE |
+| dAG F2D | (E/F/G).E F2D | GAB =cBA | GE=C E/F/GE ||
+|| f2d (d/e/f)d | afd (e/f/g).e | f2d (d/e/f)d | gec efg |
+| fed edc | d=cB cBA | GAB =cBA | GE=C (E/F/G)E ||
+||  FED {F}d2D | FED {F}d2D | FED {F}d2D | GEC (E/F/G)E |
+| FED d2D | e2A f2D | g2A f2D GE=C (E/F/G)E |]
+S:https://www.folktunefinder.com/tunes/14897
+S:http://trillian.mit.edu/~jc/music/abc/jig/PlanxtyMaryONeill.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PlanxtyMaryONeill.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PlanxtyMaryONeill.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/PlanxtyMaryONeill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

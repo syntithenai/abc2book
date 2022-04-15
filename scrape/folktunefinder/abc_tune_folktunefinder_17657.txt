@@ -1,0 +1,29 @@
+X: 1
+T: Midsummer Morn
+C: Sarah Hydern
+S: handwritten MS
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|: "Bm"B2dB "A"cBAc | "Bm"BFdF "F#m"eFcF \
+|1,3 "Bm"B2dB "A"cBAc | "F#m"FEFA Bcdc \
+:|2,4 "Bm"BABc "A"dcde | "F#m"fgfe dcBc :|
+|: "D"d2fd "G"gdfd | "A"ecAc d2c2 \
+|1,3 "D"d2fd "G"gdfd | "A"ecAc dedc \
+:|2,4 "Bm"BABc "A"dcde | "F#m"fgfe dcBA :|
+S:https://www.folktunefinder.com/tunes/17657
+S:http://trillian.mit.edu/~jc/music/abc/reel/MidsummerMorn_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MidsummerMorn_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MidsummerMorn_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

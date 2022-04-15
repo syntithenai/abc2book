@@ -1,0 +1,40 @@
+X: 1
+T: \vSano Du\vso
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: John Chambers <jc@trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: C
+|: "Fm"[c2_A][cA] [c2A] [c2A] | "G"[B2G][_AF] [GE][AF] [BG][cA] | "Fm"[B2G][_AF] [B2G] [A2F] | "C"[G3E] [G4E] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "F"[=A2F][AF] [A2F] [A2F] | [A2F][GE] [AF][BG] [c2A] | "G7"[G2E][AF] [G2E] [F2D] | "C"[E3C] [E4C] |]
+w: Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w: U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w: Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+[| "C"[E2C][FD] [G2E] [FD][EC] | "Dm"[DB,][D2B,] [A4F] | "G7"[G2E][AF] [G2E] [F2D] | "C"[E3C] [E4C] |
+S:https://www.folktunefinder.com/tunes/2863
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_ShanoDusho.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/Les_ShanoDusho.abc
+% Rhythm Lesnoto
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:8
+T: THRAENEN HAB ICH VIELE
+N: B0496
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 4/4
+L: 1/8
+K: D
+D,F, | A,2A,2A,2B,A, | A,G,G,F,G,G,
+A,G, | F,2F,2A,2G,F, | G,4z2
+D,F, | A,2A,2A,2B,A, | A,G,G,F,G,G,
+A,G, | F,2F,2A,2G,F, | G,4z2
+D,D, | B,B,B,B,B,2DB, | B,A,A,A,D2
+DD | E2E2C2B,C | D4z2
+D,F, | A,A,A,A,A,2DC | B,B,B,B,B,2
+ED | C2A,2A,2B,C | D4z2
+D,F, | A,A,A,A,A,2DC | B,B,B,B,B,2
+ED | C2A,2A,2B,C | D4z2
+S:https://www.folktunefinder.com/tunes/62031
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

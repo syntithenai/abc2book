@@ -1,0 +1,33 @@
+X:250
+T: ALLONS ENFANTS DE LA PATRIE
+N: B0731
+O: Europa, Mitteleuropa, Frankreich
+R: National - Hymne
+M: 4/4
+L: 1/16
+K: C
+G,2G,2G,2 | C4C4D4D4 | G6E2C2
+C2E2CB, | A,4F6F2D2B,2 | C8z4
+C3D | E4E4E4F2E2 | E2D2D4z4
+D3E | F4F4F4G3F | E8z4
+G3G | G4E2C2G4E3C | G,8z2
+G,2G,2G,2 | D6E2F6D2 | C4C4
+_B,8 | A,4C3CC4B,2C2 | D8z4
+D3D | _E4E3ED3EF3E | D8z4
+_E2D2 | C4C4C4D2C2 | C2B,2B,4z4
+G4 | G12_E3C | D8z4
+G4 | G8-G3G_E3C | D8z4
+G,4 | C12C4 | E12z4
+F8G4A4 | D12A4 | G8-G3EF3D | C8z4
+G,4 | C12C4 | E12z4
+F8G4A4 | D12A4 | G8-G3EF3D | C8z2
+S:https://www.folktunefinder.com/tunes/62273
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm National - hymne
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

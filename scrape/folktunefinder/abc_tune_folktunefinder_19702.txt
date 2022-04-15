@@ -1,0 +1,21 @@
+X: 1
+T: Wee Sammy
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: "A"A,>C E>C "D"D>F A>F | "A"E>A c>A "E7"G<B B2 \
+|  "A"A,>C E>C "D"D>F A>F |"E7"E>G B>e "A"c<A A2 :|
+|: "A"a>e  c>A "D"d>e f>g | "A"a>e c>A "E7"G<B B2 \
+|  "A"a>e  c>A "D"d>e f>a |"E7"(3efe (3dcB "A"c<A A2 :|
+S:https://www.folktunefinder.com/tunes/19702
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WeeSammy_A.abc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WeeSammy_A.abc.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:1
+T:Green Slives
+S:James Thomson, NLS MS.2833, 1702
+B:David Johnson, 21 Scots Tunes for Treble Recorder, Forsyth, 1973
+Z:Jack Campin <jc@purr.demon.co.uk>
+M:6/4
+L:1/8
+N:~ used where MS has a single line over the staff, T where it has a double one
+K:D minor
+de|~f4       f2  f2  c'2 a2|Tg3  fed  c3  d e2|~f3  e d2  d2   e2 d2 |Tc3    B A2 A6       |
+   ~f4       f2  f2  c'2 a2|Tg3  fed  c2 d2 e2|~f3  e d2  e2 T^c2 A2 | d6   "Fine"d4      |]
+ab| c'2 d'2  c'2 c'2 d'c'ba|Tg3  fed  c3  d e2| d4    d'2 d'3  e' d'2|Tc'3   b a2 a4     ab|
+   ~c'3   d' c'2 c'2 d'c'ba|Tg3  fed  c2 d2 e2| f2 gfed   e2 T^c2 A2 | d6         d4      ||
+fg| a2  f2   d2  a2  f2  d2| g2 e2 c2 g2 e2 c2| a2 f2 d2  a2   f2 d2 | e2 T^c2 A2 e2 Tc2 A2|
+    c'2 a2   f2  c'2 a2  f2| g2 e2 c2 g2 e2 c2| a2 f2 d2  e2 T^c2 A2 | d6         d4      ||
+z2| agfe     d2  agfe    d2| gfed  c2 gfed  c2| agfe  d2  agfe    d2 | edcB    A2 edcB   A2|
+    c'bag    f2  c'bag   f2| gfed  c2 gfed  c2| agfe  d2  ed^c=B  A2 | d6         d4      ||
+z2| fefgag       fefgaf    | gfgagf   edefge  | d^cdefe   dcdefd     | edefed     c=Bcdec  |
+    agabc'b      agabc'a   | gfgagf   edefge  | agfefd    ed^c=BcA   | d6   "D.C."d4      ||
+S:https://www.folktunefinder.com/tunes/13192
+S:http://trillian.mit.edu/~jc/music/abc/air/GreenSlives.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/air/GreenSlives.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

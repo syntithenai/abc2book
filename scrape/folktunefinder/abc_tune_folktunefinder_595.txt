@@ -1,0 +1,25 @@
+X:137
+T:Aragon et Castille
+R:Paso doble
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+AB || [P:Refrain] cd/d/ de | f2 ed | cc/c/ cd | e2dc | BB/B/ Bc  | d2cB | Ac z2 |
+z2 AB | cd/d/ de | f2ed | cc/c/ cd | e2dc | BB/B/ Bc | d2ec | f2 [c/z2]B/A/G/ | [zF]!fine!||A^GA |
+P:Couplet
+d2A2 | ^G2A2 | c=B _BA/G/ | FA GA | e2B2 | A2B2 | d_d cc/B/ | Ac de | f2e2 | g2f2 | ec df |
+eB cd | e2c2 | f2e2 | dc =Bc | dA GF | c2A2 | G2E2 | Fc BB/A/ | GB AG | d2B2 | AG d^d | e4- | ez AB S |]
+%%footer $D   Galouvielle-MBe 2008 \nPaso doble (--)
+S:https://www.folktunefinder.com/tunes/595
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Paso doble
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

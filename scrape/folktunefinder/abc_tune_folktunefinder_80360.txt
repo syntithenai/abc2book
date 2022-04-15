@@ -1,0 +1,28 @@
+X:301
+T: Der Tod als Schnitter
+N: A0650
+O: Europa, Mitteleuropa, Deutschland
+N:  Fl. Blatt von 1638 und oefter
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/4
+K: G
+G2 | G4_B2 | A4G2 | =F4_E2 | D4
+d2 | d3c_B2 | c3_BA2 | _B6 | z4
+G2 | G4_B2 | A4G2 | =F4_E2 | D4
+d2 | d3c_B2 | c3_BA2 | _B6 | z4
+d2 | d3cd2 | _B3cd2 | c3_Bc2 | A3_B
+c2 | _B3AB2 | G3A_B2 | A3GA2 | F4D2
+d2c_B | AAG2 | z4
+S:https://www.folktunefinder.com/tunes/80360
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

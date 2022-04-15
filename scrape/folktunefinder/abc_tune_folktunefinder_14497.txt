@@ -1,0 +1,26 @@
+X: 1
+T: Lady Helen's Jig
+C: Michael Philp
+B: RSCDS 42-6
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2e "E7"dcB | "A"A3 E2A | "D"FGA "A"EAc | "Bm"edc "E7"Bcd | "A"c/d/ec "E7"dcB |
+| "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :: "E"G | "F#m"F2C "C#7"CFG | "F#m"A3 "B7"F2A | "E"G2F EFG |
+| "A"ABc "E7"Bcd | "A"cde "E7"dcB | "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :|
+S:https://www.folktunefinder.com/tunes/14497
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyHelensJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyHelensJig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LadyHelensJig_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

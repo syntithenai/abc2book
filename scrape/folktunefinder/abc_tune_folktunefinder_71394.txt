@@ -1,0 +1,26 @@
+X:365
+%%topmargin 3cm
+T:A Hundred Years Since
+C:James Porteous
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Eb
+C | B,G,B,C E2 (EG) | TFEFG TFECE | B,G,B,C EFGc | BGFG E2 E :| d | edcB c2 ce | BGFE FECB |
+(ed)cB (cd)ef | (gf)ed e2 ef | (gf)ed (ed)cB | (AG)FE TFECE | B,G,B,C EFGc | BGFG E2 E |]
+S:https://www.folktunefinder.com/tunes/71394
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Hundred_Years_Since.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0365.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

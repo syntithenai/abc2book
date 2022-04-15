@@ -1,0 +1,60 @@
+X:23
+%%newpage
+%%text Suite de bourres
+T:Il est bien temps
+R:Bourre  2 temps
+O:France
+A:
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+E2|:\
+A4B2c2|B3A ^G2E2|A4B2c2|d3c B2c2|A4B2c2|B3A ^G2E2|A3c B2^G2|[1 A6E2::[2A8|:
+A4B2c2|d3c B2c2|e4^d2c2|BcBA ^G2E2|A4B2c2|d3c B2c2|A3c B2^G2|A8:|
+T:La bergre de Coulandon
+%R:Bourre  2 temps
+%O:France
+%A:
+%C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Em
+c3c B2c2|A6Bc|d3c B2A2|B4G4|c4B2c2|A6Bc|d3c B2A2|G8:|:
+A3B A2G2|^F6G2|A3B c2A2|B4G4|A3B A2G2|^F6G2|A3B c2A2|G8:|
+T:Bourre ronde la Brande d'Ardente
+R:Bourre  2 temps
+O:France
+A:Berry
+C:Trad.
+I:abc2nwc
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+P:A
+"G"d3B G2B2 | "Am"c6g2| "D"f3d e2f2 | "G"g3a b2g2|d3B G2B2 | "Am"c6g2 | "D"f3d e2f2|[1 "G"g8:|[2 "G"g4gfed|]
+P:B
+K:C
+"C"c4e4|g3f "G"d4 | e3f d2e2 | "C"c2B2 "G"A2"C"G2 | c4e4 | g3f "G"d4 | e3f d2B2|[1 "C"c4cGAB:|[2 "C"c8|:
+P:A' (variante)
+K:G
+"G"dedB G2B2 | "Am"c6g2| "D"f3d e2f2 | "G"gfga b2g2|dedB G2B2 | "Am"c6g2 | "D"f3d e2f2|[1 "G"g8:|[2 "G"g4gfed|]
+%%footer $D   Galouvielle-MBe 2006 \nBourre  2 temps (France)
+S:https://www.folktunefinder.com/tunes/64736
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Bourre  2 temps
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 43
+T:Lucy Long. HS.43
+M:2/4
+Q:70
+C:"A Set Of Quadrilles,No.1"
+S:Henry Stables MS,Cumbria,late19thC
+R:Quadrille
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+d|ff dd|ce ef|gg cc|d3e|!
+ff dd|ce gb|ba ge|d3:|!
+d|ceee|ceee|ce dB|A3d|!
+ceee|ceee|gedB|A3g|!
+ab/a/ g/f/e/d/|ce gb|ab/a/ ge|fa [d2d'2]|!
+ab/a/ g/f/e/d/|ce gb|ba ge|d3||
+S:https://www.folktunefinder.com/tunes/52746
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

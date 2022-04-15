@@ -1,0 +1,32 @@
+X:5319
+T:Quadrill. CJF.062
+O:england
+M:2/4
+L:1/16
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:I have adde a natural in bar 2 of the 2nd section, just before the
+N:second g in that bar. - PJH.
+K:G
+{e2}d^c|d2{e2}d^c d2{e2}d^c|d2g4dg|b3a gfed|d4c2c>B|\
+c2{d2}c>B c2{d2}c>B|c2f4d2|defg abc'f|a4g2||d2|g4agfg|
+^gaba =gfed|fgag fgag|b4a2d2|b3a gfed|e2c'b agfe|\
+d2ed ^cdef|a4g2" D.C."||B2BB G2G2|d6g2|g2g2f2e2|
+{e2}d6d2|d4defg|a6d2|d2^d2 fecA|G4F4|B2BB G2G2|\
+d6g2|g2g2f2e2|{e2}d4z2d2|d4defg|a4z2d2|dbgd dd'c'a|g2" D.C."b2g2||
+S:https://www.folktunefinder.com/tunes/25771
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

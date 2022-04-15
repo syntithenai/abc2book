@@ -1,0 +1,23 @@
+X:1
+T:Killer Bees Attack James Woods Flute Part
+C:copyright 1998 Jim Thompson 
+N:To be played with Kaubells' tune of that name
+R:Jig
+E:14
+M:6/8
+K:Am
+|:"tr"A3 "tr"E3|"tr"A3 "tr"E3|"tr"A3 "tr"d3|"tr"A3 "tr"E3|
+|"tr"A3 "tr"E3|"tr"A3 "tr"E3|"tr"A3 "tr"d3|"tr"A3 "tr"E3:|
+|:AdA _BdB|A3 c3|AdA _BdB|_B_eB B3|
+|AdA _BdB|A3 c3|AdA _BdB|1 _B_eB BeB:|2 B2e d2^G|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/77535
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/bee-harmony.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

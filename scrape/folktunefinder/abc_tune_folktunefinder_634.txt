@@ -1,0 +1,27 @@
+X: 176
+T:La Volte
+O:France
+A:Provence
+C:Trad.
+R:Volte
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:Fmaj
+F/2G/2 | AGF | breathc2(c/2d/2) | cAF | G2 G/2A/2 | BAG | e2 e/2d/2 | cG^G | A2 F/2G/2 |
+AGF || c2c/2d/2 | cAF | G2 G/2A/2 | BAG | e2 e/2d/2 | cde | f2 F |
+K:Bbmaj
+d/2>c/2BF | d/2>c/2BF | F/2G/2 A/2B/2 c/2d/2 | e2F | e/2>d/2 cF| e/2>d/2 cF| F/2G/2 A/2B/2 c/2^c/2 | d2F |
+d/2>c/2BF | d/2>c/2BF | F/2G/2 A/2B/2 c/2d/2 | e2F | e/2>d/2 cF| e/2>d/2 cF| F/2G/2 A/2B/2 c/2d/2 | B2 |]
+S:https://www.folktunefinder.com/tunes/634
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Volte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

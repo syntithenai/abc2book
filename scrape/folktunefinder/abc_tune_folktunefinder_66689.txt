@@ -1,0 +1,23 @@
+X:5
+T:The Congress Reel
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:G
+"Am" eAAG A2 (3Bcd | "Am" eaaf "G" gedg | "F/Am" eA ~A2 eA ~A2 | "G" BG ~G2       GABd |
+"Am" eAAG A2    Bd | "Am" eaaf "G" gedB | "F" cBcd        eged | "E/G" cABG "Am" A2 Bd :|
+"Am" eaag a2    ag | eaaf          gedg | "G" egdg        egdg | "Em" eaaf        gedg |
+"Am" eaag a2    ag | "Am" eaaf "G" gedB | "F" cBcd        eged | "E/G" cABG "Am" A2 Bd :|
+S:https://www.folktunefinder.com/tunes/66689
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

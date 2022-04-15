@@ -1,0 +1,26 @@
+X:245
+T: EHRLICH FREUNDLICH UND SCHOEN
+N: B0730A
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: C
+ | G,2G,2G,2A,B, | C2G,2E,2
+C,2 | C4D4 | E8
+G,2G,2G,2A,B, | C2G,2E,2
+C,2 | C4D4 | E8
+E2E2E4 | A,2A,2A,2B,C | D3CB,2A,2
+G,2CDE2D2 | C8
+E2E2E4 | A,2A,2A,2B,C | D3CB,2A,2
+G,2CDE2D2 | C8
+S:https://www.folktunefinder.com/tunes/62268
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

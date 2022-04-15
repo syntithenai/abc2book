@@ -1,0 +1,53 @@
+X:5
+T: 8x24J
+O:ireland
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: ADor
+P: Follow Me Up To Carlow
+|: "Am"A>AA A2G |     E2F G3   |    A>AA    c2d | "(E)"e2d c2B \
+|  "Am"A>AA A2G |     E2F G3   |    A>AA "G"B2G |  "Am"A3- A2z :|
+|: "Em"e2f  g2f |     e2f g3   | "G"B>BB    B2A |      G2A B3 \
+|  "Em"e2f  g2f |     e2f g3   | "G"B>BB    B2G |  "Am"A3- Az2 :|
+|: "Em"ez2  ez2 | "Am"A3  A3   | "Em"ez2    ez2 |  "Am"A3  A2E \
+|      A2B  c2d |     e2e e2=f | "E7"e2d    c2B |  "Am"A3- A2z :|[K:EDor]
+P: Hide and Go Seek
+|: "Em"BGE EFE | EFE EBG |  "D"AFD    DED | DFA dcd \
+|  "Em"BGE EFE | EGB d2e | "Bm"fdB    AGF | "Em"GEE E2z :|
+|: "Em"eBe geg | bge efe |  "D"ded    fed |     afd def \
+|  "Em"eBe geg | bag fga |     gfe "D"dBA | "Em"BGE E2z :|[K:G]
+|: "D7"dz2 dz2 | ~D3 ~D3 |     cz2    cz2 |     ~D3 DEF \
+|   "G"G2F G2A | B2A B2c | "D7"d2D    DEF |  "G"G3- G2z :|
+%%sep 5 5 200
+P: Bb instruments
+P: Follow Me Up To Carlow
+K: BDor
+|: "Bm"B>BB B2A | F2G A3 | B>BB d2e | "(F)"f2e d2c \
+|  "Bm"B>BB B2A | F2G A3 | B>BB "A"c2A | "Bm"B3- B2z :|
+|: "F#m"f2g a2g | f2g a3 | "A"c>cc c2B | A2B c3 \
+|  "F#m"f2g a2g | f2g a3 | "A"c>cc c2A | "Bm"B3- Bz2 :|
+|: "F#m"fz2 fz2 | "Bm"B3 B3 | "F#m"fz2 fz2 | "Bm"B3 B2F \
+|  B2c d2e | f2f f2=g | "F#7"f2e d2c | "Bm"B3- B2z :|[K:F#Dor]
+P: Hide and Go Seek
+|: "F#m"cAF FGF | FGF FcA | "E"BGE EFE | EGB ede \
+|  "F#m"cAF FGF | FAc e2f | "Cm"gec BAG | "F#m"AFF F2z :|
+|: "F#m"fcf afa | c'af fgf | "E"efe gfe | bge efg \
+|  "F#m"fcf afa | c'ba gab | agf "E"ecB | "F#m"cAF F2z :|[K:A]
+|: "E7"ez2 ez2 | ~Ez2 ~Ez2 | dz2 dz2 | E2E EFG \
+|  "A"A2G A2B | c2B c2d | "E7"e3 EFG | "A"A3- A2z :|
+S:https://www.folktunefinder.com/tunes/41548
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key E
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

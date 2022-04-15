@@ -1,0 +1,29 @@
+X: 120
+T:From Aberdeen To Edinburgh. HA.119
+M:C
+Q:160
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:cf Playford DM eds 9D(1698).CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:D
+D2|(FG)A2 A3B|A2(GF) E2(FG/A/)|F2(ED) (FG)A2|d6:|!
+fe|d2f2 d2f2|(ef)(ed) B3c|d3B (AF)(dF)|"NB"A6(Bc)|!
+d3B A2(GF)|(EF)(GA) B3d|(AB)(AF) (EF)(ED)|!
+G4 A4|(Bc)(dB) (cd)(ef)|d6|]
+W:NB=dotted crotchet in MS
+S:https://www.folktunefinder.com/tunes/72369
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

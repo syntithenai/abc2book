@@ -1,0 +1,26 @@
+X:131
+T: Ansinglied am ersten Mai
+N: A0497B
+O: Europa, Mitteleuropa, Deutschland
+N: Kuhn, Sammlung von Schweizer - Kuehreihen und alten VL 1812 S. 42.
+M: 3/8
+L: 1/16
+K: G
+G2 | B2d2c2 | B2G2A2 | B2d2c2 | A4
+G2 | B2d2c2 | B2G2A2 | B2dcAF | G4
+G2 | B2d2c2 | A4GA | B2d2c2 | A4
+G2 | B2d2c2 | B2G2A2 | B4A2 | G4
+G2 | B2d2c2 | A4GA | B2d2c2 | A4
+G2 | B2d2c2 | B2G2A2 | B4A2 | G4
+S:https://www.folktunefinder.com/tunes/80190
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

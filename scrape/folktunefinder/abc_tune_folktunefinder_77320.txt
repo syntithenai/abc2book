@@ -1,0 +1,30 @@
+X: 127
+T:Rye Straw
+M:4/4
+L:1/8
+Q:160
+C:Old Time
+S:Similar to Stuart Duncan version
+R:Breakdown
+K:D
+(^c2|:"D"d2)fg a-f de|"A"g-fea f-dec|"D"d-efg a-baf|"A"e-fed c-BA2|"D"d-
+efg a-fdf|!
+"A"g-fea f-dec|"D"d-efg a-baf|"A"e-fed c-BA2:||:"A"[A3e3][Ae][A2e2]Ac|!
+"D"d2 eaf-d[d2f2]|"A"[A3e3][Ae][A2e2]Ac|"D"d-BAG [F2A2][D2A2]|"A"[A3e3][
+Ae][A2e2] Ac|!
+"D"d2 ea f-def|"G"g-fed c-ABc|"A"d-BAG "D"[F2A2][D2A2]:||:!
+"A"[E2A2][AE][GA] "D"[F2A2][FA][DA]|"A"[E2A2][EA][GA] "D"[FA][EA][DA][FA
+]|"A"[E2A2][EA][GA] "D"[F2A2][Ae][Ae]|"E"e-fed "A"[c2e2][A2e2]|!
+"A"[E2A2][EA][GA] "D"[F2A2][FA][DA]|"A"[E2A2][EA][GA] "D"[FA][EA][DA][FA
+]|"A"[E2A2][EA][GA] "D"[F2A2] B-c|"A"d-BAG "D"[F2A2][D2A2]:|!
+S:https://www.folktunefinder.com/tunes/77320
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

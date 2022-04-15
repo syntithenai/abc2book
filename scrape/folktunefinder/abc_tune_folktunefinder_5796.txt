@@ -1,0 +1,27 @@
+X: 1
+T: Mi Go Zatvorile (Lesnoto)
+O: Macedonia
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+S: Aubrey Jaffer 2002-3-15
+P: IV2IV2IV2
+M: 7/8
+L: 1/8
+K: D
+P: I
+|: "D"[FD][GE][AF]    [FD][GE] [AF][BG] | "G"[dB][cA][BG] "D"[AF][GE] [FD]z\
+ | "D"[FD][GE][AF]    [FD][GE] [AF][BG] | "G"[dB][cA][BG] "A"[c2A2]    z2 |
+   "A"[cA][dB][ec] "G"[dB][cA] [BG][dB] | "A"[c2A2][BG]   "D"[AF][GE] [F2D2]\
+ | "G"[dB][cA][BG] "A"[AF][BG] [AF][GC] | "D"[F3D3] z2 z2 :|
+P: V
+||"D"[FD][F2D2]    [A2F2] [A2F2] | "A"([G2E2][FD]) "D"[F2D2] z2\
+| "D"[FD][F2D2] "G"[B2G2] [B2G2] | "D"([B2G2][AF])    [A2F2] z2 |
+S:https://www.folktunefinder.com/tunes/5796
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Les_MiGoZatvorile.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Les_MiGoZatvorile.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

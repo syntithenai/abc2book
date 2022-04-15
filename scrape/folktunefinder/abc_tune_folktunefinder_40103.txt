@@ -1,0 +1,61 @@
+X:30
+T:1. Allemaingne
+C:Tielman Susato
+B:Tielman Susato: Danserye (1551) no. 30
+R:Allemande
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-30.abc
+M:4/2
+L:1/2
+K:C
+V:1
+C/B,/C/D/CD|E2EG|F2E2|D2C2|D/C/D/E/FD|E2E2::E/D/E/F/EF|G2FE|
+D/C/D/E/FD|E2E2::E>F E/D/C/B,/|A,2G,2|CDEC|D2DC|B,/C/D/C/ B,/A,/C/B,/|C2C2:|
+V:2
+G,2A,B,|C2CD|D2C2|B,2A,2|B,>CDA,|C2C2::C2CA,|CB,A,C|
+DG,A,>B,|C2C2::C2C2|C2CG,|A,B,C2|_B,2B,F,|G,A,G,2|E,2E,2:|
+V:3
+C,2E,F,|G,2G,_B,|_B,2G,2|G,>F,E,C,|G,2A,F,|G,2G,2::G,2G,F,|E,D,F,G,|
+_B,2A,F,|G,2G,2::G,2G,E,|F,2E,2|E,F,G,A,|F,2G,C,|D,/E,/F,/E,/ D,/C,/D,|C,2C,2:|
+V:4
+C,2A,,D,|C,2C,G,,|_B,,2C,2|G,,2A,,2|G,,2D,D,|C,2C,2::C,2C,D,|C,G,,D,C,|
+G,,2D,D,|C,2C,2::C,2C,C,|F,,2C,>B,,|A,,D,C,A,,|_B,,2G,,A,,|G,,F,,G,,2|C,2C,2:|
+V:1
+M:3/2 %org.: C|3
+L:1/2
+"^Recoupe"CCD|E2E|FFE|D2C|D>E F/D/|E2E::E>D E/F/|G2G|GFE|
+D2C|D>E F/D/|E2E::E2E|E>D C/B,/|A,2G,|C>D E/C/|D2C|B,/A,/B,/C/D/B,/|C2C:|
+V:2
+M:3/2 %org.: C|3
+L:1/2
+G,A,B,|C2C|DDC|B,2A,|B,A,>B,|C2C::C2C|CG,C|B,/C/D/A,/C|
+A,2A,|F,D,A,/B,/|C2C::C2C|C>B,G,|C2C|E>D C/B,/|A,_B,G,|G,2G,|E,2E,:|
+V:3
+M:3/2 %org.: C|3
+L:1/2
+C,E,F,|G,2G,|_B,B,G,|G,>F, E,/C,/|G,F,/G,/A,/F,/|G,2G,::G,>F, E,/D,/|E,>D, E,/F,/|G,A,>G,|
+F,2E,|D,/E,/F,/G,/A,/F,/|G,2G,::G,2G,|G,2E,|F,2E,|A,2G,|F,2E,|D,2D,|C,2C,:|
+V:4
+M:3/2 %org.: C|3
+L:1/2
+C,A,,D,|C,2C,|_B,,B,,C,|G,,2A,,|G,,D,D,|C,2C,::C,2C,|C,>B,, C,/D,/|E,D,C,|
+D,2A,,|_B,,D,2|C,2C,::C,2C,|C,2C,|F,,2C,|A,,>B,,C,|D,_B,,C,|G,,2G,|C,2C,:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/40103
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-30.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-30/susato-1551-30.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-30/susato-1551-30.abc
+% Rhythm Allemande
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 4/2
+% Has_accompaniment_chords Has chords

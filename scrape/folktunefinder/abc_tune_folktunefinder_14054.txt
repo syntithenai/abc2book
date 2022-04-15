@@ -1,0 +1,42 @@
+X: 1
+T: Courante
+C: M.Praetorious
+N: for Terps\'icourante
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: 3/8=106
+K: D
+A "A"\
+| "D"d2A d2e | f>ga fda \
+| "G"g2f "Em"e2d | "A7"c>de cAa \
+| "G"g2f "Em"e2d | "A7"c>de cAa \
+| "Em"e2f g2f | "A7"e2d c2A |
+| "G"Bcd "A7"cde | "D"d3- d2 :| \
+d "B"\
+| "A7"cAe cAe | cAe cAe \
+| "D"fga "E7"^gab | "A"a3- a2a \
+| "D"fda fda | "G"g3 g2f |
+| "Em"e2d "A7"dc2 | "D"d3 "A7"A3 \
+"C"\
+||"D"F>GA BAA | BAA BAA \
+| "E"^G>AB cGB | c^GB cGB \
+| "F#m"A>Bc dcc |
+| dcc dcA \
+| "G"B>cd edB | edB edB \
+| "A"c>de fce | fce fce \
+| "D"f>ed "A7"cdc | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/14054
+S:http://trillian.mit.edu/~jc/music/abc/jig/Courante_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Courante_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

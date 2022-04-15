@@ -1,0 +1,28 @@
+X:122
+T: ZU AUGSBURG STEHT EIN HOHES HAUS
+N: B0153
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 4/4
+L: 1/8
+K: G
+D2 | G3FG2A2 | B2cAd2z
+c | B3BBAdc | B4z2
+D2 | G3FG2A2 | B2cAd2z
+c | B3BBAdc | B4z2
+d2 | A2B2A2zd | A2cBA2z
+A | B4cBce | d4z2
+e2 | d4cBcA | G4z2
+S:https://www.folktunefinder.com/tunes/78143
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

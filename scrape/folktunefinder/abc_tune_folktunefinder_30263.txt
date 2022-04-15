@@ -1,0 +1,43 @@
+X:0
+T:The Oslo Waltz
+G:accordion waltz
+C:Felix Burns
+S:Jim Paterson (with one minor change)
+N:its full weirdness is only apparent when you see the chords
+M:3/4
+L:1/8
+Q:3/4=56
+K:A
+% -- A part
+  e2|fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 d2| c2   c=c ^cd|c4    e2|
+     fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 G2|(3ABA GA   ce|a2 z2  :|
+% -- B part
+c/d^d/|:e6|a6|a2 g2 f2|c6|e3 f e2|d2 c2 B2|  A2  AG AB|c6          |
+        e6|a6|a2 g2 f2|c6|e3 f e2|d2 c2 B2|(3ABA GA ce|[1 a2 z2 e2:|\
+                                                       [2 a2 z2   ||
+% -- A part
+|:e2|fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 d2| c2   c=c ^cd|c4    e2|
+     fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 G2|(3ABA GA   ce|a2 z2  :|
+% -- C part
+K:D
+d/^d/e/^e/|:f6-|f6    |d6-  |d6      |F2 A2 d2|f2  a2 ^a2|   b6-|b6        |
+            g6 |e4  d2|c6   |c4    B2|A6      |A2 ^G2 =G2|   F6 |AB cd e=f |
+            f6-|f6    |d6-  |d6      |F2 A2 d2|f2  a2 ^a2|   b6-|b6        |
+            d'6|c'4 b2|a4 f2|d2 c2 B2|A6      |e6        |[1 d6 |AB cd e=f:|\
+                                                          [2 d6-|d2 z2    ||
+% -- A part
+K:A
+|:e2|fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 d2| c2   c=c ^cd|c4    e2|
+     fe ce Ac|E2 A2 c2|F6|E4 A2|G3 =G ^G2|e4 G2|(3ABA GA   ce|a2 z2  :|
+S:https://www.folktunefinder.com/tunes/30263
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

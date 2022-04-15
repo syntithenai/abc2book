@@ -1,0 +1,25 @@
+X: 2
+P: My Daddy Oh!
+C:
+R: jig
+B: RSCDS 21-4(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|| d \
+| "G"BAB G2g | d2B Bcd | "C"e2c "G"d2B | "Am"cBc "D7"Adc |
+| "G"BAB G2g | d2B Bcd | "C"e2e "Am"a2a | "D7"fef "G"g2 ||
+|| G \
+| "G"Bcd d2g | "C"e2c "G"d2B | "Am"c2a "G"B2g | "Am"A2B "D7"cBA |
+| "G"GAG "Em"B2G | "G"dBd "C"gfe | "G"dcB "D7"Agf | "G"g3- g2 |]
+S:https://www.folktunefinder.com/tunes/9873
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AnThouWertMyOnlyDear.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

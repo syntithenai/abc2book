@@ -1,0 +1,24 @@
+X: 2
+T:Battle of Yellow Ford part 2
+M:4/4
+L:1/8
+Q:120
+R:Reel
+K:Em
+|:e2 B2 B2 Bd|e2 ed e2 f2|e2 B2B2 dB| A2 AF A2 d2|!
+e2 B2B2 Bd|e2 ed e2 f2|edef gfed|((4cdcB) A2 B2z2:|!
+|:e2 g2 g2 ga|b2 ba g2 e2|d2 A2 f2 A2|dBAG FGAB|!
+e2 g2 g2 ga|b2 ba g2 e2|FGAB dcBA|((4cdcB) A2 B2:|
+% Output from ABC2Win  Version 2.1 i on 11/29/2002
+S:https://www.folktunefinder.com/tunes/77324
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

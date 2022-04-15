@@ -1,0 +1,27 @@
+X: 1
+T: the Black Cat Reel
+O: French Canadian
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2BG "D7"D2AD | "G"G2BG cGBG \
+| "Am"E2AE BEAE | ABAG "D7"FDEF |
+| "G"G2BG "D7"D2AD | "G"G2BG cGBG \
+| "Am"E2AE BEAE | "D7"DGGF "G"G2 :|
+|: E2 \
+| "G"D2GD EGDE | GDEA GFED \
+| "Am"E2AE BEAE | E2AE "D7"GFED |
+| "G"D2GD EGDE | GDEA GFED \
+| "Am"E2AE BEAE | "D7"DGGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/16803
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlackCatR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/BlackCatR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BlackCatR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

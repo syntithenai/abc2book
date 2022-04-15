@@ -1,0 +1,25 @@
+X:200
+T:Abbotts Bromley Horn Dance
+L:1/8
+M:6/8
+N:Traditional English
+O:England
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dab.html
+%%ID:00000dab
+K:G
+e|B2e G2e|B2e E2G|FGA GAB|1AGF G2:|2AGF E2|
+|e|c2e cde|A2c ABc|FGA GFE|_E=EF B,2g|
+e2g efg|c2e cde|dcB AGF|E3E2
+|:A|BcB e3|BcB f3|BcB AGF|1G2F G2:|2E3-E2|]
+S:https://www.folktunefinder.com/tunes/48844
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

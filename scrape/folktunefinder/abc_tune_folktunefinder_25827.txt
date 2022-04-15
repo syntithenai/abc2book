@@ -1,0 +1,22 @@
+X:5375
+T:Quick Step 37th Regt.
+O:england
+M:6/8
+L:1/8
+N:final d's in first three parts are left undotted in the book
+K:D
+dfa   g2e | f2d   ceA |dfa geg|fac d3:|
+BdB   Ace | dfd   cea |BdB Afa|gec d3:|
+a2g   dfa | g2e   cAc |BdB Afa|gec d3:|
+.B.Bd .A.Ad|.e.eg .f.fa|BdB Afa|gec d3:|
+S:https://www.folktunefinder.com/tunes/25827
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

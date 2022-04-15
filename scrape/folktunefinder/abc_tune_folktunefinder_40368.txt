@@ -1,0 +1,19 @@
+X: 1
+T: no thirty-second notes
+M: 4/4
+L: 1/8
+K: G
+ CDEF             C/E/D/F/    G/A/B/C/  |
+ (3CDE   (3DEF    (3EFG       (3FGA|
+ C/4E/4D/4F/4 C/4D/4E/4F/4 G/A/B/C/  z4|
+S:https://www.folktunefinder.com/tunes/40368
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

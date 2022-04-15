@@ -1,0 +1,32 @@
+X:42
+T:Master McDonald St. Martin's Strathspey
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 19
+L:1/8
+M:C
+R:Strathspey
+K:Gm
+F|D(GG)B/c/        d>GB<G      |C(FF)A/B/        c>FA>F        |\
+  DGG  B/c/        d>GB<g      |fd  c/d/f/A/     BGG          :|
+d|(b/4a/4g3/2) g>d B<d (Tgf/g/)|(a/4g/4f3/2) fc  Ac (Tf=e/2f/2)|\
+  (b/4a/4g3/2) g>d B>dG<g      |f>d c/d/f/A/  {a }G2Gg          |
+  (b/4a/4g3/2) g>d B<d (Tgf/g/)|(a/4g/4f3/2) f>c A<c (Tf=e/f/) |\
+   gg       |fd  c/d/f/d/  {a }G2G2         |]
+%The original notated the next to last measure like this: 
+% |g<bd<g Bd3/2Gg/| which appears to be an error -SW
+S:https://www.folktunefinder.com/tunes/72017
+S:http://nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/petrie.abc
+S:http://nigelgatherer.com/tunes/abc/petrie/42.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie/42.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

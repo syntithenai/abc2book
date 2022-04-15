@@ -1,0 +1,26 @@
+X: 63
+T: Cuz Tehans - Slow Reel
+M: 4/4
+Q: 325
+L: 1/8
+C: Cuz Tehan
+D: The Windy Gap - Laurence Nugent
+Z: David Dahl
+%%MIDI program 1 35
+K:G
+E | D3 E G3 A | ABdB AGed | e2 dB GABe | d2 BG (3ABA GE |
+DBDE G3 A | ABdB AGed | e2 dB GABe |1 d2 AB G3 :|
+|2 d2 AB g3 ||
+e | dBde g2 (3gfe | dBAG EGGA | B2 AD BAAD | BAAG EGGe |
+dBde g2 (3gfe | dBAG EGGA | B2 AD BAAG |1 BdAB g3 :|
+|2 BdAB G4 ||
+S:https://www.folktunefinder.com/tunes/43295
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:9824
+T:Longthwaite
+% Nottingham Music Database
+S:Chris Dewhurst 1989, via Phil Rowe
+M:6/8
+K:Am
+"Am"A3 a3|"Em"gee e2d|"C"c2g edc|"G"Bgd -dBG|"Am"A3 "F"a3|"C""e"gee " ""c"e2d|\
+"Dm"c2e "E7"dcB| [1"Am"A3 -AcB:|
+ [2"Am"A3 -"G7"A2|:B|"C"c2e -edc|"G"Bgd -dBG|"Am"A2c -cBA|"E"^GeB -BGE|
+"F"F2A -AGF|"C"EGc edc|"Dm"B2d -"E7"dcB|"Am"A3 -"G7""Am"A2:|
+S:https://www.folktunefinder.com/tunes/61857
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:2207
+T:Shaskeen
+O:ireland
+Z: id:dc-reel-308
+M:C
+L:1/8
+K:G Major
+E|DGG2 AGAB|cded cAAc|BGG2 AFF2|GBAG FDD2|!
+DGG2 AGAB|cded cAAg|f2fe fdcA|BGAF G3:|!
+B|dggf g2fg|abag fddc|BGG2 AFF2|GBAG FDD|!
+[1 B|dggf g2fg|abag fddc|BGG2 AFF2|GBAF G3:|!
+[2 A|BGG2 cAA2|d^cde d=cAg|f2fe fdcA|BGAF G3|]!
+S:https://www.folktunefinder.com/tunes/42667
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 4
+T:Collon Campbells Quick Step. JMP.004
+M:6/8
+L:1/8
+Q:110
+C:"7  ..by M.G."
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Colonel End of page missing 1 - originally crochet D, corrected to
+N:quaver F -
+N:but by whom
+N:2 - shown as dotted 3 - bar missing - but so is end of pag
+H:1799
+Z:vmp.C. Graebe
+K:G major
+d | gfe dcB | cde  d2 "1"f | gfe dcB | ecA "2"A2d |!
+ gfe dcB | cde d2 c | BAG AGF|"3" G3-G2 ||!
+c | B3 GAB | c3 ABc | ded gdc | BAG FED |!
+B2B GAB | cBc ABc | d2B e2c | cBA G3 |]
+S:https://www.folktunefinder.com/tunes/1941
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

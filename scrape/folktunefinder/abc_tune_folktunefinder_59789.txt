@@ -1,0 +1,33 @@
+X:902
+T:Xiraldilla (CT 423)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Villamarcel, ayuntamiento de Quirs.
+A:Asturies
+O:Villamarcel (Quirs)
+Z:Cancioneru de Torner 423
+M:2/4
+L:1/8
+Q:1/4=160
+K:Cm
+|c3 e|d2 cd|=BB GG|c2 c=B|c2 z2|
+c3 e|d2 cd|=BB GA|c2 BA|G2 z2||
+W:En la mar tir un tiro
+W:y en la arena cay;
+W:la confianza en los hombres,
+W:as la tengo yo.
+W:
+S:https://www.folktunefinder.com/tunes/59789
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

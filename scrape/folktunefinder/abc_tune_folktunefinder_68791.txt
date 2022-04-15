@@ -1,0 +1,26 @@
+X:245
+T: Susanna, willt du mit
+N: A0290B
+O: Europa, Mitteleuropa, Deutschland
+N: Praetorius Mus. Sion. VII 1609 No. 75
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: G
+G | _BABc | d2z
+G | _BABc | d2z
+d | dddd | c_BA
+G | dddd | c_BA
+B | AGGF | G3
+d | _BcAA | G3
+S:https://www.folktunefinder.com/tunes/68791
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

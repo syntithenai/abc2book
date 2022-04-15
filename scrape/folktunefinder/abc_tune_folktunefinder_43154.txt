@@ -1,0 +1,35 @@
+X:3181
+T:Unnamed hornpipe (Eng)
+O:ireland
+S:irtrad-l, L. LaVerne, 11/98
+M:4/4
+L:1/8
+S:David Kidd
+R:Hornpipe
+P:AABB
+N:The tune, according to my source, is not Irish but rather a Geordie
+N:tune. I thought I'd ask anyway in case someone knew it. I also put
+N:it in hornpipe rhythm to get the right lilt, but I suspect it may be
+N:a reel.  Fiddlers please note: this one is a great bowing exercise
+Z:Lorna LaVerne
+K:A
+(3EFG |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BcdB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2(3EFG |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BcdB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2A2 |
+|:eAGA fAGA | fgag f=f^fc | dcdc B_B=Bc | dc(3dcB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2A2:|
+S:https://www.folktunefinder.com/tunes/43154
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

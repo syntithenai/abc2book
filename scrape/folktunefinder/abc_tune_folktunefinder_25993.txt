@@ -1,0 +1,26 @@
+X:5541
+T:Ribchester Bridge Hornpipe
+O:england
+M:3/2
+A:North-West
+R:Triple Hornpipe
+K:Bb
+F2d2 E2d2 D4| C2c4G2 ABcA| F2d2 E2d2 D4| B,2B4G2 ABcA::
+d2B4F2 D4| C2c4G2 ABcA| d2B4F2 D4| B,2B4G2 ABcA::
+B2g2 f2ed edcB| ABcd c2G2 ABcA| B2g2 f2ed gfga| b2B4G2 ABcA::
+B2g2 f2ed edcB| ABcd c2G2 ABcA| F2B2 E2B2 D4| B,2B4G2 ABcA::
+F2B2 E2B2 DEFD| C2c2 G2B2 ABcA| F2B2 E2B2 DEFD| B,2B2 G2B2 ABcA::
+dcBA BAGF GFED| C2c2 G2B2 ABcA| dcBA BAGF DEFD| B,2B2 B2G2 ABcA::
+d2B2 B2B,2 DEFD| C2c2 c2G2 ABcA| d2B2 B2F2 DEFD| B,2B2 G2B2 ABcA::
+d2B2 F2B2 d2B2 | G2c2 G2B2 ABcA| d2B2 F2B2 edcB| F2B2 B2G2 ABcA:|
+S:https://www.folktunefinder.com/tunes/25993
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

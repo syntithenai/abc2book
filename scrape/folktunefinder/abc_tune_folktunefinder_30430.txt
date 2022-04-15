@@ -1,0 +1,26 @@
+X:605
+T:Boyne Water
+B:Aird's Airs and Melodies vol 2
+M:C
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000141.html
+%%ID:00000141
+K:E min
+g2|\
+e3d e2g2| d>edB G2(AB)| c2BA e2dB| A3G D2g2|\
+edef g2fe| dcBA G2AB| c2BA e2dB| A3G E2::
+F2|\
+G2ga g3g| gage d2g2| e2 ab a3b| abag e3f|\
+gfga "tr"g2 fe| dcBA G2AB| c2BA e2dB| "tr"A3G E2:|
+S:https://www.folktunefinder.com/tunes/30430
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

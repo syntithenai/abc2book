@@ -1,0 +1,27 @@
+X:288
+%%topmargin 3cm
+T:Miss Lyall
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+{AB}c/B/ | A<A,A,>B, C>DE>^F | G2 TB>A {/^F}G2 Gc/B/ | A<A,A,>B, C>DE>A | {/B}cAB^G A2 Ac/B/ | A<A,A,>B, C>DE>^F |
+G2 ([GB]>A) {/F}G2 Gc/d/ | e>cd>B c>AB>G | E<A (c/B/).A/.^G/ A2 A || (c/B/) | (Aa)(ab) g>g (a/g/).^f/.g/ | (e<a){/b}a>^f g2 f>g |
+(e<a)a>b g>g (a/g/)^f/g/ | e>c{/c}d>B A2- Ac/B/ | (A<a)a>b g>g (a/g/).^f/.g/ | e<a{/b}a>^f g2 (f>g) | ((3ag^f) ((3gab) ((3edc) ((3Bcd) | e>cd>B {/cB}A2 A |]
+S:https://www.folktunefinder.com/tunes/71317
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Lyall.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0288.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

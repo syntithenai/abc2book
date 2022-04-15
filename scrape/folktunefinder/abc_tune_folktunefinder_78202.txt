@@ -1,0 +1,25 @@
+X:181
+T: WENN DES FRUEHLINGS WACHEN ZIEHEN
+N: B0216
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling; Krieg
+M: 2/4
+L: 1/8
+K: A
+ | EccB | EBBA
+EAcA | ecB2
+EccB | EBBA
+EAcA | ecB2
+^dBeB | ^dBeE
+GA | GEAB | cA
+dc | fdcB | c2B2 | A2z2
+S:https://www.folktunefinder.com/tunes/78202
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling; krieg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

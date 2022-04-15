@@ -1,0 +1,25 @@
+X:34
+%%topmargin 3cm
+T:Nuair bha mi fein 'nam Mhaidun
+T:When I was a Maiden
+C:Pipe tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A Mix
+f | eAcA eA c2 | (fB) Bc fBBa | eAcA eA ca | cAAB cAA ::
+a | fefa fedc | fBBc fBBa | [1 fefa feca | cAAB cAA :| [2 fefa eaca cAAB [Ac]AA |]
+S:https://www.folktunefinder.com/tunes/71064
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Nuair_bha_mi_fein_nam_Mhaidun.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/When_I_was_a_Maiden.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0034.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: the Celtic Society's Quickstep
+R: march
+M: C|
+L: 1/8
+K: Amix=g
+e2 \
+| "A"A2AA c2BA | c2e2 e2a2 | A2AA c2BA | "G"dcBA GABG \
+| "A"A2AA c2BA | c2e2 e2g2 | "G"B2AB GABd | "A"e2A2 A2 :|
+e2 \
+| a2e2 ~c2BA | c2e2 e2g2 | a2e2 c2BA | "G"g2d2 d2g2 \
+| a2e2 ~c2BA | c2e2 e2g2 | "G"B2AB GABd | "A"e2A2 A2 ||
+e2 \
+| a2e2 ~c2BA | c2e2 e2g2 | a2e2 c2BA | "G"g2d2 d2g2 \
+| "A"a2gf "G"g2fe | "D"f2ed "A"e2dc | "G"B2AB GABd | "A"e2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/15382
+S:http://trillian.mit.edu/~jc/music/abc/march/CelticSocietysQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/CelticSocietysQuickstep.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/march/CelticSocietysQuickstep.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

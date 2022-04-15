@@ -1,0 +1,35 @@
+X:5555
+T:Seumas MacNiel
+C:Bobby MacLeod
+M:6/8
+N:I wouldn't swear by the key ...
+O:Scotland
+R:Pipe march
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000988.html
+%%ID:00000988
+K:F# phrygian
+e|\
+A>AA c2e|f>aa e>aa|c>dB A2c|BGG Bee|\
+A>AA c2e|faa eaa|f<af e>cB|cff f2::
+e|\
+e>fc e2e|fee faa|efd B2g|BGG Bee|\
+e>fc e2e|fee faa|faf ecB|cff f2 ::
+e|\
+A2c A2c|e>fd c2a|c>dB A2c|BGG Bee|\
+A2c A2c|e>fd c2e|f<af ecB|cff f2:|
+e|\
+a<Ae cdB|efd c2e|a<Ae cdc|BGG Bee|\
+a<Ae cdB|e>fd c2e|faf ecB|cff f2e |
+a<Ae cdB|efd c2e|a<Ae cdc|BGG Bee|\
+A>BB B>cc|c<dB c2e|faf ecB|cff f2|]
+S:https://www.folktunefinder.com/tunes/37190
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T:Abbots Bromley Horn Dance
+M:3/4
+L:1/4
+Q:65
+H:1999-12-15 15:18:04 UThttp://people.we.mediaone.net/brunodale/HORN.ABC
+K:Em
+e |: B2 e | G2 e | B2 e | E2 E | F2 G/2A/2 | A2 G/2F/2 | G2 e :|
+e |: c2 c | c2 d/2e/2 | A2 A | A2 B/2c/2 | F2 G/2A/2 | G2 F/2E/2 | F2 E/2F/2 | B2 g |
+| e2 e |e2 f/2g/2 | c2 c | c2 d/2e/2 | d2 c/2B/2 | A2 G/2F/2| (E3|E3) :|
+|: B2 c/2B/2 | c2 c | B2 c/2B/2 | e2 e | B2 c/2B/2 | A2 G/2F/2 | G2 F |
+E3 | B2 c/2B/2 | c2 c | B2 c/2B/2 | e2 e | B2 c/2B/2 | A2 G/2F/2 | E3 :|
+S:https://www.folktunefinder.com/tunes/67578
+S:http://trillian.mit.edu/~jc/music/abc/England/misc/AbbotsBromleyHornDance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

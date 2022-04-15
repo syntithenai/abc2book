@@ -1,0 +1,33 @@
+X:1
+T:Drunken Gauger
+S:Erickson, Jeffrey <jeerickson:DAVIDSON.EDU> irtrad-l 2001-12-13
+M:6/8
+L:1/8
+S:learned from David Kidd
+R:Jig
+Z:Lorna LaVerne
+K:G
+D | GAB c2A | BAG AGE | GBd g2e | dBe dBG |
+c2A BdB | AGA BGE | DEG AGA | BGG G2 |]
+D | GAB c2A | BAG AGE | GBd g2e | dBe dBG |
+c2A BdB | AGA BGE | DEG AGA | BGG G2 |]
+D | GBd g2e | dBe dBG | Ace a2a | agb age |
+dBd g2e | dBe dBG | c2A BdB | AGA BGG |
+GBd g2e | dBe dBG | Ace a2a | agb age |
+dBd g2e | dBe dBG | c2A BdB | AGF G2 |]
+S:https://www.folktunefinder.com/tunes/14121
+S:http://trillian.mit.edu/~jc/music/abc/jig/DrunkenGauger_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DrunkenGauger_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DrunkenGauger_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/DrunkenGauger_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/DrunkenGauger_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

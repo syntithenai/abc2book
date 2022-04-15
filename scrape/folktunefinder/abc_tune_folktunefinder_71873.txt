@@ -1,0 +1,28 @@
+X: 56
+T:Fadwg Fach
+M:C
+L:1/8
+Q:200
+S:Mary Richards' (1787-1877) Collection
+R:Welsh reel
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:C
+G|c2cd cBAG|ABcd cBAG|ABcd efed|cBcd efed|!
+edce dcBd|cBAc BAGB|GBBd cedf|egec GBc:||!
+d|e2e>f edcB|cdef edcB|cdef gagf|e>def g>agf|!
+edce dcBd|cBAc BAGB|GBBd cedf|egec GBc:||
+S:https://www.folktunefinder.com/tunes/71873
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/FadwgFach_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/FadwgFach_1.abc
+% Rhythm Welsh reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

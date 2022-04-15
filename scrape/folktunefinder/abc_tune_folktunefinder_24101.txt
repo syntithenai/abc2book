@@ -1,0 +1,29 @@
+X:3650
+T: Levi Jackson Rag
+O:england
+R:
+B:
+D:
+M: 2/4
+L: 1/16
+K: A
+"E7"e2[f2^d2][g2=d2] \
+|| "A"[a4c4] e4 | fece- "E7"ecB2 | "A"A8 | E8 \
+| "C"=G4 =c4 | e=gag- ged2 | "Bm"e8 | "E7"f4 g4 |
+| "A"a4 e4 | fece- ecB2 | "D"A8 | F6 =F2 \
+| "A"E4 "F#7"e4 | "B7"cAB=c- "E7"cAB2 | "A"A4- "(D)"A4- | "A"A2 A2G2=G2 ||
+|| "D"FABD FAFA | BDFA FABd | "Bm"f2ff- fed2 | B8 \
+| "F#"^Ac^dF AcAc | ^dF^Ac Acdf | "D#m"^a2aa- agf2 | ^d8 |
+| "F#7"^a2aa- agf2 | "B7"=a2aa- agf2 | "E"g2gg- gfef | "E7"gbgf efgb \
+| "A"c'bgf- "F#7"fec2 | "B7"fecB- "E7"BAF2 | "A"A8- "D"A8- | "A"A2 |]
+S:https://www.folktunefinder.com/tunes/24101
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

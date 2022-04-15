@@ -1,0 +1,28 @@
+X:83
+T: The Brink Of The White Rocks
+B: O'Neill's 83
+M: 6/8
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Gaily"
+N: 1st Setting.
+K:Em
+(9A,//B,//C//D//E//F//G//A//B//) \
+| ("f"c2d) (B2G) | (A>GE) (D2(B/A/)) \
+| ("p"G>FE) (DB,).D | E3 E2 ||
+|| (E/F/) \
+| (G2F) (GAB) | (d2e) (B2A) \
+| (G2E) (GAB) (e>fe/d/ d2)((9(9A,//B,//C//D//E//F//G//A//B//) |
+| (c2d) (B2G) | (A>GE) (D2(B/A/)) \
+| (G>FE) (DB,).D | E3 E2 ||
+S:https://www.folktunefinder.com/tunes/73242
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

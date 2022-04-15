@@ -1,0 +1,23 @@
+X: 1
+T: Joe Murphy's Reel
+C: Donald Ridley
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Goldring ___
+M: C|
+L: 1/8
+K: D
+|: "D"Ad"A"ce "D"d2Ac | "D"d2AG FDD2 | "Em"Be"B"^df "Em"e2Bd | "Dm"e2BA "A7"GEE2 |  "D"Ad"A"ce "D"d2Ac |
+| "D"d2AG FDDF | "Em"EFGA Bcde | "A7"(3fga eg "D"fdd2 :: "D"FDDE F2-FE | Ddcd "B7"AFF2 | "Em"GEEF G2GF |
+| "Em"Eeed "A7"cBAG |  "D"FDDE F2-FE | Ddcd "Bm"Ddcd "D"Afda | "Em"gfed cBAG | "A7"(3FGA EG "D"FDD2 :|
+S:https://www.folktunefinder.com/tunes/17439
+S:http://trillian.mit.edu/~jc/music/abc/reel/JoeMurphsReel_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JoeMurphsReel_D3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

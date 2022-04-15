@@ -1,0 +1,24 @@
+X:23
+T:Our Bride's No Maiden
+Z:Jack Campin <http://www.campin.me.uk/>
+S:MacFarlan MS II #179
+M:9/8
+L:1/8
+Q:3/8=100
+K:G Mixolydian
+cef     gcg (a/g/``f/e/)(d/c/)|d2a (f/g/a)d  f2a |\
+cef     gcg (a/g/``f/e/)(d/c/)|c2g (e/f/g)c Te2g:|
+ceg     ceg (a/g/)(f/e/)(d/c/)|d2a (f/g/a)d  f2a |\
+ceg     ceg (a/g/)(f/e/)(d/c/)|c2g (e/f/g)c Te2g:|
+ceg     ceg (a/g/)(f/e/)(d/c/)|d2a (f/g/a)d  f2a |\
+c>de/f/ gcg (a/g/``f/e/``d/)c/|c2g (e/f/g)c Te2g:|
+S:https://www.folktunefinder.com/tunes/52679
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

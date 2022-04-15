@@ -1,0 +1,29 @@
+X: 1
+T: Niel Gow
+R: strathspey
+C: D. Macintyre
+B: Allan's p.3 #5; Carlin #196 (D), #482 (A); Skye p.5.
+N: Some books attribute this to Neil Gow; others to a D. (Duncan) Macintyre.
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+   f \
+| "A"e<c      {g}a>e "Bm"ff | "A"e<c {g}a>e "D"f2- f>g \
+| "A"a/g/f/e/ {g}a>e "Bm"fg | "E7"a>f   e<c "A"A3 :|
+|: E \
+| "A"A<A {B}c>A "Bm"B<F F>B | "A"A<A          c>e   a>e "(D)"f<a \
+| "A"e<a    c<a "Bm"fg | "E7"a/g/f/e/ {g}a>c "A"A3 :|
+S:https://www.folktunefinder.com/tunes/19607
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/NielGowS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/NielGowS.abc
+S:http://trillian.mit.edu/~jc/music/book/500/NielGowS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

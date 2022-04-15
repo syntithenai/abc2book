@@ -1,0 +1,36 @@
+X:1
+T: Moon and Seven Stars, The
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: D
+A| \
+"D"d2A AGF \
+| "G"GAB "D"A2A \
+| "G"Bcd efg \
+| "A"fed cBA \
+| "D"d2A AGF \
+| "G"GAB "D"A2A \
+| "G"Bcd efg \
+| "A"Adc "D"d2 :|
+|: "A"e2A ABA \
+| efg "D"f3 \
+| "A"efg "D"fed \
+| "E"cdB "A"A2A \
+| "G"BGB "D"A2A \
+| "G"BGB "D"A2A \
+| "G"Bcd efg \
+| "A"Adc "D"d3 :|
+S:https://www.folktunefinder.com/tunes/14692
+S:http://trillian.mit.edu/~jc/music/abc/jig/MoonandSevenStars.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MoonandSevenStars.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/MoonandSevenStars.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

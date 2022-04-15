@@ -1,0 +1,24 @@
+X:5727
+T: Sage Leaf
+O:england
+M:6/8
+L:1/8
+Q:160
+S:Playford
+A:English
+K:G
+dg=f ecf|d>cB/2A/2 B G2|dg=f ecf|d>cB/2A/2 B G2::\
+B2 c d2B|e2 d cdB|A2 G F>EF|G3 G2 z::\
+d2 c B>AG|def g3|d2 c BAG|dc>f g3|d2 c B>cd|e2 d c>dB|A2 G F>ED|G3 G2::\
+G|F>GA AFD|G>AB BAG| F>GA AFD| G3 G2:|
+S:https://www.folktunefinder.com/tunes/26179
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

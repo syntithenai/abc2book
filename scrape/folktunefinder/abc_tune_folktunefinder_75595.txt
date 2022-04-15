@@ -1,0 +1,28 @@
+X:32
+T:The Hexhamshire Lass
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:6/4
+L:1/8
+K:D
+P:Verse
+     d2  c d  B2  G F  (E2 D2) |\
+     d2  c d  B2  A d   e2 E2  |
+     d2  c d  B2  A F   E2      \
+(FA)|B2 (A`c) d2 (A`F) (E2 D2)||
+P:Chorus
+     G2  B G  F2 (A`F) (E2 D)   \
+  D |G2  B G  F2  A B (=c2 E2) |
+     F2  B G  F2 (A`F)  E2      \
+(FA)|B2 (A`c) d2 (A`F) (E2 D2)|]
+S:https://www.folktunefinder.com/tunes/75595
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

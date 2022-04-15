@@ -1,0 +1,23 @@
+X:10
+T:L'Ile des brumes
+C:
+O:Ecosse
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:1/4=180
+K:D
+"G"D>ED | "Em"G>FG | "Am"A>BA | "D"d3 | "G"d>AB | "C"E2E | "D"D3- | D3 |
+"G"D>ED | "Em"G2G | "Am"A>BA | "D"d3 | "G"d>AB | "C"E2E | "G"G3- | G3 |
+"Em"B>GB | B3 | "Am"A>EA | A3 | "Em"G>EG | "C"G2G | "Em"E3- | E3 |
+"Em"B>GB | B3 | "Am"A>EA | A3 | "Em"G>EG | "C"G2G | "Em"E3 | "D"D3 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (Ecosse                           % origin.)
+S:https://www.folktunefinder.com/tunes/64723
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

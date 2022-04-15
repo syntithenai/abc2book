@@ -1,0 +1,24 @@
+X: 25
+T: 3. Dougie 'The Fiddler'
+R: Reel
+L: 1/8
+M: C|
+C: Jerry Holland
+% Q: 440
+K: Em
+F|: \
+"Em" EedB "G" (3BcB AG | "D" FDAD BDAF | "Em" EedB  "G" (3BcB AG | "Bm" FdAF "Em" GEED |
+"Em" EedB "G" (3BcB AG | "D" FDAD BDAF | "Em" EB,EF "G"  GFGA    | "Bm" Bgfd "Em" e2d :| 
+a |: \
+"Em" b2 ge Begb | "D" b-afd Adfa | "Em" a-bge   Bega |  "B7" agfd "Em" Beea |
+"Em" a-bge Bega | "D" b-afd Adfa | "C" (3gag fd edBA |1 "Bm" Bgfd "Em" e/e/e e :|2 "Bm" Bgfd "D7/A" ed {d}A ||  [K:Gm] |
+S:https://www.folktunefinder.com/tunes/40129
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

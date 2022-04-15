@@ -1,0 +1,32 @@
+X:2495
+T:Humours of Last Night (4-part version of Merrily kiss the quaker)
+B:Petrie
+M:6/8
+O:Ireland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000092e.html
+%%ID:0000092e
+K:G
+D/E/ |\
+GAB D2E | c2A BGE | GAB D2E | A3 AGE |\
+GAB D2E | c2A BGE | GAB D2E | G3 G2 ||
+c |\
+BcB Bcd | edc BAG | BcB Bcd | e3 g3 |\
+BcB Bcd | ege dBG | GAB D2E | G3 G2 ||
+c |\
+BGG AGG | BGG AGE | GAB D2E | A3 A2 c |\
+BGG AGG | BGG AGE | GAB D2E | G3 G2 ||
+(3d/e/f/ |\
+g2 aga | bge dcB | g3 gab | a3 age | \
+gbg faf | ege dB>G | GAB D2E | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/36578
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:3850
+T:Danza de las Tabiernas (Arrg. Bm)
+C:Trad
+D:Muyeres
+Z:G. Eguren
+M:3/8
+L:1/8
+Q:1/4=150
+K:Bm
+|:"Bm"FFF|"F#m"F3|"G"G2 F|"Em"EED|
+"A"C3|"Em"EEE|"Em"E3|"Bm"F2 E|
+"Bm"DDC|[1 "Bm"B,3:|[2 "Bm"B,3-||"Bm"B,2 B,|
+"Bm"DE/D/C/B,/|"F#m"CA,B,|"F#m"CD/C/B,/A,/|"Bm"B,2 F|
+"Bm"FG/F/E/D/|"Em"ECE|"A"EF/E/D/C/|"Em"B,2 C|
+|:"Bm"DED|"F#m"CA,B,|"F#m"CDC|[1 "Bm"B,2 C:|[2 "Bm"B,3-|"Bm"B, z2||
+S:https://www.folktunefinder.com/tunes/60039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

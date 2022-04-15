@@ -1,0 +1,27 @@
+X:3978
+T:Debka Halel
+O:Israel
+I:choreographer V. Cohen 1949
+L:1/8
+M:2/4
+Q:1/4=160
+K:Gm
+"Gm"G2 d2| ^cd B2| "F"ABAG| "Gm"B3 A|\
+G2 "Cm"cB | c2 "Gm"B2| "F"ABAG| "Gm"B2 "F"A2|
+"Gm"G2 d2| ^cd B2| "F"ABAG| "Gm"B3 A|\
+"Bb"F2 "Gm"G2| _ABAG| G4| G4|
+"Cm"c2 c2| cd c2| cd c2| c2 "Gm"B2|\
+"F"A2 "Gm"B2| "Cm"c2 "Gm"B2| "F"ABAG| "Gm"B4|
+"Cm"c2 c2 | cd "Eb"e2| "Bb"fe"Gm"dc| "Cm"c2 "Gm"B2|\
+"F"A2 "Gm"B2| "Cm"c2 "Gm"B2| "F"ABAG| "Gm"G4 |
+S:https://www.folktunefinder.com/tunes/60167
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

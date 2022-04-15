@@ -1,0 +1,26 @@
+X: 50
+T:Spanish Minuet (1)
+M:6/8
+L:1/8
+Q:130
+C:Trad
+S:Blodau'r Grug Collection Vol. 1
+R:Jig
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+A|d2Ad2e|df2-f2d|g2fe2d|cecA2A|d2Ad2e|df2-f2a|gfdf2e|d3d2:||!
+f|a2gf2d|gfge2e|f2fd2d|cecA2e|a2gf2d|gfge2g|fedA2c|d3d2:||
+S:https://www.folktunefinder.com/tunes/15100
+S:http://trillian.mit.edu/~jc/music/abc/jig/SpanishMinuet1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/SpanishMinuet1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/SpanishMinuet1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X: 1
+T: Bistrica Kopanica
+N: Gajda (no chords, just drone)
+M: 11/16
+L: 1/16
+K: Dmix
+[| "D drone"GDG2 GFE D4 | GDG2 GFE D2z2 |: GDG2 GFE FGAD | GDG2 GFE D2z2 :|
+[| G2A2 E2D FGAD | {A}G2A2 E2D D4 | {A}G2A2 E2D FGAD | {A}G2A2 E2D D3C |]
+|:: "C drone"EFGC E2C EFGC | EFGC E2C E2EC ::| EFGC E2C EFGC | EFGC "D"D3 D2z2 |]
+S:https://www.folktunefinder.com/tunes/5725
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KOP_Bistrica.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 11/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

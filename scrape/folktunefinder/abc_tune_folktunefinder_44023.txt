@@ -1,0 +1,22 @@
+X: 29
+T:Jackson's Breakdown
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:D
+"D"A3/2d/2 f/2g/2f/2e/2|dF A3/2d/2|"A"cE G3/2B/2|"D"AD F2|\
+"D"A3/2d/2 f/2g/2f/2e/2|"D"dF A3/2d/2|"A"cA Bc|"D"d2 d2::
+"A"e3/2f/2 e3/2f/2|ea e2|"Bm"bb/2a/2 "E"f^g|"A"ac e2|"A"e3/2f/2 e3/2f/2|ea e2|\
+"Bm"bb/2a/2 "E"f^g|"A"a2 a2:|
+S:https://www.folktunefinder.com/tunes/44023
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsH-L.txt
+S:http://www.guitarnut.com/nmd/reelsH-L.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

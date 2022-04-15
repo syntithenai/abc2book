@@ -1,0 +1,27 @@
+X:153
+T:King of the Pipers
+M:6/8
+L:1/8
+R:jig
+N:Learned from Kira Ott
+Z:Michael Abraham Shulman
+K:Dmix
+|:A2D B2D|ABG FED|A2D B2D|~G3 GFE|\
+A2D B2D|ABG FED|CEG cAF|~G3 GFE:|
+|:D2a afd|ded cAG|FGA cAF|~G3 GFE|\
+D2a afd|~g3 ~f3|e^cA DFA|~G3 GFE:|
+|:d3 ded|dAG FED|d3 dEF|GEF GFE|\
+~d3 ~^c3|~B3 AFD|CEG cAF|~G3 GFE:|
+|:dDD ^cDD|BDD ADD|dDD ^cDkB|~G3 GFE|\
+dDD ^cDD|BDD ADD|CEG cAF|~G3 GFE:|
+S:https://www.folktunefinder.com/tunes/63700
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

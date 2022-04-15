@@ -1,0 +1,25 @@
+X:95
+T:Blackamoor's Dance
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc1.html
+%%ID:00000dc1
+K:G
+B/A/ |\
+(G2 G2) | ABcA | dedc | BcBA | (G2 G2) | ABcA | d2dc | B2g2 ::
+g2 |\
+ga g2 | (fe) d2 | de d2 | cB G2 | G2AB | c2 BA | G2 GA | G2 :|
+S:https://www.folktunefinder.com/tunes/43582
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

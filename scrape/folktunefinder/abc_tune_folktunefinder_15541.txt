@@ -1,0 +1,25 @@
+X: 1
+T: Liberty
+O: Trad
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D" f2A2 f2A2 | fgfe d2ef | "G"g2B2 g2B2 | gagf e2de |
+|  "D" f2A2 f2A2 | fgfe d2ef | "G"gfed "A7"cABc | "D"d2f2 d4 :|
+|: "D"A2AB AGFE | DFAd f2d2 | A2AB AGF2 | "A7"E3F E2FG |
+|  "D"A2AB AGFE | DFAd f2ef | "G"gfed "A7"cABc | "D"d2f2 d4 :|
+S:https://www.folktunefinder.com/tunes/15541
+S:http://trillian.mit.edu/~jc/music/abc/march/LibertyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LibertyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LibertyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/LibertyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/LibertyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LibertyR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

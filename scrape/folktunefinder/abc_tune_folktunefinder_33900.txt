@@ -1,0 +1,41 @@
+X: 4743
+T:Komm, lieber Mai
+T:k 596
+C:Wolfgang Amadeus Mozart
+R:Lied
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0
+V:2 Program 1 0 bass
+M:6/8
+L: 1/8
+Q:1/4=96
+K:F
+V:1
+F|F2A c2f|c3-cAF|[B2E2-][BE-][BE-][cE-][BE]|[A3F3] z2F|
+V:2
+z|F,A,C F,A,C|F,A,C F,A,C|C,G,C C,G,C|F,A,C F,A,C|
+V:1
+F2A c2f|c3-cAF|[G2E2-][GE-] [GE-][AE-][GE]|F3 z2A|
+V:2
+F,A,C F,A,C|F,A,C F,A,C|C,B,C C,B,C|F,A,C F,A,C|
+V:1
+B2^F GA B|c2A fz f|fed dc=B|c3 z2F|
+V:2
+G,B,C E,G,C|F,A,C F,A,D|G,=B,D G,DF|[EC]DC B,A,G,|
+V:1
+F2A c2f|fdB G2d|cAc {c}BAG|F2.c dc.c|
+V:2
+F,A,C F,A,C|B,,D,G, B,,D,G,|C,F,A, C,E,B,|F,A,C E,G,B,|
+V:1
+=Bc.c .c.d.e|.f z .c' {e'}d'c'.c'|{c'}=bc'.a c'_b.g|fca f z|]
+V:2
+F,A,C G,B,C|F,A,C E,G,B,|F,A,C C,E,B,|[A,2F,2-][CF,] [A,F,] z|]
+S:https://www.folktunefinder.com/tunes/33900
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Lied
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

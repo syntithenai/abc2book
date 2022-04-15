@@ -1,0 +1,27 @@
+X:1
+T:Hungry Rock
+C:Liam Kelly
+S:Peter Crummy  irtrad-l 2001-5-29
+R:Jig
+M:6/8
+K:Edor
+D | GEB GEB | F2F dAf | GEB GEG | EFD E2D |
+    GEB GEB | F~F2 dAf | agf edB | ABd E2 :|
+B | AFE ABA | efe dAB | AFE ABA | efg fed |
+    AFE ABA | efe dAB | agf edB | ABA e2 :|
+d | GEF GFG | EFE GFE | FEF GFG | BGE cEd |
+    GEF GFG | EFE GFE | ABG EcA | dAf g2 :|
+S:https://www.folktunefinder.com/tunes/14352
+S:http://trillian.mit.edu/~jc/music/abc/jig/HungryRock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/HungryRock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HungryRock_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

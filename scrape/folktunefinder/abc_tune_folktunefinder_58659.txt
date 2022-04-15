@@ -1,0 +1,25 @@
+X: 52
+T: Aaron`s
+T: Aaaron`s Key
+R:jig
+S:Guido
+M:6/8
+K:B minor
+F2 B Bcd |c2 A ABc |d2 B Bcd |edc BAG |F2 B Bcd |c2 A ABc |
+dcd ede |fdB BAG |F2 B Bcd |c2 A ABc |d2 B Bcd  |efd efg|
+fff fed | c2 A ABc | dcd ede | fdB B2 c :|
+ddd def |ecA a2 g |fff fed |cec ABc|BAB cBc |dcd ede|
+|fed cBA |BBB B2 c |ddd def |ecA a2 g |fff fed |cec ABc | 
+BAB cBc |dcd ede |fed cBA | BBB BAG ||
+S:https://www.folktunefinder.com/tunes/58659
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

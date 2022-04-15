@@ -1,0 +1,29 @@
+X: 8007
+T:Walsh's hornpipe
+R:Hornpipe
+O:Ireland
+O:England
+M:4/4
+K:A
+cB|\
+(3ABc EF Ace2|(3def Bc def2|\
+fe ce ae cA|(3Bcd cA BA F2|\
+(3ABc EF Ace2|(3def Bc def2|\
+fe ce ae cA|(3Bcd cB A2::\
+g2|\
+ae ce fe ce|ae ce fe cB|\
+AB ce fe cA|(3Bcd cA BA F2|\
+(3ABc EF Ace2|(3def Bc de f2|\
+fe ce ae cA|(3Bcd cB A2:|
+S:https://www.folktunefinder.com/tunes/35224
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

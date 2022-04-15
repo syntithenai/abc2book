@@ -1,0 +1,27 @@
+X: 1
+T: Reel des Esquimaux
+T: Eskimo Reel
+O: Quebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Roaring Jelly
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| "G"G3G "C"GEDC | "D7"B,G,A,C "G"B,G,G,2 | "G"B,DGB "E7/G#"cBAG | "Am"FGAB "D7"A2 (3DEF |
+| "G"GFGA "C"GEDC | "D7"B,G,A,C "G"B,G,G,2 | "G"B,DGB "Am7"cBAG | "D7"FDEF "G"G2 :|
+|: Bc \
+| "G"d3e dcBd | "C"g2ga gedc | "G"BGBd "E7/G#"cBAG | "Am"FGAB "D7"A2Bc |
+| "G"d3e dcBd | "C"gfga gedc | "G"BGBd "Am7"cBAG | "D7"FDEF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/18009
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_des_Esquimaux_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Reel_des_Esquimaux_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Reel_des_Esquimaux_G.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

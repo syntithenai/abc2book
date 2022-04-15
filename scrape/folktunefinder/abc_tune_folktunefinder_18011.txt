@@ -1,0 +1,25 @@
+X: 1
+T: Reel des copeaux de bois
+T: Wood chip reel
+O: trad. Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: C|
+L: 1/8
+K: D
+fg \
+|| afaf gfg2 | bgbg e2fg | afaf dfdf | egec d2fg |
+|  afaf gfg2 | bgbg e2fg | afaf dfdf | egec d2[f2d2] |]
+[| Acdf dfdf | egec ec[e2c2] | Acdf dfdf | egec d2[f2d2] |
+|  Acdf dfdf | egec ec[e2c2] | Acdf dfdf | egec d2 |]
+S:https://www.folktunefinder.com/tunes/18011
+S:http://trillian.mit.edu/~jc/music/abc/reel/Reel_des_copeaux_de_bois_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Reel_des_copeaux_de_bois_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Reel_des_copeaux_de_bois_D4.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

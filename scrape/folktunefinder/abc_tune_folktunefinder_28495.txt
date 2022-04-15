@@ -1,0 +1,26 @@
+X:8043
+T:Wheir must our Good man ly
+O:england
+M:4/4
+L:1/4
+S:Henry Atkinson 1694/5 transcribed by John Stokoe 1883
+N:No time or key signature given by HA/JS.  Could be Dorian Mode like
+N:Over the hills and far away or an omitted key signature like The King
+N:shall enjoy his own again.  The quavers in bar 13 are shown as separate
+N:voices - top notes have tails up, bottom notes have tails down
+K:DDorian
+GGBA|B>AGc|A>GFf|A>GFF|GGBA|B>AGc|AG/2F/2 A/2B/2c/2A/2|G2d2:||:gdB/2c/2d
+/2B/2|gdB/2c/2d/2B/2|gcA/2B/2c/2A/2|fcA/2B/2c/2A/2|gd[B/2e/2][c/2f/2][d/
+2g/2][B/2f/2]|g/2f/2e/2d/2 e/2d/2c/2B/2|AG/2F/2 A/2B/2c/2A/2|G2d2:||
+S:https://www.folktunefinder.com/tunes/28495
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

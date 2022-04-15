@@ -1,0 +1,27 @@
+X:36
+T:a German Quick March
+O:england
+R:March
+R:Jig
+M:2/4
+L:1/8
+K:D
+f2 ef| de/d/ cA| Bdce| (d/c/d/e/) dd|\
+f2 ef| de/d/ cA| Bdce| d2 d2::
+FAFA| G2GG| FEDC| (D/C/D/)E/ DD|\
+FAFA| G2Gg| fedc| d2 d2::
+(d2 d)f| (e2 e)g| fedc| d/c/d/e/ dd|\
+d2df| e2eg| fedc| d2d2 :|
+S:https://www.folktunefinder.com/tunes/20485
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

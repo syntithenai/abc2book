@@ -1,0 +1,36 @@
+X:4
+T: BIN I NET A PUERSCHLE
+N: E1003
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Tanz - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G3AB2c2 | d2B2d2z2
+B2G2A2z2
+G3AB2c2 | d2B2B2z2
+B2G2A2z2
+d2B2B2d2 | c2A2A2
+c2 | B2G2G2B2 | A2F2D4
+d2B2B2d2 | c2A2A2
+c2 | B2G2G2B2 | A2F2D4
+G3AB2c2 | d2B2d2z2
+B2G2A2z2
+G3AB2c2 | d2B2d2z2
+B2G2A2z2
+d2B2d2 | c2A2c2
+B2G2B2 | A2F2A2
+D3EF2 | G4z2
+D3EF2 | G4z2
+S:https://www.folktunefinder.com/tunes/79108
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

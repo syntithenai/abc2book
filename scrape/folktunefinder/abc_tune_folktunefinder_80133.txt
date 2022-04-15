@@ -1,0 +1,24 @@
+X:74
+T: Soldatenliedlein
+N: A0425
+O: Europa, Mitteleuropa, Deutschland
+N: Einzeldruck von 1631.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 6/4
+L: 1/8
+K: C
+C2 | E4F2G4G2 | A4G2G4A2 | G6-G4
+G2 | A4G2G4E2 | G4E2D4GF | E6-E2D2C2 | D6-D4
+S:https://www.folktunefinder.com/tunes/80133
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

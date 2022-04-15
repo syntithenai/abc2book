@@ -1,0 +1,28 @@
+X: 117
+T: Schellen-Neuner [F]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+   [FA,][GC] \
+| "F"[A2F2][F2C2]  [A4F4] | [c2A2][A2F2] [c4A4] \
+| "C7"[B2G2]   [EG][dB] [cA][BG] | "F"[AF][BG] [AF][GE] [FD][GE] \
+"I"\
+| "F"[A2F2][F2C2]  [A4F4] | [c2A2][A2F2] [c4A4] \
+| "C7"[BG][AF] [GE][dB] [cA][BG] | "F"[A2F2] z2 :|
+|: [FC][AF] \
+| "F"[c2A2][A2F2] [c4A4] | "C7"[B2G2][G2E2] [B4G4] \
+| "F"[A2F2][F2C2] [A4F4] | "C7"[G2E2][E2C2] [G4E4] \
+| "F"[A2F2][F2C2]   [A4F4] | [c2A2][A2F2] [c4A4] \
+|1 "C7"[BG][AF]  [GE][dB] [cA][BG] | "F"[A2F2] z2 \
+:|2 "C7"[dB][cA] [=B^G][cA] [d_B][eB] | "F"[f2A2] z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5164
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

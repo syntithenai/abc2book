@@ -1,0 +1,24 @@
+X:163
+T: Von einem stolzen Dirnelein
+N: A0201A
+O: Europa, Mitteleuropa, Deutschland
+N: J Werlin Hs. 1646 S. 234.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+FFF | c2A | B2G | A3
+FFF | c2A | B2G | A2
+F | FFFF | F2G
+A | B2G | F2A | B2G | F2
+F | AABB | c2BA | G2F2
+S:https://www.folktunefinder.com/tunes/68709
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

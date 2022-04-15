@@ -1,0 +1,26 @@
+X:4016
+T:Dorset Four Hand Reel
+R:Reel
+C:Trad.
+O:England
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+BA|"G"G2B2 d2cB|"C"c2e2 c2e2|"G"G2B2 d3c|"D"B2A2 A2BA|
+"G"G2B2 d2cB|"C"c2e2 c2e2|"G"G2B2 "D7"d3c|"G"B2G2G2:|
+|:d2|"C"g2g2 gfe2|"G"d2d2 dcB2|"D"A2AB c2d2|"G"e2d2 d2ef|
+"C"g2g2 gfe2|"G"d2d2 dcB2|"D7"A2AB c2A2|"G"G4 G2:|
+|:D2|"G"G2Bd gdBG|"C"c2e2 c2e2|"G"G2Bd gdBG|"D7"A2d2 A2d2|
+"G"G2Bd gdBG|"C"c2e2 c2e2|"D7"d2fe dcBA|"G"G2g2 g2:|
+|:Bc|"G"d2B2 d2B2|"C"e2c2 e2c2|"G"d2B2 d2B2|"D7"A2d2 d3d|
+"G"d2B2 d2B2|"C"e2c2 e2c2|"D7"d2fe dcBA|"G"G2g2 g2:|
+S:https://www.folktunefinder.com/tunes/51174
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 1
+T: In the Bleak Midwinter
+C: Gustav Holst
+M: C|
+L: 1/4
+K: F
+|: "F"A>B cA |     G2 F2 | "Gm"G>A GD | "C7"G3 z | "F"A>B cA | "Dm"G2 F2 | "Gm"GA "C7"G>F | "F"F3 z :|
+|: "Bb"BA Bc | "Dm"d2 A2 |  "F"cA  GF | "C7"G3 z | "F"A>B cA | "Dm"G2 F2 | "Gm"GA "C7"G>F | "F"F3 z :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/3809
+S:http://trillian.mit.edu/~jc/music/abc/England/InTheBleakMidwinter.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: the Willow Tree / Bobbing Joe
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Morris Ring
+H: (AABB) = The Willow Tree
+H: (AACC) = Bobbing Joe
+M: 6/8
+L: 1/8
+K: G
+P: A
+d |: "G"G2A B2c | d2g gdB | "C"cBA "D7"d2A | "G"G2G "D7"FED | "G"G2A B2c | d2g gdB | "C"cBA "D7"d2F | "G"G6 :|
+P: B
+FG |: "D7"A2A AGA | "G"B3 G2D | "D7"A2A AGA | "G"B3 G2D | "G"G2A B2c | d2g gdB | "C"cBA "D7"d2F | "G"G6 :|
+P: C
+cd |: "C"e2A ABc | "G"d2G GAB | "D7"c2A "G"B2G | "D7"A2F DBc | "G"dcB "D7"cBA | "G"BAG "D7"ABc | "G"dBG "D7"DAF | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/15265
+S:http://trillian.mit.edu/~jc/music/abc/jig/WillowTreeBobbingJoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WillowTreeBobbingJoe.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/WillowTreeBobbingJoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

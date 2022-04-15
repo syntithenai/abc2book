@@ -1,0 +1,34 @@
+X: 130
+T:Touro louro louro
+R:Nol
+C:Trad.
+C:Paraulo de Micoulau Saboly
+C:
+O:Fance
+A:Provence
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+Q:1/2=100
+K:Bbmaj
+B/2c/2d/2e/2 | ff gg | ff dd | ed cd |
+breathB2 ((B/2c/2)(d/2e/2) | ff gg | ff dd | ed cd |
+breathB) (f ff | breathd)(f ff | breathd)(f ff | breathd)(f ff |
+breathd)(f f2 | breathd)(f f2 || breathd2) (cd | ed c(d/2c/2) | BB/2c/2 dd |
+ed c2 | breathB2) (d2- | d2 cc | breathB2) (d2- | d2 cc | breathB2) (BB/2c/2 |
+dd (c/2d/2) c2 | Bd cc | Bd (c/2d/2)c | HB2) |]
+N:Bien articul, pas trop vite
+N:Intro, 1, Intro, 2
+%%footer $D   Galouvielle-MBe 2008 \nNol (France)
+S:https://www.folktunefinder.com/tunes/588
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Nol
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

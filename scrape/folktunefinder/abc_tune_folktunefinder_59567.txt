@@ -1,0 +1,36 @@
+X:680
+T:Toca'l rubil, Piricu (MG 35)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 35
+M:3/8
+L:1/8
+Q:3/8=80
+E:Nivel 3
+K:Cm
+|: CCC|E2 F|G G2-|G3|ccc|B2 A|G F2-|F3|
+|A{B}A{B}A|G2 F|E D2-|D3|GGG|F2 E|D C2-|C3 :|
+|D =B,2|DDE|F2 E|D C2|D =B,2|DDE|F2 E|DC2-|C3|
+|: CCC|E2 F|G G2-|G3|ccc|B2 A|G F2-|F3|
+|A{B}A{B}A|G2 F|E D2-|D3|GGG|F2 E|D C2-|C3 :|
+|D =B,2|DDE|F2 E|D C2|D =B,2|DDE|F2 E|DC2-|C3|
+[K:C]
+|CCC|E2 F|
+|GGG|A2 G|F E2-|E3|
+|GGG|A2 G|FEG|F2 E|D C2-|C2 C|
+|E E2|DEF|E2 D|CB,C|
+|E E2|DEF|E2 D|CB,C|E E2|
+|GGG|A2 G|FEG|F2 E|D C2-|C3|
+S:https://www.folktunefinder.com/tunes/59567
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

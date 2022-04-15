@@ -1,0 +1,24 @@
+X: 8
+T: Aldridges -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+S: Bob Puckette  2003-3-7
+M:2/4
+L:1/16
+K:A
+uE2|.A2.A2 Acec|defg aecA|BABc dcBA|GABA GEFG|
+.A2.A2 Acec|BABc .B2.a2|gfeg fe^df|e2e2e2:|
+|:(ucd)|"0"ecec .e(bab)|fedc dcBA|GABc defg|(bab).f .e2.E2|
+AGAc BABd|cAce aecA|BABc dcBG|A2A2A2:|
+S:https://www.folktunefinder.com/tunes/75180
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/AB.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

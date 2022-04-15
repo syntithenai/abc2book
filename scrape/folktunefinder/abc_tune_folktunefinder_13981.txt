@@ -1,0 +1,28 @@
+X: 1
+T: the Cardiff Caledonians
+C: Rob Gordon
+R: jig
+B: Ormskirk 5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"{ABc}dz2 D3 | "A7"EFE "D"D3 | "Em"E2E e2d | "A7"cBA gfe \
+ | "D"dz2 D3 | "A7"EFE "D"D2F | "G"G2B "D"A2d | "A7"cBc "D"d2z :|
+[| "A7"e3 A3 | ABc "D"d3 | "G"B2g "D"A2F | "Em"GEE "A7"E2A \
+ | "A7"e3 A3 | ABc "D"d2F | "G"G2B "D"A2d | "A7"cBc "D"dcd |]
+[| "A7"e3 A3 | "D"dfe d3 | "G"B2g "D"A2F | "Em"GEE "A7"E2A \
+ | "D"dz2 D3 | "A7"EFE "D"D2F | "G"G2B "D"A2d | "A7"cBc "D"d2z |]
+S:https://www.folktunefinder.com/tunes/13981
+S:http://trillian.mit.edu/~jc/music/abc/jig/CardiffCaledonians.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/CardiffCaledonians.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/CardiffCaledonians.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CardiffCaledonians.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

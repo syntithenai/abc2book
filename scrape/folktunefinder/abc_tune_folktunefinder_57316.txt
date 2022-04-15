@@ -1,0 +1,29 @@
+X:2377
+T:Byrne's Hornpipe. FK.26
+M:C
+L:1/8
+Q:160
+C:"MS 38 p 140"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:D
+AG | FA d2 FA d2 | ce g2 g2 (AG) | FA d2 Bege | d4 c2 AG |!
+ FA d2 FA d2 | ce g4 AG | FdBg fdec | d2 d2 d2 ||!
+cd | eafd cedB | A^GAB cBcd | eafd cedB| Aa^ga =gecA |!
+ FA d2 FA d2 | ceg4 AG | FdBg fdec | d2 d2 d2 ||
+S:https://www.folktunefinder.com/tunes/57316
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

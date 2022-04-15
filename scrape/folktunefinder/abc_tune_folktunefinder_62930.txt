@@ -1,0 +1,25 @@
+X:15
+T:Larry Redican's Bow
+M:C|
+L:1/8
+Q:120
+C:Larry Redican
+R:Reel (Key of D)
+K:D
+"D"D2FD A,DFD | "Em"E2GE B,EGE | "D"D2dA BAFD | "G"~E3F "A"GFEF |
+"D"D2FD A,DFD | "Em"E2GE B,ECE | "D"D2dA BAFD |1 "A"EDCE "D"DGFE :|2
+"A"EDCE "D"D4 |:
+"Bm"FBBA ~B3c | dBcA BAFB | "A"AFEF ~A3B | ABce fcec |
+"Bm"FBBA ~B3c | dBcA ~B3c |1 "D"dBcA BAFB | "A"ABce fcec :|2 
+"D"dBcA BAFD | "A"~E3F GFEF|]
+S:https://www.folktunefinder.com/tunes/62930
+S:http://www.irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

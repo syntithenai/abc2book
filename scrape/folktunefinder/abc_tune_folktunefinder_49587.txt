@@ -1,0 +1,31 @@
+X: 32
+T:Emperor of Russia's Waltz. CJF.032
+M:3/8
+L:1/8
+Q:50
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:TS given as 3/8 in MS. The word "Andantino" precedes the tune. - PJH
+Z:vmp.P J Headford 2000
+K:G
+"Andantino"d2|(g2"p"f2)g2|(d2b2)a2|(g"f"fa).g.f.e|d2d2d2|!
+(g2"p"f2).g2|(e2c'2).a2|f2"f"(fe)(fd)|g4:|!
+|:b2|"mf"a2d'2(bg)|(af)d2(af)|(gfga).b.g|.a(d'^c'd')d2|!
+(g2f2).g2|(e2c'2).a2|(fd).a.f.d.f|g4:|!
+|:d2|"p"d4B2|d2g2a2|b3(agf)|.e2e2e2|!
+d3(gfg)|e3(c'af)|d2e2f2|g4:|]
+S:https://www.folktunefinder.com/tunes/49587
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

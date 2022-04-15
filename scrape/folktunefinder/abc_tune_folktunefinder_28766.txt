@@ -1,0 +1,34 @@
+X:2486
+T:Cancioneiro de Casto Sampedro: N\'umero 340
+T:Golpe de 
+O:Galicia (Spain)
+B:Cancioneiro de Casto Sampedro
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=160
+K:C % 0 sharps
+z3c2d e3/2f/2|ec3/2e/2g f2 eg-|g/2f/2e d3/2e/2 fa2g|a3/2g/2 ec2d e3/2f/2|
+ec3/2e/2g f2 ec'-|c'/2b/2a g3/2e/2 gf3/2e/2d|c2 zc2d e3/2f/2|ec3/2e/2g f2 dg-|
+g/2f/2e d3/2e/2 fa2g|a3/2g/2 ec2d e3/2f/2|ec3/2e/2g f2 dc'-|c'/2b/2a g3/2e/2 gf3/2e/2d|
+c2 z2 z/2c'/2e' [e'2e2]|[d'd][d'2d2][c'c] [c'2c2] bz|z/2d/2f f2 ee2d|g3/2e/2 cz3/2c/2e e2|
+dd2c c2 Bz|z/2d/2f e3/2c/2 ed3/2B/2d|c2 z2 z/2c/2e [e'2e2]|[d'd][d'2d2][c'c] [c'2c2] bz|
+z/2d/2f f2 ee2d|g3/2e/2 cz3/2c/2e e2|dd2c c2 Bz|z/2d/2f e3/2c/2 ed3/2B/2d|
+c2 zc2d e3/2f/2|ec3/2e/2g f2 eg-|g/2f/2e d3/2e/2 fa2g|a3/2g/2 ec2d e3/2f/2|
+ec3/2e/2g f2 ec'-|c'/2b/2a g3/2e/2 gf3/2e/2d|c2 zc2d e3/2f/2|ec3/2e/2g f2 eg-|
+g/2f/2e d3/2e/2 fa2g|a3/2g/2 ec2d e3/2f/2|ec3/2e/2g f2 ec'-|c'/2b/2a g3/2e/2 gf3/2e/2d|
+c2 z2 z/2c'/2e' [e'2e2]|[d'd][d'2d2][c'c] [c'2c2] bz|z/2d/2f f2 ee2d|g3/2e/2 cz3/2c/2e e2|
+dd2c c2 Bz|z/2d/2f e3/2c/2 ed3/2B/2d|c2 z2 z/2c/2e [e'2e2]|[d'd][d'2d2][c'c] [c'2c2] bz|
+z/2d/2f f2 ee2d|g3/2e/2 cz3/2c/2e e2|dd2c c2 Bz|z/2d/2f e3/2c/2 ed3/2B/2d|
+c2
+S:https://www.folktunefinder.com/tunes/28766
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

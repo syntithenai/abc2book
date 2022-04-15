@@ -1,0 +1,25 @@
+X:503
+%%topmargin 3cm
+T:Mac Crimmons Lament*
+T:Cha till mi tuille
+T:"Never More Shall I Return"
+C:Skye Set
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:C
+L:1/8
+K:A dorian
+"Very Slow."A>A e2 d2 {/d}e2 | A2 {bag}f2 e>deA | [1 B>B e2 d2 {/d}e2 | G2 ((3GBd) {/e}dB dA :| [2 G2 ((3GBd) e2 dB | G>G B2 e2 d>A ||
+|: g>feA g>feA | g>feA e>dBA | [1 g>edG g>edG | g>edG d>B A2 :| [2 G2 ((3GBd) e2 dB | G2 ((3GBd) e2 dA |]
+W:
+W:*As played by the late Miss Jessie Macleod Gesto.
+S:https://www.folktunefinder.com/tunes/71532
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

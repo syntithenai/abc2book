@@ -1,0 +1,42 @@
+X:30
+T:Thunderhead (ou Jig Brest St. Marc)
+C:Grey Larson
+M:6/8
+L:1/8
+R:jig
+D:And They Danced All Night by North Cregg
+D:Lunasa by Lunasa
+D:Out The Gap by Sharon Shannon
+D:Thunderhead by Malcolm Dalglish And Grey Larsen
+K:BPhr
+|~B3 fBB|eBB dBA|~B3 fgf|edB ABc|
+|~B3 fBB|eBB def|gfe fed|edB ABc:|
+|:dGG AGE|DEG ~F3|EFF EFF|GFE~F3|dGG AGE|
+DEG FGA|1BdB ceg|f/2g/2af gfe:|2Bde fgf|edB AGc||
+~B3 fBB|eBB dBA|~B3 fgf|edB AGc|
+~B3 fBB|eBB def|gfe fdB|ADF ABc:||
+|:dGG AGE|DEG ~F3|EFF EFF|GFE~F3|dGG AGE|
+DEG FGA|1BdB ceg|f/2g/2af gfe:|2Bde fgf|edB AGc||
+M:7/8
+L:1/8
+K:BPhr
+~B3 fBBf|eBB dBBA|~B3 fggf|edB AGGc|
+~B3 fBBf|eBB dBef|gfe fddB|1ADF ABBc:|2ADF ABc2||
+|:dGG AGGE|DEG EF~F2|EFF EF~F2|GFE EF~F2|
+dGG AGGE|DEG EF~F2|1BdB ceeg|f/2g/2af g3e:|2Bde fgf|edB AGGc||
+~B3 fBBf|eBB dBBA|~B3 fggf|edB AGGA|
+~B3 fBBf|eBB dBef|gfe fddB|1ADF ABBc:|2ADF ABc2||
+|:dGG AGGE|DEG FF~F2|EFF EF~F2|GFE EF~F2|
+dGG AGGE|DEG ~F2 FA|1(3BcdB ceeg|f/2g/2af g3e:|2Bde fgf|edB AGGc||
+S:https://www.folktunefinder.com/tunes/67548
+S:http://domren.free.fr/VCB.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

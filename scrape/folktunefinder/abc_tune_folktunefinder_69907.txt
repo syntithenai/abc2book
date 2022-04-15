@@ -1,0 +1,32 @@
+X:347
+T: BIN DER KLEINE TAMBOUR VEIT
+N: F0602
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Liebe
+M: 4/4
+L: 1/16
+K: Bb
+F2F2 | B3AB3AB3AB3c | d4z8
+e2d2 | c3=Bc3Bc3ed3c | B6AGF4
+F2F2 | B3AB3AB3AB3c | d8=e4
+f2f2 | f3=ed3cc3BA3G | F8z4
+F2F2 | F4c4d4c4 | B4B4z4
+B2B2 | d4c4B4=E4 | F8z4
+^F2F2 | G4D4G4D4 | G6A2B4
+A2G2 | d4d4D4D4 | G8z3
+GG3_G | F4F4F4F4 | F8z4
+A2B2 | c6c2d2c2B2c2 | d4c4B3
+FF3F | F4F4F4F4 | F4z6
+B2A3B | c6dcB4A4 | B8z4
+S:https://www.folktunefinder.com/tunes/69907
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

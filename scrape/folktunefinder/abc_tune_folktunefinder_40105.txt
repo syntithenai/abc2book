@@ -1,0 +1,21 @@
+X: 1
+T: 1. Humber Jumber
+R: Jig
+M: 6/8
+L: 1/8
+% Q: 330
+K: G
+|: D  | \
+"G" G2 G G2 B |     d2 d d2d  | "Am" cBA "G" B2 G | "D" A2 D D2 z |
+"G" G2 G G2 B |     d2 d d2d  | "C"  cde "D" d2 c | "G" B2 G G2 z | 
+"C" e2 e e2 e | "G" d2 d d2d  | "D"  cBA "G" B2 G | "D" A2 D D2 z | 
+"G" G2 G G2 B |     d2 d d2d  | "C"  cde "D" d2 c | "G" B2 G G2  :|
+S:https://www.folktunefinder.com/tunes/40105
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

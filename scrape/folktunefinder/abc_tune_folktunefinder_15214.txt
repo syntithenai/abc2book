@@ -1,0 +1,25 @@
+X: 0
+T: Uncle Jim's Jig
+T: Uncle's Jig
+O: Bob Cann
+Z: Anahata <anahata:treewind.co.uk> tradtunes 2004-3-31
+M: 6/8
+L: 1/8
+K: G
+d | e2d B2d | G3 A2G | F2A c2A | F3-F2A |\
+d^cd f2e | d2c B2A | G2F G2B | d3-d2d |
+e2d B2d | G3 A2G |F2A c2A | F3-F2A |\
+d^cd f2e | d2c B2A | G3 B3 | G3-G2 |
+|: A | BBB B2G | BBB B2B | A2B c2d | f3-f2e |\
+d^cd f2e | d2c B2A | G2F G2B | d3-d2c |
+BBB B2G | BBB B2B | A2B c2d | f3-f2e |\
+d^cd f2e | d2c B2A | G3 B3 | G3-G2 :|
+S:https://www.folktunefinder.com/tunes/15214
+S:http://trillian.mit.edu/~jc/music/abc/jig/UnclesJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/UnclesJig_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

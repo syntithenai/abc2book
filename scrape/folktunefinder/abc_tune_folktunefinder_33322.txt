@@ -1,0 +1,27 @@
+X: 3409
+T:Grainne's Jig
+R:jig
+C:Tommy Peoples
+D:Danta: Ready for the Storm
+M:6/8
+L:1/8
+K:G
+dGF GDB,|G,2G, DB,D|EcB ABG|FED cBA|!
+B/c/dB ~G3|EGE CEG|DGc BAF|1 AGF GBc:|2 AGF G2A||!
+|:B2A Ggf|ecA EDE|~F3 ~f3|ed^c d2=c|!
+B/c/dB Ggf|ecA EDE|DGc BAF|1 AGF G2A:|2 AGF G2D||!
+|:GBd gfg|ecB c2B|Ace a2g|fd^c def|!
+gdB Ggf|ecA ~E3|DGc BAF|1 AGF G2D:|2 AGF GBc||!
+S:https://www.folktunefinder.com/tunes/33322
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

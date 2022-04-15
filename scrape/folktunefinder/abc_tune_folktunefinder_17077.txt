@@ -1,0 +1,27 @@
+X: 1
+T: Dumfries Lasses
+O: RSCDS 26-8
+B: RSCDS 26-8
+R: march, air
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+AF \
+| "D"D2FG A2AB | A2F2 f2fe | d2f2 AGF2 | "Em"B2E2 "A7"EGFE \
+| "D"DEFG A2AB | A2F2 f2ed | A2d2 "A7"cdeg | "D"f2d2 d2 :|
+|: fg \
+| "D"a3f d2d2 | defg a2f2 | "G"b3g "Em"e2ed | "A7"cde2 A2AG \
+| "D"F2A2 def2 | "G"G2B2 "Em"efge | "D"fga2 "A7"efga | "D"f2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/17077
+S:http://trillian.mit.edu/~jc/music/abc/reel/DumfriesLasses2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DumfriesLasses2_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/DumfriesLasses2_D.abc
+% Rhythm March, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

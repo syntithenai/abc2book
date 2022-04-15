@@ -1,0 +1,28 @@
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA | "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA \
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA | "G"GDB,D "(Em)"G2GB |
+| "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA |
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc | "G"dBcd "C"ecde \
+| "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/17250
+S:http://trillian.mit.edu/~jc/music/abc/reel/GlasgowHp_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GlasgowHp_G3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/GlasgowHp_G3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

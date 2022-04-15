@@ -1,0 +1,21 @@
+X: 1
+T: Test of multiple header lines.
+M: 3/4
+L: 1/8
+K: G
+|: GFED EFGA | Bcde f2g2 :|
+S:https://www.folktunefinder.com/tunes/2478
+S:http://trillian.mit.edu/~jc/music/abc/test/MultHdr_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/MultHdr_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/MultHdr_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/MultHdr_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:546
+%%topmargin 3cm
+T:Mr. Moores
+C:Duncan McIntyre
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C aeolian
+c | B<CC>D E>FGB | F>G{/A}F>E DB,B,c | B<CC>D E>FG>B | F>B, G/F/E/D/ ECCc |
+B<CC>D TE>FGB | F>TGF>E DB,B,c | G>ce>c g>ce>c | d>B G/F/E/D/ ECC ||
+G | c>de>g c<ceg | Bc B/c/d/e/ f/g/=a/b/ | Tc>deg cgeg | Bd{/g}f{/e}d eccG |
+c>ge>g c>ge>g | B>bd>f B>dF>B | G>=Bc>d e>cg>e | d>B G/F/E/D/ ECC |]
+S:https://www.folktunefinder.com/tunes/71575
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mr_Moores.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0546.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

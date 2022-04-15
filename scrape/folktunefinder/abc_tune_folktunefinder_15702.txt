@@ -1,0 +1,35 @@
+X: 1
+T: Trip to Mabou Ridge
+C: Dan Huey MacEachern
+Z: John Chambers <jc:trillian.mit.edu>
+N: The sharps are somewhat optional.
+B: BSFC VI-15
+M: C
+L: 1/8
+K: Amix=g
+e>d \
+| "A"c<e A>c e3 g | "D"f<a d>f "A"e2 e>d | c<e A>c e3 g | "G"B<d G>B d2 e>d |
+| "A"c<e A>c e3 g | "D"f<a d>f "A"e2 e>d | c<e A>c "G"B<d G>B | "A"A4 A2 :|
+|: f>^g \
+| "A"a>^g a>f e3 =g | "D"f<a d>f "A"e2 f>^g | a>^g a>f e>f =g>e | "G"d>B G>B d2 f>^g |
+| "A"a>^g a>f e3 =g | "D"f<a d>f "A"e2 e>d | c<e A>c "G"B<d G>B | "A"A4 A2 :|
+|: e>d \
+| "A"c<e A>c e>f g>e | "D"f<a d>f "A"e>f e>d | c<e A>c e>f g>e |"G"B<d G>B d2 e>d |
+| "A"c<e A>c e>f g>e | "D"f<a d>f "A"e>f e>d | c<e a>c "G"B<G d>B | "A"A4 A2 :|
+|: f>^g \
+| "A"a>^g a>f e>f =g>e | "D"f<a d>f "A"e>f g>e | a>^g a>f e>f =g>e | "G"d>B G>B d>e f>^g |
+| "A"a>^g a>f e>f =g>e | "D"f<a d>f "A"e>f e>d | c<e a>c "G"B<G d>B | "A"A4 A2 :|
+S:https://www.folktunefinder.com/tunes/15702
+S:http://trillian.mit.edu/~jc/music/abc/march/TripToMabouRidge_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/TripToMabouRidge_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/TripToMabouRidge_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/TripToMabouRidge_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

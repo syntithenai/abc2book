@@ -1,0 +1,26 @@
+X:4680
+T:Not Sure
+O:england
+M:4/4
+L:1/8
+Q:Reel
+R:reel
+P:2
+K:D
+~A2 eA ~A2 eA|~A2 ed Bcdc|Be ~e2 de ~e2|BAGA Bcdc|~A2 gA fAeA|~A2 ed B
+cdc|Be ~e2 de ~e2|BAGA BcdB|
+A2 ce ~a3 f|gfed ea~a2|G2 Bd ~g3 d|BAGA BcdB|A2 ce ~a3 f|gfed ea~a2|~g3
+e ~f3 d|BAGA BcdB|A4||
+S:https://www.folktunefinder.com/tunes/25132
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

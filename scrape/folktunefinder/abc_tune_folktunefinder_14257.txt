@@ -1,0 +1,29 @@
+X:1
+T:Good Hearted Glasgow
+C:David Ross
+R:Jig
+B:The Complete Andrew Rankine Collection
+Z:Terry Traub 3-3-02
+N:from Liz Donaldson
+M:6/8
+K:A
+L: 1/8
+   e \
+| "A"edc "E7"e2f | "A"ecA A3  | "E7"BGE B2c | "E7"dcB GFE \
+| "A"edc "E7"e2f | "A"ecA A2e | "E7"dBG EFG | "A"A3   A2 :|
+|: e \
+| "D"fdf a2f | "A"ecA A3  | "E7"BGE B2e | "A"fec "A7"e3 \
+| "D"fdf a2f | "A"ecA e3  | "E7"dBG EFG | "A"A3   A2 :|
+S:https://www.folktunefinder.com/tunes/14257
+S:http://trillian.mit.edu/~jc/music/abc/jig/GoodHeartedGlasgow_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/GoodHeartedGlasgow_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GoodHeartedGlasgow_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

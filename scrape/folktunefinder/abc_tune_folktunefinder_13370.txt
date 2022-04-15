@@ -1,0 +1,28 @@
+X: 1
+T: Scots Wha Hae
+N: Modern variant of old drinking song "Hey Tuttie Tatie"
+N: Used by Robers Burns for his song "Bruce's Address To His Army At Bannockburn"
+S: Kevin Briggs
+M: 3/4
+L: 1/4
+K: F
+"C7"C | "F"C2C | "C7"C2D | "F"C2D | F3 \
+| "Bb"D2D | D2C | D2E | F2G |
+| "F"A2A | "A7"G2F | "Dm"F2G | "A7"A2G \
+| "Dm"FD2 | "Bb"D2C | "F"C3- | "C7"C3 |
+| "F"A2A | A2G | A2B | c3 \
+| "C"G2G | "G7"G2F | "C"G2A | "C7"B3 |
+| "F"c2A | "A7"G2F | "Dm"F2"A7"G | A3 \
+| "Bb"FD2 | D2C | "F"C3- | "(C7)"C2 |]
+S:https://www.folktunefinder.com/tunes/13370
+S:http://trillian.mit.edu/~jc/music/abc/anthem/ScotsWhaHae.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ScotsWhaHae.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

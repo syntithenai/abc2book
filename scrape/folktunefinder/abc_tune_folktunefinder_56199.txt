@@ -1,0 +1,30 @@
+X:1260
+T:Bayrischer - schottisch/schottische/scottish
+A:Flachau 1905. 
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Steirisches Volksliedwerk, Graz, o.J..,
+S:"sterreichische Volkstnze" Teil 3, Zoder, neue Ausgabe, Wien, 1955
+N:in the source in A 
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/16
+K:G
+Bd^cd edcd|g2B2d4|e2A2 (cB)A2|d2G2 (BA)G2|
+Bd^cd edcd|(g2B2)d4|fedc BAGF|G2B2G2z2:|
+|:d2B2 d2g2|d6B2|c2(cB) A2d2|B3A B2c2|
+d2B2 d2g2|d6B2|c2(cB) A2d2|1G2B2G2 d2:|2G4G2 GF||
+K:C
+|:E2G2c2e2|d6G2|(d2G2) (d2G2)|e2ed c2 GF|
+E2G2c2e2|d6G2|d2G2 e2>d2|1.c2.c2.c2 GF:|2.c2.c2.c2z2:|
+S:https://www.folktunefinder.com/tunes/56199
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

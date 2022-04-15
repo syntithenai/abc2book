@@ -1,0 +1,26 @@
+X:348
+T: "Die Gerettete"
+N: Z1028
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Tod, Blaubart - Sage
+M: 3/4
+L: 1/8
+K: E
+=D=GA | B2A=cBA | =G3
+=DGA | B2A=cBA | B3
+FEF | =GEABGF | E3
+DEF | =GEABGF | E2z
+S:https://www.folktunefinder.com/tunes/69207
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, blaubart - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

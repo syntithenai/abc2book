@@ -1,0 +1,24 @@
+X:550
+T:Bourre
+M:3/8
+O:France
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b83.html
+%%ID:00000b83
+K:D
+FG| A2d2c2| A3GAB| =c2B2G2| ABAGFG| A2d2c2| A3GAB| =c2B2G2| A4 ::
+FG| A2F2D2 | E3DEF| G2F2D2| EFG2FG| A2F2D2| E3DEF\
+|1 G2F2D2| E4 :|2 G2F2E2 | D4 |]
+S:https://www.folktunefinder.com/tunes/36189
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:5165
+T:Rodney's Glory
+M:4/4
+O:Ireland
+R:Set Dance
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000877.html
+%%ID:00000877
+K:A dorian
+ed|\
+c2 B>c A>B (3cBA|B>G E>F G2 c>d|\
+e>g e>d c>d e>f|g>f g>e d>=f e>d|
+c2 B>c A>B (3cBA|B>G E>F G2 e>d|\
+c2 B>A G>A (3BAG|A2 A>G A2::
+c>d|\
+e>a a>g a7/2b/|a>g e>d c2A2|\
+g>f g>e a>g e>^c|d>c A>F G7/2 B/|
+A>G A>B c>B c>d|e>f (3gfe a7/2b/|\
+a>g e>d c>d e>f|g>f g>e d>=f e>d|
+c2 (3BcB A>B (3cBA|B>G E>F G2 e>d|\
+c2 B>A G>A (3BAG|A2 A>G A2:|
+S:https://www.folktunefinder.com/tunes/37112
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

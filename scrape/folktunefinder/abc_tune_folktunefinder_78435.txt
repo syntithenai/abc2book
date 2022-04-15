@@ -1,0 +1,27 @@
+X:414
+T: ACH ACH ICH ARMES KLOSTERFRAEULEIN
+N: B0487
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: G
+B2 | d3cBAGA | B2e2d2z
+d | dgfed2^cc | d4z2
+d2 | d2cBd2cB | e4d2
+c2 | B2BBA2dc | B4z2
+B2 | d2cBd2cB | g4f2
+e2 | d2cBAedc | B4z2
+S:https://www.folktunefinder.com/tunes/78435
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:3
+T:The Scots Wriggle
+Z:Jack Campin <http://www.campin.me.uk/>
+S:Caledonian Pocket Companion
+M:9/8
+L:1/8
+Q:3/8=108
+K:G
+ G2c  TB2G (B/c/d)B| G2c  TB2G  efg    | G2d  TB2G   dBG    |TF2A         AFD        (F/G/A)F:|
+ G2g   g2G  B/c/d`B| G2g   g2e (f/g/a)f| gfe   dcB   cde    |TF2A         AFD        (F/G/A)F:|
+ G3    BGB (A/B/cA)| G3    BGB (A/B/c)A| G3    BGB  (A/B/c)A|(B/c/d)B     gdB         AFD    :|
+ G2g   gdB  dBB    | G2g   gdB  def    | g2b   afd   gdB    | Ace         EFG         AFD    :|
+ G2B   dBB (b2g)   | G2B   dBB  aAA    | G2B   dBB  (b2a)   | gfe         dcB         AFD    :|
+(d2B) (d2B) dgb    |(c2A) (c2A) cfa    |(B2G) (B2G) (b2g)   | g(e/f/g/e/) d(B/c/d/B/) AFD    :|
+S:https://www.folktunefinder.com/tunes/52659
+S:http://www.campin.me.uk/Music/BawdyTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

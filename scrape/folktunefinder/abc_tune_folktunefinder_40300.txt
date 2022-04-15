@@ -1,0 +1,30 @@
+X:102
+T:L'oulivarello
+C:Gaston Cauvin
+O:France
+A:Provence
+R:Mazurka
+S:Marius Fabre le 13/07/1978  Luminy
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+K:Bb
+F2 | B2d2g2 | f2f2F2 | B2d2f2 | c4g2 | f2A2B2 | c2c2f2 | B2c2^c2 | d4F2 |
+B2d2g2 | f2f2F2 | B2d2f2 | c4g2 | f2A2B2 | c2c2G2 | F2A2c2 | B4 || F2 | B>A B>c d>e |
+f2d2 g>f | e2c2B>c | d2B2F2 | B>A B>c d>e | f2d2e>d | c2B2A>B | c4F2 |
+f2d2g>f | e2c2B>c | d2B2F2 | B>A B>c d>e | f2d2e>d | c2F2 A>c | B4 ||
+P:Trio
+G>B | e2e2B>g | gf=ef ad | f2e2G2 | B4 G>B | e2e2B>g | gf=ef ad |
+e4G2 | B4G>B | e2e2 B>g | gf=ef ad | f2e2G2 | B4 G>B | e2e2 B>g | gf=ef ad | e4 ||
+%%footer $D   Galouvielle-MBe 2005 \nMazurka France
+S:https://www.folktunefinder.com/tunes/40300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

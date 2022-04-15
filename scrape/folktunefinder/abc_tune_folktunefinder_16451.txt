@@ -1,0 +1,26 @@
+X: 1
+T: Polska efter Karl Styvberg
+S: Peter "Puma" Hedlund, ANA Stmma 1999
+Z: from transcription by Matt Fichtenbaum
+N: Matt writes:
+N: Puma uses a number of variations in this tune, such as the difference between
+N: measures 1 and 5 or between measures 9-10 and 13-14.  Take this transcription
+N: as a base for variation rather than "The Word" to follow slavishly.
+M: 3/4
+L:L 1/8
+K: C
+|: "C"((3ege) (c>e) g>c | "F"((3faf) (c>f) a>g | "G7"f2 (d/f/)d/B/ G>B | "C"(d>c) (c>e) g>c |
+| "C"(e<g) (c>e) g>c | "F"(f<a) (c>f) a>g | "G7"f2 (d/f/)d/B/ G>B |  (d/f/)d/B/ "C"c4 :|
+|: "C"e2 (e>f) a>g | "Dm"(g<f) f2 d>B | "G7"(G>B) (d>g) B>d | "C"(c>e) ((3geg) c'>g |
+| "C"(eg) (e/g/)e/c/ a>e | "Dm"(g/a/g/e/) f2 d>B | "G7"(G>B) (d>g) B>d | (d>c) "C"c4 :|
+S:https://www.folktunefinder.com/tunes/16451
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_KarlStyvberg_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_KarlStyvberg_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Kapusta
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"d2 ^c>A | dz d2 | dd ^cB | AG D2 \
+| BB d2 | "D7"AA D2 | "Gm"GB "D7"A^F | "Gm"Gz G2 :|
+S:https://www.folktunefinder.com/tunes/4318
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Kapusta.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Kapusta.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/folk/Kapusta.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Revontulet/Kapusta.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/folk/Kapusta.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/folk/Kapusta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 4
+P: Kalla K\aarar
+R: Bingsj\"o-polska
+D: Dansbart B-19
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D>C \
+|: "G"B,G,/B,/ DB,/D/ {D}GG | "G"BG/B/ dB/d/ g>a \
+| "C"~gg/e/ "G"dd/c/ "D"Bd | "G"dB/d/ "D"cA/c/ "G"~BG |
+| "G"B,G,/B,/ DB,/D/ {D}GG | "G"BG/B/ dB/d/ g>g- \
+| "G"bb/g/ dd/B/ D/G/B/G/ |1 "D"D/F/A/F/ "G"G3 C :|2 "D"D/F/A/F/ "G"G3 G- |]
+|: "G"[G2G,] g2- g~f- | "C"ed "D"fa/f/ "G"g>B- \
+| "C"~ce/c/ "D"Ac/A/ "G"GB/G/ | "D"D/-F/A/F/ "G"G(D/C/) ~B,G, |
+| "G"[G,2G] "C"[c2E] [c2-E-] | [cE](d/c/) "G"(B/c/)d/B/ "C"{B}c2- \
+| "C"c~B- "D"Ac/A/ "G"GB/G/ |1 "D"(D/F/)A/F/ "G"G3 G :|2 "D"(D/F/)A/F/ "G"G3 z |]
+S:https://www.folktunefinder.com/tunes/8976
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Bingsjo3.abc
+% Rhythm Bingsjo?-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

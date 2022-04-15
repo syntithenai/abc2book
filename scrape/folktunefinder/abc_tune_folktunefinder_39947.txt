@@ -1,0 +1,34 @@
+X:8
+T:Tes petits sabots
+R:
+N:une partition donne  la 3me mesure : F/ F/ F/ F/ c c/ c/
+D:
+O:France
+Z: <anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=120
+K:F
+|: F F/ F/ c c | B A G2 | F/ G/ A/ B/ c d/ c/ | B A G2 :||:
+F/ G/ A/ G/ F A/ G/ | F E/ F/ G G | F/ G/ A/ G/ F A/ G/ | F E F2 :||
+W:Derrire chez nous y'a un tang, Tes petits sabots sont de bois tout blanc (2x)
+W:Tes petits sabots sont de bois, ma mignonne, Tes petits sabots sont de bois tout blanc
+W:
+W:Trois beaux canards s'y vont baignant, ...
+W:Y'en a deux noirs, y'en a un blanc
+W:Le fils du roi s'en va chassant, ...
+W:Avec son beau fusil d'argent
+W:Visa le noir, tua le blanc
+W:Oh ! Fils du roi tu es mchant ! ...
+W:Tu as tu mon canard blanc, ...
+S:https://www.folktunefinder.com/tunes/39947
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

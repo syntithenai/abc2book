@@ -1,0 +1,23 @@
+X:8
+T:The Crooked Road to Dublin
+R:reel
+O:Ireland
+M:C
+L:1/8
+K:G
+"G" G2 ~G2 "D" FGAF | "G" G2 FG   "F" AdcA | "G" G2 AG  "D" FGAg |1 "C" fdcA "D" dBcA :|2 "C" fdcA "D" d2 Bc ||
+"G" dg ~g2 "D" fgaf | "G" dg ~g2  "D" agfe | "G" dg ~g2 "D" fgag | "C" edcA "D" d2 Bc |
+"G" dg ~g2 "D" fgaf | "G" dg ~g2 "D" a2 ga | "G" bgaf       fbag | "D" fdcA      dBcA |]
+S:https://www.folktunefinder.com/tunes/66692
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

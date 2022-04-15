@@ -1,0 +1,28 @@
+X:224
+T: Marksteinlied (3-27), S. 89
+N: P0999
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: Habgier ]
+M: 2/4
+L: 1/8
+K: E
+=G2 | =G2F2 | E6B2 | =d2c2 | B6
+B2 | A2=GG | =G2F2G4 | A4 | F4z2
+=G2 | =G2F2 | E6E2 | D2E2 | F6
+A2 | =G2F2 | E6E2 | D2E2 | F6
+E2 | =G2A2 | B4A4 | =G2F2 | E6
+S:https://www.folktunefinder.com/tunes/76204
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Habgier ]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

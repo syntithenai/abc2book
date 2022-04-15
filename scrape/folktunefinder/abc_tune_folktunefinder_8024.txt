@@ -1,0 +1,26 @@
+X: 3
+P: Livet i Finnskogarna (Life in the Finnish Woods)
+C: Karl Jularbo (1893-1966)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/8
+K: D
+|: GFE | "D"D3FAd | f3dAF | "G"G3Bdg | "Em"b6 | "A7"a3gec | A3ceg | "D"f3dAF | D3GFE |
+| "D"D3FAd | f3dAF | "G"G3Bdg | "Em"b6 | "A7"a3gec | A3gec | "D"d3 d d2 | "fine"d3 :|
+|: FAd | "D"f3ff2 | "D7"g2f2e2 | "G"d4B2 | "D"A4a2 | "A7"a3gec | A3ceg | "D"f3dAF | D3FAd |
+| "D"f3ff2 | "D7"g2f2e2 | "G"d4B2 | "D"A4a2 | "A7"a3gec | A3gec | "D"d3 d d2 | d3 :| [K:G]
+|: "D7"d^c=c | "G"B3BB2 | B2A2G2 | "D7"F4d2 | c6 | d3dd2 | c2B2A2 | "G"g2f2e2 | "D7"[dd]edcBA |
+| "G"B3BB2 | B2A2G2 | "D7"F4d2 | c6 | d3dd2 | c2B2A2 | "G"G3GG2 | G3 :|
+S:https://www.folktunefinder.com/tunes/8024
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals04.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Vals.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

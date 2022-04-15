@@ -1,0 +1,36 @@
+X:8
+T:Starodavnym Slesko                 %titel
+T:2x zang tussen spel 2x zang tussenspel etc.
+O:Tsecho
+C:                           %composer
+L:1/4                        % length of shortest note
+M:3/4
+Q:                           %tempo  Q:1/4=80
+K:C                           %key C  Cm
+V:1                          %voice 1
+"C"EE2|"G" F/E/ D2|"C" C C2| G G2|"F" A F "C"E|"G" D D2||
+w:Tes-kniem| te-s kniem| tes-kniem | za sy|nete-kem pjek|nym
+w:Ma-ma|mje-n ka|re-vi|aa-miz|vje-djet nes| mi,|
+w: tes-Kniesm| o-no|tes-kniem|usak-ui|so-b-ae| po-kem
+w:co-je,|za po|to kem|za tij |ma-~ ho|ra ma
+|: "C" E/F/ G A | G E2| "G" D/E/ F G | F D2| "C" E E2| "G" F/E/ D2| "C" C C2:|
+w: za-lo va la|kych da|za-lo va la | kych da|svej mam-|jen-n ce| tes-kniem
+w:po cem me sr|clen-ko|po-cem me sr| clen-ko|vc dne | vno ci|tes-kniem
+w:a=to vi-sam|pam-bu|po-tem-sy net|cjko-vi|co je|zas-po|to kem
+w:a-to vi-sam |pam-bu|a tp vi sam|pam bu | co je mes-ci|na-ma
+P: Tussenspel
+"F"F/A//A// A/A/ A//G//F/|"C" E/G//G// G/G/ G//F//E/|"G"D/F//F// F/F/ F//E//D/|1 "C"C//B,//C//D// E//D//E//F// G:|2 "C" C/C//E// "G"C3/4B,// "C"C||
+V:2
+C C2|D/C/ B,2|G,G,2| E E2|F D C| B, B,2||
+|:C/D/ E F| E C2| B,/C/ D E| D B,2 | C C2| D/C/ B,2| G, G,2:|
+P: Tussenspel
+C/F//F// F/F/ F//E//D/|C/E//E// E/E/ E//D//C/| B,/D//D// D/D/ D//C//B,/|1 E//D//E//F// G//B,//C//D// E :|2 E/E//G// F3/4D// E||
+S:https://www.folktunefinder.com/tunes/45746
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: Mary Morison
+C: Traditional
+R: Song Air
+S: Anselm Lingnau <anselm:strathspey.org> scots_music 2007-1-11
+M: C
+L: 1/8
+K: F
+FG \
+| "F"A3B AGFE | "Bb"D3E "C7"F2G2 \
+| "F"A3B c2BA | "Gm"d2G2 "C"G2 \
+FG \
+| "F"A3B AGFE | "Bb"D3E "Dm"F2"C"G2 \
+| "F"A2[f2A2] "A7"[e3^c3A3]f | "Dm"d2A2A2 ||
+A2 \
+| "Bb"d3e "F"f2c2 | ABc2 "Dm"F2A2 \
+| "Gm"G3A B2"(F)"c2 | "(G7)"d2[G2F2] "C7"[G2E2] \
+FG \
+| "F"A3B AGFE | "Bb"D3"A7"y [E^C] "Dm"[F2D2]"C"G2 \
+| "F"A2[f2A2] "A7"[e3^c3A3]f | "Dm"d2A2A2 |]
+S:https://www.folktunefinder.com/tunes/13260
+S:http://trillian.mit.edu/~jc/music/abc/air/MaryMorison1_F2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MaryMorison1_F2.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

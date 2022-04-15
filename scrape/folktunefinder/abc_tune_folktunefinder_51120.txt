@@ -1,0 +1,25 @@
+X:2004
+T:Bear Dance
+R:Polka
+C:Trad.
+O:Flanders
+M:2/4
+L:1/16
+Q:1/4=100
+K:Em
+"Em"B2E2E3A|B2E2E3A|"G"G2G2F2G2|"D"A6GA|"Em"B2B2A2A2|"D"G2G2F4|"Em"E2G2FED2|E8:|
+|:"Em"E2GGE2G2|"D"FED2D4|"Em"E2GGE2G2|"D"A6GA|"Em"B2B2A2A2|"D"G2G2F4|"Em"E2G2FED2|E8:|
+K:Am
+|:"Am"e2A2A3d|e2A2A3d|"C"c2c2B2c2|"G"d6cd|"Am"e2e2d2d2|"G"c2c2B4|"Am"A2c2BAG2|A8:|
+|:"Am"A2ccA2c2|"G"BAG2G4|"Am"A2ccA2c2|"G"d6cd|"Am"e2e2d2d2|"G"c2c2B4|"Am"A2c2BAG2|A8:|
+S:https://www.folktunefinder.com/tunes/51120
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

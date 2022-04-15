@@ -1,0 +1,41 @@
+X: 1
+T: Cerovska Kopanica
+R: kopanica
+Z: John Chambers <jc@trillian.mit.edu>
+D: Le Chant du Monde - Anthologie de la Musique Bulgare v.1.
+N: From a transcription by Mark Levy for Mendocino & Ramblewood Music & Dance Workshops 1999
+M: 11/16
+L: 1/16
+K: ADor
+"A" \
+|: "C"dd e2 e2d    d2 cG | cd cG c2B "G"B2 A2 \
+|  "C"cd cG c2B "G"B2 A2 | AB G2 "Am"A3 A4 :|
+"B" \
+|: "C"cd cG c2B "G"B2 A2 | "C"cd cG c2B "G"B4 \
+|  "C"cd cG c2B "G"B2 A2 |    AB G2 "Am"A3 A4 :|
+"C" \
+|: "Am"AG FE "Em"AB2 B2 B2 | "Am"AG FE "Em"AB2     B4 \
+|  "Am"AG FE "Em"AB2 B2 B2 | "Am"AG FG "Em"ABG "Am"A4 :|
+"D" \
+|: "Am"GA A2 cdc B2 A2 | cd cG B2A A3 G \
+|  "Em"AB B2 A2G F2 E2 | FG FG ABG "Am"A4 :|
+"E" \
+|: "G"G2 FG A2G AB cd | "C"cd dG dcB c4    |  "G"cd dG    dcB BA dG |
+| cB BG "Am"A2B "C"c4 | "G"cd dG dcB BA dG | "Dm"cB BG "Am"A3 A4 :|
+"F" \
+|: "G"cd dG dcB BA dG |     cB BG "Am"A2B "C"c4 \
+|  "G"cd dG dcB BA dG | "Dm"cB BG "Am"A3  A4 :|
+S:https://www.folktunefinder.com/tunes/3096
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Kop_Cerovska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/CerovskaKopanica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KOP_Cerovska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Kop_Cerovska.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Kop_Cerovska.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 11/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:6
+T:The Bride's Favourite
+W:double jig, CTT side 1, track 2, tune 3, twice
+W:From: Music for the Sets - the blue book
+M:6/8
+L:1/8
+K:G
+%
+P:- A -
+"G" G3 BAB | "G" GBd gdB | "D7" AFD cBA | "G" GBd fdB |
+| "G" G3 BAB | "G" GBd gdB | "D7" AFD cBA | [1 "D7" AGF "G" G2 A :| [2 "D7" AGF "G" GBd |
+P:- B -
+|: "G" g2 a "D" f2 a | "G" fdB GBd | "Em" gfe "Bm" fed | "Em" Bee e2 f |
+"G" g3 "D" faf | "G" gdB "A7" GAB | "D7" AFD cBA | [1 "D7" AGF "G" GBd :| [2 "D7" AGF "G" G2 F |
+P:- C -
+|: "G" GBd "Em" g3 | "Am" edc "D7" BcA | "G" GBd "A7" g3 | "D7" f/g/af "C" g2 a |
+"G" bgb "B7" afa | "Em" geg "D" fdf | "A" ed^c "D" def | "G" gaf gdB :|
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49285
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

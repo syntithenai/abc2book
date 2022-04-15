@@ -1,0 +1,24 @@
+X:6624
+T: the Chimes of Dunkirk
+O:england
+M: C
+L: 1/8
+P: D
+K: D
+|: A | "D"d>e dc "G"B3 d | "Em"e>f ed "A"c3 c | "Bm"dc BA "E7"^GE "A"Ad | c2 "E7"B2 "A"A3 :|
+|: e | "D"f2 f2  "A"e3 f | "A7"g2 g2 "D"f3 a | "G"ba bc' | "D"d'c'/b/ ag | f2 "A7"e2 "D"d3 :|
+P: G
+K: G
+|: D | "G"G>A GF "C"E3 G | "Am"A>B AG "D"F3 F | "Em"GF ED "G7"^CA, "D"DG | F2 "A7"E2 "D"D3 :|
+|: A | "G"B2 B2  "D"A3 B | "D7"c2 c2 "G"B3 d | "C"ed ef | "G"gf/e/ dc | B2 "D7"A2 "G"G3 :|
+S:https://www.folktunefinder.com/tunes/27076
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

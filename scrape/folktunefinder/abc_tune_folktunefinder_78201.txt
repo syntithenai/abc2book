@@ -1,0 +1,25 @@
+X:180
+T: O DER SCHOENE MAIENMOND
+N: B0214
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling
+M: 6/8
+L: 1/8
+K: E
+ | E2B,E2B, | C2A,B,3
+E,2E,E,F,G, | G,3F,3
+F,G,A,F,G,A, | A,3G,3
+G,F,E,B,CD | EC^A,B,2z
+F2ED2C | B,2A,G,3
+G2ECAF | DCB,E2z
+S:https://www.folktunefinder.com/tunes/78201
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 30
+T: Roxburgh Castle
+R: reel
+N: Also in A.  This is a common Morris-dance tune, in hornpipe rhythm.
+N: Kennedy 1-11
+N: Raven p.188 (identical to the Kennedy version)
+N: Brody p.237
+N: Karpeles and Schofreld, p.7 (in A), p.42 (in G)
+K: G
+|: (3DEF \
+| "G"G2GB dBGB | "C"c2ce "G"dBGB | "C"c2ec  "G"B2dB | "Am"AGAB "D7"AcBA |
+| "G"~G2GB dBGB | "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :|
+|: (3def \
+| "G"gdBd edBd | gdBd edcB | "C"c2ac "G"B2gB | "Am"AGAB "D7"AcBA |
+| "G"~G2GB dBGB | "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12980
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

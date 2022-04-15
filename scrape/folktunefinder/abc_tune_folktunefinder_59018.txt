@@ -1,0 +1,42 @@
+X:131
+T:Cantar d'Arrieros (CT 481)
+R:Arrieros
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en La Pola L.lena.
+N:La cantan generalmente los arrieros, transportando alta el tercer miembro meldico cuando el cantor quiere hacer alarde de una potente voz.
+A:Asturies
+O:La Pola L.lena (L.lena)
+Z:Cancioneru de Torner 481
+M:Llibre
+L:1/8
+Q:1/4=58
+K:C
+(3Gcc (c-c/_B/4A/4 B/A/4G/4 A/G/4^F/4 G2) z2
+(3GGG c c2 d (c-c/_B/4A/4 B/A/4G/4 A/G/4^F/4 G(3=F/4G/4F/4 E) E-E2 z2
+(3def g (g>g) (f/4e/4) (f/e/4d/4 e/d/4c/4 d/ e/4d/4c/4B/4 c) c-c2 z2
+(3Gcc (c-c/_B/4A/4 B/A/4G/4 A/G/4^F/4 GG) z2
+(3GGG c c2 d (c-c/_B/4A/4 B/A/4G/4 A/G/4^F/4 G(3=F/4G/4F/4 E) E-E2 z2
+(3def g (g>g) (f/4e/4) (f/e/4d/4 e/d/4c/4 d/ e/4d/4c/4B/4 c) c-c2 z2 ||
+W:Soi de Armada,
+W:soi de Armada,
+W:soi de Armada,
+W:soi de La Pola de Lena,
+W:soi de La Pola,
+W:donde se recoge oro,
+W:l'azucar y la canela.
+W:
+S:https://www.folktunefinder.com/tunes/59018
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Arrieros
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

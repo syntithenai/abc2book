@@ -1,0 +1,31 @@
+X: 2353
+T:the Millers Rant
+R:Jig
+M:6/8
+L:1/8
+N:Dance Music, 1820-1850
+O:England
+A:Yorkshire
+Z:Warren Armstrong
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+K:G
+a|\
+"Am"cAA eAA|"F"cBA "G"GAB|\
+"Am"cAA eAA|"G"dcB "F"A2 a|
+"Am"cAA eAA|"F"cBA "G"GAB|\
+"Am"A2 a "C"e2c|"G"dcB "D"A2:|
+|:"Am"cde A2 e|"Am"c2 a e2 d|\
+"Am"cde A2 g|"G"dBG BdB|
+"Am"cde A2 e|"Am"c2 a "C"e2 f|\
+"G"g2 g "C"gfe|"G"dBG BdB:|
+S:https://www.folktunefinder.com/tunes/32749
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

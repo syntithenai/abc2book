@@ -1,0 +1,31 @@
+X: 1
+T: Harvester's Jig
+C: Don Messer
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A3 \
+|:"D"f2d e2d | "D"ABA AFA \
+| "D"f2d e2d | "G"B3 Bef \
+| "Em"g2f e2d | "A"cdc c2B \
+|1 "A7"Ace a2g | "D"fga fga \
+:|2 "A7"Ace a2c | "D"d3 d ||
+|: fg \
+| "D"a2a a2a | a^ga f=ga \
+| "D"d'2d' d'2d | "Em"d'c'd' e2f \
+| "A7"g2g gfe | "A7"cdc c2B \
+|1 "A7"Ace a2g | "D"fga fga \
+:|2 "A7"Ace a2c | "D"d3 y |]
+S:https://www.folktunefinder.com/tunes/14291
+S:http://trillian.mit.edu/~jc/music/abc/jig/HarvestersJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HarvestersJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

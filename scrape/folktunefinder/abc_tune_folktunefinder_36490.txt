@@ -1,0 +1,30 @@
+X:2055
+T:Grace Hay's Delight
+B:The Gow Collection (New York 1986).
+B:John Adams says also Vickers (Yes. Vol 1, under the title "the Cream Pot -or- the Kern Staff"
+L:1/8
+M:6/8
+N:the actual ending in Gow book is (eg bars 5/6 if A part) "e2C Ceg | f2d d2c". I think this version is how I learnt it from Simon Booth (melodeon), or it may be that I've fiddled it to suit the range of my clarinet.
+O:Scotland
+R:48-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cbb.html
+%%ID:00000cbb
+K:G
+G2c B2c  | dBd efg  | G2c B2c  | dBG AFD  | \
+E2G GAG  | F2D D2c  | BdB cAF  | G3 G3   ::
+d2g f2g  | afd e^cA | fga B^cd | efd ^cBA | \
+afa geg  | fdf e^cA | Bgf ed^c | d2d d=cB |
+c2c cac  | B2B BgB  | ABA ABc  | dBG AFD  | \
+E2G GAG  | F2D D2c  | BdB cAF  | G3 G3   :|
+S:https://www.folktunefinder.com/tunes/36490
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm 48-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

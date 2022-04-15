@@ -1,0 +1,21 @@
+X:0
+T:Rowing from Islay to Uist
+G:rowing song
+M:6/8
+L:1/8
+Q:3/8=88
+K:BMin
+F|B2B d2e|c2B c2e|B2B f2f|   gfe f2c|
+  d2d e2d|c2B c2e|gfe f2c|[1 d2B AB:|\
+                          [2 B2c d2||
+A|F2F F2E|F2F d2e|c2B A2F|   E2D E2G|
+  F2F F2E|F2F d2e|c2B A2c|   B3- B2:|
+S:https://www.folktunefinder.com/tunes/30029
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

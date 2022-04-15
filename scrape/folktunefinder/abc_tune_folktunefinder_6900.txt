@@ -1,0 +1,27 @@
+X: 2
+P: Yismechu hashamayim [Dm]
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"DD A,D F2 "A7"E2 | "Dm"D6 "C7"z2 \
+| "F"FF CF A2  "C7"G2 | "F"F6 z2 |
+| "F"AA FA c2 "D7"BA | "Gm"G4 d3 F \
+| "Dm"AG GF "A7"FE ED |1 "Dm"D6 z2 :|2 "Dm"D6 Hz2 ||
+"B"\
+|: "Dm"FG "Gm"GF "Dm"F4 | "Dm"FG "Gm"GF "Dm"F4 \
+|  "Dm"FG "Gm"GF "Dm"FE ED |1 "Gm"G2 "Dm"F4 z2 :|2 "A7"FE "Dm"D4 z2 ||
+"C"\
+|: "F"AB "C7"BA "F"A4 | "F"AB "C7"BA "F"A4 \
+|  "F"AB "C7"BA "F"AG GF |1 "C7"B2 "F"A4 z2 :|2 "C7"AG "F"F4 "A7"E2 |]
+%%text Sometimes ends with another part B.
+S:https://www.folktunefinder.com/tunes/6900
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/EE_SimTor1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

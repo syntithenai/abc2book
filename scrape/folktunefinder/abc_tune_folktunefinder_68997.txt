@@ -1,0 +1,28 @@
+X:138
+T: EN GOLDSCHMED SAT IN GOODER ROH
+N: Z0137
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: Erzaehlung, lustige Romanze
+M: 2/4
+L: 1/8
+K: F
+C | FFFF | EDC
+C | F2c2 | A2F2 | GGE
+E | FFDD | EEC
+C | DDEE | F2
+c2 | AFGE | F4
+F4 | G4F2F2 | E4F4 | G4A4 | F4
+G4 | G4A4 | B4A2G2 | F4G4 | A4
+F4 | G4G4 | A4G4 | F4E4 | D4
+G4 | A4G4 | F4D2E2 | F4G4 | F4
+S:https://www.folktunefinder.com/tunes/68997
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

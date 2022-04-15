@@ -1,0 +1,27 @@
+X:4310
+T:Planxty Irwin
+C:Turlough O'Carolan
+M:6/8
+O:Ireland
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000873.html
+%%ID:00000873
+K:D
+A|\
+d2c Bcd|A2G FED|G2E FGA|C2D E2c|\
+d2c Bcd|A2G FED|G2E FGA|D2C D2::
+A|\
+d>ed dcd|e>fe ecA|f2f e2d|c>dB ABc|\
+d2c  Bcd|A2G  FED|G2E FGA|D2C  D2:|
+S:https://www.folktunefinder.com/tunes/36941
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

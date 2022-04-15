@@ -1,0 +1,27 @@
+X: 1
+T: Murphy's Measure
+C: Nancy Dickson 1993
+R: strathspey
+B:
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+[| "G"G<G B>c d>e d<B | "Am"c<A A2 "G"B<G G2 \
+|  "C"e<e g>e "G"d>e df "Em"B<e e2 |
+|  "G"d>e (3dcB "D7"c>d (3cBA | "Em"B>c (3BAG "D"A>F D>F \
+|  "G"G<G "(C)"g>e "D7"d>e d>c | "G"B>G "D7"(3cAF "G"D<G G2 |]
+[| "G"B,<D (3GDB, B>A G2 | "Am"c>A "G"B>G "D"A>F D2 \
+|  "G"B,<D (3GDB, "C"C<E (3GEC | "D7"D<F (3AFD "G"G<B "D"A2 |
+|  "G"B,<D (3GDB, B>A G2 | "Am"c>A "G"B>G "D"A>F D>F \
+|  "G"G<G "(C)"g>e "D7"d>e d>c | "G"B>G "D7"(3cAF "G"D<G G2 |]
+S:https://www.folktunefinder.com/tunes/19605
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Murphys_Measure_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Murphys_Measure_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

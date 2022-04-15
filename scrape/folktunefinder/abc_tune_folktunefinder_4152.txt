@@ -1,0 +1,34 @@
+X:44
+T:Miss Pitt's Minuet. BC.44
+M:3/4
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+N:Ann Pitt(1720-1799) was one of the most celebrated actresses of her
+N:day,amongst other roles creating Polly Peachum in the Beggar's Opera.
+N:She last appeared on the stage in 1792. She had a daughter Harriet Pitt
+N:who was a dancer at Covent Garden from Jan 1762-1768,and who changed
+N:her stage name on marriage from "Miss Pitt" to "Mrs.Davenet" to
+N:distinguish herself from her still working mother,.CGP
+Z:vmp.John Bagnall
+K:D
+ D2 ((3FED)  ((3FED) |d2 c2 B2 | Ad cB AG | F2 EF D2 |\
+ D2 ((3FED)  ((3FED) | d2 c2 d2 | efedcB | A6 |
+|A2 ((3cBA)   ((3cBA) | g2 f2 e2 | ((3def) ((3efg) ((3fga) | d2 c2 B2 |\
+ AGFA d2 | AGFA d2 | ((3BAG) F2 E2 | D6 |]
+S:https://www.folktunefinder.com/tunes/4152
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:4865
+T:Polska fr Jmtland
+A:Jmtland
+L:1/16
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008bc.html
+%%ID:000008bc
+K:D dorian
+A3G EDEG F3E|DEFG ABAG B2(A2\
+|1 A2)B^c d3e fefa|gage fgfd f2e2:|2
+A2B^c d3e fefg|gae^c c2d2 d4::\
+A2a2 ^gegb a4|f2ed ^cAce (d4|
+|1 d2)fa g2ge f2fd|e2e^c d2dB {B}c2A2\
+:|2d2fa g2ge fgfd|efe^c c2d2 d4:|
+S:https://www.folktunefinder.com/tunes/37052
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

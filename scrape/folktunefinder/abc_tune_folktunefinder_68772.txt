@@ -1,0 +1,24 @@
+X:226
+T: Sommergewinn
+N: A0272
+O: Europa, Mitteleuropa, Deutschland
+N: Werlin Hs. 1646 S. 1502.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: C
+c | c2d | c2A | G2G | E2
+E | F2F | F2A | G2G | C2
+G | G2F | E2D | C2
+G | GAB | c2
+S:https://www.folktunefinder.com/tunes/68772
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:375
+%%topmargin 3cm
+T:Neil Roy
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G aeolian
+{/^F}GABc {Bc}d2 (cB) | AFcF dFcF | [1 {/^F}GABc {Bc}d2 (cB) | AFcA G/G/G G2 :| [2 GABc deTfd | {/d}cAfA G/G/G TG2 || (Gg)ga {ga}b2 (ag) |
+Tfcac fcac | (dg)ga {ga}b2 (ag) | Tfd{/d}cA G/G/G TG2 | Ggga {ga}b2 (ag) | Tfcfg {fg}agfa | gafg dfcf | AFcA G/G/G TG2 |]
+S:https://www.folktunefinder.com/tunes/71404
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Neil_Roy.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0375.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

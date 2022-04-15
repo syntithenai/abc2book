@@ -1,0 +1,49 @@
+X:951
+T:Aada (CT 165)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de cuna (Aada), dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu, quien dice que la aprendi en Trubia hace ms de treinta aos.
+O:Trubia
+A:Asturies
+Z:Cancioneru de Torner 165
+M:6/8
+L:1/8
+Q:3/8=80
+W:Crime mi madre feliz y contentu;
+W:cuando me dorma me diba diciendo:
+W:ea, ea, ea.
+W:T has de ser marqus, conde o caballeru
+W:y por mi desgracia yo aprenda goxeru.
+W:Ea, ea, ea.
+W:Faca los goxos en mes de Xineru
+W:y por el verano cobraba el dinero.
+W:Aqu est la vida del probe goxeru:
+W:Si mio probe madre volvis abri'l geyu!
+W:Ea, ea, ea.
+K:G
+d2d d2d|(c2 d/4c/4B/4A/4 B3)|d2d d2d|(c2 d/4c/4B/4A/4 B3)|
+[M:9/8]d2A B2G F2G|[M:6/8]A2c B2A|[M:9/8]G3 (G3G) z2|[M:6/8]A2G A2G|
+[M:9/8]A2 (GG2) z4|d2d c3/2(B/2A) B3|[M:6/8]d2d c3/2(B/2A)|
+[M:9/8](B3/2 (3c/4B/4A/4) (GG6)|
+c2c B2G F2G|[M:6/8]c2c B2A|[M:9/8]G3(G3G)z2|[M:6/8]A2G A2G|
+[M:9/8]A2 (GG2) z4|[M:6/8]d2d d2d|(c2 d/4c/4B/4A/4) B3|d2d d2d|
+(c2 d/4c/4B/4A/4 (G2G/2) (3c/4B/4A/4)|G6|[M:9/8]c2c B3/2(B/2A) G2 G|
+[M:6/8]c2c B2A|[M:9/8]G3 (G3 Gz2)|
+[M:9/8]c2c B3/2(B/2A) G2 G|[M:6/8]c2c B2A|[M:9/8]G3 G6|c2c B3/2(B/2A) G2 G|
+[M:6/8]c2c B2A|[M:9/8]G3 (G3 G)z2|[M:6/8]A2G A2G|[M:9/8]A2(G G2) z3||
+S:https://www.folktunefinder.com/tunes/1585
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:248
+T: The New Langolee
+B: O'Neill's 248
+N: "With expression"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:G
+D/D/ \
+| D>EF GAB | c>ed cBA | BGE DEG | B>cA G2D |
+| (DEF) (GAB) | (ced) (cBA) | (BGE) (DEG) | (B{d}cA) G2 ||
+|| c/c/ \
+| BGB dBd | e>dc dBG | G>Bd efg | G>AG GED/D/ |
+| cec BdB | A>GA BGE/E/ | GFE (D<d)c | B>cA G2 ||
+S:https://www.folktunefinder.com/tunes/73407
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

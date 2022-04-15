@@ -1,0 +1,43 @@
+X:888
+T:Xiraldilla (CT 395)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llanuces, ayuntamiento de Quirs.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 395
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|d2 d|cdc|B2 c|e2 e|efe|d2 z|
+d2 d|cdc|B2 A|d2 d|cdc|B2 z :||
+W:Al pie del jardn, madre,
+W:al pie del jardn fui
+W:a coger una rosa,
+W:pero no la cog.
+W:
+W:Si la cojo me muero
+W:y para no morir,
+W:mandar al jardinero
+W:que me la traiga aqu.
+W:
+W:Y despus de cogida
+W:pronto la llevar
+W:donde tenga el cario
+W:donde el cario est.
+W:
+S:https://www.folktunefinder.com/tunes/59775
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

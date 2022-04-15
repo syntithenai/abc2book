@@ -1,0 +1,26 @@
+X:1
+T:4v. Per illud ave prolatum,
+C:Josquin de Pr
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:G mix
+T:Superius
+N:Original clef, C on first line
+%1
+z4 A4 c6 c2 c4 B2 G2 A4 "A"G4 z2 G2 A2 B2 c2 B2 G2 A4 B3 A G4 F2 "B"G4 z4 A4 B6 G2
+S:https://www.folktunefinder.com/tunes/53016
+S:http://www.laymusic.org/music/bicinia/perillud/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

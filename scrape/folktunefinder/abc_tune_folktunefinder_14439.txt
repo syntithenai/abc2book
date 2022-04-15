@@ -1,0 +1,31 @@
+X: 1
+T: Johnny McGill
+T: Come Under My Plaidie
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: 6/8
+L: 1/8
+K: G
+{f}g \
+| "G"d>BB BAB | d>BB B2{f}g | d>BB BAB | "Em"GEE E2{f}g \
+| "G"d>BB BAB | d>BB BAG | "Am"A>Bc "B7"BcA | "Em"G>EE E2 :|
+|: f \
+| "G"g>fg "D7"a>ga | "G"b>ge dBG | "G"g>fg "D7"a>ga | "Em"b>ge e2g/a/ \
+| "G"bgb "D"afa | "Em"gef "C"gfe | "Bm"d>BB "B7"BAB | "Em"G>EE E2 :|
+S:https://www.folktunefinder.com/tunes/14439
+S:http://trillian.mit.edu/~jc/music/abc/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/JohnnyMcGill_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/JohnnyMcGill_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

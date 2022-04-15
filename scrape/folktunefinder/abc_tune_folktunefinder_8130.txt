@@ -1,0 +1,22 @@
+X: 20
+P: Kulkurin Masurkka (Vagabond's Mazurka)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+|: "Gm"G2 G>A B>c | d2 g2 b2 |1,3 "D7"d2 ^f2  a2  | "Gm"b>a g^f g2 \
+                            :|2,4 "D7"d2 d>^f a>f | "Gm"g2  g4 :|
+|: "Eb"e2 eB eg | "Bb"d2 dB df | "F7"F2 FA cA |1,3 "Bb"B2 Bd f2 \
+                                             :|2,4 "Bb"B2 B2  z2 :|
+|:"Bb"D2  F3  B | d6        | "Cm"d2 c3  G | c6 \
+| "F7"F2  A3  c | e4  g2    | "Bb"g2 f3 =e | f6 |
+| "Bb"D2  F3  B | d4  f2    | "Cm"f2 e3  d | c6 \
+| "F7"F>G AB cd | e>f g2 a2 | "Bb"b3  b b2 | b6 :|
+S:https://www.folktunefinder.com/tunes/8130
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

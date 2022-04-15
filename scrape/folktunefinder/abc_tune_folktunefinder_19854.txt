@@ -1,0 +1,33 @@
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: 40-bar waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+|: F \
+| "G(Em)"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 :|
+S:https://www.folktunefinder.com/tunes/19854
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ComeOerTheStreamCharlie_40.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/w40/ComeOerTheStreamCharlie_D40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ComeOerTheStreamCharlie_40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/ComeOerTheStreamCharlie_40.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/w40/ComeOerTheStreamCharlie_D40.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/waltz/ComeOerTheStreamCharlie_40.abc
+% Rhythm 40-bar waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

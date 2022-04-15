@@ -1,0 +1,27 @@
+X: 1
+T: Tame her when da snaw comes
+C: trad Shetland
+R: reel
+B: Tom Anderson "Ringing Strings" 1983
+N: Either B part may be played.
+M: C|
+L: 1/8
+K: G
+"A"\
+|: "G"gfed egB2 | "D7"AGAB AGAB | "G"gfed egB2 | "D7"AGAB "G"G4 :|
+"B1"\
+|: "G"G2G2 "C"EGDE | "G"G2G2 "D7"AcBA | "G"G2G2 "C"EGDE | "D7"GBAF "G"G4 :|
+"B2"\
+|: "C"EG"G"DG "C"EG"G"D2 | "C"EGAB "D7"cBAG | "C"EG"G"DG "C"EG"G"D2 | "D7"GBAF "G"G4 :|
+S:https://www.folktunefinder.com/tunes/12764
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/TameHerWhenDaSnawComes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

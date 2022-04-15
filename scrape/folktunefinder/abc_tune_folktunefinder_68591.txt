@@ -1,0 +1,32 @@
+X:45
+T: Frau Fischerin
+N: A0045
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie von Boehme aus drei Fragmenten zusammengesetzt: Schmeltzel
+N: 1544 Quodlibet 2 und 19.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: D
+ |  |  |  | d2d2d2 | =f3ed2 | e2=f4 | g4
+g2 | =f2e2d2 | c2d4 | e6
+d2d2d2 | =f3ed2 | e2=f4 | g4
+g2 | =f2e2d2 | c2d4 | e4
+d2 | d4d2 | _B4B2 | =c4_B2 | A4
+A2 | _B2B2=c2 | d3=c_B2 | A2d4 | =c4
+d2 | =c3_BA2 | _B2G4 | =F4
+d2 | d4d2 | _B4B2 | =c4_B2 | A4
+A2 | _B2B2=c2 | d3=c_B2 | A2d4 | =c4
+d2 | =c3_BA2 | _B2G4 | =F4
+_B2 | A3G=F2 | G2E4 | D6
+S:https://www.folktunefinder.com/tunes/68591
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 46
+T:Minuet. HA.045
+M:3/4
+L:1/8
+Q:90
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Minuet
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:C
+ef efg2|g3fe2|f2d2g2|ef edc2|!
+ef efg2|g3fe2|f2d2g2|e6||!
+ef edc2|d4G2|c2d2e2|cB cd cd|!
+ef ed c2|d4G2|c2d2B2|c6|]
+S:https://www.folktunefinder.com/tunes/72295
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

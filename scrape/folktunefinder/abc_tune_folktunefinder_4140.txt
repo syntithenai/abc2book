@@ -1,0 +1,27 @@
+X:32
+T:British Hero,The. BC.32
+M:6/8
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Jig
+O:England
+A:x
+Z:vmp.John Bagnall
+K:D
+"**"c | (B/c/d)c BGB | cAc BGB |  (B/c/d)c BGB | AGF ABc |
+  (B/c/d)c BGB | cAc BGB | gfe dcB | AGF ABc|
+ BAG GDG | GDG gdc | BAG GDG | AGF ABc |
+ B>AG GDG | GDG gdc | gfe dcB | AGF ABc |]
+W:The key signature of D major is probably wrong. C major gives a plausible result.
+S:https://www.folktunefinder.com/tunes/4140
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

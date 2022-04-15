@@ -1,0 +1,27 @@
+X: 1
+T: Mr Alexander Laing's Hornpipe
+C: William Marshall
+R: hornpipe
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: Paddledoo Collection
+M: C|
+L: 1/8
+K: E
+B \
+| "E"e2ge    edcB |  "A"cdec "E"cBAG |1 "E"GABc  "C#m"defg |  "A"acfe "B7"edcB \
+                                    :|2 "E"GABc   "B7"defa | "B7"gefd  "E"e2e2 |]
+|:"E"GABG "A"cAAc | "B7"FGAF "E"BGGB |1 "E"EFGA  "G#m"Bcde |  "A"fgaf "B7"edcB \
+                                    :|2 "E"B,EGB "C#m"egba | "B7"gfed  "E"e2e2 |]
+S:https://www.folktunefinder.com/tunes/13463
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/AlexanderLaingsHornpipe_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/AlexanderLaingsHornpipe_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AlexanderLaingsHornpipe_E.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

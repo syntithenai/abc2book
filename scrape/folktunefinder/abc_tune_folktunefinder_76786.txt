@@ -1,0 +1,26 @@
+X:301
+T: SOLLTS IM GWELB NIT FINSTER SEIN
+N: E0902
+O: Europa, Mitteleuropa, Deutschland
+R: Ehestands - Lied, betrogener Ehemann
+M: 3/4
+L: 1/4
+K: G
+ | G2G | G2G | d2d | d3
+d2d | c2d | B2A | G3
+B2B | c2A | =F2G | A3
+G2G | G2G | =F2E | D2
+D | =F2G | A2G | =F2G | A3 | z2
+d | B2A | G2F | G3 | z2
+d | B2A | G2F | G3
+S:https://www.folktunefinder.com/tunes/76786
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied, betrogener ehemann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

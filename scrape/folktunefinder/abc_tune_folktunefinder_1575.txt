@@ -1,0 +1,55 @@
+X:941
+T:Ayer vite na fonte (CT 114)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:Las tres primeras cuartetas se cantan con lamitad de la frase meldica.
+N:Variante de la nmero CT 113.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 114
+M:3/8
+L:1/8
+Q:3/8=83
+W:Ayer vite na fonte,
+W:tabes cantando,
+W:y hoi que pas per ella
+W:tabes llorando.
+W:Dime porqu tas triste
+W:y descolorida,
+W:dime por qu sospires,
+W:prenda querida.
+W:
+W:Sospiro por amores
+W:que yo tena,
+W:sospiro por amores
+W:que yo quera.
+W:Amores que tuvisti
+W:sigues teniendo;
+W:ya sabes que te quisi
+W:y toi queriendo.
+W:
+W:Si tantu me quisisti
+W:y tas queriendo,
+W:Porqu nun vas veme
+W:cuandu t'espero
+K:Gm
+|G2 B|ddd|edc-|cee|(f>e)d-|d2 z|
+G2 B|ddd|edc-|cBA|(B>A)G-|G2 z|
+G2 A|BBB|cBA-|ABc|d d2-|d2 z|
+G2 B|ddd|edc-|cBA|(B>A)G-|G2 z :||
+S:https://www.folktunefinder.com/tunes/1575
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

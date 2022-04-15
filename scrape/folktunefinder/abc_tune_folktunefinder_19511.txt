@@ -1,0 +1,29 @@
+X: 1
+T: The Marchioness of Huntly
+C: William Marshall
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+M: C
+L: 1/16
+K: Bb
+|: "Bb"B,3D F3D "Eb"EG3 "Bb"F4 | "Cm"Gc3 c3d "Eb"edcB "F7"AGFE \
+|  "Bb"D3E  F3D "Eb"EG3 "Bb"F4 | "Cm"G3c "F7"BAGF "Bb"B4- B2z2 :|
+|| "Bb"d3f B3f d3f edcB | "F7"A3c F3c A3c F3e \
+|  "Bb"d3f B3f d3f edcB | "F7"ABcd BAGF "Bb"B4 B,3e ||
+|| "Bb"d3f B3f dfga b4 | "Cm"Gc3 c3d "Eb"edcB "F7"AGFE \
+|  "Bb"D3E  F3D "Eb"EG3 "Bb"F4 | "Cm"G3c "F7"BAGF "Bb"B4- B2z2 |]
+S:https://www.folktunefinder.com/tunes/19511
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarchionessOfHuntly2_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MarchionessOfHuntly2_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarchionessOfHuntly2_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/MarchionessOfHuntly2_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

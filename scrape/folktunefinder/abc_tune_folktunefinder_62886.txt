@@ -1,0 +1,21 @@
+X:6
+T:Doon Reel, The
+M:C|
+L:1/8
+Q:120
+R:Reel (Key of D)
+K:Dmaj
+"D"~F3A "G"GEEG | "D"FDDF "A"ABAG | "D"~F3A "G"GEEG |1 "D"AF"A"GE "D"FDDE :|2 
+"D"AF"A"GE "D"FD~D2 |: "D"Adde dcAB | "A"AGFG ABcA |1 "D"~d2de dcAB | "C"=cBAF ~G2FG :|2
+"D"~d2fd Adfd | ~d2fd "A"e^cAG |]
+S:https://www.folktunefinder.com/tunes/62886
+S:http://www.irishtradmusic.org/100moretunes.abc
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

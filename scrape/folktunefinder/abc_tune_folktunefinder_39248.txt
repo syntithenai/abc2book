@@ -1,0 +1,24 @@
+X:17877
+T: Tuginata pusta da ostane
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: G
+P: Instr.
+|: "C"[e2c][dB] "(Am)"[cA][dB] [ec][cA] | "G"[d2B][cA] "(Em)"[BG][cA] [dB][BG] |1 \
+ "D7"[c2A][BG] [AF][BG] [cA][AD] | "G"[B2G][AD] [BG][cA] [d2B] :|2 \
+ "D7"[c2A][BG] [AF][BG] [cA][AF] | "G"[B7G]- | [B3G] z4 ||
+P: Vocal
+|| "G"[D2G][GB] [G2B] [G2B] | "Am"[A2c][Bd] ([ce][Bd]) ([Ac][GB]) | "D7"([Bd][A2c]) [A4c]- | [A7c] |
+S:https://www.folktunefinder.com/tunes/39248
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

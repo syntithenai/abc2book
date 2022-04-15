@@ -1,0 +1,24 @@
+X:5934
+T:Sellenger's Round The Beginning of the World     %Tune name
+N: Playford, 3rd edition (1657)     %Tune infos
+Q:1/4=120     %Tempo
+O:England
+M:6/8     %Meter
+L:1/8     %
+K:C
+"G"G3 G3/A/B | "C"c3 c3/d/e | "F"d2 c "G"B3/A/B | ("C"c3c3/)B/A | "G"G3 G3/A/B |
+"C"c3 c3/d/e | "F"d2 c "G"B3/A/B | ("C"c3c2)  |: d | "Am"e3 "^"e3/d/c |
+("Dm"d3d2) c | "G"B3/c/d d3/c/B | "Dm"A3 d2 B | "C"c3/d/c "G"B2 G | "Dm"A3/B/c "G"B2 G |
+"F"A2 G "D"^F3/E/F | ("G"G3G2) :|
+S:https://www.folktunefinder.com/tunes/26386
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

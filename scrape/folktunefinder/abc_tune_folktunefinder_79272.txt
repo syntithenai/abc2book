@@ -1,0 +1,26 @@
+X:168
+T: ES WAREN DREI GESELLEN
+N: E1305A
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten - Lied, Reiter
+M: 2/4
+L: 1/8
+K: G
+D | G2FE | D2B2 | A2G2 | A2G
+D | G2FE | D2B2 | A2G2 | A2G
+d | BBBB | B2B
+d | edcB | A2z
+G | FAAA | d3
+c | BBAA | G2z
+S:https://www.folktunefinder.com/tunes/79272
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied, reiter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

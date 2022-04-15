@@ -1,0 +1,30 @@
+X:340
+T: The New Apron
+B: O'Neill's 268
+N: "With expression"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+(D>E) \
+| (G3 ABA) | MG2 MD2 ME2 | (=F3 AGF) | =F2 E2 (D>E) \
+| G2 dc BA | MG2 MD2 ME2 | {A}G>F G>A B>c | d4 E>F |
+| G2 dc BA | MG2 MD2 ME2 | =F2- F(G/A/) GF | =F2 E2 (G>E) \
+| D3 B, (DE/F/) | D4 Bc | d3c BA | G4 ||
+|| B>c \
+| d2 cB AG | c4 c_B | {B}A2 FG AB | c4 Bc \
+| d2 cB AG | (cd/e/) d2 ze | d2 cB .c(d/e/) | d4 .g(f/e/) |
+| d2 B2 (GA/B/) | c3 d e2 |  E2 AB cA | G2 F2 GE \
+| D2 CB, (CD/E/) | D4 Bc | d3 c BA | G4 ||
+S:https://www.folktunefinder.com/tunes/80446
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Steffaleken
+R: R\orospols
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K:  D
+A2- |:  "D"d4 dc3 A3e- |    f4 fd3 e3f- | "A7"(3geg "(D)"(3fdf "(A)"e3c- |1,3 (3d"D"ef dc3 "A7"A3c :|2,4 " D"d4 d8 :|
+fg  |: "A7"a4 af3 g3e- | "D"f4 fd3 e3f- | "A7"(3geg "(D)"(3fdf "(A)"e3c- |1,3 (3d"D"ef dc3 "A7"A3c :|2,4 " D"d4 d8 :|
+S:https://www.folktunefinder.com/tunes/16567
+S:http://trillian.mit.edu/~jc/music/abc/pols/SteffaLeken_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/pols/RorosP_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/pols/SteffaLeken_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SteffaLeken_1.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

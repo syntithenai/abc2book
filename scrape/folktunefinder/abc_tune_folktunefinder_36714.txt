@@ -1,0 +1,27 @@
+X:3175
+T:Liverpool hornpipe
+M:4/4
+O:England
+O:Ireland
+O:Scotland
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000994.html
+%%ID:00000994
+K:D
+AG|\
+FDFA dfaf|gfed dcBA|GBGB FAFA|EDEF GFED|
+FDFA dfaf|gfed dcBA|dfaf bgec|d2d2 d2::
+(3ABc|\
+dfdf cece|BABc dcBA|GBGB FAF|EDEF GFED|
+FDFA dfaf|gfed dcBA|dfaf bgec|d2d2 d2:|
+S:https://www.folktunefinder.com/tunes/36714
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

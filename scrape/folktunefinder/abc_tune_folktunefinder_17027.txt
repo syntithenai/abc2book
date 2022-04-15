@@ -1,0 +1,39 @@
+X: 1
+T: Dominion Reel
+M: C|
+Z: Mary Lou Knack
+R: reel
+M: C|
+L: 1/8
+K: C
+G2 \
+|  "C"c2c2 "G7"BcdB \
+|  "C"cega     gece \
+|  "F"f2fd  "C"e2ec \
+| "Dm"dcBA "G7"G2AB |
+|  "C"c2c2 "G7"BcdB \
+|  "C"cega     gece \
+|  "F"f2fd  "C"e2ec \
+| "G7"dcBd  "C"c2  :|
+|: G2 \
+|  "C"cege     cege \
+| "Dm"defe "G7"dcBd \
+|  "C"cege     cege \
+| "D7"dg^fa "G7"g2G2 |
+|  "C"cege     cege \
+|  "F"f2fe     dcBA \
+| "G7"GABc     defg \
+|  "C"ec"G7"dB "C"c2 :|
+S:https://www.folktunefinder.com/tunes/17027
+S:http://trillian.mit.edu/~jc/music/abc/reel/Dominion_Reel_C4.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/reel/Dominion_Reel_C4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Dominion_Reel_C4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

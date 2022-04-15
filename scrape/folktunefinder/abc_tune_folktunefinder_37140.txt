@@ -1,0 +1,23 @@
+X:5305
+T:Sauter Lapins (1)
+M:6/8
+O:France
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000072e.html
+%%ID:0000072e
+K:G
+DEF GAG | FEF G2D | DEF GAG | FEF G3 ::
+B2B A3 | c2c B3 | d2d dcB | AGA B2G |\
+B2B A3 | c2c B3 | d2d dcB | AGF G3:|
+S:https://www.folktunefinder.com/tunes/37140
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

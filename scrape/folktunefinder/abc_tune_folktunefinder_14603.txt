@@ -1,0 +1,24 @@
+X: 1
+T: Malanas' Jig
+C: Howie Bursen
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu> from MP3 banjo recording by 
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"aAA "A7"gAA | "D"fAA "A7"e2A | "G"Bcd "A7"cde | "D"fdf "A7"e2A \
+| "D"aAA "A7"gAA | "D"fAA "A7"e2A | "G"Bcd "A7"cde | "D"fdd d2 :|
+|: B \
+| "C"=c2d edc | "G"B2=c dcB |"C"=c2d "(A7)"efg | "D"fdd d2B \
+| "C"=c2d edc | "G"B2=c "(D)"d2A | "G"Bcd "A7"cde | "D"fdd d2 :|
+S:https://www.folktunefinder.com/tunes/14603
+S:http://trillian.mit.edu/~jc/music/abc/jig/MalanasJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MalanasJ_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

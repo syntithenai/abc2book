@@ -1,0 +1,23 @@
+X:240
+%%topmargin 3cm
+T:Garthlands
+C:James Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+D | {/F}G2 B>G (B<d) {/f}g2 | {/F}G2 TB(A/G/) (F<A)A>B | {/F}G2 B>G (B<d) {/f}g2 | {/B}c>A TB(A/G/) D<GG :|
+(d/c/) | (B<d)d>g {/g}a(g/f/) Tg2 | (B<G)d>G (F<A) A(d/c/) | Bg {/g}a(g/f/) Tg2 | {AB}c>A {/^c}d(e/=c/) B<G G(d/c/) |
+(B<d)d>g {/g}a(g/f/) {/f}g>c | B<Gd>G (F<A) A(B/c/) | d>cTB>A B>G{/G}(F>E) | F<D {/^c}d(e/=c/) B<GG |]
+S:https://www.folktunefinder.com/tunes/70987
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

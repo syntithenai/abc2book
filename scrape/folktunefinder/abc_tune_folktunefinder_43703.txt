@@ -1,0 +1,20 @@
+X:36
+T:Two Hundred Miles From Clinton
+C:George Wilson
+M:4/4
+K:A
+E2 |: A2 Ac BAFA | EAcA ceea | feaf ecAc | dcBA  BdcB  \
+    |  A2 Ac BAFA | EAcA ceea | feaf ecAc \
+    |1 dBec A2 E2 \
+   :|2 dBec A2 e2 \
+    |  f2 (3fga ecAc | dcBA BdcB | AECE A,2 ea | fecA B3c \
+    |  dcde fgaf | ecAc BAFE | A2 Ac BAaf  | ecBc A3 z :|
+S:https://www.folktunefinder.com/tunes/43703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/TwoHundredMilesFromClinton_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

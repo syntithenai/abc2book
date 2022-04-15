@@ -1,0 +1,24 @@
+X: 1081
+T:First Set Tune
+S:Herb Archer, collected by John Meredith
+A:Ulan, near Gulgong, central New South Wales, Australia
+M:6/8
+L:1/8
+Z:Transcribed into ABC by John Furlonger
+K:D
+(3A,B,C|:D2 F A2 d|d2 f ecA|G2 A F2 G|E2 F GFE|
+D2 F A2 d|d2 f e2 f|g2 e dBc|d3 z3:|
+|:fgf d2 f|g2 f e3|fgf d2 f|edB A3|
+fgf d2 f|g2 f e3|f2 a g2 f|eBc d2:|
+S:https://www.folktunefinder.com/tunes/31588
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

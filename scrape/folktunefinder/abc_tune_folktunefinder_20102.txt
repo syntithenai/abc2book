@@ -1,0 +1,25 @@
+X: 1
+T: Mr Leveridge's Favourite
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu> 
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: Dm
+[| "Dm"d2 A2 "Gm"B2 | "A7"A4 G2 | "Dm"FG "Gm"TG3 F/G/ | "A7"A6 \
+|  "Dm"D2 "A7"E2 "Dm"F2 | "Gm"G2 "D7"A2 "Gm"B2 | "F"A2 GF "C7"GE | "F"F6 |]
+[| "F"A2 c2 c2 | "C7"c6 | E2 G2 G2 | "Gm"G6 \
+|  "Dm"A2 "Em"=B2 "A7"^c2 | "Dm"d2 "Gm"cB AG | "Dm"F2 ED "A7"E^C | "Dm"D6 |]
+S:https://www.folktunefinder.com/tunes/20102
+S:http://trillian.mit.edu/~jc/music/abc/waltz/MrLeveridgesFavourite_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/MrLeveridgesFavourite_Dm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

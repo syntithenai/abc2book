@@ -1,0 +1,27 @@
+X:7641
+T:Tour de Taille (F. Paris)
+O:england
+C:F. Paris: Rue de l'oiseau
+M:3/4
+L:1/8
+K:C
+e2f2|:ge dc ag|gz ge dc|d3c ed|d3G cd|\
+e3d cd|A2 AB cd|ed cB AB|1 cc cd ef:|2 c3 c de||
+|:~d2 cc de|g2 gc de|~d2 cc de|g3c de|\
+~d2 cc de|g6|fe dc de|1 ed dc de:|2 ed dd ef||
+c3d d2|e2zA Bc\
+|:~B2 AA Bc|d3d ef|g3g ed|c3c de|\
+~d2 cd eg|G3dd2|e3A Bc|\
+~B2 AA Bc|d3d ef|g3g ed|c3c de|1 d4c2|\
+c6-|c3 A Bc:|2 d4c2-|c3dd2|e2e2f2||
+S:https://www.folktunefinder.com/tunes/28093
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:146
+T: KA BAUER WAER ICH NIE BLEIBE
+N: Z0145
+O: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+R: Erzaehlung, lustige Romanze
+M: 3/8
+L: 1/8
+K: C
+G, | E2E | EDE | FD
+D | E2E | FED | C2
+C | E2E | EDE | FD
+B, | G,2C | EED | C2
+G, | E2E | EDE | FD
+G, | D2D | DCD | EC
+C | B,G,C | FFE | D2
+C | B,G,C | EED | C2
+S:https://www.folktunefinder.com/tunes/69005
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

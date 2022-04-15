@@ -1,0 +1,36 @@
+X:49
+T:Drown Drouth
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/20/04
+N:Petrie's First Collection, page 21
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:3/2 Hornpipe
+K:Bb
+[V:1] F|(D/E/FD) BFE|D2B, (D/E/FD)|ECC C2E|DEF (B/A/B/c/)d|D2B, (D/E/F)C|DB,B, B,2:|
+[V:2] z|B3       gaf|b3    B3     |c3  a3 |b3   d3        |B3    b2a    |bfd   B2 :|
+[V:1] |:F|B>cB def|fdB A2F|(A/B/c)c c2A|B>cB fga|b>ag f>ed|TcBc B2"^Fine":|
+[V:2] |:z|b3   B3 |d3  f3 |f'3      ffe|d3   a2f|d2e  f2b |f2F  B2       :|
+%In my opinion this tune should be notated in 3/2! -SW
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72076
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/DrownDrouth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Drown_Drouth.abc
+% Rhythm 3/2 hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1
+T:Mrs. O'Sullivan's Jig
+R:jig
+M:6/8
+S:Henrik Norbeck <henrik.norbeck:mailbox.swipnet.se> irtrad-l 2001-6-22
+K:Bm
+B,DD DB,A,|B,DD G2F|EGE EDE|GAB B2A|
+GAB d2e|dBA G2A|Bee BcA|1 GEE E2D:|2 GEE E2A||
+|:Bdd dBA|Bdd d2A|Bee ede|fed e2F|
+GAB d2e|dBA G2A|Bee BcA|1 GEE E2A:|2 GEE E2D||
+S:https://www.folktunefinder.com/tunes/14714
+S:http://trillian.mit.edu/~jc/music/abc/jig/MrsOSullivansJig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MrsOSullivansJig_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MrsOSullivansJig_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

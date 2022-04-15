@@ -1,0 +1,26 @@
+X: 205
+T: Thy Fair Bosom
+B: O'Neill's 205
+N: "With feeling"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:G
+(de/f/) \
+| g>g g2 (ga/b/) | (a>f) (e2 dc) | (B>c) (d2 cA) | B>B B2 d2 |
+| g>g g2 (ga/b/) | a>f e2 (d>c) | (B>c) d2 cA | G>G G2 ||
+|| Bd \
+| c2 zA A>c | e4 (dc) | (B>d g2) (f>g) | (a>f) Hg2 (d>c) |
+| (B>d g2) (ga/b/) | (a>f) e2 (d>c) | (B>c) Hd2 cA | G>G G2 ||
+S:https://www.folktunefinder.com/tunes/80483
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0205_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

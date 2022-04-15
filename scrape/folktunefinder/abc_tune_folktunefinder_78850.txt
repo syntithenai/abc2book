@@ -1,0 +1,26 @@
+X:409
+T: ALS DIE GROSSE STADT BELGARAD
+N: E0336
+O: Europa, Mitteleuropa, Deutschland, Franken; Oesterreich
+R: historisches Lied, Krieg gegen die Tuerken (1789)
+M: 3/4
+L: 1/8
+K: G
+DD | G2BBAA | G2
+G2GA | B2d2cA | B4
+dB | A3GAA | Bcd2
+dB | A3GAA | Bcd2
+DD | G2B2AA | B4
+dc | B2d2AA | G4
+S:https://www.folktunefinder.com/tunes/78850
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg gegen die tuerken (1789)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

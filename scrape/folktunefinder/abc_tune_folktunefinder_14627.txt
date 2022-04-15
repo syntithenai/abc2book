@@ -1,0 +1,26 @@
+X: 1
+T: Merrily Danced the Bride
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|: "G"BGB d2^c | "G"d2g fed | "D7"cAc f2^e | "D7"fed cBA |
+|1 "Em"BGB e2^d | "Em"edc BAG | "A7"FGF EFE | "D"Dd^c d=cA :|
+|2 "D7"DFA c2d | "D7"edc BcA | "Em"BGB "D7"d2d | "G"g3 GAB ||
+[|"C"c2c- cdc | "G"B^AB dcB | "D7"A^GA DFA | "G"B^AB "G7/B"dcB |
+| "C"c2c- cdc | "G"B^AB dcB | "A7"A^ce a2g | "D7"f^ef d=ef |]
+[|"G"g3 GBd | "C"e3 "Am"c2A | "D7"F^EF D=EF | "G"G3 "D7"def |
+| "G"g2g B^AB | "C"e2e "Am"cBA | "D7"dDd- dDd | "D7"cBA "G"G2 |]
+S:https://www.folktunefinder.com/tunes/14627
+S:http://trillian.mit.edu/~jc/music/abc/jig/Merrily_Danced_the_Bride_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Merrily_Danced_the_Bride_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

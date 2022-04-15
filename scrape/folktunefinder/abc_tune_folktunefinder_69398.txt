@@ -1,0 +1,25 @@
+X:539
+T: "Sehnsucht"
+N: Z1219
+O: Europa, Mitteleuropa, Schweiz
+R: Liebes - Lied
+M: 4/4
+L: 1/16
+K: A
+E4 | A2AGA2B2=c2A2B4 | =c2cAB8z2
+E2 | A2AGA2B2=c2A2B4 | =c2cAB4e2z4
+e2 | B2BAG2A2B2B=cB2e2 | d=cBAG2AABABcB2
+AB | =c2ccd2d2e4d2d2 | =c2A2B2BcA4
+S:https://www.folktunefinder.com/tunes/69398
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

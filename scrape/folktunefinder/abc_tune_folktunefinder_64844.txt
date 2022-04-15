@@ -1,0 +1,20 @@
+X:480
+T:The Flight
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:C
+G|"C"ced ced|c2G G2F|"C"EGc "F"ABc|"Dm"dfe "G"d2G|
+"C"ced ced|c2G G2F|"C"EGc "G7"GcB|"C"c3 -c2:|
+g|"C"g2e ceg|"F"a2f "G"def|"C"g2c B2c|"G"dBG G2g|
+"C"g2e ceg|"F"a2f "G"def|"C"gec "G7"GcB|"C"c3 -c2:|
+S:https://www.folktunefinder.com/tunes/64844
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

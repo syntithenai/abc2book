@@ -1,0 +1,32 @@
+X:14643
+T:Rule Britannia. TLY.001
+M:4/4
+L:1/8
+Q:150
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+H:1860.
+Z:Taz Tarry.
+K:D
+A2|d2d2 d/e/f//g/ ad|e2 ef/g/f2 z A|d/c/d/e/ f/e/f/g/ aefe|de/f/ e d c2
+z"*"A|!
+ cAdc ag/2f/2 ed|c2~B2A2 z2|d2dA BG z d|gfed A2 z e|a2 g2 f/d/g/e/ a/f/e
+/d/|!
+A2 ~e2d2 z2 ||:"Chorus"f3f gg c f|gfed A2 z2|a2g2 f/d/g/e/ a/f/e/d/|A2e2
+d2:|]
+%Bar line placed before the A in MS.I've corrected this as it does not a
+%ffect the tune in any way.CGP.
+S:https://www.folktunefinder.com/tunes/64653
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

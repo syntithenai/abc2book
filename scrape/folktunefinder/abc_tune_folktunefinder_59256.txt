@@ -1,0 +1,32 @@
+X:369
+T:Entemediu (MQ 064)
+T:Intermedio (MQ 064)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Intermedio de la zona de Xixn.
+N:Este y los que siguen se tocan en las Misas de gaita en determinados momentos com el Introito, la Comunin, el Ofertorio, etc.
+N:Son pequeas piezas que varan dependiendo de las diferentes zonas de Asturias.
+A:Asturies
+O:Xixn
+Z:Manolo Quirs 064
+M:3/8
+L:1/8
+Q:1/4=88
+K:C
+|: EE/C/E|EF/F/E/C/|D/E/D/C/D|D/E/D/C/D|DFD|
+EE/C/E|EFG|EE/C/E|EFG|DD/C/D|DG/A/G/E/|C3|
+EE/E/E|FGA|E/F/E/D/E|FGA|D/E/D/C/D|DG/A/G/E/|D3|
+GG/E/G|Gc/c/B/c/|G/A/G/E/G|Gc/c/B/c/|A/B/A/F/A|Gc/c/B/c/|
+G/A/G/E/C|CF/F/F/G/|DD/C/D|DFG|EE/D/E|EFG|EE/D/E|DG/A/G/E/|C3- :|CG2-|G3|
+S:https://www.folktunefinder.com/tunes/59256
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1621
+T:Blow the Wind Southerly
+% Nottingham Music Database
+S:Kevin Briggs
+P:AAB
+M:3/4
+L:1/4
+K:D
+P:A
+A|"D"f3/2e/2d|"D"AFA|"G"BGB|"D"AFA|"D"f3/2e/2d|"D"AFA|"Em"Be"A"c|"D"d2:|
+P:B
+"D"f2a|"A"e2a|"Bm"d3/2e/2d|"A7"cBA|"D"f2a|"A"e2a|"E7"^gfg|"A"a2a|
+"G"b2b|"D"a2a|"A"ggg|"D"fed|"D"f3/2e/2d|"Em"Bgf|"A7"edc|"D"d2:|
+S:https://www.folktunefinder.com/tunes/56560
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

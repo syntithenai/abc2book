@@ -1,0 +1,29 @@
+X: 1
+T: Lady Huntly
+O: Gow Collection
+B: Gow Collection
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+d2 \
+| "G"Bcd2 b3a "C"g2d2 e4 | "G"d3B g3B "D"aA3 A3c \
+| "G"Bcd2 b3a "C"g2e2 e4 | "G"d3e "C"edcB "G"d2G2 G2 :|
+d2 \
+| "G"B3G D3G B,3G D3G | "G"d3B g3B "D"c2A2 A2d2 \
+| "G"B3G D3G B,3G D3G | "G"d3B g3B d2G2 G2 |]
+d2 \
+| "G"B3G D3G B,3G D3G | "G"d3B g3B "C"cAA2 "D"d2c2 \
+| "G"B3g d2b2 g2B2 d2G2 | "C"c2de "D"F3d "G"B2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/19445
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyHuntly_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyHuntly_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

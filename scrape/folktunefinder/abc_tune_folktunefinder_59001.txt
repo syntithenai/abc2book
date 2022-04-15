@@ -1,0 +1,38 @@
+X:114
+T:Cada vez que voi a Llanes (JHM 010) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2002.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Juan Hidalgo Montoya 010
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+Bc|"G"d2 d|d2 d|d2 e-|ede|"D7"d2 e|d2 c|"G"(B>A)G-|GBc|
+d2 d|"D7"d2 d|"G7"d2 e-|"C"ede|"G"d2 e|"D7"d2 c|"G"(B>A)G-|G z2|
+|: BcB|(A2 G)|"D7"F2 G|A2 B|cdc|[1 "G"(B>A)G :|[2 "G"(B>A)G-|G z2||
+W:Cada vez que voy a Llanes
+W:y paso por la Estrechura
+W:y veo la nieve blanca,
+W:me acuerdo de tu hermosura.
+W:
+W:Yo, voy a Llanes 
+W:por ver a la mi morena,
+W:yo voy a Llanes 
+W:anque mi madre no quiera.
+W:
+S:https://www.folktunefinder.com/tunes/59001
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

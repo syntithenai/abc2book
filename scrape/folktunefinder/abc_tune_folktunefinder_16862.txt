@@ -1,0 +1,27 @@
+X: 1
+T: Buccleuch
+C: Freddy G Hutton
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: 1950 booklet "The City of Nairobi Reel" from the Scottish Country Dance Association of East Africa
+M: C|
+L: 1/8
+K: D
+"A"[|]\
+A \
+| "D"D2DF A2AG | "D"FEDE "A7"FGA2 | "A7"EDCD EFG2 | "D"FEDE "A7"FGA2 | "D"A3G FGA2 |
+| "A7"E3D CDE2 | "D"A3F "G"GBAG | "A7"FEDC "D"D3 "fine"[|] "B":: E | "D"F2AF "Em"G2B2 | "D"F2AF "A7"G2E2 |
+| "D"FGAF "Em"GABd | "A7"cABc "D"d2dc | "G"BGDB "D"AFDA | "Em"GFED "A7"CEEG | "D"ADFA "Em"BEGB | "A7"cABc "D"d3 "d.C."[|]:|
+S:https://www.folktunefinder.com/tunes/16862
+S:http://trillian.mit.edu/~jc/music/abc/reel/Buccleuch_D_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Buccleuch_D_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

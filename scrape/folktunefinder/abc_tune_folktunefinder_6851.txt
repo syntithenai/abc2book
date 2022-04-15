@@ -1,0 +1,30 @@
+X: 1
+T: Sidney's ershte bulgar
+C: Sid Beckerman (1989)
+M: 4/4
+L: 1/8
+K: Dm
+"A7"A,=B,^C \
+|:"Dm"D2A,F- FED2 | F2DA- AGF2 \
+| "Dm"^GA=BA "(E7)"GFED | "A7"E4 zA,=B,C \
+||"A7"^C2A,E- ED^C2 | "Gm"G2EB- BAG2 |
+| "A7"(3ABA "Gm"(3GAG "E7/G#"(3FGF "A7"(3EFE \
+|1"Dm"(3DED "C"CDC "Bb"(3B,CB, "A7"A,2 :|2 "Dm"D4 z \
+|:"C7"CDE \
+| "F"FEFC- CA,F,2 | A^GAF- FCA,2 |
+| "F"(3c=Bc (3_edc (3edc "C7"_BA | "F"=Bc-c2 "C7"zCDE \
+||"F"FEFC- CA,F,2 | "Gm"GDGA BAG>F \
+| "A7"EF^GA GFEF | "Dm"D4 z :|
+S:https://www.folktunefinder.com/tunes/6851
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Sidneys1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SidneysErshteBulgar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Sidneys_ershte_bulgar_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

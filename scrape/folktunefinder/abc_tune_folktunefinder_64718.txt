@@ -1,0 +1,28 @@
+X: 5
+T:Bergers et barons
+R:Branle
+C:Trad.
+H:XIII eme siecle
+A:Alsace
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-21
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+G|:EGG EGA|G2E F2G|E3E zG|EGG EGA|G2 EF2G|E2E EDC|E3 E z E|G2G F2F|E3 E z G:||
+%%footer $D   Galouvielle-MBe 2006 \nSarabande (France)
+S:https://www.folktunefinder.com/tunes/64718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

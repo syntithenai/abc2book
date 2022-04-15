@@ -1,0 +1,25 @@
+X: 147
+T:Boeing 707
+M:4/4
+L:1/8
+R:Schottische
+N:Acquired at French session, Balfour Arms, Sidmouth
+Z:Steve Mansfield
+K:Am
+DEFD d2de | fedc A4 | cBAG AGEF | AGEF E2FE | DEFD d2de | fedc A4 |
+cBAG AGEF | AGEF D4 :: [K:D] dc=c^c A4 | dc=c^c F4 | dc=cB A^G=GF |
+EFGE A4 | dc=c^c A4 | dc=c^c F4 | dc=cB A^G=GF | EFGA D4 :|
+S:https://www.folktunefinder.com/tunes/49135
+S:http://www.lesession.co.uk/music/lgsdmweb.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:32
+T: ALS EINST DER MENSCH IM PARADIES
+N: F0094
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz -, Spott - Lied
+M: 4/4
+L: 1/16
+K: C
+G,2 | C4E4D6C2 | B,2C2D4z4
+E4 | D3DD2C2B,4A,4 | G,4G,4G,4z2
+B,2 | D6D2D6E2 | F4E4D2
+F2E2D2 | C4z2D2B,3B,C4 | z12z2
+S:https://www.folktunefinder.com/tunes/69592
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Scherz -, spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

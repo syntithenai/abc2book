@@ -1,0 +1,25 @@
+X: 2
+P: Mount Cashel's Brigade
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"D7"D2 \
+|  "G"G2 B>A "C"GA GE | "G"D>E DC B,2 "(D)"D2 | "G"G2 B>A GA Bc | "D7"A2 d>e dc BA |
+|  "G"G2 B>A "C"GA GE | "G"D>E DC B,2 "(D)"D2 | "G"dc BA "D7"BA GF | "G"G2 "C"G>A "G"G2 (3ABc ||
+|| "G"d>e dc B>c BA | G2 G>A BG AB | "Am"c>d cB A>B AG | "D7"F2 D>E FD EF |
+|  "G"G2 G2 "D7"FA FD | "C"E>D "D7"EF "G"G2 "C"e2 | "G"d>e dB "D7"cA FD | "G"G2 "C"G>A "G"G2 z2 |]
+S:https://www.folktunefinder.com/tunes/3142
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/Reel_KlezContra15_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Reel_KlezContra15_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR15_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

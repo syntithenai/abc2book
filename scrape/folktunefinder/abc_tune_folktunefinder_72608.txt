@@ -1,0 +1,26 @@
+X:151
+T: In den schoenen Monat Mai, trueholda, duholda,
+N: D0236
+O: Europa, Mitteleuropa, Deutschland, Harz
+N: rhythmische Korrektur in der zweiten Zeile;
+N: Inzipit = Variante zum Lied; Variante zu D0234  (DVA-Signatur 236a)
+R: Staende - Lied, Koehler
+M: 2/4
+L: 1/16
+K: D
+ |  |  |  |  |  |  | D2D2F2F2 | A2A2F4
+c2A2A4 | d2F2A4
+D2D2F2F2 | A2A2F4
+c2A2Af3 | d3-d
+f3e | dF3d2F2d2 | cE3Ge3
+cE3c2E2c2 | dF3Af3 | d4z4
+S:https://www.folktunefinder.com/tunes/72608
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, koehler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

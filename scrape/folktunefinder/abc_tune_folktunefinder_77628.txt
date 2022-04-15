@@ -1,0 +1,33 @@
+X:38
+%%newpage
+T:Au plus haut du ciel - C221-1
+C:J Berthier
+M:4/4
+%%staves 1 {2 3}
+K:Bb
+V:1
+DE FD|G3 G C2 DE|F3 FB,2 CD|E3 E F2 FC|D4|
+V:2
+[D4F4B4]|[E4G4B4] [C4G4c4]|[D4F4A4] [B,4F4B4]|[E4G4B4] [CA][DB] [E2c2]|[F4B4d4]|
+V:3
+B,2 B,,2|E,,2 E,2 E,2 E,,2|D,,2 D,2 D,2 D,,2|C,,2 C,2 F,2 F,,2|B,,2 B,A,|
+%
+V:1
+DE FD|G3 G C2 DE|F3 FB,2 CD|E3 D C2 B,A,|B,4 x4||
+V:2
+[F4B4d4]|[D4G4d4] [C4G4c4]|[C4F4c4] [B,4F4B4]|[B,4E4B4] [CA][B,G] [C2A2]|[B,8D8F8B8]||
+V:3
+B,2 B,,2|E,,2 E,2 E,2 E,,2|D,,2 D,2 D,2 D,,2|C,,2 C,2 F,2 F,,2|B,,4 B,2B,,2||
+%%staves 1
+V:1
+"Sib"F2 B2|"Mib"G2 AB "Dom"c2 cA|"Rem"F4 "Sib"B2 G2|"Mib"E2 EE "Fa"F2 C2|"Sib"D4||
+"Sib"zF FF|"Mib"G2 GG "Dom"AB cA|"Rem"F3 F "Sib"B2 G2|"Mib"E2 E2 "Fa"F2 FC|"Sib"D2 D2||
+"Sib"zF FF|"Mib"G2 AB "Dom"cc cA|"Rem"F4 F2 "Sib"BG|"Mib"E2 FG "Fa"A2 AF|"Sib"D4||
+S:https://www.folktunefinder.com/tunes/77628
+S:http://moinejf.free.fr/messe/messeA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

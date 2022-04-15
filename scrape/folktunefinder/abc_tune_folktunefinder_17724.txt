@@ -1,0 +1,34 @@
+X: 1
+T: Mrs. Adie
+C: Major William Logan
+R: strathspey
+B: Athole Collection, 1884, p.279.
+B: Carlin (The Gow Collection), 1986, #171.
+B: Cole (1000 Fiddle Tunes), 1940, p.124.
+B: MacDonald (The Skye Collection), 1887, p.125.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+d2 \
+| "Bb"BB3 B4 "F7"c3A FA3 | "Gm"BB3 "C7"c3B "F"AF3 F3B \
+| "Eb"GA3 B3G "Bb"F3D B,D3 | "Eb"EG3 "F"F3E "Bb"DB,3 B,2 :|
+f2 \
+| "Bb"d3B f3B b3B f3B | "F7"ABc2 c3B AF3 F4 \
+| "Eb"GA3 B3G "Bb"F3D B,D3 | "Cm"EG3 "F7"F3E "Bb"DB,3 B,2 |]
+B2 \
+| "Bb"d3B f3B b3B f3B | "F7"ABc2 c3B AF3 "Bb7"F3_A \
+| "Eb"GE3 E3G "Bb"FD3 D3F | "Cm"EC3 "F7"C3F "Bb"DB,3 B,2 |]
+S:https://www.folktunefinder.com/tunes/17724
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrsAdie_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsAdie_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MrsAdie_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MrsAdie_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsAdie_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

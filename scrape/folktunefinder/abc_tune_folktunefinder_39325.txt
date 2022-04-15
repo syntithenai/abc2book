@@ -1,0 +1,31 @@
+X:1
+T:16v. Fantasia 18.
+T:SUPERIUS.
+C:Giovanni de Antiquis.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+K:F
+c3 B A G F/ G/ A/ F/ G2 A B c B A G F E D E F G A/ B/ c/ A/B A2 G A2 f e d c B A G F2 E
+"2"F4 F > G A B A d2 c B2 A2 G2 F2 f3 e d c B A G F2 E F A B2 A2 G c > B A/ G/ F f > d e/ d/ c/ B/ A G2 c > B
+"3"A/ G/ F/ G/ A/ F/ G/ A/ B/ c/ d > c c2 B/ A/ B2 c c > B A/ G/ F > E D/ E/ F/ G/ A/ B/ c/ A/ B/ c/ d > c c2 B c > B A/ G/ F
+"4"f > d e/ d/ c/ B/ A A > F G/ F/ E/ D/ C c B2 A2 G2 F2 E2 F2 E F f d e c d B c A B G A F G F2 E/ D/ "(1)"E4
+N:(1) Original is a half note
+"5"F/ G/ A/ B/ c/ d/ e/ f/ g d/ e/ f c/ d/ _e B/ c/ d A/ B/ c G/ A/ B F/ G/ A F2 E F/ G/ A/ B/ c2 G B2 F A2 E G2 D F G > F F2 E F16 |]
+S:https://www.folktunefinder.com/tunes/39325
+S:http://www.laymusic.org/music/bicinia/18/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

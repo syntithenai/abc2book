@@ -1,0 +1,24 @@
+X: 1
+T: Tyska polskan
+R: shottish
+O: \AArsunda
+N: The title means "The German polska"; it is neither.
+M: 4/4
+L: 1/8
+K: D
+| "D"A>B AF A2 d2 | "G"B>c BG "Em"B2 e2 |1,3 "A7"A2 ce g2 fe | a2 ag "D"f2 d2 \
+                                       :|2,4 "A7"A2 ce g2 ec | "D"d2 d2 d4 :|
+|: "D"a>f df A2 df | "G"a2g2"Em"g4 | "A7"g>e ce A2 ce | "D"g2f2f4 \
+|     a>f df A2 df | "G"a2g2"Em"b4 | "A7"b>a gf a>g ec | "D"d2 d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16583
+S:http://trillian.mit.edu/~jc/music/abc/pols/TyskaPolskan.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/TyskaPolskan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/TyskaPolskan.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

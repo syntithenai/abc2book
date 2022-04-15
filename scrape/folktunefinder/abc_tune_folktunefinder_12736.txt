@@ -1,0 +1,27 @@
+X: 1
+T: da Fields o'Foula
+C: trad Shetland
+R: jig
+B: Tom Anderson "Ringing Strings" 1983
+M: 6/8
+L: 1/8
+K: D
+g \
+| "D"f2g afd | "G"g2f "A7"e2g | "D"f2g afd | f2a f2d \
+| "D"f2g afd | "G"g2f "A7"e2A | A2A def | "D"d2d d2 :|
+|: B  \
+| "D"A2A F2A | d2f "A7"ecA | "D"def "A7"ecA | "D"BAF D2F/F/ \
+| "A7"E2E "D"F2A | d2f "A7"ecA | "D"def "A7"ecA | "D"d3 d2 :|
+S:https://www.folktunefinder.com/tunes/12736
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/FieldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/FieldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/FieldsOFoula.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/jig/FieldsOFoula.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Shetland/jig/FieldsOFoula.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

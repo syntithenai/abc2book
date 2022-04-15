@@ -1,0 +1,28 @@
+X: 1
+T: Tretur med Svig
+O: Blaah\oj, Denmark
+F: http://www.folketshus.dk/cgi-bin/visnode.cgitr-treturmsv
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace    Ace |  "D"agf "E7"edB | "A"Ace    Ace | "E7"gfe "A"A2z :|
+|: "D"agf "A"edc | "E7"BAB  "A"c2e | "D"agf "A"edc | "E7"BAG "A"A2z :|
+|: "A"cBA    ABc | "E7"dBd     e2z | "A"ac'a   ece | "E7"dcB "A"A2z :|
+S:https://www.folktunefinder.com/tunes/15198
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treturmsv
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-treturmsv
+S:http://trillian.mit.edu/~jc/music/abc/jig/TreturMedSving_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig/TreturMedSving_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/jig/TreturMedSving_A.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

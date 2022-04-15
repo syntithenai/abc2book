@@ -1,0 +1,27 @@
+X:1
+T:Paddy Mills
+Z:Gerry Strong <gstrong@THEZONE.NET> irtrad-l 2000-10-25
+M:4/4
+L:1/8
+Q:100
+R:Reel
+K:G
+A |: BG ~G2 AGAB | GEDB, A,2 B,A, | G,2 ~G,2 DG,B,D | (3EFG) AB cAdc |
+BG ~G2 AGAB | GEDB, A,2 B,A, | G,2 ~G,2 DG,B,D | AGEF G3 A :|
+BGGF GBdB | eBdB cBAB | GBdB c3 c | dBGB ABGA |
+BGGF GBdB | eBdB cBAB | GEDB, G,B,DB | AGEF G3 A |
+BGGF GBdB | eBdB cBAB | GBdB c3 c | dBGB ABcA |
+d3 e dBGB | cABG AGEF | GEDB, G,B,DB |1 AGEF G3 A || "Last Time"A z A z G4 |]
+S:https://www.folktunefinder.com/tunes/17835
+S:http://trillian.mit.edu/~jc/music/abc/reel/PaddyMills.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PaddyMills.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PaddyMills.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

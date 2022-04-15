@@ -1,0 +1,29 @@
+X:667
+T:Soi de Pravia (XA 22)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 22
+M:4/4
+L:1/8
+Q:1/4=80
+K:C
+|C6 E>>F|G6 A>>B|c6 B2|A2-AB/A/ G4-|G8|
+|B6 c2|B6 c2|B2-B/c/B/A/ G2-G/F/E/F/|G2-GA/G/ F2-FG/4F/4E/4D/4|
+|E6-E>>F|G6 AB/A/|G2-G/A/G/F/ E2 GA/G/|F6 E2|D4 E2-E/F/E/D/|C8|
+S:https://www.folktunefinder.com/tunes/59554
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:1
+T:33. Green sleeves
+C:trad
+Q:&quot;andante&quot;
+L:1/8
+M:6/8
+K:Ador
+A | c2d e>fe | d2B G>AB | c2A A>GA | B2GE2 |
+A | c2d e>fe | d2B G>AB |c>BA ^G>FG | A3-A2 :|
+z | g2g gfe | d2B G>AB | c2A A>GA | B6 |
+g2g gfe | d2B G>AB | c>BA ^G>FG | A3-A2 :|
+S:https://www.folktunefinder.com/tunes/48883
+S:http://www.thesession.org/tunes/display/1598
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

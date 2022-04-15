@@ -1,0 +1,23 @@
+X:1
+T:Sailor Courted A Farmer's Daughter
+B:
+C:Traditional (based on Figgy Duff version)
+S:tradtunes 2003-8-6
+H:
+M:3/4
+L:1/4
+K:C
+V:1
+%%MIDI channel 2
+%%MIDI program 2 01
+EEE|DE2|A,A,A,|GA2|ABA|G2E|D1/2C1/2A,B,|G,3|
+S:https://www.folktunefinder.com/tunes/18950
+S:http://trillian.mit.edu/~jc/music/abc/song/SailorCourtedAFarmersDaughter_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SailorCourtedAFarmersDaughter_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

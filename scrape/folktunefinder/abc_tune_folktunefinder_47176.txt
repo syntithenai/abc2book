@@ -1,0 +1,21 @@
+X:15901
+T:Stack of Barley
+Z: id:dc-hornpipe-50
+M:C|
+L:1/8
+K:A Major
+ag|f2fe c2ec|B2BA BdcB|AGAB cBce|f2B2 B2ce|!
+f2fe c2ec|B2BA BdcB|AGAB ceBd|c2A2 A2:|!
+AB|cAce a2ga|baga f2e2|a2ga fece|f2B2 B2ga|!
+bagb a2gf|ecBA BdcB|AGAB ceBd|c2A2 A2:|!
+S:https://www.folktunefinder.com/tunes/47176
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

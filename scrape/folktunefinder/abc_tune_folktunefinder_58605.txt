@@ -1,0 +1,29 @@
+X: 01093
+T: OLDE TYME QUADRILLE
+C: Bob McQuillen June '75
+B: Bob's Note Book 1&2 #93
+Z: 2005 John Chambers
+M: C
+L: 1/8
+K: D
+FG \
+| ABde d2A2 | B2A2 A2FG | ABde f2d2 | c6 EF \
+| GAGF E2d2 | c2E2 E2EF | GABd c2B2 | B4 A2FG |
+| ABde d2A2 | B2A2 A2FG | ABde f2d2 | c2B2 B2cd \
+| efed c2Bc | defd A2FA | B2d2 cdec | d6 ||
+|| dc \
+| BcBc d2f2 | g2f2 fedc | Bcde f2d2 | f6 ef \
+| gagf e2g2 | fgfd B2d2 | c2B2 ^A2B2 | c4 d3c |
+| BcBc d2f2 | g2f2 fedc | Bcdc B2f2 | e6 gf \
+| e2B2 B2fe | d2B2 B2cd | c2g2 fedc | B6 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/58605
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

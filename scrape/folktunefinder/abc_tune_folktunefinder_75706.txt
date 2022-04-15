@@ -1,0 +1,21 @@
+X:10
+T:Bekedorfer
+T:Vliegen vangen
+O:B\"uckeburg, Duitsland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=132
+K:D
+|:A2 FA|d2 A2|AG FG|B2 A2|A2 FA|d2 cB|AG FE|D2 z2:|
+|:E2 E2|D2 z2|B2 B2|A2 z2|F3 G|A3 B|AG FE|D2 z2:|
+|:AF DF|AF DF|E2 E2|E4|GE CE|GE CE|D2 d2|D2 z2:|
+|:EA, CE|FA, DF|AG FG|B2 A2|EA, CE|FA, DF|AG FE|D2 z2:|
+S:https://www.folktunefinder.com/tunes/75706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

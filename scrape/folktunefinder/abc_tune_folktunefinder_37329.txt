@@ -1,0 +1,25 @@
+X:6250
+T:Tilt the Tankard
+A:North-West
+M:6/8
+N:P4 1/3
+O:England
+R:Jig
+%%RRN:Slip jig 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000561.html
+%%ID:00000561
+K:F
+F3 fgf|e2c d2e|f2a gec|d2e fgf|A2f dcB|A2GF3:|
+|:a2f d2f|agf g2e|fce gfe|f2e d2f|fga g2e|cde f3:|
+S:https://www.folktunefinder.com/tunes/37329
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

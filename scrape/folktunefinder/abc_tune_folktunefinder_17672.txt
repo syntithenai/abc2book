@@ -1,0 +1,24 @@
+X: 1
+T: Miss Flora McDonald's Reel
+R: reel
+B: RSCDS 7-1(b) 1931
+N: Bremner 1757
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+F | "Em"E2EF BEEF | E2EF "D"dFDF | "Em"E2EF EFGA | "A7"B{c}d Ad "D"FDD :|
+|: F | "Em"Eee^d eEEF | Ee"A7"ec "D"dDDF | "Em"Eeed "(G)"Bcde | "A7"f{g}a ef "D"dDA :|
+S:https://www.folktunefinder.com/tunes/17672
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissFloraMcDonaldsReel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissFloraMcDonaldsReel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissFloraMcDonaldsReel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissFloraMcDonaldsReel_Em.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:5085
+T:Reinlander
+C:e. Mats Berglund
+M:4/4
+N:YDW 2002, Settle
+O:Norway
+R:Schottis
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c82.html
+%%ID:00000c82
+K:A dorian
+E2|\
+A2zB cBcd | efed e2ef |\
+g2ge f2fd | efed e2E2|\
+A2zB cBcd | efed e2ef |
+g2ge f2fd | e2e2e2 :: \
+z2 |[M:2/4] a4 [M:4/4]| \
+ggge fffg/f/ | efec A2AB |
+c2Bc d2cd | efed e2ef |\
+g2ge f2fd | efec A2AB | \
+c2BE E^GBG | ABA^G A2 :|
+S:https://www.folktunefinder.com/tunes/37096
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

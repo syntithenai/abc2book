@@ -1,0 +1,32 @@
+X: 1
+T: Dusty Windowsills
+R: jig
+M: 6/8
+L: 1/8
+F: http://www.pirkadat.org/sdfh_cb/tunes/abc/DustyWindowsills.abc 2007-12-15 02:38:23 UT
+N: Smoke In Your Eyes, 4th ed, pg 158 - abc by Peter Ostapenko 8/27/2007
+K: Ador
+|: "Am"A2B    cBA | e2d    cBA | "Em"GFG EGG | DGG     EGG \
+|  "Am"A2B    cBA | e2d    efg |  "G"age dBG | BAG "Am"A3 :|
+|: "Am"aga    age | dBd "G"g2f |     g2g gfe | dBA     G2G \
+| "(C)"EGG "G"DGG | EGG    ABc |     Bed BAG | BAG "Am"A3 :|
+|: "Am"A2A    gAf | A2A    gfe |  "G"G2G eGd | G2G     edB \
+|  "Am"A2A    gAf | A2A    efg |  "G"age dBG | BAG "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/14137
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DustyWindowsills.abc
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DustyWindowsills.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/DustyWindowsills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/DustyWindowsills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/DustyWindowsills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DustyWindowsills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DustyWindowsills_Am.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

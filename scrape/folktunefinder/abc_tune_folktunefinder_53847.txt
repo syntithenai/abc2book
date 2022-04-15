@@ -1,0 +1,22 @@
+X:190
+T:La Marche Printanire
+C:Richard Fort
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:D
+A |: f2B gag | f2d Aed | cec Ace | dfb a2A |
+f2B gag | f2d Aed | cec ABc | dAF D2A ::
+DFA dAF | EGc ecA | dfe dcB | Acd ecA |
+DFA dAF | EGc ecA | GBA GFE | DFA d2A :|
+S:https://www.folktunefinder.com/tunes/53847
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

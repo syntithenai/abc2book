@@ -1,0 +1,25 @@
+X: 7817
+T:Sister Jean
+R:Polka
+R:Reel
+O:Shetland
+M:4/4
+K:D
+AB de f2 fd | g2 ge f3g | f2ef ge cd \
+|1 e2 d2 de dB :|2 e2d2 defg |
+|:\
+a2 A2 AF Ad | B2 G2 A3g | f2 ef ge cd \
+|1 e2d2 de fg :|2 e2d2 d4 |]
+S:https://www.folktunefinder.com/tunes/35034
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polka
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:824
+T:Brunswick (La). CJF.059
+T:La Brunswick. CJF.059
+T:Brunswick Quadrill No.5. CJF.059
+O:england
+M:2/4
+L:1/16
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The notes marked with asterisks are shown in the manuscript as chords
+N:with these notes and their upper octaves. On page. CJF.029 appears a
+N:tit
+N:-
+N:(No.s 1, 2, 3, & 5 From the Brunswick Quadrills);
+N:this tune appears to be one of these.
+K:D
+"f"a2|d'3d' a3a|(fgfe) f2d2|(gAag fAgf)|\
+(e^def) (eabc')|d'3d' a3a|(gfga bfge)|(dAdf)
+(agef)|(dfaf) d2h:|:"p"e2|^deae c3a|^gac'a e3c'|\
+(e'^d'=d'b ^gefg)|(ac'e'c' aecA)|^deae c3a|
+^gac'a e3c'|be^de =f^fg^g|{b}a^gab a2=g|\
+f2 ""f4 e'2|(d'e'f'e' d'bfd)|e2 ""e4 d'2|(c'd'e'd' c'aec)|
+A2 ((3ABc) d2 ((3Acd)|e2 ((3Ace) f2 ((3Adf)|\
+g4zAce|gfef gabc'|"f"d'3d' a3a|(fgfe) f2d2|(gAag fAgf)|
+(efg^g ab=c'^c')|"ff"d'3d' a3a|(gfga bfge)|\
+dAdf agef)|(dfad') d2F2|"p"Bcd^A B2F2|Bcd^A B2G2|
+^AB=c^c d^de^e|fc^ac F2f2|gfeg fedf|\
+edce dcBd|"sf"g3f edcB|(cdef" D.C." gabc')||
+S:https://www.folktunefinder.com/tunes/21273
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

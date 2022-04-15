@@ -1,0 +1,23 @@
+X:116
+T: ES STEHT EIN SCHLOSS IN OESTERREICH
+N: E0061F
+O: Europa, Mitteleuropa, Deutschland, Pommern, Fiddichow, Brusenfelde
+R: erzaehlendes Volks - Lied, Sage, Mord
+M: 3/4
+L: 1/16
+K: D
+A,2 | D2F2A4G2C2 | E3GG4F2
+A,2 | D2F2A4D2F2 | F4E4z2
+A2 | F2A2d4c2B2 | B2A2F4z2
+d2 | A2F2G4C2E2 | E4D4z2
+S:https://www.folktunefinder.com/tunes/78557
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:764
+T:Xiraldilla (CT 065)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Iluminada y Aurelia Martnez Viescas, de treinta y treinta y cinco aos, respectivamente, de Llanuces, ayuntamiento de Riosa.
+A:Asturies
+O:Llanuces (Riosa)
+Z:Cancioneru de Torner 065
+M:3/4
+L:1/8
+Q:1/4=100
+K:C
+GA Bc d>e|d2 G2 ee|(d>c) B2 de|(d3/2(3c/4d/4c/4 B2) z2|
+GA Bc d>e|(d2 G2) Ac|B(A/G/) A2 Bc|(B3/2(3A/4G/4A/4 G2) z2||
+W:Si por beber nuna fuente
+W:dejaste secarse otra,
+W:amar para aborrecer
+W:es una inorancia loca.
+W:
+S:https://www.folktunefinder.com/tunes/59651
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

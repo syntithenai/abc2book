@@ -1,0 +1,24 @@
+X: 1
+T: Sgian Dubh
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+K: Bm
+C \
+| "Bm"B,2B B2F | "A"AFA ECA, | "Bm"B,2B B2F | "Bm"Bcd "F7"c2B \
+| "Bm"B,2B B2F | "A"AFA ECA, | "D"D3 "F7"E3 | "Bm"FDB, B,2 :|
+e \
+| "Bm"f2B Bcd | "A"cBA ecA | "Bm"f2B ~B3 | "Em"fge "Bm"fdB \
+| "Bm"f2B Bcd | "A"cBA ecA | "D"def "A"edc | "Bm"fdB Bde ||
+| "Bm"f2B Bcd | "A"cBA ecA | "Bm"f2B ~B3 | "Em"fge "Bm"fdB \
+| "D"faf "A"eae | "A"cea ecA | "D"def "A"efg | "Bm"fdB B2 |]
+S:https://www.folktunefinder.com/tunes/15056
+S:http://trillian.mit.edu/~jc/music/abc/jig/SgianDubh_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SgianDubh_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

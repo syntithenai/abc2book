@@ -1,0 +1,31 @@
+X: 1
+T: Brudvals fr\aan J\amtland
+O: efter Andrea Hoag & Loretta Kelley
+D: Azalea City ACCD 9601 (Nov 96)
+Z: John Chambers <jc@trillian.mit.edu>
+N: after a transcription by Karen Myers
+M: 3/4
+L: 1/8
+K: Dm
+A2 \
+| "Dm"A2 a2 a2 | a2 ^ga ba | "A7"a2 g2 g2 | g2 ^fg ag \
+| "Dm"A2 f2 f2 | f2 ef ag | "A7"~f2 e2 e2 | eg fe d^c |
+x4 \
+| "Dm"A2 a2 a2 | a2 ^ga ba | "A7"a2 g2 g2 | g2 ^fg ag \
+| "Dm"f2 ag fe | "A7"d2^cd eg | "Dm"fe d2 "Gm"d2 | "Dm"d4 :|
+|: A2 \
+| "Dm"A2 d2 d2 | d2 e2 f2 | fe d2 e2 | "A"^c4 A2 \
+| "Dm"A2 f2 f2 | f2 ef ag | "A7"f2 e2 e2 | eg fe d^c |
+x4 \
+| "Dm"A2 d2 d2 | d2 e2 f2 | fe d2 e2 | "A"^c4 A2 \
+| "Dm"f2 ag fe | "A7"d2^cd eg | "Dm"fe d2 "Gm"d2 | "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/19829
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BrudvalsFrJamtland.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/BrudvalsFrJamtland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

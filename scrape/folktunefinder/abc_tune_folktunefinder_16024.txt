@@ -1,0 +1,34 @@
+X: 1
+T: Miss C.M. Barbour
+C: Iain MacPhail
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF file from Janis Dairiki 2009-2-13
+M: 4/4
+L: 1/8
+K: D
+"A7"A2 \
+[|"D"^EFAE FAEF | B2A2 A4 | ^EFAE FABA | "G"G4 G2F2 \
+| "Em"E^DEF GFGA | "A7"c2c2 c3B | A^GA^A B2G2 | "D"F4 F3A |
+| "D"^EFAE FAEF | B2A2 A2FE | DCDE FDFA | "G"B4 B3A \
+| "Em"GFGA "A7"BABc | "D"d2F2 "Bm"F2AF | "Em"GFED "A7"CDEF | "D"D4 D3A |]
+[|"D"d2F2 A2D2 | F^EFG F3=E | DBAF "Bm"D2F2 | "Em"G4 G3B \
+| "Em"e2G2 B2E2 | "A7"GFGA G4 | CB,A,B, CDE^E | "D"F4 F3A |
+| "D"d2F2 A2D2 | F^EFG F3=E | DBAF D2A2 | "G"B4 "D7"B3A \
+| "G"BABc d2A2 | "D"ABAG F2A2 | "A7"edcB ABAE | "D"F4 F3"A7"A |]
+[|"D"d2F2 A2D2 | F^EFG F3=E | DBAF D2A2 | "G"B4 "D7"B3A \
+| "Em"GFGA "A7"BABc | "D"d2F2 "Bm"F2AF | "Em"GFED "A7"CDEF | "D"D4 D2 |]
+S:https://www.folktunefinder.com/tunes/16024
+S:http://trillian.mit.edu/~jc/music/abc/new/Miss_C_M_Barbour_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/Miss_C_M_Barbour_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new/Miss_C_M_Barbour_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/Miss_C_M_Barbour_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

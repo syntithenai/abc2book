@@ -1,0 +1,30 @@
+X: 28
+T:Mareys Dream. JMP.028
+M:C|
+L:1/4
+Q:125
+C:"31...a hornpipe"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C. Graebe
+K:G major
+B/A/ | G EE D/E/ | G/F/G/A/ B G/A/ | BEE F/G/ | A/G/F/E/ D B/A/ |!
+ GEE D/E/ | G/F/G/A/ B A/G/ | A/B/d/e/ d/B/A/B/| GEE :|!
+|: B/d/ |  e>d B A/G/ |A/G/A/B/ d B/d/ |e>d B A/G/ | A/G/F/E/ D B/A/ |!
+ GEE D/E/ |G/F/G/A/ B A/G/ | A/B/d/e/ d/B/A/B/ | GEE :|]
+S:https://www.folktunefinder.com/tunes/1965
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:1
+T:Les noces des gueux
+R:
+O:France
+A:
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=110
+K:C
+A A/ A/ c c | d d e2 | e e/ f/ d d | c B A2 |
+e e/ e/ g e | g a e2 | c d e c/ d/ | e c A2 | 
+c/ B/ A/ B/ c c | c/ B/ A/ B/ c c | d>d ed | c B A2-|A2 z2 | z4 ||
+W:L'alouette avec le merlot,
+W:Tous les deux veulent se marier. (2x)
+W:Y'a pas d'pain pour le djeuner.
+W:
+W:  Belle jolivette, jeune jolivette
+W:  Ah mon oiseau qu'il est beau !
+W:
+W:Il est venu Matre Corbeau, sous son aile il apporte un fltiaux :
+W:"Pour du pain, vous en aurez bien, pour d'la viande, vous n'en aurez point !"
+S:https://www.folktunefinder.com/tunes/39912
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

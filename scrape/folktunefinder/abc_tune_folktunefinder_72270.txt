@@ -1,0 +1,35 @@
+X: 21
+T:Untitled. HA.022
+M:6/4
+L:1/8
+Q:120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:The two sharps shown in the MS are disconcertingly placed at the top
+N:and the bottom of the stave. CGP.
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:D
+"As Writ, No time sig. in MS"A2|F2G2A2 D4B2|(AF)A2 A,2C2D2|E4A,2A2|!
+F2GA2D4f2|f2(e/f/) g2(e/d/)A2|d2D4||!
+(de)|f2gf2 (ec)d2|e2fg2 g2(gf)(ed)|e4A4|!
+f2(e/f/) g2(ec)A2|c2(B/c/) d2(AF)A2|d4D4||!
+zzzz|zzzz|zzzz||!
+"Edited by CGP"\
+A2|F3GA2 D4B2|(AF3)A2 A,2C2D2|E6A,4A2|!
+F3GA2D4f2|f2(ef) g2(ed3)A2|d6D4||!
+(de)|f3gf2 (ec3)d2|e3fg2 g2(gf)(ed)|e6A6|!
+f2(ef)g2 (ec3)A2|c2(Bc) d2(AF3)A2|d6D4|]
+S:https://www.folktunefinder.com/tunes/72270
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

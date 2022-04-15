@@ -1,0 +1,25 @@
+X:331
+T: "Liebestreu"
+N: Z1011
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade, Tod, Sage
+M: 3/8
+L: 1/16
+K: A
+=c2 | A2A2B2 | =c2B2c2 | A4=c2 | B4
+=c2 | A2A2B2 | d2=c2B2 | A4G2 | A4
+AB | =c2c2c2 | d2d2d2 | e6 | d4
+ed | =c2B2A2 | G2A2B2 | A4
+S:https://www.folktunefinder.com/tunes/69190
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

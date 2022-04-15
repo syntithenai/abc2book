@@ -1,0 +1,26 @@
+X:10
+T:Fezelen
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:ABx2
+L:1/8
+M:2/4
+K:G
+P:Voorspel
+D2 | G2 B2 | A2 G2 | AG FA | G z |]
+P:A
+D2 || G2 B2 | A2 G2 | AG FE | D2 D2 | c2 c2 | cB ce | (d4 | d2) z c/B/ |
+AE EB/A/ | GD DA/G/ | FD FA | d2 z c/B/ | AE EB/A/ | GD DA/G/ | FD FA |1 G z D2 :|2 G z z2 |]
+P:B
+d/^c/d/e/ dB | =cA G z | d/^c/d/e/ dB | =cB A z | d/^c/d/e/ dB | =cA e2 |1 dd cc | (B2 B) z :|2 dd cA | G2 |]
+S:https://www.folktunefinder.com/tunes/40595
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

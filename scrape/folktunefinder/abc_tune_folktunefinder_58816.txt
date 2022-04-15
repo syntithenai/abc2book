@@ -1,0 +1,27 @@
+X:5
+T:Flatworld
+A:Andy Cutting
+Z:Judy Hawkins
+K:Am
+M:3/4
+L:1/8
+e de |\
+"Am" ce Be AG | "F" F3 G AF | "Dm" f3 e dc | "Em" B3 e de |
+"Am" ce Be AG | "F" F2 fe dc | "Em" B3 d cB |[1 "Am" A3 :|[2 "Am" A4 E2 |
+"Am" AB cA ag | "F" f3 e dc | "G" Bc dG gf | "C" e3 d cB |
+"F" AB cF fe | "D" d3 c BA |[1 "E" B3 d ^cd | "Am" B2 c2 B2 :| [2 "E"
+B3 d cB | "Am" A4 ||
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58816
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

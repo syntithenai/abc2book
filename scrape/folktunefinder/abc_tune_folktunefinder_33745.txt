@@ -1,0 +1,39 @@
+X: 4588
+T:Schottische
+C:From John W. Summers
+N:Learned 5/72
+N:Summers played this with a gentle swing, the dotted-eighth/sixteenth
+N:pair is a bit overstated, but eighth-note pairs would be understated. Be
+N:nd
+N:this,there was a fair amount of variation in his timing of the pairs. Th
+N:
+N:is not a precise transcription of a particular playing by Summers.
+M:C
+L:1/8
+Q:270
+Z:posted by Joel Shimberg 11/98
+K:C
+E>F|:G>E C>E G2G2|F>A D<F A2A>c|B2g2A2B2|1d>c B>A GFEF:|[2 c4c2 Bc||
+K:G
+|:{B}d2d2g2c2 | {c}B>A B>c d3e|1 dcAF DFAc|BGDB, G,B,DG:|[2 d>g f>e d>c
+B>A|G2G2G>=F E>F||
+K:C
+|: G>E C>E G2G2 | F>A D>F [A2A2]Ac |1 B2g2A2B2| (3ced (3cBA G2 E>F:|[2BA
+Bg
+AcBd| c2c2c2z2||
+[e2e2]e2f2e2 | d2F2A3c| B2 D>E {G}FEFA | G>E CEG2c>d| e2e2f2e2|d2f2a3a|
+b>a ge fdAB | c2c2c2z2 || [e2e2]e2f2e2 | d2F2A4| (3Bgg g2 (3Bgg g>g |
+a>g^f>g agec | e2e2f2^c2| d2f2a3a| b>a ge fd A>B | c2e2c>E F>^F |
+|:G>E C>E G2G2|F>A D<F A2A>c|BABg AcBd | c>d (3cBA G>F E>F ||
+G>E C>E GCEG|F>A DF [A2A2]A>c| BABg AcBd | Hc6|]
+S:https://www.folktunefinder.com/tunes/33745
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

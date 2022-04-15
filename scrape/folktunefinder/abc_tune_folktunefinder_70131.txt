@@ -1,0 +1,24 @@
+X:1
+T: Wir haben verloren ein Blmelein, S. 18
+N: S0064
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: Liebeslied, Brautlied]
+M: 2/4
+L: 1/8
+K: F
+A | A2GA | c2BA | G2AB | G2z2
+c2AB | G2z2 | A2GA | F2z
+S:https://www.folktunefinder.com/tunes/70131
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Liebeslied, brautlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

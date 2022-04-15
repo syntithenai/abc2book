@@ -1,0 +1,84 @@
+X: 20
+T: the Bell Harbour
+M: 2/2
+L: 1/8
+Q:1/4=170
+K:G % 1 sharps
+% the Bell Harbour
+% (c) SSF February 2006
+V:1
+DG G2 DG  (3Bcd| \
+g2 dg eg dB| \
+A3G Ac BA| \
+GB AF GF EF|
+DG G2 DG  (3Bcd| \
+g3d eg dB| \
+GA Bd ge dc| \
+Bd AF2<G2E|
+DG G2 DG  (3Bcd| \
+g2 dg eg dB| \
+A3G Ac BA| \
+GB AF GF EF|
+DG G2 DG  (3Bcd| \
+g3d eg dB| \
+GA Bd ge dc| \
+Bd AF G2 Bc|
+dg gf gG  (3Bcd| \
+g2 af gf ed| \
+ea ag ab ag| \
+ea ag ed Bc|
+dg gf gG  (3Bcd| \
+g2 af ge dB| \
+GA Bd ge dc| \
+BG AF G2 Bc|
+dg gf gG  (3Bcd| \
+g2 af gf ed| \
+ea ag ab ag| \
+ea ag ed Bc|
+dg gf gG  (3Bcd| \
+g2 af ge dB| \
+GA Bd ge dc| \
+BG AF G2 
+V:2
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [DB,G,]z C,z [DB,G,]z| \
+D,z [cAFD]z D,z [cAFD]z| \
+G,,z [DB,G,]z D,z [AFD]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [DB,G,]z C,z [DB,G,]z| \
+G,,z [DB,G,]z A,,z [GECA,]z| \
+G,,z [AFD]z G,,z [DB,G,]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [DB,G,]z C,z [DB,G,]z| \
+D,z [cAFD]z D,z [cAFD]z| \
+G,,z [DB,G,]z D,z [AFD]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [DB,G,]z C,z [DB,G,]z| \
+G,,z [DB,G,]z A,,z [GECA,]z| \
+G,,z [AFD]z G,,z3|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [AFD]z E,z [BGE]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+A,,z [ECA,]z E,z [BGE]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [AFD]z E,z [BGE]z| \
+G,,z [DB,G,]z C,z [GEC]z| \
+G,,z [A,F,D,]z G,,z [DB,G,]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [AFD]z E,z [BGE]z| \
+A,,z [ECA,]z A,,z [ECA,]z| \
+A,,z [ECA,]z E,z [BGE]z|
+G,,z [DB,G,]z G,,z [DB,G,]z| \
+G,,z [AFD]z E,z [BGE]z| \
+G,,z [DB,G,]z C,z [GEC]z| \
+G,,z [A,F,D,]z G,,z [DB,G,]
+%  <A name="D1X21">
+S:https://www.folktunefinder.com/tunes/81694
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

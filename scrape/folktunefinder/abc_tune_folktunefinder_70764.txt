@@ -1,0 +1,31 @@
+X:019
+%%topmargin 3cm
+T:Burn O'Cairnie
+T:Miss Wedderburn
+S:Peter Milnes Collection
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+F | E2 E>F E>FA>c | B>AB>c B>AF>A | E2 E>F E>FA>c | B>AB>c A/2A/2A A ||
+c | d2 d>f e<cc<e | B>AB>c B>AFA | d>cd<f e<cc<e | B>AB>c A/2A/2A Ac |
+{/e}d>cd<f {/d}c>Bce | B>AB<c B>AF>f | e<ee>f a>ec>e | B>AB>c A/2A/2A A |]
+W:Also played as a reel. From Peter Milnes Collection.
+S:https://www.folktunefinder.com/tunes/70764
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Burn_OCairnie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Wedderburn.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0019.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

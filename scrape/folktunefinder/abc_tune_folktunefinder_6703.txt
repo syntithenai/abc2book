@@ -1,0 +1,19 @@
+X: 1
+T: Asher Bara #3 (Cm)
+M: 2/4
+L: 1/8
+K: Cm
+|:"Cm"C C2 E | "Fm"GF F2 | GF F2 | GF F2 \
+| "Cm"C C2 E | "Fm"GF F2 | "Gm" ED CB, | "Cm"C4 :|
+|:"Cm"C E2 E | E2 E2 | "Cm"E2 F2 | "Bb"D4 \
+|1 "Bb"B, D2 D | D2 D2 | D2 E2 | "Cm"C4 \
+:|2"Bb"B, D2 C | D2 E2 | "Cm"C4- | C4 :|
+S:https://www.folktunefinder.com/tunes/6703
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/AsherBara3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AsherBara3_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

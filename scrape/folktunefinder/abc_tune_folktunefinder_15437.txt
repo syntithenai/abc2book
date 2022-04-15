@@ -1,0 +1,29 @@
+X: 1
+T: the Gay Gordons
+C: J.S.Skinner
+M: 2/4
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+K: A
+E \
+|: "A"A>B cB/A/ | "D"d>e fe/d/ | "A"ca     cB/A/    | "E7"cB BE \
+|  "A"A>B cB/A/ | "D"d>e fe/d/ | "A"ca "E7"e/c/d/B/ | "A"cA A2 :|
+e \
+| "A"a>f ed/c/ | "D"d>e fe/d/ | "A"ca "F#m"cB/A/    | "Bm"cB "E7"Be \
+| "A"a>f ed/c/ | "D"d>e fe/d/ | "A"ca  "E7"e/c/d/B/ | "A"eA A ||
+e \
+| "A"a>f ed/c/ | "D"d>e fe/d/ | "A"ca "F#m"cB/A/    | "B7"cB "E7"Be \
+| "A"A>B cB/A/ | "D"d>e fe/d/ | "A"ca  "E7"e/c/d/B/ | "A"cA A2 |]
+S:https://www.folktunefinder.com/tunes/15437
+S:http://trillian.mit.edu/~jc/music/abc/march/GayGordons2_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/march/GayGordons2_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/march/GayGordons2_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

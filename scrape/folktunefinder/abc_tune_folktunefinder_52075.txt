@@ -1,0 +1,33 @@
+X:199
+T:La Marche des Cornards
+D:"Berry/Bourbonnais", Les Frres Guillemain
+Z:Dave Holland <dave@biff.org.uk> (draft)
+M:2/4
+Q:c2=124
+L:1/8
+K:G
+B/c/B/A/ GB | d2 d2 | B/c/B/A/ Gg | f=f e2 |
+c/d/c/A/ FA | c3 A |1 fd/^d/ e=d/c/ | B2 G2 :|2 fe/d/ cB/A/ | GB/d/ G2 ||
+%
+|:B/c/B/A/ G/B/G/B/ | d/^c/d/e/ d2 | B/c/B/A/ Gg | f=f e2 |
+c/d/c/A/ FA | c3 A |1 fe/^d/ e=d/c/ | B2 G2 :|2 fe/d/ cB/A/ | GB/d/ g2 ||
+%
+|:d/B/d/g/ b2 | g/f/g/e/ d/e/d/B/ | G/A/B/c/ d/e/f/g/ | a/^g/a/b/ c'2 |
+a/^g/a/b/ c'/b/c'/b/ | a/b/a/g/ f2 | f/g/f/e/ d/e/d/c/ |1 B/c/A/c/ BG \
+:|2 B/c/A/B/ G/A/G/F/ ||
+%
+|:G/B/d/g/ b2 | g/f/g/e/ d/e/d/B/ | G/A/B/c/ d/e/f/g/ | a/^g/a/b/ c'2 |
+a/^g/a/b/ c'/b/c'/b/ | a/b/a/g/ f2 | f/g/f/e/ d/e/d/c/ |1 B/c/A/c/ BG \
+:|2 B/c/A/B/ G2 |]
+%%newpage
+%%center Mazurkas
+S:https://www.folktunefinder.com/tunes/52075
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

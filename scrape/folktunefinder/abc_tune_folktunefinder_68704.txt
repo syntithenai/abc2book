@@ -1,0 +1,30 @@
+X:158
+T: Brauns Maegdelein
+N: A0196
+O: Europa, Mitteleuropa, Deutschland
+N: Forster V. 1556 No. 15.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+C2 | F2F2G2A2 | B3AG2
+c2 | A2F2G2E2 | F4z2
+C2 | F2F2G2A2 | B3AG2
+c2 | A2F2G2E2 | F4z2
+F2 | G2A2B2G2 | A2B2c2
+_e2 | d2c2c2B2 | c4z2
+c2 | c2c2ABcA | B2A2G2
+B2 | A2F2G2E2 | F6
+S:https://www.folktunefinder.com/tunes/68704
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

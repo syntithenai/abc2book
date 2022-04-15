@@ -1,0 +1,24 @@
+X:260
+T:Saddle the Pony
+T:Langstern Pony
+S:Judith Tait, Edinburgh
+Z:Nigel Gatherer <gatherer:ARGONET.CO.UK> irtrad-l 2001-6-8
+M:6/8
+L:1/8
+K:A mixolydian
+fed cAA|eAA cAA|fed cAA|BGB dBG|fed cAA|eAA efg|
+f/g/af gfe|dBG Bcd::cee dff|cee ecA|cee dff|
+dBG Bcd|cee dff|cAA efg|f/g/af gfe|dBG Bcd:|]
+S:https://www.folktunefinder.com/tunes/14511
+S:http://trillian.mit.edu/~jc/music/abc/jig/LangsternPony_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/SaddleThePony_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/LangsternPony_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SaddleThePony_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/LangsternPony_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SaddleThePony_2.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Sister Elder's Reel
+C: Jimmy Shand
+R: reel
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2  \
+| "D"DEFG A2D2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 :|
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 fg \
+| "D"agfe d2A2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 ||
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 |]
+S:https://www.folktunefinder.com/tunes/18123
+S:http://trillian.mit.edu/~jc/music/abc/reel/SisterEldersReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/SisterEldersReel_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SisterEldersReel_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

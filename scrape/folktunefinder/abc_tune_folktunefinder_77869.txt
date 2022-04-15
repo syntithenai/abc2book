@@ -1,0 +1,33 @@
+X: 911
+T: Spellan the fiddler
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 911
+R: Hornpipe
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-091
+1.abc
+M: C|
+L: 1/8
+K: G
+(3DEF|G>DB>G d>Bg>d|b>g (3ded c>BA>G|.F(d^cd) .A(dcd)|d>ce>d c>AF>D|
+G>DB>G d>Bg>d|b>g (3ded c>BA>G|f>ec>A e>dB>G|FA (3DEF G2::g2|b>gd>B G>Bd>
+g|a>fc>A F>Ac>f|
+a>gb>a c'>ba>g|f>ed>c B>AG>F|G>DB>G d>Bg>d|b>g (3ded c>BA>G|f>ec>A e>dB>G
+|FA (3DEF G2:|
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/77869
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-091
+S:http://trillian.mit.edu/~jc/music/book/oneills/1001/F/09.abc
+% Rhythm Hornpipe
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

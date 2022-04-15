@@ -1,0 +1,27 @@
+X:31
+T:La cansoun dis vi
+O:France
+A:Provence
+C:Anonyme
+R:Chanson
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:"Moderato"
+K:Bb
+F | B>B B>c | d2dd | c2cc | B2 F>F | B>B B>c | d2 dd | cccc | B4 |
+Q:"Lento"
+BB B2 | ccc2 | d>f e>c | B2F2 | BBB2 | ccc2 | d>d c>c | B4 |]
+%%footer $D   Galouvielle-MBe 2008 \nChanson (France)
+S:https://www.folktunefinder.com/tunes/490
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

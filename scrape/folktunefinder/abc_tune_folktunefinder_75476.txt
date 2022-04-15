@@ -1,0 +1,19 @@
+X: 1
+T:The Sailors are a' at the Bar
+M:9/8
+L:1/8
+K:F
+BGBAFAG2B|AcAFAFAcA|BGBAFAB2c|defgecBAG:||:F2fegef3|cdegcBAGF|G2gegeg3|d
+efgecBAG:||
+% Output from ABC2Win  Version 2.1 i on 3/6/2000
+S:https://www.folktunefinder.com/tunes/75476
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

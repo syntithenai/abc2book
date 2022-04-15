@@ -1,0 +1,29 @@
+X:1
+T:le Reel de la Pistroli
+R:reel
+C:Emile Benoit
+Z:Kelly Russell, ABC by Gerry Strong
+Z:Gerry Strong <gerry.strong:NF.sympatico.ca> irtrad-l 2001-01-06
+M:C|
+L:1/8
+Q:120
+K:D
+| D2 DE FAAB | d2 fd ed B2 | A2 AB dfaf | edef e2 e2 |
+| D2 DE FAAB | d2 fd ed B2 | A2 AB dfaf | edef d2 d2 :|
+|:faab afde | fdef dBAF | DEFA BABd | edfd e2 e2 |
+| faab afde | fdef dBAF | DEFA BABd | edfe ed d2 :|
+S:https://www.folktunefinder.com/tunes/17977
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDeLaPistroli.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDeLaPistroli.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDeLaPistroli.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ReelDeLaPistroli.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ReelDeLaPistroli.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

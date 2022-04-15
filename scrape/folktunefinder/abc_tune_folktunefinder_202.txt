@@ -1,0 +1,31 @@
+X: 3
+P: Trial by Jury Lancers, Figure 3 (When first my old, old love I knew)
+C: Sir Arthur Sullivan
+M: 6/8
+L: 1/8
+K: D
+A3 "A"\
+|: "D"d2d d2d | "A7"dcB c2B | "A7"A2B cde | "D"d3- d2A \
+|  "D"d2d d2d | "A7"dc^B c3 | "E7"B^AB dcB | "A"A3- A2A |
+"B"\
+| "B7"B2B B=cB | "Em"e2B B2B | "A7"A2A A^GA | "D"d3- d2 !rit!A \
+| "Gm"_B2B "C7"d=cB | "F"A2^G HA2A | "Bb"=FFF "Gm"G2G | "A"A3- AFB |
+"C"\
+| "D"AFB AFd | "A7"c3- cEB | AEB AGe | "D"d3- d2A \
+| "G"B^AB "F#7"c^Bc | "Bm"dcd "E7"e3 | "D"fed "A7"eAc | "D"d3 d2 d ||[K:=c]
+[K:G] "D"\
+| "G"ed^c dBG | "D7"F3- F2d | "G"ed^c dBG | "D7"GF2- F2 d \
+| !rit!def "G"gfg | "Em"HG3 "Am"ABc |"G"B3 "D7"A2B |1 "G"AG2- G2A :|2 "G"AG2- GFB |
+[K:D]"Coda"\
+| AFB AFd | "A7"c3- cEB | AEB AGe | "D"d3- d2A \
+| "G"B^AB "F#7"c^Bc | "Bm"dcd "E7"e3 | "D"fed "A7"eAc | "D"d>dd d2 |]
+S:https://www.folktunefinder.com/tunes/202
+S:http://trillian.mit.edu/~jc/music/abc/Contra/TrialByJuryLancers_P1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

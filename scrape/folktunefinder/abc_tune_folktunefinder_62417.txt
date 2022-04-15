@@ -1,0 +1,25 @@
+X:86
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl-polska
+H:Spelas \"aven i Gm, se nr 5
+A:Sm{\aa}land
+Z:id:hn-jp-86
+M:3/4
+L:1/16
+K:Am
+A3B cBA^G ^G2A2 | A3B cBA^G ^G2A2 | A^GAB cBcd e^de^f |
+g^fe^d ^d2e2 e4 :| [K:A] |: e2a2 a2{b}ag a2a2 | e2fe d2d2 f2e2 |
+c2cd B2Bc ABcd | e2a2 agbg e4 | e2a2 a2{b}ag a4 | e2fe d2d2 f2e2 |
+c2cd B2Bc A3c | B2G2 G2A2 A4 :|
+S:https://www.folktunefinder.com/tunes/62417
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

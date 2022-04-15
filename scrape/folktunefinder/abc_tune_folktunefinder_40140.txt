@@ -1,0 +1,40 @@
+X: 37
+T: 2. On a Bank of Flowers
+R: Reel
+M: C|
+L: 1/8
+% Q: 440
+S: Adaptations and guitar chords by Robin Shaylor 2002
+K: Dm %Transposed from Eb
+|: DE |\
+"Dm" F2A2 A2=B^c |     d2A2 A2f2 | "A7" e2d2      e2^c2 | "Dm" d4 z2DE   |
+"Dm" F2A2 A2=B^c |     d2A2 A2f2 | "C"  e2d2 "A7" d2^c2 | "Dm" d6 fg     |
+"F"  a2f2 f2ga   | "C" g2c2 c2de | "Dm" f2d2      d2ef  | "A7" e2A2 A2FG |
+"F"  AGAB A2FG   |     AGAB A2f2 | "C"  e2d2 "A7" fed^c | "Dm" d6       :|
+%
+%%newpage
+%
+%
+%
+%
+%
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 21 of 31
+%
+%%text
+%%text
+fg |\
+"F" a2f2 f2ga   | "C" g2c2 c2de | "Dm" f2d2      d2ef  | "A7" e2A2 A2FG |
+"F" AGAB A2FG   |     AGAB A2f2 | "C"  e2d2 "A7" fed^c | "Dm" d6       ||
+S:https://www.folktunefinder.com/tunes/40140
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

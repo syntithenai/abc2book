@@ -1,0 +1,28 @@
+X: 1
+T: Lady Dick Lauder's Strathspey
+T: Fair Donald
+O: trad
+R: strathspey
+B:
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+G \
+| "C"c3e c2G2 "F"A3c "G7"G3B | "C"G3c edcd "G7"ed3 d3e \
+| "C"c3e c2G2 "F"A3c "G7"G3B | "F"A3c AGFE "G7"D4 "C"C3 :|
+e \
+| "C"c3c e2c2 g3c e2g2 | "F"f3a "C"e3g "F"agfe "G7"d3e \
+| "C"c3c e2c2 g3c e2g2 | "F"f3a agfe "G7"d4 "C"c3 |]
+e \
+| "C"c3c e2c2 g3c e2g2 | "F"f3a "C"e3g "F"agfe "G7"d3e \
+| "C"cde2 c2G2 "F"Ac3 fa3 | "C"g3c' "G7"agfe d4 "C"c3 |]
+S:https://www.folktunefinder.com/tunes/19340
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FairDonald_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FairDonald_C.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

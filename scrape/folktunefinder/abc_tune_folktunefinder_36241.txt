@@ -1,0 +1,28 @@
+X:810
+T:Brighams
+A:North-West
+M:4/4
+N:Bob Tysons 2nd of pair
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bfc.html
+%%ID:00000bfc
+K:G
+(3def|\
+gfgd BcBA | GFGe dgdB | cBcd edcB | A2d2 d2(3def |
+gfgd BcBA | GFGe dgdB | cAec BAGF | A2G2 G2     :|
+|:FG|\
+AGAB cAec | Bdgd BgdB | ecdB cABG | (3FAd (3gfe (3ded (3cBA|
+GBdB gdBG | cAae cafd | ecdB cAGF | A2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/36241
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

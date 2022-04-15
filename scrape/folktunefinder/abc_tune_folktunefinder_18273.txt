@@ -1,0 +1,29 @@
+X: 1
+T: the Village Bells
+R: reel
+B: RSCDS __-8
+O: Six Faavourite Dances by Charles Boyne
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+D \
+| "G"GGGG GBdB | cBgf edcB | "Am"cAAa agfg | edcB "D7"cAdB |
+| "G"GGGG GBdB | cBgf edcB | "Am"cBcd efge | "D7"dBcA "G"G3 ||
+|: d \
+| "G"dddd dgfg | agfg edcB | "Am"cccc cgfg | "A7"agfe "D7"dcBA |
+| "G"dddd dgfg | agfg edcB | "Am"ca"G"Bg "Am"Afge | "D7"dBcA "G"G3 |]
+S:https://www.folktunefinder.com/tunes/18273
+S:http://trillian.mit.edu/~jc/music/abc/reel/VillageBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/VillageBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/VillageBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/VillageBells.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/VillageBells.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

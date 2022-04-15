@@ -1,0 +1,25 @@
+X:125
+T:Ross Castle
+N:No repeat was given for 1st part. Key sig is definitely given with 2 sharps - should probably be 1. Makes more sense written in 3/2
+M:2/4
+K:GLyd
+dc|\
+B4 A4| G2G2 cBAG| FGAB A2dc| B4 A4| \
+G2G2 ABcA| B2G2 G2 ::
+dc|\
+B2G2A2D2| G2G2 cBAG| FGAB A2dc|\
+B2G2A2D2| G2G2 ABcA| B2G2G2::
+(dc)|\
+BcdB ABcA| G2G2 cBAG| FGAB A2dc|\
+BcdB ABcA| G2G2 ABcA| B2G2G2:|
+S:https://www.folktunefinder.com/tunes/35993
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Aird2.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:3647
+T:Let's Sing
+O:england
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+V:1
+"C" c cc ce4 |cc cc e3 c|"Bbm" f2 e2 ^ce/^c/ c_B |"C" f2 e6
+|"C" cc cc e4 |cc cc e3 c|"Bbm" f2 e2 ^ce/^c/ c_B |"C" ^c2 c6  |:
+"Fm" ^g^g ^g^g ^g_b/^g/ ^g^g |"C" gg gg g^g/g/ fe |"Bbm" fe fe f^g gf |"C" g2 e4 c2 |
+"Fm" ^g^g ^g^g ^g_b/^g/ ^g^g |"C" gg gg g^g/g/ fe |"Bbm" f3 _Bf2 e^c |"C" ^c2 c6 :|
+S:https://www.folktunefinder.com/tunes/24098
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

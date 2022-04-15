@@ -1,0 +1,29 @@
+X:1
+T:KC's Reel
+R:reel
+C:Jeff Lindqvist <jeff_lindqvist@SPRAY.SE> irtrad-l 2000-11-20
+H:Nov 20, -00
+N:Composed for (and specially ordered by) Katherine Cleary, who has got a
+N:B/C accordion. DADGAD.
+M:C|
+L:1/8
+K:Gm
+|:~D2FA ABGF | EGBD B,CDF | GABd fgdc | BdcB AGFC |
+DFAF BG~G2 | AGFG ~D2FD | EDCD EFGB | ABcA BG~G2 :|
+|:DB,~B,2 FB,CD | DFGA BAGF | DB,~B,2 GFAG | FGAB ADDC |
+DB,~B,2 FB,CD | DFGA BAGF | EDCD EFGB | ABcA BG~G2 :|
+S:https://www.folktunefinder.com/tunes/17479
+S:http://trillian.mit.edu/~jc/music/abc/reel/KCsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KCsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KCsReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

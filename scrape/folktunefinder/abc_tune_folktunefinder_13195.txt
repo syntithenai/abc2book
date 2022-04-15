@@ -1,0 +1,31 @@
+X:1
+T: Gypsy Weaver
+T: 8 x 32S 3C (Denise Peet)
+P: The Gypsy Weaver
+C: Liz Donaldson
+C: arr. T. Traub 2-17-2004
+R: Strathspey
+M: 4/4
+L: 1/8
+K: Gm
+BA \
+| "Gm"G2 G2 g3 e | "Gm"d>c Bc "D"d2 BA \
+| "Gm"G2 G2 g3 e | "Gm (Cm)"d>c Bc "D"A2 BA \
+| "Gm"G2 G2 "Cm"g3 e | "Gm"d>c Bc d2 GA \
+| "Gm"B3 c "F"A3 B | "Gm"G6 |]
+GA \
+| "D"^F3 A d3 c | "Gm"B>A GA B2 Bc \
+| "F"A3 c f3 e | "Bb"d6 cB \
+| "F"A2 A2 "D"d3 c | "Gm"B>A GA B2 GA \
+| "Gm" B3 c "F"A3 B |1 "Eb"G3 A "D"^F2 :|2 "Gm" G6 |]
+S:https://www.folktunefinder.com/tunes/13195
+S:http://trillian.mit.edu/~jc/music/abc/air/GypsyWeaver_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/GypsyWeaver_Gm.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

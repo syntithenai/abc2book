@@ -1,0 +1,35 @@
+X:554
+T: SEHT WIE DIE TAGE SICH SONNIG VERKLAEREN
+N: F1077
+O: Europa, Mitteleuropa, Deutschland
+R: Trost - Lied
+M: 3/8
+L: 1/16
+K: G
+ | B2dcAF | GBdc
+AF | GBdBgd | c2B2z2
+A2^GBGE | A2^GB
+GE | AedcBA | G2F2z2
+B2dcAF | GBdc
+AF | GBdBAG | c2B2z2
+A2AB^cd | A2AB
+^cd | Bee2^c2 | d4z2
+Ddd3d | d^c=c3
+e | e_BB3G | FAA2z2
+c2c3c | cBB3
+G | d3cB2 | A4z2
+B2dcAF | GBdc
+AF | GBdBgd | c2B2z2
+e2e2e2 | e3d
+c2 | Bdc2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/70114
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Trost - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

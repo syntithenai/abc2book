@@ -1,0 +1,30 @@
+X:57
+T:BRDRWDO1- Oh Onochie O
+S:Caledonian Pocket Companion
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+G3/4A/4|B2c|{B/}A2(G3/4A/4)|{A/}B2{E/}D|{D/}E2D3/4E/4|\
+GGg|{f/}e2d|(e/d/)(c/B/)d|{d/}e2G3/4A/4|B2c|\
+{B/}A2G3/4A/4|{G/A/}BED|E2(G3/4A/4)|BB(d/B/)|\
+{B/}AA(B/A/)|G3/2 e/F|G2||(f/g/)|a3/2 g/f|(ef)g|f/e/^de|\
+B2(G/4A/4B/4c/4)|dd(g/f/)|e3/2 f/g|d(e/d/)(c/B/)|\
+{B/}A2 (d/c/)|(Bc)d|eFG|d3/4B/4AG|d2g3/4f/4|\
+e3/2 d/ (B/4d/4e/)|d3/2 B/ (A/4B/4d/)|\
+.B3/2 A/ (B/4A/4G/4A/4)|G2|]
+S:https://www.folktunefinder.com/tunes/75436
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/S1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/S1.ABC
+S:http://www.csufresno.edu/folklore/Olson/S1.ABC
+S:http://www.mudcat.org/olson/S1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/S1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

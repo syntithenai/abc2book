@@ -1,0 +1,29 @@
+X: 1
+T: Zephyrs and Flora
+O: Playford 1713
+B: Henry Playford's English Dancing Master, Vol. II, 4th Ed., 1713
+B: Barnes
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d2 \
+| "G"B2G2 B2d2 | g6 a2 | "G"b2g2 "D7"a2f2 | "G"gfga g2d2 \
+| "G"B2G2 B2d2 | g6 a2 | "G"b2g2 "D7"a2f2 | "G"g4 z2 :|
+|: d2 \
+| "G"BcBc dcde | "G"B2G2 G4 | "Am"cdcd ede=f | "Am"c2A2 A4 \
+| "D7"fgfg agab | "G"g2d2 "C"d2c2 | "G"BAGB "D7"A2F2 | "G"G4 z2 :|
+S:https://www.folktunefinder.com/tunes/18337
+S:http://trillian.mit.edu/~jc/music/abc/reel/Zephyrs_and_Flora_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Zephyrs_and_Flora_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Zephyrs_and_Flora_G.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Zephyrs_and_Flora_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

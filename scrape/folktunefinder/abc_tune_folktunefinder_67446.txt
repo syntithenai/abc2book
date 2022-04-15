@@ -1,0 +1,40 @@
+X:720
+T:Suil Ghorm
+C:Altan
+R:slip jig
+H:
+Z:
+M:9/8
+K:Dm
+D3|:"Dm"A3 F3 "(Gno3)"G2A|"C"G2F E3 C2D|"Am"E3 G3 c2d|"Dm" A3 A3 c2=B|
+"F"A3 G3 "(Gno3)"A2G|"C"E2D C3 C2D|
+|1"Am"E3 "Bb"F3 G2F|\
+M:3/8
+"C"E3|\
+M:6/8
+"Dm"(D3 D3)|z3 "Em"z3|"Dm"z3 z3|z3 D3:|
+M:9/8
+|2"Am"E3 F3 G2F|"Bb"E3 (D3 D3)|"C"z3 z3 z3||
+"F"(A3 A2)B c2d|A3 "C"G3 A2G|"Dm"(F3 F2)G A2G|"Bb"F2E (D3 D3)|
+"F"(A3 A2) G FGA|"C"G2F (E3 E3)|"Am"(E3 E2)F EDC|"G(no3)"D3 (D3 D3)|z3 z3 D3|
+"Dm"A3 F3 "(Gno3)"G2A|"C"G2F E3 C2D|"Am"E3 G3 c2d|"Dm"A3 A3 c2=B|
+"F"A3 G3 "(Gno3)"A2 G|"C"E2D C3 C2D|"Am"E3 "Bb"F3 G2F|\
+M:3/8
+"C"E3|\
+M:6/8
+"Dm"(D3 D3)|
+"Dm"z3 "Em"z3|"Dm"z3 z3|z3 "Em\C"z3|"Dm"z3 z3|z3 "Em"z3|"Dm"z3 z3|z3 D3||
+S:https://www.folktunefinder.com/tunes/67446
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Time_signature 3/8
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

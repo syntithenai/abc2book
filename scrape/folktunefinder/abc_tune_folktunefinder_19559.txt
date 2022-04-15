@@ -1,0 +1,21 @@
+X: 1
+T: Miss Milligan's Strathspey
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+F2 | "D"D4  F3A d4  A4  | "G"B3A B3d "A7"eE3 E3F  | "D"D4  F3A d4  A4  | "G"Bcd2 "A7"efg2 "D"fd3 d2 :|
+fg | "D"a3A a3f a3d b3a | "D"a3d a3f "A7"fe3 e2fg | "D"a3A a3f a3d b3d | "D"A3d  "A7"e2de "D"f3d d2 ||
+fg | "D"a3A a3f a3d b3a | "D"a3d a3f "A7"fe3 e3A  | "D"D4  F3A d3c B3A | "G"Bcd2 "A7"efg2 "D"fd3 d2 |]
+S:https://www.folktunefinder.com/tunes/19559
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissMilliganStr2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissMilliganStr2_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

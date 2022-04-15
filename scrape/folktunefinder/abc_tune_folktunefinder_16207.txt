@@ -1,0 +1,31 @@
+X: 1
+T: Redwing
+T: Union Maid
+R: polka
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+N: Forms of this tune are found throughout the British Isles and
+N: Scandinavia, and many sets of words have been written to it.
+M: 2/4
+L: 1/8
+K: A
+E \
+|: "A"A>E Ac | e3 c | "D"df af | "A"e3 c \
+|  "Bm"dd/c/ "E7"Bd | "A"cc/B/ "F#m"Ac |1 "B7"BA GA | "E7"BG FE :|2 "B7"BA "E7"GB | "A"A2 ||
+ag \
+|: "D"f2 d2 | fa gf | "A"e2 c2- | ce fe \
+| "E7"e2 B2- |1 Be fe | "A"e2 c2- | ca g=g :|2 Bd cB | "A"A4- | A2 z2 |]
+S:https://www.folktunefinder.com/tunes/16207
+S:http://trillian.mit.edu/~jc/music/abc/polka/Redwing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/polka/Redwing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/Redwing_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/Redwing_A.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

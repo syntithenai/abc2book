@@ -1,0 +1,30 @@
+X: 1
+T: Mrs. Eleanora Robertson's Reel
+R: reel
+B: RSCDS 16-7(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+|: F \
+| "Bb"B2dB "F7"AcAF | "Bb"B2dB "F7"Acfe \
+| "Bb"dbfd "F7"ecAF | "Gm"GB"F7"Ac "Bb"dB B :|
+|| F \
+| "Bb"DB,DF "Cm"EGcB | "F7"AFAc "Bb"fdBF \
+| "Bb"DB,DF "Cm"EGcB | "F7"AcFe "Bb"dBBF |
+| "Bb"DB,DF "Cm"EGcB | "F7"AFAc "Bb"dBdf \
+| "Eb"gbge "Bb"dfdB | "F7"AcFA "Bb"BB, B, |]
+S:https://www.folktunefinder.com/tunes/17105
+S:http://trillian.mit.edu/~jc/music/abc/reel/EleanoraRobertsonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EleanoraRobertsonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/EleanoraRobertsonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/EleanoraRobertsonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/EleanoraRobertsonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/EleanoraRobertsonsReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

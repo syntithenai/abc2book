@@ -1,0 +1,29 @@
+X:4300
+T:Planxty George Brabazon
+C:Turlough O'Carolan
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000872.html
+%%ID:00000872
+K:G
+ge|\
+d2G2 cBAG|d2G2 cBAG|e2A2 ABcd|edcB A2Bc|\
+d2cB g2fe|edcB cBAG|
+BAGE DEGA|B2G2 G2::\
+ga|\
+b2gb a2fa|g2eg edcB|
+e2A2 ABcd|edcB A2ga|\
+b2gb a2fa|g2eg edcB|cBAG DEGA|B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/36939
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

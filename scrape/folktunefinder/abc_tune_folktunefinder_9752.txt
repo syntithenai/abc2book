@@ -1,0 +1,25 @@
+X: 2
+M: C
+L: 1/16
+P: Delvine Side
+N: Composed by Daniel Dow of Kirk Michael about 1775
+Z: John Chambers <jc:trillian.mit.edu>
+K: EDorian
+B4 \
+|:"Em"E3e dcBc   dE3    B3A  |"Em"[B2E2]>e2 dcBc "D"dD3 A3F  \
+| "Em"E3e dcBc   dE3 [G3E3]g | "D"fa3    "A"e3f "Bm"d3B AF3  :|
+||"Em"BE3 B3A    B3E    Be3  |    BE3       B3A  "D"d3B AF3  \
+| "Em"BE3 B3A    B3E    Bg3  | "D"fa3    "A"e3f "Bm"d3B AF3  ||
+||"Em"BE3 B3A    B3E    Be3  |    BE3       B3A  "D"d3B AF3  \
+|  "C"E3F G3A "G"B3A    Bg3  | "D"fa3    "A"e3f "Bm"d3F BAGF |] "Em"HE8 |]
+S:https://www.folktunefinder.com/tunes/9752
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGS16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

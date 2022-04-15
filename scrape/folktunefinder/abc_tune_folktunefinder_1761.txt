@@ -1,0 +1,32 @@
+X:406
+T:Michael's Mazurka
+C:Michael Ferrie
+D:Catriona MacDonald, Bold
+Z:Nigel Gatherer
+M:3/4
+L:1/8
+K:G
+GF | G4 A/B/c | B3 AGF | EG GB AG    | Fd FE DF |
+     G4 A/B/c | B3 AGF | EG GB A/G/F | G4      :|
+K:GDor
+D^F | G3  AB<c | d3 cBG | A^F AF DF | G>A B/c/d g2 |
+      DG GA Bc | d3 cBG | A^F AF DF | 1 G4        :|2 G3 ||
+K:G
+ABd |: g6       | d4  cB     | A2 a3 g  |   fd cd ef |
+       g4 b2    | g3 d2 c/B/ | A2 a3 g  |   fd cA FD |
+       G2 AB G2 | A2 Bc A2   | B2 cd B2 |   c2 de c2 |
+       d2 g3  e | f3 g a/g/f | g3  fga  | 1 g3  dBd :| 2 g4 |]
+S:https://www.folktunefinder.com/tunes/1761
+S:http://www.nigelgatherer.com/tunes/abc/tb09.abc
+S:http://nigelgatherer.com/tunes/abc/tb09.abc
+S:http://nigelgatherer.com/tunes/abc/abc5/mmaz.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc5/mmaz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

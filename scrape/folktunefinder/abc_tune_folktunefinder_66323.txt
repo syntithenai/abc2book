@@ -1,0 +1,42 @@
+X:0
+T:G.F. Rose of Auchernach
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:6/8
+L:1/8
+Q:3/8=88
+N:book doesn't indicate a repeat for parts 1 and 4
+N:upbeats of parts 2 and 3 printed as quavers in the book
+K:Hp
+   e   |  {g}A2{GdGe}A {gcd}c2d     |{gef}efg   {ag}a2g    |\
+        {afg}f2a        {eg}e2f     |{gef}edc  {gBd}B2e    |
+          {g}A2{GdGe}A {gcd}c2d     |{gef}efg   {ag}a2e    |\
+          {g}f2{GdG}f  {gef}e2c     |{gef}edB    {G}A2    :|
+{g}c/d/|{gef}e2f         {g}e2{GdG}e|  {g}faf  {gef}e>{g}cd|\
+          {g}efe       {Gdc}ded     |  {g}c<ec {gBd}B>{g}cd|
+        {gef}e2f         {g}e2{GdG}e|  {g}faf  {gef}e>ce   |\
+          {g}f2{GdG}f  {gef}e2c     |{gef}edB    {G}A2    :|
+{g}e/d/|{gcd}c2{e}A      {g}e2f     |  {g}efg   {ag}a2f    |\
+        {gef}e2f       {gcd}c2e     |{gef}edc  {gBd}B{g}ed |
+        {gcd}c2{e}A      {g}e2f     |  {g}efg   {ag}a2e    |\
+          {g}f2{GdG}f  {gef}e2c     |{gef}edB    {G}A2    :|
+{af}g  | {ag}a2e         {g}fae     |{gfg}f2a   {eg}e2a    |\
+         {fg}fdf       {gef}ece     |{gde}dcd  {gBd}B2{gf}g|
+         {ag}a2e         {g}fae     |{gfg}f2a   {eg}e2a    |\
+         {fg}f2{GdG}f  {gef}e2c     |{gef}edB    {G}A2    :|
+S:https://www.folktunefinder.com/tunes/66323
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

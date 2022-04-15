@@ -1,0 +1,28 @@
+X:648
+T: "Die Schneider"
+N: Z1329
+O: Europa, Mitteleuropa, Deutschland, Mittelrhein
+R: Zech -, Schalks - Lied
+M: 6/8
+L: 1/16
+K: C
+G,2 | G,4G,2G,2A,2B,2 | C3CC2C2B,2
+A,2 | G,4G,2^F,4F,2 | G,6-G,4
+G,2 | D3DD2E3EE2 | F3FF2E2D2
+D2 | C4C2D4D2 | E6-E4
+E2 | E2A,2A,2A,2B,2^C2 | D4D2D4
+D2 | D2G,2G,2G,2A,2B,2 | C3CC2C4
+C2 | B,4B,2A,4A,2 | ^G,6-=G,4
+E,2 | A,3^G,A,2B,3A,B,2 | C3B,C2D4
+D2 | E4E2F4B,2 | C6-C4
+S:https://www.folktunefinder.com/tunes/69507
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:2
+T:man of the house
+D:Paddy Keenan
+M:4/4
+Q:1/4=105
+K:Edor
+%1
+~E3B GEBG|~E3B AFDF|~E3B GEBc|d2cA BFAF|
+~E3B GABG|~E3B AFDF|~E2BE GABc|dBcA BEE2||
+~e2 eg f2fa|(3gfe (3fed ed Bd| ~e3g ~f2af|gfed Beed|
+~e3g f3a|(3gfe (3fed ed Bd|b2 af (3gfe (3fed |edBG AGFD||
+%2
+~E2 BE GABG|.E2 BA FDAF  |(3EEE BE GABc|.d2 .c.A BFAF|
+~E3B G2BG |~E3B ADFD    |~E3B GABc   |d2 cA BEE2||
+~e3g f>zfa|(3gfe(3fed ed(3Bcd| ~e3g ~f2 fa|gfed Beed|
+~e3g f2za |ge fd ed Bd |b2 af ge (3fed |edBG AGFD||
+%3
+(3EEE BE GABG|~E2BA FDAF|E2BE GABc|dBcA BFAF|
+~E3B G2JBG|(3EEE BA FDAF|.E2 BE GABc|d>z.cA BEE2||
+~e3 g .f2fa|(3gfe (3fed ed (3Bcd| ~e3g .f2af|gfed Beed|
+(3eee ge (3fff af|ge fd ed (3Bcd|b2 af (3gfe (3fed |edBG AGFD||
+%4
+(3EEE BE GABG|(3EEE BA FDAF|~E2BE GABc|.dB.cA .BF.AF|
+(3EEE BE GABG|(3EEE BA FDAF|~E2BE GABc|dBcA BEE2||
+~e3 g .f2fa|ge fd ed Bd| ~e3g ~f2af|gfed Beed|
+~e3g f3a|(3gfe (3fed ed Bd|b2 af (3gfe (3fed |edBG AGFD||
+%5
+~E3B GEBG|~E3B AFDF|~E3B GEBc|d2cA BFAF|
+~E3B GABG|~E3B AFDF|~E2BE GABc|dBcA BEE2||
+~e2 eg f2fa|(3gfe (3fed ed Bd| ~e3g ~f2af|gfed Beed|
+~e3g f3a|(3gfe (3fed ed Bd|b2 af (3gfe (3fed |edBG AGFD||
+S:https://www.folktunefinder.com/tunes/40460
+S:http://www.slainte.ch/abc/myreels.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

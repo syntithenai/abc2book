@@ -1,0 +1,27 @@
+X:1
+T:Slunk Jerks polska
+R:Polska
+O:Sweden
+A:Bingsj\"o, Dalarna
+D:Falu Spelmanslag 'i st\"oten'
+M:3/4
+%%RR_OriginalCollection: 
+Z:Richard Robinson <richard@beulah.demon.co.uk>
+K:D
+|: A>c e2-e2 | e/f/e/c/ A>B AG | F2 A/B/A/F/ Ad | f>e dc/d/ e4 | A>c e2-e2 |
+| e/f/e/c/ A>B AG | F2 A/B/A/F/ Ad | fe/f/ d3 A :: d>f a2-a2- | {b}af/d/ g2b2 |
+| a>g fg ec | d>e (3fgf e2 | c>e a2-a2- | {b}af/d/ g2b2 | a>g fg ec | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/16555
+S:http://trillian.mit.edu/~jc/music/abc/pols/SlunkJerksP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SlunkJerksP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/SlunkJerksP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/polska/SlunkJerksP.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:33
+T: WEINE NUR NICHT
+N: F0095
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Untreue
+M: 3/8
+L: 1/16
+K: D
+ | A4F2 | d4A2 | G2GFGA | F2z4
+B2A2G2 | F4A2 | G2G2F2 | E2z
+AAA | A2Eccc | c2A2z2 | B2A2^G2 | A2z2
+AA | A4F2 | d4A2 | G2GFGA | F2z2
+AA | d4A2 | f4d2 | AGF2E2 | D2z4
+S:https://www.folktunefinder.com/tunes/69593
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, untreue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

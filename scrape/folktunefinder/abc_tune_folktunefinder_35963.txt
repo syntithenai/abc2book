@@ -1,0 +1,30 @@
+X:95
+T:Inverness Scots Measure, The
+M:C|
+K:D
+FE|\
+D3F ("tr"ED)(EF)| B2E2 E2"tr"FE| \
+D3F ("tr"ED)(EF)| A(FED) d3e|\
+fedf edBe| dBdF E3F|
+DEFG AFdA| {G}F2"tr"ED D2::\
+fe|\
+d2a2 fgaf| {a}g2e2 e2fe| d2ag fgab| (ag)(fe) d3e|
+fedf edBe| dBAF E3F| DEFG AFdA| F2D2 D2::\
+FE|\
+DAFA DAFA| B2E2 E2(FE)| 
+DAFA DAFA| dAFD d3e|\
+fdef dBAd| AFdF E2FA| BcdB AFGE| F2D2 D2::
+fe|\
+dafa dafa| b2e2 egfe| dafa dafa| (bgfe) afed|
+gefd ecda| bagf efde| fedB ABdF| A2D2D2::
+S:https://www.folktunefinder.com/tunes/35963
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Aird2.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

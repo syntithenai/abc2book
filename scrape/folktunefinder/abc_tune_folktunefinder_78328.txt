@@ -1,0 +1,30 @@
+X:307
+T: ACH WAS IST DIE LIEBE FUER EIN SUESSES DING
+N: B0364
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 2/4
+L: 1/8
+K: Eb
+ | BAGF | E2E2
+FGAF | G4
+EEFG | A2G2
+GGAB | c2B2
+edcB | B2=A2
+fedc | c2B2
+gfed | fed2
+cBc=A | B4
+edcB | BAG2
+FcBD | E4
+S:https://www.folktunefinder.com/tunes/78328
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

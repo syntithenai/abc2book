@@ -1,0 +1,42 @@
+X:27
+T:Aires Asturianos (Amiestu) (MQ 010)
+C:Tradicional (Iges M. Quirs)
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Son unas cuantas canciones populares entrelazadas y estructuradas en dos partes, la primera es en modo menor y la segunda en mayor.
+N:De esta forma la grab en uno de mis discos.
+A:Asturies
+Z:Manolo Quirs 010
+M:2/4
+L:1/8
+Q:1/4=120
+K:Cm
+|:CD EF|GG GG|A2 F2|G4|
+CD EF|GG GG|A2 F2|G2 DE|
+F2 D2|E D2 C|D2 =B,2|C3 C|
+F3 D|E D2 C|D2 =B,2|C3 C|
+F2 D2|E D2 C|D2 =B,2|C4|
+C3 E|G3 A|c2 A2|G2 G2|
+G3 A|F3 G|E2 D2|C2 CE|
+G3 A|c2 A2|G2 G2|G3 A|
+F3 G|E2 D2|C2 C2|FF ED|
+EE DC|DD E/D/C/=B,/|C2 C2|FF ED|
+EE DC|DD E/D/C/=B,/|C2 C2-|C4
+|: GG GG|c2 =Bd|c4|BA GA|c2 BA|G4-|G4 :|
+|FF FF|B2 Ac|B2 A2|G4|FF FF|B2 Ac|B2 A2|G4-|G4|
+[K:C]
+|: G2 GG|A2 BA|G2 E2|G2 GG|A2 AG|A4|G2 GG|A2 BA|G2 E2|G2 FE|D2 EF|E4 :|
+|: E2 CE|G2 GG|G2 G2|A2 GF|G2 GF|E3 F|GG GF|F2 FE|D3 E|F2 FG|A2 G2|E4 :|
+|: E2 GG|A2 A2|G2 EE|F2 F2|E2 GG|AA BA|G2 EE|FF DD|E4- :|E4|
+S:https://www.folktunefinder.com/tunes/58914
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

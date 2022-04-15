@@ -1,0 +1,33 @@
+X:665
+T:Soi de Mieres (CT 133)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Mieres.
+N:Es variante de la sealada con el nmero CT 118.
+A:Asturies
+O:Mieres
+Z:Cancioneru de Torner 133
+M:3/4
+L:1/8
+Q:1/4=108
+K:Gm
+|:G4 B2|d4 e2|g6|^f4 (a3/2b/4a/4)|g6-|g4 z2|
+g4 g2|d4 e2|g6|f4 (e3/2f/4e/4)|d6-|d4 z2|
+g4 g2|d4 e2|c6|B4 (A3/2B/4A/4)|G6-|G4 z2:||
+W:Soi de Mieres, Soi de Mieres (bis)
+W:Soi de Mieres del Camino, (bis)
+W:Soi de Mieres, Soi de Mieres
+W:y en Villaviciosa vivo.
+W:
+S:https://www.folktunefinder.com/tunes/59552
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

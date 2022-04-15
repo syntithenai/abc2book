@@ -1,0 +1,28 @@
+X:315
+%%topmargin 3cm
+T:Ayrshire Lasses
+C:Earl of Eglinton
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+c | G<cE>c Td>cd<e | c<c{cd}e>d {AB}c<A(A>c) | G>cE>c Td>cd>e | {AB}c>A{/^F}G<c E<CC:|
+f | {ef}g>ec>g e<gc>g | {ef}g>ec>g df | {ef}ge{/B}ce d<fe>d | {/B}cA{/^F}G=F E<CC>f |
+{ef}g>ec<g (e<g)c>g | {ef}g>ec>g d<D D(e/f/) | {ef}g>ef>d e>cd>B | {AB}c<A{/^F}A>c E<CC |]
+W:
+W:In the manuscript, the last measure of the A section starts with single beam containing a
+W:dotted eighth, eighth, eighth, and dotted eighth note. The original intent is unclear to me. rp.
+S:https://www.folktunefinder.com/tunes/71344
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Ayrshire_Lasses.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0315.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Kulkurin valssi
+T: Vagabond Waltz
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+B: Pelimannisvelmi v.1, Pelimannikilta ry, (Fazer 1971)
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"GBd | ed>G | "D7"Bc>F | A3 | DFA | ddc | "G"B3- | BzB |
+| "G"BG>G | "C"AGF | Ec>c | c2e | "D7"dd>d | dcA | "G"G3- | Gz ||
+|| D \
+| "G"GGG | GBd | "C"e3 | "G"d2B | "D7"AAA | AGA | "G"B3- | BzB |
+| "G"GGG | GBd | "C"g3 | e2c | "G"Bdd | "D7"dcA | "G"G3- | Gz ||
+|| B/c/ \
+| "G"dd>c | B2d | "D7"cc>B | A2A/B/ | ccB | Ace | dd>c | "G"B2B/c/ |
+| "G"dd>c | Bdg | "C"eed | c2e | "D7"dfe | def | "G"g3- | gz |]
+S:https://www.folktunefinder.com/tunes/4339
+S:http://trillian.mit.edu/~jc/music/abc/Finland/KulkurinValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/KulkurinValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/KulkurinValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/KulkurinValssi.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

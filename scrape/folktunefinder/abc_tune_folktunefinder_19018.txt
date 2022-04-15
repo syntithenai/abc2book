@@ -1,0 +1,28 @@
+X:1
+%% Copyright ...
+T:Tea for two
+M:4/4
+L:1/4
+C:Vincent Youmans & Irving Caesar
+S:Blosson Dearie - "Once upon a summer time", Frans Elsen
+Q:1/4=140
+K:Ab
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+"Bbm7"A>F"Eb7"G>F|"Bbm7"A>F"Eb7"G>E|"Abmaj7"G>E"Db7"F>E|"Cm7"G>E"(Cbdim7)""F7"F2|
+S:https://www.folktunefinder.com/tunes/19018
+S:http://trillian.mit.edu/~jc/music/abc/song/Tea_for_two.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/tea_for_two.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Tea_for_two.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/tea_for_two.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

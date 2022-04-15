@@ -1,0 +1,90 @@
+X: 7
+T: Harry Cotter's Schottische
+M: 4/4
+L: 1/8
+Q:1/4=180
+% Last note suggests Dorian mode tune
+K:G % 1 sharps
+% Harry Cotter's Schottische
+% (c) SSF February 2006
+% Collected by Colin McJanet from Harry Cotter
+V:1
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<
+Bd/2 e2| \
+d2 g2  (3fgf e3/2d/2| \
+B3/2G<AB<AG/2 E2|
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<Bd/2 e2| \
+d2 g2  (3fgf e3/2d/2| \
+B3/2G/2 A2 G2 G2|
+d2 g2  (3fgf e3/2d/2| \
+B3/2d/2 g2  (3fgf e3/2d/2| \
+B3/2d/2 g2  (3fgf e3/2d/2| \
+B3/2G<AB<AG/2 E2|
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<Bd/2 e2| \
+d2 g2  (3fg
+f e3/2d/2| \
+B3/2G/2 A2 G2 G2|
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<Bd/2 e2| \
+d2 g2  (3fgf e3/2d/2| \
+B3/2G<AB<AG/2 E2|
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<Bd/2 e2| \
+d2 g2  (3fgf e3/2d/2| \
+B3/2G/2 A2 G2 G2|
+d2 g2  (3fgf e3/2d/2| \
+B3/2d/2 g2  (3fgf e3/2d/2| \
+B3/2d/2 g2  (3fgf e3/2d/2| \
+B3/2G<AB<AG/2 E2|
+D2 G2 G3/2B<AG/2| \
+E3/2D<GA<Bd/2 e2| \
+d2 g2  (3fgf e3/2d/2| \
+B3/2G/2 A2 G2 G2|
+A2 
+V:2
+z2 G,z [dBG]z A,,z| \
+[ECA,]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [ECA,]z D,z|
+[cAFD]z G,z [dBG]z A,,z| \
+[ECA,]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [cAFD]z G,z|
+[dBG]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z E,z| \
+[BGE]z A,,z [ECA,]z D,z|
+[cAFD]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [cAFD]z G,z|
+[dBG]z G,z [dBG]z A,,z| \
+[ECA,]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [ECA,]z D,z|
+[cAFD]z G,z [dBG]z A,,z| \
+[ECA,]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [cAFD]z G,z|
+[dBG]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z E,z| \
+[BGE]z A,,z [ECA,]z D,z|
+[cAFD]z G,z [dBG]z E,z| \
+[BGE]z G,z [dBG]z C,z| \
+[AFD]z G,z [dBG]z E,z| \
+[BGE]z A,,z [cAFD]z G,
+%  <A name="D1X08">
+S:https://www.folktunefinder.com/tunes/81681
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

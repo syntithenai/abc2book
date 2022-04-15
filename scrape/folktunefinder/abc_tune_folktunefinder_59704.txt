@@ -1,0 +1,38 @@
+X:817
+T:Xiraldilla (CT 239)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Peruyes, ayuntamiento de Cangas d'Ons.
+A:Asturies
+O:Peruyes (Cangas d'Ons)
+Z:Cancioneru de Torner 239
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+B|dd cB|A G2 B|d2 cB|c3 B|
+dd cB|A G2 c|:[M:3/8]BAG|F2 B|AGF|[1 G2 c :|[2 G3-|G2 z||
+W:Sguela, Manolillo,
+W:sguela, Manuel,
+W:sguela, Manolillo,
+W:con el lucero
+W:del amanecer,
+W:con el lucero,
+W:sguela, Manuel.
+W:
+S:https://www.folktunefinder.com/tunes/59704
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

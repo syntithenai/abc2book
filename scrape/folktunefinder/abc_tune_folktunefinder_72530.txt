@@ -1,0 +1,29 @@
+X:73
+T: Andreas - Hofer - Lied
+N: D0077
+O: Europa, Mitteleuropa, Oesterreich, Steiermark
+N: Inzipit = Variante zum Lied
+R: historisches Lied
+M: 2/2
+L: 1/8
+K: C
+G4 | E2E2E2E2 | E4z2
+G2 | A3GF2E2 | E2D2z2
+G2 | E2E2E2E2 | E4z2
+G2 | A3GF2E2 | E2D2z2
+DE | G2DEF2DE | F4z2
+EF | G2EFG2EF | G4z2
+GF | E2E2c2A2 | G4z2
+GF | E2EFG2GF | E4
+S:https://www.folktunefinder.com/tunes/72530
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Historisches lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

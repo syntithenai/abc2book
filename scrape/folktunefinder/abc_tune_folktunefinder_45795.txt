@@ -1,0 +1,34 @@
+X:1
+T:Bravade                           %title
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+K:Dm
+V:1
+ag/f/ gf/e/ fe/f/ ef/g/ | aA fe d2 z2||
+V:2
+z8|z8||
+V:1
+%P:A
+A|: "Dm" df ed "A" ^ce Ae| a>e a>g "Dm" ~fd dA|
+ df ed "A"^c>d eA|1 "G" =B/^c/d "A"dc "Dm" (d2d)A  :|2 "G" =B/^c/d "A" dc "Dm"d2d2||
+%P:B
+|:"A" ^c/d/e c/d/e ae e>d| "A" ^c/d/e c/d/e "A" ae fg |
+"F" ag/f/ "C"gf/e/ "Dm"fe/d/  "A"ef/g/|1 "F" ag/f/ "A"e/d/e "Dm" d2d2 :|2 "F"ag/f/ "A"e/d/e "Dm" d2d2 ||
+V:2
+%P:A
+A|:"Dm"FA GF "A" EA EA|^c>A c>A "Dm"dA FA|
+FA GF "A"E>F GE|1 "G" GG EG (F2F)A :|2 "G" GG "A" EG "Dm" F2F2||
+%P:B
+|:"A"EA EA ^cA A2|"A"EA EA ^cA de|
+"F"f2 "A" c2 "Dm" d2 "A" A2|1 "F" f2 "A" ^c2 "Dm" d2 d2 :|2 "F"f2"A"^c2 "Dm" d2d2||
+S:https://www.folktunefinder.com/tunes/45795
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

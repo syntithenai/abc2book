@@ -1,0 +1,28 @@
+X: 1
+T: Angus Ronald Beaton's Strathspey
+R: strathspey
+N: handwritten MS
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Am
+B2 \
+| AAA2 AG3 AAA2 AB3 | GE3 D3E G3A B3G \
+| AAA2 BG3 AAA2 Ag3 | d3B g3B AAA2 A2 :|
+e2 \
+| a3b ag3 e4 eg3 | d3B g3d B3A G2e \
+| a3b ag3 e4 eg3 | d3B g3d AAA2 A2 ||
+e2 \
+| a3b ag3 e4 eg3 | d3B g3d B3A G2e \
+| g3b e3g d3g B3G | e3g d3B AAA2 A2 |]
+S:https://www.folktunefinder.com/tunes/19172
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AngusRonaldBeatonsStr_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AngusRonaldBeatonsStr_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

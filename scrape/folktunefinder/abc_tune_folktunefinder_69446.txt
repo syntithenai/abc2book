@@ -1,0 +1,25 @@
+X:587
+T: "Der Traum"
+N: Z1267
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Natur und Welt, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G4A2_B2A2G2 | d6A4
+c2 | _B3AG2F4G2 | A4z6
+G2 | d4d2_B4G2 | g6_e4
+c2 | _B3AG2A3GF2 | G4z6
+S:https://www.folktunefinder.com/tunes/69446
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Natur und welt, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

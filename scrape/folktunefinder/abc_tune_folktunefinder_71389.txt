@@ -1,0 +1,25 @@
+X:360
+%%topmargin 3cm
+T:Mrs. Hamilton of Wishaw
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bb
+f | dB B/B/B ~B2 FB | (cd)(ed) cCCc | d>B B/B/B ~B2 FB | (AB)cA BB,B, :|
+d | B/B/B (fd) bdfd | B/B/B (fd) eccd | B/B/B (fd) bdfd | (AB)cA BB,B,d |
+B/B/B (fd) bdfd | B/B/B (fd) eccf | gefd ecdA | AG{/G}FE DB,B, |]
+S:https://www.folktunefinder.com/tunes/71389
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Hamilton_of_Wishaw.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0360.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

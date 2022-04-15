@@ -1,0 +1,26 @@
+X:5232
+T:Portsmouth     %Tune name
+C:     %Tune composer
+N:     %Tune infos
+Q:1/4=120     %Tempo
+|:
+O:England
+M:4/4     %Meter
+L:1/8     %
+K:F             %transposed from G
+C2 |"F"F3 G AG FE |"Bb"D4 d4 |"F"c2 A2 "Bb"BA GF |"C"G6 C2 |"F"F3 G AG FE |"Bb"D4 d4 |
+"F"c2 A2 "C"BA GA |"F"F6 ::c2 |"F"f3 g ag fe |
+f2 c4 A2 |f2 A2 "Bb"BA GF |"C"G6 C2 |"F"F3 G AG FE |"Bb"D4 d4 |"F"c2 A2 "C"BA GA |"F"F6 :|
+S:https://www.folktunefinder.com/tunes/25684
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

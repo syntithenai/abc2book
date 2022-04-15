@@ -1,0 +1,24 @@
+X: 2176
+T:8-time Waltz
+O:Germany
+M:8/8
+L:1/8
+Q:1/8=280
+A:Bavaria
+R:Waltz(8-time)
+K:G
+dBB Bc/B/A BG| dBB Bc/B/A G2|\
+dBB Bc/B/A BG| dBB Bc/B/A G2||
+FF/G/A G/A/BB A/B/c| FF/G/A G/A/BB AG|\
+FF/G/A G/A/BB A/B/c| FF/G/A G/A/BB AG|]
+S:https://www.folktunefinder.com/tunes/32637
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz(8-time)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 8/8
+% Has_accompaniment_chords No chords

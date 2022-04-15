@@ -1,0 +1,30 @@
+X: 1
+T: Miss Sophia Campbell
+C: Robert Mackintosh
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+B/c/ \
+| "Gm"d3 g^fg | dBG "C7"Bcd | "F"c3 f=ef | cAF "Dm"ABc \
+| "Gm"d3 b3 | "D"ag^f "Cm"g=fe | "Gm"dcB "D7"AG^F | "Gm"G3 G2 :|
+B/c/ \
+| "Gm"d3 dBG | dBG "C7"Bcd | "F"c3 cAF | cAF "D7"ABc \
+| "Gm"d3 dBG | dBG "Cm"gfe |  "Gm"dcB "D7"AG^F | "Gm"G3 G2 ||
+B/c/ \
+| "Gm"d3 dBG | dBG "C7"Bcd | "F"c3 cAF | cAF "D7"ABc \
+| "Gm"d3 bag | "D"ag^f "Cm"g=fe | "Gm"dcB "D7"AG^F | "Gm"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14670
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissSophiaCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/MissSophiaCampbell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissSophiaCampbell.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

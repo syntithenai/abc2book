@@ -1,0 +1,27 @@
+X:1
+T:8v. Serve bone
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:G mixolydian treble8
+T:Tenor
+%%MIDI transpose -12
+N: Original clef C on third line
+%1
+d6 G2 c4  B3 c d2 e4 d2 c B g3 f e d c d e3 d d3 c/ B/ c2 d8 z2 G2 d2 d2
+S:https://www.folktunefinder.com/tunes/58303
+S:http://www.laymusic.org/music/bicinia/serve/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

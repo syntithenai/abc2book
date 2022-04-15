@@ -1,0 +1,22 @@
+X: 3
+T: Yibane hamikdash [Dm]
+O: Trad Ashekazi
+O: Zemirot Liturgy
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"F D2 F | "Am"ED C2 | "C"CG FE | "Dm"D2 D2 \
+|  "Dm"F D2 F | "Am"ED C2 | "C"CG FE | "Dm"D2 D2 :|
+|: "Dm"z F2 F | "Dm"A2 "Gm"G2 | "Dm"F2 A2 | "Gm"G4 \
+|  "A7"z G2 G | "A7"A2 G2 |1 "Dm"F2 "A7"EG | "Dm"F4 :|2 "Dm"F2 "A7"E2 | "Dm"D4 |]
+%%sep 2 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7458
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/YibaneHamikdash.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

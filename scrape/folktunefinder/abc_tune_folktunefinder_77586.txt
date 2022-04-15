@@ -1,0 +1,31 @@
+X:48
+T:Rex ab aquis potatis morbum, a medicis curatus sanitatem obtinet
+T:The King, sick from drinking the waters, is cured by the physicians and gains his health
+T:Fuga XLVIII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 11      % Golden Apple
+V:2 program 1 56      % Hippomenes
+V:3 program 1 57 bass % Atalanta
+M:none
+L:1/4
+Q:1/2=120
+N:N:Golden Apple theme is inverted and the canon is in diminution
+K:C mixolydian
+[V:1] A4  A2 A2  B4      A2A2 B4       c2c2 B4      A4     c4            B2B2 A2  A2 d4      |
+[V:2] A4  A4     G4      F4   G4       A4   D4      F4     E4            D4   d4     A4      |
+[V:3] D,4 D,2C,2 B,,2C,2 D,4  G,,2B,,2 A,,4 G,,2G,2 D,2F,2 C,C,/D,/E,C,  G,4  F,2 D,3  E, F,2|
+%
+[V:1] e4       d4       B2 B2  c4         d4          c2   c2        d4        e2e2 e8 |]
+[V:2] c4       G4       G4     A4         B4          G4             d4        c4-  c8 |]
+[V:3] C,D,E,F, G,2G,,2 _E,2D,2 C,F,>_E,F, D,B,,>C,D, _E,>D,C,/B,,/C, B,,D,F,G, C,4- C,8|]
+S:https://www.folktunefinder.com/tunes/77586
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 2
+T: Zemer Atik (Em)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+[| "B"^decd efde | f8 | "Am"fgab agfe | "B"f8 \
+| "B"fbba aggf | "Em"e2f2 "B"^d4 | "Am"^decd efdc | "B"B8 |]
+[| "G"b4 b4 | "D"abag "B"a2f2  | "Em"g6 fe | "B"f2b2 f2B2 \
+| "G"b4 b4 | "D"abag "B"a2f2  | "Em"efge "B"fgf^d | "Em"e8 |]
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6261
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZemerAtik.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

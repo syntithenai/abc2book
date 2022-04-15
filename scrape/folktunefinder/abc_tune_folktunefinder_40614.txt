@@ -1,0 +1,35 @@
+X:33
+T:Krebel
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:Em
+"Traag"EG EG | FD D2 | EG EG | A2 A2 | BB AA | GG FF | EE DD | E2 z2 :|
+ee B2 | ee B2 | gg ff | ee dd | ee B2 | AA BB | E2 z2 :|X:1
+T:Kriebel
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:G
+P:Voorspel
+z |"D7" c2 c>B | BA d>d | dc BA | "G"(G2 G) |]
+P:A
+D || "G"[G2D2B,2] D2 | [G2D2B,2] z G | [B2G2D2] G2 | [B2G2D2] z B/c/ | "D7"BA AA/B/ | "G" AG GG/A/ |
+"D7"GF EF | "Gdim" [E2^C2] "G"D B/c/ |"D7"BA AA/B/ | "G"AG GG/A/ | "D7"GF EF |1 [G2D2B,2] z D :|2 [G2D2B,2] z |]
+P:B
+"G" B2 B>A | AG G>G | GF GA | "D7" G2 F2 | c2 c>B | BA A2 | DF Ac | "G"[B2G2] G2 |
+B2 B>A | AG G>G | GF GA | "D7"G2 F2 | c2 c>B | BA d>d | dc BA | "G"(G2 G) D |]
+S:https://www.folktunefinder.com/tunes/40614
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

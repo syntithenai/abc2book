@@ -1,0 +1,29 @@
+X:486
+T: Beluxt a beduxt (194), S. 423
+N: T0374
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette, 1937 posth.]
+N: Junglinster und andere Orte
+R: Hochzeits-, Ehestandslied]
+M: 2/4
+L: 1/8
+K: G
+D | GFGA | B2G
+B | AGFA | G2z
+D | GFGA | B2G
+B | AGFA | G2z
+S:https://www.folktunefinder.com/tunes/70616
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Hochzeits-, ehestandslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

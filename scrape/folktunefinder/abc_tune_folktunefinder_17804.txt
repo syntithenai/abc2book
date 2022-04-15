@@ -1,0 +1,28 @@
+X: 1
+T: The (Old) King's Reel
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: C|
+L: 1/8
+K: Ador
+   A \
+| "Am"EA,A,B, A,2A,A | "Am"EA,EF "G"GEDB, | "Am"EA,A,B, C2CD | ECDC "G"B,G,G,A |
+| "Am"EA,A,B, A,G,A,B, | "Am"~A,2 A,F "G"GEDB, | "Am"EA,A,B, ~C2CD | ECDC "G"B,G,G, |]
+K: Amix
+   d \
+| "A"cA~A2 cded | "A"cABc "G"dBGB | "A"ceAB "Am"c2ce | gage "G"d^cBd |
+| "A"cA~A2 cded | "A"cABc "G"dcBd | "Am"=c2BG AcBA | "G"GEDC B,G,G, |]
+S:https://www.folktunefinder.com/tunes/17804
+S:http://trillian.mit.edu/~jc/music/abc/reel/Old_Kings_Reel_AmA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Old_Kings_Reel_AmA.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

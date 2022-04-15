@@ -1,0 +1,28 @@
+X:379
+T: "Das Prager Wunderkind"
+N: Z1059
+O: Europa, Mitteleuropa, Deutschland, Boehmerwald
+R: Romanze, Ballade
+M: 4/4
+L: 1/16
+K: Bb
+F4 | B4B4B4F4 | D4E4F4z2
+F2 | D4E4F4B4 | A4B4c4
+c4 | B4B4B4F4 | D4E4F6
+F2 | D4E4F4B4 | c6A2B6
+Bc | d4c4d4f4 | c6c2c4
+A4 | B4A4B4c4 | A4G4F4
+F4 | B4B4B4F4 | D4E4F4
+B4 | d4c2B2c4A2A2 | B8z4
+S:https://www.folktunefinder.com/tunes/69238
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

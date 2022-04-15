@@ -1,0 +1,29 @@
+X:444
+T: DIE DAENEN RUECKTEN EIN
+N: E0363
+O: Europa, Mitteleuropa, Deutschland, Unter - Westerwald, Woelferlingen
+R: historisches Lied, Schleswig Holsteinscher Krieg (1849)
+M: 3/4
+L: 1/8
+K: G
+D2 | B2B2AA | G4
+GB | d2d2c2 | B4
+GB | d2d2d2 | d3B
+B2 | c2c2c2 | c3B
+A2 | d2d2d2 | e4
+dd | e2c2d2 | B4
+GB | d2d2d2 | d3B
+B2 | c2c2c2 | c3B
+A2 | d2d2d2 | e4
+dd | e2c2d2 | B4
+S:https://www.folktunefinder.com/tunes/78885
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, schleswig holsteinscher krieg (1849)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

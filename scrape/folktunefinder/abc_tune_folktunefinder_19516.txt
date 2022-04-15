@@ -1,0 +1,33 @@
+X: 1
+T: the Marquess of Lorn
+O: Atholl
+B: Atholl
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: handwritten MS by Barbara McOwen (Apr 1992)
+M: C
+L: 1/16
+K: D
+g \
+| "D"f3d e3c d3F D3F | "C"E=C3 C3E G4 G4g \
+| "D"f3d e3c d3F D3F | A3F D3F "D7"A4 A3 ||
+=c \
+| "G"B3G A3F "D"d3F D3F | "C"GFED =C3E G=c3 GE3 \
+| "D"FD3 "A7"GE3 "D"AF3 "D7"BG3 | "G"dcBA "A7"d3F "D"D4 D3 |]
+g \
+| "D"f4 da3 fd3 a3f | "C"g3e =c3e g4 g3a \
+| "D"f4 d3a f3g af3 | "D"af3 da3 fd3 a3 ||
+d \
+| "D"f4 da3 f3g af3 | "C"gfed =c3g ec3 g3e \
+| "D"a3f "A7"g3e "D"f3d "D7"e3c | "G"dcBA "A7"d3F "D"D4 D3 |]
+S:https://www.folktunefinder.com/tunes/19516
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarquessOfLorn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarquessOfLorn_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

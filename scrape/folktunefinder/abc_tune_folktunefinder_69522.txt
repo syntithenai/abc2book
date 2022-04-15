@@ -1,0 +1,23 @@
+X:663
+T: "Lilliput"
+N: Z1344
+O: Europa, Mitteleuropa, Oesterreich
+R: Zech -, Schalks - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | DGG3F | Ecc3
+a | gfedcF | G2BD
+G2 | DGG3F | Ecc3
+a | gfedcF | G4
+S:https://www.folktunefinder.com/tunes/69522
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

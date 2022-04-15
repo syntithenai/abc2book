@@ -1,0 +1,28 @@
+X: 1
+T: Captain Young's Quick Step
+C: W.Morrison
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: RSCDS 19-10(II)
+M: 6/8
+L: 1/8
+K: C
+g/f/ \
+| "C"edc Gcc | "F"Acc "C"Gcc | edc gec | "G7"Bdd d2g/f/ \
+| "C"edc Gcc | ceg "F"c'ba | "C"gec "G7"dcd | "C"ecc c2 ||
+|| e/f/ \
+| "C"geg c'2a | geg c'2a | geg c'ge | "G7"fdd def \
+| "C"geg c'2a | geg "F"c'ba | "C"gec "G7"dcd | "C"ecc c2 |]
+S:https://www.folktunefinder.com/tunes/13977
+S:http://trillian.mit.edu/~jc/music/abc/jig/CaptYoungsQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CaptYoungsQuickStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CaptYoungsQuickStep.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CaptYoungsQuickStep.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T:Castle Spynie
+L:1/8
+M:C
+S:Skye Collection
+K:D
+B \
+| "D"A>F "A7"G>E "D"F<A d>e | "Bm"f>e d>f "Em"e<E "A7"E>B \
+| "D"A>F "A7"G>E "D"F<A (d>e) | "A7"f>d e>c "D"d2-d :|
+f/g/ \
+| "D"a>f "A7"g>e "D"f<a dc/d/ | "E7"e>c d>B "A7"c<e Af/g/ \
+| "D"a>f "A7"g>e "Bm"f<d "Em"B>g | "A7"f>d e>c "D"d2-d ||
+f/g/ \
+| "D"a>f "A7"g>e "D"f>a dc/d/ | "E7"e>c d>B "A7"c<e Af/g/ \
+| "D"(3agf "A"(3edc "B7"(3B^c^d "Em"(3efg | "D"(3fed "A7"(3edc "D"d2-d ||
+S:https://www.folktunefinder.com/tunes/19258
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CastleSpynie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CastleSpynie_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CastleSpynie_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:337
+T: "Das Glueck im Schlafe"
+N: Z1017
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: D
+D2 | A4A2A4A2 | B4c2d4
+B2 | e4d2c2B2A2 | B6A2z2
+A2 | d4d2F4B2 | A3BAGF4
+D2 | E4FGA3GF2 | E6D4
+S:https://www.folktunefinder.com/tunes/69196
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

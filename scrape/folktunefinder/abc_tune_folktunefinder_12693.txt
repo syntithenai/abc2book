@@ -1,0 +1,30 @@
+X: 40
+T: Red House
+M: C|
+L: 1/8
+S: Henry Playford \`i Dancing Master, 9th edition (1695)
+F: http://www.ibiblio.org/fiddlers/REA_RED.htm 2009-2-24
+K: Gm
+|: BA \
+|  G2 g4 fe | d4 B4 | A2 f4  ed |  c2dc dcBA \
+|  G2 g4 fe | d4 B4 | cBAG FGA2 |1 B2G2 G2 :|2 B2G2 G2 ||
+|: Bc \
+|  dcBA GABc | d4B4 | cBAG FGAB | c4   A4 \
+|  dcBA GABc | d4B4 | cBAG FGA2 | B2G2 G2 :|
+|: Bc \
+|  d2d2 d2Bc | d2d2 d2AB | c2c2 c2AB |  c2c2 c2Bc \
+|  d2d2 d2Bc | d2d2 d2AB | cBAG FGA2 |1 B2G2 G2 :|2 B2G2 G4 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12693
+S:http://www.ibiblio.org/fiddlers/REA_RED.htm
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

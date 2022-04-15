@@ -1,0 +1,24 @@
+X: 22
+T: Glick
+C: From Pete Sokolow, Klez Kamp 2001
+R: Waltz
+Z: Terry Traub
+M: 3/4
+K: Cm
+L: 1/4
+| "Cm"G3 | "Fm"C D E | "Cm"G3 | "Fm"C D E | "Cm"G c "G7"d | "Cm"e "G7"d "Cm"c | "Cm"G3- | "C7"G3 |
+"Fm"c3 | "Bbm"F G A | "Fm"c3 | "Bbm"F G A | "Fm"c =B c | "Fm"d c =B | "Fm6/D"_A3 | "G7"G3 |
+"Cm"G3 | "Fm"C D E | "Cm"G3 | "Fm"C D E | "Cm"G c "G7"d | "Cm"e "G7"d "Cm"c | "Ab7"e3 | "G7"d3/d/e/=e/ |
+"Fm"f f> e | "G7"d/f/ e > d | "Cm"e e > d | "D7"c/e/ d > c | "Dm7b5"d d> c | "G7"=B/c/ d e | "Cm"c3- | c3 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7519
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

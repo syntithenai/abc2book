@@ -1,0 +1,19 @@
+X: 10
+T: N\aa er det jul igjen
+O: Trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"dd/d/ dA FA | dd/d/ dA FA | d>c de fg | "A7"a2 a2 z2 :|
+|: "G"g>g bg gg | "D"f>f af ff | "A7"e>f ge Bc |1 "D"de fg a2 :|2 "D"e2 d2 z2 |]
+S:https://www.folktunefinder.com/tunes/2756
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/xmas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/xmas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/xmas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

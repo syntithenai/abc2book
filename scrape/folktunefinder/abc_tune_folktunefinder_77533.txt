@@ -1,0 +1,23 @@
+X:1
+T:Killer Bees Attack James Woods
+C:copyright 1998 Kaubells
+E:14                   % note spacing
+M:6/8
+K:Am
+|:"Am"ecB ABc|ecB ABc|"Dm"fdf agf|"Am"ecB Azc|
+"Am"ecB ABc|ecB ABc|"Dm"fdf agf|"Am"ecB Azc:|
+"Dm"f2d "Bb"f2d|"Am"ecd "C"eag|"Dm"f2d "Bb"f2d|"Eb"_egf efg|
+"Dm"f2d "Bb"f2d|"Am"=ecd "C"eag|"Dm"f2d "Bb"f2d|1"Eb"_egf ezg:|2"E7"=e^gb .e'z2||
+T:Last time, if this is the last song:
+"Dm"f2d "Bb"f2d|"Am"=ecd "C"eag|"Dm"f2d "E"e3|"E7"efg "Am...{\it forte}"a3|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/77533
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/bee.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

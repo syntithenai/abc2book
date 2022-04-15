@@ -1,0 +1,27 @@
+X:0
+T:Thunderhead
+G:jig
+C:Gray Larsen
+N:as played around Edinburgh, drastically mutated from how Gray wrote it
+N:I believe Old Blind Dogs are responsible for this version
+N:lots of people believe this is a traditional Breton tune; it isn't
+M:6/8
+L:1/8
+Q:3/8=120
+K:BMin
+B>BB f>BB|e>BB d>BA|B>BB f>gf|e>cB A>Bc |
+B>BB f>BB|e>BB d>ef|g>fe f>ed|e>cB A>Bc:|
+K:D
+a>fd d>cd|A>dd c3  |B>dd A>dd|d>cB c2A  |
+a>fd d>cd|A>dd c3  |B>dd A>dd|gec  d3  :|
+S:https://www.folktunefinder.com/tunes/30165
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key B
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

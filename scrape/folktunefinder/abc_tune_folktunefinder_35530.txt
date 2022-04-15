@@ -1,0 +1,30 @@
+X: 9630
+T:Pinch of Snuff, The
+M:C|
+R:Reel
+Z:Source unknown (Luisa)
+K:D
+"D"F2DF EFDE|F2DF "A7"EFGE|"D"F2DF EFDE|"G"GABG "A7"EFGE::\
+"D"DFAF BFAF|DFAF "A7"EA,CE|"D"DFAF BFAF|"G"GABG "A7"EFGE::\
+K:A
+"A"c2Ac BcAB|c2Ac "E7"BcdB|"A"c2Ac BcAB|"D"defd "E7"BcdB::\
+"A"Acec fcec|Acec "E7"BEGB|"A"Acec fcec|"D"defd "E7"BcdB\
+K:D
+:|\
+K:D
+"D"f2df efde|f2df "A7"efge|"D"f2df efde|"G"gabg "A7"efge::\
+"D"dfaf bfaf|dfaf "A7"eAce|"D"dfaf bfaf|"G"gabg "A7"efge::\
+"D"fgfe ~d3B|AF ~F2 AFD=c|"G"BGBd "C"~=c3G|EDCD EFGz:|
+S:https://www.folktunefinder.com/tunes/35530
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

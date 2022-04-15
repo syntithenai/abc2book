@@ -1,0 +1,35 @@
+X:277
+T:The Ballyntore Fancy
+M:4/4
+L:1/8
+R:reel
+D:Joe McKenna: The Irish Low Whistle
+Z:Michael Abraham Shulman
+K:G
+G~B3 GBdB|GBBG {G}FDAF|GzBA GBdB|ec{c}AG {G}FDAF|
+GzBA GBdB|GBBG {G}FDAF|G~B3 GBdB|ec{c}AG {G}FDcA||
+B~E3 BEGA|B~E3 ADGA|B~E3 c3B|BAAG AzAG|
+B~E3 BEGA|BEGE ADGA|B~E3 cEBD|AGFG AzBA||
+%%text Variations
+GBcB dBGB|AGBG {G}FDAF|GzBA GBdB|ec{c}AG {G}FDAF|
+G~B3 GBdB|GBBG {G}FDAF|GzBA GB/c/dg|ec{c}AG {G}FDcA||
+B~E3 BEGA|BEGE ADGA|B~E3 c3B|{B}AGFG AzAG|
+B~E3 BEGA|BEGE ADGA|B~E3 c3B|AGFG ABcd||
+gz~gf gz~gf|gdBG {g}fdaf|gaba gd(3Bcd|ec{c}AG {G}FDAf|
+gz~gf gz~gf|gdBG {g}fdaf|gaba gd(3Bcd|ec{c}AG {G}FDcA||
+B~E3 BEGA|B~E3 ADGA|B~E3 c3B|BAAG AzAG|
+B~E3 BEGA|BEGE ADGA|B~E3 c3B|AGFG ABcd||
+g2gf g2(3agf|gdBG {g}fdaf|gaba gd(3Bcd|ec{c}AG fdaf|
+g2(3agf g2(3agf|gdBG {g}fdaf|g2gf gd(3Bcd|ec{c}AG {G}FDcA||
+B~E3 BEGA|B~E3 ADGA|B~E3 c3B|BAAG AzAG|
+B~E3 BEGA|BEGE ADGA|B~E3 c3B|AGFG A2BA|G8||
+S:https://www.folktunefinder.com/tunes/63820
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

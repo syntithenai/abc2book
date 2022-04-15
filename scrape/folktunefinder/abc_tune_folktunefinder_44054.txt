@@ -1,0 +1,30 @@
+X: 60
+T:Knick-Knack
+% Nottingham Music Database
+S:Mick Peat C music, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|"G"G/2F/2G/2A/2 BB|"G"G/2F/2G/2A/2 BB|"Am"d/2c/2B/2c/2 AA|\
+"D7"d/2c/2B/2c/2 AA|
+"G"G/2F/2G/2A/2 "f#"BB|"Em"G/2F/2G/2A/2 "Em/d"BB|\
+"Am/c"d/2c/2B/2c/2 "D7"A/2c/2B/2A/2|"G"GB G:|
+P:B
+B/2c/2|"G"d3/2c/2 Bd|"G"gg d2|"Am"d/2c/2B/2c/2 AA|"D7"d/2c/2B/2c/2 AA|
+"G"d3/2c/2 Bd|"Em"gg d2|"Am/c"d/2c/2B/2c/2 "D7"A/2c/2B/2A/2|[1"G"GB G:|[2 "G"GB Gz|
+P:C
+|:"G"B3/2c/2 d/2e/2f/2g/2|"C"ee/2e/2 e/2d/2c/2B/2|"D7"AA/2B/2 c/2e/2d/2c/2|\
+"G"BB/2B/2 "D7"B3/2A/2|
+"G""Em"B3/2c/2 d/2e/2f/2g/2|"C"ee/2e/2 e/2d/2c/2B/2|\
+"D7"A/2g/2f/2e/2 d/2c/2B/2A/2|"G"GB Gz:|
+S:https://www.folktunefinder.com/tunes/44054
+S:http://abc.sourceforge.net/NMD/nmd/reelsh-l.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

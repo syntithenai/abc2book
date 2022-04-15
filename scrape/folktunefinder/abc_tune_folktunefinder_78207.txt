@@ -1,0 +1,28 @@
+X:186
+T: WIE RUHEST DU SO STILLE
+N: B0221
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Winter
+M: 4/4
+L: 1/8
+K: C
+G,2 | G,3F,G,A,B,C | C2B,2z2
+G,2 | G,3A,B,CDE | D2C2z2
+E2 | D2B,G,A,CB,A, | G,4z2
+G,2 | G,3A,B,CDE | D2B,2z2
+G,2 | G,2A,B,CDEF | E2C2z
+CCC | D3DCB,A,G, | E4z
+EFG | GFEDC2B,2 | C4z2
+S:https://www.folktunefinder.com/tunes/78207
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, winter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

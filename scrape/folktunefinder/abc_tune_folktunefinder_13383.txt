@@ -1,0 +1,18 @@
+X: 1
+T: El Ha-Rahat (Dm)
+M: 4/4
+L: 1/8
+K: Dm
+|: "Gm"G2G2 | "C"ED DC | ED DC | "Dm"D3 z :: "Gm"GG GF/G/ | AG G2 | "C"ED EC | "Dm"D3 z :|
+S:https://www.folktunefinder.com/tunes/13383
+S:http://trillian.mit.edu/~jc/music/abc/folk/ElHaRahat_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ElHarahat_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/ElHaRahat_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/ElHarahat_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/folk/ElHaRahat_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

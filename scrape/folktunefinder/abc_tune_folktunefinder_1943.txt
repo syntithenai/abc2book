@@ -1,0 +1,32 @@
+X: 6
+T:Ashley's Hornpipe. JMP.006
+T:Astley's Ride,aka. JMP.006
+M:C|
+L:1/4
+Q:120
+C:Astley's Ride,aka
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Misc.
+O:Scotland
+A:Perth
+N:Key given as G major.  But it isn't
+H:1799
+Z:vmp.C. Graeb
+K:D Major
+"Key Gmaj in MS"a/f/ | ddd c/d/ | eee f/e/ | \
+d/c/B/A/ B/d/c/e/ |dff a/f/ |!
+ ddd c/d/ | eee f/e/ | d/c/B/A/ B/d/c/e/ |ddd :||:! 
+d/e/ | fff e/f/ | ggg g/f/ | eee  d/e/ | fff a/f/ |!
+ddd c/d/ |  eee f/e/ | d/c/B/A/ B/d/c/e/ | ddd :|]
+S:https://www.folktunefinder.com/tunes/1943
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

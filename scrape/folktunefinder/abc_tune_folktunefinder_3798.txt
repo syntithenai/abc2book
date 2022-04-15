@@ -1,0 +1,22 @@
+X: 1
+T: Holborn March
+O: c.1742
+M: C|
+L: 1/8
+K: F
+|: "F"c4 c4 | c6 Bc | "Bb"d2c2 B2A2 | "C7"G6 C2 | "F"F2A2- "C7"A2G2 | "F"A2c2- "Bb"c2B2 | "F"A4 "C7"G4 | "F"F8 :|
+[| "C"g4 g4 | g6 fg |  "F"a2g2 f2e2 | "G7"d6 G2 | "C"c2e2- "G7"e2d2 | "C"e2g2-  "F"g2f2 | "C"e4 "G7"d4 | "C"c8 |]
+[| "F"c4 c4 | c6 Bc | "Bb"d2c2 B2A2 | "C7"G6 C2 | "F"F2A2- "C7"A2G2 | "F"A2c2- "Bb"c2b2 | "F"a2gf "C7"g2e2 | "F"f8 |]
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/3798
+S:http://trillian.mit.edu/~jc/music/abc/England/HolbornMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/HolbornMarch.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/20061125/HolbornMarch.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

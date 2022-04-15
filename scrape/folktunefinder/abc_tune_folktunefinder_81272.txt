@@ -1,0 +1,27 @@
+X: 1
+T: Acku Dantza
+O: France
+M: 2/4
+L: 1/16
+K: Dm octave=1
+%%MIDI drum d2ddd2d2 41 41 41 41 41
+%%MIDI drumon
+|:f2 gf e2 fe|dzg2 g2f2  |\
+  e2c2 e2g2  |b2ag f2f2  |
+  f2 gf e2 fe|dzg2 g2f2  |\
+  e2c2 e2g2  |b2ag f4    :|
+|:c2ee e2c2  |d2ff f2d2  |\
+  d2ef g2f2  |e2d2 e2c2  |
+  c2ee e2c2  |d2ff f2d2  |\
+  d2ef g2f2  |[1 e2d2 e4 :|\
+  [2 e2d2 d4 |
+S:https://www.folktunefinder.com/tunes/81272
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:15
+T:Top It Off #7
+T:Guide Only
+R:slip jig
+Z:id:hn-slipjig-46
+M:9/8
+Q:300
+K:D
+d2B|:A2F FF2 dzA|(Bcd) e2c d2B|A2F FF2 dz A|(Bcd) F2D D2B|A2F FF2 dzA|
+(Bcd) e2c d2B|A2F FF2 dz A|1 (Bcd) F2 DD2 B:|2(Bcd) F2D D2g||
+P:Part B
+|: f2d d2c d2f|e2=c c2 B c2e | d2B B2A B2d|^c2A A2GF G g|
+f2d d2c d2f|e2=c c2 B c2A| d2A Bcd e2^c| d3 d3- d2B:||
+S:https://www.folktunefinder.com/tunes/2112
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Slip jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

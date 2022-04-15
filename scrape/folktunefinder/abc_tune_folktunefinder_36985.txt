@@ -1,0 +1,27 @@
+X:4530
+T:Pols etter Elvea-Karan
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de8.html
+%%ID:00000de8
+K:G
+|: d | \
+"G"g<d g2 g>b | g<d g2 g>b | "A7"b>a a<g f>a | g<e "D7"d2- d>d | \
+"G"g<d g2 g>b | "Am"AA | "D7"A>d (3BGB A>F | "G"{F}G2 G3 ::
+B | \
+"G"d2 dB "C"c>e | "G"(3dBd (3cA c B>B | \
+"Am"A>B ce | "D7"(3dBd (3cAc B>B | \
+"G"d2 de | "G"(3dBd (3cAc B>B | \
+"D7"A>d (3BGB A>F | "G"{F}G2 G3 :|
+S:https://www.folktunefinder.com/tunes/36985
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

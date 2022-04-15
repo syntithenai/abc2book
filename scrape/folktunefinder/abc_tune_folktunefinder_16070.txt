@@ -1,0 +1,27 @@
+X:1
+T:the Dark Girl Dressed in Blue [G]
+R:polka
+D:John McKenna
+D:Frankie Gavin: Croch Suas E
+N:... nowadays known as Lewinsky's Polka" -- Henrik Norbeck <Henrik.Norbeck@mailbox.swipnet.se>
+N:... know around here as "The Lass with the Cigar"  -- Philippe Varlet 
+Z:id:hn-polka-34
+M:2/4
+L:1/8
+K:G
+|: "G"Bd dg | "C"e/f/g "G"d>B | "C"ce "G"dB | "Am"eA "D7"c/B/A/G/ \
+|  "G"Bd dg | "C"e/f/g "G"d>B | "Am"ce "D7"d/e/d/c/ | "G"BG G2 :|
+|: "G"Bd d/e/g/a/ | ~b>g ag | "C"eg "G"dB | "Am"eA "D7"c/B/A/G/ \
+|  "G"Bd d/e/g/a/ | ~b>g ag | "C"eg "D7"d/e/d/c/ | "G"BG G2 :|
+S:https://www.folktunefinder.com/tunes/16070
+S:http://trillian.mit.edu/~jc/music/abc/polka/DarkGirlDressedinBlue_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/DarkGirlDressedinBlue_G.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

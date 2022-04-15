@@ -1,0 +1,27 @@
+X:276
+T: ES HATT EIN BAUR SEIN FRAU VERLOREN
+N: E0154A
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Scherz, Schwank, betrogener Ehemann,
+M: 4/4
+L: 1/8
+K: G
+G2 | G2G2G2G2 | A2A2A2
+G2 | B2c2d2B2 | A4G2
+G2 | G2G2G2G2 | A2A2A2
+G2 | B2c2d2B2 | A4G2
+G2 | d2d2d2c2 | B2B2A2
+A2 | B2B2Bcd2 | B2c2A4 | z2
+G2A2G2 | c4z2
+e2 | d2c2dGA2 | G4z2
+S:https://www.folktunefinder.com/tunes/78717
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, scherz, schwank, betrogener ehemann,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

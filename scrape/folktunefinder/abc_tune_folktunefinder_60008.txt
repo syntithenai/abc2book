@@ -1,0 +1,45 @@
+X:3819
+T:Danza (CT 370) (Arrg.)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cuideiru.
+N:Se efecta preferentemente el da de Santana, e intervienen solamente mujeres.
+O:Cuideiru
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 370
+M:2/4
+L:1/8
+Q:1/4=112
+W:Vlgame el Seor San Pedro
+W:y la Virgen Soberana!
+W:Quien quiera danzar que dance,
+W:que yo danzo hasta maana.
+W:
+W:A la gloriosa Santana
+W:le pedimos muy de veras,
+W:que nos d buenos mocinos
+W:a todas las casaderas.
+W:
+W:Aire, que el da se acaba,
+W:aire, que se acaba el da;
+W:las mozas de Cuideiru
+W:danzan con gran alegra.
+K:G
+cB|:"G"G>B dd|"Am"A>A cB|"G"G>G "D"AF|"G"G>G cB|
+"G"G>G AF|"D"D>D DG|"Bm"F>G "D"AF|"G"G G-G2-|
+[1 "G"Gz cB :|[2 "G"G z ||
+S:https://www.folktunefinder.com/tunes/60008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

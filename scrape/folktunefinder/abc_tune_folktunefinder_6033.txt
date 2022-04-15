@@ -1,0 +1,19 @@
+X: 3
+P: Penttil\"an sillalla (At the Penttil\"a bridge)
+C: Konsta Jylh\"a
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|: "Em"e>f ge B2 B2 | G>A GE "Am"F4 | "B7"F>G Ac B2 BF | "Em"A2 G2 GF E2 \
+| e>f ge B2 B2 | B>e ge "Am"f4 | "B7"fg ag fe ^dB | "Em"e2 e2 "fine"e4 :|
+|: "D7"D2 FA cB ce | "G"d2 dg B2 Bd | "D7"c2 ce AG FD | "G"G2 B2 d4 \
+| "C"e2 ef ~g2 fe | "G"d2 dg B2 Bd | "D7"c2 ce fd ef | "G"g2 g2 g4 :|
+S:https://www.folktunefinder.com/tunes/6033
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

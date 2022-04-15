@@ -1,0 +1,24 @@
+X: 4
+P: Jockey's Ta'en the Pairtin Kiss
+R: air
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| A2 \
+| "D"D3E "Bm"F2F2 | "Em"F2ED "A7"E4 | "D"D3E F2ED | F2A2 d3e \
+| "Bm"f3e d2cB | "Em"ABAF "A7"E4 | "Bm"d2cB "G"ABdF | "A7"F2E2 "D"D2 |]
+[| A2 \
+| "D"d3e "Bm"f2f2 | "Em"f2ed "A7"e4 |  "D"d3f "Em"e2fd | "A7"c2B2 A4 \
+| "D"fedB ABdF | "Em"GFED "A7"E4 | "Bm"d2cB "G"ABdF | "A7"F2E2 "D"D2 |]
+S:https://www.folktunefinder.com/tunes/58562
+S:http://trillian.mit.edu/~jc/music/book/500/LeaRig1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

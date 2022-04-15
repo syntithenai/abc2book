@@ -1,0 +1,29 @@
+X: 1
+T: the Braes of Elchie's
+C: Charles Grant (Aberlour)
+R: jig
+B: RSCDS 17-1(I), 1953
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+A \
+| "C"G>EG c3 | "G7"e2d "C"c2A | G>EG "F"f3 | "C"ege "G7"d2A \
+| "C"G>EG c3 | "G7"e2d "C"c2B | "F"AFA "C"GcE | "G7"D3 "C"C2 :|
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "C"geg gec | "F"afa "Dm"afd | "C"gec "G7"dBG | "C"c3 c2 ||
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "F"AFA "(Dm)"AFA | "C"GEG "(Em)"GEG | "F"AFA "C"GcE | "G7"D3 "C"C2 |]
+S:https://www.folktunefinder.com/tunes/13934
+S:http://trillian.mit.edu/~jc/music/abc/jig/BraesOfElchies.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BraesOfElchies.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOfElchies.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

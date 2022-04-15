@@ -1,0 +1,31 @@
+X: 1
+T: If I only had a brain
+C: Harold Arlen
+M: C
+L: 1/8
+K: F
+"C7"A>B \
+|: "F"c>A F>G A<F- F>G | "Dm"A>F D>E "Bb"F<D- D>D \
+| "C7"C>C C>C "F"C4 zd' | c'>a "Gm"(3gfd "C7"cz "F7"F>F |
+| "Bb"D4 d>c "(Gm)"B>A G>F | "C7"E>E e>d c>B A>G | "F"F>F "Bb"F>F "F"F4 \
+[1 g>f | "G7"(3_ede (3fga "C7"cz A>B :|
+[2 c>d | "F"f>d (3cBA Gz "F7"F4 \
+|]"Bb"d4- "E7"d>^c d<e | "Am"_c4- "D7"c2 d2 | "Gm"B2 B2 "C7"B2 c2 |
+| "F"A6 B>A | "Gm"G>^F G>F "A7"G>^F G<A \
+| "Dm"_F4 z>G A>c | "G7"d4 z>=B A<G | "C"c2- "Cdim"c2- "C7"cz |]
+A>B \
+| "F"c>A F>G A<F- F>G | "Dm"A>F D>E "Bb"F<D- D>D \
+| "C7"C>C C>C "F"C4 zd' | c'>a "Gm"(3gfd "C7"cz "F7"F>F |
+| "Bb"D4 d>c "(Gm)"B>A G>F | "C7"E>E e>d c>B A>G \
+| "F"F>F "Bb"F>F "F"F2 (3cdf | "Gm"[gdB]z "C7"[aec]z "F"[fcA]z |]
+S:https://www.folktunefinder.com/tunes/19402
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/IfIOnlyHadABrain_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/IfIOnlyHadABrain_Str_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/IfIOnlyHadABrain_Str_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 10
+T:Brighton Camp, JG
+M:4/4
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:G
+P:A
+gf|e2dc B2A2|B2G2 E3 F|G2G2 GABc|d4 B2gf|
+e2dc B2A2|B2G2 E3 G|F2A2 D2EF|G4 G3||
+P:B
+F|G2B2 d2ef|g2d2 B2GA|B2d2 e2f2|g4 f2gf|
+e2dc B2A2|B2G2 E3 G|F2A2 D2EF|G4 G3||
+S:https://www.folktunefinder.com/tunes/75822
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:2
+T:Sobhe Barg Boud, Payiz Boud
+T:It Was Morning of the Leaves, It Was Autumn
+C:Fariboz Latchini
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=100
+K:D
+V:1
+%%MIDI program 0
+%%MIDI channel 1
+%%MIDI transpose 0
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+z8 | z8 |: D4-DBA>G | D4-DBA>G | D4-DBA>G | E8 |
+E4-EcB>A | E4-EcB>A | E4-EcB>A |1 D8 :|2 D8 | [D4-d4-] [Dd] [Bb][Aa]>[Gg] 
+V:2
+%%MIDI program 0
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+G,DBD BDBD | G,DBD BDBD |: G,DBD BDBD | G,DBD BDBD | G,DBD BDBD | A,GEc GECG | 
+A,GEc GcGE | C,G,CE GcGE | A,GEc GecG |1 G,DBD BDGA :|2 G,DBd BdDG | G,DBD BDBD |
+S:https://www.folktunefinder.com/tunes/45864
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

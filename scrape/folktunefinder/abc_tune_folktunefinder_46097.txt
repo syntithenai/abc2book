@@ -1,0 +1,31 @@
+X:14822
+T:Saltn (CT 335)
+R:saltn
+C:Trad.
+D:Felpeyu: Tierra
+Z:Cancioneru de Torner 335
+M:2/4
+L:1/8
+Q:1/4=168
+K:G
+ d4 | Bd BG | c2 cB | AG AF | A2 A2 | Bd BG | c2 cB | AG AF | G4 | 
+ |: FG AB | c2 cB | AG AF | A2 A2 | FG AB | c2 cB | AG AF |1 G4 :|2 G3 d
+ | ga gf | e2 ef | ga ge | B2 Bd | ga gf | e2 ef | ga ge | c2 c2 |
+ | ga gf | e2 ee | fg fd | B2 Be | ef ed | c2 cB | AG AB | c2 ce |
+ | ef ed | c2 cB | AG AF | G2 Be |  ef ed | c2 cB | AG AB | c2 ce |
+ | ef ed | c2 cB | AG AF | G4 | Bd BG | c2 cB | AG AF | A2 A2 |
+ | Bd BG | c2 cB | AG AF | G4 | B2 BA | c2 cB | BA BG | A2 A2 |
+ | B2 BA | c2 cB | AG AF | G4 | Bd BG | c2 cB | AG FG | A2 A2 |
+ | Bd BG | c2 cB | AG FA | G4 ||
+S:https://www.folktunefinder.com/tunes/46097
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

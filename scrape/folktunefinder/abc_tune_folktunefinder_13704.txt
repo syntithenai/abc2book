@@ -1,0 +1,31 @@
+X: 1
+T: There's Nae Luck Aboot the Hoose
+O: trad Scotland, England
+R: hornpipe
+B: RSCDS __-19(a)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Johnson's Museum 1788, adapted from earlier tune "Up and war a' Willie" published by Oswald 1750.
+M: 4/4
+L: 1/8
+K: G
+(3def \
+| "G"g>e d>B "C"c>d e>f | "G"g>e d>B "D7"A3 (3def \
+| "G"g>e d>B "C"c>d e>g | "D7"d>c B>A "G"G2 :|
+|: G>A \
+| "G"B2 B>G "C"c2 c>A | "G"B2 B>G "D7"A2 G>A \
+| "G"B2 B>G "C"c>d e>g | "D7"d>c B>A "G"G3 :|
+S:https://www.folktunefinder.com/tunes/13704
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Theres_Nae_Luck_Aboot_the_Hoose_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Theres_Nae_Luck_Aboot_the_Hoose_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hornpipe/Theres_Nae_Luck_Aboot_the_Hoose_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/NaeLuckAbootTheHooseH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

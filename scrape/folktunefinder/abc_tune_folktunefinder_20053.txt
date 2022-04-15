@@ -1,0 +1,29 @@
+X: 1
+T: Lyckovalsen av Ellika Frisell
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: handwritten MS labelled "Rolf"
+M: 3/4
+L: 1/8
+K: G
+(G,A,) \
+| B,2 B,2 (B,A,) | B,2 (B,G,) CE | A,2 A,2 (B,C) | A,4 (DE) \
+| (FA) (dA) (GE) |  (FA) d2 (dB) | G4 (Ad) | G4 :|
+(Bd) \
+| g3   g   ec  | (Bd)  A3    B  | (ce) (cB) (AG) | (EA) D2  (Bd) \
+| g2 (fd) (ec) | (BA) (ce) (AB) | (ce) (AB)  c2  |  A4      |]
+(Bd) \
+| g3   g  (ec) | (Bd)  A3   B   | (ce) (cB) (AG) | (EA) D2  (Bd) \
+| g2 (fd) (ec) | (BA) (ce) (Be) | (ce) (Be) (ce) |  B2 (AG) (ED) | G4 |]
+S:https://www.folktunefinder.com/tunes/20053
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Lyckovalsen2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Lyckovalsen2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/Lyckovalsen2_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

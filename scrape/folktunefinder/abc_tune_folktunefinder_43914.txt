@@ -1,0 +1,30 @@
+X:245
+T:Mabbers gate
+C:Andy Hornby
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Copyright:Andy Hornby  1997
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c92.html
+%%ID:00000c92
+K:G
+F2F2 A2GF | E2G2 F4  | \
+E2D2 D2EF | G2E2 F2D2| \
+F2F2 A2GF | E2G2 F4  | \
+D2EF G2F2 | E4D4 ::
+A2F2 d4   | c2B2 A4  |\
+F2FG A2GF | E2G2 F2D2|\
+A2F2 d4   | c2B2 A4  |\
+F2FG AGF2 | E2A2 D4 :|
+D4D4|C4D4|G2F2 F4|C4A4|D4D4|C4D4|F2GA B2A2|G4A4::
+D2D2 F4|C2D2 F4|A2AB c2BA|G2B2 A4|D2D2 F4|C2D2 F4|D2DE FED2|C4F4:|
+S:https://www.folktunefinder.com/tunes/43914
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

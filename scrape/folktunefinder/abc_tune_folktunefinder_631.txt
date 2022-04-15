@@ -1,0 +1,26 @@
+X: 173
+T:Valse de Costebelle
+R:Valse
+N:
+D:
+O:France
+Z:<anamnese@caramail.com>
+M:3/4
+L:1/4
+Q:1/4=170
+K:Bbmaj
+"Gm"G2B | d3 | "Eb"e2g | "Gm"d3 | "F"ccB | A2c | "D"B2A | "Gm"G3 ::
+"Gm"G3 | B3 | "F"Afc | A3 | "Bb" d3-|d3 | "C"cBc | "D"d3 | 
+"Gm"G2B | d3 | "Eb"e2g | "F"f3 | ccB | A2c | "Bb"B2"D"A | "Gm"G3 |
+"F"f/2c/2 A/2f/2 c/2A/2 | "Gm"GBd | "F" f/2c/2 A/2f/2 c/2A/2 | "Gm"G3 :|
+%%footer $D   Galouvielle-MBe 2008 \nValse (France)
+S:https://www.folktunefinder.com/tunes/631
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

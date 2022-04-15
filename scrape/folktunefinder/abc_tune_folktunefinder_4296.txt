@@ -1,0 +1,48 @@
+X: 1
+T: Hvalssi
+T: Wedding waltz
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+B: Pelimannisvelmi v.1, Pelimannikilta ry, (Fazer 1971)
+M: 3/4
+L: 1/8
+K: Cm
+|: G,2 \
+| "Cm"G,4C2 | E4G2 | c3=Bcd | c3=Bcd \
+| "Fm"c4B2 | A3GF2 | "Cm"G6- | G2z2G,2 |
+| "Cm"G,2C2D2 | E2D2C2 | G2F2E2 | "G7"d3c=Bd \
+| "Cm"g6 | "Fm"f2e2zc | "G7"d6- | d2z2G,2 |
+| "Cm"G,4C2 | E4G2 | c3=Bcd | c3=Bcd \
+| "Fm"c4B2 | A3GF2 | "Cm"G6- | G2z2g2 |
+| "Fm"f6 | e4d2 | "G7"d3c=Bd | "Cm"g6 \
+| "Fm"f2e2c2 | "G7"G2=A2=B2 | "Cm"c6- | c2z2 :|
+|: E2 \
+| "Eb"E4G2 | G4B2 | B4e2 | "Bb7"d4B2 \
+| d6 | c2B2zA | F6- | F3EDC |
+| "Bb7"B,4D2 | D4F2 | "F7"F4E2 | D4C2 \
+| "Bb"B,2=A,2B,2 | "Ab"=B,2C2A,2 | "Eb"G,6- | G,2z2E2 |
+| "Eb"E4G2 | G4B2 | B4e2 | "Bb7"d4B2 \
+| d6 | c2B2zA | F6- | F3edc |
+| "Eb"B4d2 | "F7"d4c2 | "Bb"B2=A2B2 | "Eb"g4e2 \
+| "Bb7"B2=A2B2 | c2B2zg | "Eb"e6- | e2z2 :| [K:Gm]
+|: "D7"D2 \
+| "Gm"G6 | A4B2 | "Cm"c4-cd | e6 \
+| "Gm"d6 | "D7"c2B2A2 | "Gm"G6- | G2z2D2 |
+| "Gm"G6 | A4B2 | "Cm"c2e2g2 | b4a2 \
+| "F7"a2g2f2 | "Cm"e4c2 | "D7"d6- | d2z2D2 |
+| "Gm"G6 | A4B2 | "Cm"c4-cd | e6 \
+| "Gm"d6 | "D7"c2B2A2 | "Gm"G6- | G2z2g2 |
+| "Gm"g3ab2 | "A7"a4^c2 | "Gm"d4g2 | "F7"f4e2 \
+| "D7"d2c2B2 | A2B2A2 | "Gm"G6- | G2z2 :|
+S:https://www.folktunefinder.com/tunes/4296
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Haavalssi_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Haavalssi_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Haavalssi_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Haavalssi_Cm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

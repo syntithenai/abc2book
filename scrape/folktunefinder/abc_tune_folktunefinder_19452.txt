@@ -1,0 +1,29 @@
+X: 1
+T: Lady Mary Ramsay
+C: Nathaniel Gow
+M: C
+L: 1/8
+K: D
+A \
+| "D"D2 D>B A<F F>B | "D"A<F "G"B>G "D"A<F F<d \
+| "D"D2 D>B "Bm"A<F F>A | "G"(3Bcd "D"(3AGF "A7"E2-E :|
+g \
+| "D(Bm)"f>e d>B "A7"e>c A>c | "G"d>c B<d "D"A<F D>g \
+| "D(Bm)"f>e d>B "A7"e>c A>c | "G"(3dcB "D"(3AGF "A7"E2-E ||
+g \
+| "D(Bm)"f>e d>B "A7"e>c A>c | "G"d>c B<d "D"A<F D>c \
+| "D"(3def "A"(3edc "Bm"(3dcB "D"(3AGF | "Em"G<e "D"F<d "A7"E2-E |]
+S:https://www.folktunefinder.com/tunes/19452
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyMaryRamsayS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/LadyMaryRamsayS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/LadyMaryRamsayS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyMaryRamsayS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/LadyMaryRamsayS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/LadyMaryRamsayS_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

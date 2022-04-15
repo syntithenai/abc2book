@@ -1,0 +1,26 @@
+X: 1
+T: Larach Alasdair
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: Hanneke Cassel
+M: 6/8
+L: 1/8
+K: Amix
+e \
+|:"A"AAA a2e | "D"f2d  "A"ecA |    AAA    a2e | "G"g2e dBG \
+| "A"AAA a2e | "D"f2d "Em"efg | "A"agf "G"g2e |    d2g dBG :|
+[|"A"AAe c2e |    AAf     ecA |    AAe    c2e | "G"BBg dBG \
+| "A"AAe c2e | "D"d2e  "G"BBg | "D"agf "G"g2e |    d2g dBG ||
+||"A"AAe c2e |    AAf     ecA |    AAe    c2e | "G"BBg dBG \
+| "A"AAA c2A | "D"d2e  "A"g2e | "D"agf "G"g2e |    d2g dBG |]
+S:https://www.folktunefinder.com/tunes/14512
+S:http://trillian.mit.edu/~jc/music/abc/jig/Larach_Alasdair_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Larach_Alasdair_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

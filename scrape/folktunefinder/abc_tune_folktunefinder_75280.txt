@@ -1,0 +1,26 @@
+X: 108
+T: BOYS IN BLUE -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20010905020046 by John Chambers jmchambers:rcn.net
+K: G
+(3uDEF "segno"\
+|] GDB,D EFGA | Bd2d d3B | Ad2d d3c | Bd2d d3D \
+|  GDB,D EFGA | Bd2d d3B | Aa2a a2g2 | fgef dcBA |]
+   GDB,D EFGA | Bd2d d3B | Ad2d d3c | Bd2d d3D \
+|  GDB,D EFGA | Bd2d d3B | cBAG FDEF | GDB,D B,2 |]
+|: uD2 \
+| (Dd).d.d .d2dc | (Bb).b.b .b2ag | (fd).d.d ("4"e^c).c.c |  dAFA GFED \
+| (Dd).d.d .d2dc | (Bb).b.b .b2ag | (fd).d.d ("4"e^c).c.c |1 dAFA d2 \
+                                                    :|2 dAFA DDEF "_D.S."|]
+S:https://www.folktunefinder.com/tunes/75280
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/AB.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

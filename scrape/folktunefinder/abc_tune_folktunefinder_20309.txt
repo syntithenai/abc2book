@@ -1,0 +1,28 @@
+X: 1
+T: Villapour\,con
+O: Trad
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: D
+|: "D"D2F2G2 |    A2BAGF  |     D2F2G2  | A2BAGF \
+| "Em"E4  F2 |    G2BAGF  | "A7"E4F2    | G2AGFE |
+|  "D"F2D2FG |    A2BAGF  |     D2F2G2  | A2BAGF \
+| "Em"E4  D2 | "G"d2c2=c2 | "A7"B2_B2A2 | G2F2E2 :|
+|  "D"D2EF"D7"GA \
+|: [K:G^f=c] "G"B3cB2 | B2G2B2 | d2c2B2 | "D7"A4D2 \
+              | A3BA2 | A2F2A2 | c2B2A2 |1 "G"B4G2 :|2 "G"G6 |]
+S:https://www.folktunefinder.com/tunes/20309
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Villapourcon_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/waltz/Villapourcon_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

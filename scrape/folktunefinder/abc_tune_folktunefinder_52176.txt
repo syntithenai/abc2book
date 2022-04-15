@@ -1,0 +1,18 @@
+X: 105
+T:Bourree #1
+M:2/4
+L:1/8
+Q:1/8=250
+K:G
+G2 Bd|g3 b|a>gfe|d>cBA|G2 Bd|g3 b|a>gfe|d4:||
+B>dBd|c>ece|d2 g>a|b>agd|B>dBd|c>ece|d2 gf|g4:||
+S:https://www.folktunefinder.com/tunes/52176
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

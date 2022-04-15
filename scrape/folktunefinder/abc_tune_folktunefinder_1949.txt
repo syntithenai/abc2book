@@ -1,0 +1,29 @@
+X: 12
+T:Quick Step. JMP.012
+M:C|
+L:1/8
+Q:160
+C:"15"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:A reel of course...
+H:1799
+Z:vmp.C. Graebe
+K:C major
+d | BGdG B2 GB | AFAf A2 FA | BGdG B2 GB | cAFA G/G/G G :|!
+|:d | gd d/d/d gdde | fc c/c/c fccf | gd d/d/d gddc | BGAF G2 Gd | !
+gd d/d/d gdde | "e in MS"fc c/c/c fccf | gefd ecdB | cAFA G/G/G |]
+S:https://www.folktunefinder.com/tunes/1949
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

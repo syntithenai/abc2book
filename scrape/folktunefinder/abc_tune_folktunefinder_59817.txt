@@ -1,0 +1,36 @@
+X:930
+T:Xiraldilla d'Avils (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+O:Avils
+M:2/4
+L:1/8
+Q:1/4=60
+K:Eb
+|:"Cm" G2 GA|"Cm" G2 FA|"Cm" G3 A|"Cm" G2 FA|"Cm" G4|
+"Cm" E2 EG|"Fm" F2 ED|"Cm" C3 E|"G"D2 =B,D|"Cm" C4|
+|"Cm" E2 EG|"Fm" F2 ED|"Cm" C3 E|"G" DC =B,D|"Cm" C4:|
+[K:C]
+[M:3/8]
+[Q:1/4=150]|
+|:"C" E3/2F/G|"C" GFG|"Am" A2 G|"C" E3/2F/G|"C" GFE|"Dm" D2 C:|
+|:"C" C3/2C/C|"Am" A2 B|"F" AGF|"C" G2 A|"C" GFE|"F" F2 G|"Dm" FED|
+[1 "C" G3:|[2 "C" C3||
+S:https://www.folktunefinder.com/tunes/59817
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

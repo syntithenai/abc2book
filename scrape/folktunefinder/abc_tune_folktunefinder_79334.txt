@@ -1,0 +1,26 @@
+X:230
+T: FRISCH AUF ZUM KAMPF
+N: E1369
+O: Europa, Mitteleuropa, Deutschland, Hessen, Oberhessen; Wetterau
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: G
+DEF | G2B2BBAB | cAA2z
+DEF | G2B2BBAG | A4z
+AAB | c2d2e2d2 | dBB2z
+ded | dcc2DcBA | G4z
+AAB | c2d2e2d2 | dBB2z
+ded | dcc2DcBA | G4z
+S:https://www.folktunefinder.com/tunes/79334
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T: L\"arpolkan
+C: Trad (Pargas)
+M: 2/4
+L: 1/16
+K: G
+|: "G"G2B2 BABc | d2d2 dcBA | G2B2 BABc | "D7"d2A2 A4 \
+| A2f2 fgfe | A2f2 fgfe |1d2d2 e2d2 | "G"B4 B4 :||
+|2 "D7"d2d2 e2f2 | "G"g4 g4 |: "G"b2b2 g2g2 | d2d2 B3d | g2g2 f2g2 | "D7"a4 a4 \
+| a2a2 abag | f2f2 fgfe | d2d2 e2f2 | "G"g4 g4 :|
+S:https://www.folktunefinder.com/tunes/16141
+S:http://trillian.mit.edu/~jc/music/abc/polka/Larpolkan_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/Larpolkan_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

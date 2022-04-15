@@ -1,0 +1,36 @@
+X: 28
+T: 2. Alexander William MacDonnell
+R: jig
+C: Jerry Holland
+S: http://www.cranfordpub.com
+D: Fiddler's Choice
+B: Jerry Holland the 2nd Collection, 2000
+Z: Paul Stewart Cranford, re-formatted, updated 9/19/04
+Z: Chords by Robin Shaylor, August 2005
+L: 1/8
+% Q: 330
+M: 6/8
+K: G
+|: D |\
+"G'" GAB "Bm/F#'" d2B | "Em/E'" dba "Em7/D" g2d | "Am" ege ede |      gdB "D7" AGE | 
+"G'" GAB "Bm/F#'" d2B | "Em/E'" dba "Em7/D" g2d | "Am" ege edB | "D7" A3       G2 :| 
+|: z | \
+"G" bgb bgb | "Am7" aga       bag | "C" ege ege | "D7" edB AGE | 
+|1 "G" bgb bgb | "Am7" aga "G/B" bag | "C" ege edB | "D7" A3  G2 :| 
+|2 "G'" GAB "Bm/F#'" d2B | "Em/E'" dba "Em7/D" g2d | "Am" ege edB | "D7" A3 "A7" A3 || [K:D] |
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 17 of 31
+S:https://www.folktunefinder.com/tunes/40132
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

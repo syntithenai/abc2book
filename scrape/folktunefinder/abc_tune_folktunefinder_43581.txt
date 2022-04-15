@@ -1,0 +1,25 @@
+X:90
+T:Over the Water to Charley
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dc0.html
+%%ID:00000dc0
+K:A
+D2A AFA | BdB AFD | D2A AFA | B2 d3 |\
+D2A AFA | BdB AFD | faf ecA | B3 d3 ::
+faf ecA | BdB AFD | faf ecA | B3 d3 |\
+faf ecA | BdB AFD | D2A AFA | B3 d3 :|
+% page 10
+S:https://www.folktunefinder.com/tunes/43581
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

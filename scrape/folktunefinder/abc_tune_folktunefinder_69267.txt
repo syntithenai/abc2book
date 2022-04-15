@@ -1,0 +1,24 @@
+X:408
+T: "Der Traum"
+N: Z1088
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade
+M: 4/4
+L: 1/8
+K: Ab
+E2 | A2c2B2c2 | A3GF2
+GA | B3BAGFE | E4
+A4 | BBBBedcB | B4cz
+AG | F2A2B2cB | A4z2
+S:https://www.folktunefinder.com/tunes/69267
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

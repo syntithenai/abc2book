@@ -1,0 +1,52 @@
+X:1
+T:Abschlag-Walzer
+C:traditionell
+R:schottisch
+A:'Kalisches Land' (deutsche sprachinsel), Polen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 52/53, Deutsche Volkstaenze aus dem Weichselraum, Karl Horak, Baerenreiter, Basel, London, New York 1962
+N:im buch s. 27
+N:im buch in C (1.  3. teil) und G (2. teil), 1. ton e'
+N:im buch einstimmig
+S:im buch mit der angabe:aus einem handschriftlichen noten-buch des Alois Kartte in Alt-Zawdka, Kr. Kolo
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/8
+K:G
+B/c/ |\
+(d2b) | (a2f) | (g2B) | zgg |\
+(f2A) | (f2A) | (g2B) | zBc |
+(d2b) | (a2f) | (g2B) | zgg |\
+(f2A) | (f2A) | gz g | g :|
+K:C
+|: G/G/ |\
+Ge>d | ca>g | gfe | d2G/G/ |\
+Gd>c | Ba>g | g^f=f | e2 G/G/ |
+Ge>d | ca>g | gfe | d2G/G/ |\
+Gd>c | Ba>g | cz c | c2 :|
+|: G |\
+(e2G) | (d2G) | (c2"1)"E) | zaa |\
+{a}g>Bd | zaa | {a}g>ce | zGG |
+(e2G) | (d2G) | (c2"1)"E) | zaa |\
+{a}g>Bd | zGB | cz c | c2 :|
+W:
+W:1) ersatzweise g'
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/76857
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/abschlag-walzer.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

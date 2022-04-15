@@ -1,0 +1,30 @@
+X: 1
+T: the Sailor's Wife
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+   "A7"A \
+| "Dm"DEF E2D | d2e f2g | agf edc | "F"AcA "C"GEC \
+| "Dm"DEF E2D | d2e f2g | agf "A7"ed^c | "Dm"d3- d2 :|
+|: "C7"e \
+| "F"fga fga | fga agf | "C"ecg ecg | efg "A7"gfe \
+| "Dm"fga agf | "C"efg gfe | "Dm"def "A7"ed^c | "Dm"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/15008
+S:http://trillian.mit.edu/~jc/music/abc/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/SailorsWife_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/SailorsWife.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

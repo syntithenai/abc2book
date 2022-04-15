@@ -1,0 +1,26 @@
+X:77
+T: IDS ELFIS ABE WOTT E FLOHNES
+N: E1095
+O: Europa, Mitteleuropa, Schweiz
+R: Wunsch - Lied, Luegen - Maerchen, Schlaraffenland
+M: 2/4
+L: 1/16
+K: A
+cB | A2A2A2E2 | A4B4 | c4z2
+cB | A2A2A2E2 | A4B4 | c4z2
+AB | c2cde2dc | B2E2z2
+cd | e4c4 | d2edc2B2 | c4z2
+B2 | A3Bc2^dd | e2E2z2
+ce | e3fed | c3BA2 | B4c2 | A4
+S:https://www.folktunefinder.com/tunes/79181
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Wunsch - lied, luegen - maerchen, schlaraffenland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

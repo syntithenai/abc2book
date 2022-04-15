@@ -1,0 +1,20 @@
+X:3780
+T:Lord Glencairn's Quick Step. W.F.R.
+O:england
+M:2/4
+L:1/8
+K:D
+d2      cd     |(f/e/)(d/c/) dA|B2  ge        |(a/g/)(f/e/) fd   |\
+Adcd           |(f/e/)(d/c/) dA|BGFE          | D2          D2  ::
+FDDA           | BGGB          |AFFd          | cA          AB/c/|\
+d(c/d/) A(d/e/)|(f/e/)(d/c/) de|fg (a/g/(f/e/)|d2           d2  :|
+S:https://www.folktunefinder.com/tunes/24231
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

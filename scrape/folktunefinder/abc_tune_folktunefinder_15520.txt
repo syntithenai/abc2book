@@ -1,0 +1,26 @@
+X: 1
+T: Lady Gethin
+C: O'Carolan
+R: reel
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+a2 \
+| "D"f2d2 d2b2 | "Em"g2e2 "A7"e2a2 | "D"f2d2 "E(m)"Bcde | "Aa"c2A2 A2ag |
+| "D"fgaf "Bm"d2ba | "Em"gabg "A7"e2a2 | "G"gfed "A7"A2c2 | "D"d4- d2 :|
+|: A2 \
+| "D"F2A2 d2F2 | "G"G2B2 B3A | "E"^G2B2 "E7"e2G2 | "A"A2c2 "A7"e2fg |
+| "D"a2gf "G"b2ag | "D"agfg "A7"e2a2 | "G"gfed "A7"A2c2 | "D"d4- d2 :|
+S:https://www.folktunefinder.com/tunes/15520
+S:http://trillian.mit.edu/~jc/music/abc/march/LadyGethin_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/LadyGethin_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/LadyGethin_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

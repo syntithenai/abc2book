@@ -1,0 +1,25 @@
+X: 787
+T:the Humours of Listivain
+N:Irish
+M:6/8
+R:Jig
+K:Am
+EAA "tr"A(GA)| ("tr"BAB) GAB| eAA ("tr"AGA)| ("tr"BAB) g3|\
+(eg).g (de).e| (Bd).d (GA).B| eaa ("tr"AGA)| ("tr"BAB) g3|
+(eg).g (df).f| BEG A3 ::\
+(ea).a "tr"aga| "tr"bab g3| \
+"tr"a(ga) e3| ("tr"gfg) d3|
+.e(e/.f/.e/.d/.) .B(B/c/B/G/)| A(A/B/A/G/) E3| \
+EAA ("tr"AGA)| "tr"B>AB g3| \
+(eg).g (de).e| BEG A3 :|
+S:https://www.folktunefinder.com/tunes/31294
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

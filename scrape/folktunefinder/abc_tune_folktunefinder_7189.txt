@@ -1,0 +1,41 @@
+X: 1
+T: In the Manchurian Hills
+T: Mantsurian kukkuloilla
+C: J.A.Schatrow
+R: waltz
+M: 3/4
+L: 1/4
+K: Am
+A,/B,/C/D/ \
+| "Am"E3- | ECD | "E7"E3- | E3 | DE^G | c2B | "Am"A3- | A3 \
+| "Am"EAc | ^G2A | "Dm"BAF | B2A | "Am"EAB | "E7"c2B | "Am"A3- | "fine"A :: E/^D/E/F/ |
+| "E7"E>B,B, |zCD | "Am"E3- | E G/^F/G/A/ | "G7"G>DD | ZEF | "C"G3- | GG"E7"^G \
+| "Am"A>EE | ((3E/F/E/) ^DE | "Dm"G2F- | FCD | "Am"EDC | "E7"B,2C | "Am"A,3- |  A, :|
+|| A,/B,/C/D/ \
+| "Am"E3- | ECD | "E7"E3- | E3 | DE^G | c2B | "Am"A3- | A3 \
+| "Am"EAc | ^G2A | "Dm"BAF | B2A | "Am"EAB | "E7"c2B | "Am"A3- | A ||
+|: A^G \
+| "A7"A2_B | A2G | "Dm"G2F | FED | "G7"G2A | G2F | "C"FE^D | "E7"E3 \
+| "Am"A,CE | Ac>B | "Dm"AGF | A2F | "Am"CED | "E7"B,2C | "Am"A,3- | A, :|
+S:https://www.folktunefinder.com/tunes/7189
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ManchurianHillsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ManchurianHillsW1.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ManchurianHills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/ManchurianHillsW1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/ManchurianHillsW_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/waltz/ManchurianHills_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/ManchurianHillsW1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/ManchurianHillsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/ManchurianHillsW_Am.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:1
+T:O'er the Muir Amang the Heather
+T:Aldivalloch
+Z:Wendy Galovich <Galovich@concentric.NET>
+M:C
+L:1/8
+Q:80
+S:The Skye Collection
+R:Slow Air
+K:D
+(A,<D) D>E ~D>EDA,|(B,E) E>F {F}G>FED|!
+(FA)A>B d>e {de}f>e|{e}d>B (A/2B/2d/2).F/2 E>FED:|!
+(A2>d2)d2>e2 {c}d2>e2d2A2|(B2>e2)e2>f2{ef}g>fed|!
+{d}f>edB (Ag) f>e|{e}d>B (A/2B/2d/2).F/2 E>FED:|!
+A,/2B,/2D/2E/2 D/2A,/2D/2E/2 F/2G/2E/2F/2 (D/2E/2).D/2.A,/2|
+(B,/2D/2E/2F/2 E/2)(B,/2E/2F/2) (A/2F/2)(d/2F/2) E>D|!
+(D/2E/2F/2G/2) A>B (A/2D/2)F/2A/2 d>e|
+(f/2d/2)(e/2B/2) (d/2A/2)(B/2F/2) (E/2F/2G/2).F/2 ED:|!
+L:1/16 DD/2 (dc/2d) f>d dc/2d/2 Ddfe d2A2|
+E=GB^d (ed).e.f (ga)(fg) {f}e2=d2|!
+(fd).e.f (dA).B.d (FA)(EF) (AB).d.e|f>de>B d>AB>F (EFG).F E2D2:|
+S:https://www.folktunefinder.com/tunes/13108
+S:http://trillian.mit.edu/~jc/music/abc/air/Aldivalloch.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/OerTheMuirAmangTheHeather.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Aldivalloch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/OerTheMuirAmangTheHeather.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

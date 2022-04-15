@@ -1,0 +1,35 @@
+X:4130
+T:Di Tanti Palpite. GS.086
+M:2/4
+L:1/16
+Q:100
+S:George Spencer m/s, Leeds,1831
+R:Air
+O:England
+A:Leeds
+N: <> - drawn as a joined diamond shape under the note, but means
+N:crescendo and diminuendo
+H:1831
+Z:vmp.Cherri Graebe
+K:G major
+.B4 .B2B2 | {c} B>AB>c d4 | (3(cdc)(3(BcB) .A2.d2 | (3(BcB) (3
+(ABA) G2D2 |
+ B4 B2B2 | {c} B>AA>c d4 | (3(cdc) (3(BcB) A2{e2}d2 |! G4 z4 | A4(^GAc).
+A | 
+(F4D4) | .G4 (B2d2) | G2(cB) .A4 | A4 (^GAc)A | F4D4 |! G4 (B2d2) | "<>"
+A8 | (B4B2B2) 
+| (A/2B/2A/2^G/2 A/2B/2c/2d/2 e/2f/2=g/2^d/2 e/2B/2c/2A/2) | G4 B2A2 |
+G4 z4 | [D4B4g4]z4 | g8 ||
+S:https://www.folktunefinder.com/tunes/60319
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

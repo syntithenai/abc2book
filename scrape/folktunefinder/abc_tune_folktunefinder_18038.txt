@@ -1,0 +1,37 @@
+X:1
+T:Rochdale Coconut Dance
+M:4/4
+C:
+S:Bordering on the Absurd
+Z:HALL, Ian  tradtunes 2006-4-24
+N:for dance Craven Stomp
+A:Border
+O:English
+R:Reel
+%P:
+K:G
+L:1/8
+"A"\
+|: G2 BB G2 B2 | AG FG A3 d  \
+|  G2 BB G2 B2 | AG FE D3 d  |
+|  G2 BB G2 B2 | AG FG A3 d  \
+|  G2 dB Ac BA | G2 D2 G3 D :|
+K:Emin
+"B"\
+|: EF GF E2 B2 | EF GF E2 B2 \
+|  c2 Ac B2 G2 | AG F2 E3 D :|
+S:https://www.folktunefinder.com/tunes/18038
+S:http://trillian.mit.edu/~jc/music/abc/reel/Rochdale_Coconut_Dance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Rochdale_Coconut_Dance_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Rochdale_Coconut_Dance_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

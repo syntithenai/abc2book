@@ -1,0 +1,41 @@
+X:57
+T:Aada (CT 475)
+R:Aada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Cuna (Aada), dictada por Leandra Gonzlez Zuazua, de cincuenta aos.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 475
+M:3/4
+L:1/8
+Q:1/4=152
+K:F
+|: d4 d2|d2 ^c2 d2|e2 ^c2 d2|e2 f2 e2|[1 d6-|d4 z2 :|[2 d4 z2|(e3/2f/4e/4 c3/2d/4c/4 A2)|
+G2 A2 B2|c4 (B3/2c/4B/4)|A6-|A4 z2|(e3/2f/4e/4 c3/2d/4c/4 A2)|
+G2 A2 B2|c4 (B3/2c/4B/4)|A2 B2 c2|(d2-d3/2e/4d/4) (c3/2(3d/4c/4B/4)|A6-|A4 z2||
+W:Durmete, neu hermosu,
+W:que tengo que hacer:
+W:tengo el maiz en fuelle
+W:y est por moler.
+W:
+W:Al ron ron,
+W:durmete nin,
+W:al ron ron,
+W:que voi a moler,
+W:que voi al moln.
+W:
+S:https://www.folktunefinder.com/tunes/58944
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Aada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

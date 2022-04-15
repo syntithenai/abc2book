@@ -1,0 +1,23 @@
+X:6
+T:The Rabbit Men
+C:Andy Hornby 1990
+Q:1/4=160
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+(3def|g2d2d3/2e/2d3/2c/2|B3/2c/2d3/2B/2 G2B3/2G/2|A3/2B/2c3/2A/2 F3/2G/2A3/2F/2|G3/2A/2B3/2G/2 D2 (3def|
+g2d2d3/2e/2d3/2c/2|B3/2c/2d3/2B/2 G2A3/2B/2|c3/2B/2A3/2G/2 F3/2A/2D3/2F/2|G2B2G2:|
+|:A3/2G/2|F3/2G/2A3/2B/2 c3/2A/2F3/2A/2|G3/2A/2B3/2c/2 d2d3/2B/2|c3/2d/2e3/2f/2 g3/2f/2g3/2e/2|
+f3/2g/2a3/2f/2 d2 (3def|g2d2d3/2e/2d3/2c/2|B3/2c/2d3/2B/2 G2A3/2B/2|c3/2B/2A3/2G/2 F3/2A/2D3/2F/2|G2B2G2:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43748
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

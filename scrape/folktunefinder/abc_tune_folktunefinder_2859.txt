@@ -1,0 +1,30 @@
+X: 1
+P: Kostursko Oro (in C)
+R: lesnoto
+O: Makedonija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+|: "C"[G3E3] [G2E2] [A2F2] | "G"[B3-G3-] [B2G2] [G2E2] |\
+   "F"[A3F3] [A2F2] [A2F2] | "C"[G3E3] [GE][FD] [E2C2] |\
+   "C"[G3E3] [G2E2] [A2F2] | "G"[B3-G3-] [B2G2] [G2E2] |
+   "F"[A3F3] [A2F2] [A2F2] | "G7"[G3E3] [FD][GE] [FD][EC] |\
+   "C"[E3-C3-] [E4-C4-] | [E3-C3-] [E2C2] z2 :|\
+   "F"[GE][AF][AF] [AF][GE] [BG][AF] | "C"[GE][EC][AF] [GE][FD] [EC][FD] |
+   "G7"[GE][EC][AF] [GE][FD] [FD][EC] | "C"[EC][FD][DB,] [EC][FD] [G2E2] |\
+   "F"[GE][AF][AF] [AF][GE] [BG][AF] | "C"[GE][EC][AF] [GE][FD] [EC][FD] |\
+   "G7"[GE][EC][AF] [GE][FD] [FD][EC] | "C"[E3-C3-] [E2C2] z2 |]
+S:https://www.folktunefinder.com/tunes/2859
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Les_KosturskoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KosturskoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/KosturskoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/Les_KosturskoOro.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_KosturskoOro.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

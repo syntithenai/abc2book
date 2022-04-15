@@ -1,0 +1,24 @@
+X: 1
+T: Jacky Bull
+B: Thomas Wilson "A Companion to the Ball Room" (London: D.Mackay, 1816)
+N: The tune is from Sir Felix's first-act aria in Samuel Arnold and John
+N: Keeffe's musical "The Agreeable Surprise" (London, 1781)
+%Q: 3/8=110
+M: 6/8
+L: 1/8
+K: C
+|:"C"c2c    G2G | "F"A2A "G"G2G |  "C"c>dc   c2d |      e3    g2e \
+| "C"c2c    G2G | "F"A2A "C"G2e |  "F"fga "C"gec | "G7 "d3 "C"c3  :|
+|:"C"c/d/ee efe |    efe    gec | "G7"B/c/dd ded |      ded   fdB \
+| "C"c/d/ee efe |    efe    gec |  "F"fga "C"gec | "G7 "d3 "C"c3  :|
+S:https://www.folktunefinder.com/tunes/14391
+S:http://trillian.mit.edu/~jc/music/abc/jig/Jacky_Bull_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Jacky_Bull_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

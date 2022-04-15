@@ -1,0 +1,37 @@
+X: 142
+T:I Was Young And Lustey.... HA.141
+M:3/2
+L:1/8
+Q:1/4=350
+C:"... When I Had Ye"
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:"...When I Had Ye"  It seems that HA has missed repeat signs in places.
+N:However, this may be
+N:deliberate to fit a specific dance. I have therefore left repeats as in
+N:Key sig (one flat) with root note G suggests dorian mode. NBr.
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:GDor
+"tr"Td2(ef) gfed f2B2|d2g2 fdcB f4|!
+"u"d2 ef gfed f2B2|c2g2c4f4||!
+"undotted in MS"d3BG2B2f2B2|d3BG2B2f4|!
+d3BG2B2f2B2|c2g2c4f4:|!
+|:defd efge defd|BcdB defd f4|!
+defd efge defd|c2g2c4g4:|!
+|:d2G2f2B2g2B2|fdcd fdcB f4|!
+d2G2f2B2g2B2|c2g2c4g4:|]
+S:https://www.folktunefinder.com/tunes/72391
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

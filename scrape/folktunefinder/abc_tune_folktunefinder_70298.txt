@@ -1,0 +1,33 @@
+X:168
+T: Fern im Sd das sch\^ine Spanien (3-6), S. 16
+N: K1143
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 3 Luxemburg 1928]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Heimatlied (eines spanischen Auswanderers)]
+M: 3/4
+L: 1/16
+K: F
+A2B2 | A6G2F2G2 | F4E4
+d3c | c6A2F2G2 | A8
+A2A2 | A6A2=B2c2 | =B4A4
+A2c2 | e6dc=B2c2 | A8
+B3A | G2_G2=G4B3A | G2_G2=G4
+A2B2 | c6c2dcAF | G8
+A2B2 | A6G2F3G | F4E4
+G2G2 | A6F2B2G2 | c8
+c2_d2 | d6d2e3d | c2B2
+A2G2F2C2 | A8G4 | F8
+S:https://www.folktunefinder.com/tunes/70298
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Heimatlied (eines spanischen auswanderers)]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

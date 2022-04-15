@@ -1,0 +1,30 @@
+X: 2
+P: Kri\vci kri\vci ti\vcek (A/D)
+R: drme\vs
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+|: "A"[ac][gB] [ac][gd] \
+| [a2e2] [e2c2] \
+| "D"[fd][fd] [dA][fd] \
+|1 "A"[e2c2] [c2A2] \
+:|2 "A"[e2c2] "A7"[e2A2] || [K:D]
+|: "D"[dA][dA] [d/A/][e/c/][fd] \
+| "A7"[ge][ge] [g/e/][f/d/][ec] \
+|1 "D"[dA][fd] [g/e/][f/d/][e/c/][d/B/] \
+| "A"[e2A2] [A2] \
+:|2 "D"[dA][fd] "E7"[g/e/][f/d/][e/c/][d/B] \
+| "A"[e2A2] [e2A2] |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5772
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KriciKriciTicek.abc
+% Rhythm Drmes?
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

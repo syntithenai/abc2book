@@ -1,0 +1,17 @@
+X: 1
+T: accidentals
+M: 4/4
+L: 1/8
+K: G
+FGB^D gdef | FGBD gdef |
+FGB^D g=def| FGBD gdef |
+S:https://www.folktunefinder.com/tunes/40370
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

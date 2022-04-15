@@ -1,0 +1,53 @@
+X:21
+T:9. Ronde
+C:Tielman Susato
+B:Tielman Susato: Danserye (1551) no. 21
+R:Ronde
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-21.abc
+M:4/2
+L:1/4
+K:C
+V:1
+G|FDDF ECCE|D_B,CD E2CG|FDDF E2DC|B,A,CB, C2 z::C|
+V:2
+B,|D2B,B,C2A,G,|_B,2A,2 G,2A,B,|D2B,A,C2A,2|G,F,G,2C,2z::E|
+V:3
+G,|A,2G,F,G,2F,E,|F,G,F,2E,2E,G,|A,2G,F,G,2F,E,|D,C,D,2C,2z::E,|
+V:4
+G,,|D,2G,,D,C,2F,,C,|_B,,G,,A,,_B,,C,2A,,G,,|D,2G,,D,C,2F,,2|G,,A,,G,,2 C,2z::C,|
+%
+V:1
+FEFG A3A|GFED E2CC|FEFG A3A|GFED E2z:|z|:E2EEE3E|
+V:2
+D3DE2F2|EDCB, A,2E2|D3DE2F2|EDCB,A,2z:|z|:C2CCC3C|
+V:3
+A,G,A,B,C3F,|G,A,G,F, E,3E,|A,G,A,B,C3F,|G,A,G,F,E,2z:|z|:G,2G,G,G,3G,|
+V:4
+D,3C,/B,,/A,,2F,,2|C,3D,A,,3C,|D,3C,/B,,/A,,2F,,2|C,3D,A,,2z:|z|:C,2C,C,C,3C,|
+%
+V:1
+ECDEF4|[1E2EED2C2|B,A,CB,C4:|[2E2EED2C2|B,A,CB,C4|]
+V:2
+C2A,CC4|[1C3_B,_B,2G,2|G,2G,2E,4:|[2C2CCA,2F,2|G,2G,2E,4|]
+V:3
+G,A,F,G,A,4|[1G,2G,G,F,2E,2|D,2D,2C,4:|[2G,2G,E,F,E,D,C,|D,2D,2C,4|]
+V:4
+C,A,D,C,F,,4|[1C,2C,G,,_B,,2C,2|G,,2G,,2C,,4:|[2C,2C,C,F,,2A,,2|G,,2G,,2C,,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/58590
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-21.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-21/susato-1551-21.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-21/susato-1551-21.abc
+% Rhythm Ronde
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Has_accompaniment_chords Has chords

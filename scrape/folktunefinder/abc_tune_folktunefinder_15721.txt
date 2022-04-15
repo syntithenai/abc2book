@@ -1,0 +1,22 @@
+X: 1
+T: (I'm a) Yankee Doodle Dandy
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+[| "D"f3 e | ed cd | "E7"e4 | B4 | "A"e3 f | "A7"ec BA | "D"d4- | d3 f |
+| "B7"f2 f2 | ^de fa | "Gdim"g2 "F#dim"f2 | "E"e4 | "E7"f e2 d | B d2 f | "A"e4- | "A7"e4 |
+| "D"f f2 e | ed cd | "E7"e4 | B4 | "A"e3 f | "A7"ec BA | "D"d4- | d2 z |
+| "D"dd "A7"ef | "D"df "A7"eA | "D"dd "A7"ef | "D"d2 "A7"c2 | "Em"B e2 d | "A7"c>d ec | "D"d4- | d2 z2 |]
+S:https://www.folktunefinder.com/tunes/15721
+S:http://trillian.mit.edu/~jc/music/abc/march/YankeeDoodleDandy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/YankeeDoodleDandy_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

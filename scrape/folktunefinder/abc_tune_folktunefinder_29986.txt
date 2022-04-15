@@ -1,0 +1,50 @@
+X:0
+T:The 12 Diatonic Pitch Sets (as key signatures)
+M:7/4
+L:1/4
+K:Db
+"^-5"A B c d e f g||\
+K:Ab
+"^-4"A B c d e f g||\
+K:Eb
+"^-3"A B c d e f g||
+K:Bb
+"^-2"A B c d e f g||\
+K:F
+"^-1"A B c d e f g||\
+K:C
+"^0 "A B c d e f g||
+K:G
+"^1"A B c d e f g||\
+K:D     
+"^2"A B c d e f g||\
+K:A
+"^3"A B c d e f g||
+K:E
+"^4"A B c d e f g||\
+K:B
+"^5"A B c d e f g||\
+K:F#
+"^6"A B c d e f g|]
+S:https://www.folktunefinder.com/tunes/29986
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C-sharp
+% Key F-sharp
+% Key G
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key B
+% Key A
+% Key A-sharp
+% Key D
+% Key G-sharp
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

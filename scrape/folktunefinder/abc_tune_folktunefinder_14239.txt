@@ -1,0 +1,30 @@
+X: 1
+T: the Girnel
+C: Ian Thow
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2c E2c | Ace fec | "Bm"d2f B2A | "E7"GBA GFE \
+| "A"A2c E2e | ^dfe cBA | "E"Gfe GeG | "A"BAA A2 :|
+|: E/D/ \
+| "A"CEA AeA | "E7"Gee dBG | Eee Gee | dcB GFE \
+| "A"CEA AeA | "E7"Gee g2f | edB GeG | "A"BAA A2 :|
+S:https://www.folktunefinder.com/tunes/14239
+S:http://trillian.mit.edu/~jc/music/abc/jig/Girnel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/Girnel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Girnel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Ian_Thow/Girnel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Girnel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/jig/Girnel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/Girnel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Girnel.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

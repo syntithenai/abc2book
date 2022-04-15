@@ -1,0 +1,46 @@
+X:1
+T: the Boys of the Lough
+M:C|
+C:Traditional
+S:Philippe Varlet 
+R:Reel
+E:8
+L:1/8
+D:Michael Coleman, Vocalion 14322, 1922
+K:D
+dB | AF (3FFF AFAB | defd ~B3 c | AF (3FFF dF (3FFF | EDEF E2dB |
+AF~F2 AFAB | defd ~B3 c | AF (3FFF dF (3FFF | EDEF D2dB ||
+AF~F2 AFAB | defd ecdB | AF (3FFF dF (3FFF | EG (3FED EFGB |
+AF~F2 AFAB | defd ~B3 c | AF (3FFF dF (3FFF | GFEG FDDg ||
+fg (3agf gfec | defd ecdB | AF (3FFF dF (3FFF | ~E3 F E2FE |
+D2 af {a}gfec | decd BcdB | AF (3FFF dF (3FFF | GFEG FDDg ||
+fgaf {a}gfec | defd ~B3 c | AF (3FFF ABde | ~f2 gf e2 fg |
+(3agf (3gfe fdec | (3dcB (3cBA BcdB | AF (3FFF dF (3FFF | EGFE DEFG ||
+(3ABA FB A2 FA | defd (3efe dB | AF (3FFF dF (3FFF | ~E3 F E2dB |
+AF~F2 AFAB | defd ~B3 c | AF (3FFF dF (3FFF | EDEF D2dB ||
+AF~F2 AFAB | defd ~B3 c | AFDF AFDF | (3GFE (3FED CDEF |
+(3ABA FB ADFA | defd (3efe dB | AF (3FFF dF (3FFF | GFEG FDD2 ||
+fg (3agf {a}gfec | dB~B2 GBdB | AF (3FFF dF (3FFF | ~E3 F E2FE |
+D2 af {a}gfec | (3ded (3cdc BcdB | AF (3FFF dF (3FFF | GFEG FDDg ||
+fgaf {a}gfec | defd ecdB | AF~F2 ABde | ~f2 gf e2fg |
+(3agf (3gfe fdec | (3dcB (3cBA ^GABc | AF (3FFF dF (3FFF | EA,CE DEFG ||
+(3ABA FA DAFA | (3ded cd B2 dB | AF (3FFF AFDF | {G}FE{G}ED CDEF |
+(3ABA FA DAFA | defd BdcB | AF (3FFF dF (3FFF | EA,CE D2 dB ||
+AF (3FFF AFAB | defd ~B3 d | AF (3FFF dF (3FFF | AF (3FFF EFGB |
+AF (3FFF AFAB | defd ~B3 c | AF (3FFF dF (3FFF | GFEG FDDg ||
+fgaf {a}gfec | defd ~B3 c | AF (3FFF dF (3FFF | (3GFE (3FED EGFE |
+D2 af {a}gfec | (3ded (3cdc BcdB | AF (3FFF dF (3FFF | GFEG FDDg ||
+fgaf {a}gfec | defd ~B3 c | AF (3FFF ABde | fdgf e2 fg |
+(3agf (3gfe fdec | (3dcB (3cBA ^GABc | AF (3FFF dF (3FFF | EDEF D2 |]
+S:https://www.folktunefinder.com/tunes/16839
+S:http://trillian.mit.edu/~jc/music/abc/reel/BoysOfTheLough.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BoysOfTheLough.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

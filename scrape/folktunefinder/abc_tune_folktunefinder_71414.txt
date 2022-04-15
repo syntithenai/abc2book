@@ -1,0 +1,26 @@
+X:385
+%%topmargin 3cm
+T:Mrs. Menzies of Culdares
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+d/c/ | ~BF (G/F/)(E/D/) B>FB>d | B(F/B/) G/F/E/D/ {/^B,}C2 C(d/c/) | BF (G/F/)(E/D/) (F>G)B>g | fd(Tc>d) B2 TB :|
+(g/a/) | b>f(g>b) Tf>dB>d | Tc>Bd>B {/^F}G2 G(g/a/) | b>f(gb) Tf>dB>d | Tc>Bc>d TB2 B(g/a/) |
+b>fgb Tf>dB>d | Tc>Bd>B {^F}G2 (G>B) | T(F>G)B>c T(B>c) B(b/g/) | T(f<d)c>d B2 ~B |]
+S:https://www.folktunefinder.com/tunes/71414
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Menzies_of_Culdares.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0385.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

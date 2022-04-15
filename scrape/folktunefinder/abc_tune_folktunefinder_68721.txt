@@ -1,0 +1,28 @@
+X:175
+T: Das arme Maegdlein
+N: A0212B
+O: Europa, Mitteleuropa, Deutschland
+N: Vereinfachung bei Werlin 1646.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: A
+A2 | A2A2A2E2 | AGAB=c2B2 | A4z2
+A2 | B2B2e2B2 | =c4B2
+A2 | A2A2A2E2 | AGAB=c2B2 | A4z2
+A2 | B2B2e2B2 | =c4B4
+z2B2c2B2 | e2d2=c2B2 | A4z2
+B2 | =G2E2B2A2 | =G2FEF4 | E4z2
+E2 | E2E2B2B2 | =G2F2E4
+z2e2e2e2 | B2e2d2=c2 | B4z2
+e2 | =c2B2d2c2 | B4A4
+S:https://www.folktunefinder.com/tunes/68721
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

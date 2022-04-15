@@ -1,0 +1,27 @@
+X:64
+T:The Twenty-Ninth of May
+M:2/2
+L:1/8
+Q:200
+B:The Round Band Book of Playford
+K:D
+f2 |\
+"D"a2f2 "A7"g2"D"f2 | "Em"edcB "A"A2f2 |\
+"Em7"g2B2 "A7"c3B/2c/2 | "D"d6 f2 |\
+"D"a2f2 "A7"g2"D"f2 | "Em"edcB "A"A2f2 |\
+"G"g2B2 "A7"c3B/2c/2 | "D"d2A2 F2ED ||
+"D"F2A4 GF | "G"G2B4 B2 |\
+"A"cde2 cde2 | "A"c2Bc A2de |\
+"D"f2ef d2ef | "Em"g2fg "A7"e2fg |\
+"D"a2B2 "A7"c3B/2c/2 | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/15908
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Round_Band_Book_of_Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Round_Band_Book_of_Playford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

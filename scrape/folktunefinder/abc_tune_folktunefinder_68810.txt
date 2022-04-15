@@ -1,0 +1,29 @@
+X:264
+T: Tanzlied
+N: A0308
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps 127. Ev. phrygisch aufzufassen.
+M: 4/2
+L: 1/4
+K: C
+E2G3A | B3Bc3B | A3
+AG3F | E4z4 | z2
+E2G3A | B3Bc3B | A3
+AG3F | E4z2
+E2 | E3EE3E | A4G3
+F | D4C4 | z2
+C2G3A | B3
+Bc3B | A3
+cB3A | G3FE3G | F4E4 | z2
+S:https://www.folktunefinder.com/tunes/68810
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:208
+T: Meiden
+N: A0253
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Lbb. 1450 No. 26
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/2
+K: A
+A | A3e3 | =g2=fe2d | =c2B2
+B2 | A2E=G2=F | E3z2
+A | A3e3 | =g2=fe2d | =c2B2
+B2 | A2E=G2=F | E3z2
+E | A2B=c2d | B2z
+AB=c | d3=f3 | e3A2
+A | e2d=c2B | A2z
+B2A | =G3B3 | F3
+E3 | A2=cB2A | B4
+e2 | e2d=cAB | A4z
+S:https://www.folktunefinder.com/tunes/68754
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

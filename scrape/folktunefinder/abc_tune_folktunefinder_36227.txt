@@ -1,0 +1,25 @@
+X:740
+T:Branle du Rat
+L:1/8
+M:2/4
+O:France
+R:Branle
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bfa.html
+%%ID:00000bfa
+K:G
+BB BA/B/ | cB A2| AA AG/A/| BA BG|\
+BB BA/B/| cB A2| d>e dc| BA G2||
+M:6/8
+B2G B2G| DEF E2D| B2G B2G| DEF G3|\
+B2G B2G| DEF E2D| B2G B2G| DEF G3|]
+S:https://www.folktunefinder.com/tunes/36227
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:2195
+T:Brocca Reel
+C:Liz Carroll
+R:reel
+S:session
+Z:id:hn-reel-458
+M:C|
+K:Ador
+~A,3B, G,A,B,G,|"S"A,2CE ABAG|E2~E2 F2~F2|GABc BAGF|
+E2CE DCB,G,|A,2CE ABAG|EDEF GAGE|DB,G,B, A,B,CD|
+E2GE DCB,G,|A,2CE ABAG|E2~E2 F2~F2|GABc BAGF|
+E2CE DCB,G,|A,2CE ABAG|EDEF GAGE|DB,G,B, A,AB^c||
+K:D
+d2fd Adfd|Adfd cdec|d2AF DEFD|G2FG EDB,D|
+d2fd Adfd|Adfd cdec|d2Ad =cAGE|ED=CE DAB^c||
+d2dc defg|a2af gedc|Ad~d2 d=cAB|=cAdB cAGc|
+Add^c defg|a2af gedc|d2ed =cAGE|ED=CE D2GF||
+K:Ador
+EA,CE DCB,G,"D.S."||
+S:https://www.folktunefinder.com/tunes/57134
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

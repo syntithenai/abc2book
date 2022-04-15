@@ -1,0 +1,31 @@
+X:682
+T:Polska efter Blinda Pelle
+R:Sl\"angpolska
+H:efter Pehr Falkenstr\"om, Askersund
+N:original url: www.wolfram.claranet.de
+D:Bla Bergens Borduner
+M:3/4
+L:1/8
+Q:1/4=106
+K:Gdor
+%K:Ddor
+%|:A3c cA| AGGB/G/ A2| FG/F/ EF/E/ DE/D/| ^C/D/E/C/ A,2 A,2|
+%A3c {cd}cA| AGGB/G/ A2| FG/F/ EF/E/ DE/D/| ^C/D/E/C/ D2 D2:|
+%|:A,3 ^CDE| FG/F/ EF/E/ D/^C/E/C/| A,3 ^C D{CD}C| A,^C/E/D2 {CD}CA,/C/|
+%D^CA, A,/C/DE| FG/F/ E/D/^C/E/ Dc| cA AG/B/ AF|E/D/^C/E/ D4 :|
+|:d3f fd| dcce/c/ d2| Bc/B/ AB/A/ GA/G/| ^F/G/A/^F/ D2 D2|
+  d3f {fg}fd| dcce/c/ d2| Bc/B/ AB/A/ GA/G/| ^F/G/A/^F/ G2 G2:|
+|:D3 ^FGA| Bc/B/ AB/A/ G/^F/A/^F/| D3 ^F G{^FG}^F| D^F/A/G2 {^FG}^FD/^F/|
+  G^FD D/^F/GA| Bc/B/ A/G/^F/A/ Gf| fd dc/e/ dB|A/G/^F/A/ G4 :|
+S:https://www.folktunefinder.com/tunes/53188
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Rhythm Sla?ngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

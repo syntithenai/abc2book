@@ -1,0 +1,38 @@
+X: 1
+T: Opsa!
+O: Srbija
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: C
+K: Dmix=c
+"A"\
+|:"D"([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [F2D2] [FD][DA,] [FD][GE] \
+|    ([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [FD][F-D-] [F2D2] [F2D2] :|
+"B"\
+|: "tacet"(DC) (B,A,) (B,C) D2 \
+| "A7"z[G2E2] [FD] "D"[A2F2] [A2F2] \
+| "tacet"(DC) (B,A,) (B,C) D2 \
+| "A7"z[G2E2] [FD] "D"[F2D2] [F2D2] :|
+"C"\
+|: "D"D4 "B7"^D4 \
+| "Em"E2 z2 z4 \
+|| "Em"[AF][GE] [GE][GE] [A2F2] [G2E2] \
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+| [AF][GE] [GE][GE] [A2F2] [G2E2] |
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+|| "D"[GE][FD] [FD][FD] [G2E2] [F2D2] \
+| [F2D2] [GE][AF] [G2E2] [F2D2] \
+| D2 z2 D2 z2 :|2  D2 z2 D2 z2 |]
+S:https://www.folktunefinder.com/tunes/5879
+S:http://trillian.mit.edu/~jc/music/abc/Intl/OpsaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/Opsa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Opsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Opsa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Opsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007DEFFA_Intl/Opsa.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Opsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

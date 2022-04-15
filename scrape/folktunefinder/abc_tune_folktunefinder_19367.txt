@@ -1,0 +1,32 @@
+X: 1
+T: Glenfiddich
+C: William Marshall
+R: strathspey
+N: Barbara McOwen's version.
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|:E \
+| "A"A2 c>A e>A c>A | E>A c>A "E7"B3 c \
+| "A"A2 c>A e>A c>A | "D"F>d "E"c>B "A"A3 :|
+|: f/g/ \
+| "A"a>e f>d e>c A>g | a>e f<b "E7"g2 ef/g/ \
+| "A"a>e f>d e<c B>A | "D"F>d "E"c>B "A"A3 f/g/ |
+| "A"a>e f>d e>c A>g | a>e f<b "E7"g2 ef/g/ \
+| "A"a>e f>d e<c B>A | "Bm"B/c/d "E7"c>B "A"A3 |]
+S:https://www.folktunefinder.com/tunes/19367
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlenfiddichS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlenfiddichS1_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/GlenfiddichS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlenfiddichS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlenfiddichS1_3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

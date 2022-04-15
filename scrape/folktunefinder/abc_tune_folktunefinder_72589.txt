@@ -1,0 +1,25 @@
+X:132
+T: Der Honef di wor gor klin, gor klin,
+N: D0200
+O: Europa, Suedosteuropa, Rumaenien, Siebenbuergen
+N: Inzipit = Transposition zum Lied
+R: Scherz - Lied
+M: 6/8
+L: 1/16
+K: D
+A2 | d2c2B2A4F2 | E4F2D4
+A2 | d2c2B2A4F2 | E4F2D4
+D2 | G3AB2A4D2 | G4B2A4
+A2 | d2c2B2A2B2A2 | G2F2E2D2z2
+S:https://www.folktunefinder.com/tunes/72589
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:101
+T: ACH JOSEPH LIEBER JOSEPH
+N: E0056C
+O: Europa, Mitteleuropa, Deutschland, Dillenburg, Eibach
+R: erzaehlendes Volks - Lied, Sage, Kinds - Mord
+M: 3/4
+L: 1/8
+K: G
+G2 | G2D2Bc | B2G2
+Bc | d2c2B2 | A4
+AB | c2cedc | BdG2
+G2 | A2A2A2 | G4
+AB | c2cedc | BdG2
+G2 | A2A2A2 | G4
+S:https://www.folktunefinder.com/tunes/78542
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, kinds - mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

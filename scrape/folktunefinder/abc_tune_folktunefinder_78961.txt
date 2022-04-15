@@ -1,0 +1,26 @@
+X:520
+T: EIN SCHAEFER TRAEGT SORGEN
+N: E0508B
+O: Europa, Mitteleuropa, Deutschland, Schlesien, Niederlausitz
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: F
+cA | F2F2GB | A2F2
+c2 | d2c2B2 | B2A2
+FF | d2d2fd | c2A2
+c2 | c2B2GB | B2A2
+FF | d2d2fd | c2A2
+c2 | c2B2GA | G2F2
+S:https://www.folktunefinder.com/tunes/78961
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

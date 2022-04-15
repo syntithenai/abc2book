@@ -1,0 +1,33 @@
+X:299
+T: Froehlich in Ehren
+N: A0343
+O: Europa, Mitteleuropa, Deutschland
+N: J. Werlin 1646 S. 3334.
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/4
+L: 1/4
+K: G
+d | dded | c2c
+B | cBAA | B2z
+A | ABcd | e2e
+d | cBAA | G2z
+e | eedc | BAB
+d | eedc | BAB
+d | fed^c | d2z
+e | fed^c | d2z
+B | BABc | d2A
+B | BABc | d2A
+c | BcAA | G2z
+S:https://www.folktunefinder.com/tunes/68845
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

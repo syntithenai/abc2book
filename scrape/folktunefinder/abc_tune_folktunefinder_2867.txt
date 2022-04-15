@@ -1,0 +1,43 @@
+X: 1
+T: Ludo Kopano
+P: (AB)2(CD)2E(FGFD)(HB)2
+O: Bulgaria
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI gchord f2c2c3f2c2
+M: 11/16
+L: 1/16
+%Q: 1/8=220
+K: EDor
+P:A [AB x2]
+"A"CD "E"ED "A"~E2E AB BA | "Em"AG AB G~A2 E2 ED | "D"AG AB G~A2 GF EF |1 GE "B"FD "Em"E3 E2 EA, \
+                                                                      :|2 GE "B"FD "Em"E3 E2 z2 ||
+P:B
+|: "Am"GA AG G~A2 GF ED | GA AG "Em"B~A2 GF E2 | "Am"GA AG G~A2 GF EF | "Em"GE "B"FD "Em"E3 E2 z2 :|
+P:C [CD x2]
+|: "Bm"d2 cd edc ~B2 BA | "E"A2 Bc dcd e2 z2 | "Bm"d2 cd edc ~B2 BA | "Em"GF "Bm"ED "Em"DEF E2 z2 :|
+P:D
+|: "Em"~G2 ~F2 DE2 ~A2 AB | ~G2 ~F2 DE2 BA GA | ~G2 ~F2 DE2 ~A2 AB | ~G2 ~F2 DEF E2 z2 :|
+P:E
+   "Em"{A}B4-B3-B4- | B8z3 |
+P:F [FGFD]
+|: AB BG BAG FE FG | AB BG BAG FE BE | AB BG BAG FE FG | AB BG BAG FD E2 :|
+P:G
+|: ed cB dcB cA BG | AB BG BAG FE B2 | ed cB dcB cA BG | AB BG BAG FD E2 :|
+P:H [HB]
+"D"^GA Bc dce d=c BA | AG GF D3 B=c BA | AG GF D3 FG GF |1 FE FG FEF D2 z2 \
+                                                       :|2 FE FD "Em"E3 z2 z2 |
+S:https://www.folktunefinder.com/tunes/2867
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/LudoKopano_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/KOP_Ludo_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/LudoKopano_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/LudoKopano_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 11/16
+% Has_accompaniment_chords Has chords

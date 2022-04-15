@@ -1,0 +1,34 @@
+X:682
+T:Tolo vence l'amor (CT 440)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Catalina Muiz Llano, de cincuenta aos, de Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 440
+M:3/4
+L:1/8
+Q:1/4=76
+K:C
+|Gc cB c>c|(c3/2d/4c/4 B2) z2|
+Gc cB c>c|(c3/2d/4c/4 B2) AG|
+F3 B BB|{AB}(A/G/4A/4G) G2 z2|
+Gc cB c>c|(c3/2d/4c/4 B2) z2|
+Gc cB c>c|(c3/2d/4c/4 B2) AG|
+F3 B BB|{AB}(A/G/4A/4G) G2 z2||
+W:Todo lo vence el amor, (bis)
+W:todo el dinero lo allana (bis)
+W:tdo el tiempo lo consume,
+W:todo la muerte lo acaba.
+W:
+S:https://www.folktunefinder.com/tunes/59569
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

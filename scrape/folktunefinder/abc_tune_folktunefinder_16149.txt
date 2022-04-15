@@ -1,0 +1,30 @@
+X: 1
+T: Lokakuun polkka
+T: October polka
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces  1
+%%continueall yes
+M: 2/4
+L: 1/16
+K: A
+|: "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     fedc | "Bm"e2d2     dcdc \
+| "E7"dcB2 b3a     |     a2g2 g2f2    |    ee"#"de  gfed |  "A"d2c2     cBcB |
+|  "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     a2gg |  "D"agf2     feff \
+| "E7"B2B2 g3f     | "A"~f2e2 e"#"de2 | "D"effe "E7"egge |  "A"eaa2     a4  :|
+|: "A"c2EE EEAA    |     c2EE EEAA    |    cAcA     d2cc | "Bm"dcB2     B4   \
+| "E7"d2EE EEGB    |     d2EE EEGB    |    dcBd     e3B  |  "A"c2c2     cBAB |
+|  "A"c2EE EEAA    |     c2EE EEAA    |    cAce     d2cc | "Bm"dcB2     B4   \
+| "E7"g2gg gfe"#"d |     g2gg gfe"#"d |    gfed     edcB | "(A)"cBAG "A"A4  :|
+S:https://www.folktunefinder.com/tunes/16149
+S:http://trillian.mit.edu/~jc/music/abc/polka/LokakuunPolkka_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/polka/LokakuunPolkka_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/polka/LokakuunPolkka_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/polka/LokakuunPolkka_A.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

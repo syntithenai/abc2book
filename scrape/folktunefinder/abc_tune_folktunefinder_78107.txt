@@ -1,0 +1,27 @@
+X:86
+T: SAH EIN KNAB EIN ROESLEIN STEHN
+N: B0114A
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 6/8
+L: 1/16
+K: F
+ | A4A2c3BA2 | G4G2G6
+A4A2B2c2d2 | d6c4z2
+c4B2A4A2 | A4G2F6
+F4F2F2G2A2 | B4A2G4z2
+A4A2c3BA2 | A6G4z2
+A4c2d4d2 | c2d2e2f6
+f4d2c4A2 | G3AG2F4z2
+S:https://www.folktunefinder.com/tunes/78107
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

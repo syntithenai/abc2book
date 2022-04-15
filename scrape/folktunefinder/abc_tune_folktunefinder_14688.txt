@@ -1,0 +1,29 @@
+X: 1
+T: MonkRidge Lassies
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G>AG B2d | "C"c2e "G"e2d | d>gf "C"e>dc | "A7"B>GB "D7"A>FD \
+| "G"G>AG B2d | "C"c2e "G"e2d | g>dc B<gB | "D7"A>dF "G"G2 :|
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2B B2d | "C"c2e "G"d2B | "Am"c>Aa "D7"f>ef | "G"g3 g2 ||
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2e "D7"a2f | "C"g>ec "G"B2d | "G"g>dc B<gB | "D7"A>dF "G"G2 |]
+S:https://www.folktunefinder.com/tunes/14688
+S:http://trillian.mit.edu/~jc/music/abc/jig/MonkridgeLassiesJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/MonkridgeLassiesJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MonkridgeLassiesJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

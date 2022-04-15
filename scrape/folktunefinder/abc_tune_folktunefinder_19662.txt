@@ -1,0 +1,29 @@
+X: 1
+T: Sir Charles Forbes of New and Edinglassie
+C: William Marshall
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Fm
+C2 \
+| "Fm"F3G A3B "Db"AGFE "C7"cBAG | "Fm"F3G A3B "Ab"c2A,2 c2BA \
+| "Eb"G2e2 e2=dc "Gm"BAGF "Cm"E2c2 | "Bbm"BAGF "C7"AGF=E "Fm"F4 F2 :|
+c2 \
+| "Fm"f3g a3f "Eb"g2e2 e2g2 | "Fm"f3g a3f "C7"agf=e "Fm"f2g2 \
+| "Fm"f3g a2b2 "Eb"g2e2 e2g2 | "Fm"f3e "C7"c2=e2 "Fm"f4 f2 |]
+c2 \
+| "Fm"f3g a3f "Eb"g2e2 e2g2 | "Db"f2a2 "Eb"g2b2 "Fm"a2f2 "G"g2=d2 \
+| "Eb"e=dcB e2B2 G2E2 E2G2 | "Db"FGAB "C7"c2C2 "Fm"F4 F2 |]
+S:https://www.folktunefinder.com/tunes/19662
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SirCharlesForbesOfNew_Fm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SirCharlesForbesOfNew_Fm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,62 @@
+X:40
+T:Pelot d'Hennebont
+R:chanson
+C:Tri Yann / Trad
+N:K = Ab
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=125
+K:Fm
+F/ FF |: c>B cd | c>B AG | B>A GA | G3/ 
+F/ FF    c>B cd | c>B AG | B>A GA | G3/
+F/ FF || G>B GA | F>F FF | G>B GA | F3/
+F/ FF    G>B GA | F>F FF || !alcoda! G>B GA |
+F3/ F/ FF :| !coda!G>B GA | F4 |]
+W:Ma chre maman je vous cris
+W:Que nous sommes entrs dans Paris
+W:Que je sommes dj Caporal
+W:Et serons bientt Gnral
+W:
+W:A la bataille, je combattions
+W:Les ennemis de la nation
+W:Et tous ceux qui se prsentiont
+W:A grand coups de sabres les mondions
+W:
+W:Le roi Louis m'a z'appel
+W:C'est "sans quartier" qu'il m'a nomm
+W:Mais "sans quartier", c'est point mon nom,
+W:J'lui dit "j'm'appelle Pelot d'Hennebont"
+W:
+W:J'y aquiris un biaux ruban
+W:Et je n'sais quoi au got d'argent
+W:Il dit boute a sur ton habit
+W:Et combats toujours l'ennemi
+W:
+W:Faut qu'ce soye que'que chose de prcieux
+W:Pour que les autres m'appellent monsieur
+W:Et foutent lou main  lou chapiau
+W:Quand ils veulent conter au Pelot
+W:
+W:Ma mre si j'meurs en combattant
+W:J'vous enverrais ce biau ruban
+W:Et vous l'foutrez  votre fusiau
+W:En souvenir du gars Pelot
+W:
+W:Dites  mon pre,  mon cousin
+W:A mes amis que je vais bien
+W:Je suis leur humble serviteur
+W:Pelot qui vous embrasse le coeur
+S:https://www.folktunefinder.com/tunes/39908
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

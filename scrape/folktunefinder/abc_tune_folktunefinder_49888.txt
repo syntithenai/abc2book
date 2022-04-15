@@ -1,0 +1,33 @@
+X:18440
+T:WALTZ,A. CJF.042
+M:3/8
+L:1/16
+Q:50
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The introductory rest has been added. The asterisked note may be d4 in
+N:MS.  - PJH.
+Z:P J Headford 2000
+K:D
+z2|d3faf|b3ge2|ABcdeg|gfbaa2|d3faf|\
+b3ge2|cegece|d4:|:!fa|agfgeg|gfefdf|
+agfgec|a3fdf|agfgeg|gfefdf|fedfcA|\
+d4:|:!a2|ad'c'bag|f2a2 "*"d2|cegece|dfa4|ad'c'bag|
+fad4|cegece|d4:|:!d2|cegece|dfafdf|\
+cegece|dfa4|ad'c'bag|fad4|cegece|d4:|]
+S:https://www.folktunefinder.com/tunes/49888
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

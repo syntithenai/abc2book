@@ -1,0 +1,27 @@
+X:1569
+T:Dog Big Dog Little
+O:england
+M:C|
+L:1/8
+Q:250
+C:Charlie Lennon
+R:R
+A:Co. Leitrim
+B:Musical Memories Vol. 1
+D:Frankie Gavin, "Up & Away"
+K:D
+d2 dc d2 AF | d2 fd (3Bcd ec | dcde dAFA | BGEA FDFA |
+dfec d2 AF | defd (3Bcd ec | defd dAFA | BGEA FDFA ||
+BE (3EEE BEcE | BE (3EEE ABcd | BE (3EEE BEcE | dcdA FGAd |
+BE (3EEE BEcE | BE (3EEE ABcd | BE (3EEE BEcE | dcdA FGAd ||
+d2 fd cdec | (3dcd fd faaf | d2 fd adfa | bged ceAc |
+d2 Ad (3Bcd ec | defd faaf | ~g2 gf edBA | (3Bcd eg (3fgf ef ||d4||
+S:https://www.folktunefinder.com/tunes/22018
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

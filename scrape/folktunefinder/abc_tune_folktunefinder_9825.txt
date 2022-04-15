@@ -1,0 +1,21 @@
+X: 4
+P: As Tears Go By
+C: Sir Mick Jagger, Keith Richards
+M: 4/4
+L: 1/8
+K: G
+|: "G"z2G2 A2B2 | "A"A2A2 E2G2 | "C"G4- GEG2 | "D"F8 \
+|  "G"z2G2 A2B2 | "A"A3A  E2G2 | "C"G4- GEG2 | "D"F8 |
+|1 "C"z2cc c2B2 | "D"A3A GA3 | "G"z2B2 B2A2 | "Em"G E7 \
+|  "C"z2e2 e2e2 | e3E F2G2 | "D"A4- AGAG | F4 z4 :|
+|2 "C"z2cc c2B2 | "D"A3A GA3 | "G"z2B2 B2AG | "Em"B3B AG3 \
+|  "C"z2e2 e2e2 | e3E F2G2 | "D"A4- AGAG | F4 z4 |]
+S:https://www.folktunefinder.com/tunes/9825
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AMansAManForAThat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

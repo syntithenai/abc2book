@@ -1,0 +1,29 @@
+X: 1
+T: the Ewie wi' the Crookit Horn
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C
+L: 1/16
+K: Gmix
+|: "G"DG3 G3A "F"F3G A3F | "G"DG3 G2AB "Dm"c3A "G"B3G \
+|  "F"A3B c3B A3G F3C | "G"DG3 G3B "Dm"A3F "G"G4 :|
+K: Gdor
+[|"Gm"Gg3 g3a "F"f3g a3f | "Gm"dg3 g3a "Dm"f3a "Gm"g4 \
+| "Gm"dg3 g3a bag2 "F"agf2 | "Gm"dg3 b3g "Dm"a3f "Gm"g4 ||
+|| "F"f3g f3d c3B AF3 | "Gm"GABc d3B "Dm"c3A d3e \
+|  "F"fa3 df3 "Dm"cf3 AF3 | "Gm"GABc d3B "Dm"c3A "Gm"G4 |]
+S:https://www.folktunefinder.com/tunes/19339
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/EwieWiTheCrookitHorn_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/EwieWiTheCrookitHorn_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/EwieWiTheCrookitHorn_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

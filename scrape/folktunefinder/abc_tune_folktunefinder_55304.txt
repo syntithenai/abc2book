@@ -1,0 +1,28 @@
+X:661
+T:66. THE YARNTON REEL
+C: Chris Moffett/KYOY
+R:Reel
+M:4/4
+%Pseudo-Mixolydian mode really
+K:D
+|:"D"FAdA "G"GBdB|"D"FAdA "C"=cBAG|\
+"D"FAdA "G"GBdB|"A"Adcd "D"d2 d2::\
+"D"fdAf "A7"gece|
+"D"dAFA "C"=cBAG|\
+"D"fdAf "A7"gece|"G"dA"A"Bc "D"d2d2:|\
+K:Ddor
+|:"Dm"FAdA "G"GBdB|"Dm"FAdA "C"cBAG|\
+"Dm"FAdA "G"GBdB|
+"Dm"Ad"Am"cd "Dm"d2 d2::\
+"Dm"fdAf "Am7"gece|"Dm"dAFA "C"cBAG|\
+"Dm"fdAf "Am7"gece|"Dm"dA"Am"Bc "Dm"d2d2:|
+S:https://www.folktunefinder.com/tunes/55304
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set66.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

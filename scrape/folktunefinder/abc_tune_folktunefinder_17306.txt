@@ -1,0 +1,28 @@
+X: 1
+P:Greenwood Side
+S:from George Thomson 8-2001
+N:arr. Terry Traub 10-31-2002
+M:4/4
+L:1/8
+K:Cm
+g \
+| "Cm"cccd c2 B2 | "Cm"cdef g4 | "Bb"f3 g fgfe | "Gm"d2 B2 B2 g2 \
+| "Cm"cccd c2 B2 | "Cm"cdef "E"g4 | "Bb"f3 b "Gm"g2 fg | "Cm"e2 c2 c2 :|
+ef \
+| "Cm"g4 cc g2 | "Cm"cccd g4 | "Bb"f3 g fgfe | "B"d2 B2 B2 ef \
+| "Cm"g4 cc g2 | "Cm"cccd "E"g4 | "Bb"f3 b "Gm"g2 fg | "Cm"e2 c2 ef |
+| "Cm"g4 cc g2 | "Cm"cccd g4 | "Bb"f3 g fgfe | "Gm"d2 B2 B2 g2 \
+| "Cm"cccd c2 B2 | "Cm"cdef "E"g4 | "Bb"f3 b "Gm"g2 fg | "Cm"e2 c2 c2 |]
+S:https://www.folktunefinder.com/tunes/17306
+S:http://trillian.mit.edu/~jc/music/abc/reel/GreenwoodSide_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GreenwoodSide_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GreenwoodSide_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

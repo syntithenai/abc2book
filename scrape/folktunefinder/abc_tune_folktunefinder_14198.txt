@@ -1,0 +1,27 @@
+X: 1
+T: Four Potatoes
+C: Lary Unger
+B: Susie Petrov Her Book of Musick
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+D \
+| "G"G2G BAG | "F"ABc ABc | "G"B2G GDG | "Dm"F2D D2F \
+| "G"G2G BAG | "F"ABc ABc | "G"dBG "F"cAF | "G"G2G G2 :|
+|: z \
+| "F"f3 "C"e3 | "G"d2G GAB | "F"cAF FGA | "G"Bdc Bde \
+| "F"f3 "C"e3 | "G"d2G GAB | "F"cBA "Dm"GFD | "G"G2G G2 :|
+S:https://www.folktunefinder.com/tunes/14198
+S:http://trillian.mit.edu/~jc/music/abc/jig/Four_Potatoes_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Four_Potatoes_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/Four_Potatoes_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Tango Caliente
+R: tango
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+|: "Cm"Gg-g^f g4-  | g~g^fg ag=fe | "G7"ed-d^c d4- | d8 |
+|  "G7"Gf-f=e f4-  | f~f=ef gf_ed | "Cm"fe-ed  e4- | e6 _d2 |
+|  "C7"c=e-ef g4-  | gc=ef  gefg  | "Fm"ba-ag  a4- | a6 a2 |
+|  "Cm"ag-g^f g2e2 | "G7"ed-d=B G2d2 | "Cm"dc-c=B c4- |1 cz3 A4 :|2 cz3 |]
+z2c=B \
+|: "Bb"_B4-    Bcde | fd-dc  B2A2  | "Eb"AG-G^F G4- | G6 ^F2 |
+|  "G7"G=B-Bc   d4- | dG=Bd  fe-ed | "Cm"fe-ed  c4- | c4 "(C7)"c2B2 |
+|  "Fm"Af-f=e   f4- | f~f=ef gf_ec | "Cm"Ge-ed  e4- | e~ede fecG |
+|  "D7"^Fd-d^c d3F- | "G7"=Fd-d^c d2e2 | "Cm"dc-c=B c4- \
+|1 c3G edc=B :|2 c z7 |] "Fine"cz2 .g .c'z3 |]
+S:https://www.folktunefinder.com/tunes/6111
+S:http://trillian.mit.edu/~jc/music/abc/Intl/TangoCaliente.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/TangoCaliente.abc
+S:http://trillian.mit.edu/~jc/doc/abc/tune/TangoCaliente.abc
+S:http://trillian.mit.edu/~jc/music/abc/doc/tune/TangoCaliente.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

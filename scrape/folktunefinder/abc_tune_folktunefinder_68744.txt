@@ -1,0 +1,28 @@
+X:198
+T: Habenichts will freien
+N: A0236
+O: Europa, Mitteleuropa, Deutschland
+N: Reutterliedlein 1535 No. 6.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+G | GABc | d2A2
+c2 | cB2cA2 | G2z
+G | GABc | d2A2
+c2 | cB2cA2 | G2z
+A | AGEG | G=FD
+A | =FGAF | E2D2 | z3
+d | dcAc | cBG
+d | BcdB | A2G
+S:https://www.folktunefinder.com/tunes/68744
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

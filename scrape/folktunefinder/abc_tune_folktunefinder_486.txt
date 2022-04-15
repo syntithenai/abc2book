@@ -1,0 +1,84 @@
+X: 27
+T:Les marchs de Provence
+R:Chanson
+C:Paroles: Louis Amade. Musique: Gilbert Bcaud
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:1/4=60
+K:Fmaj
+%%continueall 1
+V:1
+z4z2zA/2B/2|:cc/2c/2 c<c c/2d/2c/2B/2 AG/2A/2| BB/2B/2 B<B B/2c/2B/2A/2 GF/2G/2|
+AF/2A/2 c<c d/2d/2A/2d/2 f<f| g/2a/2f/2g/2 a<f g/2a/2f/2g/2 a/2g/2A/2B/2||
+cc/2c/2 c<c c/2f/2c/2B/2 AG/2A/2| BB/2B/2 B<B B/2c/2B/2A/2 GF/2G/2|
+AF/2A/2 c>c d/2d/2A/2d/2 f>f| g/2a/2f/2g/2 a>f g/2a/2f/2g/2 af/2g/2||
+[M:2/4][Q:1/4=100]af2g||fzz2| z2zc/2c/2||ff f>f| a/2g/2f/2e/2 de/2f/2|gg g>d|
+g/2a/2g/2f/2 e/2d/2e/2c/2|ff f>f| a/2g/2f/2e/2 df|ga f2| g2zc/2c/2||ff f>f|
+a/2g/2f/2e/2 d/2d/2e/2f/2|gg g>d| g/2a/2g/2f/2 e/2d/2e/2c/2|ff f>f|
+a/2g/2f/2e/2 df|ga gf| g2 zg||ab ag|c3c|ff ff|
+fc2c | ffgf | fc2c | [1 f2e2| d2e2|[M:4/4]f4z2z[Q:1/4=60]A/2B/2:| [2[M:2/4] f2e2 |f2g2 ||f4-|f4-|f4|]
+V:2 clef=perc
+%%MIDI program 116
+%%sysstaffsep 10
+z4z2z2 |: f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 f2 || f2 f2 f2 f2 | 
+f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 f2 || 
+[M:2/4]f2 f2 || f2 ff | f2 ff || f2ff | f2ff | f2ff | 
+f2ff | f2ff | f2ff | f2ff | f2ff || f2ff | f2ff | 
+f2ff | f2ff | f2ff | f2ff | f2ff | f2ff || 
+f2f2 | f2z2 | f2f2 | f2z2 | f2f2 | f2z2 | f2f2 | f2f2 | 
+[M:4/4] f2f2f2 f2 :| [M:2/4] f2f2 | f2f2 | f2f2 | f2f2 | f2z2 |] 
+W:
+W:Il y a tout au long des marchs de Provence
+W:Qui sentent, le matin, la mer et le Midi
+W:Des parfums de fenouil, melons et cleris
+W:Avec dans leur milieu, quelques gosses qui dansent
+W:Voyageur de la nuit, moi qui en ribambelle
+W:Ai franchi des pays que je ne voyais pas
+W:J'ai hte au point du jour de trouver sur mes pas
+W:Ce monde merveill qui rit et qui s'interpelle
+W:Le matin au march
+W:
+W:Voici pour cent francs du thym de la garrigue
+W:Un peu de safran et un kilo de figues
+W:Voulez-vous, pas vrai, un beau plateau de pches
+W:Ou bien d'abricots 
+W:Voici l'estragon et la belle chalote
+W:Le joli poisson de la Marie-Charlotte
+W:Voulez-vous, pas vrai, un bouquet de lavande
+W:Ou bien quelques illets 
+W:Et par dessus tout a on vous donne en trenne
+W:L'accent qui se promne et qui n'en finit pas
+W:
+W:Mais il y a, tout au long des marchs de Provence
+W:Tant de filles jolies, tant de filles jolies
+W:Qu'au milieu des fenouils, melons et cleris
+W:J'ai bien de temps en temps quelques ides qui dansent
+W:Voyageur de la nuit, moi qui en ribambelle
+W:Ai crois des regards que je ne voyais pas
+W:J'ai hte au point du jour de trouver sur mes pas
+W:Ces filles du soleil qui rient et qui m'appellent
+W:Le matin au march
+W:
+W:Voici pour cent francs du thym de la garrigue
+W:Un peu de safran et un kilo de figues
+W:Voulez-vous, pas vrai, un beau plateau de pches
+W:Ou bien d'abricots 
+W:Voici l'estragon et la belle chalote
+W:Le joli poisson de la Marie-Charlotte
+W:Voulez-vous, pas vrai, un bouquet de lavande
+W:Ou bien quelques illets 
+W:Et par dessus tout a on vous donne en trenne
+W:L'accent qui se promne et qui n'en finit pas
+%%footer $D   Galouvielle-MBe 2008 \nChanson (France)
+S:https://www.folktunefinder.com/tunes/486
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

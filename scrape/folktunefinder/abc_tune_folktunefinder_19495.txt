@@ -1,0 +1,34 @@
+X: 1
+T: MacKenzie Hay
+C: J.S.Skinner
+R: strathspey
+B: Christine Martin "Ceol na Fidhle" v.2 p.15 1988
+D: J.S.Skinner 1906 (wax cylinder)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"B<G d>B "D"A2 F>D | "A"E>A "E7"^G>B "A"(3ABA "A7"=GFE |
+y2 \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"(3BGB (3dcB "D"(3Afe (3dcB | "A7"(3ABA (3GFE "D"F<D D |]
+g \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>g \
+| "D"f>d "A"g>e "D"a>f "G"b>g | "D"a>f "A"g>e "D"f<d d>g |
+y2 \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>=c \
+| "G"(3BGB (3dcB "D"(3Aag (3fed | "A7"(3cBA (3GFE "D"F<D D |]
+S:https://www.folktunefinder.com/tunes/19495
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MacKenzie_Hay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MacKenzie_Hay_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MacKenzie_Hay_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

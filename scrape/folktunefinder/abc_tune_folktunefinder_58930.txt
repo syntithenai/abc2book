@@ -1,0 +1,31 @@
+X:43
+T:Alborada na Aldea (XA 14)
+R:Alborada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Xuacu Amieva 14
+M:3/8
+L:1/8
+Q:3/8=72
+E:2 Voces
+K:C
+V:1
+|: C>EG|ccc|c2 B|GBB|B3|AB~A|G3-|G3|E>FG|AAA|A2 G|EGA|G2 ~G|FGF|E3-|E3 :|
+|: GAG|E2 C|GAG|E3|CEG|ccc|B2 ~A|G3-|G2 G|c2 G|GAB|c G2|EGA|G2 ~G|FGF|E3-|E3 :|
+V:2
+|: C>EG|AAA|A2 G|EGG|G3|FG~F|E3-|E3|C>DE|FFF|F2 E|CEF|E2 ~E|DED|C3-|C3 :|
+|: EFE|C2 A,|EFE|C3|CEG|AAA|G2 ~F|E3-|E2 E|A2 E|EFG|A E2|CEF|E2 ~E|DED|C3-|C3 :|
+S:https://www.folktunefinder.com/tunes/58930
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

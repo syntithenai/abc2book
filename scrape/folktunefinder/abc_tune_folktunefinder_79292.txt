@@ -1,0 +1,27 @@
+X:188
+T: DAS FEUERROHR AUS ERZ
+N: E1330
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 2/4
+L: 1/8
+K: C
+G, | C2B,A, | G,3G, | A,G,A,B, | C2G,
+G, | A,2G,2 | F,2E,2 | D,2G,2 | E,2z
+G, | C2B,A, | G,3G, | A,G,A,B, | C2G,
+G, | A,2G,2 | F,2E,2 | D,2G,2 | E,2z
+G, | E,G,G,G, | A,G,G,
+G, | E,G,G,G, | A,G,G,
+G, | C2D2 | E3C | D2B,2 | C2z
+S:https://www.folktunefinder.com/tunes/79292
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

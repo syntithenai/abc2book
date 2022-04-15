@@ -1,0 +1,28 @@
+X:0
+T:The Major/Mixolydian/Dorian (do/so/re, pi-2) Pentatonic Scale
+L:1/4
+M:8/4
+K:C
+P:do -mi -ti
+"_do"C2 "_re"D "_fa"F "_so"G "_la"A "_do"c2 |\
+"_do"c2 "_la"A "_so"G "_fa"F "_re"D "_do"C2||
+M:8/4
+K:GMix
+P:so -ti -fa
+"_so"G2 "_la"A "_do"c "_re"d "_mi"e "_so"g2 |\
+"_so"g2 "_mi"e "_re"d "_do"c "_la"A "_so"G2||
+M:8/4
+K:DDor
+P:re -fa -do
+"_re"D2 "_mi"E "_so"G "_la"A "_ti"B "_re"d2 |\
+"_re"d2 "_ti"B "_la"A "_so"G "_mi"E "_re"D2|]
+S:https://www.folktunefinder.com/tunes/30116
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

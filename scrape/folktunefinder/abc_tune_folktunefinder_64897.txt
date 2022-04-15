@@ -1,0 +1,21 @@
+X:745
+T:Johnny MacGill
+% Nottingham Music Database
+S:Athole p 141, via EF
+M:6/8
+K:F
+P:A
+d|"F"cAA AGF|"F"cAA A2d|"F"cAA "C"AGA|"Dm"FDD "C7"D2d|
+"F"cAA AGF|"F"cAA AGF|"Gm"G3 "A7"AGA|"Dm"FDD D2:|
+"Dm"f3 "C/e"g3|"F"afd "F"cAF|"Dm"f3 "C"g3|"Dm"afd "C"dfg|
+"F"afa "C"geg|"Dm"fde "C""Bb"f2d|"F"cAF "A7""C/e"G2A|"Dm"FDD D2:|
+S:https://www.folktunefinder.com/tunes/64897
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

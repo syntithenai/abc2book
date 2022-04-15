@@ -1,0 +1,42 @@
+X: 203
+T: Laziko
+C: Greece
+M: 7/8
+L: 1/8
+Q: 1/4=192
+K: Am
+%%MIDI program 24
+|:CG,CDEG,E|E2FE2DC|\
+DG,DEDCD|D2CB,CB,C|
+DG,DEDCD|D2CB,CB,C|\
+G,A,zA,zA,/D,/A|G,A,zA,zA,/D,/A:|
+K:F
+c2BcBAG|AzAzA2z|\
+c2BcBAG|AzAzA2z|
+c2BcBAG|c2BcBAG|\
+c2BcBAG|AzAzA2z|
+C2B,CB,3|A,zA,zA,2G,|\
+CzCzB,2z|A,zA,zA,2z|
+c2BcBAG|AzAzA2z|\
+C2D2E2C|D2CB,A,2G,|
+C2B,CB,3|A,zA,zA,2G,|\
+C2D2E2C|D2CB,A,2G,|
+C2B,CB,3|A,zA,zA,2G,|\
+K:Bm
+eded2^cA|czeze2z|\
+eded2^cA|czeze2z|
+eded2^cA|eded2^cA|\
+eded2^cA|czeze2z|
+S:https://www.folktunefinder.com/tunes/54186
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key B
+% Key A
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

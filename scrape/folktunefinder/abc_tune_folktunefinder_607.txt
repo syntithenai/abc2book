@@ -1,0 +1,29 @@
+X:149
+T:Rigaudons
+T:Maire se savias
+R:Rigaudon
+O:Fance
+A:Provence
+C:Anonyme
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+GABA | G2dd | eedc | d2d2 | GABA | G2dd | eedc | B2z2 ::
+ABcc | A2cc | ABcc | A2A2 | BcdB | c2GA | BAGF | G2z2 :|
+T:Lou calignaire
+F | BBce | dcdB | c2A2 | B2zF | BBce | dcdB | c2A2 | B2z2 |:
+dddf | f2e2 | ccce | e2d2 | BBBd | dcdB | c2A2 | B2z2 :|
+%%footer $D   Galouvielle-MBe 2008 \nRigaudon (France)
+S:https://www.folktunefinder.com/tunes/607
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Rigaudon
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

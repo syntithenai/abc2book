@@ -1,0 +1,22 @@
+X:0
+T:900 Miles
+G:song
+B:Reprints from "Sing Out" v4 (1962)
+N:a bit different from the version I know orally, but in the same mode
+M:C
+L:1/8
+Q:1/4=80
+K:GDor
+% dorian/minor/phrygian pentatonic
+DF|AA GF A2 DF|A2 (3AGF D4   |d>d dc AG   Ac |d6 Ac|
+   d2 dc A2 GF|A2 (3AGF D2 DF|A2  GF G2 (3AGF|D6  ||
+|:DD|E>E E^C A,A, =B,C|D6:|
+S:https://www.folktunefinder.com/tunes/30246
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

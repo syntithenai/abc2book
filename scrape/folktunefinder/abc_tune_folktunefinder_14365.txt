@@ -1,0 +1,23 @@
+X:1
+T:I'd rather be married than left
+M:12/8
+L:1/8
+R:slide
+D:The Smoky Chimney, track 1(a)
+K:D
+ | ABA AFA d2 D D2 F | ABA AFA B2 E E2 F |
+ | ABA AFA B2 g f2 e |1 dcB ABc d2 D D2 F :|2 dcB ABc d2 D D2 e ||
+|| ~f3 def e2 A A2 e | fef def gfg e2 g | fef g3 fef a2 f |
+ | gfe ABc d2 D D2 e :|2 gfe ABc d2 D D3 |]
+S:https://www.folktunefinder.com/tunes/14365
+S:http://trillian.mit.edu/~jc/music/abc/jig/IdRatherBeMarriedThanLeft.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/IdRatherBeMarriedThanLeft.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: the Rendezvous
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: B | "G"G2GD   B,DGF |  "C"EAAG "D7"FGAB | "G"G2GD      B,DGF | "C"EG"D"FA "G"BGG :|
+   c | "G"B{c}ddg Bdgd | "A7"^c{d}eea ceae | "G"B{c}ddg    Bdgd | "C"eg"D"dg "G"BGG  |
+   c | "G"B{c}ddg Bdgd | "A7"^c{d}eea ceae | "G"dg"D"fa "G"gdBG | "C"EG"D"FA "G"BGG |]
+S:https://www.folktunefinder.com/tunes/18020
+S:http://trillian.mit.edu/~jc/music/abc/reel/RendezvousR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RendezvousR_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RendezvousR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RendezvousR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RendezvousR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RendezvousR_G3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

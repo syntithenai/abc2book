@@ -1,0 +1,26 @@
+X:322
+T: MYS LIEB ISCH GAR WYT INNE
+N: E1472
+O: Europa, Mitteleuropa, Schweiz, Emmental
+R: Staende -, Hirten -, Alpen - Lied, Kuhreihen
+M: 2/4
+L: 1/16
+K: G
+Bc | d3cB2BG | A2A2z2
+Bc | dd^cdB2AG | A4z2
+AG | F2D2G2A2 | BAG2z2
+Bc | d3cB2A2 | G4
+d2e^c | d2e^cd2ec | d4G4 | g2z4
+S:https://www.folktunefinder.com/tunes/79426
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, hirten -, alpen - lied, kuhreihen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

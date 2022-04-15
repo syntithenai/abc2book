@@ -1,0 +1,31 @@
+X:97
+T: 'T Seche vun der ro'der G (1-22), S. 59f
+N: K0096
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: ]
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2B2B2 | d2d2B3B | c2c2A3A | B2B2z2
+D2 | G2G2B2B2 | d2d2B3B | c2c2A3A | B2B2z2
+G2 | G3FE2G2 | G3FE3A | A3AA2A2 | A3DD2
+G2 | G6B2 | B6d2 | d6
+d2 | d3cc2e2 | e3dd2
+G2 | G6B2 | B6d2 | d6
+d2 | d3cc2c2 | B4z2
+G2 | G6B2 | B6d2 | d6
+d2 | d3cc2e2 | e3dd2
+G2 | G6B2 | B6d2 | d6
+d2 | d3cc2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/70227
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

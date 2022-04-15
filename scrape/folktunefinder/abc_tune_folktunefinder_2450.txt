@@ -1,0 +1,19 @@
+X:2
+P:P:Tune 2
+M:6/8
+K:A
+cB \
+|:"A"Aee e2f | e3 c3 | ABc "D"B2A | "A"ABc "E7"B2A |
+S:https://www.folktunefinder.com/tunes/2450
+S:http://trillian.mit.edu/~jc/music/abc/test/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_medley.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_medley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

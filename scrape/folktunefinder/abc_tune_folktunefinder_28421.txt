@@ -1,0 +1,25 @@
+X:7969
+T:Wassail 1
+O:england
+S:Trad
+M:6/8
+K:Dm
+D|"Dm"D2A A2G|"Dm"F2F F2E|"Dm"D2E F2G|"A7"A3 -A2D|"Dm"D2A A2G|"Dm"F2F F2E|\
+"Dm"D2E F2G|"A7"A3 ||
+M:4/4
+L:1/4
+"C7"AB "F"c"Bb"d|"F"c2 AG|"F"FG "Bb"FD|"C"C2 FG|\
+M:6/8
+"Dm"A3B2c |"Dm"D3F2F |"Dm"FA2"C"GE2 |"Dm"D3-D2:|
+S:https://www.folktunefinder.com/tunes/28421
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

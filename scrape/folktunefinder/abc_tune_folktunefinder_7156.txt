@@ -1,0 +1,32 @@
+X: 1
+T: Sadegurer Khosid
+R: khosidl
+D: DRK-204 "Git Azoy" the 12 Corners Klezmer Band
+M: 4/4
+L: 1/16
+K: Gm
+   z2D2 \
+| "Gm"B3A G2G2 | z2BA GBAG | "D"A3G ^F2F2 | "Cm"^FGFE "D"D4 \
+| "D7"^FDFA "Gm"GDGB | "D7"ADAc "Gm"BGBd | "Cm"c2c2 cdec | "D7"d4 dcBA |
+| "Gm"B3A G2G2 | z2BA GBAG | "D"A3G ^F2F2 | "Cm"^FGFE "D"D4 \
+| "D7"d4 c4 | B4 A4 | "Gm"G2G2 "D7"BAG^F | "Gm"G4 :| [K:G]
+|: zDGA \
+|: "G"BcBc B2AG | A2B2 z4 | BcBc B2AG | ABG2 z4 \
+| "G"BcBc B2AG | A2B2 z4 | "Am"A2A2 "D7"GFEF |1 "G"G4 z4 :|2 [K:Gm]"Gm"G4 ||
+|: z4 \
+| "Gm"d8 | d8 | d4 d4 | d4 d4 \
+| z2d2 d2d2 | "Cm"c2z2 c4 | "Gm"BcBA G^FGA | B2z2 d4 \
+| z2d2 d2d2 | "Cm"c2z2 c4 | "Bb"BFFB "Ab"B_AAG | "Gm"G4 z4 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/7156
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Khos_Sadegurer.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SadegurerKhosid.abc
+% Rhythm Khosidl
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

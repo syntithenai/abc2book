@@ -1,0 +1,24 @@
+X: 2
+P: Swallowtail Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+gf \
+| "Am"eA (3cBA eAcA | cdef "G"gedB | G2BG dGBG | Bdef g2fg |
+| "Am"eA (3cBA eAcA | cdef "G"g2fg | "Am"afge "G"dBGB | "Am"Ac"G"BG "Am"A2 :|
+|: cd \
+| "Am"eaag abag | edef "G"gedB | G2BG dGBG | Bdef g2fg |
+| "Am"eaag abag | edef "G"g2fg | "Am"afge "G"dBGB | "Am"Ac"G"BG "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/3490
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR67.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

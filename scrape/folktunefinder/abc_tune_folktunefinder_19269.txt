@@ -1,0 +1,24 @@
+X: 1
+T: Clydeside Lassies Strathspey
+R: strathspey
+N: originally reel
+Z: John Chambers <jc:trillian.mit.edu> 2002-12-06
+M: C
+L: 1/8
+K: F
+B |"F"A<F c>F "Bb"d>F "F"c>F | A<F c>F "C7"A>B c>B |"F"A<F c>F "Bb"d>F "F"c>A | "Gm"B>A G>A "C7"B>c d :|
+e |"F"f>g a>g f<c c>f | "Gm"g>f g>a "C7"b>a g<a |"F"f>g a>g f>c A<c | "Gm"B>A G>A "C7"B>c d ||
+e |"F"f>g a>g f<c c>f | "Gm"g>f g>a "C7"b>a g<a |"F"f>g a>f "C"g>e "F"f<c | "Gm"B>A G>A "C7"B>c d |]
+S:https://www.folktunefinder.com/tunes/19269
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ClydesideLassiesS_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ClydesideLassiesS_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/ClydesideLassiesS_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

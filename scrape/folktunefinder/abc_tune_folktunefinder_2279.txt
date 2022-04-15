@@ -1,0 +1,33 @@
+X: 1
+T: Sva Nok le, Nado
+O: Makedonija
+R: slow pravo
+M: 4/4
+L: 1/8
+K: F
+[| "C"[c3e3] [df] [ce][Bd] [Bd][Ac] | "F"[Ac][G2B2] [Ac] [GB][FA] [FA][FC] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[FA][GB] [FA][CG] [FA][GB] [Ac][Bd] |
+| "C"[dB][ce] [ce][df] [ce][Bd] [Bd][Ac] | "C7"[Ac][B2G2] [Ac] "F"[GB][FA] [F2A2] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[F8A8] |]
+[| "F"([F3A3] [GC]) [F2A2] ([FA][GB]) | ([A3c3] [GB]) ([GB][FA][F2A2]) \
+| ([FA][GB]) [A2c2] "C7"([GB][Ac]) ([GB][FA]) | "F"([F3A3] [CG] [FA][GB] [A2c2]) |
+| "F"[F2A2] ([FA][CG]) [F2A2] ([FA][GB]) | ([A3c3] [GB]) ([GB][FA] [F2A2]) \
+| ([FA][GB]) [A2c2] "C7"([GB][Ac]) ([GB][FA]) | "F"[F8A8] |]
+[| "C"[c4e4] ([ce][Bd]) ([Bd][Ac]) | "F"([A3c3] [GB]) ([GB][FA] [F2A2]) \
+| ([FA][GB]) [A2c2] "C7"([GB][Ac]) ([GB][FA]) | "F"([F3A3] [CG] [FA][GB] [A2c2]) |
+| "C"[c4e4] ([ce][Bd]) ([Bd][Ac]) | "C7"([Ac][B2G2]) [Ac] "F"([GB][FA]) [F2A2] \
+| ([FA][GB]) [A2c2] "C7"([GB][Ac]) ([GB][FA]) | "F"[F8A8] |]
+S:https://www.folktunefinder.com/tunes/2279
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtut_Chords.html
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtutorial-old.html
+S:http://trillian.mit.edu/~jc/doc/abc/ABCtut_Chords.html
+S:http://trillian.mit.edu/~jc/doc/abc/tune/SvaNokLe.abc
+S:http://trillian.mit.edu/~jc/music/abc/doc/tune/SvaNokLe.abc
+% Rhythm Slow pravo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Reel B\'eloeil
+O: Trad Qu\'ebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D3D DFEG | FDDE F2DF | AdcB "A7"AGFE | "D"DFAd "A7"BGEC |
+| "D"D3D DFEG | FDDE F2DF | AdcB "A7"AGFE | "D"DdAF     D2 :|
+|: AG \
+| "D"FAdA FAdA | "Em"GBdB GBdB | "A7"Acec Acec | "D"dfed "A7"cBAG |
+| "D"FAdA FAdA | "Em"GBdB GBdB | "A7"Acec Acec |    dfed  "D"d2 :|
+S:https://www.folktunefinder.com/tunes/16788
+S:http://trillian.mit.edu/~jc/music/abc/reel/BeloeilR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BeloeilR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/BeloeilR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BeloeilR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

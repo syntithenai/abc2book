@@ -1,0 +1,27 @@
+X: 1
+T: the Wee Cooper of Fife
+O: trad
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"C2E E>CE | "D"F>GA "E7"E3 | "A"E>FG "F#m"ABc | "Bm"d2c "E7"B2E | "A"C2E E>CE | "D"F>GA "E7"E3 |
+| "A"c>ee "E7"ecB | "F#m"A2A ABc | "E7"E>FE ECE | "D"F2"E"G "A"A2 :: c/d/ | "A"e>cA ecA | "D"def "E7"ecd | "A"e>cA "F#m"Ace |
+| "Bm"d2c "E7"Bcd | "A"e>cA ecA | "D"def "E7"e2d | "A"c>ee "E7"ecB | "F#m"A2A ABc | "E7"E>FE ECE | "D"F2"E"G "A"A2 :|
+S:https://www.folktunefinder.com/tunes/15244
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeeCooperOfFifeJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeeCooperOfFifeJ40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/WeeCooperOfFifeJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WeeCooperOfFifeJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WeeCooperOfFifeJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/WeeCooperOfFifeJ40.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

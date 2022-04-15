@@ -1,0 +1,62 @@
+X:4312
+T:Funeral march
+T:k 453a
+C:Wolfgang Amadeus Mozart
+R:Funeral march
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k453a/mozart-k453a-pno2.abc
+V:1 Program 1 0 up %Piano
+V:2 Program 1 0 merge down %Piano
+V:3 Program 1 0 bass %Piano
+M:C
+L:1/8
+K:Cm
+V:1
+[C2E2G2c2][C3/E3/G3/][C/E/G/][C2E2G2][D2F2G2]|[C2E2G2]ed fedc|[=B2d2g2][D3/G3/][D/G/][E2G2][C2^F2]|
+V:2
+z8|z2 G^F AG=FE|z8|
+V:3
+[C,2C,,2][C,2C,,2][E,2E,,2][=B,,2=B,,,2]|[E,2C,,2]z2z4|[G,,2G,,,2][=B,,2=B,,,2][C,2C,,2][A,,2A,,,2]|
+%
+V:1
+[=B,2G2]de gfed|[ce][G2e2][G2e2][A2e2][=ae]|[Bd][d2a2][e2a2][=e2a2][fa]|
+V:2
+z2 =Bc edcB|z8|z8|
+V:3
+[G,,2G,,,2]z2z4|[C,2C,,2][C,2C,,2][_C,2_C,,2][C,2C,,2]|[B,,2B,,,2][C,2C,,2][^C,2^C,,2][D,2D,,2]|
+%
+V:1
+ag z [Af] [Af][Ge] z [Fd]|[F4A4d4][G2B2e2]z2::[=B2d2g2][B,3/D3/G3/][B,/D/G/][C4E4A4]|[=B2d2g2][D3/F3/B3/][D/F/B/][E4G4c4]|
+V:2
+B2z2z4|z8::z8|z8|
+V:3
+[E,2E,,2]A,2B,2B,,2|E,2B,,2E,,2z2::[G,,2G,,,2]z2[G,2G,,2][G,3/G,,3/][G,/G,,/]|[G,2G,,2]z2[G,2G,,2][G,3/G,,3/][G,/G,,/]|
+%
+V:1
+G2g2^f2=f2|=e2_e2d2z2|[c2g2c'2][E3/G3/c3/][E/G/c/][E2G2c2][E2G2c2]|
+V:2
+z2e4d2|^c2=c2=B2z2|z8|
+V:3
+[G,2G,,2]G3/G/G2G3/G/|G2^F3/F/G2[=F,3/F,,3/][F,/F,,/]|[E,2E,,2][E,3/E,,3/][E,/E,,/][E,2E,,2][E,2E,,2]|
+%
+V:1
+[_D2A2_d2][f2_d'2][a2f'2][=d2=b2]|=d'c' z [fa] [fa][eg] z [D=B]|[d4=B4F4][c2G2E2]z2:|
+V:2
+z8|z8:|
+V:3
+[F,2F,,2]z2z2[F2A2]|[E2G2]F2G2G,2|C2G,2C,2z2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/51917
+S:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k453a/mozart-k453a-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/mozart-wolfgang-amadeus/mozart-k453a/mozart-k453a-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k453a/mozart-k453a-pno2.abc
+% Rhythm Funeral march
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

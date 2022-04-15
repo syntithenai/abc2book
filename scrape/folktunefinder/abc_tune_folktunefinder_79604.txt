@@ -1,0 +1,27 @@
+X:500
+T: MIEN VADER HEET HANS
+N: E1757
+O: Europa, Mitteleuropa, Deutschland, Uckermark
+R: Spott - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GABc | edd
+d | cBAd | B2G
+D | GABc | edd
+d | cBAd | B2G
+G | AABB | ccd
+d | AABG | d2D
+D | GABc | edd
+d | cBAd | B2G
+S:https://www.folktunefinder.com/tunes/79604
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Spott - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:14194
+T:Reinl\"ander fr\aa{}n Folldal
+S:(\"Osterdal, Norge)
+R:Reinl\"ander
+O:Norway
+A:\"Osterdal
+Q:170
+M:4/4
+L:1/8
+K:Dm
+vA>BAG F2 F2 | E>GE^C E2 E2 | \
+D>FA^c [e2e2] [e2e2] | A>^cef {c}d2 d2 | \
+A>BAG F2 F2 | E>GE^C E2 E2 | D>FA^c e>gec \
+|1 d>(ed)^c {c}d3 z :|2 d>(ed)^c {c}d3 a |: \
+g>efd d>fag | {a}g>e^cd [e4e4] | \
+e>fde {e}f2 ag | f2 ed ^c2 A>a | \
+g>efd d>fag | {a}g>e^cd [e4e4] | \
+e>fdf a>ge^c \
+|1 d>(ed)^c {c}d3 a :|2 d>(ed)^c {c}d4 |]
+S:https://www.folktunefinder.com/tunes/64204
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Reinla?nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

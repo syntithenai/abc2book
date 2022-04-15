@@ -1,0 +1,23 @@
+X:25
+T:RondeVII  Il Estoit Une Fillette
+C:Tielman Susato
+L:1/8
+M:4/4
+O:Germany 
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d88.html
+%%ID:00000d88
+K:C
+c3B c2B2|A3G A2G2|AG AG A3G|A2B2E4:|
+|:E2EF G2A2|A2^G2A4|G2GA B2c2|c2B2c4:|
+|:BG cd BG c2|BG cd BG d2|GG AE GG AE|GA A^G A4:|
+|:B2BA G3G|FE FD E2G2|A2A2G2c2|dc cB c4:|
+S:https://www.folktunefinder.com/tunes/48809
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

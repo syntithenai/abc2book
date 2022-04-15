@@ -1,0 +1,34 @@
+X:567
+T: MARIANDEL IST SO SCHOEN
+N: F1122
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/8
+K: C
+G, | G,G,A,B, | C2z
+G, | G,A,B,C | ^C2D
+D | D^CDE | FED
+C | B,G,A,B, | C2z
+C | CB,A,G, | ^F,G,A,
+F, | G,A,B,C | ^C2D
+D | CB,A,G, | ^F,G,A,
+F, | G,B,A,D | G,2z
+G, | G,G,A,B, | C2z
+G, | G,A,B,C | ^C2D
+D | D^CDE | FED
+C | B,G,A,B, | C2z
+G | GB,B,B, | C2z
+G | GB,B,B, | C2z
+S:https://www.folktunefinder.com/tunes/70127
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

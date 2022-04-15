@@ -1,0 +1,27 @@
+X:224
+T: NACH N N MARSCHIEREN
+N: E1363
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt; Lahn - Kreis;
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 3/4
+L: 1/16
+K: F
+C4 | F4F4G4 | A4A4
+F2G2 | A4A4B4 | d4c4
+F2A2 | c4c4c2f2 | d8
+c2B2 | A4c4B2G2 | F4z4
+G2A2 | B3dd2d2d2d2 | d4z4
+c2B2 | A3Bc2c2c2c2 | c4z4
+F2A2 | c4c4c2f2 | d4z4
+c2B2 | A4c4B2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/79328
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

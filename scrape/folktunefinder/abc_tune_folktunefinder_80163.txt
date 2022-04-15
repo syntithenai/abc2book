@@ -1,0 +1,27 @@
+X:104
+T: Die Ochsentreiber Kommen
+N: A0465
+O: Europa, Mitteleuropa, Deutschland
+N: Ott 1534 No. 4 und Ott III 1544 No. 44.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+G4 | G2A2_B2c2 | d4A4
+d4c2A2 | _B2B2A4 | z6
+G2 | A2A2G2E2 | G2A2D2A2 | D4z2
+=F2 | G2G2G2E2 | =F3GA4 | D2A2D4 | z6
+D2 | =F2F2G2G2 | A4G4
+d4c2A2 | _B2A2G4
+ABcdB2G2 | A2A2G4 | z4
+S:https://www.folktunefinder.com/tunes/80163
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

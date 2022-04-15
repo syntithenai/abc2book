@@ -1,0 +1,25 @@
+X:289
+%%topmargin 3cm
+T:Miss Lyall
+T:Mrs. Grant of Laggan
+C:Capt. Fraser
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A minor
+{AB}c/B/ | AE E/E/E {ABc}cABG | EGDG B,G,DB, | A,/A,/A, (EA,) {/B,}CDEd | {AB}cAB^G A/A/A A :| B | Aa{/b}(a^g) aecA | Bg{/a}g^f gdBG |
+Aa{/b}a^g aefd | ec{/c}dB cAAB | Aa(a^g) ae{/^d}cA | Bg{/a}g^f {/f}gdBG | AcBd cedf | ea^g^f edcB |]
+S:https://www.folktunefinder.com/tunes/71318
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Lyall_1.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Grant_of_Laggan.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0289.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

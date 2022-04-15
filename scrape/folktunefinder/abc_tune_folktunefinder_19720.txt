@@ -1,0 +1,35 @@
+X: 1
+T: Min \"Alskling
+B: Evert Taubes B\"asta
+C: Evert Taube
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/16
+M: 2/4
+O: Swedish, modern
+R: Tango
+K: C
+"G7"G2 || "C"ce2e e2dc | "E7"{dcB}B6 B2 | "F"A3c B2A2 | "C"G8 \
+| "C"zEF^F (3G-AG =FE | "G7"G6 D-E | F2E2 F2G2 | "C"E6 "G7"G2 |
+| "C"ce2e e2dc | "E7"{dcB}B6 B2 | "F"A3c B2A2 | "C"G8 \
+| "C"E4 "A7"F2E2 | "Dm"D^CDE F2^F2 | "G7"G3D F2B,2 | "C"C8 ||
+||"E7"E4 F2E2 | "Am"A^GAB c2d2 | c2A2 "E7"B2^G2 | "Am"A8 \
+| "D7"D4 E2^F2 | "G"G^FGA B2"D7"c2 | "G"d2_d2 "D7"c2A2 | "G"G6 "G7"G2 |
+|| "C"ce2e e2dc | "E7"{dcB}B6 B2 | "F"A3c B2A2 | "C"G8 \
+| "C"E4 "A7"F2E2 | "Dm"D^CDE F2^F2 | "G7"G3D F2B,2 | "C"C8 |]
+S:https://www.folktunefinder.com/tunes/19720
+S:http://trillian.mit.edu/~jc/music/abc/tango/MinAlsklingT.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/MinAlskling_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/MinAlskling_C_Tune.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/MinAlsklingT.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/MinAlskling_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/tango/MinAlsklingT.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/tango/MinAlskling_C.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

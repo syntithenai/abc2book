@@ -1,0 +1,23 @@
+X: 2
+P: Tierpspolskan
+R: hambo-polska
+O: efter Leif Alpsj\"o
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"G2 (BD) G>B | "Am"c2 (ec) A>G | "D"F2 (AD) F>A | d2 (d>c) B>A \
+| "G"G2 (BD) G>B | "Am"BA/B/ c>B A>G | "D"F2 AD F>A | (3A/F/A/ "G"G4 :|
+|: "G"G(B/d/) g2 g2 | "D7"(g>f) (fd) d>f | "C"f>e ce g>e | "G"ed d4 \
+| "Am"c>B c>d e>c | "G"c>B Bd d2 | "D7"D2 F>A c>F | (3A/F/A/ "G"G4 :|
+S:https://www.folktunefinder.com/tunes/7984
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH_Pols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH/2008FH_Pols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH/2008FH_Pols.txt
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

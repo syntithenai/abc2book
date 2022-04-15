@@ -1,0 +1,24 @@
+X: 3732
+T:Seamus Cooley's Jig
+R:double jig
+M:6/8
+L:1/8
+K:G
+A|BAB G2E|DB,D D2E|GAB AGE|A3 AGA|!
+BAB G2E|DB,D D2E|GAB AGE|G3 G2:|!
+A|BAB d2B|BAB d2B|A2A AGE|A2A AGA|!
+BAB d2B|BAB d2B|G2B AGE|G3 G2A|!
+BAB d2B|BAB d2B|ABA AGE|ABA AGA|!
+BAB G2E|DB,D D2E|GAB AGE|G3 G2||!
+S:https://www.folktunefinder.com/tunes/33500
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:85
+T:Polka Keturine
+C:Traditional
+O:Lithuania
+R:Polka
+B:Muzika \vSoki\;u Pamok\.el\.ese, Stasys Kazlauskas (\vSiauli\;u pedagoginis institutas), \vSiauliai, 1997
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+"G"GB AG|"G"d2 d2|"D"Ac BA|"G"G2 G2|"G"GB AG|"G"dd d2|
+"D"Ac "G"BA|"G"G2 G2|:("C"ce) c2|("G"Bd cB)|("D"Ac BA)|[1GB AG:|[2"G"G2G2|]
+S:https://www.folktunefinder.com/tunes/75781
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

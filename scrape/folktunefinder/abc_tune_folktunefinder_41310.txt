@@ -1,0 +1,22 @@
+X:4
+T:26. Galliard: Hermoza
+T:Tenor
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+L:1/4
+M:3/2
+N:Original clef, C on fourth line
+K:G dor -8va
+|: z2 G4 G4 G2 A4 G2 F6 G4 G2 c2 F4 B G A2 D2 D6 :|
+|: A6 A4 G D A4 G2 A6 F2 G2 A2 B2 z2 A2 G A B2 G2 A6 :|
+|: B4 B2 B4 F G A B c4 c2 G A B G A d2 c B2 A2 F2 G2 C2 G E A D D6 :|
+S:https://www.folktunefinder.com/tunes/41310
+S:http://www.laymusic.org/music/holborne/hermoza/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

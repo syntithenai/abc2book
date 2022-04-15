@@ -1,0 +1,29 @@
+X:1
+%% Copyright 1954 by Chappel & Co, Inc. Copyright renewed
+T:Young and foolish
+M:4/4
+L:1/4
+C:Arnold Horwitt & Albert Hague
+Q:1/4=100
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Ab7""Dm7"x2 "G7"x2 | "Cmaj7"x2 "(Am7"x"Abdim7)"x | "Gm7"x2 "C7"x2 |
+"Fmaj7"x2 x2 | "Bb7""Em7b5"x2 "A7"x2 | "Dm7"x2 "A7"x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+G3C | CD3 | zEEF | FGG2 |
+S:https://www.folktunefinder.com/tunes/19086
+S:http://trillian.mit.edu/~jc/music/abc/song/Young_and_foolish.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/young_and_foolish.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/young_and_foolish.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Young_and_foolish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

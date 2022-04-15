@@ -1,0 +1,27 @@
+X:1
+T: Moll in the Wad [A]
+L: 1/8
+M: 6/8
+S: Cranford - Winston Fitzgerald
+Z: Andrew Kuntz <aikuntz:aol.com> irtrad-l 2000-04-04
+K: Bb
+g \
+| fBB (BAB) | fBB gBB | fBB (BAB) | cAF FAc \
+| fBB (BAB) | fBB gBB | bag fed |1 cAF F2 :|2 cBA GFD ||
+|: B3 BFD | BFD B2c | dcB BAB | cAF FGA \
+| BFD BFD | BFD B2c | dcB ABc |1 B3 Bdc :|2 B3 B3 ||
+K:G
+|| gdB gdB | gdB d2a | _bag gfg | afd def \
+| gdB gdB | gdB g2 a | _bag fga |1 g3 G2 a :|2 g3 {cd}=e2 |]
+S:https://www.folktunefinder.com/tunes/14684
+S:http://trillian.mit.edu/~jc/music/abc/jig/MollInTheWadA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MollInTheWadA.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MollInTheWadA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

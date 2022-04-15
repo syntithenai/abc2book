@@ -1,0 +1,26 @@
+X:5935
+T:Staten Island
+A:North-West
+M:C|
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000519.html
+%%ID:00000519
+K:D
+AG|\
+FDFA A2A2| dfed dcBA| B2GB A2FA| G2E2 E2AG|\
+FDFG A2A2| dfed dcBA| d2d2 efge| f2d2 d2::\
+fg|\
+a2fa g2eg| f2df ecA2| =c2c2 e=fge| =c2c2 e=fge|\
+a2fa g2eg| f2df ecA2| d2d2 efge| f2d2 d2:|
+S:https://www.folktunefinder.com/tunes/37266
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

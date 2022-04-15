@@ -1,0 +1,27 @@
+X:0
+T:The 79ths Farewell to Gibraltar
+C:John Macdonald
+G:pipe march
+M:2/4
+L:1/16
+Q:1/4=80
+K:A
+% major/mixolydian hexatonic, A-final in the G-gap hexatonic pitch set
+c>d|e3f   e2c2  |A4     A2a2 |f2e>c  e>fe>d|c2B2 B2c>d|
+    e3f   e2c2  |A4     A2a2 |f2e>c  e>fa>e|c2A2 A2  :|
+a2 |f2e>c e>fa>e|f<ae>c B2a2 |f2e>c  e>fa>e|f2B2 B2a2 |
+    f2e>c e>fa>e|f<ae>c B2a2 |f2e>c  e>fa>e|c2A2 A2  :|
+c>B|A3B   c2a2  |f2e>c  B2c>B|A>Bc>d e>fe>c|f2B2 B2c>B|
+    A3B   c2a2  |f2e>c  B2a2 |f2e>c  e>fa>e|c2A2 A2  :|
+c>d|e3f   e2c2  |e4     e2a2 |f3e    f2a2  |f3e  c2a2 |
+    f2e>c c2B<A |B<AB>c e2a2 |f2e>c  e>fa>e|c2A2 A2  :|
+S:https://www.folktunefinder.com/tunes/30055
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

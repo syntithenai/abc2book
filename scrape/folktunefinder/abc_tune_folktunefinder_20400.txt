@@ -1,0 +1,25 @@
+X: 1
+T: Joy to the World
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+| "D"d2 "(G)"c>B | "D"A3 "(Em)"G \
+| "D"F2 "A7"E2 | "D"D3 A \
+| "G"B3 B | "A7"c3 c \
+| "D"d4 - | d3 d \
+| "D"dc BA | A>G Fd |
+| dc BA | A>G FF \
+| FF FF/G/ | A3 G/F/ \
+| "A7"EE EE/F/ | G3 F/E/ \
+| "D"Dd- "G"dB | "D"A>G F"Em"G \
+| "D"F2 "A7"E2 | "D"D4 |]
+S:https://www.folktunefinder.com/tunes/20400
+S:http://trillian.mit.edu/~jc/music/abc/xmas/JoyToTheWorld.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

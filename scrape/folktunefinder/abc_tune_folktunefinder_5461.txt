@@ -1,0 +1,62 @@
+X: 1
+T: La Cumparsita
+T: the Masked One
+C: G.H.Matos Rodriguez (1916)
+R: tango
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+| "E7"{EE}.E2.d2 .B2.^G2 \
+| zEFE ^D2E2 \
+| "Am"{EE}.E2.e2 .c2.A2 \
+| zEFE ^D2E2 \
+|  "E7"{EE}.E2.d2 .B2.^G2 \
+| zEFE ^D2E2 |
+| "Am"{EE}.E2.e2 .c2.A2 \
+| zEFE ^D2E2 \
+|| "Dm"=D2A2 ^G2A2 \
+| zEFE F2^G2 \
+| "Am"E3D/_D/ C4 \
+| z^DED E2F2 |
+| "E7"D3_D/C/ B,4 \
+| zDCB, A,2^G,2 \
+| "Am"A,2zF "E7"EDCB, \
+| "Am".A,3^G .A2z2 \
+[| "Am"ABcz zABc \
+| (3BcB A6 |
+| "Am"z[ac][ac][gc] [gc][fc][fc][ec] \
+| "E7"[e4B4] [d4B4] \
+| z[bd][bd][ac] [ac][^gB][g2B] \
+| z[fA][fA][e^G] [e4G] \
+| "E7"z[dF][d2F] z[c2E][BD] \
+| "Am"[A2C] [e6A] ||
+|| "Am"ABcz zABc \
+| (3BcB A6 \
+| z[ac][ac][gB] "(A7)"[gB][fA][fA][eG] \
+| "Dm"[d8F8] \
+| df-fa a^ga2 \
+| "Am"ce-ea a^ga2 |
+| "E7"zeb^g ed-d^G \
+| "Am"A3e- "fine".az3 \
+|: "Am"A^GAB z[c2A2E2][B^GD] \
+| [A2C2]E2 .a2.e2 \
+| "Dm"[fd][e^c][fd][ge] [a3f][fd] \
+| "Am"[e2c][c2A] .[e'2a].[c'2e2] :|
+| "Am"z2[e2c] [f3d][ec] \
+| "E7"[e3c][dB] [dB][fd][e2c] \
+| "E7"z2[e2c] [f3d][ec] \
+| "Am"[d3B][cA] [cA][ec][d2B] \
+| z2[c2E] [d3F][cE] \
+| "E7"[c3E][BD] [BD][dF][c2E] \
+| z2[B2D] [A3C][^GB,] \
+| "Am"[A2C]ce "d.C."[aecA]z3 |]
+S:https://www.folktunefinder.com/tunes/5461
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Cumparsita.abc
+S:http://trillian.mit.edu/~jc/music/abc/tango/Cumparsita.abc
+% Rhythm Tango
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

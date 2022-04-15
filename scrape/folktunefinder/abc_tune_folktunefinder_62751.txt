@@ -1,0 +1,22 @@
+X: 29
+T:Garster's Dream
+M:6/8
+L:1/8
+Q:120
+K:G
+D|"G"G2 B BGB|"C"cdc "G"BAG|"D"FGA ABA|AdB AF-D|!
+"G"G2 B BGB|"C"cdc "G"BAG|"D"F2- E DE-F|"G"G3 G2::!
+"G"e|gag gdB|"Am"ABA AGE|"G"gag gdB|"D"ded def|!
+"G"gag gdB|"Am"Ac-B AG-E|"Em"G2 E "D"DE-F|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/62751
+S:http://crash.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/~dexy/music/shetland.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/shetland.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/shetland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

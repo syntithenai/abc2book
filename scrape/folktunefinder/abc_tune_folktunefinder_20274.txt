@@ -1,0 +1,36 @@
+X: 1
+T: Vals etter Bruce Sagan
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+(uAd) \
+| "D"(vdA) (uAd) (vdf) \
+| (ufA) (vAd) (udf) \
+| "A7"(fe) (ed) (dc) \
+| (cB) A2 (Ad) \
+| "D"(dA) (Ad) (df) |
+| ((5f/g/f/e/f/) g2 f2 \
+| "A7"(eg) (fd) (ec) \
+| "D"d4 :: (fg) \
+| "D"a2 (af) (gb) \
+| a2 g2 f2 |
+| "Em"(ef) (gf) (gb) \
+| "A7"a2 g2 f2 \
+| "D"A2 (af) (gb) \
+| a2 g2 f2 \
+| "A7"(eg) (fd) (ec) \
+| "D"d4 :|
+S:https://www.folktunefinder.com/tunes/20274
+S:http://trillian.mit.edu/~jc/music/abc/waltz/V_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Vals_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/V_BruceSagan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Vals_BruceSagan.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:22
+T:Menuguet
+O:France
+A:Provence
+C:Arnaud
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-02-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+Q:1/4=140
+K:Bb
+%%continueall 1
+V:Galoubet1
+f3gf2 | f2d2e2 | f2gabg | g4f2 | f4df | e4ce |1 dBdgbd | d4c2 :|2 dBdfed | B6 !fine! |:
+c2ABcd | e2fedc | d2Bcde | f2ffff | g2bgeg | f2bfdf | g2fedc |1B2BBBB :|2 c4B2 !D.C.! |:
+f2dfff | f2dff^f | g2eggg | g2egbg | f2dfff | f2dfed | cdedfd | d4c2 ::
+FAcf dc |dBdfdB | FAcfdc | dBdfdB | f2dff^f | g2egab | a/g/f/e/d2c2 | c4B2 ::
+[M:2/4]\
+d3c | BB cc | dd ee | d2c2 | e3d | cc dd | ee ff | e2d2 | 
+dd de | f2bz | dd de | f2bz | dd de | ff ee | dd cc |1 B/b/a/g/ f/e/d/c/ :|2 B4 !D.C.! |]
+V:Galoubet2
+d3ed2 | d2B2c2 | d2efge | e4d2 | d4Bd | c4Ac |1 BFBcdB | B4A2 :|2 BFGFGA | B6 |:
+A2FGAB | c2dcBA | B2FABc | d2dddd | e2eeee | d2dddd | e2dcBc |1 d2BBBB :|2 c4B2 |:
+B2BBBB | A2dcBA | G2ceee | e2c2d2 | d2B2d2 | A2BdcB | ABcd EF | G4A2 ::
+F2A2BA | B2d2BG | F2A2BA | BG d2B2 | A2dcBA | G2ecAd | c2B2FG | A4B2 ::
+[M:2/4]\
+GA Bc | B2A2 | B2c2 | fd ec | edcB | A2B2 | c2d2 | ecdB | GB dc | A2dz |
+dc BA | d2gz | dc BA | cd ec | dB Ac |1 Gd A2 :|2 B4 |]
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/481
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

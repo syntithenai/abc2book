@@ -1,0 +1,24 @@
+X:374
+T: "Der Wildschuetz"
+N: Z1054
+O: Europa, Mitteleuropa, Oesterreich
+R: Romanze, Ballade, Staende -, Jaeger - Lied
+M: 3/4
+L: 1/8
+K: G
+DF | G2GdBG | GFED
+DF | G3ABc | d4
+DF | G2GdBG | GFED
+DF | G2GFGA | B4
+B2 | BAAGAB | G4
+S:https://www.folktunefinder.com/tunes/69233
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, staende -, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

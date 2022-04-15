@@ -1,0 +1,30 @@
+X: 3
+T: Alexandrovski [Gm]
+O:Russia
+B:A Little Couple-Dancemusik
+N:the more common version is much simpler, and modulates
+Z:Moshe Braner <mbraner:usa.net>
+M:3/4
+L:1/4
+K:Gm
+|: zD |\
+"Gm"DGB | dcB |"D"BA>^G | A2D | D^FA | edc | "Gm"d3/2 c/d/c/ | "Gm"B2G |
+"Gm"GBd | gfe |"Cm"c3/2 B/c/d/ | e3/2 g/f/e/ | "Gm"dBG | "D"AB>A | "Gm"G3-|G :|
+|:   ^FG | "D".AzD | AGA | "Gm".BzD | BAG | "D"^FAc | edc | "Gm"d3/2 c/d/c/ |
+"Gm"B^FG | "D".AzD | AGA | "Gm".BzD | BAG | "D"^FAe | dcA/B/ |\
+|1 "Gm"G3-|G :|2 "Gm"G3 | "F"F3 ||
+L:1/8
+|: "B"BdcBAB | "D"ABAG^FD | "Gm"GD=E^FGA | "B"B4 cd |\
+   "Cm(E)"e2 e2 dc | "B"d2 B2 AB | "F"c2 F2 c2 |1 "B"d4 F2 :|2 "B"B2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7500
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

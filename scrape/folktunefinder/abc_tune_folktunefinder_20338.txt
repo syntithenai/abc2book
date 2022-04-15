@@ -1,0 +1,36 @@
+X: 1
+T: The Wild Rose of the Mountain
+T: Ros fhiadhaich nam Beann
+C: John Mason
+R: air, waltz
+M: 6/8
+L: 1/16
+K: G
+D2 \
+|"G"G4D2 "D7"A4D2|"G7"B3cd2 "C"e3fg2\
+|"G"d3ed2 "Em"B4G2|"Am"A6- "D7"A4 \
+D2\
+|"G"G4D2 "D7"A4D2|"G7"B3cd2 "C"e3fg2\
+|"G"d3BG2 "D7"A4B2|"C"G6- "G"G4:|
+d2\
+|"G"dB3d2 "Am"dc3d2|"D7"f4{gf}ef "G"g4d2\
+|"C"e3fg2 "G"d4B2|"Am"A6- "D7"A4 \
+d2\
+|"G"dB3d2 "Am"dc3d2|"Bm"f4{gf}ef "C"g4fe\
+|"G"d3BG2 "D7"A4B2|"C"G6- "G"G4||
+d2\
+|"G"dB3d2 "Am"dc3d2|"D7"f4{gf}ef "Em"g4fe\
+|"C"d4e2 "Bm"d4B2|"Am"A6- "D7"A4 \
+GF\
+|"C"E3FG2 "D7"F3GA2|"Em"B3cd2 "C"e2f2Hg2\
+|"G"d3BG2 "D7"A4B2|"C"G6- "G"G4|]
+S:https://www.folktunefinder.com/tunes/20338
+S:http://trillian.mit.edu/~jc/music/abc/waltz/WildRoseOfTheMountain_G6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/WildRoseOfTheMountain_G6.abc
+% Rhythm Air, waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:8068
+T:Whistler from Rosslea
+O:england
+M:4/4
+L:1/8
+C:Ed Reavy
+S:From Martin Hayes: Martin Hayes
+R:Reel
+N:Originally written in the key of D by Ed Reavy
+K:CMin
+CDEF G2FD | G3FD E~C3 | B,CDE F2EF | GAFG E2DE | CDEC DEFD |
+G=ABG cBGF | EFFE FADF |1 ECDB, C3G, :|2 ECDB, C3B |:
+c2Gc EcGc | c2dc cBG=A | B2FB DBFB | B=AGF ECB,D |
+G~c3 cBGF | EFG=A B3c | cBGF EFFD | ECDB, C3B :|
+S:https://www.folktunefinder.com/tunes/28520
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

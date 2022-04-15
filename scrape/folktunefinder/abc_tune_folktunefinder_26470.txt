@@ -1,0 +1,34 @@
+X:6018
+T:Shooting
+O:england
+M:6/8
+C:
+S:Chingford MM
+N:based on St. Patrick's Day
+A:Chingford
+R:Jig
+%P:A.(AB)$^5$.A
+P:A.(AB)5.A
+%:
+%:
+L:1/8
+K:G
+I:speed 300
+P:A
+D|:GAG GBd|ded dBG|ABc BAG|1 EFE E2 D:|2 E2 F G2||\
+P:B
+d|def gag|fed e2 d|def gag|fed e2 d|def  gag|fed efg||
+S:https://www.folktunefinder.com/tunes/26470
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

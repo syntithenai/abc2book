@@ -1,0 +1,26 @@
+X:4120
+T:Out on the Ocean
+M:6/8
+O:Scotland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ab2.html
+%%ID:00000ab2
+K:G
+D|\
+G2B {c}BAG|BdB A2B|GED G2A |{c}BAB AGE|\
+D2B {c}BAG|BdB A2B|GED G2A|BGG G2:|
+|:d|\
+e3 edB|efe edB|d3-def|gfe dBA | \
+G2A B2d|ege dBA|GED G2A|BGG G2:|
+S:https://www.folktunefinder.com/tunes/36903
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

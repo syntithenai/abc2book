@@ -1,0 +1,36 @@
+X: 3
+P: The Gordons Strathspey
+R: strathspey
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+B: Skye
+B: Paddledoo
+M: C
+L: 1/8
+K: ADor
+| "Am"A2 B<d "Em"e2 d<B | "Am"BA ~A2 "D7"B<A A<c \
+| "G"B<d d>B "C"cB AG | "C"E2 G>A "G"GD DE |
+| "G"D>E GA "Em"B2 g>f | "C"e>d g>f "G"e>d B<d \
+| "C"e>f g>f "G/B"e<d cd "Am"B<A A2 |]
+[| "Am"A<a af | "C"e>d e<g "D"a>e ef \
+| "G"g>a b>a "C"g/a/g/f/ g<e | "D"d>e d>c "G"B<G G>B |
+| "Am"A<a af | "C"e>d B>d e>f g>a \
+| "G"b<g "Am"a<e "C"g<e "G"d>B | "Am"A<a "Em"e>d "Am"B<A A2 |]
+S:https://www.folktunefinder.com/tunes/9925
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AuldLangSyneStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AuldLangSyneStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SilverGrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/SilverGrey.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/SilverGrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090126/AuldLangSyneStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/SilverGrey.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006DEFFA/SilverGrey.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/SilverGrey
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

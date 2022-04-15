@@ -1,0 +1,23 @@
+X:6325
+T:den Toppede Hne (from Thy)
+L:1/8
+M:2/4
+O:Denmark
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a87.html
+%%ID:00000a87
+K:G
+D2  | G2 BG | A2 cA | B2 c2 | dA FA |\
+G2 BG | A2 cA | B2 c2 | d2 :|
+|:A2| d2 fd | e2 ge | f2 g2 | ae ce |\
+d2 fd | e2 ge | f2 g2 | a2 :|
+|:DG| BG GG | BG GG | Ac FA | GD B,D |\
+BG GG | BG GG | Ac FA | G2 :|
+S:https://www.folktunefinder.com/tunes/37344
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

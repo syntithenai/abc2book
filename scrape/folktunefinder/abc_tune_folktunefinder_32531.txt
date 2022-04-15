@@ -1,0 +1,19 @@
+X: 2068
+T: Ruzmarin
+O: Croatia
+M: 2/4
+L: 1/8
+K: D
+|: "D"[A2F] [^G^E][AF] | "G"[B3G] [AF] | [BG][AF] [GE][FD] | "A7"[G2E] "D"[F2D] \
+|     [A2F] [dG][=cA] | "G"[B3G] [AF] | [BG][AF] [GE][FD] | "A7"[G2E] "D"[F2D] ||
+|| "D"[A2F] [GE][FD] | "A7"[EC][FD] [G2E] | "D"[F/D][G/E][AF] [FD][DA,] | "A7"[EC][FD] [G2E] \
+|  "D"[A2F] [GE][FD] | "A7"[EC][FD] [G2E] | "D"[F/D][G/E][AF] "E7"[FD][DB,] | "A"[E2A,] [E2A,] :|
+S:https://www.folktunefinder.com/tunes/32531
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

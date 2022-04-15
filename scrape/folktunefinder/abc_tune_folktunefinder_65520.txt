@@ -1,0 +1,24 @@
+X: 235
+T:Pete's Peerie Boat
+% Nottingham Music Database
+P:AAB
+S:Tommy Anderson, via EF
+M:6/8
+K:D
+P:A
+|:A|"D"d2D D2D|"Em"EFG "A7"ABc|"D"dcd "E7"Bed|"A7"cAA ABc|
+"D"d2D D2D|"Em"EFG "A7"ABc|"D"d2A "A7"GFE|"D"FDD D2:|
+P:B
+|:A|"D"dcd fed|"A"cBc edc|"Bm"BAB dcB|"F#m"A3 -A2F|"G"GFG BAG|
+"D"F2A d3|"E7"E2^G B3|"A7"C2E A2A|"D"dcd fed|"A"cBc edc|"Bm"BAB dcB|
+"F#m"A3 -A2F|"G"GFG BAG|"D"F2A "A"a2g|"Bm"fed "A7"Adc|"D"d3 -d2:|
+S:https://www.folktunefinder.com/tunes/65520
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

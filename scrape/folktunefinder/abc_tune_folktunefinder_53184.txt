@@ -1,0 +1,32 @@
+X:652
+T:Engelska fr{\aa}n sl\"ap
+N:original url: www.wolfram.claranet.de
+D:b\"ask
+M:C
+L:1/8
+Q:1/4=140
+K:G
+V:1
+Bc| B2G2 G2AB| c2A2 A2FA| G2AB cdef |g2ga gfed| B2G2 G2AB| c2A2 A2FA| B2BG A2AF| G6 Bc|
+ B2G2 G2AB| c2A2 A2FA| G2 AB cdef |g2ga gfed| B2G2 G2AB| c2A2 A2FA| B2BG A2AF| G8||
+B2Bd BGGB| B2Bd dcc2| c2cee2e2| ceg2 ged2|d2dg gbb2| dddB c2c2| B2BG A2AF| G2B2G4|
+B2Bd BGGB| B2Bd dcc2| c2cee2e2| ceg2 ged2|d2dg gbb2| dddB c2c2| B2BG A2AF| G2B2G4||
+V:2 Bass
+z2| G4G4 | D4D4| G,4A,4| B,4 D4| G4 G2FE| D4F4 |G4D4 | G,6 GF|
+ E4E4 | D4D4| G,4A,4| B,4 D4| E4E4| D4D4 |D4D4 | G2D2G,4||
+ G4D4   | B2d2 dee2| c3B A4| A2c2B4  |G3Bd4    | BddB c2c2| B2G2 A2F2| G2D2G,4|
+ G4D4   | G2F2E4  | C3E A4   | c2cA ABG2-|G3B d2Bd | dBBG c2c2|B2G2 A2F2|  G2D2G,4||
+V:3 Viola %voice adapted
+z2| G,4G,4 | D,4D,4| G,4A,4| B,4 D,4| G,4 G,2F,E,| D,4F,4 |G,4D,4 | G,6 G,F,|
+ E,4E,4 | D,4D,4| G,4A,4| B,4 D,4| E,4E,4| D,4D,4 |D,4D,4 | G,2D,2G,4||
+ G,4D,4   | B,2D,2 D,E,E,2| C,3G, A,4| A,2C2B,4  |G,3B,D4    | B,D,D,B, C,2C,2| B,2G,2 A,2F,2| G,2D,2G,4|
+ G,4D,4   | G,2F,2E,4  | C,3E, A,4   | C,2CA, A,B,G,2-|G,3B, D,2G,D, | D,B,B,G, C,2C,2|B,2G,2 A,2F,2|  G,2D,2G,4||
+S:https://www.folktunefinder.com/tunes/53184
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

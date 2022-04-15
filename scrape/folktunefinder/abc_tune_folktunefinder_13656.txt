@@ -1,0 +1,25 @@
+X: 1
+T: O'Donnell's Hornpipe
+R: hornpipe
+S: Seamus McGuire & John Lee, "The Missing Reel"
+Z: Jeff Myers
+M: C|
+L: 1/8
+Q: 90
+K: G
+Bc | dg (3gfe Bded | BGdB A2AG | FGAB cdef | (3gba (3gfe d2Bc | dg (3gfe Bded |
+| BGdB A2AG | FGAB cdef |  gbaf g2 :: ef | gbag fagf | egfe fdB2 |
+| gbag fagf | egfe fdBd | c2Ac B2GB | A2FA GFED | DEFG ABcA | (3GBd (3gdB G2 :|
+S:https://www.folktunefinder.com/tunes/13656
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ODonnelsH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/ODonnelsH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

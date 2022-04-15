@@ -1,0 +1,28 @@
+X:0
+T:The Lydian/Major/Mixolydian (fa/do/so, pi-1) Pentatonic Scale
+L:1/4
+M:8/4
+K:FLyd
+P:fa -ti -mi
+"_fa"F2 "_so"G "_la"A "_do"c "_re"d "_fa"f2 |\
+"_fa"f2 "_re"d "_do"c "_la"A "_so"G "_fa"F2||
+M:8/4
+K:C
+P:do -fa -ti
+"_do"C2 "_re"D "_mi"E "_so"G "_la"A "_do"c2 |\
+"_do"c2 "_la"A "_so"G "_mi"E "_re"D "_do"C2||
+M:8/4
+K:GMix
+P:so -do -fa
+"_so"G2 "_la"A "_ti"B "_re"d "_mi"e "_so"g2 |\
+"_so"g2 "_mi"e "_re"d "_ti"B "_la"A "_so"G2|]
+S:https://www.folktunefinder.com/tunes/30108
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: The 51st Highland Division (A pipe version)
+C: Unknown
+N: Sound track on BBC2 TV programme "Battlefields: Alamein" (2001-9-25) showing
+N: a victory parade in Tripoli 1942/43. Source and date of sound track unknown.
+M: 4/4
+R: March
+Z: Helen Ross<h.e.ross@stir.ac.uk>2001-11-5
+O: Scottish
+K: Hp
+e2 | A>G AB c2   ce | f>e fa e2 ce | f>g af e<c BA  | B>c dc  Be dB |
+   | A>G AB c2   ce | f>e fa e2 ce | f>g af e<c B>c | A2  A>A A2   ||
+e2 | a2 a2 (3gag fe | f>e fa e2 ce | f>g af e<c BA  | B>c dc  Be dB |
+   | A>G AB c2   ce | f>e fa e2 ce | f>g af e<c B>c | A2  A>A A2   |]
+S:https://www.folktunefinder.com/tunes/15293
+S:http://trillian.mit.edu/~jc/music/abc/march/51stHighlandDivisionAPipeVersion_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/51stHighlandDivisionAPipeVersion_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

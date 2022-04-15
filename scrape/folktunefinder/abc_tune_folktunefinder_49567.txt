@@ -1,0 +1,35 @@
+X: 12
+T:Moss Roses. CJF.012
+M:3/8
+L:1/8
+Q:30
+C:Basnett
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Penultimate note c has # faintly marked above.
+Z:vmp.P J Headford 2000
+K:G
+"p"D|G2G|BBB|d2g|">"d3|d(Bd)|c3|(BGB|A2"f"D|!
+(G/F/G/A/B/c/)|dBB|d/B/(a/g/f/e/)|d2z|\
+(c/B/A/B)c|Bz">"d|Az">"d|G2z|!
+"p-----"d'/c'/b/a/g/f/|\
+d2g|gfg|a3|ac'a|bd'b|gfg|a2"mf"D|!
+(G/F/G/A/B/c/)|(d/B/G/B/)d|d/B/(a/g/f/e/)|\
+(d/"dol:"^c/e/d/=c/B/)|(c/B/A/B/c)|.Bz.d|.Azd|G2d|!
+.g.g.g|.b.b.b|d'2g'|">"d'3|.d'.b.d'|">"d3|.b.g.b|a2d|!
+"f".g.g.g|g2b|bb/a/g/f/|e2z|"p"F3/4(GAB)|\
+(GBd)|(F/G/A/B/c/A/)|G2z|(A/F/">"d/c/A/B/)|G2|]
+S:https://www.folktunefinder.com/tunes/49567
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

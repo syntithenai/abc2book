@@ -1,0 +1,24 @@
+X:73
+T: Der Reuter
+N: A0081
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie aus M. Framck, Fascic. quodl. 1611 No. 2.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+d | d2d2ddd2 | e2d2c2z
+B | ddd2Bcdd | c2BAG2
+B2 | c2B2A2G2 | F4z3
+S:https://www.folktunefinder.com/tunes/68619
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:812
+T:Xiraldilla (CT 234)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 234
+M:2/4
+L:1/8
+Q:1/4=176
+K:G
+|c2 B2|A2 Bc|d2 c2|B4|A2 G2|F2 GA|B2 A2|G4|
+c2 B2|A2 Bc|d2 c2|B4|A2 G2|F2 GA|B2 A2|G4|
+AA AG|F2 GA|B2 A2|G4|
+AA AG|F2 GA|B2 A2|G4||
+W:Teng'un mandiln en casa
+W:con flores de primavera;
+W:el galn que me lu dio
+W:ya sabe que soi soltera.
+W:Esi mandiln
+W:que me diste ayer,
+W:ya lu recos
+W:ya lu remend.
+W:
+S:https://www.folktunefinder.com/tunes/59699
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:482
+%%topmargin 3cm
+T:Johnny McGill
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:E aeolian
+g | dBB BAG | dBB (B2 g) | dBB BAB | GEE (E2 g) | dBB BAG | dBB B2 A/G/ | ABc BAB | GEE E2 ::
+d | gfg aga | bge dBG | gfg aga | bge e2 g/a/ | bgb afa | gef g2 f/e/ | dBB BAB | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/71511
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Johnny_McGill.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0482.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

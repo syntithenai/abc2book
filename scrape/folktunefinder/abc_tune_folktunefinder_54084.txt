@@ -1,0 +1,24 @@
+X:218
+T:Captain Charles Stewart's Jig
+M:6/8
+L:1/8
+R:Jig
+K:G % 1 sharp
+D||:"G"G3 G2c|"G"B/2c/2de "C"g2e|"G"dBG "Am"ABA|GEE "C"E2c|"G"G3 G2c|B/2c/2de "C"g2e|"G"dBG "D"ABc|1."G"BGG G2 D:||2."G"BGG G2 d||\
+"G"d^cd "C"ece|"Am"efg "C"g2e|"G"dBG "D7"ABc|"G"BAG "C"EDE|"G"d^cd "C"ece|"C"efg "A7"g2e|"G"dBG "D"ABc|"G"BGG "C"G2d|\
+"G"d^cd "C"ece|"Am"efg "C"g2e|"G"dBG "D7"ABc|G"BAG "C"EDE|"G"G3 G2c|"G"B/2c/2de "C"g2e|"G"dBG "D7"ABA|"G"BGG G3||
+% <A name="Bottom">
+% 
+% Listing updated manually using TextPad on 27/2/2008
+% Output from ABC2Win  Version 2.1 i on 11/9/2005
+S:https://www.folktunefinder.com/tunes/54084
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

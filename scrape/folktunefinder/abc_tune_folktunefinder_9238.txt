@@ -1,0 +1,23 @@
+X: 1
+P: Viitalan Aarnen sottiisi
+C: Aarne Viitala (Kankaanp\"a\"a)
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+B2 \
+|: "G"d2 dG B2 BG | "D7"B2 A2 AB cd | "C"ed cB "D7"dc BA \
+|1,3 "G"A2 G2 G2 GB :|2,4 "D7"A2 G2 "G"G4 :|
+|: "G"GB Bd g2 g2 | "D7"fe df a2 a2 \
+|1,3 "C"gf fe ed dc | "G"cB dB G2 G2 \
+:|2,4 "C"gf fe "D7"d2 ef | "G"g2 g2 g4 :|
+S:https://www.folktunefinder.com/tunes/9238
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish11.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Maskelia
+C: Fred Moyes
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: de \
+| "D"fedc dcBA | "G"BDGB "D"A2DE | FDFA "B7"BAGF | "Em"G2E2 "A7"E2de |
+| "D"fedc dcBA | "G"BDGB "D"A2DE | FAGF "A7"GECA, | "D"D2F2 D2 :|
+|| FG \
+| "D"A2FA DAFA | "G"BDGB "D"A2DE | FDFA "B7"BAGF | "Em"G2E2 "A7"E2FG |
+| "D"A2FA DAFA | "G"BDGB "D"A2DE | FAGF "A7"GECA, | "D"D2F2 D2 ||
+|| FG \
+| "D"A2FA DAFA | "G"BDGB "D"A2DE | FDFA "B7"BAGF | "Em"G2E2 "A7"E2de |
+| "D"fedc dcBA | "G"BDGB "D"A2DE | FAGF "A7"GECA, | "D"D2F2 D2 |]
+S:https://www.folktunefinder.com/tunes/17623
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaskeliaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MaskeliaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MaskeliaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Fred_Moyes/MaskeliaR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MaskeliaR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:12
+T:Binnorie; or, The Cruel Sister
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:G Minor
+ D2  |G2  G2   D2  D2 | F2   F G  A3 \
+  A  |G2  F2   D2  F2 | G4        G2
+(G`A)|B2 (A`G) c2  c2 |(de) (f`e) d2 \
+ d c |B2  A G (FG) A B| G4        G2|]
+S:https://www.folktunefinder.com/tunes/75575
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

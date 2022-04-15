@@ -1,0 +1,27 @@
+X:12
+T: ES LEUCHTEN DREI STERN UEBER EIN KOENIGSHAUS
+N: Z0013
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Sagen - Lied, Romanze, Tod
+M: 3/8
+L: 1/16
+K: C
+G,2 | C3B,C2 | D3CD2 | E3DEF | G4
+G,2 | A,2F2E2 | D3CD2 | E6 | z4
+G,2 | C3B,C2 | D3CD2 | E3DEF | G4
+G,2 | A,2F2E2 | D3CD2 | E6 | z4
+CD | E2EDEF | E2F2G2 | G2F2E2 | D4
+B,C | D3CDE | D2E2F2 | E4D2 | C4z2
+E3FED | C2B,2C2 | D6 | C4
+S:https://www.folktunefinder.com/tunes/68871
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

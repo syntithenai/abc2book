@@ -1,0 +1,31 @@
+X: 1
+T: the Gobby-O
+T: Jefferson and Liberty
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Kerr's 1st
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+B \
+| "Am"c2A AcA | "Am"E2A A2c | "G"B2G GBc | "G"dBG "Em"GAB \
+| "Am"c2A AcA | "Am"E2A "F"A2e | "C"edc "Em"BAG | "Am"E2A A2 :|
+B \
+| "Am"A2B "C"c2d | "D7"e2f "G"g2e | "D"faf "G"g2e | "G"dBG "Em"GAB \
+| "Am"A2B c2d | "C"e2f "Em"g2f | "Am"edc "Em"BAG | "Am"E2A A2 |]
+B \
+| "Am"A2B "C"c2d | "D7"e2f "G"g2e | "D"faf "G"g2e | "G"dBG "Em"GAB \
+| "Am"c2c "F"cBA | "G"Bcd "Em"efg | "Am"edc "Em"BAG | "Am"E2A A2 |]
+S:https://www.folktunefinder.com/tunes/14250
+S:http://trillian.mit.edu/~jc/music/abc/jig/GobbyO_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/GobbyO_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GobbyO_Am.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

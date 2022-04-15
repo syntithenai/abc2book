@@ -1,0 +1,38 @@
+X:857
+T:Xiraldilla (CT 343)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 343
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+D|: GG GA|B2 BA|c2 AF|[1 G2 zD :|[2 G2 zG|
+cc cc|c2 c2|cc BA|B4|
+|: d2 dc|B3 A|c2 AF|[1 G2 z2 :|[2 G2 z||
+W:Ai! de m, que no puedo,
+W:que si pudiera,
+W:ai! de m, que no puedo,
+W:que si pudiera,
+W:aal galn de mi gusto
+W:mi amor le diera.
+W:Ai! morena, que si pudiera,
+W:ai! salada, la mano diera.
+W:
+S:https://www.folktunefinder.com/tunes/59744
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

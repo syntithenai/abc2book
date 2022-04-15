@@ -1,0 +1,35 @@
+X:25
+T:25.  Juliana Garber
+C:c 2003 Harry Bolick  
+R:Breakdown
+O:United States
+A:Hastings On Hudson, New York
+M:4/4
+L:1/8
+Q:160
+K:G
+A,B,| "Am" C2  zD  EB AE |"D" F2 z F Fd cB|"Am" cB  AG A2  AE  |\
+M:2/4 
+ "D/F#" F2  ED |
+M:4/4
+"Am" C2  zD  EB AE |"D" F2 z F Fd cB|"Am" cB  AG A2  AE  | \
+M:2/4
+"D" F2 cd |
+M:4/4
+"Am" e2ed edcG | "F" A2AG "Em"  E2 (3(ABc) | "Am" e2g2 a2ge| "G" B6gg| 
+"Am" ae2e "G" gd2d|"Em" eB2B  "D" dA2A|\
+M:2/4
+ "Em" B2>B2 |\
+M:4/4
+edBG "Am7" AGEC| "D/F#" D8  ||
+S:https://www.folktunefinder.com/tunes/1719
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

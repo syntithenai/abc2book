@@ -1,0 +1,24 @@
+X:8819
+T:La Bastringue
+R:Reel
+C:French Canadian, via PR
+S:Nottingham Music Database
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+de|:"D"f2ff f2gf|"A"e2c2 "D"d3d|"A"c2d2 efec|"D"d2e2 f2d2|
+f2ff f2gf|"A"e2c2 "D"d3d|"G"g2 (3fgf e2d2|1 "A"B2c2 "D"d2A2:|2 "A"B2c2 "D"d2 (3ABc
+|:d2fd adfd|"C"=c2ec gcec|"D"d2fd adfa|"G"bgec "A"dcBA|
+"D"d2fd adfd|d2fd adfa|Adfa "G"bgec|1 "D"df"A"ec "D"d2 (3ABc:|2 df"A"ec "D"d4|]
+S:https://www.folktunefinder.com/tunes/60852
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

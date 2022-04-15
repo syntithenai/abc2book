@@ -1,0 +1,27 @@
+X:1
+T:Birnam Wood
+S:Carl MacKenzie
+D:Carl MacKenzie, Welcome To Your Feet Again (1977)
+N:John Gow was Niel Gow's youngest son.
+Z:Nigel Gatherer scots_music 2005-8-6
+M:4/4
+L:1/8
+K:D
+A2  | defe   d3 A | B d3 AGFE  | DFAB   defd   | e3  d B3
+A   | defe   d3 A | B d3 A2 g2 | f2 ed  B<gfe  | f2  d2 d2 :|
+z2  | A,DFD  GDFD | BAFD GDFA  | dcdB   AFED   | B2  E2 E2
+DB, | A,DFD  GDFD | BAFD GDFA  | d<fB<d F<AG<E | A,2 D2 D2
+z2  | A,DFD  GDFD | BAFD GDFA  | dcdB   AFED   | B2  E2 E2
+FE  | DAFd   Afda | fd'af gecA | B<Gd>B c<Ag>e | f2  d2 d2 |]
+S:https://www.folktunefinder.com/tunes/13129
+S:http://trillian.mit.edu/~jc/music/abc/air/Birnam_Wood_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Birnam_Wood_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots_music/Birnam_Wood_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T: the Blue-Eyed Stranger
+O:England
+S:Bay Area Teams
+S:Morris Ring
+Z:John Chambers <jc@trillian.mit.edu>
+A:Field Town
+M: C|
+L:1/8
+R:Reel
+K:G
+|: G2 D2 D2 GF | EDEF G2 GA | B3 d cBAG | E3 F G4 :| GABc d2 d2 | edcB A4 |
+| GABc d2 d2 | B3 c d4 | GABc d2 d2 | edcB A2 GA | B3 c BAGF | E3 F G4 |]
+S:https://www.folktunefinder.com/tunes/16813
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlueEyedStranger.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/BlueEyedStranger.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:352
+T: ES KAM VON EINER NEUSTADT HER
+N: E0200
+O: Europa, Mitteleuropa, Deutschland, Glogau, Liegnitz
+R: erzaehlendes Volks - Lied, Tod, Toten - Sage, Grabesstimme
+M: 3/4
+L: 1/8
+K: F
+C | FCFAc2 | BGF2z
+F | EFG2c2 | c=Bc2z
+A | Bcd3c | Bdc3
+B | AGFGBA | AGF2z
+S:https://www.folktunefinder.com/tunes/78793
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, tod, toten - sage, grabesstimme
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

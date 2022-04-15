@@ -1,0 +1,21 @@
+X: 1
+T: the Hop Ground
+B: Barnex p.53 (dated 1794)
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"Add fed | "G"gfe "D"fed | "D"Add "Bm"fed | "Em"gee "A7"cdB \
+|  "D"Add fed | "G"gfe "D"fed | "D"fga "Em"gfe | "Bm"fdd "A7"cdB :|
+|: "D"AFA "G"Bcd | "D"Add "G"Bdd | "D"AFA "Bm"Bcd | "Em"efg "A7"fed \
+|  "D"AFA "G"Bcd | "D"Add "G"Bdd | "D"fga "Em"gfe | "Bm"fdd "A7"cdB :|
+S:https://www.folktunefinder.com/tunes/14336
+S:http://trillian.mit.edu/~jc/music/abc/jig/HopGround.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/HopGround.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

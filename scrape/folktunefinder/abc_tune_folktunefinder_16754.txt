@@ -1,0 +1,22 @@
+X: 1
+T: the Banks of Spey
+M: C
+L: 1/8
+R: Reel
+S: Surenne - Dance Music of Scotland, pg. 142  (1852)
+Z: AK/Fiddler's Companion
+K: D
+   AB | "D"D2DF "G"EDB,E | "D"D2DF ABAF | "G"GB"D"Fd "Em"EDB,B | "A7"dBAF "D"D2 :|
+|: AB | "D"d2ef "A7"gfef | "D"d2df abaf | "G"gb"D"fa "Em"edeB  | "A7"(d/c/B/c/) dF "D"D2 :|
+S:https://www.folktunefinder.com/tunes/16754
+S:http://trillian.mit.edu/~jc/music/abc/reel/BanksOfSpeyR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BanksOfSpeyR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

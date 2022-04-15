@@ -1,0 +1,26 @@
+X:3403
+T:La Jambe de Jean
+T:(John's Leg)
+O:england
+M:4/4
+L:1/8
+C:Ed
+K:Em
+.B2 | \
+"Em"E2- E>F G>FE>G | "C"B2 A>B "D"F2- F>A | \
+"C"B2 A>B "D"A>DF>A | "C"c>EG>c "Bm"B>F B,2 |
+"Em"E2- E>F G>FE>G | "C"B2 A>B "D"F2- F>A | \
+"C"B2 A>B "D"A>FD>F | "C"G>E"D"F>D "Em"E2 ::
+.B2 | \
+"C"_B2- B>=3DB "D"A>DF>A | "Em"B2 A>B G>BE>B | \
+"C"_B2 B>=3DB "D"A>DF>A | "C"G>E"D"F>D "Em"E2 .B2 |
+"C"_B2- B>=3DB "D"A>DF>A | "Em"B2 A>B G>BE>B | \
+"C"_B2 B>=3DB "D"A>DF>A | "C".G2 "D".F2 "Em".E2 :|
+S:https://www.folktunefinder.com/tunes/23854
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

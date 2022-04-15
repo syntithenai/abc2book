@@ -1,0 +1,29 @@
+X:28
+T:Farewell to Erin
+T:Farewell to Ireland
+N:This is not really `Farewell to Ireland': that is #281.
+M:4/4
+L:1/8
+R:reel
+N:The first six measures of the `A' part can be moved up an octave to
+N:accomodate flute and whistle players.
+K:Ador
+|:A,3C E3F|GEDB, G,A,B,G,|A,3C E3F|GEDB, EA,A,G,|
+A,3C E3F|GEDB, G,2g2|edeg a2ba|gedB BAA2:|
+|:~a3b agef|~g3a gede|~a3b agef|gedB BAA2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BAA2:|
+|:eABA eABA|dedB GBBA|eABA ~e3a|gedB BAgf|
+eABA eABA|dedB GABd|cBAB cdea|gedB BAA2:|
+|:ae^ce ae^ce|gdBd g2fg|ae^ce ~a3f|gedB BAA2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BAA2:|
+S:https://www.folktunefinder.com/tunes/63575
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

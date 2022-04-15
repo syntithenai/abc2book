@@ -1,0 +1,26 @@
+X: 1
+T: The 72nd's Farewell to Aberdeen
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   cB \
+| "D"A2d2 d2ef | gfed f4 | "G"g2B2 B2cd | "E7"efed "A7"dcBA |
+y4 \
+| "D"A2d2 d2ef | gfed f3f | "G"g2B2 "A7"cdec | "D"d6 :|
+|: (3efg \
+| "D"a2A2 "D7"A2=c2 | "G"B2G2 "A7"A3B | "D"A2d2 "Bm"dcde | "E7"f2e2 "A7"e2fg |
+y4 \
+| "D"a2A2 "D7"A2=c2 | "G"B2G2 "A7"A3B | "D"A2d2 "A7"fedc | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/57324
+S:http://trillian.mit.edu/~jc/music/book/500/72ndsFarewellToAberdeen.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

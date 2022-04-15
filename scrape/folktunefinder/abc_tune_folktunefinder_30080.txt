@@ -1,0 +1,25 @@
+X:0
+T:Annie Laurie
+G:song
+B:Gall & Inglis: Select Songs of Scotland
+C:Lady John Scott
+M:2/4
+L:1/8
+Q:1/4=60
+K:C
+ z   |CC/C/ c>c  |BA z \
+ A   |GE    ED/C/|D2 z
+ E/D/|C>C   c>c  |BA z \
+ A   |G>E   ED   |C2 z||
+ G   |c>c   d>d  |e3   \
+ G   |c>c   d>d  |e2
+e>d  |c>B   Ac/A/|GE   \
+E>D  |C/cE/ ED   |C3 |]
+S:https://www.folktunefinder.com/tunes/30080
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

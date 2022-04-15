@@ -1,0 +1,32 @@
+X: 1
+T: Pibroch o' Donuil Dhu
+R: jig
+B: RSCDS __-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+G \
+| "G"d>BB "(C)"efg | "G"d>BB B2G \
+| d>BB "(C)"efg | "G"d>BG "D7"A2"G"G \
+| "G"d>BB "C"e>cc | "G"d>BB B2G \
+| "Am"A>AB cde | "G"dBG "D7"A2 :|
+|: G \
+|  "G"d>BB "C"e>cc | "G"dBB B2G \
+| "G"d>BB "C"e>cc | "G"dBG "D7"A2"G"G \
+| "G"d>BB "C"e>cc | "G"d>BB BAG \
+| "Am"A2B cde | "G"dBG "D7"A2 :|
+S:https://www.folktunefinder.com/tunes/14857
+S:http://trillian.mit.edu/~jc/music/abc/jig/PibrochODonuilDhu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/PibrochODonuilDhu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PibrochODonuilDhu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PibrochODonuilDhu.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/PibrochODonuilDhu.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 1
+T: Highland Mary
+R: hornpipe
+O: England
+Z: John Chambers <jc@trillian.mit.edu>
+H: Morris Ring (several versions)
+H: J.Timpany
+H: Both Morris Ring and Timpany identify this tune with Bampton.
+M: C|
+L: 1/8
+P: A(ABB)4
+K: G
+P: A
+(3DEF \
+| "G"G2 A>G F>E D2 | G2 A>B "C"c2 B>c | "G"d2 d>e "D7"d>c B>A | "G"G2 B2 "D7"D3 (3DEF |
+| "G"G2 A>G F>E D2 | G2 A>B "C"c2 B>c | "G"d2 d>e "D7"d>c B>A | "G"G2 "D7"F2 "G"G2 ||
+P: B
+|: D2 \
+| "G"G>A B>c d2 d2 | "C"e>d dB "D7"c2 B>c | "G"d2 d>e "D7"d>c B>A | "G"G>A B>G "D7"D3 (3DEF |
+| "G"G2 A>G F>E D2 | G2 A>B "C"c2 B>c | "G"d2 d>e "D7"d>c B>A | "G"G2 "D7"F2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/13580
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HighlandMary.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighlandMary.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/HighlandMary.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Highland_Mary.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe/HighlandMary.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

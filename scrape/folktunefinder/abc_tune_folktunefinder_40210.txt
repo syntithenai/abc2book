@@ -1,0 +1,30 @@
+X:11
+T:Andante Religioso
+O:France
+A:Provence
+C:Py
+R:Air
+%%continueall 1
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:F
+V:Galoubet
+A4 (GFGA) | (G4F4) | B4 (AGAB) | (A4G4) | c4 (defd) | (dc=Bc) defe | (dc) (dc) (dB) (BA) | (A4G4) | B4 (AGAB) | (A4G4) |
+c4 (defd) | (dc=Bc) defd | (cA) (dB) (Ac) (EG) | (G4F4) !fine! || c4- cGce | (e4d4) | d4 =BGdf | (f4e4) | a4 (fdfa) | g4 (eceg) | (gf)ag (gf)fe | e4d2z2 |
+c4-cGce | (e4d4) d4 (=BG)Bd | (f4e4) | a4(fd)fa | g4 eceg | fefg afd=B | (c=Bcd) c_BAG | c4 (BABc) | (B4A4) | G4 (FEFG) | (F4E4) |
+A4 (BcdB) | (AF)(AF) (BcdB) | (BA)(BA) (AG)(GF) | (F4E4) | c4 (BABc) | (B4A4) | G4 (FEFG) | (F4E4) | A4 (BcdB) | (AF)(AF) (BcdB) | (BF)(BF) (FA)(GB) | (B4A4) !D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nAir France
+S:https://www.folktunefinder.com/tunes/40210
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

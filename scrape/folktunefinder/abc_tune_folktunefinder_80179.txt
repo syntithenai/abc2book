@@ -1,0 +1,27 @@
+X:120
+T: Lass fragen sein
+N: A0483
+O: Europa, Mitteleuropa, Deutschland
+N: M. Franck, Musikal. Convinium 1621 No. 23.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: F
+C2 | F2F2F2G2 | A2=B2c4
+d3c_B2A2 | G4A4
+c2B2A2G2 | A3AG2
+A2 | c2B2A2G2 | A3AG2
+A2 | B4z2d2 | c4z2
+c2 | c2A2G2F2 | G4G4 | F6
+S:https://www.folktunefinder.com/tunes/80179
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 2295
+T:Cheshire Round,3rd setting
+M:3/2
+L:1/8
+K:G
+P:1
+d2 cG AG c2 Bc d2 | E2 A4 G2 F2 ED |\
+d2 cB df g2 fg a2 | D2 G4 A2 B2 AG ||
+P:2
+gfga b2 ag a2 gf| g2 e4 a2 f2 ed |\
+gfga babg  agaf | g2 G4 B2 A2 G2 ||
+P:3
+ABcA  BcdB  cdec| c2 E4 A2 F2 ED |\
+d2 g2 f2 d2 efge| g2 G4 B2 A2 G2 ||
+P:4
+C2 E2 D2 F2 E2 G2 | cdec EFGE F2 D2 |\
+G,2 B,2 A,2 C2 B,2 D2 | Bc d2 AB c2 B2 G2 |]
+S:https://www.folktunefinder.com/tunes/32691
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

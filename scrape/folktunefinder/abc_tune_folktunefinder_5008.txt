@@ -1,0 +1,31 @@
+X: 4
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: C
+| "C"[GE]>[AF][GE] |[E3C3] | "C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] |[B2-F2-] | "C"[c2E2] |[G2E2] \
+|[M:3/4][L:1/4] "F"[A2F2][AF] |[cA]>[BG][AF] | "C"[GE]>[AF][GE] |[E3C3] |
+|[M:2/4][L:1/4] "F"[A2F2] \
+|[M:3/4][L:1/4] [cA]>[BG][AF] |"C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] \
+|[M:3/4][L:1/4] [fB]>[dG][BF] \
+|[M:2/4][L:1/4] "C"[c2E2] \
+|[M:3/4][L:1/4] [e3G3] \
+|[M:2/4][L:1/4] [cE2][EC] \
+|[M:3/4][L:1/4] "G7"[GB,2]>F[DB,] | "C"[C3-C3-] |[CC]zz |]
+S:https://www.folktunefinder.com/tunes/5008
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_SilentNight.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

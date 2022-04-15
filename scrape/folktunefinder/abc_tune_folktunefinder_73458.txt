@@ -1,0 +1,26 @@
+X:299
+T: The Rambling Laborer
+B: O'Neill's 299
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:G
+e \
+| dB c/B/A/G/ | AG E(E/F/) | GG G/A/B/c/ | d2 Be \
+| dB c/B/A/G/ | AG E(F/G/) | FA D(E/F/) | G2 G ||
+| d \
+| Bd ef | gd BG | Bd ef | g2 fg \
+| ed BG | B/A/G/F/ E(F/G/) | FA D(E/F/) | G2 G ||
+S:https://www.folktunefinder.com/tunes/73458
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

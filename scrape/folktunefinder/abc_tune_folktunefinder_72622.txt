@@ -1,0 +1,25 @@
+X:165
+T: Ob ich gleich ein Schaefer bin
+N: D0288
+O: Europa, Mitteleuropa, Deutschland, Unterfranken, Wuerzburg
+N: Inzipit = Variante zum Lied
+R: Hirten - Lied
+M: 3/4
+L: 1/16
+K: F
+ |  |  | F3G | A4A4G3G | F4z4
+F2A2 | c6A2G2G2 | F4z4
+c2c2 | d2c2B2A2B2B2 | B2d2c2B2A2G2 | A2G2
+F2F2F2A2 | G2G2F4
+F2A2 | c6A2G2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/72622
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Hirten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

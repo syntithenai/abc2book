@@ -1,0 +1,28 @@
+X: 1
+T: The Earl of Northampton
+C: Karen Axelrod 1995
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: Dm
+A2 \
+| "Dm"d<A A>G F>G AF | "G"GA =B2 "A7"A2B^c | "Dm"d<A A>G F>G AF | "Gm"G<E "A7"F>E "Dm"D2A2 |
+| "Dm"d<A A>G F>G AF | "G"GA =B2 "A7"A2B^c | "Dm"(3def (3ed^c d>A F<D | "Gm"G>_B "A7"A<^C "Dm"D2 |]
+A2 \
+| "D7"^F>G A<F "Gm"B3 B | "C7"E>F G<E "F"A4 | "Gm"G>F ED "A"^CE FG | "A7"A>G F<E "Dm"D3 A |
+| "D7"^F>G A<F "Gm"B3 B | "C7"c>B AG "F"A4 | "Gm"B>G E<G "Dm"A>F D<F | "Gm"GE "A7"A<^C "Dm"D2 |]
+S:https://www.folktunefinder.com/tunes/19332
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/EarlOfNorthampton_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/EarlOfNorthampton_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/EarlOfNorthampton_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

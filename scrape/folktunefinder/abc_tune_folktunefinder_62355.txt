@@ -1,0 +1,27 @@
+X:24
+T:Polska efter Lasse i Svarven
+T:Barockpolskan
+R:sl-polska
+S:Lasse i Svarven hade den efter "G\"oran i L\"app"
+A:\"Osterg\"otland
+Z:id:hn-sp-24
+M:3/4
+L:1/16
+K:Dm
+a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) | d2(d^c d2).e2 .f2.g2 |
+(agbg a4) A4 | a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) |
+d2(d^c) (de)(fe) (fg)(ag) | (fed^c) d4 D4 :||: .f2(FE .F2)(fe fag^f) |
+.g2(c=B .c2)(C=B, .C4) | .g2(c=B .c2)(g^f g_bag) | .a2(=fe .f2)(FE .F4) |
+a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) |
+d2(d^c) (de).f.e (fg).a.g | (fed^c) (c2d2) D4 :|
+S:https://www.folktunefinder.com/tunes/62355
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

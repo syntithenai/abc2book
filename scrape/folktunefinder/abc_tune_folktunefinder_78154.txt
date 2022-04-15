@@ -1,0 +1,27 @@
+X:133
+T: IM SCHATTEN GRUENER BAEUME
+N: B0165
+O: Europa, Mitteleuropa, Deutschland, Wetterau
+R: Ballade, Romanze
+M: 6/8
+L: 1/8
+K: G
+D | G2GGFG | B2AG2
+D | A2AA2B | c2BA2
+d | d2FGAB | A3z2
+d | d2FGAB | A3z2
+A | A2dA2G | GFz3
+A | A2dA2G | GFz3
+D | G2BB2e | d3B2
+d | d2cA2B | G3z2
+S:https://www.folktunefinder.com/tunes/78154
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

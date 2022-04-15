@@ -1,0 +1,51 @@
+X:1
+T:Stablemates
+M:4/4
+L:1/4
+C:Benny Golson
+Q:1/4=200
+%%staves (chords melody)
+K:Db
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+x2 || "Bb7"x2 x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 x2 |
+"C7"x2 x2 | "Abm7"x2 x2 | "Db7"x2 x2 |
+"Gbmaj7"x2 x2 | "Gm7b5"x2 "C7"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Ebm7"x2 x2 | "Ab7"x2 x2 | "Dbmaj7"x2 x2 | x2 x2 ||
+V:melody
+(3z=DF || G3=D/F/ | z<E_cd/A/- | A3_c/A/- |
+A3_c/A/- | A2-(3A=GA | B2A>d- |
+d2(3zB=B | cF/=E/-EB/A/- | A4 | z2 BG/F/- |
+F2-(3F=DE | =E2C2 | E4- | E4 ||
+P:B
+V:chords
+"Fm7"x2 x2 | "Gb7"x2 x2 | "G7"x2 x2 | "C7"x2 x2 |
+"B7"x2 x2 | "Bb7"x2 x2 | "A7"x2 x2 | "Ab7"x2 x2 ||
+V:melody
+A>c z/A/ z/F/ | AA2A | e>=B z/G/ z/B/ | c3A |
+B2>>A2 | z2zA | ^c>=A- Ac/=c/ | z2 (3z=DF ||
+P:A
+V:chords
+"Bb7"x2 x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 x2 |
+"C7"x2 x2 | "Abm7"x2 x2 | "Db7"x2 x2 |
+"Gbmaj7"x2 x2 | "Gm7b5"x2 "C7"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Ebm7"x2 x2 | "Ab7"x2 x2 | "Dbmaj7"x2 x2 | x2 x2 ||
+V:melody
+G3=D/F/ | z<E_cd/A/- | A3_c/A/- |
+A3_c/A/- | A2-(3A=GA | B2A>d- |
+d2(3zB=B | cF/=E/-EB/A/- | A4 | z2 BG/F/- |
+F2-(3F=DE | =E2C2 | E4- | E4 ||
+S:https://www.folktunefinder.com/tunes/18987
+S:http://trillian.mit.edu/~jc/music/abc/song/Stablemates.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Stablemates.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/stablemates.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/stablemates.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

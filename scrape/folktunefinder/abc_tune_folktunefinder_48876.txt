@@ -1,0 +1,23 @@
+X: 1
+P: The Marquis of Huntly's Strathspey
+C: William Marshall
+C: arr. T. Traub 6-26-03
+M: 4/4
+L: 1/8
+K: Gm
+G>F |: "Gm"D<GG>F D<GG>A|"F"F>GA>B c/B/A/G/ F>A|"Gm"D<GG>F D<GG>g|"F"f>c d/c/B/A/ "Gm"G2 G>F :|
+"Gm"g>abg dgbg|"F"a/g/f/d/ c>d fcaf|"Gm"g>abg d>gbg|"D"b/a/g/f/ d^f "G"g/g/g g2|
+"Gm"g>a b<g a<^fg<d|"F"=f>cdf AFcA|"Gm"D<GG>F D<GG>g|"F"f>c d/c/B/A/ "Gm"G2 |]
+S:https://www.folktunefinder.com/tunes/48876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/TullochgorumSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/InvercauldsReelSet.abc
+S:http://terrytraub.org/abc/MarquisOfHuntlysS.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarquisOfHuntlysS.abc
+S:http://terrytraub.org/abc/AlltshellachS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: Belladrum's Strathspey
+C: Capt Simon Frazer of Knockie
+R: Strathspey
+M: C
+L: 1/8
+B: Glen Collection (1895) p.48
+N: Belladrum, Gaelic for 'ford-mouth-ridge', is a small town in the Aird region near Loch Ness.
+K: E Minor
+B \
+| "Em"E/E/E   E>F      G>A B<d | "D"D/D/D AD FD  AF | "Em"E/E/E E>F    G>A BG | "Em"B,E "B7"E>^D  "Em"E2 E :|
+e/f/ \
+| "Em"g>e "B7"f<^d "Em"eB   Ad FD  AF | "Em"e>f   ed "B7"B^d ef | "Em"g>e "B7"B^d   "Em"e2 B ||
+e/f/ \
+| "Em"g<e "B7"f<^d "Em"eA F>D Af |  "G"gd    eB     dG  AB | "Em"G<E "B7"B,>^D "Em"E2 E |]
+S:https://www.folktunefinder.com/tunes/19200
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BelladrumsStr_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BelladrumsStr_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

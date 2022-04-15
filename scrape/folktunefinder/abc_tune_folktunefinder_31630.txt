@@ -1,0 +1,25 @@
+X: 1123
+T:Branle
+O:France
+A:Bourbonnais
+R:Bourre  2 temps
+M:2/4
+L:1/8
+Q:220
+K:G
+B2 BA/2B/2|cB AG|B>A GF|GA BG|
+B2 BA/2B/2|cB AG|B>A GF|G4:|
+d2 dc/2d/2|ed cB|c2 cB/2c/2|dc BA|
+B2 BA/2B/2|cB AG|B>A GF|1GA BG:|2G4||
+S:https://www.folktunefinder.com/tunes/31630
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

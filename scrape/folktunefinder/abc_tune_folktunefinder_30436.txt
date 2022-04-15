@@ -1,0 +1,22 @@
+X:635
+T:Linnen Hall
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000147.html
+%%ID:00000147
+K:G
+G2G A2A| B2c dBG| E2E c2B| ABG FED|\
+G2G A2A| B2c dBG| EcB AGF| G3 G3::
+d2d e2e| d2g dBG| d2d e2e| dBG A3|\
+d2d e2e| d2g g2f| egf ed^c| d3 D3:|
+S:https://www.folktunefinder.com/tunes/30436
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

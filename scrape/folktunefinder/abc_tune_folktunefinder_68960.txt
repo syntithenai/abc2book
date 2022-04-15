@@ -1,0 +1,26 @@
+X:101
+T: ES IST EIN SCHNITTER DER HEISST TOD
+N: Z0101
+O: Europa, Mitteleuropa, Deutschland, Sued - Deutschland
+R: Sagen - Lied, Romanze, Tod
+M: 3/4
+L: 1/8
+K: G
+G2 | G4_B2 | A4G2 | =F4_E2 | D4
+d2 | d3c_B2 | c3_BA2 | _B6 | z4
+d2 | d3cd2 | _B3cd2 | c3_Bc2 | A3_B
+c2 | _B3AB2 | G3A_B2 | A3GA2 | =F4D2 | z4
+d4 | c2_BAA3G | G4z2
+S:https://www.folktunefinder.com/tunes/68960
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

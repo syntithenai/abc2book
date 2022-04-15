@@ -1,0 +1,23 @@
+X: 2
+P: Schottis fr\aan Enviken
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|: "F"F2 Ac f2 fe | "Bb"ed dB "Gm"G4 \
+|1,3 "C7"E2 ce bg eg | "F"fe fg a2 f2 \
+:|2,4 "C7"c2 eg bg eg | "F"f2 f2 f4 :|[K:=B][K:Am]
+|: "Dm"{f}a2 af d2 df | "Am"e2 ec A2 AB \
+| c2 Ac "E7"B2 A^G |1,3 "Am"A2 E2 C2 A,2 :|2,4 "Am"A2 A2 A4 :|
+S:https://www.folktunefinder.com/tunes/9239
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish11.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key F
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

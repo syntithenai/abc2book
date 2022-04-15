@@ -1,0 +1,31 @@
+X: 1
+T: Ett barn r ftt p denna dag [F]
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F2 F2 "C7"G2 G2 \
+| "F"A2 A2 c3 B \
+| A2 BA "C7"G2 AG \
+| "F"F4 z2 :| F2 \
+| "C"c2 "F"c2 "Dm"d2 "Bb"d2 \
+| "C7"G2 (3GAB "F"A2 AB |
+| "F"c2 c2 "G7"d2 d2 \
+| "C"G4 z2 || "C7"C2 \
+| "F"F2 F2 "C7"G2 G2 \
+| "F"A2 A2 c3 B \
+| A2 BA "C7"G2 AG \
+| "F"F4 z2 |]
+S:https://www.folktunefinder.com/tunes/20359
+S:http://trillian.mit.edu/~jc/music/abc/xmas/BarnArFottPaDennaDag_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/BarnArFottPaDennaDag_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/xmas/BarnArFottPaDennaDag_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

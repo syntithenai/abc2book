@@ -1,0 +1,25 @@
+X:273
+T: Kilkenny Tune
+B: O'Neill's 273
+N: "Lively"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K:G
+(d>c) \
+| B2(A>B) (G>A)(G>E) | D2G2 G2(B>c) | (dB)(ge) (dB)(GB) | (dc)(Bc) A2(d>c) |
+| B2(A>B) (G>A)(G>E) | D2G2 G2(B>c) | d2(g>e) (d>c)(B>A) | G4- G2 :|
+|| de \
+| (=f>e)(f>g) f2(d>e) | (=f>e)(f>g) f2(A>B) | (c>B)(c>d) (c>B)(c>d) | (c>B)(c>d) ((3cde) (d>c) |
+| B2(A>B) (G>A)(G>E) | D2G2 G2(B>c) | d2(g>e) (d>c)(B>A) | G4- G2 :|
+S:https://www.folktunefinder.com/tunes/73432
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

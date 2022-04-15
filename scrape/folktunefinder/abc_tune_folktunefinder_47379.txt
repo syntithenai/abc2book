@@ -1,0 +1,24 @@
+X:16104
+T:Sundrum Castle
+R:strathspey
+C:Muriel A. Johnstone
+M:4/4
+L:1/8
+K:G
+(3DEF "A"|\
+"G"G2b>a "C"g<e e>g | "D7"(3fed (3cBA "G"B<G (3GFG | "D"D2f>e d<A A>d | "A7"(3^cBA (3GFE "D7"(3FED (3CB,A, |
+"G"G,2b<a "C"g<e e>g | "D7" (3fed (3cBA "G"B<G (3GFG | "C"e>G "G"d>G "Am" (3cc'b (3abc' | "G"b<g "D7"a>f "G"g2g ||
+B "B"|\
+"G"d<d B>d e>d B<G | "G7" d<d B>d "C"e>d (3efg | "G" d<d B>d "Em"e>d B<G | "A7" A>B ^c>e A<a a2 |
+"G"d<d B>d e>d B<G | "G7" d<d B>d "C"e>d (3efg | "G" d2 d'>b "C"a>g "A7"(3efg | "D7"dG "G"G2G |]
+S:https://www.folktunefinder.com/tunes/47379
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

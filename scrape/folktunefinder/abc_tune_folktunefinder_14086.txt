@@ -1,0 +1,31 @@
+X: 1
+T: Devlin's Jig
+O: trad
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+Bc \
+| "Bm"d2B BAB | F2B B2c | dcd "E7"Bed | "A"c2A ABc \
+| "D"dcd "A"ede | "Bm"fbb "(D)"afe | "G"dcB "A"AFE | "Bm"FBB B :|
+|: df \
+| "D"a3 f3 | "A"ecA A2A | EAA cAA | "F#m"ece f2e \
+| "Bm"dBB BAB | FBB Bcd | "Em"efg "F#m"fge | "Bm"dBB B :|
+S:https://www.folktunefinder.com/tunes/14086
+S:http://trillian.mit.edu/~jc/music/abc/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/jig/DevlinsJig_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DevlinsJig_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,44 @@
+X: 1
+T: Muista minua
+T: Remember me
+C: Pedro de Punta (Toivo Krki)
+R: tango
+M: C
+L: 1/8
+% %staffsep 40
+K: Am
+AB \
+| "Fmaj7"c3 c (3A2 A2 F2 | "G7"D2 D4 GA \
+| "Cmaj7"(3B2 B2 B2 (3G2 G2 E2 | "Am"C6 z2 \
+| "Dm7"A3 A (3F2 F2 D2 | "E7"B,2 B,4 CD |
+|1 "Am"(3E2 E2 E2 "B7"(3^F2 F2 F2 | "E7"^G6 \
+:|2 "Am"(3E2 E2 E2 "E7"B,2 B,2 C2 | "Am"A,6 z2 \
+|| "G7"G,3 G, (3G2 F2 G2 | "C"F2 E6 |
+|  "G7"G,3 G, (3G2 F2 G2 | "C"(3F2 E2 D2 C4 \
+|  "B7"B,3 B, (3B2 A2 B2 | "E"A2 ^G6 \
+|  "B7"B,3 B, (3B2 A2 B2 | "E"(3A2 ^G2 ^F2 E2 AB |
+| "Fmaj7"c3 c (3A2 A2 F2 | "G7"D2 D4 GA \
+| "Cmaj7"(3B2 B2 B2 (3G2 G2 E2 | "Am"C6 z2 \
+| "Dm7"A3 A (3A2 G2 F2 | "Am"E3 E (3 E2 D2 C2 |
+| "D9"E3 E "E7"(3E2 D2 C2 | "Am"B,2 A,4  EF \
+|| "Am"E^D E4 E2 | e8 \
+| "Dm"de d6- | "E7"d6 EF \
+| E^D E4 E2 | "Dm6"d8 \
+| "AM"cd c6- |
+| c6 A_B \
+| "A7"A^G A4 A2 | "A7-9"g8 \
+| "Dm"fg f6- | "Dm6"f6 y2"Intro"[|]EF \
+| "E7"E^D E4 E2 | e4 "E7-5"^G4 \
+| "Am"A8- | A2 "E7"kE2 "Am".A,2 |]
+S:https://www.folktunefinder.com/tunes/19721
+S:http://trillian.mit.edu/~jc/music/abc/tango/MuistaMinua_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango/MuistaMinua_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/MuistaMinua_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/MuistaMinua_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/MuistaMinua_Am.abc
+% Rhythm Tango
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

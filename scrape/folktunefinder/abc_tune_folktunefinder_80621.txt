@@ -1,0 +1,28 @@
+X:195
+T: Doherty's King of the Pipers
+T: R\'i na bP\'iobair\'i
+S: B.Breathnach: "Ceol Rince na hEireann" II/45
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Dmix
+d|: cAG A2D|DED A2d|cAG A2D|DED GED|
+cAA A2D|DFD AGE|FDF ECE|DED GED :|
+d2e fdg|ecA AFA|d^cd efg|faf gfe|
+d2e fdg|ecA AGE|FDF ECE|DED GED|
+d2e fdg|ecA AFA|d^cd efg|aba gec|
+d2e fga|ecA AGE|FDF ECE|DED GED||
+B2G A2G|BGE Edc|B2G A2E|GED Ddc|
+B2G A2G|BGE E2^c|d^cd A2G|1 FDD Ddc :|2\
+FDD D3||
+S:https://www.folktunefinder.com/tunes/80621
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

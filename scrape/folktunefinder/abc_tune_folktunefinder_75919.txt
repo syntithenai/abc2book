@@ -1,0 +1,27 @@
+X:50
+T: THOU ART GONE FAR AWAY
+T: Ata tu imthigthe fas uainn
+B: O'Neill's 559
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "With feeling"
+N: "Collected by J.O'Neill"
+N: The key should probably be D major.
+K: DMix
+f>e \
+| d>cdB A2FG | A>BAF E2F>E | D>EFG A>BAF | A6 f>e |
+| d>cdB A2FG | Adec d2cB | A2F>A G2E2 | D4 z2 ||
+|| d2 \
+| d>ef>g a3a | b>ag>f e3d | d>ef>a d'>d'c'>b | a6 za |
+| a>ee>f g2f>e | d>BAF A2d>B | A2FA G2E2 | D4 z2 ||
+S:https://www.folktunefinder.com/tunes/75919
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0550-0625_jw.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

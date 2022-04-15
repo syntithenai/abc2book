@@ -1,0 +1,23 @@
+X: 1
+T: Hommage \`a monsieur Lecourt
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 2/4
+L: 1/16
+K: G
+|: DFGA B2GB | A2F2 G2GB | d2g2 dBGA |  BGAB AGEG  |
+|  DFGA BBGB | A2F2 G2GB | d2g2 dBGA |1 BGAF G2EE :|2 BGAF G3B |
+|: d2BG dBGA | BGAG EDD2 | DFGA B2ge |  dBGA BAAB  |
+|  d2BG dBGA | BGAG EDD2 | DFGA B2ge |1 dBAF G2GB :|2 dBAF G4 |]
+S:https://www.folktunefinder.com/tunes/17362
+S:http://trillian.mit.edu/~jc/music/abc/reel/Hommage_a_monsieur_Lecourt_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Hommage_a_monsieur_Lecourt_G4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Hommage_a_monsieur_Lecourt_G4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

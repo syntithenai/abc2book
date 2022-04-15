@@ -1,0 +1,28 @@
+X: 1
+T: Miss Barbara Cunningham
+C: Robert MacKintosh
+R: strathspey
+B: Kerr's Merrie Melodies
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G>g dG "D7"F<D D>B \
+| "G"G>g dc "D7"B/A/G/F/ "G"G2 [GG,] :|
+g/a/ \
+| "G"b<g d<g "C"e<g "G"dA Ag/a/ \
+| "G"b<g d<g "C"e<g "G"df "G"g2 G |
+g/a/ \
+| "G"b<g "D7"a<f "C"g<e "D7"f<d | "C"e<c "G"dB \
+| "G"G>D "Em"B<G "Bm"dF "G"G2 [GG,] |]
+S:https://www.folktunefinder.com/tunes/19540
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissBarbaraCunningham_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissBarbaraCunningham_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

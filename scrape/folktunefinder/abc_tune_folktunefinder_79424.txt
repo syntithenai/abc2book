@@ -1,0 +1,27 @@
+X:320
+T: ES GIENG EINMAL BEI MONDENSCHEIN
+N: E1469
+O: Europa, Mitteleuropa, Deutschland, Hessen, Lahn; Wetterau; Elsass
+R: Staende -, Jaeger - Lied, Tod
+M: 6/8
+L: 1/8
+K: C
+E | E2CC2A | A2GG2
+E | G2FD2G | C3z2
+E | E2CC2A | A2GG2
+E | G2FD2G | C3z2
+E | D2DDE^F | G2BB2
+B | A2Bc2^F | G3z2
+E | E2CC2A | A2GG2
+E | G2FD2G | C3z2
+S:https://www.folktunefinder.com/tunes/79424
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, jaeger - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

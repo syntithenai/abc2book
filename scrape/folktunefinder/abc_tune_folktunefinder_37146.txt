@@ -1,0 +1,27 @@
+X:5335
+T:the Scholar
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000089b.html
+%%ID:0000089b
+K:D
+A|\
+dfaf gfeg | fdAG FGA=c | BGFG EFGg | fdec dcBA|
+dfaf gfeg | fdAG FGA=c| BGFG EFGg\
+|1 fdecd3 :|2 fdec defg |:
+a2af dfaf | dfaf bagf | g2ge =cege| =cege agfg|
+a2af dfaf | dfaf bagf | g2gf gbag \
+|1 fdec defg :|2 fdecd3|]
+S:https://www.folktunefinder.com/tunes/37146
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Tr\`es D\'e\,cu
+C: Britt Goodman
+S: Handout at NOMAD Festival, Nov 2007, New Haven CT
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+B,2 \
+|:"Em"E2E2 "B7"F2F2 | "Em"G2G2 "B7"F2GA | "Em"BAGB "B7"AGFA | "Em"GFE2 "B7"F2B,2 |
+| "Em"E2E2 "B7"F2F2 | "Em"G2G2 "D"F2GA | "Em"BAGB "B7"AGF2 |1 "Em"E6 B,2 :|2 "Em"E4 "D7"D4 ||
+|: "G"GBdB GBdB | "C"Gcec Gcec | "G"d2d2 B2B2 | "D7"ABAG FDEF |
+|  "G"GBdB GBdB | "C"Gcec Gcec | "G"d2B2 "D7"cAFA |1"G"G2B2 G2D2 :|2 "G"G2B2 "B7"G2F2 |]
+S:https://www.folktunefinder.com/tunes/18241
+S:http://trillian.mit.edu/~jc/music/abc/reel/TresDecu_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TresDecu_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/TresDecu_Em.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

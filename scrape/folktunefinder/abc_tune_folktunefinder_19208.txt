@@ -1,0 +1,37 @@
+X: 1
+T: Bog on Lochan
+R: strathspey
+S: handwritten MS from Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+F2 \
+"A"\
+|: "Em"EEE2 E4 E3F B3F | "Em"EEE2 E4 "D"FD3 A3F \
+|  "Em"EEE2 E4 E3F B3A |1 "D"Bd3 AB3 FD3 A3F \
+                      :|2 "D"Bd3 Ad3 F3D Dd3 ||
+"B"
+|: "Em"BE3 B3A G3E Ee3 | "Em"BE3 B3A "D"F3D Dd3 \
+|  "Em"BE3 B3A "D"d3e f3e |1 "D"dcBA d3A F3D Dd3 \
+                         :|2 "D"dcBA d3A F3D Df3 ||
+"C"
+[| "Em"eee2 e4 e3f b3f | "Em"eee2 e4 "D"f3d a3f \
+|  "Em"eee2 e4 e3f b3f | "Em"g2e2 b2e2 "D"d2fg a2f2 ||
+|| "Em"g2e2 b2e2 g2e2 b2e2 | "Em"g2e2 b2e2 "D"d2fg a3f \
+|  "Em"g2e2 b2B2 "D"d3e f3e | "D"dcBA d3A F3D Dd3 |]
+"D"
+|: "Em"BE3 B3A G3E Ee3 | "Em"BE3 B3A "D"F3D Dd3 \
+|  "Em"BE3 B3A "D"d3e f3e |1 "D"dcBA d3A F3D Dd3 \
+                         :|2 "D"dcBA BcdA FD3 A2 |]
+S:https://www.folktunefinder.com/tunes/19208
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BogOnLochan_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BogOnLochan_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

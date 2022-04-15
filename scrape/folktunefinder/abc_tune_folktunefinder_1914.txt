@@ -1,0 +1,30 @@
+X: 92
+T: Monferrina
+C: J-35
+C: Italian
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+e| "A"aga eAc| e3 "D"f2e| "E"dcB c2e| "A"cec A2e|
+   "A"aga eAc| e3 "D"f2e| "E"gfe dcB| "A"A3- A2:|
+|:\
+a| "E"gfe efg| "A"f2e efg| "E"fed dcB| "A"c3- c2a|
+   "E"gfe efg| "A"f2e efg| "E"fed dcB|1 "A"A3- A2:|2 "A"A2e ef|]
+|:\
+e| "A"c2e efe| "E"d2e efe| gfe gfe| "A"f2e efe|
+   "A"c2e efe| "E"d2e efe| gfe dcB|1 "A"A2e ef:|2 "A"A3- A2|]
+%%text 9/1/98.  Traditional Italian 48-bar jig.  From Jake Walton.
+S:https://www.folktunefinder.com/tunes/1914
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

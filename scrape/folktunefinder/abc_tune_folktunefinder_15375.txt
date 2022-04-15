@@ -1,0 +1,40 @@
+X: 1
+T: Campbell's Farewell to Redcastle
+T: AABAACC
+R: march
+M: 2/4
+L: 1/8
+N: C part not always used.
+N: Scots Guard
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: AMix
+%P: A
+e "A"\
+|: "A"A>B cd | ea e>d | cA AB/c/ |"G"dd/B/ G>B \
+|  "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A4 :|
+%P: B
+g/f/ "B"\
+|| "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ Gg/f/ \
+|  "A"ea ag/f/ | ea e>d | "G"cB/A/ GB | "A"A3 g/f/ |
+|  "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ G>B \
+|  "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A4 ||
+%P: C
+g/f/ "C"\
+|: "A"ee ef | g2 fe | "G"dB GB | dB dg/f/ \
+|  "A"ee ef | g2 fe | "G"dB gB | "A"BA A2 :|
+S:https://www.folktunefinder.com/tunes/15375
+S:http://trillian.mit.edu/~jc/music/abc/march/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/CampbellsFarewellToRedcastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/CampbellsFarewellToRedcastle.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

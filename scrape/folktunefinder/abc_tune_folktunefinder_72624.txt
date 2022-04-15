@@ -1,0 +1,27 @@
+X:167
+T: Der Duwakwak, der Duwackelwak, der Duwak ist mein Leben,
+N: D0292
+O: Europa, Mitteleuropa, Deutschland, Wuerttemberg, Stuttgart
+N: letzte Pause rhythmisch korrigiert
+R: Trink - Lied, Zech - Lied
+M: 2/4
+L: 1/16
+K: G
+ |  |  |  | d4 | B2B2B2B2 | B2BBB2B2 | B2B2e2B2 | d4c2
+c2 | A2A2A2D2 | A2A2A2A2 | d2d2d2F2 | G4z4
+D2D2G2A2 | B3AG2G2z2B2e2e2 | d2c2F4z2
+D2F2A2 | d2d2d2d2z2c2B2A2 | B3AG4 | z2
+D2G2A2 | B3AG6e2e2B2 | d2c2F6
+D2F2A2 | d2d2d6d2c2F2 | G8z2
+D2G2A2 | B3AG6e2e2B2 | d2c2F6
+D2F2A2 | d2d2d6d2c2F2 | G8z4
+S:https://www.folktunefinder.com/tunes/72624
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Trink - lied, zech - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

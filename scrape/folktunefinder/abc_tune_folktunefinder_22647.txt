@@ -1,0 +1,26 @@
+X:2196
+T:George Green's College Hornpipe
+O:england
+M:4/4
+L:1/8
+Q:1/4=114
+C:Trad
+R:hornpipe
+K:F             %transposed from G
+"C"(3CDE|:"F" F>AG>F E2 (3CDE|"F"F>AG>F E2c2|"Bb"B>AG>F E>CD>E|"C"G>FE>D C2 (3CDE|
+"F"F>AG>F E2 (3CDE|"F"F>AG>F E2c2|"Bb"B>AG>F E>CD>E|1"F" F2 A2 F2 (3CDE \
+:"F"|2 F2A2 F2 F>G|
+|:"F" A2c2 A2c2|"Bb"d>cB>A B4|"Bb"B>AG>F E>CD>E|"C"G>FE>D C2 (3CDE|
+"F"F>AG>F E2 (3CDE |"F"F>AG>F E2c2|"Bb"B>AG>F E>CD>E|1"F" F2A2 F2 FG :|2"F" F2 A2 F4||
+S:https://www.folktunefinder.com/tunes/22647
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

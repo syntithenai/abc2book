@@ -1,0 +1,26 @@
+X:494
+%%topmargin 3cm
+T:Stirlingshire Militia
+C:Hugh McKay
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:March
+M:2/4
+L:1/16
+K:A
+"Rather Slow."e2 | AAeA c2BA | ABca e2cA | AAaf efeA | c2B>B B2e2 | AAeA c2BA | ABca e2BA | AAaf efBe | c2A>A A2 ::
+g2 | aefa f2ec | e2ae f2ec | e3f efeA | c2B2 BBg2 | aefa f2ec | e2ae f2ec | feaf efBe | c2A2 AA ::
+e2 | AAAc eAcA | eAcA c2BA | AAaf efeA | c3B BBe2 | AAAc eAcA | e2ae c2BA | feaf efBe | c2A2 AA::
+f2g2 | aece Aefe | aece f2ec | aece Aece | f2B2 B2(fg) | aece Aefe | aece f2ec | feaf efce | c2A2 AA :|
+S:https://www.folktunefinder.com/tunes/71523
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Stirlingshire_Militia.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0494.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

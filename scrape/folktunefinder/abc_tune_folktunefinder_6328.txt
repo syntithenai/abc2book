@@ -1,0 +1,19 @@
+X: 23
+T: Julia Clifford's
+C:Trad.
+R:polka
+L:1/8
+K:A
+c4 c3B|G2F2 F2E2|F2B2 B2cB|[1 A2F2 F2E2:|[2 A4 A2B2||
+c2B2 B2A2|c2B2 B2A2|B4 B2cB|[1 A2F2 F2E2:|[2 A4 A2B2||
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6328
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:234
+T: ES IST BALD ZEIT ZUM SCHLAFEN
+N: E0816E
+O: Europa, Mitteleuropa, Deutschland, Hessen, Lahntal; Limburg;
+R: Kilt - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2d2d2dB | A2BAG3
+A | B3cd2d2 | e2dcB2
+dB | A2d2B2d2 | cde2d2
+d2 | e2dcB2d2 | B2BAG2
+S:https://www.folktunefinder.com/tunes/76719
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

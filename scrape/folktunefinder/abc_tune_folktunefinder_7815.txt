@@ -1,0 +1,42 @@
+X: 1
+T: Russian Sher
+O: from Barry Shapiro
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: Em
+P: A
+|: B,4 \
+| "Em"E2GG GGGG | AGAB G4 | GFEF GAGF | E2E2 G2E2 | "Em"E2GG GGGG | AGAB G4 | GFEF GAGF | E4 :|
+P: B
+|| "G"B4 A2B2 | "D7"c2c2 "G"B4 | "D7"A4 E2F2 | "G"G6 c2 | Bcd2- d2d2 | e3d dccB | B3A Bcdc | B6 B2 |
+| "Em"BAAG GFFE | E2F2 G2A2 | BAAG GFFE | E2e2 B3B | BAAG GFFE | E2F2 G2A2 | BAAG GFFE | E6 G2 |
+| FGA4 A2 | A_BAB A3A | "G"GFEF GAGF | G4 G4 | "D7"F2GA _B=cde | =fed=c _BAG=F | "G"GDDG "Dm"G=FFE | "Em"E8 ||
+|| "G"B6 AG | ABG2 D2G2 | dccB BAAG | ABG2 D2G2 | dccB BAAG | dccB BAAG | dccB BAAG | ABG4 G2 |
+| "D"FGA4 A2 | A_BAB A3A | "G"GFEF GAGF | G4 G4 | "D7"F2GA _B=cde | =fed=c _BAG=F | "G"GDDG "Dm"G=FFE | "Em"E8 ||
+P: C
+|: "Em"e2e2 e4 | g2g2 g4 | "B"f2e2 ^d2e2 | f6 B2 | f2f2 f4 | a2a2 a4 | "Em"g2f2e2g2 | b8 |
+| "Am"z2c'b a2b2 | c'2b2 a4 | "Em"z2e2 f2g2 | bag2 gfe2 | g2 g4 g2 | "B7"gfe2 ^defd | "Em"e8- | e4z4 :|
+P: D
+|: "G"~d2=cd edcd | g2d2 B2G2 | "D7"A3B cBA2 | "G"B2d6 | "G"~d2=cd edcd | g2d2 B2G2 | "D7"A3B cBA2 |1 "G"G4 :|2 "G".G2 ||
+P: E
+|: B,2E2F2 | "Em"G3F E4- | E2 A2G2A2 | G3F E4- | E2 B2c2B2 | "B7"A3GF4- | F2 F2G2A2 | "Em"GFE2 B4 | BAG2 GFE2 |
+| "Am"c3BA4- | A2 F2G2A2 | "Em"B3AG4- | G2 B,2E2F2 | G2G4G2 | "B7"GFE2 ^DEFD | "Em"E8- |1 E2 :|2 E4 ||
+P: F
+K:Am
+|: "E".E4 ^G4 | GFEF ^G4 | .E4 B4 | BA^GA B4 | "Dm"z2 D2E2F2 | E2D4 BA | ^GABA AGGF | "E"F2E6 :|
+P: G
+|| "Am"c6 BA | "E"B6 A^G | "Am"A^GAB cBAG | Addc cBBA | c6 BA | "E"B6 A^G | "Am"A^GAB cBAG | A2 A6 ||
+P: H
+|: "E"d3c Bcd2- | dcBc dcBA | B3A ^GAB2- | BA^GA BAGF | ^G3F EFG2- | ^GFEF GFED | "Dm"DEF^G BAGF | "E"E8 :|
+S:https://www.folktunefinder.com/tunes/7815
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Sher1_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

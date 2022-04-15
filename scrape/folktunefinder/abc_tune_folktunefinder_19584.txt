@@ -1,0 +1,27 @@
+X: 1
+T: Mrs Blair of Blair
+C: R.Mackintosh
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+E \
+| "A"A4   E3A "D"FA3 A3c | "E7"d3B e3d "A"ce3 a4 \
+| "A"cBA2 E2A "D"F3A d3f | "E7"e3c d3B "A"cA3 A3 :|
+B  \
+|  "A"cA3  e3c      a3e d3c | "E7"BG3      d3B     e3d c3B \
+|"F#7"AF3  c3A  "Bm"d3c B3A | "B7"BF3      B3A "E7"G4 F2E2 |
+|  "A"cde2 A3c "F#m"f3e d3c | "Bm"Bcd2     G3B "E7"e3d c3B \
+|"F#m"ABc2 F3a   "D"g3f e3d |  "A"cde2 "E7"E3G  "A"A3 |]
+S:https://www.folktunefinder.com/tunes/19584
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsBlairOfBlair_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsBlairOfBlair_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

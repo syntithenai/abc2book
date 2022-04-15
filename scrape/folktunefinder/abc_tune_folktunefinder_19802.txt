@@ -1,0 +1,32 @@
+X: 1
+T: Bergerette: Sans roch
+C: T.Susato
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: D
+A2 "A"\
+| "D"d3 c de | f2 d2 "G"d2  | "D"de fd "A"ef | "A7"g2 e4 \
+| "Em"g2 eg "A7"fe | "D"f3 e fd | "G"gf ed cB | "A7"c4 c2 ||
+||"D"d3 c de | f2 d2 "G"d2  | "D"de fd "A"ef | "A7"g2 e4 \
+| "D"f3 e dc | d2 "C"e2- "D"ed | "G"d2- "A7"d2 c2 | "D"d4 z2 |]
+"B"\
+[|"D"d3 e fg | a3 g fe | "G"g2- "D"g2 f2 | "G"g4 z2 \
+| "G"g3 f ed | "C"e2 "A"f2- "Em"fe | "C"e2- "B"e2 ^d2 | "Em"e4 z2 ||
+||"D"d3 e fg | a3 g fe | "G"g2- "D"g2 f2 | "G"g4 z2 \
+| "D"f3 e dc | d2 "G"e2- "Bm"ed | d2- "A7"d2 c2 | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/19802
+S:http://trillian.mit.edu/~jc/music/abc/waltz/BergeretteSansRoch_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/BergeretteSansRoch_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

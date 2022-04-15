@@ -1,0 +1,53 @@
+X:351
+T:El que llora por amores (CT 115)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 115
+M:3/4
+L:1/8
+Q:1/4=72
+K:G
+|BB/c/ d2 e>f|(e3/2f/4e/4) d4|
+BB/c/ d2 e>f|[M:2/4](e3/2f/4e/4) d2|[M:3/4]ee/d/ c2 d>e|(d3/2(3e/4d/4c/4) B4|
+BB/c/ d2 e>f|(e3/2f/4e/4) d4|
+BB/c/ d2 e>f|[M:2/4](e3/2f/4e/4) dc/B/|[M:3/4]A3 B{d}cB|(A3/2B/4A/4) G4-|G2 z2 cB|A6|
+AB cd ee|(d3/2(3e/4d/4c/4) B2 cB|A6|
+BB/c/ d2 e>f|[M:2/4](e3/2f/4e/4)dc/B/|[M:3/4]A3 B{d}cB|(A3/2B/4A/4) G4-|G2 ||
+W:El que llora por amores
+W:nun se puede consolar
+W:que el amor ye cosa triste
+W:que nun se puede olvidar.
+W:
+W:Ai, amor
+W:cundo volver el mi amante!
+W:Qu dolor!
+W:Cundo volver el mi amante
+W:que la guerra me llev!
+W:
+W:Cuando volver el mi amante,
+W:cundo volver el mi amor!
+W:Ai de mi, que ya nun puedo
+W:vivir ensin corazn!
+W:
+W:Ai! galn:
+W:desque marchaste nun paro de llorar,
+W:que el amor ye cosa triste
+W:que nun se puede olvidar.
+W:
+S:https://www.folktunefinder.com/tunes/59238
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

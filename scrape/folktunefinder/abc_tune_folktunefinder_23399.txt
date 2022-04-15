@@ -1,0 +1,34 @@
+X:2948
+T:Jamaica Farewell
+O:england
+M:4/4
+T:Island Mary
+C:
+S:West Coast Teams
+N:a substitute for Highland Mary
+H:This substitution originated during the Marlboro Ale (probably 1980)
+H:on tour with Newtowne and Bouwerie Boys in Wyndham County.
+A:Bampton
+R:Caribbean
+%P:A(AB)$^4$
+P:A(AB)4
+K:G
+I:speed 400
+P:A
+ddd | G2 G B2 BBB | A2 A c2 ccc | F2 F A2 AAA | G2 G B2 \
+ddd | G2 G B2 BBB | A2 A c2 ccc | B2 BB A2 AA | G2 G G2 ||\
+P:B
+z3  | d2 d d2 ddd | e2 f g2 gfe | d2 dd c2 cc | B2 c d2 \
+GBd | d2 d d2 ddd | e2 f g2 gfe | d2 dd c2 cc | B2 A G2 ||
+S:https://www.folktunefinder.com/tunes/23399
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Caribbean
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

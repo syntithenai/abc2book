@@ -1,0 +1,29 @@
+X:652
+T: WIR SITZEN SO FROEHLICH
+N: E0602
+O: Europa, Mitteleuropa, Deutschland, Neustadt - Eberswalde, Coethen
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+G2 | G2D2B2 | B2G2
+d2 | d2edcB | B2A2
+G2 | G2D2B2 | B2G2
+d2 | d2edcB | B2A2
+dd | c2A2DD | G2B2
+dd | c2A2DD | G2B2
+GG | e2e2e2 | d3c
+Bd | d2c2Ac | c2B2
+GG | e2e2e2 | d3c
+Bd | d2c2Ac | A2G2
+S:https://www.folktunefinder.com/tunes/79093
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

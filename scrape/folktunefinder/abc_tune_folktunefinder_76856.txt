@@ -1,0 +1,38 @@
+X:371
+T: DA DROBEN AUF DEM BERGE
+N: E0999
+O: Europa, Mitteleuropa, Deutschland, Sueddeutschland 
+R: Tanz - Lied, Reigen
+M: 3/4
+L: 1/8
+K: G
+D2 | D2G2GG | F2F2
+FF | F2D2F2 | G2z2
+G2 | GGB2BB | ddc2
+c2 | c2D2F2 | G2z2
+D2 | B4AG | G2F2
+D2 | c4BA | A2G2
+D2 | B4AG | G2F2
+D2 | c4BA | A2G2
+G2 | G2B2B2 | d2c2c2
+c2D2F2 | G4
+G2 | G2B2B2 | d2c2c2
+c2D2F2 | G4
+D2 | D2G2G2 | F4
+F2 | F2D2F2 | G4
+D2 | D2G2G2 | F4
+c2 | c2D2F2 | G4
+D2 | D2G2G2 | F4
+F2 | F2D2F2 | G4
+D2 | D2G2G2 | F4
+c2 | c2D2F2 | G4
+S:https://www.folktunefinder.com/tunes/76856
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:880
+T:This is not my Ain House
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000178.html
+%%ID:00000178
+K:D
+A|\
+FA2a| (f/g/a) ed| (B/c/d) AF| BEEG|\
+FA2a| f/g/a "tr"ed| (B/c/d)AF| ADD::\
+A|\
+FA2d| (B/c/d) AF|
+GBAF|1 BEEG| FA2d| (B/c/d) AF| GBAF| ADD:|2\
+BEEg| afge| fdec| dB AF| ADD|]
+S:https://www.folktunefinder.com/tunes/30485
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

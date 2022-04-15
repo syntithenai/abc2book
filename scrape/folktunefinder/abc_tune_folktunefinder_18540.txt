@@ -1,0 +1,25 @@
+X:6
+T:Nantwich Fair
+R:slip jig
+C:traditional
+B:A Northern Lass
+S: "NeroTed" <neil:brookes36.freeserve.co.uk> tradtunes 2001-04-28
+M:9/8
+L:1/8
+K:Gmin
+|B2G^F2A D2c|B2G G2B AcA|B2G ^F2A  D3|D2F F2B AcA :|
+|BAB cBc d3|_e2c c2F AcA|BAB cBc d3|c2F F2B AcA :|
+S:https://www.folktunefinder.com/tunes/18540
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/NantwichFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/NantwichFair.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/NantwichFair_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Fiddler Play the Light Strathspey
+O: 
+R: strathspey
+D: Nanch Dickson recording
+Z: Barbara McOwen 10/81
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bdor
+F \
+| "Bm"Be f>e f<g | "A"a2 e>c A>B c/B/A \
+| "Bm"Be f>e f<g | "A"a2 e>c "Bm"~B2-B :|
+z \
+| "Bm"d2 B2 d>d B2 | "Bm"d2 c>B "A"A>B c<A \
+| "Bm"d2 B2 d>d B2 | "F#7"f2 e>c "Bm"~B2-B ||
+z \
+| "Bm"d2 B2 d>d B2 | "Bm"d>c B>A "A"B>A F>A \
+| "G"B>c d>e "D"f>e f<g | "A"a2 e>c "Bm"~B2-B |]
+S:https://www.folktunefinder.com/tunes/19343
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/FiddlerPlayTheLightS_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/FiddlerPlayTheLightS_Bm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

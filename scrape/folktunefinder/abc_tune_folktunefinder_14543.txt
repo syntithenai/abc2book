@@ -1,0 +1,27 @@
+X: 1
+T: Lime Street
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C|
+L: 1/8
+K: A
+(3EFG \
+| "A"A2A2 Acec | "E7"B2B2 Bdfd | "A"ceag "F#m"fedc | "D"BAGF "E7"EdcB | "A"A2A2 Acec |
+| "E7"B2B2 Bdfd | "A"cecA "E7"BdBG | "A"A2A2 A2 |]| ce | "A"a2ag "B7"ac'ba | "E"g2e2 "E7"e3f |
+| "A7"=gfga gbag | "D"f2d2 "E7"d2ed | "A"cAce a2ga | "D"bgec "D7"d2ed | "F#m"cecA "E7"BdBG | "A"A2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/14543
+S:http://trillian.mit.edu/~jc/music/abc/jig/LimeStreet_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/LimeStreet_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LimeStreet_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LimeStreet_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LimeStreet_A16.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

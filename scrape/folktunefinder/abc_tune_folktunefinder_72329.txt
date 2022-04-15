@@ -1,0 +1,42 @@
+X: 80
+T:Farther Be In The Welcomer,The. HA.079
+M:C
+L:1/8
+Q:200
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:Although grammatically challenging, the tune is strong, and clearly not
+N:in need of any interference from an editorial angle.cf John Young,
+N:Scotch Tunes, 1720.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:G
+"As Writ..No Key Sig in MS"\
+(DE/F/) D4A2|BAFA c2C2-C2|(D/E/F/) D4A2|BAFA (GF) (ED) d2|!
+(cB) ABcdefde c2C2-C2|(FE) DEFGABGA "#"F2 D2-D2:|!
+|:Bcd2D2A2D2 c2C2-C2|Bcd2D2A2D2|d2D2A2D2|!
+d2D2A2D2c2C2-C2|(FE) DEFGABGA "#"F2 D2-D2:|!
+|:(FE)D2a2 fgaf|eg cg ec ge|defdefge|!
+agfe defd ABcdefde c2(C2C2)|(FE) DEFGABGA "#"F2D2-D2:||!
+zzzz|zzzz|zzzz||!
+"Version edited by CGP"\
+(DE/F/)| D3A BAFA| c2C2-C2 (DE/F/) |D3A BAFA| (GF)(ED) d2(cB)|!
+ ABcd efde| c2C2-C2 (FE)| DEFG ABGA| F2D2-D2:|!
+|:Bc|d2D2A2D2| c2C2-C2 Bc|d2D2A2D2|d2D2A2D2|!
+d2D2A2D2|c2C2-C2 (FE)| DEFG ABGA| F2D2-D2:|!
+|:(FE)|D2a2fgaf|egcg ecge|defd efge|agfe defd |!
+ABcd efde| c2C2-C2 (FE)| DEFG ABGA |F2D2-D2:|]
+S:https://www.folktunefinder.com/tunes/72329
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

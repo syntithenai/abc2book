@@ -1,0 +1,29 @@
+X: 1
+T: the Ragamuffin Jig
+C: Barbara McOwen (Sept 1992)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+G \
+| "D"F2G "D7"AGF | "G"GDD     B2d | "A7"c2d     edc | "D"dAA     f2f \
+| "G"g3      efg | "D"f3      def | "E7"efd     ecd |"A7"BcA     BGA |
+| "D"F2G "D7"AGF | "G"GDD     B2d | "A7"c2d     edc | "D"dAA "D7"f2f \
+| "G"g2a     bag | "D"f2g "Bm"agf | "Em"gfe "A7"gfe | "D"d3      d2 |]
+e \
+| "D"fAA "A7"eAA  | "D"d3  "D7"=c3 | "G"BDD "D7"ADD | "G"G3 "G7"=F3  \
+| "C"E3  "Am"G^FE | "D"F3  "Bm"AGF |"Em"GBA    ^cBd |"A7"^ced    feg |
+| "D"fAA "A7"eAA  | "D"d3  "D7"=c3 | "G"BDD "D7"ADD | "G"G3 "G7"=F3  \
+| "C"E2g "Am"gfe  | "D"F2a "Bm"agf |"Em"gfe "A7"gfe | "D"d3      d2 |]
+S:https://www.folktunefinder.com/tunes/14953
+S:http://trillian.mit.edu/~jc/music/abc/jig/RagamuffinJig_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/RagamuffinJig_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

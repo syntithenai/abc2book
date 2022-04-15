@@ -1,0 +1,27 @@
+X:3765
+T: Long Live London
+O:england
+C: Pat Shaw 1971
+M: C|
+L: 1/4
+K: A
+e \
+| "A"a>ece | "D"fa2f | "A"e>c Ac | "E7"B3e \
+| "A"a>ece | "D"fa2f | "A"ec "E7"B>c | "A"A3 :|
+A \
+| "D"F>EFA | "A"E>CEA | "E7"B>ABc | "A"A3c \
+| "E7"B>GBe | "A"c>Ace | "B7"^defg | agf^d |
+| "E7"e>fed | "A"ceAB/c/ | "Bm"d>cBA | "E7"GBEf/g/ \
+| "A"a>ece | "Bm"f>dBd | "E7"ce2d/B/ | "A"A3 |]
+S:https://www.folktunefinder.com/tunes/24216
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

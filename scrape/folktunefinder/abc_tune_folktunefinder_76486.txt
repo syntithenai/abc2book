@@ -1,0 +1,26 @@
+X:1
+T: ACH GOTT ES DRUCKT DAS HERZ MIR AB
+N: E0615
+O: Europa, Mitteleuropa, Deutschland, Schwarzwald
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: G
+D2 | B3BB6A2 | A3GG4z2
+G2 | G2G2e6d2 | d2^c2=c4z2
+D2 | c3cc6B2 | A3AA4z2
+G2 | d3dc6A2 | G3BA4z4
+d3dd6c2 | B3BB6A2
+G3Ge6d2 | d3^c=c8
+c3cc6B2 | A3AA6G2
+F3Ad2d2c2A2 | G8z2
+S:https://www.folktunefinder.com/tunes/76486
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:256
+T: Tanzlied im Mai
+N: A0301
+O: Europa, Mitteleuropa, Deutschland
+N: Ott 1534 No. 96.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G4d2e2 | =f4e2
+d2 | g2d2d2c_B | A4G2
+G2 | G4d2e2 | =f4e2
+d2 | g2d2d2c_B | A4G2
+G2 | A2_B2c2c2 | _B2A2G2
+G2 | A2_B2c2c2 | _B2A2G4
+B4c2c2 | d4z2
+d2 | =f2f2e2e2 | d2d2A4
+=f2f2e2e2 | d2d2A4
+=f2ffe2ee | d2d2A2
+A2 | G2A2_B2c2 | d4d2
+d2 | c2c2A2A2 | G2G2A2A2 | G2G2A2A2 | G6
+S:https://www.folktunefinder.com/tunes/68802
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:107
+T: Minnelied
+N: A0127
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Liederbuch (Arnolds Ausgabe, Leipzig 1867 No. 39.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | F2F2A2A2 | d2d2c2
+c2 | A2G2F2
+F2 | F2F2A2A2 | d2d2c2
+c2 | A2G2F4
+E4F3F | A2A2G2
+G2 | D4C4
+A2G2A2B2 | c2d2c2
+B2 | A2F2E2F2 | A4G4 | F6
+S:https://www.folktunefinder.com/tunes/68653
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

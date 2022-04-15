@@ -1,0 +1,31 @@
+X:1
+T:Salute on the Birth of Rory Mor MacLeod
+S:Kilberry Book of Ceol Mor #35
+Z:Jack Campin <jc@purr.demon.co.uk> abcusers 2000-10-18
+M:C
+L:1/8
+Q:1/4=80
+K:Hp
+P:Ground
+{ge4d}B>{G}HB   {G}B2       c3 B|{g}f>{e}f {e}Hf2   {g}f4 |\
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4 |
+   {g}B>f       {g}e>B {GBG}c3 B|{g}f>{e}f {e}Hf2   {g}f4 |\
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4||
+   {g}fa     {eAfA}e2       f3 c|{g}e2   {fege}f2  {ag}a4 |\
+      f>e          a>e      f3 c|{g}e<{A}He {A}e2  {g}He4||
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4 |\
+   {g}fa     {eAfA}e2       f3 c|{g}e>f     {g}e>f {ag}a4|]
+S:https://www.folktunefinder.com/tunes/2517
+S:http://trillian.mit.edu/~jc/music/abc/test/SaluteOnTheBirthOfRoryMorMacleod.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/SaluteOnTheBirthOfRoryMorMacleod.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/SaluteOnTheBirthOfRoryMorMacleod_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/SaluteOnTheBirthOfRoryMorMacleod.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/SaluteOnTheBirthOfRoryMorMacleod.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/SaluteOnTheBirthOfRoryMorMacleod.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

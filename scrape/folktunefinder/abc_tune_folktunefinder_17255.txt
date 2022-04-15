@@ -1,0 +1,39 @@
+X: 1
+T: Glass Island Reel
+T: Native American Peninsula
+C: Ethan Hazzard-Watkins 1997
+S: handwritten MS (corrected to match online PDF version)
+F: http://www.ethanhw.com/tunes.html
+F: http://www.originaltraditional.net/tunes/39/Glass%20Island%20Reel.pdf
+N: Where did the alternate title come from
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+|: "Em"EFGA     BAGF  |     EFGA     B3B    \
+|   "C"cGEc     GEcG  |  "D"AFDA     FDAF   | "Em"BGEB GEBG |
+|      BG~G2 "D"AF~F2 |  "G"BAGB  "D"AFDF   \
+|1 "Em"EFGF     E4   :|2"Em"EFGF     EFGA   \
+|: "Em"Be~e2    Bege  | "Am"ce~e2 "C"cege   |
+|  "Bm"df~f2 "D"dfaf  | "Em"gaba "(Bm)"gfed \
+|  "Em"Be~e2    Bege  | "Am"ce~e2 "C"cege   \
+|  "Bm"df~f2 "D"dfab  |  "D"agfg  "Em"e4   :|
+S:https://www.folktunefinder.com/tunes/17255
+S:http://www.originaltraditional.net/tunes/39/Glass
+S:http://www.ethanhw.com/tunes.html
+S:http://www.originaltraditional.net/tunes/39/Glass
+S:http://www.ethanhw.com/tunes.html
+S:http://trillian.mit.edu/~jc/music/abc/reel/Glass_Island_Reel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Glass_Island_Reel_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Glass_Island_Reel_Em.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

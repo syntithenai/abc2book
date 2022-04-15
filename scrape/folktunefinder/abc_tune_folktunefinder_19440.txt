@@ -1,0 +1,29 @@
+X: 1
+T: Lady Charlotte Campbell
+C: Robert Mackintosh
+B: Glen Collection
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: Bb
+|: F/E/ \
+| "Bb"D<F F>B "Eb"E<G Gc/B/ | "F7"A<c f>e "Bb"d<b B<f \
+| "Bb"D<F F>B "Eb"E<G Gc/B/ | "F7"A/B/c F>e "Bb"d<B B :|
+a \
+| "Bb"b>B "F7"A<a "Eb"g>G "Bb"F>f | "Cm"e>c e/d/c/B/ "F7"A<c c>a \
+| "Bb"b>B a>B "Eb"g>B f>B | "F7"A/B/c F>e "Bb"d<B B |]
+a \
+| "Bb"b>B "F"A<a "Eb"g>G "Bb"F>f | "Cm"e>c e/d/c/B/ "F7"A<c cB/A/ \
+| "Eb"G>B "Bb"F>B "Eb"EB | "Cm"E/F/G "F7"F>E "Bb"D<B, B, |]
+S:https://www.folktunefinder.com/tunes/19440
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyCharlotteCampbellS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Robert_Mackintosh/LadyCharlotteCampbellS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyCharlotteCampbellS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

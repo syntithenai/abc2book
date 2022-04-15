@@ -1,0 +1,27 @@
+X:1340
+T:Crooked Road to Dublin
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:10
+I:speed 350
+M:C|
+K:G
+F2|~G2~G2 FGAF|~G2 FG AdcA|GBAG FGAg|fdcA ~d2 cA|\
+~G2 ~G2 FGAF|~G2 FG AdcA|GBAG FGAg|fdcA ~d2cA||\
+dg~g2 fgag|dg~g2 agfe|dg~g2 fgag|fdcA ~d2cA|\
+dg ~g2fgaf|dg ~g2 ~a2ga|bgaf gbag|fdcA ~d2cA||
+S:https://www.folktunefinder.com/tunes/21789
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

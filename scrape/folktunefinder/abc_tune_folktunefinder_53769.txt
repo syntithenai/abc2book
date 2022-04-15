@@ -1,0 +1,26 @@
+X:112
+T:Tumbledown
+C:James O'Grady
+S:Planxty O'Rourke
+M:6/8
+R:jig
+Z:robin.beech@mcgill.ca
+L:1/8
+K:G
+D |: EEE EFG | FED G3 | ABc BAG | AGF GFD |
+EB,E EFG | FED dAF | GFE DEF | EFE E2 D ::
+E3 dEc | EBE A2F | GAB AGF | GFE FED |
+E3 dEc | EBE A2 F | GFE DEF | EFE E2 D :|
+EFE E[B,2-E2-] | [B,E] [C2-E2-][CE]FG | FED |
+S:https://www.folktunefinder.com/tunes/53769
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+S:http://music.gordfisch.net/tradmusic/pub/cache/Tumbledown_ebce49.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

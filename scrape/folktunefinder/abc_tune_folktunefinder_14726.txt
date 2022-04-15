@@ -1,0 +1,25 @@
+X: 1
+T: the Mulberry Garden
+T: the Maid in the Mill
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+O: Playford 1670
+B: Barlow #204 p.54 (with repeat in B part)
+B: Barnes p.83 (without repeat in B part)
+M: 6/8
+L: 1/8
+K: Dm
+|: A \
+| "Dm"d2e "F"fcA | "Gm"GAF "C"c2A | "Dm"d2e fd2 | "A7"a3- a2A \
+| "Dm"d2e "F"fcA | "Gm"GAF "C"c2A | "Bb"d2e fd2 | "F"a3- a2 ||
+|: a \
+| "Gm"bag "A7"a2e | "Dm"fd2 "Gm"g2f | efg "Dm"fed | "A"^c3- c2B \
+| A2G F2E | "Dm"Dd2 ^c2d | "Gm"eAg "A7"e2d | "Dm"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/14726
+S:http://trillian.mit.edu/~jc/music/abc/jig/MulberryGarden.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MulberryGarden.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

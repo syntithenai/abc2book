@@ -1,0 +1,24 @@
+X:1655
+T:Whitby Workshop
+% Nottingham Music Database
+S:Gordon Tyrall via Jacquie \& Ellen
+M:6/8
+K:Am
+"Am"ABA e2d|e^fg e2d|"G"B2G GBG|"G"dBG "E7"B2e|
+"Am"ABA e2d|e^fg e2d|e2d g2"G"G|"Am"BAA A3||
+"Am"aba g2e|edg e2d|"G"B2G GBG|"G"dBG B2d|
+gag e2d|"G"dBg "E7"e2d|e2d g2"G"G|"Am"BAA A3||
+"Am"AAA eAe|"Am"AgA eAd|"G"B2G GBG|"G"dBG G2e|
+"Am"AAA eAe|"Am"AgA eAd|e2d g2"G"G|"Am"BAA A3||
+"Am"a2a "Em"egg|"D"^fdd e2f|"G"g2g egg|"Am"e2A "G"BGG|
+"Am"AAA eAe|"Am"AgA eAd|e2d g2"G"G|"Am"BAA A3||
+S:https://www.folktunefinder.com/tunes/65079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

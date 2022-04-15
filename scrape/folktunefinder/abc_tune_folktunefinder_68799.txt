@@ -1,0 +1,25 @@
+X:253
+T: Der Schaefer von der neuen Stadt
+N: A0298
+O: Europa, Mitteleuropa, Deutschland
+N: Schmeltzel Quodl. No. 8 (1544). Dritte Zeile von Boehme ergaenzt.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/1
+K: F
+F | F2F | c2c | d2d | c2
+F | c2f | eec | d3 | c2
+F | F2F | c2c | d2d | c2
+F | c2f | eec | d3 | c2
+d | cBG | AFd | cBG | AF
+C | FFA | c2A | G3 | F2
+S:https://www.folktunefinder.com/tunes/68799
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

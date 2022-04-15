@@ -1,0 +1,23 @@
+X: 17
+T: the Steamboat
+M: 4/4
+L: 1/8
+R: Hornpipe
+K: G
+(3def \
+| "G"g2 bg d2 gd | "G"Bc dB G2 AB | "C"c2 ec "Am"A2 cA |"D7"FG AB cd ef |
+| "G"g2 bg d2 gd | "G"Bc dB G2 AB | "C"ce dc "D7"BA GF | "G"A2 G2 G2 ||
+Bc \
+| "G"dB dB g2 gf | "C"ec ec "A7"a2 ag |"D7"fe fd  "G"gf gb |"A7"ag fe "D7"d2 (3def |
+| "G"g2 bg d2 gd | "G"Bc dB     G2 AB | "C"ce dc "D7"BA GF | "G"A2 G2 G2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12850
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

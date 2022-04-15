@@ -1,0 +1,24 @@
+X: 152
+P: The Frost is All Over (The American Dwarf)
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"def edB | AFD "A7"E2D | "D"DFA "Bm"AFA | "E(m)"Bee "A7"edB \
+| "D"def edB | AFD "A7"E2D | "D"DFA AFA | "G"Bdd "D"d2 :|
+|: g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fdf "Bm"afd | "Em"gfg "A7"e2g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fga "A7"efg | "D"fdd d2 :|
+S:https://www.folktunefinder.com/tunes/12867
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1
+T:Sporting Nell
+R:Reel
+B:Ceol Rince na hEireann Vol.3
+S:Myers, Jeffrey <jmyers@goucher.edu> irtrad-l 2000-03-14
+M:4/4
+L:1/8
+K:DMix
+AD (3FED A2 dB|ABAG EFGB|AD (3FED A2 dB|ABGE EDDB|
+AD (3FED A2 dB|ABAG EFGB|AD (3FED A2 dB|A2 GE {G}ED D2||
+cdec d3 B|cdef {a}gedB|cdec d2 dB|cAGE {F}ED D2|
+cdec d3 B|cdef {b}gedf|ea{b}ag efed|cAGE {F}ED D2||
+S:https://www.folktunefinder.com/tunes/18147
+S:http://trillian.mit.edu/~jc/music/abc/reel/SportingNell.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/SportingNell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SportingNell.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/SportingNell.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

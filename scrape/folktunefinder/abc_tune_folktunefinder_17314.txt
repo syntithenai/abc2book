@@ -1,0 +1,34 @@
+X: 1
+T: Hal Robinson's Rant
+C: Anne Hooper (1999)
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: C|
+L: 1/8
+K: E
+ec \
+| "E"Bege fege \
+| fege "A"fece \
+| "E"Bede "F#m"cAFc \
+|1 "B7"Beed "E"e2 \
+:|2 "B7"BAGF "E"E2  ||
+[| ef \
+| "E"gbBb "A"agfe \
+| "B7"dcBd fagf \
+| "E"gbBb "A"cagf \
+| "B7"edcB "E"e2ef |
+| "E"gbBb "A"caca \
+| "E"Bgfe "B7"dcBA \
+| "E"GBeB "F#m"cAFc \
+| "B7"BAGF "E"E2  |]
+S:https://www.folktunefinder.com/tunes/17314
+S:http://trillian.mit.edu/~jc/music/abc/reel/HalRobinsonsRant_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HalRobinsonsRant_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/HalRobinsonsRant_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

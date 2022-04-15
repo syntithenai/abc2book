@@ -1,0 +1,25 @@
+X:15812
+T:Spellan's Fiddle
+R:hornpipe
+Z:id:hn-hornpipe-68
+M:C|
+K:G
+Bc|dg (3fga gdBA|GFGA BGDC|B,DGF EGcB|ADFA d2Bc|
+dg (3fga gdBA|GFGA BGDC|B,DGF EGcB|ADFA G2:|
+K:D
+FG|:ABAF ABde|fgfd cdef|gbag fagf|(3efe (3dcB A2FG|
+ABAF ABde|~f3d (3Bcd ef|gf (3efg fedc|1 dfec dAFG:|2 dfec dc||
+S:https://www.folktunefinder.com/tunes/47087
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

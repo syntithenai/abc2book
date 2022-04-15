@@ -1,0 +1,26 @@
+X:2
+T: Kaisari nokkur maetur mann
+N: L0031B
+O: Europa, Island
+N: Island
+R: Lied
+M: 6/8
+L: 1/16
+K: A
+A3B=c2B3AG2 | A3B=c2B4z2
+B4B2c4d2 | e6d4z2
+=c4c2c4d2 | e4e2d6
+d4=c2B4A2 | B3=cB2A4z2
+c4c2A4A2 | A4B2=c4d2 | d6-d4=c2 | B4z2-z6
+S:https://www.folktunefinder.com/tunes/80001
+S:http://ifdo.ca/~seymour/runabc/esac/erk5.abc
+% Rhythm Lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

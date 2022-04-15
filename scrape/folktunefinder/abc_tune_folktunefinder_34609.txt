@@ -1,0 +1,24 @@
+X: 7392
+T:Madame Maxwell
+O:Ireland
+M:2/4
+C:Turlough O'Carolan
+K:D
+A-B.A2 A-F.D2 | F2A2 A2B2 | \
+cde2 def2 | efg2 f2e2 |\
+d2A2 GFED | G2B2 B2d2 | c2A2 e2dc | d2 dz :|
+a2d2 a2d2 | g2b4 ag | f2d2 a2gf | g2e4 g2 |\
+fga2 gab2 | a2g2 f2e2 | d4 e2d2 | c2A4 Bc | \
+d4 cBAG | F2D4 d2 | cde2 fed2 | c2A4 Bc |\
+dcBA BAGF | G2B4 A2 | BAGF AGFE | D8 |]
+S:https://www.folktunefinder.com/tunes/34609
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

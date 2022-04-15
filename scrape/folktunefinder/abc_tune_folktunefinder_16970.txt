@@ -1,0 +1,24 @@
+X: 1
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for  1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+S:https://www.folktunefinder.com/tunes/16970
+S:http://trillian.mit.edu/~jc/music/abc/reel/CountryDance_8_3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CountryDance_8_3_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CountryDance_8_3_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

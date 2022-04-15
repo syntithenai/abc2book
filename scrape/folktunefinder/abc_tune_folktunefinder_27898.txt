@@ -1,0 +1,30 @@
+X:7446
+T:The Weary Man's Farewell to Work
+O:england
+R:polka
+C:Composer: Gavin Atkin
+S:Copyright Gavin Atkin 1997
+M:4/4
+L:1/8
+Q:80
+K:G
+"D7" B,C | "G" DEDB, "Em" DGGF | "C" EG~FE "G" D2 GA |
+"Em" .B2 BG "D" .A2 AF | "C" GF~ED "Am7" ~EDB,C |
+"G" DEDB, "Em" DGGF | "C" EG~FE "G" D2 GA |
+"Em" .B2 BG "D" .A2 AF | "C" .G2 .G.G "G" .G2 :|
+|: cd | "C" .e2 e e .e2 .c2 | "Bm"  .d2 dd .d2 .B2 |
+"Am" .c2 cc cedc | "Em" .B2 Bc "Bm" .B2 EG |
+"Am7"  AcBA "G" .G2 EG | "D" Ad~cB "Am7" A2 cd |
+"C" .e=fed "Am" cedB | "D" .A2 AA A2:|
+S:https://www.folktunefinder.com/tunes/27898
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Vanhoja poikia viiksekkit
+R: waltz
+C: Juha Vainio
+M: 6/8
+L: 1/8
+%%staffsep 40
+K: Dm
+DE \
+| "Dm"FFF "A7"ED^C | "Dm"ED2- DDE | "Bb"FFF "C7"GGG | GFG "F"A2 A/B/ | "Gm"AGG "A7"GGA |
+| "Dm"GF2- FDE | "Bb"FDD D^CD | "A"E3- "A7"EDE || "Dm"FFF "A7"EAG | "Dm"FFE DDE | "Bb"FFF "C7"GGG |
+| "C7"GcB "F"A2 A/A/ "I" | "Gm"BGF "(A7)"EFG | "Dm"AGA D2D/E/ | "Bb"FDC "Am"A,2C | "Dm"D3- D"C7"C2 || "F"AAG FFC |
+| "Gm"B>BA "C7"AG2 | "Gm"GGF "C7"EED | "F"CD>C C2"C7"C \
+| "F"A>AG F>FC | "D7"_E2D "Gm"AG2 | GGF "C7"E2C |
+|1 "C7"CAG "F"F2G/A/ | "Gm"B/c/B/A/G/F/ "C7"E/C/AG | "F"F/E/F/G/"Gm"A/B/ "A7"A \
+:|2 "C7"CAG "F"F2G/A/ | "A7"[AA3-]EA [GA3-]EG | "Dm"[FA3-]DF "A7"[AE^C] \
+:|3 "C7"CAG "F"HF3 |]
+S:https://www.folktunefinder.com/tunes/19057
+S:http://trillian.mit.edu/~jc/music/abc/song/VanhojaPoikiaViiksekkaita_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune/VanhojaPoikiaViiksekkaita_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/VanhojaPoikiaViiksekkaita_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/VanhojaPoikiaViiksekkaita_Dm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

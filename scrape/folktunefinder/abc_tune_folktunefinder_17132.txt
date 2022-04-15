@@ -1,0 +1,25 @@
+X: 1
+T: the Farmer's Daughter
+T: Aberarder's Rant
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: C|
+L: 1/8
+K: Eb
+Bc \
+| "Eb"e2ba g2fg | efec ~e2Bc | e2ba g2fb | "Bb7"~B2fB dBBc |
+| "Eb"e2ba g2fg | efec ~e2Ba | gaba g2fg | "Bb7"~B2fB dB :|
+|: Bc \
+| "Cm"e2gc ~c2gc | dcgc dccd | "Bb"e2fB ~B2fB | dBfB dBBc |
+| "Cm"e2gc ~c2gc | dcgc "Bb7"dccd | "Eb"e2ba g2fg | "Bb7"~B2fB dB :|
+S:https://www.folktunefinder.com/tunes/17132
+S:http://trillian.mit.edu/~jc/music/abc/reel/FarmersDaughter_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FarmersDaughter_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/FarmersDaughter_Eb.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

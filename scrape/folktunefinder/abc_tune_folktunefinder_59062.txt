@@ -1,0 +1,34 @@
+X:175
+T:Cantar de Ronda (CT 202)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 202
+M:6/8
+L:1/8
+Q:3/8=66
+K:G
+|ABc ddd|(c3/2d/4c/4) B-B3|
+ABc ddd|(c3/2(3d/4c/4B/4)A BcB|(A3/2G/4F/4G) G2 z :||
+W:Clavelinera y hermosa
+W:clavelinera, echa riego a tus claveles,
+W:a tus claveles y vers
+W:por la maana qu florecidos los tienes
+W:
+S:https://www.folktunefinder.com/tunes/59062
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

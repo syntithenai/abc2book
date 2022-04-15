@@ -1,0 +1,27 @@
+X:212
+T: UEBERS JAHR MEIN SCHATZ
+N: E0790
+O: Europa, Mitteleuropa, Deutschland; Frankreich, Weissenburg,
+R: Abschieds - Lied, Liebe; Matrosen - Lied
+M: 4/4
+L: 1/8
+K: C
+E,G, | C2B,2A,2G,E, | G,4z2
+G,C | B,3D,F,2A,2 | G,4E,z
+G,G, | B,3A,G,2^F,2 | G,^F,E,2z2
+G,G, | A,3D,D,2E,2 | F,6
+E,G, | C2B,2A,2G,E, | G,4z2
+G,C | D3CB,2A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/76697
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied, liebe; matrosen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

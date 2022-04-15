@@ -1,0 +1,25 @@
+X: 1
+T: Brochan Lom
+R: shottish, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[| "A"E<A A2 c<A A2 | E>F E>D  C<A, A,2 \
+| "Bm"FG F>E "E7"D<B, B,2 |
+| "A"E<A A2 c<A A2 | E>F E>D  C<A, A,>C \
+| "D"D>E F>G "A"A>B c>d | "E7"e>f e>d c>A A2 ||
+|| "A"c<e e2 a<e e2 | c>d e>d c<A A2 \
+| "Bm"d<f f2 b<f f2 | d>e f>e "E7"d<B B2 |
+|| "A"c<e e2 a<e e2 | c>d e>d c<A A>c \
+| "D"d>e f>g "A"a>e c>d | "E7"e>f e>d "A"c<A A2 |]
+S:https://www.folktunefinder.com/tunes/19239
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BrochanLom2_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BrochanLom2_A.abc
+% Rhythm Shottish, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

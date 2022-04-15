@@ -1,0 +1,31 @@
+X: 173
+T:Sweetness When She's Smiling() HA.172
+M:6/4
+L:1/8
+Q:1/4=120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+R:Air
+O:England
+A:Hartburn,Northumberland
+N:No key sig in MS, but sounds OK in Amin.
+N:One of the crs in bar 2 of B music should possibly be dotted. NB
+H:1/8
+Z:vmp.Neil Brookes, Jan.2004
+K:Amin
+A2e3f(d3c/2d/2) e2|A2c2-c2 GEDE G2|A2c4 dcde ga|e3 d cd e2A4:|!
+|:A2d4d3ed2|e2g4g3"undotted in MS"ag2|gede g2 gede g2|agab abg2e4|!
+e2 fedc dcde ga|gedB AG E2G4|A2c4dcde gd|efed cd e2A4:|]
+S:https://www.folktunefinder.com/tunes/72422
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

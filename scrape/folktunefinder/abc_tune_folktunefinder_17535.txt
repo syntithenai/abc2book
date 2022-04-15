@@ -1,0 +1,25 @@
+X: 1
+T: the Langford Ceilidh
+C: Hugh Ferguson
+B: RSCDS 42-1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ag \
+| "D"f2d2 d2ef | "G"gfed "A7"c2ag | "D"f2d2 "Bm"d2ef | "E7"edcB "A7"A2ag | "D"f2ed "Em"e2fg |
+| "F#m"aAgA "Bm"f2ed | "A"eAfA "A7"gece | "D"d4 d2 :: cd | "A"e2A2 "A7"c2de | "D"d2F2 A2dc |
+| "G"B2dB "D/F#"Adfa | "Em"e4 "A7"e2fg | "D"agfe "A7"fAeA | "F#m"fAeA "Bm"d2cd | "A"eAfA "A7"gece | "D"d4 d2 :|
+S:https://www.folktunefinder.com/tunes/17535
+S:http://trillian.mit.edu/~jc/music/abc/reel/LangfordCeilidh_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LangfordCeilidh_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LangfordCeilidh_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

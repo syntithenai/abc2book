@@ -1,0 +1,48 @@
+X:33
+T:Delgaty Castle
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 6/4/04
+N:Petrie's First Collection, page 15
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:2/4
+K:A
+[V:1] "^Allegro"c/d/|ecA>c|B/A/G/F/ EA/=G/|FB/A/ Gc/B/|Ad/c/ TcB|
+[V:2]           z   |a2cA |e2       dc    |d^d   e^e  |fg/a/ e'e|
+[V:1] ecAc|B/A/G/F/ EA/=G/|FB G/E/d/B/|c/B/A/G/ [CEA]:|
+[V:2] a2cA|e2       dc    |d^deg      |ae        A   :|
+[V:1] "^Pia."|:c/d/|ee cA|ff{e}d{c}B|eecA| "^For."G/A/B/G/ E2|
+[V:2]        |:z   |c'2a2|d'2 [b2g2]|c2A2|       (e2e/)f/e/d/|
+[V:1] eecA|f>gad|cBAG|AA[CEA]:|
+K:Am
+[V:2] c2A2|d2 cB|AdeE|zaA    :|
+K:Am
+[V:1] "^Minore Pia." |:E|AAAB|cccd|"^For." e/f/e/d/ c/d/c/B/|AEA,E            |
+[V:2]                |:z|z2ze|aaab|        e'2      e2      |e/f/e/d/ c/d/c/B/|
+[V:1] "^Pia."AAAB|cccd|eefd  |"^For."[^G2B2e2][^GBe]:|
+[V:2]        A2z2|aaab|c'aTf2|         ze       E   :|
+[V:1] |:e|ee eg/e/|fd D2     |dd df/d/|ec Cc/d/|
+[V:2] |:z|a2 ^c'2 |d'2dd'/c'/|b2 g2   |c'2cz   |
+[V:1] "^Pia."eeef  |dfed |"^For."cBA^G|AA [CEA]:|
+[V:2]        c'bc'a|b2^g2|      ad'e'e|aeA     :|
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/DelgatyCastle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Delgaty_Castle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Davie Work
+R: Reel
+C: J Scott Skinner
+B: from The Scottish Violinist
+N: Compare with the Nine Pint Coggie
+M: 2/4
+L: 1/16
+K: A
+E \
+| {G}[A2A2]cA (GA).B.c | dEBA GBeg | {g}a2(ga) .f.e.d.c | dBed [Ec]A [EA] :|
+|: g \
+| aAag fedc | bBba gefg | aAag fedc | dfeg aA [FA]g |
+| aAag fedc | bBba gfed | cAdB ecfd | eagb {g}aAHA :|
+S:https://www.folktunefinder.com/tunes/17004
+S:http://trillian.mit.edu/~jc/music/abc/reel/DavieWork.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

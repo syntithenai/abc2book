@@ -1,0 +1,36 @@
+X: 1
+T: Country Lasses Strathspey
+B: Kerr's Third p.20
+R: strathsey
+N: originally a reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+%%staffsep 45
+M: C
+L: 1/8
+K: D
+A \
+|:  "D"D2  F>A    d>A F<A \
+|   "G"B>c d>B "D"A>F D<F \
+|  "Em"G>A B>G "D"F>G A>F \
+|1 "E7"E>F E>D "A"C<A, B,>C \
+:|2"A7"E>D E>G "D"F<D D   |
+|: A \
+|   "D"d2  d>c    d>A F<A \
+|      d2  d>c    d>A F<A \
+|   "G"G>A B>G "D"F>G A>F \
+|1 "E7"E>F E>D "A"C<E E   \
+:|2"A7"E>D E>G "D"F<D D  |]
+S:https://www.folktunefinder.com/tunes/19281
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CountryLassesS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CountryLassesS_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/CountryLassesS_D.abc
+% Rhythm Strathsey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 277
+T: Alexandrovsky
+O: Russia
+R: waltz
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 3/4
+L: 1/4
+K: Am
+E \
+|| "Am"AA>c | ec>B | A^G>A | "E7"B3 || BB>c | dc>B | "Am"AA>c | e3 ||
+|| "Dm"aa>a | af>e | dd>f | a3 || "Am"ece | "E7"dc>B | "Am"A3- | Az"G7"G ||
+|| "C"cc>e | ge>d | cB>c | "G7"d3 || dd>f | af>d | "C"cc>e | g3 ||
+|| "Dm"aa>a | af>e | dd>f | a3 || "Am"ece | "E7"dc>B | "Am"A3- | Az2 |]
+K: Em
+B, \
+|| "Em"EE>G | BG>F | E^D>E | "B7"F3 || FF>G | AG>F | "Em"EE>G | B3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez"D7"D ||
+|| "G"GG>B | dB>A | GF>G | "D7"A3 || AA>c | ec>A | "G"GG>B | d3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez2 |]
+S:https://www.folktunefinder.com/tunes/30785
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:950
+T:the High Way to Dublin
+B:Aird's Airs and Melodies vol 2
+M:6/8
+N:Is this a slip-jig 
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000186.html
+%%ID:00000186
+K:D dorian
+A2a g2e| f2d ege| c3 c>dc| \
+A2a g2e| f2d gec|1 d3 AFD:|2 d3 d2|:
+F|\
+D2E F2D| G2F E>DE| C3 C2E|\
+D2E F2D| GFE Dd^c| d3 d2::
+e|\
+fed "tr"c2A| c2f ege| c3cde|\
+fed cBA| d2d (^f/g/a).f| d3 d2||
+e|\
+f>ga gaf| "tr"e2d ege| c3 cde|\
+f>ga gaf| "tr"e2d gec| d3 d2:|
+S:https://www.folktunefinder.com/tunes/30499
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

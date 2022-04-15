@@ -1,0 +1,92 @@
+X:40
+T:Le grand projet
+R:chanson
+C:Trad. / Franois Marchant (1761-1793)
+N:dtail amusant, l'air est celui de "Quand la mer Rouge apparut" :))
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=135
+K:A
+   c c | A A e e | c2 e A | d c B2 |
+A2 c c | A A e e | c2 e A | d c B2 |
+A2 a a | g g f f | e2 e f | e (d/c/) d e |
+c c/ d/ e e | e c/ d/ e e | e c/ d/ e c/ d/ |
+e c/ d/ e e | f2 e2 | A>B c d | (cB) A-|A4-|A2 z z || 
+%%vskip 2cm
+%%multicol start
+%%rightmargin 11.5cm
+%%begintext
+W:Un soir, disait Condorcet
+W:A plus d'un confrre,
+W:J'ai dans la tte un projet
+W:Qui pourra vous plaire,
+W:Il nous faut, mes chers amis 
+W:Etablir en ce pays
+W:
+W:Une r r r 
+W:Une pu pu pu 
+W:Une r 
+W:Une pu 
+W:Une rpublique 
+W:d'une forme unique.
+W:
+W:Danton voulait de Louis,
+W:Porter la couronne,
+W:Mais bientt  mes avis
+W:Danton s'abandonne
+W:Car il pense comme moi,
+W:Que rien ne vaut mieux ma foi
+W:
+W:Qu'une r r r
+W:Qu'une pu pu pu
+W:Qu'une r
+W:Qu'une pu
+W:Qu'une rpublique
+W:Bien dmocratique.
+W:
+%%endtext
+%%multicol new
+%%leftmargin 11.5cm
+%%begintext
+W:On porte aux cieux un hros
+W:Tant qu'il est utile,
+W:On jouit de ses travaux,
+W:Ensuite, on l'exile,
+W:Cela n'est pas trop dcent,
+W:Mais c'est l'usage pourtant
+W:
+W:D'une r r r
+W:D'une pu pu pu
+W:D'une r
+W:D'une pu
+W:D'une rpublique
+W:Bien dmocratique
+W:
+W:Sans craindre d'un importun
+W:Les discours infmes,
+W:Nous mettrons tout en commun
+W:Jusques  nos femmes,
+W:Si nous agissons ainsi,
+W:C'est pour mieux saisir l'esprit
+W:
+W:D'une r r r
+W:D'une pu pu pu
+W:D'une r
+W:D'une pu
+W:D'une rpublique
+W:Bien dmocratique
+%%endtext
+%%multicol end
+S:https://www.folktunefinder.com/tunes/39877
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:604
+T: "Jaegerlied"
+N: Z1284
+O: Europa, Mitteleuropa, Steiermark
+R: Jaeger - Lied
+M: 3/4
+L: 1/16
+K: A
+E3G | A4A4A4 | c6B2
+A4 | e6d2d2G2 | A4z4
+E3G | A4A4A4 | c6B2
+A4 | e6d2d2G2 | A4z4
+B4 | B4c4B4 | e4B6
+B2 | B4c4B4 | g4z4
+B3c | B4e2B2e2g2 | b6g2
+e2g2 | b6a2f4 | g4z4
+E3G | A4A4A4 | c6B2
+A4 | e6d2d2G2 | A4z4
+B3c | B4e2B2e2g2 | b6e2
+g2b2 | ^d6c2b2a2f2 | e8
+E3G | A4A4A4 | c6B2
+A4 | e6d2d2G2 | A4z2
+E2F2G2 | A2e2e2A2e2A2 | G2e2d2G2f4
+G2e2e2G2e2G2 | A2e2c2A2a4
+A2B2c2d2e2a2 | a2f2f6
+d2 | e4d2c2d2G2 | A4z4
+S:https://www.folktunefinder.com/tunes/69463
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

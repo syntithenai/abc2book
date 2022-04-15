@@ -1,0 +1,26 @@
+X:133
+T: Guter Rath fuer Liebesleute
+N: A0163
+O: Europa, Mitteleuropa, Deutschland
+N: Oeglin 1512 No. 3.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: G
+G4G4G4 | d8g8 | =f4e4c8 | z4
+c4=f4d4 | e8d8 | g6=f2e4d4 | e8d8 | z4
+g4=f4e4 | =f8d4d4 | c4_B4A8 | z4
+G4_B4A4 | _B4=f4d6cB | c6_B2A4G4 | A8G8 | z4
+S:https://www.folktunefinder.com/tunes/68679
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

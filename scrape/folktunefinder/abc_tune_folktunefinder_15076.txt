@@ -1,0 +1,26 @@
+X: 1
+T: Snapping Turtle
+C: Eric Eid Reiner 1998
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: \251 1998 Eric Eid Reiner
+M: 6/8
+L: 1/8
+K: Bm
+|: F | "Bm"BBB Bcd | "A"edc {e}dcA | "Bm"BBB Bcd |1,3 "Em"efg "F#7"f2f :|2,4 "A"cBA "Bm"B2 :|
+|: z | "Bm"f2f {a}fed | "A"edc dcA |1,3 "Bm"f2f {a}fed | "A"edc "Bm"B2 :|2,4 "Bm"BBB Bcd | "A"cBA "Bm"B2 :|
+|: z | "Bm"bag "A"agf | "G"gfe "F#7"fed |1,3 "Bm"BAB dcd | "Em"efg "F#7"f2f :|2,4 "Bm"BBB Bcd | "A"cBA "Bm"B2 :|
+S:https://www.folktunefinder.com/tunes/15076
+S:http://trillian.mit.edu/~jc/music/abc/jig/SnappingTurtleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j48/SnappingTurtleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SnappingTurtleJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

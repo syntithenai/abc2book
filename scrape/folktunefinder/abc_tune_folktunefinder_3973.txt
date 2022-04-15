@@ -1,0 +1,25 @@
+X: 2
+T: Paspie Minuet
+C: A.J.Vanpelt de Maastricht (1786-1824)
+N: "For the two cousins"
+N: Originally 3/2 meter
+B: Speelmansbock van Tongeren
+M: 3/4
+L: 1/8
+K: G
+|: "G"GA Bc dB |    GB "D"AA "G"G2 | "C"ef    "G"gd    cB |  "A" AG AB "D"A2 |
+|  "G"GA Bc d2 | "C"ef    ga "G"gd | "C"ed/c/ "G"B2 "D"A2 |  "G" G6         :|
+|: "G"g2 ga bg | "D"f2    fg    af | "C"e2       ef    ge | "(G)"e2 "G"d4    |
+| "Am"cB cd ec | "G"BG    Bd    gd | "C"ed/c/ "G"B2 "D"A2 |  "G" G6         :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/3973
+S:http://trillian.mit.edu/~jc/music/abc/England/PaspieMinuet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

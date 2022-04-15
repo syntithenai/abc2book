@@ -1,0 +1,40 @@
+X:490
+T:Lloraba una Cabraliega (CT 257)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Carrea, ayuntamiento de Cabrales.
+N:El ltimo verso de la estrofa hace referencia a la fiesta que se celebra en Carrea el da 18 de Octubre, en honor de la Virgen de la Salud.
+A:Asturies
+O:Carrea (Cabrales)
+Z:Cancioneru de Torner 257
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|:GBc|d3|cBA|c3|BAG|B3|AGF|G z2:|
+|:GBc|d2d|cBA|c3|BAG|B2B|AGF|G z2:|
+W:Cuando sal de Cabrales
+W:lloraba una cabraliega,
+W:porque perdi los corales
+W:en la Salud de Carrea.
+W:
+W:Resaladina, sal al balcn,
+W:que en los cristales est el tu amor.
+W:T eres la luna, t eres el sol,
+W:t eres la prenda que quiero yo.
+W:
+S:https://www.folktunefinder.com/tunes/59377
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

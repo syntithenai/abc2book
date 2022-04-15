@@ -1,0 +1,29 @@
+X:548
+T: "Der Kaefig"
+N: Z1228
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+dc | B2B2B2 | B3c
+de | d3cB2 | A4
+dc | B2B2AA | B3c
+de | d2c2B2 | A4
+AB | c2c2c2 | e2e2
+dc | B2B2ce | d2z2
+dc | dedcBc | dedc
+Bc | dcB2A2 | B2B2B2 | B4
+S:https://www.folktunefinder.com/tunes/69407
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

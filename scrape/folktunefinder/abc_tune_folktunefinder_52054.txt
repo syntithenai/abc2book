@@ -1,0 +1,39 @@
+X:12
+T:Zwiefacher
+Z:Dave Holland <dave@biff.org.uk
+A:Alsace
+M:none
+L:1/8
+Q:c/4=180
+K:C
+|:\
+M:2/4
+L:1/8
+g2e2|g2e2|\
+M:3/4
+g4e2|d2 dfed|e2gec2|\
+M:2/4
+L:1/8
+g2e2|g2e2|\
+M:3/4
+g4e2|d2 dfed|c6:|
+|:d2 dfdf|e2 gege|d2 dfdf|e2 gege|\
+g2z2z2|g2z2z2|\
+M:2/4
+L:1/8
+g2e2|g2e2|\
+M:3/4
+g4e2|d2 dfed|c6:|
+S:https://www.folktunefinder.com/tunes/52054
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

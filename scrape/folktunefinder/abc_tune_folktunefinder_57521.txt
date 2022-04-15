@@ -1,0 +1,30 @@
+X: 184
+T: Miss Susan Cooper
+C: R-96
+C: Ronald Cooper
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+(3ABc| "D"dfed "G"B2dB| "D"A2FA DAFA| ABde "Adim"fa^ga| "Em"=g2fd "A7"eAce|
+       "D"dfed "G"B2dB| "D"A2FA DAFA| ABde fafd| "A7"eAce "D"[F2d2] :|
+|:\
+dc| "Bm"Bcde fBBc| "E7"def^g "A"a2gf| "A7"eAce "Adim"fa^ga| "Em"=g2fd "A7"eAce|
+    "D"dfed "G"B2dB| "D"A2FA DAFA| ABde fafd| "A7"eAce "D"[F2d2] :|
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-97, "Down Yonder", moved to S-D
+%%textfont       Times-Roman 9.0
+S:https://www.folktunefinder.com/tunes/57521
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

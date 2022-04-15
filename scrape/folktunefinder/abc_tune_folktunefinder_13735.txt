@@ -1,0 +1,48 @@
+X: 1
+T: In the Sweet By and By
+C: Words: S.F.Bennett
+C: Music: J.P.Webster
+M: 4/4
+L: 1/8
+K: F
+F>G \
+| "F"A2GF "Bb"G2FD | "F"C4 z2 F>G \
+|1 "F"A2 A>A c2 c>A | "C7"G6 \
+:|2 "F"A2 GF "C7"G2 FE | "F"F6 ||
+A>B \
+| "F"c6 c>A | "Gm"G6 "C7"G>A \
+| "Bb"B2 BB "C7"B2 AG | "F"A6 A>B \
+| "F"c6 "F7"A>G | "Bb"F6 FD \
+| "F"C2 FA "C7"G2 FE | "F"F6 |]
+%
+W: There's a land that is fairer than day,
+W: And by faith we can see it afar;
+W: For the Father waits over the way
+W: To prepare us a dwelling place there.
+W: 
+W: Refrain:
+W:   |:  In the Sweet (in the sweet) By and By (by and by),
+W:       We shall meet on that beautiful shore; :|
+W: 
+W: We shall sing on that beautiful shore
+W: The melodious songs of the blest,
+W: And our spirits shall sorrow no more
+W: Not a sigh for the blessing of rest.
+W: -- Refrain --
+W: 
+W: To our bountiful father above
+W: We will offer our tribute of praise;
+W: For the glorious gift of His love
+W: And the blessings that hallow our days.
+W: -- Refrain --
+S:https://www.folktunefinder.com/tunes/13735
+S:http://trillian.mit.edu/~jc/music/abc/hymn/InTheSweetByeAndBye_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/InTheSweetByeAndBye_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 7933
+T:the Tipsy Sailor
+R:Reel
+R:Hornpipe
+O:Ireland
+M:4/4
+L:1/16
+K:GDor
+D2 |\
+DGFD GABc dcBA BDAG | F2FE FGAB cAFA dcBA |\
+GFDB, G,ABc dcBA BFGA |
+Fefe dcAc B2G2 G2 |:\
+ABGA Bcde fdBd cBAG |1 F2cF dFcF F2cF dFcF \
+:|2 G2gf dcAc B2G2 G2 ||
+|:g2(3gab g2gb f2fa f2fa| g2gb g2gb fedc dcBA |\
+BGGB AFFA GABG c4 |
+(3def(3efg fdcd B2G2 G2 ::\
+DGBd DGBd DFAd DFAd | DGBd DGBc d2d_e dcBA |
+GBdB GBdB c2AF CFAc | (3def(3efg fdcd B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/35150
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

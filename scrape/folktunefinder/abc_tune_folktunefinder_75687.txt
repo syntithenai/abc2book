@@ -1,0 +1,30 @@
+X:124
+T:New Highland Laddie
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:G
+ G2      GB       A2       AB      | G2       GB       A2    AB |\
+ G2      g2       d2       cB      | AB```````cA       B2    G2 :|
+ d2      de       d2       de      | dg```````fe       d2    cB |\
+ d2      de       d2       de      | dg```````fe       d2    cB |
+ c2      ce       B2       Bd      | A2       AB       c2    BA |\
+ G2      g2       d2       cB      | AB```````cA       B2    G2:|
+P:Variation by Peacock
+(3GBd  (3GBd    (3Gce    (3Gce     |(3GBd   (3GBd    (3Gce (3Gce|\ 
+(3GBd  (3Gce      d2       cB      | AB```````cd       B2    G2:|
+d/c/B/c/ d/c/B/c/ d/c/B/c/ d/c/B/c/| e/d/c/B/ ge       d2    cB |\ 
+d/c/B/A/ G/A/B/c/ d/c/B/A/ G/A/B/c/| e/d/c/B/ ge       d2    cB |
+c/e/g/e/ c/e/g/e/ B/d/g/d/ B/d/g/B/| A/G/A/B/ c/B/c/d/ ec````BA |\
+G/A/B/c/ d/e/d/g/ ed```````cB      | AB       cd/c/    B2    G2:|
+S:https://www.folktunefinder.com/tunes/75687
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

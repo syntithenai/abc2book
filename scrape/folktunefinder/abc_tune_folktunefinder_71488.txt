@@ -1,0 +1,29 @@
+X:459
+%%topmargin 3cm
+T:The Bottom of the Punch Bowl
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+N:Country Dance
+M:C
+L:1/8
+K:D
+FE | D2 D2 {/c}d3 e | {/c}d2 D2 (FG)AF | E2 E2 (ef)Tgf | e2 E2 (FG)AF | D2 D2 {/c}d3 e |
+Tfe{/c}dB {/c}d3 A | B3 F A3 E | F2 E2 D2 :: de | fe{/c}dB ABde | fe{/c}dB {/c}d3 e | A3 B AB{/c}de |
+f2 e2 e2 {/c}de | Tfe{/c}dB ABde | Tfe{/c}dB {/c}d3 A | BdBF ABAE | {/G}F2 D2 D2 :|
+S:https://www.folktunefinder.com/tunes/71488
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bottom_of_the_Punch_Bowl.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0459.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:678
+T: "Wiegenlied. "
+N: Z1359
+O: Europa, Mitteleuropa, Oesterreich
+R: Kinder -, Wiegen - Lied
+M: 3/4
+L: 1/8
+K: G
+ | dedcBA | GFGABc | d4e2 | d6
+dedcBA | GFGABc | d4e2 | d6
+c4c2 | c2d2e2 | d2c2B2 | A6
+dedcBA | GFGABc | B2A2G2 | A4
+BA | G4B2 | A4BA | G4A2 | G4z2
+S:https://www.folktunefinder.com/tunes/69537
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

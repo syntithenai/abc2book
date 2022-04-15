@@ -1,0 +1,25 @@
+X: 1
+T: Maggie Lauder
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: A
+   E \
+| "A"A>B Ac | "F#m"A>B Ac | "Bm"B>c d/c/B/A/ | "E7"GB- Bd \
+| "A"cA AE  |      A>B Ac | "E7"e>f ed       |  "A"c   e2 :|
+|: c \
+| "D"d>e df | "A"c>d ce   | "Bm"B>c d/c/B/A/ | "E7"GB- BG \
+| "A"AE "F#m"FC | "Bm"DC "E7"B,d | "A"c<e "E7"B>c | "A"A2- A :|
+S:https://www.folktunefinder.com/tunes/15555
+S:http://trillian.mit.edu/~jc/music/abc/march/MaggieLauder_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MaggieLauder_A.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 53
+T:Mary Richard's Jig
+M:6/8
+L:1/8
+Q:120
+R:Jig
+A:Wales
+N:Unnamed Jig from Mary Richards' (1787-1877) Collection.  B.M.
+N:    .
+Z:brian_martin12345@yahoo.com
+K:D
+D|DFA FAF|dcB AFA|def edc|BGFE2F|DFA FAF|!
+dcB AFA|def egf|edcd2:||d|dfa d'c'b|abg fed|!
+cde efe|dcBA2d|dfa d'c'b|abg fed|cde faf|edcd2:||
+S:https://www.folktunefinder.com/tunes/71870
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/MaryRichardsJig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

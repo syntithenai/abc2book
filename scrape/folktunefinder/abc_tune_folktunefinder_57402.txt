@@ -1,0 +1,28 @@
+X: 18
+T:Little Judique Reel
+R:Reel
+M:4/4
+R:reel
+Q:1/2=120
+L:1/8
+K:D
+f=g | "D"a^gab a2f2 | "D"d2A2 A2f=g | "D"a^gab a2f2 | "D"d4 e3f | "A"gfga g2e2 |
+"A"c2A2 A2ef | "A"gfga g2e2 | "A"c4 f3g | "D"a^gab a2f2 | "D"d2A2 A2fg | "D"a^gab a2f2 |
+"D"d4 g3a | "G"b2gb "D"a2fa | "A"g2eg "D"f2ed | "A"c2A2 a2c2 | "D"d6 || [K:A]cd |
+"A"e4 e3f | "A"e2c2 B2A2 | "D"a^gab a2f2 | "A"e4 f3g | "D"a3b a3f | "A"e2c2 "Fm"a3f |
+"B"e2c2 B2A2 | "E"B4 c2d2 | "A"e4 e3f | "A"e2c2 B2A2 | "D"agab a2f2 | "E"e4 f3g |
+"D"a3b a3f | "A"e2c2 "F#m"a3f | "E"e2c2 B2c2 | "A"A4-"A7"A2 ||
+%%newpage
+S:https://www.folktunefinder.com/tunes/57402
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/reels.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

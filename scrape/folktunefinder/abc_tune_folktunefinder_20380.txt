@@ -1,0 +1,22 @@
+X: 1
+T: Good King Wenceslas
+O: Bohemia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+|: "G"G    G "Em"G "D7"A |  "G"G     G "D7"D2  \
+|  "C"E "G"D  "C"E "D7"F |  "G"G2          G2 :| \
+   "G"d    c     B "D7"A |  "G"B "D7"A "Em"G2 |
+|  "C"E "G"D  "C"E "D7"F |  "G"G2          G2 \
+||    D    D  "C"E "B7"F | "Em"G     G "D7"A2 \
+|  "G"d "C"c  "D"B     A | "Em"G2       "C"c2 | "G"G4 |]
+S:https://www.folktunefinder.com/tunes/20380
+S:http://trillian.mit.edu/~jc/music/abc/xmas/GoodKingWenceslas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

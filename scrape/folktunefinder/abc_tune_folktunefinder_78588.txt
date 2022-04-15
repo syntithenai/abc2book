@@ -1,0 +1,35 @@
+X:147
+T: ACH SCHIFFMANN DU FEIN GUETIGER MANN
+N: E0078
+O: Europa, Mitteleuropa, Deutschland, Brandenburg, Wilsnack; Granzow
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: C
+EF | G2E2G2c2 | GFEDC2
+c2 | d2e2d3c | B2A2G2
+c2 | A2FFF2d2 | cBABG2
+c2 | E3FD3E | C4z2
+F2 | EGc2E3D | C4z2
+EF | G2E2G2c2 | GFEDC2
+c2 | d2e2d3c | B2A2G2
+c2 | A2FFF2d2 | cBABG2
+c2 | E3FD3E | C4z2
+F2 | EGc2E3D | C4z2
+EF | G2E2G2c2 | GFEDC2
+c2 | d2e2d3c | B2A2G2
+G2 | A2G2A2B2 | c2BAG3
+c | E3FD3E | C6
+F2 | EGc2E3D | C4z2
+S:https://www.folktunefinder.com/tunes/78588
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

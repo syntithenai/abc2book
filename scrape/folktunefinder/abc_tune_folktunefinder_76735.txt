@@ -1,0 +1,27 @@
+X:250
+T: MAEGDLEIN FREI DU NICHT SO FRUEH
+N: E0835A
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Hochzeits -, Ehestands - Lied
+M: 4/4
+L: 1/8
+K: D
+DF | A3FG2G2 | F4z2
+FG | A3BB2G2 | F4z2
+DE | F2F2F2EF | G2E2E2
+D2 | F2F2A2GF | G2E2E2z
+A, | DEFGA2AB | AGFED2z
+E | FEFGA2GF | E2E2D2
+S:https://www.folktunefinder.com/tunes/76735
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Hochzeits -, ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

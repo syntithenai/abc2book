@@ -1,0 +1,26 @@
+X: 1
+T: Mooses-feedi
+R: shottish
+O: Finland
+M: 4/4
+L: 1/8
+K: D
+|: de \
+| "D"f>e dc "G"e>d cB | "D"A2 Ad f4 |1,3 "A7"g2 gf e2 e2 | "D"a2 ag f2 \
+                                   :|2,4 "A7"g2 gf e2 ec | "D"d2 d2 d2 :|
+|: df \
+| "D"a2 af "G"b2 bg | "D"a2 ag f4 |1,3 "A7"g2 gf e2 e2 | "D"a2 ag f2 \
+                                 :|2,4 "A7"g2 gf e2 ec | "D"d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/4374
+S:http://trillian.mit.edu/~jc/music/abc/Finland/MoosesFeedi.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/MoosesFeedi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish/MoosesFeedi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/shottish/MoosesFeedi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/MoosesFeedi.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

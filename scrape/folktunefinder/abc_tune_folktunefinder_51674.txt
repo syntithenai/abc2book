@@ -1,0 +1,29 @@
+X:11
+T:Ragtime Annie
+S:Jim Coon to CoMandoList TOW
+M:2/4
+L:1/16
+K:D
+P:A
+FG|"D"A2BB A2B2|A2B2 A2FG|A2BB A2B2|"A7"A2c2 c2cB|!
+"A7"A2c2 B2cB|ABcB A2cB|ABcd egfe|"D"d2f2 d2:|!
+P:B
+|:fg|"D"a2ab afdB|A2AB A2fg|a2ab agfa|"G"gfef g2ef|1"A7"g2ga gfef|!
+afdB c2cB|A2g2 f2e2|"D"f4-f2:|2"G"g2ga bag2|"D"f2fg agf2|\
+"A7"e2g2 f2e2|"D"d4 "D7"=c4||!
+P:C
+K:G
+|:"G"B2Bc BAGB|"C"cdcB c2cB|"D7"A2f2 e2f2|"G"g2ga gfed|!
+"G"B2Bc BAGB|"C"cdcB c2cB|"D7"A2f2 e2f2|1"G"g4 g4:|2"G"g4g2||
+S:https://www.folktunefinder.com/tunes/51674
+S:http://www.mandozine.com/music/TOW.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

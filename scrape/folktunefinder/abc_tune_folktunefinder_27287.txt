@@ -1,0 +1,24 @@
+X:6835
+T:The Gobby O
+O:england
+S:FTB 2/42, via EF
+M:6/8
+K:Am
+P:A
+A/2B/2|"Am"c2A A^GA|"Am"E2A A^GA|"G"B2G GBc|"G"dBG GAB|
+"Am"c2A A^GA|"Am"E2A A2e|"Em""C"edc " ""G"BAG|"Am"E2A A2:|
+P:B
+E|"Am"A2B c2d|"Em"e2^f g2e|"D"^faf "C"g2e|"G"dBG GAB|
+"Am"A2B c2d|"Am"e^fe a2f|"Em""C"edc " ""G"BAB|"Am"c2A A2:|
+S:https://www.folktunefinder.com/tunes/27287
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

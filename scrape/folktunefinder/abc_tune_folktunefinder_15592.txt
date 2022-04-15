@@ -1,0 +1,22 @@
+X: 1
+T: Miss Murray
+M: 2/4
+L: 1/16
+K: A
+ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"B2AG | "A"ABcd "E7"e2ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"GABG | "A"A6 ||
+|| cB \
+| "A"A2e2 e2de | "D"f2d2 d2cd | "E7"E2d2 d2cd | "A"e2c2 c2BA \
+| E2c2 "D"F2d2 | "A"c4 "E7"B2d2 | "A"c2A2 "E7"GABG | "A"A6 |]
+S:https://www.folktunefinder.com/tunes/15592
+S:http://trillian.mit.edu/~jc/music/abc/march/MissMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/MissMurray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissMurray.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

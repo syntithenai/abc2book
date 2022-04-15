@@ -1,0 +1,22 @@
+X: 1
+T: Hine ma tov
+R: waltz
+O: Trad Jewish
+O: Psalm 133:__
+M: 3/4
+L: 1/4
+K: Dm
+|: "Dm" D D D | D ^C D | "Gm"G3 | "Dm"F3 | "A7"E D E | F2 E | "Dm"D3 | D3 :|
+|: "F"A3 | "Bb"d3 | "C7"c2 B | "F"A3 | "Gm"G F G |1 "C7(A7)"A2 G | "F(Dm)"F2 G | A3 :|2 "A7"A2 G | "Dm"F3 | D3 |]
+S:https://www.folktunefinder.com/tunes/19967
+S:http://trillian.mit.edu/~jc/music/abc/waltz/HineMaTov2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/HineMaTov2_Dm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

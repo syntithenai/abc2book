@@ -1,0 +1,29 @@
+X:1
+T:Killybegs House
+B:Irish Folk Dance Music, Jerry O'Brien
+Z: Paul de Grae  irtrad-l 2001-3-15
+N:"Killybegs House" is a misprint of Killaghbeg House, Paddy
+N:Fahy's family home in County Galway, famous for music
+N:sessions; Killybegs is a well-known fishing port in Donegal.
+R:reel
+M:4/4
+L:1/8
+K:G
+A^GAc BGGA | BGBd gedB | A^GAc BGGD | (3efe dc BGGB |
+A^GAc BGGA | BGBd gfga | bgag efgd | (3efe dc BGG2 ||
+bg (3gag agef | gage dega | bg (3gag aged | ea (3aba ea (3aba |
+bg (3gag agef | gage dega | bgag eagd | (3efe dc BGG2 ||
+S:https://www.folktunefinder.com/tunes/17493
+S:http://trillian.mit.edu/~jc/music/abc/reel/KillybegsHouseR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KillybegsHouseR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KillybegsHouseR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

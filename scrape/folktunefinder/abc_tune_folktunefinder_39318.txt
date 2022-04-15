@@ -1,0 +1,31 @@
+X:17947
+T:Tyson's Fancy. BF13.043
+M:3/8
+L:1/16
+Q:40
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Waltz
+O:England
+A:Lakes
+N:Initial key signature is Upper d# and lower A#.  Further key signatures
+N:are given at the begining of the 9th and 19th bars, Both upper C sharp
+N:and lower G sharp.  Perhaps this means it was copied from a written
+N:source and these are the beginings of lines in the written source.
+Z:vmp.Cherri Graebe.
+K:D major
+ag|f2d2d2| gfgfgf|e2A2A2|Adefge|!f2d2d2|gfedcA|FAdfec|d4|!
+|AG|FAdfec|dcdefd|gfgfed|cBAGFE|!FAdfec|dcdefd|gaegce|d4|!
+|GF|F2A2A2|A2d2d2|c2e2e2|gfedcA|!F2A2A2|Adfdaf|gbegce|d4||
+S:https://www.folktunefinder.com/tunes/39318
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

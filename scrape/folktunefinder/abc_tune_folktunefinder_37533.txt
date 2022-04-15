@@ -1,0 +1,32 @@
+X: 71
+T:Annan Polka. BF11.70
+M:2/4
+L:1/8
+Q:180
+C:In hand "Browne B"
+S:MS11,c1850.,Browne Coll.,Lakes
+R:Polka
+O:England
+A:Lakes
+N:This tune is written in by a different person. The stems are all on
+N:the
+N:right hand side of the notes,etc.
+Z:vmp.Chris Partington.
+K:G
+Bc|dgBg|fA/B/ c/B/A|caAa|gB/c/ dc/B/|!
+dgBg|fA/B/ cB/A/|FdDd|ggg:|!
+|:B/c/d/e/ d/B/c/A/|BG GF/G/|AEFD|g/f/g/a/ g/e/d/c/|!
+B/c/d/e/ d/B/c/A/|BG GF/G/|aefd|ggg:|]
+% Output from ABC2Win  Version 2.1 k pre2 on 11/02/2005
+S:https://www.folktunefinder.com/tunes/37533
+S:http://www.village-music-project.org.uk/abc/browne11.ABC
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

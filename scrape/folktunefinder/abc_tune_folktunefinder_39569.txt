@@ -1,0 +1,33 @@
+X:14
+T:La Fresne
+R:Contredanse
+C:Recueil de contredanses transposes pour la vielle
+S:BN Vm7 3643
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-14
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/4
+K:Dm
+V:1
+A | defg | a2f2 | gaef | d/^c/d/e/ dA | defg | a2f2 |
+gaef | d3 || f | gaba | g2fa | gfeg | fedf | ed^cd |
+e2 Ae/f/ | gfe^c | d2 |]
+V:2
+A | FEDE | ^CA,DD | EF/G/ AA, | D2 zA | FEDE | =CA, DD |
+EF/G/AA, | D3 || D | EFEF | cC Ff | ed^cA | DEFD | G_BAD |
+A,2 AG/F/ | ED GA | D2 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/39569
+S:http://michel.bellon.free.fr/Musique/sansgene/MadameSansGene.abc
+% Rhythm Contredanse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

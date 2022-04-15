@@ -1,0 +1,33 @@
+X: 1
+T: Miss Dow's Fancy [1]
+C: Skinner
+R: shottish, strathspey
+B:
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+"C7"C2 \
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 A2 |]
+[|"F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 |]
+S:https://www.folktunefinder.com/tunes/18406
+S:http://trillian.mit.edu/~jc/music/abc/shottish/MissDowsFancy1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissDowsFancy1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/MissDowsFancy1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/MissDowsFancy1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissDowsFancy1_F.abc
+% Rhythm Shottish, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

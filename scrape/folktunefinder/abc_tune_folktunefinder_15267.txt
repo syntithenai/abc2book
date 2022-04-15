@@ -1,0 +1,29 @@
+X: 227
+T: the Wink of Her Eye
+B: O'Neill's 227
+N: "Cheerful"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+(g/a/) \
+| b2g {a}gfe | d>cB cde | dBd gfe | dBG A2 (g/a/) |
+| b>ag {a}gfe | dcB cde | dge dcB | cBA G2 ||
+|| (f/g/) \
+| a2b {d'}c'ba | gfe d3 | cBA Bcd | age d2(f/g/) |
+| a2b {d'}c'ba | bd'b g2e | dge dcB | cBA G2 ||
+S:https://www.folktunefinder.com/tunes/15267
+S:http://trillian.mit.edu/~jc/music/abc/jig/WinkOfHerEye.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WinkOfHerEye.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/WinkOfHerEye.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WinkOfHerEye.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

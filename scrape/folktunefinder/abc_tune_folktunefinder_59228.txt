@@ -1,0 +1,32 @@
+X:341
+T:El Da de Santa Rita (CT 433)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Pilar Garca Martnez, de veintiocho aos, de Teberga.
+A:Asturies
+O:Teberga
+Z:Cancioneru de Torner 433
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+G/G/
+|: c2 B d2 _e|d c2-c2d/c/|(B>G)A c2 B|[1 A G2-GzG/G/ :|[2 A G2-G z||
+W:El da de Santa Rita,
+W:m quisieron dar la muerte
+W:y la Santa milagrosa
+W:dijo al matador: detente.
+W:
+S:https://www.folktunefinder.com/tunes/59228
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

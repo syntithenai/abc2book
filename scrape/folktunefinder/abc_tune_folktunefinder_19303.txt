@@ -1,0 +1,24 @@
+X: 1
+T: Dorater Bridge
+R: strathspey, shottish
+S: Hand-written MS
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 "A7"c<A "D"d>e f>a | "G"g>f a<f "A7"e2 e>f | "D"d2 "A7"c<A "D"d>e f>a | "Em"B<e "A7"c<A "D"d3 :|
+|: e \
+| "D"f2 f>e "Bm"d>e f<d | "G"g>e "D"f>d "A7"e2 e>A | "D"f2 f>e "Bm"d>e f<a | "Em"B<e "A7"c<A "D"d3 :|
+S:https://www.folktunefinder.com/tunes/19303
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DoraterBridge_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DoraterBridge_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DoraterBridge_D.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:I've told ev'ry little star
+M:4/4
+L:1/4
+C:Jerome Kern
+Q:1/4=200
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Eb7"x2 "D7"x2 | "Bbm7"x2 "Eb7"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+F2 C2 | A/2A/2A/2A/2 G2 | B>B A>A | cc B2 |
+S:https://www.folktunefinder.com/tunes/18798
+S:http://trillian.mit.edu/~jc/music/abc/song/Ive_told_evry_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/ive_told_every_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Ive_told_evry_little_star.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/ive_told_every_little_star.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

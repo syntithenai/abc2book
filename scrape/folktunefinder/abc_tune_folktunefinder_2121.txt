@@ -1,0 +1,20 @@
+X:24
+T:Cantiga 426
+M:4/4
+L:1/8
+K:D
+|A3 F DEFG |A8   |A3 G FGAB| A8 |B3 G EFGA|
+FGFE DEFG|EFED CDEF|1 D8:|2 D6 A2||
+F2 FG A2 AF | G6 B2|E2 EF G2 GE| F6 A3|
+D2 DE F2 FD | E6 G2 | C2 CD E2 EC|1 D6 A2:|2 D2 DE FGFD||
+E2 CD EFEC |1 D2 DE FGFD:|2 D8||
+S:https://www.folktunefinder.com/tunes/2121
+S:http://www.slainte.ch/abc/own.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

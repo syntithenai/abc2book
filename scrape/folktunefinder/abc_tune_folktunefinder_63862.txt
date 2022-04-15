@@ -1,0 +1,62 @@
+X:1
+T:Pajdusko
+T:(AB)A
+O:Bulgaria
+C:Trad.
+D:A002 A1
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:(AB)A
+R:pajdusko
+Q:1/4=190
+M:5/8
+L:1/8
+K:F
+P:A
+%%MIDI channel 1
+%%MIDI program 1 21
+%%MIDI chordprog 21
+%%MIDI bassprog 58
+%%MIDI gchord f2c3
+%%MIDI drumon
+%%MIDI drumbars 2
+%%MIDI drum d2d2dd2d3 43 41 37 43 41
+|:"C"C2 =Bcc | cB ~A2G | ^FG "F"E=FC |FC ~F2E |"C"~E2 CDE |"F"FG EFC | F2-F2E |"C"E2-E2z |
+  "C"C2 =Bcc | cB ~A2G | ^FG "F"E=FC |FE ~D2C |"Dm"DE FCE |FE DEC | D2-D3 |1 D2-D2z :|2 D2-D2C ||
+|:"F"F2-F2G |"A"~A2-A2G |"Dm"~G2 EFC |FE ~D2C |DE FCE |FE DEC |"Dm"D2-D3 |"C"~G2 CDE |
+  "F"F2-F2G |"A"~A2-A2G |"Dm"~G2 EFC |FE ~D2C |DE FCE |FE DEC |"Dm"D2-D3 |1 D2-D2C :|2 D2-D2z ||
+|:"C"~G2 CDE |"F"FC ~F2E |"C"~E2 CDE |"F"FC ~F2E |"C"~G2 CDE |"F"FC ~F2E |"Dm"FE DEC |1 DG D2z :|2 D2 D2z ||
+|:"Dm"FE DEC |DE~F2C | FE DEC |~D2 CGC |FE DEC |DE~F2C | FE DEC |1 ~DG D2z :|2 ~D2 D2z ||\
+K:Em
+|
+P:B
+K:Em
+%%MIDI program 1 71
+"C5"c2-c3-|c2-c2z |
+|:"Cm"Gc gf_e |dc cd_e |fc gf_e |dc fgc |Gc gf_e |dc cd_e |fc gf_e |dc c2z :|
+|:"Cm"ga ~f2_e |dc cd_e |fc gf_e |dc fgc |ga ~f2_e |dc cd_e |fc gf_e |dc c2z :|
+K:G
+%%MIDI program 1 56
+"C5"G2-G3-|G2-G2z \
+|:"C"A_B ~A2G |FG ~E2C |"F"A_B ~A2G |"C"FG ~E2C |"F"c_B ~A2G |"C"FG ~E2C |"F"c_B ~A2G |"C"FG ~E2z :|
+|:"C"=B,C ~A2G |FG ~A2G |"F"A_B ~A2G |"C"FG ~E2C |"C"=B,C ~A2G |FG ~A2G |"F"A_B ~A2G |"C"FG ~E2z :|
+|:"C"c_B ~A2G |FG ~A2G |"F"c_B ~A2G |"C"FG ~E2C |"F"c_B ~A2G |"C"FG ~A2G |"F"c_B ~A2G |"C"FG ~E2z :|
+W:Arrangement Copyright (C) 2005 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/63862
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Pajdusko.abc
+S:http://people.csail.mit.edu/jaffer/Music/Pajdusko.abc
+S:http://voluntocracy.org/Music/Pajdusko.abc
+S:http://www.voluntocracy.org/Music/Pajdusko.abc
+% Rhythm Pajdusko
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key F
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

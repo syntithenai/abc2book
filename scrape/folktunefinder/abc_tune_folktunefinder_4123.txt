@@ -1,0 +1,28 @@
+X:15
+T:Lochaber. BC.15
+M:3/4
+L:1/8
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:x
+Z:vmp.John Bagnall
+K:G
+GA | B2 B2 B2 | B3 ABd | e2 A2 AB | {B/}A4 GA |
+ B2 cBAG | D3 E GA | B2 G2 GA | G4 |
+|G2 | .Bc .d2 d2 | d>edcBA | G2 g2 ga | g4 G2 |
+.Bc .d2 d2 | d>edcBA | G2 g2ga | g4 d2 |
+ e3 geg |d2 e2 g2 | a2 A2 AB | {B/}A4 GA |
+ B2 cBAG | D3 E GA | B2 G2 GA | G4 |]
+S:https://www.folktunefinder.com/tunes/4123
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

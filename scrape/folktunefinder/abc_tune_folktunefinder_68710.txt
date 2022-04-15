@@ -1,0 +1,23 @@
+X:164
+T: Von einem stolzen Dirnelein
+N: A0201B
+O: Europa, Mitteleuropa, Deutschland
+N: Fragment bei M. Franck, Fasc. Quodl. 1611  No. 3.
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/4
+K: F
+F | F2FccA | BGA2
+FFFccA | BGA
+A | FFAA | F2G
+S:https://www.folktunefinder.com/tunes/68710
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

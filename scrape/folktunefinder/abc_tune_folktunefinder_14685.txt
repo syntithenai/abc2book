@@ -1,0 +1,24 @@
+X:1
+T: Moll in the Wad [B]
+L: 1/8
+M: 6/8
+S: Cole's 1001
+Z: Andrew Kuntz <aikuntz:aol.com> irtrad-l 2000-04-04
+K: G
+| gdB gdB | gdB g2a | _bag gfg | afd dcd \
+| gdB gdB | gdB g2a | _bag fga |1 (g3 g2)z :|2 (g3 f2)z ||
+K: Bb
+| fdB {c}BAB | fBB gBB | fdB {c}BAB | cAF FAc \
+| fdB {c}BAB | fBB gBB | fba gfe |1 dcB AGF |2 dcB A^Fd |]
+S:https://www.folktunefinder.com/tunes/14685
+S:http://trillian.mit.edu/~jc/music/abc/jig/MollInTheWadB.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MollInTheWadB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MollInTheWadB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

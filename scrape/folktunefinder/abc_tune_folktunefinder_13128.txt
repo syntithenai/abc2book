@@ -1,0 +1,34 @@
+X: 1
+T: the Birks of Invermay
+R: strathspey
+B: RSCDS 16-2(I)
+N: "Surenne"
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"d3e d>B A>G | "Am"A>G AB "C"E3 G \
+| "G"D>E DB, D2 G>D | B,2 D>E "D7"D2 GB |
+| "G"d2ef/g/ d-G | "Am"c>B AG "C"E2 B>A \
+| "G"G>E DB, D2 G>A | "D7"B2 A>G "G"G2|
+|| D>C \
+| "G"B,3 D "Em"E>D E-<G | "Am"A>G A-<B "C"E2 e2 \
+| "G"d>e dB "(Em)"c>B A-<G | "Am"c>d cB "D7"A2 d>c |
+| "G"B>d ef "Em"g3e | "G"d>B A-<G "C"E2 B>A \
+| "G"G>E DB, D2 G>A | "D7"B2 A>G "G"G2 |]
+S:https://www.folktunefinder.com/tunes/13128
+S:http://trillian.mit.edu/~jc/music/abc/air/BirksOfInvermay_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BirksOfInvermay_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/BirksOfInvermay_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BirksOfInvermay_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BirksOfInvermay_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

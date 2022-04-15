@@ -1,0 +1,25 @@
+X:855
+T:Brurleken at Sulhusgubba
+L:1/8
+M:3/4
+O:Sweden
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed1.html
+%%ID:00000ed1
+K:D
+f2 (3def (3def | gf e3d | c>B B<A Bc | d>B A<G FD | \
+f2 (3def (3def | gf e3d | c>B B<A Bc | d2 d4 ::
+a2 f<d f>f | g>f e<d c>d | c>B B<A B>d | c2 a4 |\
+a2 f<d f>f | g>f e<d c>d | c>B B<A B>c | d2 d4:|
+S:https://www.folktunefinder.com/tunes/36250
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

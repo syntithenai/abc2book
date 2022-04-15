@@ -1,0 +1,32 @@
+X: 1
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+S:https://www.folktunefinder.com/tunes/16856
+S:http://trillian.mit.edu/~jc/music/abc/reel/BrumleyBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/BrumleyBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_McPherson/BrumleyBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BrumleyBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BrumleyBrae.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BrumleyBrae.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

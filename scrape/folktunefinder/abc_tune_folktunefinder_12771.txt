@@ -1,0 +1,28 @@
+X:1
+T:Danza del oso
+T:the Bear's Dance
+M:4/4
+R:Reel
+Z:Jose Luis Ruiz <jruiz@MDR.INDRA-ESPACIO.ES> irtrad-l 2000-05-17
+K:Am
+e2A2 A2ed | e2A2 A2AB | c2c2 B2c2 | d4 d2cd |\
+e2e2 dcB2 | c2c2 BAG2 | A2c2 BAG2 | A8 :|
+ABc2 ABc2 | B2G2 G4   | ABc2 ABc2 | d4 d2cd |\
+e2e2 dcB2 | c2c2 BAG2 | A2c2 BAG2 | A8 :|
+S:https://www.folktunefinder.com/tunes/12771
+S:http://trillian.mit.edu/~jc/music/abc/Spain/BearsDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Spain/DanzaDelOso.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BearsDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/DanzaDelOso.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BearsDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/DanzaDelOso.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BearsDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/DanzaDelOso.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

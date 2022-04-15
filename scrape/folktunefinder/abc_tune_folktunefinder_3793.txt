@@ -1,0 +1,23 @@
+X: 5
+T: The Helston Furry
+M: C|
+L: 1/8
+F: http://www.an-daras.com/files/noteworthy/music/Helston%20Furry%20Ver.2.nwc
+K: C
+[| "C"C3D  E3F  | G2G2 "G7"G2AB | "C"c2G2 "G7"GAGF | "C"E4 C2G,2 \
+|  "C"C2CD E2EF | G2G2 "G7"G2AB | "C"c2G2 "G7"GAGF | "C"E2C2 "C7"C4 ||
+|| "F"F2A2 A2GF | "C"E2G2 G4   | "G7"D2F2 F2ED | "C"EDEF "C7"G4 \
+|  "F"F2A2 A2GF | "C"EFGA "G7"G2AB | "C"c2G2 "G7"GAGF | "C"E4 C4 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3793
+S:http://www.an-daras.com/files/noteworthy/music/Helston
+S:http://www.an-daras.com/files/noteworthy/music/Helston
+S:http://trillian.mit.edu/~jc/music/abc/England/HelstonFurry.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

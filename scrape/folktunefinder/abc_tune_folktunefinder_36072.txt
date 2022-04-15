@@ -1,0 +1,21 @@
+X: 1
+T: bronyraur (1:56)
+Z: Transcribed by LotRO MIDI Player: http://lotro.acasylum.com/midi
+% Original file: bronyraur.mid
+% Transpose: -7
+L: 1/4
+Q: 86
+K: C
+z7/4 D/4 [F5/8z/4] c/4 [f3/4z/4] F,/4 [F5/8z/4] [cz/2] D/4 [F5/8z/4]
+c/4 [f3/4z/4] F,/4 [F5/8z/4] [cz/2] D/4 [F5/8z/4] c/4 [f3/4z/4] F,/4
+[F5/8z/4] [cz/2] D/4 [F5/8z/4] c/4 [a3/4z/4] F,/4 [F5/8z/4] c/4
+[f3/4z/4] D/4 [F5/8z/4] c/4 [a3/4z/4] F,/4 [F5/8z/4] c/4 [f3/4z/4]
+S:https://www.folktunefinder.com/tunes/36072
+S:http://www.thefatlute.com/Tutorial.aspx
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

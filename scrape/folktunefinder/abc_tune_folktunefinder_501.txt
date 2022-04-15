@@ -1,0 +1,48 @@
+X: 42
+T:Danse des pes
+R:Danse de caractre
+C:Provence
+I:abc2nwc
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:Bbmaj
+zf||d2c/2B/2c/2d/2 B3F|:B2B/2c/2d/2c/2 B3B/2c/2|dd d/2e/2f/2e/2 d3d/2e/2|f3/2f/2 g3/2g/2 f3d/2e/2|
+ff g/2f/2e/2d/2 [1c3F:| [2c3d/2e/2|:f2g3/2d/2 e3c/2d/2|ee d/2e/2f/2c/2 d3B/2c/2|
+d2f3/2e/2 d2f/2e/2d/2c/2| [1Bd c2B3d/2e/2:| [2Bd f/2e/2d/2c/2 B4
+|:[M:6/8]f||d2B c2F|B/2A/2B/2c/2d/2e/2 f2f|d2B c2F|B3-B2:|
+f||g2f e2d|c3-c2c|d2f d2c|B6[|][L:1/16] (3(FGA||
+B2)BF d2fd|B2d2 F4|B2Bd c2cd|fedc B2|: (3(FGA||
+B2)BF d2fd|B2d2 F4|B2Bd c2ce|d2fd c2 (3(FGA|
+B2)BF d2fd|B2d2 F4|B2Bd c2cd|fedc B4|
+c2ce d2df|c2ce d4|F2GA BAGF|fedc d2B2|
+c2ce d2df|c2ce d4|f2ga bagf|=efge f2 (3(FGA||
+B2)BF d2fd|B2d2 F4|B2Bd c2ce|d2fd c2 (3(FGA|
+B2)BF d2fd|B2d2 F4|B2Bd c2cd|fedc B4|
+c2ce d2df|c2ce d4|F2GA BAGF|fedc d2B2|
+c2ce d2df|c2ce d4|f2ga bagf|=efge f2:|
+z2[M:4/4][L:1/8]d2ec B2Fd|c3/2d/2 ec B4|
+d2ec B2Fd|c3/2d/2 ec B4|d2Bd f2d2|
+B2d2f4|d2ec B2Fd|c3/2d/2 ec B4|d2Bd f3g|
+fd Bd ff/2f/2 ff|c2cc d2Bd|e3/2d/2 cB c2F2|
+g2gg f2d2|f3/2e/2 dc B4|c2cc d2Bd|
+e3/2d/2 cB c2F2|g2gg f2B2|d3/2c/2 BA B4
+|:[M:6/8]f||d2B c2F|B/2A/2B/2c/2d/2e/2 f2f|d2B c2F|B3-B2:|
+f||g2f e2d|c3-c2c|d2f d2c|B6|:[M:2/4][L:1/16]Bcde f2ff|
+f2f2 f2gf|e2fe d2ed| [1cBAG F2F2:| [2c8
+|:fede f2f2|edcd e2e2| [1dcBc d2d2|cBcd c2 z2:| [2edcB dcBA|B8|]
+%%begintext
+S:https://www.folktunefinder.com/tunes/501
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Danse de caractre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

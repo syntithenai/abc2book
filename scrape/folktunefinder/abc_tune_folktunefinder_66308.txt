@@ -1,0 +1,20 @@
+X:1880
+T:Within a Mile of Dublin
+Z: id:dc-reel-354
+M:C
+L:1/8
+K:D Mixolydian
+FG|ADD2 FEFG|ADD2 c2dc|ADD2 FEFG|ABcA G2:|!
+FG|Addc AGFG|Adde fdec|Addc AGFG|ABcA G2FG|!
+Addc AGFG|Adde f3g|afge fde^c|dcAF G2|]!
+S:https://www.folktunefinder.com/tunes/66308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

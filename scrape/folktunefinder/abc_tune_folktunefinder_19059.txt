@@ -1,0 +1,39 @@
+X: 1
+T: Vesivehmaan jenkka
+C: Yrj\"o Saarnio
+R: shottish
+M: 4/4
+L: 1/8
+K: F
+|: "F"AA AG "Bb"FF FD | "F"CC CA, C2 F2 | "C7"EE EF G2 GB | "F"AB AG F2 C2 |
+|  "F"AA AG "Bb"FF FD | "F"CC CF  A2 Ac | "C7"CC CE G2 AG | "F"F2 F2 F2 "fine"z2 :|
+|: "Dm"DF Ad Ad fa | "Gm"Bd ba g2 g2 | "A7"ab ag e^c eg | ag Af "Dm"~e2 d2 |
+|  "Dm"DF Ad Ad fa | "Gm"Bd ba g2 g2 | "A7"a2 ag e^c fe | "Dm"d2 d2 d2 z2 :|
+|: "F"ag fe dc BA | "Gm"cB dB G2 GG | "C7"gf ed c2 cf | "F"ag fe ~d2 c2 |
+|  "F"ag fe dc BA | "Gm"cB dB G2 Gf | "C7"e2 ed GB AG | "F"F2 A2 F2 z2 :|
+W:Muistattekos Vesivehmaan jenkkaa pojat viel!
+W:Harvoin ili niin lysti niinkuin oli siell!
+W:Lmmin oli kesilta, mieli korkealla,
+W:kun jenkantahti soi Vesivehmaalla!
+W:
+W:Siin meni nuoret sek vanhat samanlailla
+W:sellaista ei vauhtia nhty nill mailla!
+W:Vehnmen muorikin jo hypps tasajalkaa
+W:kun jenkantahti soi Vesivehmaalla.
+W:
+W:Kaikki sanoi: tst min tykkn kamalasti,
+W:jospa saisi jenkkaa nin menn aamuun asti!
+W:Maailma on ihana ja surut kaikki poissa,
+W:kun jenkantahti soi Vesivehmaalla.
+S:https://www.folktunefinder.com/tunes/19059
+S:http://trillian.mit.edu/~jc/music/abc/song/VesivehmaanJenkka_F6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/save/VesivehmaanJenkka_F6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/VesivehmaanJenkka_F6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/VesivehmaanJenkka_F6.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

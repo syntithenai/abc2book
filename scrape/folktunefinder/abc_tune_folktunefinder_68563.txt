@@ -1,0 +1,28 @@
+X:17
+T: Tageweis von der Koenigstochter und dem jungen Grafen
+N: A0020C
+O: Europa, Mitteleuropa, Deutschland
+N: Andere Melodie (1604)
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | A4A2B4B2 | c4c4z2
+c2 | c4A2B4c2 | A4G2F4
+F2 | A4A2B4B2 | c4c4z2
+c2 | c4A2B4c2 | A4G2F4
+c2 | c4B2A4G2 | F4G2A4
+c2 | d2c2c2A2 | c4B2AG | A4z4
+B4 | c4A2B4A2 | G4F4z2
+S:https://www.folktunefinder.com/tunes/68563
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

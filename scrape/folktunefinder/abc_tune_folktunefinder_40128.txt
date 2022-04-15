@@ -1,0 +1,30 @@
+X: 24
+T: 2. Salute to Frank Ferrel
+R: Reel
+L: 1/8
+M: C|
+C: Jerry Holland
+Z: Chords R. Shaylor, Sept. 2005
+% Q: 440
+K: G
+e/f/ |: \
+"G" g2 dB GBdB | "Am" cAFD "D" CDA,C | "G" BDGB "Em" TcBAG |  "Am" FAGE "D7" Ddef  |
+"G" g2 dB GBdB | "C"  cAFD "D" CDA,C | "G" BDGB "D7" cAFA  |1 "G" G2B2       Gdef :|2 "G" G2B2 {A}GFG^G || [K:D] |
+|: \
+"D" TA2    FA dAde | fdfg afdf | "A" (3efe ce "A7" aecA |  "D" dcdf "G" efdB  |
+"D" (3 ABA FA dAde | fdfg afdf | "A" (3efe ce "A7" aece |1 "D" (3ded ce dAFG :|2 "D" (3 ded ce "Bm" dBA ||
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 15 of 31
+S:https://www.folktunefinder.com/tunes/40128
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

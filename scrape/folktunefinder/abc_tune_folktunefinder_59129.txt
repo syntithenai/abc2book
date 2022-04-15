@@ -1,0 +1,45 @@
+X:242
+T:Danza (CT 002)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Mieres.
+N:Es, sin duda, la danza, uno de los regocijos predilectos de los asturianos, y bien cabe decir que cada pueblo posee sus danzas particulares.
+N:Pueden dividirse en tres clases, segn el gnero de las personas que en ellas intervienen: una, aquellas en que toman parte hombres y mujeres; otra, las de mujeres solas, y, por ltimo, las constitudas por hombres exclusivamente.
+N:Sin embargo, la lnea meldica en todas ellas no presenta ninguna particularidad mtrica o rtmica.
+N:nicamente suele estar indicado el gnero de las personas que intervienen por el significado de las estrofas poticas, pues las que se cantan cuando en la danza est excludo uno de los sexos, encierran generalmente un pensamiento dirigido al contrario, ya halageo, ya despectivo.
+N:Estas canciones son siempre mondicas y su rtimo casi exclusivo es el de seis por ocho.
+N:Para efectuar la danza se forma un crculo, bien cogindose los danzadores por las manos o trabndose solamente por el dedo meique.
+N:Una vez cerrado el crculo y comenzado el canto, se echan los brazos hacia adelante en la segunda parte del comps, volvindolos a su posicin natural al comenzar el comps siguiente, al mismo tiempo que el pie derecho avanza un paso, conservando el izquierdo en la posicin que tena, pero levemente levantado del suelo.
+N:En esta forma, se vuelven a levantar los brazos y el pie izquierdo se afianza en el suelo a la vez que con el derecho se da un paso hacia atrs, y as sucesivamente.
+N:Al mismo tiempo que estos movimientos, se efecta otro de traslacin hacia la derecha, haciendo girar el crculo lentamente.
+N:La manera de cantar las melodas y su distribucin rtmica en unin de la letra, no es la misma en todas las danzas, por lo cual hemos credo preferible, para mayor claridad, hacer la indicacin en cada caso que vaya apareciendo en este apndice.
+N:La relativa a la presente nota es una danza en la cual intervienen personas de ambos sexos, y su frase meldica consta de dos miembros correspondientes a una estrofa compuesta de dos versos octoslabos asonantados.
+N:El primero es entonado por una sola persona, conductora de la danza, y seguidamente cantan todos los danzadores el segundo verso de la estrofa con el miembro meldico correspondiente.
+N:No es esta danza a propsito para que la persona que la conduce pueda improvisar a su gustolas estrofas poticas, pues esto exige una especial distribucin de los miembros meldicos para las contestaciones del coro, segn puede verse ms adelante.
+A:Asturies
+O:Mieres
+Z:Cancioneru de Torner 002
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+"Solo" G|:G2c c2c|c3 A2 "Coro"B|B2c B2A|G3 G3-|G3 z2 "Solo"G|
+G2c c2c|c3 A2 "Coro"B|B2c B2A|G3 G3-|[1 G3 z2G:|[2 G3 z3||
+W:Si el cura va a los figos,
+W:qu haremos los vecinos
+W:Si el cura va les nueces,
+W:qu harn los feligreses
+W:
+S:https://www.folktunefinder.com/tunes/59129
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

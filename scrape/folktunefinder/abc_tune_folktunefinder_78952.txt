@@ -1,0 +1,29 @@
+X:511
+T: DIE FISCH IM WASSER WOHNEN
+N: E0486
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: A
+AB | c2B2c2d2 | e4c2
+e2 | d2c2B2e2 | c4z2
+AB | c2B2c2d2 | e4c2
+e2 | d2c2B2e2 | c4z2
+c2 | c2B2A2G2 | F4E2
+BA | G2FEFEC^D | E4z2
+FG | A2A2B2B2 | c2e2dc
+BA | B2A2A2G2 | A4z2
+S:https://www.folktunefinder.com/tunes/78952
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

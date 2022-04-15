@@ -1,0 +1,41 @@
+X: 1
+T: Ot Azoy (That's the Way)
+S: Shloimke Beckerman (1889-1974)
+R: khosidl
+N: From several transcriptions and people's playing
+M: 2/4
+L: 1/16
+%%staffsep 40
+%%vocalspace 0
+K: Dphr^F
+"A"\
+|: zC2 \
+| "D"=B,CD2 D2D2 | D4- DC=B,C | DEF2 F2F2 | F4- "(Cm)"FEDE \
+| "D"F2G2 TA3G | A2{c}B2 TA3G | F2G2 ABAG | F3E "Cm"FEDC |
+| "D"=B,CD2 D2D2 | D4- DC=B,C | DEF2 F2F2 | F4- "(Cm)"FEDE \
+| "D"F2G2 A3G | A2B2 A3G | "Cm"FCDE AGFE | "D"FED2 z2 :|
+"B"\
+|: D[E^C]D \
+| "G"G8 | B8 | G4 d4 | B4 G4 \
+| "Gm"B2A2 G4 | B2A2 G4 | "D7"c2B2 A4 | c2B2 A4 \
+| "Gm"~d3B "Cm"~c3A | "Gm"~B3G "D7"A3D |
+w: | | | | | | | ot a-zoi | | git a-zoy
+| "Gm"DBBA "D7"AGGF |1 "Gm"G4 z :|2 "Gm"G4 z2G2 \
+"C"\
+|:"D"F2G2 ~A3G | A2B2 TA3G | F2G2 ABAG | TF3E FEDC |
+| "D"CDDD "Cm"DEEE | "D"EFFF "Cm"FGGG \
+|1 "D"FGFG "Gm"ABGB | "D"A4 ~d4 :|2 "Cm"FCDE FGFE | "D"FED2 z |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/7248
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/OtAzoy.abc
+% Rhythm Khosidl
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

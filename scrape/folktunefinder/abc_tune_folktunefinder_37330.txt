@@ -1,0 +1,26 @@
+X:6255
+T:Tim Maloneys
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ad7.html
+%%ID:00000ad7
+K:G
+DG (3GGG Bd (3ddd | de dB ge dB |\
+G2BG DG BG | c2 Bc/B/ AG ED |\
+DG (3GGG Bd (3ddd | de dB d2 gf | \
+ef ed Bd ef | ge dB AG ED ::\
+eg (3ggg bg (3ggg | eB BA B2 ef |\
+g2 bg ag ed | de dB AG ED |\
+eg (3ggg bg (3ggg | eB BA B2 gf | \
+ef ed Bd ef | ge dB AG E2 :|
+S:https://www.folktunefinder.com/tunes/37330
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

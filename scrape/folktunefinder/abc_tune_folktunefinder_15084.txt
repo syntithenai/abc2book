@@ -1,0 +1,30 @@
+X: 1
+T: So I'm off with the Good Saint Nicholas Boat
+C: J.S.Skinner
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bed | "A"c3 c2A \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bec | "A"A3- A2 :|
+c \
+| "F#m"cfg agf | "Bm"ded "F#m"c2c | "F#m"cfg agf | "C#"g3 "(E7)"g2g \
+| "D"agf "A"e2e | "D"fed "A"c2c | "E"Bef "B7"gaf | "E"eee "E7"e2 ||
+e \
+| "Bm"f2f fdB | "E"g2g g2c | "Bm"d2d "E7"dcB | "A"e3 "E7"e2G \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"EFG | "A"A3- A2 |]
+S:https://www.folktunefinder.com/tunes/15084
+S:http://trillian.mit.edu/~jc/music/abc/jig/SoImOffWithTheGoodStNicholasBoat_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/SoImOffWithTheGoodStNicholasBoat_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SoImOffWithTheGoodStNicholasBoat_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

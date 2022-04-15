@@ -1,0 +1,24 @@
+X: 1
+T: O'Sullivan the Great
+O: Ireland
+R: march
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+G3A | "G"B2d2 g3a g3a bagf |    e2d2 B2A2 B4 A2G2 |    B2d2 "C"c2e2 "G"d2B2    A2G2 | "D"A4 A3B A4 ||
+G3A | "G"B2d2 g3a g3a bagf |    e2d2 B2A2 B4 A2G2 |    B2d2 "C"c2e2 "G"d2B2 "D"A3B  | "G"G4 G3A G4 |]
+f3g | "D"a2f2 d2B2 d4 g3a  | "C"b2g2 e2c2 e3f g3a | "G"b2g2 "D"a2f2 "G"g2e2    d2B2 | "D"A4 A3B A4 ||
+G3A | "G"B2d2 g3a g3a bagf |    e2d2 B2A2 B4 A2G2 |    B2d2 "C"c2e2 "G"d2B2 "D"A3B  | "G"G4 G3A G4 |]
+S:https://www.folktunefinder.com/tunes/15622
+S:http://trillian.mit.edu/~jc/music/abc/march/OSullivanTheGreat_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/OSullivanTheGreat_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

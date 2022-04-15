@@ -1,0 +1,27 @@
+X: 1
+T: Glasgow Green
+R: strathspey
+S: printed MS of unknown origin, with handwritten chords
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A>G  | "D"F<D D>B, A,>B, D>E | "D"F<D "Em"G>F "A7"E2 F>G | "D"A<F F>A "Em"G<E E>G | "Bm"F<D "E7"(3EFG "A7"E2 ||
+A>G  | "D"F<D D>B, A,>B, D>E | "D"F<D "Em"G>F "A7"E2 F>G | "D"(3ABc (3dcB "A7"(3ABA (3GFE | "A7"(3DCB, (3A,B,C "D"D2 |]
+F>G  | "D"A<F F>E  D2    F>A | "C"G<E     E>D    =C2 E>G |"Bm"F<D D>C B,2  D>F | "A"E<A   "E7"(3BA^G "A"A2 ||
+F>=G | "D"A<F F>E  D2    F>A | "C"G<E     E>D    =C2 E>G |"Bm"F<D D>C B,>D F>B | "D"(3AFA "A7"(3GFE  "D"D2 |]
+S:https://www.folktunefinder.com/tunes/19363
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlasgowGreed_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlasgowGreen_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlasgowGreen_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/GlasgowGreen_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

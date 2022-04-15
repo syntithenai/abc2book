@@ -1,0 +1,26 @@
+X:356
+%%topmargin 3cm
+T:Mrs. Stewart Fleming of Killichassie
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+F | D>B,(D>F) ~B2 (A>G) | FF | D>B,D>F ~B2 (A>G) | (A/B/c) F>A B<B,~B, ::
+d | B<fd<f B<fd<f F<cA<c (F<c)(A<c) | B<fd<f B<fd<f | (b/a/)(g/f/) g>e d<B~B ::
+F | (DB, G>B,F>B, | (D>B,) (G/F/)(E/D/) (E<C)C>F | (D>B,)F>B, G>B,F>A | B>A{/G}F>E D<B,B, ::
+g | fBb>B | fg | fBb>B | B>G{/G}F>E D<B,B, :|
+S:https://www.folktunefinder.com/tunes/71385
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Stewart_Fleming_of_Killichassie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0356.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:416
+T:Angus Polka No.1
+T:Cameron Men's Polka No.1
+D:Boys of the Lough, Farewell and Remember Me
+Z:Nigel Gatherer scots-l 2002-9-3
+M:2/4
+L:1/16
+K:D
+A2f2 B2g2 | A2f2 f2ef | gfed cdef | edcB AGFG |
+A2f2 B2g2 | A2f2 f2ef | gfed cABc |1 d2f2 d3B :|2 d2f2 d3 z ||
+F2A2 ABAF | G2B2 B2cB | A2cB AGFE | DFAB A2AG |
+F2A2 ABAF | G2B2 B2cB | ABcB AGFE | D2F2 D2z2 :|]
+S:https://www.folktunefinder.com/tunes/16034
+S:http://trillian.mit.edu/~jc/music/abc/polka/AngusPolkaNo1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/CameronMensPolkaNo1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/AngusPolkaNo1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/CameronMensPolkaNo1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/AngusPolkaNo1_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/CameronMensPolkaNo1_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

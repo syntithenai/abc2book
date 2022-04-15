@@ -1,0 +1,24 @@
+X:497
+T: "Lass rauschen"
+N: Z1177
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Liebes - Lied
+M: 3/8
+L: 1/16
+K: F
+C2 | F2F2A2 | c3dcB | A6 | G2z2
+G2 | A2B2c2 | c2B2A2 | G4z2 | z4
+c2 | A2B2c2 | A2B2c2 | d4c2 | B6
+A2c2A2 | G2F2G2 | F4
+S:https://www.folktunefinder.com/tunes/69356
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

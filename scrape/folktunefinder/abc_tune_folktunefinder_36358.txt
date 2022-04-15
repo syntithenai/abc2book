@@ -1,0 +1,35 @@
+X:1395
+T:Dinky Dorian's
+C:Frankie Byrne
+M:4/4
+O:Ireland
+O:Canada
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000aeb.html
+%%ID:00000aeb
+K:A mixolydian
+ed |\
+c2 Bc ABcd| egfd edef | \
+gA (3AAA gA aA | gA (3AAA gfed |
+c2Bc ABcd | egfd edef |\
+{a}gfge df ed | cd Bc A2 :|
+ef | \
+aA (3AAA aAbA | {b}aA (3AAA {b}agef |\
+gA (3AAA gA aA | gA (3AAA gefg |
+aA (3AAA aAbA | aA (3AAA agef |\
+gfge dfed | cd Bc A2 ef |
+aA (3AAA aAbA | aA (3AAA agef |\
+gA (3AAA gAaA| gA (3AAA gefg |
+aA (3AAA gA (3AAA | fA (3AAA edef |\
+gfge dfed |cd Bc A2|]
+S:https://www.folktunefinder.com/tunes/36358
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

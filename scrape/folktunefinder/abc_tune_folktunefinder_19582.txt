@@ -1,0 +1,33 @@
+X: 1
+T: Mr. Oswald of Auchincruive
+T: the Balquidder Strathspey
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | dG "D7"F<A A>B \
+| "G"G/A/B BA B<g | "D7"dG "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"ga g |]
+S:https://www.folktunefinder.com/tunes/19582
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrOswaldOfAuchincruive.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrOswaldOfAuchincruive_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MrOswaldOfAuchincruive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrOswaldOfAuchincruive.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrOswaldOfAuchincruive_G.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

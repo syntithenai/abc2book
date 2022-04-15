@@ -1,0 +1,28 @@
+X:1
+T:If Ever You Were Mine
+R:waltz
+C:Maurice Lennon
+D:GLCD 1074 Cut 3 Jerry O'Sullivan "The Invasion"
+Z:By Phillip L. Sexton
+M:3/4
+L:1/8
+K:G
+DE|G4 e2|{e}d4 (3BAG|AB G4|{A}G4 DE|\
+G4 e2|{e}d4 Bd|d6-|d2 e2 f2|!
+g4 ed|g4 ed|e2 {e}d3 B|AB G2 (3GFE|\
+D4 ed|d4 (3BAG|DEG2{A}GA|G6|[1{A}G4:|[2{A}G6||!
+B3 d (3BAG|d4 (3Bcd|c2 d2 e2|d4 (3Bcd|\
+B3 d(3BAG|d4 (3Bcd|c2 d2 e2|de fd ef|!
+g2{a}g2 ed|g2{a}g2 ed|e2 {e}d3 B|AB G2 (3GFE|\
+D4 ed|d4 (3BAG|DE G2{A}GA|G6|[1{A}G6:|[2{A}G4|
+S:https://www.folktunefinder.com/tunes/19984
+S:http://trillian.mit.edu/~jc/music/abc/waltz/IfEverYouWereMine.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:26
+T: Luthers Lied auf die zwei Maertyrer von Bruessel
+N: A0386
+O: Europa, Mitteleuropa, Deutschland
+N: Luther 1523.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/4
+K: F
+f2 | f4f4e4d4 | f4d4c4z2
+A2 | c4d4c4F4 | A4G4F4z2
+f2 | f4f4e4d4 | f4d4c4z2
+A2 | c4d4c4F4 | A4G4F4z2
+A2 | A4A4B4A4 | A4A4F4z2
+c2 | e4f4g4f2e2 | e2dcd4c4z2
+c2 | e4c4d4c4 | c4c4A4z2
+F2 | A4B4c4B2A2 | A2GFG4F4z2
+c2 | c2c2d2e2f8 | g4F8z4
+S:https://www.folktunefinder.com/tunes/80085
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Text Has notes text
+% Has_accompaniment_chords No chords

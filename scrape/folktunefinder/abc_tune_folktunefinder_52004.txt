@@ -1,0 +1,27 @@
+X: 1
+T:Qu'il est doux de ne rien faire
+C:V. Leutreau
+B:Trad 1, 104
+M:3/8
+R:Bourree
+L:1/16
+%F:http://members.yline.com/~zeiler1/abc/czb3.abc 2007-05-02 21:23:45 UT
+K:C
+G2|:cBcdec|fedcBc|dGABcd|B2 (3GGG GG|\
+cBcdec|fedcBc|dGABcd|1 c4G2:|2 c4c2||
+|:ABcAdc|B2 (3GGG GG|ABcdef|e2d2c2|\
+ABcAdc|B2 (3GGG GG|ABcdef|1 g4B2:|2 g6||
+%%newpage
+%%center Waltzes
+S:https://www.folktunefinder.com/tunes/52004
+S:http://members.yline.com/~zeiler1/abc/czb3.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: The Fair Haired Lass
+M: 4/4
+L: 1/8
+S: Dianna Boullier, Bangor (fiddle)
+R: Reel
+D: Radio Na Gaeltachta
+N: As played
+Z: Bernie Stocks
+F: http://ceolas.org/pub/tunes/abc.tunes/Book3.abc 2003-10-31 15:46:06 UT
+K: Amix
+|: cd | "A"ea ~a2 efgf | ea ~a2 ABcd | ea ~a2 ef{a}fe | afge "G"[D2d2] :|
+|: cd | "A"eA ~A2 efgf | eAA=c  "G"BGGB | "A"ABcd ef{a}fe | afge "G"[D2d2] :|
+S:https://www.folktunefinder.com/tunes/17114
+S:http://ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/FairHairedLass_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/FairHairedLass_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/FairHairedLass_D.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

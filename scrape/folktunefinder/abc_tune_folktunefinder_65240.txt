@@ -1,0 +1,23 @@
+X: 152
+T:Joy Street Jig
+% Nottingham Music Database
+S:Ralph Page, via Phil Rowe
+M:6/8
+K:A
+E|"A"A2B c2d|"A"ea2 "D"g2f|"A"e2c cBc|"Bm"d2c "E7"B2E|"A"A2B c2d|"A"ea2 "D"g2f\
+|"A"edc "E7"dcB|"A"A3 -A2::
+B/2A/2|"E"GFG "E7"EFG|"A"Ace aec|"E"B^AB EFG|"B7"AGF "E"E2A|
+"E"GFG "E7"EFG|"A"Ace aec|"E"B^AB "E7"EFG|"A"AcB A2:|
+S:https://www.folktunefinder.com/tunes/65240
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

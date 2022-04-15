@@ -1,0 +1,22 @@
+X:71
+T:Missing the F in C
+C:Greg Brown
+D:JIIG:Ian Robb, James Stephens, Ian Clark and Greg Brown
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:C
+cde dcA | GAc d2e | d2A BAG | d^cd d=cB | ABc Bcd | ced c2e |
+d2A BAG | ced c3 :: gcc bca | gcc Bcd | B2G GAB | ced cde |
+gcc ^fca | gcc Bcd | BGG GAB | ced c3 :|
+S:https://www.folktunefinder.com/tunes/53728
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

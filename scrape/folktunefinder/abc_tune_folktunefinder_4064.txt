@@ -1,0 +1,30 @@
+X: 2
+T: Rufty Tufty [D/G]
+O: Cecil Sharp 1911
+N: Two couples facing.
+N: The title means swaggering, casual, or helter-skelter.
+N: Playford Ball
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+P: 3xAABBCC
+K: G
+|: "D"d2 de | f2 ef | "G"gg "A7"f>e |1 "D"d4 :|2 "D"d3 e/2f/2 ||
+|: "G"gf ed | "D7"dc "G"B>c | dd "(Am)"cB | "D7"A2 "G"G2 :|
+|: "G"B>c dd | "C"ec "G(D7)"d2 | "G"B>c dd | "C"ec "G(D7)"dB/2c/2 | "G"dd "C"cB | "D7"A2 "G"G2 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/4064
+S:http://trillian.mit.edu/~jc/music/abc/England/RuftyTufty.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/RuftyTufty.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/RuftyTufty.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/RuftyTufty.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/RuftyTufty
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

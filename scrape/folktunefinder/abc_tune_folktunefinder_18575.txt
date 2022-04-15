@@ -1,0 +1,79 @@
+X: 1
+T: Alexander's Rag Time Band
+C: words, music: Irving Berlin [1911]
+M: 2/2
+L: 1/8
+Q: 1/8=220
+F: http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+K: G
+{^A} B2 | {^A} B3 z {^A} B2 | {^A} B3 z {^A} B2 | {^A} B2 =A2 F2 D2 | G3 z {^d} e2 |\
+{^d} e3 z {^d} e2 | {^d} e3 z {^d} e2 | {^d} e2 c2 G2 c2 | e3 z e2 |
+{^c} d2 e2 {^c} d2 e2 | {^c} d2 e2 {^c} d2 B2 | G2 {^A} B2 G2 {^A} B2 | G2 {^A} B2 G2 z |\
+A2 A2-A2 B2 | ^c2 A2 B2 c2 | d2 z d2 z | c B3 A2 {^A} B2 |
+{^A} B3 z {^A} B2 | {^A} B3 z {^A} B2 | {^A} B2 =A2 F2 D2 | G3 z {^d} e2 |\
+{^d} e3 z {^d} e2 | {^d} e3 z {^d} e2 | {^d} e2 c2 G2 c2 | e3 z e2 |
+d3 z B2 | A2 G2 B2 A2 | G4 g4 | e2 g2-g2 d2 |\
+{^c} d3 z d2 | {^c} d3 z d2 | {^c} d2 d2 e2 f2 | g6 |]
+%
+W: Oh, my honey, Yes Oh, my honey, Yes
+W: Better hurry and let's meander.
+W: Ain't you goin' Where you goin'
+W: Ain't you goin' Where you goin'
+W: To the leader man, Raggie music band
+W:
+W: Oh, my honey, What
+W: Oh, my honey, What
+W: Let me take you to Alexander's Grandstand Brass Band,
+W: Ain't you coming along
+W:
+W: Come on and hear, I got to hear!
+W: Come on and hear, I got to hear! Alexander's Ragtime Band!
+W: Come on and hear, I'll get to hear,
+W: Come on and hear, I'll get to hear! It's the best band in the land!
+W: Can you play a bugle call like I never heard before
+W: Why, so natural that you'll want to go to war!
+W: That's just the bestest band what am, Honey lamb!
+W:
+W: Come on along, I'm goin' along,
+W: Come on along, I'm goin' along, Let me take you by the hand,
+W: Up to the man Up to the man,
+W: Up to the man, Up to the man, Who's the leader of the band.
+W: And I would like to hear the Swanee River played in ragtime!
+W: Come on and hear I'm going to hear
+W: Come on and hear I'm going to hear Alexander's Ragtime Band!
+W:
+W: Oh, my honey, Well!
+W: Oh, my honey, Well! There's a fiddler with notes that screeches
+W: Like a chicken! Like a chicken!
+W: Like a chicken! Oh, you're kickin'! And a clarinet Is the leader's pet;
+W:
+W: Come on and listen, Sure!
+W: Come on and listen, Sure! To a classical band what's peaches,
+W: Come now, somehow, Better hurry along!
+W:
+W: Come on and hear, I got to hear!
+W: Come on and hear, I got to hear! Alexander's Ragtime Band!
+W: Come on and hear, I'll get to hear,
+W: Come on and hear, I'll get to hear It's the best band in the land!
+W: Can you play a bugle call like I never heard before
+W: Why, so natural that you'll want to go to war!
+W: That's just the bestest band what am, Honey lamb!
+W:
+W: Come on along, I'm goin' along,
+W: Come on along, I'm goin' along, Let me take you by the hand,
+W: Up to the man Up to the man,
+W: Up to the man, Up to the man, Who's the leader of the band.
+W: And I would like to hear the Swanee River played in ragtime.
+W: Come on and hear, I'm going to hear,
+W: Come on and hear, I'm going to hear Alexander's Ragtime Band!
+S:https://www.folktunefinder.com/tunes/18575
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/AlexandersRagtimeBand1_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/song/AlexandersRagtimeBand1_Gw.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

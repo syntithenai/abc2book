@@ -1,0 +1,31 @@
+X:158
+T: Lied der Siegerlaender Hammerschmiede
+N: D0266
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Muenster
+N: rhythmische Korrekturen in Zeile 261, 262 und 263 (Pause ergaenzt) ;
+N: 263 und 265; Tonrepetitionen ; Pause - Takt in Zeile 262 fuer
+N: szenisches Spiel vorgesehen; Refrain (ab Zeile 264) mehrstimmig
+N: Inzipit = Variante zum Lied ()
+R: Trink - Lied, Zech - Lied
+M: 6/8
+L: 1/8
+K: G
+D | G2GGFE | D3B,2
+D | GGGGFE | D3B,2z
+B2B2BBB2 | BBedd2c2
+AAA2AAAA | AAedd2c2 | z8
+G2GGG2D2 | d2ddB2z2
+BBBBBB | BABd2c
+AAAAAA | AGAB3
+BBBBBB | BABd2c
+AAAAAA | AGAG2
+S:https://www.folktunefinder.com/tunes/72615
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Trink - lied, zech - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

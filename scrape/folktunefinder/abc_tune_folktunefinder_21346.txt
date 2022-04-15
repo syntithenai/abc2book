@@ -1,0 +1,24 @@
+X:897
+T:Cajun jig
+R:32 bar jig
+O:England
+M:6/8
+%%ID:00000d11
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d11.abc
+K:G
+GBd GBd | ecc c2B | Ace Ace | edd d2B |\
+GBd GBd | ecc c2c | BcB ABA | G6 ::
+g2g f2a | e2d d3 | Ace Ace | edd d2f |\
+g2g f2a | e2d d3 | Ace Ace | dBG G3:|
+S:https://www.folktunefinder.com/tunes/21346
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000d11.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm 32 bar jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

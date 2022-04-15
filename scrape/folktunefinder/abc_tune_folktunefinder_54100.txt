@@ -1,0 +1,26 @@
+X: 89
+T:Lesnoto Oro
+O:Macedonia
+L:1/8
+M:7/8
+Q:1/4=120
+K:Gm
+%%MIDI beatstring fppmpmp
+%%MIDI drum d3d2d2 43 43 43
+|:[D3B3][D2B2][D2B2]|[Fc][DB][Fc][D4B4]|\
+[DF][DB][Fc][F3d3]c|[DB][Fc][DB][Fc][D3B3]:|
+|:[D3G3][D2G2][D2A2]|[D3B3][DA][D3-G3-]|\
+[D2G2][D2-B2-][D2B2][DA]|[D3G3][DA][D3G3]:|
+Q:1/4=180
+|: !drum! f2edec2|B2FBcde|d2cd2c2|[1B2FBcde:|[2 B3 B4|
+Q:1/4=210
+|:d2cBcBA|B2AGABc|B2AB2A2|[1G2FGABc:|[2G3 G4|
+|:d2cBcBA|B2AGABc|B2AB2A2|[1G2FGABc:|[2G3 G4|
+S:https://www.folktunefinder.com/tunes/54100
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

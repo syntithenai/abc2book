@@ -1,0 +1,44 @@
+X:20
+T:Miss Gordon of Abergeldie's Jigg
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/3/04
+N:Petrie's First Collection, page 9
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:C
+[V:1] f|edc dBG|cAF GEC|DFA dfe|dag fed|
+[V:2] z|c3  g3 |f3  e3 |d3  G3 |B3  g3 |
+[V:1] edc dBG|cAF GEC|Ege fdB|c3  c2:|
+[V:2] c'3 g3 |f3  c3 |zzc g2g|ceg c2:|
+[V:1] e|ceg gec|(B/c/d)d def|efg Tf2e|dec   BAG|
+[V:2] z|c'3 c3 |e3       b3 |c'3 abc'|f2^f g2=f|
+[V:1] ceg gec|(B/c/d)d def|efg fed|cGE C2c|
+[V:2] e3  c3 |G3       B3 |c2e g2G|c3  ceg|
+[V:1] ceg gec|(B/c/d)d def|efg  Tf2e|dec  BAG |
+[V:2] e3  c3 |g3       b3 |c'3  abc'|f2^f g2=f|
+[V:1] [G,3E3c3] cGE|[G3c3e3] cGE|gec fed|c3 c3|]
+[V:2] e2c       C2z|c2G      C2z|c3  G3 |C3 C3|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72047
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MissGordonOfAbergeldiesJigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Gordon_of_Abergeldies_Jigg.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

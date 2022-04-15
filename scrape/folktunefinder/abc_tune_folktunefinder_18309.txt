@@ -1,0 +1,26 @@
+X: 1
+T: Wicked Willy
+C: Andrew Rankine
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+|: d2ce dfed | dfed cee2 | c2Bd cedc | ABAG FAA2 \
+|  d2ce dfed | dfed cee2 | c2Bd cecB | Acge fdd2 :|
+|: f2ef edcB | A2^GA BAGA | =G2FG AGFG | A2^GA BAGA \
+|  f2ef edcB | A2^GA BAGA | =G2FG BGcG | "D"d2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/18309
+S:http://trillian.mit.edu/~jc/music/abc/reel/WickedWillie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/WickedWillie_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WickedWillie_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

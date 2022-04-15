@@ -1,0 +1,31 @@
+X: 2
+M: 3/4
+L: 1/8
+P: G\"oteborsk masurka
+K: G
+|: "G"d>c B2 B2 \
+| "D7"c>B A2 A2 \
+| A>B cd ef \
+|1,3 "G"g>B d2 d2 \
+:|2,4 "G"g2 g4 :|
+|: "G"d>c BG Bd \
+| g>B d2 B2 \
+| "D7"c>A a2 f2 \
+|1 "G"(3gag f>e d2 \
+:|2 "G"g2 g4 |]
+|: "G"d>c BG Bd \
+| g>B d2 B2 \
+| "D7"c>A a2 f2 \
+|1 "G"(3gba (3gfe d2 \
+:|2 "G"g2 g4 |]
+S:https://www.folktunefinder.com/tunes/8113
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Masurka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Masu_Gothenburg.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/MasurkaGoth.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

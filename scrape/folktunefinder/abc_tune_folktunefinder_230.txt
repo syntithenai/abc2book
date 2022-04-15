@@ -1,0 +1,25 @@
+X: 5
+T: Miller's Maggot
+M:6/8
+L:1/8
+S:THSP
+R:jig
+K:G
+|:"G"G2A B2A | "Em"B2A BGE | "G"G2A B2A | "Em"Bee "C"efg \
+| "G"G2A B2A | "Em"B2A BGE | "C"gfe "D"dBA |1 "Em"Bee "D7"dBA :|2 "Em"Bee "Bm"e2d ||
+|:"Em"e2f gfe | "G"d2B BAG | "C"e2f gfg | "D"aga "B7"bgf \
+| "Em"e2f gfe | "G"d2B BAG | "Am"A2B cBA |1 "Em"Bee "Bm"eBd :|2 "Em"Bee "D7"dBA |]
+% "G"HG6 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/230
+S:http://trillian.mit.edu/~jc/music/abc/Contra/practice.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

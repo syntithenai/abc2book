@@ -1,0 +1,31 @@
+X: 1
+T: Muirtown House
+C: W.Morrison
+R: reel, hornpipe
+B: RSCDS 25-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A>F \
+| "D"D2D2 DEFG | AdcB AGFG | "Em"E2E2 EFGA | Bgfd "A7"ceAg |
+| "D"fdcd Adcd | fdec dBAG | "D"FdBG "A7"EBAG | "D"F2D2 D2 ||
+|| a>g \
+| "D"fdcd Adcd | fdad "(G)"bd"(D)"ag | fdcd Adcd | fgab "A7"e2ag |
+| "D"fdcd Adcd | fdec dBAG | "D"FdBG "A7"EBAG | "D"F2D2 D2 |]
+S:https://www.folktunefinder.com/tunes/13643
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MuirtownHouse.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MuirtownHouse.abc
+% Rhythm Reel, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:340
+T: Wollt ihr wissen, wie der Bauer (4-39), S. 53
+N: P0600
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: ]
+M: 3/4
+L: 1/16
+K: G
+G2B2 | d3d4e2zd2 | B3GG4
+G2B2 | d4d4e2d2 | B3GG4
+G2A2 | B6B2A4 | G8
+d2d2 | B4B4z4G2A2 | B4B4z4
+G2A2 | B4B4z4G2A2 | B4B4
+G2A2 | B6B2A4 | G8
+S:https://www.folktunefinder.com/tunes/76320
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

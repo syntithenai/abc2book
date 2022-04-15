@@ -1,0 +1,30 @@
+X: 1
+T: Jimmy Shand's Compliments to Miss Jean Milligan
+C: Jimmy Shand
+R: strathspey
+B: Newcastle
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+"G7"f4 \
+| "C"ec3 (3c2B2c2 "G7"d3B G3f | "C"ec3 c3e "F"f4 "G7"g3f \
+| "C"ec3 (3c2B2c2 "G7"d3B G3G | "F"Af3 "G7"edcB "C"c4 :|
+z4 \
+| "Am"A3B c3A "E7"^G3A B3G | "Am"A3B c3d "E7"e4 E4 \
+| "Am"A3B c3A "E7"^G3B E3d | "Am"cA3 "E7"cBA^G "Am"A4 |]
+"E7"E4 \
+| "Am"A3B c3A "E7"^G3B E3d | "F"A3B c3d "C"e4 "G7"d4 \
+| "C"c3e g3e "Dm"fedc B3d | "Am"cA3 "E7"cBA^G "Am"A4 |]
+S:https://www.folktunefinder.com/tunes/19429
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/JimmyShandsComplimentsToMissJeanMilligan_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/JimmyShandsComplimentsToMissJeanMilligan_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

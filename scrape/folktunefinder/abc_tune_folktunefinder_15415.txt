@@ -1,0 +1,28 @@
+X: 1
+T: Duncan Gray
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: A
+[| "A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 \
+|| "A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 |]
+[| "A"ce  ed/c/ | "Bm"dd dB/c/ | d>c "B7"BA | "E7"GF E2 \
+|| "A"ec "E7"dB | "A"cA "E7"B2 | "A"A2 "E7"B>d | "A"cA A2 |]
+S:https://www.folktunefinder.com/tunes/15415
+S:http://trillian.mit.edu/~jc/music/abc/march/DuncanGray.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/DuncanGray_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/DuncanGray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/DuncanGray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/DuncanGray_A16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DuncanGray.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/DuncanGray_A16.abc
+S:http://trillian.mit.edu/~jc/music/book/500/DuncanGray.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

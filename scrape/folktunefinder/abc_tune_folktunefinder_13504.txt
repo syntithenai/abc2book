@@ -1,0 +1,29 @@
+X:1
+T:Chaffpool Post (The)
+M:4/4
+L:1/8
+Q:190
+R:barndance
+Z:Philippe Varlet (9/10/99)
+S:ChristopherGeorge Partington <ChrisTheFiddlerPartington@Hotmail.com> tradtunes 2006-9-11
+K:G
+A | B2AB e2dB | d2cA E2FG | A2AB cAFA | GABG D2B,D |
+B2AB e2dB | d2cA E2FG | A2AB cAFA | G2g2 g3 :||
+f | e^def gfga | b2d2 d3 B | cBAB cdef | g2B2 B2gf |
+e^def gfga | b2d2 d3 B | cBAB cdef | g2fa g3 :||
+S:https://www.folktunefinder.com/tunes/13504
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Chaffpool_Post_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Chaffpool_Post_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Chaffpool_Post_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Chaffpool_Post_The_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Chaffpool_Post_The_1.abc
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

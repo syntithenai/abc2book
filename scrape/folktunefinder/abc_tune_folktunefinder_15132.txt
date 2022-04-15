@@ -1,0 +1,52 @@
+X:1
+T:Sweets of May
+S:Nottingham Music Database
+P:AABBCC
+C:Kevin Briggs, via EF
+M:6/8
+L:1/8
+K:G
+"A"\
+d/2c/2|\
+"G"B2G "D7"AFD|\
+"G"GAG "D7"Gdc|\
+"G"B2G GAB|\
+"C"cBc "D7"d2c|\
+"G"B2G "D7"AFD|\
+"G"GAG "D7"Gdc|\
+"G"B2G "D7"AFD|\
+"G"G3 -G2:|\
+"B"\
+A|\
+"Am"ABA A2G|\
+"Em"E2F G2"E"^G|\
+"Am"ABA c2d|\
+"Dm"e2d "E7"c2B|\
+"Am"ABA A2G|\
+"Am"ABA c2d|\
+"Am"A2A "G"BAG|\
+"Am"A3 -A2:|\
+"C"\
+(3A/2B/2c/2|\
+"D"d3 dcd|\
+"D"D3 DED|\
+"Am"c3 cBc|\
+"D7"D3 DEF|\
+"G"G2D "D7/a"G2A|\
+"G/b"B2G "C"B2c|\
+"D7"d2D DEF|\
+"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/15132
+S:http://trillian.mit.edu/~jc/music/abc/jig/SweetsOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/SweetsOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/SweetsOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/SweetsOfMay.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/SweetsOfMay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

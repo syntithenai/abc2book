@@ -1,0 +1,24 @@
+X:49
+T: AUS ISTS MIT MIR
+N: E0665
+O: Europa, Mitteleuropa, Deutschland, Bergstrasse, Alsbach
+R: Liebes - Lied, Trennung
+M: 3/8
+L: 1/8
+K: D
+ | A3 | A3 | FAA | F
+AA | B3 | B3 | BBB | d
+cB | A3 | A3 | AGG | A
+FF | GEE | D
+FA | AGG | A
+FF | GEE | D2z
+S:https://www.folktunefinder.com/tunes/76534
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied, trennung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

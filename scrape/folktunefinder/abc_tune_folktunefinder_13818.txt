@@ -1,0 +1,32 @@
+X: 1
+T: the Baddeck Gathering
+C: Pipe Major Alexander S. MacDonald
+R: jig, march
+B: MacQuarrie Collection, Little p.14, Gathering of Clans p.68, BSFC XI-10
+D: Harvey Tolman on matching cassette
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"ded fef | d3 d2A | ded fef | a3 a>gf \
+| "G"gag gfg | "D"afd def | "E7"efd cdB | "A7"ABG ABc |
+| "D"ded fef | d3 d2A | ded fef | a3 a>gf \
+| "G"gag gfg | "D"afd def | "A7"efg ABc | "D"d3 d2 ||
+g \
+| "D"faf d2g | faa agf | "A7"efg c2g | egg gfe \
+| "D"fga d2g | faa agf | "A7"efg  ABc | "D"d3 d2 ||
+g \
+| "D"faf d2g | faa agf | "A7"efg c2g | egg gfe \
+| "D"fga "A7"ABc | "D"dcd "G"BAG | "A7"efg ABc | "D"d3 d2 |]
+S:https://www.folktunefinder.com/tunes/13818
+S:http://trillian.mit.edu/~jc/music/abc/jig/BaddeckGathering.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/BaddeckGathering.abc
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

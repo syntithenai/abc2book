@@ -1,0 +1,54 @@
+X: 1
+P: Tango Caliente (in Am)
+R: tango
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: "Am"Ee-e^d e4- \
+| e~e^de fe=dc \
+| "E7"cB-B^A B4- \
+| B8 \
+| "E7"Ed-d^c d4- \
+| d~d^cd ed=cB |
+| "Am"dc-cB c4- \
+| c6 _B2 \
+| "A7"A^c-cd e4- \
+| eA^cd ecde \
+| "Dm"gf-fe f4- \
+| f6 f2 |
+| "Am"fe-e^d e2c2 \
+| "E7"cB-B^G E2B2 \
+| "Am"BA-A^G A4- \
+|1 "Am"Az3 F4 \
+:|2 "Am"Az3 |] \
+z2A_A |
+|: "G"G4- GABc \
+| dB-BA G2F2 \
+| "C"FE-E^D E4- \
+| E6 ^D2 \
+| "E7"E^G-GA B4- \
+| BE^GB dc-cB |
+| "Am"dc-cB A4- \
+| A4 "(A,7)"A2G2 \
+| "Dm"Fd-d^c d4- \
+| d~d^cd ed=cA \
+| "Am"Ec-cB c4- \
+| c~cBc dcAE |
+| "B7"^DB-B^A B3D- \
+| "E7"=DB-B^A B2c2 \
+| "Am"BA-A^G A4- \
+|1 "Am"A3E cBA_A \
+:|2 "Am"Az3 z4 |] \
+"Am"Az2 .e .az3 |]
+S:https://www.folktunefinder.com/tunes/6117
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Tango_Caliente.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

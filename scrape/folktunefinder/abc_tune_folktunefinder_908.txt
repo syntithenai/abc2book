@@ -1,0 +1,21 @@
+X:274
+T:Aiken Drum
+M:4/4
+L:1/4
+Q:1/4=200
+K:D
+d/2e/2|"D"ff g/2f/2e/2d/2|"G"B2 d>B|"D"A>B dA|"E7"fe "A7"ed/2e/2|
+"D"ff g/2f/2e/2d/2|"G"B2 d>B|"A7"AA Bc|"D"d3:|
+|:d/2e/2|ff fe/2d/2|"G"gg b>g|"D"fa fd|"Em"fe "A7"ed/2e/2|
+"D"ff g/2f/2e/2d/2|"G"B2 d>B|"A7"AA Bc|"D"d3:|
+S:https://www.folktunefinder.com/tunes/908
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

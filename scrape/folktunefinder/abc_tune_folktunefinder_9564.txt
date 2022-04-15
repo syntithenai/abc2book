@@ -1,0 +1,24 @@
+X: 3
+P: Sylvia Miskoe
+C: Etienne Ozorak 2/98
+R: jig
+M: 6/8
+L: 1/8
+K: G
+   d \
+| "G"GBd dBd | "D7"cAG FGA | "G"GBd dBd | "C"ece "D7"d2d \
+| "G"GBd dBd | "D7"cAG FED | "C"EGE "G"DGB | "D7"cAF "G"G2 :|
+|: d \
+| "Em"e2d efg | "G"dBB BAB | "Em"e2d efg | "G"dgB "D7"ABd \
+| "Em"e2d gfe | "G"d2B BAG | "C"EGE "G"DGB | "D7"cAF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/9564
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ13.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

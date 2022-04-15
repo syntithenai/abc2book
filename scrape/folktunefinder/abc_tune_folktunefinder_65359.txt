@@ -1,0 +1,27 @@
+X: 271
+T:Colonel Sanders' March
+% Nottingham Music Database
+S:Bob McQuillen April 1976, via Phil Rowe
+M:6/8
+K:G
+D|"G"G2G "D7"AGF|"G"G2B "D7"G2A|"G"B2B "D7"cBA|"G"B2c "D7"BBc|"G"d2g "D7"dBc|
+"G"d2g "D7"d2c|"G"BAG GFG|"D7"A2F DEF|"G"G2G "D7"AGF|"G"G2B "D7"G2A|\
+"G"B2B "D7"cBA|
+"G"B2c "D7"BBc|"G"d2g "D7"dBc|"G"d2g "D7"d2c|"G"BAG "D7"AGF|"G"G3 -G2A||
+"G"B2B "D7"cBA|"G"B2G DBc|"D"d2d "A"ed^c|"D"d2B "G7"GBd|"C"e2d efg|
+"G"d2c Bcd|"Am"e2d "D7"c2B|"G"BAG "D"FED|"G"B2B "D7"cBA|"G"B2G DBc|
+"D"d2d "A"ed^c|"D"d2B "G7"GBd|"C"e2d efg|"G"d2B G2g|"D7"fed cBA|"G"G3 -G2||
+S:https://www.folktunefinder.com/tunes/65359
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

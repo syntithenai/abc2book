@@ -1,0 +1,21 @@
+X: 1
+P: Joys of Quebec (Joies de Qu\'ebec)
+O: French Canadian
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: B
+f/f/ \
+| "B"f/d/d/d/ df/f/ | f/d/d/d/ df/f/ | "B"g/B/f/B/ e/B/d/B/ | "F#"e/c/c/c/ ce/e/ |  e/c/c/c/ ce/e/ |
+| "F#"e/c/c/c/ ce/e/ |1 "F#"ff a/g/f/a/ | "B"g/f/=e/g/ "F#"fd/e/ :|2 "F#"ff/f/ "E"g/f/g/a/ | "B"b3 ||
+|: d/e/ \
+| "B"Mfz"E"Mgz | "B"f3/2g/ fB/c/ | "B"dd "E"eg |  "B"d3/2e/ dB/d/ | cB AB |
+| "F#"c3/2d/ cc/d/ |1"F#"ef ga | "B"g/f/=e/g/ "F#"f :|2 "F#"ef g/f/g/a/ | "B"b/g/f/d/ B ||
+S:https://www.folktunefinder.com/tunes/3520
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR74_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

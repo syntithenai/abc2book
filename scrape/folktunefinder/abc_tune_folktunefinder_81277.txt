@@ -1,0 +1,50 @@
+X: 6
+T: Azul Cielo
+O: Mexico
+Z: Deborah Jones VIFD 2
+M: 3/4
+L: 1/8
+K: F
+Q: 1/4=240
+V:1
+"C7" g3a b2| e2 f2 g2|c2d2c2|B2G2 E2|C6|\
+V:2
+z6         |z6       |c6-   |c6-    | c6|\
+V:1
+M:4/4
+[C2E2G2c2] z3 G^F^A|
+V:2
+M:4/4
+ z8|
+V:1
+"F" d4- dcAF|D4-DCDE|G3F E3D|
+V:2
+zF^GAd z3|z cAF Dz CB,|A,4 C3A|
+V:1
+"C7" .F2 E3 BAB| e4- edBG| E4-ED^CD|
+V:2
+B,DFD E z3     |zBABe z3 | zdBGEz3 |
+V:1
+B3 BA3   A |"F".G2 F3 A^GA| d4-dcAF    |
+V:2
+FGED CDEB, |A,CFG A z3 | z F^GA d z3|     
+V:1
+D4- Dc=Bc |"F#dim"_e3d c3 B|A2 G3 D^CD|
+V:2
+zcAF D z3 |_edcB ABcB      |AG^FA GD^CD|
+V:1
+"Bb" B3c B3c|"F"B2 A3 C=BC|"C7".A2.G2.D2.E2|"F".F2.C2.A2 z2|
+V:2
+d3e d3e     |d2 c3 A^GA   |c2 B2 B2 B2     |A2 A2 A2 z2|
+%not completed
+S:https://www.folktunefinder.com/tunes/81277
+S:http://ifdo.ca/~seymour/runabc/intl.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/intl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

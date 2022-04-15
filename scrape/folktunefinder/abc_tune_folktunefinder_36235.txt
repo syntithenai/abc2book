@@ -1,0 +1,20 @@
+X:780
+T:Breton 6/4 #2
+A:Brittany
+M:6/4
+O:France
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006fc.html
+%%ID:000006fc
+K:G
+G2DG B2c2 A2AB | GB DG B2c2 A2AA ::
+B2BA B2d2 G4 | A2cB G2GB ABA2 | \
+B2BA B2d2 G4 |  A2Ac BGAF G4 :|
+S:https://www.folktunefinder.com/tunes/36235
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

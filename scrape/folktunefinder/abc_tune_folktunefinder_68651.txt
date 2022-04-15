@@ -1,0 +1,31 @@
+X:105
+T: Um Frauen willen
+N: A0121
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 36.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2A2B2 | c4c4z2
+d2 | e4e2d4d2 | c3decd4
+G2 | A2d2d2c4d2 | B3AG4z2
+d2 | c2A2B2c4_B2 | _B2AGA4z2
+G2 | A2d2d2c2c2d2 | c3BA4z2
+c2 | A2A2G2=F4G2 | A4z2
+G2 | G4B2c2A2A2 | GFGAB2A4
+B2 | c2d2e2d4
+d2 | d2B2c2d4c2 | c2BAG6
+S:https://www.folktunefinder.com/tunes/68651
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Glen Grant
+C: Charles Grant (Aberlour)
+R: strathspey
+B: RSCDS 17-2(I)
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: A
+ED \
+| "A"C3E A3E "D"F3E "A"C3E | "A"C3E A3c "D"dcBA F3A \
+| "A"C3E A3E "D"F3E "A"C3E | "Bm"[F3D4]D "E7"[B3D4]G "A"[A4C4] [A2C2] :|
+cd \
+| "A"e3A c3e "D"dcBA F3f | "A"e3A c3e "D"fefg a3f \
+| "A"e3A c3e "F#m"Ac3 "D"F3A | "E7"GB3 E3G "A"A4 A3 |]
+f \
+| "A"e3A c3e "D"dcBA F3f | "A"e3A c3e "D"fefg a3f \
+| "A"e3a edcB "F#m"A3c "D"F3A | "E7"GB3 E3G "A"A4 A2 |]
+S:https://www.folktunefinder.com/tunes/19364
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GlenGrant_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GlenGrant_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GlenGrant_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

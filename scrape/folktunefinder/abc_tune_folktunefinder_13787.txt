@@ -1,0 +1,27 @@
+X: 1
+T: Andr\'e \`a Toto
+C: trad Qu\'ebec
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 6/8
+L: 1/8
+K: D
+   g \
+| fef d2B | AFA DFA | fed gfg | ecd e2a \
+| fef d2B | AFA DFA | Bcd eag | fdc d2 :|
+|: e \
+| fga fga | fga afd | efg efg | efg fef \
+| d2e fga | fga fga | afd efg | aba a2 :|
+S:https://www.folktunefinder.com/tunes/13787
+S:http://trillian.mit.edu/~jc/music/abc/jig/Andre_a_Toto_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Andre_a_Toto_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/Andre_a_Toto_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

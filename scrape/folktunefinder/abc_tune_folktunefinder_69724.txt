@@ -1,0 +1,26 @@
+X:164
+T: IM WALDE STEHT EIN TANNENBAUM
+N: F0298
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Weihnachten
+M: 6/8
+L: 1/8
+K: F
+C | F2Ac=Bc | d2cc2
+A | G2ce2d | c4z
+G | G2ABAB | d2cc2
+A | c2BG2C | F4z
+G | G2ABAB | d2cc2
+A | c2BG2C | F4z
+S:https://www.folktunefinder.com/tunes/69724
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, weihnachten
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

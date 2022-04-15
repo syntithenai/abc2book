@@ -1,0 +1,25 @@
+X:140
+T: Fische verkaufen
+N: A0506A
+O: Europa, Mitteleuropa, Deutschland
+N: N. Zange, 1620 Lied 25.
+R: Romanze, Ballade, Lied, Kinderlied
+M: 4/4
+L: 1/4
+K: F
+FGA2 | c2A2
+c2A2 | cBAG | A2F2
+ABcB | AGF2 | G2F2
+BAGC | F2F2
+S:https://www.folktunefinder.com/tunes/80199
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kinderlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

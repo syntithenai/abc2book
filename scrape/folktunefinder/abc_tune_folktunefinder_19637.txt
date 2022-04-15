@@ -1,0 +1,35 @@
+X: 1
+T: Mr. Robert Mackay of Edinburgh
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 38-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>B \
+| "F"c2 A<c "Bb"D>F B<D | "F"C>F A<F "C7"C>E G<E \
+| "Dm"{E}F2 "C"E>F "Bb"D/E/F "F/a"C>F | "Gm"D<G G>A "C7"Bc/B/ ||
+AB \
+| "F"c2 A<c "Bb"D>F B<D | "F"C>F A<F "C7"C>E GB, \
+| "F"A,<F "Bb"B,<F "F"C<F "Bb"D<F | "C7"E/F/G G<E "F"F2 |]
+A>G \
+| "F"F>A c>f "C"(3efg "F"f>c | "Bb"d<c "F/a"c>A "Gm"G>F "C7"G<A \
+| "F"A,<F F>C "Bb"D>C F>C | "Gm"D<G G>A "C7"Bc/B/ ||
+AG \
+| "F"F>A c>f "C"e/f/g/a/ "F"f>c | "Bb"d<c "F/a"c>A "Gm"G>F "C7"G<A \
+| "F"A,<F "Gm"B,<F "F"C<F "Bb"D<F | "C7"E/F/G G<E "F"F2 |]
+S:https://www.folktunefinder.com/tunes/19637
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/RobertMackayOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/RobertMackayOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/RobertMackayOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RobertMackayOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/RobertMackayOfEdinburghS_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

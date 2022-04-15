@@ -1,0 +1,29 @@
+X: 1
+T: the Braes of Tulliemet [Em]
+T: the Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"EA B>A B<d | "D"F<D A>D B>D A>F \
+| "Em"EA B>A B<e | "Bm"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "Bm"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"ec "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+S:https://www.folktunefinder.com/tunes/19225
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfTulliemetS_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraesOfTulliemetS_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfTulliemetS_Em.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

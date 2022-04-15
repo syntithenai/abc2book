@@ -1,0 +1,27 @@
+X:523
+T: IM SCHOENSTEN WIESENGRUND
+N: F0998
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied
+M: 3/4
+L: 1/16
+K: Eb
+E,2G,2 | B,6C2B,2A,2 | G,4G,4
+B,4 | C6B,2A,2G,2 | F,8
+B,4 | B,6B,2B,2E2 | E4C4
+F4 | E8D4 | E4z4
+B,2G,2 | G,3F,F,4
+C2A,2 | A,3G,G,4
+E,2G,2 | B,6B,2B,2E2 | E4C4
+F4 | E8D4 | E8
+S:https://www.folktunefinder.com/tunes/70083
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

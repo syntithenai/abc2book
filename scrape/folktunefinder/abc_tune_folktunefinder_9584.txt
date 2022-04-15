@@ -1,0 +1,26 @@
+X: 3
+P: Gondora no uta (The Gondola Song)
+C:Tune: Shinpei Nakayama
+%C:Words: Isamu Yoshii
+O:Japan 1915
+M:6/8
+L:1/8
+F:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html 2008-4-5
+K:D
+|: "D"D2D "(A)"(DE)F | "D"(AF)d "(A)"A3 | "D"ABA      F{E}DA | "D"F3- "(A)"F2z \
+|  "D"D2D "(A)"(DE)F | "D"(AF)d "(A)"A3 | "G"(DE)B "A7"(AE)F | "D"D3-      D2z :|
+|: "A"A2A      (Af)e | "D"(dF)B "(A)"A3 | "D"D2E       (FD)B | "A"A3  "(D)"F2z \
+|  "D"(DE)F "G"(Ad)B | "Em"(ed)B "A7"A3 | "G"(DE)B "A7"(AE)F | "D"D3-      D2z :|
+S:https://www.folktunefinder.com/tunes/9584
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ17.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/AGJ17.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/AGJ17
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

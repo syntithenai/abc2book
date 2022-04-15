@@ -1,0 +1,24 @@
+X:133
+T:Grandfather's Tune
+R:Reel
+M:4/4
+K:D
+P:A
+F2A2 B2c2|dcde f2 a2|g2f2 e2d2|c2B2 A2G2|\
+F2A2 B2c2|dcde f2 a2|g2f2 eABc|d2f2 d4::
+P:B
+e4   f4  |g2f2 e4   |g2f2 e2d2|c2B2 A2G2|\
+F2A2 B2c2|dcde f2 a2|g2f2 eABc|d2f2 d4:|
+S:https://www.folktunefinder.com/tunes/30303
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set13.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

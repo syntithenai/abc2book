@@ -1,0 +1,37 @@
+X:22
+T:Steyrer Tanz in C, nr. 3
+C:traditionell
+R:Steirer
+A:Hallstatt, Salzkammergut
+B:Corpus Musicae Popularis Austriacae (COMPA), 5.Band: J.M.Schmalnauer " Tanz Musik", Verlag Boehlau, Wien 1996
+S:manuscript des Johann Michael Schmalnauer um 1820
+N:im der quelle in C
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:C
+V:1
+%violino 1mo
+EG |\
+(Fd).B.d TF2 | (Ec).G.c .E2 | (FG,)(B,D)(FG,) | C2 EGG,G |\
+(Fd).B.d TF2 | (Ec).G.c .E2 | (FG,)(B,D)(FG,) | "in G" C4 :|
+V:2
+%violino 2do
+ce |\
+Gfdf G2 | Gece G2 | BdfGBd | e2 cege |\
+Gfdf G2 | Gece G2 | BdfGBd | e4 :|
+S:https://www.folktunefinder.com/tunes/45456
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

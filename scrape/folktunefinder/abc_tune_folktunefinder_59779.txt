@@ -1,0 +1,39 @@
+X:892
+T:Xiraldilla (CT 399)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por lvaro Meana Canal, de cincuenta y seis aos, de Labandera, ayuntamiento de Xixn.
+A:Asturies
+O:Labandera (Xixn)
+Z:Cancioneru de Torner 399
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+A|: BA Bc|d3 d|ef ge|d2 zd|
+ef gg|f2 ee|de dc|[1 B2 zA :|[2 B2 z||
+W:En tu jardn entr,
+W:ped una hermosa flor,
+W:pero la jardinera
+W:no me la dio de olor.
+W:
+W:No me la dio de olor,
+W:no me la quiso dar;
+W:preciso tiene el gusto
+W:de verme a mi penar!
+W:
+S:https://www.folktunefinder.com/tunes/59779
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,51 @@
+X:0
+T:Major/Mixolydian (7-gap, do/so) Hexatonic Scales
+L:1/4
+M:9/4
+K:Ab
+"^A flat"  A2 Bc def a2|a2 fe dcB A2||
+M:9/4
+K:Eb
+"^E flat"  E2 FG ABc e2|e2 cB AGF E2||
+M:9/4
+K:Bb
+"^B flat"  B2 cd efg b2|b2 gf edc B2||
+M:9/4
+K:F
+"^F"       F2 GA Bcd f2|f2 dc BAG F2||
+M:9/4
+K:C
+"^C"       C2 DE FGA c2|c2 AG FED C2||
+M:9/4
+K:GMix
+"^G"       G2 AB cde g2|g2 ed cBA G2||
+M:9/4
+K:DMix
+"^D"       D2 EF GAB d2|d2 BA GFE D2||
+M:9/4
+K:AMix
+"^A"       A2 Bc def a2|a2 fe dcB A2||
+M:9/4
+K:EMix
+"^E"       E2 FG ABc e2|e2 cB AGF E2||
+M:9/4
+K:BMix
+"^B"       B2 cd efg b2|b2 gf edc B2|]
+S:https://www.folktunefinder.com/tunes/30052
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D-sharp
+% Key E
+% Key C
+% Key F
+% Key A
+% Key A-sharp
+% Key D
+% Key G-sharp
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

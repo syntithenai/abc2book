@@ -1,0 +1,21 @@
+X:1873
+T:Bourre - Derrire chez nous
+C:F. Paris
+M:3/8
+L:1/16
+K:C
+A2e2d2|e2c2A2|Bcd3e|c2A4|\
+A2e2d2|e2c2A2|B2BdcB|A6:|
+|:G2G2^F2|E4AE|B2Bcde|c2A4|\
+G2G2^F2|E4AE|B2BdcB|A6||
+% Output from ABC2Win  Version 2.1 f on 16.09.99
+S:https://www.folktunefinder.com/tunes/56812
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

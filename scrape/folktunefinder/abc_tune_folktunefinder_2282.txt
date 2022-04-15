@@ -1,0 +1,22 @@
+X:1
+T:Paddy O'Rafferty
+C:Trad.
+M:6/8
+L:1/8
+K:D
+dff cee|def gfe|dff cee|dfe dBA|dff cee|def gfe|faf gfe|1 dfe dBA:|2 dfe dcB||
+~A3 B3|gfe fdB|AFA B2c|dfe dcB|~A3 ~B3|efe efg|faf gfe|1 dfe dcB:|2 dfe dBA||
+fAA eAA|def gfe|fAA eAA|dfe dBA|fAA eAA|def gfe|faf gfe|dfe dBA:|
+Here is what it looks like after processing by abc2mtex and conversion to GIF:
+Here is what it looks like after processing by abc2ps and conversion to PNG:
+S:https://www.folktunefinder.com/tunes/2282
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtut_Intro.html
+S:http://trillian.mit.edu/~jc/music/abc/doc/ABCtutorial-old.html
+S:http://trillian.mit.edu/~jc/doc/abc/ABCtut_Intro.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

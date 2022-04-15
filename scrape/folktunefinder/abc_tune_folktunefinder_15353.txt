@@ -1,0 +1,23 @@
+X: 1
+T: the Boys of Wexford
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+D2 \
+| "G"G3 A | GF ED | d3 e | d2 "(D)"c2 | "G"B2 G2 | BA GF | "C"E2- | "D7"E2 D2 || "G"G3 A | GF ED |
+| d3 e | d2 c2 | B2 A2 | "A7"GA B^c | "D"d4- | d2 d2 |]| "C"e2 c2 | g2 fe | "G"d3 c | B2 d2 |
+| "C"c2 B2 | A2 G2 | E4- | "D7"E2 D2 || "G"G3 A | GF ED | d3 e | d2 "(D)"c2 | "G"B2 G2 | "D7"BA GF | "G"G4- | G2 |]
+S:https://www.folktunefinder.com/tunes/15353
+S:http://trillian.mit.edu/~jc/music/abc/march/BoysOfWexford_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BoysOfWexford_G3.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

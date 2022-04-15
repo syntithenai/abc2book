@@ -1,0 +1,70 @@
+X: 1
+T: Nearer My God to Thee
+T: Bethany (6.4.6.4.6.6.6.4)
+C: Music by Lowell Mason, 1856
+C: Lyrics by Sarah F. Adams, 1841
+W:
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+W: E'en though it be a cross
+W: That raiseth me;
+W: Still all my song would be,
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+W:
+W: Though like the wanderer,
+W: The sun gone down,
+W: Darkness be over me,
+W: My rest alone.
+W: Yet in my dreams I'd be
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+W:
+W: There let the way appear
+W: Steps unto heav'n;
+W: All that Thou sendest me
+W: In mercy giv'n;
+W: Angels to beckon me
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+W:
+W: Then, with my waking thoughts
+W: Bright with Thy praise,
+W: Out of my stony griefs
+W: Bethel I'll raise;
+W: So by my woes to be
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+W:
+W: Or if on joyful wing,
+W: Cleaving the sky,
+W: Sun, moon, and stars forgot,
+W: Upwards I fly,
+W: Still all my song shall be,
+W: Nearer, my God, to Thee,
+W: Nearer to Thee!
+M: C
+L: 1/4
+K: F
+V:S clef=treble   merge=2 stems=up staves=2 bracket=2
+V:A clef=treble   merge=1 stems=down
+V:T clef=treble-8 merge=4 stems=up staves=2 bracket=2 middle=b
+V:B clef=bass     merge=3 stems=down
+V:S
+[| A2 G F | F> D D2 | C2 F A | G4 | A2 G F |
+| F> D D2 | C F E G | F4 | c2 d c | c> A c2 |
+| c2 d c | c> A G2 | A2 G F | F> D D2 | C F E G | F4 |]
+V:A
+[| C2 B, A, | D> B, B,2 | C2 C C | C4 | C2 B, A, |
+S:https://www.folktunefinder.com/tunes/2331
+S:http://trillian.mit.edu/~jc/music/abc/test/Bethany.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/NearerMyGodToThee_Bethany_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Bethany.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Bethany.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Bethany.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

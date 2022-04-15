@@ -1,0 +1,37 @@
+X:4
+T:Sonata 6
+T:4. Spirituoso
+C:Telemann
+M:2/4
+L:1/8
+K:C
+V:1
+z3/2 G/c>d|B2d2|z3/2 G/e>f|d2g2|z3/2 e/a>A|B>dg>G|A>cf2|z3/2 g/e>f|e2 Td>c|c>Gc>d|
+B2d2|z3/2 G/e>f|d2g2|z3/2 e/a>g|^f>Ad>c|B>Gc2|z2 B2|z3/2 E/A>G|^F>DG>C|D>dc>d|
+(3BAG (3cBA|d2-(3dg^f|(3g^fe (3dec|(3BAG (3cBA|d2-(3de^f|(3g^fe (3dec|B>cd2|
+z3/2 G/c2|z3/2 A/^f>d|(3ag^f g>G|B2A2|G2 z2|(3gdc (3Bcd|B>A G>D|(3gdc (3Bcd|G2 z2:|
+|:g2d2| z3/2 d/B>d|G2d2|z3/2 e/f>g|c2g2|z3/2 a/g>a|f>a d>f|_B>_b a>b|g>_b e>g|^c>eA2|
+z2 a2|z3/2 d/g>g|g>e f>d|^c3d|d3 z/  B/|c2a2|z3/2 d/c>d|(3Bcd (3Bdc|(3Bcd (3Gdc|
+B2 TB3/2A/4B/4|c3 z/ A/|_B2g2|z3/2 c/_B>c|(3AGF (3_BAG|c2(3cde|(3fed (3cd_B|c2-(3cfe|
+(3fed (3cd_B|A>Bc2|z3/2 F/_B2|z3/2 G/e>c|(3gfe f>F|A2G2|F>c f>g|e2g2|z3/2 G/c>d|B2d2|
+z3/2 G/e>f|d2g2|z3/2 e/a>A|B>d g>G|A>cf2|z3/2 g/e>f|e2Td>c|c3 z/ C/|F2E2|D3z/ D/|G3 z/ f/|
+e>g c>e|A3 z/ d/|G>B c>F|g>FG2|C2 z2|(3c'gf (3efg|e>d c>G|(3cAF (3EFG|C2 z2:|
+V:2
+C2A2|z3/2 G/F>G|E2c2|z3/2 c/B>G|c2f2|z2 e2|z3/2 A/D>c|B>Gc>F|G>EF>F|C2A2|
+z3/2 G/F>G|E2c2|z3/2 c/B>G|c3 z/ A/|d3 z/ ^F/|G>Be>E|^F>Ad>D|E>Fc2|z3/2 d/B>c|B2A>G|
+G z A z|(3BAB (3GBA|(3Bdc (3BcA|G z A z|(3BAB (3GBA|(3Bdc (3BcA|G>AB>D|
+E3 z/ e/|^F2A2|D>cB>G|C2D2|(3Gdc (3Bcd|B>A G>D|(3Gdc (3Bcd|B>A G>G|G2 z2:|
+|:z3/2 d/B>d|G2F2|z3/2 E/F>G|C2_B2|z3/2 A/_B>c|F2E2|D3 z/ D/|G2F2|E3 z/ E/|A3 z/ G/|
+F>A D>F|_B,3 z/ _B/|A>^c d>G|A>A G>A|(3^FGA (3DAG|^F2 TF3/2E/4F/4|G3 z/ E/|F2d2|
+z3/2 G/F>G|(3EFG (3CGF|(3EFG (3Cgf|E2 TE3/2D/4E/4|F z G z|(3AGA (3FAG|(3Ac_B (3ABG|F z G z|(3AGA (3FAG|
+(3Ac_B (3ABG|F>G A>C|D3 z/ d/|E2G2|C>_B A>F|_B,2C2|F2d2|z3/2 c/=B>d|E2A2|z3/2 G/F>G|
+E2c2|z3/2 c/B>G|c2f2|z2 e2|z3/2 A/d>c|B>G c>F|G>g f>g|e>g c>e|A>a g>a|f>a d>f|B>dG2|
+z2 g2|z3/2 c/f>f|f>d e>f|e2 Td>c|(3cgf (3efg|e>d c>G|(3cGF (3EFG|E>D C>C|C2 z2:|
+S:https://www.folktunefinder.com/tunes/40093
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_6_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

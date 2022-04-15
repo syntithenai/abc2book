@@ -1,0 +1,23 @@
+X:158
+%%topmargin 3cm
+T:Lady Mary Hope Vere
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+c | {/c}d2 AG FGAF | {/F}GEed cABc | {/c}d2 AG FGAg |
+faeg fdd :: g | fdad bdag | fdaf {/f}geeg |
+[1 fdad bdaf | ge(ag) fdd :| [2 fdcd BdAG | FA{/f}ge fdd |]
+S:https://www.folktunefinder.com/tunes/70905
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+S:https://www.folktunefinder.com/tunes/13556
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/GipsyH.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/GipsyH_3C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/GipsyH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/GipsyH_3C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GipsyH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GipsyH_3C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/GipsyH.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/hornpipe/GipsyH_3C.abc
+% Rhythm Reel, hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

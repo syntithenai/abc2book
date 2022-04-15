@@ -1,0 +1,30 @@
+X: 1
+T: the Countess of Dalkeith's Strathspey
+C: Neil Gow
+R: strathspey
+B: The Gow Collection of Scottish Dance Music #30 (Richard Carlin ed.)
+S: handwritten MS in Boston Branch's collection
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+F2 \
+| "Bb"B3c B2d2 F2B2 GFED | "Bb"B2F2 Bcd2 "Cm"c2C2 "F7"C3c \
+| "Bb"B3c B2d2 F2B2 GFED | "Eb"Eg3 "F7"f3e "Bb"d2B2 B2 :|
+[F2c2] \
+| "Bb"d2f2   edcB "Eb"b3B     eg3  | "Bb"f3B        edcB "F7"A2c2- c2de \
+| "Bb"f2B2   d2B2 "Eb"g2B2    e2g2 | "Bb"F3B "F7"{d}c2Bc "Bb"d2B2  B2de |
+| "Bb"f3g/a/  b3B "Eb"g3B "Bb"f3B  | "Cm"e3c        edcB "F7"A2c2- c3d  \
+| "Bb"B3F "Eb"GB3 "Bb"F3B "Eb"GFED | "Cm"Eg3 "F7"   f3e  "Bb"d2B2  B2  |]
+S:https://www.folktunefinder.com/tunes/19278
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CountessOfDalkeithsStr_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Neil_Gow/CountessOfDalkeithsStr_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CountessOfDalkeithsStr_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

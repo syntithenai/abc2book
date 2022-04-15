@@ -1,0 +1,27 @@
+X:3
+T:Dram: Tersen
+C:anon.
+O:Finland
+S:Frank Nordberg <frnordbe@online.no> abcusers 2001-9-8
+M:C
+L:1/8
+Q:1/4=3D84
+K:Am
+"Am"E2 EE c2 BA|"Dm7"A2 "G7"AG "C"E2 C2|\
+"Dm7"D2 DD "G7"G2 AG|"G7"D2 FF "C"E2 C2|
+w:Fj\"ar-ran han dr\"o-jer fr\aan t\"ors-ti-ga stru-par,\
+ re'n ha vi ta-git tv\aa mo-di-ga su-par.
+"Am"E2 EE c2 B2|"F"A2 "G7"AG "C"GE (CE)|\
+"F"ED CD "Am"E4|"E7"ED B,C "Am"A,2 z2|]
+w:Ack, li-la ter-sen, ack lil-la hj\"ar-te-v\"an,_ kom-mer du ej snart\
+S:https://www.folktunefinder.com/tunes/18672
+S:http://trillian.mit.edu/~jc/music/abc/song/DramTersen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/song/DramTersen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/song/DramTersen_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T: Reinlender efter Harald Andreasson
+R: shottish
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS
+M: 4/4
+L: 1/8
+K: G
+|: "G"d>c B>c d2 g>d | B2 d>B G2 B2 | "Am"B2 A>B c>B c>d | "D7"e2 d2 d4 \
+|  "G"d>c B>c d2 g>d | B2 d>B G2 B2 | "Am"B2 A>B "D7"{Bc}B>A (3DEF | "G"G2 B2 G4 :|
+K: D
+|: "D"A>G F>G A2 d2 | A2 f2 A2 a2 | "Em"b2 e>f "A7"g>f g2 | "D"a2 d>e f>e d2 \
+|  "D"A>G F>G A2 d2 | A2 f2 A2 a2 | "Em"b2 ef "A7"{fg}fe (3ABc | "D"d2 f2 d2 :|
+K: G
+|: "G"B2 D2 B2 D2 | B2 D2 B2 D2 | G>A B2 B>c d>e | "Am"d2 c2 c3 B \
+| "D7"A2 D2 A2 D2 | A2 D2 A2 D2 | f>e d2 c>B A>f | "G"e2 d2 d7/ c/ |
+|  "G"B2 D2 B2 D2 | B2 D2 B2 D2 | G>A B2 B>c dg | "C"f2 e2 e2 (3efg \
+|  a2 e>f gf e2 | "G"d2 d>g b>g d2 | "Am"c>B A2 "D7"f>e d>F | "G"G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/18428
+S:http://trillian.mit.edu/~jc/music/abc/shottish/R_HaraldAndreasson_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/R_HaraldAndreasson_G.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

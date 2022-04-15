@@ -1,0 +1,26 @@
+X: 1
+T: Morag Hutton's Strathspey
+C: Jimmy Shand
+B: Newcastle
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+   A | "Bb"B2 F>E D-d (3cde "Bb"d-A \
+     | "Eb"G>B e>G "Bb"F>B d>B | "C(m)"A-<c c>B "F7"(3ABc (3FGA |
+     | "Bb"B2 F>E D-d (3cde "Gm"d-A \
+     | "Eb"G>B e>g "Bb"f>d B>F | "Eb"(3GAB "F7"(3ABc "Bb"d-<B B ||
+|| d | "Gm"g>a b>a g-<d d2 | G>A B>c d>c d-<g \
+     | "Gm"b>g "D7"a>^f "Eb"g>a b>g | "Bb"f>d B>{c}d "Cm"(3edc "F7"c>d |
+     | "Bb"B2 F>E D-d (3cde "Gm"d-A \
+     | "Eb"G>B e>g "Bb"f>d f-{g}f (3edc "Bb"d-<B B |]
+S:https://www.folktunefinder.com/tunes/19573
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MoragHuttonsStr_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MoragHuttonsStr_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

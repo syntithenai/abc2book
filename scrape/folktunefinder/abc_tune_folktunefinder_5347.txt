@@ -1,0 +1,20 @@
+X: 1
+T: The Chimes of Dunkirk (in D)
+O: England
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: A | "D"d>e dc "G"B3 d | "Em"e>f ed "A"c3 c | "Bm"dc BA "E7"^GE "A"Ad | c2 "E7"B2 "A"A3 :|
+|: e | "D"f2 f2  "A"e3 f | "A7"g2 g2 "D"f3 a | "G"ba bc' | "D"d'c'/b/ ag | f2 "A7"e2 "D"d3 :|
+%%sep 3 1 400
+S:https://www.folktunefinder.com/tunes/5347
+S:http://trillian.mit.edu/~jc/music/abc/Intl/CHI2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

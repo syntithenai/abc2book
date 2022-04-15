@@ -1,0 +1,26 @@
+X:54
+T:Jan van Leuven
+C:Traditioneel
+O:Winksele-Delle (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=108
+N:Voorspel (AABB) ad lib.
+K:G
+P:Voorspel
+d2d d2B|d2d d2B|d^cd e2d|c2AG3||
+P:A
+!segno!|:d2d d2B|d2d d2B|d^cd e2d|c2BA3|c2cc2A|c2cc2A|cBc d2c|1B2A G3:|2B2A G2D||
+P:B
+|:DEF G2E|EFG A2A|ABc ded|1cBA B2D:|2cBA G2!D.S.!z|]
+S:https://www.folktunefinder.com/tunes/75750
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

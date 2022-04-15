@@ -1,0 +1,24 @@
+X:1
+T: the Highlander's Kneebuckle
+S:Paddy O'Sullivan (fiddle), north Kerry
+Z:Deirdre Sullivan & Paul de Grae 
+M:4/4
+L:1/8
+R:reel
+K:D
+dB | AF ~F2 BF ~F2 | FADF E2 dB | AF ~F2 BFAF | DFEF D2 FG |
+A3 B AF ~F2 | DFDF E2 dB | AF ~F2 BFAF | DFEF D2 dB ||
+Ad ~d2 fd~dB | ABdf e2 dB | Ad ~d2 fddB | AFEF D2 AB |
+~d3 f edBc | ~d3 f e2 de | fedB ~BABd | AFEF D2 |]
+S:https://www.folktunefinder.com/tunes/17355
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighlandersKneebuckle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HighlandersKneebuckle.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

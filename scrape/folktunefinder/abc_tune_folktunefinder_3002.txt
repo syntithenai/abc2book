@@ -1,0 +1,25 @@
+X: 1
+T: Dans Kas A Barh
+B: Tonio\`u Breiz-Izel (n. 1829)
+Z: "Gianni Cunich" <g.cunich:tiscalinet.it> tradtunes 2001-03-10
+M: 4/4
+L: 1/8
+K: C
+|: DF/G/ A>G FA GF |1 DF/G/ A>G FD EF :|2 DF/G/ A>G FD A2 ||
+|: DE/F/ G>A FG/F/ E/D/E/F/ | DF/A/ DE/G/ F/D/E/F/ D :|
+S:https://www.folktunefinder.com/tunes/3002
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/DansKasABarh.abc
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/misc/DansKasABarh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/DansKasABarh_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/compare/Compare001.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Brittany/misc/DansKasABarh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tradtunes/DansKasABarh_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/test/compare/Compare001.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

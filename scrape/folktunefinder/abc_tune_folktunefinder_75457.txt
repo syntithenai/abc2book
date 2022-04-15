@@ -1,0 +1,16 @@
+X: 1
+T:The Collier's Rant
+M:6/8
+L:1/8
+K:G
+|B|Bee ddd|cccB2B|BeeDDD|cBcB2B|Beed2d|cccB2A|GF/2E G2 A|BA#/2BE2|GF/2E
+G2 A|BA/2G B/2dd#|e2B cB/2A|BA#/2BE2|
+% Output from ABC2Win  Version 2.1 i on 3/2/2000
+S:https://www.folktunefinder.com/tunes/75457
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

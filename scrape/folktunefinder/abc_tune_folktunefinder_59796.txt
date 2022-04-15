@@ -1,0 +1,38 @@
+X:909
+T:Xiraldilla (CT 445)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llamo, ayuntamiento de Riosa.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 445
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+G|ccc|c2 B|ddB|ddB|
+G2 F|GGG|AAG|F2 D|
+EEG|AAA|G2 F|G G2-|G z||
+W:Los cuatro mozos del Pino,
+W:los que fueron a Santana,
+W:llevaben pa la merienda
+W:catorce cuartillos de agua.
+W:
+W:Tambin llevaben cien riales,
+W:y a la siega caminaben;
+W:todos llevaben los fierros
+W:y a menudo cabruaben.
+W:
+S:https://www.folktunefinder.com/tunes/59796
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

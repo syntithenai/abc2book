@@ -1,0 +1,27 @@
+X:318
+T: ACH KOENNT ICH MOLLY KAUFEN FUER GOLD UND EDELSTEIN
+N: B0375
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 2/4
+L: 1/16
+K: G
+d2 | B2B2B2B2 | c3BA2
+dc | B2G2GFGB | A4z2
+d2 | B2B2B2B2 | c3BA2
+dc | B2G2GFGB | A4z2
+A2 | d2d2^c2e2 | d4A2
+A2 | F2A2G2E2 | F4z2
+d2 | B2B2B2B2 | c3BA2
+c2 | B2d2A2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/78339
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

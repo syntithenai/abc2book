@@ -1,0 +1,20 @@
+X:231
+T:Boil the Breakfast Early
+O:ireland
+Z: id:dc-reel-17
+M:C
+L:1/8
+K:G Major
+G3B ADD2|GBB2 c2BA|G3B ADD2|GEE2 c2BA|!
+G3B ADD2|GBB2 c2Bc|dBcA BGAF|GEE2 c2Bc|]!
+dAA2 dAFA|dAA2 defe|dAA2 dAFA|GEE2 c2Bc|!
+dAA2 dAFA|dAA2 defe|d2^cd BdAF|GEE2 c2BA|]!
+S:https://www.folktunefinder.com/tunes/41663
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

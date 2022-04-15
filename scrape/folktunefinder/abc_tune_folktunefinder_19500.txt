@@ -1,0 +1,33 @@
+X: 1
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"Bg     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"Bg     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+S:https://www.folktunefinder.com/tunes/19500
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/MadgeWildfiresS.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/MadgeWildfiresS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

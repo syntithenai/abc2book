@@ -1,0 +1,35 @@
+X: 98
+T:German Waltz. CJF.098
+M:3/4
+L:1/8
+Q:160
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"From Watson's" is in title line. - PJH.
+Z:vmp.P J Headford 2000
+K:D
+A2|(A2f2).d2|A2(AB)A2|(A2g2).e2|A2(AB)A2|!
+(df)a2a2|b2b2(ge)|(dcBABc)|{e}d2z2:|!
+|:f2|(fefgfe)|.d2.B2z2|(f2^a2a2)|b4e2|!
+(e^defe=d)|.c2.A2z2|(e2^g2).g2|a4A2|!
+(A2f2)d2|A2(AB)A2|(A2g2).e2|(dcBc)A2|!
+(df)a4|(eg)b4|(abc'd'e'c')|d'2z2:|!
+|:"dol:"a2|a3(bc'd')|(d'c'bagf)|(a2g2)g2|e3(fg^g)|!
+a3(bc'd')|(d'c'bagf|(ag)e2e2|d2z2:|!
+|:"f"a2|_b2a2(^g|a2)e2(=g2|=f2)d2(^G2|A2)z2(df)|!
+"p"a3(bc'd')|(d'c'bagf)|(ag)e2(ef)|d2z2:|]
+S:https://www.folktunefinder.com/tunes/49653
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

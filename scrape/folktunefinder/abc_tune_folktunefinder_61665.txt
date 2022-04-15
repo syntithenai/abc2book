@@ -1,0 +1,22 @@
+X:9632
+T:Limerick's Lamentation
+M:3/4
+L:1/8
+K:G
+G>A | B2 dA | B2 dA |
+B<G c<A B<G | E>D E2 G>A | B2 G2 G>A | G4 :||
+||: G>A | B2 d2 d>e | d2 cB A>B | G2 g2 g>a | g4 G>A |
+B2 d2 de | d2 cB A>B | G2 g2 g>a | g4 de |
+=f>e f>g a>f | e>d e>=f g>e | d>e gB AG | A4 GA |
+B<G c<A B<G | E>D E2 G>A | B2 G2 G2 | G4 :||
+S:https://www.folktunefinder.com/tunes/61665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

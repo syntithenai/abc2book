@@ -1,0 +1,26 @@
+X: 1
+T: Hoddom Castle
+C: "Mr Sharpe"
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Paddledoo Collection
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B2B    B>cd | "Eb"e2c/B/ "F7"AGF | "Bb"B>cB     Bdf | "Eb"f>gf "F7"edc \
+| "Bb"dBB "Gm"BGG | "Cm"ecc    "F7"cAA | "Bb"B>cd "F7"cBA | "Bb"BBB      B2 :|
+|: d/e/ \
+| "Bb"fdd "Gm"dBB | "Cm"ecc "F7"cAA | "Gm"B>cd "Eb"cc/d/c/B/ | "F7"AGF     FGA \
+| "Bb"BBB "Cm"Gcc | "Dm"Add "Eb"Bee | "F7"cfe  "Bb"dcB       | "F7"cFA "Bb"B2 :|
+S:https://www.folktunefinder.com/tunes/14320
+S:http://trillian.mit.edu/~jc/music/abc/jig/HoddomCastle_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HoddomCastle_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:981
+T:Backstairs Jig
+% Nottingham Music Database
+S:EF
+M:4/4
+K:G
+M:6/8
+P:A
+d|"G"d2b b2aF|"G"a2g g2g|"D7"f2f fef|"G"a2g "D7"gfe|
+"G"d2b b2aF|"G"a2g g2g|"D7"f2f fef|"G"a2g Fg2:|
+P:B
+d|"G"gfg bge|"D7"d2d def|"G"gfg bge|"A7"e2d "D7"def|
+"G"g2g "G7"gab|"C"e2e "Am"efg|"D7"ded cBF|"G"GBd g2:|
+S:https://www.folktunefinder.com/tunes/55920
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

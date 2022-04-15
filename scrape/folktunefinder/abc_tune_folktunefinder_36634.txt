@@ -1,0 +1,27 @@
+X:2775
+T:John Spence of Uyeasound
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000977.html
+%%ID:00000977
+K:A
+AB |\
+c2ce dc BA | ce ef a2AB | c2ce dc BA | \
+cB Bc B2AB | c2ce dc BA | ce ef a2 e=g |
+f2df e2ce | dB GB A2 :: cB |\
+A2a2c2Bc | A2ce f2e2 |
+f2ed c2Ac | dc BA Bd cB|\
+A2a2c2Bc | A2ce f2e=g | f2df e2ce | dB GB A2:|
+S:https://www.folktunefinder.com/tunes/36634
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

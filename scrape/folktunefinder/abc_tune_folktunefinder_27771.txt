@@ -1,0 +1,33 @@
+X:7319
+T:The Scottish Pentatonic Blues Jig for Paul
+T:The Saxophone Jig
+O:england
+M:6/8
+L:1/8
+Q:128
+C:David Marcus 4-19-86
+R:Bluesy Pipe March
+D:Jump at the Sun (Red Plum Jam)
+K:A
+E | "A"A2B "E"B2e | "A"cBc A>EF | "A"A2B "a"^Bce | "f#7"fec "E"B2 E |
+"A"A2B "E"B2e | "A"c^Bc "A7"e2 ^e | "D"f2e "A"cec | "E"B3 "A"A2 E |
+"A"A2B "f#"c2e | c^Bc "A"A>EF | A2B "f#"cBc | "A"e3 "b/D"f3 |
+{g}"D"a2f"A"e  2f | "D"afe "A"c2 A | "D" afa "A"eac | "D7" =cEF "A"A2 A
+|
+| "A"e2f"D"a2  a | "A"efa "b"bef | "a"=c'2b "D"a2b "a" =c'2a "b7"baf | "
+A"e2f"D"afe |
+"f#"f2a "E7"b2a | "A"^c'ba "D"fec | "D7"=cEF "A"AB^c | "A" e2f"D"afe |
+f2a "E"bef | "a"=c'2b "D"abc' | "b"baf "b7"afe | {d}"A"e2f"D"afe |
+"B"(2f3/2"B7/A"a3/2 "E/G#"b2 z | "A"c'ba "D"fec |1 "E"B3 "A"A2|2 "E"Bc
+e "A"a 3 |
+S:https://www.folktunefinder.com/tunes/27771
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Bluesy pipe march
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

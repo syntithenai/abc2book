@@ -1,0 +1,30 @@
+X:2287
+T:Goat on the Hill
+O:england
+S:Neil Campbell (MacBeat), via EF
+M:6/8
+K:Am
+P:A
+c/2d/2|"Am"eAA c2d|"Am"eag e2d|"Am"eAA "D7"c2d|"G"BGG Gcd|
+"Am"eAA c2d|"Am"eag e2d|"F"eAA "G"BGG|"Am"A3 A2:|
+P:B
+E|"Am"EAA Acc|"Em"GBB Bee|"Am"EAA "D7"ABc|"G"BGG G3|
+"Am"EAA Acc|"Em"GBB Bee|"F"cAA "G"BGG|"Am"A3 A2:|
+E/2G/2|AEE A2B|ced c2B|AEE A2B|dBB dcB|
+AEE A2B|ced c2B|AEE GDD|E3 E2:|
+A|Acc cee|Bdd dgg|Acc def|gdd dcB|
+Acc cee|Bdd dBB|AFF GDD|E3 E2:|
+A/2B/2|ccc c2B|AcB A2B|cBA ^F2D|Bdd dcB|
+ccc c2B|AcB A2B|ccc dBB|c3 c2:|
+A|cee eaa|dgg gbb|cee edc|Bdd d3|
+cee eaa|dgg gbb|fcc dBB|c3 c2:|
+S:https://www.folktunefinder.com/tunes/22738
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

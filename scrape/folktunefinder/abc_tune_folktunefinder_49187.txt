@@ -1,0 +1,26 @@
+X:2
+T:38. C'est amour qui si rare en la terre se treuve,\\\\Tierce partie.
+T:Alto.
+C:Andr Pevernage
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z: Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+M:C
+L:1/4
+N:Original clef, C on third line
+K:F -8va
+%%MIDI transpose -12
+f f c2 d d B/ c/ d/ e/ f2 F F F2 F F A/ G/ A/ B/ c3 B/ A/ =B2 "A"c4
+S:https://www.folktunefinder.com/tunes/49187
+S:http://www.laymusic.org/music/bicinia/amour/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

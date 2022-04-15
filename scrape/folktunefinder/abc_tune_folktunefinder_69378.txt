@@ -1,0 +1,27 @@
+X:519
+T: "Gang auf die Alm"
+N: Z1199
+O: Europa, Mitteleuropa, Deutschland, Bayern; Tirol
+N: Die letzten 8 Takte werden auf die Silbe 'la' gesungen.
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: Bb
+FE | DBFBD2 | CAFc
+c2 | AcAcE2 | DB
+FBd2 | DBFBdf | gfec
+A2 | AcF2Ac | B4
+FBc | d2bdbd | dcac
+cd | e2cece | edbd
+de | f2dfdf | fece
+cd | e2ceca | b2z2
+S:https://www.folktunefinder.com/tunes/69378
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 15
+T:Bob Solosko's Puzzle
+M:4/4
+L:1/8
+Z: Jack Campin
+K:G Minor
+^f|:gc B>AG>D|  G>A (3BAG {G}A2    D^f |\
+    gc B>AG>A|(3BAG (3AG^F   G2 [1 G^f:|\
+                                    [2 G2 ||
+B>dfcf<a|B>c (3d>cB A2 D2  |B>dfcf<a|(3BAG (3AG^F G2   G2 |
+B>dfcf<a|B>c (3dcB  A2 D>^f|g>ab>a g>facB<A     G>^F G3|]
+S:https://www.folktunefinder.com/tunes/43247
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

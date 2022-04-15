@@ -1,0 +1,27 @@
+X:6070
+T:Sydost
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+Q:1/4=92
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b3b.html
+%%ID:00000b3b
+K:D
+f/g/|\
+ab gf/e/| de/d/ cA| dd ee/g/| ff/f/ ff/g/|\
+ab gf/e/| de/d/ ce| d/e/f/g/ aA| d2 d2||
+df f/e/f| dg g/f/g| ge e/f/g| gf/^e/ ff/g/|\
+ab gf/e/| de/d/ ce| d/e/f/g/ aA| d2 d|]
+S:https://www.folktunefinder.com/tunes/37293
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

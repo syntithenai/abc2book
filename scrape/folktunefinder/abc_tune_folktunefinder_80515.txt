@@ -1,0 +1,26 @@
+X: 237
+T: The Young Lady
+B: O'Neill's 237
+N: "Moderate"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:G
+D GA \
+| (B>A G)B de | (=f>e d)B cc | B2 AG BA | A3 D GA |
+| (B>A G)B de | (=f>e d)B cc | B2 G{B}A GG | G3 ||
+|| d dd \
+| =f2 ed d^f | (g2 B)d =fe | (e2 d)B GB | A3 D GA |
+| (B>A G)B de | (=f>e d)B cc | B2 G{B}A GG | G3 ||
+S:https://www.folktunefinder.com/tunes/80515
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0237_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

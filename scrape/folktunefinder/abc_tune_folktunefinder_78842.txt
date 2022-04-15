@@ -1,0 +1,27 @@
+X:401
+T: ALS DIE PREUSSEN MARSCHIERTEN
+N: E0328
+O: Europa, Mitteleuropa, Deutschland
+R: historisches Lied, Krieg, Prager Schlacht (1757)
+M: 4/4
+L: 1/16
+K: F
+F3A | c4A3FB4G3E | F8z2
+F2E2F2 | G4A4B4A4 | G8z4
+F3A | c4A3GF3F_E3E | D4F4B4z2
+B2 | d3dB3AG4F4 | E4G4c4z2
+C2 | F6A2G6B2 | A3Ff2d2c6
+c2 | f2c2d2B2c4E4 | F8z6
+C2 | F6A2G6B2 | A3Ff2d2c6
+c2 | f2c2d2B2c4E4 | F8z4
+S:https://www.folktunefinder.com/tunes/78842
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg, prager schlacht (1757)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

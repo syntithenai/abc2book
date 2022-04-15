@@ -1,0 +1,29 @@
+X:274
+T: FALSCHES HALLE GUTE NACHT
+N: Z0272
+O: Europa, Mitteleuropa, Deutschland, Halle
+R: Lyrisches Lied, Romanze, Studenten - Lied
+M: 4/4
+L: 1/4
+K: F
+ | c2B2 | _A2G2
+c_dcB | _ABc2
+FGAB | c2E2 | F4
+cBc_e | _dcB_A
+BABd | cB_AG
+c2B2 | _A2G2
+c_dcB | _ABc2
+FGAB | c2E2 | F4
+FG_AB | c2E2 | F4
+S:https://www.folktunefinder.com/tunes/69133
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

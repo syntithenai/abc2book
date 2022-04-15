@@ -1,0 +1,40 @@
+X:618
+T:Pericote (MQ 049)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza de la zona de Llanes, es al igual que la anterior un autntica joya del folklore asturiano.
+N:Es tambin una de las piezas caractersticas y habituales en el repertorio de los gaiteros.
+A:Asturies
+O:Llanes
+Z:Manolo Quirs 049
+M:2/4
+L:1/8
+Q:1/4=84
+K:C
+CE
+|: G2 GF|G2 AG|E>G FD|C2 CE|
+G2 GF|G2 AG|E>G FD|C2 EG|
+G>F ED|E>E GF|E>F DB,|C2 EG|
+G>F ED|EE GF|E>F DB,|C2 EG|
+c>d cB|c2 dc|B>c BG|F2 EG|
+c>d cB|c2 dc|B>c BG|F2 Ac|
+c>B AG|A2 cB|A>B GE|F2 CE|
+G2 GF|G2 AG|E>G FD|C2 EG|
+G>F ED|EE GF|E>F DB,|C2 c/B/A/G/|
+F2 B/A/G/F/|E2 A/G/F/E/|D2 G/F/E/D/|EC c/B/A/G/|
+F2 B/A/G/F/|E2 A/G/F/E/|D2 G/F/E/D/|[1 C2 CE :|[2 C4||
+S:https://www.folktunefinder.com/tunes/59505
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

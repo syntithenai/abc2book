@@ -1,0 +1,26 @@
+X:154
+%%topmargin 3cm
+T:The Caledonian Hunt
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A mixolydian
+e | TcA A/2A/2A EAA=c | BGdB gded | TcA A/2A/2A (EA)(A=c) | BGgB AA/2A/2 A :: g | agab abae | gaeg BGdB |
+agab abae | degB A/2A/2A (Ag) | abga egdg | Bgdg BGdB | =cAdB dega | gegB A/2A/2A :|
+W:I am indebted to Mr. John Dow, Newport, for several fine old tunes from Ross's,
+W:Porteous, and Petrie's Collections.
+S:https://www.folktunefinder.com/tunes/71184
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caledonian_Hunt_1.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0154.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

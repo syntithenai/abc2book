@@ -1,0 +1,25 @@
+X: 1
+T: Dornoch Links
+B: BSFC V-22
+Z: John Chambers <jc@trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: A
+|: a/f/ \
+|| "A"eA cB/c/ | eA Aa/f/ | ec cB/c/ | "Bm"fB "E7"Bc/d/ \
+|  "A"e/f/e/d/ cB/A/ | ce ac | "D"df "E7"Be/d/ | "A"cA A :|
+|: e \
+|| "A"a2 ef/g/ | ae/d/ cB/A/ | a2 e/f/e/c/ | "G"dB "E7"Be \
+|  "A"a2 ef/g/ | a/e/f/d/ "F#m"cB/A/ | "D"df "E7"Be/d/ | "A"cA A :|
+S:https://www.folktunefinder.com/tunes/15405
+S:http://trillian.mit.edu/~jc/music/abc/march/DornochLinks.abc
+S:http://trillian.mit.edu/~jc/music/book/500/DornochLinks.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/DornochLinks.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

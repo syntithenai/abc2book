@@ -1,0 +1,24 @@
+X:330
+T: ES FUHR EIN BAUER UEBER DEN RHEIN
+N: E0186B
+O: Europa, Mitteleuropa, Deutschland, Wuerttemberg
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte, Mord
+M: 4/4
+L: 1/8
+K: A
+E2 | A2B2cBcd | efedc2
+e2 | fedcB2B2 | cdecA2
+E2 | A2B2c2cd | e2edc2
+S:https://www.folktunefinder.com/tunes/78771
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

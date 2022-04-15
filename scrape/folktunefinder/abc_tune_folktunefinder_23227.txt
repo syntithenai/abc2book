@@ -1,0 +1,51 @@
+X:2776
+T:I will bring you home Kathleen
+C:trad. Ierland
+C:Jan Willem van Dormolen
+O:England
+M:4/4
+L:1/8
+Q:1/4=96
+K:F
+V:1
+c2 |a3 ab gd' b|c'6 za |a3 g^f ga g|
+f6 zc |a3 ab gd' b|c'6 za |g3 c'd' ba g|
+c'6 zc' |d'3 c'b ab b|c'6 zc' |e'3 d'c' bg b|
+a6 za |a3 d'a ab b|a6 za |g3 ga ga b|
+c'6 c2 |a3 ab gd' b|c'6 za |a3 g^f ga g|
+f6 zc' |c'3 ag fe f|d'6 e'd' |c'3 ag ab e|
+f8 |]
+V:2          %II
+cB |c6 Bd |f6 zf |e4 _e2 e2 |
+f2 c2 A2 zB |c6 Bd |f6 z_e |e2 g4 f2 |
+e2 _e2 e2 ze |g2 e4 (f2 |f2) e2 f2 z2 |g2 f2 e2 f2 |
+f6 eg |f6 g2 |f6 f2 |g2 dc B2 df |
+e2 _e2 e2 z2 |f2 _e2 e2 (f2 |f2) g2 a2 zf |e2 c2 e4 |
+f6 zf |f2 c2 A2 c2 |f2 b2 f2 ^g2 |a3 fg2 ec |
+c2 ^c4 .c2 |]
+V:3          %III
+E2 |F2 _E2 E2 (F2 |F2) G2 A2 zc |B2 c4 B2 |
+A3 GF2 zE |F2 _E2 E2 (F2 |F2) G2 A2 z^F |G2 E2 BG B2 |
+c2 B2 A2 zc |e2 c2 B2 d2 |c2 B2 A2 z2 |(c8 |
+c6) ^c2 |d6 d2 |d6 dc |B4 GA Bd |
+c2 A2 B2 z2 |c6 Bd |c2 A2 F2 zF |G2 E2 G2 cB |
+A6 zA |A3 FF2 A2 |B6 B2 |c3 dd2 cB |
+A2 B4 .A2 |]
+V:4          %IV
+C,2 |F,2 ^F,2 G,2 ^G,2 |A,2 G,2 F,2 F,2 |C,2 G,2 C,4 |
+F,6 C,2 |F,2 ^F,2 G,2 ^G,2 |A,2 G,2 F,2 C,2 |C,4 G,4 |
+C,6 C,2 |C,2 G,2 C,G, ^G,2 |A,2 G,2 F,2 F,2 |C,2 G,2 C,2 E,2 |
+F,2 C,2 F,2 A,2 |D,2 A,2 D,2 G,2 |D,2 A,2 D,2 D,2 |G,2 G,2 D,2 G,2 |
+C,6 C,2 |F,2 ^F,2 G,2 ^G,2 |A,2 G,2 F,2 F,2 |C,2 G,2 C,4 |
+F,2 C,2 F,2 F,2 |F,2 _E,2 D,2 C,2 |B,2 F,2 B,2 F,2 |F,E, D,C, B,2 C,2 |
+F,2 B,4 .F,2 |]
+S:https://www.folktunefinder.com/tunes/23227
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 1
+P: Mountain Ranger Hornpipe
+R: hornpipe
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A>G \
+| "D"F>A d>e f>A d>f | "G"g>f e>d B2 "(A,)"A>G \
+| "D"F>A d>e f>d c>d | "G"b>a f>d "A7"e2 A>G |
+y6\
+| "D"F>A d>e f>A d>f | "G"g>f e>d B2 "I"[|] "(A,)"A>G \
+| "D"F>A d>f "A7"e>A c>e | "D"d2 "A7"A2 "D cinB"d2 :|
+|: A2 \
+| "D"(3fed c>d "G"B>d "A"A>G | "D"F>A d>e f>d c>d \
+| "G"b>d a>d g>f e>d | "Em"B>e e>d "A7"c>d e>g |
+y4\
+| "D"(3fed c>d "G"B>d "A"A>G | "D"F>A d>e f>d c>d \
+| "G"b>d a>d g>f e>d | "A7"c>A B>c "D"d2 :|
+|: (3FG^G \
+| "D"A>D F>A "G"B>D G>B | "D"A>F A>d f>d c>d \
+| "A7"e>A "(D)"f>A "(A,)"g>A "(D)"f>A | "A7"e>d c>B A2 (3FG^G |
+y8\
+| "D"A>D F>A "G"B>D G>B | "D"A>F A>d f>d c>d \
+| "Em"e>g e>d "A7"c>A B>c | "D"d2 "A7"f2 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/3648
+S:http://trillian.mit.edu/~jc/music/abc/England/BasquetteGarlandDance.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

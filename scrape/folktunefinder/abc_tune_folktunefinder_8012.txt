@@ -1,0 +1,26 @@
+X: 5
+P: Pols etter Petter Oluf Ulstad [G]
+O: BUL Nidaros
+R: pols
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+(3D-EF \
+| "G"G2 (3(GBG) (3D-B,D | "C"C2 (3(ECE) G>E \
+| "D7"D2 ((3FDF) A>F |1,3 G2 "G"((3GBG) :|2,4 "G"G2 G2 :|
+|:z(B, \
+| "C"C2) A-G "D7"F>A | "G"G2 B-G D>B, \
+| "C"C2 A-G "D7"F>A | "G"G2 B2- "(C)"c2 \
+| "D7"A2 ((3AFA) (3[dA]-cA | "G"G2 ((3GDG) (3G-BG \
+| "D7"[F2D2] ((3FDF) A>F | "G"G2 G2 :|
+S:https://www.folktunefinder.com/tunes/8012
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Rorospols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Rorospols.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

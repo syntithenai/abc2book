@@ -1,0 +1,29 @@
+X:17
+T:Orbita quadruplex hoc regit ignis opus
+T:A quadruple wheel rules this fiery work
+T:Fuga XVII
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 56      % Hippomenes
+V:2 program 1 56      % Atalanta
+V:3 program 1 57 bass % Golden Apple
+M:none
+L:1/4
+Q:1/2=96
+K:G dorian
+[V:1] z4     z2  A2  c4 =B4      A4   z2   GG   F2G2  dc _BA  d2 d2 z2  AA |
+[V:2] z2 ^F2 A4      G4 ^F4      z2EE D2   E2   BAG=F B2  B2  z2 FF E2  EE |
+[V:3] D,4    D,2 D,2 C,4 D,2 D,2 C,4  B,,2 B,,2 C,4   D,2 D,2 B,,4  C,2 C,2|
+%
+[V:1] G2  GG  F2F2 z2   AG  ^F2^F^F Gc  c2  B4  =F4   F4        z2D2 =B2  =B2  =B8  |]
+[V:2] D2  D2  z2FE D2   DD   EA A2  G4      D4   D4   z2   D2   C4    D4        D8  |]
+[V:3] D,2 D,2 A,,4 G,,2 G,,2 A,,4   C,2 C,2 B,,4 A,,4 B,,2 B,,2 A,,4  G,,2 G,,2 G,,8|]
+S:https://www.folktunefinder.com/tunes/77555
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+%% Copyright 1930 (Renewed) WB Music Corp.
+T:But not for me
+M:4/4
+L:1/4
+C:Gershwin
+Q:1/4=180
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 || "Fmaj7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Dm7"x2 x2 |
+"G7"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj"x2 x2 | "F7"x2 x2 ||
+V:melody
+GAG || A2GF- | F/2z/2 GAG | A4 | zGAG |
+S:https://www.folktunefinder.com/tunes/18620
+S:http://trillian.mit.edu/~jc/music/abc/song/But_not_for_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/but_not_for_me.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/But_not_for_me.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/but_not_for_me.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

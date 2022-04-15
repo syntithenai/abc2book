@@ -1,0 +1,28 @@
+X:650
+T:the Milk Maid
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000014a.html
+%%ID:0000014a
+K:D
+A|\
+d2d ede| fgf a2a| g2g f2f| ede d2A|\
+d2d ede| fgf a2a| g2g f2f| ede d2:|
+e|\
+f2f edc| dcB A2E| A2c B2d| c2B c3|\
+f2f edc| f^ga e2e| fef ^gfg| (a3 a2)(f/g/)|
+afd def| ged cBA| Bcd efg| fed cBA|\
+afd def| ged cBA| Bcd Adc| (d3 d2)|]
+S:https://www.folktunefinder.com/tunes/30439
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:23
+T: IM ANFANG WARS AUF ERDEN
+N: F0077
+O: Europa, Mitteleuropa, Deutschland
+R: Lob - Lied, religioes
+M: 2/4
+L: 1/16
+K: G
+Bc | d2G2G2AB | c3BA2
+Bc | d2B2AGAB | G4z2
+Bc | d2G2G2AB | c3BA2
+Bc | d3BAGAB | G4z4
+A2A2B2B2 | c3BA2
+A2 | B3ed2^c2 | d4z2
+d2 | g2f2e2d2 | d3cB2
+d2 | e2d2c2B2 | d3cB2
+d2 | g4f4 | e4d4
+d2c2B2A2 | A4G2
+S:https://www.folktunefinder.com/tunes/69583
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Lob - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

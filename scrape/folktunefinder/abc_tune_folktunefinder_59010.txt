@@ -1,0 +1,36 @@
+X:123
+T:Cantar d'nimes (CT 174)
+R:nimes
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de nimas, transcrita en Llanuces, ayuntamiento de Quirs.
+N:Se canta en la misma forma que CT 179, con la sola direrencia que el golpe de campanilla se oye entre el 1 y 2 miembros de la frase y entre el 3 y 4.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 174
+M:6/8
+L:1/8
+Q:3/8=69
+K:Gm
+G
+|B2 B BBB|c2 B-B2 B|ccB A2 G|[M:9/8]AAG AAG A2A|
+[M:6/8]G2 ^F-F2 B|d2 c AG^F|(A3/2B/4A/4)G-G2||
+W:nimas del Purgatorio
+W:son las que estn a tu puerta;
+W:si nos dais una limosna,
+W:tendris la gloria mui cierta.
+W:
+S:https://www.folktunefinder.com/tunes/59010
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Nimes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1
+T:Feeding the Birds
+R:reel
+C:Mike Rafferty
+S:Mike Rafferty
+H:made up with the help of Mary and the birds outside.
+D:Mike and Mary Rafferty, the Dangerous Reel
+N:From Lesl Harker <lmh@RCONS.COM> irtrad-l 2000-1-4
+Z:Lesl
+M:C|
+L:1/8
+K:G
+G3F \
+|: DGGA B2ag | efdc AGGF | DGGA B2AG |  AdcA G3F :|
+|: DGGA B2ag | efdc AGGF | DGGA B2AG |1 AdcA G3F :|2 AdcA G4 ||
+|: fgag fdde | ~f3d cAG2 | fgag fdd2 |  dgfa ~g3a |
+   b2af gfde | ~f3d cAGF | DGGA B2AG |1 AdcA G4  :|2 AdcA G3F |]
+S:https://www.folktunefinder.com/tunes/17142
+S:http://trillian.mit.edu/~jc/music/abc/reel/FeedingTheBirds.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FeedingTheBirds.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/FeedingTheBirds.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

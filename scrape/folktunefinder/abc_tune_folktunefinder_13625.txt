@@ -1,0 +1,22 @@
+X:1
+T:Marsden Hornpipe
+M:4/4
+L:1/8
+S:Graham Spencer <graham:rannygazoo.freeserve.co.uk> 2002-10-3
+Q:1/4=100
+K:D
+A2|(3def dA (3def dA|gf ed cB AG|FD AD BD AD|GA FG E2 A2|
+(3def dA (3def dA|gf ed cB AF|GA BG EB AG|F2 D2 D2 ::
+AG|FD AD BD AD|FD AD BD AD|FA dc BA GF|G2 E2 E2 AG|
+FD AD BD AD|FD AD BD AD|(3Bcd (3cde (3def (3efg|f2 d2 d2:||
+S:https://www.folktunefinder.com/tunes/13625
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MarsdenHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/MarsdenHornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/MarsdenHornpipe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

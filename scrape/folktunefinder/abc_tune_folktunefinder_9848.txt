@@ -1,0 +1,28 @@
+X: 1
+P: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+% jig/Fairies_Revels_C.abc
+S:https://www.folktunefinder.com/tunes/9848
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AlanJSmith1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090202/AlanJSmith1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

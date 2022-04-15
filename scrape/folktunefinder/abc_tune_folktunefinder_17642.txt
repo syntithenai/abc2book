@@ -1,0 +1,26 @@
+X: 1
+T: McLenon's Reel
+C: Bob McQuillen 1979
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+dB \
+| "Bm"F2B2 B2dB | "D"AFAB A2BA | "Bm"F2B2 B2dB | "D"A6 BA \
+| "Bm"F2B2 B2dB | "D"AFAB A2de | "Bm"f2ed "A"c2A2 | "Bm"B6 :|
+|: de \
+| "D"fdfg a2f2 | "A"edcB A2de | "D"fdfa f2d2 | "A"e6 de \
+| "D"fdfg a2f2 | "A"edcB A2Bc | "Bm"d2ed "A"cBA2 | "B"B6 :|
+S:https://www.folktunefinder.com/tunes/17642
+S:http://trillian.mit.edu/~jc/music/abc/reel/McLenonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/McLenonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/McLenonsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/McLenonsReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

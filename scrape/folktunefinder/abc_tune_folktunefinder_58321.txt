@@ -1,0 +1,24 @@
+X: 1
+P: Lord Alexander Russell's Jig
+C: William Marshall
+C: Arr. T. Traub 11-25-98
+R: Jig
+M: 6/8
+K: C
+L: 1/8
+|: g| "C"c3 c2 e|"G"B/c/dB "C"c2 G|"F"cBA "C"GFE|"Dm"D3 "G"D2 B|\
+  "C"c3 "Am"c2 e|"D"dec "G"B2 G|"F"cBA "G"GEG|"C"C3 C2 :|
+f|"C"e/f/gc gfe|"Dm"f/g/af "G"agf|"C"gec "Am"cde|"Dm"d3 "G"d2 f|\
+  "C"e/f/gc "C/E"gfe|"Dm"f/g/af "F"agf|"C"edc "G"GAB|"C"c3 c2 f||
+"C"gec "Dm"afd|"C/E"gec "F"afd|"C"gec "Am"cde|"D"d3 "G"d2 e/f/|\
+  "C"gfe "Dm/B"fed|"Am"edc "G"dcB|"F"cBA "G"GEG|"C" C3 C2 |]
+S:https://www.folktunefinder.com/tunes/58321
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/LadiesFancySet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

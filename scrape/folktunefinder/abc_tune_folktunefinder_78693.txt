@@ -1,0 +1,25 @@
+X:252
+T: ES WAR EIN BRAVER JUNG FISCHERGESELL
+N: E0129B
+O: Europa, Mitteleuropa, Deutschland, Oderberg, Hohen - Saathen
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, Liebe; Handwerk
+M: 6/8
+L: 1/16
+K: A
+E2 | e4d2=c3dB2 | A3BA2=GFE2
+E2 | A4B2=c2e2dc | B6z4
+B2 | e3ed2d3=cB2 | =c4d2e4
+d2 | e3=fe2e3dB2 | A6z4
+S:https://www.folktunefinder.com/tunes/78693
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, liebe; handwerk
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

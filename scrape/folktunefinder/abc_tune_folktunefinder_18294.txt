@@ -1,0 +1,30 @@
+X: 1
+T: West Mabou Reel
+R: reel
+O: John Campbell
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: G
+[| "G"g2dg "C"e2dB | "G"g2dg "D7"eaab | "G"g2dg "C"e2dB \
+| "D7"A2 GA "G"BGGd | "G"g2dg "C"e2dB |
+| "G"g2dg "D7"eaag | "G"bgaf gfed | "C"efga "D7"babg |]\
+| "G"eddB "Em"dedB | "Am"A2GA "D7"BAAg |
+| "G"eddB "Em"dedB | "D7"A2GA "G"BGGg | "G"eddB "Em"dedB \
+| "Am"A2GA "D7"BAAf | "G"g2bg "C"e2dB | "D7"A2 GA "G"BGG2 |]
+S:https://www.folktunefinder.com/tunes/18294
+S:http://trillian.mit.edu/~jc/music/abc/reel/WestMabouR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/WestMabouR_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/WestMabouR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/WestMabouR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

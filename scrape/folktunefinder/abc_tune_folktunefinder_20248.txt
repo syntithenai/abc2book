@@ -1,0 +1,24 @@
+X:1
+T: the Tennessee Waltz
+C:Acuff-Rose (BMI)
+M:3/4
+L:1/8
+K:D
+D>E | "D" F2 A2 D>E | "Dmaj7" F2 A2 d>e | "D7" f2 f2 e2 | "G" d2 B2 B>c |
+| "D" d2 A2 F2 | "G" B2 "D" A2 F2 | "A" E4 z2 | z4 D>E |
+| "D" F2 A2 D>E | "Dmaj7" F2 A2 d2 | "D7"f3 g f>E | "G" d2 B2 B>c |
+| "D" d2 A2 F2 | "A7" G2 F2 E2 | "D" D4 z2 | z4  :|
+d>e | f2 f3 f | "F#7" e4 f>e | "G" d2 B2 d2 | "D" A4 "G" B>c |
+| "D" d2 A2 F2 | "G" B2 "D" A2 F2 | "E7" E4 z2 | "A" z4 D>E |
+| "D" F2 A2 D>E | "Dmaj7" F2 A2 d>e | "D7" f2 a2 f>e | "G" d2 B2 AB/c/ |
+| "D" d2 A2 F2 | "A7" G2 F2 E2 | "D" D4  :|
+S:https://www.folktunefinder.com/tunes/20248
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TennesseeWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

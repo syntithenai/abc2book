@@ -1,0 +1,31 @@
+X:99
+T: Ace of Spades
+O:england
+Q:350
+R:Reel ()
+N:Set polyphonic to 'on' - there are double stops :-)
+M:4/4]
+K:G
+de/2f/2|:g2f2 gdBg|ecAe dBGd|cAFE DCB,D,|G,B,DE Gdef|
+g2fa gdBg|ecAe dBGd|cAFE DCB,D,|1G,A,/2B,/2/2C/2D/2E/2F/2 G2
+de/2f/2:|2G,B,DE G2[BG]z|
+:[B5G5]~BAG|[E5G,5]BAG|FGAB cdef|g2fa g2[BG]z|[B5G5]~BAG|[E5G,5]BAG|FGAB
+cdef|geae g4:|
+K:D
+|:fafe dedB|ABAG FEDF|ECEF GECE|DA,DE FABd|
+fafe dedB|ABAG FEDF|ECEF GECE|1D2F2 DABd:|2D2F2 D4|
+|:AAdA AeAA | fAAg AAfA | afdB gece | daf/2a/2f dBAF |
+AAdA AeAA | fAAg AAfA |afdB gece |1 daf/2a/2f dBAF:|2 daf/2a/2f d2-|
+S:https://www.folktunefinder.com/tunes/20548
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel ()
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

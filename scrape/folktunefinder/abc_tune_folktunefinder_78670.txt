@@ -1,0 +1,23 @@
+X:229
+T: ICH STAND AUF HOHEM BERGE
+N: E0115
+O: Europa, Mitteleuropa, Deutschland, Lahnkreis; Dillkreis; Rheinland
+R: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe
+M: 3/4
+L: 1/8
+K: G
+G2 | G2D2BB | B2G2
+d2 | e2d2cc | B4
+GG | e2eege | edd2
+dg | e2d2cc | B4
+S:https://www.folktunefinder.com/tunes/78670
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, schalk -, schelmen - lied, betrogene liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

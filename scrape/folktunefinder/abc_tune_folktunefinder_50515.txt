@@ -1,0 +1,25 @@
+X: 7
+T:Rose Tree, The
+M:4/4
+L:1/8
+Q:120
+R:March
+K:D
+f/2e/2|"D"dBAF A2A B/2c/2|dd ed/2e/2 fe "A"ef/2e/2|
+"D"dBAF A2A B/2c/2|dd "A"ed/2e/2 "D"fdd::!
+z|"D"{b}fefg a2gf|"Em"ebb>a beef/2e/2|
+"D"dB"(A)"AF "(D)"A/2B/2A/2G/2 A B/2c/2|dd "A"ed/2e/2 "D"fdd:||
+S:https://www.folktunefinder.com/tunes/50515
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

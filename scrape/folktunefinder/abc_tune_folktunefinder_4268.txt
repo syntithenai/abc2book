@@ -1,0 +1,28 @@
+X: 8
+T: John Barleycorn
+T: the Idiot
+C: Stan Rogers
+F: http://bassett-street-hounds.org/songs/john_barleycorn.php
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+G/A/ \
+| BD Dc/B/ (3AGA BD | EG GF E3 D \
+| EG GF/E/ DG G>A |1 (3Bcd cB A3 :|2 (3Bcd BA G3 |]
+G \
+| ee ed/c/ dd d>c | (3BAG GA B3 G \
+| ee ed/c/ dd d>c | (3BAG cB A3 G/G/ |
+| BD Dc/B/ (3AGA BD | EG GF E3 D \
+| EG GF/E/ DG G>A | (3Bcd BA G3 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/4268
+S:http://bassett-street-hounds.org/songs/john_barleycorn.php
+S:http://trillian.mit.edu/~jc/music/abc/England/new.abc
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

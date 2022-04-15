@@ -1,0 +1,27 @@
+X:160
+T:the Hangover
+A:Lancaster
+C:Andy Hornby
+M:15/8
+N:34332
+O:England
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000762.html
+%%ID:00000762
+K:E min
+EFG E2E2 BAB GAF GE | DEF D2D2 ABG FGE FD |\
+EFG E2E2 BAB GAF GE | DEF D2DF AGF E4 ::\
+Bcd B2B2 GAB cBA B2 | ABc A2A2 FGA BGF E2 |\
+Bcd B2B2 GAB cBA B2 | ABc A2A2 BGF E4 :|
+S:https://www.folktunefinder.com/tunes/43897
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 15/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

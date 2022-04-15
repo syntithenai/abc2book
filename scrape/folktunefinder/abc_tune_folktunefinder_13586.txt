@@ -1,0 +1,26 @@
+X: 1
+T: Hornpipe from Kohler's
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: MS of unknown origin
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"cBcd cdef | g^fga gedc | "F"AGAB cdcA | "C"GEcA GECE | "F"FEFG "Dm"AGAB |
+| "C"cBcd "Am"egag | "F"fedc "G"AcBd | "C"eccB c2 :: gf | "C"egcg ecg | "G"dgBg dgBg |
+| "Am"ceAe ceAe | "C"GcEc GcEG | "F"FEFG "Dm"AGAB | "C"cBcd "Am"egag | "F"fedc "G"AcBd | "C"eccB c2 :|
+S:https://www.folktunefinder.com/tunes/13586
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HornpipeFromKohlers_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/HornpipeFromKohlers_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/HornpipeFromKohlers_C.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

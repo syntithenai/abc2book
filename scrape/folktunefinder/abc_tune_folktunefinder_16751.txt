@@ -1,0 +1,25 @@
+X:2
+T:The Baltimore Salute
+C:Josie McDermott
+S:Brendan McAuley
+Z:Anthony Buffery <anthony.buffery@RRC.CO.UK> irtrad-l 2001-6-13
+R:reel
+M:4/4
+K:G
+A|B2eB dBAc|B2GB AGEG|DGGF GA(3Bcd|egdB ADGA|
+B2ge dBAc|B2GB AGEG|DGGF GA(3Bcd|egdB G3:|
+A|BGG2 gGG2|gdeg dGG2|G2GA BG(3Bcd|eaga a2ga|
+bgab gee2|gdeg dGG2|G2EG DEge|dBAB G3:|
+S:https://www.folktunefinder.com/tunes/16751
+S:http://trillian.mit.edu/~jc/music/abc/reel/BaltimoreSalute_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BaltimoreSalute_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BaltimoreSalute_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

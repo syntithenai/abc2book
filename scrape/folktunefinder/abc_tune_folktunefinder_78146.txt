@@ -1,0 +1,22 @@
+X:125
+T: ES ZOGEN DREI BURSCHE WOHL UEBER DEN RHEIN
+N: B0157
+O: Europa, Mitteleuropa, Deutschland, Thueringen; Rheinland
+R: Ballade, Romanze
+M: 3/4
+L: 1/8
+K: C
+C,2 | C,2E,2G,2 | C3B,A,2 | A,3G,G,2 | G,4
+E,2 | E,3D,E,2 | G,3D,D,2 | F,3E,E,2 | E,4
+C,2 | C,2E,2G,2 | E3DC2 | D3CB,2 | C4
+S:https://www.folktunefinder.com/tunes/78146
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

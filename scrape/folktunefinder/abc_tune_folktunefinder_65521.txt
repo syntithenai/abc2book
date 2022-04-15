@@ -1,0 +1,25 @@
+X: 236
+T:Pine Cones
+% Nottingham Music Database
+P:AAB
+S:John Lagden, via EF
+M:6/8
+K:D
+P:A
+|:A|"D"d2B A2d|"A7"edc "D"d2a|"G"b2a "A7"gfe|"D"f2d "A7"B2A|
+"D"d2B A2d|"A7"edc "D"d2A|"G"BAG "D"FAF|"A7"E3 "D"D2:|
+P:B
+"D"F2A ABA|"D"F2A d2e|"D"f2d "G"gfe|"D"f2d "A7"B2A|"D"F2A ABA|
+"D"d2e f2d|"G"gfe "D"faf|"A7"e3 "D"d2A|"D"F2A ABA|"D"F2A d2e|"D"f2d "G"gfe|
+"D"f2d "A7"B2A|"D"F2A ABA|"D"d2e f2a|"G"bag "D"faf|"A7"e3 "D"d2||
+S:https://www.folktunefinder.com/tunes/65521
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

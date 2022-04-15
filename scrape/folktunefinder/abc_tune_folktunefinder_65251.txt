@@ -1,0 +1,23 @@
+X: 163
+T:Lady in the Boat
+% Nottingham Music Database
+S:EF
+M:6/8
+K:D
+P:A
+A|"D"dfA d2A|"D"dfA d2f|"D"a2f "Bm"fed|"Em"efe "A7"ecA|
+"D"dfA d2A|"D"dfA d2f|"D"a2f "A7"efe|"D"d3 d2:|
+P:B
+d/2e/2|"D"f3 "A7/e"gfg|"D/f"a3 f2g|"D"agf "Bm"fed|"Em"efe "A7"ecA|
+"D"f3 "A7/e"gfg|"D/f"a3 f2g|"D"agf "A7"gec|"D"edd d2:|
+S:https://www.folktunefinder.com/tunes/65251
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

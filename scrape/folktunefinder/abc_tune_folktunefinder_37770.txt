@@ -1,0 +1,24 @@
+X:16399
+T:Teribus ye Teri Odin
+N:the Hawick border tune noted by J. Fingland
+S:NLS Acc.8985/103(1), Francis Collinson papers
+M:2/4
+L:1/8
+Q:1/4=100
+K:AMix
+% sixth gap because the tune doesn't go that high or low
+A>A A/B/c|e>e cA|A>A A/B/c|dd  Bd |\
+c>d ee   |e>e cA|A>A A/B/c|d>d Bd |
+cA  AA   |ce  cA|BG  GG   |Bd  BG |\
+A>A AA   |ce  cA|B>A GA   |Bd  BG|]
+S:https://www.folktunefinder.com/tunes/37770
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

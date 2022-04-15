@@ -1,0 +1,26 @@
+X:18
+T:Capriole
+C:Cliff Stapleton
+Z:midi2abc
+M:6/8
+L:1/8
+R:Jig
+Q:1/4=100
+K:F % 1 flat
+G2A BdB|c2d cBA|G2A BdB|e2c d3|
+G2A BdB|c2d cBA|G2A BdB|e2c d3|
+G2B dfd|e2d cdf|g2d a2a|cdc A2z|
+G2B dfd|e2d cdf|g2d a2a|edc d3|
+G2B dfd|e2d cdf|g2d a2a|cdc A2z|
+G2B dfd|e2d cdf|g2d a2a|edc d3|]
+S:https://www.folktunefinder.com/tunes/52049
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

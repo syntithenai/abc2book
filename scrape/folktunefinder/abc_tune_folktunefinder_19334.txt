@@ -1,0 +1,31 @@
+X: 1
+T: Earl Haig
+T: The Laird o' Bemersyde
+C: J. Scott Sknner
+R: strathspey
+B: J. Murdoch Henderson "Scottish Music Maker" 1957
+B: Alastair J. Hardie "The Caledonian Companion" 1981
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+E2 \
+| "A"A,3C E3D CE3 A4 | "D"D3F B3A "E7"GB3 e2d2 \
+| "A"c3A "E"B2G2 "D"A3F "A"E4 | "D"F3D "A"E2C2 "Bm"D2C2 "E7"B,E3 |
+| "A"A,3C E3D CE3 A4 | "D"D3F B3A "E7"GB3 e2d2 \
+| "A"c2a2 "E"B2g2 "D"A2f2 "E"G2e2 | "Bm"F2d2 "E7"G2e2 "A"A4- A2 |]
+d2 \
+|   "A"c2de [a3c3][gB] [f2A2][e2G2] [d2F2][c2E2] | "E7"[B2G2]cd [g3d3][fd] [e2d2][d2F2] [c2E2][B2G2] \
+| "F#m"A2Bc [f3A3][eG] [d2F2][c2E2] [B2D2][A2C2] | "B(m)"[G3B,3]A B3A "E7"G2E2 E2d2 |
+|   "A"c2de a3g "F#m"f2e2 d2c2 | "Bm"B2cd g3f "E7"e2d2 c2B2 \
+| "F#7"A3B/c/ F3G/^A/ "Bm"B3c/d/ g3f | "E7"e2dB Ge3 "A"cA3 A2 |]
+S:https://www.folktunefinder.com/tunes/19334
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Earl_Haig_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Earl_Haig_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/Earl_Haig_A.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

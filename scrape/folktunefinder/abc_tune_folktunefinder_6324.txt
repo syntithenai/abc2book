@@ -1,0 +1,33 @@
+X: 19
+T: Jenny Lind
+R: polka
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Morris Ring (several versions)
+N:
+N: Jenny Lind was a very popular singer from Sweden in the late 1800s.  Several tunes were written
+N: for her.  This one was played all over Europe, and a great many variations of it exist.  This
+N: two-key version is common, as are versions entirely in G or D.
+M: 2/4
+L: 1/16
+K: D
+"(A7)"AG \
+| "D"F2A2 "G"G2B2 | "D"A2f2 fef2 | "A7"G2e2 ede2 | "D"F2d2 "(A7)"d2AG \
+| "D"F2A2 "G"G2B2 | "D"A2f2 fef2 | "A7"g2e2 egfe | "D"d2f2 d2 :|[K:G]
+K: G
+|: ef \
+| "C"g3f egfe | "G"d2B2 BAB2 | "D7"c2A2 AGA2 | "G"B2G2 Gdef \
+| "C"g3f egfe | "G"d2B2 BAB2 | "D7"c2A2 AcBA | "G"G2B2 G2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6324
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

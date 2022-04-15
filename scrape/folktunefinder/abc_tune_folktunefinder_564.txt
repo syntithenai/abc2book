@@ -1,0 +1,42 @@
+X:105
+T:Li tambourinaire de Mireio
+O:France
+A:Provence
+C:J. Ginat
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-22
+S:Carnet du tambourinaire Ginas (1924)
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet1
+%%MIDI program 74
+B4 | A2G2 | F2>B2 | d4 | f2e>d | c>d e>d | g2f>e | d4 | b2a>g | f2 c>d | e2 B>c | d4 | e2 Gc | B2 AB | 
+d2>c2 | B4!fine! :: \
+K:F
+A4 | d2^c2 | f2>e2 | d4- | defg | a2b2 | a2g>f | e4- | e^def | g2ba | g2gf | e4 | eA ^ce | g2 a>b | a2 fe | d4 ::
+f4 | A2c2 | e2>d2 | c4 | F2A2 | c2f2 | e4 | d4 | g4- | gfed | a2>f2 | c4 | zA Bc | d4- | dedc | f4 :|
+V:Galoubet2
+%%MIDI program 74
+B4 | A2G2 | F2>B2 | BFBd | f2 c>c | c>c c>c |B2 d>c | BFBd | g2 f>e | d2 A>B | c2 B>c | BFBd | e2 Gc | B2 AB | 
+A2>A2  | B4 ::
+K:F
+A4 | B2A2 | d2>^c2 | dAFA | d^cde | f2g2 | f2 e>d | ^cAce | a2 gf | e2gf | e2ed | ^cAFA | ^cA Ac | e2^c2 | A2 ^c2 | d4 ::
+f4 | A2c2 | e2>d2 | c4 | F2A2 | c2f2 | e4 | d4 | g4- | gfed | a2>f2 | c4 | zA Bc | d4- | dedc | f4 :|
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/564
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

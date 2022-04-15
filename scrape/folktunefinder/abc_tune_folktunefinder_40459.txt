@@ -1,0 +1,25 @@
+X:1
+T:The Tempest
+R:reel
+M:C
+Q:1/4=190
+K:C
+d2 cA GE ~E2|DEGA (3.B.cd e^c|decA GE ~E2|DEcE ED^FA|
+d2 cA GE ~E2|DEGE cE~E2|DEFA GEcG|EcGE DEFA|
+d2 cA GE ~E2|DEGA (3.B.cd e^c|decA GE ~E2|EcGE ED^FA|
+d2 cA GE ~E2|DEFE GE  E2|DEFA GEcG|EcGE D2 ^FA||
+d2 ed cA ~G2|AdcA GE ~E2|d2 ed cdef|edcA dgag|
+~e2 dg edcA|cAGE AEGE|DEFA GEcG|EcGE DE^FA|
+d2 ed c{d}c AG|AdcA GE ~E2|A.ddB cdef|edcA dgag|
+~e2 de {f}edcA|cAGE ~G3 E|DEFA GEcG|EcGE D2 ^FA|]
+S:https://www.folktunefinder.com/tunes/40459
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:13
+T:Bill's French Tune
+C:Bill Quern
+M:C
+L:1/4
+K:Dm
+"Dm" A2 d2 | c =B A2 | FA "Am"EA| "Dm" DEFG|
+"Dm" A2 d2 | c =B A2 | fd "Am"e ^c|1"Dm" d2 d2 :|2"Dm"d2 d d/e/||
+|:"Dm" fd "C" e^c| "Bb" dc "Am" BA | "Dm"fd "Am"e^c | "Dm"d a2 a|
+"Dm" fd "C" e^c| "Bb" dc "Am" BA |"Dm"FA "Am"EA |1 "Dm" D3 d/e/:|2"Dm" D4|]
+S:https://www.folktunefinder.com/tunes/55616
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

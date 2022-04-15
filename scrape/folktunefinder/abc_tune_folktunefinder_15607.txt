@@ -1,0 +1,30 @@
+X: 1
+T: Mrs MacDouall Grant
+C: Niel Gow
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+c2 \
+| "F"ABc2 c2A2 | "Bb"B2d2 d4 | "F"ABc2 A2F2 | "C7"E2G2 G4 \
+| "F"ABc2 c2A2 | "Bb"Bcde f2ed | "F"c2A2 "C7"B2G2 | "F"F4 F2 :|
+f2 \
+| "C7"g4 "F"a4 | "F"f2c2 f2a2 | "C7"g2fg "F"a2f2 | "C7"e2g2 g2a2 \
+| "C7"g4 "F"a4 | "F"f2c2 f2ed | "F"c2A2 "C7"B2G2 | "F"F4 F2 |]
+f2 \
+| "C7"g4 "F"a4 | "F"f2c2 f2a2 | "C7"g2fg "F"a2f2 | "C7"e2g2 g2fg \
+| "F"a2f2 "Bb"d2f2 | "Am"e2c2 "Dm"f2ed | "F"c2A2 "C7"B2AG | "F"F4 F2 |]
+S:https://www.folktunefinder.com/tunes/15607
+S:http://trillian.mit.edu/~jc/music/abc/march/MrsMacDouallGrant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MrsMacDouallGrant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MrsMacDouallGrant_F.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

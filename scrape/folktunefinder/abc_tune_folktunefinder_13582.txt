@@ -1,0 +1,33 @@
+X:8
+T:The Homebrew
+R:hornpipe
+C:Composed by Gavin Atkin
+S:Copyright Gavin Atkin 1995
+S:Gavin Atkin <gmatkin@clara.net> tradtunes 2008-4-23
+N:Step-hop dedicated to home-made beer
+M:4/4
+L:1/8
+Q:70
+K:G
+"D7"D \
+|:"G".g2 "Bm".g2 "Em".g2 "D"~f>e | "G"d>B "D"A>B "Em"G2 (3GAB |\
+  "C".c2 c>e "G"d>B G>B |1 "D"~A>G F>G "D7".A2 .A2 \
+                       :|2 "D7"~A>G F>A "G".G2 G2 :|
+|:"G"b>^a .b2 "F#m"=a>^g .a2 | "G"~ge dB "Em".G2 "G"(3GAB |\
+  "C"c2 ce "G"d>B G>B |1 "D"~A>G F>G "D7".A2 "F#m"A2 \
+                     :|2 "D7"~A>G F>A "G".G2 G2 :|
+S:https://www.folktunefinder.com/tunes/13582
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/HomebrewHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/HomebrewHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/HomebrewHp_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/HomebrewHp_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

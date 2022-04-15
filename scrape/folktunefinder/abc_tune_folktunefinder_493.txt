@@ -1,0 +1,27 @@
+X:34
+T:La Reino Jano
+T:Cant di galerian
+O:France
+A:Provence
+C:Frdric Mistral
+R:Chanson
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+V:Galoubet
+G | G2d d2^c | d3- d2B | B2B c2d | B2A HG2G | G2c c2=B | c3- c2c | d2c B2A | G3 HF2 || G |
+G2A B2A | B3- B2B | c2c G2A | (B2A) G2A | (B2A) G2A | B2A G2A | B2B c2d | B2A G2 |]
+%%footer $D   Galouvielle-MBe 2008 \nChanson (France)
+S:https://www.folktunefinder.com/tunes/493
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Chanson
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

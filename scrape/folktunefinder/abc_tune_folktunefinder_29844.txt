@@ -1,0 +1,23 @@
+X:3564
+T:Crossing The Cascades
+% Nottingham Music Database
+S:Mike Richardson 16.9.90, via Phil Rowe
+M:6/8
+K:D
+"A"A2F |:"D"DED DFA|d3 d2c|"G"B2B Bcd|"D"A3 F2A|
+"G"BAB "A"cBc|"D"d2A "Bm"AGF| [1"Em"E2F GFE|"A"C3 A,2C:|
+ [2"A"EFG F2E|"D"D3 DFA||"D"d3 def|"F#"c3 -cBc|"G"d2d dcB|"D"A3 F2A|
+"G"B2c dcB|"D"A2d "Bm"AGF|"Em"E2F GFE|"A"C3 A2c|"D"d3 def|"F#"c3 -cBc|
+"G"d2d dcB|"D"A3 F2A|"G"BAB "A"cBc|"D"dcd "G"efg|"D"fed "A"A2c|"D"d3 ||
+S:https://www.folktunefinder.com/tunes/29844
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

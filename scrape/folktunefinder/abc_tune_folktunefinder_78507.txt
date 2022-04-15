@@ -1,0 +1,27 @@
+X:66
+T: ALS DIE WUNDERSCHOENE ANNA
+N: E0042L
+O: Europa, Mitteleuropa, Deutschland, Harz, Clausthal, Altenau
+R: erzaehlendes Volks - Lied, Ritter -, Raeuber - Sage
+M: 2/4
+L: 1/8
+K: Eb
+EF | GGGG | GG
+FE | FB,B,B, | B,z
+FG | AAAA | AA
+cB | AGGG | G2z
+c | BAGF | EEE
+E | c2c2 | B2z
+c | BAGF | EEE
+G | B2BA | G2
+S:https://www.folktunefinder.com/tunes/78507
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, ritter -, raeuber - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

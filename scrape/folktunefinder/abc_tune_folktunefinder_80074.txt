@@ -1,0 +1,25 @@
+X:15
+T: Lindenschmid
+N: A0377A
+O: Europa, Mitteleuropa, Deutschland
+N: Fliegendes Blatt von 1546.
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/4
+K: A
+A2 | A2A2=G2G2 | =c2B2c4 | z2
+=c2c2c2 | d2=c2A2B2 | A4z2
+d2 | d4d2d4=c2 | =G3AB2G2z2
+B2 | =c4d2e4d2 | =c4B2c4z2
+e2e2e2d4c2 | B4A6
+S:https://www.folktunefinder.com/tunes/80074
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

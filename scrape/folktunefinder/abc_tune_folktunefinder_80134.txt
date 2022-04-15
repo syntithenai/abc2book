@@ -1,0 +1,27 @@
+X:75
+T: Schenkenbachs Reuterlied
+N: A0426A
+O: Europa, Mitteleuropa, Deutschland
+N: Ott 1534 N0. 38.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/2
+L: 1/2
+K: F
+c | ccde | f2c2
+d2 | c2BAG2 | F2z
+f | ffff | e2c2z
+c | g2fed2 | c2z
+c | f2fe2e | d2A2z
+A | d2dd2d | G2G2z
+c | cccB | c2A2
+f2 | e2dcB2 | A2zd | c2BAG2 | F2z
+S:https://www.folktunefinder.com/tunes/80134
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

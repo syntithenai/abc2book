@@ -1,0 +1,36 @@
+X:40
+T:Gilbert
+R:march
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:currently unpublished in book form
+Z:psc
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:300
+M:C|
+K:D
+(3(ABc)|d3 f e3 c|d2 A2 F2 D2|G>FGFD<F|E4 E2 (3(ABc)|
+[1d3 f e3 c|d2 A2 F2 D2|G>FGFG<E|D4 D2:|
+[2d>cd<f g>fe<g|f>dA<F D>FA<=c|B>GF<G A>FG<E|D4 D2||
+|:f>g|a>fe<f g>ed<c|d>cd>f e>cA>=c|B>AB<d A>ag<f|[1e4 e2 (3(efg)|
+a>fe<f g>ed<c|d>cd>f e>cA>=c|B>GF<G A>FG<E|D4 D2:|
+[2e4 e2 (3(ABc)|d>cd<f e>defe<d B>edGF<G A>FG<E|D4 D2|]
+S:https://www.folktunefinder.com/tunes/40053
+S:http://cranfordpub.com/tunes/abcs/totm.abc
+S:http://www.cranfordpub.com/tunes/abcs/totm.abc
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes101-200.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

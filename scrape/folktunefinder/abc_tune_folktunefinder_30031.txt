@@ -1,0 +1,26 @@
+X:0
+T:The Inverness Fiddler
+G:strathspey
+N:Named by GS's son George MacLennan; possibly derived
+N:from a tune played by A.A. Cameron on the fiddle
+C:Pipe Major George S. McLennan
+S:Gordon Highlanders Pipe Music Collection volume II
+B:NLS Mus.D.s.19
+M:C
+L:1/8
+Q:1/4=112
+K:BMin
+B2 B>c d>e f>g|a>f e>d c>B A>c|B2 B>c d>e f>g|a>f e>c B2 f2:|
+B2 B>c d>e f>d|c>B A>B c>d e>c|B2 B>c d>e f>g|a>f e>c B2 f2:|
+S:https://www.folktunefinder.com/tunes/30031
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

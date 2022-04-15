@@ -1,0 +1,25 @@
+X:100
+T: Bettelmoench
+N: A0459
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 22
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: F
+F | F2A2 | c2zc | dccB | A2z
+A | AAAA | B2AA | AGGF | G2z
+G | DDE2 | F2zF | AAAA | F2z
+F | BBBB | B2AG | AGGF | G2z
+G | DDEE | F2FF | AABG | F3
+S:https://www.folktunefinder.com/tunes/80159
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

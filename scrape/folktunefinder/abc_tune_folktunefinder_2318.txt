@@ -1,0 +1,27 @@
+X: 1
+P: the Atholl Highlanders (Balkan version)
+O: Trad
+R: jig-time march
+Z: John Chambers <jc:trillian.mit.edu>
+N: This is a Balkan/klezmer hejaz/freygish version of the well-known Scottish pipe tune.
+M: 6/8
+L: 1/8
+K: APhr^c
+c/d/ |: "A"e3  e>cA  |     ecA "Gm"Bcd |1 "A"e3   e>cA | "Gm"Bcd   cBA :|2 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+c/B/ |: "A"A>ce Ace  | "Dm"A>df    Adf |1 "A"A>ce  Ace | "Gm"Bcd   c2B :|2 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+ e   |: "A"a2e  edc  |     a2e     edc |1    a2e   edc | "Gm"Bcd   cBA :|2 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+ B   |: "A"c>Ac cAc  | "Gm"d-<Bd   dBd |1 "A"c-<Ac cAc | "Gm"B-<GB Bcd :|2 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/2318
+S:http://trillian.mit.edu/~jc/music/abc/test/AthollHighlanders_Aphr.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/AthollHighlanders_Aphr.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/AthollHighlanders_Aphr.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/AthollHighlanders_Aphr.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/AthollHighlanders_Aphr.abc
+% Rhythm Jig-time march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

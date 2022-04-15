@@ -1,0 +1,26 @@
+X:2423
+T:Hackett's Schottiche
+T:Basil Cosgrove's Pine Tree Flat Barn Dance
+O:england
+M:4/4
+L:1/8
+S:Basil Cosgrove
+R:Schottische
+A:New England, New South Wales, Australia
+K:G
+(3DEF|:G2 G>F G2- G>B|A>G A>B c2- (3cBc|d>g f>g e>c A>F|G>A (3BAG D2 (3DEF|
+G2 G>F G2- G>B|A>G A>B c2- (3cBc|d>g f>g e>c A>F|G2 G>F G>A B>c|
+d2 d>B d>B g>f|e>c A>c e2- e>f|93gfg f>g e>c A>F|G>A (3BAG D2- (3DBc|
+d>B G>B d>B g>f|e>c A>c e2- e>f|(3gfg f>g e>c A>F|G2 G>F G2:|
+S:https://www.folktunefinder.com/tunes/22874
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Schottische
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

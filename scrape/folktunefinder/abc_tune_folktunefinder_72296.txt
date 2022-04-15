@@ -1,0 +1,51 @@
+X: 47
+T:Farinell's Ground. HA.046
+T:La Folia,aka. HA.046
+M:3/4
+L:1/4
+Q:80
+C:La Folia,aka.Division on a ground
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:The Tune in the MS is covered in cryptic signs, which I have attempted
+N:to represent with a cunning misuse of the abc chord symbols. You must
+N:interpret them for yourself, for I cannot.Somewhere under this you
+N:will
+N:find a very satisfying tune, if you play it back a few times on
+N:PlayQabc or whatever..PFD Division Violin.v1.CGP
+N:Barfly users, format it yourself, by the way!
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:F
+d"A"d"u"e|"#"c"#"c"#"c|"d"d"#"d"u"(c/4d/4)|eee|"d"f"#"f"u"g/|\
+"="eef/e/|dd>e|"#"c"#"c"u"c/|"#"c"#"c"#"c|d"-"d"u"(c/4d/4)|\
+eee|"d"f"="f"u"g/|eef/e/|f/d/"="d"#"c/4|dd2||\
+dD"u"d|"#"cA"#"c|dDdd|eE"u"e|fF/f/e/d/|eE/e/f/e/|dD/"u"d"#"c/B/|\
+"#"cA/"#"B/"#"c/A/|dAD/d/|"#"cAE/"#"c|dAD/d/|ecG/e/|\
+gec/g/|f/e/"ll"ed/|d2||\
+d/"#"c/4d/e/4d/e/4|"ll"c/B/4"#"c/d/4"#"c/e/4|\
+d3/4"#"c/4d3/4"#"e/4d3/4f/4|\
+"ll"e3/4d/4e3/4f/4e3/4g/4|f3/4e/4f3/4g/4f3/4g/4|\
+"="e3/4d/4e3/4f/4e3/4f/4|\
+d3/4c/4d3/4e/4d3/4e/4|"#"c/"#"B/4"#"c/d/4"#"c/e/4|\
+d3/4"#"c/4 d3/4e/4 d3/4e/4|"#"c/B/4 "#"c/d/4 "#"c/e/4|\
+d3/4c/4 d3/4e/4 d3/4f/4|"#"e/d/4 e/f/4 e/g/4|\
+f3/4e/4 f3/4g/4 f3/4g/4|"#"e/d/4 e/f/4 g/a/4|f3/4e/ "#"ed|d2||\
+ff"u"g/|"d"eee|f"#"f(e/4f/4)|ggg|aa"u"b/|gg>g|f(g/a/) (g/f/)|"du"eee|\
+"d"ff>a|"#"eee|ff"u"(e/4f/4)|ggg|a(c'/a/) g/f/|g(a/g/) (f/e/)|"d"f/d/"="
+d"="c/|\
+dd2||(df)e "#"c2A|fa/"-"g/f/4 "="e2e|ab/a"-"ga/"-"g/f/4||"-"ed/e/c/f2||\
+fga efg|df/e "#"c>BA|"b"cBA Bcd|GF/E F2E|FGA "#"B"#"cd|efg fga|\
+ba/g agf|"-"ed/"#"cd2|]
+S:https://www.folktunefinder.com/tunes/72296
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

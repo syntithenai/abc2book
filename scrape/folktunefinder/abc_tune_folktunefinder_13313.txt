@@ -1,0 +1,25 @@
+X: 1
+T: Roslyn Castle
+T: The House of Glamis
+O: Pastoral Pipe Tune, 18th c
+N: Highland Whisky handwritten ms.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+GF \
+| "Em"E2Bc B2AG | "(C)"cBAG "D"F2GF | "Em"E2ef g2fe | "D"defd "B(m)"B2AB | "Am"cBAG "B(m)"F2GA |
+| "Em"BGFE "D"d2ef | "C"gefd "Bm"eBAB | "B7"G2F2 "Em"E2 :: zB | "Em"edef g2fg | baga "D"f2ed |
+| "Em"edef g2fg | baga "D"f2 AB | "C"cBAG "B(m)"F2GA | "Em"BGFE "D"d2ef | "C"gefd "Bm"eBAB | "B7"G2F2 "Em"E2 :|
+S:https://www.folktunefinder.com/tunes/13313
+S:http://trillian.mit.edu/~jc/music/abc/air/RoslynCastle_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/RoslynCastle_Em.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

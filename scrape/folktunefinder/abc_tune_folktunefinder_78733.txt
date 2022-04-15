@@ -1,0 +1,22 @@
+X:292
+T: EIN KAEFER AUF DEM ZAUNE SASS
+N: E0164
+O: Europa, Mitteleuropa, Deutschland, Mecklenburg
+R: erzaehlendes Volks - Lied, Sage, Tier - Maerchen, Scherz
+M: 3/4
+L: 1/16
+K: G
+D2 | G3FG2B2B2G2 | F3ED8 | F4G4z2
+D2 | A3^GA4A4 | d3dd6
+G2 | F3GA4D4 | c3BB8 | F4G4z2
+S:https://www.folktunefinder.com/tunes/78733
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, tier - maerchen, scherz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

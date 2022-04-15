@@ -1,0 +1,30 @@
+X: 3
+T:Tumblers Hornpipe. JB.03
+M:3/2
+L:1/8
+Q:350
+S:James Biggins MS, Leeds, 1779.
+S:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2002-12-23
+R:3/2 HP
+O:England
+A:Yorkshire
+Z:vmp.Nick Barber & Chris Partington
+K:G
+"no key sig.in ms"G3A BABcd4|E2ed cBAGF2D2|EGFA GBAcB3A|G2gf edcB
+A2G2:|
+S:https://www.folktunefinder.com/tunes/4101
+S:http://trillian.mit.edu/~jc/music/abc/England/TumblersHornpipeJb03_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/TumblersHornpipeJb03_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/TumblersHornpipeJb03_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/misc/TumblersHornpipeJb03_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/TumblersHornpipeJb03_1.abc
+% Rhythm 3/2 hp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

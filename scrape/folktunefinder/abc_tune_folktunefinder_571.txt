@@ -1,0 +1,55 @@
+X:112
+T:Marche varie
+T:(dite Marche Solo)
+O:France
+A:Provence
+C:Trad.
+R:Marche
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+%%continueall 1
+L:1/8
+K:Bb
+V:Gal1
+B2B>B B2B2 | B2 z2z4 | c2c>c c2c2 | c2 z2z4 | c2f>f d2B>B | c2f>f d2B>B | c>c d>d e>e f>f | g2c>c d>d e>e | f2B>B d2 f>f | c2e>g f2d>f |
+f>e d>c B>d c>A |1 B2B>BB2z2 :|2 B2B>BB2c>c |: Tf4 A>A B>B | c>c d>d c2c2 | d>B f>d e>e d>d | c2c>c c2c>c | Tf4 A>A B>B | c>c d>d c2c2 |
+d>B f>d e>e d>d | c2c>cc2z2 | B2B>B d2B>d | f2d>f b2z2 | b2a>g f2f2 | e2f>e d2>d2 | c>e g>e d2c2 | B2B>BB2>f2 | f>d B>d f>g a>b | g2e>g f2d>f |
+e2 e>e d2>f2 | f>d B>d f>g a>b | g2e>g f2 d>f | f>e d>c B>d c>A |1 B2B>BB2c>c :|2 d2d>d d4 |]
+V:Gal2
+d2d>d d2d2 | d2z2z4 | A2A>AA2A2 | A2z2z4 | c2d>d B2d>d | e2d>d B2d>d | A>A B>B c>c d>d | e2A>A B>B c>c | d2d>d B2d>d | e2c>ed2B>d |
+d>c B>A d>B e>c |1 d2d>d d2z2 :|2 d2d>dd2A>A |: Td4 F>F G>G | A>A B>B A2 A2 | B>F d>B c>c B>B | A2A>A A2A>A | Td4 F>FG>G | e>e B>B A2A2 |
+B>F d>B c>c B>B | A2 A>A A2z2 | d2d>d d2d>B | d2B>d d2z2 | e2f>e d2d2 | c2d>c B2>B2 | A>c e>c B2A2 | D2d>dd2>d2 | d>Bd>B d>e f>g | e2g>e d2f>d |
+c2c>c B2>B2 | d>B d>B d>e f>g | e2g>e d2B>d | d>c B>A B>g e>f |1 B2d>B d2A>A :|2 B2B>B B4 |]
+T:Soliste de la Marche varie
+O:France
+A:Provence
+C:Trad.
+R:Marche
+%%continueall 1
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/16
+%%staves Solo
+K:Bb
+V:Solo
+[L:1/16]
+B4B3B B4B4 | B4-BABc dcde gfed c4c3c c4c4 | c4-cBcd edef gfed | c4f3fd4B3B | c4f3fd4B3B |
+cdec defd efge cdef | gfed cdec defd efge | fedc BABc dcde fefg | cdec defg fefe defg | fgfe dedc BABd cBcA |1
+B4B3BB4z4 :|2 B4B3BB4c3c |: Tf8 A3A B3B | c3c d3d c4c4 | dcdB fefd efge defd | c4c3c c4c3c | Tf8 A3A B3B | c3c d3d c4c4 |
+BABA fefd efge defd | c4c3cc4z4 | B4-BABc dedc Bcde | fgfe dcBf b8 | b4a3g f4f4 | e4f3e d6d2 | cBcd efge defd cdec |
+B4B3B B6f2 | fefg fedc Bcde fgab | gece gece fdBd fdBd | ecAc ecAc dBFB dBFB | defg fedc Bcde fgab |
+gece gece fdBd fdBd | fgfe dedc BABd cBcA |1B4B3B B4c3c :|2 B4B3BB8 |]
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/571
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

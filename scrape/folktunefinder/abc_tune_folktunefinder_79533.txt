@@ -1,0 +1,31 @@
+X:429
+T: GESELLEN STIMMET MIT MIR EIN
+N: E1622
+O: Europa, Mitteleuropa, Deutschland, Ober - Rhein
+R: Staende -, Handwerker -, Gesellen - Lied, Trink - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GGAA | BBG
+A | BBcc | ddB
+d | edcB | A2z
+B | ddee | ccA
+B | ccdd | BBG
+A | B2A2 | Ged
+c | B2A2 | G2z
+B | ddee | ccA
+B | ccdd | BBG
+A | B2A2 | Ged
+c | B2A2 | G2z
+S:https://www.folktunefinder.com/tunes/79533
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, handwerker -, gesellen - lied, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

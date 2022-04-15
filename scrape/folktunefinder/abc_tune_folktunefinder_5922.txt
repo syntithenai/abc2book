@@ -1,0 +1,30 @@
+X: 3
+M: g\aangl\aat
+P: Boda Gammalg\aarden (Bl\aasenberg snoa)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"d2d2 B2dB |    G2BG D4   |     D2B2 A2G2 | "Am"F4    E4 \
+| "D7"c2c2 A2cA |    F2AF D4   |     D2DE D2C2 |  "G"B,2D2 G2B2 |
+|  "G"d2d2 B2dB |    G2BG D4   |     D2B2 A2G2 |  "C"F4    E4 \
+| "D7"c2c2 A3c  | "G"B2B2 G3B  | "D7"A2AF DFAF |  "G"G2G2 "fine"G4 :| [K:C=f]
+K: C
+|: "C"e3d  c2A2 |    G2GE C4   |     CEGE CEGE | "Dm"F2D2  D4 \
+|     f3e  d2c2 |"G7"c2B2 B3c  |     B2A2 A3B  |  "C"A2G2  G4 |
+|  "C"e3d  c2A2 |    G2GE C4   |     C2E2 G2c2 |  "F"A2F2  F4 \
+| "G7"f2d2 d2df | "C"e2c2 c2ce | "G7"d2dB GBdB |  "C"c2c2  c4 :|
+S:https://www.folktunefinder.com/tunes/5922
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Polka3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH_Walk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Snoa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH/2008FH_Walk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Snoa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008FH/2008FH_Walk.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

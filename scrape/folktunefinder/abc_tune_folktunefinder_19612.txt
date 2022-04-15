@@ -1,0 +1,25 @@
+X:1
+T:O'er the Muir Amang the Heather
+T:Aldivalloch
+Z:Wendy Galovich <Galovich@concentric.NET> (corrected by John Chambers)
+M:C
+L:1/16
+S:The Skye Collection
+R:Slow Air
+K:D
+|: "D"(A,D3) D3E ~D3E D2A,2 | "Em"(B,E3) E3F {F}TG3F E2D2 | (FA3) A3B d3e {de}f3e | {e}d3B (ABd)F E3F E2D2 :|
+|: "D"(Ad3) d3e {c}d3e d2A2 | "Em"(B3e) e3f {ef}g3f e2d2 | {d}f3e d2B2 (Ag3) f3e | {e}d3B (ABd)F E3F E2D2 :|
+|: A,B,DE DA,DE FGEF (DE).D.A, | (B,DEF E)(B,EF) (AF)(dF) E>D | (DEFG) A3B (AD)FA d3e | (fd)(eB) (dA)(BF) (EFG).F ED :|
+|: D>d (dc/d/) f>d dc/d/ Ddfe d2A2 | E=GB^d (ed).e.f (ga)(fg) {f}e2=d2 | (fd).e.f (dA).B.d (FA)(EF) (AB).d.e | f3d e3B d3A B3F (EFG).F E2D2 :|
+S:https://www.folktunefinder.com/tunes/19612
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/OerTheMuirAmangTheHeather_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/OerTheMuirAmangTheHeather_D.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

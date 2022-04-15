@@ -1,0 +1,26 @@
+X:1695
+T:Art Wooten's Quadrille
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:Bb
+B,|"Bb"B,DF BAB|"Bb"BdB "F7"F2E|"Bb"DFB "D7"AcB|"G7"G3 -"Cm"GcB|"F7"AFA cAc|
+e2c A2G|"F7"FAc ed^c|"Bb"d3 "F7"d2B,|"Bb"B,DF BAB|"Bb"BdB "F7"F2E|\
+"Bb"DFB "D7"AcB|
+"Eb"G3 -GcB|"F7"AFA cAc|e2c A2G|"F7"FAc ecA|"Bb"B3 B2f||
+"Eb"g2g/2^f/2 "E/dim"g2g/2=e/2|"Bb""f"fdB "F7"F2E|"Bb"DFB "Bb7"AcB|"Eb"G3 -G3|\
+"Cm"g3 g2a|
+gec A2G|"F7"FAc edc|"Bb7"d3 -d2f|"Eb"g2g/2^f/2 "E/dim"g2g/2=e/2|\
+"Bb""f"fdB "F7"F2E|
+"Bb7"DFB "D7"AcB|"Eb"G3 -G3|"Cm"g3 g2a|gec A2G|"F7"FAc ecA|"Bb"B3 -B3||
+S:https://www.folktunefinder.com/tunes/65087
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

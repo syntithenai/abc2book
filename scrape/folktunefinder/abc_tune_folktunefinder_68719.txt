@@ -1,0 +1,28 @@
+X:173
+T: Elend hat mich umfangen
+N: A0211
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Cod. M. 53
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/4
+K: A
+A4 | A8A4 | A8B4 | =c8B3A | =G8
+A4 | =c8B3A | A8G4 | A8
+A4 | A8A4 | A8B4 | =c8B3A | =G8
+A4 | =c8B3A | A8G4 | A8
+=c4 | B8A4 | =G8=F4 | E8E4 | E8
+=c4 | B8A4 | =G8=F4 | E8E4 | E8
+E4 | A8A4 | A8B4 | =c8B3A | =G8
+A4 | =c8B3A | A8G4 | A8
+S:https://www.folktunefinder.com/tunes/68719
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Text Has notes text
+% Has_accompaniment_chords No chords

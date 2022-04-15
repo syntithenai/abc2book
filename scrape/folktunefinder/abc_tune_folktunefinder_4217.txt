@@ -1,0 +1,28 @@
+X: 1
+T: Winster Gallop
+R:polka
+Z:id:hn-polka-17
+M:2/4
+L:1/8
+K:F
+|: "F"FA FA | FA c2 | "Gm"GA/B/ "C7"AG | "F"FA c2 \
+| "Bb"Bd f>d | "F"cA c>A | "Gm"GA/B/ "C7"AG | "F"FA F2 :|
+|: "F"fe dc | fe dc | "(Dm)"fe dc | "Gm"BA G2 \
+| "C7"ed c2 | ed c2 | c2 G>B | "F"AF F2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/4217
+S:http://trillian.mit.edu/~jc/music/abc/England/WinsterGallop.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/WinsterGallop.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/WinsterGallop.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/WinsterGallop
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/WinsterGallop.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/WinsterGallop.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/WinsterGallop.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

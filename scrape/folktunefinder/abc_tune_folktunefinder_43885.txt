@@ -1,0 +1,33 @@
+X:100
+T:Denny Beck
+A:Lancaster
+C:Andy Hornby
+M:3/4
+N:Feb '96
+O:England
+Q:1/8=300
+R:Waltz
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000077b.html
+%%ID:0000077b
+K:A min
+E2 A^G A2| EA BA B2| E2 cB A2| B4 e2|\
+E2 A^G A2| B2 c2 d2\
+|1 ec Ae dc|B3A ^GB :|2 ec E2 ^G2|A4 ||
+|:ef|\
+e2 dc BA| B2E2 ef| ed ce dc|B4 ef|\
+g2 fe dc| dc BA ^GA| Bc B2^G2|1A4 :|2 A6 |]
+S:https://www.folktunefinder.com/tunes/43885
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

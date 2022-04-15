@@ -1,0 +1,24 @@
+X:171
+T: "Die Schlaue"
+N: Z0170
+O: Europa, Mitteleuropa, Deutschland, Pfalz
+R: Erzaehlung, lustige Romanze
+M: 6/8
+L: 1/8
+K: F
+ | F2FF2A | A2ccBA
+G2GG2G | A2GF2F
+d2ddef | c2cc2z
+B2BdcB | BAAA2z
+GGGBAG | FAccBA
+GGGBAG | FAGF2z
+S:https://www.folktunefinder.com/tunes/69030
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

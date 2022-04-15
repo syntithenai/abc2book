@@ -1,0 +1,20 @@
+X:42
+T:Eddie Littleton's Libation 
+C:A.F. Hopkins National Fife Major
+B:American Veteran Fifer #42
+M:6/8
+L:1/8
+Q:1/8=320
+K:D
+|: F|B>cd efg|(fb)g f2 d/e/|(fa)f ede|fdB cAF|B>cd efg|(fb)g f2 d/e/|faf edc|B2z z2 :|
+|: z|{g}a6|{b}bza fde|{d}f6|azf eAB|d3 -dfA|d3 -dfA|(df)A (df)A|def gab|a6|{a}bzg fde|{d}f6|{f}azf dAB| d3 -dfA|d3 -dfA|(df)A (df)A|d2z z2 :|
+% Bar-repeats found in the original second staff have been replaced with verbatim note repetions
+S:https://www.folktunefinder.com/tunes/39438
+S:http://www.drumband.org/music/avf/AVF-Kosel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

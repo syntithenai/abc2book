@@ -1,0 +1,26 @@
+X:287
+%%topmargin 3cm
+T:The Highlanders Farewell to Ireland
+C:Strathspey
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+~A,3 B, A,/A,/A, A,2 | {/^F}G>ED>B, G,/G,/G, G,>{/F}G | E>DE>G A>B{cB}A>G | E<{/F}GD>B, A,/A,/A, A,2 :|
+{/^g}a3 b a/a/a {/b}a2 | {ef}g>ag>e (d/c/).B.A {/^F}G>g | {/^f}e>de>g {/g}a>b{/b}a>g | {ef}g>e{/^c}d>B A/A/A {/B}A2 |
+{/^g}a3 b a/a/a {/b}a2 | g{/^f}g (d/c/).B.A {/^G}G>g | {gf}Te>de>g {/g}Ta>ba>g | {ef}(g>e){/^c}d>B A/A/A {/B}A z |]
+S:https://www.folktunefinder.com/tunes/71316
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Highlanders_Farewell_to_Ireland.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0287.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

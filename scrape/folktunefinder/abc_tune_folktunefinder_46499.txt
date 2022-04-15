@@ -1,0 +1,35 @@
+X:15224
+T: Setnja
+R:
+O: Srbija
+B:
+D:
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: Play the first part 6 or 8 times, then speed up for the second part.
+N: Sometimes the second part is played like the first part, but faster.
+M: 2/4
+L: 1/8
+K: G
+P: Slowly:
+|: "G"[d2B] [dB][dB] | [dB][cA] [cA][BG] | "D7"[BG][AF] [AF][BG] | [c2A]- [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2F] [AF][AF] | [A4F] :|
+[GE] |: "D7"[A3F] [BG] | [c2A]- [cA][BG] | [BG][AF] [AF][BG] | [c2A]- [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2FD2] [AFD][AFD] | [A4F4D4] :|
+%%sep
+P: Faster:
+K: C
+|: "C"[g2e] [ge][ge] | [ge][fd] [ge][ec] | "G7"[f2d] [fd][fd] | [fd][ec] [dB][ec] \
+| [f2d] [fd][fd] | "D7"[ec][dB] [ec][cA] |1 "G7"[d2B] [e2c] | [f2d] [^f2^d] :|2 "G"[d2B] [dB][BG] | [d3B] [cA] ||
+|: "G7" [d3B] [ec] | [f3d] [ec] | [ec][dB] [dB][ec] | [f3d] [ec] \
+| [dB][ec] [fd][ec] | "D7"[fd][ec] [dB][cA] |1 "G"[d2B2G2] [dBG][BGD] | [d3B3G3] [cA] :|2 "G"[d4B4G4] |]
+S:https://www.folktunefinder.com/tunes/46499
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

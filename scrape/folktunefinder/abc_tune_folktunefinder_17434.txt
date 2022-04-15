@@ -1,0 +1,30 @@
+X: 1
+T: Jessie Stewart's Welcome to Dufftown
+C: Graeme Mitchell
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+B \
+| AAAA B2d2 | f2a2 B2A2 | F2AB dedB | d2c2 c4 \
+| eccc c2AA | AGGG G2GF | EFGA BABc | d2f2 A4 ||
+| AAAA B2d2 | f2a2 B2A2 | d2DE FGA^A | B2d2 G4 \
+| B2GA Bcde | A2FG ABcd | G2EF GABc | d2D2 D4 |]
+[| a2af ^ef=ed | B2d2 B2A2 | a2af edBA | d2c2 c4 \
+| e2ef g2gf | efed c2cd | e2dc cBAG | G2F2 F4 ||
+| a2af ^ef=ed | B2d2 B2A2 | d2DE FGA^A | B2d2 G4 \
+| B2GA Bcde | A2FG ABcd | G2EF GABc | d2f2 d4 |]
+S:https://www.folktunefinder.com/tunes/17434
+S:http://trillian.mit.edu/~jc/music/abc/reel/JessieStewartsWelcomeToDufftown_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JessieStewartsWelcomeToDufftown_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,53 @@
+X:1
+T:I hear a rhapsody
+M:4/4
+L:1/4
+C:Fargos - Baker
+Q:1/4=220
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 || "Cmmaj7"x2 "(C7)"x2 | "Fm7"x2 "Bb7"x2 |\
+"Ebmaj7"x2 "( Ab7"" "x2 | "Gm7""C7"x2 "C7) "" "x2 |
+"Fm7b5"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 x2 | "Dm7b5"x2 "G7"x2 ||
+V:melody
+G=A=B || d>c e2- | e2d2 | (3BGA B2- | BG(3GAB |
+B>A_c2- | cDDD | F>EE2 | zG=A=B ||
+P:A
+V:chords
+"Cmmaj7"x2 "(C7)"x2 | "Fm7"x2 "Bb7"x2 |\
+"Ebmaj7"x2 "( Ab7"" "x2 | "Gm7""C7"x2 "C7) "" "x2 |
+"Fm7b5"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 x2 | "Am7b5"x2 "D7"x2 ||
+V:melody
+d>c e2- | e2d2 | (3BGA B2- | BG(3GAB |
+B>A_c2- | cDDD | F>EE2 | z4 ||
+P:B
+V:chords
+"Gm6"x2 x2 | "Am7b5"x2 "D7"x2 | "F#dim7/G"x2 "Gm6"x2 | x2 "Cm7b5/Gb"x2 |
+"Bb/F"x2 x2 | "Fm7/Eb"x2 x2 | "Dm7b5"x2 "G7"x2 | x2 x2 ||
+V:melody
+zD (3DDD | E3C | E>DD2- | D4 |
+zF (3FFF | A3F | c>=BB2- | BG=A=B ||
+P:A
+V:chords
+"Cmmaj7"x2 "(C7)"x2 | "Fm7"x2 "Bb7"x2 |\
+"Ebmaj7"x2 "( Ab7"" "x2 | "Gm7""C7"x2 "C7) "" "x2 |
+"Fm7b5"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 x2 | "( Dm7b5"x2 "G7 )"x2 |]
+V:melody
+d>c e2- | e2d2 | (3BGA B2- | BG(3GAB |
+B>A_c2- | cDDD | F>EE2 | z4 |]
+S:https://www.folktunefinder.com/tunes/18763
+S:http://trillian.mit.edu/~jc/music/abc/song/I_hear_a_rhapsody.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/I_hear_a_rhapsody.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/i_hear_a_rhapsody.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/i_hear_a_rhapsody.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:262
+%%topmargin 3cm
+T:Lady Ann Hope
+C:John Pringle
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+E | D<~GG>B {/B}A>GEe d>cB<g | dA c>AB>G | E<AF>D G2 G :| f | ~g2 (dg) B>gd<g |
+g<gb>g {/g}e2 ef | (3gab (3agf (3efg (3dcB | [1 (3cde (3def g>dB>G :| [2 (3cde (3def g2 g<b |]
+S:https://www.folktunefinder.com/tunes/71009
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

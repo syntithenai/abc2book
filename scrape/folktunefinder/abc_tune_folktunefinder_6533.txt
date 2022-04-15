@@ -1,0 +1,31 @@
+X: 1
+T: Ura
+O: Israel
+M: C
+L: 1/8
+K: Dm
+|: "Dm"DD FF AA cB | A6 z2 \
+|  "Dm"DD FF AA BA | "Gm"G6 zF |
+w: U-ra u-ra u-ra k'-vo-di u-ra u-ra u-ra ha-n\'e-vel ha-
+| "A7"E2 F2 G2 (AG) | "Dm"F6 zD \
+|1 "Dm"F2 (ED) (F2 "C7"G2) | "F"A6 "A7"z2 \
+:|2 "Dm"F2 (ED) "A7"(F2 E2) | "Dm"D6 z2 ||
+w: n\'e-vel v'-chi-*nor o-i-ro* sho-*char.  i-ro* sho-*char.
+|: "Bb"d4 "C7"c3 B | "F"BA- A4 z2 \
+| "Bb"d4 e3 d | "Dm"dA- A4 zA \
+| "D7"c4 B2 A2 |
+w: U-ra k'-vo-di* u-ra ha- n\'e-vel* ha-n\'e-vel v'-
+| "Gm"GB- B4 zB \
+|1 "Dm"A2 G2 (F2 "C7"G2) | "F"A6 "A7"z2 \
+:|2 "A7"A2 G2 (F2 E2) | "Dm"D6 z2 |]
+S:https://www.folktunefinder.com/tunes/6533
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Ura.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/Ura_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/Ura_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

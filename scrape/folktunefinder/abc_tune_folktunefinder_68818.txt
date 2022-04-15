@@ -1,0 +1,34 @@
+X:272
+T: Gelamors
+N: A0312
+O: Europa, Mitteleuropa, Deutschland
+N: Locheimer Liederbuch Hs. S.44. Druck S. 155.
+R: Romanze, Ballade, Lied
+M: 6/2
+L: 1/4
+K: G
+c12 | c6c2e4 | d12 | G2F2G2d2BGA2 | G12
+A4B2c6- | c6B6 | c4B2A2G4 | C4G2A2AGA=F | E12
+c12 | c6c2e4 | d12 | G2F2G2d2BGA2 | G12
+A4B2c6- | c6B6 | c4B2A2G4 | C4G2A2AGA=F | E12
+G6B6 | d12 | G6-G2=F4 | G2=F2G2d2BGA2 | G12
+G6B6 | d12 | G6-G2=F4 | G2=F2G2d2BGA2 | G12
+A6A2E4 | D6D2E4 | G6=F2E4 | D4A2G2AGA=F | E12
+c12 | G6G2c4 | G2E2C2B,C2ED2 | C12
+c6-c2e4 | d6-d2c4 | d2c2e2d2BGA2 | G12
+d6A6 | B2AG2=FE6 | A12
+E6E2G4 | A4d2e2cAB2 | A12
+e4d2c2B4 | A6A2B4 | E2D2E2A2GE=F2 | E12
+G2=F2A2G2ECD2 | C6C2D4 | E6-E2=F4
+G4c2d2BGA2 | G12
+S:https://www.folktunefinder.com/tunes/68818
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:21
+T:Li grci dou roumavagi
+O:France
+A:Provence
+C:Anonyme
+R:Air
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+%%MIDI program 74
+FFB | BFd dBf | fed Bfd | c2eA2c | B3 :| ddd | c2c A2F | cAF dfd | cAc BAG |
+F3 FFB | BFd dBf | fed efg | fdB BAB | Hd2c efg | fdB ecA | B3 |]
+%%footer $D   Galouvielle-MBe 2008 \nAir (France)
+S:https://www.folktunefinder.com/tunes/480
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

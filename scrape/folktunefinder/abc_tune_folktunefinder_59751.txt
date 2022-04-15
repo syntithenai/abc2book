@@ -1,0 +1,38 @@
+X:864
+T:Xiraldilla (CT 358)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Rafael Martnez Oria, de veintisis aos, de Avils.
+A:Asturies
+O:Avils
+Z:Cancioneru de Torner 358
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|: GA Bc|d3 B|c2 A2|FG AB|c3 A|B2 G2 :|
+|: c2 AB|G3 E|D2 EF|G2 z2 :||
+W:Dicen que tus manos pinchan,
+W:para mi son amorosas;
+W:tambin los rosales pinchan
+W:y de ellos salen las rosas.
+W:No llores, nea,
+W:no llores, no;
+W:no llores, nea,
+W:que aqu estoy yo.
+W:
+S:https://www.folktunefinder.com/tunes/59751
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

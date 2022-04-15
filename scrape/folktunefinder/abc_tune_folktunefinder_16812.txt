@@ -1,0 +1,38 @@
+X:1164
+T:Blow the Candles
+R:reel
+C:Jeff Lindqvist irtrad-l 2000-09-06
+H:Aug 16, -00
+N:Composed on DADGAD guitar, for his own birthday.
+M:C|
+L:1/8
+K:Gm % (D phrygian)
+| D3E DA,B,C|DEGB A3G|FGFE DEFD|EGAB d2cB|
+  ~A2AB GAFD|EGBd cAFA|~G2BA GEcB|AFdc BGG2:|
+|:~B2dB cdec | dggf dcBA | BG~G2 dcBA | BAGB (3ABA cA |
+  dG~G2 dcBd | cBAF DGGA | B3A GEcB | AFdc BGG2 :|
+%%text My chords:
+| "D"D3E "D"DA,B,C | "D"DEGB "D"A3G | "Eb"FGFE "Eb"DEFD | "Eb"EGAB "Eb"d2cB |
+  "Cm"~A2AB "Cm"GAFD | "Cm"EGBd "Cm"cAFA | "Gm"~G2BA "Cm"GEcB | "Dm"AFdc "Gm"BGG2 :|
+|:"Gm"~B2dB "D7/F#"cdec | "F"dggf "C7/E"dcBA | "Eb"BG~G2 "Gm/D"dcBA | "A7b9/C#"BAGB "D7"(3ABA cA |
+  "Ebmaj7"dG~G2 "F"dcBd | "Dm"cBAF "Gm"DGGA | "Gm"B3A "Cm"GEcB | "Dm"AFdc "Gm"BGG2 :|
+%%text Alternative chords for the first part:
+| "Gm"D3E "Gm"DA,B,C | "Gm"DEGB "Gm"A3G | "Eb"FGFE "Eb"DEFD | "Eb"EGAB "Eb"d2cB |
+  "F"~A2AB "F"GAFD | "F"EGBd "F"cAFA | "Gm"~G2BA "Cm"GEcB | "Dm"AFdc "Gm"BGG2 :|
+|:"Gm"~B2dB "D7/F#"cdec | "F"dggf "C7/E"dcBA | "Eb"BG~G2 "Gm/D"dcBA | "A7b9/C#"BAGB "D7"(3ABA cA |
+  "Ebmaj7"dG~G2 "F"dcBd | "Dm"cBAF "Gm"DGGA | "Gm"B3A "Cm"GEcB | "Dm"AFdc "Gm"BGG2 :|
+S:https://www.folktunefinder.com/tunes/16812
+S:http://trillian.mit.edu/~jc/music/abc/reel/BlowTheCandles_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/reel/BlowTheCandles_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BlowTheCandles_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

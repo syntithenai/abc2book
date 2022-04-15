@@ -1,0 +1,25 @@
+X: 2
+P: Kelly of Killane
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+GB | "G"d2 Bd | "C"g2 fe | "G"d2 BG | "Em"E2 GA | "G"B2 AB | "D7"dc AF | "G"G4- | !fine!G2 :|
+Bd | "C"e2 ce | g2 fe | "G"d2 de | d2 Bd | "C"e2 ce | g2 fe | "D7"d4- | !d.C.!d2 |]
+S:https://www.folktunefinder.com/tunes/9618
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGM07.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/IrishRover.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/IrishRover.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070318/IrishRover.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070318/IrishRover.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/IrishRover
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

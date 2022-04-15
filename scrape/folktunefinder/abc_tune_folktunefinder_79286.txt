@@ -1,0 +1,28 @@
+X:182
+T: EIN SCHIFFLEIN SAH ICH FAHREN
+N: E1326
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: F
+C2 | F2F2F2G2 | A4Fz
+AB | c2c2cBB2 | A4z2
+AB | c2c2c2dc | cBB2z2
+cB | AAAAc2BA | AGG2z2
+cB | A2F2F2cB | A2F2F2
+cB | AGABAGAB | AGABc2
+d2 | c4B2BB | A4G2
+G2 | A2G2A2BB | c4F2
+S:https://www.folktunefinder.com/tunes/79286
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

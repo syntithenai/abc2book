@@ -1,0 +1,25 @@
+X:446
+%%topmargin 3cm
+T:The Highlands of Banffshire
+C:Capt. Fraser
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb lydian
+d | c<Fc>B A>FF<f | c<Fc>B A2 A<f | cFc>B A<Fc>A | B>G _E/F/G/_A/ B2 B :|
+b | a>fc<f A<fcB A2 Ab | a>fc<f A<fc<A | B>F _E/F/G/_A/ B2 Bb |
+a>fc<f A<fcB A>B cf/g/ | (3afa (3geg (3fed (3cBA | B>F _E/F/G/_A/ B2 B |]
+W:
+W:From the Inverness Collection by permission of Messrs. Logan & Co. a good dancing tune.
+S:https://www.folktunefinder.com/tunes/71475
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

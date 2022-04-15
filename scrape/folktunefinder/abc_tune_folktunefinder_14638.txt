@@ -1,0 +1,29 @@
+X:1
+T:Mike Flanagan's Jig
+R:Jig
+S:De Dannan, 1/2 Set in Harlem
+Z:Philippe Varlet irtrad-l 2001-9-4
+M:6/8
+L:1/8
+K:D
+E|DFA DFA|GBc dcB|Add cde|fdf ecA|
+DFA DFA|GBc dcB|Add cde|fdc d2:||
+e|fdd dcd|eAA ABc|~d3 Bcd|eaa a2g|
+fdd dcd|eAA ABc|dcA GFG|1 Adc d2:|2 Adc d3||
+FBc dcB|fBc dcB|cfF f2e|fgf edc|
+FBc dcB|fBc dcB|cff fec|1 dBB BAG:|2 dBB ~B3||
+AFA BGB|AFA fed|cBA gfe|dfe dcB|
+AFA BGB|AFA fed|cBA gfe|1 dfe d2B:|2 dfe d3||
+S:https://www.folktunefinder.com/tunes/14638
+S:http://trillian.mit.edu/~jc/music/abc/jig/MikeFlanagansJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MikeFlanagansJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MikeFlanagansJig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

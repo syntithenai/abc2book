@@ -1,0 +1,28 @@
+X: 1
+P: The Gay Gordons
+C: J.S.Skinner
+M: 2/4
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+K: G
+D \
+|: "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg     BA/G/    | "D7"BA AD \
+|  "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G :|
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "Am"BA "D7"Ad \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "A7"BA "D7"Ad \
+| "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+% march/CameronHighlanders.abc
+S:https://www.folktunefinder.com/tunes/9591
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGM01.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

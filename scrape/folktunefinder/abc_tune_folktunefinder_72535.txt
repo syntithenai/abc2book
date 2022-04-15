@@ -1,0 +1,24 @@
+X:78
+T: Dem Kuhlips war die Kau gepfaend't
+N: D0087
+O: Europa, Mitteleuropa, Deutschland, Mittelhessen, Langsdorf
+N: Taktart in "FREI" korrigiert; Grundton in der kleinen Oktave
+R: Bauern - Klage
+M: none
+L: 1/8
+K: G
+d | gdBG | eee2z
+e | ddcA | BBz
+d | gdBG | eee2z
+e | ddcA | BBz
+S:https://www.folktunefinder.com/tunes/72535
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Bauern - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:31
+T:Bringeb\aersl\aatten (Reinl\aender)
+C:av. Richard Eilde (sp)
+N:2. stemme av. Magne Drageset
+R:Reinl\aender
+%O:Norway
+Z:Bob Wyttenbach  8/7/02, from Fiddles & Feet 2002 tunebook, handwritten copy (composer not quite legible)
+M:2/4
+L:1/16
+K:D  bass %clef=bass middle=D
+P:A
+V:1
+FEDC D2F,2|B,A,G,F, G,2E,2|E2ED C2C(B,|A,2)A,G, F,2>A,2|
+V:2
+"D"DA,F,E, F,2D,2|G,F,E,D, "G"E,2[E,2B,,2]|"A"C2CB, A,2A,(G,|F,2)F,E,"D"D,4|
+V:1
+FEDC D2F,2|B,A,G,F, G,2E,2|E2ED C2B,C|D2D2 D2>A,2:|
+V:2
+"D"DA,F,E, F,2D,2|G,F,E,D, "G"E,2[E,2B,,2]|"A"C2CB, A,2A,G,|"D"F,2F,2F,4:|
+P:B
+V:1
+A,2F2 FEDC|B,2G2 GFED|C2C2 B,2B,2|^G,A,B,A, F,2>A,2|
+V:2
+F,2D2 DCB,A,|"G"G,2B,2 B,A,G,B,|"A"A,2A,2 G,2G,2|"D"F,2G,F, D,2>F,2|
+V:1
+A,2F2 FEDC|B,2G2 GFED|C2C2 CA,B,C|D2D2D4:|
+V:2
+F,2D2 DCB,A,|"G"G,2B,2 B,A,G,B,|"A"A,2A,2 A,E,A,G,|"D"F,2F,2F,4:|
+S:https://www.folktunefinder.com/tunes/62653
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Reinl%C3%A6nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

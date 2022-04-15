@@ -1,0 +1,24 @@
+X:2234
+T:Brumley Brae
+R:reel
+C:W.McPherson
+M:4/4
+L:1/8
+K:D
+|: A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ::
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"B,DDB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+S:https://www.folktunefinder.com/tunes/57173
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

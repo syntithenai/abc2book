@@ -1,0 +1,27 @@
+X:5140
+T:Pit Lad,The . JMT005
+O:england
+M:6/8
+L:1/8
+S:John Moore,Tyneside,1841. (03a)
+R:jig
+A:Northumbria
+H:184
+K:D
+A | d<fd cAc | d<fd cAc | e3 c2 A | e<fd cAc | def gec | d3 D2 :|
+|:A | def g2e | f2d faf | e3c2A | def gfe | faf gec | d3 D2:|
+|:A | dcB AGF | GAB cAc |e3c2A | dcB AGF | GAB Adc | d3D2 :|
+S:https://www.folktunefinder.com/tunes/25592
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

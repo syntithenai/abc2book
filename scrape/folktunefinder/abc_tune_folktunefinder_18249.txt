@@ -1,0 +1,35 @@
+X:1
+T:The Trip to Pakistan
+C:Niall Kenny
+D:The Tannahill Weavers
+Z:Gordon Turnbull, gturnbull@oblique-design.demon.co.uk
+S:Andrew Kuntz <AIKuntz@aol.com> scots-l 2000-11-28
+N:TRIP TO PAKISTAN. Scottish, Reel. E Minor. Composed by Lanarkshire flute
+N:player Niall Kenny. The tune has entered bagpipe repertoire and can be heard
+N:sometimes in competitions.
+R:Reel
+L:1/8
+%Q:350
+M:C
+K:Em
+EGBE ~G3 B | A2 AG FGAF | EGBE ~G3 B | AGFG ~E3 B :||
+EGBE c3 A | B2 BA BAGB | EGBE c3 A | BAGB ~A3 B |
+EGBE c2 cA | B2 BA BAGB | EGBE cBAc | BAGB ~A3 B |]
+FGBF GBFB | EFGE FGEG | DFAD FADA | AGFG ~E3 B :|
+S:https://www.folktunefinder.com/tunes/18249
+S:http://trillian.mit.edu/~jc/music/abc/reel/TripToPakistanR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TripToPakistanR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TripToPakistanR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/TripToPakistanR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/TripToPakistanR_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/TripToPakistanR_Em_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

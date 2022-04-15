@@ -1,0 +1,27 @@
+X:4198
+T:Dites-moi donc
+A:Normandie
+O:France
+M:6/8
+Q:1/4=120
+K:G
+DEF|G2GGGG|G3ddB|GA Bc2 B|A2 z:|
+Q:1/4=200
+A3|A3AGA|B2 z AAA|ABAG2F|G2DA3|
+A3AGA|B2 z AAA|ABAG2F|G3||
+W:
+W:Dites-moi donc qui vous a donn
+W:Ce biau ruban que vous portez (bis)
+W:Monsieur c'est mon amant,
+W:Quand je le vois j'ai le coeur bien aise
+W:Monsieur c'est mon amant,
+W:Quand je le vois j'ai le coeur content.
+S:https://www.folktunefinder.com/tunes/60387
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:24
+T: Potz marter kuri falty
+N: A0384
+O: Europa, Mitteleuropa, Deutschland
+N: Hs. im Codex der Stiftsbibl. zu St. Gallen
+R: Romanze, Ballade, Lied, Personenlied
+M: 4/2
+L: 1/2
+K: D
+=F | =FFED | A2A2
+=F2 | AA2AG2 | =F2z
+F | =FFED | A2A2
+=F2 | AA2AG2 | =F2z
+F | =FAAG | E2D2
+A2 | GG2ED2 | =C2z
+=F | =FFED | A2_B=c2
+B | AG2=FE2 | D3
+S:https://www.folktunefinder.com/tunes/80083
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, personenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

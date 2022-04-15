@@ -1,0 +1,25 @@
+X:5
+T:Snade Mill
+C:Andy Hornby 1998
+Q:1/4=160
+I:abc2nwc
+M:4/4
+L:1/8
+K:C
+EA cA|B3c|EA cA|BA ^GA|
+EA cA|B3c|dc BA|^GA Bc:|
+|:Ee ef|fe ed|dc cB|cA EA|dc BA|
+^GB- Bc|[1dc BA|^GA BG:|[2dc B^G|A4|]
+%%textfont Timesbold 25
+%%center  SLIP JIGS
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43774
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

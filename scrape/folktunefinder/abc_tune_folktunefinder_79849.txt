@@ -1,0 +1,26 @@
+X:25
+T:Culloden Day
+T:An cuala sibh mar thachair dhuinn
+R:Strathspey
+S:Simon Fraser Collection
+N:No.143
+O:Scottish
+M:C
+L:1/8
+K:E_
+G/F/|[G,3/2E3/2]G/ (G3/2^F/4G/4) BGG>=B|c>Ge>E [D3F3] (3A/G/F/|
+[G,3/2E3/2]G/ (G3/2^F/4G/4) BGG>(^f|g>)(d e>)^F G2 G:|
+(e/>f/)|g>f e>d cGG>c|B>GG>E F2 F (e/f/)|g>f e>d cGG(c/d/)|
+e>dc>B ~G2 G(e/f/)|g>fe>d cGG>c|BGGE F2 F(E/F/)|
+G>FED C/D/E/F/ G>^f|g>(de>)(^F [=B,2D2G2]) [B,2D2G2]||
+S:https://www.folktunefinder.com/tunes/79849
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/Fraser.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/Fraser.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

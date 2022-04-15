@@ -1,0 +1,28 @@
+X:442
+%%topmargin 3cm
+T:Loch Erroch Side
+T:(Neil Gow and His 2nd Wife)
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C
+G/F/ | (EG)G>A (c/B/c/d/) c2 | A>GAc (d/c/d/e/) dD | (EG)G>A c>d {cd}e>d | Tc>A (G/A/c/)E/ TD2 CG/F/ |
+EG~G>A (c/B/c/d/) c2 | TA>GAc (d/c/d/e/) dD | EG~G>A Tc>d {cd}e>d | c>A (G/A/)c/E/ TD2 C ||
+g/f/ | eg c(e/f/) (g/f/).e/.f/ {ef}g2 | fa d(f/g/) (a/g/).f/.g/ ag/f/ | eg c(e/f/) (g/f/)e/f/ g>c | G>c e>c Td2 c(g/f/) |
+eg c(e/f/) (g/f/).e/.f/ gf/e/ | fa d(f/g/) (a/g/).f/.g/ ag/f/ | e>gd>e ~c>Gca | cGc>E TD2 C |]
+S:https://www.folktunefinder.com/tunes/71471
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Loch_Erroch_Side.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0442.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

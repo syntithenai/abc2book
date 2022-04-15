@@ -1,0 +1,20 @@
+X:1
+T:Gasp\'e Reel
+O:French Canadian
+M:C|
+L:1/8
+K:D
+|: "D"f2ef e2dB | AFA2 B2A2 | "A7"g2fg fecA |1 BABc ~B2A2 :|2 "A7"B2c2 "D"d4 :|
+|: "A7"e2f2 g2fe | "D"f2g2 a4 | "A7"e2f2 gecA |1 "(G)"BABc "A7"~B2A2 :|2 "A7"B2c2 "D"d4 :|
+S:https://www.folktunefinder.com/tunes/17235
+S:http://trillian.mit.edu/~jc/music/abc/reel/GaspeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GaspeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/GaspeR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

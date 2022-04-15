@@ -1,0 +1,38 @@
+X: 1
+T: Bicycle, The
+Z: Lorna LaVerne <Muse1950:AOL.COM> irtrad-l 2000-12-12
+N: ..., so here it is as it appears in Johnny O'Leary's book (and Brendan names
+N: Johnny as his source).  I guess I'd better start learning it on my box now!
+M: 12/8
+L: 1/8
+Q: 160
+R: slide
+K: ADor
+| B2 E  E2 F  B2 E  E2 F \
+| B2 E  E2 F A3  F2 A  \
+| BEE  E2 F  G2 E  E2 A \
+| B2 c d2 B A3  F2 A |
+| BEE  E2 F-FBE E2 A \
+| BEE  E2 F A3  F2 A  \
+| B2 E  E2 F  B2 E  E2 A \
+| B2 c  d2 B A2 B/A/ F2 A |
+| Bee  e2 d  B2 A F2 A\
+| Bee  e2 f d3 B/c/BA \
+| Bee  ede B2 d d2 B \
+| A2 F D2 F A3 F2 A |
+| B2 e  fed B2 A F2 A\
+| Bee  e2 f d3 B/c/BA \
+| Bee  ede B2 A d2 B \
+| A2 F D2 F A3 F2 A |]
+S:https://www.folktunefinder.com/tunes/13867
+S:http://trillian.mit.edu/~jc/music/abc/jig/Bicycle2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Bicycle2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Bicycle2.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Reel of the Blackcocks
+B: BSFC
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   AB/c/ | "D"d2d2     A2A2  | "Bm"B2B2  "A"eddB | "D"d>dd2  A>AA2 | "A7"agfe   "D"d2 :|
+|: AB/c/ | "D"d>dd2 "A"e>ee2 | "Bm"f>BB2 "A"dcBA | "D"ddd2 "A"eee2 | "F#7"fedc "Bm"B2 :|
+S:https://www.folktunefinder.com/tunes/17998
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelOfTheBlackcocks_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/ReelOfTheBlackcocks_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/ReelOfTheBlackcocks_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

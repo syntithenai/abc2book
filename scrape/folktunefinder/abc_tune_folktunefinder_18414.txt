@@ -1,0 +1,28 @@
+X: 1
+T: Norsk schottis
+O: efter Norrt\"alje Elitkapell
+R: shottish
+S: handwritten MS by D.R.Clark 1984, labelled "DRC 7-3-84"
+Z: ABC by John Chambers 2007
+M: 2/4
+L: 1/16
+K: G
+|: "G"DGBd edBG  |     D2B2 B>^AB2 |      DGBd   edBG | "C"F2c2 c>Bc2 |
+| "D7"DEFG ABc^c |     d2f2   f3e  |1     e2^d2  e3=d | "G"d2^c2 d2B2 :|2 "D7"e2d2 E2F2 | "G"G8 ||
+|: "C"e2f2 g3e   | "G"~d^cde ~dcd2 | "D7"~=cBcd ~cBc2 | "G"d^cd2 edcd |
+|  "C"e2f2 g3e   | "G"~d^cde ~dcd2 | "D7" DEFG   A2B2 | "G"G8 :|
+S:https://www.folktunefinder.com/tunes/18414
+S:http://trillian.mit.edu/~jc/music/abc/shottish/NorskSchottis_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/shottish/NorskSchottis_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/NorskSchottis_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/shottish/NorskSchottis_G.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

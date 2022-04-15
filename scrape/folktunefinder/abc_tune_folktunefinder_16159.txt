@@ -1,0 +1,25 @@
+X: 1
+T: Maurice Manly's Polka
+R: polka
+O: Ireland
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: ADor
+|: "Am"EA A>{GA}B | cd eg | "G"EG G>{AG}F | GE ED | "Am"EA A>{GA}B | cd ef | "G"g>{ag}e dB | "Am"BA A2 :|
+|: "Am"ea a>{ga}b | ag ef | "G"g>{ag}f ga | ge ed | "Am"ea a>{ga}b | ag ef | "G"g>{ag}e dB | "Am"BA A2 :|
+S:https://www.folktunefinder.com/tunes/16159
+S:http://trillian.mit.edu/~jc/music/abc/polka/MauriceManlysP_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MauriceManlysP_Am.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

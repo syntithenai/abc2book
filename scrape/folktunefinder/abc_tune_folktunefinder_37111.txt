@@ -1,0 +1,24 @@
+X:5160
+T:the Roaring Hornpipe
+M:3/2
+O:Wales
+R:Triple Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009ea.html
+%%ID:000009ea
+K:G
+B>AG>B A>GA>B G2G2|c>BA>G A2d2 A>Bc>A|\
+B>AG>B A>GA>B B2B2|d>cB>A G2G2 A>Bc>A::
+d>ef>d e>fg>e f2e>d|c>BA>G A2A2 A>Bc>A|\
+d>ef>d e>fg>e g2f>e|d>cB>A G2G2 A>Bc>A:|
+S:https://www.folktunefinder.com/tunes/37111
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

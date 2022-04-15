@@ -1,0 +1,45 @@
+X:3798
+T:Danza (CT 078)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en La Pola L.lena.
+N:Intervienen en esta danza personas de ambos sexos y, segn testimonio de los danzadores a quienes hemos interrogado, es la ms antigua del concejo de L.lena.
+N:Se efecta del modo siguiente: hecha la invitacin por el coro para que cante la persona que ha de conducir la danza, y una vez contestada sta, empleando la misma meloda colocada una tercera inferior armnica respecto de la posicin primera,
+N:segn aparece en la transcripcin, se trueca el orden de las melodas, cantando la primera el conductor de la danza, a la cual ajusta dos versos octoslbicos aconsonantados, que son repetidos por todos los danzadores con la segunda meloda.
+N:La letra es improvisacin, dirigida a algunas de las personas que presencian la danza, y casi siempre en un sentido crtico y mordaz.
+O:La Pola L.lena (L.lena)
+A:Asturies
+Z:Cancioneru de Torner 078
+M:6/8
+L:1/8
+Q:3/8=80
+W:Si quieres cantar,
+W:canta cantares con sustanza.
+W:Si queris cantarelos,
+W:que yo cantares selos.
+W:
+W:Aquella rapazona
+W:ya nun come borona.
+W:
+W:Aquel agurrumbu
+W:trai xugn coloru.
+W:
+W:Aquel espantaxatos
+W:nunca gast zapatos.
+K:C
+"Coro"B|:d2d d2d|e3 c2d|e2e d2c|B3 B3-|B2 z4|
+"Solo"z5 G|B2B B2B|c3 A2B|c2c B2A|G3 G3-|[1 G2z3 B:|[2 G2 z4||
+S:https://www.folktunefinder.com/tunes/59987
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 1
+T: Sandansko Oro
+R: Horo
+Z: John Chambers <jc@trillian.mit.edu>
+P: ABABCAB
+O: Macedonia
+M: 9.9.4/8
+K: Dm
+"G"\
+|: "Dm"D2 A2 G2     A3  | "Gm"G2 GF AG    G2F | "Dm"FE ED \
+|  "Dm"DE F2 FE "Gm"G2F |  "C"FE ED EC "Dm"D3 |1 DE FG :|2 D2 D2 ||
+"A"\
+|: "Dm"DE F2 FE "Gm"G2F | "Dm"FE ED FG "Gm"G2A | "Dm"GF FE \
+|  "Dm"DE F2 FE "Gm"G2F |  "C"FE ED EC "Dm"D2A,|     D2 D2 :|
+K: C
+"B"\
+|: "C"[EC][FD] [G2E2]   [GE][FD] [F2D2][EC] \
+|  "C"[EC][FD] [GE][AF] "(G7)"[BG][AF] [G2E2][FD] \
+|     [GE][FD] "C"[FD][EC] \
+|  "C"[EC][FD] [G2E2]   [GE][FD] [F2D2][EC] \
+|  "C"[EC][FD] [GE][AF] "G7"[GE][FD] [EC][FD][EC] \
+|  "C"[E2C2]   [E2C2] :|
+S:https://www.folktunefinder.com/tunes/7564
+S:http://trillian.mit.edu/~jc/music/abc/Macedonia/SandanskoOro_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SandanskoOro_Dm.abc
+% Rhythm Horo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

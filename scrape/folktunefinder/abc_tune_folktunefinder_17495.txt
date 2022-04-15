@@ -1,0 +1,23 @@
+X:1
+T:King Wilkie's Run
+Z: bil  irtrad-l 2001-10-24
+M:4/4
+L:1/8
+Q:160
+K:BMIN
+% TUNEdb Number 8
+[| BffB f2ef | gfed cBcd | e2ce dcBA | BffB f2ef | gfed cBcd |[M:3/4] e2ce dc ||
+|| B2FBcd | B2GBcd | c2EAce | dcBABd | B2FBcd | B2GBcd | c2EAce | dcBAB2 |]
+S:https://www.folktunefinder.com/tunes/17495
+S:http://trillian.mit.edu/~jc/music/abc/reel/KingWilkiesRun_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KingWilkiesRun_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/KingWilkiesRun_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

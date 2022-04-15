@@ -1,0 +1,32 @@
+X: 76
+T:Waltz by W Allen. CJF.076
+M:3/8
+L:1/16
+Q:60
+C:"from Watson's"
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:On title line is "from Watson's". - PJH.
+Z:vmp.P J Headford 2000
+K:G
+(3G"~"FG|g4(3G"~"FG|D4G2|(FG)(AB)(cd)|c2B2(3g"~"fg|!
+d2d2(3g"~"fg|e2e2 g2|fgabc'd'|g6:|!
+|:d2^c2=c2|c2B2G2|\
+FGABcd|e2d2d2|d2^c2=c2|c2B2G2|FGABcA|G4:|!
+|:{c2}d2{c2}d2{c2}d2|g4d2|b4g2|d4B2|\
+{c2}d2{c2}d2{c2}d2|B4G2|(DEFGAB)|G4:|]
+S:https://www.folktunefinder.com/tunes/49631
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

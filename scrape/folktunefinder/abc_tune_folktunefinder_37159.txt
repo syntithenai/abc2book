@@ -1,0 +1,26 @@
+X:5400
+T:Schottis frn Hammarnset
+A:Jmtland
+M:4/4
+O:Sweden
+R:Schottis
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008f2.html
+%%ID:000008f2
+K:G dorian
+D|\
+G>^FGA B>ABc | d>^cde f2a2 |\
+a>geg ^f2d2 |1d>cAc B2G2:|2d>cAB G4:|
+d>c=Bd g2d2 | d>cAc B2G2 |\
+A>G^FA d2d2 |1d>cAc B2G2:|2d>cAB G4:|
+S:https://www.folktunefinder.com/tunes/37159
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

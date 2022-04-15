@@ -1,0 +1,23 @@
+X:1
+T:Over the Waterfall
+M:2/4
+K:D
+L:1/16
+de | "D"f2a2 "A7"gfe2 | "D"d2B2 A2de | "D"f2a2 "A7"gfe2 | "D"d6 de \
+| "D"f2a2 "A7"gfe2 | "D"d2B2 A3B | "C"=c3c B2A2 | "G"G6 :|
+|: FG \
+| "D"A2-A2 "G"B2-B2 | "D"ABAG F2FG | "D"A2d2 "A7"cdec | "D"d6 FG \
+| "D"A2-A2 "G"B2-B2 | "D"ABAG F2FG | "A7"A2A2 GFE2 | "D"D6  |]
+S:https://www.folktunefinder.com/tunes/17813
+S:http://trillian.mit.edu/~jc/music/abc/reel/OverTheWaterfall.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/OverTheWaterfall.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OverTheWaterfall.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel/OverTheWaterfall.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

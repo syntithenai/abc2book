@@ -1,0 +1,34 @@
+X:140
+T:Steirischer aus Vordernberg (2.)
+C:traditionell
+R:Steirer
+A:Vordernberg, Steiermark
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Steirisches Volksliedwerk, Graz, undatet
+S:manuscript F.Lechner, Murau, Steirisches Volkslied Archiv 2 15
+N:in der quelle in G im buch in F
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/TradArchiv/
+M:3/4
+L:1/8
+K:G
+V:1
+|: GB |\
+d2 BDGB | F2 ADFA | d2 cDFA | G2 BDGB |\
+d2 BDGB | F2 ADFA | d2 cDFA | G4 :|
+V:2
+|: Bd |\
+g2 dBdg | [g2A2] fAcf | f2 eAcf | B2 dBBd |\
+g2 dBdg | [g2A2] fAcf | f2 eAcf | B4 :|
+S:https://www.folktunefinder.com/tunes/45574
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

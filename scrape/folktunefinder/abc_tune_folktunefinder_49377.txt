@@ -1,0 +1,32 @@
+X:67
+T:Vals fra Folldal
+O:norway
+A:Folldal, sterdal
+Z:Lennart Sohlman, lta, Sweden
+M:3/4
+L:1/8
+Q:1/4=180
+K:Gm
+(DE) D2 C2|B,2 A,2 G,2|(G,A,) (B,C) D2|B2 (AB) G2|\
+d2 (^c=e) d2|(dc) (Ac) B2|B2 (AG) (^FA)|[1 G6:|[2 G3 A (Bc)|:\
+d2 ^c2 d2|B3 A G2|(GB) (AG) (^FA)|(G^F) (GA) (Bc)|\
+d2 ^c2 d2|B3 A G2|(GB) (AG) (^FA)|[1G3 A (Bc):|[2G4 d2|:\
+d2 (^cA) (cA)|(BG) (DG) (BG)|(A^F) (DF) (AF)|G2 (^FG) (AB)|\
+d2 (^cA) (cA)|(BG) (DG) (BG)|(A^F) (DF) (AF)|[1G4 d2:|[2G6|]
+T:Andrastmma
+O:norway
+(B,C)B,2 A,2|G,2 C2 B,2|vG,2 u[B,2D2] u[B,2D2]|G2 (^FG) D2|\
+B2 (Ac) B2|(BA) (^FA) G2|G2 (^FD) (A,C)|[1[B,6D6]:|[2[B,3D3]^F (GA)|:\
+B2 A2 B2|G3 ^F D2|(DG) (^FD) (A,C)|(B,A,) (B,D) (GA)|\
+B2 A2 B2|G3 ^F D2|(DG) (^FD) (A,C)|[1[B,6D6]:|[2[B,4D4] B2|:\
+B2 (A^F) (AF)|(GD) (B,D) (GD)|(^FD) (A,C) (DA,)|B,2 (A,B,) (DG)|\
+B2 (A^F) (AF)|(GD) (B,D) (GD)|(^FD) (A,C) (DC)|[1[B,4D4] B2:|[2[B,6D6]|]
+S:https://www.folktunefinder.com/tunes/49377
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/norway.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/norway.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

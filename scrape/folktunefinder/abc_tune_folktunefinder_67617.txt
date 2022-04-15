@@ -1,0 +1,23 @@
+X: 4
+T:Blue Bells of Scotland
+% Nottingham Music Database
+S:[RD ex Blunt MSS] Ch(AB)6
+M:4/4
+L:1/4
+K:G
+P:A
+D| !segno! g2 fe|d2 eF/2G/2|BB cA|G2 :|
+P:B
+d|BG Bd|gg eg|fd ec|d2 ef|g2 f\
+P:D.S.
+e|
+S:https://www.folktunefinder.com/tunes/67617
+S:http://abc.sourceforge.net/NMD/nmd/morris.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

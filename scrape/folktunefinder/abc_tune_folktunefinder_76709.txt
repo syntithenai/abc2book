@@ -1,0 +1,25 @@
+X:224
+T: NAECHTEN ABEND DA ICH UEBER DIE GASSE GING
+N: E0813A
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Tage - Lied, Kilt - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2A2A2 | B2BAG2
+G2 | A2A2B2d2 | c2B2A2
+B2 | d2d2A2B2 | d2cBA2
+c2 | B2A2G2B2 | AGFED2
+D2 | G2G2A2d2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/76709
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tage - lied, kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

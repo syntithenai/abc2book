@@ -1,0 +1,20 @@
+X:252
+T:Waltzing Matilda
+R:Hornpipe
+O:Australia
+M:4/4
+K:G
+|:"G"B2B2 "D"A2A2|"G"GABG "Em"EFG2|"G"D2GB d2dd|"Em"e2dB "D"A2GA|\
+"G"(3BBB B2 "Am"(3AAA A2|"G"GABG "Em"EFG2|\
+"G"D2GB d2cB|"D"A2A2 "G"G4::\
+"G"d2d>d d2B2|"Em"g2g>g f2e2|"G"d2dd "C"e2dd|"G"d2cB "D"A2GA|\
+"G"B2B2 "Am"A2A2|"Em"GABG "C"EFG2|"G"D2GB d2cB|"D"A2A2 "G"G4:|
+S:https://www.folktunefinder.com/tunes/41303
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set25.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

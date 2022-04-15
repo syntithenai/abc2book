@@ -1,0 +1,39 @@
+X:243
+T:Danza (CT 004)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cenera, Conceyu de Mieres.
+N:Toman parte en esta danza solamente mujeres y las estrofas son cantadas por todas las cantadoras a la vez, en la disposicin en que aparece la transcrita al pie de la meloda.
+A:Asturies
+O:Cenera (Mieres)
+Z:Cancioneru de Torner 004
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+|B2 B c2 c|(B2 G) B2 c|B6-|B3 z3|
+B2 B c2 c|(B2 G) B2 c|B6|
+B2 B c2 c|B3 G2 A|G6-|G3 z3|
+|B2 B c2 c|(B2 G) B2 c|B6-|B3 z3|
+B2 B c2 c|(B2 G) B2 c|B6|
+B2 B c2 c|B3 G2 A|G6-|G3 z3|
+W:De la raz del olivo,
+W:de la raiz del olivo
+W:naci mi madre serrana,
+W:naci mi madre serrana,
+W:y yo como soy  su hija
+W:sal de la misma rama.
+W:
+S:https://www.folktunefinder.com/tunes/59130
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

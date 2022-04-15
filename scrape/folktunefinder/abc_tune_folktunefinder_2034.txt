@@ -1,0 +1,37 @@
+X: 97
+T:Downshire Quick March.  JMP.097
+M:2/4
+L:1/8
+Q:200
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - The first three D's are all shown as crochets
+N:2 - Last three notes unclear
+H:1799
+Z:vmp.C. Graebe
+K:D major
+"Key shown as G major"A/G/ | FDDD |  DFAd |\
+ cAAA | Aceg | fd e/d/c/d/ |!
+ Bggf | e/f/g/f/ ed | c/d/e/d/ c/B/A/G/ |F"1"D/D/ DD | DFAd |!
+ c/d/e/c/ AA | Adeg |fd e/d/c/d/ | Bggf | ed c/d/e/[c/f/] |!
+ ddd :||:d/e/ | ffff  | f>a bagf  | eeee | e>a a/f/e/d/ |\
+f>e d/c/B/A/ | !
+GBB e/c/ | d/e/c/e/ B/e/A/e/ |\
+G/e/A/e/ B/e/c/e/ | d/e/c/e/ B/e/A/e/ |G/e/A/e/ B/e/c/e/ |!
+ d/e/f/e/ f/g/a/f/ |b/g/a/f/ f/e/d/c/ | d/c/d/e/ f/e/f/g/ |!
+a/^g/a/^g/ a/f/e/d/ | c/d/e/f/ e/d/c/B/ | A/G/A/B/ "2"A/G/F/ |]
+S:https://www.folktunefinder.com/tunes/2034
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

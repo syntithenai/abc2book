@@ -1,0 +1,24 @@
+X:6230
+T:Three jolly sheepskins
+B:Free Reed Book
+M:4/4
+O:England
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002ce.html
+%%ID:000002ce
+K:A
+B2E2B2E2 | d2d2cdec | B2E2B2E2 \
+|1 EdcB A2 c/B/A :|2 EdcB A2cB ||
+ABcd efec | dedB cdcB | ABcd edea \
+|1 fdBG A2 cB :|2 fdBG A4 |]
+S:https://www.folktunefinder.com/tunes/37325
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

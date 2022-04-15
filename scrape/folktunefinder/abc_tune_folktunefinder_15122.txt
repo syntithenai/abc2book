@@ -1,0 +1,28 @@
+X: 1
+T: the Stool of Repentance
+N: The title refers to the "dunking chair" that was used to punish
+N: people in some parts of the British Isles and New England.
+R: Jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+(3d/e/f/ |: "G"g2d B2d | g>fe dcB | "Am"g>ee e2d | "C"egf "D7"e2d \
+| "G"g2d B2d | g>fe dcB | "C"c2d e2d | "D7"e<gB "G"A2G :|
+|: "G"B>GG dGG | BGB dcB | "Am"c>AA eAA | cAc "D7"edc \
+| "G"B>GG dGG | BGB dcB | "C"c2d e2d | "D7"e<gB "G"A2G :|
+S:https://www.folktunefinder.com/tunes/15122
+S:http://trillian.mit.edu/~jc/music/abc/jig/StoolOfRepentance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/StoolOfRepentance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/StoolOfRepentance_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/StoolOfRepentance_G.abc
+S:http://trillian.mit.edu/~jc/music/book/500/StoolOfRepentance_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

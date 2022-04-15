@@ -1,0 +1,32 @@
+X: 1
+T: Scotland
+O: Playford
+R: jig
+N: Longways for as many as will
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+B: H. Playford "The Dancing Master" 10th ed. 1698 p.202
+N: Really a slipjig
+M: 6/8
+L: 1/8
+K: G
+|: g3d (dB)d | (ef)g f2A | A2G   (cB)A | g2d (dB)d | (ef)g (GA)B | A2G G3 :|
+|: B2d (dB)d | (dB)G c2e | (ec)e (ec)A | B2d- dBd  | (dB)G (GA)B | A2G G3 :|
+%
+W:First man take the 2. man by the right hand, and turn a turn and a half, the 1. and 2. wo. do the
+W:same at the same time till they come into the 2. cu place, back to back, with your own, then turn
+W:your own, and back to back, sides men go without side the we. and come between them a quarter
+W:Figure, turn S. we. do the like.
+S:https://www.folktunefinder.com/tunes/15036
+S:http://trillian.mit.edu/~jc/music/abc/jig/Scotland_J_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Scotland_J_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Scotland_J_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Scotland_J_G.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Scotland_J_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

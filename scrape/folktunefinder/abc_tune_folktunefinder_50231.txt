@@ -1,0 +1,23 @@
+X:18783
+T:Willafjord
+R:reel
+O:trad Shetland
+Z:John Chambers <jc@eddie.mit.edu>
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+|: B2 | "D"A2FA -ADFA | "G"B2GB -BDGB | "D"A2FA -ADFA | "Em"EFGA "A7"GFED |
+"D"A2FA -ADFA | "G"B2GB -BDGB | "A7"ABcd efge | "D"f2d2 d2 :|
+|: e2 | f2df -fAdf | "Em"geaf "A7"gfeg | "D"f2df -fAdf | "A7"e2ce -eAce |
+"D"f2df -fAdf | "Em"geaf "A7"gfec | ABcd efge | "D"f2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/50231
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+%% Copyright 1937 and 1940 by Famous Music Corporation, New York, N.Y.
+T:The nearness of you
+M:4/4
+L:1/4
+C:Hoagy Carmichael & Ned Washington
+Q:1/4=80
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+xx/ || "Fmaj7"x2 "(Dm7"""x"Dbdim7)"""x | "Cm7"x2 "F7"x2 | "(Bm7b5""Bbmaj7"x2 x2 | "Bbdim7)""Bbm6"x2 x2 |
+"Am7"x2 "D7"x2 | "Gm7"x2 "C7"x2 | "Am7"x2 "D7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+C/F/G/ || A2 cB/A/ | GB2A | F2AG | EG2F |
+S:https://www.folktunefinder.com/tunes/19099
+S:http://trillian.mit.edu/~jc/music/abc/song/nearness_of_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/nearness_of_you.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/nearness_of_you.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/nearness_of_you.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

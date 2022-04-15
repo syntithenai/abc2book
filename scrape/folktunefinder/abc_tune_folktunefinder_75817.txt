@@ -1,0 +1,27 @@
+X: 5
+T:Shepherds' Aye, CJS (via Shakespeare MM)
+M:4/4
+L:1/8
+Q:120
+S:CJS
+A:Bidford
+P:A2(AB)6A
+K:G
+P:A
+BcdB c2(3cdc|BcdB A2D2|BcdB c2Bc|d2D2 G3A||
+P:B
+B2G2 c3A    |B2G2 A4  |BcdB c2Bc|d2D2 G3z||
+S:https://www.folktunefinder.com/tunes/75817
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

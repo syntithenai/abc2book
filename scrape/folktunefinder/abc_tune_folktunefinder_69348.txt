@@ -1,0 +1,29 @@
+X:489
+T: "Der Versucher"
+N: Z1169
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Liebes - Lied, Jaeger - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G2G2A2 | Bcd2
+e2 | d2B2AB | G4
+D2 | G2G2A2 | Bcd2
+e2 | d2B2AB | G4
+Bc | d2B2e2 | dcA2
+A2 | B3AGB | A4
+D2 | G2G2A2 | Bcd2
+e2 | d2B2AB | G4
+S:https://www.folktunefinder.com/tunes/69348
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Odin Bay
+C: Freeland Barbour \251 2005
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+F2 "A"\
+| "Bb"DB,DF BFdB | "F7"cBAG F2FE | "Bb"DFBd     FBdf | "F7"edcB AFEC |
+y4 \
+| "Bb"DB,DF BFdB | "F7"cBAG F2Fe | "Bb"dfdB "F7"AecA | "Bb"B2B2 B2 :|
+|: cB "B"\
+| "F7"AFAc ecAc | "Bb"BFBd "(F7)"f2ed | "Eb"edce "Bb"dcBd | "C7"cBAG "F7"F2FE |
+y6 \
+| "Bb"DFB2 FBd2 | "Eb"EGB2  "F7" Ace2 | "Bb"dfdB "F7"AecA | "Bb"B2B2 B2 :|
+S:https://www.folktunefinder.com/tunes/17789
+S:http://trillian.mit.edu/~jc/music/abc/reel/Odin_Bay_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Freeland_Barbour/Odin_Bay_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Odin_Bay_Bb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

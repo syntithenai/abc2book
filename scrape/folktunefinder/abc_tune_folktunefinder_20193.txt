@@ -1,0 +1,29 @@
+X: 1
+T: Silkesvalsen fr\aan Enviken
+O: Sweden
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+S: handwritten MS of unknown origin, "uppt. Bruce Sagan 7/86"
+M: 3/4
+L: 1/8
+K: Gm
+(D2 \
+| "Gm"G2) B2 d2 | "Eb"g3 g g2 | "F7"(fg) (fe) dc | "Gm"B3 (B"(D)"A2) \
+| "Gm"(G^F) (GA) Bc | d2 B2 G2 | "D7"B2 (A^F) DF | "G"G4 :|
+|: "F7"(A2 \
+| "Bb"B2) (Bd) fd | "(Gm)"d2 (BG) BG | "F7"A2 (Ac) ec | "D7"c2 (A^F) AF \
+| "Gm"G2 (GA) Bc | d2 B2 G2 | "D7"B2 (A^F) DF | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/20193
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SilkesvalsenFrEnviken_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/SilkesvalsenFrEnviken_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/SilkesvalsenFrEnviken_Gm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

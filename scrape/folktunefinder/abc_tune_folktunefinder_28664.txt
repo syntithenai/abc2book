@@ -1,0 +1,39 @@
+X:2384
+T:Ca La Breaza
+S:Ian McArdle
+R:Other
+Q:1/4=80
+P:ABACDBACDBA
+O:Rumania
+M:2/4
+K:C
+P:A
+"Cm"_e/d/(c c)d/e/ {^f}g2~g2|\
+_e/d/(c c)d/e/ {^f}g2~g2|\
+_e/d/(c c)d/e/ {^f}g2g2|\
+_e/d/(c c)d/e/ c2G2:|
+P:B
+|:"Dm"(3def ef ef ~f2|f/e/(d d)e/f/ ~d2"G"g2|\
+"Dm"(3def ef ef "G"(3def|\
+"C"e/d/(c "G"c)d/e/ "C"c2G2:|
+P:C
+|:"C"(3g/a/_b/a (3g/a/b/a (3g/a/b/a (3g/a/b/a|\
+c'g2a/_b/ g2e2|
+(3g/a/_b/a (3g/a/b/a (3g/a/b/a (3g/a/b/a|\
+c'g2^f/e/ cGc2:|\
+P:D
+|:"C7"g^f2a ~g2e2|g^f2a ~g2e2|\
+g^f2a ~g2e2|(3cde ~g>e c2c2:|
+S:https://www.folktunefinder.com/tunes/28664
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

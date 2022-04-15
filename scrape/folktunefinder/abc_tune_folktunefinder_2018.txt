@@ -1,0 +1,33 @@
+X: 81
+T:Lady of the Lake. JMP.081
+M:2/2
+L:1/8
+Q:110
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Alternative title fainter - pencil  "The Lady of the Lake"(of gold)
+H:1799
+Z:vmp.C. Graebe
+K:G major
+"No key signature given"((3def) | g2 G>G G2 dc |\
+ B2 G>G G2 ((3ABc) | BGdG gdBG |!
+ A2 A>A A2 ((3def) | g2 d>d d2 c2 |\
+fafd fed"Sharp added"^c | d2 d>d d2 :|!
+|: ((3def) |edcB c2 ((3cde) |dcBA B2 ((3def) |\
+gfed cBAG |d2 D>D D2 ((3ABc) |!
+B2 G>G G2 ((Bcd) | c2 A>A A2 d/g/f/g/ |\
+g/f/e/d/ ((3edc) B2 A2 | G2 G>G G2 :|]
+S:https://www.folktunefinder.com/tunes/2018
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

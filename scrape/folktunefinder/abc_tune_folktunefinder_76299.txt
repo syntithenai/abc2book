@@ -1,0 +1,28 @@
+X:319
+T: Ich ging einmal durch eine grne Wies' (4-20), S. 30
+N: P0581
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: , Brautwerbung, Soldatenlied]
+M: 6/4
+L: 1/8
+K: E
+=D2 | E4=D2E4DD | =G2A2BAG4
+=D2 | =G2G2AA=c2B2A2 | =G2A2B2A4
+AG | A4=d2=c2B2A2 | =G4E2=F2E2
+E2 | =F2E2=D2=G2^F2^G2A4F2 | E6E4
+A=G | A4=d2=c2B2A2 | =G4E2=F2E2
+E2 | =F2E2=D2=G2^F2G2A4F2 | E6E4
+S:https://www.folktunefinder.com/tunes/76299
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm , brautwerbung, soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

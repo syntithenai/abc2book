@@ -1,0 +1,23 @@
+X:2223
+T:Silver Spire
+O:ireland
+Z: id:dc-reel-312
+M:C
+L:1/8
+K:D Major
+FE|D2FD ADFA|dcde fdAF|GABG FADF|GEFD EDCE|!
+D2FD ADFA|dcde fdAF|GABG FADF|EDCE D2:|!
+zB,|A,B,CD EFGE|FDEF GABc|dcBA Bcde|fdgf e3A|!
+defd cdec|dcdB ADFA|GABG FADF|EDCE D2:|!
+S:https://www.folktunefinder.com/tunes/42675
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

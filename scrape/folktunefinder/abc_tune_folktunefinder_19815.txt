@@ -1,0 +1,35 @@
+X: 1
+T: The Blue Danube
+C: Johann Strau\ss
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: D
+        D2 \
+| D2 F2 A2 \
+| "D"A4 a2  | a2  z2 f2 | f2 z2 D2 |    D2 F2 A2 \
+|"A7"A4 a2  | a2  z2 g2 | g2 z2 C2 |    C2 E2 B2 |
+| "D"B4 b2  | b2  z2 g2 | g2 z2 C2 |    C2 E2 B2 \
+|    B2 b2  | b2  z2 f2 | f2 z2 D2 |    D2 F2 A2 |
+| "G"d4 d'2 | d'2 z2 a2 | a2 z2 D2 |    D2 F2 A2 \
+|    d4 d'2 | d'2 z2 b2 | b2 z2 E2 |    E2 G2 B2 |
+|"A7"B6-    | B2  F2 A2 | "D"f6-   |    f2 d2 F2 \
+| "G"F4 E2  | "A7"B4 A2 | "D"D2 zD | "fine"D2   |]
+K:A
+         dz cz \
+| "E7"cz Bz Bz |     z2 Bz ^Az |    ^Az Bz Bz |     z2 Ez Ez \
+|  "A"F4    E2 |     z2 Ez  Ez |     B4    A2 |  "A"z2 dz cz |
+| "E7"cz Bz Bz |     z2 Bz  cz |     ez dz dz |"C#7"z2 Gz Bz \
+|"F#m"B4    A2 | "Bm"G3    FDB,| "E7"FF F2 E2 |  "A"A2 "d.C."z2 |]
+S:https://www.folktunefinder.com/tunes/19815
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Blue_Danube_D.abc-save
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/Blue_Danube_D.abc-save
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

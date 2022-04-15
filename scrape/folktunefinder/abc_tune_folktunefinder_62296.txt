@@ -1,0 +1,27 @@
+X:273
+T: WENN ICH IHN NUR HABE
+N: B0751
+O: Europa, Mitteleuropa, Deutschland
+R: religioes
+M: 3/4
+L: 1/8
+K: F
+FG | A4B2 | A2G2
+GA | B4c2 | A2z2
+A=B | c3cdd | e3d
+c=B | Adc2=B2 | c4z2
+GAB2c2 | B2A2z2
+dcB2A2 | A2G2
+FB | A4G2 | F2z2
+S:https://www.folktunefinder.com/tunes/62296
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

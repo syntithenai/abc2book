@@ -1,0 +1,33 @@
+X: 22
+T:King & the Miller,The.  WCl.22
+M:6/8
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+N:Pause marked over crotchets E (bar 12), D (bar17) and G (bar
+N:19)....BC....
+Z:vmp.Barry Callaghan
+K:G
+D|G>AG B>AG|dBG A2D|G>AG B>AG|dBG A2"sic,etc"F G|!
+AFG AFG|AFG A2 d ^d|d^cB AGF|GEA D2 D|!
+FGF AFD|ABc B2 B|edc BAG| AFB "Pa"E3 E|!
+GBG AcA|FDF G2 G A|BAG dBG|dBG "Pa"D2 G F|!
+GFE DcB|AGF "Pa"G2 G/2F/2|GFE DCB,|CA,D G,3||
+W:Exactly as written
+S:https://www.folktunefinder.com/tunes/40705
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/wclarke.abc
+S:http://www.village-music-project.org.uk/abc/wclarke.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/wclarke.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

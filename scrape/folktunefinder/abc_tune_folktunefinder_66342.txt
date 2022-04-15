@@ -1,0 +1,27 @@
+X:0
+T:Sunset on the Somme
+Z:Jack Campin <http://www.campin.me.uk/> version 1.0 September 2001
+C:Pipe Major George S. McLennan
+S:Gordon Highlanders Pipe Music Collection volume II
+B:NLS Mus.D.s.19
+R:Retreat March
+M:3/4
+L:1/8
+Q:1/4=56
+K:Hp
+{g}B<d {gef}e2 {A}e2|{Gdc}d>e  {gf}g2   {f}g2|{a}B<d {gef}e2 {A}e2|  {g}d>B     {GdG}B4 |
+{g}A>B {gef}e2 {A}e2|{Gdc}d>e  {gf}g2  {ag}a2|{f}ge   {gf}g2-   gB|{gBd}B{e}A {gAGAG}A4:|
+{g}B<d {gef}e2 {A}e2|  {g}d>B {GdG}B2   {G}A2|{g}G>B {Gdc}d2-   de|{gde}dB      {Gdc}d4 |
+{g}e>f {gf} g2 {f}g2| {ag}a>g   {a}e2 {Gdc}d2|{g}e>f  {gf}g2-   gB|{gBd}B{e}A {gAGAG}A4:|
+S:https://www.folktunefinder.com/tunes/66342
+S:http://www.campin.me.uk/Music/McLennan.abc
+% Rhythm Retreat march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

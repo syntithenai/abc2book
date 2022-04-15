@@ -1,0 +1,26 @@
+X:171
+T:Quick Step. Fencibles
+M:2/4
+L:1/8
+K:G
+G2 B>G|A2 FD |G2 B>G|   c4                       |\
+B2 d>B|e2 c>A|Bd DF |[1 G2 G,2                  :|\
+                  [2 G2 D/(E//F//G//A//B//^c//)|:
+d2 (D/E//F//G//A//B//^c//)|d3 F|GEA,G|F2 D/E//F//G//A//B//^c//|\
+d2  D/E//F//G//A//B//^c// |d3 F|GEA,G|F4            "Da Capo"||
+% The next few tunes are mostly marches of the trade guilds
+% of Edinburgh; 172, 178, and maybe 176 could well date back
+% to the 15th century when they were set up, and are among
+% the oldest tunes in Scottish tradition.
+S:https://www.folktunefinder.com/tunes/41013
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Aird-v1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Aird-v1.abc
+S:http://www.purr.demon.co.uk/jack/Music/Aird-v1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

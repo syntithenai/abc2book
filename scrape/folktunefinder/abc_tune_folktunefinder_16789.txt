@@ -1,0 +1,25 @@
+X: 1
+T: Bernadette's Reel
+C: Jerry Holland
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|: B, \
+| A,2AG {G}A2AB, | A,AAc BGGA | A,AAG {G}A2Ac |1 BGGe dGGA :|2 BGGe dGG ||
+K: C
+|: d \
+| cdef Tgedc | BGGE GFFA |1 cdef gece | dGAB ~c2cG :|2 cdef gece | dGAB c2c |]
+S:https://www.folktunefinder.com/tunes/16789
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bernadettes_Reel_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Bernadettes_Reel_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

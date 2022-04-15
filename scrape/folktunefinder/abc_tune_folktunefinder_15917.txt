@@ -1,0 +1,31 @@
+X: 1
+T: Morsgrisar \"ar vi allihopa
+%T: \"Aidin porsaat
+%O: Sweden/Finland
+M: 3/4
+L: 1/8
+K: C
+[|"C"G2 GA GF | EF G2 E2 | "G7"DE F2 D2 | "C"CD E2 C2 |
+%w: Por-sai-ta \"ai-din oom-me kaik-ki, oom-me kaik-ki, oom-me kaik-ki,
+w: Mors-gri-sar \"a vi al-li-ho-pa, al-li-ho-pa, al-li-ho-pa,
+| "C"G2 GA GF | EF G2 E2 | "G7"DE F2 D2 | "C"G2 C4    |
+%w: por-sai-ta \"ai-din oom-me kaik-ki, oom-me kaik-ki, kaik-ki,
+w: mors-gri-sar \"a vi al-li-ho-pa, al-li-ho-pa, du me',
+| "Am"c2 "C"G3 F | "G7"(ED) "C"C4 | "F"c2 "C"G3 F | "G7"ED "C"C4 |]
+%w: si-n\"a ja mi-*n\"a, si-n\"a ja mi-n\"a.
+w: ja' me', \aa du* me', ja' me', \aa du* me'.
+S:https://www.folktunefinder.com/tunes/15917
+S:http://trillian.mit.edu/~jc/music/abc/misc/Aidin_porsaat_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/Aidin_porsaat_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/misc/Aidin_porsaat_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/misc/Aidin_porsaat_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn/Morsgrisar_ar_vi_allihopa_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/Aidin_porsaat_Cw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/barn/Morsgrisar_ar_vi_allihopa_Cw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

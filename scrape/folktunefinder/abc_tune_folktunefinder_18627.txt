@@ -1,0 +1,32 @@
+X:1
+%copyright 1957 International Korwin Corporation, USA
+T:Chances are
+M:4/4
+L:1/8
+C:Al Stillman & Robert Allen
+Q:1/4=70
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x2 || "C6"x4 "G7(#5)"x4 | "C6"x4 "Cm6"x4 | "Gmaj7"x4 "C7(#11)"x4 | "Bm7"x4 "E7"x4 |
+"Am7"x4 x4 | "D7"x4 x4 | "Gmaj7"x4 x4 | x4 "Dm7"x2"G7"x2 ||
+V:melody
+A>G || A6A>G | B>AG>E D3C | B,>DF>AF2D2 | F6z2 |
+S:https://www.folktunefinder.com/tunes/18627
+S:http://trillian.mit.edu/~jc/music/abc/song/Chances_are.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/chances_are.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Chances_are.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/chances_are.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/chances_are.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/Chances_are.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/chances_are.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

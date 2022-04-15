@@ -1,0 +1,25 @@
+X: 303
+T:The Stone Court
+% Nottingham Music Database
+S:RSCDS 23, via EF
+M:6/8
+K:D
+A|"D"d2d "A7"edc|"D"d2A F2A|"D"d2d "A7"edc|"D"d3 d2d|"A7"e2A ABA|
+"D"f2A ABA|"A"c2e "E7"B2e|"A7"A3 ABc|"D"d2d "A7"edc|"D"d2A F2A|
+"D"d2d "A7"edc|"D"d3 "D7"d2f|"G"g2e "A7"Beg|"D"f2d "Bm"A2F|"Em"ABA "A7"GFE|\
+"D"D3 "A7"A3|
+"D"AFA d2F|"G"GFG "A7"E2G|"D"FAd f2F|"A"A3 -A2"ab"A|"G"B2B Bcd|
+"D"A2F d2F|"A"E2A "E7"^GAB|"A"A3 "A7"A2A|"D"AFA d2F|"G"GFG "A7"E2G|"D"F2A d2e|
+"D7"f3 f2f|"G"g2e "A7"Beg|"D"f2d "Bm"A2F|"Em"ABA "A7"ABc|"D"d3 d2||
+S:https://www.folktunefinder.com/tunes/65391
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

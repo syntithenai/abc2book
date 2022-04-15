@@ -1,0 +1,27 @@
+X:37
+T: Die drei Grafen
+N: A0036
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie bei Schmeltzel, 1544, Quodlibet 7. Ab dritte Zeile von Boehme
+N: ergaenzt!
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2A2B2 | c4e2
+d2 | c2G2A2B2 | c4z2
+c2 | e2g2a2a2 | gfedc2
+d2 | e2d2c2B2 | A6
+S:https://www.folktunefinder.com/tunes/68583
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

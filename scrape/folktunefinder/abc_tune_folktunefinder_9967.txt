@@ -1,0 +1,21 @@
+X: 2
+P: The Deil's awa' wi' the Exciseman
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2d ded | "D7"c2B ABc | "G"d2G "D7"G2A | "G"B3 "D7"d2 :| c | "G"BAB G2G | "Am"AGA "D7"D2D |
+| "G(Em)"G2G "D7"G2A | "G"B3 "D7"d2c | "G"BAB "Em"G2G | "Am"ABA "D7"def | "G"g2G "D7"G2A | "G"B3 "D7"d2 |]
+% j16/Vallafield_C16.abc
+S:https://www.folktunefinder.com/tunes/9967
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BannocksAndBrose1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

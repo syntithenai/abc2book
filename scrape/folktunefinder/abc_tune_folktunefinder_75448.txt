@@ -1,0 +1,21 @@
+X: 1
+T:The Blaydon Races
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+D | GG GG | GG GG | AA AA | B2 G2 | cc cc |BB BB | AB AG | F2 D2 |GG GG
+| GG GG
+| AA AA | B2 GB | cc cc | Bcd2 | dc BA | G2 G2 :|
+d3B | G2 G2 | AA AA | BB GB | cc cc | BB BB | AB AG | F2 D2 | GG GG |
+GG GG |
+AA AA | B2 GB | cc cc | Bc d2 | dc BA | G2 G2 :|
+% Output from ABC2Win  Version 2.1 i on 2/26/2000
+S:https://www.folktunefinder.com/tunes/75448
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

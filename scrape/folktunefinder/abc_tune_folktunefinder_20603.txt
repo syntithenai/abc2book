@@ -1,0 +1,22 @@
+X:154
+T:AIR XXXII. Pinky House.
+O:england
+B:Joseph Mitchell: "The Highland Fair" (1731)
+M:C
+L:1/8
+K:G
+G>A   |B>A B>d B2 AG |d>B     d>e  d2 (e/f/g)|e>d eg  dB     AG |(A3B A2)
+G>A   |B>A B>d B2 AG |d>B     de   d2 (e/f/g)|e>d eg (e/f/g) a>g|(g3a g2)||
+f>g   |a>g a>b a2 g>a|(ba/g/) f>e ^d2  e>f   |g>f g>a f3       e|(e3f e2)
+(e/f/g)|dB  AG  Bd eg | dB     A>G  E2  b>a   |g>e g>B A3       G| G6     |]
+S:https://www.folktunefinder.com/tunes/20603
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

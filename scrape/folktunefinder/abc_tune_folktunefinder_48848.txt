@@ -1,0 +1,29 @@
+X:220
+T:Buffens
+C:Thoinot Arbeau
+L:1/8
+M:4/4
+N:Orchesographie, 1589
+N:http://en.wikipedia.org/wiki/Thoinot_Arbeau
+O:France
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000daf.html
+%%ID:00000daf
+K:F
+FGAF B3B|AGAF G4|FGAF B3B|AFGG F4:|
+|:cB/2c/2 dc B3B|AGAB c4|cB/2c/2 dc B3B|AFGG F4:|
+K:D
+|:a3f g2b2|f2a2 gfed|c3A B2c2|dcde defg|
+a3f g2b2|f2a2 gfed|c3A B2c2|d4d4:|
+S:https://www.folktunefinder.com/tunes/48848
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

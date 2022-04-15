@@ -1,0 +1,25 @@
+X: 1
+T: V\"ava vadmal I
+B: "Svenska Folkdanser och S\"allskapsdanser" 1952 p.33
+S: Svenska Ungdomsringer f\"or Bygdekultur
+M: 3/4
+L: 1/8
+K: D
+% %indent 300
+!Intro!\
+|  "A7"e2 A2 B>c | "D"d>c d>e f>d | "A7"e2 A2 B>c | "D"d2 d3z ||
+|: "A7"e2 A2 B>c | "D"d2 d4 | "A7"e2 A2 B>c | "D"d2 d4 \
+|  "A7"e2 A2 B>c | "D"d>c d>e f>d | "A7"e2 A2 B>c | "D"d2 d4 ||
+|| "G"d>d g2 g2 | "D"f>e f2 f2 | "A7"A>c e2 e2 | "D"d>f a4 \
+|  "G"d>d g2 g2 | "D"f>e f2 f2 | "A7"A>c e2 e2 | "D"f2  d4 :|
+|  "D"d2  A2 F2 | D4 z2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/9424
+S:http://trillian.mit.edu/~jc/music/abc/Scand/VavaVadmal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

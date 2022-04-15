@@ -1,0 +1,29 @@
+X: 1
+T: the Scotch Hero's Reel
+C: Skillern
+R: jig
+B: RSCDS __-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+c \
+| "G"B/c/dc BGB | "D7"cAc "G"BGc | "G"B/c/dc BGB |  "D"AFG "D7"ABc |
+| "G"B/c/dc BGB | "D7"cAc "G"BGB | "C"gfe "G"dcB | "Am"AFG "D7"AB :|
+|: c \
+| "G"B>AG GDG | BGB gd"D7"c | "G"B>AG   GDG |   "D"AFG "D7"ABc |
+| "G"B>AG GDG | BGB "G7"gdB | "C"efg "G"dcB |1 "Am"AFG "D7"AB :|2 "D7"A>BA "G"G2 |]
+S:https://www.folktunefinder.com/tunes/15034
+S:http://trillian.mit.edu/~jc/music/abc/jig/ScotchHerosR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/ScotchHerosR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ScotchHerosR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ScotchHerosR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ScotchHerosR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

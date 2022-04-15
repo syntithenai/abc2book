@@ -1,0 +1,41 @@
+X:1
+T: the Braes of Bushbie
+C:John Bowie, 1789
+R:strathspey
+Z:Juergen Gier <Juergen.Gier@post.rwth-aachen.de>
+N:This famous Scottish strathspey first appeared in John Bowie's  Collection
+N:(1789). In that book it is unclear if Bowie composed the tune or not ... I
+N:suspect he did.  Over the years it has been rearranged into a famous reel,
+N:Dowd's  Favourite  which  was  first  recorded  by  Michael Coleman in the
+N:twenties. Jerry plays both settings. He learned the Cape Breton strathspey
+N:setting from Bill Lamey.
+M:C
+L:1/8
+K:GDor
+F/ \
+| D<GG>A ~B>AG>F | C>DF>G A<c B/A/G/F/ \
+| G>AB>c ~d>cB>d | c/B/A/G/ F>A B<GG3/:|
+|: A/ \
+| B>cd>B f>Bd>B | A<cf>d c/B/A/G/ F>A \
+| B>cdBd>B | ~c>AF>A B<GG3/:|
+|: B/ \
+| ~g2d>g (3dga (3bag | f2c>f (3cfg (3agf \
+| ~g>fd>g ~d>cB>d | c/B/A/G/ ~F>A B<GG3/ :|
+| A/ \
+| B<dG>d (3GBc (3dcB | A>cF>c (3FAB c>A \
+| B<dG>d (3GBc d>B | ~c>AF>A B<GG>A \
+| (3Bcd G>d (3GBc (3dcB | A>cF>A (3FAB (3cBA \
+| B>dfdB>d | c/B/A/G/ F>A B<GG3/ |]
+S:https://www.folktunefinder.com/tunes/19221
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraesOfBushbie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraesOfBushbie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BraesOfBushbie.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

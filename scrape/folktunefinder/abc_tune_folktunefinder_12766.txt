@@ -1,0 +1,23 @@
+X:1
+T:Underhill
+B:Da Mirrie Dancers, 1970
+O:Shetland
+S:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:G
+|: ge | "G"dBBA GABG | "Am"A<ABG "(D7)"ABde | "G"dBBA GABG | "D7"AGAB "G"G2 :|
+|: g2 | "D7"faea fe d2 | faea faea | faea fedB | AGAB "G"G2 :|
+S:https://www.folktunefinder.com/tunes/12766
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/UnderhillR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/UnderhillR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/UnderhillR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/UnderhillR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:357
+T: WIE EDEL IST DAS BERGMANNSLEBEN
+N: E1526
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Arnsberg, Allendorf
+R: Staende -, Bergmanns - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | D2G2B2B2A2G2 | G2F2E2E2D2
+D2 | D2G2B2B4AB | c4B2A4
+D2 | D2G2B2B2A2G2 | G2F2E2E2D2
+D2 | D2G2B2B4AB | c4B2A4
+G2 | A4d2A4BA | G4A2F4D2 | B6-B4
+GA | B4d2d3cB2 | c2B2A2G4
+S:https://www.folktunefinder.com/tunes/79461
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, bergmanns - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

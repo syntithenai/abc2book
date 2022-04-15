@@ -1,0 +1,32 @@
+X: 1
+T: Miss Lyall
+T: Miss Lyle
+T: Mrs Grant of Laggan
+C: Capt. Fraser
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Skye p.103
+N: Essentially the same as Paddy Ryan's Dream (O'Neill 1181, 1182)
+M: C|
+L: 1/8
+K: Am
+c/B/ \
+| "Am"AE~E2 cABG | "G"E{f}GDG B,G,DB, | "Am"~A,2EA, CDEd | "E7"cAB^G "A"~A2 A :|
+B \
+| "Am"Aaa^g aecA | "G"Bgg^f gdBG | "Am"Aaa^g aefd | "E7"ecdB "Am"cAAB |
+| "Am"Aaa^g aecA | "G"Bgg^f gdBG | "Am"Ac"G"Bd "Am"ce"Dm"df | "E7"ea^g^f edcB |]
+S:https://www.folktunefinder.com/tunes/17680
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissLyallR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MissLyallR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MissLyallR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissLyallR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MissLyallR.abc
+S:http://trillian.mit.edu/~jc/music/book/500/MissLyallR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 273
+T:Gee Ho Dobbin. JaW.272
+M:6/8
+Q:100
+S:James Winder Ms, Lancashire, 1835-41
+R:Jig
+O:England
+A:Wyresdale,Lancashire
+N:You may need to tweak this a little to make sense of the B strain, but
+N:I can see several different interpretations so it's up to you...CGP
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:D
+"Key Sig G in MS"A|FED AGF|BAG A2A|dcd Bcd|ecA d2:|!
+|:d|def Bcd|e>cA B3|d3 A>BA|A>GF (GE)F|!
+G3 F3|A2"sic" F<D G2|B2 G<E F2|"sic"A GFE|Ddc d4:|]
+S:https://www.folktunefinder.com/tunes/47810
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

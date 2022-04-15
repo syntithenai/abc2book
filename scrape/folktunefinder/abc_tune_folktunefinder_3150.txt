@@ -1,0 +1,35 @@
+X: 1
+T: Sadilo Mome
+O: Bulgaria
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Cdor
+"A"
+|: "Cm" BAB c2cB | (4c/d/c/B/ c2cB | e2d cdcB | e2d c2cB \
+| BAB e2ed | d2B c2cB | c2B c2df | e2d c2cB \
+| BAB e2ed | d2B c2cB | c3- c2df |1 e2d c4 :|2 c3 c4 ||
+"B"
+|: "Cm"{d}e3- e4- | e3 fedc | "Bb"d3- d4- |
+| d3 edcB |1 "Cm"dcB cBcB | c2B ccB2 | dcB cBcf | c2f c4 \
+:|2"Cm"dcB cBcf | c2f c2B2 | dcB cBcf | c3 z4 ||[K:=B=e]
+K:Ddor
+"C"
+|:"Dm"cBd d2dc | dec d2dc | f2e d2dc | f2e dddc \
+|     cBc f2fe | e2c dddc | edc d2eg | f2e d4 \
+|     cBc f2e2 | e2c dddc | d3- d2eg | d3 d2c2 :|
+"D"
+|:"Dm"f3- f4- |
+| f3 gfed | "C"e3- e4- | e3 fedc | "Dm"edc dcdg | d2g d2c2 | edc dcdg |1d3 d2c2 :|2 d3 .d2z2 |]
+S:https://www.folktunefinder.com/tunes/3150
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/SadiloMome_Cm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/SadiloMome_CmDm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SadiloMome_CmDm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

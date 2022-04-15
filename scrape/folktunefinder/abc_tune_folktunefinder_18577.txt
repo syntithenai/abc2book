@@ -1,0 +1,33 @@
+X: 8
+T:All or nothing at all
+M:4/4
+L:1/4
+C:Arthur Altman & Jack Lawrence
+S: Karl Dallas <karldallas@blueyonder.co.uk> abcusers 2003-4-8
+K:Am
+Q:120
+P:A
+"Am"E4-|EE(3EFC|"B=F8"E4|"E7"z4|
+"G7"E2E2|"C7"E2(3EGC|"F6"D>DD2-|D2z2|
+"Gm7"D2D2|"C7"D2(3E^CD|"F"A>AA2-|"F#=F8"A2"B7"BA|
+"Em7"GG-"A7"GG|"Dm7"GG-"G7"GG|"Cmaj"G4|[1"B=F8 =
+E7"z4:|[2"Bbm7"z2"Eb7"z_E||
+P:B
+"Abmaj"cccc|"Bbm7"c>c"Eb7"(3c_d_A|"Abmaj"c4|"Bbm7"z2"Eb7"z_E|
+"Abmaj"c>cc>c|"Bbm7"_d2(3c_B_A|"Eb7"G4|z3_E|
+"Bbm7"(3_BBBB>B|"Eb7"(3_BBB(3BcG|"Abmaj"_B4-|"G=F8"B2"C7"c_B|
+"Fm"_A2"-/Eb"AA|"D=F8"_AA"G7"2A|"Cmaj"G4|"B=F8"zD"E7"CB,||
+P:A
+"Am"E4-|EE(3EFC|"B=F8"E4|"E7"z4|
+"G7"E2E2|"C7"E2(3EGC|"F6"D>DD2-|"Dm7"D2z2|
+"Gm7"D2"-/F"D2|"E=F8"D2"A7"(3E^CD|"Dm -/C"A4|"B=F8 E7"B4|
+"Am7 D7"c4-|"Dm7"cc"Gsus7"(3ccc|"C6"c4|"B=F8 E7"z4|]
+S:https://www.folktunefinder.com/tunes/18577
+S:http://trillian.mit.edu/~jc/music/abc/song/AllOrNothingAtAll_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

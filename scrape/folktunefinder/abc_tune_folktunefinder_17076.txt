@@ -1,0 +1,41 @@
+X: 1
+T: Dumbarton's Drums
+O: RSCDS 5-2
+B: RSCDS 5-2
+B: Playford 1697
+B: McGibbon 1763
+M: C|
+L: 1/8
+K: F
+|: FG \
+| "F"A3c "C7"ABGA \
+| "F"F2c>d c2BA \
+| "Gm"GFGA BAGF \
+| D2d>e "C7"d2cd \
+| "F"f3g agfd |
+| "F"cAcd f3F \
+| "Gm"GAfd "Am"cAGF \
+| "Dm"D2d>e d2 :: cd \
+| "F"f3g fgag \
+| f2a>b a2gf |
+| "Gm"gfga bagf \
+| d2g>a "C7"g2fd \
+| "F"cdfg "(Bb)"agfd \
+| "F"cAcd "Dm"f2fg \
+| "Am"agfd cAGF \
+| "Dm"D2d>e d2 :|
+S:https://www.folktunefinder.com/tunes/17076
+S:http://trillian.mit.edu/~jc/music/abc/reel/DumbartonsDrums_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/DumbartonsDrums_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DumbartonsDrums_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/DumbartonsDrums_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

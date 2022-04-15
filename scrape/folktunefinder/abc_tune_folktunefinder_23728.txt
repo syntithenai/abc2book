@@ -1,0 +1,23 @@
+X:3277
+T:Killimer Jig, The
+O:england
+R:jig
+M:6/8
+K:G
+DEF ~G3|BAG ABc|d^cd ~f3|ded cAF|
+DEF ~G3|BAG ABc|d^cd fed|cAF ~G3:|
+|:GBd ~g3|dgb gdB|GBd ~g3|fed cAF|
+GBd ~g3|dgb gdB|GBd fed|cAF ~G3:|
+S:https://www.folktunefinder.com/tunes/23728
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

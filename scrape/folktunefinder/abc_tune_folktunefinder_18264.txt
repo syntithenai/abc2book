@@ -1,0 +1,28 @@
+X: 1
+T: Da Tushker
+O: Shetland
+C: Ronald Cooper
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: cB | "A"Aafa "E7"edcB | "A"A2cA EAcA | cefg afec | "E7"d2 B2 B2 ag |
+| "D"fgaf "E7"edcB | "A"A2cA EAcA | "D"Bcde "E7"fefg | "A"a2 A2 A2 :|
+dc \
+| "E7"BeGe BGEG | "A"AecA EAcA | cefg afec | "E7"d2 B2 B2 dc |
+| "E7"BeGe BGEG | "A"AecA EAcA | "D"Bcde "E7"fefg | "A"a2 A2 A2 |]
+dc \
+| "E7"BeGe BGEG | "A"AecA EAcA | "A"cefg afec | "E7"d2 B2 B2  ag |
+| "D"fgaf "E7"edcB | "A"A2cA EAcA | "D"Bcde "E7"fefg | "A"a2 A2 A2 |]
+S:https://www.folktunefinder.com/tunes/18264
+S:http://trillian.mit.edu/~jc/music/abc/reel/Tushker_A6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Ronald_Cooper/Tushker_A6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Tushker_A6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/by/Ronald.Cooper/Tushker_A6.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/Tushker_A6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

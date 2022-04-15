@@ -1,0 +1,48 @@
+X:2
+T:Russian Walz
+C:Traditionnel
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=144
+K:F
+V:1
+%%staves {1 2}
+%%MIDI program 0
+A,2 | D2D3E | [D2F2] [D3F3] [EG] | [F2A2] [F3A3] [E^G] | [F4A4] D2 |
+[G2B2] [G3B3] [Ac] | [B2d2] [A2c2] [G2B2] | d2 [F3A3] [EG] | [F6A6] |
+G2G3A |B2A2G2 | D2D3F | A6 |
+A,2 ^C2 E2 | G2 F2E2 | D^CDEFG | [F4A4] D2 | 
+[G2B2] [G3B3] [Ac] | [B2d2] [A2c2] [G2B2] | d2 [F3A3] [E^G] | [F6A6] |
+A,2 ^C2 E2 | G2 F2 E2 | D3 A,FE | D4 A2 |
+d^cdcde | fefefg | a^gabag | a4 d2 |
+bababc' | d'^c'd'c'd'b | a^gabag | a4 a2 |
+g^fgfga | bagfeg | fed^cdf | a6 | 
+A2 ^c2 e2 | g2 f2 e2 | d^cdefg | [f4a4] d2 |
+bababc' | d'^c'd'c'd'b | a^gabag | [f4a4] a2 |
+A2 ^c2 e2 | g2 f2 e2 | d3 Afe | d4 :|
+V:2
+%%MIDI program 0
+z2 | D,A,F,A,F,A, | D,A,F,A,F,A, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+D,B,G,B,G,B, | D,B,G,B,G,B, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+B,,G,D,G,D,G, | B,,G,D,G,D,G, | A,,F,D,F,D,F, | A,,F,D,F,D,F, |
+A,,G,E,G,E,G, | A,,G,=B,,G,^C,G, | D,A,F,A,F,A, | D,A,F,A,F,A, |
+D,B,G,B,G,B, | D,B,G,B,G,B, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+A,,G,E,G,E,G, | A,,G,=B,,G,^C,G, | D,A,F,2 z2 | D,A,F,A,F,A, |
+%second page
+D,A,F,A,F,A, | D,A,F,A,F,A, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+D,B,G,B,G,B, | D,B,G,B,G,B, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+B,,G,D,G,D,G, | B,,G,D,G,D,G, | A,,F,D,F,D,F, | A,,F,D,F,D,F, | 
+A,,G,E,G,E,G, | A,,G,=B,,G,^C,G, | D,A,F,A,F,A, | D,A,F,A,F,A, |
+D,B,G,B,G,B, | D,B,G,B,G,B, | D,A,F,A,F,A, | D,A,F,A,F,A, | 
+A,,G,E,G,E,G, | A,,G,=B,,G,^C,G, | D,A,F,A,F,A, | D,4 :|
+S:https://www.folktunefinder.com/tunes/45863
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

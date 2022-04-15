@@ -1,0 +1,32 @@
+X:252
+T: Das Kchuehorn
+N: A0297
+O: Europa, Mitteleuropa, Deutschland
+N: Spoerels Liederhandschr. 14. Jh. Cod. 2856 der Hofbibl. zu Wien
+N: fol 187
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/4
+K: F
+FAc2 | fccA | c2
+FA | c2fc | cAFz
+fcAF | ABc2
+fccA | FAF2
+F2FA2A | c2cc2
+c | f2fc2c | c2cA2A | c3z3
+F2FA2A | c2cc2
+c | f2fc2c | c2cA2A | c3z2
+f | f2cc2A | c2cA2F
+A2AB2B | c3z2
+f | f2cc2A | c2cA2A
+F2FA2A | F3z3
+S:https://www.folktunefinder.com/tunes/68798
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

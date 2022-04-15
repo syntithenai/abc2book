@@ -1,0 +1,39 @@
+X:894
+T:Xiraldilla (CT 416)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 416
+M:3/8
+L:1/8
+Q:3/8=88
+K:Cm
+|G2 G|c=Bc|d2 e|d3|c2 _B|ABc|B2 A|G2 z|
+G2 G|c=Bc|d2 e|d3|c2 _B|ABc|B2 A|G2 z|
+|d2 c|=Bcc|_B2 A|G3|d2 c|=Bcc|_B2 A|Gcc|B2 A|G2 ||
+W:Todos quieren a la Lola,
+W:la Lola no quiere a nadie;
+W:el que se casa con Lola,
+W:es el hijo del alcalde.
+W:Ai! Lola,
+W:no me digas que no,
+W:ai! Lola,
+W:que soy el hijo del escribano.
+W:
+S:https://www.folktunefinder.com/tunes/59781
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

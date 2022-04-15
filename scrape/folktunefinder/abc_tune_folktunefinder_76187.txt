@@ -1,0 +1,25 @@
+X:207
+T: Klostergang (3-11), S. 41
+N: P0982
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: yyy]
+M: 2/4
+L: 1/8
+K: F
+F2 | F2F2 | A6B2 | A2Bd | c6
+A2 | G2c2 | B6G2 | G2cB | A6
+F2 | F2F2 | d6d2 | f2d2 | c4A2
+c2 | c2c2 | B4G4 | c2B2 | A6
+S:https://www.folktunefinder.com/tunes/76187
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LOT.abc
+% Rhythm Yyy]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

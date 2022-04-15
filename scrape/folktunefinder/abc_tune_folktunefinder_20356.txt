@@ -1,0 +1,21 @@
+X: 1
+T: Angels We Have Heard on High
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: F
+|: "F"AA "Am"Ac | "C7"c>B "F"A2 \
+| A"C"G "F"Ac | "C7"A>G "F"F2 :|
+|: "F"c2 "D7"d/c/B/A/ | "Gm"B2 "C7"c/B/A/G/ \
+| "F"A2 "Bb"B/A/G/F/ | "C&"G>C C2 \
+| "F"F"C"G "F"A "Bb"B | "F"A2 "C7"G2 :| "F"F4 |]
+S:https://www.folktunefinder.com/tunes/20356
+S:http://trillian.mit.edu/~jc/music/abc/xmas/AngelsWeHaveHeardOnHigh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

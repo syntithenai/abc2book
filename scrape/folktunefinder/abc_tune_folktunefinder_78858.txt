@@ -1,0 +1,29 @@
+X:417
+T: TYROLER LASST UNS STREITEN
+N: E0346
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+R: historisches Lied, Krieg (1809)
+M: 6/8
+L: 1/16
+K: D
+D,F, | A,4A,2A,4A,2 | A,6F,4
+A,2 | G,2F,2G,2E,2F,2G,2 | A,6z4
+D,F, | A,4A,2A,4A,2 | A,4D2F4
+D2 | E4E2C3B,C2 | D6z4
+D,2 | E,4E,2D3B,^G,2 | A,4C2E,4
+E,2 | E,4E,2D3B,^G,2 | A,8z2
+G,2 | F,4F,2G,3F,G,2 | A,4D2F4
+D2 | E4E2C3B,C2 | D6z4
+D,2 | D,4F,2F,4A,2 | A,4D2F4
+D2 | E4E2C3B,C2 | D6z4
+S:https://www.folktunefinder.com/tunes/78858
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, krieg (1809)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

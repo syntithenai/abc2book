@@ -1,0 +1,30 @@
+X:40
+T:A Pinch of Snuff
+C:Trad Irish
+M:4/4
+L:1/8
+K:D
+F2 DF E2 DE | F2 DF EFGE | F2 DF E2 D2 | GABG   EFGE :|
+DFAF   BFAF | DFAF  EFGE | DFAF   BFAF | GABG   EFGE :|
+K:G
+B2 GB A2 GA | B2 GB ABcA | B2 GB A2 G2 | cdec   ABcA :|
+GBdB   eBdB | GBdB  ABcA | GBdB   eBdB | cdec   ABcA :|
+K:A
+c2 Ac B2 AB | c2 Ac BcdB | c2 Ac B2 A2 | defd   BcdB :|
+Acec   fcec | Acec  BcdB | Acec   fcec | defd   BcdB :|
+K:D
+f2 df e2 de | f2 df efge | f2 df e2 d2 | gabg   efge :|
+dfaf   bfaf | dfaf  efge | dfaf   bfaf | gabg   efge :|
+f2 fe d2 dB | A3 F  DFAF | DFAB  =c3 A | GE E2 =cEGE :|
+S:https://www.folktunefinder.com/tunes/66724
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

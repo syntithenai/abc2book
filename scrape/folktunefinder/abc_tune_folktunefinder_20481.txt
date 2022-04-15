@@ -1,0 +1,22 @@
+X:32
+T:a Favourite Strathspey
+O:england
+R:Strathspey
+M:C
+K:D
+A>FDA F>DAF| A>BAF E/E/E E2|\
+A>FDA F>DAF| d>efA F/F/F F2::
+d>ef>d e>cdB| A>FdF E/E/E E2|\
+d>efd e>Bd>B| AFdA F/F/F F2|
+d>efd e>cd>B| A>FdF E/E/E E2|\
+A>FDA F>DAF| d>efA F/F/F F2:|
+S:https://www.folktunefinder.com/tunes/20481
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

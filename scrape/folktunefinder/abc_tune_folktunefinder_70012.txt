@@ -1,0 +1,25 @@
+X:452
+T: MEIN LIEBCHEN SIEHST DU DAS GAERTLEIN DORT
+N: F0850
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade
+M: 6/8
+L: 1/16
+K: F
+C2 | F4C2B,2C2D2 | D4C2C2z2G,2 | A,6z4
+C2 | F4C2B,2C2D2 | D4C2C2z2G,2 | A,6z4
+A,2 | A,4G,2B,2A,2D2 | C2F2D2C4
+A,2 | A,2A,2G,2B,2A,2D2 | C2GFEDC2z2
+_E2 | D2z2C2B,2z2C2 | A,6z4
+S:https://www.folktunefinder.com/tunes/70012
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

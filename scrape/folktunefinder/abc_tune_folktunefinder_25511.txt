@@ -1,0 +1,27 @@
+X:5059
+T:Peeler's Jacket
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F|:~G2 BG DGBG|FGAB ~c2Bc|dggf ~d2eg|fdcA BGAF|\
+~G2 BG DGBG|FGAB ~c2Bc|dggf ~d2eg|fdcA BG G2:|\
+gagf ~d2 ef|gfga bgaf|gagf ~d2 eg|fdcA BGG2|\
+gagf ~d2 ef|gfga bgaf|gbag fdeg|1 fdcA BGG2:|2 fdcA BcAF:|
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/25511
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

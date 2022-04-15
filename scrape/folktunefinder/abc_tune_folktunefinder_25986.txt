@@ -1,0 +1,28 @@
+X:5534
+T:Rezvost'
+O:england
+H:H. Tantsyur
+S:A. Humenyuk
+R:Polka
+Q:144
+M:2/4
+L:1/8
+A:village of Zyatkivtsi, Vinnyts'kiy
+K:C
+affd | cAAc | _BGGd | cAAc | \
+affd | cAAc | ddee | fffz ::
+eegg | g/2g/2g/2g/2 ge | \
+g/2g/2g/2g/2 ge | g/2g/2g/2g/2 ge | \
+eegg | g/2g/2g/2g/2 ge | g/2g/2g/2g/2 gB | cecz :|
+S:https://www.folktunefinder.com/tunes/25986
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

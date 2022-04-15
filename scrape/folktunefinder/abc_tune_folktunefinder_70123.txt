@@ -1,0 +1,34 @@
+X:563
+T: UNSRE BUBEN SIND WILD
+N: F1117
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied; Jodler
+M: 3/4
+L: 1/8
+K: Bb
+FE | DFd3c | BDF3
+B | ACE3A | BDF3
+E | DFd3c | BDF3
+B | ACEFAc | B2z2
+dd | cBG3=E | FAc3
+c | dcBC=EG | FAf3
+d | cBG3=E | FAc3
+c | dcBC=EG | F2z2
+FE | DFd3c | BDF3
+B | ACE3A | BDF3
+E | DFd3c | BDF2
+f2 | gfeFAc | B2z2
+f2 | gfeFc2 | edBDF2
+F2eFc2 | F2dFB2
+gfeFc2 | edBDF2
+F2eFcF | B2z2
+S:https://www.folktunefinder.com/tunes/70123
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied; jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

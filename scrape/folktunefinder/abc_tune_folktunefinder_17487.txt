@@ -1,0 +1,24 @@
+X:1
+T: the Kerry Man Reel
+T: the Green Fields of Rossbeigh
+S:Michael Hogan <mhogan@bellatlantic.NET>
+R:reel
+M:4/4
+L:1/8
+K:EDor
+|: BE~E2 BAFB | ABde fded | BE~E2 BAFA | BGAF E2 FA |
+| ~B3d BAFB | ABde fded | BE~E2 BAFA | BGAF E2 FA :|
+|: (3Bcd ef g2 fe | dB~B2 dBAd | (3Bcd ef g2 fe | dBAF E4 |
+| fg~g2 agfe | gf~f2 gfed | BABd efde | ddBA FEE2 :|
+S:https://www.folktunefinder.com/tunes/17487
+S:http://trillian.mit.edu/~jc/music/abc/reel/KerryManR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/KerryManR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

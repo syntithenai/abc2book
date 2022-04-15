@@ -1,0 +1,45 @@
+X:23
+T:Mrs. Small of Dirnanean's Jigg
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 4/3/04
+N:Petrie's First Collection, page 11
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:D
+[V:1] A,|D2D DCD|E2E EFG|FGA ABc|dec dAF|
+[V:2] z |dfa a2A|c3  A3 |d3  g3 |fga d2z|
+[V:1] D2D TDCD|E2E EFG|FGA Bcd|edc [F2A2d2]:|
+[V:2] dfa  a2A|c3  A3 |d2f g2g|a2A  d2     :|
+[V:1] A|d2d def|B2B  B2c|dcB AGF|EFD  CB,A,|
+[V:2] z|dfa d3 |gbd' g3 |f2g a2d|g2^g a2=g |
+[V:1] d2d def|B2B Bcd|ege TcBc|d3-d2c |
+[V:2] f3  d3 |g2G g2f|e3   A3 |dfa d2z|
+[V:1] d2d def|B2B  Bcd|dcB AGF|EFD  CB,A,|
+[V:2] dfa d3 |gbd' g3 |f2g a2d|g2^g a2z  |
+[V:1] B,3 C3 |D2E F2G|ABG FGE|D2D D2|]
+[V:2] GBG AcA|B2c d2e|f2g a2A|dAF D2|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72050
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MrsSmallOfDirnaneansJigg.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Mrs_Small_of_Dirnaneans_Jigg.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

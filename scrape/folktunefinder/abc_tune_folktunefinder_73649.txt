@@ -1,0 +1,26 @@
+X:490
+T: The Downhill Of Life
+B: O'Neill's 490
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: Collected by "F.O'Neill"
+M: 6/8
+L: 1/8
+K:G
+((3d/e/f) \
+| gGD G>AB | def g2f/e/ | ded BGA | E3 F2((3d/e/f) |
+| gGD G>AB | def g2f/e/ | ded BGA | G3 G2 ||
+|| d \
+| dBG gfg | afd g2b/a/ | gfe dBG | A3- A2 B/c/ |
+| dBG gfg | afd g2f/e/ | dBG DEF | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/73649
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

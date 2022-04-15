@@ -1,0 +1,22 @@
+X: 20
+T:Middling, Thank You
+M:6/8
+L:1/8
+Q:1/4=119
+K:G % 1 sharps
+dcB d2 B|{Bc}d2 B gfe|dcB d2 B|{AB}c2 A {G}FED|!
+dcB d2 B|{Bc}d2 B gfe|d-cB c2 A|{G}FEF G3 :| !
+|: gag f2 g|e-fe dBG|gag f2 g|afd g3|!
+gag f2 g|e-fe dBG|ABA e2 e|dcA G3:||
+% <A name="D1X021">
+S:https://www.folktunefinder.com/tunes/53888
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

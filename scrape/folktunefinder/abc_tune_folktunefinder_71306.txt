@@ -1,0 +1,24 @@
+X:277
+%%topmargin 3cm
+T:The Duke of Gordon's Birthday
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+B | {/F}G>D{/F}G>B {/F}G>D{/F}GB{/f}g>B A/A/A {cB}(A>B) | {/F}G>D{/F}G>B {/F}G>D{/F}G>B | [1 {^c}d>cTB>A G/G/G G :|
+[2 D>CB,>A, G,/G,/G, G, |: [Bd] | ~(g>a)b>g d/d/d Td2 | {/f}~(g>a)b>g e/e/e (Te>f) | {/f}gGA>B G/G/G TG H:|
+S:https://www.folktunefinder.com/tunes/71306
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Duke_of_Gordons_Birthday.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0277.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

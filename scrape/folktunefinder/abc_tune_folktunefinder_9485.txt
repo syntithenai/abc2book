@@ -1,0 +1,434 @@
+X: 1
+T: Scand Pols(ka)s p.1
+K: C
+%
+[K:D]\
+[L:1/16]\
+[|"Alv\'en Polska"(A | d4) (AB)AG F3E | D3(g Tf4) (e4 |]\
+[K:D]\
+[L:1/8]\
+[|"Amerikaturen"a>a (3faf d>d | g>g (3aga b>b |]\
+[K:Dm]\
+[L:1/8]\
+[|"\"Appelbost\"amma polska"f>e d^c d>f | e>^c A4 |  A>G FE D>^C |]\
+[K:C]\
+[L:1/8]\
+[|"Bondpolska fr\aan \"Overh\"arde"G>E C>E G>c | cB B3 B | B>A FA c>A |]
+P:
+[K:C]\
+[L:1/8]\
+[|"Bondpolska fr\aan \"Overh\"arde"G>E C>E G>c | cB B3 B | B>A FA c>A |]\
+[K:A]\
+[L:1/8]\
+[|"Balkanpolskan"B^G2 E/2G/2 (3AGA|B^G2 E/2G/2 (3AGA|]\
+[K:F]\
+[L:1/16]\
+[|"Barbro Pers brudpolska"(c3f) a4 g4- | (3:2:5g4e2f2e2c2 d4 | (3d4 B4 d4 f3e |]\
+[K:F]\
+[L:1/16]\
+[|"Barbro Pers brudpolska"(c3f) a4 g4- | (3:2:5g4(e2f2)e2c2 d4 | (3d4 B4 d4 f3e |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Polska fr\aan Boda"A- | A2 (D>F) A>d | (fg) a2 f>f |]\
+[K:D]\
+[L:1/8]\
+[|"Polska fr\aan Boda"(A | f2) fe/f/ g>e | (ed) (d>F) A>d |]\
+[K:DDor]\
+[L:1/8]\
+[|"Polska fr\aan Boda"(A | d)>(^c A2) (~c>e | d)>(e ~f2) (a2 | Tg)>(e ~f2) e>d |]\
+[K:G]\
+[L:1/16]\
+[|"Polska i G"g2(3agf g2b2 abag | fgfe dedc BcBA |]
+P:
+[K:Dm]\
+[L:1/16]\
+[|"Bingsj\"opolska"[A2D2]a2 (5aba^ga baga | [A2D2]a2 (5aba^ga baga |]\
+[K:A]\
+[L:1/16]\
+[|"Bingsj\"o polska i A"A,2CE A2z2 c4 | e2a2 f2ed c4 |]\
+[K:Dm]\
+[L:1/16]\
+[|"Polska efter Pekkos Olof Hansson"DEFG A4 d4 | A2BA G2AG F2AF |]\
+[K:G]\
+[L:1/16]\
+[|"Polska i G"g2(3agf g2b2 abag | fgfe dedc BcBA |]
+P:
+[K:Am]\
+[L:1/16]\
+[|"Polska i A"a^g | a4 e4 c3d/c/ | BcdB [c4E4] [B3E3]c/B/ |]\
+[K:A]\
+[L:1/16]\
+[|"Bingsj\"opolska #1"(a2 | ga)ba f2af d2f2 | e2ae c2ec A2c2 |]\
+[K:Dm]\
+[L:1/16]\
+[|"Bingsj\"opolska #1"[D2A2]a2 ~a2^ga baga | [D2A2]a2 ~a2^ga baga |]\
+[K:A]\
+[L:1/16]\
+[|"Bingsj\"opolska #1"A2Ac e-ce-g b2a2 | a-baf d2f-a g2b2 |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Bingsj\"opolska #2"A2- | A3A d2d2 fafd | cdec A6 A2 |]\
+[K:G]\
+[L:1/8]\
+[|"Bingsj\"opolska #2"D>C | B,G,/B,/ DB,/D/ GG | BG/B/ dB/d/ g>a |]\
+[K:D]\
+[L:1/16]\
+[|"Bingsj\"opolska #3"A2 | d2dA F2FD E4 | D3F A2d2 f2a2 |]\
+[K:Dm]\
+[L:1/16]\
+[|"Bingsj\"opolska #3"D2FA d2eg ~f2ed | ^c2Ac e2g2 ~g2fe |]
+P:
+[K:Gm]\
+[L:1/16]\
+[|"Bingsj\"opolska #3"G,2B,D G2DG B2A2 | D2^FA c2=Bc e2d2 |]\
+[K:D]\
+[L:1/16]\
+[|"Bingsj\"o storpolska"A2- | A3A d2d2 fafd | cdec A6 A2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Bj\"orsk\"ottens polska"E>^G A>G E>G | (3A^GA c2 A2 |]\
+[K:D]\
+[L:1/16]\
+[|"Blekingpolskan"d2fd A2A2 BA^GA | d2fd A2A2 TB2A2 |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Blekingpolskan"d2fd A2A2 BA^GA | d2fd A2A2 TB2A2 |]\
+[K:D]\
+[L:1/8]\
+[|"J\"assp\^ods polska"f2 (~f>e) d>c | B2 (B/c/)B/A/ G>G |]\
+[K:Dm]\
+[L:1/8]\
+[|"Trollpolska fr\aan Boda"A,2 | D2 DE F>G | A>A ^c2 d>e |]\
+[K:D]\
+[L:1/8]\
+[|"Bodapolska"A2 a>g f>e | d2 A3 F/G/ | AB/c/ d>c B>A |]
+P:
+[K:D]\
+[L:1/8]\
+[|"J\"assp\^ods polska"f2 (~f>e) d>c | B2 (B/c/)B/A/ G>G |]\
+[K:Dm]\
+[L:1/8]\
+[|"Trollpolska fr\aan Boda"A,2 | D2 DE F>G | A>A ^c2 d>e |]\
+[K:D]\
+[L:1/8]\
+[|"Bodapolska"A2 a>g f>e | d2 A3 F/G/ | AB/c/ d>c B>A |]\
+[K:G]\
+[L:1/8]\
+[|"Bondpolska efter Viksta-Lasse"(B | d)<G B2 B(A/B/) | (c<F) A2>>(c2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Bron \"over Sveg"D- | D>F A>F (3DEF | (3G2B2G2 E2 |]\
+[K:Dm]\
+[L:1/8]\
+[|"Bunka Lina Polska"A>^c- d>e- f/e/f/g/ | a>b (3agb a>g |]\
+[K:D]\
+[L:1/8]\
+[|"Polska efter Carl Gustaf Holmberg"A | d2 FG E>F | D>F EG F2 |]\
+[K:Gm]\
+[L:1/8]\
+[|"Dans p\aa Kolbotten"D>d (c>B) (A>G) | GA/B/ (c/B/)A/G/ ^FD |]
+P:
+[K:A]\
+[L:1/16]\
+[|"Pols etter Edvard Langemarks"A,4 (3CA,C E4 | A4 (3cAc e4 |1,3 dBd cAc B3A |]\
+[K:G]\
+[L:1/8]\
+[|"Ekeby Polska"D>G B2 B2 | G>B d2- d2 | g>f ed cB |]\
+[K:G]\
+[L:/1/8]\
+[|"Pols etter Elvea-Karan"d | g<d g2 g>b | g<d g2 g>b |]\
+[K:Gm]\
+[L:1/16]\
+[|""En sup till, det behver jag" - vispolska efter August Strmberg"G4 ^F4 G4 | A3G ^F2G2 A4 | B3d cB2 A2G2 |]
+P:
+[K:D=B^c]\
+[L:1/8]\
+[|"Farmors brudpolska efter Susanne"A2 (A>c) A>c | A2 (A>c) A>c | e2 (g/a/)g/e/ f>g |]\
+[K:D=B^c]\
+[L:1/8]\
+[|"Farmors brudpolska efter Susanne"A2 (A>c) A>c | A2 (A>c) A>c | e2 (g/a/)g/e/ f>g |]\
+[K:D]\
+[L:1/8]\
+[|"Finnleken"d>f a2 a>b | a>g f2 d>d | e>f g>f g>a |]\
+[K:G]\
+[L:1/16]\
+[|"F\"ollingers sista komposition"G,2(B, D2)(G B2)d | c(Ac) B(AG) A(GF) |]
+P:
+[K:G]\
+[L:1/16]\
+[|"Fllingers sista komposition"G,2(B, D2)(G B2)d | c(Ac) B(AG) A(GF) |]\
+[K:Dm]\
+[L:1/8]\
+[|"F\"orr bl\aast p\aa horn"F2 E>F E>D | ^CE D4 | f>g a2 fa |]\
+[K:Dm]\
+[L:1/16]\
+[|"F\"orr bl\aast p\aa horn"F4 E3F (EFED) | (^C2E2) D8 | f3g a4 (f2a2) |]\
+[K:A]\
+[L:1/8]\
+[|"Funesdalingen"A2 Ac A>c | e2 ae c>c | ~cB/c/ dB G>B |]
+P:
+[K:Dm]\
+[L:1/16]\
+[|"Gammal Polska fran F\"ollinge, J\"amtland"a(ba) g(ag) f2e | gag fgf e2^c |]\
+[K:Dm]\
+[L:1/16]\
+[|"Gammal Polska frn Fllinge, Jmtland"a(ba) g(ag) f2e | gag fgf e2^c \ |]\
+[K:Dm]\
+[L:1/16]\
+[|"Gammal Polska frn Fllinge, Jmtland"a(ba) g(ag) f2e | gag fgf e2^c \ |]\
+[K:D]\
+[L:1/16]\
+[|"Polska efter G Lungstr\"om"A2d2 FDFA dcdf | e2c2 Acec Aceg |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Gagnsf\"ora"(G | F)(E D)(E F)(G | A)d f2 (fe/f/) |]\
+[K:D]\
+[L:1/8]\
+[|"Gagnsf\"ora"(G | F)(E D)(E F)(G | A)d f2 (fe/f/) |]\
+[K:D]\
+[L:1/8]\
+[|"Bodapolska ("generic")"F>(A A)>F D>F | G>(B B)>G E>B |]\
+[K:D]\
+[L:1/8]\
+[|"Hambo ("generic")"F2 (A>F) D>F | G2 (B>G) E>B | c2 (e>c) A>c |]
+P:
+[K:D]\
+[L:1/8]\
+[|"R\orospols ("generic")"F2 (A<F) D>(F | G2) (B<G) E>(B | c2) (e<c) A>(c |]\
+[K:D]\
+[L:1/8]\
+[|"Vals ("generic")"F2 (AF) DF | G2 (BG) EB | c2 (ec) Ac |]\
+[K:Dm]\
+[L:1/16]\
+[|"Gjetarpols"A2 | d4 d3^c d3e | f4 (3fdf (3e^ce |]\
+[K:G]\
+[L:1/16]\
+[|"Godingen"(D2 | G2)Bd g4 b3a | g2eg (f2d2) B2G2 |]
+P:
+[K:Gm]\
+[L:1/16]\
+[|"Gottlands polska"g2  | g2^fg d4 b3a | a2g2 g^faf d4 |]\
+[K:Am]\
+[L:1/16]\
+[|"Gryningspolskan"A,4 A,B,CD E2C2 | B,4 B,CDE DCB,C |]\
+[K:D]\
+[L:1/8]\
+[|"Gubbapolska efter Johan Fredrik Gr\"onkvist"A2 d>e d2 | d>c A>B =c>d | e2 e>f e>d |]\
+[K:G]\
+[L:1/8]\
+[|"Gubben och gumman"G2 (.B.B) d>G | F2 (.A.A) c>A | G2 (Bd) c>A |]
+P:
+[K:F]\
+[L:1/8]\
+[|"H\aalln\"aspolskan"C | F>A c2 A>F | E>G c2 c2 |1,3 E>G c2 G>A |]\
+[K:Dm]\
+[L:1/16]\
+[|"Hambo med bakmes fr\aan Hede"f2gf e4 d4 | ^c2Ac d4 (e2g2) |]\
+[K:G]\
+[L:1/8]\
+[|"Hamburska fr\aan Kumla"D | G>A B2 G>B | BA A2- A>B |]\
+[K:G]\
+[L:1/8]\
+[|"Hamburska fr\aan N\"arke"D | G>B d2 d2 | e>f g2 ~f2 | e>e d2 A>B |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Bodapolska fran Hede"a>(f- f>g) e>f | d>A- A>f e2 |]\
+[K:Gm]\
+[L:1/16]\
+[|"Helsinge polska"G,2B,D G2DG B2A2 | D2^FA c2=Bc e2d2 |]\
+[K:Am]\
+[L:1/16]\
+[|"HEM FR\AAN GESUNDA efter Olov"[E4C4] ([E3A,3]E) [A3E3]c | (B^G3) (E3G) B3d |]\
+[K:A]\
+[L:1/8]\
+[|"Hins Polska"c2 A2 E2 | c2 B>d c2 | c2 A2 E2 | c2 B>d c2 |]
+P:
+[K:A]\
+[L:1/16]\
+[|"Hins polska"c4 A4 E4|c2uc2 A2uA2 E2uE2| c4 A4 E4|]\
+[K:A]\
+[L:1/16]\
+[|"Hins polska"e4 A4 D4|e2ue2 A2uA2 D2uD2| e4 A4 D4|]\
+[K:F]\
+[L:1/16]\
+[|"Hj\"ort Anders' 60 years birthday polska"A2B2 | cdcB A2B2 c4 | cdcB A2c2 f4 |]\
+[K:F]\
+[L:1/16]\
+[|"Hj\"ort Anders' 60 years birthday polska"c2cB A2AB c2cd | c2cB A2c2 f4 |]
+P:
+[K:F]\
+[L:1/16]\
+[|"Hj\"ort Anders' 60 years birthday polska"A2B2  | cdcB A2B2 c4 | cdcB A2c2 f4 |]\
+[K:G]\
+[L:1/8]\
+[|"Hoppa K\^ona"G>B d3 c | B>A GB D2 |1,3 c>B A2 e2 |]\
+[K:Am]\
+[L:1/16]\
+[|"Huggaremamma"E2 | c2Ac B2^GB A2=g2 | ^fe^df e2e2 B3B |]\
+[K:A]\
+[L:1/16]\
+[|"Hus om Byggnads polska"(g2 | a4) efed cdcB | ABAG G2A2 A4 |]
+P:
+[K:Gm]\
+[L:1/16]\
+[|"Innerst\aafrid'n, senpolska fr\aan J\"amtland"g4 d6 c2 | e3d d2c2 c2A2 | BABc d4 B2cB |]\
+[K:Gm]\
+[L:1/16]\
+[|"Innerst\aafrid'n, senpolska fr\aan J\"amtland"g4 d6 c2 | e3d d2c2 c2A2 | BABc d4 B2cB |]\
+[K:Gm]\
+[L:1/16]\
+[|"Innerst\aafrid'n, senpolska fr\aan J\"amtland"g4 d6 c2 | e3d d2c2 c2A2 | BABc d4 B2cB |]\
+[K:Gm]\
+[L:1/16]\
+[|"Innerst\aafrid'n, senpolska fr\aan J\"amtland"g4 d6 c2 | e3d d2c2 c2A2 | BABc d4 B2cB |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Jag lyfter \"ogat mot himmelen"(A | d>f) e2 d>c | BG A2- A>A |]\
+[K:D]\
+[L:1/8]\
+[|"J\"amtlandsexpressen"A>-f f-d e>c | (3de-f (3fe-d (3ef-^g |]\
+[K:D]\
+[L:1/8]\
+[|"Jann-Mor Polska"A2 d2 f>e | c2 dg f>e | d2 fa g>e |]\
+[K:DDor]\
+[L:1/8]\
+[|"Je skull f\^ol ut \aa fria"A- | A>d- d-^c d>e | f>a- a-g e2 |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Johan Skators polska"E2 A2 c2 | ef e<d c2 | d2 BA B>d |]\
+[K:G]\
+[L:1/16]\
+[|"Julpolska av Matts Wallman"D2G- G2A B2c | d2d- dBd g3 |]\
+[K:G]\
+[L:1/8]\
+[|"Kalla K\aarar"D>C | B,G,/B,/ DB,/D/ GG | BG/B/ dB/d/ g>a |]\
+[K:DDorian]\
+[L:1/8]\
+[|"Kan f\"orundra"A- | A>^c d>e f>e | g>f df e2 |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Kari-Leken"e>e c2 d2 | ec e2 a2 | gf ed Bc |]\
+[K:A]\
+[L:1/8]\
+[|"Kari-Leken"e>e c2 d2 | ec e2 a2 | gf ed Bc |]\
+[K:A]\
+[L:1/8]\
+[|"Karis-Leken"e>d c2 d2 | e>c A2 a2 |1,3 g>f ed B>c |]\
+[K:Am]\
+[L:1/16]\
+[|"Klimpen"a2^g2 a6 e2 | (fe)fa (ga)gf (ef)e^c |]
+P:
+[K:Am]\
+[L:1/16]\
+[|"Koiviston polska"efed cdcB A2c2 | BcBA ^GAG^F E2FG |]\
+[K:Dm]\
+[L:1/16]\
+[|"Koiviston polska"ABAG FGFE D2F2 | EFED ^CDC=B, A,2B,C |]\
+[K:Em]\
+[L:1/16]\
+[|"Koiviston polska"BcBA GAGF E2G2 | FGFE ^DED^C B,2CD |]\
+[K:Gm]\
+[L:1/16]\
+[|"Koiviston polska"dedc BcBA G2B2 | ABAG ^FGF=E D2EF |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Senpolska fran J\"amtland"A | d>^c Ac de | f(e/d/) (^c/d/)e/g/ f2 |]\
+[K:G]\
+[L:1/16]\
+[|"Kyrkpolska"[D3G,3]e d4 B4 | ~B2AB c4 A4 | D3f f2e2 d2c2 |]\
+[K:G]\
+[L:1/16]\
+[|"Kyrkpolska"[D3G,3]e d4 B4 | ~B2AB c4 A4 | D3f f2e2 d2c2 |]\
+[K:D]\
+[L:1/16]\
+[|"L\aangbacka-Jans polska"F | A3d f2e2 d3B | B3A ABAF D3F |]
+P:
+[K:GDor]\
+[L:1/16]\
+[|"Lapp-nils' Klarinett-polska"g2 (3^fgf d2 | B2 (3BAG A2- | Ad (3cec (3cec|]\
+[K:A]\
+[L:1/8]\
+[|"Lapp-Nisses polska"E>A A>A A>e | f>e c4 | E>A A>A A>e |]\
+[K:Dm]\
+[L:1/16]\
+[|"Polska fr\aan Lappfj\"ard"D2FA d2eg ~f2ed | ^c2Ac e2g2 ~g2fe |]\
+[K:Am]\
+[L:1/8]\
+[|"Lejdel\aaten fr\aan Norrb\"arke efter Johan Gustafsson"e2 (ec) A>c | B>c B>^G E2 | E2 E^G BG |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Leken hass Krestaffer Troeen (R\orospols)"f2 (3fef g>f | e2 (3ede f2 |]\
+[K:D]\
+[L:1/8]\
+[|"Leken hinnes Karolina Viklund"f>e d2 d>A | ~f>e d2- d>d | e>f g>f g>a |]\
+[K:G]\
+[L:1/8]\
+[|"Linus p\aa Linjen"((3DGB) (B>d) B>G | ((3DGB) (B>d) B>G |]\
+[K:Dm]\
+[L:1/16]\
+[|"M\aalargubbens brudpolska"D2- | (5:4:3MD3zD D4 [f3A3]a | [g2A2](a/g/a/g/) [e2A2](a^f e3)[^ce] |]
+P:
+[K:Dm]\
+[L:1/16]\
+[|"M\aalargubbens brudpolska"D2- | (5:4:3MD3zD D4 [f3A3]a | [g2A2](a/g/a/g/) [e2A2](a^f e3)[^ce] |]\
+[K:Dm]\
+[L:1/16]\
+[|"M\aalargubbens brudpolska"D2- | (5:4:3MD3zD D4 [f3A3]a | [g2A2](a/g/a/g/) [e2A2](a^f e3)[^ce] |]\
+[K:D]\
+[L:1/8]\
+[|"Bodapolska "Maka e du Britta""A2 | d2 df d>A | d2 df d>A |]\
+[K:D]\
+[L:1/8]\
+[|"Bodapolska "Maka e du Britta""A2 | d2 df d>A | d2 df d>A |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Malungslek 1"A2 A>^c d>e | f>e f<g e>g |]\
+[K:Ddor]\
+[L:1/16]\
+[|"Mamsell L\"ov, polska"A2f2 fed^c defg | g2a2 a2A2 A2G2 |]\
+[K:G]\
+[L:1/16]\
+[|"Midsommardr\"om"E2 | B2Ac B2G2 F2E2 | B3^d f2g2 e3e |]\
+[K:G]\
+[L:1/8]\
+[|"M\"olja"D | G>B d3 B | c/d/c/B/ A3 D |]
+P:
+[K:Dm]\
+[L:1/8]\
+[|"Mora polskan"A2 A^G A>^c | d2 d^c d>e |[1,3 f2 fe d^c/d/ |]\
+[K:G]\
+[L:1/8]\
+[|"Polska fr\aan N\aasf\"ora"G>A BD G>B | c>e dc B>A |]\
+[K:A]\
+[L:1/8]\
+[|"Norskleitjen"A2 c>A B>G | A2 c>e a2 | A2 c>A B>G |]\
+[K:D]\
+[L:1/16]\
+[|"Norralapolskan"A2 | d2dA F2FD E4 | D3F A2d2 f2a2 |]
+P:
+S:https://www.folktunefinder.com/tunes/9485
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols_incip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key F
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

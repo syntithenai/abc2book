@@ -1,0 +1,29 @@
+X:91
+T: Melodie eines Waechterliedes
+N: A0106
+O: Europa, Mitteleuropa, Deutschland
+N: Strassb. Hs. No. 121 Bl 45b (14. Jh.)
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: D
+D | G2A | B2B | d2
+=c | B2A | B2A | G2
+G | A2B | B2A | G2
+=F | E2E | G2E | D2
+E | =C2D | E2E | =F2E | D2
+D | G2=c | B2G | G2B | B2A | G2
+D | G2=c | B2G | G2B | B2A | G2
+=F | E2D2 | A2G=F | E2A2 | E3
+S:https://www.folktunefinder.com/tunes/68637
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

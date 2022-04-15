@@ -1,0 +1,20 @@
+X:258
+T:Go To Sea Once More
+M:3/4
+L:1/4
+Q:1/4=150
+K:BDor
+F|\
+F2F|DEF|E2C|(A,B,)C|D2B,|B,2A,|B,2B,|
+D2E|(EF)G|(BA)F|A2E|F2F|E2A|F2D|
+B,2D|(FA)A|(BA)F|A2E|F2F|E2A|F3|D2E|
+FFF|DEF|ECB,|A,B,C|(DB,)B,|B,2A,|B,2||
+S:https://www.folktunefinder.com/tunes/68537
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

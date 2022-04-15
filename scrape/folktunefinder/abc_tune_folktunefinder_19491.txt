@@ -1,0 +1,30 @@
+X: 1
+T: Lord Seaforth
+R: strathspey
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"dB "G"G2- G :|
+g \
+| "C"e/f/g "G"d>g B>g dA "G"B>G "C"~E2 E>g \
+| "C"e/f/g "G"d>g B>g dA "D7"d>B "G"G2- G |]
+g \
+| "C"e<g "G"dA "G"B>G "C"~E2 "D7"E>A \
+| "G"G<D D>E "Em"G>A B<e | "D7"dB "G"G2- G |]
+S:https://www.folktunefinder.com/tunes/19491
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordSeaforth.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LordSeaforthS_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LordSeaforth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordSeaforth.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LordSeaforthS_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:306
+T: WAIB SOLLST HAM GEHN
+N: E0910B
+O: Europa, Mitteleuropa, Oesterreich
+R: Ehestands - Lied
+M: 2/4
+L: 1/16
+K: G
+ | D4D2D2 | D4D2D2 | E4D2^C2 | D6z2
+d4BG | F4AB | c4AF | G4
+Bc | d4BG | F4AB | c4AF | G4z2
+G2A2B2 | c2d2e2 | d4f2 | g4z2
+G2A2B2 | c2d2e2 | d4F2 | G4z2
+S:https://www.folktunefinder.com/tunes/76791
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Ehestands - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

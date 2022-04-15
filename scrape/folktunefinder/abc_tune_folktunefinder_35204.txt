@@ -1,0 +1,28 @@
+X: 7987
+T:V\aa{}vinden Friskar (the spring breeze freshens) (Variant )
+R:Polska
+O:Sweden
+M:3/4
+A:Dalarna
+K:Gm
+D|\
+(3:2:3G2G2A2 B>c|(3:2:4cdd3c A>A|\
+B2 {Bc}BA G>F|G2 D3D|\
+(3:2:3G2G2A2 B>c| (3:2:4cdd3c A>A|
+B2 {Bc}BA G>^F| G2 G3 :: \
+B/c/|\
+(3:2:3d2d2=e2 fg/f/| (3:2:3d2d3c A>A|
+B2 {Bc}BA B>c | (3:2:4cdc2B2 AB/A/|\
+(3:2:3G2G2A2 B>c|{c}d2 B3B|\
+(3ABc A>^F D>F| G2 G3 :|
+S:https://www.folktunefinder.com/tunes/35204
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

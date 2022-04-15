@@ -1,0 +1,29 @@
+X:3013
+T:Cotillion, The
+T:Chain Cotillion
+R:Rigaudon
+C:Trad.
+O:France
+M:2/2
+L:1/8
+Q:1/2=80
+K:G
+|:"G"G4 "G"d4|"G"B2 AB "G"G2 AB|"C"c2 B2 "G"A2 G2|"Bm"F2 EF "G"D3 D|
+"Em"E4 "Bm"F4|"G"GFGA "G".G2 d2|("C"cB)AG ("G"BA)GF|1 "G"G6 z2:|2 "G"G6 d2|:
+"G"dedc "G".B2 d2|"G"dedc "G".B2 d2|"Em"e2 d2 "Em"e2 f2|"G"g4 "Bm"d2 ef|
+"Em"g2 fe "G"d2 cB|"C"e2 dc "G"B2 AB|"C"c2 B2 "G"A2 G2|"Bm"F2 EF "G"D3 D|
+"Em"E4 "Bm"F4|"G"GFGA "G"G2 d2|("C"cB)AG ("G"BA)GF|[1 "G"G6 d2:|[2 "G"G6 d2|:
+"G"gfga "G"g2 d2|"G"g6 d2|"G"Bc .d2 "G"Bc .d2|"G"BcBA "G"G2 d2|
+"G"gfga "G"g2 d2|"G"g6 d2|"G"Bc .d2 "G"Bc .d2|[1 "G"B6 d2:|[2 "G"B6 B2|:
+"G"B2 .A2 "Am"A2 Bc|"G"d6 g2|"G".d2 .d2 "G"d2 cB|"D"AGAB "D"A2 GA|
+"G"BcBA "G"GABc|"G"dcde "G"d2 g2|"G"B2 g2 "G"GABA|1 "G"G6 B2:|2 "G"G6 z2|]
+S:https://www.folktunefinder.com/tunes/51155
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Rigaudon
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Inverquharity Castle
+C: Angus Cameron
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+C | "F"F3G Ac3 "Gm"B3G d4  | "F"c3f (3A2G2F2 "C7"EC3 C3B, | "F"A,3C F3A "Gm"B,3D G3B |  "F"A3c  "C7"GABc "F"AF3 F3 :|
+d | "F"cf3 a3f     c3f A3c | "Gm"Bd3 G3B     "C7"E3G C3d  | "F"cf3  a3f     c3f  A3c | "Bb"defd "C7"e3g  "F"af3 f3 ||
+d | "F"cf3 a3f     c3f A3c | "Gm"Bd3 G3B     "C7"E3G C3B, | "F"A,3C F3A "Gm"B,3D G3B |  "F"A3c  "C7"GABc "F"AF3 F3 |]
+S:https://www.folktunefinder.com/tunes/19409
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/InverquharityCastle_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/InverquharityCastle_F.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

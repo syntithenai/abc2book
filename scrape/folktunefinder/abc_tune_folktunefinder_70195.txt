@@ -1,0 +1,23 @@
+X:65
+T: Lef Gefuodesch, S. 32f
+N: L0025
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: ]
+M: 3/4
+L: 1/8
+K: G
+dc | B2G2Bc | d2d2GB | A2AFGE | D2z2
+dc | B2G2Bc | f2f2GB | A2AFGE | D2z2
+FG | A2A2BG | A2A2Bc | d2d2cB | A2z2
+BG | d2d2BG | d2d2GA | B2B2AF | G4
+S:https://www.folktunefinder.com/tunes/70195
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

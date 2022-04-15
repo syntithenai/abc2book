@@ -1,0 +1,28 @@
+X: 2
+T: The Kerry Dancing
+O: Trad
+R: jig, air
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: G
+%%staffsep 35
+[|"G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "A(m)"A2E "D"F3 \
+| "G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "D7"A2G "G"G3 |
+| "D"d2e d2e | "G"d2e d2e | "D"d2e f>ed | "E7"e2B "A7"^c3 \
+| "D"d2e d2e | "G"d2e "(Gm)"d2e | "D"d2e faf | "A7"e2d "D"d3 |
+| "C"g2e =c>de | "Bm"f2d B>cd | "Am"e2E c2B | "D7"{B}A3- A3 \
+| "G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "A(m)"A2E "D"F3 |
+| "G"G2A B>AG | "C"c2e "G"d2B |1 "Em"g2B B>AG | "D7"A2G "G"G3 \
+:|2 "G"g2B "Em"B>cd | "A7"e3"D7"f3 | "G"{fag}Hg6 |]
+S:https://www.folktunefinder.com/tunes/12789
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/KerryDancing.abc
+% Rhythm Jig, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

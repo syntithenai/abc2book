@@ -1,0 +1,37 @@
+X: 8
+T:Indian Queen,The. JMP.008
+T:Quick Step London[derry],A. JMP.008
+M:2/4
+L:1/8
+Q:300
+C:"11..Quickstep..Londonderry"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:John Miller his Book - written at side of page
+N:Key given as G major but that feels very wrong.
+N:%1 - correction made here in MS - bar line is between
+N:f and b and next bar squeezed in
+N:2 - bar almost illegible
+H:1799
+Z:vmp.C. Graebe
+K:D major
+"See note re key"DDDE | FEFA | BABd | ABAf  | eddf |! 
+eddA | Bd (c/B/)(A/G/) |F3 E | DDDE | FEFA |!
+ BABd | ABAf  | eddf | eddA | Bdce | d2"cr"d :|!
+|:a/f/ | ddcd | ef/g/ fa/f/ | ddcd | ef/g/ f2 | "1"ffb2 |!
+ ge a2 |fd (d/c/)(d/f/) | (e/d/)(c/B/) (A/G/)(F/E/) | DDDE | FEFA |! 
+"2"BABd | ABAf | eddf | eddA | Bdce | d2"cr"d :|]
+S:https://www.folktunefinder.com/tunes/1945
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

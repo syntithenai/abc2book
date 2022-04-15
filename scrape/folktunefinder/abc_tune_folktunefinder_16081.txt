@@ -1,0 +1,25 @@
+X: 1
+T:Egans's Polka
+M:2/4
+L:1/8
+R:Irish polka
+Z:Gianni Cunich g.cunich:tiscalinet.it tradtunes 2001-05-15
+K:D
+fA BA | fA BA | d2 e>f | ed BA |
+fA BA | fA BA | d2 e>f | ed d2 :|
+fa fe | ed BA | d2 e>f | ed BA |
+fa fe | ed BA | d2 e>f | ed d2 :|
+S:https://www.folktunefinder.com/tunes/16081
+S:http://trillian.mit.edu/~jc/music/abc/polka/EganssPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/EganssPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/EganssPolka_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/polka/EganssPolka_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tradtunes/EganssPolka_1.abc
+% Rhythm Irish polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

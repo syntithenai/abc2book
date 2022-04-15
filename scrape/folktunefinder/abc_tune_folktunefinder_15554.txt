@@ -1,0 +1,27 @@
+X: 1
+T: Maggie in the Wood
+T: the Piper's Cave
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 4/4
+L: 1/4
+K: A
+[| "A"AE A>B | "F#m"cf "D"f2 | "A"ec "F#m"c/B/A/B/ | "Bm"cB "E7"B2 \
+| "A"AE A>B | "F#m"cf "D"f2 | "A"ec "E7"Bc/B/ | "A"A3 |]
+[| "A"a>g fe | "D"fg a2 | "A"ec "F#m"c/B/A/B/ | "Bm"cB "E7"B2 \
+| "A"a>g fe | "D"fg a2 | "A"ec "E7"Bc/B/ | "A"A3 |]
+S:https://www.folktunefinder.com/tunes/15554
+S:http://trillian.mit.edu/~jc/music/abc/march/MaggieInTheWood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MaggieInTheWood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MaggieInTheWood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/march/MaggieInTheWood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MaggieInTheWood_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march/MaggieInTheWood_A.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

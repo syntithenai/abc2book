@@ -1,0 +1,44 @@
+X: 1
+T: The Basso
+O: Roma/Gypsy
+M: 2/4
+L: 1/16
+K: Am
+A2B2c2 \
+| "Dm"d4 A2d2- | d2d2 c2B2 \
+| "Am"c4 A2c2- | c2c2 B2A2 \
+| "E7"B4 E2B2- | B2B2 A2^G2 \
+| "Am"A4 "E7/B"B4 | "Am/C"c4 "A7/C#"^c4 ||
+|| "Dm"d4 A2d2- | d2d2 c2B2 \
+| "Am"c4 A2c2- | c2c2 B2A2 \
+| "E7"B4 E2B2- | B2B2 c2B2  \
+| "Am"A8- | A2 :|
+|: z6 \
+| "Dm"f4 d4 | a4 g2f2 \
+| "Am"z2e2- e2c2 | e4 d2c2 \
+| "E7"B6 "/F"c2 | "/F#"d4 "/G#"c2B2 \
+| "Am"A4 "E7"B4 | "Am"c4 "A7"^c4 \
+|| "Dm"d4 f4 | a4 g2f2 |
+| "Am"z2e2- e2f2 | e4 e4  \
+| "E7"^g4 "/D"g4 | "/C"^g2e2 "/B"^f2g2 \
+| "Am"a4 | a2 :: a2[e2e4]c2 \
+| "G7"dcBc dcBc | dcBc dcBd |
+| "C"cBAB cBAB | cBAB cBAc \
+| "E7"B6 ef | e2d2 c2d2 \
+| "Am"e2aa a2a2 | a2g2 f2e2 || "G7"dcBc dcBc |
+| dcBc dcBd \
+| "C"cBAB cBAB | cBAB cBAc \
+| "E7"B6 ef | e2d2 c2d2 \
+| "Am"e2aa a2a2 | a2 :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/6732
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Basso.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Basso1V.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

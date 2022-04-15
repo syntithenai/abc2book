@@ -1,0 +1,30 @@
+X: 51
+T:Waltz,3. TLY.050
+M:3/4
+L:1/8
+Q:140
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Waltz
+O:England.
+A:Lancashire.
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+B2B2B2| (dc)(cA) A2|(FA)(Ac) B2|(Bd)(dg) g2|!
+B2B2B2| (dc)(cA) A2|(FA)(Ac) BA| G6:|!
+d4 (Ad)| fdAdfd| ge^cege| fdaf d2|!
+ d4 (Ad)| fdAdfd| ge^cege| d6||!
+(dc)(dc)(dc)|dcBA G2| AGFE D2| GABc d2|!
+ (e^d)(ed)(ed)| (ed)(cB)(AB)| cBAG FA| G6|]
+S:https://www.folktunefinder.com/tunes/37584
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

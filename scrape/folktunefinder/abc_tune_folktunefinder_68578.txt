@@ -1,0 +1,28 @@
+X:32
+T: Herr von Falkenstein
+N: A0029
+O: Europa, Mitteleuropa, Deutschland
+N:  Die Melodie hat zuerst Kretzschmer, Volkslieder II. 1840
+N: No. 38 aus muendlicher Ueberlieferung mitgeteilt, und den Text aus dem
+N: Museum (Deutsches Museum 1785, Leipzig II, 381) uebersetzt.
+R: Romanze, Ballade, Lied
+M: 4/4
+L: 1/8
+K: G
+d2 | d2c_BAAd2 | d2c_BA3
+c | _B3AG2G2 | F4G2
+GG | A2_BBc2A2 | _B2c2d3
+c | _B2A2G2B2 | A4G2
+S:https://www.folktunefinder.com/tunes/68578
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

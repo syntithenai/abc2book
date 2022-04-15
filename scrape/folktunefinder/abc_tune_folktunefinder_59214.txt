@@ -1,0 +1,46 @@
+X:327
+T:El Barqueru (CT 409)
+R:Salea
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Llanes.
+N:Intervienen solamente mujeres, y cantan todas a un tiempo.
+A:Asturies
+O:Llanes
+Z:Cancioneru de Torner 409
+M:3/8
+L:1/8
+Q:3/8=80
+K:Cm
+z/G/
+|c=Bc|(d/e/)(c>d)|efe|dd>G|
+c=Bc|(d/e/)cc/d/|efe|ddz/G/|
+c=Bc|(d/e/)(c>d)|cBA|GG>G|
+c=Bc|(d/e/)c>d|efe|ddz/G/| 
+c=Bc|(d/e/)c>d|cBA|GG ||
+W:Dgame el barquero,
+W:cuerpo garrido:
+W:doncellas honradas
+W:cuntas pasan el ro
+W:
+W:-ntrate en mi barca,
+W:linda morena,
+W:ntrate en mi barca,
+W:linda morenita,
+W:ntrate en mi barca,
+W:sers mi cadena.
+W:
+S:https://www.folktunefinder.com/tunes/59214
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Salea
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

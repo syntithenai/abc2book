@@ -1,0 +1,26 @@
+X: 1
+T: The Gates of Edinburgh
+T: 8 x 32R 3C
+P: The Gates of Edinburgh (2x)
+C: RSCDS Book 15
+C: Arr. T. Traub 4-27-2003
+R: Reel
+K: F
+M: 4/4
+L: 1/8
+F|"F"CDFG A2 f2|cAGF "C"G2 FD|"F"F2 f2 c2 AG|"Bb"F2 D4 "C"G2|"F"A2 Ac A2 Ac|"F"fcAF "C"G2 FD|"F"F2 f2 "C"c2 AG|"Dm"F2 D4 c2||
+"F"fefg fagf|"Gm"gfga "C"gbag|"F"fefg fgaf|"G"gfed "C"c2 fg|"F"agfa "C"gfeg|"Bb"fedc "F"f2 fg|"F"agfe dcAG |"Dm"F2 D6 |]
+S:https://www.folktunefinder.com/tunes/58412
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/GatesOfEdinburghR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GatesOfEdinburghSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/set/GatesOfEdinburghSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/GatesOfEdinburghSet.abc
+S:http://terrytraub.org/abc/GatesOfEdinburghR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

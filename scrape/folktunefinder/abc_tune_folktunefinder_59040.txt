@@ -1,0 +1,37 @@
+X:153
+T:Cantar de Ronda (CT 026)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, dictada por Catalina Muiz Llano, de cincuenta aos, de Llamo, ayuntamiento de Riosa.
+N:Es variante de las sealadas como CT 012 y CT 013.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 026
+M:Llibre
+L:1/8
+Q:1/4=112
+K:C
+G G A2 d2 c2 d2 c2 c4 z2
+G G A2 d2 c2 d2 c c A G A2 A2 G2 A2 G2 G4 z4
+G G A2 d2 c2 d2 c2 c4 z2
+G G A2 d2 c2 d2 c c A G A2 A2 G2 A2 G2 G4
+W:El da que no te veo,
+W:el da que no te veo
+W:tu cara blanca dos veces,
+W:tu cara blanca dos veces,
+W:las horas se me hacen das,
+W:los das se me hacen meses.
+W:
+S:https://www.folktunefinder.com/tunes/59040
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

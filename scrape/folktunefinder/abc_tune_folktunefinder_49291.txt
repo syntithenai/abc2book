@@ -1,0 +1,29 @@
+X:12
+T:Fisher's Hornpipe
+T:Lord Howe's Hornpipe
+M:C|
+L:1/8
+K:D
+%
+Ad | "D" dAFA "G" GBAG | "D" FAFA "G" GBAG | "D" FDFD "G" GEGE | "Bm" FDFD  "A" EGFE |
+"D" dAFA "G" GBAG | "D" FAFA "G" GBAG | "D" FAdf "A" gedc | "G" d2 "A" d2 "D" d2 ||
+cd | "A" ecAc efge | "D" fdAd fgaf | "A" ecAc "Em" efgf | "A" edcB A2 d2 |
+"G" BGDG BcdB | "D" AFDF ABcA | "G" BdcB "A" AGFE | "G" D2 "A" D2 "D" D2 |]
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49291
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

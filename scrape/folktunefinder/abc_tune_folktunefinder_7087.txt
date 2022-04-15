@@ -1,0 +1,42 @@
+X: 1
+T: Ira's Sher
+C: Bob Follansbee (3/2/97)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+R: sher
+M: 4/4
+L: 1/8
+K: Dmix
+A2 "A"\
+|:"D"Jd/d/d f_e dkf ed | "Cm"d/_e/d cc c3 _B \
+| "Gm"G>A _Bc dg f_e | "D"(3d^cd (3f^ef .az "n.c."A2 \
+| "D"Jd/d/d f_e dkf ed |
+| "Cm"d/_e/d cc c>_B c/d/e \
+| "D"(3agf "Cm"(3gf_e "D"fed "Cm"cBc |1 .d z2 A dz A2 :|2 d z2 A DF Ad  \
+"B"\
+[|"Gm"g2 "F"=f2 "Cm"_e2 "Gm"d2 |
+| "Cm"c>_e "Gm"d2 z_B dg \
+| "Gm"_b2 "D"a2 "Gm"g2 "D"f>a | "Gm"g4 "n.c."zf g^g \
+| "Cm6"a>_b c'b/c'/ b a2 g |"D"(3fga "Cm"gf_e "D"d2 z2 \
+| "Cm"c2 g2 f2 _e2 |
+| "D"(3d^cd (3f^ef (3a^ga .d'2 \
+| "Cm7"[c'a]>[d'_b] [_e'c'][d'/b/][e'/c'/] [d'b] [c'2a2] [bg] \
+| "D"(3[af][_bg][c'a] "Cm"(3[bg][af][g_e] "D"[f2d2] z2 \
+| "Cm"[g2c2] [_b2g2] [a2f2] [g2_e2] | "D"M[fd]z "Bm"M[fB]z "E7"M[^ge]z e2 |] [K:Amix][M:12/8]
+"C"\
+|: "A"AAA cAA "E7"BAA "A"cAA | "E7"B-BA ABc "D"d-dd "E7"dcB \
+|1,3 "A"AAA cAA "E7"BAA "A7"GAG | "D"FGF DEF "E"E-EE E-EE :|
+|2 "A"AAA cAA "E7"BAE "A"AzE | "G"GGE "E7"DCB, "A"A,z2 E3 \
+:|4 "A"AAA cAA "E7"BAE "A"AzE | "G"GGE "E7"DCB, "A"A,z !d.C.!y|]
+%%sep 3 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/7087
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/IrasSher.abc
+% Rhythm Sher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:249
+T: WAS DONNERN DIE KANONEN
+N: F0432
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch, Krieg
+M: 4/4
+L: 1/8
+K: G
+D2 | B2B2B2cA | d3cB2
+B2 | A2dd^c2de | d2z4
+d2 | c2c2A2Bc | d2d2G2
+G2 | c2c2A2AB | G2z4
+S:https://www.folktunefinder.com/tunes/69809
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch, krieg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

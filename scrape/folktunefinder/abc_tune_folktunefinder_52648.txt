@@ -1,0 +1,23 @@
+X:481
+T:48. THE LANCASHIRE REEL (32 bar jigs)
+T:The Gobbie-O
+O:Ireland
+M:6/8
+K:Am
+P:A
+(B|"Am"c2)(A A)cA|"Am"E2A A2(c|"G"B2)(G G)Bc|"G"dBG GA(B|\
+"Am"c2)(A A)cA|"Am"E2A A2g|"Em"edc "G"BAG|"Am"E2A A2:|\
+P:B
+(E|"Am"A2)(B c2)(d|"Em"e2)(^f g2)e|"D"^faf "C"g2e|"G"dBG GA(B|\
+"Am"A2)B c2d|"Em"e2^f g2f|"Em"edc "G"BAG|"Am"E2A A2 (E|\
+"Am"A2)(B c2)(d|"Em"e2)(^f g2)e|"D"^faf "C"g2e|"G"dBG GA(B|\
+"Am"c2)(c c)BA|Bcd e^fg|"Em"edc BAG|"Am"E2A A2 ||
+S:https://www.folktunefinder.com/tunes/52648
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set48.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

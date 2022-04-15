@@ -1,0 +1,30 @@
+X:105
+T:Donlingering
+C:Tim Barrie
+L:1/8
+M:4/4
+O:New Zealand
+P:4
+Q:140
+R:Swung Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c89.html
+%%ID:00000c89
+K:B min
+|"Bm"B2 B3 FBc|dc Bd "A"c2 A2|"Bm" B2 B3 FBd|"D"fedf "A"e2 c2 |
+"Bm"B2 B3 FBc|dc Bd "A" c2 A2|"Bm" B2 B3 FBd|"D" fedf "A"e2 c2 |
+"G"B2 Bd BA GB|"D"A2 A2 FE D2|"G"B2 Bd BA GB|"D"Ad fa f2 A2 |
+"G"B2 Bd BA G2|"D"A2 A2 FE D2|"Bm" dc Bd "A"c2 A2|"E" BA^GB "A"AE C2|
+"D"F2 FE FA A2|"A"E2 EFEC A,2|"Bm7"B,3C D3E|F2 A2 "A"E4 |
+"D"F2 FE FA A2|"A"E2 EF EC A,2|"Bm"dc Bd "A"cA E2|E2 A2 c2 e2 |
+"D"F2 FE FA A2|"A"E2 EF EC A,2|"Bm7"B,3C D3E|F2 A2 "A"E4 |
+"D"F2 FE FA A2|"A"E2 EF EC A,2|"Bm"dc Bd "A"c2 A2|"G"BA GB "F#m"A2 F2||
+S:https://www.folktunefinder.com/tunes/43886
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Swung reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

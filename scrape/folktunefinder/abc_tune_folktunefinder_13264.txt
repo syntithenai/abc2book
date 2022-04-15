@@ -1,0 +1,55 @@
+X: 1
+T: Miss Clementina Loughnan
+T: Miss Clementina Loughman
+T: Miss Clementina Loughlan
+T: Miss Clementina Longham
+C: Nathaniel Gow
+R: march, air
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+B: Carlin "The Gow Collection" (AABCCD) 1986; No.141
+B: Hunter "Fiddle Music of Scotland" (AAB) 1988; No.161
+B: RSCDS booklet, 2007
+B: Anne Shand "Old Scottish Music"
+S: Anne Shand "Old Scottish Music"
+N: Peter Hastings located the following information:
+N: Sir Sydney Beckwith (1772-1831) married Miss Clementina Loughnan who was  the
+N: third  daughter  of  Thomas Loughnan (a merchant in Madeira) and Philadelphia
+N: Fergusson.  Thomas and Philadelphia were married on the 5th of April 1770  in
+N: the Church of St Clement Danes in London.  It seems likely that Nathaniel Gow
+N: (1766-1831) was captivated by Clementina on one of his many visits to  London
+N: and wrote a tune in her honour.  But people often misspell her last name.
+S: Some data from the Fiddler's Companion web site
+P: "Slow"
+M: 2/4
+L: 1/16
+K: F
+AB "A"\
+| Tc4 f3d | {d}c2BA c2de | {e}f3d c2A2 | {A}G4- G2AB \
+| Tc4 f3d | {d}c2BA c2ag | Tf2d2 Tc2A2 | {A}[F4-C4-] [F2C2] :|
+cB "B"\
+| TA3B c2c2 | d2B2 B2d2 | {d}c2{B}A2 f2A2 | {A}G4- G2cB \
+| TA3B c2c2  | d2B2 d2g2 | (e2g2) c2e2 | (Tf4{ef}y/) F2cB |
+| TA3B c2c2 | d2B2 B2d2 | c2ag f2A2 | {A}G4- G2cB \
+| A2c2 f2_e2 d2B2 g2B2 | (ba)gf (cf)(eg) | (Tf4{ef}y/) F2 ||
+|: cB "C"\
+| TA2[F2A,2] [F2A,2][F2A,2] | T[F3A,3][GC] [A3F3][BG] | c2c2 {d}c2BA | (A2G2) G2cB \
+| A2F2 F2A2 | (B2d2) (G2B2) | (A2c2) (E2G2) | T[F4C4] [F2C2] :|
+c2 "D"\
+| f4 {a}g2fg | {fg}a3g f2d2 | {d}c2BA f2a2 | {a}g4 Tg2a2 \
+| Tf3a {a}g2fg | {fg}a3g f2d2 | {d}c2BA {A}f2A2 | [F4C4] [F2C2]c2 |
+| f4 {a}g2fg | {fg}a3g f2c2 | B2g2 A2f2 | TG3A B2d2 \
+| (c2a2) A2c2 | d2f2 B2b2 | {b}a2gf cfeg | (Tf4{ef}y/) F2 |]
+S:https://www.folktunefinder.com/tunes/13264
+S:http://trillian.mit.edu/~jc/music/abc/air/MissClementinaLoughnam_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/MissClementinaLoughnam_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/MissClementinaLoughnam_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissClementinaLoughnam_F.abc
+% Rhythm March, air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

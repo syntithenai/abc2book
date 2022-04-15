@@ -1,0 +1,33 @@
+X:3155
+T:Linus p Linjen
+A:Uppland
+M:3/4
+N:Transcribed by Geoff Bowen.
+N:This collection is being typed up on a Linux system. Just thought I'd mention that ...
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b21.html
+%%ID:00000b21
+K:G
+(vD-|\
+D/G/B) (uB<d) vB>G| (D/G/B) (B<d) B>G|\
+(D/F/A) (A<c) A>F| (D/F/A) (A<c) A>F|
+(vD/G/B) (B<d) B>G| (D/G/B) (B<d) B>G|\
+(D/F/A) (A<c) A>F| (F<G) uG3:|
+|:(vB|\
+(3:2:4d2)d2B/d3/ vc>e| (ve<d) (uB<d) ug>e|\
+(3:2:4d2B3A/B/ c>A| (vA<G) (uB<G) vD>B|
+(3:2:4d2d2B/d3/ vc>e| (ve<d) (uB<d) vg>e|\
+(3:2:4d2B3A/B/ c>A\
+|1 (A<G) {F}uG3 :|2 (A/G/F) ~G3 |]
+S:https://www.folktunefinder.com/tunes/36710
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:333
+T: ICH DENKE DEIN
+N: B0392
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Liebes - Lust
+M: 4/4
+L: 1/8
+K: C
+G,2 | C4E3D | D2C2z2
+CB, | B,A,^G,A,B,C^DE | E2D4
+CA, | G,4B,3A, | G,4z2
+G,2 | F6ED | C2B,4
+C2 | D2B,2G,2F,2 | E,4D,2
+F,A, | G,2C,4E,D, | C,4z2
+S:https://www.folktunefinder.com/tunes/78354
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

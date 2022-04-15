@@ -1,0 +1,29 @@
+X:616
+T: "Der Gemsjaeger"
+N: Z1296
+O: Europa, Mitteleuropa, Oberoesterreich
+R: Jaeger - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | B2B3c | cdd3
+B | dccBce | d4z
+G | B2B3c | edd3
+B | dccBcA | G4
+G2 | A2c3A | B2d3
+B | dccBce | d3z
+D2 | B2B3c | edd3
+B | dccBcA | G4
+g2 | d4B2 | dccBcA | G4
+S:https://www.folktunefinder.com/tunes/69475
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

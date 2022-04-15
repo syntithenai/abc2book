@@ -1,0 +1,33 @@
+X:1
+T:Joe Tanzy's
+T:Pat Carney's
+T:The Braes of Glendochart/Glendochert
+T:Mr Menzies of Culdares
+B:Cole's 1000 Fiddle Tunes
+Z:Nigel Gatherer <gatherer@ARGONET.CO.UK> irtrad-l 2001-10-18
+M:4/4
+L:1/8
+K:D
+G|(3FED AF BGAF|EG=cG ECCE|(3FED AF BGAF|Dddc dDDG|
+(3FED AF BGAF|EG=cG ECCE|(3FED AF BGAF|Dddc dDD:|
+g|fada fdad|eg=cg ecgc|fada fdgd|(3Bcd AG FDDg|
+fada fdad|eg=cg ecgc|afge fdec|dBAG FDD:|
+S:https://www.folktunefinder.com/tunes/16843
+S:http://trillian.mit.edu/~jc/music/abc/reel/BraesOfGlendochartGlendochert_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/JoeTanzys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MrMenziesOfCuldares_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/PatCarneys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/BraesOfGlendochartGlendochert_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/JoeTanzys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MrMenziesOfCuldares_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PatCarneys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JoeTanzys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BraesOfGlendochartGlendochert_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/JoeTanzys_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MrMenziesOfCuldares_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PatCarneys_1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

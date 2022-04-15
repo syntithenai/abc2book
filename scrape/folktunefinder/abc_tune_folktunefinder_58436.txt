@@ -1,0 +1,22 @@
+X: 1
+P: The Peacock Reel
+C: by R. Mathieson (from RM 1)
+C: Arr. by Barbara McOwen
+R: Reel
+M: 4/4
+L: 1/8
+K: A
+|: e2|"A"Bc c2 BABc|"A"a2 ea fedc|"Bm"fBBd B2 de|"Bm"fgfe "E7"dcBe|"A"Bc c2 BABc|"A"a2 ea "A7"fedc|"D"d2 dB "E7"cedB|"A"ABce a2 :|
+|: f2|"A"e2 ce AecA|"A"aA A2 "F#m"fedc|"Bm"f2 df BBfB|"Bm"BfBB "E7"dcBd|"A"e2 ce AecA|"A"aA A2 "A7"fedc|"D"d2 dB "E7"cedB|"A"ABce a2 :|
+S:https://www.folktunefinder.com/tunes/58436
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/AustralianLadiesSet.abc
+S:http://terrytraub.org/abc/PeacockReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PeacockReelR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

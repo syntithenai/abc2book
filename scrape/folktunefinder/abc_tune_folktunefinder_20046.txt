@@ -1,0 +1,31 @@
+X: 1
+T: A Ballad of Lonesome Dove (DT variation)
+Z: Deborah A Tinsley <TINSLEYD@prodigy.NET>
+L: 1/8
+M: 3/4
+C: Working copy
+S: TV show
+Q: 200
+K: G
+GE || D2 D2>E2 | G4 Bd | c2>B2 AG | E2 G4 | E D3 D2 | EG- G4 | Bd d4 |
+| Bd e2>f2 | ed B4 | Bd c2>B2 | AG E2 G2- | G3 E D2 | G2 B2 A2 | G F3 G2- | G6 ||
+cBA E3 | G6 | A2 B2 c2 | G E3 D D | E4 DD | A4 GF | G6 | {GAB}c2 e4 |
+| d2 c2 A2 | {F}G2 c2e2 | g4 G2 | =f2 e2d2 | c B3 c2- | c4 ||
+GE | D2 D2>E2 | G4 AB | c3 B AG | E2 G2>E2 | D2 D2>E2 | G4 Bd | d6- | d6 |
+| Bd e2 e2 | d B3 d2 | c3 B A2 | GE G3 E | D2 G2 B2 | D2 G2 B2 | D F3 AG | G4 ||
+| {cBA}E6 | G6 | A2 B2 c2 | G E3 D D | E4 DD | A4 GF | G6 | {GAB}c2 e4 |
+| d2 c2 A2 | {F}G2 c2e2 | g4 G2 | =f2 e2d2 | c B3 c2- | c4 ||
+GE | D2 D2>E2 | G4 Bd | c3 B AG | E2 G4 | E2 D D3 | EG- G4 | Bd d4 | Bd e3 f |
+| ed B4 | Gd c3 B | AG E2 G2 | {A}G E2 D3 | GB A4 | GF G4 |
+| Bd c4 | GE D4 | GB A4 | GF (G2B2 | d2) g4- | g6 |]
+S:https://www.folktunefinder.com/tunes/20046
+S:http://trillian.mit.edu/~jc/music/abc/waltz/LonesomeDove.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

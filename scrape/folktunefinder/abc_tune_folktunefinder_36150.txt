@@ -1,0 +1,26 @@
+X:355
+T:Billy in the Lowground
+L:1/8
+M:4/4
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006e6.html
+%%ID:000006e6
+K:C
+CA, | \
+G,A,CD EGAB | cBcd cAGB | ABAG EGAB | cAGE DCCA, |
+G,A,CD EGAB | cBcd cAGB | ABAG EGAB | cAGE  DC2 ::
+eg2e g2eg | aged cAG2 | ea2g a2eg | agab age2 |
+eg2e g2eg | aged cAGB | ABAG EGAB | cAGE  DC3 :|
+S:https://www.folktunefinder.com/tunes/36150
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

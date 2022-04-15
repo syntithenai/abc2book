@@ -1,0 +1,30 @@
+X:1
+T:Vintons Hornpipe
+Z:Bob Puckette  2003-3-10
+N:Chords added by John Chambers
+B:Cole's 1000 Fiddle Tunes
+R:hornpipe
+M:C|
+L:1/8
+K:Bb
+fe \
+| "Bb"d2B2 BcdB | "F7"cBAG F2(FE) | "Bb"DFBF dedB | "F7"cBAG F2(fe) |
+| "Bb"d2B2 B2(gf) | "Eb"e2c2 c2(cB) | "F"Acfa "C7"gbg=e | "F"f2f2f2 :|
+|: fe \
+| "Bb"d(BAB) d(BAB) | "Eb"G(EDE) G(EDE) | "Cm"cdec "Gm"BcdB | "F7"ABcA F2(fg) |
+| "Bb"f(BAB) "Eb"g(BAB) | "F"a(BAB) "Bb"b(BAB) | "F7"FGAB cdcA | "Bb"B2B2B2 :|
+S:https://www.folktunefinder.com/tunes/13717
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/VintonsHornpipe_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/VintonsHornpipe_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/VintonsHornpipe_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/VintonsHornpipe_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/VintonsHornpipe_Bb.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

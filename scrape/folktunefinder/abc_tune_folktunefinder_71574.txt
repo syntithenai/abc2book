@@ -1,0 +1,25 @@
+X:545
+%%topmargin 3cm
+T:Nuaghalachd
+T:The Novelty
+C:Capt. Frasers coll.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:F dorian
+E | B,EG,E B,G,G,E | B,G,B,E G2 GB | B,EG,E B,EGB | AGFE F2 F :| c | B<G {/G}e2 BGGc | BGBc (Be)dc |
+B<G {/G}e2 BGGB | (AG)FE {DE}F2 FG | BG e2 BGGc | BGBe {/e}g2 ga | .b.g(ed) .e.B(AG) | (AG)FE {DE}F2 FG |]
+S:https://www.folktunefinder.com/tunes/71574
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Novelty.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Nuaghalachd.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0545.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

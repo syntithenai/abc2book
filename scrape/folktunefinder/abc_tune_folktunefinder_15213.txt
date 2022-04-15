@@ -1,0 +1,26 @@
+X: 1
+T: Two Penny Jig
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Kerr's 2nd
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: Gdor
+   B \
+| "Gm"GFD B2c | dBG GFD | G2A B2c | dBG G2B \
+| "Gm"GFD B2c | dBG "C7"AGA | "F"FAc fed | cAF F2 :|
+|: c \
+| "Bb"dfd "F"cdc | "Gm"BdB "F"AGF | "Gm"G2A B2c | dBG G2c \
+| "Gm"dfd "F"cfc | "Bb"BdB "C7"AGA | "F"FAc fed | cAF F2 :|
+S:https://www.folktunefinder.com/tunes/15213
+S:http://trillian.mit.edu/~jc/music/abc/jig/TwoPennyJig_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TwoPennyJig_Gm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

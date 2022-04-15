@@ -1,0 +1,29 @@
+X: 1
+T: Hora Nirkoda
+O: Israel
+N: From handwritten MS (Barry Shapiro)
+M: C
+L: 1/8
+K: Dphr
+%%indent 400
+| "C"[c4G4=E4] [c4G4E4] | [c2G2=E2] [c2G2E2] [c2G2E2] [c2G2E2] ||
+"A"
+|:"C"Gc Gc- cc "Gm"B/A/G | "C"Gc Gc- cc "Gm"B2 \
+| "C"Gc Gc- cc "Gm"B/A/G |1 GA Bc "F"AG A/G/F :|2  "C"GF "F"BA "Gm"G2 G2 ||
+"B"
+||"F"[A2F2C2] z[AFC] z[AFC] "Eb"[G2E2B,2] \
+| "F"[A2F2C2] z[AFC] z[AFC] "Eb"[B2G2E2] \
+| "F"[A2F2C2] z[AFC] z[AFC] "Eb"[G2E2B,2] \
+|1"F"[A2D2] "Eb"[B2E2] "F"[c2F2] "Gm"[d2G2] \
+:|2"Dm"ED "Cm"FE "Dm"D2 D2 |]
+S:https://www.folktunefinder.com/tunes/6473
+S:http://trillian.mit.edu/~jc/music/abc/Israel/HoraNirkoda_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraNirkoda_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/HoraNirkoda_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

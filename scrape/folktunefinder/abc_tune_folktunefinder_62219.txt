@@ -1,0 +1,26 @@
+X:196
+T: ICH BIN DER DOKTOR EISENBART
+N: B0681
+O: Europa, Mitteleuropa, Deutschland
+R: Scherz - Lied
+M: 2/4
+L: 1/16
+K: C
+G,2 | C3G,G,2G,2 | A,2G,2G,4
+G,A,B,CD2B,2 | C4z2
+G,2 | C3G,G,2G,2 | A,2G,2G,4
+G,A,B,CD2B,2 | C4z2
+E2 | D2E2D2E2 | D2E2D4
+DDDDD2C2 | B,2A,2G,2
+G,2 | G,3CC2C2 | C3EE4
+DDDDE2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/62219
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

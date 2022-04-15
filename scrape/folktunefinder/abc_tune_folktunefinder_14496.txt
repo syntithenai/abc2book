@@ -1,0 +1,29 @@
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: Susie Petrov Her Book of Musick
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E/=F/GE =CEG | "C"=cGE =CEG \
+| "D"F2D DFD | dAF AFD | "G"GBG  "A7"EFG | "D" AFD  D2 :|
+"A7"g \
+| "D"f2d dfd | afd "(G7)"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 ||
+"A7"g \
+| "D"f2d dfd | afd "(G7)"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "D"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+S:https://www.folktunefinder.com/tunes/14496
+S:http://trillian.mit.edu/~jc/music/abc/jig/LadyCharlotteMurray2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/LadyCharlotteMurray2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/LadyCharlotteMurray2_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

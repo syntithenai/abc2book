@@ -1,0 +1,23 @@
+X:357
+T: SA BOER GAET NAER DEN DANS
+N: E0986
+O: Europa, Mitteleuropa, Niederlande
+R: Tanz - Lied, Reigen, Gesellschafts - Spiel
+M: 6/8
+L: 1/8
+K: C
+ | C3G,2G, | A,2B,C3
+C3G,2G, | A,2B,C3
+D2DD2E | F2ED3
+E2CCB,C | D2DG,3
+A,2A,B,2B, | C4z2
+S:https://www.folktunefinder.com/tunes/76842
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Tanz - lied, reigen, gesellschafts - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

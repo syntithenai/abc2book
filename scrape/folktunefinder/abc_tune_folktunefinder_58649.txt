@@ -1,0 +1,24 @@
+X:42
+T:Drummond Castle
+R:J
+S:Alba
+D:Alba
+M:6/8
+L:1/8
+Q:240
+K:Em
+[|F | EFE e3 | ed^c d3 | BdB dAF | DFd AFD | EFE e3 | edB d3 |
+B3 ABd |BAF E2 :]|: F | GAG GBG| ABA ABA | GBG BAG|
+FAd AFD| GAG BAG | FAd e2 d| BdB ABd| BAG E2 :||
+S:https://www.folktunefinder.com/tunes/58649
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:1
+T: Mazurka de Servant
+B: The Massif Central Tune Book No 1 #78
+S: pete stewart  tradtunes 2003-11-18
+M:3/4
+L:1/8
+K:G
+ded|G2 Gded|A2 A2 Bc|d2 dcBA|B2 Gded|G2 Gded|A2 A2 Bc|d2 dcBA|G3||
+bcd|E2 edcB| A2 A2 Bc|d2 dcBA|B2 GBcd|e2 edcB|A2 A2 Bc|d2 dcBA|G3||
+S:https://www.folktunefinder.com/tunes/15749
+S:http://trillian.mit.edu/~jc/music/abc/mazurka/MazurkaDeServant_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/mazurka/MazurkaDeServant_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/MazurkaDeServant_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

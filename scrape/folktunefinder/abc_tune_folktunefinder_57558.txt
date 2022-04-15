@@ -1,0 +1,28 @@
+X:076
+T:Littlehohone ()
+S:Midi file off website
+M:4/4
+L:1/8
+K:Dm
+(3DFA|B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2 (3DFA|
+B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2||
+A2|A=B^cA d2 de|dcBA BA z2|dcBA BAG^F|G2 F>E D2 (3DFA|
+B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2||
+S:https://www.folktunefinder.com/tunes/57558
+S:http://www.argonet.co.uk/users/gatherer/scottish/abcall/nige.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abcall/nige.abc
+S:http://nigelgatherer.com/tunes/abc/tb02.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb02.abc
+S:http://nigelgatherer.com/tunes/abc/abc1/litho.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/abc/litho.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc1/litho.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/abc/litho.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

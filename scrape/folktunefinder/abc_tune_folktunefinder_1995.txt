@@ -1,0 +1,34 @@
+X: 58
+T:See the Conquering Hero comes. JMP.058
+M:C|
+L:1/4
+Q:100
+C:"63" by Handel for D of Cumberland
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:cotland
+A:Perth
+N:1 - 'C' in this bar is not sharp in the M
+H:1799
+Z:vmp.C. Graebe
+K:G major
+d2 B>c | d2G2 | (A/B/c/d/) c B | {B}A4 |!
+ (B/c/d/e/) dd | g2 d2 | c B/A/ AG | G4 :|!
+|:B/A/B/c/ BB | A B/A/ GG | cBAG | {G}F4 |!
+e/^d/e/f/ ef | g2e2 |"1" f e/d/ "tr"^c>d | d4 | !
+d2 B>c | d2G2 | (A/B/c/d/) c B | {B}A4 |!
+(B/c/d/e/) dd | g2 d2 | c B/A/A>G | G4 :|]
+S:https://www.folktunefinder.com/tunes/1995
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

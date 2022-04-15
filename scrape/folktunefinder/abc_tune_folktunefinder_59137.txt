@@ -1,0 +1,43 @@
+X:250
+T:Danza (CT 054)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Casomera, ayuntamiento de Aller.
+N:Toman parte en esta danza solamente mujeres, y todas las coplas que entonan, despus de hecha la invocacin religiosa, encierran un pensamiento zahiriendo a los hombres.
+N:Aunque la frase meldica consta de tres miembros, de los cuales el 2 es repeticin del 1, se le ajustan cuartetas octosilbicas.
+A:Asturies
+O:Casomera (Ayer)
+Z:Cancioneru de Torner 054
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+GB|:d3 edc|BA2- AGB|
+d3 edc|BA2- Add|d2A BcB|[1 AG2- GGB:|[2 AG2- G||
+W:Vlgame Nuestra Seora,
+W:vlgame Nuestra Seora,
+W:vlgame El Seor San Pedro.
+W:
+W:Yo entregu mi corazn
+W:Yo entregu mi corazn
+W:a quien no lo mereca
+W:
+W:a quien no lo mereca
+W:malhaya quien tiene amores
+W:y quien de los hombres fa.
+W:
+S:https://www.folktunefinder.com/tunes/59137
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

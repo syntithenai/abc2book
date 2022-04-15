@@ -1,0 +1,29 @@
+X: 1
+T: Wae's My Heart that We Should Sunder
+S: Gow
+R: strathspey
+N: from handwritten MS by Barbara McOwen
+B:
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B2 \
+| "D"A-<F AB A3 d | "G"B>A Bd B2 AB | "D"d3 e "A7"fa ef | "Bm"d3 e "A7"f2a2 |
+| "D"A-<F EF A3 d | "C"=cB AG G3 a/b/ | "D"a>b af "A7"gf ed | "Bm"B3 A B2 d2 |]
+[|"G"gf ga "Em"g/a/b ag | "F#m"f>e fg "Bm"f/g/a gf | "Em"e>d ef "A7"gf ef | "D"d3 e f2 a2 |
+| "D"A-<F EF A3 d | "C"=cB AG G3 a/b/ | "D"a>b af "A7"gf ed | "G"B3 "A7"c "D"d2 |]
+S:https://www.folktunefinder.com/tunes/19696
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/WaesMyHeartThatWeShouldSunder_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/WaesMyHeartThatWeShouldSunder_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

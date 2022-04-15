@@ -1,0 +1,114 @@
+X: 1
+T: Boston Fire Alarm - Galop
+C: George H. Rexford
+R: galop
+M: 2/4
+L: 1/16
+K: Dm
+"Intro"\[
+[| [A4A,4] [A4A,4] | [A6A,6] Hz2 \
+| [A4A,4] [A4A,4] | [A4A,4] [A4A,4] | [A6A,6] Hz2 \
+| [A4A,4] [A4A,4] | [A4A,4] [A4A,4] | [A4A,4] [A4A,4] | [A6A,6] Hz2 \
+"A1"\
+[|"A7"b3a gfed | ^c2e2 a2z2 |
+| "Dm"a3g fed^c | d2f2 a2z2 \
+| "A7"b3a gfed | ^c2e2 a2z2 \
+| "A7"{a}e2z2 "Dm"{a}d2z2 | "A"a2AA A2A2 \
+| "Dm"A2a2 a2A2 | "A7"a2AA A2A2 \
+| "Dm"A2A2 "A7"A2A2 |]
+"B1"\
+[|"F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "C7"[f3G3][eG] [e3G3][eG] | [e3G][dG] [d3G3][dG] \
+| [d3G][_dG] [d3G][dG] | [_d3G3][cG] [c3G3][cG] |
+| "F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "G7"[d3=B3][dB] [d3B3][dB] | [d3=B2][e2B2] [f2B2][g2B2] \
+| [g3d3=B3][fdB] [f2d2B2][f2d2B2] | "C"[f3d3B3G3][ecG] [e2c2G2][e2c2G2] \
+| "F"[e2-A4F4]d2 "G7"[A2F4]=B2 | "C"[c3G3E3][cGE] [c3G3E3][cGE] |]
+"C1"\
+[|"F"[A2F2]z2 [c2A2]z2 | [f2c2A2]z2 [e2c2A2]z2 \
+| "Bb"[e2B2]z2 [d3B3][_dB] | [e2B2]z2 [d2B2]z2 \
+| "C7"[E2C2]z2 [G2E2]z2 | [e2B2G2]z2 [d2B2E2]z2 \
+| "F"[d2A2F2]z2 [c3A3F3][=BAF] | [d2A2F2]z2 [c2A2]z2 \
+| "F"[A2F2]z2 [c2A2]z2 | [f2c2]z2 [a2f2c2]z2 |
+| "A7"[b2e2^c2] [a3e2c2][ec] | "Dm"[g2d2]z2 [f2d2]z2 \
+| "C7"[e2E2][f2F2] [^f2^F2][g2G2] | "G7"[^g2^G2][a2A2] [b2B2][=b2=B2] \
+| [c'2c2][=b2=B2] [_b2_B2][a2A2] | [g2G2][f2F2] [e2E2][d2D2] \
+| [c2C2][^c2^C2] [e2E2][d2D2] | [B2B,2][G2G,2] z2z2 \
+"C2"\
+|[|"F"[A2F2]z2 [c2A2]z2 | [f2c2A2]z2 [e2c2A2]z2 |
+| "Bb"[e2B2]z2 [d3B3][_dB] | [e2B2]z2 [d2B2]z2 \
+| "C7"[E2C2]z2 [G2E2]z2 | [e2B2G2]z2 [d2B2E2]z2 \
+| "F"[d2A2F2]z2 [c3A3F3][=BAF] | [d2A2F2]z2 [c2A2]z2 \
+| "F"[A2F2]z2 [c2A2]z2 | [f2c2]z2 [a2f2c2]z2 \
+| "A7"[b2e2^c2] [a3e2c2][ec] | "Dm"[g2d2]z2 [f2d2]z2 |
+| "C7"[e2E2][f2F2] [^f2^F2][g2G2] | "Gm"[a2A2][g2G2] "G7"[f2F2][=B2=B,2] \
+| [d2D2][G2G,2] [A2A,2][=B2=B,2] | "C"[c2E2C2]z2 b2a2 \
+"D"\
+|[|"A7"a2z2 A2z2 | A2z2 b2a2 \
+| "Dm"a2z2 d2z2 | d4 z2f2 \
+| "A7"f2e2 ^d2e2 | f2e2 ^d2e2 |
+| "Dm"g2f2 e2f2 | d2z2 b2a2 \
+| "A7"a2z2 A2z2 | A2z2 b2a2 \
+| "Dm"a2z2 d2z2 | d4 z2f2 \
+| "A7"f2e2 ^d2e2 | f2e2 ^d2e2 \
+| "Dm"d2z2 f2a2 | d'4 z4 |
+| "(A7)" [a6A6] [^g2^G2] | [a2A2][b2B2] [a2A2][^g2^G2] \
+| A2AA A2A2 | A2A2 A2A2 |][K:=B][K:D] \
+"E1"\
+[|"A7"[F2f2]z2 [E3e3][^D^d] | [F2f2]z2 [E3e3][Cc] \
+| "D"[E2e2]z2 [D2d2]z2 | z2[F2f2] [G2g2][^G2^g2] \
+| "A7"[B2b2][A2a2] [^G2^g2][A2a2] | [B2b2][c2c'2] [d2d'2][e2e'2] |
+| "D"[F2f2][G2g2] [^G2^g2][A2a2] | [B2b2]z2 [A2a2]z2 \
+| "A7"[F2f2]z2 [E3e3][^D^d] | [F2f2]z2 [E3e3][Cc] \
+| "D"[E2e2]z2 [D2d2]z2 | z2[F2f2] [G2g2][^G2^g2] \
+| "A7"[B2b2][A2a2] [^G2^g2][A2a2] | [B2b2][c2c'2] [d2d'2][e2e'2] \
+| "D"[d2d'2]z2 f2a2 | [d'2f2d2]z2 A2A2 |
+| "(A)"A2A2 A2A2 | A2A2 A2A2 |][K:=f=c][K:Dm] \
+"A2"\
+[|"A7"b3a gfed | ^c2e2 a2z2 \
+| "Dm"a3g fed^c | d2f2 a2z2 \
+| "A7"b3a gfed | ^c2e2 a2z2 \
+| "A7"{a}e2z2 "Dm"{a}d2z2 |
+| "A"a2AA A2A2 \
+| "Dm"A2a2 a2A2 | "A7"a2AA A2A2 \ 
+"B2"\
+|[|"F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "C7"[f3G3][eG] [e3G3][eG] | [e3G][dG] [d3G3][dG] |
+| [d3G][_dG] [d3G][dG] | [_d3G3][cG] [c3G3][cG] |\
+| "F"[c3A2][cA] [c3A2][cA] | [c2A2][d2A2] [e2A2][f2A2] \
+| "G7"[d3=B3][dB] [d3B3][dB] | [d3=B2][e2B2] [f2B2][g2B2] \
+| "C"[f3c3][ec] [e3c3][ec] | "Dm/F"[e3A3][dA] [d3A3][dA] \
+| "C"[d3G3][cG] [c3G3][cG] | "G7"[c3G3][=B2G2] [A2G2F2][B2F2] |
+| "C"[c3G3E3][cGE] [c3G3E3][cGE] | [c3G3E3][cGE] [c3G3E3][cGE] \
+"C3"\
+|[|"F"[A2F2]z2 [c2A2]z2 | [f2c2A2]z2 [e2c2A2]z2 \
+| "Bb"[e2B2]z2 [d3B3][_dB] | [e2B2]z2 [d2B2]z2 \
+| "C7"[E2C2]z2 [G2E2]z2 | [e2B2G2]z2 [d2B2E2]z2 \
+| "F"[d2A2F2]z2 [c3A3F3][=BAF] | [d2A2F2]z2 [c2A2]z2 |
+| "F"[A2F2]z2 [c2A2]z2 | [f2c2]z2 [a2f2c2]z2 \
+| "A7"[b2e2^c2] [a3e2c2][ec] | "Dm"[g2d2]z2 [f2d2]z2 \
+| "C7"[e2E2][f2F2] [^f2^F2][g2G2] |"G7"[a2A2][g2G2] [f2F2][=B2=B,2] \
+| [d2D2][G2G,2] [A2A,2][=B2=B,2] | "C"[c2E2C2]z2 z4 \
+"E2"\
+|[|"A7"[B2b2]z2 [A2a2]z2 | "Dm"[B2b2]z2 [A2a2]z2 |
+| "C7"[d2d'2]z2 [c2c'2]z2 | "F"[d2d'2]z2 [c2c'2]z2 \
+| "Gm"[e2e'2]z2 [d2d'2]z2 | [B2b2]z2 [G2g2]z2 \
+| "C7"[c2c'2]z2 [^c2^c'2]z2 | [d2d'2]z2 [e2e'2]z2 \
+| "F"[f2A2F2][f2A2F2] [f2A2F2][f2A2F2] | [a2c2A2][a2c2A2] [a2c2A2][a2c2A2] \
+| [c'2f2c2][c'2f2c2] [c'2f2c2][c'2f2c2] | [f'2a2f2]z2 z4 \
+| "Ddim"H[B,4^G,4F,4] z4 | "F"H[F4C4A,4] z4 |]
+S:https://www.folktunefinder.com/tunes/2714
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/BostonFireAlarm_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/BostonFireAlarm_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/galop/BostonFireAlarm_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/galop/BostonFireAlarm_Dm.abc
+% Rhythm Galop
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

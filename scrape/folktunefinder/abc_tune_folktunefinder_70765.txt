@@ -1,0 +1,26 @@
+X:020
+%%topmargin 3cm
+T:Miss MacKay
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+N:Time signature in the book is 6/8, but the tune is written in 4/4. See Stool of Repentance (next tune).
+M:C
+L:1/8
+K:A
+a | A/2A/2A cA eAcA | Bffe fBBa | A/2A/2A cA eAcA | EFAB cA A :|
+a | faea da c2 | Bffe fBBa | faea dacA | EFAB cAAa |
+faea daca | dffe fBBg | afbg afed | EFAB cA A |]
+S:https://www.folktunefinder.com/tunes/70765
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

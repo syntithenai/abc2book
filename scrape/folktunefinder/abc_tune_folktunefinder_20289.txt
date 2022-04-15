@@ -1,0 +1,43 @@
+X: 1
+T: Vals i Gm fr\aan Enviken
+O: efter V.Hedlund
+N: V.Hedlund f\"odd 1868 i Enviken
+S: Bertil Ferneborg
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+d2 \
+|: "Gm"ga g^f ga | g4 d2 \
+| Bc BA Bd | B3 A G2 \
+| "D7"D2 ^F2 A2 | d2{ed} B2 A2 \
+|1,3 "Gm"G3 ABc | "D7"d4 d2 \
+:|2,4 "Gm"G3 AG^F | "Gm"G4 :|
+d2 \
+|: "Gm"db b2 b2 | a4 g2 | d2 g2 g2 | d3 c B2 \
+|  "D7"D2 ^F2 A2 | d2 B2 A2 \
+|1,3 "Gm"G3 ABc | "D7"d4 d2 \
+:|2,4 "Gm"G3 AG^F | "Gm"G4 :|
+D2 \
+|: "Gm"B,A, B,2 C2 | D3 EDC \
+| B,D G^F GA | B4 Bc \
+| d2 ga gd | B2 A2 G2 \
+| "D7"^FG AB AF |1,3 D3 EDC :|2,4 "Gm"G4 :|
+d2 \
+|: "Gm"(3ded c2 d2 | "Cm"e3 d c2 \
+| "(D7)"(3cdc B2 c2 | "Gm"d3 c B2 \
+| "D7"D2 ^F2 A2 | d2 B2 A2 \
+|1,3 "Gm"G3 ABc | "D7"d4 d2 \
+:|2,4 "Gm"G3 AG^F | "Gm"G4 :|
+S:https://www.folktunefinder.com/tunes/20289
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Vals_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Vals_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:220
+T: DER WAECHTER AUF DEM THUERMLEIN SASS
+N: E0812
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+R: Tage -, Kilt - Lied, Waechter - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2B2A2d2 | B2BAG2
+GB | d2d2e2e2 | d2c2B2
+GB | d2d2d2ed | c2cBc2
+dc | B2B2d2cB | A2A2A2
+GA | B2B2dcBc | d4edcB | A4G2
+GB | d2d2d2ed | c2cBc2
+dc | B2B2d2cB | A2A2A2
+GA | B2B2dcBc | d4edcB | A4G2
+S:https://www.folktunefinder.com/tunes/76705
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tage -, kilt - lied, waechter - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

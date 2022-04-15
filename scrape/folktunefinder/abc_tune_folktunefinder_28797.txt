@@ -1,0 +1,31 @@
+X:2517
+T:Cantar de Boda (CT 142)
+R:Boda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Boda, transcrita en Cangas de Tinu.
+O:Cangas de Tinu
+A:Asturies
+Z:Cancioneru de Torner 142
+M:3/8
+L:1/8
+Q:3/8=80
+W:Caballero, donde entresti,
+W:buena palomba saquesti.
+K:G
+|:G B2|A2 c|B A2|G2 F|G B2|A2 c|B A2|G2 G :||
+S:https://www.folktunefinder.com/tunes/28797
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Boda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

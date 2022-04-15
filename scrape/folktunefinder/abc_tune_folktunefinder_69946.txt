@@ -1,0 +1,29 @@
+X:386
+T: HINWEG MIT DEN SORGEN
+N: F0690
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Tageszeiten - Lied, Morgen
+M: 6/8
+L: 1/8
+K: C
+G, | C3G,2G, | E,3C,2
+E | D4CD | E4z
+D | C4B,A, | D4C
+B, | A,4B,A, | G,3z2
+G, | D3EDE | F3D2
+D | E3FEF | G3-G2
+F | E4DC | C4B,
+A, | G,4A,B, | C3z2
+S:https://www.folktunefinder.com/tunes/69946
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, tageszeiten - lied, morgen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

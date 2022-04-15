@@ -1,0 +1,31 @@
+X:1
+T:The Hawk
+R:reel
+C:James Hill (originally)
+S:Paul O'Shaughnessy who got it from Dermot McLaughlin
+D:Paul O'Shaughnessy, Beginish
+Z:Larry Sanger <larry@NUPEDIA.COM> irtrad-l 2001-02-14
+N:first time through on the Beginish CD
+M:4/4
+K:D
+A/B/c \
+|: d2{e}dc defd | e/a/e ^df efge | {fa}fedc Bged | e^def eABc |
+   dd{e}dc defd | e/f/e ^df efge | {fa}fedc Bgec |1 ed{e}dc dABc :|2 ed{e}dc d/d/dcB ||
+|: Aafd     Bgec | Ad{e}dc d/d/c BA | BGcA dBec | fdgf e/f/e ef |
+   g/b/g fg efdB | c/e/c Bc    ABGE | FAdf geAc |1 ed{e}dc d/d/d cB :|2 ed{e}dc d2 |]
+S:https://www.folktunefinder.com/tunes/17327
+S:http://trillian.mit.edu/~jc/music/abc/reel/HawkR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HawkR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HawkR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/HawkR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

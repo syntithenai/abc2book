@@ -1,0 +1,36 @@
+X:2614
+T:Holly Bush Polka. GHW.030
+O:england
+M:2/4
+L:1/16
+Q:100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+A:Norfolk
+N:DC marked at end of fourth (last) part
+K:C
+g2cd ecfe|e2dA dFfe|e2dG dGed|d2cB cdef|
+g2cd ecfe|f2dA dAfe|dcde fgab|c'2c'2c'2:|
+cd|edcB ABcd|edcB ABcd|edcB AcBA|BEee eeee|
+edcB ABcd|edcB ABcd|edcA BdcB|1 A2a2A2:|2 edcB AcBA||
+g2gg g2g2|g2gg g2g2|g2gg g2g2|g2gg g2g2|g2gg g2g2|g2cd ecfe|
+e2dA dAfe|e2dB dGed|d2cB cdef|g2cd ecfe|e2dA dAfe|dcde fgab|c'2c'2c'2||
+K:D
+L:1/8
+A|d3c|e3d|fc d>B|A3A|G3e|d3c|cB f>e|ecBA|d3c|e3d|fc e>d|B3B|Bg f>e|ed A
+>d|dc f>e|ddd||
+W:sounds a bit Gilbert &SullivanCGP.|
+S:https://www.folktunefinder.com/tunes/23065
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

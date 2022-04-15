@@ -1,0 +1,29 @@
+X:2097
+T:Rolling in the Barrel
+O:ireland
+S:irtrad-l, J. Walsh, 10/94
+H:Paddy Canny and P.J. Hayes
+R:reel
+E:7
+I:speed 350
+M:C|
+K:ADor
+E2~E2 BE~E2|B2 AF DEFD|E2~E2 BE ~E2|B2Ac BEED|\
+E2~E2 BE~E2|B2 AF DEFD|E2~E2 BE ~E2|B2Ac BE~E2||
+e2 (3gfe be (3gfe|d3f a2fd|e2(3gfe be (3gfe|dBAc BE~E2|\
+e2(3gfe be (3gfe|d3f a2fd|efge fdeB|(3dcB Ac BE~E2||
+S:https://www.folktunefinder.com/tunes/42612
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

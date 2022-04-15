@@ -1,0 +1,28 @@
+X:98
+T: Buchdrucker - Orden
+N: A0456
+O: Europa, Mitteleuropa, Deutschland
+N: Rotenbucher, Bergkreyen 1551 No. 23.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2d2d2 | e4c4
+d4 | =f2f2e2d4^c2 | d6
+G2 | G2G2d2d2 | e4c4
+d4 | =f2f2e2d4^c2 | d6
+d2 | d2d2e2e2 | =f4f3
+e | d4c2_B2A2G2 | =F4z2
+f2 | =f2f2g2g2 | =f4d4z2
+d2 | _B2c4dcBAG2 | _edc_Bc2B2A4 | G6
+S:https://www.folktunefinder.com/tunes/80157
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

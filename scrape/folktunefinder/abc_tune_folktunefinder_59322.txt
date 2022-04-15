@@ -1,0 +1,28 @@
+X:435
+T:La Condesita (Arrg.)
+R:Romance
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Versin 1
+A:Asturies
+G:Arrg.
+O:Teberga
+Z:DyC en Teberga
+M:2/4
+L:1/8
+Q:1/4=60
+K:Fm
+|:"Db"F F/ F/ "Db"F F/ A/|"Fm"c c3|"Fm"c d/ c/ "Bbm"B A/ B/|"Bbm"(cB3)|
+|"Bbm"B B/ B/ "Eb"B A/ G/|"Db"(FG) "Db"A2|"Fm"c B/ A/ "Eb"B A/ G/|"Db"G-F3:|
+S:https://www.folktunefinder.com/tunes/59322
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Romance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

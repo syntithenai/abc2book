@@ -1,0 +1,26 @@
+X:130
+T: Braut Bondeli (2-32) S. 101
+N: P0905
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Magd als K\^inigstochter, Beischlaf mit dem Bruder]
+M: 3/8
+L: 1/8
+K: F
+F | FAA | AGF | G2A | Gz
+A | AGF | G2c | BAG | Fz
+A | c2A | cdc | BAG | Fz
+F | AAB | c2A | GAG | Fz
+S:https://www.folktunefinder.com/tunes/76110
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Magd als k%C3%AEnigstochter, beischlaf mit dem bruder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

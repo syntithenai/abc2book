@@ -1,0 +1,22 @@
+X: 1
+P: Alexandrovsky
+O: Russia
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Gm
+D \
+|| "Gm"GG>B | dB>A | G^F>G | "D7"A3 || AA>B | cB>A | "Gm"GG>B | d3 ||
+|| "Cm"gg>g | ge>d | cc>e | g3 || "Gm"dBd | "D7"cB>A | "Gm"G3- | Gz"F7"F ||
+|| "B"BB>d | fd>c | BA>B | "F7"c3 || cc>e | ge>c | "B"BB>d | f3 ||
+|| "Cm"gg>g | ge>d | cc>e | g3 || "Gm"dBd | "D7"cB>A | "Gm"G3- | Gz2 |]
+S:https://www.folktunefinder.com/tunes/7744
+S:http://trillian.mit.edu/~jc/music/abc/Russia/Alexandrovsky_C.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

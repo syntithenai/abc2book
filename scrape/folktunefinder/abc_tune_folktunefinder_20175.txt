@@ -1,0 +1,25 @@
+X: 1
+T: Saint Barnard's Waltz
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+"Intro"[|]\
+EF | "C"GFE | GFE | "G"DGB | "E7"ddc | "A7"B3 | "D7"A3 | "G"G3 D/^C/ D/E/ | D/D/ E/F/ G/A/ ||
+|: "G"B3 | G3 | D2^D | E2D | B3 | d3 | "Am"c3- | c3 |
+| "D7"c3 | A3 | F3 | E3 | DFA | d_dc | "G"B^AB | "D7"AFD |
+| "G"B3 | G3 | D2^D | E2D | B3 | d2^d | "C"e3- | eEF |
+| "C"GFE | GFE | "G"DGB | "E7"ddc | "A7"B3 | "D7"A3 | "G"HG3- | G"(D7)"A^A :|
+S:https://www.folktunefinder.com/tunes/20175
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SaintBarnardsW_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/SaintBarnardsW_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:335
+T: OB ICH GLEICH EIN SCHAEFER BIN
+N: E1487
+O: Europa, Mitteleuropa, Deutschland, Hessen, Dillenburg; Westerwald
+R: Staende - Lied, Hirten -,  Schaefer - Lied
+M: 4/4
+L: 1/8
+K: G
+ | G3Bd2d2 | e2e2d2z2
+c3dB2G2 | A2A2G2z2
+d2d2c2c2 | B2dBA2A2
+d2d2c2c2 | B2dBA2A2
+G3Bd2d2 | e2e2d4
+c2A2B2G2 | A2F2G2z2
+S:https://www.folktunefinder.com/tunes/79439
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, hirten -,  schaefer - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

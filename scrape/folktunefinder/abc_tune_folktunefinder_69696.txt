@@ -1,0 +1,24 @@
+X:136
+T: HOPP HOPP HOPP ICH BIN EIN REITERSMANN
+N: F0258
+O: Europa, Mitteleuropa, Deutschland, Schlesien
+R: Jugend - Lied, Kinder, Spiel, Kniereiter - Lied
+M: 4/4
+L: 1/8
+K: D
+A,A,A, | D3F,A,3G, | G,2F,2z2
+F,F, | A,2A,2G,2G,2 | E,2E,2
+G,2G,2 | B,2B,2A,2A,2 | F,2F,2
+A,2A,2 | D2D2B,2B,2 | E4
+C2A,2 | A,2A,2B,2C2 | D2z3
+S:https://www.folktunefinder.com/tunes/69696
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, kinder, spiel, kniereiter - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

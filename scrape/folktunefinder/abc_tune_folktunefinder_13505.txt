@@ -1,0 +1,36 @@
+X:1
+T:The Champion's Hornpipe
+R:hornpipe
+C:unknown, probably traditional
+S:Gavin Atkin <gmatkin:clara.net> tradtunes 2001-02-07
+M:4/4
+L:1/8
+Q:70
+K:Em
+B, \
+|  E>F   G>A .B2 e>B | ~c>B (3ABc .B2 e>B \
+|  c>B (3ABc B>A G>B | A>G (3FGA G>F ~E>D |
+|  E>F   G>A .B2 e>B | ~c>B (3ABc .B2 e>B \
+|  c>B (3ABc B>A G>B | A>G F>G .E2 E :|
+|: B \
+| (3ddd e>d .B2 G2 | (3ggg a>g .e2 c2 \
+|  D>E F>G A>B c>d | e>d ^c<d .B2 B2 |
+|  (3ddd e>d .B2 G2 | (3ggg a>g .e2 c2 \
+|  D>E F>G A>B c>d | e>d ^c<d .G2 G2 :|
+S:https://www.folktunefinder.com/tunes/13505
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/ChampionsHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/ChampionsHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ChampionsHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ChampionsHornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/hornpipe/ChampionsHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tradtunes/ChampionsHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

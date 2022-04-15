@@ -1,0 +1,26 @@
+X:5445
+T:Schottische
+M:C
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006df.html
+%%ID:000006df
+K:G
+D2EFG2AB|cBAG AdAd|D2EFG2AB\
+|1 cBAG FGEF:|2 cBAFG4::
+d2d2c2AB|cBAG FDFA|c2c2B2AG\
+|1 FGAF FDFA:|2 FGAFG4::
+A2ABc2BA|AGAcB4|A2ABc2cB|AGAFG4::
+d2de dcAc|BABcB4|d2de dcAc|BAFAG4:|
+S:https://www.folktunefinder.com/tunes/37168
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

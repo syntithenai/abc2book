@@ -1,0 +1,30 @@
+X: 1
+T: la Maison de Glace
+T: the Ice House
+C: R\'ejean Brunet
+O: Qu\'ebec
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"\
+|: "D"D3  DEF |  "D"ABA AFA |  "G"B3 Bcd  | "A7"cBA GFE | "D"D3 DEF |
+|  "D"ABA AFA |1 "G"B3  BAG | "A7"F3 EFE :|2 "G"B3  Bcd | "A(F#)"c6 ||
+"B1"\
+|: "Bm"B3   Bcd | "G"B3   Bcd | "D"fed "A"edc |1 "Bm"dcA "F#m"dcA :|2  "A"Adc "F#m"d2c ||
+"B2"\
+|: "Bm"B2B- Bcd | "G"B2B- Bcd | "D"fed "A"edc |1 "Bm"dcA "F#m"dcA :|2 "A7"Adc   "D"d3  |]
+S:https://www.folktunefinder.com/tunes/14601
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaisonDeGlace_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MaisonDeGlace_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/MaisonDeGlace_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MaisonDeGlace_D.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

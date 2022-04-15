@@ -1,0 +1,28 @@
+X: 1
+T: Yankee Doodle
+O: 1750
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: Originated in England as a song mocking Americans,  who  adopted  it  as  a
+N: military  march  to  taunt  the  British  soldiers  during  the Revolution.
+N: Supposedly also in some old collections in jig time, as Kitty Fisher's Jig.
+M: C|
+L: 1/4
+K: D
+[| "D"dd  ef |    df "A7"eA |  "D"dd     ef |    d2 "A7"c2 \
+|  "D"dd  ef | "G"gf     ed | "A7"cA     Bc | "D"d2     d2 ||
+|| "G"B>c BA |    Bc     d2 |  "D"A>B    AG |    F2     A2 \
+|  "G"B>c BA |    Bc     dB |  "D"Ad "A7"ce | "D"d2     d2 |]
+S:https://www.folktunefinder.com/tunes/15722
+S:http://trillian.mit.edu/~jc/music/abc/march/YankeeDoodle_D16.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/YankeeDoodle_D16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/YankeeDoodle_D16.abc
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/march/YankeeDoodle_D16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

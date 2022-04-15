@@ -1,0 +1,29 @@
+X:341
+T: SCHOEN ISTS UNTER FREIEM HIMMEL
+N: F0586
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Kriegs - Lied
+M: 4/4
+L: 1/16
+K: C
+G,3G, | C6G,2A,6F,2 | G,3E,C,4z4
+G,3G, | C6G,2A,6F,2 | G,3E,C,4z4
+B,3C | D6D2E6E2 | D8z4
+B,3C | D6D2E6E2 | D8z4
+G,3G, | C4G,4E,4C,4 | F,4D,4z4
+B,3C | D6B,2G,6F,2 | F,3E,E,4z4
+E,3E, | F,6F,2G,6G,2 | A,8z4
+E,3E, | F,6F,2G,6B,2 | C2
+CCC2C2D2DDD2D2 | E2
+EEE2E2D2DDD2D2 | C2E2C2E2C4
+S:https://www.folktunefinder.com/tunes/69901
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

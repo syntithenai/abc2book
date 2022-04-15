@@ -1,0 +1,25 @@
+X: 1
+T: Heilan Donald Kissed Kitty
+R: strathspey
+B: Hunter "The Fiddle Music of Scotland"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+d \
+| "G"B<G G>A B>A B<g | B<G G>A B<d "D7"A>c \
+| "G"B<G G>A B>A B<d | "C"e<g "G"d<g B<g "D7"A :|
+|: c \
+| "G"B<d de/f/ g>f e<d | B<d de/f/ g>B "D7"A>c \
+| "G"B<d de/f/ g>f e<d | "C"e<g "G"d<g B<g "D7"{B}A2 :|
+S:https://www.folktunefinder.com/tunes/19392
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HeilanDonaldKissedKitty_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HeilanDonaldKissedKitty_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

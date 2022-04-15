@@ -1,0 +1,35 @@
+X: 1
+T: Return to Camden Town
+R: Reel
+L: 1/8
+Q: 228
+M: C
+S: Mulvihill - 1st Collection (224)
+Z: Anthony Buffery <anthony.buffery@RRC.CO.UK> irtrad-l 2000-08-14
+N: Anthony writes:
+N: I have made enquiries among the older North London musicians and there  seems
+N: to  be  a  consensus  opinion  that the tune was first recorded by Joe Burke,
+N: after a trip to Camden in about 1960; and that the composer was Bobby  Casey.
+N: There  are  no  written  documents,  just  the  memories of old men, which is
+N: probably the best you will get.
+K: A Minor
+E2 DE CA, (3A,G,A, | EDCD EGAB | cBcd edeg | aged cABG | E2 DE CA, (3A,G,A, |
+EDCD EGAB | cBcd edeg |1 aged cA A2 :|2 aged cAAB ||
+|:c2 gc acgc | c2 gc BAGB | cBcd edeg | aged cAAB | c2 gc acgc |
+c2 gc BAGB | A^GAB cdea | gedB cABG :|
+S:https://www.folktunefinder.com/tunes/18022
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReturnToCamdenTown.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ReturnToCamdenTown.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Mulvihill/ReturnToCamdenTown.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ReturnToCamdenTown.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

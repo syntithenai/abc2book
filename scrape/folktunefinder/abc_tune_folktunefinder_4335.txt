@@ -1,0 +1,36 @@
+X: 1
+T: Koiviston polska
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Gm
+|:"Gm"dedc BcBA G2B2 \
+| "D7"ABAG ^FGF=E D2EF \
+| "Gm"G2^FG A2GA B2AB \
+| "Cm"c2Bc "D7"d4 [d4^F4] \
+:|"Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "Bb"d2B2 |
+| "Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "D7"d2c2 \
+||"Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G2A2 \
+| "Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G4 |]
+S:https://www.folktunefinder.com/tunes/4335
+S:http://trillian.mit.edu/~jc/music/abc/Finland/KoivistonPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/KoivistonPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/cd01/KoivistonPolska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/pols/KoivistonPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/pols/KoivistonPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tune/KoivistonPolska_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/KoivistonPolska_Gm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

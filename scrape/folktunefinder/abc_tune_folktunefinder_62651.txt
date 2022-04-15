@@ -1,0 +1,27 @@
+X:29
+T:Schottis fr\aan Porjus
+C:efter G\"oran Lindqvist
+D:J.P. Nystroms; Manifest MAN 4 (12/95)
+M:2/4
+L:1/8
+R:Schottis
+O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook, "Printed by Karen Myers"
+K:D  bass %clef=bass middle=D
+P:A
+"D"A,2A,G,|F,4|"A"E,2C,E,|"D"D,4|F,D, A,,D,|F,D, F,G,|F,2E,2|"A"E,2-E,>F,|
+G,2G,F,|E,2E,D,|C,D, C,B,,|A,,4|A,,2C,E,|A,2F,2|"D"TE,2D,2|D,4:|
+P:B
+"D"F,D, A,,D,|F,D, A,,D,|F,2F,E,|D,2E,F,|"G"G,2B,,B,,|B,,2G,G,|G,2G,F,|
+"A"E,4|"pizz.".E,2.A,,2|.E,2.A,,2|.E,2"arco"E,D,|C,2-C,>B,,|A,,2C,E,|A,2F,2|"D"TE,2D,2|D,4:|
+S:https://www.folktunefinder.com/tunes/62651
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001bass.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

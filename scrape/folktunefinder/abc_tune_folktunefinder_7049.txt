@@ -1,0 +1,31 @@
+X: 1
+T: Hasapikos Horos
+R: jig
+C: A. Sakellariou, A. Eptamenitis
+Z: John Chambers <jc:trillian.mit.edu>
+N: Fifth phrase omitted to fit Contra phrasing (64-bar jig).
+M: 6/8
+K: Gm
+L: 1/8
+|: "D"(a3 a3) | (^f3 f2)d | "Cm"^fga gfe | g^fe "D"d3 | ^f3 g3 | a3 bag | "Cm"^f2e gfe | "D"(d3 d)z2 :|
+|: "D"d3 bag | ^f2e fga | "Cm"g^fe g^fe | "D"d3 a3 | "D"d3 bag | ^f2e fga | "Cm"g^fe g^fe | "D"(d3 d)z2 :|
+|: "Cm"c=Bc d3 | ede ^f3 | ^fga gfe | "D"dcd a3 | "Cm"c=Bc d3 | ede ^f3 | ^fga gfe | "D"(d3 d)z2 :|
+%: "D7"d2=B c2=B | d2=B c2=B | d2c A2=B | "G"c3 =B3 | G2=B c2=B | G2=B c2=B | G2=B c2=B | "Am"(A3 A)z2 :|
+|: "D"^fga a2a | a2a ^fed | ^fga a2a | a2a d'3 | "D"^fga a2a | a2a ^fed | "Cm"(4d/e/f/g/ (4a/g/f/e/ | "D"d2a d2z :|
+S:https://www.folktunefinder.com/tunes/7049
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Hasapikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Hasapikos1_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Hasapikos1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Hasapikos1_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Hasapikos1_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/Hasapikos1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Hasapikos1_Gm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

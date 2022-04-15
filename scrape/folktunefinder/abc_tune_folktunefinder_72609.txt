@@ -1,0 +1,27 @@
+X:152
+T: Schon wieder toent vom Schachte her
+N: D0238
+O: Europa, Mitteleuropa, Deutschland, Oberschlesien
+N: Inzipit = Transposition zum Lied
+R: Staende - Lied, Bergmann
+M: 6/8
+L: 1/8
+K: D
+A | A2FF2F | F2DD2D | G2BdcB | c3Az
+A | A2GB2G | G2FA2A | A2AABc | e2d2z
+d | e2cA2G | F2Adz
+d | e2cA2G | F2Adz
+d | B2BdcB | A3dz
+d | c3B2c | d2FB2
+A | A3g2c | d3dz
+S:https://www.folktunefinder.com/tunes/72609
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Staende - lied, bergmann
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

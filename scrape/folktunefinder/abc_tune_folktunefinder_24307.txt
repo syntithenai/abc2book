@@ -1,0 +1,29 @@
+X:3855
+T:Lunesdale Gavotte
+O:England
+A:Northwest
+M:4/4
+%%ID:00000cb5
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cb5.abc
+K:G
+g2d2 e2c2 | ABcA B2G2 \
+|1 B2e2 d2B2 | AGAB A4 :|2 ABcd efgd | e2f2 g4 [K:D]:: \
+a2a2 a2f2 | efge f2d2 | b2gb a2f2 | dfed cB A2 |\
+a2a2 afdf | b2b2 afdf | g2g2 afdf | a2a2 d4 [K:Bm]::
+B2e2 f4 | gage f4 | b2a2 g2e2 | fgfe d2B2 |\
+B2e2 f4 | gage f4 | b2a2 gfeg | f2 fe f4:|
+S:https://www.folktunefinder.com/tunes/24307
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cb5.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key B
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

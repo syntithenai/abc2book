@@ -1,0 +1,25 @@
+X:022
+%%topmargin 3cm
+T:Mrs. MacLeod Raasay
+C:Sir Alex. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+(c/2B/2) S|:{cB}A2 {/g}a2 fefa | ec{/d}(cB) {/B}c2 c[Be] [1 {cB}A2 {/g}a2 fefa | ecTBA TB2 Bc :|
+[2 faTfe fefg | {/g}afec TB2 (Bc) |: A/2A/2A {/d}cA ecca | ec{/d}cB c2 c[Be] |
+[2A/2A/2A {/d}cA ecca | ecBA TB2 (Bc) :| [2 faTfe Tfefg | {/g}afec TBdcB S|| "Last time."B2 (Bc) |]
+S:https://www.folktunefinder.com/tunes/70767
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

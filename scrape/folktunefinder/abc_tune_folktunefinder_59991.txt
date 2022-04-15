@@ -1,0 +1,32 @@
+X:3802
+T:Danza (CT 087)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Salas.
+N:Intervienen en esta danza solamente mujeres.
+O:Salas
+A:Asturies
+Z:Cancioneru de Torner 087
+M:6/8
+L:1/8
+Q:3/8=80
+W:La bendita Madalena
+W:tien la ermita mui arriba
+W:nun puedo subir a vela,
+W:La Santa me lo reciba.
+K:C
+B2d|:dd2 c2e|e2d B2d|dc2 A2B|G3 G3-|[1 G2z B2d:|[2 G2z||
+S:https://www.folktunefinder.com/tunes/59991
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

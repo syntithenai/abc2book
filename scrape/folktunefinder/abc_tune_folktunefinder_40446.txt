@@ -1,0 +1,28 @@
+X:20
+T:bucks of aranmore
+R:reel
+C:slainte
+M:4/4
+L:1/8
+Q:1/4=224
+K:Ador
+"D"AA AF "D"A2 dB|"D"AA FA "Em"BE EE|"D"A2 FA "D"A2 AB|"D"de fd "Bm"e^c dB|
+"D"AA AF "D"A2 dB|"D"AA FA "Em"BE EE|"D"DE FG "D"AF AB|"D"de fd "Bm"e^c dB|
+"D"AA AF "D"A2 dB|"D"AA FA "Em"BE EE|"D"A2 FA "D"A2 AB|"D"de fd "Bm"e^c dB|
+"D"AA AF "D"A2 dB|"D"AA FA "Em"BE EE|"D"DE FG "D"AF AB|"D"de fd "Em"ef ge|
+"D"a2 fd "Bm"ed Bd|"D"a2 fa "Em"be ee|"D"a2 fd "Bm"ed Bd|"D"(3efg fd "Bm"ed Bd|
+"D"a2 fd "Bm"ed Bd|"D"a2 fa "Em"be ee|"D"fa (3agf "Bm"bf af|"D"de fd "Bm"ed Bd|
+"D"(3fgf df "A"(3efe de|"D"(3fgf df "Em"eB BB|"D"(3fgf df "Bm"ed Bd|"D"(3efg fd "Bm"ed Bd|
+"D"(3fgf df "A"(3efe de|"D"(3fgf df "Em"eB BB|"D"fa (3agf "Bm"bf af|"D"de fd "Bm"ed Bd|
+"D"Ad fd "D"ed fd|"D"Ad fd "Bm"ed Bd|"D"Ad fd "D"ed fd|"D"(3efg fd "Bm"ed Bd|
+"D"Ad fd "D"ed fd|"D"Ad fd "Bm"ed Bd|"D"fa (3agf "Bm"bf af|"D"de fd "Bm"ef dB|
+S:https://www.folktunefinder.com/tunes/40446
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

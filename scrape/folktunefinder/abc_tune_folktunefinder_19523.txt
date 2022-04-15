@@ -1,0 +1,28 @@
+X: 1
+T: Memories of Fr Angus MacDonell
+C: Mike MacDougall
+D: Aly Bain, Phil Cunningham "The Pearl"
+R: Strathspey
+S: arr. Terry Traub 10-16-02
+M: 4/4
+L: 1/8
+K: G
+(3DEF \
+|  "G"G2 G>A "C"G>F E<D | "G"B<d d>B d2  (3Bcd | "C"e>c "G"d>B "D"c>A "G"B<G | "C"E4- "D"E2 (3DEF |
+| "Em"G2 G>A "C"G>F E<D | "G"B<d d>B d2 "C"g>e | "G"d>B    GG    A<B | "G"G2- "C"G2- "G"G |]
+A "G7"B<d \
+|  "C"e2 e>f    g>f e<d | "G"B<d d>B d2  (3Bcd | "C"e>c "G"d>B "D"c>A "G"B<G | "C"E4- "D"E2 (3DEF |
+| "Em"G2 G>A "C"G>F E<D | "G"B<d d>B d2 "C"g>e | "G"d>B    GG    A<B | "G"G2- "C"G2- "G"G2 |]
+S:https://www.folktunefinder.com/tunes/19523
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MemoriesOfFrAngusMacDonnell_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MemoriesOfFrAngusMacDonnell_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

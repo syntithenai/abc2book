@@ -1,0 +1,24 @@
+X: 1
+T: Miss Grant of Grant
+O: Robert Mackintosh 1783
+M: C
+L: 1/8
+R: Strathspey
+S: Robert Mackintosh, 1783 collection p.34
+S: The Glen Collection of Scottish Dance Music, V.1 p.8 (1891)
+Z: AK/Fiddler's Companion
+K: G
+D | "G"G/A/B/c/ d>B "D7"c>A F>D | "G"G>B d>B g>f g>d | "C"A>e "G"d>G "D7"F>A [af]>c | "G"B/c/d "D7"A>c "G"B<G G :|
+d | "G"g2 b>g "D7"a>f d>a | "Em"g2 a/g/f/e/ "B"f>^d B>g | "C"e>a c>e "G"d>b B>d | "Am"A<e "D7"d>c "G"B<G G ||
+d | "G"g2 d>b "D7"a>f d<a | "Em"g>f e>g "B"f<^d B>g | "C"e>c B<A "G"d>B A<G | "D7"F<d A>c "G"B<G G |]
+S:https://www.folktunefinder.com/tunes/19567
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Miss_Grant_of_Grant_2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Miss_Grant_of_Grant_2_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

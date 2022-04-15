@@ -1,0 +1,44 @@
+X:836
+T:Xiraldilla (CT 270)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Navia.
+A:Asturies
+O:Navia
+Z:Cancioneru de Torner 270
+M:2/4
+L:1/8
+Q:1/4=114
+K:C
+|G3 B|d2 _ed|c2 BA|G2 G2|B2 Bc|(d2 _e)d|c2 BA|G2 G2|
+|_BB BB|c2 _BB|c2 _BB|c2 c2|dd _BA|(_BG) ^FG|_BB BA|G2 G2|
+_BB BB|c2 _BB|c2 _BB|c2 c2|dd _BA|(_BG) ^FG|_B2 BA|G2 G2||
+W:All arriba
+W:en aquella montaa,
+W:un sebastio
+W:nia te aguarda.
+W:
+W:Dile que no voy,
+W:que no voy, que se vaya,
+W:dile que no voy
+W:porque estoy enamorada;
+W:
+W:dile que no voy,
+W:que no voy, que se vaya,
+W:dile que no voy
+W:a la fuente por agua.
+W:
+S:https://www.folktunefinder.com/tunes/59723
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

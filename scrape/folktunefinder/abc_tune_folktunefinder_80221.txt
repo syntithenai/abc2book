@@ -1,0 +1,27 @@
+X:162
+T: In dulci jubilo
+N: A0528A
+O: Europa, Mitteleuropa, Deutschland
+N: Papier - Codex 15. Jh.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 6/2
+L: 1/2
+K: F
+F | F2FA2B | c3c3
+F2FA2B | c3c3
+c2dc2B | A3F2
+F | G2GA2G | F3A3
+c2dc2B | A3F2
+F | G2GA2G | F3
+G3 | D2CD2E | F3-F2
+S:https://www.folktunefinder.com/tunes/80221
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,55 @@
+X:1813
+T:Ach reine zart
+T:"Glogauer Liederbuch" no. 243
+C:anon.
+O:Germany
+B:Glogauer Liederbuch (c. 1480) no. 243
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/germany/glg243/glg243-3m.abc
+%No barlines in the original
+M:none %org. time signature: O
+L:1/8
+K:Flyd
+V:1
+z8|z8 F8 A6 B2|c8 z4 A4 A4 c4|d4 c4 A8 z4 c4|
+V:2
+z8|F,8 A,4 B,4 C6 D2|C4 A,4 D4 C4 A,8|z4 C4 C4 A,4 F,6 G,2|
+V:3
+z8|F,8 D,8 C,8|F,8 D,4 F,6 G,2 A,4|B,4 A,4 F,6 G,2 A,2 B,2 C4|
+%
+V:1
+c4 A4 G2 F2 F6 E2 E2 D2|[1F16 z8:|[2F16 z4 F4||A4 A4 F4 G4 A6 B2|
+V:2
+A,2 B,2 C4 A,4 F,4 G,8|[1F,16 z8:|[2F,8 z4 F,4 A,4 A,4||F,4 F,4 A,4 B,4 C8|
+V:3
+F,4 C,4 F,4 D,4 C,8|[1z24:|[2z4 F,4 A,4 A,4 F,8||C8 F,4 E,4 C,4 F,4|
+%
+V:1
+c8 z4 G4 A6 B2|c4 d6 cA c8 B4|c8 z8 f8-|f4 e4 c4 d4 c2 B2 A4-|
+V:2
+z4 C4 D4 E4 F6 ED|C4 F4 E4 C4 D8|C8 F6 E2 F4 C4|D4 C4 A,4 G,4 A,4 C4|
+V:3
+A,4 A,4 B,4 C4 F,8|A,4 F,4 C4 A,4 G,8|A,8|F,8|A,4 A,4|D,4 A,8 B,4 A,4 F,4|
+%
+V:1
+A4 G4 A4 F4 G4 A4|B4 c4 d4 c4 A4 B4|A4 G6 F2 F6 E2 E2 D2|F24|]
+V:2
+B,8 A,8 z4 F,4|G,4 A,4 B,4 C4 D8|C6 B,2 A,2 G,2 F,4 G,8|F,24|]
+V:3
+G,8 D,8 E,4 F,4|z4 F,4 D,4 A,4 D,4 G,2 D,2|F,4 E,4 F,4 D,4 C,8|C24|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/80969
+S:http://abc.musicaviva.com/tunes/germany/glg243/glg243-3m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/germany/glg243/glg243-3m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/germany/glg243/glg243-3m.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

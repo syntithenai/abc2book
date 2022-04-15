@@ -1,0 +1,25 @@
+X:431
+T: Soldatenelend (150), S. 330f
+N: T0319
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Junglinster, hhh Vater des Verfassers, um 1890
+R: historische, Kriegs- und Soldatenlieder]
+M: 2/4
+L: 1/8
+K: G
+ | B2BB | B2BB | BBcB | A2z
+G | FAAd | d2Ad | dAAA | A2z
+d | Bddd | deed | dBce | d2z
+B | BABc | d2Ad | dAAA | A2z2
+S:https://www.folktunefinder.com/tunes/70561
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

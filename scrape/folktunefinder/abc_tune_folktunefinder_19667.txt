@@ -1,0 +1,36 @@
+X:1
+T:South of the Grampians
+M:4/4
+L:1/8
+R:strathspey
+B:Honeyman "Strathspey, Reel and Hornpipe Tutor" (1898)
+Z:AK/Fiddler's Companion irtrad-l 2006-3-9
+K:A
+C \
+| "A"A,>B, C>D E<C E2 \
+| "D"A>E F>E "E7"A>E A<c \
+| "A"A,>B, C>D E<C E>c \
+| "Bm"(3dcB (3cBA "E7"(3GFE (3DCB, ||
+| "A"A,>B, C>D E<C E2 \
+| "D"A>E F>E "E7"A>E A<c \
+| "D"d>c d>f "A"e>c A>c \
+| "Bm"(3dcB (3cBA "E7"G<B B<c |]
+| "A"A>e c>e A<e c2 \
+| "A"A<e c<e (3Ace (3fga \
+| "A"A>e c>e A>c a>g \
+| "Bm"(3fed (3cBA "E7"Gc ||
+| "A"A>e c>e A<e c2 \
+| "A"A>e c>e (3Ace (3efg \
+| "D"(3agf "A"(3edc "D"(3fed "A"(3cBA \
+| "Bm"(3dcB "(A)"(3cBA "E7"(3GFE (3DCB, |]
+S:https://www.folktunefinder.com/tunes/19667
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SouthOfTheGrampians_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SouthOfTheGrampians_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

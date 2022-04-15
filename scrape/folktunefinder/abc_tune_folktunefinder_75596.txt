@@ -1,0 +1,29 @@
+X:33
+T:The Mode o' Wooing
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+N:original for the tune of The Blackleg Miner
+M:C
+L:1/8
+Q:1/4=100
+K:D Minor
+A|c c =B A B c d                      \
+                 d|e d  =B    A G A D>
+D|c c =B A B c d                      \
+                 d|e A (=B/A) G A B c
+E|D D  E G A2  A                      \
+                 G|E2    e2     E2  G
+G|D D  E G A2  d                      \
+                =B|c A   G    E D3 |]
+S:https://www.folktunefinder.com/tunes/75596
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:9471
+T:Legacy,The. GS.074
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Leeds
+N:The date '1831' is written on the stave after the last double bar
+H:1831
+Z:vmp.Cherri Graebe
+K:A major
+"p"A2A AEC |  e2e ecA | A2 B cBc | F2 G A3 :||:  "f" Ace a2a |
+ (gf).e (fe).c |! Ace a2a | (gf)e f2g | a2a gec | f2f ecA | A2B cBc | F2
+GA3:||
+S:https://www.folktunefinder.com/tunes/61504
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

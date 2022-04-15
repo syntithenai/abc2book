@@ -1,0 +1,25 @@
+X: 1
+T: Golden Slippers
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+AB \
+|  "Am"c2c2 cBAB | c2c2 c2AB | c2c2 d3c | "E7"c2B2 B2^GA |  B2B2 BA^GA | B2B2 B2^GA | B2d2 c2B2 |1 "Am"B2A4 \
+                                                                                               :|2 "Am"B2A6 :|
+|: "Am"E6 A2 | c2B2 A2G2 | "Dm"F6 A2 | d2c2 B2A2 | "E7"^G3E G2A2 |1 "E7"B2B2 B2E2 | "Am"A2E2 A2B2 | c8 \
+                                                                 :|2 "E7"B2B2 B2d2 | c3d c2B2 | "Am"A6 |]
+S:https://www.folktunefinder.com/tunes/17273
+S:http://trillian.mit.edu/~jc/music/abc/reel/GoldenSlippers_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/GoldenSlippers_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/GoldenSlippers_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GoldenSlippers_Am.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

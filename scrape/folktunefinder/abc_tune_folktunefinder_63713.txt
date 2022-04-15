@@ -1,0 +1,31 @@
+X:166
+T:Lucky in Love
+M:4/4
+L:1/8
+R:reel
+N:These variations are my own compositions.
+K:G
+gfgd BGGA|BGdG BAA2|gfgd BGGB|cAdc BGG2|
+gfgd BGGA|BGdG BAA2|gfgd BGGB|cAdc BGGA||
+BGdG eGdG|BGdG BAAc|BGdG eGdG|BdAc BGGA|
+BGdG eGdG|BGdG BAAB|GABd eaag|fdef gaba||
+%%text Variation 1
+~g3d BGGA|BGDG E~A3|gfgd BGGB|cAdc BGG2|
+gdBA BGGA|Bdgd e~A3|gdBA BGGB|cAdc BGGA||
+BGDG EGDG|BGDG EAAc|BGDG EGDG|BdAc BGGA|
+BGdg edBd|gedB e~A3|gedB eaab|fdef gaba||
+%%text Variation 2
+~g3d ~B3G|BGdg e~A3|gfgd BGGB|cAdc BGG2|
+gdBd gdBd|gdBd e~A3|gdBA BGGA|BdAc BGGA||
+Bded gded|Bdgd BAAc|Bded gded|BdAc BGGA|
+Bded gdeg|bgdg a~e3|defg a2ab|agfa g4||
+S:https://www.folktunefinder.com/tunes/63713
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

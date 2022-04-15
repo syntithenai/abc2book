@@ -1,0 +1,26 @@
+X: 1
+T: The Lame Duck
+S: handwritten MS
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   c \
+| B2G A2G | ABA GED | EAA A2G | EAA ABc \
+| B2G A2G | ABA GED | EGc BAB | G3  G2 :|
+|: B \
+| cde gfg | BAB GED | EAA A2G | EAA A2B \
+| cde gfg | BAB GED | EGc BAB | G3  G2 :|
+S:https://www.folktunefinder.com/tunes/14508
+S:http://trillian.mit.edu/~jc/music/abc/jig/Lame_Duck_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Lame_Duck_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

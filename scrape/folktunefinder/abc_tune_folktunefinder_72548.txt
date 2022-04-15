@@ -1,0 +1,23 @@
+X:91
+T: Hahnpfalzlied
+N: D0121
+O: Europa, Mitteleuropa, Deutschland, Bayern, Bad Kreuth
+N: Inzipit = Variante zum Lied
+R: Jaeger - Lied
+M: 3/4
+L: 1/8
+K: C
+C2 | D2F2B,2 | C2E2C2
+A2F2A2 | G2cEG2
+d2G2G2 | e3cE2
+G2D2G2 | C4
+S:https://www.folktunefinder.com/tunes/72548
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

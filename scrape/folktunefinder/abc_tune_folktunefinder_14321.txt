@@ -1,0 +1,24 @@
+X: 1
+T: Hoddom Castle
+B: Gow
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+B \
+| "C"c2c cde | "G7"f2d BAG | "C"cdc ceg | "C"gag "G7"fed \
+| "C"ecc "F"cAA | "Dm"fdd "G7"dBB | "C"cde "G7"dcB | "C"c3 c2 :|
+|: e \
+| "C"gee "Am"ecc | "Dm"fdd "G7"dBB | "C"cde "D7"dec | "G"BGG "G7"GAB \
+| "C"ccc "Dm"Add | "Em"Bee "F"cff | "G7"dgf "C"edc | "G7"dAB "C"c2 :|
+S:https://www.folktunefinder.com/tunes/14321
+S:http://trillian.mit.edu/~jc/music/abc/jig/HoddomCastle_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HoddomCastle_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

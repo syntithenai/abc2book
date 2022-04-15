@@ -1,0 +1,27 @@
+X:4041
+T:Martin Wynne's (#4,Maybe)
+O:england
+N:IrTrad, 6/99, Rick Gagne<Morse.Gagne@CONNRIVER.NET>
+N:Rick sez,'There's another D reel which I think of as
+N:"Martin Wynne's", though I can't remember where I
+N:learned it, or where I got that name.'
+M:4/4
+L:1/8
+R:Reel
+K:D
+D2FD A,DFD | E2GE B,EGE | Ddcd BAFD | E2EF EDB,C, | D2FD A,DFD |
+E2GE B,EGE | Ddcd BAFD |1 EDC,E D2A,B, ||2 EDC,E DEFA :||
+B2BA B2Bc | d2cd BAF^G | A2cA EAcA | ABce aecA | B2BA B2Bc |
+d2cd BAFE | DEFA dfec |1 dBAF EFGA ||2 dBAF EGFE :||
+S:https://www.folktunefinder.com/tunes/24493
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

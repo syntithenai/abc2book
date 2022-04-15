@@ -1,0 +1,25 @@
+X:196
+T:Le Parlement
+C:anonymous
+N:choreographie W. Dietz
+N:|:2D 2S Drehung li auf 4 Schritte:|D 2S D 2S |wieder 2D 2S Drehung li auf 4 Schritte
+N:original url: www.wolfram.claranet.de
+M:4/4
+L:1/8
+K:G
+%% writehistory true
+|:B3c BAG2| A3G FED2| EFGA B2A2|1 B8:|2 G8|
+|B2d2 Bcd2| B>cdc BAG2| A2c2 ABc2| A>BcB AGF2|
+G3F GAB2| G3F GAB2| EFGA B2A2| G8||
+S:https://www.folktunefinder.com/tunes/53161
+S:http://www.wolfram.claranet.de/wd_all.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

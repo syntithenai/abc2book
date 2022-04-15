@@ -1,0 +1,31 @@
+X: 1
+T: Polska efter Lapp Nils
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+[AD-] \
+| "D"DF Ad fd | "Em"e{fe}d eg bg \
+| "D"(3f(af) "Em"(3e(fg) "D"(3f(ed) | "A7"(3c(Bc) (3d(cB) A[AF] |
+| "D"DF Ad fd | "Em"e{fe}d eg bg \
+| "D"(3f(af) "Em"(3e(fg) "D"(3f(ed) | "A7"(3c(Bc) "D"d3 :|
+|: z \
+| "D"a2- ab ag | fe fg (3a(gf) \
+| "Em"ed (3e(fg) "D"(3f(ed) | "A7"(3c(Bc) "E7"(3d(cB) "A"A2 \
+| "D"a<g ba gf |
+| "A7"ef (3g(ag) "D"fd | (3f(af) "A7"(3e(fg) "D"(3f(ed) \
+| "A7"(3c(Bc) (3d(cB) "D"A>F | "A7"(3G(Ac) (3B(AG) "D"F>D \
+| "A7"A,2 "D"D3 :|
+S:https://www.folktunefinder.com/tunes/16455
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_LappNils_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_LappNils_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

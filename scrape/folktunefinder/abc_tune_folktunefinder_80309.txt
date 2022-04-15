@@ -1,0 +1,23 @@
+X:250
+T: Jacobslied
+N: A0610B
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Hs. Ende des 15. Jh.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: G
+_B2B2c2c2 | d3dd2z
+d | d2d2d2d2 | c2_B2c2z
+c | d2d2_B2B2 | G4=F4
+d2d2_B3c | d2_B2c2c2 | A3_Bc2z
+c | _B2A2G2B2 | AGA2G4
+S:https://www.folktunefinder.com/tunes/80309
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:399
+T: WER MOECHTE WOHL ZU GANZEN TAGEN
+N: F0729
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink -, Moral - Lied, national
+M: 4/4
+L: 1/8
+K: A
+EFG | A2A2B2G2 | A4-A
+GAB | c2A2F2^D2 | E4z
+EFE | B3BB3A | G4E
+EFG | A2A2B2B2 | c4-c
+BAG | F2B2E2G2 | A4z
+EFG | A2A2B2B2 | c4-c
+BAG | F2B2E2G2 | A4z
+S:https://www.folktunefinder.com/tunes/69959
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink -, moral - lied, national
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

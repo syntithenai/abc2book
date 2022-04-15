@@ -1,0 +1,30 @@
+X: 1
+T: the Gale Warning
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+|: cd \
+| eAAB AAcA | ceAc e2cd |1,3 eAAB AAec | dBGB d2cd \
+                       :|2,4 cedB GABG | A2AG A2  :|
+|: cd \
+| ecaf eBcd | ecaf e2cd |1,3 ecaf eBcd | dBGB d2cd \
+                       :|2,4 cedB GABG | A2AG A2  :|
+|: cB \
+| A2ce A2ce | A2ce fecB |1,3 A2ce A2ce | d2ed BAGB \
+                       :|2,4 cedB GABG | A2AG A2  :|
+|: ed \
+| ceed dccA | ceed dccA | dffe eddB | dffe eddB |
+| eggf feed | eggf feed | cedB GABG | A2AG A2  :|
+S:https://www.folktunefinder.com/tunes/17210
+S:http://trillian.mit.edu/~jc/music/abc/reel/GaleWarning_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GaleWarning_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GaleWarning_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

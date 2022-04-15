@@ -1,0 +1,25 @@
+X:500
+T: ICH WAR WOHL RECHT EIN SPRINGINSFELD
+N: F0951
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 6/8
+L: 1/8
+K: Eb
+E | D2CB,CD | EDCB,2
+B, | B,A,F,A,G,E, | B,2G,F,2
+E, | EDCB,CD | EDCB,2
+B, | CFEDCB, | E3B,z
+S:https://www.folktunefinder.com/tunes/70060
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Karjalan polkka
+R: polka
+O: trad Finland
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "D"a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \
+| "A7"e2A2 c2Ac | e2A2 c2Ac | e2g2 f2e2 |1 "D"d2c2 B2A2 :|2 "D"d2d2 d4 :|
+A2 \
+|: "D"A2BA F2A2 | d6 e2 | f2gf e2f2 | "G"g2z2 "D"f4 \
+w: | | | |~ Hej!
+| "A7"e2A2 c2Ac | e2A2 c2Ac | e2g2 f2e2 |1 "D"d2c2 B2A2 :|2 "D"d2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/4320
+S:http://trillian.mit.edu/~jc/music/abc/Finland/KarjalanP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X:7816
+T:Upon A Summer's Day
+O:england
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Bb
+d | "Gm"d2d B2G | "Gm"d3 d2=e/2f/2 | "Cm"g2f "F7"g2a | "Bb"b3 b2B | \
+"Gm"B2B A2G | "F"f3 "Bb"g3 | "Dm"a2B "F"A2G | "Gm"G3 G2 :: \
+a | "Dm"a2a f2d | "Dm"a3 a2f | "Gm"g2f "F7"g2a | "Bb"b3 b2B | \
+"Gm"B2B "Am"A2G | "Dm"f3 "Gm"g3 | "Dm"a2B "F"A2G | "Gm"G3 :|
+S:https://www.folktunefinder.com/tunes/28268
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

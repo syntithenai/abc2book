@@ -1,0 +1,24 @@
+X: 1
+T: Mor a' Cheannaich
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: GMix
+|: "G"D2 E<G "Em"B2 AE G>E "(D7)"C>D E<C \
+|  "G"D2 E<G "Em"B2 AE G>E "D"D2 D2 :|
+|: "Dm"F>D D<D "(G7)"D>E F>G | "C"E>F E>D C>D E<C \
+|  "Dm"F>D D<D "Bb"D>D F>G | "Am"A<A G>E "Dm"D2 D2 :|
+S:https://www.folktunefinder.com/tunes/19570
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MorACheannaich.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MorACheannaich_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MorACheannaich.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MorACheannaich_G.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

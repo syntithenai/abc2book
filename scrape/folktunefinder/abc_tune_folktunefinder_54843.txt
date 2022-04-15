@@ -1,0 +1,35 @@
+X:12094
+T:Nous tions dix filles dans un pr
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n133
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=115
+K:G
+ B B B | B A A G | G2 B B  | B A A G | 
+G2 A A | A D A A | A D A B | c c B A |
+[M:3/4] B G B2d2 | c c B B A A | [M:2/4] HA2 B B | B A A G | G2 B B | B A A G |
+[M:3/4] G2 G B d e |[M:2/4] (d2c2) {dc}|B2 z B | B>A B>c | (B3A) | E2 z2 ||
+W:Nous tions dix filles dans un pr,
+W:Toutes les dix  marier : 
+W:Y avait Dine, Y avait Chine,
+W:Y avait Claudine et Martine, Ah ! ah !
+W:Catherinette et Catherina ;
+W:Y avait la belle Suzon,
+W:La duchesse de Montbazon ;
+W:Y avait Madeleine ;
+W:Puis y avait la Du Maine.
+W:
+S:https://www.folktunefinder.com/tunes/54843
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

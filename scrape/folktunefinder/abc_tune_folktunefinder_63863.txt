@@ -1,0 +1,28 @@
+X: 1
+T: D\^wr Gl\^an
+T: Sweet Water
+T: ABABA
+R: hornpipe, reel
+O: Wales
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+GA \
+|| "Gm"B2Bc "D7"A2AB | "Gm"G2GA BABG | "F"A2AB "Eb"G2GA | "D7"^F2D2 F2A2 |
+|  "Gm"B2Bc "D7"A2AB | "Gm"G2GA "Eb"BABc | "D7"d2de dcBA | "Gm"G4- "fine"G2 |]
+"F7"Bc \
+| "Bb"d2de "F7"c2cd | "Gm"B2BA "Eb"Bcde | "Bb"f2d2 "F7"e2c2 | "Bb"d2B2- "Eb"B2Bc |
+| "Bb"d2de "F7"c2cd | "Gm"B2BA "Eb"Bcde | "Bb"f2d2 "F7"e2c2 | "D7"d2de "da Capo"dcBA |]
+S:https://www.folktunefinder.com/tunes/63863
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r24/DwrGlan_Gm_ABA.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r40/DwrGlan_40_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r40/DwrGlan_Gm_ABABA.abc
+% Rhythm Hornpipe, reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

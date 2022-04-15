@@ -1,0 +1,29 @@
+X:365
+T:Entemediu (MG 81)
+R:Marcha
+C:Versin de Jos La Piedra
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 81
+M:3/8
+L:1/8
+Q:3/8=60
+E:Comp.
+K:C
+c/G/
+|: EG c/G/|F2 F/E/|DG~G|[1 E2 c/G/ :|[2 E2 ~E/D/|
+|: CE F/E/|.~DD D/C/|B,D E/D/|CC ~E/D/ :|
+|: C/E/C/E/F/E/|.~DD D/C/|B,/D/B,/D/E/D/|[1 CC ~E/D/ :|[2 C2 C|
+|: EGG|F>~E D|DFF|E>~D C|CEE|D>C B,|{G}B,D D/E/|C3 :|
+S:https://www.folktunefinder.com/tunes/59252
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

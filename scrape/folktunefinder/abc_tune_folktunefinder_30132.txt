@@ -1,0 +1,25 @@
+X:0
+T:Duntroon
+S:Scots Guards pipe tune book
+M:C
+L:1/8
+Q:1/2=92
+% slower than many people play it, but the tune gets lost at high speed
+K:EDor
+e2c<e  f2 d<f|e2 c<e A<Ac2|e2 c<e f2 c<e|d2 G<d B<GB2 |
+e2c<e  f2 d<f|f>ec<e A<Ac2|d>ef>d c2 e>c|B>cd>B G<GB2||
+e>Ae>c A>Bc>d|e>fe>c A<Ac2|e>Ae>c A>Bc>A|B>cd>B G<GB2 |
+e>Ae>c A>Bc>d|e<ae>c A<Ac2|d>ef>d c2 e>c|B>cd>B G<GB2||
+A<Ac<A c<Ac<A|A<Ac<A c<Ac2|A<Ac<A c<Ac<A|B<GG<G B<GB2 |
+A<Ac<A c<Ac<A|A<Ac<e e>Ac2|d>ef>d c2 e>c|B>cd>B G<GB2||
+e<ag<a e>Ac<A|e<ag<a e>Ac2|e<ag<a e>AB<A|B<GG<G B<GB2 |
+e<ag<a e>Ac<A|e<ag>f e>Ac2|d>ef>d c2 e>c|B>cd>B G<GB2|]
+S:https://www.folktunefinder.com/tunes/30132
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

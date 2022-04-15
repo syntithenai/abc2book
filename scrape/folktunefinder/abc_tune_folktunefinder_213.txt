@@ -1,0 +1,30 @@
+X: 1
+P: Sunday River Waltz [F]
+C: Pete Sutherland
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+B: The Waltz Book I
+M: 3/4
+L: 1/8
+K: F
+FG \
+| "F"A2 c3 A | "C7"G4 FG | "F"A2 c3 A | "C7"G4 FG \
+| "Dm"A2 f4 | "C"e3 f e2 | "Bb"d3 e dc | "F"A4 FG |
+| "F"A2 c3 A | "Gm"G4 FG | "Am"A2 c4 | "Bb"d4 FG \
+| "Dm"Ad cA GF | "C7"D3 C FG | "Bb(F)"F4 FG | "F"F4 :|
+|: AB \
+| "F"c3 d fg | a6 | "Gm"g4 ga | "C7"g4 fd \
+| "F"c3 d fg | a4 (3aba | "Bb"g2 a2 f2 | "C7"g4 ag |
+| "Dm"f3 e dc | "C7"A4 cf | "Bb"d3 c BA | "Bbm"G4 FG \
+| "Dm"Ad cA GF | "Bb"D3 C "C7"AG | "Bb(F)"F3 E FG | "F"F4 :|
+S:https://www.folktunefinder.com/tunes/213
+S:http://trillian.mit.edu/~jc/music/abc/Contra/Waltz_SundayRiver.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

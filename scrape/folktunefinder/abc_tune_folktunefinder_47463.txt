@@ -1,0 +1,32 @@
+X:16188
+T:Swedish tune, unknown name
+S:Scandytour '86
+R:Other
+O:Denmark
+O:Sweden
+M:4/4
+K:D
+d2cd f2e2 | d4 A4 | B2GB ed cB | A4 F2A2 |
+|1\
+A2^GA d2A2 | F4 D2E2 | F2AG F2D2 | E8 :|2\
+d2cd e2f2 | g4 e2fe | d2cd e2c2 | d6 ||
+|: fg |\
+a3g f2e2 | d4 A2G2 | F3A d2cd | e4 f4 |\
+g3f e2d2 | c4 B4 | A2BA G2AG | F6 D2 |
+G3B d2g2 | b4 ag fe | F3A c2e2 | g4 fe dc | \
+F3 A c2e2 | g4 e2 c2 |1 d2cd f2d2 | A6 :|2 \
+d2cd f2e2 | d6 ||
+S:https://www.folktunefinder.com/tunes/47463
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

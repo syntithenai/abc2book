@@ -1,0 +1,25 @@
+X: 1
+T: An Buachaill\'in B\'an
+R: jig
+D: Jackie Daly, "Many's a Wild Night", track 2(a)
+Z: Paul de Grae 
+M: 6/8
+L: 1/8
+K: Ador
+|  "Am"EAA AGE | "G"GAB     c2d | "C"e/f/ge    ded | "G"BAB "Em"GED |
+|  "Am"EAA AGE | "G"GAB     c2d | "C"e/f/ge "G"ded | "D"BAG     A3 :||
+|: "Am"eaa aga | "G"bab "Am"ged | "Em"eag      e2A | "G"BAB "Em"GED |
+|  "Am"EAA AGE | "G"GAB     c2d | "C"e/f/ge "G"ded | "D"BAG     A3 :|
+S:https://www.folktunefinder.com/tunes/13948
+S:http://trillian.mit.edu/~jc/music/abc/jig/BuachaillinBan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BuachaillinBan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BuachaillinBan.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

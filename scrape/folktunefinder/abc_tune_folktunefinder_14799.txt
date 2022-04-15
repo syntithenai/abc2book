@@ -1,0 +1,26 @@
+X:1
+T:Old Man Dillon
+S:Scott DeLancey  irtrad-l 2000-06-01
+M:6/8
+L:1/8
+R:jig
+K:Ador
+| EAA ABd | edB c2A | BGG DGG | BdB BAG \
+| EAA ABd | edB g2g | edc Bcd | eAA A3 :|
+| gef g2a | gef gdc | BGG DGG | BdB BAG \
+| gef g2a | gef gfg | edc Bcd | eAA A3 |
+| gef g2a | gef gdc | BGG DGG | BdB BAG \
+| EAA ABd | edB g3 | edc Bcd | eAA A3 |]
+S:https://www.folktunefinder.com/tunes/14799
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldManDillon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OldManDillon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OldManDillon.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

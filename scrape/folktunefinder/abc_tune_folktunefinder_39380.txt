@@ -1,0 +1,26 @@
+X: 54
+T: Woodstock Park
+M:6/8
+R:jig
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:D
+P:A
+A|"D"dfd "A"ege|"Bm"fac d2c|"G"BAG "E"FED|"A"CEzzz A|
+"G"DFB "A"EGc|"D"FAd "G"GBe|"A"cAd d2c|"D"d3-d2:|
+P:B
+f|"D"f3 "A"edc|"Bm"dcB "F#"^A2c|"Bm"B2f edc/B/|"F#"^A3 F2d/e/|
+"Bm"fdB "F#"ec^A|"Bm"fdB "F#"ec^A|"Bm"dcB "F#"FB^A|"Bm"B3-B2c|
+"D"d3 "A"AGF|"Em"EFD "A"CEA,|"D"D>EF F>ED|"A"A3-A2A/G/|
+"D"FAd "Em"GBe|"F#m"Acf "G"Bdg|"A"cAd d2c|"D"d3-d2|]
+%%text B bars 3 to 6
+"Bm"B2f d2B|"F#"^A3 F2d/e/|"D"fdA "A"ecA|"D"fdA "D"ecA|
+S:https://www.folktunefinder.com/tunes/39380
+S:http://www.alfwarnock.info/alfs/abc/ACCW-ecd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

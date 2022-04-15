@@ -1,0 +1,29 @@
+X: 231
+T: One Sunday After Mass
+B: O'Neill's 231
+N: "Slow"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Note the extra 2-bar "phrases".
+M: 3/4
+L: 1/8
+K: D
+(F>E) \
+| D2 D2 (F>G) | A4 (Bc) | d2 f2 (ec) | d4 (dc) \
+| B>c BAFE | (D3E) (FA) | (B3d) (ce) | d4 ef  |
+|| D2 F2 A>B A4 || (AB/c/) \
+| d2 A2 A2 | d4 (cd) | e2 (cA) (B>c) | A4 (cd) |
+| .e.e e2 e2 | e4 a2 | (A3B) (AF) | A4 (fe) \
+|| dB (A/>B/d) ({f}e>d) | Hd4 ||
+S:https://www.folktunefinder.com/tunes/20130
+S:http://trillian.mit.edu/~jc/music/abc/waltz/OneSundayAfterMass.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/waltz/OneSundayAfterMass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

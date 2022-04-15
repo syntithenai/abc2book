@@ -1,0 +1,25 @@
+X:4
+T:63. Galliard: The Fairie-round
+T:Tenor
+C: Anthony Holborne
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:3/2
+%%MIDI transpose -12
+N:Original clef, C on fourth line
+K:C -8va
+|: G2 G2 A2 A2 B2 c3 A2 A B/ c/ d c G A/ B/ c G2 G2 G > A B G
+d2 G A > B c d2 G4 G4 G2 :|
+|: z2 z z G A/ B/ c > B A c > e d > c B A/ B/ c2 F
+G2 A/ B/ c2 G G3 c A2 B c d2 z2 G2 G2 C2 G2 G G2 G :|
+|:B > c d B G2 
+G > A B > c d c/ B/ A2 G2 A2 B2 G4 G2 E A D2 G3 A3 B2 c2 d2 G2 G G2 G :|
+S:https://www.folktunefinder.com/tunes/55294
+S:http://www.laymusic.org/music/holborne/fairie/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

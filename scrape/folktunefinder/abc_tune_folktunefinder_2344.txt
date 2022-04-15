@@ -1,0 +1,92 @@
+X: 1
+T: Canadian Sunset
+C: Heywood/Gimbel
+M: C|
+L: 1/8
+Q: "Smoothly"
+K: F
+% ---
+V:mel brk=2
+"FM7"z8 | z8 | z8 | z4 z2C2|
+|: "FM9"c8-|c4 (3c2A2G2| "FM7"A8-|A4z2C2|
+ "FM9"c8-|c4 (3c2A2G2| "FM7"A8-|A4z4|
+"G9" A3F F4-|F4(3F2G2F2|"Bbm7"_A3F F4-|F4"(Eb9)"G2F2|
+[1 "FM7"c8-|"Dm7"c2A2F3D|"Gm7"G8-|"C7b9"G2z2z2C2:|
+[2 "FM7" c8-|c2A2"Csus9"F3D|"F"F8-|F4z4||
+V:bass clef=bass
+F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+|: F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2zf f2z2 | G2zf f2z2 | B2zf f2z2 | B2z_e e2z2 |
+[1 F2zc c2z2 | d2zA A2z2 | G2zd d2z2 | c2zG  G2z2 |
+[2 F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 ||
+% ---
+V:mel
+"Gm7"B3G A-B3|"C9"GF2E-E4|"FM7"z2zG FG2A-|"F#dim7"A4z4|
+"Gm7"B2B2 zBGF| "C9"E3c de2c-|"FM7"c4z4|"F#dim7"(c2._e)z (A2.c) C|
+"Gm7"G3G AB3|"C9"GF2E- E2C2|"FM7"C3G F2G2|"Dm7"AEFG "E7"ABcf|
+"Am7"e2c2A2e2|"E7b9"d3A ^G=BF2|"Am7"E2E2 "Ab7"_E2E2|"Gm7"D2D2"F#7"_D2C2|
+"FM9"c8-|c4 (3c2A2G2| "FM7"A8-|A4z2C2|
+"FM9"c8-|c4 (3c2A2G2| "FM7"A8-|A4z4|
+"G9" A3F F4-|F4(3F2G2F2|"Bbm7"_A3F F4-|F4"(Eb9)"G2F2|
+"FM7" c8-|c2A2"Csus9"F3D|"F"F8-|FA,B,C DEFG|
+V:bass
+G2zd d2z2 | c2zG G2z2 | F2zc c2z2 | ^F2zc c2z2 |
+G2zd d2z2 | c2zG G2z2 | F2zc c2z2 | ^F2zc c2z2 |
+G2zd d2z2 | c2zG G2z2 | F2zc c2z2 | d2ze  e2z2 |
+A2ze e2z2 | e2z=B B2z2| A2z2 _A2z2| G2z2  _G2z2 |
+F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2zf f2z2 | G2zf f2z2 | B2zf f2z2 | B2z_e e2z2 |
+F2zc c2z2 | F2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+% ---
+V:mel
+"FM7"A2A2-A4|"Gm7"G2G2 "Gm7/C"AGED|"FM7"E2E2-E4-|"Gm7"EA,B,C "/C"DEFd|
+"FM7"c2A2GAE2|"Gm7"D2CA, "/C"CDED|"FM7"EDCA, DE-E2-|E4 zd2A|
+"G9"D2F2-F2zd|fg^ga f3d|"Bbm7"_d2(_A/G/F) AGFG | _AFGE "(Eb9)" FGA.B|
+"Am7"zCDE FGAd|"Ab7" -d c2 _A- A F2-F |"Gm7" ABBA G4 |"Gb7" z2FG (^G/A/G/=G/ .F)F |
+"FM7" Accd cF zF- |"Gm7"F>F- B>B- "/C"d2z2 |"FM7" z2ed cAGF |"Gm7"z2BG "/C"edcd |
+"FM7" eded A2 cF |"Gm7"GBde-"/C"e2dB  |"FM7"(c/B/A- A4) z E | FGAB cdef |
+"G9" Mg2eg e2ce | c2Ac A2 F2   |"Bb9" f2f4FF | c2c4_AB |
+"FM7" cB_AG FC z2 |"Gm7" zCF_A "/C"=Bc_BA |"FM7" c2_AG FC-C2 | z4 =A2c2 ||
+% ---
+"Gm" dBG2-"Gm#7"G^F2D |"Gm7" =Fd2F "C9"E3E |"Am" AceA "Am#7"^Ge2G |"Am7" =G2eG "D9"^F2z2    |
+"Gm" zGBd "Gm#7"^Fd2F  |"Gm7" =FDFD "C9"EDED |"FM7" Fc2C DEFG |"F#dim7" ECD^D EBA^D |
+"Gm7" BABA BAGA |"C9" G2^FG AGFG |"FM7" c2C2A2ze |"Abdim7" g2ef e2de |
+"Am7" c2^GA ^DECD |"E7b9" E2A^G FEFD |"Am7"EAce "Ab7"_ec_G_E | "Gm7"DGBd "F#7" cBcB |
+"FM7" AC-C4 z2 |"Gm7"zGBd"/C"g3e/g/ |"FM7"e4z4 |"Gm7"zGAB "/C"cBAF |
+"FM7" G-Bc-e g2cB |"Gm7"G2 zG "/C"Bdfg |"FM7"aged cAGF | G2zG FGAc |
+"G9" eded eded | ed_AG FD z2 |"Bbm7"_d3d- A2GF | _ABAG FAGF |
+"FM7" =Ac-c2 z2f>a |"Gm7"Mb2Ma2 "/C"Mf2 McMB |"F6" MAMF-F2-F4- | F4z4 ||
+% -- bass for chorus
+V:bass
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | G2zc c2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2zf f2z2 | G2zf f2z2 | B2zf f2z2 | B2z_e e2z2 |
+A2ze e2z2 | _A2z_e e2z2 | G2zd d2z2 | _G2z_d d2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | G2zc c2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2zf f2z2 | G2zf f2z2 | B2zf f2z2 | B2zf f2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2z2 ^F2z2 | =F2z2 E2z2 | A2z2 _A2z2 | G2z2 ^F2z2 |
+G2z2 ^F2z2 | =F2z2 E2z2 | F2zc c2z2 | ^F2zc c2z2 |
+G2zd d2z2 | c2zG G2z2 | F2zc c2z2 | _A2zd d2z2 |
+A2zd d2z2 | e2z=B B2z2 | A2zA _A2z2 | G2z2 ^F2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | G2zc c2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | F2zc c2z2 |
+G2zf f2z2 | G2zf f2z2 | B2zf f2z2 | B2z_e e2z2 |
+F2zc c2z2 | G2zc c2z2 | F2zc c2z2 | F2zc c2z2 ||
+S:https://www.folktunefinder.com/tunes/2344
+S:http://trillian.mit.edu/~jc/music/abc/test/CanadianSunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/ABC2PS-14x2/canadian_sunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abc2ps/canadian_sunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/CanadianSunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/CanadianSunset.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/CanadianSunset.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:672
+T: Planxty O'Carolan
+C:Turlough O'Carolan
+B:O'Neill's 668
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Moderate"
+N:2nd part has 26 bars.
+M:6/8
+L:1/8
+K:G
+G \
+| B2c dcB | cBA (B/c/d)z | e3 dcB | cBA (B/c/d)z |
+| g3 fed | (d/e/=f2) edc | (c/d/e2) dcB | ABG F2 ||
+|| d \
+| GAB cde | =fed e2G | E2G (F/G/A)F | (G/A/B)G Az c |
+| e2c ABc | (d/c/B)A GAB | c>dc cBA | B3 z2d |
+| g>fg d>cd |B3 z2G | dcB AGF | E3 c2 | BAG EAF | G3 z2 |]
+S:https://www.folktunefinder.com/tunes/73831
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

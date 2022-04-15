@@ -1,0 +1,33 @@
+X: 1
+T: Ach wie ist's m\"oglich dann
+C: Georg Heinrich Luz
+C: Helmiine von Chezy
+M: 2/4
+L: 1/8
+K: G
+[| B2  GE | DG G2 | A2 GA | BE D2 |
+w: 1.~Ach wie ist's m\"og-lich dann | Da\ss ich dich las-sen kann
+w: 2.~Blau ist ein Bl\"u-me-lein,   | Hei\ss-et Ver-gi\ss-nicht-mein:
+w: 3.~W\"ar' ich ein V\"o-ge-lein,  | Wollt' ich bald bei dir sein,
+|  D2 ^CD | Ec B2 | A2 BA | D4    ||
+w: 1.~Hab' dich von Her-zen lieb       | Das glau-be mir
+w: 2.~Leg' es an's Her-ze dein         | Und denk' an mich!
+w: 3.~Scheut' Falk und Ha-bicht nicht, | Fl\"og' schnell zu dir.
+|| A2  BA | GE D2 | B2 cB | EB A2 |
+w: 1.~Du hast die See-le mein            | So ganz ge-nom-men ein
+w: 2.~Stirbt Blum' und Hoff-nung gleich, | Wir sind an Lie-be reich;
+w: 3.~Sch\"o\ss mich ein J\"a-ger tot,   | S\"ank' ich in dein-en Scho\ss;
+|  D2  ED | Dc B2 | A2 EF | G4    |]
+w: 1.~Da ich kein' And-'re lieb'    | Als dich al-lein.
+w: 2.~Denn die stirbt nie bei mir,  | Das glau-be mir!
+w: 3.~S\"ah'st du mich traur-ig an, | Gern st\"urb' ich dann!
+S:https://www.folktunefinder.com/tunes/18558
+S:http://trillian.mit.edu/~jc/music/abc/song/Ach_wie_ists_moglich_dann_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/song/Ach_wie_ists_moglich_dann_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

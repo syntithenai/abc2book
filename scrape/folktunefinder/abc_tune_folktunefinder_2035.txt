@@ -1,0 +1,37 @@
+X: 98
+T:Hymn tune for Christmas. JMP.098
+T:Christmas Hymn Tune. JMP.098
+T:While Shepherds Watched,aka. JMP.098
+M:3/4
+L:1/4
+Q:80
+C:While Shepherds Watched,aka
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hymn
+O:Scotland
+A:Perth
+N:The words are, of course, While Shepherds watched"
+N:Would that I could enter them but the 'words' box has disappeared
+H:1799
+Z:vmp.C.  Graebe
+K:G Major
+(G/A) | (BA)G | (dc) (B/A/) | G2 F/G/4A/4 | G2 (A/B/4c/4) |!
+(BA) (G/A/) | B2 (^c/d/4e/4) | d2 || (d/c/) | (B/c/) (d/B/)G |!
+(A/B/) (cB) | (A/G/) (GF) |\
+L:1/8
+D2 (G>AB>cd) |!d4 B2 | (c>Bc>de>d) |\
+L:1/4
+cB (ABG) (F/G/4A/4) G |]
+S:https://www.folktunefinder.com/tunes/2035
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Hymn
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

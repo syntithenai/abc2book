@@ -1,0 +1,38 @@
+X:4495
+T:Polonais fr Sexdrega
+M:3/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+R:Slngpolska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b70.html
+%%ID:00000b70
+K:D
+DD/F/ EE/F/ D2 | AA/c/ BB/c/ A2 | \
+d>(c d)uf ed | (c/d/)c/B/ (A/B/A/G/) FE|\
+DD/F/ EE/F/ D2 | AA/c/ BB/c/ A2 |
+d>(c d)uf ed | (c/d/)e/c/ d2 z2 ::\
+(f/g/)f/e/ dc B2 | (e/f/)e/d/ cB A>(A | \
+B)B/d/ (cA) BG| A2 A4 |
+Ad (A/B/)A/G/ FD| EG (E/F/)E/D/ B,A,| \
+(D/E/)F/G/ (A/B/)c/d/ (e/f/)(g/e/)| (f/e/)d/c/ d2 z2:|
+DD/D/ DD/D/ D2| A,2B,2C2 | \
+D>(E F)uA GF| (E/F/)E/D/ (C/D/)C/B,/ A,C|\
+DD/D/ DD/D/ D2 | A,2 B,2 C2 | \
+D>(EF)uA GF | (E/F/)G/E/ F2z2 ::\
+(d/e/)d/c/ BA G2 | (c/d/)c/B/ AG F>(F |\
+G)G/B/ (AF) GE | C2C4 |\
+FA (F/G/)F/E/ DF | GG (G/A/)G/F/ GG | \
+(F/G/)A/B/ (c/d/)e/f/ (g/a/)(b/g/)| (a/g/)f/e/ d2 z2 :|
+S:https://www.folktunefinder.com/tunes/36978
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

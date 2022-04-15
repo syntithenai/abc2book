@@ -1,0 +1,25 @@
+X:240
+T: Vom geistlichen Jaeger
+N: A0598
+O: Europa, Mitteleuropa, Deutschland
+N: Speiersches Gsgb 1617 fol. 1
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: F
+F2 | F2G2A2B2 | c4c4z2
+c2 | B2A2B2c2B4 | A4z2
+A2 | A2c2B2A2 | G2F2E4
+F3F | A2B2A2G2 | F6
+S:https://www.folktunefinder.com/tunes/80299
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

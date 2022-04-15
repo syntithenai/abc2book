@@ -1,0 +1,33 @@
+X: 9
+T: Christian Catto
+C: Allan Kindness
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 41-1
+M: 6/8
+L: 1/8
+K: F
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 "D7"d3 \
+| "Gm"G^FG BAB | "Gm"g2f "(G7)"e2d | "C"c=Bc "C7"d2c | "F"A3 A2 ||
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 d3 \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+A \
+| "Dm"A2d d^cd | "A7"f2e "Dm"d3 | "Dm"A2f "A7"efe | "Dm"d3 d3 \
+| "C"G2c c=Bc | "G7"e2d "C"c3 | "G"g^fg "G7"=fed | "C7"cdc BAG |
+y \
+| "F"FAc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 d3 \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/12662
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/new.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

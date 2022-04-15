@@ -1,0 +1,22 @@
+X:4
+T:I Looked East and I Looked West
+D:Julia and Billy Clifford, "Ceol as Sliabh Luachra"
+R:polka
+M:2/4
+L:1/8
+K:G
+| GB BA/G/ | FA AB/A/ | GA Bc | d2 cA |
+| GB BA/G/ | FA DA/B/ | cA FA |1 G2 GD :|2  G2 GB |
+|: dg fe | fA A>B | cd ef | g2 fe |
+| dg fe | fA A>B | ca FA | G2 G2 :|
+S:https://www.folktunefinder.com/tunes/16106
+S:http://trillian.mit.edu/~jc/music/abc/polka/ILookedEastAndILookedWest.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/ILookedEastAndILookedWest.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

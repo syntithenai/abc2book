@@ -1,0 +1,25 @@
+X:244
+T: Susanna, willt du mit
+N: A0290A
+O: Europa, Mitteleuropa, Deutschland
+N: Calvisius Harmonia Cantionum Ecclesiasticum 1597 No. 77
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+G2 | _BGBc | d3
+G | _BGBc | d3
+d | dddd | _BBA
+G | cccd | _BBA
+d | dc_BA | G3
+d | dc_BA | G2
+S:https://www.folktunefinder.com/tunes/68790
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

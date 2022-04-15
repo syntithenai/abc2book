@@ -1,0 +1,31 @@
+X: 1
+T: Tail Toddle Reel
+C: William Nesbit
+N: Mel Bay 224 (in A)
+N: Carlin #224 (in A, as strathspey, attr. to "William Nisbet")
+N: Kerr's 4th p.10 (in D)
+N: BSFC XI-7 in D)
+D: Fiddlers 32 A6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"~d2 fd "G"g2 fe | "D"~d2 fd "A7"e2 cA | "D"~d2 fd "G"g2 fe | "D"(3fga gf "A7"e2 cA :|
+|: "G"g2 dB ~B2 dB | g2 dB "A7"e2 cA | "G"g2 dB ~B2 dB | "A7"~A2 af e2 cA :|
+S:https://www.folktunefinder.com/tunes/18186
+S:http://trillian.mit.edu/~jc/music/abc/reel/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Nesbit/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TailToddleR.abc
+S:http://trillian.mit.edu/~jc/music/book/500/TailToddle.abc
+S:http://trillian.mit.edu/~jc/music/book/500/TailToddleR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

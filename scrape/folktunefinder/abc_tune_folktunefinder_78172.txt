@@ -1,0 +1,32 @@
+X:151
+T: DA DRAUSSEN DA WEHEN DIE WINDE SO FRISCH
+N: B0181
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied, Landleben
+M: 3/4
+L: 1/8
+K: C
+E2 | F3A,B,2 | C2E,2
+G,2 | F,2D,2A,2 | A,2G,3
+E | F3A,B,2 | C2E,2
+G,2 | F,2D,2F,2 | E,2z2
+E2 | D3CC2 | B,2D2
+D2 | A,2C2C2 | B,ED2
+E2 | D3CC2 | B,2D2
+D2 | A,2D2D2 | B,2z2
+E2 | FED2A,B, | C3E,
+G,2 | F,2D,2A,2 | A,2G,2
+E2 | FED2A,B, | C3E,
+G,2 | F,2D,2B,2 | C2z2
+S:https://www.folktunefinder.com/tunes/78172
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Natur - lied, landleben
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

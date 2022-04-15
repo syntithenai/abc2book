@@ -1,0 +1,33 @@
+X: 25
+T:Portsmouth,aka. HA.026
+M:C
+L:1/8
+Q:200
+C:Untitled in MS
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+N:This appears in Playford eds 11(1701) and all subsequent.CGP
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:F
+C2|"cr"F3G "2 sharps in MS"(AG) (FE)|\
+D4 d2e2|"cr"f3c (dc) (BA)|"Min."G6C2|!
+"cr"F3G (AG) (FE)|D4 d4|(cd) (cA) (GF) (GA)|"Min"F6||!
+c2|"cr"f3g (ag) (fe)|"cr"f3c A2(GF)|f2c2 (dc) (BA)|"min."G6C2|!
+"cr"F3G (AG) (FE)|D4 d4|(cd) (cA) (GF) (GA)|"Min"F6|]
+W:cr=crotchet,min=minim, in MS
+S:https://www.folktunefinder.com/tunes/72274
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

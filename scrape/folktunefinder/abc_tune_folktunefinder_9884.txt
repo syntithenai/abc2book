@@ -1,0 +1,25 @@
+X: 1
+P: Ian Pullman's Special
+C: Peter Elmes
+R: polka, reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+[| "D"d2FA BAFA | f2e2 d2A2 | BAFA d2F2 | "Em"G6 EF | "A7"GAGF EFGE | e3f e2c2 |
+| "A7"ABcB AceA | "D"f6 FG || "D"A2FA BAFA | fAFA B2A2 | DFAF "D7"DA^GA | "G"B6 GF |
+| "A7"E2GA cA^GA | e2d2 c2A2 | EFGA cABc | "D"d6 FG || "D"A2DF A2FG | Afed A2F2 |
+| "D"DEFA d2c2 | "Em"G6 EF | "A7"GA,CE GE^DE | CEGA e2c2 | ABAG FEDE | "D"F6 FG || "D"A2DF A2FG |
+| "D"Afed A2F2 | DEFA "D7"d2A2 | "G"B6 EF | "A7"GECE A,CEG | c2A2 G2E2 | CEGA cAfe | "D"d6 z2 |]
+S:https://www.folktunefinder.com/tunes/9884
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AndrewsDance2.abc
+% Rhythm Polka, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

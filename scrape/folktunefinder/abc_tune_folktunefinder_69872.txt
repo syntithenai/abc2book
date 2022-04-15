@@ -1,0 +1,34 @@
+X:312
+T: LASSET DIE FEURIGEN BOMBEN ERSCHALLEN
+N: F0539
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten -, Trink - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G4G3A | B4B2B2 | A3GA2B2 | G4D4
+B4B4 | d6d2 | c3Bc3d | B4z4
+G4G3A | B4B2B2 | A3GA2B2 | G4D4
+B4B4 | d6d2 | c3Bc3d | B4z4
+d2d2d2d2 | e4e4 | c4c4 | d4d4
+B4B4 | c4c4 | A4A2B2 | G4z4
+d4d4 | e4e4 | c4c4 | d4d4
+B4B4 | c4c4 | A4A2B2 | G4z4
+d8 | e8
+c8 | d8
+d8 | e8
+c8 | d8
+d4d2d2 | e4e4 | c2c2c2c2 | d8
+B4B2B2 | c4c4 | A3GA3B | G4z4
+d4d2d2 | e4e4 | c2c2c2c2 | d8
+B4B2B2 | c4c4 | A3GA3B | G4z4
+S:https://www.folktunefinder.com/tunes/69872
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Malamute's Fancy Hornpipe
+M: 4/4
+L: 1/8
+C: Bill Black irtrad-l 2000-05-19
+H: A malamute is a large wolf-like dog bred to pull sleds in Alaska.
+H: In the privacy of their packs - especially during full moons  -
+H: they also perform a strange ritual that the local people say
+H: resembles dancing. Malamutes seem to favor Kerry sets, but things
+H: get a little complicated sometimes because of the "2 feet human /
+H: 4 paws dog" discrepancy that gets discussed on the dance list a lot.
+R: hornpipe
+K: G
+D | GBBA BGEG | Bggf gdBd | cBAd BGGB | AGAB cAFD |
+GBBA BGEG | Bggf gdBG | EAAB cGEG | FADF G3 :|
+A | (3Bcd ef gfge | dBGB AGEF | GBdg afdf | gfge d2 dc |
+(3bcd ef gfge | dBGB ABce | dgfg efge | dBcA G3 :|
+S:https://www.folktunefinder.com/tunes/13622
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MalamutesFancyHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/MalamutesFancyHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/MalamutesFancyHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MalamutesFancyHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

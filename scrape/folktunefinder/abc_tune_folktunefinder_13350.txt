@@ -1,0 +1,29 @@
+X: 1
+T: the Warrior's Return
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: D
+"A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 B "D"A2 "A7"FE | "Bm"D2 EF "Em"G2 B2 | "A"A6 "A7"A2 |
+| "D"A2 F2 A2 Bc | "G"d3 c "Em"B2 cd | "A"e2 cA "E7"E2 F^G | "A"A6 ||
+"A"A2 \
+| "Em"G2 A2 "A7"e3 G | "D"F2 "A7"A2 "D"d2 dc | "G"B2 Bc d2 e2 | "F#"f6 dc |
+| "G"B>^A Bc "Em"ed cB | "D"A2 F2 "Bm"A2 df | "D"a2 fd "A7"A2 Bc | "D"d2-"G"d2-"D"d2 |]
+S:https://www.folktunefinder.com/tunes/13350
+S:http://trillian.mit.edu/~jc/music/abc/air/WarriorsReturn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/WarriorsReturn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/WarriorsReturn_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/WarriorsReturn_D.abc
+% Rhythm Air, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

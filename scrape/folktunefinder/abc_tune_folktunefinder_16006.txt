@@ -1,0 +1,32 @@
+X: 1
+T: Belle Rivi\`ere
+C: Eric Favreau
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+N: From a printed transcription by Rachel A., 2009
+M: 6/8
+L: 1/8
+K: D
+[| "D"D3  FDF | "D"ABA ABc | "D"d3  ded |"A7"cdc "G"BcB \
+| "Em"E2F GFE |"A7"c3- c2B |"A7"AGA BAG | "D"FAd    A3  ||
+|| "D"D3  FDF | "D"ABA ABc | "D"d3  ded |"A7"cBA    e3  \
+| "Em"BAB e2B | "D"AFA d2B |"A7"ABA GFE | "D"DFA    d2f |]
+[| "D"f2e e2d | "D"d3  Ade | "D"fdf fdf | "G"gag    B3  \
+| "Em"g3  gfe |"A7"c3  c3B |"A7"AGA BAG | "D"FAd    A2f ||
+|| "D"f2e e2d | "D"d3  Ade | "D"fdf fdf | "G"gag    B3  \
+| "Em"g3  gfe | "D"a3  a2f |"A7"gec ABc | "D"dAF    D2z |]
+S:https://www.folktunefinder.com/tunes/16006
+S:http://trillian.mit.edu/~jc/music/abc/new/BelleRiviere_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/BelleRiviere_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/new/BelleRiviere_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/new/BelleRiviere_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/BelleRiviere_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

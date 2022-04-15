@@ -1,0 +1,31 @@
+X: 1
+T: Polska fr\aan Boda
+O: efter Andrea Hoad & Loretta Kelley)
+D: Azalea City ACCD 9601 [11/96]
+S: from a transcription by Karen Myers
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+%%slurgraces
+K: A
+B2 \
+|: "A"c4 (E3A) c2(Bc) | "D"{c}d4 (F3A) d2(cd) | "E"e3(e f3)(f g3)g \
+|1,3 "A"a3(g a2)gf e3d :|2 {g}a4 a6 d2 :|4 {g}a2 a8 |]
+|: "A"d3a {a}c'4 (e3a) | "E"a2gf g8 | (g3a) b4 a3g | {g}f4 d6 (f2- \
+| "D"fa3) (e3d) c3d | {d}e4 e6 (a2 | g4) "E"{g}b2ge f3g | "A"{g}a4 a8 :|
+S:https://www.folktunefinder.com/tunes/16007
+S:http://trillian.mit.edu/~jc/music/abc/new/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/new/BodaPolska4_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/new/BodaPolska4_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 2
+P: Drmes iz Zdencine (in D)
+O: Croatia
+R: drmesh
+M: C|
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: D
+|: [fd] \
+| "A"[ge][fd][ec][dA] "D"[f3d3][dA] | "A"[dA][ec][fd][ge] "D"[a3f3][fd] \
+| "A"[ge][fd][ec][dA] "D"[f3d3][dA] | "A"[ec][dA][ec][fd] "D"[d3A3] :|
+|: [fd] \
+| "G"[gd][fd][gd][bg] "D"[a3f3][fd] | "G"[gd][fd][gd][bg] "D"[a3f3][fd] \
+| "G"[gd][fd][gd][bg] "D"[a3f3][fd] | "A"[ge][fd][e2c2] "D"[d3A3] :|
+S:https://www.folktunefinder.com/tunes/2813
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/DrmesIzZdencine.abc
+% Rhythm Drmesh
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

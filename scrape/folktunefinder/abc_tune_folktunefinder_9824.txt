@@ -1,0 +1,33 @@
+X: 3
+P: Sarona
+C:J.S.Skinner
+R:Air/Strathspey
+S:Anselm Lingnau 
+D: Album                Musician        Track Tune
+D: Dancing Forth        Gordon Shand      14   3
+D: Highlander, Vol 2    Neil Barron        6   2
+D: Highlander, Vol 3    David Cunningham   6   8
+D: Highlander, Vol 5    Iain MacPhail      6   6
+D: Scottish Dance Music Music Makars       4   1 (Lead Tune!)
+D: Special requests 2   Colin Dewar       12   2
+M:4/4
+L:1/8
+K:D
+| "D"F3 E D2 F2 | "F#m"A3 G F2 A2 |1 "G"d3 c B2 A2 | "D"dA GF "A7"F2 E2 \
+                                 :|2 "G"d3 c "D"dA GF | "A7"F2 E2 "D"D4 ||
+|| "D"A2 d2 "A7"c2 de | "Bm"d3 A G2 F2 | "Em"EFGA "(Bm)"BcdA | "G"Bc/d/ GF "A7"F2 E2 |
+|  "D"F3 E D2 F2 | "F#m"A3 G F2 A2 | "G(Bm)"d3 c "D(Em)"dA GF | "A7"F2 E2 "D"D4 |]
+S:https://www.folktunefinder.com/tunes/9824
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AMansAManForAThat.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RobsonStr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/RobsonStrathspey1.abc
+% Rhythm Air/strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

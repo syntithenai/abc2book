@@ -1,0 +1,42 @@
+X:2329
+T: Busindre Reel
+C: Jos Angel Hevia
+M: 4/4
+L: 1/8
+Q: 1/4=200
+K: F % 1 flats
+V: 1
+z8|z8|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dd gd af|dd dg da gf|
+ec ce gc eg|ef fe fe fa|ff fd cd fc|df fd cd fd|
+ee ed cd eg|_a=a ag2a fa|ff fd cd fc|df fd cd fd|
+ee dc cd eg|ac ga f3/2z/2 ac|ff fd cd fc|df fd cd fd|
+ee ed cd eg|_a=a ag2a fa|ff fd cd fc|df fd cd fd|
+ee dc cd eg|ac ga f3/2z/2 ac|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dd gd af|dd dg da gf|
+ec ce gc eg|ef fe fe fa|bd fb df bd|fa cf ac fa|
+eg ce gc eg|ba gf ef ga|bd fb df bd|fa cf ac fa|
+eg ce gc eg|ef fe fe/2d/2 e/2f/2g/2a/2|bd fb df bd|fa cf ac fa|
+eg ce gc eg|ba gf ef ga|bd fb df bd|fa cf ac fa|
+eg ce gc eg|ef fe fe/2d/2 e/2f/2g/2a/2|bd dd bd fb|ac fa cf ac|
+gc eg ce ge|ff ef3 z2|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|fe fg af fa|dd dg da gf|dd dg da gf|
+ec ce gc eg|ef fe fe fa|dd dd gd af|dd dg da gf|
+ec ce gc eg|ef fe fe fa|d8-|d3/2|
+S:https://www.folktunefinder.com/tunes/57268
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1
+T:Washerwoman's Branle
+M:C|
+L:1/4
+R:Branle
+B:Thoinot Arbeau: Orchesographie, 1589
+Z:Steve Mansfield March 2001
+%F:http://www.lesession.co.uk/music/Orchesography.abc 2007-04-27 10:26:43 UT
+K:GDor
+GG GG | FF B2 | cB AG | GF G2 :: Gd Bd | cB AG ::
+GG F2 | G2 A2 | AA AB | cB AG | GG F2 | G2 A2 | cB AG | GF G2 :|
+%%newpage
+%%center Miscellaneous
+S:https://www.folktunefinder.com/tunes/52048
+S:http://www.lesession.co.uk/music/Orchesography.abc
+S:http://michel.bellon.free.fr/Musique/abc/cam-french.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Branle
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:135
+T:Seanahmac Tube Station
+R:jig
+C:John Carty
+S:Rory, Ben Nevis Bar, Glasgow
+Z:robin.beech@mcgill.ca
+M:6/8
+K:Gdor
+G2D DCD | GAc d3 | dcA cAF | GFD CDF |
+GFD DCD | GAc dce | dcA c2A |1 G2 A BdA :|2 GAG GAc |
+d3 dcA | cdc cAc | dcA cAF | GFD Cfe |
+dfd dcA | cdc A2c | d2A c2A | GAG GAc |
+d3 dcA | cdc cAc | dcA cAF | GFD CDF |
+GFD GFD | GFD GFD | dcA dcA | GAG  GAc ||
+dgg gag | f2g a2g | gfd c2d | cAF G2c |
+dgg gag | f2g a2g | gfd cAF | G3 G2c |
+dgg gag | f2g a2g | gfd c2d | cAF G2A |
+GFD GFD | GFD GFD | dcA dcA | G2A BdA |]
+S:https://www.folktunefinder.com/tunes/53792
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

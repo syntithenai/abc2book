@@ -1,0 +1,32 @@
+X:401
+T:Floru (MG 39)
+R:Floru
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 39
+M:Llibre
+L:1/8
+Q:2/4=100
+E:Nivel 4
+K:C
+G8 A4 _A2 G2 F2 {G}~F2 ~E2 F2 G2 {=A}~G2 ^F2 =F2 G {F}E2 D2
+C2 F4 E2 F2 ~D4 B,2 C4 ED (C4 ~C2) B,CDEGc
+e4 f4 ~ed fed fed ~e2 d c2 ~d2 B c4
+BcBG=A FGAF ~G2 EFG EFEDEFD G4
+cGFGAF G2 FEFGE FEDEFD EDCDEC
+DCB,CDE FGF EFG EFE CEFDED
+CB,~D C4 {F}~ED C4
+S:https://www.folktunefinder.com/tunes/59288
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Floru
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

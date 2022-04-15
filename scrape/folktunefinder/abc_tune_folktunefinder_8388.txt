@@ -1,0 +1,22 @@
+X: 183
+P: Senpolska fr\aan Torp #3
+R: Polska
+O: efter N.Olsson
+M: 3/4
+L: 1/16
+B: Bygdedanser fr\aan Bohusl\"an, Dalanra, G\"astrikland, V\"armland och V\"asterg\"otland (1975)
+K: A
+|: "A"{E}A3c e4 c3e | "A"{ab}a2gf e4 c3e  | "E7"d3c B3A G3B \
+|1,3 "A"B2cB A2c2 [E4A,4] :|2,4 "E7"[B2E2]cB "A"A4 :|
+|: "D"(3abaf2 d2f2 d2f2 | "A"{fg}f2ed c2e2 c2e2 | "E7"{cd}c3{dc}B B3A G2B2 \
+|1,3 "A"e2fg a3e c2A2 :|2,4 "E7"e2fg "A"a4 :|
+S:https://www.folktunefinder.com/tunes/8388
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

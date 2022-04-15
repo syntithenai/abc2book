@@ -1,0 +1,30 @@
+X:47
+T:Captain Bover
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:3/4
+L:1/8
+K:G
+   G2    F> G     A2  |                        \
+                       (B>d) (c/B/) (A/G/) F D|
+   G2    F> G     A2  |                        \
+                       (B>d) (d/c/) (A/F/) G2||
+   B> d  d> e     c  A|                        \
+                        B G  (c/B/) (A/G/) F D|
+   B> d  d> e     c  A|                        \
+                        B G  (d/c/) (A/F/) G2 |
+   B> d =f (e/d/) c  A|                        \
+                        B G  (c/B/) (A/G/) F D/
+D/|G> G  F  G     A>                           \
+                     G| B d  (d/c/) (A/F/) G2|]
+S:https://www.folktunefinder.com/tunes/75610
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

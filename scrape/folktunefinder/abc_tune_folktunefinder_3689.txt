@@ -1,0 +1,23 @@
+X: 1
+T: The Chocolate Round O
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+Q: 1/2=110
+K: Gm
+d2 \
+| "Gm"G2A2 "D7"D=E^FD | "Gm"GABc d2B2 | "Cm"c2d2 "F7"egfe | "Bb"d2B2 "D7"z2d2 | "Gm"G2A2 "D7"D=E^FD |
+| "Gm"G2d2 z2B2 | "Cm"c2d2 edcB |1 "D7"A6 :|2 "F7"c6 |: "(Bb)"B2 | "Bb"f2g2 "F7"cdef | "Bb"d2B2 z2B2 |
+| "F7"f2g2 "Cm"cBAG | "D"d4 z2d2 | "Cm"e2ed "G7"c2=B2 | "Cm"c2cd "G7"e2d2 | "Cm"cBAG "D7"^F2d2 | "Gm"B2 G4 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/3689
+S:http://trillian.mit.edu/~jc/music/abc/England/ChocolateRoundO.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

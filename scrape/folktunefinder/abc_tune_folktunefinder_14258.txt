@@ -1,0 +1,28 @@
+X:1
+T:Good Morning, You Would Like Some Tea
+R:Jig
+Z:From Rufus Guinchard
+Z:by Gerry Strong <gerry.strong:nf.sympatico.ca> irtrad-l 2001-01-04
+M:6/8
+L:1/8
+K:G
+d2 c \
+|: BGG B2 d | g2 g f2 e | ded B2 A | G2 G A2 B \
+| c2 e edc |1 B2 d dBG | A2 c B2 G | A3 d2 c \
+:|2 B2 d g2 a | bgb a2 f | g3 g2 a |
+|:b2 b bag | a2 a agf | g2 a gfe | d2 B G2 B \
+| c2 e edc |1 B2 d dBG | A2 c B2 G | A3 g2a \
+:|2 B2 d g2 a | bgb a2 f | g3 |]
+S:https://www.folktunefinder.com/tunes/14258
+S:http://trillian.mit.edu/~jc/music/abc/jig/GoodMorningYouWouldLikeSomeTea.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GoodMorningYouWouldLikeSomeTea.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GoodMorningYouWouldLikeSomeTea.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GoodMorningYouWouldLikeSomeTea.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

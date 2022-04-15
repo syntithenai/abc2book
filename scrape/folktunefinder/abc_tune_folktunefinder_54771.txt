@@ -1,0 +1,39 @@
+X:12022
+T:No. 2 Polka. TLY.069
+M:2/4
+L:1/16
+Q:120
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Polka
+O:England.
+A:Lancashire.
+N:DC at end of B part and at end of C part - DC at end of B part looks in
+N:different handwriting to Tillasly'
+H:1860.
+Z:vmp.Taz Tarry.
+K:C
+EFG2 e2c2|A2A2 f4|Bcd2 b2a2| a2g2 e2c2| EFG2 e2c2|A2A2 a4|Bcd2 a2B2| c2c
+2c2:|!
+f2 z2 a2ba|g2e2 e4| g2(3gag f2d2| c2e2e2 z2| f2 z2 c'2ba|g2e2 e4| g2(3ga
+g f2d2|c2cd e2c2|!
+f2 z2 d'2c'a|g2e2 e4| g2(3gag f2d2| c2e2e4| f2 z2 a2ba|g2e2 e4| g2(3gag
+f2d2| c2e2c2||!
+K: F
+c| .f2.f2.a2 z f|.e2.e2.g2 zg| .b2.b2.d'2 z d'| c'2a2a2 z c| f2f2a2 z f|
+d2d2b2 zb| d'2d'2c'2 zc|!
+g2f2f2 z2|b2b2 d'2c'b| a2a2 c'2ba| g2g2 b2ag| a2bb c'4| b2b2 d'2c'b|a2a2
+ c'2ba|g2g2 b2ag| .f2.a2.f2|]
+S:https://www.folktunefinder.com/tunes/54771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

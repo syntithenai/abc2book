@@ -1,0 +1,25 @@
+X:257
+T: Volksmeldie des 14. Jahrhunderts
+N: A0302
+O: Europa, Mitteleuropa, Deutschland
+N: Musikal. Lehrcompendium des H. de Zeelandia (15.Jh). Mitgetheilt
+N: in W. Ambros, Gesch. d. Musik II, 277.
+R: Romanze, Ballade, Lied
+M: 3/4
+L: 1/8
+K: C
+C4D2 | E4C2 | F2E2D2 | CDC4
+GGEFED | CDC4 | c4BA | GAG4
+GAGFED | CDC2G2 | A2GFE2 | F2E2D2 | CDC4
+S:https://www.folktunefinder.com/tunes/68803
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

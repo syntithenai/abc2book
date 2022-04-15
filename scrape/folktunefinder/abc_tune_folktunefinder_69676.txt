@@ -1,0 +1,24 @@
+X:116
+T: EIN TAEUBCHEN FLOG VOM HIMMELSZELT
+N: F0235
+O: Europa, Mitteleuropa, Deutschland; Daenemark
+R: Jugend - Lied, Moral
+M: 2/4
+L: 1/8
+K: F
+F | A2AG | F2F2 | c2d=B | c2z
+F | A2AG | F2F2 | c2d=B | c2z
+c | c2fe | d2AB | c2cB | A2z
+B | ccAB | ccBA | G4 | F2z
+S:https://www.folktunefinder.com/tunes/69676
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

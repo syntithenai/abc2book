@@ -1,0 +1,32 @@
+X: 1
+T:Wee Rabbit, The
+M:6/8
+L:1/8
+Q:180
+C:Rosie Mulholland
+R:jig
+D:D=E9anta: Ready for the Storm
+Z:Hauke Steinberg irtrad-l 2000-05-17
+K:D
+D2E|F2D DED|E2F GFE|A2d d2c|d2c B2A|
+F2B B2c|d2c B2d|c2A A2^G|A3 A2G
+FGA G2F|EFG F2E|D2F A2B|B2A G2F|
+A2B c2d|e2c B2A|A2d d2c|1 d3 :|2 d3 d2e||
+f2d ded|f2a d'c'2|b3 b2a|b2a g2f|
+gfe fed|e2d c2B|B2A A2^G|A3 A2G|
+FGA G2F|EFG F2E|D2F A2B|B2A G2F|
+A2B c2d|e2c B2A|A2d d2c|1 d3 d2e:|2 d3 D2E||
+S:https://www.folktunefinder.com/tunes/15245
+S:http://trillian.mit.edu/~jc/music/abc/jig/WeeRabbit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/WeeRabbit.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/WeeRabbit.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WeeRabbit.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:24
+T: Der eifersuechtige Knabe
+N: D0026
+O: Europa, Mitteleuropa, Lothringen, Gebenhausen
+N: Inzipit = entfernte Variante zum Lied
+R: Ballade, Liebe, Mord aus Eifersucht
+M: 6/8
+L: 1/16
+K: G
+d2 | B4B2A4A2 | G6D4
+G2 | G2G2A2B2G2A2 | B6-B4
+c2 | B2d2d2e2d2c2 | B6A6
+G6A6 | d3cB2c2B2A2 | G6-G4
+S:https://www.folktunefinder.com/tunes/72481
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Ballade, liebe, mord aus eifersucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

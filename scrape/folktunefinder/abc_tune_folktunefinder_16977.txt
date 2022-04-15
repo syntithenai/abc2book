@@ -1,0 +1,25 @@
+X:1
+T: the Crooked Horn'd Ewe
+S:Rutherford's 24 Country Dances for 1758
+B:Angus Cumming's "Collection of Strathspey Reels", 1780.
+Z:Bruce Olson 
+%Q:156
+L:1/8
+M:C
+K:G
+|: DG2B AG "tr"FE/D/ | DG2B cABG \
+| ABcB AG "tr"FE/D/ | DG2B AG/F/ G2 :: dg2a =fagf |
+| dg2a fa g2 | dg2a "tr"b(ag) a(g/f/) | d(g/a/) _ba/g/ (f/g/a/f/)g2 \
+| (=fefd) c_B "tr"A(G/F/) | Gd2c BA G2 :|
+S:https://www.folktunefinder.com/tunes/16977
+S:http://trillian.mit.edu/~jc/music/abc/reel/CrookedHorndEwe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CrookedHorndEwe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

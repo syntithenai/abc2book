@@ -1,0 +1,24 @@
+X:194
+T: Alter Ostergesang
+N: A0552A
+O: Europa, Mitteleuropa, Deutschland
+N: Muenchner Codex 15. Jh.
+R: Romanze, Ballade, Lied
+M: none
+L: 1/2
+K: G
+dcd=fgd | dcd_BABG | _BccG=F | _Bcd
+dcdBABGA | =FGAG | dcd=fgd | =fdfdc_B | d_BGAFG
+S:https://www.folktunefinder.com/tunes/80253
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

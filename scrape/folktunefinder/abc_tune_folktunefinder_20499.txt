@@ -1,0 +1,24 @@
+X:50
+T:a March
+O:england
+R:March
+M:C|
+A:Westmorland
+N:P6 2/2
+K:G
+BA|G2BG A2dc|Bgfe d2cB|c2ec B2gB|A2AA A2BA|\
+G2BG A2dc|Bgfe d2Bd|e2ce f2de/2f/2|g2GG G2::\
+Bc|d2dB d2gd|e2ec e2ge|\
+d2dc B2GA/2B/2|A2AAA2BA|\
+G2BGA2dc|Bgfe d2Bd|e2 ce f2 de/2f/2|g2GGG2:|
+S:https://www.folktunefinder.com/tunes/20499
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

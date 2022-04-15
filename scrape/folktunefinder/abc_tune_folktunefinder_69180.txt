@@ -1,0 +1,25 @@
+X:321
+T: "Der Rosskauf"
+N: Z1001
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Sage (vom Kaiser Friedrich)
+M: 4/4
+L: 1/16
+K: F
+ | F4F2GAG4G2E2 | F4F2A2c6B2
+A4A2F2G2A2B2G2 | F2E2F2A2G4A2B2
+c4d2c2c4d2c2 | c2B2B2A2B4z4
+A2G2A2B2c4B2A2 | A2G2F2A2G4z4
+F2AGF2GAc4A4 | G8F4z4
+S:https://www.folktunefinder.com/tunes/69180
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, sage (vom kaiser friedrich)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

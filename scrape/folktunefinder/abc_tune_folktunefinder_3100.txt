@@ -1,0 +1,24 @@
+X: 1
+T: Neda voda nalivala
+O: Pirin, Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a handwritten transcription by Dick Crum
+M: none % 11/8
+%%maxshrink 1
+%%vocalfont Helvetica-Narrow-bold 18
+%%staffsep 20
+L: 1/8
+K: D_E^F
+|: AG FE (FE) (DG) FG2 | AG FE (FE) (DG) DD2 :|
+S:https://www.folktunefinder.com/tunes/3100
+S:http://trillian.mit.edu/~jc/music/abc/Bulgaria/NedaVoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/NedaVoda.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

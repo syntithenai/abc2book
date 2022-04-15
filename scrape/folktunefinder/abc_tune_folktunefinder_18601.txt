@@ -1,0 +1,40 @@
+X:1
+T:Beautiful love
+M:4/4
+L:1/4
+C:V. Young
+Q:1/4=140
+%%staves (chords melody)
+K:Dm
+%%text (Ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x3 |: "Em7b5"x2 x2 | "A7"x2 x2 | "Dm6"x2 x2 | x2 x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 ||
+V:melody
+DEF |: A3G | F>E DE/F/- | F4- | F<FGA |
+c3B | A>GFG/A/- | A4- | A<A=B^c ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Dm6"x2 x2 | "Gm7"x2 x2 | "Bb7"x2 x2 | "A7"x2 x2 |
+[1"Dm7"x2 x2 | "G7"x2 x2 | "Em7b5"x2 x2 | "A7"x2 x2 :|
+[2"Dm6"x2 "(Bm7b5)"x2 | "Em7b5"x2 "A7"x2 | "Dm6"x2 x2 | x2 x2 |]
+V:melody
+ed3 | cB2D | E4- | E<EFG |
+[1A3D | ^C3D | E4- | E<EFG :|
+[2A3D | F2E2 | D4- | Dz3 |]
+S:https://www.folktunefinder.com/tunes/18601
+S:http://trillian.mit.edu/~jc/music/abc/song/Beautiful_love.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/beautiful_love.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Beautiful_love.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/beautiful_love.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

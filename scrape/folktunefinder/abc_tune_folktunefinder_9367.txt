@@ -1,0 +1,35 @@
+X: 1
+P: Konstan parempi valssi (Konsta's better waltz)
+R: waltz
+C: Konsta Jylh\"a
+B:
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: From a July 1971 recording by Purppuripelimannit.
+N: The title means "Konsta's better waltz", and was bestowed on the tune by musicians
+N: who liked the tune.  Konsta Julh\"a was one of Finland's best-known traditional
+N: fiddlers, and one of the main organizers of the Kaustinen festival.
+M: 3/4
+L: 1/8
+K: D
+|: "D"DD DF Ad | f4 d2 | "G"d2 {ed}cd ed | "Em"B2 {=c}BA GF \
+| "A7"EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | "D"F2 E2 D2 :|2,4 A2 {BA}^GA Bc | "D"d4 "fine"z2 :|
+F2 \
+|: "Bm"B3 c d2 | d3 cBd | "Em"c3 B^AB | "F#7"c3 ^A F2 \
+| f3 gfg | fe dc B^A |1,3 "Bm"Bc de fg | "F#7"f4 F2 :|2,4 "Bm"B2  zB B2 | B4 z2 :|
+f2 \
+|: "D"f3 gaf | d3 ef2 | "G"gf ga bg | "Em"e2 ze e2 \
+| "A7"gf ga bg | e2 ze eg | "D"fe fg af | d2 A2 F2 ||
+|| "D"{DA}f3 gaf | d3 ef2 | "G"gf ga bg | "Em"e2 za ac' \
+| "A"c'b ba ag | ge cA Bc | "D"d2 zD D2 | D4 z2  :|
+S:https://www.folktunefinder.com/tunes/9367
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals11.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 71
+T: Dusty Bob's
+C: J-28
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"G2G GAB| "D"A2A ABc| "G"d2B "Am"c2A| "G"B2G "D"AFE|
+   "G"G2G GAB| "D"A2A ABc| "G"dBG "D"cAF| "G"G3 G2:|
+\
+d| "G"g2g gag| "D"f2f fgf| "C"e2d efg| "D"a2g fed|
+   "G"g2g gag| "D"f2f fgf| "C"efg "D"fga| "G"g3 g2d|
+   "G"g2g gag| "D"f2f fgf| "C"e2d efg| "D"a2g fed|
+   "G"g3 Bcd| "C"e3 ABc| "G"dcB "D"AGF| "G"G3 G2|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/1893
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

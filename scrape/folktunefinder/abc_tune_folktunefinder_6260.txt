@@ -1,0 +1,30 @@
+X: 1
+T: Zemer Atik (Dm)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%%vocalfont  Helvetica-Narrow-Bold 20
+%%vocalspace 25
+K: Dm
+[| "A"^cdBc decd | e8 | "Gm"efga gfed | "A"e8 |
+S:https://www.folktunefinder.com/tunes/6260
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/ZemerAtik_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/ZemerAtik_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/ZemerAtik_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/ZemerAtik_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/ZemerAtik_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/ZemerAtik_Dm_w.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/song/ZemerAtik_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/ZemerAtik_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

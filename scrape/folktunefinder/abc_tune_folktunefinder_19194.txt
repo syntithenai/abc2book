@@ -1,0 +1,30 @@
+X: 1
+T: the Beauty of the North
+R: strathspey
+B: RSCDS __-7
+N: Fraser p.74, Skye p.195, Hunter 179, BSFC X-13, Atholl Collection
+D: played by John Neil MacLean on Music from SF Collection, Scottish Traditional Fiddle Music tape
+D: Ron Gonnella on Fiddle Gems tape
+M: C
+L: 1/8
+K: D
+D \
+| "D"(F,<D) D>E F>G (AD "A7"(C<A,) A,>G, \
+| "D"(F,<D) D>E F>G (A<f) | "G"e>c "A7"d/c/B/A/ "D"d2-d :|
+f \
+| "D"d>f A>f (d<f) a>f | "Em"g>f e>d "A7"(c<A) A>f \
+| "D"d>f A>f d/e/f/g/ a>f | "A7"g>e d/c/B/A/ "D"d2-d>e |
+| "D"f>d (A<F) d>A (F<D) | "Em"G>F E>D "A7"(C<A,) A,>G, \
+| "D"(F,<D) D>G (F<d) (A<f) | "A7"e>c (d/c/)(B/A/) "D"d2-d |]
+S:https://www.folktunefinder.com/tunes/19194
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BeautyOfTheNorthS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BeautyOfTheNorthS_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BeautyOfTheNorthS_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

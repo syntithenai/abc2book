@@ -1,0 +1,20 @@
+X: 1
+T: El Ha-Rahat (Bm)
+M: 4/4
+L: 1/8
+K: Bm
+|: "Em"e2e2 | "A"cB BA | cB BA | "Bm"B3 z :: "Em"ee ed/e/ | fe e2 | "A"cB cA | "Bm"B3 z :|
+S:https://www.folktunefinder.com/tunes/13381
+S:http://trillian.mit.edu/~jc/music/abc/folk/ElHaRahat_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/ElHarahat_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/ElHarahat_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/ElHaRahat_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/ElHarahat_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Israel/tune/ElHarahat_Bm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/folk/ElHaRahat_Bm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

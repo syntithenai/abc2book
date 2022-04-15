@@ -1,0 +1,33 @@
+X:2
+T:16v. Fantasia 18.
+T: TENOR.
+C:Giovanni de Antiquis.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+N: Original clef, C on third line
+%%MIDI transpose -12
+K:F -8va
+z8 z4 f3 e d c B c d B c2 d2 e2 f e d c B A G F G A G2 F > G A B A d c d/ e/
+f/ e/ d/ e/ f/ g/ a2 g2 f2 e f3 e d c B A G F B A G2 F f d B/ c/ d/ e/ f2 e f > e d/ c/ B/ c/ d/ B/ c/ d/ e f2 e/ d/ e2
+f > e d/ c/ B/ A/ G/ A/ B/ c/ d/ e/ f/ e/ e d/ c/ d2 c > B A/ G/ F/ G/ A/ F/ G/ A/ B/ c/ d/ e/ f/ d/ e/ f/ g f e2 f g c f > e d/ c/
+B/ c/ d/ B/ c/ B/ A/ G/ F/ G/ A/ B/ c/ d/ e/ f/ g e f d _e c d B c A B G A F G2 F2 G2 A F G A2 G2 F2 E2 A2 G4 F > G A/ B/ c/ d/
+e/ f/ g d/ e/ f c/ d/ _e B/ c/ d A/ B/ c G/ A/ B F/ G/ A G2 F f > e c/ d/ _e > d B/ c/ d > c A/ B/ c > B G/ A/ B2 A/ G/ A2 G2 F16 |]
+S:https://www.folktunefinder.com/tunes/39326
+S:http://www.laymusic.org/music/bicinia/18/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

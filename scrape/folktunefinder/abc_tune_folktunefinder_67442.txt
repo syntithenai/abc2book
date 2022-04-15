@@ -1,0 +1,23 @@
+X:700
+T:Cam ye o'er frae France
+R:slide
+Z:
+M:6/4
+K:Am
+"Am"c2 A2 A2 E2 "F"A4|"Am"c2 A2 A2 c2 "G"BcdB|"F"c2 A2 A2 E2 "Am" A3 c|"G"B2 BA G2 GA BcdB|
+"Am"A2 a2 a2 g2 "F"a4|"Am"A2 a2 a3 b "(C)"c'2 a2|"Am"A2 a2 a2 g^f "G"g2 ge|\
+M:4/4
+d2 dB G2 d2|
+M:6/4
+"Em"e2 (B2 B4 B4)|"F"(c4 c4 c4)||
+S:https://www.folktunefinder.com/tunes/67442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

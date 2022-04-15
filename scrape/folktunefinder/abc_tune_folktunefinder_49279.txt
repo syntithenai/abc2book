@@ -1,0 +1,23 @@
+X:5
+T:3. Lachrim\ae Gementes
+T:Bassus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+L:1/4
+M:C
+K:Amin bass
+%%MIDI transpose -24
+A8 a2 g2 f4 e4 A3 A e3 e d2 c2 f4 e2 z e a3 e2 g d f2 c d2 e4 A8 ||
+g3 d f2 e2 d4 c2 z c G > A B2 A2 ^G2 A a2 e f2 g2 a2 f2 g2 e2 f2 d2 e2 c2 d2 e2 f4 e8 ||
+e8 e4 e3 B B2 z B e2 z c g3 g f2 e2 d4 c4 z4 z2 "(8)"z e B2 c2 d2 e f e4 HA8 |]
+N: this rest is an eh guess.
+S:https://www.folktunefinder.com/tunes/49279
+S:http://www.laymusic.org/music/dowland/gementes/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

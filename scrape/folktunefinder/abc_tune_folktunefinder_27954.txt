@@ -1,0 +1,33 @@
+X:7502
+T:Theme Vannitaise
+O:england
+M:4/4
+C:
+S:Bordering on the Absurd
+N:Twiglet -- dance from Planet Morris 1995
+A:Border
+R:Reel
+%P:
+L:1/8
+K:Emin
+P:A
+|:\
+E2 B2 B2 AB|G2 E2 E4|A2 AG F2 FE|DE FA G2 F2|\
+E2 B2 B2 AB|G2 E2 E4|A2 AG F2 FE|DEFA  E4:|\
+P:B
+|:EF GF EF GF|EF GA B2 G2|DE FE D3  E|F2 A2 G2 F2|\
+EF GF EF GF|EF GA B2 G2|DE FE D3  A|G2 F2 E4:|
+S:https://www.folktunefinder.com/tunes/27954
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

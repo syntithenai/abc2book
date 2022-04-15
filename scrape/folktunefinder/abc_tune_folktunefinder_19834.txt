@@ -1,0 +1,29 @@
+X: 1
+T: Candles in the Dark
+C: Jonathan Jensen
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu> 
+S: Printed page labelles "22 Loretta Holz" at bottom
+M: 3/4
+L: 1/8
+K: Bm
+|: "Bm"Bb af "Em"ec | "Bm"d2 B4 |  "Bm"Bb af "Em"ec | "Bm"f6 \
+|  "Bm"Bb af "Em"ed | "A"c2 A2 Bc | "G"d3 c BA | "Bm"F2 B4 :|
+[| "G"d3 B "A/g"ec | "G"d3 B "A/g"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"c3 f "Bm"dB | "F#m"A3 d "G"BG | "Em"EF GA Bc | "Bm"d2 B4 |]
+[| "G"d3 B "A/g"ec | "G"d3 B "A/g"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"ec A"Bm"f dB | "F#m"cA F"G"d BG | "Em"EF GA Bc | "Bm"d2 B4 |]
+S:https://www.folktunefinder.com/tunes/19834
+S:http://trillian.mit.edu/~jc/music/abc/waltz/CandlesInTheDark_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/CandlesInTheDark_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/CandlesInTheDark_Bm.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

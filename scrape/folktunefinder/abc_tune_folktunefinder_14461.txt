@@ -1,0 +1,33 @@
+X: 1
+T: Katie's Rambles
+T: Katy's Rambles
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Cole p.55
+N: Also played in D major.
+M: 6/8
+L: 1/8
+K: Dm
+|: "Dm"A2d     cBA |  "F"fga  "C"gec | "Dm"ded  "F"cAF | "Gm"GFG  "A7"AFD \
+|  "Dm"A2d     cBA |  "F"fga  "C"gec | "Dm"ded "Am"cAG | "A7"Ad^c "Dm"d3 :|
+|: "Dm"fad     fad |     fga     agf |  "C"egc     egc |     efg  "A7"gfe \
+|  "Dm"fga "Gm"gab | "Dm"afd "Am"ecA | "Dm"fed "Am"cAG | "A7"Ad^c "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/14461
+S:http://trillian.mit.edu/~jc/music/abc/jig/KatiesRambles_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KatiesRambles_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/KatiesRambles_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/KatiesRambles_Dm.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

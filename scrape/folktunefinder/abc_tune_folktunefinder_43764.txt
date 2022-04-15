@@ -1,0 +1,25 @@
+X:4
+T:The Crook of Lune
+C:Andy Hornby 2006
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+DED F2G|AFA c2A|dcA GFG|[1A2c- c2d|DED F2G|
+AFA c2A|dcA G2F|G2A G2F:|[2A2c- c2A|
+dcA d2B|cAG c2A|dcA cAG|AGF GFD
+|:d2d c2d-|d2D DEF|GFG EFG|A2A FGA|[1c2c B2c-|c2d cBA|
+BAG AGF|G2A GFD:|[2c2c BcB|ABA G2A|FGA G2F|D3-D3|]
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43764
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

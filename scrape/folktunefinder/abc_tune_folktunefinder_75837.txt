@@ -1,0 +1,23 @@
+X: 7
+T:Constant Billy, JG
+M:6/8
+L:1/8
+S:JG
+A:Bidford
+P:A(AB2)4
+K:D
+P:A
+|:D2A FEF|G2E ECA,|F2D B,2D|A,B,C D3:|
+P:B
+G2A BGE|F2G AFD |G2A BGE |EF^G  A3| 
+D2A FEF|G2E ECA,|F2D B,2D|A,B,C D3|
+S:https://www.folktunefinder.com/tunes/75837
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:357
+T: WENN MAN BEIM WEIN SITZT
+N: F0628
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten -, Trink - Lied
+M: 2/4
+L: 1/16
+K: D
+ | D,4F,2G,2 | A,4A,2z2
+A,2A,2B,2C2 | D4D,2z2
+G4F2E2 | F4E2D2
+C2C2B,2C2 | D4D,2z2
+C3CC2C2 | C2D2E4
+D3DD2A,2 | D2E2F4
+G3EE2E2 | F2D2D4
+E3=CC2C2 | D2B,2B,4
+A,3A,A,2A,2 | B,4B,4
+C2C2D2E2 | F4D2z2
+G4E2E2 | F4D2D2
+E2E2C2C2 | D4D,2z2
+S:https://www.folktunefinder.com/tunes/69917
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Soldaten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

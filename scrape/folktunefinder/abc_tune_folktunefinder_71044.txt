@@ -1,0 +1,27 @@
+X:14
+%%topmargin 3cm
+T:Timour the Tartar
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+E S| A2 (c/2B/2A) eA (c/2B/2A) | (eA)aA gAfA | A2 (c/2B/2A) eA (c/2B/2A) | BEdE cEBE |
+A2 (c/2B/2A) eA (c/2B/2A) | (eA)aA gAfA | eaec eaec | {/c}BABc A2 A2 ||
+E2 (G/2F/2E) BE (G/2F/2E) | BEdE cEBE | A2 (c/2B/2A) eA (c/2B/2A) | (eA)aA gAfA |
+(e^d)ec (ag)af | e^dec (ag)af | ecag fedc | BAGF EFGE S|]
+S:https://www.folktunefinder.com/tunes/71044
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Timour_the_Tartar.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Timour_the_Tartar.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0014.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

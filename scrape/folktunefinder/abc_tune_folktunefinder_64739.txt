@@ -1,0 +1,26 @@
+X:27
+T:Scottish de Stockfish
+R:Scottish
+C:
+Q:1/2=100
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:C
+AB cd e3f|ed ce d4|[1e2e2A4|Bc dc B4:|[2e2e2A3c|BA GB A4
+|:e2e2g3e|d2c2d4|e2e2A4|Bc dc B4|e2e2g3e|d2c2d4|e2e2A3c|BA GB A4:|
+|:"^2"e2A2A3c|B2G2A4|AB cd e2ee|d2cd e2e2| e2A2A3c|B2G2A4|AB cd e2dc|B2c2A4:|
+|:Ac Ac ec ec|Ac Ac ec ec|Bc Bc d3B|c2d2e2e2Ac Ac ec ec| Ac Ac ec ec|Bc Bc d3B|c2B2A4:|
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/64739
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/Programme2Catherine.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

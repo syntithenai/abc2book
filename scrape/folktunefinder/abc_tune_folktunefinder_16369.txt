@@ -1,0 +1,32 @@
+X: 1
+T: Jag lyfter \"ogat mot himmelen
+C: Mats Arnberg (Dala-Floda)
+R: polska
+S: Kalle Alml\"of
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Learned from Kalle Alml\"of Aug 1998
+M: 3/4
+L: 1/8
+K: Dm
+|: (A \
+|  d>f) e2 d>c | BG A2- A>A | (G>A) (Bc) d>e | (dc) A2- A>A \
+|  (d>f) e2 d>c | (AB) c2 e2- | e2 (d>c) G>A | (Bc) A3 :|
+|: A- \
+| A2 (G>E) F>E | (EF) (GA) B2 | e2 (dc) G>A | (Bc) A4 \
+| A2 (G>E) F>E | (EF) (GA) B>B | (BG) A2 ^c>d | (ef) d3 :|
+S:https://www.folktunefinder.com/tunes/16369
+S:http://trillian.mit.edu/~jc/music/abc/pols/JagLyfterOgatMotHimmelen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/JagLyfterOgatMotHimmelen.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

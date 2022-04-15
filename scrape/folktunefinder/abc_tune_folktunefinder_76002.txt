@@ -1,0 +1,27 @@
+X:22
+T: Es war einmal ein Mdchen (Band 1), S. 66
+N: P0796
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: Liebe, Standesunterschied, Hochzeit, Tod]
+M: 2/4
+L: 1/16
+K: A
+E2 | A2B2=c2B2 | A4=G2
+G2 | A2B2=c2A2 | B4z2
+AB | =c2c2d2d2 | e2z2d2z2 | =c2B2A2
+B2 | =ccccB2B2 | A4z2
+AB | =c2c2d2d2 | e2z2d2z2 | =c2B2A2
+B2 | =ccccB2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/76002
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Liebe, standesunterschied, hochzeit, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

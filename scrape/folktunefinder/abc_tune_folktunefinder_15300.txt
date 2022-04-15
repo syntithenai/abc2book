@@ -1,0 +1,29 @@
+X: 1
+T: the Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+S:https://www.folktunefinder.com/tunes/15300
+S:http://trillian.mit.edu/~jc/music/abc/march/Aitken_Drum_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/Aitken_Drum_G16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Aitken_Drum_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Aitken_Drum_G16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/Aitken_Drum_G32.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,45 @@
+X: 1
+T: Youkali
+R: tango habanera
+C: Music: Kurt Weill
+C: Lyrics: Roger Fernay
+N: Written in 1934 while Weill was exiled in France, as incidental music
+N: for the play Marie Galante.  The lyrics were added some time later.
+M: 2/4
+L: 1/16
+%%staffsep 50
+K: Dm
+|: A ^GAFE \
+| "Dm"D4 D4 | "E"z3E FED^C | "Dm"D4 D4 | "E"z3E FED^C \
+| "Dm"D4 D4 | "A7"z3^C DEFG | "Dm"A8 | z3 A cAFD |
+| "Gm"c3B B4- | "C7"B3G BGEC | "F"B3A A4- | "Dm"A3F AFDB, \
+| "Gm"A3G G4- | G3D ^CDEF | "A7"G8- | G6 ^G2 |
+| "Dm"A4 A4- | A3A GFED | "Gm"E3F E4- | E6 E2 \
+| "Gm"[d4B4] [d4-B4-] | [d3B3][dB] [cA][BG][AF][GE] | "Dm"[A3F3][BG] [A4-F4-] | [A6F6] A2 |
+| "A7"[e4G4] [e4-G4-] | [eG][dF][dF][^cE] [cE][BD][BD][A^C] | "Gm"[GD]F2E [D4-B,4] | [D4B,4] [d4BG4] \
+| "Dm"[BF][A2F][^GF] [A2F2][A2F2] | [BF][A2F][^GF] [A2F2][A2F2] \
+| "A7"[BE][A2E2][^GE] [A4-E4-] | [A4E4] [f4A4] | "Dm"[e3G3][dF] [d4F4] |
+| z4 z2D2 | "Bb"[d4B4] [d4-B4-] | [dB][dB][ec][fd] [ge][fd][ec][dB] | "F"[dB][c2A2][=B^G] [c4-A4-] | [c6A6] C2 \
+| "Gm"[B4G4] [B4-G4-] | [BG][BG][cA][dB] [ec][dB][cA][BG] | "Dm"[BG][A2F2][^GE] [A4-F4-] | [A4F4] [d4F4] |
+| "Gm"[A3F3][GD] [G4-D4-] | [G2D2][GE][AF] [BG][BG][AF][GE] | "Dm"[B3F3][AF] [A4-F4-] | [A4F4] [d4F4] \
+| "Gm"[A3F3][GD] [G4-D4-] | [G2D2][GE][AF] [BG][BG][AF][GE] | "A7"[B3G3][AG] [A2-G2][A2-F2] | [A6E6] A2 |
+| "Dm"[f4A4] [f4-A4-] | [f2A2][eG][fA]  [gB][fA][eG][dF] | "Gm"[e3G3][fA] [e4-G4-] | [e6G6] G2 \
+| "A7"[e4G4] [e4-G4-] | [e2G2][^d^F][eG] [gB][fA][fA][eG] | "Dm"[d3F3][eG] [d4-F4-] | [d2F2]z2 [f4A4] |
+| "Bb7"[e3c3][dB] [d4-B4-] | [d2B2]z2 [f4B4] | "F"[d3B3][cA] [c4-A4-] | [c2A2]z2 C4 \
+| "Gm"[A3C3][GB,] [G4-B,4] | "C7"[G4C4-] [A4C4] | "F"[G3B,3][FA,] [F4-A,4-] | [F2A,2]z2 [f4A4] |
+| "Bb7"[e3c3][dB] [d4-B4-] | [d2B2]z2 [f4B4] | "F"[d3B3][cA] [c4-A4-] | [c2A2]z2 C4 \
+|1 "Gm"[A3C3][GB,] [G4-B,4] | "C7"[G4C4-] [A4C4] | "F"[G3B,3][FA,] [F4-A,4-] | [F2A,2]z :|
+:|2"Gm"[A3C3][GB,] [G4-B,4-] | "C7"[G2B,4]z2 D4 | "F"F8- | "G7"f8- \
+| "F"f8- | "G7"f8- | "F"f8- | "G7"f8- | "F7"f4 z2 | z4 |]
+%%sep 0 1 500
+S:https://www.folktunefinder.com/tunes/19742
+S:http://trillian.mit.edu/~jc/music/abc/tango/Youkali_Inst.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/KurtWeill/Youkali_Inst.abc
+% Rhythm Tango habanera
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

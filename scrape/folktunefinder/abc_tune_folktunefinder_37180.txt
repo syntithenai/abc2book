@@ -1,0 +1,26 @@
+X:5505
+T:a Scotch Reel
+A:North-West
+M:C|
+N:P7() 2/2
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000569.html
+%%ID:00000569
+K:D
+e|cAee cAef|gedB g2B2|\
+cAee cA ef/2g/2|aeec a2e2::\
+f/2g/2|aeec aeef|gedB g2 Bf/2g/2|\
+aeec ae ef/2g/2|geec a2e2|\
+afge fdec|B/2B/2B fB d2f2|\
+A/2A/2A cA BGGB|A/2A/2A ag a2 A2|]
+S:https://www.folktunefinder.com/tunes/37180
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

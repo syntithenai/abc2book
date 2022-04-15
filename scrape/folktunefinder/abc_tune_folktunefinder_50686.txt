@@ -1,0 +1,24 @@
+X: 4
+T:42 Pound Check
+M:2/4
+L:1/8
+S:Pog Band Circassian Circle Set
+R:polka
+Z:id:hn-polka-15
+K:D
+"D"dd B/c/d/B/|AF AF|dd B/c/d/B/|AF ED|
+dd B/c/d/B/|AF Ad/e/|fd "A"ec|1"D"d2 d2:|2"D"d2d>e|
+|:"D"fd de/f/|"G"gf ed/e/|"D"fd Ad|"A"fd/f/ a>g|"D"
+fd de/f/|"G"gf ed/e/|"D"fd "A"ec|1"D"d2 d>e:|2"D"d2 d2||
+S:https://www.folktunefinder.com/tunes/50686
+S:http://www.kiwifolk.com/tunes/circassian_circle_set.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

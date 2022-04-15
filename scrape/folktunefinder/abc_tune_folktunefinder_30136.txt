@@ -1,0 +1,65 @@
+X:0
+T:Cha Till Mac Cruimein
+T:Mac Crimmon Will Never Return
+G:piobaireachd
+C:attr. Donald Ban Mac Crimmon, 1745; certainly not by him
+B:Logan's Bagpipe Tutor
+M:6/8
+L:1/16
+Q:6/16=40
+R:pibroch
+K:AMix
+% C-gap hexatonic pitch set
+P:Ground
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eA3{d}B2 |  % edreve hiove, cheve cheento,
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % edreve hiode, trae  haento;
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dG3{d}B2 |  % edreve hiode, trae  haemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % edreve hiode, trae  haento;
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2|]  % edreve hiode, trae  haento.
+P:Variation 1
+e{AfA}e3a2    B4f2|  {g}e4a2    eA3{d}B2 |  % edreI  hiove, cheI  deento,
+e{AfA}e3a2    B4f2|  {g}e4a2    eG3{d}B2 |  % edreI  hiove, cheI  deemto,
+e{AfA}e3a2    B4e2|{Adc}d4a2    dA3{d}B2||  % edreI  hiode, traI  aento;
+e{AfA}e3a2    B4f2|  {g}e4a2    eG3{d}B2 |  % edreI  hiove, cheI  deemto;
+e{AfA}e3a2    B4e2|{Adc}d4a2    dG3{d}B2 |  % edreI  hiode, traI  aemto,
+e{AfA}e3a2    B4e2|{Adc}d4a2    dA3{d}B2||  % edreI  hiode, traI  aento;
+e{AfA}e3a2    B4f2|  {g}e4a2    eG3{d}B2 |  % edreI  hiove, cheI  deemto,
+e{AfA}e3a2    B4e2|{Adc}d4a2    dA3{d}B2|]  % edreI  hiode, traI  aento.
+P:Variation 2
+{g}e4f2    {g}B4f2|  {g}e4f2 {g}eA3{d}B2 |  % cheve  hiove, cheve cheento,
+{g}e4f2    {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % cheve  hiove, cheve cheemto,
+{g}e4f2    {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % cheve  hiode, trae  haento;
+{g}e4f2    {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % cheve  hiove, cheve cheemto,
+{g}e4f2    {g}B4e2|{Adc}d4e2 {g}dG3{d}B2 |  % cheve  hiode, trae  haemto,
+{g}e4f2    {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % cheve  hiode, trae  haento;
+{g}e4f2    {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % cheve  hiove, cheve cheemto,
+{g}e4f2    {g}B4e2|{Adc}d4e2 {g}dA3{d}B2|]  % cheve  hiode, trae  haento.
+P:Doubling of Var 2
+{g}e4d2    {g}e4B2|  {g}e4f2 {g}eA3{d}B2 |  % chea   cheo,  cheve cheento,
+{g}e4d2    {g}e4B2|  {g}e4f2 {g}eG3{d}B2 |  % chea   cheo,  cheve cheemto,
+{g}e4d2    {g}e4B2|{Adc}d4e2 {g}dA3{d}B2||  % chea   cheo,  trae  haento;
+{g}e4d2    {g}e4B2|  {g}e4f2 {g}dG3{d}B2 |  % chea   cheo,  cheve cheemto,
+{g}e4d2    {g}e4B2|{Adc}d4e2 {g}dG3{d}B2 |  % chea   cheo,  trae  haemto,
+{g}e4d2    {g}e4B2|{Adc}d4e2 {g}dA3{d}B2||  % chea   cheo,  trae  haento;
+{g}e4d2    {g}e4B2|  {g}e4f2 {g}eG3{d}B2 |  % chea   cheo,  cheve cheemto,
+{g}e4d2    {g}e4B2|{Adc}d4e2 {g}dA3{d}B2|]  % chea   cheo,  trae  haento.
+P:Ground
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eA3{d}B2 |  % edreve hiove, cheve cheento,
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % edreve hiode, trae  haento;
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dG3{d}B2 |  % edreve hiode, trae  haemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2||  % edreve hiode, trae  haento;
+e{AfA}e3f2 {g}B4f2|  {g}e4f2 {g}eG3{d}B2 |  % edreve hiove, cheve cheemto,
+e{AfA}e3f2 {g}B4e2|{Adc}d4e2 {g}dA3{d}B2|]  % edreve hiode, trae  haento.
+S:https://www.folktunefinder.com/tunes/30136
+S:http://www.campin.me.uk/Music/Modes.abc
+% Rhythm Pibroch
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

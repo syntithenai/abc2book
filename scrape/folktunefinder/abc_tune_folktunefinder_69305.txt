@@ -1,0 +1,24 @@
+X:446
+T: "Der englische Gruss"
+N: Z1126
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: religioeses Lied, Maria
+M: 3/4
+L: 1/8
+K: D
+D2 | G2G2AG | =F2F2F2 | _B2B2=cB | A2G2
+D2 | G2G2AG | =F2F2F2 | _B2B2=cB | A2G2
+A2 | B2B2c2 | d2d2AG | A2A2G=F | E2D2
+DE | =F2A2G2 | A2G2=F2 | G2=F2E2 | D4
+S:https://www.folktunefinder.com/tunes/69305
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Religioeses lied, maria
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+P:Farewell to the Creeks
+R:jig
+C:Pipe Major J. Robertson
+C:Scots Guards, arr. by T. Traub 6-27-03
+M:6/8
+K:Bb
+L:1/8
+|: b|"Bb"f2 d d>cd|"Eb"e>fg "Bb"f2 e|"Bb"d2 f "Gm"B>df|"Cm"f>ed "F"c2 b|"Bb"f2 d d>cd|"Eb"e>fg "Bb"f2 e|"Bb"d2 f "Eb"f>ed|"F"c3 "Bb"B2 :|
+|: g|"Bb"f>df "Eb"geg "Bb"f>dB|"Bb"d2 d d<fd|"Cm"e>de "F"c2 g|"Bb"f>df "Eb"geg "Bb"f>dB|"Bb"d2 f "Eb"f>ed |"F"c3 "Bb"B2 :|
+|: b|"Bb"d3 "Eb"e2 g|"Bb"d<fd d>cB|"Eb"e2 g "Bb"d2 f|"Cm"f>ed "F"c2 b|"Bb"d3 "Eb"e2 g|"Bb"d<fd d>cB| "Bb"d2 f "Eb"f>ed|"F"c3 "Bb"B2 :|
+|: f|"Bb"b2 f "Eb"g2 b|"Bb"f2 g f>dB|"Eb"e2 g "Bb"d2 f|"Cm"f>ed "F"c2 f|"Bb"b2 f "Eb"g2 b|"Bb"f2 g f>dB|"Bb"d2 f "Cm"f>ed |"F"c3 "Bb"B2 :|
+S:https://www.folktunefinder.com/tunes/58347
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FlightsOfFancySetPipes.abc
+S:http://terrytraub.org/abc/FlightsOfFancySetPipes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

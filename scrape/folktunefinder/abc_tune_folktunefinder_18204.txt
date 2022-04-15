@@ -1,0 +1,28 @@
+X: 1
+T: THE TEETOTALER'S REEL
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.136
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: D
+((3DEF) \
+| "G"G2({A}GF) GABc | "G"d2"C"ec "G"dB"D"A(c | "Em"B)E(ED) (EF)GA | "G"(BG)"D7"A(F "G"G)FED |
+| "G"DG({A}GF) GABc | "G"d2"C"ec "G"(dB)"D"Ac | "Em"BE({F}ED) EFGA | "G"B(c"D7"A)F "G"G2 :|
+|: B2 \
+| "Em"(Be)ed e3f | "Em"g(ea)f g(fe)d | "G"(Bd)de (d3e) | "Em"g(ea)f g(fe)d |
+| "Em"Be(ed) e3f | "Am"g(ea)(f g)(fe)d | "Em"BE(ED) EFGA | "G"B(c"D7"A)F "G"G2 :|
+S:https://www.folktunefinder.com/tunes/18204
+S:http://trillian.mit.edu/~jc/music/abc/reel/TeetotallersReel_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TeetotallersReel_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/TeetotallersReel_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

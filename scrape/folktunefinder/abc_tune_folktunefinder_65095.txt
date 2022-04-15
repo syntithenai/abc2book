@@ -1,0 +1,27 @@
+X: 7
+T:As Luck Will Have It
+% Nottingham Music Database
+S:John Lagden, via EF
+M:6/8
+K:D
+E|"D"F3 "A7/c"A2G|"Bm"FGF "A7"E3|"D"F2A d2c|"G"BcB "D"A3|"G"G2B "A7"A2G|\
+"D"F2A d2f|
+"G"efe "E7"dcB|"A7"ABA GFE|"D"F3 "A7/c"A2G|"Bm"FGF "A7"E3|"D"F2A d2c|
+"G"BcB "D"A3|"G"G2B "A7"A2G|"D"F2E "Bm"D2F|"Em"EFG "A7"F2E|"D"D3 -D2||
+A|"D"d3 fed|"A"c2d e2A|"Bm"Bcd c2B|"F#m"A3 A2A|"G"B3 dcB|
+"D"A2d f2a|"G"agf "E7"fed|"A7"e3 e2A|"D"d3 fed|"A"c2B A2A|
+"Bm"B3 dcB|"F#m"A3 A2F|"G"G3 BAG|"D"F2A d2D|"Em"EFG "A7"F2E|"D"D3 -D2||
+S:https://www.folktunefinder.com/tunes/65095
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

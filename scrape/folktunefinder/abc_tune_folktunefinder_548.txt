@@ -1,0 +1,39 @@
+X:89
+T:Les promesses
+R:Fox-trott
+S:Carnet du tambourinaire Ginas (1924)
+O:France
+A:Provence
+C:
+%%continueall 1
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-17
+M:C|
+L:1/4
+Q:"Moderato"
+K:F
+V:1
+dd/d/ ff | ee/e/ dd | A3G | A4 || S dd/d/ ff | ee/e/ dd | d3e | e2 Ac | || GF Ac |
+GF BA | c4- | c2ce | dAce | dA dc | e4- | e2ef | g2fe | d2ef | B4- | B2 ^FG | [c2A2] ^FG |
+c2cd | c4- | c2c_d | cB_AB | cB_AG | F4- | F2FG | _A2Bc | f2_d=B | c4- | c2c_d |
+cB_AB | cB_AG | G4- | G2FG | _A2GF | _A2B=B | ([cc4]=BcB | [cc4])dcB || AAAA | AAAB |
+(A4 | G4) | BBBB | BBce | (d4 | A2) Ac | f4- | f2 ec | e4- | e2GB | e4- | e2dB |
+d4- | d2d^c | d3^c | dfed | c4- | c2Ac | GFAc | de2c | f4 | f2z2 S || !Coda! dd/d/ ff | ee/e/ dd | A3A | d2dz |]
+V:2 clef=perc stafflines=0 staffscale=0.7
+BB/B/ BB | BB/B/ BB | BB/B/ BB | BB/B/ B2 || BB/B/ BB | BB/B/ BB | BB/B/ BB | B2BB || BBBB |
+BBBB | BB/B/BB | BB/B/BB | BBBB | BBBB | BB/B/BB | BB/B/BB | B2BB | B2BB | BB/B/BB | BB/B/BB | B2BB |
+B2BB | BB/B/BB | BB/B/BB | BBBB | BBBB | BB/B/BB | BB/B/BB | B2BB | B2BB | BB/B/BB | BB/B/BB | 
+BBBB | BBBB | BB/B/BB | BB/B/BB | B2BB | B2BB | BBBB | BBBB || B2B2 | B2B2 | 
+BB/B/BB | BB/B/BB | BB/B/BB | B2B2 | BB/B/BB | BB/B/BB | BB/B/BB | BB/B/BB | BB/B/BB | BB/B/BB |  BB/B/BB | BB/B/BB | 
+BB/B/BB | BB/B/BB | BB/B/BB | B2B2 | BB/B/BB | BB/B/BB | B2B2 | BB/B/BB | BB/B/BB | BB/B/BB || BB/B/BB | BB/B/BB | BB/B/BB | BB/B/Bz |
+%%footer $D   Galouvielle-MBe 2008 \nJava (France)
+S:https://www.folktunefinder.com/tunes/548
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Fox-trott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

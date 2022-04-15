@@ -1,0 +1,31 @@
+X: 28
+T:Stan Chapman's
+C: Jerry Holland
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+L:1/8
+Q:120
+D:Solas : Solas
+K:A
+E3 EFA | B3 BAB | caf ecA | cAF FEF |
+E3 EFA  | B3 BAB | caf ecB | cAA A2 F |
+| E3 EFA | B3 BAB | ~f3 fec | ecB cAF |
+E3 EFA | B3 BAB | caf ecB | cAA A3 |
+|: f| ~e3 ece | ~f3 faf | fec BAB | cAF E2 f |
+~e3 ece | (~f3 a)fe | feA BAB | cAA A2 :|
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:\f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/58635
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

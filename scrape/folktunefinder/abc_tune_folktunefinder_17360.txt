@@ -1,0 +1,28 @@
+X: 1
+T: Hommage \`a la belle Gasp\'esie
+C: Marcel Messervier
+M: C|
+L: 1/8
+Z: 20040503 by John Chambers jc:ecf-guest.mit.edu
+K: A
+EA \
+| "A"c3d cBAc | feef e2EA \
+| c3d cBAc | "Bm"edde d2Bc |
+| dcde dcBA | "E7"BABc B2cd \
+| edef edcB |1 "A"cBcd cA :|2 "A"Ac "E7"(3BcB "A"A2 |]
+|: ce \
+| "A"aAgA fAeA | Acef ecAF \
+| "E7"EGBc (3dcB GB |1,3 "A"ABcd e2 :|2,4 "A"Ac "E7"(3BcB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/17360
+S:http://trillian.mit.edu/~jc/music/abc/reel/HommageALaBelleGaspesie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/HommageALaBelleGaspesie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/HommageALaBelleGaspesie.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc:ecf-guest.mit.edu/HommageALaBelleGaspesie.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HommageALaBelleGaspesie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

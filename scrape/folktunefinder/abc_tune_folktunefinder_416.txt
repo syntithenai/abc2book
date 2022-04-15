@@ -1,0 +1,33 @@
+X: 9
+T: Rheinl\aender Polka Nr.  6
+O: trad Danmark
+R: polka
+Z: 2007 by John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+P: AABBACCA
+M: 2/4
+L: 1/16
+K: F
+"A"\
+|: "F"c2c=B c2f2 | a2A2 c4 |1,3 "C7"c2B2 BAB2 | "F"d2c2 A4 \
+                          :|2,4 "C7"c2B2 Bage | "F"f2f2 "fine"f2z2 :|
+K: C
+"B"\
+|: "C"c2cc cagf | e2c2 kc3e |1,3 "G7"d2B2 kB3d | "C"c2e2 "G7"kg4 \
+                           :|2,4 "G7"d2B2 kB3d | "C"c2c2 c2z2 :|
+K: Bb
+"C"\
+|: "Bb"DFBF DFBF | DFBF [d2B2][d2B2] |1,3 "F7"EFAc [e2c2][e2c2] | edcB AGFE \
+                                    :|2,4 "Cm"edcB "F7"AFGA | "Bb"B2B2 B2z2 :|
+S:https://www.folktunefinder.com/tunes/416
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

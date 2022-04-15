@@ -1,0 +1,31 @@
+X:65
+T:Les Retrouvailles
+T:Farandole
+R:Farandole
+O:France
+A:Provence
+C:Maurice Marchal
+C:Pour le trentime anniversaire du Festival de
+C:Chateau-Gombert, juillet 1994
+M:6/8
+L:1/8
+%%deco rit 6 pf 20 0 0 rit.
+%%deco tempo 6 pf 20 0 0 Tempo
+K:F
+"Lger"c|F2G A2B|c2A B2c|d2f e2d|(c3!breath! A2)c|!tenuto!B2G e2d|!tenuto!c2A !breath!f2f|e2c d2G|cdc BAG|
+FEF GAB|c3 ABc|d^cd fed|(c3!breath!A2)c|!tenuto!B2G e2d|!tenuto!c2A f2c| edc BAG|.F2z .F2z||
+.e2e ede|(f3 .c2)z|Lecd Lede |Lfed c2z| BAB dcB|A2z e3|.f2c {/d}cBA|(A3 g)z2|
+.e2e ede|(f3 .c2)z|Lecd Lede |Lfed c2z| BAB dcB|(A3 c)z2|GAB A2 ((3G/A/G/)|F3-!rit!F z((3c/d/c/)||
+!tempo!F2G A2B|c2A B2c|d2f e2d|(c3!breath! A2)c|!tenuto!B2G e2d|!tenuto!c2A !breath!f2f|e2c d2G|cdc BAG|
+FEF GAB|c3 ABc|d^cd fed|(c3!breath!A2)c|!tenuto!B2G e2d!rit!|!tenuto!c2A H!breath!f2c| !tempo!edc BAG|.F2z{cde}.fz2||
+%%footer $D   Galouvielle-MBe 2005 \nFox-trott France
+S:https://www.folktunefinder.com/tunes/40264
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Farandole
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

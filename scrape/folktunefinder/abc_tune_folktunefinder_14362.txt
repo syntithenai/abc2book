@@ -1,0 +1,24 @@
+X: 1
+T: I Lost My Love
+M: 6/8
+L: 1/8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: Am
+E \
+| "Am"ABA AGE | "C"c3 c2d | efe edc | "Em"g3 e2a \
+| "C"gec cge | "G"dBG GAB | "Am"c2A "Em"BGE | "Am"A3- A2 :|
+|: a \
+| "Am"aba age | "Em"gag geg | "Am"aba age | "Em"g3 e2a \
+| "C"gec cge | "G"dBG GAB | "Am"c2A "Em"BGE | "Am"A3- A2 :|
+S:https://www.folktunefinder.com/tunes/14362
+S:http://trillian.mit.edu/~jc/music/abc/jig/ILostMyLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/ILostMyLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ILostMyLove.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ILostMyLove.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

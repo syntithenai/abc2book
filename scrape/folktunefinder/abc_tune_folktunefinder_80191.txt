@@ -1,0 +1,27 @@
+X:132
+T: Uralter Pfingstreigen
+N: A0498
+O: Europa, Mitteleuropa, Deutschland
+N: Erk II 4/5 No. 31. Die Melodie ist uralt, ebenso der Kehrreim, der
+N: in alten rheinischen Tanzliedern vorkommt.
+R: Romanze, Ballade, Lied
+M: 2/4
+L: 1/16
+K: D
+E2 | A2^G2A2B2 | =c4G4
+c4B2A2 | B2^G2A2
+AB | =c2B2A2G2 | A2G2=F2z2
+G4G2E2 | =F2G2A4
+_B2A2G2E2 | =F2E2D2
+S:https://www.folktunefinder.com/tunes/80191
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

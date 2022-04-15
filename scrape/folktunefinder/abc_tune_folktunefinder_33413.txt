@@ -1,0 +1,29 @@
+X: 3645
+T:Out on the Ocean
+R:jig
+Z:Played in G or A. Both versions included.
+M:6/8
+L:1/8
+K:G
+DBB BAG|BdB A2B|GED G2A|BAB AGE|!
+DBB BAG|BdB A2B|GED G2A|1 BGF G2E:|2 BGF GBd||!
+|:~e3 edB|efe edB|ded dBd|gfe dBA|!
+G2A B2d|ege dBA|GED G2A|1 BGF GBd:|2 BGF G2E||!
+K:A
+|:Ecc cBA|cec B2c|AFE A2B|cBc BAF|!
+Ecc cBA|cec B2c|AFE A2B|1 cAG A2F:|2 cAG Ace||!
+|:~f3 fec|~f3 fec|efe ece|agf ecB|!
+A2B c2e|faf ecB|AFE A2B|1 cAG Ace:|2 cAG A2F||!
+S:https://www.folktunefinder.com/tunes/33413
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:134
+T: O Himmel ich verspuer' ,
+N: D0215
+O: Europa, Mitteleuropa, Deutschland, Oberbayern
+N: zweistimmig notiert ( vorwiegend in Terzparallelen )
+N: Inzipit = Variante zum Lied, Variante zu D0077 
+R: Soldaten - Lied
+M: 4/4
+L: 1/8
+K: G
+dc | B3AB2c2 | B4z2
+d2 | g3dd2cB | B2A2z2
+dc | B3AB2c2 | B4z2
+d2 | g3dd2cB | B2A2z2
+d2 | e2d2e2f2 | g4z2
+d2 | e2dcB2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/72591
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:339
+T:The Stone In The Field
+T:The Maid in the Meadow
+N:jig version of "Green Fields of America"
+D:Tom Ennis and by Seamuis Ennis
+S:Padraig O'Keeffe MS, via 'Music from Sliabh Luachra'
+Z:Nigel Gatherer <gatherer:ARGONET.CO.UK> irtrad-l 2001-12-24
+L:1/8
+M:6/8
+K:G
+B|cBA BdB|AGA BGE|DEG AGA|BdB AGE|cBA BdB|AGA BGE|
+DEG AGA|BGG G2::D|GBd gdd|edd gdB|GBd gdB|
+AGA BGE|GBd gfg|e/f/ge fdB|GBB AGA|BGG G2:|]
+S:https://www.folktunefinder.com/tunes/14581
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidInTheMeadow_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/StoneInTheField_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/MaidInTheMeadow_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/StoneInTheField_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MaidInTheMeadow_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/StoneInTheField_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 23
+T:Cooley's Reel
+M:4/4
+L:1/8
+Q:90
+R:Reel
+K:Em
+D-|:"Em"E2A(3cBA B3/2(A|BA)B^c d-cBA|"D"D2AD BDAD|(3FED AD BDAD|!
+"Em"E2A(3cBA B3/2(A|BA)B^c d-efg|
+"D"(3agf (3gfe fedB|[1(3dBA FD"Em" E3/2 D:|[2(3dBA FD "Em"E4||!
+"Em"[E2B2]eB gBeB|[E2B2]eB gBeB|"D"d2(3BdB A-FFF|
+(A/2B/2^c/2d/2) (3dcB A-FFF|"Em"[E2B2]eB gBeB|!
+[E2B2]eB gBeB|"D"(3agf (3g
+fe fedB|[1(3dBA FD "Em"E3 D|[2(3dBA FD "Em" E4|]
+S:https://www.folktunefinder.com/tunes/77216
+S:http://deliveryboys.net/publicdo.abc
+S:http://www.deliveryboys.net/publicdo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

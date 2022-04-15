@@ -1,0 +1,26 @@
+X:294
+%%topmargin 3cm
+T:Cutting Ferns
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+B | A<A a2 {/^f}g<e {/f}g2 | {/^f}e>dB>A {/^F}G>AB>G | A<A a2 {/^f}g<e {/f}g2 | e>dB>g {/^c}B<A A::
+g | e>dB>A {/^F}G>AB>G | e>dTB>A B2 B>g | e>d(TB>A) {/^F}G>AB>d | e>d{/^f}g>B {cB}A2 A :|
+S:https://www.folktunefinder.com/tunes/71323
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Cutting_Ferns.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0294.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

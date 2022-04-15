@@ -1,0 +1,16 @@
+X: 1
+T:Come, Geordie --Ha'd the Bairn or Aw wish thy Muther wad cum.
+M:6/8
+L:1/8
+K:G
+e|d2BB2A|(B3B2)e|D2BB2d|(e3e2) e|d2BB2A|(B3B2) d|e2e f2g|(g3g2)G|fffe2e|
+d3g2g|f2fe2e|(d3d2)d|G2GG2G|g3(g2e)|d2BA2G|((g3g2) e|d2BBBA|(G3G2)||
+% Output from ABC2Win  Version 2.1 i on 3/9/2000
+S:https://www.folktunefinder.com/tunes/75446
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

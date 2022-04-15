@@ -1,0 +1,23 @@
+X:78
+T: Der blaue Storch
+N: A0087
+O: Europa, Mitteleuropa, Deutschland
+N: Baseler Tenor. Hs. von 1560-70 fol. 68b.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: A
+e | e2e | e=ff | e2e | d2d
+a2=g2=fd | e2A | e2A | e2
+e | e2=f2=ge | d2dA2
+B | =c2c2BB | A2E | A2E | A2
+S:https://www.folktunefinder.com/tunes/68624
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

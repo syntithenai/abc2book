@@ -1,0 +1,24 @@
+X: 1
+T: \vZalna Majka
+R: lesnoto
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: G
+|: "G"[gb][fa][eg] "D7"[f2a2] (3[df][eg][fa] | "C"[eg][df][ce] "D7"[d2f2] [eg][fa] | "C"[eg][df][ce] "D7"[d2f2] (3[Bd][ce][Ac] | "G"[d7B] \
+| [BG][cA][dB] [BG][cA] [dB][bd] | "C"[a2f2][ge] [fd][ge] [fd][ec] | "D7"[d2B2][ec] [dB][cA] [cA][BG] | "G"[B7G]- | [B7G] :|
+|: "G"[B2G][cA] [d2B] [b2d] | [b2d][bd] "C"[g2e] [e2c] \
+|1 "G"[d2B][ec] [dB][cA] [cA][BG] | "D7"[c7A] :|2 "D7"[d2B][ec] [dB][cA] [cA][BG] | "G"[B7G]- | [B7G] |]
+|: "G"([ac][b2d]) [b4d] | "C"[c'2e][bd] [a2c] [g2e] | "D7"[f7d]- | [f7d] | "C"([fd][g2e]) [g4e] | "D7"[a2f][ge] [f2d] [e2c] |
+|  "G"[d7B]- | [d7B] | "G"[B2G][cA] [d2B] [b2d] | [b2d][bd] "C"[g2e] [e2c] | "D7"[d2B][ec] [dB][cA] [cA][BG] | "G"[B7G]- | [B7G] :|
+S:https://www.folktunefinder.com/tunes/15291
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/ZhalnaMajka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/ZhalnaMajka_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/ZhalnaMajka_G.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

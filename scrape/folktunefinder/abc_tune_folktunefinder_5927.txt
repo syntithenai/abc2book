@@ -1,0 +1,26 @@
+X: 4
+P: Polka
+R: polka
+O: Sweden
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: D
+A/B/ \
+|: "D"AF Ad | f2 ~fe/f/ | ed/e/ dF | A3 A \
+| "A7"BA ^GA | c3 B/c/ | "D"BA FA | d4 :| [K:G]
+|: "G"D[BD] D[BD] | D[BD] [BD]>c | "D7"BA A>B | "G"AG G2 \
+|  "G"D[BD] D[BD] | D[BD] [BD]>c | "D7"BA d>F | "G"GG G2 :|
+S:https://www.folktunefinder.com/tunes/5927
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Polka4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

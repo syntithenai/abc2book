@@ -1,0 +1,26 @@
+X:213
+T: ES SPIELT EIN GRAF MIT EINER MAGD
+N: E0110D
+O: Europa, Mitteleuropa, Deutschland, Wetterau
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod
+M: 3/4
+L: 1/8
+K: G
+D | GAB3A | _Bcd3
+B | cde2d2 | c2_B2z
+G | BdA3c | _BdG3
+A | Bcd2B2 | A2G2z
+S:https://www.folktunefinder.com/tunes/78654
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

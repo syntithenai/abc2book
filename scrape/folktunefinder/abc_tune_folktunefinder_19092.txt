@@ -1,0 +1,31 @@
+X:1
+T:The days of wine and roses
+M:4/4
+L:1/4
+C:Henry Mancini & Johnny Mercer
+Q:1/4=140
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+V:chords
+x || "Fmaj7"x2 x2 | "Eb7"x2 x2 | "D7sus"x2 x2 | "D7"x2 x2 |
+"Gm7"x2 x2 | x2 x2 | "Bbm6"x2 x2 | x2 x2 ||
+V:melody
+P:A
+C||A4-|AGAc|d2c2-|c2cA|
+S:https://www.folktunefinder.com/tunes/19092
+S:http://trillian.mit.edu/~jc/music/abc/song/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/jazz/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/AtteJensen/song/days_of_wine_and_roses.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/jazz/days_of_wine_and_roses.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

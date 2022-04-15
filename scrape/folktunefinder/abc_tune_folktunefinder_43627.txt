@@ -1,0 +1,28 @@
+X: 11
+T:Sailors Delight. JWDM.11
+M:6/8
+L:1/8
+S:J.Winder MS,Wyresdale,Lancs.,1789
+R:Jig
+O:England
+A:Lancashire
+Z:vmp.Taz Tarry
+K:D
+e|f2ag2e|f2d (ege)|c3 c2e|f2ag2e|f2d (ege|d3d2:|!
+:e|f2dc2B|A2gf2e|(faf) c2c|c2ef2d|c2B A2g|f2e (faf)|d3d2:|
+%should be 9/8 with last bar to finishT.T.
+%Still,works well enoughCGP.
+%maybe 6 bars in the B would have been enoughCGP.
+S:https://www.folktunefinder.com/tunes/43627
+S:http://www.andyhornby.net/Music/John%20Winder%20MS.abc
+S:http://www.village-music-project.org.uk/abc/johnwinder.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

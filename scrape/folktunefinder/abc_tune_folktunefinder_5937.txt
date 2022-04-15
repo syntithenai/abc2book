@@ -1,0 +1,42 @@
+X: 1
+T: Polonez - Po\'zegnanie ojczyzny
+O: Poland
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: A2BA CD ABA
+K: Am
+"A"\
+|:"Am"e6 ^de f2e2 | c2cB A6 c2 \
+| "A7"e2e2 a6 e2 | "Dm"g2_g2 f6 d2 \
+| "E7"b3a ^g3f e3d | "Am"e3d c6 A2 |
+| "E7"BcBA Bdfe dcBA | "Am"Acea c'6 a2 \
+| "E7"bc'ba bd'f'e' d'c'ba | ^gabg b4 "Am"Ha4 :|
+"B"\
+|:"E7"^G2B2 e6 d2 | "Am"c6 fe dcBA \
+| "E7"^GEGB e6 d2 | "Am"c6 fe dcBA |
+| "E7"E^GBA GBdc Bdfe | d^gba gbd'c' bd'f'e' \
+| e'3f e2[e2d2] [e2c2][e2B2] | c3e [e2d2][e2c2] "_d.C."[e2B2][e2E2] :|
+P: Trio:
+"C"\
+[| "Am"A4 zE^F^G ABcA | "E7"B4 zE^GA BcdB \
+| "C"c4 zGAB cdec | "G7"d4 zGBc defd \
+| "Am"e3^d e2f2 e2d2 |
+| "Am"c2cB A6 c2 \
+| "E7"B2Be E6 ^G2 | "Am"A^GAB cBcd e2c2 \
+| "E7"B2Be E6 ^G2 | A^GcB B4 "Am"A4 ||
+"D"\
+|| "C"C2CC C2C2 "G7"D2D2 | "C"E2EE E2E2 "G7"F2F2 \
+| "C"G2GG G2G2 "G7"F2F2 | "Am"E2EE E2E2 "E7"D2D2 \
+| "Am"C2CC C2C2 "E7"B,2E2 | "Am"C2CC C2C2 "E7"B,2"_d.C."E2 |]
+S:https://www.folktunefinder.com/tunes/5937
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Polonez1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Poland/tune/Polonez1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

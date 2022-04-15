@@ -1,0 +1,31 @@
+X: 1
+T: The Warlocks
+C: Robert Lowe (19th C.)
+R: strathspey
+B: J.Holland Book
+D: Bill Lamey (on a 78)
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces 1
+K: Em
+z \
+| "Em"B<E {E}G>F E2 E/F/G | "D"AF D2 D/E/F \
+| "Em"G>E "(D)"F>D "Em"E<e e>f | "Bm"g>e f/e/d "Em"{d}e2 e :|
+B \
+| "Em"e/f/g B>g ee | "D"f/g/a d>a f<d a>f \
+| "Em"e/f/g B>g ee | "D"d>B A>F "Em"E2 E ||
+B \
+| "Em"e/f/g B>g ee | "D"f/g/a d>a f<d a>f \
+| "Em"e>g f>e "D"d>B A>F | "G"GF "Em"E2 E |]
+S:https://www.folktunefinder.com/tunes/19698
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Warlocks_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Warlocks_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

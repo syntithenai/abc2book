@@ -1,0 +1,28 @@
+X:147
+T: Tageweise von Kristes geburt und von den heiligen drei kuenigen
+N: A0513
+O: Europa, Mitteleuropa, Deutschland
+N: Lambacher Hs. und Spoerls Liederbuch 1392.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/4
+L: 1/8
+K: D
+D2D2D2 | A2B2=c2A2 | A4z2
+AG=F2E2 | D2D2=C2D2 | A2E2D4 | z2
+D2D2D2 | A2B2=c2A2 | A4z2
+AG=F2E2 | D2D2=C2D2 | A2E2D4 | z2
+D2E2=F2 | G2A2G2=F2 | G4z2
+D2 | E2=F2G2A2 | G2=F2G4 | z2
+AG=F2E2 | E2D2=C2D2 | =F2E2D4 | z2
+S:https://www.folktunefinder.com/tunes/80206
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

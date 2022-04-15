@@ -1,0 +1,73 @@
+X: 1
+T: El Choclo
+T: The Ear of Corn
+C: \'Angel Gregorio Villoldo (1868-1919)
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: The piece was premiered in 1903 - the date appears  on  a  program  of  the
+N: venue  -  at  the  elegant restaurant "El Americano" on 966 Cangallo Street
+N: (today Teniente General Pern) by the orchestra led by Jos Luis  Roncallo,
+N: who  had  to  disguise it by titling the number as "danza criolla", because
+N: the owner of the local did not like tango music.   Despite this, there is a
+N: belief that it was composed in 1898.
+R: tango
+M: 2/4
+L: 1/16
+K: Am
+EEF \
+| "Am"FEEA Accf \
+| "Am"f2{gf}e2 zeea \
+| "Am"aeec cddc \
+| "E7"c2{dc}B2 zEEF |
+| "E7"FEE^G GBBf \
+| "E7"f2{gf}e2 z e^de \
+| b^gge e=ddc \
+| "Am"B2{cB}A2 zEEF |
+| "Am"FEEA Accf \
+| "Am"f2{gf}e2 zeea \
+| "A7"aee^c ceeg \
+| "Dm"g2{ag}f2 zFFf |
+| "Dm"feed dccB \
+| "Am"B2{cB}AA AcBA \
+| "E7"A2{BA}^GB BdcB \
+| "Am"A2 z3 |]
+|: G^FG \
+| "G7"ff2f gfe^d \
+| "C"fe2B =dcBA \
+| "G7"cB2F BAG^F \
+| "C"A2G2 zE^DE |
+| "E7"dd2d edcB \
+| "Am"d2c2 zcdc \
+| "Dm"BA^GA Bcd^d \
+| "E7"e2z3 :|[K:A]
+Ee^c \
+| "A"AEzc AEAc \
+| "E7"d2{ed}B2 zEdB \
+| "E7"GEzG EGBd \
+| "A"c2{dc}A2 zEcB \
+| "F#7"^AF^EF GABc |
+| "Bm"e2{fe}d2  zB^AB \
+| "B7"c2{^dc}B2 zABA \
+| "E7"A2{BA}G2 zEec \
+| "A"AEzc AEAc |
+|  "E7"d2{ed}B2 zEdB \
+| "E7"GEzG EGBd \
+| "A"c2{dc}A2 zEcB \
+| "F#7"^AF^EF GABc |
+| "Bm"e2{fe}d2  zFdc \
+| "B7"{cd}cB^AB "E7"F=AGB \
+|1 "A"A2 "d.C."z3 \
+|]2 "A".A2.e2 [a2c2] Hz2 |]
+S:https://www.folktunefinder.com/tunes/19716
+S:http://trillian.mit.edu/~jc/music/abc/tango/Choclo_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Argentina/tango/Choclo_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango/Choclo_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/Choclo_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tango/Choclo_Am.abc
+% Rhythm Tango
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

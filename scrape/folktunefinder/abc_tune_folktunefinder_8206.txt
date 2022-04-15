@@ -1,0 +1,41 @@
+X: 1
+P: Farmors brudpolska efter Susanne
+R: \"Alvdalspolska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D=B^c
+|: "A7"A2 (A>c) A>c \
+| A2 (A>c) A>c \
+| e2 (g/a/)g/e/ "Dm"f>g \
+| (Tfe) (dc) d>e \
+| f2 (f/a/)f/d/ "(A)"e>c |
+| "A7"A2 A>c A>c \
+| A2 A>c A>c \
+| e2 g/a/g/e/ "Dm"f>g \
+| Tfe dc d>e \
+| f2 f/a/f/d/ "A7"e>c \
+| "Dm"d2 d4 :|
+|: "Dm"a2 ab ag \
+| "A7"e2 g/a/g/e/ "Dm"f>g \
+| "F"a2 a=c' ag \
+| "A7"e2 g/a/g/e/ "Dm"f>g \
+| Tfe dc d>e \
+| f2 f/a/f/d/ "(A)"e>c |
+| "A7"A2 A>c A>c \
+| A2 A>c A>c \
+| e2 g/a/g/e/ "Dm"f>g \
+| Tfe dc d>e \
+| f2 f/a/f/d/ "A7"e>c \
+| "Dm"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/8206
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Alvdalen1.abc
+% Rhythm A?lvdalspolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

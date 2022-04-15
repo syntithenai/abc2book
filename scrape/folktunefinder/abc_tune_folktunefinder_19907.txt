@@ -1,0 +1,34 @@
+X: 1
+T: Farewell to Devon (A)
+R: waltz
+C: Pat Shaw
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+e2 \
+|   "A"a3 g fe |      c2 e4        | "E7"A2 A2 B2 |   "A"c4 e2    \
+| "F#m"a3 g fe | "C#m"c2 e4        | "B7"cB A2 c2 |  "E7"B4 e2    |
+|   "A"a3 g fe | "C#m"e2 c4        |  "D"f3  e dc | "F#m"c2 A4    \
+|  "Bm"d3 c BA |   "D"B3  A     GF | "E7"E2 c2 B2 |   "A"A4 E2   ||
+||  "A"A3 B cB |      A2 E4        | "Bm"B3  c dc |  "E7"B2 E4    \
+|   "A"c3 d ed | "F#m"c2 A2     de | "Bm"f3  e dc |  "E7"B4 e2    |
+|   "A"c3 d ed | "F#m"c2 A4        | "Bm"d3  e fe |  "E7"d2 B2 cd \
+| "C#m"e3 f ge | "F#m"a2 A2 "Bm"d2 | "E7"c3  d B2 |   "A"A4      |]
+S:https://www.folktunefinder.com/tunes/19907
+S:http://trillian.mit.edu/~jc/music/abc/waltz/FarewellToDevon.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Farewell_to_Devon_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/FarewellToDevon.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Farewell_to_Devon_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/FarewellToDevon.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/FarewellToDevon.abc
+S:http://trillian.mit.edu/~jc/music/book/500/FarewellToDevon.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

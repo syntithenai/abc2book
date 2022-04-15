@@ -37,7 +37,7 @@ a:active {
 	margin-left: 0.2em;
 }
 #edit {
-	margin-top: 12em;
+	margin-top: 14em;
 	margin-bottom: 7em;
 	background-color: white;
 }
@@ -399,3 +399,26 @@ button {
 .abcjs-css-warning {
 	display: none;
 }
+
+
+/*
+animated cursor
+*/
+.abcjs-cursor {
+    stroke: blue;
+}
+@media (prefers-color-scheme: dark) {
+   .abcjs-cursor {
+       stroke: #ffffff;
+   }
+}
+path {
+	   transition: opacity 1s;
+   }
+   .abcjs-note.hidden, .abcjs-beam-elem.hidden {
+	   opacity: 0;
+   }
+   .color {
+	   stroke: red;
+	   fill: red;
+   }

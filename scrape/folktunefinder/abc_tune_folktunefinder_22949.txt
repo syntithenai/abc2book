@@ -1,0 +1,25 @@
+X:2498
+T:Haste to the Wedding
+O:england
+M:6/8
+L:1/8
+S:Armitt MS
+N:Key signature at the begining consists of C# second space down and A#
+N:third space down.  Key signature is repeated in middle of 6th bar as C#
+N:and G# (4th line down) and after the first bar line in the B music as
+N:D# (second line down) and G#
+K:D Major
+AFA Aaf|ede fdB|AFA Bcd|EEEE2|AFA Aaf|ece fdB|AFA fga dddd2:||:afa afa b
+gb bgb afa afa|gfe e3|fgaf3|ede fdB|AFA fga|dddd2:||
+S:https://www.folktunefinder.com/tunes/22949
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

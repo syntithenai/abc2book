@@ -1,0 +1,22 @@
+X: 1
+T: Norralapolskan
+O: efter Anders Wallin, Bolln\"as, H\"alsingland
+R: 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2 \
+| "D"d2dA F2FD "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7"g2ge |1,3 "E7"d-cdf e-dcB "A"A3A :|
+|2,4 "A7"A-cec "D"d6 :: g2 | "D"f2d2 A-df-d A-df-d | "A"e2c2 A-ce-c A-ce-c | "G"B2G2 D-GB-G D-GB-G |
+| "D"A2BA "E7"F2D2 "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7"g2ge |"A7"A-cec "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16406
+S:http://trillian.mit.edu/~jc/music/abc/pols/NorralaP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/NorralaP.abc
+% Rhythm 16th-note polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

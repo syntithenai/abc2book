@@ -1,0 +1,31 @@
+X:3885
+T:Danza Pixueta (Arrg.)
+R:Danza
+C:Tradicional. Versin de Llan de Cubel
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Cuideiru
+A:Asturies
+G:Arrg.
+Z:Tito
+M:2/4
+L:1/4
+Q:1/4=220
+K:D
+|:"Bm"B "D"d|d "A"e|c "D"d|"Bm"B2|"Bm"B2|
+"Bm"B d|"D"d d|"A"c c|"Bm"B2|"A"A2|
+"Bm"B "D"d|d "A"e|c "D"d|"Bm"B2|"Bm"B2|
+"Bm"B "F#m"f|f "D"d|"A"e "F#m"f|"Bm"B2|"Bm"B2|
+"Bm"B "F#m"f|f f|"A"e e|"Bm"B2|"A"A2|
+"Bm"B "D"d|d "A"e|c "D"d|"Bm"B2|"Bm"B2:|
+S:https://www.folktunefinder.com/tunes/60074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

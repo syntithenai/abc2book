@@ -1,0 +1,30 @@
+X:720
+T:Heights of Cassino, The
+S:As played by Iain MacInnes (Smalltalk)
+Z:Nigel Gatherer scots-l 2004-11-6
+M:6/8
+L:1/8
+K:Amix
+B/c/ | E>EE E<FA | c2e  c>BA | B>BB B2A | B<cB A>FD |
+       E>EE E<FA | c2e  c>BA | c2E  c2B | A3-  A2  :|
+c/d/ | e>cA c3   | c2e  c>BA | B>BB B2A | B<cB A>FD |
+       e>cA c3   | c2e  c>BA | c2E  c2B | A3-  A2
+c/d/ | e>cA c3   | c2e  c>BA | B>BB B2A | B<cB A>FD |
+       E>EE E<FA | c2e  c>BA | c2E  c2B | A3-  A2  ||
+z    | E3   F>ED | E>EE c3   | c2e c>BA | B<cB A>FD |
+       E3   F>ED | E>EE c3   | c2E  c2B | A3-  A2  :|
+c/d/ | e>cA A>Bc | E>EE c3   | c2e c>BA | B<cB A>FD |
+       e>cA A>Bc | E>EE c3   | c2E  c2B | A3-  A2
+c/d/ | e>cA A>Bc | E>EE c3   | c2e c>BA | B<cB A>FD |
+       E3   F>ED | E>EE c3   | c2E  c2B | A3-  A2  ||
+S:https://www.folktunefinder.com/tunes/14302
+S:http://trillian.mit.edu/~jc/music/abc/jig/Heights_of_Cassino_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Heights_of_Cassino_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Heights_of_Cassino_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

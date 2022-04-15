@@ -1,0 +1,43 @@
+X:616
+T:Pericote (CT 086)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile, transcrita en Llanes.
+N:Se conoce este baile con el nombre de "El Pericote", e intervienen en l personas de ambos sexos, distribudas en grupos de a tres, formando cada grupo un hombre y dos mujeres.
+N:Al bailador se le llama "Perico".
+N:Abunda este baile en figuras, en las cuales el hombre galantea a las mujeres.
+N:Segn testimonio de varias personas, en algunos pueblos del concejo de Llanes sustitua al hombre una mujer, cubriendo su cabeza con un gran sombrero de copa adornado con cintas de diversos colores.
+N:Era debido esto, segn nos aseguraban, a la falta de hombres jvenes, pues la emigracin a Mxico lleg a ser muy general en la comarca.
+N:Por creerlo de algn inters, sealaremos, sin hacer, no obstante, deduccin alguna, que antiguamente se us en Espaa una especie de tocado hecho con pelo postizo y que adornaba la parte delantera de la cabeza, el cual se llamaba Perico.
+N:Se designa tambin en el castellano corriente con el nombre de "Pericn" a aquella persona que suple por todos, haciendo ella sola el oficio de varias.
+N:Los gauchos argentinos poseen un baile que denominan Pericn, "especie de gran contradanza campesina, tan abundante en figuras como pobre en msica"
+N:(L. Lugones: "La musique populaire en Argentina. Revue Sudamericaine", nm. 5; mai 1914. Pars).
+A:Asturies
+O:Llanes
+Z:Cancioneru de Torner 086
+M:2/4
+L:1/8
+Q:1/4=132
+K:C
+BB|d2 cc|d2 ed|Ac BA|
+G2 dB|Ac BA|c2 dB|Ac BA|G2||
+W:Vlgame, vlgame!
+W:Mi tu coxu rompi un pie
+W:y despus que lu rompi
+W:lu llev a Santu Med.
+W:
+S:https://www.folktunefinder.com/tunes/59503
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

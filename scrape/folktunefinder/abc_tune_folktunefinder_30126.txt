@@ -1,0 +1,20 @@
+X:0
+T:Braw, Braw Lads o Galla Water
+G:song
+M:4/4
+L:1/8
+Q:1/4=124
+K:D
+% lydian/major hexatonic
+F2 E>D D3F|A3  B A<FE>D|F2 E2  E2 F>A|B>Ad>c B2 AA |
+A2 Bc  d3e|f>edB d3   F|F2 E>F E2 F>A|d3   c B2 A2|]
+S:https://www.folktunefinder.com/tunes/30126
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

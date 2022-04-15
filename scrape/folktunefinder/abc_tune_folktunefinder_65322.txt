@@ -1,0 +1,25 @@
+X: 234
+T:Pet of the Pipers
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:A
+P:A
+E|"A"A2A cBA|"A"ecA aec|"A"A2A cBA|"D"GFE "E7"dcB|
+"A"A2A cBA|"A"ecA aec|"D"fga "A"ecA|"E7"dBG "A"A2:|
+P:B
+e|"A"aga "D"fga|"B7/f"fba "E7"gfe|"A"aga "D"fga|"E7"bag "A"a2(3e/2f/2g/2|
+"A"agf edc|"D"fed "A"cBA|"D"fga "A"ecA|"E7"dBG "A"A2:|
+S:https://www.folktunefinder.com/tunes/65322
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

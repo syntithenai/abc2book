@@ -1,0 +1,31 @@
+X:14969
+T:Schottisch
+S:Notenmateial von Stefan Straubinger
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/16
+C:Simon Wascher
+K:G %Transposed from F
+|(d3b) (b3d)|(c3a) (a3g)|fgfg f2e2|dede d2B2|
+(d3b) (b3d)|(c3a) (a3g)|fgfg e2f2|g2b2g2z2:|
+|:d2fd a2f2|g2gd b2g2|fgab c'2e'2|d'2d'c'b4|
+d2fd a2f2|g2gd b2g2|fgab c'2f2g2|b2g2z2:|
+P:Trio
+K:C
+|:(~g2e2) g2a2|=f2dd d2d2|(~f2d2) f2g2|e2cc c2c2|
+c'2c'c' c'2b2|(~a2d2) d4|b2bb b2a2|(~g2e2) e4|
+(~g2e2) g2a2|=f2dd d2d|(~f2d2) f2g2|e2cc c2c2|
+c'2c'c' c'2b2|(~a2d2) d4|(^fg)ba g=fed|c2c'2c'2z2:|]
+S:https://www.folktunefinder.com/tunes/46244
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

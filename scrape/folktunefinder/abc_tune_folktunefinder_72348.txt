@@ -1,0 +1,27 @@
+X: 99
+T:Scotch Tune,A. HA.098
+M:C
+Q:80
+C:Back to original Hand
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/4
+Z:vmp.Chris Partington.Jan.2004
+K:C
+"As Writ"G3d df>ed|(c/d/) (c/A/) (G/F/)F2GA2|\
+G3d df>ga|F3G (Ac)G2:|!
+|:d(e/d/) (c/A/) f2|(e/d/) g (e/d/) a2|\
+(g/e/) d (e/d/) (c/A/)|f3 g/a/ F2G (A/c/) G2:|]
+S:https://www.folktunefinder.com/tunes/72348
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 2
+T: Das Horst Wessel Lied
+T: The Horst Wessel Song
+C: Tune: Old soldier's song
+%C: Words by Horst Wessel, 1927
+N: A variant of an 18th-century ballad.
+N: The Spanish song "Mi camisa azul" uses this melody.
+N: The tune is distantly related to the hymn How Great Thou Art.
+N: This is the version sung by Hitler's troops.
+N: Many parodies of this song apeared in the 1920's and 30's.
+M: 4/4
+L: 1/4
+K: C
+%
+[| "G7"zGGF |  "C"E3G | "Am"c>BAE | "Dm"G2F2 \
+|  "Dm"zFFE | "G7"D3G | "G7"G>GAG | "C"E3z ||
+%|:"C"zGEG | "C"c>ee[eG] | "C7"[dF][cE][BD][cE] | "F"[f2A2][f2A2] \
+%  "(Dm)"zddc | "C"[e3G3]c | "G7"B>BAB | "C"c3z :|
+|:"C"z[GE][EC][GE] | "C"[cE]>[eG][eG][eG] | "C7"[dF][cE][BD][cE] | "F"[f2A2][f2A2] \
+| "(Dm)"z[dF][dF][cE] | "C"[e3G3][cE] | "G7"[BG]>[BG][AF][BF] | "C"[c3E3]z :|
+S:https://www.folktunefinder.com/tunes/4743
+S:http://trillian.mit.edu/~jc/music/abc/Germany/HorstWesselLied.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

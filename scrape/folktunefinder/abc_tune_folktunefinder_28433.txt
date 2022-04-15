@@ -1,0 +1,28 @@
+X:7981
+T:Watson's Hornpipe. GHW.065
+O:england
+M:2/4
+L:1/8
+Q:300
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+A:Norfolk
+K:D
+AGFG A2 d2|BGde dcBA|defe B2 (cd)|efge dcBA|
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|
+|:f2 (df) agfe|e2 (ce) aedc|defd B2 cd| efge dcBA|
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|
+W:Untitled in MS |
+S:https://www.folktunefinder.com/tunes/28433
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

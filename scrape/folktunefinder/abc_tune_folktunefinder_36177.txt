@@ -1,0 +1,25 @@
+X:490
+T:Bourre
+M:4/4
+O:France
+R:Bourre
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a99.html
+%%ID:00000a99
+K:G mixolydian
+f4 e2 | d3 A de | fe df ed | f2 e2 d2 |\
+f4 e2 | d4 c2 | B2 BA Bc | d2 B2 G2 :|
+|:\
+gd Bc d2 | gd Bc d2 | g2 gf ga | b2 a2 g2 | \
+gd Bc d2 | gd Bc d2 | g2 gf ga | g6 :|
+S:https://www.folktunefinder.com/tunes/36177
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X:29
+T:Mr. Stewart Dowally's Reel
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 14
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:C|
+R:Reel
+K:D
+[V:1] g|f2 (df) afdf| e2 (=ce) gece|f2 df afdf|e(gfe) d2d:|
+[V:2] z|d2  d'2 f2d2|=c2  =c'2 e2c2|d2 d'2f2d2|g2 a2  d2d:|
+%Petrie left out the natural sign on the high C in the above line -SW
+[V:1] |:E|D/D/D FD ADFD|D/D/D FD E=CCE|D/D/D (FD) ADFD|B(gTfe) d2(df)|
+[V:2] :|z|D2    d2 f2d2|d2    d2=c2 c2|D2     d2  f2d2|g2  a2  d2 d2 |
+[V:1] D/D/D FD ADFD|D/D/D (FD) E=CCE|DFAd GBeg|faef d2d|]
+[V:2] D2    d2 f2d2|d2     d2 =c2 c2|d2f2 e2g2|a2A2 d2d|]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72056
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/MrStewartDowallysReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Mr_Stewart_Dowallys_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

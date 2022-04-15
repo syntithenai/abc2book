@@ -1,0 +1,28 @@
+X: 1
+T: VENDOME HORNPIPE
+O: Kerr's 2nd
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: Kerr 2nd p.43 #388 c.1880
+M: C|
+L: 1/8
+K: F
+(AB) \
+| c>fe>f d>ba>g | (3fga f>c (3ABc A>F | E>FG>A  B>cd>c     | (3BAG (3AGF E>dc>B |
+| c>fe>f d>ba>g | (3fga f>c (3ABc A>F | E>dc>B (3AGF (3GFE | (3FAc (3fcA F2 :|
+|: A2 \
+| (3BAG  (3AGF  (3EGB (3dcB | (3c=Bc (3Acf (3agf (3edc | (3BAG (3AGF (3EGB (3dcB | (3c=Bc (3Acf (3agf (3edc |
+| (3d^cd (3g^fg (3bag (3fed | (3c=Bc (3fef (3agf (3edc | (3dfe (3dcB (3AGF (3GFE | (3FAc  (3fcA F2 :|
+S:https://www.folktunefinder.com/tunes/13714
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/VendomeHp_F_Kerr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/VendomeHp_F_Kerr.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 2
+M: C
+L: 1/8
+P: Lili Marlen'
+K: C
+[| "C"[EC]>[EC] [EC][FD] [G2E2] [E2C2] | "G7"[FB,]>[FB,] [FB,][cA] [B3G3]z \
+|  "G7"[DB,]>[DB,] [DB,][EC] [F2D2] [FD][GE] | [BG]>[AF] [GE][FB,] "C"[E3C3]z |
+|  "F"[A2F2] [BG][cA] [B2G2] [A2F2] | "C"[A2F2][G2E2] [B3G3] [AF] \
+|  "G7"[G2E2] [F2D2] [A3F3] [GE] | "C"[F2D2] [E2C2] [G3E3] [EC] |
+|  "G7"[G3E3] [FD] [F2D2] [d2F2] | "C"[c4E4] [E3C3] [EC] \
+|  "G7"[G3E3] [FB,] [F2B,2] [B,2G,2] | "C"[C6E,6] z2 |]
+S:https://www.folktunefinder.com/tunes/4756
+S:http://trillian.mit.edu/~jc/music/abc/Germany/LiliMarlen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

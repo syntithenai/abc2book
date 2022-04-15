@@ -1,0 +1,31 @@
+X:7858
+T:Vous Reviendrez
+O:england
+R:Valse
+C:Martin Cayla
+S:L'accordon en Auvergne
+N:Original H-Dur
+M:3/4
+L:1/8
+K:G
+D2 G3  B|d4 ~B2 |GBdBeB|d4 ~B2|GBdedB|\
+c4 ~A2 |1 FAcAdA|B4 ~G2:|2 FAcAdF |G6:||
+|:ABcBcA|GABABG|FGABAG|FG d4|ABcBcA|\
+GABABG|FGAdAd|1 G6:|2 G4||
+|:GA|GAGFGA|GBAGAB|cBAGAc|BAG2 GA|\
+GAGFGA|GBAGAB|cABGAF|1 G4:|2 "D.C."G6||
+"coda" .G2  Bcde|dBdcAF|.G2 z2 .F2|G2||
+S:https://www.folktunefinder.com/tunes/28310
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

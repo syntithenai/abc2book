@@ -1,0 +1,20 @@
+X: 1
+T: Deio y Dywyn
+O: Wales
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Am
+|: "Dm"A2 A2 F2 A2 | "C"G2 E2 C2 E2 | "Dm"D^C DE FE FG | "A7"A2 C2 "Dm fine"D4 :|
+|| "Dm"A2 A2 "C"c2 B2 | "Dm"A2 d2 "Am"A4 | "Dm"A^G AB c2 "C"cA | "Dm"A2 d2 "Am daCapo" A4 |]
+S:https://www.folktunefinder.com/tunes/5481
+S:http://trillian.mit.edu/~jc/music/abc/Intl/DeioYDywyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/DeioYDywyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/DeioYDywyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/march/DeioYDywyn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

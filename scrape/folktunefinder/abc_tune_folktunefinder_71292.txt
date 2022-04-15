@@ -1,0 +1,24 @@
+X:263
+%%topmargin 3cm
+T:Loch Earn
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G
+!f!f | ~g2 dB G2 BG | !p!E2 AG (FD)Df | !sf!~g2 dB G2 BG | EAFD G2 G :| d | (ef).g.e (fg).a.b | afge fddf |
+efge fgag | fefd {/f}g2 (Bd) | efge dBGB | ceBd AGFD | GABG ABce | dBcA G2 G |]
+S:https://www.folktunefinder.com/tunes/71292
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Loch_Earn.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0263.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

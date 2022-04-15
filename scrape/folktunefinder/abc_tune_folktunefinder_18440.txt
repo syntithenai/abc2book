@@ -1,0 +1,25 @@
+X: 1
+T: Reinlendar etter Johannes
+R: shottish
+B: Folklore Village booklet
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: "A"c>d ~cB c>d ~cB |     c>d ~cB    c2 A2 | c2 cA "E7"B2 EG |1 B2 Bd "A"c2 A2 :|2 "A"A2 A2 A4 |]
+|: "A"c>d  ef e2   ec | "E7"B2   Bd "A"c2 A2 | c2 cA "E7"B2 EG |1 B2 Bd "A"c2 A2 :|2 "A"A2 A2 A4 |]
+P: D:
+K: D
+|: "D"F>G ~FE F>G ~FE |     F>G ~FE    F2 D2 | F2 FD "A7"E2 A,C |1 E2 EG "D"F2 D2 :|2 "D"D2 D2 D4 |]
+|: "D"F>G  AB A2   AF | "A7"E2   EG "D"F2 D2 | F2 FD "A7"E2 A,C |1 E2 EG "D"F2 D2 :|2 "D"D2 D2 D4 |]
+S:https://www.folktunefinder.com/tunes/18440
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Reinl_Johannes_AD.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Reinl_Johannes_AD.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

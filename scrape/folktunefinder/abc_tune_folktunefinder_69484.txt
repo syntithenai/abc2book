@@ -1,0 +1,25 @@
+X:625
+T: Kuhreigen"
+N: Z1306
+O: Europa, Mitteleuropa, Emmenthal
+R: Handwerker -, Bauern - Lied
+M: 2/4
+L: 1/16
+K: G
+Bc | d3cB2BG | A2A2z2
+Bc | dd^cdB2AG | A4z2
+AG | F2D2G2A2 | B2G2z2
+Bc | d3cB2A2 | G4d2e^c | d2e^cd2ec | d4G4 | g4z2
+S:https://www.folktunefinder.com/tunes/69484
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Handwerker -, bauern - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

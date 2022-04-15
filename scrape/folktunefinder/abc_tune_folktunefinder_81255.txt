@@ -1,0 +1,41 @@
+X: 43
+T:Rantasaunan jenkka
+M:4/4
+L:1/8
+Q:180
+C:Orvokki Ramsi
+S:Folktunes from South-Karelia, Finland
+R:Jenkka
+O:Orvokki Ramsi
+A:South-Karelia Finland
+B:Folktunes from South-Karelia
+N:Orvokki Ramsi, female folkmusician from
+N:Suomenniemi county/municpality, currently (1998)
+N:believed to be over 80 years old.
+K:DMinor
+ A"Dm",DFA FA fe | d2 d2 d4 |: D>"Dm"F2 A>d3 f>e3 d>c3 |"Gm"B>A3G>F3"A7"
+ E2 E2 | A,^
+CEG
+ A>G3F>E3 |"Dm" DEFG A2 A2|DF Ad fedc |"Gm"B> A3G>F3"A7" E2 E2 |
+ A,^CEG A^cfe |"Dm" d2 d2 d4 :||:"Dm"A,DDFFAAd | f>e3g>f3"a7" e2 e2 | A^
+c^ce egge
+|"Dm" agfe d2 d2 | DFFAAddf | fegf"A7" e2 e2 | (3(a^ga) b ag>f3e>^c3 |"D
+m" d2 d2 d4 :|
+|:"Dm" (3(fgf) d2 (3(fgf) d2 |"A7" e>d3^c>B3 A2A2 | (3(gag) eg (3(gag) e
+g |
+"Dm"a>g3f>e3 d2d2|"Dm"(3(fgf) d2 (3( fgf) d2 |"A7" e>d3 ^cBAGFE | A,^CE>
+G 3A>^c3f>e3 |"Dm" d2 d2 d4:|
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/81255
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/scandi.abc
+% Rhythm Jenkka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

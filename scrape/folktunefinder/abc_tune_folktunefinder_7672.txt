@@ -1,0 +1,29 @@
+X: 69
+T: Possum Up a Gum Stump [4]
+T: Old Aunt Kate
+M:2/4
+L:1/8
+R:Breakdown
+S:Christeson \`i Old Time Fiddlers Repertory, vol. 1, No. 93  (1973)
+Z:AK/Fiddlers Companion
+F:http://www.ibiblio.org/fiddlers/OI_OLDGREY.htm
+K:D
+D/F/ \
+|: AF ED | A/d/f/d/ e/d/B/d/ | AF EE/F/ | G/B/A/G/ F/D/D/F/ |
+|  AF ED | A/d/f/d/ e/d/B/d/ | AF EE/F/ | G/B/A/G/ [F/A/][D/A/][DA]:|
+|: A/B/d/e/ ff/d/ | e/d/e/f/ gg | A/B/d/e/ fd | e/f/e/d/ cA/B/c/ |
+|  d/c/d/e/ ff    | e/d/e/f/ gf/g/ | a/b/a/f/ g/f/e/c/ | d/B/A/F/ D :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7672
+S:http://www.ibiblio.org/fiddlers/OI_OLDGREY.htm
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Breakdown
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

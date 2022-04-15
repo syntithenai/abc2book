@@ -1,0 +1,36 @@
+X: 1
+T: Ostindiens velkomet
+T: Welcome to the East India
+R: s\onderhoning
+Z: John Chambers <jc@trillian.mit.edu>
+O: Danmark
+D: "Sand p\aa gulvet"
+M: 2/4
+L: 1/16
+K: G
+D2 \
+| "G"G2G2 B2dB | "Em"G4 A2B2 | "Am"c3B A2G2 | "D7"GFAF D2D2 \
+| "G"G2G2 B2dB | "Em"G4 A2B2 | "Am"c3A "D7"FGAF | "G"G6 :|
+|: AB \
+| "Am"c3c "D7"B2A2 | "G"GABc d4 | G3G "A7"F2G2 | "D"AFDF A4 \
+| AFDF A4 | DEFG "A7"A2AG | "D"F2FD "A7"E2E2 | "D"D4 "D7"d3B |
+| "G"G3G F2D2 | "C"E4- E2AB | "Am"c3c "Em"B2G2 | "D7"A4- A2Bc | "G"d2d2 "(Em)"d2e2 \
+| "Am"c2cB "D7"A2Bc | "G"d3d "(Em)"d2e2 | "Am"c2cB "D7"A2c2 \
+| "G"B2AG "D7"A2GF | "G"G6 :|
+%
+"Alternate endings"[|]y8y4[|] \
+|| "G"BAG2 "D7"AGF2 | "G"G6 :| \
+|| "G"(3B2A2G2 "D7"(3A2G2F2 | "G"G6 |] \
+|| "G"B2AG "D7"A2z2 | F4 "C"G2G2 | "G"G6 |]
+S:https://www.folktunefinder.com/tunes/15634
+S:http://trillian.mit.edu/~jc/music/abc/march/OstindiensVelkomet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/ganglat/OstindiensVelkomet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/OstindiensVelkomet.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/OstindiensVelkomet.abc
+% Rhythm S%C3%B8nderhoning
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

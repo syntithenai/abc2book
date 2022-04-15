@@ -1,0 +1,19 @@
+X: 1
+T:The Keel Row
+M:2/4
+L:1/16
+C:Traditional
+K:Bb
+B8|A4F3A|B4G3B|A4F3A|G3=EC3B|A4F3A|B4G3B|
+A3FG3=E|F7c|Ac3c3f|d4c3B|A4F3A|G2=E2C3c|Ac3c3f|
+d4c3B|AF3G=E3|F8||
+% Output from ABC2Win  Version 2.1 i on 2/25/2000
+S:https://www.folktunefinder.com/tunes/75464
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

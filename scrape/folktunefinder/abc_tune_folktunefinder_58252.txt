@@ -1,0 +1,24 @@
+X:488
+T:Summertime 1
+S:Jack Tuttle
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Bb
+{^c}dB | {^c}d- d7- | d2 cB cdB{^F}G- | G D3- D4- | D4 {^c}(3d2=c2B2 |
+{^B}c- c7- | c2 BG Bc B2 | {^G}A- A7- | A2 (3G,BD GABc |
+ {^c}d- d7- | d2 cB cdB{^c}G- | G D3- D4- | D8 |
+F2 DF G B3 | {c}_d c3- cBGF | {^F}G- G7- | G6 |]
+S:https://www.folktunefinder.com/tunes/58252
+S:http://nigelgatherer.com/tunes/abc/tb10.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

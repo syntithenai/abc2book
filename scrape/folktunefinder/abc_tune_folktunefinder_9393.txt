@@ -1,0 +1,22 @@
+X: 3
+P: Valssi Karjaalta
+O: Finnish-American
+Z: John Chambers <jc@trillian.mit.edu>
+B: Pelimannisvelmi v.1, Pelimannikilta ry, (Fazer 1971)
+N: "Yleinen kansansvelm Uudeltamaalta. Bragen kokoelma."
+M: 3/4
+L: 1/8
+K: D
+|: "D"D2 DF AF | D2 DF AF | "G"G2 B2 B2 | B4 B2 \
+| "A7"A2 Ac ec | A2 Ac ec | "D"f2 d2 d2 | d4 d2 :|
+|: "D"f2 d2 d2 | d2 e2 f2 | "G"g2 gf ga | g3 fed \
+| "A7"c2 A2 A2 | A2 c2 e2 |1 a2 a^g ab | a4 g2 :|2 e2 d2 c2 | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/9393
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals17.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

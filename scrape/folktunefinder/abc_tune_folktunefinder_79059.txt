@@ -1,0 +1,30 @@
+X:618
+T: DA STEH I HIER OBEN
+N: E0571
+O: Europa, Mitteleuropa, Deutschland, Ober - Bayern
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+B | B2A3e | edB3
+c | BAE3F | G2D2z
+B | B2A3e | edB3
+c | BAE3F | G2D2z
+A | BAE3A | BAF3
+A | A2B2^c2 | d4
+cB | B2A3e | edB3
+c | BAE3F | G4
+cB | B2A3e | edB3
+c | BAE3F | G4z
+S:https://www.folktunefinder.com/tunes/79059
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

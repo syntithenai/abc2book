@@ -1,0 +1,26 @@
+X: 2
+T: Sun Assembly
+O: c.1750
+B: Barnes p.123
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+| "A"a2 {f}e2 | {d}c2 BA | "D"f2 A2 | "E7"G2 FE \
+| "A"Ac ec | "B7"B^d fa | "E"ge "B7"f^d | "E7"e2 E2 |
+| "A"a2 {f}e2 | {d}c2 BA | "D"f2 A2 | "E7"G2 FE \
+| "D"FA dF | "E7"EG Bd | "A"cB "E7"AG | "A"A4 ||
+|| "A"ce ag | "D"f2 ed | "A"ce ag | "D"f2 ed \
+| "A"ce ag | "D"gf "A"fe | "F#m"ed dc | "E7"c2 B2 |
+| "D"dc BA | "E7"G/A/B E2 | "D"dc BA | "E7"f/g/a g2 \
+| "D"fA af | "A"ec BA | "E7"E2 G2 | "A"A4 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/4078
+S:http://trillian.mit.edu/~jc/music/abc/England/SunAssembly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

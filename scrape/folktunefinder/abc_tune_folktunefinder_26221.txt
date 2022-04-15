@@ -1,0 +1,88 @@
+X:5769
+T:Saltarella
+O:england
+C:Fanciuollo Rapacchietta
+C:Balli popolari in Abruzzo II/2
+M:6/8
+L:1/8
+K:G
+de|fed cBA|G2||
+g geg|f2e ede|e2d ded|d2c cBA|G2B Bcd|\
+d2e edc|B2d deg|fed cBA|G3 ||
+Bcd|d2e edc|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|AFA cBA|G2||
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|ABc def|g2||
+g geg|fed cBA|B2d G2B|ABc F2A|G3-B3-d3-G3B3d3|\
+ABc f2e|e2d d3|f2e c3|d3-d3|
+f2e c3|e2d d3|f2e c3|d3-d3|\
+f2e c3|e2d d3|f2e c3|d3||
+zde|f2e ede|e2d ded|d2c cBA|G2B Bcd|\
+d2e edc|B2d deg|fed cBA|G2||
+B BAG|FGA ABc|e2d ded|d2c cBc|e2B BAG|\
+FGA ABc|e2d deg|fed cBA|G2||
+G GGG|FFF AAA|GGG BBB|AAA ccc|\
+BBB ddd|ccc eee|ddd ggg|fff eee|
+ddd ggg|fff eee|ddd ddd|AAA ccc|\
+BBB ddd|fed cBA|G2||
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G3-G3||
+f2e c3|e2d B3|f2e c3|d3-d3|\
+f2e c3|e2d B3|f2e c3|d3||
+Bcd|d2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G2||
+dg dgcedg|dfebdf cedgce|\
+Bdzdg dgcedg|dfebdf cedgce|\
+Bdzdg dgcedg|dfebdf cedgce|\
+BdAcBd GBFAGB|AcBdAc FAGBFA|\
+GBFAGB GBFAGB||
+AcBdAc cedgce|BdAcBd GBFAGB|\
+AcBdAc FAGBFA|GBzdg dgcedg|\
+dfebdf dfebdf|dgcedg dgcedg|\
+dfebdf dfebdf|dgcedg dgcedg|
+dfebdf cedgce|BdAcBd GBFAGB|\
+AcBdAc FAGBFA|GBFAGB GBFAGB|\
+AcBdAc cedgce|BdAcBd GBFAGB|\
+AcBdAc FAGBFA|GBz||
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+B BAG|FGA ABc|e2d ded|d2c cBc|e2B BAG|\
+FGA ABc|e2d deg|fed cBA|G2||
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|ABc def|g2||
+g geg|f2e f2e|e2d ded|d2c cBA|e2d deg|\
+f2e d2e|e2d deg|fed cBA|G2||
+G GGG|FFF AAA|GGG BBB|AAA ccc|\
+BBB ddd|ccc eee|ddd ggg|fff eee|
+ddd ggg|fff eee|ddd ddd|AAA ccc|\
+BBB ddd|fed cBA|G3-G3||
+f2e c3|e2d B3|f2e c3|d3-d3|\
+f2e c3|e2d B3|f2e c3|d3||
+Bcd|d2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G2||
+dg dgcedg|dfebdf dfebdf|\
+dgcedg dgcedg|\
+dfebdf dfebdf|dgcedg dgcedg|\
+dfebdf cedgce|BdAcBd GBFAGB|
+AcBdAc FAGBFA|GBFAGB GBFAGB|\
+AcBdAc cedgce|BdAcBd GBFAGB|\
+AcBdAc FAGBFA|GBz2 dfz2|Bdgz2|]
+S:https://www.folktunefinder.com/tunes/26221
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

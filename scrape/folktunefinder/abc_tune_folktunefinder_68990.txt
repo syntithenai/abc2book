@@ -1,0 +1,29 @@
+X:131
+T: ICH WEISS NICHT OB ICH DARF TRAUEN MICHEL
+N: Z0130
+O: Europa, Mitteleuropa, Deutschland
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/8
+K: D
+DF | A2FFGA | Bcd2
+AA | A3FEE | E2z2
+DF | A2FFGA | Bcd2
+AA | A3FEE | E2z
+DCD | E2F2GF | E3
+DCD | E2F2GF | E
+DDDdB | A2FFGA | Bcd
+BAA | A3FEE | E2z2
+d3A | F2F2 | E2E2 | D2z2
+S:https://www.folktunefinder.com/tunes/68990
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

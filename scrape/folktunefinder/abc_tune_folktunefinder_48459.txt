@@ -1,0 +1,30 @@
+X: 28
+T:Knocknagow
+R:jig
+D:Eileen Ivers: Eileen Ivers
+Z:Devin McCabe
+M:6/8
+L:1/8
+Q:150
+K:Ador
+EAB ~c3|~E3 GED|EAB cBc|~d3 ecA|
+!EAB cBc|~E3 GAB|Aag edB|1BAG A2D:|2BAG A2E|
+!|:A2a a^ga|ede gdB|Aab ae^c|def gdB|
+!A2a a^ga|ede ~g3|e=fe dcB|1BAG A2E:|2BAG AB/2^c/2d|
+K:A
+!|:edc dcB|cAF ~E3|AGA cBc|~d3 Bcd|
+!e2c dcB|cAF ~E3|Ace aed|cdB AB/2c/2d:|
+!:eaf =g2e|~a3 ecA|dfa ecA|cBB Bcd|
+!ecA fdB|~a3 ecA|de/2f/2^g aed|2cdB Acd:|2|cdB A2=G||
+S:https://www.folktunefinder.com/tunes/48459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

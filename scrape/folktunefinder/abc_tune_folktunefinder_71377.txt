@@ -1,0 +1,28 @@
+X:348
+%%topmargin 3cm
+T:Fair Fa' the Minstrel
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bb
+e S| dB B/B/B FBDe | dB B/B/B (dB)(fe) | dB B/B/B (FB)(DB) | {/F}GEFD CDE :|
+G | (DB,)FB, GB,FB, | (DB,)FB, (DE)FB | (DB,)FB, (GB,)FD | GEFD {/B,}CDEG |
+(DB,)(FB,) GB,FB, | (DB,)FB, DEFe | dBcA ~BGFD | GEFD CDE ||
+|: e | dB B/B/B FBDe | dB B/B/B (dB)fe | dB B/B/B (FB)(DB) | GEFD CDE :|
+e | TdBfB gBfe | dBfB (de)(fb) | dBfB gBfd | gefd (cd)(eg) |
+dBfB gBfe | dBfB (de)(fb) | dbfd bdfb | gefd (cd)(eg) S |]
+W:
+W:This fine reel should be played with great vigour.
+S:https://www.folktunefinder.com/tunes/71377
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:7786
+T:Untitled Polka ("Welch's 4-part")
+O:england
+C:Welch MS
+Q:1/4=80
+M:2/4
+L:1/16
+K:G
+|:dedc BcBA|G2G2 G2AB|c2A2 A2A2|c2A2 A2A2|
+dedc BcBA|G2G2 G2AB|c2A2 G2F2|G6z2:|
+|:A2AB c2A2|Bcde d4|A2AB c2A2|Bcde d4|
+e2g2 c2e2|d2g2 B2d2|c2A2 G2F2|G4G4:|
+|:d3e d2c2|B6c2|d2g2 f2e2|e2d2 d4|
+d3e d2c2|B6c2|d2c2 A2F2|G4G4:|
+|:A2AB c2A2|Bcde d4|A2AB c2A2|Bcde d4|
+e2g2 c2e2|d2g2 B2d2|c2A2 G2F2|G4G4:|
+S:https://www.folktunefinder.com/tunes/28238
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

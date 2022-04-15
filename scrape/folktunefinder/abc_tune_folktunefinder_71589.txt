@@ -1,0 +1,27 @@
+X:7
+T:Alexander Cunningham
+R:Strathspey
+O:Scotland
+A:Inver (Perth)
+B:(n1) Gow Collection of Scottish Dance Music - Oak Publications
+Z:transcription (livre) : <anamnese@laposte.net>
+N:Slo
+M:C|
+L:1/8
+Q:1/4=110 %tempo exact non connu
+K:D
+ D>E G/-F/E/D/ B,<E~E>F  |  D>E G/-F/E/D/ F<A A2 |\
+ (d3/2e/4f/4) AF BB,B,>A,| D/D/D D/D/D ~F>EF<A :|!
+ |:~d>f g/-f/e/d/ ~ceef  | ~d>efb adf(b | a)dAF BB,~B,>A, |\
+ D/D/D D/D/D ~F>EF<A | ~d>f {g}fe/d/ ~ceef |!
+ ~d>efb afge | fdAF BB,EC | D/D/D ~F>A d>DF>A :|
+S:https://www.folktunefinder.com/tunes/71589
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

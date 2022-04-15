@@ -1,0 +1,41 @@
+X: 1
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/14259
+S:http://trillian.mit.edu/~jc/music/abc/jig/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/GowsQuickstep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/GowsQuickstep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/GowsQuickstep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GowsQuickstep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GowsQuickstep_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/GowsQuickstep.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NathanielGow/GowsQuickstep.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

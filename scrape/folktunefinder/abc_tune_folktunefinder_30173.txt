@@ -1,0 +1,25 @@
+X:0
+T:The Well Buked Ballap
+S:James Thomson's MS for the treble recorder, 1702
+B:David Johnson, 21 Scots Tunes for the Treble Recorder
+N:ornamentation omitted, see Johnson's edition
+M:C
+L:1/16
+Q:1/4=120
+K:GMix
+de|f3g  f2c2 A4   c2ef|g3a  g3d B4 d2
+de|f2f2 Afed e2e2 cdec|d2de d3G B4 d2:|
+fe|defg f3c  A4   c2ef|efga g3d B4 d2
+de|defg f2ed cdef e2dc|Bcde d3G B4 d2:|
+S:https://www.folktunefinder.com/tunes/30173
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

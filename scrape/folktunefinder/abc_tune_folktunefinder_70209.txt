@@ -1,0 +1,32 @@
+X:79
+T: Echternacher Springprozessionslied, S.47f
+N: L0039V
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+N: Variante zu Sign 0038
+N: Zeilen 1 - 4 in c, Zeilen 5 - 8 in g
+R: Tanzlied]
+M: 2/4
+L: 1/16
+K: G
+ | c3de2=f2 | g2g2g2z2 | a3bc2a2 | a4g4
+c3de2=f2 | g2g2g4 | a3bc2a2 | a4g4
+=fgfdefec | dedBc2c2
+=fgfdefec | d4c2z2
+GfGABABc | d2d2d2z2
+g2fgagfe | e4d2z2 | g2fgagfe | e2d2d2z2
+c3AB3G | A3FA2z2
+c2AcB2GB | A2F2G2z2
+S:https://www.folktunefinder.com/tunes/70209
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Tanzlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

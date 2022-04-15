@@ -1,0 +1,25 @@
+X: 1
+P: Music for a Found Harmonium
+M:4/4
+L:1/8
+C:Simon Jeffis
+S:Transcribed from the recording by Patrick Street
+R:reel
+K:D
+z2z2z2zD|:"D"FDGD FDDD|FDGD FDDD|FDGD FDDD|"A"EDCD "D"FDDD:|
+|:"A"EDCD EDCD|"D"FD=CD FD=CD|"G"GDED "A"CDGD|"D"FDDD D3:|
+=F|"F"=c=FE =FG=FE=F|=c=FE "Dm"=FE3=F|=F|"F"=c=FE=F G=FE=F|
+=c=FE=F"Dm"E3=F|"Bb"_B=FD=F G=FD=F|_B=FD=F =FE=F|"C#dim7"_B=FE=FGEz=F|
+_B=FE=F GEz=F|"A7"cGEG CGGG|cGEG CGGG|cGEG CGGG|cGEG CGGG|
+|:"D"FDGD FDDD|FDGD FDDD|FDGD FDDD|"A"EDCD "D"FDDD:|
+|:"A"EDCD EDCD|"D"FD=CD FD=CD|"G"GDED "A"CDGD|"D"FDDD D3:|
+S:https://www.folktunefinder.com/tunes/6282
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/MusicForAFound_Harmonium.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

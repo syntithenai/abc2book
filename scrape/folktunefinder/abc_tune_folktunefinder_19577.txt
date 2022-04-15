@@ -1,0 +1,27 @@
+X: 1
+T: Mr. Gordon of Hallhead
+C: William Marshall
+R: strathspey
+B:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/16
+K: G
+|: "G"G3D B,3D GFED B,2D2 | GG,3 BD3 "D"FA3 A3B \
+|  "G"G3D B,3D "Em"GFEF G2g2 | "D"d3B cBAG "G"DG3 G4 :|
+| "G"gfga g4 "Em"gfga g4 | "C"efga gfed "D"ea3 a3f \
+| "G"g3b gd3 "C"e3g "G"dB3 | "Am"c2e2 "D"A2d2 "G"BG3 G2d2 |
+| "G"gfga g2z2 "Em"gfga g2z2 | "C"gaba gfed "D"ea3 a2gf \
+| "G"gb3 "C"eg3 "G"dg3 B3G | "Am"c3A "D"cBAG "G"DG3 G4 |]
+S:https://www.folktunefinder.com/tunes/19577
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrGordonOfHallheadS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MrGordonOfHallheadS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrGordonOfHallheadS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

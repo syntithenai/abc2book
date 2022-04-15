@@ -1,0 +1,27 @@
+X: 1
+T: the Streams of Lovely Nancy
+R: waltz
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+N: From a facsimile page at http://members.tripod.co.uk/birchmore2/gif/streams.gif
+N: Sung by George Dowden, Lackington, Dorset (H.L.D.H. 1905)
+M: 3/4
+L: 1/8
+K: G
+GG \
+| "G"G2 B2 DC | "C(D)"C2 "G"B,2 B,C | "G"(DG) BA "D7"((3AGF) | "G"G4 FG |
+| "D7"A2 d2 (cB) | "D7"(Ad) (cB) AG | "G"B2 D3 (E/D/) | "D"D4 FG |
+| "D7"A2 d2 cB | "D7"(AB) (cB) AG | "G"B2 D2 D2 | "D7"A2 (dc) (AF) |
+| "G"G2 B2 DC | "C(D)"C2 B,2 "G"B,C | "G"D2 G2 "D7"(BA) | "G"G4 |]:
+S:https://www.folktunefinder.com/tunes/20220
+S:http://trillian.mit.edu/~jc/music/abc/waltz/StreamsOfLovelyNancy_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/StreamsOfLovelyNancy_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/StreamsOfLovelyNancy_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/StreamsOfLovelyNancy_G.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:1812
+T:Ach Gott wie sehr zwingt mich die not
+T:"Glogauer Liederbuch" no. 252
+C:anon.
+O:Germany
+B:Glogauer Liederbuch (c. 1480) no. 252
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/germany/glg252/glg252-3m.abc
+%No barlines in the original
+V:1 Program 1 74 %Recorder
+V:2 Program 1 68 alto %Oboe
+V:3 Program 1 110 bass %Fiddle
+M:3/2 %org time signature C.
+L:1/8
+Q:1/4=264
+K:Ddor
+V:1
+z4 z4 D4|A8 B4|c6 B2 A2 G2|G8 ^F4|G6 A2 B2 c2|
+V:2
+z4 z4 D,4|F,8 G,4|A,4 C8|B,4 A,8|G,8 G,4|
+S:https://www.folktunefinder.com/tunes/80377
+S:http://abc.musicaviva.com/tunes/germany/glg252/glg252-3m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/germany/glg252/glg252-3m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/germany/glg252/glg252-3m.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

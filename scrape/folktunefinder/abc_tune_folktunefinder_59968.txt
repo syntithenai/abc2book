@@ -1,0 +1,30 @@
+X:3779
+T:Danse des sept sauts
+R:
+O:Alsace - Elsass
+A:Berstett 1950
+S:
+B:La tradition Alsacienne.
+Z:transcription (partition) : eric.forgeot@caramail.com
+N:p.10
+N:
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+"[A]" G>B dd | cd/c/ B2 | G>B dd |[1 (cd/c/) B2 :|[2 A2 G z ||
+"[B]" A>A AA | (B/c/)(d/B/) G |: d | B2 "[C]"z :| d | g2 z2 ||
+W:Kannsch d au de Swenersprung, kannsch d ne brav danze 
+W:Danze wie n'e Edelmann
+W:Zum erscht
+W:Zum zweit (etc.)
+S:https://www.folktunefinder.com/tunes/59968
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

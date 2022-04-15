@@ -1,0 +1,27 @@
+X:10
+T:Chords with many accidentals
+M: 6/8
+K: G
+[^c^d] [^c^e] [^c^f] [^c^g] [^c^a] [^c^b] |\
+[^C^D] [^C^E] [^C^F] [^C^G] [^C^A] [^C^B] |\
+[^c^d^e] [^c^d^f] [^c^f^g] [^c^f^a] [^c=d=f^g_a_b]  |]
+[^c^f^a] [^c^f^b] [^c^f^c'] [^c^f^d'] [^c^f^e'] |\
+[^c^e^f] [^c^f^g] [^c^g^a] [^c^g^b] |\
+ [^c^d^c'] [^c^e^c'] [^A^e^c']   [^G^e^c']   \
+ [^c^d^c'][^c^e^c'][^A^e^c'][^G^e^c']   ||
+S:https://www.folktunefinder.com/tunes/2350
+S:http://trillian.mit.edu/~jc/music/abc/test/ChordsWithManyAccidentals.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/misc/sample.abc
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/ChordsWithManyAccidentals.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/ChordsWithManyAccidentals.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/ChordsWithManyAccidentals.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

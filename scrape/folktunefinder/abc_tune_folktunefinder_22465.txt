@@ -1,0 +1,31 @@
+X:2014
+T:Flogging
+O:england
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+E:9
+M:C|
+K:G
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA|\
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA||\
+gfgd BGBd|~g2eg fgaf|gfgd BdcB|AGFG ABcA|\
+gfgd BGBd|~g2 eg fgag|bgaf gedB|AGFG ABcA||\
+Bdgd Bdgd|Bdgd BG G2|Ac=fc Acfc|Ac=fc AF~F2|\
+Bdgd Bdgd|^cdef gfga|bgaf gedB|AGFG ABcA||
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/22465
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

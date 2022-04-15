@@ -1,0 +1,28 @@
+X:1978
+T: The Rocks Of Cashel
+M:C|
+L:1/8
+B:O'Neill's 1819
+N:"collected by F. O'Neill"
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+Z: G in bar 14 probably shoud be staccato
+K:G
+   .G.B     d2     (e/d/c/B/)      d2    | .G.B     d2     (e/d/c/B/) A2  |\
+   .G.B     d2     (e/d/c/B/)      d2    |      gedB             cAAB    :|
+|: .G.B (c/B/A/B/)    .g.B    (c/B/A/B/) | .G.B (c/B/A/B/)       cAAB     |\
+   .G.B (c/B/A/B/)    .d.B    (c/B/A/B/) |      gedB             cAAB    :|
+   .B.d     g2     (g/f/e/d/)      g2    | .B.d     g2     (g/f/e/d/) gb  |\
+   .B.d     g2     (g/f/e/d/)      g2    |      gedB             cAAB     |
+   .G.B (c/B/A/B/) (c/B/A/B/) (c/B/A/B/) |  G.B (c/B/A/B/)       cAAB     |\
+   .G.B (c/B/A/B/) (c/B/A/B/) (c/B/A/B/) |      gedB             cAAB     |]
+S:https://www.folktunefinder.com/tunes/75137
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

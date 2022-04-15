@@ -1,0 +1,31 @@
+X:490
+T:Weasel Waltz
+C:Fiona Durance
+M:3/4
+N:28/4/0000
+O:England
+R:Waltz
+Z:Richard Robinson 
+%%Copyright:Fiona Durance
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c68.html
+%%ID:00000c68
+K:D
+d2 D2 Fd | {cd}c2 C2 Fc | {Bc}B4 cB | {AB}A4 F2 |\
+{A}G3F GB | {AB}A4 F2 | {A}G3F Gd | {cd}c6 |
+d2 D2 Fd | {cd}c2 C2 Fc | {Bc}B4 cB | {AB}A4 F2 |\
+{A}G3B AF | {A}GF GE FD | EF GA Bc | "Fine" d6 ::
+e3e e2 | c2 AB cd | e3f {ef}e2 | c6 |\
+eA dA cA | {B}B2 BA ^GA | {c}B2 Bc de | {Bc}B6 |
+e3e e2 | c2 AB cd | ef gf ed | {cd}c6 |\
+eA dA cA| BA cA dB | {eg}ef ed cB |1 {AB}A3B cd :|2 {AB}A3 GFE |]
+S:https://www.folktunefinder.com/tunes/43963
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

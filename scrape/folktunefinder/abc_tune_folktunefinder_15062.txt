@@ -1,0 +1,27 @@
+X: 1
+T: Shores of Lough Gowna
+B: O'Neill (Music of Ireland: 1850 Melodies) 1903 #1060
+B: O'Neill (Dance Music of Ireland: 1001 Gems) 1907; #264
+M: 6/8
+L: 1/8
+R: Jig
+K: Bm
+|: ~B3 BAF | {G}FEF DFA | ~B3 BAF | d2e fed  \
+|  ~B3 BAF | {G}FEF DFA | def gfe | fdB B2A :|
+|: def ~a3 |    afb afe | dFA def | ~g3 fdB  \
+|  def ~a3 |    afb afe | def geg | fdB {c}B2A :|
+S:https://www.folktunefinder.com/tunes/15062
+S:http://trillian.mit.edu/~jc/music/abc/jig/ShoresOfLochGowna_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ShoresOfLochGowna_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/ShoresOfLochGowna_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ShoresOfLochGowna_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ShoresOfLochGowna_Bm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

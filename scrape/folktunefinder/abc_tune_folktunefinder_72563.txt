@@ -1,0 +1,26 @@
+X:106
+T: Suse, Buebiken, suse,
+N: D0159
+O: Europa, Mitteleuropa, Deutschland, Provinz Sachsen
+N: Grundton  ; Inzipit = Variante zum Lied; Variante zu Lied D0158 
+R: Kinder - Lied
+M: 2/4
+L: 1/16
+K: F
+ |  |  |  | A2A2GGG2 | F4C2
+C2 | A2A2G2G2 | F4C2z2
+A2A2GAG2 | F4C2z2
+A2A2A2c2 | c2B2B4
+A2A2A2c2 | ccB2B4
+A2A2G2G2 | F4C2z2
+A2A2G2G2 | F4C2z2
+S:https://www.folktunefinder.com/tunes/72563
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Kinder - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

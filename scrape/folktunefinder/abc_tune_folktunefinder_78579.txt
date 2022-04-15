@@ -1,0 +1,25 @@
+X:138
+T: ES GIENG EIN WACKRES MAEDCHEN
+N: E0071C
+O: Europa, Mitteleuropa, Deutschland, Marburg
+R: erzaehlendes Volks - Lied, Sage, Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2B2d2 | G2B2B2
+d2 | d2c2c2B2 | B2A2z2
+d2 | d2e2c2A2 | G2B2B2
+B2 | B2A2A2Bc | e2d2d2
+d2 | d2e2c2A2 | G2B2B2
+B2 | d2d2e2d2 | B6
+S:https://www.folktunefinder.com/tunes/78579
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

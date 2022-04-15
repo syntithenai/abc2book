@@ -1,0 +1,28 @@
+X: 2
+T: Al Hanisim
+T: To the miracles
+M: 2/4
+L: 1/8
+K: Dm
+"A"\
+|:"Dm" z d2 c | A2 F2 | "Gm"G G2 F | "C"D2 E2 \
+| "F"F F2 F | "Gm"G2 "(Dm)"F2 | "A7"A A2 A | =B2 ^c>d |
+| "Dm"dd dc | A2 GF | "Gm"GG GF | "C"D2 E2 \
+| "F"FF FA | "C"GE CE | "Dm"D4- | D4 :|
+"B"\
+|:"Dm"d2 e2 | f2 d2 | "Gm"g g2 f | "C"e2 c2 \
+| "Am"c c2 d | e2 c2 | "Bb"d d2 e | f2 d>d |
+| "Dm"dd de | f2 dd | "Gm"gg gf | "C"e2 c2 \
+| "Am"cc cc | cd ec | "Dm"d4- | d4 :|
+"Bridge"\
+[|"Fm"Fc zc | =Bc cz | cd _ed | c=B c_A \
+| "Fm"Fc zc | =Bc de | f z3 | "C"c z3 |
+| "Fm"Fc zc | =Bc cz | c=B cA | "Gm"GB "E7"A^G \
+| "A7"A^G zA | =GF E2 | "Dm"D4- | D4 |]
+S:https://www.folktunefinder.com/tunes/6684
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/AlHanisim_C.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

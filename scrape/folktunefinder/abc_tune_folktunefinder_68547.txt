@@ -1,0 +1,27 @@
+X:1
+T: Das Hildebrandslied
+N: A0001
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+G2 | _B2B2c2c2 | d4d4
+z2d4d2 | d2e2=f2d2 | d4z2
+d2 | d2e2=f2d2 | _e4d4
+z2d2c2_B2 | d2_B2B4
+z2B2B2B2 | c2c2d4 | d4z2
+d2 | c2_B2B2B2 | A4G4
+z2d2d3c | _B4z2
+d2 | _e2d2d2_B2 | c4d4
+z2c2_BBG2 | G2E2F4 | G6
+S:https://www.folktunefinder.com/tunes/68547
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

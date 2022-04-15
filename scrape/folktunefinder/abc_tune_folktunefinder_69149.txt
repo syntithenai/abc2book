@@ -1,0 +1,27 @@
+X:290
+T: DIE SONNE SCHEINT NICHT MEHR SO SCHOEN
+N: Z0288
+O: Europa, Mitteleuropa, Deutschland, Westrich
+R: Lyrisches Lied, Romanze, Trennung
+M: 2/4
+L: 1/16
+K: G
+BA | G2D2G2A2 | B6
+BA | G2G2B2c2 | d6
+d2 | d2d2g2e2 | d4ed
+c2 | B2B2A2A2 | G4z2
+D2 | G2B2d2B2g2e2 | d2B2G6
+D2 | B2B2d2B2g2e2 | d2B2G6
+D2 | G2B2d4g4 | e6
+e2d2c2 | B8A4 | G8z2
+S:https://www.folktunefinder.com/tunes/69149
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze, trennung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

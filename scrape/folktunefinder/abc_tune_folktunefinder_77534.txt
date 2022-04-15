@@ -1,0 +1,19 @@
+X:2
+T:Accidental Parade
+C:copyright 1998 Kaubells
+E:14                   % note spacing
+M:6/8
+K:D
+|:"E7"^gfe gzd|"A"czf e^de|"E7"^gfg "A7"=gzd|"D"[A3f3] z2f|
+"F"=fef "G7"azf|"C"gfg [e=c']z=c'|"B7"b_b=b Bza|"E7"[B2^g2]z z2e:|
+|:"A"a2A "A7"g2A|"D"f/g/fe def|"A7"ac'b aAg|"D"[d3f3] z3|
+"B"b2B "B7"a2B|"E"^g/=g/^gf "E7"efg|"A7"a2a abc'|[f3d'3]"$<<$--D"z3:|
+T:Last time only
+"B"b2B "B7"a2B|"E"^g/=g/^gf "E7"efg|"A7"a2a abc'|"D"d'3[f3d'3]|]
+S:https://www.folktunefinder.com/tunes/77534
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/bee.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

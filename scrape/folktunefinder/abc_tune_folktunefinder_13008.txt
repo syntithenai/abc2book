@@ -1,0 +1,24 @@
+X: 9
+T: Frolicksome Paddy
+R: slipjig
+O:
+B: SRSNH 5.31
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|: "D"d2B AFA AFA | d2B AFD "A7"E2c | "D"d2B AFA AFA | "G"d2B "A7"AFA "D"D3 :|
+[| "D"f2d faf "A7"ecA | "D"f2d faf "A7"e2g | "D"f2d faf "A7"ecA | "G"d2B "D"AFA "A7"E3 ||
+|| "D"f2d faf "A7"ecA | "D"f2d faf "A7"e2g | "D"f2d faf "A7"ecA | "G"d2B "A7"AFA "D"D3 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13008
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/slipjig.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

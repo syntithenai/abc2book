@@ -1,0 +1,25 @@
+X: 1
+T:Rufty Tufty
+M: C|
+L: 1/4
+Q:200
+F:http://trillian.mit.edu/~jc/music/abc/England/tune/RuftyTufty.abc 2003-05-28 00:19:16 UT
+K: G
+|: "D (Bm)"d2 de | "(F#m)"f2 ef | "G"gg "A"f> e |1 "D"d4 :|2 "D"d3 e/2f/2|
+|: "G"gf ed |dc B>c | dd "C"cB |1 "D"A2 "G"G e/f/ :|2 "D"A2 G2||
+|: "G"B>c dd | "C"ec "G"d2 | B>c dd | "C"ec "G"dB/2c/2 | dd "C"cB | "D"A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/18055
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/RuftyTufty.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/RuftyTufty.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Rufty_Tufty_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Rufty_Tufty_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Rufty_Tufty_1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

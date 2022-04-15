@@ -1,0 +1,24 @@
+X:12397
+T:Olde Saybrooke
+Z:Jack Campin  *  May 2000  *  http://www.purr.demon.co.uk/jack/
+M:2/4
+L:1/16
+K:D
+(3(ABc|d)ddf d2 (3(ABc|d)ddf d2(3(ABc|d2)f2 fefg|f2e2 e2
+(3(ABc|e)eeg e2 (3(ABc|e)eeg e2(3(ABc|e2)e2 efga|f2d2 d2:|
+z2    |a4    f4       |d2d2  d4      |A2d2  ddfg|f2e2 e2
+z2    |g4    e4       |c2c2  c3B     |A2A2  Bcdg|f2d2 d2:|
+z2|[D2F2][FA][FA] [F2A2][F2A2]| [D2F2][FA][FA] [F2A2][F2A2] |\
+   [G2B2][B2d2]   [A2c2][G2B2]| [F6A6]               [G2B2] |\
+   [F2A2][E2G2]   [E3G3] [FA] | [E2G2][D2F2]   [D2F2][F2A2] |\
+[1 [G2B2][F2A2]   [E2G2][D2F2]| [C6E6]               [F2A2]:|\
+[2 [G4B4]         [E4G4c4]    | [F6d6]                     |]
+S:https://www.folktunefinder.com/tunes/55146
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

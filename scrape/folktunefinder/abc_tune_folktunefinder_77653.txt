@@ -1,0 +1,26 @@
+X:95
+T: Alexander's Favorite
+S: Allan's Irish Fiddler
+Z: B.Black
+N: simplified version - original in cut time
+L: 1/8
+M: C|
+R: hornpipe
+K: D
+cB|(3AcA EG Acec|dfBa gebg|aece fdBA|GABc dBGE|
+(3AcA EG Acec|dfBa gebg|aecA GBed|(3cBA BG A2 :|
+cd|(3efe ce Acea|(3faf df Bdfg|aece fdBA|GABc dBGE|
+(3AcA EG Acec|dfBa gebg|aceA GBed|(3cBA BG A2 :|
+S:https://www.folktunefinder.com/tunes/77653
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/a.abc
+S:http://www2.redhawk.org:8080/irish/zouki/a.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

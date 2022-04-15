@@ -1,0 +1,31 @@
+X: 20
+T: My Wild Irish Rose
+C: Music and Lyrics by Chauncey Olcott (1899)
+N: Irish-American, composed for the New York theater show "A Romance of Athlone".
+M: 3/4
+L: 1/4
+K: D
+A \
+| "D"f3 | f3e \
+| d3- | d2d \
+| "G"dd2 | "A7"c2B \
+| "D"A3- | A2 F/F/ |
+| "G"GAB | "D"A2F \
+| "G"GAB | "D"A2c/d/ \
+|1 "E7"B3 | f2e \
+| "A7"e3- | e2 :|
+|2 "E7"Bcd \
+| "A7"edc | "D"d3- | d2 \
+:|["Coda" "E7"Bcd \
+| "A7"dHe3/d/ | "D"d3- | d2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/13031
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

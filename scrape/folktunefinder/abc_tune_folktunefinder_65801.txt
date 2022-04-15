@@ -1,0 +1,20 @@
+X:248
+T:Music in the Glen
+Z: id:dc-reel-236
+M:C
+L:1/8
+K:G Major
+D|G2BG EGDC|B,DGB AGAB|c2ec B2dB|cABG AGED|!
+G2BG EGDC|B,DGB AGAB|cdef gfge|dcBA G3:|!
+A|BGdG eGdc|BGdB cAFA|BGdG eGdf|gdBG AGEG|!
+BGdG eGdf|gdfg afdf|gefd ecdB|cABG AGE:|!
+S:https://www.folktunefinder.com/tunes/65801
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

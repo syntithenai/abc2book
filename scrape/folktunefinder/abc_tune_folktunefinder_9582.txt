@@ -1,0 +1,26 @@
+X: 1
+M: 6/8
+L: 1/8
+P: The New Stove,
+C: Frank Ferrel
+R: Jig
+F: http://home.usit.net/~bhooper/scot3.abc 2006-01-25 16:54:05 UT
+K: D
+ A | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"BGG G2f | "Em"g2A "(Bm)"f2A | "A"efe ecB | "A7"ABA BAG | "D"F3 z2 ||
+yA | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"BGG G2f | "Em"g2A "(Bm)"f2A | "A"efe ecB | "A7"Aba gec | "D"d3 z2 |]
+yA | "D"F2A     AFD | "D"A,DF A2F | "D"DFA ded | "G"B3  z2B | "Em"g2A       e2A | "A"cdc c2B | "A7"ABA BAG | "D"F3 z2 ||
+yA | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"B3  z2A | "Em"Bgg       g2B | "D"Aff f2a | "A7"gec ABc | "D"d3 z2 |]
+S:https://www.folktunefinder.com/tunes/9582
+S:http://home.usit.net/~bhooper/scot3.abc
+S:http://home.usit.net/~bhooper/scot3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ17.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/AGJ17.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/AGJ17
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

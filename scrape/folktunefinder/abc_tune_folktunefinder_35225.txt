@@ -1,0 +1,28 @@
+X: 8008
+T:Walsh's North Country Frisk
+N:recommended tuning AEAE
+M:3/2
+O:England
+A:North-West
+R:Triple Hornpipe
+K:A
+c4 BdcB A4| c2e2 B2d2 c2BA| G2B2 F2A2 G2B2| C2E2 A2c2 B2A2::
+c2e2 d2f2 c2e2| B2d2 c2BA G2B2| F2E2 D2C2 B,DCB,| A,2E2 A2c2 B2A2::
+a2c2 B2a2 g2e2| a2c2 dcBA G2B2| A2E2 B2E2 cedc| A2A,4C2 B,2A,2::
+aedc BcdB cdef| edcB AcBA GABc| dcBA GAGF EDCB,| A,2E2 A2c2 B2A2::
+(3:2cA3E (3:2cA3G (3:2cA3G| G2B4c2 dcBA| G2F2 E2D2 C2B,2| A,2A4c2 B2A2 :
+|
+S:https://www.folktunefinder.com/tunes/35225
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

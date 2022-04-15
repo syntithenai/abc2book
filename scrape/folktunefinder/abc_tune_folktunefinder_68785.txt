@@ -1,0 +1,23 @@
+X:239
+T: Ringeltanz
+N: A0285
+O: Europa, Mitteleuropa, Deutschland
+N: Geistl Ringeltentze 1550 No. 12.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: F
+ |  | F2F | A2B | c2c | c2
+c | FFF | A2B | c3 | c2
+c | d2c | c2B | A2A | A2
+A | GGG | G2G | c2A | BG2 | F3
+S:https://www.folktunefinder.com/tunes/68785
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

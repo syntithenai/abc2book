@@ -1,0 +1,29 @@
+X:6660
+T:Walsh's North Country Frisk
+A:North-West
+M:3/2
+N:recommended tuning AEAE
+O:England
+R:Triple Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004e9.html
+%%ID:000004e9
+K:A
+c4 BdcB A4| c2e2 B2d2 c2BA| G2B2 F2A2 G2B2| C2E2 A2c2 B2A2::
+c2e2 d2f2 c2e2| B2d2 c2BA G2B2| F2E2 D2C2 B,DCB,| A,2E2 A2c2 B2A2::
+a2c2 B2a2 g2e2| a2c2 dcBA G2B2| A2E2 B2E2 cedc| A2A,4C2 B,2A,2::
+aedc BcdB cdef| edcB AcBA GABc| dcBA GAGF EDCB,| A,2E2 A2c2 B2A2::
+(3:2cA3E (3:2cA3G (3:2cA3G| G2B4c2 dcBA| G2F2 E2D2 C2B,2| A,2A4c2 B2A2 :|
+S:https://www.folktunefinder.com/tunes/37411
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

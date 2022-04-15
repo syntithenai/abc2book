@@ -1,0 +1,34 @@
+X: 111
+T:Queen of Prussia's Waltz. CJF.111
+M:3/4
+L:1/8
+Q:120
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 200
+K:C
+"p"c2|{B}"Allegro"c2{B}c2{B}c2|{B}c2{B}c2"mf".g2|g4e2|c4.c.d|!
+efgabc'|g2z2a2|g4f2|d4{a}g^f|!
+({a}g^fgabc')|d'2z.G.A.B|{d/}(cBc).e.g.e|({g/}fef).a.d'.c'|!
+{a/}(bab).g.a.b|c'4:||:g2|c'2(ce).g.c'|(af).f.f(fe)|!
+d2(GB).d.g|(ec).c.c(eg)|c'2(ce).g.c'|(gd').d'.d'd'c'|!
+{a/}(bab).g.a.b|c'4:||:.^f.g|(agfef).d|(cB).e(Bc).A|!
+(GABcdB)|(cdef^fg)|agfefd|(cB).e(Bc).A|!
+(GABcd).B|c4:||:"f"e>e|e2e>e|e2e>e|!
+e2e2e2|e2e2"p"e2|"f"g4"p"e2|"f"g4"p"e2|"f"g4"p"e2|g4.^"f"f.g|!
+(agfef).d|(cB).e(Bc).A|(GABcd).B|(cdef^fg)|!
+(agfef).d|(cB).e(Bc).A|(GABcd).B|c4:|]
+S:https://www.folktunefinder.com/tunes/49666
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

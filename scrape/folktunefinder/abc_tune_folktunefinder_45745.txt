@@ -1,0 +1,31 @@
+X:7
+T:Tanuj tanuj vykrucaj
+O:Tjechie
+M:2/2
+L:1/8
+Q:1/4=120
+K:F
+V:1
+"F" A2 A2 c2 c2 |"C" cB2 Bc B2 B|G2 G2 B2 B2 |"F" BA2 AB A2 A|
+"Dm" F2 F2 A2 A2 |"Gm" AG2 GA G2 G|"C7" c2 C2 D2 E2 |"F" GF2 FG F2 F |
+M:4/4
+|:"F" A3 FD2 C2 |"C" B3 GE2 D2 |"C7" C2 ^C2 D2 E2 |"F" GF2 FG F2 F|
+"F" A3 FD2 C2 |"C" B3 GE2 D2 |"C7" C2 ^C2 D2 E2 |"F" GF2 EG/F/ E/G/F2 :|
+V:2          %2e stem
+M:2/2
+F3 EF2 A2 |AG2 ^FA G^F F|E3 _EE2 G2 |GF2 EG FE _E|
+D3 D (3D2E2F2 |FE2 EF GB B|c2 B2 A2 G2 |BA2 Az CD E |
+M:4/4
+|:F3 DB,2 A,2 |G3 EC2 B,2 |cc BB AA GG |BA2 AB A2 A|
+F3 DB,2 A,2 |G3 EC2 B,2 |cc BB AA GG |BA2 AB2 A2 :|
+S:https://www.folktunefinder.com/tunes/45745
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

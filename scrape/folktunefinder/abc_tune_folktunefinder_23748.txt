@@ -1,0 +1,29 @@
+X:3297
+T:King of the Pipers
+O:england
+M:6/8
+L:1/8
+Q:180
+C:Trad Irish
+R:jig
+K:D
+A2 D B2 D|A2 G FED|A2 D B2 D|G2 G GFD|
+A2 D B2 D|A2 G FED|GAB =cAF|G3 AFD:|
+dfa age|dcd ecA|GAB =cAF|G3 AFD|
+dfa afa|geg fdA|GAB =cAF|G3 AFD:|
+Ade d2 A|d2 e dcA|Ade d2A|G2 G AFD|
+Ade d2 A|d2 e dcA|GAB =cAF|G3 AFD:|
+def d2 f|def ecA|def d2 A|G2 G AFD|
+def def| def ecA|GAB =cAF|G3 AFD:|
+d2 D =cDD|BDD ADD|dDD =cDD|G2 G GFD|
+d2 D =cDD|BDD ADD|GAB =cAF|G3 AFD:|
+S:https://www.folktunefinder.com/tunes/23748
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

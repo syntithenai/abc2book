@@ -1,0 +1,32 @@
+X: 235
+T:Blackamoor's Jigg. JaW.234
+M:6/8
+L:1/8
+Q:120
+S:James Winder Ms, Lancashire, 1835-41
+R:Rigadon
+O:England
+A:Wyresdale,Lancashire
+N:This has the characteristic six bar halves of the Rigadon.
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+d|(cA)B G2d| (cA)B A2 G/F/| f3 F2d|!
+(cA)B G2d| (cA)B (FD)F| G3G2:|!
+|:a|g2e fga|dcB AGF|f3 fga|!
+g2e fga|dcB AGF|G3G2:|]
+S:https://www.folktunefinder.com/tunes/47772
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Rigadon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

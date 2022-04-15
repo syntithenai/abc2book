@@ -1,0 +1,30 @@
+X:70
+T: ES WAR AUF JUETLANDS AUEN
+N: B0094
+O: Europa, Mitteleuropa, Deutschland, Schleswig
+R: Helden -, Ehren -, Gedaechtnis -, Kriegs - Lied
+M: 4/4
+L: 1/8
+K: Bb
+F2 | B3AB2c2 | B2A2G2
+F2 | B2A2B2c2 | F4z2
+A2 | c3=Bc2d2 | e3dc2
+B2 | A2F2d3c | B4z2
+D2 | G2B2A3G | ^F2A2d2z
+d | e3dcBAG | d6
+Bc | d3de2d2 | c4G2
+G2 | F3Bd3c | B4z2
+Bc | d3de2d2 | c2g2e2
+c2 | B3Bd3c | B4z2
+S:https://www.folktunefinder.com/tunes/78091
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Helden -, ehren -, gedaechtnis -, kriegs - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

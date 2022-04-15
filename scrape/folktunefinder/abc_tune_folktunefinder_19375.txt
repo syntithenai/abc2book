@@ -1,0 +1,27 @@
+X: 1
+T: Gorthleck's Highland Plaid
+R: strathspey
+B: Athole
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: E
+B \
+| "E"EE3 B3A G3F E3c | "D"=d3A Ad3 F=D3 A4 \
+| "E"EE3 B3A G3F E3a | "E"g3e "B7"f3d | "E"eee2 e3 :|
+g \
+| "E"efga b3a g3e eg3 | "D"a3g f3e =d3e fa3 \
+| "E"efga b3a ge3 b3a | "E"g3e "B7"fg3 "D"eee2 e4 ||
+y \
+| "E"Bb3 b3a g3e eg3 | "D"a3g f3e =d3e fa3 \
+| "E"b3g "B7"a3f "E"ge3 "B"f3d | "B7"Ba3 g3f "E"eee2 e3 |]
+S:https://www.folktunefinder.com/tunes/19375
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/GorthlecksHighlandPlaid_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/GorthlecksHighlandPlaid_E.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

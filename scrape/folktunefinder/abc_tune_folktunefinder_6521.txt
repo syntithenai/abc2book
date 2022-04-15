@@ -1,0 +1,24 @@
+X: 2
+T: Siman Tov
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|: "E7"E \
+| "Am"AAAE AAAE | AAAE AAA2 | cccA cccA | cccA ccc2 |
+| "Dm"dddc dddc | "(E7)"ddde "Am"cBA2 |1 "Dm"A2d2 "G7"d2cB | "C"c4 "(E7)"z3:|2 "Dm"A2d2 "E7"d2cB | "Am"A4 z3||
+|: "G7"G \
+| "C"cde2 e2ee | "F"f2f2 "C"e4 | "F"zf2e "G7"eddc |1 "C"e4 z3:|2 "C"c4 z3:|
+|: "E7"E \
+| "Am"ABc2 c2cc | "Dm"d2d2 "Am"c4 | "Dm"zd2c "E7"cBBA |1 "Am"c4 z3:|2 "Am"A4 z3:|
+S:https://www.folktunefinder.com/tunes/6521
+S:http://trillian.mit.edu/~jc/music/abc/Israel/SimanTov.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/SimanTov.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

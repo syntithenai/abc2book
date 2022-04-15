@@ -1,0 +1,21 @@
+X: 1
+T: Maid at the Spinning Wheel
+B: Breathnach's Ceol Rince na hEireann, vol. 1.
+Z: Gerry Strong <gstrong:terra.nlnet.nf.CA> and John Walsh <walsh:math.ubc.CA>
+M: 6/8
+L: 1/8
+K: G
+|: D | ~G3 B2 G | BcA B2 D | ~G3 BAG | ~F3 AFD | ~G3 B2 G | BcA B2 g | fed cAF | ~G3 G2 :|
+|: c | BAG AFD | ~D3 AFD | ~D3 AFD | EFG ABc | BAG AFD | ~D3 AFD | ded cAF | ~G3 G2 :|
+|: D | GBd gba | gdB ecA | dBG cAG | ~F3 AFD | GBd gba | gdB ecA | fed cAF | ~G3 G2 :|
+|: d | (4cBAG Afd | Bfd Afd | Bfd AFD | EFG ABc | BAG AFD | ~D3 AFD | ded cAF | ~G3 G2 :|
+S:https://www.folktunefinder.com/tunes/14576
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidAtTheSpinningWheelJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidAtTheSpinningWheelJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

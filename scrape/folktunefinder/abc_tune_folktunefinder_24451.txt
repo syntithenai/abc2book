@@ -1,0 +1,34 @@
+X:3999
+T:Marian Gray. CJF.190
+O:england
+M:C
+L:1/8
+Q:90
+C:"Companion to Alice Gray"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"Companion to Alice Gray" is in the title line. It is not clear in the
+N:MS whether the notes under "ad lib" are grace notes. The second bar
+N:marked with a tilde (~) sounds better with the c notes sharpened. -
+N:PJH.
+K:D
+D|F3GA3d|f3ed2B2|A2F2G2E2|"~"(F3G)A2zD|\
+F3GA3d|f3e{e}d2{c}B2|
+A2F2G2C2|D3{FE}Dz4|G3F E DzF|B2(AB)e2zB|\
+c3c"~"B2(cd)|A2{c}B2A2HA2"ad lib."{^G=G}|
+F3GA3d|(fe) (dc){c}hB2(cd)|(dF) F"~">G{B}A2{G/F/}E2|D3{F/E/}Dz4||
+S:https://www.folktunefinder.com/tunes/24451
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

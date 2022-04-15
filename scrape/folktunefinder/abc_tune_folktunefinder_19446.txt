@@ -1,0 +1,31 @@
+X: 1
+T: Lady Jemima Johnston
+R: strathspey
+B: Athole Collection
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+F2 \
+| "C"E3F G3F Ec3 Gc3 | "C"E3F G3E "Dm"FD3 "G7"D3F \
+| "C"E3F G3F Ec3 G3E | "Dm"FD3 "G7"G3F "C"EC3 C3 ||
+F \
+| "C"E3F G3F Ec3 Gc3 | "C"E3F G3E "Dm"FD3 "G7"D3F \
+| "C"E3F G3E "Dm"F3A d3f | "C"ec3 "G7"G3B "C"cC3 C2 |]
+ef \
+| "C"g3e c3e g3a g3e | "Dm"f3d fedc "G7"Bd3 d2ef \
+| "C"g3e c3e g3a g3e | "Dm"fd3 "G7"g3G "F"Ac3 "C"c2 ||
+ef \
+| "C"g3e c3e g3a g3e | "Dm"f3d fedc "G7"Bd3 d3B \
+| "C"c3A G3E "Dm"F3d F3D |1"G7"B3c d3f "C"ec3 c2 :|2 "G7"G3F E3D "C"CCC2 C2 |]
+S:https://www.folktunefinder.com/tunes/19446
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/LadyJemimaJohnston_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LadyJemimaJohnston_C.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

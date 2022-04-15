@@ -1,0 +1,33 @@
+X: 1
+T: Kemp's Augmented Jig
+C: Anon. et al.
+R: march
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+N: Recommended tune for Trip to the Manors
+M: C|
+L: 1/8
+K: C
+d2 "A"\
+| "C"e3f e2d2 | "Am"c3d c2B2 | "Dm"A2G2 "F"A2"G7"B2 | "C"c6 d2 \
+| "C"e3f e2d2 | "Am"c3d c2B2 | "Dm"A2G2 "F"A2"G7"B2 | "C"c4 e2f2 |]
+"B"\
+[| "C"g2gg "Am"c2c2 | "Dm"d4 "G"B2G2 | "Dm"f4 "F"A2A2 | "G"G2B2 "C"c2e2 \
+|  "C"g2gg "Am"c2c2 | "Dm"d4 "G"B2G2 | "Dm"A4 "F"c2A2 | "G"B4 Bcd^d |]
+"C"\
+|: "C"e2g2 e2g2 | e2gf edc2 | "Bb"d2f2    d2f2 | d2c_B "G"A2=B2 \
+|  "C"c3G  E2G2 | c2G2 EFG2 |  "F"A3G "G7"A2B2 | "C"c6 z2 :|
+S:https://www.folktunefinder.com/tunes/15505
+S:http://trillian.mit.edu/~jc/music/abc/march/KempsAugmentedJig_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/KempsAugmentedJig_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

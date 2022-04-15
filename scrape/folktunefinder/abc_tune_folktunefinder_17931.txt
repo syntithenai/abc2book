@@ -1,0 +1,26 @@
+X: 1
+T: Ralph Page's Breakdown
+C: Ralph Page
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G2 \
+| "G"D2EF G2Bc | d2ef g4 | "D7"f2A2 ABcd | "G"e2d2 d4 \
+| "G"D2EF G2Bc | d2ef g4 | "Am"f2AB "D7"dcBA | "G"G2G2 G3 :|
+Bc \
+| "G"d2B2 G2e2 | d4- d2Bd | g2f2 e2d2 | "Am"dcBc A2AB \
+| c2B2 c2A2 | "D7"F4- F2fe |  d2e2 c2d2 | "G"B4- B2Bc |
+| "G"d2B2 G2e2 | d4- d2Bd | g2fg "G7"d2B2 | "C"e4- e2ef \
+| gggg f2e2 | "G"dddd "Em"B2G2 | "Am"d2c2 "D7"A2D2 | "G"G4- G2 |]
+S:https://www.folktunefinder.com/tunes/17931
+S:http://trillian.mit.edu/~jc/music/abc/reel/RalphPagesBreakdown_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RalphPagesBreakdown_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/reel/RalphPagesBreakdown_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

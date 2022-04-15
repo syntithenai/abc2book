@@ -1,0 +1,27 @@
+X:105
+T: The Humors of the Joyce Country
+B: O'Neill's 221
+N: "With spirit"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Both endings have a long trill over the entire note.
+M: 3/4
+L: 1/8
+K: G
+(Bd) \
+| e4 (e/f/g) | d4 (BA) | G2 G2 DE | G2 G2 DE \
+| (GAGEDE) | G2 G2 (DG) | A2 A2 GA | B2 B2 AG |
+| (AGABAG) | E2 D2 (BA) | TG6- | G4 || (Bd) \
+| e4 (e/f/.g) | d4 (de) | (gagede) | (gagede) |
+| (gagede) | g2 g2 (eg) | a2 a2 ga |b2 b2 ag \
+| (agabag) | e2 d2 (g/a/b) | Tg6- | g4 ||
+S:https://www.folktunefinder.com/tunes/80399
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

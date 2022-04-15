@@ -1,0 +1,26 @@
+X: 1
+T: Hjemlengsel
+R: waltz
+M: 3/4
+L: 1/8
+K: Am
+C: Oerjan Saetran
+S: Ron Grosslein <ron@swallowtail.com> scand 2001-7-26
+D: De Nordiske Spillemaend "Nordisk Spillemandsmusik" 1973
+E\
+|: e4 c2 | A4 ^G2 | A6 | A4 A2 | d4 e2 | f2 a4 | e6 | e2 d2 c2 | B6 \
+|e2 B2 d2 | c6 | c2 B2 A2 | ^G4 B2 | e3 E ^GB | A6 | A4 E2 :|
+|: EC AC EA | cA EA ce | ae ce ac' | e'3 d' c'2 | bd' d'c' c'b | ba a^g ^gf | fe ed dc | cB BA A^G \
+| EC AC EA | cA EA ce | ae ce ac' | e'3 d' c'2 | be' e'b e'2 | ef eb dc | A6 | A4 :||
+S:https://www.folktunefinder.com/tunes/19969
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Hjemlengsel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Hjemlengsel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scand/Hjemlengsel_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

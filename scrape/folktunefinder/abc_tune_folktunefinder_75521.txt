@@ -1,0 +1,31 @@
+X:38
+T: The Keelman Ower Land
+C:Trad
+S:Northumbrian Minstrelsy
+M:6/8l
+K:G
+d2 (3cBA G2 d4 g2 |d2 (3cBA G2 d4 g2|\
+M:6/8
+ecA gcA |ecA efg |dBG GAB| Bge dBG|\
+M:6/8l
+ABcBA2 BcdcB2|\
+M:6/8
+e2 d efg::ddg ddg |ddg dcB| eea eea| eea edc| ddg ddg |Gge dBG|\
+M:6/8l
+ABcBA2 BcdcB2|\
+M:6/8
+e2 d efg::
+M:6/8l
+dBG2G2 GBG2G2 |dBG2G2 GBG2G2 | ecA2A2 AcA2A2|ecA2A2 AcA2A2|\
+M:6/8
+dBG GAB| Bge dBG| AcA BdB |e2 d efg:|
+S:https://www.folktunefinder.com/tunes/75521
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/north1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/north1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

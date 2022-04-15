@@ -1,0 +1,30 @@
+X:70
+T: Ueba d' Alma, da gibts Kalma,
+N: D0073
+O: Europa, Mitteleuropa, Deutschland, Bayernalpe
+N: Unterstimme in Terzen und Sexten (ergaenzt die Skala zur Heptatonik
+N: Ionisch) ; Grundton in der zweigestrichenen Oktave
+N: Inzipit = Variante zum Lied
+R: Kilt - Lied
+M: 3/4
+L: 1/16
+K: D
+D3D | D2F,2A,4D3D | C4G,4
+C2C2 | C4D4E2E2 | F2d2A4
+G2G2 | F4A,4F4 | G6F2
+E2D2 | C4G,2A,2C2G,2 | F,8
+D3D | D2F,2A,4D3D | C4G,4
+C2C2 | C4D4E4 | F2d2A4
+G2G2 | F4A,4F4 | G6F2
+E2D2 | C4G,2A,2C2A,2 | F,8
+S:https://www.folktunefinder.com/tunes/72527
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

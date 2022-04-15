@@ -1,0 +1,21 @@
+X:23
+T:John Ray's Jig
+M:6/8
+L:1/8
+Q:120
+R:Jig (Key of D)
+K:D
+DE |: "D"~F3 FED | FAA  AFA | "G"Bdd "D"Add | "G"Bdd "D"Add |
+~F3 FED | FAA AFA | "G"BdB "D"AFD |1 "A"FEE EDE :|2 "A"FEE E2d |:
+"D"~f3 fed | faa a2a | dff fed | "G"egg bag |
+"D"faa "A"eff | "D"dff fed | "G"(3Bcd B "D"AFD |1 "A"FEE E2d :|2 "A"FEE E |]
+S:https://www.folktunefinder.com/tunes/62933
+S:http://www.irishtradmusic.org/100moretunes.abc
+S:http://oflahertyretreat.org/documents/musicdocs/100moretunes.abc
+% Rhythm Jig (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

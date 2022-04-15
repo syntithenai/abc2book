@@ -1,0 +1,51 @@
+X:1
+T:Green Gates, The
+T:Trealock Lauder
+T:Redican's Mother
+T:The Barony Jig
+M:9/8
+L:1/8
+%Q:120
+S:learned from David Kidd
+D:Cherish the Ladies's CD "The Back Door"
+D:Jack and Charlie Coen's LP "The Branch Line"
+D:Matt Molloy's "Heathery Breeze" album
+R:Slip Jig
+Z:Lorna LaVerne <Muse1950@AOL.COM> 2001-6-19
+N:Lorna writes:
+N:"The title "Redican's Mother" comes from Jack and Charlie Coen's LP "The
+N:Branch Line." The notes state: "Jack  got [the tune] from Larry Redican who
+N:had originally learned it from his mother. Jack met Larry's mother once in
+N:Dublin in 1960. She was 104 years old at the time and played the tin whistle
+N:up to the day she died." You see why Jack might have wanted to call the tune
+N:after her. It wasn't composed by Larry Redican though. The tune is called
+N:"Trealock Lauder" in O'Farrell's Pocket Companion (c.1800) and "The Barony
+N:Jig" in the Roche Collection".
+K:D
+|: FAA FAd AFD | FAA FAd B2A | FAA FAd AFD | FED DFA B2A |
+|  FAA FAd AFD | FAA FAd B2A | FAA FAd AFD | FED DFA B2A :|
+|: f3  faf edB | Aff fef gfe | f3  faf edB | AFE DFA B2A |
+|  f3  faf edB | Aff fef gfe | f3  faf edB | AFE DFA B3  :|
+S:https://www.folktunefinder.com/tunes/18512
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/BaronyJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/GreenGatesThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/RedicansMother_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/TrealockLauder_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/BaronyJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/GreenGatesThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/RedicansMother_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/TrealockLauder_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/GreenGatesThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BaronyJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GreenGatesThe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/RedicansMother_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/TrealockLauder_1.abc
+% Rhythm Slip jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

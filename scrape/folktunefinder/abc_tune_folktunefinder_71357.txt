@@ -1,0 +1,28 @@
+X:328
+%%topmargin 3cm
+T:Cabar Feidh
+T:Caber F\`eidh
+T:Deers' Antlers
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D dorian
+G | c2 ed c2 GB | c2 GF (EC)CA | defd {/^c}d2 A^c | {/^c}d2 AG FDDB | c2 ed c2 GB |
+c2  GF (EC)CE | FEFG ABcA | {/^c}d2 AG (FD)D || f | (ec)ge (ac)gc | (ec)gc ecce |
+fdad bdaf | fgag fddf | (ec)gc acgc | GAcd eccg | afge fde^c | d2 AG FDD |]
+S:https://www.folktunefinder.com/tunes/71357
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Cabar_Feidh.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Caber_Feidh.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Deers_Antlers.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0328.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

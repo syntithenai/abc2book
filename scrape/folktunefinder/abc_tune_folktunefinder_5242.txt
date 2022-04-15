@@ -1,0 +1,55 @@
+X: 1
+T: Kalamatianos
+O: Greece
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: C
+G,2 \
+"A"\
+| "C"C2 {DEF}G^F G2 | GAB ~c2 BA | G2A _BG AF | E^DE FE GE \
+| "C"C2 {DEF}G^F G2 | BAB dc BA | G2A _BG AF | E^DE HC2 :|
+K: DDor
+"B"\
+|:B,C \
+| "Dm"D2D DA GF | "C"EDE FD EC | "Dm"DCB, "(C)"A,G, B,C \
+|  "Dm"D2D DA GF | "C"EDE FG EC | "Dm"D4 :|
+K: DPhr
+"C"\
+|:D2 \
+| "D"{A}G^FG A2 A2 | {c}BAG ^FE D2 | {A}G^FG AB cd | {d}c>BA/G/ ^FE D2 | "Cm"E2E EA G^F |
+|  EDC AG ^FE | "D"D2D DC DE | ^F2F FA GF | "Cm"EDC AG ^FE | "D"D4 :|
+K: DDor
+"D"\
+|:A^AB \
+| "C"cBd {d}c_B AG | "Dm"F2G "C"ED EC | EDE FG EC | "Dm"DEF GA ^AB |
+|  "C"cBd {d}c_B AG | "Dm"F2G "C"ED EC | EDE FG EC | "Dm"D4 :|
+K: DPhr
+"E"\
+|:AG^F \
+| "Cm"EDC =B,C DE | ^FGA FE DE | "D"^F2F FA GF \
+|  "Cm"EDC =B,C DE | ^FGA FD EC | "D"D4 :|
+K: Dm
+"F"\
+|:CDE \
+| "Dm"F2E FG FE | FGA "C"F2 E2 | CDE FD EC | "Dm"DEF "C"GC DE \
+|  "Dm"FGE FG FE | FGA "C"F2 E2 | CDE FD EC | "Dm"D4 :|
+K: DPhr
+"E"\
+|:AG^F \
+| "Cm"EDC =B,C DE | ^FGA FE DE | "D"^F2F FA GF \
+| "Cm"EDC =B,C DE | ^FGA FD EC | "D"D4 :|
+S:https://www.folktunefinder.com/tunes/5242
+S:http://trillian.mit.edu/~jc/music/abc/Greece/Kalamatianos.abc
+S:http://trillian.mit.edu/~jc/music/abc/Greece/Kalamatianos2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A-sharp
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

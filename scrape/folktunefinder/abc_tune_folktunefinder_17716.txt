@@ -1,0 +1,24 @@
+X: 1
+T: Mouth of the Tobique
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: < Donna Hinds < Graham Townsend < Don Messer
+M: C|
+L: 1/8
+K: G
+|: (3DEF | "G"GFGA Bded | BdBG DGBG | "D7"AGFE DFAc |1 "G"BdBG "D7"D2 :|2 "G"BG2G G2 :|
+|: ef | "G"gfga gfeg | "D7"fdAd fagf | "C"ecAF "D7"DFAc |1 "G"BGBc "D7"d2 :|2 "G"BG2G G2 :|
+S:https://www.folktunefinder.com/tunes/17716
+S:http://trillian.mit.edu/~jc/music/abc/reel/MouthOfTheTobique.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MouthOfTheTobique.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MouthOfTheTobique.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/MouthOfTheTobique.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

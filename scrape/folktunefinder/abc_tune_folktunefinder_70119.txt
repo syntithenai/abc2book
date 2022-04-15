@@ -1,0 +1,28 @@
+X:559
+T: WAER ICH EIN MUNTERES VOEGELEIN
+N: F1102
+O: Europa, Mitteleuropa, Deutschland
+R: Natur - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | B2BAG2G2 | dedcB2
+B2 | A3AGFED | d2B2G2
+B2 | A3BA2A2 | d^cdcd2
+=c2 | B3BdcBA | G2BAG2
+B2 | c2z4^d2 | e2z4
+g2 | d3BdcAB | G2z4
+^c2 | d2z4^c2 | d2z4
+d2 | B3BA2A2 | G2z4
+S:https://www.folktunefinder.com/tunes/70119
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Natur - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

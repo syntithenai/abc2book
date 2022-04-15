@@ -1,0 +1,27 @@
+X: 16
+T:The Conundrum (in D, for the flute)
+M:2/4
+L:1/16
+R:march
+Z: Jack Campin
+K:D Mixolydian
+   D>E|F2D>F  A>BF2 |D>FA>d B2A>B |d2A>B A>BF2|D>FA>F E2D>E  |
+       F2D>F  A>BF2 |D>FA>d B2A>B |d2A>B A>BF2|E2D2   D2    :|
+   B>c|d2A>B  d>Ad2 |A>Bd>A B2A>B |d2A>B A>BF2|D>FA>F E2[1B>c|
+       d2A>B  d>Ad2 |A>Bd>A B2A>B |d2A>B A>BF2|E2D2   D2    :|
+[2 D>E|F2D>F  A>BF2 |D>FA>d B2A>B |d2A>B A>BF2|E2D2   D2    ||
+   A2 |D>EF2  D>EF<D|F<AD>E F2A2  |B>cd2 A>BF2|D>FA>F E2A2   |
+       D>EF2  D>EF<D|F<AD>E F2A2  |B>cd2 A>BF2|E2D2   D2    :|
+   d2 |B>Ad>A B2A<d |B2A<d  B>Ad>A|B>cd2 A>BF2|D>FA>F E2[1d2 |
+       B>Ad>A B2A<d |B2A<d  B>Ad>A|B>cd2 A>BF2|E2D2   D2    :|
+[2 D>E|F2G>F  A>DF2 |G>FA>D B2A>B |d2A>B A<dF2|E2D2   D2    |]
+S:https://www.folktunefinder.com/tunes/43248
+S:http://www.lesession.co.uk/music/wf_update1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

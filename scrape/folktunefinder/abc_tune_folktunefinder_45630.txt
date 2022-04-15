@@ -1,0 +1,29 @@
+X:196
+T:Hanslbauer-Steirische (3.)
+C:traditionell
+R:Steirer
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+S:im buch mit der angabe: Diese Steirer stammen aus St.Wolfgang vom Hanslbauern. Leopold Khals hat sich, wie er mir (A.Ruttner -SW) mtteilte, mit der Aufzeichnung redlich geplagt und hat auch bemerkt, dass er nichtalle Steirischen erwischt habe.
+N:im buch ganz in D, zwei stimmhefte, im II. teil nr. 8/3, erster ton 1. stimme a'', erster ton 2. stimme c#'''
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:C %Transposed from D
+V:1
+P:3
+.g.g (eG) (ce) | (fG)(Bd) G2 | (FGBd) (gf) | (eg)(ce) G2 |\
+.g.g (eG) (ce) | (fG)(Bd) G2 | (FGBd) (gB) "&"| c2 z2 z2 :|
+V:2
+.c'.c' (gc) (eg) | (aB)(fg) B2 | (GBdf) (ba) | (gc')(eg) c2 |\
+.c'.c' (gc) (eg) | (aB)(fg) B2 | (GBdf) (bg) "&"| e2 z2 z2 :|
+S:https://www.folktunefinder.com/tunes/45630
+S:http://simonwascher.info/TradArchiv_steirer.abc
+% Rhythm Steirer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

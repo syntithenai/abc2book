@@ -1,0 +1,31 @@
+X: 7470
+T:Mr and Mrs A. Ross
+R:Pipe march
+O:Scotland
+M:6/8
+C:John MacGregor
+K:D
+A/d/|\
+f2 f>dd|c>BB B>ef|g3 g>ee|c<ec B>AA|\
+f3 f>dd|c>BB B>ef|g>ec A<aa|{c}d3 d2::
+f/g/|\
+a3 f2d|c>BB B>ef|g3 e2d|c<ec B>AA|\
+a3 f2d|c>BB B>ef|
+g>ec A<aa|{c}d3 d3::\
+f|\
+A>dd d3|d>cc c>BB|B>gg g2e|c<ec B>AA|
+A>dd d3|d>cc c>BB|g>ec A<aa|d3 d2::\
+f/g/|\
+a>fa f>da|c>BB B>ef|
+g>eg g2e|c<ec B>AA|\
+a>fa f>da|c>BB B>ef|g>ec A<aa|d3 d2:|\
+S:https://www.folktunefinder.com/tunes/34687
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

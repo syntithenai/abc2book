@@ -1,0 +1,29 @@
+X: 4
+T: Shalom Aleichem
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Bm
+|: "Bm"[F2B2] [df][ce] [B2d2] [B2d2] \
+| "F#7"[^Ac][Bd] [ce][Bd] [Ac][GB] [F2A2] \
+|1 [^Ac][Ac] [A2c2] "Bm"[Bd][Ac] [Bd][df] \
+| "F#7"[^Ac][Bd] [ce][Bd] [Ac][GB] [F2A2] \
+:|2 "Em"[E2G2] [B2d2] [^A2c2] [GB][EG] \
+| "F#7"[F6^A6] z2 |
+| "D"[df][eg] [f2a2] [f2a2] [f2a2] \
+| "A7"[eg][df] [ce][df] "F#7"[eg][fa] [e2g2] \
+| "Bm"[df][ce] [Bd][ce] [df][fa] [eg][df] \
+| "F#7"[c6e6] z2 |
+| "Em"[c2e2] [e2g2] [e2g2] [e2g2] \
+| "F#7"[eg][gb] [f^a][eg] "Bm"[df][ce] [Bd][FB] \
+| [d2f2] [ce][Bd] "F#7"[c2e2] [Bd][^Ac] \
+| "Bm"[B6d6] z2 |]
+S:https://www.folktunefinder.com/tunes/7299
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ShalomAleichem2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

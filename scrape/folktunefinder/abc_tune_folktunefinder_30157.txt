@@ -1,0 +1,22 @@
+X:0
+T:The Sailor's Wife
+G:jig
+M:6/8
+L:1/8
+Q:3/8=112
+K:DMin
+% hexatonic, sharpened C leading notes
+E|DEF  E2D|d2e f2g|agf edc |AcA GEC|
+  DEF  E2D|d2e f2g|agf ed^c|d3  D2:|
+e|f>ga fga|fga agf|ecg ecg |ecg gfe|
+  f>ga agf|efg gfe|def ed^c|d3  D2:|
+S:https://www.folktunefinder.com/tunes/30157
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Dali Olles marsch
+O: \"Oster\"angarna, Dalarna
+M: C|
+L: 1/8
+K: Dm
+|:"Dm"A2d2 (de)(dc) | A4 (Ac)AG | F2(DF) "A7"E2D^C | "Dm"D2(DE) "(A7)"FGA2- |
+| "Dm"A2d2 (de)dc | A3(B A2)G2 | F2(DF) "A7"E2D^C | "Dm"D2 D2 D4 :|
+|:"Dm"F2F2 F3D | "A7"E2E2 E4 | A2A2 ^c2Ac | "Dm"d2A2 F2DE |
+| "Dm"F3(E F2)D2 | "A7"E2 ((3FED E2)(^C2 | A2)A2 ^c2ec | "Dm"d2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/15397
+S:http://trillian.mit.edu/~jc/music/abc/march/DaliOllesMarsch_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/DaliOllesMarsch_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scand/ganglat/DaliOllesMarsch_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

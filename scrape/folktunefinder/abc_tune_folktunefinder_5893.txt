@@ -1,0 +1,35 @@
+X: 2
+T: Pajdu\vsko
+R: pajdushko
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a handwritten MS with barely legible notes:
+N: "Ot Do'lu eb l\^udala Ia'ma"
+N: From Veveritza Squirrel Hill Pittsburgh PA
+M: 5/16
+%%indent 50
+L: 1/16
+K: Dm
+|:  Dz A2A | Az A2G | Az A2G | GF G2z |  Dz G2G |
+ |1 Gz G2F | Az A2G | Fz F2E \
+:|2 Gz c3  | cB A2G | Fz F2E ||
+|: DE F2F | FE E2C | DE F2F | FE E2z \
+|  DE F2F | GF E2C | GF E2C | Dz D3 :|
+K:Dphr^F
+|: F2 EDC | DE FGA | GF EDC |1,3 Dz F3 \
+                           :|2,4 Dz D3 :|
+K: Ddor
+|: dz =c2B | Az A2G |1,3 ^cc d2G | dz g3 \
+                   :|2,4 ^cc c2G | dz d3 :|
+S:https://www.folktunefinder.com/tunes/5893
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Pajdushko2.abc
+% Rhythm Pajdushko
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key A-sharp
+% Key D
+% Time_signature 5/16
+% Text Has notes text
+% Has_accompaniment_chords No chords

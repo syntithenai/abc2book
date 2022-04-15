@@ -1,0 +1,33 @@
+X:761
+T:Xiraldilla (CT 059)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 059
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+|GG GB|d3 c|e2 d2|dd dd|c3 B|A2 G2|
+GG GB|d3 c|e2 d2|dd dd|c3 B|A2 GG|c2 c2|BB AA|G2 z2 ||
+W:Cmo dormirs, Manuela,
+W:cmo dormirs, querida,
+W:entre grillos y cadenas
+W:toda la noche metida.
+W:Manuela, cmo dormirs.
+W:
+S:https://www.folktunefinder.com/tunes/59648
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

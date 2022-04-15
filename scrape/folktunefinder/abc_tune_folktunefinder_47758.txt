@@ -1,0 +1,29 @@
+X: 221
+T:Chinese Air. JaW.220
+M:2/4
+Q:50
+S:James Winder Ms, Lancashire, 1835-41
+R:Air
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+(DG) (G>A)|(Bc) e>d|cd/c/ A>F|F>D D2|!
+(DG) (G>A)|(Bc) e>d|cd/c/ A>D|DG G2||!
+AF/A/ d/d/d/d/|^ce/G/ B/B/B/B/|EG/^C/ E/E/E/E/|D(F/A/) D2|!
+AF/A/ d/d/d/d/|^ce/G/ B/B/B/B/|EG/^C/ E/E/E/E/|D_edc|!
+_BG_E=F|D_edc|_BG_E=F|D_edc|!
+_BG_E=F|DG_E=F|DG_E=F|DDED|DDED|]
+S:https://www.folktunefinder.com/tunes/47758
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:245
+T: DIE SONNE SANK IM WESTEN
+N: E1385
+O: Europa, Mitteleuropa, Deutschland, Hessen, Wetzlar; Dill - Kreis
+R: Staende -, Soldaten -, Kriegs - Lied, Tod
+M: 6/8
+L: 1/16
+K: C
+G2 | G4E2A4G2 | G2F2z6
+D2 | F4F2F2G2A2 | G6z4
+G2 | c4e2d4c2 | B6A4
+cA | G4G2A2G2F2 | E6z4
+G2 | c4e2d4c2 | B6A4
+cA | G4G2A2G2F2 | E6z4
+S:https://www.folktunefinder.com/tunes/79349
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten -, kriegs - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

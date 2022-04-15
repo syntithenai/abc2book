@@ -1,0 +1,22 @@
+X:350
+T:Tommy Peoples'
+Z: id:dc-reel-333
+M:C
+L:1/8
+K:B Minor
+B3c dBAF|B3c dfec|B3c dcdB|ABde fdec:|!
+K:D Major
+dfaf bfaf|dfaf g2fg|afge dedB|ABde fdec:|!
+S:https://www.folktunefinder.com/tunes/65903
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key B
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

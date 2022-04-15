@@ -1,0 +1,28 @@
+X:206
+T:Saute de Lapin
+S:Jim Coon to CoMandoList TOW
+R:reel
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+|:"G"BcBA GABc|"G"d2B2"D7"A4|\
+ABcB ABcd|"C"e2f2 "D7" (3(ded d2|!
+"G"BcBA GABc|"G"d2B2 "D7"A4|\
+ABcB ABcd|1"D7"edfd "G"g2 z2:|2"D7"edfd "G"g2 ||!
+|:ef|"G"gdBc d2ef|gdBc d2dd|\
+"D7"^cddd cddd|"D7"^cddd cddd|!
+"G"gdBc d2ef|gdBc d2dd|\
+"D7"^cddd cddd|1"D7"edfd "G"g2:|2"D7"edfd "G"g4||!
+S:https://www.folktunefinder.com/tunes/51804
+S:http://www.mandozine.com/music/TOW.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

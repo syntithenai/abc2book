@@ -75,7 +75,10 @@ function generateFileName(id) {
                     var seenFeature = []
                     features.map(function(feature) {
                         if (feature && feature.trim().length > 0 && seenFeature[feature] !== true) {
-                            results += "U:"+feature + "\n"
+                            //results += "U:"+feature + "\n"
+                            var featureParts = feature.split(":")
+                            var regexp = /%20/g
+                            results += "% "+featureParts[0].replace(regexp,'_') + " " + featureParts.slice(1).join(":").replace(regexp,' ') + "\n"
                             seenFeature[feature] = true
                         }
                         return

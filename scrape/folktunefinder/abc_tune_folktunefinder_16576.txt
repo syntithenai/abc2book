@@ -1,0 +1,35 @@
+X: 1
+T: Tio kronors polska
+R: Bingsj\"o-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"A3c efec A2c2 \
+| "E7"c2BA [B6E6] c2 \
+| "D"dcde f2f2 d3e \
+| "E7"f2gf efed cdcB \
+| "A"AEAc efec A2c2 |
+| "E7"c2BA B6 c2 \
+| "D"dcde f2f2 "E7"dedB \
+| GEGB "A"A8 \
+:: "A"efed cAce a2f2 \
+| "D"fafd "E7"BGBd f2e2 |
+| "A"e2fe "(E)"d2ed "A"c2a2 \
+| "E7"g2ag f2f2 e4 \
+| "A"efed cAce a2f2 \
+| "D"fafd "E7"BGBd f2e2 \
+| "A"e2fe "(E)"d2ed "A"c2ec \
+| "E7"GEGB "A"A8 :|
+S:https://www.folktunefinder.com/tunes/16576
+S:http://trillian.mit.edu/~jc/music/abc/pols/TioKronorsPolskan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/pols/TioKronorsPolskan.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/TioKronorsPolskan.abc
+% Rhythm Bingsjo?-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

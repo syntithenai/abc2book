@@ -1,0 +1,27 @@
+X: 1
+T: Heights Of Cassino, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: f | A>AA (B<de) | (f2a) f>ed | e>fe (e2d) | (e<fe) d>BG |
+A>AA (B<de) | (f2a) f>ed | f>AA (e<fe) | d3 d2 :|
+|: (f/>g/) | a>fd f3 | (f2a) f>ed | e>fe e2 d | (e<fe) d>BG |
+a>fd f3 | (f2a) f>ed | f>AA (e<fe) | d3 d2 :|
+|: f | A2 A B>AG | A>AA f3 | (f2a) f>ed | (e<fe) d>BG |
+A2 A B>AG | A>AA f3 | f>AA (e<fe) | d3 d2 :|
+|: (f/>g/) | a>fe d>ef | A>AA f3 | (f2a) f>ed | (e<fe) d>BG |
+[1 a>fe d>ef | A>AA f3 | f>AA (e<fe) | d3 d2 :|
+[2 (A2 A) B>AG | A>AA f3 | f>AA (e<fe) | d3 d2 |]
+S:https://www.folktunefinder.com/tunes/14303
+S:http://trillian.mit.edu/~jc/music/abc/jig/Heights_of_Cassino_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Heights_of_Cassino_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Heights_of_Cassino_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

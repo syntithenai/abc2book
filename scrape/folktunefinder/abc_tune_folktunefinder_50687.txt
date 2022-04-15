@@ -1,0 +1,25 @@
+X: 5
+T:Dennis Murphy's
+M:2/4
+L:1/8
+S:Pog Band Circassian Circle Set
+R:polka
+D:Planxty
+Z:id:hn-polka-10
+K:D
+"D"f/g/f/e/ d>B|"Bm"AD FA|"Em"GE e>d|"A"cB BA|
+"D"f/g/f/e/ d>B|"Bm"AD FA|"Em"GE "A"e>f|1"D" ed de:|2"D" ed d>B||
+|:"D"Af f/e/f|"G"Ag g/f/g|"D"Af f/e/d|"A"e/f/e/d/ BA|"D"
+Af f/e/f|"G"Ag g>a|"D"b>a "A"gc|1"D" ed d>B:|2"D" ed de||
+% Output from ABC2Win  Version 2.1 i on 22/03/2005
+S:https://www.folktunefinder.com/tunes/50687
+S:http://www.kiwifolk.com/tunes/circassian_circle_set.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

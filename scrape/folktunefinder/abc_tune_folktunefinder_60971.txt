@@ -1,0 +1,24 @@
+X:8938
+T:La Glissante (D. Champion)
+S:Bardane
+M:2/4
+L:1/16
+K:G
+(3DGB|d2dB c2cA|BGAF G2AB|cdcB A2AG|\
+ABAG F2 (3DGB|d2dB c2cA|
+BGAF G2AB|cdcB A2AG|FDEF G2:|\
+|:D2|B2BA G2GF|GABG E2AB|
+c2cB A2AG|ABAG F2D2|B2BA G2GF|\
+GABG E2AB|c2cB A2AG|FDEF G2:|
+S:https://www.folktunefinder.com/tunes/60971
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

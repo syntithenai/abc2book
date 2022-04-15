@@ -1,0 +1,23 @@
+X: 2
+P: Music for a Found Harmonium
+M:4/4
+L:1/8
+C:Simon Jeffes
+Z:as taught by Artie McGlynn on workshop in De Glind, Holland, Nov. '94
+K:D
+FDGD FD2D|FDGD FD2D|FDGD FD2D|EDCD D2DD:|
+EDCD EDCD|FDCD FDCD|GDED CDGD|FDDE D2DD:|
+[K:C] cFEF GF2F|cFEF E3F|cFEF GF2F|cFEF E3F:|
+[K:F] BFDF GF2F|BFDF GF2F|BGEF GE2F|BGEF GE2F|
+[K:D] cGEG CG2G|cGEG CG2G|cGEG CG2G|cGEG CG2G|
+EDCD EDCD|FD=CD FD=CD|GDED CDGD|FDDE D2DD:|
+S:https://www.folktunefinder.com/tunes/6283
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/MusicForAFound_Harmonium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

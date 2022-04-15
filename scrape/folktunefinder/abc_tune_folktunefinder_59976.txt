@@ -1,0 +1,33 @@
+X:3787
+T:Danza (CT 002)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Mieres.
+N:Es, sin duda, la danza, uno de los regocijos predilectos de los asturianos, y bien cabe decir que cada pueblo posee sus danzas particulares.
+O:Mieres
+A:Asturies
+Z:Cancioneru de Torner 002
+M:6/8
+L:1/8
+Q:3/8=80
+W:Si el cura va a los figos,
+W:qu haremos los vecinos
+W:Si el cura va les nueces,
+W:qu harn los feligreses
+K:C
+"Solo" G|:G2c c2c|c3 A2 "Coro"B|B2c B2A|G3 G3-|G3 z2 "Solo"G|
+G2c c2c|c3 A2 "Coro"B|B2c B2A|G3 G3-|[1 G3 z2G:|[2 G3 z3||
+S:https://www.folktunefinder.com/tunes/59976
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

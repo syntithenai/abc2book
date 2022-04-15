@@ -1,0 +1,31 @@
+X: 78
+T:Farandole des pompiers
+O:France
+A:Drme
+S:Collectage et transcription musicale Marguerite Pizot-Monnier  Dieulefit
+S:Extrait de "Refrains et farandoles", 1950
+R:Farandole
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bbmaj
+z2z F2B |: A2B AGF | B2B BAB | c2d edc | f3 F2B |
+A2B AGF | B2B BAB | cdc BAG | F2f fff | e3d3 |
+cFG ABc | d3c3 | BBc def | g3f3 | e3d3 | c2d B2G |
+c3 F2B | A2B AGF | B2B BAB | c2d edc | f3 fgf |
+=e2e efe | d2d d=ed | cgf edc | B6 | e3 zBG | E3 zGB |
+e3g3 | f3 z2z | d2d dcd | e3 B2e | dcB ^G=GF | E3 F2B :|
+%%footer $D   Galouvielle-MBe 2008 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/537
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

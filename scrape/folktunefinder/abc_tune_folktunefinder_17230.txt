@@ -1,0 +1,26 @@
+X:3
+T:Gan Ainm
+T:Colonel Rodney
+R:reel
+S: Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2002-11-4
+Z:Larry Sanger from a tape of a tape of a tape...of John Doherty.
+Z:In this performance John varied the tune remarkably little, but
+Z:played just 2.5 times.
+M:4/4
+K:A
+d|:cA A/A/A eAcd|eaga fedc|dB B/B/B fBde|fefg afed|
+cA A/A/A eAcd|eaga fedc|defg abaf|1 e/f/g ae cAAd:|2 e/f/g ae cAAf||
+|:e/f/e ce Aece|aAgA fe^de|f/g/f ^df Bfdf|bBaB gBf^d|
+e/f/e ce Aece|aAgA fAec|dcde fgaf|1 e/f/g ae cAAf:|2 e/f/g ae cAAd||
+S:https://www.folktunefinder.com/tunes/17230
+S:http://trillian.mit.edu/~jc/music/abc/reel/GanAinm_22.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GanAinm_22.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/GanAinm_22.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

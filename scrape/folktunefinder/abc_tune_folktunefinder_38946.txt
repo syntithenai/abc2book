@@ -1,0 +1,23 @@
+X:17575
+T:Tomgraney Castle
+Z: id:dc-hornpipe-65
+M:C|
+L:1/8
+K:A Dorian
+cB|AGAB AGEG|AGAB cBcd|(3efg fa gedc|B2G2 G2cB|!
+AGAB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2:|!
+(3efg|a2ab ageg|agab a2ge|dega gedc|B2G2 G2|!
+[1 (3efg|a2ab ageg|agab a2ge|dega gedB|c2A2 A2:|!
+[2 cB|AGAB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2|]!
+S:https://www.folktunefinder.com/tunes/38946
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

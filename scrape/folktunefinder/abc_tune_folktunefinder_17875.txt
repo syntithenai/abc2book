@@ -1,0 +1,30 @@
+X: 1
+T: The Piper and the Penguin
+C: Muriel Johnstone
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: Named for a famous photo from an Antarctic expedition, showing
+N: a piper in full dress, with a penguin listening a few feet away.
+M: C|
+L: 1/8
+K: A
+(3EFG \
+| "A"A2EA "D"F2A2 | "A"E2AE "D"F2A2 | "A"E2FG "(F#m)"ABcd | "Bm"e2dc "E7"BdcB |
+| "A"A2EA "D"F2A2 | "A"E2AE "D"F2A2 | "A"EFGA "Bm"Bcdf | "E7"ecBc "A"A2 :|
+|: (3efg \
+| "F#m"a2fa "E"gfeg | "D"fAdf "A"e2dc | "D"f2df "A"eAce | "Bm"dcBA "E7"BEFG |
+| "A"A2EA "D"F2A2 | "A"E2AE "D"FGAB | "Bm"cdef "E7"ecBc | "A"A2a2 A2 :|
+S:https://www.folktunefinder.com/tunes/17875
+S:http://trillian.mit.edu/~jc/music/abc/reel/Piper_and_Penguin_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/Piper_and_Penguin_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Piper_and_Penguin_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

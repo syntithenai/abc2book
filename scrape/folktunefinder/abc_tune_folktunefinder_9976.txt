@@ -1,0 +1,25 @@
+X: 1
+P: Barley Cakes
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+B: Gow Collection
+M: 6/8
+L: 1/8
+K: G
+c "A"\
+| "G"B2G B{c}dB | "F"A2=F A{B}cA | "G"B2G  B{c}dB | "G"~d3 "D"g3 \
+| "G"B2G B{c}dB | "F"A2=F ABc    | "G"dcB "D7"cBA | "G" G3    G2 ||
+d "B"\
+| "G"gag "D"fgf | "C"e2d  "D"B3   | "G"gag     Tf2g | "D7"a3 d3 \
+| "C"c2a "G"B2g | "A7"ABG "D"F>ED | "C"G>AB "D7"AGF |  "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/9976
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/BarleyBree.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

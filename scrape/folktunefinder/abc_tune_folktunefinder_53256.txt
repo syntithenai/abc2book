@@ -1,0 +1,36 @@
+X:130
+T:Hijaz
+D:Hassan Erraji & Arabesque, "Nikriz"
+D:"Music of the Turkish Gypsies", the Erkse Brothers
+M:7/8
+N:the 2 versions pretty much the same except for different repeat counts
+N:Turkish vn in E, Moroccan in F, I like A
+N:I don't know how many abc progs will like this key signature. It should
+N:read, Bb, f#, c#
+O:Morocco
+O:Turkey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c54.html
+%%ID:00000c54
+K:A mixolydian _B ^f ^c
+c2 Bc BAG | A2 B2 cde | c2 Bc BAG | A2A2 A3 ::
+A2 dc BAB | c2 d2 ede | A2 dc BAG |1,3 d2 ce d3 :|2,4 A2 A2 A3 ::\
+[K:D]
+d2 dc d2d | e2 ed e2e | a2 gf fed |1,3 f2 ed cBA :|2,4 d2 d2 d3 :|
+a2a2aaa| a2a2aaa|:
+b2 ag fef | g2 ab a2a | b2 ag fef | ga fe d3 ::\
+[K:Amix _B ^f ^c]
+aa ag/2f/2 g2f/2e/2 | f2 fe/2d/2 e2d/2c/2 | fe de c2B |1,3 AB cd efg :|2,4 A2A2A3 ::
+GA Bc d2c | fe dc BAB | c2 dc BAG |1,3 d2 ce d3 :|2,4 G2G2G3::
+G2 G2 BAG | G2 G2 BAG | G2 dc BAG |1,3 d2 ce d3 :|2,4 A2A2A3 |]
+S:https://www.folktunefinder.com/tunes/53256
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

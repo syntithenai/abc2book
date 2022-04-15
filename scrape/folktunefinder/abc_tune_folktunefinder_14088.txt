@@ -1,0 +1,31 @@
+X: 1
+T: the Devonshire Lancers
+R: jig
+S: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2009.pdf
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"DFA "G"BAB | "A7"cBc  "D"d3  |   "D"ABA "G"GAG | "D"FGF "A7"E3 \
+|  "D"DFA "G"B3  | "A7"cBc "Bm"d2f |"E(m)"edB "D"BAF |"A7"AFE  "D"D3 :|
+|:"A7"ABA "D"f3  | "A7"efe  "D"d3  |  "A7"ABA "D"f2f | "D"g2f "A7"e3 \
+| "A7"ABA "D"f3  | "A7"efe  "D"d2f |"E(m)"edB "D"BAF |"A7"AFE  "D"D3 :|
+S:https://www.folktunefinder.com/tunes/14088
+S:http://trillian.mit.edu/~jc/music/abc/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/DevonshireLancers_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/DevonshireLancers_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:102
+T:Hens march, The
+R:Pipe march
+R:Jig
+O:Scotland
+S:://www.leeds.ac.uk/music/Info/RRTuneBk/RRtunes2/RRtunes2.abc
+M:6/8
+C:Donald MacLeod
+K:Hp
+ |: e |  dBBB2A | BGGG2B | BAAA2B | BGGG2B | dBBB2A | BGGG2B | AAA ABd |1 e3g2 :|2 e3e2 |
+ |: f | geea2g |  fddd2f | gee efg | fddd2f | geea2g | fdd def | g2e fed |1 e2e :|2 e3g2 ||
+ |: e | dBB ABB |  GBB ABB |  GBB ABB | e3g2e | dBB ABB |  GBB ABB |  AAA ABd | e3e2 :|
+d | eaa a2a | g2e fdd | eaa afd |1  e3e2d |  eaa a2a | g2e fdd |  edB ABd |  e3e2d
+ :|2  e3g2e |  dBB ABB |  GBB ABB |  AAA ABd |  e3e2 |]
+S:https://www.folktunefinder.com/tunes/15460
+S:http://trillian.mit.edu/~jc/music/abc/march/HensMarch.abc
+% Rhythm Pipe march
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

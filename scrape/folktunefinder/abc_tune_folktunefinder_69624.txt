@@ -1,0 +1,30 @@
+X:64
+T: MAEDEL MIT DEM ROTHEN MIEDER
+N: F0161
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G2B2B2d2 | d2c2c2B2
+A2A2A4 | GBdBG4
+G2B2B2d2 | d2c2c2B2
+A2A2A4 | GBdBG4
+G2e2e2e2 | e2d2d4
+d2c2c2c2 | c2B2B4
+A2A2A4 | GBdBG2B2
+A2A2A4 | GBdBG4
+G2e2e2e2 | e2d2d4
+d2c2c2c2 | c2B2B4
+A2A2A4 | GBdBG2B2
+A2A2A4 | GBdBG4
+S:https://www.folktunefinder.com/tunes/69624
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

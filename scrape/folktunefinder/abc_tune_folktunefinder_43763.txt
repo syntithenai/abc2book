@@ -1,0 +1,24 @@
+X:3
+T:The Clocks Back Jig
+C:Andy Hornby 1996
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+D|GBc d2B|dge d2B|c2e dBG|EAG F2D|
+GBc d2B|dge dBG|c2e dBG|DGF G2:|
+|:B|AFA d2e|fag f2d|egf ed^c|
+dag f2d|AFA d2e|fag fed|egf ed^c|[1d3d2:|[2d3=c3
+|:B^AB g2B|g2B BAG|A^GA f2A|fed cBA|
+B^AB g2B|g2B BAG|A^GA fed|[1cAF G2A:|[2cAF G3|]
+%%vskip 3cm
+S:https://www.folktunefinder.com/tunes/43763
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:St Hubert 1997
+C:Richard Forest
+O:Qubec
+S: Dominique Renaudin <domren:free.fr> QueTrad 2003-2-12
+Q:1/4=210
+R:reel
+M:4/4
+L:1/8
+K:B Minor
+(3BcB GB cABc | dcde fdef | gbge fdBd | cffg fedc |
+(3BcB GB cABc | dcde fdef | gbge fdBd  |
+[1cfec fedc :|2cfec fede |: ffdf afde | efed (3BcB AB |
+ceAc eAce | dedc (3BcB AF | GBAG (3BcB AG | FAde f2 (3fff |
+efga gfed |1cABc (3dcB Ad :|2cABc d2 c2 |]
+S:https://www.folktunefinder.com/tunes/18155
+S:http://trillian.mit.edu/~jc/music/abc/reel/StHubert1997_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/StHubert1997_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/StHubert1997_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/StHubert1997_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:15506
+T:Sirto
+O:Bulgaria
+S:presented by Jaap Leegwater (JL 1985.01)
+L:1/8
+M:7/8
+Q:1/4=120
+K:D
+%%MIDI gchord fzzfzfz
+%%MIDI beatstring fppmpmp
+"D"F2AGFEF|"D"D7|\
+|:"D"D2A,D2D2|"D"EF2 GFED|"D"EF2GA2A|"D"BA4z2:|
+"D"A2dcBAB|"D"A2GFED2|"D"E2GF2FG|"D"A4z3|\
+"D"A2dcBAB|"D"A2GFED2|"D"E2GF2FE|"D"D4z3|
+"D"FF4ED|"D"AA4z2|"A"A,2A,B,2C2|"D"D2EF4|\
+"D"FF4ED|"D"AA4z2|"A"A,2A,B,2C2|"D"D2ED4|
+|:"Em"DEEEDEF|"Em"GAFG3F|"Em"E2DEFGA|"Em"FG3G3|\
+"Em"AAAAGAB|"Em"G2FE3G|"Em"B/A/GFGAFD|"Em"E3E3z:|
+"Em"B/A/GFGAFD|"Em"E2DEFGA|"D"B/A/GFGAFD|"Em"E3B3z|\
+"Em"B/A/GFGAFD|"Em"E2DEFGA|"D"B/A/GFGAFD|"Em"E3E3z|
+S:https://www.folktunefinder.com/tunes/46781
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

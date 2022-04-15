@@ -1,0 +1,26 @@
+X:480
+%%topmargin 3cm
+T:Off She Goes
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+A | F2 A {/F}G2 B | ABc {/c}d3 | F2 A {/F}G2 B | AFD TE3 | F2 A {/F}G2 B | ABc {/c}d2 e | f2 d {/f}g2 f | edc {/c}d2 ::
+g | (f/g/a)f {/c}d2 f | (g/a/b)g e2 g | (f/g/a)f d2 f | ecA A2 g | (f/g/a)f {/c}d2 f | (g/a/b)g e2 g | f2 d {/f}g2 f | edc {/c}d2 :|
+S:https://www.folktunefinder.com/tunes/71509
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Off_She_Goes.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0480.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

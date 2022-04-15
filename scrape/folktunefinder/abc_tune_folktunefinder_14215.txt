@@ -1,0 +1,26 @@
+X: 1
+T: The Garden Wall
+O: Petrie
+B: RSCDS 20-3b
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"dBG GBd | gag gdB | dBG GBG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | gag gdB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+d \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2f \
+| "G"gfg dBG | "Em"gfg dBG | "D7"FGA Ddc | "G"BGG G2 ||
+f \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2c \
+| "G"BAG "D7"cBA | "G"dcB "C"edc | "G"Bcd "D7"DEF | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/14215
+S:http://trillian.mit.edu/~jc/music/abc/jig/GardenWall_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/GardenWall_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/GardenWall_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

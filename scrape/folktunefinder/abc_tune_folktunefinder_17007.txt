@@ -1,0 +1,20 @@
+X:1
+T:Deil Stick da Minister
+R:reel
+M: C|
+L:1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K:A
+|: "A"EAcA "E7"~B2GB | "A"cAcA "D"~d2Bd | "A"cAcA "E7"~B2GB | "D"~A2BA "E7"GEE2 :|
+|: "A"cdec      dedc | "G"B=GdG    BGdG | "A"cdec "E7"dBGB  | "D"~A2BA "E7"GEE2 :|
+S:https://www.folktunefinder.com/tunes/17007
+S:http://trillian.mit.edu/~jc/music/abc/reel/DeilStickDaMinister_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/DeilStickDaMinister_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/DeilStickDaMinister_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

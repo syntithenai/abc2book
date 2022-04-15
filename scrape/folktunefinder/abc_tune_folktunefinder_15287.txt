@@ -1,0 +1,24 @@
+X: 1
+T: Legnala Dana
+R: lesnoto
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+[| "C"c2G cd ef | "F"f3- ff ef | "G7"g2a gf ~fe/f/ | "C"g/f/e2- e4 \
+ | "C"c2G "C7"cd ef | "Dm"d3- d2 de | "E#7"c2d cB BA | "Am"A3 "G7"G4 |]
+|: "C"[C3E] [CE][DF] [EG][FA] | [E3G]- [E2G] [EG][FA] \
+|  "G7"[G2B][GB] [GB][FA] [FA][EG] | "C"[EG][DF][EG] [DF][CE] [C2E] \
+|  "C"[C3E] "C7"[CE][DF] [EG][FA] | "Dm"[E3G]- [E2G] [DF][EG] \
+| "G7(Fm)"[D2F][CE] [C4E] | "C"[C7E] :|
+S:https://www.folktunefinder.com/tunes/15287
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/LegnalaDana_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/LegnalaDana_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/LegnalaDana_C.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

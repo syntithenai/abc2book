@@ -1,0 +1,26 @@
+X:92
+T: Bei der Lind'n bin i's gsessn
+N: D0124
+O: Europa, Mitteleuropa, Deutschland, Oberbayern, Woernsmuehl
+N: Zeilenwiederholung; zweistimmig ( parallele Terzen )
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+DB | B2A2Dc | c2B2
+DB | B2A2Dc | c2B2
+B2 | cee2de | cBgd
+dg | f2zcc2 | B4
+B2 | cee2de | cBgd
+dg | f2zcc2 | B4
+S:https://www.folktunefinder.com/tunes/72549
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

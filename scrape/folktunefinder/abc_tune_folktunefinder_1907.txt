@@ -1,0 +1,28 @@
+X: 85
+T: Night of Fun, The
+C: J-31
+M: 9/8
+Z: Transcribed to abc by Mary Lou Knack
+R: slipjig
+% %staffwidth 14cm
+K: Em
+%%text Repeat part A 4 times
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+G2B E2B BAG| F2A D2F AGF| G2B E2B BAG| BdB AGF E2z:|
+|:\
+e2f g2a baf| f2d d2f afd| e2f g2a baf| f2d afd e2B|
+e2f g2a baf| f2d d2f afd| g2e f2d e2c| d2B AGF Ez2:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/1907
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

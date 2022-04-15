@@ -1,0 +1,32 @@
+X:46
+T:German Minuet,(melody). BC.46
+M:3/4
+L:1/4
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+Z:vmp.John Bagnall
+K:D
+%%slurgraces 1
+V:1
+a | a2 g | f/e/ d  {ga}b | a2 g | f/e/ d A | B g B | A f A | G G F| E2 ||
+A | TA2 =c | B/A/ G>B | B2 d | c/B/ A a | a g f | e f g | f/e/ d c| d2 |]
+V:2
+K:D
+%%slurgraces 1
+f | f2 e | d/A/ F {ef}g | f2g | d/A/ F F | G e G | F d F | E E D | A2 ||
+F | F2 A | G/F/ E>G | G2 B | A/G/ F f | f e d | c d e | d/A/ G E | F2 |]
+S:https://www.folktunefinder.com/tunes/4154
+S:http://trillian.mit.edu/~jc/music/abc/England/VMP_bcooke.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

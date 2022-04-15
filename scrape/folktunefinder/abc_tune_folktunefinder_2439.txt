@@ -1,0 +1,31 @@
+X: 1
+T: TEST: Key Signatures
+K: A
+             |        "A"C2D E2F | G2A B2c | \
+[K:G]        |        "G"C2D E2F | G2A B2c | \
+[K:Bb]       |       "Bb"C2D E2F | G2A B2c |
+[K:Dm]       |       "Dm"C2D E2F | G2A B2c | \
+[K:F#m]      |      "F#m"C2D E2F | G2A B2c | \
+[K:ADor]     |     "ADor"C2D E2F | G2A B2c |
+[K:Gm^F]     |     "Gm^F"C2D E2F | G2A B2c | \
+[K:DMix_B_e] | "DMix_B_e"C2D E2F | G2A B2c | \
+[K:^G]       |      "^^G"C2D E2F | G2A B2c | \
+S:https://www.folktunefinder.com/tunes/2439
+S:http://trillian.mit.edu/~jc/music/abc/test/K_Inline8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/K_Inline8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/K_Inline8.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/K_Inline8.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key G
+% Key A
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

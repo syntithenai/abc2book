@@ -1,0 +1,30 @@
+X: 1
+T: the San Francisco Branch Polka
+C: Barbara McOwen (Feb 1988)
+R: polka
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+ag \
+| "D"fga2 A2a2 | "D"fedc d4 | "D"afdf "G"bagf | "A7"g2e2 e3d \
+| "A7"cde2 E2e2 | "A7"ABcd e4 | "A7"gfef gbag | "D"f6 ||
+ag \
+| "D"fga2 A2a2 | "D"fedc d4 | "G"B2e^d eBfB | "Em"g8 \
+| "A7"bgeg b2c'b | "D"afdf "B7"a4 | "Em"bagf "A7"e2a2 | "D"d6 |]
+AA \
+| "D"dAeA fAAA | "D"dAeA f4 | "G"g3f e2g2 | "A"A,6 AA \
+| "A"cAdA eAAA | "A"cAdA e4 | "A7"gfed c2A2 | "D"D6 ||
+AA \
+| "D"dAeA fAAA | dAeA f4 | "G"g3f e2d2 | "Em"b8 \
+| "A7"bgeg b2c'b | "D"afdf "B7"a4 | "Em"bagf "A7"e2a2 | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/16221
+S:http://trillian.mit.edu/~jc/music/abc/polka/SanFranciscoBranchPolka_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/SanFranciscoBranchPolka_D.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

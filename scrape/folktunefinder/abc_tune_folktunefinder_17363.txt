@@ -1,0 +1,22 @@
+X: 1
+T: Hon Capt Elliot's Quickstep
+M: 2/4
+L: 1/8
+K: C
+G \
+| "C"c2 "G7"d/f/d/B/ | "C"ce g2 | "F"fd "C"ec | "Dm"Ad/c/ "G7"B/G/A/B/ \
+| "C"c2 "G7"d/f/d/B/ | "Am"ce "Dm"f/a/g/f/ |  "C"ec "G7"AB | "C"c2 c :|
+|: G \
+| "G"Bc dB | "C"Gg/f/ "C7"e2 | "F"ca "Dm"g/f/e/d/ |  "G"c/B/d/c/ "G7"B/A/G/F/ \
+| "C"Ee "Dm"Ff | "C"Gg "F"Aa | "C"ge/g/ "G7"fB | "C"c2 c :|
+S:https://www.folktunefinder.com/tunes/17363
+S:http://trillian.mit.edu/~jc/music/abc/reel/HonCaptElliotsQuickstep_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/HonCaptElliotsQuickstep_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/HonCaptElliotsQuickstep_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

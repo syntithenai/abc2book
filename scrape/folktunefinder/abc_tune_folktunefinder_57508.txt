@@ -1,0 +1,31 @@
+X: 171
+T: Flying Cloud Cotillion
+C: R-87
+C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+Bc| "G"dcBc dcBc| dBd2 g2g2| "C"cBAB cBce| "D"agfe dcBc|
+    "G"dcBc dcBc| dBd2 g2g2| "C"cBAG FGAF| "G"DGGF G2 :| \K: D\
+|:\
+FG| "D"ABAG FGAc| dcde fed2| "A"a2g2 e2e2| "D"b2a2 fedB|
+    "D"ABAG FGAc| dcde fedB| "A"ABcd egfe| "D"d2fe d2 :|
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-87, "Mackilmoyle", same as R-73
+%%textfont       Times-Roman 9.0
+% ---------- page 89 ----------
+S:https://www.folktunefinder.com/tunes/57508
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:42
+T: IN DER HEIMATH IST ES SCHOEN
+N: B0528
+O: Europa, Mitteleuropa, Deutschland
+R: Wander -, Heimat - Lied
+M: 3/4
+L: 1/16
+K: D
+F,3G, | A,6F,2D3=C | B,8
+B,2A,2 | G,6F,2G,3B, | A,8
+F,3G, | A,6F,2D3C | C2B,2B,4
+B,2D2 | =C6A,2^G,2A,2B,2 | B,2A,2A,3G,
+F,3G, | A,6B,2C2D2 | B,8
+D3B, | B,4A,4C2E2 | D8
+D2C2B,2 | B,3A,A,4A,2C2E2 | D8
+S:https://www.folktunefinder.com/tunes/62065
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Wander -, heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

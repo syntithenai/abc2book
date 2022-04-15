@@ -1,0 +1,25 @@
+X: 1
+T: The Road to Banff
+C: Malcolm Reavell, Newmachar
+B: 90s Collection (What's that)
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"Add "D7"dcd | "G"BAG  "A7"A3 | "D"AdA "A7"eAf | "Em"g2g "A7"ecB \
+| "D"Add "D7"dcd | "G"BAG  "A7"A3 | "D"AdA "Em"eAf | "A7"gec  "D"d2 :|
+|: f/g/ \
+| "D"a2a     fdA |"Em"g2g "A7"ecB | "D"AdA "A7"eAf | "Em"g2g "A7"efg \
+| "D"a2a     fdA |"Em"g2g "A7"ecB | "D"AdA "Em"eAf | "A7"gec  "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14967
+S:http://trillian.mit.edu/~jc/music/abc/jig/Road_to_Banff_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Road_to_Banff_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

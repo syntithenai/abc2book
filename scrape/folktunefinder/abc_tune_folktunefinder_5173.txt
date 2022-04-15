@@ -1,0 +1,28 @@
+X: 126
+T: Schubkarrn (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+"D"\
+|: "Ab"[cA][dB] [ec][fd] [e2c2] | [cA][dB] [ec][fd] [e2c2] \
+| "Eb7"[d2B2] [B2G2] | "Ab"[c2A2] [A2E2] \
+|  "Ab"[cA][dB] [ec][fd] [e2c2] | [cA][dB] [ec][fd] [e2c2] \
+| "Eb7"[d2B2] [B2G2] |  "Ab"[A2A2] z2 :|
+"E"\
+|:"Db"[f2d2] [=ec][fd] | "Ab"[e2c2] [=d=B][ec] \
+| "Eb7"[d2B2] [c=A][dB] | "Ab"[c2A2] [=BG][cA] \
+"I"\
+| "Db"[f2d2] [=ec][fd] | "Ab"[e2c2] [=d=B][ec] \
+|1 "Eb7"[d2B2] [c=A][dB] | "Ab"[c2A2] z2 \
+:|2  "Eb7"[g2d2] [fe][gd] | "Ab"[a2c2] z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5173
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

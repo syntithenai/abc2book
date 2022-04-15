@@ -1,0 +1,24 @@
+X: 15
+T: Branles de villages 1
+D:UGB
+R:Branle
+O:France
+M:4/4
+K:GMix
+dd|\
+ge dc|B2c2|d2dd|BG dd|ge dc|B2c2|B2Ac|G2::
+GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|A2GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|G2:|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3054
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/branle.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

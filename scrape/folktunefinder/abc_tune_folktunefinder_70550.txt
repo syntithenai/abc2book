@@ -1,0 +1,26 @@
+X:420
+T: Der Hecker (139), S. 313
+N: T0308
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937, posth.]
+N: Consdorf, Liederheft (1848-1851)
+R: historische, Kriegs- und Soldatenlieder]
+M: 3/4
+L: 1/8
+K: F
+CC | F2F2GG | A2A2
+FA | c2c2dd | c2z2cc | dBd2
+d2 | cAc2cd | c2G2BB | A2c2
+ff | dBd2d2 | cAc2cd | c2G2AG | F2z2
+S:https://www.folktunefinder.com/tunes/70550
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/LUX.abc
+% Rhythm Historische, kriegs- und soldatenlieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

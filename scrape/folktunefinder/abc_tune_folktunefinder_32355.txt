@@ -1,0 +1,29 @@
+X: 1871
+T:Flatworld
+M:3/4
+L:1/8
+Q:1/4=180
+S:Blowzabella
+P:A,B,A,B,A,C
+Z:Malcolm Downi
+K:Am
+P:A
+e de|ce Be Ae|F3 A cA|f3 e dc|B3 e de|!
+ce Be Ae|F3 e dc|B3 d cB|A3:|!
+P:B
+|:B cB|AB cA ag|f3 e dc|Bc dB gf|e3 d cB|!
+AB cA fe|d3 c BA|[1B3 d cd|B3:|[2B3 d cB|A3||!
+P:C (Last time only instead of B)
+|:B cB|AB cA ag|f3 e dc|Bc dB gf|e3 d cB|!
+AB cA fe|d3 c BA|[1B3 d cd|B3:|[2B3 d cB|c3 e dc|B3 d cB|A4-A2||!
+S:https://www.folktunefinder.com/tunes/32355
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

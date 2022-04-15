@@ -1,0 +1,26 @@
+X:267
+T:Waltz of the Wild Rose
+R:waltz
+C:Bruce Osborne  --  May 28 1991
+Z:abc by bosborne @kos.net
+M:3/4
+L:1/8
+K:Bb
+F[D B] [E c]|[F2 d2] [F2 d2] [E2 c2]|(3[DB][Dc2/3][D2/3 B2/3] [F2 B2] [D2 B2]|(3[G,E][G,F2/3][G,2/3 E2/3] [G2 e2] [G2 e2]|[F3 d3] B, (3DFA|\
+[D2 B2] [D2 B2] [E2 c2]|(3[Fd][Fe2/3][F2/3 d2/3] [F2 d2] [D2 B2]|[c2 e2] [c2 e2] (3[Ae][ce2/3][A2/3 e2/3]|[F3 A3] F [DB][E c]|\
+[F2 d2] [F2 d2] [E2 c2]|(3[DB][Dc2/3][D2/3 B2/3] [F2 B2] [D2 B2]|(3[G,E][G,F2/3][G,2/3 E2/3] [G2 e2] [G2 e2]|[F3 d3] B, (3DFA|\
+[D2 B2] [D2 B2] [E2 c2]|(3[Fd][Fe2/3][F2/3 d2/3] [F2 d2] [D2 B2]|(3[Ec][Ed2/3][E2/3 c2/3] [D2 B2] [D2 A2]|[D3 B3]||\
+F[D B] [E c]|[F2 d2] [F2 d2] [F2 d2]|[G2 e2] (3[Ge][G(3f][G e] (3[Ge][Gf2/3][G2/3 e2/3]|[F3 d3] [F e] [Fd][E c]|[D3 B3] F (3Bcd|\
+[F3 c3] [F c] [Fc][F d]|[F3 c3] [D B] [DB][E c]|(3[Fd][Fe2/3][F2/3 d2/3] [F2 d2] [E2 c2]|[D3 B3] F [DB][E c]|\
+[F2 d2] [F2 d2] [F2 d2]|[G2 e2] (3[Ge][G(3f][G e] (3[Ge][Gf2/3][G2/3 e2/3]|[F3 d3] [F e] [Fd][E c]|[D3 B3] F (3Bdg|\
+[A4 f4] (3[cf][df2/3][c2/3 f2/3]|[A3 e3] F [DB][E c]|(3[Fd][Fe2/3][F2/3 d2/3] [F2 d2] [E2 c2]|[D3 B3]||
+S:https://www.folktunefinder.com/tunes/39860
+S:http://www.alfwarnock.info/alfs/abc/bruceosbornetunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

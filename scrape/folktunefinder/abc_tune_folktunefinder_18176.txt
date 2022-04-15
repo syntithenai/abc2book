@@ -1,0 +1,27 @@
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+S:https://www.folktunefinder.com/tunes/18176
+S:http://trillian.mit.edu/~jc/music/abc/reel/SusanCooper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SusanCooper.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SusanCooper.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

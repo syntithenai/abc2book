@@ -1,0 +1,34 @@
+X: 1
+T: Uri Zion
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+Z: from a 1997 transcription by Terry Traub
+M: C
+L: 1/8
+P: (ABABAC)2A
+K: C
+y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4\
+"Intro"| "C"eg2_b  "F"agf2 | "G7"g2[g2f2] [g2e2][g2d2] ||
+"A"\
+|: "C"Gc2c "G7"d2f2 | "C"eg2e "G7"dcd2 \
+| "C"Gc2c "G7"d2f2 |1 "C"eg3- "G7"g4 :|2 "C"eg3 "(to Coda)"z2cc ||
+"B"\
+|: "Dm"d3-d d2e2 | "F"fgaf "C"g2c2 \
+|1 "F"f3f "C"edec | "G"d6 cc \
+:|2 "C"zga_b "F"agf2 | "G7"g2[g2f2] [g2e2][g2d2] ||
+"C"\
+|: "Dm"d4 zdBA | "Am"c2AG Aedc \
+|1 "Dm"d2d2 zdBA | "Am"c2A2- Aedc \
+:|2 "Dm"d2d2 d2g2 | "G"e2d6 ||
+y4 y4 y4 y4 y4 y4 y4 y4 "Coda"[|]\
+"G7"g3f | g4- gg2f | g4- gg2f | "C"g2_b2 "F"a2gf | "G"g8 |]
+S:https://www.folktunefinder.com/tunes/6536
+S:http://trillian.mit.edu/~jc/music/abc/Israel/UriZion.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/UriZion.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

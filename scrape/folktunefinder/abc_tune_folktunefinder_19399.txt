@@ -1,0 +1,28 @@
+X: 1
+T: Hoch Hey Johnny Lad
+R: strathspey
+B: BSFC VII-17
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+E2 \
+| "A"A4 A3c B3A Bc3 | "A"A3F     E3F "E7"BBB2 B3c \
+| "A"A4 A3c B3A Bc3 | "D"A3F "E7"E3F  "A"AAA2 A2 :|
+f2 \
+| "A"efg2 a3c "E7"B3A Bc3 | "A"efg     a3e "D"fff2 f4 \
+| "A"efg2 a3c "E7"B3A Bc3 | "D"A3F "E7"E3F "A"AAA2 A2 ||
+f2 \
+| "A"efg2 a3c "E7"B3A Bc3 | "A"efg     a3e "D"fff2 f4 \
+| "A"ef3  e3c "Bm"B3A Bc2 | "D"A3F "E7"E3F "A"AAA2 A2 |]
+S:https://www.folktunefinder.com/tunes/19399
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/HochHeyJohnnyLad_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/HochHeyJohnnyLad_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 2
+T: Teardrop Waltz (2nd setting)
+C: Reg Bouvette
+S: www.annelederman.com/sheetmusic/teardrop_DD.pdf
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+Bc \
+| "D"de d(B AG) | "Bm"F3 (EDE) | "D"F2 E2 {FE}DA, | "G"{A,}B,4 (DE) \
+| "D"{E}F3 (EDE) | "D"{E}F2 (E2 {FE}D2) | "Bm"B4 (BA) | "G"{B}d4 (dB) |
+| "D"AB A(F EF) | "D"D3 (EFE) | "D"D2 E2 (FD) | "G"B,4 (DE) \
+| "D"{F}A4 F2 | "A7"E3 (DFE) | "D"D4 (DE) | "D"D4 :|
+|: (FA) \
+| "Bm"B4 (BA) | "G"{B}d4 (dB) | "D"A2 (F3 G) | "D"F2 (E2 {FE}D2) \
+| "Bm"B4 (BA) | "G"{B}d4 e2 | "D"f4 (fa) | "D"fe d(B Ad) |
+| "Bm"B4 (BA) | "G"{B}d4 (dB) | "D"AB A(F EF) | "G"D4 (DE) \
+| "D"FA d2 (Bd) | "A7"AF E3 F | "D"D4 (DE) | "D"D4 :|
+S:https://www.folktunefinder.com/tunes/7603
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/Waltz_Teardrop.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

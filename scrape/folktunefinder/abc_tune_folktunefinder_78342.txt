@@ -1,0 +1,28 @@
+X:321
+T: ES GFALLT MER NUMMEN EINI
+N: B0377
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Liebes - Lied, Liebes - Lust
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2A2A2 | B4G2
+GB | d2d2e2dc | B4z2
+D2 | G2G2A2A2 | B4G2
+GB | d2d2e2dc | B4z2
+AG | A2A2B2c2 | d3cB2
+AG | A2A2B2c2 | d3cB2
+e2 | d3cB2
+G2 | ABcAG2F2 | G6
+S:https://www.folktunefinder.com/tunes/78342
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, liebes - lust
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

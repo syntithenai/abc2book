@@ -1,0 +1,30 @@
+X:7929
+T:Waltz. CJF.120
+O:england
+M:3/8
+L:1/16
+Q:60
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:"C J Fox 1830" is in the stave at the end. The triplet is not marked as
+N:such in the MS. - PJH.
+K:D
+e2|f3ed2|dAdf a2|g3fe2|eAce g2|f3ed2|dAdf a2|ba^gaga|d4:||:a2|d'2(d'd.g
+.b|
+a2adfa|g2gAce|ed d2 fa|d'2d'dgb|a2adfa|g2gAce|d4:||:((3fgf)|eAce g2|fad
+f a2|
+eAce g2|fAdf a2|d'2d'dgb|a2adfa|g2gAce|d4h:||
+S:https://www.folktunefinder.com/tunes/28381
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

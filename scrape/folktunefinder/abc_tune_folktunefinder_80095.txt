@@ -1,0 +1,28 @@
+X:36
+T: Evangelisches Jubellied
+N: A0394
+O: Europa, Mitteleuropa, Deutschland
+N: Einzeldruck um 1520.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: D
+DDD | =F2D | =F2G | A2
+A | _BA2 | G=FG | A2z
+DDD | =F2D | =F2G | A2
+A | _BA2 | G=FG | A2z
+AAA | A2A | GE
+A | G2E | =FD2 | =C2z
+AAA | A2D | =F2G | A2
+_B | A2=F | GE2 | D3
+S:https://www.folktunefinder.com/tunes/80095
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

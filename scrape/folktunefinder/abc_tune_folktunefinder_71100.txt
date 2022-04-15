@@ -1,0 +1,26 @@
+X:070
+%%topmargin 3cm
+T:Master Andrew Grant
+T:(Balmoral)
+C:A. F. Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A
+e>d | c>A A/2A/2A (EA) A/2A/2A | (cA) A/2A/2A a2 (ed) | c>A A/2A/2A EAA=c | BA =Gf =g2 (ed) | c>A A/2A/2A (EA) A/2A/2A |
+(cA) A/2A/2A a2 (e/2f/2=g) | af=ge fde=c | B>G G/2G/2G g2 || cB | Aaga edcB | Aaga e2 d/2c/2B |
+Aaga ef=ge | =gagd B=GGB | Aaga edcB | Aaga e2 (e/2f/2=g) | af=ge =fde=c | B>=G G/2G/2G g2 |]
+W:I changed the note value at the end of each section, because the math didn't work out. rp
+S:https://www.folktunefinder.com/tunes/71100
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Master_Andrew_Grant.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0070.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

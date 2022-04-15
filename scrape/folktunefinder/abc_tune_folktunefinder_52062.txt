@@ -1,0 +1,25 @@
+X: 1
+T:Bouree de Concours
+M:2/4
+L:1/8
+Q:1/4=100
+S:Blowzabella
+R:Bourree
+%F:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bouree_de_Concours_1.abc 2008-02-12 11:45:05 UT
+K:Gm
+d2 ^cd|B3 A|G>A BG|AD ED|d2 ^cd|B3 A|G>A BG|A4:|
+D>E ^FD|G>A BG|^F>G AF|G>B A^F|D>E ^FD|G>A BG|^F>G AF|G2 G2:|
+S:https://www.folktunefinder.com/tunes/52062
+S:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bouree_de_Concours_1.abc
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

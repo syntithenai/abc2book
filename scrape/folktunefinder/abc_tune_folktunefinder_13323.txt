@@ -1,0 +1,31 @@
+X: 1
+T: The Silvery Voe
+C: Tom Anderson 1966
+B: Ringing Strings p.37
+N: "When the full moon shines down on a Shetland voe in winter the sea appears to be
+N: shining silver.  Composed in the winter of 1966 when driving along Weisdale Voe.
+N: In the key of F major, as that key to me is always a silver colour". From a tape
+N: recording of Tom by a student."
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C \
+[| A3G F2C2 | D2F2 C4 | D2B2 C2A2 | (BA) GF G2C2 |
+|  A3G F2C2 | (D2F2) D3B | AC3 B,2G2 | F4 F2 :| AB |
+| (c3A) (f3A) | B3c/d/ (c3A) | B2(dB) A2(cA) | (BA) GF G2AB |
+| (c3A) (f2A2) | B2cd (c3B) | AC3 (A3G) | F3E kFG kAB |
+| (c3A) (f2A2) | B2cd (c3A) | BkdcB AkcBA | (BA)GF G2C2 |
+| F3G F2C2 | D2F2 C2B2 | AC3 B,2G2 | F4-F4 |]
+S:https://www.folktunefinder.com/tunes/13323
+S:http://trillian.mit.edu/~jc/music/abc/air/SilveryVoe_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/SilveryVoe_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Tom_Anderson/SilveryVoe_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:182
+T: Guten Abend (2-86) S. 253
+N: P0957
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+R: Liebe, Krankheit, Tod]
+M: 2/4
+L: 1/16
+K: A
+E2E2 | A4B4 | =c4B2A2 | B4z4
+=c2d2 | e4e4 | e4d2=c2 | d2
+=c2B2c2 | d4d2d2 | e4d2=c2 | B4z2
+A2A2A2 | =c2e2d2B2 | =c3AB2A2 | A6z2
+S:https://www.folktunefinder.com/tunes/76162
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Liebe, krankheit, tod]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

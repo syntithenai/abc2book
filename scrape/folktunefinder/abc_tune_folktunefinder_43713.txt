@@ -1,0 +1,21 @@
+X:46
+T:Real Blues Reel
+A:Brendan Power
+D:Katherine Tickell, _The Gathering_
+M:12/8
+K:F
+|: a2a faf f2e c=BB | =B2B FEC E2C CB,C  | F2G Acd e2c f2d | g2e c2B c6| \
+a2a faf f2e c=BB | =B2B FEC E2C CB,C  |1 F2G Acd e2c f2d | c2A F2E F6 \
+:|2 F2G Acd e2c f2d |  g2e c2B c6:| \
+B3 dBd f2g f2d | f2d c2d B2F B2c | d2B c2d e2c d2B | c2A F2E F3 FGA |\
+B3 dBd f2g f2d | f2d c2d B2F B2c |1 d2B c2d e2c d2B | c6 dB2 F3 \
+:|2 d2B c2d e2c d2e | f2d e2f g2e f2g |
+S:https://www.folktunefinder.com/tunes/43713
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/RealBluesReel_BB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Paddy Killoran's Jig
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Debby Knight
+M: 6/8
+L: 1/8
+K: G
+|: "G"G,3 DB,D | "G"GFG    Bdg | "C"edc    BcA |1,3 "D7"BGE     DB,A, :|2,4 "D7"BGF "G"G3 :|
+|: "G"GBd g3   | "C"ece "G"d2B | "C"cBc "G"dBG |1,3 "Am"AGA "D7"BGE   :|2,4 "D7"BGF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/14826
+S:http://trillian.mit.edu/~jc/music/abc/jig/PaddyKilloransJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/PaddyKilloransJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/PaddyKilloransJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

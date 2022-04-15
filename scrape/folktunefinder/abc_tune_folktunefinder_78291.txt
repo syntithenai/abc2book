@@ -1,0 +1,27 @@
+X:270
+T: IM KREISE FROHER KLUGER ZECHER
+N: B0320
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied, Freude
+M: 4/4
+L: 1/16
+K: C
+G,2E,2F,2 | G,6G,2E6C2 | B,2D2C4z2
+C2B,2C2 | D6B,2A,2G,2A,2B,2 | G,8z2
+G,2D,2E,2 | F,6F,2F,2A,2G,2F,2 | F,2E,2E,6
+E,2D,2E,2 | F,6F,2F,2A,2G,2F,2 | F,4E,4z2
+G,2G,2G,2 | E6C2D6B,2 | C8z2
+C2DCB,A, | G,6G,2G,4A,2B,2 | C8z2
+G,2G,2G,2 | E6C2D6B,2 | C8z2
+C2DCB,A, | G,6G,2G,4A,2B,2 | C8z2
+S:https://www.folktunefinder.com/tunes/78291
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Geselligkeits -, trink - lied, freude
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

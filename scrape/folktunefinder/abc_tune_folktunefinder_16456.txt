@@ -1,0 +1,25 @@
+X: 1
+T: Polska efter Lars Sahlstr\"om
+O: efter Eric Sahlstr\"om
+S: from Peter "Puma" Hedlund at ANA St\"amma 1999
+Z: from a transcription by Matt Fichtenbaum
+M: 3/4
+L: 1/16
+K: C
+|: "C"g4 (g2{ag}^fg) a3g | (ge3) c4- c3e | "G7"d4 (d2{ed}^cd) e3d | "C"(c3{dc}B) (c3d) e3f |
+|  "C"g4 (g2{ag}^fg) a3g | (g2{ag}eg) c'4 b3a | "D7"(a3g) (g2{ag}^fg) a3f | "G"g4 g8 :|
+|: "G7"(g3f) f4 f3g | "C"(fe3) e4 c3e | "C"(ag3) (eg3) "G7"f3B | (d3c) (Bc)BA G3g |
+|  "G7"(g3f) f4 f3g | "C"(fe3) e4 c3e | (ag3) (eg3) "G7"f3B | d2Bd "C"c4 :|
+S:https://www.folktunefinder.com/tunes/16456
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_LarsSahlstrom.abc
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_LarsWahlstrom.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_LarsSahlstrom.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_LarsWahlstrom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

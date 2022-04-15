@@ -1,0 +1,42 @@
+X: 1
+T: \VZalna Majka
+R: lesnoto
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: Several recordings; Richard Geisler's transcription of lyrics
+N: The Macedonian singer Blagoj Petrov Kara\'gule died in the 1963 Skopje earthquake.
+N: This song was written in his memory by friends.
+M: 7/8
+L: 1/8
+%%vocalfont     Helvetica-Narrow-bold 20
+K: F
+%
+|: "F"[fa][eg][df] "C7"[e2g2] (3[ce][df][eg] | "Bb"[df][ce][Bd] "C7"[c2e2] [df][eg] | "Bb"[df][ce][Bd] "C7"[c2e2] (3[Ac][Bd][GB] | "F"[c7A] |
+| [AF][BG][cA] [AF][BG] [cA][ac] | "Bb"[g2e2][fd] [ec][fd] [ec][dB] | "C7"[c2A2][dB] [cA][BG] [BG][AF] | "F"[A7-F7-] | [A7F7] :|
+[| "F"[A2F2][BG] [c2A2] [a2c2] | [a2c2][ac] "Bb"[f2d2] [d2B2] | "F"[c2A2][dB] ([cA][BG]) ([BG][AF]) | "C7"[B3G3] [B4G4] |
+w: 1.~\vZal-na maj-ka v'se-be pla-\vce, vnu-ci-te* gi* te-\vsi.
+w: 2.~Spi-jat vnu-ci, maj-ka pla-\vce,  o-\vci sol-*zi* le-at,
+w: 3.~Maj-ka pla-\vce sol-zi te-\vcat   si-not svoj* go* \vza-li
+%
+|  "F"[A2F2][BG] [c2A2] [a2c2] | [a2c2][ac] "Bb"[f2d2] [d2B2] | "C7"[c2A2][dB] ([cA][BG]) ([BG][AF]) | "F"[A3-F3-] [A4-F4-] | [A7F7] |]
+w: 1.~Bol vo gra-di lut ja vi-e a   nif im* se* sme-\vsi.
+w: 2.~Kaj si sin-ko da gi vi-di\vs  tvoj-te mi-*le* de-ca.
+w: 3.~Blag-oj Pet-rov Ka-ra-\'gu-le vo mi-sli* go* ga-li.
+%
+|: "F"([gB][a2c2]) [a4c4] | "Bb"[b2d2][ac] [g2B2] [f2d2] | "C7"[e7-c7-] | [e7c7] | "Bb"([ec][f2d2]) [f4d4] | "C7"[g2e2][fd] [e2c2] [d2B2] |  "F"[c7-A7-] | [c7A7] |
+S:https://www.folktunefinder.com/tunes/2977
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/Les_ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/lesnoto/ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/lesnoto/Les_ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Les_ZhalnaMajka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/lesnoto/Les_ZhalnaMajka.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 7/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

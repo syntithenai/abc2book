@@ -1,0 +1,28 @@
+X:56
+T: Opera Reel
+B: Cole p.__
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3A,B,C \
+|: "D"D2D2 FEFA | DCDF "A7"EDCA, | "D"D2D2 FEFA |1 "G"BdAF "A7"EDCE :|2 "G"BdAF "A7"~E2 ||
+|: (3ABc \
+| "D"dcec dAFA | Adcd "A7"egfe | "D"dcec dAFA | "G"BdAF "A7"~E2 :|
+|: fg \
+| "D"afaf "A7"gfge | "D"fafe "A7"dcBA | "D"afaf "Em"gfge | "A7"faec "D"d2 :|
+|: (3ABc \
+| "D"defd "A7"efge | "D"faec "A7"dcBA | "D"defd "Em"efge | "A7"faec "D"d2 :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58867
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:57
+T: Die Maid vom Rosenthal
+N: A0057
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie: H. Finck 1536 No. 47.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/2
+K: A
+A | A2A | A2B | =c2c | =c2
+c | AAA | =c2c | A3 | =G2
+G | =c2d | e2e | e2e | e2
+e | e2e | e2e | B3 | d2
+d | =c2A | B2A | A2G | A2
+S:https://www.folktunefinder.com/tunes/68603
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

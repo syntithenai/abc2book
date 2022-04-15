@@ -1,0 +1,38 @@
+X:1
+T:Vals (Sk\aane SvL 1336)
+C:Nils Str\"ob\"ack, 1815-1881
+O:Sk\aane
+B:Anderson, Nils och Olof Andersson. Svenska L\aatar, Sk\aane.
+M:3/4
+L:1/8
+K:Bb
+((3gfe) \
+| "Bb"d4 f2 | "F"c4 f2 | "Bb"B4 f2 | "Bb"B2 A2 B2 \
+| "Eb"e4 g2 | "F"c2 =B2 c2 | "Bb"f4 b2 | "F7"e2 d2 c2 |
+| "Bb"d4 f2 | "F"c4 f2 | "Bb"B4 f2 | "Bb"B2 A2 B2 \
+| "Eb"e4 g2 | "Eb"c4 b2 | "F7"ag fe dc | "Bb"B4 :|
+K:F
+|: (AB) \
+| "F"c2 (dc) =Bc | "F"Ac fA cf | "C7"Gc eg bg | "F"fa cf AB \
+| "F"c2 (dc) =Bc | "F"Ac fA cf | "C7"Gc eg bg | "F"f4 :|
+K:Bb
+|: ((3fga) \
+| "Bb"b3 a g2 | "F"f3 e d2 | "Bb"B2 BB B2 | "Eb"B2 g2 f2 \
+| "F"A2 AA A2 | "F"A2 g2 f2 | "Bb"B2 B2 B2 | "Eb"B2 g2 f2 |
+| "Bb"b3 a g2 | "F"f3 e d2 | "Bb"B2 B2 B2 | "Eb"B2 g2 f2 \
+| "F"A2 AA A2 | "F"A2 g2 f2 | "Bb"B2 BB B2 | "Bb"B2 z2 :|
+|: "F" F2 \
+| "Bb" F2 (GA) Bc | "Bb"d4 c2 | "F"B2 (cd) ef | "F"g4 f2 \
+| "F"f2 AA A2 | "F"A4 f2 | "Bb"d2 BB B2 | "Bb"B2 z2 FF |
+| "F"F2 GA Bc | "Bb"d4 c2 | "Bb"B2 (cd) ef | "Eb"g4 f2 \
+| "F"{g}f2 AA A2 | "F"{a}g2 AA A2 | "F"{g}f2 AA A2 | "Bb"B2 z2 :|
+S:https://www.folktunefinder.com/tunes/20286
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValsSkaaneSvl1336.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/ValsSkaaneSvl1336.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

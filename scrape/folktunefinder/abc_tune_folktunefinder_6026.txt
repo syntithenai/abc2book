@@ -1,0 +1,30 @@
+X: 1
+P: "Three-key" Shottis
+O: trad
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+N: All 3 parts are played in several other keys.
+W: All 3 parts are played in several other keys.
+M: 4/4
+L: 1/8
+K: DDor
+|: "Dm"d>e fg a2 a2 | "G"a>b gb "Dm"a2 f2 | "A7"f>e ge "Dm"f2 df |1,3 "A7"e>d ^ce "Dm"d2 "A7"A2 :|2,4 "A7"e>d ^ce "Dm"d4 :|
+K: D
+|: "D"d2 d2 d>f ed | "A7"c2 A2 A4 |1,3 "G"G>F EF G>A Bd | "A7"c2 A2 A4 :|2,4 "G"G>F EF "A7"G>A Bc | "D"d2 f2 d4 :|
+K: Bm
+|: "G"b2 b2 "A"a3 g | "Bm"fe fg fd Bc |1,3 "D"d2 df "A7"a>f ge | "D"f2 f2 "F#7"f4 :|2,4 "D"d2 df "A"e>d cd | "Bm"B2 B2 B4 :|
+S:https://www.folktunefinder.com/tunes/6026
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish03.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key B
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

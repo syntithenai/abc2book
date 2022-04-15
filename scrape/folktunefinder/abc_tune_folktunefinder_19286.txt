@@ -1,0 +1,36 @@
+X: 1
+T: Cropie's Strathspey
+C: Peter Milne
+R: strathspey
+B: RSCDS 17-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+G \
+| "G"D<G G>E "D7"F>G A>F | "G"G>B d>B "C"e3 f \
+| "Em"g>b e>g "G"d>g B<G | "A7"E<A A>G "D7"G>F E>D |
+| "G"D<G G>E "D7"F>G A>F | "G"G>B d>B "C"e3 f \
+| "Em"g>b e>g "G"d>g B<G | "Am"E>A "D7"G/F/E/D/ "G"G2- G ||
+d \
+| "Em"e>f g<e "Am"a>g e>f | "A7"e/f/g f>e "D"d3 B \
+| "C"c>d e<c "G"B>c dG "D7"G>F E>D |
+| "G"D<G G>E "D7"F>G A>F | "G"G>B d>B "C"e3 f \
+| "Em"g>b e>g "G"d<g B<G | "Am"E>A "D7"G/F/E/D/ "G"G2- G |]
+S:https://www.folktunefinder.com/tunes/19286
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CropiesStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CropiesStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Peter_Milne/CropiesStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Peter_Milne/CropiesStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CropiesStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/CropiesStrathspey.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CropiesStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CropiesStrathspey.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

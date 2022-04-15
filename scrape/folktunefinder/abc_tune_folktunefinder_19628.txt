@@ -1,0 +1,37 @@
+X: 1
+T: Peter Sanderson's Strathspey
+C: Andrew Rankine
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"A2 A>B c>B A<a \
+| "D"f>e d<f "A"e>d c<e \
+| "Bm"d>c B>A "E7"G>F E>D \
+| "A"(3CEA c>e "E7"d>c d<B ||
+y1 \
+| "A"A2 A>B c>B A<a \
+| "D"f>e d<f "A"e>d c<e \
+| "Bm"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 |]
+e2 \
+| "A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "A"a2 f>e "F#m"f>e c<e \
+| "Bm"d>c d>c B>f "E7"(3efg ||
+y1 \
+| "A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "B(m)"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 |]
+S:https://www.folktunefinder.com/tunes/19628
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/PeterSandersonsS_A4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/PeterSandersonsS_A4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

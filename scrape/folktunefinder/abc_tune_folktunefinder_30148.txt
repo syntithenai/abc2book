@@ -1,0 +1,22 @@
+X:0
+T:The Flowres of the Forrest
+S:Skene MS via Dauney
+G:lament, arranged for lute
+M:4/4
+L:1/8
+Q:1/4=72
+K:D
+[d2D2] d2 efab     | afed         B2A2     |\
+[d2D2] d2 efab     | afed        [d4A4D4] :|
+ AB   =c2 Bc [d2D2]|[A2D2]  fe    d/B/A3   |\
+[A2D2] Bd b2  af   |[e3A,3] d/e/ [d4A4D4] |]
+S:https://www.folktunefinder.com/tunes/30148
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

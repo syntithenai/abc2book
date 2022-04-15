@@ -1,0 +1,24 @@
+X:1300
+T:Battering Ram, The
+M:6/8
+L:1/8
+R:jig
+D:Dan: All Things Considered
+Z:Devin McCabe
+K:G
+dBA B2A|GED G2B|dBA B2A|GBd efg|
+!dBA B2A|GED G3|AGE A/2B/2A B|1GED D A/2B/2c:|2GED D2B|
+!:deg a2b|ged edB|deg ~a3|gag g2e|
+!deg a2b|ged edB|dBG A/2B/2A B|1GED D2B:|2GED D A/2B/2c||
+S:https://www.folktunefinder.com/tunes/48336
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

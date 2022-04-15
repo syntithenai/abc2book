@@ -1,0 +1,30 @@
+X:0
+T:Old Toasty
+G:hornpipe
+S:Gordon Highlanders book 1
+C:Angus Lawrie, Strathclyde Police
+M:2/4
+L:1/16
+Q:1/4=92
+K:AMix
+   a2 |A2A2   c>BA>c|e2c<e  f2e>f|a2a2 f2e>f|a>fe>c B2
+   a2 |A2A2   c>BA>c|e2c<e  f2e>f|a2a2 f2e>c|B2A2   A2:|
+   f>g|a2a2   f2e>c |e>fa>e f2e>f|a2a2 f2e>f|a>fe>c B2
+[1 f>g|a2a2   f2e>c |e>fa>e f2e>f|a2a2 f2e>c|B2A2   A2:|
+[2 f>g|A2A2   c>BA>c|e2c<e  f2e>f|a2a2 f2e>c|B2A2   A2||
+   a2 |c>cc>B A>AA>c|e2c<e  f2e>f|a2a2 f2e>f|a>fe>c B2
+   a2 |c>cc>B A>AA>c|e2c<e  f2e>f|a2a2 f2e>c|B2A2   A2:|
+   c>d|e>fe>c a2e2  |f>ga>f e2f>g|a2a2 f2e>f|a>fe>c B2
+[1 c>d|e>fe>c a2e2  |f>ga>f e2f>g|a2a2 f2e>c|B2A2   A2:|
+[2 c>d|A2A2   c>BA>c|e2c<e  f2e>f|a2a2 f2e>c|B2A2   A2|]
+S:https://www.folktunefinder.com/tunes/30112
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

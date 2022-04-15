@@ -1,0 +1,38 @@
+X: 159
+T:Ballyfier Waltz. JaW.159
+M:3/4
+L:1/8
+Q:1/4=120
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+N:Some strange bits might need some T.L.C., but theres a good tune in
+N:there.CGP
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+(F/A/c)|(f>e) (f>d) (c>B)|A2F2 (F/A/c)|\
+(f>e) (f>d) (g>f)|e>dc2 (F/A/c)|!
+(f>e) (f>d) (c>B)|(A<c) (B>d) (c/A/F)|\
+(B<f)(A<f)(G<e)|e4:|!
+|:(F/A/c)|(f>e) f<c (A/c/f)|(a<g) a<f (c/f/a)|\
+c'2ba (g<f)|edc2(F/A/c)|!
+(a<g) (a<f) (c/f/a)|g>f (e<f) (g<a)|f4:|!
+|:(a/g/)|"sic"(f/g/)(f/g/).a/.b/|f2(d/f/)|\
+{f}f/e/ d/c/|(B/d/)F (a/g/)|!
+(f/g/)(f/g/)(a/b/)|f2(d/f/)|{f}ee (c/A/)|B3:|]
+S:https://www.folktunefinder.com/tunes/47696
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

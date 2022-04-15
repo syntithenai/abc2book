@@ -1,0 +1,24 @@
+X:112
+T: AUF MATROSEN DEN ANKER GELICHTET
+N: B0600
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Seemanns - Lied
+M: 4/4
+L: 1/8
+K: C
+G,G, | C2CCC2B,C | D2G,2
+G,2G,G, | G,2zG,F2ED | E2C2z4
+C4B,2B,2 | A,4z4
+A,4B,2B,2 | C4
+DCB,C | D2DDEDCD | E4
+DFED | C2CCCB,A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/62135
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, seemanns - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

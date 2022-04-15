@@ -1,0 +1,35 @@
+X:1409
+T: Bicak
+O: Bulgaria
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 2.2.2.3.2.3/16
+L: 1/16
+P: AA BB AB CC DD EE FF GG HH IA BB
+K: F
+P: A
+|: "C7"c2- cB B2 B2A "F"AF "Bb"B2A | "C"G2G2 AG FE2 "F"F2F2z :|
+P: B
+|: "Bb"EF FG G2 "C7"G3 B2 "F"AGF |  "C7"GC GB A2 ~G2F "F"FG ABc |  "Bb"EF FG G2 "C7"G3 B2 "F"AGF |  "C7"GC GB A2 ~G2F "F"F2 F3 :|
+P: C
+|: "C7"c=B cd _B2 B2A Bc "F"AGF | "C7"GC GB A2 ~G2F "F"FG ABc | "C7"c=B cd _B2 B2A Bc "F"AGF | "C7"GC GB A2 ~G2F "F"F2 F3 :|
+P: D
+|: "D drone"D2 G2 F2 G3 FE D3 | D2 F2 E2 D3 G2 F2E | D2 G2 F2 G3 FE D3 | D2 F2 E2 D3 D2 D3 :|
+P: E
+|: "Gm"G2 c2 B2 "Cm"c3 "Gm"BA G3 | G2 B2 A2 G3 "Cm"c2 "D7"B2A | "Gm"G2 c2 B2 "Cm"c3 "Gm"BA G3 | G2 B2 A2 "D7"G3 "Gm"G2 G3 :|
+P: F
+|: "Gm"FG GF GA "Cm"BcA "Gm"BA G2D |  "Gm"FG GF GA "Cm"BcA "Gm"BA Gdd |  "Gm"FG GF GA "Cm"BcA "Gm"BA G2D |  "Gm"FD FG GF "Cm"BAG "Gm"G2 GGG :|
+P: G
+|: "Cm"~c2- cA BA "Gm"G2A "Cm"c2 "Gm"B2A |  "Cm"GF "Gm"BA GF "Cm"B2A "Cm"c2 "Gm"B3 |  "Dm"~d2- cA BA "Gm"G2A "Cm"c2 "Gm"BA |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F :|
+P: H
+|: "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G2F |  "Gm"GF BA GF "Cm"B2A "Gm"G2 "Gm"G3 :|
+P: I
+|| F16- | "da Capo"F16 |]
+S:https://www.folktunefinder.com/tunes/56348
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

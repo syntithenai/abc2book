@@ -1,0 +1,24 @@
+X:2260
+T:Hanners Jigg
+A:North-West
+M:6/8
+N:P2 2/2
+O:England
+R:Jig
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000055e.html
+%%ID:0000055e
+K:C
+c2c c2f | ege c3 | G2G [G2B2]c | dBG G3 |\
+c2c c2f | ege c3 | AcA  BdB    | c3 C3 ::
+g2g gfg | c2c c3 | a2a  aga    | d2d d3 |\
+g2g gfg | c2c c3 | AcA  BdB    | c3 C3:|
+S:https://www.folktunefinder.com/tunes/36531
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

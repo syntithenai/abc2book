@@ -1,0 +1,26 @@
+X:61
+T: IN DON HEMEL IS EENEN DANS
+N: E1060
+O: Europa, Mitteleuropa, Niederlande, Flandern
+R: Tanz - Lied, geistlich
+M: 6/8
+L: 1/8
+K: C
+G,2G, | C2CB,A,B, | C3
+C3 | G,A,B,C3 | z2
+G,C2B, | A,2G,G,2F, | E,2
+E,E,2F, | G,2G,B,2A, | G,2
+CDCB, | C2
+CDCB, | C2z
+S:https://www.folktunefinder.com/tunes/79165
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

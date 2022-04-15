@@ -1,0 +1,25 @@
+X:138
+T:La Gigue Caroline
+C:Philippe Murphy
+M:6/8
+L:1/8
+R:jig
+K:G
+D |: G3 AGA | B2g edB | A3 (3B^cd g | edB AGD |
+G3 AGA | B2g edB | A3 cBA |1 AGF G2D :|2 AGF G2d :|
+ged ged | (3B^cd g edB | A3 ABc | BAG EDE |
+ged ged | (3B^cd g edB | A3 cBA | AGF G2d |
+ged ged | (3B^cd g edB | A3 ABc | BAG EDE |
+G3 AGA | B2g edB | A3 cBA | AGF G2D ||
+S:https://www.folktunefinder.com/tunes/53795
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+S:http://music.gordfisch.net/tradmusic/pub/cache/La_Gigue_Caroline_4ec2ea.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

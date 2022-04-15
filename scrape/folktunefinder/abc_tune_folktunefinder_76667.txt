@@ -1,0 +1,30 @@
+X:182
+T: ADE ZUR GUTEN NACHT
+N: E0768
+O: Europa, Mitteleuropa, Deutschland, Sachsen; Franken; Rheinpfalz
+R: Abschieds - Lied, Liebe
+M: 2/4
+L: 1/16
+K: G
+D2 | G4A2c2 | B2BAG2
+A2 | B4c2e2 | d2dcB2
+d2 | d2cBc2d2 | B4z2
+d2 | B4d4 | e2edc2
+B2 | A4c4 | d2dcB2
+d2 | d2cBc2d2 | B4z2
+d2 | B4d4 | e2edc2
+B2 | A4c4 | d2dcB2
+d2 | d2cBc2d2 | B4z2
+S:https://www.folktunefinder.com/tunes/76667
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

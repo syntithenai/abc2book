@@ -1,0 +1,27 @@
+X:143
+%%topmargin 3cm
+T:Donald MacGugan's Rant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+A | {/c}d2 d>e d/2d/2d Td>c | BABc {/c}dAAB | {/c}d2 d>e d/2d/2d Td>c | BABc {/c}d2 d ::
+A | {/c}d>BAF A/2A/2A A2 | {/f}gfed edBc | {/c}dBAF A/2A/2A TA2 | BABc {/c}d2 d :|
+S:https://www.folktunefinder.com/tunes/70890
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Donald_MacGugans_Rant.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/RalphPalmer/Donald_MacGugans_Rant.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

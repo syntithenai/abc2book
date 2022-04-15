@@ -1,0 +1,24 @@
+X: 1
+T: Rain in the Desert
+C: Liz Donaldson 1993
+M: 3/4
+L: 1/8
+K: C
+G2 \
+|: "C"e2 g2 g2 | "G/B"g3 f ed | "Am"c2 e2 e2 | "Em"e3 d cB \
+| "F"A2 c2 c2 | "C"G2 c2 c2 |1 "Dm"A2 c2 e2 | "G7"d3 def :|2 "G7"G2 B2 d2 | "C"c3 ||
+|| "F"a6 | "C"g6 | "G"f4 gf | "C"e3 d c2 \
+| "F"a4 ba | "C"g2 e2 c2 | "D7"d2 e2 ^f2 | "G"g6 |
+| "F"a6 | "Em"g6 | "Dm"f4 gf | "C"e2 d2 c2 \
+| "F"A2 c2 c2 | "C"G2 c2 e2 | "Dm"fe dc "G7"Bd | "C"c4 |]
+S:https://www.folktunefinder.com/tunes/20158
+S:http://trillian.mit.edu/~jc/music/abc/waltz/RainInTheDesert_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/RainInTheDesert_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/waltz/RainInTheDesert_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

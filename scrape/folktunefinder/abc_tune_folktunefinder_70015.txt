@@ -1,0 +1,26 @@
+X:455
+T: IN DES WALDES DUESTERN GRUENDEN
+N: F0855
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Ballade, Raeuber
+M: 4/4
+L: 1/8
+K: Bb
+FF | B3BF2F2 | D2B,2z2
+BB | A2B2c2d2 | cf=edc2
+BB | A3Bc2c2 | F4z2
+FF | e3cd3B | dcc2z2
+FF | e3cd3B | dcc2z2
+FF | B2B2c2c2 | f3dB2
+BB | G2ecB2A2 | B4z2
+S:https://www.folktunefinder.com/tunes/70015
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Erzaehlendes volks - lied, ballade, raeuber
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

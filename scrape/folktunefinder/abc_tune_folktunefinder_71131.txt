@@ -1,0 +1,26 @@
+X:101
+%%topmargin 3cm
+T:Jenny Dang the Weaver
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+f/2e/2 S| {/c}d>A A/2A/2A (AF)AB | {/c}d>A A/2A/2A Tf2 (ef) | {/c}d>B B/2B/2B T(BA)Bd | AB{/c}de faef | {/c}d>A A/2A/2A (AF)AB |
+{/c}d>A A/2A/2A Tf2 (ef) | {/c}dB B/2B/2B (BA)Bd | AB{/c}de f2 e || f | {/c}d2 (fd) efge | {/c}d2 (fd) {gf}e2 {/d}(cA) |
+{/c}d2 (fd) efge | aA A/2A/2A  Tf2 ef | {/c}d2 (fd) efge | {/c}de(fd) {gf}e2 {/d}cA | {/c}defd efge | abag faef S|]
+S:https://www.folktunefinder.com/tunes/71131
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Jenny_Dang_the_Weaver.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0101.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

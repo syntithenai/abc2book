@@ -1,0 +1,24 @@
+X: 1
+P: Morsans Brudvals
+O: efter T\"app Anders
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+(3DEF \
+| "G"G2GG GG | (GB) AG FG | "Am"E2 AA AA | (AB) AG FE | "D7"D2 (FD) FA |
+| "D7"(cA) (FD) EF | |1,3 " G"G2 (GF) GA | B3 :|2,4 " G"G2{A}GF GA | G4 :|
+|: B2 \
+| "G"d2 (ed) BG | "D7"D2 FA c2 | c2 (dc) AF | "G"G2 Bd g2 \
+| "G"d2 (ed) BG | "D7"D2 FA c2 | c2 (dc) AF | "G"G4 :|
+|: Bd \
+| "D7"(c2 B2) A2 | "G"(GB) (DG) BG | "D7"(FA) (DF) AF | "G"(GB) (DG) Bd \
+| "D7"(c2 B2) A2 | "G"(GB) (DG) BG | "D7"(FA) (DF) AF | "G"G4  :|
+S:https://www.folktunefinder.com/tunes/9327
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Vals02.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

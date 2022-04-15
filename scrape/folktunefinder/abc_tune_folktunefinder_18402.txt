@@ -1,0 +1,25 @@
+X: 1
+T: The Marquis of Huntly's Highland Fling
+R: strathspey, shottish
+C: George Jenkins
+B: George Jenkins "New Scotch Music Consisting of Slow Airs, Strathspeys, Quick Reels, Country Dances, and a Medley on a New Plan" 1793
+M: C
+L: 1/8
+K: D
+  "A7"A \
+| "D"d<d f>d "A7"g>e "D"f>d | "Em"B<e e>d "A7"c<A A>c \
+| "D"d<d f>d "A7"g>e "D"f>d | "Em"B<e "A7"d/c/B/A/ "D"d2- d :|
+|:"A7"B \
+| "D"A<D F/E/D F>A d>f | "Em"g>e "D"f<d "Em"e>d "A7"B<d \
+| "D"A<D F/E/D F>A "G"d<b | "D"a<f "A7"e<f "D"d2- d :|
+S:https://www.folktunefinder.com/tunes/18402
+S:http://trillian.mit.edu/~jc/music/abc/shottish/MarquisOfHuntlysHighlandFling_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarquisOfHuntlysHighlandFling_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarquisOfHuntlysHighlandFling_D.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 1
+T: la Bastringe (E)
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+|: "E"g2gg g2ag \
+| "B7"f2d2 "E"e4 \
+| "B7"d2e2 fgfd \
+| "E"e2f2 g2e2 \
+| "E"g2gg g2ag |
+| "B7"f2d2 "E"e4 \
+| "A"a2g2 fgfe \
+| "B7"c2d2 "E"e4 \
+:: "E"E2GB eBGE \
+| "D"=D2FA dAFD \
+| "E"E2GB eBef |
+| "B7"gfed edcB \
+| "E"E2GB eBGE \
+| "D"=D2FA dAFD \
+| "E"E2GB eBef \
+| "B7"gfed "E"e4 :|
+S:https://www.folktunefinder.com/tunes/16764
+S:http://trillian.mit.edu/~jc/music/abc/reel/Bastringue2_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Bastringue2_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Bastringue2_E.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

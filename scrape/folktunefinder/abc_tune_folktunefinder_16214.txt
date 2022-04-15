@@ -1,0 +1,33 @@
+X: 1
+T: the Remerts of Herford
+T: Hamish's Tune
+C: Hamish Menzies
+N: The first part is from the German polka "Die Fischerin vom Bodensee".
+M: C|
+L: 1/4
+K: F
+[FA,] \
+| "F"[CA,][FC] [FC][AF] | [AF][cA] [c2A2] | [c2A2] [dB]>[cA] | "C7"[cA][BG] [B2G2] \
+| [CG,][EC] [EC][GE] | [GE][BG] [B2G2] | [ec]>[dB] [ec]>[dB] | [dB][cA] [dB][cA] |
+y3 \
+| "F"[CA,][FC] [FC][AF] | [AF][cA] [c2A2] | [c2A2] [fA]>[eG] | "Bb"[eG][dF] [d2F2] \
+| [eG][dF] [eG][dF] | "F"[dF][cF] [dF][cF] | "C7"[cE]>[BD] [AC][GB,] | "F"[F3A,3] y |]
+[AC] \
+| "F"[CA,][FC] [AF][FC] | [CA,][FC] [AF][FC] | [A2F2] [BG]>[AF] | "C7"[AF][GE] [G2E2] \
+| [CG,][EC] [GE][EC] | [CG,][EC] [GE][EC] | [ec]>[dB] [ec]>[dB] | [dB][cA] [dB][cA] |
+y \
+|  "F"[CA,][FC] [AF][FC] | [CA,][FC] [AF][FC] | [c2A2] [fA]>[eG] | "Bb"[eG][dF] [d2F2] \
+| [eG][dF] [eG][dF] | "F"[dF][cF] [dF][cF] | "C7"[cE]>[BD] [AC][GB,] | "F"[F3A,3] y |]
+S:https://www.folktunefinder.com/tunes/16214
+S:http://trillian.mit.edu/~jc/music/abc/polka/RemertsOfHerford_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RemertsOfHerford_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Hamish_Menzies/RemertsOfHerford_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/RemertsOfHerford_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RemertsOfHerford_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RemertsOfHerford_F.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

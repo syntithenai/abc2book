@@ -1,0 +1,26 @@
+X:668
+T: "Das Koeniglein"
+N: Z1349
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Zech -, Schalks - Lied
+M: 6/8
+L: 1/8
+K: Bb
+F | ddcddc | B2BB2
+B | cdeFGA | B2BB2
+F | ddcddc | B2BB2
+B | cdeFGA | B2z3
+B | d2ddcB | ffff2z
+dcBdcB | c2cc2
+B | d2ddcB | ffff2
+d | cdeFGA | B2z3
+S:https://www.folktunefinder.com/tunes/69527
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

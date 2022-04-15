@@ -1,0 +1,23 @@
+X:1
+T: The Falkirk Lass
+T: 8x32S 3C (Merse Collection)
+P: Elaine Wallace Brunken
+C: by Muriel Johnstone
+C: arr. T. Traub 7-9-03
+R: Strathspey
+M: 4/4
+K: Bb
+L: 1/8
+"Gm"D2 B2 "D7"A>G ^F<A|"Gm"G<D G>A B>c dB A<F "Eb"G>A B<G|"Bb"F<B, D<F "D7"^F3 D|
+"Gm"D2 B2 "D7"A>G ^F<A|"Gm"G<D G>A B>c dd c>B "F7"A<F (3FGA|"Bb/D"B>d f<F "D7"^F>A d<f||
+"Gm"g2 d<g "Gm/Bb"D>G B<d|"Cm"E<G c>B "F7"A>c f>a|"Bb"b2 fB d<f|"Eb"g<f "Bb/D"f>d "F"c2 "D7"d2 |
+"Gm"g2 d<g "Gm/Bb"D>G B<d|"Cm"c>B A>G "D7"^F<A d>D|"Gm"G<G "D7"A<A "Gm"B<B "Cm"c<c|"D7"[d^F][cE][BD][AC] "Gm"[G2B,2] [G2B,2] |]
+S:https://www.folktunefinder.com/tunes/58526
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/ElaineWallaceBrunkenS.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/FalkirkLassSet.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

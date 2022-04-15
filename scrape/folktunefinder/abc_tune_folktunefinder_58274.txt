@@ -1,0 +1,29 @@
+X:1
+T:7r. Qui vult venire post me
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:F -8va
+T:Tenor
+%%MIDI transpose -12
+N:Original clef, C on fourth line
+%1
+z4 c8 A4 z2 G2 A4 B4 c4 B4 z2 c2 d4 c2 B3 A c2 G2 D2 F4 E3 F G2 A3 G F3 E/ D/ E2
+S:https://www.folktunefinder.com/tunes/58274
+S:http://www.laymusic.org/music/bicinia/quivult/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

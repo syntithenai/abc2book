@@ -1,0 +1,28 @@
+X: 2067
+T: Rokoko Kolo
+O: Croatia
+Z: 1987 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N: From a transcription by Cal Howard.
+M: C|
+L: 1/8
+K: C
+P: A:
+|: "C"c2c2 c2c2 | dcdc "E"B4 | "Am"A2A2 A2A2 | "E"BcBA ^G3E \
+|  "Dm"F2F2 F2F2 | ^GABA "E"G4 | "Dm"BA^GA GFED | "E"E2E2 E2z2 :|
+P: B:
+K: D
+|: "D"F2GA BAGF | "A7"G6 AG | "D"F2GA BAGF | "A7"G6 AG \
+|  "D"F2GA BAGF | "A7"BAGF G2^GA | "Dm"BA^GA "E"GFED | "A"E2E2 E2z2 :|
+S:https://www.folktunefinder.com/tunes/32530
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

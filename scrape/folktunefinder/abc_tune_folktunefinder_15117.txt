@@ -1,0 +1,29 @@
+X: 1
+T: Stobhall
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+BA \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GD "C"E2B/A/ \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GG G2 :|
+c \
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2c \
+| "G"B<dG "C"c<eG | "G"B<dg "D7"f>ef |"G"g>dB "D7"A>GA | "G"B>GG G2c ||
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2F \
+| "G"G>AB "C"E>FG | "D7"F>GA D2e | d>cB "D7"A>GA | "G"B<GG G3 |]
+S:https://www.folktunefinder.com/tunes/15117
+S:http://trillian.mit.edu/~jc/music/abc/jig/StobhallJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/StobhallJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/StobhallJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

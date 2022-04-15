@@ -1,0 +1,27 @@
+X:6
+T:Danse des Jardiniers
+R:
+S:
+N:not [M:3/4] BA G3 C2 |
+A:Champagne 
+G:
+O:France
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=135
+K:F
+c |: Ac Gc | F2-F c | Ac Gc | F2-F C | FG AB | c2d2 | [M:3/4] BA G3 C | 
+[M:2/4] FG AB | c2d2 | cB AG |1 F3 c :|2 F3 Hf3 ||
+S:https://www.folktunefinder.com/tunes/39919
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Circassian Circle
+M:4/4
+L:1/8
+R:reel
+S:Howe\`i 1000 Jigs and Reels
+Z:AK/Fiddler's Companion
+K:D
+fe \
+| "D"dAfe d2f2 | dAfe d2f2 | "A7"eAgf e2g2 | eAgf e2g2 | "D"dAfe d2f2 |
+| dAfe d2f2 | "A7"efge cABc | "D"d2f2 d2 :: ag | "D"fdag f2a2 | fdfa d'afd |
+| "A7"eAgf e2g2 | efed cea2 | "D"fdag f2a2 | fdfa d'afd | "A7"cded cABc | "D"d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/16933
+S:http://trillian.mit.edu/~jc/music/abc/reel/CircassianCircle_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/CircassianCircle_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

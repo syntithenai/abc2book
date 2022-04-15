@@ -1,0 +1,26 @@
+X: 1
+P: Zemer Atik (Dm)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%%vocalfont  Helvetica-Narrow-Bold 20
+%%vocalspace 25
+K: Dm
+[| "A"^cdBc decd | e8 | "Gm"efga gfed | "A"e8 |
+S:https://www.folktunefinder.com/tunes/2972
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070107/ZemerAtik.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/ZemerAtik
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/ZemerAtik.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/ZemerAtik.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

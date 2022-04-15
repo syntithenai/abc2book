@@ -1,0 +1,25 @@
+X:3555
+T:Lasses Trust in Providence
+O:england
+M:4/4
+L:1/8
+Q:1/4=220
+C:Trad Shetland
+R:reel
+B:Fiddler's Fake Book
+K:D
+"D"d2 de fdef|"G"d2 fd "A"edBA|"D"d2 de fdef|[1"A"dBAF E2 A2:|[2"A"dBAF
+E2 FG||
+"D"A2 AB ADFA|"G"d2 d2 BABd|"D"A2 AB ADFA|[1"A"GFEC "D"D3 F:|[2"A"GFEC
+"D"D2 z2||
+S:https://www.folktunefinder.com/tunes/24006
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

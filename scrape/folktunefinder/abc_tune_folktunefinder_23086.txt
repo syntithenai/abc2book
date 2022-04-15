@@ -1,0 +1,23 @@
+X:2635
+T:Hoop her and grid her
+O:england
+M:6/8
+L:1/8
+K:D
+A2A c/d/ec|AcA c2B|AcA Ac/d/e/c/|BGB d2B|
+A3 Ac/d/e/c/|A>Bc aec|d<Bd c<Ac|BGB d2B:|
+|:a3 efg|agf ecA|a3 efg|BGB d2B|
+a3 efg|agf edc|d<Bd c<Ac|BGB d2B:|
+|:cAA Bee|cAA Bcd|cAA Bee|BGB Bcd|
+cAA Bee|ABc aec|d<Bd c<Ac|BGB d2B:|
+|:aec aec|A>Bc e2c|aec aec|BGB d2B|
+aec aec|A>Bc aec|d<Bd c<Ac|BGB d2B:||
+S:https://www.folktunefinder.com/tunes/23086
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

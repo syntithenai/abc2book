@@ -1,0 +1,41 @@
+X:1
+T:749
+O:Petrijanec, Croatia
+B:Vinko Zganec: Narodne Popijevke Hrvatskog Zagorja (Zagreb, 1950)
+S:Jack Campin <jc@purr.demon.co.uk> abcusers 2002-5-20
+M:2/4
+L:1/8
+Q:1/4=80
+V:1
+V:2 K:P       % drum right
+V:3 K:P merge % drum left
+K:G
+[V:1] (d/e/d) .B.B   |(d/e/d) .c.c    |(df/).f/ (f.e)   |(e.d)  .d.d   |
+[V:2]  u   z   u2    | z   u   z2     | uz       u2     | z u    z2    |
+[V:3]  z   d   z2    | d   z   d2     | zd       z2     | d z    d2    |
+%
+[V:1] (d/e/d) .B.B   |(d/e/d) .c.c    |.d.d     (d/e/f) | gg/g/  g z   |
+[V:2]  u   z   u2    | z   u   z2     | u z      u2     | zu     z2    |
+[V:3]  z   d   z2    | d   z   d2     | z d      z2     | dz     d2    |
+%
+[V:1]  DD     (D/E/F)|.G(G/A/  B/A/.B)|.c.A     (A/^G/A)|.B.G   (G/F/G)|
+[V:2]  uz      u2    | z u     z2     | u z      u2     | z u    z2    |
+[V:3]  zd      z2    | d z     d2     | z d      z2     | d z    d2    |
+%
+[V:1]  DD     (D/E/F)|.G(G/A/  B/A/.B)|.c.A     (A/B/A) |.G(G/F/ G)z  |]
+[V:2]  uz      u2    | z u     z2     | u z      u2     | z u    z2   |]
+[V:3]  zd      z2    | d z     d2     | z d      z2     | d z    d2   |]
+S:https://www.folktunefinder.com/tunes/2488
+S:http://trillian.mit.edu/~jc/music/abc/test/Perc_749_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/749_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Perc_749_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Perc_749_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Perc_749_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

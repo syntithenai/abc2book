@@ -1,0 +1,32 @@
+X:414
+T: FREUDE SCHOENER GOETTERFUNKEN
+N: F0759
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Bundes - Lied
+M: 4/4
+L: 1/8
+K: C
+C2G,2 | E3EEFDB, | C2G,2
+G3F | FEDCF2E2 | D4
+C2G,2 | E3EGFDB, | C2G,2
+G3F | FEDCF2E2 | D4
+D3C | B,G^FED3C | C2B,2
+E3D | DCB,A,D3^F, | G,4
+A,2B,2 | C2D2E3F | E2D2
+F3E | D2C2DFG,B, | C4
+C3G, | E3EEFDB, | C2G,2
+G3F | FEDCF2E2 | D4
+A3G | F2C2F2G2 | A4
+G3F | FEDCDFG,B, | C2C,2
+S:https://www.folktunefinder.com/tunes/69974
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, bundes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

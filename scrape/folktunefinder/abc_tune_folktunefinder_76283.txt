@@ -1,0 +1,27 @@
+X:303
+T: Singen wir alle Kyrie (4-4), S. 6
+N: P0565
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen Bd 4, Kassel 1939]
+R: geistliches Lied]
+M: 2/4
+L: 1/8
+K: G
+ | G2GG2 | BABc | d3c | B2z2
+B3A | GAB2 | A3G | G2z2
+D2G2G2 | G2G2A2 | G2F2E2 | D2DEE2
+E_A=A2 | F3E | D2z2
+G2GG | BABc | d3c | B2z2
+B3A | GAB2 | A3G | G4
+S:https://www.folktunefinder.com/tunes/76283
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Geistliches lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

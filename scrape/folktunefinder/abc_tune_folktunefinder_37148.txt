@@ -1,0 +1,29 @@
+X:5345
+T:Schottis
+A:Jmtland
+B:Rickard Nslin
+C:e. Janne Johansson
+M:2/4
+O:Sweden
+R:Schottis
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bf3.html
+%%ID:00000bf3
+K:G
+dbba aggf| feed c2c2| \
+AGFA d2d2| dBGB d2d2|\
+dbba aggf| feed c2c2|
+AGFA d2(dF)| G>AGF G4::\
+d2(dB) e2(eB)| d2(dB) c2c2|
+AGFA d2d2| dBGB d2d2|\
+d2(dB) e2(eB)| d2(dB) c2c2| \
+AGFA d2(dF)| G>AGF G4 :|
+S:https://www.folktunefinder.com/tunes/37148
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

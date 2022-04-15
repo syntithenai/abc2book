@@ -1,0 +1,27 @@
+X:124
+%%topmargin 3cm
+T:Welcome, Charlie Stewart
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+B | (AF)(TED) {/F}G3 B | (GF)(TED) E3 B | (AF)(TED) {/F}GAB{/c}d | AG{/G}FE {FE}D2 D :|
+A | {/c}defd {/f}gfec | {/c}defd ecTBA | {/c}defd {/f}gfeg | f/2g/2a ef {/c}d3 A |
+{/c}defd {/f}gfec | {/c}defa ec{dc}BA | {/c}defd {/f}gfeg | faef {/c}d2 d |]
+W:Prince Charlie of course.
+S:https://www.folktunefinder.com/tunes/70871
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Welcome_Charlie_Stewart.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

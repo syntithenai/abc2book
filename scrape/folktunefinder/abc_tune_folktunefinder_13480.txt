@@ -1,0 +1,23 @@
+X: 1
+T: the Trumpet Hornpipe
+S: Trad
+B: Kerr's Caledonian
+M: C
+L: 1/8
+K: G
+D2 \
+| "G"(3GGG G2 (3GGG G2 | BGBd gdBG | "D7"(3DDD D2 (3DDD D2 | FDFA cAFD |
+| "G"(3GGG G2 (3GGG G2 | BGBd g2g2 | "D"fagf "A7"egfe | "D"d2f2 d2 :|
+|: Bc \
+| "G"(3ddd d2 (3ddd d2 | "C"efgf edcB | "Am"cded cBAG |"D7"FGAG FDEF |
+| "G"(3GGG G2 "G7/F"(3GGG G2 | "C/E"(3GGG G2 "Cm/Eb"(3GGG G2 | "D7"F2fe dcBA | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/13480
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/BlackMountainH_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/BlackMountainH_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

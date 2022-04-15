@@ -1,0 +1,35 @@
+X: 80
+T: Newcastle
+P: 3x
+M: 4/4
+L: 1/8
+%Q: 200
+B: Playford 1651
+H: Simpson feels that the surviving tune is not the one which had some
+H: currency in Elizabethan days. He points out that wrenchings of accent
+H: are necessary to accomplish the fit of Playford's dance tune to a
+H: curious fragment of text found in the 18th century Percy folio MS, a
+H: source of dubious authenticity itself.
+H: __ Came you not from Newcastle __
+H: __ Came yee not there away &c __
+H: It is quite possible that
+H: this dance was inspired by William, Duke of Newcastle, a royalist who
+H: remained in London and bent his interests towards the theatre during
+H: the interregnum.
+K: A
+|: E2 \
+| "A"c2e2 "E7"A2B2 | "A"A3B A2E2 | "A"c2e2 A2e2 | "D"f2a4 gf \
+| "A"e2c2 B2A2 | "D"F2 f4 ed | "A"e2c2 "E7"B2>A2 | "A"A6 :|
+|: fg \
+| "A"agfe a3c | "D"B2a4 B2 | "A"A3B c2G2 | "D"F2 f4 g2 \
+| "A"agfe a3c | "Bm"B2B2 d3e | f2c2 "E7"B3A | "A"A6 |]
+S:https://www.folktunefinder.com/tunes/3949
+S:http://trillian.mit.edu/~jc/music/abc/England/Newcastle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

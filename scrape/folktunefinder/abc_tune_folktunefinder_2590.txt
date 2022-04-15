@@ -1,0 +1,32 @@
+X: 1
+T: Key Signatures
+K: A
+             |    "A"CDE FGA | Bcd efg | \
+[K:G]        |    "G"CDE FGA | Bcd efg | \
+[K:Bb]       |   "Bb"CDE FGA | Bcd efg | \
+[K:Dm]       |   "Dm"CDE FGA | Bcd efg | \
+[K:F#m]      |  "F#m"CDE FGA | Bcd efg | \
+[K:ADor]     | "ADor"CDE FGA | Bcd efg | \
+[K:Gm^F]     | "Gm^F"CDE FGA | Bcd efg | \
+[K:DMix_B_e] |   "Dh"CDE FGA | Bcd efg | \
+[K:^G]       |   "^G"CDE FGA | Bcd efg | \
+S:https://www.folktunefinder.com/tunes/2590
+S:http://trillian.mit.edu/~jc/music/abc/test/keysig.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/keysig.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/keysig.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/keysig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key G
+% Key A
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

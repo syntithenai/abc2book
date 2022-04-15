@@ -1,0 +1,25 @@
+X:1
+T: the Old Man Rocking the Cradle
+B:Waifs and Strays of Gaelic Melody, F. O'Neill, no. 4
+S:Rice-Walsh Mss.
+N:arranged for piano in O'Neill; melody only shown here
+N:slow
+M:6/8
+L:1/8
+K:D
+| FAA GAA | FAA GFD | FAA GAA | GFD FED |
+| FAA GAA | FAA GFE | DD/E/F/D/ EAG | EDD EDD ||
+| dFF AFF | dFF GFD | dFF AFF | GFD FED |
+| dFF AFF | dFF GFD | DD/E/F/D/ EAG | EDD EDD ||
+| faa gaa | faa gfd | faa gaa | gfd fed |
+| faa gaa | faa gfd | dd/e/f/d/ eag | edd edd |]
+S:https://www.folktunefinder.com/tunes/13291
+S:http://trillian.mit.edu/~jc/music/abc/air/OldManRockingTheCradle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

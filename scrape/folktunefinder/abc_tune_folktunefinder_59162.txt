@@ -1,0 +1,35 @@
+X:275
+T:Danza (CT 377)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Uviu.
+N:Intervienen personas de ambos sexos y cantan todas al tiempo.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 377
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+B2 c|d3 eee|e2 d B2 c|d3 eee|e2 d e2 d|
+c3 ded|c2 B e2 d|c3 ded|c3 B3-|B z2 :||
+W:La Virgen de Covadonga, (bis)
+W:ye piquiina y galana; (bis)
+W:anque baxara del cielo, (bis)
+W:no hai pintor que la pintara (bis).
+W:
+S:https://www.folktunefinder.com/tunes/59162
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

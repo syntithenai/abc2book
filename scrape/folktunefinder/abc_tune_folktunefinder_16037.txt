@@ -1,0 +1,28 @@
+X:3
+T:Antigonish Polka
+A:Cape Breton
+S:http://www.princetonol.com/groups/pcd/tunes/ro2003/MaureenOfGibberlandMedley.pdf
+M:C|
+L:1/8
+K:D
+|: FG |\
+"D"A2 f2 "D/C#"fedB | "D/B"A2 AB "D/A"AGFA | "D"d2 cd "D#dim"b3 a | "Em"g2 ga gfed |
+"A"c2 cd cBAc | "D"d3c "Bm"defg | "A"a2 ^ga b2 c2 | "D"d6 :|
+|: FG |\
+"D"A2 ^GA "D/C#"Bcde | "D/B"f2 A2 "D/A"f2 FG | "D"A2 ^GA "D/C#"Bcde | "D/B"f2 A2 fagf |
+"Em"eagf edcB | "A7"Aagf edcB | "E7"(3ABA ^G "A"A B2 c2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/16037
+S:http://trillian.mit.edu/~jc/music/abc/polka/AntigonishPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/AntigonishPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka/AntigonishPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/AntigonishPolka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/AntigonishPolka_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

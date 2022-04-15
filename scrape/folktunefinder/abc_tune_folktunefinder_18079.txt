@@ -1,0 +1,24 @@
+X:1
+T:Sandy's New Chanter
+R:reel
+S:Battlefield Band
+Z:Juergen Gier
+M:4/4
+L:1/8
+K:D
+de | f2ef fAef | fgfg B2fg | fAdf faga | eAce eage |
+| f2ef fAef | fgfg B2fg | fAdf eAce |1 d4 d2ag :|2 d4 d2A2 ||
+|: a2fa dffd | fgfg B2fg | fAdf faga | eAce eage |
+| a2fa dffd | fgfg B2fg | fAdf eAce | d4 d2A2 :|
+S:https://www.folktunefinder.com/tunes/18079
+S:http://trillian.mit.edu/~jc/music/abc/reel/SandysNewChanter.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SandysNewChanter.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/SandysNewChanter.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

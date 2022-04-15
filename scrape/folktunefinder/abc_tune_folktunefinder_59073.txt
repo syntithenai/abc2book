@@ -1,0 +1,34 @@
+X:186
+T:Cantar de Ronda (CT 412)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 412
+M:Llibre
+L:1/8
+Q:1/4=72
+K:Cm
+(3GGG c c-c2-c z
+=Bc de cd (=B3/2(3c/4B/4A/4 G) G-G2 z
+F _B2 A_B cc (_B3/2(3c/4_B/4A/4 G) G-G2 ||
+W:Santa Mara!
+W:En el cielo hay una estrella
+W:que a los marineros gua.
+W:
+S:https://www.folktunefinder.com/tunes/59073
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

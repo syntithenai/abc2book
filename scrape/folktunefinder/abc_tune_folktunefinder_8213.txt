@@ -1,0 +1,26 @@
+X: 8
+P: Barbro Pers brudpolska
+O: \"Alvdalen
+R: \"Alvdals-polska
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS via Amy Parker
+M: 3/4
+L: 1/16
+K: F
+|: ({cdc=B}c3f) a4 g4- | {a}(3:2:5g4e2f2e2c2 d4 \
+| (3d4 B4 d4 f3e |1 d3(c BA)Bd c4 :|2 d3(c BA)Bd c3{dc}B |]
+|: (G3B) d4 ~f3e | d2cc (cB3) ~B3A \
+|  (G3B) d4 ~f3e | d2cc (cB3) ~B3A \
+| (3G4 (G4 B4) ABA^F |1 ^F2G2 G4 c3B :|2 ^F2G2 G8 |]
+S:https://www.folktunefinder.com/tunes/8213
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Rhythm A?lvdals-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:1
+T:Hotel California
+C: D.Henley/D.Felder/G.Frey
+Z:Alexand
+M:4/4
+Q:1/4=132
+L:1/8
+K:C
+A,2 [ce]e [Ae]z [Ed]d|[A,d]z [Ee]z A,Ace|E,2 [Ee]z [^Ge]z [Ed]d|[E,d]z E^G B^GED|
+G,2 [Dd]e [Ge]z [Dd]d|[G,d]z [Dd]e E,DGB|D,2 [De]e [Ae]z [Ad]d|[Dd]cA2 DADE|
+F2 [Ae]e [ce]z [Ad]c|[Fc]z [Ae]z FAcA|Cc [Ge]e [Ce]d [Gc]z|[Cc]z CDEGEC|
+Dd[Ad]d [Dd]d[Ad]c|[Dd]z [Ac]e D2DF|Ee [^Ge]e [Be]z [^Gd]d|[E,d]e E^G B^GDE|
+A,2 [ce]e [Af]z [ce]e|[Af]z [ce]z A,cAE|E,e [^Ge]e [Be]z [^Gd]z|[E,d]z E^G B^GED|
+G,DGd [G,d]d[Dd]c|[G,d]dDe Geee|[De]eAe [De]z [Ad]c|[Dd]cA2 DADE|
+F2[Ae]e [ce]z [Ad]c|[Fc]z [Ae]z FAcA|CEGc [Ge]z [Ed]c|[Cc] (CD EF)GE|
+D2[Ad]d [Dd]d[Ad]c|[Dd]z [Ac]e DEFD|Ee [^Ge]e [Be]z^g2|[E,e]d^GE D2E2|
+F2[Af]f cf [Af]z|[Ff]c [Af]z [cg]z [Af]z|[Cf]GeG CDEF|GcFc Ec ee|
+[E,e]d[Ed]d ^G2[Ee]e|[E,e]d[Ed]d ^G2[Ed]d|[A,d]ccc B,2B,2|CAC2 DAD2|
+[Ff]f[Af]f cfAf|[Ff]c [Af]z [cg]z [Af]z|[Cf]GeG EGDG|CGEGcG ee|
+[De]d[Ad]dD2[Ad]e|[De]d[Ad]dD2[Ae]f|[E,f]e [^Ge]e B2^G2|E[^GB]EF EDB,C|
+[A,e]cAecAec|AecAecA2|[E,e]B^GeB^GeB|[E,B^g]z DE ED D2|
+[G,d]BGdBGdB|GdBGdBG2|dADdADdA|[D^f]zD2DAD2|
+[F,c]AFcAFcA|FcAFcAF2|[Cc]GEcGEcG|[Ce]zC2CGC2|
+[D,d]ADdADdA|DdADdAD2|[E,B]^GE^GB^GBe|[E,E^Ge]zE2E2E2|
+[A,e]cAecAec|AecAecA2|[E,e]B^GeB^GeB|[E,B^g]z DE ED D2|
+[G,d]BGdBGdB|GdBGdBG2|dADdADdA|[D^f]zD2DAD2|
+[F,c]AFcAFcA|FcAFcAF2|[Cc]GEcGEcG|[Ce]zC2CGC2|
+[D,d]ADdADdA|DdADdAD2|[E,B]^GE^GB^GBe|[E,E^Ge]zE2E2E2|
+S:https://www.folktunefinder.com/tunes/62
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

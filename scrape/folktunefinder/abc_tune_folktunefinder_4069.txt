@@ -1,0 +1,40 @@
+X: 2
+T: Sellenger's Round
+T: the Beginning of the World
+O: England
+R: jig
+N: This tune has changed considerably since Playford's time.
+N: Playford, 3rd edition (1657)
+N: Karpeles & Schofield p.17 (in C), p.50 (in D)
+N: Barnes (in C)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: Play 5 times.
+K: D
+z \
+| "A7"A3 A>Bc | "D"d3 d>ef | "G"e2d "A7"c>Bc | "D"d3- d>cB \
+| "A7"A3 A>Bc | "D"d3 d>ef | "G"e2d "A7"c>Bc | "D"d3- d3 ||
+|: e \
+| "D(Bm)"f3 f>ed | "A(Em)"e3- e2d | "A"c>de e>dc | "G"B3 "A7"e2c \
+| "G"d>ed "A7"c2A | "G"B>cd "A7"c2A | "Bm"B2A "E7"^G>FG | "A"A3- A2 :|
+S:https://www.folktunefinder.com/tunes/4069
+S:http://trillian.mit.edu/~jc/music/abc/England/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/SellengersRound.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CillasWedding/SellengersRound.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/SellengersRound.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/SellengersRound.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/SellengersRound
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

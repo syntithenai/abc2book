@@ -1,0 +1,26 @@
+X: 2
+M: 23/44
+L: 1/8
+P: S'Lerchal
+K: Eb
+[G2E2] \
+| "Eb"[GE][BG] [BG][GE] | [GE][BG] [BG][GE] \
+| "Eb"[GE][BG] [BG][BG] [cA][BG] | "Bb7"[A4F4] [F2D2] \
+| "Bb7"[FD][AF] [AF][FD] | [FD][AF] [AF][FD] \
+| "Bb7"[FD][AF] [AF][AF] [BG][AF] | "Eb"[G2E2] z [BG][=A^F][BG] |
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[F3D3] [GE][A2F2] | "Eb"[GE][AF] [BG][cA] [B2G2] \
+"I"\
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[FD][GE] [AF][BG] [cA][dB] | "Eb"[e2G2] z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6247
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Lerchal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

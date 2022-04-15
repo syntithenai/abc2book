@@ -1,0 +1,25 @@
+X:24
+T: ICH SINGE MEIN ABENDLIEDCHEN
+N: E0639
+O: Europa, Mitteleuropa, Deutschland, Rheinland, Bonn
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: G
+GB | d2d2d2d4e2 | d6B2z2d2 | c4B2A4
+GB | d2d2d2d4e2 | d6B2z2d2 | c4B2A4
+D2 | G4A2B4c2 | d6c2z2d2 | c2B2A2G4
+D2 | G4A2B4c2 | d6c2z2d2 | c2B2A2G4
+S:https://www.folktunefinder.com/tunes/76509
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

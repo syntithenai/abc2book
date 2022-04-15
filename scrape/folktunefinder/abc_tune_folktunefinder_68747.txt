@@ -1,0 +1,30 @@
+X:201
+T: Nonnenklage
+N: A0242
+O: Europa, Mitteleuropa, Deutschland
+N: Souterliedekens 1540 ad Ps. 82.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+g2 | g2g2=f2e2 | c4d2
+e2 | =f3ga2g3fG2 | =f4d2
+g2 | g2g2=f2e2 | c4d2
+e2 | =f3ga2g3fG2 | =f4d2
+d2 | d2d2e2e2 | =f4d2
+d2 | =f3ed2c3_BA2 | _B4z2
+=f2 | =f2f2f2f2 | g4d2
+d2 | =f3ga2g4f2 | g4d2
+d2=f2e2 | d2c4_B2A4 | G6
+S:https://www.folktunefinder.com/tunes/68747
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

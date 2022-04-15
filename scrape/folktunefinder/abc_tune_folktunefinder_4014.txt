@@ -1,0 +1,22 @@
+X: 3
+M: 4/4
+L: 1/8
+P: The Steamboat
+R: Hornpipe
+K: G
+(3def \
+| "G"g2 bg d2 gd | "G"Bc dB G2 AB | "C"c2 ec "Am"A2 cA |"D7"FG AB cd ef |
+| "G"g2 bg d2 gd | "G"Bc dB G2 AB | "C"ce dc "D7"BA GF | "G"A2 G2 G2 ||
+Bc \
+| "G"dB dB g2 gf | "C"ec ec "A7"a2 ag |"D7"fe fd  "G"gf gb |"A7"ag fe "D7"d2 (3def |
+| "G"g2 bg d2 gd | "G"Bc dB     G2 AB | "C"ce dc "D7"BA GF | "G"A2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/4014
+S:http://trillian.mit.edu/~jc/music/abc/England/RG_Mossley.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

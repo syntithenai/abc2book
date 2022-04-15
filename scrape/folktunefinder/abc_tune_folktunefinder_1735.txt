@@ -1,0 +1,25 @@
+X:38
+T:38.  Pygmies on Pennsylvania  Ave
+C:c 2003 Harry Bolick  
+R:Stomp
+O:United States
+A:Hastings-On-Hudson, New York
+M:2/4
+L:1/8
+Q:200
+K:Am
+|: "Am" aa "G" e (g |g)e dA |"A no-3rd" cd ed| ge de|
+[1 aa e(g|"G" g)e  dA | "C"cc "D" dc|"E" e4:|
+[2 ag e(d|d)c Ac | "C" dc A"G"G|"A no-3rd"  A4:|
+|: "A no-3rd" cA A(B |"G"B)A GD |"A no-3rd" EG AG |cB AG |
+ cA A(B |"G"B)A GD |"C" EE "G" GE |"A no-3rd" A4 :|
+S:https://www.folktunefinder.com/tunes/1735
+S:http://www.bolick.net/recordings/allthetime/images/2006_BolickTunes.txt
+% Rhythm Stomp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

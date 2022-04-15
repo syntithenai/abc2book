@@ -1,0 +1,22 @@
+X:122
+T:Green Man
+M:6/8
+L:1/8
+K:Em
+"Em"EFG "Em"B2 A|"Em"BcB "D"A2 G|"Bm"DEF "D"A2 G|"Bm"FED "Em"E3:||!
+"Bm"FGF "Bm"D2 D|"Bm"FGF "Bm"D2 D|"Em"EFG "D"A2 G|"Bm"FED "Em"E3:||!
+"Bm"F2 E "Bm"F2 E|"Em"BcB "D"AGF|"Bm"F2 E "Bm"F2 E|"D"AGF "Em"E3:||!
+"Bm"d2 B "Bm"d2 B|"Am"cBA "Em"BEE|"Bm"d2 B "Bm"d2 B|"D"AGF "Em"E3:||!
+"D"A2 A "Em"G2 F|"Em"G2 G "Em"EFG|"D"A2 A "Em"G2 F|"Em"B2 B "Em"E3:||!
+"Em"B3 "Em"B3|"Em"EFG "Bm"F2 E|"Em"B3 "Em"B3|"D"AGF "Em"E3:||!
+"Am"c2 c "Am"cBA|"Em"B2 B "Em"EFG|"D"A2 A "Em"G2 A|"Em"B2 B "Em"E3:||!
+S:https://www.folktunefinder.com/tunes/52325
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

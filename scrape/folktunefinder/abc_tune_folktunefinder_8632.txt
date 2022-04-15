@@ -1,0 +1,32 @@
+X: 2
+T: Eklundapolska #2
+C: Viksta Lasse (Leonard Larsson)
+M: 3/4
+L: 1/16
+F: http://www.folketshus.dk/cgi-bin/visnode.cgipo-eklund2
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: F
+(AB \
+|  c3)(c dc)=Bc     a3g     | (ga)ge  (fg)fc    A2B2    \
+|  d4    d2^cd      b3a     |  a2fa    g4       d4      |
+|  f2ef  g2d2      (fa)fd   | (fa)fd   e2c2     d2B2    \
+|  d4    d2^cd      e3d     | (d2c2   (cd)cA    F3A     |
+|  c3)(c dc)=Bc     a3g     | (ga)ge  (fg)fc    A2B2    \
+|  d4    d2^cd      b3a     |  a2fa    g4       d4      |
+|  f2ef (ga)gf      d2f2    | (cd)cA   F3A      c2f2    \
+| (ef)(ed) c2b2     a2(gf)  |1(ef)ge   f6              :|2 (ef)ge f8 |
+|: A2(Ac) (fc)(fc) (ac)(ac) |  A2(Ac) (fc)(fc) (ac)(ac) \
+|  B2(Bd) (fd)(fd) (bd)(bd) |  B2(Bd) (fd)(fd) (bd)(bd) |
+|  A2(Ac) (fc)(fc) (ac)(ac) |  F3A     c2f2     a2ag    \
+|  b2ba   (ga)gf   (ef)ed   |1 c2eg    f2fc     A2F2   :|2 c2eg f6 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/8632
+S:http://www.folketshus.dk/cgi-bin/visnode.cgipo-eklund2
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Eklundapolskor.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

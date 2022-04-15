@@ -1,0 +1,23 @@
+X:225
+%%topmargin 3cm
+T:Casag lachdunn Ruairdh Ruaidh
+T:Red Roderick's Dun Coat
+C:Arranged by K.N. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A dorian
+G | A<AB>G A<A A2 | G>B g>e dB G2 | A<A B<G A<A A2 | d>eg>f eA A :|
+{/g}e<e a>e g>e a>e | gage degd | e<e a>e g>e a>g | efge a>fe>f |
+e<eg<e a<eg>e | dedc BA G2 | edBd A<A A2 | G<A B<gfe A<A |]
+S:https://www.folktunefinder.com/tunes/70972
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

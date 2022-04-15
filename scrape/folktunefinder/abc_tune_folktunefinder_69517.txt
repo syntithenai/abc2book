@@ -1,0 +1,23 @@
+X:658
+T: "Die Frankfurter Messe"
+N: Z1339
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Zech -, Schalks - Lied
+M: 2/4
+L: 1/16
+K: D
+ | D2A,2F,2A,2 | D4E4 | D4E4 | D2F2z2
+A,2 | D2A,2F,2A,2 | D4E4 | D4E4 | D2F2z4
+D3EF2D2 | C2B,2B,2z2
+E2E2E2D2 | C2D2A,2z2
+F4G2E2 | D4z4
+S:https://www.folktunefinder.com/tunes/69517
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Zech -, schalks - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,120 @@
+X: 1
+T: the Soldier's Song
+T: Amhra/n na bhFiann
+T: National Anthem of E/ire
+R: March
+C: Peadar Kearney/Patrick Heaney
+S: IRTRAD, Benjamin Hollister, 5/97
+B: National Anthems of The World
+Z: Benjamin Hollister
+M: 4/4
+L: 1/4
+K: Bb
+F \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d3/c/ | BGFD | (F3/E/)C/z/F \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d3/B/ | A3/A/G3/G/ | FFzF |
+| E3/E/ (E/C/)(D/E/) | F3/G/FB | A3/G/AG | FE(CF) \
+| D(B,/D/)F3/F/ | (G/A/)(B/c/)d(B/G/) | (F/B)D/C3/B,/ | B,3z ||
+|| (B3/c/)dB | F3F | G3/G/EG | F2F2 \
+| B2A2 | G3(A/B/) | c3/d/cG | A3z |
+| (B3/c/)dB | F3F | G3/G/EG | F2FF \
+| A2A3/A/ | AAG3/G/ | F3F |
+| E3/E/ (E/C/)(D/E/) | F3/G/FB | A3/G/AG | FECF | D(B,/D)F3/F/ \
+| (G/A/)(B/c/)Hd(B/G/) | (F/B)d/c3/B | B3z |]
+W:
+W:
+W: (1.) We'll sing a song, a soldier's song,
+W: With cheering rousing chorus,
+W: As round our blazing fires we throng,
+W: The starry heavens o'er us;
+W: Impatient for the coming fight,
+W: And as we wait the morning's light,
+W: Here in the silence of the night,
+W: We'll chant a soldier's song.(Chorus)
+W:
+W: Chorus: Soldiers are we
+W: whose lives are pledged to Ireland;
+W: Some have come
+W: from a land beyond the wave.
+W: Sworn to be free,
+W: No more our ancient sire land
+W: Shall shelter the despot or the slave.
+W: Tonight we man the bhearna bhaoil*
+W: In Erin's cause, come woe or weal
+W: 'Mid cannons' roar and rifles' peal,
+W: We'll chant a soldier's song
+W:
+W: (2.) In valley green, on towering crag,
+W: Our fathers fought before us,
+W: And conquered 'neath the same old flag
+W: That's proudly floating o'er us.
+W: We're children of a fighting race,
+W: That never yet has known disgrace,
+W: And as we march, the foe to face,
+W: We'll chant a soldier's song.(Chorus)
+W:
+W: (3.) Sons of the Gael! Men of the Pale!
+W: The long-watched day is breaking;
+W: The serried ranks of Inisfail
+W: Shall set the Tyrant quaking.
+W: Our camp fires now are burning low;
+W: See in the east a silv'ry glow,
+W: Out yonder waits the Saxon foe,
+W: So chant a soldier's song.(Chorus)
+W:
+W: * = "gap of danger"; approx. pronunciation "barna bail"
+W:
+W: As Gaeilge: Amhrn na bhFiann
+W:
+W: (1.) Seo dhibh a chirde duan glaigh,
+W: Cathr_imeach briomhar ceolmhar,
+W: -r dtinte cnmh go buacach tid,
+W: 'S an sp_ir go min r_altogach
+W: Is fonnmhar faobhrach sinn chun gleo
+W: 'S go tinmhar gl_ roimh th_ocht do'n l_
+W: F_ chinas chaomh na hoiche ar seol:
+W: Seo libh cana_dh Amhrn na bhFiann. (Curf)
+W:
+W: Curf: Sinne Firnna Fil
+W:  A t f_ gheall ag Eirinn,
+W: buion dr slua
+W: Thar toinn do rinig chugainn,
+W: F_ mh_id bheith saor.
+W: Sean t_r r sinsir feasta
+W: N_ fhagfar f_'n tiorn n f_n tril
+W: Anocht a th_am sa bhearna bhaoil,
+W: Le gean ar Ghaeil chun bis n_ saoil
+W: Le guna screach f_ lmhach na bpil_ar
+W: Seo libh cana_dh Amhrn na bhFiann.
+W:
+W: (2.) Cois bnta r_idhe, ar rdaibh sl_ibhe,
+W: Ba bhuachach r sinsir romhainn,
+W: Ag lmhach go tr_an f_'n sr-bhrat s_in
+W: T thuas sa ghaoith go seolta
+W: Ba dhchas riamh d'r gcine chidh
+W: Gan iompil siar _ imirt ir,
+W: 'S ag sil mar iad i gcoinne nmhad
+W: Seo libh, cana_dh Amhrn na bhFiann (Curf)
+W:
+W: (3.) A bhu_on nch fann d'fhuil Ghaeil is Gall,
+W: Sin breacadh lae na saoirse,
+W: Ta sc_imhle 's scanradh i gcro_the namhad,
+W: Roimh ranna laochra r dtire.
+W:  Ar dtinte is tr_ith gan spr_ach anois,
+W: Sin luisne ghl_ san sp_ir anoir,
+W: 'S an b_obha i raon na bpil_ar agaibh:
+W: Seo libh, cana_dh Amhrn na bh Fiann.(Curf)
+W:
+S:https://www.folktunefinder.com/tunes/12801
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/SoldiersSong_S.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/SoldiersSong_S.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/SoldiersSong_S.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/SoldiersSong_S.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

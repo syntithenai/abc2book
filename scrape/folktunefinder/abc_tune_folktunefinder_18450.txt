@@ -1,0 +1,38 @@
+X:2
+T:Schottisch aus Schwaben (Zither part - 2nd)
+R:Schottisch
+N:See First (hackbrett) part for B:, O:, S; infos
+L:1/16
+M:2/4
+N:see the melody/hackbrett part for more infios
+P:AABBAACC
+Z:transcribed into abc by Gianni Cunich, g.cunich:tiscalinet.it (tradtunes 2001-02-24)
+K:C
+P:A
+A^GAF E2CE | D2B,D C2E2 | A^GAF E2CE | DCB,F E4 |
+cBcd e2ce | d2Bd ceg2 | cBcd e2ce |dcdF E4 :|
+P:B
+K:G
+G2B2 G2B2 | cdec B2B2 | G2B2 G2B2 | AGAc B4 |
+d^cd=c B2B2 | FEFA G2B2 | d^cd=c B2B2 | cAdc B4:|
+P:Trio
+K:F
+A2FA c2Ac | f2c2 A2F2 | G2EG c2Gc | edeB A4 |
+A2fe dcBA | G2ed cBAG | F2A2 c2f2 | edeB A4 :|
+S:https://www.folktunefinder.com/tunes/18450
+S:http://trillian.mit.edu/~jc/music/abc/shottish/SchottischAusSchwaben.abc
+S:http://trillian.mit.edu/~jc/music/abc/shottish/SchottischAusSchwaben_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/shottish/SchottischAusSchwaben.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/shottish/SchottischAusSchwaben_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SchottischAusSchwaben.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/SchottischAusSchwaben_1.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

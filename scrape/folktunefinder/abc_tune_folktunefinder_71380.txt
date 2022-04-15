@@ -1,0 +1,26 @@
+X:351
+%%topmargin 3cm
+T:Lady Montgomery
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:Bb
+d S|: TB2 (BF) DEFD | TB2 (BG) ABcd | B/B/B (BF) DEFD | Cc(TcB) ABcd :|
+B/B/B (fB) dB Tf2 | B/B/B (fB) {/^c}defb | B/B/B (fB) dBfd | (ed)cB ABcd |
+B/B/B (fB) {/^c}dB Tf2 | (Bg)fe (de)fg | fdec dBcA | BGFD Cccd S|| ["  last time" [D8F8B8] |]
+S:https://www.folktunefinder.com/tunes/71380
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Montgomery.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0351.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

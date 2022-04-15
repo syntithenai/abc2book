@@ -1,0 +1,25 @@
+X:19008
+T:Scottish Reform
+R:Jig
+C:Trad.
+O:Scotland
+M:6/8
+L:1/8
+Q:3/8=90
+K:D
+F/2G/2|"D"ABA AFA|"D"d2d "G"dcB|"D"ABA "Bm"AGF|"Em"EGF "A7"EFG|
+"D"ABA AFA|"D"d2d def|"G"gfg "A7"eag|"D"fdd d2:|
+f/2g/2|"D"afd def|"G"gba "A7"gfe|"D"afd "Em"g2f|"A7"ecA A2f/2g/2|
+"D"afd def|"G"gba "A7"gfe|"G"gfg "A7"eag|"D"fdd "A7"dfg|
+"D"afd def|"G"gba "A7"gfe|"D"afd "Em"g2f|"A7"ecA ABc|
+"D"dfd "A"ecA|"G"BdB "D"AFD|"G"GFG "A7"EAG|"D"FDD D2|]
+S:https://www.folktunefinder.com/tunes/51317
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

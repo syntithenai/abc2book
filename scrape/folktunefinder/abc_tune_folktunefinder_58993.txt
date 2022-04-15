@@ -1,0 +1,42 @@
+X:106
+T:Baille del Centru (MG 48)
+R:Xota
+C:Versin del Gaiteru Veria
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Centru d'Asturies
+Z:Mtodu de Gaita 48
+L:1/8
+Q:3/8=88
+E:Nivel 4
+K:C
+G4 E4 C4 {GCB,}D4 {B,}C4 ~E2 G2 C2 ~E2 G2 C2 ~E2 G2 ~E2 C2
+A2 G2 {A}E2 ~A2 F2 D2 G2 E2 C2 FDB, C/4D/4E/4F/4c/4 e2 f4
+e2 ~d2 c2 BA BG AF GEFDEC {DC}B,DEF EDCB, D2 {B,}C4
+[M:3/8]
+G
+|G~EA|A~EG|G~EA|A{F}E/G/{F}E/G/|
+|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|
+|c e/c/e/c/|
+|A .F/A/.F/A/|G .E/G/.E/G/|F .D/F/.D/A/|~E C/E/C/E/|D B,/D/B,/D/|
+|A .F/A/.F/A/|G .E/G/.E/G/|F D/F/D/A/|~E C/E/C/E/|D B,/D/B,/D/|C2 G|
+|c~e>c|AF A/B/|c~e>c|AFG|c~ec|AF A/B/|c/B/A/B/c/B/|G E/G/E/G/|
+|c~e>c|AF A/B/|c~ec|AF A/B/|c/B/A/B/c/B/|
+|G E/G/E/G/|c B/A/G/F/|~A .F/A/.F/A/|c B/A/G/F/|E C/E/C/E/|
+|: A F/E/D/C/|D/C/B,/D/B,/D/|F E/F/E/D/|E C/E/C/E/ :|
+|A F/E/D/C/|D/C/B,/D/B,/D/|F E/F/E/D/|C2 {A}G|
+|: c2 ~e|cB A/B/|c2 A|.FFG|A2 B|c~ec|G{A}GF|EEG :|
+|cBA|G2 {CA}G|cBA|F2 {A}G|AGA|cGG|~AGF|EEG|
+S:https://www.folktunefinder.com/tunes/58993
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xota
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

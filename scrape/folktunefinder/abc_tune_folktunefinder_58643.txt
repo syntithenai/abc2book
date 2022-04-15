@@ -1,0 +1,27 @@
+X: 36
+T:The Humours of Glin
+M:6/8
+L:1/8
+R:jig
+Z:Barney
+K:D
+(3Bcd B BAF|Adc d2 A|~B3 BAF|AFE EFA|
+(3Bcd B BAF|Adc d2 A|{_G}-=G3 FGF|EFE D2A|
+~B3 BAF|Adc d2A|~B3 BAF|AFE EFA|
+(3Bcd B BAF|Adc d2A|GAG FGF|EFE D2E||
+DFA d2 e|~f3 ecA|gfe fdB|AFA B2A|
+Adf ~a3|abf a2f|gfe fdB|AFA B2g|
+fdc d2g|fdf ecA|gfe fdB|AFA ~B3|
+Adf ~a3|abf a2f|gfe fdB|AFA B2A||
+S:https://www.folktunefinder.com/tunes/58643
+S:http://home.ivx.de/601438/tunes/rhjig1.abc
+S:http://puffin.ivx.de/601438/tunes/rhjig1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

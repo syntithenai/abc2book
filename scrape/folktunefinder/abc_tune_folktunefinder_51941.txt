@@ -1,0 +1,18 @@
+X: 6
+T:Auvergne Polka 1
+M:2/2
+L:1/8
+Q:150
+K:G
+"A" d2 d2 B2 B2 | G2 G2 E2 AB | c2 A2 A2 BA | GFGA BABc |
+d2 d2 B2 B2 | G2 G2 E2 AB | c2 A2 A2 BA | GFGA G4 :||
+"B" G2 BG DGBG | DGBG A2 F2 | F2 AF DFAF | DFAc B2 G2 |
+G2 BG DGBG | DGBG A2 F2 | F2 AF c2 BA | D2 EF G4 :||
+S:https://www.folktunefinder.com/tunes/51941
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

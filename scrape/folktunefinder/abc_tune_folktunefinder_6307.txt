@@ -1,0 +1,28 @@
+X: 2
+T: After the Battle of Aughrim
+R:Polka
+O:Scotland
+O:Ireland
+S:(Phil Taylor) aar09@pop.dial.pipex.com abcusers 2002-3-16
+M:2/4
+%%RR_hdr-OriginalCollection: 
+%%RR_hdr-AbcTypedBy:Richard Robinson <richard@beulah.demon.co.uk>
+K:ADor
+E2A2 ABcd | e2d2 c3A | B2G2 GFGA | B2AG E2D2 |\
+E2A2 ABcd | e2d2 e2ag | e2d2 BedB | A4 A4 :|
+|:\
+a2e2 e2fg | abag e2fg | abaf g3e | dedB G4 | \
+a2e2 e2fg | abag e2d2 | B2e2 d2B2 | A4 A4 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6307
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

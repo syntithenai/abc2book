@@ -1,0 +1,24 @@
+X: 1
+T: Faral O'Gara's
+M: C|
+R: Reel
+C: Traditional
+Q: 200
+K: D
+|: A,D (3DDD A,DFA | BFAFE2 Ac | d2cd BAFA | G2FG EDB,G, |
+| A,DDA, DEFA | B2AF E2AB | d2cd BAFA | GFEG FED2 :|
+|: fd (3ddd fdge | fd (3ddd edBc | dB (3BBB Bcde | f2gf e2ce |
+|1 fd (3ddd fdge | fd (3ddd edBc | dB (3BBB BAGF | GFEG FED2 :|
+|2 f2af eAce | defd BAFD | A,DDA, DEFA | B2AF D3z |]
+S:https://www.folktunefinder.com/tunes/17134
+S:http://trillian.mit.edu/~jc/music/abc/reel/FarrelOGaras.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FarrelOGaras.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/FarrelOGaras.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

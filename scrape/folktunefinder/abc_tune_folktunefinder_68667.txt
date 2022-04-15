@@ -1,0 +1,28 @@
+X:121
+T: Sommerlied
+N: A0142
+O: Europa, Mitteleuropa, Deutschland
+N: G Rhaw, Bicinia. Viteb. 1545. Tom. I. No. 91. Von Boehme
+N: "rhythmisch gegliedert".
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: C
+C | CCEC | G2G2
+c2 | B2GA2G | E2z
+C | GABG | c2B2
+A2 | G2EF2D | C2z
+C | GGFE | F2E2
+C2 | E2AG2F | D2
+A2 | GGFE | C2D2
+A2 | G2EF2D | C3
+S:https://www.folktunefinder.com/tunes/68667
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

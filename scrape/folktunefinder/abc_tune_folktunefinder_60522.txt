@@ -1,0 +1,25 @@
+X:4333
+T:Down The Back Lane
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:G
+d |: cAG A2G | FDE (3FEFD | cAA {c}BAG | Ade fed | AcG A2G | 
+FDE (3FEFG | Add fdd | e^cA G3 :: Add fdd | cAB {d}cAG | Add fdd |
+ e^cA ~G3 | Add fdd | cAB cde | (3fgag ed^c | AGF ~G3 :|
+S:https://www.folktunefinder.com/tunes/60522
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

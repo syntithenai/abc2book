@@ -1,0 +1,39 @@
+X:1316
+T:Begvningsmarsch frn Funsdalen
+T:efter Olof Halvarsson
+T:"Gift-recieving tune"
+N:Efter Simon Svensson, lvros 1923
+N:Cermonial wedding tune, to be played  when the bride and groom recieved
+N:the wedding gifts from the guest
+A:Funsdalen (v. Hrjedalen)
+B:Svenska Ltar Jmtland-Hrjedalen nr 714
+O:Sweden
+M:2/4
+L:1/16
+Q:1/4=80
+K:D
+A2|d3f a3f|(gf)gb a2gf|e2fg a2cd|(ef)ed c2A2|\
+d3f a3f|(gf)gb a2gf|e2fg a2cd|[1((3efe)d2 d2:|[2((3efe)d2 d4|:\
+f2d2 f2d2|(ef)ed c2A2|f2d2 f2d2|(ef)ed c2A2|\
+d3f a3f|(gf)gb a2gf|e2fg a2cd|((3efe)d2 d4:|\
+T:Andrastmma
+A,2|F2Ad f3d|(ed)eg f2ed|c2de f2AB|(cd)cB (AG)FE|\
+(DF)Ad f3d|(ed)eg f2ed|c2de f2A2|[1G2F2 [F2A2]:|[2G2F2 [F4A4]|:\
+d2F2 A2F2|(cd)cA G2E2|d2F2 A2F2|(cd)cB (AG)FE|\
+(DF)Ad f3d|(ed)eg f2ed|c2de f2A2|G2F2 [F4A4]:|\
+T:Oktav
+A,2|D3F A3F|(GF)GB A2GF|E2FG A2CD|(EF)ED C2A,2|\
+D3F A3F|(GF)GB A2GF|E2FG A2CD|[1((3EFE)D2 D2:|[2((3EFE)D2 D4|:\
+F2D2 F2D2|(EF)ED C2A,2|F2D2 F2D2|(EF)ED C2A,2|\
+D3F A3F|(GF)GB A2GF|E2FG A2CD|((3EFE)D2 D4:|\
+S:https://www.folktunefinder.com/tunes/56255
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

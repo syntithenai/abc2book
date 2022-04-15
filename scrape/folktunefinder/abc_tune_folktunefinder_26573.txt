@@ -1,0 +1,34 @@
+X:6121
+T:Smeceno Horo
+O:england
+C:Trad
+R:
+M:9/16
+K:G
+L:1/16
+M: 8/16
+^cdd c2 B2 A |\
+M: 9/16
+cBA cBA GF2 | FDEDFDE2D|1,3 cBAcBA^GA2 :|2,4 \
+M: 7/16
+F2DE^CD2 |
+|: A2 ADE=F^G |\
+M: 9/16
+cBA cBA=G ^F2 |FDEDFDE2D |1,3\
+M: 7/16
+cBAB^GA2 :|2,4\
+M: 7/16
+F2DE^CD2 |
+S:https://www.folktunefinder.com/tunes/26573
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/16
+% Time_signature 9/16
+% Time_signature 8/16
+% Has_accompaniment_chords No chords

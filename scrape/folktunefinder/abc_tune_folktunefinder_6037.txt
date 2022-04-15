@@ -1,0 +1,23 @@
+X: 2
+P: Jenny's Bawbee
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: d/e/ \
+| "D"f3d "A7"g3e "D"fd3 d3e/f/ | "Em"g3B e3d "A7"cA3 A3e/f/ \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+S:https://www.folktunefinder.com/tunes/6037
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish6.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

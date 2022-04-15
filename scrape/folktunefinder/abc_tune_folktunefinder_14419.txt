@@ -1,0 +1,26 @@
+X: 1
+T: JIG
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.30
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: G
+(d/c/) \
+| "G"BGG G2B | "D7"BAA A2f | "G"g>fe "D7"ded | "G"BGG G2 :|
+|: g/a/ \
+| "G"bab "Em"gab | "D7"aga fga | "A7"gfg eag | "D"fdd d2d |
+  "C"(ede) (cde) | "G"(dcd) (Bcd) | "D7"(cBc) (Adc) | "G"BGG G2 :|
+S:https://www.folktunefinder.com/tunes/14419
+S:http://trillian.mit.edu/~jc/music/abc/jig/Jig_p30_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Jig_p30_G.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/Jig_p30_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 1
+T: S\onderhoning 2
+O: trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"A2d2 "A7"cdeA | "D"d2d2 "A7"cdeA | "D"d2d2 "A7"cdeA | "D"d4 d2e2 \
+|  "D"f2f2 "A7"efge | "D"f2f2 "A7"efge | "D"f2f2 "A7"efge | "D"d4 d2e2 ||
+|| "D"a3g f2e2 | "Bm"d2c2 B4 | "Em"g3f e2d2 | "A7"c2B2 A4 \
+|  "D"A2d2 "A7"cdeA | "D"d2d2 "A7"cdeA | "D"d2d2 "A7"cdeA | "D"d4 d4 :|
+S:https://www.folktunefinder.com/tunes/324
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/Sonderho2_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

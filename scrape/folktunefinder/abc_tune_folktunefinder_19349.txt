@@ -1,0 +1,23 @@
+X: 1
+T: The Forge
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Em
+   z2 \
+| "Em"BB3 B3A     G3F E3G |  "D"F3D A3D F3D A3d \
+| "Bm"BB3 B3A "Em"G3F E3G | "Em"B3e "B7"gfe^d "Em"e6 :|
+|: f2 \
+| "G"gg3 b3g "D"a3f d3f | "C"ee3 g3e "B7"f3^d B3f \
+| "G"gg3 b3g "D"a3f d3f | "Em"B3e "B7"gfe^d "Em"e6 :|
+S:https://www.folktunefinder.com/tunes/19349
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Forge_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Forge_Em.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

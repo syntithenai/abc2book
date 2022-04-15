@@ -1,0 +1,37 @@
+X:331
+T:33. SIR ROGER DE COVERLEY (Slip jigs)
+S:Trad
+M:9/8
+K:G
+P:A
+"G"G2G G2e dBG|"D"A2A ABG FED|"G"G2G G2e def|g2G "C"GAG "D"FED::
+P:B
+"G"dBd "C"ece "G"dBG|"D"A2A ABG FED|"G"dBd "C"ece "G"dBG|g2G "C"GAG "D"FED::
+P:C
+"G"gag f2e dBG|"D"E2A A2G FED|"G"gag f2e def|g2G "C"GAG "D"FED::
+P:D
+"G"dcB "Am"cBA "Em"BAG|"D"E2A A2G FED|"G"dcB "Am"cBA "Em"BAG|"D"D2d d2c "G"BAG::
+P:E
+"G"(G6 G3)|"Am"(A6 A3)|"G"(B6 B3)|"G"B3 "C"c3 "D"d3::
+P:F
+"Am"(A6 A3)|"G"(B6 B3)|"C"(c6 c3)|"C"c3 "D"d3 "Em"e3:|
+%X:332
+%T:Drops of Brandy
+% Nottingham Music Database
+%S:Trad
+%M:9/8
+%K:G
+%P:A
+%B/2c/2|:"G"d2c BGB BGB|"G"d2c BGB "D7"cBA|"G"d2c BGB BGB|"C"cBc A2B "D7"cBA:|
+%P:B
+%"G"GBd gdB gdB|"G"GBd gdB "D7"cBA|"G"GBd gdB gdB|"C"cBc A2B "D7"cBA:|
+S:https://www.folktunefinder.com/tunes/48885
+S:http://trillian.mit.edu/~jc/music/abc/mirror/dinglehall.freeserve.co.uk/kyoy/abc/set33.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

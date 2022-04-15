@@ -1,0 +1,32 @@
+X:62
+T:trafaelais i gymru
+R:double jig
+S:davidson's musical miracles
+H:1859
+B:two hundred and fifty welsh airs for a shilling
+B:adapted for the violin, flute, accordion
+B:or any treble instrument
+O:traditional welsh
+Z:crm
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bm
+A|~d3 dfe|dcd B2c|d2e cBA|dcd B2A|
+dcd dfe|dcd B2c|d2e cBA|dcd B2:|
+f|f2g a2a|a2b a2g|f>bb agf|gfe f2d|
+fgf fed|efe edc|d2z z2d|
+BcB Bff|{g}fed e2f|dcB cBA|B3z:||
+S:https://www.folktunefinder.com/tunes/40674
+S:http://jodeejames.home.att.net/desertwelsh2HY.htm
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: the Marchioness of Normandy
+C: William Marshall
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+f \
+|:"Bb"dfd B3 | "Bb"dfd B3 | "Eb"GAB cde | "F7"dcB AGF \
+| "Bb"dfd B3 | "Bb"dfd B3 | "Eb"efg "Cm"gab | "C7"ag=e "F"f3 :|
+[|"F"F2F "(Eb)"FGA | "Bb"Bcd "F"e2c | "Gm"B2B "(F)"Bcd | "Eb"ede "CM"g2"F"f \
+| "Eb"E2g g2b | "Bb"D2f f2b | "Bb"dcB "F"FGA | "Bb"[B3D3] [B2D2]d |]
+[|"F"F2F "(Eb)"FGA | "Bb"Bcd "F"e2c | "Gm"B2B "(F)"Bcd | "Eb"ede "CM"g2"F"f \
+| "Bb"b2B fga | "Gm"b2B "Eb"g2f | "F"d2B FGA | [B3D3] [B3D3] |]
+S:https://www.folktunefinder.com/tunes/14613
+S:http://trillian.mit.edu/~jc/music/abc/jig/Marchioness_of_Normandy_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Marchioness_of_Normandy_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

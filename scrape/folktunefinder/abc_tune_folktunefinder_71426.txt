@@ -1,0 +1,25 @@
+X:397
+%%topmargin 3cm
+T:Garey Cottage
+C:S. Duncan
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:F
+c/B/ | (A<F) (A/B/c) {cB}A2 F>A | B>G (B/A/)(G/F/) (E<G)G>B | A<F A/B/c {cB}A2 F<A | (B<d){/d}c>B A<FF :| e | ~f>c (f/g/)(a/g/) Tf2 c<f | (b>a){/a}g>f (e<g)T(g>a) |
+~f>c (f/g/)(a/g/) Tf2 c<f | e<cb>g a<fTf>a | ~f>c (f/g/)(a/g/) Tf2 c<f | (b>a){/a}g>f (e<g)~g(f/e/) | d<bc<a B<gA<f | T(d/c/)(B/A/) G<c A<FTF |]
+S:https://www.folktunefinder.com/tunes/71426
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Garey_Cottage.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0397.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

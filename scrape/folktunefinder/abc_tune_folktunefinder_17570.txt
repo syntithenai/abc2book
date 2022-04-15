@@ -1,0 +1,37 @@
+X: 1
+T: Loch Torridon Reel
+T: the Battle of Aughrim
+B: Highland I
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A Dorian
+AG \
+| "Am"E2A2 ABcd \
+| e2B2 c3A \
+| "G"B2G2 GFGA \
+| B2AG "(Em)"E2D2 \
+| "Am"E2A2 ABcd |
+| "Am"e2d2 e3a \
+| "Em"g2e2 "E7"edcB \
+| "Am"c2A2 A2 :: cd \
+| "Am"e2a2 "(D)"a2ga \
+| "G"b3a g2e2 |
+| "G"d3e g2a2 \
+| "(C)"egga "G"g2ed \
+| "Am"e2a2 a2ga \
+| "G"b3a g2e2 \
+| dega "Em"gedB \
+| "Am"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/17570
+S:http://trillian.mit.edu/~jc/music/abc/reel/LochTorridonR_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LochTorridonR_Am.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

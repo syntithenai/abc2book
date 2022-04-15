@@ -1,0 +1,28 @@
+X: 9121
+T:Inbalim
+C:S.Levy
+S:Songs and Folk Dances arranged by Haim Kirsch. Book 4 (c) 1961 NEGEN
+S:chords by seymour (with the help of abcmus)
+O:Israel
+Q:1/4=72
+L:1/8
+M:2/4
+K:Dm
+"F"CF A/2G/2F|"C" Gc "F" F2| "C" G3 (3A/G/F/| G4 | "C"CF "F" A/2G/2F|\
+"C" Gc "F" F2|"Gm" G3 (3A/2G/2F/2|"Gm" G4 |
+ "Gm"Bc dc| "Dm"Bc F2| "Gm"GA Bc| AF G2 | ~GF GA| Bc d2| "C"cd cB|\
+"Gm"FA G2| "C"c4|
+ "F"CF A/2G/2F | "F"Gc F2|\
+ "Cm"G3 (3A/G/F/ | "Gm"G4| "C"CF A/G/F | "F"Gc F2| "F"G/A/B/c/ AF | "C"G4|
+S:https://www.folktunefinder.com/tunes/35360
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

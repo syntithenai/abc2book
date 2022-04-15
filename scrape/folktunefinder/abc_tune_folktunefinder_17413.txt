@@ -1,0 +1,26 @@
+X: 1
+T: Jack's Delight
+O: Trad
+B: RSCDS 42-4
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2d2 "A7"cecA | "D"d2fd A2ef | "Em"g2gf "E7"e2ed | "A"cecB "A7"ABcA || "D"d2d2 "A7"cecA |
+| "D"d2fd A2ef | "Em"gfge "A7"cABc | "D"d2f2 d2"A7"AG |]| "D"FAFA dAFA | "Em"AGFG E3F | GBGB "E7"edcd |
+| "A"cA"E"B^G "A7"A2AG || "D"FAFA dAFA | "G"GBGB "Em"dBGB | "A7"Aced cABc | "D"d2"A"f2 "D"d2 |]
+S:https://www.folktunefinder.com/tunes/17413
+S:http://trillian.mit.edu/~jc/music/abc/reel/JacksDelight_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/JacksDelight_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JacksDelight_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JacksDelight_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/JacksDelight_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

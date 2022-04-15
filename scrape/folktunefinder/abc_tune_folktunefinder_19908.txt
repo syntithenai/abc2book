@@ -1,0 +1,37 @@
+X:1
+T:Farewell to Devon
+C:Pat Shaw
+S:Community Dance Manual, Book 6
+Z:DavBarnert@aol.com 2002-10-18 abcusers
+M:3/4
+R:Waltz
+K:A
+P:A
+e2|\
+"A"  a3g fe|"A"   c2e4|"E7"A2A2B2|"A"  c4e2|\
+"F#m"a3g fe|"C#m" c2e4|"B7"cBA2c2|"E7" B4e2|
+"A"  a3g fe|"C#m" e2c4|"D" f3e dc|"F#m"c2A4|\
+"Bm" d3c BA|"D6"B3A GF|"E7"E2c2B2|"A"  A4  ||
+P:B
+E2|\
+"A"  A3B cB|"A"  A2E4      |"Bm"   B3c dc|"E7"B2E4  |\
+"A"  c3d ed|"F#m"c2A2de    |"D(Bm)"f3e dc|"E7"B4E2  |
+"A"  c3d ed|"F#m"c2A4      |"Bm"   d3e fe|"E7"d2B2cd|\
+"C#m"e3f ge|"F#m"a2A2"Bm"d2|"A" c3d"E7"B2|"A"A4     |]
+S:https://www.folktunefinder.com/tunes/19908
+S:http://trillian.mit.edu/~jc/music/abc/waltz/FarewellToDevon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/FarewellToDevon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/FarewellToDevon_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/FarewellToDevon_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/waltz/FarewellToDevon_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/FarewellToDevon_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

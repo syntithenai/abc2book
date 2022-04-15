@@ -1,0 +1,25 @@
+X:18
+T:Blow the Winds, I-Ho!
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:D Minor
+ c2 |A2 d2 d2 c2 |(e2 d2)                       \
+                         d2 A2|c2 d2 A2 F2|G6
+(FG)|A2 d2 d2 c c| e2 d2 d2                     \
+                            A2|c2 A2 G2 E2|c6 ||
+(BG)|F2 D2 D2 E2 | G2 A2 B2                     \
+                            G2|F2 D2 D2 E2|G4 z2
+ z2 |A2 d2 d2 c2 | e2 d2 d2                     \
+                            B2|c2 A2 G2 E2|D6 |]
+S:https://www.folktunefinder.com/tunes/75581
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

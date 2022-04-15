@@ -1,0 +1,22 @@
+X: 1
+P: The Gloucester Wassail
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A2 \
+|  "D"d4    d2 |     d2 e2 f2 | "A7"g2 f2 e2 |  "D"f2 a2 a2 \
+| "Em"g2 e2 e2 | "A7"e2 f2 g2 |  "D"fe de f2 | "A7"e4 g2 |
+|  "D"fe de fg | "A7"a4    ag |  "D"f2 d2 f2 | "A7"e4 de \
+|  "D"f4    ef |  "G"g4    f2 | "A7"e2 d2 c2 |  "D"d4 |]
+S:https://www.folktunefinder.com/tunes/4232
+S:http://trillian.mit.edu/~jc/music/abc/England/XmasWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Waltz_Xmas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

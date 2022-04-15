@@ -1,0 +1,101 @@
+X:16925
+T:The Lament for Lieutenant John McLennan
+N:macros expanded with some manual editing
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Piobaireachd
+M:4/2
+L:1/8
+N:Bar 5 of the ground is |:{ged}c3 {GBG}A {d}c4 {geA}c2 c{g}e f4| in the book.
+N:GS didn't title the sections himself.
+N:The book doesn't indicate that you repeat the ground at the end; it also
+N:doesn't indicate that the e in the {ged} group is held as a cadence note.
+N:Don't take the way the computer plays this too seriously!
+K:Hp
+P:Ground
+Q:1/2=30
+|: {ged}c3  {GBG}A {d}c4 {geA}e2   c{g}e      f4|     a2  f{g}e {ag}a4 {fege}f2  e{g}B {GdG}c4 |
+   {ged}c3  {GBG}A {d}c4 {gfe}f2   e{g}c      e4|  {g}d3 {GBG}A  {d}c4  {ged}c4      {GdGcG}B4:|
+|: {ged}c3  {GBG}A {d}c4 {geA}e2{d}c{g}e      f4|     a3{fege}f     a4       e3{BGdG}B   {d}c4 |
+[1   {g}e3 {cGdG}c    e4 {ged}c3  {GBG}A   {d}c4|  {g}d3 {GBG}A  {d}c4  {ged}c4      {GdGcG}B4:|
+[2 {ged}c2 B{GdG}c    f4 {geA}e2   c{g}B {GdG}c4|{gfe}f2  e{g}c     e4  {ged}c4      {GdGcG}B4||
+P:First Variation
+M:2/2
+Q:1/2=18
+|: {g}c>{AGdG}A{g}c>{BGdG}B {g}e>{cGdG}c{g}f>{eAfA}e |\
+      a>{eAfA}ea>rf         {g}f>{eAfA}e{g}c>{BGdG}B |
+   {g}c>{AGdG}A{g}c>{BGdG}B {g}f>{eAfA}e{g}e>{cGdG}c |\
+   {g}d>{cGdG}c{g}c>{BGdG}B {g}c>{BGdG}B{g}B>{AGdG}A:|
+|: {g}c>{AGdG}A{g}c>{BGdG}B {g}e>{cGdG}c{g}f>{eAfA}e |\
+      a>{eAfA}ea>rf         {g}e>{BGdG}B{g}c>{BGdG}B |
+[1 {g}e>{cGdG}c{g}e>{cGdG}c {g}c>{AGdG}A{g}c>{BGdG}B |\
+   {g}d>{cGdG}c{g}c>{BGdG}B {g}c>{BGdG}B{g}B>{AGdG}A:| 
+[2 {g}c>{AGdG}A{g}f>{eAfA}e {g}e>{cGdG}c{g}c>{BGdG}B |\
+   {g}f>{eAfA}e{g}e>{cGdG}c {g}c>{BGdG}B{g}B>{AGdG}A||
+P:Second Variation
+M:4/2
+Q:1/2=30
+|: {g}Ac2{G}A   {gBGdG}B3{G}A {g}ce2c {g}ef2   e|{g}fa2f {g}ea2f {g}ef2e {g}Bc2   B |
+   {g}Ac2{G}A   {gBGdG}B3{G}A {g}ef2e {g}ce2   c|{g}Bd2c {g}Ac2B {g}Bc2B {g}AB2{G}A:|
+|: {g}Ac2{G}A   {gBGdG}B3{G}A {g}ce2c {g}ef2   e|{g}fa2f {g}ea2f {g}ce2c {g}Bc2   B |
+[1 {g}ce2   B       {g}ce2  c {g}Ac2B {g}Ac2   B|{g}Bd2c {g}Ac2B {g}Bc2B {g}AB2{G}A:|
+[2 {g}Ac2{G}A       {g}cf2  c {g}Ae2c {g}Bc2{G}A|{g}Bf2e {g}ce2c {g}Bc2B {g}AB2{G}A||
+P:Second Variation Doubling
+Q:1/2=40
+|: {g}A{d}c2{g}A {d}c4 {g}Ae2{g}A      f4|{g}Aa2   A    a4    A   f2c {GdG}c4 |
+   {g}A{d}c2{g}A {d}c4 {g}Af2{g}A      e4|{g}Ad2{g}A {d}c4 {g}A   c2B {GdG}B4:|
+|: {g}A{d}c2{g}A {d}c4 {g}Ae2{g}A      f4|{g}Aa2   A    a4    A   e2c {GdG}c4 |
+[1 {g}A   e2{g}A    e4 {g}Ad2   c {GdG}c4|{g}Ad2{g}A {d}c4 {g}A{d}c2B {GdG}B4:|
+[2 {g}A{d}c2{g}A    f4 {g}Ae2   c {GdG}c4|{g}Af2{g}A    e4 {g}A   c2B {GdG}B4||
+P:Second Variation Trebling
+M:2/2
+L:1/16
+Q:1/2=30
+|: {g}A{d}c2{g}A {d}c4 {g}Ae2{g}A    f4|{g}Aa2A       a4    Af2{g}A    {d}c4 |
+   {g}A{d}c2{g}A {d}c4 {g}Af2{g}A    e4|{g}Ad2{g}A {d}c4 {g}A{d}c2{g}G {d}B4:|
+|: {g}A{d}c2{g}A {d}c4 {g}Ae2{g}A    f4|{g}Aa2A       a4    Ae2{g}A    {d}c4 |
+[1 {g}Ae2{g}A       e4 {g}Ad2{g}A {d}c4|{g}Ad2{g}A {d}c4 {g}A{d}c2{g}G {d}B4:|
+[2 {g}A{d}c2{g}A    f4 {g}Ae2{g}A {d}c4|{g}Af2{g}A    e4 {g}A{d}c2{g}G {d}B4||
+P:Crunluath
+M:4/2
+L:1/8
+Q:1/2=40
+|: {g}A  {d}c2    {ecfc}e {g}A  {d}c2    {ecfc}e {g}e3       {GdGeAfA}e   {g}f3 {GdGeAfA}e|\
+      a3       {GdGeAfA}e    a3       {GdGeAfA}e {g}A     f2          c {GdG}c4           |
+   {g}A  {d}c2    {ecfc}e {g}A  {d}c2    {ecfc}e {g}f3       {GdGeAfA}e   {g}e3 {GdGeAfA}e|\
+   {g}A     d2    {edfd}e {g}A  {d}c2    {ecfc}e {g}A  {d}c2          B {GdG}B4          :|
+|: {g}A  {d}c2    {ecfc}e {g}A  {d}c2    {ecfc}e {g}e3       {GdGeAfA}e   {g}f3 {GdGeAfA}e|\
+      a3       {GdGeAfA}e    a3       {GdGeAfA}e {g}A     e2          c {GdG}c4           |
+[1 {g}e3       {GdGeAfA}e {g}e3       {GdGeAfA}e {g}A     d2          c {GdG}c4           |\
+   {g}A     d2    {edfd}e {g}A  {d}c2    {ecfc}e {g}A  {d}c2          B {GdG}c4          :|
+[2 {g}A  {d}c2    {ecfc}e {g}f3       {GdGeAfA}e {g}A     e2          c {GdG}c4           |\
+   {g}f3       {GdGeAfA}e {g}e3       {GdGeAfA}e {g}A  {d}c2          B {GdG}B4          ||
+P:Crunluath Doubling
+M:2/2
+L:1/16
+Q:1/2=24
+|: {g}A{d}c2{ecfc}e{g}A{d}c2{ecfc}e {g}e3{GdGeAfA}e{g}f3{GdGeAfA}e   |\
+      a3{GdGeAfA}ea3{GdGeAfA}e      {g}f3{GdGeAfA}e{g}A{d}c2{ecfc}e  |
+   {g}A{d}c2{ecfc}e{g}A{d}c2{ecfc}e {g}f3{GdGeAfA}e{g}e3{GdGeAfA}e   |\
+   {g}Ad2{edfd}e{g}A{d}c2{ecfc}e    {g}A{d}c2{ecfc}e{g}G{d}B2{eBfB}e:|
+|: {g}A{d}c2{ecfc}e{g}A{d}c2{ecfc}e {g}e3{GdGeAfA}e{g}f3{GdGeAfA}e   |\
+      a3{GdGeAfA}ea3{GdGeAfA}e      {g}e3{GdGeAfA}e{g}A{d}c2{ecfc}e  |
+[1 {g}e3{GdGeAfA}e{g}e3{GdGeAfA}e   {g}Ad2{edfd}e{g}A{d}c2{ecfc}e    |\
+   {g}Ad2{edfd}e{g}A{d}c2{ecfc}e    {g}A{d}c2{ecfc}e{g}G{d}B2{eBfB}e:|
+[2 {g}A{d}c2{ecfc}e{g}f3{GdGeAfA}e  {g}e3{GdGeAfA}e{g}A{d}c2{ecfc}e  |\
+   {g}f3{GdGeAfA}e{g}e3{GdGeAfA}e   {g}A{d}c2{ecfc}e{g}G{d}B2{eBfB}e|]
+S:https://www.folktunefinder.com/tunes/38296
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Piobaireachd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Time_signature 4/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

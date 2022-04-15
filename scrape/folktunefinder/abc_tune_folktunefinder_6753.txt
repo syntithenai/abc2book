@@ -1,0 +1,25 @@
+X: 1
+M: 2/4
+L: 1/8
+P: Vayihe Beshurun
+K: F
+C>C \
+|:"F"FF FF | F2 C>C \
+| FC FA | c4 \
+| "F"c2 "Bb"B2 | "F"A2 "C7"G2 \
+|1 "F"FB AG | "C7"FE DC \
+:|2"F"FB "C7"AG | "F"F4 ||
+|:"F"c2 "Bb"d2 | "F"c3 A \
+| "C7"BA BA | G4 \
+| GA Bc | "F"A3 G \
+|1 GF Ad | c4 \
+:|2 "C7"GF AG | "F"F2 z |]
+S:https://www.folktunefinder.com/tunes/6753
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/BensWeddingSet_C3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/VayiheBeShurun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

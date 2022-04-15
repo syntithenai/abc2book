@@ -1,0 +1,28 @@
+X:481
+T: ICH HAETT MIR FUERGENOMMEN
+N: E0430
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: C
+A,2 | A,2A,2C2C2 | B,4A,2
+A,2 | A,2E,2G,2F,2 | E,4z2
+A,2 | A,2A,2C2C2 | B,4A,2
+A,2 | A,2E,2G,2F,2 | E,4z2
+C2 | C2C2B,CD2 | A,4G,2
+C2 | B,2C2DCB,2 | C4z2
+C2 | D2D2E2D2 | C2B,A,B,4 | A,4z2
+B,2 | C2G,2A,2F,2 | E,6
+S:https://www.folktunefinder.com/tunes/78922
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:2810
+T:Josskvarnleken - Malung Longdance
+A:Dalarna
+M:3/4
+O:Sweden
+R:Lngdans
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000007b3.html
+%%ID:000007b3
+K:A
+a3b ag   | a2 g2 eg | g2 f2 d2 | e2 c2 A2 | \
+A4 A2    | a3b ag   | a2 g2 eg |
+g2 f2 d2 |1 e4 e2   | e4 e2   :|2 e4 e2   | e3d cd  |: \
+e3f ed   | c2A2 ce  |
+B2G2 Be  | c2A2 cd  | e3f ed   | c2A2 ce  | B2G2 B2 |1 A3B cd :|2 A6 :|
+S:https://www.folktunefinder.com/tunes/36641
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Lngdans
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

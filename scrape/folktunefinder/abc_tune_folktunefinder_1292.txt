@@ -1,0 +1,37 @@
+X:658
+T:Andy Renwick's Ferret
+R:reel
+C:Gordon Duncan
+H:Gordon Duncan is a highland piper from Scotland
+D:Battlefield Band: Celtic Hotel Nomos: I Won't Be Afraid Any More Craobh
+D:Rua: The More That's Said the Less the Better
+M:C|
+L:1/8
+Q:1/4=200
+K:Ador
+cA~A2 ABcd|eaag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|a2ag agef|gd~d2 egde|degd egdg|
+eaag ageg|a2ag agef|gd~d2 efgd|edgB A2Bd|
+eaag ageg|a2ag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|edgB A2AB||
+|:cA~A2 ~A2cA|~A2cA agef|gd~d2 ^cdcd|~d2^cd cddB|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+eaag ageg|ageg ~a3f|gd~d2 efgd|edgB A2Bd|
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|edgB A2AB||
+% c:\aaa\abccol~1\net4.abc
+S:https://www.folktunefinder.com/tunes/1292
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

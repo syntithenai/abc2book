@@ -1,0 +1,27 @@
+X:1
+T: the Wheels of the World
+R:reel
+S:Danny O'Donnell, "The Donegal Fiddler"
+Z:Larry Sanger  irtrad-l 2000-10-18
+M:4/4
+K:C
+dc |: AD F/E/D GcAG | EC ~C2 EFGc | AD F/E/D EGAd | fedc Acdc | AD F/E/D GcAG |
+EC C/C/C EFGc | AddB cBAG |1 E[EC][EC]E [A,2D2] cB :|2 E[EC][EC]E D2A2 ||
+K:D
+dcdf afdf | e=cgc acgc | d^cdf afdf | e=cce d2A2 |
+d^cdf adfd | =cBce gceg | abag eg~g2 | fage dAB^c |
+d/d/d fd adfd | =c/c/c ec gcec | d^cdf afdf | e=cce d2A2 |
+d^cdf adfd | =cBce gcec | abag efge | fage d2 |
+S:https://www.folktunefinder.com/tunes/18299
+S:http://trillian.mit.edu/~jc/music/abc/reel/WheelsOfTheWorld.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/WheelsOfTheWorld.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/WheelsOfTheWorld.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

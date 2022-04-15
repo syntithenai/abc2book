@@ -1,0 +1,31 @@
+X:11
+T:Clef transpositions
+M:C
+L:1/4
+K:C
+%%titleleft 1
+%%freegchord 1
+T:No transposition
+"clef=treble""A,"A,"B,"B,"C"C"D"D|\
+[K:alto]"alto""A,"A,"B,"B,"C"C"D"D|\
+[K:bass]"bass""A,"A,"B,"B,"C"C"D"D|
+T:Explicit clef transposition
+[K:clef=G]"clef=G""A,"A,"B,"B,"C"C"D"D|\
+[K:clef=c]"clef=c""A"A"B"B"c"c"d"d|\
+[K:clef=f]"clef=f""a"a"b"b"c'"c'"d'"d'|
+T:abc2ps compatible clef transposition
+[K:treble]"treble""A,"A,"B,"B,"C"C"D"D|\
+[K:alto]"alto""A"A"B"B"c"c"d"d|\
+[K:bass]"bass""a"a"b"b"c'"c'"d'"d'|
+%%titleleft 0
+S:https://www.folktunefinder.com/tunes/45425
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample2.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

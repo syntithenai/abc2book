@@ -1,0 +1,28 @@
+X:35
+T: DIE ERDE BRAUCHT REGEN
+N: E0648
+O: Europa, Mitteleuropa, Deutschland, Lahn - Tal
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: A
+E4 | A4c4e4 | f2e2e4
+c2e2 | e4d4e4 | c8
+E4 | A4c4e4 | f2e2e4
+c2e2 | e4d4e4 | c8
+e4 | ^d4c4d4 | e4B4
+c3B | B4A4B2B2 | G8
+E4 | A4c4e4 | f4e4
+c2e2 | e4d4e4 | c8
+S:https://www.folktunefinder.com/tunes/76520
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

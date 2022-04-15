@@ -1,0 +1,32 @@
+X:191
+T: Schwiegertochter (2-95) S. 276
+N: P0966
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 2, Metz 1928]
+N: Fehlermeldung in Mammut kann man ignorieren:
+N: => 1. bei Taktwechsel sieht Mammut keinen Zusammenhang
+N:       zwischen letztem Takt und Liedauftakt (!)
+N: => 2. wenn eine Zeile (wie Zeile 4) weniger als einen Takt hat
+N:       und dieser Takt ber zwei Teilen aufgeteilt ist, gibt es
+N:       in Mammut eine Fehlermeldung
+R: Brautwerbung]
+M: 3/4
+L: 1/8
+K: F
+ccc | c3cc2c2 | d2c2B2
+AA | c2B2A2G2
+FGAAG2
+FGAAG2
+FA | c3BA2 | G2F3
+S:https://www.folktunefinder.com/tunes/76171
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Brautwerbung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

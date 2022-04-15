@@ -1,0 +1,21 @@
+X:11
+T:The Earl's Chair
+R:reel
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+A  | B2 dB BAFA | B2 dB BAFB | AF F2 DF F2 | AFdB ADFA |
+     B2 dB BAFA | B2 dB BAFB | A3 B   defd | edef   d3 :|
+z |: e3 f d2 Bd | edef  dBAB | e3 f   d3 e | fedB ADFA |
+     e3 f dB B2 | gB B2 defg | afbf   afde | fedB ADFA :|
+S:https://www.folktunefinder.com/tunes/66695
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

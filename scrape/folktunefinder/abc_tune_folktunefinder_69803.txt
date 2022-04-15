@@ -1,0 +1,31 @@
+X:243
+T: AHNUNGSGRAUEND TODESMUTIG
+N: F0420
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterlands -, Heimat - Lied, nationalistisch, Krieg
+M: 4/4
+L: 1/8
+K: Eb
+B,G, | E,2G,2B,2E2 | DCC2z2
+A,G, | F,3F,B,3A, | G,4z2
+B,G, | E,2G,2B,2E2 | DCC2z2
+A,G, | F,3F,B,3A, | G,4z2
+F,=A, | B,3B,C3C | DCB,2z2
+CD | E2D2C2D2 | B,4z2
+B,D | E3B,A,G,F,E, | C2C2z2
+EC | B,3G,B,2A,F, | E,4z4
+G,3G,G,2 | B,3A,G,2 | F,3E,F,2 | G,4E,2
+G,3G,G,2 | B,3A,G,2 | F,3E,F,2 | G,4E,2
+B,2G,2B,2 | E2B,2G,2 | B,2A,2F,2 | G,4z2
+E2E2E2 | F2F2F2 | D3CD2 | E4z2
+S:https://www.folktunefinder.com/tunes/69803
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Vaterlands -, heimat - lied, nationalistisch, krieg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

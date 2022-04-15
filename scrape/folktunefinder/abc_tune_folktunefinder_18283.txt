@@ -1,0 +1,25 @@
+X: 1
+T: Waltham Abbey
+C: J.Playford
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+Q: 1/2=104
+K: F
+|: "F"f2g2 a2ga | "Bb"bagf "C"e2c2 | "Bb"d2B2 "C7"G2B2 | "F"A2F2 "C7"c4 \
+|  "F"f2g2 a2ga | "Bb"bagf "C"e2c2 | "Bb"d2B2 "C7"G2B2 |1 "F"A2 F6 :|2 "F"A2F2- "G7"F4 ||
+|: "C"G2E2 GEGE | c2G2 "F"A2F2 | "Bb"d2B2 dBdB | "Gm"g2d2 "C7"e2c2 \
+| "F"agf2 "Gm"g2fe | "Dm"defg "Am"e2c2 | "Bb"dcBA "C7"G2c2 | "F"A2 F6 :|
+S:https://www.folktunefinder.com/tunes/18283
+S:http://trillian.mit.edu/~jc/music/abc/reel/WalthamAbbey_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/WalthamAbbey_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

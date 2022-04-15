@@ -1,0 +1,30 @@
+X:5199
+T:Polska efter Per Myhr, Gl\"ote
+O:england
+S:(E. \"Overg\aa{}rd nr 692)
+R:Polska
+Q:165
+M:3/4
+L:1/8
+A:W.H\"arjedalen
+K:A
+A,2 C2 E2 | A2 ((3cAc) e2 | \
+(3dBd (3cAc (3BGB | ((3ABc) ((3AcA) (GA) | \
+A,2 C2 E2 | A2 ((3cAc) e2 |
+(3dBd (3cAc B>G | ((3ABc) [A4A4] :: \
+{a}(g>f) (e>^d) e>f | (g>e) (b>g) e>c |
+(3dBd (3cAc B>G | (3ABc (3AcA E2 | \
+(b>g) (e>^d) e>f | (g>e) (b>g) e>c | \
+(3dBd c>(d B>)a | {ga}(gf/g/) a4 :|
+S:https://www.folktunefinder.com/tunes/25651
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

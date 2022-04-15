@@ -1,0 +1,29 @@
+X: 1
+T: the Old Woman Tossed Up in a Blanket
+O: trad Ireland
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly version
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"AcB Bce | fec "E7"B2A | "A"AcB cAB | "F#m"cAF "D"~F2E \
+| "A"AcB Bce | fec "E7"B2A | "A"AcB cAB | "E7"cAA "A"A2 :|
+|: a \
+| "D"~f3 fea | fea fec | "A(C#m)"ecf ecf | ecA "E7"B2e \
+| "F#m"kaff "E"kgee | "D"kfec "E7"kB2A | "A"AcB cAB | "E7"cAA "A"A2 :|
+S:https://www.folktunefinder.com/tunes/14805
+S:http://trillian.mit.edu/~jc/music/abc/jig/OldWomanTossedUpInABlanket_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OldWomanTossedUpInABlanket_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OldWomanTossedUpInABlanket_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OldWomanTossedUpInABlanket_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

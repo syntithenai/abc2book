@@ -1,0 +1,33 @@
+X:123
+T: Maria sa weinend ... (1-51), S. 126f
+N: K1097
+O: Luxemburg
+S: KINTZELE, Guillaume: An der Ucht, Bd. 1, Luxemburg 1926]
+N: in der Quelle mit einer 2. Stimme versehen
+R: Untreue]
+M: 6/8
+L: 1/8
+K: C
+G | GGGAAA | GG2z2
+E | EEEGGG | F3z2
+F | F2GB2B | AA2z2
+A | G2Gc2c | G3z2
+G | c2de2d | dc2z2
+c | c2cB2c | d3z2
+c | B2AA2G | BB2z2
+A | G2AF2G | E3z2
+G | c2de2d | dc2z2
+c | c2cB2c | d3z2
+c | B2AA2G | BB2z2
+A | G2AF2G | E3z2
+S:https://www.folktunefinder.com/tunes/70253
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Untreue]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

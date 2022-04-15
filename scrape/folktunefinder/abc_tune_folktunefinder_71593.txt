@@ -1,0 +1,30 @@
+X:11
+T:Yester House
+R:Reel
+C:Niel Gow
+O:Scotland
+A:Inver (Perth)
+B:(n233) Gow Collection of Scottish Dance Music - Oak Publications
+Z:transcription (livre) : <anamnese@laposte.net>
+N:je n'ai pas trop compris l'utilit d'crire que c'est une tonalit de La
+N:et de mettre par la suite tous les Sol en bcarre...
+M:C
+L:1/8
+Q:1/4=130 %tempo exact non connu
+K:A
+ a | e<A~e>c d=GB=g | e<A~e>c ef=g(b|\
+a)>f=g>e d=GBd | ~e>d=g>B {B}A2 A :|
+ B | Aaa>f =gGBd | Aaa>g aAab |\
+ =gd=g>B {B}A2 AB |
+   Aaa>f =gGBd | Aa~a>g aAab |\
+ =gd=g>B {B}A2 A |]
+S:https://www.folktunefinder.com/tunes/71593
+S:http://anamnese.online.fr/abc/celtia.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

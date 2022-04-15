@@ -1,0 +1,25 @@
+X:0
+T:The Athole Highlanders
+M:6/8
+L:1/8
+K:AMix
+% major/mixolydian hexatonic, G-gap hexatonic pitch set
+  e3   e>cA|e>cA B>cd|e3   e>cA|B>cd    c>BA|
+  e3   e>cA|e>cA B>cd|e<ae f>ed|c>dB    A3 :|
+  A>ce A>ce|B>df B>df|A>ce A>ce|B>cd    c>BA|
+  A>ce A>ce|B>df B>df|e<ae f>ed|c>dB [1 A3 :|\
+                                     [2 A2 ||
+e|a2e  e>dc|a2e  e>dc|a2e  e>dc|B>cd    c>BA|
+  a2e  e>dc|a2e  e>dc|e<ae f>ed|c>dB    A2 :|
+% mixolydian
+B|c<Ac c<Ac|d<Bd d<Bd|c<Ac c<Ac|B<GB    B<GB|
+  c<Ac c<Ac|ded|c>dB [1 A2 :|\
+                                     [2 A3 |]
+S:https://www.folktunefinder.com/tunes/30146
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

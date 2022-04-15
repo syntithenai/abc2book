@@ -1,0 +1,55 @@
+X:4
+T:Bransle de Champaigne 2
+T:"La Bancale"
+C:Eric Forgeot
+N:<anamnese@laposte.net>
+N:(adaptation non termine)
+M:13/4 %oui, 13/4 !!
+L:1/8
+Q:1/4=125
+K:F
+%%staves [1 | 2 | 3]
+%%measurenb 0
+%%measurebox 1
+%%staffsep 49pt
+%%sysstaffsep 30pt
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+G3 G AG FG A3d A2 c2 B3 A G2 A2 A2|\
+G3 G AG FG A4   A2 c2 B3 A G4  A2 |
+M:8/4
+|: GA B2 d2 c3 BA BA G A2|\
+  GA B2 d2 c2 B2 A2 A2 G2 :| %/.../
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose -12
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+K:F bass
+G,4 G,2 D2 C3 B, A,4 D3 C D2 C2 A,2|\
+G,4 G,2 D2 C3 B, A,4 D3 C D2 C2 A,2|
+M:8/4
+|: D,A, G,4 F,4 .D,2 .D,2 D,2|\
+|D,A, G,4 F,4 .F,2 .F,2 G,2 :| %/.../
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+S:https://www.folktunefinder.com/tunes/30275
+S:http://anamnese.online.fr/abc/anamnese.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 13/4
+% Time_signature 8/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

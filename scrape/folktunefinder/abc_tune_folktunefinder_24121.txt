@@ -1,0 +1,27 @@
+X:3670
+T:Lilli Burlero
+O:england
+M:6/8
+L:1/8
+Q:C2=122
+B:The Round Band Book of Playford
+K:G
+"G"G>AG B2B | "Am"A>BA "D7"c3 | \
+"G"BdG "Am"c2B | "D7"AGF "G"G3 | \
+"Em"G>AG "G"B2B | "D"A>BA "C"c3 | \
+"G"BdG "Am"c2B | "D7"AGF "G" G3 |: \
+"G"g2 f g2d | "F"=f2f "C"e2d | \
+"C"e^fg "G"g2d | "C"edB "D"A3 | \
+"C"edc "G"Bcd | "C"edc "G"Bcd | \
+"Em"edB "Am"c2B | "D7"AGF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/24121
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

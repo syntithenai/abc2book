@@ -1,0 +1,53 @@
+X:652
+T:Saltn (MG 31)
+R:Saltn
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 31
+M:2/4
+L:1/8
+Q:1/4=200
+E:Nivel 3
+K:C
+G
+|: c~d cB|~AG EG|FD EF|~AG EG|
+|c~d cB|~AG EG|F~D B,D|[1 {B,}C3 G :|[2 {B,}C3 C|
+|{F}EC EC|FG FE|FD ~EC|DE ~DC|B,C DE|FG F~E|[1 DC B,~D|{B,}C3 D|
+|{F}ED EC|FG FE|FD ~EC|DE ~DC|B,C DE|FG F~E|DC B,D|{B,}C4|
+|: G2 AB|c2 ~dc|B3 c|A2 AB|[1 G4 :|[2 G3 A|
+|F2 FG|E4|A2 AB|G2 GA|F2 FG|E4|A2 AB|G2 GF|G2 AB|c3 G|
+|: c~d cB|~AG EG|FD EF|~AG EG|
+|c~d cB|~AG EG|F~D B,D|[1 {B,}C3 G :|[2 C3 C|
+|{F}EC EC|FG FE|FD ~EC|DE ~DC|B,C DE|FG F~E|DC B,D|{B,}C3 D|
+|{F}ED ~EC|FG FE|FD ~EC|DE DC|B,C DE|FG F~E|DC B,~D|C3 G|
+|(.E.G.E.G)|.EC C.A|(.F.A.F.A)|FD DG|(.E.G.E.G)|EC CA|(.F.A.F.A)|FD GG|
+|~EC AA|FD GG|~EC AA|FD DE|~DC B,D|: {B,}C3 E|~DC B,D|GE CE|~DC B,D :|{B,}C3 E|
+|: AB ~AG|FE FE|~DB, DD|~ED CG|AB AG|FE FE|~DC B,D|C3 G :|
+|: cc cc|c ~d2 c|B2 AB|c3 G :|
+|AA AA|~A2 GG|AA AA|AG cA|G3 F|E2 FG|A2 A2|G2 AB|c2 ~d2|c3 G|
+|: c~d cB|AG EG|FD EF|~AG EG|
+|c~d cB|AG EG|F~D B,D|[1 {B,}C3 G :|[2 C3 C|
+|{F}EC EC|FG FE|FD ~EC|DE DC|B,C DE|FG F~E|DC B,D|{B,}C3 D|
+|{F}ED ~EC|FG FE|FD ~EC|DE DC|B,C DE|FG F~E|DC B,~D|{B,}C3 G|
+|(.E.G.E.G)|EC C.A|(.F.A.F.A)|FD DG|(.E.G.E.G)|EC CA|(.F.A.F.A)|FD GG|
+|~EC AA|FD GG|~EC AA|FD DE|~DC B,D|{B,}C3 E|~DC B,D|GE CE|~DC B,D|{B,}C3 G|
+|: AB ~AG|FE FE|~DB, DD|~ED CG|AB ~AG|FE FE|~DC B,D|[1 {B,}C3 G :|[2 {B,}C3 c|
+|: ec ec|e3 c|ec ec|f3 c|e2 dB|de dB|dB de|[1 c3 c :|[2 c3 G|
+|: c~d cB|~AG EG|FD EF|~AG EG|
+|c~d cB|~AG EG|F~D B,D|[1 {B,}C3 G :|[2 C3 C|
+|: {F}EC EC|FG FE|FD ~EC|DE DC|B,C DE|FG F~E|DC B,D|[1 {B,}C3 D :|[2 {B,}C3 G|
+|(.E.G.E.G)|EC C.A|(.F.A.F.A)|FD DG|(.E.G.E.G)|EC CA|(.F.A.F.A)|FD GG|
+|~EC AA|FD GG|~EC AA|FD DE|~DC B,D|: {B,}C3 E|~DC B,D|GE CE|~DC B,D|{B,}C4 :|
+S:https://www.folktunefinder.com/tunes/59539
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

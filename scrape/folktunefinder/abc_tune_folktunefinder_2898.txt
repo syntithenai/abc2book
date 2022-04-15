@@ -1,0 +1,34 @@
+X: 2
+T: Pasard\vzijska Kopanica
+R: kopanica
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+N: From ms labelled "ARRANGED: 2/3/96"
+M: 11/16
+L: 1/16
+K: Amix
+"A"
+|: "A"ed~c2 cAB ~c2cA | BG~A2 ABc dcde | ed~c2 cAB ~c2cA | "G"BG~A2 "A"ABc ~A2A2 :|
+"B"
+|: "A"AB~c2 c~d2 c2~B2 | cd~c2 B~c2 cB~A2 | ABBc ~c2B Bc~c2 | "G"BG~A2 "A"ABc ~A2A2 :|
+"C"
+|: "Gm"ecdE dc_B ~c2BA | "A"AE~G2 A_BA AGFE | "Gm"A_BB2 GAd ~c2BA |1,3 A"A"E~G2 "Gm"A_BG "A"ABcd \
+                                                                 :|2,4 A"A"E~G2 "Gm"A_BG "A"~A2A2 :|
+"D"
+|: "Gm"A_B~B2 GAd ~c2BA | "A"AE~G2 A_BA AGFE | "Gm"A_BB2 GAd ~c2BA | A"A"E~G2 "Gm"A_BG "A"~A2"fine"HA2 :|
+"E"
+|: "E"deed dcB "A"~c3A | "F#m"cddc cBA AGFE | "F#m"FC~F2 FAB ~c2cA |1,3 c"E"ddc Bde "A"~c2cA \
+                                                                  :|2,4 d"Bm"ccB BAG "F#m"F^G~A2 :|
+"F"
+|: "F#m"FC~F2 FAB ~c2cA | "E"cddc Bde "A"~c2cAA | "E"cddc Bde "A"~c2cA |1,3 d"Bm"ccB BAG "F#m"F^G~A2 \
+                                                                      :|2,4 d"Bm"ccB BAG "F#m"FC!_d.C.!~F2 :|
+S:https://www.folktunefinder.com/tunes/2898
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/PasardzhijskaKop.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 11/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

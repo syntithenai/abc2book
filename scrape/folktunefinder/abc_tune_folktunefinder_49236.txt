@@ -1,0 +1,23 @@
+X: 30
+T:The Old Oxford
+M:4/4
+L:1/4
+S:Wright 1713
+H:strain 2, bar 6 note 5 printed as dotted quaver-here corrected
+Z:ps
+K:Dmin
+AB/c/dD|FA^C2|D/E/F/G/Ad|^cde^c|d/e/f/g/ae|fe/d/^cB/^c/|dDF/G/A|E2D":||F
+cA
+c|
+Fcc>B|AdGd|^Fdd3/2c/4B/4|cgeg|Bgg/4f/4g3/2|aAB/c/d|d>cd2||
+S:https://www.folktunefinder.com/tunes/49236
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/wright.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

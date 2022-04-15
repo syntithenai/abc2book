@@ -1,0 +1,23 @@
+X:115
+T: Jerry's Beaver Hat
+M: 6/8
+L: 1/8
+B: O'Neill's 754
+R: Jig
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+N: "Collected by O'Reilly"
+K: D
+D | DFA d2 e | fdB BAF | ABA AFD | EFE TE2 D  |
+DFA d2 e | fdB BAF | ABA dAF | DED  D2   :|
+|: d | dfa afd  | gbg faf | dfa afd | cee  e2 f  |
+dfa afd  | gbg faf | BdB AFA | DED  D2   :|
+S:https://www.folktunefinder.com/tunes/76902
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0732-0758_bs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:316
+T: Die unbarmherzige Schwester (59), S. 184
+N: T0205
+O: Luxemburg
+S: Singendes Volk, Esch-Alzette 1937 posth.]
+N: Triole anfangs der 2. Zeile als Synkope;
+N: Ettelbrck, hhh J.P. Neuen aus Esch-Alzette, 1933
+R: Liebeslieder]
+M: 2/4
+L: 1/16
+K: E
+B,2 | E2F2=G2A2 | B2A2z2
+=d2 | =dc2BB2A2 | B4
+B4 | E2F2=G2F2 | E2=D2E4
+B2B2A=GAB | B2A2z2
+B2 | =GFEFG2A2 | B2A2z2
+B2 | =GFEFGGF2 | E4z2
+S:https://www.folktunefinder.com/tunes/70446
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Liebeslieder]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

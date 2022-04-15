@@ -1,0 +1,27 @@
+X: 7838
+T:the Snowflake
+R:Reel
+O:USA
+M:4/4
+K:D
+(3ABc|\
+d2fa fedf|edBc dBAF |1 \
+ A,2C2 E2A2|cBAc BABc :|2 \
+ Acef (3gfe cA|dcde d2 ::
+(3ABc|\
+d2fd edfd|a^g=gf edcB|1\
+ _B2d2 =f2d2|_bg=fb g2 :|2 \
+ Acef (3gfe cA|dcde d2 :|
+S:https://www.folktunefinder.com/tunes/35055
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

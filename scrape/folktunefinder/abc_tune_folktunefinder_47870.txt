@@ -1,0 +1,27 @@
+X: 333
+T:Prime of Life. JaW.332
+M:2/4
+Q:100
+S:James Winder Ms, Lancashire, 1835-41
+R:Country Dance
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+c2cB|A2cf|fccA|F3A|GFGA|BABc|dccE|{E}F4:|!
+.c2.f2|.e2.f2|.e2.f2|agg2|b2a2|g2f2|ecde|gff2|!
+.c2.f2|.e2.f2|.e2.f2|(ag)g2|(ba).g.a|(gf).e.f|ecde|gff2|]
+S:https://www.folktunefinder.com/tunes/47870
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

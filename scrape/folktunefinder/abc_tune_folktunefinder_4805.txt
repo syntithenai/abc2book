@@ -1,0 +1,44 @@
+X: 1
+T: Ada's Waltz
+C: David Schonfeld (1992,2001)
+M: 3/4
+L: 1/4
+K: Gm
+Q: 1/4=160
+"Intro"\
+GA"A"\
+|| "Eb"BAB | "F7"cde | "Bb"d2g- | "G7"gdf | "Cm"edc | "D7"B2A | "Gm"G3 | z^F/ G/A/ B/c/ ||
+"B"\
+|:"Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dcB | "A"A2A | "A7"ABG | "D"A3- | "D7"ABc |
+| "Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dGA | "Cm7"Bdc | "D7"B2A |1 "Gm"G3- | G/^F/ G/A/ B/c/ :|2 "Gm"G3- | GAB |
+"C"\
+|| "F"c2c | "F7"cdc | "Bb"B3- | Bcd | "Eb"e2e | "F7"efe | "Bb"d3 | "Bb7"def |
+| "Eb"g2g | "F7"ga>g | "Bb"f3 | "Gm"d3 | "A"^c=ef | "A7"gf=e | "D"d3- | "D7"dBc |
+"D"\
+||"Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dGA | "Cm7"Bdc | "D7"B2A |1 "Gm"G3- | G=Bc ||["last time -> Coda"y6
+"E"\
+|:[K:G]"G"dgd | gdg | dgd | gdg | "C"ege | geg | "G"d3- | dBc |
+| "G"dgd | gdg | dgd | gdg | "A"ega | "A7"bag | "D"a3- | "D7"ade |
+| "G"dgd | gdg | dgd | gdg | "C"ege | "Am"aea | "B"b3- | "B7"bz^d |
+| "C"ege | geg | "G"dga | "E7"bc'b | "A7"efg | "D7"bad |1 "G"g3- | gBc :|2 "G"g3- | gG/A/ _B/c/ "D.S."[|]||
+[K:Gm]"Coda"\
+|| "Gm"G3- | GGA | "Eb"BAB | "F7"cde | "Bb"d2g- | "G7"gdf | "Cm"edc | "D7"B2A | "Gm"G3- | G |]
+S:https://www.folktunefinder.com/tunes/4805
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Waltz_Adas.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Waltz_Adas.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/AdasWaltz_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/AdasWaltz_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/AdasWaltz_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/waltz/AdasWaltz_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/AdasWaltz_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/AdasWaltz_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

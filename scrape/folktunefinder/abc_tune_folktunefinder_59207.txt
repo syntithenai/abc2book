@@ -1,0 +1,32 @@
+X:320
+T:Diana Floreada (MG 46)
+R:Marcha
+C:Versin del Gaiteru Veria
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 46
+M:2/4
+L:1/8
+Q:1/4=150
+E:Nivel 4
+K:F
+{G}C
+|: .F.F.F.F|{G}FCCC|F2 {A}(3GAB|c3 {e}d|c{e}dcc|~AFAc|GC (3CDE|F3 C :|
+|: FFFA|F2 {G}F2|~AGcG|C2 CC|F2 {G}FA|F2 {G}F2|C{G}CC{G}C|[1 F3 C :|[2 F4|
+|C{G}CC{G}C|A2 A2|C{G}CC{G}C|F4|C{G}CC{G}C|A2 AB|G{A}GEG|F2 CF|
+|B2 Bc|A2 AB|G{A}GFG|~A2 FF|B2 Bc|A2 AB|G{A}GFG|F3 ~A|
+|F3 ~A|.FA.FA|F3 A|~E3 G|C{F}CC{F}C|~D2 EF|GE{GEF}ED|C2 DE|
+|: F2 {A}G2|~A3 G/A/|BA/B/ cB|~A3 F|AABA|~G3 E|GG~AG|F3 C|[1 F3 C :|[2 F2 {G}FG|
+|E2 {GEF}EG|~D2 B,D|~E2 CC|F2 {G}FG|E2 {GEF}EG|~D2 B,D|C3 C|.F.F.FA|
+|{F}.E.E.EA|DDDD|~E2 CC|.F.F.FA|{F}.E.E.EA|DEDE|C2 (3CDE|F2 (3CDE|F2 (3CDE|
+S:https://www.folktunefinder.com/tunes/59207
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

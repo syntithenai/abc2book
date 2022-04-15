@@ -1,0 +1,29 @@
+X: 7666
+T:Polska fr Fyn
+R:Polska
+O:Denmark
+M:3/4
+B:Rasmus Storm
+K:Dm
+[G2B2] [G,2D2] [A2c2] | \
+[GB][G,D] [GB][Bd] [Ac][FA] |\
+[G2B2] [G,2D2] [A2c2] |\
+[GB][G,D] [GB][Bd] [Ac][GB] |\
+[G3/B3/][F/A/] [FA][DF] [A,2D2] :|
+|: \
+[A3/d3/][^c/e/] [df][eg] [fa][df] |\
+[g3/b3/][f/a/] [fa][df] [eg][fa] |\
+(3fgf (3e^ce [E2A2] |
+[A3/d3/][^c/e/] [df][eg] [fa][df] |\
+[g3/b3/][f/a/] [fa][df] [eg][fa] |\
+(3fgf (3e^ce [D2d2]
+S:https://www.folktunefinder.com/tunes/34883
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:424
+T: DURCH DREIMAL DREI IHR BRUEDER
+N: F0788
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Maurer - Lied
+M: 4/4
+L: 1/8
+K: D
+d2 | f2d2f2d2 | e3fe2
+e2 | g2e2g2e2 | f4z2
+f2 | g2f2g2e2 | f2a
+gf2e2 | d4c4 | d6
+A2 | d3ed2c2 | B4B2
+B2 | g3fe2d2 | c4z2
+e2 | d2c2B2A2 | ^G2E2A2
+B2 | c2c2B2B2 | A4z2
+A2 | d3ed2c2 | B6
+A2 | G2F2E2D2 | E4z2
+D2 | F2D2F2D2 | E3FE2
+E2 | G2E2G2E2 | F4z2
+A2 | B2A2B2c2 | d2c
+BA2G2 | F4E4 | D4z2
+S:https://www.folktunefinder.com/tunes/69984
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Staende -, maurer - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

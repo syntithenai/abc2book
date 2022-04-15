@@ -1,0 +1,25 @@
+X:6840
+T:the Willow Tree
+A:North-West
+M:4/4
+O:England
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004c6.html
+%%ID:000004c6
+K:E min
+G>E|\
+EDB,G, A,2B,2| E6 EF| G3G FAGF| E6 EF|
+G3G FAGF| EFED B,2G>E| EDB,G, A,2B,2| (E4 G3)E|\
+EDB,G, A,2B,2| (G2E4)|]
+S:https://www.folktunefinder.com/tunes/37447
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:135
+T:Cobblers hornpipe
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:3/2
+N:Yes, the graces are slurred from the previous note
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000600.html
+%%ID:00000600
+K:F
+%%graceslurs 0
+F4 D2(EF) (GF)(ED) | E2(C4{C}) G2F2E2 |\
+F3G A2(GF) (EF)(GE) | A,2(D4{D}) F2E2D2 ::
+d4 def2 e2d2 | e2(c4{c}) g2 f2e2 |\
+f3g a2(gf) (ef) (ed) | A2(d4{d}) F2E2D2 :|
+% page 15
+S:https://www.folktunefinder.com/tunes/43590
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

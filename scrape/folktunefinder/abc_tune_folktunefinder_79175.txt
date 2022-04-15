@@ -1,0 +1,23 @@
+X:71
+T: WIR WOLLEN EINS SINGEN
+N: E1075
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: Wett - Lied, Streit zwischen Wasser und Wein
+M: 3/8
+L: 1/16
+K: A
+A2 | A2c2c2 | c2B2A2 | B2d2d2 | d2c2
+B2 | c2c2ef | e2d2c2 | c2B2B2 | B4
+A2 | A2c2ce | e3dc2 | f6 | e4
+e2 | e2d2c2 | c2e2c2 | B6 | A4
+S:https://www.folktunefinder.com/tunes/79175
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Wett - lied, streit zwischen wasser und wein
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

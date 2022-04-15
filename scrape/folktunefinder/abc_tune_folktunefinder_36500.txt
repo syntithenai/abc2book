@@ -1,0 +1,29 @@
+X:2105
+T:Greig's
+L:1/16
+M:4/4
+O:Scotland
+R:Slow Air
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009cd.html
+%%ID:000009cd
+K:G min
+DF3 {GF=E}F4 {EF}B3F F4|B3F G3F BGFD {D}F4|\
+DG3 {A}G3A BAG^F G4|B,2B2 B4 d2f2 f4|
+dg3 g3f db3 b4|b2ag f2ed {e}d2cB B2cd|\
+G,3A, B,2C2 DG3 G4||\
+dg3 {g}f2=ef g3f f4|df3 {g}f2=ef b3f f4|
+d3g g3a abag^f g4|G,2g2 g3a bag^f g2a2|\
+{ga}b3a g2f2 {ef}g3f e2d2|\
+{cd}e3d {d}c2B2 FDFB {A}G4|\
+G,3A B,3C DCB,C DCB,A,|G,3A, B,2C2 dG3 G4|]
+S:https://www.folktunefinder.com/tunes/36500
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

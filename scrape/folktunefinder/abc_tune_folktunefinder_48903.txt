@@ -1,0 +1,27 @@
+X:1
+T:37v. Deux que le trait d'Amour touche bien vivement
+T:Prima parte.
+T:Superius
+C:Andr Pevernage
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+M:C
+L:1/4
+N:Original clef, C on first line
+K:F
+F4 A3 B A A A2 z F > G A D/ E/ F/ G/ A/ G/ A/ B/ c3/2 B// A// G/ F/ G/ A/ B/ A/ A/ G// F// G > G
+S:https://www.folktunefinder.com/tunes/48903
+S:http://www.laymusic.org/music/bicinia/deux/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

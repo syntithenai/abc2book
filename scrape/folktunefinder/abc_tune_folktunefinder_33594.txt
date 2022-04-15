@@ -1,0 +1,26 @@
+X: 3912
+T:Cammel's Rondeau. JMT072
+M:4/4
+L:1/8
+Q:180
+S:J Moore,Tyneside,1841.(50b)
+R:Rondeau
+O:England
+A:Northumberland
+Z:C.G.P
+K:D
+"*"G>AG2g2f2|G>AG2e2d2|Gdcd BdAd|BGEA GFED|!
+G>AG2g2f2|G>AG2e2d2|BG=cA dBe=c|B2A2G4:|!
+|:dafd Bgec|dafd Bgec|"*"dAeA fAgA|afed dcBA|!
+d2df ecBA|d2dfe4|fdge afbg|"Da Capo"f2e2e2d2:|]
+S:https://www.folktunefinder.com/tunes/33594
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

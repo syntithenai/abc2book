@@ -1,0 +1,29 @@
+X: 1
+T: the Wonder (Ballyoran)
+C: Sean Ryan
+R: hornpipe
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+B>c "A"\
+| "G"d>B c>A "D7"B>G A>F | "G"G2 G>F G>A B>c | d>g ~g2    b>g d>B | "Am"c>A B>G "D7"A2 B>c |
+| "G"d>B c>A  B>G (3AGF | "G"G2 G>F G>A B>c | d>g ~g2 "D7"f>g a>f | "G"g2 "D7"g>f "G"g2 :|
+|: B>c "B"\
+| "G"d>g ~g2 b>g ~g2 | d>g f>g  e>d B>G | "D7"F>G A>B c>B c>e | "A7"a>g f>e "D7"d2 B>c |
+| "G"d>g ~g2 b>g ~g2 | d>g ~g2 e>d B>G | "D7"F>G A>B c>A D>F | "G"A>G "D7"G>F "G"G2 :|
+|: d>c "C"\
+| "G"B>D G>B d>g f>g | "C"e>c ~c2 G>c e>g | "D7"f>d ~d2 f>g a>f | "G"d>g ~g2 b>g d>c |
+| "G"B>D G>B d>g f>g | "C"e>c ~c2 G>c e>g | "D7"f>d ~d2 f>g (3agf | "G"g2 "D7"g>f "G"g2 :|
+S:https://www.folktunefinder.com/tunes/13727
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/WonderHp_Ballyoran_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/WonderHp_Ballyoran_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/WonderHp_Ballyoran_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

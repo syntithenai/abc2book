@@ -1,0 +1,31 @@
+X:1
+T:Shropshire Lass (The)
+M:4/4
+L:1/8
+%Q:200
+C:Trad 1713
+Z: Sheila A Mainwaring <mainwaring:enta.net> tradtunes 2001-03-16
+S:The Dancing Master Vol II 1713
+B:The Dancing Master Vol II 1713
+B:The Fallibroome Collection, book 4 (1791, selected and edited by Bernard Bentley
+K:D
+ABc \
+| d2d2 c2B2 | A4   A2BA | G2F2 E2FG | AGFE DABc | d2d2 c2B2 |
+| e4   e2f2 | gfed cdec | d6 :|: de | f2f2 e2d2 | g3a  gagf |
+| efef gfge | a4   a2bg | fgef d2ag | fgef dfga | bagf  e3d | d6 :|
+S:https://www.folktunefinder.com/tunes/18109
+S:http://trillian.mit.edu/~jc/music/abc/reel/ShropshireLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ShropshireLass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/ShropshireLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/ShropshireLass_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ShropshireLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ShropshireLass_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

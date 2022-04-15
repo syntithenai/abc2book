@@ -1,0 +1,26 @@
+X:51
+T: Das Meydenburger Lied
+N: A0405
+O: Europa, Mitteleuropa, Deutschland
+N: Coelner Gsgb. 1610.
+R: Romanze, Ballade, Lied, Kriegslied
+M: 4/2
+L: 1/4
+K: F
+F2 | F2G2A2B2 | c4c2
+c2 | B2A2B2cB | A4z2
+A2 | A2c2B2A2 | G3FE2
+F2 | A2B2A2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/80110
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, kriegslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

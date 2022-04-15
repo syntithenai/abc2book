@@ -1,0 +1,26 @@
+X:96
+T: Tagelied
+N: A0112
+O: Europa, Mitteleuropa, Deutschland
+N: Joh. Ott 1534 No. 92.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/8
+K: G
+G2 | _B4B4c4c4 | d8d4z2
+d2 | g4g4=f4d4 | =f3_ed2c2_B4z2
+B2 | =f6e2d4c4 | _B2A2G4=F4z2
+_e2 | d6c2_B4A4 | G4c4_B3AG2F2 | G4A4G6
+S:https://www.folktunefinder.com/tunes/68642
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

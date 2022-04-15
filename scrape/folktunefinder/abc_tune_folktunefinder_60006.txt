@@ -1,0 +1,38 @@
+X:3817
+T:Danza (CT 302)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Santibez de La Fuente, ayuntamiento de Ayer.
+N:Intervienen solamente mujeres.
+O:Santibez de La Fuente (Ayer)
+A:Asturies
+Z:Cancioneru de Torner 302
+M:6/8
+L:1/8
+Q:3/8=80
+W:Entre La Pola y El Pino,
+W:entre La Pola y El Pino,
+W:entre La Pola y El Pino
+W:hay una piedra redonda
+W:hay una piedra redonda,
+W:donde se sientan los majos
+W:cuando vienen de la ronda.
+K:G
+|dde ecd|c2 c-c3|dde ecd|c2 c-c3|
+dde ecd|[M:9/8]cGA _B2A GAF|[M:6/8]G2 G-G3-|G2 z4|
+dde ecd|c2 c-c3|dde ecd|[M:9/8]cGA _B2 A GAF|[M:6/8]G2 G-G3-|G2 z4||
+S:https://www.folktunefinder.com/tunes/60006
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

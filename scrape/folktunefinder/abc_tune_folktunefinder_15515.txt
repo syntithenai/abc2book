@@ -1,0 +1,29 @@
+X: 1
+T: Kiss Me Quick
+O: Trad
+R: march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: DMix
+|: Bc \
+| "D"d4 "(A7)"A3G | "D"F2D2 FGAF | "C"E2c2 E2c2 | E2C2 "(A7)"EFGE \
+| "D"d4 "(A7)"A3G | "D"F3E D2F2 | "C"GFED C2E2 | "D"D2D2 D2 :|
+|: ag \
+| "D"f3e d2a2 | f2d2 fgaf | "C"e3d c2g2 | e2c2 efge \
+| "D"f2d2 "Em"g2e2 | "D"a2f2 "C"g2e2 | "A7"gfed ^c2e2 | "D"d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/15515
+S:http://trillian.mit.edu/~jc/music/abc/march/KissMeQuick.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/KissMeQuick_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/KissMeQuick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/KissMeQuick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/KissMeQuick.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/KissMeQuick_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

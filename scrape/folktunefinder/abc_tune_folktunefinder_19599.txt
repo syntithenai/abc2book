@@ -1,0 +1,33 @@
+X: 1
+T: Miss Margaret Gordon
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: ADor
+|: e \
+| "Am"c<A A>B "G"G>B d<B \
+| "Am"c<A A>B c>d e<a \
+| "Am"c<A A>B "G"G>B d<e \
+| "F"c<A "E7"B>^G "Am"A3 :|
+e \
+| "Am"a<e e>g "G"B<G d<B \
+| "Am"a<e e>f "G"g>a b>a \
+| "C"g<e e>g "G"G>B d<e \
+| "Am"c<A "E7"B>^G "Am"A3 |]
+^g \
+| "Am"a<e e>g "G"B<G d<B \
+| "Am"a<e e>f "Em"g>b a<b \
+|  "G"g>a e<g    d<g B<d \
+| "E7"e>c e/d/c/B/ "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/19599
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MsMargaretGordonS_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/strathspey/MsMargaretGordonS_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MsMargaretGordonS_Am.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

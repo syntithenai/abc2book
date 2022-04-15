@@ -1,0 +1,23 @@
+X:196
+T: HANS SATTLE MIR DEN GAUL
+N: E0102
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod, Verrat
+M: 2/4
+L: 1/16
+K: C
+C4 | C2G,2A,2G,2 | C6
+E2 | D2C2B,2D2 | G,4z2
+C2 | C2G,2A,2E,F, | G,4E,2
+G,2 | C2G,2E,2D,2 | C,4
+S:https://www.folktunefinder.com/tunes/78637
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, liebe, leid, tod, verrat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

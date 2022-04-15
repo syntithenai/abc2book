@@ -1,0 +1,28 @@
+X:17944
+T:Two-Step Polka
+C:Ward Allen
+R:Polka
+M:4/4
+L:1/8
+K:A
+A,CEA c2 c2|B2 Bc de c2|EFGB e2 e2|d2 ed ce A2|
+A,CEA c2 c2|B2 Bc de c2|EFGB edcB|A2 e2 A4:|
+K:D
+|:F6 G2|A6 FG|A2 d2 c3 d|B2 A2 G2 F2|
+F2 E6|c4 -cd c2|G4 c3 d|B2 A2 G2 _F2|
+F2 -F3 G3|A6 FG|A2 d2 c2 d2|=c2 B2 G3 B|
+B2 d2 c2 d2|A2 d2 F2 d2|B2 d2 c2 e2|dd d2 d4:|
+|:[F6 A6] [G2 B2]|[A4 c4] [F4 A4]|[G4 B4] [A4 c4]|[F4 -A4] F3/2E/ D2|
+[F6 A6] [G2 B2]|[A4 c4] [F4 A4]|[G4 B4] [A4 c4]|[F8 A8]:|
+S:https://www.folktunefinder.com/tunes/39315
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

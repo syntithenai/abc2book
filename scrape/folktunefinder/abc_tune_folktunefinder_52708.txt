@@ -1,0 +1,29 @@
+X: 5
+T:Hunters Chorus,The. HS.05
+M:2/4
+L:1/8
+Q:50
+C:"Nat.Quads.No.4,English"
+S:Henry Stables MS,Cumbria,late19thC
+R:Gallop
+O:Walthwaite,nr.Ambleside.
+A:England
+Z:vmp.Chris Partington
+K:D
+"with grandeur,f"d2 d/e/f/g/|a2ff|.e.a .e.a|"qu's"f/g/f/e/ dA|!
+d2(d/e/f/g/)|a2"crs"ff|f/e/d/e/ fe|(d2d2)||!
+"mf"f2ff|d2dd|g2gg|e2ee|f2ff|g2ff|f/e/d/e/ fe|(d2d2)::!
+"p"d2Af|d2Af|(a/g/)e (a/g/)e|(a/g/)e (a/g/)e|!
+d2Af|d2Af|(a/g/)e (a/g/)e|d2-d2::!
+AF/F/ Fd/d/|dA/A/ A"qu's"f/f/|f2e/d/c/B/|A2FA/A/|!
+AF/F/ Fd/d/|dA/A/ Af/f/|f2 e/d/c/e/|d2d2||
+S:https://www.folktunefinder.com/tunes/52708
+S:http://www.village-music-project.org.uk/abc/stables.abc
+% Rhythm Gallop
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

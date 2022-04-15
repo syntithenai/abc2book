@@ -1,0 +1,28 @@
+X:1
+T: the Gold Ring
+T:Fa\'inne O\'ir Ort
+T: the old "Gold Ring"
+B:Breathnach's "Ceol Rince na hE/ireann", I, no. 47
+Z:Paul de Grae 
+D:Conal O'Grada "Top of Coom" 1990 (Claddagh CCF 27 CD)
+R:double jig
+M:6/8
+L:1/8
+K:D
+D/B,/ | ~DB,A, DFA | dfd ~edA | ~BdB AFD | ~EDE FDB, |
+~A,G,A, DFA | dfd ~edA | ~BdB AFE | FDD D2 :|
+|:B | ~AFA dfa | ~bgb afd | ~gag ~faf | ~ede fdB |
+~AFA dfa | ~bgb ~afd | BdB AFA | Bdd d2 :|
+|:f/e/ | dFF ~AFE | DFE DFA | dfd ~ede | fdB BAB |
+dFF ~AFE | DFE DFA | dfd ~ede | fdd d2 :|
+|:B | ~AFA dfd | ~BAB dAF | DEF EDE | FDB, ~B,BA |
+~AFA ~dfd | ~BAB dAF | DEF ~EDE | FDD D2 :|
+S:https://www.folktunefinder.com/tunes/14251
+S:http://trillian.mit.edu/~jc/music/abc/jig/GoldRing_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GoldRing_1.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

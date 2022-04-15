@@ -1,0 +1,26 @@
+X:47
+T: ES STAND EINE LINDE IM TIEFEN TAL
+N: F0135
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied, Treue
+M: 2/4
+L: 1/16
+K: C
+G,2 | C2CCCEGE | D3CB,2
+D2 | C2A,2A,2C2 | G,3F,E,2
+G,2 | C2C2D2CD | E4D4 | C4z2
+C2 | D2DDD2E2 | D3CB,2
+B,C | D2D2D2E2 | D3CB,2
+G,2 | C2C2D2CD | E4D4 | C4z2
+S:https://www.folktunefinder.com/tunes/69607
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, treue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

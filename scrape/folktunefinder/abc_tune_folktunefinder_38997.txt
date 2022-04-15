@@ -1,0 +1,29 @@
+X:17626
+T:Ton simple plin
+%T:TS3
+G:Kazimodal
+R:Das Plin
+C:Traditionnel
+Q:C2=160
+P:C5
+M:4/4
+S:Tonio Breizh-Izel 1213 (Duod)
+K:Em
+P:C
+\large
+"Em"EB/2B/2 sBsc "D"Ac "C"s{Bc}sBG |1 "G"EB/2B/2 sBsc "Am"Ac "Bm"B2 \
+:|2 "Am"EA/2A/2 AB "C"G2 "Em"E2|
+"Em"s{GA}sG/2F/2G "C"E>E "Am"GE "D"F2 |1 "G"s{Bc}sBE "Am"sFsG "C"AG "D"F \
+:|2 "Em"Be "C"sg/2sf/2e "D"fd "A"e2 ||
+\bigskip
+S:https://www.folktunefinder.com/tunes/38997
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Das plin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

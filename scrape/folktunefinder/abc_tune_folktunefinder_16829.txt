@@ -1,0 +1,45 @@
+X: 1
+T: the Bottom of the Punch Bowl
+O: Trad
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D2D2 d3e \
+| d2D2 FGAF \
+| "Em"E2E2 efgf \
+| "A7"e2E2 FGAF \
+| "D"D2D2 d3e |
+| fedB d3A \
+| "G"B3F "A7"A3E \
+| "D"F2D2 D2 :: de \
+| "D"fedB "/C#"ABde \
+| "Bm"fedB "/A"d3A |
+| "G"B3d "D/F#"ABde \
+| "Em"f2e2 "A7"e2de \
+| "D"fedB "/C#"ABde \
+| "Bm"fedB "/A"d3A \
+| "G"BdBF "A7"ABAE \
+| "D"F2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/16829
+S:http://trillian.mit.edu/~jc/music/abc/reel/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BottomOfThePunchBowl2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/BottomOfThePunchBowl2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/BottomOfThePunchBowl2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BottomOfThePunchBowl.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/BottomOfThePunchBowl2_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:26
+T:De madrigale
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+M:3/2 %org. time signature: C3
+Z: Frank Nordberg <frnordbe@online.no> abcusers 2001-7-5
+%org. no barlines
+L:1/2
+K:Gmix
+V:1
+C>DE|D>EF|C>DE|D3::E>DE|C>DE|F2E|D3:|
+V:2
+G,2C|B,2A,|A,2G,|G,3::C2C|CA,B,|DA,C|B,3:|
+V:3 clef=treble-8
+E,2E,|G,2F,|E,2C,|D,3::G,>F,G,|A,2G,|F,2G,|G,3:|
+V:4 clef=bass,,
+C,>B,,C,|G,,2D,|A,,>B,,C,|G,,3::C,2C,|F,2E,|D,2C,|G,,3:|
+S:https://www.folktunefinder.com/tunes/18654
+S:http://trillian.mit.edu/~jc/music/abc/song/DeMadrigale_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/DeMadrigale_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/DeMadrigale_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

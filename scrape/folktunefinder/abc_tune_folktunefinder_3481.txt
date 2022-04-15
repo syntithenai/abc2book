@@ -1,0 +1,21 @@
+X: 1
+P: Swinging on a Gate
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:"G"gedB G2AB | "Am"cABG AGEG | "G"DGBd g2g2 | "D7"fgag fdef |
+| "G"gedB G2AB | "C"cABG AGEG | "Am"cABG AGEG | "D7"DGGF "G"G4 :|
+|:"G"gfga bagf | "Em"gfed B2AG | "Am"EAAB cBAG | EAAB "D7"cdef |
+| "G"gfga bagf | "Em"gfed edBd | "Am"cABG AGEG | "D7"DGGF "G"G4 :|
+S:https://www.folktunefinder.com/tunes/3481
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR65.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/SwingingOnAGate.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

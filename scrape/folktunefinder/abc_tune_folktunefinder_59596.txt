@@ -1,0 +1,36 @@
+X:709
+T:Vamos danzar (CT 081)
+T:Danza Moderna (CT 081)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Llamo, ayuntamiento de Riosa.
+N:Intervienen solamente mujeres.
+N:Se la llama "danza moderna", en relacin con la sealada con el nmero CT 103, a la cual consideran de mucha antiguedad.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 081
+M:2/4
+L:1/8
+Q:1/4=112
+K:C
+|:GA Bc|d3e|d2 c2|ce dc|B3A|
+G2 A2|Bd cB|A3B|A2 G2-|G2z2:||
+W:Vamos danzar un pocu, (bis)
+W:por costumbre que tenemos, (bis)
+W:que la gente divertida
+W:no por eso vale menos.
+W:
+S:https://www.folktunefinder.com/tunes/59596
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

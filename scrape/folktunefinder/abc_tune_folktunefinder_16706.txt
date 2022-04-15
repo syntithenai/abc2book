@@ -1,0 +1,26 @@
+X: 1
+T: the Wise Maid
+T: All Around the World
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   DE | "D"F3G     FEDE | FAAB     AFED | "D"d2e{f}g "A7"fdec | "D(G)" dBAF  "A7"BEEG |
+      | "D"F3G     FEDE | FAAB     AFED | "D"d2e{f}g "A7"fdec | "G"dB"A7"AG   "D"FD  :|
+|: FA | "D"d2AG    FDFA | dfaf "A7"gfeg | "D"fAdf    "A" eAce | "G(E7)"dfed   "A"cAAc |
+      | "G"BDGB "D"ADFA | dfaf  "A"gfed | "G"Bd"A"ce "D" dBAG |    "A7"FAEG   "D"FD  :|
+S:https://www.folktunefinder.com/tunes/16706
+S:http://trillian.mit.edu/~jc/music/abc/reel/AllAroundTheWorld_D_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/WiseMaid_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/AllAroundTheWorld_D_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/WiseMaid_D_4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/AllAroundTheWorld_D_4.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

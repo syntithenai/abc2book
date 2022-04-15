@@ -1,0 +1,25 @@
+X:14
+T:Spotted Pony
+Z:John Chambers, modified by Tom Novelli
+S:Sessions
+M:C|
+L:1/8
+K:D
+|: "D"D2DD "A7"E2EE | "D"F2FF "G"GFG2 | "D"ABde fede | f2a2 "A7"e4 |
+|  "D"D2DD "A7"E2EE | "D"F2FF "G"GFG2 | "D"ABde fedB | "A7"AFE2 "D"D4 :|
+|: "D"f2a2 f4 | "G"efed B4 | "D"ABde fede | f2a2 "A7"e4 |
+|  "D"f2a2 f4 | "G"efed B4 | "D"ABde fedB | "A7"AFE2 "D"D4 :|
+% ----------------------------------------------------------------------------
+S:https://www.folktunefinder.com/tunes/58825
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+S:http://bespin.org/%7Etom/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

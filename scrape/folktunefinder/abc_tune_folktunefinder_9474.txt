@@ -1,0 +1,20 @@
+X: 14
+T: Vi \"aro musikanter
+T: We are musicians
+O: Scandinavia
+P: ABCB
+M: 2/4
+L: 1/8
+K: D
+   A "A"| "D"d>c de | f2 ff | "A7"e>d ef | "D"d2 z :|
+w: Vi \"a-ro mu-si-kan-ter allt i-fr\aan Ska-ra-borg.
+   z "B"| "D"f2 a2 | f2 a2 | "A7"e>e ee | "D"fe dz | f2 a2 | f2 a2 | "A7"e>e ee | "D"d2 z ||
+w: Vi kan spe-la fi-o-li-o-li-o-lej. Vi kan spe-la fl\"ojt och kla-ri-nett.
+|: A "C"| "D"dd/d/ de | ff/f/ ff | "A7"ee/e/ ef | "D"d2 z :|
+S:https://www.folktunefinder.com/tunes/9474
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn_w.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

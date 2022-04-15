@@ -1,0 +1,33 @@
+X: 98
+T:Minuet. JaW.098
+M:3/4
+L:1/8
+Q:1/4=120
+C:"A Good One"
+S:James Winder Ms, Lancashire, 1835-41
+R:Minuet
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+e3f^d2|e2g2f2|e2^d2e2|fefgf2|!
+"="B4A2|G2e2G2|F2e2^d2|e6:|!
+|:B2BcBc|d3cB2|ABcBAG|"="F3ED2|!
+d2dcB2|edefgG|B2cBAB|G6:|!
+|:g2g2b2|f2f2a2|edegfe|"="^d3^cB2|!
+e4B2|A2G2F2|E2e2^d2|e6:|]
+S:https://www.folktunefinder.com/tunes/47635
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

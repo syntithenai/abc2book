@@ -1,0 +1,25 @@
+X:339
+T: "Maria's Kirchgang "
+N: Z1019
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade, Maria, Tod, geistlich
+M: 3/4
+L: 1/16
+K: A
+E4 | A3Bc4B2d2 | c2B2A4z2
+E2 | A3Bc4B2d2 | c2B2A4z2
+B2 | E2G2A2F2B2c2 | A2G2F4z2
+B2 | E2G2A2F2B2c2 | A2G2F4
+S:https://www.folktunefinder.com/tunes/69198
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, maria, tod, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

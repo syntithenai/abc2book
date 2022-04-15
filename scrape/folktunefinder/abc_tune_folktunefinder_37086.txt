@@ -1,0 +1,26 @@
+X:5035
+T:the Rakes of Kildare
+M:6/8
+O:Ireland
+O:Scotland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000874.html
+%%ID:00000874
+K:A dorian
+E| EAA AGA| Bcd e2f| ~gfg ege| dBG G2E|\
+EAA AGA| Bcd e2f| ~gfe dBG| A3 A2:|
+a| aea aea| aea b2a| ~g2d ege| dBG G2a|\
+aea aea| aga b2a| ~g2e dBG| A3 A2 a|
+aea aea| aga b2a| ~g2d ege| dBG BAG|\
+EAA AGA| Bcd e2f| ~gfe dBG| A3 A2|]
+S:https://www.folktunefinder.com/tunes/37086
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

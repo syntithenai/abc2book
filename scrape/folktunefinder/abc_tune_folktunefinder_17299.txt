@@ -1,0 +1,26 @@
+X:1
+T:Green Mountain Petronella
+R:reel
+Z:John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+K:A
+|: "A"E2A2 AGAF | E2c2 cABc | "Bm"d2dc Bcde | "E7"f2e2 e4 |
+|  "A"E2A2 AGAF | E2c2 cABc | "Bm"dedc BAGA | "E7"B2A2 "A"A2z2 :|
+|: "A"{g}a2a2 "E7"g2g2 | "D"fgaf "A"e4 | "D"fefg "A"a2 c2 | "E7"c2B2 B4 |
+| "Fm"a2a2 "E"g2g2 | "D"fgaf "A"e4 | "D"fefg "A"a2c2 | "E7"c2B2 "A"A2z2 :|
+S:https://www.folktunefinder.com/tunes/17299
+S:http://trillian.mit.edu/~jc/music/abc/reel/GreenMtPetronella_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/GreenMtPetronella_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/GreenMtPetronella_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/GreenMtPetronella_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/GreenMtPetronella_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GreenMtPetronella_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

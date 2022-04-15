@@ -1,0 +1,25 @@
+X:19015
+T:Shingly Beach
+R:Air
+C:Tom Anderson, 1972
+O:Scotland, Shetland
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+D|:"G"G4 "C"c4|"G"Bd "Am"cA "D"F2 D2|"G"G2 Bd "Am"E2 Ac|"D"D2 FA "Am"C2 FA|
+"G"G4 "Am"c4|"G"B2 AG "D"A2 D2|"G"G2 B2 "Am"E2 A2|1"D"D2 GF "G"G3 D:|2"D"D2 GF "G"G3 e||
+"G"d2 cB "C"c2 f2|"G"g2 dB "C"c2 "D"d2|"G"B2 d2 "D7"A2 c2|"Em"B2 AG "D7"A2 c2|
+"G"d2 cB "C"c2 "D"f2|"G"g2 dB "C"c2 d2|"C"cB AG "Am"E2 A2|"D"D2 GF "G"G3 e|
+"G"d2 cB "C"c2 "D"f2|"G"g2 dB "C"c2 "Bm"d2|"G"B2 d2 "Am"A2 c2|"G"B2 AG "D"A2 D2|
+"G"G4 "Am"c4|"G"Bd "Am"cA "D"F2 D2|"G"G2 B2 "Am"E2 A2|"D"D2 GF "G"G4|]
+S:https://www.folktunefinder.com/tunes/51324
+S:http://www.pghardy.net/concertina/tunebooks/pgh_session_tunebook.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

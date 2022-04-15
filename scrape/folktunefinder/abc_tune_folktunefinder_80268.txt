@@ -1,0 +1,26 @@
+X:209
+T: Osterruf von Sanct Thoman
+N: A0563
+O: Europa, Mitteleuropa, Deutschland
+N: Corner, gr. Gsgb 1625 und 1631 No. 143.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: C
+C | E2F | G2E | F2G | C2
+C | E2F | G2E | F2G | C2
+F | EDC | A,2G, | DFD | C2
+F | EDC | A,2G, | DFD | C2
+S:https://www.folktunefinder.com/tunes/80268
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

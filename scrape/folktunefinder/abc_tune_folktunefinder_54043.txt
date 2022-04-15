@@ -1,0 +1,26 @@
+X:175
+T:Miss Sally Hunter of Thurston
+M: 6/8
+L: 1/8
+Q:1/4=200
+K:D % 2 sharps
+A|B2A d2A|B^cd efg|efd ^cBA|
+"D"DFA d2A|"G"B2A "D"d2A|"G"Bcd egf|"A"efd cBA|\
+"D"DFA d2A|"G"B2A Bcd|"A"egf edc|"D"d3 D2:||\
+g|
+"D"fed "A7"g2e|"D"a2f "G"b2g|"D"fef def|"A7"efd cBA|\
+"D"fed "A7"g2e|"D"a2f "G"b2g|"D"fga "A"Adc|"D"d3 d2g|\
+"D"fdf "A"geg|"D"afa "Em"bgb|"D"afd Bcd|"A"efd cBA|\
+"D"DFA d2A|"D"B2A Bcd|"A7"egf edc|"D"(d3 [F2d2])||
+% <A name="D1X176">
+S:https://www.folktunefinder.com/tunes/54043
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.abc
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/SSF_Dance.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

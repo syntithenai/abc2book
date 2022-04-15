@@ -1,0 +1,27 @@
+X:392
+T: WIE HEHR IM GLASE BLINKET
+N: F0701
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Trink - Lied
+M: 4/4
+L: 1/8
+K: D
+A,2 | D2D,2F,2D,2 | A,3B,A,2
+E2 | F2E2D2F2 | E4z2
+A,2 | D2A,2F2F2 | E3DC2
+C2 | D2E2F2DB, | A,4z2
+A,2 | E2A,2F2A,2 | G3FE2
+E2 | F3FF2F2 | D3CB,2z2
+G4GGGG | G4z4
+E4EEEE | E4z2
+E2 | F2D2B,2^G,2 | A,8 | D,4z2
+S:https://www.folktunefinder.com/tunes/69952
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

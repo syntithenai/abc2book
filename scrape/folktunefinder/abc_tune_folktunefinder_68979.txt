@@ -1,0 +1,26 @@
+X:120
+T: KEIN FEUER, KEINE KOHLE KANN BRENNEN SO HEISS
+N: Z0120
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Erzaehlung, lustige Romanze
+M: 3/4
+L: 1/16
+K: F
+C2 | F4F4G2G2 | A4A4z2
+c2 | d2c2B4A4 | G8z2
+c2 | d2c2B2c2d2e2 | fefdc4
+d2cB | A4A2A2G4 | F4F2A2G2B2 | A4A2c2B2d2 | c4f2z2
+d2cB | A4A2A2G4 | F8z2
+S:https://www.folktunefinder.com/tunes/68979
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Erzaehlung, lustige romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1850
+T:French Schottis #2
+M:4/4
+O:France
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000707.html
+%%ID:00000707
+K:D min
+AB|\
+c3B BA GF|d3c BA GF|G2GA G2FG|A3B AG FE|
+D3E F2EF|G2GA GF AG\
+|1 F3G FG AB :|2 F3G FE FG::
+F2FG F2EF|G3A GF AG|F3G FE DC|[F4C3]G FE FG|
+F2FG F2EF|G3A GF BA\
+|1 G3A GA AB :|2 G3A DD FG:|
+S:https://www.folktunefinder.com/tunes/36449
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

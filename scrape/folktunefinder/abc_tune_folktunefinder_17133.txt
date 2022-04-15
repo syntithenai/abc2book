@@ -1,0 +1,29 @@
+X: 1
+T: Faroe Rum
+O: Shetland
+R: reel
+S: handwritten MS
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A(A2F) ABd(B | "D"AF)FD "A7"E2(FG) | "D"A(A2F) ABde | "A7"fafe "D"d2[f2d2] :|
+|: "A7"e(AcA) e(AcA) | "D"ABde f2af | "A7"e(AcA) e(AcA) | "A7"e(gfe) "D"d2d2 :|
+S:https://www.folktunefinder.com/tunes/17133
+S:http://trillian.mit.edu/~jc/music/abc/reel/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/r16/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/r16/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/reel/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Shetland/r16/Faroe_Rum_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Shetland/reel/Faroe_Rum_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

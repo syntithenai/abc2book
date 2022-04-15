@@ -1,0 +1,29 @@
+X:6
+T:Fantaisie
+M:2
+Q:"Modr"
+L:1/8
+K:C
+%%staves [1 2]
+%%continueall 1
+V:1
+g2fe defg | !!e2dc BcdB | uc2de fefd | ue2g2 a2!!gf | ug2e2 f2!!ed | ue2g2 c'3d' | !!b2c'b !!a3g | !!^f2{e}d2 babc' | ud'2!!c'b !!a3g- |1
+g8 ::2 g8 | z2ga gfed | ue2ef efge | uf2fe !!d2c2 | !!B2ef edcB | uccde uf2fe | fedc !!B3A | A2e2 f2!!g2 |
+a2ag agfe | !!d2d2e2!!f2 | g8- | ggfe f4- | ffed edef | gefg a_bga | fgef dgfe | d2e2 !!d3c- |1 c8 :|2 c8 |] 
+V:2
+c4z4 | e2dc Bcde | !!e2dc BcdB | c2e2 f2!!ed | ue2g2 a2!!gf | ug2ed ue3f | !!dgab uc'3b | !!a2^f2 gfga | ub2!!ag !!^f3g - |1
+g2gf edcB ::2 g2de dcBA | B2Bc BGAB | c2cB c2A2 | d2dc B2A2 | !!^g2cd cBA^G | A4 zABc | dcBA !!G3A | A2c2d2e2 |
+f2fe fedc | !!B2B2 c2!!d2 | e2ed edce | A2dc dcBd | GGAB cBcd | ecde fgef | decd Bedc | B2c2 !!B3c- |1 c2de dcBA :|2 c8 |]
+S:https://www.folktunefinder.com/tunes/40169
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

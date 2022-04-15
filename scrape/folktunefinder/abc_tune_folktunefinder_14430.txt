@@ -1,0 +1,23 @@
+X: 1
+T: Joe McDiarmid's Jig
+C: Rob Loch
+O: arr Muriel Johnstone
+M: 6/8
+L: 1/8
+K: D
+d \
+| "D"A2d dcd | "G"B2d "D"A2d | "D"f2d dcd | "A7"e3 e2f \
+| "D"A2d dcd | "G"B2d "D"A2d | "D"f2e "G"edB | "A7"Add "D"d2 :|
+|: e \
+| "D"fdd A2d | "G"Bdd "D"A3 | "D"fdd "E7"ABd | "A7"e3 e3 \
+| "D"fdd A2d | "G"Bdd "D"A2d | "D"f2e "G"edB | "A7"Add "D"d2 :|
+S:https://www.folktunefinder.com/tunes/14430
+S:http://trillian.mit.edu/~jc/music/abc/jig/JoeMcDiarmidsJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/JoeMcDiarmidsJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JoeMcDiarmidsJ_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

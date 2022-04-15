@@ -1,0 +1,38 @@
+X:590
+T:Pastor que tas nel monte (CT 405)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Variante de CT 403, CT 404, CT 406,  CT 407, CT 408, dictada por D. Juan Ura Ru, de veintiocho aos, de Uviu, quien dice la aprendi en Somiedu.
+A:Asturies
+O:Somiedu
+Z:Cancioneru de Torner 405
+M:3/8
+L:1/8
+Q:1/8=120
+K:Cm
+G|ccB|c2 B|dd=B|
+dd{=B}c|_B2 {G}A|GGF|G2 B|
+dd{=B}c|_B2 {G}A|GAG|F3-|FzB|
+dd{=B}c|_B2 {G}A|GGF|G3-|G z||
+W:Mociquina de Santianes
+W:que comes pan de centeno,
+W:ai, ai, ai!
+W:si te casaras conmigo,
+W:s, s,
+W:comieras pan de lo bueno
+W:y anda!
+W:
+S:https://www.folktunefinder.com/tunes/59477
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

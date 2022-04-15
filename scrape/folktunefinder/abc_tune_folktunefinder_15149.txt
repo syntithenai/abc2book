@@ -1,0 +1,27 @@
+X: 1
+T: the Tempest
+T: Ap Shenkin
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d/c/ \
+| "G"B2B Bgf | "C"e2e efg | "G"ded dcB | "D7"cAA A2d/c/ \
+| "G"B2B Bgf | "C"e2e efg | "G"ded "D7"cBA | "G"G2B G2 :|
+|: g/a/ \
+| "G"b2g "D7"a2f | "C"gfg dcB | "C"cde "G"dgb | "D7"BAA A2g/a/ \
+| "G"b2g "D7"a2f | "C"gfe "D"agf | "G"bag "C"fge | "G"dgf "D7"edc "d.C."y|]
+S:https://www.folktunefinder.com/tunes/15149
+S:http://trillian.mit.edu/~jc/music/abc/jig/Tempest_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Tempest_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Tempest_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Tempest_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/jig/Tempest_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

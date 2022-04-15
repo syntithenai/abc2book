@@ -1,0 +1,33 @@
+X: 6
+T: Roaring Jelly
+C: J-2
+C: Irish, New England
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A,| "D"DED F2A| d2f "A"ecA| "G"G2B "D"F2A| "A"E2F GFE|
+    "D"DED F2A| d2f "A"ecA| "G"Bgf "A"edc| "D"d3- d2 :|
+\
+a| "D"a2f d2f| A2a agf| "A"g2e c2e| A2g gfe|
+   "D"f2 d "A"g2 e| "D"a2 f "G"bag| "D"fed "A"edc| "D"d3- d2 a|
+   "D"agf fed| Adf agf| "A"gfe ecA| Ace gfe|
+   "D"fed "A"gfe| "D"agf "G"bag| "D"fed "A"edc| "D"d3- d2 |]
+%%text 9/1/98.  Also known as "Smash the Windows".
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-2, "Connaught-Man's Ramble", same as J-1
+%%textfont       Times-Roman 9.0
+% ---------- page 4 ----------
+S:https://www.folktunefinder.com/tunes/1828
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_1_38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_1_38.abc
+S:http://roaringjelly.org/music/sets/RJ_Jigs_1_38.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

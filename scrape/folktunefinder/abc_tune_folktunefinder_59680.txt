@@ -1,0 +1,36 @@
+X:793
+T:Xiraldilla (CT 160)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en La Espina, ayuntamiento de Salas.
+A:Asturies
+O:La Espina (Salas)
+Z:Cancioneru de Torner 160
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+G2B|ddc|dd2|Bdd|cB2|G2B|ddc|
+dB2|AcB|AG2||FGA|c2B|AGG|G3|
+FGA|c2B|AGG|G3|FGA|c2B|AGG|G3||
+W:Cmo quieres que tenga la cara alegre,
+W:si me dijo mi amante que no me quiere
+W:Ay, de la pobre corderilla!
+W:Va por el monte, va perdida;
+W:va por el monte, va rendida.
+W:
+S:https://www.folktunefinder.com/tunes/59680
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

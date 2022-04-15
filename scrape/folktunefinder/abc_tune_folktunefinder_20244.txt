@@ -1,0 +1,39 @@
+X: 2
+T: Teardrop Waltz
+C: Kim Hyung Seok
+N: From the Korean drama "Spring Waltz"
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: AABA
+K: Am
+|:"Dm"g2 f2 ^GA | "E"f2 e2 ^AB \
+| "Am"d2 c2 ^DE | "Am/C"B2 A^G Ae \
+| "Dm"g2 f2 ^GA | "G"e2 d2 ^AB |
+| "C"a2 g2 ^f2 | "C"g2 Bc eg \
+|| "D7"b2 a2 bc'| "B"~b2 a2 f^f \
+| "Em"a2 g2 ab | "A7/C#"~a2 g2 e^f \
+| "F#7"g2 ^f2 e2 |
+|1 "F#7"c2 ^A2 ^FE | "B7"^D3 E ^FA | "E"^G3 A B2 \
+:|2 "B"e4 ^d2 | "E"e6- | !fine![e4^G4] GB |]
+[|"Dm"[fA][eG] [fA]A ^GA | "G"_AG =A^A BG \
+| "C"e^d eG ^FG | "/F"^GA "/G"Bc "/A"ec \
+| "Bm"ed d^c de |
+| "E"fe ^de ^ge' \
+| "Am"[d'f][c'e] [c'e][bd] [bd][c'e] | "C"[bd][c'e] [bd][ac] "F"[^gB][ac] \
+||"Dm"fe fc' bc' | "G"^ab g^f gd |
+| "C"e^d eb ab | "F"^ga fe dc | "Bb"ed d^c d2 \
+| "Bm"ed d^c d2 | "B"^dc BA ^AB \
+| "E"f2 He2 "d.C."ef |]
+S:https://www.folktunefinder.com/tunes/20244
+S:http://trillian.mit.edu/~jc/music/abc/waltz/TeardropWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

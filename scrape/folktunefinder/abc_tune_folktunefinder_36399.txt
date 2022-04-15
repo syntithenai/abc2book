@@ -1,0 +1,28 @@
+X:1600
+T:Edinburgh Castle
+A:North-West
+M:C|
+N:P23 1/1
+O:England
+R:Reel
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000058f.html
+%%ID:0000058f
+K:D
+DFA2 AG/2F/2A2          | DFAD GEEF |\
+DFA2 AG/2F/2 AB/2c/2    | dBAF EDEF ||
+DFd2 ed/2c/2 d2         | DFdf edef | \
+DFdf ed/2c/2 df         | {f}ed/2c/2 df edef ||
+(3DEF (3FFF (3FFF F>E   | (3DEF (3FFF (3GEE E>F |\
+(3DEF (3FFF (3FFF (3FFF | (3dBB (3AFF (3GEE E>F ||
+d3f          AFdf       | AFdf         edef     |\
+defd         eBdF       | DD/2D/2 AF   E3c |]
+S:https://www.folktunefinder.com/tunes/36399
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

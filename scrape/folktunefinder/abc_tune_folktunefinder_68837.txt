@@ -1,0 +1,27 @@
+X:291
+T: Muscatellerlied
+N: A0335A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie von A0334 von Boehme in den Tripeltakt gesetzt.
+R: Romanze, Ballade, Lied, Trinklied
+M: 6/4
+L: 1/4
+K: F
+C | F2FG2G | A2AG2
+c | A2FG2E | F3F2
+C | F2FG2G | A2AG2
+c | A2FG2E | F3F2
+A | c2cG2G | A2AG2
+G | c2cG2G | A2AG2
+c | c2AG2B | A2GF2
+S:https://www.folktunefinder.com/tunes/68837
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

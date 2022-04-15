@@ -1,0 +1,27 @@
+X:555
+T: DIE DUNKLE NACHT IST NUN DAHIN
+N: F1080
+O: Europa, Mitteleuropa, Deutschland
+R: Trost - Lied, religioes
+M: 6/4
+L: 1/8
+K: D
+D2 | =C4_B,2A,4G,2 | =F,3E,D,E,C2z2
+E,2 | =F,4F,2G,4A,2 | A,4G,2A,2z2
+D2 | =C4_B,2A,4G,2 | =F,3E,D,E,C2z2
+E,2 | =F,4F,2G,4A,2 | A,4G,2A,2z2
+A,2 | =C2G,2_B,A,A,4A,2 | G,3=F,E,2F,2F,2
+A,2 | B,4C2D3E=F2 | E3DC2D2D2
+S:https://www.folktunefinder.com/tunes/70115
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Trost - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

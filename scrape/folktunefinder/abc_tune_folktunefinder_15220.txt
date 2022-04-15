@@ -1,0 +1,26 @@
+X: 1
+T: Up Country
+C: Don Messer
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"D7"c \
+| "G"B2c dcB | "C"c2A "Am"f2g | "D7"agf e2d | "G"g2B d2B \
+| "G"G2B dcB | "C"c2A "Am"f2g | "D7"fed cBA | "G"G3 G2 :|
+|: ga \
+| "G"b2g dcB | "C"cBA "Am"f2g | "D7"agf e2d | "G"g2B dga \
+| "G"b2g dcB | "C"c2A "Am"f2g | "D7"fed cBA |1 "G"GBd f :|2 "G"G3 z |]
+S:https://www.folktunefinder.com/tunes/15220
+S:http://trillian.mit.edu/~jc/music/abc/jig/UpCountry_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/UpCountry_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

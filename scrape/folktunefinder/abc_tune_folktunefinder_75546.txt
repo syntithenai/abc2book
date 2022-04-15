@@ -1,0 +1,28 @@
+X:63
+T:Little Fishie
+C:Trad
+S:Northumbrian Minstrelsy
+M:3/2s
+K:G
+D G G G F A |G B B B c e| d B B G F G| A B c E F2|  D G G G F A |G B B B c e|\
+d B B G \
+L:1/8
+AcBd| \
+L:1/4
+c E E F G2:| d g f g d B | A B c d B2| d g f g f g | e b a ^c d2-|d =f e d c B |\
+c e A G F2| d B B G \
+L:1/8
+AcBd |\
+L:1/4
+c E E F G2:|
+S:https://www.folktunefinder.com/tunes/75546
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/north1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/north1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

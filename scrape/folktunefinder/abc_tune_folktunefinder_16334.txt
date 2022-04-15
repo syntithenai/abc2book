@@ -1,0 +1,24 @@
+X: 1
+T: Godingen
+C: Eivor Kjellberg
+S: Matt Fichtenbaum 2002-7
+M: 3/4
+L: 1/16
+Q: 1/4=110
+K: G
+(D2 \
+|: G2)Bd g4 b3a | g2eg (f2d2) B2G2 | c2(dc B2)(cB A3)F | G2FG A2GF E2D2 |
+|  G2Bd  g4 b3a | g2eg (f2d2) B2G2 | c2(dc B2)(cB A3)G | F2EF G6 D2 :|
+|: (DG)BG cGBG DGBG | A,EcE A,EcE A,EcE | DGBG cGBG DGBG | A,EcE A,EcE A,EcE |
+| G2Bd g4 b3a | g2eg (f2d2) B2G2 | c2Bc d2cB A2G2 |1 F2EF G6 (D2y) :|2 F2EF [G6G,6] z2 |]
+S:https://www.folktunefinder.com/tunes/16334
+S:http://trillian.mit.edu/~jc/music/abc/pols/Godingen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Godingen_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

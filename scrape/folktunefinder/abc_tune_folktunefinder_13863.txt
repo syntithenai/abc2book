@@ -1,0 +1,28 @@
+X: 1
+T: Bibbidy-Bobbidi-Boo
+C: Mack David, Al Hoffman, Jerry Livingston
+N: From Walt Disney's "Cinderella"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+|: "F"c=Bc d2c | A^GA _B2A | FFF FED | C3 z3 \
+| "C7"CDE FGA | BAG c3 | cdc BAG |1 "F"F3 "C7"A3 :|2 "F"F3 z3 ||
+|| "Bb"BBB G2F | B6 | "F"AAA G2F | "Dm"A3 A2_A \
+| "G7"GGG G2G | G2G G2F | "C"E^DE "Gm7"FEF | "C7"G3 z3 ||
+|| "F"c=Bc d2c | A^GA _B2A | FFF FED | C3 z3 \
+| "C7"CDE FGA | BAG c3 |1 cdc BAG | "F"F3 "C7"A3 |]
+|["Coda" "C7"cdc BAG | "C7"cdc BAG | "C7"cdc BAG | "F"F3 [f3A3] |] \
+S:https://www.folktunefinder.com/tunes/13863
+S:http://trillian.mit.edu/~jc/music/abc/jig/BibbidiBobbidiBoo_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/BibbidiBobbidiBoo_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

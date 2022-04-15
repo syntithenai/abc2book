@@ -1,0 +1,27 @@
+X:15
+T: Tageweis von der Koenigstochter und dem jungen Grafen
+N: A0020A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie von 1545; vgl Kirchenlied "Hilf Gott, dass mir gelinge"
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/4
+K: A
+A4 | A4A2=G4E2 | =G4A4
+=c4 | =c4e2c4A2 | =G4A4
+A4 | A4A2=G4E2 | =G4A4
+=c4 | =c4e2c4A2 | =G4A4
+=c4 | =c4B2c4A2 | B3A=G4
+=c4 | =c4B2c4d2 | e4=c2BA
+=G4c4 | =c4e2c4A2 | =G4A4
+S:https://www.folktunefinder.com/tunes/68561
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Text Has notes text
+% Has_accompaniment_chords No chords

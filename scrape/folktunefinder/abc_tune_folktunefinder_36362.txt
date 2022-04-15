@@ -1,0 +1,39 @@
+X:1415
+T:Dockedansen
+M:3/4
+N:It means "Puppet dance", apparently
+O:Sweden
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bae.html
+%%ID:00000bae
+K:D min
+(A^c)|\
+e2f2(de) | (^cA)(=Bc)de | d2d2 |:\
+(A^c) |\
+e2f2 (de)| (^cA)(=Bc)de | d2^c2(Ac) |\
+e2f2 (de)| (^cA)(=Bc)de | d2d2(fg)|\
+a2 (fa) ag| e2 (^cd) gf |\
+d2 (=B^c)de | ^c2 (A=B)cd|\
+e2f2(de)| (^cA)(=Bc)(de)| d2z2:|
+F2 |\
+E2D2B,2 | A,2FG FE |\
+[D2A2][D2A2] |:\
+F2 |\
+E2D2B,2 | A,2 (FG) FE | F2E2G2 |\
+E2D2B,2 | A,2 (FG) FE | [D2A2][D2A2](FE) |\
+D2(FA) de | ^c2A2 BA |\
+G2G2^G2 | A2=G2F2 |\
+E2D2B,2 | A,2 (FG) (FE) | [D2A2]z2 :|
+S:https://www.folktunefinder.com/tunes/36362
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

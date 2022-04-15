@@ -1,0 +1,23 @@
+X: 2
+P: Lavena [Am]
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: Am
+ e \
+| "Am"a2a "E7"^g^fg | "Am"a2a e2e | "Am"a2a "E7"^g^fg | "Am"a3 e2e |
+| "Dm"fag fgf | "Am"efe "Dm"dcB | "Am"cde "Dm"dec | "E7"B3 "Am"A2 |]
+%%sep 5 5 500
+%%text Common alternate tune for siding:
+S:https://www.folktunefinder.com/tunes/3983
+S:http://trillian.mit.edu/~jc/music/abc/England/PickingUpSticks.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: Thorn Bush
+O: Trad
+R: strathspey
+B: RSCDS __-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C
+L: 1/8
+K: A
+E \
+| "A"A>B c>A "D"F<A "A"E>C | "Bm"B,c "E7"d/c/B/A/ G<B \
+| "A"A>B c>A "D"F<A "A"E>C | "D"D<F "E7"E>G [1 "A"A<A, A, :|2 "A"A/A/A A ||
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"Ge \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B "E7"d/c/B/A/ "A"E<A A |]
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"Gd \
+| "A"(3cAc (3ece "D"(3fdf (3agf | "E7"(3edc (3cBA "A"E<A A |]
+S:https://www.folktunefinder.com/tunes/19684
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/ThornBush.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ThornBush.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/ThornBush.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

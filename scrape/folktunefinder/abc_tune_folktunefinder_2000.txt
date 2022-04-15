@@ -1,0 +1,30 @@
+X: 63
+T:Donald Blew. JMP.063
+M:2/4
+L:1/8
+Q:150
+C:"68"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Scots Measure
+O:Scotland
+A:Perth
+N:
+H:1799
+Z:vmp.C. Graeb
+K:A major
+f/e/ |"No Key sig. given" dDDF | EDEf/e/ | dDDF | EF Af/e/ |!
+dDDF | EDEF | d>BAF | EFA2 :||:\
+ABcA | (d/c/)(B/A/) BF | ABcA |!
+ Bcd2 |f>edA | dcBA | d>BAF | EF A2 :|]
+S:https://www.folktunefinder.com/tunes/2000
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Scots measure
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

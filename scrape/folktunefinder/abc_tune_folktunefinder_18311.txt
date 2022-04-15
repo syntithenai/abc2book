@@ -1,0 +1,31 @@
+X: 1
+T: Willafjord
+O: trad Shetland
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hardie p.35
+N: Lerwick p.14
+D: Hazel Stewart on  Thistledown  8B)
+N: John Stickle tune #8 from article)
+N: Look at BOL albums
+M: C|
+L: 1/8
+K: D
+|: B2 | "D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "Em"EFGA "A7"GFED |
+   y4 | "D"A2FA- ADFA | "G"B2GB- BDGB | "A7"ABcd efge | "D"f2d2 d2 :|
+|: e2 | "D"f2df- fAdf | "Em"geaf "A7"gfeg | "D"f2df- fAdf | "A7"e2ce- eAce |
+   y4 | "D"f2df- fAdf | "Em"geaf "A7"gfec | ABcd efge | "D"f2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/18311
+S:http://trillian.mit.edu/~jc/music/abc/reel/Willafjord.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/Willafjord.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Willafjord.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/Willafjord.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Willafjord.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

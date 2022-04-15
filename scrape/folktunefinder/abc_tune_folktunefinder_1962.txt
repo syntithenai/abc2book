@@ -1,0 +1,41 @@
+X: 25
+T:Drogheadia militia slow march. JMP.025
+M:C
+L:1/8
+Q:130
+C:"26"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:1 - the following 6 slurs are all marked with a redundant '2'
+N:2 - bar line shown here
+N:3 - this triplet not so marked in MS
+N:4 - no end bar lines shown, da cappo written at end
+N:
+N:The tune is written on four lines.  'No 27' is written above the third
+N:line, but the last bar of the second line continues onto the third
+N:line.  The following tune is also numbered 27. This is all one tune.
+H:1799
+Z:vmp.C. Graebe
+K:G major
+(3(BAG) | d2 d>d d2 (3(BAG) | d2 d>d d2 (3(BAG) |\
+ e2 e>d c>de>d | c2 A>A A2 dc |!
+ "1" (cB) dB (BA) dA | (AG)(BG) (GF) ( ED)|\
+E>FG>A d>cB>A | G2 G>G G2 :|!
+|: "3"(3def |  g2 g>g g>dB>d |\
+G2 G>G G>B Ac | B>GB>d "2" e>dB>c | d2 d>d d2 "3" (3def |!
+ g2 g>g g>dB>d | G2 G>G G>BAc | BGBd edBc |\
+ d2 d>d2 "4"d2 (3(BA"da cappo"G)|]
+S:https://www.folktunefinder.com/tunes/1962
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 685
+T:John Anderson my Jo  for the Violin or Fife
+M:2/4
+L:1/8
+K:Em
+D|\
+B,EEF| G2GA| FDD>E| D3E/D/|\
+B,EEF| GFGA| BAGA| B3||\
+c|\
+BAGA| BcdB|
+AGFG| A2GA| BGAF| GEFB| B,EE^D| E3||\
+d|\
+Beef| g2ga| fdde| d2ed|
+Beef| g2fe| fdBB| B3 d/c/|\
+BGdG| gGdG| DEFG| A2GA| BGAF| GEFB| B,EE^D| E3|]
+S:https://www.folktunefinder.com/tunes/31192
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

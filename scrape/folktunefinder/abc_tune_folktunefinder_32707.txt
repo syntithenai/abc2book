@@ -1,0 +1,22 @@
+X: 2311
+T:the Oldham Rowling Hornpipe
+M:3/2
+L:1/8
+K:D
+DEFG AFDF  EDEF | D2 EF GFED C2 C2 |\
+DEFG AFDF  EDEF | D2 d2 AFGE D4    ||
+DEFG AB c2 BcdB | c2 BA GFED C2 C2 |\
+DEFG ABcA  agfe | d2 d2 AFGE D4    ||
+DEFG efge  fgaf | d2 d2 efge c2 c2 |\
+efge afdf  gece | d2 d2 AFGE D4    |]
+S:https://www.folktunefinder.com/tunes/32707
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

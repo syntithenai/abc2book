@@ -1,0 +1,22 @@
+X: 2
+P: V'ha'er eyneynu
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: Em
+E | "Em"(EB,) G2 "B7"G F2 E | "Em"(EB,) G2 "B7"G F2 E \
+| "Em"(EF) G2 (GA) B2 | "Am"AB (cB) A4 \
+| "Am"(AB c2) "B7"BA2 A | "Em"(GA B2) AG2 E |
+| EB, E2 "C"EF G2 | "B7"FE (^DF) "Em"E3 \
+:: B | "Em"(B2 e2 ^d2) e2 | "Am"c6 zc \
+| (c2 e2) ^d2 e2 | "Em"B6 zB \
+| "Em"(B2 e2) ^d2 e2 | "Am"(f2 e2 c4) \
+| e2 f2 e2 c2 | "B7"B6  z :|
+S:https://www.folktunefinder.com/tunes/7405
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/VHaerEyneynuTune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

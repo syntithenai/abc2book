@@ -1,0 +1,24 @@
+X: 20
+T:Morning Star, Bidford, Shakespeare MM
+M:4/4
+L:1/8
+A:Bledington
+P:A(AB)4
+K:G
+P:A
+|:BcBG E2FG|ABAF D2GA|BcBA E2AF|D2G2 G4:|
+P:B
+|:B2B2 d2d2|egfe dcBA|GAGc d2d2|efge d4 |
+  B2Bc d2d2|egfe dBG2|ABcA FGAF|D2G2 G4:|
+S:https://www.folktunefinder.com/tunes/75832
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

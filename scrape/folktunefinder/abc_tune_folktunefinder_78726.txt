@@ -1,0 +1,25 @@
+X:285
+T: ICH KOMM DAHER OH ALLEN SPOTT
+N: E0159
+O: Europa, Mitteleuropa, Deutschland
+R: erzaehlendes Volks - Lied, Scherz, Schwank
+M: 4/4
+L: 1/8
+K: F
+ | F4c3B | A2d2c2B2 | A4z2
+G2 | A3Bc2F2 | A4G4 | F4z2
+G2 | G3GG2A2 | B4A4 | G4z2
+G2 | G3FE2C2 | E4D4 | C4z2
+C2 | D2E2FGAB | c2A2G4 | F8
+S:https://www.folktunefinder.com/tunes/78726
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, scherz, schwank
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

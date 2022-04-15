@@ -1,0 +1,26 @@
+X:260
+T:Britain Strik home
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/4
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dd6.html
+%%ID:00000dd6
+K:D
+dde | f2a | def | efg | agf | e3 :: \
+e3  | eef | e2z | f2z | \
+ffg | fga |! g2f | fe3/(d//e//) | \
+f3  | a2z | a(b/a/)(g/f/) | g2z | \
+a2z | efg | fga | bag | fga | (g/f/)e2 | dd2 :|
+S:https://www.folktunefinder.com/tunes/43615
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

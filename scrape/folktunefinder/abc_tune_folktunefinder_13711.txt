@@ -1,0 +1,28 @@
+X: 1
+T: The Train Journey North
+C: Tom Anderson
+R: hornpipe
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 f>A d>f A>d | f>A d>f A2 d>f | "A7"g2 e>c A>c e>A | c>e A>c e>A f>e | "D"d2 f>A d>f A>d | f>A d>f A2 d>f |
+| "A7"g2 e>c A>c e>A |1 c2 e>g "D"f>d d :|2 "A7"c2 e>g "D"f>A d |: f | "D"a2 f>d A2 f>A | d>f a>f g>f e>f | "A7"g2 e>c A2 e>A |
+| c>e A>g "D"f>A d>f | "D"a2 f>d A2 f>A | d>f a>f g>f e>f | "A7"g2 e>c A>c e>A |1 c2 e>g "D"f>A d :|2 "A7"c2 e>g "D"f>d d |]
+S:https://www.folktunefinder.com/tunes/13711
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/TrainJourneyNorthHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TrainJourneyNorthH_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TrainJourneyNorth_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/TrainJourneyNorthHp_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TrainJourneyNorthH_D3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TrainJourneyNorth_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/hornpipe/TrainJourneyNorthHp_D.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

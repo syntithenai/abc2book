@@ -1,0 +1,24 @@
+X: 1
+P: Jeg er s\aa glad hver julekveld [F]
+O: Norway
+M: 6/8
+L: 1/8
+K: F
+"C7"C \
+| "F"[F2C2][FC] [AF]>[GE][FC] \
+| "C7"[E2C2][FC] [G2C2]C \
+| "C7"[G2C2][AC] [BD]>A[GE] \
+| "F"[A3-F3-] [AF]z ||
+"C7"C \
+| "F"[F2C2][FC] "F7"[AF]>[GE][FC] \
+| "Bb"[E2C2][DB,] "Gm"[B2D2][GD] \
+| "F"[F2C2][FC] "C7"[EC]>DE \
+| "F"[F3-C3-] [FC]z |]
+S:https://www.folktunefinder.com/tunes/9433
+S:http://trillian.mit.edu/~jc/music/abc/Scand/XmasNorsk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

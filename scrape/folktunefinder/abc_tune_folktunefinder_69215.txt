@@ -1,0 +1,28 @@
+X:356
+T: "Genoveva"
+N: Z1036
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade, Tod, Verlassenheit, Genoveva - Sage
+M: 3/4
+L: 1/16
+K: F
+f3d | c6d2c3B | B4A4
+A3G | A4f4A3G | G4F4
+f3d | c6d2c3B | B4A4
+A3G | A4f4A3G | G4F4
+B3A | A6f2e3d | f2c2c4
+B3A | A6f2e2de | f4z4
+f3d | c6d2c3B | B4A4
+A3G | A4f4A3G | G4F4
+S:https://www.folktunefinder.com/tunes/69215
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, verlassenheit, genoveva - sage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

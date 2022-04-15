@@ -1,0 +1,23 @@
+X: 3710
+T:Rock Valley
+R:Jig
+C:John Burt
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+M:6/8
+L:1/8
+K:C
+((3G,/2A,/2B,/2)|"C"C2E "Gdim"GFE|"G7"D2E F2A|GAG GBd|"C"cBc AGE|!
+"C"C2E "Gdim"GFE|"G7"D2E F2A|GAG GBd|"C"c3 c2:|!
+|:g|"C"gag gag|e2c "F"cBA|"C"G2c "Gdim"cBc|"G7"ed^c d2g|!
+"C"gag gag|e2c "F"cBA|"G7"GAc Bcd|"C"c3 c2:|!
+S:https://www.folktunefinder.com/tunes/33478
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

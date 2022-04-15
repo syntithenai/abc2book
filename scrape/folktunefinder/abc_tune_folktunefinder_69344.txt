@@ -1,0 +1,25 @@
+X:485
+T: "Falscher Sinn"
+N: Z1165
+O: Europa, Mitteleuropa, Deutschland, Pfalz
+R: Liebes - Lied, Abschieds - Lied
+M: 2/4
+L: 1/16
+K: C
+EF | G3cG2GF | E2E2D2
+D2 | E2G2^F2A2 | G4z2
+EG | c2B2A2G2 | A4G4 | F2GFE2
+c2 | A2GFE2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/69344
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied, abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:39
+T:Chant du glaive
+R:
+N:
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:p 92
+M:2/4
+L:1/8
+Q:1/4=130
+K:A
+K:F#m
+c c B c | F F F F | c c B c | F2 z2 | 
+G G F G | C C C C | G G F G | C2 z2 |
+F2 A2 | F A G2 | G A B c | F F F2 |
+F2 A2 | F A G2 | G A B c | F2 z2 ||
+W:Pour des luttes tmraires, Ils partaient joyeux,
+W:Par ce rude chant de guerre Invoquaient leurs dieux :
+W:Tann, tann, dir o dir, Nous les Celtes de l'Armor,
+W:Tann, tann, dir o dir, Nous vaincrons encor.
+c c B c | F F F F | c c B c | F2 z2 | 
+G G F G | C C C C | G G F G | C2 z2 |
+F2 C2 | F C E2 | F E D C | D D A,2 |
+F2 C2 | F C E2 | F E D C | F2 z2 ||
+S:https://www.folktunefinder.com/tunes/39925
+S:http://anamnese.online.fr/abc/gallia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:5694
+T:Rudolphe,Le. CJF.029
+O:england
+M:6/8
+L:1/8
+Q:60
+C:C M Weber
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Presumably Carl Maria von Weber. - PJH.
+K:G
+(Gd).d (^cd).d|e2d (G/A/B/c/^c/e/)|d2=c (^cd).d|e2d (d/e/f/g/^g/a/)|
+c'2b (bc').^c'|(e'2d') (gf).e|.d(AB) .c(ef)|(a3g) d"$"d||
+(g2d)(e2d)|(b2a)(g2d)|g2g (ba).g|d'3(c'b).a|
+(g2d)(e2d)|(b2a)g2^g|\
+(ba).b .c'(ef)|(a3"Fine"g)h||
+dd|_e2df2d|a2fc'2a|
+.e'(d'/c'/b/a/) (^g/a/)(c'/b/a/=g/)|(f/g/a/g/f/e/) (d/e/d/c/B/c/)|
+(Bd).g (Bd).g|fef gba|fba egf|dd'" D.C. $"^c' =c'ba||
+S:https://www.folktunefinder.com/tunes/26146
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

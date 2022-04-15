@@ -1,0 +1,39 @@
+X: 1
+T: Hogmanay Jig
+C: Andrew Rankine
+M: 6/8
+L: 1/8
+K: A
+A2B \
+|: "A"c2c cdc \
+| B2A A2B \
+| c2c "F#m"cBA \
+| "Bm"G2F "B/D#"F3 \
+| "E7"G2G GAG \
+| F2E E2F |
+|1 "E7"EGB ede \
+| "A"d2c cAB \
+:|2 "E7"EGB dcB \
+| "A"A3 A2B \
+|: "A"c2c "E/G"B2B \
+| "F#m"A2A "E"G2G \
+| "D"F2F "B/D#"FEF |
+| "E"G3 GEG \
+| "Bm"d2d "A"c2c \
+| "E/G"B2B "F#m"A2A \
+|1 "E"GAG "D"FGF \
+| "A/C"E3 "E7"ECE \
+:|2 "E7"EGB dcB \
+| "A"A3 |]
+S:https://www.folktunefinder.com/tunes/14323
+S:http://trillian.mit.edu/~jc/music/abc/jig/HogmanayJig1_A3.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/HogmanayJig_A3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HogmanayJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HogmanayJig1_A3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

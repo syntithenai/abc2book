@@ -1,0 +1,24 @@
+X: 1
+T: Bat Harim
+O: Israel
+M: C|
+L: 1/4
+K: Dm
+"Intro"\
+| "Gm"{F}G G2 G | "Dm"F/G/F/E/ D/E/F/G/ | "A7" AE A/G/F/E/ | "Dm"Dz Dz ||
+|: "Dm"D2 D2 | "C"C2 DE | "Dm"F G2 E | FE "Am"FE | "Dm" D2 D2 |
+| "Gm"G A2 F |1 GE FD | G3 z :|2 GE FE | "Dm"D3 z |
+|: "Gm"G2 G2 | "Cm"zc BA | "Gm"B>A GF | G2 D2 | "Dm"F2 F2 |
+| zE FG |1 "Dm"AF BA | "Gm"G3 z :|2 "A7"EA, FE | "Dm"D3 z |]
+%%sep 1 1 8cm
+S:https://www.folktunefinder.com/tunes/5318
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BatHarim.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/BatHarim.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

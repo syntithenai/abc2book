@@ -1,0 +1,24 @@
+X: 1125
+T:Branle de Bourgogne
+O:France
+C:Jacques Moderne
+I:16th century
+R:Branle double
+M:C
+L:1/4
+Q:200
+K:C
+d2 BG|G A/2B/2 cc|d3/2 c/2 B/2A/2B/2c/2|d2Bc|d2 BG|G A/2B/2 cc|dccB|c2c2:|
+|:d2 dd|d2de|f2ed|c2Bc:||
+S:https://www.folktunefinder.com/tunes/31632
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Branle double
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

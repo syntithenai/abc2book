@@ -1,0 +1,47 @@
+X: 1
+T: Russian Sher (Abe Schwartz)
+O: Abe Schwartz
+N: Handwritten MS. from Barry Shapiro; another handwritten MS from 
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+"A"\
+|: B2dd d2d2 | edef d4 | dcBc dedc | B2B2 d2B2 | B2dd d2d2 | edef d4 | dcBc dedc | B8 :|
+"B"\
+[| f4 e2f2 | g2g2 f4 | e4 B2c2 | d6 g2 | fga2- a2a2 | b3a aggf | f3e fgag | f6 f2 |
+| feed dccB | B2c2 d2e2 | feed dccB | B2b2 f3f | feed dccB | B2c2 d2e2 | feed dccB | B6 d2 |
+| cde4 e2 | e=fef e3e | dcBc dedc | d4 d4 | c2de =f^gab | =c'ba^g =fed^c | dAAd d=ccB | B8 |
+| f6 ed | efd2 A2d2 | aggf feed | efd2 A2d2 | aggf feed | aggf feed | aggf feed | efd4 d2 |
+| cde4 e2 | e=fef e3e | dcBc dedc | d4 d4 | c2de =f^gab | =c'ba^g =fed^c | dAAd d=ccB | B8 |]
+"C"\
+|: B2B2 B4 | d2d2 d4 | c2B2 ^A2B2 | c6 F2 | c2c2 c4 | e2e2 e4 | d2c2B2d2 | f8 |
+| z2gf e2f2 | g2f2 e4 | z2B2 c2d2 | fed2 dcB2 | d2 d4 d2 | dcB2 ^ABcA | B8- | B4z4 :|
+"D"\
+|: ~a2^ga baga | d'2a2 f2d2 | e3f gfe2 | f2a6 | ~a2^ga baga | d'2a2 f2d2 | e3f gfe2 |1 d4 :|2 .d2 |]
+"E"\
+|: F2B2c2 | d3c B4- | B2 e2d2e2 | d3c B4- | B2 f2g2f2 | e3dc4- | c2 c2d2e2 | dcB2 f4 | fed2 dcB2 |
+| g3fe4- | e2 c2d2e2 | f3ed4- | d2 F2B2c2 | d2d4d2 | dcB2 ^ABcA | B8- |1 B2 :|2 B8 |]
+K:Bphr^d
+"F"\
+|: .B4 d4 | dcBc d4 | .B4 f4 | fede f4 | z2 A2B2c2 | B2A4 fe | defe eddc | c2B6 :|
+"G"\
+[| g6 fe | f6 ed | edef gfed | eaag gffe | g6 fe | f6 ed | edef gfed | e2 e6 |]
+"H"\
+|: a3g fga2- | agfg agfe | f3e def2- | fede fedc | d3c Bcd2- | dcBc dcBA |
+| ^GABc dedc | c2 B4 z2 :| y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+S:https://www.folktunefinder.com/tunes/7308
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Sher1_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Eb/Sher1_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/sher/Sher1_Eb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key B
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

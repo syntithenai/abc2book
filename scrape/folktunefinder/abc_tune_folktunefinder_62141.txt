@@ -1,0 +1,29 @@
+X:118
+T: HORCH WAS KOMMT VON DRAUSSEN REIN
+N: B0607
+O: Europa, Mitteleuropa, Deutschland, Birkenfeld
+R: Staende -, Seemanns - Lied, Tod
+M: 2/4
+L: 1/16
+K: C
+ | C,2D,2E,2F,2 | G,2A,2G,4
+F,2D,2B,3A, | G,2E,2C4
+C,2D,2E,2F,2 | G,2A,2G,4
+F,2D,2B,2D2 | C4z4
+A,2F,2C2B,A, | G,2E,2G,4
+F,2D,2B,3A, | G,2E,2C4
+A,2F,2C2B,A, | G,2E,2G,4
+F,2D,2B,2D2 | C4z4
+S:https://www.folktunefinder.com/tunes/62141
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Staende -, seemanns - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

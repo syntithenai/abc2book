@@ -1,0 +1,32 @@
+X: 1
+T: Stan Chapman's
+C: Jerry Holland
+M: 6/8
+L: 1/8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: A
+   F \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | ecA "E"BAF \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | "E"ecA "A"A2 :|
+   f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "A"cAA A2 |]
+   f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"ecA ecA | "D"fdf fga | "A"fec "E"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/15107
+S:http://trillian.mit.edu/~jc/music/abc/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jerry_Holland/StanChapmansJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/StanChapmansJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

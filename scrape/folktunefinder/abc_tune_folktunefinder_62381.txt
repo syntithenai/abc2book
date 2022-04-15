@@ -1,0 +1,27 @@
+X:50
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl-polska
+A:Sm{\aa}land
+Z:id:hn-sp-50
+M:3/4
+L:1/16
+K:Bm
+B4 A4 B4|d2f2 e2dc c2d2|B2B2 A2A2 B2B2|d2f2 e2dc c2d2|
+F2GA B2AB c2Bc|d2cd edcB A4|F2GA B2AB c2Bc|d2cd edcB A4|
+F2GA B2c2 d2B2|BcBA B4 B4:|
+K:F#m
+|:f4 e4 f4|g2a2 b2ag g2a2|f2f2 e2e2 f2f2|g2a2 b2ag g2a2|
+c2de f2ef g2fg|a2ga bagf e4|c2de f2ef g2fg|a2ga bagf e4|
+c2de f2g2 a2f2|fgfe f4 f4:|
+S:https://www.folktunefinder.com/tunes/62381
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

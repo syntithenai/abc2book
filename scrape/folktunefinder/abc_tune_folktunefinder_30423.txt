@@ -1,0 +1,33 @@
+X:570
+T:the Ruffians Rant
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000013a.html
+%%ID:0000013a
+K:E min
+B|\
+A<F "tr"F>D| "tr"E>DFB| A<F "tr"F>D| "tr"E>DEB|\
+A<F"tr"E>D| d>ef>e| dDE::
+B|\
+A<Fd>A| B>Ad>B| A<F d>A| B>ABd|\
+A<F("tr"E>D)| d>e"tr"fe| d>Bd>F| E>DE::
+b|\
+a<f"tr"f>e| "tr"f>efb| a<f"tr"f>d| "tr"e>deb|\
+a<ff>e| d>e"tr"f>e| (d/c/B/A/ d3/)F/| E>DE::
+B|\
+A<Fd>A| "tr"B>Ad>A| "tr"B>Ad>A| B>AB<d|\
+A<FE>D| d>e"tr"f>e| d>BA>F| "tr"E>DE::
+S:https://www.folktunefinder.com/tunes/30423
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

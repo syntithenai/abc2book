@@ -1,0 +1,24 @@
+X: 1836
+T:Mad Moll of the Cheshire Hunt
+M:4/4
+L:1/8
+Q:1/4=113
+C:Trad
+R:hornpipe
+K:G
+(3DEF|: G2 g>f e>dc>B|A>Bc>A B2A2|G2 g>f e>dc>B|d>cA>F G2 (3DEF|
+      G2 g>f e>dc>B|A>Bc>A B2A2|e2d2 c2B2|1 c>AF>A G2 (3DEF:|2 c>AF>A G4|
+|: D>GB>G D>GB>G|D>GB>d c2A2|D>FA>F D>FA>F|D>FA>c B2G2|
+   D>GB>G D>GB>G|D>GB>d c2A2|e2d2 c2B2|c>AF>A G4 :|
+S:https://www.folktunefinder.com/tunes/32323
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

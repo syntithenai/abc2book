@@ -1,0 +1,30 @@
+X: 1
+T: Scotty O'Neil
+C: Bob McQuillen 1973
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Written to Scott and Becky"
+M: C|
+L: 1/8
+K: D
+AG \
+| "D"F2D2 A2F2 | "G"dedc BABc |1 "D"d2A2 G2F2 | "A7"F2E4 :|2 "D"d2A2 "A7"ABAG | "D"F2D4 :|
+|: AG \
+| "D"F2A2 f3e | "G"d2c2 B3c | "D"d2A2 G2F2 | "A7"F2 E4 AG \
+| "D"F2A2 f3e | "G"dedc BABc | "D"d2A2 "A7"ABAG | "D"F2D4 :|
+S:https://www.folktunefinder.com/tunes/15675
+S:http://trillian.mit.edu/~jc/music/abc/march/ScottyONeil.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/ScottyONeil_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/ScottyONeil.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/ScottyONeil_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/ScottyONeil.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ScottyONeil_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/ScottyONeil_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

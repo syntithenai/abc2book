@@ -1,0 +1,25 @@
+X:236
+T: "Ein kleiner feiner Almanach. "
+N: Z0235
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze
+M: 3/8
+L: 1/16
+K: C
+G,2 | C4D2 | E4D2 | E4D2 | E4D2 | G4
+G2 | G3FE2 | F2D2D2 | E3DC2 | D4
+E2 | D4E2 | D4E2 | F3ED2 | E3DC2 | G4
+G2 | F3DB,2 | E3DC2 | D2G,2B,2 | C4
+S:https://www.folktunefinder.com/tunes/69095
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

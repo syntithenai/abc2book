@@ -1,0 +1,39 @@
+X:2563
+T:Cantar de Ronda (CT 205)
+R:Ronda
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de Ronda, transcrita en Sama de Llangru.
+O:Sama (Llangru)
+A:Asturies
+Z:Cancioneru de Torner 205
+M:9/8
+L:1/8
+Q:3/8=63
+W:Pas la puente de hierro,
+W:de hierro,
+W:pasla mui de maana,
+W:maana;
+W:encontr un anillo de oro,
+W:de oro,
+W:con una cinta encarnada,
+W:encarnada.
+K:Gm
+B
+|d3-d2 c Bdc|(A2-A/B/8A/8G/8^F/8 G) G>G c2 (B/c/8B/8A/8G/8|A) A2-A3-A z B|
+d3-d2 c Bdc|(A2-A/B/8A/8G/8^F/8 G) G>G c2 (B/c/8B/8A/8G/8|A/B/A/B/8A/8G/8^F/8G) G3-G z :||
+S:https://www.folktunefinder.com/tunes/28843
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Ronda
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

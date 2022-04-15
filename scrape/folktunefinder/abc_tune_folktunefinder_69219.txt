@@ -1,0 +1,27 @@
+X:360
+T: "Der sterbende Krieger"
+N: Z1040
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Romanze, Ballade, Tod (Prinz Ludwig von Preussen)
+M: 3/4
+L: 1/8
+K: G
+GA | B2B2ce | edd2
+ed | dcc2dc | B2z2
+GA | B2B2ce | edd2
+ed | dcc2dc | B2z2
+Bd | dcc2Ae | edd2
+Bd | dcc2Ae | edd2
+GA | B2B2ce | edd2
+ed | c2c2dc | B2z2
+S:https://www.folktunefinder.com/tunes/69219
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod (prinz ludwig von preussen)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

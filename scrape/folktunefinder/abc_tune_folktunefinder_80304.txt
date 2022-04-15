@@ -1,0 +1,26 @@
+X:245
+T: Ein alter Ruf, wenn man zu Unser Lieben Frawen kirchfahrten thut
+N: A0604
+O: Europa, Mitteleuropa, Deutschland
+N: Beuttner 1602 No. 30
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: C
+C2 | C2D2C2B,2 | A,4G,2
+G,2 | C2C2D2F2 | E4z2
+D2 | E2F2G2E2 | E2G2F2
+E2 | D2C2E2C2 | A,2B,2C4
+A,2A,A,B,4 | C6
+S:https://www.folktunefinder.com/tunes/80304
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

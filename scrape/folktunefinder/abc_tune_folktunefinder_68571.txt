@@ -1,0 +1,28 @@
+X:25
+T: Zwei Wasser. (Schwimmersage)
+N: A0024C
+O: Europa, Mitteleuropa, Deutschland
+N: Mel. bei Rhaw, Bicinia II. 1545 No. 19.- Fuer Laute gesetzt und
+N: etwas verzerrt steht die Melodie schon in Hans Judenkunigs
+N: Lautenbuch, Wien 1523. Entzifferung s. Ambros, Gesch. d. Musik II,
+N: 282.
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: G
+G2 | G3A_B2 | A4G2 | A3_Bc2 | d4
+d2 | c4A2 | _B2G4 | =F6 | z4
+=F2 | A4_B2 | c4_B2 | G3A_B2 | A4
+G2 | =F2D2F2 | G2A4 | G4
+S:https://www.folktunefinder.com/tunes/68571
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Text Has notes text
+% Has_accompaniment_chords No chords

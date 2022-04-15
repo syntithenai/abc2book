@@ -1,0 +1,19 @@
+X: 6
+T: Pigeon on a Gate
+M: C|
+L: 1/8
+K: Em
+|: BEE2 BdcA | BABd BAFE | D2D2 ADFA | DFAB ADFA |
+|  BEE2 BdcA | BABd BAFE | D2D2 FDef | dBAF E4  :|
+|: Beed efed | Bee2 gfed | dAFA d3B  | AFF2 DEFA |
+|  Beed efed | Bee2 gfed | dAFA d2ef | dBAF E4  :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6290
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/PigeonOnTheGate.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

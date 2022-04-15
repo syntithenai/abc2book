@@ -1,0 +1,26 @@
+X: 1
+T: Lady Montgomerie's Rant (pipe version)
+C: Lord Eglintoune 1796
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+N: bagpipe version
+M: C|
+L: 1/8
+K: D
+|: d2dA A2AB | d2dB cdef | d2dA A2Ad | Beed cdef :|
+[| d2ad fdaA | d2ad fgaf | d2ad fdaf | gfed cdef ||
+|| d2ad fdaA | d2ad fgaf | afge fdef | gfed cdef |]
+S:https://www.folktunefinder.com/tunes/17521
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyMontgomeriesRant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyMontgomeriesRant_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LadyMontgomeriesRant_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

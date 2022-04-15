@@ -1,0 +1,25 @@
+X:128
+T: MARIA DURCH NEN DORNWALD GING
+N: E1193
+O: Europa, Mitteleuropa, Deutschland, Eichsfelde
+R: Ansinge -, Brauchtums - Lied, Kirchen - Fest, Silvester, Namenstag
+M: 4/4
+L: 1/8
+K: G
+D2 | G3A_B2d2 | _B2AGA4
+B2BBc4 | d4z2
+_Bc | d3cd2_ed | c3_Bc2
+dc | _B3AB2cB | A3GA4
+G3A_B2d2 | _BAG4
+S:https://www.folktunefinder.com/tunes/79232
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Ansinge -, brauchtums - lied, kirchen - fest, silvester, namenstag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

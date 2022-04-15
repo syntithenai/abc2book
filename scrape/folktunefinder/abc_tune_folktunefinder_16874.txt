@@ -1,0 +1,30 @@
+X: 1
+T: Cairdin' o't
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://www.scottishfiddlers.com/Sydney/Music/PDFs/National%20Set%2002.pdf
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2AB cBcd | e2af ecAc | "Bm"dcde dcBA | "E7"GABc B3c |
+| "D"dcde fgaf | "A"ecBc AGFE | AGAB "E7"ceBd | "A"c2A2 A2 :|
+|: af \
+| "A"ecAc e2af | ecAc e3c | "Bm"dcde fgaf | "E7"g2e2 e3c |
+| "D"dcde fgaf | "A"ecBc AGFE | AGAB "E7"ceBd | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/16874
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://www.scottishfiddlers.com/Sydney/Music/PDFs/National
+S:http://trillian.mit.edu/~jc/music/abc/reel/CairdinOt_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CairdinOt_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/CairdinOt_A.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

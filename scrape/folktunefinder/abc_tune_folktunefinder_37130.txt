@@ -1,0 +1,26 @@
+X:5255
+T:the Sailors Hornpipe
+M:4/4
+O:England
+O:USA
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000087b.html
+%%ID:0000087b
+K:G
+gf | \
+g2G2 G2dc | Bdgf gbag | a2A2 A2AG | FAd2 d2ef|
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2G2 ::
+dc |\
+Bdgd Bdgd | e2c2 c2ed | ^ceae ceae | f2d2 d2ef|
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2G2:|
+S:https://www.folktunefinder.com/tunes/37130
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

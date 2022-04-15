@@ -1,0 +1,35 @@
+X:201
+T:Cantar de Trabayu (CT 455)
+R:Trabayu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Llamo, ayuntamiento de Riosa.
+N:La cantan generalmente las mujeres mientran ejecutan los quehaceres domsticos.
+A:Asturies
+O:Llamo (Riosa)
+Z:Cancioneru de Torner 455
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+GG|c2 A _B2 A|(G A2-)A_Bc|d2 c e2 d|(c/(3_B/4A/4B/4 c2) zGG|
+c2 A _B2 A|(G A2-)A_BA|G A2-A_BB|(A/_B/4A/4 G2) z||
+W:Sola soi, sola nac,
+W:sola me pari mi madre;
+W:solita tengo de andar
+W:como la pluma en el aire.
+W:
+S:https://www.folktunefinder.com/tunes/59088
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Trabayu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

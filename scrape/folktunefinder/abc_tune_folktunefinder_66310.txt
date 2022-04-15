@@ -1,0 +1,20 @@
+X:1890
+T:Yellow Tinker
+Z: id:dc-reel-356
+M:C
+L:1/8
+K:G Mixolydian
+FE|DGG2 DFCF|DGG2 dGBG|DGG2 DFF2|cAFA c2:|!
+Bc|dGG2 dGBc|dgg2 ^fdcA|dGG2 dGBd|cAFA c2Bc|!
+dGG2 dGBc|dgg2 ^fgag|^f2de ^f2de|^fgag ^fd|]!
+cA|d2BG BdBG|BdBG c2Bc|d2BG Bcde|fdcA FAcA|!
+d2BG BdBG|BdBG c2Bc|d^cde f2ed|cAFA G2|]!
+S:https://www.folktunefinder.com/tunes/66310
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

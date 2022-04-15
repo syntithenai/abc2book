@@ -1,0 +1,33 @@
+X:1
+T:Stella by starlight
+M:4/4
+L:1/4
+C:Victor Young & Ned Washington
+Q:1/4=85
+%%staves (chords melody))
+K:Bb
+%%text (medium)
+%%vskip 20
+V:chords
+x||"( Em7b5" "Dbdim7"x2 x2 | "A7 )" " "x2 x2 | "Cm7"x2 x2 | "F7"x2 x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 x2 | x2 "Ab7"x2 |
+"Bb6"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 x2 | "( Db7 )" "Bbm6/Db"x2 x2 |
+"C7"x2 x2 | "( Bm7b5" " "x2 "Bbm6 )" " "x2 | "( Am7b5" "Am7b5"x2 x2 | "D7"x2 x2 |
+"D7" "G7"x2 x2 | "G7 )" " "x2 x2 | "Cm7"x2 x2 | x2 x2 |
+"Ab7"x2 x2 | x2 x2 | "( Bbdim7" "Bbmaj7"x2 x2 | "Bbmaj7 )" " "x2 x2 |
+"( Em7b5" "C#dim7"x2 x2 | "A7 )" " "x2 x2 | "Dm7b5"x2 x2 | "G7"x2 x2 |
+"( Dbm7" "Cm7b5"x2 "Gb7" " "x2 | "Cm7b5" "F7"x2 "F7 )" " "x2 | "Bbmaj7"x2 x2 | x2 x2 |]
+V:melody
+B||A4-|AGAB|F4-|F2F2|
+S:https://www.folktunefinder.com/tunes/18992
+S:http://trillian.mit.edu/~jc/music/abc/song/Stella_by_starlight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/stella_by_starlight.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Stella_by_starlight.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/stella_by_starlight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:324
+T:AULDLNG1- Auld lang Syne
+O:england
+S:Orpheus Caledonius, I, 1733
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+c|f3/2g/ (f/g/)a|cA(B/A/) (G/F/)|f3/2g/a(g/f/)|d3c|\
+f3/2g/ (f/g/)a|c(B/A/)A(G/F/)|f3/2g/{f/g/}a(g/f/)|d3||\
+f|A(G/F/) (FG/) A/|B3/2A/GA|c3/2d/c(B/A/)|f3c|A(G/F/)F(G/A/)|\
+B3/2A/GA|c3/2d/ (c/d/c/A/)|c3|
+S:https://www.folktunefinder.com/tunes/20773
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

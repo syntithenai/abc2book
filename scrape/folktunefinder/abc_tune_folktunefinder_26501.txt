@@ -1,0 +1,31 @@
+X:6049
+T:Silver Wings Polka
+O:england
+C:Adam Rennie
+S:78rpm record
+M:4/4
+L:1/8
+P:AABBCCAA
+K:F
+c|a/>a/a/>a/ fA ed c2|F/>F/E/>F/ Ac ed B2|\
+e/>e/e/>e/ dd ee f2|g/>f/e/>f/ g/>a/g/>f/ ecde|
+a/>a/a/>a/ fA ed c2|F/>F/E/>F/ Ac d3 f|\
+e/>g/d/>f/ ee  e/>g/d/>f/ ee|e/>c/=B/>c/ de [1fc f:|[2fc f2:|]
+c2- c/>d/=B/>d/ c2- c/>d/=B/>d/|cdef fe e2|\
+B2- B/>A/G/>A/ B2- B/>A/G/>A/|Bcde eA A2|
+c2- c/>d/=B/>d/ c2- c/>d/=B/>d/|cdef ag d2|\
+g/>f/d/>f/ ee G/>F/D/>F/ EE|e/>c/=B/>c/ de fc f2:|]
+a/>f/e/>g/ ff a/>f/e/>g/ ff|a/>f/e/>f/ bg d2|\
+g/>f/e/>f/ ee g/>f/e/>f/ ee|e/>c/=B/>c/ dc Fcde|
+a/>f/e/>g/ ff a/>f/e/>g/ ff|a/>f/e/>f/ bg d2|\
+g/>f/e/>f/ ee g/>f/e/>f/ ee|e/>c/=B/>c/ cd fc f2:|]
+S:https://www.folktunefinder.com/tunes/26501
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

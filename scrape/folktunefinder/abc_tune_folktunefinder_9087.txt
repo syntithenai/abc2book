@@ -1,0 +1,18 @@
+X: 5
+P: Orsapolska
+O: efter Bj\"orn St\aabi
+M: 3/4
+L: 1/8
+K: Ddor
+|: A>^c {c}d>e ((3fed) | ^c>e {e}a3 e | {g}a>^f d2 (d>B) | ({B}d^c) A4 :|
+|: e>^c e2 ((3efg) | a>b [a2A2] g2 | (f/g/f/e/) (d>^c) d>e | (f>g) Tf2 e>^c | (A^c) d4 :|
+S:https://www.folktunefinder.com/tunes/9087
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Orsa3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X: 1
+T: Tsanakaliotissa
+R: kalamatianos
+O: Greece
+M: 7/8
+L: 1/8
+K: Ddor
+P: Instr:
+CDE \
+| "Dm"FEF GAFG | A3 zCDE \
+| FEF GAFG | A3 zGAB \
+| "C"cBd cBAG |"Dm"d2d cBAG \
+| FGA "Cm"F2=EC | "Dm"D3- D4 |]
+P: Vocal:
+|:"Dm"d3 cABG | "Am"A2B G2AB \
+| "Dm"d2d cABG | "Am"A3- A2z2 \
+"instr"y\
+| "Dm"d3 cABG | "Am"A2B G2AB \
+| "Dm"d2d cABG | "Am"A3 "vocal"z2AB |
+| "Dm"cBd cBAG | GFG ABAG \
+| "Cm"F2=E "Dm"D2 ","D2 | "C"d3 cBAG \
+| FGA "Cm"F=EED | "Dm"D3- D2 ", instr"AB |
+| "Dm"cBd cBAG | GFG ABAG \
+| "Cm"F2=E "Dm"D2 ","D3 | "C"d3 cBAG \
+| FGA "Cm"F=EED \
+|1 "Dm"D3- D2z2 :|2 "Dm"D3 z2 "vocalinst"DE |
+| "Dm"FEF GAFG | A3- A2 DE \
+| FEF GAFG | A3- A2 AB \
+| "C"cBd cBAG | "Dm"d2d cBAG \
+| "Fm"FGA "Cm"F=EED | "Dm"D3- D |]
+%%sep 3 1 500
+S:https://www.folktunefinder.com/tunes/5729
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Kal_Tsanakaliotissa.abc
+% Rhythm Kalamatianos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

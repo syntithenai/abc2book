@@ -1,0 +1,29 @@
+X: 1
+T: Gigue Acadien
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://mustrad.udenap.org/partitions/TQ080.jpg
+M: 6/8
+L: 1/8
+K: D
+BA \
+| DFA dcd | efg B2B | Ace Ace | dcB ABA \
+| DFA dcd | efg B2B | Ace Acd | d4 :|
+|: zf \
+| a2f dcd | efg B2B | Ace Ace | dcB A2f \
+| a2f dcd | efg B2B | Ace Ace | d4 :|
+S:https://www.folktunefinder.com/tunes/14229
+S:http://mustrad.udenap.org/partitions/TQ080.jpg
+S:http://trillian.mit.edu/~jc/music/abc/jig/GigueAcadien_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GigueAcadien_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/GigueAcadien_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/GigueAcadien_D.abc
+% Rhythm Jig
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

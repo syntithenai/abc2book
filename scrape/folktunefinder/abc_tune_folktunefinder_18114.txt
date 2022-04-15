@@ -1,0 +1,27 @@
+X: 1
+T: the Silver and Gold Two-Step
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ted Sannella "Balance and Swing"
+M: 2/4
+L: 1/8
+K: D
+fg \
+| "D"a2 fd | A2  df | "A7"a g2 f | g2 ef | g2 ec | A2 ce | "D"ba2 ^g | a2 fg |
+| "D"a2 fd | A2  df | "A7"a g2 f | g2 ef | g2 ec | A2 ce | "D"d2- d/e/d/c/ | d2 ||
+|| FG \
+| "D"Af Af | A<f f>f | "A7"f e2 ^d | e2 EF | Ge Ge | G<e e>d | "D"e d2 c | d2FG |
+| "D"Af Af | A<f f>f | "G"a2 ge | "Em"B2 cd | "A7"f e2 c | A2 ce | "D"d2- d/e/d/c/ | d2 |]
+S:https://www.folktunefinder.com/tunes/18114
+S:http://trillian.mit.edu/~jc/music/abc/reel/SilverAndGoldTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SilverAndGoldTwoStep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SilverAndGoldTwoStep.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

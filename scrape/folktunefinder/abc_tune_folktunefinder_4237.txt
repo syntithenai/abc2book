@@ -1,0 +1,19 @@
+X: 1
+T: Zephyrs and Flora
+O: 1728
+M: 2/2
+L: 1/8
+K: F
+c2 \
+| "F"A2F2 A2c2 | f6 g2 | a2f2 "C"g2e2 |1,3 "F"fefg f2 :|2,4 "F"f6 :: c2 | "F"ABAB cBcd |
+| A2F2 F2F2 | "Gm"BcBc dcd_e | B2G2 G2G2 | "C"efef gfga | "F"f2c2 "Bb"c2B2 | "F"AGFA "C"G2E2 | "F"F6 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/4237
+S:http://trillian.mit.edu/~jc/music/abc/England/ZephyrsAndFlora.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

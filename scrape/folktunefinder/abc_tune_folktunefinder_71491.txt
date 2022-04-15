@@ -1,0 +1,27 @@
+X:462
+%%topmargin 3cm
+T:Sir Roger de Coverley
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Country Dance
+R:Slip Jig
+M:9/8
+L:1/8
+K:D mixolydian
+D S|: G2 G G2 e dBG | A2 A ABG FED | G2 G G2 e def | g2 G GAG FED ::
+dBd ece dBG | A2 A ABG FED &F2 A xxx xxx  | dBd ece def | g2 G GAG FED ::
+gag f2 e dBG | A2 A ABA FED &F2 A xxx F2 D && | gag f2 e def | g2 [Gg] [Gg][Aa][Gg] [Ff][Ee][Dd] :|
+S:https://www.folktunefinder.com/tunes/71491
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Sir_Roger_de_Coverley.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0462.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

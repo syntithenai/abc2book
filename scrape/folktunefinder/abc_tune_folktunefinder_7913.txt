@@ -1,0 +1,24 @@
+X: 2
+P: Shottish i G
+O: efter Jonny Soling & Kalle Alml\"of
+Z: John Chambers <jc@trillian.mit.edu>
+R: shottish
+M: 4/4
+L: 1/8
+K: G
+|: D2 | "G"G2 BA G2 G2 | B>A AB "C"c2- c2 |1,3 "D7"d2 fe d>e dc | B>c BA "G"G2 G2 \
+                                         :|2,4 "D7"d2 fe d>c AF | "G"G2 {A}B2 G2 :|
+|: Bc | "G"d>c Bd g2- g2 | "Am"g>f fe {e}c2- c2 |1,3 "D7"c>B Ac f2- f2 | "G"e>d dB {B}G2 \
+                                               :|2,4 "D7"e>d dc c>A FA | "G"G2 {A}B2 G2 :|
+S:https://www.folktunefinder.com/tunes/7913
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2006NOMAD_Shottish.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Shottish.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2006NOMAD/2006NOMAD_Shottish.txt
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

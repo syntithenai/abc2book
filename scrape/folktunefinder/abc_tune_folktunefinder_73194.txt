@@ -1,0 +1,28 @@
+X:35
+T: John O'Dwyer of the Glen
+M: C
+L: 1/8
+B: "O'Neill's 35"
+N: "Slow with expression" "setting 1" "collected by Enright"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+W:
+K:Amix
+~d/2e/2 \
+| f>efa g e2 c | d>Bde f e2z \
+| A>BcA d>c (AG/2F/2) | G>BAA A3 :|
+A/2-B/2 \
+| cA/2B/2 c/2d/2e/2f/2 g2 (ef/2g/2) | a>bcb a>g f3/4(A/4 B/4c/4d/4e/4) \
+| f>agf f{gf}e  e{fe}c | d>cAA A3 d/2-e/2 |
+f>efa g e2 c | d>cde f<e ~a>g \
+| f>ded c>A (~AG/2F/2 | G>BAA A3 ||
+S:https://www.folktunefinder.com/tunes/73194
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

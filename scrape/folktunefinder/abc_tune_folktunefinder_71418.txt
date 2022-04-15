@@ -1,0 +1,25 @@
+X:389
+%%topmargin 3cm
+T:Miss Robertson of Tullybelton's Strathspey
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+D | ~B,3 B {/d}TcBGB | F<DB>D C/C/C C>D | B,3 B Tc>BG<g | fdTcd B/B/B B :|
+g | fbdf Bdfd | e>cd>B G/G/G G>g | fbdf Bdfd | e>cf>d B/B/B Bg |
+fbdf Bdfd | e>cd>B G/G/G G>B | FBDB ~FGBg | f>dTc>d B/B/B B |]
+S:https://www.folktunefinder.com/tunes/71418
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Robertson_of_Tullybeltons_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0389.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

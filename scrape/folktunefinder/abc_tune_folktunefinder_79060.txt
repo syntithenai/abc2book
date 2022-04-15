@@ -1,0 +1,30 @@
+X:619
+T: HIER STEH ICH AM BERGE
+N: E0571A
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Herfurt; Hessen
+R: Liebes - Lied
+M: 3/4
+L: 1/16
+K: D
+D2E2 | F4F6F2 | F2A2A4
+F2A2 | A4G4E2G2 | F4z4
+D2E2 | F4F6F2 | F2A2A4
+F2A2 | A4G4E2G2 | F4z4
+F4 | E2^G2B2d2d4 | c2B2A4
+E4 | E2^G2B2d2d4 | c6B2
+A4 | d4c4B3B | B4A4
+F2A2 | A4G4E2G2 | F2A2d4
+A4 | d4c4B3B | B4A4
+F2A2 | A4G4E2G2 | F8
+S:https://www.folktunefinder.com/tunes/79060
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

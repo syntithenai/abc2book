@@ -1,0 +1,30 @@
+X:2
+T:Rigodon du Trivres
+R:Rigodon
+N:
+D:Rigodon Sauvage (Ocora)
+G:Violon
+O:France
+N:transcription notes: Philippe Borne
+Z: (recopie abc : <anamnese@laposte.net>)
+%%MIDI program 110 %fiddle 
+M:2/4
+L:1/8
+Q:1/4=96
+K:G
+c | Bc d>d | e/f/g/g/ ed/c/ | Bc d>e | d/c/B/A/ Ge | d/c/B/A/ G2 |
+|: GB/B/ GB/B/ | G/G/B/c/ d>d | e/f/g/e/ d>e | d/c/B/A/ G2 :|
+%%vskip 0.5cm
+%%sep
+%%text Bretagne :
+S:https://www.folktunefinder.com/tunes/39889
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

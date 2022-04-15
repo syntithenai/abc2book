@@ -1,0 +1,35 @@
+X: 75
+T:Minuet,A. JaW.075
+M:3/4
+Q:1/4=120
+S:James Winder Ms, Lancashire, 1835-41
+R:Minuet
+O:England
+A:Wyresdale,Lancashire
+N:As written, with new time sig for return to 3/4. If you ignore the
+N:barlines for the odd bit it works OK. CGP..
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:Bb
+Bfdfcf|d2cdB2|e2g2b2|d4c2|!
+Bfdfcf|d2cdB2|bagfed|c6:|!
+|:AcFcAc|B2c2d2|\
+M:C
+"sic"D2D2G,2D2|B,4(A,2G,2)|!
+M:3/4
+BdFdBd|c2d2e2|fedfef|gfegfg|abc4|B6:|]
+S:https://www.folktunefinder.com/tunes/47612
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

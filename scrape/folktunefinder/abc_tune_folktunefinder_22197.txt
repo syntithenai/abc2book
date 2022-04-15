@@ -1,0 +1,30 @@
+X:1748
+T:East Tennessee Blues
+O:england
+S:via PR
+M:4/4
+L:1/4
+K:C
+ef ^f|:"C"g/2a/2g/2e/2 g/2a/2g/2e/2|g/2a/2g/2e/2 a/2g/2e/2d/2|\
+"F"c/2d/2c/2A/2 c/2d/2c/2A/2|c/2d/2c/2A/2 d/2c/2A/2F/2|
+"C"G/2^F/2G/2A/2 c/2B/2c/2d/2|"C"e/2^d/2e/2f/2 g/2a/2g/2e/2|\
+[1"D"d/2^c/2d/2e/2 ^f/2d/2e/2f/2|"G"g2 ef:|
+[2"F"f/2e/2d/2c/2 "G"B/2G/2A/2B/2|"C"c3e/2f/2|:"C"g2 -g/2a/2g|\
+e2 -e/2g/2e/2d/2|"F"c2 -c/2d/2c/2B/2|A2 -A/2c/2B/2A/2|
+"C"G/2^F/2G/2A/2 c/2B/2c/2d/2|"C"e/2^d/2e/2f/2 g/2a/2g/2e/2|\
+"D"d/2^c/2d/2e/2 ^f/2d/2e/2f/2|"G"g2 ef:|
+"F"f/2e/2d/2c/2 "G"B/2G/2A/2B/2|"C"c4||
+S:https://www.folktunefinder.com/tunes/22197
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

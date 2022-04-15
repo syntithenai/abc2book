@@ -1,0 +1,24 @@
+X:334
+T: ES WAREN EINMAL DREI REITER
+N: F0576
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Gefangenschaft, Tod; Ballade
+M: 4/4
+L: 1/16
+K: C
+G,2G,2 | C4C2C2C4E2E2 | C4G,2G,2E,4
+G,2G,2 | E6C2E2D2D2B,2 | C8z4
+C2D2 | E4E2E2F2E2D2C2 | D6E2D4
+G,2B,2 | D4D2F2E2D2C2B,2 | C4G,4E,4
+G,3G, | E6C2E2D2D2B,2 | C8z4
+S:https://www.folktunefinder.com/tunes/69894
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, gefangenschaft, tod; ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

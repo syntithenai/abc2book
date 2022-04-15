@@ -1,0 +1,22 @@
+X:37
+T:The Peeler's Jacket #2
+R:reel
+O:Ireland
+M:4/4
+L:1/8
+K:G
+"G"  G2 B(G  D)GBG | "D" FGA(B "(C)"c2) Bc | "G" d(g{a}gf) d2       (eg) | "D" f(dcA)      BGA(F |
+"G"  G2) B(G D)GBG | "D" FGA(B "(C)"c2) Bc | "G" d(g{a}gf) d2    (3(efg) | "D"f(dcA) "G" BG   G2 :|
+"G" (~g3 f) d2 (ef | "G" gf)ga  "D" b(gaf) | "G"(~g3 f)    d2   (3(ef(g) | "D" f)(dcA) "G" BG G2 |
+"G" (~g3 f) d2 (ef | "G" gf)ga  "D" b(gaf) | "G" gba(g         "C" fd)de | "D" f(dcA)   BG    G2 :|
+S:https://www.folktunefinder.com/tunes/66721
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+S:http://sf.ccewest.org/music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

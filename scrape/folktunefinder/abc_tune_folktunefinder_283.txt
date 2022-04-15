@@ -1,0 +1,57 @@
+X: 1
+T: Sestinski Drmes
+R: drmes
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu>
+N: Harmonize a third higher.
+M: 2/4
+L: 1/16
+K: F
+|: "F"F6 G2 | A2G2 AGFA \
+| "C7"G6 A2 | B2A2 BAGA \
+| "F"F6 G2 | A2G2 AGFA \
+| "C7"G2z2 E2z2 |1 D2z2 C2z2 :|2 "F"F2F2 "F7"G2A2 ||
+|: "Bb"B6 c2 | "Bb(C7)"d2c2 dcB2 \
+| "F"A6 B2 | "F(Am)"c2B2 c2A2 \
+| "C7(Gm)"G6y2 A2 | "C7"B2A2 B2G2 \
+|1 "F"A4 B4 | "F7"c2F2 G2A2 \
+:|2 "F"A2z2 "C7"G2z2 | "F"F2z2 z4 |]
+%%sep 20 20 200
+K: G
+|: "G"G6 A2 | B2A2 BAGB \
+| "D7"A6 B2 | c2B2 cBAB \
+| "G"G6 A2 | B2A2 BAGB \
+| "D7"A2z2 F2z2 |1 E2z2 D2z2 :|2 "G"G2G2 "G7"A2B2 ||
+|: "C"c6 d2 | "C(D7)"e2d2 edc2 \
+| "G"B6 c2 | "G(Bm)"d2c2 d2B2 \
+| "D7(Am)"A6y2 B2 | "D7"c2B2 c2A2 \
+|1 "G"B4 c4 | "G7"d2G2 A2B2 \
+:|2 "G"B2z2 "D7"A2z2 | "G"G2z2 z4 |]
+%%sep 20 20 200
+K: A
+|: "A"A6 B2 | c2B2 cBAc \
+| "E7"B6 c2 | d2c2 dcBc \
+| "A"A6 B2 | c2B2 cBAc \
+| "E7"B2z2 G2z2 |1 F2z2 E2z2 :|2 "A"A2A2 "A7"B2c2 ||
+|: "D"d6 e2 | "D(E7)"f2e2 fed2 \
+| "A"c6 d2 | "A(cm)"e2d2 e2c2 \
+| "E7(Bm)"B6y2 c2 | "E7"d2c2 d2B2 \
+|1 "A"c4 d4 | "A7"e2A2 B2c2 \
+:|2 "A"c2z2 "E7"B2z2 | "A"A2z2 z4 |]
+S:https://www.folktunefinder.com/tunes/283
+S:http://trillian.mit.edu/~jc/music/abc/Croatia/SestinskiDrmes.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/SestinskiDrmes.abc
+% Rhythm Drmes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key F
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

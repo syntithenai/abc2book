@@ -1,0 +1,23 @@
+X:3117
+T:Trip to Durrow
+O:ireland
+Z: id:dc-reel-339
+M:C
+L:1/8
+K:D Major
+A,|D2FD ADFA|defd B3c|dBBA dBBA|FADE FEE2|!
+D2FD ADFA|defd B3c|dBBA FAdB|AFEG FDD:|!
+A|dcde fefg|afdf gfed|cdef gebe|gebe gfec|!
+dcde fefg|afdf gfed|cdef gbag|fgec d3e|!
+fdec d3e|fded B3c|dBBA dBBA|FADE FEE2|!
+D2FD ADFA|defd B3c|dBBA FAdB|AFEG FDD:|!
+S:https://www.folktunefinder.com/tunes/43122
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

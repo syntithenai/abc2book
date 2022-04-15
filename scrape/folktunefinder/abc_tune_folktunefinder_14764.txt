@@ -1,0 +1,25 @@
+X: 1
+T: New Year's Day
+S: Gow's Complete Repository, c.1810
+N: Transposed from F; 1st bar
+N: changed from d/e/fe to dfe
+Z: Nigel Gatherer <gatherer:argonet.co.uk>
+M: 6/8 jig
+K: D
+L: 1/8
+F \
+| D>ED dfe | dDD D2F | D>ED d>ef | eEE E2F | DEF dcB |
+| A2g f2e | d>cB AFd | AFD D2 :: F/G/ | A>BA FAF | ABA F2G |
+| ABc d>ef | eEE E2F | A>BA FAF | A2g f2e | dcB AFd | AFD D2 :|
+S:https://www.folktunefinder.com/tunes/14764
+S:http://trillian.mit.edu/~jc/music/abc/jig/NewYearsDayJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/NewYearsDayJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

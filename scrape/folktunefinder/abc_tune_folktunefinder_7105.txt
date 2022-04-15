@@ -1,0 +1,31 @@
+X: 1
+T: Nigun Sameach
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"Ez Gz | Bz ez | [g4e4]- | [g4e4] \
+| fg ag | fe ^de | "B7"[f4^d4]- | [f^d]B cB |
+| "B7"B3 ^d f3 e | (3^def (3edc | B4 | fe ^dc \
+| BA GF |1 "Em"E4 | (3B^AG (3GFE :|2 "Em"E4- | "fine"E4 |]
+|: "Em"Be "B7"gf | "Em"ed "E7"cB | "Am"Bc cc | c4 \
+| Ac fe | ^dc BA | "Em"^AB BB | B4 |
+| "B7"Bc ^de | fg (3gfe | ^d4- | d4 \
+| fe ^dc | BA GF | "Em"E4- | E2 z2 :|
+|: "Em"[b2g2e2] "Ed"[^a2g2e2] | "Em"[b2g2e2] "Am"[c'2a2e2] | "Em"[b3g3e3] g | e4 \
+| "Am"[c'3a3e3] b | ab c'a | "Em"[b4g4]- | [b4g4] |
+| "(B7)"[c'fa][bge] [a2f2^d2] | [a^dc][geB] [f2d2c2] | [a^dc][geB] [f2d2c2] | [fcA][eBG] [^d2A2F2] \
+| "B7"Bc ^de | fg  ^df |1 "Em"e4 | (3b^ag (3gfe :|2 "Em"e4 | ge "da Capo"BG |]
+S:https://www.folktunefinder.com/tunes/7105
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Kammen9-12_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Kammen9-12_Em.abc
+% Rhythm Bulgar, freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

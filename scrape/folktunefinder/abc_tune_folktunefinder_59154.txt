@@ -1,0 +1,37 @@
+X:267
+T:Danza (CT 216)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Llanuces, ayuntamiento de Quirs.
+N:Probablemente esta cancin ha sido compuesta por algn inmigrado de Cuba, pues pretende imitar en el movimiento las danzas de aquel pas.
+N:Siin embargo, las cadencias y giros meldicos tienen el inconfundible carcter asturiano.
+A:Asturies
+O:Llanuces (Quirs)
+Z:Cancioneru de Torner 216
+M:2/4
+L:1/8
+Q:1/4=84
+K:G
+G/ GB
+|(A3/2B/4A/4) G2-|G z/ G/ GB|(A3/2B/4A/4) G2-|G z/ B/ Bd|
+dc/A/ Bd|d4-|d z/ B/ Bd|dc/A/ Bc|cB/A/ GB|BA/G/ FA|G4-|G z3||
+W:Estuve en Cuba,
+W:vine de Cuba
+W:y una cubana me regal
+W:cinco mil reales y una pulsera,
+W:cadena de oro para el rel.
+W:
+S:https://www.folktunefinder.com/tunes/59154
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

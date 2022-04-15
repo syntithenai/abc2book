@@ -1,0 +1,24 @@
+X: 1
+T: the Piper's Bonnet
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+B/d/ \
+| "Am"e2A e2d | e2A A2B/d/ | e2A e2d | "G"B2G G2B/d/ \
+| "Am"e2A e2d | e2A c2A | "G"BBg ddg | "Em"B2G G2 :|
+|: B/d/ \
+| "Am"e2A a2A | e2A A2B/d/ | e2A a2A | "G"B2G G2B/d/ \
+| "Am"e2A a2A | e2A c2A | "G"BBg ddg | "Em"B2G G2 :|
+S:https://www.folktunefinder.com/tunes/14865
+S:http://trillian.mit.edu/~jc/music/abc/jig/PipersBonnet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PipersBonnet_Am.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

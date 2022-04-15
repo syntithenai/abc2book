@@ -1,0 +1,31 @@
+X: 5
+T:petit tambour,La. CJF.005
+T:La petit tambour. CJF.005
+T:Grand Old Duke of York. CJF.005
+M:2/4
+L:1/8
+Q:160
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:March
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:b10,14,20 have irregular time-values
+Z:vmp.P J Headford 2000
+K:D
+"$"(f3/4e/4)|.d.A .F.A|d3(c/d/)|.e.e.e.e|e3(d/e/)|!
+ffff|f2(a/g/).B/.e/|dd (c/d/e/c/)|d3:|!
+(d3/4c/4)|.B(Bcd)|(e7/4d/4)c (d3/4c/4)|.B(Bcd)|e2z/.e/.d/.c/|!
+.B(Bcd)|ee/e/ (ed3/4)d/|(dc3/4)c/4 (cB3/4)B/4|A2z/A/B/c/|!
+dd3/4d/4 dd|d2-d/.A/.c/.A/|.d.A .F.D|A3(A/B/c/4)|!
+dd3/4d/ dd|d3(e/f/)|(f/e/).d/.c/ (e/d/).c/.B/|"  $"A3|]
+S:https://www.folktunefinder.com/tunes/49560
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

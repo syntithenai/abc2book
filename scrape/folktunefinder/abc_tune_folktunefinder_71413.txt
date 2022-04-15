@@ -1,0 +1,27 @@
+X:384
+%%topmargin 3cm
+T:Welcome Whisky back Again
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:"Whisky" is the spelling preferred in Great Britain.
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+B,d c>Bcd | BcGB F>D C2 | B,d {/d}c>Bc>d | B>FGD B,2 :| d<f f>g f>dc>B | d<ff>g f>d c2 |
+B<ff>g f>dc>d | B>FGg f>dc>B | d<ff>g fdc>e | d<fc<e B>c {Bc}d>c | B>FG<B FD B,2 |]
+S:https://www.folktunefinder.com/tunes/71413
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Welcome_Whisky_back_Again.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0384.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

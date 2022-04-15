@@ -1,0 +1,26 @@
+X: 1
+T: the Far Awa' Wedding
+R: slipjig
+O: Gow
+B: SRSNH 5.31
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: AMix
+|: "A"c2A AEA AEA | "A"c2A AEA "G"BGB | "A"c2A AEA AEA | "G"BGB Bge dBG :|
+[| "A"cAA a2e cAA | "A"cAA a2f "G"gBB | "A"cAA a2e cAc | "G"BGB Bge dBG ||
+|| "A"cAA a2e cAA | "A"cAA "G"~g3 gBB | "A"cAA a2e cAA | "G"BGB Bge dBG |]
+S:https://www.folktunefinder.com/tunes/18527
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/FarAwaWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/FarAwaWedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/FarAwaWedding.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/slipjig/FarAwaWedding.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/slipjig/FarAwaWedding.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

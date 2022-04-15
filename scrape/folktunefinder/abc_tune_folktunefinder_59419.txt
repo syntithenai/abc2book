@@ -1,0 +1,37 @@
+X:532
+T:Mueira de Batribn (MG 18) (Arrg.)
+T:Mulieira de Batribn (MG 18) (Arrg.)
+R:Mueira
+C:Tradicional
+S:Batribn (Conceyu d'Os Ozcos)
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+O:Batribn (Os Ozcos)
+Z:Mtodu de Gaita 18
+M:6/8
+L:1/8
+Q:3/8=88
+E:Nivel 2
+K:C
+"C"CEE|
+|:"C"C2 E "C"CDE|"G7"F2 D B,DD|"G7"B,2 D "G7"B,DD|"Am"A2 G "C"CEE|
+"C"C2 E "C"CDE|"G7"FED "G7"CB,D|"Am"A2 G "F"FEF|"Am"A2 G "F"cBA|
+"G"GAG "G7"FED|[1 "C"C3 "C"CEE:|[2 "C"C3 "C"c3||:"G"BAG "Am"A3|
+"G7"GFE "G".G2 G|
+"G"GAG "F"FEF|"Am"A2 G "C"c3|"G"BAG "Am"A3|"G7"GFE "G".G2 G|
+"G"GAG "G7"FED|[1 "C"C3 "C"c3:|
+[2 "C"C3 "C"CDE||:"F"F.FF "G7"FGF|"C"EDC "F"CDF|"C"EDC "G7"B,CD|
+"Am"A2 G "C"CDE|"F".F.FF "G7"FGF|"C"EDC "F"CDF|"C"EDC "G7"B,CD|
+[1 "C"C3 "C"CDE:|[2 "C"C6|"C"C6|"C"C2 z4||
+S:https://www.folktunefinder.com/tunes/59419
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

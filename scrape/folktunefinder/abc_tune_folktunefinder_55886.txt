@@ -1,0 +1,18 @@
+X:1
+K:C
+%
+T:72-ET
+%%microabc: equaltemp:72
+[Bb][Bb/][Bbf][Bv][Bt][B\][Be][B/][Bf][B^][B#t][B#\][B#]
+%
+T:Just Intonation
+%%microabc: lineartemp:12 2/1 3/2 3
+[Bb][Bb/][Bbf][Bv][Bt][B\][Be][B/][Bf][B^][B#t][B#\][B#]
+IMPORTANT: when preproccessing a file, there is an additional microabc
+S:https://www.folktunefinder.com/tunes/55886
+S:http://br.geocities.com/hfmlacerda/abc/microabc.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

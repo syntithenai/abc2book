@@ -1,0 +1,29 @@
+X: 1
+P: Tibby Fowler o' the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+S:https://www.folktunefinder.com/tunes/58548
+S:http://trillian.mit.edu/~jc/music/book/500/TibbyFowlerOTheGlen.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

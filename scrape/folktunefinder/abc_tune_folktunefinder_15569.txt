@@ -1,0 +1,32 @@
+X: 1
+T: Miss Mary Douglas (reel)
+C: Niel Gow
+R: reel, march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%Q: 1/4=112
+K: Bb
+Bc \
+| "Bb"d2d2 dedc | B4- B2de | f2f2 fgfe | d4- d2f2 \
+| "Eb"g2g2 e2g2 | "Bb"f2f2 d2B2 | "F7"c2c2 cBcd | "Bb"B4- B2 :|
+|: AB \
+| "F7"c2c2 c2Bc | "Bb"d2d2 d2cd | "Eb"e2e2 efge | "Bb"f6 AB \
+| "F7"c2c2 c2Bc | "Bb"d2d2 d2B2 | "F7"c2c2 cBcd | "Bb"B4- B2 :|
+S:https://www.folktunefinder.com/tunes/15569
+S:http://trillian.mit.edu/~jc/music/abc/march/MaryDouglasR.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/MaryDouglasR_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MaryDouglasR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MaryDouglasR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/MaryDouglasR_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MaryDouglasR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MaryDouglasR_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/Gow/MaryDouglasR.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/NielGow/MaryDouglasR.abc
+% Rhythm Reel, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

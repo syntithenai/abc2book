@@ -1,0 +1,27 @@
+X:79
+T:Farandole di Marsihenco
+O:France
+A:Provence
+R:Farandole
+C:Trad.
+M:6/8
+L:1/8
+K:F
+c|{/g}fef agf|efd c2A|(AFA) (cBA)|GAB A2 c|{/g}fef agf|efd c2A|(AFA) (cAc)|ede f2d||
+d2d B2d|c2B A2c|f2f e2e|(ded) (c!breath!A)d|d2c B2d|c2B A2c|f2f e2e|ded c2d|
+d2c B2d|c2B A2c|f2f e2e|(ded) (c!breath!A)d|c2c B2d|c2B A2c|f2d (gfe|ede) f2z||
+K:Eb
+(BGB) (ede)|fef g2e|{g}(ffe) ddc|(BcB) B2G|(BGB) (ede)|fef g2e|{g}(fed) (BGe)|(fed e2c||
+%%footer $D   Galouvielle-MBe 2008 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/538
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

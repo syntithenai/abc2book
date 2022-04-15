@@ -1,0 +1,22 @@
+X:30
+T:Ms. McLeod's Reel
+R:reel
+O:Sctoland, Ireland
+M:4/4
+L:1/8
+K:G
+"G" G2 BG dGBA | G2    BG     BcBA | "Em" G2    BG    dGBA | "C" AGFG "D" AcBA | 
+"G" G2 BG dGBA | B2  BA    Bc   d2 | "C" efed   ((3Bcd) ef | "D" gedB     AcBA :|
+"G" G2 gf efge | B2  BA    Bc   d2 | "Em" g2    gf    efge | "C" agab "D" agef |
+"G" g2 gf efge | "Em" B2  BA Bc d2 | "C" efed   (3(Bcd) ef | "D" gedB     AcBA :|
+S:https://www.folktunefinder.com/tunes/66714
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

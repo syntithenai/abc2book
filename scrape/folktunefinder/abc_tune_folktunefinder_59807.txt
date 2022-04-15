@@ -1,0 +1,40 @@
+X:920
+T:Xiraldilla (CT 460)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 460
+M:2/4
+L:1/8
+Q:1/4=160
+K:Gm
+|d2 dd|d2 AB|cB AB|cd cB|A2 G2|
+d2 dd|d2 AB|cB AB|cd cB|A2 G G|
+B2 AG|A2 GF|G2 FE|D3 G|
+B2 AG|A2 GF|GG FE|D2 ||
+W:Has de saber que yo gasto
+W:buen zapato y buena media;
+W:has de saber que te olvido
+W:por una perra pequea.
+W:que soy militar,
+W:militar, militar,
+W:que soy militar
+W:y te olvido por un rial.
+W:
+S:https://www.folktunefinder.com/tunes/59807
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

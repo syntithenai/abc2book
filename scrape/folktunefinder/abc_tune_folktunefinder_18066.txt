@@ -1,0 +1,37 @@
+X:2
+T:Saint-Sauveur
+C:Trad
+S:Dominique Renaudin <domren:free.fr> 2003-5-29 QueTrad
+O:Qubec
+Q:1/4=120
+R:reel
+M:2/4
+L:1/16
+K:D
+FG "A"|: A2AA ABcd \
+| A2(3AAA ABcd | F3G FEDE \
+| FDEF E2FG | A2AA ABcd |
+| A2(3AAA ABcd | efed cABc \
+|1 dfec d2FG :|2 dfec dABc \
+"B"|: d2fd adfd | adfd cABc |
+| d2fd adfd |1 efed cABc \
+:|2efed c2A2 "C"|: fgfe dedB \
+| ABAG FAGF | EAAA cAeA |
+| cABc (3BcB A2 | fgfe dedB \
+| ABAG FAGF | EAcA eABc \
+|1 dfec d4 :|2 dfec d2FG |]
+S:https://www.folktunefinder.com/tunes/18066
+S:http://trillian.mit.edu/~jc/music/abc/reel/SaintSauveur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SaintSauveur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/SaintSauveur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/SaintSauveur_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SaintSauveur_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

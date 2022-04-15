@@ -1,0 +1,23 @@
+X: 25
+T:Beaver Creek
+% Nottingham Music Database
+S:Ralph Page, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+A|"D"cd cd|"G"BB "A7"AA|"D"dd d/2d/2d/2d/2|"Bm"ff "A7"eA|"D"cd cd|\
+"D""Bm"dd d/2d/2d/2d/2|"A7"fe "D"d:|
+P:B
+e|"D"fa aa|"D7"fa a3/2a/2|"G"gg "D"ff|"Em"ee/2f/2 "A7"e/2c/2B/2A/2|"D"cd cd|\
+"D""Bm"dd d/2d/2d/2d/2|"A7"fe "D"d:|
+%e:|
+S:https://www.folktunefinder.com/tunes/43480
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

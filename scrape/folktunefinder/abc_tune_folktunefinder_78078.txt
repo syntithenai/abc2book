@@ -1,0 +1,29 @@
+X:57
+T: BEI SEDAN WAR DIE LETZTE SCHLACHT
+N: B0075
+O: Europa, Mitteleuropa, Deutschland
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 2/4
+L: 1/16
+K: G
+G2 | D2D2D2G2 | E2E2E2
+A2 | F2D2E2F2 | G4z2
+G2 | D2D2D2G2 | E2E2E2
+A2 | F2D2E2F2 | G4z2
+G2 | A3AGFED | G2A2B2
+G2 | A3AGFED | G2A2B2
+D2 | G3ABAGF | E3AcBA
+A | B3BAAFF | G4z2
+D2 | G3ABAGF | E3AcBA
+A | B3BAAFF | G4z2
+S:https://www.folktunefinder.com/tunes/78078
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

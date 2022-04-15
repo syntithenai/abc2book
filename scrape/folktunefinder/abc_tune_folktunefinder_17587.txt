@@ -1,0 +1,24 @@
+X: 1
+T: Love Forever
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/16
+K: D
+|::: "D"dAFA dAFA | dAFA "(Bm)"d4 | "Em"e2f2 g2f2 \
+|1,3 "A7"efed dcBA :|2,4 "A7"efec "D"d4 :|
+|: "D"a2af "G"g2ge | "D"f2fd "A7"e4 | "D"A2AF "G"G2GE | "D"F2FD "A7"E4 |
+|  "G"g2ge "D"f2fd | "A"e2ec "Bm"d2f2 | "Em"g2e2 "D"f2d2 | "A7"e2dc "D"d4 :|
+S:https://www.folktunefinder.com/tunes/17587
+S:http://trillian.mit.edu/~jc/music/abc/reel/LoveForever_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LoveForever_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

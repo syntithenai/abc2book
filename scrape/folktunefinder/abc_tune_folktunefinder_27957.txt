@@ -1,0 +1,27 @@
+X:7505
+T:There's a Chicken in the Pot
+O:england
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song
+W:There's a chicken in the pot for you young man:
+W:There's a chicken in the pot for you young man:
+W:  The meat for thee,
+W:  And the broth for me,
+W:And the bones for the tar with his trousers on.
+L:1/8
+M:C
+K:G
+DE|G2 GA B2 dB|B2 A2 A2 BA|G2 GA B2 d2|e2 A2 A2 Bc||
+d2 d2 d2 Bd|e2 f2 Hg2 ge|dBAG AcBA|G2 E2 E2||
+S:https://www.folktunefinder.com/tunes/27957
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

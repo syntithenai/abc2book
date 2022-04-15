@@ -1,0 +1,29 @@
+X: 1
+T: the Maiden's Blush
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: Cecil J Sharp "Country Dance Tunes" v.8 p.3 1916
+M: 6/8
+L: 1/8
+K: D
+A "A"\
+|  "D"def  "G"efd | "Am7"c>BA "Bm"d2F | "Em"GAB "Am7"ABc | "D"d2A FD d- \
+| "Bm"def "Em"efd | "Am"c>BA   "D"d2F |  "G"GAB "Am7"ABc | "D"d2A FD ||
+d "B1"\
+|  "Bm"def "Em"efg |   "D"afd  "A"ecA |  "D"def "A"efg | "D"afd "A"ecA \
+| "F#m"fa2 "Bm"fa2 | "F#m"fa2 "Bm"fa2 | "A7"ABc    ABc | "D"d2A FD ||
+d "B2"\
+|  "Bm"def "Em"efg |   "D"afd  "A"ecA |  "D"def "A"efg | "D"afd "A"ecA \
+| "F#m"fa2  "G"fa2 |   "A"fa2 "Bm"fa2 | "A7"ABc    ABc | "D"d2A FD |]
+S:https://www.folktunefinder.com/tunes/14595
+S:http://trillian.mit.edu/~jc/music/abc/jig/MaidensBlush_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MaidensBlush_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

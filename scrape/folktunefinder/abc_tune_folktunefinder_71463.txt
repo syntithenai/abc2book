@@ -1,0 +1,31 @@
+X:434
+%%topmargin 3cm
+T:Prince Charle's Welcome to the Isle of Skye
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Title as in original (i.e., "Charle's")
+R:March
+M:C
+L:1/8
+K:D
+dB | .A2 .D2 GFED | .A2 .D2 GFED | .B2 .E2 EFGA | .B2 .E2 EFGA | BAGF .d2 cB | BAGF GFED | FEDB, A,B,DE | {DE}F2 D2 D2 ::
+de | f2 df e2 ce | d2 Bd BAGF | B2 E2 EFGA | B2 E2 E2 de | f2 df e2 ce | d2 Bd BAGF | GFED A,B,DE | {DE}F2 D2 D2 ::
+ag | .f2 .d2 fgag | .f2 .d2 fgag | .g2 .e2 efga | .b2 .e2 e2 ag | .f2 .d2 fgag | .f2 .d2 fgag | fgab agfe | {de}f2 d2 d2 ::
+de | f2 (d/e/f) e2 (c/d/e) | d2 (B/c/d) BAGF | B2 E2 EFGA | B2 E2 E2 de | (f2 d/e/f) e2 (c/d/e) | d2 (B/c/d) BAGF | GFED A,B,DE | {DE}F2 D2 D2 ::
+"A little quicker _ and with much fire and spirit." dB | ADFD GFED | ADFD GFED | BEGE EFGA | BEGE EFGB | AFAF BGcA | dcBA BAGF | GFED A,B,DE | {DE}F2 D2 D2 ::
+de | fdfd ecec | dcBA BAGF | BEGE EFGA | BEFE E2 de | fdfd ecec | dcBA BAGF | GFED A,B,DE | {DE}F2 D2 D2 ::
+dB | AD(FE/D/) ADdD | AD (FE/D/) ADdD | BEeE EFGA | BEeE Eedc | BAGF dcdB | BAGF GFED | FEDB, A,B,DE | {DE}F2 D2 D2 ::
+de | fedf edce | dcBd BAGF | BEeE EFGA | BEeE EFGg | fedf edce | dcBd BAGF | GFED A,B,DE | {DE}F2 D2 D2 :]
+S:https://www.folktunefinder.com/tunes/71463
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

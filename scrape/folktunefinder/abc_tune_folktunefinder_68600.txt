@@ -1,0 +1,26 @@
+X:54
+T: Laemmerweide
+N: A0056A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie in Souterliedekens 1540 ad Ps. 141.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: D
+D2D2D2 | A4B2=c2B4 | A4z2
+d2 | d4d2d2d2d2 | =c2A2=FGAB | =c4z2
+A2 | _B2A2G2F2 | D4=C4z2
+c2 | =c2c2B2c2 | d4A4z2
+d2 | =c2c2A2=F4E2 | =F3GA2A4GF | E4D2
+S:https://www.folktunefinder.com/tunes/68600
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

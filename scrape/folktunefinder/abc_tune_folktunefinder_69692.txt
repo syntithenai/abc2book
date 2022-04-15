@@ -1,0 +1,28 @@
+X:132
+T: WIR KINDER WIR SCHMECKEN DER FREUDEN RECHT VIEL
+N: F0253
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Spiel; Belehrung
+M: 3/8
+L: 1/16
+K: A
+A | A2c2ze | G2GA
+Bc | d2dcde | c2z3
+A | e2c2zA | F2d2z
+B | G2GABc | A2z2
+cB | B2e^dec | B2e^d
+ec | BcBGAF | E2z2
+Bc | d2dcdc | B2BA
+BA | G2GABc | A2z3
+S:https://www.folktunefinder.com/tunes/69692
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, spiel; belehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

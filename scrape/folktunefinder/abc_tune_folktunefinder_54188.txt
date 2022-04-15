@@ -1,0 +1,30 @@
+X: 205
+T: Lepa Anka Kolo Vodi
+O: Croatia
+S: Debora Jones VIFD Music Book
+M: 4/4
+L: 1/4
+Q: 1/4=210
+K: D
+%%MIDI program 110
+%%MIDI bassprog 115
+   "D" [F2A2] [FA] [DF]                 | "A7" [E3G3] [EG]                         |\
+   "D" [DF] [FA] [EG] [DF]              | [C4E4]                                   |
+K: G
+L: 1/8
+|: "G" G3 "D"[FA] "G" [G2B2] "D7" [F2c2]| "G" [G2B2] "D" [F2A2] "G" [G2B2] [D2G2]  :|
+L: 1/4
+K: D
+|: "D" [D2F2A2] [DFA] [DF]              | "A7" [E3G3] [EG]                         |\
+   "D" [DF] [FA] [DEG] [DF]             | "A" [A,4C4E4]                            :|
+S:https://www.folktunefinder.com/tunes/54188
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

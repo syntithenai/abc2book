@@ -1,0 +1,31 @@
+X:2289
+T:Bulgarian () 6
+S:Ian McArdle
+R:Other
+O:Bulgaria 
+M:2/4
+K:A
+"A"ABcc cAcc|cABc BAAz | \
+edcB cABc | ABBA A2z2 ::
+"F#m"~c2BA "Hm"~B2AG |"F#m"FEFG A2B2|\
+~c2BA "Hm"~B2AG| "F#m"FEF2 F2z2 ::
+"F#m"agff fefg| aege abc'z |\
+agff fefg | "E"abge "F#m"f2z2 ::
+"A"deee de~c2 | defe de~c2 |\
+deee de~c2|defe de~c2|
+deee de~c2|defe de~c2|\
+deee de~c2|defe dec2 ::
+"F#m"edcc cFed|cGed cccF| \
+edcc cFed|cccF cccF :|
+S:https://www.folktunefinder.com/tunes/57228
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

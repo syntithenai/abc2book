@@ -1,0 +1,27 @@
+X: 7497
+T:Navvy on the Line
+R:Hornpipe
+O:England
+O:Ireland
+O:Scotland
+M:4/4
+K:G
+Bc|\
+dgfe dcBA|GBDG B2AG|FADF A2GF|GDEF GABc|\
+dgfe dcBA|GBDG B2AG|
+FADF A2GF|G2B2 G2:: AG|\
+FADF A2GF|GBDG B2AG|
+FADF A2GF GDEF GABc|\
+dgfe dcBA|GBDG B2AG|FAfe dcBA|G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/34714
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

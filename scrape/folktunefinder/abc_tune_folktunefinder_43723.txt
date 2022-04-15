@@ -1,0 +1,24 @@
+X:1
+T:Drink to me only.
+T:2 Flutes.
+M:6/8
+L:1/8
+Q:3/8=60
+P:ABA
+K:A
+P:A
+[V:1]   ccc d2d|(ed)c (Bc)d|(eA)d c2B   | HA6    :|
+[V:2]   AAA B2B|(cB)A (GA)B|(Ac)B A2[EG]|[HC6HA6]:|
+%
+P:B
+[V:1] e|ece a2e|(ec)e  e2e | f2e  d2c   | (c3 B2):|
+[V:2] c|cAc c2c|(cA)c  c2c | d2c  B2A   | (A3 G2):|
+The intuition behind the P: construct, to me, is that you are
+S:https://www.folktunefinder.com/tunes/43723
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg06259.html
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

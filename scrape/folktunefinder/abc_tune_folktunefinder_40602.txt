@@ -1,0 +1,35 @@
+X:17
+T:Kadril van Achtel
+T:Eerste figuur (Avandee)
+O:vlaanderen
+C:Trad.
+A:Achtel
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:C
+P:Voorspel
+cc/c/ c2 | cc/c/ c2 | cc BB | c2 z2 |]
+P:A
+cc/c/ c2 | cc/c/ c2 | cc BB | c2 z G | E>E E>G | A>A  G2 | (3cBA G>E |
+G2 F>E | D>D D>E | F>F F2 | (3BAG ^F>G | A2 G>G | E>E E>G | A>A G2 |
+(3cBA G>E | G2 F>G | D>D (3DFE | G>G (3G^FG | B>B (3ABA | G2 z G | E>E E>G |
+A>A G2 | (3 cBA G>E | G2 F>E | D>D (3DFE | G>G (3G^FG | B>B (3ABA |
+G2 z A/B/ | c>c B>B | A>A GA/B/ | c>c B>B | A>A G2 | G2 z2 ||
+M:C
+L:1/4
+E2 D C | E2 D C | F2 E D | G/G/4G/4 G/G/ B/A/ G/F/ | E2 D C | E2 D C |
+D G ^F A | G3 z/ A/4B/4 ||\
+M:2/4 \
+L:1/8 \
+|:c>c B>B | A>A GA/B/ | c>c B>B | A>A G2 |
+G2 z G/G/ |B>B A>A | G>G B>A | G>F E>D | C z G2 | c z z2 :|
+S:https://www.folktunefinder.com/tunes/40602
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

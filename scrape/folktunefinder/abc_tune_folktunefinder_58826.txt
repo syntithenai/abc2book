@@ -1,0 +1,33 @@
+X:15
+T:The Yankee Squirrel Hunter
+S:Tune from W. Virginia. Learned from Addie of Montague, Mass.
+Z:Tom Novelli
+M:4/4
+L:1/8
+K:Amix
+|:gfeA dBG2|e3g edB2|BAG2 ABd2|BAG2 ABd2|
+  gfeA dBG2|e3g edB2|BAG2 ABd2|dBG(A A)A A2:|
+|:gfe(a a)ea2|e>e f<g e>e f<g|BAG2 ABd2|BAG2 ABd2|
+  gfe(a a)ea2|e>e f<g e>e f<g|BAG2 ABd2|dBG(A A)A A2:|
+% ----------------------------------------------------------------------------
+%
+% English country dance tunes, arranged for readability (most of these tunes
+% aren't in the Barnes book, and Barlow's book isn't meant to be readable.)
+%
+% Sources:
+%  - Playford, John et al. "The Dancing Master" vol. 1-3. 1651-1728.
+%  - Barlow, Jeremy. "The Complete Country Dance Tunes from Playford's
+% Dancing Master (1651-ca.1728)". Faber, 1985.
+%  - Barnes, Peter. "English Country Dance Tunes". 2nd ed. 1996.
+%
+S:https://www.folktunefinder.com/tunes/58826
+S:http://bespin.org/~tom/music/novelli.abc
+S:http://tom.bespin.org/music/novelli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

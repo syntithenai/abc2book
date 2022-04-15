@@ -1,0 +1,21 @@
+X: 66
+T: Eddie's Reel
+R: reel
+M: C|
+L: 1/8
+K: G
+"G"DGBd g2g2 | DGBd g2g2 | DGBd "G#"gfed | "Am"c2cc cdcB|
+"D7"AFAd f2f2 | AFAd f2fe |1 "D7"[d2A2] [dA]d "D75"[e_B]g[eB]d | "G"B3B "D7"BcBA:|2"D7"d3de2f2|"G"g4"D7"g2d2||
+"G"[b3d3][bd] [b2d2][a2c2] | [g4B4] [g2B2][a2d2] | "G"[b3d3][bd] [a2c2][g2B2]| "D7"[f4A4] [f2A2] [g2B2] |
+ "Am"[a3c3][ac] [ac][bd][ac][gB] |"D7" [f2A2] [fA][fA] [fA][gB][fA][eG] | [d2A2] [dA]d "D75"[e_B]g[eB]d | "G"[G4B4] "D7"[G2B2]d2  |
+"G"[b3d3][bd] [b2d2][a2c2] | [g4B4] [g2B2]z2 | "G"[b3d3][bd] "G7"[b2d2][b2d2] | "C"[c'4e4] [c'2e2]e2|
+"Am"[a3c3][ac] [ac][bd][ac][gB]  | "D7"[f3A3] [fA] [f2A2][e2G2] | "Am"[d2F2][dF]B "D7"cAFA | "G"[G6D6] z2|]
+S:https://www.folktunefinder.com/tunes/55669
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

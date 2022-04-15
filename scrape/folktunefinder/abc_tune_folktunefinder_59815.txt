@@ -1,0 +1,37 @@
+X:928
+T:Xiraldilla (CT 468) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita y comunicada por D. Eugenio Garca Manso, de Navia, quien dice que esta cancin era corriente hace muchos aos, pero que hoy apenas es recordada por las gentes de Navia.
+A:Asturies
+G:Arrg.
+O:Navia
+Z:Cancioneru de Torner 468
+M:2/4
+L:1/8
+Q:1/4=160
+K:C
+|"Am"AB cd|"Am"e2 A2|"Em"B2 "Am"A2|
+"Am"AB cd|"Am"e2 "F"f2|"Em"e2 z2|
+"F"fg fe|"Dm"d2 f2|"F"f2 "Em"e2|
+"G"Bc de|"F"c2 B2|"Am"A2 z2||
+W:El caballo pinto y blanco
+W:me lo ha robado un francs;
+W:el caballo pinto y blanco,
+W:no s si lo encontrar.
+W:
+S:https://www.folktunefinder.com/tunes/59815
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 45
+T:Female Fox Hunter,The. WCl.45
+M:6/8
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:D
+A|d2d A2G|F>EF D2A|B2AG2F|(F3E2)E|!
+A2A B2B|c>Bc A2A|d2d e2e|f>ef d2A|!
+(B>cd) (e>fg)|(A>Bc) d2A|B2B A>GA|D3-D2:|!
+|:F/2D/2|A2A A2A|A3-A2 B/2A/2|d2d (d>ef)|d3-d2 A/2A/2|!
+(B>cd) (e>fg)|(A>Bc) d2 A/2A/2|B2G A2A|D3 D2:|]
+S:https://www.folktunefinder.com/tunes/40801
+S:http://www.village-music-project.org.uk/abc/clarke_w_lincs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

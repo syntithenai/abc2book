@@ -1,0 +1,30 @@
+X: 1
+T: Angus MacEachern's
+O: trad
+S: Jerry Holland, who said he learned it years ago in Boston from Angus MacEachern.
+R: hornpipe
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+Bc \
+| "G"dgfe d2Bc | dgfe d2Bc \
+|1,3 dBdg "C"ec~c2 | "G"dBGB "D7"A2 \
+:|2,4 "G"dBdg "D7"ecAF | "G"G2B2 G2 :|
+|: dc \
+| "G"BGDG BGDG | BGDG TB2AB \
+|1,3 "D7"cAFA cAFA | cAFA "C"c2 \
+:|2,4 "C"cBcd "D7"ecAF | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/13465
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/AngusMacEachernsH_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/AngusMacEachernsH_G.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:10
+T: HOLD UND SITTSAMKEIT
+N: E0622
+O: Europa, Mitteleuropa, Deutschland, Sundgau
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: G
+ | G6A2 | G4A2B2 | B6z2
+B4d2d2 | d3cc3B | B4z4
+G2B2B4 | B2d2d4 | d4B2z2 | d4B2z2
+A2c2e2d2 | c4A3B | B6z2
+G2B2B4 | B2d2d4 | d4B2z2 | d4B2z2
+A2c2e2d2 | c4A3B | B6z2
+S:https://www.folktunefinder.com/tunes/76495
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

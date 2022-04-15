@@ -1,0 +1,31 @@
+X:1
+T:Geaghan's Fancy
+T:Eileen O'Callaghan's
+T:Paddy Canny's
+R:reel
+S:Buttons & Bows, 'Gracenotes'
+Z:Nigel Gatherer <gatherer@argonet.co.uk> irtrad-l  2000-05-09
+M:4/4
+L:1/8
+K:A
+|: A2 cA EAcB | ABce dBGB | A2 cA EAce | efge dBGB | A2 cA EAcB |
+| ABce dBGB | Ac c/c/c ecAc | efge dBGB :: eaag a2 ga | beee begf |
+| eaag a2 gf | efge dBGB | eaag a2 ga | b2 ba bagf | eaaa c'aag | efge dBGB :|
+S:https://www.folktunefinder.com/tunes/17104
+S:http://trillian.mit.edu/~jc/music/abc/reel/EileenOCallaghans.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/GeaghansFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/PaddyCannys.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/EileenOCallaghans.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/GeaghansFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/PaddyCannys.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/EileenOCallaghans.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GeaghansFancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PaddyCannys.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

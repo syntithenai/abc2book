@@ -1,0 +1,26 @@
+X:12
+T:Polska fr{\aa}n Blackstad
+R:sl-polska
+S:efter kantor P.A. Nilsson, Blackstad, Tjust, Sm{\aa}land
+A:Sm{\aa}land
+B:SVL \"Ogl 305, Bagge 57
+Z:id:hn-sp-12
+M:3/4
+L:1/16
+K:Dm
+D2DF A2^c2 d2e2|f2ef gfed ^c2c2|d^cde fgfe d2f2|efed =cdcB AGFE|
+D2DF A2d2 f2a2|a2ga b2ba g2e2|f2af e2ge d^cdf|age^c c2d2 d4:|
+|:f2fe f2fe f2a2|e2e^c e2ec e2f2|d2d^c d2dc d2f2|efed =cdcB AGFE|
+D2DF A2d2 f2a2|a2ga b2ba g2e2|f2af e2ge d^cdf|age^c c2d2 d4:|
+S:https://www.folktunefinder.com/tunes/62343
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

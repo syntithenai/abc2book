@@ -1,0 +1,29 @@
+X:1
+T:An Pa\'isti\'n Fionn (air)
+R:air
+S:Based on Gearo/id's setting obtained from Micho Russell
+Z:Jerome Colburn <jscolbur@PRAIRIENET.ORG> irtrad-l 2000-10-27
+M:3/4
+K:D
+FG | A4 d2 | d6|-d4 de | f3 e d2 | e6|-e4\
+fe | d4 c2 | A2 G2 F2 | G2 A2 E2|-E4\
+FG | A4 d2 | d6|-d4 de | f3 e d2 | e6|-e4\
+fe | d3 c A2 | G2 E3 A | D6 | D4 ||\
+DE | F3 G A2 | d6 | A4 A2 | B4 A2 | G4 FG | A3 G E2 | F4\
+DE | F3 G A2 | c4 (3ABc | d6 | d4 \
+DE | F3 G A2 | =c6 | A4 G2 | A d3 e2 | f2 \
+ge | d3 c A2 | GE-E2 EA | D6 | D4 |]**
+S:https://www.folktunefinder.com/tunes/13294
+S:http://trillian.mit.edu/~jc/music/abc/air/PaistinFionnAir.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/PaistinFionnAir.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/PaistinFionnAir.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Snouts and Ears
+O: trad
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+ed \
+| "A"c2A2 A3B | c2e2 a2ba | "E7"g2e2 efga | b2e2 e2fg \
+| "F#m"agfe "D"d3c | "E7"B2e2 efed | "A"c2A2 "E7"B2AB | "A"c2A2 A2 :|
+|: AB \
+| "A"c2A2 A3B | c2e2 efec | "Bm"d2B2 B3c | d2a2 "E7"afed \
+| "A"c2A2 A3B | c2e2 efec | "Bm"d2B2"E7"afed | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/15678
+S:http://trillian.mit.edu/~jc/music/abc/march/Snouts_and_Ears_A2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Snouts_and_Ears_A2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

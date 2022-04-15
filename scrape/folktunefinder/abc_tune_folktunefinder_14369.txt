@@ -1,0 +1,29 @@
+X: 1
+T: Wizard of Oz medley p.2
+M: 6/8
+L: 1/8
+K: G
+"D7"B2c \
+|: "G"d2B G2A | BG2- G2A | "Em"B2G E2F | "C"GE2- E2E \
+| "D7"D2D D2D | "G"D3 z2e' | d'2b "Am"age | "D7"dz2 "G7"G2G |
+| "C"E3 e2d | "Am"c2B A2G | "D7"F2F f2e | d2c B2A | "G"G2G "C"G2G \
+|1 "G"G3 a2g | "A7"=f_ef gab | "D7"dz2 B2c :|
+|2 "G"G3 d2e | g2e dcB | "D(m)"Az2 "G7"G3 |] "C"e6- "F#7"e2^d e2f \
+| "Bm"=d6- | "E7"d3 e3 | "Am"c3 c3 | "D7"c3 d3 |
+| "G"B6- | B3 c2B | "Am"A2^G A2G | "B7"A2^G A2B | "Em"=G6 \
+| z2A B2d | "A7"e3 z3 | z2^c B2A | "D"d3- "Ddim"d3- |
+| "D7"dz2 B2c [| "G"d2B G2A | BG2- G2A | "Em"B2G E2F | "C"GE2- E2E \
+| "D7"D2D D2D | "G"D3 z2e' | d'2b "Am"age |
+| "D7"dz2 "G7"G2G | "C"E3 e2d | "Am"c2B A2G | "D7"F2F f2e \
+| d2c B2A | "G"G2G "C"G2G | "G"G3 d2e | "Am"[aec]z2 "D7"[bfd]z2 | "G"[gdB]z2 |]
+S:https://www.folktunefinder.com/tunes/14369
+S:http://trillian.mit.edu/~jc/music/abc/jig/If_I_only_had_a_brain_Jig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/If_I_only_had_a_brain_Jig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/If_I_only_had_a_brain_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

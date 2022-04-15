@@ -1,0 +1,25 @@
+X:5460
+T:Schottische (from The Neck-Breakers)
+M:4/4
+O:Sweden
+R:Schottische
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008e3.html
+%%ID:000008e3
+K:D
+D2 | \
+A2BA G2FE | D2FA fafd |\
+e2ge cABc |1 d2cB AGFE :|2 d2d2d2 :|
+|: c2 |\
+BGBd gdBG | AFAd fafd | \
+e2ge cABc |1 d2cB A2 :|2 d2d2d2 :|
+S:https://www.folktunefinder.com/tunes/37171
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

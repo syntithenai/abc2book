@@ -1,0 +1,27 @@
+X: 7757
+T:Schottis
+R:Schottische
+C:e. Janne Johansson
+O:Sweden
+A:J\"amtland
+B:Rickard N\"aslin
+M:2/4
+K:G
+dbba aggf| feed c2c2| \
+AGFA d2d2| dBGB d2d2|\
+dbba aggf| feed c2c2|
+AGFA d2(dF)| G>AGF G4::\
+d2(dB) e2(eB)| d2(dB) c2c2|
+AGFA d2d2| dBGB d2d2|\
+d2(dB) e2(eB)| d2(dB) c2c2| \
+AGFA d2(dF)| G>AGF G4 :|
+S:https://www.folktunefinder.com/tunes/34974
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 10
+T:Quick Step. JMP.010
+M:6/8
+L:1/8
+Q:110
+C:"13"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Key and time signature very faint
+N:But I think I can see an f#.
+N:Maybe its moda
+H:1799
+Z:vmp.C. Graebe
+K:G major
+E | ABA A2B | GAG G2 E | ABA ABd | e2d efg |!
+ ABA A2 B | GAG G2E | c2 A BdB | A3 A2  :|!
+|:z|g2e ege | d2B BdB | g2ab2a | g2e ege |!
+ d2B BdB | c2A AcA | c2A BdB | A3 A2 :|]
+S:https://www.folktunefinder.com/tunes/1947
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:1
+%% Copyright 1943 and 1947 Melody Lane Publications Incorporated, USA. Southern Music Publishing Company Limited, 8 Denmark Street, London WC2.
+T:You've changed
+M:4/4
+L:1/4
+C:Bill Carey & Carl Fischer
+Q:1/4=76
+%%staves (chords melody)
+K:Eb
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x || "Ebmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"F7"x2 x2 | "B7"x2 "Bb7"x2 | "Eb6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+B || d3B | d/_d/c/_c/ B=c | B3G | c/_c/B/=A/ _A=c |
+S:https://www.folktunefinder.com/tunes/19087
+S:http://trillian.mit.edu/~jc/music/abc/song/Youve_changed.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/youve_changed.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/youve_changed.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Youve_changed.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/song/Youve_changed.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

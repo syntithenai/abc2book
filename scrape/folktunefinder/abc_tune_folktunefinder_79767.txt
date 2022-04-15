@@ -1,0 +1,26 @@
+X:663
+T: MEERSTERN ICH DICH GRUESSE
+N: E2048
+O: Europa, Mitteleuropa, Deutschland, Franken
+R: geistlich, Marien - Lied
+M: 4/4
+L: 1/8
+K: A
+ | A3GA2B2 | c2c2z2
+e2 | c2efedBe | c4z4
+A3GA2B2 | c2c2z2
+e2 | c2efedBe | c4z2
+AB | c2c2dcdf | e2e2z2
+d2 | cecAB2B2 | A4z4
+S:https://www.folktunefinder.com/tunes/79767
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Geistlich, marien - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

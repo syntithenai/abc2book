@@ -1,0 +1,35 @@
+X: 2
+T: Toska po rodina
+O: Russia - Kammen 1-40
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+D: Andy Statman & David Grisman "Songs of our Fathers", called "Toska" and identified as a Russian march.
+B: Kammen V.1 #40 "Toska Porodina" (Longing for Home), no attribution.
+M: C
+L: 1/8
+K: Am
+| "Am"e3 e/e/ | "Dm"f3 f/f/ | "E7"ed cB | "Am"A |: E ^DE \
+| "Am"c4- | cB A^G | "E7"B>^G E2- | EE ^DE |
+| "Dm"d4- | "E7"dd cB | "Am"c>B A2- | "A"Ae ^de \
+| c'4- | c'b a^g | "E7"b>^g e2- | ee ^de |
+| "Am"fe Ac | "E7"ed Bc | "Am"AA/A/ AA | A \
+:: Ace | "Am"a2 g2 | "Dm"f2 df | "Am"e4- | e e^de |
+| "Dm"f2 "Am"e2 | "E7"d2 cB | "Am"e4- | ee Bc \
+| "Dm"d2 c2 | "E7"B2 f2 | "Am"e4- | e edc \
+| "E7"B2 d2 | c2 B2 | "Am"AA/A/ AA | A :|
+"Trio"[|] z(3GAB | "C"c2 g2 | e2 c2 \
+| "G7"gG AB | "C"c |: efe | "Am"e2 c'2 | "(E7)"b2 a2 |
+| "E7"^g(e/g/ b)(g/b/ | e') efe | "E7"e2 d'2 | c'2 b2 \
+| "Am"a(A/c/ e)(c/e/ | a) efe | "Dm"d2 f2 |
+| b2 "(B7/D#)"a2 | "Am"e4- | e e'd'c' | "E7"b2 d'2 \
+| c'2 b2 |1 "Am"a4 - | a :|2 "Am"az "E7"^g2 | "Am"aa/a/ az |]
+S:https://www.folktunefinder.com/tunes/7367
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/ToskaPoRodina.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

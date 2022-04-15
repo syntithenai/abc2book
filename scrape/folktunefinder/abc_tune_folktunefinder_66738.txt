@@ -1,0 +1,22 @@
+X:54
+T:The Trip to Durrow
+R:reel
+M:C|
+L:1/8
+K:D
+"D" D2 (3(FED)    ADFA | "D" defd    "G" B2 Bc | "G" dBBA dBBA | "G" FADE    "A" FE E2 |
+"D" D2 (3(FED)    ADFA | "D" defd    "G" B2 Bc | "G" dBBA FAdB | "G" AF"A"GE "D" FD D2 :|
+"D" d3 e         f3  g |     afdf         gfed | "A" cdef gebe |     gebe         gfec | 
+"D" dcde         f3  g |     afdf         gfed | "A" cdef gbag | "G" fd"A"ec "D" d2 de |
+"D" fd"A"ec  "D" d2 de | "D" fd"A"ed "G" B2 Bc | "G" dBBA dBBA | "G" FADE    "A" FE E2 |
+"D" D2 (3(FED)    ADFA | "D" defd    "G" B2 Bc | "G" dBBA FAdB | "G" AF"A"GE "D" FD D2 :|
+S:https://www.folktunefinder.com/tunes/66738
+S:http://www.slowplayers.org/Music/abc/Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

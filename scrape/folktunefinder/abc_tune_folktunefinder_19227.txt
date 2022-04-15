@@ -1,0 +1,25 @@
+X: 1
+T: Braighe Bhanbh
+T: Braes of Banffshire
+O: Trad
+R: strathspey
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: F
+d | "F"c<F c>B A<F F<f | c<F c>B A2 A<f | c<F c>B A<F c>A | "Eb"B>G _E/F/G/A/ B2 B :|
+b | "F"a>f c<f A<f cB A2 Ab | a>f c<f A<f c<A  | "Eb"B>G _E/F/G/A/ B2 B |]
+b | "F"a>f c<f A<f cB "Am"A>B cf/g/ | "F"(3afa "C"(3geg "Dm"(3fed (3cBA | "Eb"B>G _E/F/G/A/ B2 B |]
+S:https://www.folktunefinder.com/tunes/19227
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Braes_of_Banffshire_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BraigheBhanbh_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BraigheBhanbh_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Braes_of_Banffshire_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BraigheBhanbh_F.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

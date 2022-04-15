@@ -1,0 +1,48 @@
+X:41
+T:A Cotillon
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 3/19/04
+N:Petrie's First Collection, page 19
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:2/4
+K:G
+[V:1] gdTd>c|c/B/d/B/ A>c     |c/B/A/G/ B/A/G/F/|G/F/G/A/ GD      |gdTd>c|\
+[V:1] c/B/d/B/ A>c     |c/B/A/G/ B/A/G/F/|G2       G,2:|
+[V:2] g2 f2 |g2       f/e/f/d/|gc       dD      |G2       g/d/b/a/|g2 f2 |\
+[V:2] g2       f/e/f/d/|gc       dD      |G/B/d/g/ G2 :|
+[V:1] |:d3 e/f/|g/f/g/a/ gb      |d2 e/d/c/B/|c/B/A/G/ AD      |d3e/f/|\
+[V:1] g/f/g/a/ gb|dB/c/ d/c/B/A/|G2       G2:|
+K:Gm
+[V:2] |:gabc'  |b2       b/a/g/g/|gabg       |c2       f/e/f/d/|gabc' |\
+[V:2] b2       g2|g2    d'd     |z/g/d/B/ G2:|
+K:Gm
+[V:1] "^Minore"d3d |e2 c2|c3 c|d2B2|B3B |c2  Ac|BAG^F|TG/^F/G/A/ TB/A/B/c/|
+[V:2]          gabg|c'cec|fgaf|gBdB|efge|d=e^fd|gcdD | GgGz               |
+[V:1] d3    d|e2     c2|c3 c|d2    B2|G3     A|Bcde|dcBA|G2       G2||
+[V:2] GG/A/BG|cc'/b/ ag|fgaf|bB/c/ dB|gf/e/ dc|GABc|d2D2|z/G/B/d/ G2||
+[V:1] B3 d|cA    F2|c3     e|Tedd2|f3   b |g3  f |edcB   |A/B/c/B/ A/G/F/E/|
+[V:2] BcdB|fF/G/ AF|zf/g/ af| zbB2|zB/c/d2|zee'd'|c'2 e=e|f3           a   |
+[V:1] [D3B3] d|GABG|c3     e|ABcA|^f4 |g3=f/e/|dcBA|G2 G,2|]
+[V:2] bg/a/ bg|e3 e|ff/g/ a2|f3 f|dedc|BcBA   |BcdD|zg G2 |]
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72068
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Cotillon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

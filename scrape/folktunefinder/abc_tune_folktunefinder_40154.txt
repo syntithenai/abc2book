@@ -1,0 +1,26 @@
+X: 51
+T: 1. Sunset over Foula
+R: Waltz
+D: Phil Cunningham & Aly Bain 'The Ruby' GLCD 3123 Track 8
+Z: ABC Notation by Robin Shaylor, August 2005
+Z: Chords patterned after Phil by R. Shaylor
+L: 1/4
+M: 3/4
+% Q: 154
+K: D
+|: A |\
+"D(Bm)" d2e | "Bm"     d2F | "F#m" A3 | "D7"      F2A/d/ | "G"   B2c      | "Bm(D7/F#)" d2F | "Em7" A2-A/ B/ | "A7"   A2 A |
+"D"     f2g | "F#7/C#" f2e | "Bm"  d3 | "D/F#"    A2d    | "G"   B2-B/ c/ | "Bm"       d2TF | "Em"  E2-E/ F/ | "A7"   E2 A |
+"D"     d2e | "Bm"     d2F | "F#m" A3 | "D7"      F2A/d/ | "G"   B2-B/ c/ | "Bm"       d2F  | "Em7" A2-A/ B/ | "A7"   A2 A |
+"D"     f2g | "F#7/C#" f2e | "Bm"  d3 | "Bdim/G#" B2c/d/ | "D/A" A2d      | "A7"        f2e | "D" {A}d3-     | "(D7)" d2  :|
+S:https://www.folktunefinder.com/tunes/40154
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

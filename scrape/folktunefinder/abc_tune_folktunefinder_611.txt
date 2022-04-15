@@ -1,0 +1,24 @@
+X: 153
+T:Scottish d'Orcire
+R:Scottish
+C:Provence
+N:Scottisch
+I:abc2nwc
+M:2/4
+L:1/16
+K:Bbmaj
+B2c2 d2cB|A2G2 F4|B2B2 c2d2| [1d2f2 d2c2:| [2edc2 B4
+|:d2e2 f2f2|d2e2 f4|f2f2 f2gf| [1e2d2 d2c2:| [2e2d2 c4|]
+%%footer $D   Galouvielle-MBe 2008 \nScottish (France)
+S:https://www.folktunefinder.com/tunes/611
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

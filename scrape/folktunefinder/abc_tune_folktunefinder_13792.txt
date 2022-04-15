@@ -1,0 +1,27 @@
+X: 1
+T: Miss Anne Drummond Smith's Reel
+C: Syd Chalmers
+R: jig
+B: RSCDS 17-1(II), 1953
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cAF "Gm"B3 | "F"AFC "C7"G2C \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cfA "C7"GFG | "F"FF"Bb"F "F"F2 |]
+|| c \
+| "F"cff "Bb"dff | "F"cff cBA | "C7"GGG G2C | GGG G2c \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cfA "C7"GFG | "F"FF"Bb"F "F"F2 |]
+S:https://www.folktunefinder.com/tunes/13792
+S:http://trillian.mit.edu/~jc/music/abc/jig/AnneDrummondSmithsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/AnneDrummondSmithsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AnneDrummondSmithsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/AnneDrummondSmithsR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

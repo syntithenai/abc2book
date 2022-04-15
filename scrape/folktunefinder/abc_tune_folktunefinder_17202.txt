@@ -1,0 +1,26 @@
+X: 2
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: DC \
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | FDAD c2DC |
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | "G"GFGA G2 :|
+|: DC \
+| "G"~B,2GB, DGB,D | GB,DG- GB,DG | "C"~C2GC EGCE | "(Am)"GCEG- GCEG |
+| "D7"~D2AD FADF | cDFB- BDAD | "G"GFGB "D7"AGFA | "G"GFGA G2 :|
+S:https://www.folktunefinder.com/tunes/17202
+S:http://trillian.mit.edu/~jc/music/abc/reel/FrenchiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/FrenchiesR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/FrenchiesR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/reel/FrenchiesR.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Quebec/reel/FrenchiesR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

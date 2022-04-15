@@ -1,0 +1,33 @@
+X: 1
+T: Craigellachie Lasses
+C: William Marshall
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2d "G"dcB | "A7"A>BG "D"F>ED | "D"d2d  "Bm"d>cd | "E7"e>fd "A7"c>BA \
+| "D"d2d "G"dcB | "A7"A>BG "D"F>ED | "A7"E>CA, A,>B,C | "D"D3- D2 :|
+f/g/ \
+| "D"afd def | "A7"gec Ace | "D"fdA "G"GBd | "A7"ecA "(D)"FGA \
+| "Em"BGE EFG | "D"AFD DFA | "A7" E>CA, A,>B,C | "D"D3- D2 |]
+f/g/ \
+| "D"afd afd | "A7"gec gec | "D"fdA fdA | "A7"ecA ecA \
+| "G"BGB dcB | "D"AFA "G"Bcd | "Em"Bgf "A7"edc | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/14059
+S:http://trillian.mit.edu/~jc/music/abc/jig/CraigellachieLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/CraigellachieLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/CraigellachieLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/CraigellachieLasses.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/CraigellachieLasses.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/CraigellachieLasses.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/CraigellachieLasses.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 40
+T:Cathrine Ogie. JMP.040
+M:C
+L:1/8
+Q:150
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Air
+O:Scotland
+A:Perth
+N:Almost all the tunes have G major as their key, even when they
+N:self-evidently are not.  Try this in A - it sounds Ok but ordinary
+H:1799
+Z:vmp.C. Graebe
+K:G major
+AG | E2 A>B A3 B | (cd)(Bc) A3 B | d3 g dBGE |\
+G3 A (G/A/B) AG |!
+ E2 (A>B) A3 B |\
+(c>d)(B>c) A2 (a/g/f/e/) | "as writ"(d/c/B) (c>d)(B>c) |\
+A4 e2 :||:! 
+AB | cdef g3 a | (ge)(dc) g2 dc |\
+!B2 ge (dB)(AB) | G>AB>c d2 cB |!
+edcB A3 E | (AB)(cd) e2 (dc) | defa gedB | A4 e2 :|]
+S:https://www.folktunefinder.com/tunes/1977
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Reel la Bottine
+T: the Boot Reel
+O: Qubec
+N: a variant of the Gasp Reel
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|: "D"f2ef  e2d2 | F2A2 B2A2 | "A7"g2fg f2e2 |1,3 cABc B2A2 \
+                                            :|2,4 "G"B2"A"c2 "D"d4 :|
+|: "A7"e2f2 g2e2 | "D"f2g2 a4 |1,3 "A7"e2f2 g2e2 | cABc B2A2 \
+                             :|2,4 "A7"b2a2 g2e2 | "G"B2"A"c2 "D"d4 :|
+S:https://www.folktunefinder.com/tunes/17995
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelLaBottine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelLaBottine_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelLaBottine_D.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

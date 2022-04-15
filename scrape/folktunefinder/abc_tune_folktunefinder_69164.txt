@@ -1,0 +1,28 @@
+X:305
+T: UND ALS EINMAL WAR GEKOMMEN
+N: Z0303
+O: Europa, Mitteleuropa, Deutschland, Schwaben
+R: Lyrisches Lied, Romanze
+M: 6/8
+L: 1/16
+K: G
+D2 | G4A2_B3AG2 | d6D4
+c2 | _B3AG2A3GF2 | G6z4
+D2 | G4A2_B3AG2 | d6D4
+c2 | _B3AG2A3GF2 | G6z4
+=F2 | _B3cd2d3cB2 | =f6F4
+D2 | G4A2_B3AG2 | d6D4
+D2 | G4A2_B4A2 | _B3AG2_e4
+d2 | c3_BA2B3GF2 | G6z4
+S:https://www.folktunefinder.com/tunes/69164
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Lyrisches lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

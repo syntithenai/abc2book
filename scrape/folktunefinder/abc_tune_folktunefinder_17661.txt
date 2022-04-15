@@ -1,0 +1,29 @@
+X: 1
+T: the Mill Burn
+R: reel
+B: RSCDS __-12
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+| "A"A2cA "E7"GABc | "Bm"dFBA "E7"GBEG | "A"A2cA "D"Bcdf | "E7"ecdB "A"A/A/A A :|
+|| B \
+| "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Aaga "D"fedc | "E7"dfec "A"A/A/A A ||
+|| B \
+| "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"A/A/A A |]
+S:https://www.folktunefinder.com/tunes/17661
+S:http://trillian.mit.edu/~jc/music/abc/reel/MillBurn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MillBurn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MillBurn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MillBurn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MillBurn.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

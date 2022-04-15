@@ -1,0 +1,28 @@
+X:25
+T:Sair Fyel'd, Hinny
+Z:Jack Campin, http://www.campin.me.uk/
+S:Northumbrian Minstrelsy
+M:3/4
+L:1/8
+Q:1/4=80
+K:C Minor
+P:Chorus
+E2  (DE)  C C |\
+B2  (BA) (G`e)|\
+E2  (DE)  C C |\
+e f (dB)  c2 ||
+P:Verse
+G d  e  f  d B|\
+G`d  e  f  d2 |\
+G d  e  f  d B|\
+c e (d>=B) c2|]
+S:https://www.folktunefinder.com/tunes/75588
+S:http://www.campin.me.uk/Music/BruceStokoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

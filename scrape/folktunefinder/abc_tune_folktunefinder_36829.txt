@@ -1,0 +1,30 @@
+X:3750
+T:the Mucking o' Geordie's byre
+M:6/8
+O:Scotland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a08.html
+%%ID:00000a08
+K:D
+|:dcB |\
+ABA AFA | d2e f2a |\
+g2e f2d | e2d Bcd |\
+ABA AFA | d2e f2g |
+afd efe |d3 :: \
+def |\
+g>ag gag | f>af faf |
+e2e  efg | fed  BdB |\
+ABA AFA  | d2e f2g  |\
+afd efe  |  d3:|
+S:https://www.folktunefinder.com/tunes/36829
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

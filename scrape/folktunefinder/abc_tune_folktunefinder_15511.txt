@@ -1,0 +1,37 @@
+X: 1
+T: the Original Sett of Killiecrankie
+O: Niel Gow (1799)
+B: Niel Gow "1st Repository" 1799
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+z2 \
+| "C"G3A G2E2 GEGA G3E | GFED CDEF G4 G2EG \
+| "Am"A3c A2GA c2A2 A2GA | "C"c3d "E7"e2dc "Am"A4 A2 ||
+eg \
+| "F"a2ge "C"g2ed "G"e2dc d2e2 | "F"c3A "C"GAcE "G"G4 y"C"G2cB \
+| "F"A2GA "C"c2Ac "Dm"d2d2 "E7"e3d | "Am"c3A "C"GAcE "G7"D4 "C"C2 |]
+|: ef \
+| "C"g3a g2e2 gega g3e | gfed cdef g4 g2eg \
+| "Am"a3c' a2g2 agac' a2g2 | a2ge d2eg "F"a4 "(C)"a2 ||
+eg \
+| "F"agea "C/E"gedg "Dm"fedc "G"d2e2 | "Am"c3A "C"GAcE "G"G4 y"C"G2cB \
+| "F"A2GA "C"c2Ac "Dm"d2d2 "E7"e3d | "Am"c3A "C"GAcE "G7"D4 "C"C2 :|
+S:https://www.folktunefinder.com/tunes/15511
+S:http://trillian.mit.edu/~jc/music/abc/march/Killiecrankie1_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/OriginalSettOfKilliecrankie_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/OriginalSettOfKilliecrankie_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/Killiecrankie1_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/OriginalSettOfKilliecrankie_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OriginalSettOfKilliecrankie_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

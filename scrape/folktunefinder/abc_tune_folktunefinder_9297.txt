@@ -1,0 +1,39 @@
+X: 2
+P: Andet Brujstyk'
+O: trad S\onderho
+R: S\onderhoning
+N: Bridal tune
+M: 2/4
+L: 1/16
+K: Bm
+|: "Bm"d2d2 B2d2 \
+| "A"c2cc c2Bc \
+| "G"d2B2 B2Bc \
+| "A"B2A2 A4 \
+|| "Bm"d2d2 B2d2 \
+| "A"c2cc c2Bc |
+| "G"d2B2 B2Bc \
+| "A"B2A2 A4  \
+|| "D"d2d2 e2f2 \
+| "G"g3f "D"f2ed \
+| "A7"c2d2 e2f2 \
+| "Em"g3f "Bm"f2ed \
+| "A"c2A2 ABc2 |
+| "D"d2d2 A2AB \
+|| A2d2 e2f2 \
+| "G"g3f "D"f2ed \
+| "A7"c2d2 e2f2 \
+| "Em"g3f "Bm"f2ed \
+| "A7"c2A2 ABc2 :| \
+"D"Hd8 |]
+S:https://www.folktunefinder.com/tunes/9297
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Sonderhoning2.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

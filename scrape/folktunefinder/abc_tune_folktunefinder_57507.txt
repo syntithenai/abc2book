@@ -1,0 +1,30 @@
+X: 170
+T: White Cockade
+C: R-86
+C: British Isles
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+GA| "G"B2B2 B2AG| d2B2 B2ge| d2B2 cBAG| "D7"B2A2 A2GA|
+    "G"B2B2 cBAG| B2d2 g3a| bagf "C"efge| "G"d2B2 B2 :|
+|:\
+Bc| "G"d2B2 g2B2| d^cde d2B=c| d2Bd g2fg| "D7"a2A2 A2GA|
+    "G"B2Bd cBAG| B2d2 g3a| bagf "C"efge| "G"d2B2 B2 :|
+%%text 9/1/98.  See R-1 for variant.
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-86, "Crooked Stovepipe", moved to S-C
+%%textfont       Times-Roman 9.0
+S:https://www.folktunefinder.com/tunes/57507
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_48_104.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_48_104.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

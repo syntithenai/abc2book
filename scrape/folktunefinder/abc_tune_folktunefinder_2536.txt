@@ -1,0 +1,30 @@
+X: 1
+T: TEST: The Sweet Maid of Glendaruel
+O: Scotland
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+N: This tune uses |[1 ... ||[2 ... || for alternate measures.
+N: So far, the double bar is needed to get closure.
+N: Scots Guard p.153
+N: BSFC XI-1
+M: 2/4
+L: 1/8
+K: AMix
+|: e \
+| "A"A>B cd | e>c Ad | cA ec | "E7"cB Be | "A"A>B cd | e>c AB/c/ | "G"d>B GB | "A"BA A :|
+|: g \
+| "A"fe a>f | ec Ag | fe ac | "E7"cB Bg |[1 "A"fe a>f ||[2 "A"fe "D"fd || "A"ec AB/c/ | "G"d>B GB | "A"BA A :|
+S:https://www.folktunefinder.com/tunes/2536
+S:http://trillian.mit.edu/~jc/music/abc/test/SweetMaidOfGlendaruel.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/SweetMaidOfGlendaruel.txt
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/SweetMaidOfGlendaruel.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/SweetMaidOfGlendaruel.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/SweetMaidOfGlendaruel.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:5844
+T:Scotland the Brave
+O:England
+M:4/4
+L:1/8
+Q:1/4=70
+K:A
+V:1
+e |{g/4}"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{f/4}{B/4}{d/4} "E7" B2 {g/4}{e/4}{f/4}e2 {A/4}e3/2 f/{g/4}e/d/{g/4} c/{d/4}B/|"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{f/4}{B/4}{d/4} "E7" B2 {g/4}A3/2 B/{g/4}"A" A2 {g/4}ce ||{a/4}{g/4}"A" a2 {g/4}a2 {B/4}{d/4}{B/4}ae {g/4}{c/4}{d/4}c{e/4} A|{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}ce |{a/4}{g/4}"D" a2 {g/4}a3/2 g/{f/4}{g/4}f2 a3/2 g/|
+{f/4}{g/4}"E7" f a{f/4}g f{g/4}{e/4}{f/4}e d{g/4}{c/4}{d/4}c B|{g/4}"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{g/4}{B/4}{d/4} "E7" B2 {g/4}A3/2 B/{G/4}"A" ~A3 |]
+S:https://www.folktunefinder.com/tunes/26296
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Bear dance
+T:B\"arentanz
+N:an old (mediveal) german dance tune
+S:Bernd Unstaedt
+Z:Hauke Steinberg
+M:4/4
+L:1/16
+Q:160
+K:Em
+EFG2 EFG2 | F2D2 D4   | EFG2 EFG2 | A4   A2GA |
+B2B2 A2F2 | G2G2 F2D2 | EFG2 F2D2 | E4   E4  :|
+B2G2 EFGA | B2G2 E4   | D3EF2  A2 | d2d2 B2A2 |
+B2G2 EFGA | B2G2 E4   | EFG2 F2D2 | E4   E4  :|
+S:https://www.folktunefinder.com/tunes/4717
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Beardance.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/Beardance.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/folk/Beardance.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

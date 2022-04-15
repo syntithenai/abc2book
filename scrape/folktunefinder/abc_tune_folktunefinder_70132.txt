@@ -1,0 +1,26 @@
+X:2
+T: Klein Mtterchen geht, S. 18
+N: S0065
+O: Luxemburg
+S: Die Bauernhochzeit in frheren Zeiten]
+R: Brautlied]
+M: 2/4
+L: 1/8
+K: F
+F | F2GA | B2z
+B | A2cd | c2z2
+dcBA | G2G
+G | cBAG | F2z
+S:https://www.folktunefinder.com/tunes/70132
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Brautlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

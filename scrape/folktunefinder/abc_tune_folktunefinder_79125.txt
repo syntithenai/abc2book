@@ -1,0 +1,28 @@
+X:21
+T: GEH MIT DR DORDEL
+N: E1018
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+R: Tanz - Lied
+M: 3/8
+L: 1/16
+K: F
+ | F2AAAA | A2cccc
+c2B2B2 | c2AAAA
+F2AAAA | A2cccc
+c2B2B2 | A4z2
+ddd2d2 | d2cccc
+ccBB2B2 | ccAAAA
+F2AAAA | A2cccc
+c2B2c2 | A4z
+c | c4Ac | c4Az | z4
+FFF | f2z4
+S:https://www.folktunefinder.com/tunes/79125
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

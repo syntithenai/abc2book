@@ -173,7 +173,7 @@ function updateTuneSearchText(songNumber, newSearchText) {
  * Update the search text for ABC
  */
 function updateTuneSearchAbcText(songNumber, newSearchText) {
-  console.log('ABC srch',songNumber, newSearchText)
+  //console.log('ABC srch',songNumber, newSearchText)
   $('#wrong_abc_input_'+songNumber+' .abc_selector_option').val(newSearchText)
   if ($('#wrong_tune_input_'+songNumber).val().trim()==='') {
     $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
@@ -193,26 +193,26 @@ function updateTuneSearchAbcText(songNumber, newSearchText) {
       //$.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
         // cache search results
         //searchRes = searchIndex(newSearchText)
-        console.log('SEARCH RES',searchRes)
+        //console.log('SEARCH RES',searchRes)
         if (searchRes) {
           //var searchCache = loadLocalObject('abc2book_search')
           //searchCache[safeString(newSearchText)] = searchRes.tunes
           //saveLocalObject('abc2book_search',searchCache)
 
           $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
-          console.log('render abc wront items',searchRes)
+          //console.log('render abc wront items',searchRes)
           if (searchRes && searchRes.length > 0 && searchRes[0].id) {
             searchRes.map(function(tune) {
-              var button = $('<button>'+tune.name+'</a>')
+              var button = $('<a>'+tune.name+'</a>')
               button.click(function(e) {
-                console.log('clickkjlakjlkj')
+                //console.log('clickkjlakjlkj')
                 updateTuneAbc(songNumber, tune.id); 
                 return false; 
               })
               var li = $('<li class="list-group-item abc_selector_option" ></li>')
               li.append(button)
               $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').append(li)
-              console.log('create abc up button')
+              //console.log('create abc up button')
             })
           }
         }
@@ -237,9 +237,6 @@ function loadIndex(callback) {
   }
 }
 
-function stripText(text) {
-  return text
-}
 
 function searchIndex(text, callback) {
   $('#waiting').show()

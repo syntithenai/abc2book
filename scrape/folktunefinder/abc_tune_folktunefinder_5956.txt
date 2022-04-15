@@ -1,0 +1,67 @@
+X:1
+T:Rampi Rampi
+O:Turkey
+% http://www.geocities.com/rampi_rampi/T_Rampi_Rampi.mp3
+P:(IVC)3I
+Q:1/4=130
+M:9/8
+L:1/8
+K:Am
+%%MIDI channel 1
+%%MIDI program 1 25
+%%MIDI chordprog 25
+%%MIDI bassprog 25
+%%MIDI gchord fcfcfcfcc
+P:I
+%%MIDI program 1 25
+|:B |"Am" cc/B/ AA BB/2A/2 "E" ^GGG |  "Dm" AA/^G/ =FG EF "E" GAB |
+     "Am" cc/B/ AA BB/2A/2 "E" ^GGG |1 "Dm" AA/2^G/2 =FG FE "E" Ez \
+                                   :|2 "Dm" AA/2^G/2 =FG FE "E" Ez2 |
+P:V
+%%MIDI program 1 71
+  "Am" A2A2(3A-A^G "E" ABz  | "Dm" A3/2^G/2 FG FE "E" EEz |\
+  "Am" A2A2(3A-A^G "E" ABz  | "Dm" A3/2^G/2 FG FE "E" EEz |
+  "Dm" D2E zF2 "E" ^GAz | "Am" A3/2^G/2 FG FE "E" EEz |\
+  "Dm" D2E zF2 "E" ^GAz | "Am" A3/2^G/2 FG FE "E" EEz |
+P:C
+ |: "Dm" D6-D3-|D6 z3 | "Dm" D2EFD2 EF2 |\
+                             D2EFD2 EF2 |
+                             D2EF^GA ((3B-BA/2B/2 A) |\
+  |1 "E" ^GF FE E2 E3 \
+ :|2 "B" ^dc cB B2-B2||
+W:
+W:
+W:
+W:
+W:/ Cadirimin ustune sip dedi damladi. /       On the top of my tent the rain went shpp shpp
+W:/ Allah canimi almadi almadi. /                 Allah did not take my soul away.
+W:
+W:  Chorus:
+W:/ Heeey                                                       Heeey
+W:  Rampi rampi rampi rampi                        Rampi rampi rampi rampi
+W:  Geliyora bakdi. /                                       He looked at any passer-by.
+W:
+W:/ Veresiye vere vere kalmadi kalmadi. /    I gave and gave, all for promises, till there was nothing left.
+W:/ Allah canimi almadi almadi. /                 Allah did not take my soul away.
+W:
+W:/ Kuru kuru cilveler kaynasin kaynasin. / Empty, empty flirtation, let it boil.
+W:/ Gelin guveyi oynasin oynasin. /              Let the bride and bridegro om dance, let them dance
+W:
+W:
+W:
+W:
+W:Arrangement Copyright (C) 2006 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/5956
+S:http://trillian.mit.edu/~jc/music/abc/Intl/RampiRampi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/RampiRampi.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

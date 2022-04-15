@@ -1,0 +1,25 @@
+X: 1
+T: Margaret's Fancy
+C: Ian Powrie
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+"F7"f>e \
+| "Bb"d<f d>c B<d c>B | "Eb"GF "Cm"E2 G>E | "Bb"D<F F>G F>B d>B |1 "C7"c>B c<d "F"c2 :|2 "F7"c>B c<d "Bb"B2 ||
+"D7"D2 \
+| "Gm"G2 G>A B<G B<d | g>a g>d B<G "C7"G>=E | "F"F2 F>G A>F A<c | f>g f>c "F7"A<F F>A |
+| "Bb"B>c dA B>G "D7"^F<A F<D | "Eb"_E<G F>E "Bb"D<F B>d | "F7"c>B c<d "Bb"B2 |]
+S:https://www.folktunefinder.com/tunes/19512
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MargaretsFancyS_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/IanPowrie/MargaretsFancyS_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MargaretsFancyS_Bb.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

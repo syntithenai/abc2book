@@ -1,0 +1,27 @@
+X:47
+T: Die Lumpenbauern
+N: D0050
+O: Europa, Mitteleuropa, Lothringen, Gebenhausen
+N: Die Tonrepetitionen in der ersten Zeile werden "psalmodierend"
+N: (Vortragsbezeichnung) vorgetragen, zweiter Teil metrisch gebunden
+R: Schwell - Lied, Scherz und Spott
+M: FREI4/4
+L: 1/16
+K: G
+C2GGGGGGGGGA2G3=FF2E2E2
+C2GGGGGGGGA2G3FF2E2E2
+C2GGGGGGGG
+GGGGA2G3FF2F2E4
+G4 | G2G2G4A4A4 | B6B2B4
+A4 | G2G2G4A2A2A4 | B6B2B4z4
+d8B4G4 | A4A4G4
+S:https://www.folktunefinder.com/tunes/72504
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Schwell - lied, scherz und spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

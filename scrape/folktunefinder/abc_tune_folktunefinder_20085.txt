@@ -1,0 +1,27 @@
+X: 1
+T: Mignon
+C: Trad
+O: Scand
+R: waltz
+B: Beskrivning av Gillesdanser in Norden p.14
+M: 6/8
+L: 1/8
+K: G
+|: "G"d2d e2B | d2c "C"c3 | "D7"a2g f2e | e2d "G"B2d |
+| "G"g2B B2B/c/ | B2A "Am"A3 | "C"e2d "D7"c2F | A2G "G"G3 :|
+|: "C"gec gec | "G"dBG dBG | "D7"D2F/A/ cBA |1,3 "G"G>AB/c/ dBG :|2,4 "G"G2G G2G ||[K:=f]
+K:C
+|: "C"e2e/e/ edc | cB/A/B/c/ "G7"B2G | f2f/f/ fed | dc/B/c/d/ "C"c2G |
+|  "C"c2c/c/ c2E |"F"F2F/F/ F2E/F/ | "G7"G2G/G/ fed | dc/B/c/d/ "C"c3 :|
+S:https://www.folktunefinder.com/tunes/20085
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Mignon_GC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Mignon_GC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Mignon_GC.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

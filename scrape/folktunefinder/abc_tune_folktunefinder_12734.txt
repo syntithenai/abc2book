@@ -1,0 +1,28 @@
+X: 1
+T: da Auld Stoer's Back Again
+C: trad Shetland
+R: reel
+B: Tom Anderson "Ringing Strings" 1983
+N: Tom Anderson's notes:
+N: A 'stoer' was a copper coin.
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D | "G"G2dG BdcA | "F"=F2cF AFFd | "G"G2dG Bcde | "D7"cBcA G3 :|
+d | "G"gfga gdde | "F"=fefg fccd | "G"gfga gdde | "D7"cBcA G3 |
+d | "G"gfga gdde | "F"=fefg fcfg | "D"af"G"ge "D"fd"C"ec | "D7"cBcA G3 |]
+S:https://www.folktunefinder.com/tunes/12734
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/AuldStoersBackAgain.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/AuldStoersBackAgain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/AuldStoersBackAgain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AuldStoersBackAgain.abc
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/reel/AuldStoersBackAgain.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

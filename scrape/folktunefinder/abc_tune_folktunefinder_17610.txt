@@ -1,0 +1,26 @@
+X: 1
+T: Major Bill
+C: Sylvia Miskoe
+R: reel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: See also "Minor Syl"
+M: 2/4
+L: 1/8
+K: G
+|: D2 \
+| "G"GFGA B2G2 | "C"E2c2 c3A | "D7"FGAF D2EF | "G"G2e2 dcB2 | "C"cdec "(D7)"A2c2 |
+| "G"BcdB "(Em)"G2B2 | "Am"ABcA "D7"FDEF | "G"G2B2 G2 :: d2 | "C"e2cG EGce | "G"d2BG DGBd |
+| "D7"c2AF DFAF | "G"GFGA B2d2 | "C"e2ef g2e2 | "G"d2de dcB2 | "C"cdec "D7"ADEF | "G"G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/17610
+S:http://trillian.mit.edu/~jc/music/abc/reel/MajorBillR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Sylvia_Miskoe/MajorBillR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MajorBillR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

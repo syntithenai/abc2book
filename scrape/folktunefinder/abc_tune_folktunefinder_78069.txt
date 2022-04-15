@@ -1,0 +1,26 @@
+X:48
+T: MIT HOERNERSCHALL UND LUSTGESANG
+N: B0059
+O: Europa, Mitteleuropa, Deutschland, Preussen
+R: Kriegs -, Sieges -, Soldaten - Lied
+M: 6/8
+L: 1/8
+K: C
+G, | G,2E,E,2C | C2G,G,2
+E | D2DDED | C3z2
+E | D2CB,2A, | B,2CD2
+E | D2CB,2A, | B,2CD2
+G, | C2CDCD | E3z2
+E | F2DC2B, | C3z2
+S:https://www.folktunefinder.com/tunes/78069
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Kriegs -, sieges -, soldaten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

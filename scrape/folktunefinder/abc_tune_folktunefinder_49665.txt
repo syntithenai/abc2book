@@ -1,0 +1,30 @@
+X: 110
+T:Polish Waltz,The. CJF.110
+M:3/8
+L:1/8
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:TS is given as 3/8 in MS. "C J Fox" follows tune, on the stave. - PJH.
+Z:vmp.P J Headford 2000
+K:G
+G>B|B3d|c>BA3G|FAcAfc|Bdg4|!
+G>AB3d|c>BA3G|FAcAed|G2G2:|!
+|:B.cd2d2|B>cd2d2|edefge|edd4|!
+BcdBed|cBA2AG|FGADEF|G2G2:|]
+S:https://www.folktunefinder.com/tunes/49665
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

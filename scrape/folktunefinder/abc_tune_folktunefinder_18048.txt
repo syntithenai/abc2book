@@ -1,0 +1,31 @@
+X:1
+T:Ross' Reel #1
+C:Zeke Backus
+M:2/4
+L:1/8
+R:Reel
+N:Not relates to Ross's Reel #1 or #4
+S:Ryan's Mammoth Collection (1883)
+Z:AK/Fiddler's Companion
+K:E
+B/G/ \
+| EG/B/ e/g/f/e/ | d/e/f/g/ ag/a/ | b/g/a/f/ g/e/f/d/ | b/a/g/f/ e/c/B/A/ |
+| G/E/G/B/ e/g/f/e/ | d/e/f/g/ ag/a/ | b/g/a/f/ g/e/f/d/ | B/a/g/f/ e :|
+|: d/e/ \
+| f/B/ (3B/^A/B/ g/B/(3B/A/B/ | b/B/g/B/ f/B/(3B/^A/B/ | e/f/g/a/ b/g/a/f/ |
+| g/e/f/d/ B/c/B/A/ | G/E/G/B/ e/g/f/e/ | d/e/f/g/ ag/a/ | b/g/a/f/ g/e/f/d/ | B/a/g/f/ e :|
+S:https://www.folktunefinder.com/tunes/18048
+S:http://trillian.mit.edu/~jc/music/abc/reel/RossReel_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RossReel_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/RossReel_E.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

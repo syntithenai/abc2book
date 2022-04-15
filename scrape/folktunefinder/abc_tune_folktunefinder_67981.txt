@@ -1,0 +1,31 @@
+X: 95
+T:Draganov
+O:Bulgaria
+M:7/16
+L:1/8
+Q:1/4=120
+K:EPhr octave=1 clef=treble8
+%%MIDI program 72
+%%MIDI beat 100 90 80
+%%MIDI beatstring fpmpmpp
+%%MIDI drum d2d2d3 37 37 37
+%%MIDI drumon
+  z7/2                 |z7/2 \
+|:B/c/ A/B/ A/^G      |F/E/ F/D/ E/F/^G/  | A/B/ c/A/ B/A/^G/    |F/E/ F/D/E/z            :|
+|:E/F/ ^G/A/ B/c/A/   |B2 d/c/B/        |A/B/^G/ A2             | d/c/ B/A/ B/A/ ^G/-  |
+  ^G A/^G/ F/E/D/      | E/F/^G/Bz         | E/F/ ^G/A/ B/c/A/    |B/E/^G/B/ d/c/B/      |
+  A/B/ ^G/A/ D/F/A/    | d/c/B/A/ B/^G/A/|D/F/ A/B/ A/^G/F/      |E2z3/2                  :|
+|:e3-e/              | d c/B/ A3/2     |ccce/              |d c/B/ A3/2           |
+  e e e3/2          | d c/B/A3/2      |ccce/              |d/c/B/ A2             :|
+|:A/A/A A/ c/e/      |d c/B/ A3/2      |^G F F3/2              |E/D/ E E3/2             :|
+S:https://www.folktunefinder.com/tunes/67981
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/16
+% Has_accompaniment_chords Has chords

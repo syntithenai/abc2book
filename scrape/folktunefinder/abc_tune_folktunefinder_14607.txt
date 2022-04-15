@@ -1,0 +1,29 @@
+X: 1
+T: Maple Leaf Jig
+C: Trad
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+A \
+| "G"B2G "C"G2E | "G"D2B, B,2G | "D7"F2A AGF | "G"G2B BGA \
+| "G"B2G "C"G2E | "G"D2B, B,2G | "D7"F2A AGF | "G"G3- G2 :|
+K: D
+|: F/G/ \
+| "D"A2A A^GA | "(A7)"BA^G "D"A2d | "A7"d2c c2e | "D"e2d dFG \
+| "D"A2A A^GA | "(A7)"BA^G "D"A2d | "A7"d2c cBc |1 "D"d3- d2 :|2 "D"Hd3 "D7"=c3 |]
+S:https://www.folktunefinder.com/tunes/14607
+S:http://trillian.mit.edu/~jc/music/abc/jig/MapleLeafJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MapleLeafJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/MapleLeafJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MapleLeafJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

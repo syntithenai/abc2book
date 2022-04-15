@@ -1,0 +1,22 @@
+X:380
+T:Littlehohone ()
+S:Midi file off website
+M:4/4
+L:1/8
+K:Dm
+(3DFA|B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2 (3DFA|
+B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2||
+A2|A=B^cA d2 de|dcBA BA z2|dcBA BAG^F|G2 F>E D2 (3DFA|
+B2 cB BABA|G^FGA BA z2|DEFD A<GF>E|(3DFA D>^c d2||
+S:https://www.folktunefinder.com/tunes/57909
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/nige.abc
+S:http://www2.redhawk.org:8080/irish/other/nige.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

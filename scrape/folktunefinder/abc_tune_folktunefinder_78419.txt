@@ -1,0 +1,28 @@
+X:398
+T: ZERDRUECK DIE THRAENE NICHT IN DEINEM AUGE
+N: B0471
+O: Europa, Mitteleuropa, Deutschland, Nassau, Rheinland; Elsass
+R: Liebes - Lied, Leid, Klage
+M: 4/4
+L: 1/8
+K: F
+CFG | A3AAcBA | c2G2z
+BAG | F3FECDE | F4z
+CFG | A3AAcBA | c2G2z
+BAG | F3FECDE | F4z
+GGG | A3AGGFD | C2EGc
+GEc | =B3AGGFD | C4z
+CFG | A3AAcBA | c2G2z
+BAG | F3FECDE | F4z
+S:https://www.folktunefinder.com/tunes/78419
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Liebes - lied, leid, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Bingsj\"opolska
+O: efter Bruce Sagan
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"[A2D2]a2 (5aba^ga baga | [A2D2]a2 (5aba^ga baga | a2ag fefg a2f2 | "A7"f2{gf}ed ^cdec A4 |
+|  "Dm"[A2D2]a2 (5aba^ga baga | [A2D2]a2 (5aba^ga baga | a2ag fefg afed | "A7"^cdec "Dm"d4- d4 :|
+|: "Dm"[a2A2]ab a2ab a2ab | "Gm"[g2B2]gb g2gb g2gb \
+| "Dm"[f2A2]fa f2fa f2fa | "A7"f2{gf}ed ^cdec A4 :|
+|: "Dm"[A2D2]d2 "A7"^cdec "Dm"d4 | "Dm"[A2D2]f2 "A7"efge "Dm"f4 \
+|  "Dm"[A2D2]d2 "A7"^cdec "Dm"d4 | "Dm"A2BA "Gm"G2BG "A"A4 \
+| "Dm"A2BA "Gm"G2BG "Dm"F2AF | "A"ED^CE "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/16281
+S:http://trillian.mit.edu/~jc/music/abc/pols/BingsjoP_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/BingsjoP_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

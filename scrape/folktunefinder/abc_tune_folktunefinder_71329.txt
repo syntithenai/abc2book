@@ -1,0 +1,26 @@
+X:300
+%%topmargin 3cm
+T:Fife Hunt
+C:Wm. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:C
+f | ec Tc2 GE TE2 | D d2 ^c d2 df | ec Tc2 GE TE2  | C c2 B c2- cf | ec Tc2 GE TE2 |
+E d2 ^c d2 df | ec Tc2 GE E2 | Cc Bd c2 c || (f | e>)c g>c ac gc | D d2 ^c d2- d>f |
+ecgc acgc | G c2 B d2 c(f | e)cgc acgc | D d2 ^c d2- df | egcg fadf | Gc Bd c2 c |]
+S:https://www.folktunefinder.com/tunes/71329
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Fife_Hunt.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0300.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

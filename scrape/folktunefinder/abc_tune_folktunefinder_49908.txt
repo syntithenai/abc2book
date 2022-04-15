@@ -1,0 +1,35 @@
+X:18460
+T:Waltz. CJF.039
+M:3/4
+L:1/8
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The lead notes for section 2 & 3 are d in the MS, not d2, as required
+N:for scansion. - PJH.
+Z:P J Headford 2000
+K:G
+"f"d2|(gf) (ag) (ba)|(c'b)(ag)(fe)|(d>e) (e>f) (f>g)|!
+g>b a>c' gd|(gf) (ag) (ba)|c'bagfe|d2e2f2|g4:|:!
+c2|">"(b3a)gf|e4e2|(c'3b)ag|f4e2|(d'3c')ba|g3fed|\
+d2e2f2|{B}g4:|:!d2|"p"(d3e)dc|Bdgbd'b|c'a fd
+ ef|gb .a.g.fe|d3edc|!Bdgbd'b|(c'a)(fd)(ef)|\
+g4:|:!d2|(d2c')bc'b|d2(ba)(bg)|d2(a^g)(af)|(gb)(ag)(fe)|!
+d3edc|(Bd)(gb)(d'b)|(c'a)(fd)(ef)|g4:||
+S:https://www.folktunefinder.com/tunes/49908
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

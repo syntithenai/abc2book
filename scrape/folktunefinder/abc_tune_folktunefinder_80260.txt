@@ -1,0 +1,25 @@
+X:201
+T: Osterlied des 15. Jahrhunderts
+N: A0553D
+O: Europa, Mitteleuropa, Deutschland
+N: Strassb. Gsgb 1560.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: D
+ |  |  | D2DA | EG=FE | D2
+D2 | AB=cB | A^GA2
+A2dB | =cAG=F | E2
+=F2 | DAEG | =FED2
+D2=CD | EA=FE | D4
+S:https://www.folktunefinder.com/tunes/80260
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

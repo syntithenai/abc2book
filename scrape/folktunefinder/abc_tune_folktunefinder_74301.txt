@@ -1,0 +1,27 @@
+X:1142
+T: Be Easy You Rogue!
+R:double jig
+N:"collected by Gillan"
+B:O'Neill's 1109
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:6/8
+L:1/8
+K:A
+E|(A<c)A BAF|d3 d2z|(A/B/c).A BAF|B3 B2z|
+(A<c)A BAF|ded dfa|ecA "~"BAF|A3 A2:|
+(c/d/)|ecA ecA|d3 dfa|ecA ecA|B3 B2z|
+AcA BAF|DFA dfa|ecA "~"BAF|A3 A2:|
+d|cAA BFF|AEE dfa|ecA BAF|B2z B2d|
+.c(A/B/c/A/) .B(G/A/B/G/)|.A(E/F/G/E/) dfa|ecA "~"BAF|A3 A2:|
+e|aga (f/e/d/c/B/A/)|ddd d2f|aga (e/d/c/B/A/)|BBB B2 (f/g/)|
+aga (f/e/d/c/B/A/)|DFA dfa|ecA "~"BAF|A3 A2:|
+S:https://www.folktunefinder.com/tunes/74301
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

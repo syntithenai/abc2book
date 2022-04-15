@@ -1,0 +1,24 @@
+X:1750
+T: Thirty Years Ago
+M:2/4
+L:1/16
+B:O'Neills 1632
+N:"collected by F. O'Neill"
+Z:Transcribed by Nick Terhorst, nickte@microsoft.com
+N: Fixed line wrapping [jc]
+K:G
+Bc|dBeB dBAB|GFGA GDGA|BGBd cBAG|FGAF D2Bc|
+|dBeB dBAB|GFGA GABc|defe dcAF| G2{A}GF G2:|
+|:(3DEF|GFGA B2AG|FGAF DEFD|GFGA B2AG|Adde dcBA|
+|GFGA B2AG|FGAB c2Bd|defe dcAF|G{A}GF G2:|
+S:https://www.folktunefinder.com/tunes/74909
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

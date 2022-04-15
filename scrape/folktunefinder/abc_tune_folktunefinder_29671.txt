@@ -1,0 +1,25 @@
+X:3391
+T:Cook in the Kitchen, The
+R:jig
+M:6/8
+E:10
+I:speed 350
+K:G
+DGG GAG|FDE=F3|DGG GFG|Add cAG|\
+DGG GAG|FDE=F2d|cAG FGA|BGG G2:|*
+A|~B3 BAG|ABA AGF|~G3 FGG|Add cAG|\
+~B3 BAG|ABA ABc|dcA AGF|AGF G2:|*
+B|d2e f2g|a2g fed|cAG FGA|BGB AFD|\
+d2e f2g|a2g fed|cAG FGA|BGG G2:|**
+S:https://www.folktunefinder.com/tunes/29671
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

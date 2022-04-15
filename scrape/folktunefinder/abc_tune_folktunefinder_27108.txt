@@ -1,0 +1,25 @@
+X:6656
+T: The Corporation
+T: Fete Champetre
+O:england
+S: Thompson 1777
+N: From Apted Book of Country Dances
+N: abc version by Robert Bley-Vroman vroman@hawaii.edu 15 October 1996
+M: 6/8
+L: 1/8
+K: G
+G | GFG D2B | BAB G2d | dcB gfe | dcB A2G |
+GFG D2B | BAB d2g | fad eA^c | d^cd D2 :|
+d | ece gfe | dBG GBd | cBd A2G | FGA D2C |
+B,DG Bd=F | E2F G2c | Bed BcA | G5 :|
+S:https://www.folktunefinder.com/tunes/27108
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

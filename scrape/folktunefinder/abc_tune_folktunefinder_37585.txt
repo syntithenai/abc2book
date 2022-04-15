@@ -1,0 +1,33 @@
+X: 52
+T:Lancers Sett of Quadrils No.1. TLY.051
+M:6/8
+L:1/8
+Q:110
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Quadrille
+O:England.
+A:Lancashire.
+N:Pause mark over double bar line at end of A music. DC at end of tune.
+H:1860.
+Z:vmp.Taz Tarry.
+K:D min
+cdc| a2a g2g|f2 c cdc| b2b a2a| g2 z cdc|!
+ a2a g2g| f2 c cdc| d2 g cde| f2 z||!
+cdc| e2e f2f| ^f2 g cdc| BcB ABA| G2 z cdc|!
+a2a g2g|f2f fed| c2A B2G| F2z||!
+ABA| d2d f2f| e2 A ABA| d2d f2f| e2 z ABA|!
+ f2f e2e| d2d _e2e| d2d ^c2c|d2 z||!
+ABA| ^c2c d2d| ^d2e ABA| GAG FGF| "cr"E3 ABA|!
+ f2f e2e| d2d _e2e| d2d ^c2c| "DC"d2z|]
+S:https://www.folktunefinder.com/tunes/37585
+S:http://www.village-music-project.org.uk/abc/tildsley.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

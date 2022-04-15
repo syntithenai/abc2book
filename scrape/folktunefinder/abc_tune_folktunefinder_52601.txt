@@ -1,0 +1,25 @@
+X:509
+T:Hewlett
+C:O'Carolan
+M:3/4
+L:1/8
+Q:1/8=120
+K:D
+AF|D2 DE FG|AB c2 A2|d2 f2 fg|fe d3 B|
+A2 F2 F2|G3 B AG|AF D2 D2|D4 AF|D2 DE FG|
+AB c2 A2|d2 f2 fg|fe d3 B|
+A2 F2 F2|G3 B AG|AF D2 D2|D6|]
+A2 F2 AB|A2 F2 AB|A2 d2 d2|dc BA GF|
+G2 E2 GA|G2 E2 EF|GF GB AG|AF D3 E|
+FE F2 G2|AB c2 A2|fe fg ag|fe d3 B|
+A2 F2 F2|G3 B AG|AF D2 D2|D6||
+S:https://www.folktunefinder.com/tunes/52601
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/print.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Jimmy's Favorite
+O: trad
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|: "G"gbg gdB | G2G GAB | "Am"cdc cBA | E3- E3 \
+| "D7"f2f fed | faf f2e |1 "D7"d2d ded | "G"B3- B3 :|2  "D7"ded def | "G"g3- g3 ||
+|: "G"G2G GDB, | GDB, GDB,  | G2G GAB | "Am"c3- c3 \
+| "D7"F2F FED | FED FED | FGA cBA |1 "G"B3- B3 :|2 "G"G3- G3 |]
+S:https://www.folktunefinder.com/tunes/14424
+S:http://trillian.mit.edu/~jc/music/abc/jig/JimmysFavorite_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JimmysFavorite_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

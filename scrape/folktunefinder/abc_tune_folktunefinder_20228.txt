@@ -1,0 +1,27 @@
+X: 1
+T: the Sussex Waltz
+O: trad England
+R: waltz
+Z: 2008 John Chambers <jc@trillian.mit.edu> 
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: A
+   AB \
+| "A"c2 cE dE | "A"e2 e2 ag | "D"f2 f2 af | "A"e2 e2 AB \
+| "A"c2 cE dE | "A"e2 e2 "E7"dB | "A"A2 A2 "E7"Bc | "A"A2 z2 :|
+|: AB \
+| "E7"d2 de cd | "E7"B2 B2 cd | "A"e2 ef de | "A"c2 c2 ag \
+| "D"f2 f2 af | "A"e2 e2 AB | "A"c2 cd "E7"Bc | "A"A2 z2 :|
+S:https://www.folktunefinder.com/tunes/20228
+S:http://trillian.mit.edu/~jc/music/abc/waltz/SussexWaltz_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/SussexWaltz_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/SussexWaltz_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

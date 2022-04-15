@@ -1,0 +1,34 @@
+X: 314
+T:Waddington Tune. JaW.313
+M:2/4
+Q:40
+S:James Winder Ms, Lancashire, 1835-41
+R:March
+O:England
+A:Wyresdale,Lancashire
+N:There is a "E" at the end of the last bar of the tune, and it doesn't
+N:fit, so I've left it off..CGP
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+c|fa/f/ fa/g/|ff/g/ af|c'a b/a/g/f/|e/f/g/e/ cc|!
+fa/g/ fa/g/|ff/g/ a/g/f/e/|db a/g/f/e/|faf:|!
+|:z|AzAz|BzAz|BB dd|c2cz|!
+AAAz|AA BB|A2B2|A3:|!
+|:a/b/|c'c'/b/ aa/g/|f/e/f/g/ f/g/a/b/|\
+c'a b/a/g/f/|cc c/d/e/f/|!
+b2ac'|b/a/g/f/ f/e/d/c/|df cf|g/f/g/a/ f :|]
+S:https://www.folktunefinder.com/tunes/47851
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

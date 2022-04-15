@@ -1,0 +1,29 @@
+X:3
+T:The Herald of Bores
+C:Andy Hornby 1997  (pub Grian music 1999)
+Q:1/4=200
+Q:1/4=200
+I:abc2nwc
+M:7/8
+L:1/8
+K:D
+efg f2e2|deB c2A2|Bcd c2A2|[M:8/8]Bcd cde e2|
+[M:7/8]efg f2e2|deB c2A2|Bcd c2A2|BAG A4:|
+[|[M:6/8]"octave up on repeat "F2D G2E|[M:4/4]F2ED CDED|[M:6/8]F2D G2E|[M:4/4]F2ED FGAB|
+[M:6/8]F2D G2E|[M:4/4]F2ED CDED|[M:6/8]F2D G2E|[M:4/4]F2ED EC D2||
+K:D
+[M:4/4]"Bridge "A3c3A2|G3B3G2|A3c3A2|d3c3A2|
+A3c3A2|G3B3G2|A3c d2c2-|c4-c2:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43780
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 7/8
+% Time_signature 8/8
+% Has_accompaniment_chords No chords

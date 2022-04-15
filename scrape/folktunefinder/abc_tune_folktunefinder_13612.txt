@@ -1,0 +1,33 @@
+X: 1
+T: Liverpool Hornpipe
+N:
+N: Hardie p.34 (AB1 variant)
+N: Kennedy v.1 p.6 #11 (AB1,B2)
+N: Skye p.172 (AB2)
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: AG \
+| "D"FDFA dfaf | "G"gfed "A"dcBA | "G"G2BG "D"F2AF | "Em"EDEF "A7"GBAG |
+| "D"FDFA dfaf | "G"gfed "A"dcBA | "D"dfaf "A7"bgec | "D"d2[f2d2] d2 :|
+(3ABc \
+| "D"d2fd "A"c2ec | "G"BABc dcBA | "G"G2BG "D"F2AF | "Em"EDEF "A7"GBAG |
+| "D"FDFA dfaf | "G"gfec "A"dcBA | "D"dfaf "A7"bgec | "D"d2[f2d2] d2 |]
+(3ABc \
+| "D"dfdf "A"cece | "G"BABc dcBA | "G"GBGB "D"FAFA | "Em"EDEF "A7"GBAG |
+| "D"FDFA dfaf | "G"gfec "A"dcBA | "D"dfaf "A7"bgec | "D"d2[f2d2] d2 |]
+S:https://www.folktunefinder.com/tunes/13612
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/LiverpoolHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/LiverpoolHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/LiverpoolHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/book/500/LiverpoolH.abc
+S:http://trillian.mit.edu/~jc/music/book/500/LiverpoolHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

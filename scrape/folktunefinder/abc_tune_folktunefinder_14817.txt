@@ -1,0 +1,29 @@
+X:1
+T:Out On the Ocean
+C:J-73
+R:Jig
+M:6/8
+L:1/8
+K:A
+GF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(E)"A2B | "A"cec "E7"BAF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(D)"A2B | "E7"cAG "A"A :|
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe ecB | e2e "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe "E7"efg | "A"agf "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+S:https://www.folktunefinder.com/tunes/14817
+S:http://trillian.mit.edu/~jc/music/abc/jig/OutOnTheOcean_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/OutOnTheOcean_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/OutOnTheOcean_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

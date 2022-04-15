@@ -1,0 +1,25 @@
+X:2275
+T:the Harlequin Dance
+A:North-West
+M:6/8
+N:P16 3/3, P17 1/3
+O:England
+R:Jig
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000580.html
+%%ID:00000580
+K:A
+f/2g/2|a2A agf|e2e edc|d2d dbd|c2c c2B|\
+cde Bcd|cde fga|gfe fe^d|eBG E2:|
+|:e|ef=g fef|dBB B2c|def fed|cAA A2g|\
+fga def|GAB EAd|cea cdc|AEC A,2:|
+S:https://www.folktunefinder.com/tunes/36534
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

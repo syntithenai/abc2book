@@ -1,0 +1,25 @@
+X:551
+T: ICH WOLLT EIN BAEUMLEIN STEIGEN
+N: E0527A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt; Schwalbach
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | F3GA2=B2 | c2c2c2
+c2 | d2e2f2d2 | c4z2
+c2 | c2=B2B2B2 | =B2A2A2
+A2 | G2G2A2G2 | F2A2c2
+c2 | c2=B2B2B2 | =B2A2A2
+A2 | G2G2A2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/78992
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

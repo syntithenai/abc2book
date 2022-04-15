@@ -1,0 +1,25 @@
+X:240
+T: WENN SICH DIE HAHNEN KRAEHEN
+N: E0822A
+O: Europa, Mitteleuropa, Deutschland, Bergisches Land
+R: Tage - Lied, Kilt - Lied
+M: 2/4
+L: 1/8
+K: D
+D | DE=FG | A2A
+A | _BAGG | A2z
+A | G=FED | C2A
+G | =FEDC | D2z
+S:https://www.folktunefinder.com/tunes/76725
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk20.abc
+% Rhythm Tage - lied, kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

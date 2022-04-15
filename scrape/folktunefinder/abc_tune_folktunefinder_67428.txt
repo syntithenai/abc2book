@@ -1,0 +1,25 @@
+X:630
+T:The Humours of Ballyloughlin
+R:jig
+D:Matt Molloy.
+Z:id:hn-jig-65
+M:6/8
+K:Dmix
+"D"A2A AGE|"G"GED "D"D2A|"C"cBc "G"ded|"C"cAG "(D)"FED|
+"D"A2A AGE|"G"G2G "C"cGE|"G"D2D DFA|1 "D"D2D D3:|2 "D"D2D d2B||
+|:"C\Am"cBc cBc|cAG ABc|"D"ded "G"ded|"D"dAF DFA|
+"C"cBc "G"dBB|"C"cAG FGA|"G"D2D DFA|1 "D"D2D d2B:|2 "D"D2D d2e||
+|:"D"fdd "G"gdd|"D"fef "G"gdd|"C"cde ged|cde "(G)"g2e|
+"D"fdd "G"gdd|"D"fef "G"ged|"C"cde "G"g2e|1 "A"ed^c "D"d2e:|2 "A"ed^c "D"d2B||
+|:"D"A2D A2G|F2F FED|"C\Am"E2E EFD|E2E EFG|
+"D"A2D "G"dAG|"D"F2F "A"GEA|"G"D2D DFA|"D"D2D D3:|
+S:https://www.folktunefinder.com/tunes/67428
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

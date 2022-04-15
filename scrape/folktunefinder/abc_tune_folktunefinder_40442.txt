@@ -1,0 +1,27 @@
+X:67
+T:Ramnee Ceilidh
+T:Ramnee Ceilidh, The
+R:reel
+M:4/4
+L:1/8
+K:Dmaj
+V:1
+|:"Bm"dBBd "D"~A2BA|"D"feef "A"e2de|"D"faaf "A"e2fe|"D"d2ed "Bm"BdBA|
+"Bm"dBBd "D"~A2BA|"D"feef "A"e2de|"D"faaf "A"e2fe|1 "Bm"dBAB "D"d2-d2:|2 "Bm"dBAB "D"d3e||
+|:"D"~f3A "Bm"Bde2|-"D"ed~d2 "Bm"edBd|"D"~f3A "Bm"Bde2|-"D"edfe "D"d3e|
+"D"~f3A "Bm"Bde2|-"D"ed~d2 "Bm"edBd|"D"faaf "A"e2fe|1"Bm"dBAB "D"d2de:|2 "Bm"dBAB "D"d4||
+V:2
+|:"Bm"dBBd "D"~A2BA|"D"feef "A"e2de|"D"dffd "A"e2fe|"D"d2ed "Bm"BdBA|
+"Bm"dBBd "D"~A2BA|"D"feef "A"e2de|"D"faaf "A"e2fe|1 "Bm"dBAB "D"d2-d2:|2 "Bm"dBAB "D"d3e||
+|:"D"~f3A "Bm"Bde2|-"D"ed~d2 "Bm"edBd|"D"~f3A "Bm"Bde2|-"D"edfe "D"d3e|
+"D"~f3A "Bm"Bde2|-"D"ed~d2 "Bm"edBd|"D"faaf "A"e2fe|1"Bm"dBAB "D"d2de:|2 "Bm"dBAB "D"d4||
+S:https://www.folktunefinder.com/tunes/40442
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

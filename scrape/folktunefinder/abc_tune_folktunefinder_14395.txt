@@ -1,0 +1,30 @@
+X: 1
+T: Jamie Gow, Crathie Bellman
+C: Joseph Lowe
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2A B2c | dgd Bcd | "C"cBA "G"BAG | "D7"FAA A2B \
+| "G"G2A B2c | dgd Bcd | "Am"cBc "D7"Adc | "G"BGG G2 :|
+f \
+| "G"g3 "D7"def | "G"gdc BAG | "C"cBA "G"BAG | "D7"FAA A2f \
+| "G"g3 "D7"def | "G"gdc BAG | "Am"cBc "D7"Adc | "G"BGG G2 |]
+f \
+| "G"g3 "D7"def | "G"gdc BAG | "C"cBA "G"BAG | "D7"FAA A2a \
+| "G"bag "D"agf | "Em"gfe "D"def | "C"gfe "D7"def | "G"gdB G2 |]
+S:https://www.folktunefinder.com/tunes/14395
+S:http://trillian.mit.edu/~jc/music/abc/jig/JamieGowCrathieBellman_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JamieGowCrathieBellman_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

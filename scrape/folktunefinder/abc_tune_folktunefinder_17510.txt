@@ -1,0 +1,24 @@
+X:1
+T:Lady Anne Montgomery (R-145)
+M:C|
+L:1/8
+K:D
+A \
+| "D"FADA FADA | FAdA "G"BAdA | "D"FADF "Em"EDEF | "A7"DB,A,B, "D"D3E | 
+| "D"FADA FADA | FAdA "G"BABc | "D"dBAF "Em"E3F | "A7"DB,A,B, "D"D3 :| 
+|: e \
+| "D"f3f fede | fedB "A7"ABde | "D"f2fe "Bm"fede | "Em"fgaf "A"efde | 
+| "D"f3f fede | fedB "A7"ABde | "D"fded  "G"BdAd | "A7"egfe "D"d3 :| 
+%%text Alternate chords/bass line for part B:
+%%text |: D - | - - | F#m/C# - | - - | Bm - | - - | Em G | A D :|
+S:https://www.folktunefinder.com/tunes/17510
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyAnneMontgomery_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/LadyAnneMontgomery_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

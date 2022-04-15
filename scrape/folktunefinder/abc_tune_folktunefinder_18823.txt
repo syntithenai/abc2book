@@ -1,0 +1,29 @@
+X:1
+T:Lastrumpony
+S:Oswald's Caledonian Pocket Companion, bk. 11, c 1760
+Z:Bruce Olson  scots-l 2001-7-2
+Q:1/4=90
+L:1/8
+M:6/8
+K:D
+(c/2d/2ed cAd|cAe ecA|(c/2d/2)ed cAc|B=cd dBG::\
+g2e fed|cde ecA|g2r fga|B=cd cBA::\
+(c/2d/2)ec (d/2e/2)fd|ceb|ecA|(d/2e/2)fd (c/2d/2)ec|Bdg dBG::\
+(g2e) (f2d)|c2a ecA|g2e fga|Bcd dBG::\
+cec dfd|caf ecA|d/2e/2fd cac|Bge dBG::\
+geg fdf|efd ecA|g3fga|BGg dBG::\
+A3~c2A|~c2A cea|~A3c2A|~B2G gBG::\
+(a2f) (g2e)|~f2d ecA|agf efg|BGB eBG::\
+(A2e) (c2a)|(A2e)(c2a)|(A2e)(c2a)|B2g) dBG::\
+(ae)c (af)d|(ae)c ecA|aef gab|Gge dBG:|]
+S:https://www.folktunefinder.com/tunes/18823
+S:http://trillian.mit.edu/~jc/music/abc/song/Lastrumpony_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/song/Lastrumpony_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/Lastrumpony_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

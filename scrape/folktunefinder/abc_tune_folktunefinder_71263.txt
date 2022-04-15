@@ -1,0 +1,26 @@
+X:234
+%%topmargin 3cm
+T:Delvin Side
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E aeolian
+F S|: E>e (d/^c/).B/.A/ B<ETB>A | E<e (d/^c/).B/.A/ {/c}d>DA>F | E>e (d/^c/).B/.A/ B<EB>e | (3fdf (3e^ce {/c}d<DA>F :|
+{/^c}d>E(B>E) {/c}d>E(B>e) | {/^c}d>E(B>E) {/c}d>BA>F | d>E(B>E) {/c}d>EB>e | (3fdf (3e^ce {/c}d<DA>F |
+{/^c}dE(BE) {/c}d>EB>e | {/^c}d>E(B>E) {/c}d>BA>F | T(E>F)G>A (B>^c)d>e | (3fbf (3ege (3d^cB (3AGF S|]
+S:https://www.folktunefinder.com/tunes/71263
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Delvin_Side.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0234.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

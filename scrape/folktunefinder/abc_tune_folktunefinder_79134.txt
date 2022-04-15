@@ -1,0 +1,31 @@
+X:30
+T: DIE SONNE SCHEINT NICHT MEHR SO SCHOEN
+N: E1025
+O: Europa, Mitteleuropa, Deutschland, Rheinpfalz, Westrich
+R: Tanz - Lied
+M: 2/4
+L: 1/16
+K: G
+D2 | G2D2G2A2 | B6
+BA | G2A2B2c2 | d6
+d2 | d2d2d2g2 | e4e2
+dc | B2B2A2A2 | G4z2
+D2 | G2D2G2A2 | B6
+BA | G2A2B2c2 | d6
+d2 | d2d2d2g2 | e4e2
+dc | B2B2A2A2 | G4z2
+D2 | G2B2d4g2e2 | d2B2G6
+D2 | G2B2d4g2e2 | d2B2G6
+D2 | G2B2d4g4 | e6
+e2d2c2 | B8A4 | G8z4
+S:https://www.folktunefinder.com/tunes/79134
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

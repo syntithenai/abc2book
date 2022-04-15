@@ -1,0 +1,38 @@
+X:3266
+T:Comment voulez-vous qu'une personne chante 
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n35
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=80
+K:G
+E2 E B | B3 A | A A B ^c | d2 A z | d2 ^c d | B3 A | B d ^c d | B3 z |!
+B2 B B | c3 B | A A B A | A2 G z | E-F G A | B4 | e2 d e |
+M:3/4
+B A G {B}A G F |\ 
+M:2/4
+E3 z | E-F G A | B4 | e2 d e |\
+M:3/4
+B A G {B}A G F |\
+M:2/4
+E4 ||
+W:Comment voulez-vous qu'une personne chante 
+W:Quand elle n'a pas son coeur en libert 
+W:Laissez chanter ceux que l'amour contente,
+W:Et laissez-moi, et laissez-moi dans mon malheur pleurer (2x)
+W:
+S:https://www.folktunefinder.com/tunes/29546
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

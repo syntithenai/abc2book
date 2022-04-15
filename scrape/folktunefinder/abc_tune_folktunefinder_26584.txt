@@ -1,0 +1,29 @@
+X:6132
+T:Sniff the Whistle
+O:england
+M:2/2
+L:1/8
+C:Rob Greenway
+R:Reel
+K:D
+DG~G2 ~A2FA|cBcd cA~A2|dAeA dA~A2|cAGF EFGE|
+DG~G2 ~A2FA|cBcd cA~A2|dcAB cA~A2|1 GEC,E D3A:||2 GEC,E D4|
+||:B3A GFEG|A3G FEDF|~G3F ~E3F|GABc dA~A2|
+B3A GFEG|AGFD E2GF|GE~E2 BG~G2|A3G FGAc:||
+||:dAeA dA~A2|dAde fgaf|gfdB cBGA|BG~G2 cA~A2|
+dAeA dA~A2|dAde fgaf|gfdB cA~A2|GEC,E D4:||
+||:B3A GFEG|A3G FEDF|~G3F ~E3F|GABc dA~A2|
+B3A GFEG|AGFD E2GF|GE~E2 BG~G2|1 A3G FGAc:||2 A3B GEC,E||
+S:https://www.folktunefinder.com/tunes/26584
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

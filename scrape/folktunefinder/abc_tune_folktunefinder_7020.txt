@@ -1,0 +1,72 @@
+X: 65
+T: Waltz "Razbitaya Zhizn" (A Broken Life)
+R: waltz
+O: Russia
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003
+M: 3/4
+L: 1/8
+K: Dm
+A,2 \
+"A"\
+|: (F2 E2 D2) | (^C2 D3 E) \
+| E6 | D6 \
+| z2 (Ad) (df) | (fa) (ag) (gf) \
+| (f6 | e4) A,2 \
+| (G2 F2 E2) | (D2 E2 F2) \
+| ({G}F6 | E6) |
+| z2 (^ce) (eg) | (gb) (ba) (ag) \
+| (g6 | f4) A,2 \
+| (F2 E2 D2) | (^C2 D3 E) \
+| E6 | D6 \
+| z2 (dg) (gb) | (bd') (d'c') (c'b) \
+| b6 |
+| a6 \
+| ga ba b2 | FG A^G A2 \
+| ef g^f g2 | DE =FE F2 \
+| (E4 D2) | z2 (f3 e) \
+| d6- |1 d2 z2 A,2 :|2 d2 (agfe) |
+"B"\
+|:d2 z2 {d}f2 | z2 (ag fe) \
+| d2 z2 {d}f2 | z2 (ba gf) \
+| e2 z2 {e}g2 | z2 (ba gf) \
+| e2 z2 {e}g2 | z2 (ag fe) |
+| d2 z2 {d}f2 | z2 (ag fe) \
+| d2 z2 {d}f2 | z2 (gf ed) \
+| ^c2 z2 {c}e2 | z2 (fe dc) \
+| d6- |1 d2 (agfe) :|2 d2 A2 A2 \
+"C"\
+|:d6 | (e4 f2) |
+| A6- | A2 ({c}B2 A2) \
+| d6 | (e4 f2) | ({g}f6 | e6) \
+| e6 | (f4 g2) \
+| B6- | B2 (A2 G2) \
+| (e4 d2) | (^c4 B2) | A6- | A6 \
+|  d6 | (e4 f2) |
+| A6- | A2 ({c}B2 A2) \
+| d6 | (e4 f2) | ({g}f6 | e6) \
+| e6 | (f4 g2) \
+| (b6 | a6) \
+| (g2 f2 e2) | (e2 d2 ^c2) \
+| d6- |1 d2 A2 A2 :|2 d2 c^c de |
+"D"\
+|:f2 z2 e2 | g2 z2 f2 \
+| f2 z2 e2 | z2 cd ef \
+| g2 z2 ^f2 | a2 z2 g2 \
+| g2 z2 f2 | z2 c^c de \
+| f2 z2 e2 | g2 z2 f2 |
+| e2 z2 d2 | d'2 z2 b2 \
+| a2 za a2 \
+|1 (gb) ag fe | a2 zA A2 | A2 c^c de \
+:|2 b2 a2 ^c2 | d2 zd d2 | d2 z2 |]
+S:https://www.folktunefinder.com/tunes/7020
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GGbook3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GG/3_65_RazbitayaZhizn.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

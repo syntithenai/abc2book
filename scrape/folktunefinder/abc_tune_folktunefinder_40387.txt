@@ -1,0 +1,16 @@
+X:1
+T: note tied to two notes
+M: 2/4
+L: 1/8
+K:G
+%%MIDI program 73
+|:G2D2|ABCD-|[1 D4 :|[2 D2 G2|
+S:https://www.folktunefinder.com/tunes/40387
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/doc/CHANGES
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/doc/CHANGES
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

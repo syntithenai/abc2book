@@ -1,0 +1,25 @@
+X:3145
+T:Tune from Micho Russell, 6
+O:ireland
+S:Micho Russell; transcribed by Andy Hornby, from a recording of a session.
+R:Reel
+M:2/4
+L:1/8
+K:G
+DG BG| dG BG| DF AF| cF AF | \
+DG BG| dG BG| BdAc| BG G2::  \
+g2 gf| gb ag| f2 fe| fg af | \
+g2 gf| gb ag| fd cA| BG G2 | \
+g2 gf| gb ag| f2 fe| fg a2 | \
+de fg| a2 ag| fd cA| BG G2 |]
+S:https://www.folktunefinder.com/tunes/43136
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

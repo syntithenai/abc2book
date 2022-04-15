@@ -1,0 +1,22 @@
+X:199
+T: Schlaefert dich noch
+N: A0237
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II No. 66.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: D
+D2 | D4D2 | E4E2 | =F3ED2 | =C4
+C2 | =F,4F,2 | =C4C2 | D3E=F2 | E4z2
+A,3B,C2 | D4z2 | A,3B,C2 | D4
+S:https://www.folktunefinder.com/tunes/68745
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Slipstenspolskan
+O: efter Snickar Erske
+N: efter Erik Olsson, Ovan\aaker
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+a2 \
+| gafg efde cdBc | A2a2 gafg e2a2 | gafg efde cdBc | A2a2 gafg e4 |
+| Acec Acec Acec | GBdB GBdB GBdB | Acec Acec Acec | GBeB GBeB G2e2 |
+| A2c2 BABd c4   | c2e2 dcdf f2e2 | e2fg agfe dcBA | GABG A6 |][K:D=g]
+K: D
+|: D2 \
+| DFAF DFAF DFAF | CEAE CEAE CEAE | DFAF DFAF DFAF | CEAE CEAE C2A2 |
+| D2F2 EDEG F4   | F2A2 GFGB B2A2 | A2Bc dcBA GFED | CDEC D6 :|[K:A]
+K: A
+|: z2 \
+| A,CEC A,CEC A,CEC | DFAF DFAF DFAF | EGBG EGBG EGBG | Acec Acec Acec |
+| B^dfd Bdfd  Bdfd  | egbg egbg egbg | e2fg agfe dcBA | GABG A6 :|
+S:https://www.folktunefinder.com/tunes/16553
+S:http://trillian.mit.edu/~jc/music/abc/pols/Slipstenspolskan_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Slipstenspolskan_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

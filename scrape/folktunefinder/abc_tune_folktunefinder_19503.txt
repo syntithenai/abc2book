@@ -1,0 +1,27 @@
+X: 1
+T: Maggie Lauder
+R: strathspey
+O: Adam Craig Collection
+B: Adam Craig Collection
+B: RSCDS 10-8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 \
+[| "D"d3e  df3     d3e  df3 | "Em"e3f gfed "A7"ce3 e3g | "D"fd3  d3A  "Bm"d3e  d3f  | "A7"a3b     a3g  "D7"f3g a3f |
+|  "G"g3a  gb3  "D"f3g  fa3 | "Em"e3f gfed "A7"ce3 e3c | "D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D" d4  d>e |]
+[| "D"fgaf d3g "Bm"fgaf d3f | "Em"e3f gfed "A7"ce3 e3g | "D"fgaf d3g  "Bm"fgaf defg | "A7"a3b     abag "D7"f3g a3f |
+|  "G"gfga gbag "D"fefg fagf| "Em"e3f gfed "A7"ce3 e3c | "D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D" d4  d   |]
+S:https://www.folktunefinder.com/tunes/19503
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MaggieLauderStr2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MaggieLauderStr2_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

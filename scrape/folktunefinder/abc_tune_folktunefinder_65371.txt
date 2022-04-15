@@ -1,0 +1,25 @@
+X: 283
+T:Shafters Shindig
+% Nottingham Music Database
+S:Chris Dewhurst 1979, via Phil Rowe
+M:6/8
+K:A
+"(E7)"e2d |"A"cec A2c|"E"BdB G2B|"A"Ace "D"agf|"A"e3 "E"e2d|"A"cec A2c|
+"E"BeB G2A|"F#m"B2B "B7"AGF|"E"E3 "E7"e2d|"A"cec A2c|"E"BdB G2B|"A"Ace "D"agf|
+"A"e3 -e2c|"Bm"dfd BdB|FBF DEF|"E"G2B EFG|"A"A3 -A2E||
+"A"c3 -c2E|c3 -c2E|"A"c2c edc|"Bm"B3 -B2E|"E"B3 -B2E|"E"B3 -B2c|
+"Bm"d2e "E"fed|"A"c3 -c2E|c3 -c2e|"A"A3 -Ace|"A7"=g2g gfe|
+"D"f3 a3|"Dm"=faf d2f|"A"eae c2e|"Bm"gfe "E"dcB|"A"A3 -A2||
+S:https://www.folktunefinder.com/tunes/65371
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

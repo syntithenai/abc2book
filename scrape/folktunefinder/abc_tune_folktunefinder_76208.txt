@@ -1,0 +1,28 @@
+X:228
+T: General Ney (3-31), S. 101
+N: P1003
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd3, Metz 1933]
+R: historisches, Soldatenlied]
+M: 2/4
+L: 1/16
+K: C
+z4G4 | G4G4 | c2B2A4 | G4G2F2 | E8
+G4G4 | A4G4 | F4G4 | E8 | z4
+E2E2 | D4D4 | F3FF4 | E2G2c4 | c8 | z4
+G4 | G3FF4 | D4D4 | E2G2c4 | c8 | z4
+c3c | c3ce4 | d2d2c2B2 | A8 | G2
+c2B2c2 | d3dd4 | B2B2B4 | c8 | z4
+c3c | c3ce4 | d2d2c2B2 | A8 | G2
+c2B2c2 | d3dd4 | B2B2B4 | c8
+S:https://www.folktunefinder.com/tunes/76208
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Historisches, soldatenlied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Campbelltown Kiltie Ball
+R: strathspey
+S: handwritten MS by Barbara McOwen labelled "Lezlie Paterson's Notes"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+z \
+| "A"A3B A3B "A7"ce3 e4 | "D"f3=g f3e fa3 a4 \
+| "A"A3B A3B "F#m"ce3 e3c | "Bm"e3f e3c "E7"B3A B3c |
+y \
+| "A"A3B A3B "A7"ce3 e4 | "D"f3=g f3e fa3 a3e \
+| "A"a3g f3e "D"f3g a3f | "A"e3c "E7"Bc3 "A"A4 A3 |]
+e \
+| "A7"a4 a3e "D"f4 fa3 | "A"e3f e3B ce3 e3f \
+| "D"a4 a3e "C"=g3a g3e | "Bm"f3^g a3f "E7"e3d cB3 |
+y \
+| "A"A3B A3B "A7"ce3 e4 | "D"d3c d3e fa3 a3e \
+| "A"a3g f3e "D"f3g a3f | "A"e3c "E7"Bc3 "A"A4 A3 |]
+S:https://www.folktunefinder.com/tunes/19248
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CampbelltownKiltieBall_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/CampbelltownKiltieBall_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

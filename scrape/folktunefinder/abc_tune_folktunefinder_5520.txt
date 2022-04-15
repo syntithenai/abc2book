@@ -1,0 +1,37 @@
+X: 1
+T: Eleno Mome
+O: Bulgaria
+M: 7/8
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+P: Bb instruments
+K: D
+P: A
+|: "A7"A2 Bc d/c/BA | c2 ce d/c/BA | A2 Bc d/c/BA | c2 ce d/c/BA |
+| "A7"A2 {B}cB AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- F2 {ABc}MdMdz |
+| "G"dd cB "A7"AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- F2 {ABc}MdMdz :|
+P: B
+|: "D"F2 GF ^E/F/GF | A2 BA ^G/A/BA | F2 GF ^E/F/GF | "A7"~A2 ^G/A/B/c/ "D"ddz :|
+P: C
+|: "D"A/^G/A/B/ A/G/A/B/ AF2 | "A7"AA GG "D"F/G/Az | A/^G/A/B/ A/G/A/B/ AF2 | "A7"AA GG "D"FFz :|
+P: D
+K: A
+[| "A"c2 dc "E7"cBB | "A"A2 AE A/B/c2 | c2 dc "E7"cBB | "A"A2 AE AAz |
+P: D'
+| "A"[c2e2] [df][ce] "E7"[ce][Bd][Bd] | "A"[A2c2] [Ac][EA] [A/c][B/d][c2e2] \
+| [c2e2] [df][ce] "E7"[ce][Bd][Bd] | "A"[A2c2] [Ac][EA] [Ac][Ac]z |]
+P: E
+K: D
+[| "A7"AB =cB AG/F/E | "D"F2- F2 "G"dcB | "A7"AB cB AG/F/E | "D"F2- F2 {ABc}MdMdz |
+| "G"dd cB "A7"AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- HF2 {ABc}MdMdz |]
+S:https://www.folktunefinder.com/tunes/5520
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ElenoMome_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: Ho Ro My Nut-Brown Maiden
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d3c B2A2 | d4 A2d2 | f3d "Bm"g2f2 | "Em"f2e2 "A7"e2g2 \
+| "D"fa3 fa3 | A4 "Bm"d2e2 | "Em"f3f "A7"g2e2 | "D"d4-d2 |]
+f2 \
+| "D"a3b a2f2 | a4 f2g2 | a3b "Bm"a2f2 | "Em"e4 "A7"e2g2 \
+| "D"fa3 fa3 | A4 "Bm"d2e2 | "Em"f3f "A7"g2e2 | "D"d4-d2 |]
+S:https://www.folktunefinder.com/tunes/15471
+S:http://trillian.mit.edu/~jc/music/abc/march/HoRoMyNutBrownMaiden_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/HoRoMyNutBrownMaiden_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/HoRoMyNutBrownMaiden_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/HoRoMyNutBrownMaiden_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

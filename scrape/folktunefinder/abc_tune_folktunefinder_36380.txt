@@ -1,0 +1,25 @@
+X:1505
+T:the Dublin reel
+M:4/4
+O:Ireland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000826.html
+%%ID:00000826
+K:D
+dF F/F/F dF eF|dF F/F/F AF EF|\
+dF F/F/F df ed|cA BF AF EF::
+eA A/A/A eA fA|eA A/A/A BA FA|\
+eA A/A/A eg fe|dc dA BA FA::
+d2 ce dA FA|dc dA FD FA \
+|1 d2 dc df ed|cd Bc AF EF\
+:|2 d2 df e2 eg|fd Bc d4|]
+S:https://www.folktunefinder.com/tunes/36380
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

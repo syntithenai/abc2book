@@ -1,0 +1,21 @@
+X:3
+T:Clef Changes Within Tune
+T:In-Line Info Fields by [..]
+K:C
+| cdef gabc' [K:bass] | cdef gabc' [K:alto] | cdef gabc' [K:treble] | cdef gabc' |
+S:https://www.folktunefinder.com/tunes/2352
+S:http://trillian.mit.edu/~jc/music/abc/test/ClefChanges.abc
+S:http://trillian.mit.edu/~jc/music/abc/test/Inline_Clef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Inline_Clef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Inline_Clef.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Inline_Clef.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/jcabc2ps/abc/Inline_Clef.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

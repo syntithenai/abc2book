@@ -1,0 +1,24 @@
+X: 10
+T: The Earl's Chair
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+A \
+| "Bm"B2Bd BAFA | "(G)"B2dB "(A7)"BAFB | "D"AFF2 DFF2 |     AFdB    ADFA |
+| "Bm"B2Bd BAFA | "(G)"B2dB "(A7)"BAFB | "D"AFAB defd | "A7"edef "D"d3  :|
+f \
+|:"Em"e2ef "Bm"d2df | "Em"edef "Bm"dBAB | "Em"e2ef "D"d2de | "Bm"fedB "D"ADFA |
+| "Em"e2ef "Bm"dBB2 | "Em"gBB2  "D"defg | "Bm"afbf "D"afeg | "Bm"fedB "D"ADFA :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6391
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1680
+T:Evans' Jigg
+M:6/8
+O:Wales
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000096a.html
+%%ID:0000096a
+K:A min
+e| a>ba ^g^fg | a3 f>gf | e>fe d>cd \
+|1 e>de A2e :|2 e3-e3 :: e|\
+g>ag geg | f>gf fdf | e>fe d>ec | B>AG G2d |\
+g>ag f>gf | e>fe d>ec | B>cA A>B^G | A3-A2 :|
+S:https://www.folktunefinder.com/tunes/36415
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

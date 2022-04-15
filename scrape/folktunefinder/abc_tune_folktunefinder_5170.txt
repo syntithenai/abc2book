@@ -1,0 +1,26 @@
+X: 123
+T: Schneider (in D)
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 23/4
+L: 1/4
+K: D
+|: "D"[dAF] [AFD] | [fdA] [dAF] | "A7"[ecA] [cAA] [ecA] | "D"[fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[ecA] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z ||
+|: "G"[dBG] [gdB] | [bgd] [gdB] | [dBG] [gdB] [bgd] | "D"[afd] z | [fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[aec] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5170
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 23/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

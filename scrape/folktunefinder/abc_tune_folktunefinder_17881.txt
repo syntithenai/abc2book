@@ -1,0 +1,29 @@
+X: 1
+T: Planxty Madame Maxwell
+C: Turlough O'Carolan
+R: reel
+M: 2/4
+L: 1/16
+Z: John Chambers, based on several O'Neill versions and a Richard Robinson transcription.
+K: D
+|: ABA2 AFD2 | F2A2 A2d2 | cde2 def2 | efg2 f2e2 \
+|  d2A2 GFED | G2B2 B2d2 | c2A2 e2dc | d4-  d2z :|
+|  a2d2 a2d2 | g2b4 ag   | f2d2 a2gf | g2e4 g2   \
+|  fga2 gab2 | a2g2 f2e2 | Td4  e2d2 | c2A4 Bc   |
+|  d4   cBAG | F2D4 d2   | cde2 fed2 | c2A4 Bc   \
+|  dcBA BAGF | G2B4 A2   | BAGF AGFE | D4-  D2z |]
+S:https://www.folktunefinder.com/tunes/17881
+S:http://trillian.mit.edu/~jc/music/abc/reel/Planxty_Madame_Maxwell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Planxty_Madame_Maxwell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Planxty_Madame_Maxwell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/OCarolan/Planxty_Madame_Maxwell_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/TurloughOCarolan/Planxty_Madame_Maxwell_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

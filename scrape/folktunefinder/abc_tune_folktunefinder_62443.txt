@@ -1,0 +1,25 @@
+X:112
+T:Tr\"atpolskan
+R:sl-polska
+A:Sm{\aa}land
+B:SvL Sml 11, efter Anders Fredrik Andersson, Tryserum
+Z:id:hn-sp-112
+M:3/4
+L:1/16
+K:D
+D3a a4 f4 | d2{edc}d{f}e d2cB AGFE | D3F A3d d2fg | f2ed cdec A4 |
+D3a a4 f4 | d2{edc}d{f}e d2cB AGFE | D3F A3d d2fg | f2ed c3d d4 :|
+|: D3F AFBG- G2A2- | A2=f2{gfe} f3g g2a2 |  D3F AFBG- G2A2- |
+A2=f2{gfe} f3g g2a2 | =f2{gfe}fg a2ae f2fd | {e}dcd^f edcB AGFE |
+D3F AFBG- G2A2- | A2=f2{gfe} f3g g2a2 | =f2{gfe}fg a2ae f2{gf}ed |
+cdec A3d d4 :|
+% Takt 2, 4, 8 i andra reprisen \"aven | f3g fefg g3a |
+S:https://www.folktunefinder.com/tunes/62443
+S:http://www.norbeck.nu/abc/s/hnsp0.abc
+% Rhythm Sl-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

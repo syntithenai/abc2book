@@ -1,0 +1,23 @@
+X: 1
+T: Jenny Dang the Weaver
+O: trad Scotland
+S: Arr. T. Traub 11-24-2002
+R: Reel
+K: D
+M: 4/4
+L: 1/8
+|: "D"dA A/A/A AFAB | "D"dA A/A/A f2ef | "G"dB B/B/B BABd | "G"ABde  "A"faef :|
+|: "D"d2fd  "G"efge | "D"defd  "A"e2cA | "D"d2fd  "G"efge | "A"aA A/A/A f2ef :|
+S:https://www.folktunefinder.com/tunes/17431
+S:http://trillian.mit.edu/~jc/music/abc/reel/JennyDangTheWeaver_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/JennyDangTheWeaver_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JennyDangTheWeaver_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/JennyDangTheWeaver_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

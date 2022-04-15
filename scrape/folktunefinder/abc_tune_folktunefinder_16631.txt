@@ -1,0 +1,27 @@
+X: 2
+M: 2/4
+L: 1/8
+P: Honey Harbour
+K: A
+"E7"Ac \
+| "A"e2 e3/f/ | ec AE | "A"C2 E3/F/ | EC A,C \
+| "Bm"D2 B3/A/ | "E7"GE FG |1 "A"A2 "D"GF | "E7"E2 :|2 "A"A2- "D"A2- | "A"A2 |] 
+"E7"cd \
+| "A"e2 ce | a2 e3/f/ | "Bm"ed dc | d2 Bc \
+| "E7"d2 Bd | g2 f3/g/ | "A"fe "(E)"e^d | "A"e2 |] 
+"E7"cd \
+| "A"e2 ce | "F#m"a2 e3/f/ | "Bm"ed dc | d2 Bc \
+| "E7"d2 gf | e^d =dB | "A"A2- "D"A2- | "A"A2 |]
+S:https://www.folktunefinder.com/tunes/16631
+S:http://trillian.mit.edu/~jc/music/abc/program/MarchMedley01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/MarchMedley01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20070707/MarchMedley01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/MarchMedley01
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

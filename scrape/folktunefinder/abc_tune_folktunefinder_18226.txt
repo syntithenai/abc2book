@@ -1,0 +1,42 @@
+X:1
+T: Tom McKerron/McLaine of Lochbuie/The High Drive
+C:Charlie McKerron/Anon/Gordon Duncan
+N:3 Scots reels/3 reels cossais
+S:Dominique Renaudin <domren@free.fr> IrishTradAccord 2004-3-1
+Q:1/4=220
+R:reel
+P:AAABBBCCC
+M:4/4
+L:1/8
+K:A
+P:A
+ga | ec (3ccc BcAF | EC (3CCC B,CA,B, | C2 EC FCEC |
+DF AF EGBG | ec (3ccc BcAF | EC (3CCC B,CA,B, | C2 EC DFAF |
+EGBG A2 :: eg | g a2 a feec | A2 A2 FEEe |
+ae(3eee feec | Bcec B2 ce | g a2 a feec | A2 A2 FE E2 |
+C2 EC DFAF | EGBG A2 :| AB |:
+P:B
+K:D
+e2 de AAAB |
+g2 fg BGBd | e2 de edea |1gedB BAAA :|2gedB A3 e :|
+|: a2 ag aeef | gage fdcd | eaag aeea | gedB BAAA |
+a2 ag aeef | gage fdcd | g2 ag geea | gedB A4 |:
+P:C
+d3 e fedA | (3BBB gB BAGB | GA(3AAA fedf | eA(3AAA afge |
+d3 e fedA | (3BBB gB BAGB | GA(3AAA fedf | edce d4 :|
+|: a3 g ad(3ddd | AB(3BBB gBdB | GA(3A(3A(3A fedf | eA(3AAA efge |
+a3 g ad(3ddd | AB(3BBB gBdB | GA(3AAA fedf | edce d4 :|
+S:https://www.folktunefinder.com/tunes/18226
+S:http://trillian.mit.edu/~jc/music/abc/reel/TomMcKerronMcLaineOfLochbuieTheHighDrive_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TomMcKerronMcLaineOfLochbuieTheHighDrive_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/IrishTradAccord/TomMcKerronMcLaineOfLochbuieTheHighDrive_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

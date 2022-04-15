@@ -1,0 +1,32 @@
+X:531
+T: GOTT IST DIE LIEBE
+N: F1032
+O: Europa, Mitteleuropa, Deutschland
+R: Erbauungs - Lied, religioes
+M: 2/4
+L: 1/8
+K: C
+ | E2DC | B,2Cz
+F2ED | C2D
+E | FDCB, | C2z
+D | E2DD | C2z2
+D2DD | E2Dz
+B,2B,B, | C2B,
+B, | A,EDC | B,2z
+G | ECB,A, | G,2z2
+E2DC | B,2Cz
+F2ED | C2D
+E | FDCB, | C2z
+D | E2DD | C2z2
+S:https://www.folktunefinder.com/tunes/70091
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Erbauungs - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

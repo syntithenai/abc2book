@@ -1,0 +1,29 @@
+X: 31
+T:General Rutozoff's Waltz. CJF.031
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:D
+"Alegretto"FA|.d2(dAdf)|.a2(afdf)|\
+.e2(eg)(ce)|A4(Bc)|!
+d2(defd)|B2(efge)|(dc)(BA)(Bc)|d2z2:|!
+fe|e2"p"e2e2|ef^gae2|e2e2e2|e'4c'a|!
+"f"e2e2e2|(ef^gaec)|(BdfeB^G)A2z2FA|!
+.d2"p"(dAdf)|.a2(afdf)|.e2(eg)(ce)|A4Bc|!
+.d2"f"(defd)|B2(efge)|(dc)(BA)(Bc)|d4z2|]
+S:https://www.folktunefinder.com/tunes/49586
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: die Mame is gegangen in Markt areyn
+M: 2/4
+L: 1/8
+D: Kapelye "Future and Past" (Flying Fish 249)
+K: Gdor
+D \
+| "Gm"GD GB | ^cd cB | ^cd dd | d3 e \
+| f>e (3fed | d>^c (3dcB | "A"A^c cc | c4 |
+| "Gm"d>^c (3dcB | B>A (3BAG | "D"GA AA | d3- (3ded \
+| (3^cde (3dcB | (3d^cB (3BAG | "Gm"G4- | G3 :|
+|: (3Bde \
+| "Gm"f3 e | f3 e | f>e d^c | d3 e \
+| f>e fg | ~ag ~fe | fe d^c | d2 d2 |
+| "Gm"d2 d2 | "A"^c3 B | "Gm"(3d^cB (3BAG | "D"A3 ~d \
+| "(A7)"(3^cde (3dcB | "D7"(3d^cB (3BAG | "Gm"G4- | G3 :|
+K: G
+|: A \
+| "G"B3 A | G2 AB | "Am"c2 B2 | A4 \
+| "D7"A>B cd | ~BG ~AF |1 Gg fe | dc B :|2 "G"G4- | G3 :|
+S:https://www.folktunefinder.com/tunes/7187
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/MameIsGegangenInMarktAreyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/MameIsGegangenInMarktAreyn_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/MameIsGegangenInMarktAreyn_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

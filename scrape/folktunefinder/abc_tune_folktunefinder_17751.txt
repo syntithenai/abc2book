@@ -1,0 +1,28 @@
+X: 1
+T: My Love is But a Lassie Yet
+O: Trad
+R: reel, march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: dc \
+| "D"d2D2 F2A2 | d2D2 D2dc | d2D2 F2A2 | "Em"e2E2 "A7"E2dc |
+y4 \
+| "D"d2D2 F2A2 | "G"B2g2 "A7"f2e2 | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+|: fg \
+| "D"a3f "A7"g3e | "D"f2d2 d2fg | a2f2 gfga | "Em"b2e2 "A7"e2fg |
+y3 \
+| "D"a2af "A7"g2ge | "D"f2fd "A7"e2ec | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/17751
+S:http://trillian.mit.edu/~jc/music/abc/reel/MyLoveIsButALassieYet_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MyLoveIsButALassieYet_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/reel/MyLoveIsButALassieYet_D4.abc
+% Rhythm Reel, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

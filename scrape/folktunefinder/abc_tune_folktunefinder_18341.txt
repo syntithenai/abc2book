@@ -1,0 +1,38 @@
+X: 1
+T: the 60th Summer School
+C: Muriel Johnstone
+R: strathspey, shottish
+B: The Whiteadder Collection, 1993
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Muriel Johnstone and Bill Zobel Tel. 0890 818884
+N: Scotscores, Muse Cottage, Allanton, Duns, Beerwiskshire, TD11 3JZ, Scotland
+M: C
+L: 1/8
+K: G
+D2 \
+| "G"G2 G>F "Em"G2 (3GAB | "Am"c>B A>G "D7"F<A A<d \
+| "G"G2 G>F "Em"G2 (3GAB | "Am"c>B c<e "D7"d2 E>F |
+| "G"G2 G>F "Em"G2 (3GAB | "Am"c>B A>G "C"E<G G>E \
+| "G"D>E GB  c<e | "D7"d<D B>A "G"G2 ||
+za \
+| "Em"g>f g>e "Bm"dd | "Am"c>B "D7"c>A "G"B<d d>a \
+| "Em"g>f g>e "G"d<G (3GAB | "Am"c>B A<G "D7"d2- d>a |
+| "Em"g>f g>e "G"d<G (3GAB | "Am"c>B A>G "C"E<G G>E \
+| "G/B"D>E GB c<e | "D7"d<D B>A "G"G2 |]
+S:https://www.folktunefinder.com/tunes/18341
+S:http://trillian.mit.edu/~jc/music/abc/shottish/60thSummerSchool.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/60thSummerSchool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/60thSummerSchool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/60thSummerSchool.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/60thSummerSchool.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

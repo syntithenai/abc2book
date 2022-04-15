@@ -1,0 +1,29 @@
+X: 1
+T: the Prince of Wales
+C: Joseph Lolop
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: A
+c/B/ \
+| "A"Ace a3 | "D"fga "A"edc | "D"def "A"edc | "Bm"dBB "E7"B2c \
+| "A"Ace a3 | "D"fga "A"edc | "D"def "E7"efd | "A"cAA A2 :|
+f \
+| "A"ecA EAA | cAA ABc | "D"def "A"edc | "Bm"dBB "E7"B2f \
+| "A"ecA EAA | cAA ABc | "D"def "E7"efd | "A"cAA A2 |]
+f \
+| "A"ecA EAA | cAA ABc | "D"def "A"edc | "Bm"dBB "E7"B2g \
+| "D"agf "Em"gfe | "F#m"fed "A"edc | "D"def "E7"efd | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/14941
+S:http://trillian.mit.edu/~jc/music/abc/jig/PrinceOfWales_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/PrinceOfWales_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:435
+T:Boda
+L:1/8
+M:3/4
+O:Sweden
+R:Hambo
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ba5.html
+%%ID:00000ba5
+K:G
+D | \
+G2 g2 g>f | e>d cB A>G | F>E DF A>F | G>A B/2A/2B/2c/2 d2 |\
+G2 g2 g>f | e>d cB A>G | F>E DF A>F | G2 G4:: \
+d>c B>A G>F | E>D CB, A,2 | D2 F>D F>A | G>A B/2A/2B/2c/2 d2 |\
+d>c B>A G>F | E>D CB, A,2 | D2 F>D F>A | AF G4:|
+S:https://www.folktunefinder.com/tunes/36166
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

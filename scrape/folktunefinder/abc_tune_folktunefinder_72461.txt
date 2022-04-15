@@ -1,0 +1,29 @@
+X:4
+T: Das Lied vom Zimmergesellen
+N: D0004
+O: Europa, Mitteleuropa, Lothringen, Altripp
+N: Laengenwerte in Zeile 263, 265 und 266 berichtigt; Sequenz,
+N: Wiederholungen; Inzipit = Variante zum Lied
+R: Ballade, Taten und Verbrechen
+M: 3/4
+L: 1/8
+K: D
+d2 | d2=c2d2 | A4A2 | G2G2G2 | =F4
+G2 | A2_B2=c2 | d2=c2d2 | A4
+=c2 | =c3dc2 | A3=cc2 | A3=cc2 | d4
+_BA | A3G=F2 | G3=FE2 | D4
+A=c | =c3dc2 | A3=cc2 | A3=cc2 | d4
+_BA | A3G=F2 | G3=FE2 | D4
+S:https://www.folktunefinder.com/tunes/72461
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Ballade, taten und verbrechen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:423
+%%topmargin 3cm
+T:John Roy Stewart
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D aeolian
+f | {/d}c<AA>G {DE}F>GA>d | c<FA>F c<FA>f | {/d}c>BA>G {DE}F>GA>F D<dTd>^c {/c}d2 d :|
+f | {AB}(c>d)f>g Ta>f(g>a) | ~f>c (d/c/).B/.A/ ~f<cc>f | (~c>d)f>g Ta>f(g>a) | c<a{/a}g>f {/^c}d2 (d>f) |
+(~c>d)f>g Ta>f(g>a) | ~f>c (d/c/).B/.A/ f>c Tc(f/g/) | (a>f)g>e f>de>c | A<dTd>^c d2 d |]
+S:https://www.folktunefinder.com/tunes/71452
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/John_Roy_Stewart.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0423.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

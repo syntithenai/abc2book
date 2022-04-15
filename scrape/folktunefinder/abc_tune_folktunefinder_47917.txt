@@ -1,0 +1,26 @@
+X:120
+T:Fraher's Jig
+M:6/8
+L:1/8
+R:jig
+D:Willie Clancy
+Z:Devin McCabe
+K:DMix
+~A3 GEA|DED GED|~A3 GEA|DED DEG|
+!A2D GED|FED GED|(3ABc A GEA|~D3 DEG:|
+!(3ABc A d2A|dcA AGE|GAB c2A|BGE ~E3|
+!Ad^c def|dcA AGE|(3ABc A GEA|DED DEG:|
+S:https://www.folktunefinder.com/tunes/47917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/other/itunenet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

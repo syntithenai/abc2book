@@ -1,0 +1,31 @@
+X: 1
+T: the Twelfth of January (for Robert!)
+C: Barbara McOwen (Feb 1982)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS probably from Barbara
+B: Pinewoods Alternates
+M: 6/8
+L: 1/8
+K: A
+g \
+| "A"a2A "A7"Ace | "D"fdf "E7"efg | "A"a2A "F#m"ABc | "B7"cBB "E7"B2g \
+| "A"a2A "A7"Ace | "D"fdf "E7"efg | "A"agf "E7"edB | "A"cAA A2 :|
+d \
+| "A"cee "Bm"dee | "A"cee "E7"Bee | "A"Ace "F#m"edc | "B7"cBB "E7"B2d \
+| "A"cee "Bm"dee | "A"cee     efg | "D"agf "E7"edB | "A"cAA A2 |]
+d \
+| "A"cee "Bm"dee | "A"cee "E7"Bee | "A"Ace "F#m"edc | "B7"cBB "E7"B2c \
+| "A"Ace "A7"ecA | "D"def "Bm"fga | "E7"gbg efg | "A"aec A2 |]
+S:https://www.folktunefinder.com/tunes/15212
+S:http://trillian.mit.edu/~jc/music/abc/jig/TwelfthOfJanuary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TwelfthOfJanuary_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/TwelfthOfJanuary_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

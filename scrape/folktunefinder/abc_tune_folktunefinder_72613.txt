@@ -1,0 +1,27 @@
+X:156
+T: Was soll ich in der Fremde tun,
+N: D0264
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Muenster
+N: Inzipit = Transposition zum Lied
+R: Heimat - Lied
+M: 4/4
+L: 1/16
+K: F
+C4 | F6E2F4G4 | A6G2F4
+A2A2 | G4c4e6d2 | c8z4
+A2A2 | G6A2B4d4 | d4c4A4
+c2c2 | c4B4G4d3d | d4c4A4
+A2A2 | G6A2B4d4 | d4c4A4
+c2f2 | e6d2c4B4 | A8z4
+S:https://www.folktunefinder.com/tunes/72613
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/dva0.abc
+% Rhythm Heimat - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

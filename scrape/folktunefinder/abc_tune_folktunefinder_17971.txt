@@ -1,0 +1,29 @@
+X: 1
+T: Reel \`a Ti-Jean
+S: from Aim\'ee Gagnon
+O: Quebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+M: C|
+L: 1/8
+K: D
+ABc \
+| "D"dBAF D2d2 | "A7"cdec "D"d3A | "G"BAFD "Em"E2d2 | "A7"cdec "D"dABc |
+| "D"dBAF D2d2 | "A7"cdec "D"defg | "D"abaf "G"gfed | "A7"cABc "D"d :|
+|: cde \
+| "D"fdad fdad | faaf afdf | "C"e=cgc ecgc | egge ge=ce |
+| "D"fdad fdad | faaf afdf | "G"g3g gbag | "A7"fgec "D"d :|
+S:https://www.folktunefinder.com/tunes/17971
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelATiJean_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelATiJean_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelATiJean_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Reel Saint Jean
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: From a transcription by Terry Traub
+M: C|
+L: 1/8
+K: Bm
+|: fe \
+| "Bm"dB~B2 FBdB | fBdf bfed | "A"cA~A2 EAce | cAce "(F#m)"Affe |
+| "Bm"dB~B2 FBdB | dBdf BdcB | "A"ABcd efec | "A"dBcA "Bm"B2 :|
+|: "A7"A2 \
+|  "D"d2dc "A7"defg | "D"a2ab afdf | "G"d'2d'b "D"afde | "E(m)"feed "A7"dcBA |
+|  "D"d2dc "A7"defg | "D"a2ab afdf | "G"d'2d'b "D"afde | "A7"f2e2 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/17999
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelSaintJean_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelSaintJean_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelSaintJean_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

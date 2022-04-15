@@ -1,0 +1,35 @@
+X: 3
+T: Andro 3
+G:Kazimodal
+R:Andro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+M:4/4
+S:Tonio Breizh-Izel 1721 (Lokmariaker)
+K:Dm
+%\large
+%%%%MIDI program 109
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "Dm"D(F/2G/2) "F"{AB}A>c "C"{Bc}BG "Bb"(G/2A/2)F \
+|1 "F"{FG}F/2(E/2F) "Gm"(G/2A/2)G/2E/2 "Bb"FD "Am"AF :|2\
+"F"(F/2A/2)G/2E/2 "Gm"{FG}F>D "Am"(E/2G/2)E/2F/2 "Bb"D2 |
+|: "Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
+"C"(E/2F/2)G/2E/2 "Am"(A/2G/2)E/2F/2 "Bb"(DE/2)D/2 "C"C2 |
+"Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
+"C"(E/2F/2)G/2E/2 "Am"{AB}AG/2E/2 "Bb"(F/2G/2)"C"E/2F/2 "Dm"D2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/3025
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/andro.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

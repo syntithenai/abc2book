@@ -1,0 +1,30 @@
+X:1
+T:Samiotissa
+T:Girl from Samos
+O:Greece
+R:kalamatianos
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:The lower line should be considered the melody.
+N:The instrumental interlude here is a "generic" interlude used in much Greek music.
+W:Girl from Samos, when I get to Samos, I'll throw roses on the shore, roses on the sane.
+W:And in the boat in which you go, golden sails I'll put, golden oars, so I can take you.
+W:Girl from Samos with the black olives and the black eyes, you've broken my heart into 42 pieces.
+W:Samiotissa, passion doesn't need begging. There are other orange trees that give oranges.
+M:7/8
+L:1/8
+K:G
+P:Instr:
+|: z[ge][fd][ec] || "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B2G][cA] [dB][ge][fd][ec] \
+| "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B3G] :|
+P: Vocal:
+|: [D2G] || "G"[G2B][FA] [G2B] [A2c] | [B2d][Ac] [G4B] | "C"[ce][ce][ce] [ce][Bd] [Ac][GB] | "G"[B3d] z2 :|
+S:https://www.folktunefinder.com/tunes/2915
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/Samiotissa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Kal_Samiotissa.abc
+% Rhythm Kalamatianos
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:2
+T:Mike Flynn's
+T:Cottage In the Grove
+D:Mike & Mary Rafferty, The Old Fireside Music (1998)
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:C major
+c>ccd _BGFG|_B2 df gfdf|gc' c'2 _bgfd|c z d_B c_BGF|c>ccd _BGFG|\
+_B2 df gfdf|
+gc' c'2 _bgfd|ced_B c2 z2::c'>c'c'd' c'_bga|_bgfd _B2 (3def|\
+g_bac' _bgfd|
+c z d_B d_Bgf|c'>c'c'd' c'_bga|_bgfd _B2 (3def|g_bac' _bgfg|\
+_b2 c'a _bgfd:|]
+S:https://www.folktunefinder.com/tunes/16967
+S:http://trillian.mit.edu/~jc/music/abc/reel/CottageInTheGrove_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MikeFlynns_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/CottageInTheGrove_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MikeFlynns_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CottageInTheGrove_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/MikeFlynns_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/CottageInTheGrove_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/irtrad-l/MikeFlynns_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

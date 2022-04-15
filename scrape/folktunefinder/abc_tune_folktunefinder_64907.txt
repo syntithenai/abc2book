@@ -1,0 +1,22 @@
+X:795
+T:Kennet Jig (For Kennet Mixer)
+% Nottingham Music Database
+S:Pauline Wilson, via Phil Rowe
+M:6/8
+K:G
+"G"DGB "Bm"d2B|"Em"e2B "Bm"d2B|"G"DGB "E"dcB|"A7"A3 -"D7"A3|"G"DGB "Bm"d2B|\
+"Em"e2B "Bm"d2B|"C"cBc "D7"dBA|"G"G3 -G2::
+"G"B2G DAB|"Am"cBc "D7"A3|"G"G2B "Em"d2g|"A7"d3 -"D7"d3|"G"B2G "G7"DAB|\
+"C"cBc "Am"A3|"D7"d^cd e=cA|"G"G3 -G3:|
+S:https://www.folktunefinder.com/tunes/64907
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

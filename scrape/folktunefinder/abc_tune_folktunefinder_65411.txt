@@ -1,0 +1,24 @@
+X: 323
+T:Walking To Heel
+% Nottingham Music Database
+S:John Goodacre 1985, via Phil Rowe
+M:6/8
+K:D
+"D"d2A -"A7"A2F-|"D"F2E D3|"D"DEF "A7"E2D|"D"DEF "A7"E2B/2c/2|"D"d2A -"A7"A2F-\
+|"D"F2E D3|"Em"EFG "A7"F2E|"D"D3 D3::
+"D"A3 "A7"G3|"D"FGF "A7"E3|"D"A2G FGA|"G"B2G -GFE|"D"A3 "A7"G3|"D"FGF "A7"E3|\
+"Em"B2G -"A7"GEC|"D"D3 D3:|
+S:https://www.folktunefinder.com/tunes/65411
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

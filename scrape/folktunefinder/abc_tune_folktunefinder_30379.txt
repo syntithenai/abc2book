@@ -1,0 +1,26 @@
+X:350
+T:Sandy oer the Lee
+B:Aird's Airs and Melodies vol 2
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000010e.html
+%%ID:0000010e
+K:G
+D|\
+G>AGB| dBdB| ABAc| e2 (e3/f//g//)|\
+G>AGB| dB (de/f/)| gedB| G3||
+B|\
+A>GAd| BGGB| A>GAd| "tr"B2 GB|\
+A>GAd| B^cdg| fdef| d2 (ed//c//B//A//)|
+G>AGB| dBdB| A>BAc| e2 e3/f//g//|\
+G>AGB| dBd>Hg| A>GAd| G3:|
+S:https://www.folktunefinder.com/tunes/30379
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

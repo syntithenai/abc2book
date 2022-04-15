@@ -1,0 +1,27 @@
+X:188
+T:La Russe
+S:Nottingham Music Database
+S:Kevin Briggs, via EF
+S:Jim Coon to CoMandoList TOW
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|"G"GB/2B/2 Bd/2d/2|"G"dg gf/2g/2|"C"ag ec|"Am"ed/2e/2
+"D7"d/2c/2B/2A/2|!
+"G"GB/2B/2 Bd/2d/2|"G"dg gf/2g/2|"C"ed "D7"dF/2G/2|"G"AG G:|!
+K:D
+P:B
+A|"D"Ad dc/2B/2|"D"Aa ag/2f/2|"A7"gf ge|"D"f/2g/2a/2g/2 "A7"fd|!
+"D"Ad dc/2B/2|"D"Aa ag/2f/2|"A7"gf ge|"D"d3:|!
+S:https://www.folktunefinder.com/tunes/51795
+S:http://www.mandozine.com/music/TOW.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

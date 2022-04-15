@@ -1,0 +1,28 @@
+X:760
+T:the 14th of October
+B:Aird's Airs and Melodies vol 2
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000160.html
+%%ID:00000160
+K:G
+G>A|\
+B3g (dB)(AG)| B2d>e d2AB| c3e (dB)(AG)| B2A>B A2GA|\
+(Bd)(eg) (dB)(AG)| B2ga g2Bc|
+d>edB (cB)("tr"AG)| E2G>A G2::\
+de|\
+g>aba gedB| d2g>a g2AB|
+c>deg (dB)(AG)| B2AB A2GA|\
+BABG EGAB| cBcd edef| \
+gfga babd| e2g>a g2:|
+S:https://www.folktunefinder.com/tunes/30461
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

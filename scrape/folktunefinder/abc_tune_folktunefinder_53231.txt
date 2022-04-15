@@ -1,0 +1,31 @@
+X:5
+T:Antice
+D:Andy Irvine, somewhere 
+M:7/8
+O:S.E.Europe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000689.html
+%%ID:00000689
+K:D mixolydian
+A2D B2B2 | B2A A2A2 | d2d dcBA | G2G G2F2 |\
+F2D A2A2 | ^G2=F EFGA | A2^G=F ED^C | D4-D3 :|
+|:[K:Em]\
+G2FG AFE | E4-E3 | E2DE DEF | G4~G3 |\
+d2d2 cBA | G2F E2BA | G2FG AFE | E4-E3 |
+A2AB cBA | G2F E4 | E2DE DEF | G4-G3 |\
+d2d2 cBA | G2F E2BA | G2FG AFE | E4-E3 :|
+|: e/2d/2e =fe d^c_B | A2G F2EF | \
+G2A F2E2 | B4-B3 | e/2d/2e =fe d^c_B |\
+A2G F2 ED | BA G2AF2 | E4-E3:|
+S:https://www.folktunefinder.com/tunes/53231
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:2645
+T:Hornpipe Gan Ainm
+O:england
+R:Hornpipe
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+H:Played after "The Rights Of Man" (but might have been a failed attempt to
+H:get into "The Plains Of Boyle".
+M:4/4
+K:D
+dB |: AFDF A2dB | (3.A.B.A FA fedc | BABd gefd | (3.e.f.e (3.d.c.B A2dB |
+AFDF A2dB | (3.A.B.A FA fedc | BABd gefd |1 ec(3.A.B.c d2dB :|2 ec(3.A.B.c d2de ||
+|: fdcd (3.B.c.dAF | Ddcd fdcd | eA(3.A.A.A fA(3.A.A.A | (3.e.f.e (3.d.c.B A2de |
+fdcd (3.B.c.dAF | Ddcd fdcd | eAfA gAfA |1 ec(3.A.B.c d2de :|2 ec(3.A.B.c d2dB ||
+S:https://www.folktunefinder.com/tunes/23096
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

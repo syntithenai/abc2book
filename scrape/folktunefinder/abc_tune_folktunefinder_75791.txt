@@ -1,0 +1,42 @@
+X:95
+T:Sensommervals
+O:Sverige
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-23
+M:3/4
+L:1/8
+Q:3/4=56
+%%staves [ 1 2 3 ]
+K:D
+V:1 name="I v"
+|:("D"ab) (ag) (fe)|"D"d2 (AF) D2|("D"DF) (Ad) (cB)|"G"B2 (GE) B,2|
+V:2 name="II v"
+|:(fg) (fe) (dA)|(FA) (dA) F2|D2 F2 F2|G2 (BA) (GF)|
+V:3 clef=bass name="B"
+|:d'2 z2 a2|d2 z2 A2|d2 e2 f2|g2 z2 g2|
+V:1
+("A"B,C) (EA) (ce)|(gf) (ed) (cB)|(Ac) (ec) (ac)|[1"D" d2 (fd) A2:|[2"D"d2 d2 z2||
+V:2
+(EA) (ce) (eg)|(ba) (gf) (ed)|c2 a2 g2|(fd) (ad) (fa):|f2 [D2d2] z2||
+V:3
+a2 z2 e2|a2 z2 e2|a2 A2 c2|d2 f2 a2:|d2 d2 z2||
+V:1
+|:("D"DF) (AF) (dF)|("D"DF) (AF) (dF)|"G"G2 (BA) (GF)|(GF) (ED) (CB,)|
+V:2
+|:[A,6D6]|[A,6D6]|[B,6D6]|[G,6D6]|
+V:3
+|:d2 z2 A2|d2 z2 f2|g2 z2 d2|g2 z2 g2|
+V:1
+("A"A,C) (EA) (ce)|(gf) (ed) (cB)|(Ac) (ec) (ac)|[1"D"d2 (fd) (AF):|[2"D"d2 d2 z2|]
+V:2
+[A,4E4] [C2E2]|[E4A4] [E2A2]|[E4c4] [c2e2]|[D2d2] [D2A2] [F2A2]:| [D2d2] D2 z2|]
+V:3
+a2 z2 e2|a2 z2 e2|a2 A2 c2|d2 f2 a2:|d2 d2 z2|]
+S:https://www.folktunefinder.com/tunes/75791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X:9795
+T:Londonderry Hornpipe
+% Nottingham Music Database
+S:Variations by O'Neill
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+AG|"D"F2Ad fdAF|"G"G2Bd gdBG|"D"F2Ad fdAF|"Em"E2GB "A7"(3edcAG|
+"D"F2Ad fdAF|"G"G2Bd g2ag|"D"fafd "A7"Bgec|"D"d2f2 d2:|
+P:B
+fg|"D"a2fd Adfa|"Em"g2ec "A7"Aceg|"D"a2fd Adgf|"G"(3efd"E7"(3cdB "A7"A2fg|
+"D"a2fd Adfa|"Em"gece "A7"g2ag|"D"fafd "A7"Bgec|"D"d2f2 d2:|
+P:C
+AG|"D"(3FEDAD BDAD|"D"dcdf "A7"ecAG|
+"D"(3FEDAD BDAD|"G"EGFA "A7"GBAG|"D"(3FEDAD BDAD|
+"D"dcdf "A7"edeg|"D"(3fafdf "A7"gece|"D"df(3edc d2:|
+P:D
+(3fg^g|"D"a^gab afdf|"Em"gfga "A7"gece|"D"a^gab afdf|
+"G"(3efd"E7"(3cdB "A7"A2(3fg^g|"D"a^gab afdf|"G"gfef "A7"gbag|
+"D"dcdf "A7"edeg|"D"(3fafdf "A7"gece:|
+P:E
+fg|"D"(3aaafd Adfd|"Em"(3gggec "A7"Acec|"D"fdge afbg|"A"ec"E7"dB "A7"A2fg|
+"D"(3aaafd Adfd|"Em"(3gggec "A7"A2ag|"D"fdAF "A7"Egec|"D"d2f2 d2:|
+P:F
+FG|"D"AFAd fedc|"G"BGBe "Em"gfed|"A7"cAce agfe|"D"fcdB "A7"A2FG|
+"D"AFAd fedc|"G"BGBe "Em"g2ag|"D"fafd "A7"Bgec|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/61828
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

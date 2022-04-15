@@ -1,0 +1,20 @@
+X: 4
+T: The High Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: AMix
+|: "A"a2 fa ecAB | (3cBA eA fAeA | a2 fa ecAc | "G"Bcdc BGG2 | 
+|  "A"a2 fa ecAB | cdef "G"g2 fg | "D"afge fdec | "G"Bcdc BG G2 :| 
+|: "A"(3cBA eA fAeA | (3cBA af ecA2 | (3cBA eA fAeA | "G"Bcdc BGG2 | 
+|  "A"(3cBA eA fAed | cdef "G"g2 fg | "D"afge fdec | "G"Bcdc BG G2 :|
+S:https://www.folktunefinder.com/tunes/17343
+S:http://trillian.mit.edu/~jc/music/abc/reel/HighReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/HighReel_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

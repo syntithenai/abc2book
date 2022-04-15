@@ -1,0 +1,30 @@
+X: 1
+T:Bold Doherty Jig
+R:Jig
+S:irtrad-l  2000-07-17
+D:Session tape, Doolin 1987
+D:Josephine Marsh "Bold Doherty"
+N:Josephine Marsh said:  "I heard this well-known folk song played as a
+N:jig at the Willie Clancy festival and liked the eery feeling it created."
+Z:Bernie Stocks
+M:6/8
+K:Em %'real' Em
+EFG ABc | B2E FGA | cBA BdB | AGE E2B | EFG A2A |
+BEF GAB | cBA BdB | AGE E3 :| Bee edB | dBA GAe |
+Bee edB | dBA A3 |1 Bee edB | dBA GAe | cBA BdB |
+AGE E3 :|2 G2g dee | dBA GAc | cBA BdB | AGE E3 |]
+S:https://www.folktunefinder.com/tunes/13917
+S:http://trillian.mit.edu/~jc/music/abc/jig/BoldDohertyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BoldDohertyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BoldDohertyJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

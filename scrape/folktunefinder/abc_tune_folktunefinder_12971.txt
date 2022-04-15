@@ -1,0 +1,23 @@
+X: 21
+T: the Musical Priest
+T: the Broom of the Cowden Knowes
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|: BA | "Bm"FB~B2 BABd | "A"cBAf     ecBA | "Bm"  FB~B2 BABd | "A"cBAc "Bm"B2 :|
+|: Bc |  "D"d2dc  dfed | "A"(3cBA eA fAeA | "Bm"   dcBc defb | "A"afec "Bm"B2 :|
+   Bc | "Bm"dB~B2 bafb | "A"afec     ABce | "Bm"  dB~B2 bafb | "A"afec "Bm"B2 ||
+   Bc | "Bm"dB~B2 bafb | "A"afec     ABce | "Bm(G)"dcBc defb | "A"afec "Bm"B2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12971
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

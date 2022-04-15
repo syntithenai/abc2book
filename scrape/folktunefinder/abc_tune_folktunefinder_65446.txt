@@ -1,0 +1,28 @@
+X: 27
+T:Bonnets So Blue
+% Nottingham Music Database
+P:AAB
+S:Kevin Briggs, via EF
+M:4/4
+K:C
+M:6/8
+P:A
+|:G|"C"cdc efg|"G7"GAG GAB|"C"ceg gec|"G7"d2e gfd|
+"C"cdc efg|"Dm"GAG "G7"G2g|"Am"gfe "G7"dcB|"C"c3 c2:|
+P:B
+|:d/2c/2|"G/b"Bcd "D7/a"ded|"G/b"G3 "D7/a"G2c|"G"Bcd "G7/f"def|"C/e"g3 "G7/d"g2f|
+"C"e2 d c2 "b"B|"Am"A2 B c2 d|"Am" efe "E7" dcB|"Am" A3 "G7" G3|
+"C"cdc efg|"C" cdc "G7" c2A|"C"ceg gec|"Dm" d3 "G7" e2d|
+"C"cdc efg|"G"GAG G2 g| "Am" gfe "G7"dcB|"C" c3 c2:|
+S:https://www.folktunefinder.com/tunes/65446
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

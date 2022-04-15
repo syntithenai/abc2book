@@ -1,0 +1,32 @@
+X: 86
+T:Strah.   JMP.086
+M:4/4
+L:1/8
+Q:125
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Strathspey
+O:Scotland
+A:Perth
+N:Title in pencil in a different hand.  "By  Gow" similar.  "John
+N:Miller his book written at the bottom of the page and "John Miller" up
+N:the side.  The writing of the music may or may not be John Miller's.
+N:
+N:1 - bar line added
+H:1799
+Z:vmp.C.  Graebe
+K:A major
+a "1" | e<cc>B A>BAE | F>AE>A F>AE>g | e<cc>B A>GAB | c<ee^d d3 g |!
+f>dd>B c<dec | dBBG ABcE "1" | FAEA FAEd "1" | d/c/B/A/ c/B/A/G/ A3 A |]
+S:https://www.folktunefinder.com/tunes/2023
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

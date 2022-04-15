@@ -1,0 +1,38 @@
+X: 1
+T: Kolo from Ripanj
+O: Serbia
+Z: John Chambers <jc@trillian.mit.edu> from handwritten ms.
+%%musicspace 5.0
+M: 2/4
+L: 1/16
+K: C
+"A"|: "C".c2.c2 c2cB | "G7"^A2B2 "C"c2cB | c2cB "G7"^A2B2 | "C"c4 c4 |
+   | "C"^f2fg f2g2 | e2c2 cB^AB | "G7"cB_BA B2=B2 | "C"c4 "->Coda"c4 :|
+"B"|::: "C" c2cB "G7"^A2B2 | "C"c2^fg f2g2 | "G7"ag^f=f ^f2g2 | =fefd "C"e4  :::|
+"C"|: "C7"[_B4G4] [B2G4]cB | "F"[A4F4] [A2F4]_BA | "G7"[F4D4] [F2D4]GF \
+   |1,3 [E4C4] "C"[EC4]FGA :|2 "C"k[E2C2] k[E2C2] [EC4]FGA :|4 "C"k[E2C2] k[E2C2] [EC4]F^FG ||
+"D"|::: "G7"AG_GF ~G2=G2 | =F2D2 "C"E4 | "G7"EFF2- F2D2 \
+   |1-3 E2E2 "C"EF^FG :|4 "C"E2E2 E4  :|
+"E"|::: "G7"F2FE F2D2 | "C"E4 G4 | "G7"F2FE F2D2 |1,3 E2"C"E2 EF^FG :|2,4 E2"C"E2 E4 :|
+"Coda"[| "C".c2.c2 c2cB | "G7"^A2B2 "C"c2cB | c2cB "G7"^A2B2 | "C"c4 c4 ||
+      |:: "C"^f2fg f2g2 | e2c2 cB^AB ::| \
+      |: "G7"cB_BA B2=B2 | "C"c4 c4 :| \
+      | "G7"cB_BA B2=B2 | "C".c2"G".G2 "C".c2z2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/2851
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/KoloFrRipanj.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KoloFrRipanj.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/KoloFrRipanj.abc
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/KoloFrRipanj_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/KoloFrRipanj.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/KoloFrRipanj_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/KoloFrRipanj.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/KoloFrRipanj.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/KoloFrRipanj
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 11
+T:Abraham Brown, JG
+M:6/8
+L:1/8
+Q:100
+S:Bacon (JG)
+A:Bidford
+P:A(AB)4A
+N:
+K:D
+P:A
+A|dcB A2d | g2f e3  | fga A2A | B3 d2 ::!
+P:B
+z|d2f a2f | b2f a2f | d2f a2f | b3 a3 |\
+b2g efg | a2f d2A | def A2A | B3 d2 :||
+S:https://www.folktunefinder.com/tunes/75823
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bidford.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bidford.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bidford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

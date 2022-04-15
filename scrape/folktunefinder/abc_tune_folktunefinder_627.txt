@@ -1,0 +1,34 @@
+X: 169
+T:La primo dis oulivi
+T:r : La Valse brune
+C:Paroles: Charloun Riu. Musique: G. Krier   1909
+O:France
+R:Valse
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-24
+M:3/4
+L:1/4
+Q:1/4=180
+K:Bbmaj
+T:1er COUPLET
+V:1
+Z10 | fff | fff | gg>g | (f2f) | ddd | ddd | ee>e | d3 | ddd | 
+fcd | edc | d2B | ddd | fcd | edc | B3 | ccc | =ecd | =efg | (g2f) | 
+fdf | =ece | dBd | c3 | ccc |=ecd | =efg | (g2f) | fdf | =e2c | f3- | fzz || 
+T:REFRAIN
+V:1
+%%continueall 1
+B3 | {cd}cBc | (d3 | B3) | dcd | ede | (f3 | d2)z | fgf | bde | (c3 | f2)f | ccc | fff | c3- | czz |
+B3 | {cd}cBc | (d3 | B3) | dcd | ede | (f3 | d2)z | fgf | bde | (c3 | f)zz | c2f | c2d | {dc}B3- | Bzz |]
+V:2
+d3 | {ef}ede | (f3 | d3) | fed | cBc | (d3 | B2)z | ded | dBc | A3- | A2A | AAA | _eee | e3- | ezz |
+d3 | {ef}ede | (f3 | d3) | fed | cBc | (d3 | B2)z | ded | dBc | A3- | Azz | e2e | e2f | {fe}d3- | dzz |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/627
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Valse
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

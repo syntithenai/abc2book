@@ -1,0 +1,29 @@
+X:17627
+T:Ton simple plin
+%T:TS2
+G:Kazimodal
+R:Das Plin
+C:Traditionnel
+Q:C2=160
+P:B4
+M:4/4
+S:Diaouled Ar Menez
+K:Dm
+P:B
+\large
+"Dm"DF/2F/2 FA "F"AG "C"EF | "Bb"DF/2F/2 FA "C"AG "Am"E ::\
+"Dm"D>F "Bb"DF "C"ED CD | "Am"EF "Bb"DF "C"E2 "Dm"D2 :|
+\bigskip
+S:https://www.folktunefinder.com/tunes/38998
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Das plin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

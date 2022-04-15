@@ -1,0 +1,26 @@
+X:1
+T:5r. Expectatio justorum laetitia,
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:A phrygian
+T: Superius
+N: Original clef, treble
+%1
+z8 z4 d6 d2 d2 d2 f2 d2 f3 e d c d2 A4 z2 F2 F E F G A B c d
+S:https://www.folktunefinder.com/tunes/53220
+S:http://www.laymusic.org/music/bicinia/expectatio/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

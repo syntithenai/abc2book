@@ -1,0 +1,27 @@
+X:395
+T: IN ALLEN GUTEN STUNDEN
+N: F0714
+O: Europa, Mitteleuropa, Deutschland
+R: Geselligkeits -, Bundes - Lied
+M: 4/4
+L: 1/8
+K: A
+E2 | e3dc2B2 | A3EE2
+A2 | B2A2d2c2 | B4
+e4 | e3dcedB | A3EE2
+A2 | f2e2d2c2 | B4
+B4 | B2B2f3^d | e3BB2
+c2 | F2F2B3A | G4z2
+E2 | d2B2G2E2 | e3dc2
+e2 | A2A2d2BG | A4z2
+S:https://www.folktunefinder.com/tunes/69955
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Geselligkeits -, bundes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

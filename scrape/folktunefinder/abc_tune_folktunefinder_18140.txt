@@ -1,0 +1,27 @@
+X:6
+T:``Soucy'' tune
+R:reel
+C:Isidor Soucy, via Keith Murphy and Becky Tracy
+M:4/4
+K:D
+|: DFAd ~B2 AG | FABc dcd2 | \
+DFAd ~B2 AF | BFAF EGFE | \
+DFAd ~B2 AF | FABc dcde | \
+fdfa gfed  |1 cABc dBAF :|2 cABc d2 fg  \
+:: a2 fd Adfa | g2 ec Acef | \
+gece aece | bgec defg | a2 fd Adfa | g2 ec Acef | \
+gece aece |1 bgec defg :|2 bgec dBAF ||
+S:https://www.folktunefinder.com/tunes/18140
+S:http://trillian.mit.edu/~jc/music/abc/reel/SoucyTune_BB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/webtunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BenBolker/SoucyTune_BB.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

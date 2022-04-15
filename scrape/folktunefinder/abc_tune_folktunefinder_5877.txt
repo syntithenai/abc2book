@@ -1,0 +1,22 @@
+X: 1
+T: Opsa!
+O: Srbija
+R: \vCo\vcek
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: C
+K: Dmix=c
+"A"\
+|:"D"([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [F2D2] [FD][DA,] [FD][GE] \
+|    ([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [FD][F-D-] [F2D2] [F2D2] :|
+S:https://www.folktunefinder.com/tunes/5877
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Opsa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/OpsaSong.abc
+S:http://trillian.mit.edu/~jc/music/abc/song/Opsa_DW.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/Opsa_DW.abc
+% Rhythm C?oc?ek
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,49 @@
+X:0
+T:Margaret-Eric Epithalamium
+G:song
+S:Codex Upsaliensis C233
+S:Proc Soc Antiq Scot LXXIII (1939) plate LXXXV
+N:Composed for the marriage of Princess Margaret
+N:of Scotland and King Eric of Norway, 31/8/1281
+N:Warning!  ABC has a strange concept of 6- and 5-plets; BarFly
+N:implements this in a way that displays them twice as long as
+N:they are meant to be played.  As notated here, playback is
+N:correct and display is wrong.
+N:H means a fermata.  If your ABC implementation doesn't have that
+N:feature just edit the H's out.
+M:C
+L:1/8
+Q:1/4=108
+K:GDor
+GF|  G2      A2    cd  c2|BA G2 A2 B2| A2  G2 (3FGF GF|\
+     G2      A2    cd  c2|BA G2 A2 B2| AG  F2  HG2   :|
+d2|  c2      d2   (cB) A2|G2 A2 c2 A2| B2  G2 (3FGF A2|\
+     c2      d2    c2  B2|A2 F2 GA B2| AG  F2  HG2   :|
+F2|  G2      A2    B2  A2|G2 G2 A2 B2| c2  B2   A2  A2|\
+     c2      d2    cB  A2|G2 F2 GA B2| AG  F2  HG2   :|
+c2|  c2      de    f2  e2|d2 c2 d2 e2|(fe) d2 (3cBA A2|\
+     c2      c2    d2  d2|G2 F2 GA B2| AG  F2  HG2   :|
+g2|  e2      f2   (gf) e2|d2 e2 f2 e2| d2  d2   c2  c2|\
+     d2      e2    f2  e2|d2 e2 c2 d2|(cB) A2  HG2   :|
+c2|  c2      de    f2  ed|c2 e2 f2 d2| e2  dc   d2  c2|\
+     c2      de    f2  ed|c2 e2 f2 d2| e2  dc  Hd2   :|
+c2|  e2    (3def   ed  e2|c2 d2 dc d2| e2  c2   A2  c2|\
+     e2    (3def   ed  e2|c2 d2 c2 d2|(cB) A2  HG2   :|
+d2|(6defedc  c2    c2  cB|AG A2 c2 d2| GF  G2 (3ABA A2|\
+     c2    (5defed c2  cB|AG F2 GA B2| AG  F2  HG2   :|
+d2|  d2    (5defed c2  cB|AG A2 c2 d2| GF  G2 (3ABA A2|\
+     c2    (5defed c2  cB|AG F2 GA B2| AG  F2  HG2   :|
+GF|  G2      A2    cd  c2|BA G2 A2 B2| A2  G2 (3FGF GF|\
+     G2      A2    cd  c2|BA G2 A2 B2| AG  F2  HG2   :|
+S:https://www.folktunefinder.com/tunes/30147
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

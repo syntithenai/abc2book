@@ -1,0 +1,28 @@
+X: 26
+T: Saarijrven Liisa
+C: Toivo Krki/Georg Malmsten
+M: 3/4
+L: 1/8
+K: G
+[|"G"[d2B2] [B4G4] | [d2B2] [B4G4] | [b2d2] [g4B4] | [d6B6] \
+|     [d2B2] [B4G4] | [g2B2] [B4G4] | [d4B4] [_d2_B2] | "D7"[c6A6] |
+| "D7"[c2A2] [A4F4] | [c2A2] [A4F4] | [f2A2] [d4F4] | [c6A6] \
+|     [f4d4] [e2c2] | [d4B4] [e2c2] | "G"[B6-G6-] | [B6G6] |
+| "G"[d2B2] [B4G4] | [d2B2] [B4G4] | [b2d2] [g4B4] | [d6B6] \
+| "C"[e2c2] [g2e2] [a2f2] | [a2f2] [g2e2] [e2c2] | "G"[d6-B6-] | [d4B4] B2 |
+| "A7"A2 ^c2 e2 | [gB][a^c] [f2A2] [e2G] | "D"[a2f2A2] [f2d2] [d2A2] | A4 ^A2 \
+| "G"B2 [g2B2] B2 | "A7"[^c2A2] B2 A2 | "D7"d6- | d2 z2 z2 |]
+|:"G"[dB][dB] [B2G2] [d2B2] | [g4B4] [d2B2] | "D7"[cA]>[dB] [c2A2] [B2G2] | [A3F3] [ge][fd][ec] \
+|     [d4B4] [e2c2] | [c4A3] [d2B2] | "G"[B6-G6-] | [B6G6] |
+"I"\
+| "G"[dB][dB] [B2G2] [d2B2] | [g4B4] [d2B2] | "D7"[cA]>[dB] [c2A2] [B2G2] | [A3F3] [ge][fd][ec] \
+| de fe de | c4 F2 |1 "G"G6- | G2 z4 :|2 "G"G2 z2 "D7"[d2c2F2] | "G"[g2B2G2] z2 z2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/62809
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/waltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:20
+T:Naturam natura docet, debellet ut ignem
+T:Nature teaches nature to overcome the fire
+T:Fuga XX
+Z:Jack Campin <http://www.campin.me.uk/> version 1.3 Jan 2007
+S:Michael Maier, Atalanta Fugiens (1618)
+B:NLS H3.91.708 (Joscelyn Godwin's edition)
+V:1 program 1 74               % Hippomenes
+V:2 program 1 74               % Atalanta
+V:3 program 1 11 transpose -12 % Golden Apple
+M:none
+L:1/4
+Q:1/2=108
+K: G dorian
+[V:1] z4    z2 FG AB c2 cB B2 B2 A4    G2 A2 z4    Bc d2 d2 d2 c2|
+[V:2] z2 DE FG A2 AG G2 G2 F4    E2 F2 z4    GA B2 B2 B2 A2 G4   |
+[V:3] d4    d2 d2 c4    d4    c4    B2 B2 c4    d2 d2 B4    c2 c2|
+%
+[V:1] B4    z2 F2 G2 EE FF GF E4    z2 B2 FG A4    G2 z2 F2  G2  G2  G8|]
+[V:2] z2 D2 E2 C2 D2 ED C4    z2 G2 DE F4    E2 z2 DD EC c2 =B2 =B2 =B8|]
+[V:3] d2 d2 A4    G2 G2 A4    c2 c2 B4    A4    B2 B2 A4     G2  G2  G8|]
+S:https://www.folktunefinder.com/tunes/77558
+S:http://www.campin.me.uk/Music/Atalanta.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

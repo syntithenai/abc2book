@@ -1,0 +1,33 @@
+X: 1
+%% Copyright
+T:26-2
+T:(Confirmation)
+M:4/4
+L:1/8
+C:John Coltrane
+Q:1/4=200
+K:F
+%%text (medium up)
+%%vskip 20
+P:A
+a || "F6"zc' za "Ab7"b_g_eb | "Db6"_af_d2 "E7"^f=dzf | "A6"ed^ce "C7"ddB^G | "F6"A2F_E "F7"z4 |
+"Bb6"d^cdf "Db7"_e_c_A_d | "Gb7"B2zB "A7"A_AG=B | AFED F2DG- | G2z2 z3a ||
+P:A
+"F6"zc' za "Ab7"b_g_eb | "Db6"_af_d2 "E7"^f=dzf | "A6"ed^cd "C7"ddB^G | A2f_e z4 |
+z2df _e_dB_G | F2z_A d^c=B^G | A=B^ce agz2 | acdf z4 ||
+P:B
+z4 dcBG | E2z2 =Bd^ce | AG^FA z=FAd | BFAB z4 |
+zf3-f4 | _efec- cec_A- | A3F Bcz2 | z4 z3A ||
+P:A
+"F6"zc' za "Ab7"b_g_eb | "Db6"_af_d2 "E7"^f=dzf | "A6"ed^cd "C7"ddB^G | A2f_e z4 |
+S:https://www.folktunefinder.com/tunes/18555
+S:http://trillian.mit.edu/~jc/music/abc/song/26-2.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/26-2.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/26-2.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/26-2.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

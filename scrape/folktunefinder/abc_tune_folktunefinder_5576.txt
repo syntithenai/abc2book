@@ -1,0 +1,21 @@
+X: 5
+T: Greensleeves
+Z: John Chambers <jc@trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|: ((3d/e/f/ | "G"g2)B BAG | d2B BAG | g2d dcB | "D7"cBc Ade | "G"g2B BAG | d2B BAG |
+| "C"cBc "G"dcd | "D7"egf "G"g2 :: e | "G7"=fed g2e | =f2f "C"edc | "G"dgd "C"edc | "D7"def "G"g2 :|
+S:https://www.folktunefinder.com/tunes/5576
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Greensleeves.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Greensleeves.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

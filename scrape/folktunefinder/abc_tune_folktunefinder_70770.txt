@@ -1,0 +1,27 @@
+X:025
+%%topmargin 3cm
+T:Biodag air Mac Thomais
+T:Thomas' Son Wears a Dirk
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+e | {/d}cA (c/2d/2e) {/d}c2 Ac | B=GdG TB2 GB | {/d}cA (c/2d/2e) {/d}c2 Ac | dB=GB {cB}A2 A :|
+g | {/g}ae-ec {/g}ae-ef | =g2 dgBg (dg) | ae-ec aeed | {/d}cABG {cB}A2 Ag |
+{/g}ae-ec {/g}aeef | =g2 dgBg dg | {/^g}aebg aefd | {/d}cABG {cB}A2 A |]
+S:https://www.folktunefinder.com/tunes/70770
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Biodag_air_Mac_Thomais.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Thomas_Son_Wears_a_Dirk.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0025.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

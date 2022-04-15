@@ -1,0 +1,31 @@
+X: 1
+T: Mrs. Mary Stoker
+C: Muriel Johnstone
+R: strathspey
+B:
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+Bc \
+| "G"d2 g>d B<G G>B | "Am"c>B AG "C"E2 "D7"D2 \
+| "G"D>E GA B2 Bd | "C"(3efg "G"d>B "Am"A2 "D7"d2 |
+| "G"d2 g>d B<G G>B | "Am"c>B AG "C"E2 EG \
+| "G"D>E GA B2 "C"ge | "D7"dG "G"G2 ||
+G>F \
+| "C"E2 (3EFG "G"D2 D<G | "Am"A>G "D7"AB "G"d3 e \
+| "Bm"d2 BA "Em"G2 GB | "Am"c>B AG "C"E2 "D7"D2 |
+| "G"d2 g>d "G7"B<G G>B | "Am"c>B AG "C"E2 EG \
+| "G"D>E GA B2 "C"ge | "D7"dG "G"G2 |]
+S:https://www.folktunefinder.com/tunes/19590
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsMaryStoker.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Muriel_Johnstone/MrsMaryStoker.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsMaryStoker.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

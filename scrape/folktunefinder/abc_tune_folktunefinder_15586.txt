@@ -1,0 +1,36 @@
+X: 1
+T: Miss Andy Campbell's Scotch Measure
+C: William Marshall
+N: By Wm.Marshall for McGlashan
+B: RSCDS 19-8(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+c \
+| "F"cBAG c3B | A2 c4 fg | a2gf "C7"b3a | g2 G4 c2 |
+| "F"BAGF "Dm"f3d | "G7"gafg "C"fedc | "C7"dcBA BGcB | "F"A2 F4 ||
+|| cd/e/ \
+| "F"fcAc f3c | "Bb"defc "F"BAGF | "Gm"GABc "G7"defg | "C"e2 c4 de |
+| "F"f>gfe dcBA | "Gm"bagf "C7"e2dc | dcBA BGcB | "F"A2 F4 |]
+S:https://www.folktunefinder.com/tunes/15586
+S:http://trillian.mit.edu/~jc/music/abc/march/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/MissAndyCampbellsScotchMeasure_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/MissAndyCampbellsScotchMeasure_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/MissAndyCampbellsScotchMeasure_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissAndyCampbellsScotchMeasure.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MissAndyCampbellsScotchMeasure_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1
+T:Hen's March, The
+L:1/8
+M:2/4
+S:Bruce & Stokoe -- Northumbrian Minstrelsy  (1882)
+Z:AK/Fiddler's Companion
+K:G
+G | \
+c>de>f | g>fe>d | c>d c/d/e | G2G2 | c>de>f | g>fe>f | g>fe>f | g2 g>g | 
+g>fe>g | f>ed>f | e>d c/d/e | G2G2 | c>Bc>d | efgf | edcB | c3 :| 
+|: G | \
+Gccc | cccc | cccc | cceg | Gccc | cccc | cccc | cceg | cceg | cceg | 
+c/d/c/d/ c/d/c/d | c/d/c/d/ eg | c/d/c/d/ c/d/c/d/ c/d/c/d eg | c/d/c/d/ eg c/d/c/d/ eg | 
+g>fe>g | f>ed>f | e>d c/d/e | G2G2 | c>Bcd | efgf | edcB | c3 :|
+S:https://www.folktunefinder.com/tunes/15458
+S:http://trillian.mit.edu/~jc/music/abc/march/HensMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

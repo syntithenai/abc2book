@@ -1,0 +1,27 @@
+X:95
+T:Chester Castle
+B:Aird's Airs and Melodies vol 2
+M:C
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000db.html
+%%ID:000000db
+K:D
+FG|\
+A2AB AFDF| Adcd AFDF| GBGE FAFD| [CE]DEF E2AG|\
+FDFA d2cd| edcB A2c2|
+dfdB c/d/e cA| FdB^G| A2::\
+cd|\
+e2ea ecAc| ea^ga ecAc|
+dfdB cecA| B2B>B B2Bc|\
+dcdB AFDF| GFGA Bcdc| BAGF EBAG | F2D2 D2:|
+S:https://www.folktunefinder.com/tunes/30328
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

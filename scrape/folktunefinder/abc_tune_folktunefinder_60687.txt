@@ -1,0 +1,27 @@
+X:4498
+T:Duchess of Hamilton's Rant,The. JB.54
+M:6/8
+L:1/8
+S:James Biggins MS, Leeds, 1779.
+R:Jig
+O:England
+A:Yorkshire
+N:Key sig "D" in MS.
+Z:vmp.Nick Barber & Chris Partington
+K:D
+"Key"f | ecA def|ecA d2f|ecA ecA|BcB d2f|
+ecA def|! ecA d2f|faf edc|BcB d2:||
+:f | ecA acA|ecA d2f|! ecA acA|BcB d2f|
+ecA acA|ecA d2e|faf edc|BcB d2 :|]
+S:https://www.folktunefinder.com/tunes/60687
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/d.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

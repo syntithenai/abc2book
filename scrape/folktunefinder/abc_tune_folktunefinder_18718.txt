@@ -1,0 +1,24 @@
+X: 1
+T: the Foggy Dew
+R: air
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+EG \
+| "Am"A2 GE A2 GE | "G"D2 E2 G,2 A,B, | "Am"CE DC "G"A,3 G, | "Am"HA,6 :|
+A,B, \
+| "C"C2 E2 G2 FE | "G"D3 D "C"E2 CD | E2 cB "(Em)"AG EG | "Am"A6 "d.C."[|]|]
+S:https://www.folktunefinder.com/tunes/18718
+S:http://trillian.mit.edu/~jc/music/abc/song/FoggyDew_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/FoggyDew_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/song/FoggyDew_Am.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

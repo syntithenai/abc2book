@@ -1,0 +1,81 @@
+X:162
+T:Le plus beau tango du monde
+R:Tango
+C:Paroles: Henri Alibert, Raymond Vincy. 
+C:Musique: Vincent Scotto, Ren Sarvil   1935
+C:  Salabert - 1935
+N:Tango
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-16
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+Q:"Tango" 1/4=60
+L:1/16
+K:F
+z4||z8|z8|z8|z8|z8|z8|z8|z8||
+K:Ab
+c2=Bc AF3|G2G^F G4|B2=AB G=E3|F2FG A4|
+e=d2e c2A2|dd2c B4|cB2A G2A2|F4c2f2||
+K:F
+e8-|e2ed edec|d2 c6-|c4A2d2|c8-|c2G^F GGAB|
+c8-|c2 z2c2f2|e8-|e2ed edec|d2 c6-|
+c4A2d2|c8-|c2G^F GGBA|F8-|F2F2 B2c2|
+d2cB dc2B|d4e2d2|c2BA cB2A|c4A2B2|
+A2GF AG2F|A2 z2G2F2|G8|z4c2f2|e8-|e2ed edec|
+d2 c6-|c4A2d2|c8-|c2G^F GGBA|F8-|F2 z2z2|| z2|]
+W:
+W:Prs de la grve, souvenez-vous
+W:Des voix de rve chantaient pour nous
+W:Minute brve du cher pass
+W:Pas encor' effac
+W:Le plus beau
+W:De tous les tangos du monde
+W:C'est celui
+W:Que j'ai dans dans vos bras
+W:J'ai connu
+W:D'autres tangos  la ronde
+W:Mais mon cur
+W:N'oubliera pas celui-l
+W:Son souvenir me poursuit jour et nuit
+W:Et partout je ne pense qu' lui
+W:Car il m'a fait connatre l'amour
+W:Pour toujours.
+W:Le plus beau
+W:De tous les tangos du monde
+W:C'est celui
+W:Que j'ai dans dans vos bras
+W:
+W:Il est si tendre que nos deux corps
+W:Rien qu' l'entendre, tremblent encor'
+W:Et sans attendre, pour nous griser
+W:Venez....venez danser
+W:Le plus beau
+W:De tous les tangos du monde
+W:C'est celui
+W:Que j'ai dans dans vos bras
+W:J'ai connu
+W:D'autres tangos  la ronde
+W:Mais mon coeur
+W:N'oubliera pas celui-l
+W:Son souvenir me poursuit jour et nuit
+W:Et partout je ne pense qu' lui
+W:Car il m'a fait connatre l'amour
+W:Pour toujours.
+W:Le plus beau
+W:De tous les tangos du monde
+W:C'est celui
+W:Que j'ai dans dans vos bras
+%%footer $D   Galouvielle-MBe 2008 \nTango (France)
+S:https://www.folktunefinder.com/tunes/620
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key G-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

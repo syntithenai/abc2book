@@ -1,0 +1,35 @@
+X:43
+T:Majsko Oro
+S:Hamish Small 
+R:Horo
+P:ABBABBCCDD
+O:Macedonia
+N:11  7
+M:18/16
+L:1/16
+K:Bb
+P:A
+de f2 f2e d4 def fe d2|\
+de f2 f2e d4 e2d d4||
+P:B
+Bc dc d2c B4 e2e d2d2|\
+Bc dc d2c B4 c2B B2B2||
+P:C
+f2e2 d2c cdc2 B2B Bc d2|\
+f2e2 d2c cdc2 B2B BB B2||
+P:D
+d2e2 d2c cdc2 B2B Bc d2|\
+d2e2 d2c cdc2 B2B BB B2||
+S:https://www.folktunefinder.com/tunes/40552
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Exotic.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Exotic.abc
+% Rhythm Horo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 18/16
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

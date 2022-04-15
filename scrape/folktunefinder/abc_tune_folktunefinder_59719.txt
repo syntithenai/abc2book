@@ -1,0 +1,43 @@
+X:832
+T:Xiraldilla (CT 254) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Estanislao Lana Lana, de veintin aos, de Somiedu.
+A:Asturies
+G:Arrg.
+O:Somiedu
+Z:Cancioneru de Torner 254
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+G2
+|"G"B2 G2|"G"B2 AG|"D"A2 F2-|"D"F2 A2|
+"G"d2 B2|"G"d2 dc|"D"A2 "G"G2-|"G"G z G2|
+"G"B2 G2|"G"B2 AG|"D"A2 F2-|"D"F2 A2|
+"G"d2 B2|"G"d2 dc|"D"A2 "G"G2|
+"Am"c2 cA|"G"B2 G2|"D"A2 AF|"G"G4|
+"Am"c2 cA|"G"B2 G2|"Am"A2 "D"AF|"G"G4-|G z3||
+W:Ai! eres como la nieve,
+W:salada, que cai a copos,
+W:por eso te quieren, nia
+W:morena, tanto mis ojos.
+W:Yo no lo veo
+W:ms al mi amor;
+W:ya no lo veo.
+W:Ai! qu dolor.
+W:
+S:https://www.folktunefinder.com/tunes/59719
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

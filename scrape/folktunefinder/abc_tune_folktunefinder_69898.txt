@@ -1,0 +1,32 @@
+X:338
+T: ICH HATT EINEN KAMERADEN
+N: F0581
+O: Europa, Mitteleuropa, Deutschland
+R: Soldaten - Lied, Tod
+M: 4/4
+L: 1/16
+K: C
+G,4 | C4E2E2E4D4 | C8G,4
+C2D2 | E4G4G4F4 | E8z4
+G,4 | C4E2E2E4D4 | C8G,4
+C2D2 | E4G4G4F4 | E8z4
+C2D2 | E4E4E4D4 | E3DE3FG4
+F2E2 | D4D4D4C4 | D3CD3EF4
+G4 | E4E4D2C2D2E2 | C8
+A8 | A4G4D2C2D2E2 | C8z4
+C2D2 | E4E4E4D4 | E3DE3FG4
+F2E2 | D4D4D4C4 | D3CD3EF4
+G4 | E4E4D2C2D2E2 | C8
+A8 | A4G4D2C2D2E2 | C8z4
+S:https://www.folktunefinder.com/tunes/69898
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Soldaten - lied, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:95
+T:King of the Fairies
+R:set dance
+R:hornpipe
+O:Ireland
+M:4/4
+K:Em
+B,D|:EDEF GFGA|BcBA GFGA|B2E2 EFGE|FGFE D2B,D|
+EDEF GFGA|BAGB dedc|B2E2 GF-FE/D/|1 E6 B,D:|2 E6 Bd|
+e2e2 Bdef|gagf efed|e2B2 BABc|dedc Bc (3dcB|
+e2B2 Bdef|gagf efed|Bd (3efg fe (3def|e6 ef|
+g3e f3d|edB^c d3e|dBAF GAB^c|dBAF (3GFE (3FED|
+B,2E2 EFGA|B2e2 e3f|e2B2 BAGF|1 E6 d2:|2 E6||
+S:https://www.folktunefinder.com/tunes/63642
+S:http://www.ellwood.org/slow/mas.abc
+% Rhythm Set dance
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 181
+T: Kevi Csardas
+O: Hungary
+M: 2/4
+L: 1/8
+K: Am
+%%MIDI gchord ff
+%%MIDI program 40
+%%MIDI bassprog 45
+"Am"A,2 B,2|C2 D2|EA3|E4|
+|:"Am"ABcc|B2A2|E2DF-|F2E2|
+  ABcc|B2A2|E2DF-|F2E2|
+  EF^GA|BcB^G|A2B^G|A4:|
+S:https://www.folktunefinder.com/tunes/68067
+S:http://ifdo.ca/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

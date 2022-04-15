@@ -1,0 +1,27 @@
+X: 3
+P: Hora Or [Em]
+O: Israel
+M: 4/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: Em
+%%indent 300
+"Intro"[|]y2\
+|"D"d2A d2c B2 | "B7"B>B =c^d "Em"e2e2 ||
+[| "Em"gg eB2 g (3gfe | "Am"c (3cBA c2 c "B"^d2 | "Em"e2 B e2 d (3dcB | "D"d (3cBA d2 c "B"B2 |
+|  "Em"gg eB2 g (3gfe | "Am"c (3cBA c2 c "B"^d2 | "Em"e (3edB B2 d (3dcB | "B7"B>B =c^d "Em"e2e2 ||
+|| "D"f2 a f2 a "C"(3gfe | "D"f2 a f2 a "Am"(3agf | "D"f2 a f2 a "C"(3gfe | "D"f>e de fA f2 |
+|  "D"f2 a f2 a "C"(3gfe | "D"f2 a f2 a "Am"(3agf | "D"f2 a f2 a "C"(3gfe | "F#"f>e ^d=c "B"B2 B2 ||
+|| "Em"e2 B e2 d (3dcB | "D"d (3dcA d2 c B2 | "C"c2 G c2 B (3BAG | "B"B2 cB cB B/c/^d/e/ |
+|  "Em"e2 B e2 d (3dcB | "D"d (3dcA d2 c B2 | "C"c2 G c2 B (3BAG | "B"B>B =c^d "Em"e2e2 |]
+%%sep 1 1 500
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6478
+S:http://trillian.mit.edu/~jc/music/abc/Israel/HoraOr.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

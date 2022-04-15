@@ -1,0 +1,28 @@
+X:476
+T: "Stolz gen Stolz"
+N: Z1156
+O: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/4
+K: G
+D | GBd | edc | d3 | Bz
+d | dcc | d2d | B2
+D | GBd | edc | d3 | Bz
+d | dcc | d2d | B2
+B | A2A | d2c | B2B | BA
+G | A2A | d2c | B2e | d2
+D | GBd | edc | d3 | Bz
+d | dcc | d2d | B2
+S:https://www.folktunefinder.com/tunes/69335
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

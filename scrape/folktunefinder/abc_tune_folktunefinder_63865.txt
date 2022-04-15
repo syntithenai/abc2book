@@ -1,0 +1,37 @@
+X: 1
+T: Rachenica for Three
+T: ABABCDECDECFGCFGCDEC
+O: Bulgaria
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: F
+P: A
+[| "F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] \
+|  "F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] |]
+P: B
+|: "F" [c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[c7A] \
+|  "F" [c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[A7F] :|
+P: C
+|: "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] | "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] \
+|  "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][dB] [e2c][dB] | "C7"[cA][dB] [dB][cA] [cA][BG][BG] | "F"[A7F] :|
+P: D
+[| "F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] \
+|  "F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] |]
+P: E
+|: "Bb"[d2B] [d2B] [d2B][dB] | [d2B] [d2B] [d2B][cA] | "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] \
+|  "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] | [A2F] [B2G][c2A][cA] | "C7"[cA][BG] [BG][AF] "F"[A3F] :|
+P: F
+[| "F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | [cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] \
+| "F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | [cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] |]
+P: G
+[| "F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] \
+| "F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] |]
+S:https://www.folktunefinder.com/tunes/63865
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ra/Rachenica_for_Three_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ra/Rachenica_for_Three_3.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,52 @@
+X: 2275
+T:Altrincham Round
+M:9/4
+L:1/8
+K:F
+P:1
+G4 f2 ef g2 e2 f6 | AB c2 A2 F4 B2 AB c2 A2 |\
+G4 f2 e3 d c2 d6 | D3 E  F2 G4 B2 AB c2 A2 ||
+P:2
+d2 c2 B2 AB c2 A2 G3 c  B2 | A2 F2 F2 F4    B2 AB c2 A2 |\
+d3 c  B2 AB c2 A2 G2 A2 B2 | D2 E2 F2 G2 A2 B2 AB c2 A2 ||
+P:3
+f2 d2 f2 e2 cd e2 f6       | c2 ABcA  F4    B2 AB c2 A2 |\
+f2 de f2 e2 cd e2 d2 e2 f2 | e2 f2 g2 g2 d2 f2 ef g2 e2 ||
+P:4
+f2 de f2 e2 cd e2 f2 d2 B2 | c2 ABcA F4 B2 AB c2 A2 |\
+B2 f2 B2 AB c2 A2 GA B2 G2 | D3 E F2 G4 B2 AB c2 A2 ||
+P:5
+d4 c2 B4 A2 G3 c B2 | A2 F2 F2 F4 B2 AB c2 A2 |\
+d4 c2 B4 A2 G4   B2 | D4    G2 G4 B2 AB c2 A2 ||
+P:6
+c2 G2 B2 A2 F2 A2 G4 cB | A2 F2 F2 F4 B2 AB c2 A2 |\
+c2 G2 B2 A3 G  F2 G4 B2 | D4 G2 G4    B2 AB c2 A2 ||
+P:7
+g2 de f2 e2 cd e2 f6 | c2 ABcA F4 B2 AB c2 A2 |\
+g2 de f2 e2 cd e2 d6 | D3 E F2 G4 B2 AB c2 A2 ||
+P:8
+a2 g2 f2 g2 f2 e2 f2 d2 B2 | AB c2 A2 F4    B2 AB c2 A2 |\
+a2 g2 f2 g2 f2 e2 d2 e2 f2 | e2 f2 g2 f2 d2 f2 ef g2 e2 ||
+P:9
+f3 a  f2 ef g2 e2 de f2 d2 | AB c2 A2 FG A2 F2 AB c2 A2 |\
+Bc d2 G2 AB c2 A2 GA B2 G2 | D3 E  F2 G4    B2 AB c2 A2 ||
+P:10
+d2 _edcB c2 dcBA G4 cB | A2 F2 F2 F4 B2 AB c2 A2 |\
+d2 _edcB c2 dcBA G4 B2 | D4    G2 G4 B2 AB c2 A2 ||
+P:11
+a3 g f2 =ef g2 e2 f3 d  B2 | c2 ABcA F4 B2 AB c2 A2 |\
+f3 a f2 ef  g2 e2 de f2 d2 | D3 E F2 G4 B2 AB c2 A2 ||
+P:12
+a2 bagf g2 agfe f6 | c2 ABcA F4 B2 AB c2 A2 |\
+a2 bagf g2 agfe d6 | D4 G2   G4 B2 AB c2 A2 |]
+S:https://www.folktunefinder.com/tunes/32671
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/4
+% Has_accompaniment_chords No chords

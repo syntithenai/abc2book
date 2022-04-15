@@ -1,0 +1,37 @@
+X:2924
+T: Cherkessiya
+O: Ukraine
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: The chords in parens may be played during the repeats.
+N: Use the G/C lines for C instruments, the A/D for Bb instruments.
+M: 4/4
+L: 1/8
+K: G
+P: G
+|: "G"[B2G][B2G] "C"[c2G]"G(Em)"[B2G] | "D(Am)"[AF][A2F][GD] "D"[AF][BG]"G"[G2D] :|\
+|: "G"[BG][cA][d2B] "D"[AF][A2F][GD] | "D"[AF][BG][c2A] "G"[BG][AF][G2D] :| \
+P: C
+K: C
+|: "C"[e2c][e2c] "F"[f2c]"C(Am)"[e2c] | "G(Dm)"[dB][d2B][cG] "G"[dB][ec]"C"[c2G] :|\
+|: "C"[ec][fd][g2e] "G"[dB][d2B][cG] | "G"[dB][ec][f2d] "C"[ec][dB][c2G] :| \
+P: A
+K: A
+|: "A"[c2A][c2A] "D"[d2A]"A(F#m)"[c2A] | "E(Bm)"[BG][B2G][AE] "E"[BG][cA]"A"[A2E] :|\
+|: "A"[cA][dB][e2c] "E"[BG][B2G][AE] | "E"[BG][cA][d2B] "A"[cA][BG][A2E] :| \
+P: D
+K: D
+|: "D"[f2d][f2d] "G"[g2d]"D(Bm)"[f2d] | "A(Em)"[ec][e2c][dA] "A"[ec][fd]"D"[d2A] :|\
+|: "D"[fd][ge][a2f] "A"[ec][e2c][dA] | "A"[ec][fd][g2e] "D"[fd][ec][d2A] :| \
+S:https://www.folktunefinder.com/tunes/29204
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

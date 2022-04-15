@@ -1,0 +1,25 @@
+X:245
+%%topmargin 3cm
+T:Miss Jane Fraser
+C:Robt. Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G
+B | d3 g (BG)dB | (Aa)ag (fd)ef | {/a}(gf)gd (Bc)dB | cAdc BGG :|
+c | BGDG EGDG | ABcB cedc | BGDG EGce | dBcA BGGc |
+BGDG EGDG | (AB)cB (ce)dc | BdgB ceag | fdef gGG |]
+S:https://www.folktunefinder.com/tunes/71274
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Miss_Jane_Fraser.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0245.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

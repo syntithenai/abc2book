@@ -1,0 +1,33 @@
+X: 1
+T: Dess Station
+C: Les Wheeler
+R: strathspey
+B: the Bon Accord Collection
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+e2 \
+| "A"c3B A3B c3A E3A | "A"c3A ce3 a4 g3f \
+| "A"e3a e3c A3c e3c | "D"d2ed "A"c2dc "E7"B4 e3d |
+y2 \
+| "A"c3B A3B c3A E3A | "A"c3e a2aa a4 "E7"e2fg \
+| "D"a3f "E"g3e "Bm"f3d "E7"e3d | "A"c2BA "E7"BAG "A"A6 |]
+A2 \
+| "E7"G3A  B2A G3E G3B | "A"A2AA c3e a4 "E7"e2fg \
+| "A"a3e c3e "D"fa3 "A"e3c | "Bm"d2ed "A"c2dc "E7"B4 e3d |
+y2 \
+| "A"c3d c3B BA3 A3B | "A"c3e a2aa a4 "E7"e2fg \
+| "A"a3e c3e "D"f3a "A"e3d | "Bm"c2BA "E7"B2AG "A"A6 |]
+S:https://www.folktunefinder.com/tunes/19298
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/DessStation_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/DessStation_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/strathspey/DessStation_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

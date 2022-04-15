@@ -1,0 +1,26 @@
+X:143
+T: Nun laube, Lindlein, laube
+N: A0175
+O: Europa, Mitteleuropa, Deutschland
+N: In Trillers Singbuch 1555 zu einem geistlichen Text.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/2
+K: G
+c2GA | cBA2 | G2z
+d | edcB | A2G2
+zA_BA | G_BG2 | =F2z
+A | cAGA | G4
+S:https://www.folktunefinder.com/tunes/68689
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

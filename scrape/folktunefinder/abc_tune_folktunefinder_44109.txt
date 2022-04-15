@@ -1,0 +1,24 @@
+X:110
+T:Ian James Wilson
+% Nottingham Music Database
+S:Chris Dewhurst (1985), via PR
+M:4/4
+L:1/4
+K:G
+D|"G"G/2F/2G/2A/2 Bd|"C"cE "Am"A3/2G/2|"D"FA Dc|\
+"G"B/2A/2G/2B/2 "D"A/2D/2E/2F/2|
+"G"G/2F/2G/2A/2 Bd|"C"cE "Am"A3/2G/2|"D"F/2G/2A/2B/2 cF|"G"G2 G::
+B|"C"c/2B/2c/2d/2 ec|"G"Bd G3/2B/2|"D"Ac F3/2A/2|"G"G/2A/2B/2c/2 d/2B/2A/2G/2|
+"C"c/2B/2c/2d/2 ec|"G"Bd D3/2G/2|"D"F/2G/2A/2B/2 cF|"G"G2 G:|
+S:https://www.folktunefinder.com/tunes/44109
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsH-L.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsH-L.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

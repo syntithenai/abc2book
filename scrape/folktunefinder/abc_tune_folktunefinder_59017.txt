@@ -1,0 +1,40 @@
+X:130
+T:Cantar d'Arrieros (CT 477)
+R:Arrieros
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Uviu.
+N:La cantan generalmente los arrieros.
+A:Asturies
+O:Uviu
+Z:Cancioneru de Torner 477
+M:3/4
+L:1/8
+Q:1/4=84
+K:C
+|: c2 Bc _ed|c2 cc Bc|(d3/2(3B/4c/4B/4) G4-|G2 zd ef|
+g2 g2-(g3/2(3f/4g/4f/4)|e6-|e2 zd ef|
+g2 g2-(g3/2(3f/4g/4f/4)|e2-ec fe|(d3/2e/8d/8c/8B/8 c)c-c2-|c2 z4 :||
+W:Caminito del Puerto ya no va naide,
+W:ya no va naide, s,
+W:ya no va naide, no,
+W:ya no va naide,
+W:si no polvo y arena que lleva el aire,
+W:que lleva el aire, s,
+W:que lleva el aire, no,
+W:que lleva el aire.
+W:
+S:https://www.folktunefinder.com/tunes/59017
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Arrieros
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

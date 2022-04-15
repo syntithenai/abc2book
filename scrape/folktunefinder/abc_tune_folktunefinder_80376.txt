@@ -1,0 +1,48 @@
+X:3337
+T:Ach Gott und Herr
+T:BWV 255
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0255/bwv0255-pno2.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:4/4
+L:1/4
+Q:1/4=96
+K:C
+V:1
+c|BA GG|AB Hcd|cB AB/c/|A2 HGc|
+V:2
+G|G^F DE/D/|CD HEG-|G/^F/G ^FG-|G^F HDG|
+V:3
+E|D>C B,C/_B,/|A,/G,/F, HG,B,|CD DD|ED/C/ HB,C|
+V:4
+C,|G,D, G,,C,|F,/E,/D, HC,G,,|A,,B,,/C,/ D,G,|C,D, HG,,E,|
+%
+V:1
+Bc dd|ed/c/ HdG|AB c/d/e/f/|d2 Hc2|]
+V:2
+FG GG|GF HGG|DD C>A G>F HE2|]
+V:3
+DE B,B,|CC HB,C|CB, E/F/G/C/|CB, HG,2|]
+V:4
+D,C, G,G,|C/B,/A, HG,E,|^F,^G, A,=G,/=F,/ G,G,, HC,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/80376
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0255/bwv0255-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0255/bwv0255-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0255/bwv0255-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

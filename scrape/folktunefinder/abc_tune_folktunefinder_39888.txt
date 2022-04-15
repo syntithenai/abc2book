@@ -1,0 +1,31 @@
+X:1
+T:Air de rigodons du Gapenais
+R:Rigodon
+O:France
+A:Hautes Alpes
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/2=110
+%%MIDI program 110 %fiddle 
+K:G
+|: gf ge d2 Bc | dc BA B2 G2 | gf ge d2 Bc | dc BA G4 :| 
+|: AG AB c2 Bc | dc BA B2 G2 | AG AB c2 Bc | dc BA G4 :|
+K:Eb
+K:Cm %=Eb for some problematic parsers
+|: dg gf g2 df ed cd e2 c2 | dg gf g2 df ed ed c4 :|
+|: B2 cd e2 dc BB cd e>e dc | B2 cd e2 dc B2 cd e4 :|
+S:https://www.folktunefinder.com/tunes/39888
+S:http://anamnese.online.fr/abc/gallia.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D-sharp
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

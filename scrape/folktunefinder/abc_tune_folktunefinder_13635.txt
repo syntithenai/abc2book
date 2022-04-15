@@ -1,0 +1,31 @@
+X: 1
+T: Montgomerie's Hornpipe
+R: hornpipe
+B: Kerr
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C|
+L: 1/8
+K: D
+AF \
+| "D"D2D2 DEFD | "A7"A2A2 ABcA | "D"d2df "Em"edcB | "E7"A^GAB "A7"A=GFE |
+| "D"D2D2 DEFD | "A7"A2A2 ABcA | "G"BdcB "A7"AGFE | "D"D2d2 d2 :|
+|: de \
+| "D"fefg "F#"fedc | "Bm"dcde dcBA | "G"Bcdc "/F#"B2ef | "Em"gafg "A7"e2de |
+| "D"fefg "F#"fedc | "Bm"dcde dcBA | "G"Bcde "A7"fgef | "D"d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/13635
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/MontgomeriesHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/MontgomeriesHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MontgomeriesHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/MontgomeriesHornpipe_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MontgomeriesHornpipe_D.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

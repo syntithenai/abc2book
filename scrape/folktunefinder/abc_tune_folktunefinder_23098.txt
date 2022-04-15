@@ -1,0 +1,27 @@
+X:2647
+T:Hornpipe,A. JMT007
+O:england
+M:4/4
+L:1/8
+S:John Moore,Tyneside,1841.(04a)
+R:Hornpipe
+A:Northumbria
+H:1841
+K:D
+A2 | d2 df (gf)ed | e2 ef (dc)BA | B2 Bc (dc)dB | (Ad)gf f2 e2 | d2 df (
+gf)ed | g2gf (ga)ba | (gf)ed Adce | d2d2d2 :|
+|: de | (fd)dd (Ad)dd | (fd)dd (Ad)dd | (fd)AF (DFA)d | (fd)gf f2e2 | (
+A
+d)FA (AG)FG | (FA)df (ga)ba | (gf)ed (Ad)ce | d2d2d2 :|
+S:https://www.folktunefinder.com/tunes/23098
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

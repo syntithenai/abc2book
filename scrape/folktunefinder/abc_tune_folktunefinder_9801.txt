@@ -1,0 +1,23 @@
+X: 2
+P: Westering Home
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+FE \
+| "G"D>ED | DB,D | GGA | "G7"B3 | "C"c>BA | "G"BAG | "Am"EE>D | "D7"D3 |
+| "G"D>ED | DB,D | GGA | B3 | "(C)"d>BG | "D7"B2A | "C"G3- | "G"G3 ||
+|| "G"d>BG | "Em"GAB | "Am"A>BA | "D7"D3 | "G"DGG | "Em"GAB | "Am"c>Bc | "D7"A3 |
+|  "G"d>BG | "Em"GAB | "Am"A>BA | "D7"D2c | "G"BBG | "D7"B2A | "C"G3- | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/9801
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AGW08.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090112/AGW08.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

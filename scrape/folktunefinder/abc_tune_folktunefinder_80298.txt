@@ -1,0 +1,29 @@
+X:239
+T: Taeublein - Weise
+N: A0597
+O: Europa, Mitteleuropa, Deutschland
+N: Beutner 1602 No. 14.
+R: Romanze, Ballade, Lied , religioeses Lied
+M: 4/2
+L: 1/4
+K: C
+C2 | C2D2C2B,2 | A,4G,2
+G,2 | C4D2F2 | E4z2
+C2 | E2E2F2F2 | G4E2
+G2 | F2E2D2D2 | C4z2
+E2 | F4E4 | D4C4 | A,2C2A,2G,2 | F,4z2
+F,2 | C2D2E2G2 | F4E2
+D2 | C2A,2B,2C2 | DEF2E2D2
+CCA,2B,2C2 | C6
+S:https://www.folktunefinder.com/tunes/80298
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied , religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

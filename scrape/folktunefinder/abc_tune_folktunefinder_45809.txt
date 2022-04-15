@@ -1,0 +1,29 @@
+X:16
+%S7055475
+T:Achttoer
+T:3X[intro ABC]intro
+M:3/4
+L:1/8
+C:
+K:G
+P:I
+gf|"C"e4ed|"C"c4cB|"D" A2 d2 F2|"G"G4D2||
+P:A
+"G" G2 GA Bc|d2 B2 g2|"D"d3 c BA|"G" B2G2D2|
+"G" G2 GA Bc|"G" d2B2g2|"D" d3 c BA|1 "G" G4 D2 :|2 "G" G6||
+P:B
+K:D     % transposed from E
+|: "D" A2 AB A2| f2 fg f2|"A" e2 eg fe|
+"D" e2 dc d2| A2 AB A2| f2 fg f2| "A" e2 eg fe|
+|1 "A" ed d2 A2 :|2 "A" ee d2 =c2|| [P:C][K:G]|:"G" B3 c B2 |"D" A3 B A2|
+"G" G2 GA "C"Bc |"G" d2B2gf| "C" e4 ed|"Am" c4 cB|"D" A2d2F2|1 "G" G6:|2 "G" G4z2||
+S:https://www.folktunefinder.com/tunes/45809
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/dutch_folksongs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/dutch_folksongs.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

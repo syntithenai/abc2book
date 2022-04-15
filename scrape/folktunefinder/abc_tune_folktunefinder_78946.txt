@@ -1,0 +1,26 @@
+X:505
+T: ACH SUESSER SCHATZ AUF DIESER ERD
+N: E0475
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+ | G2G2G2 | E3FG2 | A3GF2 | E6
+F3GA2 | G4F2 | E3DE2 | D6
+G2G2G2 | E3FG2 | A3GF2 | E6
+F3GA2 | G4F2 | E3DE2 | D6
+B2B2B2 | G3AB2 | A4G2 | F6
+d3cB2 | A4G2 | F3GA2 | G6
+S:https://www.folktunefinder.com/tunes/78946
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

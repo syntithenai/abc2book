@@ -1,0 +1,32 @@
+X:23
+T:Star Quake
+C:
+N:
+Z:anamnese@laposte.net
+M:12/8
+L:1/8
+Q:1/4=145
+K:C
+V:1
+%%MIDI program 81
+%%MIDI transpose -12
+P:Title
+ecAe2cA2 fdAf2dA2 dBGd2BG2 ecGe2cG2
+ecAe2cA2 fdAf2dA2 dBGd2BG2 c4
+P:Flight computer report
+%-1/2 step  
+A2eAde2 A2de2g2 A2eAde2 A2ed2c2 
+A2eAde2 A2de2g2 A2eAde2 d2c2A3 
+P:Core of Heroes
+Q:1/4=170
+A2 eAdAcA2 eAdAcG2 dGcGB G2 dGcGB 
+A2 e2d2cA2 e2d2cG2 d2c2B G2 d2c2B A2
+S:https://www.folktunefinder.com/tunes/45857
+S:http://anamnese.online.fr/abc/tr_ericf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

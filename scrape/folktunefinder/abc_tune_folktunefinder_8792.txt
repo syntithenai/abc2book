@@ -1,0 +1,19 @@
+X: 1
+T: Juletr\aet med sin pynt [C]
+O: Danmark
+M: C
+L: 1/4
+K: C
+[| G G F E | D E C z | A, B, C  G, | D  G, E z |
+|  E F E D | C E D z | G  A G ^F  | E ^F  G z |
+|  c c A c | G F E z | A  G F  E  | D  E  C z |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/8792
+S:http://trillian.mit.edu/~jc/music/abc/Scand/JuletraetMedSinPynt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

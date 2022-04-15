@@ -1,0 +1,26 @@
+X: 1
+T: Jeg er s\aa glad hver julekveld [G]
+O: Norway
+M: 6/8
+L: 1/8
+K: G
+"D7"D \
+| "G"[G2D2][GD] [BG]>[AF][GD] \
+| "D7"[F2D2][GD] [A2D2]D \
+| "D7"[A2D2][BD] [cE]>B[AF] \
+| "G"[B3-G3-] [BG]z ||
+"D7"D \
+| "G"[G2D2][GD] "G7"[BG]>[AF][GD] \
+| "C"[F2D2][EC] "Am"[c2E2][AE] \
+| "G"[G2D2][GD] "D7"[FD]>E[FC] \
+| "G"[G3-B,3-] [GB,]z |]
+S:https://www.folktunefinder.com/tunes/20394
+S:http://trillian.mit.edu/~jc/music/abc/xmas/JegErSaaGladHverJulekveld_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Norway/xmas/JegErSaaGladHverJulekveld_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/JegErSaaGladHverJulekveld_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Sasha
+O: Russia
+B: "Ska' Vi Danse", Claus J\orgensen (Edition Wilhelm Hansen, Copenhagen)
+M: 2/4
+L: 1/8
+K: Dm
+"A"| "Dm"AA z2 | AA z2 | "A7"A2 A2 | A2 z2 \
+"B"|: "Dm"AA AF | AA AF | "A7"EE A>G | "Dm"FD D2 :|
+S:https://www.folktunefinder.com/tunes/5999
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Sasha.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Sasha.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Sasha.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20080203/Sasha.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Sasha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

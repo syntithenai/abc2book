@@ -1,0 +1,37 @@
+X:3441
+T:Cornwall's Sett. CJF.079
+T:Miss Ellison's. CJF.079
+M:6/8
+L:1/8
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Title line is "From Miss Ellison's, Cornwall's Sett." The note marked
+N:with an asterisk is A2 in MS. On the stave at the end of the tune is
+N:"C
+N:J Fox 1829". Asecond tune appears on this page, with no further title.
+N:See cornwall's Sett. CJF.080 - PJH.
+Z:P J Headford 2000
+K:G
+(G/A/)|B3-BAG|g3-gdB|Aed cBA|(^A3B) GA|!\
+B3-BAG|g3-gdB|(Ae)d {d}cBA|G2BG2h||!(F/G/)|
+A3-A dc|B3-B ef|gfa ge^c|(ed)d d (FG)|!A3-"*"A\
+d^c|B3-B ef|agf ed^c|dgf ed=c"$"||!B|e2Bg2e|
+b3-bag|ac'b agf|gfge2B|!e2Bg2e|\
+b3-b ag|ac'b agf|e2g edc||
+S:https://www.folktunefinder.com/tunes/29721
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/c.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/c.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

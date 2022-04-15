@@ -1,0 +1,22 @@
+X:3
+T:Edinburgh Rock, The
+T:Edinburgh Rock
+R:reel
+M:4/4
+L:1/8
+Q:1/4=206
+K:Emaj
+|: "F#m"AF F2 "F#m"EFBF | "F#m"AF F2 "A"cecB | "F#m"AF F2 "F#m"EFAF | "B"cB B2 "F#m"BAAF|
+"F#m"AF F2 "F#m"EFBF | "F#m"AF F2 "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ceae "F#m"f3 e:|
+|: "F#m"affe "F#m"cBAF | "F#m"ef f2 "F#m"afbf | "F#m"affe "F#m"cBAF | "F#m"EF F2 "F#m"AFce|
+"F#m"affe "A"cecB | "F#m"AFAB "F#m"cBAB | "A"ce e2 "F#m"cBAB | "A"ceae "F#m"f3 e :|
+S:https://www.folktunefinder.com/tunes/40424
+S:http://www.slainte.ch/abc/myreels.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

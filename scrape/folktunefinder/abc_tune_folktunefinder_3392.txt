@@ -1,0 +1,22 @@
+X: 3
+P: Pete's March
+C: Bob McQuillan
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+A,B, \
+| "D"D2  D>F | ED D>E | FA Ad | BA3 | f>e df | "G"e>d Bd | "D"A>B AF | "A7"FE A,B, |
+| "D"D2  D>F | ED D>E | FA Ad | BA3 | f>e df | "G"e>d Bd | "A7"AF EF/E/ | "D"D2 de ||
+|| "D"f2 f>g | "D7"fe d>f | "G"ed Bd | "D"BA FE | DF Ad | "Bm"fa gf | "Em"ed fd | "A7"f2 e2 |
+| "D"f2 f>g | "D7"fe dd | "G"ed Bd | "D"BA FE | DF Ad | "G"dB A>g | "A7"fe dc | "D"d2 |]
+S:https://www.folktunefinder.com/tunes/3392
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CR33.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

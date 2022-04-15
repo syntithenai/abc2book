@@ -1,0 +1,27 @@
+X: 1
+T: Bangor Regatta
+R: jig
+B: Kerr's Violin III
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+A \
+| "A"EAc e2f | "A"ecA "(D)"a2f | "A"ecA "F#m"EAc | "Bm"dBB "E7"B2A \
+| "A"EAc e2f | "A"ecA "(D)"a2f | "A"ecA EAc | "E7"BAA "A"A2 :|
+e \
+| "A"efe a2g | "D"bag "E7"fga | "A"ecA "F#m"EAc | "Bm"dBB "E7"B2e \
+| "A"efe a2g | "D"bag "E7"fga | "A"ecA EAc | "E7"BAA "A"A2 ||
+e \
+| "A"efe a2g | "D"bag "E7"fga | "A"ecA "F#m"EAc | "Bm"dBB "E7"B2c \
+| "A"EAc e2f | "A"ecA "(D)"a2f | "A"ecA EAc | "E7"BAA "A"A2 |]
+S:https://www.folktunefinder.com/tunes/13825
+S:http://trillian.mit.edu/~jc/music/abc/jig/BangorRegatta_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BangorRegatta_A.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

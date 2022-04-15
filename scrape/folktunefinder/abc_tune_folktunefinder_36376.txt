@@ -1,0 +1,23 @@
+X:1485
+T:the Drummers
+M:4/4
+O:Scotland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009c2.html
+%%ID:000009c2
+K:A dorian
+E|\
+ABcA E2EF|GABc dBGB|ABcA E2Ef|edcB A2A::B|\
+c2ce d2de|c2ce dBGB|
+c2ce d2df|edcB A2AB|\
+ccce ddde|ccce dBGB|ccce dddf|edcB A2A:|
+S:https://www.folktunefinder.com/tunes/36376
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:390
+T:Linhope Loup
+% Nottingham Music Database
+S:AA, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+F/2G/2|"D"Af "A7"Ge|"D"Fd d/2A/2F/2A/2|"A7"GE E/2F/2G/2B/2|\
+"D"AF "A7"F/2E/2F/2G/2|
+"D"Af "A7"Ge|"D"Fd d/2A/2F/2A/2|"Em"G/2F/2E/2F/2 "A7"G/2A/2B/2c/2|"D"dd d:|
+P:B
+f/2g/2|"D"aA Ag/2a/2|"G"bB Be/2d/2|"A7"c/2B/2c/2d/2 e/2c/2B/2A/2|\
+"D"d/2c/2d/2e/2 "A7"f/2e/2f/2g/2|
+"D"aA Ag/2a/2|"G"bB Be/2d/2|"A7"c/2B/2c/2d/2 e/2g/2f/2e/2|"D"dd d:|
+S:https://www.folktunefinder.com/tunes/44165
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsH-L.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsH-L.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

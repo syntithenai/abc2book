@@ -1,0 +1,30 @@
+X:1
+T:Glenlivet
+S:Kerr's Violin I
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: handwritten MS by Barbara McOwen (Dec 1980)
+M:C|
+L:1/8
+K:Am
+e \
+| "Am"A2ae cBAc | "G"BAGB     gdBG \
+| "Am"A2ae cBAc | "G"BGdB "Am"cAA :|\
+B \
+| "Am"ABcd ecBA | "G"GdBd     gdBG |
+| "Am"ABcd ecBA | "G"BGdB "Am"cAAB \
+||"Am"ABcd ecBA | "G"GdBd     gdBG \
+| "Am"Ac"G"Bd "F"ce"G"df | "E7"edcB "Am"cAA |]
+S:https://www.folktunefinder.com/tunes/17264
+S:http://trillian.mit.edu/~jc/music/abc/reel/Glenlivet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/Glenlivet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Glenlivet_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/Glenlivet_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

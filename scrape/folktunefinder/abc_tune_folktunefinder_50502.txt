@@ -1,0 +1,52 @@
+X:15
+T:barjace elzo                 %titel
+C:                           %composer
+O:                           %origin
+M:12/8                           % type of bar  4/4 or 3/4
+L:1/16                        % length of shortest note
+Q:1/8=110                           %tempo  Q:1/4=80
+K:Bb                           %key C  Cm
+%%MIDI gchord fzcfzczfzcfz
+V:1                          %voice 1
+P:INTRO
+|:"Cm"(4:3:3 c4 d2e2"Cm" c4 d2e2"Cm"(4:3:3 c4 d2e2 c4|"Fm"(4:3:4=B2c2d2e2"G" f2e2d2c2"Cm" (4:3:4=B2c2c2G2 c2G2 |
+"Cm"(4:3:3 c4 d2e2 c4 d2e2 (4:3:3 c4 d2e2 c4|"Fm"(4:3:4=B2c2d2e2"G" f2e2 d2c2 "Cm"(4:3:4=B2c2c2G2 c4:|
+P: deel A
+K:F
+|:"F"(4:3:4e2f2g2a2 a4 a4(4:3:4 a2g2a2f2 "C" g2f2|"F"(4:3:4a2g2a2f2 "G"g4 d2c2"C"(4:3:4 =B2c2c2G2 B2z2:|
+P:DEEl B
+"F"(4:3:4a2g2a2f2 "G"g4 d2c2 "C"(4:3:3 c4 e2f2 g2c2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4|
+"F"(4:3:4a2g2a2f2 "G"g4 d2c2 "C"(4:3:3 c4e2f2 g2c2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C" c6 c4|
+P:DEEl C
+|:"C" (4:3:3 c4 e2f2 (4:3:4 d2c2d2c2 "C" (4:3:3 c4 e2f2 "G" d2c2|"C" (4:3:3 c4 e2f2 (4:3:4 d2c2d2c2 "C" (4:3:3c4 e2f2 "G" d2c2
+|1"C"c2e2f2 "G"(3:2:3 g2f2e2 d2c2  "C" (4:3:4=B2c2c2G2 cG:|2 "C"c2e2f2 "G"(3:2:3g2f2e2 d2c2  "C" (4:3:4=B2c2c2G2 c2 z2|
+P:deel D
+|:(4:3:4"F" e2f2g2a2 b2c'2d'2c'2 "C"(4:3:4 d'2c'2b2a2 g2f2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4|:
+(4:3:4"F" e2f2g2a2 b2c'2d'2c'2 "C"(4:3:4 d'2c'2b2a2 g2f2|(4:3:4"F"a2g2a2f2 "G"g4 d2c2 (4:3:4e2f2(g2g2 g4|
+(g6g8g6 g4))|\
+P:solo
+z12|
+z12|z12|
+z12|\
+P: deel E
+|:"F"(4:3:4b2a2a2g2 efgabc' (4:3:4b2a2a2g2 "C"g2d2|
+"F"(4:3:4b2a2a2g2 e2f2 (5:2:5gabc'd' (4:3:4b2a2a2f2 "C"g2d2|(4:3:4b2a2a2g2 efgabc'"F" (4:3:4b2a2a2g2 "C"g4|
+"F"(4:3:4b2a2a2g2"G" (4:3:4e2g2d2c2"C" (4:3:4=B2c2c2G2 c4:|\
+P:deel F
+|:"F"(4:3:4e2f2g2a2 a4a4(4:3:4a2g2a2g2"C" g2f2|
+"F"(4:3:4a2g2a2g2 "G"g4 d2c2(4:3:3c4e2f2 c4:||:"F"(4:3:4a2g2a2g2 "G"g4 d2c2"C"(4:3:3c4e2f2 g2c2|
+"F"(4:3:4a2g2a2g2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4:|\
+P:SLOT
+"C"(4:3:3c4e2f2 (4:3:4d2c2d2c2 (4:3:3c4e2f2 d2c2|
+"C"c2e2f2"G" (3:2:3g2f2e2 d2c2 (4:3:4=B2c2c2G2 c2G2|"C"(4:3:3c4e2f2 (4:3:4d2c2d2c2 (4:3:3c4e2f2 d2c2|"C"c2e2f2"G" (3:2:3g2f2e2 d2c2 (4:3:4=B2c2c2G2 c2z2|]
+S:https://www.folktunefinder.com/tunes/50502
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

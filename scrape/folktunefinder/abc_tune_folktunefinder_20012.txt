@@ -1,0 +1,33 @@
+X: 1
+T: Kalajoki valssi
+C: Svelm:    Unto Jutila
+C: Sanat: Haikki Vaponen
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+%A^GAB "Intro"\
+%| "C"c4 "Am"A2- | A2 AcBA | "F"A4 G2- | G2 GAG_G | "F"F4 A,2 | "G"E4 D2 | "C"C2 C3 C | C2 z2 E2 ||
+E2 \
+| "C"GA G2 _G2 | "G7"F4 B,2 | "C"C6- | C2 z4 | "C"e2 d2 c2 | "G7"B4 A2 | "F"F6 | F2 z2 D2 |
+| "F"FG F2 E2 | F4 C2 | D6- | "Dm"D2 z2 z2 | "G7"d2 c2 B2 | "F"A4 G2 | "C"E6- | E2 z2 E2 |
+| "C"GA G2 _G2 | "G7"F4 B,2 | "C"C6- | C2 z2 G2 | c4 d2 | e4 c2 | d4 c2 | "F"A4 A2 |
+| "F"c4 B2 | d4 B2 | "C"G4 ^F2 | A4 G2 | "F"F4 A,2 | "C"E4 D2 | "G"G6- | G2 A^GAB ||
+|| "C"c4 A2- | "Am"A2 AcBA | "F"A4 G2- | G2 GAG_G | F4 E2 | F4 A2 | "C"G6- | G2 "Intro"[|]A^GAB |
+| "C"c4 "F"A2- | A2 AcBA | A4 G2- | G2 GAG_G | F4 A,2 |"G7" E4 D2 | "C"C6- | C2 z2 |]
+S:https://www.folktunefinder.com/tunes/20012
+S:http://trillian.mit.edu/~jc/music/abc/waltz/KalajokeValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/KalajokiValssi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/KalajokeValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/KalajokiValssi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/KalajokeValssi.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/KalajokiValssi_C.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

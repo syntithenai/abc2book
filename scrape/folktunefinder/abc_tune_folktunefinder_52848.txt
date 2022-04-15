@@ -1,0 +1,30 @@
+X: 86
+T:Pollacca. JMT.083
+M:3/4
+L:1/16
+Q:180
+S:J.Moore,Tyneside,1841.(59)
+R:Pollacca
+O:England
+A:Northumbria
+Z:vmp.Chris Partington
+K:G
+G2|:D2G2G2G2F2A2|G2B2B2B2c2e2|d2B2B2G2A2B2|c2E2A2G2F2D2|!
+D2G2G2G2F2A2|G2B2B2B2c2e2|d2B2B2G2 AcBd|c2E2E2F2G4:|!
+|:d2g2f2g2d2B2|A2B2c2e2d2^c2|d2g2f2g2f2g2|e2b2a2^c2d4|!
+e2e-=f e2d2c2B2|c2E2A2G2F2D2|d3cB2G2 AcBd|c2E2E2F2G4:|!
+D2G2G2G2 FGAF|G2B2B2B2 ABcA|B2G2d2B2g2d2|e2c2A2G2F2D2|!
+D2G2G2G2 FGAF|G2B2B2B2 ABcA|BGAB cdef gfge| ecBA BdFAG4:|!
+dcde defg edcB |cBcd cfag fedc|BGAB cdef gfgd|e2c2A2G2F2D2|!
+D2G2G2G2 FGAF|G2B2B2B2 ABcA|BGAB cdef gfgd|e^dec BdFAG4:|]
+S:https://www.folktunefinder.com/tunes/52848
+S:http://www.village-music-project.org.uk/abc/jmooret.abc
+% Rhythm Pollacca
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:4540
+T:Pols fr Rros
+A:Rros
+M:3/4
+O:Norway
+R:Pols
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000008bf.html
+%%ID:000008bf
+K:D
+d2 d<c A2 | f2 f<d e>f |\
+(3geg (3fdf e>c | (3def d<c A2|\
+d2 d<c A>A | f2 f<d e>f|
+(3geg (3fdf e>c|(3def d4::\
+a2 a<f g>e|f2 f<d e>f|
+(3geg (3fdf e>c|(3def d<c A2|\
+a2 a<f g>e|f2 f<d e>f|\
+(3geg (3fdf e>c|(3def d4:|
+S:https://www.folktunefinder.com/tunes/36987
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

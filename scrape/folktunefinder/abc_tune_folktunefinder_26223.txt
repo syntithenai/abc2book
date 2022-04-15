@@ -1,0 +1,31 @@
+X:5771
+T: Salty Dog Rag
+O:england
+M: C
+L: 1/8
+K: D
+[f2d2] [f2c2] [f2=c2] \
+"I"\
+[| "B7"[fB][fB] [fc][fB] [f^d][fB] [fc][fB] | [f2^d2][fc][f-B] [f4B4] \
+|  "E7"[eB][eB] [ec][eB] [e=d][eB] [ec][eB] | [e2=d2][ec][e-B] [e4B4] |
+|  "A7"[eA][eA] [eB][eA] [ec][eA] [eB][eA] | [e2c3] [eB][e-A-] [eA][eA] [eB][eA] \
+|  "D"d=c- cA- AG FD | AG FD- D4 |]
+"A"\
+|: "B7"BB ^dd cc dd | BB ^dc- cB cB \
+|  "E7"ee ^gg ff gg | ee ^gf- fe fe |
+|  "A7"aa c'c' bb aa | aa c'b- ba ba \
+|  "D"d'2 b2 a2 f2 | "D"dc df- fd c=c :|2 "A7"aB cd- "D"d4 ||
+"B"\
+|: "B7"b2 _b2 a4 | b2 _ba- af- ff \
+|  "E7"f2 =f2 e2 d2 | f2 =fe- ea- a^f |
+|  "A7"a2  fe a2 fe | ae fa- aa ba \
+|  "D"d'2 b2 a2 f2 |1 "D"dc df- "F#"fb- ba :|2 "A7"aB cd- "D"d4 |]
+S:https://www.folktunefinder.com/tunes/26223
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

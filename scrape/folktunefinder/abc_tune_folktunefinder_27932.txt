@@ -1,0 +1,38 @@
+X:7480
+T:the Windmill Rag
+O:england
+R:Rag
+N:July '94
+M:4/4
+C:Andy Hornby
+A:Lancaster
+K:G
+d/e>d g>fe>d||\
+B2B2 B>(AA)>(B|B)>de>d g>fe>d|\
+c2c2 c>(BB)>(c|(c4) c)>de>d|
+f2f2 f>de>d|f>=fe>(d d)>de>d|\
+g2B2 c2^c2|d>de>d g>fe>d|\
+B2B2 B>GA>(B|B)>de>d g>fe>d|
+c2c2 c>(BB)>(c|(c4) c)>de>d|\
+f2f>d e>de>d|f>=fe>(d d)de>d|\
+g2^A>B G>DE>(G|G)>GG>G F>F=F>F||
+E2E>^D E2E>D|E>G^D>(E E)>=DE>G|\
+B2B>^A B>G=A>(B|(B4) B)>GF>=F|\
+E2E>^D E2E>=D|E>G^D>(E E)>GB>G|
+A2A>^G A2A>G|A>FE>(D (D2)D)>^D|\
+E2E>^D E2E>=D|E>GD>(E E)>DE>G|
+B2B>^A B>AB>(E|(E4) E)>EG>E|\
+A2A>^G A>Bc>^c|d>eB>(G G)>DE>D|\
+G2^A>B G>DE>(G|G)z|]
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/27932
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

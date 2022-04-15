@@ -1,0 +1,23 @@
+X:197
+T: Alter Ostergesang
+N: A0552D
+O: Europa, Mitteleuropa, Deutschland
+N: Schumanns ev. Gesangbuch 1539.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/1
+L: 1/2
+K: D
+ |  | A4G2A2 | =c4d4A4
+A2G2A2=F2 | E4=F4D3
+D | GGG2D2=C2 | =F4G4A4
+A2G2A2F2 | E4F4D4
+E4=C2D2D4
+S:https://www.folktunefinder.com/tunes/80256
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Text Has notes text
+% Has_accompaniment_chords No chords

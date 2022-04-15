@@ -1,0 +1,28 @@
+X:467
+%%topmargin 3cm
+T:East Neuk of Fife
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:Country Dance
+R:Reel
+M:C
+L:1/8
+K:E aeolian
+D2 | {/F}G2 G2 G2 Bc | dB{/F}GB dB{/F}GB | {cB}A2 A2 A2 {/f}(gf) | {gf}edef {ef}g2 (fe) | {/^c}d=cBA {/F}GABc |
+dB{/F}GB {/^c}d2 {AB}(=cB) | ABcd BcAB | {/F}G2 E2 E2 || (dc) | B2 {/F}G2 G2 (dc) | B2 G2 G2 (ed) |
+{AB}c2 A2 A2 (eg) | {/g}a2 A2 A2 (BA) | B2 G2 d2 G2 | g2 G2 d2 (cB) | ABcd BcAB | {/F}G2 E2 E2 |]
+S:https://www.folktunefinder.com/tunes/71496
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/East_Neuk_of_Fife.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0467.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

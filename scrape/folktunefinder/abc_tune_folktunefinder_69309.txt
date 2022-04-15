@@ -1,0 +1,26 @@
+X:450
+T: "Festgesang"
+N: Z1130
+O: Europa, Mitteleuropa, Deutschland
+R: Vaterland und Wehr
+M: 3/4
+L: 1/16
+K: C
+C3G,G,4C4 | A,3A,A,4z4
+B,3CD4G,4 | C2E2C4z4
+C3G,G,4C4 | A,3A,A,4z4
+B,3CD4G,4 | C2E2C4z4
+B,3CD4G4 | E2C2D8
+B,3CD4G4 | E2C2D8
+C2B,2A,4F2D2 | E4D4C4
+C2B,2A,4F2D2 | E4D4C4
+S:https://www.folktunefinder.com/tunes/69309
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Schottis
+O: Sweden
+M: 4/4
+L: 1/8
+K: Dm
+|: "E"E2 E^D ED E^G | "Am"AB cd e4 | "E7"B2 BA Bd cB \
+|1,3 "Am"A2 A^G "E"E4 :|2,4 "Am"A2 A2 A4 :|
+|: "C"g>f ga gf e2  | "Am"e>d ef ed c2 \
+|1,3 "E7"B2 Bd cB A^G | "Am"AB cd e4 \
+:|2,4 "E7"B2 Bd cB A^G | "Am"A2 A2 A4 :|
+S:https://www.folktunefinder.com/tunes/18483
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Shottish_9.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Shottish09.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/old/Shottish_9.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/shottish/Shottish_9.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

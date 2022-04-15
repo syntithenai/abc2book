@@ -1,0 +1,28 @@
+X:2757
+T:I Didn't Drink the Rum
+O:england
+M:4/4
+L:1/8
+Q:80
+R:polka
+K:G
+B>c|:ddcA B2 AG|FDGG FD B>c|ddcA B2 AG|
+M:3/4
+L:1/8
+|1FD G2 B>c:|2FD G2 g>g|
+M:4/4
+L:1/8
+|fd g>g fd f>g|agfe d2 G2|B>cdd cA B2|AGFD G2 g>g|fd g>g fd f>g|agfe d2
+G2|B>cdd cA B2|AGFD GGFD|B>c ddcA B2|AGFD G2|
+S:https://www.folktunefinder.com/tunes/23208
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

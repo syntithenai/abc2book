@@ -1,0 +1,25 @@
+X:5782
+T:Saratoga Hornpipe
+O:england
+M:2/4
+L:1/16
+S:Wil Macauley, Ir-trad, 3/97
+R:Hornpipe
+A:Cape Breton
+B:Sandy Macintyre's lesson book
+K:F
+|: AB | c=BcA d_Bfd | cAFA cAdc| BAGB AGFA | Gc=Bd c_BAB |
+c=BcA d_Bfd | cAFA cdef | defg efga |f2f2f2 :|
+|: ef | aAgA fAeA | fAeA dAfA | eA^ce agfe | fgef defg |
+aAgA fAeA | fAeA dAdf | efga bgeg | f2f2f2 :|
+S:https://www.folktunefinder.com/tunes/26234
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

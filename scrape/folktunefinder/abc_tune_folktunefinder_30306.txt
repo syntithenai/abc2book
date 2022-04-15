@@ -1,0 +1,21 @@
+X:1
+T:Wandring in this Place
+C:Michaell Cavendish
+T:from 14 Ayres in Tabletorie to the Lute (1598)
+M:C|
+L:1/4
+K:F treble
+%
+V:1 clef=treble name=Voice
+%
+G^FGA|BABc|d>cBA|GcB>B|A2zB|AG^F>F|
+S:https://www.folktunefinder.com/tunes/30306
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Cavendish/wandring.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Cavendish/wandring.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

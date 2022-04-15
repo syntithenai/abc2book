@@ -1,0 +1,27 @@
+X:452
+T: "Altdeutsches Kampflied"
+N: Z1132
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Vaterland und Wehr
+M: 3/4
+L: 1/8
+K: E
+EF | =GAB2A2 | B3A=G2 | A2B2A2 | B4
+=G2 | A2B2A2 | B4
+B2 | B2A2B=c | =d3=cBA | B4A2 | =G4
+BG | A2B2A=G | F2E2
+B=G | A2B2A=G | F2E2
+F=G | A2=G2F2 | E4
+S:https://www.folktunefinder.com/tunes/69311
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Vaterland und wehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

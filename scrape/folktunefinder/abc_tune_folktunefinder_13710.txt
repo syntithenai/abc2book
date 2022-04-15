@@ -1,0 +1,26 @@
+X: 1
+T: Trafalgar Hornpipe
+R: hornpipe
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+E2 \
+| "A"AEAc ecea | "D"fdfa "A"ecAc | "Bm"dBfe     dcBA | "E7"GABc B2E2 \
+| "A"AEAc ecea | "D"fdfa "A"ecAc | "Bm"dfed "E7"cBAG | "A"A2c2A2 :|
+|: E2 \
+| "A"CAGA cAGA | "D"FA"A"EA "D"DA"A"CA | "D"FDFA     dcBA | "E7"GABG E2E2 \
+| "D"FDFA dcBA | "E7"GEGB      edcB    | "A"Aagf "E7"edcB | "A"A2c2A2 :|
+S:https://www.folktunefinder.com/tunes/13710
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/TrafalgarHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/TrafalgarHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/TrafalgarHp_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/TrafalgarHp_A.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:62
+T: ICH STEH AUF EINEM HOHEN BERG
+N: Z0063
+O:  170Europa, Mitteleuropa, Deutschland
+R: Sagen - Lied, Romanze
+M: 6/8
+L: 1/8
+K: C
+G | C2D_E2F | G2GF2
+G | _A2GF_EF | G3-G2
+G | G_A_BBAG | G2FF2
+F | _EFGGFE | _E2DD2
+G | GF_EDCB, | C3-C2
+S:https://www.folktunefinder.com/tunes/68921
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

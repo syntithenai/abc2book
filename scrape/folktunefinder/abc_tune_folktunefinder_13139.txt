@@ -1,0 +1,24 @@
+X: 1
+T: the Bonniest Lass in a' the World
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: BSFC XIII-1
+M: C
+L: 1/8
+K: F
+F>G | "F"A2 C2 "Dm"D2 F2 | "Bb"BA G<F "Dm"D2 CD | "F"F2 f2 cd fc | "Bb"d4 "C7"c2 de | "F"fe d<c "Dm"de fA |
+| "Bb"BA G<F "C"D2 CD | "F"F2 f2 "Bb"c>d B>c | "C"A3 G "F"F2 :: (3cde | "F"fe dc "Dm"de fd | "Gm"gf ed "C"ef ge |
+| "F"fe fg "Dm"af ga | "Bb"d4 "C"c2 fg | "F"ag fd "Dm"cd/e/ fA | "Bb"BA G<F "C"D2 CD | "F"F2 f2 "Bb"c>d B>c | "C7"A3 G "F"F2 :|
+S:https://www.folktunefinder.com/tunes/13139
+S:http://trillian.mit.edu/~jc/music/abc/air/Bonniest_Lass_in_a_the_World_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Bonniest_Lass_in_a_the_World_F.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

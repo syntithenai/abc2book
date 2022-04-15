@@ -1,0 +1,25 @@
+X: 1
+T:Dunphy's Hornpipe
+M:C
+R:Hornpipe
+K:G
+|:(3DEF|G3D/B3D/ G2 (3gag|f3e/e3d/
+e3c/A3G/|(3FAF D3G/ F3G/A3c/| (3BAG A3F/ G3F/E3D/|G3D/B3D/ G2 (3gag|f3e/e3d/
+e3c/A3G/| F3A/d3B/ c3A/F3G/|(3ABA G3F/ G2:| |:B3c/|(3ded B3d/ g3d/B3d/| (3gfg
+b3f/ g3d/B3d/|(3gag f3g/ e3d/^c3d/|(3efe d3^c/ d2 e3f/| (3gag d3c/ (3BdB
+G3c/|e3c/A3G/ (3FAF D3F/|G3B/d3B/ c3A/F3G/|(3ABA G3F/ G2:|
+S:https://www.folktunefinder.com/tunes/13536
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/DunphysH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/DunphysH.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe/DunphysH.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/hornpipe/DunphysH.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/StPatsDay/hornpipe/DunphysH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

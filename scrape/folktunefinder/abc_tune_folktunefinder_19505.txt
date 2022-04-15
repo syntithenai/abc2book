@@ -1,0 +1,28 @@
+X: 1
+T: Major James Monroe's Strathspey
+C: Robert Mackintosh
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Barbara McOwen
+M: C
+L: 1/16
+K: Dm
+A "A"\
+| "Dm"FD3 A,3D F3D A3F | "C"E3c G3c EC3 A3G | "Dm"F3D A,3D "Gm"B,3D G,3B | "A7"A3G F3E "Dm"FD3 D3 ||
+A \
+| "Dm"AD3 A,3D F3D A3F | "C"E3c G3c EC3 A3G | "Dm"F3A D3d "A7"^c3e Aa3 | "Gm"bg3 "A7"agfe "Dm"fd3 d3 |]
+g "B"\
+| "Dm"agfe f3d A3d f3d | "C"c3e g3e c'3g e3c | "Dm"agfe f3d A3d f3d | "A7"A3G F3E "Dm"FD3 D3 ||
+g \
+| "Dm"agfe f3d A3d f3d | "C"c3e g3e c'3g e3c | "Dm"af3 "C"ge3 "Dm"fd3 "A7"e3^c | "Gm"dB3 "A7"A3G "Dm"FD3 D3 |]
+S:https://www.folktunefinder.com/tunes/19505
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MajorJamesMonroesStr_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MajorJamesMonroesStr_Dm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords
