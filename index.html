@@ -601,9 +601,9 @@ $(document).ready(function() {
     if ('serviceWorker' in navigator) {
       try {
         const registration = await navigator.serviceWorker.register(
-          '/sw.js',
+          '/abc2book/sw.js',
           {
-            scope: '/',
+            scope: '/abc2book/',
           }
         );
         if (registration.installing) {
