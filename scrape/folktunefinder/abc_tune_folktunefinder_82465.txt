@@ -1,0 +1,27 @@
+X:105
+T: SPRING SIE AUF DIE KETTE
+N: K2098
+O: Europa, Mitteleuropa, Deutschland, Oberlausitz
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/8
+K: F
+ | FGAB | c2c2
+d2f2 | c2z2
+d2f2 | c2z2
+BBBB | A2A2
+G2c2 | F2z2
+ccc2 | AAA2
+GGcc | AAA2
+ccc2 | AAA2
+GGcc | AGF2
+S:https://www.folktunefinder.com/tunes/82465
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:9
+T: SCHLAUF MAN WAWERL
+N: K0032
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Kinder -, Wiegen - Lied
+M: 4/4
+L: 1/8
+K: G
+ | d2d2B2G2 | c2c2A2z2
+e2e2d2c2 | d2d2B2z2
+d2d2B2G2 | c2c2A2z2
+e2e2d2c2 | d2d2B2z2
+B3AA2e2 | e3dG2
+d2 | d3cF2c2 | B6z2
+B3AA2e2 | e3dG2
+d2 | d3cF2c2 | B6z2
+S:https://www.folktunefinder.com/tunes/82369
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:8
+T: SCHLAF KINDLEIN FESTE
+N: K0029
+O: Europa, Mitteleuropa, Deutschland
+R: Kinder -, Wiegen - Lied
+M: 2/4
+L: 1/8
+K: F
+ | A2GG | F2C
+C | AAGG | F2C
+F | AAAc | BAG
+F | AAAc | BAG2
+A2GG | F2C2
+S:https://www.folktunefinder.com/tunes/82368
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

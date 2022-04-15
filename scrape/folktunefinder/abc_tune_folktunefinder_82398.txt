@@ -1,0 +1,23 @@
+X:38
+T: BLAEH SCHAEFCHEN BLAEH
+N: K0259
+O: Europa, Mitteleuropa, Deutschland, Erfurt, Stotternheim
+R: Kinder -, Kose -, Scherz - Lied
+M: 2/4
+L: 1/8
+K: G
+ | d2BA | G2z
+d | dcBA | G2z
+G | BBBB | c2c
+c | AAAA | d2d
+d | dcBA | G2z2
+S:https://www.folktunefinder.com/tunes/82398
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, kose -, scherz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

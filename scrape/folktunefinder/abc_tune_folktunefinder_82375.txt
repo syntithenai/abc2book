@@ -1,0 +1,24 @@
+X:15
+T: SUSE LEWE SUSE WAT RUSCHELT INT STROH
+N: K0054A
+O: Europa, Mitteleuropa, Deutschland, Bielefeld
+R: Kinder -, Wiegen - Lied
+M: 3/4
+L: 1/8
+K: F
+ | c3dcB | A2A2A2 | G2F2G2 | F4
+A2 | c3dcB | A2A2A2 | G2F2G2 | F4z2
+G2G2G2 | A2A2A2 | B2B2A2 | G4
+FA | c3dcB | A2A2A2 | G2F2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/82375
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

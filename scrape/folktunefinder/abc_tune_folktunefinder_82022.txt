@@ -1,0 +1,23 @@
+X:140
+T:King Charles's Jig
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:jig/set dance
+L:1/8
+M:6/8
+K:D
+G|FDF AFA|BGB AFD|E3 D2 G|
+FDF AFA|Bcd edc|d3 D2::c|
+def efg|fed faf|e3 E2 G|
+FDF AFA|Bcd edc|d3 D2:|
+S:https://www.folktunefinder.com/tunes/82022
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Jig/set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

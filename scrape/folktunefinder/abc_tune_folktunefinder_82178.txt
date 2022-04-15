@@ -1,0 +1,31 @@
+X:59
+T:Slieve Elva
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air
+H:  Taken down in 1876 from the singing of James Keane of Kilkee, who was then
+H:83 years of age; whose memory was richly stored with Irish music, and with
+H:songs both in Irish and English.  He told me at the time, with the greatest
+H:confidence and cheerfulness, that he had two years more to live, as his
+H:father, grandfather, and great-grandfather all died at 85.  Slieve Elva a
+H:mountain in Clare.
+L:1/8
+M:C
+Z:Allan Garvin
+K:Bb
+"Slow: and with expression."\
+d=e|f2 f2 g2 f3/4d//c//=B//|c2 BG F2 G2|d2 cB G2 G2|G4:|GA|
+B2 BG f2 f2|g2 ((3gf=e) f4|g2 d2 dcBc|{d}e2 d2 {c=B}c2 d>g|
+g2 d2 d>c BGF=E|F2 G2 {A}B2 c2|d2 cB G2 G2|G6||
+S:https://www.folktunefinder.com/tunes/82178
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/SlieveElva.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

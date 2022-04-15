@@ -1,0 +1,26 @@
+X:345
+T:A Double Jig
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:jig
+A:Kilkenny
+O:Irish
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:G
+gdB cBA|GDE G2 A|BGG dGG|BAA ABd|
+gdB cBA|GDE G2 A|BdB AGA|BGG G2::B/c/|
+dgg gfg|eaa a2 c'|B/G/AG E2 d|egg g2 B/A/|
+gdB cBA|GDE G2 A|B<dB AGA BGG G2:|
+S:https://www.folktunefinder.com/tunes/82323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/DoubleJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/DoubleJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

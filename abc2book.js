@@ -390,6 +390,8 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallba
       if (forceTuneId !== null) {
         $.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
           handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
+        }).catch(function(e) {
+          console.log(["ERR1",e])
         })
       } else {
         $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+searchText).then(function(searchRes) {
@@ -400,10 +402,14 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallba
           if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
             $.get('https://thesession.org/tunes/' + searchRes.tunes[0].id+'?format=json&perpage=50').then(function(tune) {
               handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
+            }).catch(function(e) {
+              console.log(["ERR2",e])
             })
           } else {
             handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
           }
+        }).catch(function(e) {
+          console.log(["ERR3",e])
         })
       } 
     // empty tune title, try next tune (should not happen as input is filtered)

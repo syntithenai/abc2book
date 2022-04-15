@@ -1,0 +1,23 @@
+X:2
+T: SCHLAF KINDLEIN SCHLAF
+N: K0008
+O: Europa, Mitteleuropa, Deutschland, Taunus, Niederreifenberg
+R: Kinder -, Wiegen - Lied
+M: 2/4
+L: 1/16
+K: F
+ | c4B2G2 | F4z2
+FA | c2c2B2G2 | F4z2
+AG | F2F2c2c2 | d2d2c4
+B2G2A2F2 | G2G2F4
+S:https://www.folktunefinder.com/tunes/82362
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

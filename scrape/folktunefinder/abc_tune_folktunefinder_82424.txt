@@ -1,0 +1,25 @@
+X:64
+T: EHKHON MINNE KLOW
+N: K0946
+O: Europa, Mitteleuropa, Deutschland, Barmen, Elberfeld
+R: Kinder - Lied, Pflanzen
+M: 2/4
+L: 1/16
+K: G
+ | d4B2z2 | d2d2d2e2 | d4B2z2
+d2ddd2d2 | e2e2d2
+d2 | c2c2B2d2 | A4G2d2 | A2G2z4
+d2d2d2e2 | d4B2
+B2 | d2d2d2e2 | d4B2z2
+d2d2d2d2 | e2e2d4
+c2c2B2d2 | A2A2G4
+S:https://www.folktunefinder.com/tunes/82424
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, pflanzen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

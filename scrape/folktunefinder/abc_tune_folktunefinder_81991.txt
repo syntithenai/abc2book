@@ -1,0 +1,23 @@
+X:100
+T:Mary Lee
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air/jig
+O:Irish
+L:1/8
+M:6/8
+K:F
+d3 c3|B3 A3|GAG B2 c|dBG G3|
+d3 c3|B3 A2 G|F3 f2 d|cAF F3||
+GFD B2 c|dBG GFD|GAG B2 c|dBG G2 A|
+GFD B2 c|dBG GFD|F3 f2 d|cAF F3||
+S:https://www.folktunefinder.com/tunes/81991
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Song air/jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

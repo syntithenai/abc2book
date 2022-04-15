@@ -1,0 +1,28 @@
+X:13
+T:The River Roe
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air
+H:  Written from memory.  I have a copy of the song all about a lady who
+H:went "a-bathing in the Roe."  The air is also called "Henry the Sailor Boy,"
+H:about whom there was a song:
+H:  "The captain gave him fifty pounds the moment he did land;
+H:  "And that day young Henry married unto his Mary Ann."
+H:The River Roe is in Derry count; and this is an Ulster Air
+L:1/8
+M:6/8
+K:G
+"Moderate time"G/A/|B2 B G2 B|A3 G2 E|D2 E G2 G|(G3 G2) c|
+B2 A Bcd|e2 e d2 e|G2 G AGF|(E3 E2) c|
+B2 A Bcd|e2 e d2 e|G2 G AGF|E3 G2 A|
+B2 B G2 B|A3 G2 E|D2 E G2 G|(G3 G2)|]
+S:https://www.folktunefinder.com/tunes/81904
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:101
+T: TANZE TANZE TELEMANN
+N: K2084
+O: Europa, Mitteleuropa, Deutschland, Wetterau, Bettenhausen
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/16
+K: C
+ | G2G2A2A2 | G2F2E2
+C2 | G2G2A2A2 | G2F2E4
+G2G2A2A2 | G4E2
+C2 | G2G2AAA2 | G4E2ccc | c8
+S:https://www.folktunefinder.com/tunes/82461
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

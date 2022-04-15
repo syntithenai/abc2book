@@ -1,0 +1,30 @@
+X:50
+T: HAENSCHEN SASS IM SCHORNSTEIN
+N: K0578
+O: Europa, Mitteleuropa, Deutschland, Norddeutschland, Mecklenburg
+R: Kinder -, Spiel - Lied
+M: 2/4
+L: 1/16
+K: F
+ | F2G2A2B2 | c4c2
+c2 | d2B2f2d2 | c4z2
+c2 | B2B2B2B2 | A4A2
+A2 | A2G2G2A2 | F4z4
+F2G2A2B2 | c4c2
+c2 | d2B2f2d2 | c4z2
+c2 | B2B2B2B2 | A4A2
+A2 | A2G2G2A2 | F4z2
+C2 | F3AA2A2 | G3BB2
+B2 | A2F2c2A2 | G4z2
+C2 | F3AA2A2 | G3BB2
+B2 | A2F2G2E2 | F4z4
+S:https://www.folktunefinder.com/tunes/82410
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, spiel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

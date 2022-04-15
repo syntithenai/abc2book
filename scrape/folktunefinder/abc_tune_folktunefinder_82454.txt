@@ -1,0 +1,23 @@
+X:94
+T: KREIS KREIS KESSEL
+N: K2073
+O: Europa, Mitteleuropa, Deutschland, Weimar
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/16
+K: F
+ | c4d4 | c4A2z2
+c2c2d2d2 | c4A2z2
+B2B2G2G2 | c2c2A4
+d3cB2A2 | G2G2F4
+S:https://www.folktunefinder.com/tunes/82454
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

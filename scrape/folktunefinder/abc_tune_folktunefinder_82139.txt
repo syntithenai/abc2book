@@ -1,0 +1,36 @@
+X:19
+T:Chalk Sunday
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:jig/song air
+H:From Davy Condon, thatcher, of Ballyorgan, 1844.  Chalk Sunday was the
+H:Sunday after Shrove Tuesday, when those young men who should have been
+H:married, but were not, were marked with a heavy streak of chalk on the back
+H:of the Sunday coat, by boys who carried bits of chalk in their pockets for
+H:that purpose, and lay in wait for the bachelors.  The marking was done while
+H:the congregation were assembling for Mass: and the young fellow ran for his
+H:life, always laughing, and often singing the concluding words of some
+H:suitable doggerel such as: "And you are not married though Lent has come!"
+H:This custom prevailed in some parts of Limerick, where I saw it in full
+H:play: but I think it has died out.
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:G
+"With spirit"B/A/|G>AG BAB|GBd g2 e|dBG AGE|A>BA A2 B/A/|
+G>AG BAB|GBd g2 e|dBG AGE|G2 G G2:|
+|: (3def|g>ag fed|ede/f/ g2 f/e/|dBG cBc|ABd e2 ((3def)|
+gag fed|ede/f/ Hg2 e|dBG AGE|G2 G G2:|
+S:https://www.folktunefinder.com/tunes/82139
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/ChalkSunday.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/ChalkSunday.abc
+% Rhythm Jig/song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

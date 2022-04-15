@@ -91,6 +91,8 @@ function updateTuneId(songNumber, tuneId) {
             scrollTo('controls_'+songNumber)
           }
         })
+    }).catch(function(e) {
+      console.log(["ERR",e])
     })
   }
 }
@@ -165,6 +167,8 @@ function updateTuneSearchText(songNumber, newSearchText) {
             $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></li>')
           })
         }
+      }).catch(function(e) {
+        console.log(["ERR",e])
       })
     }
   }
@@ -232,6 +236,8 @@ function loadIndex(callback) {
     console.log('load index web')
       $.getJSON('/textsearch_index.json',function(index) {
              if (callback) callback(index)
+      }).catch(function(e) {
+        console.log(["ERR",e])
       })
       
   }

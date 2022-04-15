@@ -1,0 +1,23 @@
+X:44
+T: S IST EIN MANN IN BRUNN GEFALLN
+N: K0338
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Kinder -, Schaukel -, Kniereiter -, Spiel - Lied
+M: 2/4
+L: 1/8
+K: C
+ | CDEF | GGG2
+CDEF | GGG2
+CDEF | GGG2
+FFEC | D2Cz
+S:https://www.folktunefinder.com/tunes/82404
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, schaukel -, kniereiter -, spiel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

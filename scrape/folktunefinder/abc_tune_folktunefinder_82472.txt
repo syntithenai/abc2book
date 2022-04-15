@@ -1,0 +1,24 @@
+X:112
+T: TING TANG TRALLALA WER IST IN MEINEM THORE
+N: K2138
+O: Europa, Mitteleuropa, Deutschland, Oberdiebach am Rhein
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/8
+K: G
+ | d2e2 | dGG
+G | ddee | d2B
+G | ddGe | dBG2
+d2e2 | d4
+d2d2B4 | d2d2B4 | d2d2B4
+d2d2e2e2 | d2d2B4
+S:https://www.folktunefinder.com/tunes/82472
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

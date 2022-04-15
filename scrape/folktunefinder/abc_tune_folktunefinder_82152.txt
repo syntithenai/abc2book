@@ -1,0 +1,27 @@
+X:32
+T:The Kerry Jig
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:jig
+H:I learned this jig in early days from hearing pipers and fiddlers play
+H:it; and it has remained in my memory ever since.
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:C
+B|A3 AGE|c2 A AGE|G3 cGE|G3 E2 G|
+ABA A2 c|BdB G2 B|A2 c BdB|c3 c2||
+d|efe edB|d2 ^f g2 e|dcB cBA|G3 E2 G|
+A2 B c2 A|Bdc BAG|A2 c BdB|c3 c2||
+S:https://www.folktunefinder.com/tunes/82152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/KerryJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

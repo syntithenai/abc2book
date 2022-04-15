@@ -1,0 +1,26 @@
+X:114
+T:Foxy Mary
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:jig
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:G
+DED D2 A|AGE c3|DED D2 A|AGE E2 D|
+DED D2 A|AGE c3|BdB c2 A|AGE E2 D:|
+c3 edc|BAB/c/ dBG|c3 ecA|AGE E2 D|
+c3 edc BAG BdB|AGE c2 A|AGE E2D|
+c3 edc|BAB/c/ dBG|c3 edc|e2 d efg|
+c3 edc|BAG BdB|AGE c2 A|AGE E2 D||
+S:https://www.folktunefinder.com/tunes/82231
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/FoxyMary.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/FoxyMary.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

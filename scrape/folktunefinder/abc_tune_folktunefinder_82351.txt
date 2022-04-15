@@ -1,0 +1,102 @@
+X:1076
+T:Fantasia 1
+T:TWV 33:1
+C:Georg Philipp Telemann
+O:Germany
+F:http://abc.musicaviva.com/tunes/telemann-georg-philipp/twv33-001/twv33-001-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/8
+L:1/16
+Q:1/4=100
+K:D
+V:1
+AdFdGd|AdFdGd|AdcBAG|FDECD2|G2e2G2|F2d2F2|
+V:2
+F,2D,2E,2|F,2D,2E,2|F,2G,2A,2|D,2A,2D,,2|C,A,A,,A,C,A,|D,A,F,A,D,A,|
+%
+V:1
+G2e2G2|F2d2F2|B^GE2 z2|cAF2 z2|dB^G2 z2|ecA2 z2|fedcBA|
+V:2
+C,A,A,,A,C,A,|D,A,F,A,D,A,|^G,3DCB,|A,3EDC|B,3FED|C3=GFE|D4 z2|
+%
+V:1
+aAcAeA|fedcBA|AadAfA|dcBA^GF|E^GBdcB|(3cde (3def (3ef=g|
+V:2
+C2E2A,2|D4 z2|D2F2A,2|FEDCB,A,|^G,2E,2G,2|(3A,B,C (3B,CD (3CDE|
+%
+V:1
+(3f^ga (3gab a2|A2cBA^G|A4 z2|B=cdBcA|G4=c2|B=cdBcA|
+V:2
+(3DEF (3B,CD C2|C,2D,2E,2|A,,C,E,A, F,D,|G,,4F,2|G,,B,,D,G, A,,F,|G,,4F,2|
+%
+V:1
+G4 z2|A2f2F2|G2B2e2|A2f2F2|G2B2e2| z^cfedc|
+V:2
+G,,B,,D,G, A,,F,|^D,B,B,,B,D,B,|E,B,G,B,E,B,|^D,B,B,,B,D,B,|E,B,G,B,E,B,|^A,4F,2|
+%
+V:1
+(3def (3efg f2|B2dcB^A|B4 z2|GA/B/ A2G2|GFGe F2|FG/A/ G2F2|
+V:2
+(3B,CD (3CDE D2|D,2E,2F,2|B,,D,F,B,^D,B,|E,2C,2A,,2|D,4 z2|D,2C,2D,2|
+%
+V:1
+FEFd E2|AdFdGd|AdFdGd|AdcBAG|FDECD2|ECA,2 z2|FDB,2 z2|
+V:2
+A,,4 z2|F,2D,2E,2|F,2D,2E,2|F,2G,2A,2|D,2A,2D,,2|C,3G,F,E,|D,3A,G,F,|
+%
+V:1
+GEC2 z2|AFD2 z2|BAGFED|dDFDAD|BAGFED|dDFDAD|
+V:2
+E,3B,A,G,|F,3=CB,A,|G,4 z2|F,2A,2D,2|G,4 z2|G,2B,2D,2|
+%
+V:1
+GFEDCB,|A,CEGFE|(3FGA (3GAB (3AB=c|(3B^cd (3cde d2-|dee4|d4 z2|
+V:2
+B,A,G,F,E,D,|C,2A,,2C,2|(3D,E,F, (3E,F,G, (3F,G,A,|(3G,A,B, (3E,F,G, F,2|D,2A,2A,,2|D,2 (3D,E,F, (3B,,C,D,|
+%
+V:1
+G2e2G2|F2d2F2|G2e2G2|F2d2F2|E4 z2|c4 z2|dc/B/ AGFE|D6|]
+V:2
+C,A,A,,A,C,A,|D,A,F,A,D,A,|C,A,A,,A,C,A,|D,A,F,A,D,A,|A,,4 z2|G,4 z2|F,2G,2A,2|D,6|]
+%
+T:Adagio
+V:1
+M:C
+L:1/16
+Q:1/4=40
+K:Bmin
+f^ab2- b^deg f^ab2- be=dc|dc2B z cdF ^GBE^d e=d2c/B/|c^G2A zB=cE FAD^c d=c2B/A/|
+V:2
+M:C
+L:1/16
+Q:120
+K:Bmin
+B,,2D,2 G,2E,2- E,2D,2 E,2F,2|B,2B,,2 B,2B,,2 E,2E,,2 z2^G2|A,2A,,2 A,2A,,2 D,2D,,2 z2F2|
+%
+V:1
+BF2G z=cBA dF2G zd^cB|c^G2A zdcB eG2A zedc|f^ab2- b^deg f^ab2- b^abg|f^efBc4B4 zdcB|
+V:2
+G,2G,,2A,2A,,2 B,2B,,2 ^G,2E,2|A,2A,,2 B,2B,,2 C2C,2 ^A,2F,2|D2D,2 G,2E,2- E,2D,2 G,2E,2|^A,CD,G, F,2F,,2 B,,D,C,B,, B,2D,2|
+%
+V:1
+=c^A2B dA2B eA2B fA2B|gfg2 zGFE Dcd^G ^A3B|B4 [F2c2f2] z2 [B2d2f2] z2 [B2c2e2] z2|[^A8c8f8] z8|]
+V:2
+E,2E,,2 F,2F,,2 G,2G,,2 D,2D,,2|E,2E,,2 z2^A,2 B,2^E,2 F,2F,,2|"Allegro D.C."B,,4 [B,,2A,2] z2 [G,,2G,2] z2 [G,,2G,2] z2|[F,,8F,8] z8|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/82351
+S:http://abc.musicaviva.com/tunes/telemann-georg-philipp/twv33-001/twv33-001-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/telemann-georg-philipp/twv33-001/twv33-001-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/telemann-georg-philipp/twv33-001/twv33-001-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key B
+% Key D
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

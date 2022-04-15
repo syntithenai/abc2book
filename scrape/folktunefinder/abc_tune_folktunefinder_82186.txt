@@ -1,0 +1,30 @@
+X:67
+T:The Chorus Jig
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:A great favourite among pipers.  Written from memory.  There is a
+H:different air with this name--caled a jig--in Bunting's 1840 collection.
+R:jig
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:G
+A2 D D2 d|AFD FED|A2 D D2 d|A3 BGE|
+A2 D D2 d|AFD FED|E/F/GE cAG|G3 GFE:|
+F2 d dFd|F2 A AFA|F2 d dFd|A3 BGE|
+F2 d dFd|F2 A AGF|E/F/GE cAF|G3 GFE|
+F2 d dFd|F2 A AFA|F2 d dFd|A3 ABc|
+d/c/B/c/d/B/ c/B/A/B/c/A/|B/A/G/A/B/G/ .A.G.F|E/F/GE cAF|G3 GFE|
+|:FEF D/E/FD|AFD FED|FEF D/E/FD|ABc dAG|
+FEF D/E/FD|AFD FED|E/F/GE cAF|G3 GFE:|
+S:https://www.folktunefinder.com/tunes/82186
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/ChorusJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/ChorusJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

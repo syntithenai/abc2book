@@ -1,0 +1,35 @@
+X:36
+T:Lament for Donoch an Bhaile-aodha
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air
+H:  The Irish ode, or lament, of which the following is the air, was sung for
+H:me by Phil Gleeson: but there is no need to give it here, as it will be
+H:found in Hardiman's "Irish Minstrelsy," vol. ii, p. 272.  It was composed by
+H:a well-known Munster Gaelic poet of the 18th century, Timothy O'Sullivan,
+H:commonly called Tadhg Gaodhlach, "Timothy of the Irish Compositions," to
+H:commemorate the death of Donogh Mac Carthy of Ballea Castle near
+H:Carrigaline, 8 miles S.E. of Cork.
+H:  As to Phil Gleeson's traditional manner of singing the ode--which he
+H:learned of course from older people:--To the note D at the end of the air he
+H:chanted, in monotone, a sort of cronaun consisting simply of the continued
+H:repetition of the two vowel sounds, ee-oo ee-oo ee-oo, &c., which was
+H:prolonged ad libitum: the change from ee to oo being made at intervals of
+H:about a crotchet.  Occasionally he ended the cronaun by suddenly sliding his
+H:voice up to a third, fifth, or octave--a common practice in laments, nurse
+H:tunes, plough whistles, &c.
+M:2/4
+K:D
+L:1/8
+"Slow"d|ff gg|aa ga|f3 d|ff fd|fe dd|Hd3||d|
+aa ga|fe/d/ cd|{e/}Hf3 {g/e/e/d/}d|ff fd|
+e>dc/A/ FG/E/|E4||d2 d2|d2 d2|d2 d2||
+S:https://www.folktunefinder.com/tunes/81927
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

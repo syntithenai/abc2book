@@ -1,0 +1,39 @@
+X:361
+T:The Eagle's Whistle
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:I copied the following 11 airs (to "Drimin Donn Dilis") from a MS. book lent
+H:me by Surgeon-Major-General King of Dublin (about 1885), who copied them 40
+H:years previously from an old MS. book in Cork.
+H:
+H:I gave a setting of this in my "Ancient Irish Music": and there are two
+H:others in the Stanford-Petrie Collection.  These three are in 3/4 time:
+H:whereas the setting I now give is in 2/4, which is no doubt the proper
+H:original form, inasmuch as this was the marching tune of O'Donovans (See my
+H:"Ancient Irish Music", p. 53).  The Cork MS. has this remark:
+H:  "The legend tells that with this tune the eagle whistles his young
+H:   to rest."
+R:song air
+A:Cork
+O:Irish
+M:2/4
+Z:Allan Garvin
+K:G
+L:1/16
+G|\
+B2B2 dBAG|B2B2 dBAG|B2A2A2 BG|B2A2A2 BG|
+B2B2 dBAG|B2B2 dBAG|E2G2 G2G3A|E2GG G3:|d|
+edef e2dB|dBdg d2BA|d2g2 dBAG|B2A2A2 BG|
+edef e2dB|dBdg d2BA|B2ge  dBAG|E2 GG G3||
+S:https://www.folktunefinder.com/tunes/82339
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/EaglesWhistle.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/EaglesWhistle.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

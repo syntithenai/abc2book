@@ -1,0 +1,30 @@
+X:2
+T: He Diex! quant verrai
+T: Adam de la Halle
+M:3/4
+L:1/8
+V:1 t=-12
+V:2 t=-12
+V:3 t=-12
+K:F Lydian
+[V:1] c4  fg | a4    (3gfe | d4 ef | gf ed B2 | c6|]
+[V:2] f4  f2 | ed e2 (3edc | B4 c2 | dc d2 e2 | f6|]
+[V:3] F4  F2 | A4    A2    | G4 A2 | G4    G2 | F6|]
+%
+[V:1] c4  fg | a4    (3gfe | d4 fg | a4    (3gfe | d4 ||
+[V:2] f4  f2 | ed e2 (3edc | B4 f2 | ed e2 (3edc | B4 ||
+[V:3] F4  F2 | A4    A2    | G4 F2 | A4    A2    | G4 ||
+%
+[V:1] |:  fg | a4    (3gfe | d4 ef | gf ed B2 |1 c4 :|2 c6 |]
+[V:2] |:  f2 | ed e2 (3edc | B4 c2 | dc d2 e2 |1 f4 :|2 f6 |]
+[V:3] |:  F2 | A4    A2    | G4 A2 | G4    G2 |1 F4 :|2 F6 |]
+S:https://www.folktunefinder.com/tunes/82358
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07658.html
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

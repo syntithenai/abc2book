@@ -1,0 +1,28 @@
+X:40
+T:Dwyer's Hornpipe
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:hornpipe
+H:This was a great favourite as a dance tune, and I learned it in boyhood
+H:from pipers and fiddlers.
+L:1/8
+M:C
+Z:Allan Garvin
+K:G
+DE|G2 GA G2 Bd|e2 de gedB|e2 de gedB|A2 AA ABGE|
+G2 GA G2 Bd|edef gfed|egde BdAB|G2 GG G2:|
+|:(3def|g2 g2 a2 a2 bage e2 dB|e2 de gedB|A2 AA ABGE|
+gfgb agac'|bage e2 dB|egde BdAB|G2 GG G2||"When turning on 1st part"\
+G2 GA GEDE|
+S:https://www.folktunefinder.com/tunes/82160
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/DwyersHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/AllanGarvin/DwyersHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

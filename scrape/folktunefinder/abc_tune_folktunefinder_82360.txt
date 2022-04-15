@@ -1,0 +1,30 @@
+X:2
+T: He Diex! quant verrai
+T: Adam de la Halle
+M:3/4
+L:1/8
+P:ABAAABAB
+K:F Lydian -8va
+V:1 name=Tr
+P:A
+c4  fg | a4    (3gfe | d4 \
+V:2 name=Du
+f4  f2 | ed e2 (3edc | B4 \
+V:3 name=Te
+F4  F2 | A4    A2    | G4 \
+V:1 name=Tr
+P:B
+ef | gf ed B2 | c6|]
+V:2 name=Du
+c2 | dc d2 e2 | f6|]
+V:3 name=Te
+A2 | G4    G2 | F6|]
+S:https://www.folktunefinder.com/tunes/82360
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07654.html
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

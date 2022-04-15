@@ -1,0 +1,29 @@
+X:121
+T: ES REGNET AUF DER BRUECKE
+N: K2170
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: F
+C | FGAB | c2A
+A | B2c2 | A2z
+C | FGAB | c2A
+A | B2c2 | A2z
+c | BBGG | AAA
+c | BBGG | AAA2
+B2G2 | A2F2
+BBGG | A2F2
+FGAB | c2z
+d | cBAG | F2z
+S:https://www.folktunefinder.com/tunes/82481
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:33
+T:Ye Natives of the Nation
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song
+H:  To this air there was a violent political and Jacobite song, composed by a
+H:man named Barnaby O'Hanlon, a turner, a native of Donegal, who settled down
+H:and worked in our neighbourhood for some time.  I learned both air and words
+H:in my childhood by merely hearing the people about me singing the song.  I
+H:give two half verses here; but I have a full copy.
+W:  Our ancestors formerly great valour they have shown,
+W:  Great exploits for Ireland's rights since James's war was known;
+W:  Likewise the valiant Sarsfield his losses did bemoan,
+W:  When he reproved St. Ruth for the losing of Athlone.
+W:
+H:  Referring to the destruction of King William's artillery train by
+H:Sarsfield (Lord Lucan), during the siege of Limerick, this peasant song
+H:has the following striking passage:
+W:  We rode with brave Lord Lucan before the break of day,
+W:  Until we came to Kinmagown where the arttillery lay;
+W:  Then God He cleared the firmament, the moon and stars gave light,
+W:  And for the battle of the Boyne we had revenge that night.
+H:See the ballad in "Ballads of Irish Chivalry," by Robert. D. Joyce, M.D.,
+H:p. 11.  Any History of Ireland will tell about the loss of Athlone and
+H:the destruction of King William's siege train.
+L:1/8
+M:C
+K:F
+"Bold"c/A/|F2 FF F>GAB|ccf>d c3 A|B>BBB AcBA|A>GGG {A}c AG|
+F2 FF F>GAB|ccfd c3 A|BcdB AcAF|BDFE F3||c|
+d>ccc {d}e2 f>d|dcc>c c3 e|fedc AcBA|G>FGA {A}c>BAG|
+F2 FF F>GAB|ccfd c3 A|BcdB AcAF|BGFE F3||
+S:https://www.folktunefinder.com/tunes/81924
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

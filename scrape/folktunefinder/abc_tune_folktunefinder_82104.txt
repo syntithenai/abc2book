@@ -1,0 +1,25 @@
+X:353
+T:The Major
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+N:See #347 for history
+R:song air
+A:Limerick
+O:Irish
+L:1/8
+M:6/8
+K:C
+dc|\
+BBB BBB|c2 A A2 G|F2 A A2 F|g3 fdc|
+BBB BBB|c2 A dcA/G/|F2 G AFA|{f}g3 g2::G|
+A2 g fde|f2 d def|g2 g agf|f Hg2 fdc|
+B2 g fde|f2 d def|g2 g agf|f g2 fdc||
+S:https://www.folktunefinder.com/tunes/82104
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

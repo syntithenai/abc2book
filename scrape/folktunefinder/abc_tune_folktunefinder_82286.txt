@@ -1,0 +1,32 @@
+X:286
+T:Barrow Boatman's Song
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:The 18 airs that follow (as far as "Brave Donnelly") have been sent to me
+H:during the last seven or eight years by Mr. Patrick O'Leary of
+H:Graignamanagh, Co. Kilkenny, a good amateur musician with a great knowledge
+H:of the popular airs of that part of Ireland.  Most of these he wrote down
+H:from his own memory.
+H:
+H:Taken down by Mr. O'Leary while the man was rowing and singing.
+A:Kilkenny
+O:Irish
+L:1/8
+M:6/8
+Z:Allan Garvin
+K:G
+FG|\
+A2 g2 f2|e2 A2 GE|F2 G2 G2|G4 fg|
+e2 B2 gf|e2 d2 cB|A2 B2 G2|E4 fg|
+e2 B2 gf|e2 d2 cB|A2 B2 G2|E4 FG|
+A2 e2 AB|G2 E2 D2|E2 G2 G2|G4||
+S:https://www.folktunefinder.com/tunes/82286
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/All.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/BarrowBoatmansSong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:104
+T: WIR TRETEN AUF DIE KETTE
+N: K2096
+O: Europa, Mitteleuropa, Deutschland, Kassel
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/16
+K: F
+C2 | F2G2A2B2 | c4f4
+A2A2G2G2 | F4z2
+C2 | F2G2A2B2 | c4f4
+A2A2G2G2 | F4z4
+c2c2B2B2 | A2A2G4
+c2c2B2B2 | A4z4
+c2c2c2c2 | d2d2d4
+B2B2B2B2 | c2c2c2
+d2 | c3BA2d2 | c3BA2
+A2 | G2G2G2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/82464
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

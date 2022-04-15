@@ -1,0 +1,25 @@
+X:30
+T: HEIJO WOERN WIR DO
+N: K0115A
+O: Europa, Mitteleuropa, Deutschland, Ruhrgebiet
+R: Kinder -, Wiegen - Lied
+M: 2/4
+L: 1/16
+K: F
+ | c4A4 | c2c2A4
+c2c2AAd2 | c4A4
+c2c2A2d2 | c4A4
+F2G2A2B2 | c2c2c4
+d2c2B2AA | G2GGF4
+F2G2AAB2 | G2G2F4
+S:https://www.folktunefinder.com/tunes/82390
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:52
+T: O DU KLEINER KLADRIAN
+N: K0641
+O: Europa, Mitteleuropa, Deutschland, Bergisches Land
+R: Kinder -, Tier - Lied
+M: 2/4
+L: 1/8
+K: G
+ | GGFD | GGD
+D | GGFA | G2Dz
+GGFD | AAA2
+GGFA | G2D
+D | GGDD | GGD2
+GGFD | AAA
+A | GGFA | G2Dz
+S:https://www.folktunefinder.com/tunes/82412
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, tier - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

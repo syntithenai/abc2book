@@ -1,0 +1,25 @@
+X:4
+T: SCHLOAP KINNEKEN SCHLOAP
+N: K0017
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: Kinder -, Wiegen - Lied
+M: 2/4
+L: 1/16
+K: F
+ | c4AAG2 | F4z2
+F2 | c3BA2G2 | F4z2
+FF | A2G2A2c2 | B2A2G4
+A2G2A2c2 | B2A2G4
+c4AAG2 | F4z4
+S:https://www.folktunefinder.com/tunes/82364
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

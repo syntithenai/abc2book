@@ -1,0 +1,374 @@
+X: 35
+T: Sicilian Tarantella
+M: 6/8
+L: 1/8
+Q:1/4=170
+% Last note suggests minor mode tune
+K:F % 1 flats
+% Sicilian Tarantella
+% (c) SSF February 2006
+V:1
+z6| z3 Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+fed Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+d2z Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+fed Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+d2z aba| \
+gef gag| \
+fde fgf|
+e_d=d efg| \
+afd a2a| \
+gef gag| \
+fde fgf|
+eba gfe| \
+d2z aba| \
+gef gag| \
+fde fgf|
+e_d=d efg| \
+afd a2a| \
+gef gag| \
+fde fgf|
+eba gfe| \
+d2z DFA| \
+dz2 dz2| \
+d3 zcB|
+ABA GFE| \
+EAE D2z| \
+dz2 dz2| \
+d3 zcB|
+ABA GFE| \
+D2z DFA| \
+dz2 dz2| \
+d3 zcB|
+ABA GFE| \
+EAE D2z| \
+dz2 dz2| \
+d3 zcB|
+ABA GFE| \
+D2z2AB| \
+cAF cAF| \
+cAF cdc|
+BAG BAG| \
+cAF zAB| \
+cAF cAF| \
+cAF c=Bc|
+edc _BAG| \
+F3/2z2z/2AB| \
+cAF cAF| \
+cAF cdc|
+BAG BAG| \
+cAF zAB| \
+cAF cAF| \
+cAF c=Bc|
+edc _BAG| \
+F3/2z2z/2FE| \
+DzD2DF| \
+AzA2zA|
+GEF GAG| \
+FED zFE| \
+DzD2DF| \
+AzA2_A=A|
+cBA GFE| \
+D2z2FE| \
+DzD2DF| \
+AzA2zA|
+GEF GAG| \
+FED zFE| \
+DzD2DF| \
+AzA2_A=A|
+cBA GFE| \
+D2z4| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z3 Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+fed Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+d2z Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+fed Ade| \
+f3/2g/2f e3/2f/2e| \
+d2a eaa|
+eaa eaa| \
+d2
+V:2
+z6| z6| D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] G,z[dBG]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+A,,z[GE_DA,] =D,z[AFD]| \
+D,z[AFD] G,z[dBG]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] z3| \
+D,z[AFD] G,z[dBG]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+A,,z[GE_DA,] =D,z[AFD]| \
+D,z[AFD] G,z[dBG]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] z3| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]|
+C,z[BGEC] C,z[BGEC]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]|
+C,z[BGEC] C,z[BGEC]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]|
+C,z[BGEC] C,z[BGEC]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]| \
+F,z[cAF] F,z[cAF]|
+C,z[BGEC] C,z[BGEC]| \
+F,z[cAF] F,z[cAF]| \
+D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]| \
+D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] z3| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]| \
+D,z[AFD] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+A,,z[GE_DA,] A,,z[GE_DA,]| \
+=D,z[AFD] D,z[AFD]|
+%  <A name="D1X36">
+S:https://www.folktunefinder.com/tunes/81708
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

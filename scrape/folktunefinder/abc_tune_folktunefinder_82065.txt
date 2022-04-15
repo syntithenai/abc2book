@@ -1,0 +1,25 @@
+X:299
+T:Tinnehinch Castle
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+N:See #286 for history
+A:Kilkenny
+O:Irish
+R:tune
+M:3/4
+K:G
+L:1/4
+D|G B d|g f g|e d B|A2 B|G2 z/f/|g f e|
+d e g|a b g|e d B|HA2 ((3d/e/f/)|g f e|d f g|a b g|
+d e f|g2 B/A/|G B d|g f g|e d B|A2 G|G2||
+S:https://www.folktunefinder.com/tunes/82065
+S:http://trillian.mit.edu/~jc/music/abc/mirror/AllanGarvin/20010816.abc
+% Rhythm Tune
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

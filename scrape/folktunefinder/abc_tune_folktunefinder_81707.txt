@@ -1,0 +1,182 @@
+X: 34
+T: Neapolitan Tarantella
+M: 6/8
+L: 1/8
+Q:1/4=170
+% Last note suggests minor mode tune
+K:C % 0 sharps
+% Neapolitan Tarantella
+% (c) SSF February 2006
+V:1
+z6| z3 a2a| \
+e2e a2a| \
+e2e e2e|
+f2f fgf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2z a2a| \
+e2e a2a| \
+e2e e2e|
+f2f fgf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2z A2B| \
+cBc dcB| \
+cBc dcB|
+cBA ^GAB| \
+A2z A2B| \
+cBc dcd| \
+ede fed|
+cBA ^GAB| \
+A2z A2B| \
+cBc dcB| \
+cBc dcB|
+cBA ^GAB| \
+A2z A2B| \
+cBc dcd| \
+ede fed|
+cBA ^GAB| \
+A2z a2a| \
+e2e a2a| \
+e2e e2e|
+f2f f=gf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2z a2a| \
+e2e a2a| \
+e2e e2e|
+f2f fgf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2z GAB| \
+cBc ece| \
+g2g gag|
+g2f fgf| \
+f2e GAB| \
+cBc ece| \
+g2g g^fg|
+bag =fed| \
+c2z GAB| \
+cBc ece| \
+g2g gag|
+g2f fgf| \
+f2e GAB| \
+cBc ece| \
+g2g g^fg|
+bag =fed| \
+c2z a2a| \
+e2e a2a| \
+e2e e2e|
+f2f fgf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2z a2a| \
+e2e a2a| \
+e2e e2e|
+f2f fgf| \
+f2e efe| \
+e2d ded| \
+d2c cdc|
+c2B c2B| \
+A2
+V:2
+z6| z6| A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+A,,z[ECA,] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+A,,z[ECA,] E,z[dB^GE]| \
+A,,z[ECA,] z3| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+A,,z[ECA,] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] D,z[AFD]| \
+A,,z[ECA,] D,z[AFD]|
+A,,z[ECA,] E,z[dB^GE]| \
+A,,z[ECA,] z3| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] =G,z[fdBG]| \
+C,z[GEC] C,z[GEC]| \
+C,z[GEC] C,z[GEC]|
+G,z[fdBG] G,z[fdBG]| \
+C,z[GEC] G,z[fdBG]| \
+C,z[GEC] C,z[GEC]| \
+C,z[GEC] C,z[GEC]|
+G,z[fdBG] G,z[fdBG]| \
+C,z[GEC] G,z[fdBG]| \
+C,z[GEC] C,z[GEC]| \
+C,z[GEC] C,z[GEC]|
+G,z[fdBG] G,z[fdBG]| \
+C,z[GEC] G,z[fdBG]| \
+C,z[GEC] C,z[GEC]| \
+C,z[GEC] C,z[GEC]|
+G,z[fdBG] G,z[fdBG]| \
+C,z[GEC] z3| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]| \
+A,,z[ECA,] A,,z[ECA,]|
+D,z[AFD] D,z[AFD]| \
+A,,z[ECA,] A,,z[ECA,]| \
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] A,,z[ECA,]|
+E,z[dB^GE] E,z[dB^GE]| \
+A,,z[ECA,] 
+%  <A name="D1X35">
+S:https://www.folktunefinder.com/tunes/81707
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

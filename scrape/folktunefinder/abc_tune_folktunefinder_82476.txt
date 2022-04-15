@@ -1,0 +1,26 @@
+X:116
+T: DREIMAL UM DAS KAESTCHEN
+N: K2166
+O: Europa, Mitteleuropa, Deutschland, Oberdiebach am Rhein
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/8
+K: G
+ | ddee | d2B
+G | dddd | g2z
+G | ddee | d2d2
+d2d2 | g2z
+G | ddAe | ddB
+G | dddG | d2d
+G | dddG | ddd
+G | dded | d2d2
+S:https://www.folktunefinder.com/tunes/82476
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

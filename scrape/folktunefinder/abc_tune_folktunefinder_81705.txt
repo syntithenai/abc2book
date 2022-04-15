@@ -1,0 +1,85 @@
+X: 32
+T: Earl of Morton's Jig
+M: 6/8
+L: 1/8
+Q:1/4=155
+K:C % 0 sharps
+% Earl of Morton's Jig
+% (c) SSF February 2006
+V:1
+z6| zFE/2F/2 GGc| \
+dcB ABc| \
+GEF dFE|
+cEd DDD-| \
+DFE/2F/2 GGc| \
+dc2<B2c| \
+GEF EFD|
+GFE CCC-| \
+CFE/2F/2 GGc| \
+dcB ABc| \
+GEF dFE|
+cEd DDD-| \
+DFE/2F/2 GGc| \
+dc2<B2c| \
+GEF EFD|
+GFE CCC-| \
+Cfe ccg| \
+cca ccg| \
+cce ccg|
+ccf ddd-| \
+dfe ccg| \
+cca ccg| \
+ccf efd|
+gfe ccc-| \
+cfe ccg| \
+cca ccg| \
+cce ccg|
+ccf ddd-| \
+dG/2F/2
+E/2F/2 GGc| \
+dc2<B2c| \
+GEF EFD|
+GFE CCC-|C
+V:2
+z6| z2C, z[GEC]C,| \
+z[GEC]G, z[dBG]C,| \
+z[GEC]G, z[fdBG]C,|
+z[GEC]G, z[fdBG]G,| \
+z[fdBG]C, z[GEC]C,| \
+z[GEC]G, z[dBG]C,| \
+z[GEC]G, z[fdBG]G,|
+z[fdBG]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]G, z[dBG]C,| \
+z[GEC]G, z[fdBG]C,|
+z[GEC]G, z[fdBG]G,| \
+z[fdBG]C, z[GEC]C,| \
+z[GEC]G, z[dBG]C,| \
+z[GEC]G, z[fdBG]G,|
+z[fdBG]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,|
+z[GEC]G, z[fdBG]G,| \
+z[fdBG]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]G, z[fdBG]G,|
+z[fdBG]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,| \
+z[GEC]C, z[GEC]C,|
+z[GEC]G, z[fdBG]G,| \
+z[fdBG]C, z[GEC]C,| \
+z[GEC]G, z[dBG]C,| \
+z[GEC]G, z[fdBG]G,|
+z[fdBG]C, z[GEC]C,| \
+z[GEC]
+%  <A name="D1X33">
+S:https://www.folktunefinder.com/tunes/81705
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

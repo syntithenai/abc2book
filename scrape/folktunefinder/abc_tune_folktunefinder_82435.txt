@@ -1,0 +1,23 @@
+X:75
+T: HEI WAS BIN I A LUSTIGER BUA
+N: K1263
+O: Europa, Mitteleuropa, Deutschland
+R: Kinder - Lied, Zaehl - Geschichte
+M: 6/8
+L: 1/8
+K: C
+ | C2CG,G,G, | A,A,A,G,2
+G, | A,A,A,B,B,B, | C3G,3
+C2CG,G,G, | A,2A,G,3
+A,2A,B,B,B, | C2CG,2
+G, | G,A,B,C3
+S:https://www.folktunefinder.com/tunes/82435
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, zaehl - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

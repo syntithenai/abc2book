@@ -1,0 +1,24 @@
+X:67
+T: REGEN REGEN SCHUREN
+N: K1024
+O: Europa, Mitteleuropa, Deutschland, Ruhrgebiet, Kettwig
+R: Kinder -, Natur -, Regen - Lied
+M: 2/4
+L: 1/8
+K: G
+ | GGAA | B2G
+D | GGAA | B2G
+G | BBAG | B2B
+B | AAAB | G2G
+B | A2GB | A2Gz
+dGGG | GFG2
+S:https://www.folktunefinder.com/tunes/82427
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder -, natur -, regen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords
